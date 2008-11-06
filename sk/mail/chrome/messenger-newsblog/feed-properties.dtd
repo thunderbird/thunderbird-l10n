@@ -7,7 +7,7 @@
 <!ENTITY feedLocation.label "Adresa kanála RSS:">
 <!ENTITY feedLocation.accesskey "A">
 
-<!ENTITY choosethisfolder.label "vybrať tento priečinok">
+<!ENTITY choosethisfolder.label "Zvoliť tento priečinok">
 
 <!ENTITY quickMode.label "Zobraziť stručný obsah príspevku namiesto načítania celej webovej stránky">
 <!ENTITY quickMode.accesskey "Z">
