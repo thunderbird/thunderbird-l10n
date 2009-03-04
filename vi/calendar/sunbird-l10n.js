@@ -11,11 +11,11 @@
 # for the specific language governing rights and limitations under the
 # License.
 #
-# The Original Code is mozilla.org code.
+# The Original Code is the Firefox browser.
 #
 # The Initial Developer of the Original Code is
-# Netscape Communications Corporation.
-# Portions created by the Initial Developer are Copyright (C) 1998
+# Benjamin Smedberg <bsmedberg@covad.net>
+# Portions created by the Initial Developer are Copyright (C) 2004
 # the Initial Developer. All Rights Reserved.
 #
 # Contributor(s):
@@ -34,38 +34,22 @@
 #
 # ***** END LICENSE BLOCK *****
 
-#
-# The following are used by libmime for header display in XML & HTML
-#
-TO=Tới
-# LOCALIZATION NOTE (BCC); DONT_TRANSLATE
-BCC=BCC
-# LOCALIZATION NOTE (CC); DONT_TRANSLATE
-CC=CC
-DATE=Ngày
-DISTRIBUTION=Phân phối
-# LOCALIZATION NOTE (FCC); DONT_TRANSLATE
-FCC=FCC
-FOLLOWUP-TO=Trả lời Tin tại
-FROM=Từ
-STATUS=Trạng thái
-LINES=Dòng
-MESSAGE-ID=ID Thư
-MIME-VERSION=Phiên bản MIME
-NEWSGROUPS=Nhóm tin
-ORGANIZATION=Tổ chức
-REFERENCES=Tham khảo
-REPLY-TO=Trả lời Tới
-RESENT-COMMENTS=Gửi tiếp - Bình luận
-RESENT-DATE=Gửi tiếp - Ngày
-RESENT-FROM=Gửi tiếp - Từ
-RESENT-MESSAGE-ID=Gửi tiếp - ID Thư
-RESENT-SENDER=Gửi tiếp - Nhờ
-RESENT-TO=Gửi tiếp - Tới
-# LOCALIZATION NOTE (RESENT-CC); Do not translate "CC"
-RESENT-CC=Gửi tiếp - CC
-SENDER=Người gửi Cho
-SUBJECT=Tiêu đề
-APPROVED-BY=Chấp-thuận-Bởi
-USER-AGENT=Chương Trình Gửi
-FILENAME=Tên tập tin
+#filter substitution
+
+# the default day to start the week on
+#0=Sunday 1=Monday 2=Tuesday 3=Wednesday 4=Thursday 5=Friday 6=Saturday
+pref("calendar.week.start", 0);
+
+# default days off (not in work week)
+pref("calendar.week.d0sundaysoff", true);
+pref("calendar.week.d1mondaysoff", false);
+pref("calendar.week.d2tuesdaysoff", false);
+pref("calendar.week.d3wednesdaysoff", false);
+pref("calendar.week.d4thursdaysoff", false);
+pref("calendar.week.d5fridaysoff", false);
+pref("calendar.week.d6saturdaysoff", true);
+
+pref("general.useragent.locale", "@AB_CD@");
+
+# categories
+pref("calendar.categories.names", "Anniversary,Birthday,Business,Calls,Clients,Competition,Customer,Favorites,Follow up,Gifts,Holidays,Ideas,Issues,Meeting,Miscellaneous,Personal,Projects,Public Holiday,Status,Suppliers,Travel,Vacation");
