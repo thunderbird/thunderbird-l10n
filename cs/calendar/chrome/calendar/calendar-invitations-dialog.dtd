@@ -36,7 +36,7 @@
 
 <!-- Calendar Invitations Dialog -->
 <!ENTITY calendar.invitations.dialog.invitations.text "Pozvání">
-<!ENTITY calendar.invitations.dialog.statusmessage.updating.text "Aktualizuji seznam pozvání.">
+<!ENTITY calendar.invitations.dialog.statusmessage.updating.text "Aktualizace seznamu pozvání.">
 <!ENTITY calendar.invitations.dialog.statusmessage.noinvitations.text "Nepotvrzené pozvání nenalezeno.">
 
 <!-- Calendar Invitations List -->
