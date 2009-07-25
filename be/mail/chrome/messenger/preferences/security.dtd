@@ -1,5 +1,5 @@
 <!ENTITY itemJunk.label "Лухта">
-<!ENTITY itemPhishing.label "Э-паштовае ашуканства">
+<!ENTITY itemPhishing.label "Э-паштовыя ашуканствы">
 <!ENTITY itemPasswords.label "Паролі">
 <!ENTITY itemAntiVirus.label "Антывірус">
 <!ENTITY junkMail.intro "Прызначэнне змоўчных наладжванняў пошты-лухты. Асаблівыя для рахункаў наладжванні могуць быць вызначаны ў Наладжваннях Рахунку.">
@@ -22,16 +22,14 @@
 <!ENTITY enablePhishingDetector1.accesskey "П">
 <!ENTITY useDownloadedList.label "Карыстацца загружаным спісам э-паштовых ашукаў">
 <!ENTITY useDownloadedList.accesskey "К">
-<!ENTITY savedPasswords.intro "&brandShortName; можа запомніць парольныя звесткі ўсіх вашых рахункаў, такім чынам няма патрэбы кожны раз уводзіць падрабязнасці вашага ўваходу.">
-<!ENTITY encryptEnabled.label "Ужываць галоўны пароль для шыфравання захованых пароляў.">
-<!ENTITY encryptEnabled.accesskey "г">
-<!ENTITY masterPassword.intro "Прызначаны галоўны пароль абараняе ўсе вашы паролі - аднак вы мусіце ўвесці яго аднойчы за сэсію.">
-<!ENTITY setMasterPassword.label "Галоўны пароль">
-<!ENTITY setMasterPassword.accesskey "Г">
-<!ENTITY removeMasterPassword.label "Выдаліць галоўны пароль…">
-<!ENTITY removeMasterPassword.accesskey "В">
-<!ENTITY editPasswords.label "Правіць захаваныя паролі">
-<!ENTITY editPasswords.accesskey "р">
+<!ENTITY savedPasswords.intro "&brandShortName; можа запомніць паролі для ўсіх вашых рахункаў.">
+<!ENTITY useMasterPassword.label "Ужываць галоўны пароль">
+<!ENTITY useMasterPassword.accesskey "г">
+<!ENTITY masterPassword.intro "Галоўны пароль абараняе ўсе вашы паролі - аднак вы мусіце ўвесці яго аднойчы за сэсію.">
+<!ENTITY changeMasterPassword.label "Змяніць галоўны пароль…">
+<!ENTITY changeMasterPassword.accesskey "м">
+<!ENTITY savedPasswords.label "Захаваныя паролі…">
+<!ENTITY savedPasswords.accesskey "З">
 <!ENTITY antiVirus.intro "&brandShortName; можа палегчыць антывірусным праграмам аналіз уваходных паштовых лістоў да іх мясцовага захавання.">
 <!ENTITY antiVirus.label "Дазволіць спажыўцам-антывірусам змяшчаць асобныя ўваходныя лісты ў карантын">
 <!ENTITY antiVirus.accesskey "в">
