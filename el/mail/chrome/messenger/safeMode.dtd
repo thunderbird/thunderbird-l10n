@@ -1,4 +1,5 @@
 <!-- ***** BEGIN LICENSE BLOCK *****
+#if 0
    - Version: MPL 1.1/GPL 2.0/LGPL 2.1
    -
    - The contents of this file are subject to the Mozilla Public License Version
@@ -11,17 +12,14 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is  Mozilla Communicator client code, released
-   - March 31, 1998.
+   - The Original Code is mozilla.org Code.
    -
-   - The Initial Developer of the Original Code is
-   - Netscape Communications Corporation
-   - Portions created by the Initial Developer are Copyright (C) 1998-1999
+   - The Initial Developer of the Original Code is Mike Connor.
+   - Portions created by the Initial Developer are Copyright (C) 2005
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Fabian Guisset <hidday@geocities.com>
-   -   
+   -   Mike Connor <mconnor@steelgryphon.com>
    -   
    -
    - Alternatively, the contents of this file may be used under the terms of
@@ -36,15 +34,17 @@
    - the provisions above, a recipient may use your version of this file under
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
+#endif
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY newFolderDialog.title "Νέος Φάκελος">
-<!ENTITY name.label "Όνομα:">
-<!ENTITY name.accesskey "ν">
-<!ENTITY description.label "Δημιουργία ως υποφακέλου σε:">
-<!ENTITY description.accesskey "π">
-<!ENTITY folderRestriction1.label "Σε αυτόν τον διακομιστή υποστηρίζονται μόνο δύο είδη φακέλων">
-<!ENTITY folderRestriction2.label "Καθορίστε αν ο νέος φάκελος θα περιέχει:">
-<!ENTITY foldersOnly.label "Μόνο φάκελους">
-<!ENTITY messagesOnly.label "Μόνο μηνύματα">
-<!ENTITY accept.label "Δημιουργία φακέλου">
-<!ENTITY accept.accesskey "μ">
+<!ENTITY safeModeDialog.title "Ασφαλής λειτουργία &brandShortName;">
+<!ENTITY window.width "39em">
+<!ENTITY safeModeDescription.label "Ο &brandShortName; εκτελείται τώρα σε ασφαλή λειτουργία Mode,ή οποία απενεργοποιεί προσωρινά όλα τις ρυθμίσεις, θέματα και επεκτάσεις.">
+<!ENTITY safeModeDescription2.label "Μπορείτε να μονιμοποιήσετε κάποιες ή όλες τις αλλαγές:">
+<!ENTITY disableAddons.label "Απενεργοποίηση όλων των προσθέτων">
+<!ENTITY disableAddons.accesskey "π">
+<!ENTITY resetToolbars.label "Επαναφορά όλων των εργαλειοθηκών και των στοιχείων ελέγχου">
+<!ENTITY resetToolbars.accesskey "φ">
+<!ENTITY changeAndRestartButton.label "Αποθήκευση αλλαγών και επανεκκίνηση">
+<!ENTITY changeAndRestartButton.accesskey "θ">
+<!ENTITY continueButton.label "Συνέχιση σε ασφαλή λειτουργία">
+<!ENTITY continueButton.accesskey "χ">
