@@ -117,6 +117,8 @@
 <!ENTITY deleteAllAttachmentsCmd.label    "Összes törlése...">
 <!ENTITY deleteAllAttachmentsCmd.accesskey    "t">
 
+<!ENTITY openAttachment.tooltip "Csatolt fájl megnyitása">
+
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "Mentés">
 <!ENTITY saveAttachmentButton1.tooltip     "Csatolt fájl mentése">

@@ -23,8 +23,10 @@
 <!ENTITY newVirtualFolderCmd.accesskey "k">
 <!ENTITY newOtherAccountsCmd.label "Más fiókok...">
 <!ENTITY newOtherAccountsCmd.accesskey "f">
-<!ENTITY newEmailAccountCmd.label "Postafiók...">
-<!ENTITY newEmailAccountCmd.accesskey "P">
+<!ENTITY newCreateEmailAccountCmd.label "Új postafiók létrehozása...">
+<!ENTITY newCreateEmailAccountCmd.accesskey "o">
+<!ENTITY newExistingEmailAccountCmd.label "Meglévő postafiók...">
+<!ENTITY newExistingEmailAccountCmd.accesskey "M">
 <!ENTITY openMessageFileCmd.label "Mentett üzenet megnyitása...">
 <!ENTITY openMessageFileCmd.accesskey "e">
 <!ENTITY openAttachmentCmd.label "Mellékletek">
@@ -134,6 +136,8 @@
 <!ENTITY messagePaneWide.accesskey "S">
 <!ENTITY messagePaneVertical.label "Függőleges nézet">
 <!ENTITY messagePaneVertical.accesskey "F">
+<!ENTITY showFolderPaneCmd.label "Mappa ablaktábla">
+<!ENTITY showFolderPaneCmd.accesskey "M">
 <!ENTITY showMessageCmd.label "Üzenetablak">
 <!ENTITY showMessageCmd.accesskey "Ü">
 
@@ -316,7 +320,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY prevUnreadMsgCmd.label "Olvasatlan üzenet">
 <!ENTITY prevUnreadMsgCmd.accesskey "O">
 <!ENTITY prevUnreadMsgCmd.key "p">
-<!ENTITY goForwardCmd.label "Továbbítás">
+<!ENTITY goForwardCmd.label "Előre">
 <!ENTITY goForwardCmd.accesskey "E">
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY goBackCmd.label "Vissza">
@@ -501,7 +505,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY nextButton.label "Következő">
 <!ENTITY previousButton.label "Előző">
 <!ENTITY backButton1.label "Vissza">
-<!ENTITY goForwardButton1.label "Továbbítás">
+<!ENTITY goForwardButton1.label "Előre">
 <!ENTITY deleteItem.title "Törlés">
 <!ENTITY deleteButton.label "Törlés">
 <!ENTITY undeleteButton.label "Visszaállítás">

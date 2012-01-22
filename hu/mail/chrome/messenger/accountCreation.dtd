@@ -49,6 +49,8 @@
 <!ENTITY half-manual-test.accesskey      "t">
 <!ENTITY manual-edit.label               "Kézi beállítás">
 <!ENTITY manual-edit.accesskey           "K">
+<!ENTITY switch-to-provisioner.label     "Új postafiók létrehozása">
+<!ENTITY switch-to-provisioner.accesskey "o">
 
 
 <!ENTITY warning.label                   "Vigyázat!">
