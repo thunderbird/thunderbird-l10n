@@ -11,19 +11,14 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
+   - The Original Code is Mozilla Calendar code.
    -
    - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
+   -   Philipp Kewisch <mozilla@kewis.ch>
+   - Portions created by the Initial Developer are Copyright (C) 2011
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Mike Potter <mikep@oeone.com>
-   -   ArentJan Banck <ajbanck@planet.nl>
-   -   Eric Belhaire <belhaire@ief.u-psud.fr>
-   -   Matthew Willis <mattwillis@gmail.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -39,15 +34,9 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  prefWindow.titleWin     "Beállítások">
-<!ENTITY  prefWindow.titleGNOME   "A &brandShortName; beállításai">
-<!ENTITY  prefWindow.styleWin     "width: 47em; height: 37em;">
-<!ENTITY  prefWindow.styleMac     "width: 47em;">
-<!ENTITY  prefWindow.styleGNOME   "width: 47em; height: 34.5em;">
+<!ENTITY lightning.toolbar.calendar.name "Naptár eszköztár">
+<!ENTITY lightning.toolbar.calendar.accesskey "N">
+<!ENTITY lightning.toolbar.task.name "Feladat eszköztár">
+<!ENTITY lightning.toolbar.task.accesskey "F">
 
-<!ENTITY  paneGeneral.title       "Általános">
-<!ENTITY  paneAlarms.title        "Emlékeztetők">
-<!ENTITY  paneCategories.title    "Kategóriák">
-<!ENTITY  paneViews.title         "Nézetek">
-<!ENTITY  paneTimezones.title     "Időzóna">
-<!ENTITY  paneAdvanced.title      "Haladó">
+<!ENTITY lightning.toolbar.sync.label "Szinkronizálás">
