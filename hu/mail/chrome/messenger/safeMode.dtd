@@ -1,4 +1,5 @@
 <!-- ***** BEGIN LICENSE BLOCK *****
+#if 0
    - Version: MPL 1.1/GPL 2.0/LGPL 2.1
    -
    - The contents of this file are subject to the Mozilla Public License Version
@@ -11,19 +12,14 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
+   - The Original Code is mozilla.org Code.
    -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
+   - The Initial Developer of the Original Code is Mike Connor.
+   - Portions created by the Initial Developer are Copyright (C) 2005
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Mike Potter <mikep@oeone.com>
-   -   ArentJan Banck <ajbanck@planet.nl>
-   -   Eric Belhaire <belhaire@ief.u-psud.fr>
-   -   Matthew Willis <mattwillis@gmail.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
+   -   Mike Connor <mconnor@steelgryphon.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -37,17 +33,23 @@
    - the provisions above, a recipient may use your version of this file under
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
+#endif
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  prefWindow.titleWin     "Beállítások">
-<!ENTITY  prefWindow.titleGNOME   "A &brandShortName; beállításai">
-<!ENTITY  prefWindow.styleWin     "width: 47em; height: 37em;">
-<!ENTITY  prefWindow.styleMac     "width: 47em;">
-<!ENTITY  prefWindow.styleGNOME   "width: 47em; height: 34.5em;">
+<!ENTITY safeModeDialog.title             "&brandShortName; csökkentett mód">
+<!ENTITY window.width                     "46em">
 
-<!ENTITY  paneGeneral.title       "Általános">
-<!ENTITY  paneAlarms.title        "Emlékeztetők">
-<!ENTITY  paneCategories.title    "Kategóriák">
-<!ENTITY  paneViews.title         "Nézetek">
-<!ENTITY  paneTimezones.title     "Időzóna">
-<!ENTITY  paneAdvanced.title      "Haladó">
+<!ENTITY safeModeDescription.label        "A &brandShortName; most csökkentett módban fut, ideiglenesen tiltva vannak az egyéni beállítások, témák és kiterjesztések.">
+<!ENTITY safeModeDescription2.label       "A változtatások némelyikét vagy mindegyikét állandóvá teheti:">
+
+<!ENTITY disableAddons.label              "Minden kiegészítő letiltása">
+<!ENTITY disableAddons.accesskey          "M">
+
+<!ENTITY resetToolbars.label              "Eszköztárak és vezérlőelemek alaphelyzetbe állítása">
+<!ENTITY resetToolbars.accesskey          "E">
+
+<!ENTITY changeAndRestartButton.label     "Változtatások végrehajtása és újraindítás">
+<!ENTITY changeAndRestartButton.accesskey "V">
+
+<!ENTITY continueButton.label             "Folytatás csökkentett módban">
+<!ENTITY continueButton.accesskey         "F">
