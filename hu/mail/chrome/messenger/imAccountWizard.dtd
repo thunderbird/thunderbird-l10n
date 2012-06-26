@@ -1,28 +1,29 @@
-<!ENTITY windowTitle.label            "Chat Account Wizard">
+<!ENTITY windowTitle.label            "Csevegőfiók varázsló">
 
-<!ENTITY accountProtocolTitle.label   "Chat network">
-<!ENTITY accountProtocolInfo.label    "Please choose the network of your chat account.">
+<!ENTITY accountProtocolTitle.label   "Csevegőhálózat">
+<!ENTITY accountProtocolInfo.label    "Válassza ki a csevegőfiók hálózatát.">
 <!ENTITY accountProtocolField.label   "Hálózat:">
-<!ENTITY accountProtocolGetMore.label "Get more...">
+<!ENTITY accountProtocolGetMore.label "Még több...">
 
-<!ENTITY accountUsernameTitle.label   "Username">
-<!ENTITY accountUsernameDuplicate.label "This account is already configured!">
+<!ENTITY accountUsernameTitle.label   "Felhasználónév">
+<!ENTITY accountUsernameDuplicate.label "Ez a fiók már be van állítva!">
 
 <!ENTITY accountPasswordTitle.label   "Jelszó">
-<!ENTITY accountPasswordInfo.label    "Please enter your password in the box below.">
+<!ENTITY accountPasswordInfo.label    "Adja meg jelszavát az alábbi mezőben.">
 <!ENTITY accountPasswordField.label   "Jelszó:">
-<!ENTITY accountPasswordManager.label "The password entered here will be stored in the Password Manager. Leave this box empty if you want to be prompted for your password each time this account is connected.">
+<!ENTITY accountPasswordManager.label "Az itt megadott jelszót a Jelszókezelő fogja tárolni. Hagyja üresen ezt a mezőt, ha a jelszavát a fiók minden csatlakoztatásakor be szeretné kéretni.
+">
 
 <!ENTITY accountAdvancedTitle.label   "Haladó beállítások">
-<!ENTITY accountAdvancedInfo.label    "Feel free to skip this step if you want to.">
-<!ENTITY accountAdvanced.newMailNotification.label   "Notify on new Mail">
-<!ENTITY accountAliasGroupbox.caption "Local Alias">
-<!ENTITY accountAliasField.label      "Alias:">
-<!ENTITY accountAliasInfo.label       "This will only be displayed in your conversations when you talk, remote contacts won't see it.">
-<!ENTITY accountProxySettings.caption "Proxy Settings">
-<!ENTITY accountProxySettings.change.label     "Change...">
-<!ENTITY accountProxySettings.change.accessKey "C">
+<!ENTITY accountAdvancedInfo.label    "Nyugodtan hagyja ki ezt a lépést, ha azt szeretné.">
+<!ENTITY accountAdvanced.newMailNotification.label   "Értesítés új levélről">
+<!ENTITY accountAliasGroupbox.caption "Helyi álnév">
+<!ENTITY accountAliasField.label      "Álnév:">
+<!ENTITY accountAliasInfo.label       "Ez beszélgetéseiben csak akkor jelenik meg, amikor Ön beszél, a távoli partnerek nem fogják látni.">
+<!ENTITY accountProxySettings.caption "Proxybeállítások">
+<!ENTITY accountProxySettings.change.label     "Módosítás...">
+<!ENTITY accountProxySettings.change.accessKey "d">
 
 <!ENTITY accountSummaryTitle.label   "Összefoglaló">
-<!ENTITY accountSummaryInfo.label    "A summary of the information you entered is displayed below. Please check it before the account is created.">
-<!ENTITY accountSummary.connectNow.label "Connect this account now.">
+<!ENTITY accountSummaryInfo.label    "Alább látható a megadott információk összegzése. Ellenőrizze ezeket a fiók létrehozása előtt. ">
+<!ENTITY accountSummary.connectNow.label "Fiók csatlakozása most.">

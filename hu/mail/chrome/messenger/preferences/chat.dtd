@@ -1,7 +1,7 @@
 <!ENTITY  startupAction.label         "A &brandShortName; indításakor:">
 <!ENTITY startupAction.accesskey     "s">
-<!ENTITY  startupOffline.label        "Keep my Chat Accounts offline">
-<!ENTITY  startupConnectAuto.label    "Connect my chat accounts automatically">
+<!ENTITY  startupOffline.label        "A csevegőfiókok kapcsolat nélküli módban legyenek">
+<!ENTITY  startupConnectAuto.label    "Automatikus csatlakozás a csevegőfiókokhoz">
 
 <!-- LOCALIZATION NOTE: reportIdleAfter.label is displayed first, then
 there's a field where the user can enter a number, and itemTime is
@@ -9,12 +9,12 @@ displayed at the end of the line. The translations of the
 reportIdleAfter.label and idleTime parts don't have to mean the exact
 same thing as in English; please try instead to translate the whole
 sentence. -->
-<!ENTITY  reportIdleAfter.label         "Let my contacts know that I am Idle after">
-<!ENTITY reportIdleAfter.accesskey     "I">
-<!ENTITY  idleTime                      "minutes of inactivity">
+<!ENTITY  reportIdleAfter.label         "Partnereim értesítése tétlen állapotomról">
+<!ENTITY reportIdleAfter.accesskey     "P">
+<!ENTITY  idleTime                      "perc tétlenség után">
 
-<!ENTITY  andSetStatusToAway.label      "and set my status to Away with this status message:">
+<!ENTITY  andSetStatusToAway.label      "Az állapotom beállítása távollevőre ezzel az üzenettel:">
 <!ENTITY andSetStatusToAway.accesskey  "A">
 
-<!ENTITY  sendTyping.label              "Send typing notifications in conversations">
+<!ENTITY  sendTyping.label              "A beszélgetések során értesítés küldése a gépelésről">
 <!ENTITY sendTyping.accesskey          "t">

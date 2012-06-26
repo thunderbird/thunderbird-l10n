@@ -1,12 +1,12 @@
-<!ENTITY accountWindow.title           "Account properties">
+<!ENTITY accountWindow.title           "Fiók tulajdonságai">
 <!ENTITY accountWindow.width           "300">
-<!ENTITY account.general               "General">
+<!ENTITY account.general               "Általános">
 <!ENTITY account.advanced              "Haladó beállítások">
 <!ENTITY account.name                  "Felhasználónév:">
 <!ENTITY account.password              "Jelszó:">
-<!ENTITY account.alias                 "Alias:">
-<!ENTITY account.newMailNotification   "Notify on new Mail">
-<!ENTITY account.autojoin              "Auto-Joined Channels:">
-<!ENTITY account.proxySettings.caption "Proxy Settings:">
-<!ENTITY account.proxySettings.change.label     "Change...">
-<!ENTITY account.proxySettings.change.accessKey "C">
+<!ENTITY account.alias                 "Álnév:">
+<!ENTITY account.newMailNotification   "Értesítés új levélről">
+<!ENTITY account.autojoin              "Automatikus csatlakozás ezen csatornákhoz:">
+<!ENTITY account.proxySettings.caption "Proxybeállítások:">
+<!ENTITY account.proxySettings.change.label     "Módosítás...">
+<!ENTITY account.proxySettings.change.accessKey "M">

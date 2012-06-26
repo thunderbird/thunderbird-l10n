@@ -18,17 +18,17 @@
 <!ENTITY chooseFolderMac.label        "Tallózás...">
 <!ENTITY chooseFolderMac.accesskey    "T">
 
-<!ENTITY attachments.incoming.label   "Incoming">
-<!ENTITY attachments.outgoing.label   "Outgoing">
+<!ENTITY attachments.incoming.label   "Bejövő">
+<!ENTITY attachments.outgoing.label   "Kimenő">
 
 <!ENTITY addCloudFileAccount.label        "Hozzáadás">
-<!ENTITY addCloudFileAccount.accesskey    "A">
-<!ENTITY addCloudFileAccount.description  "Add a new Filelink storage service">
+<!ENTITY addCloudFileAccount.accesskey    "H">
+<!ENTITY addCloudFileAccount.description  "Új Filelink-tárolószolgáltatás hozzáadása">
 <!ENTITY removeCloudFileAccount.label     "Eltávolítás">
-<!ENTITY removeCloudFileAccount.accesskey "R">
-<!ENTITY authRequired.description         "Your authorization is required in order to see the settings for this storage service.">
-<!ENTITY authRequired.button.label        "Authorize">
-<!ENTITY authRequired.button.accesskey    "U">
+<!ENTITY removeCloudFileAccount.accesskey "E">
+<!ENTITY authRequired.description         "Engedélyeznie kell a tárolószolgáltatás beállításainak megtekintését.">
+<!ENTITY authRequired.button.label        "Engedélyezés">
+<!ENTITY authRequired.button.accesskey    "E">
 
-<!ENTITY enableCloudFileAccountOffer.label "Offer to share for files larger than">
+<!ENTITY enableCloudFileAccountOffer.label "Fájlmegosztás ajánlása, ha a fájl nagyobb, mint">
 <!ENTITY enableCloudFileAccountOffer.mb "MB">

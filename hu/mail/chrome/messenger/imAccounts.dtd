@@ -1,26 +1,26 @@
-<!ENTITY accountsWindow.title                "Instant messaging status">
+<!ENTITY accountsWindow.title                "Azonnali üzenetküldés állapota">
 <!ENTITY accountsWindow.style                "width: 28em; height: 19em;">
-<!ENTITY accountManager.newAccount.label     "New Account">
-<!ENTITY accountManager.newAccount.accesskey "N">
+<!ENTITY accountManager.newAccount.label     "Új fiók">
+<!ENTITY accountManager.newAccount.accesskey "f">
 <!ENTITY accountManager.close.label          "Bezárás">
-<!ENTITY accountManager.close.accesskey      "l">
+<!ENTITY accountManager.close.accesskey      "b">
 <!-- This should match account.commandkey in instantbird.dtd -->
 <!ENTITY accountManager.close.commandkey     "a">
 <!-- This title must be short, displayed with a big font size -->
-<!ENTITY accountManager.noAccount.title      "No account configured yet">
-<!ENTITY accountManager.noAccount.description "Click on the &accountManager.newAccount.label; button to let &brandShortName; guide you through the process of configuring one.">
-<!ENTITY account.autoSignOn.label     "Sign-on at startup">
-<!ENTITY account.autoSignOn.accesskey "S">
+<!ENTITY accountManager.noAccount.title      "Még nincs beállítva fiók">
+<!ENTITY accountManager.noAccount.description "Kattintson az &accountManager.newAccount.label; gombra, és a &brandShortName; végigvezeti a fiók beállításán. ">
+<!ENTITY account.autoSignOn.label     "Bejelentkezés indításkor">
+<!ENTITY account.autoSignOn.accesskey "d">
 <!ENTITY account.connect.label        "Kapcsolódás">
 <!ENTITY account.connect.accesskey    "o">
 <!ENTITY account.disconnect.label     "Leválás">
-<!ENTITY account.disconnect.accesskey "i">
+<!ENTITY account.disconnect.accesskey "L">
 <!ENTITY account.edit.label           "Tulajdonságok">
-<!ENTITY account.edit.accesskey       "P">
-<!ENTITY account.moveup.label         "Move up">
-<!ENTITY account.movedown.label       "Move down">
-<!ENTITY account.cancelReconnection.label         "Cancel reconnection">
-<!ENTITY account.cancelReconnection.accesskey     "a">
+<!ENTITY account.edit.accesskey       "u">
+<!ENTITY account.moveup.label         "Fel">
+<!ENTITY account.movedown.label       "Le">
+<!ENTITY account.cancelReconnection.label         "Újracsatlakozás megszakítása">
+<!ENTITY account.cancelReconnection.accesskey     "r">
 <!ENTITY account.connecting           "Kapcsolódás...">
-<!ENTITY account.disconnecting        "Disconnecting...">
-<!ENTITY account.disconnected         "Not Connected">
+<!ENTITY account.disconnecting        "Leválás...">
+<!ENTITY account.disconnected         "Nincs csatlakoztatva">

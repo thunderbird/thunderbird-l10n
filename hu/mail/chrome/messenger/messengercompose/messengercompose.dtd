@@ -274,12 +274,12 @@
 <!ENTITY attachFile.accesskey "F">
 <!ENTITY attachCloud.label "Filelink...">
 <!ENTITY attachCloud.accesskey "i">
-<!ENTITY convertCloud.label "Convert to...">
-<!ENTITY convertCloud.accesskey "C">
-<!ENTITY cancelUpload.label "Cancel Upload">
-<!ENTITY cancelUpload.accesskey "n">
-<!ENTITY convertRegularAttachment.label "Regular Attachment">
-<!ENTITY convertRegularAttachment.accesskey "A">
+<!ENTITY convertCloud.label "Konvertálás...">
+<!ENTITY convertCloud.accesskey "K">
+<!ENTITY cancelUpload.label "Feltöltés megszakítása">
+<!ENTITY cancelUpload.accesskey "F">
+<!ENTITY convertRegularAttachment.label "Normál melléklet">
+<!ENTITY convertRegularAttachment.accesskey "N">
 <!ENTITY attachPage.label "Weboldal csatolása...">
 <!ENTITY attachPage.accesskey "W">
 

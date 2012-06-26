@@ -26,7 +26,7 @@
 <!ENTITY newCreateEmailAccountCmd.accesskey "o">
 <!ENTITY newExistingEmailAccountCmd.label "Meglévő postafiók...">
 <!ENTITY newExistingEmailAccountCmd.accesskey "M">
-<!ENTITY newIMAccountCmd.label "Chat Account...">
+<!ENTITY newIMAccountCmd.label "Csevegőfiók...">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY openMessageFileCmd.label "Mentett üzenet megnyitása...">
 <!ENTITY openMessageFileCmd.accesskey "e">
@@ -92,7 +92,7 @@
 <!ENTITY deleteFolderCmd.label "Mappa törlése">
 <!ENTITY deleteFolderCmd.accesskey "l">
 <!ENTITY unsubscribeNewsgroupCmd.label "Leiratkozás">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
+<!ENTITY unsubscribeNewsgroupCmd.accesskey "L">
 <!ENTITY selectMenu.label "Kijelölés">
 <!ENTITY selectMenu.accesskey "e">
 <!ENTITY all.label "Mind">
@@ -327,7 +327,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goBackCmd.label "Vissza">
 <!ENTITY goBackCmd.accesskey "V">
 <!ENTITY goBackCmd.commandKey "[">
-<!ENTITY goChatCmd.label "Chat">
+<!ENTITY goChatCmd.label "Csevegés">
 <!ENTITY goChatCmd.accesskey "c">
 <!ENTITY goChatCmd.commandKey "C">
 <!ENTITY prevStarredMsgCmd.label "Csillagozott üzenet">
@@ -358,8 +358,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY replyMsgCmd.key  "r">
 <!ENTITY replySenderCmd.label "Válasz csak a feladónak">
 <!ENTITY replySenderCmd.accesskey "f">
-<!ENTITY replyNewsgroupCmd.label "Válasz a hírcsoportnak">
-<!ENTITY replyNewsgroupCmd.accesskey  "h">
+<!ENTITY replyNewsgroupCmd2.label "Válasz a hírcsoportnak">
+<!ENTITY replyNewsgroupCmd2.accesskey  "h">
 <!ENTITY replyToAllMsgCmd.label "Válasz mindenkinek">
 <!ENTITY replyToAllMsgCmd.accesskey  "m">
 <!ENTITY replyToAllMsgCmd.key  "r">
@@ -473,12 +473,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY addons.accesskey "T">
 <!ENTITY activitymanager.label "Tevékenységkezelő">
 <!ENTITY activitymanager.accesskey "T">
-<!ENTITY imAccountsStatus.label "Chat status">
+<!ENTITY imAccountsStatus.label "Csevegési állapot">
 <!ENTITY imAccountsStatus.accesskey "C">
-<!ENTITY imStatus.available          "Available">
-<!ENTITY imStatus.unavailable        "Unavailable">
+<!ENTITY imStatus.available          "Elérhető">
+<!ENTITY imStatus.unavailable        "Elfoglalt">
 <!ENTITY imStatus.offline            "Kapcsolat nélkül">
-<!ENTITY imStatus.showAccounts       "Show Accounts...">
+<!ENTITY imStatus.showAccounts       "Fiókok megjelenítése...">
 <!ENTITY savedFiles.label "Mentett fájlok">
 <!ENTITY savedFiles.accesskey "e">
 <!ENTITY savedFiles.key "j">
@@ -498,6 +498,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY importCmd.accesskey "i">
 <!ENTITY errorConsoleCmd.label "Hibakonzol">
 <!ENTITY errorConsoleCmd.accesskey "H">
+<!ENTITY errorConsoleCmd.commandkey "j">
 <!ENTITY accountManagerCmd.label "Postafiókok beállításai...">
 <!ENTITY accountManagerCmd.accesskey "P">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey): belongs to accountManagerCmd.label,
@@ -514,10 +515,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fileButton.label "Iktatás">
 <!ENTITY archiveButton.label "Archiválás">
 <!ENTITY nextButton.label "Következő">
-<!ENTITY nextButtonToolbarItem.label "Next Unread">
+<!ENTITY nextButtonToolbarItem.label "Következő olvasatlan">
 <!ENTITY nextMsgButton.label "Következő">
 <!ENTITY previousButton.label "Előző">
-<!ENTITY previousButtonToolbarItem.label "Previous Unread">
+<!ENTITY previousButtonToolbarItem.label "Előző olvasatlan">
 <!ENTITY previousMsgButton.label "Előző">
 <!ENTITY backButton1.label "Vissza">
 <!ENTITY goForwardButton1.label "Továbbítás">
@@ -532,7 +533,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY junkButton.label "Szemét">
 <!ENTITY notJunkButton.label "Nem szemét">
 <!ENTITY addressBookButton.label "Címjegyzék">
-<!ENTITY chatButton.label "Chat">
+<!ENTITY chatButton.label "Csevegés">
 <!ENTITY glodaSearch.title "Globális keresés">
 <!ENTITY searchItem.title "Gyorskeresés">
 <!ENTITY mailViewsToolbarItem.title "Levélnézetek">
@@ -553,9 +554,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fileButton.tooltip "A kijelölt üzenet áthelyezése">
 <!ENTITY archiveButton.tooltip "Kijelölt üzenetek archiválása">
 <!ENTITY nextButton.tooltip "Ugrás a következő olvasatlan üzenetre">
-<!ENTITY nextMsgButton.tooltip "Move to the next message">
+<!ENTITY nextMsgButton.tooltip "Ugrás a következő üzenetre">
 <!ENTITY previousButton.tooltip "Ugrás az előző olvasatlan üzenetre">
-<!ENTITY previousMsgButton.tooltip "Move to the previous message">
+<!ENTITY previousMsgButton.tooltip "Ugrás az előző üzenetre">
 <!ENTITY goForwardButton.tooltip "Ugrás egy üzenettel előre">
 <!ENTITY goBackButton.tooltip "Ugrás egy üzenettel hátra">
 <!ENTITY deleteButton.tooltip "A kijelölt üzenet vagy mappa törlése">
@@ -566,7 +567,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY junkButton.tooltip "A kijelölt üzenetek megjelölése szemétként">
 <!ENTITY notJunkButton.tooltip "A kijelölt üzenetek megjelölése nem szemétként">
 <!ENTITY addressBookButton.tooltip "A címjegyzék megjelenítése">
-<!ENTITY chatButton.tooltip "Show the Chat tab">
+<!ENTITY chatButton.tooltip "A Csevegés lap megjelenítése">
 <!ENTITY tagButton.tooltip "Üzenetek címkézése">
 <!ENTITY compactButton.tooltip "Törölt üzenetek eltávolítása a kijelölt mappából">
 
@@ -692,8 +693,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextReplySender.label "Válasz csak a feladónak">
 <!ENTITY contextReplySender.accesskey "f">
-<!ENTITY contextReplyNewsgroup.label "Válasz a hírcsoportnak">
-<!ENTITY contextReplyNewsgroup.accesskey "h">
+<!ENTITY contextReplyNewsgroup2.label "Válasz a hírcsoportnak">
+<!ENTITY contextReplyNewsgroup2.accesskey "h">
 <!ENTITY contextReplyAll.label "Válasz mindenkinek">
 <!ENTITY contextReplyAll.accesskey "m">
 <!ENTITY contextReplyList.label "Válasz a listára">
