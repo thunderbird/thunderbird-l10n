@@ -149,7 +149,7 @@
 <!ENTITY  event.toolbar.save.tooltip                      "Gorde eta itxi">
 <!ENTITY  event.toolbar.delete.tooltip                    "Ezabatu">
 <!ENTITY  event.toolbar.attendees.tooltip                 "Gonbidatu partaideak">
-<!ENTITY  event.toolbar.spellcheck.tooltip                "Ortografia-egiaztapena">
+<!ENTITY  event.toolbar.spellcheck.tooltip                "Ortografia">
 <!ENTITY  event.toolbar.attachments.tooltip               "Gehitu eranskinak">
 <!ENTITY  event.toolbar.privacy.tooltip                   "Aldatu pribatutasuna">
 <!ENTITY  event.toolbar.priority.tooltip                  "Aldatu lehentasuna">
@@ -219,7 +219,7 @@
 <!ENTITY event.reminder.1week.before.label                "aste 1 lehenago" >
 <!ENTITY event.reminder.custom.label                      "Pertsonalizatua…" >
 
-<!ENTITY event.reminder.multiple.label                    "Hainbat gogorarazle…" >
+<!ENTITY event.reminder.multiple.label                    "Gogorarazle anitz…" >
 
 <!ENTITY event.statusbarpanel.freebusy.label              "Denbora honela:">
 <!ENTITY event.statusbarpanel.privacy.label               "Pribatutasuna:">
