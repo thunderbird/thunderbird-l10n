@@ -565,18 +565,6 @@
 
 <!ENTITY buttonMenuForwardAsInline.label "Birbidali barnean">
 <!ENTITY buttonMenuForwardAsAttachment.label "Birbidali eranskin gisa">
-<!-- Remote Content Button Popup -->
-
-<!ENTITY remoteContentOptionsAllowForMsg.label "Erakutsi mezu honetako urruneko edukia">
-<!ENTITY remoteContentOptionsAllowForMsg.accesskey "E">
-<!ENTITY remoteContentOptionAllowForAddress.label "Erakutsi bidaltzaile honen urruneko edukia">
-<!ENTITY remoteContentOptionAllowForAddress.accesskey "b">
-<!-- Phishing Button Popup -->
-
-<!ENTITY phishingOptionIgnore.label "Ezikusi abisua mezu honetarako">
-<!ENTITY phishingOptionIgnore.accesskey "E">
-<!ENTITY phishingOptionDisableDetection.label "Desgaitu iruzurren detekzioa mezu guztietarako">
-<!ENTITY phishingOptionDisableDetection.accesskey "D">
 <!-- AppMenu Popup -->
 
 <!ENTITY appmenuNewMsgCmd.label "Mezu berria">
@@ -686,7 +674,7 @@
 <!ENTITY junkStatusColumn.tooltip "Egin klik zabor-posta egoeraren arabera ordenatzeko">
 <!ENTITY unreadColumn.tooltip "Irakurri gabeko mezu kopurua harian">
 <!ENTITY totalColumn.tooltip "Mezu kopurua guztira harian">
-<!ENTITY readColumn.tooltip "Egin klik irakurrita balioaren arabera ordenatzeko">
+<!ENTITY readColumn.tooltip "Egin klik irakurritako egoeraren arabera ordenatzeko">
 <!ENTITY receivedColumn.tooltip "Egin klik jasotako datararen arabera ordenatzeko">
 <!ENTITY starredColumn.tooltip "Egin klik izarraren arabera ordenatzeko">
 <!ENTITY locationColumn.tooltip "Egin klik kokalekuaren arabera ordenatzeko">
@@ -799,6 +787,27 @@
 <!ENTITY contextMute.accesskey "M">
 <!ENTITY contextUnmute.label "Ez mututu">
 <!ENTITY contextUnmute.accesskey "m">
+<!-- Junk Bar -->
+
+<!ENTITY junkBarMessage2.label "&brandShortName;(e)k uste dut mezu hau zaborra dela.">
+<!ENTITY junkBarButton1.label "Ez da zaborra">
+<!ENTITY junkInfoButton.label "?">
+<!-- Remote Content Bar -->
+
+<!ENTITY remoteContentMessage2.label "Zure pribatutasuna babesteko, mezu honetako urruneko edukia blokeatu du &brandShortName;(e)k.">
+<!ENTITY loadRemoteContentButton3.label "Erakutsi urruneko edukia">
+<!-- Phishing Bar -->
+
+<!ENTITY phishingBarMessage2.label "Mezu hau iruzurra izan daiteke.">
+<!ENTITY removePhishingBarButton1.label "Ezikusi abisua">
+<!ENTITY disablePhishingWarning1.label "Desgaitu iruzurren detekzioa mezu guztietarako">
+<!ENTITY reportPhishingError1.label "Mezu honek ez dirudi iruzurra.">
+<!-- MDN Bar -->
+
+<!ENTITY mdnBarIgnoreButton2.label "Baztertu">
+<!ENTITY mdnBarIgnoreButton2.accesskey "B">
+<!ENTITY mdnBarSendButton2.label "Bidali hartu-agiria">
+<!ENTITY mdnBarSendButton2.accesskey "B">
 <!-- Quick Search Bar -->
 <!-- LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
