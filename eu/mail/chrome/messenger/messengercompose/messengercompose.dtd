@@ -202,6 +202,7 @@
 <!ENTITY attachButton.label "Erantsi">
 <!ENTITY spellingButton.label "Ortografia">
 <!ENTITY saveButton.label "Gorde">
+<!ENTITY printButton.label "Inprimatu">
 <!-- Mail Toolbar Tooltips -->
 
 <!ENTITY sendButton.tooltip "Bidali mezua orain">
@@ -214,6 +215,7 @@
 <!ENTITY cutButton.tooltip              "Ebaki">
 <!ENTITY copyButton.tooltip             "Kopiatu">
 <!ENTITY pasteButton.tooltip            "Itsatsi">
+<!ENTITY printButton.tooltip "Inprimatu mezu hau">
 <!-- Headers -->
 <!--LOCALIZATION NOTE headersSpace.style is for aligning  the From:, To: and
     Subject: rows. It should be larger than the largest Header label  -->
