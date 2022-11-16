@@ -18,6 +18,15 @@ appmenu-sync-manage =
     .accesskey = b
 appmenu-sync-account =
     .value = foarbyld@example.com
+appmenu-sync-now =
+    .label = No syngronisearje
+    .accesskey = N
+appmenu-sync-settings =
+    .label = Syngronisaasjeynstellingen
+    .accesskey = S
+appmenu-sync-sign-out =
+    .label = Ofmelde…
+    .accesskey = O
 
 ## New Account
 
@@ -184,3 +193,16 @@ appmenu-help-troubleshooting-info =
 appmenu-help-about-product =
     .label = Oer { -brand-short-name }
     .accesskey = O
+
+## Application Update
+
+appmenuitem-banner-update-downloading =
+    .label = { -brand-shorter-name }-fernijing wurdt download
+appmenuitem-banner-update-available =
+    .label = Fernijing beskikber – no downloade
+appmenuitem-banner-update-manual =
+    .label = Fernijing beskikber – no downloade
+appmenuitem-banner-update-unsupported =
+    .label = Kin net bywurkje – systeem net kompatibel
+appmenuitem-banner-update-restart =
+    .label = Fernijing beskikber – no opnij starte
