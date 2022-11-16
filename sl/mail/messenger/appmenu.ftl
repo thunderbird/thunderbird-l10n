@@ -7,8 +7,23 @@
 
 appmenu-sync-panel-title =
     .title = Sinhronizacija
+appmenu-signin-panel =
+    .label = Prijava v sinhronizacijo
+    .accesskey = i
+appmenu-sync-manage =
+    .value = Upravljanje računa
+    .accesskey = U
 appmenu-sync-account =
     .value = e-posta@example.com
+appmenu-sync-now =
+    .label = Sinhroniziraj zdaj
+    .accesskey = z
+appmenu-sync-settings =
+    .label = Nastavitve sinhronizacije
+    .accesskey = t
+appmenu-sync-sign-out =
+    .label = Odjava …
+    .accesskey = O
 
 ## New Account
 
@@ -175,3 +190,16 @@ appmenu-help-troubleshooting-info =
 appmenu-help-about-product =
     .label = O { -brand-short-name(sklon: "mestnik") }
     .accesskey = O
+
+## Application Update
+
+appmenuitem-banner-update-downloading =
+    .label = Prenašanje posodobitve za { -brand-shorter-name(sklon: "tozilnik") }
+appmenuitem-banner-update-available =
+    .label = Na voljo je posodobitev – prenesi zdaj
+appmenuitem-banner-update-manual =
+    .label = Na voljo je posodobitev – prenesi zdaj
+appmenuitem-banner-update-unsupported =
+    .label = Posodobitev ni mogoča – nezdružljiv sistem
+appmenuitem-banner-update-restart =
+    .label = Na voljo je posodobitev – zaženi znova
