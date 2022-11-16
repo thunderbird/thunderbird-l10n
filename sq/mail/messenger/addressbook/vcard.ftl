@@ -126,7 +126,7 @@ vcard-org-org-input =
 vcard-org-org-unit = Degë
 vcard-org-org-unit-input =
     .title = Emër i njësisë në organikë
-    .placeholder = { "" }
+    .placeholder = Degë
 
 # Custom properties
 

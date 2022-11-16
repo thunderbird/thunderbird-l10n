@@ -206,7 +206,7 @@ to-address-row-label =
 show-to-row-main-menuitem =
     .label = Fushë Për
     .accesskey = P
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
