@@ -329,6 +329,9 @@ cloud-file-template-download-limit = İndirme sınırı:
 cloud-file-connection-error-title = Bağlantı Hatası
 cloud-file-connection-error = { -brand-short-name } çevrimdışı. { $provider } ile bağlantı kurulamadı.
 # $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = { $filename }, { $provider } sağlayıcısına yüklenemedi
+# $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-title = Yeniden adlandırma hatası
 # $provider (string) - name of the online storage service that reported the error
