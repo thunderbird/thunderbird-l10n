@@ -83,21 +83,31 @@ account-setup-insecure-outgoing-title = 발신 설정:
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b>서버는 암호화를 사용하지 않습니다.
+account-setup-warning-cleartext-details = 보안 연결이 되지 않은 메일 서버는 비밀번화와 사적인 정보를 지키는 보안 연결을 사용하지 않습니다. 이 서버에 연결하면 비밀번호와 사적인 정보가 노출 될 수 있습니다.
 
 ## Warning Exchange confirmation dialog
 
+exchange-dialog-confirm-button = 로그인
+exchange-dialog-cancel-button = 취소
 
 ## Dismiss account creation dialog
 
+exit-dialog-title = 설정된 이메일 계정 없음
 
 ## Alert dialogs
 
+account-setup-creation-error-title = 계정 생성 오류
+account-setup-error-server-exists = 수신 서버가 이미 존재합니다.
+account-setup-confirm-advanced-title = 고급 설정 확인
 
 ## Addon installation section
 
 
 ## Success view
 
+account-setup-address-books-button = 주소록
+account-setup-calendars-button = 달력
+account-setup-connect-link = 연결
 
 ## Calendar synchronization dialog
 
