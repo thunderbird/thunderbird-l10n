@@ -352,6 +352,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = İletiye bakar bakmaz
     .accesskey = z
+view-attachments-inline =
+    .label = Ekleri satır içinde görüntüle
+    .accesskey = E
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -446,11 +449,13 @@ default-format-label =
 compose-send-format-title = Gönderme Biçimi
 compose-send-automatic-option =
     .label = Otomatik
+compose-send-automatic-description = İletide herhangi bir biçem kullanılmıyorsa düz metin gönder. Aksi halde düz metin yedeğiyle birlikte HTML gönder.
 compose-send-both-option =
     .label = Hem HTML hem de düz metin
 compose-send-both-description = Hangi sürümün gösterileceğini alıcının e-posta uygulaması belirleyecektir.
 compose-send-html-option =
     .label = Yalnızca HTML
+compose-send-html-description = Bazı alıcılar düz metin yedeği olmayan iletileri okuyamayabilir.
 compose-send-plain-option =
     .label = Yalnızca düz metin
 autocomplete-description = Adres girerken eşleşen kayıtları bulmak için buraya bak:
