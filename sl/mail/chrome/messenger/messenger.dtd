@@ -503,7 +503,7 @@
 <!ENTITY devToolboxCmd.label "Orodjarna za razvijalce">
 <!ENTITY devToolboxCmd.accesskey "O">
 <!ENTITY devToolboxCmd.commandkey "i">
-<!ENTITY debugAddonsCmd.label "Razhrošči dodatke">
+<!ENTITY debugAddonsCmd.label "Razhroščevanje dodatkov">
 <!ENTITY debugAddonsCmd.accesskey "R">
 <!ENTITY errorConsoleCmd.label "Konzola napak">
 <!ENTITY errorConsoleCmd.accesskey "K">
