@@ -6,6 +6,7 @@ account-setup-tab-title = Тіркелгіні баптау
 
 ## Header
 
+account-setup-title = Бар болып тұрған эл. пошта адресін баптау
 
 ## Form fields
 

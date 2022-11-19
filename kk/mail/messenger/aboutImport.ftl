@@ -96,12 +96,20 @@ calendar-deselect-all-items = Барлығынан таңдауды алып т�
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = Импорттау… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Экспорттау… { $progressPercent }
+progress-pane-finished-desc2 = Дайын.
 error-pane-title = Қате
 error-message-no-profile = Профиль табылмады.
 
 ## <csv-field-map> element
 
 csv-first-row-contains-headers = Бірінші жолда - өріс атаулары
+csv-source-first-record = Бірінші жазба
+csv-source-second-record = Екінші жазба
+csv-target-field = Адрестік кітапша өрісі
 
 ## Export tab
 
