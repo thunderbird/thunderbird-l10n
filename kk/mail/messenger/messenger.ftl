@@ -109,6 +109,13 @@ mail-context-delete-messages =
 
 other-action-redirect-msg =
     .label = Қайта бағдарлау
+message-header-msg-flagged =
+    .title = Жұлдызша қойылған
+    .aria-label = Жұлдызша қойылған
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = { $address }профиль суреті.
 
 ## Message header cutomize panel
 
