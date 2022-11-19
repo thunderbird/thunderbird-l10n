@@ -5,21 +5,21 @@
 dock-options-window-dialog =
     .title = Қолданба таңбашасының баптаулары
     .style = width: 45em;
-
+dock-options-window-dialog2 =
+    .title = Қолданба таңбашасының баптаулары
+dock-options-show-badge =
+    .label = Жапсырма таңбашасын көрсету
+    .accesskey = п
 bounce-system-dock-icon =
     .label = Жаңа хабарлама келген кезде, қолданба таңбашасын анимациялау
     .accesskey = м
-
 dock-icon-legend = Қолданба таңбашасының жапсырмасы
-
 dock-icon-show-label =
     .value = Қолданба таңбашасына нені жапсыру:
-
 count-unread-messages-radio =
     .label = Оқылмаған хабарламалар саны
     .accesskey = ы
-
 count-new-messages-radio =
     .label = Жаңа хабарламалар саны
     .accesskey = н
-
+notification-settings-info2 = Жапсырманы Жүйелік баптаулардың Ескерту бөлігінде сөндіре аласыз.

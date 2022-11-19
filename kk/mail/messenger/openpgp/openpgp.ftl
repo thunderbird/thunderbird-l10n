@@ -1,11 +1,28 @@
-
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+e2e-intro-description = Шифрленген немесе цифрлық қолтаңбасы бар хабарламаларды жіберу үшінғ сізге OpenPGP немесе S/MIME сияқты шифрлеу технологиясын баптау керек.
+e2e-advanced-section = Кеңейтілген баптаулар
+e2e-attach-key =
+    .label = OpenPGP цифрық қолтаңбасын қосқанда менің ашық кілтімді тіркеу
+    .accesskey = n
+e2e-encrypt-subject =
+    .label = OpenPGP хабарламаларының тақырыбын шифрлеу
+    .accesskey = б
+openpgp-key-user-id-label = Тіркелгі / Пайдаланушы идентификаторы
+openpgp-keygen-title-label =
+    .title = OpenPGP кілтін генерациялау
 openpgp-cancel-key =
     .label = Бас тарту
     .tooltiptext = Кілт генерациядан бас тарту
+openpgp-key-gen-expiry-title =
+    .label = Кілттің жарамдылық мерзімі
+openpgp-key-gen-expire-label = Кілт мерзімі бітеді
+openpgp-key-gen-days-label =
+    .label = күн
+openpgp-key-gen-months-label =
+    .label = ай
 openpgp-key-gen-years-label =
     .label = жыл
 openpgp-key-gen-no-expiry-label =
@@ -17,7 +34,17 @@ openpgp-key-gen-key-type-rsa =
     .label = RSA
 openpgp-key-gen-key-type-ecc =
     .label = ECC (эллиптикалық қисықтар)
-
+openpgp-key-created-label =
+    .label = Жасалған
+openpgp-key-expiry-label =
+    .label = Жарамдылық мерзімі
+openpgp-key-id-label =
+    .label = Кілт идентификаторы
+openpgp-key-man-title =
+    .title = OpenPGP кілттер басқарушысы
+openpgp-key-man-generate =
+    .label = Жаңа кілттер жұбы
+    .accesskey = к
 openpgp-key-man-file-menu =
     .label = Файл
     .accesskey = Ф
@@ -27,32 +54,27 @@ openpgp-key-man-edit-menu =
 openpgp-key-man-view-menu =
     .label = Түрі
     .accesskey = Т
-
 openpgp-key-man-ctx-copy =
     .label = Көшіріп алу
     .accesskey = К
-
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
            *[other] Баспалар
         }
     .accesskey = Б
-
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
            *[other] Кілт идентификаторы
         }
     .accesskey = К
-
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
            *[other] Ашық кілттер
         }
     .accesskey = А
-
 openpgp-key-man-close =
     .label = Жабу
 openpgp-key-man-reload =
@@ -64,13 +86,11 @@ openpgp-key-man-change-expiry =
 openpgp-delete-key =
     .label = Кілтті өшіру
     .accesskey = ш
-
 openpgp-key-details-id-label =
     .label = ID
 openpgp-key-details-key-type-label = Түрі
 openpgp-key-details-key-part-label =
     .label = Кілт бөлімі
-
 openpgp-key-details-algorithm-label =
     .label = Алгоритм
 openpgp-key-details-size-label =
@@ -78,8 +98,20 @@ openpgp-key-details-size-label =
 openpgp-key-details-created-label =
     .label = Жасалған
 openpgp-key-details-created-header = Жасалған
+openpgp-key-details-expiry-label =
+    .label = Жарамдылық мерзімі
+openpgp-key-details-expiry-header = Жарамдылық мерзімі
+openpgp-key-details-usage-label =
+    .label = Қолданылуы
 openpgp-key-details-fingerprint-label = Баспасы
-
+openpgp-card-details-close-window-label =
+    .buttonlabelaccept = Жабу
+openpgp-acceptance-label =
+    .label = Сіздің қабылдауыңыз
+openpgp-acceptance-rejected-label =
+    .label = Жоқ, бұл кілтті тайдыру.
+openpgp-acceptance-undecided-label =
+    .label = Қазір емес, мүмкін кейінірек.
 openpgp-copy-cmd-label =
     .label = Көшіріп алу
 
@@ -89,6 +121,8 @@ openpgp-copy-cmd-label =
 ## OpenPGP Key selection area
 
 key-expiry-never = ешқашан
+key-usage-encrypt = Шифрлеу
+key-usage-sign = Қолтаңба қою
 
 ## Account settings export output
 
