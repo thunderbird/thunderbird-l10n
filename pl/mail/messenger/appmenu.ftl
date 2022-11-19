@@ -12,12 +12,21 @@ appmenu-signin-panel =
     .accesskey = Z
 appmenu-sync-sync =
     .value = Synchronizacja konta
-    .accesskey = S
+    .accesskey = k
 appmenu-sync-manage =
     .value = Zarządzaj kontem
-    .accesskey = k
+    .accesskey = Z
 appmenu-sync-account =
     .value = przykład@example.com
+appmenu-sync-now =
+    .label = Synchronizuj teraz
+    .accesskey = S
+appmenu-sync-settings =
+    .label = Ustawienia synchronizacji
+    .accesskey = U
+appmenu-sync-sign-out =
+    .label = Wyloguj się…
+    .accesskey = W
 
 ## New Account
 
@@ -184,3 +193,16 @@ appmenu-help-troubleshooting-info =
 appmenu-help-about-product =
     .label = O programie { -brand-short-name }
     .accesskey = O
+
+## Application Update
+
+appmenuitem-banner-update-downloading =
+    .label = Pobieranie aktualizacji programu { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Aktualizacja jest dostępna — pobierz teraz
+appmenuitem-banner-update-manual =
+    .label = Aktualizacja jest dostępna — pobierz teraz
+appmenuitem-banner-update-unsupported =
+    .label = Nie można uaktualnić — system jest niezgodny
+appmenuitem-banner-update-restart =
+    .label = Aktualizacja jest dostępna — uruchom ponownie
