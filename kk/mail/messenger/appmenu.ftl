@@ -13,9 +13,23 @@ appmenu-signin-panel =
 appmenu-sync-sync =
     .value = Тіркелгіні синхрондау
     .accesskey = а
+appmenu-sync-now =
+    .label = Қазір синхрондау
+    .accesskey = н
+appmenu-sync-settings =
+    .label = Синхрондау баптаулары
+    .accesskey = С
+appmenu-sync-sign-out =
+    .label = Шығу…
+    .accesskey = ы
 
 ## New Account
 
+appmenu-new-account-panel-title =
+    .title = Жаңа тіркелгі
+appmenu-new-account-panel =
+    .label = Жаңа тіркелгі
+    .accesskey = Ж
 appmenu-create-new-mail-account =
     .label = Жаңа эл. пошта адресін алу
     .accesskey = л
@@ -42,15 +56,58 @@ appmenu-newab-panel-title =
 appmenu-newab-panel =
     .label = Жаңа адрестік кітапша
     .accesskey = а
+appmenu-new-addressbook =
+    .label = Жергілікті адрестік кітапша
+    .accesskey = а
+appmenu-new-carddav =
+    .label = CardDav адрестік кітапшасы
+    .accesskey = к
+appmenu-new-ldap =
+    .label = LDAP адрестік кітапшасы
+    .accesskey = п
 
 ## Create
 
+appmenu-create-panel-title =
+    .title = Жасау
+appmenu-create-panel =
+    .label = Жасау
+    .accesskey = с
+appmenu-create-message =
+    .label = Хабарлама
+    .accesskey = м
+appmenu-create-event =
+    .label = Оқиға
+    .accesskey = О
+appmenu-create-task =
+    .label = Тапсырма
+    .accesskey = Т
+appmenu-create-contact =
+    .label = Контакт
+    .accesskey = К
 
 ## Open
 
+appmenu-open-file-panel =
+    .label = Файлдан ашу
+    .accesskey = ш
+appmenu-open-file-panel-title =
+    .title = Файлдан ашу
+appmenu-open-message =
+    .label = Хабарлама…
+    .accesskey = м
+appmenu-open-calendar =
+    .label = Күнтізбе…
+    .accesskey = К
 
 ## View / Layout
 
+appmenu-font-size-value = Қаріп өлшемі
+appmenu-mail-uidensity-value = Тығыздығы
+appmenu-uidensity-compact =
+    .tooltiptext = Ықшам
+appmenu-uidensity-default =
+    .tooltiptext = Бастапқы
 
 ## Tools
 

@@ -65,6 +65,14 @@ about-addressbook-sort-name-descending =
     .label = Аты бойынша сұрыптау (Я > А)
 about-addressbook-sort-email-ascending =
     .label = Эл. поштасы бойынша сұрыптау (А > Я)
+about-addressbook-sort-email-descending =
+    .label = Эл. поштасы бойынша сұрыптау (Я > А)
+about-addressbook-horizontal-layout =
+    .label = Горизонталды жаймасына ауысу
+about-addressbook-vertical-layout =
+    .label = Вертикалды жаймасына ауысу
+about-addressbook-table-layout =
+    .label = Кестелік жаймасы
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
@@ -84,9 +92,20 @@ about-addressbook-column-label-phonenumbers =
 about-addressbook-column-header-addresses = Адрестер
 about-addressbook-column-label-addresses =
     .label = { about-addressbook-column-header-addresses }
+about-addressbook-column-header-title = Лауазымы
+about-addressbook-column-label-title =
+    .label = { about-addressbook-column-header-title }
+about-addressbook-column-header-department = Бөлім
+about-addressbook-column-label-department =
+    .label = { about-addressbook-column-header-department }
+about-addressbook-column-header-organization = Ұйым
+about-addressbook-column-label-organization =
+    .label = { about-addressbook-column-header-organization }
 about-addressbook-column-header-addrbook = Адрестік кітапша
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
+about-addressbook-cards-context-write =
+    .label = Жазу
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -95,6 +114,9 @@ about-addressbook-placeholder-no-search-results = Ешбір контакт та
 
 ## Details
 
+about-addressbook-details-edit-photo =
+    .title = Контакт фотосын түзету
+about-addressbook-new-contact-header = Жаңа контакт
 about-addressbook-write-action-button = Жазу
 about-addressbook-event-action-button = Оқиға
 about-addressbook-search-action-button = Іздеу
@@ -119,9 +141,23 @@ about-addressbook-entry-type-cell = Ұялы
 about-addressbook-entry-type-pager = Пейджер
 about-addressbook-entry-name-birthday = Туған күні
 about-addressbook-entry-name-anniversary = Мерейтой
+about-addressbook-entry-name-title = Лауазымы
+about-addressbook-entry-name-role = Рөлі
+about-addressbook-entry-name-organization = Ұйым
+about-addressbook-entry-name-website = Вебсайт
+about-addressbook-entry-name-time-zone = Уақыт белдеуі
+about-addressbook-entry-name-custom1 = Таңдауыңызша 1
+about-addressbook-entry-name-custom2 = Таңдауыңызша 2
+about-addressbook-entry-name-custom3 = Таңдауыңызша 3
+about-addressbook-entry-name-custom4 = Таңдауыңызша 4
+about-addressbook-unsaved-changes-prompt-title = Сақталмаған өзгерістер
+about-addressbook-unsaved-changes-prompt = Түзету көрінісінен шықпас бұрын өзгертулерді сақтау керек пе?
 
 # Photo dialog
 
+about-addressbook-photo-cancel = Бас тарту
+about-addressbook-photo-save = Сақтау
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N
