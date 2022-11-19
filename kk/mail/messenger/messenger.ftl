@@ -23,6 +23,12 @@ about-rights-notification-text = { -brand-short-name } - бұл еркін жә�
 
 ## Content tabs
 
+content-tab-page-loading-icon =
+    .alt = Бет жүктелуде
+content-tab-security-high-icon =
+    .alt = Байланыс қауіпсіз
+content-tab-security-broken-icon =
+    .alt = Байланыс қауіпсіз емес
 
 ## Toolbar
 
@@ -68,15 +74,41 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
+menu-file-save-as-file =
+    .label = Файл…
+    .accesskey = Ф
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = Файл…
+appmenu-settings =
+    .label = Баптаулар
+appmenu-addons-and-themes =
+    .label = Қосымшалар және темалар
+appmenu-help-enter-troubleshoot-mode =
+    .label = Мәселелерді шешу режимі…
+appmenu-help-exit-troubleshoot-mode =
+    .label = Мәселелерді шешу режимін сөндіру
+appmenu-help-more-troubleshooting-info =
+    .label = Мәселелерді шешудің көбірек ақпараты
+appmenu-redirect-msg =
+    .label = Қайта бағдарлау
 
 ## Context menu
 
+context-menu-redirect-msg =
+    .label = Қайта бағдарлау
+mail-context-delete-messages =
+    .label =
+        { $count ->
+           *[other] Таңдалған хабарламаларды өшіру
+        }
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = Қайта бағдарлау
 
 ## Message header cutomize panel
 
