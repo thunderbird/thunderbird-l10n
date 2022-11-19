@@ -28,6 +28,9 @@ all-address-books = Барлық адрестік кітапшалар
 # $name (String) - The name of the selected book/list.
 # $count (Number) - The number of contacts in the selected book/list.
 about-addressbook-card-count = { $name } ішіндегі жалпы контакт саны: { $count }
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Барлық адрестік кітапшалардағы барлық контакттар саны: { $count }
 about-addressbook-books-context-properties =
     .label = Қасиеттері
 about-addressbook-books-context-edit-list =
@@ -63,6 +66,14 @@ about-addressbook-search =
     .placeholder = { $name } іздеу
 about-addressbook-search-all =
     .placeholder = Барлық адрестік кітапшаларынан іздеу
+about-addressbook-sort-button2 =
+    .title = Тізімді көрсету баптаулары
+about-addressbook-name-format-display =
+    .label = Көрсетілетін аты
+about-addressbook-name-format-firstlast =
+    .label = Аты Жөні
+about-addressbook-name-format-lastfirst =
+    .label = Жөні, Аты
 about-addressbook-sort-name-ascending =
     .label = Аты бойынша сұрыптау (А > Я)
 about-addressbook-sort-name-descending =
@@ -110,10 +121,23 @@ about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
 about-addressbook-cards-context-write =
     .label = Жазу
+about-addressbook-confirm-delete-mixed-title = Контакттар және тізімдерді өшіру
+# Variables:
+# $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
+about-addressbook-confirm-delete-mixed = { $count } контакттар және тізімді өшіруді шынымен қалайсыз ба?
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+about-addressbook-confirm-delete-lists-title =
+    { $count ->
+       *[other] Тізім(дер)ді өшіру
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-new-contact = Жаңа контакт
+about-addressbook-placeholder-search-only = Бұл адрестік кітапша контакттарды тек іздеуден кейін көрсетеді
+about-addressbook-placeholder-searching = Іздеу…
 about-addressbook-placeholder-no-search-results = Ешбір контакт табылмады
 
 ## Details

@@ -23,6 +23,21 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Көмек алу
     .accesskey = л
+menu-help-explore-features =
+    .label = Мүмкіндіктерді зерттеу
+    .accesskey = М
+menu-help-shortcuts =
+    .label = Пернетақта жарлықтары
+    .accesskey = П
+menu-help-get-involved =
+    .label = Үлес қосу
+    .accesskey = л
+menu-help-donation =
+    .label = Демеушілік ету
+    .accesskey = Д
+menu-help-share-feedback =
+    .label = Идеялар мен кері байланыспен бөлісу
+    .accesskey = с
 menu-help-enter-troubleshoot-mode =
     .label = Мәселелерді шешу режимі…
     .accesskey = М
@@ -32,6 +47,29 @@ menu-help-exit-troubleshoot-mode =
 menu-help-more-troubleshooting-info =
     .label = Мәселелерді шешудің көбірек ақпараты
     .accesskey = к
+menu-help-troubleshooting-info =
+    .label = Мәселелерді шешу ақпараты
+    .accesskey = т
+menu-help-about-product =
+    .label = { -brand-short-name } туралы
+    .accesskey = а
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Шығу
+           *[other] Шығу
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] ш
+           *[other] ш
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = { -brand-shorter-name } жұмысын аяқтау
+quit-app-shortcut =
+    .key = ш
 
 ## Mail Toolbar
 
@@ -56,6 +94,18 @@ menu-view-repair-text-encoding =
 
 ## View / Layout
 
+menu-font-size-label =
+    .label = Қаріп өлшемі
+    .accesskey = р
+menuitem-font-size-enlarge =
+    .label = Қаріп өлшемін үлкейту
+    .accesskey = л
+menuitem-font-size-reduce =
+    .label = Қаріп өлшемін кішірейту
+    .accesskey = ш
+menuitem-font-size-reset =
+    .label = Қаріп өлшемін қалпына келтіру
+    .accesskey = р
 mail-uidensity-label =
     .label = Тығыздығы
     .accesskey = ы
@@ -68,6 +118,15 @@ mail-uidensity-normal =
 mail-uidensity-touch =
     .label = Тию
     .accesskey = и
+mail-uidensity-default =
+    .label = Бастапқы
+    .accesskey = Б
+mail-uidensity-relaxed =
+    .label = Кең
+    .accesskey = К
+menu-spaces-toolbar-button =
+    .label = Орындар құралдар панелі
+    .accesskey = р
 
 ## File
 
