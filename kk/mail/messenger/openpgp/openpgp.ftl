@@ -86,6 +86,10 @@ openpgp-key-man-change-expiry =
 openpgp-delete-key =
     .label = Кілтті өшіру
     .accesskey = ш
+openpgp-key-man-user-id-label =
+    .label = Аты
+openpgp-key-man-fingerprint-label =
+    .label = Баспасы
 openpgp-key-details-id-label =
     .label = ID
 openpgp-key-details-key-type-label = Түрі
@@ -117,12 +121,21 @@ openpgp-copy-cmd-label =
 
 ## e2e encryption settings
 
+e2e-learn-more = Көбірек білу
+openpgp-keygen-success = OpenPGP кілті сәтті жасалды!
+openpgp-keygen-import-success = OpenPGP кілттері сәтті импортталды!
 
 ## OpenPGP Key selection area
 
 key-expiry-never = ешқашан
 key-usage-encrypt = Шифрлеу
 key-usage-sign = Қолтаңба қою
+key-usage-certify = Куәландыру
+key-usage-authentication = Аутентификация
+key-does-not-expire = Кілттің мерзімі бітпейді
+import-info-bits = Бит
+import-info-created = Жасалған
+import-info-fpr = Баспасы
 
 ## Account settings export output
 
