@@ -24,6 +24,10 @@ about-addressbook-toolbar-import =
 all-address-books-row =
     .title = Барлық адрестік кітапшалар
 all-address-books = Барлық адрестік кітапшалар
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = { $name } ішіндегі жалпы контакт саны: { $count }
 about-addressbook-books-context-properties =
     .label = Қасиеттері
 about-addressbook-books-context-edit-list =

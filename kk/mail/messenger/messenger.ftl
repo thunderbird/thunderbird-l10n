@@ -135,6 +135,7 @@ message-header-button-style-icons =
 
 ## Add-on removal warning
 
+caret-browsing-prompt-check-text = Келесі рет сұрамау.
 
 ## no-reply handling
 

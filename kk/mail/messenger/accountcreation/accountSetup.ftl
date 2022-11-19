@@ -7,6 +7,9 @@ account-setup-tab-title = Тіркелгіні баптау
 ## Header
 
 account-setup-title = Бар болып тұрған эл. пошта адресін баптау
+account-setup-description = Ағымдағы эл. пошта адресіңізді пайдалану үшін тіркелгі деректерін толтырыңыз.
+account-setup-secondary-description = { -brand-product-name } жұмыс істейтін және ұсынылған сервер конфигурациясын автоматты түрде іздейді.
+account-setup-success-title = Тіркелгі сәтті жасалды
 
 ## Form fields
 
@@ -97,9 +100,18 @@ account-setup-step5-image =
 
 ## Results area
 
+account-setup-incoming-title = Кіріс
+account-setup-outgoing-title = Шығыс
+account-setup-username-title = Пайдаланушы аты
+account-setup-exchange-title = Сервер
+account-setup-result-no-encryption = Шифрлеусіз
 account-setup-result-ssl = SSL/TLS
 account-setup-result-starttls = STARTTLS
 account-setup-result-outgoing-existing = Бар болып тұрған шығыс SMTP серверін қолдану
+# Variables:
+#  $incoming (String): The email/username used to log into the incoming server
+#  $outgoing (String): The email/username used to log into the outgoing server
+account-setup-result-username-different = Кіріс: { $incoming }, шығыс: { $outgoing }
 
 ## Error messages
 
