@@ -7,3 +7,6 @@ account-channel-title = Бастапқы арналар
 chat-autologin =
     .label = Іске қосылған кезде кіру
 chat-encryption-generic = Жалпы
+chat-encryption-status = Шифрлеу күйі
+chat-encryption-placeholder = Шифрлеу инициализацияланбаған.
+chat-encryption-sessions = Сессиялар
