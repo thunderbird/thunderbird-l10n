@@ -11,6 +11,7 @@
 <!ENTITY newMenu.label "Жаңа">
 <!ENTITY newMenu.accesskey "Ж">
 <!ENTITY newMessage.label "Хабарлама">
+<!ENTITY newMessage.accesskey "м">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Адрестік кітапша контакты…">
 <!ENTITY newContact.accesskey "к">

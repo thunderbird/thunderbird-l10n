@@ -38,6 +38,9 @@ addons-and-themes-toolbarbutton =
 quick-filter-toolbarbutton =
     .label = Жедел сүзгі
     .tooltiptext = Хабарламаларды сүзгілеу
+redirect-msg-button =
+    .label = Қайта бағдарлау
+    .tooltiptext = Таңдалған хабарламаны қайта бағдарлау
 
 ## Folder Pane
 
@@ -74,6 +77,9 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
+redirect-msg-menuitem =
+    .label = Қайта бағдарлау
+    .accesskey = д
 menu-file-save-as-file =
     .label = Файл…
     .accesskey = Ф
