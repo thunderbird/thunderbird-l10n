@@ -59,10 +59,31 @@ about-addressbook-search =
     .placeholder = { $name } іздеу
 about-addressbook-search-all =
     .placeholder = Барлық адрестік кітапшаларынан іздеу
+about-addressbook-sort-name-ascending =
+    .label = Аты бойынша сұрыптау (А > Я)
+about-addressbook-sort-name-descending =
+    .label = Аты бойынша сұрыптау (Я > А)
+about-addressbook-sort-email-ascending =
+    .label = Эл. поштасы бойынша сұрыптау (А > Я)
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-generatedname = Аты
+about-addressbook-column-label-generatedname =
+    .label = { about-addressbook-column-header-generatedname }
+about-addressbook-column-header-emailaddresses = Эл. пошта адрестері
+about-addressbook-column-label-emailaddresses =
+    .label = { about-addressbook-column-header-emailaddresses }
+about-addressbook-column-header-nickname = Ник аты
+about-addressbook-column-label-nickname =
+    .label = { about-addressbook-column-header-nickname }
+about-addressbook-column-header-phonenumbers = Телефон нөмірлері
+about-addressbook-column-label-phonenumbers =
+    .label = { about-addressbook-column-header-phonenumbers }
+about-addressbook-column-header-addresses = Адрестер
+about-addressbook-column-label-addresses =
+    .label = { about-addressbook-column-header-addresses }
 about-addressbook-column-header-addrbook = Адрестік кітапша
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }

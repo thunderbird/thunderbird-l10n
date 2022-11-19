@@ -91,6 +91,7 @@ addr-book-file-picker = Адрестік кітапша файлын таңда�
 
 ## Import from calendar file steps
 
+calendar-items-title = Импортталатын объектілерді таңдаңыз.
 calendar-select-all-items = Барлығын таңдау
 calendar-deselect-all-items = Барлығынан таңдауды алып тастау
 
