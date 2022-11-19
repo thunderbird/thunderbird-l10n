@@ -110,9 +110,20 @@ button-return-receipt =
 encryption-menu =
     .label = Қауіпсіздік
     .accesskey = с
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
+menu-encrypt =
+    .label = Шифрлеу
+    .accesskey = е
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = Кімге
 
 ## Notifications
 
@@ -134,12 +145,19 @@ compose-missing-identity-warning = Кімнен адресіне сай келе
 
 # Template
 
+cloud-file-template-size = Өлшемі:
+cloud-file-template-link = Сілтеме:
+cloud-file-template-password-protected-link = Парольмен қорғалған сілтеме:
 
 # Messages
 
 
 ## Link Preview
 
+link-preview-yes-replace = Иә
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Сөздіктерді қосу…
+    .accesskey = С

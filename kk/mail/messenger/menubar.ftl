@@ -2,27 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+toolbar-context-menu-menu-bar =
+    .toolbarname = Мәзір жолағы
+    .accesskey = М
 
 ## Tools Menu
 
 menu-tools-settings =
     .label = Баптаулар
     .accesskey = а
-
 menu-addons-and-themes =
     .label = Кеңейтулер және темалар
     .accesskey = е
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = Көмек
+    .accesskey = К
+menu-help-get-help =
+    .label = Көмек алу
+    .accesskey = л
 menu-help-enter-troubleshoot-mode =
     .label = Мәселелерді шешу режимі…
     .accesskey = М
-
 menu-help-exit-troubleshoot-mode =
     .label = Мәселелерді шешу режимін сөндіру
     .accesskey = д
-
 menu-help-more-troubleshooting-info =
     .label = Мәселелерді шешудің көбірек ақпараты
     .accesskey = к
@@ -53,15 +59,12 @@ menu-view-repair-text-encoding =
 mail-uidensity-label =
     .label = Тығыздығы
     .accesskey = ы
-
 mail-uidensity-compact =
     .label = Ықшам
     .accesskey = ш
-
 mail-uidensity-normal =
     .label = Қалыпты
     .accesskey = п
-
 mail-uidensity-touch =
     .label = Тию
     .accesskey = и
