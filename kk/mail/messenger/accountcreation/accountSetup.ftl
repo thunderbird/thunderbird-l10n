@@ -223,9 +223,19 @@ account-setup-existing-address-book = Байланысқан
     .title = Адрестік кітапша байланысқан болып тұр
 account-setup-existing-calendar = Байланысқан
     .title = Күнтізбе байланысқан болып тұр
+account-setup-connect-all-calendars = Барлық күнтізбелерді байланыстыру
+account-setup-connect-all-address-books = Барлық адрестік кітапшаларды байланыстыру
 
 ## Calendar synchronization dialog
 
+calendar-dialog-title = Күнтізбені байланыстыру
+calendar-dialog-cancel-button = Бас тарту
+    .accesskey = с
+calendar-dialog-confirm-button = Байланыстыру
+    .accesskey = н
+account-setup-calendar-name-label = Аты
+account-setup-calendar-name-input =
+    .placeholder = Менің күнтізбем
 account-setup-calendar-color-label = Түс
 account-setup-calendar-refresh-label = Жаңарту
 account-setup-calendar-refresh-manual = Қолмен
@@ -233,3 +243,9 @@ account-setup-calendar-refresh-interval =
     { $count ->
        *[other] Әр { $count } минут сайын
     }
+account-setup-calendar-read-only = Тек оқу үшін
+    .accesskey = о
+account-setup-calendar-show-reminders = Еске салуларды көрсету
+    .accesskey = с
+account-setup-calendar-offline-support = Желіден тыс қолдау
+    .accesskey = д

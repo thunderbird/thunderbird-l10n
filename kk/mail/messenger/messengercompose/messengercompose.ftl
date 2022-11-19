@@ -48,6 +48,9 @@ pill-tooltip-not-in-address-book = { $email } сіздің адрестік кі
 pill-action-edit =
     .label = Адресті түзету
     .accesskey = е
+pill-action-select-all-pills =
+    .label = Барлық адрестерді таңдау
+    .accesskey = с
 pill-action-move-to =
     .label = Кімге өрісіне жылжыту
     .accesskey = к
@@ -119,17 +122,25 @@ menu-smime =
 menu-encrypt =
     .label = Шифрлеу
     .accesskey = е
+can-e2e-encrypt-button =
+    .label = Шифрлеу
+    .accesskey = е
 
 ## Addressing Area
 
 to-address-row-label =
     .value = Кімге
+bcc-address-row-label =
+    .value = Жасырын көшірме
+many-public-recipients-prompt-cancel = Жіберуден бас тарту
+many-public-recipients-prompt-send = Сонда да жіберу
 
 ## Notifications
 
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
 compose-missing-identity-warning = Кімнен адресіне сай келетін бірегей жеке мәліметтер табылмады. Хабарлама ағымдағы Кімнен өрісі және { $identity } жеке мәліметтерінің баптауларын қолданып жіберіледі.
+encrypted-bcc-ignore-button = Түсінікті
 
 ## Editing
 
@@ -145,6 +156,16 @@ compose-missing-identity-warning = Кімнен адресіне сай келе
 
 # Template
 
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = Парольмен қорғалған сілтеме
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Filelink қызметі:
 cloud-file-template-size = Өлшемі:
 cloud-file-template-link = Сілтеме:
 cloud-file-template-password-protected-link = Парольмен қорғалған сілтеме:
