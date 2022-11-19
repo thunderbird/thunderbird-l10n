@@ -18,6 +18,15 @@ appmenu-sync-manage =
     .accesskey = A
 appmenu-sync-account =
     .value = example@example.com
+appmenu-sync-now =
+    .label = Sincronisar ussa
+    .accesskey = S
+appmenu-sync-settings =
+    .label = Sincronisar ils parameters
+    .accesskey = p
+appmenu-sync-sign-out =
+    .label = Sortir…
+    .accesskey = o
 
 ## New Account
 
@@ -184,3 +193,16 @@ appmenu-help-troubleshooting-info =
 appmenu-help-about-product =
     .label = Davart { -brand-short-name }
     .accesskey = a
+
+## Application Update
+
+appmenuitem-banner-update-downloading =
+    .label = Telechargiar l'actualisaziun da { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Actualisaziun disponibla – ussa telechargiar
+appmenuitem-banner-update-manual =
+    .label = Actualisaziun disponibla – ussa telechargiar
+appmenuitem-banner-update-unsupported =
+    .label = Impussibel dad actualisar – sistem incumpatibel
+appmenuitem-banner-update-restart =
+    .label = Actualisaziun disponibla – ussa reaviar
