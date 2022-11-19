@@ -88,6 +88,7 @@ addr-book-vcard-file = vCard файлы (.vcf, .vcard)
 addr-book-sqlite-file = SQLite дерекқор файлы (.sqlite)
 addr-book-mab-file = Mork дерекқор файлы (.mab)
 addr-book-file-picker = Адрестік кітапша файлын таңдаңыз
+addr-book-directories-pane-source = Бастапқы файл:
 
 ## Import from calendar file steps
 

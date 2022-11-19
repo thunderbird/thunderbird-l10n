@@ -26,6 +26,9 @@ vcard-n-add-prefix =
 vcard-n-firstname = Аты
 vcard-n-add-firstname =
     .title = Атын қосу
+vcard-n-middlename = Әкесінің аты
+vcard-n-add-middlename =
+    .title = Әкесінің атын қосу
 vcard-n-lastname = Тегi
 vcard-n-add-lastname =
     .title = Тегін қосу
@@ -103,13 +106,33 @@ vcard-adr-country = Ел
 # NOTE vCard field
 
 vcard-note-header = Естеліктер
+vcard-note-add = Түсіндірмені қосу
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
+vcard-org-header = Ұйым
+vcard-org-add = Ұйымды қосу
+vcard-org-title = Лауазымы
+vcard-org-title-input =
+    .title = Лауазымы немесе жұмысы
+    .placeholder = Лауазымы
+vcard-org-role = Рөлі
+vcard-org-role-input =
+    .title = Белгілі бір жағдайда орындалатын функция немесе орны
+    .placeholder = Жобадағы рөлі
 vcard-org-org = Ұйым
+vcard-org-org-input =
+    .title = Ұйым атауы
+    .placeholder = Компания атауы
+vcard-org-org-unit = Бөлім
+vcard-org-org-unit-input =
+    .title = Ұйым бөлімінің атауы
+    .placeholder = Бөлім
 
 # Custom properties
 
+vcard-custom-header = Таңдауыңызша қасиеттері
+vcard-custom-add = Таңдауыңызша қасиеттерін қосу
 vcard-remove-button-title =
     .title = Өшіру
 vcard-remove-button = Өшіру

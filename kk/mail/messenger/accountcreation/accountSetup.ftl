@@ -97,9 +97,21 @@ account-setup-step4-image =
     .title = Байланысу қатесі
 account-setup-step5-image =
     .title = Тіркелгі жасалды
+account-setup-selection-error = Көмек керек пе?
+account-setup-success-help = Келесі қадамдарыңыз туралы сенімді емессіз бе?
+account-setup-documentation-help = Баптау құжаттамасы
+account-setup-forum-help = Қолдау форумы
+account-setup-privacy-help = Жекелік саясаты
+account-setup-getting-started = Жұмысты бастау
 
 ## Results area
 
+# Variables:
+#  $count (Number) - Number of available protocols.
+account-setup-results-area-title =
+    { $count ->
+       *[other] Қолжетімді баптаулар
+    }
 account-setup-incoming-title = Кіріс
 account-setup-outgoing-title = Шығыс
 account-setup-username-title = Пайдаланушы аты
@@ -175,6 +187,10 @@ exchange-dialog-cancel-button = Бас тарту
 
 ## Dismiss account creation dialog
 
+exit-dialog-cancel-button = Баптауды жалғастыру
+    .accesskey = с
+exit-dialog-confirm-button = Баптаудан шығу
+    .accesskey = ш
 
 ## Alert dialogs
 
@@ -203,6 +219,10 @@ account-setup-button-finish = Аяқтау
 account-setup-address-books-button = Адрестік кітапшалар
 account-setup-calendars-button = Күнтізбелер
 account-setup-connect-link = Байланысу
+account-setup-existing-address-book = Байланысқан
+    .title = Адрестік кітапша байланысқан болып тұр
+account-setup-existing-calendar = Байланысқан
+    .title = Күнтізбе байланысқан болып тұр
 
 ## Calendar synchronization dialog
 

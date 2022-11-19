@@ -7,3 +7,5 @@ chat-table-heading-account = ID
 chat-table-heading-protocol = Хаттама
 chat-table-heading-name = Аты
 chat-table-heading-actions = Әрекеттер
+chat-table-copy-debug-log = { "" }
+    .title = Осы чат тіркелгісінен қателер және басқа журналдарды алмасу буферіне көшіру. Чат хабарламалары сияқты жеке ақпаратты қамтуы мүмкін.

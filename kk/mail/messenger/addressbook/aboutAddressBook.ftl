@@ -131,10 +131,17 @@ about-addressbook-confirm-delete-lists-title =
     { $count ->
        *[other] Тізім(дер)ді өшіру
     }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title =
+    { $count ->
+       *[other] Контакттарды өшіру
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Контактілер жоқ
 about-addressbook-placeholder-new-contact = Жаңа контакт
 about-addressbook-placeholder-search-only = Бұл адрестік кітапша контакттарды тек іздеуден кейін көрсетеді
 about-addressbook-placeholder-searching = Іздеу…

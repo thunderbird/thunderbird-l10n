@@ -13,6 +13,11 @@ appmenu-signin-panel =
 appmenu-sync-sync =
     .value = Тіркелгіні синхрондау
     .accesskey = а
+appmenu-sync-manage =
+    .value = Тіркелгіні басқару
+    .accesskey = б
+appmenu-sync-account =
+    .value = example@example.com
 appmenu-sync-now =
     .label = Қазір синхрондау
     .accesskey = н
@@ -102,12 +107,28 @@ appmenu-open-calendar =
 
 ## View / Layout
 
+appmenu-view-panel-title =
+    .title = Түрі
+appmenu-view-panel =
+    .label = Түрі
+    .accesskey = Т
 appmenu-font-size-value = Қаріп өлшемі
 appmenu-mail-uidensity-value = Тығыздығы
 appmenu-uidensity-compact =
     .tooltiptext = Ықшам
 appmenu-uidensity-default =
     .tooltiptext = Бастапқы
+appmenu-uidensity-relaxed =
+    .tooltiptext = Кең
+appmenuitem-font-size-enlarge =
+    .tooltiptext = Қаріп өлшемін үлкейту
+appmenuitem-font-size-reduce =
+    .tooltiptext = Қаріп өлшемін кішірейту
+# Variables:
+# $size (String) - The current font size.
+appmenuitem-font-size-reset =
+    .label = { $size }пикс
+    .tooltiptext = Қаріп өлшемін қалпына келтіру
 
 ## Tools
 
