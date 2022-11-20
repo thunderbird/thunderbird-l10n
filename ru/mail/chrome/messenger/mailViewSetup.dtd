@@ -4,8 +4,7 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-<!ENTITY mailViewSetupTitle.label "Параметры режима просмотра сообщений">
+<!ENTITY mailViewSetupTitle.label "Настройки режима просмотра сообщений">
 <!ENTITY mailViewHeading.label "Режим просмотра сообщений:">
 <!ENTITY mailViewHeading.accesskey "м">
 <!ENTITY searchTermCaption.label "Если выбран этот режим просмотра, показывать только сообщения, соответствующие:">
-

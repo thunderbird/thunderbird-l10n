@@ -11,9 +11,9 @@
 
 <!ENTITY feedLocation.label          "Адрес ленты новостей:">
 <!ENTITY feedLocation.accesskey      "ы">
-<!ENTITY feedLocation2.placeholder   "Введите корректный адрес ленты новостей">
+<!ENTITY feedLocation2.placeholder   "Введите действительный адрес ленты новостей">
 <!ENTITY locationValidate.label      "Валидация">
-<!ENTITY validateText.label          "Проверьте корректность и получите корректную ссылку.">
+<!ENTITY validateText.label          "Проверьте правильность и получите действительную ссылку.">
 
 <!ENTITY feedFolder.label            "Хранить статьи в:">
 <!ENTITY feedFolder.accesskey        "ь">
