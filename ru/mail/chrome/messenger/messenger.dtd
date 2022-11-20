@@ -166,7 +166,7 @@
 <!ENTITY compactVersion.accesskey "о">
 
 <!-- Sort Menu -->
-<!ENTITY sortMenu.label "Сортировка">
+<!ENTITY sortMenu.label "Упорядочивание">
 <!ENTITY sortMenu.accesskey "р">
 <!ENTITY sortByDateCmd.label "по дате отправки">
 <!ENTITY sortByDateCmd.accesskey "д">
@@ -192,7 +192,7 @@
 <!ENTITY sortByFromCmd.accesskey "в">
 <!ENTITY sortByRecipientCmd.label "по адресату">
 <!ENTITY sortByRecipientCmd.accesskey "а">
-<!ENTITY sortByCorrespondentCmd.label "по корреспондентам">
+<!ENTITY sortByCorrespondentCmd.label "по отправителям">
 <!ENTITY sortByCorrespondentCmd.accesskey "о">
 <!ENTITY sortByUnreadCmd.label "по прочитанным">
 <!ENTITY sortByUnreadCmd.accesskey "н">
@@ -248,7 +248,7 @@
 
 <!ENTITY bodyMenuFeed.label "Сообщение ленты новостей в виде">
 <!ENTITY bodyMenuFeed.accesskey "б">
-<!ENTITY viewFeedWebPage.label "Веб-страницы">
+<!ENTITY viewFeedWebPage.label "Сетевые страницы">
 <!ENTITY viewFeedWebPage.accesskey "е">
 <!ENTITY viewFeedSummary.label "Сводки">
 <!ENTITY viewFeedSummary.accesskey "д">
@@ -359,12 +359,12 @@
 <!ENTITY forwardAsInline.accesskey "Ч">
 <!ENTITY forwardAsAttachmentCmd.label "Вложение">
 <!ENTITY forwardAsAttachmentCmd.accesskey "В">
-<!ENTITY editAsNewMsgCmd.label "Редактировать как новое сообщение">
+<!ENTITY editAsNewMsgCmd.label "Править как новое сообщение">
 <!ENTITY editAsNewMsgCmd.accesskey "е">
 <!ENTITY editAsNewMsgCmd.key "e">
-<!ENTITY editDraftMsgCmd.label "Редактировать черновик сообщения">
+<!ENTITY editDraftMsgCmd.label "Править черновик сообщения">
 <!ENTITY editDraftMsgCmd.accesskey "а">
-<!ENTITY editTemplateMsgCmd.label "Редактировать шаблон">
+<!ENTITY editTemplateMsgCmd.label "Править шаблон">
 <!ENTITY editTemplateMsgCmd.accesskey "л">
 <!ENTITY newMsgFromTemplateCmd.label "Создать сообщение по шаблону">
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
@@ -439,11 +439,11 @@
 <!ENTITY openAttachmentListCmd.accesskey "ж">
 <!ENTITY openFeedMessage1.label "При открытии сообщений из ленты новостей">
 <!ENTITY openFeedMessage1.accesskey "и">
-<!ENTITY openFeedWebPage.label "Открыть как веб-страницу">
+<!ENTITY openFeedWebPage.label "Открыть как сетевую страницу">
 <!ENTITY openFeedWebPage.accesskey "е">
 <!ENTITY openFeedSummary.label "Открыть как сводку">
 <!ENTITY openFeedSummary.accesskey "в">
-<!ENTITY openFeedWebPageInMP.label "Переключиться между веб-страницей и сводкой в области просмотра сообщения">
+<!ENTITY openFeedWebPageInMP.label "Переключиться между сетевой страницей и сводкой в области просмотра сообщения">
 <!ENTITY openFeedWebPageInMP.accesskey "к">
 
 <!-- Windows Menu -->
@@ -460,7 +460,7 @@
 <!ENTITY addonNoPrefs.label "Настройки дополнений не найдены.">
 <!ENTITY activitymanager.label "Диспетчер работы">
 <!ENTITY activitymanager.accesskey "и">
-<!ENTITY imAccountsStatus.label "Статус чата">
+<!ENTITY imAccountsStatus.label "Состояние чата">
 <!ENTITY imAccountsStatus.accesskey "а">
 <!ENTITY imStatus.available          "Доступен">
 <!ENTITY imStatus.unavailable        "Занят">
@@ -656,7 +656,7 @@
 <!ENTITY folderContextSettings2.accesskey "а">
 
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label "Имя или e-mail адрес содержат:">
+<!ENTITY SearchNameOrEmail.label "Имя или адрес эл. почты содержат:">
 <!ENTITY SearchNameOrEmail.accesskey "И">
 
 <!-- Gloda Search Bar -->
@@ -676,7 +676,7 @@
 <!ENTITY threadColumn.label "Обсуждение">
 <!ENTITY fromColumn.label "От">
 <!ENTITY recipientColumn.label "Адресат">
-<!ENTITY correspondentColumn.label "Корреспонденты">
+<!ENTITY correspondentColumn.label "Отправители">
 <!ENTITY subjectColumn.label "Тема">
 <!ENTITY dateColumn.label "Дата">
 <!ENTITY priorityColumn.label "Важность">
@@ -699,25 +699,25 @@
 <!ENTITY columnChooser2.tooltip "Выбрать колонки для отображения">
 <!ENTITY selectColumn.tooltip "Выделить/Снять выделение всех сообщений">
 <!ENTITY threadColumn2.tooltip "Просмотреть сообщения по обсуждениям">
-<!ENTITY fromColumn2.tooltip "Сортировать по автору">
-<!ENTITY recipientColumn2.tooltip "Сортировать по адресату">
-<!ENTITY correspondentColumn2.tooltip "Сортировать по корреспондентам">
-<!ENTITY subjectColumn2.tooltip "Сортировать по теме">
-<!ENTITY dateColumn2.tooltip "Сортировать по дате отправки">
-<!ENTITY priorityColumn2.tooltip "Сортировать по важности">
-<!ENTITY tagsColumn2.tooltip "Сортировать по меткам">
-<!ENTITY accountColumn2.tooltip "Сортировать по учётной записи">
-<!ENTITY statusColumn2.tooltip "Сортировать по состоянию">
-<!ENTITY sizeColumn2.tooltip "Сортировать по размеру">
-<!ENTITY junkStatusColumn2.tooltip "Сортировать по метке спама">
+<!ENTITY fromColumn2.tooltip "Упорядочивать по автору">
+<!ENTITY recipientColumn2.tooltip "Упорядочивать по получателю">
+<!ENTITY correspondentColumn2.tooltip "Упорядочивать по отправителям">
+<!ENTITY subjectColumn2.tooltip "Упорядочивать по теме">
+<!ENTITY dateColumn2.tooltip "Упорядочивать по дате отправки">
+<!ENTITY priorityColumn2.tooltip "Упорядочивать по важности">
+<!ENTITY tagsColumn2.tooltip "Упорядочивать по меткам">
+<!ENTITY accountColumn2.tooltip "Упорядочивать по учётной записи">
+<!ENTITY statusColumn2.tooltip "Упорядочивать по состоянию">
+<!ENTITY sizeColumn2.tooltip "Упорядочивать по размеру">
+<!ENTITY junkStatusColumn2.tooltip "Упорядочивать по метке спама">
 <!ENTITY unreadColumn2.tooltip "Число непрочитанных сообщений в обсуждении">
 <!ENTITY totalColumn2.tooltip "Общее число сообщений в обсуждении">
-<!ENTITY readColumn2.tooltip "Сортировать по прочтению">
-<!ENTITY receivedColumn2.tooltip "Сортировать по дате получения">
-<!ENTITY starredColumn2.tooltip "Сортировать по наличию звёздочки">
-<!ENTITY locationColumn2.tooltip "Сортировать по расположению">
-<!ENTITY idColumn2.tooltip "Сортировать по порядку получения">
-<!ENTITY attachmentColumn2.tooltip "Сортировать по наличию вложений">
+<!ENTITY readColumn2.tooltip "Упорядочивать по прочтению">
+<!ENTITY receivedColumn2.tooltip "Упорядочивать по дате получения">
+<!ENTITY starredColumn2.tooltip "Упорядочивать по наличию звёздочки">
+<!ENTITY locationColumn2.tooltip "Упорядочивать по расположению">
+<!ENTITY idColumn2.tooltip "Упорядочивать по порядку получения">
+<!ENTITY attachmentColumn2.tooltip "Упорядочивать по наличию вложений">
 <!ENTITY deleteColumn.tooltip "Удалить сообщение">
 
 <!-- Thread Pane Context Menu -->
@@ -736,8 +736,8 @@
 <!ENTITY contextOpenContainingFolder.accesskey "ы">
 <!ENTITY contextEditMsgAsNew.label "Редактировать как новое сообщение">
 <!ENTITY contextEditMsgAsNew.accesskey "а">
-<!ENTITY contextEditDraftMsg.label "Редактировать черновик сообщения">
-<!ENTITY contextEditTemplate.label "Редактировать шаблон">
+<!ENTITY contextEditDraftMsg.label "Править черновик сообщения">
+<!ENTITY contextEditTemplate.label "Править шаблон">
 <!ENTITY contextEditTemplate.accesskey "л">
 <!ENTITY contextArchive.label "Архивировать">
 <!ENTITY contextArchive.accesskey "х">
@@ -882,7 +882,7 @@
 <!ENTITY CopyNameAndEmailAddress.accesskey "о">
 <!ENTITY CopyNewsgroupName.label "Копировать имя группы новостей">
 <!ENTITY CopyNewsgroupName.accesskey "п">
-<!ENTITY CopyNewsgroupURL.label "Копировать URL группы новостей">
+<!ENTITY CopyNewsgroupURL.label "Копировать сетевой адрес группы новостей">
 <!ENTITY CopyNewsgroupURL.accesskey "и">
 <!ENTITY CreateFilterFrom.label "Создать фильтр из…">
 <!ENTITY CreateFilterFrom.accesskey "ф">
