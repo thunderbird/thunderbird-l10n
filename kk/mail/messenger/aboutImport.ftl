@@ -90,6 +90,12 @@ addr-book-mab-file = Mork дерекқор файлы (.mab)
 addr-book-file-picker = Адрестік кітапша файлын таңдаңыз
 addr-book-directories-title = Таңдалған деректерді импорттау орнын таңдаңыз
 addr-book-directories-pane-source = Бастапқы файл:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = <strong>"{ $addressBookName }"</strong> деп аталатын жаңа буманы жасау
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Таңдалған деректерді "{ $addressBookName }" бумасына импорттау
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = "{ $addressBookName }" деп аталатын жаңа адрестік кітапша жасалатын болады.
 
 ## Import from calendar file steps
 
@@ -100,6 +106,17 @@ calendar-items-filter-input =
     .placeholder = Нәрселерді сүзгілеу…
 calendar-select-all-items = Барлығын таңдау
 calendar-deselect-all-items = Барлығынан таңдауды алып тастау
+calendar-target-title = Таңдалған нәрселерді импорттау орнын таңдаңыз
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = <strong>"{ $targetCalendar }"</strong> деп аталатын жаңа күнтізбені жасау
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+       *[other] { $itemCount } нәрсені "{ $targetCalendar }" күнтізбесі ішіне импорттау
+    }
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = "{ $targetCalendar }" деп аталатын жаңа күнтізбе жасалатын болады.
 
 ## Import dialog
 
@@ -109,6 +126,11 @@ progress-pane-importing2 = Импорттау… { $progressPercent }
 progress-pane-exporting2 = Экспорттау… { $progressPercent }
 progress-pane-finished-desc2 = Дайын.
 error-pane-title = Қате
+error-message-zip-file-too-big2 = Таңдалған ZIP файлы 2 ГБ-тан үлкен. Алдымен оны тарқатып, содан кейін тарқатылған бумадан импорттаңыз.
+error-message-extract-zip-file-failed2 = ZIP файлын тарқату мүмкін болмады. Оны қолмен тарқатып, орнына тарқатылған бумадан импорттаңыз.
+error-message-failed = Импорттау күтпеген жерден құлады, қосымша ақпарат Қателер консолінде қолжетімді болуы мүмкін.
+error-failed-to-parse-ics-file = Файлда импортталатын элементтер табылмады.
+error-export-failed = Экспорттау күтпеген жерден құлады, қосымша ақпарат Қателер консолінде қолжетімді болуы мүмкін.
 error-message-no-profile = Профиль табылмады.
 
 ## <csv-field-map> element
@@ -120,6 +142,8 @@ csv-target-field = Адрестік кітапша өрісі
 
 ## Export tab
 
+export-profile-title = Пошта тіркелгілері, пошта хабарламалары, адрестік кітапшалар және баптауларды ZIP файлына экспорттау.
+export-profile-description = Ағымдағы профиліңіз 2 ГБ-тан үлкен болса, оның қор көшірмесін өз қолыңызбен жасауды ұсынамыз.
 export-open-profile-folder = Профиль бумасын ашу
 export-file-picker2 = ZIP файлына экспорттау
 export-brand-name = { -brand-product-name }
