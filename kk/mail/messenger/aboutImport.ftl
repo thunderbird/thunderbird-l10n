@@ -88,11 +88,16 @@ addr-book-vcard-file = vCard файлы (.vcf, .vcard)
 addr-book-sqlite-file = SQLite дерекқор файлы (.sqlite)
 addr-book-mab-file = Mork дерекқор файлы (.mab)
 addr-book-file-picker = Адрестік кітапша файлын таңдаңыз
+addr-book-directories-title = Таңдалған деректерді импорттау орнын таңдаңыз
 addr-book-directories-pane-source = Бастапқы файл:
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = Импорттағыңыз келетін iCalendar(.ics) файлын таңдаңыз.
 calendar-items-title = Импортталатын объектілерді таңдаңыз.
+calendar-items-loading = Нәрселерді жүктеу…
+calendar-items-filter-input =
+    .placeholder = Нәрселерді сүзгілеу…
 calendar-select-all-items = Барлығын таңдау
 calendar-deselect-all-items = Барлығынан таңдауды алып тастау
 
