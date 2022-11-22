@@ -190,6 +190,7 @@ about-addressbook-unsaved-changes-prompt = Түзету көрінісінен �
 
 # Photo dialog
 
+about-addressbook-photo-filepicker-title = Сурет файлын таңдау
 about-addressbook-photo-cancel = Бас тарту
 about-addressbook-photo-save = Сақтау
 

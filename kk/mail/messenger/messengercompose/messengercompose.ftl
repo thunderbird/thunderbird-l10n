@@ -122,6 +122,9 @@ menu-smime =
 menu-encrypt =
     .label = Шифрлеу
     .accesskey = е
+menu-open-key-manager =
+    .label = Кілттер басқарушысы
+    .accesskey = б
 can-e2e-encrypt-button =
     .label = Шифрлеу
     .accesskey = е
@@ -156,6 +159,18 @@ encrypted-bcc-ignore-button = Түсінікті
 
 # Template
 
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = { $link } туралы көбірек білу.
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = { $firstLinks } және { $lastLink } туралы көбірек білу.
 # Tooltip for an icon, indicating that the link is protected by a password.
 cloud-file-tooltip-password-protected-link = Парольмен қорғалған сілтеме
 # Used in a list of stats about a specific file
@@ -175,6 +190,10 @@ cloud-file-template-password-protected-link = Парольмен қорғалғ�
 
 ## Link Preview
 
+link-preview-title = Сілтемені алдын ала қарау
+link-preview-description = { -brand-short-name } сілтемелерді кірістіру кезінде ендірілген алдын ала қарауды қоса алады.
+link-preview-autoadd = Мүмкін болса, сілтемені алдын ала қарауды автоматты түрде қосып отыру
+link-preview-replace-now = Осы сілтемеге алдын ала қарауды қосу керек пе?
 link-preview-yes-replace = Иә
 
 ## Dictionary selection popup

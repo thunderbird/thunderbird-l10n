@@ -125,16 +125,38 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
+message-header-customize-button-style =
+    .value = Батырма стилі
+    .accesskey = Б
+message-header-button-style-default =
+    .label = Таңбашалар мен мәтін
 message-header-button-style-text =
     .label = Мәтін
 message-header-button-style-icons =
     .label = Таңбашалар
+message-header-show-sender-full-address =
+    .label = Жіберушінің толық адресін әрқашан көрсету
+    .accesskey = т
+message-header-show-sender-full-address-description = Электрондық пошта адресі көрсетілетін аттың астында көрсетіледі.
 
 ## Action Button Context Menu
 
+toolbar-context-menu-manage-extension =
+    .label = Кеңейтуді басқару
+    .accesskey = е
+toolbar-context-menu-remove-extension =
+    .label = Кеңейтуді өшіру
+    .accesskey = ш
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the addon that will be removed.
+addon-removal-title = { $name } өшіру керек пе?
+addon-removal-confirmation-button = Өшіру
+addon-removal-confirmation-message = { $name } және оның баптаулары мен деректерін { -brand-short-name } ішінен өшіру керек пе?
+caret-browsing-prompt-title = Белсенді курсор
+caret-browsing-prompt-text = F7 батырмасы белсенді курсор режимін іске қосады немесе өшіреді. Осы режимде, курсорды қандай да бір құрамаға орналастырып, мәтінді пернетақтамен ерекшелей аласыз. Осы режимді іске қосу керек пе?
 caret-browsing-prompt-check-text = Келесі рет сұрамау.
 
 ## no-reply handling
@@ -188,5 +210,17 @@ spaces-pinned-button-menuitem-show =
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Баптау…
+spaces-customize-background-color = Фон түсі
+spaces-customize-icon-color = Батырмалар түсі
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Таңдалған батырма фонының түсі
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Таңдалған батырма түсі
+spaces-customize-button-restore = Бастапқы мәндерін қайтару
+    .accesskey = р
 customize-panel-button-save = Дайын
     .accesskey = Д
