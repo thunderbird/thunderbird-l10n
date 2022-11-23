@@ -80,14 +80,18 @@ items-pane-checkbox-accounts = Тіркелгілер мен параметрл�
 items-pane-checkbox-address-books = Адрестік кітапшалар
 items-pane-checkbox-calendars = Күнтізбелер
 items-pane-checkbox-mail-messages = Пошта хабарламалары
+items-pane-override = Бар болып тұрған немесе бірдей деректер үстінен жазылмайды.
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Адрестік кітапшаңыздың деректері бар файл пішімін таңдаңыз.
+addr-book-csv-file = Үтір немесе табуляциямен бөлінген файл (.csv, .tsv)
 addr-book-ldif-file = LDIF файлы (.ldif)
 addr-book-vcard-file = vCard файлы (.vcf, .vcard)
 addr-book-sqlite-file = SQLite дерекқор файлы (.sqlite)
 addr-book-mab-file = Mork дерекқор файлы (.mab)
 addr-book-file-picker = Адрестік кітапша файлын таңдаңыз
+addr-book-csv-field-map-title = Өріс атауларын сәйкестендіру
 addr-book-directories-title = Таңдалған деректерді импорттау орнын таңдаңыз
 addr-book-directories-pane-source = Бастапқы файл:
 # $addressBookName (string) - name of the new address book that would be created.
