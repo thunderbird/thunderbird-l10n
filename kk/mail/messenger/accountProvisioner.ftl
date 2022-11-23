@@ -24,6 +24,8 @@ account-provisioner-button-back = Артқа
 
 ## Illustrations
 
+account-provisioner-step1-image =
+    .title = Қай тіркелгіні жасау керектігін таңдаңыз
 
 ## Search results
 
