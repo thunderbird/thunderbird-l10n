@@ -12,7 +12,7 @@ menu-tools-settings =
     .label = Баптаулар
     .accesskey = а
 menu-addons-and-themes =
-    .label = Кеңейтулер және темалар
+    .label = Қосымшалар және темалар
     .accesskey = е
 
 ## Help Menu
