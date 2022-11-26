@@ -5,4 +5,4 @@
 <!ENTITY windowTitle.label "Eiginleikar markstiklu">
 <!ENTITY anchorNameEditField.label "Nafn tengils:">
 <!ENTITY anchorNameEditField.accessKey "N">
-<!ENTITY nameInput.tooltip "Sláðu inn einkvæmt nafn fyrir þennan nefnda tengil (mark)">
+<!ENTITY nameInput.tooltip "Settu inn einstakt nafn fyrir þessa nafngreindu markstiklu (markmið)">

@@ -11,7 +11,7 @@
 
 <!ENTITY feedLocation.label          "Streymislóð:">
 <!ENTITY feedLocation.accesskey      "u">
-<!ENTITY feedLocation2.placeholder   "Sláðu inn gilda vefslóð streymis">
+<!ENTITY feedLocation2.placeholder   "Settu inn gilda vefslóð streymis">
 <!ENTITY locationValidate.label      "Sannreyna">
 <!ENTITY validateText.label          "Athuga sannprófun og ná í rétt veffang.">
 
