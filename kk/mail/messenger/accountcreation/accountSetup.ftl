@@ -10,17 +10,24 @@ account-setup-title = Бар болып тұрған эл. пошта адрес
 account-setup-description = Ағымдағы эл. пошта адресіңізді пайдалану үшін тіркелгі деректерін толтырыңыз.
 account-setup-secondary-description = { -brand-product-name } жұмыс істейтін және ұсынылған сервер конфигурациясын автоматты түрде іздейді.
 account-setup-success-title = Тіркелгі сәтті жасалды
+account-setup-success-description = Енді сіз бұл тіркелгіні { -brand-short-name } ішінде пайдалана аласыз.
+account-setup-success-secondary-description = Байланысқан қызметтерді қосу және қосымша тіркелгі параметрлерін баптау арқылы тәжірибені жақсартуға болады.
 
 ## Form fields
 
 account-setup-name-label = Сіздің толық атыңыз
     .accesskey = д
+# Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
+account-setup-name-input =
+    .placeholder = Әліхан Әліханов
 account-setup-name-info-icon =
     .title = Басқаларға көрсетілетіндей, сіздің атыңыз
 account-setup-name-warning-icon =
     .title = Атыңызды енгізіңіз
 account-setup-email-label = Эл. пошта адресі
     .accesskey = Э
+account-setup-email-input =
+    .placeholder = alikhan.alikhanov@example.com
 account-setup-email-info-icon =
     .title = Сіздің бар болып тұрған эл. пошта адресіңіз
 account-setup-email-warning-icon =
@@ -114,6 +121,10 @@ account-setup-results-area-title =
     { $count ->
        *[other] Қолжетімді баптаулар
     }
+account-setup-result-imap-description = Бумалар мен эл. пошта хабарламаларын серверде синхрондап ұстау
+account-setup-result-pop-description = Бумалар мен эл. пошта хабарламаларын компьютеріңізде ұстау
+# Note: Exchange, Office365 are the name of products.
+account-setup-result-exchange2-description = Microsoft Exchange серверін немесе Office365 бұлттық қызметтерін пайдалану
 account-setup-incoming-title = Кіріс
 account-setup-outgoing-title = Шығыс
 account-setup-username-title = Пайдаланушы аты
