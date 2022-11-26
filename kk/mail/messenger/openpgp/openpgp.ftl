@@ -195,18 +195,72 @@ openpgp-keygen-import-success = OpenPGP кілттері сәтті импорт
 
 ## OpenPGP Key selection area
 
+openpgp-radio-none =
+    .label = Ешнәрсе
+#   $key (String) - the expiration date of the OpenPGP key
+openpgp-radio-key-expires = Мерзімі аяқталады: { $date }
+#   $key (String) - the expiration date of the OpenPGP key
+openpgp-radio-key-expired = Мерзімі аяқталды: { $date }
+openpgp-key-expires-within-6-months-icon =
+    .title = Кілттің мерзімі 6 айдан аз уақыт ішінде аяқталады
+openpgp-key-has-expired-icon =
+    .title = Кілт мерзімі аяқталды
+openpgp-key-expand-section =
+    .tooltiptext = Көбірек ақпарат
+openpgp-key-edit-title = OpenPGP кілтін өзгерту
+openpgp-key-edit-date-title = Жарамдылық мерзімін ұзарту
+openpgp-manager-button =
+    .label = OpenPGP кілттер басқарушысы
+    .accesskey = к
+# Strings in keyDetailsDlg.xhtml
+key-type-public = ашық кілт
+key-type-primary = негізгі кілт
+key-type-subkey = ішкі кілт
+key-type-pair = кілттер жұбы (құпия кілт және ашық кілт)
 key-expiry-never = ешқашан
 key-usage-encrypt = Шифрлеу
 key-usage-sign = Қолтаңба қою
 key-usage-certify = Куәландыру
 key-usage-authentication = Аутентификация
 key-does-not-expire = Кілттің мерзімі бітпейді
+key-expired-date = Кілттің мерзімі { $keyExpiry } күні аяқталды
+key-expired-simple = Кілттің мерзімі аяқталды
 import-info-bits = Бит
 import-info-created = Жасалған
 import-info-fpr = Баспасы
 
 ## Account settings export output
 
+# Strings in keyRing.jsm & decryption.jsm
+key-man-button-import = &Импорттау
+delete-key-title = OpenPGP кілтін өшіру
+# Strings used in trust.jsm
+key-valid-unknown = белгісіз
+key-valid-invalid = жарамсыз
+key-valid-disabled = сөндірілген
+key-valid-revoked = қайта шақырылған
+key-valid-expired = мерзімі аяқталған
+key-trust-untrusted = сенімсіз
+key-trust-marginal = шекаралық
+key-trust-full = сенімді
+key-trust-ultimate = шексіз
+key-trust-group = (топ)
+# Strings used in commonWorkflows.js
+import-key-file = OpenPGP кілт файлын импорттау
+gnupg-file = GnuPGфайлдары
+import-keys-failed = Кілттерді импорттау сәтсіз аяқталды
 
 # Strings used in enigmailMessengerOverlay.js
 
+key-not-found = ‘{ $key }’ кілті табылмады
+key-revoked = ‘{ $key }’ кілті қайта шақырылған
+key-expired = ‘{ $key }’ кілтінің мерзімі аяқталды
+msg-compose-internal-error = Ішкі қате орын алды.
+keys-to-export = Кірістіру үшін OpenPGPкілттерін таңдаңыз
+dlg-button-ok = &ОК
+dlg-button-close = &Жабу
+dlg-button-cancel = Ба&с тарту
+dlg-no-prompt = Осы сұхбат терезесін маған келесі ретте көрсетпеу
+# Strings used in persistentCrypto.jsm
+dlg-button-retry = Қа&йталау
+dlg-button-skip = А&ттап кету
