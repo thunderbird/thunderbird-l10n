@@ -12,14 +12,14 @@
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Staðsetning myndar:">
 <!ENTITY locationEditField.accessKey "m">
-<!ENTITY locationEditField.tooltip "Sláðu inn skráarnafn á mynd eða staðsetningu">
+<!ENTITY locationEditField.tooltip "Settu inn skráarheiti myndar eða staðsetningu">
 <!ENTITY locationEditField.shortenedDataURI "Stytt URI-slóð gagna (afritun setur fulla slóð á klippispjald)">
 <!ENTITY title.label "Ábending:">
 <!ENTITY title.accessKey "b">
 <!ENTITY title.tooltip "Html 'title' eigindið sem birtist sem ábending">
 <!ENTITY altText.label "Aukatexti:">
 <!ENTITY altText.accessKey "A">
-<!ENTITY altTextEditField.tooltip "Sláðu inn texta til að sýna í staðinn fyrir mynd">
+<!ENTITY altTextEditField.tooltip "Settu inn texta til að birta í staðinn fyrir mynd">
 <!ENTITY noAltText.label "Ekki nota auka texta">
 <!ENTITY noAltText.accessKey "k">
 

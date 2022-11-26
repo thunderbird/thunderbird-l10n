@@ -5,7 +5,7 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "Setja inn stærðfræði">
 
-<!ENTITY sourceEditField.label "Slá inn LaTeX kóða:">
+<!ENTITY sourceEditField.label "Settu inn LaTeX-kóða:">
 
 <!ENTITY options.label "Valkostir">
 <!ENTITY optionInline.label "Innfelldur hamur">
