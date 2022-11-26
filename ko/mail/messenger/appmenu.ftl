@@ -178,6 +178,31 @@ appmenu-help-get-involved =
 appmenu-help-donation =
     .label = 기부 하기
     .accesskey = D
+appmenu-help-share-feedback =
+    .label = 아이디어 공유와 의견 보내기
+    .accesskey = S
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = 문제 해결 모드…
+    .accesskey = M
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = 문제 해결 모드 끄기
+    .accesskey = M
+appmenu-help-troubleshooting-info =
+    .label = 문제 해결 정보
+    .accesskey = T
+appmenu-help-about-product =
+    .label = { -brand-short-name } 정보
+    .accesskey = A
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = { -brand-shorter-name } 업데이트 내려받기
+appmenuitem-banner-update-available =
+    .label = 업데이트 사용 가능 — 지금 내려받기
+appmenuitem-banner-update-manual =
+    .label = 업데이트 사용 가능 — 지금 내려받기
+appmenuitem-banner-update-unsupported =
+    .label = 업데이트할 수 없음 — 시스템이 호환되지 않음
+appmenuitem-banner-update-restart =
+    .label = 업데이트 사용 가능 — 지금 다시 시작
