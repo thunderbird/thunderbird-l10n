@@ -324,8 +324,8 @@
 <!ENTITY calendar.alarm.snoozefor.label             "Blunda í" >
 <!ENTITY calendar.alarm.snoozeallfor.label          "Blunda allt í" >
 <!ENTITY calendar.alarm.title.label                 "Dagatals áminning" >
-<!ENTITY calendar.alarm.dismiss.label               "Hafna" >
-<!ENTITY calendar.alarm.dismissall.label            "Hafna öllum" >
+<!ENTITY calendar.alarm.dismiss.label               "Afgreiða" >
+<!ENTITY calendar.alarm.dismissall.label            "Afgreiða allt" >
 
 <!ENTITY calendar.alarm.snooze.5minutes.label       "5 mínútur" >
 <!ENTITY calendar.alarm.snooze.10minutes.label      "10 mínútur" >
