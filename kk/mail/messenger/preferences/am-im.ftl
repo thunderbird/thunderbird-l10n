@@ -15,3 +15,7 @@ chat-encryption-status = Шифрлеу күйі
 chat-encryption-placeholder = Шифрлеу инициализацияланбаған.
 chat-encryption-sessions = Сессиялар
 chat-encryption-sessions-description = Өтпелі шифрлеу дұрыс жұмыс істеуі үшін тіркелгіңізге қазір кіріп тұрған басқа сессияларға сену керек. Сессияны тексеру үшін басқа клиентпен өзара әрекеттесу қажет. Сессияны растау нәтижесінде { -brand-short-name } ол клиент сенетін сенетін барлық сессияларға сенуге әкелуі мүмкін.
+chat-encryption-session-verify = растау
+    .title = бұл сессияның шынайылығын растау
+chat-encryption-session-trusted = сенімді
+    .title = бұл сессияның сенімділігі тексерілген

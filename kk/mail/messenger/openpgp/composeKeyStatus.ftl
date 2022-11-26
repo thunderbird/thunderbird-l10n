@@ -14,4 +14,10 @@ openpgp-compose-key-status-open-details = Таңдалған алушы үшін
 openpgp-recip-good = ок
 openpgp-recip-missing = кілт қолжетімді емес
 openpgp-recip-none-accepted = қабылданған кілт жоқ
+openpgp-compose-general-info-alias = { -brand-short-name } әдетте алушының ашық кілтінде сәйкес эл. пошта адресі бар пайдаланушы идентификаторы болуын талап етеді. Бұны OpenPGP алушының бүркеншік атын ережелерін пайдалану арқылы өзгертуге болады.
 openpgp-compose-general-info-alias-learn-more = Көбірек білу
+openpgp-compose-alias-status-direct =
+    { $count ->
+       *[other] { $count } бүркеншік аты кілттерімен сәйкестелген
+    }
+openpgp-compose-alias-status-error = жарамсыз/қолжетімсіз бүркеншік ат кілті

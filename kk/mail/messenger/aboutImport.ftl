@@ -92,6 +92,7 @@ addr-book-sqlite-file = SQLite дерекқор файлы (.sqlite)
 addr-book-mab-file = Mork дерекқор файлы (.mab)
 addr-book-file-picker = Адрестік кітапша файлын таңдаңыз
 addr-book-csv-field-map-title = Өріс атауларын сәйкестендіру
+addr-book-csv-field-map-desc = Бастапқы өрістерге сәйкес адрестік кітапша өрістерін таңдаңыз. Импорттағыңыз келмейтін өрістерден белгішені алып тастаңыз.
 addr-book-directories-title = Таңдалған деректерді импорттау орнын таңдаңыз
 addr-book-directories-pane-source = Бастапқы файл:
 # $addressBookName (string) - name of the new address book that would be created.
@@ -140,6 +141,7 @@ error-message-no-profile = Профиль табылмады.
 ## <csv-field-map> element
 
 csv-first-row-contains-headers = Бірінші жолда - өріс атаулары
+csv-source-field = Бастапқы өріс
 csv-source-first-record = Бірінші жазба
 csv-source-second-record = Екінші жазба
 csv-target-field = Адрестік кітапша өрісі
