@@ -132,6 +132,21 @@ about-addressbook-confirm-delete-lists-title =
        *[other] Тізім(дер)ді өшіру
     }
 # Variables:
+# $count (Number) - The number of lists to be deleted.
+# $name (String) - The name of the list to be deleted, if $count is 1.
+about-addressbook-confirm-delete-lists =
+    { $count ->
+        [one] { $name } тізімін өшіруді шынымен қалайсыз ба?
+       *[other] Осы{ $count } тізімді өшіруді шынымен қалайсыз ба?
+    }
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+about-addressbook-confirm-remove-contacts-title =
+    { $count ->
+        [one] Контактты өшіру
+       *[other] Контакттарды өшіру
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
