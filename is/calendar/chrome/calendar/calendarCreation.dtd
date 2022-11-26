@@ -11,7 +11,7 @@
 <!ENTITY initialpage.network.label  "Á netinu">
 
 <!ENTITY locationpage.description         "Settu inn upplýsingar um hvað þarf til að tengjast þínu fjartengdu dagatali" >
-<!ENTITY locationpage.login.description   "Valkvætt: sláðu inn notandanafn og lykilorð" >
+<!ENTITY locationpage.login.description   "Valkvætt: settu inn notandanafn og lykilorð" >
 <!ENTITY locationpage.username.label      "Notandanafn:" >
 <!ENTITY locationpage.password.label      "Lykilorð:" >
 

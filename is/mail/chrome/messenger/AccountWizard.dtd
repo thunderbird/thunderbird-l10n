@@ -7,15 +7,13 @@
 <!ENTITY windowTitle.label "Reikningaleiðarvísir">
 <!ENTITY accountWizard.size "width: 40em; height: 38em;">
 
-<!-- Entities for Account Type page -->
-
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Auðkenni">
 <!ENTITY identityDesc.label "Hver reikningur hefur auðkenni, sem eru þær upplýsingar sem sýna hver þú ert þegar fólk móttekur póst frá þér.">
 
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
-<!ENTITY fullnameDesc.label "Sláðu inn nafnið eins og þú vilt láta það birtast í &quot;Frá&quot; svæðinu í póstunum þínum">
+<!ENTITY fullnameDesc.label "Settu inn nafnið eins og þú vilt láta það birtast í &quot;Frá&quot; svæðinu í póstunum þínum">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
   2, Use localized full name instead of "John Smith"
@@ -32,17 +30,15 @@
 <!ENTITY incomingTitle.label "Upplýsingar fyrir innsendan netþjón">
 <!ENTITY incomingUsername.label "Notandanafn:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-<!ENTITY newsServerNameDesc.label "Sláðu inn nafn fréttaþjóns (NNTP) (til dæmis, &quot;news.example.net&quot;).">
+<!ENTITY newsServerNameDesc.label "Settu inn nafn fréttaþjóns (NNTP) (til dæmis, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Fréttaþjónn:">
 <!ENTITY newsServerLabel.accesskey "F">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 
 <!ENTITY accnameTitle.label "Heiti reiknings">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
-<!ENTITY accnameDesc.label "Sláðu inn það nafn sem þú vilt nota fyrir þennan reikning (til dæmis, &quot;Vinna&quot;, &quot;Heima&quot; eða &quot;Fréttir&quot;).">
+<!ENTITY accnameDesc.label "Settu inn það nafn sem þú vilt nota fyrir þennan reikning (til dæmis, &quot;Vinna&quot;, &quot;Heima&quot; eða &quot;Fréttir&quot;).">
 <!ENTITY accnameLabel.label "Heiti reiknings:">
 <!ENTITY accnameLabel.accesskey "H">
 

@@ -189,4 +189,4 @@ category-new-label = Flokkur
 category-edit-label = Breyta flokki
 category-overwrite-title = Aðvörun: Nafn þegar til
 category-overwrite = Þegar er til flokkur með þetta nafn. Viltu yfirskrifa yfir hann?
-category-blank-warning = Þú verður að slá inn nafn flokks.
+category-blank-warning = Þú verður að setja inn heiti flokks.
