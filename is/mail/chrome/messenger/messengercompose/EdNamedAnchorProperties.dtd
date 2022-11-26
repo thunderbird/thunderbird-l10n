@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY windowTitle.label "Eiginleikar markstiklu">
-<!ENTITY anchorNameEditField.label "Nafn tengils:">
-<!ENTITY anchorNameEditField.accessKey "N">
+<!ENTITY windowTitle.label "Eiginleikar nefndrar markstiklu">
+<!ENTITY anchorNameEditField.label "Heiti markstiklu:">
+<!ENTITY anchorNameEditField.accessKey "M">
 <!ENTITY nameInput.tooltip "Settu inn einstakt nafn fyrir þessa nafngreindu markstiklu (markmið)">
