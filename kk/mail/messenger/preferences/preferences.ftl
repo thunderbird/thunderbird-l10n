@@ -159,6 +159,7 @@ biff-use-system-alert =
 tray-icon-unread-label =
     .label = Оқылмаған хабарламалар үшін жүйелік сөре таңбашасын көрсету
     .accesskey = р
+tray-icon-unread-description = Тапсырмалар панелінде кішкентай батырмаларды қолдану кезінде ұсынылады
 mail-system-sound-label =
     .label = Жаңа хат үшін жүйенің негізгі дыбысы
     .accesskey = д
@@ -250,6 +251,9 @@ diskspace-legend = Дискідегі орын
 offline-compact-folder =
     .label = Барлық бумаларды ықшамдау, егер ол сақтаса
     .accesskey = ы
+offline-compact-folder-automatically =
+    .label = Ықшамдау алдында әр уақытта сұрау
+    .accesskey = д
 compact-folder-size =
     .value = МБ жалпы
 
@@ -312,6 +316,8 @@ smaller-size-item =
 quoted-text-color =
     .label = Түс:
     .accesskey = с
+search-handler-table =
+    .placeholder = Құрама түрлері мен әрекеттер сүзгісі
 type-column-header = Құрамының түрі
 action-column-header = Әрекет
 save-to-label =
@@ -347,6 +353,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Көрсету уақытында
     .accesskey = ы
+view-attachments-inline =
+    .label = Салынымдарды хат ішінде қарау
+    .accesskey = р
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -404,6 +413,9 @@ auto-save-end = минут
 warn-on-send-accel-key =
     .label = Хабарламаны жіберу үшін пернетақта жарлығы қолданылған кезде растауды сұрау
     .accesskey = с
+add-link-previews =
+    .label = URL адрестерін кірістіру кезінде сілтемелердің алдын ала қарауын қосып отыру
+    .accesskey = ы
 spellcheck-label =
     .label = Жіберу алдына емлені тексеру
     .accesskey = с

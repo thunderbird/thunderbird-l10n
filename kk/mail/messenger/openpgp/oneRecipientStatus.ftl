@@ -18,3 +18,24 @@ openpgp-one-recipient-status-discover =
     .label = Жаңа немесе жаңартылған кілтті іздеп қарау
 openpgp-one-recipient-status-instruction1 = Алушыға шифрленген хабарламаны жіберу үшін оның OpenPGPашық кілтін алып, оны қабылданған деп белгілеу керек.
 openpgp-one-recipient-status-instruction2 = Олардың ашық кілтін алу үшін, құрамында ол кілті бар, олар сізге жіберген электрондық поштадан оны импорттаңыз. Немесе каталогтан олардың ашық кілтін іздеп қарауға болады.
+openpgp-key-own = Қабылданған (жеке кілт)
+openpgp-key-secret-not-personal = Қолдануға жарамсыз
+openpgp-key-verified = Қабылданған (тексерілді)
+openpgp-key-unverified = Қабылданған (тексерілмеген)
+openpgp-key-undecided = Қабылданбаған (шешімсіз)
+openpgp-key-rejected = Қабылданбаған (тайдырылған)
+openpgp-key-expired = Мерзімі аяқталған
+openpgp-intro = { $key } үшін қолжетімді ашық кілттер
+openpgp-pubkey-import-id = ID: { $kid }
+openpgp-pubkey-import-fpr = Баспасы: { $fpr }
+openpgp-pubkey-import-intro =
+    { $num ->
+       *[other] Файлда төменде көрсетілгендей { $num } ашық кілттер бар:
+    }
+openpgp-pubkey-import-accept =
+    { $num ->
+       *[other] Цифрлық қолтаңбаларды тексеру және хабарламаларды шифрлеу үшін, барлық көрсетілген эл. пошта адрестері үшін барлық кілттерді қабылдау керек пе?
+    }
+pubkey-import-button =
+    .buttonlabelaccept = Импорттау
+    .buttonaccesskeyaccept = И
