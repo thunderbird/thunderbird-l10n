@@ -29,6 +29,7 @@ account-provisioner-fetching-provisioners = Провайдерлер алыну�
 account-provisioner-connection-issues = Тіркелгіні жасау серверімен байланысты орната алмадық. Желілік байланысыңызды тексеріңіз.
 account-provisioner-searching-email = Қолжетімді эл. пошта тіркелгілері ізделуде…
 account-provisioner-searching-domain = Қолжетімді домендер ізделуде…
+account-provisioner-searching-error = Ұсынатын әадрестер табылмады. Іздеу шарттарын өзгертіп көріңіз.
 
 ## Illustrations
 
@@ -37,6 +38,8 @@ account-provisioner-step1-image =
 
 ## Search results
 
+account-provisioner-mail-results-caption = Сіз көбірек эл. поштаны табу үшін ник аттарын немесе басқа терминдер бойынша іздей аласыз.
+account-provisioner-domain-results-caption = Сіз көбірек домендерді табу үшін ник аттарын немесе басқа терминдер бойынша іздей аласыз.
 account-provisioner-free-account = Тегін
 account-provision-price-per-year = Жылына { $price }
 account-provisioner-all-results-button = Барлық нәтижелерді көрсету
