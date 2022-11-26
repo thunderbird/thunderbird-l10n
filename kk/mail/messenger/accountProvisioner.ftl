@@ -14,6 +14,10 @@ account-provisioner-domain-description = Thunderbird сізге таңдауың
 
 ## Forms
 
+account-provisioner-mail-input =
+    .placeholder = Сіздің атыңыз, ник атыңыз немесе басқа іздеу термині
+account-provisioner-domain-input =
+    .placeholder = Сіздің атыңыз, ник атыңыз немесе басқа іздеу термині
 account-provisioner-search-button = Іздеу
 account-provisioner-button-cancel = Бас тарту
 account-provisioner-button-existing = Бар болып тұрған эл. пошта тіркелгісін қолдану
@@ -21,6 +25,10 @@ account-provisioner-button-back = Артқа
 
 ## Notifications
 
+account-provisioner-fetching-provisioners = Провайдерлер алынуда…
+account-provisioner-connection-issues = Тіркелгіні жасау серверімен байланысты орната алмадық. Желілік байланысыңызды тексеріңіз.
+account-provisioner-searching-email = Қолжетімді эл. пошта тіркелгілері ізделуде…
+account-provisioner-searching-domain = Қолжетімді домендер ізделуде…
 
 ## Illustrations
 

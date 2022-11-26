@@ -216,6 +216,7 @@ account-setup-address-book-carddav-button = CardDAV адрестік кітап�
 account-setup-address-book-ldap-button = LDAP адрестік кітапшасына байланысу
 account-setup-calendar-button = Қашықтағы күнтізбеге байланысу
 account-setup-linked-services-title = Байланыстырылған қызметтерді қосу
+account-setup-linked-services-description = { -brand-short-name } эл. пошта тіркелгіңізге байланыстырылған басқа қызметтерді анықтады.
 account-setup-button-finish = Аяқтау
     .accesskey = я
 account-setup-looking-up-address-books = Адрестік кітапшалары ізделуде…
