@@ -485,6 +485,8 @@
 <!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "가져오기…">
 <!ENTITY importCmd.accesskey "m">
+<!ENTITY exportCmd.label "내보내기…">
+<!ENTITY exportCmd.accesskey "x">
 <!ENTITY clearRecentHistory.label "최근 기록 삭제…">
 <!ENTITY clearRecentHistory.accesskey "H">
 <!ENTITY accountManagerCmd2.label "계정 설정…">
@@ -691,7 +693,6 @@
 <!ENTITY locationColumn.label "주소">
 <!ENTITY idColumn.label "받은 순서">
 <!ENTITY attachmentColumn.label "첨부">
-
 <!ENTITY deleteColumn.label "삭제">
 
 <!-- Thread Pane Tooltips -->
@@ -717,7 +718,6 @@
 <!ENTITY locationColumn2.tooltip "주소로 정렬">
 <!ENTITY idColumn2.tooltip "받은 순서로 정렬">
 <!ENTITY attachmentColumn2.tooltip "첨부 파일로 정렬">
-
 <!ENTITY deleteColumn.tooltip "메시지 지우기">
 
 <!-- Thread Pane Context Menu -->
