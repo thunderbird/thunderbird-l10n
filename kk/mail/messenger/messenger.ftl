@@ -110,6 +110,9 @@ mail-context-delete-messages =
         { $count ->
            *[other] Таңдалған хабарламаларды өшіру
         }
+context-menu-decrypt-to-folder =
+    .label = Шифрі шешілген түрінде келесі жерге көшіру
+    .accesskey = ш
 
 ## Message header pane
 
@@ -125,6 +128,7 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
+message-header-customize-panel-title = Хабарлама тақырыптаманың баптаулары
 message-header-customize-button-style =
     .value = Батырма стилі
     .accesskey = Б
@@ -138,6 +142,18 @@ message-header-show-sender-full-address =
     .label = Жіберушінің толық адресін әрқашан көрсету
     .accesskey = т
 message-header-show-sender-full-address-description = Электрондық пошта адресі көрсетілетін аттың астында көрсетіледі.
+message-header-show-recipient-avatar =
+    .label = Жіберушінің профиль суретін көрсету
+    .accesskey = у
+message-header-hide-label-column =
+    .label = Белгілер бағанын жасыру
+    .accesskey = л
+message-header-large-subject =
+    .label = Үлкен тақырып
+    .accesskey = т
+message-header-all-headers =
+    .label = Барлық тақырыптамаларды көрсету
+    .accesskey = а
 
 ## Action Button Context Menu
 
@@ -158,9 +174,13 @@ addon-removal-confirmation-message = { $name } және оның баптаул�
 caret-browsing-prompt-title = Белсенді курсор
 caret-browsing-prompt-text = F7 батырмасы белсенді курсор режимін іске қосады немесе өшіреді. Осы режимде, курсорды қандай да бір құрамаға орналастырып, мәтінді пернетақтамен ерекшелей аласыз. Осы режимді іске қосу керек пе?
 caret-browsing-prompt-check-text = Келесі рет сұрамау.
+repair-text-encoding-button =
+    .label = Мәтін кодтауын жөндеу
+    .tooltiptext = Мәтіннің дұрыс кодталуын хабарлама құрамасынан болжау
 
 ## no-reply handling
 
+no-reply-title = Жауапқа қолдау жоқ
 no-reply-reply-anyway-button = Сонда да жауап беру
 
 ## error messages
@@ -184,6 +204,10 @@ spaces-context-new-tab-item =
     .label = Жаңа бетте ашу
 spaces-context-new-window-item =
     .label = Жаңа терезеде ашу
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = { $tabName } бетіне ауысу
 settings-context-open-settings-item2 =
     .label = Баптаулар
 settings-context-open-account-settings-item2 =
