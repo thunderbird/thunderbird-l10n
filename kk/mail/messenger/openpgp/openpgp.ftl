@@ -3,6 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-intro-description = Шифрленген немесе цифрлық қолтаңбасы бар хабарламаларды жіберу үшінғ сізге OpenPGP немесе S/MIME сияқты шифрлеу технологиясын баптау керек.
+e2e-sign-message =
+    .label = Шифрленбеген хабарламаларға қолтаңба қою
+    .accesskey = и
+e2e-disable-enc =
+    .label = Жаңа хабарламалар үшін шифрлеуді сөндіру
+    .accesskey = д
+e2e-enable-enc =
+    .label = Жаңа хабарламалар үшін шифрлеуді іске қосу
+    .accesskey = н
+e2e-enable-description = Жеке хабарламалар үшін шифрлеуді өшіре алатын боласыз.
 e2e-advanced-section = Кеңейтілген баптаулар
 e2e-attach-key =
     .label = OpenPGP цифрық қолтаңбасын қосқанда менің ашық кілтімді тіркеу
@@ -65,6 +75,11 @@ openpgp-key-man-generate-menu =
 openpgp-key-man-keyserver-menu =
     .label = Кілттер сервері
     .accesskey = К
+openpgp-key-man-import-public-from-file =
+    .label = Файлдан ашық кілт(тер) импорттау
+    .accesskey = и
+openpgp-key-man-import-secret-from-file =
+    .label = Файлдан құпия кілт(тер) импорттау
 openpgp-key-man-discover-progress = Іздеу…
 openpgp-key-copy-key =
     .label = Ашық кілтті көшіру
@@ -228,9 +243,22 @@ key-expired-simple = Кілттің мерзімі аяқталды
 import-info-bits = Бит
 import-info-created = Жасалған
 import-info-fpr = Баспасы
+import-info-no-keys = Ешбір кілт импортталмаған.
+# Strings in enigmailKeyManager.js
+import-from-clip = Алмасу буферінен кейбір кілттерді импорттағыңыз келе ме?
+save-keys-failed = Кілттерді сақтау сәтсіз аяқталды
+default-pub-key-filename = Экспортталған_ашық_кілттер
+default-pub-sec-key-filename = Құпия_кілттердің_қор_көшірмесі
+refresh-key-warn = Ескерту: кілттер саны мен байланыс жылдамдығына байланысты барлық кілттерді жаңарту өте ұзақ процесс болуы мүмкін!
+preview-failed = Ашық кілт файлын оқу мүмкін емес.
+general-error = Қате: { $reason }
+dlg-button-delete = Ө&шіру
 
 ## Account settings export output
 
+# Strings in gnupg-keylist.jsm
+keyring-photo = Фото
+user-att-photo = Пайдаланушы атрибуты (JPEG суреті)
 # Strings in keyRing.jsm & decryption.jsm
 key-man-button-import = &Импорттау
 delete-key-title = OpenPGP кілтін өшіру
