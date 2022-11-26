@@ -111,6 +111,8 @@ attachment-bucket-count-value =
     }
 attachment-area-show =
     .title = Салынымдар панелін көрсету ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Салынымдар панелін жасыру ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 drop-file-label-attachment =
     { $count ->
        *[other] Салыным(дар) ретінде қосу
@@ -139,6 +141,18 @@ button-return-receipt =
 encryption-menu =
     .label = Қауіпсіздік
     .accesskey = с
+encryption-toggle =
+    .label = Шифрлеу
+    .tooltiptext = Бұл хабарлама үшін өтпелі шифрлеуді қолдану
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = OpenPGP шифрлеу баптауларын қарау немесе өзгерту
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = S/MIME шифрлеу баптауларын қарау немесе өзгерту
+signing-toggle =
+    .label = Қолтаңба қою
+    .tooltiptext = Бұл хабарламаға үшін цифрлық қолтаңбаны қолдану
 menu-openpgp =
     .label = OpenPGP
     .accesskey = O
@@ -148,9 +162,35 @@ menu-smime =
 menu-encrypt =
     .label = Шифрлеу
     .accesskey = е
+menu-encrypt-subject =
+    .label = Тақырыпты шифрлеу
+    .accesskey = п
+menu-sign =
+    .label = Цифрлық қолтаңба қою
+    .accesskey = и
+menu-manage-keys =
+    .label = Кілттерді басқару
+    .accesskey = а
+menu-view-certificates =
+    .label = Алушылардың сертификаттарын қарау
+    .accesskey = р
 menu-open-key-manager =
     .label = Кілттер басқарушысы
     .accesskey = б
+openpgp-key-issue-notification-one = Өтпелі шифрлеу үшін { $addr } үшін кілт мәселелерін шешу керек
+openpgp-key-issue-notification-many = Өтпелі шифрлеу үшін { $count } алушы үшін кілт мәселелерін шешу керек.
+smime-cert-issue-notification-one = Өтпелі шифрлеу үшін { $addr } үшін сертификат мәселелерін шешу керек.
+smime-cert-issue-notification-many = Өтпелі шифрлеу үшін { $count } алушы үшін сертификат мәселелерін шешу керек.
+key-notification-disable-encryption =
+    .label = Шифрлемеу
+    .accesskey = ф
+    .tooltiptext = Өтпелі шифрлеуді сөндіру
+key-notification-resolve =
+    .label = Шешу…
+    .accesskey = Ш
+    .tooltiptext = OpenPGP кілттер басқарушысын ашу
+can-encrypt-smime-notification = S/MIME өтпелі шифрлеу мүмкін болып тұр.
+can-encrypt-openpgp-notification = OpenPGP өтпелі шифрлеу мүмкін болып тұр.
 can-e2e-encrypt-button =
     .label = Шифрлеу
     .accesskey = е
@@ -159,8 +199,54 @@ can-e2e-encrypt-button =
 
 to-address-row-label =
     .value = Кімге
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .label = "Кімге" өрісі
+    .accesskey = К
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = Кімге
+    .accesskey = К
+#   $key (String) - the shortcut key for this field
+show-to-row-button = Кімге
+    .title = "Кімге" өрісін көрсету ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+cc-address-row-label =
+    .value = Көшірме
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = "Көшірме" өрісі
+    .accesskey = ш
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Көшірме
+    .accesskey = ш
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Көшірме
+    .title = "Көшірме" өрісін көрсету ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 bcc-address-row-label =
     .value = Жасырын көшірме
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .label = "Жасырын көшірме" өрісі
+    .accesskey = Ж
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = Жасырын көшірме
+    .accesskey = Ж
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = Жасырын көшірме
+    .title = "Жасырын көшірме" өрісін көрсету ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = Көрсетілетін басқа адрес өрістері
+many-public-recipients-bcc =
+    .label = Орнына "Жасырын көшірме" қолдану
+    .accesskey = у
 many-public-recipients-prompt-cancel = Жіберуден бас тарту
 many-public-recipients-prompt-send = Сонда да жіберу
 
@@ -176,12 +262,24 @@ encrypted-bcc-ignore-button = Түсінікті
 
 # Tools
 
+compose-tool-button-remove-text-styling =
+    .tooltiptext = Мәтін стилін өшіру
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Белгісіз Filelink тіркелгісіне жүктеп салынған.
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Filelink салынымы
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = { $filename } файлы Filelink салынымы ретінде тіркелген. Оны төмендегі сілтеме арқылы жүктеп алуға болады.
 
 # Template
 
@@ -210,9 +308,16 @@ cloud-file-template-service-name = Filelink қызметі:
 cloud-file-template-size = Өлшемі:
 cloud-file-template-link = Сілтеме:
 cloud-file-template-password-protected-link = Парольмен қорғалған сілтеме:
+cloud-file-template-expiry-date = Мерзімі аяқталады:
 
 # Messages
 
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error-title = Байланысу қатесі
+cloud-file-connection-error = { -brand-short-name } желіде емес. { $provider } желісіне қосылу мүмкін болмады.
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-title = Атын өзгерту қатесі
 
 ## Link Preview
 
