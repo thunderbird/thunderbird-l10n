@@ -121,7 +121,7 @@
 
 <!ENTITY formatFontColor.label "Textalitur…">
 <!ENTITY formatFontColor.accesskey "r">
-<!ENTITY tableOrCellColor.label "Töflu eða hólf bakgrunnslitur…">
+<!ENTITY tableOrCellColor.label "Bakgrunnslitur töflu eða reits…">
 <!ENTITY tableOrCellColor.accesskey "b">
 
 <!ENTITY formatRemoveStyles.key "Y">
@@ -232,17 +232,17 @@
 <!ENTITY tableColumnBefore.accesskey "D">
 <!ENTITY tableColumnAfter.label "Dálkur fyrir aftan">
 <!ENTITY tableColumnAfter.accesskey "a">
-<!ENTITY tableCell.label "Hólf">
-<!ENTITY tableCells.label "Hólf">
-<!ENTITY tableCell.accesskey "H">
-<!ENTITY tableCellContents.label "Innihald hólfs">
+<!ENTITY tableCell.label "Reitur">
+<!ENTITY tableCells.label "Reitir">
+<!ENTITY tableCell.accesskey "R">
+<!ENTITY tableCellContents.label "Innihald reits">
 <!ENTITY tableCellContents.accesskey "n">
-<!ENTITY tableAllCells.label "Öll hólf">
+<!ENTITY tableAllCells.label "Allir reitir">
 <!ENTITY tableAllCells.accesskey "l">
-<!ENTITY tableCellBefore.label "Hólf áður">
-<!ENTITY tableCellBefore.accesskey "H">
-<!ENTITY tableCellAfter.label "Hólf á eftir">
-<!ENTITY tableCellAfter.accesskey "f">
+<!ENTITY tableCellBefore.label "Reitur á undan">
+<!ENTITY tableCellBefore.accesskey "U">
+<!ENTITY tableCellAfter.label "Reitur á eftir">
+<!ENTITY tableCellAfter.accesskey "e">
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Eyða">
 <!ENTITY tableDeleteMenu.accesskey "E">
@@ -254,7 +254,7 @@
 -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
-<!ENTITY tableSplitCell.label "Kljúfa hólf">
+<!ENTITY tableSplitCell.label "Kljúfa reit">
 <!ENTITY tableSplitCell.accesskey "K">
 <!ENTITY convertToTable.label "Búa til töflu út frá vali">
 <!ENTITY convertToTable.accesskey "r">

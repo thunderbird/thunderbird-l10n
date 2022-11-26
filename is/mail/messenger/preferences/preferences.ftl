@@ -503,15 +503,15 @@ cloud-account-description = Bæta við nýrri Filelink-geymsluþjónustu fyrir s
 
 ## Privacy Tab
 
-mail-content = Innihald pósts
+mail-content = Efni pósts
 remote-content-label =
-    .label = Leyfa fjartengd innihald í pósti
+    .label = Leyfa fjartengt efni í pósti
     .accesskey = a
 exceptions-button =
     .label = Undanþágur…
     .accesskey = U
 remote-content-info =
-    .value = Fræðast meira um friðhelgisvandamál í fjartengdu innihaldi
+    .value = Fræðast meira um friðhelgisvandamál í fjartengdu efni
 web-content = Vefur
 history-label =
     .label = Muna eftir vefsvæðum og tenglum sem ég heimsæki

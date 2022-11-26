@@ -45,7 +45,7 @@
 <!ENTITY cellSelectPrevious.label         "Fyrri">
 <!ENTITY cellSelectPrevious.accessKey     "F">
 <!ENTITY applyBeforeChange.label          "Núverandi breytingar munu verða gerðar virkar áður en vali er breytt.">
-<!ENTITY cellContentAlignment.label       "Jafna innihald">
+<!ENTITY cellContentAlignment.label       "Jafna efni">
 <!ENTITY cellHorizontal.label             "Lárétt:">
 <!ENTITY cellHorizontal.accessKey         "L">
 <!ENTITY cellVertical.label               "Lóðrétt:">

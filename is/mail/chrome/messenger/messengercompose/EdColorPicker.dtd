@@ -18,5 +18,5 @@
 <!ENTITY background.accessKey "B">
 <!ENTITY table.label "Tafla">
 <!ENTITY table.accessKey "T">
-<!ENTITY cell.label "Hólf">
-<!ENTITY cell.accessKey "H">
+<!ENTITY cell.label "Reitir">
+<!ENTITY cell.accessKey "R">

@@ -578,11 +578,11 @@
 <!ENTITY buttonMenuForwardAsAttachment.label "Áframsenda sem viðhengi">
 
 <!-- Remote Content Button Popup -->
-<!ENTITY remoteContentOptionsAllowForMsg.label "Sýna fjarlægt innihald í þessum pósti">
+<!ENTITY remoteContentOptionsAllowForMsg.label "Sýna fjartengt efni í þessum pósti">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "S">
-<!ENTITY editRemoteContentSettings.label "Breyta fjartengdum stillingum innihalds…">
+<!ENTITY editRemoteContentSettings.label "Breyta stillingum fjartengds efnis…">
 <!ENTITY editRemoteContentSettings.accesskey "e">
-<!ENTITY editRemoteContentSettingsUnix.label "Breyta fjartengdum stillingum innihalds…">
+<!ENTITY editRemoteContentSettingsUnix.label "Breyta kjörstillingum fjartengds efnis…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "e">
 
 <!-- Phishing Button Popup -->
