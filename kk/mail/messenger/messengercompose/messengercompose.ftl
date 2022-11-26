@@ -48,6 +48,10 @@ pill-tooltip-not-in-address-book = { $email } сіздің адрестік кі
 pill-action-edit =
     .label = Адресті түзету
     .accesskey = е
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = { $type } ішіндегі барлық адрестерді таңдау
+    .accesskey = а
 pill-action-select-all-pills =
     .label = Барлық адрестерді таңдау
     .accesskey = с
@@ -60,6 +64,9 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Жасырын көшірме өрісіне жылжыту
     .accesskey = ы
+pill-action-expand-list =
+    .label = Тізімді ашу
+    .accesskey = ш
 
 ## Attachment widget
 
@@ -77,6 +84,10 @@ menuitem-toggle-attachment-pane =
 toolbar-button-add-attachment =
     .label = Жалғау
     .tooltiptext = Салынымды қосу ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
+add-attachment-notification-reminder2 =
+    .label = Салынымды қосу…
+    .accesskey = а
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 menuitem-attach-files =
     .label = Файл(дар)…
     .accesskey = Ф
@@ -85,6 +96,21 @@ context-menuitem-attach-files =
     .label = Файл(дар)ды жалғау…
     .accesskey = Ф
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = Менің vCard
+    .accesskey = н
+context-menuitem-attach-openpgp-key =
+    .label = Менің OpenPGPашық кілтім
+    .accesskey = к
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } салыным
+       *[other] { $count } салыным
+    }
+attachment-area-show =
+    .title = Салынымдар панелін көрсету ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 drop-file-label-attachment =
     { $count ->
        *[other] Салыным(дар) ретінде қосу
