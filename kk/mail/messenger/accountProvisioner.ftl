@@ -7,6 +7,7 @@ provisioner-searching-icon =
     .alt = Іздеу…
 account-provisioner-title = Жаңа эл. пошта адресін жасау
 account-provisioner-description = Жаңа жеке және қауіпсіз электрондық пошта адресін алу үшін сенімді серіктестерімізді пайдаланыңыз.
+account-provisioner-start-help = Қолданылған іздеу ұғымдары { -vendor-short-name } (<a data-l10n-name="mozilla-privacy-link">Құпиялылық саясаты</a>) адресіне және үшінші тарапты электрондық пошта провайдерлеріне қолжетімді эл. пошта адрестерін табу үшін жіберіледі: <strong>mailfence.com</strong> (<a data-l10n-name="mailfence-privacy-link">Жекелік саясаты</a>, <a data-l10n-name="mailfence-tou-link">Пайдалану шарттары</a>) және <strong>gandi.net</strong> (<a data-l10n-name="gandi-privacy-link">Жекелік саясаты</a>, <a data-l10n-name="gandi-tou-link">Пайдалану шарттары</a>).
 account-provisioner-mail-account-title = Жаңа эл. пошта адресін сатып алу
 account-provisioner-mail-account-description = Thunderbird сізге жаңа жеке және қауіпсіз электрондық поштаны ұсыну үшін <a data-l10n-name="mailfence-home-link">Mailfence</a> қызметімен серіктес болды. Біз әрбір адамның қауіпсіз электрондық поштасы болуы керек деп санаймыз.
 account-provisioner-domain-title = Электрондық поштаны және өз доменіңізді сатып алу
@@ -38,6 +39,12 @@ account-provisioner-step1-image =
 
 ## Search results
 
+# Variables:
+# $count (Number) - The number of domains found during search.
+account-provisioner-results-title =
+    { $count ->
+       *[other] Келесі үшін { $count } қолжетімді эл. пошта адрестері табылды:
+    }
 account-provisioner-mail-results-caption = Сіз көбірек эл. поштаны табу үшін ник аттарын немесе басқа терминдер бойынша іздей аласыз.
 account-provisioner-domain-results-caption = Сіз көбірек домендерді табу үшін ник аттарын немесе басқа терминдер бойынша іздей аласыз.
 account-provisioner-free-account = Тегін

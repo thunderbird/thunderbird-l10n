@@ -6,6 +6,9 @@
 thunderbird-import-name = Thunderbird
 # Description of the import module
 thunderbird-import-description = Thunderbird профиль бумасынан поштаны импорттау.
+import-from-thunderbird-zip =
+    .label = Thunderbird (экспортталған профильдің қор көшірмесі; 2 ГБ-тан кіші zip файлы)
+    .accesskey = э
 import-from-thunderbird-dir =
     .label = Thunderbird (профиль бумасы)
     .accesskey = п
@@ -15,3 +18,4 @@ zip-file-too-big-title = Zip файлы тым үлкен
 zip-file-too-big-message = Таңдалған zip файлы 2 ГБ-тан үлкен. Алдымен оны тарқатып, содан кейін тарқатылған бумадан импорттаңыз.
 wizardpage-failed =
     .label = Импорттау сәтсіз аяқталды
+wizardpage-failed-message = Импорттау күтпеген жерден құлады, қосымша ақпарат Қателер консолінде қолжетімді болуы мүмкін.
