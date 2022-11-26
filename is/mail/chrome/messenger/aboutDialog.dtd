@@ -52,10 +52,10 @@
 <!ENTITY releaseNotes.link          "Útgáfuupplýsingar">
 
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
-<!ENTITY bottomLinks.license        "Leyfisupplýsingar">
+<!ENTITY bottomLinks.license        "Upplýsingar um notkunarleyfi">
 
 <!-- LOCALIZATION NOTE (bottomLinks.rights): This is a link title that links to about:rights. -->
-<!ENTITY bottomLinks.rights         "Notendaréttindi">
+<!ENTITY bottomLinks.rights         "Réttindi notenda">
 
 <!-- LOCALIZATION NOTE (bottomLinks.privacy): This is a link title that links to https://www.mozilla.org/legal/privacy/. -->
 <!ENTITY bottomLinks.privacy        "Stefna um meðferð persónuupplýsinga">

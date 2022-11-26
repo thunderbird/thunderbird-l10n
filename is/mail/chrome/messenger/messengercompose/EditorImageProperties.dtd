@@ -52,8 +52,8 @@
 <!ENTITY bottomPopup.value "Neðst">
 <!ENTITY topPopup.value "Efst">
 <!ENTITY centerPopup.value "Í miðju">
-<!ENTITY wrapRightPopup.value "Orðskipta til hægri">
-<!ENTITY wrapLeftPopup.value "Orðskipta til vinstri">
+<!ENTITY wrapRightPopup.value "Línuskipta til hægri">
+<!ENTITY wrapLeftPopup.value "Línuskipta til vinstri">
 
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Millibil">

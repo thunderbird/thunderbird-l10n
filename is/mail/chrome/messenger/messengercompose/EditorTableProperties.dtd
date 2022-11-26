@@ -37,7 +37,7 @@
 <!ENTITY tableInheritColor.label           "(Leyfa síðulit að skína í gegn)">
 
 <!ENTITY cellSelection.label              "Val">
-<!ENTITY cellSelectCell.label             "Eining">
+<!ENTITY cellSelectCell.label             "Reitur">
 <!ENTITY cellSelectRow.label              "Röð">
 <!ENTITY cellSelectColumn.label           "Dálkur">
 <!ENTITY cellSelectNext.label             "Næsta">
@@ -50,20 +50,20 @@
 <!ENTITY cellHorizontal.accessKey         "L">
 <!ENTITY cellVertical.label               "Lóðrétt:">
 <!ENTITY cellVertical.accessKey           "r">
-<!ENTITY cellStyle.label                  "Hólfa snið:">
-<!ENTITY cellStyle.accessKey              "H">
+<!ENTITY cellStyle.label                  "Stíll reita:">
+<!ENTITY cellStyle.accessKey              "S">
 <!ENTITY cellNormal.label                 "Venjulegt">
 <!ENTITY cellHeader.label                 "Haus">
-<!ENTITY cellTextWrap.label               "Textaskipting:">
+<!ENTITY cellTextWrap.label               "Línuskipting texta:">
 <!ENTITY cellTextWrap.accessKey           "T">
-<!ENTITY cellWrap.label                   "Flétta">
-<!ENTITY cellNoWrap.label                 "Ekki skipta">
+<!ENTITY cellWrap.label                   "Línuskipta">
+<!ENTITY cellNoWrap.label                 "Ekki línuskipta">
 <!ENTITY cellAlignTop.label               "Efst">
 <!ENTITY cellAlignMiddle.label            "Miðja">
-<!ENTITY cellAlignBottom.label            "Botn">
+<!ENTITY cellAlignBottom.label            "Neðst">
 <!ENTITY cellAlignJustify.label           "Jafna">
 <!ENTITY cellInheritColor.label           "(Láta lit töflu skína í gegn)">
-<!ENTITY cellUseCheckboxHelp.label        "Notaðu gátreiti til að sjá hvaða eiginleikar eru framkvæmdir á öll völd hólf">
+<!ENTITY cellUseCheckboxHelp.label        "Notaðu gátreiti til að tilgreina hvaða eiginleikum er beitt á alla valda reiti">
 
 <!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Stærð">

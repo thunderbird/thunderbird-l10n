@@ -2,8 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-rights-title = Um þín réttindi
-rights-intro = { -brand-full-name } er frjáls og opinn hugbúnaður, búinn til af samfélagi sem samanstendur af þúsundum allstaðar úr heiminum. Hér eru nokkrir hlutir sem þú ættir að vita:
+rights-title = Um réttindi þín
+rights-intro = { -brand-full-name } er frjáls og opinn hugbúnaður, búinn til af samfélagi sem samanstendur af þúsundum manns allstaðar úr heiminum. Hér eru nokkrir hlutir sem þú ættir að vita:
 rights-intro-point-1 = { -brand-short-name } er á boðstólum fyrir þig samkvæmt skilmálum <a data-l10n-name="mozilla-public-license-link">Mozilla Public License</a>. Þetta þýðir að þú mátt nota, afrita og dreifa { -brand-short-name } til annarra.  Þú mátt einnig breyta frumkóða { -brand-short-name } hvernig sem þér hentar. Mozilla Public License gefur þér einnig rétt til að dreifa breyttum útgáfum.
 rights-intro-point-2 = Þú hefur ekki leyfi til að nota vörumerki eða hefur notkunarleyfi fyrir vörumerkjum frá Mozilla Foundation stofnunni eða öðrum aðilum, þar með talið án allra takmarkana Firefox-nafnið eða fyrirtækismerki þess. Meiri upplýsingar má sjá <a data-l10n-name="mozilla-trademarks-link">hér</a>.
 rights-intro-point-3 = Sumir eiginleikar í { -brand-short-name }, eins og t.d. að tilkynna hrun, gefur þér tækifæri á að senda tilkynningu til { -vendor-short-name }. Með því að velja að senda tilkynningu, gefurðu { -vendor-short-name } leyfi til að nota tilkynninguna til að laga vörur sínar, og leyfi til að birta tilkynninguna á vefsvæðum sínum, og að deila tilkynningunni.
