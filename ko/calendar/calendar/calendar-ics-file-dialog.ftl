@@ -14,6 +14,20 @@ calendar-ics-file-dialog-message-2 = 파일에서 가져오기:
 calendar-ics-file-dialog-calendar-menu-label = 캘린더로 가져오기:
 calendar-ics-file-dialog-items-loading-message =
     .value = 항목 로드중…
+calendar-ics-file-dialog-search-input =
+    .placeholder = 항목 필터…
+calendar-ics-file-dialog-sort-start-ascending =
+    .label = 시작일로 정렬(처음에서 마지막으로)
+calendar-ics-file-dialog-sort-start-descending =
+    .label = 시작일로 정렬(마지막에서 처음으로)
+# "A > Z" is used as a concise way to say "alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-ascending =
+    .label = 제목으로 정렬(A > Z)
+# "Z > A" is used as a concise way to say "reverse alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-descending =
+    .label = 제목으로 정렬(Z > A)
 calendar-ics-file-dialog-progress-message = 가져오는 중…
 calendar-ics-file-import-success = 성공적으로 가져 왔습니다!
 calendar-ics-file-import-error = 오류가 발생하여 가져 오기에 실패했습니다.

@@ -13,3 +13,11 @@ room-name-empty = 빈 대화
 #  $oldName (String) - The previous name the conversation had before it was
 #    removed.
 room-name-empty-had-name = 빈 대화 (이전: { $oldName })
+# Variables:
+#  $participant (String) - The name of one participant that isn't the user.
+#  $otherParticipantsCount (Number) - The count of other participants apart from
+#    the user and $participant.
+room-name-others =
+    { $otherParticipantsCount ->
+       *[other] { $participant } 외 { $otherParticipantCount }명
+    }

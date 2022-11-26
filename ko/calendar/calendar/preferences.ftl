@@ -4,6 +4,7 @@
 
 calendar-title = 달력
 calendar-title-reminder = 알림
+calendar-title-notification = 알림
 calendar-title-category = 분류
 dateformat-label =
     .value = 날짜 형식:
@@ -14,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = 짧은 형식: { $date }
+use-system-timezone-radio-button =
+    .label = 시스템 시간대 사용
+set-timezone-manually-radio-button =
+    .label = 수동으로 시간대 설정
 timezone-label =
     .value = 시간대:
 weekstart-label =
@@ -100,12 +105,6 @@ previous-weeks-label =
     .value = 이전 주 표시:
     .accesskey = P
 todaypane-legend = 오늘 창
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = 다가오는 이벤트 섹션:
-    .accesskey = U
 event-task-legend = 이벤트와 할일
 default-length-label =
     .value = 기본 이벤트와 작업 길이:
@@ -133,6 +132,9 @@ task-due-label =
 edit-intab-label =
     .label = 다이얼로그 창이 아닌 탭에서 이벤트와 할일을 편집합니다.
     .accesskey = t
+prompt-delete-label =
+    .label = 이벤트와 태스크를 삭제하기 전에 알립니다.
+    .accesskey = V
 accessibility-legend = 접근성
 accessibility-colors-label =
     .label = 시스템 색상 최적화
@@ -179,6 +181,7 @@ event-alarm-time-label =
 task-alarm-time-label =
     .value = 태스크 전 기본 알람 시간:
     .accesskey = o
+calendar-notifications-customize-label = 캘린더의 속성 창에서 각 캘린더에 대한 알림을 사용자 정의할 수 있습니다.
 category-new-label = 새 카테고리
 category-edit-label = 분류 편집
 category-overwrite-title = 경고: 이름 중복
