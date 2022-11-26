@@ -15,9 +15,21 @@ key-wizard-learn-more = Көбірек білу
 radio-create-key =
     .label = Жаңа OpenPGP кілтін жасау
     .accesskey = с
+radio-import-key =
+    .label = Бар болып тұрған OpenPGP кілтін импорттау
+    .accesskey = и
 
 ## Generate key section
 
+openpgp-generate-key-title = OpenPGP кілтін генерациялау
+openpgp-keygen-expiry-title = Кілттің жарамдылық мерзімі
+openpgp-keygen-expiry-description = Жаңадан жасалған кілттің жарамдылық мерзімін анықтаңыз. Қажет болса, ұзарту үшін күнді кейінірек те басқара аласыз.
+radio-keygen-expiry =
+    .label = Кілт мерзімі бітеді
+    .accesskey = е
+radio-keygen-no-expiry =
+    .label = Кілттің мерзімі бітпейді
+    .accesskey = д
 openpgp-keygen-days-label =
     .label = күн
 openpgp-keygen-months-label =

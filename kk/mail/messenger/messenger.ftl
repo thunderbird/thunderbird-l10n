@@ -181,13 +181,19 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Жауапқа қолдау жоқ
+no-reply-message = Жауап беру ({ $email }) адресі бақыланатын адреске ұқсамайды. Бұл адреске жіберілген хабарламалар ешкім оқымайтын сияқты.
 no-reply-reply-anyway-button = Сонда да жауап беру
 
 ## error messages
 
+decrypt-and-copy-failures = { $total } ішінен { $failures } хабарламаны дешифрлеу мүмкін емес және олар көшірілмеді.
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Орындар панелі
+    .aria-label = Орындар панелі
+    .aria-description = Әр түрлі орындар арасында ауысу үшін арналған вертикалды құралдар панелі. Қолжетімді батырмалар арасында ауысу үшін бағдарша пернелерін қолданыңыз.
 spaces-toolbar-button-mail2 =
     .title = Эл. пошта
 spaces-toolbar-button-address-book2 =
@@ -198,8 +204,14 @@ spaces-toolbar-button-tasks2 =
     .title = Тапсырмалар
 spaces-toolbar-button-chat2 =
     .title = Чат
+spaces-toolbar-button-overflow =
+    .title = Көбірек орындар…
 spaces-toolbar-button-settings2 =
     .title = Баптаулар
+spaces-toolbar-button-hide =
+    .title = Орындар құралдар панелін жасыру
+spaces-toolbar-button-show =
+    .title = Орындар құралдар панелін көрсету
 spaces-context-new-tab-item =
     .label = Жаңа бетте ашу
 spaces-context-new-window-item =
@@ -217,6 +229,8 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Орындар мәзірі
 spaces-pinned-button-menuitem-mail2 =
     .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =
@@ -231,11 +245,20 @@ spaces-pinned-button-menuitem-settings2 =
     .label = { spaces-toolbar-button-settings2.title }
 spaces-pinned-button-menuitem-show =
     .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] Бір оқылмаған хабарлама
+           *[other] { $count } оқылмаған хабарлама
+        }
 
 ## Spaces toolbar customize panel
 
 menuitem-customize-label =
     .label = Баптау…
+spaces-customize-panel-title = Орындар құралдар панелінің баптаулары
 spaces-customize-background-color = Фон түсі
 spaces-customize-icon-color = Батырмалар түсі
 # The background color used on the buttons of the spaces toolbar when they are
