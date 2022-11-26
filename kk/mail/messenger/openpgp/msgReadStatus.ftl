@@ -5,6 +5,7 @@
 
 ## Message Header Encryption Button
 
+message-header-show-security-info-key = S
 openpgp-openpgp = OpenPGP
 openpgp-unknown-key-id = Белгісіз кілт
 openpgp-other-enc-additional-key-ids = Сонымен қатар, хабарлама келесі кілттердің иелері үшін шифрленген:
