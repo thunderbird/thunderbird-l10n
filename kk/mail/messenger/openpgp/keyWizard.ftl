@@ -48,6 +48,9 @@ openpgp-keygen-type-rsa =
 openpgp-keygen-type-ecc =
     .label = ECC (эллиптикалық қисықтар)
 openpgp-keygen-button = Кілтті генерациялау
+openpgp-keygen-import-progress-title = Сіздің OpenPGP кілттеріңізді импорттау…
+openpgp-import-success = OpenPGP кілттері сәтті импортталды!
+openpgp-import-success-title = Импорттау процесін аяқтау
 openpgp-keygen-confirm =
     .label = Растау
 openpgp-keygen-dismiss =
@@ -55,12 +58,26 @@ openpgp-keygen-dismiss =
 openpgp-keygen-import-complete =
     .label = Жабу
     .accesskey = Ж
+openpgp-keygen-abort-title = Кілт генерациясын тоқтату керек пе?
 
 ## Import Key section
 
+openpgp-passphrase-prompt-title = Кілттік фраза керек
+openpgp-import-key-button =
+    .label = Импорттау үшін файлды таңдау…
+    .accesskey = т
+import-key-file = OpenPGP кілт файлын импорттау
+import-key-personal-checkbox =
+    .label = Бұл кілтті жеке кілт ретінде қарастыру
+gnupg-file = GnuPGфайлдары
 openpgp-import-identity-label = Жеке мәліметтер
 openpgp-import-fingerprint-label = Баспасы
 openpgp-import-created-label = Жасалған
+openpgp-import-bits-label = Бит
+openpgp-import-key-props =
+    .label = Кілт қасиеттері
+    .accesskey = К
 
 ## External Key section
 
+openpgp-external-key-title = Сыртқы GnuPGкілті

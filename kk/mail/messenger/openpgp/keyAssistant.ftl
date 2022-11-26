@@ -6,9 +6,19 @@ openpgp-key-assistant-title = OpenPGP кілттер көмекшісі
 
 ## Encryption status
 
+openpgp-key-assistant-recipients-issue-header = Шифрлеу мүмкін емес
 
 ## Resolve section
 
+openpgp-key-assistant-valid-description = Қабылдағыңыз келетін кілтті таңдаңыз
+# Variables:
+# $numKeys (Number) - The number of available keys.
+openpgp-key-assistant-invalid-title =
+    { $numKeys ->
+       *[other] Жаңартуды алмасаңыз, келесі кілт(тер) пайдалану мүмкін емес.
+    }
+openpgp-key-assistant-no-key-available = Қолжетімді кілттер жоқ.
+openpgp-key-assistant-multiple-keys = Бірнеше кілт қолжетімді.
 openpgp-key-assistant-key-fingerprint = Баспасы
 
 ## Discovery section

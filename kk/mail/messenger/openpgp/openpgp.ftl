@@ -203,11 +203,15 @@ openpgp-acceptance-unverified-label =
     .label = Иә, бірақ мен оның дұрыс кілт екенін тексерген жоқпын.
 openpgp-personal-no-label =
     .label = Жоқ, оны менің жеке кілтім ретінде пайдаланбау.
+openpgp-personal-yes-label =
+    .label = Иә, бұл кілтті жеке кілт ретінде қарастыру.
 openpgp-copy-cmd-label =
     .label = Көшіріп алу
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = { -brand-short-name } ішінде <b>{ $identity }</b> үшін жеке OpenPGP кілті жоқ
 openpgp-add-key-button =
     .label = Кілтті қосу…
     .accesskey = о
