@@ -29,4 +29,8 @@ openpgp-search-signature-key =
 openpgp-broken-exchange-repair =
     .label = Хабарламаны жөндеу
 openpgp-broken-exchange-wait = Күте тұрыңыз…
+openpgp-cannot-decrypt-because-mdc =
+    Бұл ескі және осал механизмді пайдаланатын шифрленген хабарлама.
+    Оны тасымалдау кезінде мазмұнын ұрлау мақсатында өзгертілген болуы мүмкін.
+    Бұл қауіпті болдырмау үшін оның құрамасы көрсетілмейді.
 openpgp-partial-verify-button = Растау
