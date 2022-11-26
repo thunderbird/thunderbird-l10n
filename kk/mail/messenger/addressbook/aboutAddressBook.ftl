@@ -137,7 +137,7 @@ about-addressbook-confirm-delete-lists-title =
 about-addressbook-confirm-delete-lists =
     { $count ->
         [one] { $name } тізімін өшіруді шынымен қалайсыз ба?
-       *[other] Осы{ $count } тізімді өшіруді шынымен қалайсыз ба?
+       *[other] Осы { $count } тізімді өшіруді шынымен қалайсыз ба?
     }
 # Variables:
 # $count (Number) - The number of contacts to be removed.
@@ -147,10 +147,27 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Контакттарды өшіру
     }
 # Variables:
+# $count (Number) - The number of contacts to be removed.
+# $name (String) - The name of the contact to be removed, if $count is 1.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts =
+    { $count ->
+        [one] { $list } ішінен { $name } өшіруді шынымен қалайсыз ба?
+       *[other] { $list } ішінен бұл { $count } контакт өшіруді шынымен қалайсыз ба?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
        *[other] Контакттарды өшіру
+    }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+# $name (String) - The name of the contact to be deleted, if $count is 1.
+about-addressbook-confirm-delete-contacts =
+    { $count ->
+        [one] { $name } контактін өшіруді шынымен қалайсыз ба?
+       *[other] Бұл { $count } контактті өшіруді шынымен қалайсыз ба?
     }
 
 ## Card list placeholder
@@ -164,9 +181,19 @@ about-addressbook-placeholder-no-search-results = Ешбір контакт та
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than two)
+about-addressbook-selection-mixed-header = { $count } таңдалған контакт және тізім
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header = { $count } таңдалған контакт
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header = { $count } таңдалған тізім
 about-addressbook-details-edit-photo =
     .title = Контакт фотосын түзету
 about-addressbook-new-contact-header = Жаңа контакт
+about-addressbook-prefer-display-name = Хабарлама тақырыптамадағы аттың орнына көрсетілетін атын таңдау
 about-addressbook-write-action-button = Жазу
 about-addressbook-event-action-button = Оқиға
 about-addressbook-search-action-button = Іздеу
@@ -205,7 +232,11 @@ about-addressbook-unsaved-changes-prompt = Түзету көрінісінен �
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = Фотосуретті осы жерге ұстап апарыңыз немесе кірістіріңіз, немесе файлды таңдау үшін басыңыз.
+about-addressbook-photo-drop-loading = Фото жүктеу…
+about-addressbook-photo-drop-error = Фото жүктеу сәтсіз аяқталды.
 about-addressbook-photo-filepicker-title = Сурет файлын таңдау
+about-addressbook-photo-discard = Бар болып тұрған фотоны өшіру
 about-addressbook-photo-cancel = Бас тарту
 about-addressbook-photo-save = Сақтау
 
