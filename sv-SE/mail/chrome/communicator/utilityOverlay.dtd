@@ -32,7 +32,7 @@
 <!ENTITY closeCmd.accesskey    "ä">
 
 <!ENTITY quitApplicationCmd.label  "Avsluta">
-<!ENTITY quitApplicationCmd.key    "Q">
+<!ENTITY quitApplicationCmd.key    "A">
 <!ENTITY quitApplicationCmd.accesskey  "A">
 
 <!ENTITY quitApplicationCmdUnix.label  "Avsluta">
