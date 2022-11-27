@@ -350,6 +350,14 @@ cloud-file-rename-error = { $provider } провайдеріндегі { $filena
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = { $provider } провайдерінегі { $filename } файл атын өзгерту сәтсіз аяқталды
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } жүктелген файлд аттарын өзгертуді қолдамайды
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error-title = Filelink салыным қатесі
+cloud-file-attachment-error = { $filename } Filelink салынымын жаңарту сәтсіз аяқталды, өйткені оның жергілікті файлы жылжытылған немесе өшірілген.
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error-title = Filelink тіркелгісінің қатесі
+cloud-file-account-error = { $filename } Filelink салынымын жаңарту сәтсіз аяқталды, өйткені оның Filelink тіркелгісі өшірілген.
 
 ## Link Preview
 
