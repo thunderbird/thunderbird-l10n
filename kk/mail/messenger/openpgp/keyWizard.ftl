@@ -55,6 +55,8 @@ openpgp-keygen-confirm =
     .label = Растау
 openpgp-keygen-dismiss =
     .label = Бас тарту
+openpgp-keygen-cancel =
+    .label = Процесті тоқтату…
 openpgp-keygen-import-complete =
     .label = Жабу
     .accesskey = Ж
@@ -70,6 +72,10 @@ import-key-file = OpenPGP кілт файлын импорттау
 import-key-personal-checkbox =
     .label = Бұл кілтті жеке кілт ретінде қарастыру
 gnupg-file = GnuPGфайлдары
+#   $error (String) - the reported error from the failed key import method
+import-error-failed = <b>Қате!</b> Файлды импорттау сәтсіз аяқталды. { $error }
+#   $error (String) - the reported error from the failed key import method
+openpgp-import-keys-failed = <b>Қате!</b> Кілттерді импорттау сәтсіз аяқталды. { $error }
 openpgp-import-identity-label = Жеке мәліметтер
 openpgp-import-fingerprint-label = Баспасы
 openpgp-import-created-label = Жасалған
@@ -81,3 +87,7 @@ openpgp-import-key-props =
 ## External Key section
 
 openpgp-external-key-title = Сыртқы GnuPGкілті
+openpgp-save-external-button = Кілт идентификаторын сақтау
+openpgp-external-key-label = Құпия кілт идентификаторы:
+openpgp-external-key-input =
+    .placeholder = 123456789341298340
