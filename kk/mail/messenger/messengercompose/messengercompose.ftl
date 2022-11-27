@@ -244,9 +244,25 @@ show-bcc-row-button = Жасырын көшірме
     .title = "Жасырын көшірме" өрісін көрсету ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Көрсетілетін басқа адрес өрістері
+#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
+many-public-recipients-notice =
+    { $count ->
+        [one] Сіздің хабарламаңызда жария хат алушы бар. Алушыларды ашып көрсетуден сақтану үшін, орнына "Жасырын көшірме" қолдануға болады.
+       *[other] "Кімге" және "Көшірме" өрістеріндегі { $count } хат алушы бір-бірінің адрестерін көретін болады. Алушыларды ашып көрсетуден сақтану үшін, орнына "Жасырын көшірме" қолдануға болады.
+    }
 many-public-recipients-bcc =
     .label = Орнына "Жасырын көшірме" қолдану
     .accesskey = у
+many-public-recipients-ignore =
+    .label = Хат алушыларын жария етіп қалдыру
+    .accesskey = д
+many-public-recipients-prompt-title = Жария хат алушылар тым көп
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [one] Сіздің хабарламаңызда жария хат алушы бар. Бұл жекелік мәселесі болуы мүмкін. Алушыны жарияламау үшін, оны "Кімге"/"Көшірме" өрісінен "Жасырын көшірме" өрісіне жылжытуға болады.
+       *[other] Сіздің хабарламаңызда бір-бірінің адрестерін көре алатын { $count } жария хат алушы бар. Бұл жекелік мәселесі болуы мүмкін. Алушыларды жарияламау үшін, оларды "Кімге"/"Көшірме" өрісінен "Жасырын көшірме" өрісіне жылжытуға болады.
+    }
 many-public-recipients-prompt-cancel = Жіберуден бас тарту
 many-public-recipients-prompt-send = Сонда да жіберу
 
@@ -255,6 +271,7 @@ many-public-recipients-prompt-send = Сонда да жіберу
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
 compose-missing-identity-warning = Кімнен адресіне сай келетін бірегей жеке мәліметтер табылмады. Хабарлама ағымдағы Кімнен өрісі және { $identity } жеке мәліметтерінің баптауларын қолданып жіберіледі.
+encrypted-bcc-warning = Шифрленген хабарламаны жіберген кезде, жасырын көшірмедегі алушылар толығымен жасырылмайды. Барлық алушылар оларды анықтай алады.
 encrypted-bcc-ignore-button = Түсінікті
 
 ## Editing
@@ -283,6 +300,13 @@ cloud-file-placeholder-intro = { $filename } файлы Filelink салыным�
 
 # Template
 
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+cloud-file-count-header =
+    { $count ->
+       *[other] Мен бұл эл. пошта хатына { $count } файлға сілтеме қостым:
+    }
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider
@@ -309,6 +333,7 @@ cloud-file-template-size = Өлшемі:
 cloud-file-template-link = Сілтеме:
 cloud-file-template-password-protected-link = Парольмен қорғалған сілтеме:
 cloud-file-template-expiry-date = Мерзімі аяқталады:
+cloud-file-template-download-limit = Жүктеп алу шектеуі:
 
 # Messages
 
@@ -316,8 +341,15 @@ cloud-file-template-expiry-date = Мерзімі аяқталады:
 cloud-file-connection-error-title = Байланысу қатесі
 cloud-file-connection-error = { -brand-short-name } желіде емес. { $provider } желісіне қосылу мүмкін болмады.
 # $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = { $filename } файлын { $provider } провайдеріне жүктеу сәтсіз аяқталды
+# $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-title = Атын өзгерту қатесі
+cloud-file-rename-error = { $provider } провайдеріндегі { $filename } файл атын өзгерту кезінде мәселе орын алды.
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = { $provider } провайдерінегі { $filename } файл атын өзгерту сәтсіз аяқталды
 
 ## Link Preview
 
