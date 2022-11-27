@@ -29,6 +29,20 @@ openpgp-key-assistant-recipients-description-no-issues = Tato zpráva může bý
 
 ## Resolve section
 
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+# $numKeys (Number) - The number of keys.
+openpgp-key-assistant-resolve-title =
+    { -brand-short-name.gender ->
+        [masculine] { -brand-short-name } našel pro { $recipient }
+        [feminine] { -brand-short-name } našla pro { $recipient }
+        [neuter] { -brand-short-name } našlo pro { $recipient }
+       *[other] Aplikace { -brand-short-name } našla pro { $recipient }
+    } { $numKeys ->
+        [one] následující klíč.
+        [few] následující klíče.
+       *[other] následující klíče.
+    }
 openpgp-key-assistant-valid-description = Vyberte klíč, který chcete přijmout
 # Variables:
 # $numKeys (Number) - The number of available keys.
