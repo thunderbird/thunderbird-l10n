@@ -80,6 +80,19 @@ openpgp-key-man-import-public-from-file =
     .accesskey = и
 openpgp-key-man-import-secret-from-file =
     .label = Файлдан құпия кілт(тер) импорттау
+openpgp-key-man-import-from-clipbrd =
+    .label = Кілтт(ерд)і алмасу буферінен импорттау
+    .accesskey = и
+openpgp-key-man-import-from-url =
+    .label = Кілтт(ерд)і URL-адресінен импорттау
+    .accesskey = д
+openpgp-key-man-export-to-file =
+    .label = Ашық кілтт(ерд)і файлға экспорттау
+    .accesskey = э
+openpgp-key-man-discover-cmd =
+    .label = Кілттерді Интернеттен іздеу
+    .accesskey = д
+openpgp-key-man-discover-prompt = OpenPGP кілттерін Интернетте, кілттер серверлерінде немесе WKD хаттамасы пайдалану арқылы табу үшін эл. пошта адресін немесе кілт идентификаторын енгізіңіз.
 openpgp-key-man-discover-progress = Іздеу…
 openpgp-key-copy-key =
     .label = Ашық кілтті көшіру
@@ -257,6 +270,7 @@ import-info-fpr = Баспасы
 import-info-no-keys = Ешбір кілт импортталмаған.
 # Strings in enigmailKeyManager.js
 import-from-clip = Алмасу буферінен кейбір кілттерді импорттағыңыз келе ме?
+key-man-loading-keys = Кілттер жүктелуде, күте тұрыңыз…
 save-keys-failed = Кілттерді сақтау сәтсіз аяқталды
 default-pub-key-filename = Экспортталған_ашық_кілттер
 default-pub-sec-key-filename = Құпия_кілттердің_қор_көшірмесі
@@ -273,6 +287,7 @@ user-att-photo = Пайдаланушы атрибуты (JPEG суреті)
 # Strings in keyRing.jsm & decryption.jsm
 key-man-button-import = &Импорттау
 delete-key-title = OpenPGP кілтін өшіру
+no-update-found = Онлайн табылған кілттер сізде бар болып тұр.
 # Strings used in trust.jsm
 key-valid-unknown = белгісіз
 key-valid-invalid = жарамсыз
@@ -288,6 +303,8 @@ key-trust-group = (топ)
 import-key-file = OpenPGP кілт файлын импорттау
 gnupg-file = GnuPGфайлдары
 import-keys-failed = Кілттерді импорттау сәтсіз аяқталды
+key-man-button-generate-key = Кілтті &генерациялау
+key-abort = Кілт генерациясын тоқтату керек пе?
 
 # Strings used in enigmailMessengerOverlay.js
 
