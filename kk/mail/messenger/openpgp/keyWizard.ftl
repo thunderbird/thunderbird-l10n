@@ -11,6 +11,7 @@ key-wizard-button =
 key-wizard-dialog =
     .buttonlabelaccept = Жалғастыру
     .buttonlabelextra1 = Артқа
+key-wizard-warning = <b>Егер сізде осы эл. пошта адресі үшін бар жеке кілт</b> болса, оны импорттауыңыз керек. Әйтпесе, сіз шифрленген эл. пошта мұрағатыңызға кіре алмайсыз және әлі де бар кілтіңізді пайдаланып жатқан адамдардан келген кіріс шифрленген эл. пошта хаттарын оқи алмайсыз.
 key-wizard-learn-more = Көбірек білу
 radio-create-key =
     .label = Жаңа OpenPGP кілтін жасау
@@ -60,10 +61,20 @@ openpgp-keygen-cancel =
 openpgp-keygen-import-complete =
     .label = Жабу
     .accesskey = Ж
+openpgp-keygen-long-expiry = Мерзімі 100 жылдан асатын кілт жасай алмайсыз.
+openpgp-keygen-short-expiry = Сіздің кілтіңіз кем дегенде бір күн жарамды болуы керек.
+openpgp-keygen-ongoing = Кілт генерациясы жүріп жатыр!
+openpgp-keygen-error-core = OpenPGP негізгі қызметін инициализациялау мүмкін емес
+openpgp-keygen-error-failed = OpenPGP кілтін жасау күтпеген жерден сәтсіз аяқталды
 openpgp-keygen-abort-title = Кілт генерациясын тоқтату керек пе?
+openpgp-keygen-abort = OpenPGP кілтін жасау қазір орындалуда, одан бас тартқыңыз келетініне сенімдісіз бе?
+#   $identity (String) - the name and email address of the currently selected identity
+openpgp-key-confirm = ‘{ $identity }’ үшін ашық және құпия кілтті жасау керек пе?
 
 ## Import Key section
 
+openpgp-import-key-title = Бар болып тұрған жеке OpenPGP кілтін импорттау
+openpgp-import-key-legend = Бұрын қор көшірмесі жасалған файлды таңдаңыз.
 openpgp-passphrase-prompt-title = Кілттік фраза керек
 openpgp-import-key-button =
     .label = Импорттау үшін файлды таңдау…

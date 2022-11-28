@@ -264,12 +264,24 @@ key-usage-authentication = Аутентификация
 key-does-not-expire = Кілттің мерзімі бітпейді
 key-expired-date = Кілттің мерзімі { $keyExpiry } күні аяқталды
 key-expired-simple = Кілттің мерзімі аяқталды
+keyserver-error-unknown = Белгісіз қате орын алды
+keyserver-error-server-error = Кілттер сервері қате туралы хабарлады.
+keyserver-error-import-error = Жүктеп алынған кілтті импорттау сәтсіз аяқталды.
+keyserver-error-unavailable = Кілттер сервері қолжетімді емес.
+keyserver-error-security-error = Кілттер сервері шифрленген қатынауды қолдамайды.
+keyserver-error-certificate-error = Кілттер серверінің сертификаты жарамсыз.
+keyserver-error-unsupported = Кілnтth серверіне қолдау жоқ.
+filter-term-pgpencrypted-label = OpenPGP көмегімен шифрленген
+filter-key-required = Сіз алушы кілтін таңдауыңыз керек.
+filter-key-not-found = ‘{ $desc }’ үшін шифрлеу кілті табылмады.
 import-info-bits = Бит
 import-info-created = Жасалған
 import-info-fpr = Баспасы
 import-info-no-keys = Ешбір кілт импортталмаған.
 # Strings in enigmailKeyManager.js
 import-from-clip = Алмасу буферінен кейбір кілттерді импорттағыңыз келе ме?
+copy-to-clipbrd-ok = Кілт(тер) алмасу буферіне көшірілді
+delete-selected-pub-key = Ашық кілттерді өшіргіңіз келе ме?
 key-man-loading-keys = Кілттер жүктелуде, күте тұрыңыз…
 save-keys-failed = Кілттерді сақтау сәтсіз аяқталды
 default-pub-key-filename = Экспортталған_ашық_кілттер
@@ -288,6 +300,8 @@ user-att-photo = Пайдаланушы атрибуты (JPEG суреті)
 key-man-button-import = &Импорттау
 delete-key-title = OpenPGP кілтін өшіру
 no-update-found = Онлайн табылған кілттер сізде бар болып тұр.
+fail-key-import = Қате – кілтті импорттау сәтсіз аяқталды
+file-write-failed = { $output } файлына жазу сәтсіз аяқталды
 # Strings used in trust.jsm
 key-valid-unknown = белгісіз
 key-valid-invalid = жарамсыз
@@ -303,20 +317,64 @@ key-trust-group = (топ)
 import-key-file = OpenPGP кілт файлын импорттау
 gnupg-file = GnuPGфайлдары
 import-keys-failed = Кілттерді импорттау сәтсіз аяқталды
+file-to-big-to-import = Бұл файл тым үлкен. Кілттердің үлкен жинағын бірден импорттамаңыз.
+gen-going = Кілт генерациясы жүріп жатыр!
+expiry-too-short = Сіздің кілтіңіз кем дегенде бір күн жарамды болуы керек.
+expiry-too-long = Мерзімі 100 жылдан асатын кілт жасай алмайсыз.
+key-confirm = ‘{ $id }’ үшін ашық және құпия кілтті жасау керек пе?
 key-man-button-generate-key = Кілтті &генерациялау
 key-abort = Кілт генерациясын тоқтату керек пе?
+key-man-button-generate-key-abort = Кілт генерациясын тоқт&ату
+key-man-button-generate-key-continue = Кілт генерациясын жалға&стыру
 
 # Strings used in enigmailMessengerOverlay.js
 
+failed-decrypt = Қате – дешифрлеу сәтсіз аяқталды
+fix-broken-exchange-msg-failed = Бұл хабарламаны жөндеу мүмкін емес.
+msg-ovl-button-cont-anyway = Сонда да жалға&стыру
+# Strings used in enigmailMsgComposeOverlay.js
+msg-compose-button-send = Хабарламаны жі&беру
+msg-compose-details-button-label = Көбірек білу…
+msg-compose-details-button-access-key = D
+send-aborted = Жіберу операциясы үзілді.
+key-not-trusted = ‘{ $key }’ кілтіне сенім жеткіліксіз
 key-not-found = ‘{ $key }’ кілті табылмады
 key-revoked = ‘{ $key }’ кілті қайта шақырылған
 key-expired = ‘{ $key }’ кілтінің мерзімі аяқталды
 msg-compose-internal-error = Ішкі қате орын алды.
 keys-to-export = Кірістіру үшін OpenPGPкілттерін таңдаңыз
+save-attachment-header = Дешифрленген салынымды сақтау
+# Strings used in decryption.jsm
+do-import-multiple =
+    Келесі кілттерді импорттау керек пе?
+    { $key }
+do-import-one = { $name } ({ $id }) импорттау керек пе?
+cant-import = Ашық кілтті импорттау қатесі
+sig-mismatch = Қате - қолтаңба сәйкессіздігі
+invalid-email = Қате – жарамсыз эл. пошта адрестері
+dlg-button-view = Қа&рау
+# Strings used in encryption.jsm
+not-required = Қате – дешифрлеу керек емес
+# Strings used in windows.jsm
+no-photo-available = Қолжетімді фото жоқ
+debug-log-title = OpenPGP жөндеу журналы
+# Strings used in dialog.jsm
+repeat-prefix = Бұл ескерту тағы { $count } рет
+repeat-suffix-singular = қайталанады.
+repeat-suffix-plural = қайталанады.
+no-repeat = Бұл ескерту қайта көрсетілмейді.
+dlg-keep-setting = Жауабымды есте сақтап, менен келесіде сұрамау
 dlg-button-ok = &ОК
 dlg-button-close = &Жабу
 dlg-button-cancel = Ба&с тарту
 dlg-no-prompt = Осы сұхбат терезесін маған келесі ретте көрсетпеу
+enig-prompt = OpenPGP сұрауы
+enig-confirm = OpenPGP растауы
+enig-alert = OpenPGP ескертуі
+enig-info = OpenPGP ақпараты
 # Strings used in persistentCrypto.jsm
 dlg-button-retry = Қа&йталау
 dlg-button-skip = А&ттап кету
+# Strings used in enigmailMsgBox.js
+enig-alert-title =
+    .title = OpenPGP ескертуі
