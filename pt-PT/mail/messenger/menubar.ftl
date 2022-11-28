@@ -14,14 +14,15 @@ menu-addons-and-themes =
 menu-help-enter-troubleshoot-mode =
     .label = Modo de diagnóstico…
     .accesskey = d
-
 menu-help-exit-troubleshoot-mode =
     .label = Desligar o modo de diagnóstico
     .accesskey = g
-
 menu-help-more-troubleshooting-info =
     .label = Mais informação para diagnóstico
     .accesskey = M
+menu-help-troubleshooting-info =
+    .label = Informação para resolução de problemas
+    .accesskey = f
 
 ## Mail Toolbar
 
