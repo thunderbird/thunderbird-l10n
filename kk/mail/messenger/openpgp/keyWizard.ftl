@@ -19,10 +19,14 @@ radio-create-key =
 radio-import-key =
     .label = Бар болып тұрған OpenPGP кілтін импорттау
     .accesskey = и
+radio-gnupg-key =
+    .label = GnuPG арқылы сыртқы кілтті пайдалану (мысалы, смарт картадан)
+    .accesskey = й
 
 ## Generate key section
 
 openpgp-generate-key-title = OpenPGP кілтін генерациялау
+openpgp-generate-key-info = <b>Кілтті генерациялау бірнеше минутты алуы мүмкін.</b> Кілтті генерациялау орындалып жатқанда қолданбадан шықпаңыз. Кілтті генерациялау кезінде белсенді шолу немесе дискіні көп қажет ететін операцияларды орындау «кездейсоқтық пулын» толықтырады және процесті жылдамдатады. Кілтті генерациялау аяқталған кезде сізге ескерту жіберіледі.
 openpgp-keygen-expiry-title = Кілттің жарамдылық мерзімі
 openpgp-keygen-expiry-description = Жаңадан жасалған кілттің жарамдылық мерзімін анықтаңыз. Қажет болса, ұзарту үшін күнді кейінірек те басқара аласыз.
 radio-keygen-expiry =
@@ -38,6 +42,7 @@ openpgp-keygen-months-label =
 openpgp-keygen-years-label =
     .label = жыл
 openpgp-keygen-advanced-title = Кеңейтілген баптаулар
+openpgp-keygen-advanced-description = OpenPGP кілтіңіздің қосымша параметрлерін басқару.
 openpgp-keygen-keytype =
     .value = Кілт түрі:
     .accesskey = т
@@ -49,9 +54,11 @@ openpgp-keygen-type-rsa =
 openpgp-keygen-type-ecc =
     .label = ECC (эллиптикалық қисықтар)
 openpgp-keygen-button = Кілтті генерациялау
+openpgp-keygen-progress-title = Сіздің жаңа OpenPGP кілтіңізді генерациялау…
 openpgp-keygen-import-progress-title = Сіздің OpenPGP кілттеріңізді импорттау…
 openpgp-import-success = OpenPGP кілттері сәтті импортталды!
 openpgp-import-success-title = Импорттау процесін аяқтау
+openpgp-import-success-description = Эл. поштаны шифрлеу үшін импортталған OpenPGP кілтіңізді пайдалануды бастау үшін осы сұхбатты жабыңыз және оны таңдау үшін Тіркелгі параметрлеріне кіріңіз.
 openpgp-keygen-confirm =
     .label = Растау
 openpgp-keygen-dismiss =
@@ -61,6 +68,7 @@ openpgp-keygen-cancel =
 openpgp-keygen-import-complete =
     .label = Жабу
     .accesskey = Ж
+openpgp-keygen-missing-username = Ағымдағы тіркелгі үшін көрсетілген атауы жоқ. Тіркелгі параметрлеріндегі «Сіздің атыңыз» өрісіне мән енгізіңіз.
 openpgp-keygen-long-expiry = Мерзімі 100 жылдан асатын кілт жасай алмайсыз.
 openpgp-keygen-short-expiry = Сіздің кілтіңіз кем дегенде бір күн жарамды болуы керек.
 openpgp-keygen-ongoing = Кілт генерациясы жүріп жатыр!
@@ -75,6 +83,7 @@ openpgp-key-confirm = ‘{ $identity }’ үшін ашық және құпия 
 
 openpgp-import-key-title = Бар болып тұрған жеке OpenPGP кілтін импорттау
 openpgp-import-key-legend = Бұрын қор көшірмесі жасалған файлды таңдаңыз.
+openpgp-import-key-description = Басқа OpenPGP бағдарламалық қамтамасымен жасалған жеке кілттерді импорттауға болады.
 openpgp-passphrase-prompt-title = Кілттік фраза керек
 openpgp-import-key-button =
     .label = Импорттау үшін файлды таңдау…
@@ -83,6 +92,7 @@ import-key-file = OpenPGP кілт файлын импорттау
 import-key-personal-checkbox =
     .label = Бұл кілтті жеке кілт ретінде қарастыру
 gnupg-file = GnuPGфайлдары
+import-error-file-size = <b>Қате!</b> 5 МБ-тан асатын файлдарға қолдау жоқ.
 #   $error (String) - the reported error from the failed key import method
 import-error-failed = <b>Қате!</b> Файлды импорттау сәтсіз аяқталды. { $error }
 #   $error (String) - the reported error from the failed key import method
