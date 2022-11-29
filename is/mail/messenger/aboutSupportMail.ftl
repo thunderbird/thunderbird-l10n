@@ -14,7 +14,15 @@ accounts-conn-security = Öryggi tengingar
 accounts-auth-method = Auðkenningaraðferð
 accounts-default = Sjálfgefið?
 identity-name = Auðkenni
-
 send-via-email = Senda með tölvupósti
-
 app-basics-telemetry = Fjarmælingargögn
+mail-libs-title = Aðgerðasöfn
+libs-table-heading-library = Aðgerðasafn
+libs-table-heading-expected-version = Bjóst við lágmarksútgáfu
+libs-table-heading-loaded-version = Útgáfa í notkun
+libs-table-heading-path = Slóð
+libs-table-heading-status = Staða
+libs-rnp-status-ok = Í lagi
+libs-rnp-status-load-failed = Mistókst að hlaða inn. OpenPGP mun ekki virka.
+libs-rnp-status-incompatible = Ósamhæfð útgáfa. OpenPGP mun ekki virka.
+libs-rnp-status-unofficial = Óopinber útgáfa. OpenPGP gæti ekki virkað eins og búast má við.

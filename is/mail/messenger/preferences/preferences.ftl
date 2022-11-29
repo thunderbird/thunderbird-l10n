@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Dagatal
 category-calendar =
     .tooltiptext = Dagatal
+pane-sync-title = Samstiling
+category-sync =
+    .tooltiptext = Samstiling
 general-language-and-appearance-header = Tungumál og útlit
 general-incoming-mail-header = Póstur sem berst
 general-files-and-attachment-header = Skrár og viðhengi
@@ -711,3 +714,15 @@ search-results-empty-message2 =
        *[other] Því miður! Engar niðurstöður eru til í stillingum fyrir “<span data-l10n-name="query"></span>”.
     }
 search-results-help-link = Þarftu aðstoð? Skoðaðu <a data-l10n-name="url">{ -brand-short-name } hjálparsvæðið</a>
+
+## Sync Tab
+
+sync-pane-header = Samstiling
+sync-pane-edit-photo =
+    .title = Breyta notandamynd
+sync-pane-manage-account = Sýsla með reikning
+sync-pane-sign-out = Skrá út…
+sync-pane-device-name-title = Heiti á tæki
+sync-pane-change-device-name = Breyta heiti tækis
+sync-pane-cancel = Hætta við
+sync-pane-save = Vista
