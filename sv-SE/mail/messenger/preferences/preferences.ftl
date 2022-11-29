@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Kalender
 category-calendar =
     .tooltiptext = Kalender
+pane-sync-title = Synkronisera
+category-sync =
+    .tooltiptext = Synkronisera
 general-language-and-appearance-header = Språk & utseende
 general-incoming-mail-header = Inkommande e-post
 general-files-and-attachment-header = Filer & bilagor
@@ -710,4 +713,12 @@ search-results-help-link = Behöver du hjälp? <a data-l10n-name="url">{ -brand-
 
 ## Sync Tab
 
+sync-pane-header = Synkronisera
+sync-pane-edit-photo =
+    .title = Ändra profilbild
+sync-pane-manage-account = Hantera konto
+sync-pane-sign-out = Logga ut…
+sync-pane-device-name-title = Enhetens namn
+sync-pane-change-device-name = Ändra enhetsnamn
 sync-pane-cancel = Avbryt
+sync-pane-save = Spara
