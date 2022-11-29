@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Takvim
 category-calendar =
     .tooltiptext = Takvim
+pane-sync-title = Eşitle
+category-sync =
+    .tooltiptext = Eşitle
 general-language-and-appearance-header = Dil ve Görünüm
 general-incoming-mail-header = Gelen E-postalar
 general-files-and-attachment-header = Dosyalar ve Ekler
@@ -709,3 +712,15 @@ search-results-empty-message2 =
        *[other] Kusura bakmayın, ayarlarda “<span data-l10n-name="query"></span>” ile ilgili bir sonuç bulamadık.
     }
 search-results-help-link = Yardım mı gerekiyor? <a data-l10n-name="url">{ -brand-short-name } Destek</a>’i ziyaret edin.
+
+## Sync Tab
+
+sync-pane-header = Eşitle
+sync-pane-edit-photo =
+    .title = Profil resmini değiştir
+sync-pane-manage-account = Hesabı yönet
+sync-pane-sign-out = Çıkış yap…
+sync-pane-device-name-title = Cihaz adı
+sync-pane-change-device-name = Cihaz adını değiştir
+sync-pane-cancel = Vazgeç
+sync-pane-save = Kaydet
