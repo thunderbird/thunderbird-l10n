@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Күнтізбе
 category-calendar =
     .tooltiptext = Күнтізбе
+pane-sync-title = Синхрондау
+category-sync =
+    .tooltiptext = Синхрондау
 general-language-and-appearance-header = Тіл және сыртқы түрі
 general-incoming-mail-header = Кіріс хабарламалар
 general-files-and-attachment-header = Файлдар және салынымдар
@@ -711,3 +714,15 @@ search-results-empty-message2 =
        *[other] Кешіріңіз! Баптауларда "<span data-l10n-name="query"></span>" үшін нәтижелер табылмады.
     }
 search-results-help-link = Көмек керек пе? <a data-l10n-name="url">{ -brand-short-name } қолдауы</a> шолыңыз
+
+## Sync Tab
+
+sync-pane-header = Синхрондау
+sync-pane-edit-photo =
+    .title = Профиль суретін ауыстыру
+sync-pane-manage-account = Тіркелгіні басқару
+sync-pane-sign-out = Шығу…
+sync-pane-device-name-title = Құрылғы аты
+sync-pane-change-device-name = Құрылғы атын өзгерту
+sync-pane-cancel = Бас тарту
+sync-pane-save = Сақтау

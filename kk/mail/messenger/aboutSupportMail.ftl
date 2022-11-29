@@ -14,7 +14,15 @@ accounts-conn-security = Байланыс қауіпсіздігі
 accounts-auth-method = Аутентификация тәсілі
 accounts-default = Бастапқы ма?
 identity-name = Жеке мәліметтер
-
 send-via-email = Эл. пошта арқылы жіберу
-
 app-basics-telemetry = Телеметрия мәліметтері
+mail-libs-title = Кітапханалар
+libs-table-heading-library = Кітапхана
+libs-table-heading-expected-version = Күтілген минималды нұсқасы
+libs-table-heading-loaded-version = Қолданыстағы нұсқасы
+libs-table-heading-path = Жолы
+libs-table-heading-status = Қалып-күйі
+libs-rnp-status-ok = ОК
+libs-rnp-status-load-failed = Жүктеу сәтсіз аяқталды. OpenPGP жұмыс істемейді.
+libs-rnp-status-incompatible = Үйлесімсіз нұсқа. OpenPGP жұмыс істемейді.
+libs-rnp-status-unofficial = Бейресми нұсқасы. OpenPGP күткендей жұмыс істемеуі мүмкін.
