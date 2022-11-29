@@ -14,7 +14,15 @@ accounts-conn-security = Ασφάλεια σύνδεσης
 accounts-auth-method = Μέθοδος ταυτοποίησης
 accounts-default = Προεπιλογή;
 identity-name = Ταυτότητα
-
 send-via-email = Αποστολή μέσω email
-
 app-basics-telemetry = Δεδομένα τηλεμετρίας
+mail-libs-title = Βιβλιοθήκες
+libs-table-heading-library = Βιβλιοθήκη
+libs-table-heading-expected-version = Αναμενόμενη ελάχιστη έκδοση
+libs-table-heading-loaded-version = Έκδοση σε χρήση
+libs-table-heading-path = Διαδρομή
+libs-table-heading-status = Κατάσταση
+libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = Αποτυχία φόρτωσης. Το OpenPGP δεν θα λειτουργεί.
+libs-rnp-status-incompatible = Μη συμβατή έκδοση. Το OpenPGP δεν θα λειτουργεί.
+libs-rnp-status-unofficial = Ανεπίσημη έκδοση. Το OpenPGP ενδέχεται να μην λειτουργεί σωστά.
