@@ -14,7 +14,15 @@ accounts-conn-security = 連線安全性
 accounts-auth-method = 驗證方式
 accounts-default = 預設值？
 identity-name = 身份識別
-
 send-via-email = 透過電子郵件寄出
-
 app-basics-telemetry = Telemetry 資料
+mail-libs-title = 程式庫
+libs-table-heading-library = 程式庫
+libs-table-heading-expected-version = 預期應有的最小版本
+libs-table-heading-loaded-version = 使用中的版本
+libs-table-heading-path = 路徑
+libs-table-heading-status = 狀態
+libs-rnp-status-ok = 確定
+libs-rnp-status-load-failed = 載入失敗，無法使用 OpenPGP。
+libs-rnp-status-incompatible = 版本不相容，無法使用 OpenPGP。
+libs-rnp-status-unofficial = 非官方版本，OpenPGP 可能無法如預期使用。
