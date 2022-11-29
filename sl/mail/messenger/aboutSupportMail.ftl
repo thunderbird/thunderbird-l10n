@@ -14,7 +14,15 @@ accounts-conn-security = Varnost povezave
 accounts-auth-method = Metoda overitve
 accounts-default = Privzeto?
 identity-name = Identiteta
-
 send-via-email = Pošlji po e-pošti
-
 app-basics-telemetry = Telemetrija
+mail-libs-title = Knjižnice
+libs-table-heading-library = Knjižnica
+libs-table-heading-expected-version = Najnižja podprta različica
+libs-table-heading-loaded-version = Trenutna različica
+libs-table-heading-path = Pot
+libs-table-heading-status = Stanje
+libs-rnp-status-ok = V redu
+libs-rnp-status-load-failed = Nalaganje ni uspelo. OpenPGP ne bo deloval.
+libs-rnp-status-incompatible = Nezdružljiva različica. OpenPGP ne bo deloval.
+libs-rnp-status-unofficial = Neuradna različica. OpenPGP morda ne bo deloval po pričakovanjih.
