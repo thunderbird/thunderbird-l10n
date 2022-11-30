@@ -14,7 +14,15 @@ accounts-conn-security = Bảo mật kết nối
 accounts-auth-method = Phương thức xác thực
 accounts-default = Mặc định?
 identity-name = Danh tính
-
 send-via-email = Gửi qua email
-
 app-basics-telemetry = Dữ liệu từ xa
+mail-libs-title = Thư viện
+libs-table-heading-library = Thư viện
+libs-table-heading-expected-version = Phiên bản tối thiểu dự kiến
+libs-table-heading-loaded-version = Phiên bản đang dùng
+libs-table-heading-path = Đường dẫn
+libs-table-heading-status = Trạng thái
+libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = Không thể tải. OpenPGP sẽ không hoạt động.
+libs-rnp-status-incompatible = Phiên bản không tương thích. OpenPGP sẽ không hoạt động.
+libs-rnp-status-unofficial = Phiên bản không chính thức. OpenPGP có thể không hoạt động như mong đợi.
