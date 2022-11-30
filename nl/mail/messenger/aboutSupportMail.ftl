@@ -14,7 +14,15 @@ accounts-conn-security = Verbindingsbeveiliging
 accounts-auth-method = Authenticatiemethode
 accounts-default = Standaard?
 identity-name = Identiteit
-
 send-via-email = Verzenden via e-mail
-
 app-basics-telemetry = Telemetry-gegevens
+mail-libs-title = Bibliotheken
+libs-table-heading-library = Bibliotheek
+libs-table-heading-expected-version = Verwachte minimale versie
+libs-table-heading-loaded-version = Gebruikte versie
+libs-table-heading-path = Pad
+libs-table-heading-status = Status
+libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = Laden mislukt. OpenPGP werkt niet.
+libs-rnp-status-incompatible = Incompatibele versie. OpenPGP werkt niet.
+libs-rnp-status-unofficial = Onofficiële versie. OpenPGP werkt mogelijk niet zoals verwacht.
