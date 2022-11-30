@@ -14,7 +14,15 @@ accounts-conn-security = Ferbiningsbefeiliging
 accounts-auth-method = Autentikaasjemetoade
 accounts-default = Standert?
 identity-name = Identiteit
-
 send-via-email = Ferstjoere fia e-mail
-
 app-basics-telemetry = Telemetry-gegevens
+mail-libs-title = Biblioteken
+libs-table-heading-library = Biblioteek
+libs-table-heading-expected-version = Ferwachte minimale ferzje
+libs-table-heading-loaded-version = Brûkte ferzje
+libs-table-heading-path = Paad
+libs-table-heading-status = Steat
+libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = Laden mislearre. OpenPGP wurket net.
+libs-rnp-status-incompatible = Ynkompatibele ferzje. OpenPGP wurket net.
+libs-rnp-status-unofficial = Net offisjele ferzje. OpenPGP wurket mooglik net lykas ferwachte.
