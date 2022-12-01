@@ -84,6 +84,14 @@ openpgp-key-confirm = ‘{ $identity }’ үшін ашық және құпия 
 openpgp-import-key-title = Бар болып тұрған жеке OpenPGP кілтін импорттау
 openpgp-import-key-legend = Бұрын қор көшірмесі жасалған файлды таңдаңыз.
 openpgp-import-key-description = Басқа OpenPGP бағдарламалық қамтамасымен жасалған жеке кілттерді импорттауға болады.
+#   $count (Number) - the number of keys found in the selected files
+openpgp-import-key-list-amount-2 =
+    { $count ->
+        [one] { -brand-short-name } импорттауға болатын { $count } кілтті тапты.
+       *[other] { -brand-short-name } импорттауға болатын { $count } кілтті тапты.
+    }
+openpgp-import-key-list-description = Қай кілттерді жеке кілттер ретінде қарастыруға болатынын растаңыз. Жеке кілттер ретінде тек өзіңіз жасаған және сіздің жеке басыңызды көрсететін кілттер ғана пайдаланылуы керек. Бұл баптауды кейінірек Кілт қасиеттері сұхбат терезесінде өзгертуге болады.
+openpgp-import-key-list-caption = Жеке кілттер ретінде қарастырылатын кілттер Өтпелі шифрлеу бөлімінде тізімделеді. Қалғандары Кілттер басқарушысы ішінде қолжетімді болады.
 openpgp-passphrase-prompt-title = Кілттік фраза керек
 openpgp-import-key-button =
     .label = Импорттау үшін файлды таңдау…
