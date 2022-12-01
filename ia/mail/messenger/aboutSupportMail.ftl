@@ -14,7 +14,12 @@ accounts-conn-security = Securitate de connexion
 accounts-auth-method = Methodo de authentication
 accounts-default = Predefinite?
 identity-name = Identitate
-
 send-via-email = Inviar per email
-
 app-basics-telemetry = Datos de telemetria
+mail-libs-title = Bibliothecas
+libs-table-heading-library = Bibliotheca
+libs-table-heading-expected-version = Version minime expectate
+libs-table-heading-loaded-version = Version in uso
+libs-table-heading-path = Route
+libs-table-heading-status = Stato
+libs-rnp-status-ok = OK
