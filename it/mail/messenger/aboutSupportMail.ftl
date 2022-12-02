@@ -14,7 +14,13 @@ accounts-conn-security = Sicurezza della connessione
 accounts-auth-method = Metodo di autenticazione
 accounts-default = Predefinito?
 identity-name = Identità
-
 send-via-email = Manda via mail
-
 app-basics-telemetry = Dati telemetria
+mail-libs-title = Librerie
+libs-table-heading-library = Libreria
+libs-table-heading-expected-version = Versione minima prevista
+libs-table-heading-loaded-version = Versione in uso
+libs-table-heading-path = Percorso
+libs-table-heading-status = Stato
+libs-rnp-status-ok = OK
+libs-rnp-status-unofficial = Versione non ufficiale. OpenPGP potrebbe non funzionare come previsto.

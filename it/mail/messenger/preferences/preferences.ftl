@@ -711,3 +711,14 @@ search-results-empty-message2 =
        *[other] Siamo spiacenti, nessun risultato trovato per “<span data-l10n-name="query"></span>” nelle impostazioni.
     }
 search-results-help-link = Hai bisogno di aiuto? Visita <a data-l10n-name="url">il sito web dedicato al supporto di { -brand-short-name }</a>.
+
+## Sync Tab
+
+sync-pane-edit-photo =
+    .title = Cambia immagine profilo
+sync-pane-manage-account = Gestisci account
+sync-pane-sign-out = Disconnetti…
+sync-pane-device-name-title = Nome dispositivo
+sync-pane-change-device-name = Cambia nome dispositivo
+sync-pane-cancel = Annulla
+sync-pane-save = Salva
