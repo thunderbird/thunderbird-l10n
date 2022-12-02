@@ -110,7 +110,7 @@ calendar-items-loading = 項目の読み込み中...
 calendar-items-filter-input =
     .placeholder = 項目の絞り込み...
 calendar-select-all-items = すべてを選択
-calendar-deselect-all-items = @@すべての選択を解除@@
+calendar-deselect-all-items = すべての選択を解除
 calendar-target-title = 選んだ項目の読み込み先を選択してください
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = <strong>"{ $targetCalendar }"</strong> という名前の新規カレンダーを作成します
