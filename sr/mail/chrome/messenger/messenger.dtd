@@ -487,7 +487,7 @@
 <!ENTITY importCmd.accesskey "з">
 <!ENTITY exportCmd.label "Извези…">
 <!ENTITY exportCmd.accesskey "з">
-<!ENTITY clearRecentHistory.label "Очисти скорашњи историјат…">
+<!ENTITY clearRecentHistory.label "Очисти недавну историју…">
 <!ENTITY clearRecentHistory.accesskey "и">
 <!ENTITY accountManagerCmd2.label "Подешавања налога">
 <!ENTITY accountManagerCmd2.accesskey "г">
