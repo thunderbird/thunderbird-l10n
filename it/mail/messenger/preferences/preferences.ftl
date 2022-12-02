@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Calendario
 category-calendar =
     .tooltiptext = Calendario
+pane-sync-title = Sincronizzazione
+category-sync =
+    .tooltiptext = Sincronizzazione
 general-language-and-appearance-header = Lingua e aspetto
 general-incoming-mail-header = Posta in arrivo
 general-files-and-attachment-header = File e allegati
@@ -714,6 +717,7 @@ search-results-help-link = Hai bisogno di aiuto? Visita <a data-l10n-name="url">
 
 ## Sync Tab
 
+sync-pane-header = Sincronizzazione
 sync-pane-edit-photo =
     .title = Cambia immagine profilo
 sync-pane-manage-account = Gestisci account
