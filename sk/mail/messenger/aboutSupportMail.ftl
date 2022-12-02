@@ -14,7 +14,15 @@ accounts-conn-security = Zabezpečenie pripojenia
 accounts-auth-method = Metóda overenia
 accounts-default = Predvolený?
 identity-name = Identita
-
 send-via-email = Odoslať ako e-mailovú správu
-
 app-basics-telemetry = Údaje telemetrie
+mail-libs-title = Knižnice
+libs-table-heading-library = Knižnica
+libs-table-heading-expected-version = Očakávaná minimálna verzia
+libs-table-heading-loaded-version = Používaná verzia
+libs-table-heading-path = Cesta
+libs-table-heading-status = Stav
+libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = Nepodarilo sa načítať. OpenPGP nebude fungovať.
+libs-rnp-status-incompatible = Nekompatibilná verzia. OpenPGP nebude fungovať.
+libs-rnp-status-unofficial = Neoficiálna verzia. OpenPGP nemusí fungovať podľa očakávania.
