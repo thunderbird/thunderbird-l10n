@@ -14,7 +14,10 @@ accounts-conn-security = Seguridad de la conexión
 accounts-auth-method = Método de autenticación
 accounts-default = ¿Predeterminado?
 identity-name = Identidad
-
 send-via-email = Enviar por correo electrónico
-
 app-basics-telemetry = Datos de telemetría
+libs-table-heading-expected-version = Versión mínima esperada
+libs-table-heading-loaded-version = Versión en uso
+libs-table-heading-path = Ruta
+libs-table-heading-status = Estado
+libs-rnp-status-ok = Aceptar
