@@ -5,7 +5,7 @@
 accounts-title = Учётные записи почты и новостей
 show-private-data-main-text = Включить имена учётных записей
 show-private-data-explanation-text = (возможно идентифицирующая информация)
-accounts-ID = ID
+accounts-ID = Идентификатор
 accounts-name = Имя
 accounts-incoming-server = Cервер входящей почты
 accounts-outgoing-servers = Cервер исходящей почты
@@ -14,7 +14,15 @@ accounts-conn-security = Защита соединения
 accounts-auth-method = Метод аутентификации
 accounts-default = По умолчанию?
 identity-name = Идентификатор
-
 send-via-email = Послать по почте
-
 app-basics-telemetry = Данные телеметрии
+mail-libs-title = Библиотеки
+libs-table-heading-library = Библиотека
+libs-table-heading-expected-version = Ожидаемая минимальная версия
+libs-table-heading-loaded-version = Используемая версия
+libs-table-heading-path = Путь
+libs-table-heading-status = Состояние
+libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = Ошибка загрузки. OpenPGP не будет работать.
+libs-rnp-status-incompatible = Несовместимая версия. OpenPGP не будет работать.
+libs-rnp-status-unofficial = Неофициальная версия. OpenPGP может работать не так, как ожидалось.
