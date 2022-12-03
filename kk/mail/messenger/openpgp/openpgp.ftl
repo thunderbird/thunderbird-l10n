@@ -274,6 +274,8 @@ key-usage-authentication = Аутентификация
 key-does-not-expire = Кілттің мерзімі бітпейді
 key-expired-date = Кілттің мерзімі { $keyExpiry } күні аяқталды
 key-expired-simple = Кілттің мерзімі аяқталды
+# Strings in keyserver.jsm
+keyserver-error-aborted = Үзілген
 keyserver-error-unknown = Белгісіз қате орын алды
 keyserver-error-server-error = Кілттер сервері қате туралы хабарлады.
 keyserver-error-import-error = Жүктеп алынған кілтті импорттау сәтсіз аяқталды.
@@ -281,6 +283,8 @@ keyserver-error-unavailable = Кілттер сервері қолжетімді
 keyserver-error-security-error = Кілттер сервері шифрленген қатынауды қолдамайды.
 keyserver-error-certificate-error = Кілттер серверінің сертификаты жарамсыз.
 keyserver-error-unsupported = Кілnтth серверіне қолдау жоқ.
+# Strings filters.jsm
+filter-folder-required = Мақсат буманы таңдауыңыз керек.
 filter-term-pgpencrypted-label = OpenPGP көмегімен шифрленген
 filter-key-required = Сіз алушы кілтін таңдауыңыз керек.
 filter-key-not-found = ‘{ $desc }’ үшін шифрлеу кілті табылмады.
