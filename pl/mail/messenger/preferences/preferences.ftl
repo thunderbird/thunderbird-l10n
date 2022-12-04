@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Kalendarz
 category-calendar =
     .tooltiptext = Kalendarz
+pane-sync-title = Synchronizacja
+category-sync =
+    .tooltiptext = Synchronizacja
 general-language-and-appearance-header = Język i wygląd
 general-incoming-mail-header = Poczta przychodząca
 general-files-and-attachment-header = Pliki i załączniki
@@ -711,3 +714,15 @@ search-results-empty-message2 =
        *[other] Niestety! W ustawieniach niczego nie odnaleziono dla wyszukiwania „<span data-l10n-name="query"></span>”.
     }
 search-results-help-link = Potrzebujesz pomocy? Odwiedź <a data-l10n-name="url">pomoc programu { -brand-short-name }</a>.
+
+## Sync Tab
+
+sync-pane-header = Synchronizacja
+sync-pane-edit-photo =
+    .title = Zmień zdjęcie profilowe
+sync-pane-manage-account = Zarządzaj kontem
+sync-pane-sign-out = Wyloguj się…
+sync-pane-device-name-title = Nazwa urządzenia
+sync-pane-change-device-name = Zmień nazwę urządzenia
+sync-pane-cancel = Anuluj
+sync-pane-save = Zachowaj
