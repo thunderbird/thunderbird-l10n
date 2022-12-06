@@ -717,6 +717,9 @@ search-results-help-link = Precisa de ajuda? Visite o <a data-l10n-name="url">su
 
 ## Sync Tab
 
+sync-signedout-caption = Leve sua web com você
+sync-signedout-description = Sincronize suas contas, catálogos de endereços, agendas, extensões e configurações em todos os seus dispositivos.
+sync-signedout-account-signin-btn = Entrar para sincronizar…
 sync-pane-header = Sincronização
 sync-pane-edit-photo =
     .title = Alterar imagem do perfil
@@ -726,3 +729,14 @@ sync-pane-device-name-title = Nome do dispositivo
 sync-pane-change-device-name = Alterar nome do dispositivo
 sync-pane-cancel = Cancelar
 sync-pane-save = Salvar
+sync-pane-show-synced-header-on = Sincronização: ATIVADA
+sync-pane-show-synced-header-off = Sincronização: DESATIVADA
+sync-pane-sync-now = Sincronizar agora
+sync-panel-sync-now-syncing = Sincronizando…
+show-synced-list-heading = No momento, você está sincronizando estes itens:
+show-synced-learn-more = Saiba mais…
+show-synced-item-account = Contas de email
+show-synced-item-address = Catálogos de endereços
+show-synced-item-calendar = Agendas
+show-synced-item-identity = Identidades
+show-synced-change = Alterar…
