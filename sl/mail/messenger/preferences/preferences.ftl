@@ -714,6 +714,7 @@ search-results-help-link = Potrebujete pomoč? Obiščite <a data-l10n-name="url
 
 ## Sync Tab
 
+sync-signedout-account-signin-btn = Prijava v sinhronizacijo …
 sync-pane-edit-photo =
     .title = Spremeni sliko profila
 sync-pane-manage-account = Upravljanje računa
