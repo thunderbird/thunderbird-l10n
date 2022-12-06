@@ -14,7 +14,15 @@ accounts-conn-security = Siguri lidhjeje
 accounts-auth-method = Metodë mirëfilltësimi
 accounts-default = Parazgjedhje?
 identity-name = Identitet
-
 send-via-email = Dërgoje përmes email-i
-
 app-basics-telemetry = Të dhëna Telemetry-e
+mail-libs-title = Biblioteka
+libs-table-heading-library = Bibliotekë
+libs-table-heading-expected-version = Version minimum i pritshëm
+libs-table-heading-loaded-version = Version në përdorim
+libs-table-heading-path = Shteg
+libs-table-heading-status = Gjendje
+libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = S’u arrit të ngarkohej. OpenPGP-ja s’do të funksionojë.
+libs-rnp-status-incompatible = Version i papërputhshëm. OpenPGP-ja s’do të funksionojë.
+libs-rnp-status-unofficial = Version jo zyrtar. OpenPGP-ja mund të mos funksionojë siç pritet.

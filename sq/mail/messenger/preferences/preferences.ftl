@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Kalendar
 category-calendar =
     .tooltiptext = Kalendar
+pane-sync-title = Njëkohësim
+category-sync =
+    .tooltiptext = Njëkohësim
 general-language-and-appearance-header = Gjuhë & Dukje
 general-incoming-mail-header = Email-e Ardhëse
 general-files-and-attachment-header = Kartela & Bashkëngjitje
@@ -711,3 +714,15 @@ search-results-empty-message2 =
        *[other] Na ndjeni! S’ka përfundime te Rregullime për “<span data-l10n-name="query"></span>”.
     }
 search-results-help-link = Ju duhet ndihmë? Vizitoni <a data-l10n-name="url">Asistencë { -brand-short-name }-i</a>
+
+## Sync Tab
+
+sync-pane-header = Njëkohësoni
+sync-pane-edit-photo =
+    .title = Ndryshoni foto profili
+sync-pane-manage-account = Administroni llogarinë
+sync-pane-sign-out = Dilni…
+sync-pane-device-name-title = Emër Pajisjeje
+sync-pane-change-device-name = Ndryshoni emër pajisjeje
+sync-pane-cancel = Anuloje
+sync-pane-save = Ruaje

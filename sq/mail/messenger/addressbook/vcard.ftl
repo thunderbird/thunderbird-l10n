@@ -93,6 +93,7 @@ vcard-date-year = Vit
 vcard-adr-header = Adresa
 vcard-adr-add = Shtoni adresë
 vcard-adr-label = Adresë
+vcard-adr-delivery-label = Etiketë dërgim
 vcard-adr-street = Rrugë
 # Or "Locality"
 vcard-adr-locality = Qytet
