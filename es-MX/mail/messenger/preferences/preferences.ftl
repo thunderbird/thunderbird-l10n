@@ -717,6 +717,9 @@ search-results-help-link = ¿Necesitas ayuda? Visita el soporte de <a data-l10n-
 
 ## Sync Tab
 
+sync-signedout-caption = Lleva la Web contigo
+sync-signedout-description = Sincroniza tus cuentas, libretas de direcciones, calendarios, complementos, y ajustes en todos tus dispositivos.
+sync-signedout-account-signin-btn = Iniciar sesión para sincronizar...
 sync-pane-header = Sincronizar
 sync-pane-edit-photo =
     .title = Cambiar imagen de perfil
@@ -726,3 +729,16 @@ sync-pane-device-name-title = Nombre del dispositivo
 sync-pane-change-device-name = Cambiar nombre del dispositivo
 sync-pane-cancel = Cancelar
 sync-pane-save = Guardar
+sync-pane-sync-now = Sincronizar ahora
+sync-panel-sync-now-syncing = Sincronizando…
+show-synced-list-heading = Actualmente estás sincronizando estos elementos:
+show-synced-learn-more = Saber más…
+show-synced-item-account = Cuentas de correo electrónico
+show-synced-item-address = Libretas de direcciones
+show-synced-item-calendar = Calendarios
+show-synced-item-identity = Identidades
+show-synced-change = Cambiar…
+synced-acount-item-server-config = Configuración del servidor
+synced-acount-item-filters = Filtros
+synced-acount-item-keys = OpenPGP -S/MIME
+sync-disconnected-text = Sincroniza tus cuentas de correo electrónico, libretas de direcciones, calendarios, e identidades en todos tus dispositivos.
