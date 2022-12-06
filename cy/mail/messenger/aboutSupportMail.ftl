@@ -14,7 +14,15 @@ accounts-conn-security = Diogelwch cysylltiad
 accounts-auth-method = Dull dilysu
 accounts-default = Rhagosodiad?
 identity-name = hunaniaeth
-
 send-via-email = Anfon drwy e-bost
-
 app-basics-telemetry = Data Telemetreg
+mail-libs-title = Llyfrgelloedd
+libs-table-heading-library = Llyfrgell
+libs-table-heading-expected-version = Fersiwn lleiaf disgwyliedig
+libs-table-heading-loaded-version = Fersiwn yn cael ei ddefnyddio
+libs-table-heading-path = Llwybr
+libs-table-heading-status = Statws
+libs-rnp-status-ok = Iawn
+libs-rnp-status-load-failed = Wedi methu llwytho. Ni fydd OpenPGP yn gweithio.
+libs-rnp-status-incompatible = Fersiwn anghydnaws. Ni fydd OpenPGP yn gweithio.
+libs-rnp-status-unofficial = Fersiwn answyddogol. Efallai na fydd OpenPGP yn gweithio yn ôl y disgwyl.
