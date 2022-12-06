@@ -717,6 +717,9 @@ search-results-help-link = Þarftu aðstoð? Skoðaðu <a data-l10n-name="url">{
 
 ## Sync Tab
 
+sync-signedout-caption = Taktu vefinn með þér
+sync-signedout-description = Samstilltu reikningana þína, nafnaskrár, dagatöl, viðbætur og stillingar á öllum tækjunum þínum.
+sync-signedout-account-signin-btn = Skráðu inn til að samstilla…
 sync-pane-header = Samstiling
 sync-pane-edit-photo =
     .title = Breyta notandamynd
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Heiti á tæki
 sync-pane-change-device-name = Breyta heiti tækis
 sync-pane-cancel = Hætta við
 sync-pane-save = Vista
+sync-pane-show-synced-header-on = Samstilling: Á
+sync-pane-show-synced-header-off = Samstilling: AF
+sync-pane-sync-now = Samstilla núna
+sync-panel-sync-now-syncing = Samstilli…
+show-synced-list-heading = Þú ert núna að samstilla þessi atriði:
+show-synced-learn-more = Fræðast meira…
+show-synced-item-account = Tölvupóstsreikningar
+show-synced-item-address = Nafnaskrár
+show-synced-item-calendar = Dagatöl
+show-synced-item-identity = Auðkenni
+show-synced-change = Breyta…
+synced-acount-item-server-config = Uppsetning netþjóns
+synced-acount-item-filters = Síur
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Samstilltu tölvupóstreikningana þína, nafnaskrár, dagatöl og auðkenni á öllum tækjunum þínum.
+sync-disconnected-turn-on-sync = Kveikja á samstillingu…
