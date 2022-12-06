@@ -7,3 +7,6 @@
 ## Only text elements and literals are supported for these strings.
 
 langpack-creator = giasher.com
+# To credit multiple contributors, use a comma-delimited list.
+# Example: Joe Solon, Suzy Solon
+langpack-contributors = გია შერვაშიძე (giasher.com), Alan (G12r)
