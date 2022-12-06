@@ -713,6 +713,8 @@ search-results-help-link = Behöver du hjälp? <a data-l10n-name="url">{ -brand-
 
 ## Sync Tab
 
+sync-signedout-description = Synkronisera dina konton, adressböcker, kalendrar, tillägg och inställningar på alla dina enheter.
+sync-signedout-account-signin-btn = Logga in för att synkronisera…
 sync-pane-header = Synkronisera
 sync-pane-edit-photo =
     .title = Ändra profilbild
@@ -722,3 +724,19 @@ sync-pane-device-name-title = Enhetens namn
 sync-pane-change-device-name = Ändra enhetsnamn
 sync-pane-cancel = Avbryt
 sync-pane-save = Spara
+sync-pane-show-synced-header-on = Synkronisering PÅ
+sync-pane-show-synced-header-off = Synkronisering AV
+sync-pane-sync-now = Synkronisera nu
+sync-panel-sync-now-syncing = Synkroniserar…
+show-synced-list-heading = Du synkroniserar för närvarande dessa objekt:
+show-synced-learn-more = Läs mer…
+show-synced-item-account = E-postkonton
+show-synced-item-address = Adressböcker
+show-synced-item-calendar = Kalendrar
+show-synced-item-identity = Identiteter
+show-synced-change = Ändra…
+synced-acount-item-server-config = Serverkonfiguration
+synced-acount-item-filters = Filter
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synkronisera dina e-postkonton, adressböcker, kalendrar och identiteter på alla dina enheter.
+sync-disconnected-turn-on-sync = Aktivera synkronisering…
