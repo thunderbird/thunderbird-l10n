@@ -717,6 +717,9 @@ search-results-help-link = Ju duhet ndihmë? Vizitoni <a data-l10n-name="url">As
 
 ## Sync Tab
 
+sync-signedout-caption = Merreni Web-in me vete
+sync-signedout-description = Njëkohësoni llogaritë tuaja, libra adresash, kalendarë, shtesa dhe rregullime nëpër krejt pajisjet tuaja.
+sync-signedout-account-signin-btn = Për njëkohësim, bëni hyrjen…
 sync-pane-header = Njëkohësoni
 sync-pane-edit-photo =
     .title = Ndryshoni foto profili
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Emër Pajisjeje
 sync-pane-change-device-name = Ndryshoni emër pajisjeje
 sync-pane-cancel = Anuloje
 sync-pane-save = Ruaje
+sync-pane-show-synced-header-on = Njëkohësimi ON
+sync-pane-show-synced-header-off = Njëkohësimi OFF
+sync-pane-sync-now = Njëkohësoji Tani
+sync-panel-sync-now-syncing = Po njëkohësohet…
+show-synced-list-heading = Aktualisht po njëkohësoni këto objekte:
+show-synced-learn-more = Mësoni më tepër…
+show-synced-item-account = Llogari Email
+show-synced-item-address = Libra Adresash
+show-synced-item-calendar = Kalendarë
+show-synced-item-identity = Identitete
+show-synced-change = Ndryshojini…
+synced-acount-item-server-config = Formësim Shërbyesi
+synced-acount-item-filters = Filtra
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Njëkohësoni llogaritë tuaja email, libra adresash, kalendarë dhe identitete nëpër krejt pajisjet tuaja.
+sync-disconnected-turn-on-sync = Aktivizoni Njëkohësimin…
