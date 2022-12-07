@@ -717,6 +717,9 @@ search-results-help-link = Hai bisogno di aiuto? Visita <a data-l10n-name="url">
 
 ## Sync Tab
 
+sync-signedout-caption = Il tuo Web, sempre con te
+sync-signedout-description = Sincronizza account, rubriche, calendari, componenti aggiuntivi e impostazioni attraverso tutti i tuoi dispositivi.
+sync-signedout-account-signin-btn = Accedi per sincronizzare…
 sync-pane-header = Sincronizzazione
 sync-pane-edit-photo =
     .title = Cambia immagine profilo
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Nome dispositivo
 sync-pane-change-device-name = Cambia nome dispositivo
 sync-pane-cancel = Annulla
 sync-pane-save = Salva
+sync-pane-show-synced-header-on = Sincronizzazione ATTIVA
+sync-pane-show-synced-header-off = Sincronizzazione DISATTIVATA
+sync-pane-sync-now = Sincronizza adesso
+sync-panel-sync-now-syncing = Sincronizzazione in corso…
+show-synced-list-heading = I seguenti elementi vengono attualmente sincronizzati:
+show-synced-learn-more = Ulteriori informazioni…
+show-synced-item-account = Account di posta
+show-synced-item-address = Rubriche
+show-synced-item-calendar = Calendari
+show-synced-item-identity = Identità
+show-synced-change = Modifica…
+synced-acount-item-server-config = Configurazione del server
+synced-acount-item-filters = Filtri
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Sincronizza account di posta elettronica, rubriche, calendari e identità attraverso tutti i tuoi dispositivi.
+sync-disconnected-turn-on-sync = Attiva sincronizzazione…
