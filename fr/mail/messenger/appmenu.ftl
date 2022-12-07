@@ -93,6 +93,11 @@ appmenu-create-contact =
 
 ## Open
 
+appmenu-open-file-panel =
+    .label = Ouvrir à partir d’un fichier
+    .accesskey = u
+appmenu-open-file-panel-title =
+    .title = Ouvrir à partir d’un fichier
 appmenu-open-message =
     .label = Message…
     .accesskey = M
