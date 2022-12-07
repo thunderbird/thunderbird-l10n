@@ -717,6 +717,9 @@ search-results-help-link = Segítségre van szüksége? Látogasson el ide: <a d
 
 ## Sync Tab
 
+sync-signedout-caption = Vigye magával a webet
+sync-signedout-description = Szinkronizálja fiókjait, címjegyzékeit, naptárait, kiegészítőit és beállításait minden eszközén.
+sync-signedout-account-signin-btn = Jelentkezzen be a szinkronizáláshoz…
 sync-pane-header = Sync
 sync-pane-edit-photo =
     .title = Profilkép módosítása
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Eszköznév
 sync-pane-change-device-name = Eszköznév módosítása
 sync-pane-cancel = Mégse
 sync-pane-save = Mentés
+sync-pane-show-synced-header-on = Szinkronizálás BE
+sync-pane-show-synced-header-off = Szinkronizálás KI
+sync-pane-sync-now = Szinkronizálás most
+sync-panel-sync-now-syncing = Szinkronizálás…
+show-synced-list-heading = Jelenleg szinkronizálja ezeket az elemeket:
+show-synced-learn-more = További tudnivalók…
+show-synced-item-account = E-mail-fiókok
+show-synced-item-address = Címjegyzékek
+show-synced-item-calendar = Naptárak
+show-synced-item-identity = Személyazonosságok
+show-synced-change = Módosítás…
+synced-acount-item-server-config = Kiszolgálóbeállítások
+synced-acount-item-filters = Szűrők
+synced-acount-item-keys = OpenPGP – S/MIME
+sync-disconnected-text = Szinkronizálja e-mail-fiókjait, címjegyzékeit, naptárait és személyazonosságait minden eszközén.
+sync-disconnected-turn-on-sync = Szinkronizálás bekapcsolása…
