@@ -729,6 +729,9 @@ search-results-help-link = Hulp nodig? Bezoek <a data-l10n-name="url">{ -brand-s
 
 ## Sync Tab
 
+sync-signedout-caption = Neem uw web mee
+sync-signedout-description = Synchroniseer uw accounts, adresboeken, agenda’s, add-ons en instellingen op al uw apparaten.
+sync-signedout-account-signin-btn = Aanmelden om te synchroniseren…
 sync-pane-header = Synchronisatie
 sync-pane-edit-photo =
     .title = Profielafbeelding wijzigen
@@ -738,3 +741,19 @@ sync-pane-device-name-title = Apparaatnaam
 sync-pane-change-device-name = Apparaatnaam wijzigen
 sync-pane-cancel = Annuleren
 sync-pane-save = Opslaan
+sync-pane-show-synced-header-on = Synchroniseren AAN
+sync-pane-show-synced-header-off = Synchroniseren UIT
+sync-pane-sync-now = Nu synchroniseren
+sync-panel-sync-now-syncing = Synchroniseren…
+show-synced-list-heading = U synchroniseert momenteel deze onderdelen:
+show-synced-learn-more = Meer info…
+show-synced-item-account = E-mailaccounts
+show-synced-item-address = Adresboeken
+show-synced-item-calendar = Agenda’s
+show-synced-item-identity = Identiteiten
+show-synced-change = Wijzigen…
+synced-acount-item-server-config = Serverconfiguratie
+synced-acount-item-filters = Filters
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synchroniseer uw e-mailaccounts, adresboeken, agenda’s en identiteiten op al uw apparaten.
+sync-disconnected-turn-on-sync = Synchronisatie inschakelen…
