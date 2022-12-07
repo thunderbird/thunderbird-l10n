@@ -740,6 +740,7 @@ show-synced-item-address = Carnets d’adresses
 show-synced-item-calendar = Agendas
 show-synced-item-identity = Identités
 show-synced-change = Modifier…
+synced-acount-item-server-config = Configuration du serveur
 synced-acount-item-filters = Filtres
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synchronisez vos comptes de messagerie, carnets d’adresses, agendas et identités entre tous vos appareils.
