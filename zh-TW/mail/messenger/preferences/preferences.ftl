@@ -717,6 +717,9 @@ search-results-help-link = 需要幫忙嗎？請到 <a data-l10n-name="url">{ -b
 
 ## Sync Tab
 
+sync-signedout-caption = 把 Web 隨身帶著走
+sync-signedout-description = 在您所有裝置間同步帳號設定、通訊錄、行事曆、附加元件與各種選項。
+sync-signedout-account-signin-btn = 登入進行同步…
 sync-pane-header = Sync
 sync-pane-edit-photo =
     .title = 更改個人資料照片
@@ -726,3 +729,19 @@ sync-pane-device-name-title = 裝置名稱
 sync-pane-change-device-name = 更改裝置名稱
 sync-pane-cancel = 取消
 sync-pane-save = 儲存
+sync-pane-show-synced-header-on = 已開啟同步
+sync-pane-show-synced-header-off = 已關閉同步
+sync-pane-sync-now = 立刻同步
+sync-panel-sync-now-syncing = 同步中…
+show-synced-list-heading = 您目前正在同步下列項目:
+show-synced-learn-more = 更多資訊…
+show-synced-item-account = 電子郵件帳號
+show-synced-item-address = 通訊錄
+show-synced-item-calendar = 行事曆
+show-synced-item-identity = 身份
+show-synced-change = 修改…
+synced-acount-item-server-config = 伺服器設定
+synced-acount-item-filters = 篩選器
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = 在您所有裝置間同步電子郵件帳號、通訊錄、行事曆、與身份設定資料。
+sync-disconnected-turn-on-sync = 開啟同步…
