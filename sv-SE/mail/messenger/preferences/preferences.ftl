@@ -713,6 +713,7 @@ search-results-help-link = Behöver du hjälp? <a data-l10n-name="url">{ -brand-
 
 ## Sync Tab
 
+sync-signedout-caption = Ta med dig webben
 sync-signedout-description = Synkronisera dina konton, adressböcker, kalendrar, tillägg och inställningar på alla dina enheter.
 sync-signedout-account-signin-btn = Logga in för att synkronisera…
 sync-pane-header = Synkronisera
