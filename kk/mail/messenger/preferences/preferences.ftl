@@ -717,6 +717,9 @@ search-results-help-link = Көмек керек пе? <a data-l10n-name="url">{
 
 ## Sync Tab
 
+sync-signedout-caption = Өз интернетіңізді өзіңізбен бірге ұстаңыз
+sync-signedout-description = Тіркелгілер, адрестік кітапшалар, күнтізбелер, қосымшалар және баптауларды барлық құрылғыларыңыз арасында синхрондаңыз.
+sync-signedout-account-signin-btn = Синхрондау ішіне кіру…
 sync-pane-header = Синхрондау
 sync-pane-edit-photo =
     .title = Профиль суретін ауыстыру
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Құрылғы аты
 sync-pane-change-device-name = Құрылғы атын өзгерту
 sync-pane-cancel = Бас тарту
 sync-pane-save = Сақтау
+sync-pane-show-synced-header-on = Синхрондау: ІСКЕ ҚОСЫЛҒАН
+sync-pane-show-synced-header-off = Синхрондау: СӨНДІРІЛГЕН
+sync-pane-sync-now = Қазір синхрондау
+sync-panel-sync-now-syncing = Синхрондау…
+show-synced-list-heading = Сіз қазір осы элементтерді синхрондап жатырсыз:
+show-synced-learn-more = Көбірек білу…
+show-synced-item-account = Эл. пошта тіркелгілері
+show-synced-item-address = Адрестік кітапшалар
+show-synced-item-calendar = Күнтізбелер
+show-synced-item-identity = Жеке мәліметтер
+show-synced-change = Өзгерту…
+synced-acount-item-server-config = Сервер баптаулары
+synced-acount-item-filters = Сүзгілер
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Эл. пошта тіркелгілері, адрестік кітапшалар, күнтізбелер және жеке мәліметтерді барлық құрылғыларыңыз арасында синхрондаңыз.
+sync-disconnected-turn-on-sync = Синхрондауды іске қосу…
