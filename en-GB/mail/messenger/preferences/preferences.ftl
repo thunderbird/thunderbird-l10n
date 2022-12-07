@@ -717,6 +717,9 @@ search-results-help-link = Need help? Visit <a data-l10n-name="url">{ -brand-sho
 
 ## Sync Tab
 
+sync-signedout-caption = Take Your Web With You
+sync-signedout-description = Synchronise your accounts, address books, calendars, add-ons, and settings across all your devices.
+sync-signedout-account-signin-btn = Sign in to synchronise…
 sync-pane-header = Sync
 sync-pane-edit-photo =
     .title = Change profile picture
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Device Name
 sync-pane-change-device-name = Change device name
 sync-pane-cancel = Cancel
 sync-pane-save = Save
+sync-pane-show-synced-header-on = Synchronisation ON
+sync-pane-show-synced-header-off = Synchronisation OFF
+sync-pane-sync-now = Synchronise Now
+sync-panel-sync-now-syncing = Synchronising…
+show-synced-list-heading = You are currently synchronising these items:
+show-synced-learn-more = Learn more…
+show-synced-item-account = Email Accounts
+show-synced-item-address = Address Books
+show-synced-item-calendar = Calendars
+show-synced-item-identity = Identities
+show-synced-change = Change…
+synced-acount-item-server-config = Server configuration
+synced-acount-item-filters = Filters
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synchronise your email accounts, address books, calendars, and identities across all your devices.
+sync-disconnected-turn-on-sync = Turn on Synchronisation…
