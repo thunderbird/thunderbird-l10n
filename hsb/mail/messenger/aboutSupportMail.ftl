@@ -14,7 +14,13 @@ accounts-conn-security = Zwiskowa wěstota
 accounts-auth-method = Awtentifikaciska metoda
 accounts-default = Standard?
 identity-name = Identita
-
 send-via-email = Přez e-mejl pósłać
-
 app-basics-telemetry = Telemetrijne daty
+mail-libs-title = Biblioteki
+libs-table-heading-library = Biblioteka
+libs-table-heading-expected-version = Wočakowana minimalna wersija
+libs-table-heading-loaded-version = Wužita wersija
+libs-table-heading-path = Šćežka
+libs-table-heading-status = Status
+libs-rnp-status-ok = W porjadku
+libs-rnp-status-incompatible = Inkompatibelna wersija. OpenPGP so njefunguje.
