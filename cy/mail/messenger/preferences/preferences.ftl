@@ -717,6 +717,9 @@ search-results-help-link = Angen cymorth? Ewch i <a data-l10n-name="url">Cefnoga
 
 ## Sync Tab
 
+sync-signedout-caption = Cymrwch eich Gwe gyda Chi
+sync-signedout-description = Cydweddwch eich cyfrifon, llyfrau cyfeiriadau, calendrau, ychwanegion a gosodiadau ar draws eich holl ddyfeisiau.
+sync-signedout-account-signin-btn = Mewngofnodwch i gydweddu…
 sync-pane-header = Cydweddu
 sync-pane-edit-photo =
     .title = Newid llun proffil
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Enw Dyfais
 sync-pane-change-device-name = Newid enw dyfais
 sync-pane-cancel = Diddymu
 sync-pane-save = Cadw
+sync-pane-show-synced-header-on = Cydweddu YMLAEN
+sync-pane-show-synced-header-off = Cydweddu I FFWRDD
+sync-pane-sync-now = Cydweddu Nawr
+sync-panel-sync-now-syncing = Cydweddu…
+show-synced-list-heading = Rydych wrthi'n cydweddu'r eitemau hyn:
+show-synced-learn-more = Dysgu rhagor…
+show-synced-item-account = Cyfrifon E-bost
+show-synced-item-address = Llyfrau Cyfeiriadau
+show-synced-item-calendar = Calendrau
+show-synced-item-identity = Hunaniaethau
+show-synced-change = Newid…
+synced-acount-item-server-config = Ffufweddiad gweinydd
+synced-acount-item-filters = Hidlau
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Cydweddwch eich cyfrifon e-bost, llyfrau cyfeiriadau, calendrau a hunaniaethau ar draws eich holl ddyfeisiau.
+sync-disconnected-turn-on-sync = Cychwyn Cydweddu…
