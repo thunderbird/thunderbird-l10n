@@ -714,6 +714,7 @@ search-results-help-link = Потрібна допомога? Відвідайт
 ## Sync Tab
 
 sync-signedout-caption = Візьміть свій інтернет з собою
+sync-signedout-description = Синхронізуйте свої облікові записи, адресні книги, календарі, додатки та налаштування на всіх пристроях.
 sync-signedout-account-signin-btn = Увійти до синхронізації…
 sync-pane-header = Синхронізація
 sync-pane-edit-photo =
@@ -738,4 +739,5 @@ show-synced-change = Змінити…
 synced-acount-item-server-config = Конфігурація сервера
 synced-acount-item-filters = Фільтри
 synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Синхронізуйте свої облікові записи електронної пошти, адресні книги, календарі та особисті дані на всіх пристроях.
 sync-disconnected-turn-on-sync = Увімкнути синхронізацію…
