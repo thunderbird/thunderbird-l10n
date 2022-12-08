@@ -713,6 +713,8 @@ search-results-help-link = Потрібна допомога? Відвідайт
 
 ## Sync Tab
 
+sync-signedout-caption = Візьміть свій інтернет з собою
+sync-signedout-account-signin-btn = Увійти до синхронізації…
 sync-pane-header = Синхронізація
 sync-pane-edit-photo =
     .title = Змінити зображення профілю
@@ -722,3 +724,18 @@ sync-pane-device-name-title = Назва пристрою
 sync-pane-change-device-name = Змінити назву пристрою
 sync-pane-cancel = Скасувати
 sync-pane-save = Зберегти
+sync-pane-show-synced-header-on = Синхронізацію ввімкнено
+sync-pane-show-synced-header-off = Синхронізацію вимкнено
+sync-pane-sync-now = Синхронізувати зараз
+sync-panel-sync-now-syncing = Синхронізація…
+show-synced-list-heading = Зараз ви синхронізуєте такі елементи:
+show-synced-learn-more = Докладніше…
+show-synced-item-account = Облікові записи електронної пошти
+show-synced-item-address = Адресні книги
+show-synced-item-calendar = Календарі
+show-synced-item-identity = Особисті дані
+show-synced-change = Змінити…
+synced-acount-item-server-config = Конфігурація сервера
+synced-acount-item-filters = Фільтри
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-turn-on-sync = Увімкнути синхронізацію…
