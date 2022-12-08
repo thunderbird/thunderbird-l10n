@@ -5,7 +5,7 @@
 <!--LOCALIZATION NOTE msgReadSecurityInfo.dtd UI for viewing security status when reading a received message -->
 
 <!ENTITY status.label "Sécurité des messages">
-<!ENTITY signatureCert.label "Voir la signature du certificat">
+<!ENTITY signatureCert.label "Voir le certificat de signature">
 <!ENTITY encryptionCert.label "Voir le certificat de chiffrement">
 
 <!ENTITY signer.name "Signé par :">
