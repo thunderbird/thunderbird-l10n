@@ -717,6 +717,9 @@ search-results-help-link = Require adjuta? Visita <a data-l10n-name="url">Assist
 
 ## Sync Tab
 
+sync-signedout-caption = Porta le web con te
+sync-signedout-description = Synchronisa tu contos, libros de adresses, agendas, additivos e parametros inter tote tu apparatos.
+sync-signedout-account-signin-btn = Accede pro synchronisar…
 sync-pane-header = Sync
 sync-pane-edit-photo =
     .title = Cambiar le imagine del profilo
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Nomine del apparato
 sync-pane-change-device-name = Cambiar nomine de apparato
 sync-pane-cancel = Cancellar
 sync-pane-save = Salvar
+sync-pane-show-synced-header-on = Synchronisation ACTIVE
+sync-pane-show-synced-header-off = Synchronisation INACTIVE
+sync-pane-sync-now = Synchronisar ora
+sync-panel-sync-now-syncing = Synchronisante…
+show-synced-list-heading = Tu synchronisa actualmente iste elementos:
+show-synced-learn-more = Saper plus…
+show-synced-item-account = Contos email
+show-synced-item-address = Libros de adresses
+show-synced-item-calendar = Agendas
+show-synced-item-identity = Identitates
+show-synced-change = Cambiar…
+synced-acount-item-server-config = Configuration del servitor
+synced-acount-item-filters = Filtros
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synchronisa tu contos email, libros de adresses, agendas e identitates inter tote tu apparatos.
+sync-disconnected-turn-on-sync = Activar synchronisation…
