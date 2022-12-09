@@ -717,6 +717,9 @@ search-results-help-link = Cần trợ giúp? Đi đến <a data-l10n-name="url"
 
 ## Sync Tab
 
+sync-signedout-caption = Mang trang web theo bạn
+sync-signedout-description = Đồng bộ hóa tài khoản, sổ địa chỉ, lịch, tiện ích mở rộng và cài đặt trên tất cả các thiết bị của bạn.
+sync-signedout-account-signin-btn = Đăng nhập để đồng bộ hóa…
 sync-pane-header = Đồng bộ hóa
 sync-pane-edit-photo =
     .title = Đổi hình hồ sơ
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Tên thiết bị
 sync-pane-change-device-name = Thay đổi tên thiết bị
 sync-pane-cancel = Hủy bỏ
 sync-pane-save = Lưu
+sync-pane-show-synced-header-on = Đồng bộ hóa đang bật
+sync-pane-show-synced-header-off = Đồng bộ hóa đang tắt
+sync-pane-sync-now = Đồng bộ ngay
+sync-panel-sync-now-syncing = Đang đồng bộ hóa…
+show-synced-list-heading = Bạn hiện đang đồng bộ hóa các mục này:
+show-synced-learn-more = Tìm hiểu thêm…
+show-synced-item-account = Tài khoản email
+show-synced-item-address = Sổ địa chỉ
+show-synced-item-calendar = Lịch
+show-synced-item-identity = Danh tính
+show-synced-change = Thay đổi…
+synced-acount-item-server-config = Cấu hình máy chủ
+synced-acount-item-filters = Bộ lọc
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Đồng bộ hóa tài khoản email, sổ địa chỉ, lịch và danh tính trên tất cả các thiết bị của bạn.
+sync-disconnected-turn-on-sync = Bật Đồng bộ hóa…
