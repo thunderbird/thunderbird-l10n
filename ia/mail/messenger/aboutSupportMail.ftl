@@ -23,3 +23,6 @@ libs-table-heading-loaded-version = Version in uso
 libs-table-heading-path = Route
 libs-table-heading-status = Stato
 libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = Cargamento fallite. OpenPGP non functionara.
+libs-rnp-status-incompatible = Version incompatibile. OpenPGP non functionara.
+libs-rnp-status-unofficial = Version  non official. OpenPGP poterea non functionar como expectate.
