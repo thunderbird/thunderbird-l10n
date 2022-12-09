@@ -715,6 +715,9 @@ search-results-help-link = Yardım mı gerekiyor? <a data-l10n-name="url">{ -bra
 
 ## Sync Tab
 
+sync-signedout-caption = Web’inizi yanınızda taşıyın
+sync-signedout-description = Hesaplarınızı, adres defterlerinizi, takvimlerinizi, eklentilerinizi ve ayarlarınızı tüm cihazlarınız arasında senkronize edin.
+sync-signedout-account-signin-btn = Eşitlemek için giriş yap…
 sync-pane-header = Eşitle
 sync-pane-edit-photo =
     .title = Profil resmini değiştir
@@ -724,3 +727,18 @@ sync-pane-device-name-title = Cihaz adı
 sync-pane-change-device-name = Cihaz adını değiştir
 sync-pane-cancel = Vazgeç
 sync-pane-save = Kaydet
+sync-pane-show-synced-header-on = Eşitleme AÇIK
+sync-pane-show-synced-header-off = Eşitleme KAPALI
+sync-pane-sync-now = Şimdi eşitle
+sync-panel-sync-now-syncing = Eşitleniyor…
+show-synced-list-heading = Şu anda aşağıdaki öğeleri eşitliyorsunuz:
+show-synced-learn-more = Daha fazla bilgi al…
+show-synced-item-account = E-posta hesapları
+show-synced-item-address = Adres defterleri
+show-synced-item-calendar = Takvimler
+show-synced-item-identity = Kimlikler
+show-synced-change = Değiştir…
+synced-acount-item-server-config = Sunucu yapılandırması
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = E-postalarınızı, adres defterlerinizi, takvimlerinizi ve kimliklerinizi tüm cihazlarınız arasında senkronize edin.
+sync-disconnected-turn-on-sync = Eşitlemeyi aç…
