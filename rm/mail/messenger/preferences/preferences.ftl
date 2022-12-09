@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Chalender
 category-calendar =
     .tooltiptext = Chalender
+pane-sync-title = Sync
+category-sync =
+    .tooltiptext = Sync
 general-language-and-appearance-header = Lingua & apparientscha
 general-incoming-mail-header = E-mails che entran
 general-files-and-attachment-header = Datotecas & agiuntas
@@ -711,3 +714,34 @@ search-results-empty-message2 =
        *[other] Perstgisa! Impussibel da chattar «<span data-l10n-name="query"></span>» en ils parameters.
     }
 search-results-help-link = Dovras sustegn? Consultescha <a data-l10n-name="url">{ -brand-short-name }l'agid</a>
+
+## Sync Tab
+
+sync-signedout-caption = Prenda tes web cun tai
+sync-signedout-description = Sincronisescha tes contos, cudeschets d'adressas, chalenders, supplements e parameters cun tut tes apparats.
+sync-signedout-account-signin-btn = S'annunziar per sincronisar…
+sync-pane-header = Sync
+sync-pane-edit-photo =
+    .title = Midar il maletg da profil
+sync-pane-manage-account = Administrar il conto
+sync-pane-sign-out = Sortir…
+sync-pane-device-name-title = Num da l'apparat
+sync-pane-change-device-name = Midar il num da l'apparat
+sync-pane-cancel = Interrumper
+sync-pane-save = Memorisar
+sync-pane-show-synced-header-on = Sincronisaziun ACTIVADA
+sync-pane-show-synced-header-off = Sincronisaziun DEACTIVADA
+sync-pane-sync-now = Sincronisar ussa
+sync-panel-sync-now-syncing = Sincronisar…
+show-synced-list-heading = Ils suandants elements vegnan actualmain sincronisads:
+show-synced-learn-more = Ulteriuras infurmaziuns…
+show-synced-item-account = Contos dad e-mail
+show-synced-item-address = Cudeschets d'adressas
+show-synced-item-calendar = Chalenders
+show-synced-item-identity = Identitads
+show-synced-change = Modifitgar…
+synced-acount-item-server-config = Configuraziun dal server
+synced-acount-item-filters = Filters
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Sincronisescha tes contos dad e-mail, cudeschets d'adressas, chalenders e tias identitads sin tut tes apparats.
+sync-disconnected-turn-on-sync = Activar la sincronisaziun…
