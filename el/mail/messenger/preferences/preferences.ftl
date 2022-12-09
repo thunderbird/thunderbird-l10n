@@ -730,6 +730,7 @@ show-synced-item-address = Ευρετήρια
 show-synced-item-calendar = Ημερολόγια
 show-synced-item-identity = Ταυτότητες
 show-synced-change = Αλλαγή…
+synced-acount-item-server-config = Ρυθμίσεις διακομιστή
 synced-acount-item-filters = Φίλτρα
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-turn-on-sync = Ενεργοποίηση συγχρονισμού…
