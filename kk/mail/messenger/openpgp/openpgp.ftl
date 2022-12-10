@@ -113,6 +113,13 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Ашық кілтті эл. пошта арқылы жіберу
     .accesskey = ж
+openpgp-key-man-copy-key-ids =
+    .label =
+        { $count ->
+            [one] Кілт идентификаторын алмасу буферіне көшіріп алу
+           *[other] Кілт идентификаторларын алмасу буферіне көшіріп алу
+        }
+    .accesskey = К
 openpgp-key-man-ctx-expor-to-file-label =
     .label = Кілттерді файлға экспорттау
 openpgp-key-man-ctx-copy =
@@ -198,6 +205,8 @@ openpgp-key-details-id-label =
 openpgp-key-details-key-type-label = Түрі
 openpgp-key-details-key-part-label =
     .label = Кілт бөлімі
+openpgp-key-details-attr-upgrade-sec = Қауіпсіз емес қасиеттерді жаңартуыңыз керек.
+openpgp-key-details-attr-upgrade-pub = Осы кілттің иесінен қауіпсіз емес қасиеттерді жаңартуды сұрауыңыз керек.
 openpgp-key-details-algorithm-label =
     .label = Алгоритм
 openpgp-key-details-size-label =
