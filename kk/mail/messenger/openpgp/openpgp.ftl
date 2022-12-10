@@ -299,7 +299,16 @@ import-info-no-keys = Ешбір кілт импортталмаған.
 import-from-clip = Алмасу буферінен кейбір кілттерді импорттағыңыз келе ме?
 copy-to-clipbrd-ok = Кілт(тер) алмасу буферіне көшірілді
 delete-selected-pub-key = Ашық кілттерді өшіргіңіз келе ме?
+key-man-button-export-sec-key = Же&ке кілттерді экспорттау
+key-man-button-export-pub-key = Тек а&шық кілттерді экспорттау
+key-man-button-refresh-all = &Барлық кілттерді жаңарту
 key-man-loading-keys = Кілттер жүктелуде, күте тұрыңыз…
+ascii-armor-file = ASCII қорғалған файлдары (*.asc)
+no-key-selected = Таңдалған әрекетті орындау үшін кем дегенде бір кілтті таңдау керек
+export-to-file = Ашық кілтті файлға экспорттау
+export-keypair-to-file = Жеке және ашық кілтті файлға экспорттау
+export-secret-key = Жеке кілтті сақталған OpenPGP кілт файлына қосқыңыз келе ме?
+save-keys-ok = Кілттер сәтті сақталды
 save-keys-failed = Кілттерді сақтау сәтсіз аяқталды
 default-pub-key-filename = Экспортталған_ашық_кілттер
 default-pub-sec-key-filename = Құпия_кілттердің_қор_көшірмесі
@@ -310,15 +319,33 @@ dlg-button-delete = Ө&шіру
 
 ## Account settings export output
 
+openpgp-export-public-success = <b>Ашық кілт сәтті экспортталды!</b>
+openpgp-export-public-fail = <b>Таңдалған ашық кілтті экспорттау мүмкін емес!</b>
+openpgp-export-secret-success = <b>Жеке кілт сәтті экспортталды!</b>
+openpgp-export-secret-fail = <b>Таңдалған жеке кілтті экспорттау мүмкін емес!</b>
+key-ring-no-secret-key = Сіздің кілттер бауыңызда { $userId } (кілт идентификаторы { $keyId }) жеке кілті жоқ сияқты; қолтаңба қою үшін кілтті пайдалана алмайсыз.
+key-ring-pub-key-not-for-signing = { $userId } кілтін (кілт идентификаторы { $keyId }) қолтаңба қою үшін пайдалану мүмкін емес.
+key-ring-pub-key-not-for-encryption = { $userId } кілтін (кілт идентификаторы { $keyId }) шифрлеу үшін пайдалану мүмкін емес.
 # Strings in gnupg-keylist.jsm
 keyring-photo = Фото
 user-att-photo = Пайдаланушы атрибуты (JPEG суреті)
 # Strings in keyRing.jsm & decryption.jsm
 key-man-button-import = &Импорттау
 delete-key-title = OpenPGP кілтін өшіру
+delete-external-key-title = Сыртқы GnuPG кілтін өшіру
+delete-external-key-description = Осы сыртқы GnuPG кілт идентификаторын өшіргіңіз келе ме?
+key-in-use-title = OpenPGP кілті қазір қолданылуда
 no-update-found = Онлайн табылған кілттер сізде бар болып тұр.
+# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+fail-key-extract = Қате - кілтті шығару командасы сәтсіз аяқталды
+# Strings used in keyRing.jsm
+fail-cancel = Қате - пайдаланушы кілтті қабылдаудан бас тартты
+not-first-block = Қате - бірінші OpenPGP блогы ашық кілт блогы емес
+import-key-confirm = Хабарламаға ендірілген ашық кілттерді импорттау керек пе?
 fail-key-import = Қате – кілтті импорттау сәтсіз аяқталды
 file-write-failed = { $output } файлына жазу сәтсіз аяқталды
+no-pgp-block = Қате - жарамды қорғалған OpenPGP деректер блогы табылмады
+confirm-permissive-import = Импорттау сәтсіз аяқталды. Сіз импорттағыңыз келген кілт зақымдалған болуы немесе белгісіз атрибуттарды пайдалануы мүмкін. Дұрыс бөліктерді импорттауға әрекет жасағыңыз келе ме? Бұл толық емес және жарамсыз кілттердің импортына әкелуі мүмкін.
 # Strings used in trust.jsm
 key-valid-unknown = белгісіз
 key-valid-invalid = жарамсыз
