@@ -288,6 +288,9 @@ filter-folder-required = Мақсат буманы таңдауыңыз кере
 filter-term-pgpencrypted-label = OpenPGP көмегімен шифрленген
 filter-key-required = Сіз алушы кілтін таңдауыңыз керек.
 filter-key-not-found = ‘{ $desc }’ үшін шифрлеу кілті табылмады.
+# Strings in enigmailKeyImportInfo.js
+import-info-title =
+    .title = Кілттер сәтті импортталды
 import-info-bits = Бит
 import-info-created = Жасалған
 import-info-fpr = Баспасы
