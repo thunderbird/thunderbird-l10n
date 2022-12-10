@@ -207,6 +207,9 @@ openpgp-key-details-key-part-label =
     .label = Кілт бөлімі
 openpgp-key-details-attr-upgrade-sec = Қауіпсіз емес қасиеттерді жаңартуыңыз керек.
 openpgp-key-details-attr-upgrade-pub = Осы кілттің иесінен қауіпсіз емес қасиеттерді жаңартуды сұрауыңыз керек.
+openpgp-key-details-upgrade-unsafe =
+    .label = Қауіпсіз емес қасиеттерді жаңарту
+    .accesskey = с
 openpgp-key-details-algorithm-label =
     .label = Алгоритм
 openpgp-key-details-size-label =
@@ -250,6 +253,7 @@ openpgp-add-key-button =
 e2e-learn-more = Көбірек білу
 openpgp-keygen-success = OpenPGP кілті сәтті жасалды!
 openpgp-keygen-import-success = OpenPGP кілттері сәтті импортталды!
+openpgp-keygen-external-success = Сыртқы GnuPG кілт идентификаторы сақталды!
 
 ## OpenPGP Key selection area
 
