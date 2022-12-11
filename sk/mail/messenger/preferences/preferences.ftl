@@ -717,6 +717,9 @@ search-results-help-link = Potrebujete pomoc? Navštívte <a data-l10n-name="url
 
 ## Sync Tab
 
+sync-signedout-caption = Vezmite si svoj web so sebou
+sync-signedout-description = Synchronizujte svoje účty, adresáre, kalendáre, doplnky a nastavenia na všetkých svojich zariadeniach.
+sync-signedout-account-signin-btn = Prihlásiť sa a synchronizovať…
 sync-pane-header = Synchronizácia
 sync-pane-edit-photo =
     .title = Zmeniť obrázok profilu
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Názov zariadenia
 sync-pane-change-device-name = Zmeniť názov zariadenia
 sync-pane-cancel = Zrušiť
 sync-pane-save = Uložiť
+sync-pane-show-synced-header-on = Synchronizácia je zapnutá
+sync-pane-show-synced-header-off = Synchronizácia je vypnutá
+sync-pane-sync-now = Synchronizovať
+sync-panel-sync-now-syncing = Synchronizuje sa…
+show-synced-list-heading = Máte zapnutú synchronizáciu týchto položiek:
+show-synced-learn-more = Ďalšie informácie…
+show-synced-item-account = E-mailové účty
+show-synced-item-address = Adresáre
+show-synced-item-calendar = Kalendáre
+show-synced-item-identity = Identity
+show-synced-change = Zmeniť…
+synced-acount-item-server-config = Konfigurácia servera
+synced-acount-item-filters = Filtre
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synchronizujte svoje e-mailové účty, adresáre, kalendáre a identity na všetkých svojich zariadeniach.
+sync-disconnected-turn-on-sync = Zapnúť synchronizáciu…
