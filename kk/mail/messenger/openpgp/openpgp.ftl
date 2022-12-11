@@ -383,6 +383,7 @@ import-info-fpr = Баспасы
 import-info-no-keys = Ешбір кілт импортталмаған.
 # Strings in enigmailKeyManager.js
 import-from-clip = Алмасу буферінен кейбір кілттерді импорттағыңыз келе ме?
+copy-to-clipbrd-failed = Таңдалған кілттерді алмасу буферіне көшіру мүмкін болмады.
 copy-to-clipbrd-ok = Кілт(тер) алмасу буферіне көшірілді
 delete-selected-pub-key = Ашық кілттерді өшіргіңіз келе ме?
 key-man-button-export-sec-key = Же&ке кілттерді экспорттау
@@ -448,6 +449,7 @@ import-key-file = OpenPGP кілт файлын импорттау
 gnupg-file = GnuPGфайлдары
 import-keys-failed = Кілттерді импорттау сәтсіз аяқталды
 file-to-big-to-import = Бұл файл тым үлкен. Кілттердің үлкен жинағын бірден импорттамаңыз.
+revoke-cert-failed = Қайта шақыру сертификатын жасау мүмкін болмады.
 gen-going = Кілт генерациясы жүріп жатыр!
 expiry-too-short = Сіздің кілтіңіз кем дегенде бір күн жарамды болуы керек.
 expiry-too-long = Мерзімі 100 жылдан асатын кілт жасай алмайсыз.
