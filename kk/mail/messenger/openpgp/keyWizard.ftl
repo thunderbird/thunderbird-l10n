@@ -120,7 +120,7 @@ openpgp-import-key-props =
 
 ## External Key section
 
-openpgp-external-key-title = Сыртқы GnuPGкілті
+openpgp-external-key-title = Сыртқы GnuPG кілті
 openpgp-external-key-description = Кілт анықтағышын енгізу арқылы сыртқы GnuPG кілтін баптаңыз
 openpgp-external-key-info = Оған қоса, сәйкес ашық кілтті импорттау және қабылдау үшін Кілттер басқарушысы қолданбасын пайдалану керек.
 openpgp-external-key-warning = <b>Сіз тек бір сыртқы GnuPG кілтін баптай аласыз.</b> Алдыңғы жазбаңыз алмастырылады.

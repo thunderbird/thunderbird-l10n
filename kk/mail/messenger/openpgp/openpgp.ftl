@@ -276,6 +276,9 @@ openpgp-acceptance-unverified-label =
     .label = Иә, бірақ мен оның дұрыс кілт екенін тексерген жоқпын.
 openpgp-acceptance-verified-label =
     .label = Иә, мен бұл кілтте дұрыс баспасы бар екенін өзім растадым.
+key-accept-personal =
+    Бұл кілт үшін сізде жария және құпия бөліктері бар. Сіз оны жеке кілт ретінде пайдалана аласыз.
+    Бұл кілтті сізге басқа біреу берген болса, оны жеке кілт ретінде пайдаланбаңыз.
 openpgp-personal-no-label =
     .label = Жоқ, оны менің жеке кілтім ретінде пайдаланбау.
 openpgp-personal-yes-label =
@@ -299,6 +302,9 @@ openpgp-keygen-external-success = Сыртқы GnuPG кілт идентифик
 
 openpgp-radio-none =
     .label = Ешнәрсе
+openpgp-radio-key-not-usable = Бұл кілт жеке кілт ретінде қолданылмайды, себебі құпия кілт жоқ!
+openpgp-radio-key-not-accepted = Бұл кілтті пайдалану үшін оны жеке кілт ретінде растауыңыз керек!
+openpgp-radio-key-not-found = Бұл кілт табылмады! Оны пайдаланғыңыз келсе, оны { -brand-short-name } ішіне импорттауыңыз керек.
 #   $key (String) - the expiration date of the OpenPGP key
 openpgp-radio-key-expires = Мерзімі аяқталады: { $date }
 #   $key (String) - the expiration date of the OpenPGP key
@@ -309,11 +315,17 @@ openpgp-key-has-expired-icon =
     .title = Кілт мерзімі аяқталды
 openpgp-key-expand-section =
     .tooltiptext = Көбірек ақпарат
+openpgp-key-revoke-title = Кілтті қайта шақыру
 openpgp-key-edit-title = OpenPGP кілтін өзгерту
 openpgp-key-edit-date-title = Жарамдылық мерзімін ұзарту
+openpgp-manager-description = Корреспонденттердің ашық кілттерін және жоғарыда көрсетілмеген барлық басқа кілттерді қарау және басқару үшін OpenPGP кілттер басқарушысын пайдаланыңыз.
 openpgp-manager-button =
     .label = OpenPGP кілттер басқарушысы
     .accesskey = к
+openpgp-key-remove-external =
+    .label = Сыртқы кілт идентификаторын өшіру
+    .accesskey = ш
+key-external-label = Сыртқы GnuPG кілті
 # Strings in keyDetailsDlg.xhtml
 key-type-public = ашық кілт
 key-type-primary = негізгі кілт
@@ -327,6 +339,15 @@ key-usage-authentication = Аутентификация
 key-does-not-expire = Кілттің мерзімі бітпейді
 key-expired-date = Кілттің мерзімі { $keyExpiry } күні аяқталды
 key-expired-simple = Кілттің мерзімі аяқталды
+key-revoked-simple = Кілт қайта шақырылды
+key-do-you-accept = Бұл кілтті цифрлық қолтаңбаларды тексеру және хабарламаларды шифрлеу үшін қабылдайсыз ба?
+key-verification = Кілт баспасын эл. поштадан басқа қауіпсіз байланыс арнасын пайдаланып, оның шынымен { $addr } кілті екеніне көз жеткізіңіз.
+# Strings enigmailMsgComposeOverlay.js
+cannot-use-own-key-because = Хабарламаны жіберу мүмкін емес, себебі сіздің жеке кілтіңізде мәселе бар. { $problem }
+cannot-encrypt-because-missing = Бұл хабарламаны өтпелі шифрлеумен жіберу мүмкін емес, себебі келесі алушылардың кілттерінде мәселелер бар: { $problem }
+window-locked = Жазу терезесі құлыпталған; жіберу тоқтатылды
+# Strings in mimeDecrypt.jsm
+mime-decrypt-encrypted-part-concealed-data = Бұл шифрленген хабарлама бөлігі. Салынымды басу арқылы оны бөлек терезеде ашу керек.
 # Strings in keyserver.jsm
 keyserver-error-aborted = Үзілген
 keyserver-error-unknown = Белгісіз қате орын алды
@@ -336,6 +357,18 @@ keyserver-error-unavailable = Кілттер сервері қолжетімді
 keyserver-error-security-error = Кілттер сервері шифрленген қатынауды қолдамайды.
 keyserver-error-certificate-error = Кілттер серверінің сертификаты жарамсыз.
 keyserver-error-unsupported = Кілnтth серверіне қолдау жоқ.
+# Strings in mimeWkdHandler.jsm
+wkd-message-body-req =
+    Эл. пошта провайдері ашық кілтіңізді OpenPGP веб-кілттер каталогына жүктеп салу сұрауыңызды өңдеді.
+    Ашық кілтіңізді жариялауды аяқтау үшін растаңыз.
+wkd-message-body-process =
+    Бұл OpenPGP веб-кілттер каталогына ашық кілтті жүктеп салу үшін автоматты өңдеуге қатысты эл. пошта.
+    Қазір қолмен ешқандай әрекет жасаудың қажеті жоқ.
+# Strings in persistentCrypto.jsm
+converter-decrypt-body-failed =
+    Тақырыбы келесідей болатын хабарламаны дешифрлеу мүмкін емес:
+    { $subject }.
+    Басқа кілттік фразамен әрекетті қайталау керек пе, немесе хабарламаны өткізіп жіберу керек пе?
 # Strings filters.jsm
 filter-folder-required = Мақсат буманы таңдауыңыз керек.
 filter-term-pgpencrypted-label = OpenPGP көмегімен шифрленген
