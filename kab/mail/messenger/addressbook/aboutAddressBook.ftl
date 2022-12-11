@@ -208,9 +208,12 @@ about-addressbook-placeholder-no-search-results = Ulac inermisen yettwafen
 
 ## Details
 
+about-addressbook-new-contact-header = Anermis amaynut
+about-addressbook-prefer-display-name = Smenyaf askan n yisem ɣef uqerru n yizen
 about-addressbook-write-action-button = Aru
 about-addressbook-event-action-button = Tadyant
 about-addressbook-search-action-button = Nadi
+about-addressbook-new-list-action-button = Tabdart tamaynut
 about-addressbook-begin-edit-contact-button = Ẓreg
 about-addressbook-delete-edit-contact-button = Kkes
 about-addressbook-cancel-edit-contact-button = Sefsex
@@ -220,6 +223,7 @@ about-addressbook-details-email-addresses-header = Tansiwin n yimayl
 about-addressbook-details-phone-numbers-header = Uṭṭunen n tiliɣri
 about-addressbook-details-addresses-header = Tansiwin
 about-addressbook-details-notes-header = Tizmilin
+about-addressbook-details-websites-header = Ismal web
 about-addressbook-details-other-info-header = Talɣut-nniḍen
 about-addressbook-entry-type-work = Mahel
 about-addressbook-entry-type-home = Agejdan
@@ -234,6 +238,10 @@ about-addressbook-entry-name-role = Tamlilt
 about-addressbook-entry-name-organization = Takebbanit
 about-addressbook-entry-name-website = Asmel web
 about-addressbook-entry-name-time-zone = Izḍi usrig
+about-addressbook-entry-name-custom1 = Aggan 1
+about-addressbook-entry-name-custom2 = Aggan 2
+about-addressbook-entry-name-custom3 = Aggan 3
+about-addressbook-entry-name-custom4 = Aggan 4
 about-addressbook-unsaved-changes-prompt-title = Asnifel ur yettwasekles ara
 about-addressbook-unsaved-changes-prompt = Tebɣiḍ ad teskelseḍ isnifal-inek send ad teffɣeḍ seg taskant n uẓrag?
 
@@ -249,3 +257,4 @@ about-addressbook-photo-save = Sekles
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N
