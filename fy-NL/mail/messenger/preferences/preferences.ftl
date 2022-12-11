@@ -717,6 +717,9 @@ search-results-help-link = Help nedich? Besykje <a data-l10n-name="url">{ -brand
 
 ## Sync Tab
 
+sync-signedout-caption = Nim jo web mei jo mei
+sync-signedout-description = Syngronisearje jo accounts, adresboeken, aginda’s, add-ons en ynstellingen op al jo apparaten.
+sync-signedout-account-signin-btn = Oanmelde om te syngronisearjen…
 sync-pane-header = Syngronisaasje
 sync-pane-edit-photo =
     .title = Profylôfbylding wizigje
@@ -726,3 +729,19 @@ sync-pane-device-name-title = Apparaatnamme
 sync-pane-change-device-name = Apparaatnamme wizigje
 sync-pane-cancel = Annulearje
 sync-pane-save = Bewarje
+sync-pane-show-synced-header-on = Syngronisearjen OAN
+sync-pane-show-synced-header-off = Syngronisearjen ÚT
+sync-pane-sync-now = No syngronisearje
+sync-panel-sync-now-syncing = Syngronisearje…
+show-synced-list-heading = Jo syngronisearje op dit stuit dizze ûnderdielen:
+show-synced-learn-more = Mear ynfo…
+show-synced-item-account = E-mailaccounts
+show-synced-item-address = Adresboeken
+show-synced-item-calendar = Aginda's
+show-synced-item-identity = Identiteiten
+show-synced-change = Wizigje…
+synced-acount-item-server-config = Serverconfiguraasje
+synced-acount-item-filters = Filters
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Syngronisearje jo e-mailaccounts, adresboeken, aginda’s en identiteiten op al jo apparaten.
+sync-disconnected-turn-on-sync = Syngronisaasje ynskeakelje…
