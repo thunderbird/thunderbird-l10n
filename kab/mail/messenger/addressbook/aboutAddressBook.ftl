@@ -21,10 +21,17 @@ about-addressbook-toolbar-import =
 
 ## Books
 
+all-address-books-row =
+    .title = Akk imedlisen n tensa
 all-address-books = Akk imedlisen n tensa
-
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = Inermisen s umata deg { $name }: { $count }
 about-addressbook-books-context-properties =
     .label = Timeẓliyin
+about-addressbook-books-context-edit-list =
+    .label = Ẓreg tabdart
 about-addressbook-books-context-synchronize =
     .label = Mtawi
 about-addressbook-books-context-edit =
@@ -39,7 +46,6 @@ about-addressbook-books-context-remove =
     .label = Kkes
 about-addressbook-books-context-startup-default =
     .label = Imedlis amezwer
-
 about-addressbook-confirm-delete-book-title = Kkes imedlis n tensa
 # Variables:
 # $name (String) - Name of the address book to be deleted.
@@ -57,14 +63,12 @@ about-addressbook-search =
     .placeholder = Nadi { $name }
 about-addressbook-search-all =
     .placeholder = Nadi akk imedlisen n tansiwin
-
 about-addressbook-name-format-display =
     .label = Isem n uskan
 about-addressbook-name-format-firstlast =
     .label = Aneggaru d amezwaru
 about-addressbook-name-format-lastfirst =
     .label = Aneggaru, amezwaru
-
 about-addressbook-sort-name-ascending =
     .label = Smizwer s yisem (A > Z)
 about-addressbook-sort-name-descending =
@@ -83,6 +87,9 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = Tansiwin n yimayl
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
+about-addressbook-column-header-nickname = Meffer isem
+about-addressbook-column-label-nickname =
+    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Uṭṭunen n tiliɣri
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -101,10 +108,44 @@ about-addressbook-column-label-organization =
 about-addressbook-column-header-addrbook = Anedlis n tansiwin
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
-
+about-addressbook-column-header-generatedname2 = Isem
+    .title = Smizwer s yisem
+about-addressbook-column-label-generatedname2 =
+    .label = Isem
+about-addressbook-column-header-emailaddresses2 = Tansiwin n yimayl
+    .title = Smizwer s tansiwin n yimayl
+about-addressbook-column-label-emailaddresses2 =
+    .label = Tansiwin n yimayl
+about-addressbook-column-header-nickname2 = Meferisem
+    .title = Smizwer s mefferisem
+about-addressbook-column-label-nickname2 =
+    .label = Meferisem
+about-addressbook-column-header-phonenumbers2 = Uṭṭunen n tiliɣri
+    .title = Smizwer s wuṭṭunen n tiliɣri
+about-addressbook-column-label-phonenumbers2 =
+    .label = Uṭṭunen n tiliɣri
+about-addressbook-column-header-addresses2 = Tansiwin
+    .title = Smizwer stansiwin
+about-addressbook-column-label-addresses2 =
+    .label = Tansiwin
+about-addressbook-column-header-title2 = Azwel
+    .title = Smizwer s uzwel
+about-addressbook-column-label-title2 =
+    .label = Azwel
+about-addressbook-column-header-department2 = Agezdu
+    .title = Smizwer s ugezdu
+about-addressbook-column-label-department2 =
+    .label = Agezdu
+about-addressbook-column-header-organization2 = Takebbanit
+    .title = Smizwer s tkebbaniyin
+about-addressbook-column-label-organization2 =
+    .label = Takebbanit
+about-addressbook-column-header-addrbook2 = Imedlis n tansa
+    .title = Smizwer s umedlis n tansa
+about-addressbook-column-label-addrbook2 =
+    .label = Imedlis n tensa
 about-addressbook-cards-context-write =
     .label = Aru
-
 about-addressbook-confirm-delete-mixed-title = Kkes inermisen akked tebdarin
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
@@ -161,6 +202,7 @@ about-addressbook-confirm-delete-contacts =
 
 about-addressbook-placeholder-empty-book = Ulac inermisen yellan
 about-addressbook-placeholder-new-contact = Anermis amaynut
+about-addressbook-placeholder-search-only = Imedlis-agi n tensa iskaned kan inermisen deffir unadi
 about-addressbook-placeholder-searching = Anadi…
 about-addressbook-placeholder-no-search-results = Ulac inermisen yettwafen
 
@@ -169,26 +211,22 @@ about-addressbook-placeholder-no-search-results = Ulac inermisen yettwafen
 about-addressbook-write-action-button = Aru
 about-addressbook-event-action-button = Tadyant
 about-addressbook-search-action-button = Nadi
-
 about-addressbook-begin-edit-contact-button = Ẓreg
 about-addressbook-delete-edit-contact-button = Kkes
 about-addressbook-cancel-edit-contact-button = Sefsex
 about-addressbook-save-edit-contact-button = Sekles
-
 about-addressbook-add-contact-to = Rnu ɣer:
-
 about-addressbook-details-email-addresses-header = Tansiwin n yimayl
 about-addressbook-details-phone-numbers-header = Uṭṭunen n tiliɣri
 about-addressbook-details-addresses-header = Tansiwin
 about-addressbook-details-notes-header = Tizmilin
 about-addressbook-details-other-info-header = Talɣut-nniḍen
-
 about-addressbook-entry-type-work = Mahel
 about-addressbook-entry-type-home = Agejdan
 about-addressbook-entry-type-fax = Fax
+# Or "Mobile"
 about-addressbook-entry-type-cell = Senz
 about-addressbook-entry-type-pager = Amsebter
-
 about-addressbook-entry-name-birthday = Azemz n tlalit
 about-addressbook-entry-name-anniversary = Amulli
 about-addressbook-entry-name-title = Azwel
@@ -196,7 +234,6 @@ about-addressbook-entry-name-role = Tamlilt
 about-addressbook-entry-name-organization = Takebbanit
 about-addressbook-entry-name-website = Asmel web
 about-addressbook-entry-name-time-zone = Izḍi usrig
-
 about-addressbook-unsaved-changes-prompt-title = Asnifel ur yettwasekles ara
 about-addressbook-unsaved-changes-prompt = Tebɣiḍ ad teskelseḍ isnifal-inek send ad teffɣeḍ seg taskant n uẓrag?
 
@@ -206,7 +243,6 @@ about-addressbook-photo-drop-target = Sers neɣ senteḍ tawlaft da, neɣ sit i 
 about-addressbook-photo-drop-loading = Asali n tewlaft…
 about-addressbook-photo-drop-error = Asali n tewlaft yecceḍ
 about-addressbook-photo-filepicker-title = Fren afaylu n tugna
-
 about-addressbook-photo-discard = Kkes tawlaft yellan
 about-addressbook-photo-cancel = Sefsex
 about-addressbook-photo-save = Sekles

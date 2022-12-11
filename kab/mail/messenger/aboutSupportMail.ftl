@@ -14,7 +14,12 @@ accounts-conn-security = Taɣellist n tuqqna
 accounts-auth-method = Tarrayt n usesteb
 accounts-default = Amezwer?
 identity-name = Tamagit
-
 send-via-email = Azen s yimayl
-
 app-basics-telemetry = Isefka n tilisɣelt
+mail-libs-title = Timkerḍiyin
+libs-table-heading-library = Tamkarḍit
+libs-table-heading-expected-version = Lqem adday itturajun
+libs-table-heading-loaded-version = Lqem ittuseqdacen
+libs-table-heading-path = Abrid
+libs-table-heading-status = Addad
+libs-rnp-status-ok = IH
