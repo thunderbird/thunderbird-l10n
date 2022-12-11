@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-intro-description = Шифрленген немесе цифрлық қолтаңбасы бар хабарламаларды жіберу үшінғ сізге OpenPGP немесе S/MIME сияқты шифрлеу технологиясын баптау керек.
+e2e-intro-description-more = OpenPGP пайдалануды іске қосу үшін жеке кілтті немесе S/MIME пайдалануды іске қосу үшін жеке сертификатты таңдаңыз. Жеке кілт немесе сертификат үшін сізде сәйкес құпия кілт бар.
+e2e-signing-description = Цифрлық қолтаңба алушыларға хабарламаны сіз жібергеніңізді және оның мазмұны өзгермегенін тексеруге мүмкіндік береді. Шифрленген хабарламаларға әрқашан үнсіз келісім бойынша қолтаңба қойылады.
 e2e-sign-message =
     .label = Шифрленбеген хабарламаларға қолтаңба қою
     .accesskey = и
@@ -49,6 +51,7 @@ openpgp-generate-key =
     .tooltiptext = Шифрлеу және/немесе қолтаңба қою үшін жаңа OpenPGP-үйлесімді кілтін жасайды
 openpgp-advanced-prefs-button-label =
     .label = Кеңейтілген…
+openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">ЕСКЕРТУ: Кілтті генерациялау бірнеше минутты алуы мүмкін.</a> Кілтті генерациялау орындалып жатқанда қолданбадан шықпаңыз. Кілтті генерациялау кезінде белсенді шолу немесе дискіні көп қажет ететін операцияларды орындау «кездейсоқтық пулын» толықтырады және процесті жылдамдатады. Кілтті генерациялау аяқталған кезде сізге ескерту жіберіледі.
 openpgp-key-created-label =
     .label = Жасалған
 openpgp-key-expiry-label =
@@ -61,6 +64,11 @@ openpgp-key-man-title =
 openpgp-key-man-generate =
     .label = Жаңа кілттер жұбы
     .accesskey = к
+openpgp-key-man-gen-revoke =
+    .label = Қайта шақыру сертификаты
+    .accesskey = р
+openpgp-key-man-ctx-gen-revoke-label =
+    .label = Қайта шақыру сертификатын жасау және сақтау
 openpgp-key-man-file-menu =
     .label = Файл
     .accesskey = Ф
@@ -81,6 +89,8 @@ openpgp-key-man-import-public-from-file =
     .accesskey = и
 openpgp-key-man-import-secret-from-file =
     .label = Файлдан құпия кілт(тер) импорттау
+openpgp-key-man-import-sig-from-file =
+    .label = Қайта шақыру(лар)ды файлдан импорттау
 openpgp-key-man-import-from-clipbrd =
     .label = Кілтт(ерд)і алмасу буферінен импорттау
     .accesskey = и
@@ -120,6 +130,20 @@ openpgp-key-man-copy-key-ids =
            *[other] Кілт идентификаторларын алмасу буферіне көшіріп алу
         }
     .accesskey = К
+openpgp-key-man-copy-fprs =
+    .label =
+        { $count ->
+            [one] Баспаланы алмасу буферіне көшіріп алу
+           *[other] Баспаларды алмасу буферіне көшіріп алу
+        }
+    .accesskey = п
+openpgp-key-man-copy-to-clipboard =
+    .label =
+        { $count ->
+            [one] Ашық кілтті алмасу буферіне көшіріп алу
+           *[other] Ашық кілтті алмасу буферіне көшіріп алу
+        }
+    .accesskey = ш
 openpgp-key-man-ctx-expor-to-file-label =
     .label = Кілттерді файлға экспорттау
 openpgp-key-man-ctx-copy =
@@ -162,12 +186,20 @@ openpgp-key-man-del-key =
 openpgp-delete-key =
     .label = Кілтті өшіру
     .accesskey = ш
+openpgp-key-man-revoke-key =
+    .label = Кілтті қайта шақыру
+    .accesskey = р
 openpgp-key-man-key-props =
     .label = Кілт қасиеттері
     .accesskey = К
 openpgp-key-man-key-more =
     .label = Көбірек
     .accesskey = б
+openpgp-key-man-view-photo =
+    .label = Фотосурет идентификаторы
+    .accesskey = Ф
+openpgp-key-man-ctx-view-photo-label =
+    .label = Фотосурет идентификаторын қарау
 openpgp-key-man-show-invalid-keys =
     .label = Жарамсыз кілттерді көрсету
     .accesskey = с
@@ -193,11 +225,14 @@ openpgp-key-man-select-all-key =
     .key = A
 openpgp-key-man-key-details-key =
     .key = I
+openpgp-ign-addr-intro = Сіз келесі таңдалған эл. пошта адрестері үшін осы кілтті пайдалануға қабылдайсыз:
 openpgp-key-details-doc-title = Кілт қасиеттері
 openpgp-key-details-signatures-tab =
     .label = Сертификаттаулар
 openpgp-key-details-structure-tab =
     .label = Құрылымы
+openpgp-key-details-uid-certified-col =
+    .label = Пайдаланушы идентификаторы / Сертификатталған
 openpgp-key-details-key-id-label = Кілт идентификаторы
 openpgp-key-details-user-id3-label = Мәлімделген кілт иесі
 openpgp-key-details-id-label =
@@ -205,11 +240,13 @@ openpgp-key-details-id-label =
 openpgp-key-details-key-type-label = Түрі
 openpgp-key-details-key-part-label =
     .label = Кілт бөлімі
+openpgp-key-details-attr-ignored = Ескерту: бұл кілт күткендей жұмыс істемеуі мүмкін, себебі оның кейбір қасиеттері қауіпсіз емес және еленбеуі мүмкін.
 openpgp-key-details-attr-upgrade-sec = Қауіпсіз емес қасиеттерді жаңартуыңыз керек.
 openpgp-key-details-attr-upgrade-pub = Осы кілттің иесінен қауіпсіз емес қасиеттерді жаңартуды сұрауыңыз керек.
 openpgp-key-details-upgrade-unsafe =
     .label = Қауіпсіз емес қасиеттерді жаңарту
     .accesskey = с
+openpgp-key-details-upgrade-ok = Кілт сәтті жаңартылды. Сізге жаңартылған ашық кілтпен корреспонденттеріңізбен бөлісу керек.
 openpgp-key-details-algorithm-label =
     .label = Алгоритм
 openpgp-key-details-size-label =
@@ -223,6 +260,7 @@ openpgp-key-details-expiry-header = Жарамдылық мерзімі
 openpgp-key-details-usage-label =
     .label = Қолданылуы
 openpgp-key-details-fingerprint-label = Баспасы
+openpgp-key-details-legend-secret-missing = (!) белгісімен белгіленген кілттер үшін құпия кілт қолжетімді емес.
 openpgp-key-details-sel-action =
     .label = Әрекетті таңдау…
     .accesskey = к
@@ -236,6 +274,8 @@ openpgp-acceptance-undecided-label =
     .label = Қазір емес, мүмкін кейінірек.
 openpgp-acceptance-unverified-label =
     .label = Иә, бірақ мен оның дұрыс кілт екенін тексерген жоқпын.
+openpgp-acceptance-verified-label =
+    .label = Иә, мен бұл кілтте дұрыс баспасы бар екенін өзім растадым.
 openpgp-personal-no-label =
     .label = Жоқ, оны менің жеке кілтім ретінде пайдаланбау.
 openpgp-personal-yes-label =
