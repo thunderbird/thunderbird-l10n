@@ -102,6 +102,8 @@ openpgp-key-assistant-cancel-button = Hủy bỏ
 openpgp-key-assistant-back-button = Quay lại
 openpgp-key-assistant-accept-button = Chấp nhận
 openpgp-key-assistant-close-button = Đóng
+openpgp-key-assistant-disable-button = Tắt mã hóa
+openpgp-key-assistant-confirm-button = Gửi mã hóa
 # Variables:
 # $date (String) - The key creation date.
 openpgp-key-assistant-key-created = được tạo vào { $date }
