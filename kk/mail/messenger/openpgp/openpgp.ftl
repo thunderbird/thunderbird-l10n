@@ -290,6 +290,17 @@ openpgp-copy-cmd-label =
 
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-no-key = { -brand-short-name } ішінде <b>{ $identity }</b> үшін жеке OpenPGP кілті жоқ
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys =
+    { $count ->
+        [one] { -brand-short-name } <b>{ $identity }</b> тіркелу мәліметтерімен байланысқан { $count } жеке OpenPGP кілтін тапты
+       *[other] { -brand-short-name } <b>{ $identity }</b> тіркелу мәліметтерімен байланысқан { $count } жеке OpenPGP кілтін тапты
+    }
+#   $key (String) - the currently selected OpenPGP key
+openpgp-selection-status-have-key = Сіздің ағымдағы конфигурацияңыз <b>{ $key }</b> кілт идентификаторын пайдаланады
+#   $key (String) - the currently selected OpenPGP key
+openpgp-selection-status-error = Сіздің ағымдағы конфигурацияңыз мерзімі өтіп кеткен <b>{ $key }</b> кілтін пайдаланады.
 openpgp-add-key-button =
     .label = Кілтті қосу…
     .accesskey = о
@@ -302,6 +313,7 @@ openpgp-keygen-external-success = Сыртқы GnuPG кілт идентифик
 
 openpgp-radio-none =
     .label = Ешнәрсе
+openpgp-radio-none-desc = Бұл тіркелу мәліметтері үшін OpenPGP қолданбау.
 openpgp-radio-key-not-usable = Бұл кілт жеке кілт ретінде қолданылмайды, себебі құпия кілт жоқ!
 openpgp-radio-key-not-accepted = Бұл кілтті пайдалану үшін оны жеке кілт ретінде растауыңыз керек!
 openpgp-radio-key-not-found = Бұл кілт табылмады! Оны пайдаланғыңыз келсе, оны { -brand-short-name } ішіне импорттауыңыз керек.
@@ -380,12 +392,18 @@ import-info-title =
 import-info-bits = Бит
 import-info-created = Жасалған
 import-info-fpr = Баспасы
+import-info-details = Мәліметтерді қарау және кілтті қабылдауды басқару
 import-info-no-keys = Ешбір кілт импортталмаған.
 # Strings in enigmailKeyManager.js
 import-from-clip = Алмасу буферінен кейбір кілттерді импорттағыңыз келе ме?
+import-from-url = Осы URL адресінен ашық кілтті жүктеп алу:
 copy-to-clipbrd-failed = Таңдалған кілттерді алмасу буферіне көшіру мүмкін болмады.
 copy-to-clipbrd-ok = Кілт(тер) алмасу буферіне көшірілді
+delete-pub-key =
+    "{ $userId }"
+    ашық кілтін өшіргіңіз келе ме?
 delete-selected-pub-key = Ашық кілттерді өшіргіңіз келе ме?
+refresh-all-question = Сіз бірде-бір кілтті таңдаған жоқсыз. БАРЛЫҚ кілттерді жаңартқыңыз келе ме?
 key-man-button-export-sec-key = Же&ке кілттерді экспорттау
 key-man-button-export-pub-key = Тек а&шық кілттерді экспорттау
 key-man-button-refresh-all = &Барлық кілттерді жаңарту
@@ -410,6 +428,9 @@ openpgp-export-public-success = <b>Ашық кілт сәтті экспортт
 openpgp-export-public-fail = <b>Таңдалған ашық кілтті экспорттау мүмкін емес!</b>
 openpgp-export-secret-success = <b>Жеке кілт сәтті экспортталды!</b>
 openpgp-export-secret-fail = <b>Таңдалған жеке кілтті экспорттау мүмкін емес!</b>
+# Strings in keyObj.jsm
+key-ring-pub-key-revoked = { $userId } кілті (кілт идентификаторы { $keyId }) қайта шақырылған.
+key-ring-pub-key-expired = { $userId } кілтінің (кілт идентификаторы { $keyId }) мерзімі аяқталған.
 key-ring-no-secret-key = Сіздің кілттер бауыңызда { $userId } (кілт идентификаторы { $keyId }) жеке кілті жоқ сияқты; қолтаңба қою үшін кілтті пайдалана алмайсыз.
 key-ring-pub-key-not-for-signing = { $userId } кілтін (кілт идентификаторы { $keyId }) қолтаңба қою үшін пайдалану мүмкін емес.
 key-ring-pub-key-not-for-encryption = { $userId } кілтін (кілт идентификаторы { $keyId }) шифрлеу үшін пайдалану мүмкін емес.
