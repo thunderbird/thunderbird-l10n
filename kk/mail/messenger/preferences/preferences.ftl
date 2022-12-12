@@ -719,8 +719,18 @@ search-results-help-link = Көмек керек пе? <a data-l10n-name="url">{
 
 sync-signedout-caption = Өз интернетіңізді өзіңізбен бірге ұстаңыз
 sync-signedout-description = Тіркелгілер, адрестік кітапшалар, күнтізбелер, қосымшалар және баптауларды барлық құрылғыларыңыз арасында синхрондаңыз.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Синхрондау ішіне кіру…
 sync-pane-header = Синхрондау
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = "{ $userEmail }" расталмаған.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = "{ $userEmail }" қайта қосылу үшін жүйеге кіріңіз
+sync-pane-resend-verification = Растауды қайта жіберу
+sync-pane-sign-in = Кіру
+sync-pane-remove-account = Тіркелгіні өшіру
 sync-pane-edit-photo =
     .title = Профиль суретін ауыстыру
 sync-pane-manage-account = Тіркелгіні басқару

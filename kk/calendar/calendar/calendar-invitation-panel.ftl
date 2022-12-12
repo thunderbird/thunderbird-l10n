@@ -8,6 +8,12 @@ calendar-invitation-panel-intro = { $organizer } сізді шақырады:
 # Variables:
 # $organizer (String) - The participant that updated the original invitation.
 calendar-invitation-panel-intro-update = { $organizer } жаңартты:
+calendar-invitation-panel-status-new = Сіз бұл оқиғаға шақырылдыңыз
+calendar-invitation-panel-status-processed = Бұл оқиға күнтізбеңізге бұрыннан қосылған.
+calendar-invitation-panel-status-updateminor = Бұл хабарламада осы оқиғаға арналған жаңарту бар.
+calendar-invitation-panel-status-updatemajor = Бұл хабарламада осы оқиғаға арналған жаңарту бар. Сіз өз қатысуыңызды қайта растауыңыз керек.
+calendar-invitation-panel-status-cancelled = Бұл хабарламада осы оқиғаның күшін жоюы бар.
+calendar-invitation-panel-status-cancelled-notfound = Бұл хабарламада күнтізбеңізде табылмаған оқиғаның күшін жоюы бар.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } тоқтатты:
@@ -23,6 +29,11 @@ calendar-invitation-panel-accept-button = Иә
 calendar-invitation-panel-decline-button = Жоқ
 calendar-invitation-panel-tentative-button = Мүмкін
 calendar-invitation-panel-reply-status = * Сіз әлі шешім қабылдаған немесе жауап берген жоқсыз
+calendar-invitation-panel-more-button = Көбірек
+calendar-invitation-panel-menu-item-save =
+    .label = Күнтізбеге сақтау
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Өзгерістерді көрсету
 calendar-invitation-panel-prop-title-when = Қашан:
 calendar-invitation-panel-prop-title-location = Орналасуы:
 # Variables:
@@ -94,3 +105,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } күтуде
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } қатысушы
 calendar-invitation-panel-prop-title-attachments = Салынымдар:
+calendar-invitation-change-indicator-removed = Өшірілген
+calendar-invitation-change-indicator-added = Жаңа
+calendar-invitation-change-indicator-modified = Өзгертілген

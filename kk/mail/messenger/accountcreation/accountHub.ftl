@@ -14,3 +14,16 @@ account-hub-title = Тіркелгілер орталығы
 account-hub-release-notes = Шығарылым ескертпесі
 account-hub-support = Қолдау
 account-hub-donate = Демеушілік ету
+
+## Start page
+
+account-hub-email-button = Эл. пошта тіркелгісін баптау
+account-hub-new-email-button = Жаңа эл. пошта адресін алу
+account-hub-calendar-button = Күнтізбені баптау
+account-hub-address-book-button = Адрестік кітапшаны баптау
+account-hub-chat-button = Чатты баптау
+account-hub-feed-button = RSS таспасын баптау
+account-hub-newsgroup-button = Жаңалықтар тобын баптау
+account-hub-import-button = Профильді импорттау
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Синхрондау ішіне кіру…
