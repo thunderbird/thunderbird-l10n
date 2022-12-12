@@ -9,6 +9,11 @@ calendar-invitation-panel-intro = { $organizer } meghívta Önt a következőre:
 # $organizer (String) - The participant that updated the original invitation.
 calendar-invitation-panel-intro-update = { $organizer } frissítette:
 calendar-invitation-panel-status-new = Meghívták erre az eseményre.
+calendar-invitation-panel-status-processed = Ezt az eseményt már felvette a naptárába.
+calendar-invitation-panel-status-updateminor = Ez az üzenet egy frissítést tartalmaz ehhez az eseményhez.
+calendar-invitation-panel-status-updatemajor = Ez az üzenet egy frissítést tartalmaz ehhez az eseményhez. Újra meg kell erősíteni a részvételét.
+calendar-invitation-panel-status-cancelled = Ez az üzenet az esemény lemondását tartalmazza.
+calendar-invitation-panel-status-cancelled-notfound = Ez az üzenet egy olyan esemény lemondását tartalmazza, amely nem található a naptárában.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } lemondta:
@@ -24,6 +29,11 @@ calendar-invitation-panel-accept-button = Igen
 calendar-invitation-panel-decline-button = Nem
 calendar-invitation-panel-tentative-button = Talán
 calendar-invitation-panel-reply-status = * Még nem döntött vagy nem válaszolt
+calendar-invitation-panel-more-button = Több
+calendar-invitation-panel-menu-item-save =
+    .label = Mentés a naptárba
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Változások megjelenítése
 calendar-invitation-panel-prop-title-when = Mikor:
 calendar-invitation-panel-prop-title-location = Hely:
 # Variables:
@@ -95,3 +105,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } függőben
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } résztvevő
 calendar-invitation-panel-prop-title-attachments = Mellékletek:
+calendar-invitation-change-indicator-removed = Eltávolítva
+calendar-invitation-change-indicator-added = Új
+calendar-invitation-change-indicator-modified = Módosítva

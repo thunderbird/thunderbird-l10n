@@ -719,8 +719,18 @@ search-results-help-link = Segítségre van szüksége? Látogasson el ide: <a d
 
 sync-signedout-caption = Vigye magával a webet
 sync-signedout-description = Szinkronizálja fiókjait, címjegyzékeit, naptárait, kiegészítőit és beállításait minden eszközén.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Jelentkezzen be a szinkronizáláshoz…
 sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = A(z) „{ $userEmail }” nincs ellenőrizve.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Jelentkezzen be a következő újracsatlakoztatásához: „{ $userEmail }”
+sync-pane-resend-verification = Ellenőrző e-mail újraküldése
+sync-pane-sign-in = Bejelentkezés
+sync-pane-remove-account = Fiók eltávolítása
 sync-pane-edit-photo =
     .title = Profilkép módosítása
 sync-pane-manage-account = Fiók kezelése

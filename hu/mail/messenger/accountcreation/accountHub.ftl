@@ -14,3 +14,16 @@ account-hub-title = Fiókközpont
 account-hub-release-notes = Kiadási megjegyzések
 account-hub-support = Támogatás
 account-hub-donate = Adományozás
+
+## Start page
+
+account-hub-email-button = E-mail-fiók beállítása
+account-hub-new-email-button = Új e-mail-cím kérése
+account-hub-calendar-button = Naptár létrehozása
+account-hub-address-book-button = Címjegyzék létrehozása
+account-hub-chat-button = Csevegés létrehozása
+account-hub-feed-button = RSS-hírcsatorna létrehozása
+account-hub-newsgroup-button = Hírcsoport létrehozása
+account-hub-import-button = Profil importálása
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Jelentkezzen be a Syncbe…
