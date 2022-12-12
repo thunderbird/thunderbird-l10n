@@ -11,6 +11,9 @@ calendar-invitation-panel-intro-update = { $organizer } je posodobil/-a:
 calendar-invitation-panel-status-new = Povabljeni ste bili na ta dogodek.
 calendar-invitation-panel-status-processed = Ta dogodek je že dodan v vaš koledar.
 calendar-invitation-panel-status-updateminor = Sporočilo vsebuje posodobitev tega dogodka.
+calendar-invitation-panel-status-updatemajor = To sporočilo vsebuje posodobitev tega dogodka. Ponovno potrdite svojo udeležbo.
+calendar-invitation-panel-status-cancelled = Sporočilo vsebuje odpoved tega dogodka.
+calendar-invitation-panel-status-cancelled-notfound = To sporočilo vsebuje odpoved dogodka, ki ga ni najti v vašem koledarju.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } je preklical/-a:
@@ -26,6 +29,11 @@ calendar-invitation-panel-accept-button = Da
 calendar-invitation-panel-decline-button = Ne
 calendar-invitation-panel-tentative-button = Mogoče
 calendar-invitation-panel-reply-status = * Niste se še odločili ali odzvali
+calendar-invitation-panel-more-button = Več
+calendar-invitation-panel-menu-item-save =
+    .label = Shrani v koledar
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Pokaži spremembe
 calendar-invitation-panel-prop-title-when = Kdaj:
 calendar-invitation-panel-prop-title-location = Naslov:
 # Variables:
@@ -97,3 +105,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } brez odgovora
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } udeležencev
 calendar-invitation-panel-prop-title-attachments = Priponke:
+calendar-invitation-change-indicator-removed = Odstranjeno
+calendar-invitation-change-indicator-added = Novo
+calendar-invitation-change-indicator-modified = Spremenjeno

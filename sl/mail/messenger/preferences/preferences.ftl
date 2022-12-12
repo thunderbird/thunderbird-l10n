@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Lightning
 category-calendar =
     .tooltiptext = Lightning
+pane-sync-title = Sinhronizacija
+category-sync =
+    .tooltiptext = Sinhronizacija
 general-language-and-appearance-header = Jezik in videz
 general-incoming-mail-header = Dohodna pošta
 general-files-and-attachment-header = Datoteke in priponke
@@ -714,7 +717,15 @@ search-results-help-link = Potrebujete pomoč? Obiščite <a data-l10n-name="url
 
 ## Sync Tab
 
+sync-signedout-caption = Ponesite svoj splet s seboj
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Prijava v sinhronizacijo …
+sync-pane-header = Sinhronizacija
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = Naslov "{ $userEmail }" ni potrjen.
+sync-pane-sign-in = Prijava
+sync-pane-remove-account = Odstrani račun
 sync-pane-edit-photo =
     .title = Spremeni sliko profila
 sync-pane-manage-account = Upravljanje računa
