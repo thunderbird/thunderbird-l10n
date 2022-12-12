@@ -473,6 +473,7 @@ key-trust-ultimate = шексіз
 key-trust-group = (топ)
 # Strings used in commonWorkflows.js
 import-key-file = OpenPGP кілт файлын импорттау
+import-rev-file = OpenPGP қайта шақыру файлын импорттау
 gnupg-file = GnuPGфайлдары
 import-keys-failed = Кілттерді импорттау сәтсіз аяқталды
 file-to-big-to-import = Бұл файл тым үлкен. Кілттердің үлкен жинағын бірден импорттамаңыз.
