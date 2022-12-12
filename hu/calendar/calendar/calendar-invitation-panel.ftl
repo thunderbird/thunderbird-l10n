@@ -8,6 +8,7 @@ calendar-invitation-panel-intro = { $organizer } meghívta Önt a következőre:
 # Variables:
 # $organizer (String) - The participant that updated the original invitation.
 calendar-invitation-panel-intro-update = { $organizer } frissítette:
+calendar-invitation-panel-status-new = Meghívták erre az eseményre.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } lemondta:
