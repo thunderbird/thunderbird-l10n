@@ -8,6 +8,12 @@ calendar-invitation-panel-intro = { $organizer } đã mời bạn đến:
 # Variables:
 # $organizer (String) - The participant that updated the original invitation.
 calendar-invitation-panel-intro-update = { $organizer } đã cập nhật:
+calendar-invitation-panel-status-new = Bạn đã được mời đến sự kiện này.
+calendar-invitation-panel-status-processed = Sự kiện này đã được thêm vào lịch của bạn.
+calendar-invitation-panel-status-updateminor = Thư này chứa một bản cập nhật cho sự kiện này.
+calendar-invitation-panel-status-updatemajor = Thư này chứa một bản cập nhật cho sự kiện này. Bạn nên xác nhận lại quyết định tham dự của bạn.
+calendar-invitation-panel-status-cancelled = Thư này chứa yêu cầu hủy bỏ sự kiện này.
+calendar-invitation-panel-status-cancelled-notfound = Thư này chứa thông báo hủy một sự kiện không tìm thấy trên lịch của bạn.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } đã hủy:
@@ -23,6 +29,11 @@ calendar-invitation-panel-accept-button = Có
 calendar-invitation-panel-decline-button = Không
 calendar-invitation-panel-tentative-button = Phân vân
 calendar-invitation-panel-reply-status = * Bạn vẫn chưa quyết định hoặc chưa trả lời
+calendar-invitation-panel-more-button = Thêm
+calendar-invitation-panel-menu-item-save =
+    .label = Lưu vào lịch
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Hiển thị thay đổi
 calendar-invitation-panel-prop-title-when = Lúc:
 calendar-invitation-panel-prop-title-location = Địa chỉ:
 # Variables:
@@ -94,3 +105,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } đang chờ xử l�
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } người tham dự
 calendar-invitation-panel-prop-title-attachments = Đính kèm:
+calendar-invitation-change-indicator-removed = Đã xóa
+calendar-invitation-change-indicator-added = Mới
+calendar-invitation-change-indicator-modified = Đã thay đổi

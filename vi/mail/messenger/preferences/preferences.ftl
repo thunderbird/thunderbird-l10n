@@ -719,8 +719,18 @@ search-results-help-link = Cần trợ giúp? Đi đến <a data-l10n-name="url"
 
 sync-signedout-caption = Mang trang web theo bạn
 sync-signedout-description = Đồng bộ hóa tài khoản, sổ địa chỉ, lịch, tiện ích mở rộng và cài đặt trên tất cả các thiết bị của bạn.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Đăng nhập để đồng bộ hóa…
 sync-pane-header = Đồng bộ hóa
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” chưa được xác minh.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Vui lòng đăng nhập để kết nối lại “{ $userEmail }”
+sync-pane-resend-verification = Gửi lại xác minh
+sync-pane-sign-in = Đăng nhập
+sync-pane-remove-account = Xóa tài khoản
 sync-pane-edit-photo =
     .title = Đổi hình hồ sơ
 sync-pane-manage-account = Quản lý tài khoản

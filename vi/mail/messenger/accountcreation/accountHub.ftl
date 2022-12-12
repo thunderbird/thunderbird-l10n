@@ -14,3 +14,16 @@ account-hub-title = Trung tâm tài khoản
 account-hub-release-notes = Ghi chú phát hành
 account-hub-support = Hỗ trợ
 account-hub-donate = Quyên góp
+
+## Start page
+
+account-hub-email-button = Thiết lập tài khoản email
+account-hub-new-email-button = Tạo một địa chỉ email mới
+account-hub-calendar-button = Thiết lập lịch
+account-hub-address-book-button = Thiết lập sổ địa chỉ
+account-hub-chat-button = Thiết lập trò chuyện
+account-hub-feed-button = Thiết lập nguồn cấp dữ liệu RSS
+account-hub-newsgroup-button = Thiết lập nhóm tin
+account-hub-import-button = Nhập hồ sơ
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Đăng nhập để đồng bộ hóa…
