@@ -23,6 +23,7 @@ calendar-invitation-panel-accept-button = Sí
 calendar-invitation-panel-decline-button = No
 calendar-invitation-panel-tentative-button = Tal vez
 calendar-invitation-panel-reply-status = * Aún no has decidido ni respondido
+calendar-invitation-panel-more-button = Más
 calendar-invitation-panel-prop-title-when = Cuándo:
 calendar-invitation-panel-prop-title-location = Ubicación:
 # Variables:

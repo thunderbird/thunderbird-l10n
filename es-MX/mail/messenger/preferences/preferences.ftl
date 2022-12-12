@@ -719,8 +719,11 @@ search-results-help-link = ¿Necesitas ayuda? Visita el soporte de <a data-l10n-
 
 sync-signedout-caption = Lleva la Web contigo
 sync-signedout-description = Sincroniza tus cuentas, libretas de direcciones, calendarios, complementos, y ajustes en todos tus dispositivos.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Iniciar sesión para sincronizar...
 sync-pane-header = Sincronizar
+sync-pane-sign-in = Iniciar sesión
+sync-pane-remove-account = Eliminar cuenta
 sync-pane-edit-photo =
     .title = Cambiar imagen de perfil
 sync-pane-manage-account = Administrar cuenta
