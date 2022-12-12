@@ -14,3 +14,16 @@ account-hub-title = Središče za račune
 account-hub-release-notes = Opombe ob izdaji
 account-hub-support = Podpora
 account-hub-donate = Donirajte
+
+## Start page
+
+account-hub-email-button = Nastavi račun za e-pošto
+account-hub-new-email-button = Pridobi nov e-poštni naslov
+account-hub-calendar-button = Nastavi koledar
+account-hub-address-book-button = Nastavi imenik
+account-hub-chat-button = Nastavi klepet
+account-hub-feed-button = Nastavi vir RSS
+account-hub-newsgroup-button = Nastavi novičarsko skupino
+account-hub-import-button = Uvozi profil
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Prijava v sinhronizacijo …
