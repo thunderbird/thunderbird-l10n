@@ -8,6 +8,11 @@ calendar-invitation-panel-intro = { $organizer } te invitava a:
 # Variables:
 # $organizer (String) - The participant that updated the original invitation.
 calendar-invitation-panel-intro-update = { $organizer } ha actualisate:
+calendar-invitation-panel-status-new = Tu ha essite invitate a iste evento.
+calendar-invitation-panel-status-processed = Le evento ha jam essite addite a tu agenda.
+calendar-invitation-panel-status-updateminor = Iste message contine un actualisation pro iste evento.
+calendar-invitation-panel-status-cancelled = Iste message contine un cancellation de iste evento.
+calendar-invitation-panel-status-cancelled-notfound = Iste message contine le cancellation de un evento non trovate in tu agenda.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } ha cancellate:
@@ -23,6 +28,11 @@ calendar-invitation-panel-accept-button = Si
 calendar-invitation-panel-decline-button = No
 calendar-invitation-panel-tentative-button = Forsan
 calendar-invitation-panel-reply-status = * Tu ancora non decideva o respondeva
+calendar-invitation-panel-more-button = Plus
+calendar-invitation-panel-menu-item-save =
+    .label = Salvar in agenda
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Monstrar le cambiamentos
 calendar-invitation-panel-prop-title-when = Quando:
 calendar-invitation-panel-prop-title-location = Loco:
 # Variables:
@@ -94,3 +104,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } pendente
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } participantes
 calendar-invitation-panel-prop-title-attachments = Annexos:
+calendar-invitation-change-indicator-removed = Removite
+calendar-invitation-change-indicator-added = Nove
+calendar-invitation-change-indicator-modified = Cambiate

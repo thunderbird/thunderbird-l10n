@@ -14,3 +14,14 @@ account-hub-title = Hub de contos
 account-hub-release-notes = Notas de version
 account-hub-support = Supporto
 account-hub-donate = Donar
+
+## Start page
+
+account-hub-email-button = Crear un conto email
+account-hub-new-email-button = Obtene un nove adresse email
+account-hub-calendar-button = Crear agenda
+account-hub-address-book-button = Crear libro del adresses
+account-hub-chat-button = Crear chat
+account-hub-import-button = Importar profilo
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Connecter se a Sync…

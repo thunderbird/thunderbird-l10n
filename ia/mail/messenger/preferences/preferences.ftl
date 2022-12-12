@@ -719,8 +719,18 @@ search-results-help-link = Require adjuta? Visita <a data-l10n-name="url">Assist
 
 sync-signedout-caption = Porta le web con te
 sync-signedout-description = Synchronisa tu contos, libros de adresses, agendas, additivos e parametros inter tote tu apparatos.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Accede pro synchronisar…
 sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” non es verificate.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Accede pro reconnecter “{ $userEmail }”
+sync-pane-resend-verification = Reinviar le verification
+sync-pane-sign-in = Acceder
+sync-pane-remove-account = Remover le conto
 sync-pane-edit-photo =
     .title = Cambiar le imagine del profilo
 sync-pane-manage-account = Gerer le conto
