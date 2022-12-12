@@ -437,12 +437,18 @@ key-ring-pub-key-not-for-encryption = { $userId } кілтін (кілт иде�
 # Strings in gnupg-keylist.jsm
 keyring-photo = Фото
 user-att-photo = Пайдаланушы атрибуты (JPEG суреті)
+# Strings in key.jsm
+already-revoked = Бұл кілт қайта шақырылған.
+key-man-button-revoke-key = Кілтті қайта шақы&ру
+openpgp-key-revoke-success = Кілт сәтті қайта шақырылды.
 # Strings in keyRing.jsm & decryption.jsm
 key-man-button-import = &Импорттау
 delete-key-title = OpenPGP кілтін өшіру
 delete-external-key-title = Сыртқы GnuPG кілтін өшіру
 delete-external-key-description = Осы сыртқы GnuPG кілт идентификаторын өшіргіңіз келе ме?
 key-in-use-title = OpenPGP кілті қазір қолданылуда
+# Strings used in errorHandling.jsm
+key-error-key-spec-not-found = "{ $keySpec }" эл. пошта адресін кілт бауыңыздағы ешбір кілтпен сәйкестендіру мүмкін емес.
 no-update-found = Онлайн табылған кілттер сізде бар болып тұр.
 # Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 fail-key-extract = Қате - кілтті шығару командасы сәтсіз аяқталды
