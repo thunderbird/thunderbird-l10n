@@ -8,6 +8,12 @@ calendar-invitation-panel-intro = { $organizer } hefur boðið þér að:
 # Variables:
 # $organizer (String) - The participant that updated the original invitation.
 calendar-invitation-panel-intro-update = { $organizer } hefur uppfært:
+calendar-invitation-panel-status-new = Þér hefur verið boðið á þennan atburð.
+calendar-invitation-panel-status-processed = Búið er að bæta við atburðinum í dagatalið.
+calendar-invitation-panel-status-updateminor = Þessi skilaboð innihalda uppfærslu á þessum atburði.
+calendar-invitation-panel-status-updatemajor = Þessi skilaboð innihalda uppfærslu fyrir þennan atburð. Þú ættir að staðfesta mætingu þína aftur.
+calendar-invitation-panel-status-cancelled = Þessi skilaboð innihalda afboðun fyrir þennan atburð.
+calendar-invitation-panel-status-cancelled-notfound = Þessi skilaboð innihalda afboðun fyrir atburð sem er ekki í dagatalinu þínu.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } hefur hætt við:
@@ -23,6 +29,11 @@ calendar-invitation-panel-accept-button = Já
 calendar-invitation-panel-decline-button = Nei
 calendar-invitation-panel-tentative-button = Kannski
 calendar-invitation-panel-reply-status = * Þú hefur ekki ákveðið eða svarað ennþá
+calendar-invitation-panel-more-button = Meira
+calendar-invitation-panel-menu-item-save =
+    .label = Vista í dagatal
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Sýna breytingar
 calendar-invitation-panel-prop-title-when = Hvenær:
 calendar-invitation-panel-prop-title-location = Staðsetning:
 # Variables:
@@ -94,3 +105,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } í bið
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } þátttakendur
 calendar-invitation-panel-prop-title-attachments = Viðhengi:
+calendar-invitation-change-indicator-removed = Fjarlægt
+calendar-invitation-change-indicator-added = Nýtt
+calendar-invitation-change-indicator-modified = Breytt

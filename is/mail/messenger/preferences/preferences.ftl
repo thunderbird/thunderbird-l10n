@@ -719,8 +719,18 @@ search-results-help-link = Þarftu aðstoð? Skoðaðu <a data-l10n-name="url">{
 
 sync-signedout-caption = Taktu vefinn með þér
 sync-signedout-description = Samstilltu reikningana þína, nafnaskrár, dagatöl, viðbætur og stillingar á öllum tækjunum þínum.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Skráðu inn til að samstilla…
 sync-pane-header = Samstiling
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = "{ $email }" er ekki staðfest.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Skráðu þig inn til að endurtengja „{ $userEmail }“
+sync-pane-resend-verification = Endursenda staðfestingu
+sync-pane-sign-in = Skrá inn
+sync-pane-remove-account = Fjarlægja reikning
 sync-pane-edit-photo =
     .title = Breyta notandamynd
 sync-pane-manage-account = Sýsla með reikning
