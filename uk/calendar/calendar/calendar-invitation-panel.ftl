@@ -5,9 +5,12 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } запрошує вас:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } оновлює:
+calendar-invitation-panel-status-new = Вас запросили на цю подію.
+calendar-invitation-panel-status-processed = Цю подію вже додано до вашого календаря.
+calendar-invitation-panel-status-updateminor = Це повідомлення містить оновлення для цієї події.
+calendar-invitation-panel-status-updatemajor = Це повідомлення містить оновлення для цієї події. Вам необхідно повторно погодитися на неї.
+calendar-invitation-panel-status-cancelled = Це повідомлення містить скасування цієї події.
+calendar-invitation-panel-status-cancelled-notfound = Це повідомлення містить скасування події, якої немає у вашому календарі.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } скасовує:
@@ -15,7 +18,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } скасовує:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Зберегти
-calendar-invitation-panel-save-button = Зберегти
 calendar-invitation-panel-view-button = Переглянути
 calendar-invitation-panel-update-button = Оновити
 calendar-invitation-panel-delete-button = Видалити
@@ -23,6 +25,11 @@ calendar-invitation-panel-accept-button = Так
 calendar-invitation-panel-decline-button = Ні
 calendar-invitation-panel-tentative-button = Можливо
 calendar-invitation-panel-reply-status = * Ви ще не вирішили або не відповіли
+calendar-invitation-panel-more-button = Більше
+calendar-invitation-panel-menu-item-save =
+    .label = Зберегти в календарі
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Показати зміни
 calendar-invitation-panel-prop-title-when = Коли:
 calendar-invitation-panel-prop-title-location = Розташування:
 # Variables:
@@ -94,3 +101,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } очікує на �
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } учасників
 calendar-invitation-panel-prop-title-attachments = Вкладення:
+calendar-invitation-change-indicator-removed = Вилучено
+calendar-invitation-change-indicator-added = Нове
+calendar-invitation-change-indicator-modified = Змінено

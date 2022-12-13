@@ -715,8 +715,18 @@ search-results-help-link = Потрібна допомога? Відвідайт
 
 sync-signedout-caption = Візьміть свій інтернет з собою
 sync-signedout-description = Синхронізуйте свої облікові записи, адресні книги, календарі, додатки та налаштування на всіх пристроях.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Увійти до синхронізації…
 sync-pane-header = Синхронізація
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” не підтверджено.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Увійдіть, щоб повторно під'єднати “{ $userEmail }”
+sync-pane-resend-verification = Повторно надіслати підтвердження
+sync-pane-sign-in = Увійти
+sync-pane-remove-account = Видалити обліковий запис
 sync-pane-edit-photo =
     .title = Змінити зображення профілю
 sync-pane-manage-account = Керувати обліковим записом

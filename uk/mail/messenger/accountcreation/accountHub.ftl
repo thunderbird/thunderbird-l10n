@@ -14,3 +14,19 @@ account-hub-title = Центр облікових записів
 account-hub-release-notes = Примітки до випуску
 account-hub-support = Підтримка
 account-hub-donate = Зробити внесок
+
+## Start page
+
+account-hub-email-button = Налаштувати обліковий запис електронної пошти
+account-hub-new-email-button = Отримати нову електронну адресу
+account-hub-calendar-button = Налаштувати календар
+account-hub-address-book-button = Налаштувати адресну книгу
+account-hub-chat-button = Налаштувати чат
+account-hub-feed-button = Налаштувати RSS-канал
+account-hub-newsgroup-button = Налаштувати групу новин
+account-hub-import-button = Імпорт профілю
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Увійти до Синхронізації…
+
+## Email page
+
