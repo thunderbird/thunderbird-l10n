@@ -112,8 +112,17 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Finna lykla á netinu
     .accesskey = F
+openpgp-key-man-publish-cmd =
+    .label = Gefa út
+    .accesskey = G
 openpgp-key-man-discover-prompt = Til að finna OpenPGP-lykla á netinu, á lyklaþjónum eða með því að nota WKD-samskiptareglur skaltu annað hvort setja inn póstfang eða auðkenni lykils.
 openpgp-key-man-discover-progress = Leitar…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Opinber dreifilykill sendur á "{ $keyserver }".
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Mistókst að senda opinbera dreifilykilinn þinn til "{ $keyserver }".
 openpgp-key-copy-key =
     .label = Afrita dreifilykil
     .accesskey = f

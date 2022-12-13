@@ -27,3 +27,11 @@ account-hub-newsgroup-button = Settu upp fréttahóp
 account-hub-import-button = Flytja inn notandasnið
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Skráðu þig inn til að samstilla…
+
+## Email page
+
+account-hub-email-title = Settu upp tölvupóstreikninginn þinn
+account-hub-email-cancel-button = Hætta við
+account-hub-email-back-button = Til baka
+account-hub-email-continue-button = Halda áfram
+account-hub-email-confirm-button = Staðfesta
