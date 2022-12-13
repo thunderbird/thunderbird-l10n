@@ -719,8 +719,18 @@ search-results-help-link = 需要幫忙嗎？請到 <a data-l10n-name="url">{ -b
 
 sync-signedout-caption = 把 Web 隨身帶著走
 sync-signedout-description = 在您所有裝置間同步帳號設定、通訊錄、行事曆、附加元件與各種選項。
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = 登入進行同步…
 sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = 「{ $userEmail }」未驗證。
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = 請登入以重新連線到「{ $userEmail }」
+sync-pane-resend-verification = 重寄驗證信
+sync-pane-sign-in = 登入
+sync-pane-remove-account = 移除帳號
 sync-pane-edit-photo =
     .title = 更改個人資料照片
 sync-pane-manage-account = 管理帳號

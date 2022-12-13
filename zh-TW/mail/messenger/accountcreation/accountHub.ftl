@@ -14,3 +14,16 @@ account-hub-title = 帳號中心
 account-hub-release-notes = 發行公告
 account-hub-support = 技術支援
 account-hub-donate = 捐款
+
+## Start page
+
+account-hub-email-button = 設定電子郵件帳號
+account-hub-new-email-button = 取得新的電子郵件地址
+account-hub-calendar-button = 設定行事曆
+account-hub-address-book-button = 設定通訊錄
+account-hub-chat-button = 設定聊天帳號
+account-hub-feed-button = 設定 RSS 資訊來源
+account-hub-newsgroup-button = 設定新聞群組
+account-hub-import-button = 匯入設定檔
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = 登入至 Sync…
