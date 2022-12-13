@@ -8,6 +8,9 @@ calendar-invitation-panel-intro = { $organizer } 已邀請您參加:
 # Variables:
 # $organizer (String) - The participant that updated the original invitation.
 calendar-invitation-panel-intro-update = { $organizer } 已更新:
+calendar-invitation-panel-status-new = 您已受邀參加此事件。
+calendar-invitation-panel-status-processed = 此事件已存在於您的行事曆。
+calendar-invitation-panel-status-updateminor = 本訊息中包含此事件的更新內容。
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } 已取消:
