@@ -731,8 +731,18 @@ search-results-help-link = Hulp nodig? Bezoek <a data-l10n-name="url">{ -brand-s
 
 sync-signedout-caption = Neem uw web mee
 sync-signedout-description = Synchroniseer uw accounts, adresboeken, agenda’s, add-ons en instellingen op al uw apparaten.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Aanmelden om te synchroniseren…
 sync-pane-header = Synchronisatie
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = ‘{ $userEmail }’ is niet geverifieerd.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Meld u aan om opnieuw te verbinden met ‘{ $userEmail }’
+sync-pane-resend-verification = Verificatie opnieuw verzenden
+sync-pane-sign-in = Aanmelden
+sync-pane-remove-account = Account verwijderen
 sync-pane-edit-photo =
     .title = Profielafbeelding wijzigen
 sync-pane-manage-account = Account beheren

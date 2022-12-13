@@ -14,3 +14,16 @@ account-hub-title = Accounthub
 account-hub-release-notes = Uitgaveopmerkingen
 account-hub-support = Ondersteuning
 account-hub-donate = Doneren
+
+## Start page
+
+account-hub-email-button = E-mailaccount instellen
+account-hub-new-email-button = Een nieuw e-mailadres aanvragen
+account-hub-calendar-button = Agenda instellen
+account-hub-address-book-button = Adresboek instellen
+account-hub-chat-button = Chat instellen
+account-hub-feed-button = RSS-feed instellen
+account-hub-newsgroup-button = Nieuwsgroep instellen
+account-hub-import-button = Profiel importeren
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Aanmelden bij Synchronisatie…

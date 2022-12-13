@@ -8,6 +8,12 @@ calendar-invitation-panel-intro = { $organizer } heeft u uitgenodigd voor:
 # Variables:
 # $organizer (String) - The participant that updated the original invitation.
 calendar-invitation-panel-intro-update = { $organizer } heeft bijgewerkt:
+calendar-invitation-panel-status-new = U bent uitgenodigd voor deze gebeurtenis.
+calendar-invitation-panel-status-processed = Deze gebeurtenis is al aan uw agenda toegevoegd.
+calendar-invitation-panel-status-updateminor = Dit bericht bevat een update voor deze gebeurtenis.
+calendar-invitation-panel-status-updatemajor = Dit bericht bevat een update voor deze gebeurtenis. U dient uw aanwezigheid opnieuw te bevestigen.
+calendar-invitation-panel-status-cancelled = Dit bericht bevat een annulering voor deze gebeurtenis.
+calendar-invitation-panel-status-cancelled-notfound = Dit bericht bevat een annulering voor een gebeurtenis die niet in uw agenda staat.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } heeft geannuleerd:
@@ -23,6 +29,11 @@ calendar-invitation-panel-accept-button = Ja
 calendar-invitation-panel-decline-button = Nee
 calendar-invitation-panel-tentative-button = Misschien
 calendar-invitation-panel-reply-status = * U hebt nog niet besloten of gereageerd
+calendar-invitation-panel-more-button = Meer
+calendar-invitation-panel-menu-item-save =
+    .label = In agenda opslaan
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Wijzigingen tonen
 calendar-invitation-panel-prop-title-when = Wanneer:
 calendar-invitation-panel-prop-title-location = Locatie:
 # Variables:
@@ -94,3 +105,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } in behandeling
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } deelnemers
 calendar-invitation-panel-prop-title-attachments = Bijlagen:
+calendar-invitation-change-indicator-removed = Verwijderd
+calendar-invitation-change-indicator-added = Nieuw
+calendar-invitation-change-indicator-modified = Gewijzigd
