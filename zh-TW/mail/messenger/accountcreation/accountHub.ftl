@@ -27,3 +27,11 @@ account-hub-newsgroup-button = 設定新聞群組
 account-hub-import-button = 匯入設定檔
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = 登入至 Sync…
+
+## Email page
+
+account-hub-email-title = 設定您的電子郵件帳號
+account-hub-email-cancel-button = 取消
+account-hub-email-back-button = 上一頁
+account-hub-email-continue-button = 繼續
+account-hub-email-confirm-button = 確認
