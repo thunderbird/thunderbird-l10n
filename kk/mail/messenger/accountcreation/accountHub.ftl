@@ -27,3 +27,11 @@ account-hub-newsgroup-button = Жаңалықтар тобын баптау
 account-hub-import-button = Профильді импорттау
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Синхрондау ішіне кіру…
+
+## Email page
+
+account-hub-email-title = Эл. пошта тіркелгіңізді баптау
+account-hub-email-cancel-button = Бас тарту
+account-hub-email-back-button = Артқа
+account-hub-email-continue-button = Жалғастыру
+account-hub-email-confirm-button = Растау

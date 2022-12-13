@@ -22,6 +22,9 @@ e2e-attach-key =
 e2e-encrypt-subject =
     .label = OpenPGP хабарламаларының тақырыбын шифрлеу
     .accesskey = б
+e2e-encrypt-drafts =
+    .label = Шимай қағаз хабарламаларын шифрленген түрде сақтау
+    .accesskey = р
 openpgp-key-user-id-label = Тіркелгі / Пайдаланушы идентификаторы
 openpgp-keygen-title-label =
     .title = OpenPGP кілтін генерациялау
@@ -109,8 +112,17 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Кілттерді Интернеттен іздеу
     .accesskey = д
+openpgp-key-man-publish-cmd =
+    .label = Жариялау
+    .accesskey = и
 openpgp-key-man-discover-prompt = OpenPGP кілттерін Интернетте, кілттер серверлерінде немесе WKD хаттамасы пайдалану арқылы табу үшін эл. пошта адресін немесе кілт идентификаторын енгізіңіз.
 openpgp-key-man-discover-progress = Іздеу…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Ашық кілт "{ $keyserver }" серверіне жіберілді.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Ашық кілтті "{ $keyserver }" серверіне жіберу сәтсіз аяқталды.
 openpgp-key-copy-key =
     .label = Ашық кілтті көшіру
     .accesskey = к
@@ -383,9 +395,19 @@ converter-decrypt-body-failed =
     Басқа кілттік фразамен әрекетті қайталау керек пе, немесе хабарламаны өткізіп жіберу керек пе?
 # Strings filters.jsm
 filter-folder-required = Мақсат буманы таңдауыңыз керек.
+filter-decrypt-move-warn-experimental =
+    Ескерту - "Тұрақты дешифрлеу" сүзгі әрекеті жойылған хабарларламаларға әкеп соғуы мүмкін.
+    Алдымен "Дешифрленген көшірмесін жасау" сүзгісін қолданып, нәтижені мұқият тексеру және нәтижеге қанағаттанғаннан кейін ғана осы сүзгіні пайдаланып бастауды ұсынамыз.
 filter-term-pgpencrypted-label = OpenPGP көмегімен шифрленген
 filter-key-required = Сіз алушы кілтін таңдауыңыз керек.
 filter-key-not-found = ‘{ $desc }’ үшін шифрлеу кілті табылмады.
+filter-warn-key-not-secret =
+    Ескерту - "Кілтпен шифрлеу" сүзгі әрекеті алушыларды ауыстырады.
+    Егер сізде "{ $desc }" үшін құпия кілті болмаса, сіз эл. пошта хабарламаларын оқи алмайтын боласыз.
+# Strings filtersWrapper.jsm
+filter-decrypt-move-label = Тұрақты дешифрлеу (OpenPGP)
+filter-decrypt-copy-label = Дешифрленген көшірмесін жасау (OpenPGP)
+filter-encrypt-label = Кілтпен шифрлеу (OpenPGP)
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = Кілттер сәтті импортталды
@@ -434,6 +456,10 @@ key-ring-pub-key-expired = { $userId } кілтінің (кілт идентиф
 key-ring-no-secret-key = Сіздің кілттер бауыңызда { $userId } (кілт идентификаторы { $keyId }) жеке кілті жоқ сияқты; қолтаңба қою үшін кілтті пайдалана алмайсыз.
 key-ring-pub-key-not-for-signing = { $userId } кілтін (кілт идентификаторы { $keyId }) қолтаңба қою үшін пайдалану мүмкін емес.
 key-ring-pub-key-not-for-encryption = { $userId } кілтін (кілт идентификаторы { $keyId }) шифрлеу үшін пайдалану мүмкін емес.
+key-ring-sign-sub-keys-revoked = { $userId } кілті (кілт идентификаторы { $keyId }) үшін барлық қолтаңба қоятын ішкі кілттері қайта шақырылған.
+key-ring-sign-sub-keys-expired = { $userId } кілті (кілт идентификаторы { $keyId }) үшін барлық қолтаңба қоятын ішкі кілттерінің мерзімі аяқталған.
+key-ring-enc-sub-keys-revoked = { $userId } кілті (кілт идентификаторы { $keyId }) үшін барлық шифрлейтін ішкі кілттері қайта шақырылған.
+key-ring-enc-sub-keys-expired = { $userId } кілті (кілт идентификаторы { $keyId }) үшін барлық шифрлейтін ішкі кілттерінің мерзімі аяқталған.
 # Strings in gnupg-keylist.jsm
 keyring-photo = Фото
 user-att-photo = Пайдаланушы атрибуты (JPEG суреті)
@@ -447,6 +473,8 @@ delete-key-title = OpenPGP кілтін өшіру
 delete-external-key-title = Сыртқы GnuPG кілтін өшіру
 delete-external-key-description = Осы сыртқы GnuPG кілт идентификаторын өшіргіңіз келе ме?
 key-in-use-title = OpenPGP кілті қазір қолданылуда
+delete-key-in-use-description = Жалғастыру мүмкін емес! Өшіру үшін таңдалған кілт қазір осы тіркелгімен пайдаланылуда. Басқа кілтті таңдаңыз немесе ешқайсысын таңдамай, әрекетті қайталаңыз.
+revoke-key-in-use-description = Жалғастыру мүмкін емес! Қайта шақыру үшін таңдалған кілт қазір осы тіркелгімен пайдаланылуда. Басқа кілтті таңдаңыз немесе ешқайсысын таңдамай, әрекетті қайталаңыз.
 # Strings used in errorHandling.jsm
 key-error-key-spec-not-found = "{ $keySpec }" эл. пошта адресін кілт бауыңыздағы ешбір кілтпен сәйкестендіру мүмкін емес.
 # Strings used in keyRing.jsm & keyLookupHelper.jsm
