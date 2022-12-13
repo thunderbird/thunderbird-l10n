@@ -14,3 +14,16 @@ account-hub-title = Kontocenter
 account-hub-release-notes = Versionsfakta
 account-hub-support = Support
 account-hub-donate = Donera
+
+## Start page
+
+account-hub-email-button = Konfigurera e-postkonto
+account-hub-new-email-button = Skapa en ny e-postadress
+account-hub-calendar-button = Ställ in en kalender
+account-hub-address-book-button = Ställ in adressboken
+account-hub-chat-button = Ställ in chatt
+account-hub-feed-button = Ställ in RSS-flöde
+account-hub-newsgroup-button = Ställ in nyhetsgrupp
+account-hub-import-button = Importera profil
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Logga in för att synkronisera…

@@ -715,8 +715,18 @@ search-results-help-link = Behöver du hjälp? <a data-l10n-name="url">{ -brand-
 
 sync-signedout-caption = Ta med dig webben
 sync-signedout-description = Synkronisera dina konton, adressböcker, kalendrar, tillägg och inställningar på alla dina enheter.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Logga in för att synkronisera…
 sync-pane-header = Synkronisera
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = "{ $userEmail }" är inte verifierad.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Logga in för att återansluta "{ $userEmail }"
+sync-pane-resend-verification = Skicka verifiering igen
+sync-pane-sign-in = Logga in
+sync-pane-remove-account = Ta bort konto
 sync-pane-edit-photo =
     .title = Ändra profilbild
 sync-pane-manage-account = Hantera konto
