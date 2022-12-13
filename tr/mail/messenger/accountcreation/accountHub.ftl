@@ -14,3 +14,11 @@ account-hub-title = Hesap merkezi
 account-hub-release-notes = Sürüm notları
 account-hub-support = Destek
 account-hub-donate = Bağış yapın
+
+## Start page
+
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Eşitlemek için giriş yap…
+
+## Email page
+

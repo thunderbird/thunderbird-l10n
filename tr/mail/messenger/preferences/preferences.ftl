@@ -717,8 +717,15 @@ search-results-help-link = Yardım mı gerekiyor? <a data-l10n-name="url">{ -bra
 
 sync-signedout-caption = Web’inizi yanınızda taşıyın
 sync-signedout-description = Hesaplarınızı, adres defterlerinizi, takvimlerinizi, eklentilerinizi ve ayarlarınızı tüm cihazlarınız arasında senkronize edin.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Eşitlemek için giriş yap…
 sync-pane-header = Eşitle
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” doğrulanmamış.
+sync-pane-resend-verification = Doğrulamayı yeniden gönder
+sync-pane-sign-in = Giriş yap
+sync-pane-remove-account = Hesabı kaldır
 sync-pane-edit-photo =
     .title = Profil resmini değiştir
 sync-pane-manage-account = Hesabı yönet
@@ -739,6 +746,7 @@ show-synced-item-calendar = Takvimler
 show-synced-item-identity = Kimlikler
 show-synced-change = Değiştir…
 synced-acount-item-server-config = Sunucu yapılandırması
+synced-acount-item-filters = Süzgeçler
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = E-postalarınızı, adres defterlerinizi, takvimlerinizi ve kimliklerinizi tüm cihazlarınız arasında senkronize edin.
 sync-disconnected-turn-on-sync = Eşitlemeyi aç…

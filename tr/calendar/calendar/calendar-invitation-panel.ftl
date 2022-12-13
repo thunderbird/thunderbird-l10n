@@ -5,9 +5,11 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } sizi davet etti:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } güncelledi:
+calendar-invitation-panel-status-new = Bu etkinliğe davet edildiniz.
+calendar-invitation-panel-status-processed = Bu etkinlik zaten takviminize eklendi.
+calendar-invitation-panel-status-updateminor = Bu ileti, bu etkinlik için bir güncelleme içeriyor.
+calendar-invitation-panel-status-cancelled = Bu ileti, bu etkinlik için bir iptal içeriyor.
+calendar-invitation-panel-status-cancelled-notfound = Bu ileti, takviminizde bulunmayan bir etkinliğin iptalini içeriyor.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } iptal etti:
@@ -15,7 +17,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } iptal etti:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Kaydet
-calendar-invitation-panel-save-button = Kaydet
 calendar-invitation-panel-view-button = Göster
 calendar-invitation-panel-update-button = Güncelle
 calendar-invitation-panel-delete-button = Sil
@@ -23,6 +24,10 @@ calendar-invitation-panel-accept-button = Evet
 calendar-invitation-panel-decline-button = Hayır
 calendar-invitation-panel-tentative-button = Belki
 calendar-invitation-panel-reply-status = * Henüz karar vermediniz veya cevap vermediniz
+calendar-invitation-panel-menu-item-save =
+    .label = Takvime kaydet
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Değişiklikleri göster
 calendar-invitation-panel-prop-title-when = Zaman:
 calendar-invitation-panel-prop-title-location = Konum:
 # Variables:
@@ -94,3 +99,5 @@ calendar-invitation-panel-partstat-needs-action = { $count } bekleniyor
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } katılımcı
 calendar-invitation-panel-prop-title-attachments = Dosyalar:
+calendar-invitation-change-indicator-removed = Kaldırıldı
+calendar-invitation-change-indicator-added = Yeni
