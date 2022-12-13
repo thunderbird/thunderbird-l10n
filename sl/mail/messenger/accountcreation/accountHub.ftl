@@ -27,3 +27,10 @@ account-hub-newsgroup-button = Nastavi novičarsko skupino
 account-hub-import-button = Uvozi profil
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Prijava v sinhronizacijo …
+
+## Email page
+
+account-hub-email-cancel-button = Prekliči
+account-hub-email-back-button = Nazaj
+account-hub-email-continue-button = Nadaljuj
+account-hub-email-confirm-button = Potrdi
