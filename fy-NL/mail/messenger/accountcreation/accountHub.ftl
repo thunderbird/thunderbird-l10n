@@ -14,3 +14,16 @@ account-hub-title = Accounthub
 account-hub-release-notes = Utjefteopmerkingen
 account-hub-support = Stipe
 account-hub-donate = Donearje
+
+## Start page
+
+account-hub-email-button = E-mailaccount ynstelle
+account-hub-new-email-button = In nij e-mailadres oanfreegje
+account-hub-calendar-button = Aginda ynstelle
+account-hub-address-book-button = Adresboek ynstelle
+account-hub-chat-button = Chat ynstelle
+account-hub-feed-button = RSS-feed ynstelle
+account-hub-newsgroup-button = Nijsgroep ynstelle
+account-hub-import-button = Profyl ymportearje
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Oanmelde by Syngronisaasje…

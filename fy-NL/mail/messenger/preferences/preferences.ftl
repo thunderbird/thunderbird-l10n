@@ -719,8 +719,18 @@ search-results-help-link = Help nedich? Besykje <a data-l10n-name="url">{ -brand
 
 sync-signedout-caption = Nim jo web mei jo mei
 sync-signedout-description = Syngronisearje jo accounts, adresboeken, aginda’s, add-ons en ynstellingen op al jo apparaten.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Oanmelde om te syngronisearjen…
 sync-pane-header = Syngronisaasje
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = ‘{ $userEmail }’ is net ferifiearre.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Meld jo oan om opnij te ferbinen mei ‘{ $userEmail }’
+sync-pane-resend-verification = Ferifikaasje opnij ferstjoere
+sync-pane-sign-in = Oanmelde
+sync-pane-remove-account = Account fuortsmite
 sync-pane-edit-photo =
     .title = Profylôfbylding wizigje
 sync-pane-manage-account = Account beheare
