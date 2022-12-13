@@ -27,3 +27,11 @@ account-hub-newsgroup-button = Thiết lập nhóm tin
 account-hub-import-button = Nhập hồ sơ
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Đăng nhập để đồng bộ hóa…
+
+## Email page
+
+account-hub-email-title = Thiết lập tài khoản email của bạn
+account-hub-email-cancel-button = Huỷ bỏ
+account-hub-email-back-button = Quay lại
+account-hub-email-continue-button = Tiếp tục
+account-hub-email-confirm-button = Xác nhận
