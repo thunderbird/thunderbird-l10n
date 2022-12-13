@@ -8,6 +8,12 @@ calendar-invitation-panel-intro = { $organizer } hat jo útnûge foar:
 # Variables:
 # $organizer (String) - The participant that updated the original invitation.
 calendar-invitation-panel-intro-update = { $organizer } hat bywurke:
+calendar-invitation-panel-status-new = Jo binne útnûge foar dit barren.
+calendar-invitation-panel-status-processed = Dit barren is al oan jo aginda tafoege.
+calendar-invitation-panel-status-updateminor = Dit berjocht befettet in fernijing foar dit barren.
+calendar-invitation-panel-status-updatemajor = Dit berjocht befettet in fernijing foar dit barren. Jo moatte jo oanwêzigens opnij befêstigje.
+calendar-invitation-panel-status-cancelled = Dit berjocht befettet in annulearring foar dit barren.
+calendar-invitation-panel-status-cancelled-notfound = Dit berjocht befettet in annulearring foar in barren dy’t net yn jo aginda stiet.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } hat annulearre:
@@ -23,6 +29,11 @@ calendar-invitation-panel-accept-button = Ja
 calendar-invitation-panel-decline-button = Nee
 calendar-invitation-panel-tentative-button = Miskien
 calendar-invitation-panel-reply-status = * Jo hawwe noch net besletten of reagearre
+calendar-invitation-panel-more-button = Mear
+calendar-invitation-panel-menu-item-save =
+    .label = Yn aginda bewarje
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Wizigingen toane
 calendar-invitation-panel-prop-title-when = Wannear:
 calendar-invitation-panel-prop-title-location = Lokaasje:
 # Variables:
@@ -94,3 +105,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } yn behanneling
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } dielnimmers
 calendar-invitation-panel-prop-title-attachments = Bylagen:
+calendar-invitation-change-indicator-removed = Fuortsmiten
+calendar-invitation-change-indicator-added = Nij
+calendar-invitation-change-indicator-modified = Wizige
