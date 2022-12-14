@@ -719,8 +719,18 @@ search-results-help-link = Angen cymorth? Ewch i <a data-l10n-name="url">Cefnoga
 
 sync-signedout-caption = Cymrwch eich Gwe gyda Chi
 sync-signedout-description = Cydweddwch eich cyfrifon, llyfrau cyfeiriadau, calendrau, ychwanegion a gosodiadau ar draws eich holl ddyfeisiau.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Mewngofnodwch i gydweddu…
 sync-pane-header = Cydweddu
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = Nid yw " { $userEmail } " wedi'i wirio.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Mewngofnodwch i ailgysylltu “{ $userEmail }”
+sync-pane-resend-verification = Ail Anfon Dilysiad
+sync-pane-sign-in = Mewngofnodi
+sync-pane-remove-account = Tynnu cyfrif
 sync-pane-edit-photo =
     .title = Newid llun proffil
 sync-pane-manage-account = Rheoli cyfrif

@@ -120,6 +120,9 @@ openpgp-key-man-discover-progress = Chwilio…
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
 openpgp-key-publish-ok = Allwedd gyhoeddus wedi'i hanfon i "{ $keyserver }".
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Wedi methu ag anfon eich allwedd gyhoeddus i " { $keyserver } ".
 openpgp-key-copy-key =
     .label = Copïo Allwedd Gyhoeddus
     .accesskey = G
