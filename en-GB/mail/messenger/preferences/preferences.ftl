@@ -719,8 +719,18 @@ search-results-help-link = Need help? Visit <a data-l10n-name="url">{ -brand-sho
 
 sync-signedout-caption = Take Your Web With You
 sync-signedout-description = Synchronise your accounts, address books, calendars, add-ons, and settings across all your devices.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Sign in to synchronise…
 sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” is not verified.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Please sign in to reconnect “{ $userEmail }”
+sync-pane-resend-verification = Resend verification
+sync-pane-sign-in = Sign in
+sync-pane-remove-account = Remove account
 sync-pane-edit-photo =
     .title = Change profile picture
 sync-pane-manage-account = Manage account
