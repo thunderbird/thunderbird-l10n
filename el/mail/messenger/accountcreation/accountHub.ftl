@@ -14,3 +14,13 @@ account-hub-title = Κέντρο λογαριασμών
 account-hub-release-notes = Σημειώσεις έκδοσης
 account-hub-support = Υποστήριξη
 account-hub-donate = Δωρεά
+
+## Start page
+
+
+## Email page
+
+account-hub-email-cancel-button = Ακύρωση
+account-hub-email-back-button = Πίσω
+account-hub-email-continue-button = Συνέχεια
+account-hub-email-confirm-button = Επιβεβαίωση

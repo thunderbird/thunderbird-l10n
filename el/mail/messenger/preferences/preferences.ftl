@@ -714,6 +714,8 @@ search-results-help-link = Χρειάζεστε βοήθεια; Επισκεφθ
 ## Sync Tab
 
 sync-pane-header = Συγχρονισμός
+sync-pane-sign-in = Σύνδεση
+sync-pane-remove-account = Αφαίρεση λογαριασμού
 sync-pane-edit-photo =
     .title = Αλλαγή εικόνας προφίλ
 sync-pane-manage-account = Διαχείριση λογαριασμού
@@ -722,8 +724,11 @@ sync-pane-device-name-title = Όνομα συσκευής
 sync-pane-change-device-name = Αλλαγή ονόματος συσκευής
 sync-pane-cancel = Ακύρωση
 sync-pane-save = Αποθήκευση
+sync-pane-show-synced-header-on = Συγχρονισμός: ΕΝΕΡΓΟΣ
+sync-pane-show-synced-header-off = Συγχρονισμός: ΑΝΕΝΕΡΓΟΣ
 sync-pane-sync-now = Συγχρονισμός τώρα
 sync-panel-sync-now-syncing = Συγχρονισμός…
+show-synced-list-heading = Αυτήν τη στιγμή, συγχρονίζονται τα εξής στοιχεία:
 show-synced-learn-more = Μάθετε περισσότερα…
 show-synced-item-account = Λογαριασμοί email
 show-synced-item-address = Ευρετήρια
