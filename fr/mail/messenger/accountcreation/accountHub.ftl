@@ -30,6 +30,7 @@ account-hub-sync-button = Se connecter pour synchroniser…
 
 ## Email page
 
+account-hub-email-title = Configurer un compte de courrier électronique
 account-hub-email-cancel-button = Annuler
 account-hub-email-back-button = Retour
 account-hub-email-continue-button = Continuer
