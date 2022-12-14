@@ -27,3 +27,11 @@ account-hub-newsgroup-button = Nieuwsgroep instellen
 account-hub-import-button = Profiel importeren
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Aanmelden bij Synchronisatie…
+
+## Email page
+
+account-hub-email-title = Uw e-mailaccount instellen
+account-hub-email-cancel-button = Annuleren
+account-hub-email-back-button = Terug
+account-hub-email-continue-button = Doorgaan
+account-hub-email-confirm-button = Bevestigen
