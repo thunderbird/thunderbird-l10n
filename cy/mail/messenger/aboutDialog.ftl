@@ -16,3 +16,4 @@ aboutDialog-version = { $version } ({ $bits }-did)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-did)
+aboutdialog-update-checking-failed = Wedi methu â gwirio am ddiweddariadau.
