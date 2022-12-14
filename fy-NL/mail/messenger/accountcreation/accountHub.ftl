@@ -27,3 +27,11 @@ account-hub-newsgroup-button = Nijsgroep ynstelle
 account-hub-import-button = Profyl ymportearje
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Oanmelde by Syngronisaasje…
+
+## Email page
+
+account-hub-email-title = Jo e-mailaccount ynstelle
+account-hub-email-cancel-button = Annulearje
+account-hub-email-back-button = Tebek
+account-hub-email-continue-button = Trochgean
+account-hub-email-confirm-button = Befêstigje
