@@ -25,3 +25,11 @@ account-hub-chat-button = Crear chat
 account-hub-import-button = Importar profilo
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Connecter se a Sync…
+
+## Email page
+
+account-hub-email-title = Crear tu conto email
+account-hub-email-cancel-button = Cancellar
+account-hub-email-back-button = Retro
+account-hub-email-continue-button = Continuar
+account-hub-email-confirm-button = Confirmar
