@@ -483,6 +483,12 @@ revoke-key-question =
     Сіз "{ $identity }" кілтін қайта шақырайын деп жатырсыз.
     Сіз бұдан былай бұл кілтпен қол қоя алмайсыз және таратылғаннан кейін басқалар енді бұл кілтпен шифрлей алмайды. Ескі хабарламаларды дешифрлеу үшін әлі де кілтті пайдалана аласыз.
     Жалғастырғыңыз келе ме?
+#   $keyId (String) - the id of the key being revoked
+revoke-key-not-present =
+    Сізде осы қайта шақыру сертификатына сәйкес келетін кілт (0x{ $keyId }) жоқ!
+    Кілтіңізді жоғалтып алсаңыз, қайта шақыру сертификатын импорттамас бұрын ол кілтті импорттауыңыз керек (мысалы, кілт серверінен)!
+#   $keyId (String) - the id of the key being revoked
+revoke-key-already-revoked = 0x{ $keyId } кілті бұрыннан қайта шақырылған болып тұр.
 key-man-button-revoke-key = Кілтті қайта шақы&ру
 openpgp-key-revoke-success = Кілт сәтті қайта шақырылды.
 # Strings in keyRing.jsm & decryption.jsm
@@ -555,6 +561,7 @@ key-revoked = ‘{ $key }’ кілті қайта шақырылған
 key-expired = ‘{ $key }’ кілтінің мерзімі аяқталды
 msg-compose-internal-error = Ішкі қате орын алды.
 keys-to-export = Кірістіру үшін OpenPGPкілттерін таңдаңыз
+msg-compose-cannot-save-draft = Шимай қағаз хабарламасын сақтау қатесі
 save-attachment-header = Дешифрленген салынымды сақтау
 # Strings used in decryption.jsm
 do-import-multiple =
