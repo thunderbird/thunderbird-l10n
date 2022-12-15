@@ -14,3 +14,21 @@ account-hub-title = Centro degli account
 account-hub-release-notes = Note di versione
 account-hub-support = Supporto
 account-hub-donate = Fai una donazione
+
+## Start page
+
+account-hub-email-button = Configura un account di posta
+account-hub-new-email-button = Ottieni un nuovo indirizzo email
+account-hub-calendar-button = Configura calendario
+account-hub-address-book-button = Configura rubrica
+account-hub-chat-button = Configura chat
+account-hub-feed-button = Configura feed RSS
+account-hub-import-button = Importa profilo
+
+## Email page
+
+account-hub-email-title = Configura il tuo account di posta
+account-hub-email-cancel-button = Annulla
+account-hub-email-back-button = Indietro
+account-hub-email-continue-button = Continua
+account-hub-email-confirm-button = Conferma
