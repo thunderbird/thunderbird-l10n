@@ -8,7 +8,7 @@
 <!ENTITY folderRebuildSummaryFileTip2.label      "Επιδιόρθωση αρχείου περίληψης ευρετηρίου">
 <!ENTITY folderRebuildSummaryFile2.label         "Επιδιόρθωση φακέλου">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "ρ">
-<!ENTITY folderRebuildSummaryFile.explanation    "Μερικές φορές το αρχείο ευρετηρίου του φακέλου (.msf) καταστρέφεται και φαίνεται ότι λείπουν μηνύματα ή εμφανίζονται διαγραμμένα μηνύματα. Συνήθως η επιδιόρθωση του αρχείου λύνει αυτά τα προβλήματα.">
+<!ENTITY folderRebuildSummaryFile.explanation    "Μερικές φορές, το αρχείο ευρετηρίου φακέλου (.msf) καταστρέφεται και τα μηνύματα φαίνεται να λείπουν ή να εμφανίζονται παρά τη διαγραφή τους· η επιδιόρθωση του φακέλου ίσως λύσει αυτά τα ζητήματα.">
 <!ENTITY folderIncludeInGlobalSearch.label       "Να συμπεριλαμβάνονται τα μηνύματα αυτού του φακέλου στα αποτελέσματα της καθολικής αναζήτησης">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "θ">
 
