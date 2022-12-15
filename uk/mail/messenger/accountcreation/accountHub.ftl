@@ -30,3 +30,8 @@ account-hub-sync-button = Увійти до Синхронізації…
 
 ## Email page
 
+account-hub-email-title = Налаштуйте свій обліковий запис електронної пошти
+account-hub-email-cancel-button = Скасувати
+account-hub-email-back-button = Назад
+account-hub-email-continue-button = Продовжити
+account-hub-email-confirm-button = Підтвердити
