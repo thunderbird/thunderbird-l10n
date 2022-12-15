@@ -722,6 +722,13 @@ sync-signedout-description = Sincroniza tus cuentas, libretas de direcciones, ca
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Iniciar sesión para sincronizar...
 sync-pane-header = Sincronizar
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” no está verificado.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Por favor, inicia sesión para volver a conectarte “{ $userEmail }”
+sync-pane-resend-verification = Enviar verificación de nuevo
 sync-pane-sign-in = Iniciar sesión
 sync-pane-remove-account = Eliminar cuenta
 sync-pane-edit-photo =
