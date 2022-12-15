@@ -5,9 +5,7 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = Ο/Η { $organizer } σάς προσκάλεσε στο:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = Ο/Η { $organizer } ενημέρωσε:
+calendar-invitation-panel-status-new = Έχετε προσκληθεί σε αυτήν την εκδήλωση.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = Ο/Η { $organizer } ακύρωσε:
@@ -15,7 +13,6 @@ calendar-invitation-panel-intro-cancel = Ο/Η { $organizer } ακύρωσε:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Αποθήκευση
-calendar-invitation-panel-save-button = Αποθήκευση
 calendar-invitation-panel-view-button = Προβολή
 calendar-invitation-panel-update-button = Ενημέρωση
 calendar-invitation-panel-delete-button = Διαγραφή
@@ -23,6 +20,11 @@ calendar-invitation-panel-accept-button = Ναι
 calendar-invitation-panel-decline-button = Όχι
 calendar-invitation-panel-tentative-button = Ίσως
 calendar-invitation-panel-reply-status = * Δεν έχετε αποφασίσει ή απαντήσει ακόμα
+calendar-invitation-panel-more-button = Περισσότερα
+calendar-invitation-panel-menu-item-save =
+    .label = Αποθήκευση σε ημερολόγιο
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Εμφάνιση αλλαγών
 calendar-invitation-panel-prop-title-when = Πότε:
 calendar-invitation-panel-prop-title-location = Τοποθεσία:
 # Variables:
