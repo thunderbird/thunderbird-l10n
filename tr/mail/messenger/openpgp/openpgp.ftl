@@ -97,8 +97,17 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Çevrimiçi anahtarları keşfet
     .accesskey = k
+openpgp-key-man-publish-cmd =
+    .label = Yayımla
+    .accesskey = Y
 openpgp-key-man-discover-prompt = OpenPGP anahtarlarını çevrimiçi olarak anahtar sunucularında veya WKD protokolünü kullanarak bulmak için bir e-posta adresi veya bir anahtar kimliği girin.
 openpgp-key-man-discover-progress = Aranıyor…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Ortak anahtar "{ $keyserver }" sunucusuna gönderildi.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Ortak anahtarınız "{ $keyserver }" sunucusuna gönderilemedi.
 openpgp-key-copy-key =
     .label = Ortak anahtarı kopyala
     .accesskey = k
