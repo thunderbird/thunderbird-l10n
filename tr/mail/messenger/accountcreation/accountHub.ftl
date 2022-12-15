@@ -22,3 +22,8 @@ account-hub-sync-button = Eşitlemek için giriş yap…
 
 ## Email page
 
+account-hub-email-title = E-posta hesabınızı ayarlayın
+account-hub-email-cancel-button = Vazgeç
+account-hub-email-back-button = Geri
+account-hub-email-continue-button = Devam et
+account-hub-email-confirm-button = Onayla

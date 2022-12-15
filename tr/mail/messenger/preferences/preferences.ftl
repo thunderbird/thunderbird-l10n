@@ -723,6 +723,9 @@ sync-pane-header = Eşitle
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = “{ $userEmail }” doğrulanmamış.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Yeniden “{ $userEmail }” hesabınıza bağlanmak için lütfen giriş yapın
 sync-pane-resend-verification = Doğrulamayı yeniden gönder
 sync-pane-sign-in = Giriş yap
 sync-pane-remove-account = Hesabı kaldır
