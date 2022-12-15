@@ -713,7 +713,15 @@ search-results-help-link = Χρειάζεστε βοήθεια; Επισκεφθ
 
 ## Sync Tab
 
+sync-signedout-caption = Πάρτε μαζί σας το διαδίκτυο
+sync-signedout-description = Συγχρονίστε τους λογαριασμούς, τα ευρετήρια, τα ημερολόγια, τα πρόσθετα και τις ρυθμίσεις σας με όλες τις συσκευές σας.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Σύνδεση στο Sync…
 sync-pane-header = Συγχρονισμός
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = Το «{ $userEmail }» δεν έχει επαληθευτεί.
+sync-pane-resend-verification = Εκ νέου αποστολή επαλήθευσης
 sync-pane-sign-in = Σύνδεση
 sync-pane-remove-account = Αφαίρεση λογαριασμού
 sync-pane-edit-photo =

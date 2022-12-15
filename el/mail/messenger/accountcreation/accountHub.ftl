@@ -17,6 +17,16 @@ account-hub-donate = Δωρεά
 
 ## Start page
 
+account-hub-email-button = Ρύθμιση λογαριασμού email
+account-hub-new-email-button = Απόκτηση νέας διεύθυνσης email
+account-hub-calendar-button = Ρύθμιση ημερολογίου
+account-hub-address-book-button = Ρύθμιση ευρετηρίου
+account-hub-chat-button = Ρύθμιση συνομιλίας
+account-hub-feed-button = Ρύθμιση ροής RSS
+account-hub-newsgroup-button = Ρύθμιση ομάδας συζητήσεων
+account-hub-import-button = Εισαγωγή προφίλ
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Σύνδεση στο Sync…
 
 ## Email page
 
