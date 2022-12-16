@@ -13,3 +13,14 @@ account-hub-welcome-line = Ansuf ɣer <span data-l10n-name="brand-name">{ -brand
 account-hub-release-notes = Iwenniten n lqem
 account-hub-support = Tallalt
 account-hub-donate = Mudd tawsa
+
+## Start page
+
+account-hub-email-button = Sbadu amiḍan n yimayl
+account-hub-new-email-button = Awi tansa n yimayl tamaynut
+account-hub-calendar-button = Sbadu awitay
+account-hub-address-book-button = Sbadu  imedlis n tensa
+account-hub-chat-button = Sbadu adiwenni
+
+## Email page
+

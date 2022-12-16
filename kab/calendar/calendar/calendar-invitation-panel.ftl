@@ -6,16 +6,12 @@
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } inced-ik·ikem:
 # Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } yettwaleqqqem:
-# Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } yettwasefsex:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Sekles
-calendar-invitation-panel-save-button = Sekles
 calendar-invitation-panel-view-button = Sken
 calendar-invitation-panel-update-button = Leqqem
 calendar-invitation-panel-delete-button = Kkes
@@ -23,6 +19,11 @@ calendar-invitation-panel-accept-button = Ih
 calendar-invitation-panel-decline-button = Uhu
 calendar-invitation-panel-tentative-button = Ahat
 calendar-invitation-panel-reply-status = *Mazal ur tt-tegzimeḍ deg ṛṛay neɣ mazal ur d-terriḍ
+calendar-invitation-panel-more-button = Ugar
+calendar-invitation-panel-menu-item-save =
+    .label = Sekles deg uwitay
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Sken ibeddilen
 calendar-invitation-panel-prop-title-when = Melmi:
 calendar-invitation-panel-prop-title-location = Adig:
 # Variables:
@@ -94,3 +95,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } yettraǧun
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } yimttekkiyen
 calendar-invitation-panel-prop-title-attachments = Imeddayen:
+calendar-invitation-change-indicator-removed = Yettwakkes
+calendar-invitation-change-indicator-added = Amaynut
+calendar-invitation-change-indicator-modified = Ttwabeddlen

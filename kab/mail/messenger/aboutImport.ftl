@@ -8,6 +8,7 @@ export-page-title = Sifeḍ
 ## Header
 
 import-start = Kter ifecka
+import-start-title = Kter iɣewwaren neɣ isefka seg kra n usnas neɣ n ufaylu.
 import-from-app = Kter seg usnas
 import-file = Kter-d seg ufaylu
 import-file-title = Fren afaylu iwumi ara d-tketreḍ agbur-is.
@@ -99,6 +100,7 @@ progress-pane-exporting2 = Asifeḍ… { $progressPercent }
 progress-pane-finished-desc2 = Immed.
 error-pane-title = Tuccḍa
 error-message-zip-file-too-big2 = Teɣzi n ufaylu ZIP yettwafernen meqqer ɣef 2GAṬ. Ma ulac aɣilif, ssenf-it qbel syen kter seg ukaram n tussfa xiṛ.
+error-message-extract-zip-file-failed2 = Tecceḍ tussfa n ufaylu ZIP file. Ma ulac aɣilif, ssef-it s ufus syen kter seg ukaram yettwaseffen deg wadeg n wayen.
 error-message-failed = Aktar yecceḍ, d ayen ur nettwarǧa ara. Ugar n telɣut tezmer ad tili deg Console n tuccḍa.
 error-failed-to-parse-ics-file = Ulac iferdisen ara yettwaktaren deg ufaylu.
 error-export-failed = Asifeḍ yecceḍ, d ayen ur nettwarǧa ara. Ugar n telɣut tezmer ad tili deg Console n tuccḍa.
@@ -115,11 +117,14 @@ csv-target-field = Urtan n imedlis n tensa
 ## Export tab
 
 export-profile-title = Sifeḍ imiḍanen n yimayl, iznan n yimayl, imedlisen n tansiwin akked yiɣewwaren s ufaylu Zip.
+export-profile-description = Ma yella amaɣun-ik amiran meqqer nnig 2GAṬ, ad ak-nsumer ad t-tḥerzeḍ kečč s timmad-ik.
 export-open-profile-folder = Ldi akaram n umaɣnu
+export-file-picker2 = Sifeḍ afaylu s umasal ZIP
 export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-title = Isefka ara d-yettwaktaren
 summary-pane-start = Bdu aktar
 summary-pane-start-over = Ales senker afecku n uktar
 
