@@ -20,7 +20,7 @@
 <!ENTITY accountAdvancedTitle.label   "Қосымша баптаулары">
 <!ENTITY accountAdvancedInfo.label    "Қаласаңыз, бұл қадамды аттап кете аласыз.">
 <!ENTITY accountAdvanced.newMailNotification.label   "Жаңа хат туралы хабарлау">
-<!ENTITY accountAliasGroupbox.caption "Жергілікті алиас">
+<!ENTITY accountAliasGroupbox.caption "Жергілікті бүркеншік ат">
 <!ENTITY accountAliasField.label      "Бүркеншік:">
 <!ENTITY accountAliasInfo.label       "Бұл тек сіздің сөйлесулерде көрінеді, қашықтағы контакттар оны көрмейді.">
 <!ENTITY accountProxySettings.caption "Прокси баптаулары">

@@ -8,7 +8,7 @@
 <!ENTITY account.advanced              "Қосымша баптаулары">
 <!ENTITY account.name                  "Пайдаланушы:">
 <!ENTITY account.password              "Пароль:">
-<!ENTITY account.alias                 "Бүркеншік:">
+<!ENTITY account.alias                 "Бүркеншік ат:">
 <!ENTITY account.newMailNotification   "Жаңа хат туралы хабарлау">
 <!ENTITY account.autojoin              "Автокіретін арналары:">
 <!ENTITY account.proxySettings.caption "Прокси баптаулары:">
