@@ -6,16 +6,12 @@
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } vás pozýva na:
 # Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = Organizátor { $organizer } aktualizoval:
-# Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = Organizátor { $organizer } zrušil:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Uložiť
-calendar-invitation-panel-save-button = Uložiť
 calendar-invitation-panel-view-button = Zobraziť
 calendar-invitation-panel-update-button = Aktualizovať
 calendar-invitation-panel-delete-button = Odstrániť
@@ -23,6 +19,11 @@ calendar-invitation-panel-accept-button = Áno
 calendar-invitation-panel-decline-button = Nie
 calendar-invitation-panel-tentative-button = Možno
 calendar-invitation-panel-reply-status = * Zatiaľ ste sa nerozhodli ani neodpovedali
+calendar-invitation-panel-more-button = Ďalšie
+calendar-invitation-panel-menu-item-save =
+    .label = Uložiť do kalendára
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Zobraziť zmeny
 calendar-invitation-panel-prop-title-when = Kedy:
 calendar-invitation-panel-prop-title-location = Miesto konania:
 # Variables:
