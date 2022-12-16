@@ -599,20 +599,29 @@ send-to-news-warning =
     Жалғастыру керек пе?
 save-attachment-header = Дешифрленген салынымды сақтау
 possibly-pgp-mime = PGP/MIME шифрленген немесе қолтаңба қойылған хабарлама болуы мүмкін; тексеру үшін "Дешифрлеу/тексеру" функциясын пайдаланыңыз
-cannot-send-sig-because-no-own-key = Бұл хабарламаға цифрлық қолтаңба қою мүмкін емес, себебі сіз <{ $key }> кілті үшін өтпелі шифрлеуді әлі баптаған жоқсыз.
+cannot-send-sig-because-no-own-key = Бұл хабарламаға цифрлық қолтаңба қою мүмкін емес, себебі сіз <{ $key }> кілті үшін өтпелі шифрлеуді әлі баптаған жоқсыз
+cannot-send-enc-because-no-own-key = Бұл хабарламаны шифрленген түрде жіберу мүмкін емес, себебі сіз <{ $key }> кілті үшін өтпелі шифрлеуді әлі баптаған жоқсыз
 # Strings used in decryption.jsm
 do-import-multiple =
     Келесі кілттерді импорттау керек пе?
     { $key }
 do-import-one = { $name } ({ $id }) импорттау керек пе?
 cant-import = Ашық кілтті импорттау қатесі
+unverified-reply = Шегіністі хабар бөлігі (жауап) өзгертілген болуы мүмкін
+key-in-message-body = Хабарлама мәтінінде кілт табылды. Кілтті импорттау үшін "Кілтті импорттау" басыңыз
 sig-mismatch = Қате - қолтаңба сәйкессіздігі
 invalid-email = Қате – жарамсыз эл. пошта адрестері
+attachment-pgp-key =
+    Сіз ашып жатқан "{ $name }" салынымы OpenPGP кілт файлы сияқты көрінеді.
+    Құрамындағы кілттерді импорттау үшін "Импорттау" батырмасын немесе браузер терезесінде файл мазмұнын қарау үшін "Қарау" батырмасын басыңыз.
 dlg-button-view = Қа&рау
+# Strings used in enigmailMsgHdrViewOverlay.js
+decrypted-msg-with-format-error = Дешифрленген хабарлама (қалпына келтірілген бұзылған PGP электрондық пошта пішімі ескі Exchange серверінен болуы мүмкін, сондықтан нәтиже оқуға мінсіз болмауы мүмкін)
 # Strings used in encryption.jsm
 not-required = Қате – дешифрлеу керек емес
 # Strings used in windows.jsm
 no-photo-available = Қолжетімді фото жоқ
+error-photo-path-not-readable = "{ $photo }" фото орналасуын оқу мүмкін емес
 debug-log-title = OpenPGP жөндеу журналы
 # Strings used in dialog.jsm
 repeat-prefix = Бұл ескерту тағы { $count } рет
