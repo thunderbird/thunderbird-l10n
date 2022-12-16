@@ -719,8 +719,11 @@ search-results-help-link = Potrebujete pomoc? Navštívte <a data-l10n-name="url
 
 sync-signedout-caption = Vezmite si svoj web so sebou
 sync-signedout-description = Synchronizujte svoje účty, adresáre, kalendáre, doplnky a nastavenia na všetkých svojich zariadeniach.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Prihlásiť sa a synchronizovať…
 sync-pane-header = Synchronizácia
+sync-pane-sign-in = Prihlásiť sa
+sync-pane-remove-account = Odstrániť účet
 sync-pane-edit-photo =
     .title = Zmeniť obrázok profilu
 sync-pane-manage-account = Spravovať účet
