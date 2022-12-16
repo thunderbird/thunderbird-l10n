@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Jout oan dat jo gjin nije foarstellen akseptearje">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Fuortsmite…">
 <!ENTITY  event.menu.item.delete.accesskey                "F">
-<!ENTITY  event.menu.item.page.setup.label                "Side-ynstellingen">
-<!ENTITY  event.menu.item.page.setup.accesskey            "i">
-<!ENTITY  event.menu.item.print.label                     "Ofdrukke">
-<!ENTITY  event.menu.item.print.accesskey                 "d">
 
 <!ENTITY  event.menu.edit.label                           "Bewurkje">
 <!ENTITY  event.menu.edit.accesskey                       "w">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "B">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Oanpasse…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "O">
-<!ENTITY  event.menu.view.showlink.label                  "Byhearende keppeling toane">
-<!ENTITY  event.menu.view.showlink.accesskey              "k">
 
 <!ENTITY  event.menu.options.label                            "Opsjes">
 <!ENTITY  event.menu.options.accesskey                        "O">
@@ -223,7 +214,7 @@
 <!ENTITY event.repeat.accesskey                           "r">
 <!ENTITY event.until.label                                "Oant:">
 <!ENTITY event.until.accesskey                            "t">
-<!ENTITY event.reminder.label                             "Warskôging:" >
+<!ENTITY event.reminder.label                             "Omtinken:" >
 <!ENTITY event.reminder.accesskey                         "n">
 <!ENTITY event.description.label                          "Beskriuwing:" >
 <!ENTITY event.description.accesskey                      "w">
@@ -244,7 +235,7 @@
 <!ENTITY event.url.label                                  "Byhearende keppeling:" >
 <!ENTITY event.priority2.label                            "Prioriteit:">
 
-<!ENTITY event.reminder.none.label                        "Gjin warskôging " >
+<!ENTITY event.reminder.none.label                        "Gjin omtinken" >
 <!ENTITY event.reminder.0minutes.before.label             "0 minuten dêrfoar" >
 <!ENTITY event.reminder.5minutes.before.label             "5 minuten dêrfoar" >
 <!ENTITY event.reminder.15minutes.before.label            "15 minuten dêrfoar" >
@@ -257,7 +248,7 @@
 <!ENTITY event.reminder.1week.before.label                "1 wike dêrfoar" >
 <!ENTITY event.reminder.custom.label                      "Oanpast…" >
 
-<!ENTITY event.reminder.multiple.label                    "Mear warskôgingen…" >
+<!ENTITY event.reminder.multiple.label                    "Mear oantinkens…" >
 
 <!ENTITY event.statusbarpanel.freebusy.label              "Tiid as:">
 <!ENTITY event.statusbarpanel.privacy.label               "Privacy:">

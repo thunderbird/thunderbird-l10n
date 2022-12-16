@@ -19,7 +19,7 @@
 
 <!ENTITY accountAdvancedTitle.label   "Avansearre opsjes">
 <!ENTITY accountAdvancedInfo.label    "Fiel jo frij om dizze stap oer te slaan, as jo dat wolle.">
-<!ENTITY accountAdvanced.newMailNotification.label   "Melding jaan by nije e-mail">
+<!ENTITY accountAdvanced.newMailNotification.label   "Melding jaan by nij e-mailberjocht">
 <!ENTITY accountAliasGroupbox.caption "Lokale alias">
 <!ENTITY accountAliasField.label      "Alias:">
 <!ENTITY accountAliasInfo.label       "Dizze sil allinnich wylst petearen werjûn wurde, buddy’s op oare kompjûters sille se net sjen.">
