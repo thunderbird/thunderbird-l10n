@@ -42,6 +42,7 @@ items-pane-checkbox-calendars = Օրացույց
 
 ## Import dialog
 
+error-pane-title = Սխալ
 
 ## <csv-field-map> element
 

@@ -14,7 +14,7 @@ accounts-conn-security = Կապուղու անվտանգությունը
 accounts-auth-method = Իսկորոշման եղանակ
 accounts-default = Լռելյա՞յն
 identity-name = Որոշիչ
-
 send-via-email = Ուղարկել նամակով
-
 app-basics-telemetry = Telemetry-ի տվյալ
+libs-table-heading-status = Վիճակը
+libs-rnp-status-ok = Լավ
