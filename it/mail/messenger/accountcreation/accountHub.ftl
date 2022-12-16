@@ -23,7 +23,10 @@ account-hub-calendar-button = Configura calendario
 account-hub-address-book-button = Configura rubrica
 account-hub-chat-button = Configura chat
 account-hub-feed-button = Configura feed RSS
+account-hub-newsgroup-button = Configura gruppo di discussione
 account-hub-import-button = Importa profilo
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Accedi per sincronizzare…
 
 ## Email page
 
