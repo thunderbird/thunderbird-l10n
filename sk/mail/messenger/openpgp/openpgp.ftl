@@ -117,6 +117,12 @@ openpgp-key-man-publish-cmd =
     .accesskey = P
 openpgp-key-man-discover-prompt = Ak chcete vyhľadať kľúče OpenPGP online, na kľúčových serveroch alebo pomocou protokolu WKD, zadajte buď e-mailovú adresu alebo ID kľúča.
 openpgp-key-man-discover-progress = Vyhľadávanie…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Verejný kľúč bol odoslaný na "{ $keyserver }".
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Nepodarilo sa odoslať váš verejný kľúč na server "{ $keyserver }".
 openpgp-key-copy-key =
     .label = Kopírovať verejný kľúč
     .accesskey = K

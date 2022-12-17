@@ -16,3 +16,4 @@ aboutDialog-version = { $version } ({ $bits }-bitová verzia)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bitová verzia)
+aboutdialog-update-checking-failed = Nepodarilo sa skontrolovať aktualizácie.

@@ -722,6 +722,13 @@ sync-signedout-description = Synchronizujte svoje účty, adresáre, kalendáre,
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Prihlásiť sa a synchronizovať…
 sync-pane-header = Synchronizácia
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = Adresa “{ $userEmail }” nie je overená.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Ak sa chcete pripojiť k “{ $userEmail }” , musíte sa prihlásiť.
+sync-pane-resend-verification = Znova odoslať overenie
 sync-pane-sign-in = Prihlásiť sa
 sync-pane-remove-account = Odstrániť účet
 sync-pane-edit-photo =

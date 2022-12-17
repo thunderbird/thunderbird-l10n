@@ -17,11 +17,20 @@ account-hub-donate = Prispieť
 
 ## Start page
 
+account-hub-email-button = Nastaviť e-mailový účet
+account-hub-new-email-button = Získať novú e-mailovú adresu
+account-hub-calendar-button = Nastaviť kalendár
+account-hub-address-book-button = Nastaviť adresár
+account-hub-chat-button = Nastaviť konverzácie
+account-hub-feed-button = Nastaviť kanál RSS
+account-hub-newsgroup-button = Nastaviť diskusnú skupinu
+account-hub-import-button = Importovať profil
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Prihlásiť sa a synchronizovať…
 
 ## Email page
 
+account-hub-email-title = Nastavenie e-mailového účtu
 account-hub-email-cancel-button = Zrušiť
 account-hub-email-back-button = Naspäť
 account-hub-email-continue-button = Pokračovať
