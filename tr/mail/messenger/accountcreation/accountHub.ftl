@@ -17,6 +17,14 @@ account-hub-donate = Bağış yapın
 
 ## Start page
 
+account-hub-email-button = E-posta hesabı kur
+account-hub-new-email-button = Yeni bir e-posta adresi al
+account-hub-calendar-button = Takvimi ayarla
+account-hub-address-book-button = Adres defterini ayarla
+account-hub-chat-button = Sohbeti ayarla
+account-hub-feed-button = RSS beslemesini ayarla
+account-hub-newsgroup-button = Haber grubu kur
+account-hub-import-button = Profili içe aktar
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Eşitlemek için giriş yap…
 
