@@ -725,6 +725,12 @@ sync-pane-header = Синхронизация
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = «{ $userEmail }» не подтверждён.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Пожалуйста, войдите для повторного подключения «{ $userEmail }»
+sync-pane-resend-verification = Отправить подтверждение повторно
+sync-pane-sign-in = Войти
+sync-pane-remove-account = Удалить аккаунт
 sync-pane-edit-photo =
     .title = Изменить фотографию в профиле
 sync-pane-manage-account = Управление учётной записью
@@ -733,3 +739,19 @@ sync-pane-device-name-title = Имя устройства
 sync-pane-change-device-name = Изменить имя устройства
 sync-pane-cancel = Отмена
 sync-pane-save = Сохранить
+sync-pane-show-synced-header-on = Синхронизация ВКЛЮЧЕНА
+sync-pane-show-synced-header-off = Синхронизация ОТКЛЮЧЕНА
+sync-pane-sync-now = Синхронизировать
+sync-panel-sync-now-syncing = Синхронизация…
+show-synced-list-heading = Сейчас вы синхронизируете:
+show-synced-learn-more = Подробнее…
+show-synced-item-account = Учётные записи эл. почты
+show-synced-item-address = Адресные книги
+show-synced-item-calendar = Календари
+show-synced-item-identity = Личности
+show-synced-change = Изменить…
+synced-acount-item-server-config = Настройка сервера
+synced-acount-item-filters = Фильтры
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Синхронизируйте свои учётные записи электронной почты, адресные книги, календари и личности на всех своих устройствах.
+sync-disconnected-turn-on-sync = Включить Cинхронизацию…
