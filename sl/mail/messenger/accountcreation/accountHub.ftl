@@ -30,6 +30,7 @@ account-hub-sync-button = Prijava v sinhronizacijo …
 
 ## Email page
 
+account-hub-email-title = Nastavite račun za e-pošto
 account-hub-email-cancel-button = Prekliči
 account-hub-email-back-button = Nazaj
 account-hub-email-continue-button = Nadaljuj
