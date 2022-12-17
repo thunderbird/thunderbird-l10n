@@ -123,6 +123,7 @@ openpgp-import-key-props =
 
 openpgp-external-key-title = Zunanji ključ GnuPG
 openpgp-external-key-description = Nastavite zunanji ključ GnuPG z vnosom ID-ja ključa
+openpgp-external-key-info = Poleg tega morate z upraviteljem ključev uvoziti in sprejeti ustrezni javni ključ.
 openpgp-external-key-warning = <b>Nastavite lahko samo en zunanji ključ GnuPG.</b> Vaš prejšnji vnos bo zamenjan.
 openpgp-save-external-button = Shrani ID ključa
 openpgp-external-key-label = ID tajnega ključa:

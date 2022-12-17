@@ -718,12 +718,17 @@ search-results-help-link = Potrebujete pomoč? Obiščite <a data-l10n-name="url
 ## Sync Tab
 
 sync-signedout-caption = Ponesite svoj splet s seboj
+sync-signedout-description = Sinhronizirajte račune, imenike, koledarje, gesla, dodatke in nastavitve vseh svojih naprav.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Prijava v sinhronizacijo …
 sync-pane-header = Sinhronizacija
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = Naslov "{ $userEmail }" ni potrjen.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Prijavite se za ponovno povezavo računa "{ $userEmail }"
+sync-pane-resend-verification = Ponovno pošlji potrditev
 sync-pane-sign-in = Prijava
 sync-pane-remove-account = Odstrani račun
 sync-pane-edit-photo =
@@ -734,6 +739,8 @@ sync-pane-device-name-title = Ime naprave
 sync-pane-change-device-name = Spremeni ime naprave
 sync-pane-cancel = Prekliči
 sync-pane-save = Shrani
+sync-pane-show-synced-header-on = Sinhronizacija je vključena
+sync-pane-show-synced-header-off = Sinhronizacija je izključena
 sync-pane-sync-now = Sinhroniziraj zdaj
 sync-panel-sync-now-syncing = Sinhroniziranje …
 show-synced-list-heading = Trenutno se sinhronizirajo naslednji podatki:
@@ -741,4 +748,5 @@ show-synced-learn-more = Več o tem …
 show-synced-item-identity = Identitete
 show-synced-change = Spremeni …
 synced-acount-item-keys = OpenPGP – S/MIME
+sync-disconnected-text = Sinhronizirajte e-poštne račune, imenike, koledarje, gesla in identitete vseh svojih naprav.
 sync-disconnected-turn-on-sync = Vklopi sinhronizacijo …
