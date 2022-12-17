@@ -22,6 +22,8 @@ account-hub-new-email-button = Obtene un nove adresse email
 account-hub-calendar-button = Crear agenda
 account-hub-address-book-button = Crear libro del adresses
 account-hub-chat-button = Crear chat
+account-hub-feed-button = Configurar un fluxo RSS
+account-hub-newsgroup-button = Configurar un gruppo de discussion
 account-hub-import-button = Importar profilo
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Connecter se a Sync…
