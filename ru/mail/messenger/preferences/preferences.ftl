@@ -717,7 +717,14 @@ search-results-help-link = Нужна помощь? Посетите <a data-l10
 
 ## Sync Tab
 
+sync-signedout-caption = Возьмите Вашу сеть с собой
+sync-signedout-description = Синхронизируйте свои учётные записи, адресные книги, календари, расширения и настройки со всеми своими устройствами.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Войти для Синхронизации…
 sync-pane-header = Синхронизация
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = «{ $userEmail }» не подтверждён.
 sync-pane-edit-photo =
     .title = Изменить фотографию в профиле
 sync-pane-manage-account = Управление учётной записью
