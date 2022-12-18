@@ -14,3 +14,21 @@ account-hub-title = Tilikeskus
 account-hub-release-notes = Julkaisutiedot
 account-hub-support = Tuki
 account-hub-donate = Lahjoita
+
+## Start page
+
+account-hub-email-button = Määritä sähköpostitili
+account-hub-new-email-button = Hanki uusi sähköpostiosoite
+account-hub-calendar-button = Määritä kalenteri
+account-hub-address-book-button = Määritä osoitekirja
+account-hub-chat-button = Määritä keskustelu
+account-hub-feed-button = Määritä RSS-syöte
+account-hub-import-button = Tuo profiili
+
+## Email page
+
+account-hub-email-title = Määritä sähköpostitilisi
+account-hub-email-cancel-button = Peruuta
+account-hub-email-back-button = Edellinen
+account-hub-email-continue-button = Jatka
+account-hub-email-confirm-button = Vahvista

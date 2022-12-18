@@ -5,9 +5,12 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } kutsui sinut:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } päivitti:
+calendar-invitation-panel-status-new = Sinut on kutsuttu tähän tapahtumaan.
+calendar-invitation-panel-status-processed = Tämä tapahtuma on jo lisätty kalenteriisi.
+calendar-invitation-panel-status-updateminor = Tämä viesti sisältää päivityksen tähän tapahtumaan.
+calendar-invitation-panel-status-updatemajor = Tämä viesti sisältää päivityksen tähän tapahtumaan. Sinun tulee vahvistaa osallistumisesi uudelleen.
+calendar-invitation-panel-status-cancelled = Tämä viesti sisältää tämän tapahtuman peruutuksen.
+calendar-invitation-panel-status-cancelled-notfound = Tämä viesti sisältää peruutuksen tapahtumalle, jota ei löydy kalenteristasi.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } perui:
@@ -15,7 +18,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } perui:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Tallenna
-calendar-invitation-panel-save-button = Tallenna
 calendar-invitation-panel-view-button = Näytä
 calendar-invitation-panel-update-button = Päivitä
 calendar-invitation-panel-delete-button = Poista
@@ -23,6 +25,11 @@ calendar-invitation-panel-accept-button = Kyllä
 calendar-invitation-panel-decline-button = Ei
 calendar-invitation-panel-tentative-button = Ehkä
 calendar-invitation-panel-reply-status = * Et ole vielä päättänyt tai vastannut
+calendar-invitation-panel-more-button = Lisää
+calendar-invitation-panel-menu-item-save =
+    .label = Tallenna kalenteriin
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Näytä muutokset
 calendar-invitation-panel-prop-title-when = Aika:
 calendar-invitation-panel-prop-title-location = Sijainti:
 # Variables:
@@ -52,3 +59,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } odottaa
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } osallistujaa
 calendar-invitation-panel-prop-title-attachments = Liitteet:
+calendar-invitation-change-indicator-removed = Poistettu
+calendar-invitation-change-indicator-added = Uusi
+calendar-invitation-change-indicator-modified = Muutettu

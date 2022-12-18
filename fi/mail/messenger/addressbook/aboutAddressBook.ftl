@@ -83,7 +83,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = Sähköpostiosoitteet
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Kutsumanimi
 about-addressbook-column-header-phonenumbers = Puhelinnumerot
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -102,6 +101,18 @@ about-addressbook-column-label-organization =
 about-addressbook-column-header-addrbook = Osoitekirja
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
+about-addressbook-column-label-generatedname2 =
+    .label = Nimi
+about-addressbook-column-label-emailaddresses2 =
+    .label = Sähköpostiosoitteet
+about-addressbook-column-label-nickname2 =
+    .label = Kutsumanimi
+about-addressbook-column-label-phonenumbers2 =
+    .label = Puhelinnumerot
+about-addressbook-column-label-addresses2 =
+    .label = Osoitteet
+about-addressbook-column-label-addrbook2 =
+    .label = Osoitekirja
 
 ## Card list placeholder
 ## Shown when there are no cards in the list

@@ -112,8 +112,17 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Etsi avaimia verkossa
     .accesskey = E
+openpgp-key-man-publish-cmd =
+    .label = Julkaise
+    .accesskey = J
 openpgp-key-man-discover-prompt = Etsi OpenPGP-avaimia verkossa, avainpalvelimissa tai WKD-protokollaa käyttäen kirjoittamalla joko sähköpostiosoitteesi tai avaimesi tunniste (ID).
 openpgp-key-man-discover-progress = Etsitään…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Julkinen avain lähetetty avainpalvelimelle "{ $keyserver }".
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Julkisen avaimen lähettäminen avainpalvelimelle "{ $keyserver }" epäonnistui.
 openpgp-key-copy-key =
     .label = Kopioi julkinen avain
     .accesskey = o

@@ -688,6 +688,8 @@ search-results-help-link = Tarvitsetko apua? Vieraile <a data-l10n-name="url">{ 
 
 ## Sync Tab
 
+sync-pane-sign-in = Kirjaudu sisään
+sync-pane-remove-account = Poista tili
 sync-pane-edit-photo =
     .title = Vaihda profiilikuva
 sync-pane-manage-account = Hallinnoi tiliä
@@ -696,3 +698,16 @@ sync-pane-device-name-title = Laitteen nimi
 sync-pane-change-device-name = Muuta laitteen nimi
 sync-pane-cancel = Peruuta
 sync-pane-save = Tallenna
+sync-pane-show-synced-header-on = Synkronointi PÄÄLLÄ
+sync-pane-show-synced-header-off = Synkronointi POIS PÄÄLTÄ
+sync-pane-sync-now = Synkronoi nyt
+sync-panel-sync-now-syncing = Synkronoidaan…
+show-synced-list-heading = Näitä synkronoidaan parhaillaan:
+show-synced-learn-more = Lue lisää…
+show-synced-item-account = Sähköpostitilit
+show-synced-item-address = Osoitekirjat
+show-synced-item-calendar = Kalenterit
+show-synced-change = Muokkaa…
+synced-acount-item-server-config = Palvelimen määritys
+synced-acount-item-filters = Suodattimet
+synced-acount-item-keys = OpenPGP - S/MIME
