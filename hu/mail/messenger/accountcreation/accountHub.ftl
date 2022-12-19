@@ -27,3 +27,11 @@ account-hub-newsgroup-button = Hírcsoport létrehozása
 account-hub-import-button = Profil importálása
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Jelentkezzen be a Syncbe…
+
+## Email page
+
+account-hub-email-title = Állítsa be e-mail-fiókját
+account-hub-email-cancel-button = Mégse
+account-hub-email-back-button = Vissza
+account-hub-email-continue-button = Folytatás
+account-hub-email-confirm-button = Megerősítés
