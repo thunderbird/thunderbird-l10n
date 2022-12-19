@@ -18,6 +18,12 @@ appmenu-sync-manage =
     .accesskey = M
 appmenu-sync-account =
     .value = example@example.com
+appmenu-sync-now =
+    .label = Sync Now
+    .accesskey = N
+appmenu-sync-settings =
+    .label = Sync Settings
+    .accesskey = S
 appmenu-sync-sign-out =
     .label = Sign Out…
     .accesskey = O
@@ -190,7 +196,13 @@ appmenu-help-about-product =
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = Downloading { -brand-shorter-name } update
 appmenuitem-banner-update-available =
     .label = Update available — download now
 appmenuitem-banner-update-manual =
     .label = Update available — download now
+appmenuitem-banner-update-unsupported =
+    .label = Unable to update — system incompatible
+appmenuitem-banner-update-restart =
+    .label = Update available — restart now
