@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Kalendar
 category-calendar =
     .tooltiptext = Kalendar
+pane-sync-title = Sinkronizacija
+category-sync =
+    .tooltiptext = Sinkronizacija
 general-language-and-appearance-header = Jezik i izgled
 general-incoming-mail-header = Dolazna pošta
 general-files-and-attachment-header = Datoteke i privici
@@ -711,3 +714,44 @@ search-results-empty-message2 =
        *[other] Oprosti! Među postavkama nema rezultata za “<span data-l10n-name="query"></span>”.
     }
 search-results-help-link = Trebaš pomoć? Posjeti <a data-l10n-name="url">{ -brand-short-name } podršku</a>
+
+## Sync Tab
+
+sync-signedout-caption = Ponesi svoj web sa sobom
+sync-signedout-description = Sinkronizirajte svoje račune, adresare, kalendare, dodatke i postavke kroz sve svoje uređaje.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Prijavi se za sinkronizaciju…
+sync-pane-header = Sinkronizacija
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” nije potvrđen.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Prijavi se za ponovno povezivanje s “{ $userEmail }”
+sync-pane-resend-verification = Ponovno pošalji potvrdu
+sync-pane-sign-in = Prijava
+sync-pane-remove-account = Ukloni račun
+sync-pane-edit-photo =
+    .title = Promijeni sliku profila
+sync-pane-manage-account = Upravljaj računom
+sync-pane-sign-out = Odjava…
+sync-pane-device-name-title = Naziv uređaja
+sync-pane-change-device-name = Promijeni naziv uređaja
+sync-pane-cancel = Odustani
+sync-pane-save = Spremi
+sync-pane-show-synced-header-on = Sinkroniziranje UKLJUČENO
+sync-pane-show-synced-header-off = Sinkroniziranje ISKLJUČENO
+sync-pane-sync-now = Sinkroniziraj sada
+sync-panel-sync-now-syncing = Sinkroniziranje…
+show-synced-list-heading = Trenutno sinkronizirate ove stavke:
+show-synced-learn-more = Saznajte više…
+show-synced-item-account = Računi e-pošte
+show-synced-item-address = Adresari
+show-synced-item-calendar = Kalendari
+show-synced-item-identity = Identiteti
+show-synced-change = Promijeni…
+synced-acount-item-server-config = Postavke poslužitelja
+synced-acount-item-filters = Filteri
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Sinkronizirajte svoje račune e-pošte, adresare, kalendare i identitete kroz sve svoje uređaje.
+sync-disconnected-turn-on-sync = Uključi sinkronizaciju…
