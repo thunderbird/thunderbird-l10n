@@ -5,9 +5,12 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } te ha invitado a:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } ha actualizado:
+calendar-invitation-panel-status-new = Ha sido invitado a este evento.
+calendar-invitation-panel-status-processed = El evento ya ha sido agregado al calendario.
+calendar-invitation-panel-status-updateminor = Este mensaje contiene una actualización a este evento.
+calendar-invitation-panel-status-updatemajor = Este mensaje contiene una actualización a este evento. Debe volver a confirmar la asistencia.
+calendar-invitation-panel-status-cancelled = Este mensaje contiene una cancelación a este evento.
+calendar-invitation-panel-status-cancelled-notfound = Este mensaje contiene una cancelación a un evento que no se encuentra en el calendario.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } ha cancelado:
@@ -15,7 +18,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } ha cancelado:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Guardar
-calendar-invitation-panel-save-button = Guardar
 calendar-invitation-panel-view-button = Ver
 calendar-invitation-panel-update-button = Actualizar
 calendar-invitation-panel-delete-button = Borrar
@@ -23,6 +25,11 @@ calendar-invitation-panel-accept-button = Sí
 calendar-invitation-panel-decline-button = No
 calendar-invitation-panel-tentative-button = Quizás
 calendar-invitation-panel-reply-status = * Aún no has decidido ni respondido
+calendar-invitation-panel-more-button = Más
+calendar-invitation-panel-menu-item-save =
+    .label = Guardar en el calendario
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Mostrar cambios
 calendar-invitation-panel-prop-title-when = Cuando:
 calendar-invitation-panel-prop-title-location = Ubicación:
 # Variables:
@@ -94,3 +101,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } pendientes
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } participantes
 calendar-invitation-panel-prop-title-attachments = Adjuntos:
+calendar-invitation-change-indicator-removed = Eliminado
+calendar-invitation-change-indicator-added = Nuevo
+calendar-invitation-change-indicator-modified = Cambiado
