@@ -5,9 +5,10 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } vas je pozvao u:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } je ažurirao:
+calendar-invitation-panel-status-new = Pozvani ste na ovaj događaj.
+calendar-invitation-panel-status-processed = Ovaj događaj je već dodan u vaš kalendar.
+calendar-invitation-panel-status-updateminor = Poruka sadrži ažuriranje za ovaj događaj.
+calendar-invitation-panel-status-updatemajor = Poruka sadrži ažuriranje za ovaj događaj. Trebate ponovno potvrditi svoje sudjelovanje.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } je otkazao:
@@ -15,7 +16,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } je otkazao:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Spremi
-calendar-invitation-panel-save-button = Spremi
 calendar-invitation-panel-view-button = Prikaži
 calendar-invitation-panel-update-button = Ažuriraj
 calendar-invitation-panel-delete-button = Obriši

@@ -93,10 +93,33 @@ appmenu-create-contact =
 
 ## Open
 
+appmenu-open-file-panel =
+    .label = Otvori iz datoteke
+    .accesskey = O
+appmenu-open-file-panel-title =
+    .title = Otvori iz datoteke
+appmenu-open-message =
+    .label = Poruka…
+    .accesskey = u
+appmenu-open-calendar =
+    .label = Kalendar…
+    .accesskey = K
 
 ## View / Layout
 
+appmenu-view-panel-title =
+    .title = Prikaži
+appmenu-view-panel =
+    .label = Prikaži
+    .accesskey = r
 appmenu-font-size-value = Veličina fonta
+appmenu-mail-uidensity-value = Zbijenost
+appmenu-uidensity-compact =
+    .tooltiptext = Kompaktno
+appmenu-uidensity-default =
+    .tooltiptext = Zadano
+appmenu-uidensity-relaxed =
+    .tooltiptext = Opušteno
 appmenuitem-font-size-enlarge =
     .tooltiptext = Povećaj veličinu fonta
 appmenuitem-font-size-reduce =
@@ -109,9 +132,77 @@ appmenuitem-font-size-reset =
 
 ## Tools
 
+appmenu-tools-panel-title =
+    .title = Alati
+appmenu-tools-panel =
+    .label = Alati
+    .accesskey = t
+appmenu-tools-import =
+    .label = Uvoz
+    .accesskey = U
+appmenu-tools-export =
+    .label = Izvoz
+    .accesskey = I
+appmenu-tools-message-search =
+    .label = Traži poruke
+    .accesskey = T
+appmenu-tools-message-filters =
+    .label = Filteri poruka
+    .accesskey = F
+appmenu-tools-download-manager =
+    .label = Upravitelj preuzimanjima
+    .accesskey = U
+appmenu-tools-activity-manager =
+    .label = Upravitelj aktivnostima
+    .accesskey = a
+appmenu-tools-dev-tools =
+    .label = Programerski alati
+    .accesskey = t
 
 ## Help
 
+appmenu-help-panel-title =
+    .title = Pomoć
+appmenu-help-get-help =
+    .label = Potraži pomoć
+    .accesskey = r
+appmenu-help-explore-features =
+    .label = Istraži funkcije
+    .accesskey = f
+appmenu-help-shortcuts =
+    .label = Tipkovnički prečaci
+    .accesskey = k
+appmenu-help-get-involved =
+    .label = Uključi se
+    .accesskey = U
+appmenu-help-donation =
+    .label = Donirajte
+    .accesskey = D
+appmenu-help-share-feedback =
+    .label = Podijelite ideje i povratne informacije
+    .accesskey = P
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Način rada za rješavanje problema…
+    .accesskey = m
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Isključi način rada za rješavanje problema
+    .accesskey = m
+appmenu-help-troubleshooting-info =
+    .label = Informacije rješavanja problema
+    .accesskey = n
+appmenu-help-about-product =
+    .label = O { -brand-short-name }u
+    .accesskey = O
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = Preuzimanje nadogradnje za { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Dostupna nadogradnja — preuzmi sada
+appmenuitem-banner-update-manual =
+    .label = Dostupna nadogradnja — preuzmi sada
+appmenuitem-banner-update-unsupported =
+    .label = Nije moguće nadograditi — sustav nije kompatibilan
+appmenuitem-banner-update-restart =
+    .label = Dostupna nadogradnja — ponovno pokreni sada
