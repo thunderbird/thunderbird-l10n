@@ -5,12 +5,10 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } te invitava a:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } ha actualisate:
 calendar-invitation-panel-status-new = Tu ha essite invitate a iste evento.
 calendar-invitation-panel-status-processed = Le evento ha jam essite addite a tu agenda.
 calendar-invitation-panel-status-updateminor = Iste message contine un actualisation pro iste evento.
+calendar-invitation-panel-status-updatemajor = Iste message contine un actualisation pro iste evento. Tu deberea reconfirmar tu participation.
 calendar-invitation-panel-status-cancelled = Iste message contine un cancellation de iste evento.
 calendar-invitation-panel-status-cancelled-notfound = Iste message contine le cancellation de un evento non trovate in tu agenda.
 # Variables:
@@ -20,7 +18,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } ha cancellate:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Salvar
-calendar-invitation-panel-save-button = Salvar
 calendar-invitation-panel-view-button = Vider
 calendar-invitation-panel-update-button = Actualisar
 calendar-invitation-panel-delete-button = Deler

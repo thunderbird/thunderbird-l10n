@@ -117,6 +117,12 @@ openpgp-key-man-publish-cmd =
     .accesskey = P
 openpgp-key-man-discover-prompt = Pro discoperir claves OpenPGP online, sur servitores-de-claves o per le protocollo WKD, Insere un adresse email o a ID de clave.
 openpgp-key-man-discover-progress = In cerca…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Clave public inviate a “{ $keyserver }”.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Impossibile inviar la clave public a “{ $keyserver }”.
 openpgp-key-copy-key =
     .label = Copiar clave public
     .accesskey = C
