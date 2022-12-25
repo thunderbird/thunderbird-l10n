@@ -506,7 +506,7 @@ cloud-account-description = Pridať novú službu na odosielanie príloh
 
 ## Privacy Tab
 
-mail-content = Poštový obsah
+mail-content = Obsah e-mailových správ
 remote-content-label =
     .label = Povoliť vzdialený obsah v správach
     .accesskey = a
