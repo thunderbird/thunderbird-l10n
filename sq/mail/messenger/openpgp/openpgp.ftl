@@ -112,8 +112,17 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Zbuloni Kyçe Në Internet
     .accesskey = Z
+openpgp-key-man-publish-cmd =
+    .label = Botoje
+    .accesskey = B
 openpgp-key-man-discover-prompt = Që të zbuloni kyçe OpenPGP në internet, në shërbyes kyçesh apo duke përdorur protokollin WKD, jepni ose një adresë email, ose një ID kyçi.
 openpgp-key-man-discover-progress = Po kërkohet…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Kyçi publik u dërgua te “{ $keyserver }”.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = S’u arrit të dërgohej kyçi publik te “{ $keyserver }”.
 openpgp-key-copy-key =
     .label = Kopjo Kyç Publik
     .accesskey = K

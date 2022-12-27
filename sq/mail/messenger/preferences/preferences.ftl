@@ -719,8 +719,18 @@ search-results-help-link = Ju duhet ndihmë? Vizitoni <a data-l10n-name="url">As
 
 sync-signedout-caption = Merreni Web-in me vete
 sync-signedout-description = Njëkohësoni llogaritë tuaja, libra adresash, kalendarë, shtesa dhe rregullime nëpër krejt pajisjet tuaja.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Për njëkohësim, bëni hyrjen…
 sync-pane-header = Njëkohësoni
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” s’është i verifikuar.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Që të rilidhet “{ $userEmail }”, ju lutemi, bëni hyrjen
+sync-pane-resend-verification = Ridërgo verifikim
+sync-pane-sign-in = Hyni
+sync-pane-remove-account = Hiqe llogarinë
 sync-pane-edit-photo =
     .title = Ndryshoni foto profili
 sync-pane-manage-account = Administroni llogarinë

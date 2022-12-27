@@ -14,3 +14,24 @@ account-hub-title = Qendër Llogarish
 account-hub-release-notes = Shënime hedhjeje në qarkullim
 account-hub-support = Asistencë
 account-hub-donate = Dhuroni
+
+## Start page
+
+account-hub-email-button = Ujdisni një llogari email
+account-hub-new-email-button = Merrni një adresë të re email
+account-hub-calendar-button = Ujdisni kalendar
+account-hub-address-book-button = Ujdisni libër adresash
+account-hub-chat-button = Ujdisni fjalosje
+account-hub-feed-button = Ujdisni prurje RSS
+account-hub-newsgroup-button = Ujdisni grup lajmesh
+account-hub-import-button = Importoni profil
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Hyni në Sync…
+
+## Email page
+
+account-hub-email-title = Ujdisni llogarinë tuaj email
+account-hub-email-cancel-button = Anuloje
+account-hub-email-back-button = Mbrapsht
+account-hub-email-continue-button = Vazhdo
+account-hub-email-confirm-button = Ripohojeni

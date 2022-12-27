@@ -5,9 +5,12 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } ju ka ftuar:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } ka përditësuar:
+calendar-invitation-panel-status-new = U ftuat te kjo veprimtari.
+calendar-invitation-panel-status-processed = Kjo veprimtari është shtuar tashmë në kalendarin tuaj.
+calendar-invitation-panel-status-updateminor = Ky mesazh përmban një përditësim për këtë veprimtari.
+calendar-invitation-panel-status-updatemajor = Ky mesazh përmban një përdorim për këtë veprimtari. Duhet të ripohoni pjesëmarrjen tuaj.
+calendar-invitation-panel-status-cancelled = Ky mesazh përmban një anulim të kësaj veprimtarie.
+calendar-invitation-panel-status-cancelled-notfound = Ky mesazh përmban një anulim për një veprimtari e cila s’gjendet në kalendarin tuaj.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } ka anuluar:
@@ -15,7 +18,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } ka anuluar:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Ruaje
-calendar-invitation-panel-save-button = Ruaje
 calendar-invitation-panel-view-button = Shiheni
 calendar-invitation-panel-update-button = Përditësoje
 calendar-invitation-panel-delete-button = Fshije
@@ -23,6 +25,11 @@ calendar-invitation-panel-accept-button = Po
 calendar-invitation-panel-decline-button = Jo
 calendar-invitation-panel-tentative-button = Ndoshta
 calendar-invitation-panel-reply-status = * S’e keni vendosur, ose s’jeni përgjigjur ende
+calendar-invitation-panel-more-button = Më tepër
+calendar-invitation-panel-menu-item-save =
+    .label = Ruaje në kalendar
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Shfaqi Ndryshimet
 calendar-invitation-panel-prop-title-when = Kur:
 calendar-invitation-panel-prop-title-location = Vendndodhje:
 # Variables:
@@ -94,3 +101,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } pezull
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } pjesëmarrës
 calendar-invitation-panel-prop-title-attachments = Bashkëngjitje:
+calendar-invitation-change-indicator-removed = Hequr
+calendar-invitation-change-indicator-added = E re
+calendar-invitation-change-indicator-modified = E ndryshuar
