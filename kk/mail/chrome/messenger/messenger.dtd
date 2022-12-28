@@ -130,7 +130,7 @@
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Мәзір жолағы">
 <!ENTITY menubarCmd.accesskey "М">
-<!ENTITY showMessengerToolbarCmd.label "Басты самандар панелі">
+<!ENTITY showMessengerToolbarCmd.label "Басты саймандар панелі">
 <!ENTITY showMessengerToolbarCmd.accesskey "м">
 <!ENTITY customizeToolbar.label "Баптау…">
 <!ENTITY customizeToolbar.accesskey "а">
