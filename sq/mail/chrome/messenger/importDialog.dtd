@@ -3,14 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!--
-LOCALIZATION NOTE : 'Communicator 4.x' is the used for previous versions of 
-Netscape Communicator, Please translate using the brandname in respective 
-languages for Netscape Communicator 4 releases.
-LOCALIZATION NOTE : Do not translate any of the occurrences of the word 
-"&brandShortName;" below.
--->
-
-<!--
 LOCALIZATION NOTE : 'Communicator 4.x' is the used for previous versions of
 Netscape Communicator, Please translate using the brandname in respective
 languages for Netscape Communicator 4 releases.
@@ -45,7 +37,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY acctName.accesskey       "E">
 <!ENTITY noModulesFound.label     "S&apos;u gjet aplikacion apo kartelë prej nga të importohen të dhëna.">
 
-<!ENTITY back.label               "&lt; Mbrapsht">
+<!ENTITY back.label               "&lt;  Mbrapsht">
 <!ENTITY forward.label            "Pasuesi &gt;">
 <!ENTITY finish.label             "Përfundoje">
 <!ENTITY cancel.label             "Anuloje">
