@@ -5,7 +5,10 @@
 rights-title = Um réttindi þín
 rights-intro = { -brand-full-name } er frjáls og opinn hugbúnaður, búinn til af samfélagi sem samanstendur af þúsundum manns allstaðar úr heiminum. Hér eru nokkrir hlutir sem þú ættir að vita:
 rights-intro-point-1 = { -brand-short-name } er á boðstólum fyrir þig samkvæmt skilmálum <a data-l10n-name="mozilla-public-license-link">Mozilla Public License</a>. Þetta þýðir að þú mátt nota, afrita og dreifa { -brand-short-name } til annarra.  Þú mátt einnig breyta frumkóða { -brand-short-name } hvernig sem þér hentar. Mozilla Public License gefur þér einnig rétt til að dreifa breyttum útgáfum.
-rights-intro-point-2 = Þú hefur ekki leyfi til að nota vörumerki eða hefur notkunarleyfi fyrir vörumerkjum frá Mozilla Foundation stofnunni eða öðrum aðilum, þar með talið án allra takmarkana Firefox-nafnið eða fyrirtækismerki þess. Meiri upplýsingar má sjá <a data-l10n-name="mozilla-trademarks-link">hér</a>.
+rights-intro-point-2 =
+    Þú hefur ekki leyfi ti lað nota vörumerki eða hefur leyfi fyrir vörumerkjum 
+    frá Mozilla stofnunni eða öðrum aðilum, innifelur það í sér án allra takmarkana 
+    Thunderbird-nafnið eða fyrirtækismerki. Meiri upplýsingar fást á <a data-l10n-name="mozilla-trademarks-link">hérna</a>.
 rights-intro-point-3 = Sumir eiginleikar í { -brand-short-name }, eins og t.d. að tilkynna hrun, gefur þér tækifæri á að senda tilkynningu til { -vendor-short-name }. Með því að velja að senda tilkynningu, gefurðu { -vendor-short-name } leyfi til að nota tilkynninguna til að laga vörur sínar, og leyfi til að birta tilkynninguna á vefsvæðum sínum, og að deila tilkynningunni.
 rights-intro-point-4 = Hvernig meðferð persónuupplýsinga og upplýsingar sem eru sendar til { -vendor-short-name } með { -brand-short-name } er háttað er lýst í <a data-l10n-name="mozilla-privacy-policy-link">Meðferð persónuupplýsinga hjá { -brand-short-name }</a>.
 rights-intro-point-4-unbranded = Allar reglur um meðferð persónuupplýsinga fyrir þessa vöru ættu að birtast hér.
@@ -30,7 +33,12 @@ rights-webservices-unbranded = Hér ætti að vera yfirlit yfir þær vefþjónu
 rights-webservices-term-unbranded = Allir viðeigandi skilmálar fyrir þessa vöru eiga að birtast hér.
 rights-webservices-term-1 = { -vendor-short-name } og þeirra þátttakendur, leyfisaðilar og meðlimir vinna að því að útvega uppfærðar þjónustur og nákvæmar upplýsingar.  Hinsvegar, geta þeir ekki ábyrgst að þessar upplýsingar séu alhliða eða réttar.  Sem dæmi, gæti örugg vöfrun ekki endilega borið kennsl á óörugg vefsvæði og sum vefsvæði gætu verið rangt skilgreind sem örugg, og einnig eru staðsetningar frá staðsetningar þjónustunni bara ágiskanir og við eða þjónustuaðilar okkar geta ekki borið ábyrgð á að staðsetningar sem veittar eru séu nákvæmar.
 rights-webservices-term-2 = { -vendor-short-name } hefur leyfi til að stöðva eða breyta þjónustunum að eigin geðþótta.
-rights-webservices-term-3 = Þér er velkomið að nota þessar þjónustur með meðfylgjandi útgáfu af { -brand-short-name }, og { -vendor-short-name } gefur þér öll réttindi til þess.  { -vendor-short-name } og leyfishafar áskilja sér hinsvegar allan rétt varðandi þjónusturnar.  Þessir skilmálar takmarka ekki nein réttindi sem eru leyfð með opnum hugbúnaði sem á við { -brand-short-name } og samsvarandi útgáfur af frumkóða { -brand-short-name }.
+rights-webservices-term-3 =
+    Þér er velkomið að nota þessar þjónustur með meðfylgjandi útgáfu af 
+    { -brand-short-name }, og { -vendor-short-name } gefur þér öll réttindi til þess.  
+    { -vendor-short-name } og leyfishafar áskilja sér hinsvegar allan rétt varðandi 
+    þjónusturnar. Þessir skilmálar takmarka ekki nein réttindi sem eru leyfð undir 
+    opnum hugbúnaði sem eiga við { -brand-short-name } og samsvarandi útgáfur af frumkóða { -brand-short-name }.
 rights-webservices-term-4 =
     <strong>Þessar þjónustur eru ætlaðar til notkunar "án allrar ábyrgðar."
     { -vendor-short-name }, þátttakendur, leyfisaðilar, og dreifingaraðilar, 
