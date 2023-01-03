@@ -15,7 +15,7 @@
 -->
 <!ENTITY update.checkForUpdatesButton.label       "განახლებების შემოწმება">
 <!ENTITY update.checkForUpdatesButton.accesskey   "შ">
-<!ENTITY update.updateButton.label3               "გასაახლებლად, კვლავ გაუშვით &brandShorterName;">
+<!ENTITY update.updateButton.label3               "გასაახლებლად კვლავ გაუშვით &brandShorterName;">
 <!ENTITY update.updateButton.accesskey            "ხ">
 
 
