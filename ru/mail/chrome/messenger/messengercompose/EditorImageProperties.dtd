@@ -7,7 +7,7 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "Свойства изображения">
 
-<!ENTITY pixelsPopup.value "пикселов">
+<!ENTITY pixelsPopup.value "пикселей">
 
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Адрес изображения:">

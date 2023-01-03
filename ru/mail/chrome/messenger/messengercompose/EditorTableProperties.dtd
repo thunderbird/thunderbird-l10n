@@ -23,8 +23,8 @@
 <!ENTITY tableSpacing.accessKey           "у">
 <!ENTITY tablePadding.label               "Поля:">
 <!ENTITY tablePadding.accessKey           "П">
-<!ENTITY tablePxBetwCells.label           "пикселов между ячейками">
-<!ENTITY tablePxBetwBrdrCellContent.label "пикселов между границей ячейки и её содержимым">
+<!ENTITY tablePxBetwCells.label           "пикселей между ячейками">
+<!ENTITY tablePxBetwBrdrCellContent.label "пикселей между границей ячейки и её содержимым">
 <!ENTITY tableAlignment.label             "Выравнивание таблицы:">
 <!ENTITY tableAlignment.accessKey         "ы">
 <!ENTITY tableCaption.label               "Заголовок:">
@@ -67,7 +67,7 @@
 
 <!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Размеры">
-<!ENTITY pixels.label                     "пикселов">
+<!ENTITY pixels.label                     "пикселей">
 <!ENTITY backgroundColor.label            "Цвет фона:">
 <!ENTITY backgroundColor.accessKey        "Ц">
 <!ENTITY AlignLeft.label                  "Влево">

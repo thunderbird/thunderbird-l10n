@@ -11,7 +11,7 @@
 <!ENTITY heightEditField.accessKey "В">
 <!ENTITY widthEditField.label "Ширина:">
 <!ENTITY widthEditField.accessKey "Ш">
-<!ENTITY pixelsPopup.value "пикселов">
+<!ENTITY pixelsPopup.value "пикселей">
 <!ENTITY alignmentBox.label "Выравнивание">
 <!ENTITY leftRadio.label "Влево">
 <!ENTITY leftRadio.accessKey "В">

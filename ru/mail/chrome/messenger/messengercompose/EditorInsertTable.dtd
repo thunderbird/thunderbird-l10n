@@ -15,4 +15,4 @@
 <!ENTITY borderEditField.label "Граница:">
 <!ENTITY borderEditField.accessKey "Г">
 <!ENTITY borderEditField.tooltip "Введите ширину границы или ноль (0), если хотите сделать границу невидимой">
-<!ENTITY pixels.label "пикселов">
+<!ENTITY pixels.label "пикселей">
