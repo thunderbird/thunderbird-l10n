@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Tuo kalenteritapahtumat ja -tehtävät
+calendar-ics-file-window-title = Tuo kalenteritapahtumat ja -tehtävät
 calendar-ics-file-dialog-import-event-button-label = Tuo tapahtuma
 calendar-ics-file-dialog-import-task-button-label = Tuo tehtävä
 calendar-ics-file-dialog-2 =
