@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Күнтізбе оқиғалары мен тапсырмаларды импорттау
+calendar-ics-file-window-title = Күнтізбе оқиғалары мен тапсырмаларды импорттау
 calendar-ics-file-dialog-import-event-button-label = Оқиғаны импорттау
 calendar-ics-file-dialog-import-task-button-label = Тапсырманы импорттау
 calendar-ics-file-dialog-2 =
