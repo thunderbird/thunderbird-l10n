@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Inportatu egutegi gertaerak eta zereginak
+calendar-ics-file-window-title = Inportatu egutegi gertaerak eta zereginak
 calendar-ics-file-dialog-import-event-button-label = Inportatu gertaera
 calendar-ics-file-dialog-import-task-button-label = Inportatu zeregina
 calendar-ics-file-dialog-2 =
