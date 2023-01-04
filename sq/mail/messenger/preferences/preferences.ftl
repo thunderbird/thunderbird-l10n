@@ -749,6 +749,7 @@ show-synced-item-account = Llogari Email
 show-synced-item-address = Libra Adresash
 show-synced-item-calendar = Kalendarë
 show-synced-item-identity = Identitete
+show-synced-item-passwords = Fjalëkalime
 show-synced-change = Ndryshojini…
 synced-acount-item-server-config = Formësim Shërbyesi
 synced-acount-item-filters = Filtra
