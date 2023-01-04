@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Nhập sự kiện và tác vụ lịch
+calendar-ics-file-window-title = Nhập sự kiện và tác vụ lịch
 calendar-ics-file-dialog-import-event-button-label = Nhập sự kiện
 calendar-ics-file-dialog-import-task-button-label = Nhập tác vụ
 calendar-ics-file-dialog-2 =
