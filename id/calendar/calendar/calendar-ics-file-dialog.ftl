@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Impor Kalender Acara dan Tugas
+calendar-ics-file-window-title = Impor Kalender Acara dan Tugas
 calendar-ics-file-dialog-import-event-button-label = Impor Acara
 calendar-ics-file-dialog-import-task-button-label = Impor Tugas
 calendar-ics-file-dialog-2 =
