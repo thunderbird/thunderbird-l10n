@@ -749,6 +749,7 @@ show-synced-item-account = Tölvupóstsreikningar
 show-synced-item-address = Nafnaskrár
 show-synced-item-calendar = Dagatöl
 show-synced-item-identity = Auðkenni
+show-synced-item-passwords = Lykilorð
 show-synced-change = Breyta…
 synced-acount-item-server-config = Uppsetning netþjóns
 synced-acount-item-filters = Síur
