@@ -749,6 +749,7 @@ show-synced-item-account = 電子郵件帳號
 show-synced-item-address = 通訊錄
 show-synced-item-calendar = 行事曆
 show-synced-item-identity = 身份
+show-synced-item-passwords = 密碼
 show-synced-change = 修改…
 synced-acount-item-server-config = 伺服器設定
 synced-acount-item-filters = 篩選器
