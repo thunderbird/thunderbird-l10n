@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = IMporter kalenderhendingar og oppgåver
+calendar-ics-file-window-title = IMporter kalenderhendingar og oppgåver
 calendar-ics-file-dialog-import-event-button-label = Importer hendingar
 calendar-ics-file-dialog-import-task-button-label = Importer oppgåver
 calendar-ics-file-dialog-2 =
