@@ -761,6 +761,7 @@ show-synced-item-account = E-mailaccounts
 show-synced-item-address = Adresboeken
 show-synced-item-calendar = Agenda’s
 show-synced-item-identity = Identiteiten
+show-synced-item-passwords = Wachtwoorden
 show-synced-change = Wijzigen…
 synced-acount-item-server-config = Serverconfiguratie
 synced-acount-item-filters = Filters
