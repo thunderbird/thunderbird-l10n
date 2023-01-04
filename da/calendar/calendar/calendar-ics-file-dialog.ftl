@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Importer begivenheder og opgaver
+calendar-ics-file-window-title = Importer begivenheder og opgaver
 calendar-ics-file-dialog-import-event-button-label = Importer begivenhed
 calendar-ics-file-dialog-import-task-button-label = Importer opgave
 calendar-ics-file-dialog-2 =
