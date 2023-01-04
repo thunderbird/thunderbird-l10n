@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Importoni Veprimtari dhe Punë Kalendari
+calendar-ics-file-window-title = Importoni Veprimtari dhe Punë Kalendari
 calendar-ics-file-dialog-import-event-button-label = Importoni Veprimtari
 calendar-ics-file-dialog-import-task-button-label = Importoni Punë
 calendar-ics-file-dialog-2 =
