@@ -749,6 +749,7 @@ show-synced-item-account = Email Accounts
 show-synced-item-address = Address Books
 show-synced-item-calendar = Calendars
 show-synced-item-identity = Identities
+show-synced-item-passwords = Passwords
 show-synced-change = Change…
 synced-acount-item-server-config = Server configuration
 synced-acount-item-filters = Filters
