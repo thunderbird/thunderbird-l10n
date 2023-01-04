@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = นำเข้าเหตุการณ์และงานในปฏิทิน
+calendar-ics-file-window-title = นำเข้าเหตุการณ์และงานในปฏิทิน
 calendar-ics-file-dialog-import-event-button-label = นำเข้าเหตุการณ์
 calendar-ics-file-dialog-import-task-button-label = นำเข้างาน
 calendar-ics-file-dialog-2 =
