@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Į kalendorių importuoti įvykius ir užduotis
+calendar-ics-file-window-title = Į kalendorių importuoti įvykius ir užduotis
 calendar-ics-file-dialog-import-event-button-label = Importuoti įvykį
 calendar-ics-file-dialog-import-task-button-label = Importuoti užduotį
 calendar-ics-file-dialog-2 =
