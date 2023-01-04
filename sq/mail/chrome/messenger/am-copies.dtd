@@ -21,7 +21,7 @@
 <!ENTITY saveMessageDlg.label "Shfaq dialog ripohimi kur ruhen mesazhe">
 <!ENTITY saveMessageDlg.accesskey "f">
 <!-- LOCALIZATION NOTE (sentFolderOn.label): OK to translate this, bug #57440 -->
-<!ENTITY sentFolderOn.label "Dosje &quot;Të dërguar&quot; në:">
+<!ENTITY sentFolderOn.label "Dosje “Të dërguar” në:">
 <!ENTITY sentFolderOn.accesskey "d">
 <!ENTITY sentInOtherFolder.label "Tjetër:">
 <!ENTITY sentInOtherFolder.accesskey "T">
@@ -44,7 +44,7 @@
 <!ENTITY draftInOtherFolder.accesskey "j">
 <!ENTITY keepTemplates.label "Gjedhet për mesazhe mbaji në:">
 <!-- LOCALIZATION NOTE (templatesFolderOn.label): OK to translate this, bug #57440 -->
-<!ENTITY templatesFolderOn.label "Dosje &quot;Gjedhesh&quot; në:">
+<!ENTITY templatesFolderOn.label "Dosje “Gjedhe” në:">
 <!ENTITY templatesFolderOn.accesskey "G">
 <!ENTITY templateInOtherFolder.label "Tjetër:">
 <!ENTITY templateInOtherFolder.accesskey "e">

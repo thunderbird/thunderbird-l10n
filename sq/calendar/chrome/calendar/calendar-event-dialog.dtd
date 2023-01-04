@@ -40,16 +40,13 @@
 <!ENTITY event.attendees.notifyundisclosed.tooltip   "Kjo mundësi bën të dërgohet një email ftesë për pjesëmarrës. Çdo ftesë përmban vetëm pjesëmarrësin të cilit i dërgohet, kështu që identitetet e pjesëmarrësve të tjerë nuk zbulohen.">
 <!ENTITY event.attendees.disallowcounter.label       "Çaktivizoje matjen e kohës">
 <!ENTITY event.attendees.disallowcounter.accesskey   "Ç">
-<!ENTITY event.attendees.disallowcounter.tooltip     "Tregon se s&apos;të pranoni kundërpropozime">
+<!ENTITY event.attendees.disallowcounter.tooltip     "Tregon se s’do të pranoni kundërpropozime">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Fshini…">
 <!ENTITY  event.menu.item.delete.accesskey                "F">
-<!ENTITY  event.menu.item.page.setup.label                "Rregullim Faqeje">
-<!ENTITY  event.menu.item.page.setup.accesskey            "R">
-<!ENTITY  event.menu.item.print.label                     "Shtype">
-<!ENTITY  event.menu.item.print.accesskey                 "S">
 
 <!ENTITY  event.menu.edit.label                           "Përpunoni">
 <!ENTITY  event.menu.edit.accesskey                       "P">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "N">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Përshtateni…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "a">
-<!ENTITY  event.menu.view.showlink.label                  "Shfaq Lidhje të Afërta">
-<!ENTITY  event.menu.view.showlink.accesskey              "S">
 
 <!ENTITY  event.menu.options.label                            "Mundësi">
 <!ENTITY  event.menu.options.accesskey                        "M">

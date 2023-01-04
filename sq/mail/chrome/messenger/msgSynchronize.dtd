@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from MsgSynchronize.xul and msgSelectOfflineFolders.xul-->
-
 <!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml-->
 
 <!ENTITY MsgSynchronize.label "Shkarko dhe Njëkohëso Mesazhe">
 <!ENTITY MsgSelect.label "Përbërës për Përdorim Pa Qenë i Lidhur">
-<!ENTITY MsgSyncDesc.label "Nëse keni përzgjedhur tashmë dosje poste ose grupe lajmesh për përdorim pa qenë i lidhur, mund t&apos;i shkarkoni dhe/ose njëkohësoni tani. Përndryshe, përdorni butonin &quot;Përzgjidhni&quot; për të zgjedhur dosje poste dhe grupe lajmesh për përdorim pa qenë i lidhur.">
+<!ENTITY MsgSyncDesc.label "Nëse keni përzgjedhur tashmë dosje poste ose grupe lajmesh për përdorim pa qenë i lidhur, mund t’i shkarkoni dhe/ose njëkohësoni tani. Përndryshe, përdorni butonin “Përzgjidhni” për të zgjedhur dosje poste dhe grupe lajmesh për përdorim pa qenë i lidhur.">
 <!ENTITY MsgSyncDirections.label "Shkarko dhe/ose njëkohëso vijuesen:">
 <!ENTITY syncTypeMail.label "Mesazhe poste">
 <!ENTITY syncTypeMail.accesskey "M">

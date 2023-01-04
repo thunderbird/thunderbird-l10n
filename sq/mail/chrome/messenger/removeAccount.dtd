@@ -12,7 +12,7 @@
 <!ENTITY removeData.accesskey         "d">
 <!ENTITY removeDataChat.label         "Hiq të dhëna bisede">
 <!ENTITY removeDataChat.accesskey     "d">
-<!ENTITY removeDataLocalAccount.desc  "Heq nga disku juaj vendor krejt mesazhet, dosjet dhe filtrat përshoqëruar kësaj llogarie. Kjo nuk prej disa mesazhe të cilët në fakt mund të jenë mbajtur ende në shërbyes. Mos e zgjidhni këtë mundësi, nëse keni në plan të arkivoni të dhënat vendore ose t&apos;i ripërdorni më vonë në &brandShortName;.">
+<!ENTITY removeDataLocalAccount.desc  "Heq nga disku juaj vendor krejt mesazhet, dosjet dhe filtrat përshoqëruar kësaj llogarie. Kjo nuk prej disa mesazhe të cilët në fakt mund të jenë mbajtur ende në shërbyes. Mos e zgjidhni këtë mundësi, nëse keni në plan të arkivoni të dhënat vendore ose t’i ripërdorni më vonë në &brandShortName;.">
 <!ENTITY removeDataServerAccount.desc "Heq nga disku juaj vendor krejt mesazhet, dosjet dhe filtrat përshoqëruar kësaj llogarie. Mesazhet dhe dosjet tuaja mbahen ende në shërbyes.">
 <!ENTITY removeDataChatAccount.desc   "Heq nga disku juaj vendor krejt regjistrat e bisedave përshoqëruar kësaj llogarie.">
 <!ENTITY showData.label               "Shfaq vendndodhje të dhënash">

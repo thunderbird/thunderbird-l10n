@@ -457,7 +457,7 @@
 <!ENTITY addressBookCmd.label "Libër Adresash">
 <!ENTITY addressBookCmd.accesskey "L">
 <!ENTITY addressBookCmd.key "B">
-<!ENTITY addonNoPrefs.label "S&apos;u gjetën rregullime shtese.">
+<!ENTITY addonNoPrefs.label "S’u gjetën rregullime shtese.">
 <!ENTITY activitymanager.label "Përgjegjës Veprimtarie">
 <!ENTITY activitymanager.accesskey "P">
 <!ENTITY imAccountsStatus.label "Gjendje fjalosjeje">

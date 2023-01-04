@@ -9,13 +9,10 @@
 <!ENTITY calendar.newevent.button.tooltip         "Krijoni veprimtari të re" >
 <!ENTITY calendar.newtask.button.tooltip          "Krijoni punë të re" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "Punë" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Shfaq Punët e plotësuara">
 
 <!ENTITY calendar.today.button.label          "Sot">
 <!ENTITY calendar.tomorrow.button.label       "Nesër">
-<!ENTITY calendar.upcoming.button.label       "Së Afërmi">
 
 <!ENTITY calendar.events.filter.all.label "Krejt Veprimtaritë">
 <!ENTITY calendar.events.filter.today.label "Veprimtaritë e Sotme">
@@ -88,8 +85,6 @@
 
 <!ENTITY calendar.newevent.button.label         "Veprimtari e Re" >
 <!ENTITY calendar.newtask.button.label          "Punë e Re" >
-<!ENTITY calendar.print.button.label            "Shtype" >
-<!ENTITY calendar.print.button.accesskey        "S">
 
 <!ENTITY calendar.day.button.label              "Ditë" >
 <!ENTITY calendar.week.button.label             "Javë" >
@@ -355,7 +350,6 @@
 <!ENTITY calendarproperties.color.label                    "Ngjyrë:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Shërbyes Kalendari Sun Java System (WCAP)">
 <!ENTITY calendarproperties.format.label                   "Format:">
 <!ENTITY calendarproperties.location.label                 "Vendndodhje:">
 <!ENTITY calendarproperties.refreshInterval.label          "Rifreskoje Kalendarin:">
@@ -364,9 +358,8 @@
 <!ENTITY calendarproperties.readonly.label                 "Vetëm Lexim">
 <!ENTITY calendarproperties.firealarms.label               "Shfaq Alarme">
 <!ENTITY calendarproperties.cache3.label                   "Mbulim Jashtë Linje">
-<!ENTITY calendarproperties.enabled.label                  "Vëre këtë kalendar në punë">
 <!ENTITY calendarproperties.enabled2.label                 "Aktivizo Këtë Kalendar">
-<!ENTITY calendarproperties.forceDisabled.label            "Ofruesi i këtij kalendari s&apos; u gjet dot. Shpesh kjo ndodh nëse keni çaktivizuar apo çinstaluar disa shtesa.">
+<!ENTITY calendarproperties.forceDisabled.label            "Ofruesi i këtij kalendari s’u gjet dot. Shpesh kjo ndodh nëse keni çaktivizuar apo çinstaluar disa shtesa.">
 <!ENTITY calendarproperties.unsubscribe.label              "Shpajtomë">
 <!ENTITY calendarproperties.unsubscribe.accesskey          "S">
 
@@ -376,27 +369,8 @@
 <!ENTITY calendar.publish.publish.button      "Botoje">
 <!ENTITY calendar.publish.close.button      "Mbylleni">
 
-<!ENTITY calendar.publish.example.url.description   "Diçka e ngjashme me http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Përzgjidhni Kalendar">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Shtypni Një Kalendar">
-<!ENTITY calendar.print.title.label "Titull:">
-<!ENTITY calendar.print.layout.label "Skemë:">
-<!ENTITY calendar.print.range.label "Çfarë të Shtypet">
-<!ENTITY calendar.print.currentView2.label "Pamja e tanishme">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Veprimtaritë/punët e përzgjedhura">
-<!ENTITY calendar.print.tasks.label "Punët">
-<!ENTITY calendar.print.events.label "Veprimtari">
-<!ENTITY calendar.print.custom.label "Interval vetjak të dhënash:">
-<!ENTITY calendar.print.from.label "Nga:">
-<!ENTITY calendar.print.to.label "Deri">
-<!ENTITY calendar.print.settingsGroup.label "Rregullime Shtypjeje">
-<!ENTITY calendar.print.optionsGroup.label "Mundësi">
-<!ENTITY calendar.print.taskswithnoduedate.label "Punë pa datë afati">
-<!ENTITY calendar.print.completedtasks.label "Punë të plotësuara">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Hollësi…">

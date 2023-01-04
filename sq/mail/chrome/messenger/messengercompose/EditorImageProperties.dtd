@@ -19,7 +19,7 @@
 <!ENTITY title.tooltip "Atributi html 'title' që shfaqet si ndihmëz">
 <!ENTITY altText.label "Tekst alternativ:">
 <!ENTITY altText.accessKey "T">
-<!ENTITY altTextEditField.tooltip "Shkruani tekst për t&apos;u shfaqur në vend të figurës">
+<!ENTITY altTextEditField.tooltip "Shkruani tekst për t’u shfaqur në vend të figurës">
 <!ENTITY noAltText.label "Mos përdor tekst alternativ">
 <!ENTITY noAltText.accessKey "M">
 

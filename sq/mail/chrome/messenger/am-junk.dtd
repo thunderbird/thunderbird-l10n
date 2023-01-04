@@ -9,7 +9,7 @@
 
 <!ENTITY move.label "Mesazhet e rinj të pavlerë kaloji tek:">
 <!ENTITY move.accesskey "M">
-<!ENTITY junkFolderOn.label "Dosja &quot;Të pavlerë&quot; te:">
+<!ENTITY junkFolderOn.label "Dosja “Të pavlerë” te:">
 <!ENTITY junkFolderOn.accesskey "D">
 <!ENTITY otherFolder.label "Tjetër:">
 <!ENTITY otherFolder.accesskey "T">
@@ -20,7 +20,7 @@
 <!ENTITY whitelistHeader.label "Mos e shëno si postë të pavlerë, nëse dërguesi është në: ">
 <!ENTITY whitelistHeader.accesskey "M">
 
-<!ENTITY ispHeadersWarning.label "Në u aktivizoftë, &brandShortName;-i vetvetiu do t&apos;i konsiderojë si të pavlerë mesazhet e treguar si të tillë nga ky klasifikues i jashtëm.">
+<!ENTITY ispHeadersWarning.label "Në u aktivizoftë, &brandShortName;-i vetvetiu do t’i konsiderojë si të pavlerë mesazhet e treguar si të tillë nga ky klasifikues i jashtëm.">
 <!ENTITY ispHeaders.label "Zëru besë titujve për postë të pavlerë treguar si të tillë prej: ">
 <!ENTITY ispHeaders.accesskey "Z">
 

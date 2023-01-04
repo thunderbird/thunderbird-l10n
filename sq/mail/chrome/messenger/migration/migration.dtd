@@ -7,7 +7,7 @@
 
 <!ENTITY importFromWin.label            "Importo Mundësi, Rregullime Llogarish, Libër Adresash, Filtra dhe të tjera të dhëna prej:">
 <!ENTITY importFromNonWin.label         "Importo Parapëlqime, Rregullime Llogarish, Libër Adresash, Filtra dhe të tjera të dhëna prej:">
-<!ENTITY importSourceNotFound.label     "S&apos;u gjet aplikacion prej nga të importohen të dhëna.">
+<!ENTITY importSourceNotFound.label     "S’u gjet aplikacion prej nga të importohen të dhëna.">
 
 <!ENTITY importFromNothing.label        "Mos importo gjë">
 <!ENTITY importFromNothing.accesskey    "M">

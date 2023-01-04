@@ -10,7 +10,7 @@
 <!ENTITY usingSubscription.accesskey "v">
 <!ENTITY dualUseFolders.label "Shërbyesi mbulon dosje që përmbajnë nëndosje dhe mesazhe">
 <!ENTITY dualUseFolders.accesskey "S">
-<!ENTITY maximumConnectionsNumber.label "Numër më i madh ndërlidhjesh shërbyesi për t&apos;u ruajtur në fshehtinë">
+<!ENTITY maximumConnectionsNumber.label "Numër më i madh ndërlidhjesh shërbyesi për t’u ruajtur në fshehtinë">
 <!ENTITY maximumConnectionsNumber.accesskey "N">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
 <!ENTITY namespaceDesc.label "Këta parapëlqime përcaktojnë emërhapësirat te shërbyesi juaj IMAP">
@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "T">
 <!ENTITY overrideNamespaces.label "Lejo shërbyesin të anashkalojë këto emërhapësira">
 <!ENTITY overrideNamespaces.accesskey "L">
-<!ENTITY pop3DeferringDesc.label "Kur shkarkohet postë nga shërbyesi i kësaj llogarie, për depozitimin e mesazheve të rinj përdor dosjen vijuese:" >
+<!ENTITY pop3DeferringDesc.label "Kur shkarkohet postë nga shërbyesi i kësaj llogarie, për depozitimin e mesazheve të rinj përdor dosjen vijuese:">
 <!ENTITY accountInbox.label "Të marrë për këtë llogari">
 <!ENTITY accountInbox.accesskey "k">
 <!ENTITY deferToServer.label "Të marrë për tjetër llogari">
