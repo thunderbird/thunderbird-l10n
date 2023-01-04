@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Kalendrisündmuste ja ülesannete importimine
+calendar-ics-file-window-title = Kalendrisündmuste ja ülesannete importimine
 calendar-ics-file-dialog-import-event-button-label = Impordi sündmus
 calendar-ics-file-dialog-import-task-button-label = Impordi ülesanne
 calendar-ics-file-dialog-2 =
