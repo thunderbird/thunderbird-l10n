@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Ներմուծել օրացույցի իրադարձություններ և առաջադրանքներ
+calendar-ics-file-window-title = Ներմուծել օրացույցի իրադարձություններ և առաջադրանքներ
 calendar-ics-file-dialog-import-event-button-label = Ներմուծել իրադարձություն
 calendar-ics-file-dialog-import-task-button-label = Ներմուծման առաջադրանք
 calendar-ics-file-dialog-2 =
