@@ -749,6 +749,7 @@ show-synced-item-account = E-mailové účty
 show-synced-item-address = Adresáre
 show-synced-item-calendar = Kalendáre
 show-synced-item-identity = Identity
+show-synced-item-passwords = Heslá
 show-synced-change = Zmeniť…
 synced-acount-item-server-config = Konfigurácia servera
 synced-acount-item-filters = Filtre
