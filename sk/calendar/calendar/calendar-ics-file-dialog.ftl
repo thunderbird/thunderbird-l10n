@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Importovať udalosti a úlohy
+calendar-ics-file-window-title = Importovať udalosti a úlohy
 calendar-ics-file-dialog-import-event-button-label = Importovať udalosť
 calendar-ics-file-dialog-import-task-button-label = Importovať úlohu
 calendar-ics-file-dialog-2 =
