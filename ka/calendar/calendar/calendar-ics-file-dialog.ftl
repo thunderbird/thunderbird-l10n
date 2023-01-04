@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = გადმოტანა კალენდრის ღონისძიებებისა და დავალებების
+calendar-ics-file-window-title = გადმოტანა კალენდრის ღონისძიებებისა და დავალებების
 calendar-ics-file-dialog-import-event-button-label = ღონისძიების გადმოტანა
 calendar-ics-file-dialog-import-task-button-label = დავალების გადმოტანა
 calendar-ics-file-dialog-2 =
