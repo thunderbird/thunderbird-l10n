@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Podawki a nadawki protyki importować
+calendar-ics-file-window-title = Podawki a nadawki protyki importować
 calendar-ics-file-dialog-import-event-button-label = Podawk importować
 calendar-ics-file-dialog-import-task-button-label = Nadawk importować
 calendar-ics-file-dialog-2 =
