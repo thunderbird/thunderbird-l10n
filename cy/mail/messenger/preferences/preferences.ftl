@@ -749,6 +749,7 @@ show-synced-item-account = Cyfrifon E-bost
 show-synced-item-address = Llyfrau Cyfeiriadau
 show-synced-item-calendar = Calendrau
 show-synced-item-identity = Hunaniaethau
+show-synced-item-passwords = Cyfrineiriau
 show-synced-change = Newid…
 synced-acount-item-server-config = Ffufweddiad gweinydd
 synced-acount-item-filters = Hidlau
