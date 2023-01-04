@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-copies.xul -->
-
 <!-- extracted from am-copies.xhtml -->
 
 <!ENTITY copyAndFolderTitle.label "Kopje &amp; Dosje">
@@ -33,14 +31,14 @@
 <!ENTITY keepArchives.accesskey "A">
 <!ENTITY archiveHierarchyButton.label "Mundësi arkivimi…">
 <!ENTITY archiveHierarchyButton.accesskey "M">
-<!ENTITY archivesFolderOn.label "Dosje &quot;Arkivash&quot; te:">
+<!ENTITY archivesFolderOn.label "Dosje “Arkivash” te:">
 <!ENTITY archivesFolderOn.accesskey "D">
 <!ENTITY archiveInOtherFolder.label "Tjetër:">
 <!ENTITY archiveInOtherFolder.accesskey "T">
 <!ENTITY specialFolders.label "Skica dhe Gjedhe">
 <!ENTITY keepDrafts2.label "Mesazhet skicë mbaji në:">
 <!-- LOCALIZATION NOTE (draftsFolderOn.label): OK to translate this, bug #57440 -->
-<!ENTITY draftsFolderOn.label "Dosje &quot;Skicash&quot; në:">
+<!ENTITY draftsFolderOn.label "Dosje “Skica” në:">
 <!ENTITY draftsFolderOn.accesskey "S">
 <!ENTITY draftInOtherFolder.label "Tjetër:">
 <!ENTITY draftInOtherFolder.accesskey "j">
