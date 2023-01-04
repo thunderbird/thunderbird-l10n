@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Mewnforio Digwyddiadau a Thasgau Calendr
+calendar-ics-file-window-title = Mewnforio Digwyddiadau a Thasgau Calendr
 calendar-ics-file-dialog-import-event-button-label = Mewnforio Digwyddiadau
 calendar-ics-file-dialog-import-task-button-label = Mewnforio Tasg
 calendar-ics-file-dialog-2 =
