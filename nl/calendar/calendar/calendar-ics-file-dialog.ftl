@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Afspraken en taken importeren
+calendar-ics-file-window-title = Afspraken en taken importeren
 calendar-ics-file-dialog-import-event-button-label = Afspraak importeren
 calendar-ics-file-dialog-import-task-button-label = Taak importeren
 calendar-ics-file-dialog-2 =
