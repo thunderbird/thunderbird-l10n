@@ -749,6 +749,7 @@ show-synced-item-account = E-mailaccounts
 show-synced-item-address = Adresboeken
 show-synced-item-calendar = Aginda's
 show-synced-item-identity = Identiteiten
+show-synced-item-passwords = Wachtwurden
 show-synced-change = Wizigje…
 synced-acount-item-server-config = Serverconfiguraasje
 synced-acount-item-filters = Filters
