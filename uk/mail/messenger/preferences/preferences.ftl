@@ -745,6 +745,7 @@ show-synced-item-account = Облікові записи електронної 
 show-synced-item-address = Адресні книги
 show-synced-item-calendar = Календарі
 show-synced-item-identity = Особисті дані
+show-synced-item-passwords = Паролі
 show-synced-change = Змінити…
 synced-acount-item-server-config = Конфігурація сервера
 synced-acount-item-filters = Фільтри
