@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Flytja inn dagatalsatburði og verkefni
+calendar-ics-file-window-title = Flytja inn dagatalsatburði og verkefni
 calendar-ics-file-dialog-import-event-button-label = Flytja inn atburð
 calendar-ics-file-dialog-import-task-button-label = Flytja inn verkefni
 calendar-ics-file-dialog-2 =
