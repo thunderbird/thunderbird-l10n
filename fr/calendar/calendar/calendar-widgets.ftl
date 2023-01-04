@@ -7,3 +7,5 @@ calendar-deactivated-notification-tasks = Tous les agendas sont actuellement dé
 calendar-notifications-label = Afficher les notifications pour les évènements à venir
 calendar-add-notification-button =
     .label = Ajouter une notification
+calendar-new-event-primary-button = Nouvel évènement
+calendar-new-task-primary-button = Nouvelle tâche
