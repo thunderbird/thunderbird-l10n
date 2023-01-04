@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Importă evenimente din calendar și sarcini
+calendar-ics-file-window-title = Importă evenimente din calendar și sarcini
 calendar-ics-file-dialog-import-event-button-label = Importă un eveniment
 calendar-ics-file-dialog-import-task-button-label = Importă o sarcină
 calendar-ics-file-dialog-2 =
