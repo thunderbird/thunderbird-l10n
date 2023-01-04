@@ -14,6 +14,12 @@ fxa-verification-not-sent-body = Nem sikerült elküldeni az ellenőrző levelet
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+fxa-signout-dialog-title = Kijelentkezik a { -fxaccount-brand-name }ból?
+fxa-signout-dialog-body = A szinkronizált adatok a fiókjában maradnak.
+fxa-signout-dialog-button = Kijelentkezés
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
+sync-disconnect-dialog-title = Kapcsolat bontása?
+sync-disconnect-dialog-body = A { -brand-product-name } leállítja a szinkronizációt, de nem töröl semmilyen adatot erről az eszközről.
+sync-disconnect-dialog-button = Kapcsolat bontása

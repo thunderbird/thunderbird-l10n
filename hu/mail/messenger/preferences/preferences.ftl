@@ -749,6 +749,7 @@ show-synced-item-account = E-mail-fiókok
 show-synced-item-address = Címjegyzékek
 show-synced-item-calendar = Naptárak
 show-synced-item-identity = Személyazonosságok
+show-synced-item-passwords = Jelszavak
 show-synced-change = Módosítás…
 synced-acount-item-server-config = Kiszolgálóbeállítások
 synced-acount-item-filters = Szűrők
