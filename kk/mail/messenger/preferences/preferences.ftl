@@ -749,6 +749,7 @@ show-synced-item-account = Эл. пошта тіркелгілері
 show-synced-item-address = Адрестік кітапшалар
 show-synced-item-calendar = Күнтізбелер
 show-synced-item-identity = Жеке мәліметтер
+show-synced-item-passwords = Парольдер
 show-synced-change = Өзгерту…
 synced-acount-item-server-config = Сервер баптаулары
 synced-acount-item-filters = Сүзгілер
