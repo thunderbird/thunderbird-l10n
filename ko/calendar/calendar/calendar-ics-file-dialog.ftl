@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = 캘린더 일정과 작업 가져 오기
+calendar-ics-file-window-title = 캘린더 일정과 작업 가져 오기
 calendar-ics-file-dialog-import-event-button-label = 일정 가져오기
 calendar-ics-file-dialog-import-task-button-label = 작업 가져오기
 calendar-ics-file-dialog-2 =
