@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = ייבוא אירועי ומשימות לוח שנה
+calendar-ics-file-window-title = ייבוא אירועי ומשימות לוח שנה
 calendar-ics-file-dialog-import-event-button-label = ייבוא אירוע
 calendar-ics-file-dialog-import-task-button-label = ייבוא משימה
 calendar-ics-file-dialog-2 =
