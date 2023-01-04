@@ -747,6 +747,7 @@ show-synced-item-account = E-posta hesapları
 show-synced-item-address = Adres defterleri
 show-synced-item-calendar = Takvimler
 show-synced-item-identity = Kimlikler
+show-synced-item-passwords = Parolalar
 show-synced-change = Değiştir…
 synced-acount-item-server-config = Sunucu yapılandırması
 synced-acount-item-filters = Süzgeçler
