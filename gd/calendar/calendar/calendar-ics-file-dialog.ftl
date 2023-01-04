@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Ion-phortaich tachartasan is saothraichean a’ mhìosachain
+calendar-ics-file-window-title = Ion-phortaich tachartasan is saothraichean a’ mhìosachain
 calendar-ics-file-dialog-import-event-button-label = Ion-phortaich tachartas
 calendar-ics-file-dialog-import-task-button-label = Ion-phortaich saothair
 calendar-ics-file-dialog-2 =
