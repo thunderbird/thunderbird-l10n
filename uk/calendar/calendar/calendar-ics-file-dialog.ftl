@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Імпортувати події та завдання з календаря
+calendar-ics-file-window-title = Імпортувати події та завдання з календаря
 calendar-ics-file-dialog-import-event-button-label = Імпортувати події
 calendar-ics-file-dialog-import-task-button-label = Імпортувати завдання
 calendar-ics-file-dialog-2 =
