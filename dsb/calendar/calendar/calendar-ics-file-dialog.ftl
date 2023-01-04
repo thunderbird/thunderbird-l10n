@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Tšojenja a nadawki kalendarja importěrowaś
+calendar-ics-file-window-title = Tšojenja a nadawki kalendarja importěrowaś
 calendar-ics-file-dialog-import-event-button-label = Tšojenje importěrowaś
 calendar-ics-file-dialog-import-task-button-label = Nadawk importěrowaś
 calendar-ics-file-dialog-2 =
