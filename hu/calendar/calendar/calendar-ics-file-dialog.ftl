@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Naptáresemények és feladatok importálása
+calendar-ics-file-window-title = Naptáresemények és feladatok importálása
 calendar-ics-file-dialog-import-event-button-label = Esemény importálása
 calendar-ics-file-dialog-import-task-button-label = Feladat importálása
 calendar-ics-file-dialog-2 =
