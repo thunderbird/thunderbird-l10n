@@ -7,8 +7,23 @@
 
 appmenu-sync-panel-title =
     .title = Eşitle
+appmenu-signin-panel =
+    .label = Sync’e giriş yapın
+    .accesskey = i
+appmenu-sync-manage =
+    .value = Hesabı yönet
+    .accesskey = H
 appmenu-sync-account =
     .value = kullanici@example.com
+appmenu-sync-now =
+    .label = Şimdi eşitle
+    .accesskey = e
+appmenu-sync-settings =
+    .label = Eşitleme ayarları
+    .accesskey = E
+appmenu-sync-sign-out =
+    .label = Çıkış yap…
+    .accesskey = k
 
 ## New Account
 
