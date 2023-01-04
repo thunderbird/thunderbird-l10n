@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Takvim Etkinliklerini ve Görevleri İçe Aktar
+calendar-ics-file-window-title = Takvim Etkinliklerini ve Görevleri İçe Aktar
 calendar-ics-file-dialog-import-event-button-label = Etkinliği içe aktar
 calendar-ics-file-dialog-import-task-button-label = Görevi içe aktar
 calendar-ics-file-dialog-2 =
