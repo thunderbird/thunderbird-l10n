@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Importar eveniments ed incumbensas da chalender
+calendar-ics-file-window-title = Importar eveniments ed incumbensas da chalender
 calendar-ics-file-dialog-import-event-button-label = Importar in eveniment
 calendar-ics-file-dialog-import-task-button-label = Importar ina incumbensa
 calendar-ics-file-dialog-2 =
