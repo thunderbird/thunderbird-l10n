@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Enporzhiañ darvoudoù ha taskoù e-barzh un deiziataer
+calendar-ics-file-window-title = Enporzhiañ darvoudoù ha taskoù e-barzh un deiziataer
 calendar-ics-file-dialog-import-event-button-label = Enporzhiañ un darvoud
 calendar-ics-file-dialog-import-task-button-label = Enporzhiañ un task
 calendar-ics-file-dialog-2 =
