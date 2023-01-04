@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Εισαγωγή εκδηλώσεων και εργασιών ημερολογίου
+calendar-ics-file-window-title = Εισαγωγή εκδηλώσεων και εργασιών ημερολογίου
 calendar-ics-file-dialog-import-event-button-label = Εισαγωγή εκδήλωσης
 calendar-ics-file-dialog-import-task-button-label = Εισαγωγή εργασίας
 calendar-ics-file-dialog-2 =
