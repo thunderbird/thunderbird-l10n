@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = 匯入行事曆事件與工作
+calendar-ics-file-window-title = 匯入行事曆事件與工作
 calendar-ics-file-dialog-import-event-button-label = 匯入事件
 calendar-ics-file-dialog-import-task-button-label = 匯入工作
 calendar-ics-file-dialog-2 =
