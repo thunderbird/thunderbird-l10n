@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Importa eventi e attività del calendario
+calendar-ics-file-window-title = Importa eventi e attività del calendario
 calendar-ics-file-dialog-import-event-button-label = Importa evento
 calendar-ics-file-dialog-import-task-button-label = Importa attività
 calendar-ics-file-dialog-2 =
