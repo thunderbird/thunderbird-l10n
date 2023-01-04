@@ -14,3 +14,13 @@ account-hub-title = Centrum kont
 account-hub-release-notes = Informacje o wydaniu
 account-hub-support = Pomoc
 account-hub-donate = Przekaż datek
+
+## Start page
+
+
+## Email page
+
+account-hub-email-cancel-button = Anuluj
+account-hub-email-back-button = Wstecz
+account-hub-email-continue-button = Kontynuuj
+account-hub-email-confirm-button = Potwierdź
