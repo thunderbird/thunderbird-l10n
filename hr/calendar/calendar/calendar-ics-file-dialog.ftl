@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Uvezi događaje i zadatke u kalendar
+calendar-ics-file-window-title = Uvezi događaje i zadatke u kalendar
 calendar-ics-file-dialog-import-event-button-label = Uvezi događaj
 calendar-ics-file-dialog-import-task-button-label = Uvezi zadatak
 calendar-ics-file-dialog-2 =
