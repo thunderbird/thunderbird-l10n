@@ -4,6 +4,7 @@
 
 calendar-ics-file-window-2 =
     .title = Uvozi dogodke in opravila v koledar
+calendar-ics-file-window-title = Uvozi dogodke in opravila v koledar
 calendar-ics-file-dialog-import-event-button-label = Uvozi dogodek
 calendar-ics-file-dialog-import-task-button-label = Uvozi opravilo
 calendar-ics-file-dialog-2 =
