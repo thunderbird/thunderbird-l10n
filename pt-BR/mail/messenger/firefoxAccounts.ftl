@@ -17,9 +17,16 @@ fxa-verification-sent-title = Verificação enviada
 # $userEmail (String) - Email address of user's Firefox Account.
 fxa-verification-sent-body = Um link de verificação foi enviado para { $userEmail }.
 fxa-verification-not-sent-title = Não foi possível enviar verificação
+fxa-verification-not-sent-body = Não foi possível enviar um email de verificação no momento, tente novamente mais tarde.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+fxa-signout-dialog-title = Desconectar da { -fxaccount-brand-name }?
+fxa-signout-dialog-body = Os dados sincronizados permanecerão na sua conta.
+fxa-signout-dialog-button = Desconectar
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
+sync-disconnect-dialog-title = Desconectar?
+sync-disconnect-dialog-body = O { -brand-product-name } irá parar de sincronizar, mas não excluirá nenhum de seus dados neste dispositivo.
+sync-disconnect-dialog-button = Desconectar
