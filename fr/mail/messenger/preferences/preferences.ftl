@@ -746,6 +746,7 @@ show-synced-item-account = Comptes de messagerie
 show-synced-item-address = Carnets d’adresses
 show-synced-item-calendar = Agendas
 show-synced-item-identity = Identités
+show-synced-item-passwords = Mots de passe
 show-synced-change = Modifier…
 synced-acount-item-server-config = Configuration du serveur
 synced-acount-item-filters = Filtres
