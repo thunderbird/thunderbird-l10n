@@ -4,6 +4,7 @@
 
 calendar-title = ปฏิทิน
 calendar-title-reminder = ตัวเตือนความจำ
+calendar-title-notification = การแจ้งเตือน
 calendar-title-category = หมวดหมู่
 dateformat-label =
     .value = รูปแบบข้อความวันที่:
@@ -100,12 +101,6 @@ previous-weeks-label =
     .value = สัปดาห์ก่อนหน้าที่จะแสดง:
     .accesskey = ส
 todaypane-legend = บานหน้าต่างวันนี้
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = ส่วน กำลังมาถึง แสดง:
-    .accesskey = ก
 event-task-legend = เหตุการณ์และงาน
 default-length-label =
     .value = ความยาวเหตุการณ์และงานเริ่มต้น:
@@ -133,6 +128,9 @@ task-due-label =
 edit-intab-label =
     .label = แก้ไขเหตุการณ์และงานในแท็บแทนในหน้าต่างโต้ตอบ
     .accesskey = ท
+prompt-delete-label =
+    .label = เตือนก่อนลบเหตุการณ์และงาน
+    .accesskey = ห
 accessibility-legend = การช่วยการเข้าถึง
 accessibility-colors-label =
     .label = ปรับสีให้เหมาะสมสำหรับการช่วยการเข้าถึง
@@ -179,6 +177,7 @@ event-alarm-time-label =
 task-alarm-time-label =
     .value = เวลาเริ่มต้นที่การเตือนความจำถูกตั้งค่าก่อนงาน:
     .accesskey = อ
+calendar-notifications-customize-label = สามารถปรับแต่งการแจ้งเตือนสำหรับแต่ละปฏิทินได้ในหน้าต่างคุณสมบัติของปฏิทิน
 category-new-label = หมวดหมู่ใหม่
 category-edit-label = แก้ไขหมวดหมู่
 category-overwrite-title = คำเตือน: ชื่อซ้ำกัน
