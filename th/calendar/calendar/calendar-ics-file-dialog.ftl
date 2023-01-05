@@ -19,6 +19,8 @@ calendar-ics-file-dialog-search-input =
     .placeholder = กรองรายการ…
 calendar-ics-file-dialog-sort-start-ascending =
     .label = เรียงตามวันเริ่ม (หัวถึงท้าย)
+calendar-ics-file-dialog-sort-start-descending =
+    .label = เรียงตามวันเริ่ม (ท้ายถึงหัว)
 # "A > Z" is used as a concise way to say "alphabetical order".
 # You may replace it with something appropriate to your language.
 calendar-ics-file-dialog-sort-title-ascending =
