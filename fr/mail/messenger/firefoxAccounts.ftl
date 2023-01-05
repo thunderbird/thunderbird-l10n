@@ -21,6 +21,10 @@ fxa-verification-not-sent-title = Impossible d’envoyer le lien de vérificatio
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
 fxa-signout-dialog-title = Se déconnecter de votre { -fxaccount-brand-name } ?
+fxa-signout-dialog-body = Les données synchronisées resteront dans votre compte.
+fxa-signout-dialog-button = Se déconnecter
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
+sync-disconnect-dialog-title = Se déconnecter ?
+sync-disconnect-dialog-button = Se déconnecter
