@@ -37,3 +37,12 @@ calendar-invitation-panel-partstat-accepted = ยอมรับ { $count } ค�
 # Variables:
 # $count (Number) - The number of attendees with the "DECLINED" participation status.
 calendar-invitation-panel-partstat-declined = ปฏิเสธ { $count } คน
+# Variables:
+# $count (Number) - The number of attendees with the "TENTATIVE" participation status.
+calendar-invitation-panel-partstat-tentative = ไม่แน่นอน { $count } คน
+# Variables:
+# $count (Number) - The number of attendees with the "NEEDS-ACTION" participation status.
+calendar-invitation-panel-partstat-needs-action = รอพิจารณา { $count } คน
+# Variables:
+# $count (Number) - The total number of attendees.
+calendar-invitation-panel-partstat-total = ผู้เข้าร่วม { $count } คน
