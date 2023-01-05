@@ -749,6 +749,7 @@ show-synced-item-account = Tài khoản email
 show-synced-item-address = Sổ địa chỉ
 show-synced-item-calendar = Lịch
 show-synced-item-identity = Danh tính
+show-synced-item-passwords = Mật khẩu
 show-synced-change = Thay đổi…
 synced-acount-item-server-config = Cấu hình máy chủ
 synced-acount-item-filters = Bộ lọc
