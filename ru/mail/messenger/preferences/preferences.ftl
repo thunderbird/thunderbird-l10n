@@ -749,6 +749,7 @@ show-synced-item-account = Учётные записи эл. почты
 show-synced-item-address = Адресные книги
 show-synced-item-calendar = Календари
 show-synced-item-identity = Личности
+show-synced-item-passwords = Пароли
 show-synced-change = Изменить…
 synced-acount-item-server-config = Настройка сервера
 synced-acount-item-filters = Фильтры
