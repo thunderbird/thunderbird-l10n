@@ -749,6 +749,7 @@ show-synced-item-account = Contos email
 show-synced-item-address = Libros de adresses
 show-synced-item-calendar = Agendas
 show-synced-item-identity = Identitates
+show-synced-item-passwords = Contrasignos
 show-synced-change = Cambiar…
 synced-acount-item-server-config = Configuration del servitor
 synced-acount-item-filters = Filtros
