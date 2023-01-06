@@ -171,7 +171,7 @@
 <!ENTITY messengerCmd.label "Posta ve haber grupları">
 <!ENTITY messengerCmd.accesskey "P">
 <!ENTITY messengerCmd.commandkey "1">
-<!ENTITY addressBookCmd.label "Adres Defteri">
+<!ENTITY addressBookCmd.label "Adres defteri">
 <!ENTITY addressBookCmd.accesskey "A">
 <!ENTITY addressBookCmd.key "B">
 <!ENTITY accountManagerCmd2.label "Hesap ayarları">
@@ -197,7 +197,7 @@
 <!ENTITY sendButton.tooltip "Bu iletiyi şimdi gönder">
 <!ENTITY sendlaterButton.tooltip "Bu iletiyi daha sonra gönder">
 <!ENTITY quoteButton.tooltip "Önceki iletiden alıntı yap">
-<!ENTITY addressButton.tooltip "Adres Defteri'nden alıcı seç">
+<!ENTITY addressButton.tooltip "Adres defterinden alıcı seç">
 <!ENTITY spellingButton.tooltip "Seçimin veya tüm iletinin yazımını denetle">
 <!ENTITY saveButton.tooltip "Bu iletiyi kaydet">
 <!ENTITY cutButton.tooltip              "Kes">
