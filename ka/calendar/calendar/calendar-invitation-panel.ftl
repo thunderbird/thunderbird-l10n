@@ -6,16 +6,12 @@
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } გიწვევთ:
 # Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } – განახლებულია:
-# Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } – გაუქმებულია:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = შენახვა
-calendar-invitation-panel-save-button = შენახვა
 calendar-invitation-panel-view-button = ჩვენება
 calendar-invitation-panel-update-button = განახლება
 calendar-invitation-panel-delete-button = წაშლა
@@ -23,6 +19,11 @@ calendar-invitation-panel-accept-button = დიახ
 calendar-invitation-panel-decline-button = არა
 calendar-invitation-panel-tentative-button = შესაძლოა
 calendar-invitation-panel-reply-status = * ჯერ არ გადაგიწყვეტიათ ან არ გიპასუხიათ
+calendar-invitation-panel-more-button = სხვა
+calendar-invitation-panel-menu-item-save =
+    .label = შენახვა კალენდარში
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = ცვლილებების ჩვენება
 calendar-invitation-panel-prop-title-when = როდის:
 calendar-invitation-panel-prop-title-location = მისამართი:
 # Variables:
@@ -94,3 +95,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } ელოდებ�
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } დაესწრება
 calendar-invitation-panel-prop-title-attachments = დანართები:
+calendar-invitation-change-indicator-removed = მოცილებული
+calendar-invitation-change-indicator-added = ახალი
+calendar-invitation-change-indicator-modified = შეცვლილი

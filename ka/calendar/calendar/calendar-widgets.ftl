@@ -7,3 +7,5 @@ calendar-deactivated-notification-tasks = ამჟამად ყველა 
 calendar-notifications-label = შეტყობინებების ჩვენება, მომავალი ღონისძიებების
 calendar-add-notification-button =
     .label = შეტყობინების დამატება
+calendar-new-event-primary-button = ახალი ღონისძიება
+calendar-new-task-primary-button = ახალი დავალება
