@@ -12,9 +12,20 @@
 
 ## These strings are shown in a desktop notification after the user requests we resend a verification email.
 
+fxa-verification-sent-title = Verifica inviata
+# Variables:
+# $userEmail (String) - Email address of user's Firefox Account.
+fxa-verification-sent-body = Un link di verifica è stato inviato a { $userEmail }.
+fxa-verification-not-sent-title = Impossibile inviare la verifica
+fxa-verification-not-sent-body = Non è stato possibile inviare la mail di verifica, riprovare più tardi.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+fxa-signout-dialog-title = Disconnettersi dall’{ -fxaccount-brand-name }?
+fxa-signout-dialog-body = I dati sincronizzati verranno mantenuti nell’account.
+fxa-signout-dialog-button = Disconnetti
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
+sync-disconnect-dialog-title = Disconnettersi?
+sync-disconnect-dialog-button = Disconnetti

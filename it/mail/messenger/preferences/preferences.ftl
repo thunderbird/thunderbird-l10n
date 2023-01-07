@@ -749,6 +749,7 @@ show-synced-item-account = Account di posta
 show-synced-item-address = Rubriche
 show-synced-item-calendar = Calendari
 show-synced-item-identity = Identità
+show-synced-item-passwords = Password
 show-synced-change = Modifica…
 synced-acount-item-server-config = Configurazione del server
 synced-acount-item-filters = Filtri
