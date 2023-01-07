@@ -28,4 +28,5 @@ fxa-signout-dialog-button = Disconnetti
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
 sync-disconnect-dialog-title = Disconnettersi?
+sync-disconnect-dialog-body = { -brand-product-name } interromperà la sincronizzazione con l’account ma non verrà rimosso alcun dato da questo dispositivo.
 sync-disconnect-dialog-button = Disconnetti
