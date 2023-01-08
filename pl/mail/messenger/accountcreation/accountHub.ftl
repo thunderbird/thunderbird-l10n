@@ -17,9 +17,20 @@ account-hub-donate = Przekaż datek
 
 ## Start page
 
+account-hub-email-button = Skonfiguruj konto pocztowe
+account-hub-new-email-button = Nowy adres e-mail
+account-hub-calendar-button = Skonfiguruj kalendarz
+account-hub-address-book-button = Skonfiguruj książkę adresową
+account-hub-chat-button = Skonfiguruj komunikator
+account-hub-feed-button = Skonfiguruj źródło aktualności RSS
+account-hub-newsgroup-button = Skonfiguruj grupę dyskusyjną
+account-hub-import-button = Importuj profil
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Zaloguj się do synchronizacji…
 
 ## Email page
 
+account-hub-email-title = Skonfiguruj konto pocztowe
 account-hub-email-cancel-button = Anuluj
 account-hub-email-back-button = Wstecz
 account-hub-email-continue-button = Kontynuuj
