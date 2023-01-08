@@ -717,7 +717,20 @@ search-results-help-link = Potrzebujesz pomocy? Odwiedź <a data-l10n-name="url"
 
 ## Sync Tab
 
+sync-signedout-caption = Zabierz swoją sieć ze sobą
+sync-signedout-description = Synchronizuj konta, książki adresowe, kalendarze, dodatki i ustawienia między wszystkimi swoimi urządzeniami.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Zaloguj się do synchronizacji…
 sync-pane-header = Synchronizacja
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = Konto { $userEmail } nie zostało zweryfikowane.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Zaloguj się, aby ponownie połączyć konto { $userEmail }
+sync-pane-resend-verification = Wyślij nową wiadomość weryfikującą
+sync-pane-sign-in = Zaloguj się
+sync-pane-remove-account = Usuń konto
 sync-pane-edit-photo =
     .title = Zmień zdjęcie profilowe
 sync-pane-manage-account = Zarządzaj kontem
@@ -726,3 +739,20 @@ sync-pane-device-name-title = Nazwa urządzenia
 sync-pane-change-device-name = Zmień nazwę urządzenia
 sync-pane-cancel = Anuluj
 sync-pane-save = Zachowaj
+sync-pane-show-synced-header-on = Synchronizowanie: włączone
+sync-pane-show-synced-header-off = Synchronizowanie: wyłączone
+sync-pane-sync-now = Synchronizuj teraz
+sync-panel-sync-now-syncing = Synchronizowanie…
+show-synced-list-heading = Obecnie synchronizowane:
+show-synced-learn-more = Więcej informacji…
+show-synced-item-account = Konta pocztowe
+show-synced-item-address = Książki adresowe
+show-synced-item-calendar = Kalendarze
+show-synced-item-identity = Tożsamości
+show-synced-item-passwords = Hasła
+show-synced-change = Zmień…
+synced-acount-item-server-config = Konfiguracja serwera
+synced-acount-item-filters = Filtry
+synced-acount-item-keys = OpenPGP – S/MIME
+sync-disconnected-text = Synchronizuj konta pocztowe, książki adresowe, kalendarze i tożsamości między wszystkimi swoimi urządzeniami.
+sync-disconnected-turn-on-sync = Włącz synchronizację…
