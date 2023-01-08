@@ -745,6 +745,7 @@ show-synced-item-account = E-postkonton
 show-synced-item-address = Adressböcker
 show-synced-item-calendar = Kalendrar
 show-synced-item-identity = Identiteter
+show-synced-item-passwords = Lösenord
 show-synced-change = Ändra…
 synced-acount-item-server-config = Serverkonfiguration
 synced-acount-item-filters = Filter
