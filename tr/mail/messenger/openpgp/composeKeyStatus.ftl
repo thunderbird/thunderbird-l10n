@@ -14,5 +14,11 @@ openpgp-compose-key-status-open-details = Seçilen alıcı için anahtarları y�
 openpgp-recip-good = tamam
 openpgp-recip-missing = anahtar yok
 openpgp-recip-none-accepted = kabul edilmiş anahtar yok
+openpgp-compose-general-info-alias = { -brand-short-name } normalde alıcının ortak anahtarının, e-posta adresi eşleşen bir kullanıcı kimliği içermesini gerektirir. Bunu OpenPGP alıcı diğer ad kurallarını kullanılarak geçersiz kılabilirsiniz.
 openpgp-compose-general-info-alias-learn-more = Daha fazla bilgi al
+openpgp-compose-alias-status-direct =
+    { $count ->
+        [one] takma ad anahtarıyla eşlendi
+       *[other] { $count } takma ad anahtarlarıyla eşlendi
+    }
 openpgp-compose-alias-status-error = kullanılamaz/bulunamayan takma ad anahtarı
