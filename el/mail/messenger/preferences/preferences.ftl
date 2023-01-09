@@ -742,6 +742,7 @@ show-synced-item-account = Λογαριασμοί email
 show-synced-item-address = Ευρετήρια
 show-synced-item-calendar = Ημερολόγια
 show-synced-item-identity = Ταυτότητες
+show-synced-item-passwords = Κωδικοί πρόσβασης
 show-synced-change = Αλλαγή…
 synced-acount-item-server-config = Ρυθμίσεις διακομιστή
 synced-acount-item-filters = Φίλτρα
