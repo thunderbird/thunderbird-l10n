@@ -15,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = สั้น: { $date }
+use-system-timezone-radio-button =
+    .label = ใช้เขตเวลาระบบ
+set-timezone-manually-radio-button =
+    .label = ตั้งเขตเวลาด้วยตนเอง
 timezone-label =
     .value = เขตเวลา:
 weekstart-label =
