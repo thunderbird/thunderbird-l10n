@@ -5,9 +5,10 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer }(e)k gonbidatu zaitu:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } eguneratu du:
+calendar-invitation-panel-status-new = Gertaera honetara gonbidatua izan zara.
+calendar-invitation-panel-status-processed = Gertaera hau zure egutegira gehitua zegoen jada.
+calendar-invitation-panel-status-updateminor = Mezu honek gertaera honen eguneratzea dakar.
+calendar-invitation-panel-status-cancelled = Mezu honek gertaera hau bertan behera uztea dakar.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } bertan behera utzi du:
@@ -15,7 +16,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } bertan behera utzi du:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Gorde
-calendar-invitation-panel-save-button = Gorde
 calendar-invitation-panel-view-button = Ikusi
 calendar-invitation-panel-update-button = Eguneratu
 calendar-invitation-panel-delete-button = Ezabatu
