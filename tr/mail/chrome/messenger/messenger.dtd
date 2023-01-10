@@ -195,13 +195,13 @@
 <!ENTITY sortByCorrespondentCmd.label "Yazanlar">
 <!ENTITY sortByCorrespondentCmd.accesskey "n">
 <!ENTITY sortByUnreadCmd.label "Okundu">
-<!ENTITY sortByUnreadCmd.accesskey "ş">
+<!ENTITY sortByUnreadCmd.accesskey "O">
 <!ENTITY sortByOrderReceivedCmd.label "Alma sırası">
 <!ENTITY sortByOrderReceivedCmd.accesskey "ı">
 <!ENTITY sortAscending.label "Artarak">
 <!ENTITY sortAscending.accesskey "A">
 <!ENTITY sortDescending.label "Azalarak">
-<!ENTITY sortDescending.accesskey "A">
+<!ENTITY sortDescending.accesskey "z">
 <!ENTITY sortThreaded.label "Dizili">
 <!ENTITY sortThreaded.accesskey "D">
 <!ENTITY sortUnthreaded.label "Dizisiz">
