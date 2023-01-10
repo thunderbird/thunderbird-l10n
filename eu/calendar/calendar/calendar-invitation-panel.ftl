@@ -9,6 +9,7 @@ calendar-invitation-panel-status-new = Gertaera honetara gonbidatua izan zara.
 calendar-invitation-panel-status-processed = Gertaera hau zure egutegira gehitua zegoen jada.
 calendar-invitation-panel-status-updateminor = Mezu honek gertaera honen eguneratzea dakar.
 calendar-invitation-panel-status-cancelled = Mezu honek gertaera hau bertan behera uztea dakar.
+calendar-invitation-panel-status-cancelled-notfound = Mezu honek zure egutegian ez dagoen gertaera bat bertan behera uztea dakar.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } bertan behera utzi du:
@@ -23,6 +24,11 @@ calendar-invitation-panel-accept-button = Bai
 calendar-invitation-panel-decline-button = Ez
 calendar-invitation-panel-tentative-button = Agian
 calendar-invitation-panel-reply-status = *Zuk ez duzu erabaki edo erantzun oraindik
+calendar-invitation-panel-more-button = Gehiago
+calendar-invitation-panel-menu-item-save =
+    .label = Gorde egutegian
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Erakutsi aldaketak
 calendar-invitation-panel-prop-title-when = Noiz:
 calendar-invitation-panel-prop-title-location = Kokapena:
 # Variables:
@@ -94,3 +100,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } erantzuteke
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } partaide
 calendar-invitation-panel-prop-title-attachments = Eranskinak:
+calendar-invitation-change-indicator-removed = Kenduta
+calendar-invitation-change-indicator-added = Berria
+calendar-invitation-change-indicator-modified = Aldatuta

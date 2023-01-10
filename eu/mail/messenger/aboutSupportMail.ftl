@@ -14,7 +14,15 @@ accounts-conn-security = Konexioaren segurtasuna
 accounts-auth-method = Autentifikazio-metodoa
 accounts-default = Lehenetsia?
 identity-name = Identitatea
-
 send-via-email = Bidali posta elektronikoz
-
 app-basics-telemetry = Telemetry datuak
+mail-libs-title = Liburutegiak
+libs-table-heading-library = Biltegia
+libs-table-heading-expected-version = Esperotako bertsio minimoa
+libs-table-heading-loaded-version = Erabiltzen dagoen bertsioa
+libs-table-heading-path = Bidea:
+libs-table-heading-status = Egoera
+libs-rnp-status-ok = Ados
+libs-rnp-status-load-failed = Kargatzeak huts egin du. OpenPGP ez da ibiliko.
+libs-rnp-status-incompatible = Bertsio ez bateragarria. OpenPGP ez da ibiliko.
+libs-rnp-status-unofficial = Bertsio ez ofiziala. Baliteke OpenPGP ez ibiltzea espero bezala.
