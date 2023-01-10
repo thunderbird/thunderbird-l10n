@@ -121,6 +121,8 @@ about-addressbook-placeholder-searching = Etsitään…
 
 ## Details
 
+about-addressbook-event-action-button = Tapahtuma
+about-addressbook-search-action-button = Etsi
 about-addressbook-begin-edit-contact-button = Muokkaa
 about-addressbook-delete-edit-contact-button = Poista
 about-addressbook-cancel-edit-contact-button = Peruuta
@@ -129,11 +131,13 @@ about-addressbook-details-email-addresses-header = Sähköpostiosoitteet
 about-addressbook-details-phone-numbers-header = Puhelinnumerot
 about-addressbook-details-addresses-header = Osoitteet
 about-addressbook-details-impp-header = Pikaviestintä
+about-addressbook-details-websites-header = Sivustot
 about-addressbook-details-other-info-header = Muut tiedot
 about-addressbook-entry-type-work = Työ
 about-addressbook-entry-type-home = Koti
 about-addressbook-entry-type-fax = Faksi
 about-addressbook-entry-name-birthday = Syntymäpäivä
+about-addressbook-entry-name-anniversary = Merkkipäivä
 about-addressbook-entry-name-role = Rooli
 about-addressbook-entry-name-organization = Organisaatio
 about-addressbook-entry-name-website = Verkkosivusto
