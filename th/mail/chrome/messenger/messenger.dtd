@@ -485,6 +485,8 @@
 <!ENTITY deleteJunk.accesskey "ล">
 <!ENTITY importCmd.label "นำเข้า…">
 <!ENTITY importCmd.accesskey "น">
+<!ENTITY exportCmd.label "ส่งออก…">
+<!ENTITY exportCmd.accesskey "ส">
 <!ENTITY clearRecentHistory.label "ล้างประวัติล่าสุด…">
 <!ENTITY clearRecentHistory.accesskey "ป">
 <!ENTITY accountManagerCmd2.label "การตั้งค่าบัญชี">
