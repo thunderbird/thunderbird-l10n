@@ -12,9 +12,11 @@
 
 ## These strings are shown in a desktop notification after the user requests we resend a verification email.
 
+fxa-verification-not-sent-title = Δεν είναι δυνατή η αποστολή επαλήθευσης
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+fxa-signout-dialog-body = Τα συγχρονισμένα δεδομένα θα παραμείνουν στον λογαριασμό σας.
 fxa-signout-dialog-button = Αποσύνδεση
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.

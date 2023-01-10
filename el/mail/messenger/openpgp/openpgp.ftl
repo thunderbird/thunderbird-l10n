@@ -117,6 +117,9 @@ openpgp-key-man-publish-cmd =
     .accesskey = Δ
 openpgp-key-man-discover-prompt = Για να βρείτε κλειδιά OpenPGP στο διαδίκτυο, σε διακομιστές κλειδιών ή μέσω του πρωτοκόλλου WKD, εισαγάγετε είτε μια διεύθυνση email είτε ένα ID κλειδιού.
 openpgp-key-man-discover-progress = Αναζήτηση…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Το δημόσιο κλειδί απεστάλη στο «{ $keyserver }».
 openpgp-key-copy-key =
     .label = Αντιγραφή δημόσιου κλειδιού
     .accesskey = Α
