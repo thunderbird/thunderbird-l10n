@@ -21,6 +21,7 @@ account-hub-new-email-button = Eskuratu posta elektroniko berri bat
 account-hub-calendar-button = Konfiguratu egutegia
 account-hub-address-book-button = Konfiguratu helbide-liburua
 account-hub-chat-button = Konfiguratu txata
+account-hub-feed-button = Konfiguratu RSS jarioak
 account-hub-newsgroup-button = Konfiguratu berri-taldeak
 account-hub-import-button = Inportatu profila
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.

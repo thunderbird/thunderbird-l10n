@@ -28,4 +28,5 @@ fxa-signout-dialog-button = Amaitu saioa
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
 sync-disconnect-dialog-title = Deskonektatu?
+sync-disconnect-dialog-body = { -brand-product-name }(e)k sinkronizatzeari utziko dio baina ez du gailu honetako zure daturik ezabatuko.
 sync-disconnect-dialog-button = Deskonektatu

@@ -8,6 +8,7 @@ calendar-invitation-panel-intro = { $organizer }(e)k gonbidatu zaitu:
 calendar-invitation-panel-status-new = Gertaera honetara gonbidatua izan zara.
 calendar-invitation-panel-status-processed = Gertaera hau zure egutegira gehitua zegoen jada.
 calendar-invitation-panel-status-updateminor = Mezu honek gertaera honen eguneratzea dakar.
+calendar-invitation-panel-status-updatemajor = Mezu honek gertaera honen eguneratze bat dakar. Zure parte-hartzea berretsi beharko zenuke.
 calendar-invitation-panel-status-cancelled = Mezu honek gertaera hau bertan behera uztea dakar.
 calendar-invitation-panel-status-cancelled-notfound = Mezu honek zure egutegian ez dagoen gertaera bat bertan behera uztea dakar.
 # Variables:
