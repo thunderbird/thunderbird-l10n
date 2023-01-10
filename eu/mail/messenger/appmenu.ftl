@@ -5,6 +5,14 @@
 
 ## Sync
 
+appmenu-sync-panel-title =
+    .title = Sync
+appmenu-signin-panel =
+    .label = Hasi saioa Sync-en
+    .accesskey = H
+appmenu-sync-sync =
+    .value = Sync kontua
+    .accesskey = k
 appmenu-sync-manage =
     .value = Kudeatu kontua
     .accesskey = K
@@ -110,6 +118,8 @@ appmenu-uidensity-compact =
     .tooltiptext = Trinkoa
 appmenu-uidensity-default =
     .tooltiptext = Lehenetsia
+appmenu-uidensity-relaxed =
+    .tooltiptext = Zabala
 appmenuitem-font-size-enlarge =
     .tooltiptext = Handiagotu letra-tipoaren tamaina
 appmenuitem-font-size-reduce =

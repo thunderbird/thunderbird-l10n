@@ -24,7 +24,6 @@ about-addressbook-toolbar-import =
 all-address-books-row =
     .title = Helbide-liburu guztiak
 all-address-books = Helbide-liburu guztiak
-
 # Variables:
 # $name (String) - The name of the selected book/list.
 # $count (Number) - The number of contacts in the selected book/list.
@@ -32,7 +31,6 @@ about-addressbook-card-count = { $name }(e)ko kontaktu guztiak: { $count }
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Kontaktu guztiak helbide-liburu guztietan: { $count }
-
 about-addressbook-books-context-properties =
     .label = Propietateak
 about-addressbook-books-context-edit-list =
@@ -51,7 +49,6 @@ about-addressbook-books-context-remove =
     .label = Kendu
 about-addressbook-books-context-startup-default =
     .label = Abio direktorio lehenetsia
-
 about-addressbook-confirm-delete-book-title = Ezabatu helbide-liburua
 # Variables:
 # $name (String) - Name of the address book to be deleted.
@@ -69,17 +66,14 @@ about-addressbook-search =
     .placeholder = Bilatu { $name }
 about-addressbook-search-all =
     .placeholder = Bilatu helbide-liburu guztiak
-
 about-addressbook-sort-button2 =
     .title = Zerrendatu bistaratzeko aukerak
-
 about-addressbook-name-format-display =
     .label = Bistaratzeko izena
 about-addressbook-name-format-firstlast =
     .label = Izena, abizena
 about-addressbook-name-format-lastfirst =
     .label = Abizena, izena
-
 about-addressbook-sort-name-ascending =
     .label = Ordenatu izenaz (A > Z)
 about-addressbook-sort-name-descending =
@@ -88,7 +82,6 @@ about-addressbook-sort-email-ascending =
     .label = Ordenatu Eposta helbideaz (A > Z)
 about-addressbook-sort-email-descending =
     .label = Ordenatu Eposta helbideaz (Z > A)
-
 about-addressbook-horizontal-layout =
     .label = Aldatu diseinu horizontalera
 about-addressbook-vertical-layout =
@@ -103,9 +96,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = Helbide elektronikoak
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Goitizena
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Telefono zenbakiak
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -124,10 +114,44 @@ about-addressbook-column-label-organization =
 about-addressbook-column-header-addrbook = Helbide-liburua
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
-
+about-addressbook-column-header-generatedname2 = Izena
+    .title = Izenez ordenatu
+about-addressbook-column-label-generatedname2 =
+    .label = Izena
+about-addressbook-column-header-emailaddresses2 = Helbide elektronikoak
+    .title = Helbidearen arabera ordenatu
+about-addressbook-column-label-emailaddresses2 =
+    .label = Helbide elektronikoak
+about-addressbook-column-header-nickname2 = Goitizena
+    .title = Goitizenaren arabera ordenatu
+about-addressbook-column-label-nickname2 =
+    .label = Goitizena
+about-addressbook-column-header-phonenumbers2 = Telefono zenbakiak
+    .title = Telefono zenbakiz ordenatu
+about-addressbook-column-label-phonenumbers2 =
+    .label = Telefono zenbakiak
+about-addressbook-column-header-addresses2 = Helbideak
+    .title = Helbidearen arabera ordenatu
+about-addressbook-column-label-addresses2 =
+    .label = Helbideak
+about-addressbook-column-header-title2 = Titulua
+    .title = Tituluaren arabera ordenatu
+about-addressbook-column-label-title2 =
+    .label = Titulua
+about-addressbook-column-header-department2 = Saila
+    .title = Sailaren arabera ordenatu
+about-addressbook-column-label-department2 =
+    .label = Saila
+about-addressbook-column-header-organization2 = Erakundea
+    .title = Erakundearen arabera ordenatu
+about-addressbook-column-label-organization2 =
+    .label = Erakundea
+about-addressbook-column-header-addrbook2 = Helbide-liburua
+    .title = Helbide-liburuaren arabera ordenatu
+about-addressbook-column-label-addrbook2 =
+    .label = Helbide-liburua
 about-addressbook-cards-context-write =
     .label = Idatzi
-
 about-addressbook-confirm-delete-mixed-title = Ezabatu kontaktuak eta posta-zerrendak
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
@@ -199,27 +223,19 @@ about-addressbook-selection-contacts-header = { $count } kontaktu hautatuak
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } zerrenda hautatuak
-
 about-addressbook-details-edit-photo =
     .title = Editatu kontaktuaren argazkia
-
 about-addressbook-new-contact-header = Kontaktu berria
-
 about-addressbook-prefer-display-name = Hobetsi bistaratzeko izena mezuaren goiburuaren aurretik
-
 about-addressbook-write-action-button = Idatzi
 about-addressbook-event-action-button = Gertaera
 about-addressbook-search-action-button = Bilatu
-
 about-addressbook-new-list-action-button = Zerrenda berria
-
 about-addressbook-begin-edit-contact-button = Editatu
 about-addressbook-delete-edit-contact-button = Ezabatu
 about-addressbook-cancel-edit-contact-button = Utzi
 about-addressbook-save-edit-contact-button = Gorde
-
 about-addressbook-add-contact-to = Gehitu hona:
-
 about-addressbook-details-email-addresses-header = Helbide elektronikoak
 about-addressbook-details-phone-numbers-header = Telefono zenbakiak
 about-addressbook-details-addresses-header = Helbideak
@@ -227,14 +243,12 @@ about-addressbook-details-notes-header = Oharrak
 about-addressbook-details-impp-header = Berehalako mezularitza
 about-addressbook-details-websites-header = Webguneak
 about-addressbook-details-other-info-header = Bestelako informazioa
-
 about-addressbook-entry-type-work = Lana
 about-addressbook-entry-type-home = Etxea
 about-addressbook-entry-type-fax = Faxa
 # Or "Mobile"
 about-addressbook-entry-type-cell = Mugikorra:
 about-addressbook-entry-type-pager = Bilagailua
-
 about-addressbook-entry-name-birthday = Urtebetetzea
 about-addressbook-entry-name-anniversary = Urteurrena
 about-addressbook-entry-name-title = Titulua
@@ -242,12 +256,10 @@ about-addressbook-entry-name-role = Zeregina:
 about-addressbook-entry-name-organization = Erakundea
 about-addressbook-entry-name-website = Webgunea
 about-addressbook-entry-name-time-zone = Ordu-zona
-
 about-addressbook-entry-name-custom1 = Pertsonalizatua 1
 about-addressbook-entry-name-custom2 = Pertsonalizatua 2
 about-addressbook-entry-name-custom3 = Pertsonalizatua 3
 about-addressbook-entry-name-custom4 = Pertsonalizatua 4
-
 about-addressbook-unsaved-changes-prompt-title = Gorde gabeko aldaketak
 about-addressbook-unsaved-changes-prompt = Aldaketak gorde nahi dituzu editatze ikuspegitik irten aurretik?
 
@@ -257,7 +269,6 @@ about-addressbook-photo-drop-target = Arrastatu edo itsatsi argazki bat hemen ed
 about-addressbook-photo-drop-loading = Argazkia kargatzen…
 about-addressbook-photo-drop-error = Huts egin du argazkia kargatzeak.
 about-addressbook-photo-filepicker-title = Hautatu irudi-fitxategia
-
 about-addressbook-photo-discard = Baztertu dagoen argazkia
 about-addressbook-photo-cancel = Utzi
 about-addressbook-photo-save = Gorde
