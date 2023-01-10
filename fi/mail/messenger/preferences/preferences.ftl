@@ -688,6 +688,12 @@ search-results-help-link = Tarvitsetko apua? Vieraile <a data-l10n-name="url">{ 
 
 ## Sync Tab
 
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Kirjaudu synkronoidaksesi…
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = Sähköpostiosoitetta “{ $userEmail }” ei ole vahistettu.
+sync-pane-resend-verification = Lähetä vahvistus uudestaan
 sync-pane-sign-in = Kirjaudu sisään
 sync-pane-remove-account = Poista tili
 sync-pane-edit-photo =
@@ -707,7 +713,9 @@ show-synced-learn-more = Lue lisää…
 show-synced-item-account = Sähköpostitilit
 show-synced-item-address = Osoitekirjat
 show-synced-item-calendar = Kalenterit
+show-synced-item-passwords = Salasanat
 show-synced-change = Muokkaa…
 synced-acount-item-server-config = Palvelimen määritys
 synced-acount-item-filters = Suodattimet
 synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-turn-on-sync = Ota synkronointi käyttöön…
