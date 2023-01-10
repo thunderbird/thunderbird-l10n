@@ -20,6 +20,4 @@
 <!ENTITY removeButton.label "Αφαίρεση λογαριασμού">
 <!ENTITY removeButton.accesskey "Α">
 
-<!ENTITY addonsButton.label "Επεκτάσεις &amp; θέματα">
-
-<!-- AccountManager.xhtml -->
+<!ENTITY addonsButton.label "Επεκτάσεις και θέματα">
