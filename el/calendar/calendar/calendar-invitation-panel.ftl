@@ -6,7 +6,11 @@
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = Ο/Η { $organizer } σάς προσκάλεσε στο:
 calendar-invitation-panel-status-new = Έχετε προσκληθεί σε αυτήν την εκδήλωση.
+calendar-invitation-panel-status-processed = Αυτή η εκδήλωση έχει ήδη προστεθεί στο ημερολόγιό σας.
+calendar-invitation-panel-status-updateminor = Αυτό το μήνυμα περιέχει ενημέρωση για αυτήν την εκδήλωση.
+calendar-invitation-panel-status-updatemajor = Αυτό το μήνυμα περιέχει ενημέρωση για αυτήν την εκδήλωση. Θα πρέπει να επιβεβαιώσετε εκ νέου την παρουσία σας.
 calendar-invitation-panel-status-cancelled = Αυτό το μήνυμα περιέχει ακύρωση για αυτήν την εκδήλωση.
+calendar-invitation-panel-status-cancelled-notfound = Αυτό το μήνυμα περιέχει ακύρωση για μια εκδήλωση που δεν βρέθηκε στο ημερολόγιό σας.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = Ο/Η { $organizer } ακύρωσε:

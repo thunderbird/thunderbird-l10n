@@ -12,6 +12,7 @@
 
 ## These strings are shown in a desktop notification after the user requests we resend a verification email.
 
+fxa-verification-sent-title = Η επαλήθευση απεστάλη
 fxa-verification-not-sent-title = Δεν είναι δυνατή η αποστολή επαλήθευσης
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
