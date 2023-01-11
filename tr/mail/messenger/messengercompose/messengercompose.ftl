@@ -247,6 +247,12 @@ show-bcc-row-button = Bcc
     .title = Bcc alanını göster ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Gösterilecek diğer adres alanları
+#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
+many-public-recipients-notice =
+    { $count ->
+        [one] İletinizin görünür bir alıcısı var. Bunun yerine Bcc’yi kullanarak alıcıların açığa çıkmasını önleyebilirsiniz.
+       *[other] Kime ve Cc alanlarındaki { $count } alıcı birbirlerinin adresini görebilecek. Bunun yerine Bcc kullanarak alıcıları göstermekten kaçınabilirsiniz.
+    }
 many-public-recipients-bcc =
     .label = Bcc kullan
     .accesskey = B
@@ -338,6 +344,10 @@ cloud-file-upload-error-with-custom-message-title = { $filename }, { $provider }
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-title = Yeniden adlandırma hatası
+cloud-file-rename-error = { $provider } sağlayıcısında { $filename } yeniden adlandırılırken bir sorun oluştu.
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = { $provider } sağlayıcısında { $filename } yeniden adlandırılamadı
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } önceden yüklenmiş dosyaların yeniden adlandırılmasını desteklemiyor.
 # $filename (string) - name of the file that was renamed and caused the error

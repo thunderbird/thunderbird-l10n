@@ -112,6 +112,9 @@ mail-context-delete-messages =
             [one] İletiyi sil
            *[other] Seçilmiş iletileri sil
         }
+context-menu-decrypt-to-folder =
+    .label = Şifresi çözülmüş olarak kopyala
+    .accesskey = f
 
 ## Message header pane
 
