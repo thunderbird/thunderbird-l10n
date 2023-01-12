@@ -10,7 +10,7 @@
      -->
 <!ENTITY cmd.show.label                            "打开所在文件夹">
 <!ENTITY cmd.show.accesskey                        "F">
-<!ENTITY cmd.showMac.label                         "在 Finder 中显示">
+<!ENTITY cmd.showMac.label                         "在“访达”中显示">
 <!ENTITY cmd.showMac.accesskey                     "F">
 <!ENTITY cmd.open.label                            "打开">
 <!ENTITY cmd.open.accesskey                        "O">
