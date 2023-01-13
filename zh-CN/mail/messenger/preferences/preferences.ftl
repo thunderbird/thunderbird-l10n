@@ -205,7 +205,7 @@ check-default-button =
 # Platforms that don't support it should be left blank.
 search-engine-name =
     { PLATFORM() ->
-        [macos] “聚焦”
+        [macos] 聚焦
         [windows] Windows 搜索
        *[other] { "" }
     }

@@ -26,7 +26,7 @@ checkbox-calendar-label =
 # Platforms that don't support it should be left blank.
 system-search-engine-name =
     { PLATFORM() ->
-        [macos] “聚焦”
+        [macos] 聚焦
         [windows] Windows 搜索
        *[other] { "" }
     }
