@@ -260,6 +260,12 @@ many-public-recipients-ignore =
     .label = Alıcılar herkese açık kalsın
     .accesskey = A
 many-public-recipients-prompt-title = Çok fazla ortak alıcı
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [one] İletinizin görünür bir alıcısı var. Bu bir gizlilik sorunu olabilir. Alıcıyı Kime/Cc alanından Bcc alanına taşıyarak bunu önleyebilirsiniz.
+       *[other] İletinizin { $count } görünür alıcısı var ve bunlar birbirlerinin adreslerini görebilecekler. Bu bir gizlilik sorunu olabilir. Alıcıları Kime/Cc alanından Bcc alanına taşıyarak açığa çıkmalarını önleyebilirsiniz.
+    }
 many-public-recipients-prompt-cancel = Göndermekten vazgeç
 many-public-recipients-prompt-send = Yine de gönder
 
