@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY AdvancedEditButton.label "Edición avanzada...">
+<!ENTITY AdvancedEditButton.label "Edición avanzada…">
 <!ENTITY AdvancedEditButton.accessKey "E">
 <!ENTITY AdvancedEditButton.tooltip "Añada o modifique atributos HTML, atributos de estilo y JavaScript">
 <!ENTITY chooseFileButton.label "Elegir archivo...">
@@ -13,5 +13,6 @@
 <!ENTITY makeUrlRelative.accessKey "r">
 <!ENTITY makeUrlRelative.tooltip "Alterna entre URL absoluta y relativa. Debe guardar previamente la página para cambiar esta propiedad.">
 
+<!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Introduzca una dirección de página web, un archivo local o seleccione un enlace con nombre o encabezado desde el menú de contexto del campo:">
 <!ENTITY LinkURLEditField2.accessKey "w">

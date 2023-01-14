@@ -48,7 +48,7 @@
 
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label                   "Notificaciones">
-<!ENTITY lightning.calendarproperties.globalNotifications.label             "Preferencias globales de notificación...">
+<!ENTITY lightning.calendarproperties.globalNotifications.label             "Preferencias globales de notificación…">
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label                                  "Aceptar">
@@ -94,8 +94,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Cambiar el estado de participación de la serie sin enviar una respuesta al organizador">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
