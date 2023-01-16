@@ -5,9 +5,10 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } jo was pśepšosył do:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } jo zaktualizěrował:
+calendar-invitation-panel-status-new = Maśo pšepšosenje na toś to tšojenje.
+calendar-invitation-panel-status-processed = Toś to tšojenje jo se južo pśidało wašomu kalendarjoju.
+calendar-invitation-panel-status-updateminor = Toś ta powěsć aktualizaciju za toś to tšojenje wopśimujo.
+calendar-invitation-panel-status-cancelled = Toś ta powěsć wótgronjenje za toś to tšojenje wopśimujo.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } jo pśetergnuł:
@@ -15,7 +16,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } jo pśetergnuł:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Składowaś
-calendar-invitation-panel-save-button = Składowaś
 calendar-invitation-panel-view-button = Naglěd
 calendar-invitation-panel-update-button = Aktualizěrowaś
 calendar-invitation-panel-delete-button = Lašowaś
@@ -23,6 +23,11 @@ calendar-invitation-panel-accept-button = Jo
 calendar-invitation-panel-decline-button = Ně
 calendar-invitation-panel-tentative-button = Snaź
 calendar-invitation-panel-reply-status = * Hyšći njejsćo rozsuźił abo wótegronił
+calendar-invitation-panel-more-button = Wěcej
+calendar-invitation-panel-menu-item-save =
+    .label = Do kalendarja składowaś
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Změny pokazaś
 calendar-invitation-panel-prop-title-when = Gdy:
 calendar-invitation-panel-prop-title-location = Městno:
 # Variables:
@@ -94,3 +99,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } bźez wótegrona
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } wobźělnikow
 calendar-invitation-panel-prop-title-attachments = Pśidanki:
+calendar-invitation-change-indicator-removed = Wótwónoźony
+calendar-invitation-change-indicator-added = Nowy
+calendar-invitation-change-indicator-modified = Změnjony
