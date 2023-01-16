@@ -197,7 +197,7 @@
 <!ENTITY sendButton.tooltip "Enviar este mensaje ahora">
 <!ENTITY sendlaterButton.tooltip "Enviar este mensaje después">
 <!ENTITY quoteButton.tooltip "Citar el mensaje anterior">
-<!ENTITY addressButton.tooltip "Seleccione a un destinatario de una libreta de direcciones">
+<!ENTITY addressButton.tooltip "Selecciona a un destinatario de una libreta de direcciones">
 <!ENTITY spellingButton.tooltip "Revisar ortografía de selección o mensaje entero">
 <!ENTITY saveButton.tooltip "Guardar este mensaje">
 <!ENTITY cutButton.tooltip              "Cortar">
