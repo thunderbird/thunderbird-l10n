@@ -18,6 +18,15 @@ appmenu-sync-manage =
     .accesskey = z
 appmenu-sync-account =
     .value = example@example.com
+appmenu-sync-now =
+    .label = Něnto synchronizěrowaś
+    .accesskey = N
+appmenu-sync-settings =
+    .label = Nastajenja synchronizacije
+    .accesskey = N
+appmenu-sync-sign-out =
+    .label = Wótzjawiś…
+    .accesskey = W
 
 ## New Account
 
@@ -184,3 +193,16 @@ appmenu-help-troubleshooting-info =
 appmenu-help-about-product =
     .label = Wó { -brand-short-name }
     .accesskey = W
+
+## Application Update
+
+appmenuitem-banner-update-downloading =
+    .label = Aktualizaciju { -brand-shorter-name } ześěgnuś
+appmenuitem-banner-update-available =
+    .label = Aktualizacija k dispoziciji – něnto ześěgnuś
+appmenuitem-banner-update-manual =
+    .label = Aktualizacija k dispoziciji – něnto ześěgnuś
+appmenuitem-banner-update-unsupported =
+    .label = Aktulaizacija njejo móžna – system jo inkompatibelny
+appmenuitem-banner-update-restart =
+    .label = Aktualizacija k dispoziciji – něnto znowego startowaś
