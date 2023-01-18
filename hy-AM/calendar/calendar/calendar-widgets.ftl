@@ -4,3 +4,11 @@
 
 calendar-deactivated-notification-events = Ներկայումս բոլոր օրացույցներն անջատված են: Միացնել գոյություն ունեցող օրացույցը կամ ավելացնել նորը՝ իրադարձություններ ստեղծելու և խմբագրելու համար:
 calendar-deactivated-notification-tasks = Ներկայումս բոլոր օրացույցներն անջատված են: Միացնել գոյություն ունեցող օրացույցը կամ ավելացնել նորը՝ իրադարձություններ ստեղծելու և խմբագրելու համար:
+calendar-view-toggle-day = Օր
+    .title = Փոխել օրվա դիտմանը
+calendar-view-toggle-week = Շաբաթ
+    .title = Փոխել շաբաթվա դիտմանը
+calendar-view-toggle-multiweek = Բազմաշաբաթ
+    .title = Փոխել բազմաշաբաթ դիտմանը
+calendar-view-toggle-month = Ամիս
+    .title = Փոխել ամսվա դիտմանը
