@@ -4,8 +4,14 @@
 
 calendar-deactivated-notification-events = Derzeit sind alle Kalender deaktiviert. Aktivieren Sie einen bestehenden Kalender oder fügen Sie einen neuen hinzu, um Termine zu erstellen und bearbeiten.
 calendar-deactivated-notification-tasks = Derzeit sind alle Kalender deaktiviert. Aktivieren Sie einen bestehenden Kalender oder fügen Sie einen neuen hinzu, um Aufgaben zu erstellen und bearbeiten.
-
 calendar-notifications-label = Benachrichtigungen für demnächst anstehende Termine anzeigen
-
 calendar-add-notification-button =
-  .label = Benachrichtigung hinzufügen
+    .label = Benachrichtigung hinzufügen
+calendar-view-toggle-day = Tag
+    .title = Zur Tagesansicht wechseln
+calendar-view-toggle-week = Woche
+    .title = Zur Wochenansicht wechseln
+calendar-view-toggle-multiweek = Mehrere Wochen
+    .title = Zur mehrwöchigen Ansicht wechseln
+calendar-view-toggle-month = Monat
+    .title = Zur Monatsansicht wechseln
