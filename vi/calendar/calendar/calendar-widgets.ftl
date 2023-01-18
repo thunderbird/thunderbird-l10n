@@ -17,5 +17,7 @@ calendar-view-toggle-day = Ngày
     .title = Chuyển sang xem theo ngày
 calendar-view-toggle-week = Tuần
     .title = Chuyển sang xem theo tuần
+calendar-view-toggle-multiweek = Nhiều tuần
+    .title = Chuyển sang xem theo nhiều tuần
 calendar-view-toggle-month = Tháng
     .title = Chuyển sang xem theo tháng
