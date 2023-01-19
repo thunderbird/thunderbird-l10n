@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Sähköposti
+customize-space-addressbook = Osoitekirja
+customize-space-calendar = Kalenteri
+customize-space-tasks = Tehtävät
+customize-space-chat = Keskustelu
+customize-space-settings = Asetukset
 customize-button-style-icons-beside-text =
     .label = Kuvakkeet tekstin vieressä
 
