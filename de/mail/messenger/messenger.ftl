@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -12,15 +13,13 @@ messenger-window-restore-down-button =
     .tooltiptext = Verkleinern
 messenger-window-close-button =
     .tooltiptext = Schließen
-
 # Variables:
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
-  { $count ->
-     [one] 1 ungelesene Nachricht
-    *[other] { $count } ungelesene Nachrichten
-  }
-
+    { $count ->
+        [one] 1 ungelesene Nachricht
+       *[other] { $count } ungelesene Nachrichten
+    }
 about-rights-notification-text = { -brand-short-name } ist freie und quelloffene Software, entwickelt von einer Gemeinschaft tausender Gleichgesinnter, verteilt über die gesamte Welt.
 
 ## Content tabs
@@ -37,11 +36,9 @@ content-tab-security-broken-icon =
 addons-and-themes-toolbarbutton =
     .label = Add-ons und Themes
     .tooltiptext = Add-ons verwalten
-
 quick-filter-toolbarbutton =
     .label = Schnellfilter
     .tooltiptext = Nachrichten filtern
-
 redirect-msg-button =
     .label = Umleiten
     .tooltiptext = Umleiten der ausgewählten Nachricht
@@ -51,10 +48,8 @@ redirect-msg-button =
 folder-pane-toolbar =
     .toolbarname = Konten-/Ordneransicht
     .accesskey = O
-
 folder-pane-toolbar-options-button =
     .tooltiptext = Einstellungen für Konten-/Ordneransicht
-
 folder-pane-header-label = Ordner
 
 ## Folder Toolbar Header Popup
@@ -62,27 +57,21 @@ folder-pane-header-label = Ordner
 folder-toolbar-hide-toolbar-toolbarbutton =
     .label = Symbolleiste ausblenden
     .accesskey = S
-
 show-all-folders-label =
     .label = Alle Ordner
     .accesskey = A
-
 show-unread-folders-label =
     .label = Ungelesene Ordner
     .accesskey = U
-
 show-favorite-folders-label =
     .label = Favoriten-Ordner
     .accesskey = F
-
 show-smart-folders-label =
     .label = Gruppierte Ordner
     .accesskey = G
-
 show-recent-folders-label =
     .label = Letzte Ordner
     .accesskey = L
-
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompakte Ansicht
     .accesskey = K
@@ -92,7 +81,6 @@ folder-toolbar-toggle-folder-compact-view =
 redirect-msg-menuitem =
     .label = Umleiten
     .accesskey = U
-
 menu-file-save-as-file =
     .label = Datei…
     .accesskey = D
@@ -101,22 +89,16 @@ menu-file-save-as-file =
 
 appmenu-save-as-file =
     .label = Datei…
-
 appmenu-settings =
     .label = Einstellungen
-
 appmenu-addons-and-themes =
     .label = Add-ons und Themes
-
 appmenu-help-enter-troubleshoot-mode =
     .label = Fehlerbehebungsmodus…
-
 appmenu-help-exit-troubleshoot-mode =
     .label = Fehlerbehebungsmodus deaktivieren
-
 appmenu-help-more-troubleshooting-info =
     .label = Weitere Informationen zur Fehlerbehebung
-
 appmenu-redirect-msg =
     .label = Umleiten
 
@@ -124,13 +106,12 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Umleiten
-
 mail-context-delete-messages =
-  .label = { $count ->
-     [one] Nachricht löschen
-    *[other] Ausgewählte Nachrichten löschen
-  }
-
+    .label =
+        { $count ->
+            [one] Nachricht löschen
+           *[other] Ausgewählte Nachrichten löschen
+        }
 context-menu-decrypt-to-folder =
     .label = Entschlüsselt kopieren nach
     .accesskey = E
@@ -139,11 +120,9 @@ context-menu-decrypt-to-folder =
 
 other-action-redirect-msg =
     .label = Umleiten
-
 message-header-msg-flagged =
     .title = Gekennzeichnet
     .aria-label = Gekennzeichnet
-
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -152,34 +131,25 @@ message-header-recipient-avatar =
 ## Message header cutomize panel
 
 message-header-customize-panel-title = Kopfzeilen - Einstellungen
-
 message-header-customize-button-style =
     .value = Schaltflächendarstellung
     .accesskey = S
-
 message-header-button-style-default =
     .label = Symbole und Text
-
 message-header-button-style-text =
     .label = Text
-
 message-header-button-style-icons =
     .label = Symbole
-
 message-header-show-sender-full-address =
     .label = Immer vollständige Adresse des Absenders anzeigen
     .accesskey = A
-
 message-header-show-sender-full-address-description = Die E-Mail-Adresse wird unter dem Anzeigenamen angezeigt.
-
 message-header-show-recipient-avatar =
     .label = Profilbild des Absenders anzeigen
     .accesskey = P
-
 message-header-hide-label-column =
     .label = Keine Spalte für Beschriftungen verwenden
     .accesskey = K
-
 message-header-large-subject =
     .label = Betreff in großer Schrift
     .accesskey = B
@@ -193,8 +163,6 @@ toolbar-context-menu-remove-extension =
     .label = Erweiterung entfernen
     .accesskey = n
 
-## Message headers
-
 ## Add-on removal warning
 
 # Variables:
@@ -202,14 +170,12 @@ toolbar-context-menu-remove-extension =
 addon-removal-title = { $name } entfernen?
 addon-removal-confirmation-button = Entfernen
 addon-removal-confirmation-message = Sowohl { $name } als auch seine Einstellungen und Daten in { -brand-short-name } entfernen?
-
 caret-browsing-prompt-title = Mit Textcursor-Steuerung arbeiten
 caret-browsing-prompt-text = Das Drücken der Taste F7 schaltet das Arbeiten mit Textcursor-Steuerung an und aus. Diese Funktion fügt einen bewegbaren Textcursor in den Inhaltsbereich ein, mit dem. z.B. Text ausgewählt werden kann. Soll die Textcursor-Steuerung aktiviert werden?
 caret-browsing-prompt-check-text = Das nächste Mal nicht nachfragen
-
 repair-text-encoding-button =
-  .label = Textkodierung reparieren
-  .tooltiptext = Richtige Textkodierung basierend auf dem Nachrichteninhalt erraten
+    .label = Textkodierung reparieren
+    .tooltiptext = Richtige Textkodierung basierend auf dem Nachrichteninhalt erraten
 
 ## no-reply handling
 
@@ -227,51 +193,36 @@ spaces-toolbar-element =
     .toolbarname = Bereiche-Symbolleiste
     .aria-label = Bereiche-Symbolleiste
     .aria-description = Vertikale Symbolleiste zum Wechseln zwischen verschiedenen Bereichen der Anwendung. Verwenden Sie die Pfeiltasten, um zwischen den verfügbaren Schaltflächen zu wechseln.
-
 spaces-toolbar-button-mail2 =
     .title = E-Mail
-
 spaces-toolbar-button-address-book2 =
     .title = Adressbuch
-
 spaces-toolbar-button-calendar2 =
     .title = Kalender
-
 spaces-toolbar-button-tasks2 =
     .title = Aufgaben
-
 spaces-toolbar-button-chat2 =
     .title = Chat
-
 spaces-toolbar-button-overflow =
     .title = Weitere Bereiche…
-
 spaces-toolbar-button-settings2 =
     .title = Einstellungen
-
 spaces-toolbar-button-hide =
     .title = Bereiche-Symbolleiste ausblenden
-
 spaces-toolbar-button-show =
     .title = Bereiche-Symbolleiste anzeigen
-
 spaces-context-new-tab-item =
     .label = In neuem Tab öffnen
-
 spaces-context-new-window-item =
     .label = In neuem Fenster öffnen
-
 # Variables:
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
     .label = Wechseln zu { $tabName }
-
 settings-context-open-settings-item2 =
     .label = Einstellungen
-
 settings-context-open-account-settings-item2 =
     .label = Konten-Einstellungen
-
 settings-context-open-addons-item2 =
     .label = Add-ons und Themes
 
@@ -279,39 +230,43 @@ settings-context-open-addons-item2 =
 
 spaces-toolbar-pinned-tab-button =
     .tooltiptext = Bereiche-Menü
-
 spaces-pinned-button-menuitem-show =
     .label = { spaces-toolbar-button-show.title }
-
 # Variables:
 # $count (Number) - Number of unread messages.
 chat-button-unread-messages = { $count }
-    .title = { $count ->
-        [one] Eine ungelesene Nachricht
-        *[other] { $count } ungelesene Nachrichten
-    }
+    .title =
+        { $count ->
+            [one] Eine ungelesene Nachricht
+           *[other] { $count } ungelesene Nachrichten
+        }
 
 ## Spaces toolbar customize panel
 
 menuitem-customize-label =
     .label = Anpassen…
-
 spaces-customize-panel-title = Bereiche-Symbolleiste - Einstellungen
-
 spaces-customize-background-color = Hintergrundfarbe
-
 spaces-customize-icon-color = Schaltflächenfarbe
-
 # The background color used on the buttons of the spaces toolbar when they are
 # `current`, meaning the related space/tab is active and visible.
 spaces-customize-accent-background-color = Hintergrundfarbe für ausgewählte Schaltfläche
-
 # The icon color used on the buttons of the spaces toolbar when they are
 # `current`, meaning the related space/tab is active and visible.
 spaces-customize-accent-text-color = Farbe für ausgewählte Schaltfläche
-
 spaces-customize-button-restore = Standard wiederherstellen
     .accesskey = w
-
 customize-panel-button-save = Fertig
     .accesskey = F
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Schnellfilterleiste
+    .accesskey = S
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
