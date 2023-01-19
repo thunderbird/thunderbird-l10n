@@ -15,11 +15,9 @@ about-rights-notification-text = { -brand-short-name } је слободан и 
 addons-and-themes-toolbarbutton =
     .label = Додаци и теме
     .tooltiptext = Управљајте вашим додацима
-
 quick-filter-toolbarbutton =
     .label = Брзо филтрирање
     .tooltiptext = Филтрира поруке
-
 redirect-msg-button =
     .label = Преусмерење
     .tooltiptext = Преусмери изабрану поруку
@@ -33,27 +31,21 @@ folder-pane-header-label = Фасцикле
 folder-toolbar-hide-toolbar-toolbarbutton =
     .label = Сакриј алатницу
     .accesskey = и
-
 show-all-folders-label =
     .label = Све фасцикле
     .accesskey = в
-
 show-unread-folders-label =
     .label = Непрочитане фасцикле
     .accesskey = Н
-
 show-favorite-folders-label =
     .label = Омиљене фасцикле
     .accesskey = ф
-
 show-smart-folders-label =
     .label = Сједињене фасцикле
     .accesskey = ј
-
 show-recent-folders-label =
     .label = Скорашње фасцикле
     .accesskey = к
-
 folder-toolbar-toggle-folder-compact-view =
     .label = Сажети преглед
     .accesskey = г
@@ -68,16 +60,12 @@ redirect-msg-menuitem =
 
 appmenu-settings =
     .label = Подешавања
-
 appmenu-addons-and-themes =
     .label = Додаци и теме
-
 appmenu-help-enter-troubleshoot-mode =
     .label = Режим решавања проблема…
-
 appmenu-help-more-troubleshooting-info =
     .label = Више података за решавање проблема
-
 appmenu-redirect-msg =
     .label = Преусмери
 
@@ -113,16 +101,12 @@ repair-text-encoding-button =
 
 spaces-toolbar-button-mail2 =
     .title = Пошта
-
 spaces-toolbar-button-address-book2 =
     .title = Именик
-
 spaces-toolbar-button-calendar2 =
     .title = Календар
-
 spaces-toolbar-button-tasks2 =
     .title = Задаци
-
 spaces-toolbar-button-chat2 =
     .title = Ћаскање
 
@@ -133,23 +117,28 @@ spaces-toolbar-button-chat2 =
 
 menuitem-customize-label =
     .label = Прилагоди…
-
 spaces-customize-panel-title = Подешавања просторног страничника
-
 spaces-customize-background-color = Боја позадине
-
 spaces-customize-icon-color = Боја дугмета
-
 # The background color used on the buttons of the spaces toolbar when they are
 # `current`, meaning the related space/tab is active and visible.
 spaces-customize-accent-background-color = Боја позадине изабраног дугмета
-
 # The icon color used on the buttons of the spaces toolbar when they are
 # `current`, meaning the related space/tab is active and visible.
 spaces-customize-accent-text-color = Боја изабраног дугмета
-
 spaces-customize-button-restore = Врати подразумевано
     .accesskey = р
-
 customize-panel-button-save = Готово
     .accesskey = Г
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Трака брзог филтрирања
+    .accesskey = б
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
