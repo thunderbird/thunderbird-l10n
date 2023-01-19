@@ -1,0 +1,87 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Fleksibelt mellomrom
+toolbar-write-message-label = Skriv
+toolbar-write-message =
+    .title = Skriv ny melding
+toolbar-unifinder-label = Finn hendelser
+toolbar-unifinder =
+    .title = Slå av/på finn hendelser
+toolbar-folder-location-label = Mappeplassering
+toolbar-edit-event-label = Rediger
+toolbar-edit-event =
+    .title = Rediger valgte hendelser eller oppgaver
+toolbar-get-messages-label = Hent meldinger
+toolbar-reply-label = Svar
+toolbar-reply =
+    .title = Svar til avsender
+toolbar-reply-all-label = Svar alle
+toolbar-reply-all =
+    .title = Svar til avsender og alle mottakere
+toolbar-reply-to-list-label = Svar til liste
+toolbar-reply-to-list =
+    .title = Svar til e-postliste
+toolbar-archive-label = Arkiver
+toolbar-archive =
+    .title = Arkiver valgt melding
+toolbar-conversation-label = Samtale
+toolbar-conversation =
+    .title = Vis samtalen for valgt melding
+toolbar-previous-unread-label = Forrige uleste
+toolbar-previous-unread =
+    .title = Gå til forrige uleste melding
+toolbar-previous-label = Forrige
+toolbar-previous =
+    .title = Gå til forrige melding
+toolbar-next-unread-label = Neste uleste
+toolbar-next-unread =
+    .title = Gå til neste uleste melding
+toolbar-next-label = Neste
+toolbar-next =
+    .title = Gå til neste melding
+toolbar-junk-label = Uønsket
+toolbar-junk =
+    .title = Merk de valgte meldingene som uønsket e-post
+toolbar-delete-label = Slett
+toolbar-delete =
+    .title = Slett valgte meldinger eller mappe
+toolbar-compact-label = Komprimer
+toolbar-compact =
+    .title = Fjern slettede meldinger fra valgt mappe
+toolbar-add-as-event-label = Legg til som hendelse
+toolbar-add-as-event =
+    .title = Hent ut kalenderinfo fra meldingen og legg den til i kalenderen din som en hendelse
+toolbar-add-as-task-label = Legg til som oppgave
+toolbar-add-as-task =
+    .title = Hent ut kalenderinfo fra meldingen og legg den til i kalenderen din som en oppgave
+toolbar-tag-message-label = Etikett
+toolbar-tag-message =
+    .title = Merk melding
+toolbar-forward-inline-label = Videresend
+toolbar-forward-inline =
+    .title = Videresend valgt melding som innbundet tekst
+toolbar-forward-attachment-label = Videresend som vedlegg
+toolbar-forward-attachment =
+    .title = Videresend valgt melding som et vedlegg
+toolbar-mark-as-label = Merk
+toolbar-mark-as =
+    .title = Merk meldinger
+toolbar-address-book =
+    .title = Åpne adresseboken
+toolbar-chat-label = Nettprat
+toolbar-chat =
+    .title = Vis nettprat-fanen
+toolbar-calendar-label = Kalender
+toolbar-calendar =
+    .title = Bytt til kalenderfanen
+toolbar-tasks-label = Oppgaver
+toolbar-tasks =
+    .title = Bytt til oppgavefanen
+toolbar-print-label = Skriv ut
+toolbar-print =
+    .title = Skriv ut denne meldingen
