@@ -1,0 +1,81 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Liikuv tühimik
+toolbar-write-message-label = Kirjuta
+toolbar-write-message =
+    .title = Loo uus kiri
+toolbar-unifinder-label = Otsi sündmusi
+toolbar-unifinder =
+    .title = Lülita sündmuste otsingu paneeli
+toolbar-folder-location-label = Kausta asukoht
+toolbar-edit-event-label = Muuda
+toolbar-edit-event =
+    .title = Muuda valitud sündmust või ülesannet
+toolbar-get-messages-label = Tõmba kirjad
+toolbar-reply-label = Vasta
+toolbar-reply =
+    .title = Vasta kirjale
+toolbar-reply-all-label = Vasta kõigile
+toolbar-reply-all =
+    .title = Vasta saatjale ja kõigile saajatele
+toolbar-reply-to-list-label = Vasta listile
+toolbar-reply-to-list =
+    .title = Vasta meililistile
+toolbar-archive-label = Arhiveeri
+toolbar-archive =
+    .title = Arhiveeri valitud kirjad
+toolbar-conversation-label = Vestlus
+toolbar-conversation =
+    .title = Kuva valitud kirja vestlust
+toolbar-previous-unread-label = Eelmine lugemata
+toolbar-previous-unread =
+    .title = Kuva eelmist lugemata kirja
+toolbar-previous-label = Eelmine
+toolbar-previous =
+    .title = Kuva eelmist kirja
+toolbar-next-unread-label = Järgmine lugemata
+toolbar-next-unread =
+    .title = Kuva järgmist lugemata kirja
+toolbar-next-label = Järgmine
+toolbar-next =
+    .title = Kuva järgmist kirja
+toolbar-compact-label = Suru kokku
+toolbar-compact =
+    .title = Eemalda kustutatud kirjad valitud kaustast
+toolbar-add-as-event-label = Lisa sündmusena
+toolbar-add-as-event =
+    .title = Lisab kirjas oleva info põhjal kalendrisse sündmuse
+toolbar-add-as-task-label = Lisa ülesandena
+toolbar-add-as-task =
+    .title = Lisab kirjas oleva info põhjal kalendrisse ülesande
+toolbar-tag-message-label = Sildista
+toolbar-tag-message =
+    .title = Sildista kirju
+toolbar-forward-inline-label = Edasta
+toolbar-forward-inline =
+    .title = Edasta valitud kiri lihttekstina
+toolbar-forward-attachment-label = Edasta manusena
+toolbar-forward-attachment =
+    .title = Edasta valitud kiri manusena
+toolbar-mark-as-label = Märgista
+toolbar-mark-as =
+    .title = Märgi kiri
+toolbar-address-book =
+    .title = Ava aadressiraamat
+toolbar-chat-label = Kiirsuhtlus
+toolbar-chat =
+    .title = Kuva kiirsuhtluse kaarti
+toolbar-calendar-label = Kalender
+toolbar-calendar =
+    .title = Lülitu kalendri kaardile
+toolbar-tasks-label = Ülesanded
+toolbar-tasks =
+    .title = Lülitu ülesannete kaardile
+toolbar-print-label = Prindi
+toolbar-print =
+    .title = Prindi valitud kiri
