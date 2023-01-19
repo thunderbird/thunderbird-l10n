@@ -32,6 +32,8 @@ openpgp-broken-exchange-info = Бұл OpenPGP хабарламасы және о
 openpgp-broken-exchange-repair =
     .label = Хабарламаны жөндеу
 openpgp-broken-exchange-wait = Күте тұрыңыз…
+openpgp-has-nested-encrypted-parts = Бұл хабарламада қосымша шифрленген бөліктер бар.
+openpgp-show-encrypted-parts = Дешифрлеу және көрсету
 openpgp-cannot-decrypt-because-mdc =
     Бұл ескі және осал механизмді пайдаланатын шифрленген хабарлама.
     Оны тасымалдау кезінде мазмұнын ұрлау мақсатында өзгертілген болуы мүмкін.
