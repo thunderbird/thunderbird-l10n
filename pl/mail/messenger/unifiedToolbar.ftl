@@ -16,6 +16,11 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-addressbook = Książka adresowa
+customize-space-calendar = Kalendarz
+customize-space-tasks = Zadania
+customize-space-chat = Komunikator
+customize-space-settings = Ustawienia
 customize-button-style-icons-beside-text =
     .label = Ikony obok tekstu
 
