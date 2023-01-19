@@ -5,6 +5,113 @@
 
 ## Quick Filter Bar
 
+# The tooltip to display when the user hovers over the sticky button
+# (currently displayed as a push-pin). When active, the sticky button
+# causes the current filter settings to be retained when the user changes
+# folders or opens new tabs. (When inactive, only the state of the text
+# filters are propagated between folder changes and when opening new tabs.)
+quick-filter-bar-sticky =
+    .title = Kek'oje' na ri taq chayub'äl e'okisan toq yejalwachïx taq yakwuj
+# The tooltip for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread =
+    .title = Kek'ut pe xa xe ri mesik'in taq tzijol
+# The label for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread-label = Man sik'in ta
+# The tooltip for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred =
+    .title = Kek'ut pe xa xe ri ya'on kiq'ij taq tzijol
+# The label for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred-label = Ya'on ruq'ij
+# The tooltip for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook =
+    .title = Ketz'et xa xe ri kitzijol winaqi' pa ri kitz'ib'awuj awochochib'al
+# The label for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook-label = Kib'i' achib'il
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags =
+    .title = Kek'ut pe xa xe taq tzijol k'o kiyaketal
+# The label for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags-label = Taq etal
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment =
+    .title = Kek'ut pe xa xe taq tzijol k'o kitaqoj
+# The label for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment-label = Taqoj
+# The contents of the results box when there is a filter active but there
+# are no messages matching the filter.
+quick-filter-bar-no-results = Majun xe'ilitäj
+# This is used to populate the results box; it either displays the
+# number of messages found using this string, that there are no messages
+# (using quick-filter-bar-no-results), or the box is hidden.
+# Variables:
+# $count (Number) - The number of messages that match selected filters.
+quick-filter-bar-results =
+    { $count ->
+        [one] { $count } tzijol
+       *[other] { $count } taq tzijol
+    }
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-textbox-shortcut =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘ K
+       *[other] Ctrl+Shift+K
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter
+# the messages and that there is a hotkey they can press to get to the
+# box faster.
+quick-filter-bar-textbox =
+    .placeholder = Kechayüx re taq rutzijol re' <{ quick-filter-bar-textbox-shortcut }>
+# Tooltip of the Any-of/All-of tagging mode selector.
+quick-filter-bar-boolean-mode =
+    .title = Rub'anikil kichayuxik yaketal
+# The Any-of tagging mode.
+quick-filter-bar-boolean-mode-any =
+    .label = Xab'achike
+    .title = Jun ta chi ke ri taq retal na'oj cha'on k'o ta chi nuk'äm ri'
+# The All-of tagging mode.
+quick-filter-bar-boolean-mode-all =
+    .label = Ronojel richin
+    .title = Konojel ri retal na'oj k'o chi nikik'äm ki'
+# This label explains what the sender/recipients/subject/body buttons do.
+# This string should ideally be kept short because the label and the text
+# filter buttons share their bar (that appears when there is text in the text
+# filter box) with the list of tags when the tag filter is active, and the
+# tag sub-bar wants as much space as possible. (Overflow is handled by an
+# arrow scroll box.)
+quick-filter-bar-text-filter-explanation = Kechayüx taq rutzijol ruma:
+# The button label that toggles whether the text filter searches the message
+# sender for the string.
+quick-filter-bar-text-filter-sender = Taqonel
+# The button label that toggles whether the text filter searches the message
+# recipients (to, cc) for the string.
+quick-filter-bar-text-filter-recipients = K'ulunela'
+# The button label that toggles whether the text filter searches the message
+# subject for the string.
+quick-filter-bar-text-filter-subject = Taqikil
+# The button label that toggles whether the text filter searches the message
+# body for the string.
+quick-filter-bar-text-filter-body = Ch'akulal
+# The first line of the panel popup that tells the user we found no matches
+# but we can convert to a global search for them.
+quick-filter-bar-gloda-upsell-line1 = K'a tib'an re kanoxïk re' pa ronojel yakwuj
+# The second line of the panel popup that tells the user we found no matches.
+# Variables:
+# $text (String) - What the user has typed so far.
+quick-filter-bar-gloda-upsell-line2 = Tapitz'a’ chik ‘Enter’ richin k'a nib'an ri rukanoxik: { $text }
 
 ## Message thread pane
 
