@@ -9,3 +9,7 @@
 ## Conversation names when a room has no user readable name.
 
 room-name-empty = 清空对话
+# Variables:
+#  $oldName (String) - The previous name the conversation had before it was
+#    removed.
+room-name-empty-had-name = 已清空对话（{ $oldName }）
