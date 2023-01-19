@@ -6,9 +6,11 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Spatio flexibile
+search-bar-label = Cercar
 toolbar-write-message-label = Scriber
 toolbar-write-message =
     .title = Crear un nove message
+toolbar-move-to-label = Mover a
 toolbar-unifinder-label = Trovar eventos
 toolbar-unifinder =
     .title = Mutar le quadro trova eventos
@@ -74,6 +76,8 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Marcar
 toolbar-mark-as =
     .title = Marcar messages
+toolbar-view-picker-label = Vider
+toolbar-address-book-label = Libro del adresses
 toolbar-address-book =
     .title = Va al libro del adresses
 toolbar-chat-label = Chat
@@ -88,6 +92,9 @@ toolbar-calendar =
 toolbar-tasks-label = Activitates
 toolbar-tasks =
     .title = Cambiar al scheda de activitates
+toolbar-mail-label = Email
+toolbar-mail =
+    .title = Passar al scheda del posta
 toolbar-print-label = Imprimer
 toolbar-print =
     .title = Imprimer iste message
