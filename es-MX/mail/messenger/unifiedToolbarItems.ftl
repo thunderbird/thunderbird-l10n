@@ -10,6 +10,7 @@ search-bar-label = Buscar
 toolbar-write-message-label = Redactar
 toolbar-write-message =
     .title = Redactar nuevo mensaje
+toolbar-move-to-label = Mover a
 toolbar-unifinder-label = Buscar eventos
 toolbar-unifinder =
     .title = Activar/desactivar el panel Encontrar eventos

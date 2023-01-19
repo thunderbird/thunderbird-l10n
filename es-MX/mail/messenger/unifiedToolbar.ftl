@@ -29,8 +29,14 @@ customize-space-chat = Chat
 customize-space-settings = Ajustes
 customize-button-style-icons-beside-text =
     .label = Íconos a un lado del texto
+customize-button-style-icons-only =
+    .label = Solo iconos
+customize-button-style-text-only =
+    .label = Solo texto
 customize-cancel = Cancelar
 customize-save = Guardar
+customize-spaces-tabs =
+    .aria-label = Espacios
 
 ## Unified toolbar customization palette context menu
 
