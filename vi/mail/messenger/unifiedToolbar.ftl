@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Thư
+customize-space-addressbook = Sổ địa chỉ
+customize-space-calendar = Lịch
+customize-space-tasks = Nhiệm vụ
+customize-space-chat = Trò chuyện
+customize-space-settings = Cài đặt
 customize-button-style-icons-beside-text =
     .label = Biểu tượng bên cạnh văn bản
 
