@@ -20,6 +20,7 @@ customize-space-mail = Courrier
 customize-space-addressbook = Carnet d’adresses
 customize-space-calendar = Agenda
 customize-space-tasks = Tâches
+customize-space-chat = Messagerie instantanée
 customize-space-settings = Paramètres
 customize-button-style-icons-beside-text =
     .label = Texte à côté des icônes
