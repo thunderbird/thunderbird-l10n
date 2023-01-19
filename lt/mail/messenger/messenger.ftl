@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Window controls
 
 # Variables:
@@ -12,22 +13,21 @@ unread-messages-os-tooltip =
         [few] { $count } neperskaityti laiškai
        *[other] { $count } neperskaitytų laiškų
     }
-
 about-rights-notification-text = „{ -brand-short-name }“ yra nemokama ir atvirojo kodo programinė įranga, sukurta pasaulio bendruomenės.
 
 ## Content tabs
 
+
 ## Toolbar
+
 
 ## Folder Pane
 
 folder-pane-toolbar =
     .toolbarname = Aplankų polangio priemonių juosta
     .accesskey = A
-
 folder-pane-toolbar-options-button =
     .tooltiptext = Aplanko polangio parinktys
-
 folder-pane-header-label = Aplankai
 
 ## Folder Toolbar Header Popup
@@ -35,52 +35,47 @@ folder-pane-header-label = Aplankai
 folder-toolbar-hide-toolbar-toolbarbutton =
     .label = Slėpti mygtukų juostą
     .accesskey = S
-
 show-all-folders-label =
     .label = Visi aplankai
     .accesskey = V
-
 show-unread-folders-label =
     .label = Turintys neskaitytų laiškų
     .accesskey = n
-
 show-favorite-folders-label =
     .label = Parankiniai aplankai
     .accesskey = P
-
 show-smart-folders-label =
     .label = Suvestiniai aplankai
     .accesskey = S
-
 show-recent-folders-label =
     .label = Paskiausiai naudoti aplankai
     .accesskey = P
-
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktiškas vaizdas
     .accesskey = K
 
 ## Menu
 
+
 ## AppMenu
 
 appmenu-addons-and-themes =
     .label = Priedai ir grafiniai apvalkalai
-
 appmenu-help-enter-troubleshoot-mode =
     .label = Trikčių šalinimo veiksena…
-
 appmenu-help-exit-troubleshoot-mode =
     .label = Išjungti trikčių šalinimo veikseną
-
 appmenu-help-more-troubleshooting-info =
     .label = Daugiau informacijos apie trikčių šalinimą
 
 ## Context menu
 
+
 ## Message header pane
 
+
 ## Message header cutomize panel
+
 
 ## Action Button Context Menu
 
@@ -90,8 +85,6 @@ toolbar-context-menu-manage-extension =
 toolbar-context-menu-remove-extension =
     .label = Pašalinti priedą
     .accesskey = P
-
-## Message headers
 
 ## Add-on removal warning
 
@@ -103,11 +96,27 @@ addon-removal-confirmation-message = Pašalinti „{ $name }“ ir jo konfigūra
 
 ## no-reply handling
 
+
 ## error messages
+
 
 ## Spaces toolbar
 
+
 ## Spaces toolbar pinned tab menupopup
+
 
 ## Spaces toolbar customize panel
 
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Sparčiojo filtro juosta
+    .accesskey = S
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
