@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Эл. пошта
+customize-space-addressbook = Адрестік кітапша
+customize-space-calendar = Күнтізбе
+customize-space-tasks = Тапсырмалар
+customize-space-chat = Чат
+customize-space-settings = Баптаулар
 customize-button-style-icons-beside-text =
     .label = Таңбашалар мәтіннің қасында
 
