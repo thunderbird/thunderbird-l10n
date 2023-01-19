@@ -1,0 +1,82 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Espaço flexível
+toolbar-write-message-label = Escrever
+toolbar-write-message =
+    .title = Nova mensagem
+toolbar-unifinder-label = Procurar eventos
+toolbar-unifinder =
+    .title = Alternar o painel de procurar eventos
+toolbar-edit-event-label = Editar
+toolbar-edit-event =
+    .title = Editar evento ou tarefa selecionada
+toolbar-get-messages-label = Receber mensagens
+toolbar-reply-label = Responder
+toolbar-reply =
+    .title = Responder mensagem
+toolbar-reply-all =
+    .title = Responder ao remetente e a todos os destinatários
+toolbar-reply-to-list =
+    .title = Responder à lista de emails
+toolbar-redirect-label = Redirecionar
+toolbar-redirect =
+    .title = Redirecionar mensagens selecionadas
+toolbar-archive-label = Arquivar
+toolbar-archive =
+    .title = Arquivar mensagens selecionadas
+toolbar-conversation-label = Conversa
+toolbar-conversation =
+    .title = Mostrar conversa da mensagem selecionada
+toolbar-previous-unread-label = Anterior não lida
+toolbar-previous-unread =
+    .title = Mover para mensagem anterior não lida
+toolbar-previous-label = Anterior
+toolbar-previous =
+    .title = Mover para mensagem anterior
+toolbar-next-unread-label = Próxima não lida
+toolbar-next-unread =
+    .title = Mover para próxima mensagem não lida
+toolbar-next-label = Próxima
+toolbar-next =
+    .title = Mover para próxima mensagem
+toolbar-junk-label = Spam
+toolbar-junk =
+    .title = Marcar as mensagens selecionadas como spam
+toolbar-delete-label = Excluir
+toolbar-delete =
+    .title = Excluir pasta ou mensagens selecionadas
+toolbar-compact =
+    .title = Remover as mensagens excluídas da pasta selecionada
+toolbar-add-as-event-label = Adicionar como evento
+toolbar-add-as-event =
+    .title = Extrair informações de agenda a partir da mensagem e adicionar à sua agenda como um evento
+toolbar-add-as-task-label = Adicionar como tarefa
+toolbar-add-as-task =
+    .title = Extrair informações de agenda a partir da mensagem e adicionar à sua agenda como uma tarefa
+toolbar-tag-message-label = Etiquetas
+toolbar-tag-message =
+    .title = Aplicar etiquetas em mensagens
+toolbar-forward-inline-label = Encaminhar
+toolbar-forward-inline =
+    .title = Reencaminhar mensagem selecionada como texto
+toolbar-forward-attachment-label = Encaminhar como anexo
+toolbar-forward-attachment =
+    .title = Reencaminhar mensagem selecionada como anexo
+toolbar-mark-as-label = Marcar
+toolbar-mark-as =
+    .title = Marcar mensagens
+toolbar-address-book =
+    .title = Catálogo de endereços
+toolbar-chat-label = Conversa
+toolbar-chat =
+    .title = Mostrar a aba de conversa
+toolbar-calendar-label = Agenda
+toolbar-tasks-label = Tarefas
+toolbar-print-label = Imprimir
+toolbar-print =
+    .title = Imprimir a mensagem
