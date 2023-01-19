@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Espacio flexible
+search-bar-label = Buscar
 toolbar-write-message-label = Redactar
 toolbar-write-message =
     .title = Redactar nuevo mensaje
@@ -74,6 +75,8 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Marcar
 toolbar-mark-as =
     .title = Marcar mensajes
+toolbar-view-picker-label = Ver
+toolbar-address-book-label = Libreta de direcciones
 toolbar-address-book =
     .title = Ir a la libreta de direcciones
 toolbar-chat-label = Chat
@@ -88,6 +91,7 @@ toolbar-calendar =
 toolbar-tasks-label = Tareas
 toolbar-tasks =
     .title = Cambiar a la pestaña tareas
+toolbar-mail-label = Correo
 toolbar-print-label = Imprimir
 toolbar-print =
     .title = Imprimir este mensaje

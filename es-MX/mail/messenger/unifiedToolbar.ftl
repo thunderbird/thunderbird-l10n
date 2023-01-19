@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Buscar
+search-bar-item =
+    .label = Buscar:
+search-bar-placeholder = Buscar…
 
 ## Unified toolbar context menu
 
@@ -24,9 +29,13 @@ customize-space-chat = Chat
 customize-space-settings = Ajustes
 customize-button-style-icons-beside-text =
     .label = Íconos a un lado del texto
+customize-cancel = Cancelar
+customize-save = Guardar
 
 ## Unified toolbar customization palette context menu
 
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Eliminar
