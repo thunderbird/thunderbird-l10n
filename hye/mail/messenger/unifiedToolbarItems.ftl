@@ -5,6 +5,7 @@
 
 ### Unified Toolbar Item Label strings
 
+spacer-label = Ճկուն բացատ
 toolbar-write-message-label = Գրել
 toolbar-write-message =
     .title = Ստեղծել նոր նամակ
@@ -19,6 +20,9 @@ toolbar-reply-all =
 toolbar-reply-to-list-label = Պատասխանել ցուցակին
 toolbar-reply-to-list =
     .title = Պատասխանել փոստային ցուցակին
+toolbar-redirect-label = Վերայղում
+toolbar-redirect =
+    .title = Վերայղել ընտրուած հաղորդագրութիւնը
 toolbar-archive-label = Արխիւ
 toolbar-archive =
     .title = Արխիւացնել ընտրուած նամակները
@@ -37,6 +41,12 @@ toolbar-next-unread =
 toolbar-next-label = Յաջորդը
 toolbar-next =
     .title = Տեղափոխուել դէպի յաջորդ նամակ
+toolbar-junk-label = Թափաւն
+toolbar-junk =
+    .title = Նշել ընտրուած հաղորդագրութիւնները որպէս թափաւն
+toolbar-delete-label = Ջնջել
+toolbar-delete =
+    .title = Ջնջել ընտրուած հաղորդագրութիւնները կամ պանակը
 toolbar-compact-label = Սեղմել
 toolbar-compact =
     .title = Հեռացնել ջնջուած նամակները ընտրուած թղթապանակից
@@ -63,6 +73,12 @@ toolbar-address-book =
 toolbar-chat-label = Զրոյց
 toolbar-chat =
     .title = Ցուցադրել զրոյցի ներդիրը
+toolbar-add-ons-and-themes-label = Յաւելումներ եւ հիմնապատկերներ
+toolbar-add-ons-and-themes =
+    .title = Կառավարէք Ձեր յաւելումները
 toolbar-print-label = Տպել
 toolbar-print =
     .title = Տպել այս նամակը
+toolbar-quick-filter-bar-label = Արագ զտում
+toolbar-quick-filter-bar =
+    .title = Հաղորդագրութեան զտում
