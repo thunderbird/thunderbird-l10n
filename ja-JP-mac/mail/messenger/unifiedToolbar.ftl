@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = メール
+customize-space-addressbook = アドレス帳
+customize-space-calendar = カレンダー
+customize-space-tasks = ToDo
+customize-space-chat = チャット
+customize-space-settings = 設定を開きます
 customize-button-style-icons-beside-text =
     .label = アイコンの横にテキスト
 
