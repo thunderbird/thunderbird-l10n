@@ -2,9 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-list-calendar-context-reload-menuitem =
-    .label = 同步
-    .accesskey = S
-calendar-item-context-menu-modify-menuitem =
-    .label = 编辑
-    .accesskey = E
+
+### Matrix Protocol strings
+
+
+## Conversation names when a room has no user readable name.
+
+room-name-empty = 清空对话
