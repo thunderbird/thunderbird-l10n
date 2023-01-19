@@ -16,6 +16,10 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-calendar = Agenda
+customize-space-tasks = Activitates
+customize-space-chat = Chat
+customize-space-settings = Parametros
 customize-button-style-icons-beside-text =
     .label = Icones al latere de texto
 
