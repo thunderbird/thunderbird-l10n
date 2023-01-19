@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Αλληλογραφία
+customize-space-addressbook = Ευρετήριο
+customize-space-calendar = Ημερολόγιο
+customize-space-tasks = Εργασίες
+customize-space-chat = Συνομιλία
+customize-space-settings = Ρυθμίσεις
 customize-button-style-icons-beside-text =
     .label = Εικονίδια δίπλα στο κείμενο
 
