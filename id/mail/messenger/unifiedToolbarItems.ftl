@@ -1,0 +1,81 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Spasi Luwes
+toolbar-write-message-label = Tulis
+toolbar-write-message =
+    .title = Buat pesan baru
+toolbar-unifinder-label = Cari Acara
+toolbar-unifinder =
+    .title = Alihkan panel temukan acara
+toolbar-folder-location-label = Lokasi Folder
+toolbar-edit-event-label = Edit
+toolbar-edit-event =
+    .title = Sunting acara atau tugas terpilih
+toolbar-get-messages-label = Ambil Pesan
+toolbar-reply-label = Balas
+toolbar-reply =
+    .title = Balas pesan ini
+toolbar-reply-all-label = Balas ke Semua
+toolbar-reply-all =
+    .title = Balas kepada pengirim dan semua penerima
+toolbar-reply-to-list-label = Balas ke Milis
+toolbar-reply-to-list =
+    .title = Balas kepada milis
+toolbar-archive-label = Arsipkan
+toolbar-archive =
+    .title = Arsipkan pesan terpilih
+toolbar-conversation-label = Percakapan
+toolbar-conversation =
+    .title = Tampilkan percakapan dari pesan yang dipilih
+toolbar-previous-unread-label = Yang Belum Dibaca Sebelumnya
+toolbar-previous-unread =
+    .title = Pindah ke pesan yang belum dibaca sebelumnya
+toolbar-previous-label = Sebelumnya
+toolbar-previous =
+    .title = Pindah ke pesan sebelumnya
+toolbar-next-unread-label = Yang Belum Dibaca Selanjutnya
+toolbar-next-unread =
+    .title = Pindah ke pesan yang belum dibaca selanjutnya
+toolbar-next-label = Selanjutnya
+toolbar-next =
+    .title = Pindah ke pesan selanjutnya
+toolbar-compact-label = Padatkan
+toolbar-compact =
+    .title = Buang pesan yang dihapus pada folder terpilih
+toolbar-add-as-event-label = Tambahkan sebagai acara
+toolbar-add-as-event =
+    .title = Mengekstrak informasi kalender dari pesan dan menambahkannya ke dalam kalender Anda sebagai acara
+toolbar-add-as-task-label = Tambahkan sebagai tugas
+toolbar-add-as-task =
+    .title = Mengekstrak informasi kalender dari pesan dan menambahkannya ke dalam kalender Anda sebagai tugas
+toolbar-tag-message-label = Tag
+toolbar-tag-message =
+    .title = Tambahkan tag pada pesan
+toolbar-forward-inline-label = Teruskan
+toolbar-forward-inline =
+    .title = Teruskan pesan yang dipilih sebagai teks sebaris
+toolbar-forward-attachment-label = Teruskan Sebagai Lampiran
+toolbar-forward-attachment =
+    .title = Teruskan pesan yang dipilih sebagai lampiran
+toolbar-mark-as-label = Tandai
+toolbar-mark-as =
+    .title = Tandai pesan
+toolbar-address-book =
+    .title = Buka buku alamat
+toolbar-chat-label = Ngobrol
+toolbar-chat =
+    .title = Tampilkan tab Ngobrol
+toolbar-calendar-label = Kalender
+toolbar-calendar =
+    .title = Pindah ke tab kalender
+toolbar-tasks-label = Tugas
+toolbar-tasks =
+    .title = Pindah ke tab tugas
+toolbar-print-label = Cetak
+toolbar-print =
+    .title = Cetak pesan ini
