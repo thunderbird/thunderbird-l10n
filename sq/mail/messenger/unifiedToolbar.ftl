@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Postë
+customize-space-addressbook = Libër Adresash
+customize-space-calendar = Kalendar
+customize-space-tasks = Punë
+customize-space-chat = Fjalosje
+customize-space-settings = Rregullime
 customize-button-style-icons-beside-text =
     .label = Ikona në krah të Tekstit
 
