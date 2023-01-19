@@ -5,19 +5,50 @@
 
 ## Quick Filter Bar
 
+# The tooltip to display when the user hovers over the sticky button
+# (currently displayed as a push-pin). When active, the sticky button
+# causes the current filter settings to be retained when the user changes
+# folders or opens new tabs. (When inactive, only the state of the text
+# filters are propagated between folder changes and when opening new tabs.)
+quick-filter-bar-sticky =
+    .title = Διατήρηση φίλτρων κατά την εναλλαγή φακέλων
+# The tooltip for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread =
+    .title = Προβολή μόνο των μη αναγνωσμένων μηνυμάτων
 # The label for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread-label = Μη αναγνωσμένα
+# The tooltip for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred =
+    .title = Προβολή μόνο των μηνυμάτων με αστέρι
 # The label for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred-label = Με αστέρι
+# The tooltip for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook =
+    .title = Προβολή μόνο των μηνυμάτων από άτομα του ευρετηρίου σας
 # The label for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.
 quick-filter-bar-inaddrbook-label = Επαφή
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags =
+    .title = Προβολή μόνο των μηνυμάτων με ετικέτες
 # The label for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
 quick-filter-bar-tags-label = Ετικέτες
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment =
+    .title = Εμφάνιση μόνο των μηνυμάτων με συνημμένα
+# The label for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment-label = Συνημμένα
 # The contents of the results box when there is a filter active but there
 # are no messages matching the filter.
 quick-filter-bar-no-results = Κανένα αποτέλεσμα
@@ -71,6 +102,16 @@ quick-filter-bar-text-filter-recipients = Παραλήπτες
 # The button label that toggles whether the text filter searches the message
 # subject for the string.
 quick-filter-bar-text-filter-subject = Θέμα
+# The button label that toggles whether the text filter searches the message
+# body for the string.
+quick-filter-bar-text-filter-body = Σώμα
+# The first line of the panel popup that tells the user we found no matches
+# but we can convert to a global search for them.
+quick-filter-bar-gloda-upsell-line1 = Συνέχεια αναζήτησης σε όλους τους φακέλους
+# The second line of the panel popup that tells the user we found no matches.
+# Variables:
+# $text (String) - What the user has typed so far.
+quick-filter-bar-gloda-upsell-line2 = Πατήστε «Enter» ξανά για να συνεχίσετε την αναζήτησή σας για: { $text }
 
 ## Message thread pane
 
