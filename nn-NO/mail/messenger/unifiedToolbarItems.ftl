@@ -1,0 +1,87 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Fleksibelt mellomrom
+toolbar-write-message-label = Skriv
+toolbar-write-message =
+    .title = Skriv ny melding
+toolbar-unifinder-label = Finn hendingar
+toolbar-unifinder =
+    .title = Slå søk i hendingar av eller på
+toolbar-folder-location-label = Mappeplassering
+toolbar-edit-event-label = Rediger
+toolbar-edit-event =
+    .title = Rediger vald hending eller oppgåve
+toolbar-get-messages-label = Hent meldingar
+toolbar-reply-label = Svar
+toolbar-reply =
+    .title = Svar til avsendar
+toolbar-reply-all-label = Svar alle
+toolbar-reply-all =
+    .title = Svar til avsendar og alle mottakarar
+toolbar-reply-to-list-label = Svar til liste
+toolbar-reply-to-list =
+    .title = Svar til e-postliste
+toolbar-archive-label = Arkiv
+toolbar-archive =
+    .title = Arkiver valde meldingar
+toolbar-conversation-label = Samtale
+toolbar-conversation =
+    .title = Vis samtale for vald melding
+toolbar-previous-unread-label = Førre ulesne
+toolbar-previous-unread =
+    .title = Gå til førre ulesne melding
+toolbar-previous-label = Førre
+toolbar-previous =
+    .title = Gå til førre melding
+toolbar-next-unread-label = Neste ulesne
+toolbar-next-unread =
+    .title = Gå til neste ulesne melding
+toolbar-next-label = Neste
+toolbar-next =
+    .title = Gå til neste melding
+toolbar-junk-label = Uønskt
+toolbar-junk =
+    .title = Merk dei valde meldingane som uønskt e-post
+toolbar-delete-label = Slett
+toolbar-delete =
+    .title = Slett valgte meldinger eller mappe
+toolbar-compact-label = Komprimer
+toolbar-compact =
+    .title = Fjern sletta meldingar frå vald mappe
+toolbar-add-as-event-label = Legg til som hending
+toolbar-add-as-event =
+    .title = Hent ut kalenderinfo frå meldinga og legg til i kalenderen din som ei hending
+toolbar-add-as-task-label = Legg til som oppgåve
+toolbar-add-as-task =
+    .title = Hent ut kalenderinfo frå meldinga og legg til i kalenderen din som ei oppgåve
+toolbar-tag-message-label = Merkelapp-stikkord
+toolbar-tag-message =
+    .title = Merk melding
+toolbar-forward-inline-label = Vidaresend
+toolbar-forward-inline =
+    .title = Vidaresend vald melding som innbunden tekst
+toolbar-forward-attachment-label = Vidaresend som vedlegg
+toolbar-forward-attachment =
+    .title = Vidaresend vald melding som eit vedlegg
+toolbar-mark-as-label = Merk
+toolbar-mark-as =
+    .title = Merk meldingar
+toolbar-address-book =
+    .title = Opne adresseboka
+toolbar-chat-label = Nettprat
+toolbar-chat =
+    .title = Vis nettprat-fana
+toolbar-calendar-label = Kalender
+toolbar-calendar =
+    .title = Byt til kalenderfana
+toolbar-tasks-label = Oppgåver
+toolbar-tasks =
+    .title = Byt til oppgåvefana
+toolbar-print-label = Skriv ut
+toolbar-print =
+    .title = Skriv ut denne meldinga
