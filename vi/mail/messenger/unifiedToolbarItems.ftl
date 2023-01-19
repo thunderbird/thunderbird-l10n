@@ -1,0 +1,85 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Khoảng cách linh động
+toolbar-write-message-label = Viết thư
+toolbar-write-message =
+    .title = Tạo một thư mới
+toolbar-unifinder =
+    .title = Chuyển đến khung tìm sự kiện
+toolbar-folder-location-label = Địa chỉ thư mục
+toolbar-edit-event-label = Chỉnh sửa
+toolbar-edit-event =
+    .title = Chỉnh sửa sự kiện hoặc nhiệm vụ được chọn
+toolbar-reply-label = Trả lời
+toolbar-reply =
+    .title = Trả lời thư
+toolbar-reply-all-label = Trả lời tất cả
+toolbar-reply-all =
+    .title = Trả lời người gửi và tất cả người nhận
+toolbar-reply-to-list-label = Trả lời danh sách
+toolbar-reply-to-list =
+    .title = Trả lời danh sách thư
+toolbar-archive-label = Lưu trữ
+toolbar-archive =
+    .title = Lưu trữ các thư đã chọn
+toolbar-conversation-label = Hội thoại
+toolbar-conversation =
+    .title = Hiển thị cuộc hội thoại của thư đã chọn
+toolbar-previous-unread-label = Thư chưa đọc trước đó
+toolbar-previous-unread =
+    .title = Chuyển sang thư chưa đọc phía trước
+toolbar-previous-label = Trước
+toolbar-previous =
+    .title = Di chuyển đến thư trước
+toolbar-next-unread-label = Thư chưa đọc tiếp theo
+toolbar-next-unread =
+    .title = Chuyển sang thư chưa đọc tiếp theo
+toolbar-next-label = Tiếp theo
+toolbar-next =
+    .title = Di chuyển đến thư kế tiếp
+toolbar-junk-label = Thư rác
+toolbar-junk =
+    .title = Đánh dấu các thư đã chọn là thư rác
+toolbar-delete-label = Xóa
+toolbar-delete =
+    .title = Xóa thư hoặc thư mục đã chọn
+toolbar-compact-label = Làm gọn
+toolbar-compact =
+    .title = Dọn các thư bị xóa ra khỏi thư mục đã chọn
+toolbar-add-as-event-label = Thêm dưới dạng sự kiện
+toolbar-add-as-event =
+    .title = Trích xuất thông tin lịch từ tin nhắn và thêm nó vào lịch của bạn như một sự kiện
+toolbar-add-as-task-label = Thêm dưới dạng nhiệm vụ
+toolbar-add-as-task =
+    .title = Trích xuất thông tin lịch từ tin nhắn và thêm nó vào lịch của bạn như là một nhiệm vụ
+toolbar-tag-message-label = Nhãn
+toolbar-tag-message =
+    .title = Dán nhãn cho thư
+toolbar-forward-inline-label = Chuyển tiếp
+toolbar-forward-inline =
+    .title = Chuyển tiếp thư được chọn dưới dạng văn bản ngay trong thư
+toolbar-forward-attachment-label = Chuyển tiếp dưới dạng đính kèm
+toolbar-forward-attachment =
+    .title = Chuyển tiếp thư được chọn dưới dạng đính kèm
+toolbar-mark-as-label = Đánh dấu
+toolbar-mark-as =
+    .title = Đánh dấu thư
+toolbar-address-book =
+    .title = Vào sổ địa chỉ
+toolbar-chat-label = Trò chuyện
+toolbar-chat =
+    .title = Hiển thị thẻ trò chuyện
+toolbar-calendar-label = Lịch
+toolbar-calendar =
+    .title = Chuyển sang thẻ lịch
+toolbar-tasks-label = Nhiệm vụ
+toolbar-tasks =
+    .title = Chuyển sang thẻ nhiệm vụ
+toolbar-print-label = In
+toolbar-print =
+    .title = In thư này
