@@ -5,6 +5,114 @@
 
 ## Quick Filter Bar
 
+# The tooltip to display when the user hovers over the sticky button
+# (currently displayed as a push-pin). When active, the sticky button
+# causes the current filter settings to be retained when the user changes
+# folders or opens new tabs. (When inactive, only the state of the text
+# filters are propagated between folder changes and when opening new tabs.)
+quick-filter-bar-sticky =
+    .title = Mirout ar siloù arloet pa zigoran un teuliad all
+# The tooltip for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread =
+    .title = Diskouez ar c'hemennadennoù anlennet hepken
+# The label for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread-label = Anlennet
+# The tooltip for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred =
+    .title = Diskouez ar c'hemennadennoù steredek hepken
+# The label for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred-label = Steredek
+# The tooltip for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook =
+    .title = Diskouez ar c'hemennadennoù o tont eus darempredoù ho karned chomlec'hioù hepken
+# The label for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook-label = Darempred
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags =
+    .title = Diskouez ar c'hemennadennoù merket hepken
+# The label for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags-label = Merkoù
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment =
+    .title = Diskouez ar c'hemennadennoù gant kenstagadurioù hepken
+# The label for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment-label = Kenstagadur
+# The contents of the results box when there is a filter active but there
+# are no messages matching the filter.
+quick-filter-bar-no-results = Disoc'h ebet
+# This is used to populate the results box; it either displays the
+# number of messages found using this string, that there are no messages
+# (using quick-filter-bar-no-results), or the box is hidden.
+# Variables:
+# $count (Number) - The number of messages that match selected filters.
+quick-filter-bar-results =
+    { $count ->
+        [one] { $count } gemennadenn
+        [two] { $count } a gemennadennoù
+       *[other] { $count } a gemennadennoù
+    }
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-textbox-shortcut =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘ K
+       *[other] Ctrl+Shift+K
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter
+# the messages and that there is a hotkey they can press to get to the
+# box faster.
+quick-filter-bar-textbox =
+    .placeholder = Silañ ar c'hemennadennoù-mañ… <{ quick-filter-bar-textbox-shortcut }>
+# Tooltip of the Any-of/All-of tagging mode selector.
+quick-filter-bar-boolean-mode =
+    .title = Mod silañ dre verkoù
+# The Any-of tagging mode.
+quick-filter-bar-boolean-mode-any =
+    .label = Unan da nebeutañ
+    .title = Unan da nebeutañ eus ar c'hlavioù bet diuzet a zlefe kenglotañ
+# The All-of tagging mode.
+quick-filter-bar-boolean-mode-all =
+    .label = Pep tra
+    .title = Pep merk bet diuzet a rank kenglotañ
+# This label explains what the sender/recipients/subject/body buttons do.
+# This string should ideally be kept short because the label and the text
+# filter buttons share their bar (that appears when there is text in the text
+# filter box) with the list of tags when the tag filter is active, and the
+# tag sub-bar wants as much space as possible. (Overflow is handled by an
+# arrow scroll box.)
+quick-filter-bar-text-filter-explanation = Silañ ar c'hemennadennoù dre:
+# The button label that toggles whether the text filter searches the message
+# sender for the string.
+quick-filter-bar-text-filter-sender = Kaser
+# The button label that toggles whether the text filter searches the message
+# recipients (to, cc) for the string.
+quick-filter-bar-text-filter-recipients = Degemererien
+# The button label that toggles whether the text filter searches the message
+# subject for the string.
+quick-filter-bar-text-filter-subject = Danvez
+# The button label that toggles whether the text filter searches the message
+# body for the string.
+quick-filter-bar-text-filter-body = Korf
+# The first line of the panel popup that tells the user we found no matches
+# but we can convert to a global search for them.
+quick-filter-bar-gloda-upsell-line1 = Kenderc'hel ar c'hlask e-barzh an holl deuliadoù
+# The second line of the panel popup that tells the user we found no matches.
+# Variables:
+# $text (String) - What the user has typed so far.
+quick-filter-bar-gloda-upsell-line2 = Pouezit war ar stokell ‘Enankañ’ en-dro evit kenderc'hel ho c'hlask evit: { $text }
 
 ## Message thread pane
 
