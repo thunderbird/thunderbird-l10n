@@ -16,6 +16,11 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Пошта
+customize-space-addressbook = Именик
+customize-space-calendar = Календар
+customize-space-tasks = Задаци
+customize-space-chat = Ћаскање
 customize-button-style-icons-beside-text =
     .label = Иконице поред текста
 
