@@ -8,6 +8,10 @@
 
 ## Message thread pane
 
+threadpane-column-header-select =
+    .title = Víxla valstöðu allra skilaboða
+threadpane-column-label-select =
+    .label = Veldu skilaboð
 threadpane-column-label-thread =
     .label = Umræða
 threadpane-column-header-flagged =
@@ -50,6 +54,14 @@ threadpane-column-header-size = Stærð
     .title = Raða eftir Stærð
 threadpane-column-label-size =
     .label = Stærð
+threadpane-column-header-tags = Merki
+    .title = Raða eftir merkjum
+threadpane-column-label-tags =
+    .label = Merki
+threadpane-column-header-account = Reikningur
+    .title = Raða eftir reikningi
+threadpane-column-label-account =
+    .label = Reikningur
 threadpane-column-header-priority = Forgangur
     .title = Raða eftir forgangi
 threadpane-column-label-priority =
@@ -70,6 +82,10 @@ threadpane-column-header-id = Í móttekinni röð
     .title = Raða eftir móttekinni röð
 threadpane-column-label-id =
     .label = Í móttekinni röð
+threadpane-column-header-delete =
+    .title = Eyða skilaboðum
+threadpane-column-label-delete =
+    .label = Eyða
 
 ## Message state variations
 
