@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = E-bost
+customize-space-addressbook = Llyfr Cyfeiriadau
+customize-space-calendar = Calendr
+customize-space-tasks = Tasgau
+customize-space-chat = Sgwrsio
+customize-space-settings = Gosodiadau
 customize-button-style-icons-beside-text =
     .label = Eiconau gerllaw Testun
 
