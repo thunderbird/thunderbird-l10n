@@ -1,0 +1,87 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = ช่องว่างแบบยืดหยุ่น
+toolbar-write-message-label = เขียน
+toolbar-write-message =
+    .title = สร้างข้อความใหม่
+toolbar-unifinder-label = ค้นหาเหตุการณ์
+toolbar-unifinder =
+    .title = เปิด/ปิดบานหน้าต่างการค้นหาเหตุการณ์
+toolbar-folder-location-label = ตำแหน่งที่ตั้งโฟลเดอร์
+toolbar-edit-event-label = แก้ไข
+toolbar-edit-event =
+    .title = แก้ไขเหตุการณ์หรืองานที่เลือก
+toolbar-get-messages-label = รับข้อความ
+toolbar-reply-label = ตอบกลับ
+toolbar-reply =
+    .title = ตอบกลับถึงข้อความ
+toolbar-reply-all-label = ตอบกลับทั้งหมด
+toolbar-reply-all =
+    .title = ตอบกลับถึงผู้ส่งและผู้รับทั้งหมด
+toolbar-reply-to-list-label = ตอบกลับถึงรายการ
+toolbar-reply-to-list =
+    .title = ตอบกลับถึงรายชื่อผู้รับจดหมาย
+toolbar-archive-label = เก็บถาวร
+toolbar-archive =
+    .title = เก็บถาวรข้อความที่เลือก
+toolbar-conversation-label = การสนทนา
+toolbar-conversation =
+    .title = แสดงการสนทนาของข้อความที่เลือก
+toolbar-previous-unread-label = ก่อนหน้าที่ยังไม่ได้อ่าน
+toolbar-previous-unread =
+    .title = ย้ายไปยังข้อความที่ยังไม่ได้อ่านก่อนหน้า
+toolbar-previous-label = ก่อนหน้า
+toolbar-previous =
+    .title = ย้ายไปยังข้อความก่อนหน้า
+toolbar-next-unread-label = ถัดไปที่ยังไม่ได้อ่าน
+toolbar-next-unread =
+    .title = ย้ายไปยังข้อความที่ยังไม่ได้อ่านถัดไป
+toolbar-next-label = ถัดไป
+toolbar-next =
+    .title = ย้ายไปยังข้อความถัดไป
+toolbar-junk-label = ขยะ
+toolbar-junk =
+    .title = ทำเครื่องหมายข้อความที่เลือกว่าเป็นขยะ
+toolbar-delete-label = ลบ
+toolbar-delete =
+    .title = ลบข้อความหรือโฟลเดอร์ที่เลือก
+toolbar-compact-label = กระชับ
+toolbar-compact =
+    .title = เอาข้อความที่ถูกลบออกจากโฟลเดอร์ที่เลือก
+toolbar-add-as-event-label = เพิ่มเป็นเหตุการณ์
+toolbar-add-as-event =
+    .title = แยกข้อมูลปฏิทินจากข้อความและเพิ่มลงในปฏิทินของคุณเป็นเหตุการณ์
+toolbar-add-as-task-label = เพิ่มเป็นงาน
+toolbar-add-as-task =
+    .title = แยกข้อมูลปฏิทินจากข้อความและเพิ่มลงในปฏิทินของคุณเป็นงาน
+toolbar-tag-message-label = ป้ายกำกับ
+toolbar-tag-message =
+    .title = ติดป้ายกำกับข้อความ
+toolbar-forward-inline-label = ส่งต่อ
+toolbar-forward-inline =
+    .title = ส่งต่อข้อความที่เลือกเป็นข้อความแบบอินไลน์
+toolbar-forward-attachment-label = ส่งต่อเป็นไฟล์แนบ
+toolbar-forward-attachment =
+    .title = ส่งต่อข้อความที่เลือกเป็นไฟล์แนบ
+toolbar-mark-as-label = ทำเครื่องหมาย
+toolbar-mark-as =
+    .title = ทำเครื่องหมายข้อความ
+toolbar-address-book =
+    .title = ไปยังสมุดรายชื่อ
+toolbar-chat-label = แชท
+toolbar-chat =
+    .title = แสดงแท็บแชท
+toolbar-calendar-label = ปฏิทิน
+toolbar-calendar =
+    .title = สลับไปยังแท็บปฏิทิน
+toolbar-tasks-label = งาน
+toolbar-tasks =
+    .title = สลับไปยังแท็บงาน
+toolbar-print-label = พิมพ์
+toolbar-print =
+    .title = พิมพ์ข้อความนี้
