@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = E-mejl
+customize-space-addressbook = Adresnik
+customize-space-calendar = Protyka
+customize-space-tasks = Nadawki
+customize-space-chat = Chat
+customize-space-settings = Nastajenja
 customize-button-style-icons-beside-text =
     .label = Symbole a tekst
 
