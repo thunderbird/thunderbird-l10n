@@ -83,6 +83,10 @@ quick-filter-bar-boolean-mode =
 quick-filter-bar-boolean-mode-any =
     .label = Будь-який з
     .title = Повинен збігатися принаймні один з обраних критеріїв
+# The All-of tagging mode.
+quick-filter-bar-boolean-mode-all =
+    .label = Усі з
+    .title = Повинні збігатися всі обрані критерії
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
