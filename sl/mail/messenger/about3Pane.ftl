@@ -119,6 +119,8 @@ quick-filter-bar-gloda-upsell-line2 = Pritisnite spet ‘Enter', da nadaljujete 
 
 threadpane-column-header-select =
     .title = Preklopi izbor vseh sporočil
+threadpane-column-header-select-all =
+    .title = Izberi vsa sporočila
 threadpane-column-label-select =
     .label = Izberite sporočila
 threadpane-column-label-thread =
