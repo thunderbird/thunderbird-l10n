@@ -273,3 +273,15 @@ spaces-customize-button-restore = Rikthe Parazgjedhjet
     .accesskey = R
 customize-panel-button-save = U bë
     .accesskey = b
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Shtyllë Filtri të Shpejtë
+    .accesskey = S
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
