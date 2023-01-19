@@ -1,0 +1,81 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Espacio flexible
+toolbar-write-message-label = Redactar
+toolbar-write-message =
+    .title = Redactar nuevo mensaje
+toolbar-unifinder-label = Buscar eventos
+toolbar-unifinder =
+    .title = Activar/desactivar el panel Encontrar eventos
+toolbar-folder-location-label = Ubicación de la carpeta
+toolbar-edit-event-label = Editar
+toolbar-edit-event =
+    .title = Editar evento o tarea seleccionada
+toolbar-get-messages-label = Obtener mensajes
+toolbar-reply-label = Responder
+toolbar-reply =
+    .title = Responder al mensaje
+toolbar-reply-all-label = Responder a todos
+toolbar-reply-all =
+    .title = Responder al remitente y todos los destinatarios
+toolbar-reply-to-list-label = Responder a la lista
+toolbar-reply-to-list =
+    .title = Responder a lista de correos
+toolbar-archive-label = Archivar
+toolbar-archive =
+    .title = Archivar mensajes seleccionados
+toolbar-conversation-label = Conversación
+toolbar-conversation =
+    .title = Mostrar conversación del mensaje seleccionado
+toolbar-previous-unread-label = Anterior no leído
+toolbar-previous-unread =
+    .title = Cambiar al mensaje previo no leído
+toolbar-previous-label = Anterior
+toolbar-previous =
+    .title = Cambiar al mensaje previo
+toolbar-next-unread-label = Siguiente no leído
+toolbar-next-unread =
+    .title = Cambiar al siguiente mensaje no leído
+toolbar-next-label = Siguiente
+toolbar-next =
+    .title = Cambiar al siguiente mensaje
+toolbar-compact-label = Compactar
+toolbar-compact =
+    .title = Quitar mensajes borrados de la carpeta seleccionada
+toolbar-add-as-event-label = Agregar como evento
+toolbar-add-as-event =
+    .title = Extraer información de calendario del mensaje y agregar a tu calendario como evento
+toolbar-add-as-task-label = Agregar como tarea
+toolbar-add-as-task =
+    .title = Extraer información de calendario del mensaje y agregar a tu calendario como tarea
+toolbar-tag-message-label = Etiqueta
+toolbar-tag-message =
+    .title = Etiquetas de mensajes
+toolbar-forward-inline-label = Reenviar
+toolbar-forward-inline =
+    .title = Reenviar mensaje seleccionado como texto en línea
+toolbar-forward-attachment-label = Reenviar como adjunto
+toolbar-forward-attachment =
+    .title = Reenviar mensaje seleccionado como adjunto
+toolbar-mark-as-label = Marcar
+toolbar-mark-as =
+    .title = Marcar mensajes
+toolbar-address-book =
+    .title = Ir a la libreta de direcciones
+toolbar-chat-label = Chat
+toolbar-chat =
+    .title = Mostrar la pestaña de Chat
+toolbar-calendar-label = Calendario
+toolbar-calendar =
+    .title = Cambiar a la pestaña calendario
+toolbar-tasks-label = Tareas
+toolbar-tasks =
+    .title = Cambiar a la pestaña tareas
+toolbar-print-label = Imprimir
+toolbar-print =
+    .title = Imprimir este mensaje
