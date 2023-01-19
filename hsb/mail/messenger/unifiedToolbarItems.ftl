@@ -1,0 +1,87 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Fleksibelna prózdnota
+toolbar-write-message-label = Pisać
+toolbar-write-message =
+    .title = Nowu powěsć spisać
+toolbar-unifinder-label = Podawki namakać
+toolbar-unifinder =
+    .title = Wobłuk "Podawki namakać" přepinać
+toolbar-folder-location-label = Městno rjadowaka
+toolbar-edit-event-label = Wobdźěłać
+toolbar-edit-event =
+    .title = Wubrany podawk abo nadawk wobdźěłać
+toolbar-get-messages-label = Powěsće wobstarać
+toolbar-reply-label = Wotmołwić
+toolbar-reply =
+    .title = Na powěsć wotmołwić
+toolbar-reply-all-label = Wšěm wotmołwić
+toolbar-reply-all =
+    .title = Wotpósłarjej a wšěm přijimarjam wotmołwić
+toolbar-reply-to-list-label = Lisćinje wotmołwić
+toolbar-reply-to-list =
+    .title = Rozesyłanskej lisćinje wotmołwić
+toolbar-archive-label = Archiw
+toolbar-archive =
+    .title = Wubrane powěsće archiwować
+toolbar-conversation-label = Rozmołwa
+toolbar-conversation =
+    .title = Konwersaciju wubraneje powěsće pokazać
+toolbar-previous-unread-label = Předchadna njepřečitana
+toolbar-previous-unread =
+    .title = K předchadnej njepřečitanej powěsći
+toolbar-previous-label = Předchadny
+toolbar-previous =
+    .title = K předchadnej powěsći přesunyć
+toolbar-next-unread-label = Přichodna njepřečitana
+toolbar-next-unread =
+    .title = K přichodnej njepřečitanej powěsći
+toolbar-next-label = Přichodny
+toolbar-next =
+    .title = K přichodnej powěsći přesunyć
+toolbar-junk-label = Čapor
+toolbar-junk =
+    .title = Wubrane powěsće jako čapor markěrować
+toolbar-delete-label = Zhašeć
+toolbar-delete =
+    .title = Wubrane powěsće abo rjadowak zhašeć
+toolbar-compact-label = Zhusćić
+toolbar-compact =
+    .title = Zhašane powěsće z wubraneho rjadowaka wotstronić
+toolbar-add-as-event-label = Jako podawk přidać
+toolbar-add-as-event =
+    .title = Protykowe informacije z powěsće ekstrahować a je wašej protyce jako podawk přidać
+toolbar-add-as-task-label = Jako nadawk přidać
+toolbar-add-as-task =
+    .title = Protykowe informacije z powěsće ekstrahować a je wašej protyce jako nadawk přidać
+toolbar-tag-message-label = Značka
+toolbar-tag-message =
+    .title = Powěsće markěrować
+toolbar-forward-inline-label = Dale sposrědkować
+toolbar-forward-inline =
+    .title = Wubranu Powěsć jako zasadźeny tekst dale sposrědkować
+toolbar-forward-attachment-label = Jako přiwěšk dale sposrědkować
+toolbar-forward-attachment =
+    .title = Wubranu Powěsć jako přiwěšk dale sposrědkować
+toolbar-mark-as-label = Markěrować
+toolbar-mark-as =
+    .title = Powěsće markěrować
+toolbar-address-book =
+    .title = K adresnikej
+toolbar-chat-label = Chat
+toolbar-chat =
+    .title = Chatowy rajtark pokazać
+toolbar-calendar-label = Protyka
+toolbar-calendar =
+    .title = K protykowemu rajtarkej přepinać
+toolbar-tasks-label = Nadawki
+toolbar-tasks =
+    .title = K nadawkowemu rajtarkej přepinać
+toolbar-print-label = Ćišćeć
+toolbar-print =
+    .title = Tutu powěsć ćišćeć
