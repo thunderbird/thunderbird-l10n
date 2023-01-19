@@ -5,6 +5,113 @@
 
 ## Quick Filter Bar
 
+# The tooltip to display when the user hovers over the sticky button
+# (currently displayed as a push-pin). When active, the sticky button
+# causes the current filter settings to be retained when the user changes
+# folders or opens new tabs. (When inactive, only the state of the text
+# filters are propagated between folder changes and when opening new tabs.)
+quick-filter-bar-sticky =
+    .title = Behold filtrene ved bytte av mappe
+# The tooltip for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread =
+    .title = Vis bare uleste meldinger
+# The label for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread-label = Uleste
+# The tooltip for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred =
+    .title = Vis bare meldinger med stjerne
+# The label for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred-label = Med stjerne
+# The tooltip for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook =
+    .title = Vis bare meldinger fra kontakter i adresseboken
+# The label for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook-label = Kontakter
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags =
+    .title = Vis bare meldinger som er tilordnet etiketter
+# The label for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags-label = Etiketter
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment =
+    .title = Vis bare meldinger med vedlegg
+# The label for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment-label = Vedlegg
+# The contents of the results box when there is a filter active but there
+# are no messages matching the filter.
+quick-filter-bar-no-results = Ingen resultater
+# This is used to populate the results box; it either displays the
+# number of messages found using this string, that there are no messages
+# (using quick-filter-bar-no-results), or the box is hidden.
+# Variables:
+# $count (Number) - The number of messages that match selected filters.
+quick-filter-bar-results =
+    { $count ->
+        [one] { $count } melding
+       *[other] { $count } meldinger
+    }
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-textbox-shortcut =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘ K
+       *[other] Ctrl+Shift+K
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter
+# the messages and that there is a hotkey they can press to get to the
+# box faster.
+quick-filter-bar-textbox =
+    .placeholder = Filtrer disse meldingene <{ quick-filter-bar-textbox-shortcut }>
+# Tooltip of the Any-of/All-of tagging mode selector.
+quick-filter-bar-boolean-mode =
+    .title = Taggfiltreringsmodus
+# The Any-of tagging mode.
+quick-filter-bar-boolean-mode-any =
+    .label = En av
+    .title = Minst en av de valgte tagg-kriteriene må passe
+# The All-of tagging mode.
+quick-filter-bar-boolean-mode-all =
+    .label = Alle av
+    .title = Alle de valgte tagg-kriteriene må passe
+# This label explains what the sender/recipients/subject/body buttons do.
+# This string should ideally be kept short because the label and the text
+# filter buttons share their bar (that appears when there is text in the text
+# filter box) with the list of tags when the tag filter is active, and the
+# tag sub-bar wants as much space as possible. (Overflow is handled by an
+# arrow scroll box.)
+quick-filter-bar-text-filter-explanation = Filtrer meldinger etter:
+# The button label that toggles whether the text filter searches the message
+# sender for the string.
+quick-filter-bar-text-filter-sender = Avsender
+# The button label that toggles whether the text filter searches the message
+# recipients (to, cc) for the string.
+quick-filter-bar-text-filter-recipients = Mottakere
+# The button label that toggles whether the text filter searches the message
+# subject for the string.
+quick-filter-bar-text-filter-subject = Emne
+# The button label that toggles whether the text filter searches the message
+# body for the string.
+quick-filter-bar-text-filter-body = Meldingskropp
+# The first line of the panel popup that tells the user we found no matches
+# but we can convert to a global search for them.
+quick-filter-bar-gloda-upsell-line1 = Fortsett dette søket på tvers av alle mapper
+# The second line of the panel popup that tells the user we found no matches.
+# Variables:
+# $text (String) - What the user has typed so far.
+quick-filter-bar-gloda-upsell-line2 = Trykk ‘Enter’ igjen for å fortsette søket etter: { $text }
 
 ## Message thread pane
 

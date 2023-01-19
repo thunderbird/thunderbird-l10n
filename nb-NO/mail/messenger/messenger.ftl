@@ -21,10 +21,8 @@ addons-and-themes-toolbarbutton =
 folder-pane-toolbar =
     .toolbarname = Mappevisningsverktøylinje
     .accesskey = M
-
 folder-pane-toolbar-options-button =
     .tooltiptext = Alternativer for mappepanelet
-
 folder-pane-header-label = Mapper
 
 ## Folder Toolbar Header Popup
@@ -32,27 +30,21 @@ folder-pane-header-label = Mapper
 folder-toolbar-hide-toolbar-toolbarbutton =
     .label = Skjul verktøylinje
     .accesskey = S
-
 show-all-folders-label =
     .label = Alle mapper
     .accesskey = A
-
 show-unread-folders-label =
     .label = Uleste mapper
     .accesskey = U
-
 show-favorite-folders-label =
     .label = Favorittmapper
     .accesskey = F
-
 show-smart-folders-label =
     .label = Samlemapper
     .accesskey = S
-
 show-recent-folders-label =
     .label = Sist brukte mapper
     .accesskey = r
-
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompakt visning
     .accesskey = K
@@ -73,10 +65,8 @@ appmenu-addons-and-themes =
 
 ## Message header cutomize panel
 
+
 ## Action Button Context Menu
-
-
-## Message headers
 
 
 ## Add-on removal warning
@@ -90,8 +80,21 @@ appmenu-addons-and-themes =
 
 ## Spaces toolbar
 
+
 ## Spaces toolbar pinned tab menupopup
 
 
 ## Spaces toolbar customize panel
 
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Filterverktøylinje
+    .accesskey = F
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
