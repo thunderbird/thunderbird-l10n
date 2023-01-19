@@ -1,0 +1,81 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Espai flexible
+toolbar-write-message-label = Redacta
+toolbar-write-message =
+    .title = Crea un missatge nou
+toolbar-unifinder-label = Cerca cites
+toolbar-unifinder =
+    .title = Mostra/amaga la subfinestra de cerca de cites
+toolbar-folder-location-label = Ubicació de la carpeta
+toolbar-edit-event-label = Edita
+toolbar-edit-event =
+    .title = Edita la cita o la tasca seleccionada
+toolbar-get-messages-label = Recupera
+toolbar-reply-label = Respon
+toolbar-reply =
+    .title = Respon el missatge
+toolbar-reply-all-label = Respon a tots
+toolbar-reply-all =
+    .title = Respon al remitent i a tots els destinataris
+toolbar-reply-to-list-label = Respon a la llista
+toolbar-reply-to-list =
+    .title = Respon a la llista de correu
+toolbar-archive-label = Arxiva
+toolbar-archive =
+    .title = Arxiva els missatges seleccionats
+toolbar-conversation-label = Conversa
+toolbar-conversation =
+    .title = Mostra la conversa del missatge seleccionat
+toolbar-previous-unread-label = Anterior per llegir
+toolbar-previous-unread =
+    .title = Vés a l'anterior missatge per llegir
+toolbar-previous-label = Anterior
+toolbar-previous =
+    .title = Vés al missatge anterior
+toolbar-next-unread-label = Següent per llegir
+toolbar-next-unread =
+    .title = Vés al següent missatge per llegir
+toolbar-next-label = Següent
+toolbar-next =
+    .title = Vés al missatge següent
+toolbar-compact-label = Compacta
+toolbar-compact =
+    .title = Treu els missatges suprimits de la carpeta seleccionada
+toolbar-add-as-event-label = Afegeix com a cita
+toolbar-add-as-event =
+    .title = Extreu la informació temporal del missatge i l'afegeix al calendari com a cita
+toolbar-add-as-task-label = Afegeix com a tasca
+toolbar-add-as-task =
+    .title = Extreu la informació temporal del missatge i l'afegeix al calendari com a tasca
+toolbar-tag-message-label = Etiqueta
+toolbar-tag-message =
+    .title = Etiqueta els missatges
+toolbar-forward-inline-label = Reenvia
+toolbar-forward-inline =
+    .title = Reenvia el missatge seleccionat com text en el cos
+toolbar-forward-attachment-label = Reenvia com a adjunció
+toolbar-forward-attachment =
+    .title = Reenvia el missatge seleccionat com adjunció
+toolbar-mark-as-label = Marca
+toolbar-mark-as =
+    .title = Marca els missatges
+toolbar-address-book =
+    .title = Vés a la llibreta d'adreces
+toolbar-chat-label = Xat
+toolbar-chat =
+    .title = Mostra la pestanya de xat
+toolbar-calendar-label = Calendari
+toolbar-calendar =
+    .title = Mostra la pestanya del calendari
+toolbar-tasks-label = Tasques
+toolbar-tasks =
+    .title = Mostra la pestanya de les tasques
+toolbar-print-label = Imprimeix
+toolbar-print =
+    .title = Imprimeix aquest missatge
