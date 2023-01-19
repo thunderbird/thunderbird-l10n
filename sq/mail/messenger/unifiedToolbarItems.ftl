@@ -1,0 +1,87 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Hapësirë e Lakueshme
+toolbar-write-message-label = Shkruani
+toolbar-write-message =
+    .title = Krijoni mesazh të ri
+toolbar-unifinder-label = Gjeni Veprimtari
+toolbar-unifinder =
+    .title = Hapni/mbyllni kuadratin e gjetjes së veprimtarive
+toolbar-folder-location-label = Vend Dosjeje
+toolbar-edit-event-label = Përpunojeni
+toolbar-edit-event =
+    .title = Përpunoni veprimtari ose punë të përzgjedhura
+toolbar-get-messages-label = Merr Mesazhet
+toolbar-reply-label = Përgjigju
+toolbar-reply =
+    .title = Përgjigjiuni mesazhit
+toolbar-reply-all-label = Përgjigjiuni të Tërëve
+toolbar-reply-all =
+    .title = Përgjigjiuni dërguesit dhe tërë marrësve
+toolbar-reply-to-list-label = Përgjigjuni te Lista
+toolbar-reply-to-list =
+    .title = Përgjigjuni te lista e postimeve
+toolbar-archive-label = Arkivoje
+toolbar-archive =
+    .title = Mesazhe të përzgjedhur në arkiv
+toolbar-conversation-label = Bisedë
+toolbar-conversation =
+    .title = Shfaq bisedën e mesazhit të përzgjedhur
+toolbar-previous-unread-label = I palexuari i Mëparshëm
+toolbar-previous-unread =
+    .title = Kaloni te mesazhi i mëparshëm i palexuar
+toolbar-previous-label = I mëparshmi
+toolbar-previous =
+    .title = Kaloni te mesazhi i mëparshëm
+toolbar-next-unread-label = I palexuari Pasues
+toolbar-next-unread =
+    .title = Kaloni te mesazhi i palexuar pasues
+toolbar-next-label = Pasuesi
+toolbar-next =
+    .title = Kaloni te mesazhi pasues
+toolbar-junk-label = I pavlerë
+toolbar-junk =
+    .title = Vëri shenjë si i pavlerë mesazhit të përzgjedhur
+toolbar-delete-label = Fshije
+toolbar-delete =
+    .title = Fsji mesazhet ose dosjen e përzgjedhur
+toolbar-compact-label = Ngjeshe
+toolbar-compact =
+    .title = Hiqini mesazhet e fshirë prej dosjes së përzgjedhur
+toolbar-add-as-event-label = Shtoje si veprimtari
+toolbar-add-as-event =
+    .title = Përftoni nga mesazhi të dhëna kalendarike dhe shtojini ato te kalendari juaj si një veprimtari
+toolbar-add-as-task-label = Shtoje si punë
+toolbar-add-as-task =
+    .title = Përftoni nga mesazhi të dhëna kalendarike dhe shtojini ato te kalendari juaj si një punë
+toolbar-tag-message-label = Etiketë
+toolbar-tag-message =
+    .title = Etiketoni mesazhe
+toolbar-forward-inline-label = Përcille
+toolbar-forward-inline =
+    .title = Përcille mesazhin e përzgjedhur si tekst brendazi
+toolbar-forward-attachment-label = Përcille Si Bashkëngjitje
+toolbar-forward-attachment =
+    .title = Përcille mesazhin e përzgjedhur si një bashkëngjitje
+toolbar-mark-as-label = Shënoje
+toolbar-mark-as =
+    .title = Shënoni mesazhe
+toolbar-address-book =
+    .title = Shkoni te libri i adresave
+toolbar-chat-label = Fjalosje
+toolbar-chat =
+    .title = Shfaq skedën e Fjalosjeve
+toolbar-calendar-label = Kalendar
+toolbar-calendar =
+    .title = Kaloni te skeda e kalendarit
+toolbar-tasks-label = Punë
+toolbar-tasks =
+    .title = Kaloni te skeda e punëve
+toolbar-print-label = Shtype
+toolbar-print =
+    .title = Shtypeni këtë mesazh
