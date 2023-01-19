@@ -1,0 +1,87 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Fleksibelt mellemrum
+toolbar-write-message-label = Skriv
+toolbar-write-message =
+    .title = Skriv en ny meddelelse
+toolbar-unifinder-label = Find begivenheder
+toolbar-unifinder =
+    .title = Slå søg i begivenheder til eller fra
+toolbar-folder-location-label = Mappeplacering
+toolbar-edit-event-label = Rediger
+toolbar-edit-event =
+    .title = Rediger den valgte begivenhed eller opgaver
+toolbar-get-messages-label = Hent meddelelser
+toolbar-reply-label = Svar
+toolbar-reply =
+    .title = Svar på meddelelsen
+toolbar-reply-all-label = Svar til alle
+toolbar-reply-all =
+    .title = Svar til afsenderen og alle modtagerne
+toolbar-reply-to-list-label = Svar til liste
+toolbar-reply-to-list =
+    .title = Svar til mailingliste
+toolbar-archive-label = Arkiver
+toolbar-archive =
+    .title = Arkiver valgte meddelelser
+toolbar-conversation-label = Samtale
+toolbar-conversation =
+    .title = Vis den valgte meddelelses samtale
+toolbar-previous-unread-label = Forrige ulæste
+toolbar-previous-unread =
+    .title = Gå til forrige ulæste meddelelse
+toolbar-previous-label = Forrige
+toolbar-previous =
+    .title = Gå til den forrige meddelelse
+toolbar-next-unread-label = Næste ulæste
+toolbar-next-unread =
+    .title = Gå til næste ulæste meddelelse
+toolbar-next-label = Næste
+toolbar-next =
+    .title = Gå til den næste meddelelse
+toolbar-junk-label = Spam
+toolbar-junk =
+    .title = Marker den valgte meddelelse som spam
+toolbar-delete-label = Slet
+toolbar-delete =
+    .title = Slet den valgte meddelelse eller mappe
+toolbar-compact-label = Optimer
+toolbar-compact =
+    .title = Fjern slettede meddelelser fra valgte mappe
+toolbar-add-as-event-label = Tilføj som begivenhed
+toolbar-add-as-event =
+    .title = Hent kalenderdata fra en meddelelse, og føj den til din kalender som en begivenhed
+toolbar-add-as-task-label = Tilføj som opgave
+toolbar-add-as-task =
+    .title = Hent kalenderdata fra en meddelelse, og føj den til din kalender som en opgave
+toolbar-tag-message-label = Mærkat
+toolbar-tag-message =
+    .title = Marker meddelelser
+toolbar-forward-inline-label = Videresend
+toolbar-forward-inline =
+    .title = Videresend den valgte meddelelse som en del af selve meddelelsen
+toolbar-forward-attachment-label = Videresend som vedhæftet fil
+toolbar-forward-attachment =
+    .title = Videresend den valgte meddelelse som en vedhæftet fil
+toolbar-mark-as-label = Marker
+toolbar-mark-as =
+    .title = Marker meddelelser
+toolbar-address-book =
+    .title = Gå til adressebogen
+toolbar-chat-label = Chat
+toolbar-chat =
+    .title = Vis fanebladet Chat
+toolbar-calendar-label = Kalender
+toolbar-calendar =
+    .title = Skift til fanebladet Kalender
+toolbar-tasks-label = Opgaver
+toolbar-tasks =
+    .title = Skift til fanebladet Opgaver
+toolbar-print-label = Udskriv
+toolbar-print =
+    .title = Udskriv denne meddelelse
