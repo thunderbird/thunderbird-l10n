@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = E-posta
+customize-space-addressbook = Adres Defteri
+customize-space-calendar = Takvim
+customize-space-tasks = Görevler
+customize-space-chat = Sohbet
+customize-space-settings = Ayarlar
 customize-button-style-icons-beside-text =
     .label = Simgeler metnin yanında
 
