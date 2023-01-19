@@ -84,6 +84,8 @@ threadpane-column-label-id =
     .label = Orden de recepción
 threadpane-column-header-delete =
     .title = Eliminar un mensaje
+threadpane-column-label-delete =
+    .label = Borrar
 
 ## Message state variations
 
