@@ -1,0 +1,79 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Ruang Fleksibel
+toolbar-write-message-label = Tulis
+toolbar-write-message =
+    .title = Cipta mesej baru
+toolbar-unifinder-label = Cari Acara
+toolbar-unifinder =
+    .title = Togol anak tetingkap carian acara
+toolbar-folder-location-label = Lokasi Folder
+toolbar-edit-event-label = Edit
+toolbar-edit-event =
+    .title = Edit acara dan tugasan yang dipilih
+toolbar-get-messages-label = Dapatkan Mesej
+toolbar-reply-label = Balas
+toolbar-reply =
+    .title = Balas mesej
+toolbar-reply-all-label = Balas Semua
+toolbar-reply-all =
+    .title = Balas kepada pengirim dan semua penerima
+toolbar-reply-to-list-label = Balas mengikut Senarai
+toolbar-reply-to-list =
+    .title = Balas kepada kenalan dalam senarai mel
+toolbar-archive-label = Arkib
+toolbar-archive =
+    .title = Arkib mesej yang dipilih
+toolbar-conversation-label = Perbualan
+toolbar-previous-unread-label = Belum Dibaca Terdahulu
+toolbar-previous-unread =
+    .title = Pindah ke mesej belum dibaca terdahulu
+toolbar-previous-label = Dahulu
+toolbar-previous =
+    .title = Pergi ke mesej terdahulu
+toolbar-next-unread-label = Belum Dibaca Berikut
+toolbar-next-unread =
+    .title = Pindah ke mesej belum dibaca seterusnya
+toolbar-next-label = Berikut
+toolbar-next =
+    .title = Pergi ke mesej seterusnya
+toolbar-compact-label = Padat
+toolbar-compact =
+    .title = Buang mesej yang dihapuskan daripada folder yang dipilih
+toolbar-add-as-event-label = Tambah sebagai acara
+toolbar-add-as-event =
+    .title = Ekstrak maklumat kalendar daripada mesej dan masukkan ke dalam kalender sebagai acara
+toolbar-add-as-task-label = Tambah sebagai tugasan
+toolbar-add-as-task =
+    .title = Ekstrak maklumat kalendar daripada mesej dan masukkan ke dalam kalender sebagai tugasan
+toolbar-tag-message-label = Tag
+toolbar-tag-message =
+    .title = Tag mesej
+toolbar-forward-inline-label = Kirim semula
+toolbar-forward-inline =
+    .title = Kirim semula mesej yang dipilih sebagai teks sebaris
+toolbar-forward-attachment-label = Kirim semula sebagai Lampiran
+toolbar-forward-attachment =
+    .title = Kirim semula mesej yang dipilih sebagai lampiran
+toolbar-mark-as-label = Tandakan
+toolbar-mark-as =
+    .title = Tandakan mesej
+toolbar-address-book =
+    .title = Pergi ke buku alamat
+toolbar-chat-label = Sembang
+toolbar-chat =
+    .title = Papar tab Sembang
+toolbar-calendar-label = Kalendar
+toolbar-calendar =
+    .title = Tukar ke tab kalendar
+toolbar-tasks-label = Tugasan
+toolbar-tasks =
+    .title = Tukar ke tab tugasan
+toolbar-print-label = Cetak
+toolbar-print =
+    .title = Cetak mesej ini
