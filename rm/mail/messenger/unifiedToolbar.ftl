@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = E-mail
+customize-space-addressbook = Cudeschet d'adressas
+customize-space-calendar = Chalender
+customize-space-tasks = Incumbensas
+customize-space-chat = Chat
+customize-space-settings = Parameters
 customize-button-style-icons-beside-text =
     .label = Simbols sper il text
 
