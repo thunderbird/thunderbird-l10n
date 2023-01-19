@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Пошта
+customize-space-addressbook = Адресна книга
+customize-space-calendar = Календар
+customize-space-tasks = Завдання
+customize-space-chat = Чат
+customize-space-settings = Налаштування
 customize-button-style-icons-beside-text =
     .label = Піктограми поруч з текстом
 
