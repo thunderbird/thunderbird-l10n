@@ -5,6 +5,109 @@
 
 ## Quick Filter Bar
 
+# The tooltip to display when the user hovers over the sticky button
+# (currently displayed as a push-pin). When active, the sticky button
+# causes the current filter settings to be retained when the user changes
+# folders or opens new tabs. (When inactive, only the state of the text
+# filters are propagated between folder changes and when opening new tabs.)
+quick-filter-bar-sticky =
+    .title = Giữ các bộ lọc được áp dụng khi chuyển đổi thư mục
+# The tooltip for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread =
+    .title = Chỉ hiện các thư chưa đọc
+# The label for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread-label = Chưa đọc
+# The tooltip for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred =
+    .title = Chỉ hiện các thư gắn sao
+# The label for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred-label = Gắn sao
+# The tooltip for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook =
+    .title = Chỉ hiện thư tin từ những người trong sổ địa chỉ của bạn
+# The label for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook-label = Liên hệ
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags =
+    .title = Chỉ hiện các thư có dán nhãn
+# The label for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags-label = Nhãn
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment =
+    .title = Chỉ hiện các thư có phần đính kèm
+# The label for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment-label = Đính kèm
+# The contents of the results box when there is a filter active but there
+# are no messages matching the filter.
+quick-filter-bar-no-results = Không có kết quả
+# This is used to populate the results box; it either displays the
+# number of messages found using this string, that there are no messages
+# (using quick-filter-bar-no-results), or the box is hidden.
+# Variables:
+# $count (Number) - The number of messages that match selected filters.
+quick-filter-bar-results = { $count } thư
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-textbox-shortcut =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘ K
+       *[other] Ctrl+Shift+K
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter
+# the messages and that there is a hotkey they can press to get to the
+# box faster.
+quick-filter-bar-textbox =
+    .placeholder = Lọc các tin nhắn này <{ quick-filter-bar-textbox-shortcut }>
+# Tooltip of the Any-of/All-of tagging mode selector.
+quick-filter-bar-boolean-mode =
+    .title = Chế độ lọc nhãn
+# The Any-of tagging mode.
+quick-filter-bar-boolean-mode-any =
+    .label = Bất kỳ của
+    .title = Ít nhất một trong các tiêu chí nhãn được chọn phải phù hợp
+# The All-of tagging mode.
+quick-filter-bar-boolean-mode-all =
+    .label = Nguyên văn của
+    .title = Tất cả các tiêu chí nhãn được chọn phải phù hợp
+# This label explains what the sender/recipients/subject/body buttons do.
+# This string should ideally be kept short because the label and the text
+# filter buttons share their bar (that appears when there is text in the text
+# filter box) with the list of tags when the tag filter is active, and the
+# tag sub-bar wants as much space as possible. (Overflow is handled by an
+# arrow scroll box.)
+quick-filter-bar-text-filter-explanation = Lọc thư tin theo:
+# The button label that toggles whether the text filter searches the message
+# sender for the string.
+quick-filter-bar-text-filter-sender = Người gửi
+# The button label that toggles whether the text filter searches the message
+# recipients (to, cc) for the string.
+quick-filter-bar-text-filter-recipients = Người nhận
+# The button label that toggles whether the text filter searches the message
+# subject for the string.
+quick-filter-bar-text-filter-subject = Tiêu đề
+# The button label that toggles whether the text filter searches the message
+# body for the string.
+quick-filter-bar-text-filter-body = Nội dung
+# The first line of the panel popup that tells the user we found no matches
+# but we can convert to a global search for them.
+quick-filter-bar-gloda-upsell-line1 = Tiếp tục tìm kiếm này trên tất cả các thư mục
+# The second line of the panel popup that tells the user we found no matches.
+# Variables:
+# $text (String) - What the user has typed so far.
+quick-filter-bar-gloda-upsell-line2 = Nhấn ‘Enter’ một lần nữa để tiếp tục tìm kiếm của bạn cho: { $text }
 
 ## Message thread pane
 
