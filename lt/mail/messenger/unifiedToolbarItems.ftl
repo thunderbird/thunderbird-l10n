@@ -1,0 +1,87 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Kintamo pločio tarpas
+toolbar-write-message-label = Rašyti
+toolbar-write-message =
+    .title = Rašyti naują laišką
+toolbar-unifinder-label = Rasti įvykius
+toolbar-unifinder =
+    .title = Rodyti/slėpti įvykių paieškos polangį
+toolbar-folder-location-label = Aplanko vieta
+toolbar-edit-event-label = Taisyti
+toolbar-edit-event =
+    .title = Keisti pažymėtą įvykį ir darbą
+toolbar-get-messages-label = Atsiųsti laiškus
+toolbar-reply-label = Atsakyti
+toolbar-reply =
+    .title = Atsakyti į laišką
+toolbar-reply-all-label = Ats. visiems
+toolbar-reply-all =
+    .title = Atsakyti siuntėjui ir visiems gavėjams
+toolbar-reply-to-list-label = Ats. grupei
+toolbar-reply-to-list =
+    .title = Atsakyti elektroninio pašto grupei
+toolbar-archive-label = Archyvuoti
+toolbar-archive =
+    .title = Perkelti pažymėtus laiškus į archyvą
+toolbar-conversation-label = Diskusija
+toolbar-conversation =
+    .title = Atverti pažymėtą laišką diskusijoje
+toolbar-previous-unread-label = Ankstesnis neskaitytas
+toolbar-previous-unread =
+    .title = Pereiti prie ankstesnio neskaityto laiško
+toolbar-previous-label = Ankstesnis
+toolbar-previous =
+    .title = Pereiti prie ankstesnio laiško
+toolbar-next-unread-label = Tolesnis neskaitytas
+toolbar-next-unread =
+    .title = Pereiti prie tolesnio neskaityto laiško
+toolbar-next-label = Tolesnis
+toolbar-next =
+    .title = Pereiti prie tolesnio laiško
+toolbar-junk-label = Brukalas
+toolbar-junk =
+    .title = Pasirinktas pranešimas bus pažymėtas kaip brukalas
+toolbar-delete-label = Pašalinti
+toolbar-delete =
+    .title = Pašalinti pasirinktą pranešimą ar katalogą
+toolbar-compact-label = Suglaudinti
+toolbar-compact =
+    .title = Sunaikinti pašalintus laiškus iš pažymėto aplanko
+toolbar-add-as-event-label = Pridėti kaip įvykį
+toolbar-add-as-event =
+    .title = Išskirti iš laiško kalendorinę informaciją ir pridėti ją į kalendorių kaip įvykį
+toolbar-add-as-task-label = Pridėti kaip darbą
+toolbar-add-as-task =
+    .title = Išskirti iš laiško kalendorinę informaciją ir pridėti ją į kalendorių kaip darbą
+toolbar-tag-message-label = Gairės
+toolbar-tag-message =
+    .title = Priskirti gaires pažymėtiems laiškams
+toolbar-forward-inline-label = Persiųsti
+toolbar-forward-inline =
+    .title = Persiųsti pažymėtą laišką tiesiogiai kaip laiško tekstą
+toolbar-forward-attachment-label = Persiųsti priedu
+toolbar-forward-attachment =
+    .title = Persiųsti pažymėtą laišką kaip priedą
+toolbar-mark-as-label = Pažymėti
+toolbar-mark-as =
+    .title = Pažymėti laiškus
+toolbar-address-book =
+    .title = Eiti į adresų knygą
+toolbar-chat-label = Pokalbiai
+toolbar-chat =
+    .title = Atverti pokalbių kortelę
+toolbar-calendar-label = Kalendorius
+toolbar-calendar =
+    .title = Atverti kalendoriaus kortelę
+toolbar-tasks-label = Darbai
+toolbar-tasks =
+    .title = Atverti darbų kortelę
+toolbar-print-label = Spausdinti
+toolbar-print =
+    .title = Spausdinti šį laišką
