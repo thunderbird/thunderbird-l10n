@@ -34,10 +34,8 @@ appmenu-help-more-troubleshooting-info =
 
 ## Message header cutomize panel
 
+
 ## Action Button Context Menu
-
-
-## Message headers
 
 
 ## Add-on removal warning
@@ -54,7 +52,21 @@ repair-text-encoding-button =
 
 ## Spaces toolbar
 
+
 ## Spaces toolbar pinned tab menupopup
+
 
 ## Spaces toolbar customize panel
 
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Tezkor filter paneli
+    .accesskey = T
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
