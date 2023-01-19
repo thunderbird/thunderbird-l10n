@@ -10,6 +10,8 @@
 
 threadpane-column-header-select =
     .title = Összes üzenet kiválasztása be/ki
+threadpane-column-label-select =
+    .label = Üzenetek kiválasztása
 threadpane-column-label-thread =
     .label = Témacsoport
 threadpane-column-header-flagged =
