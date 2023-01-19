@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Window controls
 
 about-rights-notification-text = { -brand-short-name } este un software liber și cu sursă deschisă, construit de o comunitate de mii de oameni din lumea întreagă.
@@ -32,10 +33,8 @@ about-rights-notification-text = { -brand-short-name } este un software liber ș
 
 ## Message header cutomize panel
 
+
 ## Action Button Context Menu
-
-
-## Message headers
 
 
 ## Add-on removal warning
@@ -46,11 +45,27 @@ repair-text-encoding-button =
 
 ## no-reply handling
 
+
 ## error messages
+
 
 ## Spaces toolbar
 
+
 ## Spaces toolbar pinned tab menupopup
+
 
 ## Spaces toolbar customize panel
 
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Bară de filtrare rapidă
+    .accesskey = B
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
