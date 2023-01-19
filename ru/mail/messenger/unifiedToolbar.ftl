@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Почта
+customize-space-addressbook = Адресная книга
+customize-space-calendar = Календарь
+customize-space-tasks = Задачи
+customize-space-chat = Чат
+customize-space-settings = Настройки
 customize-button-style-icons-beside-text =
     .label = Значки рядом с текстом
 
