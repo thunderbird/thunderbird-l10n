@@ -5,6 +5,113 @@
 
 ## Quick Filter Bar
 
+# The tooltip to display when the user hovers over the sticky button
+# (currently displayed as a push-pin). When active, the sticky button
+# causes the current filter settings to be retained when the user changes
+# folders or opens new tabs. (When inactive, only the state of the text
+# filters are propagated between folder changes and when opening new tabs.)
+quick-filter-bar-sticky =
+    .title = A szűrőket érvényben tartja mappaváltáskor is
+# The tooltip for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread =
+    .title = Csak az olvasatlan üzenetek megjelenítése
+# The label for the filter button that causes us to filter results to only
+# include unread messages.
+quick-filter-bar-unread-label = Olvasatlan
+# The tooltip for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred =
+    .title = Csak a csillagozott üzenetek megjelenítése
+# The label for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred-label = Csillagozott
+# The tooltip for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook =
+    .title = Csak a címjegyzékben szereplő személyektől érkezett üzenetek megjelenítése
+# The label for the filter button that causes us to filter results to only
+# include messages from contacts in one of the user's non-remote address
+# books.
+quick-filter-bar-inaddrbook-label = Névjegy
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags =
+    .title = Csak a címkézett üzenetek megjelenítése
+# The label for the filter button that causes us to filter results to only
+# include messages with at least one tag on them.
+quick-filter-bar-tags-label = Címkék
+# The tooltip for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment =
+    .title = Csak a melléklettel rendelkező üzenetek megjelenítése
+# The label for the filter button that causes us to filter results to only
+# include messages with attachments.
+quick-filter-bar-attachment-label = Melléklet
+# The contents of the results box when there is a filter active but there
+# are no messages matching the filter.
+quick-filter-bar-no-results = Nincs eredmény
+# This is used to populate the results box; it either displays the
+# number of messages found using this string, that there are no messages
+# (using quick-filter-bar-no-results), or the box is hidden.
+# Variables:
+# $count (Number) - The number of messages that match selected filters.
+quick-filter-bar-results =
+    { $count ->
+        [one] { $count } üzenet
+       *[other] { $count } üzenet
+    }
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-textbox-shortcut =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘ K
+       *[other] Ctrl+Shift+K
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter
+# the messages and that there is a hotkey they can press to get to the
+# box faster.
+quick-filter-bar-textbox =
+    .placeholder = Ezen üzenetek szűrése… <{ quick-filter-bar-textbox-shortcut }>
+# Tooltip of the Any-of/All-of tagging mode selector.
+quick-filter-bar-boolean-mode =
+    .title = Címkeszűrési mód
+# The Any-of tagging mode.
+quick-filter-bar-boolean-mode-any =
+    .label = Bármely
+    .title = Legalább az egyik kijelölt címkefeltételnek illeszkednie kell
+# The All-of tagging mode.
+quick-filter-bar-boolean-mode-all =
+    .label = Mind
+    .title = Minden kijelölt címkefeltételnek illeszkednie kell
+# This label explains what the sender/recipients/subject/body buttons do.
+# This string should ideally be kept short because the label and the text
+# filter buttons share their bar (that appears when there is text in the text
+# filter box) with the list of tags when the tag filter is active, and the
+# tag sub-bar wants as much space as possible. (Overflow is handled by an
+# arrow scroll box.)
+quick-filter-bar-text-filter-explanation = Üzenetek szűrése:
+# The button label that toggles whether the text filter searches the message
+# sender for the string.
+quick-filter-bar-text-filter-sender = Feladó
+# The button label that toggles whether the text filter searches the message
+# recipients (to, cc) for the string.
+quick-filter-bar-text-filter-recipients = Címzettek
+# The button label that toggles whether the text filter searches the message
+# subject for the string.
+quick-filter-bar-text-filter-subject = Tárgy
+# The button label that toggles whether the text filter searches the message
+# body for the string.
+quick-filter-bar-text-filter-body = Levéltörzs
+# The first line of the panel popup that tells the user we found no matches
+# but we can convert to a global search for them.
+quick-filter-bar-gloda-upsell-line1 = Keresés folytatása az összes mappában
+# The second line of the panel popup that tells the user we found no matches.
+# Variables:
+# $text (String) - What the user has typed so far.
+quick-filter-bar-gloda-upsell-line2 = Nyomja meg az Enter billentyűt a(z) { $text } kereséséhez
 
 ## Message thread pane
 
