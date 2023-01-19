@@ -273,3 +273,15 @@ spaces-customize-button-restore = Berrezarri lehenetsiak
     .accesskey = B
 customize-panel-button-save = Eginda
     .accesskey = E
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Iragazki bizkorren barra
+    .accesskey = b
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
