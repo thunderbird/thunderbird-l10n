@@ -1,0 +1,81 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Spațiu flexibil
+toolbar-write-message-label = Scrie
+toolbar-write-message =
+    .title = Creează un mesaj nou
+toolbar-unifinder-label = Caută evenimente
+toolbar-unifinder =
+    .title = Comută panoul pentru găsirea evenimentelor
+toolbar-folder-location-label = Locația dosarului
+toolbar-edit-event-label = Editează
+toolbar-edit-event =
+    .title = Editează evenimentele sau sarcinile selectate
+toolbar-get-messages-label = Descarcă mesajele
+toolbar-reply-label = Răspunde
+toolbar-reply =
+    .title = Răspunde la acest mesaj
+toolbar-reply-all-label = Răspunde tuturor
+toolbar-reply-all =
+    .title = Răspunde expeditorului și tuturor destinatarilor
+toolbar-reply-to-list-label = Răspunde listei
+toolbar-reply-to-list =
+    .title = Răspunde listei de adrese
+toolbar-archive-label = Arhivează
+toolbar-archive =
+    .title = Arhivează mesajele selectate
+toolbar-conversation-label = Conversație
+toolbar-conversation =
+    .title = Afișează conversația mesajului selectat
+toolbar-previous-unread-label = Anteriorul necitit
+toolbar-previous-unread =
+    .title = Treci la precedentul mesaj necitit
+toolbar-previous-label = Precedentul
+toolbar-previous =
+    .title = Mergi la mesajul anterior
+toolbar-next-unread-label = Următorul necitit
+toolbar-next-unread =
+    .title = Trece la următorul mesaj necitit
+toolbar-next-label = Următor
+toolbar-next =
+    .title = Mergi la următorul mesaj
+toolbar-compact-label = Compactează
+toolbar-compact =
+    .title = Elimină mesajele șterse din dosarul selectat
+toolbar-add-as-event-label = Adaugă ca eveniment
+toolbar-add-as-event =
+    .title = Extrage informații tip calendar din mesaj și le adaugă în calendar ca evenimente
+toolbar-add-as-task-label = Adaugă ca sarcină
+toolbar-add-as-task =
+    .title = Extrage informații tip calendar din mesaj și le adaugă în calendar ca sarcini
+toolbar-tag-message-label = Etichetă
+toolbar-tag-message =
+    .title = Etichetează mesaje
+toolbar-forward-inline-label = Redirecționează
+toolbar-forward-inline =
+    .title = Redirecționează mesajul selectat ca text integrat
+toolbar-forward-attachment-label = Redirecționează ca atașament
+toolbar-forward-attachment =
+    .title = Redirecționează mesajul selectat ca atașament
+toolbar-mark-as-label = Marchează
+toolbar-mark-as =
+    .title = Marchează mesajele
+toolbar-address-book =
+    .title = Mergi la agenda de contacte
+toolbar-chat-label = Chat
+toolbar-chat =
+    .title = Afișează fila pentru chat
+toolbar-calendar-label = Calendar
+toolbar-calendar =
+    .title = Comută pe fila calendar
+toolbar-tasks-label = Sarcini
+toolbar-tasks =
+    .title = Comută pe fila sarcini
+toolbar-print-label = Tipărește
+toolbar-print =
+    .title = Tipărește acest mesaj
