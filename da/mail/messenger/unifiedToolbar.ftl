@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Mail
+customize-space-addressbook = Adressebog
+customize-space-calendar = Kalender
+customize-space-tasks = Opgaver
+customize-space-chat = Chat
+customize-space-settings = Indstillinger
 customize-button-style-icons-beside-text =
     .label = Ikoner ved siden af tekst
 
