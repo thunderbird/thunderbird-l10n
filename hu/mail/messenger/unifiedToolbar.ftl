@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Levelezés
+customize-space-addressbook = Címjegyzék
+customize-space-calendar = Naptár
+customize-space-tasks = Feladatok
+customize-space-chat = Csevegés
+customize-space-settings = Beállítások
 customize-button-style-icons-beside-text =
     .label = Ikonok a szöveg mellett
 
