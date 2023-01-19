@@ -16,6 +16,12 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = Pošta
+customize-space-addressbook = Imenik
+customize-space-calendar = Koledar
+customize-space-tasks = Opravila
+customize-space-chat = Klepet
+customize-space-settings = Nastavitve
 customize-button-style-icons-beside-text =
     .label = Ikone poleg besedila
 
