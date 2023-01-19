@@ -1,0 +1,87 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### Unified Toolbar Item Label strings
+
+spacer-label = Espaço flexível
+toolbar-write-message-label = Escrever
+toolbar-write-message =
+    .title = Criar nova mensagem
+toolbar-unifinder-label = Localizar eventos
+toolbar-unifinder =
+    .title = Alternar o painel de localizar eventos
+toolbar-folder-location-label = Localização da pasta
+toolbar-edit-event-label = Editar
+toolbar-edit-event =
+    .title = Apagar evento ou tarefa selecionada
+toolbar-get-messages-label = Obter mensagens
+toolbar-reply-label = Responder
+toolbar-reply =
+    .title = Responder à mensagem
+toolbar-reply-all-label = Responder a todos
+toolbar-reply-all =
+    .title = Responder ao remetente e a todos os destinatários
+toolbar-reply-to-list-label = Responder à lista
+toolbar-reply-to-list =
+    .title = Responder à lista de correio
+toolbar-archive-label = Arquivar
+toolbar-archive =
+    .title = Arquivar mensagens selecionadas
+toolbar-conversation-label = Conversa
+toolbar-conversation =
+    .title = Mostrar a conversação da mensagem selecionada
+toolbar-previous-unread-label = Anterior não lida
+toolbar-previous-unread =
+    .title = Ir para a mensagem anterior não lida
+toolbar-previous-label = Anterior
+toolbar-previous =
+    .title = Ir para a mensagem anterior
+toolbar-next-unread-label = Seguinte não lida
+toolbar-next-unread =
+    .title = Ir para a mensagem seguinte não lida
+toolbar-next-label = Seguinte
+toolbar-next =
+    .title = Ir para a mensagem seguinte
+toolbar-junk-label = Spam
+toolbar-junk =
+    .title = Marcas as mensagens selecionadas como spam
+toolbar-delete-label = Eliminar
+toolbar-delete =
+    .title = Eliminar as mensagens ou pastas selecionadas
+toolbar-compact-label = Compactar
+toolbar-compact =
+    .title = Remover mensagens apagadas da pasta selecionada
+toolbar-add-as-event-label = Adicionar como evento
+toolbar-add-as-event =
+    .title = Extrair informações da mensagem e adicionar ao calendário como evento
+toolbar-add-as-task-label = Adicionar como tarefa
+toolbar-add-as-task =
+    .title = Extrair informações da mensagem e adicionar ao calendário como evento
+toolbar-tag-message-label = Etiqueta
+toolbar-tag-message =
+    .title = Classificar mensagens
+toolbar-forward-inline-label = Reencaminhar
+toolbar-forward-inline =
+    .title = Reencaminhar mensagem selecionada como texto inline
+toolbar-forward-attachment-label = Reencaminhar como anexo
+toolbar-forward-attachment =
+    .title = Reencaminhar mensagem selecionada como anexo
+toolbar-mark-as-label = Marcar
+toolbar-mark-as =
+    .title = Marcar mensagens
+toolbar-address-book =
+    .title = Ir para o livro de endereços
+toolbar-chat-label = Chat
+toolbar-chat =
+    .title = Mostrar o separador de chat
+toolbar-calendar-label = Calendário
+toolbar-calendar =
+    .title = Muda para o separador do calendário
+toolbar-tasks-label = Tarefas
+toolbar-tasks =
+    .title = Muda para o separador de tarefas
+toolbar-print-label = Imprimir
+toolbar-print =
+    .title = Imprimir esta mensagem
