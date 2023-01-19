@@ -239,3 +239,15 @@ spaces-customize-button-restore = Palauta oletukset
     .accesskey = o
 customize-panel-button-save = Valmis
     .accesskey = V
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Pikasuodatuspalkki
+    .accesskey = P
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
