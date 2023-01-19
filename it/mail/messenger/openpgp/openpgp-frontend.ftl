@@ -33,7 +33,7 @@ openpgp-broken-exchange-repair =
     .label = Ripara messaggio
 openpgp-broken-exchange-wait = Attendere…
 openpgp-has-nested-encrypted-parts = Questo messaggio include parti crittate aggiuntive.
-openpgp-show-encrypted-parts = Decifra e mostra
+openpgp-show-encrypted-parts = Decritta e mostra
 openpgp-cannot-decrypt-because-mdc =
     Questo è un messaggio crittato che utilizza un meccanismo obsoleto e vulnerabile.
     Potrebbe essere stato modificato durante la trasmissione con l’intenzione di trafugarne il contenuto.

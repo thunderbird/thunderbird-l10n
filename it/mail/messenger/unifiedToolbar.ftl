@@ -28,7 +28,7 @@ customize-space-calendar = Calendario
 customize-space-tasks = Attività
 customize-space-chat = Chat
 customize-space-settings = Impostazioni
-customize-restore-default = Ripristina i valori predefiniti
+customize-restore-default = Ripristina predefiniti
 customize-change-appearance = Cambia aspetto…
 customize-button-style-label = Stile pulsante:
 customize-button-style-icons-beside-text =
@@ -49,12 +49,12 @@ customize-spaces-tabs =
 customize-main-toolbar-target =
     .aria-label = Barra degli strumenti principale
 customize-palette-generic-title = Disponibile per tutti gli spazi
-customize-palette-mail-specific-title = Disponibile solo per Mail Space
-customize-palette-addressbook-specific-title = Disponibile solo per lo spazio della Rubrica
-customize-palette-calendar-specific-title = Disponibile solo per Calendar Space
-customize-palette-tasks-specific-title = Disponibile solo per Tasks Space
-customize-palette-chat-specific-title = Disponibile solo per Chat Space
-customize-palette-settings-specific-title = Disponibile solo per Settings Space
+customize-palette-mail-specific-title = Disponibile solo per lo spazio Posta
+customize-palette-addressbook-specific-title = Disponibile solo per lo spazio Rubrica
+customize-palette-calendar-specific-title = Disponibile solo per lo spazio Calendario
+customize-palette-tasks-specific-title = Disponibile solo per lo spazio Attività
+customize-palette-chat-specific-title = Disponibile solo per lo spazio Chat
+customize-palette-settings-specific-title = Disponibile solo per lo spazio Impostazioni
 
 ## Unified toolbar customization palette context menu
 
