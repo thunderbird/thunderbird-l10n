@@ -258,3 +258,15 @@ spaces-customize-button-restore = ნაგულისხმევის აღ
     .accesskey = ნ
 customize-panel-button-save = მზადაა
     .accesskey = ზ
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = სწრაფი გაფილტვრის პანელი
+    .accesskey = წ
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
