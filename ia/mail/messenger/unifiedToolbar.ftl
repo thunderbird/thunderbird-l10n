@@ -16,6 +16,8 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-mail = E-mail
+customize-space-addressbook = Libro de adresses
 customize-space-calendar = Agenda
 customize-space-tasks = Activitates
 customize-space-chat = Chat
