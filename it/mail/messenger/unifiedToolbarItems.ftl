@@ -91,3 +91,6 @@ toolbar-tasks =
 toolbar-print-label = Stampa
 toolbar-print =
     .title = Stampa questo messaggio
+toolbar-quick-filter-bar-label = Filtro veloce
+toolbar-quick-filter-bar =
+    .title = Filtra messaggi
