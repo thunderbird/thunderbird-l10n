@@ -276,3 +276,15 @@ spaces-customize-button-restore = Vrati zadano
     .accesskey = r
 customize-panel-button-save = Gotovo
     .accesskey = G
+
+## Quick Filter Bar
+
+# The label to display for the "View... Toolbars..." menu item that controls
+# whether the quick filter bar is visible.
+quick-filter-bar-toggle =
+    .label = Traka brzog filtriranja
+    .accesskey = b
+# This is the key used to show the quick filter bar.
+# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+quick-filter-bar-show =
+    .key = k
