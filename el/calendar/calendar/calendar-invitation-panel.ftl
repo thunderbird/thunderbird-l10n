@@ -101,3 +101,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } εκκρεμούν
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } συμμετέχοντες
 calendar-invitation-panel-prop-title-attachments = Συνημμένα:
+calendar-invitation-change-indicator-removed = Αφαιρέθηκε
+calendar-invitation-change-indicator-added = Νέο
+calendar-invitation-change-indicator-modified = Άλλαξε
