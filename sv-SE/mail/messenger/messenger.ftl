@@ -232,7 +232,7 @@ settings-context-open-addons-item2 =
 ## Spaces toolbar pinned tab menupopup
 
 spaces-toolbar-pinned-tab-button =
-    .tooltiptext = Öppna flikmenyn
+    .tooltiptext = Flikmeny
 spaces-pinned-button-menuitem-mail2 =
     .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =

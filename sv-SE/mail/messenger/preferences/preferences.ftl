@@ -193,6 +193,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Visa alltid rullningslister
     .accesskey = r
+window-layout-legend = Fönsterlayout
 system-integration-legend = Systemintegration
 always-check-default =
     .label = Kontrollera vid start om { -brand-short-name } är standardklient för e-post
