@@ -6,9 +6,12 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Ευέλικτο διάστημα
+search-bar-label = Αναζήτηση
 toolbar-write-message-label = Σύνταξη
 toolbar-write-message =
     .title = Δημιουργία νέου μηνύματος
+toolbar-move-to =
+    .title = Μετακίνηση επιλεγμένου μηνύματος
 toolbar-unifinder-label = Εύρεση εκδηλώσεων
 toolbar-unifinder =
     .title = Εναλλαγή παραθύρου εύρεσης εκδηλώσεων
@@ -74,6 +77,7 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Επισήμανση
 toolbar-mark-as =
     .title = Επισήμανση μηνυμάτων
+toolbar-view-picker-label = Προβολή
 toolbar-address-book =
     .title = Μετάβαση στο ευρετήριο
 toolbar-chat-label = Συνομιλία
@@ -88,6 +92,7 @@ toolbar-calendar =
 toolbar-tasks-label = Εργασίες
 toolbar-tasks =
     .title = Μετάβαση στην καρτέλα εργασιών
+toolbar-mail-label = Αλληλογραφία
 toolbar-print-label = Εκτύπωση
 toolbar-print =
     .title = Εκτύπωση μηνύματος

@@ -22,11 +22,25 @@ customize-space-calendar = Ημερολόγιο
 customize-space-tasks = Εργασίες
 customize-space-chat = Συνομιλία
 customize-space-settings = Ρυθμίσεις
+customize-change-appearance = Αλλαγή εμφάνισης…
+customize-button-style-label = Στυλ κουμπιών:
 customize-button-style-icons-beside-text =
     .label = Εικονίδια δίπλα στο κείμενο
+customize-button-style-icons-above-text =
+    .label = Εικονίδια πάνω από κείμενο
+customize-button-style-icons-only =
+    .label = Μόνο εικονίδια
+customize-button-style-text-only =
+    .label = Μόνο κείμενο
+customize-cancel = Ακύρωση
+customize-save = Αποθήκευση
+customize-spaces-tabs =
+    .aria-label = Χώροι
 
 ## Unified toolbar customization palette context menu
 
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Αφαίρεση
