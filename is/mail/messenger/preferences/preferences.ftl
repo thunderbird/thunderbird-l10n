@@ -197,6 +197,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Alltaf sýna skrunstikur
     .accesskey = f
+window-layout-legend = Framsetning glugga
 system-integration-legend = Samþætting kerfis
 always-check-default =
     .label = Alltaf athuga hvort { -brand-short-name } sé sjálfgefið póstforrit í ræsingu
