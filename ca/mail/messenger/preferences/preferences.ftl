@@ -356,6 +356,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Immediatament en mostrar-los
     .accesskey = d
+view-attachments-inline =
+    .label = Mostra les adjuncions en línia
+    .accesskey = M
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -413,6 +416,9 @@ auto-save-end = minuts
 warn-on-send-accel-key =
     .label = Confirma quan s'utilitzi dreceres del teclat per enviar missatges
     .accesskey = i
+add-link-previews =
+    .label = Afegeix la previsualització de l'enllaç quan enganxeu un URL
+    .accesskey = i
 spellcheck-label =
     .label = Comprova l'ortografia abans d'enviar
     .accesskey = C
@@ -447,8 +453,10 @@ default-format-label =
 compose-send-format-title = Format d'enviament
 compose-send-automatic-option =
     .label = Automàtic
+compose-send-automatic-description = Si no s'utilitza cap estil en el missatge, s'enviarà text sense format. En cas contrari, s'enviarà HTML amb una alternativa de text sense format.
 compose-send-both-option =
     .label = Tant HTML com text sense format
+compose-send-both-description = L'aplicació de correu electrònic del destinatari determinarà quina versió li mostrarà.
 compose-send-html-option =
     .label = Només HTML
 compose-send-html-description = És possible que alguns destinataris no puguin llegir el missatge sense una alternativa de text sense format.
