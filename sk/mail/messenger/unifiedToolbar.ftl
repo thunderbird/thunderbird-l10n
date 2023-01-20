@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Hľadať
+search-bar-item =
+    .label = Hľadať:
+search-bar-placeholder = Hľadať…
 
 ## Unified toolbar context menu
 
@@ -16,17 +21,35 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-title = Prispôsobiť panely s nástrojmi
 customize-space-mail = Pošta
 customize-space-addressbook = Adresár
 customize-space-calendar = Kalendár
 customize-space-tasks = Úlohy
 customize-space-chat = Konverzácie
 customize-space-settings = Nastavenia
+customize-restore-default = Obnoviť predvolené
+customize-change-appearance = Zmeniť vzhľad…
+customize-button-style-label = Štýl tlačidiel:
 customize-button-style-icons-beside-text =
     .label = Ikony vedľa textu
+customize-button-style-icons-above-text =
+    .label = Ikony nad textom
+customize-button-style-icons-only =
+    .label = Iba ikony
+customize-button-style-text-only =
+    .label = Iba text
+customize-cancel = Zrušiť
+customize-save = Uložiť
+customize-spaces-tabs =
+    .aria-label = Miesta
+customize-main-toolbar-target =
+    .aria-label = Hlavný panel nástrojov
 
 ## Unified toolbar customization palette context menu
 
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Odstrániť
