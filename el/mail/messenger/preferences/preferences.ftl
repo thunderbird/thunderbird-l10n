@@ -193,6 +193,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Πάντα εμφάνιση γραμμών κύλισης
     .accesskey = φ
+window-layout-legend = Διάταξη παραθύρων
 system-integration-legend = Ενσωμάτωση συστήματος
 always-check-default =
     .label = Να γίνεται πάντα έλεγχος στην εκκίνηση για το αν το { -brand-short-name } είναι το προεπιλεγμένο πρόγραμμα αλληλογραφίας

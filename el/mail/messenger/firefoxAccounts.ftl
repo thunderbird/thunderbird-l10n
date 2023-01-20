@@ -13,7 +13,11 @@
 ## These strings are shown in a desktop notification after the user requests we resend a verification email.
 
 fxa-verification-sent-title = Η επαλήθευση απεστάλη
+# Variables:
+# $userEmail (String) - Email address of user's Firefox Account.
+fxa-verification-sent-body = Ένας σύνδεσμος επαλήθευσης έχει σταλεί στο { $userEmail }.
 fxa-verification-not-sent-title = Δεν είναι δυνατή η αποστολή επαλήθευσης
+fxa-verification-not-sent-body = Δεν είνα δυνατή η αποστολή του email επαλήθευσης αυτήν τη στιγμή, παρακαλώ δοκιμάστε ξανά αργότερα.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
@@ -23,4 +27,5 @@ fxa-signout-dialog-button = Αποσύνδεση
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
 sync-disconnect-dialog-title = Nα γίνει αποσύνδεση;
+sync-disconnect-dialog-body = Το { -brand-product-name } θα σταματήσει τον συγχρονισμό, αλλά δεν θα διαγράψει κανένα δεδομένο σε αυτήν τη συσκευή.
 sync-disconnect-dialog-button = Αποσύνδεση
