@@ -117,6 +117,10 @@ quick-filter-bar-gloda-upsell-line2 = Πατήστε «Enter» ξανά για �
 
 threadpane-column-header-select =
     .title = Εναλλαγή επιλογής όλων των μηνυμάτων
+threadpane-column-header-select-all =
+    .title = Επιλογή όλων των μηνυμάτων
+threadpane-column-header-deselect-all =
+    .title = Κατάργηση επιλογής όλων των μηνυμάτων
 threadpane-column-label-select =
     .label = Επιλογή μηνυμάτων
 threadpane-column-label-thread =
@@ -129,6 +133,14 @@ threadpane-column-header-attachments =
     .title = Ταξινόμηση κατά συνημμένο
 threadpane-column-label-attachments =
     .label = Συνημμένα
+threadpane-column-header-spam =
+    .title = Ταξινόμηση κατά κατάσταση ανεπιθύμητου
+threadpane-column-label-spam =
+    .label = Ανεπιθύμητα
+threadpane-column-header-unread-button =
+    .title = Ταξινόμηση κατά κατάσταση ανάγνωσης
+threadpane-column-label-unread-button =
+    .label = Κατάσταση ανάγνωσης
 threadpane-column-header-sender = Από
     .title = Ταξινόμηση κατά αποστολέα
 threadpane-column-label-sender =
@@ -196,3 +208,6 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Ένδειξη νέου μηνύματος
+    .title = Νέο μήνυμα
