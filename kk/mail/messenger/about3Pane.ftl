@@ -138,7 +138,7 @@ threadpane-column-label-attachments =
 threadpane-column-header-spam =
     .title = Спам қалып-күйі бойынша сұрыптау
 threadpane-column-label-spam =
-    .label = Spam
+    .label = Спам
 threadpane-column-header-unread-button =
     .title = Оқылған қалып-күйі бойынша сұрыптау
 threadpane-column-label-unread-button =
@@ -210,3 +210,12 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Жаңа хабарлама индикаторы
+    .title = Жаңа хабарлама
+threadpane-message-replied =
+    .alt = Жауап берілген индикаторы
+    .title = Жауап берілген
+threadpane-message-redirected =
+    .alt = Қайта бағдарланған индикаторы
+    .title = Хабарлама қайта бағдарланған

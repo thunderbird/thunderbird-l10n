@@ -22,11 +22,28 @@ customize-space-calendar = Күнтізбе
 customize-space-tasks = Тапсырмалар
 customize-space-chat = Чат
 customize-space-settings = Баптаулар
+customize-button-style-label = Батырмалар стилі:
 customize-button-style-icons-beside-text =
     .label = Таңбашалар мәтіннің қасында
+customize-button-style-icons-above-text =
+    .label = Мәтіннің үстіндегі таңбашалар
+customize-button-style-icons-only =
+    .label = Тек таңбашалар
+customize-button-style-text-only =
+    .label = Тек мәтін
+customize-cancel = Бас тарту
+customize-save = Сақтау
+customize-main-toolbar-target =
+    .aria-label = Басты саймандар панелі
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = { $target } ішіне қосу
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Өшіру
