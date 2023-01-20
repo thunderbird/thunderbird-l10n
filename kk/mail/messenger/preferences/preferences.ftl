@@ -197,6 +197,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Айналдыру жолағын әрқашан көрсету
     .accesskey = н
+window-layout-legend = Терезе жаймасы
 system-integration-legend = Жүйелік интеграция
 always-check-default =
     .label = Әр қосылған кезде { -brand-short-name } жүйедегі негізгі пошта клиенті екенін тексеру
