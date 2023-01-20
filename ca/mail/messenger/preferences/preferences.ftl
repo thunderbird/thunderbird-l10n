@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Calendari
 category-calendar =
     .tooltiptext = Calendari
+pane-sync-title = Sync
+category-sync =
+    .tooltiptext = Sync
 general-language-and-appearance-header = Llengua i aparença
 general-incoming-mail-header = Correu d'entrada
 general-files-and-attachment-header = Fitxers i adjuncions
@@ -115,9 +118,13 @@ restore-default-label =
     .label = Restaura el valor per defecte
     .accesskey = R
 default-search-engine = Motor de cerca per defecte
+add-web-search-engine =
+    .label = Afegeix…
+    .accesskey = A
 remove-search-engine =
     .label = Elimina
     .accesskey = E
+add-opensearch-provider-title = Afegeix un proveïdor d'OpenSearch
 minimize-to-tray-label =
     .label = En minimitzar el { -brand-short-name }, mou-lo a la safata
     .accesskey = m
@@ -183,6 +190,9 @@ autoscroll-label =
 smooth-scrolling-label =
     .label = Utilitza el desplaçament suau
     .accesskey = m
+browsing-gtk-use-non-overlay-scrollbars =
+    .label = Mostra sempre les barres de desplaçament
+    .accesskey = b
 system-integration-legend = Integració amb el sistema
 always-check-default =
     .label = A l'inici, comprova sempre si el { -brand-short-name } és el client de correu per defecte
@@ -435,6 +445,8 @@ compose-send-automatic-option =
     .label = Automàtic
 compose-send-html-option =
     .label = Només HTML
+compose-send-plain-option =
+    .label = Només text sense format
 autocomplete-description = Quan s'estigui escrivint adreces en els missatges, cerca adreces que coincideixin a:
 ab-label =
     .label = Llibretes d'adreces locals
@@ -664,11 +676,63 @@ no-preview-description = Aquest tema no és vàlid o actualment no està disponi
 chat-variant-label =
     .value = Variant:
     .accesskey = V
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 19em
+    .placeholder = Cerca en els paràmetres
 
 ## Settings UI Search Results
 
 search-results-header = Resultats de la cerca
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] No s'ha trobat «<span data-l10n-name="query"></span>» a les opcions.
+       *[other] No s'ha trobat «<span data-l10n-name="query"></span>» als paràmetres.
+    }
 search-results-help-link = Necessiteu ajuda? Visiteu l'<a data-l10n-name="url">assistència del { -brand-short-name }</a>
 
 ## Sync Tab
 
+sync-signedout-caption = El vostre web a tot arreu
+sync-signedout-description = Sincronitzeu els vostres comptes, llibretes d'adreces, calendaris, complements i paràmetres en tots els vostres dispositius.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Inicia la sessió al Sync…
+sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = «{ $userEmail }» no està verificat.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Inicieu la sessió per tornar a connectar «{ $userEmail }»
+sync-pane-resend-verification = Torna a enviar la verificació
+sync-pane-sign-in = Inicia la sessió
+sync-pane-remove-account = Elimina el compte
+sync-pane-edit-photo =
+    .title = Canvia la imatge de perfil
+sync-pane-manage-account = Gestiona el compte
+sync-pane-sign-out = Tanca la sessió…
+sync-pane-device-name-title = Nom del dispositiu
+sync-pane-change-device-name = Canvia el nom del dispositiu
+sync-pane-cancel = Cancel·la
+sync-pane-save = Desa
+sync-pane-show-synced-header-on = Sincronització ACTIVADA
+sync-pane-show-synced-header-off = Sincronització DESACTIVADA
+sync-pane-sync-now = Sincronitza ara
+sync-panel-sync-now-syncing = S'està sincronitzant…
+show-synced-list-heading = Actualment se sincronitzen aquests elements:
+show-synced-learn-more = Més informació…
+show-synced-item-account = Comptes de correu
+show-synced-item-address = Llibretes d'adreces
+show-synced-item-calendar = Calendaris
+show-synced-item-identity = Identitats
+show-synced-item-passwords = Contrasenyes
+show-synced-change = Canvia…
+synced-acount-item-server-config = Configuració del servidor
