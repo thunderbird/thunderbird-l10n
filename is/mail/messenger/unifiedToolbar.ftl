@@ -48,6 +48,13 @@ customize-spaces-tabs =
     .aria-label = Svæði
 customize-main-toolbar-target =
     .aria-label = Aðal-verkfæraslá
+customize-palette-generic-title = Tiltækt fyrir öll svæði
+customize-palette-mail-specific-title = Aðeins í boði fyrir póstsvæði
+customize-palette-addressbook-specific-title = Aðeins í boði fyrir nafnaskrársvæði
+customize-palette-calendar-specific-title = Aðeins í boði fyrir dagatalssvæði
+customize-palette-tasks-specific-title = Aðeins í boði fyrir verkefnasvæði
+customize-palette-chat-specific-title = Aðeins í boði fyrir spjallsvæði
+customize-palette-settings-specific-title = Aðeins í boði fyrir stillingasvæði
 
 ## Unified toolbar customization palette context menu
 

@@ -210,3 +210,6 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Nýr skilaboðavísir
+    .title = Ný skilaboð
