@@ -41,15 +41,33 @@ customize-button-style-text-only =
     .label = Iba text
 customize-cancel = Zrušiť
 customize-save = Uložiť
+customize-unsaved-changes = Neuložené zmeny pre iné karty
+customize-search-bar =
+    .label = Hľadať tlačidlá pre panel nástrojov…
 customize-spaces-tabs =
     .aria-label = Miesta
 customize-main-toolbar-target =
     .aria-label = Hlavný panel nástrojov
+customize-palette-generic-title = Dostupné pre všetky karty
+customize-palette-mail-specific-title = Dostupné len pre kartu Pošta
+customize-palette-addressbook-specific-title = Dostupné len pre kartu Adresár
+customize-palette-calendar-specific-title = Dostupné len pre kartu Kalendár
+customize-palette-tasks-specific-title = Dostupné len pre kartu Úlohy
+customize-palette-chat-specific-title = Dostupné len pre kartu Konverzácie
+customize-palette-settings-specific-title = Dostupné len pre kartu Nastavenia
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Pridať do { $target }
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Posunúť dopredu
+customize-target-backward =
+    .label = Posunúť dozadu
 customize-target-remove =
     .label = Odstrániť

@@ -283,7 +283,7 @@ openpgp-key-details-usage-label =
 openpgp-key-details-fingerprint-label = Odtlačok
 openpgp-key-details-legend-secret-missing = Pre kľúče označené (!) nie je dostupný tajný kľúč.
 openpgp-key-details-sel-action =
-    .label = Vybrať akciu...
+    .label = Vybrať akciu…
     .accesskey = V
 openpgp-card-details-close-window-label =
     .buttonlabelaccept = Zavrieť
@@ -324,7 +324,7 @@ openpgp-selection-status-have-key = Vaša aktuálna konfigurácia používa kľ�
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Vaša aktuálna konfigurácia používa kľúč <b>{ $key }</b>, ktorého platnosť vypršala.
 openpgp-add-key-button =
-    .label = Pridať kľúč...
+    .label = Pridať kľúč…
     .accesskey = P
 e2e-learn-more = Ďalšie informácie
 openpgp-keygen-success = OpenPGP kľúč bol úspešne vytvorený!
