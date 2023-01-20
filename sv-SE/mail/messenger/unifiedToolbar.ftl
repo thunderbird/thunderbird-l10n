@@ -33,12 +33,24 @@ customize-change-appearance = Ändra utseende…
 customize-button-style-label = Knappstil:
 customize-button-style-icons-beside-text =
     .label = Text bredvid ikoner
+customize-button-style-icons-above-text =
+    .label = Ikoner ovanför text
 customize-button-style-icons-only =
     .label = Endast ikoner
 customize-button-style-text-only =
     .label = Endast text
 customize-cancel = Avbryt
 customize-save = Spara
+customize-unsaved-changes = Osparade ändringar i andra utrymmen
+customize-spaces-tabs =
+    .aria-label = Utrymmen
+customize-palette-generic-title = Tillgänglig för alla utrymmen
+customize-palette-mail-specific-title = Endast tillgänglig för e-post
+customize-palette-addressbook-specific-title = Endast tillgänglig för adressbok
+customize-palette-calendar-specific-title = Endast tillgänglig för kalender
+customize-palette-tasks-specific-title = Endast tillgänglig för uppgifter
+customize-palette-chat-specific-title = Endast tillgänglig för chatt
+customize-palette-settings-specific-title = Endast tillgänglig för inställningar
 
 ## Unified toolbar customization palette context menu
 
