@@ -117,8 +117,14 @@ quick-filter-bar-gloda-upsell-line2 = Tryck ”Enter” igen för att fortsätta
 
 threadpane-column-header-select =
     .title = Växla välj alla meddelanden
+threadpane-column-header-select-all =
+    .title = Markera alla meddelanden
+threadpane-column-header-deselect-all =
+    .title = Avmarkera alla meddelanden
 threadpane-column-label-select =
     .label = Välj meddelanden
+threadpane-column-header-thread =
+    .title = Växla meddelandetrådar
 threadpane-column-label-thread =
     .label = Tråd
 threadpane-column-header-flagged =
@@ -129,6 +135,14 @@ threadpane-column-header-attachments =
     .title = Sortera efter bilagor
 threadpane-column-label-attachments =
     .label = Bilagor
+threadpane-column-header-spam =
+    .title = Sortera efter skräppoststatus
+threadpane-column-label-spam =
+    .label = Skräppost
+threadpane-column-header-unread-button =
+    .title = Sortera efter lässtatus
+threadpane-column-label-unread-button =
+    .label = Lässtatus
 threadpane-column-header-sender = Från
     .title = Sortera efter avsändare
 threadpane-column-label-sender =
@@ -196,3 +210,6 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indikator för nytt meddelande
+    .title = Nytt meddelande
