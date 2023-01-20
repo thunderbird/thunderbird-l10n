@@ -7,3 +7,6 @@
 
 tree-list-view-column-picker =
     .title = Gösterilecek sütunları seçin
+tree-list-view-row-attach =
+    .alt = Ek göstergesi
+    .title = İleti ek içeriyor

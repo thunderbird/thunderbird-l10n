@@ -8,6 +8,9 @@
 
 ## Search bar
 
+search-bar-item =
+    .label = Ara:
+search-bar-placeholder = Ara…
 
 ## Unified toolbar context menu
 
@@ -16,14 +19,23 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-title = Araç çubuklarını özelleştir
 customize-space-mail = E-posta
 customize-space-addressbook = Adres Defteri
 customize-space-calendar = Takvim
 customize-space-tasks = Görevler
 customize-space-chat = Sohbet
 customize-space-settings = Ayarlar
+customize-change-appearance = Görünümü değiştir…
+customize-button-style-label = Düğme stili:
 customize-button-style-icons-beside-text =
     .label = Simgeler metnin yanında
+customize-cancel = Vazgeç
+customize-save = Kaydet
+customize-search-bar =
+    .label = Arama araç çubuğu düğmeleri…
+customize-main-toolbar-target =
+    .aria-label = Ana araç çubuğu
 
 ## Unified toolbar customization palette context menu
 

@@ -129,6 +129,8 @@ threadpane-column-header-attachments =
     .title = Eklere göre sırala
 threadpane-column-label-attachments =
     .label = Ekler
+threadpane-column-label-unread-button =
+    .label = Okunma durumu
 threadpane-column-header-sender = Gönderen
     .title = Gönderene göre sırala
 threadpane-column-label-sender =
@@ -196,3 +198,9 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Yeni ileti göstergesi
+    .title = Yeni ileti
+threadpane-message-replied =
+    .alt = Yanıtlandı göstergesi
+    .title = İleti yanıtlandı
