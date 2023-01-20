@@ -21,6 +21,7 @@ fxa-verification-not-sent-body = Δεν είνα δυνατή η αποστολ�
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+fxa-signout-dialog-title = Αποσύνδεση από τον { -fxaccount-brand-name(capitalization: "sentence") };
 fxa-signout-dialog-body = Τα συγχρονισμένα δεδομένα θα παραμείνουν στον λογαριασμό σας.
 fxa-signout-dialog-button = Αποσύνδεση
 

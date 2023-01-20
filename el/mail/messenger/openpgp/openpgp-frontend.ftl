@@ -32,6 +32,7 @@ openpgp-broken-exchange-info = Αυτό είναι ένα μήνυμα OpenPGP �
 openpgp-broken-exchange-repair =
     .label = Επιδιόρθωση μηνύματος
 openpgp-broken-exchange-wait = Παρακαλώ περιμένετε…
+openpgp-has-nested-encrypted-parts = Το μήνυμα περιλαμβάνει επιπρόσθετα κρυπτογραφημένα μέρη.
 openpgp-show-encrypted-parts = Αποκρυπτογράφηση και εμφάνιση
 openpgp-cannot-decrypt-because-mdc =
     Αυτό είναι ένα κρυπτογραφημένο μήνυμα που χρησιμοποιεί ένα παλιό και ευάλωτο μηχανισμό.

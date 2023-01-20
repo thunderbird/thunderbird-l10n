@@ -194,6 +194,13 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = Πάντα εμφάνιση γραμμών κύλισης
     .accesskey = φ
 window-layout-legend = Διάταξη παραθύρων
+draw-in-titlebar-label =
+    .label = Απόκρυψη του τίτλου γραμμής του παραθύρου συστήματος
+    .accesskey = H
+auto-hide-tabbar-label =
+    .label = Αυτόματη απόκρυψη της γραμμής καρτελών
+    .accesskey = A
+auto-hide-tabbar-description = Απόκρυψη της γραμμής καρτελών όταν μόνο μία καρτέλα είναι ανοιχτή
 system-integration-legend = Ενσωμάτωση συστήματος
 always-check-default =
     .label = Να γίνεται πάντα έλεγχος στην εκκίνηση για το αν το { -brand-short-name } είναι το προεπιλεγμένο πρόγραμμα αλληλογραφίας
@@ -274,6 +281,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Απαλοιφή τώρα
     .accesskey = π
+clear-cache-shutdown-label =
+    .label = Καθαρισμός προσωρινής μνήμης κατά τον τερματισμό
+    .accesskey = s
 fonts-legend = Γραμματοσειρές και χρώματα
 default-font-label =
     .value = Προεπιλεγμένη γραμματοσειρά:
@@ -722,6 +732,9 @@ sync-pane-header = Συγχρονισμός
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = Το «{ $userEmail }» δεν έχει επαληθευτεί.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Παρακαλώ κάνετε είσοδο για επανασύνδεση στο “{ $userEmail }”
 sync-pane-resend-verification = Εκ νέου αποστολή επαλήθευσης
 sync-pane-sign-in = Σύνδεση
 sync-pane-remove-account = Αφαίρεση λογαριασμού
@@ -748,4 +761,5 @@ show-synced-change = Αλλαγή…
 synced-acount-item-server-config = Ρυθμίσεις διακομιστή
 synced-acount-item-filters = Φίλτρα
 synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Συγχρονισμός των λογαριασμών email, ευρετηρίων διευθύνσεων, ημερολογίων και ταυτοτήτων σε όλες τις συσκευές σας.
 sync-disconnected-turn-on-sync = Ενεργοποίηση συγχρονισμού…

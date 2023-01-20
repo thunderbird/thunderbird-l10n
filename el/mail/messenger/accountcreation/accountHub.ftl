@@ -30,6 +30,7 @@ account-hub-sync-button = Σύνδεση στο Sync…
 
 ## Email page
 
+account-hub-email-title = Ρύθμιση λογαριασμού email
 account-hub-email-cancel-button = Ακύρωση
 account-hub-email-back-button = Πίσω
 account-hub-email-continue-button = Συνέχεια
