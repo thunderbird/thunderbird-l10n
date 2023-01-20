@@ -5,5 +5,13 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Hộp kiểm để chọn/bỏ chọn hàng hiện tại
+    .title = Chọn hàng hiện tại
+tree-list-view-row-deselect =
+    .alt = Hộp kiểm để chọn/bỏ chọn hàng hiện tại
+    .title = Bỏ chọn hàng hiện tại
+tree-list-view-row-delete =
+    .title = Xóa hàng hiện tại
 tree-list-view-column-picker =
     .title = Chọn các cột để hiển thị
