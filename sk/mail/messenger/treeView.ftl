@@ -5,5 +5,7 @@
 
 ## Table
 
+tree-list-view-row-delete =
+    .title = Odstrániť aktuálny riadok
 tree-list-view-column-picker =
     .title = Zvoliť stĺpce, ktoré chcete zobraziť
