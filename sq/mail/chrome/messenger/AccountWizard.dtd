@@ -10,7 +10,7 @@
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Identitet">
-<!ENTITY identityDesc.label "Çdo llogari ka identitetin e vet, i cili përbëhet nga të dhënat që ju identifikojnë kundrejt të tjerëve kur këta marrin mesazhet tuaj.">
+<!ENTITY identityDesc.label "Çdo llogari ka identitetin e vet, i cili përbëhet nga të dhënat që ju identifikojnë kundrejt të tjerëve, kur këta marrin mesazhet tuaj.">
 
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Jepni emrin që do të donit të shfaqet në zonën “Prej” të mesazheve të dërguar">

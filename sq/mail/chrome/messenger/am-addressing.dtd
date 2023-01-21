@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xul -->
-
 <!-- extracted from am-addressing.xhtml -->
 
 <!ENTITY addressing.label          "Hartim &amp; Adresim">
@@ -19,15 +17,13 @@
 <!ENTITY directories.accesskey     "t">
 <!ENTITY directoriesNone.label     "Asnjë">
 
-<!-- am-addressing.xul -->
-
 <!-- am-addressing.xhtml -->
 
 <!ENTITY compositionGroupTitle.label          "Hartim">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label                        "Harto mesazhe në format HTML">
 <!ENTITY useHtml.accesskey                    "H">
-<!ENTITY autoQuote.label                      "Citoje vetvetiu mesazhin origjinal kur përgjigjesh">
+<!ENTITY autoQuote.label                      "Citoje vetvetiu mesazhin origjinal, kur përgjigjesh">
 <!ENTITY autoQuote.accesskey                  "C">
 <!-- LOCALIZATION NOTE (quoting.label): This will concatenate with the 4 strings that follow. -->
 <!ENTITY quoting.label                        "Gjatë citimesh,">

@@ -30,7 +30,7 @@
 <!ENTITY return.label                      "Mos kthe më shumë se">
 <!ENTITY return.accesskey                  "M">
 <!ENTITY results.label                     "përfundime">
-<!ENTITY offlineText.label                 "Mund të shkarkoni një kopje vendore të kësaj drejtorie që mund ta përdorni kur jeni jashtë linje.">
+<!ENTITY offlineText.label                 "Mund të shkarkoni një kopje vendore të kësaj drejtorie, të cilën mund ta përdorni kur jeni jashtë linje.">
 <!ENTITY saslMechanism.label               "Metodë hyrjeje: ">
 <!ENTITY saslMechanism.accesskey           "h">
 <!ENTITY saslOff.label                     "E thjeshtë">
@@ -38,7 +38,7 @@
 <!ENTITY saslGSSAPI.label                  "Kerberos (GSSAPI)">
 <!ENTITY saslGSSAPI.accesskey              "K">
 
-<!-- Localization note: this is here because the width of the dialog 
+<!-- Localization note: this is here because the width of the dialog
      is determined by the width of the base DN box; and that is likely
      to vary somewhat with the language.
 -->

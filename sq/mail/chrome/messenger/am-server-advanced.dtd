@@ -27,5 +27,5 @@
 <!ENTITY accountInbox.accesskey "k">
 <!ENTITY deferToServer.label "Të marrë për tjetër llogari">
 <!ENTITY deferToServer.accesskey "o">
-<!ENTITY deferGetNewMail.label "Përfshije këtë shërbyes kur merret postë e re">
+<!ENTITY deferGetNewMail.label "Përfshije këtë shërbyes, kur merret postë e re">
 <!ENTITY deferGetNewMail.accesskey "f">
