@@ -11,7 +11,7 @@
 # folders or opens new tabs. (When inactive, only the state of the text
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
-    .title = Mbajini në punë filtrat kur këmbehen dosje
+    .title = Mbajini në punë filtrat, kur këmbehen dosje
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =

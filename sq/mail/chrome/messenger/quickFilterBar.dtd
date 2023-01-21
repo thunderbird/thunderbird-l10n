@@ -38,7 +38,7 @@
      filters are propagated between folder changes and when opening new tabs.)
      -->
 <!ENTITY quickFilterBar.sticky.tooltip
-         "Mbajini në punë filtrat kur këmbehen dosje">
+         "Mbajini në punë filtrat, kur këmbehen dosje">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.unread.label):
      The label for the filter button that causes us to filter results to only
