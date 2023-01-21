@@ -35,9 +35,16 @@ source-thunderbird = Importa d'una altra instal·lació del { app-name-thunderbi
 source-seamonkey = Importa d'una instal·lació del { app-name-seamonkey }
 source-outlook = Importa de l'{ app-name-outlook }
 source-becky = Importa del { app-name-becky }
+source-apple-mail = Importa de l'{ app-name-apple-mail }
+source-file-description = Seleccioneu un fitxer per importar les llibretes d'adreces, els calendaris o la còpia de seguretat d'un perfil (fitxer ZIP).
 
 ## Import from file selections
 
+file-profile2 = Importa la còpia de seguretat d'un perfil
+file-profile-description = Seleccioneu un perfil del Thunderbird amb còpia de seguretat prèvia (.zip)
+file-calendar = Importa els calendaris
+file-calendar-description = Seleccioneu un fitxer que contingui calendaris o cites exportats (.ics)
+file-addressbook = Importa les llibretes d'adreces
 
 ## Import from app profile steps
 
