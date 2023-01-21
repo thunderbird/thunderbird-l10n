@@ -5,5 +5,7 @@
 
 ## Table
 
+tree-list-view-row-delete =
+    .title = Ағымдағы жолды өшіру
 tree-list-view-column-picker =
     .title = Көрсетілетін бағандарды таңдау

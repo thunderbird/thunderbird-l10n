@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Іздеу
+search-bar-item =
+    .label = Іздеу:
+search-bar-placeholder = Іздеу…
 
 ## Unified toolbar context menu
 
@@ -16,12 +21,15 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-title = Саймандар панельдерін баптау
 customize-space-mail = Эл. пошта
 customize-space-addressbook = Адрестік кітапша
 customize-space-calendar = Күнтізбе
 customize-space-tasks = Тапсырмалар
 customize-space-chat = Чат
 customize-space-settings = Баптаулар
+customize-restore-default = Бастапқы түрін қалпына келтіру
+customize-change-appearance = Сыртқы түрін өзгерту…
 customize-button-style-label = Батырмалар стилі:
 customize-button-style-icons-beside-text =
     .label = Таңбашалар мәтіннің қасында
