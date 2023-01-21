@@ -32,6 +32,8 @@ openpgp-broken-exchange-info = Ky është një mesazh OpenPGP që duket se ësht
 openpgp-broken-exchange-repair =
     .label = Riparoje mesazhin
 openpgp-broken-exchange-wait = Ju lutemi, pritni…
+openpgp-has-nested-encrypted-parts = Ky mesazh përfshin pjesë shtesë të fshehtëzuara.
+openpgp-show-encrypted-parts = Shfshehtëzoje dhe Shfaqe
 openpgp-cannot-decrypt-because-mdc =
     Ky është një mesazh i fshehtëzuar që përdor  një mekanizëm të vjetër dhe të cenueshëm.
     Mund të ketë qenë ndryshuar gjatë shpërnguljes, me synimin e vjedhjes së lëndës së tij.
