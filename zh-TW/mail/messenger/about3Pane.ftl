@@ -206,3 +206,27 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = 新訊息圖示
+    .title = 新訊息
+threadpane-message-replied =
+    .alt = 已回覆圖示
+    .title = 已回覆的訊息
+threadpane-message-redirected =
+    .alt = 已改寄圖示
+    .title = 已改寄的訊息
+threadpane-message-forwarded =
+    .alt = 已轉寄圖示
+    .title = 已轉寄的訊息
+threadpane-message-replied-forwarded =
+    .alt = 已回覆與轉寄圖示
+    .title = 已回覆並轉寄的訊息
+threadpane-message-replied-redirected =
+    .alt = 已回覆與改寄圖示
+    .title = 已回覆與改寄的訊息
+threadpane-message-forwarded-redirected =
+    .alt = 已轉寄與改寄圖示
+    .title = 已轉寄與改寄的訊息
+threadpane-message-replied-forwarded-redirected =
+    .alt = 已回覆、轉寄並改寄圖示
+    .title = 已回覆、轉寄並改寄的訊息
