@@ -26,6 +26,7 @@ customize-space-calendar = Takvim
 customize-space-tasks = Görevler
 customize-space-chat = Sohbet
 customize-space-settings = Ayarlar
+customize-restore-default = Varsayılanı geri yükle
 customize-change-appearance = Görünümü değiştir…
 customize-button-style-label = Düğme stili:
 customize-button-style-icons-beside-text =
@@ -42,3 +43,5 @@ customize-main-toolbar-target =
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Kaldır

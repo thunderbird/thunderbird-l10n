@@ -117,6 +117,10 @@ quick-filter-bar-gloda-upsell-line2 = Şunu aramaya devam etmek için Enter'a ye
 
 threadpane-column-header-select =
     .title = Tüm iletileri seç/seçme
+threadpane-column-header-select-all =
+    .title = Tüm iletileri seç
+threadpane-column-header-deselect-all =
+    .title = Tüm iletilerin seçimini kaldır
 threadpane-column-label-select =
     .label = İletileri seç
 threadpane-column-label-thread =
