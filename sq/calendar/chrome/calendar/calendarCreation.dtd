@@ -6,7 +6,7 @@
 <!ENTITY wizard.label             "Krijoni kalendar të ri" >
 <!ENTITY wizard.description       "Vendosni kalendarin tuaj" >
 
-<!ENTITY initialpage.description    "Kalendari juaj mund të depozitohet te kompjuteri juaj ose te një shërbyes që të mund ta përdorni së largëti ose ta ndani me shokë apo kolegë tuajt." >
+<!ENTITY initialpage.description    "Kalendari juaj mund të depozitohet te kompjuteri juaj, ose te një shërbyes që të mund ta përdorni së largëti ose ta ndani me shokë apo kolegë tuajt." >
 <!ENTITY initialpage.computer.label  "Në Kompjuterin Tim">
 <!ENTITY initialpage.network.label  "Në Rrjet">
 
