@@ -137,7 +137,7 @@
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
   <li>Ky mund të jetë një problem me formësimin e shërbyesit, ose dikush mund të jetë duke u përpjekur të imitojë shërbyesin.</li>
-  <li>Nëse në të kaluarën jeni lidhur me sukses te ky shërbyes, gabimi mund të jetë i përkohshëm, dhe mund të riprovoni më vonë.</li>
+  <li>Nëse në të kaluarën jeni lidhur me sukses te ky shërbyes, gabimi mund të jetë i përkohshëm dhe mund të riprovoni më vonë.</li>
 </ul>
 ">
 

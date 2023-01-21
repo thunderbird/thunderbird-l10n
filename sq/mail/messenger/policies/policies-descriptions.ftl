@@ -44,9 +44,9 @@ policy-DNSOverHTTPS = Formësoni DNS përmes HTTPS-je.
 policy-DontCheckDefaultClient = Çaktivizoni kontrollin për klient parazgjedhje gjatë nisjes.
 policy-DownloadDirectory = Caktoni dhe kyçni drejtorinë e shkarkimeve.
 # “lock” means that the user won’t be able to change this setting
-policy-EnableTrackingProtection = Aktivizoni ose çaktivizoni Bllokim Lënde, dhe kyçeni, në daçi.
+policy-EnableTrackingProtection = Aktivizoni ose çaktivizoni Bllokim Lënde dhe kyçeni, në daçi.
 # “lock” means that the user won’t be able to change this setting
-policy-EncryptedMediaExtensions = Aktivizoni ose çaktivizoni Zgjerime Mediash të Fshehtëzuara, dhe kyçeni, në daçi.
+policy-EncryptedMediaExtensions = Aktivizoni ose çaktivizoni Zgjerime Mediash të Fshehtëzuara dhe kyçeni, në daçi.
 # A “locked” extension can’t be disabled or removed by the user. This policy
 # takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
 # English or translate them as verbs.

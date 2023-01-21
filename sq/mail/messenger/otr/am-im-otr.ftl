@@ -18,10 +18,8 @@ otr-require-encryption =
 otr-require-encryption-info =
     Kur kërkohet fshehtëzim skaj-më-skaj, mesazhet në biseda tek për tek s’do
     të dërgohen, veç nëse mund të fshehtëzohen. Mesazhet e pafshehtëzuar të marrë
-    s’do të shfaqen si pjesë e bisedës së rregullt, dhe as do të bëhet regjistrim
+    s’do të shfaqen si pjesë e bisedës së rregullt dhe as do të bëhet regjistrim
     i tyre.
 otr-verify-nudge =
     .label = Kujtomë përherë të verifikoj një kontakt të paverifikuar
-
 otr-not-yet-available = ende jo gati
-

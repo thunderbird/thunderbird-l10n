@@ -65,7 +65,7 @@ chat-pane-header = Fjalosje
 chat-status-title = Gjendje
 chat-notifications-title = Njoftime
 chat-pane-styling-header = Stilizim
-choose-messenger-language-description = Zgjidhni gjuhët e përdorura për shfaqje menush, mesazhesh, dhe njoftimesh nga { -brand-short-name }-i.
+choose-messenger-language-description = Zgjidhni gjuhët e përdorura për shfaqje menush, mesazhesh dhe njoftimesh nga { -brand-short-name }-i.
 manage-messenger-languages-button =
     .label = Caktoni Alternativa…
     .accesskey = C
@@ -632,7 +632,7 @@ idle-time-label = minutash pa veprimtari
 ##
 
 away-message-label =
-    .label = dhe gjendjen time kaloje si i Larguar, dhe me këtë mesazh gjendjeje:
+    .label = dhe gjendjen time kaloje si i Larguar dhe me këtë mesazh gjendjeje:
     .accesskey = d
 send-typing-label =
     .label = Dërgo gjatë bisedave njoftime lidhur me shtypje në tastierë

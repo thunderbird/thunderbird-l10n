@@ -35,7 +35,7 @@ import-title = Importoni nga Tjetër Program
 import-paragraph2 = { -brand-short-name }-i ju lejon të importoni mesazhe email, zëra librash adresash, pajtime në prurje, rregullime, dhe/ose filtra prej programesh të tjerë poste, si dhe formate të zakonshëm librash adresash.
 import-label = Importo
     .aria-label = Importoni të dhëna nga programe të tjerë
-about-paragraph = Thunderbird-i është klienti udhëheqës për email dhe kalendar, me burim të hapët, ndërplatformësh, i lirë për përdorim personal apo nga biznesi. Dëshirojmë të mbetet i sigurt dhe të bëhet edhe më i mirë. Dhurimet do të na lejojnë të punësojmë programues, të paguajmë për infrastrukturën, dhe të vazhdojmë ta përmirësojmë.
+about-paragraph = Thunderbird-i është klienti udhëheqës për email dhe kalendar, me burim të hapët, ndërplatformësh, i lirë për përdorim personal apo nga biznesi. Dëshirojmë të mbetet i sigurt dhe të bëhet edhe më i mirë. Dhurimet do të na lejojnë të punësojmë programues, të paguajmë për infrastrukturën dhe të vazhdojmë ta përmirësojmë.
 about-paragraph-consider-donation = <b>Thunderbird-i financohet nga përdorues si ju! Nëse Thunderbird-i ju pëlqen, ju lutemi, shihni mundësinë e bërjes së një dhurimi.</b> Rruga më e mirë për ju që të siguroni ruajtjen e ofrimit të Thunderbird-it është <a data-l10n-name="donation-link">bërja e një dhurimi.</a>
 explore-link = Eksploroni Veçori
 support-link = Asistencë

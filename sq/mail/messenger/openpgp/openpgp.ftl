@@ -4,7 +4,7 @@
 
 e2e-intro-description = Që të dërgoni mesazhe të fshehtëzuar ose të nënshkruar në mënyrë dixhitale, ju duhet të formësoni një teknologji fshehtëzimi, OpenPGP ose S/MIME.
 e2e-intro-description-more = Që të aktivizohet përdorimi i OpenGPG-së, përzgjidhni kyçin tuaj personal, ose dëshminë tuaj personale që të aktivizohet përdorimi i S/MIME-s. Për një kyç apo dëshmi personale, zotëroni kyçin përkatës të fshehtë.
-e2e-signing-description = Një nënshkrim dixhital u lejon marrësve të verifikojnë se mesazhi qe dërguar nga ju, dhe se lënda e tij s’është ndryshuar. Si parazgjedhje, mesazhet e fshehtëzuar janë përherë të nënshkruar.
+e2e-signing-description = Një nënshkrim dixhital u lejon marrësve të verifikojnë se mesazhi qe dërguar nga ju dhe se lënda e tij s’është ndryshuar. Si parazgjedhje, mesazhet e fshehtëzuar janë përherë të nënshkruar.
 e2e-sign-message =
     .label = Nënshkruani mesazhe të pafshehtëzuar
     .accesskey = u
@@ -400,7 +400,7 @@ converter-decrypt-body-failed =
 filter-folder-required = Duhet të përzgjidhni një dosje objektiv.
 filter-decrypt-move-warn-experimental =
     Kujdes - veprimi i filtrimit “Shfshehtëzoje përgjithnjë” mund të shpjerë te mesazhe të shkatërruar.
-    Këshillojmë me forcë që së pari të provoni filtrin “Krijo një Kopje të shfshehtëzuar”, ta testoni me kujdes përfundimin, dhe të filloni ta përdorni këtë filtër vetëm pasi të jeni i kënaqur me përfundimin.
+    Këshillojmë me forcë që së pari të provoni filtrin “Krijo një Kopje të shfshehtëzuar”, ta testoni me kujdes përfundimin dhe të filloni ta përdorni këtë filtër vetëm pasi të jeni i kënaqur me përfundimin.
 filter-term-pgpencrypted-label = Fshehtëzuar me OpenPGP
 filter-key-required = Duhet të përzgjidhni një marrës kyçi.
 filter-key-not-found = S’u gjet dot kyç i fshehtëzuar për '{ $desc }'.
@@ -483,8 +483,8 @@ already-revoked = Ky kyç është shfuqizuar tashmë.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
     Ju ndan një hap nga shfuqizimi i kyçit '{ $identity }'.
-    S’do të jeni më në gjendje të nënshkruani me këtë kyç, dhe pasi t’u jetë dhënë të tjerëve, këta s’do të jenë më në gjendje të bëjnë fshehtëzim me atë kyç. Mundeni ende ta përdorni kyçin për të shfshehtëzuar mesazhe të vjetër.
-    Do you want to proceed?
+    S’do të jeni më në gjendje të nënshkruani me këtë kyç dhe pasi t’u jetë dhënë të tjerëve, këta s’do të jenë më në gjendje të bëjnë fshehtëzim me atë kyç. Mundeni ende ta përdorni kyçin për të shfshehtëzuar mesazhe të vjetër.
+    Doni të vazhdohet?
 #   $keyId (String) - the id of the key being revoked
 revoke-key-not-present =
     S’keni kyç (0x{ $keyId }) që përputhet me këtë dëshmi shfuqizimi!
@@ -504,8 +504,8 @@ delete-key-title = Fshi Kyç OpenPGP
 delete-external-key-title = Hiq Kyçin e jashtëm GnuPG
 delete-external-key-description = Doni të hiqet kjo ID kyçi të  Jashtëm GnuPG?
 key-in-use-title = Kyç OpenPGP aktualisht në përdorim
-delete-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët për fshirje është aktualisht në përdorim nga ky identitet. Përzgjidhni një kyç tjetër, ose mos përzgjidhni ndonjë, dhe riprovoni.
-revoke-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët për shfuqizim është aktualisht në përdorim nga ky identitet. Përzgjidhni një kyç tjetër, ose mos përzgjidhni ndonjë, dhe riprovoni.
+delete-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët për fshirje është aktualisht në përdorim nga ky identitet. Përzgjidhni një kyç tjetër, ose mos përzgjidhni ndonjë dhe riprovoni.
+revoke-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët për shfuqizim është aktualisht në përdorim nga ky identitet. Përzgjidhni një kyç tjetër, ose mos përzgjidhni ndonjë dhe riprovoni.
 # Strings used in errorHandling.jsm
 key-error-key-spec-not-found = Për adresën email '{ $keySpec }' s’gjendet dot përputhje me ndonjë kyç në vargun tuaj të kyçeve.
 key-error-key-id-not-found = ID-ja e kyçit të formësuar '{ $keySpec }' s’mund të gjendet te vargu juaj i kyçeve.
