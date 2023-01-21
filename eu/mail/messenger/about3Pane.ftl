@@ -117,6 +117,10 @@ quick-filter-bar-gloda-upsell-line2 = Sakatu ‘Sartu’ berriro zure bilaketare
 
 threadpane-column-header-select =
     .title = Txandakatu aukeratutako mezu guztiak
+threadpane-column-header-select-all =
+    .title = Hautatu mezu denak
+threadpane-column-header-deselect-all =
+    .title = Desautatu mezu denak
 threadpane-column-label-select =
     .label = Aukeratu mezuak
 threadpane-column-label-thread =
@@ -129,6 +133,14 @@ threadpane-column-header-attachments =
     .title = Ordenatu eranskinen arabera
 threadpane-column-label-attachments =
     .label = Eranskinak
+threadpane-column-header-spam =
+    .title = Ordenatu spam egoeraren arabera
+threadpane-column-label-spam =
+    .label = Spam
+threadpane-column-header-unread-button =
+    .title = Ordenatu irakurketa egoeraren arabera
+threadpane-column-label-unread-button =
+    .label = Irakurketa egoera
 threadpane-column-header-sender = Nork
     .title = Ordenatu bidaltzailearen arabera
 threadpane-column-label-sender =
@@ -196,3 +208,9 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Mezu berri adierazlea
+    .title = Mezu berria
+threadpane-message-replied =
+    .alt = Erantzunda adierazlea
+    .title = Erantzundako mezua

@@ -6,9 +6,12 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Zuriune malgua
+search-bar-label = Bilatu
 toolbar-write-message-label = Idatzi
 toolbar-write-message =
     .title = Sortu mezu berria
+toolbar-move-to =
+    .title = Mugitu hautatutako mezuak
 toolbar-unifinder-label = Bilatu gertaerak
 toolbar-unifinder =
     .title = Gertaera bilaketa panela txandakatu
@@ -74,6 +77,7 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Markatu
 toolbar-mark-as =
     .title = Markatu mezuak
+toolbar-address-book-label = Helbide-liburua
 toolbar-address-book =
     .title = Joan helbide-liburura
 toolbar-chat-label = Txata
@@ -88,6 +92,9 @@ toolbar-calendar =
 toolbar-tasks-label = Zereginak
 toolbar-tasks =
     .title = Aldatu zereginen fitxara
+toolbar-mail-label = Posta
+toolbar-mail =
+    .title = Aldatu posten fitxara
 toolbar-print-label = Inprimatu
 toolbar-print =
     .title = Inprimatu mezu hau

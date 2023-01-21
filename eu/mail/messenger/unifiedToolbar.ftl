@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Bilatu
+search-bar-item =
+    .label = Bilatu:
+search-bar-placeholder = Bilatu…
 
 ## Unified toolbar context menu
 
@@ -16,17 +21,35 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-title = Pertsonalizatu tresna-barrak
 customize-space-mail = Posta
 customize-space-addressbook = Helbide-liburua
 customize-space-calendar = Egutegia
 customize-space-tasks = Zereginak
 customize-space-chat = Txata
 customize-space-settings = Ezarpenak
+customize-restore-default = Berrezarri lehenetsiak
 customize-button-style-icons-beside-text =
     .label = Ikonoak testuaren ondoan
+customize-button-style-icons-only =
+    .label = Ikonoak bakarrik
+customize-button-style-text-only =
+    .label = Testua bakarrik
+customize-cancel = Utzi
+customize-save = Gorde
+customize-spaces-tabs =
+    .aria-label = Zuriunea
+customize-main-toolbar-target =
+    .aria-label = Tresna-barra nagusia
 
 ## Unified toolbar customization palette context menu
 
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Mugitu aurrera
+customize-target-backward =
+    .label = Mugitu atzera
+customize-target-remove =
+    .label = Kendu
