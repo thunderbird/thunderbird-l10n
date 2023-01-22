@@ -5,5 +5,7 @@
 
 ## Table
 
+tree-list-view-row-delete =
+    .title = Удалить текущую строку
 tree-list-view-column-picker =
     .title = Выбрать колонки для отображения
