@@ -46,5 +46,9 @@ customize-palette-generic-title = Na voljo za vse komponente
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Premakni naprej
+customize-target-backward =
+    .label = Premakni nazaj
 customize-target-remove =
     .label = Odstrani
