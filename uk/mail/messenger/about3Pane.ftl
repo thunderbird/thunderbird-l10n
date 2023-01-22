@@ -118,6 +118,10 @@ quick-filter-bar-gloda-upsell-line2 = Натисніть ‘Enter’ ще раз
 
 threadpane-column-header-select =
     .title = Увімкніть, щоб вибрати всі повідомлення
+threadpane-column-header-select-all =
+    .title = Вибрати всі повідомлення
+threadpane-column-header-deselect-all =
+    .title = Скасувати вибір усіх повідомлень
 threadpane-column-label-select =
     .label = Вибрати повідомлення
 threadpane-column-label-thread =
