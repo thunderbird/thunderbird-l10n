@@ -118,6 +118,10 @@ quick-filter-bar-gloda-upsell-line2 = Нажмите ещё раз ‘Enter’ �
 
 threadpane-column-header-select =
     .title = Выделить/Снять выделение всех сообщений
+threadpane-column-header-select-all =
+    .title = Выбрать все сообщения
+threadpane-column-header-deselect-all =
+    .title = Отменить выбор всех сообщений
 threadpane-column-label-select =
     .label = Выберите сообщения
 threadpane-column-label-thread =
@@ -130,6 +134,14 @@ threadpane-column-header-attachments =
     .title = Упорядочивать по наличию вложений
 threadpane-column-label-attachments =
     .label = Вложения
+threadpane-column-header-spam =
+    .title = Сортировать по статусу спама
+threadpane-column-label-spam =
+    .label = Спам
+threadpane-column-header-unread-button =
+    .title = Сортировать по статусу чтения
+threadpane-column-label-unread-button =
+    .label = Статус чтения
 threadpane-column-header-sender = От
     .title = Упорядочивать по автору
 threadpane-column-label-sender =
@@ -197,3 +209,15 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Индикатор нового сообщения
+    .title = Новое сообщение
+threadpane-message-replied =
+    .alt = Индикатор ответа
+    .title = На сообщение отправлен ответ
+threadpane-message-redirected =
+    .alt = Индикатор перенаправления
+    .title = Сообщение было перенаправлено
+threadpane-message-forwarded =
+    .alt = Индикатор пересылки
+    .title = Сообщение было переслано
