@@ -544,6 +544,7 @@ msg-compose-partially-encrypted-inlinePGP =
     Sporočilo, na katerega odgovarjate, je vsebovalo nešifrirane in šifrirane dele. Če pošiljatelj prvotno ni mogel dešifrirati nekaterih delov sporočila, morda razkrivate zaupne podatke, ki jih pošiljatelj sam ni mogel dešifrirati.
     Razmislite o odstranitvi celotnega navedka iz odgovora temu pošiljatelju.
 msg-compose-cannot-save-draft = Napaka pri shranjevanju osnutka
+msg-compose-partially-encrypted-short = Pazite se razkritja občutljivih podatkov – sporočilo je delno šifrirano.
 send-to-news-warning =
     Opozorilo: novičarski skupini pošiljate šifrirano sporočilo.
     To je odsvetovano, ker je smiselno le, če lahko sporočilo dešifrirajo vsi člani skupine, torej bi moralo biti šifrirano s ključi vseh članov. To sporočilo pošljite samo, če natančno veste, kaj počnete.
