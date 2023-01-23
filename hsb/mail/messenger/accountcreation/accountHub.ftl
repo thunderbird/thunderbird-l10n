@@ -14,3 +14,17 @@ account-hub-title = Kontowy centrum
 account-hub-release-notes = Wersijowe informacije
 account-hub-support = Pomoc
 account-hub-donate = Darić
+
+## Start page
+
+account-hub-email-button = E-mejlowe konto konfigurować
+account-hub-new-email-button = Wobstarajće sej e-mejlowu adresu
+account-hub-calendar-button = Protyku konfigurować
+account-hub-address-book-button = Adresnik konfigurować
+account-hub-chat-button = Chat konfigurować
+account-hub-feed-button = RSS-kanal konfigurować
+account-hub-newsgroup-button = Diskusijnu skupinu konfigurować
+account-hub-import-button = Profil importować
+
+## Email page
+

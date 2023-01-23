@@ -16,3 +16,4 @@ aboutDialog-version = { $version } ({ $bits }-bitowy)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bitowy)
+aboutdialog-update-checking-failed = Pytanje za aktualizacijemi je so nimokuliło.

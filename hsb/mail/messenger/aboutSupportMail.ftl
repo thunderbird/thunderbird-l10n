@@ -24,3 +24,4 @@ libs-table-heading-path = Šćežka
 libs-table-heading-status = Status
 libs-rnp-status-ok = W porjadku
 libs-rnp-status-incompatible = Inkompatibelna wersija. OpenPGP so njefunguje.
+libs-rnp-status-unofficial = Njeoficielna wersija. OpenPGP snano kaž wočakowany njefunguje.

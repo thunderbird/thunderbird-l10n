@@ -119,8 +119,14 @@ quick-filter-bar-gloda-upsell-line2 = Tłóčće na ‘Enter’ znowa, zo byšć
 
 threadpane-column-header-select =
     .title = Wuběranje wšěch powěsćow přepinać
+threadpane-column-header-select-all =
+    .title = Wšě powěsće wubrać
+threadpane-column-header-deselect-all =
+    .title = Wšě powěsće wotwolić
 threadpane-column-label-select =
     .label = Powěsće wubrać
+threadpane-column-header-thread =
+    .title = Powěsćowe nitki přepinać
 threadpane-column-label-thread =
     .label = Nitka
 threadpane-column-header-flagged =
@@ -131,6 +137,14 @@ threadpane-column-header-attachments =
     .title = Po přiwěškach sortěrować
 threadpane-column-label-attachments =
     .label = Přiwěški
+threadpane-column-header-spam =
+    .title = Po spamowym statusu sortěrować
+threadpane-column-label-spam =
+    .label = Spam
+threadpane-column-header-unread-button =
+    .title = Po čitanskim statusu sortěrować
+threadpane-column-label-unread-button =
+    .label = Čitanski status
 threadpane-column-header-sender = Wot
     .title = Po Wot sortěrować
 threadpane-column-label-sender =
@@ -198,3 +212,9 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indikator noweje powěsće
+    .title = Nowa powěsć
+threadpane-message-replied =
+    .alt = Wotmołwny indikator
+    .title = Powěsć z wotmołwu
