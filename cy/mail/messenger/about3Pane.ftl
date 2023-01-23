@@ -121,6 +121,10 @@ quick-filter-bar-gloda-upsell-line2 = Pwyswch ‘Enter’ eto i barhau i chwilio
 
 threadpane-column-header-select =
     .title = Toglo dewis pob neges
+threadpane-column-header-select-all =
+    .title = Dewis pob neges
+threadpane-column-header-deselect-all =
+    .title = Dad-ddewis pob neges
 threadpane-column-label-select =
     .label = Dewis Negeseuon
 threadpane-column-label-thread =
