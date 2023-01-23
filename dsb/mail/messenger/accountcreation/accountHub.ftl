@@ -17,7 +17,7 @@ account-hub-donate = Pósćiś
 
 ## Start page
 
-account-hub-email-button = E-mailow konto konfigurěrowaś
+account-hub-email-button = E-mailowe konto konfigurěrowaś
 account-hub-new-email-button = Wobstarajśo se e-mailowu adresu
 account-hub-calendar-button = Kalendaŕ konfigurěrowaś
 account-hub-address-book-button = Adresnik konfigurěrowaś
@@ -30,7 +30,7 @@ account-hub-sync-button = Pla Sync pśizjawiś…
 
 ## Email page
 
-account-hub-email-title = Swójo e-mailowe konto konfigurěrowaś
+account-hub-email-title = Wašo e-mailowe konto konfigurěrowaś
 account-hub-email-cancel-button = Pśetergnuś
 account-hub-email-back-button = Slědk
 account-hub-email-continue-button = Dalej
