@@ -127,6 +127,7 @@ calendar-summary-description = Uusi kalenteri "{ $targetCalendar }" luodaan.
 progress-pane-importing2 = Tuodaan… { $progressPercent }
 # $progressPercent (string) - percent formatted progress (for example "10%")
 progress-pane-exporting2 = Viedään… { $progressPercent }
+progress-pane-finished-desc2 = Valmis.
 error-pane-title = Virhe
 error-message-zip-file-too-big2 = Valittu ZIP-tiedosto on suurempi kuin 2 Gt. Pura se ensin ja tuo sen jälkeen puretusta kansiosta.
 error-message-extract-zip-file-failed2 = ZIP-tiedoston purkaminen epäonnistui. Pura se manuaalisesti ja tuo sen jälkeen puretusta kansiosta.
@@ -167,6 +168,8 @@ footer-support-forum = Tukipalsta
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = Tuonnin vaiheet
 step-confirm = Vahvista
 # Variables:
 # $number (number) - step number
