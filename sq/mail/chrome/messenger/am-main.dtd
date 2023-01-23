@@ -13,7 +13,7 @@
 <!ENTITY name.accesskey "J">
 <!ENTITY email.label "Adresë Email:">
 <!ENTITY email.accesskey "E">
-<!ENTITY catchAll.label "Përgjigju prej këtij identiti, kur kryet e dërgimit kanë përputhje me:">
+<!ENTITY catchAll.label "Përgjigju prej këtij identiteti, kur kryet e dërgimit kanë përputhje me:">
 <!ENTITY catchAll.accesskey "d">
 <!ENTITY replyTo.label "Adresë për Përgjigju:">
 <!ENTITY replyTo.accesskey "u">

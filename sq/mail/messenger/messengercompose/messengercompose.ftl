@@ -273,7 +273,7 @@ many-public-recipients-prompt-send = Dërgoje, Sido Qoftë
 
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
-compose-missing-identity-warning = Su gjet ndonjë identitet unik që përputhet me adresën Nga. Mesazhi do të dërgohet duke përdorur fushën e tanishme Nga dhe rregullimet nga identiteti { $identity }.
+compose-missing-identity-warning = S’u gjet ndonjë identitet unik që përputhet me adresën Nga. Mesazhi do të dërgohet duke përdorur fushën e tanishme Nga dhe rregullimet nga identiteti { $identity }.
 encrypted-bcc-warning = Kur dërgohet një mesazh i fshehtëzuar, marrësit te fusha Bcc tani s’janë plotësisht të fshehur. Krejt marrësit mund të jenë në gjendje t’i identifikojnë ata.
 encrypted-bcc-ignore-button = E kuptova
 
