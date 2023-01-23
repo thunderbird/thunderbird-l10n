@@ -55,6 +55,16 @@ customize-palette-settings-specific-title = Jenož za rum nastajenjow k dispozic
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = { $target } přidać
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Doprědka
+customize-target-backward =
+    .label = Wróćo
+customize-target-remove =
+    .label = Wotstronić
