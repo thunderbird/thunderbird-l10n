@@ -53,5 +53,7 @@ customize-palette-add-to =
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Алға жылжыту
 customize-target-remove =
     .label = Өшіру
