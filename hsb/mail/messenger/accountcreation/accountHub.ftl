@@ -25,6 +25,13 @@ account-hub-chat-button = Chat konfigurować
 account-hub-feed-button = RSS-kanal konfigurować
 account-hub-newsgroup-button = Diskusijnu skupinu konfigurować
 account-hub-import-button = Profil importować
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Pola Sync přizjewić…
 
 ## Email page
 
+account-hub-email-title = Waše e-mejlowe konto konfigurować
+account-hub-email-cancel-button = Přetorhnyć
+account-hub-email-back-button = Wróćo
+account-hub-email-continue-button = Dale
+account-hub-email-confirm-button = Wobkrućić

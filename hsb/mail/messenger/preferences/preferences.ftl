@@ -197,6 +197,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Suwanske lajsty přeco pokazać
     .accesskey = u
+window-layout-legend = Woknowe wuhotowanje
 system-integration-legend = Systemowa integracija
 always-check-default =
     .label = Při startowanju přeco kontrolować, hač { -brand-short-name } je standardny e-mejlowy program
@@ -718,8 +719,18 @@ search-results-help-link = Trjebaće pomoc? Wopytajće <a data-l10n-name="url">P
 ## Sync Tab
 
 sync-signedout-caption = Wzmiće swój web sobu
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Pola Sync přizjewić…
 sync-pane-header = Synchronizować
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = „{ $userEmail }“ njeje přepruwowana.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Prošu přizjewće so, zo byšće znowa „{ $userEmail }“ zwjazał
+sync-pane-resend-verification = Wobkrućenje znowa pósłać
+sync-pane-sign-in = Přizjewić
+sync-pane-remove-account = Konto wotstronić
 sync-pane-edit-photo =
     .title = Profilowy wobraz změnić
 sync-pane-manage-account = Konto rjadować
@@ -738,6 +749,7 @@ show-synced-item-account = E-mejlowe konta
 show-synced-item-address = Adresniki
 show-synced-item-calendar = Protyki
 show-synced-item-identity = Identity
+show-synced-item-passwords = Hesła
 show-synced-change = Změnić…
 synced-acount-item-server-config = Serwerowa konfiguracija
 synced-acount-item-filters = Filtry

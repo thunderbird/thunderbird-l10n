@@ -5,5 +5,10 @@
 
 ## Table
 
+tree-list-view-row-delete =
+    .title = Aktualnu linku zhašeć
 tree-list-view-column-picker =
     .title = Wubjerće špalty, kotrež maja so zwobraznić
+tree-list-view-row-thread =
+    .alt = Indikator nitkoweje powěsće
+    .title = To je powěsć w nitce
