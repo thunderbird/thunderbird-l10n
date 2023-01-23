@@ -16,17 +16,33 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-title = Muokkaa työkalupalkkeja
 customize-space-mail = Sähköposti
 customize-space-addressbook = Osoitekirja
 customize-space-calendar = Kalenteri
 customize-space-tasks = Tehtävät
 customize-space-chat = Keskustelu
 customize-space-settings = Asetukset
+customize-restore-default = Palauta oletukset
+customize-change-appearance = Muuta ulkoasua…
+customize-button-style-label = Painikkeen tyyli:
 customize-button-style-icons-beside-text =
     .label = Kuvakkeet tekstin vieressä
+customize-button-style-icons-above-text =
+    .label = Kuvakkeet tekstin yläpuolella
+customize-button-style-icons-only =
+    .label = Vain kuvakkeet
+customize-button-style-text-only =
+    .label = Vain teksti
+customize-cancel = Peruuta
+customize-save = Tallenna
+customize-main-toolbar-target =
+    .aria-label = Pääpalkki
 
 ## Unified toolbar customization palette context menu
 
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Poista

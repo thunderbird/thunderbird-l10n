@@ -117,6 +117,8 @@ quick-filter-bar-gloda-upsell-line2 = Paina ‘Enter’ uudestaan jatkaaksesi ha
 
 threadpane-column-header-select =
     .title = Valitse kaikki viestit tai poista valinta
+threadpane-column-header-select-all =
+    .title = Valitse kaikki viestit
 threadpane-column-label-select =
     .label = Valitse viestit
 threadpane-column-label-thread =
