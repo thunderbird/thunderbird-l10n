@@ -18,7 +18,7 @@ rights-intro-point-6 = Që të mund të luajë disa lloje lënde video, { -brand
 rights-webservices-header = Shërbime Sajtesh të { -brand-full-name }-it
 rights-webservices2 = { -brand-full-name }-i përdor shërbime të dhënash me bazë web ("Shërbimet") për të bërë të mundur funksionimin e disa veçorive që ju ofrohen për përdorim përmes këtij versioni dyor të { -brand-short-name }-it, sipas kushteve të përshkruara më poshtë. Nëse nuk dëshironi të përdorni një ose më tepër prej Shërbimeve, ose nëse kushtet më poshtë janë të papranueshme për ju, mund ta çaktivizoni veçorinë ose Shërbimin(t). Udhëzimet se si të çaktivizohet një veçori ose Shërbim i caktuar mund të gjenden <a data-l10n-name="mozilla-disable-service-link">këtu</a>. Të tjera veçori dhe Shërbime mund të çaktivizohen te rregullimet e aplikacionit.
 rights-locationawarebrowsing = <strong>Shfletimi i Ndjeshëm Ndaj Vendndodhjes: </strong>është përherë në dorën tuaj ta përdorni a jo. Kurrë nuk dërgohen të dhëna vendndodhjeje pa lejen tuaj. Nëse dëshironi ta çaktivizoni tërësisht veçorinë, ndiqni hapat vijues:
-rights-locationawarebrowsing-term-1 = Te shtylla e URL-ve, shtypni <code>about:config</code>
+rights-locationawarebrowsing-term-1 = Hapni Përpunuesin e Formësimit
 rights-locationawarebrowsing-term-2 = Shtypni geo.enabled
 rights-locationawarebrowsing-term-3 = Dyklikoni mbi parapëlqimin geo.enabled
 rights-locationawarebrowsing-term-4 = Shfletimi i Ndjeshëm Ndaj Vendndodhjes tani është joveprues
