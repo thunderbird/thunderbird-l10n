@@ -28,7 +28,7 @@
      toggles the visibility of the quick filter bar.
      -->
 <!ENTITY quickFilterBar.toggleBarVisibility.button.tooltip
-         "Toglo'r bar hidlo cyflym">
+         "Newid y bar hidlo cyflym">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.sticky.tooltip):
      The tooltip to display when the user hovers over the sticky button
@@ -52,7 +52,7 @@
      include unread messages.
      -->
 <!ENTITY quickFilterBar.unread.tooltip
-         "Dangos negeseuon heb eu darllen yn unig">
+         "Dangos dim ond negeseuon heb eu darllen">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.starred.label):
      The label for the filter button that causes us to filter results to only

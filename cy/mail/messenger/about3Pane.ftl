@@ -15,7 +15,7 @@ quick-filter-bar-sticky =
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
-    .title = Dangos negeseuon heb eu darllen yn unig
+    .title = Dangos dim ond negeseuon heb eu darllen
 # The label for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread-label = Heb eu Darllen
@@ -120,7 +120,7 @@ quick-filter-bar-gloda-upsell-line2 = Pwyswch ‘Enter’ eto i barhau i chwilio
 ## Message thread pane
 
 threadpane-column-header-select =
-    .title = Toglo dewis pob neges
+    .title = Newid dewis pob neges
 threadpane-column-header-select-all =
     .title = Dewis pob neges
 threadpane-column-header-deselect-all =
