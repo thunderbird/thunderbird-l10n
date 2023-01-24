@@ -53,6 +53,24 @@ toolbar-undelete-button =
 
 ## View / Layout
 
+mail-uidensity-label =
+    .label = Densitet
+    .accesskey = D
+mail-uidensity-compact =
+    .label = Kompakt
+    .accesskey = K
+mail-uidensity-normal =
+    .label = Normal
+    .accesskey = N
+mail-uidensity-touch =
+    .label = Tøtsj
+    .accesskey = T
+mail-uidensity-default =
+    .label = Standard
+    .accesskey = S
+mail-uidensity-relaxed =
+    .label = Avslappa
+    .accesskey = A
 
 ## File
 
