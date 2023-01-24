@@ -235,3 +235,6 @@ threadpane-message-replied-redirected =
 threadpane-message-forwarded-redirected =
     .alt = Dangosydd anfon ymlaen ac ailgyfeirio
     .title = Neges wedi'i hanfon ymlaen a'i hailgyfeirio
+threadpane-message-replied-forwarded-redirected =
+    .alt = Dangosydd ateb, anfon ymlaen ac ailgyfeirio
+    .title = Wedi ateb, anfon ymlaen, ac ailgyfeirio'r neges
