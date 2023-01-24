@@ -26,6 +26,9 @@ addons-and-themes-toolbarbutton =
 quick-filter-toolbarbutton =
     .label = Snøggfilter
     .tooltiptext = Filtrer meldingar
+redirect-msg-button =
+    .label = Omdiriger
+    .tooltiptext = Om diriger vald melding
 
 ## Folder Pane
 
@@ -47,6 +50,9 @@ show-recent-folders-label =
 
 ## Menu
 
+redirect-msg-menuitem =
+    .label = Omdiriger
+    .accesskey = d
 
 ## AppMenu
 
@@ -62,12 +68,18 @@ appmenu-help-exit-troubleshoot-mode =
     .label = Slå av feilsøkingsmodus
 appmenu-help-more-troubleshooting-info =
     .label = Meir feilsøkingsinformasjon
+appmenu-redirect-msg =
+    .label = Omdiriger
 
 ## Context menu
 
+context-menu-redirect-msg =
+    .label = Omdiriger
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = Omdiriger
 
 ## Message header cutomize panel
 

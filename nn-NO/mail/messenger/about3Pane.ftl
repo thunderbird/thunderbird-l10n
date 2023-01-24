@@ -196,3 +196,6 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-redirected =
+    .alt = Indikator for omdirigert melding
+    .title = Melding omdirigert
