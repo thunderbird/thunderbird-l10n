@@ -231,3 +231,6 @@ threadpane-message-replied-redirected =
 threadpane-message-forwarded-redirected =
     .alt = Trochstjoerd en trochlaad-yndikator
     .title = Berjocht trochstjoerd en trochlaad
+threadpane-message-replied-forwarded-redirected =
+    .alt = Beäntwurde, trochstjoerd en trochlaad-yndikator
+    .title = Berjocht beäntwurde, trochstjoerd en trochlaad
