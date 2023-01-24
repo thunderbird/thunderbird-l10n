@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Sykje
+search-bar-item =
+    .label = Sykje:
+search-bar-placeholder = Sykje…
 
 ## Unified toolbar context menu
 
@@ -24,9 +29,17 @@ customize-space-chat = Chat
 customize-space-settings = Ynstellingen
 customize-button-style-icons-beside-text =
     .label = Ikoantsjes neist tekst
+customize-cancel = Annulearje
+customize-save = Bewarje
 
 ## Unified toolbar customization palette context menu
 
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Foarút
+customize-target-backward =
+    .label = Tebek
+customize-target-remove =
+    .label = Fuortsmite
