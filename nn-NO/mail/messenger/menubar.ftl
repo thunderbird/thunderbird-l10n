@@ -11,7 +11,6 @@ toolbar-context-menu-menu-bar =
 menu-tools-settings =
     .label = Innstillingar
     .accesskey = I
-
 menu-addons-and-themes =
     .label = Tillegg og tema
     .accesskey = T
@@ -21,6 +20,18 @@ menu-addons-and-themes =
 menu-help-share-feedback =
     .label = Del idear og tilbakemeldingar
     .accesskey = D
+menu-help-enter-troubleshoot-mode =
+    .label = Feilsøkingsmodus…
+    .accesskey = F
+menu-help-exit-troubleshoot-mode =
+    .label = Slå av feilsøkingsmodus
+    .accesskey = a
+menu-help-more-troubleshooting-info =
+    .label = Meir feilsøkingsinformasjon
+    .accesskey = M
+menu-help-troubleshooting-info =
+    .label = Feilsøkingsinfo
+    .accesskey = F
 
 ## Mail Toolbar
 

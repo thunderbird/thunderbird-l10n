@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Sync
+
+
 ## New Account
 
 appmenu-new-account-panel-title =
@@ -49,3 +52,15 @@ appmenu-help-panel-title =
 appmenu-help-share-feedback =
     .label = Del idear og tilbakemeldingar
     .accesskey = D
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Feilsøkingsmodus…
+    .accesskey = F
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Slå av feilsøkingsmodus
+    .accesskey = a
+appmenu-help-troubleshooting-info =
+    .label = Feilsøkingsinfo
+    .accesskey = i
+
+## Application Update
+
