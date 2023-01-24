@@ -50,9 +50,24 @@ toolbar-undelete-button =
 
 ## View
 
+menu-view-repair-text-encoding =
+    .label = Reparer tekstkoding
+    .accesskey = k
 
 ## View / Layout
 
+menu-font-size-label =
+    .label = Skriftstorleik
+    .accesskey = S
+menuitem-font-size-enlarge =
+    .label = Auk skriftstorleik
+    .accesskey = A
+menuitem-font-size-reduce =
+    .label = Reduser skriftstorleik
+    .accesskey = R
+menuitem-font-size-reset =
+    .label = Still tilbake tekststorlleik
+    .accesskey = t
 mail-uidensity-label =
     .label = Densitet
     .accesskey = D
