@@ -94,6 +94,9 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the addon that will be removed.
 addon-removal-title = Fjerne { $name }?
 addon-removal-confirmation-button = Fjern
+repair-text-encoding-button =
+    .label = Reparer tekstkoding
+    .tooltiptext = Gjett rett tekst frå meldingsinnhald
 
 ## no-reply handling
 

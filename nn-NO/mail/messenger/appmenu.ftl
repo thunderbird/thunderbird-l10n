@@ -10,6 +10,9 @@
 
 appmenu-new-account-panel-title =
     .title = Ny konto
+appmenu-new-newsgroup =
+    .label = Nyheitsgruppe
+    .accesskey = N
 
 ## New Account / Address Book
 

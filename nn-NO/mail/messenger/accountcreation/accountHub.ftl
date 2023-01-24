@@ -12,3 +12,10 @@ account-hub-brand = { -brand-full-name }
 account-hub-release-notes = Versjonsnotat
 account-hub-support = Brukarstøtte
 account-hub-donate = Doner
+
+## Start page
+
+account-hub-newsgroup-button = Konfigurer nyheitsgruppe
+
+## Email page
+

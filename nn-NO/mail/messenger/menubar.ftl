@@ -89,3 +89,6 @@ mail-uidensity-relaxed =
 
 ## File
 
+file-new-newsgroup-account =
+    .label = Nyheitsgruppekonto
+    .accesskey = k
