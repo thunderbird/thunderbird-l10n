@@ -4,10 +4,9 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-
 <!ENTITY viewPicker.label "Golwg:">
 <!ENTITY viewPicker.accesskey "l">
-<!ENTITY viewAll.label "Popeth">
+<!ENTITY viewAll.label "Y Cyfan">
 <!ENTITY viewAll.accesskey "P">
 <!ENTITY viewUnread.label "Heb eu Darllen">
 <!ENTITY viewUnread.accesskey "H">

@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Dangos nad ydych yn derbyn cynigion croes">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Dileu…">
 <!ENTITY  event.menu.item.delete.accesskey                "D">
-<!ENTITY  event.menu.item.page.setup.label                "Gosodiad Tudalen">
-<!ENTITY  event.menu.item.page.setup.accesskey            "T">
-<!ENTITY  event.menu.item.print.label                     "Argraffu">
-<!ENTITY  event.menu.item.print.accesskey                 "A">
 
 <!ENTITY  event.menu.edit.label                           "Golygu">
 <!ENTITY  event.menu.edit.accesskey                       "G">
@@ -108,7 +101,7 @@
 <!ENTITY  event.menu.edit.copy.accesskey                  "C">
 <!ENTITY  event.menu.edit.paste.label                     "Gludo">
 <!ENTITY  event.menu.edit.paste.accesskey                 "G">
-<!ENTITY  event.menu.edit.select.all.label                "Dewis Popeth">
+<!ENTITY  event.menu.edit.select.all.label                "Dewis y Cyfan">
 <!ENTITY  event.menu.edit.select.all.accesskey            "P">
 
 <!ENTITY  event.menu.view.label                           "Golwg">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "D">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Cyfaddasu…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "y">
-<!ENTITY  event.menu.view.showlink.label                  "Dangos Dolen Gysylltiedig">
-<!ENTITY  event.menu.view.showlink.accesskey              "G">
 
 <!ENTITY  event.menu.options.label                            "Dewisiadau">
 <!ENTITY  event.menu.options.accesskey                        "D">
@@ -237,7 +228,7 @@
 <!ENTITY event.attachments.popup.remove.accesskey         "T" >
 <!ENTITY event.attachments.popup.open.label               "Agor" >
 <!ENTITY event.attachments.popup.open.accesskey           "A" >
-<!ENTITY event.attachments.popup.removeAll.label          "Tynnu Popeth" >
+<!ENTITY event.attachments.popup.removeAll.label          "Tynnu'r Cyfan" >
 <!ENTITY event.attachments.popup.removeAll.accesskey      "T" >
 <!ENTITY event.attachments.popup.attachPage.label         "Atodi Tudalen Gwe…" >
 <!ENTITY event.attachments.popup.attachPage.accesskey     "G" >

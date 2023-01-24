@@ -101,7 +101,7 @@
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "y">
 <!ENTITY selectMenu.label "Dewis">
 <!ENTITY selectMenu.accesskey "w">
-<!ENTITY all.label "Popeth">
+<!ENTITY all.label "Y Cyfan">
 <!ENTITY all.accesskey "P">
 <!ENTITY selectThreadCmd.label "Edefyn">
 <!ENTITY selectThreadCmd.accesskey "E">
@@ -121,7 +121,7 @@
 <!ENTITY undoCopyMsgCmd.label "Dadwneud Copïo Neges">
 <!ENTITY redoCopyMsgCmd.label "Ail-wneud Copïo Neges">
 <!ENTITY undoMarkAllCmd.label "Dadwneud Marcio Pob Un Wedi ei Darllen">
-<!ENTITY redoMarkAllCmd.label "Ail-wneud Marcio Popeth Wedi'i Darllen">
+<!ENTITY redoMarkAllCmd.label "Ail-wneud Marcio'r Cyfan Wedi'u Darllen">
 <!ENTITY undoDefaultCmd.label "Dadwneud">
 <!ENTITY undoDefaultCmd.accesskey "u">
 <!ENTITY redoDefaultCmd.label "Ailwneud">
@@ -154,7 +154,7 @@
 <!ENTITY folderView.accesskey "F">
 <!ENTITY unifiedFolders.label "Unedig">
 <!ENTITY unifiedFolders.accesskey "U">
-<!ENTITY allFolders.label "Popeth">
+<!ENTITY allFolders.label "Y Cyfan">
 <!ENTITY allFolders.accesskey "P">
 <!ENTITY unreadFolders.label "Heb ei Darllen">
 <!ENTITY unreadFolders.accesskey "H">
@@ -212,7 +212,7 @@
 <!ENTITY msgsMenu.accesskey "N">
 <!ENTITY threads.label "Edafedd">
 <!ENTITY threads.accesskey "d">
-<!ENTITY allMsgsCmd.label "Popeth">
+<!ENTITY allMsgsCmd.label "Y Cyfan">
 <!ENTITY allMsgsCmd.accesskey "P">
 <!ENTITY expandAllThreadsCmd.label "Ehangu Pob Edefyn">
 <!ENTITY expandAllThreadsCmd.accesskey "E">
@@ -231,7 +231,7 @@
 
 <!ENTITY headersMenu.label "Penynnau">
 <!ENTITY headersMenu.accesskey "P">
-<!ENTITY headersAllCmd.label "Popeth">
+<!ENTITY headersAllCmd.label "Y Cyfan">
 <!ENTITY headersAllCmd.accesskey "P">
 <!ENTITY headersNormalCmd.label "Arferol">
 <!ENTITY headersNormalCmd.accesskey "A">
@@ -409,13 +409,13 @@
 <!ENTITY markAsReadCmd.accesskey "W">
 <!ENTITY markAsUnreadCmd.label "Heb ei Darllen">
 <!ENTITY markAsUnreadCmd.accesskey "H">
-<!ENTITY markThreadAsReadCmd.label "Edefyn wedi'i Darllen">
+<!ENTITY markThreadAsReadCmd.label "Edefyn wedi'i Ddarllen">
 <!ENTITY markThreadAsReadCmd.accesskey "D">
 <!ENTITY markThreadAsReadCmd.key "r">
 <!ENTITY markReadByDateCmd.label "Wedi Darllen yn ôl Dyddiad…">
 <!ENTITY markReadByDateCmd.accesskey "D">
 <!ENTITY markReadByDateCmd.key "c">
-<!ENTITY markAllReadCmd.label "Popeth Wedi eu Darllen">
+<!ENTITY markAllReadCmd.label "Y Cyfan Wedi eu Darllen">
 <!ENTITY markAllReadCmd.accesskey "P">
 <!ENTITY markAllReadCmd.key "c">
 <!ENTITY markStarredCmd.label "Ychwanegu Seren">
@@ -933,7 +933,7 @@
 <!ENTITY hideOtherAppsCmdMac.label      "Cuddio Eraill">
 <!ENTITY hideOtherAppsCmdMac.commandkey "E">
 <!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Dangos Popeth">
+<!ENTITY showAllAppsCmdMac.label        "Dangos y Cyfan">
 
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "Dewisiadau Eicon Ap…">

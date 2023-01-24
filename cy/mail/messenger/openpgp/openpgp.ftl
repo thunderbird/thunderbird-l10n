@@ -645,7 +645,7 @@ attachment-pgp-key =
     Cliciwch 'Mewnforio' i fewnforio'r allweddi sydd wedi'u cynnwys neu 'Golwg' i weld cynnwys y ffeil mewn ffenestr porwr
 dlg-button-view = &Golwg
 # Strings used in enigmailMsgHdrViewOverlay.js
-decrypted-msg-with-format-error = Neges wedi'i dadgryptio (fformat e-bost PGP wedi'i dorri wedi'i adfer yn ôl pob tebyg wedi'i achosi gan hen weinydd Exchange, fel na fyddai'r canlyniad yn berffaith i'w ddarllen o bosibl)
+decrypted-msg-with-format-error = Neges wedi'i dadgryptio (fformat e-bost PGP wedi'i dorri wedi'i adfer yn ôl pob tebyg wedi'i achosi gan hen weinydd Exchange, fel na fyddai'r canlyniad yn berffaith i'w darllen o bosibl)
 # Strings used in encryption.jsm
 not-required = Gwall - nid oes angen amgryptio
 # Strings used in windows.jsm

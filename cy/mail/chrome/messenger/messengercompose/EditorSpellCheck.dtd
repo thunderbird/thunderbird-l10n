@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- Window title -->
 
+<!-- Window title -->
 <!ENTITY windowTitle.label "Gwirio Sillafu">
 
 <!ENTITY misspelledWord.label "Gair wedi'i gamsillafu:">
@@ -14,7 +14,7 @@
 <!ENTITY suggestions.accessKey "A">
 <!ENTITY ignoreButton.label "Anwybyddu">
 <!ENTITY ignoreButton.accessKey "A">
-<!ENTITY ignoreAllButton.label "Anwybyddu Popeth">
+<!ENTITY ignoreAllButton.label "Anwybyddu'r Cyfan">
 <!ENTITY ignoreAllButton.accessKey "P">
 <!ENTITY replaceButton.label "Amnewid">
 <!ENTITY replaceButton.accessKey "m">

@@ -267,7 +267,7 @@
 <!ENTITY reorderAttachments.accesskey "a">
 <!ENTITY removeAllAttachments.label "Tynnu Pob Atodiad">
 <!ENTITY removeAllAttachments.accesskey "T">
-<!ENTITY selectAll.label "Dewis Popeth">
+<!ENTITY selectAll.label "Dewis y Cyfan">
 <!ENTITY selectAll.accesskey "D">
 <!ENTITY attachCloud.label "Filelink…">
 <!ENTITY attachCloud.accesskey "i">

@@ -13,7 +13,7 @@
 <!ENTITY clearTimeDuration.last2Hours     "Dwy Awr Olaf">
 <!ENTITY clearTimeDuration.last4Hours     "Pedair Awr Olaf">
 <!ENTITY clearTimeDuration.today          "Heddiw">
-<!ENTITY clearTimeDuration.everything     "Popeth">
+<!ENTITY clearTimeDuration.everything     "Y Cyfan">
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
 that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "">

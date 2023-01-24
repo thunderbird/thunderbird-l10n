@@ -13,7 +13,6 @@
 
 <!ENTITY calendar.today.button.label          "Heddiw">
 <!ENTITY calendar.tomorrow.button.label       "Yfory">
-<!ENTITY calendar.upcoming.button.label       "I Ddod">
 
 <!ENTITY calendar.events.filter.all.label "Pob Digwyddiad">
 <!ENTITY calendar.events.filter.today.label "Digwyddiadau Heddiw">
@@ -86,13 +85,12 @@
 
 <!ENTITY calendar.newevent.button.label         "Digwyddiad Newydd" >
 <!ENTITY calendar.newtask.button.label          "Tasg Newydd" >
-<!ENTITY calendar.print.button.label            "Argraffu" >
-<!ENTITY calendar.print.button.accesskey        "A">
 
 <!ENTITY calendar.day.button.label              "Diwrnod" >
 <!ENTITY calendar.week.button.label             "Wythnos" >
 <!ENTITY calendar.month.button.label            "Mis" >
 <!ENTITY calendar.multiweek.button.label        "Wythnosau" >
+
 <!ENTITY calendar.onlyworkday.checkbox.label    "Dyddiau'r wythnos waith yn unig" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "w" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Tasgau mewn Golwg" >
@@ -108,7 +106,7 @@
 <!ENTITY calendar.list.header.label                 "Calendr">
 
 <!ENTITY calendar.task.filter.title.label           "Dangos">
-<!ENTITY calendar.task.filter.all.label             "Popeth">
+<!ENTITY calendar.task.filter.all.label             "Y Cyfan">
 <!ENTITY calendar.task.filter.all.accesskey         "P">
 <!ENTITY calendar.task.filter.today.label           "Heddiw">
 <!ENTITY calendar.task.filter.today.accesskey       "H">
@@ -325,10 +323,10 @@
 <!ENTITY calendar.alarm.details.label               "Manylion…" >
 
 <!ENTITY calendar.alarm.snoozefor.label             "Cysgu am" >
-<!ENTITY calendar.alarm.snoozeallfor.label          "Cysgu Popeth am" >
+<!ENTITY calendar.alarm.snoozeallfor.label          "Cysgu'r Cyfan am" >
 <!ENTITY calendar.alarm.title.label                 "Atgoffwyr Calendr" >
 <!ENTITY calendar.alarm.dismiss.label               "Cau" >
-<!ENTITY calendar.alarm.dismissall.label            "Cau Popeth" >
+<!ENTITY calendar.alarm.dismissall.label            "Cau'r Cyfan" >
 
 <!ENTITY calendar.alarm.snooze.5minutes.label       "5 Munud" >
 <!ENTITY calendar.alarm.snooze.10minutes.label      "10 Munud" >
@@ -372,27 +370,8 @@
 <!ENTITY calendar.publish.publish.button      "Cyhoeddi">
 <!ENTITY calendar.publish.close.button      "Cau">
 
-<!ENTITY calendar.publish.example.url.description   "Rhywbeth fel http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Dewis Calendr">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Argraffu Calendr">
-<!ENTITY calendar.print.title.label "Teitl:">
-<!ENTITY calendar.print.layout.label "Cynllun:">
-<!ENTITY calendar.print.range.label "Beth i Argraffu">
-<!ENTITY calendar.print.currentView2.label "Golwg gyfredol">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Digwyddiadau/tasgau dewiswyd">
-<!ENTITY calendar.print.tasks.label "Tasgau">
-<!ENTITY calendar.print.events.label "Digwyddiadau">
-<!ENTITY calendar.print.custom.label "Ystod dyddiadau cyfaddas:">
-<!ENTITY calendar.print.from.label "Oddi wrth:">
-<!ENTITY calendar.print.to.label "Hyd:">
-<!ENTITY calendar.print.settingsGroup.label "Gosodiadau Argraffu">
-<!ENTITY calendar.print.optionsGroup.label "Dewisiadau">
-<!ENTITY calendar.print.taskswithnoduedate.label "Tasgau heb ddyddiad cwblhau">
-<!ENTITY calendar.print.completedtasks.label "Tasgau wedi'u cwblhau">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Manylion…">

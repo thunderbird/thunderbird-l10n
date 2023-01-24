@@ -59,7 +59,7 @@
 <!ENTITY otherActionsOpenInNewTab1.accesskey "T">
 <!ENTITY markAsReadMenuItem1.label "Marcio wedi Darllen">
 <!ENTITY markAsReadMenuItem1.accesskey "D">
-<!ENTITY markAsUnreadMenuItem1.label "Marcio heb Ddarllen">
+<!ENTITY markAsUnreadMenuItem1.label "Marcio heb Darllen">
 <!ENTITY markAsUnreadMenuItem1.accesskey "D">
 <!ENTITY saveAsMenuItem1.label "Cadw fel…">
 <!ENTITY saveAsMenuItem1.accesskey "C">
@@ -81,13 +81,13 @@
 <!ENTITY detachAttachmentCmd.accesskey    "D">
 <!ENTITY deleteAttachmentCmd.label    "Dileu">
 <!ENTITY deleteAttachmentCmd.accesskey    "l">
-<!ENTITY openAllAttachmentsCmd.label    "Agor Popeth…">
+<!ENTITY openAllAttachmentsCmd.label    "Agor y Cyfan…">
 <!ENTITY openAllAttachmentsCmd.accesskey    "A">
-<!ENTITY saveAllAttachmentsCmd.label    "Cadw Popeth…">
+<!ENTITY saveAllAttachmentsCmd.label    "Cadw'r Cyfan…">
 <!ENTITY saveAllAttachmentsCmd.accesskey    "P">
-<!ENTITY detachAllAttachmentsCmd.label    "Datod Popeth…">
+<!ENTITY detachAllAttachmentsCmd.label    "Datod y Cyfan…">
 <!ENTITY detachAllAttachmentsCmd.accesskey    "a">
-<!ENTITY deleteAllAttachmentsCmd.label    "Dileu Popeth…">
+<!ENTITY deleteAllAttachmentsCmd.label    "Dileu'r Cyfan…">
 <!ENTITY deleteAllAttachmentsCmd.accesskey    "i">
 
 <!ENTITY openAttachment.tooltip "Agor y ffeil atodol">

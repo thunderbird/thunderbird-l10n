@@ -11,7 +11,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 -->
 
 <!ENTITY importDialog.windowTitle "Mewnforio">
-<!ENTITY importAll.label          "Mewnforio Popeth">
+<!ENTITY importAll.label          "Mewnforio'r Cyfan">
 <!ENTITY importAll.accesskey      "P">
 <!ENTITY importMail.label         "E-bost">
 <!ENTITY importMail.accesskey     "E">
