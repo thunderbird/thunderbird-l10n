@@ -116,8 +116,8 @@ attachment-area-hide =
     .title = Fshiheni kuadratin e bashkëngjitjeve ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 drop-file-label-attachment =
     { $count ->
-        [one] Shtoje si Bashkëngjitje
-       *[other] Shtojini si Bashkëngjitje
+        [one] Shtoje si bashkëngjitje
+       *[other] Shtojini si bashkëngjitje
     }
 drop-file-label-inline =
     { $count ->
@@ -308,8 +308,8 @@ cloud-file-placeholder-intro = Kartela { $filename } qe bashkëngjitur si një l
 # used as a header to a list, hence the colon.
 cloud-file-count-header =
     { $count ->
-        [one] I kam ngjitur { $count } kartelë këtij email-i:
-       *[other] I kam ngjitur { $count } kartela këtij email-i:
+        [one] I kam lidhur { $count } kartelë këtij email-i:
+       *[other] I kam lidhur { $count } kartela këtij email-i:
     }
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
