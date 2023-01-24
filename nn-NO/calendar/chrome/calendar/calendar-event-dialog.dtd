@@ -82,7 +82,7 @@
     - menu item when editing events/tasks in a dialog window.
     - event.menu.item.saveandclose.tab.accesskey is used for "Save and Close"
     - when editing events/tasks in a tab. -->
-<!ENTITY  event.menu.item.saveandclose.label              "Lagra og lat att">
+<!ENTITY  event.menu.item.saveandclose.label              "Lagre og lat att">
 <!ENTITY  event.menu.item.saveandclose.accesskey          "r">
 <!ENTITY  event.menu.item.saveandclose.tab.accesskey      "z">
 
@@ -157,13 +157,13 @@
 
 <!-- Toolbar -->
 <!ENTITY  event.toolbar.save.label2                       "Lagra">
-<!ENTITY  event.toolbar.saveandclose.label                "Lagra og lat att">
+<!ENTITY  event.toolbar.saveandclose.label                "Lagre og lat att">
 <!ENTITY  event.toolbar.delete.label                      "Slett">
 <!ENTITY  event.toolbar.attendees.label                   "Inviter deltakarar">
 <!ENTITY  event.toolbar.privacy.label                     "Personvern">
 
 <!ENTITY  event.toolbar.save.tooltip2                     "Lagra">
-<!ENTITY  event.toolbar.saveandclose.tooltip              "Lagra og lat att">
+<!ENTITY  event.toolbar.saveandclose.tooltip              "Lagre og lat att">
 <!ENTITY  event.toolbar.delete.tooltip                    "Slett">
 <!ENTITY  event.toolbar.attendees.tooltip                 "Inviter deltakarar">
 <!ENTITY  event.toolbar.attachments.tooltip               "Nytt vedlegg">
@@ -405,8 +405,8 @@
 <!ENTITY read.only.link.label            "Relatert lenke">
 
 <!-- Summary dialog -->
-<!ENTITY summary.dialog.saveclose.label         "Lagra og lat att">
-<!ENTITY summary.dialog.saveclose.tooltiptext   "Lagra endringar og lat att vindauget utan å endra deltakingsstatus og utan å senda eit svar">
+<!ENTITY summary.dialog.saveclose.label         "Lagre og lat att">
+<!ENTITY summary.dialog.saveclose.tooltiptext   "Lagre endringar og lat att vindauget utan å endre deltakingsstatus og utan å sende eit svar">
 <!ENTITY summary.dialog.accept.label            "Aksepter">
 <!ENTITY summary.dialog.accept.tooltiptext      "Aksepter invitasjonen">
 <!ENTITY summary.dialog.tentative.label         "Med atterhald">
