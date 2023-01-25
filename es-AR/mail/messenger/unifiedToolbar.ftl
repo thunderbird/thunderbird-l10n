@@ -42,9 +42,28 @@ customize-button-style-text-only =
 customize-cancel = Cancelar
 customize-save = Guardar
 customize-unsaved-changes = Hay cambios no guardados en otros espacios
+customize-search-bar =
+    .label = Botones de la barra de búsqueda…
+customize-spaces-tabs =
+    .aria-label = Espacios
+customize-main-toolbar-target =
+    .aria-label = Barra de herramientas principal
+customize-palette-generic-title = Disponible para todos los espacios
+customize-palette-mail-specific-title = Disponible sólo para el espacio de correo
+customize-palette-addressbook-specific-title = Disponible sólo para el espacio de libreta de direcciones
+customize-palette-calendar-specific-title = Disponible sólo para el espacio de calendario
+customize-palette-tasks-specific-title = Disponible sólo para el espacio de tareas
+customize-palette-chat-specific-title = Disponible sólo para el espacio de chat
+customize-palette-settings-specific-title = Disponible sólo para el espacio de configuración
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Agregar a { $target }
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Eliminar
