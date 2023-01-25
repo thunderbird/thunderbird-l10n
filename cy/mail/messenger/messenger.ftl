@@ -114,7 +114,7 @@ mail-context-delete-messages =
     .label =
         { $count ->
             [zero] Dileu'r Negeseuon Hyn
-            [one] Dileu'r Neges Hwn
+            [one] Dileu'r Neges Hon
             [two] Dileu'r Negeseuon Hyn
             [few] Dileu'r Negeseuon Hyn
             [many] Dileu'r Negeseuon Hyn
