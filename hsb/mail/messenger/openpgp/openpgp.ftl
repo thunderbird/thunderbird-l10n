@@ -120,6 +120,9 @@ openpgp-key-man-discover-progress = Pyta so…
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
 openpgp-key-publish-ok = Zjawny kluč je so na „{ $keyserver }“ pósłał.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Njeje so poradźiło, waš zjawny kluč na „{ $keyserver }“ pósłać.
 openpgp-key-copy-key =
     .label = Zjawny kluč kopěrować
     .accesskey = Z
