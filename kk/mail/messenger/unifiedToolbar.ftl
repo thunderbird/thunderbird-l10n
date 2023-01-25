@@ -41,6 +41,8 @@ customize-button-style-text-only =
     .label = Тек мәтін
 customize-cancel = Бас тарту
 customize-save = Сақтау
+customize-search-bar =
+    .label = Іздеу панелінің батырмалары…
 customize-main-toolbar-target =
     .aria-label = Басты саймандар панелі
 
@@ -55,5 +57,7 @@ customize-palette-add-to =
 
 customize-target-forward =
     .label = Алға жылжыту
+customize-target-backward =
+    .label = Артқа жылжыту
 customize-target-remove =
     .label = Өшіру
