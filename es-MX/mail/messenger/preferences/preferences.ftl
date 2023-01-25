@@ -197,6 +197,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Mostrar siempre las barras de desplazamiento
     .accesskey = c
+window-layout-legend = Diseño de ventana
 system-integration-legend = Integración de sistema
 always-check-default =
     .label = Siempre verificar si { -brand-short-name } es el cliente de correo predeterminado al iniciar
