@@ -32,6 +32,7 @@ openpgp-broken-exchange-info = To je OpenPGP-powěsć, kotraž je so po zdaću p
 openpgp-broken-exchange-repair =
     .label = Powěsć porjedźić
 openpgp-broken-exchange-wait = Prošu čakajće…
+openpgp-has-nested-encrypted-parts = Tuta powěsć přidatne zaklučowane dźěle wobsahuje.
 openpgp-show-encrypted-parts = Dešifrować a pokazać
 openpgp-cannot-decrypt-because-mdc =
     To je zaklučowana powěsć, kotraž stary a napadliwy mechanizm wužiwa.
