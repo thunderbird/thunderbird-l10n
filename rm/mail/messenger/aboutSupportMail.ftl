@@ -23,3 +23,6 @@ libs-table-heading-loaded-version = Versiun utilisada
 libs-table-heading-path = Ordinatur
 libs-table-heading-status = Status
 libs-rnp-status-ok = OK
+libs-rnp-status-load-failed = Betg reussì da chargiar. OpenPGP na vegn betg a funcziunar.
+libs-rnp-status-incompatible = Versiun incumpatibla. OpenPGP na vegn betg a funcziunar.
+libs-rnp-status-unofficial = Versiun inuffiziala. OpenPGP na vegn eventualmain betg a funcziunar sco spetgà.
