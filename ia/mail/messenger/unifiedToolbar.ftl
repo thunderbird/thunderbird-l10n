@@ -29,6 +29,7 @@ customize-space-tasks = Activitates
 customize-space-chat = Chat
 customize-space-settings = Parametros
 customize-restore-default = Restaurar le parametros predefinite
+customize-button-style-label = Stylo de button:
 customize-button-style-icons-beside-text =
     .label = Icones al latere de texto
 customize-button-style-text-only =

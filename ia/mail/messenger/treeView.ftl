@@ -5,5 +5,7 @@
 
 ## Table
 
+tree-list-view-row-delete =
+    .title = Deler le rango actual
 tree-list-view-column-picker =
     .title = Elige le columnas a monstrar

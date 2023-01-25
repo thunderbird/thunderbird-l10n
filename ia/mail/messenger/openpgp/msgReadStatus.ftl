@@ -25,6 +25,7 @@ openpgp-uncertain-sig-with-date = Firma digital incerte - signate le { $date }
 openpgp-invalid-sig = Firma digital invalide
 openpgp-invalid-sig-with-date = Firma digital non valide - signate le { $date }
 openpgp-good-sig = Firma digital bon
+openpgp-good-sig-with-date = Firma digital valide - signate le { $date }
 openpgp-sig-uncertain-no-key = Iste message include una firma digital, ma il es incerte si illo es correcte. Pro verificar le firma, tu debe obtener un copia del clave public del signatario.
 openpgp-sig-uncertain-uid-mismatch = Iste message include una firma digital, ma un discordantia ha essite revelate: le message ha essite inviate per un adresse email que non concorda con le clave public del signatario.
 openpgp-sig-uncertain-not-accepted = Iste message include una firma digital, ma tu non ha ancora decidite se le clave del signatario es acceptabile pro te.
