@@ -5,6 +5,12 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Quadrato de selection pro eliger le rango actual
+    .title = Eliger le rango actual
+tree-list-view-row-deselect =
+    .alt = Quadrato de selection pro eliger le rango actual
+    .title = Deseliger le rango actual
 tree-list-view-row-delete =
     .title = Deler le rango actual
 tree-list-view-column-picker =
