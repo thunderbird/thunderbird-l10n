@@ -5,6 +5,12 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Casilla para alternar la selección de la fila actual
+    .title = Seleccionar la fila actual
+tree-list-view-row-deselect =
+    .alt = Casilla para alternar la selección de la fila actual
+    .title = Deseleccionar la fila actual
 tree-list-view-row-delete =
     .title = Borrar la fila actual
 tree-list-view-column-picker =
@@ -12,6 +18,18 @@ tree-list-view-column-picker =
 tree-list-view-row-thread =
     .alt = Indicador de hilo de mensajes
     .title = Este es un mensaje en hilo
+tree-list-view-row-flagged =
+    .alt = Indicador de mensaje destacado
+    .title = Mensaje destacado
+tree-list-view-row-flag =
+    .alt = Indicador de mensaje destacado
+    .title = Mensaje no destacado
 tree-list-view-row-attach =
     .alt = Indicador de adjunto
     .title = El mensaje contiene adjuntos
+tree-list-view-row-spam =
+    .alt = Indicador de estado de spam
+    .title = Mensaje marcado como spam
+tree-list-view-row-not-spam =
+    .alt = Indicador de estado de spam
+    .title = Mensaje no marcado como spam
