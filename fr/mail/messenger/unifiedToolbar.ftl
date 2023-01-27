@@ -26,11 +26,38 @@ customize-space-calendar = Agenda
 customize-space-tasks = Tâches
 customize-space-chat = Messagerie instantanée
 customize-space-settings = Paramètres
+customize-restore-default = Configuration par défaut
+customize-change-appearance = Modifier l’apparence...
+customize-button-style-label = Style de bouton :
 customize-button-style-icons-beside-text =
     .label = Texte à côté des icônes
+customize-button-style-icons-above-text =
+    .label = Icônes au-dessus du texte
+customize-button-style-icons-only =
+    .label = Icônes uniquement
+customize-button-style-text-only =
+    .label = Texte uniquement
+customize-cancel = Annuler
+customize-save = Enregistrer
+customize-unsaved-changes = Modifications non enregistrées dans d’autres espaces
+customize-search-bar =
+    .label = Rechercher des boutons de barre d’outils…
+customize-spaces-tabs =
+    .aria-label = Espaces
+customize-main-toolbar-target =
+    .aria-label = Barre d’outils principale
+customize-palette-generic-title = Disponible pour tous les espaces
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Ajouter à { $target }
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Faire avancer
+customize-target-backward =
+    .label = Faire reculer
