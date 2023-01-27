@@ -6,9 +6,11 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Esnek boşluk
+search-bar-label = Arama
 toolbar-write-message-label = Yeni ileti
 toolbar-write-message =
     .title = Yeni ileti yaz
+toolbar-move-to-label = Taşı
 toolbar-move-to =
     .title = Seçili iletiyi taşı
 toolbar-unifinder-label = Etkinlikleri bul
@@ -80,6 +82,7 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = İşaretle
 toolbar-mark-as =
     .title = İletileri işaretle
+toolbar-view-picker-label = Görüntüle
 toolbar-view-picker =
     .title = Geçerli klasörün görünümünü özelleştir
 toolbar-address-book-label = Adres defteri

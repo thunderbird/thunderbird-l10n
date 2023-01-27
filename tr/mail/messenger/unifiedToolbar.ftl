@@ -8,6 +8,8 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Arama
 search-bar-item =
     .label = Ara:
 search-bar-placeholder = Ara…
@@ -49,5 +51,9 @@ customize-main-toolbar-target =
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = İleri taşı
+customize-target-backward =
+    .label = Geri taşı
 customize-target-remove =
     .label = Kaldır
