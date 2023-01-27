@@ -8,6 +8,9 @@
 
 ## Search bar
 
+search-bar-item =
+    .label = Rechercher :
+search-bar-placeholder = Rechercher…
 
 ## Unified toolbar context menu
 
@@ -16,6 +19,7 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-title = Personnaliser les barres d’outils
 customize-space-mail = Courrier
 customize-space-addressbook = Carnet d’adresses
 customize-space-calendar = Agenda

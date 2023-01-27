@@ -725,6 +725,9 @@ sync-pane-header = Synchronisation
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = « { $userEmail } » n’est pas vérifiée.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Veuillez vous identifier pour vous reconnecter via « { $userEmail } »
 sync-pane-resend-verification = Renvoyer la vérification
 sync-pane-sign-in = Se connecter
 sync-pane-remove-account = Supprimer le compte
