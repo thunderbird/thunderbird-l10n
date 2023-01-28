@@ -41,10 +41,20 @@ customize-button-style-text-only =
     .label = Тек мәтін
 customize-cancel = Бас тарту
 customize-save = Сақтау
+customize-unsaved-changes = Басқа кеңістіктердегі сақталмаған өзгерістер
 customize-search-bar =
     .label = Іздеу панелінің батырмалары…
+customize-spaces-tabs =
+    .aria-label = Кеңістіктер
 customize-main-toolbar-target =
     .aria-label = Басты саймандар панелі
+customize-palette-generic-title = Барлық кеңістіктер үшін қолжетімді
+customize-palette-mail-specific-title = Тек Пошта кеңістігі үшін қолжетімді
+customize-palette-addressbook-specific-title = Тек Адрестік кітапша кеңістігі үшін қолжетімді
+customize-palette-calendar-specific-title = Тек Күнтізбе кеңістігі үшін қолжетімді
+customize-palette-tasks-specific-title = Тек Тарсырмалар кеңістігі үшін қолжетімді
+customize-palette-chat-specific-title = Тек Чат кеңістігі үшін қолжетімді
+customize-palette-settings-specific-title = Тек Баптаулар кеңістігі үшін қолжетімді
 
 ## Unified toolbar customization palette context menu
 
