@@ -202,3 +202,6 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indicador de nuevo mensaje
+    .title = Nuevo mensaje

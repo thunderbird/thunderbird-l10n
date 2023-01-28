@@ -32,6 +32,7 @@ openpgp-broken-exchange-info = Este es un mensaje de OpenPGP que aparentemente f
 openpgp-broken-exchange-repair =
     .label = Reparar mensaje
 openpgp-broken-exchange-wait = Por favor, espera…
+openpgp-has-nested-encrypted-parts = Este mensaje incluye partes cifradas adicionales.
 openpgp-show-encrypted-parts = Descifrar y mostrar
 openpgp-cannot-decrypt-because-mdc =
     Este es un mensaje cifrado que utiliza un mecanismo antiguo y vulnerable.
