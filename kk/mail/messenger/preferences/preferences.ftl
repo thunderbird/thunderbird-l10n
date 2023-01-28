@@ -404,7 +404,7 @@ condensed-addresses-label =
 ## Compose Tab
 
 forward-label =
-    .value = Хабарламаларды қайта бағдарлау:
+    .value = Хабарламаларды әрі қарай жіберу:
     .accesskey = й
 inline-label =
     .label = Хат бетінде

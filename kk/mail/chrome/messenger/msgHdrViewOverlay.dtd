@@ -33,8 +33,8 @@
 <!ENTITY hdrReplyListButton1.tooltip "Эл. поштаны тарату тізіміне жауап беру">
 <!ENTITY hdrFollowupButton1.label "Жаңалықтар тобына жауап жазу">
 <!ENTITY hdrFollowupButton1.tooltip "Жаңалықтар тобына жауап жазу">
-<!ENTITY hdrForwardButton1.label "Қайта бағдарлау">
-<!ENTITY hdrForwardButton1.tooltip "Бұл хабарламаны қайта бағдарлау">
+<!ENTITY hdrForwardButton1.label "Әрі қарай жіберу">
+<!ENTITY hdrForwardButton1.tooltip "Бұл хабарламаны әрі қарай жіберу">
 <!ENTITY hdrJunkButton1.label "Спам">
 <!ENTITY hdrJunkButton1.tooltip "Бұл хабарламаны қоқыс ретінде белгілеу">
 <!ENTITY hdrTrashButton1.label "Өшіру">
