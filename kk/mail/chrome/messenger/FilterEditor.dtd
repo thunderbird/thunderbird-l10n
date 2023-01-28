@@ -37,7 +37,7 @@
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Хабарламаны қайда жылжыту">
 <!ENTITY copyMessage.label "Хабарлама көшірмесін қайда жасау">
-<!ENTITY forwardTo.label "Хабарламаны қайда қайта бағдарлау">
+<!ENTITY forwardTo.label "Хабарламаны қайда әрі қарай жіберу">
 <!ENTITY replyWithTemplate.label "Үлгімен жауап беру">
 <!ENTITY markMessageRead.label "Оқылған ретінде белгілеу">
 <!ENTITY markMessageUnread.label "Оқылмаған ретінде белгілеу">
