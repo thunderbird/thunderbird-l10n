@@ -117,6 +117,10 @@ quick-filter-bar-gloda-upsell-line2 = Presionar ‘Intro’ de nuevo para contin
 
 threadpane-column-header-select =
     .title = Alternar seleccionar todos los mensajes
+threadpane-column-header-select-all =
+    .title = Seleccionar todos los mensajes
+threadpane-column-header-deselect-all =
+    .title = Deseleccionar todos los mensajes
 threadpane-column-label-select =
     .label = Seleccionar mensajes
 threadpane-column-label-thread =
