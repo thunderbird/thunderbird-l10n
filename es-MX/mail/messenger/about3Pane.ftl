@@ -205,3 +205,6 @@ threadpane-column-label-delete =
 threadpane-message-new =
     .alt = Indicador de nuevo mensaje
     .title = Nuevo mensaje
+threadpane-message-replied =
+    .alt = Indicador de respuesta
+    .title = Mensaje respondido
