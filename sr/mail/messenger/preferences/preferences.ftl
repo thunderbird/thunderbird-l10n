@@ -447,7 +447,7 @@ remove-cloud-account =
     .label = Уклони
     .accesskey = У
 find-cloud-providers =
-    .value = Пронађите више провајдера…
+    .value = Пронађите више добављача…
 cloud-account-description = Додај нову Filelink услугу складиштења
 
 ## Privacy Tab
