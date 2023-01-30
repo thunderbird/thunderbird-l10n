@@ -199,6 +199,8 @@ threadpane-column-label-delete =
 
 apply-columns-to-menu =
     .label = Zastosuj ustawienia do…
+apply-current-view-to-menu =
+    .label = Zastosuj ustawienia obecnego widoku do…
 apply-current-view-to-folder =
     .label = Folderu
 apply-current-view-to-folder-children =
@@ -206,9 +208,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Zastosować zmiany?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Czy zastosować ustawienia wyświetlania kolumn obecnego folderu do folderu { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Czy zastosować ustawienia wyświetlania kolumn obecnego folderu do folderu { $name } i folderów w nim zawartych?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Czy zastosować ustawienia widoku obecnego folderu do folderu { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Czy zastosować ustawienia widoku obecnego folderu do folderu { $name } i folderów w nim zawartych?
