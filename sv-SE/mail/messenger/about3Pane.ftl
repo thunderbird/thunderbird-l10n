@@ -236,6 +236,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Meddelande besvarat, vidarebefordrat och omdirigerat
 apply-columns-to-menu =
     .label = Använd kolumnerna på…
+apply-current-view-to-menu =
+    .label = Tillämpa nuvarande vy på…
 apply-current-view-to-folder =
     .label = Mapp…
 apply-current-view-to-folder-children =
@@ -243,12 +245,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Verkställ ändringar?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Använd aktuell mapps kolumner på { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Använd aktuell mapps kolumner på { $name } och dess undermappar?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Vill du använda den aktuella mappens vy på { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Vill du använda den aktuella mappens vy på { $name } och dess underordnade?
