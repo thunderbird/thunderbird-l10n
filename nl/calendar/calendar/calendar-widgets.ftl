@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Alle agenda’s zijn momenteel uitgesc
 calendar-notifications-label = Meldingen tonen voor aankomende afspraken
 calendar-add-notification-button =
     .label = Melding toevoegen
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = { $calendarName }-kalenderoptie
 calendar-import-new-calendar = Nieuwe agenda…
     .title = Een nieuwe agenda aanmaken of erop abonneren
 calendar-refresh-calendars =
