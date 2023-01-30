@@ -196,3 +196,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Bruk kolonnene på …
+apply-current-view-to-folder =
+    .label = Mappe …
+apply-current-view-to-folder-children =
+    .label = Mappe og undermapper …
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Bruk denne mappens kolonner på { $name } også?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Bruk denne mappens kolonnner på { $name } og dens undermapper?
