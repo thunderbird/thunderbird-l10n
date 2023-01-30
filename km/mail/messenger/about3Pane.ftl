@@ -178,3 +178,18 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Կիրառել սյունները՝
+apply-current-view-to-folder =
+    .label = Թղթապանակը...
+apply-current-view-to-folder-children =
+    .label = Թղթապանակը և մնացածը...
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = អនុវត្ត​ជួរឈរ​របស់​ថត​បច្ចុប្បន្ន​ទៅ { $name } ?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = អនុវត្ត​ជួរឈរ​របស់​ថត​​បច្ចុប្បន្ន​ទៅ { $name } និង​ថត​តូចៗ​របស់​វា​ឬ?
