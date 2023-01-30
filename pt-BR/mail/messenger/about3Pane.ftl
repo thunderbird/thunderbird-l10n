@@ -234,3 +234,14 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Indicador de respondida, encaminhada e redirecionada
     .title = Mensagem respondida, encaminhada e redirecionada
+apply-current-view-to-folder-children =
+    .label = Pasta e subpastas…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Aplicar as colunas da pasta atual em { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Aplicar as colunas da pasta atual em { $name } e suas filhas?
