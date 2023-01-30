@@ -234,3 +234,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Vísir fyrir svarað, áframsent og endurbeint
     .title = Skilaboðum svarað, áframsend og endurbeint
+apply-columns-to-menu =
+    .label = Beita dálkum á…
+apply-current-view-to-folder =
+    .label = Möppu…
+apply-current-view-to-folder-children =
+    .label = Möppu og undirmöppur…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Beita dálkum núverandi möppu á { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Beita dálkum núverandi möppu á { $name } og undirmöppur?
