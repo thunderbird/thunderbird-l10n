@@ -192,3 +192,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = 항목에 적용…
+apply-current-view-to-folder =
+    .label = 폴더…
+apply-current-view-to-folder-children =
+    .label = 폴더안 전체…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = 현재 폴더 항목을 { $name }에 적용하시겠습니까?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = 현재 폴더 항목을 { $name }와 이하 항목에 적용하시겠습니까?
