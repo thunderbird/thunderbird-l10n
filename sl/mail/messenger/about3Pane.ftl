@@ -202,6 +202,8 @@ threadpane-column-label-delete =
 
 apply-columns-to-menu =
     .label = Uporabi stolpce za …
+apply-current-view-to-menu =
+    .label = Uporabi trenutni pogled za …
 apply-current-view-to-folder =
     .label = Mapo …
 apply-current-view-to-folder-children =
@@ -209,9 +211,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Uveljavi spremembe?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Uporabi trenutne stolpce mape za { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Uporabi trenutne stolpce mape za { $name } in njene podrejene mape?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Uporabi pogled trenutne mape za { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Uporabi pogled trenutne mape za { $name } in njene podrejene?
