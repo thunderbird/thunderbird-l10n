@@ -216,6 +216,8 @@ threadpane-message-replied =
     .title = İleti yanıtlandı
 apply-columns-to-menu =
     .label = Sütunları uygula…
+apply-current-view-to-menu =
+    .label = Geçerli görünümü uygula…
 apply-current-view-to-folder =
     .label = Dizin…
 apply-current-view-to-folder-children =
@@ -223,6 +225,7 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Değişiklikler uygulansın mı?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Geçerli dizinin sütunları { $name } dizinine uygulansın mı?
