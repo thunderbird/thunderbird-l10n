@@ -236,6 +236,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Il messaggio ha ricevuto risposte, è stato inoltrato e reindirizzato
 apply-columns-to-menu =
     .label = Visualizza le stesse colonne anche per…
+apply-current-view-to-menu =
+    .label = Utilizza la vista corrente per…
 apply-current-view-to-folder =
     .label = Cartella…
 apply-current-view-to-folder-children =
@@ -249,3 +251,9 @@ apply-current-columns-to-folder-message = Applicare le colonne della cartella co
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Applicare le colonne della cartella corrente a { $name } e sottocartelle?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Utilizzare la visualizzazione della cartella corrente per { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Utilizzare la visualizzazione della cartella corrente per { $name } e sottocartelle?
