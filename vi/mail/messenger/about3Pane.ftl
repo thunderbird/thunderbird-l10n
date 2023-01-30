@@ -230,6 +230,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Thư đã trả lời, chuyển tiếp và chuyển hướng
 apply-columns-to-menu =
     .label = Áp dụng cột cho…
+apply-current-view-to-menu =
+    .label = Áp dụng chế độ xem hiện tại cho…
 apply-current-view-to-folder =
     .label = Thư mục…
 apply-current-view-to-folder-children =
@@ -237,9 +239,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Áp dụng các thay đổi?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Áp dụng các cột của thư mục hiện tại cho { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Áp dụng các cột của thư mục hiện tại cho { $name } và thư mục con của nó?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Áp dụng chế độ xem của thư mục hiện tại cho { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Áp dụng chế độ xem của thư mục hiện tại cho { $name } và các thư mục con của nó?
