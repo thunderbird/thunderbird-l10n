@@ -194,3 +194,18 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = طبّق الأعمدة على…
+apply-current-view-to-folder =
+    .label = مجلد…
+apply-current-view-to-folder-children =
+    .label = مجلد وكل ما بداخله…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = أتريد تطبيق أعمدة المجلد الحالي على { $name }؟
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = أتريد تطبيق أعمدة المجلد الحالي على { $name } وما بداخله؟
