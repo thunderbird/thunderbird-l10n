@@ -236,6 +236,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Хабарламаға жауап берілді, әрі қарай жіберілді және қайта бағытталды
 apply-columns-to-menu =
     .label = Бағандарды іске асыру…
+apply-current-view-to-menu =
+    .label = Ағымдағы көріністі келесіге іске асыру…
 apply-current-view-to-folder =
     .label = Бума…
 apply-current-view-to-folder-children =
@@ -243,9 +245,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Өзгерістерді іске асыру керек пе?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Ағымдағы бума бағандарын { $name } үшін іске асыру керек пе?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Ағымдағы бума бағандарын { $name } және оның ішкі бумалары үшін іске асыру керек пе?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Ағымдағы бума түрін { $name } үшін іске асыру керек пе?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Ағымдағы бума түрін { $name } және оның ішкі бумалары үшін іске асыру керек пе?
