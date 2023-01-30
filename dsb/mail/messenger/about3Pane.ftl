@@ -198,3 +198,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Słupy nałožyś na…
+apply-current-view-to-folder =
+    .label = Zarědnik…
+apply-current-view-to-folder-children =
+    .label = Zarědnik a jogo źiśi…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Słupy aktualnego zarědnika na { $name } nałožyś?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Słupy aktualnego zarědnika na { $name } a jogo źiśi nałožyś?
