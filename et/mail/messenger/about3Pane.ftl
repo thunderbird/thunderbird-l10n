@@ -196,3 +196,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Rakenda tulbad…
+apply-current-view-to-folder =
+    .label = Kaustale…
+apply-current-view-to-folder-children =
+    .label = Kaustale ja selle alamkaustadele…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Kas rakendada käesoleva kausta tulbad kaustale { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Kas rakendada käesoleva kausta tulbad kaustale { $name } ja selle alamkaustadele?
