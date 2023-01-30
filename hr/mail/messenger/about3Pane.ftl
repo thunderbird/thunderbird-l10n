@@ -199,6 +199,8 @@ threadpane-column-label-delete =
 
 apply-columns-to-menu =
     .label = Primijeni stupce na…
+apply-current-view-to-menu =
+    .label = Primijeni trenutni prikaz na…
 apply-current-view-to-folder =
     .label = Mapu…
 apply-current-view-to-folder-children =
@@ -206,9 +208,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Primijeniti promjene?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Primijeni stupce trenutne mape na { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Primijeni stupce trenutne mape na { $name } i njezine podmape?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Primjeni prikaz trenutne mape na { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Primjeni prikaz trenutne mape na { $name } i podmape?
