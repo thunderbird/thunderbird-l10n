@@ -197,3 +197,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Změnit sloupce v…
+apply-current-view-to-folder =
+    .label = Složka…
+apply-current-view-to-folder-children =
+    .label = Složka a její podsložky…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Použít sloupce z aktuální složky na složku { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Použít sloupce z aktuální složky na složku { $name } a její podsložky?
