@@ -216,6 +216,8 @@ threadpane-message-replied =
     .title = Erantzundako mezua
 apply-columns-to-menu =
     .label = Aplikatu zutabeak…
+apply-current-view-to-menu =
+    .label = Aplikatu uneko ikuspegia honi…
 apply-current-view-to-folder =
     .label = Karpetari…
 apply-current-view-to-folder-children =
@@ -223,9 +225,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Aplikatu aldaketak?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Aplikatu uneko karpetaren zutabeak { $name } karpetan?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Aplikatu uneko karpetaren zutabeak { $name } karpetan eta bere umeetan?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Aplikatu uneko karpeten ikuspegia { $name }(e)ri?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Aplikatu uneko karpeten ikuspegia { $name }(e)ri eta bere umeetan?
