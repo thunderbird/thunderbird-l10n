@@ -198,6 +198,8 @@ threadpane-column-label-delete =
 
 apply-columns-to-menu =
     .label = Apply columns to…
+apply-current-view-to-menu =
+    .label = Apply current view to…
 apply-current-view-to-folder =
     .label = Folder…
 apply-current-view-to-folder-children =
@@ -205,9 +207,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Apply Changes?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Apply the current folder’s columns to { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Apply the current folder’s columns to { $name } and its children?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Apply the current folder’s view to { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Apply the current folder’s view to { $name } and its children?
