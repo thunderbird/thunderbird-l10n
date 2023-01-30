@@ -191,3 +191,18 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Cuir colúin i bhfeidhm ar…
+apply-current-view-to-folder =
+    .label = Fillteán…
+apply-current-view-to-folder-children =
+    .label = Fillteán agus fofhillteáin…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = An bhfuil fonn ort colúin an fhillteáin reatha a chur i bhfeidhm ar { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = An bhfuil fonn ort colúin an fhillteáin reatha a chur i bhfeidhm ar { $name } agus an t-ábhar atá ann?
