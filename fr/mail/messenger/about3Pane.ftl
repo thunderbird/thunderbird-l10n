@@ -214,3 +214,9 @@ apply-current-columns-to-folder-message = Appliquer les paramètres de ce dossie
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Appliquer les paramètres de ce dossier à { $name } et ses sous-dossiers ?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Appliquer la vue de ce dossier à { $name } ?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Appliquer la vue de ce dossier à { $name } et à ses sous-dossiers ?
