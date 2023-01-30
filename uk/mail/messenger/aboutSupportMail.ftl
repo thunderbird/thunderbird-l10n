@@ -16,6 +16,7 @@ accounts-default = Типово?
 identity-name = Ідентифікація
 send-via-email = Надіслати електронною поштою
 app-basics-telemetry = Дані телеметрії
+app-basics-cache-use = Використання кешу
 mail-libs-title = Бібліотеки
 libs-table-heading-library = Бібліотека
 libs-table-heading-expected-version = Очікувана найнижча версія
