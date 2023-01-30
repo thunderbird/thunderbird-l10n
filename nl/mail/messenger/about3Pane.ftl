@@ -236,6 +236,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Bericht beantwoord, doorgestuurd en doorgeleid
 apply-columns-to-menu =
     .label = Kolommen toepassen op…
+apply-current-view-to-menu =
+    .label = Huidige weergave toepassen op…
 apply-current-view-to-folder =
     .label = Map…
 apply-current-view-to-folder-children =
@@ -243,9 +245,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Wijzigingen toepassen?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = De huidige mapkolommen toepassen op { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = De kolommen van de huidige map toepassen op { $name } en zijn submappen?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = De weergave van de huidige map toepassen op { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = De weergave van de huidige map toepassen op { $name } en de submappen?
