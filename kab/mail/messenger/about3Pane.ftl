@@ -198,6 +198,8 @@ threadpane-column-label-delete =
 
 apply-columns-to-menu =
     .label = Snes tigejda i…
+apply-current-view-to-menu =
+    .label = Snes taskant tamirant ɣef…
 apply-current-view-to-folder =
     .label = Akaram…
 apply-current-view-to-folder-children =
@@ -205,6 +207,7 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Snes isenfal?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Snes tigejdan ukaram amiran i { $name }?
