@@ -236,6 +236,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Message replicate, inultrate, e re-dirigite
 apply-columns-to-menu =
     .label = Applicar columnas a…
+apply-current-view-to-menu =
+    .label = Applicar le vista actual a…
 apply-current-view-to-folder =
     .label = Dossier…
 apply-current-view-to-folder-children =
@@ -243,9 +245,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Applicar modificationes?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Applicar le columnas del dossier actual a { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Applicar le columnas del dossier actual a { $name } e su subdossiers?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Applicar le vista del plica actual a { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Applicar le vista del plica actual a { $name } e a su sub-plicas?
