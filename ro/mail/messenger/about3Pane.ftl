@@ -197,3 +197,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Aplică coloanele la…
+apply-current-view-to-folder =
+    .label = Dosar…
+apply-current-view-to-folder-children =
+    .label = Dosar și subdosare…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Aplici coloanele dosarului actual la { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Aplici coloanele dosarului actual la { $name } și elementele conținute de acesta?
