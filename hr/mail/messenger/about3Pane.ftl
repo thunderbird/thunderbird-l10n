@@ -197,3 +197,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Primijeni stupce na…
+apply-current-view-to-folder =
+    .label = Mapu…
+apply-current-view-to-folder-children =
+    .label = Mapu i podmape…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Primijeni stupce trenutne mape na { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Primijeni stupce trenutne mape na { $name } i njezine podmape?
