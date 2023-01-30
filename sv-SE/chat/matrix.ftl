@@ -22,3 +22,12 @@ room-name-others =
         [one] { $participant } och { $otherParticipantCount } annan
        *[other] { $participant } och { $otherParticipantCount } andra
     }
+# Variables:
+#  $participant (String) - The name of one participant that isn't the user.
+#  $otherParticipantCount (Number) - The count of other participants apart from
+#    the user and $participant.
+room-name-others2 =
+    { $otherParticipantCount ->
+        [one] { $participant } och { $otherParticipantCount } annan
+       *[other] { $participant } och { $otherParticipantCount } andra
+    }

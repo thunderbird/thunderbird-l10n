@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Alla kalendrar är för närvarande in
 calendar-notifications-label = Visa aviseringar för kommande händelser
 calendar-add-notification-button =
     .label = Lägg till avisering
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = { $calendarName } kalenderalternativ
 calendar-import-new-calendar = Ny kalender…
     .title = Skapa eller prenumerera på en ny kalender
 calendar-refresh-calendars =
