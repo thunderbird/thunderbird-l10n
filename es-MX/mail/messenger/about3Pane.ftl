@@ -208,3 +208,18 @@ threadpane-message-new =
 threadpane-message-replied =
     .alt = Indicador de respuesta
     .title = Mensaje respondido
+apply-columns-to-menu =
+    .label = Aplicar columnas a…
+apply-current-view-to-folder =
+    .label = Carpeta…
+apply-current-view-to-folder-children =
+    .label = Carpeta y subcarpetas…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = ¿Aplicar las columnas de la carpeta actual a { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = ¿Aplicar las columnas de la carpeta actual a { $name } y sus subcarpetas?
