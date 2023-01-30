@@ -16,6 +16,7 @@ accounts-default = Standert?
 identity-name = Identiteit
 send-via-email = Ferstjoere fia e-mail
 app-basics-telemetry = Telemetry-gegevens
+app-basics-cache-use = Buffergebrûk
 mail-libs-title = Biblioteken
 libs-table-heading-library = Biblioteek
 libs-table-heading-expected-version = Ferwachte minimale ferzje

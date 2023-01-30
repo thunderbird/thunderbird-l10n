@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Alle aginda’s binne op dit stuit út
 calendar-notifications-label = Meldingen toane foar oankommende ôfspraken
 calendar-add-notification-button =
     .label = Melding tafoegje
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = { $calendarName }-kalinderopsje
 calendar-import-new-calendar = Nije aginda…
     .title = In nije aginda oanmeitsje of derop abonnearje
 calendar-refresh-calendars =
