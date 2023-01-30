@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Öll dagatöl eru óvirk sem stendur. 
 calendar-notifications-label = Birta tilkynningar um komandi atburði
 calendar-add-notification-button =
     .label = Bæta við tilkynningu
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Valkostur { $calendarName } dagatals
 calendar-import-new-calendar = Nýtt dagatal…
     .title = Búa til eða gerast áskrifandi að nýju dagatali
 calendar-refresh-calendars =

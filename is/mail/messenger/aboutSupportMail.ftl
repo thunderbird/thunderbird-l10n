@@ -16,6 +16,7 @@ accounts-default = Sjálfgefið?
 identity-name = Auðkenni
 send-via-email = Senda með tölvupósti
 app-basics-telemetry = Fjarmælingargögn
+app-basics-cache-use = Notkun á skyndiminni
 mail-libs-title = Aðgerðasöfn
 libs-table-heading-library = Aðgerðasafn
 libs-table-heading-expected-version = Bjóst við lágmarksútgáfu
