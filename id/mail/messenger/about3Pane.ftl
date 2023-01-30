@@ -192,3 +192,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Terapkan setelan kolom untuk…
+apply-current-view-to-folder =
+    .label = Folder…
+apply-current-view-to-folder-children =
+    .label = Folder dan folder di bawahnya…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Terapkan setelan kolom folder ini untuk { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Terapkan setelan kolom folder ini untuk { $name } dan folder di bawahnya?
