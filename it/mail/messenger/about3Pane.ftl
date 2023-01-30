@@ -234,3 +234,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Indicatore risposta, inltro e reindirizzamento
     .title = Il messaggio ha ricevuto risposte, è stato inoltrato e reindirizzato
+apply-columns-to-menu =
+    .label = Visualizza le stesse colonne anche per…
+apply-current-view-to-folder =
+    .label = Cartella…
+apply-current-view-to-folder-children =
+    .label = Cartella e sottocartelle…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Applicare le colonne della cartella corrente a { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Applicare le colonne della cartella corrente a { $name } e sottocartelle?
