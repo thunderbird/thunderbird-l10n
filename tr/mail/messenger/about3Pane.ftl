@@ -214,3 +214,18 @@ threadpane-message-new =
 threadpane-message-replied =
     .alt = Yanıtlandı göstergesi
     .title = İleti yanıtlandı
+apply-columns-to-menu =
+    .label = Sütunları uygula…
+apply-current-view-to-folder =
+    .label = Dizin…
+apply-current-view-to-folder-children =
+    .label = Dizin ve alt dizinlerine…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Geçerli dizinin sütunları { $name } dizinine uygulansın mı?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Geçerli dizinin sütunları { $name } ve alt dizinlerine uygulansın mı?
