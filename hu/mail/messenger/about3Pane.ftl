@@ -236,6 +236,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Üzenet megválaszolva, továbbítva és átirányítva
 apply-columns-to-menu =
     .label = Oszlopok alkalmazása…
+apply-current-view-to-menu =
+    .label = Jelenlegi nézet alkalmazása…
 apply-current-view-to-folder =
     .label = Mappa…
 apply-current-view-to-folder-children =
@@ -243,9 +245,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Alkalmazza a módosításokat?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Alkalmazza az aktuális mappa oszlopait erre: { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Alkalmazza az aktuális mappa oszlopait erre és gyermekeire: { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Alkalmazza a jelenlegi mappa nézetét a(z) { $name } mappára?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Alkalmazza az aktuális mappa nézetét a(z) { $name } mappára és a gyermekeire?
