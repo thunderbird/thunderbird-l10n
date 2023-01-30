@@ -236,6 +236,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Το μήνυμα απαντήθηκε, προωθήθηκε και ανακατευθύνθηκε
 apply-columns-to-menu =
     .label = Εφαρμογή στηλών σε…
+apply-current-view-to-menu =
+    .label = Εφαρμογή τρέχουσας προβολής σε…
 apply-current-view-to-folder =
     .label = Φάκελο…
 apply-current-view-to-folder-children =
@@ -243,3 +245,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Εφαρμογή των αλλαγών;
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Εφαρμογή στηλών τρέχοντος φακέλου στο «{ $name }»;
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Εφαρμογή στηλών τρέχοντος φακέλου στο «{ $name }» και τους υποφακέλους του;
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Εφαρμογή προβολής του τρέχοντος φακέλου στο «{ $name }»;
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Εφαρμογή προβολής του τρέχοντος φακέλου στο «{ $name }» και τα τέκνα του;
