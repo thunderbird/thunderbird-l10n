@@ -198,3 +198,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Käytä sarakkeita…
+apply-current-view-to-folder =
+    .label = Kansiolle…
+apply-current-view-to-folder-children =
+    .label = Kansiolle ja sen alikansioille…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Asetetaanko avoimen kansion sarakkeet kansiolle { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Asetetaanko avoimen kansion sarakkeet kansiolle { $name } ja sen alikansioille?
