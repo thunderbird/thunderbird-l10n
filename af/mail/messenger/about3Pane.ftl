@@ -117,3 +117,18 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Pas kolomme toe op…
+apply-current-view-to-folder =
+    .label = Vouer…
+apply-current-view-to-folder-children =
+    .label = Vouer en sy kinders…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Pas die huidige vouer se kolomme toe op { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Pas die huidige vouer se kolomme toe op { $name } en sy kinders?
