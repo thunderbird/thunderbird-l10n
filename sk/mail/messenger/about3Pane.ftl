@@ -235,3 +235,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Indikátor odpovede, preposlania a presmerovania
     .title = Na správu bolo odpovedané, bola odoslaná ďalej a presmerovaná
+apply-columns-to-menu =
+    .label = Použiť stĺpce pre…
+apply-current-view-to-folder =
+    .label = Priečinok…
+apply-current-view-to-folder-children =
+    .label = Priečinok a jeho podpriečinky…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Použiť nastavenia stĺpcov aktuálneho priečinka aj na priečinok { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Použiť nastavenia stĺpcov aktuálneho priečinka aj na priečinok { $name } a jeho podpriečinky?
