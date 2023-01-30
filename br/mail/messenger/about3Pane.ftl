@@ -191,3 +191,18 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Arloañ ar bannoù da…
+apply-current-view-to-folder =
+    .label = Teuliad…
+apply-current-view-to-folder-children =
+    .label = Teuliad hag isteuliadoù…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Arloañ bannoù an teuliad bremanel da { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Arloañ bannoù an teuliad bremanel da { $name } ha d'an isteuliadoù?
