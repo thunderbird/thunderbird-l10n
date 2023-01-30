@@ -234,3 +234,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Tregues për mesazh të cilit i është përgjigjur, i përcjellë dhe ridrejtuar
     .title = Mesazh të cilit i është përgjigjur, i përcjellë dhe i ridrejtuar
+apply-columns-to-menu =
+    .label = Zbatojini shtyllat te…
+apply-current-view-to-folder =
+    .label = Dosje…
+apply-current-view-to-folder-children =
+    .label = Dosje dhe pjellat e saj…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Të zbatohen shtyllat e dosjes së tanishme mbi { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Të zbatohen shtyllat e dosjes së tanishme mbi { $name } dhe pjellat e saj?
