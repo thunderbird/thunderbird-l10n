@@ -184,3 +184,9 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = להחיל שינויים של עמודות התיקייה הנוכחית אל { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = להחיל שינויים של עמודות התיקייה הנוכחית אל { $name } ותיקיות המשנה שלה?
