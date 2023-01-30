@@ -200,3 +200,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Uporabi stolpce za …
+apply-current-view-to-folder =
+    .label = Mapo …
+apply-current-view-to-folder-children =
+    .label = Mapo in njene podrejene mape …
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Uporabi trenutne stolpce mape za { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Uporabi trenutne stolpce mape za { $name } in njene podrejene mape?
