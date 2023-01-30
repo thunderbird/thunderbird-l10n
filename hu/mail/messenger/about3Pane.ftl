@@ -234,3 +234,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Megválaszolási, továbbítási és átirányítási jelző
     .title = Üzenet megválaszolva, továbbítva és átirányítva
+apply-columns-to-menu =
+    .label = Oszlopok alkalmazása…
+apply-current-view-to-folder =
+    .label = Mappa…
+apply-current-view-to-folder-children =
+    .label = Mappa és gyermekei…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Alkalmazza az aktuális mappa oszlopait erre: { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Alkalmazza az aktuális mappa oszlopait erre és gyermekeire: { $name }?
