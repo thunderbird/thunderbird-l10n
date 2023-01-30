@@ -175,3 +175,12 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = החל עמודות אל…
+apply-current-view-to-folder =
+    .label = תיקייה…
+apply-current-view-to-folder-children =
+    .label = תיקייה ותיקיות משנה…
+
+## Apply columns confirmation dialog
+
