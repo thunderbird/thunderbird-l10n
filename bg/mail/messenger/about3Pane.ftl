@@ -196,3 +196,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Прилагане на колоните към…
+apply-current-view-to-folder =
+    .label = Папка…
+apply-current-view-to-folder-children =
+    .label = Папка и нейните подпапки…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Прилагане на сегашните колони на папката към { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Прилагане на сегашните колони на папката към { $name } и подпапките й?
