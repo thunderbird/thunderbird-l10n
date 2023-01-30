@@ -220,6 +220,8 @@ threadpane-message-replied =
     .title = Powěsć z wotmołwu
 apply-columns-to-menu =
     .label = Špalty nałožić na…
+apply-current-view-to-menu =
+    .label = Aktualny napohład nałožić na …
 apply-current-view-to-folder =
     .label = Rjadowak…
 apply-current-view-to-folder-children =
@@ -227,9 +229,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Změny nałožić?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Špałty aktualneho rjadowaka na { $name } nałožić?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Špałty aktualneho rjadowaka na { $name } a jeho podrjadowaki nałožić?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Napohlad aktualneho rjadowaka na { $name } nałožić?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Napohlad aktualneho rjadowaka na { $name } a jeho dźěći nałožić?
