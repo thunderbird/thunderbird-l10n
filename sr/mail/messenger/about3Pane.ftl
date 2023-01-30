@@ -197,3 +197,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Примени колоне на…
+apply-current-view-to-folder =
+    .label = Фасциклу…
+apply-current-view-to-folder-children =
+    .label = Фасциклу и њен садржај…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Применити колоне тренутне фасцикле на { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Применити колоне тренутне фасцикле на { $name } и њену децу?
