@@ -197,3 +197,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Pritaikyti šį išdėstymą…
+apply-current-view-to-folder =
+    .label = Aplankui…
+apply-current-view-to-folder-children =
+    .label = Aplankui ir jo poaplankiams…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Ar pritaikyti šio aplanko stulpelių išdėstymą aplankui „{ $name }“?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Ar pritaikyti šio aplanko stulpelių išdėstymą aplankui „{ $name }“ ir visiems jo poaplankiams?
