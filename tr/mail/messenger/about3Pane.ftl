@@ -229,3 +229,9 @@ apply-current-columns-to-folder-message = Geçerli dizinin sütunları { $name }
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Geçerli dizinin sütunları { $name } ve alt dizinlerine uygulansın mı?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Geçerli dizinin görünümü { $name } dizinine uygulansın mı?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Geçerli dizinin görünümü { $name } ve alt dizinlerine uygulansın mı?
