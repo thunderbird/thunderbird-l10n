@@ -236,6 +236,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Berjocht beäntwurde, trochstjoerd en trochlaad
 apply-columns-to-menu =
     .label = Kolommen tapasse op…
+apply-current-view-to-menu =
+    .label = Aktuele werjefte tapasse op…
 apply-current-view-to-folder =
     .label = Map…
 apply-current-view-to-folder-children =
@@ -243,9 +245,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Wizigingen tapasse?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Brûk de aktuele mapkolommen ek foar { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = De aktuele mapkolommen brûke foar { $name } en syn submappen?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = De werjefte fan de aktuele map op { $name } tapasse?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = De werjefte fan de aktuele map op { $name } en de submappen tapasse?
