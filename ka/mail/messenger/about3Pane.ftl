@@ -196,3 +196,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = სვეტების ასახვა…
+apply-current-view-to-folder =
+    .label = საქაღლდეში…
+apply-current-view-to-folder-children =
+    .label = საქაღალდესა და მის ქვესაქაღალდეებში…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = გამოვიყენო მიმდინარე საქაღალდის სვეტები { $name } საქაღალდისთვის?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = გამოვიყენო მიმდინარე საქაღალდის სვეტები { $name } საქაღალდისა და მისი ქვესაქაღალდეებისთვისთვის?
