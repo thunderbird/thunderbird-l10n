@@ -194,6 +194,8 @@ threadpane-column-label-delete =
 
 apply-columns-to-menu =
     .label = 将列设定应用至…
+apply-current-view-to-menu =
+    .label = 将当前视图应用到…
 apply-current-view-to-folder =
     .label = 文件夹…
 apply-current-view-to-folder-children =
@@ -201,9 +203,13 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = 应用更改？
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = 将本文件夹的列设定应用至 { $name } 吗？
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = 将本文件夹的列设置应用至 { $name } 以及其子文件夹吗？
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = 要将当前文件夹的视图应用到 { $name } 吗?
