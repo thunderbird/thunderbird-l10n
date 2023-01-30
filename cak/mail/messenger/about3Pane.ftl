@@ -196,3 +196,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Tokisäx tem chi re…
+apply-current-view-to-folder =
+    .label = Yakwuj…
+apply-current-view-to-folder-children =
+    .label = Yakwuj chuqa' taq ralk'wal…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = ¿La ye'okisäx kan ri taq rutem yakwuj wakami pa { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = ¿La ye'okisäx kan ri taq rutem yakwuj wakami pa { $name } chuqa' ri taq ralk'wal?
