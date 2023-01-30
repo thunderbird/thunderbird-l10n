@@ -234,3 +234,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Beantwoord, doorgestuurd en doorgeleid-indicator
     .title = Bericht beantwoord, doorgestuurd en doorgeleid
+apply-columns-to-menu =
+    .label = Kolommen toepassen op…
+apply-current-view-to-folder =
+    .label = Map…
+apply-current-view-to-folder-children =
+    .label = Map en submappen…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = De huidige mapkolommen toepassen op { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = De kolommen van de huidige map toepassen op { $name } en zijn submappen?
