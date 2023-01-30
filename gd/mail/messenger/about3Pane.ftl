@@ -198,3 +198,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Cuir an sàs na colbhan airson…
+apply-current-view-to-folder =
+    .label = Pasgan…
+apply-current-view-to-folder-children =
+    .label = Am pasgan 's a chuid cloinne…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = A bheil thu airson colbhan a' phasgain làithrich a chur an sàs airson { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = A bheil thu airson colbhan a' phasgain làithrich a chur an sàs airson { $name } is a cuid cloinne?
