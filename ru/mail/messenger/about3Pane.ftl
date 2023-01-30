@@ -235,3 +235,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Индикатор ответа, пересылки и перенаправления
     .title = На сообщение был отправлен ответ и оно было переслано и перенаправлено
+apply-columns-to-menu =
+    .label = Применить набор колонок к…
+apply-current-view-to-folder =
+    .label = Папке…
+apply-current-view-to-folder-children =
+    .label = Папке и вложенным папкам…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Применить набор колонок текущей папки к { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Применить набор колонок текущей папки к { $name } и её вложенным папкам?
