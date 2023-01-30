@@ -198,6 +198,8 @@ threadpane-column-label-delete =
 
 apply-columns-to-menu =
     .label = Applitgar las colonnas a…
+apply-current-view-to-menu =
+    .label = Utilisar la vista actuala per…
 apply-current-view-to-folder =
     .label = Ordinatur
 apply-current-view-to-folder-children =
@@ -205,9 +207,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Applitgar las midadas?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Duain las configuraziuns da las colonnas dad ordinaturs actualas vegnir applitgadas a { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Duain las configuraziuns da las colonnas dad ordinaturs actualas vegnir applitgadas a { $name } e ses sutordinaturs?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Utilisar la vista dad ordinaturs actuala per { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Utilisar la vista dad ordinaturs actuala per { $name } e ses sutordinaturs?
