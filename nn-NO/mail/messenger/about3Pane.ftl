@@ -208,3 +208,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Indikator for svarte på, vidaresende og omdirigerte meldingar
     .title = Melding svart på, vidaresendt og omdirigert
+apply-columns-to-menu =
+    .label = Bruk same kolonnar i …
+apply-current-view-to-folder =
+    .label = Mappe …
+apply-current-view-to-folder-children =
+    .label = Mappe og undermapper …
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Bruka kolonnane åt denne mappa på { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Bruk kolonnane åt denne mappa på { $name } og den sine undermapper?
