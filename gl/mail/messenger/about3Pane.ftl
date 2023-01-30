@@ -196,3 +196,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Aplicar columnas a…
+apply-current-view-to-folder =
+    .label = Cartafol…
+apply-current-view-to-folder-children =
+    .label = O cartafol e os subcartafoles…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Aplicar as columnas do cartafol actual a { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Aplicar as columnas do cartafol actual a { $name } e os subcartafoles?
