@@ -196,3 +196,12 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Aplicar columnas a…
+apply-current-view-to-folder =
+    .label = Carpeta…
+apply-current-view-to-folder-children =
+    .label = Carpeta y sus subcarpetas…
+
+## Apply columns confirmation dialog
+
