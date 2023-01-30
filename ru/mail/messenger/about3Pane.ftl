@@ -237,6 +237,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = На сообщение был отправлен ответ и оно было переслано и перенаправлено
 apply-columns-to-menu =
     .label = Применить набор колонок к…
+apply-current-view-to-menu =
+    .label = Применить текущий вид к…
 apply-current-view-to-folder =
     .label = Папке…
 apply-current-view-to-folder-children =
@@ -244,9 +246,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Применить изменения?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Применить набор колонок текущей папки к { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Применить набор колонок текущей папки к { $name } и её вложенным папкам?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Применить вид текущей папки к { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Применить вид текущей папки к { $name } и вложенным в неё папкам?
