@@ -238,3 +238,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Dangosydd ateb, anfon ymlaen ac ailgyfeirio
     .title = Wedi ateb, anfon ymlaen, ac ailgyfeirio'r neges
+apply-columns-to-menu =
+    .label = Gosod y colofnau yn y…
+apply-current-view-to-folder =
+    .label = Ffolder…
+apply-current-view-to-folder-children =
+    .label = Ffolder a'i blant…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Gosod colofnau cyfredol y ffolder i { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Gosod colofnau'r ffolder gyfredol i { $name } a'i blant?
