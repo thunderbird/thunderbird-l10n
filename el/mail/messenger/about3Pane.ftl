@@ -234,3 +234,12 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Δείκτης απάντησης, προώθησης και ανακατεύθυνσης
     .title = Το μήνυμα απαντήθηκε, προωθήθηκε και ανακατευθύνθηκε
+apply-columns-to-menu =
+    .label = Εφαρμογή στηλών σε…
+apply-current-view-to-folder =
+    .label = Φάκελο…
+apply-current-view-to-folder-children =
+    .label = Φάκελο και υποφακέλους…
+
+## Apply columns confirmation dialog
+
