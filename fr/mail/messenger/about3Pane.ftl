@@ -196,3 +196,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Appliquer ces paramètres à…
+apply-current-view-to-folder =
+    .label = Dossier…
+apply-current-view-to-folder-children =
+    .label = Dossier et sous-dossiers…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Appliquer les paramètres de ce dossier à { $name } ?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Appliquer les paramètres de ce dossier à { $name } et ses sous-dossiers ?
