@@ -230,3 +230,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = 已回覆、轉寄並改寄圖示
     .title = 已回覆、轉寄並改寄的訊息
+apply-columns-to-menu =
+    .label = 套用欄位至…
+apply-current-view-to-folder =
+    .label = 資料夾…
+apply-current-view-to-folder-children =
+    .label = 資料夾與其子資料夾
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = 套用目前資料夾的欄位到 { $name }？
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = 套用目前資料夾的欄位到 { $name } 和它的子資料夾？
