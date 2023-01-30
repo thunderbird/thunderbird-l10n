@@ -234,3 +234,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Indicator de replicate, inultrate, e re-dirigite
     .title = Message replicate, inultrate, e re-dirigite
+apply-columns-to-menu =
+    .label = Applicar columnas a…
+apply-current-view-to-folder =
+    .label = Dossier…
+apply-current-view-to-folder-children =
+    .label = Dossier e subdossiers…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Applicar le columnas del dossier actual a { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Applicar le columnas del dossier actual a { $name } e su subdossiers?
