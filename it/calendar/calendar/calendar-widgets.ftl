@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Tutti i calendari sono attualmente dis
 calendar-notifications-label = Mostra le notifiche per gli eventi futuri
 calendar-add-notification-button =
     .label = Aggiungi notifica
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = { $calendarName } opzione calendario
 calendar-import-new-calendar = Nuovo calendario…
     .title = Crea o iscriviti a un nuovo calendario
 calendar-refresh-calendars =

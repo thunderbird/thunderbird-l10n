@@ -2,7 +2,4 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-recurrence-preview-label = Anteprima
-calendar-recurrence-next = Mese successivo
-calendar-recurrence-previous = Mese precedente
-calendar-recurrence-today = Oggi
+moz-support-link-text = Ulteriori informazioni
