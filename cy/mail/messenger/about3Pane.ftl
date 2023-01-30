@@ -240,6 +240,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Wedi ateb, anfon ymlaen, ac ailgyfeirio'r neges
 apply-columns-to-menu =
     .label = Gosod y colofnau yn y…
+apply-current-view-to-menu =
+    .label = Gosod yr olwg gyfredol i…
 apply-current-view-to-folder =
     .label = Ffolder…
 apply-current-view-to-folder-children =
@@ -247,9 +249,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Gosod y Newidiadau?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Gosod colofnau cyfredol y ffolder i { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Gosod colofnau'r ffolder gyfredol i { $name } a'i blant?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Gosod golwg y ffolder gyfredol i { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Gosod golwg y ffolder gyfredol i { $name } a'i phlant?
