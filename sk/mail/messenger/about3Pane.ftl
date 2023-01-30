@@ -237,6 +237,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Na správu bolo odpovedané, bola odoslaná ďalej a presmerovaná
 apply-columns-to-menu =
     .label = Použiť stĺpce pre…
+apply-current-view-to-menu =
+    .label = Použiť aktuálne zobrazenie na…
 apply-current-view-to-folder =
     .label = Priečinok…
 apply-current-view-to-folder-children =
@@ -244,9 +246,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Použiť zmeny?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Použiť nastavenia stĺpcov aktuálneho priečinka aj na priečinok { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Použiť nastavenia stĺpcov aktuálneho priečinka aj na priečinok { $name } a jeho podpriečinky?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Použiť nastavenie zobrazenia aktuálneho priečinka aj na priečinok { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Použiť nastavenie zobrazenia aktuálneho priečinka aj na priečinok { $name } a jeho podpriečinky?
