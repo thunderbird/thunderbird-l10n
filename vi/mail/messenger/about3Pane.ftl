@@ -228,3 +228,18 @@ threadpane-message-forwarded-redirected =
 threadpane-message-replied-forwarded-redirected =
     .alt = Chỉ báo đã trả lời, chuyển tiếp và chuyển hướng
     .title = Thư đã trả lời, chuyển tiếp và chuyển hướng
+apply-columns-to-menu =
+    .label = Áp dụng cột cho…
+apply-current-view-to-folder =
+    .label = Thư mục…
+apply-current-view-to-folder-children =
+    .label = Thư mục và thư mục con của nó…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Áp dụng các cột của thư mục hiện tại cho { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Áp dụng các cột của thư mục hiện tại cho { $name } và thư mục con của nó?
