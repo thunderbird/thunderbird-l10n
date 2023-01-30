@@ -189,3 +189,18 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Primijeni kolone na…
+apply-current-view-to-folder =
+    .label = Direktorij…
+apply-current-view-to-folder-children =
+    .label = Direktorije i poddirektorije…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Primijeni kolone trenutnog direktorija na { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Primijeni kolone trenutnog direktorija na { $name } i njegove poddirektorije?
