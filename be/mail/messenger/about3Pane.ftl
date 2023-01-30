@@ -189,3 +189,18 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Ужыць слупкі…
+apply-current-view-to-folder =
+    .label = Папка…
+apply-current-view-to-folder-children =
+    .label = Папка і яе нашчадкі…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Ужыць гэтыя слупкі папак для { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Ужыць гэтыя слупкі папак для { $name } і яе нашчадкаў?
