@@ -249,3 +249,6 @@ apply-current-columns-to-folder-message = Använd aktuell mapps kolumner på { $
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Använd aktuell mapps kolumner på { $name } och dess undermappar?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Vill du använda den aktuella mappens vy på { $name } och dess underordnade?
