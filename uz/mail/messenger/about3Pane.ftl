@@ -188,3 +188,18 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Ustunlarni qoʻllash…
+apply-current-view-to-folder =
+    .label = &Jild…
+apply-current-view-to-folder-children =
+    .label = Jild va ichidagilar…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Joriy jildning ustunlari { $name }’ga qo‘llansinmi?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Joriy jildning ustunlari { $name } va ichidagilarga qo‘llansinmi?
