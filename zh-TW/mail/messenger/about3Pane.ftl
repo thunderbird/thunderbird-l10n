@@ -232,6 +232,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = 已回覆、轉寄並改寄的訊息
 apply-columns-to-menu =
     .label = 套用欄位至…
+apply-current-view-to-menu =
+    .label = 將目前畫面套用到…
 apply-current-view-to-folder =
     .label = 資料夾…
 apply-current-view-to-folder-children =
@@ -239,9 +241,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = 確定要套用變更嗎？
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = 套用目前資料夾的欄位到 { $name }？
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = 套用目前資料夾的欄位到 { $name } 和它的子資料夾？
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = 確定要將目前信件匣的畫面套用到 { $name } 嗎？
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = 確定要將目前信件匣的畫面套用到 { $name } 與其子信件匣嗎？
