@@ -184,3 +184,18 @@ threadpane-column-label-id =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Terap lajur ke…
+apply-current-view-to-folder =
+    .label = Folder…
+apply-current-view-to-folder-children =
+    .label = Folder dan anak folder…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Terapkan lajur folder semasa ke { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Terapkan lajur folder semasa ke { $name } dan folder di dalamnya?
