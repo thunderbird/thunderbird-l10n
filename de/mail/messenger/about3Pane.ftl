@@ -196,3 +196,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Spalteneinstellungen übernehmen für…
+apply-current-view-to-folder =
+    .label = Ordner…
+apply-current-view-to-folder-children =
+    .label = Ordner und alle Unterordner…
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Sollen die Spalteneinstellungen des aktuellen Ordners für "{ $name }" übernommen werden?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Sollen die Spalteneinstellungen des aktuellen Ordners für "{ $name }" und alle Unterordner übernommen werden?
