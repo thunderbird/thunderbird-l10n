@@ -236,6 +236,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Skilaboðum svarað, áframsend og endurbeint
 apply-columns-to-menu =
     .label = Beita dálkum á…
+apply-current-view-to-menu =
+    .label = Beita núverandi sýn á...
 apply-current-view-to-folder =
     .label = Möppu…
 apply-current-view-to-folder-children =
@@ -243,9 +245,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Virkja breytingar?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Beita dálkum núverandi möppu á { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Beita dálkum núverandi möppu á { $name } og undirmöppur?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Viltu nota sýn núverandi möppu í { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Viltu nota sýn núverandi möppu í { $name } og afleiður hennar?
