@@ -196,3 +196,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+apply-columns-to-menu =
+    .label = Կիրառել սյունները՝
+apply-current-view-to-folder =
+    .label = Թղթապանակ…
+apply-current-view-to-folder-children =
+    .label = Թղթապանակը և մնացածը...
+
+## Apply columns confirmation dialog
+
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին։
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին և մնացածին։
