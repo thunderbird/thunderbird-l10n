@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Všetky kalendáre sú v súčasnosti 
 calendar-notifications-label = Zobrazovať upozornenia na nadchádzajúce udalosti
 calendar-add-notification-button =
     .label = Pridať upozornenie
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Predvoľba kalendára { $calendarName }
 calendar-import-new-calendar = Nový kalendár…
     .title = Vytvorte alebo sa prihláste na odber nového kalendára
 calendar-refresh-calendars =

@@ -23,3 +23,14 @@ room-name-others =
         [few] { $participant } a { $otherParticipantCount } ďalší
        *[other] { $participant } a { $otherParticipantCount } ďalších
     }
+# Variables:
+#  $participant (String) - The name of one participant that isn't the user.
+#  $otherParticipantCount (Number) - The count of other participants apart from
+#    the user and $participant.
+room-name-others2 =
+    { $otherParticipantCount ->
+        [one] { $participant } a { $otherParticipantCount } ďalší
+        [few] { $participant } a { $otherParticipantCount } ďalší
+        [many] { $participant } a { $otherParticipantCount } ďalších
+       *[other] { $participant } a { $otherParticipantCount } ďalších
+    }
