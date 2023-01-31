@@ -10,7 +10,7 @@ calendar-add-notification-button =
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
-    .title = { $calendarName }-kalinderopsje
+    .title = { $calendarName }-agindaopsje
 calendar-import-new-calendar = Nije aginda…
     .title = In nije aginda oanmeitsje of derop abonnearje
 calendar-refresh-calendars =
