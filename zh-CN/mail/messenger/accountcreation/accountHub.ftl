@@ -1,0 +1,37 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## Header
+
+account-hub-brand = { -brand-full-name }
+account-hub-welcome-line = 欢迎使用 <span data-l10n-name="brand-name">{ -brand-full-name }</span>
+account-hub-title = 账户中心
+
+## Footer
+
+account-hub-release-notes = 发行说明
+account-hub-support = 支持
+account-hub-donate = 捐赠
+
+## Start page
+
+account-hub-email-button = 设置电子邮件帐户
+account-hub-new-email-button = 注册新的电子邮件地址
+account-hub-calendar-button = 设置日历
+account-hub-address-book-button = 设置地址簿
+account-hub-chat-button = 设置聊天
+account-hub-feed-button = 设置 RSS 提要
+account-hub-newsgroup-button = 设置新闻组
+account-hub-import-button = 导入配置文件
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = 登录以同步…
+
+## Email page
+
+account-hub-email-title = 设置您的电子邮件帐户
+account-hub-email-cancel-button = 取消
+account-hub-email-back-button = 后退
+account-hub-email-continue-button = 继续
+account-hub-email-confirm-button = 确认

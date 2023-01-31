@@ -14,7 +14,15 @@ accounts-conn-security = 连接安全性
 accounts-auth-method = 验证方式
 accounts-default = 默认值？
 identity-name = 身份
-
 send-via-email = 通过电子邮件发送
-
 app-basics-telemetry = 遥测数据
+mail-libs-title = 库
+libs-table-heading-library = 库
+libs-table-heading-expected-version = 可用的最低版本
+libs-table-heading-loaded-version = 目前使用的版本
+libs-table-heading-path = 路径
+libs-table-heading-status = 状态
+libs-rnp-status-ok = 确定
+libs-rnp-status-load-failed = 加载失败。 OpenPGP 将无法工作。
+libs-rnp-status-incompatible = 版本不兼容。 OpenPGP 将无法工作。
+libs-rnp-status-unofficial = 非官方版本。 OpenPGP 可能无法按预期工作。
