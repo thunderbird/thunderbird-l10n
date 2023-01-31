@@ -7,12 +7,23 @@ calendar-deactivated-notification-tasks = Vsi koledarji so trenutno onemogočeni
 calendar-notifications-label = Prikazuj obvestila o prihajajočih dogodkih
 calendar-add-notification-button =
     .label = Dodaj obvestilo
+
+## Side panel
+
+calendar-list-header = Koledarji
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Možnost koledarja { $calendarName }
 calendar-import-new-calendar = Nov koledar …
     .title = Ustvarite ali se naročite na nov koledar
 calendar-refresh-calendars =
     .title = Ponovno naloži vse koledarje in sinhroniziraj spremembe
 calendar-new-event-primary-button = Nov dogodek
 calendar-new-task-primary-button = Novo opravilo
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Prejšnji dan
     .accesskey = P
