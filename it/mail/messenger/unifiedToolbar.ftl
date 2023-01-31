@@ -17,7 +17,7 @@ search-bar-placeholder = Cerca…
 # The key after the control modifier should match the key from quickSearchCmd.key
 # in messenger.dtd.
 search-bar-placeholder-with-key =
-    { PIATTAFORMA() ->
+    { PLATFORM() ->
         [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
        *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
     }
