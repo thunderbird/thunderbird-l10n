@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Tote le agendas es actualmente disacti
 calendar-notifications-label = Monstrar le notificationes pro eventos eveniente
 calendar-add-notification-button =
     .label = Adder notification
+
+## Side panel
+
+calendar-list-header = Agendas
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +21,9 @@ calendar-refresh-calendars =
     .title = Recargar tote agendas e synchronisar cambiamentos
 calendar-new-event-primary-button = Nove evento
 calendar-new-task-primary-button = Nove activitate
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Die previe
     .accesskey = p
