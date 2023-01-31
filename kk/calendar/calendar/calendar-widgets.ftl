@@ -7,12 +7,23 @@ calendar-deactivated-notification-tasks = Барлық күнтізбелер қ
 calendar-notifications-label = Алдағы оқиғалар туралы ескертулерді көрсету
 calendar-add-notification-button =
     .label = Ескертуді қосу
+
+## Side panel
+
+calendar-list-header = Күнтізбелер
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = { $calendarName } күнтізбе опциясы
 calendar-import-new-calendar = Жаңа күнтізбе…
     .title = Жаңа күнтізбені жасау немесе жазылу
 calendar-refresh-calendars =
     .title = Барлық күнтізбелерді қайта жүктеу және өзгерістерді синхрондау
 calendar-new-event-primary-button = Жаңа оқиға
 calendar-new-task-primary-button = Жаңа тапсырма
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Алдыңғы күн
     .accesskey = л

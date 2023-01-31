@@ -16,6 +16,7 @@ accounts-default = Бастапқы ма?
 identity-name = Жеке мәліметтер
 send-via-email = Эл. пошта арқылы жіберу
 app-basics-telemetry = Телеметрия мәліметтері
+app-basics-cache-use = Кэшті пайдалану
 mail-libs-title = Кітапханалар
 libs-table-heading-library = Кітапхана
 libs-table-heading-expected-version = Күтілген минималды нұсқасы
