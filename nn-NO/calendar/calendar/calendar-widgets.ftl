@@ -7,6 +7,15 @@ calendar-deactivated-notification-tasks = Alle kalendrar er akkurat no deaktiver
 calendar-notifications-label = Vis varsel for komande hendingar
 calendar-add-notification-button =
     .label = Legg til varsel
+
+## Side panel
+
+calendar-list-header = Kalendrar
+calendar-new-event-primary-button = Ny hending
+calendar-new-task-primary-button = Ny oppgåve
+
+## Calendar navigation
+
 calendar-view-toggle-day = Dag
     .title = Byt til dagvising
 calendar-view-toggle-week = Veke
