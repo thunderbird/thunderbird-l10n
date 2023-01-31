@@ -16,6 +16,7 @@ accounts-default = 預設值？
 identity-name = 身份識別
 send-via-email = 透過電子郵件寄出
 app-basics-telemetry = Telemetry 資料
+app-basics-cache-use = 快取用量
 mail-libs-title = 程式庫
 libs-table-heading-library = 程式庫
 libs-table-heading-expected-version = 預期應有的最小版本

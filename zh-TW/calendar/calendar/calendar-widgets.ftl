@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = 目前所有的行事曆皆已停用�
 calendar-notifications-label = 顯示即將到來的事件通知
 calendar-add-notification-button =
     .label = 新增通知
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = { $calendarName } 行事曆選項
 calendar-import-new-calendar = 開新行事曆…
     .title = 建立或訂閱新行事曆
 calendar-refresh-calendars =
