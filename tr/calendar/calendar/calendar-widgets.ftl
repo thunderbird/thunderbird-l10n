@@ -7,12 +7,22 @@ calendar-deactivated-notification-tasks = Şu anda tüm takvimler devre dışı.
 calendar-notifications-label = Yaklaşan etkinlikler için bildirim göster
 calendar-add-notification-button =
     .label = Bildirim ekle
+
+## Side panel
+
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = { $calendarName } takvim seçeneği
 calendar-import-new-calendar = Yeni takvim…
     .title = Yeni bir takvim oluştur veya takvime abone ol
 calendar-refresh-calendars =
     .title = Tüm takvimleri yeniden yükle ve değişiklikleri eşitle
 calendar-new-event-primary-button = Yeni etkinlik
 calendar-new-task-primary-button = Yeni görev
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Önceki gün
     .accesskey = c
