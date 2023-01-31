@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = 目前所有的行事曆皆已停用�
 calendar-notifications-label = 顯示即將到來的事件通知
 calendar-add-notification-button =
     .label = 新增通知
+
+## Side panel
+
+calendar-list-header = 行事曆
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +21,9 @@ calendar-refresh-calendars =
     .title = 重新載入所有行事曆並同步變更
 calendar-new-event-primary-button = 新增事件
 calendar-new-task-primary-button = 新增工作
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = 前一日
     .accesskey = s
