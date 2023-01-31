@@ -7,12 +7,19 @@ calendar-deactivated-notification-tasks = Jelenleg az összes naptár le van til
 calendar-notifications-label = Közelgő események értesítéseinek megtekintése
 calendar-add-notification-button =
     .label = Értesítés hozzáadása
+
+## Side panel
+
+calendar-list-header = Naptárak
 calendar-import-new-calendar = Új naptár…
     .title = Új naptár létrehozása vagy feliratkozás
 calendar-refresh-calendars =
     .title = Az összes naptár újratöltése és a módosítások szinkronizálása
 calendar-new-event-primary-button = Új esemény
 calendar-new-task-primary-button = Új feladat
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Előző nap
     .accesskey = n
