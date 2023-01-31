@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = All calendars are currently disabled. 
 calendar-notifications-label = Show notifications for upcoming events
 calendar-add-notification-button =
     .label = Add notification
+
+## Side panel
+
+calendar-list-header = Calendars
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +21,9 @@ calendar-refresh-calendars =
     .title = Reload all calendars and synchronise changes
 calendar-new-event-primary-button = New Event
 calendar-new-task-primary-button = New Task
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Previous Day
     .accesskey = s
