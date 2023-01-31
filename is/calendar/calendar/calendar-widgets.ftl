@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Öll dagatöl eru óvirk sem stendur. 
 calendar-notifications-label = Birta tilkynningar um komandi atburði
 calendar-add-notification-button =
     .label = Bæta við tilkynningu
+
+## Side panel
+
+calendar-list-header = Dagatöl
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +21,9 @@ calendar-refresh-calendars =
     .title = Endurnýja öll dagatöl og samstilla breytingar
 calendar-new-event-primary-button = Nýr atburður
 calendar-new-task-primary-button = Nýtt verkefni
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Fyrri dagur
     .accesskey = r
