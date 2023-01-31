@@ -16,6 +16,7 @@ accounts-default = Padrão?
 identity-name = Identidade
 send-via-email = Enviar por email
 app-basics-telemetry = Dados de telemetria
+app-basics-cache-use = Uso de cache
 mail-libs-title = Bibliotecas
 libs-table-heading-library = Biblioteca
 libs-table-heading-expected-version = Versão mínima esperada
