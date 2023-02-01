@@ -17,11 +17,11 @@
 <!ENTITY importFromOutlook.accesskey    "O">
 
 <!ENTITY importSource.title             "Flytja inn stillingar og póstmöppur">
-<!ENTITY importItems.title              "Hlutir til að flytja inn">
-<!ENTITY importItems.label              "Veldu hvaða hluti þú vilt flytja inn:">
+<!ENTITY importItems.title              "Atriði til að flytja inn">
+<!ENTITY importItems.label              "Veldu hvaða atriði þú vilt flytja inn:">
 
 <!ENTITY migrating.title                "Flyt inn…">
-<!ENTITY migrating.label                "Verið er að flytja inn eftirfarandi hluti…">
+<!ENTITY migrating.label                "Verið er að flytja inn eftirfarandi atriði…">
 
 <!ENTITY selectProfile.title            "Veldu notanda">
 <!ENTITY selectProfile.label            "Hægt er að flytja eftirfarandi notendasnið inn frá:">

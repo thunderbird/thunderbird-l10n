@@ -14,5 +14,5 @@
 <!ENTITY tabCSS.label                   "Innfellt snið">
 <!ENTITY tabJSE.label                   "JavaScript atvik">
 
-<!ENTITY editAttribute.label    "Smelltu á hlut hér fyrir ofan til að skoða hvaða gildi hann inniheldur">
+<!ENTITY editAttribute.label    "Smelltu á atriði hér fyrir ofan til að skoða hvaða gildi það inniheldur">
 <!ENTITY removeAttribute.label  "Fjarlægja">

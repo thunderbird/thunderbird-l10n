@@ -16,5 +16,5 @@
 <!ENTITY definitionList.value "Skilgreiningarlisti">
 <!ENTITY changeEntireListRadio.label "Breyta öllum listanum">
 <!ENTITY changeEntireListRadio.accessKey "B">
-<!ENTITY changeSelectedRadio.label "Breyta aðeins völdum hlutum">
+<!ENTITY changeSelectedRadio.label "Breyta aðeins völdum atriðum">
 <!ENTITY changeSelectedRadio.accessKey "i">
