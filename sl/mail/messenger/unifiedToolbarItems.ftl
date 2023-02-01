@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Prilagodljiv prostor
+search-bar-label = Išči
 toolbar-write-message-label = Sestavi
 toolbar-write-message =
     .title = Ustvari novo sporočilo
