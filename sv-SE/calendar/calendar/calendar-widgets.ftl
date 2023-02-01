@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Alla kalendrar är för närvarande in
 calendar-notifications-label = Visa aviseringar för kommande händelser
 calendar-add-notification-button =
     .label = Lägg till avisering
+
+## Side panel
+
+calendar-list-header = Kalendrar
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +21,9 @@ calendar-refresh-calendars =
     .title = Ladda om alla kalendrar och synkronisera ändringar
 calendar-new-event-primary-button = Ny händelse
 calendar-new-task-primary-button = Ny uppgift
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Föregående dag
     .accesskey = F
