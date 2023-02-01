@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Alle aginda’s binne op dit stuit út
 calendar-notifications-label = Meldingen toane foar oankommende ôfspraken
 calendar-add-notification-button =
     .label = Melding tafoegje
+
+## Side panel
+
+calendar-list-header = Aginda’s
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +21,9 @@ calendar-refresh-calendars =
     .title = Alle aginda’s opnij lade en wizigingen syngronisearje
 calendar-new-event-primary-button = Nij barren
 calendar-new-task-primary-button = Nije taak
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Foarige dei
     .accesskey = r
