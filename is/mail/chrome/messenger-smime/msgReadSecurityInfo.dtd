@@ -6,7 +6,7 @@
 
 <!ENTITY status.label "Öryggi pósts">
 <!ENTITY signatureCert.label "Skoða skilríki undirskriftar">
-<!ENTITY encryptionCert.label "Skoða dulritunarvottorð">
+<!ENTITY encryptionCert.label "Skoða dulritunarskilríki">
 
 <!ENTITY signer.name "Undirritað:">
 <!ENTITY recipient.name "Dulkóðað fyrir:">

@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Bæta við OpenSearch þjónustuveitu
 add-opensearch-provider-text = Settu inn slóð OpenSearch þjónustuveitunnar sem á að bæta við. Notaðu annaðhvort beina vefslóð OpenSearch lýsiskránnar eða vefslóð þar sem hægt er að finna hana sjálfvirkt.
 adding-opensearch-provider-failed-title = Mistókst að bæta við OpenSearch þjónustuveitu
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Gat ekki bætt við OpenSearch þjónustu fyrir { $url }.
 minimize-to-tray-label =
     .label = Þegar { -brand-short-name } er lágmarkað skal færa það í kerfisbakkann
@@ -602,7 +604,7 @@ antivirus-description = { -brand-short-name } gerir vírusvörnum kleyft að ath
 antivirus-label =
     .label = Leyfa vírusvörn að setja einstaka innkomna pósta í sóttkví
     .accesskey = L
-certificate-description = Þegar netþjónn biður um mitt skilríki:
+certificate-description = Þegar netþjónn biður um persónuleg skilríki mín:
 certificate-auto =
     .label = Velja eitt sjálfkrafa
     .accesskey = V
