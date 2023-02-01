@@ -13,6 +13,10 @@ account-setup-title = ตั้งค่าที่อยู่อีเมล�
 # Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
 account-setup-name-input =
     .placeholder = สมชาย ใจดี
+account-setup-email-warning-icon =
+    .title = ที่อยู่อีเมลไม่ถูกต้อง
+account-setup-password-toggle-hide =
+    .title = ซ่อนรหัสผ่าน
 
 ## Action buttons
 
