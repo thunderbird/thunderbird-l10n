@@ -8,6 +8,15 @@
 
 ## Search bar
 
+search-bar-placeholder = Išči …
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
