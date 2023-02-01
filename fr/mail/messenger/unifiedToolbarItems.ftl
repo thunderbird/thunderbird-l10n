@@ -6,17 +6,25 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Espace flexible
+search-bar-label = Rechercher
 toolbar-write-message-label = Écrire
 toolbar-write-message =
     .title = Créer un nouveau message
+toolbar-move-to-label = Déplacer vers
+toolbar-move-to =
+    .title = Déplacer le message sélectionné
 toolbar-unifinder-label = Recherche d’évènements
 toolbar-unifinder =
     .title = Afficher/Masquer le panneau de recherche d’évènements
 toolbar-folder-location-label = Emplacement du dossier
+toolbar-folder-location =
+    .title = Aller au dossier
 toolbar-edit-event-label = Modifier
 toolbar-edit-event =
     .title = Modifier la tâche ou l’évènement sélectionné
 toolbar-get-messages-label = Relever
+toolbar-get-messages =
+    .title = Récupérer les nouveaux messages de tous les comptes
 toolbar-reply-label = Répondre
 toolbar-reply =
     .title = Répondre au message
@@ -74,6 +82,7 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Marquer
 toolbar-mark-as =
     .title = Marquer les messages
+toolbar-view-picker-label = Afficher
 toolbar-address-book =
     .title = Ouvrir le carnet d’adresses
 toolbar-chat-label = Messagerie instantanée

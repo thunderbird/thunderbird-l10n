@@ -7,18 +7,32 @@ calendar-deactivated-notification-tasks = Tous les agendas sont actuellement dé
 calendar-notifications-label = Afficher les notifications pour les évènements à venir
 calendar-add-notification-button =
     .label = Ajouter une notification
+
+## Side panel
+
+calendar-list-header = Agendas
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Options de l’agenda { $calendarName }
 calendar-import-new-calendar = Nouvel agenda…
     .title = Créer ou s’abonner à un nouvel agenda
 calendar-refresh-calendars =
     .title = Actualiser tous les agendas et synchroniser les changements
 calendar-new-event-primary-button = Nouvel évènement
 calendar-new-task-primary-button = Nouvelle tâche
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Jour précédent
     .accesskey = r
 calendar-nav-button-prev-tooltip-week =
     .title = Semaine précédente
     .accesskey = r
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Semaine précédente
+    .accesskey = p
 calendar-nav-button-prev-tooltip-month =
     .title = Mois précédent
     .accesskey = r

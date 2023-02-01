@@ -47,6 +47,12 @@ customize-spaces-tabs =
 customize-main-toolbar-target =
     .aria-label = Barre d’outils principale
 customize-palette-generic-title = Disponible pour tous les espaces
+customize-palette-mail-specific-title = Disponible uniquement pour l’espace Courrier
+customize-palette-addressbook-specific-title = Disponible uniquement pour l’espace Carnet d’adresses
+customize-palette-calendar-specific-title = Disponible uniquement pour l’espace Agenda
+customize-palette-tasks-specific-title = Disponible uniquement pour l’espace Tâches
+customize-palette-chat-specific-title = Disponible uniquement pour l’espace Messagerie instantanée
+customize-palette-settings-specific-title = Disponible uniquement pour l’espace Paramètres
 
 ## Unified toolbar customization palette context menu
 
@@ -61,3 +67,5 @@ customize-target-forward =
     .label = Faire avancer
 customize-target-backward =
     .label = Faire reculer
+customize-target-remove =
+    .label = Supprimer
