@@ -41,7 +41,7 @@ composition-addressing-header = Póstföng
 privacy-main-header = Friðhelgi
 privacy-passwords-header = Lykilorð
 privacy-junk-header = Ruslpóstur
-collection-header = Gagnasöfnun { -brand-short-name } og notkun notendaupplýsinga
+collection-header = Söfnun og notkun gagna í { -brand-short-name }
 collection-description = Við reynum alltaf að bjóða upp á valkosti og söfnum aðeins þeim upplýsingum sem við þurfum til að endurbæta { -brand-short-name } fyrir alla. Við spyrjum alltaf um leyfi áður en við söfnum persónulegum upplýsingum.
 collection-privacy-notice = Meðferð persónuupplýsinga
 collection-health-report-telemetry-disabled = Þú leyfir { -vendor-short-name } ekki lengur að safna tækni- og samskiptagögnum. Öllum fyrri gögnum verður eytt innan 30 daga.
@@ -663,8 +663,8 @@ notification-empty =
 notification-type-label =
     .label =
         { PLATFORM() ->
-            [macos] Blikka táknmynd á verkefnastiku
-           *[other] Blikka táknmynd á verkfæraslá
+            [macos] Blikka táknmynd í verkefnastiku
+           *[other] Blikka táknmynd í verkefnastiku
         }
     .accesskey =
         { PLATFORM() ->
