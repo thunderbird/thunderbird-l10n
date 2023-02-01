@@ -82,7 +82,6 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Marquer
 toolbar-mark-as =
     .title = Marquer les messages
-toolbar-view-picker-label = Afficher
 toolbar-address-book =
     .title = Ouvrir le carnet d’adresses
 toolbar-chat-label = Messagerie instantanée
