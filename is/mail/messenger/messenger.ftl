@@ -55,7 +55,7 @@ folder-pane-header-label = Möppur
 ## Folder Toolbar Header Popup
 
 folder-toolbar-hide-toolbar-toolbarbutton =
-    .label = Fela verkfæraslá
+    .label = Fela verkfærastiku
     .accesskey = F
 show-all-folders-label =
     .label = Allar möppur
@@ -106,6 +106,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Endurbeina
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +171,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Fjarlægja { $name }?
 addon-removal-confirmation-button = Fjarlægja
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Fjarlægja { $name } sem og uppsetningu þess og gögn úr { -brand-short-name }?
 caret-browsing-prompt-title = Vafra með bendli
 caret-browsing-prompt-text = Með því að ýta á F7 er virkjað eða slökkt á að vafra með bendli. Þessi aðgerð bætir hreyfanlegum bendli inn á vefsíður, sem gerir þér kleift að velja texta með lyklaborðinu. Viltu virkja vafur með bendli?
@@ -183,19 +187,24 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Ekki stuðningur við svar
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Svarpóstfangið ({ $email }) virðist ekki vera pósttfang sem fylgst er með. Skilaboð á þetta póstfang verða líklega ekki lesin af neinum.
 no-reply-reply-anyway-button = Svara samt
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Ekki var hægt að afkóða { $failures } af { $total } skilaboðum og þau voru ekki afrituð.
 
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Svæða-verkfæraslá
-    .aria-label = Svæða-verkfæraslá
-    .aria-description = Lóðrétt verkfæraslá til að skipta á milli mismunandi svæða. Notaðu örvalyklana til að flakka á milli tiltækra hnappa.
+    .toolbarname = Svæða-verkfærastika
+    .aria-label = Svæða-verkfærastika
+    .aria-description = Lóðrétt verkfærastika til að skipta á milli mismunandi svæða. Notaðu örvalyklana til að flakka á milli tiltækra hnappa.
 spaces-toolbar-button-mail2 =
     .title = Póstur
 spaces-toolbar-button-address-book2 =
@@ -211,9 +220,9 @@ spaces-toolbar-button-overflow =
 spaces-toolbar-button-settings2 =
     .title = Stillingar
 spaces-toolbar-button-hide =
-    .title = Fela svæða-verkfæraslá
+    .title = Fela svæða-verkfærastiku
 spaces-toolbar-button-show =
-    .title = Birta svæða-verkfæraslá
+    .title = Birta svæða-verkfærastiku
 spaces-context-new-tab-item =
     .label = Opna í nýjum flipa
 spaces-context-new-window-item =
@@ -260,7 +269,7 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Sérsníða…
-spaces-customize-panel-title = Stillingar svæða-verkfæraslár
+spaces-customize-panel-title = Stillingar svæða-verkfærastiku
 spaces-customize-background-color = Bakgrunnslitur
 spaces-customize-icon-color = Litur á hnapp
 # The background color used on the buttons of the spaces toolbar when they are

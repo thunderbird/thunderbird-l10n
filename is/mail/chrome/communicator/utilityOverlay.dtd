@@ -22,7 +22,7 @@
 
 <!ENTITY viewMenu.label          "Skoða">
 <!ENTITY viewMenu.accesskey        "k">
-<!ENTITY viewToolbarsMenu.label        "Verkfæraslár">
+<!ENTITY viewToolbarsMenu.label        "Verkfærastikur">
 <!ENTITY viewToolbarsMenu.accesskey      "V">
 <!ENTITY showTaskbarCmd.label          "Stöðuslá">
 <!ENTITY showTaskbarCmd.accesskey        "ö">

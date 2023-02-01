@@ -107,11 +107,11 @@
 <!ENTITY viewMenu.label "Skoða
 ">
 <!ENTITY viewMenu.accesskey "k">
-<!ENTITY viewToolbarsMenuNew.label "Verkfæraslár">
+<!ENTITY viewToolbarsMenuNew.label "Verkfærastikur">
 <!ENTITY viewToolbarsMenuNew.accesskey "V">
 <!ENTITY menubarCmd.label "Valmynd">
 <!ENTITY menubarCmd.accesskey "m">
-<!ENTITY showCompositionToolbarCmd.label "Samsetningarslá">
+<!ENTITY showCompositionToolbarCmd.label "Samsetningarstika">
 <!ENTITY showCompositionToolbarCmd.accesskey "m">
 <!ENTITY showFormattingBarCmd.label "Sniðslá">
 <!ENTITY showFormattingBarCmd.accesskey "n">

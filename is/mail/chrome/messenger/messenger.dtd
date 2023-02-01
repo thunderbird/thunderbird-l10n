@@ -130,7 +130,7 @@
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Valmynd">
 <!ENTITY menubarCmd.accesskey "m">
-<!ENTITY showMessengerToolbarCmd.label "Póstslá">
+<!ENTITY showMessengerToolbarCmd.label "Póststika">
 <!ENTITY showMessengerToolbarCmd.accesskey "P">
 <!ENTITY customizeToolbar.label "Sérsníða…">
 <!ENTITY customizeToolbar.accesskey "S">
@@ -597,7 +597,7 @@
 <!ENTITY appmenuNewMsgCmd.label "Nýr póstur">
 <!ENTITY appmenuNewContactCmd.label "Tengiliður í nafnaskrá…">
 <!ENTITY appmenuEditMenu.label "Breyta">
-<!ENTITY appmenuToolbarLayout.label "Útlit verkfæraslár…">
+<!ENTITY appmenuToolbarLayout.label "Útlit verkfærastiku…">
 <!ENTITY appmenuSelectThread.label "Velja umræðu">
 <!ENTITY appmenuSelectFlagged.label "Velja stjörnumerkt skilaboð">
 

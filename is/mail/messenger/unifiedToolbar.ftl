@@ -29,7 +29,7 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
-customize-title = Sérsníða verkfæraslár
+customize-title = Sérsníða verkfærastikur
 customize-space-mail = Póstur
 customize-space-addressbook = Nafnaskrá
 customize-space-calendar = Dagatal
@@ -55,7 +55,7 @@ customize-search-bar =
 customize-spaces-tabs =
     .aria-label = Svæði
 customize-main-toolbar-target =
-    .aria-label = Aðal-verkfæraslá
+    .aria-label = Aðal-verkfærastika
 customize-palette-generic-title = Tiltækt fyrir öll svæði
 customize-palette-mail-specific-title = Aðeins í boði fyrir póstsvæði
 customize-palette-addressbook-specific-title = Aðeins í boði fyrir nafnaskrársvæði
