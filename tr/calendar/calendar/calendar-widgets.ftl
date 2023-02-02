@@ -10,6 +10,7 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Takvimler
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
