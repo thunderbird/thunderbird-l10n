@@ -16,6 +16,18 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = E-post
+    .title = E-post
+customize-space-tab-addressbook = Aadressiraamat
+    .title = Aadressiraamat
+customize-space-tab-calendar = Kalender
+    .title = Kalender
+customize-space-tab-tasks = Ülesanded
+    .title = Ülesanded
+customize-space-tab-chat = Kiirsuhtlus
+    .title = Kiirsuhtlus
+customize-space-tab-settings = Sätted
+    .title = Sätted
 customize-button-style-icons-beside-text =
     .label = Ikoonid teksti kõrval
 
