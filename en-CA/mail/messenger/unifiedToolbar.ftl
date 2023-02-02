@@ -16,12 +16,6 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
-customize-space-mail = Mail
-customize-space-addressbook = Address Book
-customize-space-calendar = Calendar
-customize-space-tasks = Tasks
-customize-space-chat = Chat
-customize-space-settings = Settings
 customize-button-style-icons-beside-text =
     .label = Icons beside Text
 
