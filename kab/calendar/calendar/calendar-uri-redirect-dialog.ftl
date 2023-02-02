@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Wehhi URL n uwitay
+calendar-uri-redirect-window-title = Wehhi URL n uwitay
 calendar-uri-redirect-description =
     Aqeddac iwehha URL ɣer uwitay "{ $calendarName }". 
     Qbel awehhi, tebduḍ aseqdec n URI amaynut i uwitay-a?
