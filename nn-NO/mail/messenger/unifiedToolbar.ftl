@@ -16,6 +16,18 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = E-post
+    .title = E-post
+customize-space-tab-addressbook = Adressebok
+    .title = Adressebok
+customize-space-tab-calendar = Kalender
+    .title = Kalender
+customize-space-tab-tasks = Oppgåver
+    .title = Oppgåver
+customize-space-tab-chat = Nettprat
+    .title = Nettprat
+customize-space-tab-settings = Innstillingar
+    .title = Innstillingar
 customize-button-style-icons-beside-text =
     .label = Ikon ved sida av teksten
 
