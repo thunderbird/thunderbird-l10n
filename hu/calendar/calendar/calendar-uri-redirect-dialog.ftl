@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Naptár URI átirányítás
+calendar-uri-redirect-window-title = Naptár URI átirányítás
 calendar-uri-redirect-description =
     A kiszolgáló átirányítja a(z) „{ $calendarName }” naptár URI-ját.
     Elfogadja az átirányítást, és elkezdi használni a naptár új URI-ját?
