@@ -30,12 +30,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Prilagodi orodne vrstice
-customize-space-mail = Pošta
-customize-space-addressbook = Imenik
-customize-space-calendar = Koledar
-customize-space-tasks = Opravila
-customize-space-chat = Klepet
-customize-space-settings = Nastavitve
+customize-space-tab-mail = Pošta
+    .title = Pošta
+customize-space-tab-addressbook = Imenik
+    .title = Imenik
+customize-space-tab-calendar = Koledar
+    .title = Koledar
+customize-space-tab-tasks = Opravila
+    .title = Opravila
+customize-space-tab-chat = Klepet
+    .title = Klepet
+customize-space-tab-settings = Nastavitve
+    .title = Nastavitve
 customize-restore-default = Obnovi privzeto
 customize-change-appearance = Spremeni videz …
 customize-button-style-label = Slog gumbov:
