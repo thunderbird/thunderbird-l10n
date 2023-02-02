@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Chuyển hướng URI lịch
+calendar-uri-redirect-window-title = Chuyển hướng URI lịch
 calendar-uri-redirect-description =
     Máy chủ đang chuyển hướng URI cho lịch "{ $calendarName }".
     Chấp nhận chuyển hướng và bắt đầu sử dụng URI mới cho lịch này?
