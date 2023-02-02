@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = კალენდარის URI-გადამისამართება
+calendar-uri-redirect-window-title = კალენდარის URI-გადამისამართება
 calendar-uri-redirect-description =
     სერვერი ამისამართებს URI-ის კალენდრისთვის „{ $calendarName }“.
     გსურთ, გადამისამართების მიღება და ახალი URI-ის გამოყენება ამ კალენდრისთვის?
