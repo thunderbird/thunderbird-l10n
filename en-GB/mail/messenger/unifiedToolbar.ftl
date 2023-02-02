@@ -30,12 +30,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Customise Toolbars
-customize-space-mail = Mail
-customize-space-addressbook = Address Book
-customize-space-calendar = Calendar
-customize-space-tasks = Tasks
-customize-space-chat = Chat
-customize-space-settings = Settings
+customize-space-tab-mail = Mail
+    .title = Mail
+customize-space-tab-addressbook = Address Book
+    .title = Address Book
+customize-space-tab-calendar = Calendar
+    .title = Calendar
+customize-space-tab-tasks = Tasks
+    .title = Tasks
+customize-space-tab-chat = Chat
+    .title = Chat
+customize-space-tab-settings = Settings
+    .title = Settings
 customize-restore-default = Restore default
 customize-change-appearance = Change appearance…
 customize-button-style-label = Button style:
