@@ -30,12 +30,6 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Araç çubuklarını özelleştir
-customize-space-mail = E-posta
-customize-space-addressbook = Adres Defteri
-customize-space-calendar = Takvim
-customize-space-tasks = Görevler
-customize-space-chat = Sohbet
-customize-space-settings = Ayarlar
 customize-restore-default = Varsayılanı geri yükle
 customize-change-appearance = Görünümü değiştir…
 customize-button-style-label = Düğme stili:
