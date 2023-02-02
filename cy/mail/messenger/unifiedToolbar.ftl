@@ -22,12 +22,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Cyfaddasu Bariau Offer
-customize-space-mail = E-bost
-customize-space-addressbook = Llyfr Cyfeiriadau
-customize-space-calendar = Calendr
-customize-space-tasks = Tasgau
-customize-space-chat = Sgwrsio
-customize-space-settings = Gosodiadau
+customize-space-tab-mail = E-bost
+    .title = E-bost
+customize-space-tab-addressbook = Llyfr Cyfeiriadau
+    .title = Llyfr Cyfeiriadau
+customize-space-tab-calendar = Calendr
+    .title = Calendr
+customize-space-tab-tasks = Tasgau
+    .title = Tasgau
+customize-space-tab-chat = Sgwrsio
+    .title = Sgwrsio
+customize-space-tab-settings = Gosodiadau
+    .title = Gosodiadau
 customize-restore-default = Adfer y rhagosodiadau
 customize-change-appearance = Newid golwg…
 customize-button-style-label = Arddull botwm:
