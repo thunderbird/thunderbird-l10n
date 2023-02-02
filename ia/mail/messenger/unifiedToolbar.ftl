@@ -30,6 +30,14 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Personalisar le barra de instrumentos
+customize-space-tab-calendar = Agenda
+    .title = Agenda
+customize-space-tab-tasks = Activitates
+    .title = Activitates
+customize-space-tab-chat = Chat
+    .title = Chat
+customize-space-tab-settings = Parametros
+    .title = Parametros
 customize-restore-default = Restaurar le parametros predefinite
 customize-change-appearance = Cambiar apparentia…
 customize-button-style-label = Stylo de button:
