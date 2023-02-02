@@ -16,12 +16,6 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
-customize-space-mail = Imayl
-customize-space-addressbook = Imedlis n tensa
-customize-space-calendar = Awitay
-customize-space-tasks = Tiwuriwin
-customize-space-chat = Adiwenni usrid
-customize-space-settings = Iɣewwaren
 customize-button-style-icons-beside-text =
     .label = Tigiiniyin n daw uḍris
 
