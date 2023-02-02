@@ -30,12 +30,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Werkbalken aanpassen
-customize-space-mail = E-mail
-customize-space-addressbook = Adresboek
-customize-space-calendar = Agenda
-customize-space-tasks = Taken
-customize-space-chat = Chat
-customize-space-settings = Instellingen
+customize-space-tab-mail = E-mail
+    .title = E-mail
+customize-space-tab-addressbook = Adresboek
+    .title = Adresboek
+customize-space-tab-calendar = Agenda
+    .title = Agenda
+customize-space-tab-tasks = Taken
+    .title = Taken
+customize-space-tab-chat = Chat
+    .title = Chat
+customize-space-tab-settings = Instellingen
+    .title = Instellingen
 customize-restore-default = Standaardwaarde herstellen
 customize-change-appearance = Uiterlijk wijzigen…
 customize-button-style-label = Knopstijl:
