@@ -30,12 +30,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Саймандар панельдерін баптау
-customize-space-mail = Эл. пошта
-customize-space-addressbook = Адрестік кітапша
-customize-space-calendar = Күнтізбе
-customize-space-tasks = Тапсырмалар
-customize-space-chat = Чат
-customize-space-settings = Баптаулар
+customize-space-tab-mail = Эл. пошта
+    .title = Эл. пошта
+customize-space-tab-addressbook = Адрестік кітапша
+    .title = Адрестік кітапша
+customize-space-tab-calendar = Күнтізбе
+    .title = Күнтізбе
+customize-space-tab-tasks = Тапсырмалар
+    .title = Тапсырмалар
+customize-space-tab-chat = Чат
+    .title = Чат
+customize-space-tab-settings = Баптаулар
+    .title = Баптаулар
 customize-restore-default = Бастапқы түрін қалпына келтіру
 customize-change-appearance = Сыртқы түрін өзгерту…
 customize-button-style-label = Батырмалар стилі:
