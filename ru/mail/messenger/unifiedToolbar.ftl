@@ -22,12 +22,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Настройка панелей инструментов
-customize-space-mail = Почта
-customize-space-addressbook = Адресная книга
-customize-space-calendar = Календарь
-customize-space-tasks = Задачи
-customize-space-chat = Чат
-customize-space-settings = Настройки
+customize-space-tab-mail = Почта
+    .title = Почта
+customize-space-tab-addressbook = Адресная книга
+    .title = Адресная книга
+customize-space-tab-calendar = Календарь
+    .title = Календарь
+customize-space-tab-tasks = Задачи
+    .title = Задачи
+customize-space-tab-chat = Чат
+    .title = Чат
+customize-space-tab-settings = Настройки
+    .title = Настройки
 customize-restore-default = Восстановить по умолчанию
 customize-change-appearance = Изменить внешний вид…
 customize-button-style-label = Стиль кнопок:
