@@ -30,12 +30,6 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Personalizar barras de herramientas
-customize-space-mail = Correo
-customize-space-addressbook = Libreta de direcciones
-customize-space-calendar = Calendario
-customize-space-tasks = Tareas
-customize-space-chat = Chat
-customize-space-settings = Configuración
 customize-restore-default = Restaurar predeterminado
 customize-change-appearance = Cambiar apariencia…
 customize-button-style-label = Estilo de botón:
