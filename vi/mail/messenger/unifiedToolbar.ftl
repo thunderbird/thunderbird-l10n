@@ -22,6 +22,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Tùy biến thanh công cụ
+customize-space-tab-mail = Thư
+    .title = Thư
+customize-space-tab-addressbook = Sổ địa chỉ
+    .title = Sổ địa chỉ
+customize-space-tab-calendar = Lịch
+    .title = Lịch
+customize-space-tab-tasks = Nhiệm vụ
+    .title = Nhiệm vụ
+customize-space-tab-chat = Trò chuyện
+    .title = Trò chuyện
+customize-space-tab-settings = Cài đặt
+    .title = Cài đặt
 customize-restore-default = Khôi phục về mặc định
 customize-button-style-label = Kiểu nút:
 customize-button-style-icons-beside-text =
