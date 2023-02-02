@@ -16,12 +16,18 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
-customize-space-mail = Փոստ
-customize-space-addressbook = Հասցէագիրք
-customize-space-calendar = Աւրացոյց
-customize-space-tasks = Առաջադրանքներ
-customize-space-chat = Զրուցարան
-customize-space-settings = Կարգաւորումներ
+customize-space-tab-mail = Փոստ
+    .title = Փոստ
+customize-space-tab-addressbook = Հասցէագիրք
+    .title = Հասցէագիրք
+customize-space-tab-calendar = Աւրացոյց
+    .title = Աւրացոյց
+customize-space-tab-tasks = Առաջադրանքներ
+    .title = Առաջադրանքներ
+customize-space-tab-chat = Զրուցարան
+    .title = Զրուցարան
+customize-space-tab-settings = Կարգաւորումներ
+    .title = Կարգաւորումներ
 customize-button-style-icons-beside-text =
     .label = Պատկերները գրոյթի կողքին
 
