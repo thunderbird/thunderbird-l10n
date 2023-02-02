@@ -30,12 +30,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Налаштувати панелі інструментів
-customize-space-mail = Пошта
-customize-space-addressbook = Адресна книга
-customize-space-calendar = Календар
-customize-space-tasks = Завдання
-customize-space-chat = Чат
-customize-space-settings = Налаштування
+customize-space-tab-mail = Пошта
+    .title = Пошта
+customize-space-tab-addressbook = Адресна книга
+    .title = Адресна книга
+customize-space-tab-calendar = Календар
+    .title = Календар
+customize-space-tab-tasks = Завдання
+    .title = Завдання
+customize-space-tab-chat = Чат
+    .title = Чат
+customize-space-tab-settings = Налаштування
+    .title = Налаштування
 customize-restore-default = Відновити типові
 customize-change-appearance = Змінити вигляд…
 customize-button-style-label = Стиль кнопки:
