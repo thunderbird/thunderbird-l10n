@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Наразі, усі календар�
 calendar-notifications-label = Показувати сповіщення про майбутні події
 calendar-add-notification-button =
     .label = Додати сповіщення
+
+## Side panel
+
+calendar-list-header = Календарі
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +21,9 @@ calendar-refresh-calendars =
     .title = Перезавантажити всі календарі та синхронізувати зміни
 calendar-new-event-primary-button = Нова подія
 calendar-new-task-primary-button = Нове завдання
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Попередній день
     .accesskey = п
