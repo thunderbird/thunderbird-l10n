@@ -30,12 +30,6 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Sérsníða verkfærastikur
-customize-space-mail = Póstur
-customize-space-addressbook = Nafnaskrá
-customize-space-calendar = Dagatal
-customize-space-tasks = Verkefni
-customize-space-chat = Spjall
-customize-space-settings = Stillingar
 customize-restore-default = Endurheimta sjálfgefið
 customize-change-appearance = Breyta útliti…
 customize-button-style-label = Hnappastíll:
