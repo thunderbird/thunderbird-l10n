@@ -17,6 +17,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Muokkaa työkalupalkkeja
+customize-space-tab-mail = Sähköposti
+    .title = Sähköposti
+customize-space-tab-addressbook = Osoitekirja
+    .title = Osoitekirja
+customize-space-tab-calendar = Kalenteri
+    .title = Kalenteri
+customize-space-tab-tasks = Tehtävät
+    .title = Tehtävät
+customize-space-tab-chat = Keskustelu
+    .title = Keskustelu
+customize-space-tab-settings = Asetukset
+    .title = Asetukset
 customize-restore-default = Palauta oletukset
 customize-change-appearance = Muuta ulkoasua…
 customize-button-style-label = Painikkeen tyyli:
