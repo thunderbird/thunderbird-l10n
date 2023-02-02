@@ -16,6 +16,18 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = Imayl
+    .title = Imayl
+customize-space-tab-addressbook = Imedlis n tensa
+    .title = Imedlis n tensa
+customize-space-tab-calendar = Awitay
+    .title = Awitay
+customize-space-tab-tasks = Tiwuriwin
+    .title = Tiwuriwin
+customize-space-tab-chat = Adiwenni usrid
+    .title = Adiwenni usrid
+customize-space-tab-settings = Iɣewwaren
+    .title = Iɣewwaren
 customize-button-style-icons-beside-text =
     .label = Tigiiniyin n daw uḍris
 
