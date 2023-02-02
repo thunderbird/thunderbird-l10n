@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Преусмеравање URI календара
+calendar-uri-redirect-window-title = Преусмеравање URI календара
 calendar-uri-redirect-description =
     Сервер преусмерава URI за календар "{ $calendarName }".
     Прихватити преусмеравање и почетак коришћења новог URI за овај календар?
