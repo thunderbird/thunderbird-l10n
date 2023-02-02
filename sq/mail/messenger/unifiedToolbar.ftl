@@ -22,12 +22,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Përshtatni Panele
-customize-space-mail = Postë
-customize-space-addressbook = Libër Adresash
-customize-space-calendar = Kalendar
-customize-space-tasks = Punë
-customize-space-chat = Fjalosje
-customize-space-settings = Rregullime
+customize-space-tab-mail = Postë
+    .title = Postë
+customize-space-tab-addressbook = Libër Adresash
+    .title = Libër Adresash
+customize-space-tab-calendar = Kalendar
+    .title = Kalendar
+customize-space-tab-tasks = Punë
+    .title = Punë
+customize-space-tab-chat = Fjalosje
+    .title = Fjalosje
+customize-space-tab-settings = Rregullime
+    .title = Rregullime
 customize-restore-default = Rikthe parazgjedhjet
 customize-change-appearance = Ndryshoni dukjen…
 customize-button-style-label = Stil butonash:
