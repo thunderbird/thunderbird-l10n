@@ -16,6 +16,8 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = Poczta
+    .title = Poczta
 customize-button-style-icons-beside-text =
     .label = Ikony obok tekstu
 
