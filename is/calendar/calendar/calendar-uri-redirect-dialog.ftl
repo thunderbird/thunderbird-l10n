@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Endurbeining á slóð dagatals
+calendar-uri-redirect-window-title = Endurbeining á slóð dagatals
 calendar-uri-redirect-description =
     Miðlarinn er að endurbeina vefslóðinni fyrir dagatalið „{ $calendarName }“.
     Á að samþykkja tilvísunina og byrja að nota nýju vefslóðina fyrir þetta dagatal?
