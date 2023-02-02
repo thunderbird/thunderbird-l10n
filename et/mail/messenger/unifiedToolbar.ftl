@@ -16,12 +16,6 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
-customize-space-mail = E-post
-customize-space-addressbook = Aadressiraamat
-customize-space-calendar = Kalender
-customize-space-tasks = Ülesanded
-customize-space-chat = Kiirsuhtlus
-customize-space-settings = Sätted
 customize-button-style-icons-beside-text =
     .label = Ikoonid teksti kõrval
 
