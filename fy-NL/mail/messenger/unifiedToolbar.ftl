@@ -30,12 +30,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Arkbalke oanpasse
-customize-space-mail = E-mail
-customize-space-addressbook = Adresboek
-customize-space-calendar = Aginda
-customize-space-tasks = Taken
-customize-space-chat = Chat
-customize-space-settings = Ynstellingen
+customize-space-tab-mail = E-mail
+    .title = E-mail
+customize-space-tab-addressbook = Adresboek
+    .title = Adresboek
+customize-space-tab-calendar = Aginda
+    .title = Aginda
+customize-space-tab-tasks = Taken
+    .title = Taken
+customize-space-tab-chat = Chat
+    .title = Chat
+customize-space-tab-settings = Ynstellingen
+    .title = Ynstellingen
 customize-restore-default = Standertwearde weromsette
 customize-change-appearance = Uterlik wizigje…
 customize-button-style-label = Knopstyl:
