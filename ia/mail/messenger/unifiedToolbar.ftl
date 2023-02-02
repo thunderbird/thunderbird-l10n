@@ -30,6 +30,10 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Personalisar le barra de instrumentos
+customize-space-tab-mail = E-mail
+    .title = E-mail
+customize-space-tab-addressbook = Libro de adresses
+    .title = Libro de adresses
 customize-space-tab-calendar = Agenda
     .title = Agenda
 customize-space-tab-tasks = Activitates
