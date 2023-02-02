@@ -30,12 +30,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = 自訂工具列
-customize-space-mail = 郵件
-customize-space-addressbook = 通訊錄
-customize-space-calendar = 行事曆
-customize-space-tasks = 工作
-customize-space-chat = 聊天
-customize-space-settings = 設定
+customize-space-tab-mail = 郵件
+    .title = 郵件
+customize-space-tab-addressbook = 通訊錄
+    .title = 通訊錄
+customize-space-tab-calendar = 行事曆
+    .title = 行事曆
+customize-space-tab-tasks = 工作
+    .title = 工作
+customize-space-tab-chat = 聊天
+    .title = 聊天
+customize-space-tab-settings = 設定
+    .title = 設定
 customize-restore-default = 還原預設值
 customize-change-appearance = 更改外觀…
 customize-button-style-label = 按鈕樣式:
