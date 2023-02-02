@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Kalendoriaus URI peradresavimas
+calendar-uri-redirect-window-title = Kalendoriaus URI peradresavimas
 calendar-uri-redirect-description =
     Serveris peradresuoja kalendoriaus „{ $calendarName }“ URI.
     Priimti peradresavimą ir pradėti naudoti naująjį šio kalendoriaus URI?
