@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Calendar URI 重新導向
+calendar-uri-redirect-window-title = Calendar URI 重新導向
 calendar-uri-redirect-description =
     此伺服器重新導向了行事曆「{ $calendarName }」的 URI。
     要接受更改為使用新的 URI 嗎？
