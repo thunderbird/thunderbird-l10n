@@ -22,12 +22,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Προσαρμογή γραμμών εργαλείων
-customize-space-mail = Αλληλογραφία
-customize-space-addressbook = Ευρετήριο
-customize-space-calendar = Ημερολόγιο
-customize-space-tasks = Εργασίες
-customize-space-chat = Συνομιλία
-customize-space-settings = Ρυθμίσεις
+customize-space-tab-mail = Αλληλογραφία
+    .title = Αλληλογραφία
+customize-space-tab-addressbook = Ευρετήριο
+    .title = Ευρετήριο
+customize-space-tab-calendar = Ημερολόγιο
+    .title = Ημερολόγιο
+customize-space-tab-tasks = Εργασίες
+    .title = Εργασίες
+customize-space-tab-chat = Συνομιλία
+    .title = Συνομιλία
+customize-space-tab-settings = Ρυθμίσεις
+    .title = Ρυθμίσεις
 customize-restore-default = Επαναφορά προεπιλογών
 customize-change-appearance = Αλλαγή εμφάνισης…
 customize-button-style-label = Στυλ κουμπιών:
