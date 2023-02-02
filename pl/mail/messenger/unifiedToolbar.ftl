@@ -18,6 +18,16 @@ customize-menu-customize =
 
 customize-space-tab-mail = Poczta
     .title = Poczta
+customize-space-tab-addressbook = Książka adresowa
+    .title = Książka adresowa
+customize-space-tab-calendar = Kalendarz
+    .title = Kalendarz
+customize-space-tab-tasks = Zadania
+    .title = Zadania
+customize-space-tab-chat = Komunikator
+    .title = Komunikator
+customize-space-tab-settings = Ustawienia
+    .title = Ustawienia
 customize-button-style-icons-beside-text =
     .label = Ikony obok tekstu
 
