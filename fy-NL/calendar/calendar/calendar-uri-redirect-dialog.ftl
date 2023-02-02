@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Omlieding aginda-URI
+calendar-uri-redirect-window-title = Omlieding aginda-URI
 calendar-uri-redirect-description =
     De server liedt de URI foar de aginda ‘{ $calendarName }’ om.
     Dizze omlieding akseptearje en de nije URI foar dizze aginda brûke?
