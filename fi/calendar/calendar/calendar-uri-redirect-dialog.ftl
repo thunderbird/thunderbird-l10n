@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Kalenterin URI-uudelleenohjaus
+calendar-uri-redirect-window-title = Kalenterin URI-uudelleenohjaus
 calendar-uri-redirect-description =
     Palvelin ohjaa kalenterin "{ $calendarName }" toiselle sivustolle.
     Hyväksytkö uudelleenohjauksen ja aloitatko uuden kalenterin käytön?
