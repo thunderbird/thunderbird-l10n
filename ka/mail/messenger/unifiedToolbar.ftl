@@ -16,6 +16,18 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = ფოსტა
+    .title = ფოსტა
+customize-space-tab-addressbook = წიგნაკი
+    .title = წიგნაკი
+customize-space-tab-calendar = კალენდარი
+    .title = კალენდარი
+customize-space-tab-tasks = დავალებები
+    .title = დავალებები
+customize-space-tab-chat = სასაუბრო
+    .title = სასაუბრო
+customize-space-tab-settings = პარამეტრები
+    .title = პარამეტრები
 customize-button-style-icons-beside-text =
     .label = ხატულები ტექსტთან ერთად
 
