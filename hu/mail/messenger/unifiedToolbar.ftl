@@ -30,12 +30,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Eszköztárak testreszabása
-customize-space-mail = Levelezés
-customize-space-addressbook = Címjegyzék
-customize-space-calendar = Naptár
-customize-space-tasks = Feladatok
-customize-space-chat = Csevegés
-customize-space-settings = Beállítások
+customize-space-tab-mail = Levelezés
+    .title = Levelezés
+customize-space-tab-addressbook = Címjegyzék
+    .title = Címjegyzék
+customize-space-tab-calendar = Naptár
+    .title = Naptár
+customize-space-tab-tasks = Feladatok
+    .title = Feladatok
+customize-space-tab-chat = Csevegés
+    .title = Csevegés
+customize-space-tab-settings = Beállítások
+    .title = Beállítások
 customize-restore-default = Alapértelmezések visszaállítása
 customize-change-appearance = Megjelenés módosítása…
 customize-button-style-label = Gombstílus:
