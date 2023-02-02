@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Reindirizzamento dell’URI del calendario
+calendar-uri-redirect-window-title = Reindirizzamento dell’URI del calendario
 calendar-uri-redirect-description =
     Il server sta reindirizzando l’URI del calendario “{ $calendarName }”.
     Accettare il reindirizzamento e iniziare a usare il nuovo URI per questo calendario?
