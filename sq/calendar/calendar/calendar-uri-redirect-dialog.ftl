@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Ridrejtim URI Kalendari
+calendar-uri-redirect-window-title = Ridrejtim URI Kalendari
 calendar-uri-redirect-description =
     Shërbyesi po ridrejton URI-n për kalendarin “{ $calendarName }”.
     Të pranohet ridrejtimi dhe të fillohet përdorimi i URI-të të ri për këtë kalendar?
