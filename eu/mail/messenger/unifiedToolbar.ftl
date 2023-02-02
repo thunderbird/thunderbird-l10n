@@ -22,6 +22,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Pertsonalizatu tresna-barrak
+customize-space-tab-mail = Posta
+    .title = Posta
+customize-space-tab-addressbook = Helbide-liburua
+    .title = Helbide-liburua
+customize-space-tab-calendar = Egutegia
+    .title = Egutegia
+customize-space-tab-tasks = Zereginak
+    .title = Zereginak
+customize-space-tab-chat = Txata
+    .title = Txata
+customize-space-tab-settings = Ezarpenak
+    .title = Ezarpenak
 customize-restore-default = Berrezarri lehenetsiak
 customize-button-style-icons-beside-text =
     .label = Ikonoak testuaren ondoan
