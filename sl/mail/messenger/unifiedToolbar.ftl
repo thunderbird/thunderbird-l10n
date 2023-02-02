@@ -29,7 +29,7 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
-customize-title = Prilagodi orodne vrstice
+customize-title = Prilagajanje orodnih vrstic
 customize-space-tab-mail = Pošta
     .title = Pošta
 customize-space-tab-addressbook = Imenik

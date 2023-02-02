@@ -12,3 +12,6 @@ tree-list-view-column-picker =
 tree-list-view-row-thread =
     .alt = Kazalnik niti sporočil
     .title = To je nit sporočil
+tree-list-view-row-attach =
+    .alt = Kazalnik priponk
+    .title = Sporočilo vsebuje eno ali več priponk
