@@ -6,55 +6,47 @@ start-label = เริ่มการสนทนาแบบเข้ารห
 refresh-label = เรียกการสนทนาแบบเข้ารหัสใหม่
 auth-label = ยืนยันตัวตนของผู้ติดต่อของคุณ
 reauth-label = ยืนยันตัวตนของผู้ติดต่อของคุณใหม่
-
 auth-cancel = ยกเลิก
-
 auth-error = เกิดข้อผิดพลาดขณะยืนยันตัวตนของผู้ติดต่อของคุณ
 auth-success = การยืนยันตัวตนของผู้ติดต่อของคุณเสร็จสมบูรณ์
 auth-fail = ไม่สามารถยืนยันตัวตนของผู้ติดต่อของคุณได้
 auth-waiting = กำลังรอให้ผู้ติดต่อยืนยันให้เสร็จสมบูรณ์…
-
 finger-verify = ยืนยัน
-
 # Do not translate 'OTR' (name of an encryption protocol)
 buddycontextmenu-label = เพิ่มลายนิ้วมือ OTR
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 alert-start = กำลังพยายามเริ่มการสนทนาแบบเข้ารหัสกับ { $name }
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 alert-refresh = กำลังพยายามเรียกการสนทนาแบบเข้ารหัสกับ { $name } ใหม่
-
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+finger-unseen = ข้อมูลประจำตัวของ { $name } ยังไม่ได้ถูกตรวจสอบ การดักฟังเป็นครั้งคราวไม่สามารถทำได้ แต่อาจมีคนแอบฟังอยู่ด้วยความพยายามบางอย่างได้ ให้ปกป้องการเฝ้าระวังด้วยการตรวจสอบข้อมูลประจำตัวของผู้ติดต่อนี้
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+finger-seen = { $name } กำลังติดต่อคุณจากคอมพิวเตอร์ที่ไม่รู้จัก การดักฟังเป็นครั้งคราวไม่สามารถทำได้ แต่อาจมีคนแอบฟังอยู่ด้วยความพยายามบางอย่างได้ ให้ปกป้องการเฝ้าระวังด้วยการตรวจสอบข้อมูลประจำตัวของผู้ติดต่อนี้
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-unverified = การสนทนาปัจจุบันถูกเข้ารหัสแล้วแต่ไม่เป็นส่วนตัว เนื่องจากยังไม่ได้ยืนยันตัวตนของ { $name }
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-private = ตัวตนของ { $name } ได้ถูกยืนยันแล้ว การสนทนาปัจจุบันถูกเข้ารหัสแล้วและเป็นส่วนตัว
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-finished = { $name } ได้สิ้นสุดการสนทนาแบบเข้ารหัสของพวกเขากับคุณแล้ว คุณควรสิ้นสุดการสนทนาเช่นกัน
-
 state-unverified-label = ยังไม่ยืนยัน
 state-private-label = ส่วนตัว
 state-finished-label = สิ้นสุดแล้ว
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 verify-request = { $name } ขอให้คุณยืนยันตัวตนของคุณ
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 afterauth-private = คุณได้ยืนยันตัวตนของ { $name } แล้ว
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 afterauth-unverified = ยังไม่ได้ยืนยันตัวตนของ { $name }
-
 # Do not translate 'OTR' (name of an encryption protocol)
 # Variables:
 #   $error (String) - contains an error message that describes the cause of the failure

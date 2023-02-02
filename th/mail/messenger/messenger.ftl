@@ -18,6 +18,8 @@ about-rights-notification-text = { -brand-short-name } เป็นซอฟต�
 folder-pane-toolbar =
     .toolbarname = แถบเครื่องมือบานหน้าต่างโฟลเดอร์
     .accesskey = ฟ
+folder-pane-toolbar-options-button =
+    .tooltiptext = ตัวเลือกบานหน้าต่างโฟลเดอร์
 folder-pane-header-label = โฟลเดอร์
 
 ## Folder Toolbar Header Popup

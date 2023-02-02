@@ -2,13 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+finger-intro = ลายนิ้วมือคีย์ OTR จากการสนทนาที่เข้ารหัสแบบครอบคลุมก่อนหน้านี้
 finger-verified =
     .label = สถานะการยืนยัน
 finger-fingerprint =
     .label = ลายนิ้วมือ
-
 finger-remove =
     .label = เอาที่เลือกออก
-
 finger-remove-all =
     .label = เอาทั้งหมดออก
