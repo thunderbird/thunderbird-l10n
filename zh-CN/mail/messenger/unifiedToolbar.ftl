@@ -16,6 +16,18 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = 邮件
+    .title = 邮件
+customize-space-tab-addressbook = 通讯录
+    .title = 通讯录
+customize-space-tab-calendar = 日历
+    .title = 日历
+customize-space-tab-tasks = 任务
+    .title = 任务
+customize-space-tab-chat = 聊天
+    .title = 聊天
+customize-space-tab-settings = 设置
+    .title = 设置
 customize-button-style-icons-beside-text =
     .label = 文字旁的图示
 
