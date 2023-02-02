@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = URI-dalesposrědkowanje protyki
+calendar-uri-redirect-window-title = URI-dalesposrědkowanje protyki
 calendar-uri-redirect-description =
     Serwer URI za protyku „{ $calendarName }“ dale posrědkuje.
     Dalesposrědkowanje akceptować a nowy URI za tutu protyku wužiwać?
