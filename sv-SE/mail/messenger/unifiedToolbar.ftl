@@ -30,6 +30,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Anpassa verktygsfält
+customize-space-tab-mail = E-post
+    .title = E-post
+customize-space-tab-addressbook = Adressbok
+    .title = Adressbok
+customize-space-tab-calendar = Kalender
+    .title = Kalender
+customize-space-tab-tasks = Uppgifter
+    .title = Uppgifter
+customize-space-tab-chat = Chatt
+    .title = Chatt
+customize-space-tab-settings = Inställningar
+    .title = Inställningar
 customize-restore-default = Återställ standard
 customize-change-appearance = Ändra utseende…
 customize-button-style-label = Knappstil:
