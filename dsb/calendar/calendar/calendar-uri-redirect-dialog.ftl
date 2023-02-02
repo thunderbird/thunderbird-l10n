@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = URI-dalejpósrědnjenje kalendarja
+calendar-uri-redirect-window-title = URI-dalejpósrědnjenje kalendarja
 calendar-uri-redirect-description =
     Serwer URI za kalendaŕ „{ $calendarName }“ dalej pósrědnja.
     Dalejpósrědnjenje akceptěrowaś a nowy URI za toś ten kalendaŕ wužywaś?
