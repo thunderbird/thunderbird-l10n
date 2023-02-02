@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Omdirigering av URI for kalender
+calendar-uri-redirect-window-title = Omdirigering av URI for kalender
 calendar-uri-redirect-description =
     Serveren omdirigerer URI for kalenderen «{ $calendarName }».
     Godta omdirigering og begynne å bruke den nye URI-en for denne kalenderen?
