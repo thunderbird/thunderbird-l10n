@@ -30,12 +30,6 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Prispôsobiť panely s nástrojmi
-customize-space-mail = Pošta
-customize-space-addressbook = Adresár
-customize-space-calendar = Kalendár
-customize-space-tasks = Úlohy
-customize-space-chat = Konverzácie
-customize-space-settings = Nastavenia
 customize-restore-default = Obnoviť predvolené
 customize-change-appearance = Zmeniť vzhľad…
 customize-button-style-label = Štýl tlačidiel:
