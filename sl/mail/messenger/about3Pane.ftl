@@ -208,6 +208,18 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Kazalnik novega sporočila
+    .title = Novo sporočilo
+threadpane-message-replied =
+    .alt = Kazalnik odgovora
+    .title = Na sporočilo ste odgovorili
+threadpane-message-redirected =
+    .alt = Kazalnik preusmeritve
+    .title = Sporočilo je bilo preusmerjeno
+threadpane-message-forwarded =
+    .alt = Kazalnik posredovanja
+    .title = Sporočilo ste posredovali naprej
 apply-columns-to-menu =
     .label = Uporabi stolpce za …
 apply-current-view-to-menu =
