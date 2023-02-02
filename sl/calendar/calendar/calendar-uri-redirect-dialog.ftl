@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Preusmeritev URI koledarja
+calendar-uri-redirect-window-title = Preusmeritev URI koledarja
 calendar-uri-redirect-description =
     Strežnik preusmerja URI koledarja "{ $calendarName }".
     Sprejmem preusmerjanje in začnem z uporabo novega URI-ja za ta koledar?
