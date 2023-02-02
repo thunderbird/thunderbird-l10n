@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Kalendri URI ümbersuunamine
+calendar-uri-redirect-window-title = Kalendri URI ümbersuunamine
 calendar-uri-redirect-description =
     Server suunab kalendri "{ $calendarName }" URI ümber.
     Kas nõustud ümbersuunamisega ja soovid selle kalendri jaoks uut URI kasutada?
