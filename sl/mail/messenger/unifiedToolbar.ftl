@@ -58,9 +58,17 @@ customize-save = Shrani
 customize-unsaved-changes = Neshranjene spremembe pri drugih komponentah
 customize-search-bar =
     .label = Iskanje gumbov orodne vrstice …
+customize-spaces-tabs =
+    .aria-label = Komponente
 customize-main-toolbar-target =
     .aria-label = Glavna orodna vrstica
 customize-palette-generic-title = Na voljo za vse komponente
+customize-palette-mail-specific-title = Na voljo samo za komponento Pošta
+customize-palette-addressbook-specific-title = Na voljo samo za komponento Imenik
+customize-palette-calendar-specific-title = Na voljo samo za komponento Koledar
+customize-palette-tasks-specific-title = Na voljo samo za komponento Opravila
+customize-palette-chat-specific-title = Na voljo samo za komponento Klepet
+customize-palette-settings-specific-title = Na voljo samo za komponento Nastavitve
 
 ## Unified toolbar customization palette context menu
 
