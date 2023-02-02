@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Ath-stiùireadh URI a’ mhìosachain
+calendar-uri-redirect-window-title = Ath-stiùireadh URI a’ mhìosachain
 calendar-uri-redirect-description =
     Tha am frithealaichte ag ath-stiùireadh an URI aig a’ mhìosachan “{ $calendarName }”.
     A bheil thu airson gabhail ris an ath-stiùireadh agus an URI ùr aig a’ mhìosachan seo a chleachdadh?
