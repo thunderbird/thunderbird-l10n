@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Przekierowanie adresu URI kalendarza
+calendar-uri-redirect-window-title = Przekierowanie adresu URI kalendarza
 calendar-uri-redirect-description =
     Serwer przekierowuje adres URI kalendarza „{ $calendarName }”.
     Czy zaakceptować przekierowanie i zacząć używać nowego adresu URI dla tego kalendarza?
