@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Renviament da l'URI dal chalender
+calendar-uri-redirect-window-title = Renviament da l'URI dal chalender
 calendar-uri-redirect-description =
     Il server renviescha l'URI per il chalender «{ $calendarName }».
     Acceptar il renviament e cumenzar ad utilisar il nov URI per quest chalender?
