@@ -4,6 +4,7 @@
 
 calendar-uri-redirect-window =
     .title = Redirection del adresse de un agenda
+calendar-uri-redirect-window-title = Redirection del adresse de un agenda
 calendar-uri-redirect-description =
     Le servitor redirige le URI pro le agenda "{ $calendarName }".
     Acceptar le redirection e initiar usar le nove URI pro iste agenda?
