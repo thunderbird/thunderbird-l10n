@@ -22,12 +22,18 @@ customize-menu-customize =
 ## Unified Toolbar customization
 
 customize-title = Symbolowe lajsty přiměrić
-customize-space-mail = E-mejl
-customize-space-addressbook = Adresnik
-customize-space-calendar = Protyka
-customize-space-tasks = Nadawki
-customize-space-chat = Chat
-customize-space-settings = Nastajenja
+customize-space-tab-mail = E-mejl
+    .title = E-mejl
+customize-space-tab-addressbook = Adresnik
+    .title = Adresnik
+customize-space-tab-calendar = Protyka
+    .title = Protyka
+customize-space-tab-tasks = Nadawki
+    .title = Nadawki
+customize-space-tab-chat = Chat
+    .title = Chat
+customize-space-tab-settings = Nastajenja
+    .title = Nastajenja
 customize-restore-default = Standard wobnowić
 customize-change-appearance = Napohlad změnić…
 customize-button-style-label = Tłóčatkowy stil:
