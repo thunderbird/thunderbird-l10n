@@ -11,6 +11,10 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Naptárak
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = A(z) „{ $calendarName }” naptár beállításai
 calendar-import-new-calendar = Új naptár…
     .title = Új naptár létrehozása vagy feliratkozás
 calendar-refresh-calendars =
