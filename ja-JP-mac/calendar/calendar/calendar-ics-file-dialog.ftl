@@ -33,11 +33,15 @@ calendar-ics-file-dialog-progress-message = 読み込んでいます...
 calendar-ics-file-import-success = 読み込みが完了しました。
 calendar-ics-file-import-error = エラーが発生したため読み込みに失敗しました。
 calendar-ics-file-import-complete = 読み込み完了。
+# Variables:
+# $duplicatesCount (Number) - Number of items already existing in the target calendar.
 calendar-ics-file-import-duplicates =
     { $duplicatesCount ->
         [one] 1 件の項目が対象のカレンダーに既に存在しているため無視されました。
        *[other] { $duplicatesCount } 件の項目が対象のカレンダーに既に存在しているため無視されました。
     }
+# Variables:
+# $errorsCount (Number) - Number of errors while importing ics file.
 calendar-ics-file-import-errors =
     { $errorsCount ->
         [one] 1 件の項目が読み込みに失敗しました。詳細はエラーコンソールを確認してください。

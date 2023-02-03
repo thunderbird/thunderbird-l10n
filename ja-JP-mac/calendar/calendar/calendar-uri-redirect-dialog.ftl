@@ -5,6 +5,8 @@
 calendar-uri-redirect-window =
     .title = カレンダー URI のリダイレクト
 calendar-uri-redirect-window-title = カレンダー URI のリダイレクト
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     サーバーが "{ $calendarName }" のカレンダーの URI をリダイレクトしています。
     このカレンダーのリダイレクトを受け入れて新しい URI を使用しますか？
