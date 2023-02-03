@@ -64,6 +64,8 @@ openpgp-key-assistant-this-key-accepted-expired = Esta clave se aceptó previame
 openpgp-key-assistant-key-unaccepted-expired-one = La clave venció el { $date }.
 openpgp-key-assistant-key-unaccepted-expired-many = Varias claves aceptadas están vencidas.
 openpgp-key-assistant-key-fingerprint = Huella digital
+# Variables:
+# $count (Number) - Number of key sources.
 openpgp-key-assistant-key-source =
     { $count ->
         [one] Fuente
@@ -75,6 +77,10 @@ openpgp-key-assistant-key-collected-autocrypt = Encabezado de cifrado automátic
 openpgp-key-assistant-key-collected-keyserver = Servidor de clave
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Directorio de claves web
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = GnuPG keyring
+# Variables:
+# $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =
     { $count ->
         [one] Hay una clave disponible pero todavía no fue aceptada todavía.
