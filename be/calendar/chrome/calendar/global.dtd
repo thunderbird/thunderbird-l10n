@@ -1,0 +1,21 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY month.1.name "Студзень" >
+<!ENTITY month.2.name "Люты" >
+<!ENTITY month.3.name "Сакавік" >
+<!ENTITY month.4.name "Красавік" >
+<!ENTITY month.5.name "Травень" >
+<!ENTITY month.6.name "Чэрвень" >
+<!ENTITY month.7.name "Ліпень" >
+<!ENTITY month.8.name "Жнівень" >
+<!ENTITY month.9.name "Верасень" >
+<!ENTITY month.10.name "Кастрычнік" >
+<!ENTITY month.11.name "Лістапад" >
+<!ENTITY month.12.name "Снежань" >
+
+<!ENTITY onemonthbackward.tooltip "Мінулы месяц" >
+<!ENTITY onemonthforward.tooltip "Наступны месяц" >
+<!ENTITY oneyearbackward.tooltip "Мінулы год" >
+<!ENTITY oneyearforward.tooltip "Наступны год" >
