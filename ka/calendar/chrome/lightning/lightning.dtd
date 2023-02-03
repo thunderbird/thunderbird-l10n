@@ -43,7 +43,7 @@
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "ამიერიდან, ჩართვა შეგიძლიათ, მხოლოდ კალენდრის გამართვის შემდეგ, პარამეტრების გამოსულ ფანჯარაში, თუ სერვერს ექნება დაგეგმვის შესაძლებლობა.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "ამიერიდან, ჩართვა შეგიძლიათ, მხოლოდ კალენდრის გამართვის შემდეგ პარამეტრების გამოსულ ფანჯარაში, თუ სერვერს ექნება დაგეგმვის შესაძლებლობა.">
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "ეს პარამეტრი ხელმისაწვდომია მხოლოდ მაშინ, როცა სერვერს აქვს დაგეგმვის შესაძლებლობა. ჩართვის შედეგად, დაბრუნდება ჩვეულებრივი ელფოსტის დაგეგმვაზე, ამ შესაძლებლობის, სერვერისთვის დატოვების ნაცვლად.">
 
 <!-- The notifications settings in the properties dialog -->
@@ -94,8 +94,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "მონაწილეობის შესახებ გადაწყვეტილების შეცვლა მთელი რიგი ღონისძიებებისთვის, ხელმძღვანელისთვის პასუხის გაგზავნის გარეშე">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
