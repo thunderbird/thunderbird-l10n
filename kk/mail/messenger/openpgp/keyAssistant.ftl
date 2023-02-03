@@ -62,6 +62,8 @@ openpgp-key-assistant-this-key-accepted-expired = Бұл кілт бұрын қ�
 openpgp-key-assistant-key-unaccepted-expired-one = Кілттің мерзімі { $date } күні аяқталған.
 openpgp-key-assistant-key-unaccepted-expired-many = Бірнеше кілттердің мерзімі аяқталды.
 openpgp-key-assistant-key-fingerprint = Баспасы
+# Variables:
+# $count (Number) - Number of key sources.
 openpgp-key-assistant-key-source =
     { $count ->
        *[other] Қайнар көз(дер)
@@ -72,6 +74,10 @@ openpgp-key-assistant-key-collected-autocrypt = Автошифрлеу тақы�
 openpgp-key-assistant-key-collected-keyserver = кілттер сервері
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Веб-кілттер каталогы
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = GnuPG кілттер бауы
+# Variables:
+# $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =
     { $count ->
         [one] Кілт табылды, бірақ ол әлі қабылданған жоқ.
