@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Поиск:
 search-bar-placeholder = Поиск…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -47,10 +55,20 @@ customize-button-style-text-only =
     .label = Только текст
 customize-cancel = Отмена
 customize-save = Сохранить
+customize-unsaved-changes = Несохранённые изменения в других местах
 customize-search-bar =
     .label = Кнопки панели поиска…
+customize-spaces-tabs =
+    .aria-label = Места
 customize-main-toolbar-target =
     .aria-label = Основная панель инструментов
+customize-palette-generic-title = Доступно для всех Мест
+customize-palette-mail-specific-title = Доступно только для Места Почты
+customize-palette-addressbook-specific-title = Доступно только для Места Адресной книги
+customize-palette-calendar-specific-title = Доступно только для Места Календаря
+customize-palette-tasks-specific-title = Доступно только для Места Задач
+customize-palette-chat-specific-title = Доступно только для Места Чатов
+customize-palette-settings-specific-title = Доступно только для Места Настроек
 
 ## Unified toolbar customization palette context menu
 
