@@ -5,5 +5,33 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Case à cocher pour sélectionner ou désélectionner la ligne courante
+    .title = Sélectionner la ligne courante
+tree-list-view-row-deselect =
+    .alt = Case à cocher pour sélectionner ou désélectionner la ligne courante
+    .title = Désélectionner la ligne courante
+tree-list-view-row-delete =
+    .title = Supprimer la ligne courante
 tree-list-view-column-picker =
     .title = Choisir les colonnes à afficher
+tree-list-view-column-picker-restore =
+    .label = Rétablir l’ordre des colonnes
+tree-list-view-row-thread =
+    .alt = Indicateur de fil de discussion
+    .title = Il s’agit d’un fil de discussion
+tree-list-view-row-flagged =
+    .alt = Indicateur de message suivi
+    .title = Message suivi
+tree-list-view-row-flag =
+    .alt = Indicateur de message suivi
+    .title = Message non suivi
+tree-list-view-row-attach =
+    .alt = Indicateur de pièces jointes
+    .title = Message contenant des pièces jointes
+tree-list-view-row-spam =
+    .alt = Indicateur de statut indésirable
+    .title = Message marqué comme indésirable
+tree-list-view-row-not-spam =
+    .alt = Indicateur de statut indésirable
+    .title = Message non marqué comme indésirable
