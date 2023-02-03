@@ -16,6 +16,7 @@ accounts-default = По умолчанию?
 identity-name = Идентификатор
 send-via-email = Послать по почте
 app-basics-telemetry = Данные телеметрии
+app-basics-cache-use = Использование кэша
 mail-libs-title = Библиотеки
 libs-table-heading-library = Библиотека
 libs-table-heading-expected-version = Ожидаемая минимальная версия
