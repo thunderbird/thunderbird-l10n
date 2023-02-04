@@ -28,7 +28,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY importShortDesc.label    "Басқа бағдарламалардан пошта, адрестік кітапшалар, баптаулар және сүзгілерді импорттау">
 
 <!ENTITY importDescription1.label "Бұл шебер басқа пошта бағдарламалары және белгілі адрестік кітапша пішімдерінен пошта хабарламаларын, адрестік кітапшалар жазбаларын, таспаларға жазылуларын, баптауларды және/немесе сүзгілерді &brandShortName; ішіне импорттайды.">
-<!ENTITY importDescription2.label "Олар импортталып болғаннан кейін, &brandShortName; ішінде қолжетерлік болады.">
+<!ENTITY importDescription2.label "Олар импортталып болғаннан кейін, &brandShortName; ішінде қолжетімді болады.">
 
 <!ENTITY selectDescription.label  "Импорттау үшін файл түрін таңдаңыз:">
 <!ENTITY selectDescriptionB.label "Бар болып тұрған тіркелгіні таңдаңыз немесе жаңа тіркелгіні жасаңыз:">

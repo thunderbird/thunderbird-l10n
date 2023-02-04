@@ -31,5 +31,5 @@ messenger-languages-select-language =
     .label = Қосылатын тілді таңдау…
     .placeholder = Қосылатын тілді таңдау…
 messenger-languages-installed-label = Орнатылған тілдер
-messenger-languages-available-label = Қолжетерлік тілдер
+messenger-languages-available-label = Қолжетімді тілдер
 messenger-languages-error = { -brand-short-name } тілдеріңізді қазір жаңарта алмайды. Интернетпен байланысыңызды тексеріңіз, немесе қайталап көріңіз.
