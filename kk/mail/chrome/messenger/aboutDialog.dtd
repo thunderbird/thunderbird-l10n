@@ -31,7 +31,7 @@
 <!ENTITY community.exp.middle       " бұл ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "глобалды қоғамдастық,">
-<!ENTITY community.exp.end          " Интернетті ашық, ортақ және қолжетерлік қылуға бірге жұмыс істейді.">
+<!ENTITY community.exp.end          " интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.">
 
 <!ENTITY community.start2           "&brandShortName; жасаған ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to https://www.mozilla.org/. -->
@@ -39,7 +39,7 @@
 <!ENTITY community.middle2          ", ол ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "глобалды қоғамдастық,">
-<!ENTITY community.end3             " Интернетті ашық, ортақ және қолжетерлік қылуға бірге жұмыс істейді.">
+<!ENTITY community.end3             " интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.">
 
 <!ENTITY helpus.start               "Көмектескіңіз келе ме? ">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to the thunderbird donation page -->
@@ -105,7 +105,6 @@
 <!ENTITY update.downloading.end     "">
 
 <!ENTITY update.applying            "Жаңартуды іске асыру…">
-
 <!ENTITY update.restarting          "Қайта қосылуда…">
 
 <!-- LOCALIZATION NOTE (channel.description.start,channel.description.end): channel.description.start and

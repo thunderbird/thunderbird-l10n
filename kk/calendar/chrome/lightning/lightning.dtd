@@ -44,7 +44,7 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Әзірше, бұны тек күнтізбе баптауларында күнтізбе сервері жоспарлауды жасайтынын көрсеткеннен кейін іске қоса аласыз.">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Бұл опция тек күнтізбе сервері жоспарлауды жасаған кезде қолжетерлік. Бұны іске қосу серверге қалдырмай, қалыпты эл. пошта негізінде жоспарлауға оралу мүмкіндігін береді.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Бұл опция тек күнтізбе сервері жоспарлауды жасаған кезде қолжетімді. Бұны іске қосу серверге қалдырмай, қалыпты эл. пошта негізінде жоспарлауға оралу мүмкіндігін береді.">
 
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label                   "Ескертулер">
@@ -94,8 +94,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Ұйымдастырушыға жауапты жібермей, бүкіл қатар үшін қатысу күйіңізді өзгерту">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
