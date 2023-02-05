@@ -11,20 +11,16 @@ setup-title =
        *[other] Nastavení dalšího účtu
     }
 about-title =
-    O { -brand-full-name.gender ->
-        [masculine] { -brand-full-name(case: "loc") }
-        [feminine] { -brand-full-name(case: "loc") }
-        [neuter] { -brand-full-name(case: "loc") }
-       *[other] aplikaci { -brand-full-name }
+    { -brand-full-name.case-status ->
+        [with-cases] O { -brand-full-name(case: "loc") }
+       *[no-cases] O aplikaci { -brand-full-name }
     }
 resources-title = Užitečné odkazy
 release-notes =
     .title =
-        O { -brand-full-name.gender ->
-            [masculine] { -brand-full-name(case: "loc") }
-            [feminine] { -brand-full-name(case: "loc") }
-            [neuter] { -brand-full-name(case: "loc") }
-           *[other] aplikaci { -brand-full-name }
+        { -brand-full-name.case-status ->
+            [with-cases] O { -brand-full-name(case: "loc") }
+           *[no-cases] O aplikaci { -brand-full-name }
         }
 email-label = E-mail
     .aria-label = Připojení k vašemu stávajícímu e-mailovému účtu

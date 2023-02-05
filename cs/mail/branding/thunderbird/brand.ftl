@@ -36,7 +36,18 @@
     }
     .gender = masculine
     .case-status = with-cases
--brand-full-name = Mozilla Thunderbird
+-brand-full-name =
+    { $case ->
+        [gen] Mozilly Thunderbirdu
+        [dat] Mozille Thunderbirdu
+        [acc] Mozillu Thunderbird
+        [voc] Mozillo Thunderbirde
+        [loc] Mozille Thunderbirdu
+        [ins] Mozillou Thunderbirdem
+       *[nom] Mozilla Thunderbird
+    }
+    .gender = masculine
+    .case-status = with-cases
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name =
@@ -63,3 +74,4 @@
     }
     .gender = feminine
     .case-status = with-cases
+trademarkInfo = Mozilla Thunderbird a jeho loga jsou ochrannými známkami organizace Mozilla Foundation.
