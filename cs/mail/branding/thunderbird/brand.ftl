@@ -14,15 +14,16 @@
 
 -brand-shorter-name =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirdu
         [dat] Thunderbirdu
         [acc] Thunderbird
         [voc] Thunderbirde
         [loc] Thunderbirdu
         [ins] Thunderbirdem
+       *[nom] Thunderbird
     }
     .gender = masculine
+    .case-status = with-cases
 -brand-short-name =
     { $case ->
        *[nom] Thunderbird

@@ -11,7 +11,6 @@ toolbar-context-menu-menu-bar =
 menu-tools-settings =
     .label = Nastavení
     .accesskey = e
-
 menu-addons-and-themes =
     .label = Doplňky a vzhledy
     .accesskey = a
@@ -21,14 +20,19 @@ menu-addons-and-themes =
 menu-help-enter-troubleshoot-mode =
     .label = Režim řešení potíží…
     .accesskey = m
-
 menu-help-exit-troubleshoot-mode =
     .label = Ukončit režim řešení potíží
     .accesskey = m
-
 menu-help-more-troubleshooting-info =
     .label = Další technické informace
     .accesskey = t
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label =
+        { -brand-shorter-name.case-status ->
+            [with-cases] Ukončit { -brand-shorter-name(case: "acc") }
+           *[no-cases] Ukončit aplikaci { -brand-shorter-name }
+        }
 
 ## Mail Toolbar
 
@@ -56,35 +60,27 @@ menu-view-repair-text-encoding =
 menu-font-size-label =
     .label = Velikost písma
     .accesskey = o
-
 menuitem-font-size-enlarge =
     .label = Zvětšit písmo
     .accesskey = v
-
 menuitem-font-size-reduce =
     .label = Zmenšit písmo
     .accesskey = m
-
 menuitem-font-size-reset =
     .label = Obnovit velikost písma
     .accesskey = b
-
 mail-uidensity-label =
     .label = Hustota
     .accesskey = H
-
 mail-uidensity-compact =
     .label = Kompaktní
     .accesskey = K
-
 mail-uidensity-normal =
     .label = Normální
     .accesskey = N
-
 mail-uidensity-touch =
     .label = Pro dotyk
     .accesskey = t
-
 menu-spaces-toolbar-button =
     .label = Navigační lišta
     .accesskey = N

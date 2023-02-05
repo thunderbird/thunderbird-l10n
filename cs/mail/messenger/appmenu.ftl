@@ -3,24 +3,28 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Sync
+
+
 ## New Account
+
 
 ## New Account / Address Book
 
+
 ## Create
 
+
 ## Open
+
 
 ## View / Layout
 
 appmenu-font-size-value = Velikost písma
-
 appmenuitem-font-size-enlarge =
     .tooltiptext = Zvětšit písmo
-
 appmenuitem-font-size-reduce =
     .tooltiptext = Zmenšit písmo
-
 # Variables:
 # $size (String) - The current font size.
 appmenuitem-font-size-reset =
@@ -29,5 +33,15 @@ appmenuitem-font-size-reset =
 
 ## Tools
 
+
 ## Help
 
+
+## Application Update
+
+appmenuitem-banner-update-downloading =
+    .label =
+        { -brand-shorter-name.case-status ->
+            [with-cases] Stahování aktualizace { -brand-shorter-name(case: "gen") }
+           *[no-cases] Stahování aktualizace aplikace { -brand-shorter-name }
+        }
