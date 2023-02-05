@@ -13,11 +13,9 @@
 policy-3rdparty = Nastavení pravidel, ke kterým mají přístup rozšíření skrze chrome.storage.managed.
 policy-AppAutoUpdate = Vypnutí nebo zapnutí automatických aktualizací aplikace.
 policy-AppUpdatePin =
-    { -brand-short-name.gender ->
-        [masculine] Zabrání aktualizaci { -brand-short-name(case: "gen") } nad uvedenou verzi.
-        [feminine] Zabrání aktualizaci { -brand-short-name(case: "gen") } nad uvedenou verzi.
-        [neuter] Zabrání aktualizaci { -brand-short-name(case: "gen") } nad uvedenou verzi.
-       *[other] Zabrání aktualizaci aplikace { -brand-short-name } nad uvedenou verzi.
+    { -brand-short-name.case-status ->
+        [with-cases] Zabrání aktualizaci { -brand-short-name(case: "gen") } nad uvedenou verzi.
+       *[no-cases] Zabrání aktualizaci aplikace { -brand-short-name } nad uvedenou verzi.
     }
 policy-AppUpdateURL = Nastavení vlastní URL pro aktualizace aplikace.
 policy-Authentication = Konfigurace integrované autentizace webových stránek, které ji podporují.
@@ -39,12 +37,10 @@ policy-DisableBuiltinPDFViewer =
 policy-DisabledCiphers = Zakázané metody šifrování.
 policy-DefaultDownloadDirectory = Nastavení výchozího adresáře pro stahování souborů.
 policy-DisableAppUpdate =
-    Blokování aktualizací { -brand-short-name.gender ->
-        [masculine] { -brand-short-name(case: "gen") }
-        [feminine] { -brand-short-name(case: "gen") }
-        [neuter] { -brand-short-name(case: "gen") }
-       *[other] aplikace { -brand-short-name }
-    }.
+    { -brand-short-name.case-status ->
+        [with-cases] Blokování aktualizací { -brand-short-name(case: "gen") }.
+       *[no-cases] Blokování aktualizací aplikace { -brand-short-name }.
+    }
 policy-DisableDefaultClientAgent = Zabraňuje „výchozímu agentovi klienta“ provádět jakékoliv akce. Dostupné pouze pro Windows, ostatní platformy agenty nemají.
 policy-DisableDeveloperTools = Blokování přístupu k nástrojům pro vývojáře.
 policy-DisableFeedbackCommands = Blokování odeslání zpětné vazby z nabídky Nápověda (volby Odeslat zpětnou vazbu a Nahlásit klamavou stránku).
@@ -56,12 +52,10 @@ policy-DisableProfileImport = Blokování importu dat z jiných aplikací.
 policy-DisableSafeMode = Zablokování možnosti restartovat se zakázanými doplňky. Poznámka: přechod do nouzového režimu podržením klávesy Shift lze zablokovat jen na systému Windows pomocí zásad skupin.
 policy-DisableSecurityBypass = Zabránit uživateli obcházení některých bezpečnostních varování.
 policy-DisableSystemAddonUpdate =
-    Blokování { -brand-short-name.gender ->
-        [masculine] { -brand-short-name(case: "dat") }
-        [feminine] { -brand-short-name(case: "dat") }
-        [neuter] { -brand-short-name(case: "dat") }
-       *[other] aplikaci { -brand-short-name }
-    } aktualizovat systémové doplňky.
+    { -brand-short-name.case-status ->
+        [with-cases] Blokování { -brand-short-name(case: "dat") } aktualizovat systémové doplňky.
+       *[no-cases] Blokování aplikaci { -brand-short-name } aktualizovat systémové doplňky.
+    }
 policy-DisableTelemetry = Vypnutí telemetrie.
 policy-DisplayMenuBar = Zobrazení hlavní nabídky ve výchozím nastavení.
 policy-DNSOverHTTPS = Nastavení DNS over HTTPS.
@@ -93,12 +87,10 @@ policy-LocalFileLinks = Povolí vybraným stránkám odkazovat na soubory ulože
 policy-ManualAppUpdateOnly = Povolit pouze ruční aktualizace a uživatele na dostupnost aktualizací neupozorňovat.
 policy-NetworkPrediction = Povolení nebo zakázání přednačítání DNS.
 policy-OfferToSaveLogins =
-    Nastavení dotazu na uložení přihlašovacích údajů v { -brand-short-name.gender ->
-        [masculine] { -brand-short-name(case: "loc") }
-        [feminine] { -brand-short-name(case: "loc") }
-        [neuter] { -brand-short-name(case: "loc") }
-       *[other] aplikaci { -brand-short-name }
-    }. Lze použít hodnoty true i false.
+    { -brand-short-name.case-status ->
+        [with-cases] Nastavení dotazu na uložení přihlašovacích údajů v { -brand-short-name(case: "loc") }. Lze použít hodnoty true i false.
+       *[no-cases] Nastavení dotazu na uložení přihlašovacích údajů v aplikaci { -brand-short-name }. Lze použít hodnoty true i false.
+    }
 policy-OfferToSaveLoginsDefault = Nastavení výchozí hodnoty pro to, zda má { -brand-short-name } nabízet ukládání přihlašovacích údajů. Platné hodnoty jsou true a false.
 policy-OverrideFirstRunPage = Nastavení vlastní stránky při prvním spuštění. Pokud nechcete při prvním spuštění zobrazovat žádnou stránku, nastavte toto pravidlo jako prázdné.
 policy-OverridePostUpdatePage = Nastavení vlastní stránky po aktualizaci. Pokud nechcete po aktualizaci zobrazovat žádnou stránku, nastavte toto pravidlo jako prázdné.

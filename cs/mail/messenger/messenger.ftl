@@ -107,6 +107,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Přesměrovat
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -168,16 +170,16 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Opravdu chcete odebrat rozšíření { $name }?
 addon-removal-confirmation-button = Odebrat
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message =
-    Opravdu chcete odebrat doplněk { $name } a jeho nastavení a data z { -brand-short-name.gender ->
-        [masculine] { -brand-short-name(case: "gen") }
-        [feminine] { -brand-short-name(case: "gen") }
-        [neuter] { -brand-short-name(case: "gen") }
-       *[other] aplikace { -brand-short-name }
-    }?
+    { -brand-short-name.case-status ->
+        [with-cases] Opravdu chcete odebrat doplněk { $name } a jeho nastavení a data z { -brand-short-name(case: "gen") }?
+       *[no-cases] Opravdu chcete odebrat doplněk { $name } a jeho nastavení a data z aplikace { -brand-short-name }?
+    }
 caret-browsing-prompt-title = Procházení stránky
 caret-browsing-prompt-text = Stisknutím klávesy F7 zapnete či vypnete funkci Procházení stránky. Ta umístí do obsahu textový kurzor, který vám umožní vybírat text pomocí klávesnice. Chcete zapnout funkci Procházení stránky?
 caret-browsing-prompt-check-text = Příště se už neptat.
@@ -188,11 +190,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Adrese pro odpověď není podporovaná
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Adresa pro odpověď ({ $email }) není sledovanou adresou. Zprávy odeslané na tuto adresu si nejspíše nikdo nepřečte.
 no-reply-reply-anyway-button = Přesto odpověď odeslat
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures =
     { $failures ->
         [one] { $failures } z { $total } zpráv se nepodařilo dešifrovat a nemohla být zkopírována.

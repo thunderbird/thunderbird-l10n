@@ -36,6 +36,13 @@ appmenuitem-font-size-reset =
 
 ## Help
 
+appmenu-help-about-product =
+    .label =
+        { -brand-short-name.case-status ->
+            [with-cases] O { -brand-short-name(case: "loc") }
+           *[no-cases] O aplikaci { -brand-short-name }
+        }
+    .accesskey = O
 
 ## Application Update
 

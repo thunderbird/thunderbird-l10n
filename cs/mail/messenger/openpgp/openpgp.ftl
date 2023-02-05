@@ -1,17 +1,13 @@
-
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-intro-description = Abyste mohli odesílat zašifrované nebo elektronicky podepsané zprávy, musíte nastavit technologii šifrování, buď OpenPGP nebo S/MIME.
 e2e-intro-description-more = Chcete-li používat OpenPGP, vyberte svůj osobní klíč, chcete-li používat S/MIME, vyberte svůj osobní certifikát. Pro osobní klíč nebo certifikát vlastníte odpovídající tajný klíč.
-
 e2e-signing-description = Elektronický podpis umožňuje příjemcům ověřit, že jste zprávu poslali vy a že nebyl její obsah změněn. Šifrované zprávy jsou ve výchozím stavu vždy podepsané.
-
 e2e-sign-message =
     .label = Podepisovat nešifrované zprávy
     .accesskey = d
-
 e2e-disable-enc =
     .label = Zakázat šifrování nových zpráv
     .accesskey = a
@@ -19,7 +15,6 @@ e2e-enable-enc =
     .label = Povolit šifrování nových zpráv
     .accesskey = n
 e2e-enable-description = Šifrování můžete vždy zakázat pro konkrétní zprávu.
-
 e2e-advanced-section = Pokročilé nastavení
 e2e-attach-key =
     .label = Při odeslání digitálního podpisu OpenPGP připojit také veřejný klíč
@@ -30,7 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Ukládat koncepty zašifrované
     .accesskey = r
-
 openpgp-key-user-id-label = Účet / ID uživatele
 openpgp-keygen-title-label =
     .title = Vytvořit klíč OpenPGP
@@ -61,18 +55,13 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Rozšířené…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">POZNÁMKA: Vytváření klíče může trvat až několik minut.</a> Po tu dobu prosím aplikaci neukončujte. Proces se urychlí, když budete aktivně pracovat s prohlížečem nebo provádět operace s častým přístupem k pevnému disku. Až bude vytváření klíče dokončeno, budete upozorněni.
-
 openpgp-key-created-label =
     .label = Vytvořeno
-
 openpgp-key-expiry-label =
     .label = Konec platnosti
-
 openpgp-key-id-label =
     .label = ID klíče
-
 openpgp-cannot-change-expiry = Toto je klíč se složitou strukturou, změna data konce jeho platnosti není podporována.
-
 openpgp-key-man-title =
     .title = Správce klíčů OpenPGP
 openpgp-key-man-generate =
@@ -83,7 +72,6 @@ openpgp-key-man-gen-revoke =
     .accesskey = R
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Vytvoří a uloží revokační certifikát
-
 openpgp-key-man-file-menu =
     .label = Soubor
     .accesskey = S
@@ -99,7 +87,6 @@ openpgp-key-man-generate-menu =
 openpgp-key-man-keyserver-menu =
     .label = Server klíčů
     .accesskey = k
-
 openpgp-key-man-import-public-from-file =
     .label = Importovat veřejné klíče ze souboru
     .accesskey = I
@@ -122,29 +109,25 @@ openpgp-key-man-send-keys =
 openpgp-key-man-backup-secret-keys =
     .label = Zálohovat tajné klíče do souboru
     .accesskey = Z
-
 openpgp-key-man-discover-cmd =
     .label = Najít klíče na internetu
     .accesskey = i
 openpgp-key-man-discover-prompt = Pro nalezení klíčů OpenPGP na serverech klíčů nebo pomocí protokolu WKD zadejte buď e-mailovou adresu nebo ID klíče.
 openpgp-key-man-discover-progress = Hledání…
-
 openpgp-key-copy-key =
     .label = Kopírovat veřejný klíč
     .accesskey = K
-
 openpgp-key-export-key =
     .label = Exportovat veřejný klíč do souboru
     .accesskey = E
-
 openpgp-key-backup-key =
     .label = Zálohovat tajný klíč do souboru
     .accesskey = Z
-
 openpgp-key-send-key =
     .label = Poslat veřejný klíč e-mailem
     .accesskey = m
-
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -153,7 +136,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Kopírovat ID klíčů do schránky
         }
     .accesskey = D
-
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -162,7 +146,8 @@ openpgp-key-man-copy-fprs =
            *[other] Kopírovat otisky do schránky
         }
     .accesskey = o
-
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -171,14 +156,13 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Kopírovat veřejné klíče do schránky
         }
     .accesskey = v
-
 openpgp-key-man-ctx-expor-to-file-label =
     .label = Exportovat klíče do souboru
-
 openpgp-key-man-ctx-copy =
     .label = Kopírovat
     .accesskey = K
-
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -187,7 +171,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Otisky
         }
     .accesskey = O
-
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -196,7 +181,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] ID klíčů
         }
     .accesskey = D
-
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -205,7 +191,6 @@ openpgp-key-man-ctx-copy-public-keys =
            *[other] Veřejné klíče
         }
     .accesskey = V
-
 openpgp-key-man-close =
     .label = Zavřít
 openpgp-key-man-reload =
@@ -258,17 +243,13 @@ openpgp-key-man-nothing-found-tooltip =
     .label = Hledanému výrazu neodpovídají žádné klíče
 openpgp-key-man-please-wait-tooltip =
     .label = Načítaní klíčů, prosím čekejte…
-
 openpgp-key-man-filter-label =
     .placeholder = Vyhledat klíče
-
 openpgp-key-man-select-all-key =
     .key = A
 openpgp-key-man-key-details-key =
     .key = I
-
 openpgp-ign-addr-intro = Souhlasíte s použitím tohoto klíče pro vybrané e-mailové adresy:
-
 openpgp-key-details-doc-title = Vlastnosti klíče
 openpgp-key-details-signatures-tab =
     .label = Potvrzení
@@ -283,17 +264,13 @@ openpgp-key-details-id-label =
 openpgp-key-details-key-type-label = Typ
 openpgp-key-details-key-part-label =
     .label = Část klíče
-
 openpgp-key-details-attr-ignored = Upozornění: Tento klíč nemusí fungovat podle očekávání, protože některé jeho vlastnosti nejsou bezpečné a mohou být ignorovány.
 openpgp-key-details-attr-upgrade-sec = Nebezpečné vlastnosti byste měli aktualizovat.
 openpgp-key-details-attr-upgrade-pub = Požádejte vlastníka klíče, aby nebezpečné vlastnosti tohoto klíče aktualizoval.
-
 openpgp-key-details-upgrade-unsafe =
     .label = Aktualizovat nebezpečné vlastnosti
     .accesskey = p
-
 openpgp-key-details-upgrade-ok = Klíč byl úspěšně aktualizován. Nyní byste měli sdílet nový veřejný klíč se svými korespondenty.
-
 openpgp-key-details-algorithm-label =
     .label = Algoritmus
 openpgp-key-details-size-label =
@@ -330,7 +307,6 @@ openpgp-personal-no-label =
     .label = Ne, nepoužívat ho jako můj osobní klíč.
 openpgp-personal-yes-label =
     .label = Ano, považovat tento klíč za osobní klíč.
-
 openpgp-copy-cmd-label =
     .label = Kopírovat
 
@@ -338,7 +314,6 @@ openpgp-copy-cmd-label =
 
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-no-key = { -brand-short-name } nemá osobní klíč OpenPGP pro <b>{ $identity }</b>
-
 #   $count (Number) - the number of configured keys associated with the current identity
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-has-keys =
@@ -352,76 +327,54 @@ openpgp-description-has-keys =
         [few] { $count } osobní klíče OpenPGP pro <b>{ $identity }</b>
        *[other] { $count } osobních klíčů OpenPGP pro <b>{ $identity }</b>
     }
-
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Vaše současná konfigurace používá klíč s ID <b>{ $key }</b>
-
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Vaše současná konfigurace používá klíč <b>{ $key }</b>, jehož platnost skončila.
-
 openpgp-add-key-button =
     .label = Přidat klíč…
     .accesskey = a
-
 e2e-learn-more = Zjistit více
-
 openpgp-keygen-success = Klíč OpenPGP byl úspěšně vytvořen!
-
 openpgp-keygen-import-success = Klíče OpenPGP byly úspěšně naimportovány!
-
 openpgp-keygen-external-success = ID externího klíče v GnuPG bylo uloženo!
 
 ## OpenPGP Key selection area
 
 openpgp-radio-none =
     .label = Žádný
-
 openpgp-radio-none-desc = Pro tuto identitu OpenPGP nepoužívat.
-
 openpgp-radio-key-not-usable = Tento klíč nelze použít jako osobní, protože chybí tajný klíč.
 openpgp-radio-key-not-accepted = Pro použití tohoto klíče ho nejprve musíte schválit jako osobní.
 openpgp-radio-key-not-found =
-    Tento klíč se nepodařilo najít. Pokud ho chcete použít, nejdříve ho do { -brand-short-name.gender ->
-        [masculine] { -brand-short-name(case: "gen") }
-        [feminine] { -brand-short-name(case: "gen") }
-        [neuter] { -brand-short-name(case: "gen") }
-       *[other] aplikace { -brand-short-name }
-    } naimportujte.
-
-#   $key (String) - the expiration date of the OpenPGP key
+    { -brand-short-name.case-status ->
+        [with-cases] Tento klíč se nepodařilo najít. Pokud ho chcete použít, nejdříve ho do { -brand-short-name(case: "gen") } naimportujte.
+       *[no-cases] Tento klíč se nepodařilo najít. Pokud ho chcete použít, nejdříve ho do aplikace { -brand-short-name } naimportujte.
+    }
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Datum konce platnosti: { $date }
-
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Platnost skončila dne { $date }
-
 openpgp-key-expires-within-6-months-icon =
     .title = Platnost klíče skončí za méně než 6 měsíců
-
 openpgp-key-has-expired-icon =
     .title = Platnost klíče vypršela
-
 openpgp-key-expand-section =
     .tooltiptext = Více informací
-
 openpgp-key-revoke-title = Zneplatnit klíč
-
 openpgp-key-edit-title = Změnit klíč OpenPGP
-
 openpgp-key-edit-date-title = Prodloužit dobu platnosti
-
 openpgp-manager-description = Pomocí správce klíčů OpenPGP si můžete zobrazit a spravovat veřejné klíče svých korespondentů a všechny další klíče, které nejsou uvedeny výše.
-
 openpgp-manager-button =
     .label = Správce klíčů OpenPGP
     .accesskey = k
-
 openpgp-key-remove-external =
     .label = Odebrat ID externího klíče
     .accesskey = e
-
 key-external-label = Externí klíč v GnuPG
 
-# Strings in keyDetailsDlg.xhtml
+## Strings in keyDetailsDlg.xhtml
+
 key-type-public = veřejný klíč
 key-type-primary = primární klíč
 key-type-subkey = podklíč
@@ -432,21 +385,28 @@ key-usage-sign = Podepisování
 key-usage-certify = Certifikace
 key-usage-authentication = Ověřování
 key-does-not-expire = Platnost klíče není omezená
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Platnost klíče vypršela dne { $keyExpiry }
 key-expired-simple = Platnost klíče vypršela
 key-revoked-simple = Klíč byl zneplatněn
 key-do-you-accept = Přijímáte tento klíč k účelům ověřování digitálních podpisů a šifrování zpráv?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Ověřte otisk klíče pomocí jiného bezpečného komunikačního kanálu, že jde opravdu o klíč náležící vlastníkovi { $addr }.
 
-# Strings enigmailMsgComposeOverlay.js
+## Strings enigmailMsgComposeOverlay.js
+
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Zprávu nelze odeslat, protože se u vašeho osobního klíče vyskytl problém. { $problem }
 cannot-encrypt-because-missing = Tuto zprávu nelze odeslat za použití koncového šifrování, protože u klíčů následujících příjemců se vyskytly problémy: { $problem }
 window-locked = Okno psaní zprávy je uzamčeno; odesílání bylo zrušeno
-
 # Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-concealed-data = Toto je zašifrovaná část zprávy. Otevřít ji musíte v samostatném okně klepnutím na přílohu.
 
-# Strings in keyserver.jsm
+## Strings in keyserver.jsm
+
 keyserver-error-aborted = Přerušeno
 keyserver-error-unknown = Došlo k neznámé chybě
 keyserver-error-server-error = Server klíčů ohlásil chybu.
@@ -456,7 +416,8 @@ keyserver-error-security-error = Server klíčů nepodporuje šifrovaný příst
 keyserver-error-certificate-error = Server klíčů používá neplatný certifikát.
 keyserver-error-unsupported = Tento server klíčů není podporován.
 
-# Strings in mimeWkdHandler.jsm
+## Strings in mimeWkdHandler.jsm
+
 wkd-message-body-req =
     Váš poskytovatel e-mailu zpracoval váš požadavek na nahrání vašeho veřejného klíče do webového adresáře klíčů OpenPGP.
     Potvrďte prosím publikování svého veřejného klíče.
@@ -464,29 +425,39 @@ wkd-message-body-process =
     Toto je e-mail zaslaný v souvislosti s automatickým zpracováním požadavku na nahrání vašeho veřejného klíče do webového adresáře klíčů OpenPGP.
     V tuto chvíli není z vaší strany nutná žádná akce.
 
-# Strings in persistentCrypto.jsm
+## Strings in persistentCrypto.jsm
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Zprávu s předmětem „{ $subject }“ se nepodařilo dešifrovat.
     Chcete to zkusit s jinou přístupovou frází nebo chcete zprávu přeskočit?
 
-# Strings filters.jsm
+## Strings filters.jsm
+
 filter-folder-required = Musíte vybrat cílovou složku.
 filter-decrypt-move-warn-experimental =
     VAROVÁNÍ: Akce filtru „Dešifrovat nastálo“ může vést ke zničení zpráv.
     Důrazně doporučujeme nejprve vyzkoušet filtr „Vytvořit dešifrovanou kopii“, výsledek pečlivě překontrolovat, a tento filtr začít používat až poté, co budete s výsledkem spokojeni.
 filter-term-pgpencrypted-label = Zašifrováno pomocí OpenPGP
 filter-key-required = Musíte vybrat klíč příjemce.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Nepodařilo se najít šifrovací klíč pro '{ $desc }'.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     VAROVÁNÍ: Akce filtru „Šifrovat do klíče“ nahradí příjemce.
     Pokud nemáte tajný klíč pro '{ $desc }', nebudete už moci e-maily číst.
 
-# Strings filtersWrapper.jsm
+## Strings filtersWrapper.jsm
+
 filter-decrypt-move-label = Dešifrovat nastálo (OpenPGP)
 filter-decrypt-copy-label = Vytvořit dešifrovanou kopii (OpenPGP)
 filter-encrypt-label = Šifrovat do klíče (OpenPGP)
 
-# Strings in enigmailKeyImportInfo.js
+## Strings in enigmailKeyImportInfo.js
+
 import-info-title =
     .title = Import klíčů proběhl úspěšně!
 import-info-bits = Bitů
@@ -495,11 +466,14 @@ import-info-fpr = Otisk
 import-info-details = Zobrazit podrobnosti a spravovat přijetí klíče
 import-info-no-keys = Nebyly naimportovány žádné klíče.
 
-# Strings in enigmailKeyManager.js
+## Strings in enigmailKeyManager.js
+
 import-from-clip = Přejete si naimportovat nějaké klíče ze schránky?
 import-from-url = Stáhnout veřejný klíč z této URL adresy:
 copy-to-clipbrd-failed = Vybrané klíče nelze zkopírovat do schránky.
 copy-to-clipbrd-ok = Klíče byly zkopírovány do schránky
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     VAROVÁNÍ: Chystáte se odstranit tajný klíč!
     
@@ -510,6 +484,8 @@ delete-mix =
     VAROVÁNÍ: Chystáte se odstranit tajné klíče!
     Pokud odstraníte svůj tajný klíč, nebudete už moci dešifrovat žádné zprávy zašifrované pro tento klíč.
     Opravdu chcete u vybraných klíčů odstranit OBA, jak tajný klíč tak i veřejný klíč?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Přejete si odstranit tento veřejný klíč
     '{ $userId }'?
@@ -530,6 +506,8 @@ default-pub-key-filename = Exportovane-verejne-klice
 default-pub-sec-key-filename = Zaloha-tajnych-klicu
 refresh-key-warn = VAROVÁNÍ: V závislosti na počtu klíčů a rychlosti připojení k internetu může trvat obnovení seznamu všech klíčů delší dobu!
 preview-failed = Soubor s veřejným klíčem nelze přečíst.
+# Variables:
+# $reason (String) - Error description.
 general-error = Chyba: { $reason }
 dlg-button-delete = S&mazat
 
@@ -537,11 +515,14 @@ dlg-button-delete = S&mazat
 
 openpgp-export-public-success = <b>Veřejný klíč byl úspěšně vyexportován!</b>
 openpgp-export-public-fail = <b>Vybraný veřejný klíč nelze vyexportovat!</b>
-
 openpgp-export-secret-success = <b>Tajný klíč byl úspěšně vyexportován!</b>
 openpgp-export-secret-fail = <b>Vybraný tajný klíč nelze vyexportovat!</b>
 
-# Strings in keyObj.jsm
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Klíč { $userId } (ID klíče { $keyId }) je zneplatněn.
 key-ring-pub-key-expired = Platnost klíče { $userId } (ID klíče { $keyId }) vypršela.
 key-ring-no-secret-key = Zdá se, že pro { $userId } (ID klíče { $keyId }) nemáte v klíčence tajný klíč, a nemůžete ho tedy používat k podepisování.
@@ -552,77 +533,80 @@ key-ring-sign-sub-keys-expired = Platnost všech podpisových podklíčů klíč
 key-ring-enc-sub-keys-revoked = Všechny šifrovací podklíče klíče { $userId } (ID klíče { $keyId }) jsou zneplatněny.
 key-ring-enc-sub-keys-expired = Platnost všech šifrovacích podklíčů klíče { $userId } (ID klíče { $keyId }) vypršela.
 
-# Strings in gnupg-keylist.jsm
+## Strings in gnupg-keylist.jsm
+
 keyring-photo = Fotografie
 user-att-photo = Atribut uživatele (obrázek JPEG)
 
-# Strings in key.jsm
-already-revoked = Tento klíč už byl zneplatněn.
+## Strings in key.jsm
 
+already-revoked = Tento klíč už byl zneplatněn.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
     Chystáte se zneplatnit klíč '{ $identity }'.
     Tímto klíčem už nebudete moci podepisovat a po jeho rozeslání již ostatní nebudou moci pomocí tohoto klíče šifrovat. Stále jím však budete moci dešifrovat staré zprávy.
     Přejete si pokračovat?
-
 #   $keyId (String) - the id of the key being revoked
 revoke-key-not-present =
     Nemáte žádný klíč (0x{ $keyId }), který odpovídá tomuto revokačnímu certifikátu.
     Pokud jste svůj klíč ztratili, musíte ho před importem revokačního certifikátu naimportovat (např. ze serveru klíčů).
-
 #   $keyId (String) - the id of the key being revoked
 revoke-key-already-revoked = Klíč 0x{ $keyId } už byl zneplatněn.
-
 key-man-button-revoke-key = &Zneplatnit klíč
-
 openpgp-key-revoke-success = Klíč byl úspěšně zneplatněn.
-
 after-revoke-info =
     Klíč byl zneplatněn.
     Aby se ostatní dozvěděli o jeho zneplatnění, znovu tento veřejný klíč sdílejte e-mailem nebo nahráním na servery klíčů.
     Jakmile se software používaný ostatními o zneplatnění dozví, přestane váš starý klíč používat.
     Pokud pro stejnou e-mailovou adresu používáte nový klíč a tento nový veřejný klíč přiložíte ke svým odesílaným e-mailům, automaticky v nich budou zahrnuty i informace o vašem starém zneplatněném klíči.
 
-# Strings in keyRing.jsm & decryption.jsm
+## Strings in keyRing.jsm & decryption.jsm
+
 key-man-button-import = &Importovat
-
 delete-key-title = Odstranit klíč OpenPGP
-
 delete-external-key-title = Odebrat externí klíč GnuPG
-
 delete-external-key-description = Chcete odebrat ID tohoto externího klíče GnuPG?
-
 key-in-use-title = Klíč OpenPGP se aktuálně používá
-
 delete-key-in-use-description = Nelze pokračovat, protože klíč vybraný k odstranění je aktuálně používán touto identitou. Vyberte jiný nebo žádný klíč a zkuste to znovu.
-
 revoke-key-in-use-description = Nelze pokračovat, protože klíč vybraný k zneplatnění je aktuálně používán touto identitou. Vyberte jiný nebo žádný klíč a zkuste to znovu.
 
-# Strings used in errorHandling.jsm
+## Strings used in errorHandling.jsm
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = E-mailovou adresu '{ $keySpec }' nelze přiřadit k žádnému klíči ve vaší klíčence.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = Nastavený klíč s ID '{ $keySpec }' nelze v klíčence najít.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Nepotvrdili jste, že je klíč s ID '{ $keySpec }' vaším osobním klíčem.
 
-# Strings used in enigmailKeyManager.js & windows.jsm
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 need-online = Vybraná funkce není dostupná v režimu offline. Přejděte prosím do režimu online a zkuste to znovu.
 
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 no-key-found2 = Nenašli jsme žádný použitelný klíč odpovídající zadaným kritériím.
 no-update-found = Klíče objevené online už máte.
 
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 fail-key-extract = Chyba: Extrahování klíče selhalo
 
-# Strings used in keyRing.jsm
+## Strings used in keyRing.jsm
+
 fail-cancel = Chyba: Příjem klíče zrušen uživatelem
 not-first-block = Chyba: První blok OpenPGP není blokem veřejného klíče
 import-key-confirm = Importovat veřejné klíče vložené do zprávy?
 fail-key-import = Chyba: Importování klíče selhalo
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Zápis do souboru { $output } selhal
 no-pgp-block = Chyba: Nenalezen platný blok dat OpenPGP
 confirm-permissive-import = Import se nezdařil. Klíč, který se pokoušíte naimportovat, může být poškozený, nebo používá neznámé atributy. Chcete se pokusit naimportovat jeho korektní části? To může mít za následek import neúplných a nepoužitelných klíčů.
 
-# Strings used in trust.jsm
+## Strings used in trust.jsm
+
 key-valid-unknown = není známo
 key-valid-invalid = vadný
 key-valid-disabled = zakázaný
@@ -634,15 +618,19 @@ key-trust-full = důvěryhodný
 key-trust-ultimate = absolutně důvěryhodný
 key-trust-group = (skupina)
 
-# Strings used in commonWorkflows.js
+## Strings used in commonWorkflows.js
+
 import-key-file = Importovat soubor s klíčem OpenPGP
 import-rev-file = Importovat soubor se zneplatněním OpenPGP
 gnupg-file = Soubory GnuPG
 import-keys-failed = Importování klíčů selhalo
+# Variables:
+# $key (String) - Key id to unlock.
 passphrase-prompt = Zadejte prosím heslo, které odemkne následující klíč: { $key }
 file-to-big-to-import = Tento soubor je příliš velký. Neimportujte velké množství klíčů najednou.
 
-# Strings used in enigmailKeygen.js
+## Strings used in enigmailKeygen.js
+
 save-revoke-cert-as = Vytvořit a uložit revokační certifikát
 revoke-cert-ok = Revokační certifikát byl úspěšně vytvořen. Můžete ho použít ke zneplatnění svého veřejného klíče, např. v případě ztráty svého tajného klíče.
 revoke-cert-failed = Revokační certifikát nemohl být vytvořen.
@@ -650,20 +638,29 @@ gen-going = Vytváření klíče již probíhá!
 keygen-missing-user-name = Pro vybraný účet či identitu není zadáno žádné jméno. Zadejte prosím v nastavení účtu nějakou hodnotu do pole „Vaše jméno“.
 expiry-too-short = Váš klíč musí být platný minimálně jeden den.
 expiry-too-long = Nemůžete vytvořit klíč s platností delší než 100 let.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Chcete vytvořit veřejný a tajný klíč pro '{ $id }'?
 key-man-button-generate-key = &Vytvořit klíč
 key-abort = Přerušit vytváření klíče?
 key-man-button-generate-key-abort = &Přerušit vytváření klíče
 key-man-button-generate-key-continue = &Pokračovat ve vytváření klíče
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
 
 failed-decrypt = Chyba: Dešifrování se nezdařilo
 fix-broken-exchange-msg-failed = Zprávu se nepodařilo opravit.
-
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Soubor s podpisem '{ $attachment }' nelze přiřadit k žádné příloze
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Přílohu '{ $attachment }' nelze přiřadit k žádnému souboru s podpisem
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = Podpis přílohy { $attachment } byl úspěšně ověřen
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = Podpis přílohy { $attachment } nelze ověřit
 decrypt-ok-no-sig =
     VAROVÁNÍ
@@ -671,14 +668,23 @@ decrypt-ok-no-sig =
 msg-ovl-button-cont-anyway = &Přesto pokračovat
 enig-content-note = *Přílohy v této zprávě nebyly podepsány ani zašifrovány*
 
-# Strings used in enigmailMsgComposeOverlay.js
+## Strings used in enigmailMsgComposeOverlay.js
+
 msg-compose-button-send = &Odeslat zprávu
 msg-compose-details-button-label = Podrobnosti…
 msg-compose-details-button-access-key = P
 send-aborted = Odesílání zprávy bylo přerušeno.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Klíč '{ $key }' nemá dostatečnou důvěryhodnost
+# Variables:
+# $key (String) - Key id.
 key-not-found = Klíč '{ $key }' nebyl nalezen
+# Variables:
+# $key (String) - Key id.
 key-revoked = Klíč '{ $key }' byl zneplatněn
+# Variables:
+# $key (String) - Key id.
 key-expired = Platnost klíče '{ $key }' vypršela
 msg-compose-internal-error = Došlo k vnitřní chybě.
 keys-to-export = Vyberte klíče OpenPGP, které chcete vložit
@@ -690,6 +696,8 @@ msg-compose-partially-encrypted-short = Pozor na únik citlivých informací, e-
 quoted-printable-warn =
     Pro odesílání zpráv jste povolili kódování 'quoted-printable', což může mít za následek nesprávné dešifrování nebo ověření vaší zprávy.
     Přejete si nyní odesílání zpráv v kódování 'quoted-printable' vypnout?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Nastavili jste zalamování řádků na { $width } znaků. Pro správné šifrování a podepisování musí být tato hodnota nejméně 68.
     Přejete si nyní změnit zalamování řádků na 68 znaků?
@@ -702,36 +710,58 @@ send-to-news-warning =
     Opravdu chcete pokračovat?
 save-attachment-header = Uložit dešifrovanou přílohu
 possibly-pgp-mime = Tato zpráva je možná zašifrovaná nebo podepsaná pomocí PGP/MIME. Ověřit si to můžete pomocí funkce „Dešifrovat“ nebo „Ověřit“.
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Tuto zprávu nelze digitálně podepsat, protože jste pro <{ $key }> dosud nenastavili koncové šifrování
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Tuto zprávu nelze odeslat zašifrovaně, protože jste dosud pro <{ $key }> nenastavili koncové šifrování
 
-# Strings used in decryption.jsm
+## Strings used in decryption.jsm
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Chcete naimportovat následující klíče?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = Chcete importovat klíč { $name } ({ $id })?
 cant-import = Při importu veřejného klíče došlo k chybě
 unverified-reply = Odsazená část zprávy (odpověď) byla pravděpodobně pozměněna
 key-in-message-body = V těle zprávy byl nalezen klíč. Pro jeho naimportování klikněte na „Importovat klíč“
 sig-mismatch = Chyba: Podpis nesouhlasí
 invalid-email = Chyba: Neplatná e-mailová adresa
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Zdá se, že otevíraná příloha „{ $name }“ je soubor s klíčem OpenPGP.
     Pokud chcete obsažené klíče importovat, klepněte na „Importovat“. Pro zobrazení v okně prohlížeče klepněte na „Zobrazit.“.
 dlg-button-view = &Zobrazit
 
-# Strings used in enigmailMsgHdrViewOverlay.js
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 decrypted-msg-with-format-error = Dešifrovaná zpráva (obnovený poškozený formát e-mailu v PGP, což pravděpodobně zapříčinil starý server Exchange, takže výsledek nemusí být dokonalý)
 
-# Strings used in encryption.jsm
+## Strings used in encryption.jsm
+
 not-required = Chyba: Šifrování není vyžadováno
 
-# Strings used in windows.jsm
+## Strings used in windows.jsm
+
 no-photo-available = Fotografie není k dispozici
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Cesta k fotografii '{ $photo }' není čitelná
 debug-log-title = Protokol ladění OpenPGP
 
-# Strings used in dialog.jsm
+## Strings used in dialog.jsm
+
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix =
     Toto upozornění se zobrazí ještě { $count ->
         [one] jednou
@@ -751,10 +781,12 @@ enig-confirm = Potvrzení - OpenPGP
 enig-alert = Upozornění - OpenPGP
 enig-info = Informace - OpenPGP
 
-# Strings used in persistentCrypto.jsm
+## Strings used in persistentCrypto.jsm
+
 dlg-button-retry = &Opakovat
 dlg-button-skip = &Přeskočit
 
-# Strings used in enigmailMsgBox.js
+## Strings used in enigmailMsgBox.js
+
 enig-alert-title =
     .title = Upozornění - OpenPGP

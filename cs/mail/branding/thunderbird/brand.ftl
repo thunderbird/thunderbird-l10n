@@ -26,37 +26,40 @@
     .case-status = with-cases
 -brand-short-name =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirdu
         [dat] Thunderbirdu
         [acc] Thunderbird
         [voc] Thunderbirde
         [loc] Thunderbirdu
         [ins] Thunderbirdem
+       *[nom] Thunderbird
     }
     .gender = masculine
+    .case-status = with-cases
 -brand-full-name = Mozilla Thunderbird
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirdu
         [dat] Thunderbirdu
         [acc] Thunderbird
         [voc] Thunderbirde
         [loc] Thunderbirdu
         [ins] Thunderbirdem
+       *[nom] Thunderbird
     }
     .gender = masculine
+    .case-status = with-cases
 -vendor-short-name =
     { $case ->
-       *[nom] Mozilla
         [gen] Mozilly
         [dat] Mozille
         [acc] Mozillu
         [voc] Mozillo
         [loc] Mozille
         [ins] Mozillou
+       *[nom] Mozilla
     }
     .gender = feminine
+    .case-status = with-cases
