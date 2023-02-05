@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Calendario
 category-calendar =
     .tooltiptext = Calendario
+pane-sync-title = Sincronizar
+category-sync =
+    .tooltiptext = Sincronizar
 general-language-and-appearance-header = Idioma y apariencia
 general-incoming-mail-header = Mensajes entrantes
 general-files-and-attachment-header = Archivos y adjuntos
@@ -124,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Añadir proveedor OpenSearch
 add-opensearch-provider-text = Introduzca la URL del proveedor de OpenSearch a añadir. Utilice la URL directa del archivo de descripción de OpenSearch o una URL donde se pueda descubrir automáticamente.
 adding-opensearch-provider-failed-title = No se ha podido añadir el proveedor OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = No se ha podido añadir el proveedor OpenSearch para { $url }.
 minimize-to-tray-label =
     .label = Cuando se minimiza { -brand-short-name }, moverlo a la bandeja del sistema
@@ -190,6 +195,14 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Mostrar siempre las barras de desplazamiento
     .accesskey = z
+window-layout-legend = Disposición de ventana
+draw-in-titlebar-label =
+    .label = Ocultar la barra de título de la ventana del sistema
+    .accesskey = O
+auto-hide-tabbar-label =
+    .label = Ocultar automáticamente la barra de pestañas
+    .accesskey = a
+auto-hide-tabbar-description = Ocultar la barra de pestañas cuando sólo hay una pestaña abierta
 system-integration-legend = Integración con el sistema
 always-check-default =
     .label = Comprobar siempre al iniciar si { -brand-short-name } es el cliente de correo por omisión
@@ -270,6 +283,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Limpiar ahora
     .accesskey = L
+clear-cache-shutdown-label =
+    .label = Borrar la caché al apagar
+    .accesskey = a
 fonts-legend = Tipografías y colores
 default-font-label =
     .value = Tipo de letra predeterminado:
@@ -707,3 +723,45 @@ search-results-empty-message2 =
        *[other] ¡Lo sentimos! No hay resultados para "<span data-l10n-name="query"></span>" en los ajustes.
     }
 search-results-help-link = ¿Necesita ayuda? Visite la ayuda de <a data-l10n-name="url">{ -brand-short-name }</a>
+
+## Sync Tab
+
+sync-signedout-caption = Llévese la web con usted
+sync-signedout-description = Sincronice sus cuentas, libretas de direcciones, calendarios, complementos y ajustes en todos sus dispositivos.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Iniciar sesión en Sync…
+sync-pane-header = Sincronizar
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” no está verificado.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Inicie sesión para volver a conectarse con “{ $userEmail }”
+sync-pane-resend-verification = Volver a enviar la verificación
+sync-pane-sign-in = Iniciar sesión
+sync-pane-remove-account = Eliminar la cuenta
+sync-pane-edit-photo =
+    .title = Cambiar la imagen del perfil
+sync-pane-manage-account = Administrar la cuenta
+sync-pane-sign-out = Cerrar la sesión…
+sync-pane-device-name-title = Nombre del dispositivo
+sync-pane-change-device-name = Cambiar el nombre del dispositivo
+sync-pane-cancel = Cancelar
+sync-pane-save = Guardar
+sync-pane-show-synced-header-on = Sincronización ACTIVADA
+sync-pane-show-synced-header-off = Sincronización DESACTIVADA
+sync-pane-sync-now = Sincronizar ahora
+sync-panel-sync-now-syncing = Sincronizando…
+show-synced-list-heading = En este momento está sincronizando estos elementos:
+show-synced-learn-more = Saber más…
+show-synced-item-account = Cuentas de correo electrónico
+show-synced-item-address = Libretas de direcciones
+show-synced-item-calendar = Calendarios
+show-synced-item-identity = Identidades
+show-synced-item-passwords = Contraseñas
+show-synced-change = Cambiar…
+synced-acount-item-server-config = Configuración del servidor
+synced-acount-item-filters = Filtros
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Sincronice sus cuentas de correo electrónico, libretas de direcciones, calendarios e identidades en todos sus dispositivos.
+sync-disconnected-turn-on-sync = Activar la sincronización…
