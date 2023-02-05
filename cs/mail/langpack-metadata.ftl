@@ -9,4 +9,4 @@
 langpack-creator = Mozilla.cz
 # To credit multiple contributors, use a comma-delimited list.
 # Example: Joe Solon, Suzy Solon
-langpack-contributors = Pavel Cvrček, Pavel Franc, Michal Stanke, Michal Vašíček
+langpack-contributors = Česká komunita dobrovolných překladatelů Mozilla.cz
