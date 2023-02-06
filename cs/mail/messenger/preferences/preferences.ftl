@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Kalendář
 category-calendar =
     .tooltiptext = Kalendář
+pane-sync-title = Synchronizace
+category-sync =
+    .tooltiptext = Synchronizace
 general-language-and-appearance-header = Zobrazení a jazyk stránek
 general-incoming-mail-header = Příchozí pošta
 general-files-and-attachment-header = Soubory a přílohy
@@ -249,6 +252,11 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Vždy zobrazovat posuvníky
     .accesskey = o
+window-layout-legend = Rozložení okna
+auto-hide-tabbar-label =
+    .label = Automaticky skrývat lištu panelů
+    .accesskey = A
+auto-hide-tabbar-description = Schovat lištu panelů, pokud je otevřen jen jeden panel
 system-integration-legend = Nastavení systému
 always-check-default =
     .label =
@@ -794,3 +802,42 @@ search-results-help-link =
 
 ## Sync Tab
 
+sync-signedout-caption = Vezměte si web s sebou
+sync-signedout-description = Synchronizujte své účty, kontakty, kalendáře, doplňky a nastavení ve všech svých zařízeních.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Přihlásit se k synchronizaci…
+sync-pane-header = Synchronizace
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = Účet { $email } není ověřen.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Pro opětovné připojení účtem { $email } se přihlaste
+sync-pane-resend-verification = Znovu odeslat ověření
+sync-pane-sign-in = Přihlásit se
+sync-pane-remove-account = Odebrat účet
+sync-pane-edit-photo =
+    .title = Změnit profilový obrázek
+sync-pane-manage-account = Správa účtu
+sync-pane-sign-out = Odhlásit se…
+sync-pane-device-name-title = Název zařízení
+sync-pane-change-device-name = Přejmenovat zařízení
+sync-pane-cancel = Zrušit
+sync-pane-save = Uložit
+sync-pane-show-synced-header-on = Synchronizace zapnuta
+sync-pane-show-synced-header-off = Synchronizace vypnuta
+sync-pane-sync-now = Synchronizovat
+sync-panel-sync-now-syncing = Probíhá synchronizace…
+show-synced-list-heading = Máte zapnutou synchronizaci následujících dat:
+show-synced-learn-more = Zjistit více…
+show-synced-item-account = E-mailové účty
+show-synced-item-address = Kontakty
+show-synced-item-calendar = Kalendáře
+show-synced-item-identity = Identity
+show-synced-item-passwords = Hesla
+show-synced-change = Změnit…
+synced-acount-item-server-config = Nastavení serveru
+synced-acount-item-filters = Filtry
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synchronizujte své e-mailové účty, kontakty, kalendáře, doplňky a identity ve všech svých zařízeních.
+sync-disconnected-turn-on-sync = Zapnout synchronizaci…
