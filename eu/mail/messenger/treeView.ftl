@@ -5,5 +5,24 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Kontrol-laukia txandakatzeko uneko errenkada aukeratua
+    .title = Hautatu uneko errenkada
+tree-list-view-row-deselect =
+    .alt = Kontrol-laukia txandakatzeko uneko errenkada aukeratua
+    .title = Desautatu uneko errenkada
+tree-list-view-row-delete =
+    .title = Ezabatu uneko errenkada
 tree-list-view-column-picker =
     .title = Hautatu bistaratzeko zutabeak
+tree-list-view-column-picker-restore =
+    .label = Berrezarri zutabeen ordena
+tree-list-view-row-thread =
+    .alt = Mezu hariaren adierazlea
+    .title = Hau mezu hariduna da
+tree-list-view-row-flagged =
+    .alt = Mezu izardunaren adierazlea
+    .title = Izardun mezua
+tree-list-view-row-flag =
+    .alt = Mezu izardunaren adierazlea
+    .title = Mezu izargabea
