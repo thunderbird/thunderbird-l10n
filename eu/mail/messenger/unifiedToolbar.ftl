@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Bilatu:
 search-bar-placeholder = Bilatu…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -35,8 +43,12 @@ customize-space-tab-chat = Txata
 customize-space-tab-settings = Ezarpenak
     .title = Ezarpenak
 customize-restore-default = Berrezarri lehenetsiak
+customize-change-appearance = Aldatu itxura…
+customize-button-style-label = Botoien estiloa
 customize-button-style-icons-beside-text =
     .label = Ikonoak testuaren ondoan
+customize-button-style-icons-above-text =
+    .label = Ikonoak testuaren gainean
 customize-button-style-icons-only =
     .label = Ikonoak bakarrik
 customize-button-style-text-only =
