@@ -16,6 +16,7 @@ accounts-default = Lehenetsia?
 identity-name = Identitatea
 send-via-email = Bidali posta elektronikoz
 app-basics-telemetry = Telemetry datuak
+app-basics-cache-use = Katxe erabilera
 mail-libs-title = Liburutegiak
 libs-table-heading-library = Biltegia
 libs-table-heading-expected-version = Esperotako bertsio minimoa
