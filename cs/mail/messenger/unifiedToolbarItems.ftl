@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Pružná mezera
+search-bar-label = Vyhledávací pole
 toolbar-write-message-label = Napsat
 toolbar-write-message =
     .title = Vytvoří novou zprávu
@@ -74,6 +75,8 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Označit
 toolbar-mark-as =
     .title = Označí zprávu
+toolbar-view-picker-label = Zobrazit
+toolbar-address-book-label = Kontakty
 toolbar-address-book =
     .title = Přejde do Kontaktů
 toolbar-chat-label = Chat
@@ -88,6 +91,9 @@ toolbar-calendar =
 toolbar-tasks-label = Úkoly
 toolbar-tasks =
     .title = Přepne na panel úkolů
+toolbar-mail-label = Pošta
+toolbar-mail =
+    .title = Přepnout na panel s poštou
 toolbar-print-label = Tisk
 toolbar-print =
     .title = Vytiskne zprávu

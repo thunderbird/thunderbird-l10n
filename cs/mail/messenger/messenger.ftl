@@ -157,6 +157,9 @@ message-header-hide-label-column =
 message-header-large-subject =
     .label = Velký předmět
     .accesskey = p
+message-header-all-headers =
+    .label = Zobrazit všechny hlavičky
+    .accesskey = a
 
 ## Action Button Context Menu
 
