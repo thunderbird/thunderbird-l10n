@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Orain egutegi guztiak desgaituak daude
 calendar-notifications-label = Erakutsi jakinarazpenak hurrengo gertaerentzat
 calendar-add-notification-button =
     .label = Gehitu jakinarazpena
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = { $calendarName } egutegi aukera
 calendar-import-new-calendar = Egutegi berria…
     .title = Sortu edo harpidetu egutegi berri batera
 calendar-refresh-calendars =
