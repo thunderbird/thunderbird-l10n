@@ -124,6 +124,8 @@ threadpane-column-header-deselect-all =
     .title = Zrušit označení všech zpráv
 threadpane-column-label-select =
     .label = Vybrat zprávy
+threadpane-column-header-thread =
+    .title = Přepnout vlákna zpráv
 threadpane-column-label-thread =
     .label = Vlákno
 threadpane-column-header-flagged =
@@ -134,8 +136,14 @@ threadpane-column-header-attachments =
     .title = Seřadíte podle příloh
 threadpane-column-label-attachments =
     .label = Přílohy
+threadpane-column-header-spam =
+    .title = Seřadit podle stavu nevyžádané pošty
 threadpane-column-label-spam =
     .label = Nevyžádaná pošta
+threadpane-column-header-unread-button =
+    .title = Seřadit podle stavu přečtení
+threadpane-column-label-unread-button =
+    .label = Stav přečtení
 threadpane-column-header-sender = Od
     .title = Seřadíte podle odesílatele
 threadpane-column-label-sender =
@@ -203,8 +211,34 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indikátor nové zprávy
+    .title = Nová zpráva
+threadpane-message-replied =
+    .alt = Indikátor odpovědi
+    .title = Na zprávu bylo odpovězeno
+threadpane-message-redirected =
+    .alt = Indikátor přesměrování
+    .title = Zpráva přesměrována
+threadpane-message-forwarded =
+    .alt = Indikátor přeposlání
+    .title = Zpráva přeposlána
+threadpane-message-replied-forwarded =
+    .alt = Indikátor odpovědi a přeposlání
+    .title = Na zprávu bylo odpovězeno a byla přeposlána
+threadpane-message-replied-redirected =
+    .alt = Indikátor odpovědi a přesměrování
+    .title = Na zprávu bylo odpovězeno a byla přesměrována
+threadpane-message-forwarded-redirected =
+    .alt = Indikátor přeposlání a přesměrování
+    .title = Zpráva přeposlána a přesměrována
+threadpane-message-replied-forwarded-redirected =
+    .alt = Indikátor odpovědi, přeposlání a přesměrování
+    .title = Na zprávu bylo odpovězeno a byla přeposlána a přesměrována
 apply-columns-to-menu =
     .label = Změnit sloupce v…
+apply-current-view-to-menu =
+    .label = Použít současné zobrazení pro…
 apply-current-view-to-folder =
     .label = Složka…
 apply-current-view-to-folder-children =
@@ -212,9 +246,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Použít změny?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Použít sloupce z aktuální složky na složku { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Použít sloupce z aktuální složky na složku { $name } a její podsložky?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Použít zobrazení aktuální složky pro složku { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Použít zobrazení aktuální složky pro složku { $name } a její podsložky?
