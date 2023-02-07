@@ -13,14 +13,6 @@ search-bar-button =
 search-bar-item =
     .label = Ara:
 search-bar-placeholder = Ara…
-# Search bar placeholder with formatted key shortcut hint (platform dependent).
-# The key after the control modifier should match the key from quickSearchCmd.key
-# in messenger.dtd.
-search-bar-placeholder-with-key =
-    { PLATFORM() ->
-        [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
-       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
-    }
 
 ## Unified toolbar context menu
 
@@ -55,10 +47,20 @@ customize-button-style-text-only =
     .label = Yalnızca metin
 customize-cancel = Vazgeç
 customize-save = Kaydet
+customize-unsaved-changes = Diğer sekmelerde kaydedilmemiş değişiklikler var
 customize-search-bar =
     .label = Arama araç çubuğu düğmeleri…
+customize-spaces-tabs =
+    .aria-label = Sekmeler
 customize-main-toolbar-target =
     .aria-label = Ana araç çubuğu
+customize-palette-generic-title = Tüm sekmelerde kullanılabilir
+customize-palette-mail-specific-title = Yalnızca Posta sekmesinde kullanılabilir
+customize-palette-addressbook-specific-title = Yalnızca Adres Defteri sekmesinde kullanılabilir
+customize-palette-calendar-specific-title = Yalnızca Takvim sekmesinde kullanılabilir
+customize-palette-tasks-specific-title = Yalnızca Görevler sekmesinde kullanılabilir
+customize-palette-chat-specific-title = Yalnızca Sohbet sekmesinde kullanılabilir
+customize-palette-settings-specific-title = Yalnızca Ayarlar sekmesinde kullanılabilir
 
 ## Unified toolbar customization palette context menu
 
