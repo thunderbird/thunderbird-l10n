@@ -16,6 +16,7 @@ accounts-default = Προεπιλογή;
 identity-name = Ταυτότητα
 send-via-email = Αποστολή μέσω email
 app-basics-telemetry = Δεδομένα τηλεμετρίας
+app-basics-cache-use = Χρήση προσωρινής μνήμης
 mail-libs-title = Βιβλιοθήκες
 libs-table-heading-library = Βιβλιοθήκη
 libs-table-heading-expected-version = Αναμενόμενη ελάχιστη έκδοση
