@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Poskićowarja OpenSearch přidać
 add-opensearch-provider-text = Zapodajće URL poskićowarja OpenSearch, kotryž so ma přidać. Wužiwajće pak direktny URL wopisanskeje dataje OpenSearch pak URL, hdźež hodźi so awtomatisce namakać.
 adding-opensearch-provider-failed-title = Přidawanje  poskićowarja OpenSearch njeje so poradźiło
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Njeje móžno było, poskićowarja OpenSearch za { $url } přidać.
 minimize-to-tray-label =
     .label = Hdyž { -brand-short-name } je miniměrowany, přesuńće jón do žłobika.
@@ -729,6 +731,7 @@ search-results-help-link = Trjebaće pomoc? Wopytajće <a data-l10n-name="url">P
 ## Sync Tab
 
 sync-signedout-caption = Wzmiće swój web sobu
+sync-signedout-description = Synchronizujće swoje konta, adresniki, protyki, přidatki a nastajenja mjez wšěmi wašimi gratami.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Pola Sync přizjewić…
 sync-pane-header = Synchronizować
@@ -764,4 +767,5 @@ show-synced-change = Změnić…
 synced-acount-item-server-config = Serwerowa konfiguracija
 synced-acount-item-filters = Filtry
 synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synchronizujće swoje e-mejlowe konta, adresniki, protyki a identity mjez wšěmi wašimi gratami.
 sync-disconnected-turn-on-sync = Synchronizaciju zmóžnić…
