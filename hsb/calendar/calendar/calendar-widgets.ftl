@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Wšě protyki su tuchwilu znjemóžnje
 calendar-notifications-label = Zdźělenki za přichodne podawki pokazać
 calendar-add-notification-button =
     .label = Zdźělenku přidać
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Nastajenje protyki { $calendarName }
 calendar-import-new-calendar = Nowa protyka…
     .title = Nowu protyku wutworić abo abonować
 calendar-refresh-calendars =
