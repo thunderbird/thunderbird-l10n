@@ -16,9 +16,9 @@ search-bar-placeholder = Buscar…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
 # in messenger.dtd.
-search-bar-placeholder-with-key =
+search-bar-placeholder-with-key2 =
     { PLATFORM() ->
-        [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
        *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
     }
 
@@ -76,6 +76,8 @@ customize-palette-settings-specific-title = Disponible sólo para el espacio de 
 # $target (String) - Name of the target the item should be added to.
 customize-palette-add-to =
     .label = Agregar a { $target }
+customize-palette-add-everywhere =
+    .label = Agregar a todas las barras de herramientas
 
 ## Unified toolbar customization target context menu
 
@@ -85,3 +87,11 @@ customize-target-backward =
     .label = Mover atrás
 customize-target-remove =
     .label = Eliminar
+customize-target-remove-everywhere =
+    .label = Eliminar de todas las barras de herramientas
+customize-target-add-everywhere =
+    .label = Agregar a todas las barras de herramientas
+customize-target-start =
+    .label = Mover al inicio
+customize-target-end =
+    .label = Mover al final
