@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Pytać:
 search-bar-placeholder = Pytać…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Strg</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -47,6 +55,9 @@ customize-button-style-text-only =
     .label = Jenož tekst
 customize-cancel = Přetorhnyć
 customize-save = Składować
+customize-unsaved-changes = Njeskładowane změny w druhich rumach
+customize-search-bar =
+    .label = Tłóčatka symbolowej lajsty pytać…
 customize-spaces-tabs =
     .aria-label = Rumy
 customize-main-toolbar-target =
