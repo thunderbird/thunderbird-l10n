@@ -72,8 +72,9 @@ openpgp-keygen-missing-username = Za trenutni račun ni določenega imena. V nas
 openpgp-keygen-long-expiry = Ne morete ustvariti ključa, ki preteče čez več kot 100 let.
 openpgp-keygen-short-expiry = Ključ mora biti veljaven vsaj en dan.
 openpgp-keygen-ongoing = Ustvarjanje ključev že poteka!
+openpgp-keygen-error-core = Jedrne storitve OpenPGP ni mogoče inicializirati
 openpgp-keygen-error-failed = Ustvarjanje ključev OpenPGP je nepričakovano spodletelo
-#   $identity (String) - the newly generate OpenPGP Key
+#   $key (String) - the ID of the newly generated OpenPGP key
 openpgp-keygen-error-revocation = Ključ OpenPGP je bil uspešno ustvarjen, ni pa bilo mogoče pridobiti preklica za ključ { $key }
 openpgp-keygen-abort-title = Prekini ustvarjanje ključev?
 openpgp-keygen-abort = V teku je ustvarjanje ključev OpenPGP, ali ste prepričani, da ga želite prekiniti?
@@ -97,7 +98,7 @@ openpgp-import-key-list-amount-2 =
 openpgp-import-key-list-description = Potrdite, kateri ključi naj se obravnavajo kot vaši osebni ključi. Kot osebne ključe uporabljajte samo ključe, ki ste jih ustvarili sami in ki izkazujejo vašo identiteto. To možnost lahko pozneje spremenite v pogovornem oknu Lastnosti ključa.
 openpgp-import-key-list-caption = Ključi, označeni za obravnavo kot osebni ključi, bodo navedeni v razdelku Šifriranje od konca do konca. Ostali bodo na voljo v upravitelju ključev.
 openpgp-passphrase-prompt-title = Zahtevano je geslo
-#   $identity (String) - the id of the key being imported
+#   $key (String) - the id of the key being imported
 openpgp-passphrase-prompt = Vnesite geslo za odklepanje naslednjega ključa: { $key }
 openpgp-import-key-button =
     .label = Izberi datoteko za uvoz …

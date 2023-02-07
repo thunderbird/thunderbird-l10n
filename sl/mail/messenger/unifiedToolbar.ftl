@@ -72,6 +72,10 @@ customize-palette-settings-specific-title = Na voljo samo za komponento Nastavit
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Dodaj v vrstico { $target }
 customize-palette-add-everywhere =
     .label = Dodaj v vse orodne vrstice
 
