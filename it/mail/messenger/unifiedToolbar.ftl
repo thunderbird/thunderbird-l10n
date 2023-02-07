@@ -17,7 +17,7 @@ search-bar-placeholder = Cerca…
 # The key after the control modifier should match the key from quickSearchCmd.key
 # in messenger.dtd.
 search-bar-placeholder-with-key2 =
-    { PIATTAFORMA() ->
+    { PLATFORM() ->
         [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
        *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
     }
@@ -92,6 +92,6 @@ customize-target-remove-everywhere =
 customize-target-add-everywhere =
     .label = Aggiungi a tutte le barre degli strumenti
 customize-target-start =
-    .label = Vai all'inizio
+    .label = Sposta all’inizio
 customize-target-end =
-    .label = Vai alla fine
+    .label = Sposta alla fine
