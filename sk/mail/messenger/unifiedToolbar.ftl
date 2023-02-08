@@ -16,9 +16,9 @@ search-bar-placeholder = Hľadať…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
 # in messenger.dtd.
-search-bar-placeholder-with-key =
+search-bar-placeholder-with-key2 =
     { PLATFORM() ->
-        [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
        *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
     }
 
@@ -76,6 +76,8 @@ customize-palette-settings-specific-title = Dostupné len pre kartu Nastavenia
 # $target (String) - Name of the target the item should be added to.
 customize-palette-add-to =
     .label = Pridať do { $target }
+customize-palette-add-everywhere =
+    .label = Pridať do všetkých panelov nástrojov
 
 ## Unified toolbar customization target context menu
 
@@ -85,3 +87,11 @@ customize-target-backward =
     .label = Posunúť vzad
 customize-target-remove =
     .label = Odstrániť
+customize-target-remove-everywhere =
+    .label = Odstrániť zo všetkých panelov nástrojov
+customize-target-add-everywhere =
+    .label = Pridať do všetkých panelov nástrojov
+customize-target-start =
+    .label = Presunúť na začiatok
+customize-target-end =
+    .label = Presunúť na koniec
