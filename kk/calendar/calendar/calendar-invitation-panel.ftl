@@ -5,9 +5,6 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } сізді шақырады:
-# Variables:
-# $organizer (String) - The participant that updated the original invitation.
-calendar-invitation-panel-intro-update = { $organizer } жаңартты:
 calendar-invitation-panel-status-new = Сіз бұл оқиғаға шақырылдыңыз
 calendar-invitation-panel-status-processed = Бұл оқиға күнтізбеңізге бұрыннан қосылған.
 calendar-invitation-panel-status-updateminor = Бұл хабарламада осы оқиғаға арналған жаңарту бар.
@@ -21,7 +18,6 @@ calendar-invitation-panel-intro-cancel = { $organizer } тоқтатты:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Сақтау
-calendar-invitation-panel-save-button = Сақтау
 calendar-invitation-panel-view-button = Қарау
 calendar-invitation-panel-update-button = Жаңарту
 calendar-invitation-panel-delete-button = Өшіру
@@ -32,6 +28,8 @@ calendar-invitation-panel-reply-status = * Сіз әлі шешім қабылд
 calendar-invitation-panel-more-button = Көбірек
 calendar-invitation-panel-menu-item-save =
     .label = Күнтізбеге сақтау
+calendar-invitation-panel-menu-item-save-copy =
+    .label = Көшірмесін сақтау
 calendar-invitation-panel-menu-item-toggle-changes =
     .label = Өзгерістерді көрсету
 calendar-invitation-panel-prop-title-when = Қашан:
@@ -49,6 +47,7 @@ calendar-invitation-datetime-time = { $time } ({ $timezone })
 # $startDate (String) - The date (without time) the event starts on.
 calendar-invitation-interval-all-day = { $startDate }
 # Example: September 16, 2022 – September 16, 2023
+# Variables:
 # $startMonth (String) - The month the interval starts.
 # $startDay   (String) - The day of the month the interval starts.
 # $startYear  (String) - The year the interval starts.
@@ -57,32 +56,38 @@ calendar-invitation-interval-all-day = { $startDate }
 # $endYear    (String) - The year the interval ends.
 calendar-invitation-interval-all-day-between-years = { $startYear } { $startMonth } { $startDay } – { $endYear } { $endMonth } { $endDay }
 # Example: September 16 – 20, 2022
+# Variables:
 # $month      (String) - The month the interval is in.
 # $startDay   (String) - The day of the month the interval starts.
 # $endDay     (String) - The day of the month the interval ends.
 # $year       (String) - The year the interval is in.
 calendar-invitation-interval-all-day-in-month = { $year }, { $month } { $startDay } – { $endDay }
 # Example: September 16 – October 20, 2022
+# Variables:
 # $startMonth (String) - The month the interval starts.
 # $startDay   (String) - The day of the month the interval starts.
+# $endMonth   (String) - The month the interval ends.
 # $endDay     (String) - The day of the month the interval ends.
 # $year       (String) - The year the interval is in.
 calendar-invitation-interval-all-day-between-months = { $year }, { $startMonth } { $startDay } – { $endMonth } { $endDay }
 # Example: Friday, September 16, 2022 15:00 America/Port of Spain
+# Variables:
 # $startDate (String) - The date the interval starts.
 # $startTime (String) - The time the interval starts.
 # $timezone  (String) - The timezone the interval is in.
 calendar-invitation-interval-same-date-time = { $startDate } <b>{ $startTime }</b> { $timezone }
 # Example: Friday, September 16, 2022 14:00 – 16:00 America/Port of Spain
+# Variables:
 # $startDate (String) - The date the interval starts.
 # $startTime (String) - The time the interval starts.
 # $endTime   (String) - The time the interval ends.
 # $timezone  (String) - The timezone the interval is in.
 calendar-invitation-interval-same-day = { $startDate } <b>{ $startTime }</b> – <b>{ $endTime }</b> { $timezone }
 # Example: Friday, September 16, 2022 14:00 – Tuesday, September 20, 2022 16:00 America/Port of Spain
+# Variables:
 # $startDate (String) - The date the interval starts.
 # $startTime (String) - The time the interval starts.
-# $startDate (String) - The date the interval ends.
+# $endDate   (String) - The date the interval ends.
 # $endTime   (String) - The time the interval ends.
 # $timezone  (String) - The timezone the interval is in.
 calendar-invitation-interval-several-days = { $startDate } <b>{ $startTime }</b> – { $endDate } <b>{ $endTime }</b> { $timezone }
