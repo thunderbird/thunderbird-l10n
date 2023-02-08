@@ -27,6 +27,9 @@ folder-pane-header-label = Fillteáin
 
 ## Folder Toolbar Header Popup
 
+folder-toolbar-hide-toolbar-toolbarbutton =
+    .label = Folaigh an Barra Uirlisí
+    .accesskey = F
 show-all-folders-label =
     .label = Gach Fillteán
     .accesskey = G
@@ -42,12 +45,22 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Fillteáin is Déanaí
     .accesskey = D
+folder-toolbar-toggle-folder-compact-view =
+    .label = Dlúthamharc
+    .accesskey = c
 
 ## Menu
 
+menu-file-save-as-file =
+    .label = Comhad…
+    .accesskey = C
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = Comhad…
+appmenu-settings =
+    .label = Socruithe
 
 ## Context menu
 
@@ -57,6 +70,8 @@ show-recent-folders-label =
 
 ## Message header cutomize panel
 
+message-header-button-style-text =
+    .label = Téacs
 
 ## Action Button Context Menu
 
@@ -72,12 +87,34 @@ show-recent-folders-label =
 
 ## Spaces toolbar
 
+spaces-toolbar-button-mail2 =
+    .title = Post
+spaces-toolbar-button-address-book2 =
+    .title = Leabhar Seoltaí
+spaces-toolbar-button-calendar2 =
+    .title = Féilire
+spaces-toolbar-button-tasks2 =
+    .title = Tascanna
+spaces-toolbar-button-chat2 =
+    .title = Comhrá
+spaces-toolbar-button-settings2 =
+    .title = Socruithe
+spaces-context-new-tab-item =
+    .label = Oscail i gcluaisín nua
+spaces-context-new-window-item =
+    .label = Oscail i bhfuinneog nua
+settings-context-open-settings-item2 =
+    .label = Socruithe
+settings-context-open-account-settings-item2 =
+    .label = Socruithe Cuntais
 
 ## Spaces toolbar pinned tab menupopup
 
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Saincheap…
 
 ## Quick Filter Bar
 
