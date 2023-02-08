@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Ara:
 search-bar-placeholder = Ara…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -64,6 +72,12 @@ customize-palette-settings-specific-title = Yalnızca Ayarlar sekmesinde kullan�
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = { $target } ara çubuğuna ekle
+customize-palette-add-everywhere =
+    .label = Tüm araç çubuklarına ekle
 
 ## Unified toolbar customization target context menu
 
@@ -73,3 +87,11 @@ customize-target-backward =
     .label = Geri taşı
 customize-target-remove =
     .label = Kaldır
+customize-target-remove-everywhere =
+    .label = Tüm araç çubuklarından kaldır
+customize-target-add-everywhere =
+    .label = Tüm araç çubuklarına ekle
+customize-target-start =
+    .label = En başa taşı
+customize-target-end =
+    .label = En sona taşı
