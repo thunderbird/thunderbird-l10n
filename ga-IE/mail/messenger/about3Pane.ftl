@@ -200,6 +200,7 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Cuir Athruithe i bhFeidhm?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = An bhfuil fonn ort colúin an fhillteáin reatha a chur i bhfeidhm ar { $name }?

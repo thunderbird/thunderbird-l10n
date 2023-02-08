@@ -5,18 +5,43 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Íoslaghdaigh
+messenger-window-maximize-button =
+    .tooltiptext = Uasmhéadaigh
+messenger-window-close-button =
+    .tooltiptext = Dún
 
 ## Content tabs
 
 
 ## Toolbar
 
+quick-filter-toolbarbutton =
+    .label = Mearscagaire
+    .tooltiptext = Scag teachtaireachtaí
 
 ## Folder Pane
 
+folder-pane-header-label = Fillteáin
 
 ## Folder Toolbar Header Popup
 
+show-all-folders-label =
+    .label = Gach Fillteán
+    .accesskey = G
+show-unread-folders-label =
+    .label = Fillteáin Gan Léamh
+    .accesskey = L
+show-favorite-folders-label =
+    .label = Mo Rogha Fillteán
+    .accesskey = R
+show-smart-folders-label =
+    .label = Fillteáin Aontaithe
+    .accesskey = A
+show-recent-folders-label =
+    .label = Fillteáin is Déanaí
+    .accesskey = D
 
 ## Menu
 
