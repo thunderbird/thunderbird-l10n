@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Chwilio:
 search-bar-placeholder = Chwilio…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -68,6 +76,8 @@ customize-palette-settings-specific-title = Ar gael ar gyfer Man Gosodiadau'n un
 # $target (String) - Name of the target the item should be added to.
 customize-palette-add-to =
     .label = Ychwanegu at { $target }
+customize-palette-add-everywhere =
+    .label = Ychwanegu at bob bar offer
 
 ## Unified toolbar customization target context menu
 
@@ -77,3 +87,11 @@ customize-target-backward =
     .label = Symud nôl
 customize-target-remove =
     .label = Tynnu
+customize-target-remove-everywhere =
+    .label = Tynnu o bob bar offer
+customize-target-add-everywhere =
+    .label = Ychwanegu at bob bar offer
+customize-target-start =
+    .label = Symud i'r cychwyn
+customize-target-end =
+    .label = Symud i'r diwedd

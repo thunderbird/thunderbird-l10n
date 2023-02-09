@@ -7,6 +7,10 @@ calendar-deactivated-notification-tasks = Mae pob calendr wedi'i analluogi ar hy
 calendar-notifications-label = Dangos hysbysiadau ar gyfer digwyddiadau sydd i ddod
 calendar-add-notification-button =
     .label = Ychwanegu hysbysiad
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Dewisiadau calendr { $calendarName }
 calendar-import-new-calendar = Calendr Newydd…
     .title = Crëwch neu danysgrifio i galendr newydd
 calendar-refresh-calendars =
