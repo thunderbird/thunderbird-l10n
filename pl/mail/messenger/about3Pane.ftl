@@ -25,7 +25,7 @@ quick-filter-bar-starred =
     .title = Wyświetl wyłącznie wiadomości oznaczone gwiazdką
 # The label for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
-quick-filter-bar-starred-label = Z gwiazdką
+quick-filter-bar-starred-label = Z gwiazdką
 # The tooltip for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.
@@ -41,14 +41,14 @@ quick-filter-bar-tags =
     .title = Wyświetl wyłącznie wiadomości z etykietami
 # The label for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
-quick-filter-bar-tags-label = Z etykietą
+quick-filter-bar-tags-label = Z etykietą
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment =
     .title = Wyświetl wyłącznie wiadomości z załącznikami
 # The label for the filter button that causes us to filter results to only
 # include messages with attachments.
-quick-filter-bar-attachment-label = Z załącznikiem
+quick-filter-bar-attachment-label = Z załącznikiem
 # The contents of the results box when there is a filter active but there
 # are no messages matching the filter.
 quick-filter-bar-no-results = Nie znaleziono wiadomości
@@ -118,6 +118,10 @@ quick-filter-bar-gloda-upsell-line2 = Aby kontynuować wyszukiwanie dla: „{ $t
 
 threadpane-column-header-select =
     .title = Przełącz zaznaczenie wszystkich wiadomości
+threadpane-column-header-select-all =
+    .title = Zaznacz wszystkie wiadomości
+threadpane-column-header-deselect-all =
+    .title = Odznacz wszystkie wiadomości
 threadpane-column-label-select =
     .label = Zaznacz wiadomości
 threadpane-column-label-thread =
