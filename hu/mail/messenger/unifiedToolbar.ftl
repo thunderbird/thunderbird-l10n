@@ -16,9 +16,9 @@ search-bar-placeholder = Keresés…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
 # in messenger.dtd.
-search-bar-placeholder-with-key =
+search-bar-placeholder-with-key2 =
     { PLATFORM() ->
-        [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
        *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
     }
 
@@ -76,6 +76,8 @@ customize-palette-settings-specific-title = Csak a Beállítások helyhez érhet
 # $target (String) - Name of the target the item should be added to.
 customize-palette-add-to =
     .label = Hozzáadás a következőhöz: { $target }
+customize-palette-add-everywhere =
+    .label = Hozzáadás az összes eszköztárhoz
 
 ## Unified toolbar customization target context menu
 
@@ -85,3 +87,11 @@ customize-target-backward =
     .label = Ugrás hátra
 customize-target-remove =
     .label = Eltávolítás
+customize-target-remove-everywhere =
+    .label = Eltávolítás az összes eszköztárról
+customize-target-add-everywhere =
+    .label = Hozzáadás az összes eszköztárhoz
+customize-target-start =
+    .label = Áthelyezés az elejére
+customize-target-end =
+    .label = Áthelyezés a végére
