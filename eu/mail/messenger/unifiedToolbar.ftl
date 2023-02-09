@@ -16,9 +16,9 @@ search-bar-placeholder = Bilatu…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
 # in messenger.dtd.
-search-bar-placeholder-with-key =
+search-bar-placeholder-with-key2 =
     { PLATFORM() ->
-        [macos] { search-bar-placeholder } <kbd>⌃</kbd> <kbd>K</kbd>
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
        *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
     }
 
@@ -55,10 +55,20 @@ customize-button-style-text-only =
     .label = Testua bakarrik
 customize-cancel = Utzi
 customize-save = Gorde
+customize-unsaved-changes = Gorde gabeko aldaketak beste guneetan
+customize-search-bar =
+    .label = Bilaketa tresna-barren botoiak…
 customize-spaces-tabs =
-    .aria-label = Zuriunea
+    .aria-label = Guneak
 customize-main-toolbar-target =
     .aria-label = Tresna-barra nagusia
+customize-palette-generic-title = Erabilgarri gune guztietan
+customize-palette-mail-specific-title = Erabilgarri posta gunean bakarrik
+customize-palette-addressbook-specific-title = Erabilgarri helbide-liburu gunean bakarrik
+customize-palette-calendar-specific-title = Erabilgarri egutegi gunean bakarrik
+customize-palette-tasks-specific-title = Erabilgarri zeregin gunean bakarrik
+customize-palette-chat-specific-title = Erabilgarri txat gunean bakarrik
+customize-palette-settings-specific-title = Erabilgarri ezarpenak gunean bakarrik
 
 ## Unified toolbar customization palette context menu
 
