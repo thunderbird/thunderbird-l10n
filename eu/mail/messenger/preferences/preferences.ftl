@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Gehitu OpenSearch hornitzailea
 add-opensearch-provider-text = Sart URLa OpenSearch hornitzailea gehitzeko. Bestela erabili OpenSearch deskripzio fitxategiko URL zuzena, edo auto-aurkitu daitekeen URL bat.
 adding-opensearch-provider-failed-title = OpenSearch hornitzailea gehitzean huts egin du
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Ezin da gehitu OpenSearch hornitzailea { $url } honekin.
 minimize-to-tray-label =
     .label = { -brand-short-name } txikitzen denean, mugitu erretilura
@@ -197,6 +199,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Erakutsi beti korritze-barrak
     .accesskey = E
+window-layout-legend = Leiho diseinua
 system-integration-legend = Sistemaren integrazioa
 always-check-default =
     .label = Egiaztatu beti { -brand-short-name } posta-bezero lehenetsia dela abiaraztean
@@ -276,6 +279,9 @@ smart-cache-label =
     .accesskey = a
 clear-cache-button =
     .label = Garbitu orain
+    .accesskey = G
+clear-cache-shutdown-label =
+    .label = Garbitu katxea itzaltzean
     .accesskey = G
 fonts-legend = Letra-tipoak eta koloreak
 default-font-label =

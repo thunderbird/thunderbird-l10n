@@ -72,6 +72,12 @@ customize-palette-settings-specific-title = Erabilgarri ezarpenak gunean bakarri
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Gehitu { $target } gunean
+customize-palette-add-everywhere =
+    .label = Gehitu tresna-barra guztiei
 
 ## Unified toolbar customization target context menu
 
@@ -81,3 +87,11 @@ customize-target-backward =
     .label = Mugitu atzera
 customize-target-remove =
     .label = Kendu
+customize-target-remove-everywhere =
+    .label = Kendu tresna-barra guztietatik
+customize-target-add-everywhere =
+    .label = Gehitu tresna-barra guztietan
+customize-target-start =
+    .label = Mugitu hasierara
+customize-target-end =
+    .label = Mugitu amaierara

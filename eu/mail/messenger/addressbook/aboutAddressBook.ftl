@@ -86,6 +86,8 @@ about-addressbook-horizontal-layout =
     .label = Aldatu diseinu horizontalera
 about-addressbook-vertical-layout =
     .label = Aldatu diseinu bertikalera
+about-addressbook-table-layout =
+    .label = Taula diseinua
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
