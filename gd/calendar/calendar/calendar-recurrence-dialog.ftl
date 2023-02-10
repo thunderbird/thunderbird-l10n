@@ -3,3 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-recurrence-preview-label = Ro-sheall
+calendar-recurrence-next = An ath-mhìos
+calendar-recurrence-previous = Am mìos roimhe
+calendar-recurrence-today = An-diugh

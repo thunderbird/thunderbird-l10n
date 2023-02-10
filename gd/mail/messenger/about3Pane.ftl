@@ -119,6 +119,10 @@ quick-filter-bar-gloda-upsell-line2 = Put ‘Enter’ a-rithist gus leantainn or
 
 threadpane-column-header-select =
     .title = Toglaich taghadh nan teachdaireachdan uile
+threadpane-column-header-select-all =
+    .title = Tagh a h-uile teachdaireachd
+threadpane-column-header-deselect-all =
+    .title = Dì-thagh a h-uile teachdaireachd
 threadpane-column-label-select =
     .label = Tagh teachdaireachdan
 threadpane-column-label-thread =
