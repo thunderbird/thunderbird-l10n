@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = İmzayı doğrula
     .accesskey = d
 openpgp-has-sender-key = Bu ileti, gönderenin OpenPGP ortak anahtarını içerdiğini belirtiyor.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Uyarı: Bu iletideki yeni ortak genel anahtarı, daha önce { $email } için kabul ettiğiniz ortak anahtarlardan farklı.
 openpgp-import-sender-key =
     .label = İçe aktar…
@@ -32,6 +34,7 @@ openpgp-broken-exchange-info = Bu ileti, görünüşe göre MS-Exchange tarafın
 openpgp-broken-exchange-repair =
     .label = İletiyi onar
 openpgp-broken-exchange-wait = Lütfen bekleyin…
+openpgp-has-nested-encrypted-parts = Bu ileti, şifrelenmiş ek kısımlar içeriyor.
 openpgp-show-encrypted-parts = Şifreyi çöz ve göster
 openpgp-cannot-decrypt-because-mdc =
     Bu ileti, eski ve güvenlik açığı bulunan bir mekanizmayla şifrelenmiş.
