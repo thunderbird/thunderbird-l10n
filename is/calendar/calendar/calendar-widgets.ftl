@@ -15,6 +15,14 @@ calendar-list-header = Dagatöl
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = Valkostur { $calendarName } dagatals
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Þaggað var niður í { $calendarName } dagatalinu
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Valkostir { $calendarName } dagatals
 calendar-import-new-calendar = Nýtt dagatal…
     .title = Búa til eða gerast áskrifandi að nýju dagatali
 calendar-refresh-calendars =
