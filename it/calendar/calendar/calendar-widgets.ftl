@@ -15,6 +15,14 @@ calendar-list-header = Calendari
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = Opzione per calendario { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Il calendario di { $calendarName } è stato disattivato
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } opzioni del calendario
 calendar-import-new-calendar = Nuovo calendario…
     .title = Crea o iscriviti a un nuovo calendario
 calendar-refresh-calendars =
