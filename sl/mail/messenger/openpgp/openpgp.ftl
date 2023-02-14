@@ -558,9 +558,12 @@ no-update-found = Ključe, ki so bili odkriti na spletu, že imate.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+fail-key-extract = Napaka – ukaz za ekstrakcijo ključa je spodletel
 
 ## Strings used in keyRing.jsm
 
+fail-cancel = Napaka – prejem ključa je preklical uporabnik
+not-first-block = Napaka – prvi blok OpenPGP ni blok javnega ključa
 import-key-confirm = Ali želite uvoziti javne ključe, vdelane v sporočilo?
 fail-key-import = Napaka – uvažanje ključa ni uspelo
 # Variables:
@@ -652,6 +655,14 @@ msg-compose-partially-encrypted-inlinePGP =
     Razmislite o odstranitvi celotnega navedka iz odgovora temu pošiljatelju.
 msg-compose-cannot-save-draft = Napaka pri shranjevanju osnutka
 msg-compose-partially-encrypted-short = Pazite se razkritja občutljivih podatkov – sporočilo je delno šifrirano.
+# Variables:
+# $width (Number) - Number of characters per line.
+minimal-line-wrapping =
+    Prelom vrstic imate nastavljen na { $width } znakov. Za pravilno šifriranje in/ali podpisovanje mora biti vsaj 68.
+    Ali želite zdaj spremeniti prelom vrstic na 68 znakov?
+sending-news =
+    Šifrirano pošiljanje je prekinjeno.
+    Tega sporočila ni mogoče šifrirati, ker so med prejemniki tudi novičarske skupine. Pošljite sporočilo brez šifriranja.
 send-to-news-warning =
     Opozorilo: novičarski skupini pošiljate šifrirano sporočilo.
     To je odsvetovano, ker je smiselno le, če lahko sporočilo dešifrirajo vsi člani skupine, torej bi moralo biti šifrirano s ključi vseh članov. To sporočilo pošljite samo, če natančno veste, kaj počnete.

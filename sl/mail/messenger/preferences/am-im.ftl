@@ -4,15 +4,19 @@
 
 account-settings-title = Nastavitve overjanja
 account-channel-title = Privzeti kanali
-
 chat-autologin =
     .label = Prijava ob zagonu
-
 chat-encryption-generic = Splošno
 chat-encryption-log =
     .label = Vključi od konca do konca šifrirana sporočila v dnevnike pogovorov
 chat-encryption-label = Avtohtono šifriranje od konca do konca
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } za sporočila v klepetu zagotavlja šifriranje od konca do konca, ki tretjim osebam preprečuje prisluškovanje pogovoru. Morda bo spodaj potrebna dodatna nastavitev, da bo šifriranje delovalo.
 chat-encryption-status = Stanje šifriranja
 chat-encryption-placeholder = Šifriranje ni inicializirano.
 chat-encryption-sessions = Seje
+chat-encryption-session-verify = preveri
+    .title = Preveri istovetnost te seje
+chat-encryption-session-trusted = zaupanja vredno
+    .title = Istovetnost te seje je preverjena
