@@ -76,6 +76,8 @@ customize-palette-settings-specific-title = Διαθέσιμο μόνο για �
 # $target (String) - Name of the target the item should be added to.
 customize-palette-add-to =
     .label = Προσθήκη στο { $target }
+customize-palette-add-everywhere =
+    .label = Προσθήκη σε όλες τις γραμμές εργαλείων
 
 ## Unified toolbar customization target context menu
 
@@ -85,3 +87,11 @@ customize-target-backward =
     .label = Μετακίνηση πίσω
 customize-target-remove =
     .label = Αφαίρεση
+customize-target-remove-everywhere =
+    .label = Αφαίρεση από όλες τις γραμμές εργαλείων
+customize-target-add-everywhere =
+    .label = Προσθήκη σε όλες τις γραμμές εργαλείων
+customize-target-start =
+    .label = Μετακίνηση στην αρχή
+customize-target-end =
+    .label = Μετακίνηση στο τέλος
