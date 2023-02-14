@@ -15,6 +15,14 @@ calendar-list-header = Koledarji
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = Možnost koledarja { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Koledar { $calendarName } je utišan
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Možnosti koledarja { $calendarName }
 calendar-import-new-calendar = Nov koledar …
     .title = Ustvarite ali se naročite na nov koledar
 calendar-refresh-calendars =
