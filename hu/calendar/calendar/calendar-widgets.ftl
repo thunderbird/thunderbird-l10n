@@ -15,6 +15,14 @@ calendar-list-header = Naptárak
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = A(z) „{ $calendarName }” naptár beállításai
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = A(z) „{ $calendarName }” naptár elnémítva
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = A(z) „{ $calendarName }” naptár beállításai
 calendar-import-new-calendar = Új naptár…
     .title = Új naptár létrehozása vagy feliratkozás
 calendar-refresh-calendars =
