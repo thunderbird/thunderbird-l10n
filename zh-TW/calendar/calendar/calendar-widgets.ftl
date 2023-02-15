@@ -15,6 +15,14 @@ calendar-list-header = 行事曆
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = { $calendarName } 行事曆選項
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = 已將 { $calendarName } 行事曆靜音
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } 行事曆選項
 calendar-import-new-calendar = 開新行事曆…
     .title = 建立或訂閱新行事曆
 calendar-refresh-calendars =
