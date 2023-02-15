@@ -15,6 +15,14 @@ calendar-list-header = Kalendrar
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = { $calendarName } kalenderalternativ
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } kalender har stängts av
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } kalenderalternativ
 calendar-import-new-calendar = Ny kalender…
     .title = Skapa eller prenumerera på en ny kalender
 calendar-refresh-calendars =
