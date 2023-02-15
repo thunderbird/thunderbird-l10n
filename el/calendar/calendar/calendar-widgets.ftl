@@ -7,16 +7,31 @@ calendar-deactivated-notification-tasks = Όλα τα ημερολόγια έχ�
 calendar-notifications-label = Εμφάνιση ειδοποιήσεων για επερχόμενες εκδηλώσεις
 calendar-add-notification-button =
     .label = Προσθήκη ειδοποίησης
+
+## Side panel
+
+calendar-list-header = Ημερολόγια
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = Επιλογή ημερολογίου «{ $calendarName }»
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Το ημερολόγιο «{ $calendarName }» έχει τεθεί σε σίγαση
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Επιλογές ημερολογίου «{ $calendarName }»
 calendar-import-new-calendar = Νέο ημερολόγιο…
     .title = Δημιουργήστε ή εγγραφείτε σε ένα νέο ημερολόγιο
 calendar-refresh-calendars =
     .title = Επαναφόρτωση όλων των ημερολογίων και συγχρονισμός αλλαγών
 calendar-new-event-primary-button = Νέα εκδήλωση
 calendar-new-task-primary-button = Νέα εργασία
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Προηγούμενη ημέρα
     .accesskey = γ
