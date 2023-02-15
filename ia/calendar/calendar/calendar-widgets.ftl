@@ -17,6 +17,10 @@ calendar-list-item-tooltip =
     .title = Option de agenda { $calendarName }
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Le agenda { $calendarName } ha essite mutate
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Optiones de agenda { $calendarName }
 calendar-import-new-calendar = Nove agenda…
