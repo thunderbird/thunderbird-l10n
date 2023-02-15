@@ -15,6 +15,14 @@ calendar-list-header = Календарі
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = Параметр календаря { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Календар { $calendarName } вимкнено
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Параметри календаря { $calendarName }
 calendar-import-new-calendar = Новий календар…
     .title = Створити або підписатися на новий календар
 calendar-refresh-calendars =
