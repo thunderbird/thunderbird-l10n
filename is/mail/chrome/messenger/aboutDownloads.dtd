@@ -18,6 +18,6 @@
 <!ENTITY cmd.removeFromHistory.accesskey           "e">
 <!ENTITY cmd.clearList.label                       "Hreinsa lista">
 <!ENTITY cmd.clearList.accesskey                   "H">
-<!ENTITY cmd.clearList.tooltip                     "Fjarlægja allar færslur úr listanum fyrir vistaðar skrár, nema skrár sem er verið að hala niður.">
+<!ENTITY cmd.clearList.tooltip                     "Fjarlægja allar færslur úr listanum fyrir vistaðar skrár, nema skrár sem er verið að sækja.">
 <!ENTITY cmd.searchDownloads.label                 "Leita…">
 <!ENTITY cmd.searchDownloads.key                   "F">
