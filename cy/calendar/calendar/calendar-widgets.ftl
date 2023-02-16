@@ -7,9 +7,21 @@ calendar-deactivated-notification-tasks = Mae pob calendr wedi'i analluogi ar hy
 calendar-notifications-label = Dangos hysbysiadau ar gyfer digwyddiadau sydd i ddod
 calendar-add-notification-button =
     .label = Ychwanegu hysbysiad
+
+## Side panel
+
+calendar-list-header = Calendrau
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
+    .title = Dewisiadau calendr { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Mae calendr { $calendarName } wedi'i dewi
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
     .title = Dewisiadau calendr { $calendarName }
 calendar-import-new-calendar = Calendr Newydd…
     .title = Crëwch neu danysgrifio i galendr newydd
@@ -17,6 +29,9 @@ calendar-refresh-calendars =
     .title = Ail-lwytho pob calendr a chydweddu newidiadau
 calendar-new-event-primary-button = Digwyddiad Newydd
 calendar-new-task-primary-button = Tasg Newydd
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Diwrnod Blaenorol
     .accesskey = B
