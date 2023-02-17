@@ -7,12 +7,31 @@ calendar-deactivated-notification-tasks = Tất cả các lịch hiện đang b�
 calendar-notifications-label = Hiển thị thông báo cho các sự kiện sắp tới
 calendar-add-notification-button =
     .label = Thêm thông báo
+
+## Side panel
+
+calendar-list-header = Lịch
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Tùy chọn lịch { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Lịch { $calendarName } đã bị ẩn
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Tùy chọn lịch { $calendarName }
 calendar-import-new-calendar = Lịch mới…
     .title = Tạo hoặc đăng ký lịch mới
 calendar-refresh-calendars =
     .title = Tải lại tất cả các lịch và đồng bộ hóa các thay đổi
 calendar-new-event-primary-button = Sự kiện mới
 calendar-new-task-primary-button = Tác vụ mới
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Ngày trước
     .accesskey = s

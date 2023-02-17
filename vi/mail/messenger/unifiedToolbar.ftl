@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Tìm kiếm:
 search-bar-placeholder = Tìm kiếm…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -35,6 +43,7 @@ customize-space-tab-chat = Trò chuyện
 customize-space-tab-settings = Cài đặt
     .title = Cài đặt
 customize-restore-default = Khôi phục về mặc định
+customize-change-appearance = Thay đổi giao diện…
 customize-button-style-label = Kiểu nút:
 customize-button-style-icons-beside-text =
     .label = Biểu tượng bên cạnh văn bản
@@ -58,8 +67,22 @@ customize-main-toolbar-target =
 # $target (String) - Name of the target the item should be added to.
 customize-palette-add-to =
     .label = Thêm vào { $target }
+customize-palette-add-everywhere =
+    .label = Thêm vào tất cả thanh công cụ
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Tiến về phía trước
+customize-target-backward =
+    .label = Lùi về phía sau
 customize-target-remove =
     .label = Xóa
+customize-target-remove-everywhere =
+    .label = Xóa khỏi tất cả thanh công cụ
+customize-target-add-everywhere =
+    .label = Thêm vào tất cả thanh công cụ
+customize-target-start =
+    .label = Di chuyển lên đầu tiên
+customize-target-end =
+    .label = Di chuyển đến cuối cùng
