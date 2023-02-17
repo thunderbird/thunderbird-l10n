@@ -11,10 +11,10 @@
 <!ENTITY helpMenuWin.accesskey "y">
 <!ENTITY aboutProduct2.label "Acerca de &brandShorterName;">
 <!ENTITY aboutProduct2.accesskey "A">
-
 <!ENTITY productHelp.label "Ayuda de &brandShortName;">
 <!ENTITY productHelp.accesskey "y">
 
+<!-- Help Menu -->
 <!ENTITY productHelp.commandkey "VK_F1">
 <!ENTITY productHelpMac.commandkey "?">
 <!ENTITY productHelpMac.modifiers "accel">
@@ -26,7 +26,7 @@
 <!ENTITY helpFeedbackPage.accesskey "o">
 
 <!ENTITY helpShowTour2.label "Visita guiada de &brandShorterName;">
-<!ENTITY helpShowTour2.accesskey "o">
+<!ENTITY helpShowTour2.accesskey "V">
 
 <!ENTITY helpGetInvolvedPage.label "Involúcrese">
 <!ENTITY helpGetInvolvedPage.accesskey "I">
