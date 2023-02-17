@@ -109,6 +109,17 @@ quick-filter-bar-gloda-upsell-line1 = 繼續在所有資料夾搜尋
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = 按下 Enter 鍵以繼續搜尋: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = 下載郵件
+folder-pane-write-message-button = 寫新訊息
+    .title = 撰寫新訊息
+folder-pane-more-menu-button =
+    .title = 資料夾窗格選項
+folder-pane-header-context-hide =
+    .label = 隱藏資料夾窗格標題
+
 ## Message thread pane
 
 threadpane-column-header-select =
