@@ -115,6 +115,15 @@ quick-filter-bar-gloda-upsell-line1 = Nadaljuj s tem iskanjem po vseh mapah
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Pritisnite spet ‘Enter', da nadaljujete s svojim iskanjem za: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Prejmi sporočila
+folder-pane-write-message-button = Novo sporočilo
+    .title = Napiši novo sporočilo
+folder-pane-more-menu-button =
+    .title = Možnosti podokna map
+
 ## Message thread pane
 
 threadpane-column-header-select =
