@@ -123,6 +123,8 @@ folder-pane-write-message-button = Novo sporočilo
     .title = Napiši novo sporočilo
 folder-pane-more-menu-button =
     .title = Možnosti podokna map
+folder-pane-header-context-hide =
+    .label = Skrij glavo podokna map
 
 ## Message thread pane
 
