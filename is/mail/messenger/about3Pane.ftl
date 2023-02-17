@@ -113,6 +113,17 @@ quick-filter-bar-gloda-upsell-line1 = Halda áfram leit yfir allar möppur
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Ýttu aftur á ‘Enter’ til að leita áfram að: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Ná í póst
+folder-pane-write-message-button = Nýr póstur
+    .title = Semja ný skilaboð
+folder-pane-more-menu-button =
+    .title = Valkostir möppuspjalds
+folder-pane-header-context-hide =
+    .label = Fela fyrirsögn möppuspjalds
+
 ## Message thread pane
 
 threadpane-column-header-select =
