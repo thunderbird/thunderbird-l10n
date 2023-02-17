@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Gera við textakóðun
     .accesskey = x
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Fyrirsögn möppuspjalds
+    .accesskey = F
+
 ## View / Layout
 
 menu-font-size-label =
