@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
+
+
 ## Header
 
 account-hub-brand = { -brand-full-name }
@@ -25,6 +29,23 @@ account-hub-chat-button = Configura chat
 account-hub-feed-button = Configura feed RSS
 account-hub-newsgroup-button = Configura gruppo di discussione
 account-hub-import-button = Importa profilo
+
+## Initial setup page
+
+account-hub-email-setup-button = Account email
+    .title = Crea un account di posta elettronica
+account-hub-calendar-setup-button = Calendario
+    .title = Imposta un calendario locale o remoto
+account-hub-address-book-setup-button = Rubrica
+    .title = Imposta una rubrica locale o remota
+account-hub-chat-setup-button = Chat
+    .title = Crea un account di chat
+account-hub-feed-setup-button = Feed RSS
+    .title = Imposta un account per il feed RSS
+account-hub-newsgroup-setup-button = Newsgroup
+    .title = Crea un account per i gruppi di discussione
+account-hub-import-setup-button = Importa
+    .title = Importa un profilo di cui è stato eseguito il backup
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Accedi per sincronizzare…
 

@@ -113,6 +113,17 @@ quick-filter-bar-gloda-upsell-line1 = Continua questa ricerca nelle altre cartel
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Premere “Invio” nuovamente per continuare la ricerca per: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Ricevi messaggi
+folder-pane-write-message-button = Nuovo messaggio
+    .title = Scrivi un nuovo messaggio
+folder-pane-more-menu-button =
+    .title = Opzioni del riquadro delle cartelle
+folder-pane-header-context-hide =
+    .label = Nascondi intestazione riquadro cartella
+
 ## Message thread pane
 
 threadpane-column-header-select =
