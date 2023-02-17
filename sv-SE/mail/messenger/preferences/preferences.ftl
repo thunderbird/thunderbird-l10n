@@ -43,7 +43,7 @@ privacy-passwords-header = Lösenord
 privacy-junk-header = Skräp
 collection-header = { -brand-short-name } Datainsamling och användning
 collection-description = Vi strävar alltid efter att ge dig val och samlar endast in vad vi behöver för tillhandahålla och förbättra { -brand-short-name } för alla. Vi ber alltid om tillåtelse innan vi tar emot personliga uppgifter.
-collection-privacy-notice = Sekretesspolicy
+collection-privacy-notice = Sekretessmeddelande
 collection-health-report-telemetry-disabled = Du tillåter inte längre { -vendor-short-name } att fånga in tekniska data och interaktionsdata. Alla tidigare data kommer att raderas inom 30 dagar.
 collection-health-report-telemetry-disabled-link = Läs mer
 collection-health-report =
@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Lägg till OpenSearch-leverantör
 add-opensearch-provider-text = Ange URL-adressen till OpenSearch-leverantören som du vill lägga till. Använd antingen den direkta URL-adressen till OpenSearch-beskrivningsfilen eller en URL där den kan upptäckas automatiskt.
 adding-opensearch-provider-failed-title = Det gick inte att lägga till OpenSearch-leverantör
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Det gick inte att lägga till OpenSearch-leverantör för { $url }.
 minimize-to-tray-label =
     .label = När { -brand-short-name } minimeras, flytta den till aktivitetsfält
