@@ -32,17 +32,17 @@ account-hub-import-button = Importa profilo
 
 ## Initial setup page
 
-account-hub-email-setup-button = Account email
-    .title = Crea un account di posta elettronica
+account-hub-email-setup-button = Account di posta
+    .title = Imposta un account di posta elettronica
 account-hub-calendar-setup-button = Calendario
     .title = Imposta un calendario locale o remoto
 account-hub-address-book-setup-button = Rubrica
     .title = Imposta una rubrica locale o remota
 account-hub-chat-setup-button = Chat
-    .title = Crea un account di chat
+    .title = Imposta un account di chat
 account-hub-feed-setup-button = Feed RSS
-    .title = Imposta un account per il feed RSS
-account-hub-newsgroup-setup-button = Newsgroup
+    .title = Imposta un account per i feed RSS
+account-hub-newsgroup-setup-button = Gruppo di discussione
     .title = Crea un account per i gruppi di discussione
 account-hub-import-setup-button = Importa
     .title = Importa un profilo di cui è stato eseguito il backup

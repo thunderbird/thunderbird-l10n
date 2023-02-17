@@ -116,13 +116,13 @@ quick-filter-bar-gloda-upsell-line2 = Premere “Invio” nuovamente per continu
 ## Folder pane
 
 folder-pane-get-messages-button =
-    .title = Ricevi messaggi
+    .title = Scarica messaggi
 folder-pane-write-message-button = Nuovo messaggio
     .title = Scrivi un nuovo messaggio
 folder-pane-more-menu-button =
-    .title = Opzioni del riquadro delle cartelle
+    .title = Opzioni del pannello cartelle
 folder-pane-header-context-hide =
-    .label = Nascondi intestazione riquadro cartella
+    .label = Nascondi intestazione pannello cartelle
 
 ## Message thread pane
 
