@@ -15,6 +15,14 @@ calendar-list-header = Күнтізбелер
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = { $calendarName } күнтізбе опциясы
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } күнтізбесі басылған
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } күнтізбесі баптаулары
 calendar-import-new-calendar = Жаңа күнтізбе…
     .title = Жаңа күнтізбені жасау немесе жазылу
 calendar-refresh-calendars =

@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Мәтін кодтауын жөндеу
     .accesskey = д
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Бума панелінің тақырыптамасы
+    .accesskey = Б
+
 ## View / Layout
 
 menu-font-size-label =

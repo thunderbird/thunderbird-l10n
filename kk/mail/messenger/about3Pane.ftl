@@ -113,6 +113,17 @@ quick-filter-bar-gloda-upsell-line1 = Бұл іздеуді барлық бум�
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Келесіден іздеуді жалғастыру үшін қайта ‘Enter’ басыңыз: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Хабарламаларды алу
+folder-pane-write-message-button = Жаңа хабарлама
+    .title = Жаңа хабарламаны құрастыру
+folder-pane-more-menu-button =
+    .title = Бума панелінің баптаулары
+folder-pane-header-context-hide =
+    .label = Бума панелінің тақырыптамасын жасыру
+
 ## Message thread pane
 
 threadpane-column-header-select =
