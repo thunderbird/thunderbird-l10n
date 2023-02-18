@@ -113,6 +113,15 @@ quick-filter-bar-gloda-upsell-line1 = Fortsätt söka i alla mappar
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Tryck ”Enter” igen för att fortsätta sökningen efter: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Hämta meddelanden
+folder-pane-write-message-button = Nytt meddelande
+    .title = Skriv ett nytt meddelande
+folder-pane-more-menu-button =
+    .title = Alternativ för mappfönster
+
 ## Message thread pane
 
 threadpane-column-header-select =
