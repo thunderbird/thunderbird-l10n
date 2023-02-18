@@ -121,6 +121,8 @@ folder-pane-write-message-button = Nytt meddelande
     .title = Skriv ett nytt meddelande
 folder-pane-more-menu-button =
     .title = Alternativ för mappfönster
+folder-pane-header-context-hide =
+    .label = Dölj mappfönsterraden
 
 ## Message thread pane
 

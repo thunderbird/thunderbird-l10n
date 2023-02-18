@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Reparera textkodning
     .accesskey = k
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Mappfönsterraden
+    .accesskey = M
+
 ## View / Layout
 
 menu-font-size-label =
