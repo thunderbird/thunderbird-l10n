@@ -115,6 +115,17 @@ quick-filter-bar-gloda-upsell-line1 = Tute pytanje na wšě rjadowaki nałožić
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Tłóčće na ‘Enter’ znowa, zo byšće z pytanjom pokročował za: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Powěsće wobstarać
+folder-pane-write-message-button = Nowa powěsć
+    .title = Nowu powěsć spisać
+folder-pane-more-menu-button =
+    .title = Nastajenja wobłuka rjadowaka
+folder-pane-header-context-hide =
+    .label = Hłowu wobłuka rjadowaka schować
+
 ## Message thread pane
 
 threadpane-column-header-select =
