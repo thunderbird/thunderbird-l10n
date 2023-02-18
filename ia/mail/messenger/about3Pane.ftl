@@ -121,6 +121,8 @@ folder-pane-write-message-button = Nove message
     .title = Compone un message nove
 folder-pane-more-menu-button =
     .title = Optiones del pannello de plica
+folder-pane-header-context-hide =
+    .label = Celar le titulo de pannello de plica
 
 ## Message thread pane
 
