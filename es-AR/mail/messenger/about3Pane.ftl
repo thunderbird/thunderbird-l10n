@@ -121,6 +121,8 @@ folder-pane-write-message-button = Nuevo mensaje
     .title = Redactar un nuevo mensaje
 folder-pane-more-menu-button =
     .title = Opciones de vista de carpetas
+folder-pane-header-context-hide =
+    .label = Ocultar encabezado de vista de carpetas
 
 ## Message thread pane
 
