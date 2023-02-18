@@ -113,6 +113,15 @@ quick-filter-bar-gloda-upsell-line1 = Continuar esta búsqueda en todas las carp
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Presionar ‘Intro’ de nuevo para continuar la búsqueda de: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Obtener mensajes
+folder-pane-write-message-button = Nuevo mensaje
+    .title = Redactar un nuevo mensaje
+folder-pane-more-menu-button =
+    .title = Opciones de vista de carpetas
+
 ## Message thread pane
 
 threadpane-column-header-select =
