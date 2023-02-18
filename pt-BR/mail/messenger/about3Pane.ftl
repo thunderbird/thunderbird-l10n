@@ -113,6 +113,17 @@ quick-filter-bar-gloda-upsell-line1 = Pesquise em todas as pastas
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Pressione “Enter” de novo para continuar pesquisando por: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Receber mensagens
+folder-pane-write-message-button = Nova mensagem
+    .title = Escrever uma nova mensagem
+folder-pane-more-menu-button =
+    .title = Opções do painel de pastas
+folder-pane-header-context-hide =
+    .label = Ocultar cabeçalho do painel de pastas
+
 ## Message thread pane
 
 threadpane-column-header-select =
