@@ -7,12 +7,57 @@ calendar-deactivated-notification-tasks = Wšykne kalendarje su tuchylu znjemó�
 calendar-notifications-label = Powěźeńki za pśichodne tšojenja pokazaś
 calendar-add-notification-button =
     .label = Powěźeńku pśidaś
+
+## Side panel
+
+calendar-list-header = Kalendarje
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Nastajenje kalendarja { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Kalendaŕ { $calendarName } jo něnto nimy
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Nastajenja kalendarja { $calendarName }
 calendar-import-new-calendar = Nowy kalender…
     .title = Nowy kalendaŕ napóraś abo aboněrowaś
 calendar-refresh-calendars =
     .title = Wšykne kalendarje znowego zacytaś a změny synchronizěrowaś
 calendar-new-event-primary-button = Nowe tšojenje
 calendar-new-task-primary-button = Nowy nadawk
+
+## Calendar navigation
+
+calendar-nav-button-prev-tooltip-day =
+    .title = Pjerwjejšny źeń
+    .accesskey = r
+calendar-nav-button-prev-tooltip-week =
+    .title = Pjerwjejšny tyźeń
+    .accesskey = t
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Pjerwjejšny tyźeń
+    .accesskey = t
+calendar-nav-button-prev-tooltip-month =
+    .title = Pjerwjejšny mjasec
+    .accesskey = m
+calendar-nav-button-next-tooltip-day =
+    .title = Pśiducy źeń
+    .accesskey = d
+calendar-nav-button-next-tooltip-week =
+    .title = Pśiducy tyźeń
+    .accesskey = i
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Pśiducy tyźeń
+    .accesskey = i
+calendar-nav-button-next-tooltip-month =
+    .title = Pśiducy mjasec
+    .accesskey = u
+calendar-today-button-tooltip =
+    .title = K źinsajšnemu
 calendar-view-toggle-day = Źeń
     .title = Dnjowy naglěd wužywaś
 calendar-view-toggle-week = Tyźeń
