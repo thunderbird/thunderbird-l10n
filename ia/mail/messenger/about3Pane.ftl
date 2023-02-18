@@ -113,6 +113,15 @@ quick-filter-bar-gloda-upsell-line1 = Continuar iste recerca in tote le dossiers
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Pulsa de novo ‘Enter’ pro continuar tu recerca de: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Reciper messages
+folder-pane-write-message-button = Nove message
+    .title = Compone un message nove
+folder-pane-more-menu-button =
+    .title = Optiones del pannello de plica
+
 ## Message thread pane
 
 threadpane-column-header-select =
