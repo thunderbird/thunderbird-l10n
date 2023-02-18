@@ -115,12 +115,29 @@ quick-filter-bar-gloda-upsell-line1 = Z toś tym pytanim pó wšych zardnikach p
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Tłocćo ‘Enter’ hyšći raz, aby ze swójim pytanim za { $text } pókšacował
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Powěsći wobstaraś
+folder-pane-write-message-button = Nowa powěsć
+    .title = Nowu powěsć pisaś
+folder-pane-more-menu-button =
+    .title = Nastajenja wobceŕka zarědnikow
+folder-pane-header-context-hide =
+    .label = Głowu wobceŕka zarědnika schowaś
+
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Wuběranje wšych powěsćow pśešaltowaś
+threadpane-column-header-select-all =
+    .title = Wšykne powěsći wubraś
+threadpane-column-header-deselect-all =
+    .title = Wšykne powěsći wótwóliś
 threadpane-column-label-select =
     .label = Powěsći wubraś
+threadpane-column-header-thread =
+    .title = Powěsćowe nitki pśešaltowaś
 threadpane-column-label-thread =
     .label = Nitka
 threadpane-column-header-flagged =
@@ -131,6 +148,14 @@ threadpane-column-header-attachments =
     .title = Pó pśidankach sortěrowaś
 threadpane-column-label-attachments =
     .label = Pśidanki
+threadpane-column-header-spam =
+    .title = Pó spamowem statusu sortěrowaś
+threadpane-column-label-spam =
+    .label = Spam
+threadpane-column-header-unread-button =
+    .title = Pó cytańskem statusu sortěrowaś
+threadpane-column-label-unread-button =
+    .label = Cytański status
 threadpane-column-header-sender = Wót
     .title = Pó Wót sortěrowaś
 threadpane-column-label-sender =
@@ -198,6 +223,24 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indikator noweje powěsći
+    .title = Nowa powěsć
+threadpane-message-replied =
+    .alt = Wótegronjeński indikator
+    .title = Na powěsć jo se wótegroniło
+threadpane-message-redirected =
+    .alt = Indikator dalejpósrědnjenja
+    .title = Powěsć jo se dalej pósrědniła
+threadpane-message-forwarded =
+    .alt = Indikator pśepósłanja
+    .title = Powěsć jo se pśepósłała
+threadpane-message-replied-forwarded =
+    .alt = Indikator wótegrona a pśepósłanja
+    .title = Na powěsć jo se wótegroniła a powěsć jo se pśepósłała
+threadpane-message-replied-redirected =
+    .alt = Indikator wótegrona a dalejpósrědnjenja
+    .title = Na powěsć jo se wótegroniło a powěsć jo se dalej pósrědniła
 apply-columns-to-menu =
     .label = Słupy nałožyś na…
 apply-current-view-to-menu =
