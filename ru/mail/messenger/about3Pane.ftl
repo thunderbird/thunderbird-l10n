@@ -114,6 +114,17 @@ quick-filter-bar-gloda-upsell-line1 = Продолжить этот поиск �
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Нажмите ещё раз ‘Enter’ для продолжения поиска по: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Получить сообщения
+folder-pane-write-message-button = Создать
+    .title = Создать новое сообщение
+folder-pane-more-menu-button =
+    .title = Настройки панели папок
+folder-pane-header-context-hide =
+    .label = Скрыть заголовок панели папок
+
 ## Message thread pane
 
 threadpane-column-header-select =

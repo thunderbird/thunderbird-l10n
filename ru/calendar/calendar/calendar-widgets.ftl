@@ -7,16 +7,31 @@ calendar-deactivated-notification-tasks = Все календари в наст�
 calendar-notifications-label = Отображать уведомления о предстоящих событиях
 calendar-add-notification-button =
     .label = Добавить уведомление
+
+## Side panel
+
+calendar-list-header = Календари
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = Параметр календаря { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Календарь { $calendarName } был отключён
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Настройки календаря { $calendarName }
 calendar-import-new-calendar = Новый календарь…
     .title = Создать или подписаться на новый календарь
 calendar-refresh-calendars =
     .title = Перезагрузить все календари и синхронизировать изменения
 calendar-new-event-primary-button = Новое событие
 calendar-new-task-primary-button = Новая задача
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Предыдущий день
     .accesskey = ы
