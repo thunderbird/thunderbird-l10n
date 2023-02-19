@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Opraviť kódovanie textu
     .accesskey = O
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Hlavička panela priečinkov
+    .accesskey = H
+
 ## View / Layout
 
 menu-font-size-label =

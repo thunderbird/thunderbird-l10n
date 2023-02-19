@@ -114,6 +114,17 @@ quick-filter-bar-gloda-upsell-line1 = Pokračovať v tomto hľadaní vo všetký
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Stlačením klávesu ‘Enter’ môžete pokračovať vo vyhľadávaní výrazu: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Prijať správy
+folder-pane-write-message-button = Nová správa
+    .title = Napísať novú správu
+folder-pane-more-menu-button =
+    .title = Možnosti panela priečinkov
+folder-pane-header-context-hide =
+    .label = Skryť hlavičku panela priečinkov
+
 ## Message thread pane
 
 threadpane-column-header-select =

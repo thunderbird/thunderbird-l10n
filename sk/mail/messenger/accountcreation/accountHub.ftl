@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
+
+
 ## Header
 
 account-hub-brand = { -brand-full-name }
@@ -25,6 +29,23 @@ account-hub-chat-button = Nastaviť konverzácie
 account-hub-feed-button = Nastaviť kanál RSS
 account-hub-newsgroup-button = Nastaviť diskusnú skupinu
 account-hub-import-button = Importovať profil
+
+## Initial setup page
+
+account-hub-email-setup-button = E-mailový účet
+    .title = Nastaviť e-mailový účet
+account-hub-calendar-setup-button = Kalendár
+    .title = Nastaviť lokálny alebo vzdialený kalendár
+account-hub-address-book-setup-button = Adresár
+    .title = Nastaviť lokálny alebo vzdialený adresár
+account-hub-chat-setup-button = Konverzácie
+    .title = Nastaviť účet pre konverzácie
+account-hub-feed-setup-button = Kanály RSS
+    .title = Nastaviť účet pre RSS kanály
+account-hub-newsgroup-setup-button = Diskusná skupina
+    .title = Nastaviť konto diskusnej skupiny
+account-hub-import-setup-button = Importovať
+    .title = Importovať zálohovaný profil
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Prihlásiť sa a synchronizovať…
 
