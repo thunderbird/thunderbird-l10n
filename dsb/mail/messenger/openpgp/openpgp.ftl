@@ -117,6 +117,12 @@ openpgp-key-man-publish-cmd =
     .accesskey = W
 openpgp-key-man-discover-prompt = Aby OpenPGP-kluce online namakał, na klucowych serwerach abo z pomocu WKD-protokola, zapódajśo pak e-mailowu adresu pak klucowy ID.
 openpgp-key-man-discover-progress = Pyta se…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Zjawny kluc jo se na „{ $keyserver }“ pósłał.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Njejo se raźiło, waš zjawny kluc na „{ $keyserver }“ pósłaś.
 openpgp-key-copy-key =
     .label = Zjawny kluc kopěrowaś
     .accesskey = Z
@@ -129,6 +135,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Zjawny kluc pśez e-mail pósłaś
     .accesskey = l
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -138,6 +146,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Klucowe ID do mjazywótkłada kopěrowaś
         }
     .accesskey = I
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -147,6 +157,8 @@ openpgp-key-man-copy-fprs =
            *[other] Palcowe wótśišće do mjazywótkłada kopěrowaś
         }
     .accesskey = P
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -161,6 +173,8 @@ openpgp-key-man-ctx-expor-to-file-label =
 openpgp-key-man-ctx-copy =
     .label = Kopěrowaś
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -170,6 +184,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Palcowe wótśišće
         }
     .accesskey = P
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -179,6 +195,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] Klucowe ID
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -340,9 +358,9 @@ openpgp-radio-none-desc = OpenPGP za toś tu identitu njewužywaś.
 openpgp-radio-key-not-usable = Toś ten kluc njedajo se ako wósobinski kluc wužywaś, dokulaž pótajmny kluc felujo!
 openpgp-radio-key-not-accepted = Aby toś ten kluc wužywał, musyśo jen ako wósobinski kluc pśizwóliś!
 openpgp-radio-key-not-found = Toś ten kluc njedajo se namakaś! Jolic cośo jen wužywaś, musyśo jen do { -brand-short-name } importěrowaś.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Spadnjo: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Jo spadnuł: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = Kluc za mjenjej ako 6 mjasecow spadnjo
@@ -361,7 +379,9 @@ openpgp-key-remove-external =
     .label = Eksterny klucowy ID wótwónoźeś
     .accesskey = E
 key-external-label = Eksterny GnuPG-kluc
-# Strings in keyDetailsDlg.xhtml
+
+## Strings in keyDetailsDlg.xhtml
+
 key-type-public = zjawny kluc
 key-type-primary = głowny kluc
 key-type-subkey = pódkluc
@@ -372,18 +392,28 @@ key-usage-sign = Signěrowaś
 key-usage-certify = Certificěrowaś
 key-usage-authentication = Awtentifikacija
 key-does-not-expire = Kluc njespadnjo
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Kluc jo spadnuł { $keyExpiry }
 key-expired-simple = Kluc jo spadnuł
 key-revoked-simple = Kluc jo se wótwołał
 key-do-you-accept = Akceptěrujośo, až se za toś ten kluc digitalne signatury a koděrowanje powěsćow pśeglědujo?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Pśeglědajśo palcowy wótśišć kluca z pomocu drugego wěstego komunikaciskego kanala ako e-mail, aby zawěsćił, až kluc napšawdu { $addr } słuša.
-# Strings enigmailMsgComposeOverlay.js
+
+## Strings enigmailMsgComposeOverlay.js
+
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Njejo móžno powěsć słaś, dokulaž dajo problem z wašym wósobinskim klucom. { $problem }
 cannot-encrypt-because-missing = Njejo móžno, toś tu powěsć z koděrowanim kóńc do kóńca pósłác, dokulaž daju problemy z klucami slědujucych dostawarjow: { $problem }
 window-locked = Wobźěłowańske wokno jo zastajone; słanje jo se pśetergnuło
 # Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-concealed-data = To jo skoděrowany powěsćowy źěl. Klikniśo na pśidank, aby jen w separatnem woknje wócynił.
-# Strings in keyserver.jsm
+
+## Strings in keyserver.jsm
+
 keyserver-error-aborted = Pśetorgnjony
 keyserver-error-unknown = Njeznata zmólka jo nastała
 keyserver-error-server-error = Klucowy serwer jo dał zmólku k wěsći.
@@ -392,34 +422,50 @@ keyserver-error-unavailable = Klucowy serwer njejo k dispoziciji.
 keyserver-error-security-error = Klucowy serwer skoděrowany pśistup njepódpěra.
 keyserver-error-certificate-error = Certifikat klucowego serwera njejo płaśiwy.
 keyserver-error-unsupported = Klucowy serwer se njepódpěra.
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.jsm
+
 wkd-message-body-req =
     Waš e-mailowy póbitowaŕ jo pśeźěłał wašo napšašowanje, aby waš zjawny kluc do zapisa OpenPGP-webklucow nagrał.
     Pšosym wobkšuśćo, aby wózjawjenje swójogo zjawnego kluca dokóńcył.
 wkd-message-body-process =
     To jo mejlka nastupajucy awtomatiske pśeźěłowanje, až se waš zjawny kluc do zapisa OpenPGP-webklucow nagrał.
     Njetrjebaśo nic cyniś.
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.jsm
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Powěsć z temu { $subject }
     njedajo se dekoděrowaś.
     Cośo z drugeju gronidłoweju frazu znowego wopytaś abo cośo powěsć pśeskócyś?
-# Strings filters.jsm
+
+## Strings filters.jsm
+
 filter-folder-required = Wy dejśo celowy zarědnik wubraś.
 filter-decrypt-move-warn-experimental =
     Warnowanje - filtrowańska akcija „na pśecej dešifrěrowaś“ mógła k zničenym powěsćam wjesć.
     Poručam wuraznje, až nejpjerwjej filter „Dešifrěrowanu kopiju napóraś“ wopytujośo, wuslědk kradosćiwje testujośo a jano zachopinaśo, toś ten filter wužywaś, gaž sćo spokojom z wuslědkom.
 filter-term-pgpencrypted-label = Z OpenPGP skoděrowany
 filter-key-required = Musyśo kluc dostawarja wubraś.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Koděrowański kluc za ‚{ $desc }‘ njedajo se namakaś.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Warnowanje - filtrowańska akcija „Z klucom koděrowaś“ dostawarja wuměnja.
     Jolic pótajmny kluc za ‚{ $desc }‘ njamaśo, njamóžośo wěcej mejlki cytaś.
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.jsm
+
 filter-decrypt-move-label = Na pśecej dešifrěrowaś (OpenPGP)
 filter-decrypt-copy-label = Dešifrěrowanu kopiju napóraś (OpenPGP)
 filter-encrypt-label = Z klucom koděrowaś (OpenPGP)
-# Strings in enigmailKeyImportInfo.js
+
+## Strings in enigmailKeyImportInfo.js
+
 import-info-title =
     .title = Wuspěch! Kluce su se importěrowali
 import-info-bits = Bity
@@ -427,11 +473,15 @@ import-info-created = Napórany
 import-info-fpr = Palcowy wótśišć
 import-info-details = Drobnostki pokazaś a klucowu akceptancu zastojaś
 import-info-no-keys = Žedne kluce importěrowane.
-# Strings in enigmailKeyManager.js
+
+## Strings in enigmailKeyManager.js
+
 import-from-clip = Cośo kluce z mjazywótkłada importěrowaś?
 import-from-url = Zjawny kluc z toś togo URL ześěgnuś:
 copy-to-clipbrd-failed = Wubrane kluce njedaju se do mjazywótkłada kopěrowaś.
 copy-to-clipbrd-ok = Kluce su se kopěrowali do mjazywótkłada
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     WARNOWANJE: Cośo rowno pótajmny kluc wulašowaś!
     
@@ -443,6 +493,8 @@ delete-mix =
     WARNOWANJE: Cośo rowno pótajmny kluc wulašowaś!
     Jolic swój pótajmny kluc lašujośo, njamóžośo wěcej powěści dešifrěrowaś, kótarež su se skoděrwoali za ten kluc.
     Cośo napšawdu WOBEJ wulašowaś, pótajmny a zjawny kluc‘?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Cośo zjawny kluc
     ‚{ $userId }‘ wulašowaś?
@@ -463,6 +515,8 @@ default-pub-key-filename = Eksportěrowane-zjawne-kluce
 default-pub-sec-key-filename = Zawěsćenje-pótajmnych-klucow
 refresh-key-warn = Warnowanje: We wótwisnosći wót licby klucow a zwiskoweje malsnosći mógło aktualizěrowanje wšych klucow kradu dlijucy proces byś!
 preview-failed = Dataja zjawnego kluca njedajo se cytaś.
+# Variables:
+# $reason (String) - Error description.
 general-error = Zmólka: { $reason }
 dlg-button-delete = &Lašowaś
 
@@ -472,7 +526,12 @@ openpgp-export-public-success = <b>Zjawny kluc jo se wuspěšnje eksportěrował
 openpgp-export-public-fail = <b>Njejo móžno, wubrany zjawny kluc eksportěrowaś!</b>
 openpgp-export-secret-success = <b>Pótajmny kluc jo se wuspěšnje eksportěrował!</b>
 openpgp-export-secret-fail = <b>Njejo móžno, wubrany pótajmny kluc eksportěrowaś!</b>
-# Strings in keyObj.jsm
+
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Kluc { $userId } (klucowy ID { $keyId }) jo se wótwołał.
 key-ring-pub-key-expired = Klcč { $userId } (klucowy ID { $keyId }) jo spadnuł.
 key-ring-no-secret-key = Zda se, až pótajmny kluc za { $userId } (klucowy ID { $keyId }) na swójom klucowcu njamaśo; njamóžośo kluc za signěrowanje wužywaś.
@@ -482,10 +541,14 @@ key-ring-sign-sub-keys-revoked = Wšykne signěrowańske pódkluce kluca { $user
 key-ring-sign-sub-keys-expired = Wšykne signěrowańske pódkluce kluca { $userId } (klucowy ID { $keyId } su spadnuli.
 key-ring-enc-sub-keys-revoked = Wšykne koděrowańske pódkluce kluca { $userId } (klucowy ID { $keyId } su wótwołane.
 key-ring-enc-sub-keys-expired = Wšykne koděrowańske pódkluce kluca { $userId } (klucowy ID { $keyId } su spadnuli.
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.jsm
+
 keyring-photo = Foto
 user-att-photo = Wužywaŕski atribut (JPEG-wobraz)
-# Strings in key.jsm
+
+## Strings in key.jsm
+
 already-revoked = Toś ten kluc jo južo wótwołany.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -505,7 +568,9 @@ after-revoke-info =
     Sćelśo mejlku z klucom abo nagrajśoe kluc na klucowe serwery, aby toś ten kluc znowego źělił, aby druge wěźeli, až sćo wótwołał swój kluc.
     Gaž softwara, kótaruž druge luźe wužywaju, wó wótwołanju zgóniju, se waš stary kluc wěcej njewužywa.
     Jolic nowy kluc za tu samsku e-mailowu adresu wužywaśo a k mejlkam, kótarež sćelośo, nowy zjawny kluc pśipowjesaśo, se informacije wó wašom wótwołanem starem klucu awtomatiski zapśimuju.
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.jsm & decryption.jsm
+
 key-man-button-import = &Importěrowaś
 delete-key-title = OpenPGP-kluc lašowaś
 delete-external-key-title = Eksterny GnuPG-kluc wótwónoźeś
@@ -513,26 +578,44 @@ delete-external-key-description = Cośo ID eksternego GnuPG-kluca wótwónoźeś
 key-in-use-title = OpenPGP-kluc se tuchylu wužywa
 delete-key-in-use-description = Pókšacowanje njejo móžne! Kluc, kótaryž jo se wubrał za lašowanje, se tuchylu pśez toś tu identitu wužywa. Wubjeŕśo drugi kluc abo njewuběrajśo žeden a wopytajśo hyšći raz.
 revoke-key-in-use-description = Pókšacowanje njejo móžne! Kluc, kótaryž jo se wubrał za wótwołanje, se tuchylu pśez toś tu identitu wužywa. Wubjeŕśo drugi kluc abo njewuběrajśo žeden a wopytajśo hyšći raz.
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.jsm
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = Toś ta e-mailowa adresa ‚{ $keySpec }‘ njedajo se klucoju we wašom klucowcu pśirědowaś.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = Konfigurěrowany klucowy ID ‚{ $keySpec }‘ njedajo se we wašom klucowcu namakaś.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Njejsćo wobkšuśił, až kluc z ID ‚{ $keySpec }‘ jo waš wósobinski kluc.
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 need-online = Funkcija, kótaruž sćo wubrał, njejo w modusu offline k dispoziciji. Pšosym źiśo online a wopytajśo hyšći raz.
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 no-key-found2 = Njejsmy mógli wužywajobny kluc namakaś, kótaryž pódanym pytańskim kriterijam wótpowědujo.
 no-update-found = Maśo južo kluce, kótarež su se namakali online.
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 fail-key-extract = Zmólka - pśikaz klucoweje ekstrakcije njejo se raźił
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.jsm
+
 fail-cancel = Zmólka - dostaśe kluca jo se pśetergnuło wot wužywarja
 not-first-block = Zmólka - prědny OpenPGP-blok njejo blok zjawnego kluca
 import-key-confirm = Zjawne kluce importěrowaś, kótarež su w powěsći zasajźone?
 fail-key-import = Zmólka – importěrowanje kluca njejo se raźiło
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Njejo móžno do dataje { $output } pisaś
 no-pgp-block = Zmólka - žeden płaśiwy blok šćitanych OpenPGP-datow namakany
 confirm-permissive-import = Import njejo se raźił. Kluc, kótaryž wopytujośo importěrowaś, mógał wobškóźony byś abo njeznate atributy wužywaś. Cośo wopytowaś, źěle importěrowaś, kótarež su korektne? To mógło k tomu wjasć, až import jo njedopołny a kluce su njewužywajobne.
-# Strings used in trust.jsm
+
+## Strings used in trust.jsm
+
 key-valid-unknown = njeznaty
 key-valid-invalid = njepłaśiwy
 key-valid-disabled = znjemóžnjony
@@ -543,14 +626,20 @@ key-trust-marginal = marginalny
 key-trust-full = dowěry gódny
 key-trust-ultimate = doskóńcny
 key-trust-group = (kupka)
-# Strings used in commonWorkflows.js
+
+## Strings used in commonWorkflows.js
+
 import-key-file = Dataju OpenPGP-kluca importěrowaś
 import-rev-file = Wótwołańsku dataju OpenPGP importěrowaś
 gnupg-file = GnuPG-dataje
 import-keys-failed = Importěrowanje klucow njejo se raźiło
+# Variables:
+# $key (String) - Key id to unlock.
 passphrase-prompt = Pšosym zapódajśo gronidłowu frazu, kótaraž slědujucy kluc dopušća: { $key }
 file-to-big-to-import = Dataja jo pśewjelika. Pšosym njeimportěrujśo wjeliku sajźbu klucow naraz.
-# Strings used in enigmailKeygen.js
+
+## Strings used in enigmailKeygen.js
+
 save-revoke-cert-as = Wótwołański certifikat napóraś a składowaś
 revoke-cert-ok = Wótwołański certifikat jo se wuspěšnje napórał. Móžośo jen wužywaś, aby swój zjawny kluc za njepłaśiwy deklarěrował, na pś. jolic sćo zgubił swój pótajmny kluc.
 revoke-cert-failed = Wótwołański certifikat njedajo se napóraś.
@@ -558,33 +647,53 @@ gen-going = Napóranje kluca južo běžy!
 keygen-missing-user-name = Njejo žedno mě za wubrane konto/identitu pódane. Pšosym zapódajśo gódnotu do póla   „Wašo mě“ w kontowych nastajenjach.
 expiry-too-short = Waš kluc musy nanejmjenjej jaden źeń płaśiwy byś.
 expiry-too-long = Njamóžośo kluc napóraś, kótaryž za wěcej ako 100 lět spadnjo.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Zjawny a pótajmny kluc za ‚{ $id }‘ napóraś?
 key-man-button-generate-key = &Kluc napóraś
 key-abort = Napóranje kluca pśetergnuś?
 key-man-button-generate-key-abort = Napóranje kluca pśe&tergnuś
 key-man-button-generate-key-continue = Z napóranim kluca pókšacowaś
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
 
 failed-decrypt = Zmólka – dešifrěrowanje njejo se raźiło
 fix-broken-exchange-msg-failed = Powěsć njedajo se reparěrowaś.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Signaturowa dataja ‚{ $attachment }‘ njedajo se pśdankoju pśirědowaś
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Pśidank ‚{ $attachment }‘ njedajo se signaturowej dataji pśirědowaś
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = Signatura za pśidank { $attachment } jo se wuspěšnje pśeglědała
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = Signatura za pśidank { $attachment } njedajo se pśeglědowaś
 decrypt-ok-no-sig =
     Warnowanje
     Dešifrěrowanje jo wuspěšne było, ale signatura njedajo se korektnje pśeglědowaś
 msg-ovl-button-cont-anyway = &Weto pókšacowaś
 enig-content-note = *Pśidanki toś teje powěsći njejsu daniž signěrowane daniž skoděrowane*
-# Strings used in enigmailMsgComposeOverlay.js
+
+## Strings used in enigmailMsgComposeOverlay.js
+
 msg-compose-button-send = &Powěsć pósłaś
 msg-compose-details-button-label = Drobnostki…
 msg-compose-details-button-access-key = D
 send-aborted = Słanje jo se pśetergnuło
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Nic dosć dowěry za kluc ‚{ $key }‘
+# Variables:
+# $key (String) - Key id.
 key-not-found = Kluc ‚{ $key }‘ njejo se namakał
+# Variables:
+# $key (String) - Key id.
 key-revoked = Kluc ‚{ $key }‘ jo se wótwołał
+# Variables:
+# $key (String) - Key id.
 key-expired = Kluc ‚{ $key }‘ jo spadnuł
 msg-compose-internal-error = Interna zmólka jo nastała.
 keys-to-export = Wubjeŕśo OpenPGP-kluce, kótarež maju se zasajźiś
@@ -596,6 +705,8 @@ msg-compose-partially-encrypted-short = Glědajśo se źěratych sensibelnych in
 quoted-printable-warn =
     Sćo zmóžnił koděrowanje ‚quoted-printable‘ za słanje powěsćow. To mógło k njekorektnemu dešifrěrowanjeju a/abo pśěglědowanjeju wašeje powěsći wjasć.
     Cośo něnto słanje powěsćow w koděrowanju ‚quoted-printable‘ znjemóžniś?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Sćo nastajił smužkowe łamanje pla { $width } znamuškow. Za korektne koděrowanje a/abo signěrowanje, musy toś ta gódnota nanejmjenjej 68 byś.
     Cośo něnto smužkowe łamanje do 68 znamuškow změniś?
@@ -608,31 +719,58 @@ send-to-news-warning =
     Pókšacowaś?
 save-attachment-header = Dešifrěrowany pśidank składowaś
 possibly-pgp-mime = Powěsć jo snaź z PGP/MIME skoděrowana abo signěrowana; wužywajśo funkciju ‚Dešifrěrowaś/Pśeglědowaś‘, aby to pśeglědował
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Toś ta powěsć njedajo se digitalnje signěrowaś, dokulaž hyšći njejsćo konfigurěrował koděrowanje kóńc do kóńca za <{ $key }>
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Toś ta powěsć njedajo se skoděrowana pósłaś, dokulaž hyšći njejsćo konfigurěrował koděrowanje kóńc do kóńca za <{ $key }>
-# Strings used in decryption.jsm
+
+## Strings used in decryption.jsm
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Slědujuce kluce importěrowaś?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = { $name } ({ $id }) importěrowaś?
 cant-import = Zmólka pśi importěrowanju zjawnego kluca
 unverified-reply = Zasunjony powěsćowy źěl (wótegrono) jo se njeskerjej změnił
 key-in-message-body = Kluc jo se namakał we wopśimjeśu powěsći. Klikniśo na ‚Kluc importěrowaś‘, aby kluc importěrował
 sig-mismatch = Zmólka - signatura njepasujo
 invalid-email = Zmólka - njepłaśiwe e-mailowe adrese
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Zda se, až pśidank ‚{ $name }‘, kótaryž wócynjaśo, jo dataja OpenPGP-kluca.
     Klikniśo na ‚Importěrowaś‘, aby wopśimowane kluce importěrował abo na ‚Pokazaś‘, aby wopśimjeśe dataje we woknje wobglědowaka pokazał
 dlg-button-view = &Naglěd
-# Strings used in enigmailMsgHdrViewOverlay.js
+
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 decrypted-msg-with-format-error = Dešifrěrowana powěsć (wótnowjony wobškóźony e-mailowy format PGP jo se nejskerjej zawinował pśez stary serwer Exchange; pśez to njedajo se snaź wuslědk derje cytaś)
-# Strings used in encryption.jsm
+
+## Strings used in encryption.jsm
+
 not-required = Zmólka – žedno koděrowanje trjebne
-# Strings used in windows.jsm
+
+## Strings used in windows.jsm
+
 no-photo-available = Žedno foto k dispoziciji
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Fotowa sćažka ‚{ $photo }‘ njejo cytajobna
 debug-log-title = Zmólkowy protokol OpenPGP
-# Strings used in dialog.jsm
+
+## Strings used in dialog.jsm
+
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix = Toś ta powěźeńka se hyšći { $count }
 repeat-suffix-singular = raz wóspjetujo.
 repeat-suffix-plural = razow wóspjetujo.
@@ -646,9 +784,13 @@ enig-prompt = OpenPGP-napominanje
 enig-confirm = OpenPGP-wobkšuśenje
 enig-alert = OpenPGP-powěźeńka
 enig-info = OpenPGP-informacije
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.jsm
+
 dlg-button-retry = &Hyšći raz wopytaś
 dlg-button-skip = &Pśeskócyś
-# Strings used in enigmailMsgBox.js
+
+## Strings used in enigmailMsgBox.js
+
 enig-alert-title =
     .title = OpenPGP-powěźeńka

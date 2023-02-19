@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Póbitowarja OpenSearch pśidaś
 add-opensearch-provider-text = Zapódajśo URL póbitowarja OpenSearch, kótaryž se ma pśidaś. Wužywajśo pak direktny URL wopisańskeje dataje OpenSearch pak URL, źož dajo se awtomatiski namakaś.
 adding-opensearch-provider-failed-title = Pśidawanje  póbitowarja OpenSearch njejo se raźiło
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Njejo móžno było, póbitowarja OpenSearch za { $url } pśidaś.
 minimize-to-tray-label =
     .label = Gaž { -brand-short-name } jo miniměrowany, pśesuńśo jen do wótkładnice.
@@ -197,6 +199,14 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Suwańske rědki pśecej pokazaś
     .accesskey = u
+window-layout-legend = Woknowe wugótowanje
+draw-in-titlebar-label =
+    .label = Systemowu titelowu rědku wokna schowaś
+    .accesskey = S
+auto-hide-tabbar-label =
+    .label = Rejtarikowu rědku awtomatiski schowaś
+    .accesskey = R
+auto-hide-tabbar-description = Schowajśo rejtarikowu rědku, gaž jano jaden rejtarik jo wócynjony
 system-integration-legend = Systemowa integracija
 always-check-default =
     .label = Pśi startowanju pśecej kontrolěrowaś, lěc { -brand-short-name } jo standardny e-mailowy program
@@ -277,6 +287,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Něnto wuprozniś
     .accesskey = u
+clear-cache-shutdown-label =
+    .label = Pufrowak pśi wušaltowanju prozniś
+    .accesskey = P
 fonts-legend = Pisma a barwy
 default-font-label =
     .value = Standardne pismo:
@@ -718,6 +731,7 @@ search-results-help-link = Trjebaśo pomoc? Woglědajśo k <a data-l10n-name="ur
 ## Sync Tab
 
 sync-signedout-caption = Wzejśo swój web sobu
+sync-signedout-description = Synchronizěrujśo swóje konta, adresniki, kalendarje, dodanki a nastajenja mjazy wšymi wašymi rědami.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Pla Sync pśizjawiś…
 sync-pane-header = Synchronizacija
@@ -753,4 +767,5 @@ show-synced-change = Změniś…
 synced-acount-item-server-config = Serwerowa konfiguracija
 synced-acount-item-filters = Filtry
 synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synchronizěrujśo swóje e-mailowe konta, adresniki, kalendarje a identity mjazy wšymi wašymi rědami.
 sync-disconnected-turn-on-sync = Synchronizaciju zmóžniś…
