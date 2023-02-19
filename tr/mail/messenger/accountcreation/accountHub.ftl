@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
+
+
 ## Header
 
 account-hub-brand = { -brand-full-name }
@@ -25,6 +29,13 @@ account-hub-chat-button = Sohbeti ayarla
 account-hub-feed-button = RSS beslemesini ayarla
 account-hub-newsgroup-button = Haber grubu kur
 account-hub-import-button = Profili içe aktar
+
+## Initial setup page
+
+account-hub-calendar-setup-button = Takvim
+    .title = Yerel veya uzak bir takvim oluştur
+account-hub-chat-setup-button = Sohbet
+    .title = Bir sohbet hesabı oluştur
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Eşitlemek için giriş yap…
 

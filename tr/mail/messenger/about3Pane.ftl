@@ -113,6 +113,17 @@ quick-filter-bar-gloda-upsell-line1 = Bu aramayı tüm dizinlerde sürdür
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Şunu aramaya devam etmek için Enter'a yeniden basın: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = İletileri al
+folder-pane-write-message-button = Yeni ileti
+    .title = Yeni bir ileti oluştur
+folder-pane-more-menu-button =
+    .title = Dizin bölmesi seçenekleri
+folder-pane-header-context-hide =
+    .label = Dizin bölmesi başlığını gizle
+
 ## Message thread pane
 
 threadpane-column-header-select =

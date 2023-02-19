@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Metin kodlamasını onar
     .accesskey = M
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Dizin bölmesi başlığı
+    .accesskey = D
+
 ## View / Layout
 
 menu-font-size-label =

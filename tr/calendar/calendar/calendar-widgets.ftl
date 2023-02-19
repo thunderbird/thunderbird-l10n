@@ -15,6 +15,10 @@ calendar-list-header = Takvimler
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = { $calendarName } takvim seçeneği
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } takvim seçenekleri
 calendar-import-new-calendar = Yeni takvim…
     .title = Yeni bir takvim oluştur veya takvime abone ol
 calendar-refresh-calendars =
