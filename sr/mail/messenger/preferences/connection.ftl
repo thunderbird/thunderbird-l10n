@@ -21,6 +21,15 @@ connection-dialog-window =
             [macos] width: 45em !important
            *[other] width: 50em !important
         }
+connection-dialog-window2 =
+    .title = Подешавања везе
+disable-extension-button = Онемогући додатак
+# Variables:
+#   $name (String) - The extension that is controlling the proxy settings.
+#
+# The extension-icon is the extension's icon, or a fallback image. It should be
+# purely decoration for the actual extension name, with alt="".
+proxy-settings-controlled-by-extension = Додатак <img data-l10n-name="extension-icon" alt="" /> { $name } управља начином на који се { -brand-short-name } повезује на интернет.
 connection-proxy-legend = Подесите прокси за приступ интернету
 proxy-type-no =
     .label = Без проксија
@@ -71,6 +80,8 @@ no-proxy-label =
     .value = Нема прокси за:
     .accesskey = н
 no-proxy-example = На пример: .mozilla.org, .net.nz, 192.168.1.0/24
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-noproxy-localhost-desc-2 = Везе са localhost, 127.0.0.1/8, и ::1 никада нису преко прокси сервера.
 proxy-password-prompt =
     .label = Не питај за идентификацију уколико је лозинка сачувана
     .accesskey = и

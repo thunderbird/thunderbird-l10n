@@ -15,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Кратко: { $date }
+use-system-timezone-radio-button =
+    .label = Користи временску зону система
+set-timezone-manually-radio-button =
+    .label = Подеси временску зону ручно
 timezone-label =
     .value = Временска зона:
 weekstart-label =
@@ -101,12 +105,9 @@ previous-weeks-label =
     .value = Претходне недеље за приказивање:
     .accesskey = П
 todaypane-legend = Данашња површ
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = Одељак „Предстојећи“ приказује:
-    .accesskey = О
+agenda-days =
+    .value = Дневни ред показује:
+    .accesskey = н
 event-task-legend = Догађаји и задаци
 default-length-label =
     .value = Подразумевана дужина догађаја и задатка:
