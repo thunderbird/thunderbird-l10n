@@ -3,3 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-recurrence-preview-label = Претпреглед
+calendar-recurrence-next = Следећи месец
+calendar-recurrence-previous = Претходни месец
+calendar-recurrence-today = Данас

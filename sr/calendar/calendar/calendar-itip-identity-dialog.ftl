@@ -5,3 +5,4 @@
 calendar-itip-identity-dialog-title = Позивате ли се сами?
 calendar-itip-identity-warning = Још увек нисте на листи гостију.
 calendar-itip-identity-label = Одговори као:
+calendar-itip-identity-label-none = Повежи овај догађај са:
