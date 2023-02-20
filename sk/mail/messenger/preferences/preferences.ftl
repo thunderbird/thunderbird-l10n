@@ -43,7 +43,7 @@ privacy-passwords-header = Heslá
 privacy-junk-header = Spam
 collection-header = Zber a použitie údajov o aplikácii { -brand-short-name }
 collection-description = Keď sa jedná o údaje, dávame vám vždy na výber. Zbierame len údaje, ktoré nám pomôžu aplikáciu { -brand-short-name } naďalej zlepšovať. Pred odoslaním osobných údajov vždy žiadame o váš súhlas.
-collection-privacy-notice = Zásady ochrany súkromia
+collection-privacy-notice = Vyhlásenie o ochrane osobných údajov
 collection-health-report-telemetry-disabled = Odosielanie technických údajov a údajov o interakcii spoločnosti { -vendor-short-name } nie je naďalej povolené. Všetky historické údaje budú odstránené v priebehu 30 dní.
 collection-health-report-telemetry-disabled-link = Ďalšie informácie
 collection-health-report =
@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Pridať poskytovateľa vyhľadávania OpenSearch
 add-opensearch-provider-text = Zadajte adresu URL poskytovateľa OpenSearch, ktorého chcete pridať. Použite buď priamu adresu URL na súbor s popisom OpenSearch, alebo adresu URL, na ktorej ho možno automaticky nájsť.
 adding-opensearch-provider-failed-title = Pridanie poskytovateľa OpenSearch zlyhalo
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Nepodarilo sa pridať poskytovateľa OpenSearch pre adresu { $url }.
 minimize-to-tray-label =
     .label = Ak je { -brand-short-name } minimalizovaný, presunúť ho oblasti oznámení
