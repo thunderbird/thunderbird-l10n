@@ -117,6 +117,17 @@ quick-filter-bar-gloda-upsell-line1 = Parhau i chwilio pob ffolder
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Pwyswch ‘Enter’ eto i barhau i chwilio am: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Estyn Negeseuon
+folder-pane-write-message-button = Neges Newydd
+    .title = Ysgrifennu neges newydd
+folder-pane-more-menu-button =
+    .title = Dewisiadau paen ffolder
+folder-pane-header-context-hide =
+    .label = Cuddio Penyn Paen Ffolder
+
 ## Message thread pane
 
 threadpane-column-header-select =
