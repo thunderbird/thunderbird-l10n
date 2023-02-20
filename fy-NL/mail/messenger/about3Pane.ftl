@@ -113,6 +113,11 @@ quick-filter-bar-gloda-upsell-line1 = Sykje fierder troch alle mappen
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Druk nochris op ‘Enter’ om fierder te sykjen nei: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Krij berjochten
+
 ## Message thread pane
 
 threadpane-column-header-select =
