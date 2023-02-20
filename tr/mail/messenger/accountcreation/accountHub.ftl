@@ -36,6 +36,8 @@ account-hub-calendar-setup-button = Takvim
     .title = Yerel veya uzak bir takvim oluştur
 account-hub-chat-setup-button = Sohbet
     .title = Bir sohbet hesabı oluştur
+account-hub-import-setup-button = İçe aktar
+    .title = Yedeklenmiş bir profili içe aktar
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Eşitlemek için giriş yap…
 

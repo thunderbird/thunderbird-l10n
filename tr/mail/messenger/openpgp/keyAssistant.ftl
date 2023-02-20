@@ -7,6 +7,7 @@ openpgp-key-assistant-title = OpenPGP Anahtar Yardımcısı
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = Şifrelenemiyor
+openpgp-key-assistant-info-alias = { -brand-short-name } normalde alıcının ortak anahtarının, e-posta adresi eşleşen bir kullanıcı kimliği içermesini gerektirir. Bunu OpenPGP alıcı diğer ad kurallarını kullanılarak geçersiz kılabilirsiniz. <a data-l10n-name="openpgp-link">Daha fazla bilgi alın…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-description =
