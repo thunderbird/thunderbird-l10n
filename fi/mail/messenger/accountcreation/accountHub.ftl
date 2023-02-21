@@ -27,12 +27,27 @@ account-hub-calendar-button = Määritä kalenteri
 account-hub-address-book-button = Määritä osoitekirja
 account-hub-chat-button = Määritä keskustelu
 account-hub-feed-button = Määritä RSS-syöte
+account-hub-newsgroup-button = Määritä keskusteluryhmä
 account-hub-import-button = Tuo profiili
 
 ## Initial setup page
 
+account-hub-email-setup-button = Sähköpostitili
+    .title = Määritä sähköpostitili
+account-hub-calendar-setup-button = Kalenteri
+    .title = Määritä paikallinen tai verkossa oleva kalenteri
+account-hub-address-book-setup-button = Osoitekirja
+    .title = Määritä paikallinen tai verkossa oleva osoitekirja
+account-hub-chat-setup-button = Keskustelu
+    .title = Määritä keskustelutili
+account-hub-feed-setup-button = RSS-syöte
+    .title = Määritä RSS-syötetili
+account-hub-newsgroup-setup-button = Keskusteluryhmä
+    .title = Määritä keskusteluryhmätili
 account-hub-import-setup-button = Tuo
     .title = Tuo varmuuskopioitu profiili
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Kirjaudu Sync-palveluun…
 
 ## Email page
 
