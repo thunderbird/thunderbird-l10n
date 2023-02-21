@@ -113,6 +113,13 @@ quick-filter-bar-gloda-upsell-line1 = Suorita tämä suodatus kaikista kansioist
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Paina ‘Enter’ uudestaan jatkaaksesi hakuasi termillä: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Nouda viestit
+folder-pane-write-message-button = Uusi viesti
+    .title = Kirjoita uusi viesti
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -198,6 +205,9 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Uuden viestin ilmaisin
+    .title = Uusi viesti
 apply-columns-to-menu =
     .label = Käytä sarakkeita…
 apply-current-view-to-menu =
