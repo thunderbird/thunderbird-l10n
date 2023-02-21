@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
+
+
 ## Header
 
 account-hub-brand = { -brand-full-name }
@@ -24,6 +28,11 @@ account-hub-address-book-button = Määritä osoitekirja
 account-hub-chat-button = Määritä keskustelu
 account-hub-feed-button = Määritä RSS-syöte
 account-hub-import-button = Tuo profiili
+
+## Initial setup page
+
+account-hub-import-setup-button = Tuo
+    .title = Tuo varmuuskopioitu profiili
 
 ## Email page
 
