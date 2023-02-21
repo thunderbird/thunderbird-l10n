@@ -7,12 +7,19 @@ calendar-deactivated-notification-tasks = Kaikki kalenterit ovat tällä hetkell
 calendar-notifications-label = Näytä ilmoitukset tulevista tapahtumista
 calendar-add-notification-button =
     .label = Lisää ilmoitus
+
+## Side panel
+
+calendar-list-header = Kalenterit
 calendar-import-new-calendar = Uusi kalenteri…
     .title = Luo tai tilaa uusi kalenteri
 calendar-refresh-calendars =
     .title = Lataa kaikki kalenterit uudelleen ja synkronoi muutokset
 calendar-new-event-primary-button = Uusi tapahtuma
 calendar-new-task-primary-button = Uusi tehtävä
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Edellinen päivä
     .accesskey = E
