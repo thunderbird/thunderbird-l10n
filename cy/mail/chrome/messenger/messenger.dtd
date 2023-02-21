@@ -328,7 +328,7 @@
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Neges">
 <!ENTITY msgMenu.accesskey "N">
-<!ENTITY newMsgCmd.label "Neges Newydd">
+<!ENTITY newMsgCmd.label "Neges">
 <!ENTITY newMsgCmd.accesskey "N">
 <!ENTITY newNewMsgCmd.label "Neges">
 <!ENTITY newNewMsgCmd.accesskey "e">
