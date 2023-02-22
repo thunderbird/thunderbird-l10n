@@ -113,6 +113,15 @@ quick-filter-bar-gloda-upsell-line1 = Συνέχεια αναζήτησης σε
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Πατήστε «Enter» ξανά για να συνεχίσετε την αναζήτησή σας για: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Λήψη μηνυμάτων
+folder-pane-write-message-button = Νέο μήνυμα
+    .title = Σύνθεση νέου μηνύματος
+folder-pane-more-menu-button =
+    .title = Επιλογές περιοχής φακέλων
+
 ## Message thread pane
 
 threadpane-column-header-select =
