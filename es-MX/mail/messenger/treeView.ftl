@@ -7,3 +7,5 @@
 
 tree-list-view-column-picker =
     .title = Seleccionar columnas para mostrar
+tree-list-view-column-picker-restore =
+    .label = Restablecer orden de las columnas

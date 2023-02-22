@@ -17,6 +17,10 @@ calendar-list-item-tooltip =
     .title = { $calendarName } opción de calendario
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } calendario ha sido silenciado
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = { $calendarName } opciones de calendario
 calendar-import-new-calendar = Nuevo calendario…
