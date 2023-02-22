@@ -113,6 +113,15 @@ quick-filter-bar-gloda-upsell-line1 = Verder zoeken in alle mappen
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Druk nogmaals op ‘Enter’ om verder te zoeken naar { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Berichten ophalen
+folder-pane-write-message-button = Nieuw bericht
+    .title = Een nieuw bericht opstellen
+folder-pane-more-menu-button =
+    .title = Mappenpaneelopties
+
 ## Message thread pane
 
 threadpane-column-header-select =
