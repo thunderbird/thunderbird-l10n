@@ -109,6 +109,17 @@ quick-filter-bar-gloda-upsell-line1 = Tiếp tục tìm kiếm này trên tất 
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Nhấn ‘Enter’ một lần nữa để tiếp tục tìm kiếm của bạn cho: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Nhận thư
+folder-pane-write-message-button = Thư mới
+    .title = Soạn một thư mới
+folder-pane-more-menu-button =
+    .title = Tùy chọn ngăn thư mục
+folder-pane-header-context-hide =
+    .label = Ẩn header ngăn thư mục
+
 ## Message thread pane
 
 threadpane-column-header-select =
