@@ -121,6 +121,8 @@ folder-pane-write-message-button = Nieuw bericht
     .title = Een nieuw bericht opstellen
 folder-pane-more-menu-button =
     .title = Mappenpaneelopties
+folder-pane-header-context-hide =
+    .label = Koptekst mappenpaneel verbergen
 
 ## Message thread pane
 

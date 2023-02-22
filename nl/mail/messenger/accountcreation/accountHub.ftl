@@ -34,12 +34,18 @@ account-hub-import-button = Profiel importeren
 
 account-hub-email-setup-button = E-mailaccount
     .title = Een e-mailaccount instellen
+account-hub-calendar-setup-button = Agenda
+    .title = Een lokale agenda of een agenda op afstand instellen
+account-hub-address-book-setup-button = Adresboek
+    .title = Een lokaal adresboek of adresboek op afstand instellen
 account-hub-chat-setup-button = Chat
     .title = Een chataccount instellen
 account-hub-feed-setup-button = RSS-feed
     .title = Een RSS-feedaccount instellen
 account-hub-newsgroup-setup-button = Nieuwsgroep
     .title = Een nieuwsgroepaccount instellen
+account-hub-import-setup-button = Importeren
+    .title = Een reservekopie van een profiel importeren
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Aanmelden bij Synchronisatie…
 
