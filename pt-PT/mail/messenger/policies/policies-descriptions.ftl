@@ -12,8 +12,10 @@
 
 policy-3rdparty = Defina as políticas que as WebExtensions podem aceder via chrome.storage.managed.
 policy-AppAutoUpdate = Ativar ou desativar as atualizações automáticas da aplicação.
+policy-AppUpdatePin = Impedir que o { -brand-short-name } seja atualizado além da versão especificada.
 policy-AppUpdateURL = Definir um endereço personalizado para a atualização da aplicação.
 policy-Authentication = Configurar autenticação integrada para sites que a suportem.
+policy-BackgroundAppUpdate2 = Ativar ou desativar o serviço de atualização em segundo plano.
 policy-BlockAboutAddons = Bloquear o acesso ao Gestor de extras (about:addons).
 policy-BlockAboutConfig = Bloquear o acesso à página about:config.
 policy-BlockAboutProfiles = Bloquear o acesso à página about:profiles.
@@ -21,6 +23,7 @@ policy-BlockAboutSupport = Bloquear o acesso à página about:support.
 policy-CaptivePortal = Ativar ou desativar o suporte ao portal cativo.
 policy-CertificatesDescription = Adicionar certificados ou usar certificados internos.
 policy-Cookies = Permitir ou impedir que sites definam cookies.
+policy-DisableBuiltinPDFViewer = Desativar o PDF.js, o leitor de PDF incorporado no { -brand-short-name }.
 policy-DisabledCiphers = Desativar cifras.
 policy-DefaultDownloadDirectory = Definir a pasta de transferências predefinida.
 policy-DisableAppUpdate = Impedir que o { -brand-short-name } seja atualizado.
@@ -50,6 +53,7 @@ policy-EncryptedMediaExtensions = Ativar ou desativar as Extensões de multiméd
 policy-Extensions = Instalar, desinstalar ou bloquear extensões. A opção Instalar utiliza endereços ou caminhos como parâmetros. As opções Desinstalar e Bloquear utilizam identificadores de extensões.
 policy-ExtensionSettings = Gerir todos os aspetos da instalação de extensões.
 policy-ExtensionUpdate = Ativar ou desativar atualizações automáticas de extensões.
+policy-Handlers = Configurar as aplicações operadoras predefinidas.
 policy-HardwareAcceleration = Se falso, desligar aceleração por hardware.
 policy-InstallAddonsPermission = Permitir a instalação de extras a determinados sites.
 policy-LegacyProfiles = Desativar a funcionalidade de forçar um perfil separado para cada instalação.
@@ -62,6 +66,7 @@ policy-LegacySameSiteCookieBehaviorEnabledForDomainList = Reverter para o compor
 ##
 
 policy-LocalFileLinks = Permitir que determinados sites estabeleçam ligações a ficheiros locais.
+policy-ManualAppUpdateOnly = Permitir apenas atualizações manuais e não notificar o utilizador sobre atualizações.
 policy-NetworkPrediction = Ativar ou desativar a previsão de rede (pré-obtenção de DNS).
 policy-OfferToSaveLogins = Forçar a definição para permitir que { -brand-short-name } se ofereça para memorizar as credenciais e as palavras-passe guardadas. São aceites ambos os valores, "true" e "false".
 policy-OfferToSaveLoginsDefault = Definir o valor predefinido para permitir que o { -brand-short-name } sugira credenciais e palavras-passe guardadas. São aceites ambos os valores, true e false.
@@ -72,6 +77,7 @@ policy-PasswordManagerEnabled = Ativar a opção de guardar as palavras-passe no
 policy-PDFjs = Desativar ou configurar o PDF.js, o visualizador integrado de PDF do { -brand-short-name }.
 policy-Permissions2 = Configurar as permissões para a câmara, microfone, localização, notificações e reprodução automática.
 policy-Preferences = Definir e bloquear o valor para um subconjunto de preferências.
+policy-PrimaryPassword = Exigir ou impedir a utilização de uma palavra-passe principal.
 policy-PromptForDownloadLocation = Perguntar onde guardar os ficheiros ao transferir.
 policy-Proxy = Configurar as definições de proxy.
 policy-RequestedLocales = Definir a lista de idiomas solicitados para a aplicação por ordem de preferência.
