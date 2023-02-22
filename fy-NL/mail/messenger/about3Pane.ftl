@@ -117,6 +117,12 @@ quick-filter-bar-gloda-upsell-line2 = Druk nochris op ‘Enter’ om fierder te 
 
 folder-pane-get-messages-button =
     .title = Krij berjochten
+folder-pane-write-message-button = Nij berjocht
+    .title = In nij berjocht opstelle
+folder-pane-more-menu-button =
+    .title = Mappepanielopsjes
+folder-pane-header-context-hide =
+    .label = Koptekst mappepaniel ferstopje
 
 ## Message thread pane
 
