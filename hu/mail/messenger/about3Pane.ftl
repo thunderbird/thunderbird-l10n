@@ -113,6 +113,17 @@ quick-filter-bar-gloda-upsell-line1 = Keresés folytatása az összes mappában
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Nyomja meg az Enter billentyűt a(z) { $text } kereséséhez
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Üzenetek letöltése
+folder-pane-write-message-button = Új üzenet
+    .title = Új üzenet írása
+folder-pane-more-menu-button =
+    .title = Mappa ablaktábla beállításai
+folder-pane-header-context-hide =
+    .label = Mappa ablaktábla fejlécének elrejtése
+
 ## Message thread pane
 
 threadpane-column-header-select =
