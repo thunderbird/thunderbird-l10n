@@ -113,6 +113,17 @@ quick-filter-bar-gloda-upsell-line1 = Continuer cette recherche dans tous les do
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Appuyez sur la touche « Entrée » à nouveau pour continuer votre recherche pour : { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Relever les nouveaux messages
+folder-pane-write-message-button = Nouveau message
+    .title = Rédiger un nouveau message
+folder-pane-more-menu-button =
+    .title = Options du panneau des dossiers
+folder-pane-header-context-hide =
+    .label = Masquer l’en-tête du panneau des dossiers
+
 ## Message thread pane
 
 threadpane-column-header-select =
