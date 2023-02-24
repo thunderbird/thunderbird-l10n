@@ -1,0 +1,36 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY lightning.toolbar.sync.label "Tixim">
+<!ENTITY lightning.toolbar.delete.label "Tiyuj">
+<!ENTITY lightning.toolbar.edit.label "Tinuk'">
+<!ENTITY lightning.toolbar.gototoday.label "Jo' wakami">
+<!ENTITY lightning.toolbar.gototoday.tooltip "Jo' wakami">
+<!ENTITY lightning.toolbar.print.label "Titz'ajb'äx">
+<!ENTITY lightning.toolbar.print.tooltip "Titz'ajb'äx molojri'ïl o samaj">
+
+<!-- Mode Toolbar -->
+<!ENTITY lightning.toolbar.calendar.label     "Cholb'äl Q'ij">
+<!ENTITY lightning.toolbar.task.label         "Taq samaj">
+
+<!-- Toolbar write button -->
+<!ENTITY lightning.toolbar.newevent.label     "Molojri'ïl">
+<!ENTITY lightning.toolbar.newevent.tooltip   "Titz'uk jun k'ak'a' molojri'ïl">
+<!ENTITY lightning.toolbar.newtask.label      "Samaj">
+<!ENTITY lightning.toolbar.newtask.tooltip    "Titz'uk jun k'ak'a' samaj">
+
+<!-- Calendar and Task Mode Toolbar -->
+<!ENTITY lightning.toolbar.day.label                 "Q'ij">
+<!ENTITY lightning.toolbar.day.accesskey             "Q">
+<!ENTITY lightning.toolbar.week.label                "Wuqq'ij">
+<!ENTITY lightning.toolbar.week.accesskey            "W">
+<!ENTITY lightning.toolbar.multiweek.label           "K'ïy wuqq'ij">
+<!ENTITY lightning.toolbar.multiweek.accesskey       "K">
+<!ENTITY lightning.toolbar.month.label               "Ik'">
+<!ENTITY lightning.toolbar.month.accesskey           "I">
+<!-- LOCALIZATION NOTE: the same as appmenuButton.label and appmenuButton1.tooltip
+     from messenger.dtd -->
+<!ENTITY lightning.toolbar.appmenuButton.label       "AppMenu">
+<!ENTITY lightning.toolbar.appmenuButton1.tooltip    "Tik'ut ri &brandShortName; K'utsamaj">
