@@ -105,6 +105,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = 重定向
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -141,6 +143,7 @@ message-header-button-style-icons =
 message-header-show-sender-full-address =
     .label = 始终显示发件人的完整地址
     .accesskey = f
+message-header-show-sender-full-address-description = 电子邮件地址将显示在显示名称的下面。
 message-header-show-recipient-avatar =
     .label = 显示发件人头像
     .accesskey = p
@@ -150,6 +153,9 @@ message-header-hide-label-column =
 message-header-large-subject =
     .label = 放大主题
     .accesskey = s
+message-header-all-headers =
+    .label = 显示所有消息头
+    .accesskey = A
 
 ## Action Button Context Menu
 
@@ -163,9 +169,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = 要移除 { $name } 吗？
 addon-removal-confirmation-button = 移除
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = 要从 { -brand-short-name } 中移除 { $name } 及其配置和数据吗？
 caret-browsing-prompt-title = 光标浏览
 caret-browsing-prompt-text = 按 F7 来启用或禁用光标浏览。此功能将在某些内容中放置一个可移动的光标，以便您能使用键盘选择文本。您想要启用光标浏览吗？
@@ -177,11 +185,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = 不支持回复
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = 邮件的回复地址（{ $email }）看起来不像是有人会收件的地址。发送到此地址的邮件，不大可能被人阅读。
 no-reply-reply-anyway-button = 仍然回复
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = 共计 { $total } 条消息，有 { $failures } 条因解密失败而未复制。
 
 ## Spaces toolbar
