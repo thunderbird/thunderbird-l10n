@@ -113,6 +113,11 @@ quick-filter-bar-gloda-upsell-line1 = K'a tib'an re kanoxïk re' pa ronojel yakw
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Tapitz'a’ chik ‘Enter’ richin k'a nib'an ri rukanoxik: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Tik'ul rutzijol
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -129,6 +134,8 @@ threadpane-column-header-attachments =
     .title = Tinuk' chi taqoj
 threadpane-column-label-attachments =
     .label = Taq taqoj
+threadpane-column-label-spam =
+    .label = Spam
 threadpane-column-header-sender = Richin
     .title = Kenuk' chi richin
 threadpane-column-label-sender =
@@ -205,6 +212,7 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = ¿La Ye'okisäx kan ri taq Jaloj?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = ¿La ye'okisäx kan ri taq rutem yakwuj wakami pa { $name }?

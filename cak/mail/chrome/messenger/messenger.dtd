@@ -485,6 +485,8 @@
 <!ENTITY deleteJunk.accesskey "T">
 <!ENTITY importCmd.label "Tijik' pe…">
 <!ENTITY importCmd.accesskey "j">
+<!ENTITY exportCmd.label "Tik'wäx el…">
+<!ENTITY exportCmd.accesskey "x">
 <!ENTITY clearRecentHistory.label "Tiyuj K'ak'a' Natab'äl…">
 <!ENTITY clearRecentHistory.accesskey "N">
 <!ENTITY accountManagerCmd2.label "Kinuk'ulem Rub'i' Taqoya'l">
