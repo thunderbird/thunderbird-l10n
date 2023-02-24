@@ -43,10 +43,27 @@
 <!ENTITY lightning.calendarproperties.notifications.label                   "Taq rutzijol">
 
 <!-- iMIP Bar (meeting support) -->
+<!ENTITY lightning.imipbar.btnAccept.label                                  "Tik'ul">
+<!ENTITY lightning.imipbar.btnAdd.label                                     "Titz'aqatisäx">
+<!ENTITY lightning.imipbar.btnDecline.label                                 "Tixutüx">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "Xxutüx ronojel">
+<!ENTITY lightning.imipbar.btnDeclineCounter.label                          "Tixutüx">
+<!ENTITY lightning.imipbar.btnDelete.label                                  "Tiyuj">
+<!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Tiyuj pa Cholb'äl Q'ij">
+<!ENTITY lightning.imipbar.btnDetails.label                                 "Kib'anikil…">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Kek'ut taq kib'anikil molojri'ïl">
+<!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Cholb'äl q'ij">
+<!ENTITY lightning.imipbar.btnMore.label                                    "Ch'aqa' chik">
+<!ENTITY lightning.imipbar.btnSaveCopy.label                                "Tiyak jun wachib'äl">
+<!ENTITY lightning.imipbar.btnTentative.label                               "Tirayïx">
+<!ENTITY lightning.imipbar.btnUpdate.label                                  "Tik'ex">
 
 
 <!-- Lightning specific keybindings -->
 
 <!-- Account Central page -->
+<!ENTITY lightning.acctCentral.newCalendar.label "Titz'uk k'ak'a' cholb'äl q'ij">
 
 <!-- today-pane-specific -->
+<!ENTITY todaypane.showNone.label "Majun Tik'ut">
+<!ENTITY todaypane.showNone.accesskey "M">
