@@ -32,13 +32,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Taya' rutzijol chi man xkek'ul ta junamel taq ch'ob'onïk">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -80,10 +77,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Tiyuj…">
 <!ENTITY  event.menu.item.delete.accesskey                "y">
-<!ENTITY  event.menu.item.page.setup.label                "Runuk'ulem Ruxaq">
-<!ENTITY  event.menu.item.page.setup.accesskey            "u">
-<!ENTITY  event.menu.item.print.label                     "Titz'ajb'äx">
-<!ENTITY  event.menu.item.print.accesskey                 "b">
 
 <!ENTITY  event.menu.edit.label                           "Tinuk'">
 <!ENTITY  event.menu.edit.accesskey                       "n">
@@ -149,6 +142,8 @@
 <!ENTITY event.categories.textbox.label                   "Titz'aqatisäx jun k'ak'a' ruwäch" >
 <!ENTITY event.calendar.label                             "Cholb'äl q'ij:" >
 <!ENTITY event.calendar.accesskey                         "C">
+<!ENTITY event.attendees.label                            "To'onela':" >
+<!ENTITY event.attendees.accesskey                        "n">
 <!ENTITY event.alldayevent.label                          "Nimaq'ij Ronojel q'ij" >
 <!ENTITY event.alldayevent.accesskey                      "q">
 <!ENTITY event.from.label                                 "Tikirib'äl:" >
