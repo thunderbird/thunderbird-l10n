@@ -10,6 +10,7 @@ calendar-invitation-panel-status-processed = 该事件已经添加到您的日�
 calendar-invitation-panel-status-updateminor = 此消息包含一个事件更新。
 calendar-invitation-panel-status-updatemajor = 此消息包含对此事件的更新，你应该重新确认是否参与。
 calendar-invitation-panel-status-cancelled = 此消息包含一个事件的取消。
+calendar-invitation-panel-status-cancelled-notfound = 此消息包含取消一个在您的日历中找不到的事件。
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } 已取消：
@@ -25,8 +26,6 @@ calendar-invitation-panel-decline-button = 不参加
 calendar-invitation-panel-tentative-button = 也许会参加
 calendar-invitation-panel-reply-status = * 您尚未决定或回复
 calendar-invitation-panel-more-button = 更多
-calendar-invitation-panel-menu-item-save =
-    .label = 保存到日历
 calendar-invitation-panel-menu-item-save-copy =
     .label = 保存副本
 calendar-invitation-panel-menu-item-toggle-changes =
