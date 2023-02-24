@@ -117,6 +117,8 @@ quick-filter-bar-gloda-upsell-line2 = Presionar ‘Intro’ de nuevo para contin
 
 folder-pane-get-messages-button =
     .title = Obtener mensajes
+folder-pane-write-message-button = Nuevo mensaje
+    .title = Redactar un nuevo mensaje
 
 ## Message thread pane
 
