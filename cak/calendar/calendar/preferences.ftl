@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-title = Cholb'äl q'ij
+calendar-title-reminder = Taq Natab'äl:
+calendar-title-notification = Taq rutzijol
 calendar-title-category = Taq ruwäch
 #   $date (String) - the formatted example date
 dateformat-long =
@@ -73,8 +75,12 @@ week-5-label =
     .label = 5 wuqq'ij
 week-6-label =
     .label = 6 wuqq'ij
+task-start-label =
+    .value = Tikirib'äl Q'ij:
 task-start-1-label =
     .label = Majun
+task-start-2-label =
+    .label = Rutikirib'al Q'ij
 task-start-3-label =
     .label = Pa Ruk'isib'äl Q'ij
 task-start-4-label =
