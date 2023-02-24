@@ -2,8 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY doNotDownloadPop3Movemail.label "为了节省磁盘空间，请不要下载：">
-<!ENTITY doNotDownloadNntp.label "为了节省磁盘空间，请不要下载供脱机使用：">
+<!ENTITY doNotDownloadPop3Movemail.label "为节省磁盘空间，不下载：">
+<!ENTITY doNotDownloadNntp.label "为节省磁盘空间，不下载下列邮件供脱机阅读：">
 <!ENTITY doNotDownloadImap.label "要节省磁盘空间，可对从服务器下载并保存到本地供离线使用的消息进行大小或时间上的限制。">
 <!ENTITY allFoldersOffline2.label "在此计算机上保留此账户所有文件夹中的消息">
 <!ENTITY allFoldersOffline2.accesskey "o">
@@ -19,7 +19,7 @@
 <!ENTITY nntpNotDownloadRead.accesskey "d">
 <!ENTITY nntpDownloadMsg.label "消息超过">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "将旧消息永久删除可释放更多的磁盘空间">
+<!ENTITY retentionCleanup.label "将旧消息永久删除可释放更多磁盘空间。">
 <!ENTITY retentionCleanupImap.label "为回收磁盘空间，旧消息会被永久删除，这包括本地的副本和远程服务器上的原始内容。">
 <!ENTITY retentionCleanupPop.label "要回收磁盘空间，可以永久删除旧消息，包括远程服务器上的原文。">
 <!ENTITY retentionKeepMsg.label "删除超过">

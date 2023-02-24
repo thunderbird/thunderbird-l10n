@@ -17,7 +17,7 @@
 <!ENTITY retentionUseAccount.accesskey "U">
 <!ENTITY daysOld.label "天的消息">
 <!ENTITY message.label "消息">
-<!ENTITY retentionCleanup.label "将旧消息永久删除可释放更多的磁盘空间">
+<!ENTITY retentionCleanup.label "将旧消息永久删除可释放更多磁盘空间">
 <!ENTITY retentionCleanupImap.label "要回收磁盘空间，可以永久删除本地副本和远程服务器上的原始旧消息。">
 <!ENTITY retentionCleanupPop.label "要回收磁盘空间，可以永久删除旧消息，包括远程服务器上的原文。">
 <!ENTITY retentionDeleteMsg.label "删除超过">
