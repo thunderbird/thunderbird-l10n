@@ -47,13 +47,51 @@ customize-change-appearance = 更改外观…
 customize-button-style-label = 按钮样式：
 customize-button-style-icons-beside-text =
     .label = 文字旁的图示
+customize-button-style-icons-above-text =
+    .label = 在图标下方显示文字
+customize-button-style-icons-only =
+    .label = 仅图标
+customize-button-style-text-only =
+    .label = 仅文本
 customize-cancel = 取消
 customize-save = 保存
+customize-unsaved-changes = 其他空间中有未保存的更改
 customize-search-bar =
     .label = 搜索工具栏按钮…
+customize-spaces-tabs =
+    .aria-label = 空间
+customize-main-toolbar-target =
+    .aria-label = 主工具栏
+customize-palette-generic-title = 适用于所有空间
+customize-palette-mail-specific-title = 仅适用于邮件空间
+customize-palette-addressbook-specific-title = 仅适用于通讯录空间
+customize-palette-calendar-specific-title = 仅适用于日历空间
+customize-palette-tasks-specific-title = 仅适用于任务空间
+customize-palette-chat-specific-title = 仅适用于聊天空间
+customize-palette-settings-specific-title = 仅适用于设置空间
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = 加入 { $target }
+customize-palette-add-everywhere =
+    .label = 添加到全部工具栏
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = 向前移动
+customize-target-backward =
+    .label = 向后移动
+customize-target-remove =
+    .label = 移除
+customize-target-remove-everywhere =
+    .label = 从所有工具栏中移除
+customize-target-add-everywhere =
+    .label = 添加到全部工具栏
+customize-target-start =
+    .label = 移动到开头
+customize-target-end =
+    .label = 移动到末尾
