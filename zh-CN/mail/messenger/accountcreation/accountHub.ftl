@@ -40,6 +40,12 @@ account-hub-address-book-setup-button = 通讯录
     .title = 设置本地或远程通讯录
 account-hub-chat-setup-button = 聊天
     .title = 设置聊天账户
+account-hub-feed-setup-button = RSS 订阅
+    .title = 设置 RSS 订阅账户
+account-hub-newsgroup-setup-button = 新闻组
+    .title = 设置新闻组账户
+account-hub-import-setup-button = 导入
+    .title = 导入备份配置文件
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = 登录以同步…
 
