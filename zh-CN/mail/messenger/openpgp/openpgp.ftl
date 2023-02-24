@@ -112,8 +112,17 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = 在网上寻找密钥
     .accesskey = D
+openpgp-key-man-publish-cmd =
+    .label = 发布
+    .accesskey = P
 openpgp-key-man-discover-prompt = 若要在网上寻找 OpenPGP 密钥、密钥服务器或使用 WKD 通信协议，请输入电子邮件地址或密钥 ID。
 openpgp-key-man-discover-progress = 正在搜索…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = 公钥已发送到“{ $keyserver }”。
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = 无法将您的公钥发送到“{ $keyserver }”。
 openpgp-key-copy-key =
     .label = 复制公钥
     .accesskey = C
@@ -246,15 +255,19 @@ openpgp-key-details-structure-tab =
 openpgp-key-details-uid-certified-col =
     .label = 用户 ID / 颁发者
 openpgp-key-details-key-id-label = 密钥 ID
+openpgp-key-details-user-id3-label = 声称的密钥所有者
 openpgp-key-details-id-label =
     .label = ID
 openpgp-key-details-key-type-label = 类型
 openpgp-key-details-key-part-label =
     .label = 密钥部分
+openpgp-key-details-attr-ignored = 警告：此密钥可能无法正常使用，因为它的某些属性不安全并且可能会被忽略。
 openpgp-key-details-attr-upgrade-sec = 您应该升级不安全的属性。
+openpgp-key-details-attr-upgrade-pub = 您应该请求此密钥的所有者将不安全的属性升级。
 openpgp-key-details-upgrade-unsafe =
     .label = 升级不安全属性
     .accesskey = P
+openpgp-key-details-upgrade-ok = 密钥升级成功。请与您的联系人共享升级后的公钥。
 openpgp-key-details-algorithm-label =
     .label = 算法
 openpgp-key-details-size-label =
@@ -296,6 +309,12 @@ openpgp-copy-cmd-label =
 
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-no-key = { -brand-short-name } 没有 <b>{ $identity }</b> 的个人 OpenPGP 密钥
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys =
+    { $count ->
+       *[other] { -brand-short-name } 找到 { $count } 个与 <b>{ $identity }</b> 关联的 OpenPGP 个人密钥
+    }
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = 您当前配置使用 ID 为 <b>{ $key }</b> 的密钥
 #   $key (String) - the currently selected OpenPGP key
@@ -522,6 +541,8 @@ need-online = 您选择的功能无法离线使用。请联网后再试。
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
+no-key-found2 = 找不到任何符合搜索条件的密钥。
+no-update-found = 您已经拥有网络上找到的密钥。
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
