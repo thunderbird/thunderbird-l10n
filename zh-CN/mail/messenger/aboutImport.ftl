@@ -114,6 +114,12 @@ calendar-deselect-all-items = 取消全选
 calendar-target-title = 选择导入所选项目的位置。
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = 创建一个名为 <strong>"{ $targetCalendar }"</strong> 的新日历
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+       *[other] 将 { $itemCount } 项导入“{ $targetCalendar }”日历
+    }
 # $targetCalendar (string) - name of the calendar that will be created
 calendar-summary-description = 将创建名为“{ $targetCalendar }”的新日历。
 
