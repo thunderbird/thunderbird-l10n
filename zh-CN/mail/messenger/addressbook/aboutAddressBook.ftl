@@ -87,7 +87,7 @@ about-addressbook-horizontal-layout =
 about-addressbook-vertical-layout =
     .label = 切换为垂直布局
 about-addressbook-table-layout =
-    .label = 表格布局
+    .label = 表格视图
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.

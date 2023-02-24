@@ -13,16 +13,15 @@
 
 <!ENTITY calendar.today.button.label          "今天">
 <!ENTITY calendar.tomorrow.button.label       "明天">
-<!ENTITY calendar.upcoming.button.label       "即将到来">
 
 <!ENTITY calendar.events.filter.all.label "所有事件">
 <!ENTITY calendar.events.filter.today.label "今日事件">
 <!ENTITY calendar.events.filter.future.label "全部未来事件">
 <!ENTITY calendar.events.filter.current.label "已选日期">
 <!ENTITY calendar.events.filter.currentview.label "当前视图中的事件">
-<!ENTITY calendar.events.filter.next7Days.label "后7天事件">
-<!ENTITY calendar.events.filter.next14Days.label "后14天事件">
-<!ENTITY calendar.events.filter.next31Days.label "后31天事件">
+<!ENTITY calendar.events.filter.next7Days.label "7 天内的事件">
+<!ENTITY calendar.events.filter.next14Days.label "14 天内的事件">
+<!ENTITY calendar.events.filter.next31Days.label "31 天内的事件">
 <!ENTITY calendar.events.filter.thisCalendarMonth.label "本月事件">
 
 <!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
@@ -86,13 +85,12 @@
 
 <!ENTITY calendar.newevent.button.label         "新建事件" >
 <!ENTITY calendar.newtask.button.label          "新建任务" >
-<!ENTITY calendar.print.button.label            "打印" >
-<!ENTITY calendar.print.button.accesskey        "P">
 
 <!ENTITY calendar.day.button.label              "日" >
 <!ENTITY calendar.week.button.label             "周" >
 <!ENTITY calendar.month.button.label            "月" >
 <!ENTITY calendar.multiweek.button.label        "多周" >
+
 <!ENTITY calendar.onlyworkday.checkbox.label    "仅显示工作日" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "显示任务" >
@@ -372,27 +370,8 @@
 <!ENTITY calendar.publish.publish.button      "发布">
 <!ENTITY calendar.publish.close.button      "关闭">
 
-<!ENTITY calendar.publish.example.url.description   "例如 http：//www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "选择日历">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "打印日历">
-<!ENTITY calendar.print.title.label "标题：">
-<!ENTITY calendar.print.layout.label "布局：">
-<!ENTITY calendar.print.range.label "打印内容">
-<!ENTITY calendar.print.currentView2.label "当前视图">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "选中的事件/任务">
-<!ENTITY calendar.print.tasks.label "任务">
-<!ENTITY calendar.print.events.label "事件">
-<!ENTITY calendar.print.custom.label "自定义日期范围：">
-<!ENTITY calendar.print.from.label "从：">
-<!ENTITY calendar.print.to.label "至：">
-<!ENTITY calendar.print.settingsGroup.label "打印设置">
-<!ENTITY calendar.print.optionsGroup.label "选项">
-<!ENTITY calendar.print.taskswithnoduedate.label "未指定完成日期的任务">
-<!ENTITY calendar.print.completedtasks.label "已完成的任务">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "详细信息…">
