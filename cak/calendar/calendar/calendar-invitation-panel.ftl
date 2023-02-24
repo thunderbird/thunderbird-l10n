@@ -78,6 +78,22 @@ calendar-invitation-interval-same-day = { $startDate } <b>{ $startTime }</b> �
 calendar-invitation-interval-several-days = { $startDate } <b>{ $startTime }</b> – { $endDate } <b>{ $endTime }</b> { $timezone }
 calendar-invitation-panel-prop-title-recurrence = Taq rukamuluxik:
 calendar-invitation-panel-prop-title-description = Tzijoxkil:
+# Variables:
+# $count (Number) - The number of attendees with the "ACCEPTED" participation status.
+calendar-invitation-panel-partstat-accepted = { $count } ja'
+# Variables:
+# $count (Number) - The number of attendees with the "DECLINED" participation status.
+calendar-invitation-panel-partstat-declined = { $count } manäq
+# Variables:
+# $count (Number) - The number of attendees with the "TENTATIVE" participation status.
+calendar-invitation-panel-partstat-tentative = { $count } rik'in jub'a'
+# Variables:
+# $count (Number) - The number of attendees with the "NEEDS-ACTION" participation status.
+calendar-invitation-panel-partstat-needs-action = { $count } nrajo' na
+# Variables:
+# $count (Number) - The total number of attendees.
+calendar-invitation-panel-partstat-total = { $count } to'onela'
 calendar-invitation-panel-prop-title-attachments = Taq taqoj:
+calendar-invitation-change-indicator-removed = Xyuj
 calendar-invitation-change-indicator-added = K'ak'a'
 calendar-invitation-change-indicator-modified = Xjalwachïx

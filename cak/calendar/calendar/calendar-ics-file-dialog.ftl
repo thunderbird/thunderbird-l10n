@@ -32,3 +32,4 @@ calendar-ics-file-dialog-sort-title-descending =
 calendar-ics-file-dialog-progress-message = Nijik…
 calendar-ics-file-import-success = ¡Ütz xjik'!
 calendar-ics-file-import-error = Xk'ulwachitäj jun sachoj chuqa' xsach ri jik'oj.
+calendar-ics-file-import-complete = Xtz'aqät ruk'amik.
