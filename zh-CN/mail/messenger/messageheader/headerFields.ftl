@@ -20,6 +20,7 @@ message-header-tags-list-name = 标签
 message-header-author-field = 作者<span data-l10n-name="field-separator">：</span>
 message-header-organization-field = 组织<span data-l10n-name="field-separator">：</span>
 message-header-subject-field = 主题<span data-l10n-name="field-separator">：</span>
+message-header-followup-to-field = 跟进发送至<span data-l10n-name="field-separator">：</span>
 message-header-date-field = 日期<span data-l10n-name="field-separator">：</span>
 message-header-user-agent-field = 用户代理<span data-l10n-name="field-separator">：</span>
 message-header-references-field = 参考<span data-l10n-name="field-separator">：</span>
