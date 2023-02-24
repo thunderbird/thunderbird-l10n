@@ -109,6 +109,15 @@ quick-filter-bar-gloda-upsell-line1 = 在所有文件夹中继续进行搜索
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = 请再次按“回车” 键继续搜索：{ $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = 获取消息
+folder-pane-more-menu-button =
+    .title = 文件夹窗格选项
+folder-pane-header-context-hide =
+    .label = 隐藏文件夹窗格标题
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -206,6 +215,15 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = 新消息标记
+    .title = 新消息
+threadpane-message-replied =
+    .alt = 已回复标记
+    .title = 已回复
+threadpane-message-redirected =
+    .alt = 已重定向标记
+    .title = 消息已重定向
 apply-columns-to-menu =
     .label = 将列设定应用至…
 apply-current-view-to-menu =
