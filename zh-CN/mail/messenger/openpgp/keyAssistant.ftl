@@ -93,6 +93,11 @@ openpgp-key-assistant-discover-title = 正在网络上寻找。
 # Variables:
 # $recipient (String) - The email address which we're discovering keys.
 openpgp-key-assistant-discover-keys = 正在寻找 { $recipient } 的密钥…
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    发现 { $recipient } 以前接受过的其中一个密钥有更新。
+    由于已经不再过期，现在起可以使用了。
 
 ## Dialog buttons
 
