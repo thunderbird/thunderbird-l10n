@@ -90,9 +90,54 @@ appmenu-tools-download-manager =
 appmenu-tools-activity-manager =
     .label = Runuk'samajel Samaj
     .accesskey = S
+appmenu-tools-dev-tools =
+    .label = Taq Rusamajib'al B'anonel
+    .accesskey = s
 
 ## Help
 
+appmenu-help-panel-title =
+    .title = To'ïk
+appmenu-help-get-help =
+    .label = Tk'ul To'ïk
+    .accesskey = o
+appmenu-help-explore-features =
+    .label = Ke'anik'oj ri taq Rub'anikil
+    .accesskey = R
+appmenu-help-shortcuts =
+    .label = Ruq'a' rub'ey Keyboard
+    .accesskey = q
+appmenu-help-get-involved =
+    .label = Kato'on
+    .accesskey = K
+appmenu-help-donation =
+    .label = Taya' jun Sipanïk
+    .accesskey = S
+appmenu-help-share-feedback =
+    .label = Kekomonïx taq na'oj chuqa' taq rutzijol
+    .accesskey = m
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Kib'anikil taq K'ayewal…
+    .accesskey = b
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Tichup ri Rub'anikil Kiwäch K'ayewal
+    .accesskey = b
+appmenu-help-troubleshooting-info =
+    .label = Etamab'äl richin yesol taq k'ayewal
+    .accesskey = s
+appmenu-help-about-product =
+    .label = Chi rij ri { -brand-short-name }
+    .accesskey = r
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = Niqasäx ruk'exoj { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Ütz k'exoj — tiqasäx wakami
+appmenuitem-banner-update-manual =
+    .label = Ütz k'exoj — tiqasäx wakami
+appmenuitem-banner-update-unsupported =
+    .label = Man ütz ta k'exoj —man k'amonel ta q'inoj
+appmenuitem-banner-update-restart =
+    .label = Ütz k'exoj — titzolïx wakami
