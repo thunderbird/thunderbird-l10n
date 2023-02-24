@@ -93,7 +93,7 @@ vcard-date-year = 年
 vcard-adr-header = 地址
 vcard-adr-add = 添加地址
 vcard-adr-label = 地址
-vcard-adr-delivery-label = 递送标签
+vcard-adr-delivery-label = 邮寄标签
 vcard-adr-street = 街道地址
 # Or "Locality"
 vcard-adr-locality = 城市

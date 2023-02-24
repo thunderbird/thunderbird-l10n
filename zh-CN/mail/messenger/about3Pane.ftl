@@ -113,6 +113,8 @@ quick-filter-bar-gloda-upsell-line2 = 请再次按“回车” 键继续搜索�
 
 folder-pane-get-messages-button =
     .title = 获取消息
+folder-pane-write-message-button = 写消息
+    .title = 撰写新消息
 folder-pane-more-menu-button =
     .title = 文件夹窗格选项
 folder-pane-header-context-hide =
@@ -224,6 +226,21 @@ threadpane-message-replied =
 threadpane-message-redirected =
     .alt = 已重定向标记
     .title = 消息已重定向
+threadpane-message-forwarded =
+    .alt = 已转发标记
+    .title = 已转发
+threadpane-message-replied-forwarded =
+    .alt = 已回复并转发标记
+    .title = 已回复并转发
+threadpane-message-replied-redirected =
+    .alt = 已回复并重定向标记
+    .title = 已回复并重定向
+threadpane-message-forwarded-redirected =
+    .alt = 已转发并重定向标记
+    .title = 已转发并重定向
+threadpane-message-replied-forwarded-redirected =
+    .alt = 已回复、转发和重定向标记
+    .title = 已回复、转发和重定向
 apply-columns-to-menu =
     .label = 将列设定应用至…
 apply-current-view-to-menu =
@@ -245,3 +262,6 @@ apply-current-columns-to-folder-with-children-message = 将本文件夹的列设
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-message = 要将当前文件夹的视图应用到 { $name } 吗?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = 要将当前文件夹的视图应用于 { $name } 及其子文件夹吗？

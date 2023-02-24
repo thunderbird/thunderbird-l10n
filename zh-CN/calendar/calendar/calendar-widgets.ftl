@@ -7,16 +7,31 @@ calendar-deactivated-notification-tasks = 当前已禁用所有日历。启用�
 calendar-notifications-label = 显示即将到来的事件通知
 calendar-add-notification-button =
     .label = 新建通知
+
+## Side panel
+
+calendar-list-header = 日历
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = { $calendarName } 日历选项
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = 已禁止“{ $calendarName }”日历的通知
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = “{ $calendarName }”日历选项
 calendar-import-new-calendar = 新建日历
     .title = 创建或订阅新日历
 calendar-refresh-calendars =
     .title = 重新加载所有日历并同步更改
 calendar-new-event-primary-button = 新建事件
 calendar-new-task-primary-button = 新建任务
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = 前一天
     .accesskey = s
