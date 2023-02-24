@@ -124,6 +124,8 @@ remove-search-engine =
 add-opensearch-provider-title = 添加 OpenSearch 搜索引擎
 add-opensearch-provider-text = 请输入要添加的 OpenSearch 搜索引擎网址。OpenSearch 描述文件的网址，或是可被自动发现的网址。
 adding-opensearch-provider-failed-title = 添加 OpenSearch 搜索引擎失败
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = 无法添加 { $url } 的 OpenSearch 搜索引擎。
 minimize-to-tray-label =
     .label = 最小化 { -brand-short-name } 到系统托盘
@@ -210,7 +212,7 @@ search-engine-name =
        *[other] { "" }
     }
 search-integration-label =
-    .label = 允许 { search-engine-name } 搜索邮件
+    .label = 允许“{ search-engine-name }”搜索邮件
     .accesskey = S
 config-editor-button =
     .label = 配置编辑器…
@@ -272,8 +274,11 @@ smart-cache-label =
     .label = 覆盖自动缓存管理
     .accesskey = v
 clear-cache-button =
-    .label = 立即清空
+    .label = 立即清理
     .accesskey = C
+clear-cache-shutdown-label =
+    .label = 关闭应用后清除缓存
+    .accesskey = S
 fonts-legend = 字体和颜色
 default-font-label =
     .value = 默认字体:

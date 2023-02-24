@@ -31,7 +31,7 @@ system-search-engine-name =
        *[other] { "" }
     }
 system-search-integration-label =
-    .label = 允许 { system-search-engine-name } 搜索邮件
+    .label = 允许“{ system-search-engine-name }”搜索邮件
     .accesskey = s
 check-on-startup-label =
     .label = 每次启动 { -brand-short-name } 时都进行此项检查
