@@ -1,0 +1,52 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+
+<!-- Tools menu -->
+<!ENTITY lightning.preferencesLabel "Cholb'äl Q'ij">
+
+<!-- New menu popup in File menu -->
+<!ENTITY lightning.menupopup.new.calendar.label "Cholb'äl Q'ij…">
+<!ENTITY lightning.menupopup.new.calendar.accesskey "l">
+
+<!-- Open menu popup in File menu -->
+<!ENTITY lightning.menupopup.open.calendar.label      "Ruyakb'al Cholb'äl Q'ij…">
+<!ENTITY lightning.menupopup.open.calendar.accesskey  "Q">
+
+<!-- View Menu -->
+<!ENTITY lightning.menu.view.calendar.label            "Cholb'äl Q'ij">
+<!ENTITY lightning.menu.view.calendar.accesskey        "Q">
+<!ENTITY lightning.menu.view.tasks.label               "Taq Samaj">
+<!ENTITY lightning.menu.view.tasks.accesskey           "S">
+
+<!-- Events and Tasks menu -->
+<!ENTITY lightning.menu.eventtask.label                "Taq molojri'ïl chuqa' taq samaj">
+<!ENTITY lightning.menu.eventtask.accesskey            "m">
+
+<!-- properties dialog, calendar creation wizard -->
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.email.label,
+     lightning.calendarproperties.forceEmailScheduling.label)
+     These strings are used in the calendar wizard and the calendar properties dialog, but are only
+     displayed when setting/using a caldav calendar -->
+<!ENTITY lightning.calendarproperties.email.label                           "Taqoya'l:">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
+     lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
+     - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
+
+<!-- The notifications settings in the properties dialog -->
+<!ENTITY lightning.calendarproperties.notifications.label                   "Taq rutzijol">
+
+<!-- iMIP Bar (meeting support) -->
+
+
+<!-- Lightning specific keybindings -->
+
+<!-- Account Central page -->
+
+<!-- today-pane-specific -->
