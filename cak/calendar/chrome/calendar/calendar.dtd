@@ -13,12 +13,14 @@
 
 <!ENTITY calendar.today.button.label          "Wakami">
 <!ENTITY calendar.tomorrow.button.label       "Chwa'q">
-<!ENTITY calendar.upcoming.button.label       "Yepe yan">
 
 <!ENTITY calendar.events.filter.all.label "Ronojel Molojri'ïl">
 <!ENTITY calendar.events.filter.today.label "Taq Molojri'ïl Wakami">
 <!ENTITY calendar.events.filter.future.label "Ronojel taq Molojri'ïl Chwa'q Kab'ij">
 <!ENTITY calendar.events.filter.current.label "Q'ij Cha'on Wakam">
+<!ENTITY calendar.events.filter.next7Days.label "Taq nimaq'ij pa ri 7 apo q'ij">
+<!ENTITY calendar.events.filter.next14Days.label "Taq nimaq'ij pa ri 14 apo q'ij">
+<!ENTITY calendar.events.filter.next31Days.label "Taq nimaq'ij pa ri 31 apo q'ij">
 
 <!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
    - This label and tooltip is used for the column with the checkbox in the
@@ -68,13 +70,12 @@
 
 <!ENTITY calendar.newevent.button.label         "K'ak'a' Molojri'ïl" >
 <!ENTITY calendar.newtask.button.label          "K'ak'a' Samaj" >
-<!ENTITY calendar.print.button.label            "Titz'ajb'äx" >
-<!ENTITY calendar.print.button.accesskey        "b">
 
 <!ENTITY calendar.day.button.label              "Q'ij" >
 <!ENTITY calendar.week.button.label             "Wuqq'ij" >
 <!ENTITY calendar.month.button.label            "Ik'" >
 <!ENTITY calendar.multiweek.button.label        "K'ïy wuq'ij" >
+
 <!ENTITY calendar.completedtasks.checkbox.label     "Kek'ut etz'aqatisan Samaj" >
 <!ENTITY calendar.completedtasks.checkbox.accesskey "e" >
 
@@ -87,6 +88,8 @@
 <!ENTITY calendar.task.filter.all.accesskey         "R">
 <!ENTITY calendar.task.filter.today.label           "Wakami">
 <!ENTITY calendar.task.filter.today.accesskey       "W">
+<!ENTITY calendar.task.filter.completed.label       "Xetz'aqatisäx taq samaj">
+<!ENTITY calendar.task.filter.completed.accesskey   "q">
 
 <!-- LOCALIZATION NOTE(calendar.task.filter.current.label)
      "Current Tasks" will show all tasks, except those with a start date set
@@ -102,7 +105,9 @@
 <!ENTITY calendar.task-details.priority.high.label   "Nïm">
 <!ENTITY calendar.task-details.status.label          "b'anikil">
 <!ENTITY calendar.task-details.category.label        "ruwäch">
+<!ENTITY calendar.task-details.repeat.label          "tikamulüx">
 <!ENTITY calendar.task-details.attachments.label     "taq taqoj">
+<!ENTITY calendar.task-details.start.label           "titikirisäx pa">
 
 
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Ctrl+Shift+K&gt;">
@@ -126,6 +131,10 @@
 <!ENTITY calendar.context.pasteevent.accesskey        "P">
 
 
+<!ENTITY calendar.context.attendance.occ.accepted.label         "Xk'ul">
+<!ENTITY calendar.context.attendance.occ.tentative.accesskey    "y">
+<!ENTITY calendar.context.attendance.occ.declined.label         "Xxutüx">
+<!ENTITY calendar.context.attendance.occ.delegated.accesskey    "g">
 <!ENTITY calendar.context.attendance.occ.inprogress.label       "Nitajin">
 <!ENTITY calendar.context.attendance.occ.completed.accesskey    "C">
 <!ENTITY calendar.context.attendance.occ.completed.label        "Xtz'aqatisäx">
@@ -133,6 +142,8 @@
 <!ENTITY calendar.context.attendance.all.accepted.accesskey     "a">
 <!ENTITY calendar.context.attendance.all.accepted.label         "Xk'ul">
 <!ENTITY calendar.context.attendance.all.tentative.accesskey    "v">
+<!ENTITY calendar.context.attendance.all.declined.label         "Xxutüx">
+<!ENTITY calendar.context.attendance.all.delegated.accesskey    "t">
 <!ENTITY calendar.context.attendance.all.inprogress.label       "Nitajin">
 <!ENTITY calendar.context.attendance.all.completed.label        "Xtz'aqatisäx">
 
@@ -263,25 +274,8 @@
 <!ENTITY calendar.publish.publish.button      "Titalüx rutzijol">
 <!ENTITY calendar.publish.close.button      "Titz'apïx">
 
-<!ENTITY calendar.publish.example.url.description   "Jun achi'el http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Ticha' Cholb'äl Q'ij">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Titz'ajb'äx Jun Cholb'äl Q'ij">
-<!ENTITY calendar.print.title.label "B'i'aj:">
-<!ENTITY calendar.print.layout.label "Wachib'enïk:">
-<!ENTITY calendar.print.range.label "Achike Nitz'ajb'äx">
-<!ENTITY calendar.print.currentView2.label "Rutzub'al Wakami">
-<!ENTITY calendar.print.tasks.label "Taq samaj">
-<!ENTITY calendar.print.events.label "Taq Nimaq'ij">
-<!ENTITY calendar.print.custom.label "Kajlab'al ichinan q'ijul:">
-<!ENTITY calendar.print.from.label "Richin:">
-<!ENTITY calendar.print.to.label "Chi re:">
-<!ENTITY calendar.print.settingsGroup.label "Ketz'ajb'äx taq Runuk'ulem">
-<!ENTITY calendar.print.optionsGroup.label "Taq cha'oj">
-<!ENTITY calendar.print.completedtasks.label "Xetz'aqatisäx taq samaj">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Kib'anikil…">
