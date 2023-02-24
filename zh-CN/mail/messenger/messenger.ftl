@@ -130,7 +130,7 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
-message-header-customize-panel-title = 消息标题设置
+message-header-customize-panel-title = 消息标题栏设置
 message-header-customize-button-style =
     .value = 按钮样式
     .accesskey = B
@@ -228,7 +228,7 @@ spaces-context-new-window-item =
 # Variables:
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
-    .label = 切换到 { $tabName }
+    .label = 切换到{ $tabName }
 settings-context-open-settings-item2 =
     .label = 设置
 settings-context-open-account-settings-item2 =
