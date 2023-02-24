@@ -466,12 +466,16 @@ default-format-label =
 compose-send-format-title = 发送格式
 compose-send-automatic-option =
     .label = 自动
+compose-send-automatic-description = 如果消息中未使用样式则发送纯文本，否则同时发送 HTML 和纯文本，在无法显示 HTML 时换用纯文本进行显示。
 compose-send-both-option =
     .label = HTML 和纯文本
+compose-send-both-description = 收件人的电子邮件应用程序会决定显示哪个版本。
 compose-send-html-option =
     .label = 仅 HTML
+compose-send-html-description = 如果不同时发送纯文本作为备用，部分收件人可能无法阅读邮件。
 compose-send-plain-option =
     .label = 仅纯文本
+compose-send-plain-description = 一些样式将被转换为替代的纯文本，而其他样式将被禁用。
 autocomplete-description = 对消息进行地址查找时，在下列位置搜索：
 ab-label =
     .label = 本地通讯录
@@ -728,3 +732,42 @@ search-results-help-link = 需要帮助？访问 <a data-l10n-name="url">{ -bran
 
 ## Sync Tab
 
+sync-signedout-caption = 让您个性化的网络体验随身相伴
+sync-signedout-description = 在您的各种设备间同步您的账户、通讯录、日历、附加组件与设置。
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = 登录以同步…
+sync-pane-header = 同步
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” 未验证。
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = 请登录以重新绑定 “{ $userEmail }”
+sync-pane-resend-verification = 重发验证邮件
+sync-pane-sign-in = 登录
+sync-pane-remove-account = 移除账户
+sync-pane-edit-photo =
+    .title = 更改头像
+sync-pane-manage-account = 管理账户
+sync-pane-sign-out = 退出…
+sync-pane-device-name-title = 设备名称
+sync-pane-change-device-name = 更改设备名称
+sync-pane-cancel = 取消
+sync-pane-save = 保存
+sync-pane-show-synced-header-on = 同步已开启
+sync-pane-show-synced-header-off = 同步已关闭
+sync-pane-sync-now = 立即同步
+sync-panel-sync-now-syncing = 正在同步…
+show-synced-list-heading = 您当前正在同步以下项目：
+show-synced-learn-more = 详细了解…
+show-synced-item-account = 电子邮件账户
+show-synced-item-address = 通讯录
+show-synced-item-calendar = 日历
+show-synced-item-identity = 身份
+show-synced-item-passwords = 密码
+show-synced-change = 更改…
+synced-acount-item-server-config = 服务器配置
+synced-acount-item-filters = 过滤器
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = 在您所有设备中同步您的电子邮件账户、通讯录、日历和身份。
+sync-disconnected-turn-on-sync = 开启同步...
