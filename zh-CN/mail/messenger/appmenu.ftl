@@ -32,6 +32,12 @@ appmenu-sync-sign-out =
 
 appmenu-new-account-panel-title =
     .title = 新账户
+appmenu-new-account-panel =
+    .label = 新账户
+    .accesskey = N
+appmenu-create-new-mail-account =
+    .label = 注册新邮箱
+    .accesskey = G
 appmenu-new-mail-account =
     .label = 现有电子邮箱
     .accesskey = E
@@ -190,3 +196,13 @@ appmenu-help-about-product =
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = 正在下载 { -brand-shorter-name } 更新
+appmenuitem-banner-update-available =
+    .label = 有可用更新 - 立即下载
+appmenuitem-banner-update-manual =
+    .label = 有可用更新 - 立即下载
+appmenuitem-banner-update-unsupported =
+    .label = 无法更新 - 系统不兼容
+appmenuitem-banner-update-restart =
+    .label = 有可用更新 - 立即重启
