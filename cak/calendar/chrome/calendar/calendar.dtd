@@ -258,6 +258,8 @@
      dialog. -->
 
 <!-- Calendar Server Dialog -->
+<!ENTITY calendar.server.dialog.title.edit          "Tinuk' Cholb'äl q'ij">
+<!ENTITY calendar.server.dialog.name.label          "Rub'i' Cholb'äl q'ij:">
 
 <!-- Calendar Properties -->
 <!ENTITY calendarproperties.color.label                    "B'onil:">
@@ -265,6 +267,7 @@
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
 <!ENTITY calendarproperties.format.label                   "B'anikil:">
 <!ENTITY calendarproperties.location.label                 "Ochochib'al:">
+<!ENTITY calendarproperties.refreshInterval.label          "Titzolïx Cholb'äl Q'ij:">
 <!ENTITY calendarproperties.refreshInterval.manual.label   "Chi q'ab'aj">
 <!ENTITY calendarproperties.name.label                     "B'i'aj:">
 <!ENTITY calendarproperties.readonly.label                 "Xa xe Sik'inïk">
