@@ -7,5 +7,5 @@
 <!ENTITY addButton.accesskey "A">
 <!ENTITY removeButton.label "删除">
 <!ENTITY removeButton.accesskey "R">
-<!ENTITY newMsgHeader.label "新消息头：">
+<!ENTITY newMsgHeader.label "全新设计的邮件标题：">
 <!ENTITY newMsgHeader.accesskey "N">

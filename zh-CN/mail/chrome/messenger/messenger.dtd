@@ -235,7 +235,7 @@
 <!ENTITY headersAllCmd.accesskey "A">
 <!ENTITY headersNormalCmd.label "常规">
 <!ENTITY headersNormalCmd.accesskey "N">
-<!ENTITY bodyMenu.label "消息体为">
+<!ENTITY bodyMenu.label "消息显示方式">
 <!ENTITY bodyMenu.accesskey "B">
 <!ENTITY bodyAllowHTML.label "原始 HTML">
 <!ENTITY bodyAllowHTML.accesskey "H">
