@@ -142,6 +142,9 @@ about-addressbook-unsaved-changes-prompt-title = Man eyakon ta ri taq k'exoj
 
 # Photo dialog
 
+about-addressbook-photo-cancel = Tiq'at
+about-addressbook-photo-save = Tiyak
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N
