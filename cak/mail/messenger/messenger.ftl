@@ -38,12 +38,39 @@ show-all-folders-label =
 show-unread-folders-label =
     .label = Yakwuj man Esik'in ta
     .accesskey = m
+show-favorite-folders-label =
+    .label = Ajowanel taq Yakwuj
+    .accesskey = j
+show-smart-folders-label =
+    .label = Yakwuj Etunun
+    .accesskey = E
+show-recent-folders-label =
+    .label = K'ak'a' taq Yakwuj
+    .accesskey = K
+folder-toolbar-toggle-folder-compact-view =
+    .label = Molk'ïy Tz'etoj
+    .accesskey = M
 
 ## Menu
 
+menu-file-save-as-file =
+    .label = Yakb'äl…
+    .accesskey = Y
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = Yakb'äl…
+appmenu-settings =
+    .label = Taq nuk'ulem
+appmenu-addons-and-themes =
+    .label = Taq Tz'aqat chuqa' taq Wachinel
+appmenu-help-enter-troubleshoot-mode =
+    .label = Kib'anikil taq K'ayewal…
+appmenu-help-exit-troubleshoot-mode =
+    .label = Tichup ri Rub'anikil Kiwäch K'ayewal
+appmenu-help-more-troubleshooting-info =
+    .label = Ch'aqa' Etamab'äl richin yesol taq k'ayewal
 
 ## Context menu
 
@@ -53,12 +80,29 @@ show-unread-folders-label =
 
 ## Message header cutomize panel
 
+message-header-button-style-default =
+    .label = Taq wachib'äl chuqa' rucholajem tz'ib'
+message-header-button-style-text =
+    .label = Rucholajem tz'ib'
+message-header-button-style-icons =
+    .label = Xa xe taq wachib'äl
 
 ## Action Button Context Menu
 
+toolbar-context-menu-manage-extension =
+    .label = Tinuk'samajïx K'amal
+    .accesskey = K
+toolbar-context-menu-remove-extension =
+    .label = Tiyuj K'amal
+    .accesskey = y
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = ¿La niyuj { $name }?
+addon-removal-confirmation-button = Tiyuj
+caret-browsing-prompt-title = Okem pa K'amaya'l Rik'in Retal Ch'oy
 
 ## no-reply handling
 
@@ -68,12 +112,53 @@ show-unread-folders-label =
 
 ## Spaces toolbar
 
+spaces-toolbar-button-mail2 =
+    .title = Taqoya'l
+spaces-toolbar-button-address-book2 =
+    .title = Kiwujil Ochochib'äl
+spaces-toolbar-button-calendar2 =
+    .title = Cholb'äl q'ij
+spaces-toolbar-button-tasks2 =
+    .title = Taq samaj
+spaces-toolbar-button-chat2 =
+    .title = Chat
+spaces-toolbar-button-settings2 =
+    .title = Taq nuk'ulem
+spaces-context-new-tab-item =
+    .label = Tijaq pa jun k'ak'a' ruwi'
+spaces-context-new-window-item =
+    .label = Tijaq pa jun k'ak'a' tzuwäch
+settings-context-open-settings-item2 =
+    .label = Taq nuk'ulem
+settings-context-open-account-settings-item2 =
+    .label = Kinuk'ulem Rub'i' Taqoya'l
+settings-context-open-addons-item2 =
+    .label = Taq Tz'aqat chuqa' taq Wachinel
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Tichinäx…
+spaces-customize-background-color = Rub'onil rupam
+customize-panel-button-save = Xk'is
+    .accesskey = k
 
 ## Quick Filter Bar
 
