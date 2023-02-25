@@ -88,6 +88,24 @@ menu-font-size-label =
 menuitem-font-size-enlarge =
     .label = Tinimirisäx Rupalem Tz'ib'
     .accesskey = n
+mail-uidensity-label =
+    .label = Alalel
+    .accesskey = A
+mail-uidensity-compact =
+    .label = Tz'aqatz'öj
+    .accesskey = z
+mail-uidensity-normal =
+    .label = Relik
+    .accesskey = e
+mail-uidensity-touch =
+    .label = Chapoj
+    .accesskey = C
+mail-uidensity-default =
+    .label = K'o wi
+    .accesskey = K
 
 ## File
 
+file-new-newsgroup-account =
+    .label = Rub'i' rutaqoya'l tzijol
+    .accesskey = z

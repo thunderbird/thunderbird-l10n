@@ -5,6 +5,14 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Ch'utinarisaxïk
+messenger-window-maximize-button =
+    .tooltiptext = Nimirisanïk
+messenger-window-restore-down-button =
+    .tooltiptext = Tich'utinisäx Ikim
+messenger-window-close-button =
+    .tooltiptext = Titz'apïx
 
 ## Content tabs
 
@@ -14,9 +22,22 @@
 
 ## Folder Pane
 
+folder-pane-toolbar =
+    .toolbarname = Rukajtz'ik Rusamajib'al Ruyakwuj Pas
+    .accesskey = R
+folder-pane-header-label = Taq yakwuj
 
 ## Folder Toolbar Header Popup
 
+folder-toolbar-hide-toolbar-toolbarbutton =
+    .label = Tewäch Molsamajib'äl
+    .accesskey = w
+show-all-folders-label =
+    .label = Ronojel taq Yakwuj
+    .accesskey = n
+show-unread-folders-label =
+    .label = Yakwuj man Esik'in ta
+    .accesskey = m
 
 ## Menu
 
