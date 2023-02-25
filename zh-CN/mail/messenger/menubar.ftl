@@ -131,7 +131,7 @@ mail-uidensity-relaxed =
     .label = 宽松
     .accesskey = R
 menu-spaces-toolbar-button =
-    .label = 侧工具栏
+    .label = 空间工具栏
     .accesskey = S
 
 ## File

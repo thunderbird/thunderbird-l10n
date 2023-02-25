@@ -200,8 +200,8 @@ decrypt-and-copy-failures = 共计 { $total } 条消息，有 { $failures } 条�
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = 侧工具栏
-    .aria-label = 侧工具栏
+    .toolbarname = 空间工具栏
+    .aria-label = 空间工具栏
     .aria-description = 用于切换各种功能的垂直工具栏（支持方向键）。
 spaces-toolbar-button-mail2 =
     .title = 邮件
@@ -218,9 +218,9 @@ spaces-toolbar-button-overflow =
 spaces-toolbar-button-settings2 =
     .title = 设置
 spaces-toolbar-button-hide =
-    .title = 隐藏侧工具栏
+    .title = 隐藏空间工具栏
 spaces-toolbar-button-show =
-    .title = 显示侧工具栏
+    .title = 显示工具栏
 spaces-context-new-tab-item =
     .label = 新建标签页打开
 spaces-context-new-window-item =
@@ -239,7 +239,7 @@ settings-context-open-addons-item2 =
 ## Spaces toolbar pinned tab menupopup
 
 spaces-toolbar-pinned-tab-button =
-    .tooltiptext = 打开侧工具菜单
+    .tooltiptext = 打开空间菜单
 spaces-pinned-button-menuitem-mail2 =
     .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =
@@ -266,7 +266,7 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = 定制…
-spaces-customize-panel-title = 侧工具栏设置
+spaces-customize-panel-title = 空间工具栏设置
 spaces-customize-background-color = 背景颜色
 spaces-customize-icon-color = 按钮颜色
 # The background color used on the buttons of the spaces toolbar when they are
