@@ -35,18 +35,59 @@ menu-help-donation =
 menu-help-share-feedback =
     .label = Kekomonïx taq na'oj chuqa' taq rutzijol
     .accesskey = k
+menu-help-enter-troubleshoot-mode =
+    .label = Kib'anikil taq K'ayewal…
+    .accesskey = b
+menu-help-exit-troubleshoot-mode =
+    .label = Tichup ri Rub'anikil Kiwäch K'ayewal
+    .accesskey = b
+menu-help-more-troubleshooting-info =
+    .label = Ch'aqa' Etamab'äl richin yesol taq k'ayewal
+    .accesskey = C
+menu-help-troubleshooting-info =
+    .label = Etamab'äl richin yesol taq k'ayewal
+    .accesskey = s
+menu-help-about-product =
+    .label = Chi rij ri { -brand-short-name }
+    .accesskey = C
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Tel
+           *[other] Tel
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] e
+           *[other] e
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = Tel pa { -brand-shorter-name }
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 
 
 ## View
 
+menu-view-repair-text-encoding =
+    .label = Tichojmirisäx Rub'itz'ib' Tz'ib'anïk
+    .accesskey = b
 
 ## View / Folders
 
 
 ## View / Layout
 
+menu-font-size-label =
+    .label = Runimilem Tz'ib'
+    .accesskey = z
+menuitem-font-size-enlarge =
+    .label = Tinimirisäx Rupalem Tz'ib'
+    .accesskey = n
 
 ## File
 
