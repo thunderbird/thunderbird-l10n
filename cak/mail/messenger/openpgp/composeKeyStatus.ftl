@@ -7,3 +7,4 @@ openpgp-compose-key-status-recipient =
 openpgp-compose-key-status-status =
     .label = B'anikil
 openpgp-recip-good = ütz
+openpgp-compose-general-info-alias-learn-more = Tetamäx ch'aqa' chik
