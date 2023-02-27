@@ -77,6 +77,12 @@ ctrl-cmd-shift-pretty-prefix =
         [macos] ⇧ ⌘{ " " }
        *[other] Ctrl+Shift+
     }
+trigger-attachment-picker-key = З
+toggle-attachment-pane-key = ш
+menuitem-toggle-attachment-pane =
+    .label = Површ за прилоге
+    .accesskey = в
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Закачи
     .tooltiptext = Закачи прилог ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
@@ -96,6 +102,21 @@ context-menuitem-attach-files =
 context-menuitem-attach-vcard =
     .label = Мој vCard
     .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = Мој OpenPGP јавни кључ
+    .accesskey = к
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } прилог
+        [one] { $count } прилог
+        [few] { $count } прилога
+       *[other] { $count } прилога
+    }
+attachment-area-show =
+    .title = Прикажи површ за прилоге ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Сакриј површ за прилоге ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
