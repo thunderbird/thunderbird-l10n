@@ -4,17 +4,14 @@
 
 receipts-dialog-window =
     .title = Повратнице
-
 receipt-arrive-label = Када повратница стигне:
-
+receipt-leave-radio-control =
+    .label = Остави је у мом долазном сандучету
+    .accesskey = о
 receipt-request-label = Када примим захтев за повратницом:
-
 receipt-send-never-label =
     .label = Никада не шаљи
-
 receipt-send-always-label =
     .label = Увек пошаљи
-
 receipt-send-ask-label =
     .label = Питај ме
-

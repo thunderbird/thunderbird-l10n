@@ -341,9 +341,24 @@ cloud-file-rename-error-with-custom-message-title = Преименовање { $
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } не подржава промену имена већ отпремљених датотека.
 cloud-file-attachment-error-title = Грешка Filelink прилога
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Ажурирање Filelink прилога { $filename } није успело зато што је локална датотека премештена или избрисана.
+cloud-file-account-error-title = Грешка Filelink налога
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Ажурирање Filelink прилога { $filename } није успело зато што је Filelink налог избрисан.
 
 ## Link Preview
 
+link-preview-title = Преглед везе
+link-preview-description = { -brand-short-name } може да дода уграђени преглед када налепите везу.
+link-preview-autoadd = Аутоматски додај преглед везе када је то могуће
+link-preview-replace-now = Додај преглед везе за ову везу?
+link-preview-yes-replace = Да
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Додај речнике…
+    .accesskey = Д
