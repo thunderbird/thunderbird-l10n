@@ -189,6 +189,18 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Управљач кључевима
     .accesskey = У
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-one = Шифровање с краја на крај захтева решавање проблема са кључем за { $addr }
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-many = Шифровање с краја на крај захтева решавање проблема са кључем за { $count } прималаца.
+# Variables:
+# $addr (String) - Email address with certificate issues.
+smime-cert-issue-notification-one = Шифровање с краја на крај захтева решавање проблема са сертификатом за { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-many = Шифровање с краја на крај захтева решавање проблема са сертификатом за { $count } прималаца.
 key-notification-disable-encryption =
     .label = Немој шифровати
     .accesskey = Н
@@ -252,6 +264,9 @@ show-bcc-row-button = сКоп
     .title = Прикажи сКоп поље ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Остала поља за адресирање за приказ
+many-public-recipients-ignore =
+    .label = Нека примаоци буду јавни
+    .accesskey = ј
 many-public-recipients-prompt-title = Превише јавних прималаца
 many-public-recipients-prompt-cancel = Откажи слање
 many-public-recipients-prompt-send = Ипак пошаљи
