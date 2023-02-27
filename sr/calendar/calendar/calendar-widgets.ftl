@@ -7,6 +7,13 @@ calendar-deactivated-notification-tasks = Сви календари су тре�
 calendar-notifications-label = Прикажите обавештења о претходним догађајима
 calendar-add-notification-button =
     .label = Додај обавештење
+
+## Side panel
+
+calendar-list-header = Календари
+
+## Calendar navigation
+
 calendar-view-toggle-day = Дан
     .title = Пређи на преглед по данима
 calendar-view-toggle-week = Недеља
