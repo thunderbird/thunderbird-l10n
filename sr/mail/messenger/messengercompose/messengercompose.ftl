@@ -127,6 +127,12 @@ drop-file-label-attachment =
         [few] Додај прилоге
        *[other] Додај прилоге
     }
+drop-file-label-inline =
+    { $count ->
+        [one] Уметни у ред
+        [few] Уметни у ред
+       *[other] Уметни у ред
+    }
 
 ## Reorder Attachment Panel
 
