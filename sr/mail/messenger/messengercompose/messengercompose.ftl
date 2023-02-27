@@ -252,27 +252,95 @@ show-bcc-row-button = сКоп
     .title = Прикажи сКоп поље ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Остала поља за адресирање за приказ
+many-public-recipients-prompt-title = Превише јавних прималаца
+many-public-recipients-prompt-cancel = Откажи слање
+many-public-recipients-prompt-send = Ипак пошаљи
 
 ## Notifications
 
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = Није пронађен ниједан јединствени идентитет који одговара адреси пошиљаоца. Порука ће бити послана са подешавањима поља Од и идентитета { $identity }.
+encrypted-bcc-warning = Слање шифроване поруке не сакрива у потпуности примаоце у сКоп. Сви примаоци могу да их идентификују.
+encrypted-bcc-ignore-button = Разумем
 
 ## Editing
 
 
 # Tools
 
+compose-tool-button-remove-text-styling =
+    .tooltiptext = Уклони форматирање текста
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Отпремљено на непознати Filelink налог.
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Filelink прилог
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = Датотека { $filename } је приложена као Filelink. Може се преузети са везе испод.
 
 # Template
 
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = Сазнајте више о{ $link }-у.
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = Сазнајте више о { $firstLinks }-у и { $lastLink }-у.
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = Веза заштићена лозинком
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Filelink услуга:
+cloud-file-template-size = Величина:
+cloud-file-template-link = Веза:
+cloud-file-template-password-protected-link = Веза заштићена лозинком:
+cloud-file-template-expiry-date = Датум истека:
+cloud-file-template-download-limit = Ограничење преузимања:
 
 # Messages
 
+cloud-file-connection-error-title = Грешка у повезивању
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = { -brand-short-name } је ван мреже. Није могуће повезати на { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = Отпремање { $filename } на { $provider } није успело
+cloud-file-rename-error-title = Грешка при преименовању
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Дошло је до грешке при преименовању { $filename } на { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = Преименовање { $filename } на { $provider } није успело
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } не подржава промену имена већ отпремљених датотека.
+cloud-file-attachment-error-title = Грешка Filelink прилога
 
 ## Link Preview
 
