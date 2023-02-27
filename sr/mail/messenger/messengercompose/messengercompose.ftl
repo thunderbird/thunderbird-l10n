@@ -5,9 +5,27 @@
 
 ## Send Format
 
+compose-send-format-menu =
+    .label = Формат слања
+    .accesskey = Ф
+compose-send-auto-menu-item =
+    .label = Аутоматски
+    .accesskey = А
+compose-send-both-menu-item =
+    .label = И HTML и обичан текст
+    .accesskey = И
+compose-send-html-menu-item =
+    .label = Само HTML
+    .accesskey = H
+compose-send-plain-menu-item =
+    .label = Само обичан текст
+    .accesskey = о
 
 ## Addressing widget
 
+#   $type (String) - the type of the addressing row
+remove-address-row-button =
+    .title = Уклоните { $type } поље
 #   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label =
@@ -17,7 +35,6 @@ address-input-type-aria-label =
         [few] { $type } врста са { $count } адресе, користите леву стрелицу за фокус.
        *[other] { $type } врста са { $count } адреса, користите леву стрелицу за фокус.
     }
-
 #   $email (String) - the email address
 #   $count (Number) - the number of address pills currently present in the addressing row
 pill-aria-label =
@@ -26,48 +43,62 @@ pill-aria-label =
         [few] { $email }, 1 од { $count }: притисните Enter за уређивање, Delete за уклањање.
        *[other] { $email }, 1 од { $count }: притисните Enter за уређивање, Delete за уклањање.
     }
-
+#   $email (String) - the email address
+pill-tooltip-invalid-address = { $email } није важећа адреса е-поште
+#   $email (String) - the email address
+pill-tooltip-not-in-address-book = { $email } није у вашем именику
 pill-action-edit =
     .label = Уредите адресу
     .accesskey = е
-
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = Изаберите све адресе у { $type }
+    .accesskey = с
+pill-action-select-all-pills =
+    .label = Изаберите све адресе
+    .accesskey = И
 pill-action-move-to =
     .label = Преместите у За поље
     .accesskey = т
-
 pill-action-move-cc =
     .label = Преместите у Коп поље
     .accesskey = К
-
 pill-action-move-bcc =
     .label = Преместите у сКоп поље
     .accesskey = у
+pill-action-expand-list =
+    .label = Прошири листу
+    .accesskey = р
 
 ## Attachment widget
 
+ctrl-cmd-shift-pretty-prefix =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘{ " " }
+       *[other] Ctrl+Shift+
+    }
 toolbar-button-add-attachment =
     .label = Закачи
     .tooltiptext = Закачи прилог ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
-
 add-attachment-notification-reminder2 =
     .label = Додај прилог…
     .accesskey = Д
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
-
 menuitem-attach-files =
     .label = Датотеке…
     .accesskey = Д
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
-
 context-menuitem-attach-files =
     .label = Закачи датотеке…
     .accesskey = З
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
-
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Мој vCard
     .accesskey = C
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
 
 drop-file-label-attachment =
     { $count ->
@@ -87,15 +118,12 @@ button-return-receipt =
 encryption-toggle =
     .label = Шифруј
     .tooltiptext = Користи шифровање с краја на крај за ову поруку
-
 menu-encrypt =
     .label = Шифруј
     .accesskey = у
-
 menu-encrypt-subject =
     .label = Шифруј тему
     .accesskey = т
-
 menu-sign =
     .label = Дигитално потпиши
     .accesskey = л
