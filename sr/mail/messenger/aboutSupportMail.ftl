@@ -5,7 +5,7 @@
 accounts-title = Налози поште и групе
 show-private-data-main-text = Укључите имена налога
 show-private-data-explanation-text = (подаци који би вас могли идентификовати)
-accounts-ID = ID
+accounts-ID = ИБ
 accounts-name = Име
 accounts-incoming-server = Долазни сервер
 accounts-outgoing-servers = Одлазни сервер
@@ -14,7 +14,5 @@ accounts-conn-security = Безбедност везе
 accounts-auth-method = Метода аутентификације
 accounts-default = Подразумевано?
 identity-name = Идентитет
-
 send-via-email = Пошаљи преко е-поште
-
 app-basics-telemetry = Подаци телеметрије

@@ -21,6 +21,17 @@ openpgp-openpgp = OpenPGP
 openpgp-no-sig = Нема дигиталног потписа
 openpgp-no-sig-info = Ова порука не садржи дигитални потпис пошиљаоца. Одсуство дигиталног потписа значи да је ову поруку могао послати неко други, а не стварни власник ове адресе е-поште. Такође је могуће да је порука измењена током преноса преко мреже.
 openpgp-uncertain-sig = Непознати дигитални потпис
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-uncertain-sig-with-date = Несигуран дигитални потпис - потписан { $date }
+openpgp-invalid-sig = Неважећи дигитални потпис
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-invalid-sig-with-date = Неважећи дигитални потпис - потписан { $date }
+openpgp-good-sig = Добар дигитални потпис
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-good-sig-with-date = Добар дигитални потпис - потписан { $date }
 openpgp-sig-uncertain-no-key = Ова порука садржи дигитални потпис али није утврђено да ли је потпис исправан. Да бисте проверили потпис, морате набавити примерак јавног кључа пошиљаоца.
 # Variables:
 # $key (String) - The ID of the OpenPGP key used to create the signature.

@@ -24,7 +24,7 @@ message-header-followup-to-field = Наставак на<span data-l10n-name="fi
 message-header-date-field = Датум<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Кориснички агент<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Референце<span data-l10n-name="field-separator">:</span>
-message-header-message-id-field = ID поруке<span data-l10n-name="field-separator">:</span>
+message-header-message-id-field = ИБ поруке<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Као одговор на<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Вебсајт<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
