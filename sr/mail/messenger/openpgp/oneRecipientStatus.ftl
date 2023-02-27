@@ -7,7 +7,7 @@ openpgp-one-recipient-status-title =
 openpgp-one-recipient-status-status =
     .label = Стање
 openpgp-one-recipient-status-key-id =
-    .label = ID кључа
+    .label = ИБ кључа
 openpgp-one-recipient-status-created-date =
     .label = Направљено
 openpgp-one-recipient-status-expires-date =
@@ -30,7 +30,7 @@ openpgp-key-expired = Истекло
 openpgp-intro = Доступни јавни кључеви за { $key }
 # Variables:
 # $kid (String) - Public key id to import.
-openpgp-pubkey-import-id = ID: { $kid }
+openpgp-pubkey-import-id = ИБ: { $kid }
 # Variables:
 # $fpr (String) - Fingerprint of the public key to import.
 openpgp-pubkey-import-fpr = Отисак: { $fpr }

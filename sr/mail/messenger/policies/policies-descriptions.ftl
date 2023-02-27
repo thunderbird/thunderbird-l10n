@@ -42,7 +42,7 @@ policy-EnableTrackingProtection = Омогућите или онемогућит
 # A “locked” extension can’t be disabled or removed by the user. This policy
 # takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
 # English or translate them as verbs.
-policy-Extensions = Инсталирајте, уклоните или закључајте проширење. Опције инсталације узимају URL или путању као параметар. Опције уклањања и закључавања захтевају ID проширења као параметар.
+policy-Extensions = Инсталирајте, уклоните или закључајте проширење. Опције инсталације узимају URL или путању као параметар. Опције уклањања и закључавања захтевају ИБ додатка као параметар.
 policy-ExtensionSettings = Управљајте свим аспектима инсталације проширења.
 policy-ExtensionUpdate = Омогућите или онемогућите аутоматско ажурирање проширења.
 policy-HardwareAcceleration = Ако је вредност лажна, хардверско убрзање ће бити искључено.
