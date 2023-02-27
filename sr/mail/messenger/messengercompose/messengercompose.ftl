@@ -136,15 +136,41 @@ drop-file-label-inline =
 
 ## Reorder Attachment Panel
 
+move-attachment-first-panel-button =
+    .label = Помери на врх
+move-attachment-left-panel-button =
+    .label = Помери лево
+move-attachment-right-panel-button =
+    .label = Помери десно
+move-attachment-last-panel-button =
+    .label = Помери на крај
 button-return-receipt =
     .label = Потврда
     .tooltiptext = Враћа потврду о пријему ове поруке
 
 ## Encryption
 
+encryption-menu =
+    .label = Безбедност
+    .accesskey = б
 encryption-toggle =
     .label = Шифруј
     .tooltiptext = Користи шифровање с краја на крај за ову поруку
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = Прегледајте или измените OpenPGP подешавања шифровања
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = Прегледајте или измените S/MIME подешавања шифровања
+signing-toggle =
+    .label = Потпиши
+    .tooltiptext = Користите дигитално потписивање за ову поруку
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
 menu-encrypt =
     .label = Шифруј
     .accesskey = у
@@ -154,9 +180,78 @@ menu-encrypt-subject =
 menu-sign =
     .label = Дигитално потпиши
     .accesskey = л
+menu-manage-keys =
+    .label = Помоћник за кључеве
+    .accesskey = П
+menu-view-certificates =
+    .label = Прикажи сертификате прималаца
+    .accesskey = П
+menu-open-key-manager =
+    .label = Управљач кључевима
+    .accesskey = У
+key-notification-disable-encryption =
+    .label = Немој шифровати
+    .accesskey = Н
+    .tooltiptext = Онемогући шифровање с краја на крај
+key-notification-resolve =
+    .label = Разреши…
+    .accesskey = Р
+    .tooltiptext = Отвори OpenPGP помоћник за кључеве
+can-encrypt-smime-notification = S/MIME шифровање с краја на крај је могуће.
+can-encrypt-openpgp-notification = OpenPGP шифровање с краја на крај је могуће.
+can-e2e-encrypt-button =
+    .label = Шифруј
+    .accesskey = Ш
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = За
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .label = За поље
+    .accesskey = З
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = За
+    .accesskey = З
+#   $key (String) - the shortcut key for this field
+show-to-row-button = За
+    .title = Прикажи За поље ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+cc-address-row-label =
+    .value = Коп
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = Коп поље
+    .accesskey = К
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Коп
+    .accesskey = К
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Коп
+    .title = Прикажи Коп поље ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+bcc-address-row-label =
+    .value = сКоп
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .label = сКоп
+    .accesskey = с
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = сКоп
+    .accesskey = с
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = сКоп
+    .title = Прикажи сКоп поље ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = Остала поља за адресирање за приказ
 
 ## Notifications
 
