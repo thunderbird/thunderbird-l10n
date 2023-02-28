@@ -77,6 +77,8 @@ calendar-view-toggle-month = Månad
 
 calendar-control-bar-menu-button =
     .title = Alternativ för kalenderlayout
+calendar-find-events-menu-option =
+    .label = Hitta händelsepanelen
 calendar-hide-weekends-option =
     .label = Endast arbetsveckodagar
 calendar-define-workweek-option =
