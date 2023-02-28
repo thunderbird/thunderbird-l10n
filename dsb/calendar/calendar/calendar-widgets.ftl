@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Pjerwjejšny mjasec
     .accesskey = m
+calendar-nav-button-prev-tooltip-year =
+    .title = Pjerwjejšne lěto
+    .accesskey = r
 calendar-nav-button-next-tooltip-day =
     .title = Pśiducy źeń
     .accesskey = d
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Pśiducy mjasec
     .accesskey = u
+calendar-nav-button-next-tooltip-year =
+    .title = Pśiduce lěto
+    .accesskey = u
 calendar-today-button-tooltip =
     .title = K źinsajšnemu
 calendar-view-toggle-day = Źeń
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Wěcejtyźeń
     .title = Wěcejtyźeński naglěd wužywaś
 calendar-view-toggle-month = Mjasec
     .title = Mjasecny naglěd wužywaś
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Nastajenja wugótowanja kalendarja
+calendar-find-events-menu-option =
+    .label = Wobceŕk pytanja tšojenjow
+calendar-hide-weekends-option =
+    .label = Jano źěłowe dny
+calendar-define-workweek-option =
+    .label = Źěłowe dny definěrowaś
