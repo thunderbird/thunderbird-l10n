@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Tháng trước
     .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = Năm trước
+    .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = Ngày tiếp theo
     .accesskey = x
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Tháng sau
     .accesskey = x
+calendar-nav-button-next-tooltip-year =
+    .title = Năm sau
+    .accesskey = x
 calendar-today-button-tooltip =
     .title = Đi đến hôm nay
 calendar-view-toggle-day = Ngày
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Nhiều tuần
     .title = Chuyển sang xem theo nhiều tuần
 calendar-view-toggle-month = Tháng
     .title = Chuyển sang xem theo tháng
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Tùy chọn bố cục lịch
+calendar-find-events-menu-option =
+    .label = Ngăn tìm sự kiện
+calendar-hide-weekends-option =
+    .label = Chỉ hiện các ngày làm việc
+calendar-define-workweek-option =
+    .label = Xác định ngày làm việc trong tuần
