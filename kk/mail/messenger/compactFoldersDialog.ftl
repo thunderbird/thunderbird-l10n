@@ -5,6 +5,8 @@
 compact-dialog-window =
     .title = Бумаларды ықшамдау
     .style = width: 50em;
+compact-dialog-window-title =
+    .title = Бумаларды ықшамдау
 compact-dialog =
     .buttonlabelaccept = Қазір ықшамдау
     .buttonaccesskeyaccept = ш
