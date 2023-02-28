@@ -72,3 +72,9 @@ customize-palette-add-everywhere =
 
 customize-target-remove =
     .label = Eliminar
+customize-target-add-everywhere =
+    .label = Agregar a todas las barras de herramientas
+customize-target-start =
+    .label = Mover al inicio
+customize-target-end =
+    .label = Mover al final

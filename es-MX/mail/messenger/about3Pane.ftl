@@ -119,6 +119,8 @@ folder-pane-get-messages-button =
     .title = Obtener mensajes
 folder-pane-write-message-button = Nuevo mensaje
     .title = Redactar un nuevo mensaje
+folder-pane-more-menu-button =
+    .title = Opciones del panel de carpetas
 
 ## Message thread pane
 
