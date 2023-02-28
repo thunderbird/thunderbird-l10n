@@ -5,6 +5,8 @@
 compact-dialog-window =
     .title = Сажми фасцикле
     .style = width: 50em;
+compact-dialog-window-title =
+    .title = Сажми фасцикле
 compact-dialog =
     .buttonlabelaccept = Сажми сада
     .buttonaccesskeyaccept = С
