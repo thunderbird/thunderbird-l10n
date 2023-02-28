@@ -66,3 +66,12 @@ calendar-view-toggle-multiweek = Çok haftalı
     .title = Çok haftalı görünüme geç
 calendar-view-toggle-month = Ay
     .title = Aylık gösterime geç
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Takvim düzeni seçenekleri
+calendar-hide-weekends-option =
+    .label = Sadece iş günleri
+calendar-define-workweek-option =
+    .label = İş günlerini tanımla
