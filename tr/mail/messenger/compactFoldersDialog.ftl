@@ -5,6 +5,8 @@
 compact-dialog-window =
     .title = Dizinleri sıkıştır
     .style = width: 50em;
+compact-dialog-window-title =
+    .title = Dizinleri sıkıştır
 compact-dialog =
     .buttonlabelaccept = Şimdi sıkıştır
     .buttonaccesskeyaccept = s
