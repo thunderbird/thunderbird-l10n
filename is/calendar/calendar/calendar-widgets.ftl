@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Fyrri mánuður
     .accesskey = r
+calendar-nav-button-prev-tooltip-year =
+    .title = Fyrra ár
+    .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = Næsti dagur
     .accesskey = n
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Næsti mánuður
     .accesskey = n
+calendar-nav-button-next-tooltip-year =
+    .title = Næsta ár
+    .accesskey = x
 calendar-today-button-tooltip =
     .title = Fara á daginn í dag
 calendar-view-toggle-day = Dagur
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Margar vikur
     .title = Skipta yfir í margra vikna sýn
 calendar-view-toggle-month = Mánuður
     .title = Skipta yfir í mánaðarsýn
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Valkostir fyrir framsetningu dagatals
+calendar-find-events-menu-option =
+    .label = Spjald til að finna atburði
+calendar-hide-weekends-option =
+    .label = Aðeins vinnudagar
+calendar-define-workweek-option =
+    .label = Skilgreina vinnudaga í viku
