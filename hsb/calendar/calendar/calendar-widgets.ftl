@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Předchadny měsac
     .accesskey = e
+calendar-nav-button-prev-tooltip-year =
+    .title = Předchadne lěto
+    .accesskey = d
 calendar-nav-button-next-tooltip-day =
     .title = Přichodny dźeń
     .accesskey = i
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Přichodny měsac
     .accesskey = i
+calendar-nav-button-next-tooltip-year =
+    .title = Přichodne lěto
+    .accesskey = h
 calendar-today-button-tooltip =
     .title = K dźensnišemu
 calendar-view-toggle-day = Dźeń
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Wjacetydźeń
     .title = Wjacetydźenski napohlad wužiwać
 calendar-view-toggle-month = Měsac
     .title = Měsačny napohlad wužiwać
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Nastajenja wuhotowanja protyki
+calendar-find-events-menu-option =
+    .label = Wobłuk pytanja podawkow
+calendar-hide-weekends-option =
+    .label = Jenož dźěłowe dny
+calendar-define-workweek-option =
+    .label = Dźěłowe dny definować
