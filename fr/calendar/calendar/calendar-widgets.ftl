@@ -77,3 +77,9 @@ calendar-view-toggle-month =   Mois  
 
 calendar-control-bar-menu-button =
     .title = Options de mise en page de l’agenda
+calendar-find-events-menu-option =
+    .label = Panneau de recherche d’évènements
+calendar-hide-weekends-option =
+    .label = Semaine de travail seulement
+calendar-define-workweek-option =
+    .label = Définir les jours de la semaine de travail
