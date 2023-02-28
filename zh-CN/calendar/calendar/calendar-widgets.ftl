@@ -66,3 +66,12 @@ calendar-view-toggle-multiweek = 多周
     .title = 切换到多周视图
 calendar-view-toggle-month = 月
     .title = 切换到月视图
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = 日历布局选项
+calendar-find-events-menu-option =
+    .label = 查找事件窗格
+calendar-hide-weekends-option =
+    .label = 仅显示工作日
