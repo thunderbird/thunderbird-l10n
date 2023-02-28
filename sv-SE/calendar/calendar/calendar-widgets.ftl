@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Föregående månad
     .accesskey = F
+calendar-nav-button-prev-tooltip-year =
+    .title = Föregående år
+    .accesskey = g
 calendar-nav-button-next-tooltip-day =
     .title = Nästa dag
     .accesskey = N
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Nästa månad
     .accesskey = N
+calendar-nav-button-next-tooltip-year =
+    .title = Nästa år
+    .accesskey = t
 calendar-today-button-tooltip =
     .title = Gå till idag
 calendar-view-toggle-day = Dag
@@ -66,3 +72,12 @@ calendar-view-toggle-multiweek = Flera veckor
     .title = Växla till flerveckorsöversikt
 calendar-view-toggle-month = Månad
     .title = Växla till månadsvy
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Alternativ för kalenderlayout
+calendar-hide-weekends-option =
+    .label = Endast arbetsveckodagar
+calendar-define-workweek-option =
+    .label = Definiera arbetsveckodagar
