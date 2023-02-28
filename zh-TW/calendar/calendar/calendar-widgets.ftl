@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = 上個月
     .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = 去年
+    .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = 下一日
     .accesskey = x
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = 下個月
     .accesskey = x
+calendar-nav-button-next-tooltip-year =
+    .title = 明年
+    .accesskey = x
 calendar-today-button-tooltip =
     .title = 前往今日
 calendar-view-toggle-day = 日
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = 多週
     .title = 切換到多週檢視
 calendar-view-toggle-month = 月
     .title = 切換到月檢視
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = 行事曆版面選項
+calendar-find-events-menu-option =
+    .label = 尋找活動窗格
+calendar-hide-weekends-option =
+    .label = 僅顯示工作日
+calendar-define-workweek-option =
+    .label = 定義工作週的天數
