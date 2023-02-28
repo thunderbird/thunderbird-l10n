@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Mois précédent
     .accesskey = r
+calendar-nav-button-prev-tooltip-year =
+    .title = Année précédente
+    .accesskey = e
 calendar-nav-button-next-tooltip-day =
     .title = Jour suivant
     .accesskey = s
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Mois suivant
     .accesskey = s
+calendar-nav-button-next-tooltip-year =
+    .title = Année suivante
+    .accesskey = v
 calendar-today-button-tooltip =
     .title = Aller à aujourd’hui
 calendar-view-toggle-day = Journée
@@ -66,3 +72,8 @@ calendar-view-toggle-multiweek = Multisemaine
     .title = Afficher plusieurs semaines
 calendar-view-toggle-month =   Mois  
     .title = Afficher le mois
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Options de mise en page de l’agenda
