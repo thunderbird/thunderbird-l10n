@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Алдыңғы ай
     .accesskey = л
+calendar-nav-button-prev-tooltip-year =
+    .title = Алдыңғы жыл
+    .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = Келесі күн
     .accesskey = к
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Келесі ай
     .accesskey = к
+calendar-nav-button-next-tooltip-year =
+    .title = Келесі жыл
+    .accesskey = x
 calendar-today-button-tooltip =
     .title = Бүгінге өту
 calendar-view-toggle-day = Күн
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Бірнеше апта
     .title = Бірнеше апта көрінісіне ауысу
 calendar-view-toggle-month = Ай
     .title = Ай көрінісіне ауысу
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Күнтізбе жаймасының опциялары
+calendar-find-events-menu-option =
+    .label = Оқиғаларды табу панелі
+calendar-hide-weekends-option =
+    .label = Аптаның тек жұмыс күндері
+calendar-define-workweek-option =
+    .label = Аптаның жұмыс күндерін анықтау
