@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Előző hónap
     .accesskey = h
+calendar-nav-button-prev-tooltip-year =
+    .title = Előző év
+    .accesskey = v
 calendar-nav-button-next-tooltip-day =
     .title = Következő nap
     .accesskey = K
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Következő hónap
     .accesskey = p
+calendar-nav-button-next-tooltip-year =
+    .title = Következő év
+    .accesskey = K
 calendar-today-button-tooltip =
     .title = Ugrás a mai napra
 calendar-view-toggle-day = Nap
@@ -66,3 +72,6 @@ calendar-view-toggle-multiweek = Több hét
     .title = Átváltás többheti nézetre
 calendar-view-toggle-month = Hónap
     .title = Átváltás havi nézetre
+
+## Menu on calendar control bar
+
