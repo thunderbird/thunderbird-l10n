@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Mense previe
     .accesskey = p
+calendar-nav-button-prev-tooltip-year =
+    .title = Anno precedente
+    .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = Die successive
     .accesskey = s
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Mense successive
     .accesskey = s
+calendar-nav-button-next-tooltip-year =
+    .title = Anno successive
+    .accesskey = x
 calendar-today-button-tooltip =
     .title = Ir a hodie
 calendar-view-toggle-day = Die
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Multe-septimana
     .title = Mutar al vista multe-septimanal
 calendar-view-toggle-month = Mense
     .title = Mutar al vista del mense
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Optiones del disposition del agenda
+calendar-find-events-menu-option =
+    .label = Trovar quadro eventos
+calendar-hide-weekends-option =
+    .label = Septimanal, solo dies de labor
+calendar-define-workweek-option =
+    .label = Definir dies de labor del septimana
