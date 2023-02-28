@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Mis Blaenorol
     .accesskey = B
+calendar-nav-button-prev-tooltip-year =
+    .title = Blwyddyn Flaenorol
+    .accesskey = B
 calendar-nav-button-next-tooltip-day =
     .title = Diwrnod Nesaf
     .accesskey = N
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Mis Nesaf
     .accesskey = N
+calendar-nav-button-next-tooltip-year =
+    .title = Blwyddyn Nesaf
+    .accesskey = N
 calendar-today-button-tooltip =
     .title = Mynd i Heddiw
 calendar-view-toggle-day = Diwrnod
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Wythnosau
     .title = Newid i golwg wythnosol
 calendar-view-toggle-month = Mis
     .title = Newid i golwg mis
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Dewisiadau cynllun calendr
+calendar-find-events-menu-option =
+    .label = Canfod Paen Digwyddiadau
+calendar-hide-weekends-option =
+    .label = Dyddiau'r wythnos waith yn unig
+calendar-define-workweek-option =
+    .label = Diffinio diwrnodau gwaith yr wythnos
