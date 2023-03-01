@@ -7,7 +7,31 @@ calendar-deactivated-notification-tasks = Todos os calendários estão neste mom
 calendar-notifications-label = Mostrar notificações de próximos eventos
 calendar-add-notification-button =
     .label = Adicionar notificação
+
+## Side panel
+
+calendar-list-header = Calendários
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Opções do calendário { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = O calendário { $calendarName } foi silenciado
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Opções do calendário { $calendarName }
+calendar-import-new-calendar = Novo calendário...
+    .title = Crie ou subscreva a um novo calendário
+calendar-refresh-calendars =
+    .title = Recarregar todos os calendários e sincronizar as mudanças
+calendar-new-event-primary-button = Novo evento
 calendar-new-task-primary-button = Nova tarefa
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Dia anterior
     .accesskey = a
@@ -20,6 +44,26 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Mês anterior
     .accesskey = a
+calendar-nav-button-prev-tooltip-year =
+    .title = Ano anterior
+    .accesskey = t
+calendar-nav-button-next-tooltip-day =
+    .title = Próximo dia
+    .accesskey = x
+calendar-nav-button-next-tooltip-week =
+    .title = Próxima semana
+    .accesskey = x
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Próxima semana
+    .accesskey = x
+calendar-nav-button-next-tooltip-month =
+    .title = Próximo mês
+    .accesskey = x
+calendar-nav-button-next-tooltip-year =
+    .title = Próximo ano
+    .accesskey = x
+calendar-today-button-tooltip =
+    .title = Ir para hoje
 calendar-view-toggle-day = Dia
     .title = Mudar para vista diária
 calendar-view-toggle-week = Semana
@@ -28,3 +72,12 @@ calendar-view-toggle-multiweek = Multissemana
     .title = Mudar para vista multissemanal
 calendar-view-toggle-month = Mês
     .title = Mudar para vista mensal
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Opções do esquema do calendário
+calendar-hide-weekends-option =
+    .label = Apenas dias úteis
+calendar-define-workweek-option =
+    .label = Defina os dias úteis

@@ -113,12 +113,29 @@ quick-filter-bar-gloda-upsell-line1 = Continuar esta pesquisa por todas as pasta
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Pressione novamente ‘Enter’ para continuar a sua pesquisa por: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Obter mensagens
+folder-pane-write-message-button = Nova mensagem
+    .title = Componha uma nova mensagem
+folder-pane-more-menu-button =
+    .title = Opções do painel de pastas
+folder-pane-header-context-hide =
+    .label = Ocultar cabeçalho do painel de pastas
+
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Alternar selecionar todas as mensagens
+threadpane-column-header-select-all =
+    .title = Selecionar todas as mensagens
+threadpane-column-header-deselect-all =
+    .title = Desselecionar todas as mensagens
 threadpane-column-label-select =
     .label = Selecionar mensagens
+threadpane-column-header-thread =
+    .title = Alternar tópicos de mensagens
 threadpane-column-label-thread =
     .label = Tópico
 threadpane-column-header-flagged =
@@ -129,6 +146,14 @@ threadpane-column-header-attachments =
     .title = Ordenar por anexos
 threadpane-column-label-attachments =
     .label = Anexos
+threadpane-column-header-spam =
+    .title = Ordenar por estado do lixo eletrónico
+threadpane-column-label-spam =
+    .label = Spam
+threadpane-column-header-unread-button =
+    .title = Ordenar pelo estado de leitura
+threadpane-column-label-unread-button =
+    .label = Estado de leitura
 threadpane-column-header-sender = De
     .title = Ordenar por remetente
 threadpane-column-label-sender =
@@ -196,6 +221,9 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indicador de nova mensagem
+    .title = Nova mensagem
 apply-columns-to-menu =
     .label = Aplicar colunas a...
 apply-current-view-to-folder =
