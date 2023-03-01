@@ -47,7 +47,12 @@ source-file-description = Selecionar um ficheiro para importar livros de endere�
 
 ## Import from file selections
 
+file-profile2 = Importar perfil guardado
+file-profile-description = Selecione um perfil do Thunderbird anteriormente guardado (.zip)
 file-calendar = Importar calendários
+file-calendar-description = Selecione um ficheiro contendo eventos ou calendários exportados (.ics)
+file-addressbook = Importar livros de endereços
+file-addressbook-description = Selecione um ficheiro contendo livros de endereços e contactos exportados
 
 ## Import from app profile steps
 
@@ -56,8 +61,14 @@ from-app-seamonkey = Importar de um perfil do { app-name-seamonkey }
 from-app-outlook = Importar do { app-name-outlook }
 from-app-becky = Importar do { app-name-becky }
 from-app-apple-mail = Importar do { app-name-apple-mail }
+profiles-pane-title-thunderbird = Importar configurações e dados de um perfil do { app-name-thunderbird }.
+profiles-pane-title-seamonkey = Importar configurações e dados de um perfil do { app-name-seamonkey }.
 profiles-pane-title-outlook = Importar dados do { app-name-outlook }
+profiles-pane-title-becky = Importar dados do { app-name-becky }.
+profiles-pane-title-apple-mail = Importar mensagens do { app-name-apple-mail }.
 profile-source = Importar do perfil
+# $profileName (string) - name of the profile
+profile-source-named = Importar do perfil <strong>"{ $profileName }"</strong>
 profile-file-picker-directory = Escolher uma pasta de perfil
 profile-file-picker-archive = Escolha um ficheiro <strong>ZIP</strong>
 profile-file-picker-archive-description = O ficheiro ZIP deve ser menor que 2 GB.
@@ -69,9 +80,12 @@ items-pane-checkbox-accounts = Contas e definições
 items-pane-checkbox-address-books = Livros de endereços
 items-pane-checkbox-calendars = Calendários
 items-pane-checkbox-mail-messages = Mensagens eletrónicas
+items-pane-override = Quaisquer dados existentes ou idênticos não serão substituídos.
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Escolha o formato de ficheiro que contém os dados do livro de contactos.
+addr-book-csv-file = Ficheiro separado por vírgulas ou tabulações (.csv, .tsv)
 addr-book-ldif-file = Ficheiro LDIF (.ldif)
 addr-book-vcard-file = Ficheiro vCard (.vcf, .vcard)
 addr-book-sqlite-file = Ficheiro de base de dados SQLite (.sqlite)

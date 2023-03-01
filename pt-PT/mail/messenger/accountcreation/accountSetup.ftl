@@ -70,6 +70,8 @@ account-setup-button-done = Feito
 ## Notifications
 
 account-setup-looking-up-settings = A procurar configuração…
+account-setup-looking-up-settings-guess = A procurar uma configuração: a experimentar nomes de servidores frequentes…
+account-setup-looking-up-settings-half-manual = A procurar uma configuração: a analisar o servidor...
 account-setup-checking-password = A verificar a palavra-passe…
 account-setup-installing-addon = A transferir e a instalar o extra…
 account-setup-success-half-manual = Foram encontradas as seguintes definições ao sondar o servidor indicado:
@@ -236,6 +238,8 @@ account-setup-calendar-name-input =
 account-setup-calendar-color-label = Cor
 account-setup-calendar-refresh-label = Atualizar
 account-setup-calendar-refresh-manual = Manualmente
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
 account-setup-calendar-refresh-interval =
     { $count ->
         [one] Todos os minutos

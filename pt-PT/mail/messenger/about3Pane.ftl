@@ -224,8 +224,31 @@ threadpane-column-label-delete =
 threadpane-message-new =
     .alt = Indicador de nova mensagem
     .title = Nova mensagem
+threadpane-message-replied =
+    .alt = Indicador de mensagem respondida
+    .title = Mensagem respondida
+threadpane-message-redirected =
+    .alt = Indicador de mensagem redirecionada
+    .title = Mensagem redirecionada
+threadpane-message-forwarded =
+    .alt = Indicador de mensagem encaminhada
+    .title = Mensagem encaminhada
+threadpane-message-replied-forwarded =
+    .alt = Indicador de mensagem respondida e encaminhada
+    .title = Mensagem respondida e encaminhada
+threadpane-message-replied-redirected =
+    .alt = Indicador de mensagem respondida e redirecionada
+    .title = Mensagem respondida e redirecionada
+threadpane-message-forwarded-redirected =
+    .alt = Indicador de mensagem encaminhada e redirecionada
+    .title = Mensagem encaminhada e redirecionada
+threadpane-message-replied-forwarded-redirected =
+    .alt = Indicador de mensagem respondida, encaminhada e redirecionada
+    .title = Mensagem respondida, encaminhada e redirecionada
 apply-columns-to-menu =
     .label = Aplicar colunas a...
+apply-current-view-to-menu =
+    .label = Aplicar a vista atual a…
 apply-current-view-to-folder =
     .label = Pasta...
 apply-current-view-to-folder-children =
@@ -233,9 +256,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Aplicar alterações?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Aplicar colunas da pasta atual a { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Aplicar as colunas atuais da pasta a { $name } e seus filhos?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Aplicar a vista da pasta atual a { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Aplicar a vista da pasta atual a { $name } e respetivas sub-pastas?
