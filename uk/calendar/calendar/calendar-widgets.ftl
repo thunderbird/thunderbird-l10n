@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Попередній місяць
     .accesskey = п
+calendar-nav-button-prev-tooltip-year =
+    .title = Попередній рік
+    .accesskey = П
 calendar-nav-button-next-tooltip-day =
     .title = Наступний день
     .accesskey = с
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Наступний місяць
     .accesskey = с
+calendar-nav-button-next-tooltip-year =
+    .title = Наступний рік
+    .accesskey = Н
 calendar-today-button-tooltip =
     .title = Сьогодні
 calendar-view-toggle-day = День
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Кілька тижнів
     .title = Перейти до огляду кількох тижнів
 calendar-view-toggle-month = Місяць
     .title = Перейти до огляду місяців
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Параметри оформлення календаря
+calendar-find-events-menu-option =
+    .label = Панель пошуку подій
+calendar-hide-weekends-option =
+    .label = Тільки робочі дні
+calendar-define-workweek-option =
+    .label = Визначити робочі дні
