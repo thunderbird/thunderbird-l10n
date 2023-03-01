@@ -81,3 +81,5 @@ calendar-find-events-menu-option =
     .label = 查找事件窗格
 calendar-hide-weekends-option =
     .label = 仅显示工作日
+calendar-define-workweek-option =
+    .label = 选择工作日
