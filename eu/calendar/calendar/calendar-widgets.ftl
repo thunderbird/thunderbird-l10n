@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Aurreko hilabetea
     .accesskey = o
+calendar-nav-button-prev-tooltip-year =
+    .title = Aurreko urtea
+    .accesskey = A
 calendar-nav-button-next-tooltip-day =
     .title = Hurrengo eguna
     .accesskey = h
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Hurrengo hilabetea
     .accesskey = h
+calendar-nav-button-next-tooltip-year =
+    .title = Hurrengo urtea
+    .accesskey = H
 calendar-today-button-tooltip =
     .title = Gaur kokatu
 calendar-view-toggle-day = Egun
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Aste anitz
     .title = Aldatu aste anitzeko ikuspegira
 calendar-view-toggle-month = Hilabete
     .title = Aldatu hileko ikuspegira
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Egutegi diseinu aukerak
+calendar-find-events-menu-option =
+    .label = Bilatu gertaeren panela
+calendar-hide-weekends-option =
+    .label = Lan aste egunak bakarrik
+calendar-define-workweek-option =
+    .label = Definitu asteko lan egunak

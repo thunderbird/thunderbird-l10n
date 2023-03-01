@@ -113,6 +113,17 @@ quick-filter-bar-gloda-upsell-line1 = Jarraitu bilaketa hau karpeta guztietan ze
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Sakatu ‘Sartu’ berriro zure bilaketarekin jarraitzeko: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Eskuratu mezuak
+folder-pane-write-message-button = Mezu berria
+    .title = Idatzi mezu berri bat
+folder-pane-more-menu-button =
+    .title = Karpeten panelaren aukerak
+folder-pane-header-context-hide =
+    .label = Ezkutatu karpeta panelaren goiburua
+
 ## Message thread pane
 
 threadpane-column-header-select =

@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Konpondu testu kodeketa
     .accesskey = K
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Karpeta panelaren goiburua
+    .accesskey = K
+
 ## View / Layout
 
 menu-font-size-label =
