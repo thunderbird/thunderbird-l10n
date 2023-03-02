@@ -295,7 +295,7 @@
 <!ENTITY nextUnreadMsgCmd.label "Neges Heb ei Darllen">
 <!ENTITY nextUnreadMsgCmd.accesskey "H">
 <!ENTITY nextUnreadMsgCmd.key "n">
-<!ENTITY nextStarredMsgCmd.label "Neges Serenog">
+<!ENTITY nextStarredMsgCmd.label "Neges Serennog">
 <!ENTITY nextStarredMsgCmd.accesskey "S">
 <!ENTITY nextUnreadThread.label "Edafedd Heb eu Darllen">
 <!ENTITY nextUnreadThread.accesskey "D">

@@ -190,7 +190,7 @@
 <!ENTITY calendar.context.attendance.occ.delegated.accesskey    "r">
 <!ENTITY calendar.context.attendance.occ.delegated.label        "Dirprwyo">
 <!ENTITY calendar.context.attendance.occ.needsaction.accesskey  "G">
-<!ENTITY calendar.context.attendance.occ.needsaction.label      "Angen gwaith">
+<!ENTITY calendar.context.attendance.occ.needsaction.label      "Dal angen gwaith">
 <!ENTITY calendar.context.attendance.occ.inprogress.accesskey   "W">
 <!ENTITY calendar.context.attendance.occ.inprogress.label       "Ar waith">
 <!ENTITY calendar.context.attendance.occ.completed.accesskey    "W">

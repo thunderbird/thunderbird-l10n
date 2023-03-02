@@ -5,11 +5,9 @@
 carddav-url-label =
     .value = URL CardDAV:
     .accesskey = V
-
 carddav-refreshinterval-label =
     .label = Cydweddu:
     .accesskey = C
-
 # Variables:
 #   $minutes (integer) - Number of minutes between address book synchronizations
 carddav-refreshinterval-minutes-value =
@@ -22,7 +20,6 @@ carddav-refreshinterval-minutes-value =
             [many] pob { $minutes } munud
            *[other] pob { $minutes } munud
         }
-
 # Variables:
 #   $hours (integer) - Number of hours between address book synchronizations
 carddav-refreshinterval-hours-value =
@@ -35,7 +32,6 @@ carddav-refreshinterval-hours-value =
             [many] pob { $hours } awr
            *[other] pob { $hours } awr
         }
-
 carddav-readonly-label =
-    .label = Darllen yn unig
+    .label = Darllen-yn-unig
     .accesskey = D
