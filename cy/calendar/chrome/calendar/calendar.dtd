@@ -157,7 +157,7 @@
 <!ENTITY calendar.context.modifyorviewtask.accesskey  "T">
 <!ENTITY calendar.context.newevent.label              "Digwyddiad Newydd…">
 <!ENTITY calendar.context.newevent.accesskey          "i">
-<!ENTITY calendar.context.newtodo.label               "Tasgau Newydd…">
+<!ENTITY calendar.context.newtodo.label               "Tasg Newydd…">
 <!ENTITY calendar.context.newtodo.accesskey           "a">
 <!ENTITY calendar.context.deletetask.label            "Dileu Tasg">
 <!ENTITY calendar.context.deletetask.accesskey        "l">

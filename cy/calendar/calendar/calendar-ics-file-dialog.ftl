@@ -14,7 +14,7 @@ calendar-ics-file-cancel-button-close-label = Cau
 calendar-ics-file-dialog-message-2 = Mewnforio o'r ffeil:
 calendar-ics-file-dialog-calendar-menu-label = Mewnforio i'r calendr:
 calendar-ics-file-dialog-items-loading-message =
-    .value = Llwytho eitemau...
+    .value = Wrthi'n llwytho eitemau…
 calendar-ics-file-dialog-search-input =
     .placeholder = Hidlo eitemau…
 calendar-ics-file-dialog-sort-start-ascending =
@@ -33,6 +33,8 @@ calendar-ics-file-dialog-progress-message = Mewnforio…
 calendar-ics-file-import-success = Wedi’i mewnforio’n llwyddiannus
 calendar-ics-file-import-error = Digwyddodd gwall a methodd y mewnforio.
 calendar-ics-file-import-complete = Mewnforio wedi'i gwblhau.
+# Variables:
+# $duplicatesCount (Number) - Number of items already existing in the target calendar.
 calendar-ics-file-import-duplicates =
     { $duplicatesCount ->
         [zero] Anwybyddwyd dim eitemau.
@@ -42,6 +44,8 @@ calendar-ics-file-import-duplicates =
         [many] Anwybyddwyd { $duplicatesCount } eitem gan eu bod eisoes yn bodoli yn y calendr cyrchfan.
        *[other] Anwybyddwyd { $duplicatesCount } eitem gan eu bod eisoes yn bodoli yn y calendr cyrchfan.
     }
+# Variables:
+# $errorsCount (Number) - Number of errors while importing ics file.
 calendar-ics-file-import-errors =
     { $errorsCount ->
         [zero] Methodd mewnforio dim eitemau.

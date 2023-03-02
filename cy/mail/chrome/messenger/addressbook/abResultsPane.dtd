@@ -20,7 +20,7 @@
 <!ENTITY Department.accesskey                  "r">
 <!ENTITY JobTitle.label                        "Teitl">
 <!ENTITY JobTitle.accesskey                    "T">
-<!ENTITY CellularNumber.label                  "Symudol">
+<!ENTITY CellularNumber.label                  "Ffôn Symudol">
 <!ENTITY CellularNumber.accesskey              "S">
 <!ENTITY PagerNumber.label                     "Swnyn">
 <!ENTITY PagerNumber.accesskey                 "w">

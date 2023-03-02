@@ -8,7 +8,7 @@
      The show and showMac commands are never shown together, thus they can share
      the same access key (though the two access keys can also be different).
      -->
-<!ENTITY cmd.show.label                            "Agor y Ffolder sy'n eu Cynnwys">
+<!ENTITY cmd.show.label                            "Agor Ffolder Cynhwysol">
 <!ENTITY cmd.show.accesskey                        "F">
 <!ENTITY cmd.showMac.label                         "Dangos yn Finder">
 <!ENTITY cmd.showMac.accesskey                     "F">

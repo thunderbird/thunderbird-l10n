@@ -211,7 +211,7 @@
 <!ENTITY headersSpace2.style "width: 8em;">
 <!ENTITY fromAddr2.label "Oddi wrth">
 <!ENTITY fromAddr.accesskey "O">
-<!ENTITY replyAddr2.label "Ateb i">
+<!ENTITY replyAddr2.label "Ateb-At">
 <!ENTITY newsgroupsAddr2.label "Grŵp Newyddion">
 <!ENTITY followupAddr2.label "Dilyn i">
 <!ENTITY subject2.label "Pwnc">
@@ -284,7 +284,7 @@
 <!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
      Should use the same wording as startExpandedCmd.label
      in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Dangos y Paen Atodi yn Gyntaf">
+<!ENTITY initiallyShowAttachmentPane.label "Dangos y Paen Atodiad yn Gyntaf">
 <!ENTITY initiallyShowAttachmentPane.accesskey "D">
 
 <!-- Spell checker context menu items -->

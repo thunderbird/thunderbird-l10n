@@ -370,7 +370,7 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
 <!ENTITY createFilter.label "Creu Hidl o'r Neges…">
 <!ENTITY createFilter.accesskey "H">
-<!ENTITY moveMsgToMenu.label "Symud i">
+<!ENTITY moveMsgToMenu.label "Symud I">
 <!ENTITY moveMsgToMenu.accesskey "S">
 <!ENTITY moveCopyMsgRecentMenu.label "Diweddar">
 <!ENTITY moveCopyMsgRecentMenu.accesskey "D">
@@ -759,7 +759,7 @@
 <!ENTITY contextForwardAsAttachmentItem.accesskey "A">
 <!ENTITY contextMultiForwardAsAttachment.label "Ymlaen fel Atodiadau">
 <!ENTITY contextMultiForwardAsAttachment.accesskey "A">
-<!ENTITY contextMoveMsgMenu.label "Symud i">
+<!ENTITY contextMoveMsgMenu.label "Symud I">
 <!ENTITY contextMoveMsgMenu.accesskey "S">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Diweddar">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "D">

@@ -17,7 +17,7 @@
 <!ENTITY tagsHdr4.label "Tagiau">
 <!ENTITY dateField4.label "Dyddiad">
 <!ENTITY userAgentField4.label "Asiant defnyddiwr">
-<!ENTITY referencesField4.label "Cyfeiriadau">
+<!ENTITY referencesField4.label "Cyfeirnodau">
 <!ENTITY messageIdField4.label "Enw Neges">
 <!ENTITY inReplyToField4.label "Wrth ateb i">
 <!ENTITY originalWebsite4.label "Gwefan">
@@ -53,7 +53,7 @@
 <!ENTITY otherActionsButton.tooltip "Rhagor o weithredoedd">
 <!ENTITY otherActionsOpenConversation1.label "Agor mewn Sgwrs">
 <!ENTITY otherActionsOpenConversation1.accesskey "S">
-<!ENTITY otherActionsOpenInNewWindow1.label "Agor Ffenestr Newydd">
+<!ENTITY otherActionsOpenInNewWindow1.label "Agor mewn Ffenestr Newydd">
 <!ENTITY otherActionsOpenInNewWindow1.accesskey "F">
 <!ENTITY otherActionsOpenInNewTab1.label "Agor mewn Tab Newydd">
 <!ENTITY otherActionsOpenInNewTab1.accesskey "T">

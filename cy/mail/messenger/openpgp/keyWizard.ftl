@@ -30,7 +30,7 @@ openpgp-generate-key-info = <b>Gall cynhyrchu allweddol gymryd rhai munudau i'w 
 openpgp-keygen-expiry-title = Allwedd yn dod i ben
 openpgp-keygen-expiry-description = Diffiniwch amser dod i ben eich allwedd sydd newydd ei chynhyrchu. Yn ddiweddarach, gallwch reoli'r dyddiad i'w ymestyn os oes angen.
 radio-keygen-expiry =
-    .label = Allwedd yn dod i ben ar
+    .label = Allwedd yn dod i ben ymhen
     .accesskey = l
 radio-keygen-no-expiry =
     .label = Nid yw'r allwedd yn dod i ben
@@ -119,7 +119,7 @@ openpgp-import-fingerprint-label = Bysbrint
 openpgp-import-created-label = Crëwyd
 openpgp-import-bits-label = Didau
 openpgp-import-key-props =
-    .label = Priodweddau'r Allwedd
+    .label = Priodweddau Allweddi
     .accesskey = P
 
 ## External Key section

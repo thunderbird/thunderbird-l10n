@@ -102,7 +102,7 @@ appmenu-help-enter-troubleshoot-mode =
 appmenu-help-exit-troubleshoot-mode =
     .label = Diffodd y Modd Datrys Problemau
 appmenu-help-more-troubleshooting-info =
-    .label = Rhagor o Wybodaeth i Ddatrys Problemau
+    .label = Rhagor o Wybodaeth Datrys Problemau
 appmenu-redirect-msg =
     .label = Ailgyfeirio
 
@@ -110,6 +110,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Ailgyfeirio
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -177,9 +179,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Tynnu { $name }?
 addon-removal-confirmation-button = Tynnu
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Tynnu { $name } yn ogystal â'i ffurfweddiad a'i ddata o { -brand-short-name }?
 caret-browsing-prompt-title = Pori Caret
 caret-browsing-prompt-text = Mae pwyso F7 yn cychwyn a diffodd Pori Caret. Mae'r nodwedd hon yn gosod cyrchwr symudol ar dudalennau gwe, gan ganiatáu i chi ddewis testun gyda'r bysellfwrdd. Hoffech chi gychwyn Pori Caret?
@@ -191,11 +195,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Nid yw Ateb yn cael ei Gefnogi
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Nid yw'n ymddangos bod y cyfeiriad ateb ({ $email }) yn gyfeiriad wedi'i fonitro. Mae'n bosib na fydd unrhyw un yn darllen negeseuon i'r cyfeiriad hwn.
 no-reply-reply-anyway-button = Ateb Beth Bynnag
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
 
 ## Spaces toolbar
