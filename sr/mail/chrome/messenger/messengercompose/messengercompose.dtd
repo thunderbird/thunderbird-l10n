@@ -11,6 +11,7 @@
 <!ENTITY newMenu.label "Ново">
 <!ENTITY newMenu.accesskey "Н">
 <!ENTITY newMessage.label "Порука">
+<!ENTITY newMessage.accesskey "П">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Контакт у именику…">
 <!ENTITY newContact.accesskey "К">
@@ -211,7 +212,7 @@
 <!ENTITY fromAddr2.label "Шаље">
 <!ENTITY fromAddr.accesskey "а">
 <!ENTITY replyAddr2.label "Одговори на">
-<!ENTITY newsgroupsAddr2.label "Интересна група">
+<!ENTITY newsgroupsAddr2.label "Новинска група">
 <!ENTITY followupAddr2.label "Настави на">
 <!ENTITY subject2.label "Тема">
 <!ENTITY subject.accesskey "м">
