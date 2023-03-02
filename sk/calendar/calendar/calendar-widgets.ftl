@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Predchádzajúci mesiac
     .accesskey = e
+calendar-nav-button-prev-tooltip-year =
+    .title = Predchádzajúci rok
+    .accesskey = c
 calendar-nav-button-next-tooltip-day =
     .title = Nasledujúci deň
     .accesskey = a
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Nasledujúci mesiac
     .accesskey = a
+calendar-nav-button-next-tooltip-year =
+    .title = Nasledujúci rok
+    .accesskey = d
 calendar-today-button-tooltip =
     .title = Prejsť na panel Dnes
 calendar-view-toggle-day = Deň
@@ -66,3 +72,12 @@ calendar-view-toggle-multiweek = Viac týždňov
     .title = Zmeniť pohľad na viactýždenný
 calendar-view-toggle-month = Mesiac
     .title = Zmeniť pohľad na mesačný
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Možnosti rozloženia kalendára
+calendar-hide-weekends-option =
+    .label = Iba pracovné dni
+calendar-define-workweek-option =
+    .label = Definovať dni pracovného týždňa
