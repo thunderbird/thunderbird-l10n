@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Previous Month
     .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = Previous Year
+    .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = Next Day
     .accesskey = x
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Next Month
     .accesskey = x
+calendar-nav-button-next-tooltip-year =
+    .title = Next Year
+    .accesskey = x
 calendar-today-button-tooltip =
     .title = Go to Today
 calendar-view-toggle-day = Day
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Multiweek
     .title = Switch to multiweek view
 calendar-view-toggle-month = Month
     .title = Switch to month view
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Calendar layout options
+calendar-find-events-menu-option =
+    .label = Find Events Pane
+calendar-hide-weekends-option =
+    .label = Workweek days only
+calendar-define-workweek-option =
+    .label = Define workweek days
