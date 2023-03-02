@@ -194,7 +194,7 @@
 <!ENTITY calendar.context.attendance.occ.inprogress.accesskey   "W">
 <!ENTITY calendar.context.attendance.occ.inprogress.label       "Ar waith">
 <!ENTITY calendar.context.attendance.occ.completed.accesskey    "W">
-<!ENTITY calendar.context.attendance.occ.completed.label        "Wedi cwblhau">
+<!ENTITY calendar.context.attendance.occ.completed.label        "Cwblhawyd">
 
 <!ENTITY calendar.context.attendance.all.accepted.accesskey     "d">
 <!ENTITY calendar.context.attendance.all.accepted.label         "Wedi derbyn">
@@ -209,7 +209,7 @@
 <!ENTITY calendar.context.attendance.all.inprogress.accesskey   "a">
 <!ENTITY calendar.context.attendance.all.inprogress.label       "Ar waith">
 <!ENTITY calendar.context.attendance.all.completed.accesskey    "h">
-<!ENTITY calendar.context.attendance.all.completed.label        "Wedi cwblhau">
+<!ENTITY calendar.context.attendance.all.completed.label        "Cwblhawyd">
 
 <!-- Task Context Menu -->
 <!ENTITY calendar.context.progress.label              "Cynnydd">

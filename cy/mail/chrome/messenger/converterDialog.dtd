@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY converterDialog.title "Troswr Math Cadw Neges">
-<!ENTITY converterDialog.continueButton "Ymlaen">
+<!ENTITY converterDialog.continueButton "Parhau">
 <!ENTITY converterDialog.cancelButton "Diddymu">
 <!ENTITY converterDialog.finishButton "Gorffen">
 <!ENTITY converterDialog.complete "Mae'r trosi wedi ei gwblhau. Bydd &brandShortName; nawr yn ail gychwyn.">

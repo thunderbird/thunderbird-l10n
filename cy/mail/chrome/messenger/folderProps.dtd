@@ -20,13 +20,13 @@
 <!ENTITY retentionCleanup.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol.">
 <!ENTITY retentionCleanupImap.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol yn gopïau lleol a'r gwreiddiol ar y gweinydd pell.">
 <!ENTITY retentionCleanupPop.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol gan gynnwys y gwreiddiol ar y gweinydd pell.">
-<!ENTITY retentionDeleteMsg.label "Dileu negeseuon mwy na">
+<!ENTITY retentionDeleteMsg.label "Dileu negeseuon sy'n fwy na">
 <!ENTITY retentionDeleteMsg.accesskey "i">
 <!ENTITY retentionKeepAll.label "Peidio dileu unrhyw neges">
 <!ENTITY retentionKeepAll.accesskey "P">
 <!ENTITY retentionKeepRecent.label "Dileu pob un heblaw'r mwyaf diweddar">
 <!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Cadw negeseuon serennog pob tro">
+<!ENTITY retentionApplyToFlagged.label "Cadw negeseuon serennog bob tro">
 <!ENTITY retentionApplyToFlagged.accesskey "s">
 
 <!ENTITY folderSynchronizationTab.label          "Cydweddu">

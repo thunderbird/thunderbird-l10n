@@ -37,7 +37,7 @@
 <!ENTITY tableInheritColor.label           "(Gadael i liw'r dudalen ddangos drwodd)">
 
 <!ENTITY cellSelection.label              "Dewis">
-<!ENTITY cellSelectCell.label             "Cell">
+<!ENTITY cellSelectCell.label             "Symudol">
 <!ENTITY cellSelectRow.label              "Rhes">
 <!ENTITY cellSelectColumn.label           "Colofn">
 <!ENTITY cellSelectNext.label             "Nesaf">
@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Unioni">
 <!ENTITY cellInheritColor.label           "(Gadael lliw'r tabl ddangos trwodd)">
 <!ENTITY cellUseCheckboxHelp.label        "Defnyddio blychau ticio i bennu pa briodweddau sy'n cael eu cymhwyso i bob un o'r celloedd">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Maint">
 <!ENTITY pixels.label                     "picseli">
 <!ENTITY backgroundColor.label            "Lliw Cefndir:">

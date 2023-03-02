@@ -59,7 +59,7 @@ vcard-tel-header = Rhifau Ffôn
 vcard-tel-add = Ychwanegu rhif ffôn
 vcard-tel-label = Rhif ffôn
 # Or "Mobile"
-vcard-entry-type-cell = Cell
+vcard-entry-type-cell = Symudol
 vcard-entry-type-fax = Ffacs
 vcard-entry-type-pager = Swnyn
 
