@@ -46,7 +46,7 @@
 <!ENTITY helpus.donateLink          "Faça uma doação">
 <!ENTITY helpus.middle              " ou ">
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to https://www.thunderbird.net/get-involved/. -->
-<!ENTITY helpus.getInvolvedLink     "envolva-se!">
+<!ENTITY helpus.getInvolvedLink     "participe!">
 <!ENTITY helpus.end                 "">
 
 <!ENTITY releaseNotes.link          "Notas de atualização">

@@ -14,6 +14,7 @@
 <!ENTITY productHelp.label "Ajuda do &brandShortName;">
 <!ENTITY productHelp.accesskey "A">
 
+<!-- Help Menu -->
 <!ENTITY productHelp.commandkey "VK_F1">
 <!ENTITY productHelpMac.commandkey "?">
 <!ENTITY productHelpMac.modifiers "atalho">
@@ -27,7 +28,7 @@
 <!ENTITY helpShowTour2.label "Tutorial do &brandShorterName;">
 <!ENTITY helpShowTour2.accesskey "u">
 
-<!ENTITY helpGetInvolvedPage.label "Envolva-se">
+<!ENTITY helpGetInvolvedPage.label "Participe">
 <!ENTITY helpGetInvolvedPage.accesskey "n">
 
 <!ENTITY helpDonationsPage.label "Faça uma doação">
