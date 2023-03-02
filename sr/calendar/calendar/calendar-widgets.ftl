@@ -11,9 +11,29 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Календари
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-tooltip =
+    .title = Опција { $calendarName } календара
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } календар је утишан
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Опције { $calendarName } календара
+calendar-import-new-calendar = Нови календар…
+    .title = Направи или се претплати на нови календар
+calendar-refresh-calendars =
+    .title = Поново учитај све календаре и синхронизуј измене
+calendar-new-event-primary-button = Нови догађај
+calendar-new-task-primary-button = Нови задатак
 
 ## Calendar navigation
 
+calendar-today-button-tooltip =
+    .title = Иди на данас
 calendar-view-toggle-day = Дан
     .title = Пређи на преглед по данима
 calendar-view-toggle-week = Недеља
@@ -22,3 +42,14 @@ calendar-view-toggle-multiweek = Више недеља
     .title = Пређи на више недељни преглед
 calendar-view-toggle-month = Месец
     .title = Пређи на преглед по месецима
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Опције распореда календара
+calendar-find-events-menu-option =
+    .label = Окно за претрагу догађаја
+calendar-hide-weekends-option =
+    .label = Само радни дани
+calendar-define-workweek-option =
+    .label = Дефиниши радне дане
