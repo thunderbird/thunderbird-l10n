@@ -7,7 +7,7 @@
 <!ENTITY event.dialog.keepDurationButton.tooltip   "Cadw'r cyfnod wrth newid y dyddiad gorffen">
 <!ENTITY event.dialog.keepDurationButton.accesskey "K">
 
-<!ENTITY newevent.from.label                "Oddi wrth" >
+<!ENTITY newevent.from.label                "O" >
 <!ENTITY newevent.to.label                  "At" >
 
 <!ENTITY newevent.status.label                    "Statws" >
@@ -206,7 +206,7 @@
 <!ENTITY task.from.accesskey                              "C">
 <!ENTITY event.to.label                                   "Gorffen:" >
 <!ENTITY event.to.accesskey                               "o">
-<!ENTITY task.to.label                                    "Erbyn Dyddiad:" >
+<!ENTITY task.to.label                                    "Dyddiad Gorffen:" >
 <!ENTITY task.to.accesskey                                "E">
 <!ENTITY task.status.label                                "Statws:" >
 <!ENTITY task.status.accesskey                            "S">

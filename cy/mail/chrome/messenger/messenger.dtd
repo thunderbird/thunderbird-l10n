@@ -111,7 +111,7 @@
 <!ENTITY menuFavoriteFolder.label "Hoff Ffolder">
 <!ENTITY menuFavoriteFolder.accesskey "H">
 <!ENTITY folderPropsCmd2.label "Priodweddau">
-<!ENTITY folderPropsFolderCmd2.label "Priodweddau Ffolder">
+<!ENTITY folderPropsFolderCmd2.label "Priodweddau Ffolderi">
 <!ENTITY folderPropsNewsgroupCmd2.label "Priodweddau Grŵp Newyddion">
 <!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Dadwneud Dileu Negeseuon">

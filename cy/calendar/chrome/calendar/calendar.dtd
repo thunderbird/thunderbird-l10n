@@ -130,7 +130,7 @@
 <!ENTITY calendar.task.filter.current.accesskey     "u">
 
 <!ENTITY calendar.task-details.title.label           "teitl">
-<!ENTITY calendar.task-details.organizer.label       "oddi wrth">
+<!ENTITY calendar.task-details.organizer.label       "o">
 <!ENTITY calendar.task-details.priority.label        "blaenoriaeth">
 <!ENTITY calendar.task-details.priority.low.label    "Isel">
 <!ENTITY calendar.task-details.priority.normal.label "Arferol">

@@ -26,7 +26,7 @@
 <!ENTITY PagerNumber.accesskey                 "w">
 <!ENTITY FaxNumber.label                       "Ffacs">
 <!ENTITY FaxNumber.accesskey                   "F">
-<!ENTITY HomePhone.label                       "Ffôn Cartref">
+<!ENTITY HomePhone.label                       "Rhif Ffôn Cartref">
 <!ENTITY HomePhone.accesskey                   "F">
 <!ENTITY WorkPhone.label                       "Ffôn Gwaith">
 <!ENTITY WorkPhone.accesskey                   "G">
