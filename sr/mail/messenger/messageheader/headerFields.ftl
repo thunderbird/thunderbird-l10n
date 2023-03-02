@@ -11,7 +11,7 @@ message-header-sender-list-name = Пошиљалац
 message-header-reply-to-list-name = Одговор за
 message-header-cc-list-name = Коп
 message-header-bcc-list-name = сКоп
-message-header-newsgroups-list-name = Интересна група
+message-header-newsgroups-list-name = Новинска група
 message-header-tags-list-name = Ознаке
 
 ## Other message headers.

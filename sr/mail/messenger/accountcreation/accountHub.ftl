@@ -27,7 +27,7 @@ account-hub-calendar-button = Подесите календар
 account-hub-address-book-button = Подесите именик
 account-hub-chat-button = Подесите ћаскање
 account-hub-feed-button = Подесите RSS фид
-account-hub-newsgroup-button = Подесите интересну групу
+account-hub-newsgroup-button = Подесите новинску групу
 account-hub-import-button = Увезите профил
 
 ## Initial setup page
@@ -42,8 +42,8 @@ account-hub-chat-setup-button = Ћаскање
     .title = Подесите налог за ћаскање
 account-hub-feed-setup-button = RSS фид
     .title = Подесите налог за RSS фид
-account-hub-newsgroup-setup-button = Интересна група
-    .title = Подесите налог за интересну групу
+account-hub-newsgroup-setup-button = Новинска група
+    .title = Подесите налог за новинску групу
 account-hub-import-setup-button = Увезите
     .title = Увезите резервну копију профила
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
