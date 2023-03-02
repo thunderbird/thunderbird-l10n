@@ -12,7 +12,7 @@
 
 <!ENTITY locationpage.description         "Darparwch y wybodaeth angenrheidiol ar gyfer cael mynediad at eich calendr pell" >
 <!ENTITY locationpage.login.description   "Dewisol: rhowch enw defnyddiwr a chyfrinair" >
-<!ENTITY locationpage.username.label      "Enw defnyddiwr:" >
+<!ENTITY locationpage.username.label      "Enw Defnyddiwr:" >
 <!ENTITY locationpage.password.label      "Cyfrinair:" >
 
 <!ENTITY custompage.shortdescription  "Cyfaddasu eich calendr" >

@@ -39,7 +39,7 @@
 <!-- Subscription Dialog -->
 <!ENTITY button.addFeed.label        "Ychwanegu">
 <!ENTITY button.addFeed.accesskey    "Y">
-<!ENTITY button.verifyFeed.label     "Dilysu">
+<!ENTITY button.verifyFeed.label     "Gwirio">
 <!ENTITY button.verifyFeed.accesskey "D">
 <!ENTITY button.updateFeed.label     "Diweddaru">
 <!ENTITY button.updateFeed.accesskey "D">
