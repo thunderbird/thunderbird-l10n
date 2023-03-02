@@ -92,7 +92,7 @@ vcard-date-year = Blwyddyn
 
 vcard-adr-header = Cyfeiriadau
 vcard-adr-add = Ychwanegu cyfeiriad
-vcard-adr-label = Cyfeiriadau
+vcard-adr-label = Cyfeiriad
 vcard-adr-delivery-label = Label dosbarthu
 vcard-adr-street = Cyfeiriad stryd
 # Or "Locality"

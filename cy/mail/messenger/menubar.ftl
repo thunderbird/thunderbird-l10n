@@ -57,13 +57,13 @@ menu-help-about-product =
 menu-quit =
     .label =
         { PLATFORM() ->
-            [windows] Gadael
+            [windows] Gorffen
            *[other] Gadael
         }
     .accesskey =
         { PLATFORM() ->
             [windows] G
-           *[other] G
+           *[other] a
         }
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =

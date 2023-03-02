@@ -86,7 +86,7 @@ update-in-progress-ok-button = &Dileu
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Parhau
-account-button = Gosodiadau'r Cyfrif
+account-button = Gosodiadau Cyfrif
 open-addons-sidebar-button = Ychwanegion a Themâu
 
 ## OS Authentication dialog
@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Ychwanegu Darparwr OpenSearch
 add-opensearch-provider-text = Rhowch URL y darparwr OpenSearch i'w ychwanegu. Naill ai defnyddiwch URL uniongyrchol y ffeil OpenSearch Description, neu URL lle mae modd ei ddarganfod yn awtomatig.
 adding-opensearch-provider-failed-title = Methodd Ychwanegu Darparwr OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Nid oedd modd ychwanegu OpenSearch Provider ar gyfer { $url }.
 minimize-to-tray-label =
     .label = Pan fydd { -brand-short-name } wedi ei leihau, ei symud i'r dror

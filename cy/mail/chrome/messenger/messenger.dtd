@@ -489,7 +489,7 @@
 <!ENTITY exportCmd.accesskey "A">
 <!ENTITY clearRecentHistory.label "Clirio Hanes Diweddar…">
 <!ENTITY clearRecentHistory.accesskey "H">
-<!ENTITY accountManagerCmd2.label "Gosodiadau'r Cyfrif">
+<!ENTITY accountManagerCmd2.label "Gosodiadau Cyfrif">
 <!ENTITY accountManagerCmd2.accesskey "G">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
@@ -919,7 +919,7 @@
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Lleihau">
 <!ENTITY minimizeWindow.key "m">
-<!ENTITY bringAllToFront.label "Dwyn y Cyfan i'r Blaen">
+<!ENTITY bringAllToFront.label "Dod â'r Cyfan i'r Blaen">
 <!ENTITY zoomWindow.label "Chwyddo">
 
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
