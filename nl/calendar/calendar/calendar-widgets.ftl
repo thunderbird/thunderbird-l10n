@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Vorige maand
     .accesskey = r
+calendar-nav-button-prev-tooltip-year =
+    .title = Vorig jaar
+    .accesskey = r
 calendar-nav-button-next-tooltip-day =
     .title = Volgende dag
     .accesskey = l
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Volgende maand
     .accesskey = l
+calendar-nav-button-next-tooltip-year =
+    .title = Volgend jaar
+    .accesskey = l
 calendar-today-button-tooltip =
     .title = Naar vandaag gaan
 calendar-view-toggle-day = Dag
@@ -66,3 +72,12 @@ calendar-view-toggle-multiweek = Meerdere weken
     .title = Wisselen naar overzicht van meerdere weken
 calendar-view-toggle-month = Maand
     .title = Wisselen naar maandoverzicht
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Kalenderopmaakopties
+calendar-hide-weekends-option =
+    .label = Alleen werkdagen
+calendar-define-workweek-option =
+    .label = Werkdagen definiëren
