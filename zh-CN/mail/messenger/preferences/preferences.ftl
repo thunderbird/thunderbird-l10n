@@ -705,7 +705,7 @@ preview-label = 预览：
 no-preview-label = 没有预览可用
 no-preview-description = 此主题无效或目前不可用（原因例如：已被禁用、处在安全模式，……）。
 chat-variant-label =
-    .value = 风格
+    .value = 配色
     .accesskey = V
 # This is used to determine the width of the search field in about:preferences,
 # in order to make the entire placeholder string visible
