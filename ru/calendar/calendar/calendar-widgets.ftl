@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Предыдущий месяц
     .accesskey = ы
+calendar-nav-button-prev-tooltip-year =
+    .title = Предыдущий год
+    .accesskey = ы
 calendar-nav-button-next-tooltip-day =
     .title = Следующий день
     .accesskey = л
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Следующий месяц
     .accesskey = л
+calendar-nav-button-next-tooltip-year =
+    .title = Следующий год
+    .accesskey = л
 calendar-today-button-tooltip =
     .title = Перейти на сегодня
 calendar-view-toggle-day = День
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = По неделям
     .title = Перейти к обзору по неделям
 calendar-view-toggle-month = Месяц
     .title = Перейти к обзору месяца
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Настройки оформления календаря
+calendar-find-events-menu-option =
+    .label = Панель «Найти события»
+calendar-hide-weekends-option =
+    .label = Только рабочие дни
+calendar-define-workweek-option =
+    .label = Определить рабочие дни
