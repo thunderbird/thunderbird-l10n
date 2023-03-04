@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Napraw kodowanie tekstu
     .accesskey = k
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Nagłówek panelu folderów
+    .accesskey = N
+
 ## View / Layout
 
 menu-font-size-label =
