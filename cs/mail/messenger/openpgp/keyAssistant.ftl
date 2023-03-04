@@ -74,6 +74,8 @@ openpgp-key-assistant-this-key-accepted-expired = Tento klíč byl dříve přij
 openpgp-key-assistant-key-unaccepted-expired-one = Platnost klíče vypršela { $date }.
 openpgp-key-assistant-key-unaccepted-expired-many = Platnost několika klíčů vypršela.
 openpgp-key-assistant-key-fingerprint = Otisk
+# Variables:
+# $count (Number) - Number of key sources.
 openpgp-key-assistant-key-source =
     { $count ->
         [one] Zdroj
@@ -86,6 +88,10 @@ openpgp-key-assistant-key-collected-autocrypt = Záhlaví Autocrypt
 openpgp-key-assistant-key-collected-keyserver = server klíčů
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Webový adresář klíčů
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = Klíčenka GnuPG
+# Variables:
+# $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =
     { $count ->
         [one] Klíč byl nalezen, ale dosud nebyl akceptován.

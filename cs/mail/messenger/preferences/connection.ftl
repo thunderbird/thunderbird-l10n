@@ -21,6 +21,8 @@ connection-dialog-window =
             [macos] width: 44em !important
            *[other] width: 49em !important
         }
+connection-dialog-window2 =
+    .title = Nastavení připojení
 disable-extension-button = Zakázat rozšíření
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.

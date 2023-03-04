@@ -7,6 +7,14 @@ calendar-deactivated-notification-tasks = Všechny vaše kalendáře jsou v tuto
 calendar-notifications-label = Zobrazit oznámení pro nadcházející události
 calendar-add-notification-button =
     .label = Přidat oznámení
+
+## Side panel
+
+calendar-new-event-primary-button = Nová událost
+calendar-new-task-primary-button = Nový úkol
+
+## Calendar navigation
+
 calendar-view-toggle-day = Den
     .title = Přepne do denního pohledu
 calendar-view-toggle-week = Týden
@@ -15,3 +23,6 @@ calendar-view-toggle-multiweek = Vícetýden
     .title = Přepne do vícetýdenního pohledu
 calendar-view-toggle-month = Měsíc
     .title = Přepne do měsíčního pohledu
+
+## Menu on calendar control bar
+

@@ -112,8 +112,17 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Najít klíče na internetu
     .accesskey = i
+openpgp-key-man-publish-cmd =
+    .label = Publikovat
+    .accesskey = P
 openpgp-key-man-discover-prompt = Pro nalezení klíčů OpenPGP na serverech klíčů nebo pomocí protokolu WKD zadejte buď e-mailovou adresu nebo ID klíče.
 openpgp-key-man-discover-progress = Hledání…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Veřejný klíč byl poslaný na server "{ $keyserver }".
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Váš veřejný klíč se na server "{ $keyserver }" nepodařilo poslat.
 openpgp-key-copy-key =
     .label = Kopírovat veřejný klíč
     .accesskey = K
