@@ -114,6 +114,17 @@ quick-filter-bar-gloda-upsell-line1 = Kontynuuj wyszukiwanie w pozostałych fol
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Aby kontynuować wyszukiwanie dla: „{ $text }” należy ponownie wcisnąć Enter
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Pobierz wiadomości
+folder-pane-write-message-button = Nowa wiadomość
+    .title = Napisz nową wiadomość
+folder-pane-more-menu-button =
+    .title = Opcje panelu folderów
+folder-pane-header-context-hide =
+    .label = Ukryj nagłówek panelu folderów
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -124,6 +135,8 @@ threadpane-column-header-deselect-all =
     .title = Odznacz wszystkie wiadomości
 threadpane-column-label-select =
     .label = Zaznacz wiadomości
+threadpane-column-header-thread =
+    .title = Przełącz wątki wiadomości
 threadpane-column-label-thread =
     .label = Wątek
 threadpane-column-header-flagged =
@@ -134,6 +147,14 @@ threadpane-column-header-attachments =
     .title = Sortowanie według załącznika
 threadpane-column-label-attachments =
     .label = Załączniki
+threadpane-column-header-spam =
+    .title = Sortowanie według stanu niechcianej poczty
+threadpane-column-label-spam =
+    .label = Niechciana poczta
+threadpane-column-header-unread-button =
+    .title = Sortowanie według stanu przeczytania
+threadpane-column-label-unread-button =
+    .label = Stan przeczytania
 threadpane-column-header-sender = Nadawca
     .title = Sortowanie według nadawcy
 threadpane-column-label-sender =
@@ -201,6 +222,30 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Wskaźnik nowej wiadomości
+    .title = Nowa wiadomość
+threadpane-message-replied =
+    .alt = Wskaźnik odpowiedzi
+    .title = Odpowiedziano na wiadomość
+threadpane-message-redirected =
+    .alt = Wskaźnik przekierowania
+    .title = Wiadomość została przekierowana
+threadpane-message-forwarded =
+    .alt = Wskaźnik przekazania
+    .title = Wiadomość została przekazana
+threadpane-message-replied-forwarded =
+    .alt = Wskaźnik odpowiedzi i przekazania
+    .title = Odpowiedziano na wiadomość i ją przekazano
+threadpane-message-replied-redirected =
+    .alt = Wskaźnik odpowiedzi i przekierowania
+    .title = Odpowiedziano na wiadomość i ją przekierowano
+threadpane-message-forwarded-redirected =
+    .alt = Wskaźnik przekazania i przekierowania
+    .title = Wiadomość została przekazana i przekierowana
+threadpane-message-replied-forwarded-redirected =
+    .alt = Wskaźnik odpowiedzi, przekazania i przekierowania
+    .title = Odpowiedziano na wiadomość, przekazano ją i przekierowano
 apply-columns-to-menu =
     .label = Zastosuj ustawienia do…
 apply-current-view-to-menu =
