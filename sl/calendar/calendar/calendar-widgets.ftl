@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Prejšnji mesec
     .accesskey = P
+calendar-nav-button-prev-tooltip-year =
+    .title = Prejšnje leto
+    .accesskey = P
 calendar-nav-button-next-tooltip-day =
     .title = Naslednji dan
     .accesskey = N
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Naslednji mesec
     .accesskey = N
+calendar-nav-button-next-tooltip-year =
+    .title = Naslednje leto
+    .accesskey = N
 calendar-today-button-tooltip =
     .title = Pojdi na današnji dan
 calendar-view-toggle-day = Dan
@@ -66,3 +72,14 @@ calendar-view-toggle-multiweek = Več tednov
     .title = Preklopi na večtedenski pogled
 calendar-view-toggle-month = Mesec
     .title = Preklopi na mesečni pogled
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Možnosti postavitve koledarja
+calendar-find-events-menu-option =
+    .label = Podokno za iskanje dogodkov
+calendar-hide-weekends-option =
+    .label = Le delovni dnevi
+calendar-define-workweek-option =
+    .label = Določi delovne dneve
