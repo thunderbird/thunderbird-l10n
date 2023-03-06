@@ -82,4 +82,4 @@ calendar-find-events-menu-option =
 calendar-hide-weekends-option =
     .label = 僅顯示工作日
 calendar-define-workweek-option =
-    .label = 定義工作週的天數
+    .label = 設定每週工作日
