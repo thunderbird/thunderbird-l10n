@@ -19,7 +19,7 @@ menu-addons-and-themes =
 
 menu-help-help-title =
     .label = Aide
-    .accesskey = A
+    .accesskey = e
 menu-help-get-help =
     .label = Obtenir de l’aide
     .accesskey = O
