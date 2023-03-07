@@ -7,6 +7,12 @@ calendar-deactivated-notification-tasks = Tut ils chalenders èn actualmain deac
 calendar-notifications-label = Mussar avis per ils proxims eveniments
 calendar-add-notification-button =
     .label = Agiuntar in avis
+
+## Side panel
+
+
+## Calendar navigation
+
 calendar-view-toggle-day = Di
     .title = Mussar la vista dal di
 calendar-view-toggle-week = Emna
@@ -15,3 +21,33 @@ calendar-view-toggle-multiweek = Pliras emnas
     .title = Mussar la vista da pliras emnas
 calendar-view-toggle-month = Mais
     .title = Mussar la vista dal mais
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Ultim di
+    .accesskey = U
+calendar-context-menu-previous-week =
+    .label = Ultima emna
+    .accesskey = U
+calendar-context-menu-previous-multiweek =
+    .label = Ultima emna
+    .accesskey = U
+calendar-context-menu-previous-month =
+    .label = Ultim mais
+    .accesskey = U
+calendar-context-menu-next-day =
+    .label = Proxim di
+    .accesskey = P
+calendar-context-menu-next-week =
+    .label = Proxima emna
+    .accesskey = P
+calendar-context-menu-next-multiweek =
+    .label = Proxima emna
+    .accesskey = P
+calendar-context-menu-next-month =
+    .label = Proxim mais
+    .accesskey = P
