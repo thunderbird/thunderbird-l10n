@@ -668,7 +668,7 @@
 <!ENTITY searchSubjectOrFromMenu.label "Assunto ou De">
 <!ENTITY searchRecipient.label "Para ou Cc">
 <!ENTITY searchSubjectOrRecipientMenu.label "Assunto, Para ou Cc">
-<!ENTITY searchMessageBody.label "Texto da mensagem">
+<!ENTITY searchMessageBody.label "Mensagem inteira">
 <!ENTITY saveAsVirtualFolderMenu.label "Salvar pesquisa como pasta…">
 
 <!-- Thread Pane -->
@@ -710,8 +710,8 @@
 <!ENTITY statusColumn2.tooltip "Ordenar por status">
 <!ENTITY sizeColumn2.tooltip "Ordenar por tamanho">
 <!ENTITY junkStatusColumn2.tooltip "Ordenar por status de spam">
-<!ENTITY unreadColumn2.tooltip "Número de mensagens não lidas na discussão">
-<!ENTITY totalColumn2.tooltip "Número total de mensagens na discussão">
+<!ENTITY unreadColumn2.tooltip "Número de mensagens não lidas no tópico">
+<!ENTITY totalColumn2.tooltip "Número total de mensagens no tópico">
 <!ENTITY readColumn2.tooltip "Ordenar por lidas">
 <!ENTITY receivedColumn2.tooltip "Ordenar por data de recebimento">
 <!ENTITY starredColumn2.tooltip "Ordenar por estrela">
@@ -722,7 +722,7 @@
 
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Nova mensagem do modelo">
-<!ENTITY contextOpenNewWindow.label "Abrir em nova janela">
+<!ENTITY contextOpenNewWindow.label "Abrir mensagem em nova janela">
 <!ENTITY contextOpenNewWindow.accesskey "A">
 <!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with
      cutCmd.accessKey which is defined in textcontext.dtd from toolkit. Right
@@ -777,8 +777,8 @@
      Watch Thread. Localizers can pick a suitable key
   -->
 <!ENTITY contextWatchThreadMenu.accesskey "">
-<!ENTITY contextSaveAs.label "Salvar como arquivo…">
-<!ENTITY contextSaveAs.accesskey "l">
+<!ENTITY contextSaveAs.label "Salvar como…">
+<!ENTITY contextSaveAs.accesskey "S">
 <!ENTITY contextPrint.label "Imprimir…">
 <!ENTITY contextPrint.accesskey "I">
 <!ENTITY contextPrintPreview.label "Visualizar impressão">
@@ -825,9 +825,9 @@
 <!ENTITY columnPicker.thisFolder.label "Esta pasta">
 
 <!-- Media (video/audio) controls -->
-<!ENTITY contextPlay.label "Executar">
-<!ENTITY contextPlay.accesskey "x">
-<!ENTITY contextPause.label "Pausa">
+<!ENTITY contextPlay.label "Reproduzir">
+<!ENTITY contextPlay.accesskey "R">
+<!ENTITY contextPause.label "Pausar">
 <!ENTITY contextPause.accesskey "P">
 <!ENTITY contextMute.label "Silenciar">
 <!ENTITY contextMute.accesskey "S">
@@ -895,9 +895,9 @@
 
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Salvar link como…">
-<!ENTITY saveLinkAsCmd.accesskey "S">
+<!ENTITY saveLinkAsCmd.accesskey "k">
 <!ENTITY saveImageAsCmd.label "Salvar imagem como…">
-<!ENTITY saveImageAsCmd.accesskey "i">
+<!ENTITY saveImageAsCmd.accesskey "v">
 <!ENTITY copyLinkCmd.label "Copiar link">
 <!ENTITY copyLinkCmd.accesskey "o">
 <!ENTITY copyImageAllCmd.label "Copiar imagem">
@@ -919,7 +919,7 @@
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Minimizar">
 <!ENTITY minimizeWindow.key "M">
-<!ENTITY bringAllToFront.label "Trazer Todas para Frente">
+<!ENTITY bringAllToFront.label "Trazer tudo para frente">
 <!ENTITY zoomWindow.label "Zoom">
 
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
@@ -928,12 +928,12 @@
 <!ENTITY preferencesCmdMac.modifiers    "accel">
 <!ENTITY servicesMenuMac.label          "Serviços">
 <!ENTITY hideThisAppCmdMac.label        "Ocultar &brandShortName;">
-<!ENTITY hideThisAppCmdMac.commandkey   "H">
+<!ENTITY hideThisAppCmdMac.commandkey   "O">
 <!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "Ocultar Outros">
-<!ENTITY hideOtherAppsCmdMac.commandkey "H">
+<!ENTITY hideOtherAppsCmdMac.label      "Ocultar outros">
+<!ENTITY hideOtherAppsCmdMac.commandkey "O">
 <!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Mostrar Tudo">
+<!ENTITY showAllAppsCmdMac.label        "Mostrar tudo">
 
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "Opções de ícone do aplicativo…">
