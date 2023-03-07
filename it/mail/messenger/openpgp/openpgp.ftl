@@ -28,7 +28,7 @@ e2e-encrypt-drafts =
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =
     .label = Invia le chiavi pubbliche OpenPGP nelle intestazioni delle email per compatibilità con Autocrypt
-    .accesskey = t
+    .accesskey = G
 openpgp-key-user-id-label = Account/ID utente
 openpgp-keygen-title-label =
     .title = Genera chiave OpenPGP
