@@ -374,7 +374,7 @@
 <!ENTITY moveMsgToMenu.accesskey "M">
 <!ENTITY moveCopyMsgRecentMenu.label "Recentes">
 <!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "Copiar endereço da mensagem">
+<!ENTITY copyMessageLocation.label "Copiar local da mensagem">
 <!ENTITY copyMessageLocation.accesskey "m">
 <!ENTITY copyMsgToMenu.label "Copiar para">
 <!ENTITY copyMsgToMenu.accesskey "p">
@@ -463,7 +463,7 @@
 <!ENTITY imAccountsStatus.label "Status em conversas">
 <!ENTITY imAccountsStatus.accesskey "v">
 <!ENTITY imStatus.available          "Disponível">
-<!ENTITY imStatus.unavailable        "Ocupado">
+<!ENTITY imStatus.unavailable        "Não disponível">
 <!ENTITY imStatus.offline            "Desconectado">
 <!ENTITY imStatus.showAccounts       "Mostrar contas…">
 <!ENTITY joinChatCmd.label "Entrar em uma conversa…">
@@ -536,7 +536,7 @@
 <!ENTITY addressBookButton.label "Catálogo">
 <!ENTITY chatButton.label "Conversa">
 <!ENTITY glodaSearch.title "Pesquisa global">
-<!ENTITY searchItem.title "Campo de pesquisa">
+<!ENTITY searchItem.title "Pesquisa rápida">
 <!ENTITY mailViewsToolbarItem.title "Modos de visualização">
 <!ENTITY folderLocationToolbarItem.title "Local da pasta">
 <!ENTITY tagButton.label "Etiquetas">
@@ -546,15 +546,15 @@
 <!-- Mail Toolbar Tooltips-->
 <!ENTITY advancedButton.tooltip "Mais opções de pesquisa">
 <!ENTITY getMsgButton.tooltip "Receber mensagens desta conta">
-<!ENTITY getAllNewMsgCmd.label "Todas as contas">
-<!ENTITY getAllNewMsgCmd.accesskey "T">
+<!ENTITY getAllNewMsgCmd.label "Receber de todas as contas">
+<!ENTITY getAllNewMsgCmd.accesskey "t">
 <!ENTITY newMsgButton.tooltip "Nova mensagem">
 <!ENTITY replyButton.tooltip "Responder mensagem">
 <!ENTITY replyAllButton.tooltip "Responder ao remetente e a todos os destinatários">
 <!ENTITY replyListButton.tooltip "Responder à lista de emails">
 <!ENTITY forwardButton.tooltip "Encaminhar mensagem selecionada">
-<!ENTITY forwardAsInline.tooltip "Reencaminhar mensagem selecionada como texto">
-<!ENTITY forwardAsAttachment.tooltip "Reencaminhar mensagem selecionada como anexo">
+<!ENTITY forwardAsInline.tooltip "Encaminhar mensagem selecionada como texto">
+<!ENTITY forwardAsAttachment.tooltip "Encaminhar mensagem selecionada como anexo">
 <!ENTITY fileButton.tooltip "Mover mensagem selecionada para outra pasta">
 <!ENTITY archiveButton.tooltip "Arquivar mensagens selecionadas">
 <!ENTITY openMsgConversationButton.tooltip "Mostrar conversa da mensagem selecionada">
@@ -565,7 +565,7 @@
 <!ENTITY goForwardButton.tooltip "Próxima mensagem">
 <!ENTITY goBackButton.tooltip "Mensagem anterior">
 <!ENTITY markButton.tooltip "Marcar mensagens">
-<!ENTITY printButton.tooltip "Imprimir a mensagem">
+<!ENTITY printButton.tooltip "Imprimir esta mensagem">
 <!ENTITY stopButton.tooltip "Interromper a transferência atual">
 <!ENTITY addressBookButton.tooltip "Catálogo de endereços">
 <!ENTITY chatButton.tooltip "Mostrar a aba de conversa">
@@ -597,7 +597,7 @@
 <!ENTITY appmenuNewMsgCmd.label "Nova mensagem">
 <!ENTITY appmenuNewContactCmd.label "Contato no catálogo de endereços…">
 <!ENTITY appmenuEditMenu.label "Editar">
-<!ENTITY appmenuToolbarLayout.label "Personalizar barras…">
+<!ENTITY appmenuToolbarLayout.label "Personalizar barra de ferramentas…">
 <!ENTITY appmenuSelectThread.label "Selecionar tópico">
 <!ENTITY appmenuSelectFlagged.label "Selecionar mensagens com estrela">
 
