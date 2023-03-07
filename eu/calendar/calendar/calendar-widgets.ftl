@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Lan aste egunak bakarrik
 calendar-define-workweek-option =
     .label = Definitu asteko lan egunak
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Aurreko eguna
+    .accesskey = A
+calendar-context-menu-previous-week =
+    .label = Aurreko astea
+    .accesskey = A
+calendar-context-menu-previous-multiweek =
+    .label = Aurreko astea
+    .accesskey = A
+calendar-context-menu-previous-month =
+    .label = Aurreko hilabetea
+    .accesskey = A
+calendar-context-menu-next-day =
+    .label = Hurrengo eguna
+    .accesskey = H
+calendar-context-menu-next-week =
+    .label = Hurrengo astea
+    .accesskey = H
+calendar-context-menu-next-multiweek =
+    .label = Hurrengo astea
+    .accesskey = H
+calendar-context-menu-next-month =
+    .label = Hurrengo hilabetea
+    .accesskey = H
