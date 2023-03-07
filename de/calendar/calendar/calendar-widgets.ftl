@@ -7,6 +7,12 @@ calendar-deactivated-notification-tasks = Derzeit sind alle Kalender deaktiviert
 calendar-notifications-label = Benachrichtigungen für demnächst anstehende Termine anzeigen
 calendar-add-notification-button =
     .label = Benachrichtigung hinzufügen
+
+## Side panel
+
+
+## Calendar navigation
+
 calendar-view-toggle-day = Tag
     .title = Zur Tagesansicht wechseln
 calendar-view-toggle-week = Woche
@@ -15,3 +21,33 @@ calendar-view-toggle-multiweek = Mehrere Wochen
     .title = Zur mehrwöchigen Ansicht wechseln
 calendar-view-toggle-month = Monat
     .title = Zur Monatsansicht wechseln
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Vorheriger Tag
+    .accesskey = V
+calendar-context-menu-previous-week =
+    .label = Vorherige Woche
+    .accesskey = V
+calendar-context-menu-previous-multiweek =
+    .label = Vorherige Woche
+    .accesskey = V
+calendar-context-menu-previous-month =
+    .label = Vorheriger Monat
+    .accesskey = V
+calendar-context-menu-next-day =
+    .label = Nächster Tag
+    .accesskey = N
+calendar-context-menu-next-week =
+    .label = Nächste Woche
+    .accesskey = N
+calendar-context-menu-next-multiweek =
+    .label = Nächste Woche
+    .accesskey = N
+calendar-context-menu-next-month =
+    .label = Nächster Monat
+    .accesskey = N
