@@ -42,3 +42,33 @@ calendar-view-toggle-multiweek = Multisemana
     .title = Cambiar a vista multisemana
 calendar-view-toggle-month = Mes
     .title = Cambiar a vista por mes
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Día anterior
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = Semana anterior
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = Semana anterior
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = Mes anterior
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = Día siguiente
+    .accesskey = x
+calendar-context-menu-next-week =
+    .label = Próxima semana
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = Próxima semana
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = Próximo mes
+    .accesskey = x
