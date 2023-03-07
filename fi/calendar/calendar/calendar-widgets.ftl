@@ -54,3 +54,33 @@ calendar-view-toggle-multiweek = Moniviikko
     .title = Siirry moniviikkonäkymään
 calendar-view-toggle-month = Kuukausi
     .title = Siirry kuukausinäkymään
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Edellinen päivä
+    .accesskey = E
+calendar-context-menu-previous-week =
+    .label = Edellinen viikko
+    .accesskey = E
+calendar-context-menu-previous-multiweek =
+    .label = Edellinen viikko
+    .accesskey = E
+calendar-context-menu-previous-month =
+    .label = Edellinen kuukausi
+    .accesskey = E
+calendar-context-menu-next-day =
+    .label = Seuraava päivä
+    .accesskey = S
+calendar-context-menu-next-week =
+    .label = Seuraava viikko
+    .accesskey = S
+calendar-context-menu-next-multiweek =
+    .label = Seuraava viikko
+    .accesskey = S
+calendar-context-menu-next-month =
+    .label = Seuraava kuukausi
+    .accesskey = S
