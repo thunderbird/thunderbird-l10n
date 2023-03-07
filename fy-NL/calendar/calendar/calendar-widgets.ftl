@@ -66,3 +66,33 @@ calendar-view-toggle-multiweek = Mear wiken
     .title = Wikselje nei oersjoch foar mear wiken
 calendar-view-toggle-month = Moanne
     .title = Wikselje nei moanne-oersjoch
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Foarige dei
+    .accesskey = o
+calendar-context-menu-previous-week =
+    .label = Foarige wike
+    .accesskey = o
+calendar-context-menu-previous-multiweek =
+    .label = Foarige wike
+    .accesskey = o
+calendar-context-menu-previous-month =
+    .label = Foarige moanne
+    .accesskey = o
+calendar-context-menu-next-day =
+    .label = Folgjende dei
+    .accesskey = F
+calendar-context-menu-next-week =
+    .label = Folgjende wike
+    .accesskey = F
+calendar-context-menu-next-multiweek =
+    .label = Folgjende wike
+    .accesskey = F
+calendar-context-menu-next-month =
+    .label = Folgjende moanne
+    .accesskey = F
