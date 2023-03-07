@@ -7,6 +7,9 @@ calendar-deactivated-notification-tasks = Tha gach mìosachan à comas an-dràst
 calendar-notifications-label = Seall brathan airson tachartasan ri thighinn
 calendar-add-notification-button =
     .label = Cuir brath ris
+
+## Side panel
+
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +20,9 @@ calendar-refresh-calendars =
     .title = Ath-luchdaich a h-uile mìosachan is sioncronaich na h-atharraichean
 calendar-new-event-primary-button = Tachartas ùr
 calendar-new-task-primary-button = Saothair ùr
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = An latha roimhe
     .accesskey = n
@@ -51,3 +57,33 @@ calendar-view-toggle-multiweek = Iomadh s.
     .title = Seall dhomh iomadh seachdain còmhla
 calendar-view-toggle-month = Mìos
     .title = Seall dhomh mìos air fad
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = An latha roimhe
+    .accesskey = A
+calendar-context-menu-previous-week =
+    .label = An t-seachdain roimhe
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = An t-seachdain roimhe
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = Am mìos roimhe
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = An ath-latha
+    .accesskey = A
+calendar-context-menu-next-week =
+    .label = An ath-sheachdain
+    .accesskey = A
+calendar-context-menu-next-multiweek =
+    .label = An ath-sheachdain
+    .accesskey = A
+calendar-context-menu-next-month =
+    .label = An ath-mhìos
+    .accesskey = A
