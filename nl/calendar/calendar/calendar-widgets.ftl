@@ -77,6 +77,8 @@ calendar-view-toggle-month = Maand
 
 calendar-control-bar-menu-button =
     .title = Kalenderopmaakopties
+calendar-find-events-menu-option =
+    .label = Paneel Evenementen zoeken
 calendar-hide-weekends-option =
     .label = Alleen werkdagen
 calendar-define-workweek-option =
