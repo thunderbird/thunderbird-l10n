@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Workweek days only
 calendar-define-workweek-option =
     .label = Define workweek days
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Previous Day
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = Previous Week
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = Previous Week
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = Previous Month
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = Next Day
+    .accesskey = x
+calendar-context-menu-next-week =
+    .label = Next Week
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = Next Week
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = Next Month
+    .accesskey = x
