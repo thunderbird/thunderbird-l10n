@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Aðeins vinnudagar
 calendar-define-workweek-option =
     .label = Skilgreina vinnudaga í viku
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Fyrri dagur
+    .accesskey = F
+calendar-context-menu-previous-week =
+    .label = Fyrri vika
+    .accesskey = F
+calendar-context-menu-previous-multiweek =
+    .label = Fyrri vika
+    .accesskey = F
+calendar-context-menu-previous-month =
+    .label = Fyrri mánuður
+    .accesskey = F
+calendar-context-menu-next-day =
+    .label = Næsti dagur
+    .accesskey = æ
+calendar-context-menu-next-week =
+    .label = Næsta vika
+    .accesskey = æ
+calendar-context-menu-next-multiweek =
+    .label = Næsta vika
+    .accesskey = æ
+calendar-context-menu-next-month =
+    .label = Næsti mánuður
+    .accesskey = æ
