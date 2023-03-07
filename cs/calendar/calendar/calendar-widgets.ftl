@@ -26,3 +26,30 @@ calendar-view-toggle-month = Měsíc
 
 ## Menu on calendar control bar
 
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Předchozí den
+    .accesskey = e
+calendar-context-menu-previous-week =
+    .label = Předchozí týden
+    .accesskey = e
+calendar-context-menu-previous-multiweek =
+    .label = Předchozí týden
+    .accesskey = e
+calendar-context-menu-previous-month =
+    .label = Předchozí měsíc
+    .accesskey = e
+calendar-context-menu-next-day =
+    .label = Další den
+    .accesskey = a
+calendar-context-menu-next-week =
+    .label = Další týden
+    .accesskey = a
+calendar-context-menu-next-multiweek =
+    .label = Další týden
+    .accesskey = a
+calendar-context-menu-next-month =
+    .label = Další měsíc
+    .accesskey = a
