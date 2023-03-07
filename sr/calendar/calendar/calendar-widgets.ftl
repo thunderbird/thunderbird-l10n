@@ -53,3 +53,30 @@ calendar-hide-weekends-option =
     .label = Само радни дани
 calendar-define-workweek-option =
     .label = Дефиниши радне дане
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Претходни дан
+    .accesskey = т
+calendar-context-menu-previous-week =
+    .label = Претходна недеља
+    .accesskey = х
+calendar-context-menu-previous-multiweek =
+    .label = Претходна недеља
+    .accesskey = х
+calendar-context-menu-previous-month =
+    .label = Претходни месец
+    .accesskey = ц
+calendar-context-menu-next-day =
+    .label = Следећи дан
+    .accesskey = д
+calendar-context-menu-next-week =
+    .label = Следећа недеља
+    .accesskey = н
+calendar-context-menu-next-multiweek =
+    .label = Следећа недеља
+    .accesskey = н
+calendar-context-menu-next-month =
+    .label = Следећи месец
+    .accesskey = м
