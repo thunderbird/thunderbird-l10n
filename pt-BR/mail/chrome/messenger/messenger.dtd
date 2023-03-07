@@ -42,7 +42,7 @@
 <!ENTITY  newContactCmd.accesskey "C">
 <!ENTITY openMenuCmd.label "Abrir">
 <!ENTITY openMenuCmd.accesskey "A">
-<!ENTITY openMessageFileCmd.label "Abrir arquivo de mensagem…">
+<!ENTITY openMessageFileCmd.label "Abrir mensagem salva…">
 <!ENTITY openMessageFileCmd.accesskey "b">
 <!ENTITY saveAsMenu.label "Salvar como">
 <!ENTITY saveAsMenu.accesskey "a">
@@ -116,12 +116,12 @@
 <!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Desfazer exclusão de mensagem">
 <!ENTITY redoDeleteMsgCmd.label "Refazer exclusão de mensagem">
-<!ENTITY undoMoveMsgCmd.label "Desfazer (Mover mensagem)">
-<!ENTITY redoMoveMsgCmd.label "Refazer (Mover mensagem)">
-<!ENTITY undoCopyMsgCmd.label "Desfazer (Copiar mensagem)">
-<!ENTITY redoCopyMsgCmd.label "Refazer (Copiar mensagem)">
-<!ENTITY undoMarkAllCmd.label "Desfazer (Marcar tudo lido)">
-<!ENTITY redoMarkAllCmd.label "Refazer (Marcar tudo lido)">
+<!ENTITY undoMoveMsgCmd.label "Desfazer mover mensagem">
+<!ENTITY redoMoveMsgCmd.label "Refazer mover mensagem">
+<!ENTITY undoCopyMsgCmd.label "Desfazer copiar mensagem">
+<!ENTITY redoCopyMsgCmd.label "Refazer copiar mensagem">
+<!ENTITY undoMarkAllCmd.label "Desfazer marcar todas como lidas">
+<!ENTITY redoMarkAllCmd.label "Refazer marcar todas como lidas">
 <!ENTITY undoDefaultCmd.label "Desfazer">
 <!ENTITY undoDefaultCmd.accesskey "D">
 <!ENTITY redoDefaultCmd.label "Refazer">
@@ -208,8 +208,8 @@
 <!ENTITY sortUnthreaded.accesskey "N">
 <!ENTITY groupBySort.label "Agrupar pela ordem">
 <!ENTITY groupBySort.accesskey "e">
-<!ENTITY msgsMenu.label "Visualizar">
-<!ENTITY msgsMenu.accesskey "V">
+<!ENTITY msgsMenu.label "Mensagens">
+<!ENTITY msgsMenu.accesskey "M">
 <!ENTITY threads.label "Tópicos">
 <!ENTITY threads.accesskey "T">
 <!ENTITY allMsgsCmd.label "Todos">
@@ -258,7 +258,7 @@
 <!ENTITY viewAttachmentsInlineCmd.label "Exibir anexos na mensagem">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "x">
 
-<!ENTITY pageSourceCmd.label "Código-fonte">
+<!ENTITY pageSourceCmd.label "Código-fonte da mensagem">
 <!ENTITY pageSourceCmd.accesskey "f">
 <!ENTITY pageSourceCmd.key "U">
 <!ENTITY getNewMessagesCmd.key "Y">
