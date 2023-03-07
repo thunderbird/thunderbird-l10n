@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Dyddiau'r wythnos waith yn unig
 calendar-define-workweek-option =
     .label = Diffinio diwrnodau gwaith yr wythnos
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Diwrnod Blaenorol
+    .accesskey = B
+calendar-context-menu-previous-week =
+    .label = Wythnos Flaenorol
+    .accesskey = F
+calendar-context-menu-previous-multiweek =
+    .label = Wythnos Flaenorol
+    .accesskey = F
+calendar-context-menu-previous-month =
+    .label = Mis Blaenorol
+    .accesskey = l
+calendar-context-menu-next-day =
+    .label = Diwrnod Nesaf
+    .accesskey = N
+calendar-context-menu-next-week =
+    .label = Wythnos Nesaf
+    .accesskey = W
+calendar-context-menu-next-multiweek =
+    .label = Wythnos Nesaf
+    .accesskey = W
+calendar-context-menu-next-month =
+    .label = Mis Nesaf
+    .accesskey = M
