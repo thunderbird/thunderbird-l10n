@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Iba pracovné dni
 calendar-define-workweek-option =
     .label = Definovať dni pracovného týždňa
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Predchádzajúci deň
+    .accesskey = e
+calendar-context-menu-previous-week =
+    .label = Predchádzajúci týždeň
+    .accesskey = e
+calendar-context-menu-previous-multiweek =
+    .label = Predchádzajúci týždeň
+    .accesskey = e
+calendar-context-menu-previous-month =
+    .label = Predchádzajúci mesiac
+    .accesskey = e
+calendar-context-menu-next-day =
+    .label = Nasledujúci deň
+    .accesskey = a
+calendar-context-menu-next-week =
+    .label = Nasledujúci týždeň
+    .accesskey = a
+calendar-context-menu-next-multiweek =
+    .label = Nasledujúci týždeň
+    .accesskey = a
+calendar-context-menu-next-month =
+    .label = Nasledujúci mesiac
+    .accesskey = a
