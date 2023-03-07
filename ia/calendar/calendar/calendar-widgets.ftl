@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Septimanal, solo dies de labor
 calendar-define-workweek-option =
     .label = Definir dies de labor del septimana
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Die previe
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = Septimana precedente
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = Septimana precedente
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = Mense precedente
+    .accesskey = m
+calendar-context-menu-next-day =
+    .label = Die successive
+    .accesskey = s
+calendar-context-menu-next-week =
+    .label = Septimana successive
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = Septimana successive
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = Mense successive
+    .accesskey = x
