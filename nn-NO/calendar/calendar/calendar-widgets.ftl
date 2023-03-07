@@ -24,3 +24,33 @@ calendar-view-toggle-multiweek = Fleire veker
     .title = Byt til fleirvekevising
 calendar-view-toggle-month = Månad
     .title = Byt til månadvising
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Førre dag
+    .accesskey = F
+calendar-context-menu-previous-week =
+    .label = Førre veke
+    .accesskey = ø
+calendar-context-menu-previous-multiweek =
+    .label = Førre veke
+    .accesskey = ø
+calendar-context-menu-previous-month =
+    .label = Førre månad
+    .accesskey = r
+calendar-context-menu-next-day =
+    .label = Neste dag
+    .accesskey = N
+calendar-context-menu-next-week =
+    .label = Neste veke
+    .accesskey = e
+calendar-context-menu-next-multiweek =
+    .label = Neste veke
+    .accesskey = e
+calendar-context-menu-next-month =
+    .label = Neste månad
+    .accesskey = s
