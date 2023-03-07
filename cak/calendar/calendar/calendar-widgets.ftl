@@ -45,3 +45,33 @@ calendar-view-toggle-multiweek = K'ïy wuqq'ij
     .title = Tijal rutz'etik pa k'ïy wuqq'ij
 calendar-view-toggle-month = Ik'
     .title = Tijal rutz'etik ik' ik'
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Jun Kan Q'ij
+    .accesskey = K
+calendar-context-menu-previous-week =
+    .label = Jun Kan Wuqq'ij
+    .accesskey = k
+calendar-context-menu-previous-multiweek =
+    .label = Jun Kan Wuqq'ij
+    .accesskey = k
+calendar-context-menu-previous-month =
+    .label = Jun Kan Ik'
+    .accesskey = K
+calendar-context-menu-next-day =
+    .label = Jun chik Q'ij
+    .accesskey = u
+calendar-context-menu-next-week =
+    .label = Jun Chik Apo Wuqq'ij
+    .accesskey = h
+calendar-context-menu-next-multiweek =
+    .label = Jun Chik Apo Wuqq'ij
+    .accesskey = h
+calendar-context-menu-next-month =
+    .label = Ri Jun Chik Ik'
+    .accesskey = h
