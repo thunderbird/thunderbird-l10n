@@ -7,6 +7,9 @@ calendar-deactivated-notification-tasks = Todos los calendarios están desactiva
 calendar-notifications-label = Mostrar notificaciones para eventos futuros
 calendar-add-notification-button =
     .label = Añadir notificación
+
+## Side panel
+
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +20,9 @@ calendar-refresh-calendars =
     .title = Recargar todos los calendarios y sincronizar los cambios
 calendar-new-event-primary-button = Nuevo evento
 calendar-new-task-primary-button = Nueva tarea
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Día anterior
     .accesskey = r
@@ -51,3 +57,33 @@ calendar-view-toggle-multiweek = Multisemana
     .title = Cambiar a vista multisemanal
 calendar-view-toggle-month = Mes
     .title = Cambiar a vista mensual
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Día anterior
+    .accesskey = t
+calendar-context-menu-previous-week =
+    .label = Semana anterior
+    .accesskey = t
+calendar-context-menu-previous-multiweek =
+    .label = Semana anterior
+    .accesskey = t
+calendar-context-menu-previous-month =
+    .label = Mes anterior
+    .accesskey = t
+calendar-context-menu-next-day =
+    .label = Día siguiente
+    .accesskey = s
+calendar-context-menu-next-week =
+    .label = Semana siguiente
+    .accesskey = s
+calendar-context-menu-next-multiweek =
+    .label = Semana siguiente
+    .accesskey = s
+calendar-context-menu-next-month =
+    .label = Mes siguiente
+    .accesskey = s
