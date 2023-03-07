@@ -81,3 +81,30 @@ calendar-hide-weekends-option =
     .label = Sadece iş günleri
 calendar-define-workweek-option =
     .label = İş günlerini tanımla
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Önceki gün
+    .accesskey = n
+calendar-context-menu-previous-week =
+    .label = Önceki hafta
+    .accesskey = c
+calendar-context-menu-previous-multiweek =
+    .label = Önceki hafta
+    .accesskey = c
+calendar-context-menu-previous-month =
+    .label = Önceki ay
+    .accesskey = c
+calendar-context-menu-next-day =
+    .label = Sonraki gün
+    .accesskey = S
+calendar-context-menu-next-week =
+    .label = Sonraki hafta
+    .accesskey = h
+calendar-context-menu-next-multiweek =
+    .label = Sonraki hafta
+    .accesskey = h
+calendar-context-menu-next-month =
+    .label = Sonraki ay
+    .accesskey = n
