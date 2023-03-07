@@ -66,3 +66,33 @@ calendar-view-toggle-multiweek = Πολλές εβδομάδες
     .title = Εναλλαγή σε πολυεβδομαδιαία προβολή
 calendar-view-toggle-month = Μήνας
     .title = Εναλλαγή σε μηνιαία προβολή
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Προηγούμενη ημέρα
+    .accesskey = Π
+calendar-context-menu-previous-week =
+    .label = Προηγούμενη εβδομάδα
+    .accesskey = Π
+calendar-context-menu-previous-multiweek =
+    .label = Προηγούμενη εβδομάδα
+    .accesskey = Π
+calendar-context-menu-previous-month =
+    .label = Προηγούμενος μήνας
+    .accesskey = Π
+calendar-context-menu-next-day =
+    .label = Επόμενη ημέρα
+    .accesskey = Ε
+calendar-context-menu-next-week =
+    .label = Επόμενη εβδομάδα
+    .accesskey = Ε
+calendar-context-menu-next-multiweek =
+    .label = Επόμενη εβδομάδα
+    .accesskey = Ε
+calendar-context-menu-next-month =
+    .label = Επόμενος μήνας
+    .accesskey = Ε
