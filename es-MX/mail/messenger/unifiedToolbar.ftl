@@ -53,6 +53,7 @@ customize-button-style-text-only =
     .label = Solo texto
 customize-cancel = Cancelar
 customize-save = Guardar
+customize-unsaved-changes = Cambios sin guardar en otros espacios
 customize-spaces-tabs =
     .aria-label = Espacios
 customize-main-toolbar-target =
@@ -72,6 +73,8 @@ customize-palette-add-everywhere =
 
 customize-target-remove =
     .label = Eliminar
+customize-target-remove-everywhere =
+    .label = Eliminar de todas las barras
 customize-target-add-everywhere =
     .label = Agregar a todas las barras de herramientas
 customize-target-start =
