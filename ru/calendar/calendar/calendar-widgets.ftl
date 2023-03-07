@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Только рабочие дни
 calendar-define-workweek-option =
     .label = Определить рабочие дни
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Предыдущий день
+    .accesskey = П
+calendar-context-menu-previous-week =
+    .label = Предыдущая неделя
+    .accesskey = П
+calendar-context-menu-previous-multiweek =
+    .label = Предыдущая неделя
+    .accesskey = П
+calendar-context-menu-previous-month =
+    .label = Предыдущий месяц
+    .accesskey = П
+calendar-context-menu-next-day =
+    .label = Следующий день
+    .accesskey = С
+calendar-context-menu-next-week =
+    .label = Следующая неделя
+    .accesskey = С
+calendar-context-menu-next-multiweek =
+    .label = Следующая неделя
+    .accesskey = С
+calendar-context-menu-next-month =
+    .label = Следующий месяц
+    .accesskey = С
