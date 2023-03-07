@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Jano źěłowe dny
 calendar-define-workweek-option =
     .label = Źěłowe dny definěrowaś
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Pjerwjejšny źeń
+    .accesskey = w
+calendar-context-menu-previous-week =
+    .label = Pjerwjejšny tyźeń
+    .accesskey = r
+calendar-context-menu-previous-multiweek =
+    .label = Pjerwjejšny tyźeń
+    .accesskey = r
+calendar-context-menu-previous-month =
+    .label = Pjerwjejšny mjasec
+    .accesskey = w
+calendar-context-menu-next-day =
+    .label = Pśiducy źeń
+    .accesskey = d
+calendar-context-menu-next-week =
+    .label = Pśiducy tyźeń
+    .accesskey = d
+calendar-context-menu-next-multiweek =
+    .label = Pśiducy tyźeń
+    .accesskey = d
+calendar-context-menu-next-month =
+    .label = Pśiducy mjasec
+    .accesskey = d
