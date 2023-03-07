@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Le delovni dnevi
 calendar-define-workweek-option =
     .label = Določi delovne dneve
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Prejšnji dan
+    .accesskey = š
+calendar-context-menu-previous-week =
+    .label = Prejšnji teden
+    .accesskey = š
+calendar-context-menu-previous-multiweek =
+    .label = Prejšnji teden
+    .accesskey = š
+calendar-context-menu-previous-month =
+    .label = Prejšnji mesec
+    .accesskey = š
+calendar-context-menu-next-day =
+    .label = Naslednji dan
+    .accesskey = s
+calendar-context-menu-next-week =
+    .label = Naslednji teden
+    .accesskey = s
+calendar-context-menu-next-multiweek =
+    .label = Naslednji teden
+    .accesskey = s
+calendar-context-menu-next-month =
+    .label = Naslednji mesec
+    .accesskey = s
