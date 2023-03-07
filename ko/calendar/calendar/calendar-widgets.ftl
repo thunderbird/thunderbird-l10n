@@ -7,6 +7,12 @@ calendar-deactivated-notification-tasks = 모든 캘린더가 현재 비활성�
 calendar-notifications-label = 예정된 이벤트에 대한 알림 표시
 calendar-add-notification-button =
     .label = 알림 추가
+
+## Side panel
+
+
+## Calendar navigation
+
 calendar-view-toggle-day = 일별
     .title = 일별 보기로 전환합니다
 calendar-view-toggle-week = 주별
@@ -15,3 +21,33 @@ calendar-view-toggle-multiweek = 여러 주
     .title = 여러 주 보기로 전환합니다
 calendar-view-toggle-month = 월별
     .title = 월별 보기로 전환합니다
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = 이전 일자
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = 이전 주
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = 이전 주
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = 이전 월
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = 다음 일자
+    .accesskey = x
+calendar-context-menu-next-week =
+    .label = 다음 주
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = 다음 주
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = 다음 달
+    .accesskey = x
