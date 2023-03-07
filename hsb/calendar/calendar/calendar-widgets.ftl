@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Jenož dźěłowe dny
 calendar-define-workweek-option =
     .label = Dźěłowe dny definować
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Předchadny dźeń
+    .accesskey = h
+calendar-context-menu-previous-week =
+    .label = Předchadny tydźeń
+    .accesskey = e
+calendar-context-menu-previous-multiweek =
+    .label = Předchadny tydźeń
+    .accesskey = e
+calendar-context-menu-previous-month =
+    .label = Předchadny měsac
+    .accesskey = e
+calendar-context-menu-next-day =
+    .label = Přichodny dźeń
+    .accesskey = c
+calendar-context-menu-next-week =
+    .label = Přichodny tydźeń
+    .accesskey = i
+calendar-context-menu-next-multiweek =
+    .label = Přichodny tydźeń
+    .accesskey = i
+calendar-context-menu-next-month =
+    .label = Přichodny měsac
+    .accesskey = i
