@@ -7,6 +7,12 @@ calendar-deactivated-notification-tasks = Alle kalendere er i øjeblikket deakti
 calendar-notifications-label = Vis beskeder for kommende begivenheder
 calendar-add-notification-button =
     .label = Tilføj besked
+
+## Side panel
+
+
+## Calendar navigation
+
 calendar-view-toggle-day = Dag
     .title = Skift til dagsoversigt
 calendar-view-toggle-week = Uge
@@ -15,3 +21,33 @@ calendar-view-toggle-multiweek = Multiuge
     .title = Skift til multiugeoversigt
 calendar-view-toggle-month = Måned
     .title = Skift til månedoversigt
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Forrige dag
+    .accesskey = F
+calendar-context-menu-previous-week =
+    .label = Forrige uge
+    .accesskey = F
+calendar-context-menu-previous-multiweek =
+    .label = Forrige uge
+    .accesskey = F
+calendar-context-menu-previous-month =
+    .label = Forrige måned
+    .accesskey = F
+calendar-context-menu-next-day =
+    .label = Næste dag
+    .accesskey = æ
+calendar-context-menu-next-week =
+    .label = Næste uge
+    .accesskey = æ
+calendar-context-menu-next-multiweek =
+    .label = Næste uge
+    .accesskey = æ
+calendar-context-menu-next-month =
+    .label = Næste måned
+    .accesskey = æ
