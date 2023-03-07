@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Endast arbetsveckodagar
 calendar-define-workweek-option =
     .label = Definiera arbetsveckodagar
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Föregående dag
+    .accesskey = F
+calendar-context-menu-previous-week =
+    .label = Föregående vecka
+    .accesskey = ö
+calendar-context-menu-previous-multiweek =
+    .label = Föregående vecka
+    .accesskey = ö
+calendar-context-menu-previous-month =
+    .label = Föregående månad
+    .accesskey = r
+calendar-context-menu-next-day =
+    .label = Nästa dag
+    .accesskey = N
+calendar-context-menu-next-week =
+    .label = Nästa vecka
+    .accesskey = ä
+calendar-context-menu-next-multiweek =
+    .label = Nästa vecka
+    .accesskey = ä
+calendar-context-menu-next-month =
+    .label = Nästa månad
+    .accesskey = s
