@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Solo giorni lavorativi
 calendar-define-workweek-option =
     .label = Definisci giorni della settimana lavorativa
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Giorno precedente
+    .accesskey = d
+calendar-context-menu-previous-week =
+    .label = Settimana precedente
+    .accesskey = d
+calendar-context-menu-previous-multiweek =
+    .label = Settimana precedente
+    .accesskey = d
+calendar-context-menu-previous-month =
+    .label = Mese precedente
+    .accesskey = d
+calendar-context-menu-next-day =
+    .label = Giorno successivo
+    .accesskey = s
+calendar-context-menu-next-week =
+    .label = Settimana successiva
+    .accesskey = s
+calendar-context-menu-next-multiweek =
+    .label = Settimana successiva
+    .accesskey = s
+calendar-context-menu-next-month =
+    .label = Mese successivo
+    .accesskey = s
