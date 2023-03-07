@@ -7,6 +7,9 @@ calendar-deactivated-notification-tasks = 現在すべてのカレンダーが�
 calendar-notifications-label = 今後の予定の通知を表示する
 calendar-add-notification-button =
     .label = 通知を追加
+
+## Side panel
+
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
@@ -17,6 +20,9 @@ calendar-refresh-calendars =
     .title = すべてのカレンダーを再読み込みして変更を同期します
 calendar-new-event-primary-button = 新しい予定
 calendar-new-task-primary-button = 新しい ToDo
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = 前の日
     .accesskey = s
@@ -51,3 +57,33 @@ calendar-view-toggle-multiweek = 多週
     .title = 多週表示に切り替えます
 calendar-view-toggle-month = 月
     .title = 月表示に切り替えます
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = 前の日
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = 前の週
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = 前の週
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = 前の月
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = 次の日
+    .accesskey = x
+calendar-context-menu-next-week =
+    .label = 次の週
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = 次の週
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = 次の月
+    .accesskey = x
