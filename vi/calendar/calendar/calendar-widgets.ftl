@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Chỉ hiện các ngày làm việc
 calendar-define-workweek-option =
     .label = Xác định ngày làm việc trong tuần
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Ngày trước
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = Tuần trước
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = Tuần trước
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = Tháng trước
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = Ngày sau
+    .accesskey = x
+calendar-context-menu-next-week =
+    .label = Tuần sau
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = Tuần sau
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = Tháng sau
+    .accesskey = x
