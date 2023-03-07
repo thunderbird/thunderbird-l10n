@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = 僅顯示工作日
 calendar-define-workweek-option =
     .label = 設定每週工作日
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = 前一日
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = 前一週
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = 前一週
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = 上個月
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = 下一日
+    .accesskey = x
+calendar-context-menu-next-week =
+    .label = 下一週
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = 下一週
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = 下個月
+    .accesskey = x
