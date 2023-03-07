@@ -81,3 +81,30 @@ calendar-hide-weekends-option =
     .label = Alleen werkdagen
 calendar-define-workweek-option =
     .label = Werkdagen definiëren
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Vorige dag
+    .accesskey = o
+calendar-context-menu-previous-week =
+    .label = Vorige week
+    .accesskey = o
+calendar-context-menu-previous-multiweek =
+    .label = Vorige week
+    .accesskey = o
+calendar-context-menu-previous-month =
+    .label = Vorige maand
+    .accesskey = o
+calendar-context-menu-next-day =
+    .label = Volgende dag
+    .accesskey = V
+calendar-context-menu-next-week =
+    .label = Volgende week
+    .accesskey = V
+calendar-context-menu-next-multiweek =
+    .label = Volgende week
+    .accesskey = V
+calendar-context-menu-next-month =
+    .label = Volgende maand
+    .accesskey = V
