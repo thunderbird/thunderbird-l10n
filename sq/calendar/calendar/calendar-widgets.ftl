@@ -7,12 +7,18 @@ calendar-deactivated-notification-tasks = Krejt kalendarët janë hëpërhë të
 calendar-notifications-label = Shfaq njoftime për veprimtari të ardhshme
 calendar-add-notification-button =
     .label = Shtoni njoftim
+
+## Side panel
+
 calendar-import-new-calendar = Kalendar i Ri…
     .title = Krijoni, ose pajtohuni te një kalendar i ri
 calendar-refresh-calendars =
     .title = Ringarkoni krejt kalendarët dhe njëkohësoni ndryshimet
 calendar-new-event-primary-button = Veprimtari e Re
 calendar-new-task-primary-button = Punë e Re
+
+## Calendar navigation
+
 calendar-nav-button-prev-tooltip-day =
     .title = Dita e Mëparshme
     .accesskey = s
@@ -47,3 +53,33 @@ calendar-view-toggle-multiweek = Shumëjavësh
     .title = Kaloni te pamje shumëjavëshe
 calendar-view-toggle-month = Muaj
     .title = Kaloni te pamje muaji
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Dita e Mëparshme
+    .accesskey = m
+calendar-context-menu-previous-week =
+    .label = Java e Mëparshme
+    .accesskey = m
+calendar-context-menu-previous-multiweek =
+    .label = Java e Mëparshme
+    .accesskey = m
+calendar-context-menu-previous-month =
+    .label = Muaji i Mëparshëm
+    .accesskey = m
+calendar-context-menu-next-day =
+    .label = Dita Pasuese
+    .accesskey = p
+calendar-context-menu-next-week =
+    .label = Java Pasuese
+    .accesskey = p
+calendar-context-menu-next-multiweek =
+    .label = Java Pasuese
+    .accesskey = p
+calendar-context-menu-next-month =
+    .label = Muaji Pasues
+    .accesskey = p
