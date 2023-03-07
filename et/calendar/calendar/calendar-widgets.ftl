@@ -7,6 +7,12 @@ calendar-deactivated-notification-tasks = Kõik kalendrid on praegu välja lüli
 calendar-notifications-label = Teavituste kuvamine tulevaste sündmuste kohta
 calendar-add-notification-button =
     .label = Lisa teavitus
+
+## Side panel
+
+
+## Calendar navigation
+
 calendar-view-toggle-day = Päev
     .title = Lülitu päeva vaatele
 calendar-view-toggle-week = Nädal
@@ -15,3 +21,33 @@ calendar-view-toggle-multiweek = Nädalad
     .title = Lülitu mitme nädala vaatele
 calendar-view-toggle-month = Kuu
     .title = Lülitu kuu vaatele
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Eelmine päev
+    .accesskey = e
+calendar-context-menu-previous-week =
+    .label = Eelmine nädal
+    .accesskey = e
+calendar-context-menu-previous-multiweek =
+    .label = Eelmine nädal
+    .accesskey = e
+calendar-context-menu-previous-month =
+    .label = Eelmine kuu
+    .accesskey = l
+calendar-context-menu-next-day =
+    .label = Järgmine päev
+    .accesskey = j
+calendar-context-menu-next-week =
+    .label = Järgmine nädal
+    .accesskey = j
+calendar-context-menu-next-multiweek =
+    .label = Järgmine nädal
+    .accesskey = j
+calendar-context-menu-next-month =
+    .label = Järgmine kuu
+    .accesskey = j
