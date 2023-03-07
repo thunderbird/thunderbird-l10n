@@ -75,3 +75,30 @@ calendar-view-toggle-month = Hónap
 
 ## Menu on calendar control bar
 
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Előző nap
+    .accesskey = E
+calendar-context-menu-previous-week =
+    .label = Előző hét
+    .accesskey = E
+calendar-context-menu-previous-multiweek =
+    .label = Előző hét
+    .accesskey = E
+calendar-context-menu-previous-month =
+    .label = Előző hónap
+    .accesskey = E
+calendar-context-menu-next-day =
+    .label = Következő nap
+    .accesskey = k
+calendar-context-menu-next-week =
+    .label = Következő hét
+    .accesskey = k
+calendar-context-menu-next-multiweek =
+    .label = Következő hét
+    .accesskey = k
+calendar-context-menu-next-month =
+    .label = Következő hónap
+    .accesskey = k
