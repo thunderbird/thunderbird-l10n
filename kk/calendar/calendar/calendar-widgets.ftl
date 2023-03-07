@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Аптаның тек жұмыс күндері
 calendar-define-workweek-option =
     .label = Аптаның жұмыс күндерін анықтау
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Алдыңғы күн
+    .accesskey = А
+calendar-context-menu-previous-week =
+    .label = Алдыңғы апта
+    .accesskey = А
+calendar-context-menu-previous-multiweek =
+    .label = Алдыңғы апта
+    .accesskey = А
+calendar-context-menu-previous-month =
+    .label = Алдыңғы ай
+    .accesskey = А
+calendar-context-menu-next-day =
+    .label = Келесі күн
+    .accesskey = К
+calendar-context-menu-next-week =
+    .label = Келесі апта
+    .accesskey = К
+calendar-context-menu-next-multiweek =
+    .label = Келесі апта
+    .accesskey = К
+calendar-context-menu-next-month =
+    .label = Келесі ай
+    .accesskey = К
