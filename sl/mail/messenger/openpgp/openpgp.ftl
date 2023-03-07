@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Shranjuj osnutke sporočil v šifrirani obliki
     .accesskey = o
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Pošiljaj javne ključe OpenPGP v glavah e-pošte za združljivost s šifriranjem Autocrypt
+    .accesskey = t
 openpgp-key-user-id-label = Račun/ID uporabnika
 openpgp-keygen-title-label =
     .title = Ustvari ključ OpenPGP
