@@ -7,6 +7,12 @@ calendar-deactivated-notification-tasks = Ներկայումս բոլոր աւր
 calendar-notifications-label = Ցուցադրել մոտեցող իրադարձութիւնների ծանուցումները
 calendar-add-notification-button =
     .label = Նոր ծանուցում
+
+## Side panel
+
+
+## Calendar navigation
+
 calendar-view-toggle-day = Աւր
     .title = Փոխել աւրուայ տեսքին
 calendar-view-toggle-week = Շաբաթ
@@ -15,3 +21,33 @@ calendar-view-toggle-multiweek = Բազմաշաբաթ
     .title = Փոխել բազմաշաբաթ տեսքին
 calendar-view-toggle-month = Ամիս
     .title = Փոխել ամսուայ տեսքին
+
+## Menu on calendar control bar
+
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Նախորդ աւրը
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = Նախորդ շաբաթ
+    .accesskey = s
+calendar-context-menu-previous-multiweek =
+    .label = Նախորդ շաբաթ
+    .accesskey = s
+calendar-context-menu-previous-month =
+    .label = Նախորդ ամիս
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = Յաջորդ աւրը
+    .accesskey = x
+calendar-context-menu-next-week =
+    .label = Յաջորդ շաբաթ
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = Յաջորդ շաբաթ
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = Յաջորդ ամիս
+    .accesskey = x
