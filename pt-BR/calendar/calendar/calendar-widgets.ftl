@@ -83,3 +83,30 @@ calendar-hide-weekends-option =
     .label = Somente dias úteis
 calendar-define-workweek-option =
     .label = Definir dias úteis
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Dia anterior
+    .accesskey = s
+calendar-context-menu-previous-week =
+    .label = Semana anterior
+    .accesskey = S
+calendar-context-menu-previous-multiweek =
+    .label = Semana anterior
+    .accesskey = S
+calendar-context-menu-previous-month =
+    .label = Mês anterior
+    .accesskey = s
+calendar-context-menu-next-day =
+    .label = Próximo dia
+    .accesskey = x
+calendar-context-menu-next-week =
+    .label = Próxima semana
+    .accesskey = x
+calendar-context-menu-next-multiweek =
+    .label = Próxima semana
+    .accesskey = x
+calendar-context-menu-next-month =
+    .label = Próximo mês
+    .accesskey = x
