@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Conceptberichten opslaan in versleutelde opmaak
     .accesskey = l
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Publieke OpenPGP-sleutel(s) in de e-mailheaders verzenden voor compatibiliteit met Autocrypt
+    .accesskey = y
 openpgp-key-user-id-label = Account / Gebruikers-ID
 openpgp-keygen-title-label =
     .title = OpenPGP-sleutel aanmaken
@@ -135,6 +139,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Publieke sleutel via e-mail verzenden
     .accesskey = z
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -142,6 +148,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Sleutel-ID’s naar klembord kopiëren
         }
     .accesskey = S
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -149,6 +157,8 @@ openpgp-key-man-copy-fprs =
            *[other] Vingerafdrukken naar klembord kopiëren
         }
     .accesskey = V
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -161,6 +171,8 @@ openpgp-key-man-ctx-expor-to-file-label =
 openpgp-key-man-ctx-copy =
     .label = Kopiëren
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -168,6 +180,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Vingerafdrukken
         }
     .accesskey = V
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -175,6 +189,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] Sleutel-ID’s
         }
     .accesskey = S
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -332,9 +348,9 @@ openpgp-radio-none-desc = Gebruik OpenPGP niet voor deze identiteit.
 openpgp-radio-key-not-usable = Deze sleutel is niet bruikbaar als persoonlijke sleutel, omdat de geheime sleutel ontbreekt!
 openpgp-radio-key-not-accepted = Om deze sleutel te gebruiken, moet u deze goedkeuren als een persoonlijke sleutel!
 openpgp-radio-key-not-found = Deze sleutel kan niet worden gevonden! Als u deze wilt gebruiken, moet u hem importeren in { -brand-short-name }.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Vervalt op: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Vervallen op: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = Sleutel vervalt over minder dan 6 maanden
@@ -353,7 +369,9 @@ openpgp-key-remove-external =
     .label = Externe sleutel-ID verwijderen
     .accesskey = E
 key-external-label = Externe GnuPG-sleutel
-# Strings in keyDetailsDlg.xhtml
+
+## Strings in keyDetailsDlg.xhtml
+
 key-type-public = publieke sleutel
 key-type-primary = hoofdsleutel
 key-type-subkey = subsleutel
@@ -364,18 +382,28 @@ key-usage-sign = Ondertekenen
 key-usage-certify = Certificeren
 key-usage-authentication = Authenticatie
 key-does-not-expire = De sleutel vervalt niet
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = De sleutel is vervallen op { $keyExpiry }
 key-expired-simple = De sleutel is vervallen
 key-revoked-simple = De sleutel is ingetrokken
 key-do-you-accept = Accepteert u deze sleutel voor het verifiëren van digitale handtekeningen en voor het versleutelen van berichten?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Controleer de vingerafdruk van de sleutel met een ander beveiligd communicatiekanaal dan e-mail om er zeker van te zijn dat het echt de sleutel van { $addr } is.
-# Strings enigmailMsgComposeOverlay.js
+
+## Strings enigmailMsgComposeOverlay.js
+
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kan het bericht niet verzenden, omdat er een probleem is met uw persoonlijke sleutel. { $problem }
 cannot-encrypt-because-missing = Kan dit bericht niet verzenden met end-to-end-versleuteling, omdat er problemen zijn met de sleutels van de volgende ontvangers: { $problem }
 window-locked = Het opstelvenster is vergrendeld; verzenden geannuleerd
 # Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-concealed-data = Dit is een versleuteld berichtgedeelte. U moet het in een apart venster openen door op de bijlage te klikken.
-# Strings in keyserver.jsm
+
+## Strings in keyserver.jsm
+
 keyserver-error-aborted = Afgebroken
 keyserver-error-unknown = Er is een onbekende fout opgetreden
 keyserver-error-server-error = De sleutelserver heeft een fout gemeld.
@@ -384,34 +412,50 @@ keyserver-error-unavailable = De sleutelserver is niet beschikbaar.
 keyserver-error-security-error = De sleutelserver ondersteunt geen versleutelde toegang.
 keyserver-error-certificate-error = Het certificaat van de sleutelserver is niet geldig.
 keyserver-error-unsupported = De sleutelserver wordt niet ondersteund.
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.jsm
+
 wkd-message-body-req =
     Uw e-mailprovider heeft uw verzoek om uw publieke sleutel te uploaden naar de OpenPGP Web Key Directory verwerkt.
     Stuur een bevestiging om de publicatie van uw publieke sleutel te voltooien.
 wkd-message-body-process =
     Dit is een e-mailbericht voor de automatische verwerking om uw publieke sleutel te uploaden naar de OpenPGP Web Key Directory.
     U hoeft op dit moment geen handmatige actie te ondernemen.
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.jsm
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Kan bericht met onderwerp { $subject }
     niet ontsleutelen.
     Wilt u het opnieuw proberen met een andere wachtwoordzin of wilt u het bericht overslaan?
-# Strings filters.jsm
+
+## Strings filters.jsm
+
 filter-folder-required = U moet een doelmap selecteren.
 filter-decrypt-move-warn-experimental =
     Waarschuwing – de filteractie ‘Permanent ontsleutelen’ kan leiden tot vernietigde berichten.
     We raden u sterk aan om eerst het filter ‘Ontsleutelde kopie maken’ te proberen, het resultaat zorgvuldig te testen en dit filter pas te gaan gebruiken als u tevreden bent met het resultaat.
 filter-term-pgpencrypted-label = OpenPGP-versleuteld
 filter-key-required = U moet een ontvangersleutel selecteren.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Kan geen versleutelingssleutel vinden voor ‘{ $desc }’.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Waarschuwing – de filteractie ‘Versleutelen naar sleutel’ vervangt de ontvangers.
     Als u de geheime sleutel voor ‘{ $desc }’ niet hebt, kunt u de e-mailberichten niet meer lezen.
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.jsm
+
 filter-decrypt-move-label = Permanent ontsleutelen (OpenPGP)
 filter-decrypt-copy-label = Ontsleutelde kopie maken (OpenPGP)
 filter-encrypt-label = Versleutelen naar sleutel (OpenPGP)
-# Strings in enigmailKeyImportInfo.js
+
+## Strings in enigmailKeyImportInfo.js
+
 import-info-title =
     .title = Succes! Sleutels geïmporteerd
 import-info-bits = Bits
@@ -419,11 +463,15 @@ import-info-created = Aangemaakt
 import-info-fpr = Vingerafdruk
 import-info-details = Details bekijken en sleutelacceptatie beheren
 import-info-no-keys = Geen sleutels geïmporteerd.
-# Strings in enigmailKeyManager.js
+
+## Strings in enigmailKeyManager.js
+
 import-from-clip = Wilt u een of enkele sleutel(s) van het klembord importeren?
 import-from-url = Publieke sleutel van deze URL downloaden:
 copy-to-clipbrd-failed = Kan de geselecteerde sleutel(s) niet naar het klembord kopiëren.
 copy-to-clipbrd-ok = Sleutel(s) naar klembord gekopieerd
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     WAARSCHUWING: U staat op het punt een geheime sleutel te verwijderen!
     
@@ -435,6 +483,8 @@ delete-mix =
     WAARSCHUWING: U staat op het punt geheime sleutels te verwijderen!
     Als u uw geheime sleutel verwijdert, kunt u geen berichten meer ontsleutelen die voor die sleutel zijn versleuteld.
     Wilt u echt ZOWEL de geselecteerde geheime ALS de publieke sleutels verwijderen?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Wilt u de publieke sleutel ‘{ $userId }’
     verwijderen?
@@ -455,6 +505,8 @@ default-pub-key-filename = Export-van-publieke-sleutels
 default-pub-sec-key-filename = Reservekopie-van-geheime-sleutels
 refresh-key-warn = Waarschuwing: afhankelijk van het aantal sleutels en de verbindingssnelheid kan het vernieuwen van alle sleutels een behoorlijk langdurig proces zijn!
 preview-failed = Kan bestand met publieke sleutel niet lezen.
+# Variables:
+# $reason (String) - Error description.
 general-error = Fout: { $reason }
 dlg-button-delete = &Verwijderen
 
@@ -464,7 +516,12 @@ openpgp-export-public-success = <b>Publieke sleutel met succes geëxporteerd!</b
 openpgp-export-public-fail = <b>Kan de geselecteerde publieke sleutel niet exporteren!</b>
 openpgp-export-secret-success = <b>Geheime sleutel met succes geëxporteerd!</b>
 openpgp-export-secret-fail = <b>Kan de geselecteerde geheime sleutel niet exporteren!</b>
-# Strings in keyObj.jsm
+
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = De sleutel { $userId } (sleutel-ID { $keyId }) is ingetrokken.
 key-ring-pub-key-expired = De sleutel { $userId } (sleutel-ID { $keyId }) is vervallen.
 key-ring-no-secret-key = Het lijkt erop dat u de geheime sleutel voor { $userId } (key ID { $keyId }) niet aan uw sleutelhanger hebt; u kunt de sleutel niet gebruiken om te ondertekenen.
@@ -474,10 +531,14 @@ key-ring-sign-sub-keys-revoked = Alle ondertekeningssubsleutels van sleutel { $u
 key-ring-sign-sub-keys-expired = Alle ondertekeningssubsleutels van sleutel { $userId } (sleutel-ID { $keyId }) zijn vervallen.
 key-ring-enc-sub-keys-revoked = Alle versleutelingssubsleutels van sleutel { $userId } (sleutel-ID { $keyId }) zijn ingetrokken.
 key-ring-enc-sub-keys-expired = Alle versleutelingssubsleutels van sleutel { $userId } (sleutel-ID { $keyId }) zijn vervallen.
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.jsm
+
 keyring-photo = Foto
 user-att-photo = Gebruikerskenmerk (JPEG-afbeelding)
-# Strings in key.jsm
+
+## Strings in key.jsm
+
 already-revoked = Deze sleutel is al ingetrokken.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -497,7 +558,9 @@ after-revoke-info =
     Deel deze publieke sleutel opnieuw door deze per e-mail te verzenden of door deze naar sleutelservers te uploaden, zodat anderen weten dat u uw sleutel hebt ingetrokken.
     Zodra de software die door andere mensen wordt gebruikt over de intrekking wordt geïnformeerd, zal deze uw oude sleutel niet meer gebruiken.
     Als u een nieuwe sleutel gebruikt voor hetzelfde e-mailadres en u voegt de nieuwe publieke sleutel toe aan e-mailberichten die u verzendt, dan wordt automatisch informatie over uw ingetrokken oude sleutel toegevoegd.
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.jsm & decryption.jsm
+
 key-man-button-import = &Importeren
 delete-key-title = OpenPGP-sleutel verwijderen
 delete-external-key-title = De externe GnuPG-sleutel verwijderen
@@ -505,26 +568,44 @@ delete-external-key-description = Wilt u deze externe GnuPG-sleutel-ID verwijder
 key-in-use-title = OpenPGP-sleutel wordt momenteel gebruikt
 delete-key-in-use-description = Kan niet doorgaan! De sleutel die u hebt geselecteerd voor verwijdering wordt momenteel gebruikt door deze identiteit. Selecteer een andere sleutel of selecteer er geen en probeer het opnieuw.
 revoke-key-in-use-description = Kan niet doorgaan! De sleutel die u hebt geselecteerd voor intrekking wordt momenteel gebruikt door deze identiteit. Selecteer een andere sleutel of selecteer er geen en probeer het opnieuw.
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.jsm
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = Het e-mailadres ‘{ $keySpec }’ kan niet worden gekoppeld aan een sleutel aan uw sleutelhanger.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = De geconfigureerde sleutel-ID ‘{ $keySpec }’ kan niet worden gevonden aan uw sleutelhanger.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = U heeft niet bevestigd dat de sleutel met ID ‘{ $keySpec }’ uw persoonlijke sleutel is.
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 need-online = De geselecteerde functie is niet beschikbaar in de offlinemodus. Ga online en probeer het opnieuw.
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 no-key-found2 = We kunnen geen bruikbare sleutel vinden die overeenkomt met de opgegeven zoekcriteria.
 no-update-found = U hebt de sleutels die online zijn gevonden al.
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 fail-key-extract = Fout – sleutelextractieopdracht mislukt
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.jsm
+
 fail-cancel = Fout – sleutelontvangst geannuleerd door gebruiker
 not-first-block = Fout – eerste OpenPGP-blok is geen publiek sleutelblok
 import-key-confirm = In bericht ingesloten publieke sleutel(s) importeren?
 fail-key-import = Fout – importeren van sleutel mislukt
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Kan niet naar bestand { $output } schrijven
 no-pgp-block = Fout – geen geldig armored OpenPGP-gegevensblok gevonden
 confirm-permissive-import = Importeren mislukt. De sleutel die u probeert te importeren, is mogelijk beschadigd of gebruikt onbekende attributen. Wilt u proberen de juiste delen te importeren? Dit kan ertoe leiden dat onvolledige en onbruikbare sleutels worden geïmporteerd.
-# Strings used in trust.jsm
+
+## Strings used in trust.jsm
+
 key-valid-unknown = onbekend
 key-valid-invalid = ongeldig
 key-valid-disabled = uitgeschakeld
@@ -535,14 +616,20 @@ key-trust-marginal = weinig
 key-trust-full = vertrouwd
 key-trust-ultimate = maximaal
 key-trust-group = (groep)
-# Strings used in commonWorkflows.js
+
+## Strings used in commonWorkflows.js
+
 import-key-file = OpenPGP-sleutelbestand importeren
 import-rev-file = OpenPGP-intrekkingsbestand importeren
 gnupg-file = GnuPG-bestanden
 import-keys-failed = Het importeren van de sleutels is mislukt
+# Variables:
+# $key (String) - Key id to unlock.
 passphrase-prompt = Voer de wachtwoordzin in waarmee de volgende sleutel wordt ontgrendeld: { $key }
 file-to-big-to-import = Dit bestand is te groot. Importeer geen grote set sleutels tegelijk.
-# Strings used in enigmailKeygen.js
+
+## Strings used in enigmailKeygen.js
+
 save-revoke-cert-as = Intrekkingscertificaat maken en opslaan
 revoke-cert-ok = Het intrekkingscertificaat is met succes gemaakt. U kunt het gebruiken om uw publieke sleutel ongeldig te maken, b.v. voor het geval u uw geheime sleutel zou verliezen.
 revoke-cert-failed = Het intrekkingscertificaat kan niet worden gemaakt.
@@ -550,33 +637,53 @@ gen-going = Sleutel wordt al aangemaakt!
 keygen-missing-user-name = Er is geen naam opgegeven voor de geselecteerde account/identiteit. Voer in de accountinstellingen een waarde in het veld ‘Uw naam’ in.
 expiry-too-short = Uw sleutel moet ten minste een dag geldig zijn.
 expiry-too-long = U kunt geen sleutel maken die over meer dan 100 jaar vervalt.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Publieke en geheime sleutel voor ‘{ $id }’ aanmaken?
 key-man-button-generate-key = Sleutel &aanmaken
 key-abort = Sleutelaanmaak afbreken?
 key-man-button-generate-key-abort = Sleutelaanmaak &afbreken
 key-man-button-generate-key-continue = Sleutelaanmaak &voortzetten
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
 
 failed-decrypt = Fout – ontsleuteling mislukt
 fix-broken-exchange-msg-failed = Kon bericht niet repareren.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Kan handtekeningbestand ‘{ $attachment }’ niet koppelen aan een bijlage
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Kan bijlage ‘{ $attachment }’ niet koppelen aan een handtekeningbestand
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = De handtekening voor bijlage { $attachment } is met succes geverifieerd
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = De handtekening voor bijlage { $attachment } kan niet worden geverifieerd
 decrypt-ok-no-sig =
     Waarschuwing
     Het ontsleutelen is gelukt, maar de handtekening kan niet correct worden geverifieerd
 msg-ovl-button-cont-anyway = Toch &doorgaan
 enig-content-note = *Bijlagen bij dit bericht zijn niet ondertekend of versleuteld*
-# Strings used in enigmailMsgComposeOverlay.js
+
+## Strings used in enigmailMsgComposeOverlay.js
+
 msg-compose-button-send = &Bericht verzenden
 msg-compose-details-button-label = Details…
 msg-compose-details-button-access-key = D
 send-aborted = Het verzenden is afgebroken.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Onvoldoende vertrouwen voor sleutel ‘{ $key }’
+# Variables:
+# $key (String) - Key id.
 key-not-found = Sleutel ‘{ $key }’ niet gevonden
+# Variables:
+# $key (String) - Key id.
 key-revoked = Sleutel ‘{ $key }’ ingetrokken
+# Variables:
+# $key (String) - Key id.
 key-expired = Sleutel ‘{ $key }’ is vervallen
 msg-compose-internal-error = Er is een interne fout opgetreden.
 keys-to-export = Selecteer in te voegen OpenPGP-sleutels
@@ -588,6 +695,8 @@ msg-compose-partially-encrypted-short = Pas op voor het lekken van gevoelige inf
 quoted-printable-warn =
     U heeft codering ‘quoted-printable’ ingeschakeld voor het verzenden van berichten. Dit kan resulteren in een onjuiste ontsleuteling en/of verificatie van uw bericht.
     Wilt u het verzenden van ‘quoted-printable’-berichten nu uitschakelen?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     U hebt regelafbreking ingesteld op { $width } tekens. Voor een correcte versleuteling en/of ondertekening moet deze waarde ten minste 68 zijn.
     Wilt u de regelafbreking nu wijzigen in 68 tekens?
@@ -600,31 +709,58 @@ send-to-news-warning =
     Doorgaan?
 save-attachment-header = Ontsleutelde bijlage opslaan
 possibly-pgp-mime = Mogelijk PGP/MIME-versleuteld of -ondertekend bericht; gebruik de functie ‘Ontsleutelen/Verifiëren’ om te verifiëren
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Kan dit bericht niet digitaal ondertekenen, omdat u nog geen end-to-end-versleuteling voor <{ $key }> heeft geconfigureerd
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Kan dit bericht niet versleuteld verzenden, omdat u nog geen end-to-end-versleuteling voor <{ $key }> heeft geconfigureerd
-# Strings used in decryption.jsm
+
+## Strings used in decryption.jsm
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     De volgende sleutels importeren?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = { $name } ({ $id }) importeren?
 cant-import = Fout bij importeren publieke sleutel
 unverified-reply = Het ingesprongen berichtgedeelte (antwoord) is waarschijnlijk gewijzigd
 key-in-message-body = Er is een sleutel gevonden in de berichttekst. Klik op ‘Sleutel importeren’ om de sleutel te importeren
 sig-mismatch = Fout – handtekening komt niet overeen
 invalid-email = Fout – ongeldig(e) e-mailadres(sen)
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     De bijlage ‘{ $name }’ die u probeert te openen lijkt een OpenPGP-sleutelbestand te zijn.
     Klik op ‘Importeren’ om de sleutels te importeren of op ‘Weergeven’ om de inhoud van het bestand in een browservenster te bekijken
 dlg-button-view = &Weergeven
-# Strings used in enigmailMsgHdrViewOverlay.js
+
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 decrypted-msg-with-format-error = Ontsleuteld bericht (beschadigde PGP-e-mailindeling, waarschijnlijk veroorzaakt door een oude Exchange-server, is hersteld, daarom is het resultaat mogelijk niet perfect te lezen)
-# Strings used in encryption.jsm
+
+## Strings used in encryption.jsm
+
 not-required = Fout – geen versleuteling vereist
-# Strings used in windows.jsm
+
+## Strings used in windows.jsm
+
 no-photo-available = Geen foto beschikbaar
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Fotopad ‘{ $photo }’ is niet leesbaar
 debug-log-title = OpenPGP-debuglogboek
-# Strings used in dialog.jsm
+
+## Strings used in dialog.jsm
+
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix = Herhalingsfrequentie waarschuwing: { $count }
 repeat-suffix-singular = keer.
 repeat-suffix-plural = keer.
@@ -638,9 +774,13 @@ enig-prompt = OpenPGP-vraag
 enig-confirm = OpenPGP-bevestiging
 enig-alert = OpenPGP-waarschuwing
 enig-info = OpenPGP-informatie
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.jsm
+
 dlg-button-retry = &Opnieuw proberen
 dlg-button-skip = Over&slaan
-# Strings used in enigmailMsgBox.js
+
+## Strings used in enigmailMsgBox.js
+
 enig-alert-title =
     .title = OpenPGP-waarschuwing
