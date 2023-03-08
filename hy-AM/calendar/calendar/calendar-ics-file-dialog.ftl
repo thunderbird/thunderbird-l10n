@@ -13,6 +13,14 @@ calendar-ics-file-accept-button-ok-label = Լավ
 calendar-ics-file-cancel-button-close-label = Փակել
 calendar-ics-file-dialog-message-2 = Ներմուծում ֆայլից.
 calendar-ics-file-dialog-calendar-menu-label = Ներմուծել օրացույցում.
+# "A > Z" is used as a concise way to say "alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-ascending =
+    .label = Տեսակավորել ըստ անվան (Ա > Ֆ)
+# "Z > A" is used as a concise way to say "reverse alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-descending =
+    .label = Տեսակավորել ըստ անվան (Ֆ > Ա)
 calendar-ics-file-dialog-progress-message = Ներմուծվում է…
 calendar-ics-file-import-success = Հաջողությամբ ներմուծվեց:
 calendar-ics-file-import-error = Սխալ է տեղի ունեցել, ներմուծումը ձախողվել է:

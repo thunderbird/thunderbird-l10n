@@ -7,6 +7,7 @@ calendar-deactivated-notification-tasks = Ներկայումս բոլոր օրա
 
 ## Side panel
 
+calendar-list-header = Օրացույցեր
 
 ## Calendar navigation
 
