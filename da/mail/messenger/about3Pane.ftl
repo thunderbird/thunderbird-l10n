@@ -113,6 +113,9 @@ quick-filter-bar-gloda-upsell-line1 = Fortsæt denne søgning i alle mapper
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Tryk på tasten ‘Enter’ for at fortsætte din søgning efter: { $text }
 
+## Folder pane
+
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -196,6 +199,9 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-redirected =
+    .alt = Videresendt-ikon
+    .title = Meddelelse videresendt
 apply-columns-to-menu =
     .label = Anvend kolonner i…
 apply-current-view-to-folder =
