@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Хранить черновики сообщений в зашифрованном формате
     .accesskey = ч
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Отправлять открытый(е) ключ(и) OpenPGP в заголовках электронной почты для совместимости с Autocrypt.
+    .accesskey = м
 openpgp-key-user-id-label = Учётная запись / Идентификатор пользователя
 openpgp-keygen-title-label =
     .title = Создать ключ OpenPGP
