@@ -113,6 +113,9 @@ quick-filter-bar-gloda-upsell-line1 = Շարունակել որոնումը բո
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Սեղմեք ‘Enter'՝ շարունակելու համար որոնումը { $text }-ում
 
+## Folder pane
+
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -129,6 +132,8 @@ threadpane-column-header-attachments =
     .title = Տեսակավորել ըստ՝ կցորդների
 threadpane-column-label-attachments =
     .label = Կցորդներ
+threadpane-column-label-unread-button =
+    .label = Կարդալ կարգավիճակը
 threadpane-column-header-sender = Ումից
     .title = Տեսակավորել ըստ՝ ումից
 threadpane-column-label-sender =
