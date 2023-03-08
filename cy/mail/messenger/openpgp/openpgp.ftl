@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Cadw negeseuon drafft mewn fformat wedi'i amgryptio
     .accesskey = C
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Anfonwch allwedd(i) cyhoeddus OpenPGP ym mhenawdau'r e-bost i sicrhau eu bod yn gydnaws ag Autocrypt
+    .accesskey = A
 openpgp-key-user-id-label = Cyfrif / ID Defnyddiwr
 openpgp-keygen-title-label =
     .title = Cynhyrchu Allwedd OpenPGP
