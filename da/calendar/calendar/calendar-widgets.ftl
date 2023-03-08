@@ -10,6 +10,13 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Kalendere
+calendar-import-new-calendar = Ny kalender…
+    .title = Opret eller abonner på en ny kalender
+calendar-refresh-calendars =
+    .title = Genindlæs alle kalendere og synkroniser ændringer
+calendar-new-event-primary-button = Ny begivenhed
+calendar-new-task-primary-button = Ny opgave
 
 ## Calendar navigation
 
