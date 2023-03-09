@@ -6,9 +6,11 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Fleksibelt mellemrum
+search-bar-label = Søg
 toolbar-write-message-label = Skriv
 toolbar-write-message =
     .title = Skriv en ny meddelelse
+toolbar-move-to-label = Flyt til
 toolbar-unifinder-label = Find begivenheder
 toolbar-unifinder =
     .title = Slå søg i begivenheder til eller fra
@@ -74,6 +76,9 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Marker
 toolbar-mark-as =
     .title = Marker meddelelser
+toolbar-view-picker-label = Vis
+toolbar-view-picker =
+    .title = Tilpas udseendet på denne mappe
 toolbar-address-book =
     .title = Gå til adressebogen
 toolbar-chat-label = Chat
