@@ -58,6 +58,8 @@ vcard-url-label = Websted
 vcard-tel-header = Telefonnumre
 vcard-tel-add = Tilføj telefonnummer
 vcard-tel-label = Telefonnummer
+vcard-entry-type-fax = Fax
+vcard-entry-type-pager = Personsøger
 
 # TZ vCard field
 
@@ -66,8 +68,13 @@ vcard-tz-add = Tilføj tidszone
 
 # IMPP vCard field
 
+vcard-impp2-header = Chat
 vcard-impp-add = Tilføj chat-konto
 vcard-impp-label = Chat-konto
+vcard-impp-select = Protokol
+vcard-impp-option-other = Andet
+vcard-impp-input-label = URI
+vcard-impp-input-title = Chat-URI
 
 # BDAY and ANNIVERSARY vCard field
 
@@ -104,8 +111,26 @@ vcard-note-add = Tilføj note
 vcard-org-header = Organisatoriske egenskaber
 vcard-org-add = Tilføj organisatoriske egenskaber
 vcard-org-title = Titel
+vcard-org-title-input =
+    .title = Stilling eller job
+    .placeholder = Stillingsbetegnelse
 vcard-org-role = Rolle
+vcard-org-role-input =
+    .title = Funktion eller rolle i en given situation
+    .placeholder = Rolle i et projekt
 vcard-org-org = Organisation
+vcard-org-org-input =
+    .title = Organisationsnavn
+    .placeholder = Virksomhedsnavn
+vcard-org-org-unit = Afdeling
+vcard-org-org-unit-input =
+    .title = Organisationsafdelingsnavn
+    .placeholder = Afdeling
 
 # Custom properties
 
+vcard-custom-header = Tilpassede egenskaber
+vcard-custom-add = Tilføj tilpassede egenskaber
+vcard-remove-button-title =
+    .title = Fjern
+vcard-remove-button = Fjern
