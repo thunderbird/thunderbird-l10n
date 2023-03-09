@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Foarige moanne
     .accesskey = r
+calendar-nav-button-prev-tooltip-year =
+    .title = Ferline jier
+    .accesskey = r
 calendar-nav-button-next-tooltip-day =
     .title = Folgjende dei
     .accesskey = l
@@ -56,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Folgjende moanne
     .accesskey = l
+calendar-nav-button-next-tooltip-year =
+    .title = Takom jier
+    .accesskey = k
 calendar-today-button-tooltip =
     .title = Nei hjoed gean
 calendar-view-toggle-day = Dei
@@ -69,6 +75,14 @@ calendar-view-toggle-month = Moanne
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Agindaopmaakopsjes
+calendar-find-events-menu-option =
+    .label = Paniel Eveneminten sykje
+calendar-hide-weekends-option =
+    .label = Allinnich wurkdagen
+calendar-define-workweek-option =
+    .label = Wurkdagen definiearje
 
 ## Calendar Context Menu
 
