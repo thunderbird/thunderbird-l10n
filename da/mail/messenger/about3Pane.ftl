@@ -128,8 +128,14 @@ folder-pane-header-context-hide =
 
 threadpane-column-header-select =
     .title = Marker/afmarker alle meddelelser
+threadpane-column-header-select-all =
+    .title = Vælg alle meddelelser
+threadpane-column-header-deselect-all =
+    .title = Fravælg alle meddelelser
 threadpane-column-label-select =
     .label = Marker meddelelser
+threadpane-column-header-thread =
+    .title = Slå meddelelsestråde til eller fra
 threadpane-column-label-thread =
     .label = Tråd
 threadpane-column-header-flagged =

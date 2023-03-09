@@ -5,7 +5,18 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Afkrydsningsfelt der vælger/fravælger den aktuelle række
+    .title = Vælg denne række
+tree-list-view-row-deselect =
+    .alt = Afkrydsningsfelt der vælger/fravælger den aktuelle række
+    .title = Fravælg denne række
+tree-list-view-row-delete =
+    .title = Slet denne række
 tree-list-view-column-picker =
     .title = Vælg hvilke kolonner der skal vises
 tree-list-view-column-picker-restore =
     .label = Genopret kolonnesortering
+tree-list-view-row-flagged =
+    .alt = Stjernemarkeret meddelelsesikon
+    .title = Meddelelse stjernemarkeret

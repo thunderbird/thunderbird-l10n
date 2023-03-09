@@ -672,7 +672,7 @@
 <!ENTITY saveAsVirtualFolderMenu.label "Gem som virtuel mappe…">
 
 <!-- Thread Pane -->
-<!ENTITY selectColumn.label "Marker meddelelser">
+<!ENTITY selectColumn.label "Vælg meddelelser">
 <!ENTITY threadColumn.label "Tråd">
 <!ENTITY fromColumn.label "Fra">
 <!ENTITY recipientColumn.label "Til">
