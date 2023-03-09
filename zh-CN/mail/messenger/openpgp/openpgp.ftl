@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = 以加密格式存储邮件草稿
     .accesskey = r
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = 在发送邮件头中包含 OpenPGP 公钥，以与 Autocrypt 功能兼容
+    .accesskey = t
 openpgp-key-user-id-label = 账户 / 用户 ID
 openpgp-keygen-title-label =
     .title = 生成 OpenPGP 密钥
