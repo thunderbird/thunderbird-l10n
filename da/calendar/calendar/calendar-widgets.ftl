@@ -63,6 +63,10 @@ calendar-view-toggle-month = Måned
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Indstillinger for kalenderudseende
+calendar-find-events-menu-option =
+    .label = Find begivenhed-rude
 calendar-hide-weekends-option =
     .label = Kun hverdage
 calendar-define-workweek-option =

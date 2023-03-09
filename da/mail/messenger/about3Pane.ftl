@@ -115,6 +115,14 @@ quick-filter-bar-gloda-upsell-line2 = Tryk på tasten ‘Enter’ for at fortsæ
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Hent meddelelser
+folder-pane-write-message-button = Ny meddelelse
+    .title = Skriv en ny meddelelse
+folder-pane-more-menu-button =
+    .title = Mapperudeindstillinger
+folder-pane-header-context-hide =
+    .label = Skjul mapperudeoverskrift
 
 ## Message thread pane
 
@@ -132,6 +140,14 @@ threadpane-column-header-attachments =
     .title = Sorter efter vedhæftede filer
 threadpane-column-label-attachments =
     .label = Vedhæftede filer
+threadpane-column-header-spam =
+    .title = Sorter efter spam-status
+threadpane-column-label-spam =
+    .label = Spam
+threadpane-column-header-unread-button =
+    .title = Sorter efter læst-status
+threadpane-column-label-unread-button =
+    .label = Læst status
 threadpane-column-header-sender = Fra
     .title = Sorter efter afsender
 threadpane-column-label-sender =
