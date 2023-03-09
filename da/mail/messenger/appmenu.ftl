@@ -10,6 +10,8 @@ appmenu-sync-panel-title =
 appmenu-signin-panel =
     .label = Log ind på Sync
     .accesskey = L
+appmenu-sync-account =
+    .value = nogen@eksempel.dk
 
 ## New Account
 
