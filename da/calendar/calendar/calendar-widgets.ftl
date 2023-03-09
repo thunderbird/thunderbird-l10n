@@ -20,6 +20,38 @@ calendar-new-task-primary-button = Ny opgave
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Forrige dag
+    .accesskey = e
+calendar-nav-button-prev-tooltip-week =
+    .title = Forrige uge
+    .accesskey = e
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Forrige uge
+    .accesskey = e
+calendar-nav-button-prev-tooltip-month =
+    .title = Forrige måned
+    .accesskey = e
+calendar-nav-button-prev-tooltip-year =
+    .title = Forrige år
+    .accesskey = e
+calendar-nav-button-next-tooltip-day =
+    .title = Næste dag
+    .accesskey = t
+calendar-nav-button-next-tooltip-week =
+    .title = Næste uge
+    .accesskey = t
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Næste uge
+    .accesskey = t
+calendar-nav-button-next-tooltip-month =
+    .title = Næste måned
+    .accesskey = t
+calendar-nav-button-next-tooltip-year =
+    .title = Næste år
+    .accesskey = t
+calendar-today-button-tooltip =
+    .title = Gå til i dag
 calendar-view-toggle-day = Dag
     .title = Skift til dagsoversigt
 calendar-view-toggle-week = Uge
@@ -31,6 +63,10 @@ calendar-view-toggle-month = Måned
 
 ## Menu on calendar control bar
 
+calendar-hide-weekends-option =
+    .label = Kun hverdage
+calendar-define-workweek-option =
+    .label = Definer hverdage
 
 ## Calendar Context Menu
 
