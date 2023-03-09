@@ -121,6 +121,8 @@ folder-pane-write-message-button = Νέο μήνυμα
     .title = Σύνθεση νέου μηνύματος
 folder-pane-more-menu-button =
     .title = Επιλογές περιοχής φακέλων
+folder-pane-header-context-hide =
+    .label = Απόκρυψη κεφαλίδας προβολής φακέλων
 
 ## Message thread pane
 
