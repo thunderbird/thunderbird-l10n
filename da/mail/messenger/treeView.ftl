@@ -7,3 +7,5 @@
 
 tree-list-view-column-picker =
     .title = Vælg hvilke kolonner der skal vises
+tree-list-view-column-picker-restore =
+    .label = Genopret kolonnesortering
