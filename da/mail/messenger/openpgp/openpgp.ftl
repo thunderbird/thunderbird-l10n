@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Opbevar meddelelseskladder i krypteret format
     .accesskey = O
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Send offentlig(e) OpenPGP-nøgle(r) i samme mailheaders for at sikre kompatibilitet med Autocrypt
+    .accesskey = S
 openpgp-key-user-id-label = Konto / bruger-id
 openpgp-keygen-title-label =
     .title = Generer OpenPGP-nøgle
