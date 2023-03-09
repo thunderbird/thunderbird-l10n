@@ -44,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Προηγούμενος μήνας
     .accesskey = γ
+calendar-nav-button-prev-tooltip-year =
+    .title = Προηγούμενο έτος
+    .accesskey = γ
 calendar-nav-button-next-tooltip-day =
     .title = Επόμενη ημέρα
     .accesskey = ν
@@ -55,6 +58,9 @@ calendar-nav-button-next-tooltip-multiweek =
     .accesskey = ν
 calendar-nav-button-next-tooltip-month =
     .title = Επόμενος μήνας
+    .accesskey = ν
+calendar-nav-button-next-tooltip-year =
+    .title = Επόμενο έτος
     .accesskey = ν
 calendar-today-button-tooltip =
     .title = Μετάβαση στο σήμερα
@@ -69,6 +75,12 @@ calendar-view-toggle-month = Μήνας
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Επιλογές διάταξης ημερολογίου
+calendar-find-events-menu-option =
+    .label = Προβολή εύρεσης εκδηλώσεων
+calendar-hide-weekends-option =
+    .label = Εργάσιμες ημέρες μόνο
 
 ## Calendar Context Menu
 
