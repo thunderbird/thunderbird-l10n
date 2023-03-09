@@ -59,6 +59,7 @@ customize-spaces-tabs =
 customize-main-toolbar-target =
     .aria-label = Barra de herramientas principal
 customize-palette-generic-title = Disponibles para todos los espacios
+customize-palette-mail-specific-title = Disponible solo para el espacio de correo
 
 ## Unified toolbar customization palette context menu
 
