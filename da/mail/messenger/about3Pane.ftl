@@ -220,6 +220,8 @@ threadpane-message-redirected =
     .title = Meddelelse videresendt
 apply-columns-to-menu =
     .label = Anvend kolonner i…
+apply-current-view-to-menu =
+    .label = Anvend denne visning på...
 apply-current-view-to-folder =
     .label = Mappe…
 apply-current-view-to-folder-children =
@@ -227,9 +229,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Anvend ændringer?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Anvend denne mappes kolonner i { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Anvend denne mappes kolonner i { $name } og dens undermapper?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Anvend den aktuelle mappes udseende på { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Anvend den nuværende mappes udseende på { $name } og underliggende mapper?
