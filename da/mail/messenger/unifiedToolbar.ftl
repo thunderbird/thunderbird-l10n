@@ -44,12 +44,47 @@ customize-space-tab-settings = Indstillinger
     .title = Indstillinger
 customize-restore-default = Gendan standard
 customize-change-appearance = Skift udseende...
+customize-button-style-label = Knapstil:
 customize-button-style-icons-beside-text =
     .label = Ikoner ved siden af tekst
+customize-button-style-icons-above-text =
+    .label = Ikoner over tekst
+customize-button-style-icons-only =
+    .label = Kun ikoner
+customize-button-style-text-only =
+    .label = Kun tekst
+customize-cancel = Annuller
+customize-save = Gem
+customize-search-bar =
+    .label = Find værktøjslinjeknapper…
+customize-spaces-tabs =
+    .aria-label = Områder
+customize-main-toolbar-target =
+    .aria-label = Hovedværktøjslinje
 customize-palette-generic-title = Tilgængelig i alle områder
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Føj til { $target }
+customize-palette-add-everywhere =
+    .label = Føj til alle værktøjslinjer
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Flyt frem
+customize-target-backward =
+    .label = Flyt tilbage
+customize-target-remove =
+    .label = Fjern
+customize-target-remove-everywhere =
+    .label = Fjern fra alle værktøjslinjer
+customize-target-add-everywhere =
+    .label = Føj til alle værktøjslinjer
+customize-target-start =
+    .label = Flyt til start
+customize-target-end =
+    .label = Flyt til slutningen
