@@ -93,6 +93,7 @@ toolbar-calendar =
 toolbar-tasks-label = Opgaver
 toolbar-tasks =
     .title = Skift til fanebladet Opgaver
+toolbar-mail-label = Mail
 toolbar-print-label = Udskriv
 toolbar-print =
     .title = Udskriv denne meddelelse
