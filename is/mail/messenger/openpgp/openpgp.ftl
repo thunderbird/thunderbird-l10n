@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Geyma drög að skilaboðum á dulrituðu sniði
     .accesskey = y
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Senda OpenPGP-dreifilykil/lykla í tölvupósthausum til að halda samhæfni við Autocrypt
+    .accesskey = p
 openpgp-key-user-id-label = Reikningur / Notandaauðkenni
 openpgp-keygen-title-label =
     .title = Útbúa OpenPGP-lykil
