@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Agregar proveedor de OpenSearch
 add-opensearch-provider-text = Ingresa la URL del proveedor de OpenSearch para agregar. Utiliza la URL directa del archivo de descripción de OpenSearch o una URL donde se pueda descubrir automáticamente.
 adding-opensearch-provider-failed-title = No se pudo agregar el proveedor OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = No se pudo agregar el proveedor de OpenSearch para { $url }.
 minimize-to-tray-label =
     .label = Mover { -brand-short-name } a la bandeja cuando es minimizado
@@ -198,6 +200,9 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = Mostrar siempre las barras de desplazamiento
     .accesskey = c
 window-layout-legend = Diseño de ventana
+draw-in-titlebar-label =
+    .label = Ocultar barra de título de la ventana del sistema
+    .accesskey = O
 auto-hide-tabbar-label =
     .label = Ocultar automáticamente barra de pestañas
     .accesskey = a
