@@ -47,8 +47,18 @@ customize-main-toolbar-target =
 
 ## Unified toolbar customization palette context menu
 
+customize-palette-add-everywhere =
+    .label = Lisää kaikkiin työkalupalkkeihin
 
 ## Unified toolbar customization target context menu
 
 customize-target-remove =
     .label = Poista
+customize-target-remove-everywhere =
+    .label = Poista kaikista työkalupalkeista
+customize-target-add-everywhere =
+    .label = Lisää kaikkiin työkalupalkkeihin
+customize-target-start =
+    .label = Siirrä alkuun
+customize-target-end =
+    .label = Siirrä loppuun
