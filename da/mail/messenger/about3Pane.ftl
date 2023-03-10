@@ -221,9 +221,30 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Ny meddelelse-ikon
+    .title = Ny meddelelse
+threadpane-message-replied =
+    .alt = Besvaret-ikon
+    .title = Meddelelse besvaret
 threadpane-message-redirected =
+    .alt = Omdirigeret-ikon
+    .title = Meddelelse omdirigeret
+threadpane-message-forwarded =
     .alt = Videresendt-ikon
     .title = Meddelelse videresendt
+threadpane-message-replied-forwarded =
+    .alt = Besvaret og videresendt-ikon
+    .title = Meddelelse besvaret og videresendt
+threadpane-message-replied-redirected =
+    .alt = Besvaret og omdirigeret-ikon
+    .title = Meddelelse besvaret og omdirigeret
+threadpane-message-forwarded-redirected =
+    .alt = Videresendt og omdirigeret-ikon
+    .title = Meddelelse videresendt og omdirigeret
+threadpane-message-replied-forwarded-redirected =
+    .alt = Besvaret, videresendt og omdirigeret-ikon
+    .title = Meddelelse besvaret, videresendt og omdirigeret
 apply-columns-to-menu =
     .label = Anvend kolonner i…
 apply-current-view-to-menu =
