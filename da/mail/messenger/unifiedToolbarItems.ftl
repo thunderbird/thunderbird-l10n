@@ -85,6 +85,7 @@ toolbar-mark-as =
 toolbar-view-picker-label = Vis
 toolbar-view-picker =
     .title = Tilpas udseendet på denne mappe
+toolbar-address-book-label = Adressebog
 toolbar-address-book =
     .title = Gå til adressebogen
 toolbar-chat-label = Chat
