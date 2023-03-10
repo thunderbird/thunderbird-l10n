@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Αποθήκευση πρόχειρων μηνυμάτων σε κρυπτογραφημένη μορφή
     .accesskey = κ
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Αποστολή δημόσιων κλειδιών OpenPGP στις κεφαλίδες των email για συμβατότητα με το Autocrypt
+    .accesskey = t
 openpgp-key-user-id-label = Λογαριασμός/ID χρήστη
 openpgp-keygen-title-label =
     .title = Δημιουργία κλειδιού OpenPGP

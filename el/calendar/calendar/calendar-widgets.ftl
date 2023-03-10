@@ -81,6 +81,8 @@ calendar-find-events-menu-option =
     .label = Προβολή εύρεσης εκδηλώσεων
 calendar-hide-weekends-option =
     .label = Εργάσιμες ημέρες μόνο
+calendar-define-workweek-option =
+    .label = Ορισμός εργάσιμων ημερών
 
 ## Calendar Context Menu
 
