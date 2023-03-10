@@ -77,6 +77,8 @@ calendar-view-toggle-month = Ay
 
 calendar-control-bar-menu-button =
     .title = Takvim düzeni seçenekleri
+calendar-find-events-menu-option =
+    .label = Etkinlik bulma bölmesi
 calendar-hide-weekends-option =
     .label = Sadece iş günleri
 calendar-define-workweek-option =
