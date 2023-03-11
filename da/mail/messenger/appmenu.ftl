@@ -5,13 +5,26 @@
 
 ## Sync
 
-appmenu-sync-panel-title =
-    .title = Sync
 appmenu-signin-panel =
     .label = Log ind på Sync
     .accesskey = L
+appmenu-sync-sync =
+    .value = Kontosynkronisering
+    .accesskey = K
+appmenu-sync-manage =
+    .value = Håndter konto
+    .accesskey = H
 appmenu-sync-account =
     .value = nogen@eksempel.dk
+appmenu-sync-now =
+    .label = Synkroniser nu
+    .accesskey = n
+appmenu-sync-settings =
+    .label = Synkroniseringsindstillinger
+    .accesskey = S
+appmenu-sync-sign-out =
+    .label = Log ud...
+    .accesskey = U
 
 ## New Account
 
