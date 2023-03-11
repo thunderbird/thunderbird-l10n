@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Immagazinar minuta de messages in formato cryptate
     .accesskey = m
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Invia clave public OpenPGP(s) in le titulos del emails pro compatibilitate con Autocrypt
+    .accesskey = t
 openpgp-key-user-id-label = Count/ID usator
 openpgp-keygen-title-label =
     .title = Generar clave OpenPGP
@@ -135,6 +139,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Inviar un clave public per email
     .accesskey = I
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -142,6 +148,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Copiar le IDs clave al area de transferentia
         }
     .accesskey = C
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -149,6 +157,8 @@ openpgp-key-man-copy-fprs =
            *[other] Copiar impressiones digital al area de transferentia
         }
     .accesskey = C
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -161,6 +171,8 @@ openpgp-key-man-ctx-expor-to-file-label =
 openpgp-key-man-ctx-copy =
     .label = Copiar
     .accesskey = C
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -168,6 +180,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Impressiones digital
         }
     .accesskey = I
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -175,6 +189,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] IDs de clave
         }
     .accesskey = I
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -332,9 +348,9 @@ openpgp-radio-none-desc = Non usa OpenPGP pro iste identitate.
 openpgp-radio-key-not-usable = Iste clave non es usabile como un clave personal, perque le clave secrete manca!
 openpgp-radio-key-not-accepted = Pro usar iste clave tu debe approbar lo como un clave personal!
 openpgp-radio-key-not-found = Impossibile trovar iste clave! Si tu vole usar lo, tu debe importar lo a in { -brand-short-name }.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Expira le: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Expirate le: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = Le clave expira in minus de 6 menses
@@ -353,7 +369,9 @@ openpgp-key-remove-external =
     .label = Remover clave GnuPG externe
     .accesskey = e
 key-external-label = Clave GnuPG externe
-# Strings in keyDetailsDlg.xhtml
+
+## Strings in keyDetailsDlg.xhtml
+
 key-type-public = clave public
 key-type-primary = clave primari
 key-type-subkey = sub-clave
@@ -364,18 +382,28 @@ key-usage-sign = Signar
 key-usage-certify = Certificar
 key-usage-authentication = Authentication
 key-does-not-expire = Le clave non expira
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Le clave ha expirate le { $keyExpiry }
 key-expired-simple = Le clave ha expirate
 key-revoked-simple = Le clave ha essite revocate
 key-do-you-accept = Accepta tu iste clave pro verificante firmas digital e pro cryptar messages?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Verifica le dactylogramma del clave usante un canal de communication secur, differente de e-mail, pro verificar que illo es realmente le clave de { $addr }.
-# Strings enigmailMsgComposeOverlay.js
+
+## Strings enigmailMsgComposeOverlay.js
+
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Impossibile inviar le message, perque il ha un problema con tu clave personal. { $problem }
 cannot-encrypt-because-missing = Impossibile inviar iste message con cryptographia end-to-end, perque il ha problemas con le claves del sequente destinatarios: { $problem }
 window-locked = Le fenestra de composition es blocate; invio cancellate
 # Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-concealed-data = Isto es un parte de message cryptate. Tu debe aperir lo in un fenestra separate cliccante sur le annexo.
-# Strings in keyserver.jsm
+
+## Strings in keyserver.jsm
+
 keyserver-error-aborted = Abortate
 keyserver-error-unknown = Un error incognite occurreva
 keyserver-error-server-error = Le servitor-de-clave ha signalate un error.
@@ -384,34 +412,50 @@ keyserver-error-unavailable = Servitor-de-claves indisponibile
 keyserver-error-security-error = Le servitor non supporta accesso cryptate.
 keyserver-error-certificate-error = Le certificato del servitor-de-claves non es valide.
 keyserver-error-unsupported = Le servitor-de-claves non es disponibile.
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.jsm
+
 wkd-message-body-req =
     Tu fornitor de e-mail ha processate tu requesta de incargar tu clave public al directorio web de claves OpenPGP.
     Per favor confirma pro concluder le publication de tu clave public.
 wkd-message-body-process =
     Iste message de e-mail concerne le processo automatic del incargamento de tu clave public al directorio web de claves OpenPGP.
     Non es necessari prender alcun action manual in iste momento.
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.jsm
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Impossibile decifrar message con subjecto
     { $subject }.
     Vole tu reprobar con un differente phrase contrasigno o saltar le message?
-# Strings filters.jsm
+
+## Strings filters.jsm
+
 filter-folder-required = Tu debe eliger un dossier de destination.
 filter-decrypt-move-warn-experimental =
     ATTENTION - le action del filtro "Decifrar permanentemente" pote ducer a destruer messages.
     Nos consilia fortemente que tu prova primo le filtro "Crear copia decifrate", test le resultato accuratemente e comenciar a usar iste filtro solo un vice que tu es satisfacite del resultato.
 filter-term-pgpencrypted-label = Cryptate OpenPGP
 filter-key-required = Tu debe seliger un clave destinatario.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Impossibile trover un clave de cryptation pro '{ $desc }'.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     ATTENTION - le action del filtro "Cryptar al clave" replacia le destinatarios.
     Si tu non ha le secreto clave secrete pro '{ $desc }' tu non potera plus leger le emails.
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.jsm
+
 filter-decrypt-move-label = Decryptar permanentemente (OpenPGP)
 filter-decrypt-copy-label = Crear copia decryptate (OpenPGP)
 filter-encrypt-label = Crypta tu clave (OpenPGP)
-# Strings in enigmailKeyImportInfo.js
+
+## Strings in enigmailKeyImportInfo.js
+
 import-info-title =
     .title = Claves importate con successo
 import-info-bits = Bits
@@ -419,11 +463,15 @@ import-info-created = Create
 import-info-fpr = Dactylogramma
 import-info-details = Vider detalios e gerer acceptation del clave
 import-info-no-keys = Nulle claves importate
-# Strings in enigmailKeyManager.js
+
+## Strings in enigmailKeyManager.js
+
 import-from-clip = Vole tu importar alcun claves ab area de transferentia?
 import-from-url = Discargar clave public ex iste URL:
 copy-to-clipbrd-failed = Impossibile copiar le clave(s) seligite in le area de transferentia.
 copy-to-clipbrd-ok = Clave(s) copiate in le area de transferentia
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     ATTENTION: Tu va deler un clave secrete!
     
@@ -435,6 +483,8 @@ delete-mix =
     ATTENTION: Tu va deler le claves secrete!
     Si tu dele tu clave secrete, tu non sera plus capace a decifrar ulle messages cryptate pro ille clave.
     Vole tu vermente deler AMBE, le claves secrete e public seligite?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Vole tu deler le clave public
     '{ $userId }'?
@@ -457,6 +507,8 @@ default-pub-key-filename = Claves-public-exportate
 default-pub-sec-key-filename = Reserva-de-claves-secrete
 refresh-key-warn = ATTENTION: secundo le numero de claves e le velocitate de connexion, le actualisation de tote le claves pote esser un  processo bastante longe!
 preview-failed = Impossibile leger file clave public.
+# Variables:
+# $reason (String) - Error description.
 general-error = Error: { $reason }
 dlg-button-delete = &Deler
 
@@ -466,7 +518,12 @@ openpgp-export-public-success = <b>Clave public exportate con successo!</b>
 openpgp-export-public-fail = <b>Impossibile exportar le clave public seligite!</b>
 openpgp-export-secret-success = <b>Clave secrete exportate con successo!</b>
 openpgp-export-secret-fail = <b>Impossibile exportar le clave secrete seligite!</b>
-# Strings in keyObj.jsm
+
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Le clave { $userId } (ID clave { $keyId }) es revocate.
 key-ring-pub-key-expired = Le clave { $userId } (ID clave { $keyId }) es expirate.
 key-ring-no-secret-key = Tu non pare haber le clave secrete pro { $userId } (ID clave { $keyId }) sur tu anello de claves; tu non pote usa le clave pro signar.
@@ -476,10 +533,14 @@ key-ring-sign-sub-keys-revoked = Tote le sub-claves-firma del clave { $userId } 
 key-ring-sign-sub-keys-expired = Tote le sub-claves-firma del clave { $userId } (ID clave { $keyId }) es expirate.
 key-ring-enc-sub-keys-revoked = Tote le sub-claves-firma del clave { $userId } (ID clave { $keyId }) es revocate, expirate o alteremente inusabile.
 key-ring-enc-sub-keys-expired = Tote le sub-claves cryptographic del clave { $userId } (ID clave { $keyId }) es expirate.
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.jsm
+
 keyring-photo = Photo
 user-att-photo = Attributo del usator (imagine JPEG)
-# Strings in key.jsm
+
+## Strings in key.jsm
+
 already-revoked = Iste clave ha jam essite revocate.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -499,7 +560,9 @@ after-revoke-info =
     Comparti iste clave public de novo, inviante lo per email o incargante lo a servitores de claves, pro facer saper al alteres que tu ha revocate tu clave.
     Quando le software usate per altere personas apprende sur le revocation, illo cessara de usar tu clave ancian.
     Si tu usa un nove clave pro le mesme adresse de e-mail, e tu attacha le nove clave public al messages de e-mail que tu invia, alora le information sur tu clave ancian revocate essera automaticamente includite.
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.jsm & decryption.jsm
+
 key-man-button-import = &Importar
 delete-key-title = Deler clave OpenPGP
 delete-external-key-title = Remover le clave externe GnuPG
@@ -507,26 +570,44 @@ delete-external-key-description = Vole tu remover iste ID clave externe GnuPG?
 key-in-use-title = Clave OpenPGP actualmente in uso
 delete-key-in-use-description = Impossibile continuar! Le clave que tu ha seligite pro deletion es actualmente usate per iste identitate. Elige un clave differente o nulle e reproba.
 revoke-key-in-use-description = Impossibile continuar! Le clave que tu ha seligite pro revocation es actualmente usate per iste identitate. Elige un clave differente o nulle e reproba.
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.jsm
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = Le adresse email '{ $keySpec }' non pote esser concordate a un clave sur tu anello de claves.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = Le ID clave configurate '{ $keySpec }' non pote esser trovate sur tu anello de claves.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Tu non ha confirmate que le clave con ID '{ $keySpec }' es tu clave personal.
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 need-online = Le function que tu ha seligite non es disponibile in modo sin connexion. Per favor va online e reproba.
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 no-key-found2 = Impossibile trovar ulle clave utile concordante le criterios de recerca specificate.
 no-update-found = Tu jam ha le claves discoperite online.
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 fail-key-extract = Error - Commando de extraction clave fallite
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.jsm
+
 fail-cancel = Error - reception clave cancellate per le usator
 not-first-block = Error - Prime blocada de OpenPGP non es blocada de clave public
 import-key-confirm = Importar clave(s) public integrate in le message?
 fail-key-import = Error - importation de clave fallite
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Falta a scriber al file { $output }
 no-pgp-block = Error - Nulle valide bloco datos OpenPGP cuirassate trovate
 confirm-permissive-import = Importation fallite. Le clave que tu tenta importar pote esser corrumpite o usa attributos incognite. Vole tu tentar de importar le partes que es correcte? Isto pote comportar le importation de claves incomplete e inusabile.
-# Strings used in trust.jsm
+
+## Strings used in trust.jsm
+
 key-valid-unknown = incognite
 key-valid-invalid = non valide
 key-valid-disabled = disactivate
@@ -537,14 +618,20 @@ key-trust-marginal = marginal
 key-trust-full = fidabile
 key-trust-ultimate = ultimate
 key-trust-group = (gruppo)
-# Strings used in commonWorkflows.js
+
+## Strings used in commonWorkflows.js
+
 import-key-file = Importar le file clave OpenPGP
 import-rev-file = Importar le le revocation del file OpenPGP
 gnupg-file = Files GnuPG
 import-keys-failed = Importation de claves fallite!
+# Variables:
+# $key (String) - Key id to unlock.
 passphrase-prompt = Insere le phrase contrasigno que disbloca le sequente clave: { $key }
 file-to-big-to-import = Iste file es troppo grande. Non importar grande gruppos de claves contemporaneemente.
-# Strings used in enigmailKeygen.js
+
+## Strings used in enigmailKeygen.js
+
 save-revoke-cert-as = Crear e salvar le certificato de revocation
 revoke-cert-ok = Le certificato de revocation ha essite create con successo. Tu pote usar lo pro invalidar tu clave public, e.g. in caso tu perde tu clave secrete.
 revoke-cert-failed = Le certificato de revocation non pote esser create.
@@ -552,33 +639,53 @@ gen-going = Generation del clave jam in curso!
 keygen-missing-user-name = Il ha nulle nomine specificate pro le conto/identitate seligite. Insere un valor in le campo · "Tu nomine" in le parametros del conto.
 expiry-too-short = Tu clave debe esser valide pro al minus un die.
 expiry-too-long = Tu non pote crea un clave que expira in plus de 100 annos.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Generar clave public e secrete pro '{ $id }'?
 key-man-button-generate-key = &Generar clave
 key-abort = Abortar le generation del clave?
 key-man-button-generate-key-abort = &Abortar le generation del clave
 key-man-button-generate-key-continue = &Continuar le generation del clave
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
 
 failed-decrypt = Error - decryptation fallite
 fix-broken-exchange-msg-failed = Insuccesso a reparar message.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Impossibile associar file firma '{ $attachment } a un annexo
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Impossibile associar annexo '{ $attachment }' a un file firma
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = Le firma pro le annexo { $attachment } ha essite verificate con successo
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = Le firma pro le annexo { $attachment } non pote esser verificate
 decrypt-ok-no-sig =
     ATTENTION
     Decryptation exequite con successo, ma le firma non pote esser verificate correctemente
 msg-ovl-button-cont-anyway = &Continuar comocunque
 enig-content-note = *Annexos a iste message non ha essite signate ni cryptate*
-# Strings used in enigmailMsgComposeOverlay.js
+
+## Strings used in enigmailMsgComposeOverlay.js
+
 msg-compose-button-send = Inviar message (&Send)
 msg-compose-details-button-label = Detalios…
 msg-compose-details-button-access-key = D
 send-aborted = Invio abortate.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Insufficiente fide pro le clave '{ $key }'
+# Variables:
+# $key (String) - Key id.
 key-not-found = Clave '{ $key }' non trovate
+# Variables:
+# $key (String) - Key id.
 key-revoked = Clave '{ $key }' revocate
+# Variables:
+# $key (String) - Key id.
 key-expired = Clave '{ $key }' expirate
 msg-compose-internal-error = Error interne.
 keys-to-export = Eliger claves OpenPGP a inserer
@@ -590,6 +697,8 @@ msg-compose-partially-encrypted-short = Presta attention al revelation de datos 
 quoted-printable-warn =
     Tu ha activate codification 'citate-imprimibile' pro inviar messages. Isto pote comportar decryptation o verification non correcte de tu message.
     Vole tu disactivar ora le invio de messages 'citate-imprimibile'?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Tu ha configurate le ruptura e inveloppamento del lineas a { $width } characteres. Pro correcte cryptation o signatura, iste valor debe esser al minus 68.
     Vole tu cambiar ora le ruptura e inveloppamento del lineas a 68 characteres
@@ -604,31 +713,58 @@ send-to-news-warning =
     Continuar?
 save-attachment-header = Salvar le annexo decifrate
 possibly-pgp-mime = Forsan message cryptate o signate PGP/MIME; pro verificar usa le function 'Decifrar/Verificar'
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Impossibile firmar digitalmente iste message, perque tu non ha ancora configurate le cryptographia end-to-end pro <{ $key }>
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Impossibile firmar digitalmente iste message, perque tu non ha ancora configurate le cryptographia end-to-end pro <{ $key }>
-# Strings used in decryption.jsm
+
+## Strings used in decryption.jsm
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Importar le claves sequente?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = Importar { $name } ({ $id })?
 cant-import = Error al importation del clave public
 unverified-reply = Le parte indentate del message (responsa) ha probabilemente essite modificate
 key-in-message-body = Un clave ha essite trovate in le corpore del message.
 sig-mismatch = Error - discordantia firma
 invalid-email = Error - adresse(s) email  invalide
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Le annexo '{ $name }' que tu aperi appare esser un file clave OpenPGP.
     Clicca 'Importar' pro importar le claves continite o 'Vider' pro vider le contentos del file in un fenestra de navigator
 dlg-button-view = &Vider
-# Strings used in enigmailMsgHdrViewOverlay.js
+
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 decrypted-msg-with-format-error = Message decryptate (restaurate formato de email PGP corrupte, probabilemente causate per un vetere servitor Exchange, de maniera que le resultato pote non esser perfecte a leger)
-# Strings used in encryption.jsm
+
+## Strings used in encryption.jsm
+
 not-required = Error - nulle cryptation requirite
-# Strings used in windows.jsm
+
+## Strings used in windows.jsm
+
 no-photo-available = Nulle photos disponibile
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Le route del photo '{ $photo }' non es legibile
 debug-log-title = Registro de depuration OpenPGP
-# Strings used in dialog.jsm
+
+## Strings used in dialog.jsm
+
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix = Iste aviso se repetera { $count }
 repeat-suffix-singular = altere vice.
 repeat-suffix-plural = altere vices.
@@ -642,9 +778,13 @@ enig-prompt = Sollicitation OpenPGP
 enig-confirm = Confirmation OpenPGP
 enig-alert = Alerta OpenPGP
 enig-info = Information OpenPGP
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.jsm
+
 dlg-button-retry = &Retentar
 dlg-button-skip = &Saltar
-# Strings used in enigmailMsgBox.js
+
+## Strings used in enigmailMsgBox.js
+
 enig-alert-title =
     .title = Alerta OpenPGP
