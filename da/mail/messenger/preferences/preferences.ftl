@@ -725,6 +725,7 @@ sync-signedout-caption = Tag dit net med dig
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = “{ $userEmail }” er ikke bekræftet
+sync-pane-resend-verification = Gensend bekræftelse
 sync-pane-sign-in = Log ind
 sync-pane-remove-account = Fjern konto
 sync-pane-edit-photo =
@@ -732,6 +733,7 @@ sync-pane-edit-photo =
 sync-pane-manage-account = Håndter konto
 sync-pane-sign-out = Log ud...
 sync-pane-device-name-title = Enhedens navn
+sync-pane-change-device-name = Skift enhedsnavn
 sync-pane-cancel = Annuller
 sync-pane-save = Gem
 sync-pane-show-synced-header-on = Synkronisering TIL
