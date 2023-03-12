@@ -10,10 +10,19 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Calendarios
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-tooltip =
     .title = Opción del calendario { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Se ha silenciado el calendario { $calendarName }
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Opciones del calendario { $calendarName }
 calendar-import-new-calendar = Nuevo calendario…
     .title = Crear o suscribirse a un nuevo calendario
 calendar-refresh-calendars =
@@ -35,6 +44,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Mes anterior
     .accesskey = r
+calendar-nav-button-prev-tooltip-year =
+    .title = Año anterior
+    .accesskey = r
 calendar-nav-button-next-tooltip-day =
     .title = Día siguiente
     .accesskey = s
@@ -47,6 +59,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Mes siguiente
     .accesskey = s
+calendar-nav-button-next-tooltip-year =
+    .title = Año siguiente
+    .accesskey = g
 calendar-today-button-tooltip =
     .title = Ir a hoy
 calendar-view-toggle-day = Día
@@ -60,6 +75,14 @@ calendar-view-toggle-month = Mes
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Opciones de diseño del calendario
+calendar-find-events-menu-option =
+    .label = Panel de búsqueda de eventos
+calendar-hide-weekends-option =
+    .label = Sólo días laborables
+calendar-define-workweek-option =
+    .label = Definir días laborables
 
 ## Calendar Context Menu
 

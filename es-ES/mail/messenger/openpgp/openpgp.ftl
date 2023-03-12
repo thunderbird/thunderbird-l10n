@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Almacenar borradores de mensajes en formato cifrado
     .accesskey = r
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Enviar la(s) clave(s) pública(s) OpenPGP en las cabeceras del correo electrónico para mantener la compatibilidad con Autocrypt
+    .accesskey = A
 openpgp-key-user-id-label = Cuenta / ID de usuario
 openpgp-keygen-title-label =
     .title = Generar clave OpenPGP

@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Reparar la codificación de texto
     .accesskey = c
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Cabecera del panel de carpetas
+    .accesskey = C
+
 ## View / Layout
 
 menu-font-size-label =
