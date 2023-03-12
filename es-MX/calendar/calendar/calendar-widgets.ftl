@@ -79,6 +79,8 @@ calendar-control-bar-menu-button =
     .title = Opciones de diseño de calendario
 calendar-hide-weekends-option =
     .label = Sólo días laborales
+calendar-define-workweek-option =
+    .label = Definir los días laborales
 
 ## Calendar Context Menu
 
