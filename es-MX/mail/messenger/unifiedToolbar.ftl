@@ -72,6 +72,10 @@ customize-palette-add-everywhere =
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Mover hacia adelante
+customize-target-backward =
+    .label = Mover hacia atrás
 customize-target-remove =
     .label = Eliminar
 customize-target-remove-everywhere =
