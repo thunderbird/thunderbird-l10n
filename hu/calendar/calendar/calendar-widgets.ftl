@@ -75,6 +75,14 @@ calendar-view-toggle-month = Hónap
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = A naptár elrendezési lehetőségei
+calendar-find-events-menu-option =
+    .label = Események keresése ablaktábla
+calendar-hide-weekends-option =
+    .label = Csak munkanapokon
+calendar-define-workweek-option =
+    .label = Munkanapok meghatározása
 
 ## Calendar Context Menu
 
