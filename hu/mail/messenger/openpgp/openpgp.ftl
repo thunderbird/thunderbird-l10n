@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Piszkozatok titkosított formátumban tárolása
     .accesskey = P
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = OpenPGP nyilvános kulcsok küldése a levelek fejlécében az Autocrpyt-kompatibilitás érdekében
+    .accesskey = t
 openpgp-key-user-id-label = Fiók / felhasználói azonosító
 openpgp-keygen-title-label =
     .title = OpenPGP-kulcs előállítása
@@ -135,6 +139,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Nyilvános kulcs küldése e-mailben
     .accesskey = k
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -142,6 +148,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Kulcsazonosítók vágólapra másolása
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -149,6 +157,8 @@ openpgp-key-man-copy-fprs =
            *[other] Ujjlenyomatok vágólapra másolása
         }
     .accesskey = U
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -161,6 +171,8 @@ openpgp-key-man-ctx-expor-to-file-label =
 openpgp-key-man-ctx-copy =
     .label = Másolás
     .accesskey = M
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -168,6 +180,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Ujjlenyomatok
         }
     .accesskey = U
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -175,6 +189,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] Kulcsazonosítók
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -332,9 +348,9 @@ openpgp-radio-none-desc = Ne használjon OpenPGP-t ehhez a személyazonossághoz
 openpgp-radio-key-not-usable = Ez a kulcs nem használható személyes kulcsként, mert hiányzik a titkos kulcs.
 openpgp-radio-key-not-accepted = A kulcs használatához jóvá kell hagynia személyes kulcsként.
 openpgp-radio-key-not-found = Ez a kulcs nem található. Ha használná, akkor importálnia kell a { -brand-short-name }be.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Lejár: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Lejárt: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = A kulcs kevesebb, mint 6 hónap múlva lejár
@@ -353,7 +369,9 @@ openpgp-key-remove-external =
     .label = Külső kulcsazonosító eltávolítása
     .accesskey = K
 key-external-label = Külső GnuPG-kulcs
-# Strings in keyDetailsDlg.xhtml
+
+## Strings in keyDetailsDlg.xhtml
+
 key-type-public = nyilvános kulcs
 key-type-primary = elsődleges kulcs
 key-type-subkey = alkulcs
@@ -364,18 +382,28 @@ key-usage-sign = Aláírás
 key-usage-certify = Tanúsítás
 key-usage-authentication = Hitelesítés
 key-does-not-expire = A kulcs nem jár le
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = A kulcs ekkor lejárt: { $keyExpiry }
 key-expired-simple = A kulcs lejárt
 key-revoked-simple = A kulcsot visszavonták
 key-do-you-accept = Elfogadja ezt a kulcsot a digitális aláírások ellenőrzéséhez és az üzenetek titkosításához?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Ellenőrizze a kulcs ujjlenyomatát az e-mailtől eltérő biztonságos kommunikációs csatornával, hogy megbizonyosodjon arról, hogy ez valóban a(z) { $addr } kulcsa.
-# Strings enigmailMsgComposeOverlay.js
+
+## Strings enigmailMsgComposeOverlay.js
+
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Az üzenet nem küldhető el, mert probléma van a személyes kulcsával. { $problem }
 cannot-encrypt-because-missing = Az üzenetet nem lehet végpontok közötti titkosítással elküldeni, mert problémák vannak a következő címzettek kulcsaival: { $problem }
 window-locked = Az írási ablak zárolva van; küldés megszakítva
 # Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-concealed-data = Ez egy titkosított üzenetrész. A mellékletre kattintva, egy külön ablakban kell megnyitnia.
-# Strings in keyserver.jsm
+
+## Strings in keyserver.jsm
+
 keyserver-error-aborted = Megszakítva
 keyserver-error-unknown = Ismeretlen hiba történt
 keyserver-error-server-error = A kulcskiszolgáló hibát jelentett.
@@ -384,34 +412,50 @@ keyserver-error-unavailable = A kulcskiszolgáló nem érhető el.
 keyserver-error-security-error = A kulcskiszolgáló nem támogatja a titkosított hozzáférést.
 keyserver-error-certificate-error = A kulcskiszolgáló tanúsítványa nem érvényes.
 keyserver-error-unsupported = A kulcskiszolgáló nem támogatott.
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.jsm
+
 wkd-message-body-req =
     Az e-mail szolgáltatója feldolgozta a nyilvános kulcs feltöltésére vonatkozó kérését az OpenPGP webes kulcstárba.
     Erősítse meg, hogy befejezze a nyilvános kulcs közzétételét.
 wkd-message-body-process =
     Ez az e-mail az OpenPGP webes kulcstárba feltöltött nyilvános kulcs automatikus feldolgozásával kapcsolatos.
     Jelenleg nincs semmilyen teendője.
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.jsm
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Nem sikerült visszafejteni a következő tárgyú üzenetet:
     { $subject }.
     Újrapróbálkozik egy másik jelszóval, vagy ki akarja hagyni az üzenetet?
-# Strings filters.jsm
+
+## Strings filters.jsm
+
 filter-folder-required = Ki kell választania a célmappát.
 filter-decrypt-move-warn-experimental =
     Figyelmeztetés – a „Végleges visszafejtés” szűrési művelet tönkrement üzeneteket eredményezhet.
     Erősen javasolt, hogy először használja a „Visszafejtett másolat létrehozása” szűrőt, ellenőrizze az eredményt, és csak akkor kezdje el a szűrőt használni, ha elégedett az eredménnyel.
 filter-term-pgpencrypted-label = OpenPGP-vel titkosított
 filter-key-required = Ki kell választania a címzett kulcsát.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Nem található titkosítási kulcs a következőhöz: „{ $desc }”.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Figyelmeztetés – a „Titkosítás kulcshoz” szűrési művelet lecseréli a címzetteket.
     Ha nincs meg a titkos kulcs ehhez: „{ $desc }”, akkor többé nem fogja tudni elolvasni az e-maileket.
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.jsm
+
 filter-decrypt-move-label = Végleges visszafejtés (OpenPGP)
 filter-decrypt-copy-label = Visszafejtett másolat létrehozása (OpenPGP)
 filter-encrypt-label = Titkosítás a kulcshoz (OpenPGP)
-# Strings in enigmailKeyImportInfo.js
+
+## Strings in enigmailKeyImportInfo.js
+
 import-info-title =
     .title = Sikeres! Kulcsok importálva
 import-info-bits = Bitek
@@ -419,11 +463,15 @@ import-info-created = Létrehozva
 import-info-fpr = Ujjlenyomat
 import-info-details = Részletek megtekintése és a kulcselfogadás kezelése
 import-info-no-keys = Nem lett kulcs importálva.
-# Strings in enigmailKeyManager.js
+
+## Strings in enigmailKeyManager.js
+
 import-from-clip = Szeretne kulcsokat importálni a vágólapról?
 import-from-url = Nyilvános kulcsok letöltése erről az URL-ről:
 copy-to-clipbrd-failed = A kiválasztott kulcsok nem másolhatók a vágólapra.
 copy-to-clipbrd-ok = Kulcsok a vágólapra másolva
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     FIGYELEM: Egy titkos kulcs törlésére készül!
     
@@ -435,6 +483,8 @@ delete-mix =
     FIGYELEM: Egy titkos kulcs törlésére készül!
     Ha törli a titkos kulcsot, akkor többé nem fogja tudni visszafejteni az ahhoz a kulcshoz titkosított üzeneteket.
     Biztos, hogy törli a következő titkos ÉS nyilvános kulcsot is?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Biztos, hogy törli a következő nyilvános kulcsot:
     „{ $userId }”?
@@ -455,6 +505,8 @@ default-pub-key-filename = Exportált nyilvános kulcsok
 default-pub-sec-key-filename = Titkos kulcsok biztonsági mentése
 refresh-key-warn = Figyelmeztetés: a kulcsok számától és a kapcsolat sebességétől függően, az összes kulcs frissítése meglehetősen hosszú folyamat lehet.
 preview-failed = Nem olvasható a nyilvános kulcs fájlja.
+# Variables:
+# $reason (String) - Error description.
 general-error = Hiba: { $reason }
 dlg-button-delete = Tör&lés
 
@@ -464,7 +516,12 @@ openpgp-export-public-success = <b>A nyilvános kulcs exportálása sikeres!</b>
 openpgp-export-public-fail = <b>A kiválasztott nyilvános kulcs nem exportálható!</b>
 openpgp-export-secret-success = <b>A titkos kulcs exportálása sikeres!</b>
 openpgp-export-secret-fail = <b>A kiválasztott titkos kulcs nem exportálható!</b>
-# Strings in keyObj.jsm
+
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = A(z) { $userId } kulcsot (kulcsazonosító: { $keyId }) visszavonták.
 key-ring-pub-key-expired = A(z) { $userId } kulcs (kulcsazonosító: { $keyId }) lejárt.
 key-ring-no-secret-key = Úgy tűnik, hogy nem rendelkezik a(z) { $userId } kulccsal (kulcsazonosító: { $keyId }) a kulcstartójában: nem használhatja a kulcsot aláíráshoz.
@@ -474,10 +531,14 @@ key-ring-sign-sub-keys-revoked = A(z) { $userId } kulcs (kulcsazonosító: { $ke
 key-ring-sign-sub-keys-expired = A(z) { $userId } kulcs (kulcsazonosító: { $keyId }) összes aláírási alkulcsa lejárt.
 key-ring-enc-sub-keys-revoked = A(z) { $userId } kulcs (kulcsazonosító: { $keyId }) összes titkosítási alkulcsát visszavonták.
 key-ring-enc-sub-keys-expired = A(z) { $userId } kulcs (kulcsazonosító: { $keyId }) összes titkosítási alkulcsa lejárt.
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.jsm
+
 keyring-photo = Fénykép
 user-att-photo = Felhasználói attribútum (JPEG-kép)
-# Strings in key.jsm
+
+## Strings in key.jsm
+
 already-revoked = Ezt a kulcsot már visszavonták.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -497,7 +558,9 @@ after-revoke-info =
     Ossza meg újra ezt a nyilvános kulcsot, e-mailben elküldve, vagy kulcskiszolgálókra feltöltve, hogy mások tudják, hogy visszavonta a kulcsot.
     Amint a mások által használt szoftver megtudja a visszavonást, az már nem használja a régi kulcsot.
     Ha ugyanahhoz az e-mail-címhez új kulcsot használ, és az új nyilvános kulcsot csatolja az elküldött e-mailekhez, akkor a visszavont régi kulcsra vonatkozó információk automatikusan belekerülnek.
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.jsm & decryption.jsm
+
 key-man-button-import = &Importálás
 delete-key-title = OpenPGP-kulcs törlése
 delete-external-key-title = Külső GnuPG-kulcs eltávolítása
@@ -505,26 +568,44 @@ delete-external-key-description = Eltávolítaná ezt a külső GnuPG-kulcsazono
 key-in-use-title = Jelenleg használt OpenPGP-kulcs
 delete-key-in-use-description = Nem lehet folytatni. A törlésre kiválasztott kulcsot jelenleg ez a személyazonosság használja. Válasszon egy másik kulcsot, vagy szüntesse meg a kiválasztást, és próbálja újra.
 revoke-key-in-use-description = Nem lehet folytatni. A visszavonásra kiválasztott kulcsot jelenleg ez a személyazonosság használja. Válasszon egy másik kulcsot, vagy szüntesse meg a kiválasztást, és próbálja újra.
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.jsm
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = A(z) „{ $keySpec }” e-mail-cím nem felel meg a kulcstartó egyetlen kulcsának sem.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = A beállított „{ $keySpec }” kulcsazonosító nem található a kulcstartóban.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Nem erősítette meg, hogy a(z) „{ $keySpec }” azonosítójú kulcs a személyes kulcsa.
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 need-online = A kiválasztott funkció offline módban nem érhető el. Kapcsolódjon és próbálja újra.
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 no-key-found2 = Nem található olyan használható kulcs, amely megfelelne a keresési feltételeknek.
 no-update-found = Már megvannak az online felfedezett kulcsok.
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 fail-key-extract = Hiba – a kulcskinyerési parancs sikertelen
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.jsm
+
 fail-cancel = Hiba – a felhasználó megszakította a kulcs fogadását
 not-first-block = Hiba – az első OpenPGP blokk nem nyilvános kulcs blokk
 import-key-confirm = Importálja az üzenetbe ágyazott nyilvános kulcsokat?
 fail-key-import = Hiba – a kulcs importálása sikertelen
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = A(z) { $output } fájlba írás sikertelen
 no-pgp-block = Hiba – nem található érvényes páncélozott OpenPGP-adatblokk
 confirm-permissive-import = Az importálás sikertelen. Lehet, hogy az importálandó kulcs sérült vagy ismeretlen attribútumokat használ. Megpróbálja a helyes részek importálását? Ez hiányos és használhatatlan kulcsokat eredményezhet.
-# Strings used in trust.jsm
+
+## Strings used in trust.jsm
+
 key-valid-unknown = ismeretlen
 key-valid-invalid = érvénytelen
 key-valid-disabled = tiltott
@@ -535,14 +616,20 @@ key-trust-marginal = marginális
 key-trust-full = megbízható
 key-trust-ultimate = teljesen megbízható
 key-trust-group = (csoport)
-# Strings used in commonWorkflows.js
+
+## Strings used in commonWorkflows.js
+
 import-key-file = OpenPGP-kulcsfájl importálása
 import-rev-file = OpenPGP visszavonási fájl importálása
 gnupg-file = GnuPG-fájlok
 import-keys-failed = A kulcsok importálása sikertelen
+# Variables:
+# $key (String) - Key id to unlock.
 passphrase-prompt = Írja be a jelmondatot, amely feloldja a következő kulcsot: { $key }
 file-to-big-to-import = A fájl túl nagy. Nem importáljon nagy kulcskészleteket egyszerre.
-# Strings used in enigmailKeygen.js
+
+## Strings used in enigmailKeygen.js
+
 save-revoke-cert-as = Visszavonási tanúsítvány létrehozása és mentése
 revoke-cert-ok = A visszavonási tanúsítvány sikeresen létrejött. Használhatja a nyilvános kulcs érvénytelenítéséhez, például abban az esetben, ha elveszíti a titkos kulcsát.
 revoke-cert-failed = A visszavonási tanúsítványt nem sikerült létrehozni.
@@ -550,33 +637,53 @@ gen-going = A kulcselőállítás már folyamatban van.
 keygen-missing-user-name = A kiválasztott fiókhoz/személyazonossághoz nincs megadva név. Adjon meg egy értéket a fiókbeállítások  „Az Ön neve” mezőjében.
 expiry-too-short = A kulcsának legalább egy napig érvényesnek kell lennie.
 expiry-too-long = Nem hozhat létre olyan kulcsot, amely több mint 100 év múlva jár le.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Előállítja a nyilvános és titkos kulcsot „{ $id }” számára?
 key-man-button-generate-key = Kulcs &előállítása
 key-abort = Megszakítja a kulcselőállítást?
 key-man-button-generate-key-abort = Kulcselőállítás &megszakítása
 key-man-button-generate-key-continue = Kulcselőállítás &folytatása
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
 
 failed-decrypt = Hiba – a visszafejtés sikertelen
 fix-broken-exchange-msg-failed = Az üzenet javítása nem sikerült.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Nem sikerült egyeztetni a(z) „{ $attachment }” aláírási fájlt egy melléklettel
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Nem sikerült egyeztetni a(z) „{ $attachment }” mellékletet egy aláírási fájllal
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = A(z) { $attachment } melléklet aláírása sikeresen ellenőrizve lett
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = A(z) { $attachment } melléklet aláírását nem lehetett ellenőrizni
 decrypt-ok-no-sig =
     Figyelem
     A visszafejtés sikeres volt, de az aláírást nem lehetett helyesen ellenőrizni
 msg-ovl-button-cont-anyway = &Folytatás mindenképp
 enig-content-note = *Az üzenet mellékletei nem lettek aláírva, sem titkosítva*
-# Strings used in enigmailMsgComposeOverlay.js
+
+## Strings used in enigmailMsgComposeOverlay.js
+
 msg-compose-button-send = Üzenet &küldése
 msg-compose-details-button-label = Részletek…
 msg-compose-details-button-access-key = R
 send-aborted = A küldési művelet megszakítva.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = A(z) „{ $key }” nem elég megbízható
+# Variables:
+# $key (String) - Key id.
 key-not-found = A(z) „{ $key }” kulcs nem található
+# Variables:
+# $key (String) - Key id.
 key-revoked = A(z) „{ $key }” kulcs visszavonva
+# Variables:
+# $key (String) - Key id.
 key-expired = A(z) „{ $key }” kulcs lejárt
 msg-compose-internal-error = Belső hiba történt.
 keys-to-export = Válassza ki az importálandó OpenPGP-kulcsokat
@@ -588,6 +695,8 @@ msg-compose-partially-encrypted-short = Figyeljen a bizalmas információk kiszi
 quoted-printable-warn =
     Engedélyezte az „idézett-nyomtatható” kódolást az üzenetek küldéséhez. Ez hibás visszafejtést vagy üzenet ellenőrzést eredményezhet.
     Kikapcsolja az „idézett-nyomtatható” üzeneteket?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     { $width } karakteresre állította a sortördelést. A helyes titkosításhoz és aláíráshoz ennek az értéknek legalább 68-nak kell lennie.
     68 karakteresre állítja a sortördelést?
@@ -600,31 +709,58 @@ send-to-news-warning =
     Folytatja?
 save-attachment-header = Visszafejtett melléklet mentése
 possibly-pgp-mime = Lehet, hogy PGP/MIME segítségével titkosított vagy aláírt üzenet; az ellenőrzéshez használja a „Visszafejtés/Ellenőrzés” funkciót
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Nem lehet digitálisan aláírni ezt az üzenetet, mert még nem állította be a végpontok közti titkosítást a(z) <{ $key }> számára
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Nem küldheti el titkosítva ezt az üzenetet, mert még nem állította be a végpontok közti titkosítást a(z) <{ $key }> számára
-# Strings used in decryption.jsm
+
+## Strings used in decryption.jsm
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Importálja a következő kulcsokat?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = { $name } ({ $id }) importálása?
 cant-import = Hiba a nyilvános kulcs importálásakor
 unverified-reply = A behúzott üzenetrész (válasz) valószínűleg módosítva lett
 key-in-message-body = Kulcs található az üzenettörzsben. Az importálásához kattintson a „Kulcs importálására”
 sig-mismatch = Hiba – az aláírás nem egyezik meg
 invalid-email = Hiba – érvénytelen e-mail-címek
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     A(z) „{ $name }” melléklet amit megnyit egy OpenPGP-kulcsfájlnak tűnik.
     Kattintson az „Importálásra” a tartalmazott kulcs importálásához, vagy a „Nézetre”, hogy megtekintse a fájl tartalmát egy böngészőablakban
 dlg-button-view = &Nézet
-# Strings used in enigmailMsgHdrViewOverlay.js
+
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 decrypted-msg-with-format-error = Visszafejtett üzenet (visszaállított hibás PGP e-mail-formátum, valószínűleg egy régi Exchange kiszolgáló miatt, így az eredmény lehet, hogy nem tökéletesen olvasható)
-# Strings used in encryption.jsm
+
+## Strings used in encryption.jsm
+
 not-required = Hiba – titkosítás nem szükséges
-# Strings used in windows.jsm
+
+## Strings used in windows.jsm
+
 no-photo-available = Nincs elérhető fénykép
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = A(z) „{ $photo }” fényképútvonal nem olvasható
 debug-log-title = OpenPGP hibakeresési napló
-# Strings used in dialog.jsm
+
+## Strings used in dialog.jsm
+
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix = Ez a figyelmeztetés { $count }
 repeat-suffix-singular = alkalommal meg lesz ismételve.
 repeat-suffix-plural = alkalommal meg lesz ismételve.
@@ -638,9 +774,13 @@ enig-prompt = OpenPGP kérdés
 enig-confirm = OpenPGP megerősítés
 enig-alert = OpenPGP figyelmeztetés
 enig-info = OpenPGP információ
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.jsm
+
 dlg-button-retry = Új&ra
 dlg-button-skip = &Kihagyás
-# Strings used in enigmailMsgBox.js
+
+## Strings used in enigmailMsgBox.js
+
 enig-alert-title =
     .title = OpenPGP figyelmeztetés
