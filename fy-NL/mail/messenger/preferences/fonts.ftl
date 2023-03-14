@@ -2,23 +2,20 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+fonts-dialog-title = Lettertypen
 fonts-window-close =
     .key = w
-
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Standert ({ $name })
 fonts-label-default-unnamed =
     .label = Standert
-
 fonts-encoding-dialog-title =
     .title = Lettertypen & tekensets
-
 fonts-language-legend =
     .value = Lettertypen foar:
     .accesskey = L
-
 fonts-proportional-label =
     .value = Proporsjoneel:
     .accesskey = P
@@ -89,45 +86,35 @@ font-language-group-tibetan =
 
 default-font-serif =
     .label = Mei skreef
-
 default-font-sans-serif =
     .label = Skreefleas
-
 font-size-proportional-label =
     .value = Grutte
     .accesskey = e
-
 font-size-monospace-label =
     .value = Grutte
     .accesskey = e
-
 font-serif-label =
     .value = Mei skreef:
     .accesskey = s
-
 font-sans-serif-label =
     .value = Skreefleas:
     .accesskey = k
-
 font-monospace-label =
     .value = Monospace:
     .accesskey = M
-
 font-min-size-label =
     .value = Minimale lettergrutte:
     .accesskey = n
-
 min-size-none =
     .label = Gjin
 
 ## Fonts in message
 
 font-control-legend = Lettertype-ynstellingen
-
 use-document-fonts-checkbox =
     .label = Berjochten tastean om oare lettertypen te brûken
     .accesskey = a
-
 use-fixed-width-plain-checkbox =
     .label = Fêstebreedtelettertype brûke foar platte tekstberjochten
     .accesskey = F
@@ -135,17 +122,13 @@ use-fixed-width-plain-checkbox =
 ## Language settings
 
 text-encoding-legend = Tekstkodearing
-
 text-encoding-description = Standert tekstkodearing foar ferstjoeren en ûntfangen fan e-mailberjochten
-
 font-outgoing-email-label =
     .value = Utgeande e-mailberjochten:
     .accesskey = U
-
 font-incoming-email-label =
     .value = Ynkommende e-mailberjochten:
     .accesskey = Y
-
 default-font-reply-checkbox =
     .label = Wannear mooglik, yn antwurden de standert tekstkodearing brûke
     .accesskey = W
