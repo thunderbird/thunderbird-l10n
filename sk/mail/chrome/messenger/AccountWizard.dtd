@@ -5,9 +5,7 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Sprievodca vytvorením účtu">
-<!ENTITY accountWizard.size "width: 48em; height: 39em;">
-
-<!-- Entities for Account Type page -->
+<!ENTITY accountWizard.size "width: 40em; height: 38em;">
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +33,6 @@
 <!ENTITY newsServerNameDesc.label "Zadajte názov servera diskusných skupín (NNTP) (napríklad &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Server diskusných skupín:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 
