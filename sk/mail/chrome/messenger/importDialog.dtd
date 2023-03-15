@@ -3,14 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!--
-LOCALIZATION NOTE : 'Communicator 4.x' is the used for previous versions of 
-Netscape Communicator, Please translate using the brandname in respective 
-languages for Netscape Communicator 4 releases.
-LOCALIZATION NOTE : Do not translate any of the occurrences of the word 
-"&brandShortName;" below.
--->
-
-<!--
 LOCALIZATION NOTE : 'Communicator 4.x' is the used for previous versions of
 Netscape Communicator, Please translate using the brandname in respective
 languages for Netscape Communicator 4 releases.
@@ -27,7 +19,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY importFeeds.accesskey    "m">
 <!ENTITY importAddressbook.label  "Adresáre">
 <!ENTITY importAddressbook.accesskey "d">
-<!ENTITY importSettings.label     "Nastavenie">
+<!ENTITY importSettings.label     "Nastavenia">
 <!ENTITY importSettings.accesskey "s">
 <!ENTITY importFilters.label      "Filtre">
 <!ENTITY importFilters.accesskey  "F">

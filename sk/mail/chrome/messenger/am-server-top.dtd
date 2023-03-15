@@ -4,7 +4,7 @@
 
 <!ENTITY messageStorage.label "Úložisko správ">
 <!ENTITY securitySettings.label "Bezpečnostné nastavenia">
-<!ENTITY serverSettings.label "Nastavenie servera">
+<!ENTITY serverSettings.label "Nastavenia servera">
 <!ENTITY serverType.label "Typ servera:">
 <!ENTITY serverName.label "Názov servera:">
 <!ENTITY serverName.accesskey "z">

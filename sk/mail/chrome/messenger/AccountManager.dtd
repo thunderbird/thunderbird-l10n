@@ -4,7 +4,7 @@
 
 <!-- extracted from AccountManager.xhtml -->
 
-<!ENTITY accountManagerTitle.label "Nastavenie účtov">
+<!ENTITY accountManagerTitle.label "Nastavenia účtu">
 <!ENTITY  accountManagerCloseButton.label "Zavrieť">
 
 <!ENTITY accountActionsButton.label "Akcie s účtami">
@@ -21,5 +21,3 @@
 <!ENTITY removeButton.accesskey "O">
 
 <!ENTITY addonsButton.label "Rozšírenia a témy vzhľadu">
-
-<!-- AccountManager.xhtml -->
