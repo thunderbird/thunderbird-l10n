@@ -13,8 +13,8 @@
 <!ENTITY lightning.toolbar.delete.tooltip "Odstrániť zvolené udalosti alebo úlohy">
 <!ENTITY lightning.toolbar.edit.label "Upraviť">
 <!ENTITY lightning.toolbar.edit.tooltip "Upraviť zvolenú udalosť alebo úlohu">
-<!ENTITY lightning.toolbar.gototoday.label "Prejsť na panel Dnes">
-<!ENTITY lightning.toolbar.gototoday.tooltip "Prejsť na panel Dnes">
+<!ENTITY lightning.toolbar.gototoday.label "Prejsť na dnešný deň">
+<!ENTITY lightning.toolbar.gototoday.tooltip "Prejsť na dnešný deň">
 <!ENTITY lightning.toolbar.print.label "Tlačiť">
 <!ENTITY lightning.toolbar.print.tooltip "Vytlačiť udalosti alebo úlohy">
 
