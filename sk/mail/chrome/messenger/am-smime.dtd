@@ -21,7 +21,7 @@
 <!ENTITY signingGroupTitle.label "Digitálne podpisovanie">
 <!ENTITY signingCert2.message "Osobný certifikát pre digitálne podpisovanie:">
 
-<!ENTITY sendingDefaults.label "Predvolené nastavenie pre odosielanie správ">
+<!ENTITY sendingDefaults.label "Predvolené nastavenia pre odosielanie správ">
 
 <!ENTITY technologyAutomatic.label "Vybrať automaticky na základe dostupných kľúčov alebo certifikátov">
 

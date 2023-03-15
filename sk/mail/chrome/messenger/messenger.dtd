@@ -76,7 +76,7 @@
 <!ENTITY offlineGoOfflineCmd.accesskey "P">
 <!ENTITY synchronizeOfflineCmd.label "Prijať/Synchronizovať…">
 <!ENTITY synchronizeOfflineCmd.accesskey "S">
-<!ENTITY settingsOfflineCmd2.label "Nastavenie režimu offline">
+<!ENTITY settingsOfflineCmd2.label "Nastavenia režimu offline">
 <!ENTITY settingsOfflineCmd2.accesskey "N">
 <!ENTITY downloadSelectedCmd.label "Prijať vybrané správy">
 <!ENTITY downloadSelectedCmd.accesskey "v">
@@ -489,7 +489,7 @@
 <!ENTITY exportCmd.accesskey "x">
 <!ENTITY clearRecentHistory.label "Vymazať históriu…">
 <!ENTITY clearRecentHistory.accesskey "h">
-<!ENTITY accountManagerCmd2.label "Nastavenie účtov">
+<!ENTITY accountManagerCmd2.label "Nastavenia účtu">
 <!ENTITY accountManagerCmd2.accesskey "N">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
@@ -652,7 +652,7 @@
 <!ENTITY folderContextProperties2.accesskey "l">
 <!ENTITY folderContextFavoriteFolder.label "Priečinok Obľúbené">
 <!ENTITY folderContextFavoriteFolder.accesskey "b">
-<!ENTITY folderContextSettings2.label "Nastavenie">
+<!ENTITY folderContextSettings2.label "Nastavenia">
 <!ENTITY folderContextSettings2.accesskey "s">
 
 <!-- Search Bar -->
