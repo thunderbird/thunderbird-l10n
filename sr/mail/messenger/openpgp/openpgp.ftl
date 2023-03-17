@@ -4,7 +4,23 @@
 
 e2e-intro-description = Да бисте слали шифроване или дигитално потписане поруке, потребно је да подесите технологију за шифровање као што је OpenPGP или S/MIME.
 e2e-intro-description-more = Изаберите ваш лични кључ за омогућавање коришћењеа OpenPGP-а или ваш лични сертификат да бисте омогућили S/MIME. За лични кључ или сертификат, ви сте власник пратећег приватног кључа.
+e2e-sign-message =
+    .label = Потпиши нешифроване поруке
+    .accesskey = к
+e2e-disable-enc =
+    .label = Онемогући шифровање за нове поруке
+    .accesskey = г
+e2e-enable-enc =
+    .label = Омогући шифровање за нове поруке
+    .accesskey = м
+e2e-enable-description = Могуће је онемогућавање шифровања за појединачне поруке.
 e2e-advanced-section = Напредна подешавања
+e2e-attach-key =
+    .label = Закачи мој јавни кључ приликом додавања OpenPGP дигиталног потписа
+    .accesskey = а
+openpgp-generate-key =
+    .label = Направи кључ
+    .tooltiptext = Ствара нови OpenPGP усклађени кључ за шифровање и/или потписивање
 openpgp-key-man-title =
     .title = OpenPGP управник кључева
 openpgp-key-man-edit-menu =
@@ -21,6 +37,8 @@ openpgp-copy-cmd-label =
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = { -brand-short-name } нема лични OpenPGP лични кључ за <b>{ $identity }</b>
 openpgp-add-key-button =
     .label = Додај кључ…
     .accesskey = а
