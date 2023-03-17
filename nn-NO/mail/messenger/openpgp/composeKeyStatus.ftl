@@ -14,3 +14,4 @@ openpgp-compose-key-status-open-details = Administrer nøklar for vald mottakar�
 openpgp-recip-good = ok
 openpgp-recip-missing = ingen nøkkel tilgjengeleg
 openpgp-recip-none-accepted = ingen akseptert nøkkel
+openpgp-compose-general-info-alias-learn-more = Les meir
