@@ -5,7 +5,8 @@
 app-manager-window-dialog =
     .title = Programdetaljar
     .style = width: 30em; min-height: 20em;
-
+app-manager-window-dialog2 =
+    .title = Programdetaljar
 remove-app-button =
     .label = Fjern
     .accesskey = F

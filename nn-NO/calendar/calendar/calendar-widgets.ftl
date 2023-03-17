@@ -16,6 +16,8 @@ calendar-new-task-primary-button = Ny oppgåve
 
 ## Calendar navigation
 
+calendar-today-button-tooltip =
+    .title = Gå til I dag
 calendar-view-toggle-day = Dag
     .title = Byt til dagvising
 calendar-view-toggle-week = Veke
@@ -27,6 +29,10 @@ calendar-view-toggle-month = Månad
 
 ## Menu on calendar control bar
 
+calendar-hide-weekends-option =
+    .label = Berre arbeidsveke
+calendar-define-workweek-option =
+    .label = Definer arbeidsvekedagar
 
 ## Calendar Context Menu
 
