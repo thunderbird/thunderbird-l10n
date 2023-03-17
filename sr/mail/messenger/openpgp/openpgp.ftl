@@ -4,6 +4,7 @@
 
 e2e-intro-description = Да бисте слали шифроване или дигитално потписане поруке, потребно је да подесите технологију за шифровање као што је OpenPGP или S/MIME.
 e2e-intro-description-more = Изаберите ваш лични кључ за омогућавање коришћењеа OpenPGP-а или ваш лични сертификат да бисте омогућили S/MIME. За лични кључ или сертификат, ви сте власник пратећег приватног кључа.
+e2e-signing-description = Дигитални потпис омогућава примаоцима да потврде да сте ви послали поруку и да садржај није промењен. Шифроване поруке се подразумевано увек потписују.
 e2e-sign-message =
     .label = Потпиши нешифроване поруке
     .accesskey = к
@@ -18,6 +19,16 @@ e2e-advanced-section = Напредна подешавања
 e2e-attach-key =
     .label = Закачи мој јавни кључ приликом додавања OpenPGP дигиталног потписа
     .accesskey = а
+e2e-encrypt-subject =
+    .label = Шифруј тему OpenPGP кључева
+    .accesskey = { "" }
+e2e-encrypt-drafts =
+    .label = Чувај нацрте у шифрованом облику
+    .accesskey = ј
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Шаљи OpenPGP јавне кључве у заглављу е-поруке зарад боље усклађености са Autocrypt-ом
+    .accesskey = т
 openpgp-generate-key =
     .label = Направи кључ
     .tooltiptext = Ствара нови OpenPGP усклађени кључ за шифровање и/или потписивање

@@ -4,11 +4,23 @@
 
 receipts-dialog-window =
     .title = Повратнице
+return-receipt-checkbox-control =
+    .label = Приликом слања поруке, увек затражи повратницу
+    .accesskey = ц
 receipt-arrive-label = Када повратница стигне:
 receipt-leave-radio-control =
     .label = Остави је у мом долазном сандучету
     .accesskey = о
+receipt-move-radio-control =
+    .label = Помери је у моју фасциклу „Послато“
+    .accesskey = м
 receipt-request-label = Када примим захтев за повратницом:
+receipt-return-never-radio-control =
+    .label = Никада не шаљи повратницу
+    .accesskey = к
+receipt-return-some-radio-control =
+    .label = Дозволи повратницу за неке поруке
+    .accesskey = т
 receipt-send-never-label =
     .label = Никада не шаљи
 receipt-send-always-label =
