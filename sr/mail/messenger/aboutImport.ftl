@@ -2,10 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
+import-page-title = Увези
 export-page-title = Извоз
 
 ## Header
 
+import-start = Алат за увоз
 export-profile = Извоз
 
 ## Buttons
@@ -14,6 +16,7 @@ button-export = Извези
 
 ## Import from app steps
 
+app-name-thunderbird = Thunderbird
 
 ## Import from file selections
 

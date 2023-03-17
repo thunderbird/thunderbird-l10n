@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Растегљив простор
+search-bar-label = Претрага
 toolbar-write-message-label = Пиши
 toolbar-write-message =
     .title = Направи нову поруку
@@ -17,6 +18,8 @@ toolbar-edit-event-label = Уреди
 toolbar-edit-event =
     .title = Уреди изабрани догађај или задатак
 toolbar-get-messages-label = Добави поруке
+toolbar-get-messages =
+    .title = Добави нове поруке за све налоге
 toolbar-reply-label = Одговори
 toolbar-reply =
     .title = Одговори на поруку

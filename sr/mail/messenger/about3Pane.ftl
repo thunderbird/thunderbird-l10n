@@ -114,6 +114,15 @@ quick-filter-bar-gloda-upsell-line1 = Настави претраживање п
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Притисните још једном „Ентер“ да бисте наставили вашу претрагу за: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Добави поруке
+folder-pane-write-message-button = Нова порука
+    .title = Саставите нову поруку
+folder-pane-header-context-hide =
+    .label = Сакриј заглавље површи фасцикли
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -197,8 +206,13 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Показивач нове поруке
+    .title = Нова порука
 apply-columns-to-menu =
     .label = Примени колоне на…
+apply-current-view-to-menu =
+    .label = Примени тренутни приказ на…
 apply-current-view-to-folder =
     .label = Фасциклу…
 apply-current-view-to-folder-children =
@@ -212,3 +226,9 @@ apply-current-columns-to-folder-message = Применити колоне тре
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Применити колоне тренутне фасцикле на { $name } и њену децу?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Применити приказ тренутне фасцикле на { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Применити тренутни приказ фасцикле на { $name } и потомке?

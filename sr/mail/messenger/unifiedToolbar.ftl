@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Претрага
+search-bar-item =
+    .label = Претражи:
+search-bar-placeholder = Претражи…
 
 ## Unified toolbar context menu
 
@@ -26,8 +31,15 @@ customize-space-tab-tasks = Задаци
     .title = Задаци
 customize-space-tab-chat = Ћаскање
     .title = Ћаскање
+customize-button-style-label = Стил дугмета:
 customize-button-style-icons-beside-text =
     .label = Иконице поред текста
+customize-button-style-icons-above-text =
+    .label = Иконице изнад текста
+customize-button-style-icons-only =
+    .label = Само иконице
+customize-button-style-text-only =
+    .label = Само текст
 
 ## Unified toolbar customization palette context menu
 

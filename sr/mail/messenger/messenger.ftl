@@ -64,6 +64,8 @@ appmenu-addons-and-themes =
     .label = Додаци и теме
 appmenu-help-enter-troubleshoot-mode =
     .label = Режим решавања проблема…
+appmenu-help-exit-troubleshoot-mode =
+    .label = Искључи режим за решавање проблема
 appmenu-help-more-troubleshooting-info =
     .label = Више података за решавање проблема
 appmenu-redirect-msg =
@@ -81,6 +83,25 @@ other-action-redirect-msg =
 
 ## Message header cutomize panel
 
+message-header-customize-panel-title = Подешавања заглавља поруке
+message-header-customize-button-style =
+    .value = Стил дугмета
+    .accesskey = С
+message-header-button-style-default =
+    .label = Иконице и текст
+message-header-button-style-text =
+    .label = Текст
+message-header-button-style-icons =
+    .label = Иконице
+message-header-show-recipient-avatar =
+    .label = Прикажи профилну слику пошиљаоца
+    .accesskey = с
+message-header-large-subject =
+    .label = Велики наслов теме
+    .accesskey = к
+message-header-all-headers =
+    .label = Прикажи сва заглавља
+    .accesskey = к
 
 ## Action Button Context Menu
 
@@ -109,9 +130,23 @@ spaces-toolbar-button-tasks2 =
     .title = Задаци
 spaces-toolbar-button-chat2 =
     .title = Ћаскање
+spaces-toolbar-button-settings2 =
+    .title = Подешавања
+spaces-toolbar-button-hide =
+    .title = Сакриј просторну траку
+spaces-toolbar-button-show =
+    .title = Прикажи просторну траку
+settings-context-open-settings-item2 =
+    .label = Подешавања
+settings-context-open-account-settings-item2 =
+    .label = Подешавања налога
+settings-context-open-addons-item2 =
+    .label = Додаци и теме
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
 
 ## Spaces toolbar customize panel
 

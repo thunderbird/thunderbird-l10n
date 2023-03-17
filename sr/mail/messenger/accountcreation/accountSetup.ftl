@@ -10,6 +10,8 @@ account-setup-title = Подесите постојећу адресу е-пош
 
 ## Form fields
 
+account-provisioner-button = Направите нову адресу е-поште
+    .accesskey = д
 
 ## Action buttons
 
@@ -34,6 +36,7 @@ account-setup-title = Подесите постојећу адресу е-пош
 
 ## Incoming/Outgoing SSL options
 
+ssl-noencryption-option = Ништа
 
 ## Warning insecure server dialog
 
@@ -53,6 +56,7 @@ account-setup-title = Подесите постојећу адресу е-пош
 ## Success view
 
 account-setup-settings-button = Подешавања налога
+account-setup-connect-all-address-books = Повежи све именике
 
 ## Calendar synchronization dialog
 

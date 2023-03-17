@@ -7,3 +7,5 @@
 
 tree-list-view-column-picker =
     .title = Изаберите које колоне треба приказати
+tree-list-view-column-picker-restore =
+    .label = Врати редослед колона
