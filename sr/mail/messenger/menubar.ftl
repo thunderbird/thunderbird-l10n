@@ -73,6 +73,12 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
+toolbar-delete-button =
+    .label = Обриши
+    .tooltiptext = Обриши изабране поруке или фасциклу
+toolbar-undelete-button =
+    .label = Поништи брисање
+    .tooltiptext = Поништи брисање изабраних порука
 
 ## View
 

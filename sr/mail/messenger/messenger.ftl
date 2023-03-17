@@ -75,6 +75,15 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Преусмери
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-delete-messages =
+    .label =
+        { $count ->
+            [one] Обриши изабрану поруку`
+            [few] Обриши изабране поруке
+           *[other] Обриши изабране поруке
+        }
 
 ## Message header pane
 

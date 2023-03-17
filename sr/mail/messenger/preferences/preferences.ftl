@@ -386,8 +386,8 @@ extension-label =
 ## using (auto-save-label) and a number (auto-save-end).
 
 auto-save-label =
-    .label = Аутоматски чувај на
-    .accesskey = А
+    .label = Самостално чувај на
+    .accesskey = а
 auto-save-end = минута
 
 ##

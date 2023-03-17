@@ -368,7 +368,7 @@ cloud-file-account-error = Ажурирање Filelink прилога { $filenam
 
 link-preview-title = Преглед везе
 link-preview-description = { -brand-short-name } може да дода уграђени преглед када налепите везу.
-link-preview-autoadd = Аутоматски додај преглед везе када је то могуће
+link-preview-autoadd = Самостално додај претпреглед везе када је то могуће
 link-preview-replace-now = Додај преглед везе за ову везу?
 link-preview-yes-replace = Да
 
