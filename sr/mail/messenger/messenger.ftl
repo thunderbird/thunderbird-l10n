@@ -80,6 +80,9 @@ context-menu-redirect-msg =
 
 other-action-redirect-msg =
     .label = Преусмери
+message-header-msg-flagged =
+    .title = Са звездицом
+    .aria-label = Са звездицом
 
 ## Message header cutomize panel
 
