@@ -30,7 +30,7 @@
 <!ENTITY retentionApplyToFlagged.accesskey "е">
 
 <!ENTITY folderSynchronizationTab.label          "Усклађивање">
-<!ENTITY folderCheckForNewMessages2.label         "Приликов добијања нових порука на овом налогу, увек провери ову фасциклу">
+<!ENTITY folderCheckForNewMessages2.label         "Приликом добијања нових порука на овом налогу, увек провери ову фасциклу">
 <!ENTITY folderCheckForNewMessages2.accesskey     "ј">
 
 <!ENTITY offlineFolder.check.label               "Изабери ову фасциклу за употребу ван мреже">
