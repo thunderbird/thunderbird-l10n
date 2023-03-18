@@ -2,23 +2,20 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+fonts-dialog-title = Қаріптер
 fonts-window-close =
     .key = w
-
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Бастапқы ({ $name })
 fonts-label-default-unnamed =
     .label = Бастапқы
-
 fonts-encoding-dialog-title =
     .title = Қаріптер және кодтаулар
-
 fonts-language-legend =
     .value = Келесі үшін қаріптер:
     .accesskey = п
-
 fonts-proportional-label =
     .value = Пропорционалды:
     .accesskey = П
@@ -89,45 +86,35 @@ font-language-group-tibetan =
 
 default-font-serif =
     .label = Serif
-
 default-font-sans-serif =
     .label = Sans Serif
-
 font-size-proportional-label =
     .value = Өлшемі:
     .accesskey = е
-
 font-size-monospace-label =
     .value = Өлшемі:
     .accesskey = м
-
 font-serif-label =
     .value = Serif:
     .accesskey = S
-
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
-
 font-monospace-label =
     .value = Monospace:
     .accesskey = M
-
 font-min-size-label =
     .value = Қаріптің ең кіші өлшемі:
     .accesskey = л
-
 min-size-none =
     .label = Жоқ
 
 ## Fonts in message
 
 font-control-legend = Қаріпті басқару
-
 use-document-fonts-checkbox =
     .label = Хабарламаларға басқа қаріптерді қолдануды рұқсат ету
     .accesskey = а
-
 use-fixed-width-plain-checkbox =
     .label = Ашық мәтін хабарламалары үшін ені біркелкі қаріпті қолдану
     .accesskey = к
@@ -135,17 +122,13 @@ use-fixed-width-plain-checkbox =
 ## Language settings
 
 text-encoding-legend = Мәтін кодталуы
-
 text-encoding-description = Поштаны алу және жіберу үшін негізгі мәтін кодталуын орнатыңыз
-
 font-outgoing-email-label =
     .value = Шығыс пошта:
     .accesskey = ы
-
 font-incoming-email-label =
     .value = Кіріс пошта:
     .accesskey = К
-
 default-font-reply-checkbox =
     .label = Мүмкін болған кезде, жауап бергенде негізгі мәтін кодталуын қолдану
     .accesskey = м

@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Шимай қағаз хабарламаларын шифрленген түрде сақтау
     .accesskey = р
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Autocrypt үйлесімділігі үшін эл. пошта тақырыптамаларында OpenPGP ашық кілт(тер)ін жіберу
+    .accesskey = т
 openpgp-key-user-id-label = Тіркелгі / Пайдаланушы идентификаторы
 openpgp-keygen-title-label =
     .title = OpenPGP кілтін генерациялау
@@ -135,6 +139,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Ашық кілтті эл. пошта арқылы жіберу
     .accesskey = ж
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -142,6 +148,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Кілт идентификаторларын алмасу буферіне көшіріп алу
         }
     .accesskey = К
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -149,6 +157,8 @@ openpgp-key-man-copy-fprs =
            *[other] Баспаларды алмасу буферіне көшіріп алу
         }
     .accesskey = п
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -161,18 +171,24 @@ openpgp-key-man-ctx-expor-to-file-label =
 openpgp-key-man-ctx-copy =
     .label = Көшіріп алу
     .accesskey = К
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
            *[other] Баспалар
         }
     .accesskey = Б
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
            *[other] Кілт идентификаторы
         }
     .accesskey = К
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -329,9 +345,9 @@ openpgp-radio-none-desc = Бұл тіркелу мәліметтері үшін 
 openpgp-radio-key-not-usable = Бұл кілт жеке кілт ретінде қолданылмайды, себебі құпия кілт жоқ!
 openpgp-radio-key-not-accepted = Бұл кілтті пайдалану үшін оны жеке кілт ретінде растауыңыз керек!
 openpgp-radio-key-not-found = Бұл кілт табылмады! Оны пайдаланғыңыз келсе, оны { -brand-short-name } ішіне импорттауыңыз керек.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Мерзімі аяқталады: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Мерзімі аяқталды: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = Кілттің мерзімі 6 айдан аз уақыт ішінде аяқталады
@@ -350,7 +366,9 @@ openpgp-key-remove-external =
     .label = Сыртқы кілт идентификаторын өшіру
     .accesskey = ш
 key-external-label = Сыртқы GnuPG кілті
-# Strings in keyDetailsDlg.xhtml
+
+## Strings in keyDetailsDlg.xhtml
+
 key-type-public = ашық кілт
 key-type-primary = негізгі кілт
 key-type-subkey = ішкі кілт
@@ -361,18 +379,28 @@ key-usage-sign = Қолтаңба қою
 key-usage-certify = Куәландыру
 key-usage-authentication = Аутентификация
 key-does-not-expire = Кілттің мерзімі бітпейді
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Кілттің мерзімі { $keyExpiry } күні аяқталды
 key-expired-simple = Кілттің мерзімі аяқталды
 key-revoked-simple = Кілт қайта шақырылды
 key-do-you-accept = Бұл кілтті цифрлық қолтаңбаларды тексеру және хабарламаларды шифрлеу үшін қабылдайсыз ба?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Кілт баспасын эл. поштадан басқа қауіпсіз байланыс арнасын пайдаланып, оның шынымен { $addr } кілті екеніне көз жеткізіңіз.
-# Strings enigmailMsgComposeOverlay.js
+
+## Strings enigmailMsgComposeOverlay.js
+
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Хабарламаны жіберу мүмкін емес, себебі сіздің жеке кілтіңізде мәселе бар. { $problem }
 cannot-encrypt-because-missing = Бұл хабарламаны өтпелі шифрлеумен жіберу мүмкін емес, себебі келесі алушылардың кілттерінде мәселелер бар: { $problem }
 window-locked = Жазу терезесі құлыпталған; жіберу тоқтатылды
 # Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-concealed-data = Бұл шифрленген хабарлама бөлігі. Салынымды басу арқылы оны бөлек терезеде ашу керек.
-# Strings in keyserver.jsm
+
+## Strings in keyserver.jsm
+
 keyserver-error-aborted = Үзілген
 keyserver-error-unknown = Белгісіз қате орын алды
 keyserver-error-server-error = Кілттер сервері қате туралы хабарлады.
@@ -381,34 +409,50 @@ keyserver-error-unavailable = Кілттер сервері қолжетімді
 keyserver-error-security-error = Кілттер сервері шифрленген қатынауды қолдамайды.
 keyserver-error-certificate-error = Кілттер серверінің сертификаты жарамсыз.
 keyserver-error-unsupported = Кілnтth серверіне қолдау жоқ.
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.jsm
+
 wkd-message-body-req =
     Эл. пошта провайдері ашық кілтіңізді OpenPGP веб-кілттер каталогына жүктеп салу сұрауыңызды өңдеді.
     Ашық кілтіңізді жариялауды аяқтау үшін растаңыз.
 wkd-message-body-process =
     Бұл OpenPGP веб-кілттер каталогына ашық кілтті жүктеп салу үшін автоматты өңдеуге қатысты эл. пошта.
     Қазір қолмен ешқандай әрекет жасаудың қажеті жоқ.
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.jsm
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Тақырыбы келесідей болатын хабарламаны дешифрлеу мүмкін емес:
     { $subject }.
     Басқа кілттік фразамен әрекетті қайталау керек пе, немесе хабарламаны өткізіп жіберу керек пе?
-# Strings filters.jsm
+
+## Strings filters.jsm
+
 filter-folder-required = Мақсат буманы таңдауыңыз керек.
 filter-decrypt-move-warn-experimental =
     Ескерту - "Тұрақты дешифрлеу" сүзгі әрекеті жойылған хабарларламаларға әкеп соғуы мүмкін.
     Алдымен "Дешифрленген көшірмесін жасау" сүзгісін қолданып, нәтижені мұқият тексеру және нәтижеге қанағаттанғаннан кейін ғана осы сүзгіні пайдаланып бастауды ұсынамыз.
 filter-term-pgpencrypted-label = OpenPGP көмегімен шифрленген
 filter-key-required = Сіз алушы кілтін таңдауыңыз керек.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = ‘{ $desc }’ үшін шифрлеу кілті табылмады.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Ескерту - "Кілтпен шифрлеу" сүзгі әрекеті алушыларды ауыстырады.
     Егер сізде "{ $desc }" үшін құпия кілті болмаса, сіз эл. пошта хабарламаларын оқи алмайтын боласыз.
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.jsm
+
 filter-decrypt-move-label = Тұрақты дешифрлеу (OpenPGP)
 filter-decrypt-copy-label = Дешифрленген көшірмесін жасау (OpenPGP)
 filter-encrypt-label = Кілтпен шифрлеу (OpenPGP)
-# Strings in enigmailKeyImportInfo.js
+
+## Strings in enigmailKeyImportInfo.js
+
 import-info-title =
     .title = Кілттер сәтті импортталды
 import-info-bits = Бит
@@ -416,11 +460,15 @@ import-info-created = Жасалған
 import-info-fpr = Баспасы
 import-info-details = Мәліметтерді қарау және кілтті қабылдауды басқару
 import-info-no-keys = Ешбір кілт импортталмаған.
-# Strings in enigmailKeyManager.js
+
+## Strings in enigmailKeyManager.js
+
 import-from-clip = Алмасу буферінен кейбір кілттерді импорттағыңыз келе ме?
 import-from-url = Осы URL адресінен ашық кілтті жүктеп алу:
 copy-to-clipbrd-failed = Таңдалған кілттерді алмасу буферіне көшіру мүмкін болмады.
 copy-to-clipbrd-ok = Кілт(тер) алмасу буферіне көшірілді
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     ЕСКЕРТУ: Сіз құпия кілтті өшіргелі жатырсыз!
     
@@ -434,6 +482,8 @@ delete-mix =
     Өзіңіздің құпия кілтіңізді өшірсеңіз, енді сол кілт үшін шифрленген хабарламаларды дешифрлей алмайсыз және оны қайта шақыра алмайсыз.
     
     Сіз шынымен ЕКЕУІН де, таңдалған құпия мен ашық кілттерді өшіргіңіз келе ме?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     "{ $userId }"
     ашық кілтін өшіргіңіз келе ме?
@@ -454,6 +504,8 @@ default-pub-key-filename = Экспортталған_ашық_кілттер
 default-pub-sec-key-filename = Құпия_кілттердің_қор_көшірмесі
 refresh-key-warn = Ескерту: кілттер саны мен байланыс жылдамдығына байланысты барлық кілттерді жаңарту өте ұзақ процесс болуы мүмкін!
 preview-failed = Ашық кілт файлын оқу мүмкін емес.
+# Variables:
+# $reason (String) - Error description.
 general-error = Қате: { $reason }
 dlg-button-delete = Ө&шіру
 
@@ -463,7 +515,12 @@ openpgp-export-public-success = <b>Ашық кілт сәтті экспортт
 openpgp-export-public-fail = <b>Таңдалған ашық кілтті экспорттау мүмкін емес!</b>
 openpgp-export-secret-success = <b>Жеке кілт сәтті экспортталды!</b>
 openpgp-export-secret-fail = <b>Таңдалған жеке кілтті экспорттау мүмкін емес!</b>
-# Strings in keyObj.jsm
+
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = { $userId } кілті (кілт идентификаторы { $keyId }) қайта шақырылған.
 key-ring-pub-key-expired = { $userId } кілтінің (кілт идентификаторы { $keyId }) мерзімі аяқталған.
 key-ring-no-secret-key = Сіздің кілттер бауыңызда { $userId } (кілт идентификаторы { $keyId }) жеке кілті жоқ сияқты; қолтаңба қою үшін кілтті пайдалана алмайсыз.
@@ -473,10 +530,14 @@ key-ring-sign-sub-keys-revoked = { $userId } кілті (кілт идентиф
 key-ring-sign-sub-keys-expired = { $userId } кілті (кілт идентификаторы { $keyId }) үшін барлық қолтаңба қоятын ішкі кілттерінің мерзімі аяқталған.
 key-ring-enc-sub-keys-revoked = { $userId } кілті (кілт идентификаторы { $keyId }) үшін барлық шифрлейтін ішкі кілттері қайта шақырылған.
 key-ring-enc-sub-keys-expired = { $userId } кілті (кілт идентификаторы { $keyId }) үшін барлық шифрлейтін ішкі кілттерінің мерзімі аяқталған.
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.jsm
+
 keyring-photo = Фото
 user-att-photo = Пайдаланушы атрибуты (JPEG суреті)
-# Strings in key.jsm
+
+## Strings in key.jsm
+
 already-revoked = Бұл кілт қайта шақырылған.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -496,7 +557,9 @@ after-revoke-info =
     Басқаларға кілтіңізді қайта шақырғаныңызды хабарлау үшін оны эл. пошта арқылы жіберу немесе кілт серверлеріне жүктеп салу арқылы осы жария кілтпен қайта бөлісіңіз.
     Басқа адамдар пайдаланатын бағдарламалық қамтама қайта шақыру туралы білген кезде ол ескі кілтті пайдалануды тоқтатады.
     Егер сіз дәл сол эл. пошта адресі үшін жаңа кілтті пайдалансаңыз және сіз жіберген эл. пошталарға жаңа ашық кілтті тіркесеңіз, қайта шақырылған ескі кілт туралы ақпарат автоматты түрде қосылады.
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.jsm & decryption.jsm
+
 key-man-button-import = &Импорттау
 delete-key-title = OpenPGP кілтін өшіру
 delete-external-key-title = Сыртқы GnuPG кілтін өшіру
@@ -504,26 +567,44 @@ delete-external-key-description = Осы сыртқы GnuPG кілт идент�
 key-in-use-title = OpenPGP кілті қазір қолданылуда
 delete-key-in-use-description = Жалғастыру мүмкін емес! Өшіру үшін таңдалған кілт қазір осы тіркелгімен пайдаланылуда. Басқа кілтті таңдаңыз немесе ешқайсысын таңдамай, әрекетті қайталаңыз.
 revoke-key-in-use-description = Жалғастыру мүмкін емес! Қайта шақыру үшін таңдалған кілт қазір осы тіркелгімен пайдаланылуда. Басқа кілтті таңдаңыз немесе ешқайсысын таңдамай, әрекетті қайталаңыз.
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.jsm
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = "{ $keySpec }" эл. пошта адресін кілт бауыңыздағы ешбір кілтпен сәйкестендіру мүмкін емес.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = "{ $keySpec }" бапталған кілт идентификаторы кілттер бауыңыздан табылмады.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Сіз "{ $keySpec }" идентификаторы бар кілт сіздің жеке кілтіңіз екенін растаған жоқсыз.
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 need-online = Сіз таңдаған функция желіден тыс режимде қолжетімді емес. Желіге кіріп, әрекетті қайталаңыз.
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 no-key-found2 = Көрсетілген іздеу шарттарына сәйкес келетін қолдануға болатын ешбір кілт табылмады.
 no-update-found = Онлайн табылған кілттер сізде бар болып тұр.
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 fail-key-extract = Қате - кілтті шығару командасы сәтсіз аяқталды
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.jsm
+
 fail-cancel = Қате - пайдаланушы кілтті қабылдаудан бас тартты
 not-first-block = Қате - бірінші OpenPGP блогы ашық кілт блогы емес
 import-key-confirm = Хабарламаға ендірілген ашық кілттерді импорттау керек пе?
 fail-key-import = Қате – кілтті импорттау сәтсіз аяқталды
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = { $output } файлына жазу сәтсіз аяқталды
 no-pgp-block = Қате - жарамды қорғалған OpenPGP деректер блогы табылмады
 confirm-permissive-import = Импорттау сәтсіз аяқталды. Сіз импорттағыңыз келген кілт зақымдалған болуы немесе белгісіз атрибуттарды пайдалануы мүмкін. Дұрыс бөліктерді импорттауға әрекет жасағыңыз келе ме? Бұл толық емес және жарамсыз кілттердің импортына әкелуі мүмкін.
-# Strings used in trust.jsm
+
+## Strings used in trust.jsm
+
 key-valid-unknown = белгісіз
 key-valid-invalid = жарамсыз
 key-valid-disabled = сөндірілген
@@ -534,14 +615,20 @@ key-trust-marginal = шекаралық
 key-trust-full = сенімді
 key-trust-ultimate = шексіз
 key-trust-group = (топ)
-# Strings used in commonWorkflows.js
+
+## Strings used in commonWorkflows.js
+
 import-key-file = OpenPGP кілт файлын импорттау
 import-rev-file = OpenPGP қайта шақыру файлын импорттау
 gnupg-file = GnuPGфайлдары
 import-keys-failed = Кілттерді импорттау сәтсіз аяқталды
+# Variables:
+# $key (String) - Key id to unlock.
 passphrase-prompt = Келесі кілттің құлпын ашатын кілттік фразаны енгізіңіз: { $key }
 file-to-big-to-import = Бұл файл тым үлкен. Кілттердің үлкен жинағын бірден импорттамаңыз.
-# Strings used in enigmailKeygen.js
+
+## Strings used in enigmailKeygen.js
+
 save-revoke-cert-as = Қайта шақыру сертификатын генерациялау және сақтау
 revoke-cert-ok = Қайта шақыру сертификаты сәтті жасалды. Сіз оны ашық кілтіңізді жарамсыз ету үшін пайдалана аласыз, мысалы, құпия кілтіңізді жоғалтып алған жағдайда.
 revoke-cert-failed = Қайта шақыру сертификатын жасау мүмкін болмады.
@@ -549,33 +636,53 @@ gen-going = Кілт генерациясы жүріп жатыр!
 keygen-missing-user-name = Таңдалған тіркелгі/тіркелу мәліметтері үшін көрсетілген атауы жоқ. Тіркелгі параметрлеріндегі «Сіздің атыңыз» өрісіне мән енгізіңіз.
 expiry-too-short = Сіздің кілтіңіз кем дегенде бір күн жарамды болуы керек.
 expiry-too-long = Мерзімі 100 жылдан асатын кілт жасай алмайсыз.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = ‘{ $id }’ үшін ашық және құпия кілтті жасау керек пе?
 key-man-button-generate-key = Кілтті &генерациялау
 key-abort = Кілт генерациясын тоқтату керек пе?
 key-man-button-generate-key-abort = Кілт генерациясын тоқт&ату
 key-man-button-generate-key-continue = Кілт генерациясын жалға&стыру
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
 
 failed-decrypt = Қате – дешифрлеу сәтсіз аяқталды
 fix-broken-exchange-msg-failed = Бұл хабарламаны жөндеу мүмкін емес.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = "{ $attachment }" қолтаңба файлын салынымға сәйкестеу мүмкін емес
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = "{ $attachment }" салынымын қолтаңба файлына сәйкестеу мүмкін емес
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = { $attachment } салынымы үшін қолтаңба сәтті расталды
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = { $attachment } салынымы үшін қолтаңбаны растау мүмкін емес
 decrypt-ok-no-sig =
     Ескерту
     Дешифрлеу сәтті болды, бірақ қолтаңбаны дұрыс тексеру мүмкін болмады
 msg-ovl-button-cont-anyway = Сонда да жалға&стыру
 enig-content-note = *Бұл хабарлама салынымдарына қолтаңба қойылмаған және шифрленбеген*
-# Strings used in enigmailMsgComposeOverlay.js
+
+## Strings used in enigmailMsgComposeOverlay.js
+
 msg-compose-button-send = Хабарламаны жі&беру
 msg-compose-details-button-label = Көбірек білу…
 msg-compose-details-button-access-key = D
 send-aborted = Жіберу операциясы үзілді.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = ‘{ $key }’ кілтіне сенім жеткіліксіз
+# Variables:
+# $key (String) - Key id.
 key-not-found = ‘{ $key }’ кілті табылмады
+# Variables:
+# $key (String) - Key id.
 key-revoked = ‘{ $key }’ кілті қайта шақырылған
+# Variables:
+# $key (String) - Key id.
 key-expired = ‘{ $key }’ кілтінің мерзімі аяқталды
 msg-compose-internal-error = Ішкі қате орын алды.
 keys-to-export = Кірістіру үшін OpenPGPкілттерін таңдаңыз
@@ -587,6 +694,8 @@ msg-compose-partially-encrypted-short = Құпия ақпараттың тара
 quoted-printable-warn =
     Хабарламаларды жіберу үшін "quoted-printable" кодтауын іске қостыңыз. Бұл хабарламаны қате дешифрлеуге және/немесе тексеруге әкеп соғуы мүмкін.
     "quoted-printable" хабарламаларды жіберуді қазір сөндіргіңіз келе ме?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Сіз жолды тасымалдау { $width } таңбаға орнаттыңыз. Дұрыс шифрлеу және/немесе қолтаңба қою үшін бұл мән кемінде 68 болуы керек.
     Жолды тасымалдау қазір 68 таңбаға өзгерткіңіз келе ме?
@@ -599,31 +708,58 @@ send-to-news-warning =
     Жалғастыру керек пе?
 save-attachment-header = Дешифрленген салынымды сақтау
 possibly-pgp-mime = PGP/MIME шифрленген немесе қолтаңба қойылған хабарлама болуы мүмкін; тексеру үшін "Дешифрлеу/тексеру" функциясын пайдаланыңыз
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Бұл хабарламаға цифрлық қолтаңба қою мүмкін емес, себебі сіз <{ $key }> кілті үшін өтпелі шифрлеуді әлі баптаған жоқсыз
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Бұл хабарламаны шифрленген түрде жіберу мүмкін емес, себебі сіз <{ $key }> кілті үшін өтпелі шифрлеуді әлі баптаған жоқсыз
-# Strings used in decryption.jsm
+
+## Strings used in decryption.jsm
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Келесі кілттерді импорттау керек пе?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = { $name } ({ $id }) импорттау керек пе?
 cant-import = Ашық кілтті импорттау қатесі
 unverified-reply = Шегіністі хабар бөлігі (жауап) өзгертілген болуы мүмкін
 key-in-message-body = Хабарлама мәтінінде кілт табылды. Кілтті импорттау үшін "Кілтті импорттау" басыңыз
 sig-mismatch = Қате - қолтаңба сәйкессіздігі
 invalid-email = Қате – жарамсыз эл. пошта адрестері
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Сіз ашып жатқан "{ $name }" салынымы OpenPGP кілт файлы сияқты көрінеді.
     Құрамындағы кілттерді импорттау үшін "Импорттау" батырмасын немесе браузер терезесінде файл мазмұнын қарау үшін "Қарау" батырмасын басыңыз.
 dlg-button-view = Қа&рау
-# Strings used in enigmailMsgHdrViewOverlay.js
+
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 decrypted-msg-with-format-error = Дешифрленген хабарлама (қалпына келтірілген бұзылған PGP электрондық пошта пішімі ескі Exchange серверінен болуы мүмкін, сондықтан нәтиже оқуға мінсіз болмауы мүмкін)
-# Strings used in encryption.jsm
+
+## Strings used in encryption.jsm
+
 not-required = Қате – дешифрлеу керек емес
-# Strings used in windows.jsm
+
+## Strings used in windows.jsm
+
 no-photo-available = Қолжетімді фото жоқ
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = "{ $photo }" фото орналасуын оқу мүмкін емес
 debug-log-title = OpenPGP жөндеу журналы
-# Strings used in dialog.jsm
+
+## Strings used in dialog.jsm
+
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix = Бұл ескерту тағы { $count } рет
 repeat-suffix-singular = қайталанады.
 repeat-suffix-plural = қайталанады.
@@ -637,9 +773,13 @@ enig-prompt = OpenPGP сұрауы
 enig-confirm = OpenPGP растауы
 enig-alert = OpenPGP ескертуі
 enig-info = OpenPGP ақпараты
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.jsm
+
 dlg-button-retry = Қа&йталау
 dlg-button-skip = А&ттап кету
-# Strings used in enigmailMsgBox.js
+
+## Strings used in enigmailMsgBox.js
+
 enig-alert-title =
     .title = OpenPGP ескертуі
