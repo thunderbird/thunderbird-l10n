@@ -15,6 +15,8 @@ account-provisioner-button = Направите нову адресу е-пош�
 
 ## Action buttons
 
+account-setup-button-cancel = Откажи
+    .accesskey = к
 
 ## Notifications
 
@@ -43,6 +45,7 @@ ssl-noencryption-option = Ништа
 
 ## Warning Exchange confirmation dialog
 
+exchange-dialog-cancel-button = Откажи
 
 ## Dismiss account creation dialog
 
@@ -56,7 +59,10 @@ ssl-noencryption-option = Ништа
 ## Success view
 
 account-setup-settings-button = Подешавања налога
+account-setup-address-books-button = Именици
 account-setup-connect-all-address-books = Повежи све именике
 
 ## Calendar synchronization dialog
 
+calendar-dialog-cancel-button = Откажи
+    .accesskey = к

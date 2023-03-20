@@ -6,21 +6,15 @@ start-label = Започни шифровани разговор
 refresh-label = Освежи шифровани разговор
 auth-label = Потврди идентитет контакта
 reauth-label = Поново потврди идентитет контакта
-
 auth-cancel = Откажи
-
+auth-cancel-access-key = к
 auth-error = Догодила се грешка приликом потврђивања идентитета контакта.
-
 finger-verify = Потврди
-
 # Do not translate 'OTR' (name of an encryption protocol)
 buddycontextmenu-label = Додај OTR отисак
-
 state-unverified-label = Непотврђено
 state-private-label = Приватно
 state-finished-label = Довршено
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 verify-request = Контакт { $name } је затражио потврђивање вашег идентитета.
-

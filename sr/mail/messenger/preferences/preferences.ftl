@@ -667,3 +667,5 @@ search-results-header = Резултати претраге
 
 ## Sync Tab
 
+sync-pane-cancel = Откажи
+sync-pane-save = Сачувај

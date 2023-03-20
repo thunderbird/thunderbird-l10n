@@ -10,6 +10,10 @@ key-wizard-learn-more = Сазнајте више
 ## Generate key section
 
 openpgp-keygen-advanced-title = Напредна подешавања
+openpgp-keygen-dismiss =
+    .label = Откажи
+openpgp-keygen-cancel =
+    .label = Откажи поступак…
 
 ## Import Key section
 

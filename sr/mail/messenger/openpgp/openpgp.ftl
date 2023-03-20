@@ -29,6 +29,9 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Шаљи OpenPGP јавне кључве у заглављу е-поруке зарад боље усклађености са Autocrypt-ом
     .accesskey = т
+openpgp-cancel-key =
+    .label = Откажи
+    .tooltiptext = Откажи стварање кључа
 openpgp-generate-key =
     .label = Направи кључ
     .tooltiptext = Ствара нови OpenPGP усклађени кључ за шифровање и/или потписивање
@@ -160,6 +163,7 @@ do-import-multiple =
 
 ## Strings used in dialog.jsm
 
+dlg-button-cancel = &Откажи
 
 ## Strings used in persistentCrypto.jsm
 

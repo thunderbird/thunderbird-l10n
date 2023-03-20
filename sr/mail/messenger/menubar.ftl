@@ -73,6 +73,12 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
+toolbar-junk-button =
+    .label = Непожељно
+    .tooltiptext = Обележи изабране поруке као непожељне
+toolbar-not-junk-button =
+    .label = Није непожељно
+    .tooltiptext = Обележи изабране поруке као пожељне
 toolbar-delete-button =
     .label = Обриши
     .tooltiptext = Обриши изабране поруке или фасциклу
@@ -115,6 +121,12 @@ mail-uidensity-normal =
 mail-uidensity-touch =
     .label = Додирна
     .accesskey = д
+mail-uidensity-default =
+    .label = Подразумевано
+    .accesskey = д
+mail-uidensity-relaxed =
+    .label = Опуштено
+    .accesskey = т
 menu-spaces-toolbar-button =
     .label = Просторна трака
     .accesskey = к

@@ -25,14 +25,21 @@ about-addressbook-books-context-properties =
     .label = Својства
 about-addressbook-books-context-edit-list =
     .label = Уреди списак
+about-addressbook-books-context-synchronize =
+    .label = Синхронизуј
 about-addressbook-books-context-edit =
     .label = Уреди
 about-addressbook-books-context-print =
     .label = Штампање…
 about-addressbook-books-context-export =
     .label = Извези…
+about-addressbook-books-context-delete =
+    .label = Обриши
+about-addressbook-books-context-remove =
+    .label = Уклони
 about-addressbook-books-context-startup-default =
     .label = Подразумевана почетна фасцикла
+about-addressbook-confirm-remove-remote-book-title = Уклони именик
 
 ## Cards
 
@@ -49,6 +56,7 @@ about-addressbook-name-format-display =
 ## Each string is listed here twice, and the values should match.
 
 about-addressbook-column-header-emailaddresses = Адресе е-поште
+about-addressbook-column-header-addrbook = Именик
 about-addressbook-column-header-emailaddresses2 = Адресе е-поште
     .title = Поређај по адреси е-поште
 about-addressbook-column-label-emailaddresses2 =
@@ -57,8 +65,28 @@ about-addressbook-column-header-nickname2 = Надимак
     .title = Поређај по надимку
 about-addressbook-column-label-nickname2 =
     .label = Надимак
+about-addressbook-column-header-addresses2 = Адресе
+    .title = Поређај по адресама
+about-addressbook-column-label-addresses2 =
+    .label = Адресе
+about-addressbook-column-header-title2 = Наслов
+    .title = Поређај по наслову
+about-addressbook-column-label-title2 =
+    .label = Наслов
+about-addressbook-column-header-addrbook2 = Именик
+    .title = Поређај по именику
+about-addressbook-column-label-addrbook2 =
+    .label = Именик
 about-addressbook-cards-context-write =
     .label = Пиши
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+about-addressbook-confirm-remove-contacts-title =
+    { $count ->
+        [one] Уклони контакт
+        [few] Уклони контакте
+       *[other] Уклони контакте
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -86,6 +114,8 @@ about-addressbook-unsaved-changes-prompt = Да ли желите да сачу�
 
 # Photo dialog
 
+about-addressbook-photo-cancel = Откажи
+about-addressbook-photo-save = Сачувај
 
 # Keyboard shortcuts
 

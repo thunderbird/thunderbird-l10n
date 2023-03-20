@@ -24,6 +24,7 @@ app-name-thunderbird = Thunderbird
 ## Import from app profile steps
 
 items-pane-checkbox-accounts = Налози и подешавања
+items-pane-checkbox-address-books = Именици
 
 ## Import from address book file steps
 

@@ -55,9 +55,14 @@ folder-toolbar-toggle-folder-compact-view =
 redirect-msg-menuitem =
     .label = Преусмери
     .accesskey = у
+menu-file-save-as-file =
+    .label = Датотека…
+    .accesskey = Д
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = Датотека…
 appmenu-settings =
     .label = Подешавања
 appmenu-addons-and-themes =
@@ -117,9 +122,13 @@ message-header-all-headers =
 
 ## Action Button Context Menu
 
+toolbar-context-menu-remove-extension =
+    .label = Уклони додатак
+    .accesskey = д
 
 ## Add-on removal warning
 
+addon-removal-confirmation-button = Уклони
 repair-text-encoding-button =
     .label = Поправи кодирање текста
     .tooltiptext = Претпостави исправан кодни распоред текста на основу садржаја поруке

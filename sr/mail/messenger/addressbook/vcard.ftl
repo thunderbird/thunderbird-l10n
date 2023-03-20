@@ -56,3 +56,6 @@ vcard-email-header = Адресе е-поште
 
 # Custom properties
 
+vcard-remove-button-title =
+    .title = Уклони
+vcard-remove-button = Уклони

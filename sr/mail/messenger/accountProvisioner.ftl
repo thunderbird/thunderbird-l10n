@@ -7,6 +7,7 @@ account-provisioner-title = Направите нову адресу е-пошт
 ## Forms
 
 account-provisioner-search-button = Претрага
+account-provisioner-button-cancel = Откажи
 
 ## Notifications
 
