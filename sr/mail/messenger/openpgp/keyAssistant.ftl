@@ -15,3 +15,4 @@
 ## Dialog buttons
 
 openpgp-key-assistant-cancel-button = Откажи
+openpgp-key-assistant-close-button = Затвори

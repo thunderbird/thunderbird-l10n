@@ -5,6 +5,8 @@
 
 ## Window controls
 
+messenger-window-close-button =
+    .tooltiptext = Затвори
 about-rights-notification-text = { -brand-short-name } је слободан и отворен софтвер који је изградила заједница више хиљада особа из целог света.
 
 ## Content tabs

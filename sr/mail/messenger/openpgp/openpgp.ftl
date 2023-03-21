@@ -44,8 +44,12 @@ openpgp-key-man-discover-progress = Тражим…
 openpgp-key-man-ctx-copy =
     .label = Копирај
     .accesskey = и
+openpgp-key-man-close =
+    .label = Затвори
 openpgp-key-man-ignored-ids =
     .label = Адресе е-поште
+openpgp-card-details-close-window-label =
+    .buttonlabelaccept = Затвори
 openpgp-copy-cmd-label =
     .label = Копирај
 
@@ -163,6 +167,7 @@ do-import-multiple =
 
 ## Strings used in dialog.jsm
 
+dlg-button-close = &Затвори
 dlg-button-cancel = &Откажи
 
 ## Strings used in persistentCrypto.jsm

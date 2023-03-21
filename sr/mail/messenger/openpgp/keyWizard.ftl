@@ -14,6 +14,9 @@ openpgp-keygen-dismiss =
     .label = Откажи
 openpgp-keygen-cancel =
     .label = Откажи поступак…
+openpgp-keygen-import-complete =
+    .label = Затвори
+    .accesskey = З
 
 ## Import Key section
 

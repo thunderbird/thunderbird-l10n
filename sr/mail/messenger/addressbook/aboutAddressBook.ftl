@@ -51,12 +51,22 @@ about-addressbook-search-all =
     .placeholder = Претражи све именике
 about-addressbook-name-format-display =
     .label = Име за приказ
+about-addressbook-sort-name-ascending =
+    .label = Поређај по називу (А > Ш)
+about-addressbook-sort-name-descending =
+    .label = Поређај по називу (Ш > А)
+about-addressbook-sort-email-ascending =
+    .label = Поређај по е-адреси (А > Ш)
+about-addressbook-sort-email-descending =
+    .label = Поређај по е-адреси (Ш > А)
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
 about-addressbook-column-header-emailaddresses = Адресе е-поште
 about-addressbook-column-header-addrbook = Именик
+about-addressbook-column-header-generatedname2 = Назив
+    .title = Поређај по називу
 about-addressbook-column-header-emailaddresses2 = Адресе е-поште
     .title = Поређај по адреси е-поште
 about-addressbook-column-label-emailaddresses2 =
@@ -65,6 +75,8 @@ about-addressbook-column-header-nickname2 = Надимак
     .title = Поређај по надимку
 about-addressbook-column-label-nickname2 =
     .label = Надимак
+about-addressbook-column-header-phonenumbers2 = Бројеви телефона
+    .title = Поређај по бројевима телефона
 about-addressbook-column-header-addresses2 = Адресе
     .title = Поређај по адресама
 about-addressbook-column-label-addresses2 =
@@ -73,6 +85,10 @@ about-addressbook-column-header-title2 = Наслов
     .title = Поређај по наслову
 about-addressbook-column-label-title2 =
     .label = Наслов
+about-addressbook-column-header-department2 = Одељење
+    .title = Поређај по одељењу
+about-addressbook-column-header-organization2 = Организација
+    .title = Поређај по организацији
 about-addressbook-column-header-addrbook2 = Именик
     .title = Поређај по именику
 about-addressbook-column-label-addrbook2 =
