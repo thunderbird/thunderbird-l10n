@@ -12,6 +12,8 @@ about-addressbook-toolbar-new-contact =
     .label = Нови контакт
 about-addressbook-toolbar-new-list =
     .label = Нови списак
+about-addressbook-toolbar-import =
+    .label = Увези
 
 ## Books
 
@@ -49,6 +51,8 @@ about-addressbook-search =
     .placeholder = Претражи { $name }
 about-addressbook-search-all =
     .placeholder = Претражи све именике
+about-addressbook-sort-button2 =
+    .title = Прикажи опције приказа
 about-addressbook-name-format-display =
     .label = Име за приказ
 about-addressbook-sort-name-ascending =
