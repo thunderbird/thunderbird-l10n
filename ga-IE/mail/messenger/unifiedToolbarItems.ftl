@@ -32,3 +32,6 @@ toolbar-go-forward =
 toolbar-stop-label = Stad
 toolbar-stop =
     .title = Stop an traschur reatha
+toolbar-throbber-label = Táscaire Gníomhaíochta
+toolbar-throbber =
+    .title = Táscaire Gníomhaíochta
