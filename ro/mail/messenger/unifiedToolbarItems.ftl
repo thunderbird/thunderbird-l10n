@@ -106,3 +106,6 @@ toolbar-go-forward =
 toolbar-stop-label = Oprește
 toolbar-stop =
     .title = Oprește transferul actual
+toolbar-throbber-label = Indicator de activitate
+toolbar-throbber =
+    .title = Indicator de activitate
