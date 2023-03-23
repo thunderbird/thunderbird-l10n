@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Leállítás
 toolbar-stop =
     .title = Átvitel megszakítása
+toolbar-throbber-label = Aktivitásjelző
+toolbar-throbber =
+    .title = Aktivitásjelző
