@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Kalendáre
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Predvoľba kalendára { $calendarName }
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Pre kalendár { $calendarName } boli vypnuté upozornenia
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Iba pracovné dni
 calendar-define-workweek-option =
     .label = Definovať dni pracovného týždňa
+calendar-show-tasks-calendar-option =
+    .label = Zobraziť úlohy v kalendári
 
 ## Calendar Context Menu
 
