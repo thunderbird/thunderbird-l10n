@@ -121,3 +121,6 @@ toolbar-go-forward =
 toolbar-stop-label = Peata
 toolbar-stop =
     .title = Katkesta andmeedastus
+toolbar-throbber-label = Aktiivsuse indikaator
+toolbar-throbber =
+    .title = Aktiivsuse indikaator
