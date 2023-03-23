@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = 중지
 toolbar-stop =
     .title = 전송 중지
+toolbar-throbber-label = 활성도 지시자
+toolbar-throbber =
+    .title = 활성도 지시자
