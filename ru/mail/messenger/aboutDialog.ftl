@@ -5,6 +5,26 @@
 about-update-whats-new = Что нового
 aboutDialog-title =
     .title = О { -brand-full-name }
+release-notes-link = Примечания к выпуску
+update-check-for-updates-button = Проверить на обновления
+    .accesskey = о
+update-update-button = Перезапустить { -brand-shorter-name } для обновления
+    .accesskey = е
+update-checking-for-updates = Проверка наличия обновлений…
+update-downloading-message = Загрузка обновления — <span data-l10n-name="download-status"></span>
+update-applying = Применение обновления…
+update-downloading = <img data-l10n-name="icon"/>Загрузка обновления — <span data-l10n-name="download-status"></hspan>
+update-failed = Обновление не удалось. <a data-l10n-name="failed-link">Загрузите последнюю версию</a>
+update-admin-disabled = Обновления отключены вашим системным администратором
+update-no-updates-found = Установлена последняя версия { -brand-short-name }
+update-other-instance-handling-updates = Обновление производится другим процессом { -brand-short-name }
+update-unsupported = Вы не можете производить дальнейшие обновления на этой системе. <a data-l10n-name="unsupported-link">Подробнее</a>
+update-restarting = Перезапуск…
+# Variables:
+#   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
+channel-description = Сейчас вы находитесь на канале обновлений <span data-l10n-name="current-channel">{ $channel }</span> .
+warning-desc-version = { -brand-short-name } является экспериментальным и может быть нестабилен.
+warning-desc-telemetry = Он автоматически отправляет информацию о производительности, аппаратном обеспечении, использовании и настройках в { -vendor-short-name }, чтобы помочь сделать { -brand-short-name } лучше.
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1
@@ -17,3 +37,24 @@ aboutDialog-version = { $version } ({ $bits }-разрядный)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-разрядный)
 aboutdialog-update-checking-failed = Не удалось проверить наличие обновлений.
+community-exp =
+    <a data-l10n-name="community-exp-mozilla-link">
+    { -vendor-short-name }</a>
+     является <a data-l10n-name="community-exp-credits-link">
+    глобальным сообществом</a>
+    , работающим над тем, чтобы Интернет оставался открытым, публичным и доступным для всех и каждого.
+community-2 =
+    { -brand-short-name } создан <a data-l10n-name="community-mozilla-link">
+    { -vendor-short-name }</a>
+     — <a data-l10n-name="community-credits-link">
+    глобальным сообществом</a>
+    , работающим над тем, чтобы Интернет оставался открытым, публичным и доступным для всех и каждого.
+about-helpus =
+    Хотите помочь? <a data-l10n-name="helpus-donate-link">
+    Сделайте пожертвование</a> or <a data-l10n-name="helpus-get-involved-link">
+    присоединяйтесь!</a>
+bottom-links-license = Информация о лицензии
+bottom-links-rights = Права конечного пользователя
+bottom-links-privacy = Политика приватности
+cmd-close-mac-command-key =
+    .key = w
