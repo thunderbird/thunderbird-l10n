@@ -130,3 +130,6 @@ toolbar-go-forward =
 toolbar-stop-label = Pysäytä
 toolbar-stop =
     .title = Keskeytä lataus
+toolbar-throbber-label = Toimintaindikaattori
+toolbar-throbber =
+    .title = Toimintaindikaattori
