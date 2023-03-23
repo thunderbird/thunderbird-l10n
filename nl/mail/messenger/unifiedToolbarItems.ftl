@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Stoppen
 toolbar-stop =
     .title = De huidige overdracht stoppen
+toolbar-throbber-label = Activiteitsindicator
+toolbar-throbber =
+    .title = Activiteitsindicator
