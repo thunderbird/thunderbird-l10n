@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Stój
 toolbar-stop =
     .title = Aktualne přenjesenje zastajić
+toolbar-throbber-label = Pokazowar aktiwity
+toolbar-throbber =
+    .title = Pokazowar aktiwity
