@@ -130,6 +130,7 @@ toolbar-new-task =
 toolbar-go-back-label = Артқа
 toolbar-go-back =
     .title = Бір хабарламаға артқа өту
+toolbar-go-forward-label = Алға
 toolbar-go-forward =
     .title = Бір хабарламаға алға өту
 toolbar-stop-label = Тоқтату
