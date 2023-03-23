@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Zastavit
 toolbar-stop =
     .title = Ukončí probíhající spojení
+toolbar-throbber-label = Indikátor aktivity
+toolbar-throbber =
+    .title = Indikátor aktivity
