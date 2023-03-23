@@ -37,6 +37,18 @@ aboutDialog-version = { $version } ({ $bits }-биттік)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-биттік)
 aboutdialog-update-checking-failed = Жаңартуларды тексеру сәтсіз аяқталды.
+community-exp =
+    <a data-l10n-name="community-exp-mozilla-link">
+    { -vendor-short-name }</a>
+     бұл <a data-l10n-name="community-exp-credits-link">
+    глобалды қоғамдастық,</a>
+     интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.
+community-2 =
+    { -brand-short-name } жасаған <a data-l10n-name="community-mozilla-link">
+    { -vendor-short-name }</a>
+    , ол <a data-l10n-name="community-credits-link">
+    глобалды қоғамдастық,</a>
+     интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.
 about-helpus =
     Көмектескіңіз келе ме? <a data-l10n-name="helpus-donate-link">
     Ақшалай көмектесіңіз</a> or <a data-l10n-name="helpus-get-involved-link">
