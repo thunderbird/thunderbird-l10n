@@ -104,3 +104,6 @@ toolbar-go-forward =
 toolbar-stop-label = Berhenti
 toolbar-stop =
     .title = Hentikan pemindahan semasa
+toolbar-throbber-label = Penunjuk Aktiviti
+toolbar-throbber =
+    .title = Penunjuk Aktiviti
