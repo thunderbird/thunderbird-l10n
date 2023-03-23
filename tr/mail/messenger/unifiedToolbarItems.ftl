@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Durdur
 toolbar-stop =
     .title = Şu anki aktarımı durdur
+toolbar-throbber-label = Etkinlik göstergesi
+toolbar-throbber =
+    .title = Etkinlik göstergesi
