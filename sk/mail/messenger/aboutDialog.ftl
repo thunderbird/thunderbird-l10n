@@ -11,7 +11,9 @@ update-check-for-updates-button = Vyhľadať aktualizácie
 update-update-button = Reštartovať a aktualizovať aplikáciu { -brand-shorter-name }
     .accesskey = R
 update-checking-for-updates = Vyhľadávajú sa aktualizácie…
+update-downloading-message = Sťahuje sa aktualizácia — <span data-l10n-name="download-status"></span>
 update-applying = Aktualizácia sa inštaluje…
+update-downloading = <img data-l10n-name="icon"/>Sťahuje sa aktualizácia — <span data-l10n-name="download-status"></hspan>
 update-failed = Aktualizácia zlyhala. <a data-l10n-name="failed-link">Stiahnuť najnovšiu verziu</a>
 update-admin-disabled = Aktualizácie boli vypnuté správcom systému
 update-other-instance-handling-updates = { -brand-short-name } sa práve aktualizuje v inej inštancii
