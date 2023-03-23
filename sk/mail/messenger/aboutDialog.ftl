@@ -16,8 +16,10 @@ update-applying = Aktualizácia sa inštaluje…
 update-downloading = <img data-l10n-name="icon"/>Sťahuje sa aktualizácia — <span data-l10n-name="download-status"></hspan>
 update-failed = Aktualizácia zlyhala. <a data-l10n-name="failed-link">Stiahnuť najnovšiu verziu</a>
 update-admin-disabled = Aktualizácie boli vypnuté správcom systému
+update-no-updates-found = Používate najnovšiu verziu programu { -brand-short-name }.
 update-other-instance-handling-updates = { -brand-short-name } sa práve aktualizuje v inej inštancii
 update-unsupported = Ďalšie aktualizácie už nie sú na tomto systéme možné. <a data-l10n-name="unsupported-link">Ďalšie informácie</a>
+update-restarting = Reštartuje sa…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
 channel-description = Používate aktualizačný kanál <span data-l10n-name="current-channel">{ $channel }</span> .
@@ -53,5 +55,6 @@ about-helpus =
     sa zapojte</a>
 bottom-links-license = Informácie o licenciách
 bottom-links-rights = Práva koncového používateľa
+bottom-links-privacy = Zásady ochrany osobných údajov
 cmd-close-mac-command-key =
     .key = w
