@@ -5,6 +5,26 @@
 about-update-whats-new = Novidades
 aboutDialog-title =
     .title = Sobre o { -brand-full-name }
+release-notes-link = Notas de lançamento
+update-check-for-updates-button = Procurar atualizações
+    .accesskey = c
+update-update-button = Reiniciar para atualizar o { -brand-shorter-name }
+    .accesskey = R
+update-checking-for-updates = A procurar atualizações…
+update-downloading-message = A transferir atualização — <span data-l10n-name="download-status"></span>
+update-applying = A aplicar atualização…
+update-downloading = <img data-l10n-name="icon"/>A transferir atualização — <span data-l10n-name="download-status"></hspan>
+update-failed = A atualização falhou. <a data-l10n-name="failed-link">Transfira a versão mais recente</a>
+update-admin-disabled = Atualizações desativadas pelo seu administrador de sistema
+update-no-updates-found = O { -brand-short-name } está atualizado
+update-other-instance-handling-updates = O { -brand-short-name } está a ser atualizado por outra operação
+update-unsupported = Não pode realizar mais atualizações neste sistema. <a data-l10n-name="unsupported-link">Saber mais</a>
+update-restarting = A reiniciar…
+# Variables:
+#   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
+channel-description = Atualmente, está no <span data-l10n-name="current-channel">{ $channel }</span> canal de atualizações.
+warning-desc-version = O { -brand-short-name } é experimental e pode ser instável.
+warning-desc-telemetry = Este envia automaticamente informação acerca do desempenho, hardware, utilização e personalizações para a { -vendor-short-name }, para ajudar a tornar o { -brand-short-name } melhor.
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1
@@ -17,3 +37,24 @@ aboutDialog-version = { $version } ({ $bits }-bit)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
 aboutdialog-update-checking-failed = Falha ao verificar se há atualizações.
+community-exp =
+    <a data-l10n-name="community-exp-mozilla-link">
+    { -vendor-short-name }</a>
+     é uma <a data-l10n-name="community-exp-credits-link">
+    comunidade global</a>
+     que trabalha em conjunto para manter a Web aberta, pública e acessível para todos.
+community-2 =
+    O { -brand-short-name } é desenhado pela <a data-l10n-name="community-mozilla-link">
+    { -vendor-short-name }</a>
+    , uma <a data-l10n-name="community-credits-link">
+    comunidade global</a>
+     que trabalha em conjunto para manter a Web aberta, pública e acessível para todos.
+about-helpus =
+    Pretende ajudar? <a data-l10n-name="helpus-donate-link">
+    Efetue um donativo</a> or <a data-l10n-name="helpus-get-involved-link">
+    envolva-se!</a>
+bottom-links-license = Informação da licença
+bottom-links-rights = Direitos do utilizador final
+bottom-links-privacy = Política de privacidade
+cmd-close-mac-command-key =
+    .key = w
