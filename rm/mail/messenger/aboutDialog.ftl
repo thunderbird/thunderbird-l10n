@@ -5,6 +5,26 @@
 about-update-whats-new = Novaziuns
 aboutDialog-title =
     .title = Davart { -brand-full-name }
+release-notes-link = Remartgas davart la versiun
+update-check-for-updates-button = Tschertgar actualisaziuns
+    .accesskey = C
+update-update-button = Reaviar per actualisar { -brand-shorter-name }
+    .accesskey = R
+update-checking-for-updates = Tschertgar actualisaziuns disponiblas…
+update-downloading-message = L'actualisaziun vegn telechargiada — <span data-l10n-name="download-status"></span>
+update-applying = Applitgar l'actualisaziun…
+update-downloading = <img data-l10n-name="icon"/>L'actualisaziun vegn telechargiada — <span data-l10n-name="download-status"></hspan>
+update-failed = L'actualisaziun n'è betg reussida. <a data-l10n-name="failed-link">Telechargiar la versiun actuala</a>
+update-admin-disabled = La funcziun dad actualisaziuns è deactivada da tes administratur da sistem
+update-no-updates-found = { -brand-short-name } è actual
+update-other-instance-handling-updates = { -brand-short-name } vegn actualisà d'ina autra instanza
+update-unsupported = Sin quest sistem na pon naginas actualisaziuns vegnir exequidas pli. <a data-l10n-name="unsupported-link">Ulteriuras infurmaziuns</a>
+update-restarting = Reaviar…
+# Variables:
+#   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
+channel-description = Ti retschaivas actualmain las actualisaziuns dal chanal <span data-l10n-name="current-channel">{ $channel }</span> .
+warning-desc-version = { -brand-short-name } è experimental e pudess esser instabel.
+warning-desc-telemetry = Il program trametta automaticamain infurmaziuns davart la prestaziun, la hardware, l'utilisaziun e la persunalisaziun a { -vendor-short-name } per gidar a meglierar { -brand-short-name }.
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1
@@ -16,3 +36,24 @@ aboutDialog-version = { $version } ({ $bits } bits)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bits)
+community-exp =
+    <a data-l10n-name="community-exp-mozilla-link">
+    { -vendor-short-name }</a>
+     è ina <a data-l10n-name="community-exp-credits-link">
+    communitad globala</a>
+     che lavura communablamain per che l'internet resta avert, public ed accessibel a tuts.
+community-2 =
+    { -brand-short-name } vegn sviluppà da <a data-l10n-name="community-mozilla-link">
+    { -vendor-short-name }</a>
+    , ina <a data-l10n-name="community-credits-link">
+    communitad globala</a>
+     che lavura communablamain per che l'internet resta avert, public ed accessibel a tuts.
+about-helpus =
+    Vuls gidar? <a data-l10n-name="helpus-donate-link">
+    Fa ina donaziun</a> or <a data-l10n-name="helpus-get-involved-link">
+    ta participescha!</a>
+bottom-links-license = Infurmaziuns davart la licenza
+bottom-links-rights = Dretgs da l'utilisader
+bottom-links-privacy = Directivas per la protecziun da datas
+cmd-close-mac-command-key =
+    .key = w
