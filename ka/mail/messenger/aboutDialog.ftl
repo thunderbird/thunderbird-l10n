@@ -3,13 +3,17 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = რა სიახლეებია
+release-notes-link = გამოშვების მონაცემები
 update-check-for-updates-button = განახლებების შემოწმება
     .accesskey = შ
+update-update-button = გასაახლებლად კვლავ გაუშვით { -brand-shorter-name }
+    .accesskey = ხ
 update-checking-for-updates = შემოწმება განახლებებზე…
 update-downloading-message = განახლების ჩამოტვირთვა — <span data-l10n-name="download-status"></span>
 update-applying = განახლების შესრულება…
 update-downloading = <img data-l10n-name="icon"/>განახლების ჩამოტვირთვა — <span data-l10n-name="download-status"></hspan>
 update-failed = განახლება ვერ ხერხდება. <a data-l10n-name="failed-link">უახლესი ვერსიის ჩამოტვირთვა</a>
+update-admin-disabled = განახლებები ამორთულია თქვენი სისტემის ზედამხედველის მიერ
 update-no-updates-found = { -brand-short-name } განახლებულია
 update-other-instance-handling-updates = { -brand-short-name } უკვე ახლდება
 update-unsupported = ამ სისტემაში შემდგომი განახლებებით ვეღარ ისარგებლებთ. <a data-l10n-name="unsupported-link">Learn more</a>
