@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Dừng
 toolbar-stop =
     .title = Dừng việc truyền tải hiện tại
+toolbar-throbber-label = Chỉ báo hoạt động
+toolbar-throbber =
+    .title = Chỉ báo hoạt động
