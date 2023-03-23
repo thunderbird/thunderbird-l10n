@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = 停止
 toolbar-stop =
     .title = 停止当前的传输
+toolbar-throbber-label = 活动指示器
+toolbar-throbber =
+    .title = 活动指示器
