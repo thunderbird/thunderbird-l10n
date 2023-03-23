@@ -37,6 +37,18 @@ aboutDialog-version = { $version } ({ $bits }-bits)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bits)
 aboutdialog-update-checking-failed = Kin net kontrolearje op fernijingen.
+community-exp =
+    <a data-l10n-name="community-exp-mozilla-link">
+    { -vendor-short-name }</a>
+     is in <a data-l10n-name="community-exp-credits-link">
+    wrâldwide mienskip</a>
+     dy’t gearwurket om it ynternet iepen, iepenbier en foar elkenien tagonklik te hâlden.
+community-2 =
+    { -brand-short-name } is makke troch <a data-l10n-name="community-mozilla-link">
+    { -vendor-short-name }</a>
+    , in <a data-l10n-name="community-credits-link">
+    wrâldwide mienskip</a>
+     dy’t gearwurket om it ynternet iepen, iepenbier, en foar elkenien tagonklik te hâlden.
 about-helpus =
     Wolle jo helpe? <a data-l10n-name="helpus-donate-link">
     Jou in donaasje</a> or <a data-l10n-name="helpus-get-involved-link">
