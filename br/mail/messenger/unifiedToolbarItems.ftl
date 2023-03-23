@@ -106,3 +106,6 @@ toolbar-go-forward =
 toolbar-stop-label = Paouez
 toolbar-stop =
     .title = Paouez gant an treuzkas bremanel
+toolbar-throbber-label = Meneger oberiantiz
+toolbar-throbber =
+    .title = Meneger oberiantiz
