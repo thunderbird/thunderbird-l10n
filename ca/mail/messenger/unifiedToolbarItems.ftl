@@ -121,3 +121,6 @@ toolbar-go-forward =
 toolbar-stop-label = Atura
 toolbar-stop =
     .title = Atura la transferència actual
+toolbar-throbber-label = Indicador d'activitat
+toolbar-throbber =
+    .title = Indicador d'activitat
