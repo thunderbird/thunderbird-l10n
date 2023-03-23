@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Gelditu
 toolbar-stop =
     .title = Gelditu uneko transferentzia
+toolbar-throbber-label = Jarduera-adierazlea
+toolbar-throbber =
+    .title = Jarduera-adierazlea
