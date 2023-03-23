@@ -106,3 +106,6 @@ toolbar-go-forward =
 toolbar-stop-label = Berhenti
 toolbar-stop =
     .title = Hentikan transfer yang berjalan
+toolbar-throbber-label = Indikator Aktivitas
+toolbar-throbber =
+    .title = Indikator Aktivitas
