@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Interrompi
 toolbar-stop =
     .title = Interrompi il trasferimento corrente
+toolbar-throbber-label = Indicatore di attività
+toolbar-throbber =
+    .title = Indicatore di attività
