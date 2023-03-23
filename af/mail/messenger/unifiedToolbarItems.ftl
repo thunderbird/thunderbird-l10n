@@ -14,3 +14,6 @@ toolbar-go-forward =
 toolbar-stop-label = Stop
 toolbar-stop =
     .title = Staak die huidige oordrag
+toolbar-throbber-label = Aktiwitietaanwyser
+toolbar-throbber =
+    .title = Aktiwitietaanwyser
