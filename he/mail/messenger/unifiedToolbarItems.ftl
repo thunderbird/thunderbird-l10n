@@ -116,3 +116,6 @@ toolbar-go-forward =
 toolbar-stop-label = עצור
 toolbar-stop =
     .title = הפסק העברה נוכחית
+toolbar-throbber-label = מחוון פעילות
+toolbar-throbber =
+    .title = מחוון פעילות
