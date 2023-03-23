@@ -112,3 +112,6 @@ toolbar-go-forward =
 toolbar-stop-label = Stabdyti
 toolbar-stop =
     .title = Stabdyti atsiuntimą
+toolbar-throbber-label = Aktyvumo rodiklis
+toolbar-throbber =
+    .title = Aktyvumo rodiklis
