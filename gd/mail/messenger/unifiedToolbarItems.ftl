@@ -106,3 +106,6 @@ toolbar-go-forward =
 toolbar-stop-label = Sguir dheth
 toolbar-stop =
     .title = Sguir dhen tar-aiseag làithreach
+toolbar-throbber-label = Tosgair gnìomhachd
+toolbar-throbber =
+    .title = Tosgair gnìomhachd
