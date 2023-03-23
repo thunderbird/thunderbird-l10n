@@ -75,3 +75,6 @@ toolbar-go-forward =
 toolbar-stop-label = Tiq'at
 toolbar-stop =
     .title = Tiq'at ri q'axanïk wakami
+toolbar-throbber-label = K'utunel Samaj
+toolbar-throbber =
+    .title = K'utunel Samaj
