@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Atal
 toolbar-stop =
     .title = Atal y trosglwyddiad cyfredol
+toolbar-throbber-label = Dangosydd Gweithgaredd
+toolbar-throbber =
+    .title = Dangosydd Gweithgaredd
