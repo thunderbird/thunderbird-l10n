@@ -14,3 +14,6 @@ toolbar-go-forward =
 toolbar-stop-label = Стоп
 toolbar-stop =
     .title = Го стопира тековниот трансфер
+toolbar-throbber-label = Индикатор за активност
+toolbar-throbber =
+    .title = Индикатор за активност
