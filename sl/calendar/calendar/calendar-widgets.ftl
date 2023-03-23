@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Koledarji
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Možnost koledarja { $calendarName }
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Koledar { $calendarName } je utišan
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Le delovni dnevi
 calendar-define-workweek-option =
     .label = Določi delovne dneve
+calendar-show-tasks-calendar-option =
+    .label = Prikaži opravila v koledarju
 
 ## Calendar Context Menu
 
