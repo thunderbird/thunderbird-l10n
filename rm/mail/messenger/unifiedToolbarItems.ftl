@@ -121,3 +121,6 @@ toolbar-go-forward =
 toolbar-stop-label = Fermar
 toolbar-stop =
     .title = Fermar la transmissiun actuala
+toolbar-throbber-label = Indicaziun da l'activitad
+toolbar-throbber =
+    .title = Indicaziun da l'activitad
