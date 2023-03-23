@@ -23,6 +23,7 @@ update-restarting = Перезапуск…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
 channel-description = Ви зараз на каналі оновлень <span data-l10n-name="current-channel">{ $channel }</span> .
+warning-desc-version = { -brand-short-name } експериментальний і може бути нестабільним.
 warning-desc-telemetry = Він автоматично надсилає у { -vendor-short-name } інформацію про швидкодію, апаратне забезпечення, використання та налаштування, щоб допомогти зробити { -brand-short-name } кращим.
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
@@ -42,11 +43,18 @@ community-exp =
      є <a data-l10n-name="community-exp-credits-link">
     всесвітня спільнота</a>
     , яка працює над тим, щоб інтернет залишався відкритим, громадським та доступним для всіх.
+community-2 =
+    { -brand-short-name } було розроблено в <a data-l10n-name="community-mozilla-link">
+    { -vendor-short-name }</a>
+     — <a data-l10n-name="community-credits-link">
+    глобальній спільноті</a>
+    , яка працює над тим, щоб інтернет залишався відкритим, громадським та доступним для всіх.
 about-helpus =
     Бажаєте допомогти? <a data-l10n-name="helpus-donate-link">
     Зробіть внесок</a> or <a data-l10n-name="helpus-get-involved-link">
     долучайтеся</a>
 bottom-links-license = Ліцензійна інформація
 bottom-links-rights = Права кінцевого користувача
+bottom-links-privacy = Політика приватності
 cmd-close-mac-command-key =
     .key = w
