@@ -5,6 +5,7 @@
 about-update-whats-new = Hvað er nýtt
 aboutDialog-title =
     .title = Um { -brand-full-name }
+update-other-instance-handling-updates = Verið er að uppfæra { -brand-short-name } annarstaðar
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1
@@ -17,3 +18,5 @@ aboutDialog-version = { $version } ({ $bits }-bita)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bita)
 aboutdialog-update-checking-failed = Mistókst að athuga með uppfærslur.
+cmd-close-mac-command-key =
+    .key = w
