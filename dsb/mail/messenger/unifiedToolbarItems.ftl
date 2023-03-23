@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Stoj
 toolbar-stop =
     .title = Aktualne pśenjasenje zastajiś
+toolbar-throbber-label = Indikator aktiwity
+toolbar-throbber =
+    .title = Indikator aktiwity
