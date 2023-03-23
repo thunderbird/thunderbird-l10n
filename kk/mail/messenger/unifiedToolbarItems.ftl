@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Тоқтату
 toolbar-stop =
     .title = Ағымдағы тасымалдауды тоқтату
+toolbar-throbber-label = Активтілік айқындағышы
+toolbar-throbber =
+    .title = Активтілік айқындағышы
