@@ -6,7 +6,7 @@ about-update-whats-new = Novità
 aboutDialog-title =
     .title = Informazioni su { -brand-full-name }
 release-notes-link = Note di versione
-update-internal-error = Impossibile controllare gli aggiornamenti a causa di un errore interno. Aggiornamenti disponibili su <a data-l10n-name="manual-link"/>
+update-internal-error = Impossibile verificare la disponibilità di aggiornamenti a causa di un errore interno. Aggiornamenti disponibili all’indirizzo <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Controlla aggiornamenti
     .accesskey = C
 update-update-button = Riavvia per aggiornare { -brand-shorter-name }
@@ -24,7 +24,7 @@ update-unsupported = Non è possibile eseguire ulteriori aggiornamenti su questo
 update-restarting = Riavvio…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
-channel-description = Attualmente sei nel canale di aggiornamento <span data-l10n-name="current-channel">{ $channel }</span>.
+channel-description = Canale di aggiornamento attuale: <span data-l10n-name="current-channel">{ $channel }</span>.
 warning-desc-version = { -brand-short-name } è una versione sperimentale e potrebbe risultare instabile.
 warning-desc-telemetry = Invia automaticamente informazioni su prestazioni, hardware, utilizzo e personalizzazioni a { -vendor-short-name } per contribuire a migliorare { -brand-short-name }.
 # Example of resulting string: 66.0.1 (64-bit)
