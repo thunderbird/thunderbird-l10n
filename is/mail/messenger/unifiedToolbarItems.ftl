@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Stöðva
 toolbar-stop =
     .title = Stöðva núverandi sendingu
+toolbar-throbber-label = Virknimælir
+toolbar-throbber =
+    .title = Virknimælir
