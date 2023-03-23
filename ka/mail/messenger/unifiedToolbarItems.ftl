@@ -121,3 +121,6 @@ toolbar-go-forward =
 toolbar-stop-label = შეჩერება
 toolbar-stop =
     .title = მიმდინარე გაგზავნის შეჩერება
+toolbar-throbber-label = აქტიობის მაჩვენებელი
+toolbar-throbber =
+    .title = აქტიობის მაჩვენებელი
