@@ -106,3 +106,6 @@ toolbar-go-forward =
 toolbar-stop-label = قف
 toolbar-stop =
     .title = أوقف النقل الحالي
+toolbar-throbber-label = مبيّن النشاط
+toolbar-throbber =
+    .title = مبيّن النشاط
