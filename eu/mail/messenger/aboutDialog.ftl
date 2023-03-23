@@ -5,6 +5,26 @@
 about-update-whats-new = Nobedadeak
 aboutDialog-title =
     .title = { -brand-full-name }(r)i buruz
+release-notes-link = Bertsio-oharrak
+update-check-for-updates-button = Bilatu eguneraketak
+    .accesskey = B
+update-update-button = Berrabiarazi { -brand-shorter-name } eguneratzeko
+    .accesskey = B
+update-checking-for-updates = Eguneraketak bilatzen…
+update-downloading-message = Eguneraketa deskargatzen — <span data-l10n-name="download-status"></span>
+update-applying = Eguneraketa aplikatzen…
+update-downloading = <img data-l10n-name="icon"/>Eguneraketa deskargatzen — <span data-l10n-name="download-status"></hspan>
+update-failed = Eguneraketak huts egin du. <a data-l10n-name="failed-link">Deskargatu azken bertsioa</a>
+update-admin-disabled = Eguneraketak desgaitu ditu sistemaren administratzaileak
+update-no-updates-found = { -brand-short-name } eguneratuta dago
+update-other-instance-handling-updates = Beste instantzia bat ari da { -brand-short-name } eguneratzen
+update-unsupported = Ezin duzu eguneraketa gehiago burutu sistema honetan. <a data-l10n-name="unsupported-link">Argibide gehiago</a>
+update-restarting = Berrabiarazten…
+# Variables:
+#   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
+channel-description = Une honetan <span data-l10n-name="current-channel">{ $channel }</span> eguneraketa-kanalean zaude.
+warning-desc-version = { -brand-short-name } esperimentala da eta ezegonkorra izan liteke.
+warning-desc-telemetry = Automatikoki bidaltzen dio errendimendu, hardware, erabilera eta pertsonalizazio informazioa { -vendor-short-name }ri { -brand-short-name } hobetzen laguntzeko.
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1
@@ -17,3 +37,24 @@ aboutDialog-version = { $version } ({ $bits }-bit)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
 aboutdialog-update-checking-failed = Huts egin du eguneraketak bilatzean.
+community-exp =
+    <a data-l10n-name="community-exp-mozilla-link">
+    { -vendor-short-name }</a>
+     weba ireki, publiko eta guztiontzat atzigarri mantentzeko lanean dabilen <a data-l10n-name="community-exp-credits-link">
+    komunitate globala</a>
+     da.
+community-2 =
+    { -brand-short-name } honek diseinatua da <a data-l10n-name="community-mozilla-link">
+    { -vendor-short-name }</a>
+    k diseinatzen du &brandShortName;, weba ireki, publiko eta guztiontzat atzigarri mantentzeko lanean dabilen <a data-l10n-name="community-credits-link">
+    komunitate globalak</a>
+    .
+about-helpus =
+    Lagundu nahi? <a data-l10n-name="helpus-donate-link">
+    Dohaintza bat egin</a> or <a data-l10n-name="helpus-get-involved-link">
+    Hartu parte!</a>
+bottom-links-license = Lizentziaren informazioa
+bottom-links-rights = Erabiltzailearen eskubideak
+bottom-links-privacy = Pribatutasun-politika
+cmd-close-mac-command-key =
+    .key = w
