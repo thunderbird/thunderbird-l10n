@@ -74,3 +74,6 @@ toolbar-go-forward =
 toolbar-stop-label = Спыніць
 toolbar-stop =
     .title = Прыпыніць цяперашні перанос
+toolbar-throbber-label = Паказнік дзейнасці
+toolbar-throbber =
+    .title = Паказнік дзейнасці
