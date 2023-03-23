@@ -10,6 +10,7 @@ update-check-for-updates-button = Za aktualizacijemi pytać
     .accesskey = Z
 update-update-button = Startujće znowa, zo byšće { -brand-shorter-name } aktualizował
     .accesskey = k
+update-checking-for-updates = Aktualizacije so pytaja…
 update-downloading-message = Aktualizacija so sćahuje — <span data-l10n-name="download-status"></span>
 update-applying = Aktualizacija so nałožuje…
 update-downloading = <img data-l10n-name="icon"/>Aktualizacija so sćahuje — <span data-l10n-name="download-status"></hspan>
