@@ -124,3 +124,6 @@ toolbar-go-forward =
 toolbar-stop-label = Заустави
 toolbar-stop =
     .title = Заустави тренутни пренос
+toolbar-throbber-label = Показивач активности
+toolbar-throbber =
+    .title = Показивач активности
