@@ -32,3 +32,6 @@ toolbar-go-forward =
 toolbar-stop-label = To‘xtatish
 toolbar-stop =
     .title = Joriy o‘tkazishni to‘xtatish
+toolbar-throbber-label = Faoliyat indikatori
+toolbar-throbber =
+    .title = Faoliyat indikatori
