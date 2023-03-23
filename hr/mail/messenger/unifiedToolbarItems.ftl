@@ -121,3 +121,6 @@ toolbar-go-forward =
 toolbar-stop-label = Stani
 toolbar-stop =
     .title = Zaustavi trenutni prijenos
+toolbar-throbber-label = Indikator aktivnosti
+toolbar-throbber =
+    .title = Indikator aktivnosti
