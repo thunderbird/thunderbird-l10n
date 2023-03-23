@@ -6,6 +6,7 @@ about-update-whats-new = Újdonságok
 aboutDialog-title =
     .title = A { -brand-full-name } névjegye
 release-notes-link = Kiadási megjegyzések
+update-internal-error = Belső hiba miatt nem lehet frissítéseket keresni. A frissítések itt érhetők el: <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Frissítések keresése
     .accesskey = F
 update-update-button = Újraindítás a { -brand-shorter-name } frissítéséhez
@@ -18,6 +19,7 @@ update-failed = A frissítés sikertelen.<a data-l10n-name="failed-link">Töltse
 update-admin-disabled = A frissítéseket a rendszergazda letiltotta
 update-no-updates-found = A { -brand-short-name } naprakész
 update-other-instance-handling-updates = A { -brand-short-name } frissítését egy másik példány végzi
+update-manual = Frissítés érhető el itt: <a data-l10n-name="manual-link"/>
 update-unsupported = Nem végezhet további frissítéseket ezen a rendszeren.<a data-l10n-name="unsupported-link">További tudnivalók</a>
 update-restarting = Újraindítás…
 # Variables:

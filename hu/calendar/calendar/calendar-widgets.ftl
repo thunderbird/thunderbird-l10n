@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Naptárak
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = A(z) „{ $calendarName }” naptár beállításai
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = A(z) „{ $calendarName }” naptár elnémítva
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Csak munkanapokon
 calendar-define-workweek-option =
     .label = Munkanapok meghatározása
+calendar-show-tasks-calendar-option =
+    .label = Feladatok megjelenítése a naptárban
 
 ## Calendar Context Menu
 
