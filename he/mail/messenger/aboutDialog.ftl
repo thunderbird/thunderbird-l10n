@@ -8,10 +8,15 @@ update-check-for-updates-button = בדיקה אחר עדכונים
 update-update-button = יש להפעיל מחדש כדי לעדכן את { -brand-shorter-name }
     .accesskey = פ
 update-checking-for-updates = בודק אם ישנם עדכונים חדשים…
+update-downloading-message = העדכון בהורדה — <span data-l10n-name="download-status"></span>
 update-applying = העדכון חל…
+update-downloading = <img data-l10n-name="icon"/>העדכון בהורדה — <span data-l10n-name="download-status"></hspan>
+update-failed = העדכון נכשל. <a data-l10n-name="failed-link">הורדת הגרסה האחרונה</a>
 update-admin-disabled = עדכונים נוטרלו על־ידי מנהל המערכת שלך
 update-no-updates-found = { -brand-short-name } עדכני
+update-other-instance-handling-updates = { -brand-short-name } מתעדכן ברגעים אלו באמצעות תהליך אחר
 update-unsupported = לא ניתן לבצע עדכונים נוספים במערכת זו. <a data-l10n-name="unsupported-link">מידע נוסף</a>
+update-restarting = מתבצעת הפעלה מחדש…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
 channel-description = הנך נמצא כרגע על ערוץ העדכונים <span data-l10n-name="current-channel">{ $channel }</span> .
