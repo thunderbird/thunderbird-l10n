@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Διακοπή
 toolbar-stop =
     .title = Διακοπή της τρέχουσας μεταφοράς
+toolbar-throbber-label = Επισήμανση ενέργειας
+toolbar-throbber =
+    .title = Επισήμανση ενέργειας
