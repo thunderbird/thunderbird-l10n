@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Ustavi
 toolbar-stop =
     .title = Ustavi trenutni prenos
+toolbar-throbber-label = Merilnik dejavnosti
+toolbar-throbber =
+    .title = Merilnik dejavnosti
