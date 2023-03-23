@@ -76,3 +76,6 @@ toolbar-go-forward =
 toolbar-stop-label = Apturēt
 toolbar-stop =
     .title = Pārtraukt pašreizējo pārsūtīšanu
+toolbar-throbber-label = Darbību rādītājs
+toolbar-throbber =
+    .title = Darbību rādītājs
