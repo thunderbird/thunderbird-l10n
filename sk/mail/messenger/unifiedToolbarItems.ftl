@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Zastaviť
 toolbar-stop =
     .title = Zastaviť aktuálny prenos
+toolbar-throbber-label = Indikátor činnosti
+toolbar-throbber =
+    .title = Indikátor činnosti
