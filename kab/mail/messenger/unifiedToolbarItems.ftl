@@ -121,3 +121,6 @@ toolbar-go-forward =
 toolbar-stop-label = Rken
 toolbar-stop =
     .title = Seḥbes asiweḍ amiran
+toolbar-throbber-label = anamal n wermud
+toolbar-throbber =
+    .title = anamal n wermud
