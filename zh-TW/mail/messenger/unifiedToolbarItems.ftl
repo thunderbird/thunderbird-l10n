@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = 停止
 toolbar-stop =
     .title = 停止傳送
+toolbar-throbber-label = 進度指示器
+toolbar-throbber =
+    .title = 進度指示器
