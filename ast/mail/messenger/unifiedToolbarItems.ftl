@@ -14,3 +14,6 @@ toolbar-go-forward =
 toolbar-stop-label = Detener
 toolbar-stop =
     .title = Detener la tresferencia actual
+toolbar-throbber-label = Indicador d'actividá
+toolbar-throbber =
+    .title = Indicador d'actividá
