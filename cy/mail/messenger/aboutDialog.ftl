@@ -12,6 +12,7 @@ update-update-button = Ailgychwyn i ddiweddaru { -brand-shorter-name }
     .accesskey = A
 update-checking-for-updates = Gwirio am ddiweddariadau…
 update-downloading-message = Llwytho'r diweddariad i lawr - <span data-l10n-name="download-status"></span>
+update-applying = Gosod y diweddariad…
 update-downloading = <img data-l10n-name="icon"/>Llwytho'r diweddariad i lawr - <span data-l10n-name="download-status"></hspan>
 update-failed = Methodd y diweddaru. <a data-l10n-name="failed-link">Llwytho'r fersiwn diweddaraf i lawr</a>
 update-admin-disabled = Mae'r diweddariad wedi'i analluogi gan eich gweinyddwr
@@ -41,6 +42,12 @@ community-exp =
     Mae { -vendor-short-name }</a>
      yn <a data-l10n-name="community-exp-credits-link">
     gymuned fyd-eang</a>
+     sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
+community-2 =
+    Cynlluniwyd { -brand-short-name } gan <a data-l10n-name="community-mozilla-link">
+    { -vendor-short-name }</a>
+    , a <a data-l10n-name="community-credits-link">
+    chymuned fyd-eang</a>
      sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
 about-helpus =
     Hoffech chi helpu? <a data-l10n-name="helpus-donate-link">
