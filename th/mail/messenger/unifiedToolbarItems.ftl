@@ -112,3 +112,6 @@ toolbar-go-forward =
 toolbar-stop-label = หยุด
 toolbar-stop =
     .title = หยุดการถ่ายโอนปัจจุบัน
+toolbar-throbber-label = ตัวบ่งชี้กิจกรรม
+toolbar-throbber =
+    .title = ตัวบ่งชี้กิจกรรม
