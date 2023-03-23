@@ -49,6 +49,10 @@ community-2 =
     , uma <a data-l10n-name="community-credits-link">
     comunidade global</a>
      que trabalha unida para manter a web aberta, pública e acessível a todos.
+about-helpus =
+    Quer ajudar? <a data-l10n-name="helpus-donate-link">
+    Faça uma doação</a> or <a data-l10n-name="helpus-get-involved-link">
+    participe!</a>
 bottom-links-license = Informações de licenciamento
 bottom-links-rights = Direitos do usuário final
 bottom-links-privacy = Política de privacidade
