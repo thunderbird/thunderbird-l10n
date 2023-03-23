@@ -6,6 +6,7 @@ about-update-whats-new = Nouveautés
 aboutDialog-title =
     .title = À propos de { -brand-full-name }
 release-notes-link = Notes de version
+update-internal-error = Une erreur interne empêche la vérification des mises à jour. Elles sont disponibles sur <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Rechercher des mises à jour
     .accesskey = R
 update-update-button = Redémarrer pour mettre à jour { -brand-shorter-name }
@@ -18,6 +19,7 @@ update-failed = La mise à jour a échoué. <a data-l10n-name="failed-link">Tél
 update-admin-disabled = Les mises à jour sont désactivées par votre administrateur système
 update-no-updates-found = { -brand-short-name } est à jour
 update-other-instance-handling-updates = { -brand-short-name } est mis à jour par une autre instance
+update-manual = Mises à jour disponibles sur <a data-l10n-name="manual-link"/>
 update-unsupported = Il n’est pas possible d’installer des mises à jour supplémentaires sur ce système. <a data-l10n-name="unsupported-link">En savoir plus</a>
 update-restarting = Redémarrage…
 # Variables:
