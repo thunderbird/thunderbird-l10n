@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Ophâlde
 toolbar-stop =
     .title = Aktuele ferbining ferbrekke
+toolbar-throbber-label = Aktiviteitsyndikator
+toolbar-throbber =
+    .title = Aktiviteitsyndikator
