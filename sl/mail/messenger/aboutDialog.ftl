@@ -6,6 +6,7 @@ about-update-whats-new = Novosti
 aboutDialog-title =
     .title = O { -brand-full-name(sklon: "mestnik") }
 release-notes-link = Opombe ob izdaji
+update-internal-error = Iskanje posodobitev ni uspelo zaradi notranje napake. Posodobitve so na voljo na <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Poišči posodobitve
     .accesskey = P
 update-update-button = Ponovno zaženi za posodobitev { -brand-shorter-name }a
@@ -18,6 +19,7 @@ update-failed = Posodobitev je spodletela. <a data-l10n-name="failed-link">Prene
 update-admin-disabled = Vaš sistemski skrbnik je onemogočil posodabljanje
 update-no-updates-found = { -brand-short-name } je posodobljen.
 update-other-instance-handling-updates = { -brand-short-name } se posodablja v drugem primerku
+update-manual = Posodobitve so na voljo na <a data-l10n-name="manual-link"/>
 update-unsupported = Nadaljnje posodobitve na tem sistemu niso mogoče. <a data-l10n-name="unsupported-link">Več o tem</a>
 update-restarting = Ponovni zagon …
 # Variables:
