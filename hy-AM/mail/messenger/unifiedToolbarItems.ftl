@@ -109,3 +109,6 @@ toolbar-go-forward =
 toolbar-stop-label = Կանգնեցնել
 toolbar-stop =
     .title = Կանգնեցնել փոխանցումը
+toolbar-throbber-label = Ակտիվության ինդիկատոր
+toolbar-throbber =
+    .title = Ակտիվության ինդիկատոր
