@@ -136,3 +136,6 @@ toolbar-go-forward =
 toolbar-stop-label = Ndale
 toolbar-stop =
     .title = Ndalni shpërnguljen e tanishme
+toolbar-throbber-label = Tregues Veprimtarie
+toolbar-throbber =
+    .title = Tregues Veprimtarie
