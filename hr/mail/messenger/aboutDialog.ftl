@@ -5,6 +5,26 @@
 about-update-whats-new = Što je novo
 aboutDialog-title =
     .title = O { -brand-full-name }u
+release-notes-link = Napomene o izdanju
+update-check-for-updates-button = Provjeri dostupnost dopuna
+    .accesskey = d
+update-update-button = Ponovno pokrenite za ažuriranje { -brand-shorter-name }a
+    .accesskey = r
+update-checking-for-updates = Provjera dopuna…
+update-downloading-message = Preuzimanje dopune – <span data-l10n-name="download-status"></span>
+update-applying = Primjenjivanje dopune…
+update-downloading = <img data-l10n-name="icon"/>Preuzimanje dopune – <span data-l10n-name="download-status"></hspan>
+update-failed = Ažuriranje nije uspjelo. <a data-l10n-name="failed-link">Preuzmite najnoviju inačicu</a>
+update-admin-disabled = Dopune onemogućene od vašeg sistem administratora
+update-no-updates-found = { -brand-short-name } je ažuriran
+update-other-instance-handling-updates = { -brand-short-name } se nadograđuje od strane druge instance
+update-unsupported = Nije moguće raditi daljnja ažuriranja na ovom sustavu. <a data-l10n-name="unsupported-link">Saznajte više</a>
+update-restarting = Ponovno pokretanje…
+# Variables:
+#   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
+channel-description = Trenutno ste na <span data-l10n-name="current-channel">{ $channel }</span> kanalu dopuna.
+warning-desc-version = { -brand-short-name } je eksperimentalna inačica i može biti nestabilna.
+warning-desc-telemetry = Automatski šalje informacije o performanci, hardveru, korištenju i prilagodbama k { -vendor-short-name } i pomaže poboljšati { -brand-short-name }.
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1
@@ -17,3 +37,24 @@ aboutDialog-version = { $version } ({ $bits }-bit)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
 aboutdialog-update-checking-failed = Provjera za dopunama nije upsjela.
+community-exp =
+    <a data-l10n-name="community-exp-mozilla-link">
+    { -vendor-short-name }</a>
+     je <a data-l10n-name="community-exp-credits-link">
+    globalna zajednica</a>
+     koja nastoji zadržati Web otvorenim, javnim i dostupnim svima.
+community-2 =
+    { -brand-short-name } je dizajnirala <a data-l10n-name="community-mozilla-link">
+    { -vendor-short-name }</a>
+    , <a data-l10n-name="community-credits-link">
+    globalna zajednica</a>
+     koja nastoji zadržati Web otvorenim, javnim i dostupnim svima.
+about-helpus =
+    Želite li pomoći? <a data-l10n-name="helpus-donate-link">
+    Donirajte</a> or <a data-l10n-name="helpus-get-involved-link">
+    se uključite!</a>
+bottom-links-license = Informacije o licenciranju
+bottom-links-rights = Prava krajnjeg korisnika
+bottom-links-privacy = Politika privatnosti
+cmd-close-mac-command-key =
+    .key = w
