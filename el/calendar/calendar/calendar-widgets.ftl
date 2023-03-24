@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Ημερολόγια
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Επιλογή ημερολογίου «{ $calendarName }»
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Το ημερολόγιο «{ $calendarName }» έχει τεθεί σε σίγαση
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Εργάσιμες ημέρες μόνο
 calendar-define-workweek-option =
     .label = Ορισμός εργάσιμων ημερών
+calendar-show-tasks-calendar-option =
+    .label = Εμφάνιση εργασιών στο ημερολόγιο
 
 ## Calendar Context Menu
 
