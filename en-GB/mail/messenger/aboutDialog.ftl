@@ -6,6 +6,7 @@ about-update-whats-new = What’s New
 aboutDialog-title =
     .title = About { -brand-full-name }
 release-notes-link = Release notes
+update-internal-error = Unable to check for updates due to internal error. Updates available at <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Check for Updates
     .accesskey = C
 update-update-button = Restart to update { -brand-shorter-name }
@@ -18,6 +19,7 @@ update-failed = Update failed. <a data-l10n-name="failed-link">Download the late
 update-admin-disabled = Updates disabled by your system administrator
 update-no-updates-found = { -brand-short-name } is up to date
 update-other-instance-handling-updates = { -brand-short-name } is being updated by another instance
+update-manual = Updates available at <a data-l10n-name="manual-link"/>
 update-unsupported = You can not perform further updates on this system. <a data-l10n-name="unsupported-link">Learn more</a>
 update-restarting = Restarting…
 # Variables:

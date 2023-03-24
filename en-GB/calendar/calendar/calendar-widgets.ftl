@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Calendars
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = { $calendarName } calendar option
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } calendar has been muted
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Workweek days only
 calendar-define-workweek-option =
     .label = Define workweek days
+calendar-show-tasks-calendar-option =
+    .label = Show tasks in calendar
 
 ## Calendar Context Menu
 
