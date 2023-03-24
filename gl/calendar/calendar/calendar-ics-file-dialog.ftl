@@ -3,10 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-ics-file-window-2 =
-    .title = Importar os eventos e as tarefas do calendario
-calendar-ics-file-window-title = Importar os eventos e as tarefas do calendario
-calendar-ics-file-dialog-import-event-button-label = Importar evento
-calendar-ics-file-dialog-import-task-button-label = Importar tarefa
+    .title = Importar os eventos e as tarefas de calendario
+calendar-ics-file-window-title = Importar os eventos e as tarefas de calendario
+calendar-ics-file-dialog-import-event-button-label = Importar un evento
+calendar-ics-file-dialog-import-task-button-label = Importar unha tarefa
 calendar-ics-file-dialog-2 =
     .buttonlabelaccept = Importar todo
 calendar-ics-file-accept-button-ok-label = Aceptar
@@ -40,3 +40,11 @@ calendar-ics-file-import-duplicates =
         [one] Ignorouse o elemento xa que xa existe no calendario de destino.
        *[other] Ignoráronse { $duplicatesCount } elementos xa que xa existen no calendario de destino.
     }
+# Variables:
+# $errorsCount (Number) - Number of errors while importing ics file.
+calendar-ics-file-import-errors =
+    { $errorsCount ->
+        [one] Non se puido importar o elemento. Consulte a consola de erros para obter máis información.
+       *[other] Non se puideron importar os { $errorsCount } elementos. Consulte a consola de erros para obter máis información.
+    }
+calendar-ics-file-dialog-no-calendars = Non hai calendarios que poidan importar eventos ou tarefas.
