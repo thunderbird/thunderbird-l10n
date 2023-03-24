@@ -6,6 +6,7 @@ about-update-whats-new = Wat is der nij
 aboutDialog-title =
     .title = Oer { -brand-full-name }
 release-notes-link = Utjefeopmerkingen
+update-internal-error = Kin net kontrolearje op fernijingen fanwegen in ynterne flater. Fernijingen beskikber op <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Kontrolearje op fernijingen
     .accesskey = K
 update-update-button = Start { -brand-shorter-name } opnij om te fernijen
@@ -18,6 +19,7 @@ update-failed = Fernijing mislearre. <a data-l10n-name="failed-link">Laad de lê
 update-admin-disabled = Fernijingen útskeakele troch jo systeembehearder
 update-no-updates-found = { -brand-short-name } is by de tiid
 update-other-instance-handling-updates = { -brand-short-name } wurdt troch in oar eksemplaar bywurke
+update-manual = Fernijingen beskikber op <a data-l10n-name="manual-link"/>
 update-unsupported = Jo kin gjin fernijingen mear útfiere op dit systeem. <a data-l10n-name="unsupported-link">Mear ynfo</a>
 update-restarting = Opnij starte…
 # Variables:

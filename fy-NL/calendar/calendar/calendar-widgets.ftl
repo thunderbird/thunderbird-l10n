@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Aginda’s
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = { $calendarName }-agindaopsje
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName }-aginda is dôve
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Allinnich wurkdagen
 calendar-define-workweek-option =
     .label = Wurkdagen definiearje
+calendar-show-tasks-calendar-option =
+    .label = Taken yn aginda toane
 
 ## Calendar Context Menu
 
