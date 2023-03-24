@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Protyki
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Nastajenje protyki { $calendarName }
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Protkya { $calendarName } je nětko něma
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Jenož dźěłowe dny
 calendar-define-workweek-option =
     .label = Dźěłowe dny definować
+calendar-show-tasks-calendar-option =
+    .label = Nadawki w protyce pokazać
 
 ## Calendar Context Menu
 

@@ -6,6 +6,7 @@ about-update-whats-new = Nowe funkcije a změny
 aboutDialog-title =
     .title = Wo { -brand-full-name }
 release-notes-link = Wersijowe informacije
+update-internal-error = Interneho zmylka dla njeje móžno za aktualizacijemi pytać. Aktualizacije su na <a data-l10n-name="manual-link"/> k dispoziciji
 update-check-for-updates-button = Za aktualizacijemi pytać
     .accesskey = Z
 update-update-button = Startujće znowa, zo byšće { -brand-shorter-name } aktualizował
@@ -18,6 +19,7 @@ update-failed = Aktualizowanje njeje so poradźiło.<a data-l10n-name="failed-li
 update-admin-disabled = Aktualizacije su so wot twojeho administratora znjemóžnili
 update-no-updates-found = { -brand-short-name } je aktualny
 update-other-instance-handling-updates = { -brand-short-name } so přez druhu instancu aktualizuje
+update-manual = Aktualizacije k dispoziciji na <a data-l10n-name="manual-link"/>
 update-unsupported = Njemóžeće dalše aktualizacije na tutym systemje přewjesć. <a data-l10n-name="unsupported-link">Dalše informacije</a>
 update-restarting = Startuje so znowa…
 # Variables:
