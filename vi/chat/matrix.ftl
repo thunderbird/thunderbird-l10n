@@ -15,9 +15,6 @@ room-name-empty = Cuộc trò chuyện trống
 room-name-empty-had-name = Cuộc trò chuyện trống (tên mới của { $oldName })
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
+#  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-       *[other] { $participant } và { $otherParticipantCount } người khác
-    }
+room-name-others2 = { $participant } và { $otherParticipantCount } người khác

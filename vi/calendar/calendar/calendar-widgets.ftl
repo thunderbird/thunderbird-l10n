@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Lịch
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Tùy chọn lịch { $calendarName }
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Lịch { $calendarName } đã bị ẩn
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Chỉ hiện các ngày làm việc
 calendar-define-workweek-option =
     .label = Xác định ngày làm việc trong tuần
+calendar-show-tasks-calendar-option =
+    .label = Hiển thị nhiệm vụ trong lịch
 
 ## Calendar Context Menu
 

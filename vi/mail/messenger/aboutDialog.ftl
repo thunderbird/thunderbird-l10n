@@ -6,6 +6,7 @@ about-update-whats-new = Có gì mới
 aboutDialog-title =
     .title = Giới thiệu về { -brand-full-name }
 release-notes-link = Ghi chú phát hành
+update-internal-error = Không thể kiểm tra các bản cập nhật do lỗi nội bộ. Bản cập nhật có sẵn tại <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Kiểm tra cập nhật
     .accesskey = C
 update-update-button = Khởi động lại để cập nhật { -brand-shorter-name }
@@ -18,6 +19,7 @@ update-failed = Cập nhật thất bại. <a data-l10n-name="failed-link">Tải
 update-admin-disabled = Cập nhật bị vô hiệu hóa bởi quản trị hệ thống của bạn
 update-no-updates-found = { -brand-short-name } đã được cập nhật
 update-other-instance-handling-updates = { -brand-short-name } đang được cập nhật bởi tiến trình khác
+update-manual = Bản cập nhật có sẵn tại <a data-l10n-name="manual-link"/>
 update-unsupported = Bạn không thể cập nhật thêm trên hệ thống này nữa. <a data-l10n-name="unsupported-link">Tìm hiểu thêm</a>
 update-restarting = Đang khởi động lại…
 # Variables:
