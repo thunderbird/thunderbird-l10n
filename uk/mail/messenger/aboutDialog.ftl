@@ -6,6 +6,7 @@ about-update-whats-new = Що нового
 aboutDialog-title =
     .title = Про { -brand-full-name }
 release-notes-link = Інформація про випуск
+update-internal-error = Не вдалося перевірити наявність оновлень через внутрішню помилку. Оновлення доступні за посиланням <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Перевірити оновлення
     .accesskey = о
 update-update-button = Перезапустити { -brand-shorter-name } для оновлення
@@ -18,6 +19,7 @@ update-failed = Оновлення не вдалось. <a data-l10n-name="faile
 update-admin-disabled = Оновлення вимкнені системним адміністратором
 update-no-updates-found = { -brand-short-name } не потребує оновлення
 update-other-instance-handling-updates = Оновлення { -brand-short-name } проводиться іншим процесом
+update-manual = Оновлення доступне на <a data-l10n-name="manual-link"/>
 update-unsupported = Ви не можете виконувати подальші оновлення на цій системі. <a data-l10n-name="unsupported-link">Докладніше</a>
 update-restarting = Перезапуск…
 # Variables:

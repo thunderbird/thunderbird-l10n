@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Календарі
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Параметр календаря { $calendarName }
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Календар { $calendarName } вимкнено
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Тільки робочі дні
 calendar-define-workweek-option =
     .label = Визначити робочі дні
+calendar-show-tasks-calendar-option =
+    .label = Показувати завдання в календарі
 
 ## Calendar Context Menu
 
