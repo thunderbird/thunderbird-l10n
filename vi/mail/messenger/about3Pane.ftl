@@ -97,7 +97,7 @@ quick-filter-bar-text-filter-sender = Người gửi
 quick-filter-bar-text-filter-recipients = Người nhận
 # The button label that toggles whether the text filter searches the message
 # subject for the string.
-quick-filter-bar-text-filter-subject = Tiêu đề
+quick-filter-bar-text-filter-subject = Chủ đề
 # The button label that toggles whether the text filter searches the message
 # body for the string.
 quick-filter-bar-text-filter-body = Nội dung
@@ -123,13 +123,15 @@ folder-pane-header-context-hide =
 ## Message thread pane
 
 threadpane-column-header-select =
-    .title = Chuyển đổi chọn tất cả các tin nhắn
+    .title = Chọn/bỏ chọn tất cả thư
 threadpane-column-header-select-all =
     .title = Chọn tất cả thư
 threadpane-column-header-deselect-all =
     .title = Bỏ chọn tất cả thư
 threadpane-column-label-select =
     .label = Chọn thư
+threadpane-column-header-thread =
+    .title = Bật/tắt chủ đề thư
 threadpane-column-label-thread =
     .label = Chủ đề
 threadpane-column-header-flagged =
