@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = 行事曆
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = { $calendarName } 行事曆選項
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = 已將 { $calendarName } 行事曆靜音
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = 僅顯示工作日
 calendar-define-workweek-option =
     .label = 設定每週工作日
+calendar-show-tasks-calendar-option =
+    .label = 在行事曆顯示工作
 
 ## Calendar Context Menu
 
