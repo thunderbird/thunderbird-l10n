@@ -6,6 +6,7 @@ about-update-whats-new = Novas
 aboutDialog-title =
     .title = A proposito de { -brand-full-name }
 release-notes-link = Notas pro iste revision
+update-internal-error = Impossibile verificar le presentia de actualisationes a causa de un error interne. Actualisationes disponibile a <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Cercar actualisationes
     .accesskey = C
 update-update-button = Reinitiar pro actualisar { -brand-shorter-name }
@@ -18,6 +19,7 @@ update-failed = Le actualisation ha fallite. <a data-l10n-name="failed-link">Dis
 update-admin-disabled = Actualisationes disactivate per le administrator de tu systema
 update-no-updates-found = { -brand-short-name } es actual
 update-other-instance-handling-updates = { -brand-short-name } es in actualisation per un altere instantia
+update-manual = Actualisationes disponibile in <a data-l10n-name="manual-link"/>
 update-unsupported = Tu non pote facer altere actualisationes in iste systema. <a data-l10n-name="unsupported-link">Saper plus</a>
 update-restarting = Reinitiante…
 # Variables:
