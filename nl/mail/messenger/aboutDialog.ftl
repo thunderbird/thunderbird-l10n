@@ -6,6 +6,7 @@ about-update-whats-new = Wat is er nieuw
 aboutDialog-title =
     .title = Over { -brand-full-name }
 release-notes-link = Uitgaveopmerkingen
+update-internal-error = Kan niet controleren op updates vanwege een interne fout. Updates beschikbaar op <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Controleren op updates
     .accesskey = C
 update-update-button = Herstarten om { -brand-shorter-name } bij te werken
@@ -18,6 +19,7 @@ update-failed = Update mislukt. <a data-l10n-name="failed-link">Download de nieu
 update-admin-disabled = Updates zijn uitgeschakeld door uw systeembeheerder
 update-no-updates-found = { -brand-short-name } is up-to-date
 update-other-instance-handling-updates = { -brand-short-name } wordt door een ander exemplaar bijgewerkt
+update-manual = Updates beschikbaar op <a data-l10n-name="manual-link"/>
 update-unsupported = U kunt op dit systeem geen updates meer installeren. <a data-l10n-name="unsupported-link">Meer info</a>
 update-restarting = Herstarten…
 # Variables:
