@@ -21,7 +21,7 @@
 <!ENTITY whitelistHeader.accesskey "μ">
 
 <!ENTITY ispHeadersWarning.label "Αν ενεργοποιηθεί, το &brandShortName; αυτόματα θα θεωρεί ανεπιθύμητα τα μηνύματα που επισημαίνονται από αυτή την εξωτερική υπηρεσία ταξινόμησης.">
-<!ENTITY ispHeaders.label "Να θεωρούνται έμπιστες οι κεφαλίδες ανεπιθύμητης αλληλογραφίας, που καθορίζονται από το: ">
+<!ENTITY ispHeaders.label "Να θεωρούνται έμπιστες οι κεφαλίδες ανεπιθύμητων email που ορίζονται από το: ">
 <!ENTITY ispHeaders.accesskey "φ">
 
 <!ENTITY junkClassification.label "Διαλογή">
