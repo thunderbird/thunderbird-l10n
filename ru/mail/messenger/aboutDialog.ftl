@@ -6,6 +6,7 @@ about-update-whats-new = Что нового
 aboutDialog-title =
     .title = О { -brand-full-name }
 release-notes-link = Примечания к выпуску
+update-internal-error = Не удалось проверить наличие обновлений из-за внутренней ошибки. Обновления доступны по адресу <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Проверить на обновления
     .accesskey = о
 update-update-button = Перезапустить { -brand-shorter-name } для обновления
@@ -18,6 +19,7 @@ update-failed = Обновление не удалось. <a data-l10n-name="fai
 update-admin-disabled = Обновления отключены вашим системным администратором
 update-no-updates-found = Установлена последняя версия { -brand-short-name }
 update-other-instance-handling-updates = Обновление производится другим процессом { -brand-short-name }
+update-manual = Обновления доступны по адресу <a data-l10n-name="manual-link"/>
 update-unsupported = Вы не можете производить дальнейшие обновления на этой системе. <a data-l10n-name="unsupported-link">Подробнее</a>
 update-restarting = Перезапуск…
 # Variables:
