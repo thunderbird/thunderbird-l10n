@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Takvimler
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = { $calendarName } takvim seçeneği
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } takvimi sessize alındı
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Sadece iş günleri
 calendar-define-workweek-option =
     .label = İş günlerini tanımla
+calendar-show-tasks-calendar-option =
+    .label = Görevleri takvimde göster
 
 ## Calendar Context Menu
 
