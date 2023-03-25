@@ -18,6 +18,7 @@ update-failed = Actualización fallida. <a data-l10n-name="failed-link">Descarga
 update-admin-disabled = Actualizaciones deshabilitadas por el administrador del sistema
 update-no-updates-found = { -brand-short-name } está actualizado
 update-other-instance-handling-updates = { -brand-short-name } está actualizándose desde otra instancia
+update-manual = Actualizaciones disponibles en <a data-l10n-name="manual-link"/>
 update-unsupported = No puedes realizar más actualizaciones en este sistema. <a data-l10n-name="unsupported-link">Aprender más</a>
 update-restarting = Reiniciando…
 # Variables:
