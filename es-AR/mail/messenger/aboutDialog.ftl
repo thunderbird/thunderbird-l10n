@@ -6,6 +6,7 @@ about-update-whats-new = Qué hay de nuevo
 aboutDialog-title =
     .title = Acerca de { -brand-full-name }
 release-notes-link = Notas de la versión
+update-internal-error = No se pueden buscar actualizaciones por un error interno. Actualizaciones disponibles en <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Buscar actualizaciones
     .accesskey = c
 update-update-button = Reiniciar para actualizar { -brand-shorter-name }
@@ -18,6 +19,7 @@ update-failed = Actualización fallida. <a data-l10n-name="failed-link">Descarga
 update-admin-disabled = Actualizaciones deshabilitadas por el administrador de sistemas
 update-no-updates-found = { -brand-short-name } está actualizado
 update-other-instance-handling-updates = { -brand-short-name } está siendo actualizado por otra instancia
+update-manual = Actualizaciones disponibles en <a data-l10n-name="manual-link"/>
 update-unsupported = No puede aplicar más actualizaciones a este sistema. <a data-l10n-name="unsupported-link">Conocer más</a>
 update-restarting = Reiniciando…
 # Variables:
