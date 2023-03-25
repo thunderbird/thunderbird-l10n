@@ -2,7 +2,4 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-recurrence-preview-label = 미리보기
-calendar-recurrence-next = 다음 달
-calendar-recurrence-previous = 이전 달
-calendar-recurrence-today = 오늘
+moz-support-link-text = 더 알아보기
