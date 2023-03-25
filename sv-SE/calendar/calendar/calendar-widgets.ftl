@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Kalendrar
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = { $calendarName } kalenderalternativ
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } kalender har stängts av
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Endast arbetsveckodagar
 calendar-define-workweek-option =
     .label = Definiera arbetsveckodagar
+calendar-show-tasks-calendar-option =
+    .label = Visa uppgifter i kalendern
 
 ## Calendar Context Menu
 

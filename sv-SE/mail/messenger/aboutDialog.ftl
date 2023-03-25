@@ -6,6 +6,7 @@ about-update-whats-new = Vad är nytt
 aboutDialog-title =
     .title = Om { -brand-full-name }
 release-notes-link = Versionsfakta
+update-internal-error = Det gick inte att söka efter uppdateringar på grund av internt fel. Uppdateringar finns tillgängliga på <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Sök efter uppdateringar
     .accesskey = S
 update-update-button = Starta om för att uppdatera { -brand-shorter-name }
@@ -18,6 +19,7 @@ update-failed = Uppdatering misslyckades. <a data-l10n-name="failed-link">Hämta
 update-admin-disabled = Uppdateringar är inaktiverade av systemadministratören
 update-no-updates-found = { -brand-short-name } är redan uppdaterad
 update-other-instance-handling-updates = { -brand-short-name } uppdateras av en annan instans
+update-manual = Uppdateringar finns tillgängliga på <a data-l10n-name="manual-link"/>
 update-unsupported = Du kan inte utföra fler uppdateringar på systemet. <a data-l10n-name="unsupported-link">Läs mer</a>
 update-restarting = Startar om…
 # Variables:
