@@ -26,7 +26,7 @@ appmenu-sync-settings =
     .accesskey = S
 appmenu-sync-sign-out =
     .label = Cerrar la sesión…
-    .accesskey = O
+    .accesskey = r
 
 ## New Account
 
