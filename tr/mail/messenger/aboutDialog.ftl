@@ -6,6 +6,7 @@ about-update-whats-new = Yeni neler var?
 aboutDialog-title =
     .title = { -brand-full-name } hakkında
 release-notes-link = Sürüm notları
+update-internal-error = Dahili bir hata nedeniyle güncellemeler kontrol edilemiyor. Güncellemeleri <a data-l10n-name="manual-link"/> adresinde bulabilirsiniz.
 update-check-for-updates-button = Güncellemeleri denetle
     .accesskey = G
 update-update-button = { -brand-shorter-name }’ü güncellemek için yeniden başlat
@@ -18,6 +19,7 @@ update-failed = Güncelleme başarısız oldu.<a data-l10n-name="failed-link">So
 update-admin-disabled = Güncellemeler sistem yöneticiniz tarafından kapatılmış
 update-no-updates-found = { -brand-short-name } güncel
 update-other-instance-handling-updates = { -brand-short-name } başka bir kopyası tarafından şu an güncelleniyor
+update-manual = Güncelleme adresi: <a data-l10n-name="manual-link"/>
 update-unsupported = Bu sistemde yeni güncellemeleri yapamazsınız.<a data-l10n-name="unsupported-link">Daha fazla bilgi alın</a>
 update-restarting = Yeniden başlatılıyor…
 # Variables:
@@ -37,12 +39,7 @@ aboutDialog-version = { $version } ({ $bits } bit)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bit)
 aboutdialog-update-checking-failed = Güncellemeler kontrol edilemedi.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     web’i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan insanlardan oluşan <a data-l10n-name="community-exp-credits-link">
-    küresel bir topluluktur</a>
-    .
+community-exp = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> Web’i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan <a data-l10n-name="community-exp-credits-link">küresel bir topluluktur</a>.
 community-2 =
     { -brand-short-name }, <a data-l10n-name="community-mozilla-link">
     { -vendor-short-name }</a>

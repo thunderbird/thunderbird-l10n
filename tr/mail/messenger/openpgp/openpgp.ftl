@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Taslak iletileri şifrelenmiş olarak sakla
     .accesskey = r
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Autocrypt ile uyumluluk için OpenPGP ortak anahtarlarını e-posta üstbilgisinde gönder
+    .accesskey = t
 openpgp-key-user-id-label = Hesap / Kullanıcı kimliği
 openpgp-keygen-title-label =
     .title = OpenPGP Anahtarı Oluştur
