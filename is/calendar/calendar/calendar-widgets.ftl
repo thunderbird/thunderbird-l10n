@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Dagatöl
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Valkostur { $calendarName } dagatals
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Þaggað var niður í { $calendarName } dagatalinu
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Aðeins vinnudagar
 calendar-define-workweek-option =
     .label = Skilgreina vinnudaga í viku
+calendar-show-tasks-calendar-option =
+    .label = Sýna verkefni í dagatali
 
 ## Calendar Context Menu
 

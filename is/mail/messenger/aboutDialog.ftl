@@ -6,6 +6,7 @@ about-update-whats-new = Hvað er nýtt
 aboutDialog-title =
     .title = Um { -brand-full-name }
 release-notes-link = Útgáfuupplýsingar
+update-internal-error = Ekki er hægt að leita að uppfærslum vegna innri villu. Uppfærslur eru fáanlegar á <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Leita að uppfærslum
     .accesskey = L
 update-update-button = Endurræstu til að uppfæra { -brand-shorter-name }
@@ -18,6 +19,7 @@ update-failed = Uppfærsla mistókst. <a data-l10n-name="failed-link">Sækja ný
 update-admin-disabled = Uppfærslur hafa verið gerðar óvirkar af kerfistjóra
 update-no-updates-found = { -brand-short-name } er þegar með nýjustu útgáfu
 update-other-instance-handling-updates = Verið er að uppfæra { -brand-short-name } annarstaðar
+update-manual = Uppfærslur eru fáanlegar á <a data-l10n-name="manual-link"/>
 update-unsupported = Ekki er hægt að setja inn fleiri uppfærslur. <a data-l10n-name="unsupported-link">Frekari upplýsingar</a>
 update-restarting = Endurræsi…
 # Variables:
