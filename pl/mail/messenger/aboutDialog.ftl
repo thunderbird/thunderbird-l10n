@@ -6,6 +6,7 @@ about-update-whats-new = Informacje o wydaniu
 aboutDialog-title =
     .title = O programie { -brand-full-name }
 release-notes-link = Informacje o wydaniu
+update-internal-error = Nie można sprawdzić dostępności aktualizacji z powodu błędu wewnętrznego. Aktualizacje są dostępne na <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Sprawdź dostępność aktualizacji
     .accesskey = S
 update-update-button = Uruchom ponownie, aby uaktualnić
@@ -18,6 +19,7 @@ update-failed = Aktualizacja się nie powiodła. <a data-l10n-name="failed-link"
 update-admin-disabled = Aktualizacje zablokowane przez administratora
 update-no-updates-found = { -brand-short-name } jest aktualny
 update-other-instance-handling-updates = Inna instancja właśnie aktualizuje program { -brand-short-name }
+update-manual = Aktualizacje są dostępne na <a data-l10n-name="manual-link"/>.
 update-unsupported = Nie można dokonać dalszych aktualizacji na tym systemie. <a data-l10n-name="unsupported-link">Więcej informacji</a>
 update-restarting = Ponowne uruchamianie…
 # Variables:
