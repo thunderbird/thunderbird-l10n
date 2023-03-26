@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Przechowuj szkice wiadomości w formacie zaszyfrowanym
     .accesskey = P
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Wysyłaj klucze publiczne OpenPGP w nagłówkach wiadomości, aby zapewnić zgodność z Autocrypt
+    .accesskey = W
 openpgp-key-user-id-label = Identyfikator konta/użytkownika
 openpgp-keygen-title-label =
     .title = Wygeneruj klucz OpenPGP
