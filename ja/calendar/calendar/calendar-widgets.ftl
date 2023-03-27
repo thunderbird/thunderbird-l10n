@@ -10,9 +10,14 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = カレンダー
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } カレンダーのアラームは停止しています
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
     .title = { $calendarName } カレンダーのオプション
 calendar-import-new-calendar = 新しいカレンダー...
     .title = 新しいカレンダーを作成または登録します
@@ -35,6 +40,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = 前の月
     .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = 前の年
+    .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = 次の月
     .accesskey = x
@@ -46,6 +54,9 @@ calendar-nav-button-next-tooltip-multiweek =
     .accesskey = x
 calendar-nav-button-next-tooltip-month =
     .title = 次の月
+    .accesskey = x
+calendar-nav-button-next-tooltip-year =
+    .title = 次の年
     .accesskey = x
 calendar-today-button-tooltip =
     .title = 今日に移動します
@@ -60,6 +71,16 @@ calendar-view-toggle-month = 月
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = カレンダーレイアウトのオプション
+calendar-find-events-menu-option =
+    .label = 予定検索ペイン
+calendar-hide-weekends-option =
+    .label = 勤務日のみを表示
+calendar-define-workweek-option =
+    .label = 勤務日を設定
+calendar-show-tasks-calendar-option =
+    .label = カレンダーに ToDo を表示
 
 ## Calendar Context Menu
 
