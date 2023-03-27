@@ -6,6 +6,7 @@ about-update-whats-new = 新版变化
 aboutDialog-title =
     .title = 关于 { -brand-full-name }
 release-notes-link = 发行说明
+update-internal-error = 发生内部错误，无法检查更新。可访问 <a data-l10n-name="manual-link"/> 手动下载更新。
 update-check-for-updates-button = 检查更新
     .accesskey = C
 update-update-button = 重启 { -brand-shorter-name } 以完成更新
@@ -18,6 +19,7 @@ update-failed = 更新失败。 <a data-l10n-name="failed-link">下载最新版�
 update-admin-disabled = 更新已被您的系统管理员禁用
 update-no-updates-found = { -brand-short-name } 已是最新
 update-other-instance-handling-updates = { -brand-short-name } 正在由其他实例更新
+update-manual = <a data-l10n-name="manual-link"/> 有可用更新
 update-unsupported = 您不能在这个系统上进行进一步的更新。<a data-l10n-name="unsupported-link">详细了解</a>
 update-restarting = 正在重启客户端…
 # Variables:
