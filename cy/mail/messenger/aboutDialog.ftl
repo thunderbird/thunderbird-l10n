@@ -6,6 +6,7 @@ about-update-whats-new = Be sy'n Newydd
 aboutDialog-title =
     .title = Ynghylch { -brand-full-name }
 release-notes-link = Nodiadau ryddhau
+update-internal-error = Methu gwirio am ddiweddariadau oherwydd gwall mewnol. Diweddariadau ar gael yn <a data-l10n-name="manual-link">
 update-check-for-updates-button = Gwirio am Ddiweddariadau
     .accesskey = D
 update-update-button = Ailgychwyn i ddiweddaru { -brand-shorter-name }
@@ -18,6 +19,7 @@ update-failed = Methodd y diweddaru. <a data-l10n-name="failed-link">Llwytho'r f
 update-admin-disabled = Mae'r diweddariad wedi'i analluogi gan eich gweinyddwr
 update-no-updates-found = Mae { -brand-short-name } yn gyfredol
 update-other-instance-handling-updates = Mae { -brand-short-name } yn cael ei ddiweddaru gan enghraifft arall
+update-manual = Diweddariadau ar gael yn <a data-l10n-name="manual-link">
 update-unsupported = Nid oes modd i chi ddiweddaru'r system hwn ymhellach. <a data-l10n-name="unsupported-link">Dysgu rhagor</a>
 update-restarting = Ailgychwyn…
 # Variables:

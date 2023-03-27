@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Calendrau
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Dewisiadau calendr { $calendarName }
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Mae calendr { $calendarName } wedi'i dewi
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Dyddiau'r wythnos waith yn unig
 calendar-define-workweek-option =
     .label = Diffinio diwrnodau gwaith yr wythnos
+calendar-show-tasks-calendar-option =
+    .label = Dangos tasgau yn y calendr
 
 ## Calendar Context Menu
 
