@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Күнтізбелер
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = { $calendarName } күнтізбе опциясы
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } күнтізбесі басылған
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Аптаның тек жұмыс күндері
 calendar-define-workweek-option =
     .label = Аптаның жұмыс күндерін анықтау
+calendar-show-tasks-calendar-option =
+    .label = Тапсырмаларды күнтізбеде көрсету
 
 ## Calendar Context Menu
 

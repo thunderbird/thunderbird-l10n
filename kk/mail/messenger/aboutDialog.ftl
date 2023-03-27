@@ -6,6 +6,7 @@ about-update-whats-new = Не жаңалық
 aboutDialog-title =
     .title = { -brand-full-name } туралы
 release-notes-link = Шығарылым ескертпесі
+update-internal-error = Ішкі қатеге байланысты жаңартуларды тексеру мүмкін емес. Жаңартулар <a data-l10n-name="manual-link"/> адресі бойынша қолжетімді
 update-check-for-updates-button = Жаңартуларды тексеру
     .accesskey = к
 update-update-button = { -brand-shorter-name } жаңарту үшін қайта іске қосу
@@ -18,6 +19,7 @@ update-failed = Жаңарту сәтсіз. <a data-l10n-name="failed-link">С�
 update-admin-disabled = Жаңарту мүмкіндігін жүйелік администраторыңыз сөндірген
 update-no-updates-found = { -brand-short-name } ескірмеді
 update-other-instance-handling-updates = { -brand-short-name } басқа экземплярмен жаңартылуда
+update-manual = Жаңартулар <a data-l10n-name="manual-link"/> адресі бойынша қолжетімді
 update-unsupported = Бұл жүйе үшін болашақ жаңартуларды орната алмайсыз. <a data-l10n-name="unsupported-link">Көбірек білу</a>
 update-restarting = Қайта қосылуда…
 # Variables:
