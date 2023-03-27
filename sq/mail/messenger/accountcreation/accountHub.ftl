@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
+
+
 ## Header
 
 account-hub-brand = { -brand-full-name }
@@ -15,16 +19,16 @@ account-hub-release-notes = Shënime hedhjeje në qarkullim
 account-hub-support = Asistencë
 account-hub-donate = Dhuroni
 
-## Start page
+## Initial setup page
 
-account-hub-email-button = Ujdisni një llogari email
-account-hub-new-email-button = Merrni një adresë të re email
-account-hub-calendar-button = Ujdisni kalendar
-account-hub-address-book-button = Ujdisni libër adresash
-account-hub-chat-button = Ujdisni fjalosje
-account-hub-feed-button = Ujdisni prurje RSS
-account-hub-newsgroup-button = Ujdisni grup lajmesh
-account-hub-import-button = Importoni profil
+account-hub-email-setup-button = Llogari Email
+    .title = Ujdisni një llogari email
+account-hub-calendar-setup-button = Kalendar
+    .title = Ujdisni një kalendar vendor, ose të largët
+account-hub-address-book-setup-button = Libër Adresash
+    .title = Ujdisni një libër adresash vendor, ose të largët
+account-hub-chat-setup-button = Fjalosje
+    .title = Ujdisni një llogari fjalosjeje
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Hyni në Sync…
 

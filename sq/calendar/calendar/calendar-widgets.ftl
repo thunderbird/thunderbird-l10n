@@ -10,6 +10,7 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Kalendarë
 calendar-import-new-calendar = Kalendar i Ri…
     .title = Krijoni, ose pajtohuni te një kalendar i ri
 calendar-refresh-calendars =
@@ -56,6 +57,8 @@ calendar-view-toggle-month = Muaj
 
 ## Menu on calendar control bar
 
+calendar-hide-weekends-option =
+    .label = Vetëm ditë jave pune
 
 ## Calendar Context Menu
 

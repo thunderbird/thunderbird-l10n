@@ -113,6 +113,15 @@ quick-filter-bar-gloda-upsell-line1 = Vazhdoje këtë kërkim nëpër krejt dosj
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Shtypni sërish ‘Enter’ që të vazhdohet kërkimi juaj për: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Merr mesazhet
+folder-pane-write-message-button = Mesazh i Ri
+    .title = Hartoni një mesazh të ri
+folder-pane-more-menu-button =
+    .title = Mundësi kuadrati dosjesh
+
 ## Message thread pane
 
 threadpane-column-header-select =
