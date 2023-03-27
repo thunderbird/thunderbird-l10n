@@ -3,24 +3,37 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Sync
+
+
 ## New Account
+
 
 ## New Account / Address Book
 
+
 ## Create
+
 
 ## Open
 
+
 ## View / Layout
 
+appmenu-view-panel-title =
+    .title = Vaade
 appmenu-font-size-value = Fondi suurus
-
+appmenu-mail-uidensity-value = Tihedus
+appmenu-uidensity-compact =
+    .tooltiptext = Kompaktne
+appmenu-uidensity-default =
+    .tooltiptext = Vaikimisi
+appmenu-uidensity-relaxed =
+    .tooltiptext = Hõre
 appmenuitem-font-size-enlarge =
     .tooltiptext = Suurenda fondi suurust
-
 appmenuitem-font-size-reduce =
     .tooltiptext = Vähenda fondi suurust
-
 # Variables:
 # $size (String) - The current font size.
 appmenuitem-font-size-reset =
@@ -29,5 +42,9 @@ appmenuitem-font-size-reset =
 
 ## Tools
 
+
 ## Help
+
+
+## Application Update
 

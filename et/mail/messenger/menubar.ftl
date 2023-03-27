@@ -29,6 +29,23 @@ menu-help-exit-troubleshoot-mode =
 menu-help-more-troubleshooting-info =
     .label = Rohkem probleemide lahendamise teavet
     .accesskey = R
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Välju
+           *[other] Välju
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] V
+           *[other] V
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = Välju { -brand-shorter-name }ist
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 
@@ -50,6 +67,12 @@ toolbar-undelete-button =
 menu-view-repair-text-encoding =
     .label = Paranda teksti kodeering
     .accesskey = P
+
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Kaustade paneeli päis
+    .accesskey = a
 
 ## View / Layout
 
@@ -77,6 +100,12 @@ mail-uidensity-normal =
 mail-uidensity-touch =
     .label = Puutetundlikule ekraanile
     .accesskey = d
+mail-uidensity-default =
+    .label = Vaikimisi
+    .accesskey = V
+mail-uidensity-relaxed =
+    .label = Hõre
+    .accesskey = H
 menu-spaces-toolbar-button =
     .label = Rakenduskaartide tööriistariba
     .accesskey = R

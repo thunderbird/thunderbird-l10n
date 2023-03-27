@@ -8,6 +8,7 @@
 
 ## Search bar
 
+search-bar-placeholder = Otsi…
 
 ## Unified toolbar context menu
 

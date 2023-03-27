@@ -113,6 +113,15 @@ quick-filter-bar-gloda-upsell-line1 = Jätka seda otsingut kõigil kaustadel
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Vajuta uuesti ‘Enter', et jätkata otsingut: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Tõmba kirjad
+folder-pane-write-message-button = Uus kiri
+    .title = Koosta uus kiri
+folder-pane-header-context-hide =
+    .label = Peida kaustade paneeli päis
+
 ## Message thread pane
 
 threadpane-column-header-select =
