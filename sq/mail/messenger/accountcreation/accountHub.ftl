@@ -29,6 +29,12 @@ account-hub-address-book-setup-button = Libër Adresash
     .title = Ujdisni një libër adresash vendor, ose të largët
 account-hub-chat-setup-button = Fjalosje
     .title = Ujdisni një llogari fjalosjeje
+account-hub-feed-setup-button = Prurje RSS
+    .title = Ujdisni një llogari prurjeje RSS
+account-hub-newsgroup-setup-button = Grup lajmesh
+    .title = Ujdisni një llogari grupi lajmesh
+account-hub-import-setup-button = Importoni
+    .title = Importoni një profil të kopjeruajtur
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Hyni në Sync…
 

@@ -57,8 +57,16 @@ calendar-view-toggle-month = Muaj
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Mundësi skeme kalendari
+calendar-find-events-menu-option =
+    .label = Kuadrat Gjetjeje Veprimatish
 calendar-hide-weekends-option =
     .label = Vetëm ditë jave pune
+calendar-define-workweek-option =
+    .label = Përcaktoni ditë pune
+calendar-show-tasks-calendar-option =
+    .label = Shfaqni punë në kalendar
 
 ## Calendar Context Menu
 
