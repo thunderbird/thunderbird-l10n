@@ -64,6 +64,8 @@ openpgp-key-assistant-this-key-accepted-expired = Ky kyç ka qenë pranuar më p
 openpgp-key-assistant-key-unaccepted-expired-one = Kyçi skadoi më { $date }.
 openpgp-key-assistant-key-unaccepted-expired-many = Ka disa kyçe që kanë skaduar.
 openpgp-key-assistant-key-fingerprint = Shenja gishtash
+# Variables:
+# $count (Number) - Number of key sources.
 openpgp-key-assistant-key-source =
     { $count ->
         [one] Burim
@@ -75,6 +77,10 @@ openpgp-key-assistant-key-collected-autocrypt = Fshehtëzo vetvetiu titullin
 openpgp-key-assistant-key-collected-keyserver = shërbyes kyçesh
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Drejtori Web Kyçesh
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = Varg kyçesh GnuPG
+# Variables:
+# $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =
     { $count ->
         [one] U gjet një kyç, por s’është pranuar ende.

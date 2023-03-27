@@ -6,6 +6,7 @@ about-update-whats-new = Ç’ka të Re
 aboutDialog-title =
     .title = Rreth { -brand-full-name }-it
 release-notes-link = Shënime versioni
+update-internal-error = S’arrihet të kontrollohet për përditësime, për shkak gabimi të brendshëm. Përditësime të passhme te <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Kontrollo për Përditësime
     .accesskey = K
 update-update-button = Që të përditësohet { -brand-shorter-name }-i, riniseni
@@ -18,6 +19,7 @@ update-failed = Përditësimi dështoi. <a data-l10n-name="failed-link">Shkarkon
 update-admin-disabled = Përditësimet janë çaktivizuar nga përgjegjësi i sistemit tuaj
 update-no-updates-found = { -brand-short-name }-i është i përditësuar
 update-other-instance-handling-updates = { -brand-short-name }-i po përditësohet nga një instancë tjetër
+update-manual = Përditësimet gjenden te <a data-l10n-name="manual-link"/>
 update-unsupported = Nuk mund të kryeni përditësime të mëtejshme në këtë sistem. <a data-l10n-name="unsupported-link">Mësoni më tepër</a>
 update-restarting = Po riniset…
 # Variables:

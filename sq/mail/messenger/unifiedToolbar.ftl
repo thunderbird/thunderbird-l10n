@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Kërko:
 search-bar-placeholder = Kërkoni…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -68,6 +76,8 @@ customize-palette-settings-specific-title = I passhëm vetëm për Hapësirën R
 # $target (String) - Name of the target the item should be added to.
 customize-palette-add-to =
     .label = Shtoje te { $target }
+customize-palette-add-everywhere =
+    .label = Shtoje te krejt panelet
 
 ## Unified toolbar customization target context menu
 
@@ -77,3 +87,11 @@ customize-target-backward =
     .label = Shpjere prapa
 customize-target-remove =
     .label = Hiqe
+customize-target-remove-everywhere =
+    .label = Hiqe prej krejt paneleve
+customize-target-add-everywhere =
+    .label = Shtoje te krejt panelet
+customize-target-start =
+    .label = Shpjere në fillim
+customize-target-end =
+    .label = Shpjere në fund

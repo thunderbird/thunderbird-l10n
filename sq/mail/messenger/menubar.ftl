@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Riparo Kodim Teksti
     .accesskey = R
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Krye Kuadrati Dosjesh
+    .accesskey = K
+
 ## View / Layout
 
 menu-font-size-label =

@@ -121,6 +121,8 @@ folder-pane-write-message-button = Mesazh i Ri
     .title = Hartoni një mesazh të ri
 folder-pane-more-menu-button =
     .title = Mundësi kuadrati dosjesh
+folder-pane-header-context-hide =
+    .label = Fshih Krye Kuadrati Dosjesh
 
 ## Message thread pane
 

@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Depozitoji Skicat e mesazheve depozitoji në format të fshehtëzuar
     .accesskey = S
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Dërgoni kyç(e) publik OpenPGP te krye email-esh, për përputhje me Autocrypt
+    .accesskey = t
 openpgp-key-user-id-label = Llogari / ID Përdoruesi
 openpgp-keygen-title-label =
     .title = Prodho Kyç OpenPGP
@@ -135,6 +139,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Dërgo Kyç Publik Me Email
     .accesskey = D
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -142,6 +148,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Kopjo ID Kyçesh Në të Papastër
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -149,6 +157,8 @@ openpgp-key-man-copy-fprs =
            *[other] Kopjo Shenjash Gishtash Në të Papastër
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -161,6 +171,8 @@ openpgp-key-man-ctx-expor-to-file-label =
 openpgp-key-man-ctx-copy =
     .label = Kopjoje
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -168,6 +180,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Shenja gishtash
         }
     .accesskey = S
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -175,6 +189,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] ID Kyçesh
         }
     .accesskey = I
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -332,9 +348,9 @@ openpgp-radio-none-desc = Mos përdor OpenPGP për këtë identitet.
 openpgp-radio-key-not-usable = Ky kyç s’është i përdorshëm si kyç personal, ngaqë mungon kyçi i fshehtë!
 openpgp-radio-key-not-accepted = Që të përdorni këtë kyç, duhet ta miratoni si një kyç personal!
 openpgp-radio-key-not-found = S’u gjet dot ky kyç! Nëse doni ta përdorni, duhet ta importoni te { -brand-short-name }-i.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Skadon më: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Ka skaduar më: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = Kyçi skadon për më pak se 6 muaj
@@ -353,7 +369,9 @@ openpgp-key-remove-external =
     .label = Hiq ID Kyçi të Jashtëm
     .accesskey = H
 key-external-label = Kyç GnuPG i Jashtëm
-# Strings in keyDetailsDlg.xhtml
+
+## Strings in keyDetailsDlg.xhtml
+
 key-type-public = kyç publik
 key-type-primary = kyç parësor
 key-type-subkey = nënkyç
@@ -364,18 +382,28 @@ key-usage-sign = Nënshkruaje
 key-usage-certify = Certifikoje
 key-usage-authentication = Mirëfilltësim
 key-does-not-expire = Kyçi nuk skadon
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Kyçi skadoi më { $keyExpiry }
 key-expired-simple = Kyçi ka skaduar
 key-revoked-simple = Kyçi u shfuqizua
 key-do-you-accept = E pranoni këtë kyç për verifikim nënshkrimesh dixhitale dhe për fshehtëzim mesazhesh?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Verifikoni shenjat e gishtave të kyçit duke përdorur një kanal të sigurt komunikimesh, tjetër nga email-i, për t’u siguruar se është vërtet kyçi i { $addr }.
-# Strings enigmailMsgComposeOverlay.js
+
+## Strings enigmailMsgComposeOverlay.js
+
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = S’arrihet të dërgohet mesazhi, ngaqë ka një problem me kyçin tuaj personal. { $problem }
 cannot-encrypt-because-missing = S’arrihet të dërgohet ky mesazh me fshehtëzim skaj-më-skaj, ngaqë ka probleme me kyçet e marrësve vijues: { $problem }
 window-locked = Dritarja e hartimeve është e kyçur; dërgimi u anulua
 # Strings in mimeDecrypt.jsm
 mime-decrypt-encrypted-part-concealed-data = Kjo është pjesë e fshehtëzuar e një mesazhi. Do t’ju duhet ta hapni në një dritare veçmas, duke klikuar mbi bashkëngjitjen.
-# Strings in keyserver.jsm
+
+## Strings in keyserver.jsm
+
 keyserver-error-aborted = U ndërpre
 keyserver-error-unknown = Ndodhi një gabim i panjohur
 keyserver-error-server-error = Shërbyesi i kyçeve raportoi një gabim.
@@ -384,34 +412,50 @@ keyserver-error-unavailable = Shërbyesi i kyçeve është i pakapshëm
 keyserver-error-security-error = Shërbyesi i kyçeve nuk mbulon hyrje të fshehtëzuar në të.
 keyserver-error-certificate-error = Dëshmia e shërbyesit të kyçeve s’është e vlefshme.
 keyserver-error-unsupported = Shërbyesi i kyçeve nuk mbulohet.
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.jsm
+
 wkd-message-body-req =
     Furnizuesi i email-it tuaj e përpunoi kërkesën tuaj për ngarkim të kyçit tuaj publik te Drejtoria Web e Kyçeve OpenPGP.
     Ju lutemi, ripohojeni që të plotësohet publikimi i kyçit tuaj publik.
 wkd-message-body-process =
     Ky është një email i lidhur me përpunimin e automatizuar për të ngarkuar kyçin tuaj publik te Drejtoria Web e Kyçeve OpenPGP.
     Nuk ju duhet të ndërmerrni ndonjë veprim dorazi në këtë pikë.
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.jsm
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     S’u shfshehtëzua dot mesazh me subjektin
     { $subject }.
     Doni të riprovohet me një frazëkalim tjetër apo doni të anashkalohet mesazhi?
-# Strings filters.jsm
+
+## Strings filters.jsm
+
 filter-folder-required = Duhet të përzgjidhni një dosje objektiv.
 filter-decrypt-move-warn-experimental =
     Kujdes - veprimi i filtrimit “Shfshehtëzoje përgjithnjë” mund të shpjerë te mesazhe të shkatërruar.
     Këshillojmë me forcë që së pari të provoni filtrin “Krijo një Kopje të shfshehtëzuar”, ta testoni me kujdes përfundimin dhe të filloni ta përdorni këtë filtër vetëm pasi të jeni i kënaqur me përfundimin.
 filter-term-pgpencrypted-label = Fshehtëzuar me OpenPGP
 filter-key-required = Duhet të përzgjidhni një marrës kyçi.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = S’u gjet dot kyç i fshehtëzuar për '{ $desc }'.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Kujdes - veprimi i filtrit “Fshehtëzoje me kyçin” zëvendëson marrësit.
     Nëse s’keni kyçin e fshehtë për '{ $desc }', s’do të jeni më në gjendje të lexoni email-et.
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.jsm
+
 filter-decrypt-move-label = Shfshehtëzoje përgjithnjë (OpenPGP)
 filter-decrypt-copy-label = Krijo Kopje të shfshehtëzuar (OpenPGP)
 filter-encrypt-label = Fshehtëzoje sipas kyçi (OpenPGP)
-# Strings in enigmailKeyImportInfo.js
+
+## Strings in enigmailKeyImportInfo.js
+
 import-info-title =
     .title = Sukses! Kyçet u importuan
 import-info-bits = Bite
@@ -419,11 +463,15 @@ import-info-created = Krijuar më
 import-info-fpr = Shenja gishtash
 import-info-details = Shihni Hollësi dhe administroni pranim kyçi
 import-info-no-keys = S’u importuan kyçe.
-# Strings in enigmailKeyManager.js
+
+## Strings in enigmailKeyManager.js
+
 import-from-clip = Doni të importohen ndonjë kyç(e) nga e papastra?
 import-from-url = Shkarko kyç publik prej kësaj URL-je:
 copy-to-clipbrd-failed = S’u kopjua dot në të papastër kyçi(et) i përzgjedhur.
 copy-to-clipbrd-ok = Kyçi(et) u kopjua në të papastër
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     KUJDES: Ju ndan një hap nga fshirja e një kyçi të fshehtë!
     
@@ -436,6 +484,8 @@ delete-mix =
     
     Nëse fshini kyçin tuaj të fshehtë, s’do të jeni më në gjendje të shfshehtëzoni çfarëdo mesazhi të fshehtëzuar për atë kyç.
     Doni vërtet të fshihen QË TË DY PALËT, kyçet e fshehtë dhe publikë të përzgjedhur?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Doni të fshihet kyçi publik
     '{ $userId }'?
@@ -456,6 +506,8 @@ default-pub-key-filename = Kyçe-publikë-të-eksportuar
 default-pub-sec-key-filename = Kopjeruajtje-kyçesh-të-fshehtë
 refresh-key-warn = Kujdes: rifreskimi i krejt kyçeve mund të jetë një proces goxha i gjatë, varet nga numri i kyçeve dhe shpejtësia e lidhjes!
 preview-failed = S’lexohet dot kartelë kyçi publik.
+# Variables:
+# $reason (String) - Error description.
 general-error = Gabim: { $reason }
 dlg-button-delete = &Fshije
 
@@ -465,7 +517,12 @@ openpgp-export-public-success = <b>Kyçi Publik u eksportua me sukses!</b>
 openpgp-export-public-fail = <b>S’arrihet të eksportohet kyçi publik i përzgjedhur!</b>
 openpgp-export-secret-success = <b>Kyçi i Dshehtë u eksportua me sukses!</b>
 openpgp-export-secret-fail = <b>S’arrihet të eksportohet kyçi i fshehtë i përzgjedhur!</b>
-# Strings in keyObj.jsm
+
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Kyçi { $userId } (ID kyçi { $keyId }) është i shfuqizuar.
 key-ring-pub-key-expired = Kyçi { $userId } (ID kyçi { $keyId }) ka skaduar.
 key-ring-no-secret-key = S’duket se keni kyçin e fshehtë për { $userId } (ID kyçi { $keyId }) në vargun tuaj të kyçeve; kyçin s’mund ta përdorni për nënshkrime.
@@ -475,10 +532,14 @@ key-ring-sign-sub-keys-revoked = Janë shfuqizuar krejt nënkyçet e nënshkrimi
 key-ring-sign-sub-keys-expired = Kanë skaduar krejt nënkyçet e nënshkrimit të kyçit { $userId } (ID kyçi { $keyId }).
 key-ring-enc-sub-keys-revoked = Janë shfuqizuar krejt nënkyçet e fshehtëzimit të kyçit { $userId } (ID kyçi { $keyId }).
 key-ring-enc-sub-keys-expired = Kanë skaduar krejt nënkyçet e fshehtëzimit të kyçit { $userId } (ID kyçi { $keyId }).
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.jsm
+
 keyring-photo = Foto
 user-att-photo = Atribut përdoruesi (figurë JPEG)
-# Strings in key.jsm
+
+## Strings in key.jsm
+
 already-revoked = Ky kyç është shfuqizuar tashmë.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -498,7 +559,9 @@ after-revoke-info =
     Ndajeni sërish me të tjerët këtë kyç publik, duke e dërguar me email, ose duke e ngarkuar te një shërbyes kyçesh, për t’u lejuar të tjerëve të dinë se e shfuqizuat kyçin tuaj.
     Sapo software-i përdorur nga persona të tjerë mëson rreth shfuqizimit, do të reshtë së përdorur kyçin tuaj të vjetër.
     Nëse po përdorni një kyç të ri për të njëjtën adresë email dhe bashkëngjitni kyçin e ri publik te email-e që dërgoni, atëherë informacioni rreth kyçit tuaj të dikurshëm të shfuqizuar do të përfshihet automatikisht.
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.jsm & decryption.jsm
+
 key-man-button-import = &Importo
 delete-key-title = Fshi Kyç OpenPGP
 delete-external-key-title = Hiq Kyçin e jashtëm GnuPG
@@ -506,26 +569,44 @@ delete-external-key-description = Doni të hiqet kjo ID kyçi të  Jashtëm GnuP
 key-in-use-title = Kyç OpenPGP aktualisht në përdorim
 delete-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët për fshirje është aktualisht në përdorim nga ky identitet. Përzgjidhni një kyç tjetër, ose mos përzgjidhni ndonjë dhe riprovoni.
 revoke-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët për shfuqizim është aktualisht në përdorim nga ky identitet. Përzgjidhni një kyç tjetër, ose mos përzgjidhni ndonjë dhe riprovoni.
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.jsm
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = Për adresën email '{ $keySpec }' s’gjendet dot përputhje me ndonjë kyç në vargun tuaj të kyçeve.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = ID-ja e kyçit të formësuar '{ $keySpec }' s’mund të gjendet te vargu juaj i kyçeve.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = S’keni ripohuar se kyçi me ID-në '{ $keySpec }' është kyç i juaji personal.
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 need-online = Funksioni që keni përzgjedhur s’mund të përdoret nën mënyrën jo i lidhur. Ju lutemi, lidhuni në internet dhe riprovoni.
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 no-key-found2 = S’gjetëm dot ndonjë kyç të përdorshëm me përputhje me kriterin e dhënë të kërkimit.
 no-update-found = Keni tashmë kyçet që u zbuluan në internet.
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 fail-key-extract = Gabim - urdhri për përftim kyçi dështoi
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.jsm
+
 fail-cancel = Gabim - Marrja e kyçit u anulua nga përdoruesi
 not-first-block = Gabim - Blloku i parë OpenPGP s’është bllok kyçi publik
 import-key-confirm = Të importohet kyç(e) publik të trupëzuar në mesazh?
 fail-key-import = Gabim - Importimi i kyçit dështoi
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = S’u arrit të shkruhet te kartelë { $output }
 no-pgp-block = Gabim - S’u gjet bllok i vlefshëm të dhënash OpenPGP të koracuara
 confirm-permissive-import = Importi dështoi. Kyçi që po provoni të importoni mund të jetë i komprometuar ose përdor atribute të panjohur. Do të donit të provohej të importoheshin pjesët që janë të sakta? Kjo mund të sjellë importim kyçesh jo të plotë dhe të papërdorshëm.
-# Strings used in trust.jsm
+
+## Strings used in trust.jsm
+
 key-valid-unknown = i panjohur
 key-valid-invalid = i pavlefshëm
 key-valid-disabled = i çaktivizuar
@@ -536,14 +617,20 @@ key-trust-marginal = mënjanësor
 key-trust-full = i besuar
 key-trust-ultimate = përfundimtar
 key-trust-group = (grup)
-# Strings used in commonWorkflows.js
+
+## Strings used in commonWorkflows.js
+
 import-key-file = Importo Kartelë Kyçi OpenPGP
 import-rev-file = Importo Kartelë Shfuqizimi OpenPGP
 gnupg-file = Kartela GnuPG
 import-keys-failed = Importimi i kyçeve dështoi
+# Variables:
+# $key (String) - Key id to unlock.
 passphrase-prompt = Ju lutemi, jepni frazëkalimin që shkyç kyçin vijues: { $key }
 file-to-big-to-import = Kjo kartelë është shumë e madhe. Ju lutemi, mos importoni njëherësh një grup të madh kyçesh.
-# Strings used in enigmailKeygen.js
+
+## Strings used in enigmailKeygen.js
+
 save-revoke-cert-as = Krijoni & Ruani Dëshmi Shfuqizimesh
 revoke-cert-ok = Dëshmia e shfuqizimit u krijua me sukses. Mund ta përdorni për të zhvleftësuar kyçin tuaj publik, p.sh., në rast se humbni kyçin tuaj të fshehtë.
 revoke-cert-failed = Dëshmia e shfuqizimit s’u krijua dot.
@@ -551,33 +638,53 @@ gen-going = Prodhim kyçesh tashmë në kryerje e sipër!
 keygen-missing-user-name = S’ka emër të specifikuar për llogarinë/identitetin e përzgjedhur. Ju lutemi, jepni një vlerë te fusha “Emri juaj”, te rregullimet e llogarisë.
 expiry-too-short = Kyçi juaj duhet të jetë i vlefshëm për të paktën një ditë.
 expiry-too-long = S’mund të krijoni një kyç që skadon pas më shumë se 100 vjetëve.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Të prodhohet kyç publik dhe i fshehtë për '{ $id }'?
 key-man-button-generate-key = &Prodho Kyç
 key-abort = Të ndërpritet prodhimi i kyçit?
 key-man-button-generate-key-abort = &Ndërprite Prodhimin e Kyçit
 key-man-button-generate-key-continue = &Vazhdo Prodhimin e Kyçit
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
 
 failed-decrypt = Gabim - shfshehtëzimi dështoi
 fix-broken-exchange-msg-failed = S’pat sukses në riparimin e mesazhit.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = S’u përputh dot kartela e nënshkrimit '{ $attachment }' me ndonjë bashkëngjitje
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = S’u përputh dot bashkëngjitja '{ $attachment }' me një kartelë nënshkrimi
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = Nënshkrimi për bashkëngjitjen { $attachment } u verifikua me sukses
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = Nënshkrimi për bashkëngjitjen { $attachment } s’u verifikua do
 decrypt-ok-no-sig =
     Kujdes
     Shfshehtëzimi qe i suksesshëm, por nënshkrimi s’u verifikua dot me saktësi
 msg-ovl-button-cont-anyway = &Vazhdo Sido Qoftë
 enig-content-note = *Bashkëngjitjet në këtë mesazh s’janë nënshkruar, as fshehtëzuar*
-# Strings used in enigmailMsgComposeOverlay.js
+
+## Strings used in enigmailMsgComposeOverlay.js
+
 msg-compose-button-send = &Dërgo Mesazh
 msg-compose-details-button-label = Hollësi…
 msg-compose-details-button-access-key = H
 send-aborted = Veprimi i dërgimit u ndërpre.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Pa besueshmëri të mjaftë për kyçin '{ $key }'
+# Variables:
+# $key (String) - Key id.
 key-not-found = S’u gjet kyçi '{ $key }'
+# Variables:
+# $key (String) - Key id.
 key-revoked = Kyçi '{ $key }' u shfuqizua
+# Variables:
+# $key (String) - Key id.
 key-expired = Kyçi '{ $key }' skadoi
 msg-compose-internal-error = Ndodhi një gabim i brendshëm.
 keys-to-export = Përzgjidhni Kyçe OpenPGP Për T’i Futur
@@ -589,6 +696,8 @@ msg-compose-partially-encrypted-short = Hapni sytë për rrjedhje informacioni r
 quoted-printable-warn =
     Keni aktivizuar kodim 'quoted-printable' për dërgim mesazhesh. Kjo mund të sjellë shfshehtëzim dhe/ose verifikim të pasaktë të mesazhit tuaj.
     Doni të çaktivizohet tani dërgimi i mesazheve'quoted-printable'?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Keni ujdisur mbështjellje rreshtash pas { $width } shenjash. Për fshehtëzim dhe/ose nënshkrim të saktë, kjo vlerë lypset të jetë të paktën 68.
     Doni të ndryshohet tani vlera për mbështjellje rreshtash në 68 shenja?
@@ -601,31 +710,58 @@ send-to-news-warning =
     Të vazhdohet?
 save-attachment-header = Ruaje bashkëngjitjen e shfshehtëzuar
 possibly-pgp-mime = Mesazh mundet i fshehtëzuar ose nënshkruar me PGP/MIME; përdorni funksionin 'Shfshehtëzoje/Verifikoje' për ta verifkuar
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = S’nënshkruhet dot në mënyrë dixhitale ky mesazh, ngaqë s’keni formësuar ende fshehtëzim skaj-më-skaj për <{ $key }>
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = S’mund të dërgohet i fshehtëzuar ky mesazh, ngaqë s’keni formësuar ende fshehtëzim skaj-më-skaj për <{ $key }>
-# Strings used in decryption.jsm
+
+## Strings used in decryption.jsm
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Të importohen kyçet vijues?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = Të importohet { $name } ({ $id })?
 cant-import = Gabim në importim kyçi publik
 unverified-reply = Pjesa e mesazhit me shmangie kryeradhe  (përgjigje) ka gjasa të jetë ndryshuar
 key-in-message-body = U gjet një kyç te lënda e mesazhit. Klikoni mbi “Importo Kyç” që të importohet kyçi
 sig-mismatch = Gabim - Mospërputhje nënshkrimesh
 invalid-email = Gabim - adresë(a) email e pavlefshme
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Bashkëngjitja '{ $name }' që po hapni duket të jetë një kartelë kyçi OpenPGP.
     Klikoni mbi “Importoje” që të importohen kyçet që përmban, ose “Shiheni” që të shihni lëndën e kartelës në një dritare shfletuesi
 dlg-button-view = &Shiheni
-# Strings used in enigmailMsgHdrViewOverlay.js
+
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 decrypted-msg-with-format-error = Mesazh i shfshehtëzuar (u rikthyer format i dëmtuar email-i PGP, shkaktuar ndoshta nga një shërbyes i vjetër Exchange, ndaj përfundimi mund të mos jetë i përsosur për lexim)
-# Strings used in encryption.jsm
+
+## Strings used in encryption.jsm
+
 not-required = Gabimi - s’lyp fshehtëzim
-# Strings used in windows.jsm
+
+## Strings used in windows.jsm
+
 no-photo-available = S’ka Foto
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Shtegu '{ $photo }' për foto s’është i lexueshëm
 debug-log-title = Regjistër Diagnostikimi OpenPGP-je
-# Strings used in dialog.jsm
+
+## Strings used in dialog.jsm
+
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix = Ky sinjalizim do të përsëritet { $count }
 repeat-suffix-singular = herë tjetër
 repeat-suffix-plural = herë të tjera
@@ -639,9 +775,13 @@ enig-prompt = Kërkesë OpenPGP
 enig-confirm = Ripohim OpenPGP
 enig-alert = Sinjalizim OpenPGP
 enig-info = Informacion OpenPGP
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.jsm
+
 dlg-button-retry = &Riprovo
 dlg-button-skip = &Anashkaloje
-# Strings used in enigmailMsgBox.js
+
+## Strings used in enigmailMsgBox.js
+
 enig-alert-title =
     .title = Sinjalizim OpenPGP

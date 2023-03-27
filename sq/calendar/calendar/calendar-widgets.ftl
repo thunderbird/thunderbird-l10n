@@ -11,6 +11,14 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Kalendarë
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Kalendari { $calendarName } është heshtuar
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Mundësi kalendari { $calendarName }
 calendar-import-new-calendar = Kalendar i Ri…
     .title = Krijoni, ose pajtohuni te një kalendar i ri
 calendar-refresh-calendars =
@@ -32,6 +40,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Muaji i Mëparshëm
     .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = Viti i Mëparshëm
+    .accesskey = a
 calendar-nav-button-next-tooltip-day =
     .title = Dita Pasuese
     .accesskey = u
@@ -43,6 +54,9 @@ calendar-nav-button-next-tooltip-multiweek =
     .accesskey = u
 calendar-nav-button-next-tooltip-month =
     .title = Muaji Pasues
+    .accesskey = u
+calendar-nav-button-next-tooltip-year =
+    .title = Viti Pasues
     .accesskey = u
 calendar-today-button-tooltip =
     .title = Shko te Sot
