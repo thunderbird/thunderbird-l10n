@@ -1,0 +1,55 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# Variables:
+# $organizer (String) - The participant that created the original invitation.
+calendar-invitation-panel-intro = { $organizer } convidárono a:
+calendar-invitation-panel-status-new = Convidárono a este evento.
+calendar-invitation-panel-status-processed = Este evento xa se engadiu ao seu calendario.
+calendar-invitation-panel-status-updateminor = Esta mensaxe contén unha actualización para este evento.
+calendar-invitation-panel-status-updatemajor = Esta mensaxe contén unha actualización para este evento. Debe confirmar de novo a súa asistencia.
+calendar-invitation-panel-status-cancelled = Esta mensaxe contén unha cancelación para este evento.
+calendar-invitation-panel-status-cancelled-notfound = Esta mensaxe contén unha cancelación para un evento que non se atopou no seu calendario.
+# Variables:
+# $organizer (String) - The participant that cancelled the invitation.
+calendar-invitation-panel-intro-cancel = { $organizer } cancelou:
+# Variables:
+# $summary (String) - A short summary or title of the event.
+calendar-invitation-panel-title = { $summary }
+calendar-invitation-panel-action-button = Gardar
+calendar-invitation-panel-view-button = Ver
+calendar-invitation-panel-update-button = Actualizar
+calendar-invitation-panel-delete-button = Eliminar
+calendar-invitation-panel-accept-button = Si
+calendar-invitation-panel-decline-button = Non
+calendar-invitation-panel-tentative-button = Quizais
+calendar-invitation-panel-reply-status = * Aínda non decidido nin respondido
+calendar-invitation-panel-more-button = Máis
+calendar-invitation-panel-menu-item-save-copy =
+    .label = Gardar unha copia
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Amosar os cambios
+calendar-invitation-panel-prop-title-when = Cando:
+calendar-invitation-panel-prop-title-location = Localización:
+# Variables:
+# $dayOfWeek (String) - The day of the week for a given date.
+# $date (String) - The date example: Tuesday, February 24, 2022.
+calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
+# Variables:
+# $time (String) - The time part of a datetime using the "short" timeStyle.
+# $timezone (String) - The timezone info for the datetime.
+calendar-invitation-datetime-time = { $time } ({ $timezone })
+# Example: Friday, September 16, 2022
+# Variables:
+# $startDate (String) - The date (without time) the event starts on.
+calendar-invitation-interval-all-day = { $startDate }
+# Example: September 16, 2022 – September 16, 2023
+# Variables:
+# $startMonth (String) - The month the interval starts.
+# $startDay   (String) - The day of the month the interval starts.
+# $startYear  (String) - The year the interval starts.
+# $endMonth   (String) - The month the interval ends.
+# $endDay     (String) - The day of the month the interval ends.
+# $endYear    (String) - The year the interval ends.
+calendar-invitation-interval-all-day-between-years = { $startMonth } { $startDay }, { $startYear } – { $endMonth } { $endDay }, { $endYear }
