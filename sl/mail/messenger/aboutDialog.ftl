@@ -26,7 +26,7 @@ update-restarting = Ponovni zagon …
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
 channel-description = Uporabljate posodobitveni kanal <span data-l10n-name="current-channel">{ $channel }</span> .
 warning-desc-version = Izdaja { -brand-short-name } je poskusna in lahko deluje nezanesljivo.
-warning-desc-telemetry = Samodejno pošilja podatke o zmogljivosti, strojni opremi, uporabi in prilagoditvah nazaj na { -vendor-short-name }, da ga pomaga narediti boljšega.
+warning-desc-telemetry = Samodejno pošilja podatke o zmogljivosti, strojni opremi, uporabi in prilagoditvah { -vendor-short-name(sklon: "dajalnik") }, da bi pomagal izboljšati { -brand-short-name }.
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1
