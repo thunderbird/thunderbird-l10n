@@ -5,12 +5,41 @@
 calendar-deactivated-notification-events = Actualmente, todos os calendarios están desactivados. Active un calendario ou engada un novo para crear e modificar eventos.
 calendar-deactivated-notification-tasks = Actualmente, todos os calendarios están desactivados. Active un calendario ou engada un novo para crear e modificar tarefas.
 calendar-notifications-label = Amosar notificacións de eventos vindeiros
+calendar-add-notification-button =
+    .label = Engadir unha notificación
 
 ## Side panel
 
+calendar-list-header = Calendarios
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = O calendario { $calendarName } silenciouse
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Opcións do calendario { $calendarName }
+calendar-import-new-calendar = Novo calendario...
+    .title = Crear ou subscribirse a un novo calendario
+calendar-refresh-calendars =
+    .title = Recargar todos os calendarios e sincronizar os cambios
+calendar-new-event-primary-button = Novo evento
+calendar-new-task-primary-button = Nova tarefa
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Día anterior
+    .accesskey = a
+calendar-nav-button-prev-tooltip-week =
+    .title = Semana anterior
+    .accesskey = s
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Semana anterior
+    .accesskey = s
+calendar-nav-button-prev-tooltip-month =
+    .title = Mes anterior
+    .accesskey = s
 calendar-view-toggle-day = Día
     .title = Cambiar á vista diaria
 calendar-view-toggle-week = Semana
