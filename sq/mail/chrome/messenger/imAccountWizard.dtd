@@ -28,5 +28,5 @@
 <!ENTITY accountProxySettings.change.accessKey "N">
 
 <!ENTITY accountSummaryTitle.label   "Përmbledhje">
-<!ENTITY accountSummaryInfo.label    "Më poshtë shfaqet një përmbledhje e të dhënave që dhatë. Ju lutemi, kontrollojini, përpara se të krijohet llogaria.">
+<!ENTITY accountSummaryInfo.label    "Më poshtë shfaqet një përmbledhje e hollësive që dhatë. Ju lutemi, kontrollojini, përpara se të krijohet llogaria.">
 <!ENTITY accountSummary.connectNow.label "Bëje lidhjen e kësaj llogarie tani.">

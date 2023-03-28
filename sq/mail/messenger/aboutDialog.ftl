@@ -26,7 +26,7 @@ update-restarting = Po riniset…
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
 channel-description = Tani gjendeni te kanali i përditësimit për <span data-l10n-name="current-channel">{ $channel }</span> .
 warning-desc-version = { -brand-short-name }-i është eksperimental dhe mund të jetë i paqëndrueshëm.
-warning-desc-telemetry = Dërgon vetvetiu te { -vendor-short-name } të dhëna mbi punimin, hardware-in, përdorimin dhe përshtatjet, që të ndihmohet në përmirësimin e { -brand-short-name }-it.
+warning-desc-telemetry = Dërgon vetvetiu te { -vendor-short-name } hollësi mbi punimin, hardware-in, përdorimin dhe përshtatjet, që të ndihmohet në përmirësimin e { -brand-short-name }-it.
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1
@@ -55,7 +55,7 @@ about-helpus =
     Doni të ndihmoni? <a data-l10n-name="helpus-donate-link">
     Bëni një dhurim</a> or <a data-l10n-name="helpus-get-involved-link">
     përfshihuni!</a>
-bottom-links-license = Të dhëna Licencimi
+bottom-links-license = Hollësi Licencimi
 bottom-links-rights = Të drejta Përdoruesi
 bottom-links-privacy = Rregulla Privatësie
 cmd-close-mac-command-key =

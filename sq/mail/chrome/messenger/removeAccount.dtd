@@ -5,7 +5,7 @@
 <!ENTITY dialogTitle                  "Hiqni Llogari dhe Të dhëna">
 <!ENTITY removeButton.label           "Hiqe">
 <!ENTITY removeButton.accesskey       "H">
-<!ENTITY removeAccount.label          "Hiqni të dhëna llogarie">
+<!ENTITY removeAccount.label          "Hiqni hollësi llogarie">
 <!ENTITY removeAccount.accesskey      "a">
 <!ENTITY removeAccount.desc           "Heq vetëm dijeninë e &brandShortName;-it mbi këtë llogari. Nuk prek vetë llogarinë te shërbyesi.">
 <!ENTITY removeData.label             "Hiq të dhëna mesazhi">

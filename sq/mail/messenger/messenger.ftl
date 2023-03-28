@@ -98,7 +98,7 @@ appmenu-help-enter-troubleshoot-mode =
 appmenu-help-exit-troubleshoot-mode =
     .label = Çaktivizo Mënyrën Diagnostikim
 appmenu-help-more-troubleshooting-info =
-    .label = Më Tepër të Dhëna Diagnostikimi
+    .label = Më Tepër Hollësi Diagnostikimi
 appmenu-redirect-msg =
     .label = Ridrejto
 
@@ -106,6 +106,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Ridrejtoje
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +171,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Të hiqet { $name }?
 addon-removal-confirmation-button = Hiqe
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Të hiqet { $name }, si dhe formësimi dhe të dhënat e saj nga { -brand-short-name }-i?
 caret-browsing-prompt-title = Shfletim me Kursor
 caret-browsing-prompt-text = Shtypja e F7 aktivizon/çaktivizon Shfletimin me Kursor. Kjo karakteristikë vendos te faqja një kursor të lëvizshëm, duke ju lejuar të përzgjidhni tekst me tastierë. Doni ta aktivizoni Shfletimin me Kursor?
@@ -183,11 +187,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Nuk Mbulon Përgjigje
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Adresa e përgjigjes ({ $email }) s’duket të jetë një adresë e mbikëqyrur. Mesazhet te kjo adresë ka gjasa të mos lexohen nga ndonjë.
 no-reply-reply-anyway-button = Përgjigjuni, Sido Qoftë
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } nga { $total } mesazhe s’u shfshehtëzuan dot dhe nuk u kopjuan.
 
 ## Spaces toolbar
