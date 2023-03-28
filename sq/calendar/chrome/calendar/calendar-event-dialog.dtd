@@ -371,7 +371,7 @@
 <!ENTITY event.freebusy.legend.busy             "I zënë" >
 <!ENTITY event.freebusy.legend.busy_tentative   "Përpjekje" >
 <!ENTITY event.freebusy.legend.busy_unavailable "Jashtë Zyre" >
-<!ENTITY event.freebusy.legend.unknown          "Nuk ka të Dhëna" >
+<!ENTITY event.freebusy.legend.unknown          "Pa Hollësi" >
 <!ENTITY event.attendee.role.required           "Pjesëmarrës i Domosdoshëm">
 <!ENTITY event.attendee.role.optional           "Pjesëmarrës Opsional">
 <!ENTITY event.attendee.role.chair              "Kryetar">

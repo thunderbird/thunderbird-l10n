@@ -4,7 +4,7 @@
 
 <!ENTITY folderProps.windowtitle.label           "Veti">
 
-<!ENTITY generalInfo.label                       "Të dhëna Të përgjithshme">
+<!ENTITY generalInfo.label                       "Hollësi të Përgjithshme">
 <!ENTITY folderRebuildSummaryFileTip2.label      "Riformo Treguesin për Përmbledhje Kartele">
 <!ENTITY folderRebuildSummaryFile2.label         "Riparoje Dosjen">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "R">

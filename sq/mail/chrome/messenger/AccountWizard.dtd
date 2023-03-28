@@ -27,7 +27,7 @@
 
 <!-- Entities for Incoming Server page -->
 
-<!ENTITY incomingTitle.label "Të dhëna Shërbyesi Për Ardhësen">
+<!ENTITY incomingTitle.label "Hollësi Shërbyesi Për Ardhësen">
 <!ENTITY incomingUsername.label "Emër Përdoruesi:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Jepni emrin e shërbyesit tuaj të lajmeve (NNTP) (për shembull, “news.example.net”).">
