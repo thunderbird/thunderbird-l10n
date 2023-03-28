@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY event.title.label                  "Editar elemento" >
+<!ENTITY event.title.label                  "Modificar o elemento" >
 
 <!ENTITY event.dialog.keepDurationButton.tooltip   "Conservar a duración ao cambiar a data de remate">
 <!ENTITY event.dialog.keepDurationButton.accesskey "K">
@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Indica que vostede non aceptará contrapropostas">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Eliminar…">
 <!ENTITY  event.menu.item.delete.accesskey                "E">
-<!ENTITY  event.menu.item.page.setup.label                "Configuración da páxina">
-<!ENTITY  event.menu.item.page.setup.accesskey            "u">
-<!ENTITY  event.menu.item.print.label                     "Imprimir">
-<!ENTITY  event.menu.item.print.accesskey                 "p">
 
 <!ENTITY  event.menu.edit.label                           "Editar">
 <!ENTITY  event.menu.edit.accesskey                       "E">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "e">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Personalizar…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "P">
-<!ENTITY  event.menu.view.showlink.label                  "Amosar ligazón relacionada">
-<!ENTITY  event.menu.view.showlink.accesskey              "r">
 
 <!ENTITY  event.menu.options.label                            "Opcións">
 <!ENTITY  event.menu.options.accesskey                        "O">
@@ -190,6 +181,7 @@
    - illustrates how it might look like: https://bugzilla.mozilla.org/attachment.cgi?id=8810121 -->
 <!ENTITY counter.button.proposal.label                    "Aplicar proposta">
 <!ENTITY counter.button.proposal.accesskey                "p">
+<!ENTITY counter.button.proposal.tooltip2                 "Os campos do evento encheranse cos valores da contraproposta. Ao gardar, con ou sen cambios adicionais, notificarase a todos os participantes implicados">
 <!ENTITY counter.button.original.label                    "Aplicar a data orixinal">
 <!ENTITY counter.button.original.accesskey                "r">
 <!ENTITY counter.button.original.tooltip2                 "Os campos estabeleceranse cos valores do evento orixinal anterior á contraproposta">
@@ -406,11 +398,6 @@
 <!ENTITY read.only.location.label        "Localización:">
 <!ENTITY read.only.category.label        "Categoría:">
 <!ENTITY read.only.organizer.label       "Organizador:">
-<!ENTITY read.only.reply.label           "Responder:">
-<!ENTITY read.only.accept.label          "Asistirei">
-<!ENTITY read.only.decline.label         "Non asistirei">
-<!ENTITY read.only.tentative.label       "Pode que asista">
-<!ENTITY read.only.needs.action.label    "Confirmareino máis tarde">
 <!ENTITY read.only.reminder.label        "Recordatorio:">
 <!ENTITY read.only.attachments.label     "Anexos:">
 <!ENTITY read.only.attendees.label       "Asistentes">

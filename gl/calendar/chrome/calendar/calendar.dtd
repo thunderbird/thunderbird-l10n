@@ -191,7 +191,7 @@
 <!ENTITY calendar.context.attendance.occ.delegated.label        "Delegado">
 <!ENTITY calendar.context.attendance.occ.needsaction.accesskey  "s">
 <!ENTITY calendar.context.attendance.occ.needsaction.label      "Aínda precisa acción">
-<!ENTITY calendar.context.attendance.occ.inprogress.accesskey   "g">
+<!ENTITY calendar.context.attendance.occ.inprogress.accesskey   "">
 <!ENTITY calendar.context.attendance.occ.inprogress.label       "En progreso">
 <!ENTITY calendar.context.attendance.occ.completed.accesskey    "R">
 <!ENTITY calendar.context.attendance.occ.completed.label        "Rematada">
