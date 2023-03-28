@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-title = Calendario
+calendar-title-reminder = Recordatorio
+calendar-title-notification = Notificacións
+calendar-title-category = Categorías
 dateformat-label =
     .value = Formato de texto da data:
     .accesskey = d
@@ -11,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Curto: { $date }
+use-system-timezone-radio-button =
+    .label = Usa o fuso horario do sistema
+set-timezone-manually-radio-button =
+    .label = Definir o fuso horario manualmente
 timezone-label =
     .value = Fuso horario:
 weekstart-label =
@@ -33,6 +41,8 @@ day-7-name =
 show-weeknumber-label =
     .label = Amosar o número da semana nas vistas e o mes reducido
     .accesskey = m
+workdays-label =
+    .value = Días laborábeis:
 day-1-checkbox =
     .label = Dom
     .accesskey = D
@@ -95,13 +105,13 @@ previous-weeks-label =
     .value = Semanas anteriores a mostrar:
     .accesskey = S
 todaypane-legend = Panel de hoxe
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = A sección "Proximamente" amosa:
-    .accesskey = P
+agenda-days =
+    .value = A axenda amosa:
+    .accesskey = x
 event-task-legend = Eventos e tarefas
+default-length-label =
+    .value = Duración predeterminada de eventos e tarefas
+    .accesskey = D
 task-start-label =
     .value = Data de inicio:
 task-start-1-label =
@@ -125,6 +135,9 @@ task-due-label =
 edit-intab-label =
     .label = Editar eventos e tarefas nunha lapela en vez de nunha xanela de diálogo.
     .accesskey = t
+prompt-delete-label =
+    .label = Preguntar antes de eliminar eventos e tarefas.
+    .accesskey = P
 accessibility-legend = Accesibilidade
 accessibility-colors-label =
     .label = Optimizar as cores para accesibilidade
@@ -139,6 +152,9 @@ reminder-play-alarm-button =
 reminder-default-sound-label =
     .label = Usar son predeterminado
     .accesskey = d
+reminder-custom-sound-label =
+    .label = Usar o seguinte ficheiro sonoro
+    .accesskey = s
 reminder-browse-sound-label =
     .label = Examinar…
     .accesskey = r
