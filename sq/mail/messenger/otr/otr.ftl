@@ -71,4 +71,4 @@ tlv-disconnected = { $name }e ka përfunduar bisedën e fshehtëzuar me ju; po k
 # Make sure that this string does NOT contain any numbers, e.g. like "3".
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-query-msg = { $name } ka kërkuar një bisedë të fshehtëzuar, Off-the-Record (OTR). Por ju s’keni një shtojcë që ta mbulojë këtë. Për më tepër të dhëna, shihni te https://en.wikipedia.org/wiki/Off-the-Record_Messaging.
+query-msg = { $name } ka kërkuar një bisedë të fshehtëzuar, Off-the-Record (OTR). Por ju s’keni një shtojcë që ta mbulojë këtë. Për më tepër hollësi, shihni te https://en.wikipedia.org/wiki/Off-the-Record_Messaging.

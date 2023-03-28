@@ -357,7 +357,7 @@ openpgp-key-expires-within-6-months-icon =
 openpgp-key-has-expired-icon =
     .title = Kyçi skadoi
 openpgp-key-expand-section =
-    .tooltiptext = Më tepër të dhëna
+    .tooltiptext = Më tepër hollësi
 openpgp-key-revoke-title = Shfuqizojeni Kyçin
 openpgp-key-edit-title = Ndryshoni Kyç OpenPGP
 openpgp-key-edit-date-title = Shtyni Datën e Skadimit
@@ -689,8 +689,8 @@ key-expired = Kyçi '{ $key }' skadoi
 msg-compose-internal-error = Ndodhi një gabim i brendshëm.
 keys-to-export = Përzgjidhni Kyçe OpenPGP Për T’i Futur
 msg-compose-partially-encrypted-inlinePGP =
-    Mesazhi të cilit po i përgjigjeni përmban si pjesë të pafshehtëzuara, ashtu edhe të fshehtëzuara. Nëse fillimisht tdërguesi s’qe në gjendje të fshehtëzonte disa pjesë të mesazhit, mund të jeni duke lënë të rrjedhë informacion rezervat të cilin dërguesi s’qe në gjendje ta fshehtëzonte.
-    Please consider removing all quoted text from your reply to this sender.
+    Mesazhi të cilit po i përgjigjeni përmban qoftë pjesë të pafshehtëzuara, qoftë të fshehtëzuara. Nëse fillimisht dërguesi s’qe në gjendje të fshehtëzonte disa pjesë të mesazhit, mund të jeni duke lënë të rrjedhë informacion rezervat të cilin dërguesi s’qe në gjendje ta fshehtëzonte.
+    Ju lutemi, shihni mundësinë e heqjes nga përgjigja juaj për këtë dërgues e krejt tekstit të cituar.
 msg-compose-cannot-save-draft = Gabim teksa ruhej skicë
 msg-compose-partially-encrypted-short = Hapni sytë për rrjedhje informacioni rezervat - email pjesërisht i fshehtëzuar.
 quoted-printable-warn =
@@ -774,7 +774,7 @@ dlg-no-prompt = Mos ma shfaq më këtë dialog
 enig-prompt = Kërkesë OpenPGP
 enig-confirm = Ripohim OpenPGP
 enig-alert = Sinjalizim OpenPGP
-enig-info = Informacion OpenPGP
+enig-info = Hollësi OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

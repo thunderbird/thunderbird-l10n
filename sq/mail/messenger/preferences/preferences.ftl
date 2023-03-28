@@ -42,7 +42,7 @@ privacy-main-header = Privatësi
 privacy-passwords-header = Fjalëkalime
 privacy-junk-header = E pavlerë
 collection-header = Grumbullim dhe Përdorim të Dhënash nga { -brand-short-name }-i
-collection-description = Përpiqemi t’ju japim mundësi zgjedhjesh dhe grumbullojmë vetëm ç’na duhet për të ofruar dhe përmirësuar { -brand-short-name }-in për këdo. Kërkojmë përherë leje, përpara se të marrim të dhëna personale.
+collection-description = Përpiqemi t’ju japim mundësi zgjedhjesh dhe grumbullojmë vetëm ç’na duhet për të ofruar dhe përmirësuar { -brand-short-name }-in për këdo. Kërkojmë përherë leje, përpara se të marrim hollësi personale.
 collection-privacy-notice = Shënim Mbi Privatësinë
 collection-health-report-telemetry-disabled = S’e lejoni më { -vendor-short-name } të marrë të dhëna teknike dhe ndërveprimesh. Krejt të dhënat e dikurshme do të fshihen brenda 30 ditësh.
 collection-health-report-telemetry-disabled-link = Mësoni më tepër
@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Shtoni Furnizues OpenSearch
 add-opensearch-provider-text = Jepni URL-në e furnizuesit OpenSearch që duhet shtuar. Ose përdorni URL-në e drejtpërdrejtë të kartelës OpenSearch Description, ose një URL ku mund të zbulohet automatikisht.
 adding-opensearch-provider-failed-title = Shtimi i Furnizuesit OpenSearch Dështoi
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = S’u shtua dot Furnizues OpenSearch për { $url }.
 minimize-to-tray-label =
     .label = Kur minimizohet { -brand-short-name }-i, shpjere te shtylla

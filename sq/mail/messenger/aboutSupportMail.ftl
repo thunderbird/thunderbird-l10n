@@ -4,7 +4,7 @@
 
 accounts-title = Llogari Poste dhe Lajmesh
 show-private-data-main-text = Përfshi emra llogarish
-show-private-data-explanation-text = (të dhëna me gjasë identifikuese)
+show-private-data-explanation-text = (hollësi me gjasë identifikuese)
 accounts-ID = ID
 accounts-name = Emër
 accounts-incoming-server = Shërbyes ardhësesh
