@@ -3,6 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-recurrence-preview-label = Vista previa
-calendar-recurrence-next = Próximo mes
+calendar-recurrence-next = Mes vindeiro
 calendar-recurrence-previous = Mes anterior
 calendar-recurrence-today = Hoxe
