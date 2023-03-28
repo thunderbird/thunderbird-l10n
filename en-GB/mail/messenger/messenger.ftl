@@ -31,6 +31,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = The connection is not secure
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Go back one page ({ $shortcut })
+    .aria-label = Back
+    .accesskey = B
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Back
+    .accesskey = B
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Go forward one page ({ $shortcut })
+    .aria-label = Forward
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Forward
+    .accesskey = F
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Reload page
+    .aria-label = Reload
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Reload page
+    .label = Reload
+    .accesskey = R
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Stop page loading
+    .aria-label = Stop
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Stop page loading
+    .label = Stop
+    .accesskey = S
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +156,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Redirect
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +221,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Remove { $name }?
 addon-removal-confirmation-button = Remove
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Remove { $name } as well as its configuration and data from { -brand-short-name }?
 caret-browsing-prompt-title = Caret Browsing
 caret-browsing-prompt-text = Pressing F7 turns Caret Browsing on or off. This feature places a moveable cursor within some content, allowing you to select text with the keyboard. Do you want to turn Caret Browsing on?
@@ -183,11 +237,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Reply Not Supported
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = The reply address ({ $email }) does not appear to be a monitored address. Messages to this address will likely not be read by anyone.
 no-reply-reply-anyway-button = Reply Anyway
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } of { $total } messages could not be decrypted and were not copied.
 
 ## Spaces toolbar
