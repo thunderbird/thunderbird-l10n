@@ -32,6 +32,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = З’єднання не захищене
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Назад на одну сторінку ({ $shortcut })
+    .aria-label = Назад
+    .accesskey = Н
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Назад
+    .accesskey = Н
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Уперед на одну сторінку ({ $shortcut })
+    .aria-label = Уперед
+    .accesskey = У
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Уперед
+    .accesskey = У
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Перезавантажити сторінку
+    .aria-label = Перезавантажити
+    .accesskey = П
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Перезавантажити сторінку
+    .label = Перезавантажити
+    .accesskey = П
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Зупинити завантаження сторінки
+    .aria-label = Зупинити
+    .accesskey = З
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Зупинити завантаження сторінки
+    .label = Зупинити
+    .accesskey = З
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -107,6 +157,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Переслати
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -171,9 +223,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Вилучити { $name }?
 addon-removal-confirmation-button = Вилучити
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Вилучити { $name }, а також його конфігурацію та дані з { -brand-short-name }?
 caret-browsing-prompt-title = Перегляд з курсором.
 caret-browsing-prompt-text = Натискання F7 вмикає та вимикає Перегляд з курсором. Це дає можливість помістити рухомий курсор на певний вміст, дозволяючи вам вибирати блоки тексту клавіатурою. Хочете увімкнути Перегляд з курсором?
@@ -185,11 +239,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Відповідь не підтримується
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Схоже що не відбувається спостереження за адресою відповіді ({ $email }). Швидше за все ніхто не прочитає повідомлення за цією адресою.
 no-reply-reply-anyway-button = Все одно відровісти
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Не вдалося розшифрувати та скопіювати { $failures } з { $total } повідомлень.
 
 ## Spaces toolbar
