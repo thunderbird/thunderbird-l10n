@@ -33,13 +33,33 @@ calendar-nav-button-prev-tooltip-day =
     .accesskey = a
 calendar-nav-button-prev-tooltip-week =
     .title = Semana anterior
-    .accesskey = s
+    .accesskey = a
 calendar-nav-button-prev-tooltip-multiweek =
     .title = Semana anterior
-    .accesskey = s
+    .accesskey = a
 calendar-nav-button-prev-tooltip-month =
     .title = Mes anterior
-    .accesskey = s
+    .accesskey = a
+calendar-nav-button-prev-tooltip-year =
+    .title = Ano anterior
+    .accesskey = a
+calendar-nav-button-next-tooltip-day =
+    .title = Vindeiro día
+    .accesskey = v
+calendar-nav-button-next-tooltip-week =
+    .title = Vindeira semana
+    .accesskey = v
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Vindeira semana
+    .accesskey = v
+calendar-nav-button-next-tooltip-month =
+    .title = Vindeiro mes
+    .accesskey = v
+calendar-nav-button-next-tooltip-year =
+    .title = Vindeiro ano
+    .accesskey = v
+calendar-today-button-tooltip =
+    .title = Ir a hoxe
 calendar-view-toggle-day = Día
     .title = Cambiar á vista diaria
 calendar-view-toggle-week = Semana
@@ -51,6 +71,16 @@ calendar-view-toggle-month = Mes
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Opcións de deseño do calendario
+calendar-find-events-menu-option =
+    .label = Panel de busca de eventos
+calendar-hide-weekends-option =
+    .label = Só días laborábeis
+calendar-define-workweek-option =
+    .label = Definir os días laborábeis
+calendar-show-tasks-calendar-option =
+    .label = Amosar as tarefas no calendario
 
 ## Calendar Context Menu
 
@@ -67,8 +97,8 @@ calendar-context-menu-previous-month =
     .label = Mes anterior
     .accesskey = s
 calendar-context-menu-next-day =
-    .label = Seguinte día
-    .accesskey = g
+    .label = Vindeiro día
+    .accesskey = V
 calendar-context-menu-next-week =
     .label = Seguinte semana
     .accesskey = g
