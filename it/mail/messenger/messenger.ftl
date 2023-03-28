@@ -38,11 +38,11 @@ content-tab-security-broken-icon =
 content-tab-menu-back =
     .tooltiptext = Torna indietro di una pagina ({ $shortcut })
     .aria-label = Indietro
-    .accesskey = B
+    .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Indietro
-    .accesskey = B
+    .accesskey = n
 
 # Forward
 
@@ -51,11 +51,11 @@ content-tab-menu-back-mac =
 content-tab-menu-forward =
     .tooltiptext = Vai avanti di una pagina ({ $shortcut })
     .aria-label = Avanti
-    .accesskey = F
+    .accesskey = V
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Avanti
-    .accesskey = F
+    .accesskey = A
 
 # Reload
 
@@ -72,14 +72,14 @@ content-tab-menu-reload-mac =
 # Stop
 
 content-tab-menu-stop =
-    .tooltiptext = Interrompi il caricamento della pagina
+    .tooltiptext = Interrompi caricamento della pagina
     .aria-label = Interrompi
-    .accesskey = S
+    .accesskey = e
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Interrompi il caricamento della pagina
+    .tooltiptext = Interrompi caricamento della pagina
     .label = Interrompi
-    .accesskey = S
+    .accesskey = e
 
 ## Toolbar
 
