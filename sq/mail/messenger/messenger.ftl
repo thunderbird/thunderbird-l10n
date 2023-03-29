@@ -31,6 +31,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Lidhja s’është e sigurt
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Shkoni mbrapsht një faqe ({ $shortcut })
+    .aria-label = Mbrapsht
+    .accesskey = M
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Mbrapsht
+    .accesskey = M
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Shkoni para një faqe ({ $shortcut })
+    .aria-label = Përpara
+    .accesskey = P
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Përpara
+    .accesskey = P
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Ringarkoje faqen
+    .aria-label = Ringarkoje
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Ringarkoje faqen
+    .label = Ringarkoje
+    .accesskey = R
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Ndale ngarkimin e faqes
+    .aria-label = Ndale
+    .accesskey = N
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Ndale ngarkimin e faqes
+    .label = Ndale
+    .accesskey = N
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
