@@ -31,6 +31,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Tengingin er ekki örugg
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Til baka um eina síðu ({ $shortcut })
+    .aria-label = Til baka
+    .accesskey = b
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Til baka
+    .accesskey = b
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Áfram um eina síðu ({ $shortcut })
+    .aria-label = Áfram
+    .accesskey = f
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Áfram
+    .accesskey = f
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Endurlesa síðu
+    .aria-label = Endurlesa
+    .accesskey = r
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Endurlesa síðu
+    .label = Endurlesa
+    .accesskey = r
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Hætta að hlaða síðu
+    .aria-label = Hætta
+    .accesskey = H
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Hætta að hlaða síðu
+    .label = Hætta
+    .accesskey = H
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
