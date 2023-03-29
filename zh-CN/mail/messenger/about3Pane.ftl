@@ -138,6 +138,7 @@ threadpane-column-header-flagged =
     .title = 按星标排序
 threadpane-column-label-flagged =
     .label = 已加星标
+threadpane-flagged-cell-label = 已加星标
 threadpane-column-header-attachments =
     .title = 按附件排序
 threadpane-column-label-attachments =

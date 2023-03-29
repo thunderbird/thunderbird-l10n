@@ -30,6 +30,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = 连接不安全
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
