@@ -31,6 +31,44 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Bağlantı güvenli değil
 
+# Back
+
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Geri
+    .accesskey = G
+
+# Forward
+
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = İleri
+    .accesskey = İ
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Sayfayı tazele
+    .aria-label = Tazele
+    .accesskey = T
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Sayfayı tazele
+    .label = Tazele
+    .accesskey = T
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Sayfa yüklemeyi durdur
+    .aria-label = Durdur
+    .accesskey = D
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Sayfa yüklemeyi durdur
+    .label = Durdur
+    .accesskey = D
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +144,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Yönlendir
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +209,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } kaldırılsın mı?
 addon-removal-confirmation-button = Kaldır
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = { $name } ile birlikte yapılandırması ve verileri { -brand-short-name } uygulamasından kaldırılsın mı?
 caret-browsing-prompt-title = Klavye ile Gezinti
 caret-browsing-prompt-text = F7 tuşu Klavye ile Gezinti özelliğini açar ve kapatır. Bu özellik, bazı içeriklerin içine hareket edebilen bir işaretçi ekleyerek metinleri klavyeyle seçebilmenizi sağlar. Klavye ile Gezinti’yi açmak istiyor musunuz?
@@ -183,11 +225,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Yanıt desteklenmiyor
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Yanıt adresi ({ $email }) izlenen bir adrese benzemiyor. Bu adrese gönderilen iletiler muhtemelen okunmayacaktır.
 no-reply-reply-anyway-button = Yine de yanıtla
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $total } iletinin { $failures } tanesinin şifresi çözülemedi ve bu iletiler kopyalanmadı.
 
 ## Spaces toolbar
