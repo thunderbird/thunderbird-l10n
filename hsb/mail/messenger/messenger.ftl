@@ -33,6 +33,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Zwisk wěsty njeje
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Jednu stronu wróćo ({ $shortcut })
+    .aria-label = Wróćo
+    .accesskey = W
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Wróćo
+    .accesskey = W
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Jednu stronu doprědka ({ $shortcut })
+    .aria-label = Doprědka
+    .accesskey = D
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Doprědka
+    .accesskey = D
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Stronu znowa začitać
+    .aria-label = Znowa začitać
+    .accesskey = Z
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Stronu znowa začitać
+    .label = Znowa začitać
+    .accesskey = Z
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Začitanje stronje zastajić
+    .aria-label = Zastajić
+    .accesskey = Z
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Začitanje stronje zastajić
+    .label = Zastajić
+    .accesskey = Z
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -108,6 +158,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Hinak wodźić
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -173,9 +225,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } wotstronić?
 addon-removal-confirmation-button = Wotstronić
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = { $name } a jeho konfiguraciju a daty z { -brand-short-name } wotstronić?
 caret-browsing-prompt-title = Tastaturowa nawigacija
 caret-browsing-prompt-text = Tłóčenje tasty F7 zapina abo wupina tastaturowu nawigaciju. Tuta funkcija staja pohibliwy kursor do wobsaha a dowola wam tekst z tastaturu wubrać. Chceće nětko tastaturowu nawigaciju zapinać?
@@ -187,11 +241,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Wotmołwa so njepodpěruje
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Zda so, zo wotmołwna adresa ({ $email }) dohladowana adresa njeje. Powěsće na tutu adresu so najskerje wot nikoho nječitaja.
 no-reply-reply-anyway-button = Najebać toho wotmołwić
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } z { $total } powěsćow njejsu so dešifrowali a njejsu so kopěrowali.
 
 ## Spaces toolbar
