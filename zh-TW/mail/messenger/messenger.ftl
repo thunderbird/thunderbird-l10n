@@ -30,6 +30,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = 連線不安全
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = 回到上一頁（{ $shortcut }）
+    .aria-label = 回上一頁
+    .accesskey = B
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = 上一頁
+    .accesskey = B
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = 前進下一頁（{ $shortcut }）
+    .aria-label = 下一頁
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = 下一頁
+    .accesskey = F
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = 重新載入網頁
+    .aria-label = 重新載入
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = 重新載入網頁
+    .label = 重新載入
+    .accesskey = R
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = 停止載入頁面
+    .aria-label = 停止載入
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = 停止載入頁面
+    .label = 停止載入
+    .accesskey = S
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -105,6 +155,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = 重導
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -168,9 +220,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = 要移除 { $name } 嗎？
 addon-removal-confirmation-button = 移除
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = 要從 { -brand-short-name } 移除 { $name }，以及其設定與儲存的資料嗎？
 caret-browsing-prompt-title = 鍵盤瀏覽
 caret-browsing-prompt-text = 按下 F7 鍵可切換是否開啟「鍵盤瀏覽」功能。此功能可在某些內容中顯示游標，讓您只用鍵盤就選取文字。您確定要開啟「鍵盤瀏覽」嗎？
@@ -182,11 +236,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = 不支援回覆
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = 信件的回覆地址（{ $email }）看起來不像是有人會收信的地址。發送到此信箱的郵件，很有可能不會被人閱讀。
 no-reply-reply-anyway-button = 還是要回覆
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = 無法解密全部共 { $total } 封訊息當中的 { $failures } 封訊息，並未複製。
 
 ## Spaces toolbar
