@@ -19,5 +19,5 @@
 <!ENTITY cmd.clearList.label                       "Очисти списак">
 <!ENTITY cmd.clearList.accesskey                   "О">
 <!ENTITY cmd.clearList.tooltip                     "Уклоните све уносе са списка сачуваних датотека, осим текућих преузимања.">
-<!ENTITY cmd.searchDownloads.label                 "Претрага у току…">
+<!ENTITY cmd.searchDownloads.label                 "Претрага…">
 <!ENTITY cmd.searchDownloads.key                   "F">

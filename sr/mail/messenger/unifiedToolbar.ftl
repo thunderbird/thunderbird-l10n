@@ -12,7 +12,7 @@ search-bar-button =
     .alt = Претрага
 search-bar-item =
     .label = Претражи:
-search-bar-placeholder = Претражи…
+search-bar-placeholder = Претрага…
 
 ## Unified toolbar context menu
 
