@@ -31,6 +31,22 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Anslutningen är inte säker
 
+# Back
+
+
+# Forward
+
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Framåt
+    .accesskey = F
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +122,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Omdirigera
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +187,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Ta bort { $name }?
 addon-removal-confirmation-button = Ta bort
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Ta bort { $name } samt dess konfiguration och data från { -brand-short-name }?
 caret-browsing-prompt-title = Textmarkörläge
 caret-browsing-prompt-text = Genom att trycka på F7 aktiveras eller inaktiveras textmarkörläge. Denna funktion placerar en rörlig markör i innehållet, så att du kan välja text med tangentbordet. Vill du aktivera textmarkörläge?
@@ -183,11 +203,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Svar stöds inte
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Svarsadressen ({ $email }) verkar inte vara en övervakad adress. Meddelanden till den här adressen kommer sannolikt inte att läsas av någon.
 no-reply-reply-anyway-button = Svara ändå
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } av { $total } meddelanden kunde inte dekrypteras och kopierades inte.
 
 ## Spaces toolbar
