@@ -4,7 +4,7 @@
 
 <!ENTITY event.title.label                  "Modificar o elemento" >
 
-<!ENTITY event.dialog.keepDurationButton.tooltip   "Conservar a duración ao cambiar a data de remate">
+<!ENTITY event.dialog.keepDurationButton.tooltip   "Manter a duración ao cambiar a data de remate">
 <!ENTITY event.dialog.keepDurationButton.accesskey "K">
 
 <!ENTITY newevent.from.label                "De" >
@@ -251,7 +251,7 @@
 <!ENTITY event.reminder.multiple.label                    "Varios recordatorios…" >
 
 <!ENTITY event.statusbarpanel.freebusy.label              "Tempo como:">
-<!ENTITY event.statusbarpanel.privacy.label               "Privacidade">
+<!ENTITY event.statusbarpanel.privacy.label               "Privacidade:">
 
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label                         "Editar repetición">
