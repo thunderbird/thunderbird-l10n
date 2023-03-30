@@ -31,6 +31,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = A kapcsolat nem biztonságos
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Ugrás az előző oldalra ({ $shortcut })
+    .aria-label = Vissza
+    .accesskey = V
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Vissza
+    .accesskey = V
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Ugrás a következő oldalra ({ $shortcut })
+    .aria-label = Előre
+    .accesskey = E
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Előre
+    .accesskey = E
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Oldal újratöltése
+    .aria-label = Újratöltés
+    .accesskey = r
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Oldal újratöltése
+    .label = Újratöltés
+    .accesskey = r
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Oldalbetöltés leállítása
+    .aria-label = Leállítás
+    .accesskey = L
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Oldalbetöltés leállítása
+    .label = Leállítás
+    .accesskey = L
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +156,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Átirányítás
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +221,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Eltávoltja a következőt: { $name }?
 addon-removal-confirmation-button = Eltávolítás
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Eltávolítja a(z) { $name } kiegészítőt, valamint a beállításait és adatait a { -brand-short-name }ből?
 caret-browsing-prompt-title = Kurzoros böngészés
 caret-browsing-prompt-text = Az F7 gomb kapcsolja be, illetve ki a kurzoros böngészést. Ebben az üzemmódban egy mozgatható kurzor jelenik egyes tartalmaknál, lehetővé téve a szöveg kijelölését a billentyűzettel. Szeretné bekapcsolni a kurzoros böngészést?
@@ -183,11 +237,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = A válasz nem támogatott
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = A válaszcím ({ $email }) nem tűnik figyelt címnek. Az erre a címre küldött leveleket valószínűleg senki sem fogja olvasni.
 no-reply-reply-anyway-button = Válasz mindenképp
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } / { $total } üzenetet nem sikerült visszafejteni, és nem lettek másolva.
 
 ## Spaces toolbar
