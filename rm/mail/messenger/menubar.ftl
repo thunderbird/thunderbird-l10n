@@ -92,6 +92,12 @@ menu-view-repair-text-encoding =
     .label = Reparar la codaziun dal text
     .accesskey = c
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Titel da la panela dad ordinaturs
+    .accesskey = T
+
 ## View / Layout
 
 menu-font-size-label =

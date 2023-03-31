@@ -10,9 +10,56 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Chalenders
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Il chalender { $calendarName } è vegnì mess en silenzi
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Opziuns dal chalender { $calendarName }
+calendar-import-new-calendar = Nov chalender…
+    .title = Crear u abunar in nov chalender
+calendar-refresh-calendars =
+    .title = Rechargiar tut ils chalenders e sincronisar las modificaziuns
+calendar-new-event-primary-button = Nov eveniment
+calendar-new-task-primary-button = Nova incumbensa
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Di precedent
+    .accesskey = c
+calendar-nav-button-prev-tooltip-week =
+    .title = Emna precedenta
+    .accesskey = c
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Emna precedenta
+    .accesskey = c
+calendar-nav-button-prev-tooltip-month =
+    .title = Mais precedent
+    .accesskey = c
+calendar-nav-button-prev-tooltip-year =
+    .title = Onn precedent
+    .accesskey = c
+calendar-nav-button-next-tooltip-day =
+    .title = Proxim di
+    .accesskey = x
+calendar-nav-button-next-tooltip-week =
+    .title = Proxima emna
+    .accesskey = x
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Proxima emna
+    .accesskey = x
+calendar-nav-button-next-tooltip-month =
+    .title = Proxim mais
+    .accesskey = x
+calendar-nav-button-next-tooltip-year =
+    .title = Proxim onn
+    .accesskey = x
+calendar-today-button-tooltip =
+    .title = Siglir tar oz
 calendar-view-toggle-day = Di
     .title = Mussar la vista dal di
 calendar-view-toggle-week = Emna
@@ -24,6 +71,14 @@ calendar-view-toggle-month = Mais
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Opziuns per la visualisaziun dal chalender
+calendar-find-events-menu-option =
+    .label = Panela per tschertgar eveniments
+calendar-hide-weekends-option =
+    .label = Be dis da lavur
+calendar-define-workweek-option =
+    .label = Definir ils dis da lavur
 
 ## Calendar Context Menu
 

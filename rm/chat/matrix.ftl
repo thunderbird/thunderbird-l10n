@@ -15,10 +15,10 @@ room-name-empty = Conversaziun vida
 room-name-empty-had-name = Conversaziun vida (oriundamain { $oldName })
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
+#  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
+room-name-others2 =
+    { $otherParticipantCount ->
         [one] { $participant } ed { $otherParticipantCount } auter
        *[other] { $participant } e { $otherParticipantCount } auters
     }

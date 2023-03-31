@@ -113,22 +113,50 @@ quick-filter-bar-gloda-upsell-line1 = Repeter questa tschertga per tut ils ordin
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Smatga anc ina giada «Enter» per extender la tschertga da: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Retschaiver messadis
+folder-pane-write-message-button = Nov messadi
+    .title = Rediger in nov messadi
+folder-pane-more-menu-button =
+    .title = Opziuns da la panela dad ordinaturs
+folder-pane-header-context-hide =
+    .label = Zuppentar il titel da la panela dad ordinaturs
+
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = (De)selecziunar tut ils messadis
+threadpane-column-header-select-all =
+    .title = Selecziunar tut ils messadis
+threadpane-column-header-deselect-all =
+    .title = Deselecziunar tut ils messadis
 threadpane-column-label-select =
     .label = Tscherner ils messadis
+threadpane-column-header-thread =
+    .title = Gruppar u betg tenor tema
 threadpane-column-label-thread =
     .label = Tema
 threadpane-column-header-flagged =
     .title = Zavrar tenor staila
 threadpane-column-label-flagged =
     .label = Cun staila
+threadpane-flagged-cell-label = Cun staila
 threadpane-column-header-attachments =
     .title = Zavrar tenor agiuntas
 threadpane-column-label-attachments =
     .label = Agiuntas
+threadpane-attachments-cell-label = Agiuntas
+threadpane-column-header-spam =
+    .title = Zavrar tenor il status «nungiavischà»
+threadpane-column-label-spam =
+    .label = Nungiavischà
+threadpane-spam-cell-label = Nungiavischà
+threadpane-column-header-unread-button =
+    .title = Zavrar tenor il status «legì»
+threadpane-column-label-unread-button =
+    .label = Status «legì»
 threadpane-column-header-sender = Da
     .title = Zavrar tenor speditur
 threadpane-column-label-sender =
@@ -196,6 +224,30 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indicatur da novs messadis
+    .title = Nov messadi
+threadpane-message-replied =
+    .alt = Indicatur da resposta
+    .title = Messadi respundì
+threadpane-message-redirected =
+    .alt = Indicatur da respediziun
+    .title = Messadi respedì
+threadpane-message-forwarded =
+    .alt = Indicatur da renviament
+    .title = Messadi renvià
+threadpane-message-replied-forwarded =
+    .alt = Indicatur da resposta e renviament
+    .title = Messadi respundì e renvià
+threadpane-message-replied-redirected =
+    .alt = Indicatur da resposta e respediziun
+    .title = Messadi respundì e respedì
+threadpane-message-forwarded-redirected =
+    .alt = Indicatur da renviament e respediziun
+    .title = Messadi renvià e respedì
+threadpane-message-replied-forwarded-redirected =
+    .alt = Indicatur da resposta, renviament e respediziun
+    .title = Messadi respundì, renvià e respedì
 apply-columns-to-menu =
     .label = Applitgar las colonnas a…
 apply-current-view-to-menu =

@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Agiuntar in purschider OpenSearch
 add-opensearch-provider-text = Endatescha l'URL dal purschider OpenSearch che duai vegnir agiuntà. Utilisescha l'URL direct da la datoteca da descripziun OpenSearch u in URL per al chattar automaticamain.
 adding-opensearch-provider-failed-title = Betg reussì dad agiuntar il purschider OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Impussibel dad agiuntar il purschider OpenSearch per { $url }.
 minimize-to-tray-label =
     .label = Sche { -brand-short-name } è minimà, al spustar en la trav da notificaziuns
@@ -197,6 +199,14 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Adina mussar las travs per defilar
     .accesskey = d
+window-layout-legend = Disposiziun da las fanestras
+draw-in-titlebar-label =
+    .label = Zuppentar la trav da titel da la fanestra
+    .accesskey = Z
+auto-hide-tabbar-label =
+    .label = Zuppentar automaticamain la trav da tabs
+    .accesskey = Z
+auto-hide-tabbar-description = Zuppentar la trav da tabs sche mo in singul tab è avert
 system-integration-legend = Integraziun en il sistem
 always-check-default =
     .label = Adina controllar cun aviar sche { -brand-short-name } è l'applicaziun dad e-mail predefinida
@@ -277,6 +287,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Svidar ussa
     .accesskey = v
+clear-cache-shutdown-label =
+    .label = Svidar il cache cun terminar
+    .accesskey = S
 fonts-legend = Scrittiras & colurs
 default-font-label =
     .value = Scrittira da standard:
@@ -719,8 +732,18 @@ search-results-help-link = Dovras sustegn? Consultescha <a data-l10n-name="url">
 
 sync-signedout-caption = Prenda tes web cun tai
 sync-signedout-description = Sincronisescha tes contos, cudeschets d'adressas, chalenders, supplements e parameters cun tut tes apparats.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = S'annunziar per sincronisar…
 sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = «{ $userEmail }» n'è betg verifitgà.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = T'annunzia per plaschair per reconnectar via «{ $userEmail }»
+sync-pane-resend-verification = Reenviar la verificaziun
+sync-pane-sign-in = S'annunziar
+sync-pane-remove-account = Allontanar il conto
 sync-pane-edit-photo =
     .title = Midar il maletg da profil
 sync-pane-manage-account = Administrar il conto
@@ -739,6 +762,7 @@ show-synced-item-account = Contos dad e-mail
 show-synced-item-address = Cudeschets d'adressas
 show-synced-item-calendar = Chalenders
 show-synced-item-identity = Identitads
+show-synced-item-passwords = Pleds-clav
 show-synced-change = Modifitgar…
 synced-acount-item-server-config = Configuraziun dal server
 synced-acount-item-filters = Filters

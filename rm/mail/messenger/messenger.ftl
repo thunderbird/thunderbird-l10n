@@ -31,6 +31,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = La connexiun n'è betg segirada
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Ina pagina enavos ({ $shortcut })
+    .aria-label = Enavos
+    .accesskey = E
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Enavos
+    .accesskey = E
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Ina pagina enavant ({ $shortcut })
+    .aria-label = Enavant
+    .accesskey = v
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Enavant
+    .accesskey = v
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Rechargiar la pagina
+    .aria-label = Rechargiar
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Rechargiar la pagina
+    .label = Rechargiar
+    .accesskey = R
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Interrumper il chargiament da la pagina
+    .aria-label = Interrumper
+    .accesskey = I
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Interrumper il chargiament da la pagina
+    .label = Interrumper
+    .accesskey = I
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +156,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Renviar
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +221,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Allontanar { $name }?
 addon-removal-confirmation-button = Allontanar
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Allontanar { $name } sco era sia configuraziun e sias datas da { -brand-short-name }?
 caret-browsing-prompt-title = Navigar cun il cursur da text
 caret-browsing-prompt-text = Cun smatgar F7 vegn Caret browsing activà u deactivà. Questa funcziun plazzescha en tschert cuntegn in cursur movibel che pussibilitescha da selecziunar text cun agid da la tastatura. Vuls ti activar Caret browsing?
@@ -183,11 +237,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Respostas betg sustegnidas
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = L'adressa da resposta ({ $email }) na para betg dad esser ina adressa che vegn observada. Messadis a questa adressa na vegnan probablamain betg legids.
 no-reply-reply-anyway-button = Tuttina respunder
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = I n'è betg reussì da decriptar { $failures } da { $total } messadis. Quels n'èn betg vegnids copiads.
 
 ## Spaces toolbar

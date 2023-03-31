@@ -6,6 +6,7 @@ about-update-whats-new = Novaziuns
 aboutDialog-title =
     .title = Davart { -brand-full-name }
 release-notes-link = Remartgas davart la versiun
+update-internal-error = Impussibel da tschertgar actualisaziuns causa ina errur interna. Actualisaziuns disponiblas sin <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Tschertgar actualisaziuns
     .accesskey = C
 update-update-button = Reaviar per actualisar { -brand-shorter-name }
@@ -18,6 +19,7 @@ update-failed = L'actualisaziun n'è betg reussida. <a data-l10n-name="failed-li
 update-admin-disabled = La funcziun dad actualisaziuns è deactivada da tes administratur da sistem
 update-no-updates-found = { -brand-short-name } è actual
 update-other-instance-handling-updates = { -brand-short-name } vegn actualisà d'ina autra instanza
+update-manual = Actualisaziuns disponiblas sin <a data-l10n-name="manual-link"/>
 update-unsupported = Sin quest sistem na pon naginas actualisaziuns vegnir exequidas pli. <a data-l10n-name="unsupported-link">Ulteriuras infurmaziuns</a>
 update-restarting = Reaviar…
 # Variables:
@@ -36,6 +38,7 @@ aboutDialog-version = { $version } ({ $bits } bits)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bits)
+aboutdialog-update-checking-failed = Betg reussì da controllar sche actualisaziuns stattan a disposiziun.
 community-exp =
     <a data-l10n-name="community-exp-mozilla-link">
     { -vendor-short-name }</a>
