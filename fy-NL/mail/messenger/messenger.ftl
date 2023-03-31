@@ -31,6 +31,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = De ferbining is net befeilige
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Ien side tebek gean ({ $shortcut })
+    .aria-label = Tebek
+    .accesskey = T
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Tebek
+    .accesskey = T
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Ien side foarút gean ({ $shortcut })
+    .aria-label = Foarút
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Foarút
+    .accesskey = F
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Side fernije
+    .aria-label = Fernije
+    .accesskey = n
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Side fernije
+    .label = Fernije
+    .accesskey = n
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Side laden stopje
+    .aria-label = Stopje
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Side laden stopje
+    .label = Stopje
+    .accesskey = S
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +156,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Omliede
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +221,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } fuortsmite?
 addon-removal-confirmation-button = Fuortsmite
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = { $name } en de byhearrende konfiguraasje en gegevens út { -brand-short-name } fuortsmite?
 caret-browsing-prompt-title = Kursornavigaasje
 caret-browsing-prompt-text = Troch op F7 te drukken, wurdt kursornavigaasje yn- of útskeakele. Dizze funksje pleatst in beweechbere kursor yn guon ynhâld, wêrmei't jo yn steat binne tekst mei it toetseboerd te selektearjen. Wolle jo kursornavigaasje ynskeakelje?
@@ -183,11 +237,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Antwurdzjen net stipe
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = It antwurdadres ({ $email }) liket gjin kontrolearre adres te wêzen. Berjochten nei dit adres sille wierskynlik troch net ien lêzen wurde.
 no-reply-reply-anyway-button = Dochs antwurdzje
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } fan { $total } berjochten koene net ûntsifere wurde en binne net kopiearre.
 
 ## Spaces toolbar
