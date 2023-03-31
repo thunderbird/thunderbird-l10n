@@ -8,7 +8,7 @@
   -->
 
 <!-- Tools menu -->
-<!ENTITY lightning.preferencesLabel "Calendar">
+<!ENTITY lightning.preferencesLabel "Calendario">
 
 <!-- New menu popup in File menu -->
 <!ENTITY lightning.menupopup.new.event.label    "Evento…">
@@ -19,10 +19,6 @@
 <!ENTITY lightning.menupopup.new.calendar.accesskey "n">
 
 <!-- Open menu popup in File menu -->
-<!ENTITY lightning.menupopup.open.label               "Abrir">
-<!ENTITY lightning.menupopup.open.accesskey           "A">
-<!ENTITY lightning.menupopup.open.message.label       "Mensaxe gardada…">
-<!ENTITY lightning.menupopup.open.message.accesskey   "M">
 <!ENTITY lightning.menupopup.open.calendar.label      "Ficheiro de calendario…">
 <!ENTITY lightning.menupopup.open.calendar.accesskey  "c">
 
@@ -42,10 +38,15 @@
      These strings are used in the calendar wizard and the calendar properties dialog, but are only
      displayed when setting/using a caldav calendar -->
 <!ENTITY lightning.calendarproperties.email.label                           "Correo electrónico:">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label            "Preferir planificación do correo electrónico do lado do cliente">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Por agora, só pode activar isto despois de configurar este calendario no diálogo de propiedades se o servidor do calendario se ocupa da planificación.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Esta opción só está dispoñíbel se o servidor do calendario xestiona a planificación. A activación permitirá volver á programación baseada no correo electrónico estándar no canto de deixarlla ao servidor.">
+
+<!-- The notifications settings in the properties dialog -->
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label                                  "Aceptar">
@@ -79,8 +80,6 @@
 
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
