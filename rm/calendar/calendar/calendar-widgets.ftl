@@ -79,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Be dis da lavur
 calendar-define-workweek-option =
     .label = Definir ils dis da lavur
+calendar-show-tasks-calendar-option =
+    .label = Mussar incumbensas en il chalender
 
 ## Calendar Context Menu
 
