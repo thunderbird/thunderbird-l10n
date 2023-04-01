@@ -31,6 +31,26 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = La conexión no es segura
 
+# Back
+
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Atrás
+    .accesskey = A
+
+# Forward
+
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Recargar página
+    .aria-label = Recargar
+    .accesskey = R
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +126,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Redirigir
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +191,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = ¿Eliminar { $name }?
 addon-removal-confirmation-button = Eliminar
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = ¿Eliminar { $name }, así como su configuración y datos de { -brand-short-name }?
 caret-browsing-prompt-title = Navegación con cursor
 caret-browsing-prompt-text = Presionando F7 habilita o deshabilita la navegación con cursor. Esta característica coloca un cursor movible dentro de algún contenido, permitiéndote seleccionar texto con el teclado. ¿Quieres activar la navegación con cursor?
@@ -183,11 +207,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Respuesta no admitida
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = La dirección de respuesta ({ $email }) no parece ser una dirección supervisada. Es probable que los mensajes a esta dirección no sean leídos por nadie.
 no-reply-reply-anyway-button = Responder de todos modos
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } de { $total } mensajes no pudieron ser descifrados y no fueron copiados.
 
 ## Spaces toolbar

@@ -142,6 +142,7 @@ threadpane-column-header-attachments =
     .title = Ordenar por adjuntos
 threadpane-column-label-attachments =
     .label = Adjuntos
+threadpane-attachments-cell-label = Adjuntos
 threadpane-column-label-unread-button =
     .label = Leer estado
 threadpane-column-header-sender = Remitente
