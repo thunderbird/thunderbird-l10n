@@ -32,6 +32,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Pripojenie nie je zabezpečené
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Späť o jednu stránku ({ $shortcut })
+    .aria-label = Naspäť
+    .accesskey = N
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Naspäť
+    .accesskey = N
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Dopredu o jednu stránku ({ $shortcut })
+    .aria-label = Dopredu
+    .accesskey = D
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Dopredu
+    .accesskey = D
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Obnoviť stránku
+    .aria-label = Obnoviť
+    .accesskey = O
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Obnoviť stránku
+    .label = Obnoviť
+    .accesskey = O
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Zastaviť načítavanie stránky
+    .aria-label = Zastaviť
+    .accesskey = Z
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Zastaviť načítavanie stránky
+    .label = Zastaviť
+    .accesskey = Z
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -107,6 +157,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Presmerovať
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -171,9 +223,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Odstrániť { $name }?
 addon-removal-confirmation-button = Odstrániť
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Odstrániť doplnok { $name }, ako aj jeho konfiguráciu a údaje z aplikácie { -brand-short-name }?
 caret-browsing-prompt-title = Prehliadanie pomocou klávesnice
 caret-browsing-prompt-text = Stlačením klávesu F7 zapnete alebo vypnete prehliadanie pomocou klávesnice. Táto funkcia umiestni do webovej stránky posúvateľný kurzor, ktorý umožňuje označovať text pomocou klávesnice. Chcete zapnúť prehliadanie pomocou klávesnice?
@@ -185,11 +239,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Adresa pre odpoveď nie je podporovaná
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Zdá sa, že adresa pre odpoveď ({ $email }) nie je monitorovanou adresou. Správy na túto adresu pravdepodobne nikto neprečíta.
 no-reply-reply-anyway-button = Aj tak odpovedať
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } z { $total } správ sa nepodarilo dešifrovať a neboli skopírované.
 
 ## Spaces toolbar
