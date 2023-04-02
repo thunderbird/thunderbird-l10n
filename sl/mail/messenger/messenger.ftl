@@ -33,6 +33,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Povezava ni zavarovana
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Pojdi na prejšnjo stran ({ $shortcut })
+    .aria-label = Nazaj
+    .accesskey = z
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Nazaj
+    .accesskey = z
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Pojdi na naslednjo stran ({ $shortcut })
+    .aria-label = Naprej
+    .accesskey = p
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Naprej
+    .accesskey = p
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Ponovno naloži stran
+    .aria-label = Znova naloži
+    .accesskey = n
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Ponovno naloži stran
+    .label = Znova naloži
+    .accesskey = n
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Ustavi nalaganje strani
+    .aria-label = Ustavi
+    .accesskey = U
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Ustavi nalaganje strani
+    .label = Ustavi
+    .accesskey = U
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -108,6 +158,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Preusmeri
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -173,9 +225,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Odstranim { $name }?
 addon-removal-confirmation-button = Odstrani
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Odstranim { $name } skupaj z njegovimi nastavitvami in podatki iz { -brand-short-name(sklon: "rodilnik") }
 caret-browsing-prompt-title = Brskanje s kazalko
 caret-browsing-prompt-text = Tipka F7 vključi ali izključi brskanje s kazalko. Ta možnost na nekatero vsebino postavi premični kazalec, ki vam omogoča izbiro besedila s tipkovnico. Ali želite vključiti brskanje s kazalko?
@@ -187,11 +241,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Odgovori niso podprti
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Naslov za odgovor ({ $email }) ni videti kot spremljan naslov. Sporočil, poslanih na ta naslov, verjetno ne bo nihče prebral.
 no-reply-reply-anyway-button = Vseeno odgovori
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures =
     { $failures ->
         [one] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato ni bilo kopirano.
