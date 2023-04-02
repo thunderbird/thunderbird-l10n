@@ -37,12 +37,12 @@ content-tab-security-broken-icon =
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
     .tooltiptext = Reculer d’une page ({ $shortcut })
-    .aria-label = Retour
+    .aria-label = Page précédente
     .accesskey = u
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
-    .label = Retour
-    .accesskey = u
+    .label = Page précédente
+    .accesskey = P
 
 # Forward
 
@@ -55,31 +55,31 @@ content-tab-menu-forward =
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Page suivante
-    .accesskey = p
+    .accesskey = s
 
 # Reload
 
 content-tab-menu-reload =
     .tooltiptext = Actualiser la page
     .aria-label = Actualiser
-    .accesskey = m
+    .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
     .tooltiptext = Actualiser la page
     .label = Actualiser
-    .accesskey = m
+    .accesskey = A
 
 # Stop
 
 content-tab-menu-stop =
     .tooltiptext = Arrêter le chargement de la page
     .aria-label = Arrêter
-    .accesskey = i
+    .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
     .tooltiptext = Arrêter le chargement de la page
     .label = Arrêter
-    .accesskey = i
+    .accesskey = A
 
 ## Toolbar
 
