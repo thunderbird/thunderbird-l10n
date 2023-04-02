@@ -30,6 +30,22 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Байланыс қауіпсіз емес
 
+# Back
+
+
+# Forward
+
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Алға
+    .accesskey = л
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -105,6 +121,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Қайта бағдарлау
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -167,9 +185,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } өшіру керек пе?
 addon-removal-confirmation-button = Өшіру
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = { $name } және оның баптаулары мен деректерін { -brand-short-name } ішінен өшіру керек пе?
 caret-browsing-prompt-title = Белсенді курсор
 caret-browsing-prompt-text = F7 батырмасы белсенді курсор режимін іске қосады немесе өшіреді. Осы режимде, курсорды қандай да бір құрамаға орналастырып, мәтінді пернетақтамен ерекшелей аласыз. Осы режимді іске қосу керек пе?
@@ -181,11 +201,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Жауапқа қолдау жоқ
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Жауап беру ({ $email }) адресі бақыланатын адреске ұқсамайды. Бұл адреске жіберілген хабарламалар ешкім оқымайтын сияқты.
 no-reply-reply-anyway-button = Сонда да жауап беру
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $total } ішінен { $failures } хабарламаны дешифрлеу мүмкін емес және олар көшірілмеді.
 
 ## Spaces toolbar
