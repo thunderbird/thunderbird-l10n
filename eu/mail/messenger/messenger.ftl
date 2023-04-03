@@ -31,6 +31,47 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Konexioa ez da segurua
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Joan orri bat atzera ({ $shortcut })
+    .aria-label = Atzera
+    .accesskey = A
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Atzera
+    .accesskey = A
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Joan orri bat aurrera ({ $shortcut })
+    .aria-label = Aurrera
+    .accesskey = r
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Aurrera
+    .accesskey = r
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Berritu orria
+    .aria-label = Berritu
+    .accesskey = B
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Berritu orria
+    .label = Berritu
+    .accesskey = B
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +147,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Birbideratzea
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +212,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } kendu?
 addon-removal-confirmation-button = Kendu
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Kendu { $name } eta bere konfigurazio eta datuak { -brand-short-name }(e)tik?
 caret-browsing-prompt-title = Kurtsore bidezko nabigazioa
 caret-browsing-prompt-text = F7 zapaltzeak kurtsore bidezko nabigazioa gaitzen edo desgaitzen du. Eginbide honek zenbait edukitan kurtsore bat ezartzen du testua teklatuarekin aukeratzea baimenduz. Kurtsore bidezko nabigazioa gaitu nahi duzu?
@@ -183,11 +228,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Ezin da erantzun
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Erantzuneko posta helbidea ({ $email }) ez dirudi inork kontrolatutakoa. Litekeena da bertara idatzitako mezuak inork ez irakurtzea.
 no-reply-reply-anyway-button = Erantzun hala ere
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $total }(e)tik { $failures } mezu ezin izan dira deszifratu eta ez dira kopiatuko.
 
 ## Spaces toolbar

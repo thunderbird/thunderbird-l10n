@@ -6,6 +6,7 @@ about-update-whats-new = Nobedadeak
 aboutDialog-title =
     .title = { -brand-full-name }(r)i buruz
 release-notes-link = Bertsio-oharrak
+update-internal-error = Ezin dira eguneraketak bilatu barne-errore bat dela eta. Eguneraketak <a data-l10n-name="manual-link"/> helbidean daude erabilgarri
 update-check-for-updates-button = Bilatu eguneraketak
     .accesskey = B
 update-update-button = Berrabiarazi { -brand-shorter-name } eguneratzeko
@@ -18,6 +19,7 @@ update-failed = Eguneraketak huts egin du. <a data-l10n-name="failed-link">Deska
 update-admin-disabled = Eguneraketak desgaitu ditu sistemaren administratzaileak
 update-no-updates-found = { -brand-short-name } eguneratuta dago
 update-other-instance-handling-updates = Beste instantzia bat ari da { -brand-short-name } eguneratzen
+update-manual = Eskuratu eguneraketak <a data-l10n-name="manual-link"/>
 update-unsupported = Ezin duzu eguneraketa gehiago burutu sistema honetan. <a data-l10n-name="unsupported-link">Argibide gehiago</a>
 update-restarting = Berrabiarazten…
 # Variables:
@@ -43,12 +45,6 @@ community-exp =
      weba ireki, publiko eta guztiontzat atzigarri mantentzeko lanean dabilen <a data-l10n-name="community-exp-credits-link">
     komunitate globala</a>
      da.
-community-2 =
-    { -brand-short-name } honek diseinatua da <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    k diseinatzen du &brandShortName;, weba ireki, publiko eta guztiontzat atzigarri mantentzeko lanean dabilen <a data-l10n-name="community-credits-link">
-    komunitate globalak</a>
-    .
 about-helpus =
     Lagundu nahi? <a data-l10n-name="helpus-donate-link">
     Dohaintza bat egin</a> or <a data-l10n-name="helpus-get-involved-link">

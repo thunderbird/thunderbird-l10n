@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Egutegiak
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = { $calendarName } egutegi aukera
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } egutegia isildua izan da
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Lan aste egunak bakarrik
 calendar-define-workweek-option =
     .label = Definitu asteko lan egunak
+calendar-show-tasks-calendar-option =
+    .label = Erakutsi zereginak egutegian
 
 ## Calendar Context Menu
 
