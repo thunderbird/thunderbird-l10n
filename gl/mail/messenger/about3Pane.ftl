@@ -113,22 +113,41 @@ quick-filter-bar-gloda-upsell-line1 = Continuar esta busca a través de todos os
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Prema ‘Intro’ de novo para continuar a súa busca para: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Obter mensaxes
+folder-pane-write-message-button = Nova mensaxe
+    .title = Redactar unha nova mensaxe
+folder-pane-more-menu-button =
+    .title = Opcións do panel de cartafoles
+folder-pane-header-context-hide =
+    .label = Agochar a cabeceira do panel de cartafoles
+
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Alternar a selección de todas as mensaxes
+threadpane-column-header-select-all =
+    .title = Seleccionar todas as mensaxes
+threadpane-column-header-deselect-all =
+    .title = Deselecionar todas as mensaxes
 threadpane-column-label-select =
     .label = Seleccionar mensaxes
+threadpane-column-header-thread =
+    .title = Alternar conversas de mensaxes
 threadpane-column-label-thread =
     .label = Fío
 threadpane-column-header-flagged =
     .title = Ordenar polas estrelas
 threadpane-column-label-flagged =
     .label = Con estrela
+threadpane-flagged-cell-label = Con estrela
 threadpane-column-header-attachments =
     .title = Ordenar polos anexos
 threadpane-column-label-attachments =
     .label = Anexos
+threadpane-attachments-cell-label = Anexos
 threadpane-column-header-sender = De
     .title = Ordenar polo remitente
 threadpane-column-label-sender =
