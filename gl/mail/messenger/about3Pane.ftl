@@ -148,6 +148,15 @@ threadpane-column-header-attachments =
 threadpane-column-label-attachments =
     .label = Anexos
 threadpane-attachments-cell-label = Anexos
+threadpane-column-header-spam =
+    .title = Ordenar polo estado de correo lixo
+threadpane-column-label-spam =
+    .label = Correo lixo
+threadpane-spam-cell-label = Correo lixo
+threadpane-column-header-unread-button =
+    .title = Ordenar polo estado de lectura
+threadpane-column-label-unread-button =
+    .label = Estado de lectura
 threadpane-column-header-sender = De
     .title = Ordenar polo remitente
 threadpane-column-label-sender =
@@ -215,6 +224,12 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indicador de mensaxe nova
+    .title = Mensaxe nova
+threadpane-message-replied =
+    .alt = Indicador de mensaxe respondida
+    .title = Mensaxe respondida
 apply-columns-to-menu =
     .label = Aplicar columnas a…
 apply-current-view-to-folder =
