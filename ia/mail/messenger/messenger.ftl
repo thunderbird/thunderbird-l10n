@@ -47,6 +47,15 @@ content-tab-menu-forward-mac =
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Recargar pagina
+    .aria-label = Recargar
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Recargar pagina
+    .label = Recargar
+    .accesskey = R
 
 # Stop
 
