@@ -59,6 +59,10 @@ content-tab-menu-reload-mac =
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Stoppar de cargar le pagina
+    .aria-label = Stoppar
+    .accesskey = S
 
 ## Toolbar
 
