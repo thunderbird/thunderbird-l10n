@@ -63,6 +63,11 @@ content-tab-menu-stop =
     .tooltiptext = Stoppar de cargar le pagina
     .aria-label = Stoppar
     .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Stoppar de cargar le pagina
+    .label = Stoppar
+    .accesskey = S
 
 ## Toolbar
 
