@@ -32,9 +32,25 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Бір бетке артқа жылжу ({ $shortcut })
+    .aria-label = Артқа
+    .accesskey = р
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Артқа
+    .accesskey = р
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Бір бетке алға жылжу ({ $shortcut })
+    .aria-label = Алға
+    .accesskey = л
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Алға
@@ -42,9 +58,27 @@ content-tab-menu-forward-mac =
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Парақты қайта жүктеу
+    .aria-label = Қайта жүктеу
+    .accesskey = й
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Парақты қайта жүктеу
+    .label = Қайта жүктеу
+    .accesskey = й
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Парақ жүктелуін тоқтату
+    .aria-label = Тоқтату
+    .accesskey = Т
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Парақ жүктелуін тоқтату
+    .label = Тоқтату
+    .accesskey = Т
 
 ## Toolbar
 
