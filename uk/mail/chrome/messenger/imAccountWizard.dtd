@@ -9,7 +9,7 @@
 <!ENTITY accountProtocolField.label   "Протокол:">
 <!ENTITY accountProtocolGetMore.label "Отримати більше…">
 
-<!ENTITY accountUsernameTitle.label   "Ім’я користувача">
+<!ENTITY accountUsernameTitle.label   "Ім'я користувача">
 <!ENTITY accountUsernameDuplicate.label "Цей обліковий запис уже налаштовано!">
 
 <!ENTITY accountPasswordTitle.label   "Пароль">
