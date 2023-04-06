@@ -24,7 +24,7 @@ update-unsupported = Ďalšie aktualizácie už nie sú na tomto systéme možn�
 update-restarting = Reštartuje sa…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
-channel-description = Používate aktualizačný kanál <span data-l10n-name="current-channel">{ $channel }</span> .
+channel-description = Používate aktualizačný kanál <span data-l10n-name="current-channel">{ $channel }</span>.
 warning-desc-version = Zostavenie { -brand-short-name } je experimentálne a môže byť nestabilné.
 warning-desc-telemetry = Zároveň spoločnosti { -vendor-short-name } automaticky odosiela údaje o výkonnosti, hardvérovej konfigurácii, využívaní funkcií a nastaveniach s cieľom vylepšiť budúce verzie klienta { -brand-short-name }.
 # Example of resulting string: 66.0.1 (64-bit)
