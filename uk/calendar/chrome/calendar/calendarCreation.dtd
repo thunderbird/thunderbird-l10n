@@ -6,13 +6,13 @@
 <!ENTITY wizard.label             "Створити новий календар" >
 <!ENTITY wizard.description       "Розмістити ваш календар" >
 
-<!ENTITY initialpage.description    "Календар може бути збережено на вашому комп’ютері або на віддаленому сервері, щоб ви могли звернутись до нього з будь-якого місця або використовувати спільно з друзями та колегами." >
-<!ENTITY initialpage.computer.label  "На комп’ютері">
+<!ENTITY initialpage.description    "Календар можна зберігати на вашому комп'ютері або на віддаленому сервері, щоб ви могли отримати до нього доступ із будь-якого місця або використовувати спільно з друзями та колегами." >
+<!ENTITY initialpage.computer.label  "На комп'ютері">
 <!ENTITY initialpage.network.label  "У мережі">
 
 <!ENTITY locationpage.description         "Надайте інформацію щодо того, що потрібно, щоб отримати доступ до вашого віддаленого календаря" >
-<!ENTITY locationpage.login.description   "Необов’язково: введіть ім’я користувача та пароль" >
-<!ENTITY locationpage.username.label      "Ім’я користувача:" >
+<!ENTITY locationpage.login.description   "Необов'язково: введіть ім'я користувача і пароль" >
+<!ENTITY locationpage.username.label      "Ім'я користувача:" >
 <!ENTITY locationpage.password.label      "Пароль:" >
 
 <!ENTITY custompage.shortdescription  "Налаштувати ваш календар" >
