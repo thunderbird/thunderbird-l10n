@@ -6,12 +6,9 @@
 <!ENTITY showAsDefault.accesskey                        "п">
 
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Ім’я або адреса електронної пошти:">
+<!ENTITY SearchNameOrEmail.label                        "Ім'я або адреса е-пошти">
 
 <!-- Results Pane -->
 <!ENTITY Addrbook.label                                 "Адресна книга">
-<!ENTITY GeneratedName.label                            "Ім’я">
+<!ENTITY GeneratedName.label                            "Ім'я">
 <!ENTITY PrimaryEmail.label                             "Електронна пошта">
-
-<!-- Card Summary Pane -->
-

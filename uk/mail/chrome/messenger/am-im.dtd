@@ -6,7 +6,7 @@
 <!ENTITY accountWindow.width           "300">
 <!ENTITY account.general               "Загальні">
 <!ENTITY account.advanced              "Розширені параметри">
-<!ENTITY account.name                  "Ім’я користувача:">
+<!ENTITY account.name                  "Ім'я користувача:">
 <!ENTITY account.password              "Пароль:">
 <!ENTITY account.alias                 "Псевдонім:">
 <!ENTITY account.newMailNotification   "Повідомити на новий e-mail">

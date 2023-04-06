@@ -12,8 +12,8 @@
 <!ENTITY chat.noAccount.title             "Ви ще не налаштували чатових облікових записів.">
 <!ENTITY chat.noAccount.description       "&brandShortName; проведе вас через процес налаштування вашого чатового облікового запису.">
 <!ENTITY chat.accountWizard.button       "Почати">
-<!ENTITY chat.noConnectedAccount.title             "Ваші чатові облікові записи не під’єднані.">
-<!ENTITY chat.noConnectedAccount.description       "Ви можете під’єднати їх у діалозі 'Стан чату':">
+<!ENTITY chat.noConnectedAccount.title             "Ваші чатові облікові записи не під'єднано.">
+<!ENTITY chat.noConnectedAccount.description       "Ви можете під'єднати їх у діалоговому вікні 'Стан чату':">
 <!ENTITY chat.showAccountManager.button       "Показати стан чату">
 
 <!ENTITY chat.participants             "Учасники:">

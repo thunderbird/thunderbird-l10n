@@ -28,6 +28,6 @@
 <!ENTITY account.cancelReconnection.accesskey     "к">
 <!ENTITY account.copyDebugLog.label     "Копіювати журнал зневадження">
 <!ENTITY account.copyDebugLog.accesskey "п">
-<!ENTITY account.connecting           "З’єднання…">
+<!ENTITY account.connecting           "З'єднання…">
 <!ENTITY account.disconnecting        "Від'єднання…">
 <!ENTITY account.disconnected         "Не з'єднано">

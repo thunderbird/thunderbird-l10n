@@ -5,5 +5,5 @@
 <!ENTITY migration.title "&brandFullName;: імпорт даних">
 <!ENTITY migration.welcome "Вітаємо">
 <!ENTITY migration.importing "Завантажується">
-<!ENTITY migration.list.description "&brandShortName; може імпортувати дані календаря з багатьох популярних програм. На вашому комп’ютері знайдено дані з таких програм. Будь ласка, оберіть ті, з яких потрібно завантажити дані.">
+<!ENTITY migration.list.description "&brandShortName; може імпортувати дані календаря з багатьох популярних програм. На вашому комп'ютері знайдено дані з таких програм. Будь ласка, оберіть ті, з яких потрібно завантажити дані.">
 <!ENTITY migration.progress.description "Завантажуються обрані дані">

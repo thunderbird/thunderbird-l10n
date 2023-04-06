@@ -10,7 +10,7 @@
 <!ENTITY usingSubscription.accesskey "П">
 <!ENTITY dualUseFolders.label "Сервер підтримує теки, що містять вкладені теки й повідомлення">
 <!ENTITY dualUseFolders.accesskey "С">
-<!ENTITY maximumConnectionsNumber.label "Максимальне число кешованих з’єднань">
+<!ENTITY maximumConnectionsNumber.label "Максимальна кількість кешованих з'єднань">
 <!ENTITY maximumConnectionsNumber.accesskey "М">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
 <!ENTITY namespaceDesc.label "Ці налаштування визначають простори імен на вашому IMAP-сервері">

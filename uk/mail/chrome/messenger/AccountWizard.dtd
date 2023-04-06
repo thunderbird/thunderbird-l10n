@@ -13,13 +13,13 @@
 <!ENTITY identityDesc.label "Кожен обліковий запис має ідентифікатор — інформацію, що визначає вас для інших, коли вони отримують ваші повідомлення.">
 
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
-<!ENTITY fullnameDesc.label "Введіть ім’я, щоб воно з’явилося в полі &quot;Від&quot; ваших вихідних повідомлень">
+<!ENTITY fullnameDesc.label "Введіть своє ім'я, яке з'являтиметься в полі &quot;Від&quot; ваших вихідних повідомлень">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
   2, Use localized full name instead of "John Smith"
 -->
 <!ENTITY fullnameExample.label "(наприклад, «Микола Козак»).">
-<!ENTITY fullnameLabel.label "Ваше ім’я:">
+<!ENTITY fullnameLabel.label "Ваше ім'я:">
 <!ENTITY fullnameLabel.accesskey "В">
 
 <!ENTITY emailLabel.label "Електронна адреса:">
@@ -28,9 +28,9 @@
 <!-- Entities for Incoming Server page -->
 
 <!ENTITY incomingTitle.label "Інформація щодо сервера вхідної пошти">
-<!ENTITY incomingUsername.label "Ім’я користувача:">
+<!ENTITY incomingUsername.label "Ім'я користувача:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-<!ENTITY newsServerNameDesc.label "Введіть ім’я сервера новин (NNTP) (наприклад, «news.example.net»).">
+<!ENTITY newsServerNameDesc.label "Введіть назву сервера новин (NNTP) (наприклад, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Сервер новин:">
 <!ENTITY newsServerLabel.accesskey "н">
 
@@ -46,6 +46,6 @@
 
 <!ENTITY completionTitle.label "Вітаємо!">
 <!ENTITY completionText.label "Будь ласка, перевірте правильність наступної інформації.">
-<!ENTITY newsServerNamePrefix.label "Ім’я сервера новин (NNTP):">
+<!ENTITY newsServerNamePrefix.label "Назва сервера новин (NNTP):">
 <!ENTITY clickFinish.label "Натисніть «Гаразд», щоб зберегти новий обліковий запис та вийти з майстра.">
 <!ENTITY clickFinish.labelMac "Клацніть Готово, щоб зберегти ці налаштування та завершити роботу Майстра.">
