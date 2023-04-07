@@ -55,7 +55,7 @@ about-helpus =
     想帮忙吗？<a data-l10n-name="helpus-donate-link">
     捐款</a> or <a data-l10n-name="helpus-get-involved-link">
     一起来参与！</a>
-bottom-links-license = 授权信息
+bottom-links-license = 许可信息
 bottom-links-rights = 最终用户权利
 bottom-links-privacy = 隐私权政策
 cmd-close-mac-command-key =
