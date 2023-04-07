@@ -30,6 +30,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Kết nối không an toàn
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Trở lại trang trước ({ $shortcut })
+    .aria-label = Quay lại
+    .accesskey = B
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Quay lại
+    .accesskey = B
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Tiến đến một trang ({ $shortcut })
+    .aria-label = Tiến
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Tiến
+    .accesskey = F
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Tải lại trang này
+    .aria-label = Tải lại
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Tải lại trang này
+    .label = Tải lại
+    .accesskey = R
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Dừng tải trang
+    .aria-label = Dừng
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Dừng tải trang
+    .label = Dừng
+    .accesskey = S
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -105,6 +155,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Chuyển hướng
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -167,9 +219,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Xóa { $name }?
 addon-removal-confirmation-button = Xóa
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Xóa { $name } cũng như cài đặt và dữ liệu của nó khỏi { -brand-short-name }?
 caret-browsing-prompt-title = Duyệt với con trỏ
 caret-browsing-prompt-text = Nhấn F7 sẽ bật hoặc tắt duyệt với con trỏ (Caret). Tính năng này đặt một con trỏ có thể di chuyển trong một số nội dung, cho phép bạn chọn văn bản bằng bàn phím. Bạn có muốn bật duyệt với con trỏ không?
@@ -181,11 +235,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Không hỗ trợ trả lời
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Địa chỉ trả lời ({ $email }) dường như không phải là địa chỉ được giám sát. Thư đến địa chỉ này có thể sẽ không được đọc bởi bất kỳ ai.
 no-reply-reply-anyway-button = Vẫn trả lời
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Không thể giải mã { $failures } trong tổng số { $total } thư.
 
 ## Spaces toolbar
