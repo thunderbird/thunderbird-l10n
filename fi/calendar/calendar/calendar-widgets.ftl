@@ -11,6 +11,14 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Kalenterit
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Kalenteri { $calendarName } on mykistetty
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Kalenterin { $calendarName } asetukset
 calendar-import-new-calendar = Uusi kalenteri…
     .title = Luo tai tilaa uusi kalenteri
 calendar-refresh-calendars =
@@ -32,6 +40,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Edellinen kuukausi
     .accesskey = E
+calendar-nav-button-prev-tooltip-year =
+    .title = Edellinen vuosi
+    .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = Seuraava päivä
     .accesskey = U
@@ -44,6 +55,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Seuraava kuukausi
     .accesskey = U
+calendar-nav-button-next-tooltip-year =
+    .title = Seuraava vuosi
+    .accesskey = v
 calendar-today-button-tooltip =
     .title = Siirry tähän päivään
 calendar-view-toggle-day = Päivä
@@ -57,6 +71,14 @@ calendar-view-toggle-month = Kuukausi
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Kalenterin asetteluvaihtoehdot
+calendar-hide-weekends-option =
+    .label = Vain työviikon päivät
+calendar-define-workweek-option =
+    .label = Määritä työviikon päivät
+calendar-show-tasks-calendar-option =
+    .label = Näytä tehtävät kalenterissa
 
 ## Calendar Context Menu
 

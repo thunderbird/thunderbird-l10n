@@ -16,6 +16,7 @@ accounts-default = Oletus?
 identity-name = Identiteetti
 send-via-email = Lähetä sähköpostilla
 app-basics-telemetry = Kaukomittaustiedot
+app-basics-cache-use = Välimuistin käyttö
 mail-libs-title = Kirjastot
 libs-table-heading-library = Kirjasto
 libs-table-heading-expected-version = Odotettu vähimmäisversio

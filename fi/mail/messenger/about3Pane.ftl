@@ -138,6 +138,7 @@ threadpane-column-header-attachments =
     .title = Järjestä liitteiden mukaan
 threadpane-column-label-attachments =
     .label = Liitteet
+threadpane-attachments-cell-label = Liitteet
 threadpane-column-header-sender = Lähettäjä
     .title = Järjestä lähettäjän mukaan
 threadpane-column-label-sender =

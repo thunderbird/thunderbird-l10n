@@ -6,6 +6,7 @@ about-update-whats-new = Mitä uutta
 aboutDialog-title =
     .title = Tietoja { -brand-full-name }ista
 release-notes-link = Julkaisutiedot
+update-internal-error = Päivityksiä ei voi tarkistaa sisäisen virheen vuoksi. Päivitykset ovat saatavilla osoitteessa <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Hae päivityksiä
     .accesskey = H
 update-update-button = Päivitä { -brand-shorter-name } käynnistämällä uudelleen
@@ -18,6 +19,7 @@ update-failed = Päivitys ei onnistunut. <a data-l10n-name="failed-link">Lataa u
 update-admin-disabled = Järjestelmän ylläpitäjä on estänyt päivitykset
 update-no-updates-found = Käytössä on uusin { -brand-short-name }-versio
 update-other-instance-handling-updates = { -brand-short-name }ia päivitetään toisessa istunnossa
+update-manual = Päivitykset ovat saatavilla osoitteessa <a data-l10n-name="manual-link"/>
 update-unsupported = Järjestelmääsi ei voi tehdä uusia päivityksiä. <a data-l10n-name="unsupported-link">Lue lisää</a>
 update-restarting = Käynnistetään uudelleen…
 # Variables:
