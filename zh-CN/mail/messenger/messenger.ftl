@@ -59,13 +59,13 @@ content-tab-menu-forward-mac =
 # Reload
 
 content-tab-menu-reload =
-    .tooltiptext = 重新载入页面
-    .aria-label = 重新载入
+    .tooltiptext = 重新加载页面
+    .aria-label = 重新加载
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = 重新载入页面
-    .label = 重新载入
+    .tooltiptext = 重新加载页面
+    .label = 重新加载
     .accesskey = R
 
 # Stop

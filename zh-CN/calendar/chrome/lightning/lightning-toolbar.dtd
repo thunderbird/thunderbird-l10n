@@ -8,7 +8,7 @@
 <!ENTITY lightning.toolbar.task.name.accesskey "T">
 
 <!ENTITY lightning.toolbar.sync.label "同步">
-<!ENTITY lightning.toolbar.sync.tooltip "重新载入日历并同步变更">
+<!ENTITY lightning.toolbar.sync.tooltip "重新加载日历并同步变更">
 <!ENTITY lightning.toolbar.delete.label "删除">
 <!ENTITY lightning.toolbar.delete.tooltip "删除选中的事件或任务">
 <!ENTITY lightning.toolbar.edit.label "编辑">

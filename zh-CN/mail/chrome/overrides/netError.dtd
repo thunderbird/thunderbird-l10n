@@ -5,7 +5,7 @@
 <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
 %brandDTD;
 
-<!ENTITY loadError.label "页面载入出错">
+<!ENTITY loadError.label "页面加载出错">
 <!ENTITY retry.label "重试">
 
 <!-- Specific error messages -->
@@ -17,7 +17,7 @@
 <!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "找不到服务器">
-<!ENTITY dnsNotFound.longDesc "<ul> <li>请检查该地址是否输入错误，比如将<q><strong>www</strong>.example.com</q>错写成<q><strong>ww</strong>.example.com</q></li><li>如果您无法载入任何页面，请检查您计算机的网络连接。</li><li>如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 &brandShortName; 已被授权访问网络。</li></ul>">
+<!ENTITY dnsNotFound.longDesc "<ul> <li>请检查该地址是否输入错误，比如将<q><strong>www</strong>.example.com</q>错写成<q><strong>ww</strong>.example.com</q></li><li>如果您无法加载任何页面，请检查您计算机的网络连接。</li><li>如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 &brandShortName; 已被授权访问网络。</li></ul>">
 
 <!ENTITY fileNotFound.title "未找到文件">
 <!ENTITY fileNotFound.longDesc "<ul> 
@@ -33,7 +33,7 @@
 ">
 
 <!ENTITY generic.title "哎呀。">
-<!ENTITY generic.longDesc "<p>&brandShortName; 因未知原因无法载入此页面。</p>">
+<!ENTITY generic.longDesc "<p>&brandShortName; 因未知原因无法加载此页面。</p>">
 
 <!ENTITY malformedURI.title "无效的地址">
 <!ENTITY malformedURI.longDesc "<ul> 
@@ -100,15 +100,15 @@
 
 <!ENTITY sharedLongDesc "<ul> 
 <li>此站点暂时不可用或者太忙。请稍后再试。</li> 
-<li>如果您无法载入任何页面，请检查您计算机的网络连接。</li> 
+<li>如果您无法加载任何页面，请检查您计算机的网络连接。</li> 
 <li>如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 &brandShortName; 已被授权访问网络。</li> 
 </ul>">
 
 <!ENTITY cspBlocked.title "由于内容安全策略而被阻止">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; 阻止了这个页面载入，因为这个页面的内容安全政策不允许其以这种方式被载入。</p>">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; 阻止了这个页面加载，因为这个页面的内容安全政策不允许其以这种方式被加载。</p>">
 
 <!ENTITY xfoBlocked.title "因 X-Frame-Options 政策阻止">
-<!ENTITY xfoBlocked.longDesc "<p>&brandShortName; 已依照该页面的 X-Frame-Options 政策阻止了其在此上下文中的载入。</p>">
+<!ENTITY xfoBlocked.longDesc "<p>&brandShortName; 已依照该页面的 X-Frame-Options 政策阻止了其在此上下文中的加载。</p>">
 
 <!ENTITY corruptedContentErrorv2.title "损坏内容错误">
 <!ENTITY corruptedContentErrorv2.longDesc "<p>您尝试查看的页面无法显示，因为检测到传输的数据含有错误。</p><ul><li>请联系此网站的管理员并告知此问题。</li></ul>">
