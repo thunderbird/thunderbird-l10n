@@ -32,15 +32,53 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = 返回上一页（{ $shortcut }）
+    .aria-label = 返回
+    .accesskey = B
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = 返回
+    .accesskey = B
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = 转到下一页（{ $shortcut }）
+    .aria-label = 下一页
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = 下一页
+    .accesskey = F
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = 重新载入页面
+    .aria-label = 重新载入
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = 重新载入页面
+    .label = 重新载入
+    .accesskey = R
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = 停止页面加载
+    .aria-label = 停止
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = 停止页面加载
+    .label = 停止
+    .accesskey = S
 
 ## Toolbar
 
