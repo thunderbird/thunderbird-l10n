@@ -138,6 +138,7 @@ threadpane-column-header-flagged =
     .title = Ordenar por estrella
 threadpane-column-label-flagged =
     .label = Con estrella
+threadpane-flagged-cell-label = Destacados
 threadpane-column-header-attachments =
     .title = Ordenar por adjuntos
 threadpane-column-label-attachments =
