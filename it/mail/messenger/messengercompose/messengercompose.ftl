@@ -186,7 +186,7 @@ menu-open-key-manager =
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
-openpgp-key-issue-notification-from = Non sei configurato per inviare messaggi crittati end-to-end da { $addr }.
+openpgp-key-issue-notification-from = Il sistema non è configurato per inviare messaggi con crittografia end-to-end da { $addr }.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con la chiave per { $addr }
