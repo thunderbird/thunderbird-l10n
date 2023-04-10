@@ -113,6 +113,10 @@ attachment-area-show =
     .title = Monstrar quadro de annexo ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
     .title = Celar quadro de annexo ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
 drop-file-label-attachment =
     { $count ->
         [one] Adder como annexo
@@ -179,9 +183,21 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestor de claves
     .accesskey = G
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Tu non es preste a inviar messages cryptate de extremo-a-extremo ab { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Le cryptation de extremo a extremo require resolver problemas de clave pro { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-many = Le cryptation de extremo a extremo require resolver problemas de clave pro { $count } destinatarios.
+# Variables:
+# $addr (String) - Email address with certificate issues.
 smime-cert-issue-notification-one = Le cryptation de extremo a extremo require resolver problemas de certificato pro { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Le cryptation de extremo a extremo require resolver problemas de certificato pro { $count } destinatarios.
 key-notification-disable-encryption =
     .label = Non cryptar
@@ -275,6 +291,7 @@ many-public-recipients-prompt-send = Inviar comocunque
 compose-missing-identity-warning = Non ha essite trovate un identitate unic que corresponde al adresse de expeditor. Le message essera inviate usante le adresse de expeditor actual e le parametros del identitate { $identity }.
 encrypted-bcc-warning = Inviante un message cryptate, le destinatarios in Ccn non es plenmente celate. Tote le destinatarios pote esser capace a identificar illes.
 encrypted-bcc-ignore-button = Io comprende
+auto-disable-e2ee-warning = Cryptation de extremo-a-extremo pro iste message era automaticamente disactivate.
 
 ## Editing
 
@@ -305,6 +322,8 @@ cloud-file-placeholder-intro = Le file { $filename } era attachate como un Filel
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
 cloud-file-count-header =
     { $count ->
         [one] Io ha ligate { $count } file a iste e-mail
@@ -340,26 +359,33 @@ cloud-file-template-download-limit = Limite de discargamento:
 
 # Messages
 
-# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error-title = Error de connexion
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = { -brand-short-name } non es in linea. Impossibile connecter se a { $provider }.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was uploaded and caused the error
 cloud-file-upload-error-with-custom-message-title = Cargamento de { $filename } a { $provider } fallite
+cloud-file-rename-error-title = Error de renomination
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
-cloud-file-rename-error-title = Error de renomination
 cloud-file-rename-error = Il habeva un problema al renomination de { $filename } sur { $provider }
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = Renomination de { $filename } sur { $provider } fallite
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } non supporta le renomination de files jam incargate.
-# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-attachment-error-title = Error de annexo Filelink
-cloud-file-attachment-error = Impossibile actualisar le annexo Filelink { $filename }, perque su file local ha essite movite o delite.
+# Variables:
 # $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Impossibile actualisar le annexo Filelink { $filename }, perque su file local ha essite movite o delite.
 cloud-file-account-error-title = Error de conto Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Impossibile actualisar le annexo de Filelink { $filename }, perque su conto de Filelink ha essite delite.
 
 ## Link Preview
