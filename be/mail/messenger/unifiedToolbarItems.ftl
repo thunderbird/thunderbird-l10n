@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Эластычны інтэрвал
+search-bar-label = Пошук
 toolbar-write-message-label = Укласці
 toolbar-write-message =
     .title = Стварыць новы ліст
@@ -57,14 +58,17 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Пазначыць
 toolbar-mark-as =
     .title = Пазначыць лісты
+toolbar-address-book-label = Адрасная кніга
 toolbar-address-book =
     .title = Перайсці ў адрасную кнігу
 toolbar-chat-label = Гутарка
 toolbar-chat =
     .title = Паказаць устаўку гутаркі
+toolbar-calendar-label = Каляндар
 toolbar-print-label = Друкаваць
 toolbar-print =
     .title = Надрукаваць гэты ліст
+toolbar-delete-event-label = Выдаліць
 toolbar-go-back-label = Назад
 toolbar-go-back =
     .title = Перамясціцца да папярэдняга ліста
