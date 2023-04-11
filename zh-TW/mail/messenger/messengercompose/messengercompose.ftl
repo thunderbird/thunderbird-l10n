@@ -183,7 +183,7 @@ menu-open-key-manager =
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
-openpgp-key-issue-notification-from = 您並未設定要從 { $addr } 傳送端到端加密訊息。
+openpgp-key-issue-notification-from = 您並未設定好可從 { $addr } 傳送端到端加密訊息。
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = 端到端加密功能需要解決 { $addr } 的金鑰問題
@@ -288,7 +288,7 @@ many-public-recipients-prompt-send = 還是要寄出
 compose-missing-identity-warning = 找不到寄件地址對應的唯一識別資料。將使用目前的寄件者欄位資料，以及 { $identity } 身份的設定來寄信。
 encrypted-bcc-warning = 寄出加密郵件時，不會完全隱藏密件副本收件者。所有的收件者都可能識別出他們。
 encrypted-bcc-ignore-button = 知道了！
-auto-disable-e2ee-warning = 已自動針對此郵件停用端到端加密功能。
+auto-disable-e2ee-warning = 已自動針對此訊息停用端到端加密功能。
 
 ## Editing
 
