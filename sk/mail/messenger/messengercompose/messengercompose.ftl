@@ -299,7 +299,7 @@ many-public-recipients-prompt-send = Napriek tomu odoslať
 compose-missing-identity-warning = Unikátna identita zodpovedajúca adrese odosielateľa nebola nájdená. Správa bude odoslaná pomocou súčasnej adresy odosielateľa a nastavení pre identitu { $identity }.
 encrypted-bcc-warning = Pri odosielaní šifrovanej správy nie sú príjemcovia v skrytých kópiách úplne skrytí. Všetci príjemcovia ich môžu byť schopní identifikovať.
 encrypted-bcc-ignore-button = Rozumiem
-auto-disable-e2ee-warning = Obojstranné šifrovanie bola pre túto správu automaticky zakázané.
+auto-disable-e2ee-warning = Obojstranné šifrovanie bolo pre túto správu automaticky zakázané.
 
 ## Editing
 
