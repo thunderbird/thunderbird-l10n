@@ -31,6 +31,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Η σύνδεση δεν είναι ασφαλής
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Μεταβείτε πίσω μια σελίδα ({ $shortcut })
+    .aria-label = Πίσω
+    .accesskey = Π
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Πίσω
+    .accesskey = Π
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Μεταβείτε εμπρός μια σελίδα ({ $shortcut })
+    .aria-label = Εμπρός
+    .accesskey = Ε
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Εμπρός
+    .accesskey = Ε
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Επαναφόρτωση σελίδας
+    .aria-label = Επαναφόρτωση
+    .accesskey = π
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Επαναφόρτωση σελίδας
+    .label = Επαναφόρτωση
+    .accesskey = π
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Διακοπή φόρτωσης σελίδας
+    .aria-label = Διακοπή
+    .accesskey = Δ
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Διακοπή φόρτωσης σελίδας
+    .label = Διακοπή
+    .accesskey = Δ
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +156,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Ανακατεύθυνση
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -169,9 +221,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Αφαίρεση του { $name };
 addon-removal-confirmation-button = Αφαίρεση
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Αφαίρεση του { $name }, των ρυθμίσεων και των δεδομένων του από το { -brand-short-name };
 caret-browsing-prompt-title = Περιήγηση με κέρσορα
 caret-browsing-prompt-text = Πατώντας το F7 (απ)ενεργοποιείται η περιήγηση με κέρσορα. Αυτή η λειτουργία τοποθετεί έναν κινούμενο κέρσορα σε ορισμένο περιεχόμενο και σας επιτρέπει να επιλέγετε κείμενο με το πληκτρολόγιο. Θέλετε να ενεργοποιήσετε τη λειτουργία;
@@ -183,11 +237,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Δεν υποστηρίζεται απάντηση
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Η διεύθυνση απάντησης ({ $email }) δεν φαίνεται να είναι εποπτεύεται. Τα μηνύματα σε αυτήν τη διεύθυνση πιθανότατα δεν θα διαβαστούν από κανέναν.
 no-reply-reply-anyway-button = Απάντηση ούτως ή άλλως
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Δεν ήταν δυνατή η αποκρυπτογράφηση και αντιγραφή { $failures } από { $total } μηνύματα.
 
 ## Spaces toolbar
