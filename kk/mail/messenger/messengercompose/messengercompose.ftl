@@ -113,6 +113,10 @@ attachment-area-show =
     .title = Салынымдар панелін көрсету ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
     .title = Салынымдар панелін жасыру ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
 drop-file-label-attachment =
     { $count ->
        *[other] Салыным(дар) ретінде қосу
@@ -177,9 +181,21 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Кілттер басқарушысы
     .accesskey = б
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Сіз әлі { $addr } адресінен өтпелі шифрленген хабарламаларды жіберуге баптамағансыз.
+# Variables:
+# $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Өтпелі шифрлеу үшін { $addr } үшін кілт мәселелерін шешу керек
+# Variables:
+# $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-many = Өтпелі шифрлеу үшін { $count } алушы үшін кілт мәселелерін шешу керек.
+# Variables:
+# $addr (String) - Email address with certificate issues.
 smime-cert-issue-notification-one = Өтпелі шифрлеу үшін { $addr } үшін сертификат мәселелерін шешу керек.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Өтпелі шифрлеу үшін { $count } алушы үшін сертификат мәселелерін шешу керек.
 key-notification-disable-encryption =
     .label = Шифрлемеу
@@ -273,6 +289,7 @@ many-public-recipients-prompt-send = Сонда да жіберу
 compose-missing-identity-warning = Кімнен адресіне сай келетін бірегей жеке мәліметтер табылмады. Хабарлама ағымдағы Кімнен өрісі және { $identity } жеке мәліметтерінің баптауларын қолданып жіберіледі.
 encrypted-bcc-warning = Шифрленген хабарламаны жіберген кезде, жасырын көшірмедегі алушылар толығымен жасырылмайды. Барлық алушылар оларды анықтай алады.
 encrypted-bcc-ignore-button = Түсінікті
+auto-disable-e2ee-warning = Бұл хабарлама үшін өтпелі шифрлеу автоматты түрде сөндірілген.
 
 ## Editing
 
@@ -303,6 +320,8 @@ cloud-file-placeholder-intro = { $filename } файлы Filelink салыным�
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
 cloud-file-count-header =
     { $count ->
        *[other] Мен бұл эл. пошта хатына { $count } файлға сілтеме қостым:
@@ -337,26 +356,33 @@ cloud-file-template-download-limit = Жүктеп алу шектеуі:
 
 # Messages
 
-# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error-title = Байланысу қатесі
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = { -brand-short-name } желіде емес. { $provider } желісіне қосылу мүмкін болмады.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was uploaded and caused the error
 cloud-file-upload-error-with-custom-message-title = { $filename } файлын { $provider } провайдеріне жүктеу сәтсіз аяқталды
+cloud-file-rename-error-title = Атын өзгерту қатесі
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
-cloud-file-rename-error-title = Атын өзгерту қатесі
 cloud-file-rename-error = { $provider } провайдеріндегі { $filename } файл атын өзгерту кезінде мәселе орын алды.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = { $provider } провайдерінегі { $filename } файл атын өзгерту сәтсіз аяқталды
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } жүктелген файлд аттарын өзгертуді қолдамайды
-# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-attachment-error-title = Filelink салыным қатесі
-cloud-file-attachment-error = { $filename } Filelink салынымын жаңарту сәтсіз аяқталды, өйткені оның жергілікті файлы жылжытылған немесе өшірілген.
+# Variables:
 # $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = { $filename } Filelink салынымын жаңарту сәтсіз аяқталды, өйткені оның жергілікті файлы жылжытылған немесе өшірілген.
 cloud-file-account-error-title = Filelink тіркелгісінің қатесі
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = { $filename } Filelink салынымын жаңарту сәтсіз аяқталды, өйткені оның Filelink тіркелгісі өшірілген.
 
 ## Link Preview
