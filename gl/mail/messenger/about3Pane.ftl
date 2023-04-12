@@ -269,3 +269,6 @@ apply-current-columns-to-folder-with-children-message = Aplicar as columnas do c
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-message = Aplicar a vista do cartafol actual a { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Aplicar a vista do cartafol actual a { $name } e aos subcartafoles?
