@@ -233,8 +233,25 @@ threadpane-message-replied =
 threadpane-message-redirected =
     .alt = Indicador de mensaxe redirixida
     .title = Mensaxe redirixida
+threadpane-message-forwarded =
+    .alt = Indicador de reenvío
+    .title = Mensaxe reenviada
+threadpane-message-replied-forwarded =
+    .alt = Indicador de respondida e reenviada
+    .title = Mensaxe respondida e reenviada
+threadpane-message-replied-redirected =
+    .alt = Indicador de respondida e reenderezada
+    .title = Mensaxe respondida e reenderezada
+threadpane-message-forwarded-redirected =
+    .alt = Indicador de reenviada e reenderezada
+    .title = Mensaxe reenviada e reenderezada
+threadpane-message-replied-forwarded-redirected =
+    .alt = Indicador de respondida, reenviada e reenderezada
+    .title = Mensaxe respondida, reenviada e reenderezada
 apply-columns-to-menu =
     .label = Aplicar columnas a…
+apply-current-view-to-menu =
+    .label = Aplicar a vista actual a…
 apply-current-view-to-folder =
     .label = Cartafol…
 apply-current-view-to-folder-children =
@@ -242,9 +259,13 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Aplicar os cambios?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Aplicar as columnas do cartafol actual a { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Aplicar as columnas do cartafol actual a { $name } e os subcartafoles?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Aplicar a vista do cartafol actual a { $name }?
