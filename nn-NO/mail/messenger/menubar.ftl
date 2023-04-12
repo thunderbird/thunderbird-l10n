@@ -17,6 +17,18 @@ menu-addons-and-themes =
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = Hjelp
+    .accesskey = H
+menu-help-get-help =
+    .label = Få hjelp
+    .accesskey = F
+menu-help-explore-features =
+    .label = Utforsk funksjonar
+    .accesskey = U
+menu-help-get-involved =
+    .label = Ver med
+    .accesskey = V
 menu-help-share-feedback =
     .label = Del idear og tilbakemeldingar
     .accesskey = D
@@ -53,6 +65,9 @@ toolbar-undelete-button =
 menu-view-repair-text-encoding =
     .label = Reparer tekstkoding
     .accesskey = k
+
+## View / Folders
+
 
 ## View / Layout
 

@@ -5,11 +5,28 @@
 
 ## Sync
 
+appmenu-sync-panel-title =
+    .title = Synkroniser
+appmenu-sync-sync =
+    .value = Kontosynkronisering
+    .accesskey = K
+appmenu-sync-manage =
+    .value = Handsam kontoen
+    .accesskey = H
+appmenu-sync-now =
+    .label = Synkroniser no
+    .accesskey = S
 
 ## New Account
 
 appmenu-new-account-panel-title =
     .title = Ny konto
+appmenu-new-account-panel =
+    .label = Ny konto
+    .accesskey = N
+appmenu-new-calendar =
+    .label = Kalender
+    .accesskey = K
 appmenu-new-newsgroup =
     .label = Nyheitsgruppe
     .accesskey = N
@@ -19,14 +36,42 @@ appmenu-new-newsgroup =
 
 ## Create
 
+appmenu-create-panel-title =
+    .title = Opprett
+appmenu-create-message =
+    .label = Melding
+    .accesskey = M
+appmenu-create-event =
+    .label = Hending
+    .accesskey = H
+appmenu-create-task =
+    .label = Oppgåve
+    .accesskey = O
+appmenu-create-contact =
+    .label = Kontakt
+    .accesskey = K
 
 ## Open
 
+appmenu-open-file-panel =
+    .label = Opne frå fil
+    .accesskey = O
+appmenu-open-file-panel-title =
+    .title = Opne frå fil
+appmenu-open-message =
+    .label = Melding…
+    .accesskey = M
+appmenu-open-calendar =
+    .label = Kalender…
+    .accesskey = K
 
 ## View / Layout
 
 appmenu-view-panel-title =
     .title = Vis
+appmenu-view-panel =
+    .label = Vis
+    .accesskey = V
 appmenu-font-size-value = Skriftstorleik
 appmenu-mail-uidensity-value = Densitet
 appmenu-uidensity-compact =
@@ -49,11 +94,50 @@ appmenuitem-font-size-reset =
 
 appmenu-tools-panel-title =
     .title = Verktøy
+appmenu-tools-panel =
+    .label = Verktøy
+    .accesskey = e
+appmenu-tools-import =
+    .label = Importer
+    .accesskey = I
+appmenu-tools-export =
+    .label = Eksporter
+    .accesskey = E
+appmenu-tools-message-search =
+    .label = Søk i meldingar
+    .accesskey = S
+appmenu-tools-message-filters =
+    .label = Meldingsfilter
+    .accesskey = M
+appmenu-tools-download-manager =
+    .label = Nedlastingshandsamar
+    .accesskey = N
+appmenu-tools-activity-manager =
+    .label = Aktivitetshandsaming
+    .accesskey = A
+appmenu-tools-dev-tools =
+    .label = Utviklarverktøy
+    .accesskey = U
 
 ## Help
 
 appmenu-help-panel-title =
     .title = Hjelp
+appmenu-help-get-help =
+    .label = Få hjelp
+    .accesskey = F
+appmenu-help-explore-features =
+    .label = Utforsk funksjonar
+    .accesskey = U
+appmenu-help-shortcuts =
+    .label = Tastatursnarvegar
+    .accesskey = T
+appmenu-help-get-involved =
+    .label = Ver med
+    .accesskey = V
+appmenu-help-donation =
+    .label = Gje ei pengegåve
+    .accesskey = G
 appmenu-help-share-feedback =
     .label = Del idear og tilbakemeldingar
     .accesskey = D
@@ -66,6 +150,19 @@ appmenu-help-exit-troubleshoot-mode2 =
 appmenu-help-troubleshooting-info =
     .label = Feilsøkingsinfo
     .accesskey = i
+appmenu-help-about-product =
+    .label = Om { -brand-short-name }
+    .accesskey = O
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = Lastar ned { -brand-shorter-name }-oppdatering
+appmenuitem-banner-update-available =
+    .label = Oppdatering tilgjengeleg — last ned no
+appmenuitem-banner-update-manual =
+    .label = Oppdatering tilgjengeleg — last ned no
+appmenuitem-banner-update-unsupported =
+    .label = Kan ikkje oppdatere — systemet er inkompatibelt
+appmenuitem-banner-update-restart =
+    .label = Oppdatering tilgjengeleg — start på nytt

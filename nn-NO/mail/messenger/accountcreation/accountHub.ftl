@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
+
+
 ## Header
 
 account-hub-brand = { -brand-full-name }
@@ -13,9 +17,12 @@ account-hub-release-notes = Versjonsnotat
 account-hub-support = Brukarstøtte
 account-hub-donate = Doner
 
-## Start page
+## Initial setup page
 
-account-hub-newsgroup-button = Konfigurer nyheitsgruppe
 
 ## Email page
 
+account-hub-email-cancel-button = Avbryt
+account-hub-email-back-button = Tilbake
+account-hub-email-continue-button = Hald fram
+account-hub-email-confirm-button = Stadfest

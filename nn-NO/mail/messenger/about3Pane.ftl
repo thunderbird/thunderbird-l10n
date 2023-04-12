@@ -113,6 +113,13 @@ quick-filter-bar-gloda-upsell-line1 = Hald fram søket på tvers av alle mapper
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Trykk «Enter» igjen for å halde fram søket etter: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Hent meldingar
+folder-pane-write-message-button = Ny melding
+    .title = Skriv ei ny melding
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -125,10 +132,12 @@ threadpane-column-header-flagged =
     .title = Sorter etter: Stjerne
 threadpane-column-label-flagged =
     .label = Stjerne
+threadpane-flagged-cell-label = Med stjerne
 threadpane-column-header-attachments =
     .title = Sorter etter: Vedlegg
 threadpane-column-label-attachments =
     .label = Vedlegg
+threadpane-attachments-cell-label = Vedlegg
 threadpane-column-header-sender = Frå
     .title = Sorter etter: Frå
 threadpane-column-label-sender =

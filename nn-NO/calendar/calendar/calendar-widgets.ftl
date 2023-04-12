@@ -11,6 +11,8 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Kalendrar
+calendar-import-new-calendar = Ny kalender…
+    .title = Opprett eller abonner på ein ny kalender
 calendar-new-event-primary-button = Ny hending
 calendar-new-task-primary-button = Ny oppgåve
 

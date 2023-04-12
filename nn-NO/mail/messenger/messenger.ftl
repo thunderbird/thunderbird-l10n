@@ -18,6 +18,26 @@ about-rights-notification-text = { -brand-short-name } er fri programvare basert
 ## Content tabs
 
 
+# Back
+
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Tilbake
+    .accesskey = T
+
+# Forward
+
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Fram
+    .accesskey = F
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -53,6 +73,9 @@ show-recent-folders-label =
 redirect-msg-menuitem =
     .label = Omdiriger
     .accesskey = d
+menu-file-save-as-file =
+    .label = Fil…
+    .accesskey = F
 
 ## AppMenu
 
@@ -103,7 +126,7 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Fjerne { $name }?
 addon-removal-confirmation-button = Fjern
 repair-text-encoding-button =

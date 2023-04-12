@@ -64,6 +64,10 @@ context-menuitem-attach-files =
     .label = Legg ved fil(er)…
     .accesskey = L
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
 drop-file-label-attachment =
     { $count ->
         [one] Legg til som vedlegg
@@ -100,6 +104,10 @@ encryption-options-smime =
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = Til
+many-public-recipients-prompt-cancel = Avbryt sending
+many-public-recipients-prompt-send = Send likevel
 
 ## Notifications
 

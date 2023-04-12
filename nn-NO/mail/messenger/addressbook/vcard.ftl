@@ -58,6 +58,8 @@ vcard-url-label = Nettstad
 vcard-tel-header = Telefonnummer
 vcard-tel-add = Legg til telefonnummer
 vcard-tel-label = Telefonnummer
+vcard-entry-type-fax = Faks
+vcard-entry-type-pager = Personsøkjar
 
 # TZ vCard field
 
@@ -108,3 +110,6 @@ vcard-org-org = Organisasjon
 
 # Custom properties
 
+vcard-remove-button-title =
+    .title = Fjern
+vcard-remove-button = Fjern
