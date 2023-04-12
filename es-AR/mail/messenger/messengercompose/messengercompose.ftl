@@ -185,6 +185,10 @@ menu-open-key-manager =
     .label = Administrador de claves
     .accesskey = m
 # Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = No está configurado para enviar mensajes cifrados de extremo a extremo desde { $addr }.
+# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = El cifrado de extremo a extremo requiere resolver problemas de clave de { $addr }
 # Variables:
