@@ -6,7 +6,7 @@ about-update-whats-new = Novidades
 aboutDialog-title =
     .title = Sobre o { -brand-full-name }
 release-notes-link = Notas da versión
-update-internal-error = Non se puido comprobar as actualizacións debido a un erro interno. As actualizacións están dispoñíbeis en <a data-l10n-name="manual-link"/>
+update-internal-error = Non se puido procurar as actualizacións debido a un erro interno. As actualizacións están dispoñíbeis en <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Buscar actualizacións
     .accesskey = c
 update-update-button = Reiniciar para actualizar { -brand-shorter-name }
@@ -38,6 +38,7 @@ aboutDialog-version = { $version } ({ $bits } bits)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bits)
+aboutdialog-update-checking-failed = Produciuse un fallo ao procurar as actualizacións.
 community-exp =
     <a data-l10n-name="community-exp-mozilla-link">
     { -vendor-short-name }</a>
