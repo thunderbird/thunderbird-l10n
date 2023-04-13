@@ -388,6 +388,9 @@ key-expired-date = A chave caducou o { $keyExpiry }
 key-expired-simple = A chave caducou
 key-revoked-simple = A chave foi revogada
 key-do-you-accept = Acepta esta chave para verificar sinaturas dixitais e cifrar mensaxes?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Verifique a impresión dixital da chave mediante unha canle de comunicación segura, que non sexa o correo electrónico, para asegurarse de que realmente é a chave de { $addr }.
 
 ## Strings enigmailMsgComposeOverlay.js
 
@@ -582,6 +585,8 @@ need-online = A función que seleccionou non está dispoñíbel no modo sen cone
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
+no-key-found2 = Non puidemos atopar ningunha chave usábel que corresponda cos criterios de busca especificados.
+no-update-found = Xa ten as chaves que se descubriron en liña.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
