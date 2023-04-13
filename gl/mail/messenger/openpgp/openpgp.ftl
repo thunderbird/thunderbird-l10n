@@ -274,6 +274,10 @@ openpgp-key-details-key-part-label =
 openpgp-key-details-attr-ignored = Aviso: pode que esta chave non funcione como se esperaba, porque algunhas das súas propiedades son inseguras e poderían ser ignoradas.
 openpgp-key-details-attr-upgrade-sec = Debería actualizar as propiedades inseguras.
 openpgp-key-details-attr-upgrade-pub = Debería pedirlle ao propietario desta chave que actualice as propiedades inseguras.
+openpgp-key-details-upgrade-unsafe =
+    .label = Actualizar as propiedades inseguras
+    .accesskey = p
+openpgp-key-details-upgrade-ok = A chave actualizouse correctamente. Debería compartir a chave pública actualizada cos seus correspondentes.
 openpgp-key-details-algorithm-label =
     .label = Algoritmo
 openpgp-key-details-size-label =
@@ -287,6 +291,7 @@ openpgp-key-details-expiry-header = Caducidade
 openpgp-key-details-usage-label =
     .label = Uso
 openpgp-key-details-fingerprint-label = Impresión dixital
+openpgp-key-details-legend-secret-missing = Para as chaves marcadas con (!), a chave secreta non está dispoñíbel.
 openpgp-key-details-sel-action =
     .label = Seleccionar unha acción…
     .accesskey = S
@@ -314,6 +319,15 @@ openpgp-copy-cmd-label =
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = O { -brand-short-name } non ten unha chave persoal OpenPGP de <b>{ $identity }</b>
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys =
+    { $count ->
+        [one] O { -brand-short-name } atopou { $count } chave persoal OpenPGP asociada a <b>{ $identity }</b>
+       *[other] O { -brand-short-name } atopou { $count } chaves persoais OpenPGP asociadas a <b>{ $identity }</b>
+    }
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = A súa configuración actual utiliza a chave co identificador <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
