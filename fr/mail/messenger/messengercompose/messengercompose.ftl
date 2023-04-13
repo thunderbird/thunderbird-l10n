@@ -184,6 +184,10 @@ menu-open-key-manager =
     .label = Gestionnaire de clés
     .accesskey = G
 # Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Votre compte { $addr } n’est pas configuré pour envoyer des messages chiffrés de bout en bout.
+# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de clé pour { $addr }
 # Variables:
