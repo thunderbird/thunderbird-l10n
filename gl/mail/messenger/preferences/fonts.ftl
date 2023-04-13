@@ -2,23 +2,20 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+fonts-dialog-title = Tipos de letra
 fonts-window-close =
     .key = w
-
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Predeterminado ({ $name })
 fonts-label-default-unnamed =
     .label = Predeterminado
-
 fonts-encoding-dialog-title =
     .title = Tipos de letra e codificacións
-
 fonts-language-legend =
     .value = Tipos de letra para:
     .accesskey = T
-
 fonts-proportional-label =
     .value = Proporcional:
     .accesskey = P
@@ -89,45 +86,35 @@ font-language-group-tibetan =
 
 default-font-serif =
     .label = Serif
-
 default-font-sans-serif =
     .label = Sans Serif
-
 font-size-proportional-label =
     .value = Tamaño:
     .accesskey = m
-
 font-size-monospace-label =
     .value = Tamaño:
     .accesskey = a
-
 font-serif-label =
     .value = Serif:
     .accesskey = S
-
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
-
 font-monospace-label =
     .value = Monoespazado:
     .accesskey = M
-
 font-min-size-label =
     .value = Tamaño mínimo do tipo de letra:
     .accesskey = m
-
 min-size-none =
     .label = Ningún
 
 ## Fonts in message
 
 font-control-legend = Control dos tipos de letra
-
 use-document-fonts-checkbox =
     .label = Permitir que as mensaxes utilicen outros tipos de letra
     .accesskey = o
-
 use-fixed-width-plain-checkbox =
     .label = Usar un tipo de letra con ancho fixo para as mensaxes de texto sen formato
     .accesskey = a
@@ -135,17 +122,13 @@ use-fixed-width-plain-checkbox =
 ## Language settings
 
 text-encoding-legend = Codificación do texto
-
 text-encoding-description = Estabeleza as codificacións predeterminadas para o correo de entrada e de saída
-
 font-outgoing-email-label =
     .value = Correo de saída:
     .accesskey = d
-
 font-incoming-email-label =
     .value = Correo de entrada:
     .accesskey = a
-
 default-font-reply-checkbox =
     .label = Cando sexa posíbel, utilice a codificación de texto predeterminada nas respostas
     .accesskey = x
