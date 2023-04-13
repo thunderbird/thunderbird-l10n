@@ -13,6 +13,15 @@ rights-intro-point-5 = Algunhas características de { -brand-short-name } fan us
 rights-intro-point-5-unbranded = Se este produto incorpora servizos web, calquera termo do servizo aplicábel aos servizos deberían enlazarse nos <a data-l10n-name="mozilla-website-services-link">Servizos de sitios web</a>, na súa sección apropiada.
 rights-intro-point-6 = Para reproducir certos tipos de contido de vídeo, { -brand-short-name } descarga certos módulos de descifrado de contido de terceiros.
 rights-webservices-header = Servizos de información do { -brand-full-name } baseados na web
+rights-webservices2 =
+    O { -brand-full-name } usa servizos de información baseados na web («Servizos») para 
+    fornecer algunhas das funcionalidades ofrecidas para o seu uso con esta versión binaria 
+    do { -brand-short-name } baixo os termos descritos a continuación. Se non quere usar 
+    un ou máis dos servizos ou os termos que seguen non son aceptábeis, pode desactivar 
+    as funcionalidades ou servizos. As instrucións de como desactivar unha funcionalidade 
+    ou servizo concreto poden atoparse <a data-l10n-name="mozilla-disable-service-link">
+    aquí</a>. Outras funcionalidades e servizos poden desactivarse na configuración da 
+    aplicación.
 rights-locationawarebrowsing = <strong>Navegación baseada na localización: </strong>sempre son a elección do usuario. Nunca se envía información sobre a súa localización sen o seu permiso. Se desexa desactivar esta característica por completo, siga estes pasos:
 rights-locationawarebrowsing-term-1 = Na barra de navegación, escriba <code>about:config</code>
 rights-locationawarebrowsing-term-2 = Introduza geo.enabled
