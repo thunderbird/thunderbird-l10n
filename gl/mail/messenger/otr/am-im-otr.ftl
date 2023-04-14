@@ -5,6 +5,7 @@
 account-encryption =
     .label = Cifraxe de extremo a extremo
 account-otr-label = Mensaxería fóra do rexistro (OTR)
+account-otr-description2 = O { -brand-short-name } admite o cifrado de extremo a extremo de conversas un-a-un baseadas en OTR. Isto impide que terceiras persoas escoiten unha conversa. Este tipo de cifrado de extremo a extremo só se pode usar cando a outra persoa tamén usa un soporte lóxico que admite OTR.
 otr-encryption-title = Cifraxe verificada
 otr-encryption-caption = Para permitir que outras persoas verifiquen a súa identidade nas conversas OTR, comparta a súa propia impresión dixital OTR mediante unha canle de comunicación externa (fóra de banda).
 otr-fingerprint-label = A súa impresión dixital:
@@ -12,7 +13,6 @@ view-fingerprint-button =
     .label = Xestionar as impresións dixitais dos contactos
     .accesskey = d
 otr-settings-title = Configuración de OTR
-
 otr-require-encryption =
     .label = Requirir cifraxe de extremo a extremo para conversas individuais
 otr-require-encryption-info =
@@ -21,6 +21,4 @@ otr-require-encryption-info =
     non se amosarán como parte da conversa habitual e tampouco se rexistrarán.
 otr-verify-nudge =
     .label = Lémbrame sempre de que verifique un contacto non verificado
-
 otr-not-yet-available = aínda non está dispoñíbel
-
