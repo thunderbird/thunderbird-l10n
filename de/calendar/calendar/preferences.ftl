@@ -6,7 +6,6 @@ calendar-title = Kalender
 calendar-title-reminder = Erinnerungen
 calendar-title-notification = Benachrichtigungen
 calendar-title-category = Kategorien
-
 dateformat-label =
     .value = Datums-Textformat:
     .accesskey = D
@@ -16,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Kurz: { $date }
+use-system-timezone-radio-button =
+    .label = Zeitzone des Systems verwenden
+set-timezone-manually-radio-button =
+    .label = Zeitzone manuell festlegen
 timezone-label =
     .value = Zeitzone:
 weekstart-label =
@@ -38,10 +41,8 @@ day-7-name =
 show-weeknumber-label =
     .label = Wochennummer in Ansichten und Miniaturkalender anzeigen
     .accesskey = W
-
 workdays-label =
     .value = Tage der Arbeitswoche:
-
 day-1-checkbox =
     .label = So
     .accesskey = S
@@ -63,7 +64,6 @@ day-6-checkbox =
 day-7-checkbox =
     .label = Sa
     .accesskey = a
-
 dayweek-legend = Tages- und Wochenansichten
 visible-hours-label =
     .value = Anzeigen:
@@ -105,23 +105,13 @@ previous-weeks-label =
     .value = Anzahl der vergangenen Wochen:
     .accesskey = v
 todaypane-legend = Tagesplan
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = Der Bereich "Demnächst" zeigt:
-    .accesskey = m
-
 agenda-days =
     .value = Anstehende Termine und Aufgaben in Sidebar anzeigen bis:
     .accesskey = T
-
 event-task-legend = Termine und Aufgaben
-
 default-length-label =
     .value = Standarddauer von Terminen und Aufgaben:
     .accesskey = d
-
 task-start-label =
     .value = Beginn:
 task-start-1-label =
@@ -145,11 +135,9 @@ task-due-label =
 edit-intab-label =
     .label = Termine und Aufgaben in einem Tab anstatt in einem Dialogfenster bearbeiten
     .accesskey = T
-
 prompt-delete-label =
     .label = Löschen von Terminen und Aufgaben bestätigen
     .accesskey = b
-
 accessibility-legend = Barrierefreiheit
 accessibility-colors-label =
     .label = Farben für eine barrierefreie Darstellung optimieren
@@ -196,9 +184,7 @@ event-alarm-time-label =
 task-alarm-time-label =
     .value = Erinnerungszeitpunkt vor Aufgabenbeginn:
     .accesskey = o
-
 calendar-notifications-customize-label = Benachrichtigungen für einzelne Kalender können in deren Eigenschaften angepasst werden.
-
 category-new-label = Kategorie hinzufügen
 category-edit-label = Kategorie bearbeiten
 category-overwrite-title = Warnung: Doppelter Name

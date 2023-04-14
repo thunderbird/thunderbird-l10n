@@ -10,9 +10,46 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Kalender
+calendar-refresh-calendars =
+    .title = Alle Kalender neu laden und Änderungen synchronisieren
+calendar-new-event-primary-button = Neuer Termin
+calendar-new-task-primary-button = Neue Aufgabe
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Vorheriger Tag
+    .accesskey = V
+calendar-nav-button-prev-tooltip-week =
+    .title = Vorherige Woche
+    .accesskey = V
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Vorherige Woche
+    .accesskey = V
+calendar-nav-button-prev-tooltip-month =
+    .title = Vorheriger Monat
+    .accesskey = V
+calendar-nav-button-prev-tooltip-year =
+    .title = Vorheriges Jahr
+    .accesskey = V
+calendar-nav-button-next-tooltip-day =
+    .title = Nächster Tag
+    .accesskey = N
+calendar-nav-button-next-tooltip-week =
+    .title = Nächste Woche
+    .accesskey = N
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Nächste Woche
+    .accesskey = N
+calendar-nav-button-next-tooltip-month =
+    .title = Nächster Monat
+    .accesskey = N
+calendar-nav-button-next-tooltip-year =
+    .title = Nächstes Jahr
+    .accesskey = N
+calendar-today-button-tooltip =
+    .title = Zu Heute wechseln
 calendar-view-toggle-day = Tag
     .title = Zur Tagesansicht wechseln
 calendar-view-toggle-week = Woche
@@ -24,6 +61,12 @@ calendar-view-toggle-month = Monat
 
 ## Menu on calendar control bar
 
+calendar-hide-weekends-option =
+    .label = Nur Tage der Arbeitswoche
+calendar-define-workweek-option =
+    .label = Tage der Arbeitswoche festlegen
+calendar-show-tasks-calendar-option =
+    .label = Aufgaben im Kalender anzeigen
 
 ## Calendar Context Menu
 
