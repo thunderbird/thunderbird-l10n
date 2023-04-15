@@ -113,22 +113,50 @@ quick-filter-bar-gloda-upsell-line1 = Als globale Volltextsuche in allen Konten 
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Eingabetaste erneut drücken für Volltextsuche nach: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Nachrichten abrufen
+folder-pane-write-message-button = Neue Nachricht
+    .title = Eine neue Nachricht verfassen
+folder-pane-more-menu-button =
+    .title = Optionen für den Ordnerbereich
+folder-pane-header-context-hide =
+    .label = Kopfzeile des Ordnerbereichs ausblenden
+
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Auswahl der angezeigten Nachrichten umschalten
+threadpane-column-header-select-all =
+    .title = Alle Nachrichten markieren
+threadpane-column-header-deselect-all =
+    .title = Markierung aller Nachrichten aufheben
 threadpane-column-label-select =
     .label = Nachrichten auswählen
+threadpane-column-header-thread =
+    .title = Nachrichtenthemen umschalten
 threadpane-column-label-thread =
     .label = Thema
 threadpane-column-header-flagged =
     .title = Nach Kennzeichnung sortieren
 threadpane-column-label-flagged =
     .label = Kennzeichnung
+threadpane-flagged-cell-label = Gekennzeichnet
 threadpane-column-header-attachments =
     .title = Nach Anhängen sortieren
 threadpane-column-label-attachments =
     .label = Anhänge
+threadpane-attachments-cell-label = Anhänge
+threadpane-column-header-spam =
+    .title = Nach Spamstatus sortieren
+threadpane-column-label-spam =
+    .label = Spam
+threadpane-spam-cell-label = Spam
+threadpane-column-header-unread-button =
+    .title = Nach gelesen sortieren
+threadpane-column-label-unread-button =
+    .label = Status gelesen
 threadpane-column-header-sender = Von
     .title = Nach Von sortieren
 threadpane-column-label-sender =
@@ -196,8 +224,34 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Anzeige für neue Nachricht
+    .title = Neue Nachricht
+threadpane-message-replied =
+    .alt = Anzeige für Beantwortet
+    .title = Nachricht beantwortet
+threadpane-message-redirected =
+    .alt = Anzeige für Umgeleitet
+    .title = Nachricht umgeleitet
+threadpane-message-forwarded =
+    .alt = Anzeige für Weitergeleitet
+    .title = Nachricht weitergeleitet
+threadpane-message-replied-forwarded =
+    .alt = Anzeige für Beantwortet und Weitergeleitet
+    .title = Nachricht beantwortet und weitergeleitet
+threadpane-message-replied-redirected =
+    .alt = Anzeige für Beantwortet und Umgeleitet
+    .title = Nachricht beantwortet und umgeleitet
+threadpane-message-forwarded-redirected =
+    .alt = Anzeige für Weitergeleitet und Umgeleitet
+    .title = Nachricht weitergeleitet und umgeleitet
+threadpane-message-replied-forwarded-redirected =
+    .alt = Anzeige für Beantwortet, Weitergeleitet und Umgeleitet
+    .title = Nachricht beantwortet, weitergeleitet und umgeleitet
 apply-columns-to-menu =
     .label = Spalteneinstellungen übernehmen für…
+apply-current-view-to-menu =
+    .label = Aktuelle Ansicht übernehmen für…
 apply-current-view-to-folder =
     .label = Ordner…
 apply-current-view-to-folder-children =
@@ -205,9 +259,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Änderungen übernehmen?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Sollen die Spalteneinstellungen des aktuellen Ordners für "{ $name }" übernommen werden?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Sollen die Spalteneinstellungen des aktuellen Ordners für "{ $name }" und alle Unterordner übernommen werden?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Ansicht des aktuellen Ordners auf { $name } übernehmen?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Die Ansicht des aktuellen Ordners auf { $name } und seine Unterordner übernehmen?

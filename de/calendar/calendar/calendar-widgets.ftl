@@ -11,6 +11,16 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Kalender
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Der Kalender { $calendarName } wurde stummgeschaltet
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } Kalenderoptionen
+calendar-import-new-calendar = Neuer Kalender…
+    .title = Erstellen oder abonnieren Sie einen neuen Kalender
 calendar-refresh-calendars =
     .title = Alle Kalender neu laden und Änderungen synchronisieren
 calendar-new-event-primary-button = Neuer Termin
@@ -61,6 +71,10 @@ calendar-view-toggle-month = Monat
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Kalender-Layout-Einstellungen
+calendar-find-events-menu-option =
+    .label = Terminsuche-Bereich
 calendar-hide-weekends-option =
     .label = Nur Tage der Arbeitswoche
 calendar-define-workweek-option =

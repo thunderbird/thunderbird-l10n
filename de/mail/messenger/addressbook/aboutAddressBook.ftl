@@ -24,8 +24,17 @@ about-addressbook-toolbar-import =
 all-address-books-row =
     .title = Alle Adressbücher
 all-address-books = Alle Adressbücher
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = Kontakte in { $name }: { $count }
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Anzahl der Kontakte in allen Adressbüchern: { $count }
 about-addressbook-books-context-properties =
     .label = Eigenschaften
+about-addressbook-books-context-edit-list =
+    .label = Liste bearbeiten
 about-addressbook-books-context-synchronize =
     .label = Synchronisieren
 about-addressbook-books-context-edit =
@@ -77,6 +86,8 @@ about-addressbook-horizontal-layout =
     .label = Horizontale Darstellung verwenden
 about-addressbook-vertical-layout =
     .label = Vertikale Darstellung verwenden
+about-addressbook-table-layout =
+    .label = Tabellenlayout
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
@@ -105,6 +116,42 @@ about-addressbook-column-label-organization =
 about-addressbook-column-header-addrbook = Adressbuch
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
+about-addressbook-column-header-generatedname2 = Name
+    .title = Nach Name sortieren
+about-addressbook-column-label-generatedname2 =
+    .label = Name
+about-addressbook-column-header-emailaddresses2 = E-Mail-Adressen
+    .title = Nach E-Mail-Adressen sortieren
+about-addressbook-column-label-emailaddresses2 =
+    .label = E-Mail-Adressen
+about-addressbook-column-header-nickname2 = Spitzname
+    .title = Nach Spitznamen sortieren
+about-addressbook-column-label-nickname2 =
+    .label = Spitzname
+about-addressbook-column-header-phonenumbers2 = Telefonnummern
+    .title = Nach Telefonnummern sortieren
+about-addressbook-column-label-phonenumbers2 =
+    .label = Telefonnummern
+about-addressbook-column-header-addresses2 = Adressen
+    .title = Nach Adressen sortieren
+about-addressbook-column-label-addresses2 =
+    .label = Adressen
+about-addressbook-column-header-title2 = Titel
+    .title = Nach Titel sortieren
+about-addressbook-column-label-title2 =
+    .label = Titel
+about-addressbook-column-header-department2 = Abteilung
+    .title = Nach Abteilung sortieren
+about-addressbook-column-label-department2 =
+    .label = Abteilung
+about-addressbook-column-header-organization2 = Organisation
+    .title = Nach Organisation sortieren
+about-addressbook-column-label-organization2 =
+    .label = Organisation
+about-addressbook-column-header-addrbook2 = Adressbuch
+    .title = Nach Adressbüchern sortieren
+about-addressbook-column-label-addrbook2 =
+    .label = Adressbuch
 about-addressbook-cards-context-write =
     .label = Nachricht verfassen
 about-addressbook-confirm-delete-mixed-title = Kontakte und Verteilerlisten löschen
@@ -169,10 +216,23 @@ about-addressbook-placeholder-no-search-results = Keine Kontakte gefunden
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than two)
+about-addressbook-selection-mixed-header = { $count } ausgewählte Kontakte und Listen
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header = { $count } ausgewählte Kontakte
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header = { $count } ausgewählte Listen
+about-addressbook-details-edit-photo =
+    .title = Kontaktfoto bearbeiten
+about-addressbook-new-contact-header = Neuer Kontakt
 about-addressbook-prefer-display-name = Anzeigenamen statt Namen aus Kopfzeile der Nachricht verwenden
 about-addressbook-write-action-button = Nachricht
 about-addressbook-event-action-button = Termin
 about-addressbook-search-action-button = Suchen
+about-addressbook-new-list-action-button = Neue Liste
 about-addressbook-begin-edit-contact-button = Bearbeiten
 about-addressbook-delete-edit-contact-button = Löschen
 about-addressbook-cancel-edit-contact-button = Abbrechen
@@ -182,6 +242,8 @@ about-addressbook-details-email-addresses-header = E-Mail-Adressen
 about-addressbook-details-phone-numbers-header = Telefonnummern
 about-addressbook-details-addresses-header = Adressen
 about-addressbook-details-notes-header = Notizen
+about-addressbook-details-impp-header = Instant Messaging
+about-addressbook-details-websites-header = Websites
 about-addressbook-details-other-info-header = Weitere Informationen
 about-addressbook-entry-type-work = Dienstlich
 about-addressbook-entry-type-home = Privat
