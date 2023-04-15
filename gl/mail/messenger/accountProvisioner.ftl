@@ -4,12 +4,17 @@
 
 provisioner-searching-icon =
     .alt = Buscando…
+account-provisioner-title = Crear un novo enderezo de correo electrónico
+account-provisioner-mail-account-title = Merque un novo enderezo de correo electrónico
 
 ## Forms
 
+
 ## Notifications
 
+
 ## Illustrations
+
 
 ## Search results
 

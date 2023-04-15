@@ -112,6 +112,11 @@ summary-pane-start-over = Reiniciar a ferramenta de importación
 ## Footer area
 
 footer-help = Precisa de axuda?
+footer-import-documentation = Documentación sobre a importación
 
 ## Step navigation on top of the wizard pages
 
+step-confirm = Confirmar
+# Variables:
+# $number (number) - step number
+step-count = { $number }
