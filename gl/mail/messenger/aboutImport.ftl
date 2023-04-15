@@ -17,9 +17,24 @@ export-profile = Exportar
 
 ## Buttons
 
+button-back = Recuar
+button-continue = Continuar
+button-export = Exportar
+button-finish = Finalizar
 
 ## Import from app steps
 
+app-name-thunderbird = Thunderbird
+app-name-seamonkey = SeaMonkey
+app-name-outlook = Outlook
+app-name-becky = Becky! Internet Mail
+app-name-apple-mail = Apple Mail
+source-outlook = Importar do { app-name-outlook }
+source-outlook-description = Importar contas, axendas de enderezos e mensaxes do { app-name-outlook }.
+source-becky = Importar do { app-name-becky }
+source-apple-mail = Importar do { app-name-apple-mail }
+source-apple-mail-description = Importa mensaxes do { app-name-apple-mail }.
+source-file2 = Importar dun ficheiro
 
 ## Import from file selections
 
