@@ -8,6 +8,12 @@ export-page-title = Exportar
 ## Header
 
 import-start = Ferramenta de importación
+import-start-title = Importa os axustes ou os datos desde unha aplicación ou desde un ficheiro.
+import-from-app = Importar de unha aplicación
+import-file = Importar de un ficheiro
+import-address-book-title = Importar un ficheiro de axenda de direccións
+import-calendar-title = Importar un ficheiro de calendario
+export-profile = Exportar
 
 ## Buttons
 
