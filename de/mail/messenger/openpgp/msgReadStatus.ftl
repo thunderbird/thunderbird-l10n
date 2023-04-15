@@ -2,29 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Message Header Encryption Button
 
 message-header-show-security-info-key = S
-
 #   $type (String) - the shortcut key defined in the message-header-show-security-info-key
 message-security-button =
-    .title = { PLATFORM() ->
-        [macos] Nachrichten-Sicherheit anzeigen (⌃ ⌘ { message-header-show-security-info-key })
-        *[other] Nachrichten-Sicherheit anzeigen (Strg+Alt+{ message-header-show-security-info-key })
-    }
-
+    .title =
+        { PLATFORM() ->
+            [macos] Nachrichten-Sicherheit anzeigen (⌃ ⌘ { message-header-show-security-info-key })
+           *[other] Nachrichten-Sicherheit anzeigen (Strg+Alt+{ message-header-show-security-info-key })
+        }
 openpgp-view-signer-key =
     .label = Schlüssel der digitalen Unterschrift anzeigen
 openpgp-view-your-encryption-key =
     .label = Ihren Schlüssel für Entschlüsselung anzeigen
 openpgp-openpgp = OpenPGP
-
 openpgp-no-sig = Keine digitale Unterschrift
 openpgp-no-sig-info = Diese Nachricht besitzt keine digitale Unterschrift des Absenders. Des Fehlen einer digitalen Unterschrift bedeutet, dass die Nachricht auch von jemandem gesendet worden sein kann, der vorgibt, diese E-Mail-Adresse zu besitzen. Die Nachricht kann auch während des Transports vom Absender zum Empfänger verändert worden sein.
 openpgp-uncertain-sig = Nicht gesicherte digitale Unterschrift
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-uncertain-sig-with-date = Unsichere digitale Signatur – Signiert am { $date }
 openpgp-invalid-sig = Ungültige digitale Unterschrift
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-invalid-sig-with-date = Ungültige digitale Signatur – Signiert am { $date }
 openpgp-good-sig = Gute digitale Unterschrift
-
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-good-sig-with-date = Gute digitale Signatur – Signiert am { $date }
 openpgp-sig-uncertain-no-key = Diese Nachricht enthält eine digitale Unterschrift, aber es ist nicht gesichert, dass diese korrekt ist. Um die digitale Unterschrift zu verifizieren, müssen Sie eine Kopie des öffentlichen Schlüssels des Absenders erhalten.
 openpgp-sig-uncertain-uid-mismatch = Diese Nachricht enthält eine digitale Unterschrift, aber es gab einen Fehler bei der Übereinstimmung. Die Nachricht wurde von einer E-Mail-Adresse gesendet, welche nicht mit der im öffentlichen Schlüssel des Unterschriftengebers übereinstimmt.
 openpgp-sig-uncertain-not-accepted = Diese Nachricht enthält eine digitale Unterschrift, aber Sie haben noch nicht entschieden, ob Sie den Schlüssel des Unterschriftengebers akzeptieren.
@@ -33,34 +40,34 @@ openpgp-sig-invalid-technical-problem = Diese Nachricht enthält eine digitale U
 openpgp-sig-valid-unverified = Diese Nachricht enthält eine gültige digitale Unterschrift mit einem bereits von Ihnen akzeptierten Schlüssel. Bislang haben Sie aber nicht verifiziert, dass der Schlüssel wirklich dem Sender gehört.
 openpgp-sig-valid-verified = Diese Nachricht enthält eine gültige digitale Unterschrift mit einem verifizierten Schlüssel.
 openpgp-sig-valid-own-key = Diese Nachricht enthält eine gültige digitale Unterschrift mit Ihrem persönlichen Schlüssel.
-
+# Variables:
+# $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = Schlüssel-ID der digitalen Unterschrift: { $key }
+# Variables:
+# $key (String) - The primary ID of the OpenPGP key used to create the signature.
+# $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
 openpgp-sig-key-id-with-subkey-id = Schlüssel-ID der digitalen Unterschrift: { $key } (Unterschlüssel-ID: { $subkey })
-
+# Variables:
+# $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = Ihr Schlüssel für Entschlüsselung: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Ihre Schlüssel-ID für Entschlüsselung: { $key } (Unterschlüssel-ID: { $subkey })
-
 openpgp-enc-none = Nachricht ist nicht verschlüsselt
 openpgp-enc-none-label = Die Nachricht wurde vor dem Senden nicht verschlüsselt. Unverschlüsselt über das Internet gesendete Informationen können von anderen Personen während des Transport gelesen werden.
-
 openpgp-enc-invalid-label = Nachricht kann nicht entschlüsselt werden
 openpgp-enc-invalid = Die Nachricht wurde vor dem Senden verschlüsselt, aber sie kann nicht entschlüsselt werden.
-
 openpgp-enc-clueless = Es sind unbekannte Probleme mit dieser verschlüsselten Nachricht aufgetreten.
-
 openpgp-enc-valid-label = Nachricht ist verschlüsselt
 openpgp-enc-valid = Die Nachricht wurde vor dem Senden verschlüsselt. Die Verschlüsselung stellt sicher, dass die Nachricht nur von den beabsichtigten Empfängern gelesen werden kann.
-
 openpgp-unknown-key-id = Unbekannter Schlüssel
-
 openpgp-other-enc-additional-key-ids = Zusätzlich wurde die Nachricht an die Besitzer der folgenden Schlüssel verschlüsselt gesendet:
 openpgp-other-enc-all-key-ids = Die Nachricht wurde an die Besitzer der folgenden Schlüssel verschlüsselt gesendet:
-
 openpgp-message-header-encrypted-ok-icon =
     .alt = Erfolgreich entschlüsselt
 openpgp-message-header-encrypted-notok-icon =
     .alt = Fehler bei der Entschlüsselung
-
 openpgp-message-header-signed-ok-icon =
     .alt = Gute digitale Unterschrift
 # Mismatch icon is used for notok state as well

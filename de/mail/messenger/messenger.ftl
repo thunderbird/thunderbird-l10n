@@ -31,6 +31,56 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Die Verbindung ist nicht verschlüsselt.
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Eine Seite zurück ({ $shortcut })
+    .aria-label = Zurück
+    .accesskey = Z
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Zurück
+    .accesskey = Z
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Eine Seite vor ({ $shortcut })
+    .aria-label = Vorwärts
+    .accesskey = V
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Vor
+    .accesskey = V
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Seite neu laden
+    .aria-label = Neu laden
+    .accesskey = N
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Seite neu laden
+    .label = Neu laden
+    .accesskey = N
+
+# Stop
+
+content-tab-menu-stop =
+    .tooltiptext = Laden der Seite beenden
+    .aria-label = Beenden
+    .accesskey = B
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Laden der Seite beenden
+    .label = Beenden
+    .accesskey = B
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +156,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Umleiten
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -153,6 +205,9 @@ message-header-hide-label-column =
 message-header-large-subject =
     .label = Betreff in großer Schrift
     .accesskey = B
+message-header-all-headers =
+    .label = Alle Kopfzeilen anzeigen
+    .accesskey = a
 
 ## Action Button Context Menu
 
@@ -166,9 +221,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } entfernen?
 addon-removal-confirmation-button = Entfernen
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Sowohl { $name } als auch seine Einstellungen und Daten in { -brand-short-name } entfernen?
 caret-browsing-prompt-title = Mit Textcursor-Steuerung arbeiten
 caret-browsing-prompt-text = Das Drücken der Taste F7 schaltet das Arbeiten mit Textcursor-Steuerung an und aus. Diese Funktion fügt einen bewegbaren Textcursor in den Inhaltsbereich ein, mit dem. z.B. Text ausgewählt werden kann. Soll die Textcursor-Steuerung aktiviert werden?
@@ -180,11 +237,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Antwort nicht unterstützt
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Nachrichten an die Antwortadresse ({ $email }) werden wahrscheinlich von niemandem gelesen.
 no-reply-reply-anyway-button = Trotzdem antworten
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } von { $total } Nachrichten konnten nicht entschlüsselt werden und wurden daher nicht kopiert.
 
 ## Spaces toolbar
@@ -230,6 +292,18 @@ settings-context-open-addons-item2 =
 
 spaces-toolbar-pinned-tab-button =
     .tooltiptext = Bereiche-Menü
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
 spaces-pinned-button-menuitem-show =
     .label = { spaces-toolbar-button-show.title }
 # Variables:
