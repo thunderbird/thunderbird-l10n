@@ -38,30 +38,80 @@ source-file2 = Importar dun ficheiro
 
 ## Import from file selections
 
+file-calendar = Importar calendarios
+file-addressbook = Importar axendas de enderezos
 
 ## Import from app profile steps
 
+from-app-thunderbird = Importar de un perfil do { app-name-thunderbird }
+from-app-seamonkey = Importar de un perfil do { app-name-seamonkey }
+from-app-outlook = Importar do { app-name-outlook }
+from-app-becky = Importar do { app-name-becky }
+from-app-apple-mail = Importar do { app-name-apple-mail }
+profiles-pane-title-outlook = Importar datos do { app-name-outlook }.
+profiles-pane-title-becky = Importar datos do { app-name-becky }.
+profiles-pane-title-apple-mail = Importar mensaxes do { app-name-apple-mail }.
+profile-source = Importar do perfil
+profile-file-picker-directory = Escolla un cartafol de perfil
+profile-file-picker-archive = Escolla un ficheiro <strong>ZIP</strong>
+profile-file-picker-archive-title = Escolla un ficheiro ZIP (menor de 2 GB)
+items-pane-title2 = Escolla o que quere importar:
+items-pane-directory = Directorio:
+items-pane-profile-name = Nome do perfil:
+items-pane-checkbox-accounts = Contas e configuración
+items-pane-checkbox-address-books = Axendas de enderezos
+items-pane-checkbox-calendars = Calendarios
+items-pane-checkbox-mail-messages = Mensaxes de correo
 
 ## Import from address book file steps
 
+addr-book-ldif-file = Ficheiro LDIF (.ldif)
+addr-book-vcard-file = Ficheiro vCard (.vcf, .vcard)
+addr-book-sqlite-file = Ficheiro de base de datos SQLite (.sqlite)
+addr-book-mab-file = Ficheiro de base de datos Mork (.mab)
+addr-book-directories-pane-source = Ficheiro de orixe:
 
 ## Import from calendar file steps
 
+calendar-items-title = Escolla os elementos a importar.
+calendar-items-loading = Cargando os elementos...
+calendar-items-filter-input =
+    .placeholder = Filtrando os elementos…
+calendar-select-all-items = Seleccionar todo
+calendar-deselect-all-items = Desmarcar todo
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = Importando… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Exportando… { $progressPercent }
+progress-pane-finished-desc2 = Concluída.
+error-pane-title = Erro
+error-message-no-profile = Non se atopou ningún perfil.
 
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = A primeira fila contén os nomes dos campos
+csv-source-field = Campo de orixe
+csv-source-first-record = Primeiro rexistro
+csv-source-second-record = Segundo rexistro
 
 ## Export tab
 
+export-open-profile-folder = Abrir o cartafol do perfil
+export-file-picker2 = Exportar a un ficheiro ZIP
+export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-title = Datos a importar
+summary-pane-start = Iniciar a importación
+summary-pane-start-over = Reiniciar a ferramenta de importación
 
 ## Footer area
 
+footer-help = Precisa de axuda?
 
 ## Step navigation on top of the wizard pages
 
