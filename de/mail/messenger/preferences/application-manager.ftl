@@ -5,7 +5,8 @@
 app-manager-window-dialog =
     .title = Anwendungs-Details
     .style = width: 30em; min-height: 20em;
-
+app-manager-window-dialog2 =
+    .title = Anwendungsdetails
 remove-app-button =
     .label = Entfernen
     .accesskey = E
