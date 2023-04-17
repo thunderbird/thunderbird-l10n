@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Naraźeńske powěsći w skoděrowanem formaśe składowaś
     .accesskey = r
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Zjawne kluce OpenPGP w e-mailowych głowach za kompatibelnosć z Autocrypt pósłaś
+    .accesskey = k
 openpgp-key-user-id-label = Konto / Wužywaŕski ID
 openpgp-keygen-title-label =
     .title = OpenPGP-kluc napóraś

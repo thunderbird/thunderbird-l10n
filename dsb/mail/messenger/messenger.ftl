@@ -73,6 +73,15 @@ content-tab-menu-reload-mac =
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Zacytanje boka zastajiś
+    .aria-label = Zastajiś
+    .accesskey = Z
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Zacytanje boka zastajiś
+    .label = Zastajiś
+    .accesskey = Z
 
 ## Toolbar
 
