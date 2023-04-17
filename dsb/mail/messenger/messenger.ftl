@@ -33,6 +33,47 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Zwisk njejo wěsty
 
+# Back
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Jaden bok slědk ({ $shortcut })
+    .aria-label = Slědk
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Slědk
+    .accesskey = S
+
+# Forward
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Jaden bok doprědka ({ $shortcut })
+    .aria-label = Doprědka
+    .accesskey = D
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Doprědka
+    .accesskey = D
+
+# Reload
+
+content-tab-menu-reload =
+    .tooltiptext = Bok znowego zacytaś
+    .aria-label = Zacytaś
+    .accesskey = Z
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Bok znowego zacytaś
+    .label = Zacytaś
+    .accesskey = Z
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -108,6 +149,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Dalej pósrědniś
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -173,9 +216,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } wótwónoźeś?
 addon-removal-confirmation-button = Wótwónoźeś
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = { $name } a jogo konfiguraciju a daty z { -brand-short-name } wótwónoźeś?
 caret-browsing-prompt-title = Tastaturowa nawigacija
 caret-browsing-prompt-text = Tłocenje tasty F7 zašaltujo abo wušaltujo tastaturowu nawigaciju. Toś ta funkcija staja pógibny kursor do wopśimjeśa a dowólujo wam tekst z tastaturu wubraś. Cośo něnto tastaturowu nawigaciju zašaltowaś?
@@ -187,11 +232,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Wótegrono se njepódpěra
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Zda se, až wótegronjeńska adresa ({ $email }) njejo doglědowana adresa. Powěsći na toś tu adresu se nejskerjej wót nikogo njecytaju.
 no-reply-reply-anyway-button = Weto wotegroniś
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } z { $total } powěsćow njejsu se dešifrěrowali a njejsu se kopěrowali.
 
 ## Spaces toolbar

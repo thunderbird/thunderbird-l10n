@@ -13,10 +13,6 @@ calendar-add-notification-button =
 calendar-list-header = Kalendarje
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Nastajenje kalendarja { $calendarName }
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Kalendaŕ { $calendarName } jo něnto nimy
 # Variables:
@@ -83,6 +79,8 @@ calendar-hide-weekends-option =
     .label = Jano źěłowe dny
 calendar-define-workweek-option =
     .label = Źěłowe dny definěrowaś
+calendar-show-tasks-calendar-option =
+    .label = Nadawki w kalendarju pokazaś
 
 ## Calendar Context Menu
 

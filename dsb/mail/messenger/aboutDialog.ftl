@@ -18,6 +18,7 @@ update-failed = Aktualizěrowanje njejo se raźiło. <a data-l10n-name="failed-l
 update-admin-disabled = Aktualizacije su se wót twójogo administratora znjemóžnili
 update-no-updates-found = { -brand-short-name } jo aktualny
 update-other-instance-handling-updates = { -brand-short-name } aktualizěrujo se pśez drugu instancu
+update-manual = Aktualizacije k dispoziciji na <a data-l10n-name="manual-link"/>
 update-unsupported = Njamóžośo dalšne aktualizacije na toś tom systemje pśewjasć. <a data-l10n-name="unsupported-link">Dalšne informacije</a>
 update-restarting = Startujo se znowego…
 # Variables:
