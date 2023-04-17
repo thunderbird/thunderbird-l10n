@@ -207,7 +207,7 @@ menu-open-key-manager =
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
-openpgp-key-issue-notification-from = Nid ydych wedi'ch gosod i anfon negeseuon wedi'u hamgryptio o un pen i'r llall oddi wrth { $addr }.
+openpgp-key-issue-notification-from = Nid ydych wedi'ch gosod i anfon negeseuon wedi'u hamgryptio ben-i-ben oddi wrth { $addr }.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $addr }
@@ -320,7 +320,7 @@ many-public-recipients-prompt-send = Anfonwch Beth Bynnag
 compose-missing-identity-warning = Methu canfod hunaniaeth unigryw sy'n cyd-fynd a'r cyfeiriad Oddi wrth. Bydd y neges yn cael ei hanfon gan ddefnyddio'r maes Oddi wrth cyfredol a'r gosodiadau o hunaniaeth { $identity }.
 encrypted-bcc-warning = Wrth anfon neges wedi'i hamgryptio, nid yw'r derbynwyr yn Bcc wedi'u cuddio'n llawn. Efallai y bydd pob derbynnydd yn gallu eu hadnabod.
 encrypted-bcc-ignore-button = Wedi Deall
-auto-disable-e2ee-warning = Analluogwyd amgryptio o un pen i'r llall ar gyfer y neges hon yn awtomatig.
+auto-disable-e2ee-warning = Analluogwyd amgryptio pen-i-ben y neges hon yn awtomatig.
 
 ## Editing
 
