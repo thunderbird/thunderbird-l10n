@@ -113,6 +113,11 @@ quick-filter-bar-gloda-upsell-line1 = Kemmel anadi yinek ɣer ikaramen-agi
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Sit ‘Kcem’  tikelt nniḍen akken ad tedduḍ deg unadi yinek n: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Awi izen
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -125,10 +130,15 @@ threadpane-column-header-flagged =
     .title = Asmizzwer s yetri
 threadpane-column-label-flagged =
     .label = Ɣur-s itri
+threadpane-flagged-cell-label = Ɣur-s itri
 threadpane-column-header-attachments =
     .title = Asmizzer s tceqqufin yeddan
 threadpane-column-label-attachments =
     .label = Ticeqqufin yeddan
+threadpane-attachments-cell-label = Ticeqqufin yeddan
+threadpane-column-label-spam =
+    .label = Aspam
+threadpane-spam-cell-label = Aspam
 threadpane-column-header-sender = Si
     .title = Asmizzwer s Si
 threadpane-column-label-sender =

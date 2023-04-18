@@ -20,8 +20,8 @@ calendar-invitation-panel-decline-button = Uhu
 calendar-invitation-panel-tentative-button = Ahat
 calendar-invitation-panel-reply-status = *Mazal ur tt-tegzimeḍ deg ṛṛay neɣ mazal ur d-terriḍ
 calendar-invitation-panel-more-button = Ugar
-calendar-invitation-panel-menu-item-save =
-    .label = Sekles deg uwitay
+calendar-invitation-panel-menu-item-save-copy =
+    .label = Sekles anɣel
 calendar-invitation-panel-menu-item-toggle-changes =
     .label = Sken ibeddilen
 calendar-invitation-panel-prop-title-when = Melmi:
@@ -39,6 +39,7 @@ calendar-invitation-datetime-time = { $time } ({ $timezone })
 # $startDate (String) - The date (without time) the event starts on.
 calendar-invitation-interval-all-day = { $startDate }
 # Example: September 16, 2022 – September 16, 2023
+# Variables:
 # $startMonth (String) - The month the interval starts.
 # $startDay   (String) - The day of the month the interval starts.
 # $startYear  (String) - The year the interval starts.
@@ -47,32 +48,38 @@ calendar-invitation-interval-all-day = { $startDate }
 # $endYear    (String) - The year the interval ends.
 calendar-invitation-interval-all-day-between-years = { $startMonth } { $startDay }, { $startYear } – { $endMonth } { $endDay }, { $endYear }
 # Example: September 16 – 20, 2022
+# Variables:
 # $month      (String) - The month the interval is in.
 # $startDay   (String) - The day of the month the interval starts.
 # $endDay     (String) - The day of the month the interval ends.
 # $year       (String) - The year the interval is in.
 calendar-invitation-interval-all-day-in-month = { $month } { $startDay } – { $endDay }, { $year }
 # Example: September 16 – October 20, 2022
+# Variables:
 # $startMonth (String) - The month the interval starts.
 # $startDay   (String) - The day of the month the interval starts.
+# $endMonth   (String) - The month the interval ends.
 # $endDay     (String) - The day of the month the interval ends.
 # $year       (String) - The year the interval is in.
 calendar-invitation-interval-all-day-between-months = { $startMonth } { $startDay } – { $endMonth } { $endDay }, { $year }
 # Example: Friday, September 16, 2022 15:00 America/Port of Spain
+# Variables:
 # $startDate (String) - The date the interval starts.
 # $startTime (String) - The time the interval starts.
 # $timezone  (String) - The timezone the interval is in.
 calendar-invitation-interval-same-date-time = { $startDate } <b>{ $startTime }</b> { $timezone }
 # Example: Friday, September 16, 2022 14:00 – 16:00 America/Port of Spain
+# Variables:
 # $startDate (String) - The date the interval starts.
 # $startTime (String) - The time the interval starts.
 # $endTime   (String) - The time the interval ends.
 # $timezone  (String) - The timezone the interval is in.
 calendar-invitation-interval-same-day = { $startDate } <b>{ $startTime }</b> – <b>{ $endTime }</b> { $timezone }
 # Example: Friday, September 16, 2022 14:00 – Tuesday, September 20, 2022 16:00 America/Port of Spain
+# Variables:
 # $startDate (String) - The date the interval starts.
 # $startTime (String) - The time the interval starts.
-# $startDate (String) - The date the interval ends.
+# $endDate   (String) - The date the interval ends.
 # $endTime   (String) - The time the interval ends.
 # $timezone  (String) - The timezone the interval is in.
 calendar-invitation-interval-several-days = { $startDate } <b>{ $startTime }</b> – { $endDate } <b>{ $endTime }</b> { $timezone }

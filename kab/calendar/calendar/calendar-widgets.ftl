@@ -10,9 +10,32 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Iwitayen
+calendar-new-event-primary-button = Rnu tadyant
+calendar-new-task-primary-button = Tawuri tamaynut
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Ass yezrin
+    .accesskey = s
+calendar-nav-button-prev-tooltip-week =
+    .title = Dduṛt yezrin
+    .accesskey = s
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Dduṛt yezrin
+    .accesskey = s
+calendar-nav-button-prev-tooltip-month =
+    .title = Aggur yezrin
+    .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = Aseggas yezrin
+    .accesskey = s
+calendar-nav-button-next-tooltip-day =
+    .title = Ass d-iteddun
+    .accesskey = X
+calendar-today-button-tooltip =
+    .title = Ddu ɣer Ass-a
 calendar-view-toggle-day = Ass
     .title = Ddu ɣer tmeẓri n wass
 calendar-view-toggle-week = Dduṛt
@@ -24,6 +47,8 @@ calendar-view-toggle-month = Aggur
 
 ## Menu on calendar control bar
 
+calendar-hide-weekends-option =
+    .label = Ussan n dduṛt kan
 
 ## Calendar Context Menu
 

@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
+
+
 ## Header
 
 account-hub-brand = { -brand-full-name }
@@ -14,13 +18,14 @@ account-hub-release-notes = Iwenniten n lqem
 account-hub-support = Tallalt
 account-hub-donate = Mudd tawsa
 
-## Start page
+## Initial setup page
 
-account-hub-email-button = Sbadu amiḍan n yimayl
-account-hub-new-email-button = Awi tansa n yimayl tamaynut
-account-hub-calendar-button = Sbadu awitay
-account-hub-address-book-button = Sbadu  imedlis n tensa
-account-hub-chat-button = Sbadu adiwenni
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Qqen ɣer Sync…
 
 ## Email page
 
+account-hub-email-cancel-button = Sefsex
+account-hub-email-back-button = Ɣer deffir
+account-hub-email-continue-button = Kemmel
+account-hub-email-confirm-button = Sentem
