@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Tallunt tafallaẓt
+search-bar-label = Nadi
 toolbar-write-message-label = Aru
 toolbar-write-message =
     .title = Rnu izen amaynut

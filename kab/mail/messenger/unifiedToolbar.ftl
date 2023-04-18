@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Nadi
+search-bar-item =
+    .label = Nadi:
+search-bar-placeholder = Nadi…
 
 ## Unified toolbar context menu
 

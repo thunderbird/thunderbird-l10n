@@ -31,6 +31,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Tuqqna d taraɣelsant
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -106,6 +118,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Abeddel n uwelleh
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -152,9 +166,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Kkes { $name }?
 addon-removal-confirmation-button = Kkes
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Kkes { $name } am netta am twila-ines d yisefka-ines seg { -brand-short-name }?
 caret-browsing-prompt-title = Tunigin s teḥnaccaṭ
 caret-browsing-prompt-text = Asiti ɣef F7 ad irmed neɣ ad irermed tunigin s teḥnaccat. Twuri-agi ad tsers taḥnaccaṭ ileḥḥun s war kra n ugbur, ayen ad yanfen afran n uḍris s unasiw, tebɣiḍ ad tremdeḍ tunigin s teḥnaccaṭ?
@@ -166,11 +182,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Tiririt ur tettusefrak ara
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Tansa n tririt ({ $email }) ur d-tban ara d tansa yettuɛassen. Iznan yettwaznen ɣer tensa-a ulac ahat win i ten-yeɣran.
 no-reply-reply-anyway-button = Err akken ibɣu yili
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } n { $total } yiznan gguman ad asen-yettwakkes uwgelhen, ur ttwanɣalen ara.
 
 ## Spaces toolbar
@@ -201,11 +222,29 @@ spaces-context-new-window-item =
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
     .label = Uɣal ɣer { $tabName }
+settings-context-open-settings-item2 =
+    .label = Iɣewwaren
+settings-context-open-account-settings-item2 =
+    .label = Iɣewwaṛen n umiḍan
+settings-context-open-addons-item2 =
+    .label = Izegrar d yisental
 
 ## Spaces toolbar pinned tab menupopup
 
 spaces-toolbar-pinned-tab-button =
     .tooltiptext = Umuɣ n tallunin
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
 spaces-pinned-button-menuitem-show =
     .label = { spaces-toolbar-button-show.title }
 # Variables:
