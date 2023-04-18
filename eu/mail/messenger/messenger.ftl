@@ -71,6 +71,15 @@ content-tab-menu-reload-mac =
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Gelditu orria kargatzea
+    .aria-label = Gelditu
+    .accesskey = G
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Gelditu orria kargatzea
+    .label = Gelditu
+    .accesskey = G
 
 ## Toolbar
 
