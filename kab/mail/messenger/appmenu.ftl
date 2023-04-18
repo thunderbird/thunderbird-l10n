@@ -52,9 +52,17 @@ appmenu-tools-panel-title =
 appmenu-tools-panel =
     .label = Ifecka
     .accesskey = I
+appmenu-tools-import =
+    .label = Kter
+    .accesskey = K
+appmenu-tools-export =
+    .label = Sifeḍ
+    .accesskey = S
 
 ## Help
 
+appmenu-help-panel-title =
+    .title = Tallalt
 
 ## Application Update
 

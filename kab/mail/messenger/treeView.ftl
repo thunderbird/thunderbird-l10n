@@ -7,3 +7,5 @@
 
 tree-list-view-column-picker =
     .title = Fren tigejda ad-sekneḍ
+tree-list-view-column-picker-restore =
+    .label = Err-d amizzwer n tgejda
