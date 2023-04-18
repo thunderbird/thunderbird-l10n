@@ -19,3 +19,4 @@
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name = Thunderbird
 -vendor-short-name = Mozilla
+trademarkInfo = Is trádmharcanna de chuid Fondúireacht Mozilla iad Thunderbird agus suaitheantais Thunderbird.
