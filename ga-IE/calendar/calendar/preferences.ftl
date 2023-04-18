@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-title = Féilire
+calendar-title-reminder = Meabhrúcháin
+calendar-title-notification = Fógraí
+calendar-title-category = Catagóirí
 dateformat-label =
     .value = Formáid Téacs do Dhátaí:
     .accesskey = D
@@ -33,6 +37,8 @@ day-7-name =
 show-weeknumber-label =
     .label = Taispeáin uimhir na seachtaine in amhairc agus sa mionmhí
     .accesskey = n
+workdays-label =
+    .value = Laethanta na seachtaine oibre:
 day-1-checkbox =
     .label = Domh
     .accesskey = D
