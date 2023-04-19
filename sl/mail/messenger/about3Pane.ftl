@@ -123,6 +123,15 @@ folder-pane-write-message-button = Novo sporočilo
     .title = Napiši novo sporočilo
 folder-pane-more-menu-button =
     .title = Možnosti podokna map
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Načini map
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Prikaži gumb "Prejmi sporočila"
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Prikaži gumb "Novo sporočilo"
 folder-pane-header-context-hide =
     .label = Skrij glavo podokna map
 
