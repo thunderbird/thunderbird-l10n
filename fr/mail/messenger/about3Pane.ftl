@@ -121,6 +121,15 @@ folder-pane-write-message-button = Nouveau message
     .title = Rédiger un nouveau message
 folder-pane-more-menu-button =
     .title = Options du panneau des dossiers
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modes des dossiers
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Afficher les « messages reçus »
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Afficher « Nouveau message »
 folder-pane-header-context-hide =
     .label = Masquer l’en-tête du panneau des dossiers
 
