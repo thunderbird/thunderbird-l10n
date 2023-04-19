@@ -33,6 +33,7 @@ appmenu-create-panel-title =
 appmenu-view-panel-title =
     .title = Sken
 appmenu-font-size-value = Teɣzi n tsefsit
+appmenu-mail-uidensity-value = Taneẓẓi
 appmenu-uidensity-compact =
     .tooltiptext = Ussid
 appmenu-uidensity-default =
