@@ -60,6 +60,7 @@ openpgp-enc-invalid-label = Non se pode descifrar a mensaxe
 openpgp-enc-invalid = Esta mensaxe foi cifrada antes do seu envío, mais non é posíbel descifrala.
 openpgp-enc-clueless = Hai  problemas descoñecidos con esta mensaxe cifrada
 openpgp-enc-valid-label = A mensaxe está cifrada
+openpgp-enc-valid = Esta mensaxe cifrouse antes do seu envío. O cifrado garante que a mensaxe só pode ser lida polos destinatarios aos que está destinada.
 openpgp-unknown-key-id = Chave descoñecida
 openpgp-other-enc-additional-key-ids = Alem diso, a mensaxe cifrouse para os propietarios das seguintes chaves:
 openpgp-other-enc-all-key-ids = A mensaxe cifrouse para os propietarios das seguintes chaves:
