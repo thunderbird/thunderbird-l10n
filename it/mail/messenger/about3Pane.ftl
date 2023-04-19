@@ -121,6 +121,15 @@ folder-pane-write-message-button = Nuovo messaggio
     .title = Scrivi un nuovo messaggio
 folder-pane-more-menu-button =
     .title = Opzioni del pannello cartelle
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modalità cartella
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Mostra “Ricevi messaggi”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Mostra “Nuovo messaggio”
 folder-pane-header-context-hide =
     .label = Nascondi intestazione pannello cartelle
 
