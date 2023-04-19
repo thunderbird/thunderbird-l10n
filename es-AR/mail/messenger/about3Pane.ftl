@@ -121,6 +121,15 @@ folder-pane-write-message-button = Nuevo mensaje
     .title = Redactar un nuevo mensaje
 folder-pane-more-menu-button =
     .title = Opciones de vista de carpetas
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modos de carpeta
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Mostrar "Obtener mensajes"
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Mostrar "Nuevo mensaje"
 folder-pane-header-context-hide =
     .label = Ocultar encabezado de vista de carpetas
 
