@@ -121,6 +121,15 @@ folder-pane-write-message-button = Nove message
     .title = Compone un message nove
 folder-pane-more-menu-button =
     .title = Optiones del pannello de plica
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modos plica
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Monstrar “Obtener messages”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Monstrar “Nove message”
 folder-pane-header-context-hide =
     .label = Celar le titulo de pannello de plica
 
