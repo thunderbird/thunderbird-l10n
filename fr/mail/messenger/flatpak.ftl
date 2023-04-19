@@ -9,7 +9,7 @@
 # This is the label on the icon
 flatpak-desktop-name = { -brand-short-name }
 # Appears as a tooltip when hovering over application menu entry
-flatpak-desktop-comment = Envoyez et recevez du courrier avec { -brand-product-name }
+flatpak-desktop-comment = Envoyez et recevez des e-mails avec { -brand-product-name }
 # A generic description of Thunderbird
 flatpak-desktop-generic-name = Client de courrier
 
