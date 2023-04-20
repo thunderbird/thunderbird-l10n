@@ -159,12 +159,15 @@ export-brand-name = { -brand-product-name }
 
 summary-pane-title = Datos a importar
 summary-pane-start = Iniciar a importación
+summary-pane-warning = O { -brand-product-name } terá que reiniciarse cando se complete a importación.
 summary-pane-start-over = Reiniciar a ferramenta de importación
 
 ## Footer area
 
 footer-help = Precisa de axuda?
 footer-import-documentation = Documentación sobre a importación
+footer-export-documentation = Documentación sobre a exportación
+footer-support-forum = Foro de asistencia
 
 ## Step navigation on top of the wizard pages
 
