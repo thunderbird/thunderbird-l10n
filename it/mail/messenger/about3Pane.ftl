@@ -126,7 +126,7 @@ folder-pane-header-folder-modes =
     .label = Modalità cartella
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
-    .label = Mostra “Ricevi messaggi”
+    .label = Mostra “Scarica messaggi”
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Mostra “Nuovo messaggio”
