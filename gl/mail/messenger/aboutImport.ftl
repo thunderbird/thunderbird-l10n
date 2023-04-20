@@ -99,15 +99,30 @@ addr-book-directories-pane-source = Ficheiro de orixe:
 addr-book-import-into-new-directory2 = Crear un novo directorio chamado <strong>«{ $addressBookName }»</strong>
 # $addressBookName (string) - name of the address book to import into
 addr-book-summary-title = Importar os datos escollidos no directorio «{ $addressBookName }».
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = Crearase unha nova axenda de enderezos chamada «{ $addressBookName }».
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = Seleccione o ficheiro iCalendar (.ics) que desexa importar.
 calendar-items-title = Escolla os elementos a importar.
 calendar-items-loading = Cargando os elementos...
 calendar-items-filter-input =
     .placeholder = Filtrando os elementos…
 calendar-select-all-items = Seleccionar todo
 calendar-deselect-all-items = Desmarcar todo
+calendar-target-title = Seleccione onde importar os elementos escollidos.
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = Crear un novo calendario chamado <strong>«{ $targetCalendar }»</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+        [one] Importar o elemento no calendario «{ $targetCalendar }».
+       *[other] Importar os { $itemCount } elementos no calendario «{ $targetCalendar }».
+    }
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = Crearase un novo calendario chamado «{ $targetCalendar }».
 
 ## Import dialog
 
