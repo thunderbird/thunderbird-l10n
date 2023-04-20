@@ -126,10 +126,10 @@ folder-pane-header-folder-modes =
     .label = Modos de carpeta
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
-    .label = Mostrar "Obtener mensajes"
+    .label = Mostrar “Obtener mensajes”
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
-    .label = Mostrar "Nuevo mensaje"
+    .label = Mostrar “Nuevo mensaje”
 folder-pane-header-context-hide =
     .label = Ocultar encabezado de vista de carpetas
 
