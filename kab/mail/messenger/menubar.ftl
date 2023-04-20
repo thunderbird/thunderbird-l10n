@@ -20,6 +20,21 @@ menu-addons-and-themes =
 menu-help-help-title =
     .label = Tallalt
     .accesskey = T
+menu-help-get-help =
+    .label = Awi tallalt
+    .accesskey = T
+menu-help-explore-features =
+    .label = Snirem timahilin
+    .accesskey = M
+menu-help-shortcuts =
+    .label = Inegzumen n unasiw
+    .accesskey = U
+menu-help-get-involved =
+    .label = Ttekki
+    .accesskey = T
+menu-help-donation =
+    .label = Mudd tawsa
+    .accesskey = T
 menu-help-enter-troubleshoot-mode =
     .label = Askar n usellek…
     .accesskey = A
@@ -29,6 +44,11 @@ menu-help-exit-troubleshoot-mode =
 menu-help-more-troubleshooting-info =
     .label = Ugar n talɣut n usellek
     .accesskey = U
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = Anef { -brand-shorter-name }
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 
