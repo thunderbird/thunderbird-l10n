@@ -10,11 +10,11 @@
 <!ENTITY pixelsPopup.value "piksel">
 
 <!-- These are in the Location tab panel -->
-<!ENTITY locationEditField.label "Resim Konumu:">
+<!ENTITY locationEditField.label "Resim konumu:">
 <!ENTITY locationEditField.accessKey "R">
 <!ENTITY locationEditField.tooltip "Resmin dosya adını veya konumunu yazın">
 <!ENTITY locationEditField.shortenedDataURI "Kısaltılmış veri URI’si (Kopyalarsanız panoya tam URI kopyalanır.)">
-<!ENTITY title.label "Bilgi Notu:">
+<!ENTITY title.label "Araç ipucu:">
 <!ENTITY title.accessKey "B">
 <!ENTITY title.tooltip "Fareyle üzerine gelindiğinde görünecek HTML 'title' özniteliği">
 <!ENTITY altText.label "Alternatif metin:">
@@ -29,13 +29,13 @@
 <!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Gerçek boyut:">
 <!ENTITY actualSizeRadio.label "Gerçek boyut">
-<!ENTITY actualSizeRadio.accessKey "e">
+<!ENTITY actualSizeRadio.accessKey "G">
 <!ENTITY actualSizeRadio.tooltip "Resmin gerçek ölçülerine dön">
 <!ENTITY customSizeRadio.label "Özel boyut">
-<!ENTITY customSizeRadio.accessKey "l">
+<!ENTITY customSizeRadio.accessKey "Ö">
 <!ENTITY customSizeRadio.tooltip "Resmin boyutunu sayfada göründüğü gibi değiştir">
 <!ENTITY heightEditField.label "Yükseklik:">
-<!ENTITY heightEditField.accessKey "Y">
+<!ENTITY heightEditField.accessKey "n">
 <!ENTITY widthEditField.label "Genişlik:">
 <!ENTITY widthEditField.accessKey "G">
 <!ENTITY constrainCheckbox.label "Zorla">
@@ -43,12 +43,12 @@
 <!ENTITY constrainCheckbox.tooltip "Resmin en/boy oranını koru">
 
 <!-- These controls are in the Image Map box of the expanded area -->
-<!ENTITY imagemapBox.label "Görüntü Haritası">
+<!ENTITY imagemapBox.label "Resim haritası">
 <!ENTITY removeImageMapButton.label "Kaldır">
-<!ENTITY removeImageMapButton.accessKey "K">
+<!ENTITY removeImageMapButton.accessKey "a">
 
 <!-- These are the options for image alignment -->
-<!ENTITY alignment.label "Metni Resme Hizala">
+<!ENTITY alignment.label "Metni resme hizala">
 <!ENTITY bottomPopup.value "Altta">
 <!ENTITY topPopup.value "Üstte">
 <!ENTITY centerPopup.value "Ortada">
@@ -57,16 +57,16 @@
 
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Aralık">
-<!ENTITY leftRightEditField.label "Sol ve Sağ:">
-<!ENTITY leftRightEditField.accessKey "l">
-<!ENTITY topBottomEditField.label "Üst ve Alt:">
-<!ENTITY topBottomEditField.accessKey "s">
-<!ENTITY borderEditField.label "Kesintisiz Kenarlık:">
-<!ENTITY borderEditField.accessKey "s">
+<!ENTITY leftRightEditField.label "Sol ve sağ:">
+<!ENTITY leftRightEditField.accessKey "S">
+<!ENTITY topBottomEditField.label "Üst ve alt:">
+<!ENTITY topBottomEditField.accessKey "Ü">
+<!ENTITY borderEditField.label "Kesintisiz kenarlık:">
+<!ENTITY borderEditField.accessKey "K">
 
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Bağlantılı resmin etrafında kenarlık göster">
-<!ENTITY showImageLinkBorder.accessKey "g">
+<!ENTITY showImageLinkBorder.accessKey "B">
 <!ENTITY LinkAdvancedEditButton.label "Gelişmiş bağlantı düzenleme…">
 <!ENTITY LinkAdvancedEditButton.accessKey "G">
 <!ENTITY LinkAdvancedEditButton.tooltip "HTML öznitelikleri, biçim öznitelikleri ve JavaScript ekle veya değiştir">
