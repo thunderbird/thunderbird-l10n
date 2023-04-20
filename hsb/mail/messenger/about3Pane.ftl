@@ -123,6 +123,9 @@ folder-pane-write-message-button = Nowa powěsć
     .title = Nowu powěsć spisać
 folder-pane-more-menu-button =
     .title = Nastajenja wobłuka rjadowaka
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Rjadowakowe modusy
 folder-pane-header-context-hide =
     .label = Hłowu wobłuka rjadowaka schować
 
