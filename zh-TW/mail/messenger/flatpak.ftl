@@ -11,7 +11,7 @@ flatpak-desktop-name = { -brand-short-name }
 # Appears as a tooltip when hovering over application menu entry
 flatpak-desktop-comment = 使用 { -brand-product-name } 收發郵件
 # A generic description of Thunderbird
-flatpak-desktop-generic-name = 郵件用戶端
+flatpak-desktop-generic-name = 郵件軟體
 
 ## Actions Section
 ## These are alternative ways of starting Thunderbird, such as open the compose
@@ -20,5 +20,5 @@ flatpak-desktop-generic-name = 郵件用戶端
 
 flatpak-desktop-action-compose = 撰寫新訊息
 flatpak-desktop-action-addressbook = 開啟通訊錄
-flatpak-desktop-action-calendar = 開啟行事歷
+flatpak-desktop-action-calendar = 開啟行事曆
 flatpak-desktop-action-keymanager = 開啟 OpenPGP 金鑰管理員
