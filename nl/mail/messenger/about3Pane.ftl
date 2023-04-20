@@ -121,6 +121,15 @@ folder-pane-write-message-button = Nieuw bericht
     .title = Een nieuw bericht opstellen
 folder-pane-more-menu-button =
     .title = Mappenpaneelopties
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Mapmodi
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = ‘Berichten ophalen’ tonen
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = ‘Nieuw bericht’ tonen
 folder-pane-header-context-hide =
     .label = Koptekst mappenpaneel verbergen
 
