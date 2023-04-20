@@ -121,6 +121,15 @@ folder-pane-write-message-button = Νέο μήνυμα
     .title = Σύνθεση νέου μηνύματος
 folder-pane-more-menu-button =
     .title = Επιλογές περιοχής φακέλων
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Λειτουργίες φακέλων
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Εμφάνιση του «Λήψη μηνυμάτων»
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Εμφάνιση του «Νέο μήνυμα»
 folder-pane-header-context-hide =
     .label = Απόκρυψη κεφαλίδας προβολής φακέλων
 
