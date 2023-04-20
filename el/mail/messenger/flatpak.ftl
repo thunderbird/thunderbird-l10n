@@ -21,3 +21,4 @@ flatpak-desktop-generic-name = Πρόγραμμα email
 flatpak-desktop-action-compose = Σύνταξη νέου μηνύματος
 flatpak-desktop-action-addressbook = Άνοιγμα ευρετηρίου
 flatpak-desktop-action-calendar = Άνοιγμα ημερολογίου
+flatpak-desktop-action-keymanager = Άνοιγμα διαχείρισης κλειδιών OpenPGP
