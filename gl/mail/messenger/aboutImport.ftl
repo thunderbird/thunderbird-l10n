@@ -135,6 +135,8 @@ error-pane-title = Erro
 error-message-zip-file-too-big2 = O ficheiro ZIP seleccionado ten máis de 2 GB. Primeiro extraia o contido e despois impórteo desde o cartafol extraído.
 error-message-extract-zip-file-failed2 = Produciuse un erro ao extraer o ficheiro ZIP. Extráiao manualmente e despois impórteo desde o cartafol extraído.
 error-message-failed = Produciuse un erro inesperado na importación, é posible que haxa máis información na consola de erros.
+error-failed-to-parse-ics-file = Non se atoparon elementos importábeis no ficheiro.
+error-export-failed = Produciuse un erro inesperado na exportación, é posible que haxa máis información na consola de erros.
 error-message-no-profile = Non se atopou ningún perfil.
 
 ## <csv-field-map> element
@@ -143,9 +145,12 @@ csv-first-row-contains-headers = A primeira fila contén os nomes dos campos
 csv-source-field = Campo de orixe
 csv-source-first-record = Primeiro rexistro
 csv-source-second-record = Segundo rexistro
+csv-target-field = Campo da axenda de enderezos
 
 ## Export tab
 
+export-profile-title = Exportar contas, mensaxes, axendas de enderezos e configuración a un ficheiro ZIP.
+export-profile-description = Se o seu perfil actual supera os 2 GB, recomendámosche que faga unha copia de seguranza vostede mesmo.
 export-open-profile-folder = Abrir o cartafol do perfil
 export-file-picker2 = Exportar a un ficheiro ZIP
 export-brand-name = { -brand-product-name }
