@@ -185,6 +185,10 @@ menu-open-key-manager =
     .label = Anahtar yöneticisi
     .accesskey = n
 # Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = { $addr } adresinden uçtan uca şifreli ileti göndermek için gereken ayarları yapmadınız.
+# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Uçtan uca şifreleme için { $addr } anahtar sorunlarını çözmeniz gerekiyor
 # Variables:
@@ -288,6 +292,7 @@ many-public-recipients-prompt-send = Yine de gönder
 compose-missing-identity-warning = Gönderen adresiyle eşleşen benzersiz kimlik bulunamadı. İleti, mevcut "Gönderen" alanı ve { $identity } kimliğine ait ayarlarla gönderilecek.
 encrypted-bcc-warning = Şifrelenmiş ileti gönderirken Bcc’deki alıcılar tamamen gizlenmez. Tüm alıcılar diğer alıcıları görebilir.
 encrypted-bcc-ignore-button = Anladım
+auto-disable-e2ee-warning = Bu ileti için uçtan uca şifreleme otomatik olarak devre dışı bırakıldı.
 
 ## Editing
 

@@ -121,6 +121,15 @@ folder-pane-write-message-button = Yeni ileti
     .title = Yeni bir ileti oluştur
 folder-pane-more-menu-button =
     .title = Dizin bölmesi seçenekleri
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Dizin modları
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = “İletileri al” düğmesini göster
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = “Yeni ileti” düğmesini göster
 folder-pane-header-context-hide =
     .label = Dizin bölmesi başlığını gizle
 
