@@ -148,7 +148,7 @@ appmenu-help-enter-troubleshoot-mode =
 appmenu-help-exit-troubleshoot-mode =
     .label = Sorun giderme modunu kapat
 appmenu-help-more-troubleshooting-info =
-    .label = Sorun giderme bilgileri
+    .label = Diğer sorun giderme bilgileri
 appmenu-redirect-msg =
     .label = Yönlendir
 

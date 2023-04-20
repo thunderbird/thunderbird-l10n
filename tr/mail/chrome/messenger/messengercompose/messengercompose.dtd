@@ -11,7 +11,7 @@
 <!ENTITY newMenu.label "Yeni">
 <!ENTITY newMenu.accesskey "n">
 <!ENTITY newMessage.label "İleti">
-<!ENTITY newMessage.accesskey "G">
+<!ENTITY newMessage.accesskey "İ">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Adres defteri kişisi…">
 <!ENTITY newContact.accesskey "A">
@@ -129,7 +129,7 @@
 <!-- Options Menu -->
 <!ENTITY optionsMenu.label "Seçenekler">
 <!ENTITY optionsMenu.accesskey "S">
-<!ENTITY checkSpellingCmd2.label "Yazımı denetle…">
+<!ENTITY checkSpellingCmd2.label "Yazım denetimi…">
 <!ENTITY checkSpellingCmd2.key "p">
 <!ENTITY checkSpellingCmd2.key2 "VK_F7">
 <!ENTITY checkSpellingCmd2.accesskey "Y">

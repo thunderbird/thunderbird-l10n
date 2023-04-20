@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Karşı teklifleri kabul etmeyeceğinizi gösterir">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -87,14 +84,10 @@
     - when editing events/tasks in a tab. -->
 <!ENTITY  event.menu.item.saveandclose.label              "Kaydet ve kapat">
 <!ENTITY  event.menu.item.saveandclose.accesskey          "a">
-<!ENTITY  event.menu.item.saveandclose.tab.accesskey      "z">
+<!ENTITY  event.menu.item.saveandclose.tab.accesskey      "e">
 
 <!ENTITY  event.menu.item.delete.label                    "Sil…">
 <!ENTITY  event.menu.item.delete.accesskey                "S">
-<!ENTITY  event.menu.item.page.setup.label                "Sayfa düzeni">
-<!ENTITY  event.menu.item.page.setup.accesskey            "z">
-<!ENTITY  event.menu.item.print.label                     "Yazdır">
-<!ENTITY  event.menu.item.print.accesskey                 "r">
 
 <!ENTITY  event.menu.edit.label                           "Düzenle">
 <!ENTITY  event.menu.edit.accesskey                       "e">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "a">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Özelleştir…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "z">
-<!ENTITY  event.menu.view.showlink.label                  "İlgili bağlantıyı göster">
-<!ENTITY  event.menu.view.showlink.accesskey              "b">
 
 <!ENTITY  event.menu.options.label                            "Seçenekler">
 <!ENTITY  event.menu.options.accesskey                        "S">

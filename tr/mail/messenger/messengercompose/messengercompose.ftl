@@ -89,7 +89,7 @@ add-attachment-notification-reminder2 =
     .accesskey = D
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 menuitem-attach-files =
-    .label = Dosya(lar)…
+    .label = Dosya…
     .accesskey = D
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
@@ -114,6 +114,10 @@ attachment-area-show =
     .title = Ek bölmesini göster ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
     .title = Ek bölmesini gizle ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
 drop-file-label-attachment =
     { $count ->
         [one] Dosya olarak ekle
@@ -180,9 +184,17 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Anahtar yöneticisi
     .accesskey = n
+# Variables:
+# $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Uçtan uca şifreleme için { $addr } anahtar sorunlarını çözmeniz gerekiyor
+# Variables:
+# $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-many = Uçtan uca şifreleme için { $count } alıcının anahtar sorunlarını çözmeniz gerekiyor.
+# Variables:
+# $addr (String) - Email address with certificate issues.
 smime-cert-issue-notification-one = Uçtan uca şifreleme için { $addr } sertifika sorunlarını çözmeniz gerekiyor.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Uçtan uca şifreleme için { $count } alıcının sertifika sorunlarını çözmeniz gerekiyor.
 key-notification-disable-encryption =
     .label = Şifreleme yapma
@@ -306,6 +318,8 @@ cloud-file-placeholder-intro = { $filename } dosyası Filelink olarak eklendi. D
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
 cloud-file-count-header =
     { $count ->
         [one] { $count } dosyayı bu e-postaya bağladım:
@@ -341,26 +355,33 @@ cloud-file-template-download-limit = İndirme sınırı:
 
 # Messages
 
-# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error-title = Bağlantı Hatası
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = { -brand-short-name } çevrimdışı. { $provider } ile bağlantı kurulamadı.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was uploaded and caused the error
 cloud-file-upload-error-with-custom-message-title = { $filename }, { $provider } sağlayıcısına yüklenemedi
+cloud-file-rename-error-title = Yeniden adlandırma hatası
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
-cloud-file-rename-error-title = Yeniden adlandırma hatası
 cloud-file-rename-error = { $provider } sağlayıcısında { $filename } yeniden adlandırılırken bir sorun oluştu.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = { $provider } sağlayıcısında { $filename } yeniden adlandırılamadı
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } önceden yüklenmiş dosyaların yeniden adlandırılmasını desteklemiyor.
-# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-attachment-error-title = Filelink Ek Hatası
-cloud-file-attachment-error = Bilgisayarınızdaki dosya taşındığı veya silindiği için { $filename } Filelink eki güncellenemedi.
+# Variables:
 # $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Bilgisayarınızdaki dosya taşındığı veya silindiği için { $filename } Filelink eki güncellenemedi.
 cloud-file-account-error-title = Filelink Hesap Hatası
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink hesabı silindiği için Filelink eki { $filename } güncellenemedi.
 
 ## Link Preview

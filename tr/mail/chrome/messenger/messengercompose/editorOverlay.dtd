@@ -167,7 +167,7 @@
 <!ENTITY listPropsCmd.label "Liste özellikleri…">
 <!ENTITY listPropsCmd.accesskey "L">
 
-<!ENTITY ParagraphSelect.tooltip "Bir paragraf biçimi seçin">
+<!ENTITY ParagraphSelect.tooltip "Paragraf biçimi seç">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Gövde metni">
 <!ENTITY bodyTextCmd.accesskey "M">
@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Tablo özellikleri…">
 <!ENTITY tableProperties.accesskey "b">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Resim">
 <!ENTITY imageToolbarCmd.tooltip "Yeni bir resim ekle veya seçili görüntünün özelliklerini düzenle">
 <!ENTITY hruleToolbarCmd.label "Y. çizgi">
