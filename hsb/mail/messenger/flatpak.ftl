@@ -8,6 +8,10 @@
 
 # This is the label on the icon
 flatpak-desktop-name = { -brand-short-name }
+# Appears as a tooltip when hovering over application menu entry
+flatpak-desktop-comment = E-mejl z { -brand-product-name } pósłać a dóstać
+# A generic description of Thunderbird
+flatpak-desktop-generic-name = E-mejlowy klient
 
 ## Actions Section
 ## These are alternative ways of starting Thunderbird, such as open the compose
@@ -16,4 +20,5 @@ flatpak-desktop-name = { -brand-short-name }
 
 flatpak-desktop-action-compose = Nowu powěsć pisać
 flatpak-desktop-action-addressbook = Adresnik wočinić
+flatpak-desktop-action-calendar = Protyku wočinić
 flatpak-desktop-action-keymanager = Zrjadowak OpenPGP-klučow wočinić
