@@ -121,6 +121,15 @@ folder-pane-write-message-button = Nova mensagem
     .title = Escrever uma nova mensagem
 folder-pane-more-menu-button =
     .title = Opções do painel de pastas
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modos de pastas
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Exibir “Receber mensagens”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Exibir “Nova mensagem”
 folder-pane-header-context-hide =
     .label = Ocultar cabeçalho do painel de pastas
 
