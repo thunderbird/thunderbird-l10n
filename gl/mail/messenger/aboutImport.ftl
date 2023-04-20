@@ -33,17 +33,24 @@ app-name-outlook = Outlook
 app-name-becky = Becky! Internet Mail
 app-name-apple-mail = Apple Mail
 source-thunderbird = Importar de outra instalación do { app-name-thunderbird }
-source-thunderbird-description = Importar a configuración, filtros, mensaxes e outros datos dun perfil do { app-name-thunderbird }.
+source-thunderbird-description = Importar configuración, filtros, mensaxes e outros datos dun perfil do { app-name-thunderbird }.
+source-seamonkey = Importar de unha instalación do { app-name-seamonkey }
+source-seamonkey-description = Importar configuración, filtros, mensaxes e outros datos dun perfil do { app-name-seamonkey }.
 source-outlook = Importar do { app-name-outlook }
 source-outlook-description = Importar contas, axendas de enderezos e mensaxes do { app-name-outlook }.
 source-becky = Importar do { app-name-becky }
+source-becky-description = Importa axendas de enderezos e mensaxes do { app-name-becky }.
 source-apple-mail = Importar do { app-name-apple-mail }
 source-apple-mail-description = Importa mensaxes do { app-name-apple-mail }.
 source-file2 = Importar dun ficheiro
+source-file-description = Seleccionar un ficheiro para importar axendas de enderezos, calendarios ou unha copia de seguranza do perfil (ficheiro ZIP).
 
 ## Import from file selections
 
+file-profile2 = Importar a copia de seguranza dun perfil.
+file-profile-description = Seleccionar un perfil do Thunderbird dunha copia de seguranza previa (.zip)
 file-calendar = Importar calendarios
+file-calendar-description = Seleccionar un ficheiro que conteña calendarios ou eventos exportados (.ics)
 file-addressbook = Importar axendas de enderezos
 
 ## Import from app profile steps
