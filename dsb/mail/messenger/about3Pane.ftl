@@ -123,6 +123,15 @@ folder-pane-write-message-button = Nowa powěsć
     .title = Nowu powěsć pisaś
 folder-pane-more-menu-button =
     .title = Nastajenja wobceŕka zarědnikow
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Zarědnikowe moduse
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = „Powěsći wobstaraś“ pokazaś
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = „Nowa powěsć“ pokazaś
 folder-pane-header-context-hide =
     .label = Głowu wobceŕka zarědnika schowaś
 
