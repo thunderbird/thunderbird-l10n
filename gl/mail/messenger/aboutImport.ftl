@@ -91,7 +91,14 @@ addr-book-vcard-file = Ficheiro vCard (.vcf, .vcard)
 addr-book-sqlite-file = Ficheiro de base de datos SQLite (.sqlite)
 addr-book-mab-file = Ficheiro de base de datos Mork (.mab)
 addr-book-file-picker = Seleccionar un ficheiro da axenda de enderezos
+addr-book-csv-field-map-title = Facer corresponder os nomes dos campos
+addr-book-csv-field-map-desc = Seleccionar os campos da axenda de enderezos correspondentes aos campos de orixe. Desmarque os campos que non quere importar.
+addr-book-directories-title = Seleccione onde importar os datos escollidos
 addr-book-directories-pane-source = Ficheiro de orixe:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Crear un novo directorio chamado <strong>«{ $addressBookName }»</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Importar os datos escollidos no directorio «{ $addressBookName }».
 
 ## Import from calendar file steps
 
