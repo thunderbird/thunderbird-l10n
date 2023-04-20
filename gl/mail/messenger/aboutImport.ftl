@@ -52,6 +52,7 @@ file-profile-description = Seleccionar un perfil do Thunderbird dunha copia de s
 file-calendar = Importar calendarios
 file-calendar-description = Seleccionar un ficheiro que conteña calendarios ou eventos exportados (.ics)
 file-addressbook = Importar axendas de enderezos
+file-addressbook-description = Seleccionar un ficheiro que conteña axendas de enderezos e contactos exportados
 
 ## Import from app profile steps
 
@@ -60,12 +61,17 @@ from-app-seamonkey = Importar de un perfil do { app-name-seamonkey }
 from-app-outlook = Importar do { app-name-outlook }
 from-app-becky = Importar do { app-name-becky }
 from-app-apple-mail = Importar do { app-name-apple-mail }
+profiles-pane-title-thunderbird = Importar configuración e datos dun perfil do { app-name-thunderbird }.
+profiles-pane-title-seamonkey = Importar configuración e datos dun perfil do { app-name-seamonkey }.
 profiles-pane-title-outlook = Importar datos do { app-name-outlook }.
 profiles-pane-title-becky = Importar datos do { app-name-becky }.
 profiles-pane-title-apple-mail = Importar mensaxes do { app-name-apple-mail }.
 profile-source = Importar do perfil
+# $profileName (string) - name of the profile
+profile-source-named = Importar do perfil <strong>«{ $profileName }»</strong>
 profile-file-picker-directory = Escolla un cartafol de perfil
 profile-file-picker-archive = Escolla un ficheiro <strong>ZIP</strong>
+profile-file-picker-archive-description = O tamaño do ficheiro ZIP debe ser inferior a 2 GB.
 profile-file-picker-archive-title = Escolla un ficheiro ZIP (menor de 2 GB)
 items-pane-title2 = Escolla o que quere importar:
 items-pane-directory = Directorio:
@@ -74,13 +80,17 @@ items-pane-checkbox-accounts = Contas e configuración
 items-pane-checkbox-address-books = Axendas de enderezos
 items-pane-checkbox-calendars = Calendarios
 items-pane-checkbox-mail-messages = Mensaxes de correo
+items-pane-override = Non se sobrescribirá ningún dato existente ou idéntico.
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Escoller o formato de ficheiro que contén os datos da súa axenda de enderezos.
+addr-book-csv-file = Ficheiro separado por vírgulas ou tabulacións (.csv, .tsv)
 addr-book-ldif-file = Ficheiro LDIF (.ldif)
 addr-book-vcard-file = Ficheiro vCard (.vcf, .vcard)
 addr-book-sqlite-file = Ficheiro de base de datos SQLite (.sqlite)
 addr-book-mab-file = Ficheiro de base de datos Mork (.mab)
+addr-book-file-picker = Seleccionar un ficheiro da axenda de enderezos
 addr-book-directories-pane-source = Ficheiro de orixe:
 
 ## Import from calendar file steps
