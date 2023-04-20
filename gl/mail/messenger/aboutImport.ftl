@@ -132,6 +132,9 @@ progress-pane-importing2 = Importando… { $progressPercent }
 progress-pane-exporting2 = Exportando… { $progressPercent }
 progress-pane-finished-desc2 = Concluída.
 error-pane-title = Erro
+error-message-zip-file-too-big2 = O ficheiro ZIP seleccionado ten máis de 2 GB. Primeiro extraia o contido e despois impórteo desde o cartafol extraído.
+error-message-extract-zip-file-failed2 = Produciuse un erro ao extraer o ficheiro ZIP. Extráiao manualmente e despois impórteo desde o cartafol extraído.
+error-message-failed = Produciuse un erro inesperado na importación, é posible que haxa máis información na consola de erros.
 error-message-no-profile = Non se atopou ningún perfil.
 
 ## <csv-field-map> element
