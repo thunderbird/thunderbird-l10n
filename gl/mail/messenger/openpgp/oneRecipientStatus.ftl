@@ -41,3 +41,13 @@ openpgp-pubkey-import-intro =
         [one] O ficheiro contén una chave pública como se amosa de seguido:
        *[other] O ficheiro contén { $num } chaves públicas como se amosa de seguido:
     }
+# Variables:
+# $num (Number) - Number of keys to accept.
+openpgp-pubkey-import-accept =
+    { $num ->
+        [one] Acepta esta chave para verificar as sinaturas dixitais e para cifrar mensaxes, para todos os enderezos de correo electrónico amosados?
+       *[other] Acepta estas chaves para verificar as sinaturas dixitais e para cifrar mensaxes, para todos os enderezos de correo electrónico amosados?
+    }
+pubkey-import-button =
+    .buttonlabelaccept = Importar
+    .buttonaccesskeyaccept = I
