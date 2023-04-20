@@ -121,6 +121,15 @@ folder-pane-write-message-button = Nova mensaxe
     .title = Redactar unha nova mensaxe
 folder-pane-more-menu-button =
     .title = Opcións do panel de cartafoles
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modos de cartafol
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Amosar «Recibir mensaxes»
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Amosar «Nova mensaxe»
 folder-pane-header-context-hide =
     .label = Agochar a cabeceira do panel de cartafoles
 
