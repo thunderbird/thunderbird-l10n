@@ -121,6 +121,15 @@ folder-pane-write-message-button = Új üzenet
     .title = Új üzenet írása
 folder-pane-more-menu-button =
     .title = Mappa ablaktábla beállításai
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Mappa módok
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = „Üzenetek letöltése” megjelenítése
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = „Új üzenet” megjelenítése
 folder-pane-header-context-hide =
     .label = Mappa ablaktábla fejlécének elrejtése
 
