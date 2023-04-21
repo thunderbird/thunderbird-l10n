@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Підтвердити підпис
     .accesskey = і
 openpgp-has-sender-key = У цьому повідомленні стверджується, що воно містить відкритий ключ відправника OpenPGP.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Попередження: новий відкритий ключ OpenPGP у цьому повідомленні відрізняється від відкритих ключів, які ви раніше прийняли для { $email }.
 openpgp-import-sender-key =
     .label = Імпортувати…
