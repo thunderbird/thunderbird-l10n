@@ -122,6 +122,15 @@ folder-pane-write-message-button = Нове повідомлення
     .title = Написати нове повідомлення
 folder-pane-more-menu-button =
     .title = Параметри панелі тек
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Режими тек
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Показати “Отримати повідомлення”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Показати “Нове повідомлення”
 folder-pane-header-context-hide =
     .label = Сховати заголовок панелі тек
 
