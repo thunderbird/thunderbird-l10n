@@ -26,7 +26,7 @@
 <!ENTITY account.edit.accesskey       "л">
 <!ENTITY account.cancelReconnection.label         "Скасувати повторне з'єднання">
 <!ENTITY account.cancelReconnection.accesskey     "к">
-<!ENTITY account.copyDebugLog.label     "Копіювати журнал зневадження">
+<!ENTITY account.copyDebugLog.label     "Копіювати журнал налагодження">
 <!ENTITY account.copyDebugLog.accesskey "п">
 <!ENTITY account.connecting           "З'єднання…">
 <!ENTITY account.disconnecting        "Від'єднання…">

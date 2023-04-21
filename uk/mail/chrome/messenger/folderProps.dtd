@@ -8,7 +8,7 @@
 <!ENTITY folderRebuildSummaryFileTip2.label      "Перебудувати файл індекса">
 <!ENTITY folderRebuildSummaryFile2.label         "Відремонтувати теку">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "о">
-<!ENTITY folderRebuildSummaryFile.explanation    "Іноді файл індексу теки (.msf) пошкоджується, і може здатися, що нових повідомлень немає, а видалені повідомлення й надалі показуються. Зневадження теки може розв'язати ці проблеми.">
+<!ENTITY folderRebuildSummaryFile.explanation    "Іноді файл індексу теки (.msf) пошкоджується, і може здатися, що нових повідомлень немає, а видалені повідомлення й надалі показуються. Відновлення теки може розв'язати ці проблеми.">
 <!ENTITY folderIncludeInGlobalSearch.label       "Включати повідомлення цієї теки до результатів Глобального пошуку">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "Г">
 

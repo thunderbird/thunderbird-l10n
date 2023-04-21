@@ -30,7 +30,7 @@ openpgp-search-signature-key =
     .label = Дослідити…
 # Don't translate the terms "OpenPGP" and "MS-Exchange"
 openpgp-broken-exchange-opened = Це повідомлення OpenPGP, яке, очевидно, було пошкоджено MS-Exchange, і його неможливо відновити, оскільки його було відкрито з локального файлу. Копіюйте повідомлення до теки пошти, щоб спробувати виконати автоматичне відновлення.
-openpgp-broken-exchange-info = Це повідомлення з OpenPGP, очевидно, пошкоджено службою MS-Exchange. Якщо вміст повідомлення не належно показано, ви можете спробувати автоматичне зневадження.
+openpgp-broken-exchange-info = Схоже, що це повідомлення з OpenPGP пошкоджено службою MS-Exchange. Якщо вміст повідомлення показується неправильно, ви можете спробувати автоматичне відновлення.
 openpgp-broken-exchange-repair =
     .label = Зневадити повідомлення
 openpgp-broken-exchange-wait = Зачекайте, будь ласка…

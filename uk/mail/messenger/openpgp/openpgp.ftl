@@ -760,7 +760,7 @@ no-photo-available = Немає світлини
 # Variables:
 # $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Шлях до світлини '{ $photo }' неможливо прочитати
-debug-log-title = Журнал зневадження OpenPGP
+debug-log-title = Журнал налагодження OpenPGP
 
 ## Strings used in dialog.jsm
 

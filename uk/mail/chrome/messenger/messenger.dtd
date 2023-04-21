@@ -503,7 +503,7 @@
 <!ENTITY devToolboxCmd.label "Панель розробника">
 <!ENTITY devToolboxCmd.accesskey "П">
 <!ENTITY devToolboxCmd.commandkey "i">
-<!ENTITY debugAddonsCmd.label "Зневадження додатків">
+<!ENTITY debugAddonsCmd.label "Налагодження додатків">
 <!ENTITY debugAddonsCmd.accesskey "З">
 <!ENTITY errorConsoleCmd.label "Консоль помилок">
 <!ENTITY errorConsoleCmd.accesskey "К">
