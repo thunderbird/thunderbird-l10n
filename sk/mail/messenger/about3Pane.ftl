@@ -122,6 +122,15 @@ folder-pane-write-message-button = Nová správa
     .title = Napísať novú správu
 folder-pane-more-menu-button =
     .title = Možnosti panela priečinkov
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Režim priečinkov
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Zobraziť tlačidlo „Získať správy“
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Zobraziť tlačidlo „Nová správa“
 folder-pane-header-context-hide =
     .label = Skryť hlavičku panela priečinkov
 
