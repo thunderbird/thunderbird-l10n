@@ -181,6 +181,10 @@ menu-open-key-manager =
     .label = 密钥管理器
     .accesskey = M
 # Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = 您未设置为从 { $addr } 发送端到端的加密消息。
+# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = 端到端加密功能需解决 { $addr } 的密钥问题。
 # Variables:

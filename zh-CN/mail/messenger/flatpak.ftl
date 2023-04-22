@@ -6,6 +6,10 @@
 ### These messages are used by the Thunderbird Linux Flatpak "desktop" file.
 ### An end user will see them associated with the application launcher icon
 
+# This is the label on the icon
+flatpak-desktop-name = { -brand-short-name }
+# Appears as a tooltip when hovering over application menu entry
+flatpak-desktop-comment = 使用 { -brand-product-name } 发送和接收邮件
 # A generic description of Thunderbird
 flatpak-desktop-generic-name = 邮件客户端
 

@@ -117,6 +117,15 @@ folder-pane-write-message-button = 写消息
     .title = 撰写新消息
 folder-pane-more-menu-button =
     .title = 文件夹窗格选项
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = 文件夹模式
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = 显示“获取消息”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = 显示“新建消息”
 folder-pane-header-context-hide =
     .label = 隐藏文件夹窗格标题
 
