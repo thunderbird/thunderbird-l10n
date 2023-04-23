@@ -121,6 +121,15 @@ folder-pane-write-message-button = Nýr póstur
     .title = Semja ný skilaboð
 folder-pane-more-menu-button =
     .title = Valkostir möppuspjalds
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Möppuhamir
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Sýna „Ná í skilaboð“
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Sýna „Ný skilaboð“
 folder-pane-header-context-hide =
     .label = Fela fyrirsögn möppuspjalds
 
