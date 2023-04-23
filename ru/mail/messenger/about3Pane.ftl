@@ -122,6 +122,15 @@ folder-pane-write-message-button = Создать
     .title = Создать новое сообщение
 folder-pane-more-menu-button =
     .title = Настройки панели папок
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Режимы папок
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Показать «Получить сообщения»
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Показать «Cоздать сообщение»
 folder-pane-header-context-hide =
     .label = Скрыть заголовок панели папок
 
