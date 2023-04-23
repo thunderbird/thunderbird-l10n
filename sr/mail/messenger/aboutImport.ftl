@@ -121,6 +121,7 @@ progress-pane-importing2 = Увозим… { $progressPercent }
 progress-pane-exporting2 = Извозим… { $progressPercent }
 progress-pane-finished-desc2 = Завршено.
 error-pane-title = Грешка
+error-message-zip-file-too-big2 = Изабрана ZIP датотека је већа од 2GB. Прво је распакујте, а потом увезите из распаковане фасцикле.
 
 ## <csv-field-map> element
 
