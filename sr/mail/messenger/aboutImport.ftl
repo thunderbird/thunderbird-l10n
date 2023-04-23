@@ -68,7 +68,7 @@ profiles-pane-title-becky = Увезите податке из { app-name-becky 
 profiles-pane-title-apple-mail = Увазите поруке из { app-name-apple-mail }-а.
 profile-source = Увези из профила
 # $profileName (string) - name of the profile
-profile-source-named = Увези из профила <strong>"{ $profileName }"</strong>
+profile-source-named = Увези из профила <strong>„{ $profileName }”</strong>
 profile-file-picker-directory = Изабери фасциклу профила
 profile-file-picker-archive = Изабери <strong>ZIP</strong> датотеку
 profile-file-picker-archive-description = ZIP датотека мора бити мања од 2GB.
@@ -80,22 +80,54 @@ items-pane-checkbox-accounts = Налози и подешавања
 items-pane-checkbox-address-books = Именици
 items-pane-checkbox-calendars = Календари
 items-pane-checkbox-mail-messages = Поруке е-поште
-items-pane-override = Сви постојећи или идентични подаци неће бити преписани.
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Изаберите формат датотеке који садржи податке из именика.
+addr-book-ldif-file = LDIF датотека (.ldif)
+addr-book-vcard-file = vCard датотека (.vcf, .vcard)
+addr-book-sqlite-file = Датотека SQLite базе података (.sqlite)
+addr-book-mab-file = Датотека Mork базе података (.mab)
+addr-book-file-picker = Изабери датотеку именика
+addr-book-directories-title = Изаберите где желите да увезете изабране податке
+addr-book-directories-pane-source = Изворна датотека:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Направите нову фасциклу са називом <strong>„{ $addressBookName }”</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Увезите изабране податке у „{ $addressBookName }” фасциклу
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = Направиће се нови именик под називом „{ $addressBookName }”.
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = Изаберите iCalendar (.ics) датотеку коју желите да увезете.
+calendar-items-title = Изаберите ставке за увоз.
+calendar-items-loading = Учитавање ставки…
+calendar-items-filter-input =
+    .placeholder = Филтрирај ставке…
+calendar-select-all-items = Изабери све
+calendar-deselect-all-items = Поништи све
+calendar-target-title = Изаберите где ћете увести изабране ставке.
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = Направите нови календар под називом <strong>„{ $targetCalendar }”</strong>
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = Направиће се нови календар под називом „{ $targetCalendar }”.
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = Увозим… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Извозим… { $progressPercent }
+progress-pane-finished-desc2 = Завршено.
+error-pane-title = Грешка
 
 ## <csv-field-map> element
 
 
 ## Export tab
 
+export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
