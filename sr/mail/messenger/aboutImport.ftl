@@ -138,3 +138,7 @@ export-brand-name = { -brand-product-name }
 
 ## Step navigation on top of the wizard pages
 
+step-confirm = Потврди
+# Variables:
+# $number (number) - step number
+step-count = { $number }
