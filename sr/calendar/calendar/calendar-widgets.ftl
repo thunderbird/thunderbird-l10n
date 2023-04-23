@@ -2,8 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-deactivated-notification-events = Сви календари су тренутно онемогућени. Омогућите постојећи календар или додајте нови за креирање и уређивање догађаја.
-calendar-deactivated-notification-tasks = Сви календари су тренутно онемогућени. Омогућите постојећи календар или додајте нови за креирање и уређивање задатака.
+calendar-deactivated-notification-events = Сви календари су тренутно онемогућени. Омогућите постојећи календар или додајте нови за прављење и уређивање догађаја.
+calendar-deactivated-notification-tasks = Сви календари су тренутно онемогућени. Омогућите постојећи календар или додајте нови за прављење и уређивање задатака.
 calendar-notifications-label = Прикажите обавештења о претходним догађајима
 calendar-add-notification-button =
     .label = Додај обавештење
@@ -11,10 +11,6 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Календари
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Опција { $calendarName } календара
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
@@ -32,6 +28,36 @@ calendar-new-task-primary-button = Нови задатак
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Претходни дан
+    .accesskey = П
+calendar-nav-button-prev-tooltip-week =
+    .title = Претходна недеља
+    .accesskey = П
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Претходна недеља
+    .accesskey = П
+calendar-nav-button-prev-tooltip-month =
+    .title = Претходни месец
+    .accesskey = П
+calendar-nav-button-prev-tooltip-year =
+    .title = Претходна година
+    .accesskey = П
+calendar-nav-button-next-tooltip-day =
+    .title = Следећи дан
+    .accesskey = С
+calendar-nav-button-next-tooltip-week =
+    .title = Следећа недеља
+    .accesskey = С
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Следећа недеља
+    .accesskey = С
+calendar-nav-button-next-tooltip-month =
+    .title = Следећи месец
+    .accesskey = С
+calendar-nav-button-next-tooltip-year =
+    .title = Следећа година
+    .accesskey = С
 calendar-today-button-tooltip =
     .title = Иди на данас
 calendar-view-toggle-day = Дан
@@ -53,30 +79,32 @@ calendar-hide-weekends-option =
     .label = Само радни дани
 calendar-define-workweek-option =
     .label = Дефиниши радне дане
+calendar-show-tasks-calendar-option =
+    .label = Прикажи задатке у календару
 
 ## Calendar Context Menu
 
 calendar-context-menu-previous-day =
     .label = Претходни дан
-    .accesskey = т
+    .accesskey = П
 calendar-context-menu-previous-week =
     .label = Претходна недеља
-    .accesskey = х
+    .accesskey = П
 calendar-context-menu-previous-multiweek =
     .label = Претходна недеља
-    .accesskey = х
+    .accesskey = П
 calendar-context-menu-previous-month =
     .label = Претходни месец
-    .accesskey = ц
+    .accesskey = П
 calendar-context-menu-next-day =
     .label = Следећи дан
-    .accesskey = д
+    .accesskey = С
 calendar-context-menu-next-week =
     .label = Следећа недеља
-    .accesskey = н
+    .accesskey = С
 calendar-context-menu-next-multiweek =
     .label = Следећа недеља
-    .accesskey = н
+    .accesskey = С
 calendar-context-menu-next-month =
     .label = Следећи месец
-    .accesskey = м
+    .accesskey = С
