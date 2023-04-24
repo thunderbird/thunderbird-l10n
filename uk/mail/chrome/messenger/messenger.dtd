@@ -152,7 +152,7 @@
 
 <!ENTITY folderView.label "Теки">
 <!ENTITY folderView.accesskey "Т">
-<!ENTITY unifiedFolders.label "Об’єднані">
+<!ENTITY unifiedFolders.label "Об'єднані">
 <!ENTITY unifiedFolders.accesskey "є">
 <!ENTITY allFolders.label "Усі">
 <!ENTITY allFolders.accesskey "У">
@@ -656,7 +656,7 @@
 <!ENTITY folderContextSettings2.accesskey "л">
 
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label "Ім’я або адреса електронної пошти містять:">
+<!ENTITY SearchNameOrEmail.label "Ім'я або адреса електронної пошти містять:">
 <!ENTITY SearchNameOrEmail.accesskey "І">
 
 <!-- Gloda Search Bar -->

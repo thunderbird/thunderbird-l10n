@@ -14,5 +14,5 @@
 <!ENTITY tabCSS.label                   "Стильове оформлення">
 <!ENTITY tabJSE.label                   "Події JavaScript">
 
-<!ENTITY editAttribute.label    "Клацніть по об’єкту вгорі, щоб змінити його значення">
+<!ENTITY editAttribute.label    "Натисніть об'єкт вгорі, щоб змінити його значення">
 <!ENTITY removeAttribute.label  "Вилучити">

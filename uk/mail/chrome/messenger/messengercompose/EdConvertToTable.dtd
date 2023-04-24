@@ -4,12 +4,12 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Перетворення в таблицю">
-<!ENTITY instructions1.label   "Компонувальник створює новий рядок в таблиці для кожного параграфа у виділенні.">
-<!ENTITY instructions2.label   "Виберіть символ, який використовується для відокремлення колонок у виділенні:">
+<!ENTITY windowTitle.label "Перетворити на таблицю">
+<!ENTITY instructions1.label   "Редактор створює новий рядок таблиці для кожного розділу вибраного діапазону.">
+<!ENTITY instructions2.label   "Виберіть символ для розділення вибраного діапазону на стовпчики:">
 <!ENTITY commaRadio.label      "Кома">
-<!ENTITY spaceRadio.label      "Пропуск">
+<!ENTITY spaceRadio.label      "Пробіл">
 <!ENTITY otherRadio.label      "Інший символ:">
 <!ENTITY deleteCharCheck.label "Видалити символ розділення">
-<!ENTITY collapseSpaces.label  "Ігнорувати зайві пропуски">
-<!ENTITY collapseSpaces.tooltip "Перетворити суміжні пропуски в один роздільник">
+<!ENTITY collapseSpaces.label  "Ігнорувати зайві пробіли">
+<!ENTITY collapseSpaces.tooltip "Перетворити суміжні пробіли на один роздільник">
