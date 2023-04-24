@@ -740,7 +740,7 @@ sync-pane-header = Synchronizácia
 sync-pane-email-not-verified = Adresa “{ $userEmail }” nie je overená.
 # Variables:
 # $userEmail (String) - The email logged into Sync.
-sync-signedin-login-failure = Ak sa chcete pripojiť ku kontu “{ $userEmail }”, musíte sa prihlásiť.
+sync-signedin-login-failure = Ak sa chcete pripojiť k účtu “{ $userEmail }”, musíte sa prihlásiť.
 sync-pane-resend-verification = Znova odoslať overenie
 sync-pane-sign-in = Prihlásiť sa
 sync-pane-remove-account = Odstrániť účet
