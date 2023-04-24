@@ -3,3 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-recurrence-preview-label = Náhled
+calendar-recurrence-next = Další měsíc
+calendar-recurrence-previous = Předchozí měsíc
+calendar-recurrence-today = Dnes

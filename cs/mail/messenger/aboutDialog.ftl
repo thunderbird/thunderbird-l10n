@@ -29,16 +29,22 @@ update-restarting = Restartování…
 channel-description = Používáte aktualizační kanál <span data-l10n-name="current-channel">{ $channel }</span> .
 warning-desc-version = { -brand-short-name } je experimentální verze a může být nestabilní.
 warning-desc-telemetry = { -brand-short-name } automaticky odesílá data o výkonu, hardware, používání a přizpůsobení, která slouží vývojářům z organizace { -vendor-short-name } k vylepšování aplikace.
+# Example of resulting string: 66.0.1 (64-bit)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $bits (Number): bits of the architecture (32 or 64)
+aboutDialog-version = { $version } ({ $bits } bitů)
+# Example of resulting string: 66.0a1 (2019-01-16) (64-bit)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $bits (Number): bits of the architecture (32 or 64)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bitů)
+aboutdialog-update-checking-failed = Kontrola aktualizací se nezdařila
 community-exp =
     <a data-l10n-name="community-exp-mozilla-link">
     { -vendor-short-name }</a>
      je <a data-l10n-name="community-exp-credits-link">
-    celosvětová komunita</a>
-     snažící se o zachování veřejně dostupného, otevřeného a všem přístupného webu.
-community-2 =
-    Aplikace { -brand-short-name } byla vytvořena organizací <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    . Jsme <a data-l10n-name="community-credits-link">
     celosvětová komunita</a>
      snažící se o zachování veřejně dostupného, otevřeného a všem přístupného webu.
 about-helpus =
