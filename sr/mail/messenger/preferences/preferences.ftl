@@ -5,6 +5,8 @@
 close-button =
     .aria-label = Затвори
 preferences-doc-title2 = Подешавања
+category-list =
+    .aria-label = Категорије
 pane-general-title = Опште
 category-general =
     .tooltiptext = { pane-general-title }
