@@ -127,10 +127,10 @@ folder-pane-header-folder-modes =
     .label = Režim priečinkov
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
-    .label = Zobraziť tlačidlo „Prijať správy“
+    .label = Zobraziť tlačidlo “Prijať správy”
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
-    .label = Zobraziť tlačidlo „Nová správa“
+    .label = Zobraziť tlačidlo “Nová správa”
 folder-pane-header-context-hide =
     .label = Skryť hlavičku panela priečinkov
 

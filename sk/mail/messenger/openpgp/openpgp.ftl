@@ -443,8 +443,8 @@ converter-decrypt-body-failed =
 
 filter-folder-required = Musíte vybrať cieľový priečinok.
 filter-decrypt-move-warn-experimental =
-    Upozornenie - akcia filtra „Dešifrovať natrvalo“ môže viesť k zničeniu správ.
-    Dôrazne odporúčame, aby ste najskôr vyskúšali filter „Vytvoriť dešifrovanú kópiu“, výsledok starostlivo otestovali a tento filter začali používať až potom, ak budete s výsledkom spokojní.
+    Upozornenie - akcia filtra “Dešifrovať natrvalo” môže viesť k zničeniu správ.
+    Dôrazne odporúčame, aby ste najskôr vyskúšali filter “Vytvoriť dešifrovanú kópiu”, výsledok starostlivo otestovali a tento filter začali používať až potom, ak budete s výsledkom spokojní.
 filter-term-pgpencrypted-label = Šifrované pomocou OpenPGP
 filter-key-required = Musíte zvoliť kľúč príjemcu.
 # Variables:
@@ -453,7 +453,7 @@ filter-key-not-found = Nepodarilo sa nájsť šifrovací kľúč pre '{ $desc }'
 # Variables:
 # $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
-    Upozornenie - akcia filtra „Šifrovať kľúčom“ nahradí príjemcov.
+    Upozornenie - akcia filtra “Šifrovať kľúčom” nahradí príjemcov.
     Ak nemáte tajný kľúč pre '{ $desc }', nebudete si už môcť prečítať e-maily.
 
 ## Strings filtersWrapper.jsm
@@ -581,7 +581,7 @@ revoke-key-in-use-description = Nie je možné pokračovať! Kľúč, ktorý ste
 
 # Variables:
 # $keySpec (String) - Email address.
-key-error-key-spec-not-found = E-mailová adresa „{ $keySpec }“ sa nezhoduje s kľúčom na vašom zväzku kľúčov.
+key-error-key-spec-not-found = E-mailová adresa ‘{ $keySpec }’ sa nezhoduje s kľúčom na vašom zväzku kľúčov.
 # $keySpec (String) - Key id.
 key-error-key-id-not-found = Nastavené ID kľúča '{ $keySpec }' sa nenachádza na vašom zväzku kľúčov.
 # $keySpec (String) - Key id.
@@ -642,7 +642,7 @@ save-revoke-cert-as = Vytvoriť a uložiť certifikát zneplatnenia
 revoke-cert-ok = Certifikát o zneplatnený bol úspešne vytvorený. Môžete ho použiť na zneplatnenie vášho verejného kľúča, napríklad v prípade, že by ste stratili tajný kľúč.
 revoke-cert-failed = Certifikát zneplatnenia nemohol byť vytvorený.
 gen-going = Generovanie kľúčov už prebieha!
-keygen-missing-user-name = Pre vybraný účet/identitu nie je zadané žiadne meno. Zadajte hodnotu do poľa „Vaše meno“ v nastaveniach účtu.
+keygen-missing-user-name = Pre vybraný účet/identitu nie je zadané žiadne meno. Zadajte hodnotu do poľa “Vaše meno” v nastaveniach účtu.
 expiry-too-short = Váš kľúč musí byť platný najmenej jeden deň.
 expiry-too-long = Nemôžete vytvoriť kľúč, ktorého platnosť vyprší o viac ako 100 rokov.
 # Variables:
@@ -716,7 +716,7 @@ send-to-news-warning =
     To sa neodporúča, pretože to má zmysel, iba ak správu môžu dešifrovať všetci členovia skupiny, t. j. správa musí byť zašifrovaná kľúčmi všetkých účastníkov skupiny. Túto správu odošlite, iba ak presne viete, čo robíte.
     Pokračovať?
 save-attachment-header = Uložiť dešifrovanú prílohu
-possibly-pgp-mime = Správa je možno šifrovaná alebo podpísaná pomocou PGP/MIME; na overenie použite funkciu „Dešifrovať/Overiť“
+possibly-pgp-mime = Správa je možno šifrovaná alebo podpísaná pomocou PGP/MIME; na overenie použite funkciu ‘Dešifrovať/Overiť’
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Túto správu nie je možné digitálne podpísať, pretože ste ešte nenastavili obojstranné šifrovanie pre <{ $key }>
@@ -744,7 +744,7 @@ invalid-email = Chyba - neplatná e-mailová adresa (adresy)
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Príloha '{ $name }', ktorú otvárate, sa javí ako súbor kľúča OpenPGP.
-    Kliknutím na tlačidlo „Importovať“ importujete obsiahnuté kľúče alebo kliknutím na tlačidlo „Zobraziť“ zobrazíte obsah súboru v okne prehliadača
+    Kliknutím na tlačidlo "Importovať" importujete obsiahnuté kľúče alebo kliknutím na tlačidlo "Zobraziť" zobrazíte obsah súboru v okne prehliadača.
 dlg-button-view = &Zobraziť
 
 ## Strings used in enigmailMsgHdrViewOverlay.js
@@ -760,7 +760,7 @@ not-required = Chyba - nevyžaduje sa šifrovanie
 no-photo-available = Nie je k dispozícii žiadna fotografia
 # Variables:
 # $photo (String) - Path of the photo in the key.
-error-photo-path-not-readable = Cesta k fotografii „{ $photo }“ nie je čitateľná
+error-photo-path-not-readable = Cesta k fotografii "{ $photo }" nie je čitateľná
 debug-log-title = Záznam ladenia OpenPGP
 
 ## Strings used in dialog.jsm

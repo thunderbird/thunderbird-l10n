@@ -6,7 +6,7 @@ about-update-whats-new = Čo je nové
 aboutDialog-title =
     .title = O aplikácii { -brand-full-name }
 release-notes-link = Poznámky k vydaniu
-update-internal-error = Nie je možné skontrolovať aktualizácie kvôli internej chybe. Aktualizácie sú k dispozícii na adrese <a data-l10n-name="manual-link"/>
+update-internal-error = Nie je možné skontrolovať aktualizácie kvôli internej chybe. Aktualizácie sú k dispozícii na stránke <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Vyhľadať aktualizácie
     .accesskey = h
 update-update-button = Reštartovať a aktualizovať aplikáciu { -brand-shorter-name }
@@ -19,7 +19,7 @@ update-failed = Aktualizácia zlyhala. <a data-l10n-name="failed-link">Stiahnuť
 update-admin-disabled = Aktualizácie boli vypnuté správcom systému
 update-no-updates-found = Používate najnovšiu verziu programu { -brand-short-name }.
 update-other-instance-handling-updates = { -brand-short-name } sa práve aktualizuje v inej inštancii
-update-manual = Aktualizácie sú k dispozícii na adrese <a data-l10n-name="manual-link"/>
+update-manual = Aktualizácie sú k dispozícii na stránke <a data-l10n-name="manual-link"/>
 update-unsupported = Ďalšie aktualizácie už nie sú na tomto systéme možné. <a data-l10n-name="unsupported-link">Ďalšie informácie</a>
 update-restarting = Reštartuje sa…
 # Variables:
