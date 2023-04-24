@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Претражи:
 search-bar-placeholder = Претрага…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -50,17 +58,35 @@ customize-save = Сачувај
 customize-unsaved-changes = Несачуване промене у другим просторима
 customize-search-bar =
     .label = Претражи дугмад на алатним тракама……
+customize-spaces-tabs =
+    .aria-label = Простори
+customize-main-toolbar-target =
+    .aria-label = Главна алатна трака
 customize-palette-generic-title = Доступно за све просторе у приказу
 customize-palette-mail-specific-title = Доступно само у простору приказа е-порука
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Додај у { $target }
 customize-palette-add-everywhere =
     .label = Додај на све алатне траке
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Помери напред
+customize-target-backward =
+    .label = Помери назад
+customize-target-remove =
+    .label = Уклони
 customize-target-remove-everywhere =
     .label = Уклони са свих алатних трака
 customize-target-add-everywhere =
     .label = Додај на све алатне траке
+customize-target-start =
+    .label = Помери на почетак
+customize-target-end =
+    .label = Помери на крај
