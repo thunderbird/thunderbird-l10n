@@ -121,6 +121,15 @@ folder-pane-write-message-button = Neue Nachricht
     .title = Eine neue Nachricht verfassen
 folder-pane-more-menu-button =
     .title = Optionen für den Ordnerbereich
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Ordnermodi
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = „Nachrichten abrufen” anzeigen
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = „Neue Nachricht” anzeigen
 folder-pane-header-context-hide =
     .label = Kopfzeile des Ordnerbereichs ausblenden
 
