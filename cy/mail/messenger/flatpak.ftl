@@ -9,9 +9,9 @@
 # This is the label on the icon
 flatpak-desktop-name = { -brand-short-name }
 # Appears as a tooltip when hovering over application menu entry
-flatpak-desktop-comment = Anfon a derbyn post gyda { -brand-product-name }
+flatpak-desktop-comment = Anfon a derbyn e-bost gyda { -brand-product-name }
 # A generic description of Thunderbird
-flatpak-desktop-generic-name = Cleient Post
+flatpak-desktop-generic-name = Rhaglen E-bost
 
 ## Actions Section
 ## These are alternative ways of starting Thunderbird, such as open the compose
@@ -19,6 +19,6 @@ flatpak-desktop-generic-name = Cleient Post
 ## Thunderbird taskbar icon, possibly other places depending on the environment.
 
 flatpak-desktop-action-compose = Ysgrifennu Neges Newydd
-flatpak-desktop-action-addressbook = Agorwch y Llyfr Cyfeiriadau
-flatpak-desktop-action-calendar = Agorwch y Calendr
-flatpak-desktop-action-keymanager = Agorwch y Rheolwr Allwedd OpenPGP
+flatpak-desktop-action-addressbook = Agor y Llyfr Cyfeiriadau
+flatpak-desktop-action-calendar = Agor y Calendr
+flatpak-desktop-action-keymanager = Agor y Rheolwr Allwedd OpenPGP
