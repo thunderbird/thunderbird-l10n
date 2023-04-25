@@ -102,10 +102,10 @@ quick-filter-bar-text-filter-sender = Пошиљаоцу
 quick-filter-bar-text-filter-recipients = Примаоцима
 # The button label that toggles whether the text filter searches the message
 # subject for the string.
-quick-filter-bar-text-filter-subject = Тема
+quick-filter-bar-text-filter-subject = Теми
 # The button label that toggles whether the text filter searches the message
 # body for the string.
-quick-filter-bar-text-filter-body = Тело
+quick-filter-bar-text-filter-body = Телу
 # The first line of the panel popup that tells the user we found no matches
 # but we can convert to a global search for them.
 quick-filter-bar-gloda-upsell-line1 = Настави претраживање по свим фасциклама
@@ -120,6 +120,17 @@ folder-pane-get-messages-button =
     .title = Добави поруке
 folder-pane-write-message-button = Нова порука
     .title = Саставите нову поруку
+folder-pane-more-menu-button =
+    .title = Опције панела фасцикле
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Режими фасцикле
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Прикажи „Добави поруке”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Прикажи „Нова порука”
 folder-pane-header-context-hide =
     .label = Сакриј заглавље површи фасцикли
 
@@ -186,10 +197,10 @@ threadpane-column-header-size = Величина
     .title = Поређај по величини
 threadpane-column-label-size =
     .label = Величина
-threadpane-column-header-tags = Ознака
+threadpane-column-header-tags = Ознаке
     .title = Поређај по ознакама
 threadpane-column-label-tags =
-    .label = Ознака
+    .label = Ознаке
 threadpane-column-header-account = Налог
     .title = Поређај по налогу
 threadpane-column-label-account =
@@ -235,6 +246,7 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Применити измене?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Применити колоне тренутне фасцикле на { $name }?
