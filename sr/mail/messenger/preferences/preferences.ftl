@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Календар
 category-calendar =
     .tooltiptext = Календар
+pane-sync-title = Синхронизација
+category-sync =
+    .tooltiptext = Синхронизација
 general-language-and-appearance-header = Језик и изглед
 general-incoming-mail-header = Долазна пошта
 general-files-and-attachment-header = Датотеке и прилози
@@ -41,11 +44,15 @@ privacy-junk-header = Смеће
 collection-header = { -brand-short-name } прикупљање података о коришћењу
 collection-description = Тежимо да вам омогућимо избор о томе како и шта прикупљамо од података који су нам потребни зарад побољшавања програма { -brand-short-name } за све наше кориснике. Увек тражимо дозволу пре слања личних података.
 collection-privacy-notice = Обавештење о приватности
+collection-health-report-telemetry-disabled = Више не дозвољавате { -vendor-short-name }-у да снима техничке и интерактивне податке. Сви протекли подаци биће избрисани у року од 30 дана.
 collection-health-report-telemetry-disabled-link = Сазнајте више
 collection-health-report =
     .label = Дозволи програму { -brand-short-name } слање техничких података и података о коришћењу ка организацији { -vendor-short-name }
     .accesskey = о
 collection-health-report-link = Сазнајте више
+# This message is displayed above disabled data sharing options in developer builds
+# or builds with no Telemetry support available.
+collection-health-report-disabled = Слање података је онемогућено за ову конфигурацију верзије
 collection-backlogged-crash-reports =
     .label = Дозволи програму { -brand-short-name } самостално слање сачуваних извештаја о падању програма
     .accesskey = з
@@ -84,6 +91,13 @@ open-addons-sidebar-button = Додаци и теме
 
 ## OS Authentication dialog
 
+# This message can be seen by trying to add a Primary Password.
+primary-password-os-auth-dialog-message-win = Из безбедносних разлога потребно је да унесете податке за пријаву на Windows да бисте направили главну лозинку.
+# This message can be seen by trying to add a Primary Password.
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to "
+# and includes subtitle of "Enter password for the user "xxx" to allow this." These
+# notes are only valid for English. Please test in your locale.
+primary-password-os-auth-dialog-message-macosx = направите главну лозинку
 # Don't change this label.
 master-password-os-auth-dialog-caption = { -brand-full-name }
 
@@ -110,6 +124,7 @@ add-web-search-engine =
 remove-search-engine =
     .label = Уклоните
     .accesskey = У
+add-opensearch-provider-title = Додајте OpenSearch добављача
 new-message-arrival = Када нове поруке стигну:
 mail-play-sound-label =
     .label =
