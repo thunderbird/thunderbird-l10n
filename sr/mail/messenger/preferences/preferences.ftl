@@ -125,6 +125,14 @@ remove-search-engine =
     .label = Уклоните
     .accesskey = У
 add-opensearch-provider-title = Додајте OpenSearch добављача
+add-opensearch-provider-text = Унесите URL адресу OpenSearch добављача који желите да додате. Користите директни URL OpenSearch датотеке описа или URL где се може аутоматски открити.
+adding-opensearch-provider-failed-title = Додавање OpenSearch добављача није успело
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
+adding-opensearch-provider-failed-text = Није могуће додати OpenSearch добављача за { $url }.
+minimize-to-tray-label =
+    .label = Када је { -brand-short-name } минимизиран, помери исти у алатну траку
+    .accesskey = м
 new-message-arrival = Када нове поруке стигну:
 mail-play-sound-label =
     .label =
