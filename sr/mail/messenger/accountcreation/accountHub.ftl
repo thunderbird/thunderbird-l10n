@@ -19,17 +19,6 @@ account-hub-release-notes = Белешке о издању
 account-hub-support = Подршка
 account-hub-donate = Донирајте
 
-## Start page
-
-account-hub-email-button = Подесите налог е-поште
-account-hub-new-email-button = Направите нову адресу е-поште
-account-hub-calendar-button = Подесите календар
-account-hub-address-book-button = Подесите именик
-account-hub-chat-button = Подесите ћаскање
-account-hub-feed-button = Подесите RSS фид
-account-hub-newsgroup-button = Подесите новинску групу
-account-hub-import-button = Увезите профил
-
 ## Initial setup page
 
 account-hub-email-setup-button = Налог е-поште
@@ -47,7 +36,7 @@ account-hub-newsgroup-setup-button = Новинска група
 account-hub-import-setup-button = Увезите
     .title = Увезите резервну копију профила
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
-account-hub-sync-button = Пријавите се да синхронизујете…
+account-hub-sync-button = Пријавите се на Sync…
 
 ## Email page
 

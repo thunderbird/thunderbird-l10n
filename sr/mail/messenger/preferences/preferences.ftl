@@ -22,9 +22,9 @@ category-chat =
 pane-calendar-title = Календар
 category-calendar =
     .tooltiptext = Календар
-pane-sync-title = Синхронизација
+pane-sync-title = Sync
 category-sync =
-    .tooltiptext = Синхронизација
+    .tooltiptext = Sync
 general-language-and-appearance-header = Језик и изглед
 general-incoming-mail-header = Долазна пошта
 general-files-and-attachment-header = Датотеке и прилози
@@ -721,5 +721,21 @@ search-results-help-link = Треба вам помоћ? Посетите <a dat
 ## Sync Tab
 
 sync-signedout-caption = Понесите веб са собом
+sync-signedout-description = Синхронизујте налоге, именике, календаре, додатке и подешавања на свим вашим уређајима.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Пријавите се на Sync…
+sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = „{ $userEmail }” није потврђен.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Пријавите се да поново повежете „{ $userEmail }”
+sync-pane-resend-verification = Поново пошаљи потврду
+sync-pane-sign-in = Пријави се
+sync-pane-remove-account = Уклони налог
+sync-pane-edit-photo =
+    .title = Промени профилну слику
+sync-pane-manage-account = Управљај налогом
 sync-pane-cancel = Откажи
 sync-pane-save = Сачувај
