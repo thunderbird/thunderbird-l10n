@@ -105,7 +105,7 @@ quick-filter-bar-text-filter-recipients = Примаоцима
 quick-filter-bar-text-filter-subject = Тема
 # The button label that toggles whether the text filter searches the message
 # body for the string.
-quick-filter-bar-text-filter-body = Телу
+quick-filter-bar-text-filter-body = Тело
 # The first line of the panel popup that tells the user we found no matches
 # but we can convert to a global search for them.
 quick-filter-bar-gloda-upsell-line1 = Настави претраживање по свим фасциклама
@@ -127,6 +127,10 @@ folder-pane-header-context-hide =
 
 threadpane-column-header-select =
     .title = Изаберите/поништите све поруке
+threadpane-column-header-select-all =
+    .title = Изабери све поруке
+threadpane-column-header-deselect-all =
+    .title = Поништи избор свих порука
 threadpane-column-label-select =
     .label = Одаберите поруке
 threadpane-column-header-thread =
@@ -137,12 +141,17 @@ threadpane-column-header-flagged =
     .title = Поређај по звездици
 threadpane-column-label-flagged =
     .label = Са звездицом
+threadpane-flagged-cell-label = Са звездицом
 threadpane-column-header-attachments =
     .title = Поређај по прилозима
 threadpane-column-label-attachments =
     .label = Прилози
+threadpane-attachments-cell-label = Прилози
 threadpane-column-header-spam =
     .title = Поређај по непожељности
+threadpane-column-label-spam =
+    .label = Непожељно
+threadpane-spam-cell-label = Непожељно
 threadpane-column-header-unread-button =
     .title = Поређај по стању прочитаности
 threadpane-column-header-sender = Шаље
