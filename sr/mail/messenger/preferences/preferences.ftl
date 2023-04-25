@@ -563,6 +563,7 @@ primary-password-label =
 primary-password-button =
     .label = Промени главну лозинку
     .accesskey = з
+forms-master-pw-fips-desc = Промена лозинке није успела
 junk-description = Поставите ваша подразумевана подешавања непожељне поште. Специфична подешавања за сваки налог понаособ можете поставити у подешавањима тог налога.
 junk-label =
     .label = Када означим поруке као непожељне:
@@ -678,6 +679,8 @@ chat-browse-sound-button =
 theme-label =
     .value = Тема:
     .accesskey = Т
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = Балончићи
 style-dark =
@@ -692,12 +695,31 @@ no-preview-description = Ова тема није исправна или ниј
 chat-variant-label =
     .value = Варијанта:
     .accesskey = В
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 15.4em
+    .placeholder = Пронађи у подешавањима
 
 ## Settings UI Search Results
 
 search-results-header = Резултати претраге
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] Жао нам је! У опцијама нема разултата за „<span data-l10n-name="query"></span>”.
+       *[other] Жао нам је! У подешавањима нема резултата за „<span data-l10n-name="query"></span>”.
+    }
+search-results-help-link = Треба вам помоћ? Посетите <a data-l10n-name="url">{ -brand-short-name } подршку</a>
 
 ## Sync Tab
 
+sync-signedout-caption = Понесите веб са собом
 sync-pane-cancel = Откажи
 sync-pane-save = Сачувај
