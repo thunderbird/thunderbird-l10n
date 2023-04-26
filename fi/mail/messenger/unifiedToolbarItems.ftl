@@ -6,9 +6,11 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Joustava väli
+search-bar-label = Etsi
 toolbar-write-message-label = Kirjoita
 toolbar-write-message =
     .title = Luo uusi viesti
+toolbar-move-to-label = Siirrä kansioon
 toolbar-move-to =
     .title = Siirrä valittu viesti
 toolbar-unifinder-label = Etsi tapahtumia
@@ -21,6 +23,8 @@ toolbar-edit-event-label = Muokkaa
 toolbar-edit-event =
     .title = Muokkaa valittua tapahtumaa tai tehtävää
 toolbar-get-messages-label = Nouda viestit
+toolbar-get-messages =
+    .title = Hae uudet viestit kaikita tileiltä
 toolbar-reply-label = Vastaa
 toolbar-reply =
     .title = Vastaa viestiin

@@ -24,6 +24,13 @@ about-addressbook-toolbar-import =
 all-address-books-row =
     .title = Kaikki osoitekirjat
 all-address-books = Kaikki osoitekirjat
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = Yhteystietoja osoitekirjassa { $name }: { $count }
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Yhteystietoja kaikissa osoitekirjoissa: { $count }
 about-addressbook-books-context-properties =
     .label = Ominaisuudet
 about-addressbook-books-context-synchronize =
