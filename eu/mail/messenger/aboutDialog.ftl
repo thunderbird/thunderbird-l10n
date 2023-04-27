@@ -5,6 +5,7 @@
 about-update-whats-new = Nobedadeak
 aboutDialog-title =
     .title = { -brand-full-name }(r)i buruz
+about-dialog-title = { -brand-full-name }(r)i buruz
 release-notes-link = Bertsio-oharrak
 update-internal-error = Ezin dira eguneraketak bilatu barne-errore bat dela eta. Eguneraketak <a data-l10n-name="manual-link"/> helbidean daude erabilgarri
 update-check-for-updates-button = Bilatu eguneraketak
