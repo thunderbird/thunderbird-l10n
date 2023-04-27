@@ -56,6 +56,9 @@ about-helpus =
     Szeretne segíteni? <a data-l10n-name="helpus-donate-link">
     Támogasson,</a> or <a data-l10n-name="helpus-get-involved-link">
     vegyen részt!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> egy <a data-l10n-name="community-exp-credits-link">nemzetközi közösség</a>, amely a nyílt, nyilvános és mindenki számára elérhető internetért dolgozik.
+community-desc = A { -brand-short-name }öt a <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> tervezte, egy <a data-l10n-name="community-credits-link">nemzetközi közösség</a>, amely a nyílt, nyilvános és mindenki számára elérhető internetért dolgozik.
+about-donation = Szeretne segíteni? <a data-l10n-name="helpus-donate-link">Támogasson,</a> or <a data-l10n-name="helpus-get-involved-link">vegyen részt!</a>
 bottom-links-license = Licencinformációk
 bottom-links-rights = Végfelhasználói jogok
 bottom-links-privacy = Adatvédelmi irányelvek
