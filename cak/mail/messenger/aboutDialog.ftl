@@ -5,6 +5,7 @@
 about-update-whats-new = Achike natzijoj
 aboutDialog-title =
     .title = Chi rij { -brand-full-name }
+about-dialog-title = Chi rij { -brand-full-name }
 release-notes-link = Ruch'utitzijol ruwäch
 update-check-for-updates-button = Kenik'öx taq K'exoj
     .accesskey = n
