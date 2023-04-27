@@ -5,6 +5,7 @@
 about-update-whats-new = Hvað er nýtt
 aboutDialog-title =
     .title = Um { -brand-full-name }
+about-dialog-title = Um { -brand-full-name }
 release-notes-link = Útgáfuupplýsingar
 update-internal-error = Ekki er hægt að leita að uppfærslum vegna innri villu. Uppfærslur eru fáanlegar á <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Leita að uppfærslum
@@ -55,6 +56,9 @@ about-helpus =
     Viltu hjálpa? <a data-l10n-name="helpus-donate-link">
     Styrkja verkefnið</a> or <a data-l10n-name="helpus-get-involved-link">
     taktu þátt!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> er <a data-l10n-name="community-exp-credits-link">samfélag</a> sem vinnur að því að gera vefinn opinn, frjálsan og aðgengilegan öllum.
+community-desc = { -brand-short-name } er hannað af <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, sem er <a data-l10n-name="community-credits-link">samfélag</a> sem vinnur að því að gera vefinn opinn, frjálsan og aðgengilegan öllum.
+about-donation = Viltu hjálpa? <a data-l10n-name="helpus-donate-link">Styrkja verkefnið</a> or <a data-l10n-name="helpus-get-involved-link">taktu þátt!</a>
 bottom-links-license = Upplýsingar um notkunarleyfi
 bottom-links-rights = Réttindi notenda
 bottom-links-privacy = Stefna um meðferð persónuupplýsinga
