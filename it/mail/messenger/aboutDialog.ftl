@@ -43,6 +43,9 @@ aboutdialog-update-checking-failed = Impossibile controllare la disponibilità d
 community-exp = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> è una <a data-l10n-name="community-exp-credits-link">comunità globale</a> che lavora per mantenere il Web aperto, pubblico e accessibile a tutti.
 community-2 = { -brand-short-name } è progettato da <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, una <a data-l10n-name="community-credits-link">comunità globale</a> che lavora per mantenere il Web aperto, pubblico e accessibile a tutti.
 about-helpus = Vuoi aiutarci? <a data-l10n-name="helpus-donate-link">Fai una donazione</a> o <a data-l10n-name="helpus-get-involved-link">collabora con noi</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> è una <a data-l10n-name="community-exp-credits-link">comunità globale</a> che lavora per mantenere il Web aperto, pubblico e accessibile a tutti.
+community-desc = { -brand-short-name } è progettato da <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, una <a data-l10n-name="community-credits-link">comunità globale</a> che lavora per mantenere il Web aperto, pubblico e accessibile a tutti.
+about-donation = Vuoi aiutarci? <a data-l10n-name="helpus-donate-link">Fai una donazione</a> o <a data-l10n-name="helpus-get-involved-link">collabora con noi</a>
 bottom-links-license = Informazioni sulla licenza
 bottom-links-rights = Diritti dell’utente finale
 bottom-links-privacy = Informativa sulla privacy
