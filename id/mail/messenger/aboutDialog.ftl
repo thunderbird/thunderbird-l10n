@@ -38,6 +38,9 @@ about-helpus =
     Ingin membantu? <a data-l10n-name="helpus-donate-link">
     Berikan sumbangan</a> or <a data-l10n-name="helpus-get-involved-link">
     mari ikut berperan!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> adalah sebuah <a data-l10n-name="community-exp-credits-link">komunitas global</a>bekerja sama untuk menjaga Web tetap terbuka, bagi publik, dan dapat diakses oleh semua orang.
+community-desc = { -brand-short-name } didesain oleh <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, sebuah <a data-l10n-name="community-credits-link">komunitas global</a>bekerja sama untuk menjaga Web tetap terbuka, bagi publik, dan dapat diakses oleh semua orang.
+about-donation = Ingin membantu? <a data-l10n-name="helpus-donate-link">Berikan sumbangan</a> or <a data-l10n-name="helpus-get-involved-link">mari ikut berperan!</a>
 bottom-links-license = Informasi Lisensi
 bottom-links-rights = Hak Pengguna Akhir
 bottom-links-privacy = Kebijakan Privasi
