@@ -5,6 +5,7 @@
 about-update-whats-new = What’s New
 aboutDialog-title =
     .title = About { -brand-full-name }
+about-dialog-title = About { -brand-full-name }
 release-notes-link = Release notes
 update-internal-error = Unable to check for updates due to internal error. Updates available at <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Check for Updates
