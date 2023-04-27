@@ -56,7 +56,9 @@ about-helpus =
     Hoffech chi helpu? <a data-l10n-name="helpus-donate-link">
     Gwnewch gyfraniad</a> or <a data-l10n-name="helpus-get-involved-link">
     beth am ymuno â ni!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">Mae { -vendor-short-name }</a> yn <a data-l10n-name="community-exp-credits-link">gymuned fyd-eang</a> sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
 community-desc = Cynlluniwyd { -brand-short-name } gan <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, a <a data-l10n-name="community-credits-link">chymuned fyd-eang</a> sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
+about-donation = Hoffech chi helpu? <a data-l10n-name="helpus-donate-link">Gwnewch gyfraniad</a> or <a data-l10n-name="helpus-get-involved-link">beth am ymuno â ni!</a>
 bottom-links-license = Manylion Trwyddedu
 bottom-links-rights = Hawliau'r Defnyddiwr
 bottom-links-privacy = Polisi Preifatrwydd
