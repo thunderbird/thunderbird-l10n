@@ -5,6 +5,7 @@
 about-update-whats-new = Ç’ka të Re
 aboutDialog-title =
     .title = Rreth { -brand-full-name }-it
+about-dialog-title = Rreth { -brand-full-name }-it
 release-notes-link = Shënime versioni
 update-internal-error = S’arrihet të kontrollohet për përditësime, për shkak gabimi të brendshëm. Përditësime të passhme te <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Kontrollo për Përditësime
