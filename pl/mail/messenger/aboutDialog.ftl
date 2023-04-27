@@ -5,6 +5,7 @@
 about-update-whats-new = Informacje o wydaniu
 aboutDialog-title =
     .title = O programie { -brand-full-name }
+about-dialog-title = O programie { -brand-full-name }
 release-notes-link = Informacje o wydaniu
 update-internal-error = Nie można sprawdzić dostępności aktualizacji z powodu błędu wewnętrznego. Aktualizacje są dostępne na <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Sprawdź dostępność aktualizacji
