@@ -5,6 +5,7 @@
 about-update-whats-new = Что нового
 aboutDialog-title =
     .title = О { -brand-full-name }
+about-dialog-title = О { -brand-full-name }
 release-notes-link = Примечания к выпуску
 update-internal-error = Не удалось проверить наличие обновлений из-за внутренней ошибки. Обновления доступны по адресу <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Проверить на обновления
