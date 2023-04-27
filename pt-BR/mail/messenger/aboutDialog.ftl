@@ -5,6 +5,7 @@
 about-update-whats-new = Novidades
 aboutDialog-title =
     .title = Sobre o { -brand-full-name }
+about-dialog-title = Sobre o { -brand-full-name }
 release-notes-link = Notas de atualização
 update-internal-error = Não foi possível verificar se há atualizações devido a um erro interno. Atualizações disponíveis em <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Verificar se há atualizações
@@ -55,6 +56,7 @@ about-helpus =
     Quer ajudar? <a data-l10n-name="helpus-donate-link">
     Faça uma doação</a> or <a data-l10n-name="helpus-get-involved-link">
     participe!</a>
+about-donation = Quer ajudar? <a data-l10n-name="helpus-donate-link">Faça uma doação</a> or <a data-l10n-name="helpus-get-involved-link">participe!</a>
 bottom-links-license = Informações de licenciamento
 bottom-links-rights = Direitos do usuário final
 bottom-links-privacy = Política de privacidade
