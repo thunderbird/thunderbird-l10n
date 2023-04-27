@@ -5,6 +5,7 @@
 about-update-whats-new = Yeni neler var?
 aboutDialog-title =
     .title = { -brand-full-name } hakkında
+about-dialog-title = { -brand-full-name } hakkında
 release-notes-link = Sürüm notları
 update-internal-error = Dahili bir hata nedeniyle güncellemeler kontrol edilemiyor. Güncellemeleri <a data-l10n-name="manual-link"/> adresinde bulabilirsiniz.
 update-check-for-updates-button = Güncellemeleri denetle
@@ -50,6 +51,7 @@ about-helpus =
     Yardım etmek ister misiniz? <a data-l10n-name="helpus-donate-link">
     Bağış yapın</a> or <a data-l10n-name="helpus-get-involved-link">
     siz de katkıda bulunun!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> Web’i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan <a data-l10n-name="community-exp-credits-link">küresel bir topluluktur</a>.
 bottom-links-license = Lisans Bilgileri
 bottom-links-rights = Son Kullanıcı Hakları
 bottom-links-privacy = Gizlilik İlkeleri
