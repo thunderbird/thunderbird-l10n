@@ -34,6 +34,9 @@ about-helpus =
     ចង់​ជួយ?<a data-l10n-name="helpus-donate-link">
     ឧបត្ថម្ភ</a> or <a data-l10n-name="helpus-get-involved-link">
     ចូលរួម!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> គឺជា <a data-l10n-name="community-exp-credits-link">សហគមន៍​សកល</a> ដែល​ធ្វើការ​ជាមួយ​គ្នា​ដើម្បី​ធ្វើ​ឲ្យ​តំបន់​បណ្ដាញ​បើក​ចំហ សាធារណៈ និង​អាច​ចូល​ដំណើរការ​បាន​គ្រប់គ្នា។
+community-desc = { -brand-short-name }-ը ձևավորել է <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, a <a data-l10n-name="community-credits-link">សហគមន៍​សកល</a> ដែល​ធ្វើការ​ជាមួយ​គ្នា​ដើម្បី​ធ្វើ​ឲ្យ​តំបន់​បណ្ដាញ​បើក​ចំហ សាធារណៈ និង​អាច​ចូល​ដំណើរការ​បាន​គ្រប់គ្នា។
+about-donation = ចង់​ជួយ?<a data-l10n-name="helpus-donate-link">ឧបត្ថម្ភ</a> or <a data-l10n-name="helpus-get-involved-link">ចូលរួម!</a>
 bottom-links-license = ព័ត៌មាន​អាជ្ញាប័ណ្ណ
 bottom-links-rights = សិទ្ធិ​អ្នកប្រើ
 bottom-links-privacy = គោល​នយោបាយ​ភាព​ឯកជន
