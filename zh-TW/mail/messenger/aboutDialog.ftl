@@ -56,6 +56,9 @@ about-helpus =
     想幫忙嗎？<a data-l10n-name="helpus-donate-link">
     捐款給我們</a> or <a data-l10n-name="helpus-get-involved-link">
     出力參與！</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a>是一個<a data-l10n-name="community-exp-credits-link">全球性社群</a>。我們一起努力讓網路保持開放，任誰都可隨意使用。
+community-desc = { -brand-short-name } 是由 <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> 所開發的產品。Mozilla 是個 <a data-l10n-name="community-credits-link">全球性社群</a>。我們一起努力讓網路保持開放，任誰都可隨意使用。
+about-donation = 想幫忙嗎？<a data-l10n-name="helpus-donate-link">捐款給我們</a> or <a data-l10n-name="helpus-get-involved-link">出力參與！</a>
 bottom-links-license = 授權資訊
 bottom-links-rights = 使用者權利
 bottom-links-privacy = 隱私權保護政策
