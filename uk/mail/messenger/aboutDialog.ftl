@@ -5,6 +5,7 @@
 about-update-whats-new = Що нового
 aboutDialog-title =
     .title = Про { -brand-full-name }
+about-dialog-title = Про { -brand-full-name }
 release-notes-link = Інформація про випуск
 update-internal-error = Не вдалося перевірити наявність оновлень через внутрішню помилку. Оновлення доступні за посиланням <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Перевірити оновлення
@@ -55,6 +56,7 @@ about-helpus =
     Бажаєте допомогти? <a data-l10n-name="helpus-donate-link">
     Зробіть внесок</a> or <a data-l10n-name="helpus-get-involved-link">
     долучайтеся</a>
+community-desc = { -brand-short-name } було розроблено в <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> — <a data-l10n-name="community-credits-link">глобальній спільноті</a>, яка працює над тим, щоб інтернет залишався відкритим, громадським та доступним для всіх.
 bottom-links-license = Ліцензійна інформація
 bottom-links-rights = Права кінцевого користувача
 bottom-links-privacy = Політика приватності
