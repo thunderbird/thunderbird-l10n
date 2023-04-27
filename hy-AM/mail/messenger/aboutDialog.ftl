@@ -39,6 +39,9 @@ about-helpus =
     Ցանկանո՞ւմ եք օգնել:<a data-l10n-name="helpus-donate-link">
     Կատարեք նվիրատվություն</a> or <a data-l10n-name="helpus-get-involved-link">
     միացեք մեր համայնքին:</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }-ը</a> ստեղծել է <a data-l10n-name="community-exp-credits-link">գլոբալ համայնք, </a> որն աշխատում է մեկ նպատակով՝ ապահովել համացանցի հասանելիությունը բոլորի համար:
+community-desc = { -brand-short-name }-ը ստեղծել է <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }-ն</a>,<a data-l10n-name="community-credits-link">գլոբալ համայնք, </a> որն աշխատում է մեկ նպատակով՝ ապահովել համացանցի հասանելիությունը բոլորի համար:
+about-donation = Ցանկանո՞ւմ եք օգնել:<a data-l10n-name="helpus-donate-link">Կատարեք նվիրատվություն</a> or <a data-l10n-name="helpus-get-involved-link">միացեք մեր համայնքին:</a>
 bottom-links-license = Արտոնագրի մասին
 bottom-links-rights = Օգտագործողի իրավունքները
 bottom-links-privacy = Գաղտնիության դրույթներ
