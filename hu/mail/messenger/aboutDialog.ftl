@@ -5,6 +5,7 @@
 about-update-whats-new = Újdonságok
 aboutDialog-title =
     .title = A { -brand-full-name } névjegye
+about-dialog-title = A { -brand-full-name } névjegye
 release-notes-link = Kiadási megjegyzések
 update-internal-error = Belső hiba miatt nem lehet frissítéseket keresni. A frissítések itt érhetők el: <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Frissítések keresése
