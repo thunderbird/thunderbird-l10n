@@ -9,6 +9,11 @@ aboutDialog-title =
             [with-cases] O { -brand-full-name(case: "loc") }
            *[no-cases] O aplikaci { -brand-full-name }
         }
+about-dialog-title =
+    { -brand-full-name.case-status ->
+        [with-cases] O { -brand-full-name(case: "loc") }
+       *[no-cases] O aplikaci { -brand-full-name }
+    }
 release-notes-link = Poznámky k vydání
 update-check-for-updates-button = Zkontrolovat aktualizace
     .accesskey = Z
