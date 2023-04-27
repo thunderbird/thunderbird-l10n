@@ -50,6 +50,8 @@ about-helpus =
     Lagundu nahi? <a data-l10n-name="helpus-donate-link">
     Dohaintza bat egin</a> or <a data-l10n-name="helpus-get-involved-link">
     Hartu parte!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> weba ireki, publiko eta guztiontzat atzigarri mantentzeko lanean dabilen <a data-l10n-name="community-exp-credits-link">komunitate globala</a> da.
+about-donation = Lagundu nahi? <a data-l10n-name="helpus-donate-link">Dohaintza bat egin</a> or <a data-l10n-name="helpus-get-involved-link">Hartu parte!</a>
 bottom-links-license = Lizentziaren informazioa
 bottom-links-rights = Erabiltzailearen eskubideak
 bottom-links-privacy = Pribatutasun-politika
