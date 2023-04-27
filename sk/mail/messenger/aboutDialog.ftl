@@ -5,6 +5,7 @@
 about-update-whats-new = Čo je nové
 aboutDialog-title =
     .title = O aplikácii { -brand-full-name }
+about-dialog-title = O aplikácii { -brand-full-name }
 release-notes-link = Poznámky k vydaniu
 update-internal-error = Nie je možné skontrolovať aktualizácie kvôli internej chybe. Aktualizácie sú k dispozícii na stránke <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Vyhľadať aktualizácie
@@ -55,6 +56,7 @@ about-helpus =
     Chcete nám pomôcť? <a data-l10n-name="helpus-donate-link">
     Zašlite svoj príspevok</a> alebo <a data-l10n-name="helpus-get-involved-link">
     sa zapojte</a>.
+about-donation = Chcete nám pomôcť? <a data-l10n-name="helpus-donate-link">Zašlite svoj príspevok</a> alebo <a data-l10n-name="helpus-get-involved-link">sa zapojte</a>.
 bottom-links-license = Informácie o licenciách
 bottom-links-rights = Práva koncového používateľa
 bottom-links-privacy = Zásady ochrany osobných údajov
