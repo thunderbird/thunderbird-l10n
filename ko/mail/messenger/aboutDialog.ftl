@@ -39,6 +39,9 @@ about-helpus =
     도움을 주고 싶으십니까? <a data-l10n-name="helpus-donate-link">
     기부 하기</a> or <a data-l10n-name="helpus-get-involved-link">
     직접 참여 해</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a>는 인터넷을 개선하기 위해<a data-l10n-name="community-exp-credits-link">글로벌 커뮤니티</a> 개방되고 공공재로서 모두에게 접근 가능한 웹을 만들기 위해 함께 노력합니다.
+community-desc = { -brand-short-name }는 <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>에 의해 제작되며, 인터넷을 개선하기 위해<a data-l10n-name="community-credits-link">글로벌 커뮤니티</a>가 하나로 모여 만들고 있습니다. 우리는 인터넷이 공개되어 공공의 이익을 위해 사람들이 아무런 제한없이 접근할 수있는 것이라고 믿고 있습니다.{ " " }
+about-donation = 도움을 주고 싶으십니까? <a data-l10n-name="helpus-donate-link">기부 하기</a> or <a data-l10n-name="helpus-get-involved-link">직접 참여 해</a>
 bottom-links-license = 라이선스 정보
 bottom-links-rights = 소프트웨어 이용 권리
 bottom-links-privacy = 개인정보처리방침
