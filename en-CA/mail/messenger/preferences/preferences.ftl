@@ -545,6 +545,8 @@ do-not-track-label =
     .accesskey = n
 learn-button =
     .label = Learn more
+dnt-learn-more-button =
+    .value = Learn more
 passwords-description = { -brand-short-name } can remember passwords for all of your accounts.
 passwords-button =
     .label = Saved Passwords…
@@ -711,3 +713,6 @@ search-results-empty-message2 =
        *[other] Sorry! There are no results in Settings for “<span data-l10n-name="query"></span>”.
     }
 search-results-help-link = Need help? Visit <a data-l10n-name="url">{ -brand-short-name } Support</a>
+
+## Sync Tab
+
