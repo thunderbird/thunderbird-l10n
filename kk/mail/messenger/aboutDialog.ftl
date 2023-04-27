@@ -58,6 +58,7 @@ about-helpus =
     үлес қосуға болады!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> бұл <a data-l10n-name="community-exp-credits-link">глобалды қоғамдастық,</a> интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.
 community-desc = { -brand-short-name } жасаған <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, ол <a data-l10n-name="community-credits-link">глобалды қоғамдастық,</a> интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.
+about-donation = Көмектескіңіз келе ме? <a data-l10n-name="helpus-donate-link">Ақшалай көмектесіңіз</a> or <a data-l10n-name="helpus-get-involved-link">үлес қосуға болады!</a>
 bottom-links-license = Лицензиялық ақпарат
 bottom-links-rights = Түпкі пайдаланушы құқықтары
 bottom-links-privacy = Жекелік саясаты
