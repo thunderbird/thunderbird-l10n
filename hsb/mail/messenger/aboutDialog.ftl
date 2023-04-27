@@ -5,6 +5,7 @@
 about-update-whats-new = Nowe funkcije a změny
 aboutDialog-title =
     .title = Wo { -brand-full-name }
+about-dialog-title = Wo { -brand-full-name }
 release-notes-link = Wersijowe informacije
 update-internal-error = Interneho zmylka dla njeje móžno za aktualizacijemi pytać. Aktualizacije su na <a data-l10n-name="manual-link"/> k dispoziciji
 update-check-for-updates-button = Za aktualizacijemi pytać
