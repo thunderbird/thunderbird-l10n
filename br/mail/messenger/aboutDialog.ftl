@@ -38,6 +38,9 @@ about-helpus =
     C'hoant sikour ? <a data-l10n-name="helpus-donate-link">
     Roit arc'hant</a> or <a data-l10n-name="helpus-get-involved-link">
     Kemerit perzh enni!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> a zo <a data-l10n-name="community-exp-credits-link">gumuniezh vedel</a> a labour a-gevret evit derc'hel ar web digor, foran ha haezadus evit an holl.
+community-desc = Ergrafet eo { -brand-short-name } gant <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, ur <a data-l10n-name="community-credits-link">gumuniezh vedel</a> a labour a-gevret evit derc'hel ar web digor, foran ha haezadus evit an holl.
+about-donation = C'hoant sikour ? <a data-l10n-name="helpus-donate-link">Roit arc'hant</a> or <a data-l10n-name="helpus-get-involved-link">Kemerit perzh enni!</a>
 bottom-links-license = Titouroù a-fet lañvaz
 bottom-links-rights = Gwirioù an arveriaded-dibenn
 bottom-links-privacy = Reolenn an diogelroez
