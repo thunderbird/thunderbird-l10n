@@ -39,6 +39,9 @@ about-helpus =
     Soovid aidata? <a data-l10n-name="helpus-donate-link">
     Tee annetus</a> or <a data-l10n-name="helpus-get-involved-link">
     löö kaasa!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> on <a data-l10n-name="community-exp-credits-link">üleilmne kogukond</a>, kes töötab koos, et hoida internet avatuna, avalikuna ja ilma igasuguste piiranguteta ligipääsetavana kõigile.
+community-desc = { -brand-short-name } on loodud <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> <a data-l10n-name="community-credits-link">üleilmse kogukonna </a> poolt, et hoida internet avatud, avalik ja ilma igasuguste piiranguteta ligipääsetav kõigile.
+about-donation = Soovid aidata? <a data-l10n-name="helpus-donate-link">Tee annetus</a> or <a data-l10n-name="helpus-get-involved-link">löö kaasa!</a>
 bottom-links-license = Litsentsist
 bottom-links-rights = Kasutaja õigustest
 bottom-links-privacy = Privaatsusreeglid
