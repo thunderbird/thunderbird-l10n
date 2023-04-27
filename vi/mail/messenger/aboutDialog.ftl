@@ -5,6 +5,7 @@
 about-update-whats-new = Có gì mới
 aboutDialog-title =
     .title = Giới thiệu về { -brand-full-name }
+about-dialog-title = Giới thiệu về { -brand-full-name }
 release-notes-link = Ghi chú phát hành
 update-internal-error = Không thể kiểm tra các bản cập nhật do lỗi nội bộ. Bản cập nhật có sẵn tại <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Kiểm tra cập nhật
