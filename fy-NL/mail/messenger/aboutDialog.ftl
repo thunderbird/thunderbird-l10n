@@ -5,6 +5,7 @@
 about-update-whats-new = Wat is der nij
 aboutDialog-title =
     .title = Oer { -brand-full-name }
+about-dialog-title = Oer { -brand-full-name }
 release-notes-link = Utjefeopmerkingen
 update-internal-error = Kin net kontrolearje op fernijingen fanwegen in ynterne flater. Fernijingen beskikber op <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Kontrolearje op fernijingen
@@ -55,6 +56,8 @@ about-helpus =
     Wolle jo helpe? <a data-l10n-name="helpus-donate-link">
     Jou in donaasje</a> or <a data-l10n-name="helpus-get-involved-link">
     doch mei!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> is in <a data-l10n-name="community-exp-credits-link">wrâldwide mienskip</a> dy’t gearwurket om it ynternet iepen, iepenbier en foar elkenien tagonklik te hâlden.
+community-desc = { -brand-short-name } is makke troch <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, in <a data-l10n-name="community-credits-link">wrâldwide mienskip</a> dy’t gearwurket om it ynternet iepen, iepenbier, en foar elkenien tagonklik te hâlden.
 bottom-links-license = Lisinsje-ynformaasje
 bottom-links-rights = Einbrûkersrjochten
 bottom-links-privacy = Privacybelied
