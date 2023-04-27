@@ -39,6 +39,9 @@ about-helpus =
     გსურთ დახმარება? <a data-l10n-name="helpus-donate-link">
     გააკეთეთ შემოწირულობა</a> or <a data-l10n-name="helpus-get-involved-link">
     შემოგვიერთდით!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> არის <a data-l10n-name="community-exp-credits-link">საერთაშორისო ერთობა</a>, რომელიც მუშაობს იმისთვის, რომ ინტერნეტი დარჩეს გახსნილი, საჯარო და საყოველთაოდ ხელმისაწვდომი.
+community-desc = { -brand-short-name } შექმნილია <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, a <a data-l10n-name="community-credits-link">საერთაშორისო ერთობა</a>, რომელიც მუშაობს იმისთვის, რომ ინტერნეტი დარჩეს გახსნილი, საჯარო და საყოველთაოდ ხელმისაწვდომი.
+about-donation = გსურთ დახმარება? <a data-l10n-name="helpus-donate-link">გააკეთეთ შემოწირულობა</a> or <a data-l10n-name="helpus-get-involved-link">შემოგვიერთდით!</a>
 bottom-links-license = ლიცენზიის შესახებ
 bottom-links-rights = მომხმარებლის უფლებები
 bottom-links-privacy = კონფიდენციალობა
