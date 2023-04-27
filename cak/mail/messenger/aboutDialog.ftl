@@ -54,6 +54,9 @@ about-helpus =
     ¿La nawajo' yato'on? <a data-l10n-name="helpus-donate-link">
     Taya' jun sipanïk</a> or <a data-l10n-name="helpus-get-involved-link">
     ¡kato'on!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> jun <a data-l10n-name="community-exp-credits-link">chijun ach'ala'il</a>yojsamäj pa q'u'ch richin jantape' jaqäl chuqa' okel nisamajïx ri k'amaya'l.
+community-desc = { -brand-short-name } wachib'en ruma <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, jun <a data-l10n-name="community-credits-link">chijun ach'ala'il</a>yojsamäj pa q'u'ch richin jantape' jaqäl chuqa' okel nisamajïx ri k'amaya'l.
+about-donation = ¿La nawajo' yato'on? <a data-l10n-name="helpus-donate-link">Taya' jun sipanïk</a> or <a data-l10n-name="helpus-get-involved-link">¡kato'on!</a>
 bottom-links-license = Rutzijol Ya'öl Q'ij
 bottom-links-rights = Kich'ojib'al K'isib'äl-Okisanel
 bottom-links-privacy = Ichinan Na'oj
