@@ -5,6 +5,7 @@
 about-update-whats-new = Шта је ново
 aboutDialog-title =
     .title = О { -brand-full-name }-у
+about-dialog-title = О { -brand-full-name }-у
 release-notes-link = Белешке о издању
 update-internal-error = Није могуће проверити ажурирања због интерне грешке. Ажурирања су доступна на <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Провери надоградње
