@@ -39,6 +39,8 @@ about-helpus =
     Ցանկանու՞մ էք աւգնել:<a data-l10n-name="helpus-donate-link">
     Կատարել նուիրատուութիւն</a> or <a data-l10n-name="helpus-get-involved-link">
     միացէ՛ք</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a>է<a data-l10n-name="community-exp-credits-link">ընդհանուր համայնք</a>աշխատում է, որ ապահովի համացանցը բաց, հանրային եւ հասանելի բոլորի համար։
+community-desc = { -brand-short-name }-ը մշակուել է<a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, a <a data-l10n-name="community-credits-link">ընդհանուր համայնք</a>աշխատում է, որ ապահովի համացանցը բաց, հանրային եւ հասանելի բոլորի համար։
 bottom-links-license = Տեղեկութիւն արտոնագրի մասին
 bottom-links-rights = Աւգտագործողի իրաւունքները
 bottom-links-privacy = Տեղադրուած է &brandShortName;-ի վերջին տարբերակը
