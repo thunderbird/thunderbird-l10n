@@ -5,6 +5,7 @@
 about-update-whats-new = Novaziuns
 aboutDialog-title =
     .title = Davart { -brand-full-name }
+about-dialog-title = Davart { -brand-full-name }
 release-notes-link = Remartgas davart la versiun
 update-internal-error = Impussibel da tschertgar actualisaziuns causa ina errur interna. Actualisaziuns disponiblas sin <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Tschertgar actualisaziuns
