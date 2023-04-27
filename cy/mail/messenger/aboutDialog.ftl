@@ -5,6 +5,7 @@
 about-update-whats-new = Be sy'n Newydd
 aboutDialog-title =
     .title = Ynghylch { -brand-full-name }
+about-dialog-title = Ynghylch { -brand-full-name }
 release-notes-link = Nodiadau ryddhau
 update-internal-error = Methu gwirio am ddiweddariadau oherwydd gwall mewnol. Diweddariadau ar gael yn <a data-l10n-name="manual-link">
 update-check-for-updates-button = Gwirio am Ddiweddariadau
@@ -55,6 +56,7 @@ about-helpus =
     Hoffech chi helpu? <a data-l10n-name="helpus-donate-link">
     Gwnewch gyfraniad</a> or <a data-l10n-name="helpus-get-involved-link">
     beth am ymuno â ni!</a>
+community-desc = Cynlluniwyd { -brand-short-name } gan <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, a <a data-l10n-name="community-credits-link">chymuned fyd-eang</a> sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
 bottom-links-license = Manylion Trwyddedu
 bottom-links-rights = Hawliau'r Defnyddiwr
 bottom-links-privacy = Polisi Preifatrwydd
