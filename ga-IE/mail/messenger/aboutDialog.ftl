@@ -37,6 +37,9 @@ about-helpus =
     Ar mhaith leat cabhrú linn? <a data-l10n-name="helpus-donate-link">
     Tabhair deontas</a> or <a data-l10n-name="helpus-get-involved-link">
     glac páirt!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> - <a data-l10n-name="community-exp-credits-link">comhphobal domhanda</a> atá ag obair ar son Gréasáin atá oscailte, poiblí, agus ar fáil do chách.
+community-desc = Bhí { -brand-short-name } cruthaithe ag <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">comhphobal domhanda</a> atá ag obair ar son Gréasáin atá oscailte, poiblí, agus ar fáil do chách.
+about-donation = Ar mhaith leat cabhrú linn? <a data-l10n-name="helpus-donate-link">Tabhair deontas</a> or <a data-l10n-name="helpus-get-involved-link">glac páirt!</a>
 bottom-links-license = Maidir leis an gCeadúnas
 bottom-links-rights = Cearta an Úsáideora
 bottom-links-privacy = Polasaí Príobháideachta
