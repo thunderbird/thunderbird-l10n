@@ -5,6 +5,7 @@
 about-update-whats-new = Yella umaynut
 aboutDialog-title =
     .title = Ɣef { -brand-full-name }
+about-dialog-title = Ɣef { -brand-full-name }
 release-notes-link = Iwenniten n lqem
 update-check-for-updates-button = Senqed ma llan ileqman
     .accesskey = S
