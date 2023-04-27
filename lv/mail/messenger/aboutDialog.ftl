@@ -39,6 +39,9 @@ about-helpus =
     Vēlaties palīdzēt? <a data-l10n-name="helpus-donate-link">
     Ziedojiet</a> or <a data-l10n-name="helpus-get-involved-link">
     iesaistieties!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> ir <a data-l10n-name="community-exp-credits-link">globāla kopiena</a>, kas kopīgi strādā, lai tīmeklis būtu atvērts, publisks un pieejams visiem.
+community-desc = { -brand-short-name } izstrādā<a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, kura<a data-l10n-name="community-credits-link">globālā kopiena</a>, kas kopīgi strādā, lai tīmeklis būtu atvērts, publisks un pieejams visiem.
+about-donation = Vēlaties palīdzēt? <a data-l10n-name="helpus-donate-link">Ziedojiet</a> or <a data-l10n-name="helpus-get-involved-link">iesaistieties!</a>
 bottom-links-license = Licences informācija
 bottom-links-rights = Gala lietotāja tiesības
 bottom-links-privacy = Privātuma politika
