@@ -5,6 +5,7 @@
 about-update-whats-new = Novosti
 aboutDialog-title =
     .title = O { -brand-full-name(sklon: "mestnik") }
+about-dialog-title = O { -brand-full-name(sklon: "mestnik") }
 release-notes-link = Opombe ob izdaji
 update-internal-error = Iskanje posodobitev ni uspelo zaradi notranje napake. Posodobitve so na voljo na <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Poišči posodobitve
