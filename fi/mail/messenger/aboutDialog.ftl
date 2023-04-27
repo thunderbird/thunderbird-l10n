@@ -56,6 +56,9 @@ about-helpus =
     Haluatko auttaa? <a data-l10n-name="helpus-donate-link">
     Tee lahjoitus</a> or <a data-l10n-name="helpus-get-involved-link">
     liity joukkoon!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> on <a data-l10n-name="community-exp-credits-link">kansainvälinen yhteisö</a>, joka pyrkii kehittämään Internetiä avoimeksi, julkiseksi ja kaikkien rajoituksitta käytettävissä olevaksi.
+community-desc = { -brand-short-name }in on kehittänyt <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">kansainvälinen yhteisö</a>, joka pyrkii kehittämään Internetiä avoimeksi, julkiseksi ja kaikkien rajoituksitta käytettävissä olevaksi.
+about-donation = Haluatko auttaa? <a data-l10n-name="helpus-donate-link">Tee lahjoitus</a> or <a data-l10n-name="helpus-get-involved-link">liity joukkoon!</a>
 bottom-links-license = Lisenssitiedot
 bottom-links-rights = Loppukäyttäjän oikeudet
 bottom-links-privacy = Tietosuojakäytäntö
