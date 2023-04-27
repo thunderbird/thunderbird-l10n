@@ -56,6 +56,9 @@ about-helpus =
     Cośo pomagaś? <a data-l10n-name="helpus-donate-link">
     Pósćiś</a> or <a data-l10n-name="helpus-get-involved-link">
     cyńśo sobu!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> jo <a data-l10n-name="community-exp-credits-link">globalne zgromaźeństwo,</a> kótarež gromaźe źěła, aby web wótwórjony, zjawny a za wšych pśistupny wobchowało.
+community-desc = { -brand-short-name } jo se wuwił wót <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">globalne zgromaźeństwo,</a> kótarež gromaźe źěła, aby web wótwórjony, zjawny a za wšych pśistupny wobchowało.
+about-donation = Cośo pomagaś? <a data-l10n-name="helpus-donate-link">Pósćiś</a> or <a data-l10n-name="helpus-get-involved-link">cyńśo sobu!</a>
 bottom-links-license = Licencne informacije
 bottom-links-rights = Pšawa kóńcnego wužywarja
 bottom-links-privacy = Pšawidła priwatnosći
