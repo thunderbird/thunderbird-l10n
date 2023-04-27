@@ -34,6 +34,9 @@ about-helpus =
     Yordam bermoqchimisiz? <a data-l10n-name="helpus-donate-link">
     Xayriya qiling</a> or <a data-l10n-name="helpus-get-involved-link">
     jamiyatga qo‘shiling!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> – <a data-l10n-name="community-exp-credits-link">global jamiyati</a>internetni hamma uchun ochiq va qulay saqlab qolish uchun birgalikda ishlaydi.
+community-desc = { -brand-short-name } – <a data-l10n-name="community-mozilla-link">{ -vendor-short-name } tomonidan tuzilgan</a>, <a data-l10n-name="community-credits-link">global jamiyat</a> internetni hamma uchun ochiq va qulay saqlab qolish uchun birgalikda ishlaydi.
+about-donation = Yordam bermoqchimisiz? <a data-l10n-name="helpus-donate-link">Xayriya qiling</a> or <a data-l10n-name="helpus-get-involved-link">jamiyatga qo‘shiling!</a>
 bottom-links-license = Litsenziya ma’lumotlari
 bottom-links-rights = Foydalanuvchi huquqlari
 bottom-links-privacy = Maxfiylik siyosati
