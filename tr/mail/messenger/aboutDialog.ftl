@@ -52,6 +52,8 @@ about-helpus =
     Bağış yapın</a> or <a data-l10n-name="helpus-get-involved-link">
     siz de katkıda bulunun!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> Web’i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan <a data-l10n-name="community-exp-credits-link">küresel bir topluluktur</a>.
+community-desc = { -brand-short-name }, <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> tarafından tasarlanmıştır. &vendorShortName;, interneti daha iyiye taşımak için birlikte çalışan <a data-l10n-name="community-credits-link">küresel bir topluluktur.</a> Web'i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan insanlardan oluşur.
+about-donation = Yardım etmek ister misiniz? <a data-l10n-name="helpus-donate-link">Bağış yapın</a> or <a data-l10n-name="helpus-get-involved-link">siz de katkıda bulunun!</a>
 bottom-links-license = Lisans Bilgileri
 bottom-links-rights = Son Kullanıcı Hakları
 bottom-links-privacy = Gizlilik İlkeleri
