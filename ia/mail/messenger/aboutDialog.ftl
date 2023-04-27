@@ -5,6 +5,7 @@
 about-update-whats-new = Novas
 aboutDialog-title =
     .title = A proposito de { -brand-full-name }
+about-dialog-title = A proposito de { -brand-full-name }
 release-notes-link = Notas pro iste revision
 update-internal-error = Impossibile verificar le presentia de actualisationes a causa de un error interne. Actualisationes disponibile a <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Cercar actualisationes
