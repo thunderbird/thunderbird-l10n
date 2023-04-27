@@ -39,6 +39,9 @@ about-helpus =
     ต้องการที่จะช่วย? <a data-l10n-name="helpus-donate-link">
     ทำการบริจาค</a> or <a data-l10n-name="helpus-get-involved-link">
     มีส่วนร่วม!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> คือ <a data-l10n-name="community-exp-credits-link">ชุมชนระดับโลก</a> ที่ทำงานร่วมกันเพื่อทำให้เว็บเปิดกว้าง เป็นของสาธารณะ และเข้าถึงได้ทุกคน
+community-desc = { -brand-short-name } ได้รับการออกแบบโดย <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> ซึ่งเป็น <a data-l10n-name="community-credits-link">ชุมชนระดับโลก</a> ที่ทำงานร่วมกันเพื่อทำให้เว็บเปิดกว้าง เป็นของสาธารณะ และเข้าถึงได้ทุกคน
+about-donation = ต้องการที่จะช่วย? <a data-l10n-name="helpus-donate-link">ทำการบริจาค</a> or <a data-l10n-name="helpus-get-involved-link">มีส่วนร่วม!</a>
 bottom-links-license = ข้อมูลสัญญาอนุญาต
 bottom-links-rights = สิทธิผู้ใช้
 bottom-links-privacy = นโยบายความเป็นส่วนตัว
