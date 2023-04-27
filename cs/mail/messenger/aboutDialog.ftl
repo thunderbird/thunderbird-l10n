@@ -56,6 +56,8 @@ about-helpus =
     Chcete pomoci? <a data-l10n-name="helpus-donate-link">
     Darujte příspěvek</a> or <a data-l10n-name="helpus-get-involved-link">
     se zapojte!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> je <a data-l10n-name="community-exp-credits-link">celosvětová komunita</a> snažící se o zachování veřejně dostupného, otevřeného a všem přístupného webu.
+about-donation = Chcete pomoci? <a data-l10n-name="helpus-donate-link">Darujte příspěvek</a> or <a data-l10n-name="helpus-get-involved-link">se zapojte!</a>
 bottom-links-license = Licence
 bottom-links-rights = Vaše práva
 bottom-links-privacy = Zásady ochrany osobních údajů
