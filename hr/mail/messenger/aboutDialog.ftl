@@ -5,6 +5,7 @@
 about-update-whats-new = Što je novo
 aboutDialog-title =
     .title = O { -brand-full-name }u
+about-dialog-title = O { -brand-full-name }u
 release-notes-link = Napomene o izdanju
 update-check-for-updates-button = Provjeri dostupnost dopuna
     .accesskey = d
