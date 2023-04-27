@@ -22,6 +22,9 @@
 
 appmenu-view-panel-title =
     .title = Vaade
+appmenu-view-panel =
+    .label = Vaade
+    .accesskey = V
 appmenu-font-size-value = Fondi suurus
 appmenu-mail-uidensity-value = Tihedus
 appmenu-uidensity-compact =

@@ -74,6 +74,7 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Märgista
 toolbar-mark-as =
     .title = Märgi kiri
+toolbar-view-picker-label = Vaade
 toolbar-address-book =
     .title = Ava aadressiraamat
 toolbar-chat-label = Kiirsuhtlus
