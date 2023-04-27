@@ -38,6 +38,9 @@ about-helpus =
     هل تُريد المساعدة؟ <a data-l10n-name="helpus-donate-link">
     تبرّع</a> or <a data-l10n-name="helpus-get-involved-link">
     شارِك معنا</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> هي <a data-l10n-name="community-exp-credits-link">مجتمعٌ عالميّ</a> يعمل للمحافظة على انفتاح الوب و عموميتها و إتاحتها للجميع.
+community-desc = صمّمَ { -brand-short-name } <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>، <a data-l10n-name="community-credits-link">مجتمعٌ عالميّ</a> يعمل للمحافظة على انفتاح الوب و عموميتها و إتاحتها للجميع.
+about-donation = هل تُريد المساعدة؟ <a data-l10n-name="helpus-donate-link">تبرّع</a> or <a data-l10n-name="helpus-get-involved-link">شارِك معنا</a>
 bottom-links-license = معلومات الترخيص
 bottom-links-rights = حقوق المستخدم
 bottom-links-privacy = سياسة الخصوصية
