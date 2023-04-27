@@ -5,6 +5,7 @@
 about-update-whats-new = Mitä uutta
 aboutDialog-title =
     .title = Tietoja { -brand-full-name }ista
+about-dialog-title = Tietoja { -brand-full-name }ista
 release-notes-link = Julkaisutiedot
 update-internal-error = Päivityksiä ei voi tarkistaa sisäisen virheen vuoksi. Päivitykset ovat saatavilla osoitteessa <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Hae päivityksiä
