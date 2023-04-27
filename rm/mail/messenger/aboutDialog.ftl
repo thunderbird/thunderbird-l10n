@@ -56,6 +56,9 @@ about-helpus =
     Vuls gidar? <a data-l10n-name="helpus-donate-link">
     Fa ina donaziun</a> or <a data-l10n-name="helpus-get-involved-link">
     ta participescha!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> è ina <a data-l10n-name="community-exp-credits-link">communitad globala</a> che lavura communablamain per che l'internet resta avert, public ed accessibel a tuts.
+community-desc = { -brand-short-name } vegn sviluppà da <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, ina <a data-l10n-name="community-credits-link">communitad globala</a> che lavura communablamain per che l'internet resta avert, public ed accessibel a tuts.
+about-donation = Vuls gidar? <a data-l10n-name="helpus-donate-link">Fa ina donaziun</a> or <a data-l10n-name="helpus-get-involved-link">ta participescha!</a>
 bottom-links-license = Infurmaziuns davart la licenza
 bottom-links-rights = Dretgs da l'utilisader
 bottom-links-privacy = Directivas per la protecziun da datas
