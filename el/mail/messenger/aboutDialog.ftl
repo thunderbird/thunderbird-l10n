@@ -5,6 +5,7 @@
 about-update-whats-new = Τι νέο υπάρχει
 aboutDialog-title =
     .title = Σχετικά με το { -brand-full-name }
+about-dialog-title = Σχετικά με το { -brand-full-name }
 release-notes-link = Σημειώσεις έκδοσης
 update-internal-error = Δεν είναι δυνατός ο έλεγχος για ενημερώσεις λόγω εσωτερικού σφάλματος. Οι ενημερώσεις διατίθενται στο <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Έλεγχος για ενημερώσεις
@@ -55,6 +56,7 @@ about-helpus =
     Θέλετε να βοηθήσετε; <a data-l10n-name="helpus-donate-link">
     Κάντε μια δωρεά</a> or <a data-l10n-name="helpus-get-involved-link">
     συνεισφέρετε!</a>
+community-desc = Το { -brand-short-name } έχει σχεδιαστεί από τη <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, μια <a data-l10n-name="community-credits-link">παγκόσμια κοινότητα</a> που συνεργάζεται για να διατηρήσει το διαδίκτυο ανοικτό, δημόσιο και προσβάσιμο σε όλους.
 bottom-links-license = Πληροφορίες αδειοδότησης
 bottom-links-rights = Δικαιώματα τελικού χρήστη
 bottom-links-privacy = Πολιτική απορρήτου
