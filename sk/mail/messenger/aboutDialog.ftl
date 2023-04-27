@@ -56,6 +56,8 @@ about-helpus =
     Chcete nám pomôcť? <a data-l10n-name="helpus-donate-link">
     Zašlite svoj príspevok</a> alebo <a data-l10n-name="helpus-get-involved-link">
     sa zapojte</a>.
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> je <a data-l10n-name="community-exp-credits-link">globálna komunita</a> pracujúca s cieľom zachovať internet otvoreným, verejným a dostupným zdrojom pre všetkých.
+community-desc = { -brand-short-name } vytvára <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">globálna komunita</a> pracujúca s cieľom zachovať internet otvoreným, verejným a dostupným zdrojom pre všetkých.
 about-donation = Chcete nám pomôcť? <a data-l10n-name="helpus-donate-link">Zašlite svoj príspevok</a> alebo <a data-l10n-name="helpus-get-involved-link">sa zapojte</a>.
 bottom-links-license = Informácie o licenciách
 bottom-links-rights = Práva koncového používateľa
