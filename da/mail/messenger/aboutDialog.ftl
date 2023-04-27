@@ -5,6 +5,7 @@
 about-update-whats-new = Nyheder
 aboutDialog-title =
     .title = Om { -brand-full-name }
+about-dialog-title = Om { -brand-full-name }
 release-notes-link = Udgivelsesnoter
 update-check-for-updates-button = Søg efter opdateringer
     .accesskey = S
