@@ -5,6 +5,7 @@
 about-update-whats-new = Novidades
 aboutDialog-title =
     .title = Sobre o { -brand-full-name }
+about-dialog-title = Sobre o { -brand-full-name }
 release-notes-link = Notas de lançamento
 update-check-for-updates-button = Procurar atualizações
     .accesskey = c
