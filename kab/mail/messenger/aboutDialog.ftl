@@ -54,6 +54,9 @@ about-helpus =
     Tebɣiḍ tallalt? <a data-l10n-name="helpus-donate-link">
     Mudd tawsa</a> or <a data-l10n-name="helpus-get-involved-link">
     ţekki!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> d <a data-l10n-name="community-exp-credits-link">imţekkiyen</a> a nmahel lwaḥid i wakken a ḥrez Web yeldi, d azayez, d uffar i yal yiwen.
+community-desc = { -brand-short-name } ifeṣl-it <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">imţekkiyen</a> a nmahel lwaḥid i wakken a ḥrez Web yeldi, d azayez, d uffar i yal yiwen.
+about-donation = Tebɣiḍ tallalt? <a data-l10n-name="helpus-donate-link">Mudd tawsa</a> or <a data-l10n-name="helpus-get-involved-link">ţekki!</a>
 bottom-links-license = Talɣut n turagt
 bottom-links-rights = Izarfan n useqdac anegwray
 bottom-links-privacy = Tasertit n tbaḍnit
