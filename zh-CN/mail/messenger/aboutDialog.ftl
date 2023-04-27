@@ -5,6 +5,7 @@
 about-update-whats-new = 新版变化
 aboutDialog-title =
     .title = 关于 { -brand-full-name }
+about-dialog-title = 关于 { -brand-full-name }
 release-notes-link = 发行说明
 update-internal-error = 发生内部错误，无法检查更新。可访问 <a data-l10n-name="manual-link"/> 手动下载更新。
 update-check-for-updates-button = 检查更新
