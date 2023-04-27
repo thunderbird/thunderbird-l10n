@@ -55,6 +55,9 @@ about-helpus =
     Желите да помогнете? <a data-l10n-name="helpus-donate-link">
     Донирајте</a> or <a data-l10n-name="helpus-get-involved-link">
     се прикључите!</a>
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> је <a data-l10n-name="community-exp-credits-link">глобална заједница</a> која ради на томе да задржи веб отвореним, јавним и доступним свима.
+community-desc = { -brand-short-name } је дизајнирала <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">глобална заједница</a> која ради на томе да задржи веб отвореним, јавним и доступним свима.
+about-donation = Желите да помогнете? <a data-l10n-name="helpus-donate-link">Донирајте</a> or <a data-l10n-name="helpus-get-involved-link">се прикључите!</a>
 bottom-links-license = Информације о лиценцирању
 bottom-links-rights = Права крајњег корисника
 bottom-links-privacy = Полиса приватности
