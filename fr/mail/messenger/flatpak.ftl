@@ -11,7 +11,7 @@ flatpak-desktop-name = { -brand-short-name }
 # Appears as a tooltip when hovering over application menu entry
 flatpak-desktop-comment = Envoyez et recevez des e-mails avec { -brand-product-name }
 # A generic description of Thunderbird
-flatpak-desktop-generic-name = Client de courrier
+flatpak-desktop-generic-name = Client e-mail
 
 ## Actions Section
 ## These are alternative ways of starting Thunderbird, such as open the compose
