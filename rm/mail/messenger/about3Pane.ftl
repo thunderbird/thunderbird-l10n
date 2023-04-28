@@ -121,6 +121,15 @@ folder-pane-write-message-button = Nov messadi
     .title = Rediger in nov messadi
 folder-pane-more-menu-button =
     .title = Opziuns da la panela dad ordinaturs
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modus ordinaturs
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Mussar «Retschaiver messadis»
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Mussar «Nov messadi»
 folder-pane-header-context-hide =
     .label = Zuppentar il titel da la panela dad ordinaturs
 
