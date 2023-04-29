@@ -35,9 +35,12 @@ account-hub-newsgroup-setup-button = Grupo de noticias
     .title = Configura unha conta dun grupo de noticias
 account-hub-import-setup-button = Importar
     .title = Importar unha copia de seguranza dun perfil
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Identificarse para sincronizar…
 
 ## Email page
 
+account-hub-email-title = Configure a súa conta de correo electrónico
 account-hub-email-cancel-button = Cancelar
 account-hub-email-back-button = Recuar
 account-hub-email-continue-button = Continuar
