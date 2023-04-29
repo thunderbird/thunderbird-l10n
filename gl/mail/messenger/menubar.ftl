@@ -2,25 +2,39 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## View Menu
+toolbar-context-menu-menu-bar =
+    .toolbarname = Barra de menús
+    .accesskey = M
 
 ## Tools Menu
 
+menu-tools-settings =
+    .label = Configuración
+    .accesskey = C
 menu-addons-and-themes =
     .label = Complementos e temas
     .accesskey = a
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = Axuda
+    .accesskey = A
+menu-help-get-help =
+    .label = Obter axuda
+    .accesskey = a
+menu-help-explore-features =
+    .label = Explorar as funcionalidades
+    .accesskey = f
+menu-help-shortcuts =
+    .label = Atallos de teclado
+    .accesskey = A
 menu-help-enter-troubleshoot-mode =
     .label = Modo de resolución de problemas…
     .accesskey = M
-
 menu-help-exit-troubleshoot-mode =
     .label = Desactivar o modo de resolución de problemas
     .accesskey = D
-
 menu-help-more-troubleshooting-info =
     .label = Máis información para solucionar problemas
     .accesskey = i
@@ -46,20 +60,20 @@ menu-view-repair-text-encoding =
     .label = Reparar a codificación do texto
     .accesskey = c
 
+## View / Folders
+
+
 ## View / Layout
 
 mail-uidensity-label =
     .label = Densidade
     .accesskey = D
-
 mail-uidensity-compact =
     .label = Compactar
     .accesskey = C
-
 mail-uidensity-normal =
     .label = Normal
     .accesskey = N
-
 mail-uidensity-touch =
     .label = Táctil
     .accesskey = T
