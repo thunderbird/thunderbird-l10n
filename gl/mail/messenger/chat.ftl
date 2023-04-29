@@ -34,3 +34,6 @@ chat-conv-invite-label = Recibiu un convite para conversar en { $conversation }
 chat-conv-invite-accept =
     .label = Aceptar
     .accesskey = A
+chat-conv-invite-deny =
+    .label = Rexeitar
+    .accesskey = R
