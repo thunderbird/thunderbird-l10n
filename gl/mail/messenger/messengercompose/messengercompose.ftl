@@ -208,7 +208,11 @@ key-notification-resolve =
     .label = Resolver…
     .accesskey = R
     .tooltiptext = Abrir o asistente de chaves OpenPGP
-can-encrypt-smime-notification = É posible o cifrado S/MIME de extremo a extremo.
+can-encrypt-smime-notification = Admite o cifrado S/MIME de extremo a extremo.
+can-encrypt-openpgp-notification = Admite o cifrado OpenPGP de extremo a extremo.
+can-e2e-encrypt-button =
+    .label = Cifrar
+    .accesskey = C
 
 ## Addressing Area
 
@@ -288,6 +292,7 @@ many-public-recipients-prompt-send = Enviar de todos os xeitos
 compose-missing-identity-warning = Non se atopou unha identidade única que coincida co enderezo «De». A mensaxe enviarase usando o campo «De» actual e a configuración da identidade { $identidade }.
 encrypted-bcc-warning = Ao enviar unha mensaxe cifrada, os destinatarios en «Cco» non están completamente ocultos. É posible que os outros destinatarios poidan identificalos.
 encrypted-bcc-ignore-button = Entendido
+auto-disable-e2ee-warning = O cifrado de extremo a extremo para esta mensaxe desactivouse automaticamente.
 
 ## Editing
 
@@ -299,9 +304,19 @@ compose-tool-button-remove-text-styling =
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Enviouse a unha conta Filelink descoñecida.
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Anexo Filelink
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = O ficheiro { $filename } foi anexado como un Filelink. Pode descargarse na seguinte ligazón.
 
 # Template
 
