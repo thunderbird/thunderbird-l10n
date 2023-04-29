@@ -148,6 +148,30 @@ button-return-receipt =
 encryption-menu =
     .label = Seguranza
     .accesskey = g
+encryption-toggle =
+    .label = Cifrar
+    .tooltiptext = Usar o cifrado de extremo a extremo para esta mensaxe
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = Ver ou cambiar a configuración de cifrado de OpenPGP
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = Ver ou cambiar a configuración de cifrado de S/MIME
+signing-toggle =
+    .label = Asinar
+    .tooltiptext = Usar unha sinatura dixital nesta mensaxe
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
+menu-encrypt =
+    .label = Cifrar
+    .accesskey = C
+menu-encrypt-subject =
+    .label = Cifrar o asunto
+    .accesskey = a
 
 ## Addressing Area
 
