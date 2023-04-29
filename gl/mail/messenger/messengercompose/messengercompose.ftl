@@ -368,14 +368,37 @@ cloud-file-connection-error = O { -brand-short-name } está sen conexión. Non s
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was uploaded and caused the error
 cloud-file-upload-error-with-custom-message-title = Produciuse un erro ao enviar { $filename } a { $provider }
-cloud-file-rename-error-title = Produciuse un erro ao renomear
+cloud-file-rename-error-title = Erro ao renomear
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error = Produciuse un erro ao renomear { $filename } en { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = Produciuse un erro ao renomear { $filename } en { $provider }
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } non admite renomear ficheiros xa enviados.
+cloud-file-attachment-error-title = Erro ao anexar un Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Produciuse un erro ao actualizar o anexo Filelink { $filename } porque o seu ficheiro local foi movido ou eliminado.
+cloud-file-account-error-title = Erro na conta Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Produciuse un erro ao actualizar o anexo Filelink { $filename } porque a súa conta Filelink foi eleminada.
 
 ## Link Preview
 
+link-preview-title = Vista previa da ligazón
+link-preview-description = O { -brand-short-name } pode engadir unha vista previa incorporada ao pegar ligazóns.
+link-preview-autoadd = Engadir automaticamente a vista previa das ligazóns cando sexa posible.
+link-preview-replace-now = Quere engadir unha vista previa para esta ligazón?
+link-preview-yes-replace = Si
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Engadir dicionarios...
+    .accesskey = E
