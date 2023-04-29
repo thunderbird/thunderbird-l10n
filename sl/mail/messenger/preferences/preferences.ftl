@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Dodaj ponudnika iskanja OpenSearch
 add-opensearch-provider-text = Vnesite URL ponudnika OpenSearch, ki ga želite dodati. Uporabite bodisi neposredni naslov datoteke z opisom OpenSearch bodisi naslov, kjer ga je mogoče samodejno odkriti.
 adding-opensearch-provider-failed-title = Dodajanje ponudnika iskanja OpenSearch neuspešno
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Ponudnika iskanja OpenSearch za { $url } ni bilo mogoče dodati.
 minimize-to-tray-label =
     .label = Ob pomanjšanju premakni { -brand-short-name } v pladenj opravilne vrstice
@@ -663,8 +665,8 @@ notification-empty =
 notification-type-label =
     .label =
         { PLATFORM() ->
-            [macos] Animiraj ikono v doku
-           *[other] Utripaj z gumbom opravilne vrstice
+            [macos] animiraj ikono v doku
+           *[other] utripni z gumbom v opravilni vrstici
         }
     .accesskey =
         { PLATFORM() ->
