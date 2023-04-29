@@ -130,6 +130,12 @@ mail-uidensity-default =
 mail-uidensity-relaxed =
     .label = Relaxada
     .accesskey = R
+menu-spaces-toolbar-button =
+    .label = Barra de ferramentas de espazos
+    .accesskey = s
 
 ## File
 
+file-new-newsgroup-account =
+    .label = Conta de grupo de noticias...
+    .accesskey = n
