@@ -184,6 +184,31 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Xestor de chaves
     .accesskey = X
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Non está configurado o envío de mensaxes cifradas de extremo a extremo desde { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-one = O cifrado de extremo a extremo require a resolución de problemas de chave de { $addr }
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-many = O cifrado de extremo a extremo require a resolución de problemas de chave de { $count } destinatarios.
+# Variables:
+# $addr (String) - Email address with certificate issues.
+smime-cert-issue-notification-one = O cifrado de extremo a extremo require a resolución de problemas de certificado de { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-many = O cifrado de extremo a extremo require a resolución de problemas de certificado de { $count } destinatarios.
+key-notification-disable-encryption =
+    .label = Non cifrar
+    .accesskey = N
+    .tooltiptext = Desactivar o cifrado de extremo a extremo
+key-notification-resolve =
+    .label = Resolver…
+    .accesskey = R
+    .tooltiptext = Abrir o asistente de chaves OpenPGP
+can-encrypt-smime-notification = É posible o cifrado S/MIME de extremo a extremo.
 
 ## Addressing Area
 
