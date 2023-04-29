@@ -172,6 +172,18 @@ menu-encrypt =
 menu-encrypt-subject =
     .label = Cifrar o asunto
     .accesskey = a
+menu-sign =
+    .label = Asinar dixitalmente
+    .accesskey = i
+menu-manage-keys =
+    .label = Asistente de chaves
+    .accesskey = A
+menu-view-certificates =
+    .label = Ver os certificados dos destinatarios
+    .accesskey = V
+menu-open-key-manager =
+    .label = Xestor de chaves
+    .accesskey = X
 
 ## Addressing Area
 
