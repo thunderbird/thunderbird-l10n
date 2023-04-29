@@ -29,6 +29,15 @@ menu-help-explore-features =
 menu-help-shortcuts =
     .label = Atallos de teclado
     .accesskey = A
+menu-help-get-involved =
+    .label = Participe
+    .accesskey = P
+menu-help-donation =
+    .label = Faga unha doazón
+    .accesskey = d
+menu-help-share-feedback =
+    .label = Comparta ideas e comentarios
+    .accesskey = C
 menu-help-enter-troubleshoot-mode =
     .label = Modo de resolución de problemas…
     .accesskey = M
@@ -38,6 +47,29 @@ menu-help-exit-troubleshoot-mode =
 menu-help-more-troubleshooting-info =
     .label = Máis información para solucionar problemas
     .accesskey = i
+menu-help-troubleshooting-info =
+    .label = Información para solucionar problemas
+    .accesskey = p
+menu-help-about-product =
+    .label = Sobre o { -brand-short-name }
+    .accesskey = S
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Saír
+           *[other] Saír
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] S
+           *[other] S
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = Saír do { -brand-shorter-name }
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 
@@ -62,9 +94,18 @@ menu-view-repair-text-encoding =
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = Cabeceira do panel de cartafoles
+    .accesskey = C
 
 ## View / Layout
 
+menu-font-size-label =
+    .label = Tamaño da letra
+    .accesskey = T
+menuitem-font-size-enlarge =
+    .label = Aumentar o tamaño da letra
+    .accesskey = A
 mail-uidensity-label =
     .label = Densidade
     .accesskey = D
