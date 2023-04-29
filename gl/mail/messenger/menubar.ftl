@@ -106,6 +106,12 @@ menu-font-size-label =
 menuitem-font-size-enlarge =
     .label = Aumentar o tamaño da letra
     .accesskey = A
+menuitem-font-size-reduce =
+    .label = Diminuír o tamaño da letra
+    .accesskey = d
+menuitem-font-size-reset =
+    .label = Restabelecer o tamaño da letra
+    .accesskey = R
 mail-uidensity-label =
     .label = Densidade
     .accesskey = D
@@ -118,6 +124,12 @@ mail-uidensity-normal =
 mail-uidensity-touch =
     .label = Táctil
     .accesskey = T
+mail-uidensity-default =
+    .label = Predeterminado
+    .accesskey = P
+mail-uidensity-relaxed =
+    .label = Relaxada
+    .accesskey = R
 
 ## File
 
