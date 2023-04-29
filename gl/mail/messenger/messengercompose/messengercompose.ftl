@@ -356,9 +356,23 @@ cloud-file-template-size = Tamaño:
 cloud-file-template-link = Ligazón:
 cloud-file-template-password-protected-link = Ligazón protexida cun contrasinal:
 cloud-file-template-expiry-date = Data de caducidade:
+cloud-file-template-download-limit = Límite de descargas:
 
 # Messages
 
+cloud-file-connection-error-title = Erro de conexión
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = O { -brand-short-name } está sen conexión. Non se puido conectar con { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = Produciuse un erro ao enviar { $filename } a { $provider }
+cloud-file-rename-error-title = Produciuse un erro ao renomear
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Produciuse un erro ao renomear { $filename } en { $provider }.
 
 ## Link Preview
 
