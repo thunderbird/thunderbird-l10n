@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 openpgp-key-assistant-title = OpenPGP Anahtar Yardımcısı
+openpgp-key-assistant-rogue-warning = Sahte anahtarları kabul etmekten kaçının. Doğru anahtarı aldığınızdan emin olmak için doğrulamanız gerekir. <a data-l10n-name="openpgp-link">Daha fazla bilgi alın…</a>
 
 ## Encryption status
 
