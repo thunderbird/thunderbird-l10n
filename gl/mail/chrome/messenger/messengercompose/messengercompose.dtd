@@ -212,7 +212,7 @@
 <!ENTITY fromAddr2.label "De">
 <!ENTITY fromAddr.accesskey "e">
 <!ENTITY replyAddr2.label "Responder a">
-<!ENTITY newsgroupsAddr2.label "Grupo de novas">
+<!ENTITY newsgroupsAddr2.label "Grupo de noticias">
 <!ENTITY followupAddr2.label "Seguimento a">
 <!ENTITY subject2.label "Asunto">
 <!ENTITY subject.accesskey "n">

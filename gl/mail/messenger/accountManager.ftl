@@ -4,3 +4,11 @@
 
 open-preferences-sidebar-button2 = Configuración de { -brand-short-name }
 open-addons-sidebar-button = Complementos e temas
+account-action-add-newsgroup-account =
+    .label = Engadir unha conta de grupo de noticias...
+    .accesskey = N
+server-change-restart-required = É necesario reiniciar para aplicar o nome do servidor ou o cambio de nome de usuario.
+edit-vcard-dialog-accept-button = Gardar
+    .accesskey = G
+edit-vcard-dialog-cancel-button = Cancelar
+    .accesskey = C

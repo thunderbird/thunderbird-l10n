@@ -16,22 +16,39 @@ about-addressbook-toolbar-new-contact =
     .label = Novo contacto
 about-addressbook-toolbar-new-list =
     .label = Nova lista
+about-addressbook-toolbar-import =
+    .label = Importar
 
 ## Books
 
+all-address-books-row =
+    .title = Todas as axendas de enderezos
 all-address-books = Todas as axendas de enderezos
-
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = Total de contactos en { $name }: { $count }
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Total de contactos en todas as axendas de enderezos: { $count }
 about-addressbook-books-context-properties =
     .label = Propiedades
+about-addressbook-books-context-edit-list =
+    .label = Modificar a lista
 about-addressbook-books-context-synchronize =
     .label = Sincronizar
+about-addressbook-books-context-edit =
+    .label = Modificar
 about-addressbook-books-context-print =
     .label = Imprimir…
+about-addressbook-books-context-export =
+    .label = Exportar…
 about-addressbook-books-context-delete =
     .label = Eliminar
 about-addressbook-books-context-remove =
     .label = Retirar
-
+about-addressbook-books-context-startup-default =
+    .label = Cartafol de inicio predeterminado
 about-addressbook-confirm-delete-book-title = Eliminar a axenda de enderezos
 # Variables:
 # $name (String) - Name of the address book to be deleted.
@@ -49,14 +66,14 @@ about-addressbook-search =
     .placeholder = Buscar { $name }
 about-addressbook-search-all =
     .placeholder = Busca en todas as axendas de enderezos
-
+about-addressbook-sort-button2 =
+    .title = Lista de opcións de visualización
 about-addressbook-name-format-display =
     .label = Amosar o nome
 about-addressbook-name-format-firstlast =
     .label = O primeiro de último
 about-addressbook-name-format-lastfirst =
     .label = Último, primeiro
-
 about-addressbook-sort-name-ascending =
     .label = Ordenar por nome (A > Z)
 about-addressbook-sort-name-descending =
@@ -71,7 +88,6 @@ about-addressbook-sort-email-descending =
 
 about-addressbook-cards-context-write =
     .label = Escribir
-
 about-addressbook-confirm-delete-mixed-title = Eliminar os contactos e as listas
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
@@ -126,17 +142,18 @@ about-addressbook-confirm-delete-contacts =
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+
 ## Details
 
 about-addressbook-begin-edit-contact-button = Modificar
 about-addressbook-cancel-edit-contact-button = Cancelar
 about-addressbook-save-edit-contact-button = Gardar
-
 about-addressbook-details-email-addresses-header = Enderezos de correo electrónico
 about-addressbook-details-phone-numbers-header = Números de teléfono
 about-addressbook-details-other-info-header = Outra información
 
 # Photo dialog
+
 
 # Keyboard shortcuts
 

@@ -702,9 +702,9 @@ minimal-line-wrapping =
     Desexa cambiar o axuste de liña a 68 caracteres?
 sending-news =
     Operación de envío cifrada foi abortada.
-    Esta mensaxe non se pode cifrar porque hai destinatarios dun grupo de novas. Envíe de novo a mensaxe sen cifrar.
+    Esta mensaxe non se pode cifrar porque hai destinatarios dun grupo de noticias. Envíe de novo a mensaxe sen cifrar.
 send-to-news-warning =
-    Aviso: está a piques de enviar un correo electrónico cifrado a un grupo de novas.
+    Aviso: está a piques de enviar un correo electrónico cifrado a un grupo de noticias.
     Isto desaconséllase porque só ten sentido se todos os membros do grupo poden descifrar a mensaxe, é dicir, a mensaxe debe cifrarse coas claves de todos os participantes do grupo. Envíe esta mensaxe só se sabe exactamente o que está a facer.
     Quere continuar?
 save-attachment-header = Gardar o anexo descifrado
