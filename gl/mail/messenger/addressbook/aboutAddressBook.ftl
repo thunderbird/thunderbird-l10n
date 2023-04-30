@@ -82,10 +82,76 @@ about-addressbook-sort-email-ascending =
     .label = Ordenar por enderezo de correo electrónico (A > Z)
 about-addressbook-sort-email-descending =
     .label = Ordenar por enderezo de correo electrónico (Z > A)
+about-addressbook-horizontal-layout =
+    .label = Mudar ao deseño horizontal
+about-addressbook-vertical-layout =
+    .label = Mudar ao deseño vertical
+about-addressbook-table-layout =
+    .label = Disposición da táboa
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-generatedname = Nome
+about-addressbook-column-label-generatedname =
+    .label = { about-addressbook-column-header-generatedname }
+about-addressbook-column-header-emailaddresses = Enderezos de correo electrónico
+about-addressbook-column-label-emailaddresses =
+    .label = { about-addressbook-column-header-emailaddresses }
+about-addressbook-column-header-phonenumbers = Números de teléfono
+about-addressbook-column-label-phonenumbers =
+    .label = { about-addressbook-column-header-phonenumbers }
+about-addressbook-column-header-addresses = Enderezos
+about-addressbook-column-label-addresses =
+    .label = { about-addressbook-column-header-addresses }
+about-addressbook-column-header-title = Título
+about-addressbook-column-label-title =
+    .label = { about-addressbook-column-header-title }
+about-addressbook-column-header-department = Departamento
+about-addressbook-column-label-department =
+    .label = { about-addressbook-column-header-department }
+about-addressbook-column-header-organization = Organización
+about-addressbook-column-label-organization =
+    .label = { about-addressbook-column-header-organization }
+about-addressbook-column-header-addrbook = Axenda de enderezos
+about-addressbook-column-label-addrbook =
+    .label = { about-addressbook-column-header-addrbook }
+about-addressbook-column-header-generatedname2 = Nome
+    .title = Ordenar por nome
+about-addressbook-column-label-generatedname2 =
+    .label = Nome
+about-addressbook-column-header-emailaddresses2 = Enderezos de correo electrónico
+    .title = Ordenar por enderezos de correo electrónico
+about-addressbook-column-label-emailaddresses2 =
+    .label = Enderezos de correo electrónico
+about-addressbook-column-header-nickname2 = Alcume
+    .title = Ordenar por alcume
+about-addressbook-column-label-nickname2 =
+    .label = Alcume
+about-addressbook-column-header-phonenumbers2 = Números de teléfono
+    .title = Ordenar por números de teléfono
+about-addressbook-column-label-phonenumbers2 =
+    .label = Números de teléfono
+about-addressbook-column-header-addresses2 = Enderezos
+    .title = Ordenar por enderezos
+about-addressbook-column-label-addresses2 =
+    .label = Enderezos
+about-addressbook-column-header-title2 = Título
+    .title = Ordenar por título
+about-addressbook-column-label-title2 =
+    .label = Título
+about-addressbook-column-header-department2 = Departamento
+    .title = Ordenar por departamento
+about-addressbook-column-label-department2 =
+    .label = Departamento
+about-addressbook-column-header-organization2 = Organización
+    .title = Ordenar por organización
+about-addressbook-column-label-organization2 =
+    .label = Organización
+about-addressbook-column-header-addrbook2 = Axenda de enderezos
+    .title = Ordenar por axenda de enderezos
+about-addressbook-column-label-addrbook2 =
+    .label = Axenda de enderezos
 about-addressbook-cards-context-write =
     .label = Escribir
 about-addressbook-confirm-delete-mixed-title = Eliminar os contactos e as listas
@@ -142,9 +208,26 @@ about-addressbook-confirm-delete-contacts =
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Non hai contactos dispoñíbeis
+about-addressbook-placeholder-new-contact = Novo contacto
+about-addressbook-placeholder-search-only = Esta axenda de enderezos só amosa contactos despois dunha busca
+about-addressbook-placeholder-searching = Buscando…
+about-addressbook-placeholder-no-search-results = Non se atoparon contactos
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than two)
+about-addressbook-selection-mixed-header = { $count } contactos e listas seleccionados
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header = { $count } contactos seleccionados
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header = { $count } listas seleccionadas
+about-addressbook-details-edit-photo =
+    .title = Modificar a foto do contacto
+about-addressbook-new-contact-header = Novo contacto
 about-addressbook-begin-edit-contact-button = Modificar
 about-addressbook-cancel-edit-contact-button = Cancelar
 about-addressbook-save-edit-contact-button = Gardar
