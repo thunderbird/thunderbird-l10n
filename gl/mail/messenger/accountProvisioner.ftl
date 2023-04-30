@@ -39,3 +39,19 @@ account-provisioner-step1-image =
 
 ## Search results
 
+# Variables:
+# $count (Number) - The number of domains found during search.
+account-provisioner-results-title =
+    { $count ->
+        [one] Atopouse un enderezo dispoñíbel para:
+       *[other] Atopáronse { $count } enderezos dispoñíbeis para:
+    }
+account-provisioner-mail-results-caption = Pode tentar buscar por alcumes ou calquera outro termo para atopar máis correos electrónicos.
+account-provisioner-domain-results-caption = Pode tentar buscar por alcumes ou calquera outro termo para atopar máis dominios.
+account-provisioner-free-account = De balde
+# Variables:
+# $price (String) - Yearly fee for the mail account. For example "US $9.99".
+account-provision-price-per-year = { $price } por ano
+account-provisioner-all-results-button = Amosar todos os resultados
+account-provisioner-open-in-tab-img =
+    .title = Ábrese nunha nova lapela
