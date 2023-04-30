@@ -33,15 +33,53 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Recuar unha páxina ({ $shortcut })
+    .aria-label = Recuar
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Recuar
+    .accesskey = R
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Avanzar unha páxina ({ $shortcut })
+    .aria-label = Avanzar
+    .accesskey = A
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Avanzar
+    .accesskey = A
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Recargar a páxina
+    .aria-label = Recargar
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Recargar a páxina
+    .label = Recargar
+    .accesskey = R
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Deter a carga da páxina
+    .aria-label = Deter
+    .accesskey = D
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Deter a carga da páxina
+    .label = Deter
+    .accesskey = D
 
 ## Toolbar
 
@@ -93,6 +131,9 @@ folder-toolbar-toggle-folder-compact-view =
 redirect-msg-menuitem =
     .label = Redirixir
     .accesskey = d
+menu-file-save-as-file =
+    .label = Ficheiro…
+    .accesskey = F
 
 ## AppMenu
 
@@ -123,6 +164,9 @@ mail-context-delete-messages =
             [one] Eliminar a mensaxe
            *[other] Eliminar as mensaxes seleccionadas
         }
+context-menu-decrypt-to-folder =
+    .label = Copiar como descifrado a
+    .accesskey = C
 
 ## Message header pane
 
@@ -139,13 +183,28 @@ message-header-recipient-avatar =
 ## Message header cutomize panel
 
 message-header-customize-panel-title = Configuración da cabeceira da mensaxe
+message-header-customize-button-style =
+    .value = Estilo de botón
+    .accesskey = b
 message-header-button-style-default =
     .label = Iconas e texto
 message-header-button-style-text =
     .label = Texto
 message-header-button-style-icons =
     .label = Iconas
+message-header-show-sender-full-address =
+    .label = Amosar sempre o enderezo completo do remitente
+    .accesskey = e
 message-header-show-sender-full-address-description = O enderezo de correo electrónico aparecerá debaixo do nome para amosar.
+message-header-show-recipient-avatar =
+    .label = Amosar a imaxe de perfil do remitente
+    .accesskey = i
+message-header-hide-label-column =
+    .label = Agochar a columna de etiquetas
+    .accesskey = g
+message-header-large-subject =
+    .label = Campo de asunto grande
+    .accesskey = g
 
 ## Action Button Context Menu
 
