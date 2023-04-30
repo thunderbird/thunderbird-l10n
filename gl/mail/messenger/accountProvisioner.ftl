@@ -9,12 +9,24 @@ account-provisioner-title = Crear un novo enderezo de correo electrónico
 account-provisioner-description = Usa os nosos socios de confianza para obter un novo enderezo de correo electrónico privado e seguro.
 account-provisioner-start-help = Os termos de busca utilizados envíanse a { -vendor-short-name } (<a data-l10n-name="mozilla-privacy-link">política de privacidade</a>) e a fornecedores de correo electrónico de terceiros <strong>mailfence.com </strong> (<a data-l10n-name="mailfence-privacy-link">política de privacidade</a>, <a data-l10n-name="mailfence-tou-link">condicións de uso</a >) e <strong>gandi.net</strong> (<a data-l10n-name="gandi-privacy-link">política de privacidade</a>, <a data-l10n-name="gandi-tou- link">condicións de uso</a>) para atopar enderezos de correo electrónico dispoñíbeis.
 account-provisioner-mail-account-title = Merque un novo enderezo de correo electrónico
+account-provisioner-mail-account-description = O Thunderbird fixo parzaría con <a data-l10n-name="mailfence-home-link">Mailfence</a> para ofrecerlle un novo correo electrónico privado e seguro. Cremos que todos deberían ter un correo electrónico seguro.
+account-provisioner-domain-title = Mercar un correo electrónico e un dominio propio
+account-provisioner-domain-description = O Thunderbird fixo parzaría con <a data-l10n-name="gandi-home-link">Gandi</a> para ofrecerlle un dominio personalizado. Isto permítelle usar calquera enderezo dese dominio.
 
 ## Forms
 
+account-provisioner-mail-input =
+    .placeholder = O seu nome, alcume ou outro termo de busca
+account-provisioner-domain-input =
+    .placeholder = O seu nome, alcume ou outro termo de busca
+account-provisioner-search-button = Buscar
+account-provisioner-button-cancel = Cancelar
+account-provisioner-button-existing = Usar unha conta de correo electrónico existente
+account-provisioner-button-back = Recuar
 
 ## Notifications
 
+account-provisioner-fetching-provisioners = Obtendo fornecedores...
 
 ## Illustrations
 
