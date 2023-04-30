@@ -27,9 +27,15 @@ account-provisioner-button-back = Recuar
 ## Notifications
 
 account-provisioner-fetching-provisioners = Obtendo fornecedores...
+account-provisioner-connection-issues = Non se pode comunicar cos nosos servidores de rexistro. Comprobe a súa conexión.
+account-provisioner-searching-email = Buscando contas de correo electrónico dispoñíbeis...
+account-provisioner-searching-domain = Buscando dominios dispoñíbeis...
+account-provisioner-searching-error = Non se puido atopar ningún enderezo para suxerir. Probe a cambiar os termos de busca.
 
 ## Illustrations
 
+account-provisioner-step1-image =
+    .title = Escolla que conta quere crear
 
 ## Search results
 
