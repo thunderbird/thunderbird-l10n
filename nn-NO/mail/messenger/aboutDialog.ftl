@@ -44,6 +44,6 @@ community-desc = { -brand-short-name } er utvikla av <a data-l10n-name="communit
 about-donation = Vil du hjelpa til? <a data-l10n-name="helpus-donate-link">Gje ei pengegåve</a> or <a data-l10n-name="helpus-get-involved-link">ver med!</a>
 bottom-links-license = Lisensinfo
 bottom-links-rights = Rettar for sluttbrukarar
-bottom-links-privacy = Personvern
+bottom-links-privacy = Personvernerklæring
 cmd-close-mac-command-key =
     .key = w
