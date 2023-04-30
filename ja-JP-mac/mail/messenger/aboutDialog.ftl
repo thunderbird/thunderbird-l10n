@@ -44,8 +44,8 @@ community-exp = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-n
 community-2 = { -brand-short-name } をデザインしている <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している <a data-l10n-name="community-credits-link">グローバルなコミュニティ</a> です。
 about-helpus = 参加しませんか？ <a data-l10n-name="helpus-donate-link">寄付</a> または <a data-l10n-name="helpus-get-involved-link">コミュニティに参加</a> してください！
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> は、ウェブがすべての人々にとってオープンかつパブリックであり、アクセスできるように保つため、一つに集まって働く <a data-l10n-name="community-exp-credits-link">グローバルなコミュニティ</a> です。
-community-desc = { -brand-short-name } をデザインしている <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している<a data-l10n-name="community-credits-link">グローバルなコミュニティ</a> です。
-about-donation = ご協力いただける方は、<a data-l10n-name="helpus-donate-link">寄付</a> または <a data-l10n-name="helpus-get-involved-link">コミュニティに参加</a> してください！
+community-desc = { -brand-short-name } をデザインしている <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> は、ウェブの公開性、公衆性、制限のないアクセスを保つために共に活動している <a data-l10n-name="community-credits-link">グローバルなコミュニティ</a> です。
+about-donation = 参加しませんか？ <a data-l10n-name="helpus-donate-link">寄付</a> または <a data-l10n-name="helpus-get-involved-link">コミュニティに参加</a> してください！
 bottom-links-license = ライセンス情報
 bottom-links-rights = あなたの権利について
 bottom-links-privacy = プライバシーポリシー
