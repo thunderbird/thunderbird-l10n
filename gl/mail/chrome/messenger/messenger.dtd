@@ -112,7 +112,7 @@
 <!ENTITY menuFavoriteFolder.accesskey "a">
 <!ENTITY folderPropsCmd2.label "Propiedades">
 <!ENTITY folderPropsFolderCmd2.label "Propiedades do cartafol">
-<!ENTITY folderPropsNewsgroupCmd2.label "Propiedades do grupo de novas…">
+<!ENTITY folderPropsNewsgroupCmd2.label "Propiedades do grupo de noticias">
 <!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Desfacer Eliminar mensaxe">
 <!ENTITY redoDeleteMsgCmd.label "Refacer Eliminar mensaxe">
@@ -342,7 +342,7 @@
 <!ENTITY replyMsgCmd.key "r">
 <!ENTITY replySenderCmd.label "Responder só ao remitente">
 <!ENTITY replySenderCmd.accesskey "r">
-<!ENTITY replyNewsgroupCmd2.label "Responder no grupo de novas">
+<!ENTITY replyNewsgroupCmd2.label "Responder ao grupo de noticias">
 <!ENTITY replyNewsgroupCmd2.accesskey "u">
 <!ENTITY replyToAllMsgCmd.label "Responder a todos">
 <!ENTITY replyToAllMsgCmd.accesskey "o">
@@ -640,7 +640,7 @@
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
 <!ENTITY folderContextUnsubscribe.label "Cancelar subscrición">
 <!ENTITY folderContextUnsubscribe.accesskey "u">
-<!ENTITY folderContextMarkNewsgroupRead.label "Marcar grupo de novas como lido">
+<!ENTITY folderContextMarkNewsgroupRead.label "Marcar grupo de noticias como lido">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "c">
 <!ENTITY folderContextMarkMailFolderRead.label "Marcar o cartafol lido">
 <!ENTITY folderContextMarkMailFolderRead.accesskey "c">
@@ -743,7 +743,7 @@
 <!ENTITY contextArchive.accesskey "q">
 <!ENTITY contextReplySender.label "Responder só ao remitente">
 <!ENTITY contextReplySender.accesskey "R">
-<!ENTITY contextReplyNewsgroup2.label "Responder no grupo de novas">
+<!ENTITY contextReplyNewsgroup2.label "Responder no grupo de noticias">
 <!ENTITY contextReplyNewsgroup2.accesskey "u">
 <!ENTITY contextReplyAll.label "Responder a todos">
 <!ENTITY contextReplyAll.accesskey "t">

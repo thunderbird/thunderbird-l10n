@@ -7,8 +7,6 @@
 <!ENTITY windowTitle.label "Asistente de contas">
 <!ENTITY accountWizard.size "width: 45em; height: 38em;">
 
-<!-- Entities for Account Type page -->
-
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Identidade">
@@ -33,10 +31,8 @@
 <!ENTITY incomingUsername.label "Nome do usuario:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Introduza o nome do servidor de novas (NNTP) (por exemplo, &quot;novas.exemplo.net&quot;).">
-<!ENTITY newsServerLabel.label "Servidor de novas:">
+<!ENTITY newsServerLabel.label "Servidor do grupo de noticias:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

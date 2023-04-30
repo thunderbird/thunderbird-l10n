@@ -205,6 +205,9 @@ message-header-hide-label-column =
 message-header-large-subject =
     .label = Campo de asunto grande
     .accesskey = g
+message-header-all-headers =
+    .label = Amosar todas as cabeceiras
+    .accesskey = b
 
 ## Action Button Context Menu
 
@@ -248,6 +251,10 @@ decrypt-and-copy-failures = Non se puideron descifrar { $failures } de { $total 
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Barra de ferramentas de espazos
+    .aria-label = Barra de ferramentas de espazos
+    .aria-description = Barra de ferramentas vertical para cambiar entre diferentes espazos. Use as teclas de frecha para navegar polos botóns dispoñibles.
 spaces-toolbar-button-mail2 =
     .title = Correo
 spaces-toolbar-button-address-book2 =
@@ -323,6 +330,8 @@ spaces-customize-accent-background-color = Cor de fondo do botón seleccionado
 spaces-customize-accent-text-color = Cor do botón seleccionado
 spaces-customize-button-restore = Restaurar predeterminados
     .accesskey = R
+customize-panel-button-save = Feito
+    .accesskey = F
 
 ## Quick Filter Bar
 
