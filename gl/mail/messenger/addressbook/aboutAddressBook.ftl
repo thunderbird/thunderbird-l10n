@@ -228,12 +228,30 @@ about-addressbook-selection-lists-header = { $count } listas seleccionadas
 about-addressbook-details-edit-photo =
     .title = Modificar a foto do contacto
 about-addressbook-new-contact-header = Novo contacto
+about-addressbook-prefer-display-name = Preferir amosar o nome que o da cabeceira da mensaxe
+about-addressbook-write-action-button = Escribir
+about-addressbook-event-action-button = Evento
+about-addressbook-search-action-button = Buscar
+about-addressbook-new-list-action-button = Nova lista
 about-addressbook-begin-edit-contact-button = Modificar
+about-addressbook-delete-edit-contact-button = Eliminar
 about-addressbook-cancel-edit-contact-button = Cancelar
 about-addressbook-save-edit-contact-button = Gardar
+about-addressbook-add-contact-to = Engadir a:
 about-addressbook-details-email-addresses-header = Enderezos de correo electrónico
 about-addressbook-details-phone-numbers-header = Números de teléfono
+about-addressbook-details-addresses-header = Enderezos
+about-addressbook-details-notes-header = Notas
+about-addressbook-details-impp-header = Mensaxaría instantánea
+about-addressbook-details-websites-header = Sitios web
 about-addressbook-details-other-info-header = Outra información
+about-addressbook-entry-type-work = Traballo
+about-addressbook-entry-type-home = Casa
+about-addressbook-entry-type-fax = Fax
+# Or "Mobile"
+about-addressbook-entry-type-cell = Móbil
+about-addressbook-entry-type-pager = Buscapersoas
+about-addressbook-entry-name-birthday = Data de nacemento
 
 # Photo dialog
 
