@@ -79,9 +79,45 @@ openpgp-key-assistant-key-collected-keyserver = servidor de chaves
 openpgp-key-assistant-key-collected-wkd = Directorio de chaves da web
 # Do not translate GnuPG, it's a name of other software.
 openpgp-key-assistant-key-collected-gnupg = Chaveiro GnuPG
+# Variables:
+# $count (Number) - Number of found keys.
+openpgp-key-assistant-keys-has-collected =
+    { $count ->
+        [one] Atopouse unha chave, pero aínda non se aceptou.
+       *[other] Atopáronse varias chaves, pero aínda non se aceptou ningunha.
+    }
+openpgp-key-assistant-key-rejected = Esta chave foi rexeitada previamente.
+openpgp-key-assistant-key-accepted-other = Esta chave aceptouse previamente para un enderezo de correo electrónico diferente.
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+openpgp-key-assistant-resolve-discover-info = Descubra chaves adicionais ou actualizadas de { $recipient } en liña ou impórteas desde un ficheiro.
 
 ## Discovery section
 
+openpgp-key-assistant-discover-title = Descubrimento en liña en curso.
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-discover-keys = Descubrindo chaves de { $recipient }...
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    Atopouse unha actualización para unha das chaves previamente aceptadas para { $recipient }.
+    Agora pode usarse porque que xa non está caducada.
 
 ## Dialog buttons
 
+openpgp-key-assistant-discover-online-button = Descubra as chaves públicas en liña...
+openpgp-key-assistant-import-keys-button = Importar chaves públicas do ficheiro...
+openpgp-key-assistant-issue-resolve-button = Resolver…
+openpgp-key-assistant-view-key-button = Amosar a chave...
+openpgp-key-assistant-recipients-show-button = Amosar
+openpgp-key-assistant-recipients-hide-button = Agochar
+openpgp-key-assistant-cancel-button = Cancelar
+openpgp-key-assistant-back-button = Recuar
+openpgp-key-assistant-accept-button = Aceptar
+openpgp-key-assistant-close-button = Pechar
+openpgp-key-assistant-disable-button = Desactivar o cifrado
+openpgp-key-assistant-confirm-button = Enviar cifrado
+# Variables:
+# $date (String) - The key creation date.
+openpgp-key-assistant-key-created = creado o { $date }
