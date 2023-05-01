@@ -16,6 +16,8 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-tab-calendar = Каляндар
+    .title = Каляндар
 customize-button-style-icons-beside-text =
     .label = Значкі з тэкстам
 

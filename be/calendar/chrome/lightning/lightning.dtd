@@ -1,0 +1,41 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- WARNING! This file contains UTF-8 encoded characters!
+   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
+   - your editor isn't using UTF-8 encoding and may munge up the document!
+  -->
+
+<!-- Tools menu -->
+
+<!-- New menu popup in File menu -->
+
+<!-- Open menu popup in File menu -->
+
+<!-- View Menu -->
+
+<!-- Events and Tasks menu -->
+
+<!-- properties dialog, calendar creation wizard -->
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.email.label,
+     lightning.calendarproperties.forceEmailScheduling.label)
+     These strings are used in the calendar wizard and the calendar properties dialog, but are only
+     displayed when setting/using a caldav calendar -->
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
+     lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
+     - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
+
+<!-- The notifications settings in the properties dialog -->
+
+<!-- iMIP Bar (meeting support) -->
+<!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Каляндар">
+
+
+<!-- Lightning specific keybindings -->
+
+<!-- Account Central page -->
+<!ENTITY lightning.acctCentral.newCalendar.label "Стварыць новы календар">
+
+<!-- today-pane-specific -->

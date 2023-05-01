@@ -22,9 +22,12 @@
     removed/renamed later on -->
 
 
+<!ENTITY buttons.create.label "Стварыць каляндар">
+
+<!ENTITY buttons.find.label "Знайсці календары">
 
 
 
-
+<!ENTITY calendartype.label "Тып календара:">
 
 

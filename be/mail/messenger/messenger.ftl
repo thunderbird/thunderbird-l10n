@@ -5,8 +5,22 @@
 
 ## Window controls
 
+messenger-window-close-button =
+    .tooltiptext = Закрыць
 
 ## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
 
 
 ## Toolbar
@@ -47,6 +61,8 @@
 
 ## Spaces toolbar
 
+spaces-toolbar-button-calendar2 =
+    .title = Каляндар
 
 ## Spaces toolbar pinned tab menupopup
 

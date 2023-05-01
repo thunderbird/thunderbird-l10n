@@ -10,6 +10,9 @@ category-compose =
 pane-chat-title = Гутарка
 category-chat =
     .tooltiptext = Гутарка
+pane-calendar-title = Каляндар
+category-calendar =
+    .tooltiptext = Каляндар
 
 ## OS Authentication dialog
 
@@ -464,3 +467,7 @@ chat-variant-label =
 
 ## Settings UI Search Results
 
+
+## Sync Tab
+
+show-synced-item-calendar = Календары
