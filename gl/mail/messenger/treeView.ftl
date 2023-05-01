@@ -27,3 +27,6 @@ tree-list-view-row-ignored-thread-icon =
     .alt = Indicador de fío de mensaxe
     .title = O fío desta mensaxe é ignorado
 tree-list-view-row-ignored-subthread = Ignóranse os subfíos
+tree-list-view-row-ignored-subthread-icon =
+    .alt = Indicador de fío de mensaxe
+    .title = O subfío desta mensaxe é ignorado
