@@ -10,9 +10,40 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = ปฏิทิน
+calendar-import-new-calendar = ปฏิทินใหม่…
+    .title = สร้างหรือสมัครรับข้อมูลปฏิทินใหม่
+calendar-new-event-primary-button = เหตุการณ์ใหม่
+calendar-new-task-primary-button = งานใหม่
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = วันก่อน
+    .accesskey = s
+calendar-nav-button-prev-tooltip-week =
+    .title = สัปดาห์ก่อน
+    .accesskey = s
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = สัปดาห์ก่อน
+    .accesskey = s
+calendar-nav-button-prev-tooltip-month =
+    .title = เดือนที่แล้ว
+    .accesskey = s
+calendar-nav-button-next-tooltip-day =
+    .title = วันถัดไป
+    .accesskey = x
+calendar-nav-button-next-tooltip-week =
+    .title = สัปดาห์หน้า
+    .accesskey = x
+calendar-nav-button-next-tooltip-multiweek =
+    .title = สัปดาห์หน้า
+    .accesskey = x
+calendar-nav-button-next-tooltip-month =
+    .title = เดือนหน้า
+    .accesskey = x
+calendar-today-button-tooltip =
+    .title = ไปที่วันนี้
 calendar-view-toggle-day = วัน
     .title = สลับเป็นมุมมองวัน
 calendar-view-toggle-week = สัปดาห์

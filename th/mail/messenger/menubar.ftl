@@ -3,11 +3,26 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## View Menu
-
 ## Tools Menu
 
+menu-tools-settings =
+    .label = ตั้งค่า
+    .accesskey = e
+menu-addons-and-themes =
+    .label = ส่วนเสริมและธีม
+    .accesskey = A
+
 ## Help Menu
+
+menu-help-enter-troubleshoot-mode =
+    .label = โหมดแก้ไขปัญหา…
+    .accesskey = M
+menu-help-exit-troubleshoot-mode =
+    .label = ปิดโหมดแก้ไขปัญหา
+    .accesskey = M
+menu-help-more-troubleshooting-info =
+    .label = ข้อมูลการแก้ไขปัญหาเพิ่มเติม
+    .accesskey = M
 
 ## Mail Toolbar
 
@@ -26,7 +41,42 @@ toolbar-undelete-button =
 
 ## View
 
+menu-view-repair-text-encoding =
+    .label = ซ่อมแซมการเข้ารหัสข้อความ
+    .accesskey = c
+
+## View / Folders
+
+
 ## View / Layout
+
+menu-font-size-label =
+    .label = ขนาดตัวหนังสือ
+    .accesskey = o
+menuitem-font-size-enlarge =
+    .label = เพิ่มขนาดแบบอักษร
+    .accesskey = I
+menuitem-font-size-reduce =
+    .label = ลดขนาดตัวอักษร
+    .accesskey = D
+mail-uidensity-label =
+    .label = ความหนาแน่น
+    .accesskey = D
+mail-uidensity-compact =
+    .label = กระชับ
+    .accesskey = C
+mail-uidensity-normal =
+    .label = ปกติ
+    .accesskey = N
+mail-uidensity-default =
+    .label = ค่าเริ่มต้น
+    .accesskey = D
+menu-spaces-toolbar-button =
+    .label = แถบเครื่องมือ
+    .accesskey = S
 
 ## File
 
+file-new-newsgroup-account =
+    .label = บัญชีกลุ่มข่าว…
+    .accesskey = N

@@ -5,6 +5,18 @@
 
 ## Send Format
 
+compose-send-format-menu =
+    .label = รูปแบบการส่ง
+    .accesskey = F
+compose-send-auto-menu-item =
+    .label = อัตโนมัติ
+    .accesskey = A
+compose-send-html-menu-item =
+    .label = HTML เท่านั้น
+    .accesskey = H
+compose-send-plain-menu-item =
+    .label = ข้อความธรรมดาเท่านั้น
+    .accesskey = P
 
 ## Addressing widget
 
@@ -85,6 +97,12 @@ button-return-receipt =
 
 ## Encryption
 
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = ดูหรือเปลี่ยนค่าการเข้ารหัส OpenPGP
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = ดูหรือเปลี่ยนค่าการเข้ารหัส S/MIME
 
 ## Addressing Area
 

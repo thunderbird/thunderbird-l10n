@@ -20,6 +20,8 @@ about-addressbook-books-context-synchronize =
     .label = ประสาน
 about-addressbook-books-context-edit =
     .label = แก้ไข
+about-addressbook-books-context-export =
+    .label = ส่งออก…
 
 ## Cards
 

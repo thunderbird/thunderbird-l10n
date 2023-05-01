@@ -95,6 +95,7 @@ account-setup-confirm-advanced-title = ยืนยันการกำหน�
 
 ## Success view
 
+account-setup-settings-button = ตั้งค่าบัญชี
 account-setup-calendars-button = ปฏิทิน
 
 ## Calendar synchronization dialog

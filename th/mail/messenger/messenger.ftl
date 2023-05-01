@@ -5,13 +5,40 @@
 
 ## Window controls
 
+messenger-window-close-button =
+    .tooltiptext = ปิด
 about-rights-notification-text = { -brand-short-name } เป็นซอฟต์แวร์ฟรีและเปิดต้นฉบับที่สร้างโดยชุมชนที่มีนับพันคนจากทั่วทุกมุมโลก
 
 ## Content tabs
 
+content-tab-security-high-icon =
+    .alt = การเชื่อมต่อปลอดภัย
+content-tab-security-broken-icon =
+    .alt = การเชื่อมต่อไม่ปลอดภัย
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
 
 ## Toolbar
 
+addons-and-themes-toolbarbutton =
+    .label = ส่วนเสริมและชุดรูปแบบ
+    .tooltiptext = จัดการส่วนเสริมของคุณ
+quick-filter-toolbarbutton =
+    .label = ตัวกรองแบบเร็ว
+    .tooltiptext = กรองข้อความ
+redirect-msg-button =
+    .label = เปลี่ยนเส้นทาง
+    .tooltiptext = เปลี่ยนเส้นทางข้อความที่เลือก
 
 ## Folder Pane
 
@@ -48,24 +75,81 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
+redirect-msg-menuitem =
+    .label = เปลี่ยนเส้นทาง
+    .accesskey = D
+menu-file-save-as-file =
+    .label = ไฟล์…
+    .accesskey = F
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = ไฟล์…
+appmenu-settings =
+    .label = การตั้งค่า
+appmenu-help-enter-troubleshoot-mode =
+    .label = โหมดแก้ไขปัญหา…
+appmenu-help-exit-troubleshoot-mode =
+    .label = ปิดโหมดแก้ไขปัญหา
+appmenu-help-more-troubleshooting-info =
+    .label = ข้อมูลการแก้ไขปัญหาเพิ่มเติม
+appmenu-redirect-msg =
+    .label = เปลี่ยนเส้นทาง
 
 ## Context menu
 
+context-menu-redirect-msg =
+    .label = เปลี่ยนเส้นทาง
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-delete-messages =
+    .label = ลบข้อความที่เลือก
+context-menu-decrypt-to-folder =
+    .label = คัดลอกแบบถูกถอดรหัสไปที่
+    .accesskey = y
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = เปลี่ยนเส้นทาง
+message-header-msg-flagged =
+    .title = ติดดาวแล้ว
+    .aria-label = ติดดาวแล้ว
 
 ## Message header cutomize panel
 
+message-header-customize-button-style =
+    .value = รูปแบบปุ่ม
+    .accesskey = B
+message-header-button-style-default =
+    .label = ไอคอนและข้อความ
+message-header-button-style-text =
+    .label = ข้อความ
+message-header-button-style-icons =
+    .label = ไอคอน
+message-header-show-sender-full-address =
+    .label = แสดงที่อยู่แบบเต็มของผู้ส่งเสมอ
+    .accesskey = f
+message-header-hide-label-column =
+    .label = ซ่อนคอลัมน์ป้ายกำกับ
+    .accesskey = I
+message-header-all-headers =
+    .label = แสดงหัวข้อทั้งหมด
+    .accesskey = a
 
 ## Action Button Context Menu
 
+toolbar-context-menu-manage-extension =
+    .label = จัดการส่วนขยาย
+    .accesskey = E
+toolbar-context-menu-remove-extension =
+    .label = เอาส่วนขยายออก
+    .accesskey = v
 
 ## Add-on removal warning
 
+addon-removal-confirmation-button = เอาออก
 
 ## no-reply handling
 
@@ -75,12 +159,30 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Spaces toolbar
 
+spaces-toolbar-button-mail2 =
+    .title = จดหมาย
+spaces-toolbar-button-address-book2 =
+    .title = สมุดรายชื่อ
+spaces-toolbar-button-calendar2 =
+    .title = ปฏิทิน
+spaces-toolbar-button-settings2 =
+    .title = การตั้งค่า
+spaces-context-new-tab-item =
+    .label = เปิดในแท็บใหม่
+spaces-context-new-window-item =
+    .label = เปิดในหน้าต่างใหม่
+settings-context-open-settings-item2 =
+    .label = การตั้งค่า
+settings-context-open-account-settings-item2 =
+    .label = ตั้งค่าบัญชี
 
 ## Spaces toolbar pinned tab menupopup
 
 
 ## Spaces toolbar customize panel
 
+customize-panel-button-save = เสร็จสิ้น
+    .accesskey = D
 
 ## Quick Filter Bar
 
