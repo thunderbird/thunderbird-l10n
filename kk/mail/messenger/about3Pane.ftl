@@ -121,6 +121,15 @@ folder-pane-write-message-button = Жаңа хабарлама
     .title = Жаңа хабарламаны құрастыру
 folder-pane-more-menu-button =
     .title = Бума панелінің баптаулары
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Бумалар режимдері
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = "Хабарламаларды алу" көрсету
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = "Жаңа хабарлама" көрсету
 folder-pane-header-context-hide =
     .label = Бума панелінің тақырыптамасын жасыру
 
