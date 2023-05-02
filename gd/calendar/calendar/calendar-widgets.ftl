@@ -10,10 +10,15 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Mìosachain
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Roghainn a’ mhìosachain “{ $calendarName }”
+calendar-no-reminders-tooltip =
+    .title = Chaidh am mìosachan { $calendarName } a mhùchadh
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Roghainnean a’ mhìosachain “{ $calendarName }”
 calendar-import-new-calendar = Mìosachan ùr…
     .title = Cruthaich mìosachan ùr no fo-sgrìobh gu fear ùr
 calendar-refresh-calendars =
@@ -35,6 +40,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Am mìos roimhe
     .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = A’ bhliadhna roimhpe
+    .accesskey = s
 calendar-nav-button-next-tooltip-day =
     .title = An ath-latha
     .accesskey = n
@@ -47,6 +55,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = An ath-mhìos
     .accesskey = n
+calendar-nav-button-next-tooltip-year =
+    .title = An ath-bhliadhna
+    .accesskey = x
 calendar-today-button-tooltip =
     .title = Tadhail air an-diugh
 calendar-view-toggle-day = Latha
@@ -60,6 +71,16 @@ calendar-view-toggle-month = Mìos
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Roghainnean co-dhealbhachd a’ mhìosachain
+calendar-find-events-menu-option =
+    .label = Lorg leòsan nan tachartasan
+calendar-hide-weekends-option =
+    .label = Làithean-obrach na seachdaine a-mhàin
+calendar-define-workweek-option =
+    .label = Cruthaich deifinisean de làithean seachdain obrach
+calendar-show-tasks-calendar-option =
+    .label = Seall saothraichean sa mhìosachan
 
 ## Calendar Context Menu
 
