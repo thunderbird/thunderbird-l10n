@@ -61,6 +61,12 @@ appmenu-newab-panel =
 appmenu-new-addressbook =
     .label = Místní složka kontaktů
     .accesskey = a
+appmenu-new-carddav =
+    .label = Složka kontaktů CardDav
+    .accesskey = S
+appmenu-new-ldap =
+    .label = Složka kontaktů LDAP
+    .accesskey = L
 
 ## Create
 
@@ -89,6 +95,9 @@ appmenu-open-file-panel =
     .accesskey = O
 appmenu-open-file-panel-title =
     .title = Otevřít ze souboru
+appmenu-open-message =
+    .label = Zpráva…
+    .accesskey = Z
 appmenu-open-calendar =
     .label = Kalendář…
     .accesskey = K
@@ -101,6 +110,11 @@ appmenu-view-panel =
     .label = Zobrazit
     .accesskey = Z
 appmenu-font-size-value = Velikost písma
+appmenu-mail-uidensity-value = Velikost
+appmenu-uidensity-compact =
+    .tooltiptext = Kompaktní
+appmenu-uidensity-default =
+    .tooltiptext = Výchozí
 appmenuitem-font-size-enlarge =
     .tooltiptext = Zvětšit písmo
 appmenuitem-font-size-reduce =

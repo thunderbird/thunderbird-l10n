@@ -17,6 +17,27 @@ menu-addons-and-themes =
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = Nápověda
+    .accesskey = N
+menu-help-get-help =
+    .label = Získat pomoc
+    .accesskey = Z
+menu-help-explore-features =
+    .label = Prozkoumejte všechny funkce
+    .accesskey = P
+menu-help-shortcuts =
+    .label = Klávesové zkratky
+    .accesskey = K
+menu-help-get-involved =
+    .label = Zapojit se
+    .accesskey = Z
+menu-help-donation =
+    .label = Darovat příspěvek
+    .accesskey = D
+menu-help-share-feedback =
+    .label = Sdílet nápady nebo zpětnou vazbu
+    .accesskey = S
 menu-help-enter-troubleshoot-mode =
     .label = Režim řešení potíží…
     .accesskey = m
@@ -26,6 +47,12 @@ menu-help-exit-troubleshoot-mode =
 menu-help-more-troubleshooting-info =
     .label = Další technické informace
     .accesskey = t
+menu-help-troubleshooting-info =
+    .label = Technické informace
+    .accesskey = T
+menu-help-about-product =
+    .label = O aplikaci { -brand-short-name }
+    .accesskey = a
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label =
@@ -55,6 +82,9 @@ menu-view-repair-text-encoding =
     .label = Opravit znakovou sadu textu
     .accesskey = z
 
+## View / Folders
+
+
 ## View / Layout
 
 menu-font-size-label =
@@ -81,6 +111,9 @@ mail-uidensity-normal =
 mail-uidensity-touch =
     .label = Pro dotyk
     .accesskey = t
+mail-uidensity-default =
+    .label = Výchozí
+    .accesskey = V
 menu-spaces-toolbar-button =
     .label = Navigační lišta
     .accesskey = N
