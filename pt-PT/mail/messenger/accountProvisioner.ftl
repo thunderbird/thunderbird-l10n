@@ -16,9 +16,9 @@ account-provisioner-domain-description = O Thunderbird fez uma parceria com <a d
 ## Forms
 
 account-provisioner-mail-input =
-    .placeholder = O seu nome, apelido ou outro termo de pesquisa
+    .placeholder = O seu nome, pseudónimo ou outro termo de pesquisa
 account-provisioner-domain-input =
-    .placeholder = O seu nome, apelido ou outro termo de pesquisa
+    .placeholder = O seu nome, pseudónimo ou outro termo de pesquisa
 account-provisioner-search-button = Pesquisar
 account-provisioner-button-cancel = Cancelar
 account-provisioner-button-existing = Usar uma conta de e-mail existente
