@@ -102,3 +102,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } se ještě nerozhod
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } účastníků
 calendar-invitation-panel-prop-title-attachments = Přílohy:
+calendar-invitation-change-indicator-removed = Odebráno
+calendar-invitation-change-indicator-added = Nový
+calendar-invitation-change-indicator-modified = Změněno

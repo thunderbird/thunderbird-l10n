@@ -5,8 +5,25 @@
 
 ## Sync
 
+appmenu-sync-panel-title =
+    .title = Synchronizace
+appmenu-signin-panel =
+    .label = Přihlásit se ke službě Sync
+    .accesskey = s
+appmenu-sync-manage =
+    .value = Správa účtu
+    .accesskey = p
 appmenu-sync-account =
     .value = example@example.com
+appmenu-sync-now =
+    .label = Synchronizovat
+    .accesskey = S
+appmenu-sync-settings =
+    .label = Nastavení synchronizace
+    .accesskey = N
+appmenu-sync-sign-out =
+    .label = Odhlásit se…
+    .accesskey = O
 
 ## New Account
 
@@ -15,12 +32,24 @@ appmenu-new-account-panel-title =
 appmenu-new-account-panel =
     .label = Nový účet
     .accesskey = N
+appmenu-create-new-mail-account =
+    .label = Založit nový e-mail
+    .accesskey = Z
+appmenu-new-mail-account =
+    .label = Existující e-mail
+    .accesskey = E
 appmenu-new-calendar =
     .label = Kalendář
     .accesskey = K
 appmenu-new-chat-account =
     .label = Chat
     .accesskey = h
+appmenu-new-feed =
+    .label = Kanály
+    .accesskey = K
+appmenu-new-newsgroup =
+    .label = Diskusní skupina
+    .accesskey = D
 
 ## New Account / Address Book
 
