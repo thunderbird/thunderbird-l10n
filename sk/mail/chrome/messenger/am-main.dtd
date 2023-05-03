@@ -15,7 +15,7 @@
 <!ENTITY email.accesskey "E">
 <!ENTITY catchAll.label "Odpovedať z tejto identity ak sa hlavička zhoduje:">
 <!ENTITY catchAll.accesskey "d">
-<!ENTITY replyTo.label "Kam odpovedať:">
+<!ENTITY replyTo.label "Adresa pre odpoveď:">
 <!ENTITY replyTo.accesskey "K">
 <!ENTITY replyTo.placeholder "Príjemcovia budú odpovedať na túto adresu">
 <!ENTITY organization.label "Organizácia:">

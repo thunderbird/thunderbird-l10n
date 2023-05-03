@@ -211,7 +211,7 @@
 <!ENTITY headersSpace2.style "width: 8em;">
 <!ENTITY fromAddr2.label "Od">
 <!ENTITY fromAddr.accesskey "O">
-<!ENTITY replyAddr2.label "Odpoveď komu">
+<!ENTITY replyAddr2.label "Odpovedať na">
 <!ENTITY newsgroupsAddr2.label "Diskusná skupina">
 <!ENTITY followupAddr2.label "Pokračovať na">
 <!ENTITY subject2.label "Predmet">
