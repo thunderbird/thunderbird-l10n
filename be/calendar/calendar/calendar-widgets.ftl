@@ -9,9 +9,21 @@ calendar-list-header = Календары
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-month =
+    .title = Папярэдні месяц
+    .accesskey = я
+calendar-nav-button-next-tooltip-month =
+    .title = Наступны месяц
+    .accesskey = с
 
 ## Menu on calendar control bar
 
 
 ## Calendar Context Menu
 
+calendar-context-menu-previous-month =
+    .label = Папярэдні месяц
+    .accesskey = я
+calendar-context-menu-next-month =
+    .label = Наступны месяц
+    .accesskey = с

@@ -10,5 +10,7 @@
 <!-- Toolbar write button -->
 
 <!-- Calendar and Task Mode Toolbar -->
+<!ENTITY lightning.toolbar.month.label               "Месяц">
+<!ENTITY lightning.toolbar.month.accesskey           "М">
 <!-- LOCALIZATION NOTE: the same as appmenuButton.label and appmenuButton1.tooltip
      from messenger.dtd -->

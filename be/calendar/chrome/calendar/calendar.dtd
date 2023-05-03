@@ -19,9 +19,14 @@
 
 
 
+<!ENTITY calendar.nextmonth.label               "Наступны месяц" >
+<!ENTITY calendar.prevmonth.label               "Папярэдні месяц" >
+<!ENTITY calendar.nextmonth.accesskey           "с" >
+<!ENTITY calendar.prevmonth.accesskey           "я" >
 
 
 
+<!ENTITY calendar.month.button.label            "Месяц" >
 
 
 
