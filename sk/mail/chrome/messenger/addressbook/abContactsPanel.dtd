@@ -41,9 +41,9 @@
 <!ENTITY newListAbContext.label             "Nový zoznam">
 <!ENTITY newListAbContext.accesskey         "z">
 
-<!ENTITY toButton.label                     "Pridať do Komu:">
+<!ENTITY toButton.label                     "Pridať do poľa Komu:">
 <!ENTITY toButton.accesskey                 "K">
-<!ENTITY ccButton.label                     "Pridať do Kópia:">
+<!ENTITY ccButton.label                     "Pridať do poľa Kópia:">
 <!ENTITY ccButton.accesskey                 "d">
-<!ENTITY bccButton.label                    "Pridať do Skrytá kópia:">
+<!ENTITY bccButton.label                    "Pridať do poľa Skrytá kópia:">
 <!ENTITY bccButton.accesskey                "S">
