@@ -35,7 +35,7 @@
 <!ENTITY saveAsFileCmd.accesskey "S">
 <!ENTITY saveAsDraftCmd.label "Koncept">
 <!ENTITY saveAsDraftCmd.accesskey "N">
-<!ENTITY saveAsTemplateCmd.label "Šablónu">
+<!ENTITY saveAsTemplateCmd.label "Šablóna">
 <!ENTITY saveAsTemplateCmd.accesskey "b">
 <!ENTITY sendNowCmd.label "Odoslať">
 <!ENTITY sendCmd.keycode "VK_RETURN">
@@ -64,12 +64,12 @@
 <!ENTITY editRewrapCmd.accesskey "m">
 <!ENTITY deleteCmd.label "Odstrániť">
 <!ENTITY deleteCmd.accesskey "O">
-<!ENTITY editRewrapCmd.label "Zalomiť znovu">
+<!ENTITY editRewrapCmd.label "Zalomiť">
 <!ENTITY editRewrapCmd.key "R">
 <!ENTITY renameAttachmentCmd.label "Premenovať prílohu…">
 <!ENTITY renameAttachmentCmd.accesskey "e">
 <!ENTITY reorderAttachmentsCmd.label "Zmeniť usporiadanie príloh…">
-<!ENTITY reorderAttachmentsCmd.accesskey "s">
+<!ENTITY reorderAttachmentsCmd.accesskey "u">
 <!ENTITY reorderAttachmentsCmd.key "x">
 <!ENTITY selectAllCmd.accesskey "a">
 <!ENTITY findBarCmd.label "Hľadať…">
@@ -264,7 +264,7 @@
 <!ENTITY renameAttachment.label "Premenovať…">
 <!ENTITY renameAttachment.accesskey "P">
 <!ENTITY reorderAttachments.label "Zmeniť usporiadanie príloh…">
-<!ENTITY reorderAttachments.accesskey "s">
+<!ENTITY reorderAttachments.accesskey "u">
 <!ENTITY removeAllAttachments.label "Odstrániť všetky prílohy">
 <!ENTITY removeAllAttachments.accesskey "v">
 <!ENTITY selectAll.label "Vybrať všetko">
