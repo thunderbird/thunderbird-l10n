@@ -32,6 +32,22 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Spojení není zabezepečené
 
+# Back
+
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Zpět
+    .accesskey = Z
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

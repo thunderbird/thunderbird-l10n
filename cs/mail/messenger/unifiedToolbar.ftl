@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Hledat
+search-bar-item =
+    .label = Hledat:
+search-bar-placeholder = Hledat…
 
 ## Unified toolbar context menu
 
@@ -28,11 +33,23 @@ customize-space-tab-chat = Chat
     .title = Chat
 customize-space-tab-settings = Nastavení
     .title = Nastavení
+customize-restore-default = Obnovit výchozí
+customize-button-style-label = Styl tlačítek:
 customize-button-style-icons-beside-text =
     .label = Ikony vedle textu
+customize-button-style-icons-above-text =
+    .label = Ikony nad textem
+customize-button-style-icons-only =
+    .label = Pouze ikony
+customize-button-style-text-only =
+    .label = Pouze text
+customize-cancel = Zrušit
+customize-save = Uložit
 
 ## Unified toolbar customization palette context menu
 
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Odebrat
