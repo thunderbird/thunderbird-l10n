@@ -15,6 +15,7 @@ about-dialog-title =
        *[no-cases] O aplikaci { -brand-full-name }
     }
 release-notes-link = Poznámky k vydání
+update-internal-error = Aktualizace se nepodařilo zkontrolovat kvůli vnitřní chybě. Aktualizace nejdete na adrese <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Zkontrolovat aktualizace
     .accesskey = Z
 update-update-button = Restartovat a aktualizovat aplikaci { -brand-shorter-name }
@@ -27,6 +28,7 @@ update-failed = Aktualizace selhala. <a data-l10n-name="failed-link">Stáhnout n
 update-admin-disabled = Aktualizace jsou zakázány správcem
 update-no-updates-found = { -brand-short-name } je aktuální
 update-other-instance-handling-updates = { -brand-short-name } je aktualizován jinou instancí
+update-manual = Aktualizace jsou dostupné na <a data-l10n-name="manual-link"/>
 update-unsupported = Na tomto systému nelze provádět další aktualizace. <a data-l10n-name="unsupported-link">Zjistit více</a>
 update-restarting = Restartování…
 # Variables:

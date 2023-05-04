@@ -11,8 +11,18 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Kalendáře
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Kalendář { $calendarName } byl ztlumen
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Možnosti kalendáře { $calendarName }
 calendar-import-new-calendar = Nový kalendář…
     .title = Vytvoří nebo přihlásí k odběru nový kalendář
+calendar-refresh-calendars =
+    .title = Znovu načíst kalendáře a synchronizovat změny
 calendar-new-event-primary-button = Nová událost
 calendar-new-task-primary-button = Nový úkol
 
@@ -65,6 +75,10 @@ calendar-control-bar-menu-button =
     .title = Možnosti rozložení kalendáře
 calendar-hide-weekends-option =
     .label = Pouze pracovní dny
+calendar-define-workweek-option =
+    .label = Nastavit pracovní dny
+calendar-show-tasks-calendar-option =
+    .label = Zobrazit úkoly v kalendáři
 
 ## Calendar Context Menu
 
