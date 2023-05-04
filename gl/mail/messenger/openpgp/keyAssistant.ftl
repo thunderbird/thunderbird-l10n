@@ -86,7 +86,7 @@ openpgp-key-assistant-keys-has-collected =
         [one] Atopouse unha chave, pero aínda non se aceptou.
        *[other] Atopáronse varias chaves, pero aínda non se aceptou ningunha.
     }
-openpgp-key-assistant-key-rejected = Esta chave foi rexeitada previamente.
+openpgp-key-assistant-key-rejected = Esta chave rexeitouse previamente.
 openpgp-key-assistant-key-accepted-other = Esta chave aceptouse previamente para un enderezo de correo electrónico diferente.
 # Variables:
 # $recipient (String) - The email address of the recipient needing resolution.
