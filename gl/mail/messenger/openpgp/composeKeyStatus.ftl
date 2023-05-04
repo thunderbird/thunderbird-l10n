@@ -11,11 +11,13 @@ openpgp-compose-key-status-recipient =
 openpgp-compose-key-status-status =
     .label = Estado
 openpgp-compose-key-status-open-details = Xestionar as chaves para o destinatario seleccionado…
-openpgp-recip-good = ok
+openpgp-recip-good = aceptar
 openpgp-recip-missing = ningunha chave dispoñíbel
 openpgp-recip-none-accepted = ningunha chave aceptada
 openpgp-compose-general-info-alias = O { -brand-short-name } normalmente require que a chave pública do destinatario conteña un ID de usuario cun enderezo de correo electrónico coincidente. Isto pode anularse empregando regras de alias de destinatarios OpenPGP.
 openpgp-compose-general-info-alias-learn-more = Máis información
+# Variables:
+# $count (Number) - Number of alias keys for a recipient.
 openpgp-compose-alias-status-direct =
     { $count ->
         [one] relacionado cunha chave de alias
