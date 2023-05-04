@@ -11,6 +11,7 @@
 <!ENTITY newMenu.label "Creează">
 <!ENTITY newMenu.accesskey "C">
 <!ENTITY newMessage.label "Mesaj">
+<!ENTITY newMessage.accesskey "M">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Contact în agendă…">
 <!ENTITY newContact.accesskey "C">
