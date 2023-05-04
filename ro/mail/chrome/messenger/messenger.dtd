@@ -485,6 +485,8 @@
 <!ENTITY deleteJunk.accesskey "d">
 <!ENTITY importCmd.label "Importă…">
 <!ENTITY importCmd.accesskey "I">
+<!ENTITY exportCmd.label "Exportă…">
+<!ENTITY exportCmd.accesskey "x">
 <!ENTITY clearRecentHistory.label "Șterge istoricul recent…">
 <!ENTITY clearRecentHistory.accesskey "i">
 <!ENTITY accountManagerCmd2.label "Setări pentru conturi">
