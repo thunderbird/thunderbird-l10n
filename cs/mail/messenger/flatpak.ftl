@@ -6,6 +6,8 @@
 ### These messages are used by the Thunderbird Linux Flatpak "desktop" file.
 ### An end user will see them associated with the application launcher icon
 
+# This is the label on the icon
+flatpak-desktop-name = { -brand-short-name }
 # A generic description of Thunderbird
 flatpak-desktop-generic-name = Poštovní klient
 
@@ -15,3 +17,6 @@ flatpak-desktop-generic-name = Poštovní klient
 ## Thunderbird taskbar icon, possibly other places depending on the environment.
 
 flatpak-desktop-action-compose = Napsat novou zprávu
+flatpak-desktop-action-addressbook = Otevřít kontakty
+flatpak-desktop-action-calendar = Otevřít kalendář
+flatpak-desktop-action-keymanager = Otevřít správce klíčů OpenPGP

@@ -13,3 +13,14 @@ room-name-empty = Prázdná konverzace
 #  $oldName (String) - The previous name the conversation had before it was
 #    removed.
 room-name-empty-had-name = Prázdná konverzace (bylo { $oldName })
+# Variables:
+#  $participant (String) - The name of one participant that isn't the user.
+#  $otherParticipantCount (Number) - The count of other participants apart from
+#    the user and $participant.
+room-name-others2 =
+    { $otherParticipantCount ->
+        [one] { $participant } a { $otherParticipantCount } další
+        [few] { $participant } a { $otherParticipantCount } další
+        [many] { $participant } a { $otherParticipantCount } dalších
+       *[other] { $participant } a { $otherParticipantCount } dalších
+    }

@@ -120,6 +120,19 @@ folder-pane-get-messages-button =
     .title = Přijmout zprávy
 folder-pane-write-message-button = Nová zpráva
     .title = Vytvořit novou zprávu
+folder-pane-more-menu-button =
+    .title = Nastavení podokna složek
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Režimy složek
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Zobrazovat tlačítko „Stáhnout zprávy“
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Zobrazovat tlačítko „Nová zpráva“
+folder-pane-header-context-hide =
+    .label = Skrýt záhlaví podokna složek
 
 ## Message thread pane
 
@@ -139,6 +152,7 @@ threadpane-column-header-flagged =
     .title = Seřadíte podle hvězdičky
 threadpane-column-label-flagged =
     .label = Hvězdička
+threadpane-flagged-cell-label = S hvězdičkou
 threadpane-column-header-attachments =
     .title = Seřadíte podle příloh
 threadpane-column-label-attachments =

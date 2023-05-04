@@ -253,6 +253,9 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = Vždy zobrazovat posuvníky
     .accesskey = o
 window-layout-legend = Rozložení okna
+draw-in-titlebar-label =
+    .label = Skrýt systémové záhlaví okna
+    .accesskey = z
 auto-hide-tabbar-label =
     .label = Automaticky skrývat lištu panelů
     .accesskey = A
@@ -357,6 +360,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Vymazat
     .accesskey = m
+clear-cache-shutdown-label =
+    .label = Při ukončení vymazat mezipaměť
+    .accesskey = P
 fonts-legend = Písma a barvy
 default-font-label =
     .value = Výchozí písmo:
@@ -436,6 +442,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Okamžitě po zobrazení
     .accesskey = O
+view-attachments-inline =
+    .label = Zobrazovat přílohy v textu
+    .accesskey = v
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
