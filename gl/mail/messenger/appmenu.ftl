@@ -44,6 +44,8 @@ appmenu-open-file-panel-title =
 
 ## Help
 
+appmenu-help-panel-title =
+    .title = Axuda
 
 ## Application Update
 
