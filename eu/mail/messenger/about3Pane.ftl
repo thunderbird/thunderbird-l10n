@@ -121,6 +121,9 @@ folder-pane-write-message-button = Mezu berria
     .title = Idatzi mezu berri bat
 folder-pane-more-menu-button =
     .title = Karpeten panelaren aukerak
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Karpeta moduak
 folder-pane-header-context-hide =
     .label = Ezkutatu karpeta panelaren goiburua
 
