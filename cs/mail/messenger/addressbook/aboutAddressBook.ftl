@@ -86,6 +86,8 @@ about-addressbook-horizontal-layout =
     .label = Přepnout na rozložení na šířku
 about-addressbook-vertical-layout =
     .label = Přepnout na rozložení na výšku
+about-addressbook-table-layout =
+    .label = Tabulkové rozložení
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
@@ -114,6 +116,26 @@ about-addressbook-column-label-organization =
 about-addressbook-column-header-addrbook = Kontakty
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
+about-addressbook-column-header-generatedname2 = Název
+    .title = Seřadí dle názvu
+about-addressbook-column-label-generatedname2 =
+    .label = Název
+about-addressbook-column-header-emailaddresses2 = E-mailové adresy
+    .title = Seřadí dle e-mailových adres
+about-addressbook-column-label-emailaddresses2 =
+    .label = E-mailové adresy
+about-addressbook-column-header-nickname2 = Přezdívka
+    .title = Seřadí dle přezdívky
+about-addressbook-column-label-nickname2 =
+    .label = Přezdívka
+about-addressbook-column-header-phonenumbers2 = Telefonní čísla
+    .title = Seřadí dle telefonních čísel
+about-addressbook-column-label-phonenumbers2 =
+    .label = Telefonní čísla
+about-addressbook-column-header-addresses2 = Adresy
+    .title = Seřadí dle adres
+about-addressbook-column-label-addresses2 =
+    .label = Adresy
 about-addressbook-cards-context-write =
     .label = Napsat
 about-addressbook-confirm-delete-mixed-title = Smazat kontakty a skupiny
