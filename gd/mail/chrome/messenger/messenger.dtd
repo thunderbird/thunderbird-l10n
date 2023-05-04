@@ -485,6 +485,8 @@
 <!ENTITY deleteJunk.accesskey "d">
 <!ENTITY importCmd.label "Ion-phortaich…">
 <!ENTITY importCmd.accesskey "I">
+<!ENTITY exportCmd.label "Às-phortaich…">
+<!ENTITY exportCmd.accesskey "x">
 <!ENTITY clearRecentHistory.label "Falamhaich an eachdraidh faisg ort…">
 <!ENTITY clearRecentHistory.accesskey "h">
 <!ENTITY accountManagerCmd2.label "Roghainnean nan cunntasan">

@@ -11,6 +11,7 @@
 <!ENTITY newMenu.label "Ùr">
 <!ENTITY newMenu.accesskey "r">
 <!ENTITY newMessage.label "Teachdaireachd">
+<!ENTITY newMessage.accesskey "M">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Neach-aithne ann an leabhar nan seòladh…">
 <!ENTITY newContact.accesskey "e">
