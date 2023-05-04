@@ -74,18 +74,53 @@ vcard-impp-label = Conta de conversas
 vcard-impp-select = Protocolo
 vcard-impp-option-other = Outro
 vcard-impp-input-label = URI
+vcard-impp-input-title = URI para mensaxaría instantánea
 
 # BDAY and ANNIVERSARY vCard field
 
+vcard-bday-anniversary-header = Datas especiais
+vcard-bday-anniversary-add = Engadir data especial
+vcard-bday-label = Data de nacemento
+vcard-anniversary-label = Aniversario
+vcard-date-day = Día
+vcard-date-month = Mes
+vcard-date-year = Ano
 
 # ADR vCard field
 
+vcard-adr-header = Enderezos
+vcard-adr-add = Engadir enderezo
+vcard-adr-label = Enderezo
+vcard-adr-delivery-label = Etiqueta de entrega
+vcard-adr-street = Domicilio
+# Or "Locality"
+vcard-adr-locality = Cidade
+# Or "Region"
+vcard-adr-region = Estado/Provincia
+# The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
+vcard-adr-code = Código postal
+vcard-adr-country = País
 
 # NOTE vCard field
 
+vcard-note-header = Notas
+vcard-note-add = Engadir nota
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
+vcard-org-header = Propiedades organizativas
+vcard-org-add = Engadir propiedades organizativas
+vcard-org-title = Título
+vcard-org-title-input =
+    .title = Cargo ou traballo
+    .placeholder = Título do traballo
+vcard-org-role = Rol
+vcard-org-org = Organización
+vcard-org-org-input =
+    .title = Nome da organización
+    .placeholder = Nome da empresa
+vcard-org-org-unit = Departamento
 
 # Custom properties
 
+vcard-custom-header = Propiedades personalizadas
