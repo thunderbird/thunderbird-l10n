@@ -15,7 +15,21 @@ message-header-bcc-list-name = Cco
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
 
+message-header-website-field = Sitio web<span data-l10n-name="field-separator">:</span>
+# An additional email header field that the user has chosen to display. Unlike
+# the other headers, the name of this header is not expected to be localised
+# because it is generated from the raw field name found in the email header.
+#   $fieldName (String) - The field name.
+message-header-custom-field = { $fieldName }<span data-l10n-name="field-separator">:</span>
 
 ##
 
+message-header-address-in-address-book-icon2 =
+    .alt = Na axenda de enderezos
+message-header-address-not-in-address-book-icon2 =
+    .alt = Non está na axenda de enderezos
+message-header-address-not-in-address-book-button =
+    .title = Gardar este enderezo na axenda de enderezos
+message-header-address-in-address-book-button =
+    .title = Editar contacto
 message-ids-field-show-all = Amosar todo
