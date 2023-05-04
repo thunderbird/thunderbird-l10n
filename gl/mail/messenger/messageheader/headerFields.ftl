@@ -18,3 +18,4 @@ message-header-bcc-list-name = Cco
 
 ##
 
+message-ids-field-show-all = Amosar todo
