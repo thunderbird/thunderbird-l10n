@@ -7,6 +7,10 @@
 
 message-header-to-list-name = Para
 message-header-from-list-name = De
+message-header-sender-list-name = Remitente
+message-header-reply-to-list-name = Responder a
+message-header-cc-list-name = Cc
+message-header-bcc-list-name = Cco
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
