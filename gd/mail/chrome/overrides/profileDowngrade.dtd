@@ -12,6 +12,7 @@
 <!ENTITY window.title "Chuir thu gu dol seann-tionndadh dhe &brandProductName;">
 <!ENTITY window.style "width: 490px;">
 
+<!ENTITY window.nosync2 "Dh’fhaoidte gun do rinn tionndadh nas ùire dhe &brandProductName; atharraichean air a’ phròifil agad nach eil co-chòrdail leis an t-seann-tionndadh seo tuilleadh. Na cleachd a’ phròifil seo ach leis an tionndadh nas ùire ud no cruthaich pròifil ùr dhan stàladh seo dhe &brandShortName;. Ma chruthaicheas tu pròifil ùr, feumaidh tu na cunntasan, mìosachain is tuilleadain agad a shuidheachadh às ùr.">
 
 <!ENTITY window.moreinfo "Barrachd fiosrachaidh…">
 <!ENTITY window.create "Cruthaich pròifil ùr">

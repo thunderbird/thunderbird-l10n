@@ -115,6 +115,26 @@ quick-filter-bar-gloda-upsell-line1 = Lean ris an rannsachadh seo air feadh gach
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Put ‘Enter’ a-rithist gus leantainn ort leis an rannsachadh agad airson: { $text }
 
+## Folder pane
+
+folder-pane-get-messages-button =
+    .title = Faigh na teachdaireachdan
+folder-pane-write-message-button = Teachdaireachd ùr
+    .title = Sgrìobh teachdaireachd ùr
+folder-pane-more-menu-button =
+    .title = Roghainnean leòsan nam pasgan
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modhan nam pasgan
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Seall “Faigh teachdaireachdan”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Seall “Teachdaireachd ùr”
+folder-pane-header-context-hide =
+    .label = Falaich bann-cinn leòsan nam pasgan
+
 ## Message thread pane
 
 threadpane-column-header-select =
@@ -125,16 +145,29 @@ threadpane-column-header-deselect-all =
     .title = Dì-thagh a h-uile teachdaireachd
 threadpane-column-label-select =
     .label = Tagh teachdaireachdan
+threadpane-column-header-thread =
+    .title = Toglaich snàithleanan nan teachdaireachd
 threadpane-column-label-thread =
     .label = Snàth
 threadpane-column-header-flagged =
     .title = Seòrsaich a-rèir rionnaige
 threadpane-column-label-flagged =
     .label = Le rionnag ris
+threadpane-flagged-cell-label = Le rionnag ris
 threadpane-column-header-attachments =
     .title = Seòrsaich a-rèir ceanglachain
 threadpane-column-label-attachments =
     .label = Ceanglachain
+threadpane-attachments-cell-label = Ceanglachain
+threadpane-column-header-spam =
+    .title = Seòrsaich a-rèir na staid spama
+threadpane-column-label-spam =
+    .label = Spama
+threadpane-spam-cell-label = Spama
+threadpane-column-header-unread-button =
+    .title = Seòrsaich a-rèir na staid leughaidh
+threadpane-column-label-unread-button =
+    .label = An staid leughaidh
 threadpane-column-header-sender = O
     .title = Seòrsaich a-rèir seòladair
 threadpane-column-label-sender =
@@ -202,8 +235,34 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Taisbeanair a dh’innseas gu bheil teachdaireachd ùr ann
+    .title = Teachdaireachd ùr
+threadpane-message-replied =
+    .alt = Taisbeanair a dh’innseas gun deach freagairt
+    .title = Chaidh an teachdaireachd a fhreagairt
+threadpane-message-redirected =
+    .alt = Taisbeanair a dh’innseas gun deach ath-stiùireadh
+    .title = Chaidh an teachdaireachd ath-stiùireadh
+threadpane-message-forwarded =
+    .alt = Taisbeanair a dh’innseas gun deach a shìneadh air adhart
+    .title = Chaidh an teachdaireachd a shìneadh air adhart
+threadpane-message-replied-forwarded =
+    .alt = Taisbeanair a dh’innseas gun deach a fhreagairt is a shìneadh air adhart
+    .title = Chaidh an teachdaireachd a fhreagairt is a shìneadh air adhart
+threadpane-message-replied-redirected =
+    .alt = Taisbeanair a dh’innseas gun deach a fhreagairt is ath-stiùireadh
+    .title = Chaidh an teachdaireachd a fhreagairt is ath-stiùireadh
+threadpane-message-forwarded-redirected =
+    .alt = Taisbeanair a dh’innseas gun deach a shìneadh air adhart is ath-stiùireadh
+    .title = Chaidh an teachdaireachd a shìneadh air adhart is ath-stiùireadh
+threadpane-message-replied-forwarded-redirected =
+    .alt = Taisbeanair a dh’innseas gun deach a fhreagairt, a shìneadh air adhart is ath-stiùireadh
+    .title = Chaidh an teachdaireachd a fhreagairt, a shìneadh air adhart agus ath-stiùireadh
 apply-columns-to-menu =
     .label = Cuir an sàs na colbhan airson…
+apply-current-view-to-menu =
+    .label = Cuir an sealladh làithreach an sàs ann an…
 apply-current-view-to-folder =
     .label = Pasgan…
 apply-current-view-to-folder-children =
@@ -211,9 +270,13 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = A bheil thu airson na h-atharrachaidhean a chur an sàs?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = A bheil thu airson colbhan a' phasgain làithrich a chur an sàs airson { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = A bheil thu airson colbhan a' phasgain làithrich a chur an sàs airson { $name } is a cuid cloinne?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = A bheil thu airson sealladh a’ phasgain làithrich a chur an sàs airson { $name }?
