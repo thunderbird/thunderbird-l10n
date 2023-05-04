@@ -22,10 +22,10 @@ update-no-updates-found = { -brand-short-name } je posodobljen.
 update-other-instance-handling-updates = { -brand-short-name } se posodablja v drugem primerku
 update-manual = Posodobitve so na voljo na <a data-l10n-name="manual-link"/>
 update-unsupported = Nadaljnje posodobitve na tem sistemu niso mogoče. <a data-l10n-name="unsupported-link">Več o tem</a>
-update-restarting = Ponovni zagon …
+update-restarting = Ponovno zaganjanje …
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
-channel-description = Uporabljate posodobitveni kanal <span data-l10n-name="current-channel">{ $channel }</span> .
+channel-description = Uporabljate posodobitveni kanal <span data-l10n-name="current-channel">{ $channel }</span>.
 warning-desc-version = Izdaja { -brand-short-name } je poskusna in lahko deluje nezanesljivo.
 warning-desc-telemetry = Samodejno pošilja podatke o zmogljivosti, strojni opremi, uporabi in prilagoditvah { -vendor-short-name(sklon: "dajalnik") }, da bi pomagal izboljšati { -brand-short-name }.
 # Example of resulting string: 66.0.1 (64-bit)
