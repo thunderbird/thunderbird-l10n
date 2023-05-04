@@ -34,6 +34,12 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Přejde na předchozí stránku ({ $shortcut })
+    .aria-label = Zpět
+    .accesskey = Z
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Zpět
@@ -41,12 +47,40 @@ content-tab-menu-back-mac =
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Přejde na následující stránku ({ $shortcut })
+    .aria-label = Vpřed
+    .accesskey = V
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Vpřed
+    .accesskey = V
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Znovu načte stránku
+    .aria-label = Znovu načíst
+    .accesskey = n
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Znovu načte stránku
+    .label = Znovu načíst
+    .accesskey = n
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Zastaví načítání stránky
+    .aria-label = Zastavit
+    .accesskey = s
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Zastaví načítání stránky
+    .label = Zastavit
+    .accesskey = Z
 
 ## Toolbar
 

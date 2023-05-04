@@ -53,6 +53,10 @@ menu-help-troubleshooting-info =
 menu-help-about-product =
     .label = O aplikaci { -brand-short-name }
     .accesskey = a
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label = Ukončit
+    .accesskey = k
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label =
@@ -60,6 +64,8 @@ menu-quit-mac =
             [with-cases] Ukončit { -brand-shorter-name(case: "acc") }
            *[no-cases] Ukončit aplikaci { -brand-shorter-name }
         }
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 
@@ -84,6 +90,9 @@ menu-view-repair-text-encoding =
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = Záhlaví podokna složek
+    .accesskey = Z
 
 ## View / Layout
 

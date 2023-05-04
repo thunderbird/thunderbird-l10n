@@ -116,10 +116,18 @@ vcard-org-title-input =
     .placeholder = Název práce
 vcard-org-role = Role
 vcard-org-org = Společnost
+vcard-org-org-input =
+    .title = Název organizace
+    .placeholder = Název společnosti
 vcard-org-org-unit = Oddělení
+vcard-org-org-unit-input =
+    .title = Název jednotky organizace
+    .placeholder = Oddělení
 
 # Custom properties
 
+vcard-custom-header = Vlastní položky
+vcard-custom-add = Přidat vlastní položky
 vcard-remove-button-title =
     .title = Odebrat
 vcard-remove-button = Odebrat
