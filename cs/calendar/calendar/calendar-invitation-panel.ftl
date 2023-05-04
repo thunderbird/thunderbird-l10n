@@ -8,6 +8,12 @@ calendar-invitation-panel-intro = Organizátor { $organizer } vás pozval:
 calendar-invitation-panel-status-new = Byli jste přizváni k této události.
 calendar-invitation-panel-status-processed = Tato událost už byla do vašeho kalendáře přidána.
 calendar-invitation-panel-status-updateminor = Tato zpráva obsahuje aktualizaci pro tuto událost.
+calendar-invitation-panel-status-updatemajor = Tato zpráva obsahuje aktualizaci této události. Měli byste znovu potvrdit svou účast.
+calendar-invitation-panel-status-cancelled = Tato zpráva obsahuje zrušení této události.
+calendar-invitation-panel-status-cancelled-notfound = Tato zpráva obsahuje zrušení události, kterou nemáte ve svém kalendáři.
+# Variables:
+# $organizer (String) - The participant that cancelled the invitation.
+calendar-invitation-panel-intro-cancel = Organizátor { $organizer } zrušil:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
