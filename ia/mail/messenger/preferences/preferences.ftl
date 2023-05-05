@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Adder fornitor OpenSearch
 add-opensearch-provider-text = Insere le URL del fornitor OpenSearch a adder. O usa le URL directe del file de description de OpenSearch o un URL ubi illo pote esser auto-discoperite.
 adding-opensearch-provider-failed-title = Addition del fornitor de OpenSearch fallite
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Impossibile adder le fornitor de OpenSearch a { $url }.
 minimize-to-tray-label =
     .label = Quando { -brand-short-name } es minimisate, mover lo al zona del avisos
@@ -620,6 +622,7 @@ certificate-button =
 security-devices-button =
     .label = Dispositivos de securitate…
     .accesskey = D
+account-settings = Parametros del conto
 
 ## Chat Tab
 

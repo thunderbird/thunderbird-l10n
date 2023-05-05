@@ -26,6 +26,8 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Generar clave OpenPGP
+radio-keygen-no-protection =
+    .label = Non protegite
 radio-keygen-passphrase-protection =
     .label = Proteger per phrase contrasigno
 openpgp-generate-key-info = <b>Le generation de clave pote occupar usque plure minutas pro completar.</b> Non exir del application durante que es in curso le generation del clave. Navigar activemente o exequer operationes intensive pro le disco durante le generation del clave replena le 'piscina aleatori' e accelera le procedura. Tu sera alertate quando generation del clave es completate.
