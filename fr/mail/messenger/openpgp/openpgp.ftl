@@ -645,13 +645,13 @@ passphrase-prompt = Veuillez saisir la phrase de passe pour déverrouiller la cl
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2 = Saisissez la phrase de passe pour déverrouiller la clé secrète d’identifiant { $key }, créée le { $date }, { $username_and_email }
+passphrase-prompt2 = Saisissez la phrase de passe pour déverrouiller la clé secrète dont l’identifiant est { $key }, créée le { $date }, { $username_and_email }
 # Variables:
 # $subkey (String) - Key id to unlock, which is a subkey.
 # $key (String) - This is the main key, to which the subkey belongs.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2-sub = Saisissez la phrase de passe pour déverrouiller la clé secrète d’identifiant { $subkey }, qui est une sous-clé de l’identifiant de clé { $key }, créée le { $date }, { $username_and_email }
+passphrase-prompt2-sub = Saisissez la phrase de passe pour déverrouiller la clé secrète dont l’identifiant est { $subkey }, qui est une sous-clé de la clé à l’identifiant { $key }, créée le { $date }, { $username_and_email }
 file-to-big-to-import = Ce fichier est trop volumineux. Veuillez ne pas importer un nombre important de clés à la fois.
 
 ## Strings used in enigmailKeygen.js
