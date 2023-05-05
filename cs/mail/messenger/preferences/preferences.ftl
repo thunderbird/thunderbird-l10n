@@ -699,6 +699,7 @@ certificate-button =
 security-devices-button =
     .label = Bezpečnostní zařízení…
     .accesskey = B
+account-settings = Nastavení účtu
 
 ## Chat Tab
 

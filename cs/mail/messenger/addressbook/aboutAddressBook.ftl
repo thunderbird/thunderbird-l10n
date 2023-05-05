@@ -236,6 +236,8 @@ about-addressbook-selection-contacts-header = Vybrané kontakty: { $count }
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = Vybrané seznamy: { $count }
+about-addressbook-details-edit-photo =
+    .title = Upravit fotografii kontaktu
 about-addressbook-new-contact-header = Nový kontakt
 about-addressbook-prefer-display-name = Upřednostnit zobrazované jméno před hlavičkou zprávy
 about-addressbook-write-action-button = Napsat zprávu
