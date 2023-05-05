@@ -314,6 +314,9 @@ openpgp-personal-no-label =
     .label = Não, não usar como minha chave pessoal.
 openpgp-personal-yes-label =
     .label = Sim, tratar esta chave como uma chave pessoal.
+openpgp-passphrase-status-unprotected = Desprotegido
+openpgp-passphrase-unlock = Desbloquear
+openpgp-passphrase-unlocked = Chave desbloqueada com sucesso.
 openpgp-copy-cmd-label =
     .label = Copiar
 
