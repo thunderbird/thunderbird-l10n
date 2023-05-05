@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = „Neue Nachricht” anzeigen
 folder-pane-header-context-hide =
     .label = Kopfzeile des Ordnerbereichs ausblenden
+folder-pane-show-total-toggle =
+    .label = Gesamtanzahl der Nachrichten anzeigen
 
 ## Message thread pane
 

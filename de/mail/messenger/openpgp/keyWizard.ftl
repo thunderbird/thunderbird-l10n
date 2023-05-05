@@ -26,6 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = OpenPGP-Schlüssel erzeugen
+openpgp-keygen-secret-protection = Schutz des Geheimschlüssels
+radio-keygen-no-protection =
+    .label = Ungeschützt
+radio-keygen-protect-primary-pass =
+    .label = Mit dem Hauptpasswort schützen
+radio-keygen-passphrase-protection =
+    .label = Mit Passphrase schützen:
+openpgp-passphrase-repeat = Passphrase bestätigen:
 openpgp-generate-key-info = <b>Das Erzeugen eines Schlüssels kann mehrere Minuten dauern.</b> Beenden Sie die Anwendung nicht, während der Schlüssel erzeugt wird. Aktives Surfen im Internet oder intensive Lese- und Schreibvorgänge setzen den 'Zufallsgenerator' wieder auf Normalniveau zurück und beschleunigen den Vorgang. Sie werden benachrichtigt, wenn die Schlüsselerzeugung abgeschlossen ist.
 openpgp-keygen-expiry-title = Ablaufdatum
 openpgp-keygen-expiry-description = Legen Sie das Ablaufdatum Ihres neu erzeugten Schlüssels fest. Sie können das Datum später weiter in die Zukunft verschieben, falls nötig.
@@ -95,6 +103,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Bestätigen Sie, welche Schlüssel Ihre persönlichen sind. Nur von Ihnen selbst erzeugte Schlüssel und die Sie als Schlüsselinhaber ausgeben sollten als persönliche Schlüssel verwendet werden. Sie können diese Eigenschaft später in den Schlüsseleigenschaften ändern.
 openpgp-import-key-list-caption = Als persönlich gekennzeichnete Schlüssel werden im Abschnitt Ende-zu-Ende-Verschlüsselung aufgeführt. Die anderen Schlüssel sind in der Schlüsselverwaltung verfügbar.
+openpgp-import-keep-passphrases =
+    .label = Passphrasenschutz für importierte geheime Schlüssel beibehalten
 openpgp-passphrase-prompt-title = Passwort benötigt
 #   $key (String) - the id of the key being imported
 openpgp-passphrase-prompt = Bitte Passwort eingeben, um den folgenden Schlüssel zu entsperren: { $key }

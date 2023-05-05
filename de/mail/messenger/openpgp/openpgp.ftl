@@ -314,6 +314,11 @@ openpgp-personal-no-label =
     .label = Nein, nicht als meinen persönlichen Schlüssel verwenden.
 openpgp-personal-yes-label =
     .label = Ja, als meinen persönlichen Schlüssel verwenden.
+openpgp-passphrase-protection =
+    .label = Schutz der Passphrase
+openpgp-passphrase-status-unprotected = Ungeschützt
+openpgp-passphrase-status-primary-password = Durch Hauptpasswort von{ -brand-short-name } geschützt
+openpgp-passphrase-status-user-passphrase = Durch Passphrase geschützt
 openpgp-copy-cmd-label =
     .label = Kopieren
 
