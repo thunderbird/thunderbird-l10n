@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Agregar proveedor OpenSearch
 add-opensearch-provider-text = Ingrese URL del proveedor OpenSearch para agregar. Puede usar la URL directa del archivo de descripción OpenSearch o una URL dónde puede descubrirse automáticamente.
 adding-opensearch-provider-failed-title = No se pudo agregar el proveedor OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = No se pudo agregar el proveedor OpenSearch para { $url }.
 minimize-to-tray-label =
     .label = Cuando { -brand-short-name } está minimizado, muévalo a la bandeja
@@ -620,6 +622,18 @@ certificate-button =
 security-devices-button =
     .label = Dispositivos de seguridad…
     .accesskey = D
+email-e2ee-header = Cifrado de extremo a extremo del correo electrónico
+account-settings = Configuración de cuenta
+email-e2ee-enable-info = Configure cuentas de correo electrónico e identidades para el cifrado de extremo a extremo en la configuración de la cuenta.
+email-e2ee-automatism = Uso automático del cifrado
+email-e2ee-automatism-pre = { -brand-short-name } puede ayudar habilitando o deshabilitando automáticamente el cifrado al redactar un correo electrónico. La habilitación / deshabilitación automática se basa en la disponibilidad de claves o certificados de corresponsales válidos y aceptados.
+email-e2ee-auto-on =
+    .label = Habilitar el cifrado automáticamente cuando sea posible
+email-e2ee-auto-off =
+    .label = Deshabilitar automáticamente el cifrado cuando los destinatarios cambien y el cifrado ya no sea posible
+email-e2ee-auto-off-notify =
+    .label = Mostrar una notificación cuando el cifrado se deshabilite automáticamente
+email-e2ee-automatism-post = Las decisiones automáticas se pueden anular habilitando o deshabilitando manualmente el cifrado al redactar un mensaje. Nota: el cifrado siempre está activado automáticamente al responder a un mensaje cifrado.
 
 ## Chat Tab
 

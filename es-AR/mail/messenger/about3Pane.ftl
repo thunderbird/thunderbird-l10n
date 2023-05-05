@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Mostrar “Nuevo mensaje”
 folder-pane-header-context-hide =
     .label = Ocultar encabezado de vista de carpetas
+folder-pane-show-total-toggle =
+    .label = Mostrar la cantidad total de mensajes
 
 ## Message thread pane
 
