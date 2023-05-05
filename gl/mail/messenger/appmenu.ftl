@@ -46,9 +46,13 @@ appmenu-uidensity-relaxed =
     .tooltiptext = Relaxado
 appmenuitem-font-size-enlarge =
     .tooltiptext = Aumentar o tamaño da letra
+appmenuitem-font-size-reduce =
+    .tooltiptext = Diminuír o tamaño da letra
 
 ## Tools
 
+appmenu-tools-panel-title =
+    .title = Ferramentas
 
 ## Help
 
@@ -57,3 +61,5 @@ appmenu-help-panel-title =
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = Descargando a actualización de { -brand-shorter-name }
