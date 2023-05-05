@@ -316,11 +316,11 @@ openpgp-personal-yes-label =
     .label = Sì, utilizza questa chiave come chiave personale.
 openpgp-passphrase-protection =
     .label = Protezione passphrase
-openpgp-passphrase-status-unprotected = Non protette
-openpgp-passphrase-status-primary-password = Protetto dalla password principale di { -brand-short-name }
-openpgp-passphrase-status-user-passphrase = Protetto da una passphrase
+openpgp-passphrase-status-unprotected = Non protetta
+openpgp-passphrase-status-primary-password = Protetta dalla password principale di { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Protetta da una passphrase
 openpgp-passphrase-instruction-unprotected = Imposta una passphrase per proteggere questa chiave
-openpgp-passphrase-instruction-primary-password = In alternativa, proteggere questa chiave con una passphrase separata
+openpgp-passphrase-instruction-primary-password = In alternativa, proteggi questa chiave con una passphrase separata
 openpgp-passphrase-instruction-user-passphrase = Sblocca questa chiave per modificarne la protezione.
 openpgp-passphrase-unlock = Sblocca
 openpgp-passphrase-unlocked = Chiave sbloccata correttamente.
@@ -645,13 +645,13 @@ passphrase-prompt = Inserire la passphrase per sbloccare la seguente chiave: { $
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2 = Inserisci la passphrase per sbloccare la chiave segreta con ID { $key }, creata { $date }, { $username_and_email }
+passphrase-prompt2 = Inserisci la passphrase per sbloccare la chiave segreta con ID { $key }, data creazione { $date }, { $username_and_email }
 # Variables:
 # $subkey (String) - Key id to unlock, which is a subkey.
 # $key (String) - This is the main key, to which the subkey belongs.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2-sub = Immettere la passphrase per sbloccare la chiave segreta con ID { $subkey }, che è una sottochiave dell’ID chiave { $key }, creata { $date }, { $username_and_email }
+passphrase-prompt2-sub = Immettere la passphrase per sbloccare la chiave segreta con ID { $subkey }, che è una sottochiave della chiave con ID { $key }, data creazione { $date }, { $username_and_email }
 file-to-big-to-import = Questo file è troppo grande. Non importare un numero eccessivo di chiavi.
 
 ## Strings used in enigmailKeygen.js
