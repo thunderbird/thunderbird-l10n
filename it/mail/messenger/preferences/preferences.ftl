@@ -633,7 +633,7 @@ email-e2ee-auto-off =
     .label = Disattiva automaticamente la crittografia quando i destinatari cambiano e la crittografia non è più possibile
 email-e2ee-auto-off-notify =
     .label = Mostra una notifica ogni volta che la crittografia viene disattivata automaticamente
-email-e2ee-automatism-post = Le decisioni automatiche possono essere ignorate attivando o disattivando manualmente la crittografia durante la composizione di un messaggio. Nota: la crittografia viene sempre attivata automaticamente quando si risponde a un messaggio crittografato.
+email-e2ee-automatism-post = Le decisioni automatiche possono essere ignorate attivando o disattivando manualmente la crittografia durante la composizione di un messaggio. Nota: la crittografia viene sempre attivata automaticamente quando si risponde a un messaggio crittato.
 
 ## Chat Tab
 
