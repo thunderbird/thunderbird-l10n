@@ -14,6 +14,11 @@ fxa-verification-not-sent-body = Non foi posíbel enviar un correo de comprobaci
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+fxa-signout-dialog-title = Desexa pechar sesión en { -fxaccount-brand-name(capitalization: "sentence") }?
+fxa-signout-dialog-body = Os datos sincronizados permanecerán na súa conta.
+fxa-signout-dialog-button = Saír
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
+sync-disconnect-dialog-title = Desconectar?
+sync-disconnect-dialog-button = Desconectar
