@@ -136,6 +136,22 @@ about-addressbook-column-header-addresses2 = Adresy
     .title = Seřadí dle adres
 about-addressbook-column-label-addresses2 =
     .label = Adresy
+about-addressbook-column-header-title2 = Pozice
+    .title = Seřadí dle pozice
+about-addressbook-column-label-title2 =
+    .label = Pozice
+about-addressbook-column-header-department2 = Oddělení
+    .title = Seřadí dle oddělení
+about-addressbook-column-label-department2 =
+    .label = Oddělení
+about-addressbook-column-header-organization2 = Společnost
+    .title = Seřadí dle společnosti
+about-addressbook-column-label-organization2 =
+    .label = Společnost
+about-addressbook-column-header-addrbook2 = Složka kontaktů
+    .title = Seřadí dle složky kontaktů
+about-addressbook-column-label-addrbook2 =
+    .label = Složka kontaktů
 about-addressbook-cards-context-write =
     .label = Napsat
 about-addressbook-confirm-delete-mixed-title = Smazat kontakty a skupiny
@@ -226,6 +242,7 @@ about-addressbook-details-email-addresses-header = E-mailové adresy
 about-addressbook-details-phone-numbers-header = Telefonní čísla
 about-addressbook-details-addresses-header = Adresy
 about-addressbook-details-notes-header = Poznámky
+about-addressbook-details-websites-header = Webové stránky
 about-addressbook-details-other-info-header = Další údaje
 about-addressbook-entry-type-work = Práce
 about-addressbook-entry-type-home = Domů
@@ -259,3 +276,4 @@ about-addressbook-photo-save = Uložit
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N
