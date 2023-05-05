@@ -319,6 +319,17 @@ openpgp-passphrase-protection =
 openpgp-passphrase-status-unprotected = Ungeschützt
 openpgp-passphrase-status-primary-password = Durch Hauptpasswort von{ -brand-short-name } geschützt
 openpgp-passphrase-status-user-passphrase = Durch Passphrase geschützt
+openpgp-passphrase-instruction-unprotected = Legen Sie eine Passphrase zum Schutz dieses Schlüssels fest
+openpgp-passphrase-instruction-primary-password = Alternativ können Sie diesen Schlüssel auch mit einer separaten Passphrase schützen
+openpgp-passphrase-instruction-user-passphrase = Entsperren Sie diesen Schlüssel, um seinen Schutz zu ändern.
+openpgp-passphrase-unlock = Entsperren
+openpgp-passphrase-unlocked = Schlüssel erfolgreich entsperrt.
+openpgp-remove-protection = Passphrasenschutz entfernen
+openpgp-use-primary-password = Passphrase entfernen und mit Hauptpasswort schützen
+openpgp-passphrase-new = Neue Passphrase
+openpgp-passphrase-new-repeat = Neue Passphrase bestätigen
+openpgp-passphrase-set = Passphrase festlegen
+openpgp-passphrase-change = Passphrase ändern
 openpgp-copy-cmd-label =
     .label = Kopieren
 
