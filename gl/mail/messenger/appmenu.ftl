@@ -63,3 +63,11 @@ appmenu-help-panel-title =
 
 appmenuitem-banner-update-downloading =
     .label = Descargando a actualización de { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Actualización dispoñíbel — descargar agora
+appmenuitem-banner-update-manual =
+    .label = Actualización dispoñíbel — descargar agora
+appmenuitem-banner-update-unsupported =
+    .label = Imposíbel actualizar — sistema incompatíbel
+appmenuitem-banner-update-restart =
+    .label = Actualización dispoñíbel — reiniciar agora
