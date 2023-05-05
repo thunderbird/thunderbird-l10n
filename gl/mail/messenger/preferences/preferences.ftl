@@ -626,6 +626,18 @@ email-e2ee-header = Cifraxe de extremo a extremo de correo electrónico
 account-settings = Configuración da conta
 email-e2ee-enable-info = Configure as contas de correo electrónico e identidades para a cifraxe de extremo a extremo na configuración da conta.
 email-e2ee-automatism = Uso automático da cifraxe
+email-e2ee-automatism-pre =
+    O { -brand-short-name } pode asistilo activando ou desactivando automaticamente a cifraxe ao redactar un correo electrónico.
+    A activación/desactivación automática baséase na dispoñibilidade de chaves ou certificados válidos e aceptados dos correspondentes.
+email-e2ee-auto-on =
+    .label = Activar a cifraxe automaticamente cando se poida
+email-e2ee-auto-off =
+    .label = Desactivar automaticamente a cifraxe cando os destinatarios cambien e a cifraxe xa non se poida levar a cabo
+email-e2ee-auto-off-notify =
+    .label = Amosar unha notificación sempre que a cifraxe sexa desactivada automaticamente
+email-e2ee-automatism-post =
+    As decisións automáticas pódense anular activando ou desactivando manualmente a cifraxe ao redactar unha mensaxe.
+    Nota: a cifraxe sempre se activa automaticamente cando se responde a unha mensaxe cifrada.
 
 ## Chat Tab
 
