@@ -167,8 +167,8 @@ context-menu-decrypt-to-folder =
     .label = 將解密格式複製到
     .accesskey = y
 context-menu-decrypt-to-folder2 =
-    .label = 建立解密副本到
-    .accesskey = c
+    .label = 於…建立解密副本
+    .accesskey = y
 
 ## Message header pane
 
@@ -348,4 +348,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
-openpgp-forget = 忘記 OpenPGP 密碼
+openpgp-forget = 忘記 OpenPGP 密語

@@ -626,14 +626,18 @@ email-e2ee-header = 電子郵件端到端加密
 account-settings = 帳號設定
 email-e2ee-enable-info = 在帳號設定中設定要使用端到端加密的電子郵件帳號與身份。
 email-e2ee-automatism = 自動使用加密
-email-e2ee-automatism-pre = { -brand-short-name } 可在撰寫郵件時自動啟用或停用加密功能。是否要自動啟用 / 停用取決於通訊者有多少有效且已接受的金鑰或憑證。
+email-e2ee-automatism-pre =
+    { -brand-short-name } 可在撰寫郵件時自動開啟或關閉加密功能。
+    是否要自動開啟 / 關閉，取決於您有多少往來通訊者的有效且已接受的金鑰或憑證。
 email-e2ee-auto-on =
-    .label = 可用時自動開啟加密
+    .label = 盡可能自動開啟加密
 email-e2ee-auto-off =
-    .label = 當收件者變更無法再加密時自動停用加密
+    .label = 當變更收件者，無法再加密時，自動關閉加密
 email-e2ee-auto-off-notify =
     .label = 加密被自動停用時顯示通知
-email-e2ee-automatism-post = 撰寫郵件時您可能會因手動開啟或關閉加密而忽略自動做出的決定。注: 回覆加密訊息時總是會自動進行加密。
+email-e2ee-automatism-post =
+    撰寫郵件時，可能會因手動開啟或關閉加密，而忽略自動做出的決定。
+    註：回覆加密訊息時，總是會自動開啟加密。
 
 ## Chat Tab
 
