@@ -227,6 +227,15 @@ about-addressbook-placeholder-no-search-results = Nebyly nalezeny žádné konta
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than two)
+about-addressbook-selection-mixed-header = Vybrané kontakty a seznamy: { $count }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header = Vybrané kontakty: { $count }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header = Vybrané seznamy: { $count }
 about-addressbook-new-contact-header = Nový kontakt
 about-addressbook-prefer-display-name = Upřednostnit zobrazované jméno před hlavičkou zprávy
 about-addressbook-write-action-button = Napsat zprávu
