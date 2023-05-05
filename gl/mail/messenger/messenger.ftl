@@ -167,6 +167,9 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Copiar como descifrado a
     .accesskey = C
+context-menu-decrypt-to-folder2 =
+    .label = Crear unha copia descifrada en
+    .accesskey = C
 
 ## Message header pane
 
@@ -344,3 +347,7 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
+openpgp-forget = Esquecer as frases de acceso OpenPGP

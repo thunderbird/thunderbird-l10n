@@ -622,6 +622,10 @@ certificate-button =
 security-devices-button =
     .label = Dispositivos de seguranza...
     .accesskey = D
+email-e2ee-header = Cifraxe de extremo a extremo de correo electrónico
+account-settings = Configuración da conta
+email-e2ee-enable-info = Configure as contas de correo electrónico e identidades para a cifraxe de extremo a extremo na configuración da conta.
+email-e2ee-automatism = Uso automático da cifraxe
 
 ## Chat Tab
 
