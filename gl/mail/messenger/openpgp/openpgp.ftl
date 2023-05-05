@@ -314,6 +314,13 @@ openpgp-personal-no-label =
     .label = Non, non usar como a miña chave persoal.
 openpgp-personal-yes-label =
     .label = Si, tratar esta chave como unha chave persoal.
+openpgp-passphrase-protection =
+    .label = Protección con frase de acceso
+openpgp-passphrase-status-unprotected = Sen protexer
+openpgp-passphrase-status-primary-password = Protexido polo contrasinal principal do { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Protexido por unha frase de acceso
+openpgp-passphrase-instruction-unprotected = Estabelecer unha frase de acceso para protexer esta chave
+openpgp-passphrase-instruction-primary-password = Tamén pode protexer esta chave cunha frase de acceso separada
 openpgp-copy-cmd-label =
     .label = Copiar
 
