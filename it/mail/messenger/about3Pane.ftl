@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Mostra “Nuovo messaggio”
 folder-pane-header-context-hide =
     .label = Nascondi intestazione pannello cartelle
+folder-pane-show-total-toggle =
+    .label = Mostra il conteggio totale dei messaggi
 
 ## Message thread pane
 

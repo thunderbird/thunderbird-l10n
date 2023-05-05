@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Aggiungi motore di ricerca OpenSearch
 add-opensearch-provider-text = Inserisci l’indirizzo del motore di ricerca OpenSearch da aggiungere. Utilizza l’indirizzo diretto del file di descrizione OpenSearch o un indirizzo da cui può essere individuato automaticamente.
 adding-opensearch-provider-failed-title = Aggiunta del motore di ricerca OpenSearch non riuscita
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Impossibile aggiungere il motore di ricerca OpenSearch da { $url }.
 minimize-to-tray-label =
     .label = Quando { -brand-short-name } è ridotto a icona, spostalo nell’area di notifica
@@ -620,6 +622,18 @@ certificate-button =
 security-devices-button =
     .label = Dispositivi di sicurezza…
     .accesskey = D
+email-e2ee-header = Crittografia end-to-end delle email
+account-settings = Impostazioni account
+email-e2ee-enable-info = Configura account di posta elettronica e identità per la crittografia end-to-end in Impostazioni account.
+email-e2ee-automatism = Utilizzo automatico della crittografia
+email-e2ee-automatism-pre = { -brand-short-name } può aiutarti attivando o disattivando automaticamente la crittografia durante la composizione di un’email. L’attivazione/disattivazione automatica si basa sulla disponibilità di chiavi o certificati validi e accettati.
+email-e2ee-auto-on =
+    .label = Attiva automaticamente la crittografia quando possibile
+email-e2ee-auto-off =
+    .label = Disattiva automaticamente la crittografia quando i destinatari cambiano e la crittografia non è più possibile
+email-e2ee-auto-off-notify =
+    .label = Mostra una notifica ogni volta che la crittografia viene disattivata automaticamente
+email-e2ee-automatism-post = Le decisioni automatiche possono essere ignorate attivando o disattivando manualmente la crittografia durante la composizione di un messaggio. Nota: la crittografia viene sempre attivata automaticamente quando si risponde a un messaggio crittografato.
 
 ## Chat Tab
 
