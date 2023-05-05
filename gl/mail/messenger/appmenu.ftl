@@ -38,6 +38,14 @@ appmenu-open-file-panel-title =
 
 ## View / Layout
 
+appmenu-font-size-value = Tamaño de letra
+appmenu-mail-uidensity-value = Densidade
+appmenu-uidensity-default =
+    .tooltiptext = Predeterminado
+appmenu-uidensity-relaxed =
+    .tooltiptext = Relaxado
+appmenuitem-font-size-enlarge =
+    .tooltiptext = Aumentar o tamaño da letra
 
 ## Tools
 

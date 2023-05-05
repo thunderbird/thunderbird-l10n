@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Amosar «Nova mensaxe»
 folder-pane-header-context-hide =
     .label = Agochar a cabeceira do panel de cartafoles
+folder-pane-show-total-toggle =
+    .label = Mostrar o reconto total de mensaxes
 
 ## Message thread pane
 
