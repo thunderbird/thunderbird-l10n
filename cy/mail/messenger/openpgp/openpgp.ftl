@@ -338,6 +338,22 @@ openpgp-personal-no-label =
     .label = Na, peidio'i defnyddio fel fy allwedd bersonol.
 openpgp-personal-yes-label =
     .label = Iawn, trin yr allwedd hon fel allwedd bersonol.
+openpgp-passphrase-protection =
+    .label = Diogelu Cyfrinair
+openpgp-passphrase-status-unprotected = Heb ei ddiogelu
+openpgp-passphrase-status-primary-password = Wedi'i warchod gan Brif Gyfrinair { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Wedi'i warchod gan gyfrinair
+openpgp-passphrase-instruction-unprotected = Gosodwch gyfrinair i amddiffyn yr allwedd hon
+openpgp-passphrase-instruction-primary-password = Fel arall, gwarchodwch yr allwedd hon gyda chyfrinair ar wahân
+openpgp-passphrase-instruction-user-passphrase = Datgloi'r allwedd hon i newid ei amddiffyniad.
+openpgp-passphrase-unlock = Datgloi
+openpgp-passphrase-unlocked = Llwyddwyd i ddatgloi'r allwedd.
+openpgp-remove-protection = Dileu amddiffyniad cyfrinair
+openpgp-use-primary-password = Tynnwch gyfrinair a'i ddiogelu gyda Chyfrinair Cynradd
+openpgp-passphrase-new = Cyfrinair newydd
+openpgp-passphrase-new-repeat = Cadarnhau cyfrinair newydd
+openpgp-passphrase-set = Gosod cyfrinair
+openpgp-passphrase-change = Newid cyfrinair
 openpgp-copy-cmd-label =
     .label = Copïo
 
@@ -654,6 +670,17 @@ import-keys-failed = Methodd mewnforio'r allweddi
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Rhowch yr cyfrinymadrodd sy'n datgloi'r allwedd ganlynol: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Rhowch y cyfrinair i ddatgloi'r allwedd gyfrinachol gyda'r ID { $key } , a grëwyd { $date } , { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Rhowch y cyfrinair i ddatgloi'r allwedd gyfrinachol gyda'r ID { $subkey } , sy'n iskey ID allwedd { $key }, a grëwyd { $date } , { $username_and_email }
 file-to-big-to-import = Mae'r ffeil hon yn rhy fawr. Peidiwch â mewnforio set fawr o allweddi ar unwaith.
 
 ## Strings used in enigmailKeygen.js
