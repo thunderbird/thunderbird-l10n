@@ -645,6 +645,17 @@ import-keys-failed = Fehler beim Import der Schlüssel
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Bitte geben Sie das Passwort für den folgenden Schlüssel ein: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Geben Sie die Passphrase ein, um den geheimen Schlüssel mit der ID { $key }, erstellt am { $date }, { $username_and_email } zu entsperren
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Geben Sie die Passphrase ein, um den geheimen Schlüssel mit der ID { $subkey }, zu entsperren, der ein Unterschlüssel des Schlüssel mit der ID { $key } ist, der am { $date }, { $username_and_email } erstellt wurde
 file-to-big-to-import = Die Datei ist zu groß. Bitte importieren Sie nicht viele Schlüssel auf einmal.
 
 ## Strings used in enigmailKeygen.js

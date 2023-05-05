@@ -622,6 +622,22 @@ certificate-button =
 security-devices-button =
     .label = Kryptographie-Module verwalten…
     .accesskey = K
+email-e2ee-header = Ende-zu-Ende-Verschlüsselung für E-Mails
+account-settings = Konten-Einstellungen
+email-e2ee-enable-info = Richten Sie E-Mail-Konten und Identitäten für die Ende-zu-Ende-Verschlüsselung in den Konten-Einstellungen ein.
+email-e2ee-automatism = Automatische Verwendung der Verschlüsselung
+email-e2ee-automatism-pre =
+    { -brand-short-name } kann Sie dabei unterstützen, indem es die Verschlüsselung während des Verfassens einer E-Mail automatisch aktiviert oder deaktiviert.
+    Die automatische Aktivierung/Deaktivierung basiert auf der Verfügbarkeit von gültigen und akzeptierten Schlüsseln oder Zertifikaten der Korrespondenten.
+email-e2ee-auto-on =
+    .label = Verschlüsselung automatisch aktivieren, wenn möglich
+email-e2ee-auto-off =
+    .label = Verschlüsselung automatisch deaktivieren, wenn sich die Empfänger ändern und eine Verschlüsselung nicht mehr möglich ist
+email-e2ee-auto-off-notify =
+    .label = Eine Benachrichtigung anzeigen, wenn die Verschlüsselung automatisch deaktiviert wird
+email-e2ee-automatism-post =
+    Automatische Entscheidungen können durch manuelles Aktivieren oder Deaktivieren der Verschlüsselung beim Verfassen einer Nachricht außer Kraft gesetzt werden.
+    Hinweis: Die Verschlüsselung wird immer automatisch aktiviert, wenn auf eine verschlüsselte Nachricht geantwortet wird.
 
 ## Chat Tab
 
