@@ -622,6 +622,7 @@ certificate-button =
 security-devices-button =
     .label = Wěstotne graty…
     .accesskey = W
+account-settings = Kontowe nastajenja
 
 ## Chat Tab
 

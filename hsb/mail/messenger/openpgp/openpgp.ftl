@@ -326,6 +326,8 @@ openpgp-personal-no-label =
     .label = Ně, jón jako mój wosobinski kluč njewužiwać.
 openpgp-personal-yes-label =
     .label = Haj, tutón kluč jako wosobinski kluč wužiwać.
+openpgp-passphrase-status-unprotected = Nješkitany
+openpgp-passphrase-unlock = Wotewrěć
 openpgp-copy-cmd-label =
     .label = Kopěrować
 
