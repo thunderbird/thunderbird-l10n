@@ -5,6 +5,7 @@
 
 # Display Name
 
+vcard-displayname = Amosar o nome
 vcard-displayname-placeholder =
     .placeholder = { vcard-displayname }
 
@@ -13,6 +14,7 @@ vcard-displayname-placeholder =
 vcard-entry-type-label = Tipo
 vcard-entry-type-home = Casa
 vcard-entry-type-work = Traballo
+vcard-entry-type-none = Nada
 vcard-entry-type-custom = Personalizado
 
 # N vCard field
@@ -115,11 +117,17 @@ vcard-org-title-input =
     .title = Cargo ou traballo
     .placeholder = Título do traballo
 vcard-org-role = Rol
+vcard-org-role-input =
+    .title = Función ou papel desempeñado nunha situación particular
+    .placeholder = Rol nun proxecto
 vcard-org-org = Organización
 vcard-org-org-input =
     .title = Nome da organización
     .placeholder = Nome da empresa
 vcard-org-org-unit = Departamento
+vcard-org-org-unit-input =
+    .title = Nome da unidade organizativa
+    .placeholder = Departamento
 
 # Custom properties
 
