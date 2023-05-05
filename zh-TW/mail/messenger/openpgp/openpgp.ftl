@@ -306,6 +306,22 @@ openpgp-personal-no-label =
     .label = 否，不要把這把金鑰當成我的個人金鑰。
 openpgp-personal-yes-label =
     .label = 是，請把這把金鑰當成我的個人金鑰。
+openpgp-passphrase-protection =
+    .label = 密語保護
+openpgp-passphrase-status-unprotected = 未受保護
+openpgp-passphrase-status-primary-password = 使用 { -brand-short-name } 的主控密碼保護
+openpgp-passphrase-status-user-passphrase = 由密語保護
+openpgp-passphrase-instruction-unprotected = 設定密語來保護這把金鑰
+openpgp-passphrase-instruction-primary-password = 或者使用不同的密語來保護這把金鑰
+openpgp-passphrase-instruction-user-passphrase = 解鎖這把金鑰即可更改保護。
+openpgp-passphrase-unlock = 解鎖
+openpgp-passphrase-unlocked = 金鑰解鎖成功。
+openpgp-remove-protection = 移除密語保護
+openpgp-use-primary-password = 移除密語並使用主密碼保護
+openpgp-passphrase-new = 新增密語
+openpgp-passphrase-new-repeat = 確認新密碼
+openpgp-passphrase-set = 設定密語
+openpgp-passphrase-change = 變更密語
 openpgp-copy-cmd-label =
     .label = 複製
 
@@ -586,6 +602,17 @@ import-keys-failed = 金鑰匯入失敗
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = 請輸入可解開下列金鑰的密語: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = 請輸入用來解鎖 ID 為 { $key }、建立於 { $date }{ $username_and_email } 的私鑰的密語
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = 請輸入用來解鎖 ID 為 { $subkey } 的私鑰的密語
 file-to-big-to-import = 檔案太大。請不要一次匯入太多組金鑰。
 
 ## Strings used in enigmailKeygen.js

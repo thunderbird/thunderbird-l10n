@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = 新增 OpenSearch 搜尋引擎
 add-opensearch-provider-text = 請輸入要新增的 OpenSearch 搜尋引擎網址。可使用 OpenSearch 描述檔的網址，或是該引擎的自動探索網址。
 adding-opensearch-provider-failed-title = OpenSearch 搜尋引擎新增失敗
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = 無法新增 { $url } 的 OpenSearch 搜尋引擎。
 minimize-to-tray-label =
     .label = 最小化 { -brand-short-name } 時，移動到工具列
@@ -620,6 +622,18 @@ certificate-button =
 security-devices-button =
     .label = 安全性裝置…
     .accesskey = D
+email-e2ee-header = 電子郵件端到端加密
+account-settings = 帳號設定
+email-e2ee-enable-info = 在帳號設定中設定要使用端到端加密的電子郵件帳號與身份。
+email-e2ee-automatism = 自動使用加密
+email-e2ee-automatism-pre = { -brand-short-name } 可在撰寫郵件時自動啟用或停用加密功能。是否要自動啟用 / 停用取決於通訊者有多少有效且已接受的金鑰或憑證。
+email-e2ee-auto-on =
+    .label = 可用時自動開啟加密
+email-e2ee-auto-off =
+    .label = 當收件者變更無法再加密時自動停用加密
+email-e2ee-auto-off-notify =
+    .label = 加密被自動停用時顯示通知
+email-e2ee-automatism-post = 撰寫郵件時您可能會因手動開啟或關閉加密而忽略自動做出的決定。注: 回覆加密訊息時總是會自動進行加密。
 
 ## Chat Tab
 

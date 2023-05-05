@@ -128,6 +128,8 @@ folder-pane-header-context-toggle-new-message =
     .label = 顯示「寫新訊息」
 folder-pane-header-context-hide =
     .label = 隱藏資料夾窗格標題
+folder-pane-show-total-toggle =
+    .label = 顯示郵件總數
 
 ## Message thread pane
 
