@@ -622,6 +622,18 @@ certificate-button =
 security-devices-button =
     .label = Périphériques de sécurité…
     .accesskey = P
+email-e2ee-header = Chiffrement de bout en bout des messageries
+account-settings = Paramètres du compte
+email-e2ee-enable-info = Configurez les comptes de messagerie et les identités pour le chiffrement de bout en bout dans les paramètres des comptes.
+email-e2ee-automatism = Utilisation automatique du chiffrement
+email-e2ee-automatism-pre = { -brand-short-name } peut vous aider en activant ou désactivant automatiquement le chiffrement lors de la rédaction d’un e-mail. L’activation/la désactivation automatique est basée sur la disponibilité de clés ou de certificats de correspondants valides et acceptés.
+email-e2ee-auto-on =
+    .label = Activer automatiquement le chiffrement lorsque cela est possible
+email-e2ee-auto-off =
+    .label = Désactiver automatiquement le chiffrement lorsque les destinataires changent et que le chiffrement n’est plus possible
+email-e2ee-auto-off-notify =
+    .label = Afficher une notification lorsque le chiffrement est désactivé automatiquement
+email-e2ee-automatism-post = Les décisions automatiques peuvent être outrepassées en activant ou désactivant manuellement le chiffrement lors de la rédaction d’un message. Remarque : le chiffrement est toujours activé automatiquement lorsque vous répondez à un message chiffré.
 
 ## Chat Tab
 

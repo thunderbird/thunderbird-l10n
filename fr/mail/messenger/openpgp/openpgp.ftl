@@ -314,6 +314,22 @@ openpgp-personal-no-label =
     .label = Non, ne pas l’utiliser comme clé personnelle.
 openpgp-personal-yes-label =
     .label = Oui, considérer cette clé comme une clé personnelle.
+openpgp-passphrase-protection =
+    .label = Protection par phrase de passe
+openpgp-passphrase-status-unprotected = Non protégées
+openpgp-passphrase-status-primary-password = Protégé par le mot de passe principal de { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Protégé par une phrase de passe
+openpgp-passphrase-instruction-unprotected = Définissez une phrase de passe pour protéger cette clé
+openpgp-passphrase-instruction-primary-password = Vous pouvez également protéger cette clé avec une phrase de passe séparée
+openpgp-passphrase-instruction-user-passphrase = Déverrouillez cette clé pour modifier sa protection.
+openpgp-passphrase-unlock = Déverrouiller
+openpgp-passphrase-unlocked = La clé a été déverrouillée avec succès.
+openpgp-remove-protection = Retirer la protection par phrase de passe
+openpgp-use-primary-password = Supprimer la phrase de passe et protéger avec le mot de passe principal
+openpgp-passphrase-new = Nouvelle phrase de passe
+openpgp-passphrase-new-repeat = Confirmer la nouvelle phrase de passe
+openpgp-passphrase-set = Définir une phrase de passe
+openpgp-passphrase-change = Changer la phrase de passe
 openpgp-copy-cmd-label =
     .label = Copier
 
@@ -625,6 +641,17 @@ import-keys-failed = Échec de l’importation des clés
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Veuillez saisir la phrase de passe pour déverrouiller la clé suivante : { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Saisissez la phrase de passe pour déverrouiller la clé secrète d’identifiant { $key }, créée le { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Saisissez la phrase de passe pour déverrouiller la clé secrète d’identifiant { $subkey }, qui est une sous-clé de l’identifiant de clé { $key }, créée le { $date }, { $username_and_email }
 file-to-big-to-import = Ce fichier est trop volumineux. Veuillez ne pas importer un nombre important de clés à la fois.
 
 ## Strings used in enigmailKeygen.js
