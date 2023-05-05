@@ -26,6 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Xerar unha chave OpenPGP
+openpgp-keygen-secret-protection = Protección por chave secreta
+radio-keygen-no-protection =
+    .label = Sen protexer
+radio-keygen-protect-primary-pass =
+    .label = Protexer co contrasinal principal
+radio-keygen-passphrase-protection =
+    .label = Protexer cunha frase de acceso:
+openpgp-passphrase-repeat = Confirmar a frase de acceso:
 openpgp-generate-key-info = <b>A xeración de chaves pode tardar varios minutos en completarse.</b> Non saia da aplicación mentres a xeración de chaves estea en curso. Navegar activamente ou realizar operacións intensivas en disco durante a xeración de chaves reabastecerá o «cantidade de aleatoriedade» e acelerará o proceso. Recibirá un aviso cando remate a xeración de chaves.
 openpgp-keygen-expiry-title = Caducidade da chave
 openpgp-keygen-expiry-description = Defina o tempo de caducidade da chave acabada de xerar. Máis tarde pode modificar a data para ampliala se o precisa.
@@ -95,6 +103,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Confirma que chaves poden tratarse como as súas chaves persoais. Só as chaves que creou vostede e que amosan a súa propia identidade deben usarse como chaves persoais. Pode mudar esta opción máis tarde na xanela Propiedades da chave.
 openpgp-import-key-list-caption = As chaves marcadas para ser tratadas como chaves persoais aparecerán na sección Cifrado de extremo a extremo. As outras estarán dispoñíbeis dentro do Xestor de chaves.
+openpgp-import-keep-passphrases =
+    .label = Mantér a protección de frase de acceso para as chaves secretas importadas
 openpgp-passphrase-prompt-title = Requírese unha frase de acceso
 #   $key (String) - the id of the key being imported
 openpgp-passphrase-prompt = Insira a frase de acceso para desbloquear a seguinte chave: { $key }
