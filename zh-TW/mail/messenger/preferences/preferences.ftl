@@ -624,7 +624,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = 電子郵件端到端加密
 account-settings = 帳號設定
-email-e2ee-enable-info = 在帳號設定中設定要使用端到端加密的電子郵件帳號與身份。
+email-e2ee-enable-info = 可以在「帳號設定」中設定用來進行端到端加密的電子郵件帳號與身份。
 email-e2ee-automatism = 自動使用加密
 email-e2ee-automatism-pre =
     { -brand-short-name } 可在撰寫郵件時自動開啟或關閉加密功能。
