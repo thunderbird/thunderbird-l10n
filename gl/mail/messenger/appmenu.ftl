@@ -149,11 +149,29 @@ appmenu-tools-message-search =
 appmenu-tools-message-filters =
     .label = Filtros de mensaxes
     .accesskey = F
+appmenu-tools-download-manager =
+    .label = Xestor de descargas
+    .accesskey = d
+appmenu-tools-activity-manager =
+    .label = Xestor de actividade
+    .accesskey = a
+appmenu-tools-dev-tools =
+    .label = Ferramentas de desenvolvemento
+    .accesskey = t
 
 ## Help
 
 appmenu-help-panel-title =
     .title = Axuda
+appmenu-help-get-help =
+    .label = Obter axuda
+    .accesskey = x
+appmenu-help-explore-features =
+    .label = Explorar as funcionalidades
+    .accesskey = f
+appmenu-help-shortcuts =
+    .label = Atallos de teclado
+    .accesskey = t
 
 ## Application Update
 
