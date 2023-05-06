@@ -3,3 +3,5 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-title = Каляндар
+task-start-4-label =
+    .label = Заўтра
