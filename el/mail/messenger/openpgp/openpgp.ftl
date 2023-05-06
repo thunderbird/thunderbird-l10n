@@ -314,6 +314,7 @@ openpgp-personal-no-label =
     .label = Όχι, να μην χρησιμοποιηθεί ως προσωπικό κλειδί μου.
 openpgp-personal-yes-label =
     .label = Ναι, να αντιμετωπιστεί το κλειδί ως προσωπικό κλειδί.
+openpgp-passphrase-unlock = Ξεκλείδωμα
 openpgp-copy-cmd-label =
     .label = Αντιγραφή
 

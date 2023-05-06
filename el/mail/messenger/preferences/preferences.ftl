@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Προσθήκη παρόχου OpenSearch
 add-opensearch-provider-text = Εισαγάγετε το URL του παρόχου OpenSearch για προσθήκη. Χρησιμοποιήστε είτε το άμεσο URL του αρχείου περιγραφής του OpenSearch είτε ένα URL όπου μπορεί να εντοπιστεί αυτόματα.
 adding-opensearch-provider-failed-title = Αποτυχία προσθήκης παρόχου OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Δεν ήταν δυνατή η προσθήκη παρόχου OpenSearch για το { $url }.
 minimize-to-tray-label =
     .label = Όταν το { -brand-short-name } ελαχιστοποιείται, να γίνεται μετακίνηση στην περιοχή ειδοποιήσεων
@@ -616,6 +618,8 @@ certificate-button =
 security-devices-button =
     .label = Συσκευές ασφαλείας…
     .accesskey = Σ
+account-settings = Ρυθμίσεις λογαριασμού
+email-e2ee-automatism = Αυτόματη χρήση κρυπτογράφησης
 
 ## Chat Tab
 
