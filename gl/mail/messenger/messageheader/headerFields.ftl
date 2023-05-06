@@ -19,6 +19,7 @@ message-header-tags-list-name = Etiquetas
 
 message-header-author-field = Autor<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organización<span data-l10n-name="field-separator">:</span>
+message-header-subject-field = Asunto<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Sitio web<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
