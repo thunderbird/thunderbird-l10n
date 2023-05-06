@@ -618,8 +618,11 @@ certificate-button =
 security-devices-button =
     .label = Συσκευές ασφαλείας…
     .accesskey = Σ
+email-e2ee-header = Διατερματική κρυπτογράφηση email
 account-settings = Ρυθμίσεις λογαριασμού
 email-e2ee-automatism = Αυτόματη χρήση κρυπτογράφησης
+email-e2ee-auto-off-notify =
+    .label = Εμφάνιση ειδοποίησης όταν η κρυπτογράφηση απενεργοποιείται αυτόματα
 
 ## Chat Tab
 
