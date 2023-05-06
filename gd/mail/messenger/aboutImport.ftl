@@ -107,9 +107,33 @@ addr-book-summary-description = Thèid leabhar-sheòlaidhean ùr a chruthachadh 
 import-from-calendar-file-desc = Tagh am faidhle iCalendar (.ics) a bu toil leat ion-phortadh.
 calendar-items-title = Tagh na rudan a thèid ion-phortadh.
 calendar-items-loading = A’ luchdadh nan nithean…
+calendar-items-filter-input =
+    .placeholder = Criathraich na nithean…
+calendar-select-all-items = Tagh na h-uile
+calendar-deselect-all-items = Dì-thagh na h-uile
+calendar-target-title = Tagh càit an tèid na nithean a thagh thu ion-phortadh.
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = Cruthaich mìosachan ùr air am bi <strong>“{ $targetCalendar }”</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+        [one] Ion-phortaich { $itemCount } nì dhan mhìosachan “{ $targetCalendar }”
+        [two] Ion-phortaich { $itemCount } nì dhan mhìosachan “{ $targetCalendar }”
+        [few] Ion-phortaich { $itemCount } nithean dhan mhìosachan “{ $targetCalendar }”
+       *[other] Ion-phortaich { $itemCount } nì dhan mhìosachan “{ $targetCalendar }”
+    }
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = Thèid mìosachan ùr a chruthachadh air am bi “{ $targetCalendar }”
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = Ag ion-phortadh… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Ag às-phortadh… { $progressPercent }
+progress-pane-finished-desc2 = Deiseil.
+error-pane-title = Mearachd
 
 ## <csv-field-map> element
 
