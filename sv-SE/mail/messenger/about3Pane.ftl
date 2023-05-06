@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Visa "Nytt meddelande"
 folder-pane-header-context-hide =
     .label = Dölj mappfönsterraden
+folder-pane-show-total-toggle =
+    .label = Visa totalt antal meddelanden
 
 ## Message thread pane
 

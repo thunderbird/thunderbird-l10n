@@ -618,6 +618,22 @@ certificate-button =
 security-devices-button =
     .label = Säkerhetsenheter…
     .accesskey = k
+email-e2ee-header = E-postkryptering end-to-end
+account-settings = Kontoinställningar
+email-e2ee-enable-info = Ställ in e-postkonton och identiteter för end-to-end-kryptering i kontoinställningar.
+email-e2ee-automatism = Automatisk användning av kryptering
+email-e2ee-automatism-pre =
+    { -brand-short-name } kan hjälpa till genom att automatiskt aktivera eller inaktivera kryptering när du skriver ett e-postmeddelande.
+    Automatisk aktivering/inaktivering baseras på tillgängligheten av giltiga och accepterade korrespondentnycklar eller certifikat.
+email-e2ee-auto-on =
+    .label = Aktivera automatiskt kryptering när det är möjligt
+email-e2ee-auto-off =
+    .label = Inaktivera kryptering automatiskt när mottagare ändras och kryptering inte längre är möjlig
+email-e2ee-auto-off-notify =
+    .label = Visa ett meddelande när kryptering inaktiveras automatiskt
+email-e2ee-automatism-post =
+    Automatiska beslut kan åsidosättas genom att manuellt aktivera eller inaktivera kryptering när du skriver ett meddelande.
+    Obs: kryptering aktiveras alltid automatiskt när du svarar på ett krypterat meddelande.
 
 ## Chat Tab
 

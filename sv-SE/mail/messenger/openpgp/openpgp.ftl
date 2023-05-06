@@ -314,6 +314,22 @@ openpgp-personal-no-label =
     .label = Nej, använd inte den som min personliga nyckel.
 openpgp-personal-yes-label =
     .label = Ja, behandla den här nyckeln som en personlig nyckel.
+openpgp-passphrase-protection =
+    .label = Lösenfrasskydd
+openpgp-passphrase-status-unprotected = Oskyddad
+openpgp-passphrase-status-primary-password = Skyddad av huvudlösenordet för { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Skyddas av en lösenfras
+openpgp-passphrase-instruction-unprotected = Ställ in en lösenfras för att skydda den här nyckeln
+openpgp-passphrase-instruction-primary-password = Alternativt skydda denna nyckel med en separat lösenfras
+openpgp-passphrase-instruction-user-passphrase = Lås upp den här nyckeln för att ändra dess skydd.
+openpgp-passphrase-unlock = Lås upp
+openpgp-passphrase-unlocked = Nyckeln har låsts upp.
+openpgp-remove-protection = Ta bort lösenfrasskyddet
+openpgp-use-primary-password = Ta bort lösenordsfras och skydda med huvudlösenord
+openpgp-passphrase-new = Ny lösenfras
+openpgp-passphrase-new-repeat = Bekräfta ny lösenfras
+openpgp-passphrase-set = Ställ in lösenfras
+openpgp-passphrase-change = Ändra lösenfras
 openpgp-copy-cmd-label =
     .label = Kopiera
 
@@ -626,6 +642,17 @@ import-keys-failed = Importering av nycklarna misslyckades
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Ange lösenfrasen som låser upp följande nyckel: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Ange lösenfrasen för att låsa upp den hemliga nyckeln med ID { $key }, skapad { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Ange lösenfrasen för att låsa upp den hemliga nyckeln med ID { $subkey }, som är en undernyckel till nyckel-ID { $key }, skapad { $date }, { $username_and_email }
 file-to-big-to-import = Denna fil är för stor. Importera inte en stor uppsättning nycklar på en gång.
 
 ## Strings used in enigmailKeygen.js
