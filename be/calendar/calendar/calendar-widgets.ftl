@@ -12,8 +12,14 @@ calendar-list-header = Календары
 calendar-nav-button-prev-tooltip-month =
     .title = Папярэдні месяц
     .accesskey = я
+calendar-nav-button-prev-tooltip-year =
+    .title = Папярэдні год
+    .accesskey = П
 calendar-nav-button-next-tooltip-month =
     .title = Наступны месяц
+    .accesskey = с
+calendar-nav-button-next-tooltip-year =
+    .title = Наступны год
     .accesskey = с
 
 ## Menu on calendar control bar

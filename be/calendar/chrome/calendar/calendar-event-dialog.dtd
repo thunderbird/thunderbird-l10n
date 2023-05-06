@@ -50,13 +50,17 @@
 <!-- Main page -->
 <!ENTITY event.calendar.label                             "Каляндар:" >
 <!ENTITY event.calendar.accesskey                         "К">
+<!ENTITY event.description.label                          "Апісанне:" >
+<!ENTITY event.description.accesskey                      "е">
 
 
 
 
 <!-- Recurrence dialog -->
 
+<!ENTITY event.repeat.yearly.label                      "Штогод">
 
+<!ENTITY event.recurrence.year.label                    "штогод" >
 
 
 
@@ -98,6 +102,21 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Кастрычнік" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Лістапад" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Снежань" >
+<!ENTITY event.recurrence.yearly.every.label                 "Кожны">
+<!ENTITY event.recurrence.yearly.first.label                 "першы">
+<!ENTITY event.recurrence.yearly.second.label                "другі">
+<!ENTITY event.recurrence.yearly.third.label                 "трэці">
+<!ENTITY event.recurrence.yearly.fourth.label                "чацвёрты">
+<!ENTITY event.recurrence.yearly.fifth.label                 "пяты">
+<!ENTITY event.recurrence.yearly.last.label                  "апошні">
+<!ENTITY event.recurrence.pattern.yearly.week.1.label        "Нядзеля" >
+<!ENTITY event.recurrence.pattern.yearly.week.2.label        "Панядзелак" >
+<!ENTITY event.recurrence.pattern.yearly.week.3.label        "Аўторак" >
+<!ENTITY event.recurrence.pattern.yearly.week.4.label        "Серада" >
+<!ENTITY event.recurrence.pattern.yearly.week.5.label        "Чацвер" >
+<!ENTITY event.recurrence.pattern.yearly.week.6.label        "Пятніца" >
+<!ENTITY event.recurrence.pattern.yearly.week.7.label        "Субота" >
+<!ENTITY event.recurrence.pattern.yearly.day.label           "дзень" >
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Студзень" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Люты" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Сакавік" >
@@ -118,6 +137,7 @@
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.calendar.label        "Каляндар:">
+<!ENTITY read.only.description.label     "Апісанне">
 
 <!-- Summary dialog -->
 <!ENTITY summary.dialog.saveclose.label         "Захаваць і закрыць">

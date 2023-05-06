@@ -108,5 +108,6 @@
 <!-- Select Calendar Dialog -->
 
 <!-- Error reporting -->
+<!ENTITY calendar.error.description "Апісанне:">
 
 <!-- Extract buttons in message header -->
