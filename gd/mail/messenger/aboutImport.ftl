@@ -92,6 +92,7 @@ addr-book-sqlite-file = Faidhle stòr-dàta SQLite (.sqlite)
 addr-book-mab-file = Faidhle stòr-dàta Mork (.mab)
 addr-book-file-picker = Tagh faidhle leabhar-sheòlaidhean
 addr-book-csv-field-map-title = Maidsich ainmean nan raointean
+addr-book-csv-field-map-desc = Tagh raointean an leabhair-sheòlaidh a fhreagras air na raointean tùsail. Thoir air falbh a’ chromag o raointean nach eil thu airson ion-phortadh.
 
 ## Import from calendar file steps
 
