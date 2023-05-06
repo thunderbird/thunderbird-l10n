@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = OpenSearch szolgáltató hozzáadása
 add-opensearch-provider-text = Adja meg a hozzáadandó OpenSearch szolgáltató URL-jét. Használja az OpenSearch leírófájl közvetlen URL-jét, vagy adjon meg URL-t, ahonnan automatikusan felderíthető.
 adding-opensearch-provider-failed-title = Az OpenSearch szolgáltató hozzáadása sikertelen
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = A cím alapján nem adható hozzá OpenSearch szolgáltató: { $url }.
 minimize-to-tray-label =
     .label = Ha a { -brand-short-name } minimalizálva van, áthelyezés a tálcára
@@ -620,6 +622,22 @@ certificate-button =
 security-devices-button =
     .label = Biztonsági eszközök…
     .accesskey = B
+email-e2ee-header = E-mail végpontok közötti titkosítása
+account-settings = Fiókbeállítások
+email-e2ee-enable-info = Állítsa be a végpontok közötti titkosításhoz használható e-mail-fiókokat és személyazonosságokat a Fiókbeállításokban.
+email-e2ee-automatism = Titkosítás automatikus használata
+email-e2ee-automatism-pre =
+    A { -brand-short-name } segíthet a titkosítás automatikus be- vagy kikapcsolásával az e-mail írása során.
+    Az automatikus be- és kikapcsolás alapja, hogy a felek érvényes és elfogadott kulcsai vagy tanúsítványai rendelkezésre állnak.
+email-e2ee-auto-on =
+    .label = Titkosítás automatikus bekapcsolása, ha lehetséges
+email-e2ee-auto-off =
+    .label = Titkosítás automatikus kikapcsolása, ha a címzett megváltozik, és a titkosítás már nem lehetséges
+email-e2ee-auto-off-notify =
+    .label = Értesítés megjelenítése, ha a titkosítás automatikusan kikapcsolásra kerül
+email-e2ee-automatism-post =
+    Az automatikus döntések felülbírálhatók a titkosítás kézi be- vagy kikapcsolásával üzenetíráskor.
+    Megjegyzés: a titkosítás mindig automatikusan be van kapcsolva, ha titkosított üzenetre válaszol.
 
 ## Chat Tab
 

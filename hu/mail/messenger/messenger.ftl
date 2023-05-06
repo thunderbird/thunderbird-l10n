@@ -167,6 +167,9 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Másolás visszafejtettként ide
     .accesskey = v
+context-menu-decrypt-to-folder2 =
+    .label = Visszafejtett másolat létrehozása
+    .accesskey = V
 
 ## Message header pane
 
