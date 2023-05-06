@@ -20,6 +20,12 @@ message-header-tags-list-name = Etiquetas
 message-header-author-field = Autor<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organización<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Asunto<span data-l10n-name="field-separator">:</span>
+message-header-followup-to-field = Seguimento a<span data-l10n-name="field-separator">:</span>
+message-header-date-field = Data<span data-l10n-name="field-separator">:</span>
+message-header-user-agent-field = Axente de usuario<span data-l10n-name="field-separator">:</span>
+message-header-references-field = Referencias<span data-l10n-name="field-separator">:</span>
+message-header-message-id-field = ID da mensaxe<span data-l10n-name="field-separator">:</span>
+message-header-in-reply-to-field = En resposta a<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Sitio web<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
@@ -37,4 +43,6 @@ message-header-address-not-in-address-book-button =
     .title = Gardar este enderezo na axenda de enderezos
 message-header-address-in-address-book-button =
     .title = Editar contacto
+message-header-field-show-more = Máis
+    .title = Amosar todos os destinatarios
 message-ids-field-show-all = Amosar todo
