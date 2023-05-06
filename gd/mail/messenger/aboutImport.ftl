@@ -71,9 +71,27 @@ profile-source = Ion-phortaich o phròifil
 profile-source-named = Ion-phortaich o phròifil <strong>“{ $profileName }”</strong>
 profile-file-picker-directory = Tagh pasgan pròifile
 profile-file-picker-archive = Tagh faidhle <strong>ZIP</strong>
+profile-file-picker-archive-description = Feumaidh am faidhle a bhith nas lugha na 2GB.
+profile-file-picker-archive-title = Tagh faidhle ZIP (nas lugha na 2GB)
+items-pane-title2 = Tagh na thèid ion-phortadh:
+items-pane-directory = Am pasgan:
+items-pane-profile-name = Ainm na pròifile:
+items-pane-checkbox-accounts = Cunntasan is roghainnean
+items-pane-checkbox-address-books = Leabhraichean-sheòlaidhean
+items-pane-checkbox-calendars = Mìosachain
+items-pane-checkbox-mail-messages = Teachdaireachdan puist
+items-pane-override = Cha tèid sgrìobhadh thairis air dàta làithreach no dàta a tha a cheart-shamhla ann mu thràth.
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Tagh fòram an fhaidhle sa bheil dàta leabhar nan seòladh agad.
+addr-book-csv-file = Faidhle sgaraichte le cromagan no tabaichean (.csv, .tsv)
+addr-book-ldif-file = Faidhle LDIF (.ldif)
+addr-book-vcard-file = Faidhle vCard (.vcf, .vcard)
+addr-book-sqlite-file = Faidhle stòr-dàta SQLite (.sqlite)
+addr-book-mab-file = Faidhle stòr-dàta Mork (.mab)
+addr-book-file-picker = Tagh faidhle leabhar-sheòlaidhean
+addr-book-csv-field-map-title = Maidsich ainmean nan raointean
 
 ## Import from calendar file steps
 
