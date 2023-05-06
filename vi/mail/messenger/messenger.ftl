@@ -165,6 +165,9 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Sao chép dưới dạng giải mã thành
     .accesskey = y
+context-menu-decrypt-to-folder2 =
+    .label = Tạo bản sao được giải mã trong
+    .accesskey = y
 
 ## Message header pane
 
@@ -341,3 +344,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+

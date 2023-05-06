@@ -117,8 +117,19 @@ folder-pane-write-message-button = Thư mới
     .title = Soạn một thư mới
 folder-pane-more-menu-button =
     .title = Tùy chọn ngăn thư mục
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Hiển thị thư mục
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Hiển thị "Nhận thư"
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Hiển thị “Thư mới”
 folder-pane-header-context-hide =
     .label = Ẩn header ngăn thư mục
+folder-pane-show-total-toggle =
+    .label = Hiển thị tổng số thư
 
 ## Message thread pane
 
