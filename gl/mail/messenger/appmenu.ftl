@@ -172,6 +172,27 @@ appmenu-help-explore-features =
 appmenu-help-shortcuts =
     .label = Atallos de teclado
     .accesskey = t
+appmenu-help-get-involved =
+    .label = Participe
+    .accesskey = P
+appmenu-help-donation =
+    .label = Faga unha doazón
+    .accesskey = d
+appmenu-help-share-feedback =
+    .label = Comparta ideas e comentarios
+    .accesskey = C
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Modo de resolución de problemas…
+    .accesskey = M
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Desactivar o modo de resolución de problemas
+    .accesskey = D
+appmenu-help-troubleshooting-info =
+    .label = Información para solucionar problemas
+    .accesskey = I
+appmenu-help-about-product =
+    .label = Sobre o { -brand-short-name }
+    .accesskey = S
 
 ## Application Update
 
