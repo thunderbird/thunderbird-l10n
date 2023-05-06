@@ -169,7 +169,7 @@ context-menu-decrypt-to-folder =
     .accesskey = i
 context-menu-decrypt-to-folder2 =
     .label = Crear copia descifrada en
-    .accesskey = y
+    .accesskey = i
 
 ## Message header pane
 

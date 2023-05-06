@@ -633,7 +633,7 @@ email-e2ee-auto-off =
     .label = Deshabilitar automáticamente el cifrado cuando los destinatarios cambien y el cifrado ya no sea posible
 email-e2ee-auto-off-notify =
     .label = Mostrar una notificación cuando el cifrado se deshabilite automáticamente
-email-e2ee-automatism-post = Las decisiones automáticas se pueden anular habilitando o deshabilitando manualmente el cifrado al redactar un mensaje. Nota: el cifrado siempre está activado automáticamente al responder a un mensaje cifrado.
+email-e2ee-automatism-post = Las decisiones automáticas se pueden anular habilitando o deshabilitando manualmente el cifrado al redactar un mensaje.Nota: el cifrado siempre está activado automáticamente al responder a un mensaje cifrado.
 
 ## Chat Tab
 
