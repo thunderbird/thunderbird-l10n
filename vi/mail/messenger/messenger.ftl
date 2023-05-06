@@ -347,3 +347,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Quên cụm mật khẩu OpenPGP
