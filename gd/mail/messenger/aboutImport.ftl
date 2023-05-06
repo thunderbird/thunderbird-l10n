@@ -134,18 +134,48 @@ progress-pane-importing2 = Ag ion-phortadh… { $progressPercent }
 progress-pane-exporting2 = Ag às-phortadh… { $progressPercent }
 progress-pane-finished-desc2 = Deiseil.
 error-pane-title = Mearachd
+error-message-zip-file-too-big2 = Tha am faidhle a thagh thu nas motha na 2GB. Às-tharraing e an toiseach is dèan ion-phortadh on phasgan far an deach às-tharraing an àite sin.
+error-message-extract-zip-file-failed2 = Cha b’ urrainn dhuinn am faidhle ZIP às-tharraing. Às-tharraing thu fhèin e an toiseach is dèan ion-phortadh on phasgan far an deach às-tharraing an àite sin.
+error-message-failed = Dh’fhàillig an t-ion-phortadh gu h-obann, dh’fhaoidte gum bi barrachd fiosrachaidh ri fhaighinn air consoil nam mearachdan.
+error-failed-to-parse-ics-file = Cha deach dad a lorg san fhaidhle as urrainn dhuinn às-phortadh.
+error-export-failed = Dh’fhàillig an t-às-phortadh gu h-obann, dh’fhaoidte gum bi barrachd fiosrachaidh ri fhaighinn air consoil nam mearachdan.
+error-message-no-profile = Cha deach pròifil a lorg.
 
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = Tha ainmean nan raointean sa chiad ràgh
+csv-source-field = Raon an tùis
+csv-source-first-record = A’ chiad chlàr
+csv-source-second-record = An dàrna clàr
+csv-target-field = Raon leabhar nan seòladh
 
 ## Export tab
 
+export-profile-title = Às-phortaich cunntasan, teachdaireachdan, leabhraichean-sheòlaidhean is roghainnean ann am faidhle ZIP.
+export-profile-description = Ma tha a’ phròifil làithreach agad nas motha na 2GB, mholamaid dhut lethbhreac-glèidhidh a dhèanamh dheth thu fhèin.
+export-open-profile-folder = Fosgail pasgan na pròifil
+export-file-picker2 = Às-phortaich mar fhaidhle ZIP
+export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-title = An dàta a tha ri ion-phortadh
+summary-pane-start = Tòisich air an ion-phortadh
+summary-pane-warning = Feumaidh tu { -brand-product-name } ath-thòiseachadh an dèidh dhan ion-phortadh coileanadh.
+summary-pane-start-over = Ath-thòisich inneal an ion-phortaidh
 
 ## Footer area
 
+footer-help = Cobhair a dhìth?
+footer-import-documentation = Ion-phortaich an docamaideadh
+footer-export-documentation = Às-phortaich an docamaideadh
+footer-support-forum = Fòram na taice
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = Na ceuman airson ion-phortadh
+step-confirm = Dearbh
+# Variables:
+# $number (number) - step number
+step-count = { $number }
