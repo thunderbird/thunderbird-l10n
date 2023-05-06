@@ -93,9 +93,20 @@ addr-book-mab-file = Faidhle stòr-dàta Mork (.mab)
 addr-book-file-picker = Tagh faidhle leabhar-sheòlaidhean
 addr-book-csv-field-map-title = Maidsich ainmean nan raointean
 addr-book-csv-field-map-desc = Tagh raointean an leabhair-sheòlaidh a fhreagras air na raointean tùsail. Thoir air falbh a’ chromag o raointean nach eil thu airson ion-phortadh.
+addr-book-directories-title = Tagh càit an tèid an dàta a thagh thu ion-phortadh
+addr-book-directories-pane-source = Am faidhle tùsail:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Cruthaich pasgan ùr air am bi <strong>“{ $addressBookName }”</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Ion-phortaich an dàta a thagh thu dhan phasgan <strong>“{ $addressBookName }”</strong>
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = Thèid leabhar-sheòlaidhean ùr a chruthachadh air am bi <strong>“{ $addressBookName }”</strong>.
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = Tagh am faidhle iCalendar (.ics) a bu toil leat ion-phortadh.
+calendar-items-title = Tagh na rudan a thèid ion-phortadh.
+calendar-items-loading = A’ luchdadh nan nithean…
 
 ## Import dialog
 
