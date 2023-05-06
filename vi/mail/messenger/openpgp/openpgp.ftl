@@ -303,6 +303,22 @@ openpgp-personal-no-label =
     .label = Không, đừng sử dụng nó làm khóa cá nhân của tôi.
 openpgp-personal-yes-label =
     .label = Có, hãy coi khóa này như một khóa cá nhân.
+openpgp-passphrase-protection =
+    .label = Bảo vệ bằng cụm mật khẩu
+openpgp-passphrase-status-unprotected = Không được bảo vệ
+openpgp-passphrase-status-primary-password = Được bảo vệ bằng mật khẩu chính của { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Được bảo vệ bằng cụm mật khẩu
+openpgp-passphrase-instruction-unprotected = Đặt cụm mật khẩu để bảo vệ khóa này
+openpgp-passphrase-instruction-primary-password = Hoặc bảo vệ khóa này bằng cụm mật khẩu riêng
+openpgp-passphrase-instruction-user-passphrase = Mở khóa khóa này để thay đổi bảo vệ của nó.
+openpgp-passphrase-unlock = Mở khóa
+openpgp-passphrase-unlocked = Khóa đã mở khóa thành công.
+openpgp-remove-protection = Xóa bảo vệ cụm mật khẩu
+openpgp-use-primary-password = Xóa cụm mật khẩu và bảo vệ bằng mật khẩu chính
+openpgp-passphrase-new = Cụm mật khẩu mới
+openpgp-passphrase-new-repeat = Xác nhận cụm mật khẩu mới
+openpgp-passphrase-set = Đặt cụm mật khẩu
+openpgp-passphrase-change = Thay đổi cụm mật khẩu
 openpgp-copy-cmd-label =
     .label = Sao chép
 
@@ -574,6 +590,17 @@ import-keys-failed = Nhập khóa không thành công
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Vui lòng nhập cụm mật khẩu để mở khóa sau: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Nhập cụm mật khẩu để mở khóa bí mật có ID { $key }, được tạo { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Nhập cụm mật khẩu để mở khóa bí mật có ID { $subkey }, là khóa con của khóa ID { $key }, được tạo { $date }, { $username_and_email }
 file-to-big-to-import = Tập tin này quá lớn. Vui lòng không nhập một bộ khóa lớn cùng một lúc.
 
 ## Strings used in enigmailKeygen.js
@@ -653,6 +680,7 @@ send-to-news-warning =
     Điều này không được khuyến khích vì nó chỉ có ý nghĩa nếu tất cả các thành viên trong nhóm có thể giải mã thông điệp, tức là tin nhắn cần được mã hóa bằng khóa của tất cả những người tham gia nhóm. Vui lòng chỉ gửi tin nhắn này nếu bạn biết chính xác những gì bạn đang làm.
     Tiếp tục?
 save-attachment-header = Lưu tập tin đính kèm được giải mã
+possibly-pgp-mime = Có thể thư được mã hóa hoặc ký tên PGP/MIME; sử dụng chức năng 'Giải mã/Xác minh' để xác minh
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Không thể ký điện tử thông báo này vì bạn chưa định cấu hình mã hóa đầu cuối cho <{ $key }>

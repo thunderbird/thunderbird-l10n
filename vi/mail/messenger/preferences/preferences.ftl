@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Thêm nhà cung cấp OpenSearch
 add-opensearch-provider-text = Nhập URL của nhà cung cấp OpenSearch để thêm. Sử dụng URL trực tiếp của dập tin mô tả OpenSearch, hoặc một URL mànó có thể được tự động phát hiện.
 adding-opensearch-provider-failed-title = Thêm nhà cung cấp OpenSearch không thành công
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Không thể thêm nhà cung cấp OpenSearch cho { $url }.
 minimize-to-tray-label =
     .label = Khi { -brand-short-name } đã thu nhỏ, di chuyển nó vào khay
@@ -620,6 +622,22 @@ certificate-button =
 security-devices-button =
     .label = Thiết bị bảo mật…
     .accesskey = D
+email-e2ee-header = Mã hóa đầu cuối email
+account-settings = Cài đặt tài khoản
+email-e2ee-enable-info = Thiết lập tài khoản email và danh tính cho mã hóa đầu cuối trong cài đặt tài khoản.
+email-e2ee-automatism = Tự động sử dụng mã hóa
+email-e2ee-automatism-pre =
+    { -brand-short-name } có thể hỗ trợ bằng cách tự động bật hoặc tắt mã hóa trong khi soạn email.
+    Bật/tắt tự động dựa trên tính khả dụng của các khóa hoặc chứng chỉ đối tác hợp lệ và được chấp nhận.
+email-e2ee-auto-on =
+    .label = Tự động kích hoạt mã hóa khi có thể
+email-e2ee-auto-off =
+    .label = Tự động tắt mã hóa khi người nhận thay đổi và không thể mã hóa nữa
+email-e2ee-auto-off-notify =
+    .label = Hiển thị thông báo bất cứ khi nào mã hóa tự động bị tắt
+email-e2ee-automatism-post =
+    Các quyết định tự động có thể bị ghi đè bằng cách bật hoặc tắt mã hóa theo cách thủ công khi soạn thư.
+    Lưu ý: mã hóa luôn được bật tự động khi trả lời thư được mã hóa.
 
 ## Chat Tab
 
