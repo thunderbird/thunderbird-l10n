@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = „Új üzenet” megjelenítése
 folder-pane-header-context-hide =
     .label = Mappa ablaktábla fejlécének elrejtése
+folder-pane-show-total-toggle =
+    .label = Teljes üzenetszám megjelenítése
 
 ## Message thread pane
 

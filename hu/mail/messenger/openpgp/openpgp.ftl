@@ -314,6 +314,22 @@ openpgp-personal-no-label =
     .label = Nem, ne használja személyes kulcsként.
 openpgp-personal-yes-label =
     .label = Igen, kezelje ezt a kulcsot személyes kulcsként.
+openpgp-passphrase-protection =
+    .label = Jelmondatos védelem
+openpgp-passphrase-status-unprotected = Nem védett
+openpgp-passphrase-status-primary-password = A { -brand-short-name } elsődleges jelszava védi
+openpgp-passphrase-status-user-passphrase = Jelmondat védi
+openpgp-passphrase-instruction-unprotected = Állítson be egy jelmondatot a kulcs védelméhez
+openpgp-passphrase-instruction-primary-password = Vagy védje meg ezt a kulcsot egy külön jelmondattal
+openpgp-passphrase-instruction-user-passphrase = Oldja fel a kulcsot a védelmének módosításához.
+openpgp-passphrase-unlock = Feloldás
+openpgp-passphrase-unlocked = A kulcs feloldása sikeres.
+openpgp-remove-protection = Jelmondatos védelem eltávolítása
+openpgp-use-primary-password = Jelmondat eltávolítása és védelem elsődleges jelszóval
+openpgp-passphrase-new = Új jelmondat
+openpgp-passphrase-new-repeat = Új jelmondat megerősítése
+openpgp-passphrase-set = Jelmondat beállítása
+openpgp-passphrase-change = Jelmondat megváltoztatása
 openpgp-copy-cmd-label =
     .label = Másolás
 
@@ -626,6 +642,17 @@ import-keys-failed = A kulcsok importálása sikertelen
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Írja be a jelmondatot, amely feloldja a következő kulcsot: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Írja be a jelmondatot a következő azonosítójú titkos kulcs feloldásához: { $key } (létrehozva: { $date }, { $username_and_email })
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Írja be a jelmondatot a(z) { $subkey } azonosítójú titkos kulcs feloldásához, amely a következő azonosítójú kulcs részkulcsa: { $key } (létrehozva: { $date }, { $username_and_email })
 file-to-big-to-import = A fájl túl nagy. Nem importáljon nagy kulcskészleteket egyszerre.
 
 ## Strings used in enigmailKeygen.js
