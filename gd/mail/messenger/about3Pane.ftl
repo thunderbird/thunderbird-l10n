@@ -134,6 +134,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Seall “Teachdaireachd ùr”
 folder-pane-header-context-hide =
     .label = Falaich bann-cinn leòsan nam pasgan
+folder-pane-show-total-toggle =
+    .label = Seall iomlan nan teachdaireachdan
 
 ## Message thread pane
 

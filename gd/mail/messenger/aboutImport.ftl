@@ -33,6 +33,16 @@ app-name-outlook = Outlook
 app-name-becky = Post-lìn Becky!
 app-name-apple-mail = Apple Mail
 source-thunderbird = Ion-phortaich o stàladh eile dhe { app-name-thunderbird }
+source-thunderbird-description = Ion-phortaich roghainnean, criathragan, teachdaireachdan is dàta eile o phròifil { app-name-thunderbird }.
+source-seamonkey = Ion-phortaich o stàladh { app-name-seamonkey }
+source-seamonkey-description = Ion-phortaich roghainnean, criathragan, teachdaireachdan is dàta eile o phròifil { app-name-seamonkey }.
+source-outlook = Ion-phortaich o { app-name-outlook }
+source-outlook-description = Ion-phortaich cunntasan, leabhraichean-sheòlaidhean is teachdaireachdan o { app-name-outlook } .
+source-becky = Ion-phortaich o { app-name-becky }
+source-becky-description = Ion-phortaich leabhraichean-sheòlaidhean is teachdaireachdan o { app-name-becky }.
+source-apple-mail = Ion-phortaich o { app-name-apple-mail }
+source-apple-mail-description = Ion-phortaich o teachdaireachdan o { app-name-apple-mail }.
+source-file2 = Ion-phortaich o fhaidhle
 
 ## Import from file selections
 
