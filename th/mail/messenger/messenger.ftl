@@ -5,12 +5,21 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = ย่อเล็กสุด
+messenger-window-maximize-button =
+    .tooltiptext = ขยายใหญ่สุด
 messenger-window-close-button =
     .tooltiptext = ปิด
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip = { $count } ข้อความที่ยังไม่ได้อ่าน
 about-rights-notification-text = { -brand-short-name } เป็นซอฟต์แวร์ฟรีและเปิดต้นฉบับที่สร้างโดยชุมชนที่มีนับพันคนจากทั่วทุกมุมโลก
 
 ## Content tabs
 
+content-tab-page-loading-icon =
+    .alt = กำลังโหลดหน้านี้
 content-tab-security-high-icon =
     .alt = การเชื่อมต่อปลอดภัย
 content-tab-security-broken-icon =
@@ -88,6 +97,8 @@ appmenu-save-as-file =
     .label = ไฟล์…
 appmenu-settings =
     .label = การตั้งค่า
+appmenu-addons-and-themes =
+    .label = ส่วนเสริมและธีม
 appmenu-help-enter-troubleshoot-mode =
     .label = โหมดแก้ไขปัญหา…
 appmenu-help-exit-troubleshoot-mode =
@@ -149,10 +160,15 @@ toolbar-context-menu-remove-extension =
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = ต้องการเอา { $name } ออกหรือไม่?
 addon-removal-confirmation-button = เอาออก
+caret-browsing-prompt-check-text = ไม่ต้องถามอีก
 
 ## no-reply handling
 
+no-reply-title = ไม่รองรับการตอบกลับ
 
 ## error messages
 
@@ -165,6 +181,8 @@ spaces-toolbar-button-address-book2 =
     .title = สมุดรายชื่อ
 spaces-toolbar-button-calendar2 =
     .title = ปฏิทิน
+spaces-toolbar-button-chat2 =
+    .title = แชท
 spaces-toolbar-button-settings2 =
     .title = การตั้งค่า
 spaces-context-new-tab-item =
@@ -178,9 +196,19 @@ settings-context-open-account-settings-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = แถบเมนู
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title = { $count } ข้อความที่ยังไม่ได้อ่าน
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = ปรับแต่ง…
+spaces-customize-background-color = สีพื้นหลัง
+spaces-customize-icon-color = สีของปุ่ม
 customize-panel-button-save = เสร็จสิ้น
     .accesskey = D
 
@@ -195,3 +223,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+

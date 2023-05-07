@@ -16,6 +16,8 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-tab-settings = การตั้งค่า
+    .title = การตั้งค่า
 customize-button-style-icons-beside-text =
     .label = ไอคอนข้างข้อความ
 
