@@ -332,6 +332,16 @@ openpgp-passphrase-status-unprotected = Nješćitany
 openpgp-passphrase-status-primary-password = Pśez głowne gronidło { -brand-short-name } šćitany
 openpgp-passphrase-status-user-passphrase = Pśez gronidłowy wuraz šćitany
 openpgp-passphrase-instruction-unprotected = Póstajśo gronidłowy wuraz, aby wy toś ten kluc šćitał
+openpgp-passphrase-instruction-primary-password = Alternatiwnje móžośo toś ten kluc ze separatnym gronidłowym wurazom šćitaś
+openpgp-passphrase-instruction-user-passphrase = Wótwóŕśo toś ten kluc, aby jogo šćit změnił.
+openpgp-passphrase-unlock = Wótwóriś
+openpgp-passphrase-unlocked = Kluc jo se wuspěšnje wótwórił.
+openpgp-remove-protection = Šćit pśez gronidłowy wuraz wótpóraś
+openpgp-use-primary-password = Gronidłowy wuraz wótwónoźeś a z głownym gronidłom šćitaś
+openpgp-passphrase-new = Nowy gronidłowy wuraz
+openpgp-passphrase-new-repeat = Nowy gronidłowy wuraz wobkšuśiś
+openpgp-passphrase-set = Gronidłowy wuraz póstajiś
+openpgp-passphrase-change = Gronidłowy wuraz změniś
 openpgp-copy-cmd-label =
     .label = Kopěrowaś
 
@@ -646,6 +656,17 @@ import-keys-failed = Importěrowanje klucow njejo se raźiło
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Pšosym zapódajśo gronidłowu frazu, kótaraž slědujucy kluc dopušća: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Zapódajśo gronidłowy wuraz, aby pótajmny kluc z ID { $key }, napórany dnja { $date }, { $username_and_email } wótwórił
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Zapódajśo gronidłowy wuraz, aby pótajmny kluc z ID { $subkey }, kótaryž jo pódkluc kluca ID { $key }, napórany dnja { $date }, { $username_and_email } wótwórił
 file-to-big-to-import = Dataja jo pśewjelika. Pšosym njeimportěrujśo wjeliku sajźbu klucow naraz.
 
 ## Strings used in enigmailKeygen.js

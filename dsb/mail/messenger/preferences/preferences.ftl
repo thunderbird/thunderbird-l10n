@@ -622,6 +622,10 @@ certificate-button =
 security-devices-button =
     .label = Wěstotne rědy…
     .accesskey = W
+email-e2ee-header = Koděrowanje wót kóńca do kóńca za mejlki
+account-settings = Kontowe nastajenja
+email-e2ee-enable-info = Konfigurěrujśo e-mailowe konta a identity za koděrowanje kóńc do kóńca w kontowych nastajenjach.
+email-e2ee-automatism = Awtomatiske wužywanje koděrowanja
 
 ## Chat Tab
 
