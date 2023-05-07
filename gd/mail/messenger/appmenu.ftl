@@ -163,6 +163,46 @@ appmenu-tools-dev-tools =
 
 appmenu-help-panel-title =
     .title = Cobhair
+appmenu-help-get-help =
+    .label = Faigh cobhair
+    .accesskey = h
+appmenu-help-explore-features =
+    .label = Fidir na gleusan
+    .accesskey = F
+appmenu-help-shortcuts =
+    .label = Ath-ghoiridean a’ mheur-chlàir
+    .accesskey = t
+appmenu-help-get-involved =
+    .label = Gabh pàirt
+    .accesskey = G
+appmenu-help-donation =
+    .label = Thoir tabhartas
+    .accesskey = b
+appmenu-help-share-feedback =
+    .label = Co-roinn do bheachd-smuaintean is innis dhuinn dè do bheachd
+    .accesskey = s
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Am modh fuasgladh dhuilgheadasan…
+    .accesskey = m
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Cuir am modh fuasgladh dhuilgheadasan dheth
+    .accesskey = m
+appmenu-help-troubleshooting-info =
+    .label = Taic le duilgheadasan
+    .accesskey = T
+appmenu-help-about-product =
+    .label = Mu dhèidhinn { -brand-short-name }
+    .accesskey = M
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = A’ luchdadh a-nuas ùrachadh { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Tha ùrachadh ri fhaighinn – luchdaich a-nuas e an-dràsta
+appmenuitem-banner-update-manual =
+    .label = Tha ùrachadh ri fhaighinn – luchdaich a-nuas e an-dràsta
+appmenuitem-banner-update-unsupported =
+    .label = Chan urrainn dhuinn ùrachadh – chan eil an siostam co-chòrdail
+appmenuitem-banner-update-restart =
+    .label = Tha ùrachadh ri fhaighinn – ath-thòisich an-dràsta
