@@ -25,6 +25,19 @@ account-hub-email-setup-button = Cunntas puist-d
     .title = Suidhich cunntas puist-d
 account-hub-calendar-setup-button = Mìosachan
     .title = Suidhich mìosachan cèin no ionadail
+account-hub-address-book-setup-button = Leabhar-sheòlaidhean
+    .title = Suidhich leabhar-sheòlaidhean cèin no ionadail
+account-hub-chat-setup-button = Cabadaich
+    .title = Suidhich cunntas cabadaich
+account-hub-feed-setup-button = Inbhir RSS
+    .title = Suidhich cunntas inbhir RSS
+account-hub-newsgroup-setup-button = Buidheann-naidheachd
+    .title = Suidhich cunntas airson buidhnean-naidheachd
+account-hub-import-setup-button = Ion-phortaich
+    .title = Ion-phortaich lethbhreac-glèidhidh de phròifil a rinn thu roimhe
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Clàraich a-steach gu gleus an t-sioncronachaidh...
 
 ## Email page
 
+account-hub-email-title = Suidhich an cunntas puist-d agad
