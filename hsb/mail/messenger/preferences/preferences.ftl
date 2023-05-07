@@ -635,6 +635,9 @@ email-e2ee-auto-off =
     .label = Zaklučowanje awtomatisce znjemóžnić, hdyž so přijimarjo měnjeja a zaklučowanje hižo móžne njeje
 email-e2ee-auto-off-notify =
     .label = Zdźělenku pokazać, hdyžkuli so zaklučowanje awtomatisce znjemóžnja
+email-e2ee-automatism-post =
+    Awtomatiske rozsudy dadźa so přepisać, hdyž so zaklučowanje manuelnje zmóžnja abo znjemóžnja, mjeztym zo powěsć pisaće.
+    Pokaz: Zaklučowanje so přeco awtomatisce zmóžnja, hdyž na zaklučowanu powěsć wotmołwjeće.
 
 ## Chat Tab
 
