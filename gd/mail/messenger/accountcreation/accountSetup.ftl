@@ -205,12 +205,24 @@ exchange-dialog-cancel-button = Sguir dheth
 ## Dismiss account creation dialog
 
 exit-dialog-title = Cha deach cunntas puist-d a rèiteachadh
+exit-dialog-description = A bheil thu cinnteach gu bheil thu airson sgur dhen t-suidheachadh? ’S urrainn dhut { -brand-short-name } a chleachdadh gun chunntas puist-d fhathast ach tha mòran ghleusan ann nach bi ri do làimh.
+account-setup-no-account-checkbox = Cleachd { -brand-short-name } gun chunntas puist-d
+    .accesskey = e
+exit-dialog-cancel-button = Lean air an t-suidheachadh
+    .accesskey = c
+exit-dialog-confirm-button = Fàg an suidheachadh
+    .accesskey = s
 
 ## Alert dialogs
 
+account-setup-creation-error-title = Mearachd rè cruthachadh a’ chunntais
+account-setup-error-server-exists = Tha am frithealaiche a-steach ann mu thràth.
+account-setup-confirm-advanced-title = Dearbh an rèiteachadh adhartach
+account-setup-confirm-advanced-description = Thèid an còmhradh seo a dhùnadh agus thèid cunntas leis na roghainnean làithreach a chruthachadh, fiù ma bhios an rèiteachadh ceàrr. A bheil thu airson leantainn air adhart?
 
 ## Addon installation section
 
+account-setup-addon-install-title = Stàlaich
 
 ## Success view
 
