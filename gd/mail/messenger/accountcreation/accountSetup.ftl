@@ -294,3 +294,7 @@ account-setup-calendar-refresh-interval =
     }
 account-setup-calendar-read-only = Ri leughadh a-mhàin
     .accesskey = R
+account-setup-calendar-show-reminders = Seall cuimhneachain
+    .accesskey = S
+account-setup-calendar-offline-support = Taic far loidhne
+    .accesskey = T

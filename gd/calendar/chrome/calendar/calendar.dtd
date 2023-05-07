@@ -13,7 +13,6 @@
 
 <!ENTITY calendar.today.button.label          "An-diugh">
 <!ENTITY calendar.tomorrow.button.label       "A-màireach">
-<!ENTITY calendar.upcoming.button.label       "Gu bhith ann">
 
 <!ENTITY calendar.events.filter.all.label "Gach tachartas">
 <!ENTITY calendar.events.filter.today.label "Tachartasan an-diugh">
@@ -86,13 +85,12 @@
 
 <!ENTITY calendar.newevent.button.label         "Tachartas ùr" >
 <!ENTITY calendar.newtask.button.label          "Saothair ùr" >
-<!ENTITY calendar.print.button.label            "Clò-bhuail" >
-<!ENTITY calendar.print.button.accesskey        "C">
 
 <!ENTITY calendar.day.button.label              "Latha" >
 <!ENTITY calendar.week.button.label             "Seachdain" >
 <!ENTITY calendar.month.button.label            "Mìos" >
 <!ENTITY calendar.multiweek.button.label        "Iomadh s." >
+
 <!ENTITY calendar.onlyworkday.checkbox.label    "Làithean-obrach na seachdaine a-mhàin" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Saothraichean san t-sealladh" >
@@ -359,7 +357,7 @@
 <!ENTITY calendarproperties.refreshInterval.manual.label   "A làimh">
 <!ENTITY calendarproperties.name.label                     "Ainm:">
 <!ENTITY calendarproperties.readonly.label                 "Ri leughadh a-mhàin">
-<!ENTITY calendarproperties.firealarms.label               "Seall caismeachdan">
+<!ENTITY calendarproperties.firealarms.label               "Seall cuimhneachain">
 <!ENTITY calendarproperties.cache3.label                   "Taic far loidhne">
 <!ENTITY calendarproperties.enabled2.label                 "Cuir am mìosachan seo an comas">
 <!ENTITY calendarproperties.forceDisabled.label            "Cha deach solaraiche a' mhìosachain seo a lorg. Tachraidh seo gu tric ma chuir thu à comas tuilleadain sònraichte no ma dhì-stàlaich thu iad.">
@@ -372,27 +370,8 @@
 <!ENTITY calendar.publish.publish.button      "Foillsich">
 <!ENTITY calendar.publish.close.button      "Dùin">
 
-<!ENTITY calendar.publish.example.url.description   "Rudeigin car coltach ri http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Tagh mìosachan">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Clò-bhuail mìosachan">
-<!ENTITY calendar.print.title.label "Tiotal:">
-<!ENTITY calendar.print.layout.label "Co-dhealbhachd:">
-<!ENTITY calendar.print.range.label "Na thèid a chlò-bhualadh">
-<!ENTITY calendar.print.currentView2.label "An sealladh làithreach">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Na tachartasan/saothraichean a thagh thu">
-<!ENTITY calendar.print.tasks.label "Saothraichean">
-<!ENTITY calendar.print.events.label "Tachartasan">
-<!ENTITY calendar.print.custom.label "Raon làithean sònraichte:">
-<!ENTITY calendar.print.from.label "O:">
-<!ENTITY calendar.print.to.label "Gu:">
-<!ENTITY calendar.print.settingsGroup.label "Roghainnean a' chlò-bhualaidh">
-<!ENTITY calendar.print.optionsGroup.label "Roghainnean">
-<!ENTITY calendar.print.taskswithnoduedate.label "Saothraichean gun cheann-ama">
-<!ENTITY calendar.print.completedtasks.label "Saothraichean crìochnaichte">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Mion-fhiosrachadh…">
