@@ -661,6 +661,12 @@ passphrase-prompt = Prošu zapodajće hesłowu frazu, kotraž slědowacy kluč d
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
 passphrase-prompt2 = Zapodajće hesłowy wuraz, zo byšće tajny kluč z ID { $key }, wutworjeny dnja { $date }, { $username_and_email } wotewrěł
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Zapodajće hesłowy wuraz, zo byšće tajny kluč z ID { $subkey }, kotryž je podkluč kluča ID { $key }, wutworjeny dnja { $date }, { $username_and_email } wotewrěł
 file-to-big-to-import = Dataja je přewulka. Prošu njeimportujće wulku sadźbu klučow naraz.
 
 ## Strings used in enigmailKeygen.js

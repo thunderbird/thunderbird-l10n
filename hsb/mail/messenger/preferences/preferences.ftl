@@ -622,7 +622,19 @@ certificate-button =
 security-devices-button =
     .label = Wěstotne graty…
     .accesskey = W
+email-e2ee-header = Zaklučowanje wot kónca do kónca za e-mejle
 account-settings = Kontowe nastajenja
+email-e2ee-enable-info = Konfigurujće e-mejlowe konta a identity za zaklučowanje kónc do kónca w kontowych nastajenjach.
+email-e2ee-automatism = Awtomatiske wužiwanje zaklučowanja
+email-e2ee-automatism-pre =
+    { -brand-short-name } móže was podpěrować, hdyž zaklučowanje awtomatisce zmóžna abo znjemóžnja, mjeztym zo e-mejl pisaće.
+    Awtomatiske zmóžnjenje/znjemóžnjenje na disponujomnosći płaćiwych a akceptowanych klučow abo certifikatow dopisowarjow bazuje.
+email-e2ee-auto-on =
+    .label = Zaklučowanje awtomatisce zmóžnić, jeli móžno
+email-e2ee-auto-off =
+    .label = Zaklučowanje awtomatisce znjemóžnić, hdyž so přijimarjo měnjeja a zaklučowanje hižo móžne njeje
+email-e2ee-auto-off-notify =
+    .label = Zdźělenku pokazać, hdyžkuli so zaklučowanje awtomatisce znjemóžnja
 
 ## Chat Tab
 
