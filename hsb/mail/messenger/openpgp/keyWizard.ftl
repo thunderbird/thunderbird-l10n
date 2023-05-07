@@ -26,8 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = OpenPGP-kluč wutworić
+openpgp-keygen-secret-protection = Škit tajneho kluča
 radio-keygen-no-protection =
     .label = Nješkitany
+radio-keygen-protect-primary-pass =
+    .label = Z primarnym hesłom škitać
+radio-keygen-passphrase-protection =
+    .label = Z hesłowym wurazom škitać:
+openpgp-passphrase-repeat = Hesłowy wuraz wobkrućić:
 openpgp-generate-key-info = <b>Wutworjenje kluča móže někotre mjeńšiny trać.</b> Njekónčće nałoženje, mjeztym zo so kluč wutworja. Hdyž aktiwnje přehladujeće abo operacije z intensiwnym wužiwanjom kruteje tačele wuwjedźeće, mjeztym zo so kluč wutworja, so ‚pool připadnosće‘ znowa napjelni a proces pospěši. Dóstanjeće zdźělenku, hdyž wutowrjenje kluča je dokónčene.
 openpgp-keygen-expiry-title = Płaćiwosć kluča
 openpgp-keygen-expiry-description = Nastajće čas płaćiwosće swojeho nowo wutworjeneho kluča. Móžeće pozdźišo čas podlěšić, jeli trjeba.
@@ -99,6 +105,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Wobkrućće, kotre kluče maja waše wosobinske kluče być. Jenož kluče, kotrež sće sam wutworił a kotrež wašu identitu pokazuja, měli jako wosobinske kluče wužiwać. Móžeće tute nastajenje pozdźišo w dialogu klučowych kajkosćow změnić.
 openpgp-import-key-list-caption = Kluče, kotrež su jako wosobinske kluče wobkrućene, so we wotrězku kluč do kluča nalistuja. Druhe su w zrjadowaku klučow k dispoziciji.
+openpgp-import-keep-passphrases =
+    .label = Škit přez hesłowy wuraz za importowane tajne kluče wobchować
 openpgp-passphrase-prompt-title = Hesłowa fraza trěbna
 #   $key (String) - the id of the key being imported
 openpgp-passphrase-prompt = Prošu zapodajće hesłowu frazu, zo byšće slědowacy kluč přewostajił: { $key }

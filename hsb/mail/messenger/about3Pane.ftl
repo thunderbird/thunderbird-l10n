@@ -134,6 +134,8 @@ folder-pane-header-context-toggle-new-message =
     .label = „Nowa powěsć“ pokazać
 folder-pane-header-context-hide =
     .label = Hłowu wobłuka rjadowaka schować
+folder-pane-show-total-toggle =
+    .label = Cyłkowna ličba powěsćow
 
 ## Message thread pane
 
