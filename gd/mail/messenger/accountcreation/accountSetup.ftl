@@ -74,12 +74,68 @@ account-setup-looking-up-settings-guess = A’ lorg rèiteachadh – a’ feucha
 account-setup-looking-up-settings-half-manual = A' lorg rèiteachadh – a’ probhadh an fhrithealaiche…
 account-setup-looking-up-disk = A’ lorg rèiteachadh – Stàladh { -brand-short-name }…
 account-setup-looking-up-isp = A' lorg rèiteachadh – solaraiche a’ phuist-d…
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-looking-up-db = A’ lorg rèiteachadh – stòr-dàta ISP Mozilla…
+account-setup-looking-up-mx = A’ lorg rèiteachadh – àrainn a’ phuist a-steach…
+account-setup-looking-up-exchange = A’ lorg rèiteachadh – frithealaiche Exchange…
+account-setup-checking-password = A’ sgrùdadh an fhacail-fhaire…
+account-setup-installing-addon = A’ luchdadh a-nuas is a’ stàladh an tuilleadain…
+account-setup-success-half-manual = Chaidh na roghainnean a leanas a lorg le bhith a’ probhadh an fhrithealaiche ann:
+account-setup-success-guess = Chaidh rèiteachadh a lorg le bhith a’ feuchainn ainmean fhrithealaichean cumanta.
+account-setup-success-guess-offline = Chan eil thu air loidhne. Rinn sinn tomhas air cuid dhe na roghainnean ach feumaidh tu an cur ceart.
+account-setup-success-password = Tha am facal-faire ceart
+account-setup-success-addon = Chaidh an tuilleadan a stàladh
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-success-settings-db = Chaidh rèiteachadh a lorg san stòr-dàta aig ISP Mozilla.
+account-setup-success-settings-disk = Chaidh rèiteachadh a lorg ann an stàladh { -brand-short-name }.
+account-setup-success-settings-isp = Chaidh rèiteachadh a lorg air solaraiche a’ phuist.
+# Note: Microsoft Exchange is a product name.
+account-setup-success-settings-exchange = Chaidh rèiteachadh airson frithealaiche Exchange Microsoft a lorg.
 
 ## Illustrations
 
+account-setup-step1-image =
+    .title = Suidheachadh tùsail
+account-setup-step2-image =
+    .title = A’ luchdadh…
+account-setup-step3-image =
+    .title = Chaidh rèiteachadh a lorg
+account-setup-step4-image =
+    .title = Mearachd leis a’ cheangal
+account-setup-step5-image =
+    .title = Chaidh an cunntas a chruthachadh
+account-setup-privacy-footnote2 = Cha tèid na teisteasan agad a stòradh ach gu h-ionadail air a’ choimpiutair agad.
+account-setup-selection-help = Ann an imcheist dè thaghas tu?
+account-setup-selection-error = Cobhair a dhìth?
+account-setup-success-help = Dragh ort mun ath-cheum?
+account-setup-documentation-help = Docamaideadh an t-suidheachaidh
+account-setup-forum-help = Fòram na taice
+account-setup-privacy-help = Am poileasaidh prìobhaideachd
+account-setup-getting-started = Toiseach-tòiseachaidh
 
 ## Results area
 
+# Variables:
+#  $count (Number) - Number of available protocols.
+account-setup-results-area-title =
+    { $count ->
+        [one] Tha rèiteachadh ri fhaighinn
+        [two] Tha rèiteachaidhean ri am fhaighinn
+        [few] Tha rèiteachaidhean ri am fhaighinn
+       *[other] Tha rèiteachaidhean ri am fhaighinn
+    }
+account-setup-result-imap-description = Cùm am pasgan is am post-d agad sioncronaichte air an fhrithealaiche agad
+account-setup-result-pop-description = Cùm na pasganan is am post-d agad air a’ choimpiutair agad
+# Note: Exchange, Office365 are the name of products.
+account-setup-result-exchange2-description = Cleachd frithealaiche Microsoft Exchange no seirbheisean Office365 san neul
+account-setup-incoming-title = A-steach
+account-setup-outgoing-title = A-mach
+account-setup-username-title = Ainm-cleachdaiche
+account-setup-exchange-title = Frithealaiche
+account-setup-result-no-encryption = Gun chrioptachadh
+account-setup-result-ssl = SSL/TLS
+account-setup-result-starttls = STARTTLS
+account-setup-result-outgoing-existing = Cleachd frithealaiche a-mach SMTP làithreach
 
 ## Error messages
 
