@@ -156,6 +156,9 @@ about-addressbook-cards-context-write =
     .label = Sgrìobh
 about-addressbook-confirm-delete-mixed-title = Sguab an luchd-aithne is na liostaichean às
 # Variables:
+# $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
+about-addressbook-confirm-delete-mixed = A bheil thu cinnteach gu bheil thu airson an luchd-aithne ’s na liostaichean seo, { $count } dhiubh, a sguabadh às?
+# Variables:
 # $count (Number) - The number of lists to be deleted.
 about-addressbook-confirm-delete-lists-title =
     { $count ->
@@ -183,13 +186,66 @@ about-addressbook-confirm-remove-contacts-title =
         [few] Thoir air falbh an luchd-aithne
        *[other] Thoir air falbh an luchd-aithne
     }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title =
+    { $count ->
+        [one] Sguab an luchd-aithne às
+        [two] Sguab an luchd-aithne às
+        [few] Sguab an luchd-aithne às
+       *[other] Sguab an luchd-aithne às
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Chan eil luchd-aithne ri fhaighinn
+about-addressbook-placeholder-new-contact = Neach-aithne ùr
+about-addressbook-placeholder-search-only = Cha seall an leabhar-sheòlaidhean seo luchd-aithne ach an dèidh dhut lorg a dhèanamh
+about-addressbook-placeholder-searching = A’ lorg…
+about-addressbook-placeholder-no-search-results = Cha deach luchd-aithne a lorg
 
 ## Details
 
+about-addressbook-details-edit-photo =
+    .title = Deasaich dealbh an neach-aithne
+about-addressbook-new-contact-header = Neach-aithne ùr
+about-addressbook-prefer-display-name = B’ fheàrr leam an t-ainm-taisbeanaidh seach bann-cinn na teachdaireachd an-còmhnaidh
+about-addressbook-write-action-button = Sgrìobh
+about-addressbook-event-action-button = Tachartas
+about-addressbook-search-action-button = Lorg
+about-addressbook-new-list-action-button = Liosta ùr
+about-addressbook-begin-edit-contact-button = Deasaich
+about-addressbook-delete-edit-contact-button = Sguab às
+about-addressbook-cancel-edit-contact-button = Sguir dheth
+about-addressbook-save-edit-contact-button = Sàbhail
+about-addressbook-add-contact-to = Cuir ri:
+about-addressbook-details-email-addresses-header = Seòlaidhean puist-d
+about-addressbook-details-phone-numbers-header = Àireamhan-fòn
+about-addressbook-details-addresses-header = Seòlaidhean
+about-addressbook-details-notes-header = Nòtaichean
+about-addressbook-details-impp-header = Grad-theachdaireachdan
+about-addressbook-details-websites-header = Làraichean-lìn
+about-addressbook-details-other-info-header = Fiosrachadh eile
+about-addressbook-entry-type-work = Obair
+about-addressbook-entry-type-home = Dhachaigh
+about-addressbook-entry-type-fax = Facs
+# Or "Mobile"
+about-addressbook-entry-type-cell = Fòn-làimhe
+about-addressbook-entry-type-pager = Pèidsear
+about-addressbook-entry-name-birthday = Co-là breith
+about-addressbook-entry-name-anniversary = Ceann-bliadhna
+about-addressbook-entry-name-title = Tiotal
+about-addressbook-entry-name-role = Dreuchd
+about-addressbook-entry-name-organization = Buidheann
+about-addressbook-entry-name-website = Làrach-lìn
+about-addressbook-entry-name-time-zone = An roinn-tìde
+about-addressbook-entry-name-custom1 = Gnàthaichte 1
+about-addressbook-entry-name-custom2 = Gnàthaichte 2
+about-addressbook-entry-name-custom3 = Gnàthaichte 3
+about-addressbook-entry-name-custom4 = Gnàthaichte 4
+about-addressbook-unsaved-changes-prompt-title = Atharraichean gun sàbhaladh
+about-addressbook-unsaved-changes-prompt = A bheil thu airson na h-atharraichean agad a shàbhaladh mus fhàg thu an sealladh deasachaidh?
 
 # Photo dialog
 
