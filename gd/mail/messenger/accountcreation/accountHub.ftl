@@ -21,6 +21,10 @@ account-hub-donate = Thoir tabhartas
 
 ## Initial setup page
 
+account-hub-email-setup-button = Cunntas puist-d
+    .title = Suidhich cunntas puist-d
+account-hub-calendar-setup-button = Mìosachan
+    .title = Suidhich mìosachan cèin no ionadail
 
 ## Email page
 
