@@ -329,10 +329,19 @@ openpgp-personal-yes-label =
 openpgp-passphrase-protection =
     .label = Škit přez hesłowy wuraz
 openpgp-passphrase-status-unprotected = Nješkitany
-openpgp-passphrase-status-primary-password = Přez primarne hesło { -brand-short-name } škitany
+openpgp-passphrase-status-primary-password = Přez hłowne hesło { -brand-short-name } škitany
 openpgp-passphrase-status-user-passphrase = Přez hesłowy wuraz škitany
 openpgp-passphrase-instruction-unprotected = Postajće hesłowy wuraz, zo byšće tutón kluč škitał
+openpgp-passphrase-instruction-primary-password = Alternatiwnje móžeće tutón kluč ze separatnym hesłowym wurazom škitać
+openpgp-passphrase-instruction-user-passphrase = Wotewriće tutón kluč, zo byšće jeho škit změnił.
 openpgp-passphrase-unlock = Wotewrěć
+openpgp-passphrase-unlocked = Kluč je so wuspěšnje wotewrěł.
+openpgp-remove-protection = Škit přez hesłowy wuraz wotstronić
+openpgp-use-primary-password = Hesłowy wuraz wotstronić a z hłownym hesłom škitać
+openpgp-passphrase-new = Nowy hesłowy wuraz
+openpgp-passphrase-new-repeat = Nowy hesłowy wuraz wobkrućić
+openpgp-passphrase-set = Hesłowy wuraz postajić
+openpgp-passphrase-change = Hesłowy wuraz změnić
 openpgp-copy-cmd-label =
     .label = Kopěrować
 
@@ -647,6 +656,11 @@ import-keys-failed = Importowanje klučow njeje so poradźiło
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Prošu zapodajće hesłowu frazu, kotraž slědowacy kluč dopušća: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Zapodajće hesłowy wuraz, zo byšće tajny kluč z ID { $key }, wutworjeny dnja { $date }, { $username_and_email } wotewrěł
 file-to-big-to-import = Dataja je přewulka. Prošu njeimportujće wulku sadźbu klučow naraz.
 
 ## Strings used in enigmailKeygen.js
