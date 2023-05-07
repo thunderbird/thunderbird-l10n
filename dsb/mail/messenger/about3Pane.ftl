@@ -134,6 +134,8 @@ folder-pane-header-context-toggle-new-message =
     .label = „Nowa powěsć“ pokazaś
 folder-pane-header-context-hide =
     .label = Głowu wobceŕka zarědnika schowaś
+folder-pane-show-total-toggle =
+    .label = Cełkowna licba powěsćow
 
 ## Message thread pane
 

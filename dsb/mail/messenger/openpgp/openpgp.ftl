@@ -326,6 +326,12 @@ openpgp-personal-no-label =
     .label = Ně, jen ako mój wósobinski kluc njewužywaś.
 openpgp-personal-yes-label =
     .label = Jo, toś ten kluc ako wósobinski kluc wužywaś.
+openpgp-passphrase-protection =
+    .label = Šćit pśez gronidłowy wuraz
+openpgp-passphrase-status-unprotected = Nješćitany
+openpgp-passphrase-status-primary-password = Pśez głowne gronidło { -brand-short-name } šćitany
+openpgp-passphrase-status-user-passphrase = Pśez gronidłowy wuraz šćitany
+openpgp-passphrase-instruction-unprotected = Póstajśo gronidłowy wuraz, aby wy toś ten kluc šćitał
 openpgp-copy-cmd-label =
     .label = Kopěrowaś
 
