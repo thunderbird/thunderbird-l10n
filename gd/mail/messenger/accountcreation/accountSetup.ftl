@@ -196,9 +196,15 @@ insecure-dialog-confirm-button = Dearbh
 
 ## Warning Exchange confirmation dialog
 
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+exchange-dialog-question = Lorg { -brand-short-name } am fiosrachadh airson an cunntas agad a shuidheachadh air { $domain }. A bheil thu airson leantainn air adhart is an teisteas agad a chur?
+exchange-dialog-confirm-button = Clàraich a-steach
+exchange-dialog-cancel-button = Sguir dheth
 
 ## Dismiss account creation dialog
 
+exit-dialog-title = Cha deach cunntas puist-d a rèiteachadh
 
 ## Alert dialogs
 
