@@ -110,6 +110,29 @@ vcard-note-add = Cuir nòta ris
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
+vcard-org-header = Roghainnean a’ bhuidhinn
+vcard-org-add = Cuir roghainnean buidhinn eile ris
+vcard-org-title = Tiotal
+vcard-org-title-input =
+    .title = Dreuchd no obair
+    .placeholder = Tiotal an dreuchd
+vcard-org-role = Dreuchd
+vcard-org-role-input =
+    .title = An dreuchd no pàirt a th’ aig neach ann ann suidheachadh àraidh
+    .placeholder = Dreuchd ann am pròiseact
+vcard-org-org = Buidheann
+vcard-org-org-input =
+    .title = Ainm a’ bhuidhinn
+    .placeholder = Ainm na companaidh
+vcard-org-org-unit = Roinn
+vcard-org-org-unit-input =
+    .title = Ainm aonad a’ bhuidhinn
+    .placeholder = Roinn
 
 # Custom properties
 
+vcard-custom-header = Roghainnean gnàthaichte
+vcard-custom-add = Cuir roghainnean gnàthaichte ris
+vcard-remove-button-title =
+    .title = Thoir air falbh
+vcard-remove-button = Thoir air falbh

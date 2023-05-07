@@ -249,6 +249,14 @@ about-addressbook-unsaved-changes-prompt = A bheil thu airson na h-atharraichean
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = Leig às no cuir ann dealbh an-seo no dèan briogadh airson faidhle a thaghadh.
+about-addressbook-photo-drop-loading = A’ luchdadh an deilbh…
+about-addressbook-photo-drop-error = Dh’fhàillig luchdadh an deilbh.
+about-addressbook-photo-filepicker-title = Tagh faidhle deilbh
+about-addressbook-photo-discard = Tilg air falbh an dealbh làithreach
+about-addressbook-photo-cancel = Sguir dheth
+about-addressbook-photo-save = Sàbhail
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N
