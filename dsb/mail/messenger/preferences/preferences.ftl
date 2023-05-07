@@ -626,6 +626,18 @@ email-e2ee-header = Koděrowanje wót kóńca do kóńca za mejlki
 account-settings = Kontowe nastajenja
 email-e2ee-enable-info = Konfigurěrujśo e-mailowe konta a identity za koděrowanje kóńc do kóńca w kontowych nastajenjach.
 email-e2ee-automatism = Awtomatiske wužywanje koděrowanja
+email-e2ee-automatism-pre =
+    { -brand-short-name } móžo was pódpěraś, gaž koděrowanje awtomatiski zmóžna abo znjemóžnja, mjaztym až mejlku pišośo.
+    Awtomatiske zmóžnjanje/znjemóžnjanje na k-dispoziciji-měśe płaśiwych a akceptěrowanych klucow abo certifikatow dopisowarjow bazěrujo.
+email-e2ee-auto-on =
+    .label = Koděrowanje awtomatiski zmóžniś, jolic móžno
+email-e2ee-auto-off =
+    .label = Koděrowanje awtomatiski znjemóžniś, gaž se dostawarje změnjaju a koděrowanje wěcej njejo móžne
+email-e2ee-auto-off-notify =
+    .label = Powěźeńku pokazaś, gažkuli se koděrowanje awtomatiski znjemóžnja
+email-e2ee-automatism-post =
+    Awtomatiske rozsudy daju se pśepisaś, gaž se koděrowanje manuelnje zmóžnja abo znjemóžnja, mjaztym až powěsć pišośo.
+    Pokaz: Koděrowanje se pśecej awtomatiski zmóžnja, gaž na skoděrowanu powěsć wótegranjaśo.
 
 ## Chat Tab
 
