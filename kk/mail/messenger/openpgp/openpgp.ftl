@@ -311,6 +311,11 @@ openpgp-personal-no-label =
     .label = Жоқ, оны менің жеке кілтім ретінде пайдаланбау.
 openpgp-personal-yes-label =
     .label = Иә, бұл кілтті жеке кілт ретінде қарастыру.
+openpgp-passphrase-unlock = Босату
+openpgp-passphrase-new = Жаңа кілттік фраза
+openpgp-passphrase-new-repeat = Жаңа кілттік фразаны растау
+openpgp-passphrase-set = Кілттік фразаны орнату
+openpgp-passphrase-change = Кілттік фразаны өзгерту
 openpgp-copy-cmd-label =
     .label = Көшіріп алу
 
