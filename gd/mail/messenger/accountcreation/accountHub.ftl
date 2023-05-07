@@ -41,3 +41,7 @@ account-hub-sync-button = Clàraich a-steach gu gleus an t-sioncronachaidh...
 ## Email page
 
 account-hub-email-title = Suidhich an cunntas puist-d agad
+account-hub-email-cancel-button = Sguir dheth
+account-hub-email-back-button = Air ais
+account-hub-email-continue-button = Lean air adhart
+account-hub-email-confirm-button = Dearbh
