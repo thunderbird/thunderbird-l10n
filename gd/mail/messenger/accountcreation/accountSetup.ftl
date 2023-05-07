@@ -223,9 +223,74 @@ account-setup-confirm-advanced-description = Thèid an còmhradh seo a dhùnadh 
 ## Addon installation section
 
 account-setup-addon-install-title = Stàlaich
+account-setup-addon-install-intro = Gheibh thu cothrom air a’ chunntas phuist-d agad on fhrithealaiche seo le tuilleadan le treas-phàrtaidh:
+account-setup-addon-no-protocol = Gu mì-fhortanach, chan eil frithealaiche a’ phuist-d a’ cur taic ri pròtacalan fosgailte. { account-setup-addon-install-intro }
 
 ## Success view
 
+account-setup-settings-button = Roghainnean a’ chunntais
+account-setup-encryption-button = Crioptachadh ceann ri cheann
+account-setup-signature-button = Cuir soidhneadh ris
+account-setup-dictionaries-button = Luchdaich a-nuas faclairean
+account-setup-address-book-carddav-button = Ceangail ri leabhar-sheòlaidhean CardDAV
+account-setup-address-book-ldap-button = Ceangail ri leabhar-sheòlaidhean LDAP
+account-setup-calendar-button = Ceangail ri mìosachan cèin
+account-setup-linked-services-title = Ceangail na seirbheisean co-cheangailte agad ris
+account-setup-linked-services-description = Mhothaich { -brand-short-name } do sheirbheisean eile a tha co-cheangailte ri cunntas a’ phuist-d agad.
+account-setup-no-linked-description = Suidhich seirbheisean eile airson { -brand-short-name } a chur gu làn-fheum.
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description =
+    { $count ->
+        [one] Lorg { -brand-short-name } { $count } leabhar-sheòlaidhean a tha co-cheangailte ris a’ chunntas phuist-d agad.
+        [two] Lorg { -brand-short-name } { $count } leabhar-sheòlaidhean a tha co-cheangailte ris a’ chunntas phuist-d agad.
+        [few] Lorg { -brand-short-name } { $count } leabhraichean-sheòlaidhean a tha co-cheangailte ris a’ chunntas phuist-d agad.
+       *[other] Lorg { -brand-short-name } { $count } leabhar-sheòlaidhean a tha co-cheangailte ris a’ chunntas phuist-d agad.
+    }
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description =
+    { $count ->
+        [one] Lorg { -brand-short-name } { $count } mhìosachan a tha co-cheangailte ris a’ chunntas phuist-d agad.
+        [two] Lorg { -brand-short-name } { $count } mhìosachan a tha co-cheangailte ris a’ chunntas phuist-d agad.
+        [few] Lorg { -brand-short-name } { $count } mìosachain a tha co-cheangailte ris a’ chunntas phuist-d agad.
+       *[other] Lorg { -brand-short-name } { $count } mìosachan a tha co-cheangailte ris a’ chunntas phuist-d agad.
+    }
+account-setup-button-finish = Coilean
+    .accesskey = o
+account-setup-looking-up-address-books = A’ lorg leabhraichean-sheòlaidhean…
+account-setup-looking-up-calendars = A’ lorg mìosachain…
+account-setup-address-books-button = Leabhraichean-sheòlaidhean
+account-setup-calendars-button = Mìosachain
+account-setup-connect-link = Ceangail
+account-setup-existing-address-book = Co-cheangailte
+    .title = Chaidh an leabhar-sheòlaidhean seo ceangal ris mu thràth
+account-setup-existing-calendar = Co-cheangailte
+    .title = Chaidh am mìosachan seo ceangal ris mu thràth
+account-setup-connect-all-calendars = Ceangail a h-uile mìosachan ris
+account-setup-connect-all-address-books = Ceangail a h-uile leabhar-sheòlaidhean ris
 
 ## Calendar synchronization dialog
 
+calendar-dialog-title = Ceangail mìosachan ris
+calendar-dialog-cancel-button = Sguir dheth
+    .accesskey = u
+calendar-dialog-confirm-button = Ceangail
+    .accesskey = n
+account-setup-calendar-name-label = Ainm
+account-setup-calendar-name-input =
+    .placeholder = Am mìosachan agam
+account-setup-calendar-color-label = Dath
+account-setup-calendar-refresh-label = Ath-nuadhaich
+account-setup-calendar-refresh-manual = De làimh
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
+account-setup-calendar-refresh-interval =
+    { $count ->
+        [one] Gach { $count } mhionaid
+        [two] Gach { $count } mhionaid
+        [few] Gach { $count } mionaidean
+       *[other] Gach { $count } mionaid
+    }
+account-setup-calendar-read-only = Ri leughadh a-mhàin
+    .accesskey = R
