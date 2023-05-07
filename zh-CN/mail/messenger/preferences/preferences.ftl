@@ -624,6 +624,22 @@ certificate-button =
 security-devices-button =
     .label = 安全设备…
     .accesskey = D
+email-e2ee-header = 电子邮件端到端加密
+account-settings = 账户设置
+email-e2ee-enable-info = 在账户设置中为端到端加密设置电子邮件账户和身份。
+email-e2ee-automatism = 自动使用加密
+email-e2ee-automatism-pre =
+    { -brand-short-name } 可以通过在撰写电子邮件时自动启用或禁用加密来提供帮助。
+    自动启用/禁用加密基于联系人密钥或证书已被接受并且有效。
+email-e2ee-auto-on =
+    .label = 尽可能自动启用加密
+email-e2ee-auto-off =
+    .label = 当收件人更改且无法再加密时自动禁用加密
+email-e2ee-auto-off-notify =
+    .label = 每当自动禁用加密时显示通知
+email-e2ee-automatism-post =
+    在撰写消息时，可以通过手动启用或禁用加密来覆盖自动决策。
+    注意：回复加密消息时，加密始终自动启用。
 
 ## Chat Tab
 

@@ -26,6 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = 生成 OpenPGP 密钥
+openpgp-keygen-secret-protection = 密钥保护
+radio-keygen-no-protection =
+    .label = 未受保护
+radio-keygen-protect-primary-pass =
+    .label = 使用主密码保护
+radio-keygen-passphrase-protection =
+    .label = 使用密码保护：
+openpgp-passphrase-repeat = 确认密码：
 openpgp-generate-key-info = <b>密钥生成可能需要几分才能完成。</b>密钥生成过程中，请不要关闭应用程序。主动浏览上网，或进行频繁读写磁盘操作，可补充“随机数池”以加速密钥生成。完成后将提示您密钥已生成。
 openpgp-keygen-expiry-title = 密钥到期日
 openpgp-keygen-expiry-description = 设定您新生成的密钥的到期时间，之后可根据需要进行延期。
@@ -94,6 +102,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = 请确认哪些密钥是您的个人密钥。应该只将您自己创建，且显示您个人身份的密钥视为个人密钥。您可以稍后到“密钥属性”对话框更改此选项。
 openpgp-import-key-list-caption = 标记为“个人密钥”的密钥，将列于“端到端加密”项中。其他密钥则列出于“密钥管理器”。
+openpgp-import-keep-passphrases =
+    .label = 对导入的密钥进行密码保护
 openpgp-passphrase-prompt-title = 请输入密语
 #   $key (String) - the id of the key being imported
 openpgp-passphrase-prompt = 请输入用于解密下列密钥的密语：{ $key }
