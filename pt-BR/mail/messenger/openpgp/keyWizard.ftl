@@ -26,7 +26,7 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Gerar chave OpenPGP
-openpgp-keygen-secret-protection = Proteção por senha
+openpgp-keygen-secret-protection = Proteção de chave secreta
 radio-keygen-no-protection =
     .label = Desprotegido
 radio-keygen-protect-primary-pass =
@@ -103,6 +103,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Confirme quais podem ser tratadas como suas chaves pessoais. Somente chaves que você criou e que mostram sua própria identidade devem ser usadas como chaves pessoais. Você pode alterar esta opção mais tarde no diálogo de propriedades da chave.
 openpgp-import-key-list-caption = Chaves marcadas para ser tratadas como chaves pessoais aparecem na seção de criptografia de ponta a ponta. As outras ficam disponíveis no gerenciador de chaves.
+openpgp-import-keep-passphrases =
+    .label = Manter proteção por senha de chaves secretas importadas
 openpgp-passphrase-prompt-title = A senha é obrigatória
 #   $key (String) - the id of the key being imported
 openpgp-passphrase-prompt = Digite a senha para desbloquear a seguinte chave: { $key }
