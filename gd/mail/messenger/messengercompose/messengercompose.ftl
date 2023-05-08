@@ -147,9 +147,26 @@ move-attachment-left-panel-button =
     .label = Gluais gun taobh chlì
 move-attachment-right-panel-button =
     .label = Gluais gun taobh deas
+move-attachment-last-panel-button =
+    .label = Gluais gun àite mu dheireadh
+button-return-receipt =
+    .label = Cuidhteas
+    .tooltiptext = Iarr cuidhteas tillidh airson na teachdaireachd seo
 
 ## Encryption
 
+encryption-menu =
+    .label = Tèarainteachd
+    .accesskey = c
+encryption-toggle =
+    .label = Crioptaich
+    .tooltiptext = Cleachd crioptachadh ceann ri ceann airson na teachdaireachd seo
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = Seall no atharraich roghainnean crioptachadh OpenPGP
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = Seall no atharraich roghainnean crioptachadh S/MIME
 
 ## Addressing Area
 
