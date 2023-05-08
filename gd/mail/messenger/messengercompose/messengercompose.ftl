@@ -167,9 +167,104 @@ encryption-options-openpgp =
 encryption-options-smime =
     .label = S/MIME
     .tooltiptext = Seall no atharraich roghainnean crioptachadh S/MIME
+signing-toggle =
+    .label = Soidhnich..
+    .tooltiptext = Cuir soidhneadh digiteach ris an teachdaireachd seo
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
+menu-encrypt =
+    .label = Crioptaich
+    .accesskey = C
+menu-encrypt-subject =
+    .label = Crioptaich an cuspair
+    .accesskey = r
+menu-sign =
+    .label = Cuir soidhneadh digiteach ris
+    .accesskey = i
+menu-manage-keys =
+    .label = Cuidiche nan iuchraichean
+    .accesskey = a
+menu-view-certificates =
+    .label = Seall teisteanasan nam faightearan
+    .accesskey = S
+menu-open-key-manager =
+    .label = Manaidsear nan iuchraichean
+    .accesskey = M
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Cha do shuidhich thu comas teachdaireachdan crioptaichte ceann ri ceann a chur o { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-one = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na h-iuchraichean airson { $addr } a chur ceart
+# Variables:
+# $addr (String) - Email address with certificate issues.
+smime-cert-issue-notification-one = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na teisteanasan airson { $addr } a chur ceart.
+key-notification-disable-encryption =
+    .label = Na crioptaich
+    .accesskey = N
+    .tooltiptext = Cuir an crioptachadh ceann ri ceann à comas
+key-notification-resolve =
+    .label = Fuasgail…
+    .accesskey = F
+    .tooltiptext = Fosgail cuidiche iuchraichean OpenPGP
+can-encrypt-smime-notification = ’S urrainn dhut crioptachadh ceann ri ceann S/MIME a chleachdadh.
+can-encrypt-openpgp-notification = ’S urrainn dhut crioptachadh ceann ri ceann OpenPGP a chleachdadh.
+can-e2e-encrypt-button =
+    .label = Crioptaich
+    .accesskey = r
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = Gu
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .label = An raon “Gu”
+    .accesskey = G
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = Gu
+    .accesskey = G
+#   $key (String) - the shortcut key for this field
+show-to-row-button = Gu
+    .title = Seall an raon “Gu” ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+cc-address-row-label =
+    .value = Cc
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = An raon “Cc”
+    .accesskey = C
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Cc
+    .accesskey = C
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Cc
+    .title = Seall an raon “Cc” ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+bcc-address-row-label =
+    .value = Bcc
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .label = An raon “Bcc”
+    .accesskey = B
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = Bcc
+    .accesskey = B
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = Bcc
+    .title = Seall an raon “Bcc” ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 
 ## Notifications
 
