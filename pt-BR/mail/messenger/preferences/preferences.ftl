@@ -631,6 +631,11 @@ email-e2ee-auto-on =
     .label = Ativar criptografia automaticamente quando possível
 email-e2ee-auto-off =
     .label = Desativar criptografia automaticamente quando mudar destinatários e a criptografia não for mais possível
+email-e2ee-auto-off-notify =
+    .label = Mostrar uma notificação sempre que a criptografia for desativada automaticamente
+email-e2ee-automatism-post =
+    As decisões automáticas podem ser substituídas ativando ou desativando manualmente a criptografia ao redigir uma mensagem.
+    Nota: a criptografia é sempre ativada automaticamente ao responder a uma mensagem criptografada.
 
 ## Chat Tab
 
