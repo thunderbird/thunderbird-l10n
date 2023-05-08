@@ -168,8 +168,8 @@ context-menu-decrypt-to-folder =
     .label = Copier comme déchiffré vers
     .accesskey = C
 context-menu-decrypt-to-folder2 =
-    .label = Créer une copie déchiffrée dedans
-    .accesskey = O
+    .label = Créer une copie déchiffrée vers
+    .accesskey = o
 
 ## Message header pane
 
