@@ -274,9 +274,22 @@ many-public-recipients-ignore =
     .label = Cùm na faightearan poblach
     .accesskey = h
 many-public-recipients-prompt-title = Tha cus fhaightearan poblach ann
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [one] Tha { $count } fhaightear poblach aig an teachdaireachd seo. Dh’fhaoidte gu bheil seo na dhragh prìobhaideachd. ’S urrainn dhut seo a sheachnadh le bhith a’ gluasad nam faightearan seo on raon Gu/CC gun raon Bcc na àite.
+        [two] Tha { $count } fhaightear poblach aig an teachdaireachd seo. Dh’fhaoidte gu bheil seo na dhragh prìobhaideachd. ’S urrainn dhut seo a sheachnadh le bhith a’ gluasad nam faightearan seo on raon Gu/CC gun raon Bcc na àite.
+        [few] Tha { $count } faightearan poblach aig an teachdaireachd seo. Dh’fhaoidte gu bheil seo na dhragh prìobhaideachd. ’S urrainn dhut seo a sheachnadh le bhith a’ gluasad nam faightearan seo on raon Gu/CC gun raon Bcc na àite.
+       *[other] Tha { $count } faightear poblach aig an teachdaireachd seo. Dh’fhaoidte gu bheil seo na dhragh prìobhaideachd. ’S urrainn dhut seo a sheachnadh le bhith a’ gluasad nam faightearan seo on raon Gu/CC gun raon Bcc na àite.
+    }
+many-public-recipients-prompt-cancel = Sguir dhen a chur
+many-public-recipients-prompt-send = Cuir e co-dhiù
 
 ## Notifications
 
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = Cha deach eintiteas àraidh a lorg a fhreagras ris an t-seòladh “O”. Thèid an teachdaireachd a chur leis an raon “O” làithreach agus le roghainnean na h-aithne { $identity }.
 
 ## Editing
 
