@@ -626,6 +626,11 @@ email-e2ee-header = Criptografia de ponta a ponta de email
 account-settings = Configurações de contas
 email-e2ee-enable-info = Configure contas e identidades de criptografia de ponta a ponta de email nas configurações de contas.
 email-e2ee-automatism = Uso automático de criptografia
+email-e2ee-automatism-pre = O { -brand-short-name } pode ajudar ativando ou desativando automaticamente a criptografia ao redigir um email. A ativação/desativação automática é baseada na disponibilidade de chaves ou certificados de correspondentes válidos e aceitos.
+email-e2ee-auto-on =
+    .label = Ativar criptografia automaticamente quando possível
+email-e2ee-auto-off =
+    .label = Desativar criptografia automaticamente quando mudar destinatários e a criptografia não for mais possível
 
 ## Chat Tab
 
