@@ -26,8 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Gerar chave OpenPGP
+openpgp-keygen-secret-protection = Proteção por senha
 radio-keygen-no-protection =
     .label = Desprotegido
+radio-keygen-protect-primary-pass =
+    .label = Proteger com a senha principal
+radio-keygen-passphrase-protection =
+    .label = Proteger com uma senha:
+openpgp-passphrase-repeat = Confirme a senha:
 openpgp-generate-key-info = <b>A geração de chaves pode levar vários minutos para ser concluída.</b> Não saia do aplicativo enquanto a geração de chaves estiver em andamento. Navegar ativamente ou realizar operações com uso intenso de disco durante a geração de chaves reabastece o 'conjunto de aleatoriedade' e acelera o processo. Você recebe um alerta quando a geração de chaves terminar.
 openpgp-keygen-expiry-title = Validade da chave
 openpgp-keygen-expiry-description = Defina a validade de sua chave recém-gerada. Você pode controlar a data mais tarde para estender, se necessário.
