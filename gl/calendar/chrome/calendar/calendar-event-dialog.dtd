@@ -265,7 +265,7 @@
 <!ENTITY event.repeat.yearly.label                      "Anualmente">
 <!ENTITY event.repeat.custom.label                      "Personalizar…">
 
-<!ENTITY event.recurrence.pattern.label                 "Patrón de repetición">
+<!ENTITY event.recurrence.pattern.label                 "Padrón de repetición">
 <!ENTITY event.recurrence.occurs.label                  "Repetir" >
 <!ENTITY event.recurrence.day.label                     "diariamente" >
 <!ENTITY event.recurrence.week.label                    "semanalmente" >
