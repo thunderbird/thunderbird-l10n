@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Додайте постачальника OpenSearch
 add-opensearch-provider-text = Введіть URL-адресу постачальника OpenSearch, який потрібно додати. Або використовуйте пряму URL-адресу файлу опису OpenSearch, або URL-адресу, де його можна автоматично знайти.
 adding-opensearch-provider-failed-title = Помилка додавання постачальника OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Не вдалося додати постачальника OpenSearch для { $url }.
 minimize-to-tray-label =
     .label = Згортати { -brand-short-name } в область сповіщень
@@ -616,6 +618,22 @@ certificate-button =
 security-devices-button =
     .label = Пристрої безпеки…
     .accesskey = з
+email-e2ee-header = Наскрізне шифрування електронної пошти
+account-settings = Налаштування облікового запису
+email-e2ee-enable-info = Налаштуйте облікові записи електронної пошти та ідентичності для наскрізного шифрування в налаштуваннях облікового запису.
+email-e2ee-automatism = Автоматичне шифрування
+email-e2ee-automatism-pre =
+    { -brand-short-name } може допомогти, автоматично вмикаючи або вимикаючи шифрування під час створення електронного листа.
+    Автоматичне ввімкнення/вимкнення залежить від наявності дійсних і погоджених ключів або сертифікатів кореспондентів.
+email-e2ee-auto-on =
+    .label = Автоматично вмикати шифрування, коли це можливо
+email-e2ee-auto-off =
+    .label = Автоматично вимикати шифрування, коли одержувачі змінюються і шифрування стає неможливим
+email-e2ee-auto-off-notify =
+    .label = Показувати сповіщення щоразу, коли автоматично вимикається шифрування
+email-e2ee-automatism-post =
+    Автоматичні рішення можна перевизначити, увімкнувши або вимкнувши шифрування вручну під час написання повідомлення.
+    Примітка: шифрування завжди вмикається автоматично під час відповіді на зашифроване повідомлення.
 
 ## Chat Tab
 

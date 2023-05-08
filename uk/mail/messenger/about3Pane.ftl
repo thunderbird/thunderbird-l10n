@@ -133,6 +133,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Показати “Нове повідомлення”
 folder-pane-header-context-hide =
     .label = Сховати заголовок панелі тек
+folder-pane-show-total-toggle =
+    .label = Показати загальну кількість повідомлень
 
 ## Message thread pane
 
