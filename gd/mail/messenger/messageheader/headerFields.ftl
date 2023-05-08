@@ -35,3 +35,14 @@ message-header-custom-field = { $fieldName }<span data-l10n-name="field-separato
 
 ##
 
+message-header-address-in-address-book-icon2 =
+    .alt = Ann an leabhar nan seòladh
+message-header-address-not-in-address-book-icon2 =
+    .alt = Chan ann an leabhar nan seòladh
+message-header-address-not-in-address-book-button =
+    .title = Sàbhail an seòladh seo ann an leabhar nan seòladh
+message-header-address-in-address-book-button =
+    .title = Deasaich an neach-aithne
+message-header-field-show-more = Barrachd
+    .title = Seall a h-uile faightear
+message-ids-field-show-all = Seall na h-uile
