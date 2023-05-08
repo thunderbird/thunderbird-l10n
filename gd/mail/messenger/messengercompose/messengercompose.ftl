@@ -81,6 +81,21 @@ ctrl-cmd-shift-pretty-prefix =
     }
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
+menuitem-toggle-attachment-pane =
+    .label = Leòsan nan ceanglachan
+    .accesskey = s
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
+toolbar-button-add-attachment =
+    .label = Ceangail ris
+    .tooltiptext = Cuir ceanglachan ris ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
+add-attachment-notification-reminder2 =
+    .label = Cuir ceanglachan ris…
+    .accesskey = a
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+menuitem-attach-files =
+    .label = Faidhl(ichean)…
+    .accesskey = F
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
