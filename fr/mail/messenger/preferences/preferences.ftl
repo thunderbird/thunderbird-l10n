@@ -633,7 +633,9 @@ email-e2ee-auto-off =
     .label = Désactiver automatiquement le chiffrement lorsque les destinataires changent et que le chiffrement n’est plus possible
 email-e2ee-auto-off-notify =
     .label = Afficher une notification lorsque le chiffrement est désactivé automatiquement
-email-e2ee-automatism-post = Les décisions automatiques peuvent être outrepassées en activant ou désactivant manuellement le chiffrement lors de la rédaction d’un message. Remarque : le chiffrement est toujours activé automatiquement lorsque vous répondez à un message chiffré.
+email-e2ee-automatism-post =
+    Les décisions automatiques peuvent être outrepassées en activant ou désactivant manuellement le chiffrement lors de la rédaction d’un message.
+    Remarque : le chiffrement est toujours activé automatiquement lorsque vous répondez à un message chiffré.
 
 ## Chat Tab
 
