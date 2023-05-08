@@ -267,6 +267,13 @@ show-bcc-row-button = Bcc
     .title = Seall an raon “Bcc” ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Raointean seòlachaidh eile a thèid a thaisbeanadh
+many-public-recipients-bcc =
+    .label = Cleachd Bcc na àite
+    .accesskey = C
+many-public-recipients-ignore =
+    .label = Cùm na faightearan poblach
+    .accesskey = h
+many-public-recipients-prompt-title = Tha cus fhaightearan poblach ann
 
 ## Notifications
 
