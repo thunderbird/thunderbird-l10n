@@ -320,8 +320,16 @@ openpgp-passphrase-status-unprotected = Desprotegido
 openpgp-passphrase-status-primary-password = Protegido pela senha principal do { -brand-short-name }
 openpgp-passphrase-status-user-passphrase = Protegido por uma senha
 openpgp-passphrase-instruction-unprotected = Defina uma senha para proteger esta chave
+openpgp-passphrase-instruction-primary-password = Como alternativa, proteja esta chave com uma senha separada
+openpgp-passphrase-instruction-user-passphrase = Desbloqueie esta chave para mudar sua proteção.
 openpgp-passphrase-unlock = Desbloquear
 openpgp-passphrase-unlocked = Chave desbloqueada com sucesso.
+openpgp-remove-protection = Remover proteção por senha
+openpgp-use-primary-password = Remover senha e proteger com a senha principal
+openpgp-passphrase-new = Nova senha
+openpgp-passphrase-new-repeat = Confirme a nova senha
+openpgp-passphrase-set = Definir senha
+openpgp-passphrase-change = Alterar senha
 openpgp-copy-cmd-label =
     .label = Copiar
 
@@ -634,6 +642,17 @@ import-keys-failed = Falha na importação das chaves
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Digite a senha que desbloqueia a seguinte chave: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Digite a senha para desbloquear a chave secreta com ID { $key }, criada em { $date }, por { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Digite a senha para desbloquear a chave secreta com ID { $subkey }, que é uma subchave da chave de ID { $key }, criada em { $date }, por { $username_and_email }
 file-to-big-to-import = Este arquivo é grande demais. Não importe um conjunto grande de chaves de uma só vez.
 
 ## Strings used in enigmailKeygen.js

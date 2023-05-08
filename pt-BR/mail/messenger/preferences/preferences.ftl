@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Adicionar provedor OpenSearch
 add-opensearch-provider-text = Digite a URL do provedor OpenSearch a ser adicionado. Use a URL direta do arquivo de descrição do OpenSearch, ou uma URL onde ele possa ser descoberto automaticamente.
 adding-opensearch-provider-failed-title = Falha ao adicionar provedor OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Não foi possível adicionar provedor OpenSearch de { $url }.
 minimize-to-tray-label =
     .label = Quando o { -brand-short-name } for minimizado, mover para a bandeja
@@ -620,6 +622,10 @@ certificate-button =
 security-devices-button =
     .label = Dispositivos de segurança…
     .accesskey = D
+email-e2ee-header = Criptografia de ponta a ponta de email
+account-settings = Configurações de contas
+email-e2ee-enable-info = Configure contas e identidades de criptografia de ponta a ponta de email nas configurações de contas.
+email-e2ee-automatism = Uso automático de criptografia
 
 ## Chat Tab
 
