@@ -265,6 +265,8 @@ show-bcc-row-extra-menuitem =
 #   $key (String) - the shortcut key for this field
 show-bcc-row-button = Bcc
     .title = Seall an raon “Bcc” ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = Raointean seòlachaidh eile a thèid a thaisbeanadh
 
 ## Notifications
 
