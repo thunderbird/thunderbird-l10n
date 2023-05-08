@@ -96,13 +96,57 @@ menuitem-attach-files =
     .label = Faidhl(ichean)…
     .accesskey = F
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+context-menuitem-attach-files =
+    .label = Cuir faidhle/faidhlichean ris…
+    .accesskey = f
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = A’ vCard agam
+    .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = An iuchair phoblach OpenPGP agam
+    .accesskey = P
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } cheanglachan
+        [one] { $count } cheanglachan
+        [two] { $count } cheanglachan
+        [few] { $count } ceanglachain
+       *[other] { $count } ceanglachan
+    }
+attachment-area-show =
+    .title = Seall leòsan nan ceanglachan ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Falaich leòsan nan ceanglachan ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
 
+drop-file-label-attachment =
+    { $count ->
+        [one] Cuir ris mar cheanglachan
+        [two] Cuir ris mar cheanglachain
+        [few] Cuir ris mar cheanglachain
+       *[other] Cuir ris mar cheanglachain
+    }
+drop-file-label-inline =
+    { $count ->
+        [one] Cuir a-steach am broinn na loidhne
+        [two] Cuir a-steach am broinn na loidhne
+        [few] Cuir a-steach am broinn na loidhne
+       *[other] Cuir a-steach am broinn na loidhne
+    }
 
 ## Reorder Attachment Panel
 
+move-attachment-first-panel-button =
+    .label = Gluais gun chiad àite
+move-attachment-left-panel-button =
+    .label = Gluais gun taobh chlì
+move-attachment-right-panel-button =
+    .label = Gluais gun taobh deas
 
 ## Encryption
 
