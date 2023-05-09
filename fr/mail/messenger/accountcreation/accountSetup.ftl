@@ -186,7 +186,7 @@ account-setup-warning-cleartext = <b>{ $server }</b> n’utilise pas de chiffrem
 account-setup-warning-cleartext-details = Les serveurs de courrier non sécurisés n’utilisent pas de connexions chiffrées pour protéger vos mots de passe et vos informations privées. En vous connectant à ce serveur, vous pourriez exposer votre mot de passe et vos informations privées.
 account-setup-insecure-server-checkbox = Je comprends les risques
     .accesskey = u
-account-setup-insecure-description = { -brand-short-name } peut vous permettre d’accéder à vos courriels en utilisant les configurations fournies. Cependant, vous devriez contacter votre administrateur ou votre fournisseur de messagerie au sujet de ces connexions incorrectes. Consultez la <a data-l10n-name="thunderbird-faq-link">FAQ de Thunderbird</a> pour plus d’informations.
+account-setup-insecure-description = { -brand-short-name } peut vous permettre d’accéder à vos e-mails en utilisant les configurations fournies. Cependant, vous devriez contacter votre administrateur ou votre fournisseur de messagerie au sujet de ces connexions incorrectes. Consultez la <a data-l10n-name="thunderbird-faq-link">FAQ de Thunderbird</a> pour plus d’informations.
 insecure-dialog-cancel-button = Modifier les paramètres
     .accesskey = s
 insecure-dialog-confirm-button = Confirmer

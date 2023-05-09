@@ -17,7 +17,7 @@ fxa-verification-sent-title = Vérification envoyée
 # $userEmail (String) - Email address of user's Firefox Account.
 fxa-verification-sent-body = Un lien de vérification a été envoyé à { $userEmail }.
 fxa-verification-not-sent-title = Impossible d’envoyer le lien de vérification
-fxa-verification-not-sent-body = Nous ne parvenons pas à vous envoyer de courriel de vérification, veuillez réessayer plus tard.
+fxa-verification-not-sent-body = Nous ne parvenons pas à vous envoyer d’e-mail de vérification, veuillez réessayer plus tard.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 

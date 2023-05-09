@@ -108,7 +108,7 @@ openpgp-key-man-export-to-file =
     .label = Exporter une ou des clés publiques vers un fichier
     .accesskey = E
 openpgp-key-man-send-keys =
-    .label = Envoyer une ou des clés publiques par courriel
+    .label = Envoyer une ou des clés publiques par e-mail
     .accesskey = n
 openpgp-key-man-backup-secret-keys =
     .label = Sauvegarder une ou des clés secrètes dans un fichier
@@ -137,7 +137,7 @@ openpgp-key-backup-key =
     .label = Sauvegarder la clé secrète dans un fichier
     .accesskey = S
 openpgp-key-send-key =
-    .label = Envoyer la clé publique par courriel
+    .label = Envoyer la clé publique par e-mail
     .accesskey = n
 # Variables:
 # $count (Number) - Number of keys ids to copy.
@@ -435,7 +435,7 @@ wkd-message-body-req =
     Votre fournisseur de messagerie a traité votre demande d’envoi de votre clé publique vers l’annuaire de clés web (WKD) d’OpenPGP.
     Veuillez confirmer pour terminer la publication de votre clé publique.
 wkd-message-body-process =
-    Ce courriel est relatif au traitement automatique pour l’envoi de votre clé publique vers l’annuaire de clés web (WKD) d’OpenPGP.
+    Cet e-mail est relatif au traitement automatique pour l’envoi de votre clé publique vers l’annuaire de clés web (WKD) d’OpenPGP.
     Vous n’avez aucune action manuelle à effectuer pour l’instant.
 
 ## Strings in persistentCrypto.jsm
@@ -451,7 +451,7 @@ converter-decrypt-body-failed =
 
 filter-folder-required = Vous devez sélectionner un dossier cible.
 filter-decrypt-move-warn-experimental =
-    Avertissement : l’action de filtrage « Déchiffrement permanent » pourrait détruire des courriels.
+    Avertissement : l’action de filtrage « Déchiffrement permanent » pourrait détruire des e-mails.
     Nous vous recommandons fortement d’essayer d’abord le filtre « Créer une copie déchiffrée », de tester le résultat avec soin et de ne commencer à utiliser ce filtre qu’une fois que vous serez satisfait·e du résultat.
 filter-term-pgpencrypted-label = Chiffré avec OpenPGP
 filter-key-required = Vous devez sélectionner une clé de destinataire.
@@ -462,7 +462,7 @@ filter-key-not-found = Aucune clé de chiffrement trouvée pour « { $desc } �
 # $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Avertissement : l’action de filtrage « Chiffrer avec la clé » remplace les destinataires.
-    Si vous ne possédez pas la clé privée de « { $desc } », vous ne pourrez plus lire les courriels.
+    Si vous ne possédez pas la clé privée de « { $desc } », vous ne pourrez plus lire les e-mails.
 
 ## Strings filtersWrapper.jsm
 
@@ -558,7 +558,7 @@ already-revoked = Cette clé a déjà été révoquée.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
     Vous êtes sur le point de révoquer la clé « { $identity } ».
-    Vous ne serez plus en mesure de signer avec cette clé, et une fois que la révocation sera propagée, les autres ne pourront plus chiffrer avec cette clé. Vous pouvez encore l’utiliser pour déchiffrer les courriels anciens.
+    Vous ne serez plus en mesure de signer avec cette clé, et une fois que la révocation sera propagée, les autres ne pourront plus chiffrer avec cette clé. Vous pouvez encore l’utiliser pour déchiffrer les e-mails anciens.
     Voulez-vous continuer ?
 #   $keyId (String) - the id of the key being revoked
 revoke-key-not-present =
@@ -570,9 +570,9 @@ key-man-button-revoke-key = &Révoquer la clé
 openpgp-key-revoke-success = La clé a été révoquée.
 after-revoke-info =
     La clé a été révoquée.
-    Partagez à nouveau cette clé publique, en l’envoyant par courriel ou sur des serveurs de clés, pour informer les autres personnes que vous avez révoqué votre clé.
+    Partagez à nouveau cette clé publique, en l’envoyant par e-mail ou sur des serveurs de clés, pour informer les autres personnes que vous avez révoqué votre clé.
     Dès que les logiciels utilisés par les autres personnes auront eu connaissance de la révocation, ils cesseront d’utiliser votre ancienne clé.
-    Si vous utilisez une nouvelle clé pour la même adresse électronique et que vous attachez la nouvelle clé publique aux courriels que vous envoyez, des informations à propos de votre ancienne clé révoquée seront automatiquement incluses.
+    Si vous utilisez une nouvelle clé pour la même adresse e-mail et que vous attachez la nouvelle clé publique aux e-mails que vous envoyez, des informations à propos de votre ancienne clé révoquée seront automatiquement incluses.
 
 ## Strings in keyRing.jsm & decryption.jsm
 
@@ -714,13 +714,13 @@ key-expired = Clé « { $key } » expirée
 msg-compose-internal-error = Une erreur interne s’est produite.
 keys-to-export = Sélectionnez les clés OpenPGP à insérer
 msg-compose-partially-encrypted-inlinePGP =
-    Le courriel auquel vous répondez comprend à la fois des parties chiffrées et non chiffrées. Si l’expéditeur n’a pas réussi à déchiffrer initialement les parties cachées du courriel, vous divulguerez peut-être des renseignements confidentiels que l’expéditeur n’a pas réussi à déchiffrer.
+    L’e-mail auquel vous répondez comprend à la fois des parties chiffrées et non chiffrées. Si l’expéditeur n’a pas réussi à déchiffrer initialement les parties cachées de l’e-mail, vous divulguerez peut-être des renseignements confidentiels que l’expéditeur n’a pas réussi à déchiffrer.
     Veuillez envisager d’effacer tout texte cité de votre réponse à cet expéditeur.
 msg-compose-cannot-save-draft = Erreur lors de l’enregistrement du brouillon
-msg-compose-partially-encrypted-short = Faites attention à ne pas divulguer des renseignements sensibles ; le courriel est chiffré partiellement.
+msg-compose-partially-encrypted-short = Faites attention à ne pas divulguer des renseignements sensibles ; l’e-mail est chiffré partiellement.
 quoted-printable-warn =
-    Vous avez activé l’encodage « citation imprimable » pour l’envoi de courriels. Cela peut entraîner un déchiffrement ou une vérification incorrects de votre courriel.
-    Souhaitez-vous désactiver maintenant l’envoi de courriels avec cette option ?
+    Vous avez activé l’encodage « citation imprimable » pour l’envoi d’e-mails. Cela peut entraîner un déchiffrement ou une vérification incorrects de votre e-mail.
+    Souhaitez-vous désactiver maintenant l’envoi d’e-mails avec cette option ?
 # Variables:
 # $width (Number) - Number of characters per line.
 minimal-line-wrapping =
@@ -728,10 +728,10 @@ minimal-line-wrapping =
     Souhaitez-vous définir le retour à la ligne automatique à 68 caractères maintenant ?
 sending-news =
     L’opération d’envoi chiffré a été annulée.
-    Ce courriel ne peut pas être chiffré, car certains destinataires sont des forums. Veuillez renvoyer le courriel sans chiffrement.
+    Cet e-mail ne peut pas être chiffré, car certains destinataires sont des forums. Veuillez renvoyer l’e-mail sans chiffrement.
 send-to-news-warning =
-    Avertissement : vous êtes sur le point d’envoyer un courriel chiffré à un forum.
-    Cela est déconseillé, car il ne serait logique de le faire que si tous les membres du forum peuvent déchiffrer le courriel, c.-à-d. que le courriel doit être chiffré avec les clés de tous les membres du forum. Veuillez n’envoyer ce courriel que si vous savez exactement ce que vous faites.
+    Avertissement : vous êtes sur le point d’envoyer un e-mail chiffré à un forum.
+    Cela est déconseillé, car il ne serait logique de le faire que si tous les membres du forum peuvent déchiffrer l’e-mail, c.-à-d. que l’e-mail doit être chiffré avec les clés de tous les membres du forum. Veuillez n’envoyer cet e-mail que si vous savez exactement ce que vous faites.
     Continuer ?
 save-attachment-header = Enregistrer la pièce jointe déchiffrée
 possibly-pgp-mime = Message potentiellement chiffré ou signé via PGP/MIME ; utilisez la fonction « Déchiffrer/Vérifier » pour vous en assurer
@@ -765,7 +765,7 @@ dlg-button-view = &Afficher
 
 ## Strings used in enigmailMsgHdrViewOverlay.js
 
-decrypted-msg-with-format-error = Courriel déchiffré (restauration d’un format de courriel PGP défectueux probablement causé par un ancien serveur Exchange ; le résultat pourrait ne pas être complètement lisible)
+decrypted-msg-with-format-error = E-mail déchiffré (restauration d’un format d’e-mail PGP défectueux probablement causé par un ancien serveur Exchange ; le résultat pourrait ne pas être complètement lisible)
 
 ## Strings used in encryption.jsm
 
