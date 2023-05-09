@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Monstrar “Nove message”
 folder-pane-header-context-hide =
     .label = Celar le titulo de pannello de plica
+folder-pane-show-total-toggle =
+    .label = Monstrar le computo total de messages
 
 ## Message thread pane
 
