@@ -7,8 +7,6 @@
 <!ENTITY windowTitle.label "Assistant de création de compte">
 <!ENTITY accountWizard.size "width: 42em; height: 38em;">
 
-<!-- Entities for Account Type page -->
-
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Identité">
@@ -24,7 +22,7 @@
 <!ENTITY fullnameLabel.label "Votre nom :">
 <!ENTITY fullnameLabel.accesskey "V">
 
-<!ENTITY emailLabel.label "Adresse électronique :">
+<!ENTITY emailLabel.label "Adresse e-mail :">
 <!ENTITY emailLabel.accesskey "A">
 
 <!-- Entities for Incoming Server page -->
@@ -35,8 +33,6 @@
 <!ENTITY newsServerNameDesc.label "Saisissez le nom de votre serveur de groupes (NNTP) (par exemple, « news.example.net »).">
 <!ENTITY newsServerLabel.label "Serveurs de groupes :">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

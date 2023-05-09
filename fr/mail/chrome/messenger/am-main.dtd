@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-main.xul -->
-
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "Paramètres du compte">
@@ -13,7 +11,7 @@
 <!ENTITY identityDesc.label "Chaque compte dispose d’informations sur l’expéditeur qui sont systématiquement transmises avec les messages. Elles vous identifient auprès de vos correspondants.">
 <!ENTITY name.label "Nom :">
 <!ENTITY name.accesskey "N">
-<!ENTITY email.label "Adresse électronique :">
+<!ENTITY email.label "Adresse e-mail :">
 <!ENTITY email.accesskey "A">
 <!ENTITY catchAll.label "Répondre avec cette identité lorsque les en-têtes de distribution correspondent à :">
 <!ENTITY catchAll.accesskey "d">

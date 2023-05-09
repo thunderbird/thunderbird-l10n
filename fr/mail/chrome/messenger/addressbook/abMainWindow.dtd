@@ -11,7 +11,4 @@
 <!-- Results Pane -->
 <!ENTITY Addrbook.label                                 "Carnet d’adresses">
 <!ENTITY GeneratedName.label                            "Nom">
-<!ENTITY PrimaryEmail.label                             "Adresse électronique">
-
-<!-- Card Summary Pane -->
-
+<!ENTITY PrimaryEmail.label                             "Adresse e-mail">

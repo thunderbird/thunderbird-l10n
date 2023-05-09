@@ -25,6 +25,6 @@ calendar-editable-item-reminder-icon-alarm =
 calendar-editable-item-reminder-icon-suppressed-alarm =
     .alt = Une alerte de rappel est programmée mais est actuellement supprimée
 calendar-editable-item-reminder-icon-email =
-    .alt = Un courriel de rappel est programmé
+    .alt = Un e-mail de rappel est programmé
 calendar-editable-item-reminder-icon-audio =
     .alt = Une alerte audio de rappel est programmée

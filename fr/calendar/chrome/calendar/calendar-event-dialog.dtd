@@ -37,7 +37,7 @@
 <!ENTITY event.attendees.notify.accesskey            "f">
 <!ENTITY event.attendees.notifyundisclosed.label     "Invitation séparée pour chaque participant">
 <!ENTITY event.attendees.notifyundisclosed.accesskey "v">
-<!ENTITY event.attendees.notifyundisclosed.tooltip   "Cette option envoie un courriel d’invitation à chaque participant. Chaque invitation est adressée à un seul participant afin que les autres participants restent inconnus.">
+<!ENTITY event.attendees.notifyundisclosed.tooltip   "Cette option envoie un e-mail d’invitation à chaque participant. Chaque invitation est adressée à un seul participant afin que les autres participants restent inconnus.">
 <!ENTITY event.attendees.disallowcounter.label       "Ne pas permettre les contre-propositions">
 <!ENTITY event.attendees.disallowcounter.accesskey   "a">
 <!ENTITY event.attendees.disallowcounter.tooltip     "Indique que vous n’accepterez pas les contre-propositions">
@@ -146,9 +146,9 @@
 
 <!ENTITY event.invite.attendees.label                     "Inviter des participants…">
 <!ENTITY event.invite.attendees.accesskey                 "I">
-<!ENTITY event.email.attendees.label                      "Écrire un courriel à tous les participants…">
+<!ENTITY event.email.attendees.label                      "Écrire un e-mail à tous les participants…">
 <!ENTITY event.email.attendees.accesskey                  "R">
-<!ENTITY event.email.tentative.attendees.label            "Écrire un courriel aux participants indécis…">
+<!ENTITY event.email.tentative.attendees.label            "Écrire un e-mail aux participants indécis…">
 <!ENTITY event.email.tentative.attendees.accesskey        "d">
 <!ENTITY event.remove.attendees.label2                    "Retirer tous les participants">
 <!ENTITY event.remove.attendees.accesskey                 "t">
