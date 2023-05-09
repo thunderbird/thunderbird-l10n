@@ -119,7 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publier
     .accesskey = P
-openpgp-key-man-discover-prompt = Pour rechercher des clés OpenPGP en ligne, sur des serveurs de clés ou à l’aide du protocole WKD, saisissez une adresse électronique ou un identifiant de clé.
+openpgp-key-man-discover-prompt = Pour rechercher des clés OpenPGP en ligne, sur des serveurs de clés ou à l’aide du protocole WKD, saisissez une adresse e-mail ou un identifiant de clé.
 openpgp-key-man-discover-progress = Recherche…
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
@@ -210,7 +210,7 @@ openpgp-key-man-refresh-online =
     .label = Actualiser en ligne
     .accesskey = A
 openpgp-key-man-ignored-ids =
-    .label = Adresses électroniques
+    .label = Adresses e-mail
 openpgp-key-man-del-key =
     .label = Supprimer une ou des clés
     .accesskey = S
@@ -256,7 +256,7 @@ openpgp-key-man-select-all-key =
     .key = A
 openpgp-key-man-key-details-key =
     .key = I
-openpgp-ign-addr-intro = Vous acceptez d’utiliser cette clé pour les adresses électroniques sélectionnées suivantes :
+openpgp-ign-addr-intro = Vous acceptez d’utiliser cette clé pour les adresses e-mail sélectionnées suivantes :
 openpgp-key-details-doc-title = Propriétés de la clé
 openpgp-key-details-signatures-tab =
     .label = Certifications
@@ -406,7 +406,7 @@ key-revoked-simple = La clé a été révoquée
 key-do-you-accept = Acceptez-vous cette clé pour vérifier les signatures numériques et pour chiffrer les messages ?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
-key-verification = Vérifiez l’empreinte numérique de la clé à l’aide d’un canal de communication sécurisé autre que le courrier électronique pour vous assurer qu’il s’agit bien de la clé de { $addr }.
+key-verification = Vérifiez l’empreinte numérique de la clé à l’aide d’un canal de communication sécurisé autre que l’e-mail pour vous assurer qu’il s’agit bien de la clé de { $addr }.
 
 ## Strings enigmailMsgComposeOverlay.js
 
@@ -588,7 +588,7 @@ revoke-key-in-use-description = Impossible de poursuivre. La clé que vous souha
 
 # Variables:
 # $keySpec (String) - Email address.
-key-error-key-spec-not-found = L’adresse électronique « { $keySpec } » ne correspond à aucune clé de votre trousseau.
+key-error-key-spec-not-found = L’adresse e-mail « { $keySpec } » ne correspond à aucune clé de votre trousseau.
 # $keySpec (String) - Key id.
 key-error-key-id-not-found = L’identifiant de clé « { $keySpec } » configuré ne se trouve pas dans votre trousseau.
 # $keySpec (String) - Key id.
@@ -755,7 +755,7 @@ cant-import = Erreur lors de l’importation de la clé publique
 unverified-reply = La partie du message en retrait (la réponse) a probablement été modifiée
 key-in-message-body = Une clé a été détectée dans le corps du message. Cliquez sur « Importer la clé » pour l’importer
 sig-mismatch = Erreur — la signature ne correspond pas
-invalid-email = Erreur — une ou plusieurs adresses électroniques ne sont pas valides
+invalid-email = Erreur — une ou plusieurs adresses e-mail ne sont pas valides
 # Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =

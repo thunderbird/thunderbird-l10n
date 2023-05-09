@@ -19,7 +19,7 @@ openpgp-view-your-encryption-key =
     .label = Afficher votre clé de déchiffrement
 openpgp-openpgp = OpenPGP
 openpgp-no-sig = Pas de signature numérique
-openpgp-no-sig-info = Ce message n’inclut pas la signature numérique de l’expéditeur. L’absence d’une signature numérique signifie que le message peut avoir été envoyé par quelqu’un prétendant avoir cette adresse de courrier électronique. Il est aussi possible que ce message ait été modifié pendant son transfert sur le réseau.
+openpgp-no-sig-info = Ce message n’inclut pas la signature numérique de l’expéditeur. L’absence d’une signature numérique signifie que le message peut avoir été envoyé par quelqu’un prétendant avoir cette adresse e-mail. Il est aussi possible que ce message ait été modifié pendant son transfert sur le réseau.
 openpgp-uncertain-sig = Signature numérique incertaine
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -33,7 +33,7 @@ openpgp-good-sig = Signature numérique correcte
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Signature numérique correcte - Signé le { $date }
 openpgp-sig-uncertain-no-key = Ce message contient une signature numérique, mais il n’est pas certain qu’elle soit correcte. Pour vérifier la signature, vous devez obtenir une copie de la clé publique de l’expéditeur.
-openpgp-sig-uncertain-uid-mismatch = Ce message contient une signature numérique, mais une incompatibilité a été détectée. Le message a été envoyé à partir d’une adresse électronique qui ne correspond pas à la clé publique du signataire.
+openpgp-sig-uncertain-uid-mismatch = Ce message contient une signature numérique, mais une incompatibilité a été détectée. Le message a été envoyé à partir d’une adresse e-mail qui ne correspond pas à la clé publique du signataire.
 openpgp-sig-uncertain-not-accepted = Ce message contient une signature numérique, mais vous n’avez pas encore indiqué si la clé du signataire vous paraît correcte ou non.
 openpgp-sig-invalid-rejected = Ce message contient une signature numérique, mais vous avez précédemment décidé de rejeter la clé du signataire.
 openpgp-sig-invalid-technical-problem = Ce message contient une signature numérique, mais une erreur technique a été détectée. Soit le message a été corrompu, soit le message a été modifié par quelqu’un d’autre.

@@ -6,8 +6,8 @@ account-setup-tab-title = Configuration du compte
 
 ## Header
 
-account-setup-title = Configurez votre adresse électronique existante
-account-setup-description = Pour utiliser votre adresse électronique actuelle, remplissez vos identifiants.
+account-setup-title = Configurez votre adresse e-mail existante
+account-setup-description = Pour utiliser votre adresse e-mail actuelle, remplissez vos identifiants.
 account-setup-secondary-description = { -brand-product-name } recherchera automatiquement une configuration fonctionnelle et recommandée du serveur
 account-setup-success-title = Création du compte réussie
 account-setup-success-description = Vous pouvez dès maintenant utiliser ce compte avec { -brand-short-name }.

@@ -42,7 +42,7 @@ pill-aria-label =
        *[other] { $email }, 1 sur { $count } : appuyez sur Entrée pour modifier, ou Supprimer pour retirer.
     }
 #   $email (String) - the email address
-pill-tooltip-invalid-address = { $email } n’est pas une adresse électronique valide
+pill-tooltip-invalid-address = { $email } n’est pas une adresse e-mail valide
 #   $email (String) - the email address
 pill-tooltip-not-in-address-book = { $email } ne figure pas dans votre carnet d’adresses
 pill-action-edit =

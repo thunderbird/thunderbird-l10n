@@ -15,7 +15,7 @@ openpgp-key-assistant-recipients-issue-description =
         [one] Pour chiffrer, vous devez obtenir et accepter une clé utilisable pour un destinataire. <a data-l10n-name="openpgp-link">En savoir plus…</a>
        *[other] Pour chiffrer, vous devez obtenir et accepter des clés utilisables pour { $count } destinataires. <a data-l10n-name="openpgp-link">En savoir plus…</a>
     }
-openpgp-key-assistant-info-alias = { -brand-short-name } requiert normalement que la clé publique du destinataire contienne un identifiant d’utilisateur avec une adresse électronique correspondante. Cela peut être outrepassé en utilisant les règles d’alias d’OpenPGP pour le destinataire. <a data-l10n-name="openpgp-link">En savoir plus…</a>
+openpgp-key-assistant-info-alias = { -brand-short-name } requiert normalement que la clé publique du destinataire contienne un identifiant d’utilisateur avec une adresse e-mail correspondante. Cela peut être outrepassé en utilisant les règles d’alias d’OpenPGP pour le destinataire. <a data-l10n-name="openpgp-link">En savoir plus…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-description =
@@ -87,7 +87,7 @@ openpgp-key-assistant-keys-has-collected =
        *[other] Plusieurs clés ont été trouvées mais aucune d’entre elles n’a encore été acceptée.
     }
 openpgp-key-assistant-key-rejected = Cette clé a été rejetée précédemment.
-openpgp-key-assistant-key-accepted-other = Cette clé a déjà été associée à une autre adresse électronique.
+openpgp-key-assistant-key-accepted-other = Cette clé a déjà été associée à une autre adresse e-mail.
 # Variables:
 # $recipient (String) - The email address of the recipient needing resolution.
 openpgp-key-assistant-resolve-discover-info = Rechercher en ligne de nouvelles clés ou des clés mises à jour pour { $recipient } ou les importer depuis un fichier.
