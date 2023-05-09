@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Cyhoeddi
     .accesskey = C
+openpgp-key-publish = Cyhoeddi
 openpgp-key-man-discover-prompt = I ddarganfod allweddi OpenPGP ar-lein, ar weinydd allweddi neu ddefnyddio protocol WKD, rhowch naill ai gyfeiriad e-bost neu ID allwedd.
 openpgp-key-man-discover-progress = Chwilio…
 # Variables:
@@ -400,6 +401,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Mae'r allwedd yn dod i ben o fewn 6 mis
 openpgp-key-has-expired-icon =
     .title = Daeth yr allwedd i ben
+openpgp-suggest-publishing-key = Mae cyhoeddi'r allwedd gyhoeddus ar weinydd allwedd yn caniatáu i eraill ei darganfod.
 openpgp-key-expand-section =
     .tooltiptext = Rhagor o wybodaeth
 openpgp-key-revoke-title = Dirymu Allwedd
@@ -667,8 +669,6 @@ import-key-file = Mewnforio Ffeil Allwedd OpenPGP
 import-rev-file = Mewnforio Ffeil Dirymu OpenPGP
 gnupg-file = Ffeiliau GnuPG
 import-keys-failed = Methodd mewnforio'r allweddi
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Rhowch yr cyfrinymadrodd sy'n datgloi'r allwedd ganlynol: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
