@@ -276,7 +276,7 @@
 <!ENTITY findAgainCmd.key2 "VK_F3">
 <!ENTITY findPrevCmd.key "g">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-<!ENTITY searchMailCmd.label "Rechercher dans le courrier">
+<!ENTITY searchMailCmd.label "Rechercher dans les messages…">
 <!ENTITY searchMailCmd.accesskey "c">
 <!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Recherche globale…">
