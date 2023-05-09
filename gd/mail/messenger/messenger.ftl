@@ -168,18 +168,66 @@ mail-context-delete-messages =
             [few] Sguab na teachdaireachdan a thagh thu às
            *[other] Sguab na teachdaireachdan a thagh thu às
         }
+context-menu-decrypt-to-folder2 =
+    .label = Cruthaich lethbhreac dì-chrioptaichte an-seo:
+    .accesskey = r
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = Ath-stiùirich
+message-header-msg-flagged =
+    .title = Le rionnag ris
+    .aria-label = Le rionnag ris
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = An dealbh pròifil aig { $address }.
 
 ## Message header cutomize panel
 
+message-header-customize-panel-title = Roghainnean bann-cinn na teachdaireachd
+message-header-customize-button-style =
+    .value = Stoidhle a’ phutain
+    .accesskey = t
+message-header-button-style-default =
+    .label = Ìomhaigheagan is teacsa
+message-header-button-style-text =
+    .label = Teacsa
+message-header-button-style-icons =
+    .label = Ìomhaigheagan
+message-header-show-sender-full-address =
+    .label = Seall làn-seòladh an t-seòladair an-còmhnaidh
+    .accesskey = d
+message-header-show-sender-full-address-description = Thèid an seòladh-puist a shealltainn fon ainm-taisbeanaidh.
+message-header-show-recipient-avatar =
+    .label = Seall dealbh pròifil an t-seòladair
+    .accesskey = b
+message-header-hide-label-column =
+    .label = Falaich colbh nan leubailean
+    .accesskey = F
+message-header-large-subject =
+    .label = Cuspair mòr
+    .accesskey = u
+message-header-all-headers =
+    .label = Seall a h-uile bann-cinn
+    .accesskey = a
 
 ## Action Button Context Menu
 
+toolbar-context-menu-manage-extension =
+    .label = Stiùirich an leudachan
+    .accesskey = e
+toolbar-context-menu-remove-extension =
+    .label = Thoir an leudachan air falbh
+    .accesskey = h
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = A bheil thu airson { $name } a thoirt air falbh?
+addon-removal-confirmation-button = Thoir air falbh
 
 ## no-reply handling
 
