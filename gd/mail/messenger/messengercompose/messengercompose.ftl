@@ -290,24 +290,95 @@ many-public-recipients-prompt-send = Cuir e co-dhiù
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
 compose-missing-identity-warning = Cha deach eintiteas àraidh a lorg a fhreagras ris an t-seòladh “O”. Thèid an teachdaireachd a chur leis an raon “O” làithreach agus le roghainnean na h-aithne { $identity }.
+encrypted-bcc-warning = Ma chuireas tu teachdaireachd crioptaichte, cha bhi na faightearan ann am Bcc am falach buileach agus b’ urrainn gum faic an còrr dhe na faightearan iad.
+encrypted-bcc-ignore-button = Tha mi a’ tuigsinn
+auto-disable-e2ee-warning = Chaidh an crioptachadh ceann ri ceann aig an teachdaireachd seo a chur à comas gu fèin-obrachail.
 
 ## Editing
 
 
 # Tools
 
+compose-tool-button-remove-text-styling =
+    .tooltiptext = Thoir air falbh stoidhleadh an teacsa
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Chaidh a luchdadh suas gu cunntas FileLink nach aithne dhuinn.
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } – ceanglachan FileLink
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = Chaidh am faidhle { $filename } a cheangal ris mar FileLink. Gabhaidh a luchdadh a-nuas aig a’ cheangal gu h-ìosal.
 
 # Template
 
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
+cloud-file-count-header =
+    { $count ->
+        [one] Cheangail mi { $count } fhaidhle ris a’ phost-d seo:
+        [two] Cheangail mi { $count } fhaidhle ris a’ phost-d seo:
+        [few] Cheangail mi { $count } faidhlichean ris a’ phost-d seo:
+       *[other] Cheangail mi { $count } faidhle ris a’ phost-d seo:
+    }
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = Faigh barrachd fiosrachaidh mu { $link }.
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = Faigh barrachd fiosrachaidh mu { $firstLinks } agus { $lastLink }.
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = Ceangal a tha fo dhìon facail-fhaire
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Seirbheis FileLink:
+cloud-file-template-size = Meud:
+cloud-file-template-link = Ceangal:
+cloud-file-template-password-protected-link = Ceangal a tha fo dhìon facail-fhaire:
+cloud-file-template-expiry-date = Falbhaidh an ùine air:
+cloud-file-template-download-limit = Crìoch an luchdaidh a-nuas:
 
 # Messages
 
+cloud-file-connection-error-title = Mearachd leis a’ cheangal
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = Tha { -brand-short-name } far loidhne is cha b’ urrainn dha ceangal ri { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = Cha b’ urrainn dhuinn { $filename } a luchdadh suas gu { $provider }
+cloud-file-rename-error-title = Cha b’ urrainn dhuinn ainm ùr a thoirt air
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Cha b’ urrainn dhuinn ainm ùr a thoirt air { $filename } air { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = Cha b’ urrainn dhuinn ainm ùr a thoirt air { $filename } air { $provider }
 
 ## Link Preview
 
