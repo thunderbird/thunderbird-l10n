@@ -34,5 +34,5 @@ system-search-integration-label =
     .label = Autoriser { system-search-engine-name } à rechercher dans les messages
     .accesskey = A
 check-on-startup-label =
-    .label = Toujours effectuer cette vérification au démarrage de { -brand-short-name }.
+    .label = Toujours effectuer cette vérification au démarrage de { -brand-short-name }
     .accesskey = T
