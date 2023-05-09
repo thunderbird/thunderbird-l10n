@@ -99,6 +99,30 @@ openpgp-key-assistant-resolve-discover-info = Faigh lorg air iuchraichean eile n
 
 ## Discovery section
 
+openpgp-key-assistant-discover-title = A’ faighinn lorg orra air loidhne.
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-discover-keys = A’ faighinn lorg air iuchraichean airson { $recipient }…
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    Chaidh ùrachadh a lorg airson aon dhe na h-iuchraichean a ghabhadh ris roimhe airson { $recipient }.
+    Gabhaidh a chleachdadh a-nis leis nach eil an ùine air falbh air tuilleadh.
 
 ## Dialog buttons
 
+openpgp-key-assistant-discover-online-button = Faigh lorg air iuchraichean poblach air loidhne…
+openpgp-key-assistant-import-keys-button = Ion-phortaich iuchraichean poblach air loidhne o fhaidhle…
+openpgp-key-assistant-issue-resolve-button = Fuasgail…
+openpgp-key-assistant-view-key-button = Faic an iuchair…
+openpgp-key-assistant-recipients-show-button = Seall
+openpgp-key-assistant-recipients-hide-button = Falaich
+openpgp-key-assistant-cancel-button = Sguir dheth
+openpgp-key-assistant-back-button = Air ais
+openpgp-key-assistant-accept-button = Gabh ris
+openpgp-key-assistant-close-button = Dùin
+openpgp-key-assistant-disable-button = Cuir an crioptachadh à comas
+openpgp-key-assistant-confirm-button = Cuir e an cruth crioptaichte
+# Variables:
+# $date (String) - The key creation date.
+openpgp-key-assistant-key-created = air a chruthachadh { $date }

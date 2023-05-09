@@ -168,6 +168,9 @@ mail-context-delete-messages =
             [few] Sguab na teachdaireachdan a thagh thu às
            *[other] Sguab na teachdaireachdan a thagh thu às
         }
+context-menu-decrypt-to-folder =
+    .label = Cuir lethbhreac dhe na chaidh a dhì-chrioptachadh gu
+    .accesskey = t
 context-menu-decrypt-to-folder2 =
     .label = Cruthaich lethbhreac dì-chrioptaichte an-seo:
     .accesskey = r
