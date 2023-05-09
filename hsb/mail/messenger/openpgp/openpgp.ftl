@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Wozjewić
     .accesskey = z
+openpgp-key-publish = Wozjewić
 openpgp-key-man-discover-prompt = Zo byšće OpenPGP-kluče online namakał, na klučowych serwerach abo z pomocu WKD-protokola, zapodajće pak e-mejlowu adresu pak klučowy ID.
 openpgp-key-man-discover-progress = Pyta so…
 # Variables:
@@ -653,8 +654,6 @@ import-key-file = Dataju OpenPGP-kluča importować
 import-rev-file = Wotwołansku dataju OpenPGP importować
 gnupg-file = GnuPG-dataje
 import-keys-failed = Importowanje klučow njeje so poradźiło
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Prošu zapodajće hesłowu frazu, kotraž slědowacy kluč dopušća: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
