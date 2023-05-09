@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = 發佈
     .accesskey = P
+openpgp-key-publish = 發佈
 openpgp-key-man-discover-prompt = 若要在線上尋找 OpenPGP 金鑰、金鑰伺服器或使用 WKD 通訊協定，請輸入電子郵件地址或金鑰 ID。
 openpgp-key-man-discover-progress = 搜尋中…
 # Variables:
@@ -363,6 +364,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = 金鑰將於 6 個月內到期
 openpgp-key-has-expired-icon =
     .title = 金鑰已過期
+openpgp-suggest-publishing-key = 在金鑰伺服器上發佈公鑰可以讓其他人看到。
 openpgp-key-expand-section =
     .tooltiptext = 更多資訊
 openpgp-key-revoke-title = 撤銷金鑰
@@ -599,8 +601,6 @@ import-key-file = 匯入 OpenPGP 金鑰檔案
 import-rev-file = 匯入 OpenPGP 撤銷檔案
 gnupg-file = GnuPG 檔案
 import-keys-failed = 金鑰匯入失敗
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = 請輸入可解開下列金鑰的密語: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
