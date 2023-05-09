@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publier
     .accesskey = P
+openpgp-key-publish = Publier
 openpgp-key-man-discover-prompt = Pour rechercher des clés OpenPGP en ligne, sur des serveurs de clés ou à l’aide du protocole WKD, saisissez une adresse e-mail ou un identifiant de clé.
 openpgp-key-man-discover-progress = Recherche…
 # Variables:
@@ -372,6 +373,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = La clé expire dans moins de 6 mois
 openpgp-key-has-expired-icon =
     .title = La clé a expiré
+openpgp-suggest-publishing-key = Publier la clé publique sur un serveur de clés permet à d’autres personnes de la découvrir.
 openpgp-key-expand-section =
     .tooltiptext = Plus d’informations
 openpgp-key-revoke-title = Révoquer la clé
@@ -638,8 +640,6 @@ import-key-file = Importer un fichier de clé OpenPGP
 import-rev-file = Importer un fichier de révocation OpenPGP
 gnupg-file = Fichiers GnuPG
 import-keys-failed = Échec de l’importation des clés
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Veuillez saisir la phrase de passe pour déverrouiller la clé suivante : { $key }
 # Variables:
 # $key (String) - Key id to unlock.
