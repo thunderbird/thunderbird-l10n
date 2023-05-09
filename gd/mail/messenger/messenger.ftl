@@ -324,6 +324,16 @@ menuitem-customize-label =
 spaces-customize-panel-title = Roghainnean bàr-inneal nan spàsan
 spaces-customize-background-color = Dath a’ chùlaibh
 spaces-customize-icon-color = Dath a’ phutain
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Dath cùlaibh a’ phutain a thagh thu
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Dath a’ phutain a thagh thu
+spaces-customize-button-restore = Aisig na bun-roghainnean
+    .accesskey = A
+customize-panel-button-save = Deiseil
+    .accesskey = e
 
 ## Quick Filter Bar
 
@@ -339,3 +349,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Dìochuimhnich abairtean-faire OpenPGP
