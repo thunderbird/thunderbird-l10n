@@ -228,21 +228,102 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = A bheil thu airson { $name } a thoirt air falbh?
 addon-removal-confirmation-button = Thoir air falbh
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = A bheil thu airson { $name } a thoirt air falbh agus an rèiteachadh is dàta air fad aige o { -brand-short-name }?
+caret-browsing-prompt-title = Brabhsadh carait
+caret-browsing-prompt-text = Cuiridh tu brabhsadh le cùrsair air is dheth le F7. Cuiridh am feart seo cùrsair gluasadach ann an cuid a shusbaint agus ’s urrainn dhut teacsa a thaghadh leis a’ mheur-chlàr leis. A bheil thu airson brabhsadh le cùrsair a chur air a-nis?
+caret-browsing-prompt-check-text = Na faighnich dhìom a-rithist.
+repair-text-encoding-button =
+    .label = Càraich còdachadh an teacsa
+    .tooltiptext = Dèan tomhas air còdachadh ceart an teacsa, stèidhichte air susbaint na teachdaireachd
 
 ## no-reply handling
 
+no-reply-title = Chan eil taic ri freagairtean
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
+no-reply-message = Tha coltas nach eil duine sam bith a’ cumail sùil air an t-seòladh airson freagairtean, { $email }, agus tha e cha mhòr cinnteach nach leugh duine sam bith teachdaireachdan a chuirear gun t-seòladh seo.
+no-reply-reply-anyway-button = Cuir an fhreagairt co-dhiù
 
 ## error messages
 
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Bàr-inneal nan spàsan
+    .aria-label = Bàr-inneal nan spàsan
+    .aria-description = Bàr-inneal inghearach airson leum eadar diofar spàsan. Cleachd na saighdean a ghluasad tro na putanan a tha ri làimh.
+spaces-toolbar-button-mail2 =
+    .title = Post
+spaces-toolbar-button-address-book2 =
+    .title = Leabhar nan seòladh
+spaces-toolbar-button-calendar2 =
+    .title = Am mìosachan
+spaces-toolbar-button-tasks2 =
+    .title = Saothraichean
+spaces-toolbar-button-chat2 =
+    .title = Cabadaich
+spaces-toolbar-button-overflow =
+    .title = Barrachd spàsan…
+spaces-toolbar-button-settings2 =
+    .title = Roghainnean
+spaces-toolbar-button-hide =
+    .title = Falaich bàr-inneal nan spàsan
+spaces-toolbar-button-show =
+    .title = Seall bàr-inneal nan spàsan
+spaces-context-new-tab-item =
+    .label = Fosgail ann an taba ùr
+spaces-context-new-window-item =
+    .label = Fosgail ann an uinneag ùr
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = Leum gu { $tabName }
+settings-context-open-settings-item2 =
+    .label = Roghainnean
+settings-context-open-account-settings-item2 =
+    .label = Roghainnean a’ chunntais
+settings-context-open-addons-item2 =
+    .label = Tuilleadain ’s ùrlaran
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Clàr-taice nan spàsan
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] { $count } teachdaireachd gun leughadh
+            [two] { $count } theachdaireachd gun leughadh
+            [few] { $count } teachdaireachdan gun leughadh
+           *[other] { $count } teachdaireachd gun leughadh
+        }
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Gnàthaich…
+spaces-customize-panel-title = Roghainnean bàr-inneal nan spàsan
+spaces-customize-background-color = Dath a’ chùlaibh
+spaces-customize-icon-color = Dath a’ phutain
 
 ## Quick Filter Bar
 
