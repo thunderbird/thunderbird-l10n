@@ -26,6 +26,11 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Створити ключ OpenPGP
+openpgp-keygen-secret-protection = Захист секретного ключа
+radio-keygen-no-protection =
+    .label = Незахищений
+radio-keygen-protect-primary-pass =
+    .label = Захистити головним паролем
 radio-keygen-passphrase-protection =
     .label = Захистити парольною фразою:
 openpgp-passphrase-repeat = Підтвердити парольну фразу:
@@ -99,6 +104,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Підтвердьте, які ключі можуть вважатися вашими особистими ключами. Лише створені вами ключі та ті, які підтверджують вашу особу, повинні використовуватись як особисті ключі. Цей параметр можна змінити пізніше у діалоговому вікні властивостей ключів.
 openpgp-import-key-list-caption = Ключі, позначені як особисті, буде перелічено в розділі Наскрізне шифрування. Інші будуть доступні у Менеджері ключів.
+openpgp-import-keep-passphrases =
+    .label = Захищати імпортовані секретні ключі парольною фразою
 openpgp-passphrase-prompt-title = Необхідна парольна фраза
 #   $key (String) - the id of the key being imported
 openpgp-passphrase-prompt = Введіть парольну фразу, щоб розблокувати такий ключ: { $key }

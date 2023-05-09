@@ -322,6 +322,7 @@ openpgp-personal-yes-label =
     .label = Так, вважати цей ключ моїм особистим ключем.
 openpgp-passphrase-protection =
     .label = Захист парольною фразою
+openpgp-passphrase-status-unprotected = Незахищений
 openpgp-passphrase-status-primary-password = Захищено головним паролем { -brand-short-name }
 openpgp-passphrase-status-user-passphrase = Захищено парольною фразою
 openpgp-passphrase-instruction-unprotected = Налаштуйте парольну фразу для захисту цього ключа
@@ -648,6 +649,17 @@ import-keys-failed = Не вдалося імпортувати ключі
 # Variables:
 # $key (String) - Key id to unlock.
 passphrase-prompt = Введіть парольну фразу, яка розблокує такий ключ: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Введіть парольну фразу, щоб розблокувати секретний ключ з ID { $key }, створений { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Введіть парольну фразу, щоб розблокувати секретний ключ з ID { $subkey }, який є підключем ключа з ID { $key }, створеного { $date }, { $username_and_email }
 file-to-big-to-import = Цей файл завеликий. Не імпортуйте відразу великий набір ключів.
 
 ## Strings used in enigmailKeygen.js
