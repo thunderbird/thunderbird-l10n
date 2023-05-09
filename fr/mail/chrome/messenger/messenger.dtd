@@ -876,9 +876,9 @@
 <!ENTITY SubscribeToNewsgroup.accesskey "N">
 <!ENTITY SendMessageTo.label "Envoyer un message à">
 <!ENTITY SendMessageTo.accesskey "y">
-<!ENTITY CopyEmailAddress.label "Copier l’adresse électronique">
+<!ENTITY CopyEmailAddress.label "Copier l’adresse e-mail">
 <!ENTITY CopyEmailAddress.accesskey "C">
-<!ENTITY CopyNameAndEmailAddress.label "Copier le nom et l’adresse électronique">
+<!ENTITY CopyNameAndEmailAddress.label "Copier le nom et l’adresse e-mail">
 <!ENTITY CopyNameAndEmailAddress.accesskey "l">
 <!ENTITY CopyNewsgroupName.label "Copier le nom du groupe de discussion">
 <!ENTITY CopyNewsgroupName.accesskey "g">
@@ -886,7 +886,7 @@
 <!ENTITY CopyNewsgroupURL.accesskey "d">
 <!ENTITY CreateFilterFrom.label "Créer un filtre…">
 <!ENTITY CreateFilterFrom.accesskey "f">
-<!ENTITY reportPhishingURL.label "Signaler un courrier frauduleux">
+<!ENTITY reportPhishingURL.label "Signaler un message frauduleux">
 <!ENTITY reportPhishingURL.accesskey "S">
 
 <!-- Spell checker context menu items -->
@@ -902,7 +902,7 @@
 <!ENTITY copyLinkCmd.accesskey "n">
 <!ENTITY copyImageAllCmd.label "Copier l’image">
 <!ENTITY copyImageAllCmd.accesskey "m">
-<!ENTITY copyEmailCmd.label "Copier l’adresse électronique">
+<!ENTITY copyEmailCmd.label "Copier l’adresse e-mail">
 <!ENTITY copyEmailCmd.accesskey "e">
 <!ENTITY stopCmd.label "Arrêter">
 <!ENTITY stopCmd.accesskey "r">
