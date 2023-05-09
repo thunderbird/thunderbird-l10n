@@ -22,5 +22,5 @@
 <!ENTITY advFeaturesSectionHdr.label  "Fonctions avancées">
 <!ENTITY searchMsgsLink.label         "Rechercher dans les messages">
 <!ENTITY filtersLink.label            "Gérer les filtres de messages">
-<!ENTITY junkSettings.label           "Paramètres des courriers indésirables">
+<!ENTITY junkSettings.label           "Paramètres des indésirables">
 <!ENTITY offlineLink.label            "Paramètres hors connexion">
