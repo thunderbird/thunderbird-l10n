@@ -5,8 +5,37 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Fìor-lùghdaich
+messenger-window-maximize-button =
+    .tooltiptext = Làn-mheudaich
+messenger-window-restore-down-button =
+    .tooltiptext = Aisig sìos
+messenger-window-close-button =
+    .tooltiptext = Dùin
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip =
+    { $count ->
+        [one] { $count } teachdaireachd gun leughadh
+        [two] { $count } theachdaireachd gun leughadh
+        [few] { $count } teachdaireachdan gun leughadh
+       *[other] { $count } teachdaireachd gun leughadh
+    }
 
 ## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
 
 
 ## Toolbar
@@ -65,3 +94,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+

@@ -379,9 +379,28 @@ cloud-file-rename-error = Cha b’ urrainn dhuinn ainm ùr a thoirt air { $filen
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = Cha b’ urrainn dhuinn ainm ùr a thoirt air { $filename } air { $provider }
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = Chan eil { $provider } a’ cur taic ri ath-ainmeachadh fhaidhlichean a chaidh an luchdadh suas mu thràth.
+cloud-file-attachment-error-title = Mearachd le ceanglachan FileLink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Cha b’ urrainn dhuinn an ceanglachan FileLink { $filename } ùrachadh a chionn ’s gun deach faidhle ionadail a ghluasad no a sguabadh às.
+cloud-file-account-error-title = Mearachd le cunntas FileLink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Cha b’ urrainn dhuinn an ceanglachan FileLink { $filename } ùrachadh a chionn ’s gun deach an cunntas FileLink aige a sguabadh às.
 
 ## Link Preview
 
+link-preview-title = Ro-shealladh a’ cheangail
+link-preview-description = ’S urrainn dha { -brand-short-name } ro-shealladh leabaichte a chur ris nuair a chuireas tu ceanglaichean ann.
+link-preview-autoadd = Cuir ro-shealladh cheanglaichean ris gu fèin-obrachail ma ghabhas sin a dhèanamh
+link-preview-replace-now = A bheil thu airson ro-shealladh a chur ris a’ cheangal seo?
+link-preview-yes-replace = Tha
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Cuir faclairean ris…
+    .accesskey = a
