@@ -387,6 +387,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Kluč za mjenje hač 6 měsacow spadnje
 openpgp-key-has-expired-icon =
     .title = Kluč je spadnył
+openpgp-suggest-publishing-key = Wozjewjenje zjawneho kluča na klučowym serwerje druhim zmóžnja, jón namakać.
 openpgp-key-expand-section =
     .tooltiptext = Dalše informacije
 openpgp-key-revoke-title = Kluč wotwołać
