@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Wózjawiś
     .accesskey = W
+openpgp-key-publish = Wózjawiś
 openpgp-key-man-discover-prompt = Aby OpenPGP-kluce online namakał, na klucowych serwerach abo z pomocu WKD-protokola, zapódajśo pak e-mailowu adresu pak klucowy ID.
 openpgp-key-man-discover-progress = Pyta se…
 # Variables:
@@ -386,6 +387,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Kluc za mjenjej ako 6 mjasecow spadnjo
 openpgp-key-has-expired-icon =
     .title = Kluč jo spadnuł
+openpgp-suggest-publishing-key = Wózjawjanje zjawnego kluca na klucowem serwerje drugim zmóžnja, jen namakaś.
 openpgp-key-expand-section =
     .tooltiptext = Dalšne informacije
 openpgp-key-revoke-title = Kluc wótwołaś
@@ -653,8 +655,6 @@ import-key-file = Dataju OpenPGP-kluca importěrowaś
 import-rev-file = Wótwołańsku dataju OpenPGP importěrowaś
 gnupg-file = GnuPG-dataje
 import-keys-failed = Importěrowanje klucow njejo se raźiło
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Pšosym zapódajśo gronidłowu frazu, kótaraž slědujucy kluc dopušća: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
