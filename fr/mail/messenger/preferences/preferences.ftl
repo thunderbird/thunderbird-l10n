@@ -306,7 +306,7 @@ color-options-button =
 display-width-legend = Messages en texte simple
 # Note : convert-emoticons-label 'Emoticons' are also known as 'Smileys', e.g. :-)
 convert-emoticons-label =
-    .label = Afficher les émoticônes sous forme graphique
+    .label = Afficher des images à la place des émoticônes
     .accesskey = f
 display-text-label = Lors de l’affichage de citations en texte simple :
 style-label =
