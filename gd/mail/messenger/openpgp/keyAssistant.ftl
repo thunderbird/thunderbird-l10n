@@ -32,6 +32,70 @@ openpgp-key-assistant-resolve-title =
         [few] Lorg { -brand-short-name } na h-iuchraichean a leanas airson { $recipient }.
        *[other] Lorg { -brand-short-name } na h-iuchraichean a leanas airson { $recipient }.
     }
+openpgp-key-assistant-valid-description = Tagh an iuchair a tha thu airson gabhail ris
+# Variables:
+# $numKeys (Number) - The number of available keys.
+openpgp-key-assistant-invalid-title =
+    { $numKeys ->
+        [one] Chan urrainn dhut an iuchair a leanas a chleachdadh ach ma gheibh thu ùrachadh.
+        [two] Chan urrainn dhut na h-iuchraichean a leanas a chleachdadh ach ma gheibh thu ùrachadh.
+        [few] Chan urrainn dhut na h-iuchraichean a leanas a chleachdadh ach ma gheibh thu ùrachadh.
+       *[other] Chan urrainn dhut na h-iuchraichean a leanas a chleachdadh ach ma gheibh thu ùrachadh.
+    }
+openpgp-key-assistant-no-key-available = Chan eil iuchair ri fhaighinn.
+openpgp-key-assistant-multiple-keys = Tha iomadh iuchair ri fhaighinn.
+# Variables:
+# $count (Number) - The number of unaccepted keys.
+openpgp-key-assistant-key-unaccepted =
+    { $count ->
+        [one] Tha iuchair ri fhaighinn ach cha deach gabhail ris fhathast.
+        [two] Tha iomach iuchair ri fhaighinn ach cha deach gabhail riutha fhathast.
+        [few] Tha iomach iuchair ri fhaighinn ach cha deach gabhail riutha fhathast.
+       *[other] Tha iomach iuchair ri fhaighinn ach cha deach gabhail riutha fhathast.
+    }
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-key-accepted-expired = Dh’fhalbh an ùine air iuchair a ghabh thu ris { $date }.
+openpgp-key-assistant-keys-accepted-expired = Dh’fhalbh an ùine air iomadh iuchair a ghabh thu riutha.
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-this-key-accepted-expired = Chaidh gabhail ris an iuchair roimhe ach dh’fhalbh an ùine air { $date }.
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-key-unaccepted-expired-one = Dh’fhalbh an ùine air { $date }.
+openpgp-key-assistant-key-unaccepted-expired-many = Dh’fhalbh an ùine air iomadh iuchair.
+openpgp-key-assistant-key-fingerprint = Lorg-meòir
+# Variables:
+# $count (Number) - Number of key sources.
+openpgp-key-assistant-key-source =
+    { $count ->
+        [one] Tùs
+        [two] Tùsan
+        [few] Tùsan
+       *[other] Tùsan
+    }
+openpgp-key-assistant-key-collected-attachment = ceanglachan puist
+# Autocrypt is the name of a standard.
+openpgp-key-assistant-key-collected-autocrypt = Bann-cinn Autocrypt
+openpgp-key-assistant-key-collected-keyserver = frithealaiche iuchraichean
+# Web Key Directory (WKD) is a concept.
+openpgp-key-assistant-key-collected-wkd = Web Key Directory
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = Dul-iuchrach GnuPG
+# Variables:
+# $count (Number) - Number of found keys.
+openpgp-key-assistant-keys-has-collected =
+    { $count ->
+        [one] Lorg sinn iuchair ach cha deach gabhail ris fhathast.
+        [two] Lorg sinn iomadh iuchair ach cha deach gabhail riutha fhathast.
+        [few] Lorg sinn iomadh iuchair ach cha deach gabhail riutha fhathast.
+       *[other] Lorg sinn iomadh iuchair ach cha deach gabhail riutha fhathast.
+    }
+openpgp-key-assistant-key-rejected = Chaidh an iuchair seo a dhiùltadh roimhe.
+openpgp-key-assistant-key-accepted-other = Chaidh gabhail ris an iuchair seo roimhe mu choinneamh seòladh puist-d eile.
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+openpgp-key-assistant-resolve-discover-info = Faigh lorg air iuchraichean eile no iuchraichean ùraichte airson { $recipient } air loidhne no ion-phortaich iad o fhaidhle.
 
 ## Discovery section
 
