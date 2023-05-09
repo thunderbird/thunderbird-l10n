@@ -34,6 +34,32 @@ radio-keygen-protect-primary-pass =
 radio-keygen-passphrase-protection =
     .label = Dìon le abairt-fhaire:
 openpgp-passphrase-repeat = Dearbh an abairt-fhaire:
+openpgp-generate-key-info = <b>Dh’fhaoidte gun toir gintinn na h-iuchrach grunn mhionaidean.</b> Na fàg an aplacaid fhad ’s a tha an iuchair ga gintinn. Ma nì thu brabhsadh no rudan a bhios trom air an diosg fhad ’s a tha an iuchair ga gintinn, ath-lìonaidh sin an “randomness pool” agus cuiridh sin spionnadh sa phròiseas. Gheibh thu brath nuair a bhios an iuchair air a gintinn.
+openpgp-keygen-expiry-title = Cuin a dh’fhalbhas an ùine air an iuchair
+openpgp-keygen-expiry-description = Suidhich cuin a dh’fhalbhas an ùine air an iuchair a tha thu air ùr-ghintinn. Is urrainn dhut sìneadh a chur sa cheann-là às a dhèidh seo ma bhios feum air.
+radio-keygen-expiry =
+    .label = Falbhaidh an ùine air an iuchair ann an
+    .accesskey = e
+radio-keygen-no-expiry =
+    .label = Chan fhalbh an ùine air an iuchair
+    .accesskey = r
+openpgp-keygen-advanced-title = Roghainnean adhartach
+openpgp-keygen-advanced-description = Stiùirich roghainnean adhartach na h-iuchrach OpenPGP agad.
+openpgp-keygen-keytype =
+    .value = Seòrsa na h-iuchrach:
+    .accesskey = h
+openpgp-keygen-keysize =
+    .value = Meud na h-iuchrach:
+    .accesskey = M
+openpgp-keygen-type-rsa =
+    .label = RSA
+openpgp-keygen-type-ecc =
+    .label = ECC (Elliptic Curve)
+openpgp-keygen-button = Gin iuchair
+openpgp-keygen-progress-title = A’ gintinn na h-iuchrach OpenPGP ùr agad…
+openpgp-keygen-import-progress-title = Ag ion-phortadh nan iuchraichean OpenPGP agad…
+openpgp-import-success = Chaidh na h-iuchraichean OpenPGP ion-phortadh!
+openpgp-import-success-title = Coilean an t-ion-phortadh
 
 ## Import Key section
 
