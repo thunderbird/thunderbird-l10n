@@ -19,17 +19,6 @@ account-hub-release-notes = Notes de version
 account-hub-support = Assistance
 account-hub-donate = Faire un don
 
-## Start page
-
-account-hub-email-button = Configurer un compte de courrier
-account-hub-new-email-button = Obtenir une nouvelle adresse électronique
-account-hub-calendar-button = Configurer un agenda
-account-hub-address-book-button = Configurer un carnet d’adresses
-account-hub-chat-button = Configurer la messagerie instantanée
-account-hub-feed-button = Configurer un flux RSS
-account-hub-newsgroup-button = Configurer un groupe de discussion
-account-hub-import-button = Importer un profil
-
 ## Initial setup page
 
 account-hub-email-setup-button = Compte de messagerie
@@ -51,7 +40,7 @@ account-hub-sync-button = Se connecter pour synchroniser…
 
 ## Email page
 
-account-hub-email-title = Configurer un compte de courrier électronique
+account-hub-email-title = Configurer un compte e-mail
 account-hub-email-cancel-button = Annuler
 account-hub-email-back-button = Retour
 account-hub-email-continue-button = Continuer
