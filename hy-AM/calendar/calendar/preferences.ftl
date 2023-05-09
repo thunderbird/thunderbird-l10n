@@ -4,6 +4,7 @@
 
 calendar-title = Օրացույց
 calendar-title-reminder = Հիշեցումներ
+calendar-title-notification = Ծանուցումներ
 calendar-title-category = Անվանակարգեր
 dateformat-label =
     .value = Ամսաթվի գրույթի ձևաչափ․
@@ -14,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Կարճ: { $date }
+use-system-timezone-radio-button =
+    .label = Օգտագործեք համակարգի ժամային գոտին
+set-timezone-manually-radio-button =
+    .label = Ձեռքով սահմանեք ժամային գոտին
 timezone-label =
     .value = Ժամային գոտի:
 weekstart-label =
@@ -100,12 +105,9 @@ previous-weeks-label =
     .value = Ցուցադրել նախորդ շաբաթները՝
     .accesskey = P
 todaypane-legend = Իրադարձություններ
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = Առաջիկա բաժինը ցույց է տալիս.
-    .accesskey = U
+agenda-days =
+    .value = Օրակարգը ցույց է տալիս.
+    .accesskey = g
 event-task-legend = Իրադարձություններ և առաջադրանքներ
 default-length-label =
     .value = Լռելյայն իրադարձություն և առաջադրանքի մեծություն:
@@ -133,6 +135,9 @@ task-due-label =
 edit-intab-label =
     .label = Խմբագրել իրադարձությունները և առաջադրանքները ներդիրում՝ երկխոսության պատուհանի փոխարեն։
     .accesskey = t
+prompt-delete-label =
+    .label = Իրադարձություններն ու առաջադրանքները ջնջելուց առաջ հուշեք:
+    .accesskey = V
 accessibility-legend = Մատչելիություն
 accessibility-colors-label =
     .label = Հարմարեցնել գույները մատչելիության համար
@@ -179,6 +184,7 @@ event-alarm-time-label =
 task-alarm-time-label =
     .value = Ժամի լռելյայն հիշեցումը սահմանվել է առաջադրանքից առաջ․
     .accesskey = o
+calendar-notifications-customize-label = Ծանուցումները կարող են հարմարեցվել յուրաքանչյուր օրացույցի համար օրացույցի հատկությունների պատուհանում:
 category-new-label = Նոր անվանակարգ
 category-edit-label = Խմբագրել անվանակարգը
 category-overwrite-title = Զգուշացում. Կրկնօրինակի անուն
