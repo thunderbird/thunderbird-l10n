@@ -63,6 +63,13 @@ openpgp-import-success-title = Coilean an t-ion-phortadh
 openpgp-import-success-description = Airson post-d a chrioptachadh leis an iuchair OpenPGP a thug thu a-steach, dùin an còmhradh seo is tadhail air roghainnean a’ chunntais agad is tagh an-sin e.
 openpgp-keygen-confirm =
     .label = Dearbh
+openpgp-keygen-dismiss =
+    .label = Sguir dheth
+openpgp-keygen-cancel =
+    .label = Sguir dhen phròiseas…
+openpgp-keygen-import-complete =
+    .label = Dùin
+    .accesskey = D
 
 ## Import Key section
 

@@ -12,7 +12,7 @@
 <!ENTITY feedLocation.label          "URL an inbhir:">
 <!ENTITY feedLocation.accesskey      "U">
 <!ENTITY feedLocation2.placeholder   "Cuir URL dligheach de dh’inbhir a-steach">
-<!ENTITY locationValidate.label      "Dearbhaich">
+<!ENTITY locationValidate.label      "Dearbh">
 <!ENTITY validateText.label          "Sgrùdaich an dearbhadh is faigh URL dligheach.">
 
 <!ENTITY feedFolder.label            "Stòir artaigilean ann an:">
@@ -39,7 +39,7 @@
 <!-- Subscription Dialog -->
 <!ENTITY button.addFeed.label        "Cuir ris">
 <!ENTITY button.addFeed.accesskey    "C">
-<!ENTITY button.verifyFeed.label     "Dearbhaich">
+<!ENTITY button.verifyFeed.label     "Dearbh">
 <!ENTITY button.verifyFeed.accesskey "D">
 <!ENTITY button.updateFeed.label     "Deasaich">
 <!ENTITY button.updateFeed.accesskey "e">
