@@ -79,9 +79,25 @@ openpgp-keygen-error-failed = Dh’fhàillig gintinn na h-iuchrach OpenPGP gu h-
 #   $key (String) - the ID of the newly generated OpenPGP key
 openpgp-keygen-error-revocation = Chaidh an iuchair OpenPGP a chruthachadh ach cha b’ urrainn dhuinn an iuchair { $key } a ghairm air ais
 openpgp-keygen-abort-title = A bheil thu airson sgur de ghintinn na h-iuchrach?
+openpgp-keygen-abort = Tha an iuchair OpenPGP ga gintinn, a bheil thu cinnteach gu bheil thu airson sgur dheth?
+#   $identity (String) - the name and email address of the currently selected identity
+openpgp-key-confirm = A bheil thu airson iuchair phoblach agus dhìomhair a ghintinn airson { $identity }?
 
 ## Import Key section
 
+openpgp-import-key-title = Ion-phortaich iuchair OpenPGP phearsanta làithreach
+openpgp-import-key-legend = Tagh faidhle a rinn thu lethbhreac dheth roimhe.
+openpgp-import-key-description = ’S urrainn dhut iuchraichean pearsanta a chaidh a chruthachadh le bathar-bog OpenPGP eile ion-phortadh.
+openpgp-import-key-info = Dh’fhaoidte gum bi ainmean eile air iuchair phearsanta aig bathar-bog eile, can “an iuchair agad fhèin”. “iuchair dhìomhair”, “iuchair phrìobhaideach” no “paidhir iuchraichean”.
+#   $count (Number) - the number of keys found in the selected files
+openpgp-import-key-list-amount-2 =
+    { $count ->
+        [one] Lorg { -brand-short-name } { $count } iuchair as urrainn dhut ion-phortadh.
+        [two] Lorg { -brand-short-name } { $count } iuchair as urrainn dhut ion-phortadh.
+        [few] Lorg { -brand-short-name } { $count } iuchraichean as urrainn dhut ion-phortadh.
+       *[other] Lorg { -brand-short-name } { $count } iuchair as urrainn dhut ion-phortadh.
+    }
+openpgp-import-key-list-description = Dearbh dè na h-iuchraichean a thèid a làimhseachadh mar na h-iuchraichean pearsanta agad. Cha bu chòir dhut ach iuchraichean a chruthaich thu fhèin agus a sheallas do dhearbh-aithne fhèin a chleachdadh mar iuchraichean pearsanta. ’S urrainn dhut an roghainn seo atharrachadh às a dhèidh seo ann an còmhradh roghainnean na h-iuchrach.
 
 ## External Key section
 
