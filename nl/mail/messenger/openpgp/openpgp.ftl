@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publiceren
     .accesskey = P
+openpgp-key-publish = Publiceren
 openpgp-key-man-discover-prompt = Voer om OpenPGP-sleutels online, op sleutelservers of met het WKD-protocol te ontdekken een e-mailadres of een sleutel-ID in.
 openpgp-key-man-discover-progress = Zoeken…
 # Variables:
@@ -314,6 +315,22 @@ openpgp-personal-no-label =
     .label = Nee, niet als mijn persoonlijke sleutel gebruiken.
 openpgp-personal-yes-label =
     .label = Ja, deze sleutel als een persoonlijke sleutel behandelen.
+openpgp-passphrase-protection =
+    .label = Wachtwoordzinbescherming
+openpgp-passphrase-status-unprotected = Onbeschermd
+openpgp-passphrase-status-primary-password = Beschermd door het hoofdwachtwoord van { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Beveiligd met een wachtwoordzin
+openpgp-passphrase-instruction-unprotected = Stel een wachtwoordzin in om deze sleutel te beschermen
+openpgp-passphrase-instruction-primary-password = Deze sleutel ook beveiligen met een aparte wachtwoordzin
+openpgp-passphrase-instruction-user-passphrase = Ontgrendel deze sleutel om de beveiliging te wijzigen.
+openpgp-passphrase-unlock = Ontgrendelen
+openpgp-passphrase-unlocked = Sleutel met succes ontgrendeld.
+openpgp-remove-protection = Wachtwoordzinbeveiliging verwijderen
+openpgp-use-primary-password = Verwijder de wachtwoordzin en beveilig met het hoofdwachtwoord
+openpgp-passphrase-new = Nieuwe wachtwoordzin
+openpgp-passphrase-new-repeat = Nieuwe wachtwoordzin bevestigen
+openpgp-passphrase-set = Wachtwoordzin instellen
+openpgp-passphrase-change = Wachtwoordzin wijzigen
 openpgp-copy-cmd-label =
     .label = Kopiëren
 
@@ -623,9 +640,12 @@ import-key-file = OpenPGP-sleutelbestand importeren
 import-rev-file = OpenPGP-intrekkingsbestand importeren
 gnupg-file = GnuPG-bestanden
 import-keys-failed = Het importeren van de sleutels is mislukt
+passphrase-prompt = Voer de wachtwoordzin in waarmee de volgende sleutel wordt ontgrendeld: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
-passphrase-prompt = Voer de wachtwoordzin in waarmee de volgende sleutel wordt ontgrendeld: { $key }
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Voer de wachtwoordzin in om de geheime sleutel met ID { $key }, aangemaakt { $date }, { $username_and_email } te ontgrendelen
 file-to-big-to-import = Dit bestand is te groot. Importeer geen grote set sleutels tegelijk.
 
 ## Strings used in enigmailKeygen.js
