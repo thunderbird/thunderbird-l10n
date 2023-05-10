@@ -314,6 +314,8 @@ openpgp-personal-no-label =
     .label = Nei, ekki nota hann sem minn persónulega lykil.
 openpgp-personal-yes-label =
     .label = Já, meðhöndla þennan lykil sem persónulegan lykil.
+openpgp-passphrase-status-unprotected = Óvarið
+openpgp-passphrase-unlock = Aflæsa
 openpgp-copy-cmd-label =
     .label = Afrita
 
@@ -623,8 +625,6 @@ import-key-file = Flytja inn OpenPGP-lykilskrá
 import-rev-file = Flytja inn OpenPGP-afturköllunarskrá
 gnupg-file = GnuPG-skrár
 import-keys-failed = Mistókst að flytja inn lyklana
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Settu inn aðgangsorðið til að aflæsa eftirfarandi lykli: { $key }
 file-to-big-to-import = Þessi skrá er of stór. Ekki flytja inn stór sett af lyklum í einu.
 

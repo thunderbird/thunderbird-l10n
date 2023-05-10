@@ -622,6 +622,9 @@ certificate-button =
 security-devices-button =
     .label = Öryggistæki…
     .accesskey = g
+email-e2ee-header = Enda-í-enda dulritun tölvupósts
+account-settings = Stillingar reiknings
+email-e2ee-automatism = Sjálfvirk notkun dulritunar
 
 ## Chat Tab
 

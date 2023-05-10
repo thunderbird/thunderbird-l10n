@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Sýna „Ný skilaboð“
 folder-pane-header-context-hide =
     .label = Fela fyrirsögn möppuspjalds
+folder-pane-show-total-toggle =
+    .label = Birta heildarfjölda skilaboða
 
 ## Message thread pane
 

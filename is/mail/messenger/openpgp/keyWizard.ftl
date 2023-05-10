@@ -26,6 +26,12 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Útbúa OpenPGP-lykil
+radio-keygen-no-protection =
+    .label = Óvarið
+radio-keygen-protect-primary-pass =
+    .label = Verja með aðallykilorðinu
+radio-keygen-passphrase-protection =
+    .label = Verja með lykilsetningu:
 openpgp-generate-key-info = <b>Það getur tekið allt að nokkrar mínútur að búa til lykla.</b> Ekki hætta í forritinu á meðan lyklagerð er í gangi. Sé verið að vafra eða framkvæma diskfrekar aðgerðir meðan á lyklagerð stendur endurnýjar það tilviljunarkennt úrtak tölvunnar (randomness pool) og flýtir fyrir ferlinu. Þú færð aðvörun þegar lyklagerð er lokið.
 openpgp-keygen-expiry-title = Gildistími lykils
 openpgp-keygen-expiry-description = Skilgreindu gildistíma nýgerða lykilsins þíns. Þú getur síðar breytt dagsetningunni til að framlengja hana ef þörf krefur.
@@ -96,7 +102,7 @@ openpgp-import-key-list-amount-2 =
 openpgp-import-key-list-description = Staðfestu hvaða lykla má meðhöndla sem persónulega lykla þína. Aðeins lyklar sem þú bjóst til sjálfur og sýna auðkenni þín ætti að nota sem persónulega lykla. Þú getur breytt þessu vali síðar í glugganum fyrir eiginleika lykla.
 openpgp-import-key-list-caption = Lyklar sem merktir eru til að meðhöndla sem einkalykla verða skráðir í hlutann yfir enda-í-enda dulritun. Hinir verða tiltækir í lyklastýringunni.
 openpgp-passphrase-prompt-title = Aðgangsorðs krafist
-#   $key (String) - the id of the key being imported
+#   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Settu inn aðgangsorðið til að aflæsa eftirfarandi lykli: { $key }
 openpgp-import-key-button =
     .label = Veldu skrá til að flytja inn...
