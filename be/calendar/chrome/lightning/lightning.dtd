@@ -31,6 +31,7 @@
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Каляндар">
+<!ENTITY lightning.imipbar.btnSaveCopy.label                                "Захаваць копію">
 
 
 <!-- Lightning specific keybindings -->

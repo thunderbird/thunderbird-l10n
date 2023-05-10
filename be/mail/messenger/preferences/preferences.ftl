@@ -4,6 +4,8 @@
 
 close-button =
     .aria-label = Закрыць
+category-list =
+    .aria-label = Катэгорыі
 pane-compose-title = Укладанне
 category-compose =
     .tooltiptext = Укладанне
@@ -470,4 +472,5 @@ chat-variant-label =
 
 ## Sync Tab
 
+show-synced-list-heading = Вы зараз сінхранізуеце:
 show-synced-item-calendar = Календары
