@@ -133,6 +133,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Показать «Cоздать сообщение»
 folder-pane-header-context-hide =
     .label = Скрыть заголовок панели папок
+folder-pane-show-total-toggle =
+    .label = Показать общее количество сообщений
 
 ## Message thread pane
 
