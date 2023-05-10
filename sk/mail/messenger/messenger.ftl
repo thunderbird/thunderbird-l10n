@@ -353,3 +353,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Zabudnúť prístupové frázy OpenPGP

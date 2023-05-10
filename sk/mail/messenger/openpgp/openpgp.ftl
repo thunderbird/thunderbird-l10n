@@ -62,7 +62,7 @@ openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">POZNÁMKA: Do
 openpgp-key-created-label =
     .label = Vytvorený
 openpgp-key-expiry-label =
-    .label = Vypršanie platnosti
+    .label = Platnosť vyprší
 openpgp-key-id-label =
     .label = ID kľúča
 openpgp-cannot-change-expiry = Toto je kľúč so zložitou štruktúrou, zmena jeho dátumu platnosti nie je podporovaná.
@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publikovať
     .accesskey = P
+openpgp-key-publish = Publikovať
 openpgp-key-man-discover-prompt = Ak chcete vyhľadať kľúče OpenPGP online, na kľúčových serveroch alebo pomocou protokolu WKD, zadajte buď e-mailovú adresu alebo ID kľúča.
 openpgp-key-man-discover-progress = Vyhľadávanie…
 # Variables:
@@ -292,8 +293,8 @@ openpgp-key-details-created-label =
     .label = Vytvorený
 openpgp-key-details-created-header = Vytvorený
 openpgp-key-details-expiry-label =
-    .label = Vypršanie platnosti
-openpgp-key-details-expiry-header = Vypršanie platnosti
+    .label = Platnosť vyprší
+openpgp-key-details-expiry-header = Platnosť vyprší
 openpgp-key-details-usage-label =
     .label = Využitie
 openpgp-key-details-fingerprint-label = Odtlačok
@@ -320,6 +321,22 @@ openpgp-personal-no-label =
     .label = Nie, nepoužívať ho ako môj osobný kľúč.
 openpgp-personal-yes-label =
     .label = Áno, považovať tento kľúč za osobný kľúč.
+openpgp-passphrase-protection =
+    .label = Ochrana prístupovou frázou
+openpgp-passphrase-status-unprotected = Nechránený
+openpgp-passphrase-status-primary-password = Chránený hlavným heslom { -brand-short-name(case: "gen") }
+openpgp-passphrase-status-user-passphrase = Chránený prístupovou frázou
+openpgp-passphrase-instruction-unprotected = Nastavte prístupovú frázu na ochranu tohto kľúča
+openpgp-passphrase-instruction-primary-password = Alternatívne chráňte tento kľúč samostatnou prístupovou frázou
+openpgp-passphrase-instruction-user-passphrase = Odomknite tento kľúč, ak chcete zmeniť jeho ochranu.
+openpgp-passphrase-unlock = Odomknúť
+openpgp-passphrase-unlocked = Kľúč bol úspešne odomknutý.
+openpgp-remove-protection = Odstrániť ochranu prístupovou frázou
+openpgp-use-primary-password = Odstrániť prístupovú frázu a chrániť pomocou hlavného hesla
+openpgp-passphrase-new = Nová prístupová fráza
+openpgp-passphrase-new-repeat = Potvrďte novú prístupovú frázu
+openpgp-passphrase-set = Nastaviť prístupovú frázu
+openpgp-passphrase-change = Zmeniť prístupovú frázu
 openpgp-copy-cmd-label =
     .label = Kopírovať
 
@@ -363,6 +380,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Platnosť kľúča vyprší o menej ako 6 mesiacov
 openpgp-key-has-expired-icon =
     .title = Platnosť kľúča vypršala
+openpgp-suggest-publishing-key = Publikovanie verejného kľúča na serveri kľúčov umožňuje ostatným ho objaviť.
 openpgp-key-expand-section =
     .tooltiptext = Ďalšie informácie
 openpgp-key-revoke-title = Zneplatniť kľúč
@@ -631,9 +649,18 @@ import-key-file = Importovať súbor kľúča OpenPGP
 import-rev-file = Importovať súbor zneplatnenia OpenPGP
 gnupg-file = Súbory GnuPG
 import-keys-failed = Importovanie kľúčov zlyhalo
+passphrase-prompt = Zadajte prístupovú frázu, ktorá odomkne nasledujúci kľúč: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
-passphrase-prompt = Zadajte prístupovú frázu, ktorá odomkne nasledujúci kľúč: { $key }
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Zadajte prístupovú frázu na odomknutie tajného kľúča s ID { $key }, vytvoreného dňa { $date } používateľom { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Zadajte prístupovú frázu na odomknutie tajného kľúča s ID { $subkey }, čo je podkľúč kľúča ID { $key }, vytvoreného dňa { $date } používateľom { $username_and_email }
 file-to-big-to-import = Tento súbor je príliš veľký. Neimportujte naraz veľkú sadu kľúčov.
 
 ## Strings used in enigmailKeygen.js
