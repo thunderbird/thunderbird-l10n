@@ -636,6 +636,20 @@ security-devices-button =
     .accesskey = B
 email-e2ee-header = E-mail end-to-end-versleuteling
 account-settings = Accountinstellingen
+email-e2ee-enable-info = E-mailaccounts en identiteiten voor end-to-end-versleuteling in accountinstellingen instellen.
+email-e2ee-automatism = Automatisch gebruik van versleuteling
+email-e2ee-automatism-pre =
+    { -brand-short-name } kan helpen door versleuteling automatisch in of uit te schakelen tijdens het opstellen van een e-mailbericht.
+    Automatisch inschakelen/uitschakelen is gebaseerd op de beschikbaarheid van geldige en geaccepteerde sleutels of certificaten van ontvangers.
+email-e2ee-auto-on =
+    .label = Schakel versleuteling indien mogelijk automatisch in
+email-e2ee-auto-off =
+    .label = Versleuteling automatisch uitschakelen wanneer ontvangers wijzigen en versleuteling niet meer mogelijk is
+email-e2ee-auto-off-notify =
+    .label = Toon een melding wanneer versleuteling automatisch wordt uitgeschakeld
+email-e2ee-automatism-post =
+    Automatische beslissingen kunnen worden opgeheven door versleuteling handmatig in of uit te schakelen bij het opstellen van een bericht.
+    Opmerking: versleuteling is altijd automatisch ingeschakeld bij het beantwoorden van een versleuteld bericht.
 
 ## Chat Tab
 
