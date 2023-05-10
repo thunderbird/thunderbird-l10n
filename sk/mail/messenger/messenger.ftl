@@ -169,6 +169,9 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Skopírovať ako dešifrované do
     .accesskey = f
+context-menu-decrypt-to-folder2 =
+    .label = Vytvoriť dešifrovanú kópiu
+    .accesskey = f
 
 ## Message header pane
 
@@ -347,3 +350,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+

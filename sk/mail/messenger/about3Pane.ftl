@@ -133,6 +133,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Zobraziť tlačidlo “Nová správa”
 folder-pane-header-context-hide =
     .label = Skryť hlavičku panela priečinkov
+folder-pane-show-total-toggle =
+    .label = Zobraziť celkový počet správ
 
 ## Message thread pane
 
