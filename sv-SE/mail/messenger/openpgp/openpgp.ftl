@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publicera
     .accesskey = P
+openpgp-key-publish = Publicera
 openpgp-key-man-discover-prompt = Om du vill hitta OpenPGP-nycklar online, på nyckelservrar eller använda WKD-protokollet anger du antingen en e-postadress eller ett nyckel-ID.
 openpgp-key-man-discover-progress = Söker…
 # Variables:
@@ -372,6 +373,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Nyckeln upphör om mindre än sex månader
 openpgp-key-has-expired-icon =
     .title = Nyckeln har upphört
+openpgp-suggest-publishing-key = Genom att publicera den publika nyckeln på en nyckelserver kan andra upptäcka den.
 openpgp-key-expand-section =
     .tooltiptext = Mer information
 openpgp-key-revoke-title = Återkalla nyckel
@@ -639,8 +641,6 @@ import-key-file = Importera OpenPGP-nyckelfil
 import-rev-file = Importera OpenPGP-återkallningsfil
 gnupg-file = GnuPG-filer
 import-keys-failed = Importering av nycklarna misslyckades
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Ange lösenfrasen som låser upp följande nyckel: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
