@@ -5,6 +5,12 @@
 context-text-action-find =
     .label = Знайсці
     .accesskey = А
+context-text-action-find-again =
+    .label = Знайсці зноў
+    .accesskey = о
 text-action-find =
     .label = Знайсці
     .accesskey = А
+text-action-find-again =
+    .label = Знайсці зноў
+    .accesskey = о
