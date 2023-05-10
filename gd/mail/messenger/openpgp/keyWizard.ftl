@@ -110,6 +110,26 @@ openpgp-import-key-button =
 import-key-file = Ion-phortaich faidhle iuchair OpenPGP
 import-key-personal-checkbox =
     .label = Làimhsich seo mar iuchair phearsanta
+gnupg-file = Faidhlichean GnuPG
+import-error-file-size = <b>Mearachd!</b> Chan eil taic ri faidhlichean a tha nas motha na 5MB.
+#   $error (String) - the reported error from the failed key import method
+import-error-failed = <b>Mearachd!</b> Cha b’ urrainn dhuinn am faidhle ion-phortadh. { $error }
+#   $error (String) - the reported error from the failed key import method
+openpgp-import-keys-failed = <b>Mearachd!</b> Cha b’ urrainn dhuinn na h-iuchraichean ion-phortadh. { $error }
+openpgp-import-identity-label = Dearbh-aithne
+openpgp-import-fingerprint-label = Lorg-meòir
+openpgp-import-created-label = Air a chruthachadh
+openpgp-import-key-props =
+    .label = Roghainnean na h-iuchrach
+    .accesskey = R
 
 ## External Key section
 
+openpgp-external-key-title = Iuchair GnuPG air an taobh a-muigh
+openpgp-external-key-description = Rèitich iuchair GnuPG air an taobh a-muigh le bhith a’ cur a-steach ID na h-iuchrach
+openpgp-external-key-info = A bharrachd air sin, feumaidh tu manaidsear nan iuchaireach a chleachdadh airson an iuchair phoblach cho-cheangailte ion-phortadh is gabhail ris.
+openpgp-external-key-warning = <b>Chan fhaod thu barrachd air aon iuchair GnuPG air an taobh a-muigh a rèiteachadh.</b> Thèid a cur an àite na tè a bh’ agad roimhe seo.
+openpgp-save-external-button = Sàbhail ID na h-iuchrach
+openpgp-external-key-label = ID na h-iuchrach rùin:
+openpgp-external-key-input =
+    .placeholder = 123456789341298340
