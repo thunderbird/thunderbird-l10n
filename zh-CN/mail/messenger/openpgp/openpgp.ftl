@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = 发布
     .accesskey = P
+openpgp-key-publish = 发布
 openpgp-key-man-discover-prompt = 若要在网上寻找 OpenPGP 密钥、密钥服务器或使用 WKD 通信协议，请输入电子邮件地址或密钥 ID。
 openpgp-key-man-discover-progress = 正在搜索…
 # Variables:
@@ -363,6 +364,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = 密钥将在 6 个月内到期
 openpgp-key-has-expired-icon =
     .title = 密钥已过期
+openpgp-suggest-publishing-key = 在密钥服务器上发布公钥，允许其他人发现它。
 openpgp-key-expand-section =
     .tooltiptext = 更多信息
 openpgp-key-revoke-title = 吊销密钥
@@ -599,8 +601,6 @@ import-key-file = 导入 OpenPGP 密钥文件
 import-rev-file = 导入 OpenPGP 吊销文件
 gnupg-file = GnuPG 文件
 import-keys-failed = 导入密钥失败
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = 请输入可解密下列密钥的密语：{ $key }
 # Variables:
 # $key (String) - Key id to unlock.
