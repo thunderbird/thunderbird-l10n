@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Опубликовать
     .accesskey = б
+openpgp-key-publish = Опубликовать
 openpgp-key-man-discover-prompt = Чтобы найти ключи OpenPGP в Интернете, на серверах ключей или с использованием протокола WKD, введите адрес электронной почты или идентификатор ключа.
 openpgp-key-man-discover-progress = Поиск…
 # Variables:
@@ -320,6 +321,22 @@ openpgp-personal-no-label =
     .label = Нет, не использовать его как мой личный ключ.
 openpgp-personal-yes-label =
     .label = Да, рассматривать этот ключ как личный ключ.
+openpgp-passphrase-protection =
+    .label = Защита парольной фразой
+openpgp-passphrase-status-unprotected = Без защиты
+openpgp-passphrase-status-primary-password = Защищено основным паролем { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Защищено парольной фразой
+openpgp-passphrase-instruction-unprotected = Установить парольную фразу для защиты этого ключа
+openpgp-passphrase-instruction-primary-password = В качестве альтернативы защитите этот ключ с помощью отдельной парольной фразы.
+openpgp-passphrase-instruction-user-passphrase = Разблокируйте этот ключ, чтобы изменить его защиту.
+openpgp-passphrase-unlock = Разблокировать
+openpgp-passphrase-unlocked = Ключ успешно разблокирован.
+openpgp-remove-protection = Снять защиту парольной фразой
+openpgp-use-primary-password = Удалить парольную фразу и защитить с помощью основного пароля
+openpgp-passphrase-new = Новая парольная фраза
+openpgp-passphrase-new-repeat = Подтвердить новую парольную фразу
+openpgp-passphrase-set = Установить парольную фразу
+openpgp-passphrase-change = Изменить парольную фразу
 openpgp-copy-cmd-label =
     .label = Копировать
 
@@ -363,6 +380,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Ключ истекает менее чем через 6 месяцев
 openpgp-key-has-expired-icon =
     .title = Срок действия ключа истёк
+openpgp-suggest-publishing-key = Публикация открытого ключа на сервере ключей позволяет другим обнаружить его.
 openpgp-key-expand-section =
     .tooltiptext = Дополнительная информация
 openpgp-key-revoke-title = Отозвать ключ
@@ -630,9 +648,18 @@ import-key-file = Импорт файла ключей OpenPGP
 import-rev-file = Импорт файла отзыва OpenPGP
 gnupg-file = Файлы GnuPG
 import-keys-failed = Не удалось импортировать ключи
+passphrase-prompt = Пожалуйста, введите парольную фразу для разблокировки следующего ключа: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
-passphrase-prompt = Пожалуйста, введите парольную фразу для разблокировки следующего ключа: { $key }
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Введите парольную фразу, чтобы разблокировать секретный ключ с идентификатором { $key }, созданный { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Введите парольную фразу, чтобы разблокировать секретный ключ с идентификатором { $subkey }, который является подключом ключа с идентификатором { $key }, созданного { $date }, { $username_and_email }
 file-to-big-to-import = Этот файл слишком велик. Пожалуйста, не импортируйте большой набор ключей за один раз.
 
 ## Strings used in enigmailKeygen.js
