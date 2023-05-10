@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = ‘Nieuw bericht’ tonen
 folder-pane-header-context-hide =
     .label = Koptekst mappenpaneel verbergen
+folder-pane-show-total-toggle =
+    .label = Toon het totaal aantal berichten
 
 ## Message thread pane
 
