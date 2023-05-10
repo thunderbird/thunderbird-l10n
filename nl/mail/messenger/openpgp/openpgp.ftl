@@ -646,6 +646,12 @@ passphrase-prompt = Voer de wachtwoordzin in waarmee de volgende sleutel wordt o
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
 passphrase-prompt2 = Voer de wachtwoordzin in om de geheime sleutel met ID { $key }, aangemaakt { $date }, { $username_and_email } te ontgrendelen
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Voer de wachtwoordzin in om de geheime sleutel met ID { $subkey }, welke een subsleutel is van sleutel-ID { $key }, aangemaakt { $date }, { $username_and_email } te ontgrendelen
 file-to-big-to-import = Dit bestand is te groot. Importeer geen grote set sleutels tegelijk.
 
 ## Strings used in enigmailKeygen.js

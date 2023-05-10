@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = OpenSearch-provider toevoegen
 add-opensearch-provider-text = Voer de URL in van de OpenSearch-provider die u wilt toevoegen. Gebruik de directe URL van het OpenSearch-beschrijvingsbestand of een URL waar het automatisch kan worden gevonden.
 adding-opensearch-provider-failed-title = Toevoegen van OpenSearch-provider mislukt
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Kan OpenSearch-provider voor { $url } niet toevoegen.
 minimize-to-tray-label =
     .label = Naar de systeembalk verplaatsen wanneer { -brand-short-name } is geminimaliseerd
@@ -632,6 +634,8 @@ certificate-button =
 security-devices-button =
     .label = Beveiligingsapparaten…
     .accesskey = B
+email-e2ee-header = E-mail end-to-end-versleuteling
+account-settings = Accountinstellingen
 
 ## Chat Tab
 
