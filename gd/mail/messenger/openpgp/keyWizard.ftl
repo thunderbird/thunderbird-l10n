@@ -70,6 +70,15 @@ openpgp-keygen-cancel =
 openpgp-keygen-import-complete =
     .label = Dùin
     .accesskey = D
+openpgp-keygen-missing-username = Cha deach ainm a shònrachadh dhan chunntas làithreach. Cuir a-steach luach san raon  “D’ ainm” ann an roghainnean a’ chunntais.
+openpgp-keygen-long-expiry = Chan urrainn dhut iuchair a chruthachadh a dh’fhalbhas an ùine air ann am barrachd air 100 bliadhna.
+openpgp-keygen-short-expiry = Feumaidh an iuchair a bhith dligheach co-dhiù latha.
+openpgp-keygen-ongoing = Tha an iuchair ga gintinn mu thràth!
+openpgp-keygen-error-core = Chan urrainn dhuinn OpenPGP Core Service a chur gu dol
+openpgp-keygen-error-failed = Dh’fhàillig gintinn na h-iuchrach OpenPGP gu h-obann
+#   $key (String) - the ID of the newly generated OpenPGP key
+openpgp-keygen-error-revocation = Chaidh an iuchair OpenPGP a chruthachadh ach cha b’ urrainn dhuinn an iuchair { $key } a ghairm air ais
+openpgp-keygen-abort-title = A bheil thu airson sgur de ghintinn na h-iuchrach?
 
 ## Import Key section
 
