@@ -26,7 +26,7 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Gin iuchair OpenPGP
-openpgp-keygen-secret-protection = Dìon nan iuchraichean dìomhair
+openpgp-keygen-secret-protection = Dìon nan iuchraichean rùin
 radio-keygen-no-protection =
     .label = Gun dìon
 radio-keygen-protect-primary-pass =
@@ -81,14 +81,14 @@ openpgp-keygen-error-revocation = Chaidh an iuchair OpenPGP a chruthachadh ach c
 openpgp-keygen-abort-title = A bheil thu airson sgur de ghintinn na h-iuchrach?
 openpgp-keygen-abort = Tha an iuchair OpenPGP ga gintinn, a bheil thu cinnteach gu bheil thu airson sgur dheth?
 #   $identity (String) - the name and email address of the currently selected identity
-openpgp-key-confirm = A bheil thu airson iuchair phoblach agus dhìomhair a ghintinn airson { $identity }?
+openpgp-key-confirm = A bheil thu airson iuchair rùin is phoblach a ghintinn airson { $identity }?
 
 ## Import Key section
 
 openpgp-import-key-title = Ion-phortaich iuchair OpenPGP phearsanta làithreach
 openpgp-import-key-legend = Tagh faidhle a rinn thu lethbhreac dheth roimhe.
 openpgp-import-key-description = ’S urrainn dhut iuchraichean pearsanta a chaidh a chruthachadh le bathar-bog OpenPGP eile ion-phortadh.
-openpgp-import-key-info = Dh’fhaoidte gum bi ainmean eile air iuchair phearsanta aig bathar-bog eile, can “an iuchair agad fhèin”. “iuchair dhìomhair”, “iuchair phrìobhaideach” no “paidhir iuchraichean”.
+openpgp-import-key-info = Dh’fhaoidte gum bi ainmean eile air iuchair phearsanta aig bathar-bog eile, can “an iuchair agad fhèin”. “iuchair rùin”, “iuchair phrìobhaideach” no “paidhir iuchraichean”.
 #   $count (Number) - the number of keys found in the selected files
 openpgp-import-key-list-amount-2 =
     { $count ->
@@ -98,6 +98,18 @@ openpgp-import-key-list-amount-2 =
        *[other] Lorg { -brand-short-name } { $count } iuchair as urrainn dhut ion-phortadh.
     }
 openpgp-import-key-list-description = Dearbh dè na h-iuchraichean a thèid a làimhseachadh mar na h-iuchraichean pearsanta agad. Cha bu chòir dhut ach iuchraichean a chruthaich thu fhèin agus a sheallas do dhearbh-aithne fhèin a chleachdadh mar iuchraichean pearsanta. ’S urrainn dhut an roghainn seo atharrachadh às a dhèidh seo ann an còmhradh roghainnean na h-iuchrach.
+openpgp-import-key-list-caption = Ma chuir thu comharra ri iuchraichean gun tèid a làimhseachadh mar iuchraichean pearsanta a shealltainn ann an earrann a’ chrioptachaidh ceann ri ceann. Bidh an còrr ri fhaighinn am broinn manaidsear nan iuchraichean.
+openpgp-import-keep-passphrases =
+    .label = Cùm an dìon le abairtean-faire airson iuchraichean rùin a chaidh ion-phortadh
+openpgp-passphrase-prompt-title = Tha feum air abairt-fhaire
+#   $identity (String) - the id of the key being imported
+openpgp-passphrase-prompt = Cuir a-steach an abairt-fhaire airson a’ ghlas a thoirt far na h-iuchrach a leanas: { $key }
+openpgp-import-key-button =
+    .label = Tagh faidhle airson ion-phortadh…
+    .accesskey = s
+import-key-file = Ion-phortaich faidhle iuchair OpenPGP
+import-key-personal-checkbox =
+    .label = Làimhsich seo mar iuchair phearsanta
 
 ## External Key section
 
