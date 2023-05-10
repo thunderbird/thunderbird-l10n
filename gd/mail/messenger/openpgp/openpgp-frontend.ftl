@@ -34,3 +34,5 @@ openpgp-broken-exchange-info = Seo teachdaireachd OpenPGP a dh’fhàs, a-rèir 
 openpgp-broken-exchange-repair =
     .label = Càirich an teachdaireachd
 openpgp-broken-exchange-wait = Fuirich ort…
+openpgp-has-nested-encrypted-parts = Tha pìosan crioptaichte a bharrachd aig an teachdaireachd seo.
+openpgp-show-encrypted-parts = Dì-chrioptaich is seall
