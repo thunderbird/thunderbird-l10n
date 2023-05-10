@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Közzététel
     .accesskey = K
+openpgp-key-publish = Közzététel
 openpgp-key-man-discover-prompt = Az OpenPGP-kulcsok online felfedezéséhez – kulcskiszolgálókon vagy a WKD protokoll használatával – adjon meg egy e-mail-címet vagy egy kulcsazonosítót.
 openpgp-key-man-discover-progress = Keresés…
 # Variables:
@@ -372,6 +373,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = A kulcs kevesebb, mint 6 hónap múlva lejár
 openpgp-key-has-expired-icon =
     .title = A kulcs lejárt
+openpgp-suggest-publishing-key = A nyilvános kulcs kulcskiszolgálón történő közzététele lehetővé teszi, hogy mások felfedezzék azt.
 openpgp-key-expand-section =
     .tooltiptext = További információ
 openpgp-key-revoke-title = Kulcs visszavonása
@@ -639,8 +641,6 @@ import-key-file = OpenPGP-kulcsfájl importálása
 import-rev-file = OpenPGP visszavonási fájl importálása
 gnupg-file = GnuPG-fájlok
 import-keys-failed = A kulcsok importálása sikertelen
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Írja be a jelmondatot, amely feloldja a következő kulcsot: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
