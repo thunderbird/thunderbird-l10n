@@ -7,8 +7,6 @@
 <!ENTITY windowTitle.label "Draoidh nan cunntasan">
 <!ENTITY accountWizard.size "width: 50em; height: 48em;">
 
-<!-- Entities for Account Type page -->
-
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Dearbh-aithne">
@@ -36,8 +34,6 @@
 <!ENTITY newsServerLabel.label "Frithealaiche nam buidhnean-naidheachd:">
 <!ENTITY newsServerLabel.accesskey "F">
 
-<!-- Entities for Outgoing Server page -->
-
 <!-- Entities for Account name page -->
 
 <!ENTITY accnameTitle.label "Ainm a' chunntais">
@@ -49,7 +45,7 @@
 <!-- Entities for Done (Congratulations) page -->
 
 <!ENTITY completionTitle.label "Meal do naidheachd!">
-<!ENTITY completionText.label "Dearbhaich gu bheil am fiosrachadh gu h-ìosal ceart.">
+<!ENTITY completionText.label "Dearbh gu bheil am fiosrachadh gu h-ìosal ceart.">
 <!ENTITY newsServerNamePrefix.label "Ainm frithealaiche nan naidheachdan (NNTP):">
 <!ENTITY clickFinish.label "Briog air &quot;Crìochnaich&quot; gus na roghainnean seo a shàbhaladh &apos;s draoidh nan cunntasan fhàgail.">
 <!ENTITY clickFinish.labelMac "Briog air &quot;Dèanta&quot; gus na roghainnean seo a shàbhaladh &apos;s draoidh nan cunntasan fhàgail.">

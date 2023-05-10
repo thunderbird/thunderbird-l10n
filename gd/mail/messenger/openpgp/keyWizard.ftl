@@ -60,6 +60,9 @@ openpgp-keygen-progress-title = A’ gintinn na h-iuchrach OpenPGP ùr agad…
 openpgp-keygen-import-progress-title = Ag ion-phortadh nan iuchraichean OpenPGP agad…
 openpgp-import-success = Chaidh na h-iuchraichean OpenPGP ion-phortadh!
 openpgp-import-success-title = Coilean an t-ion-phortadh
+openpgp-import-success-description = Airson post-d a chrioptachadh leis an iuchair OpenPGP a thug thu a-steach, dùin an còmhradh seo is tadhail air roghainnean a’ chunntais agad is tagh an-sin e.
+openpgp-keygen-confirm =
+    .label = Dearbh
 
 ## Import Key section
 
