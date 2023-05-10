@@ -622,6 +622,22 @@ certificate-button =
 security-devices-button =
     .label = Bezpečnostné zariadenia…
     .accesskey = z
+email-e2ee-header = Obojstranné šifrovanie e-mailov
+account-settings = Nastavenia účtu
+email-e2ee-enable-info = Obojstranné šifrovanie pre jednotlivé svoje účty a identity nastavíte v Nastaveniach účtu.
+email-e2ee-automatism = Automatické používanie šifrovania
+email-e2ee-automatism-pre =
+    { -brand-short-name } môže pomôcť automatickým povolením alebo zakázaním šifrovania pri písaní e-mailu.
+    Automatické zapnutie/vypnutie je založené na dostupnosti platných a akceptovaných kľúčov alebo certifikátov korešpondentov.
+email-e2ee-auto-on =
+    .label = Ak je to možné, automaticky povoliť šifrovanie
+email-e2ee-auto-off =
+    .label = Automaticky zakázať šifrovanie, ak dôjde k zmene príjemcov a šifrovanie už nie je možné
+email-e2ee-auto-off-notify =
+    .label = Zobrazovať upozornenie vždy, keď je šifrovanie automaticky zakázané
+email-e2ee-automatism-post =
+    Automatické rozhodnutia možno prepísať manuálnym povolením alebo zakázaním šifrovania pri vytváraní správy.
+    Poznámka: šifrovanie je vždy automaticky povolené pri odpovedi na zašifrovanú správu.
 
 ## Chat Tab
 
