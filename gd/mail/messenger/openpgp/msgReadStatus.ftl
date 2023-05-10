@@ -60,3 +60,6 @@ openpgp-enc-invalid-label = Chan urrainn dhuinn an teachdaireachd a dhì-chriopt
 openpgp-enc-invalid = Chaidh an teachdaireachd seo a chrioptachadh mus deach a chur thugad ach cha ghabh a thoirt far na teachdaireachd.
 openpgp-enc-clueless = Tha duilgheadasan neo-aithnichte ann leis an teachdaireachd chrioptaichte seo.
 openpgp-enc-valid-label = Teachdaireachd air a chrioptachadh
+openpgp-enc-valid = Chaidh an teachdaireachd seo a chrioptachadh mus deach a chur thugad. Nì crioptachadh cinnteach nach leugh ach na daoine a bha thu airson a chur thuca a leughadh.
+openpgp-unknown-key-id = Iuchair neo-aithnichte
+openpgp-other-enc-additional-key-ids = A bharrachd air sin, chaidh an teachdaireachd a chrioptachadh le sealbhadairean nan iuchraichean a leanas:
