@@ -373,6 +373,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Le clave expira in minus de 6 menses
 openpgp-key-has-expired-icon =
     .title = Clave expirate
+openpgp-suggest-publishing-key = Publicar la clave public sur un servitor de claves permitte a alteres de discoperir lo.
 openpgp-key-expand-section =
     .tooltiptext = Plus de informationes
 openpgp-key-revoke-title = Revocar le clave
@@ -643,6 +644,17 @@ import-rev-file = Importar le le revocation del file OpenPGP
 gnupg-file = Files GnuPG
 import-keys-failed = Importation de claves fallite!
 passphrase-prompt = Insere le phrase contrasigno que disbloca le sequente clave: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Insere le phrase contrasigno pro disblocar le clave secrete con ID { $key }, create { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Insere le phrase contrasigno pro disblocar le clave secrete con ID { $subkey }, que es un sub-clave del ID clave { $key }, create { $date }, { $username_and_email }
 file-to-big-to-import = Iste file es troppo grande. Non importar grande gruppos de claves contemporaneemente.
 
 ## Strings used in enigmailKeygen.js

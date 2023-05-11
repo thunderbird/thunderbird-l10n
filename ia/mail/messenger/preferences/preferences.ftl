@@ -622,7 +622,10 @@ certificate-button =
 security-devices-button =
     .label = Dispositivos de securitate…
     .accesskey = D
+email-e2ee-header = Cryptation de extremo-a-extremo de email
 account-settings = Parametros del conto
+email-e2ee-enable-info = Configura contos e identitates email pro cryptation de extremo-a-extremo in Parametros de conto.
+email-e2ee-automatism = Uso automatic del cryptation
 
 ## Chat Tab
 
