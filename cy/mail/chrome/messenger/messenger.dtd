@@ -102,7 +102,7 @@
 <!ENTITY selectMenu.label "Dewis">
 <!ENTITY selectMenu.accesskey "w">
 <!ENTITY all.label "Y Cyfan">
-<!ENTITY all.accesskey "P">
+<!ENTITY all.accesskey "C">
 <!ENTITY selectThreadCmd.label "Edefyn">
 <!ENTITY selectThreadCmd.accesskey "E">
 <!ENTITY selectThreadCmd.key "a">
@@ -155,7 +155,7 @@
 <!ENTITY unifiedFolders.label "Unedig">
 <!ENTITY unifiedFolders.accesskey "U">
 <!ENTITY allFolders.label "Y Cyfan">
-<!ENTITY allFolders.accesskey "P">
+<!ENTITY allFolders.accesskey "C">
 <!ENTITY unreadFolders.label "Heb ei Darllen">
 <!ENTITY unreadFolders.accesskey "H">
 <!ENTITY favoriteFolders.label "Ffefryn">
@@ -213,7 +213,7 @@
 <!ENTITY threads.label "Edafedd">
 <!ENTITY threads.accesskey "d">
 <!ENTITY allMsgsCmd.label "Y Cyfan">
-<!ENTITY allMsgsCmd.accesskey "P">
+<!ENTITY allMsgsCmd.accesskey "C">
 <!ENTITY expandAllThreadsCmd.label "Ehangu Pob Edefyn">
 <!ENTITY expandAllThreadsCmd.accesskey "E">
 <!ENTITY expandAllThreadsCmd.key "*">
@@ -232,7 +232,7 @@
 <!ENTITY headersMenu.label "Penynnau">
 <!ENTITY headersMenu.accesskey "P">
 <!ENTITY headersAllCmd.label "Y Cyfan">
-<!ENTITY headersAllCmd.accesskey "P">
+<!ENTITY headersAllCmd.accesskey "C">
 <!ENTITY headersNormalCmd.label "Arferol">
 <!ENTITY headersNormalCmd.accesskey "A">
 <!ENTITY bodyMenu.label "Corff y Neges Fel">

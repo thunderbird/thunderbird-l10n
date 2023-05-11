@@ -102,7 +102,7 @@
 <!ENTITY  event.menu.edit.paste.label                     "Gludo">
 <!ENTITY  event.menu.edit.paste.accesskey                 "G">
 <!ENTITY  event.menu.edit.select.all.label                "Dewis y Cyfan">
-<!ENTITY  event.menu.edit.select.all.accesskey            "P">
+<!ENTITY  event.menu.edit.select.all.accesskey            "C">
 
 <!ENTITY  event.menu.view.label                           "Golwg">
 <!ENTITY  event.menu.view.accesskey                       "G">

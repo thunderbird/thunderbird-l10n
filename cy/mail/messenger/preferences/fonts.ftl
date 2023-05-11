@@ -117,7 +117,7 @@ use-document-fonts-checkbox =
     .accesskey = C
 use-fixed-width-plain-checkbox =
     .label = Defnyddio ffont lled sefydlog ar gyfer negeseuon testun plaen
-    .accesskey = x
+    .accesskey = D
 
 ## Language settings
 

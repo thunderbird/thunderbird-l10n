@@ -142,8 +142,8 @@ mail-play-sound-label =
         }
     .accesskey =
         { PLATFORM() ->
-            [macos] s
-           *[other] d
+            [macos] C
+           *[other] n
         }
 mail-play-button =
     .label = Chwarae

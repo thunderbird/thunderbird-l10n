@@ -84,7 +84,7 @@
 <!ENTITY openAllAttachmentsCmd.label    "Agor y Cyfan…">
 <!ENTITY openAllAttachmentsCmd.accesskey    "A">
 <!ENTITY saveAllAttachmentsCmd.label    "Cadw'r Cyfan…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "P">
+<!ENTITY saveAllAttachmentsCmd.accesskey    "C">
 <!ENTITY detachAllAttachmentsCmd.label    "Datod y Cyfan…">
 <!ENTITY detachAllAttachmentsCmd.accesskey    "a">
 <!ENTITY deleteAllAttachmentsCmd.label    "Dileu'r Cyfan…">

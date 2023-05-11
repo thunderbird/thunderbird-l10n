@@ -107,7 +107,7 @@
 
 <!ENTITY calendar.task.filter.title.label           "Dangos">
 <!ENTITY calendar.task.filter.all.label             "Y Cyfan">
-<!ENTITY calendar.task.filter.all.accesskey         "P">
+<!ENTITY calendar.task.filter.all.accesskey         "C">
 <!ENTITY calendar.task.filter.today.label           "Heddiw">
 <!ENTITY calendar.task.filter.today.accesskey       "H">
 <!ENTITY calendar.task.filter.next7days.label       "Saith Diwrnod Nesaf">

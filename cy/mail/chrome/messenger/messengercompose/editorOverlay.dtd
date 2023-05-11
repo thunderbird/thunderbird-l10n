@@ -234,7 +234,7 @@
 <!ENTITY tableColumnAfter.accesskey "D">
 <!ENTITY tableCell.label "Symudol">
 <!ENTITY tableCells.label "Cell(oedd)">
-<!ENTITY tableCell.accesskey "C">
+<!ENTITY tableCell.accesskey "S">
 <!ENTITY tableCellContents.label "Cynnwys Cell">
 <!ENTITY tableCellContents.accesskey "y">
 <!ENTITY tableAllCells.label "Pob Cell">
