@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Δημοσίευση
     .accesskey = Δ
+openpgp-key-publish = Δημοσίευση
 openpgp-key-man-discover-prompt = Για να βρείτε κλειδιά OpenPGP στο διαδίκτυο, σε διακομιστές κλειδιών ή μέσω του πρωτοκόλλου WKD, εισαγάγετε είτε μια διεύθυνση email είτε ένα ID κλειδιού.
 openpgp-key-man-discover-progress = Αναζήτηση…
 # Variables:
@@ -624,8 +625,6 @@ import-key-file = Εισαγωγή αρχείου κλειδιού OpenPGP
 import-rev-file = Εισαγωγή αρχείου ανάκλησης OpenPGP
 gnupg-file = Αρχεία GnuPG
 import-keys-failed = Αποτυχία εισαγωγής κλειδιών
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Εισαγάγετε τη μυστική φράση που ξεκλειδώνει το ακόλουθο κλειδί: { $key }
 file-to-big-to-import = Το αρχείο είναι πολύ μεγάλο. Παρακαλώ μην εισαγάγετε ταυτόχρονα ένα μεγάλο σύνολο κλειδιών.
 
