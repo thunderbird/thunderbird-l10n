@@ -108,7 +108,7 @@ openpgp-import-key-list-amount-2 =
 openpgp-import-key-list-description = Cadarnhewch pa allweddi y mae modd eu trin fel eich allweddi personol. Dim ond allweddi y gwnaethoch chi eu creu eich hun ac sy'n dangos eich hunaniaeth eich hun y dylid eu defnyddio fel allweddi personol. Gallwch newid yr dewis hwn yn nes ymlaen yn y dialog Priodweddau Allweddi.
 openpgp-import-key-list-caption = Bydd allweddi sydd wedi'u marcio i'w trin fel Allweddi Personol yn cael eu rhestru yn yr adran Amgryptio Ben-i-Ben. Bydd y lleill ar gael y tu mewn i'r Rheolwr Allweddi.
 openpgp-import-keep-passphrases =
-    .label = Cadwch diogelu cyfrinymadrodd ar gyfer allweddi cyfrinachol wedi'u mewnforio
+    .label = Cadw diogelu cyfrinymadrodd ar gyfer allweddi cyfrinachol wedi'u mewnforio
 openpgp-passphrase-prompt-title = Mae angen cyfrinymadrodd
 #   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Rhowch y cyfrinymadrodd i ddatgloi'r allwedd ganlynol: { $key }

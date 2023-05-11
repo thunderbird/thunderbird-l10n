@@ -362,4 +362,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
-openpgp-forget = Anghoo cyfrinymadrodd OpenPGP
+openpgp-forget = Anghofio cyfrinymadrodd OpenPGP
