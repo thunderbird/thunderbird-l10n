@@ -171,7 +171,7 @@ context-menu-decrypt-to-folder =
     .accesskey = ш
 context-menu-decrypt-to-folder2 =
     .label = Создать расшифрованную копию в
-    .accesskey = y
+    .accesskey = к
 
 ## Message header pane
 
