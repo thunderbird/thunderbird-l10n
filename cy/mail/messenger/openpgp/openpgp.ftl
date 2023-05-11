@@ -350,11 +350,11 @@ openpgp-passphrase-instruction-user-passphrase = Datglowch yr allwedd hon i newi
 openpgp-passphrase-unlock = Datgloi
 openpgp-passphrase-unlocked = Datglowyd yr allwedd yn llwyddiannus.
 openpgp-remove-protection = Tynnu diogelwch cyfrinymadrodd
-openpgp-use-primary-password = Tynnwch gyfrinair a'i ddiogelu gyda Chyfrinair Cynradd
-openpgp-passphrase-new = Cyfrinair newydd
-openpgp-passphrase-new-repeat = Cadarnhau cyfrinair newydd
-openpgp-passphrase-set = Gosod cyfrinair
-openpgp-passphrase-change = Newid cyfrinair
+openpgp-use-primary-password = Tynnwch gyfrinymadrodd a'i ddiogelu gyda Phrif Gyfrinair
+openpgp-passphrase-new = Cyfrinymadrodd newydd
+openpgp-passphrase-new-repeat = Cadarnhewch y cyfrinymadrodd newydd
+openpgp-passphrase-set = Gosodwch y cyfrinymadrodd
+openpgp-passphrase-change = Newidiwch y cyfrinymadrodd
 openpgp-copy-cmd-label =
     .label = Copïo
 
@@ -674,13 +674,13 @@ passphrase-prompt = Rhowch yr cyfrinymadrodd sy'n datgloi'r allwedd ganlynol: { 
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2 = Rhowch y cyfrinair i ddatgloi'r allwedd gyfrinachol gyda'r ID { $key } , a grëwyd { $date } , { $username_and_email }
+passphrase-prompt2 = Rhowch y cyfrinymadrodd i ddatgloi'r allwedd gyfrinachol gyda'r ID { $key }, a grëwyd { $date } , { $username_and_email }
 # Variables:
 # $subkey (String) - Key id to unlock, which is a subkey.
 # $key (String) - This is the main key, to which the subkey belongs.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2-sub = Rhowch y cyfrinair i ddatgloi'r allwedd gyfrinachol gyda'r ID { $subkey } , sy'n iskey ID allwedd { $key }, a grëwyd { $date } , { $username_and_email }
+passphrase-prompt2-sub = Rhowch y cyfrinair i ddatgloi'r allwedd gyfrinachol gyda'r ID { $subkey } , sy'n isallwedd ID allwedd { $key }, a grëwyd { $date }, { $username_and_email }
 file-to-big-to-import = Mae'r ffeil hon yn rhy fawr. Peidiwch â mewnforio set fawr o allweddi ar unwaith.
 
 ## Strings used in enigmailKeygen.js

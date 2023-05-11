@@ -622,18 +622,18 @@ certificate-button =
 security-devices-button =
     .label = Dyfeisiau Diogelwch…
     .accesskey = D
-email-e2ee-header = Amgryptio E-bost o'r Dechrau i'r Diwedd
+email-e2ee-header = Amgryptio E-bost Pen-i-Ben
 account-settings = Gosodiadau Cyfrif
-email-e2ee-enable-info = Sefydlu cyfrifon e-bost a manylion adnabod ar gyfer Amgryptio o'r Dechrau i'r Diwedd mewn Gosodiadau Cyfrif.
+email-e2ee-enable-info = Gosodwch gyfrifon e-bost a manylion adnabod Amgryptio o Ben-i-Ben yn Gosodiadau Cyfrif.
 email-e2ee-automatism = Defnydd Awtomatig o Amgryptio
-email-e2ee-automatism-pre = Gall { -brand-short-name } gynorthwyo drwy alluogi neu analluogi amgryptio yn awtomatig wrth gyfansoddi e-bost. Mae galluogi / analluogi ceir yn seiliedig ar argaeledd allweddi neu dystysgrifau gohebwyr dilys a derbyniol.
+email-e2ee-automatism-pre = Gall { -brand-short-name } gynorthwyo drwy alluogi neu analluogi amgryptio yn awtomatig wrth ysgrifennu e-byst. Mae awto alluogi/analluogi yn seiliedig ar argaeledd allweddi neu dystysgrifau gohebwyr dilys a derbyniol.
 email-e2ee-auto-on =
     .label = Galluogi amgryptio yn awtomatig pan fo modd
 email-e2ee-auto-off =
     .label = Analluogi amgryptio yn awtomatig pan fydd derbynwyr yn newid ac nid yw amgryptio bellach yn bosibl
 email-e2ee-auto-off-notify =
     .label = Dangos hysbysiad pryd bynnag mae amgryptio wedi'i analluogi'n awtomatig
-email-e2ee-automatism-post = Gall penderfyniadau awtomatig gael eu diystyru trwy alluogi neu analluogi amgryptio wrth gyfansoddi neges. Nodyn: mae amgryptio bob amser yn cael ei alluogi'n awtomatig wrth ymateb i neges wedi'i hamgryptio.
+email-e2ee-automatism-post = Gall penderfyniadau awtomatig gael eu diystyru trwy alluogi neu analluogi amgryptio wrth ysgrifennu neges. Nodyn: mae amgryptio bob tro'n cael ei alluogi'n awtomatig wrth ateb neges wedi'i hamgryptio.
 
 ## Chat Tab
 
