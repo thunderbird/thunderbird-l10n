@@ -32,8 +32,8 @@ radio-keygen-no-protection =
 radio-keygen-protect-primary-pass =
     .label = Diogelu gyda'r Prif Gyfrinair
 radio-keygen-passphrase-protection =
-    .label = Diogelu gyda chyfrinair:
-openpgp-passphrase-repeat = Cadarnhewch y cyfrinair:
+    .label = Diogelu gyda chyfrinymadrodd:
+openpgp-passphrase-repeat = Cadarnhewch y cyfrinymadrodd:
 openpgp-generate-key-info = <b>Gall cynhyrchu allweddol gymryd rhai munudau i'w gwblhau.</b> Peidiwch â gadael y rhaglen tra bo'r allwedd yn cael ei gynhyrchu. Bydd pori neu berfformio gweithrediadau disg-ddwys yn ystod cynhyrchu'r allwedd yn ailgyflenwi'r 'gronfa ar hap' ac yn cyflymu'r broses. Cewch eich rhybuddio pan fydd cynhyrchu'r allweddol wedi'i gwblhau.
 openpgp-keygen-expiry-title = Allwedd yn dod i ben
 openpgp-keygen-expiry-description = Diffiniwch amser dod i ben eich allwedd sydd newydd ei chynhyrchu. Yn ddiweddarach, gallwch reoli'r dyddiad i'w ymestyn os oes angen.
@@ -108,9 +108,9 @@ openpgp-import-key-list-amount-2 =
 openpgp-import-key-list-description = Cadarnhewch pa allweddi y mae modd eu trin fel eich allweddi personol. Dim ond allweddi y gwnaethoch chi eu creu eich hun ac sy'n dangos eich hunaniaeth eich hun y dylid eu defnyddio fel allweddi personol. Gallwch newid yr dewis hwn yn nes ymlaen yn y dialog Priodweddau Allweddi.
 openpgp-import-key-list-caption = Bydd allweddi sydd wedi'u marcio i'w trin fel Allweddi Personol yn cael eu rhestru yn yr adran Amgryptio Ben-i-Ben. Bydd y lleill ar gael y tu mewn i'r Rheolwr Allweddi.
 openpgp-import-keep-passphrases =
-    .label = Cadwch amddiffyniad cyfrinair ar gyfer allweddi cyfrinachol a fewnforiwyd
+    .label = Cadwch diogelu cyfrinymadrodd ar gyfer allweddi cyfrinachol wedi'u mewnforio
 openpgp-passphrase-prompt-title = Mae angen cyfrinymadrodd
-#   $key (String) - the id of the key being imported
+#   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Rhowch y cyfrinymadrodd i ddatgloi'r allwedd ganlynol: { $key }
 openpgp-import-key-button =
     .label = Dewis Ffeil i'w Mewnforio ...

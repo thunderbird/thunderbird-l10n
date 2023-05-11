@@ -176,8 +176,8 @@ context-menu-decrypt-to-folder =
     .label = Copi Fel Wedi'i Ddatgryptio I.
     .accesskey = D
 context-menu-decrypt-to-folder2 =
-    .label = Creu Copi Wedi'i Ddadgryptio i Mewn
-    .accesskey = y
+    .label = Creu Copi Wedi'i Ddadgryptio Yn
+    .accesskey = D
 
 ## Message header pane
 
@@ -362,4 +362,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
-openpgp-forget = Anghofiwch gyfrineiriau OpenPGP
+openpgp-forget = Anghofiwch gyfrinymadrodd OpenPGP

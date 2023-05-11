@@ -137,7 +137,7 @@ folder-pane-header-context-toggle-new-message =
 folder-pane-header-context-hide =
     .label = Cuddio Penyn Paen Ffolder
 folder-pane-show-total-toggle =
-    .label = Dangos Cyfanswm Nifer Neges
+    .label = Dangos Cyfanswm Nifer y Negeseuon
 
 ## Message thread pane
 
