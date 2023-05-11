@@ -747,7 +747,7 @@ search-results-help-link = Angen cymorth? Ewch i <a data-l10n-name="url">Cefnoga
 sync-signedout-caption = Cymrwch eich Gwe gyda Chi
 sync-signedout-description = Cydweddwch eich cyfrifon, llyfrau cyfeiriadau, calendrau, ychwanegion a gosodiadau ar draws eich holl ddyfeisiau.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
-sync-signedout-account-signin-btn = Mewngofnodwch i gydweddu…
+sync-signedout-account-signin-btn = Mewngofnodi i Sync…
 sync-pane-header = Cydweddu
 # Variables:
 # $userEmail (String) - The email logged into Sync.

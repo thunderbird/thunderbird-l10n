@@ -15,20 +15,9 @@ account-hub-title = Canolfan Cyfrifon
 
 ## Footer
 
-account-hub-release-notes = Nodiadau rhyddhau
+account-hub-release-notes = Nodiadau ryddhau
 account-hub-support = Cefnogaeth
 account-hub-donate = Cyfrannu
-
-## Start page
-
-account-hub-email-button = Creu cyfrif e-bost
-account-hub-new-email-button = Cael cyfeiriad e-bost newydd
-account-hub-calendar-button = Creu calendr
-account-hub-address-book-button = Creu llyfr cyfeiriadau
-account-hub-chat-button = Creu sgwrs
-account-hub-feed-button = Creu ffrwd RSS
-account-hub-newsgroup-button = Creu grŵp newyddion
-account-hub-import-button = Mewnforio proffil
 
 ## Initial setup page
 
