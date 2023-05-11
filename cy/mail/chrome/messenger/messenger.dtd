@@ -416,7 +416,7 @@
 <!ENTITY markReadByDateCmd.accesskey "D">
 <!ENTITY markReadByDateCmd.key "c">
 <!ENTITY markAllReadCmd.label "Y Cyfan Wedi eu Darllen">
-<!ENTITY markAllReadCmd.accesskey "P">
+<!ENTITY markAllReadCmd.accesskey "D">
 <!ENTITY markAllReadCmd.key "c">
 <!ENTITY markStarredCmd.label "Ychwanegu Seren">
 <!ENTITY markStarredCmd.accesskey "S">
