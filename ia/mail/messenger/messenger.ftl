@@ -350,3 +350,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Oblidar le phrases contrasigno OpenPGP

@@ -26,10 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Generar clave OpenPGP
+openpgp-keygen-secret-protection = Protection per clave secrete
 radio-keygen-no-protection =
     .label = Non protegite
+radio-keygen-protect-primary-pass =
+    .label = Proteger con le Contrasigno primari
 radio-keygen-passphrase-protection =
     .label = Proteger per phrase contrasigno
+openpgp-passphrase-repeat = Confirma le phrase contrasigno:
 openpgp-generate-key-info = <b>Le generation de clave pote occupar usque plure minutas pro completar.</b> Non exir del application durante que es in curso le generation del clave. Navigar activemente o exequer operationes intensive pro le disco durante le generation del clave replena le 'piscina aleatori' e accelera le procedura. Tu sera alertate quando generation del clave es completate.
 openpgp-keygen-expiry-title = Expiration del clave
 openpgp-keygen-expiry-description = Defini le expiration tempore de tu clave generate novemente. Tu pote plus tarde controlar le data pro extender lo si necessari.
@@ -99,8 +103,10 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Confirmar que le claves pote esser tractate como tu claves personal. Solo claves que tu mesme ha create e que monstrar tu proprie identitate debe esser usate como claves personal. Tu pote cambiar iste option plus tarde in le fenestra de dialogo Proprietates del clave.
 openpgp-import-key-list-caption = Le claves marcate pro esser tractate como claves personal sera presentate in le section Cryptographia end-to-end. Los altere sera disponibile intra le gestor del claves.
+openpgp-import-keep-passphrases =
+    .label = Mantener le protection per phrase contrasigno pro le claves secrete importate
 openpgp-passphrase-prompt-title = Phrase contrasigno obligatori
-#   $key (String) - the id of the key being imported
+#   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Insere le phrase contrasigno pro disblocar le sequente clave: { $key }
 openpgp-import-key-button =
     .label = Elige le file a importar…
