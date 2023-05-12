@@ -31,6 +31,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Ühendus pole turvaline
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -78,12 +90,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Suuna ümber
-    .accesskey = m
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Failina...
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Kustuta kaust
+    .accesskey = K
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Kustuta kiri
+           *[other] Kustuta valitud kirjad
+        }
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Taasta kiri
+           *[other] Taasta valitud kirjad
+        }
+    .accesskey = T
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Suuna ümber
+    .accesskey = m
 
 ## AppMenu
 
@@ -115,6 +157,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Kopeeri dekrüpteerituna asukohta
     .accesskey = p
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Taasta kiri
+           *[other] Taasta valitud kirjad
+        }
 
 ## Message header pane
 
@@ -282,3 +332,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
