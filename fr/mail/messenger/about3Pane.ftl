@@ -3,6 +3,27 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Afficher/Masquer la barre de filtre rapide
+quick-filter-button-label = Filtre rapide
+thread-pane-header-display-button =
+    .title = Options d’affichage de la liste des messages
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } messages
+       *[other] { $count } messages
+    }
+thread-pane-header-context-table-view =
+    .label = Vue tableau
+thread-pane-header-context-cards-view =
+    .label = Mode fiches
+thread-pane-header-context-hide =
+    .label = Masquer l’en-tête de la liste de messages
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button

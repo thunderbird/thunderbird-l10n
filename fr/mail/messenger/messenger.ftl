@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Supprimer le dossier
     .accesskey = d
+menu-edit-unsubscribe-newsgroup =
+    .label = Groupes de discussion avec désabonnement
+    .accesskey = C
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

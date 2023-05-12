@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = En-tête de la liste de messages
+    .accesskey = e
 menu-font-size-label =
     .label = Taille de police
     .accesskey = T
