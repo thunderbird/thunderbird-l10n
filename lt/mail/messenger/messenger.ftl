@@ -18,6 +18,18 @@ about-rights-notification-text = „{ -brand-short-name }“ yra nemokama ir atv
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -57,6 +69,36 @@ folder-toolbar-toggle-folder-compact-view =
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Pašalinti aplanką
+    .accesskey = p
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Pašalinti laišką
+           *[other] Pašalinti pažymėtus laiškus
+        }
+    .accesskey = š
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Atšaukti laiško šalinimą
+           *[other] Atšaukti pažymėtų laiškų šalinimą
+        }
+    .accesskey = t
+
+## Message Menu
+
+
 ## AppMenu
 
 appmenu-addons-and-themes =
@@ -70,6 +112,14 @@ appmenu-help-more-troubleshooting-info =
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Atšaukti laiško šalinimą
+           *[other] Atšaukti pažymėtų laiškų šalinimą
+        }
 
 ## Message header pane
 
@@ -120,3 +170,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
