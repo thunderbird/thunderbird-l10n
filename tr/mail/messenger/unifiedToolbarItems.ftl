@@ -61,6 +61,7 @@ toolbar-junk =
 toolbar-delete-label = Sil
 toolbar-delete =
     .title = Seçili iletileri veya klasörü sil
+toolbar-undelete-label = Silmeyi geri al
 toolbar-compact-label = Sıkıştır
 toolbar-compact =
     .title = Seçilen dizinden silinmiş iletileri kaldır

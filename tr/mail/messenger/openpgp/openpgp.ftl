@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Yayımla
     .accesskey = Y
+openpgp-key-publish = Yayımla
 openpgp-key-man-discover-prompt = OpenPGP anahtarlarını çevrimiçi olarak anahtar sunucularında veya WKD protokolünü kullanarak bulmak için bir e-posta adresi veya bir anahtar kimliği girin.
 openpgp-key-man-discover-progress = Aranıyor…
 # Variables:
@@ -313,6 +314,10 @@ openpgp-personal-no-label =
     .label = Hayır, kişisel anahtarım olarak kullanma.
 openpgp-personal-yes-label =
     .label = Evet, bu anahtara kişisel anahtar olarak kullan.
+openpgp-passphrase-status-unprotected = Korumasız
+openpgp-passphrase-status-primary-password = { -brand-short-name } ana parolasıyla korunuyor
+openpgp-passphrase-unlock = Kilidi aç
+openpgp-passphrase-unlocked = Anahtarın kilidi başarıyla açıldı.
 openpgp-copy-cmd-label =
     .label = Kopyala
 
@@ -572,8 +577,6 @@ import-key-file = OpenPGP anahtar dosyasını içe aktar
 import-rev-file = OpenPGP iptal dosyasını içe aktar
 gnupg-file = GnuPG dosyaları
 import-keys-failed = Anahtarlar içe aktarılamadı
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Lütfen şu anahtarın kilidini açan parolayı girin: { $key }
 file-to-big-to-import = Bu dosya çok büyük. Lütfen büyük anahtar kümelerini aynı anda içe aktarmayın.
 

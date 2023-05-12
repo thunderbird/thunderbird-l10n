@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = OpenSearch sağlayıcısı ekle
 add-opensearch-provider-text = Eklenecek OpenSearch sağlayıcının URL’sini girin. OpenSearch Açıklama dosyasının tam URL’sini veya sağlayıcının otomatik olarak keşfedilebileceği bir URL’yi kullanın.
 adding-opensearch-provider-failed-title = OpenSearch sağlayıcısı ekleme başarısız
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = { $url } için OpenSearch sağlayıcısı eklenemedi.
 minimize-to-tray-label =
     .label = { -brand-short-name } simge durumuna küçültüldüğünde sistem tepsisine taşı
@@ -620,6 +622,7 @@ certificate-button =
 security-devices-button =
     .label = Güvenlik aygıtları…
     .accesskey = G
+email-e2ee-header = Uçtan uca e-posta şifreleme
 
 ## Chat Tab
 

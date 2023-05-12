@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = İleti listesi başlığı
+    .accesskey = b
 menu-font-size-label =
     .label = Yazı tipi boyutu
     .accesskey = o

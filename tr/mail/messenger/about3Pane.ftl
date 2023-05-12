@@ -3,6 +3,27 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Hızlı süzgeç çubuğunu aç/kapat
+quick-filter-button-label = Hızlı süzgeç
+thread-pane-header-display-button =
+    .title = İleti listesi görüntüleme seçenekleri
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } ileti
+       *[other] { $count } ileti
+    }
+thread-pane-header-context-table-view =
+    .label = Tablo görünümü
+thread-pane-header-context-cards-view =
+    .label = Kart görünümü
+thread-pane-header-context-hide =
+    .label = İleti listesi başlığını gizle
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -132,6 +153,8 @@ folder-pane-header-context-toggle-new-message =
     .label = “Yeni ileti” düğmesini göster
 folder-pane-header-context-hide =
     .label = Dizin bölmesi başlığını gizle
+folder-pane-show-total-toggle =
+    .label = Toplam ileti sayısını göster
 
 ## Message thread pane
 
