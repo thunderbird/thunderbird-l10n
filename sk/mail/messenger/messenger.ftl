@@ -141,6 +141,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Odstrániť priečinok
     .accesskey = d
+menu-edit-unsubscribe-newsgroup =
+    .label = Zrušiť odber diskusnej skupiny
+    .accesskey = d
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

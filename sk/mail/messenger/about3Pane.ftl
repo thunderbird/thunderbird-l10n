@@ -19,6 +19,10 @@ thread-pane-folder-message-count =
         [many] { $count } správ
        *[other] { $count } správ
     }
+thread-pane-header-context-table-view =
+    .label = Zobrazenie tabuľky
+thread-pane-header-context-cards-view =
+    .label = Zobrazenie kariet
 thread-pane-header-context-hide =
     .label = Skryť hlavičku zoznamu správ
 

@@ -624,7 +624,7 @@ security-devices-button =
     .accesskey = z
 email-e2ee-header = Obojstranné šifrovanie e-mailov
 account-settings = Nastavenia účtu
-email-e2ee-enable-info = Obojstranné šifrovanie pre jednotlivé svoje účty a identity nastavíte v Nastaveniach účtu.
+email-e2ee-enable-info = Obojstranné šifrovanie pre jednotlivé účty a identity nastavíte v Nastaveniach účtov.
 email-e2ee-automatism = Automatické používanie šifrovania
 email-e2ee-automatism-pre =
     { -brand-short-name } môže pomôcť automatickým povolením alebo zakázaním šifrovania pri písaní e-mailu.
