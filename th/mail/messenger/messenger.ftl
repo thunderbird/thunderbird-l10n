@@ -84,12 +84,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = เปลี่ยนเส้นทาง
-    .accesskey = D
+
+## File Menu
+
 menu-file-save-as-file =
     .label = ไฟล์…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = ลบโฟลเดอร์
+    .accesskey = ล
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] ลบข้อความ
+           *[other] ลบข้อความที่เลือก
+        }
+    .accesskey = ล
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] เลิกลบข้อความ
+           *[other] เลิกลบข้อความที่เลือก
+        }
+    .accesskey = เ
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = เปลี่ยนเส้นทาง
+    .accesskey = D
 
 ## AppMenu
 
@@ -119,6 +149,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = คัดลอกแบบถูกถอดรหัสไปที่
     .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] เลิกลบข้อความ
+           *[other] เลิกลบข้อความที่เลือก
+        }
 
 ## Message header pane
 
