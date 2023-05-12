@@ -10,6 +10,18 @@ about-rights-notification-text = { -brand-short-name } er programvare basert på
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -52,6 +64,36 @@ folder-toolbar-toggle-folder-compact-view =
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Slett mappe
+    .accesskey = S
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Slett melding
+           *[other] Slett valgte meldinger
+        }
+    .accesskey = t
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Angre sletting av melding
+           *[other] Angre valgte meldinger
+        }
+    .accesskey = g
+
+## Message Menu
+
+
 ## AppMenu
 
 appmenu-addons-and-themes =
@@ -59,6 +101,14 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Angre sletting av melding
+           *[other] Angre valgte meldinger
+        }
 
 ## Message header pane
 
@@ -98,3 +148,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
