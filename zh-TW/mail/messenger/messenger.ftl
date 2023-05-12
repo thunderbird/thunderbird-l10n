@@ -141,7 +141,7 @@ menu-edit-delete-folder =
     .accesskey = D
 menu-edit-unsubscribe-newsgroup =
     .label = 取消訂閱新聞群組
-    .accesskey = B
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

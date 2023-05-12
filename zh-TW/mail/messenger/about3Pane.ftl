@@ -6,7 +6,7 @@
 ## Message List Header Bar
 
 quick-filter-button =
-    .title = 切換快速篩選列
+    .title = 啟用或停用快速篩選列。
 quick-filter-button-label = 快速篩選
 thread-pane-header-display-button =
     .title = 郵件清單顯示選項
@@ -14,7 +14,7 @@ thread-pane-header-display-button =
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
     { $count ->
-       *[other] { $count } 封訊息
+       *[other] { $count } 封郵件
     }
 thread-pane-header-context-table-view =
     .label = 表格檢視
