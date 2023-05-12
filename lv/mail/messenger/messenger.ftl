@@ -10,6 +10,18 @@ about-rights-notification-text = { -brand-short-name } ir bezmaksas un atvērtā
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -22,11 +34,49 @@ about-rights-notification-text = { -brand-short-name } ir bezmaksas un atvērtā
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Dzēst mapi
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Dzēst vēstuli
+           *[other] Dzēst atlasītās vēstules
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Atdzēst vēstuli
+           *[other] Atdzēst atlasītās vēstules
+        }
+    .accesskey = A
+
+## Message Menu
+
+
 ## AppMenu
 
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Atdzēst vēstuli
+           *[other] Atdzēst atlasītās vēstules
+        }
 
 ## Message header pane
 
@@ -66,3 +116,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
