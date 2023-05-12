@@ -61,6 +61,7 @@ toolbar-junk =
 toolbar-delete-label = Διαγραφή
 toolbar-delete =
     .title = Διαγραφή επιλεγμένων μηνυμάτων ή φακέλου
+toolbar-undelete-label = Αναίρεση διαγραφής
 toolbar-compact-label = Σύμπτυξη
 toolbar-compact =
     .title = Αφαίρεση διαγραμμένων μηνυμάτων από τον επιλεγμένο φάκελο

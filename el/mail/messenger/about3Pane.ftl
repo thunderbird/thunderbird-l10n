@@ -3,6 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button-label = Γρήγορο φιλτράρισμα
+thread-pane-header-context-table-view =
+    .label = Προβολή πίνακα
+thread-pane-header-context-cards-view =
+    .label = Προβολή καρτών
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
