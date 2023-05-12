@@ -19,8 +19,6 @@ thread-pane-folder-message-count =
     }
 thread-pane-header-context-table-view =
     .label = Vue tableau
-thread-pane-header-context-cards-view =
-    .label = Mode fiches
 thread-pane-header-context-hide =
     .label = Masquer l’en-tête de la liste de messages
 
