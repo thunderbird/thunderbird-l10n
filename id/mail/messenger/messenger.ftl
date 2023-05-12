@@ -10,6 +10,18 @@ about-rights-notification-text = { -brand-short-name } adalah perangkat lunak be
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -22,11 +34,49 @@ about-rights-notification-text = { -brand-short-name } adalah perangkat lunak be
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Hapus Folder
+    .accesskey = u
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Hapus Pesan
+           *[other] Hapus Pesan Terpilih
+        }
+    .accesskey = H
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] kembalikan Pesan
+           *[other] Kembalikan Pesan yang Dipilih
+        }
+    .accesskey = k
+
+## Message Menu
+
+
 ## AppMenu
 
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] kembalikan Pesan
+           *[other] Kembalikan Pesan yang Dipilih
+        }
 
 ## Message header pane
 
@@ -66,3 +116,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
