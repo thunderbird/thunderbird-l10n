@@ -17,6 +17,18 @@ about-rights-notification-text = O { -brand-short-name } é um software livre e 
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -56,6 +68,36 @@ folder-toolbar-toggle-folder-compact-view =
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Apagar pasta
+    .accesskey = A
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Apagar mensagem
+           *[other] Apagar mensagens selecionadas
+        }
+    .accesskey = A
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Recuperar mensagem
+           *[other] Recuperar mensagens selecionadas
+        }
+    .accesskey = u
+
+## Message Menu
+
+
 ## AppMenu
 
 appmenu-addons-and-themes =
@@ -69,6 +111,14 @@ appmenu-help-more-troubleshooting-info =
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Recuperar mensagem
+           *[other] Recuperar mensagens selecionadas
+        }
 
 ## Message header pane
 
@@ -108,3 +158,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = F
+
+## OpenPGP
+
