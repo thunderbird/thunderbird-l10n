@@ -142,12 +142,17 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Izbriši mapo
     .accesskey = b
+menu-edit-unsubscribe-newsgroup =
+    .label = Odjavi novičarsko skupino
+    .accesskey = d
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
     .label =
         { $count ->
             [one] Izbriši sporočilo
+            [two] Izbriši izbrani sporočili
+            [few] Izbriši izbrana sporočila
            *[other] Izbriši izbrana sporočila
         }
     .accesskey = b
@@ -209,6 +214,9 @@ mail-context-undelete-messages =
             [one] Razveljavi izbris sporočila
            *[other] Razveljavi izbris izbranih sporočil
         }
+context-menu-decrypt-to-folder2 =
+    .label = Ustvari dešifrirano kopijo v
+    .accesskey = š
 
 ## Message header pane
 
