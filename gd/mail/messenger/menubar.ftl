@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Bann-cinn liosta nan teachdaireachdan
+    .accesskey = B
 menu-font-size-label =
     .label = Meud a’ chrutha-chlò
     .accesskey = u

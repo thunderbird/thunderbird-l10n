@@ -19,6 +19,12 @@ thread-pane-folder-message-count =
         [few] { $count } teachdaireachdan
        *[other] { $count } teachdaireachd
     }
+thread-pane-header-context-table-view =
+    .label = An sealladh clàir
+thread-pane-header-context-cards-view =
+    .label = Sealladh nan cairtean
+thread-pane-header-context-hide =
+    .label = Falaich bann-cinn liosta nan teachdaireachdan
 
 ## Quick Filter Bar
 
