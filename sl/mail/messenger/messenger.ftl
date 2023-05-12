@@ -162,6 +162,8 @@ menu-edit-undelete-messages =
     .label =
         { $count ->
             [one] Razveljavi izbris sporočila
+            [two] Razveljavi izbris izbranih sporočil
+            [few] Razveljavi izbris izbranih sporočil
            *[other] Razveljavi izbris izbranih sporočil
         }
     .accesskey = R
@@ -212,6 +214,8 @@ mail-context-undelete-messages =
     .label =
         { $count ->
             [one] Razveljavi izbris sporočila
+            [two] Razveljavi izbris izbranih sporočil
+            [few] Razveljavi izbris izbranih sporočil
            *[other] Razveljavi izbris izbranih sporočil
         }
 context-menu-decrypt-to-folder2 =
@@ -405,3 +409,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Pozabi gesla za OpenPGP

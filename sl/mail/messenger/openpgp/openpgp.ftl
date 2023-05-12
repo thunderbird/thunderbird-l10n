@@ -319,6 +319,21 @@ openpgp-personal-no-label =
     .label = Ne, ne uporabljaj ga kot moj osebni ključ.
 openpgp-personal-yes-label =
     .label = Da, obravnavaj ta ključ kot osebni ključ.
+openpgp-passphrase-protection =
+    .label = Zaščita z geslom
+openpgp-passphrase-status-unprotected = Nezaščiteno
+openpgp-passphrase-status-primary-password = Zaščiteno z glavnim geslom { -brand-short-name(sklon: "rodilnik") }
+openpgp-passphrase-status-user-passphrase = Zaščiteno z geslom
+openpgp-passphrase-instruction-unprotected = Nastavite geslo za zaščito tega ključa
+openpgp-passphrase-instruction-user-passphrase = Za spremembo zaščite odklenite ključ.
+openpgp-passphrase-unlock = Odkleni
+openpgp-passphrase-unlocked = Ključ uspešno odklenjen.
+openpgp-remove-protection = Odstrani zaščito z geslom
+openpgp-use-primary-password = Odstrani geslo in zaščiti z glavnim geslom
+openpgp-passphrase-new = Novo geslo
+openpgp-passphrase-new-repeat = Potrdi novo geslo
+openpgp-passphrase-set = Nastavi geslo
+openpgp-passphrase-change = Spremeni geslo
 openpgp-copy-cmd-label =
     .label = Kopiraj
 
@@ -593,8 +608,6 @@ key-trust-group = (skupina)
 import-key-file = Uvozi datoteko ključa OpenPGP
 gnupg-file = Datoteke GnuPG
 import-keys-failed = Uvažanje ključev ni uspelo
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Vnesite geslo, ki odklepa naslednji ključ: { $key }
 file-to-big-to-import = Ta datoteka je prevelika. Ne uvažajte velikega števila ključev hkrati.
 
