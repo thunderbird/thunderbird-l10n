@@ -119,6 +119,7 @@ openpgp-import-keys-failed = <b>Mearachd!</b> Cha b’ urrainn dhuinn na h-iuchr
 openpgp-import-identity-label = Dearbh-aithne
 openpgp-import-fingerprint-label = Lorg-meòir
 openpgp-import-created-label = Air a chruthachadh
+openpgp-import-bits-label = Biodan
 openpgp-import-key-props =
     .label = Roghainnean na h-iuchrach
     .accesskey = R
