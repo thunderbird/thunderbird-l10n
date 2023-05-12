@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Header danh sách thư
+    .accesskey = H
 menu-font-size-label =
     .label = Cỡ chữ
     .accesskey = o

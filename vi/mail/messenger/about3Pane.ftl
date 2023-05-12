@@ -3,6 +3,23 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Bật/tắt Thanh bộ lọc nhanh
+quick-filter-button-label = Bộ lọc nhanh
+thread-pane-header-display-button =
+    .title = Tùy chọn hiển thị danh sách thư
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count = { $count } thư
+thread-pane-header-context-table-view =
+    .label = Chế độ xem bảng
+thread-pane-header-context-cards-view =
+    .label = Chế độ xem thẻ
+thread-pane-header-context-hide =
+    .label = Ẩn header danh sách thư
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button

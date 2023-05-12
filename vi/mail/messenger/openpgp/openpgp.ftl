@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Xuất bản
     .accesskey = P
+openpgp-key-publish = Xuất bản
 openpgp-key-man-discover-prompt = Để khám phá các khóa OpenPGP trực tuyến, trên máy chủ hoặc sử dụng giao thức WKD, hãy nhập địa chỉ email hoặc ID khóa.
 openpgp-key-man-discover-progress = Đang tìm kiếm…
 # Variables:
@@ -587,8 +588,6 @@ key-trust-group = (nhóm)
 import-key-file = Nhập tập tin khóa OpenPGP
 gnupg-file = Tập tin GnuPG
 import-keys-failed = Nhập khóa không thành công
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Vui lòng nhập cụm mật khẩu để mở khóa sau: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
