@@ -141,12 +141,17 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Удалить папку
     .accesskey = У
+menu-edit-unsubscribe-newsgroup =
+    .label = Отписаться от группы новостей
+    .accesskey = и
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
     .label =
         { $count ->
-            [one] Удалить сообщение
+            [one] Удалить $count сообщение
+            [few] Удалить $count сообщения
+            [many] Удалить $count сообщений
            *[other] Удалить выбранные сообщения
         }
     .accesskey = У
