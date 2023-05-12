@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = 郵件清單標題
+    .accesskey = h
 menu-font-size-label =
     .label = 字型大小
     .accesskey = o

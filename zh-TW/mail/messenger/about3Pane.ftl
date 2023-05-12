@@ -3,6 +3,26 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = 切換快速篩選列
+quick-filter-button-label = 快速篩選
+thread-pane-header-display-button =
+    .title = 郵件清單顯示選項
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+       *[other] { $count } 封訊息
+    }
+thread-pane-header-context-table-view =
+    .label = 表格檢視
+thread-pane-header-context-cards-view =
+    .label = 卡片檢視
+thread-pane-header-context-hide =
+    .label = 隱藏訊息清單標題
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button

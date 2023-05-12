@@ -139,6 +139,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = 刪除資料夾
     .accesskey = D
+menu-edit-unsubscribe-newsgroup =
+    .label = 取消訂閱新聞群組
+    .accesskey = B
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
