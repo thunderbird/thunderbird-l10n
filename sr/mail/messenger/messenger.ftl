@@ -12,6 +12,18 @@ about-rights-notification-text = { -brand-short-name } је слободан и 
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -54,12 +66,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Преусмери
-    .accesskey = у
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Датотека…
     .accesskey = Д
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Обриши фасциклу
+    .accesskey = О
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Обриши поруку
+           *[other] Обриши изабране поруке
+        }
+    .accesskey = О
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Врати обрисану поруку
+           *[other] Врати изабране обрисане поруке
+        }
+    .accesskey = т
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Преусмери
+    .accesskey = у
 
 ## AppMenu
 
@@ -90,6 +132,14 @@ mail-context-delete-messages =
             [one] Обриши изабрану поруку`
             [few] Обриши изабране поруке
            *[other] Обриши изабране поруке
+        }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Врати обрисану поруку
+           *[other] Врати изабране обрисане поруке
         }
 
 ## Message header pane
@@ -200,3 +250,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
