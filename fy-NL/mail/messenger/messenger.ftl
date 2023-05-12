@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Omliede
-    .accesskey = O
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Bestân…
     .accesskey = B
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Map fuortsmite
+    .accesskey = M
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Berjocht fuortsmite
+           *[other] Selektearre berjochten fuortsmite
+        }
+    .accesskey = f
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Berjocht fuortsmite ûngedien meitsje
+           *[other] Fuortsmite selektearre berjochten ûngedien meitsje
+        }
+    .accesskey = u
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Omliede
+    .accesskey = O
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Kopiearje as ûntsifere nei
     .accesskey = K
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Berjocht fuortsmite ûngedien meitsje
+           *[other] Fuortsmite selektearre berjochten ûngedien meitsje
+        }
 
 ## Message header pane
 
@@ -344,3 +382,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
