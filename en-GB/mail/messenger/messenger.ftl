@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Redirect
-    .accesskey = d
+
+## File Menu
+
 menu-file-save-as-file =
     .label = File…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Delete Folder
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Delete Message
+           *[other] Delete Selected Messages
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Undelete Message
+           *[other] Undelete Selected Messages
+        }
+    .accesskey = d
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Redirect
+    .accesskey = d
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Copy As Decrypted To
     .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Undelete Message
+           *[other] Undelete Selected Messages
+        }
 context-menu-decrypt-to-folder2 =
     .label = Create Decrypted Copy In
     .accesskey = y
