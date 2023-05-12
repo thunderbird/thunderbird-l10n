@@ -373,6 +373,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Sleutel vervalt over minder dan 6 maanden
 openpgp-key-has-expired-icon =
     .title = Sleutel vervallen
+openpgp-suggest-publishing-key = Door de openbare sleutel op een sleutelserver te publiceren, kunnen anderen deze ontdekken.
 openpgp-key-expand-section =
     .tooltiptext = Meer informatie
 openpgp-key-revoke-title = Sleutel intrekken
