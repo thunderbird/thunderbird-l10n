@@ -15,6 +15,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = La connexió no és segura
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -62,6 +74,36 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
+
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Suprimeix la carpeta
+    .accesskey = x
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Suprimeix el missatge
+           *[other] Suprimeix els missatges seleccionats
+        }
+    .accesskey = u
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Recupera el missatge esborrat
+           *[other] Recupera els missatges esborrats seleccionats
+        }
+    .accesskey = b
+
+## Message Menu
+
 redirect-msg-menuitem =
     .label = Redirigeix
     .accesskey = d
@@ -83,6 +125,14 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Redirigeix
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Recupera el missatge esborrat
+           *[other] Recupera els missatges esborrats seleccionats
+        }
 
 ## Message header pane
 
@@ -137,3 +187,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
