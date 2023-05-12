@@ -142,6 +142,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Rjadowak zhašeć
     .accesskey = z
+menu-edit-unsubscribe-newsgroup =
+    .label = Diskusijnu skupinu wotskazać
+    .accesskey = t
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
