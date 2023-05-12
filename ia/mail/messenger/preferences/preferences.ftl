@@ -626,6 +626,9 @@ email-e2ee-header = Cryptation de extremo-a-extremo de email
 account-settings = Parametros del conto
 email-e2ee-enable-info = Configura contos e identitates email pro cryptation de extremo-a-extremo in Parametros de conto.
 email-e2ee-automatism = Uso automatic del cryptation
+email-e2ee-automatism-pre =
+    { -brand-short-name } pote assister per automaticamente activar o disactivar le cryptation dum on scribe un email.
+    Activation/disactivation automatic es basate super le disponibilitate de claves o certificatos valide e acceptate per correspondente.
 email-e2ee-auto-on =
     .label = Automaticamente activar le cryptation quando possibile
 email-e2ee-auto-off =

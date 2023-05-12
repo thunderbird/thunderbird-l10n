@@ -5,7 +5,11 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Activar/disactivar barra de filtro rapide
 quick-filter-button-label = Filtro rapide
+thread-pane-header-display-button =
+    .title = Optiones de presentation del lista del messages
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -17,6 +21,8 @@ thread-pane-header-context-table-view =
     .label = Vista de tabella
 thread-pane-header-context-cards-view =
     .label = Vista del cartas
+thread-pane-header-context-hide =
+    .label = Celar le titulo del lista del messages
 
 ## Quick Filter Bar
 

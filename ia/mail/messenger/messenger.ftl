@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Deler dossier
     .accesskey = D
+menu-edit-unsubscribe-newsgroup =
+    .label = Remover inrolamento al gruppos de discussion
+    .accesskey = v
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
