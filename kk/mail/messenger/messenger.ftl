@@ -127,12 +127,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Қайта бағдарлау
-    .accesskey = д
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Файл…
     .accesskey = Ф
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Буманы өшіру
+    .accesskey = ш
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Хабарламаны өшіру
+           *[other] Таңдалған хабарламаларды өшіру
+        }
+    .accesskey = ш
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Хабарламаны өшіруді болдырмау
+           *[other] Таңдалған хабарламалар өшіруін болдырмау
+        }
+    .accesskey = б
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Қайта бағдарлау
+    .accesskey = д
 
 ## AppMenu
 
@@ -165,6 +195,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Шифрі шешілген түрінде келесі жерге көшіру
     .accesskey = ш
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Хабарламаны өшіруді болдырмау
+           *[other] Таңдалған хабарламалар өшіруін болдырмау
+        }
 
 ## Message header pane
 
@@ -342,3 +380,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = д
+
+## OpenPGP
+
