@@ -10,6 +10,18 @@ about-rights-notification-text = { -brand-short-name } este un software liber ș
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -22,11 +34,49 @@ about-rights-notification-text = { -brand-short-name } este un software liber ș
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Șterge dosar
+    .accesskey = d
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Șterge mesajul
+           *[other] Șterge mesajele selectate
+        }
+    .accesskey = g
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Recuperează mesajul șters
+           *[other] Recuperează mesajele selectate
+        }
+    .accesskey = j
+
+## Message Menu
+
+
 ## AppMenu
 
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Recuperează mesajul șters
+           *[other] Recuperează mesajele selectate
+        }
 
 ## Message header pane
 
@@ -69,3 +119,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
