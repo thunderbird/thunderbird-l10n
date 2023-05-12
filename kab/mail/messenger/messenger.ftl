@@ -90,11 +90,41 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Abeddel n uwelleh
-    .accesskey = A
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Afaylu…
+    .accesskey = A
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Kkes akaram
+    .accesskey = K
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Kkes izen
+           *[other] Sefsex iznan yettwafernen
+        }
+    .accesskey = K
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Sefsex tukksa n yizen
+           *[other] Sefsex tukksa n yiznan yettwafernen
+        }
+    .accesskey = f
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Abeddel n uwelleh
     .accesskey = A
 
 ## AppMenu
@@ -129,6 +159,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Nqel am wakken yettuwgelhen ɣer
     .accesskey = q
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Sefsex tukksa n yizen
+           *[other] Sefsex tukksa n yiznan yettwafernen
+        }
 
 ## Message header pane
 
@@ -285,3 +323,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
