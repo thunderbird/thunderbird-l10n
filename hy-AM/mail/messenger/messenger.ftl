@@ -14,6 +14,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Կապակցումն անվտանգ չէ
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -29,6 +41,36 @@ addons-and-themes-toolbarbutton =
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Ջնջել
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Ջնջել նամակը
+           *[other] Ջնջել ընտրված նամակները
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Ետարկել ջնջումը
+           *[other] Ետարկել ընտրված նամակները
+        }
+    .accesskey = ր
+
+## Message Menu
+
+
 ## AppMenu
 
 appmenu-addons-and-themes =
@@ -36,6 +78,14 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Ետարկել ջնջումը
+           *[other] Ետարկել ընտրված նամակները
+        }
 
 ## Message header pane
 
@@ -75,3 +125,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
