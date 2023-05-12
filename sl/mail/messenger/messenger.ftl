@@ -130,12 +130,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Preusmeri
-    .accesskey = u
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Datoteko …
     .accesskey = D
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Izbriši mapo
+    .accesskey = b
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Izbriši sporočilo
+           *[other] Izbriši izbrana sporočila
+        }
+    .accesskey = b
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Razveljavi izbris sporočila
+           *[other] Razveljavi izbris izbranih sporočil
+        }
+    .accesskey = R
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Preusmeri
+    .accesskey = u
 
 ## AppMenu
 
@@ -171,6 +201,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Kopiraj v nešifrirani obliki v
     .accesskey = f
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Razveljavi izbris sporočila
+           *[other] Razveljavi izbris izbranih sporočil
+        }
 
 ## Message header pane
 
@@ -356,3 +394,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = f
+
+## OpenPGP
+
