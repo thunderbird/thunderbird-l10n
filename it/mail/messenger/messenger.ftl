@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Elimina cartella
     .accesskey = E
+menu-edit-unsubscribe-newsgroup =
+    .label = Annulla l’iscrizione al newsgroup
+    .accesskey = w
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Intestazione elenco messaggi
+    .accesskey = n
 menu-font-size-label =
     .label = Dimensione carattere
     .accesskey = m
