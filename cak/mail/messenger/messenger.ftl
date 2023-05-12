@@ -17,6 +17,18 @@ messenger-window-close-button =
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -53,9 +65,39 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Yakb'äl…
     .accesskey = Y
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Tiyuj ri Yakwuj
+    .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Tiyuj Tzijol
+           *[other] Keyuj Cha'on taq Tzijol
+        }
+    .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Man Tiyuj Rutzijol
+           *[other] Man Keyuj Cha'on taq Tzijol
+        }
+    .accesskey = y
+
+## Message Menu
+
 
 ## AppMenu
 
@@ -74,6 +116,14 @@ appmenu-help-more-troubleshooting-info =
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Man Tiyuj Rutzijol
+           *[other] Man Keyuj Cha'on taq Tzijol
+        }
 
 ## Message header pane
 
@@ -171,3 +221,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
