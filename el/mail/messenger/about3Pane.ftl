@@ -132,6 +132,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Εμφάνιση του «Νέο μήνυμα»
 folder-pane-header-context-hide =
     .label = Απόκρυψη κεφαλίδας προβολής φακέλων
+folder-pane-show-total-toggle =
+    .label = Εμφάνιση συνολικού αριθμού μηνυμάτων
 
 ## Message thread pane
 
