@@ -130,11 +130,41 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Dalej pósrědniś
-    .accesskey = D
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Dataja…
+    .accesskey = D
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Zarědnik lašowaś
+    .accesskey = Z
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Powěsć lašowaś
+           *[other] Wubrane powěsći lašowaś
+        }
+    .accesskey = l
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Powěsć wótnowiś
+           *[other] Wubrane powěsći wótnowiś
+        }
+    .accesskey = o
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Dalej pósrědniś
     .accesskey = D
 
 ## AppMenu
@@ -171,6 +201,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Ako dešifrěrowanu kopěrowaś do
     .accesskey = d
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Powěsć wótnowiś
+           *[other] Wubrane powěsći wótnowiś
+        }
 context-menu-decrypt-to-folder2 =
     .label = Skoděrowanu kopiju napóraś w
     .accesskey = S
