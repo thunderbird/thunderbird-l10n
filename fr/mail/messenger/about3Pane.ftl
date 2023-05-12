@@ -14,8 +14,8 @@ thread-pane-header-display-button =
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
     { $count ->
-        [one] { $count } messages
-       *[other] { $count } messages
+        [one] { $count } message
+       *[other] { $count } messages
     }
 thread-pane-header-context-table-view =
     .label = Vue tableau

@@ -141,8 +141,8 @@ menu-edit-delete-folder =
     .label = Supprimer le dossier
     .accesskey = d
 menu-edit-unsubscribe-newsgroup =
-    .label = Groupes de discussion avec désabonnement
-    .accesskey = C
+    .label = Se désabonner du groupe de discussion
+    .accesskey = S
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
