@@ -15,6 +15,18 @@ messenger-window-close-button =
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 quick-filter-toolbarbutton =
@@ -51,9 +63,39 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Comhad…
     .accesskey = C
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Scrios Fillteán
+    .accesskey = S
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Scrios Teachtaireacht
+           *[other] Scrios Teachtaireachtaí Roghnaithe
+        }
+    .accesskey = S
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Díscrios Teachtaireacht
+           *[other] Díscrios Teachtaireachtaí Roghnaithe
+        }
+    .accesskey = D
+
+## Message Menu
+
 
 ## AppMenu
 
@@ -64,6 +106,14 @@ appmenu-settings =
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Díscrios Teachtaireacht
+           *[other] Díscrios Teachtaireachtaí Roghnaithe
+        }
 
 ## Message header pane
 
@@ -127,3 +177,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
