@@ -3,6 +3,23 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Toglaich bàr a’ ghrad-chriathraidh
+quick-filter-button-label = Grad-chriathrag
+thread-pane-header-display-button =
+    .title = Roghainnean taisbeanadh liosta nan teachdaireachdan
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } teachdaireachd
+        [two] { $count } theachdaireachd
+        [few] { $count } teachdaireachdan
+       *[other] { $count } teachdaireachd
+    }
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
