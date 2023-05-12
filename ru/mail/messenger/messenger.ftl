@@ -149,21 +149,23 @@ menu-edit-unsubscribe-newsgroup =
 menu-edit-delete-messages =
     .label =
         { $count ->
-            [one] Удалить $count сообщение
-            [few] Удалить $count сообщения
-            [many] Удалить $count сообщений
+            [one] Удалить { $count } сообщение
+            [few] Удалить { $count } сообщения
+            [many] Удалить { $count } сообщений
            *[other] Удалить выбранные сообщения
         }
-    .accesskey = У
+    .accesskey = л
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Восстановить сообщение
+            [one] Восстановить { $count } сообщение
+            [few] Восстановить { $count } сообщения
+            [many] Восстановить { $count } сообщений
            *[other] Восстановить выбранные сообщения
         }
-    .accesskey = В
+    .accesskey = н
 
 ## Message Menu
 
@@ -197,9 +199,10 @@ context-menu-redirect-msg =
 mail-context-delete-messages =
     .label =
         { $count ->
-            [one] Удалить выбранное сообщение
-            [few] Удалить выбранные сообщения
-           *[many] Удалить выбранные сообщения
+            [one] Удалить { $count } сообщение
+            [few] Удалить { $count } сообщения
+            [many] Удалить { $count } сообщений
+           *[other] Удалить выбранные сообщения
         }
 context-menu-decrypt-to-folder =
     .label = Копировать в расшифрованном виде в
@@ -209,7 +212,9 @@ context-menu-decrypt-to-folder =
 mail-context-undelete-messages =
     .label =
         { $count ->
-            [one] Восстановить сообщение
+            [one] Восстановить { $count } сообщение
+            [few] Восстановить { $count } сообщения
+            [many] Восстановить { $count } сообщений
            *[other] Восстановить выбранные сообщения
         }
 context-menu-decrypt-to-folder2 =

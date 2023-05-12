@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Заголовок списка сообщений
+    .accesskey = л
 menu-font-size-label =
     .label = Размер шрифта
     .accesskey = м
