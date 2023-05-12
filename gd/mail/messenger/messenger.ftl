@@ -130,12 +130,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Ath-stiùirich
-    .accesskey = A
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Faidhle…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Sguab às am pasgan
+    .accesskey = S
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Sguab às an teachdaireachd
+           *[other] Sguab às na teachdaireachdan a thagh thu
+        }
+    .accesskey = d
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Neo-dhèan sguabadh às na teachdaireachd
+           *[other] Neo-dhèan sguabadh às nan teachdaireachdan
+        }
+    .accesskey = d
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Ath-stiùirich
+    .accesskey = A
 
 ## AppMenu
 
@@ -171,6 +201,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Cuir lethbhreac dhe na chaidh a dhì-chrioptachadh gu
     .accesskey = t
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Neo-dhèan sguabadh às na teachdaireachd
+           *[other] Neo-dhèan sguabadh às nan teachdaireachdan
+        }
 context-menu-decrypt-to-folder2 =
     .label = Cruthaich lethbhreac dì-chrioptaichte an-seo:
     .accesskey = r
