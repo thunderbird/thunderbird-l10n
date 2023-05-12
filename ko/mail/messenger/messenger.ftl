@@ -10,6 +10,18 @@ about-rights-notification-text = { -brand-short-name }은 전 세계 수천 명�
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -49,11 +61,49 @@ folder-toolbar-toggle-folder-compact-view =
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = 폴더 삭제
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] 메시지 삭제
+           *[other] 선택한 메시지 삭제
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] 메시지 삭제 취소
+           *[other] 선택한 메시지 삭제 취소
+        }
+    .accesskey = d
+
+## Message Menu
+
+
 ## AppMenu
 
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] 메시지 삭제 취소
+           *[other] 선택한 메시지 삭제 취소
+        }
 
 ## Message header pane
 
@@ -93,3 +143,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
