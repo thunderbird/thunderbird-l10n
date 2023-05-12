@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Omleiden
-    .accesskey = O
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Bestand…
     .accesskey = B
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Map verwijderen
+    .accesskey = M
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Bericht verwijderen
+           *[other] Geselecteerde berichten verwijderen
+        }
+    .accesskey = v
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Bericht verwijderen ongedaan maken
+           *[other] Verwijderen van geselecteerde berichten ongedaan maken
+        }
+    .accesskey = V
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Omleiden
+    .accesskey = O
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Kopiëren als ontsleuteld naar
     .accesskey = K
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Bericht verwijderen ongedaan maken
+           *[other] Verwijderen van geselecteerde berichten ongedaan maken
+        }
 context-menu-decrypt-to-folder2 =
     .label = Ontcijferde kopie maken in
     .accesskey = c
