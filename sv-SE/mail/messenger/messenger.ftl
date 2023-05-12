@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Omdirigera
-    .accesskey = d
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Arkiv…
     .accesskey = A
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Ta bort mapp
+    .accesskey = r
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Ta bort meddelande
+           *[other] Ta bort markerade meddelanden
+        }
+    .accesskey = T
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Återställ borttaget meddelande
+           *[other] Återställ markerade borttagna meddelanden
+        }
+    .accesskey = b
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Omdirigera
+    .accesskey = d
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Kopiera som dekrypterad till
     .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Återställ borttaget meddelande
+           *[other] Återställ markerade borttagna meddelanden
+        }
 context-menu-decrypt-to-folder2 =
     .label = Skapa dekrypterad kopia i
     .accesskey = k
