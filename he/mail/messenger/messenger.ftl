@@ -23,6 +23,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = החיבור אינו מאובטח
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -52,9 +64,39 @@ show-all-folders-label =
 
 ## Menu
 
+
+## File Menu
+
 menu-file-save-as-file =
     .label = קובץ…
     .accesskey = ק
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = מחיקת תיקייה
+    .accesskey = ת
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] מחק הודעה
+           *[other] מחק הודעות נבחרות
+        }
+    .accesskey = ח
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] בטל מחיקת הודעה
+           *[other] בטל מחיקת הודעות נבחרות
+        }
+    .accesskey = ב
+
+## Message Menu
+
 
 ## AppMenu
 
@@ -73,6 +115,14 @@ appmenu-help-more-troubleshooting-info =
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] בטל מחיקת הודעה
+           *[other] בטל מחיקת הודעות נבחרות
+        }
 
 ## Message header pane
 
@@ -129,3 +179,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = ס
+
+## OpenPGP
+
