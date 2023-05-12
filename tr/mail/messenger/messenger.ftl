@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Yönlendir
-    .accesskey = Y
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Dosya…
     .accesskey = D
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Dizini sil
+    .accesskey = i
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] İletiyi sil
+           *[other] Seçilmiş iletileri sil
+        }
+    .accesskey = t
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Silinen iletiyi geri al
+           *[other] Seçilen silinmiş iletileri geri al
+        }
+    .accesskey = i
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Yönlendir
+    .accesskey = Y
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Şifresi çözülmüş olarak kopyala
     .accesskey = f
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Silinen iletiyi geri al
+           *[other] Seçilen silinmiş iletileri geri al
+        }
 
 ## Message header pane
 
@@ -344,3 +382,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
