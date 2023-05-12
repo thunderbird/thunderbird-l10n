@@ -132,12 +132,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Ailgyfeirio
-    .accesskey = A
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Ffeil…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Dileu Ffolder
+    .accesskey = F
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Dileu Neges
+           *[other] Dileu'r Negeseuon Hyn
+        }
+    .accesskey = N
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Dad-ddileu Neges
+           *[other] Dad-ddileu'r Negeseuon Hyn
+        }
+    .accesskey = a
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Ailgyfeirio
+    .accesskey = A
 
 ## AppMenu
 
@@ -175,6 +205,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Copi Fel Wedi'i Ddatgryptio I.
     .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Dad-ddileu Neges
+           *[other] Dad-ddileu'r Negeseuon Hyn
+        }
 context-menu-decrypt-to-folder2 =
     .label = Creu Copi Wedi'i Ddadgryptio Yn
     .accesskey = D
