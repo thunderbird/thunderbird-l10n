@@ -32,6 +32,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Veza nije sigurna
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -79,12 +91,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Preusmjeri
-    .accesskey = u
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Datoteka…
     .accesskey = D
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Obriši mapu
+    .accesskey = O
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Obriši poruku
+           *[other] Obriši odabrane poruke
+        }
+    .accesskey = O
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Vrati obrisanu poruku
+           *[other] Vrati odabrane poruke
+        }
+    .accesskey = r
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Preusmjeri
+    .accesskey = u
 
 ## AppMenu
 
@@ -117,6 +159,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Kopiraj kao dešifrirano u
     .accesskey = p
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Vrati obrisanu poruku
+           *[other] Vrati odabrane poruke
+        }
 
 ## Message header pane
 
@@ -288,3 +338,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
