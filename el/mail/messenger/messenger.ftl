@@ -167,6 +167,9 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Αντιγραφή ως αποκρυπτογραφημένο σε
     .accesskey = γ
+context-menu-decrypt-to-folder2 =
+    .label = Δημιουργία αποκρυπτογραφημένου αντιγράφου σε
+    .accesskey = γ
 
 ## Message header pane
 
@@ -344,3 +347,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
