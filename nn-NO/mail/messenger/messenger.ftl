@@ -70,12 +70,42 @@ show-recent-folders-label =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Omdiriger
-    .accesskey = d
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Fil…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Slett mappe
+    .accesskey = S
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Slett melding
+           *[other] Slett valde meldingar
+        }
+    .accesskey = t
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Angre sletting av melding
+           *[other] Angre valde meldingar
+        }
+    .accesskey = g
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Omdiriger
+    .accesskey = d
 
 ## AppMenu
 
@@ -98,6 +128,14 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Omdiriger
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Angre sletting av melding
+           *[other] Angre valde meldingar
+        }
 
 ## Message header pane
 
@@ -198,3 +236,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
