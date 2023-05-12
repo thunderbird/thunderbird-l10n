@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Birbideratzea
-    .accesskey = B
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Fitxategia…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Ezabatu karpeta
+    .accesskey = E
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Ezabatu mezua
+           *[other] Ezabatu hautatutako mezuak
+        }
+    .accesskey = z
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Desezabatu mezua
+           *[other] Desezabatu hautatutako mezuak
+        }
+    .accesskey = e
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Birbideratzea
+    .accesskey = B
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Kopiatu deszifratua hona
     .accesskey = z
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Desezabatu mezua
+           *[other] Desezabatu hautatutako mezuak
+        }
 
 ## Message header pane
 
@@ -344,3 +382,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
