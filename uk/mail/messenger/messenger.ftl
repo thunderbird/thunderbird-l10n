@@ -129,12 +129,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Переслати
-    .accesskey = П
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Файл…
     .accesskey = Ф
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Видалити теку
+    .accesskey = В
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Видалити повідомлення
+           *[other] Видалити вибрані повідомлення
+        }
+    .accesskey = В
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Повернути повідомлення
+           *[other] Повернути вибрані повідомлення
+        }
+    .accesskey = п
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Переслати
+    .accesskey = П
 
 ## AppMenu
 
@@ -169,6 +199,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Копіювати як розшифроване до
     .accesskey = ш
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Повернути повідомлення
+           *[other] Повернути вибрані повідомлення
+        }
 context-menu-decrypt-to-folder2 =
     .label = Створити розшифровану копію в
     .accesskey = н
