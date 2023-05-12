@@ -129,12 +129,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Presmerovať
-    .accesskey = r
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Súbor…
     .accesskey = S
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Odstrániť priečinok
+    .accesskey = d
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Odstrániť správu
+           *[other] Odstrániť označené správy
+        }
+    .accesskey = O
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Obnoviť správu
+           *[other] Obnoviť označené správy
+        }
+    .accesskey = O
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Presmerovať
+    .accesskey = r
 
 ## AppMenu
 
@@ -169,6 +199,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Skopírovať ako dešifrované do
     .accesskey = f
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Obnoviť správu
+           *[other] Obnoviť označené správy
+        }
 context-menu-decrypt-to-folder2 =
     .label = Vytvoriť dešifrovanú kópiu
     .accesskey = f
