@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Ανακατεύθυνση
-    .accesskey = κ
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Αρχείο…
     .accesskey = Α
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Διαγραφή φακέλου
+    .accesskey = Δ
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Διαγραφή μηνύματος
+           *[other] Διαγραφή επιλεγμένων μηνυμάτων
+        }
+    .accesskey = Δ
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Αναίρεση διαγραφής μηνύματος
+           *[other] Αναίρεση διαγραφής επιλεγμένων μηνυμάτων
+        }
+    .accesskey = ν
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Ανακατεύθυνση
+    .accesskey = κ
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Αντιγραφή ως αποκρυπτογραφημένο σε
     .accesskey = γ
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Αναίρεση διαγραφής μηνύματος
+           *[other] Αναίρεση διαγραφής επιλεγμένων μηνυμάτων
+        }
 context-menu-decrypt-to-folder2 =
     .label = Δημιουργία αποκρυπτογραφημένου αντιγράφου σε
     .accesskey = γ
