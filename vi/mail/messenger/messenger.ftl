@@ -127,12 +127,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Chuyển hướng
-    .accesskey = D
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Tập tin…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Xóa thư mục
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Xóa thư
+           *[other] Xóa thư đã chọn
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Không xóa thư
+           *[other] Không xóa thư đã chọn
+        }
+    .accesskey = d
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Chuyển hướng
+    .accesskey = D
 
 ## AppMenu
 
@@ -165,6 +195,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Sao chép dưới dạng giải mã thành
     .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Không xóa thư
+           *[other] Không xóa thư đã chọn
+        }
 context-menu-decrypt-to-folder2 =
     .label = Tạo bản sao được giải mã trong
     .accesskey = y
