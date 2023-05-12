@@ -173,6 +173,10 @@ menu-open-key-manager =
     .label = Quản lý khóa
     .accesskey = M
 # Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Bạn chưa thiết lập để gửi tin nhắn được mã hóa đầu cuối từ { $addr }.
+# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề của khóa đối với { $addr }
 # Variables:

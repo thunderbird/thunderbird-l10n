@@ -139,6 +139,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Xóa thư mục
     .accesskey = D
+menu-edit-unsubscribe-newsgroup =
+    .label = Hủy đăng ký nhóm tin
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
