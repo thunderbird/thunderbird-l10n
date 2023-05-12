@@ -9,6 +9,18 @@
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -21,11 +33,49 @@
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Izbriši direktorij
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Izbriši poruku
+           *[other] Izbriši odabrane poruke
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Vrati izbrisanu poruku
+           *[other] Vrati odabrane izbrisane poruke
+        }
+    .accesskey = d
+
+## Message Menu
+
+
 ## AppMenu
 
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Vrati izbrisanu poruku
+           *[other] Vrati odabrane izbrisane poruke
+        }
 
 ## Message header pane
 
@@ -65,3 +115,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
