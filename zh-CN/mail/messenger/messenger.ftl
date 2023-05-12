@@ -127,12 +127,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = 重定向
-    .accesskey = D
+
+## File Menu
+
 menu-file-save-as-file =
     .label = 文件…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = 删除文件夹
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] 删除消息
+           *[other] 删除选定的消息
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] 恢复已删除的消息
+           *[other] 恢复所选的消息
+        }
+    .accesskey = d
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = 重定向
+    .accesskey = D
 
 ## AppMenu
 
@@ -165,6 +195,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = 复制解密消息到
     .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] 恢复已删除的消息
+           *[other] 恢复所选的消息
+        }
 context-menu-decrypt-to-folder2 =
     .label = 创建解密副本
     .accesskey = Y
