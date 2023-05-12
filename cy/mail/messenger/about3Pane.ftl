@@ -3,6 +3,31 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Toggle'r Bar Hidlo Cyflym
+quick-filter-button-label = Hidl Cyflym
+thread-pane-header-display-button =
+    .title = Opsiynau arddangos rhestr negeseuon
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [zero] { $count } Neges
+        [one] { $count } Neges
+        [two] { $count } Neges
+        [few] { $count } Neges
+        [many] { $count } Neges
+       *[other] { $count } Neges
+    }
+thread-pane-header-context-table-view =
+    .label = Golygfa Tabl
+thread-pane-header-context-cards-view =
+    .label = Golygfa Cardiau
+thread-pane-header-context-hide =
+    .label = Cuddio Pennawd Rhestr Negeseuon
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button

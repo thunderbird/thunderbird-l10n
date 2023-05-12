@@ -144,6 +144,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Dileu Ffolder
     .accesskey = F
+menu-edit-unsubscribe-newsgroup =
+    .label = Dad-danysgrifio Grŵp Newyddion
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
