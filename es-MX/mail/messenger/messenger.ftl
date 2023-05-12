@@ -98,12 +98,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Redirigir
-    .accesskey = d
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Archivo…
     .accesskey = A
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Eliminar carpeta
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Borrar mensaje
+           *[other] Borrar mensajes seleccionados
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Recuperar mensaje eliminado
+           *[other] Recuperar mensajes seleccionados
+        }
+    .accesskey = d
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Redirigir
+    .accesskey = d
 
 ## AppMenu
 
@@ -137,6 +167,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Copiar como descifrado a
     .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Recuperar mensaje eliminado
+           *[other] Recuperar mensajes seleccionados
+        }
 
 ## Message header pane
 
@@ -314,3 +352,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
