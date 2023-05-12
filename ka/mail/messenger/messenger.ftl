@@ -31,6 +31,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = კავშირი დაუცველია
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -78,12 +90,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = გადამისამართება
-    .accesskey = დ
+
+## File Menu
+
 menu-file-save-as-file =
     .label = ფაილი…
     .accesskey = ფ
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = საქაღალდის წაშლა
+    .accesskey = ქ
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] წერილის წაშლა
+           *[other] შერჩეული წერილების წაშლა
+        }
+    .accesskey = შ
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] წერილის აღდგენა
+           *[other] შერჩეული წერილების აღდგენა
+        }
+    .accesskey = ღ
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = გადამისამართება
+    .accesskey = დ
 
 ## AppMenu
 
@@ -115,6 +157,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = ასლი გაშიფრული სახით
     .accesskey = ფ
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] წერილის აღდგენა
+           *[other] შერჩეული წერილების აღდგენა
+        }
 
 ## Message header pane
 
@@ -270,3 +320,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
