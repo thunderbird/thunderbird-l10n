@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Átirányítás
-    .accesskey = i
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Fájl…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Mappa törlése
+    .accesskey = l
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Üzenet törlése
+           *[other] Kijelölt üzenetek törlése
+        }
+    .accesskey = z
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Törölt üzenet visszaállítása
+           *[other] Kijelölt üzenetek visszaállítása
+        }
+    .accesskey = v
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Átirányítás
+    .accesskey = i
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Másolás visszafejtettként ide
     .accesskey = v
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Törölt üzenet visszaállítása
+           *[other] Kijelölt üzenetek visszaállítása
+        }
 context-menu-decrypt-to-folder2 =
     .label = Visszafejtett másolat létrehozása
     .accesskey = V
