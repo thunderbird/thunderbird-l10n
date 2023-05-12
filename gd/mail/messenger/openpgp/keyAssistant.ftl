@@ -8,6 +8,15 @@ openpgp-key-assistant-rogue-warning = Feuch is na gabh ri iuchair fuadain. A dh�
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = Cha ghabh a chrioptachadh
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-issue-description =
+    { $count ->
+        [one] Airson crioptachadh a dhèanamh, feumaidh tu iuchair dhligheach fhaighinn airson { $count } fhaightear agus gabhail ris. <a data-l10n-name="openpgp-link">Barrachd fiosrachaidh…</a>
+        [two] Airson crioptachadh a dhèanamh, feumaidh tu iuchair dhligheach fhaighinn airson { $count } fhaightear agus gabhail ris. <a data-l10n-name="openpgp-link">Barrachd fiosrachaidh…</a>
+        [few] Airson crioptachadh a dhèanamh, feumaidh tu iuchair dhligheach fhaighinn airson { $count } faightearan agus gabhail ris. <a data-l10n-name="openpgp-link">Barrachd fiosrachaidh…</a>
+       *[other] Airson crioptachadh a dhèanamh, feumaidh tu iuchair dhligheach fhaighinn airson { $count } faightear agus gabhail ris. <a data-l10n-name="openpgp-link">Barrachd fiosrachaidh…</a>
+    }
 openpgp-key-assistant-info-alias = Mar is trice feumaidh { -brand-short-name } gum bi ID cleachdaiche agus seòladh puist-d a tha a’ freagairt ris ann an iuchair phoblach an fhaighteir. ’S urrainn dhut seo a thar-sgrìobhadh le riaghailteas alias faightear OpenPGP. <a data-l10n-name="openpgp-link">Barrachd fiosrachaidh…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.

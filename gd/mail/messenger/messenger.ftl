@@ -142,6 +142,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Sguab às am pasgan
     .accesskey = S
+menu-edit-unsubscribe-newsgroup =
+    .label = Cuir crìoch air an fho-sgrìobhadh aig a’ bhuidheann-naidheachd
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

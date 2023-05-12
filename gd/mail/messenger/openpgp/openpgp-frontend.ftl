@@ -36,3 +36,11 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Fuirich ort…
 openpgp-has-nested-encrypted-parts = Tha pìosan crioptaichte a bharrachd aig an teachdaireachd seo.
 openpgp-show-encrypted-parts = Dì-chrioptaich is seall
+openpgp-cannot-decrypt-because-mdc =
+    Seo teachdaireachd chrioptaichte a tha a’ cleachdadh seann-acainn sho-leònta.
+    Dh’fhaoidte gun deach atharrachadh air an t-slighe ’s cuideigin am beachd an t-susbaint
+    aige a ghoid. Chan eil an t-susbaint ga shealltainn gus do dhìon.
+openpgp-cannot-decrypt-because-missing-key = Chan eil an iuchair-rùin air a bheil feum airson an teachdaireachd seo a dhì-chrioptachadh ri làimh.
+openpgp-partially-signed =
+    Cha deach ach cuid dhen teachdaireachd seo a shoidhneadh air dòigh dhigiteach le OpenPGP.
+    Ma bhriogas tu air a’ phutan “Dearbh”, thèid na pìosan gun dìon a chur am falach agus thèid staid an t-soidhnidh dhigitich a shealltainn.
