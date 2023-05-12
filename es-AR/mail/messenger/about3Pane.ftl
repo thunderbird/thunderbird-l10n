@@ -3,6 +3,20 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Alternar la barra de filtro rápido
+quick-filter-button-label = Filtro rápido
+thread-pane-header-display-button =
+    .title = Opciones de visualización de la lista de mensajes
+thread-pane-header-context-table-view =
+    .label = Vista de tabla
+thread-pane-header-context-cards-view =
+    .label = Vista de tarjetas
+thread-pane-header-context-hide =
+    .label = Ocultar encabezado de lista de mensajes
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button

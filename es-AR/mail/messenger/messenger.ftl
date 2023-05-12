@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Borrar carpeta
     .accesskey = B
+menu-edit-unsubscribe-newsgroup =
+    .label = Cancelar suscripción
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
