@@ -35,11 +35,49 @@ messenger-window-close-button =
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Выдаліць папку
+    .accesskey = д
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Выдаліць ліст
+           *[other] Выдаліць вылучаныя лісты
+        }
+    .accesskey = д
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Адмяніць выдаленне ліста
+           *[other] Адмяніць выдаленне вылучаных лістоў
+        }
+    .accesskey = ы
+
+## Message Menu
+
+
 ## AppMenu
 
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Адмяніць выдаленне ліста
+           *[other] Адмяніць выдаленне вылучаных лістоў
+        }
 
 ## Message header pane
 
@@ -81,3 +119,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
