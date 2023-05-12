@@ -9,6 +9,18 @@
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -21,11 +33,49 @@
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Skrap vouer
+    .accesskey = S
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Skrap boodskap
+           *[other] Skrap gemerkte boodskappe
+        }
+    .accesskey = S
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Ontskrap boodskap
+           *[other] Ontskrap gemerkte boodskappe
+        }
+    .accesskey = t
+
+## Message Menu
+
+
 ## AppMenu
 
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Ontskrap boodskap
+           *[other] Ontskrap gemerkte boodskappe
+        }
 
 ## Message header pane
 
@@ -61,3 +111,6 @@
 quick-filter-bar-toggle =
     .label = Kitsfilterbalk
     .accesskey = K
+
+## OpenPGP
+
