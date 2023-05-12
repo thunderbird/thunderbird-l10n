@@ -31,6 +31,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = The connection is not secure
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -78,12 +90,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Redirect
-    .accesskey = D
+
+## File Menu
+
 menu-file-save-as-file =
     .label = File…
     .accesskey = F
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Delete Folder
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Delete Message
+           *[other] Delete Selected Messages
+        }
+    .accesskey = D
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Undelete Message
+           *[other] Undelete Selected Messages
+        }
+    .accesskey = d
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Redirect
+    .accesskey = D
 
 ## AppMenu
 
@@ -115,6 +157,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Copy As Decrypted To
     .accesskey = y
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Undelete Message
+           *[other] Undelete Selected Messages
+        }
 
 ## Message header pane
 
@@ -285,3 +335,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
