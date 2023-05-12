@@ -318,7 +318,12 @@ openpgp-personal-yes-label =
 openpgp-passphrase-protection =
     .label = Προστασία φράσης πρόσβασης
 openpgp-passphrase-status-unprotected = Χωρίς προστασία
+openpgp-passphrase-status-user-passphrase = Προστατεύεται από φράση πρόσβασης
 openpgp-passphrase-unlock = Ξεκλείδωμα
+openpgp-passphrase-new = Νέα φράση πρόσβασης
+openpgp-passphrase-new-repeat = Επιβεβαίωση νέας φράσης πρόσβασης
+openpgp-passphrase-set = Ορισμός φράσης πρόσβασης
+openpgp-passphrase-change = Αλλαγή φράσης πρόσβασης
 openpgp-copy-cmd-label =
     .label = Αντιγραφή
 
