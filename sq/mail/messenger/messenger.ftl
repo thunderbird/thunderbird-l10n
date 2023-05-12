@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Ridrejtoje
-    .accesskey = R
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Kartelë…
     .accesskey = K
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Fshije Dosjen
+    .accesskey = j
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Fshije Mesazhin
+           *[other] Fshi Mesazhet e Përzgjedhur
+        }
+    .accesskey = F
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Çfshije Mesazhin
+           *[other] Çfshiji Mesazhet e Përzgjedhur
+        }
+    .accesskey = Ç
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Ridrejtoje
+    .accesskey = R
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Kopjoje Si të Shfshehtëzuar Te
     .accesskey = K
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Çfshije Mesazhin
+           *[other] Çfshiji Mesazhet e Përzgjedhur
+        }
 
 ## Message header pane
 
@@ -344,3 +382,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
