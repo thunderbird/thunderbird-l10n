@@ -9,6 +9,18 @@
 ## Content tabs
 
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 
@@ -21,11 +33,49 @@
 ## Menu
 
 
+## File Menu
+
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Изтриване на папка
+    .accesskey = з
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Изтриване на писмото
+           *[other] Изтриване на избраните писма
+        }
+    .accesskey = з
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Възстановяване на изтрито писмо
+           *[other] Възстановяване на изтритите писма
+        }
+    .accesskey = з
+
+## Message Menu
+
+
 ## AppMenu
 
 
 ## Context menu
 
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Възстановяване на изтрито писмо
+           *[other] Възстановяване на изтритите писма
+        }
 
 ## Message header pane
 
@@ -65,3 +115,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
