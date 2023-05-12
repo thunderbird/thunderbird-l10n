@@ -130,12 +130,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Hinak wodźić
-    .accesskey = H
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Dataja…
     .accesskey = D
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Rjadowak zhašeć
+    .accesskey = z
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Powěsć zhašeć
+           *[other] Wubrane powěsće zhašeć
+        }
+    .accesskey = h
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Powěsć wobnowić
+           *[other] Wubrane powěsće wobnowić
+        }
+    .accesskey = b
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Hinak wodźić
+    .accesskey = H
 
 ## AppMenu
 
@@ -171,6 +201,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Jako dešifrowanu kopěrować do
     .accesskey = d
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Powěsć wobnowić
+           *[other] Wubrane powěsće wobnowić
+        }
 context-menu-decrypt-to-folder2 =
     .label = Zaklučowanu kopiju wutworić w
     .accesskey = k
