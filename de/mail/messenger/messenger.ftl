@@ -128,12 +128,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Umleiten
-    .accesskey = U
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Datei…
     .accesskey = D
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Ordner löschen
+    .accesskey = l
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Löschen
+           *[other] Ausgewählte Nachrichten löschen
+        }
+    .accesskey = L
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Löschen der Nachricht aufheben
+           *[other] Löschen der gewählten Nachrichten aufheben
+        }
+    .accesskey = L
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Umleiten
+    .accesskey = U
 
 ## AppMenu
 
@@ -167,6 +197,14 @@ mail-context-delete-messages =
 context-menu-decrypt-to-folder =
     .label = Entschlüsselt kopieren nach
     .accesskey = E
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Löschen der Nachricht aufheben
+           *[other] Löschen der gewählten Nachrichten aufheben
+        }
 context-menu-decrypt-to-folder2 =
     .label = Entschlüsselte Kopie erstellen in
     .accesskey = E
