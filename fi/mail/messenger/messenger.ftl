@@ -31,6 +31,18 @@ content-tab-security-high-icon =
 content-tab-security-broken-icon =
     .alt = Yhteys ei ole suojattu
 
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -78,12 +90,42 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Menu
 
-redirect-msg-menuitem =
-    .label = Uudelleenohjaa
-    .accesskey = d
+
+## File Menu
+
 menu-file-save-as-file =
     .label = Tiedosto…
     .accesskey = T
+
+## Edit Menu
+
+menu-edit-delete-folder =
+    .label = Poista kansio
+    .accesskey = o
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Poista viesti
+           *[other] Poista valitut viestit
+        }
+    .accesskey = o
+# Variables:
+# $count (Number) - Number of selected messages.
+menu-edit-undelete-messages =
+    .label =
+        { $count ->
+            [one] Kumoa viestin poisto
+           *[other] Kumoa valittujen viestien poisto
+        }
+    .accesskey = m
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Uudelleenohjaa
+    .accesskey = d
 
 ## AppMenu
 
@@ -111,6 +153,14 @@ mail-context-delete-messages =
         { $count ->
             [one] Poista valittu viesti
            *[other] Poista valitut viestit
+        }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-undelete-messages =
+    .label =
+        { $count ->
+            [one] Kumoa viestin poisto
+           *[other] Kumoa valittujen viestien poisto
         }
 
 ## Message header pane
@@ -251,3 +301,6 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
