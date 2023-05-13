@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Mappa törlése
     .accesskey = l
+menu-edit-unsubscribe-newsgroup =
+    .label = Leiratkozás a hírcsoportról
+    .accesskey = L
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

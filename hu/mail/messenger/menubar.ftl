@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Üzenetlista fejléce
+    .accesskey = f
 menu-font-size-label =
     .label = Betűméret
     .accesskey = m

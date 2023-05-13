@@ -3,6 +3,27 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Gyorskereső sáv be/ki
+quick-filter-button-label = Gyorsszűrő
+thread-pane-header-display-button =
+    .title = Üzenetlista megjelenítési lehetőségei
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } üzenet
+       *[other] { $count } üzenet
+    }
+thread-pane-header-context-table-view =
+    .label = Táblázat nézet
+thread-pane-header-context-cards-view =
+    .label = Kártyanézet
+thread-pane-header-context-hide =
+    .label = Üzenetlista fejléc elrejtése
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
