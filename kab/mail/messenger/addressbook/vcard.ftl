@@ -29,6 +29,9 @@ vcard-n-add-firstname =
 vcard-n-lastname = Isem
 vcard-n-add-lastname =
     .title = Rnu isem
+vcard-n-suffix = Adfir
+vcard-n-add-suffix =
+    .title = Rnu udfir
 
 # Nickname
 
@@ -64,6 +67,7 @@ vcard-tz-add = Rnu izḍi usrig
 
 # IMPP vCard field
 
+vcard-impp2-header = Tuzna taskudant
 vcard-impp-add = Rnu amiḍan n udiwenni
 vcard-impp-label = Amiḍan n udiwenni
 vcard-impp-select = Aneggaf
@@ -86,10 +90,13 @@ vcard-adr-header = Tansiwin
 vcard-adr-add = Rnu tansa
 vcard-adr-label = Tansa
 vcard-adr-delivery-label = Tabzimt n usiweḍ
+vcard-adr-street = Tansa n taddart
 # Or "Locality"
 vcard-adr-locality = Aɣrem
 # Or "Region"
 vcard-adr-region = Aɣir/Tamnaṭ
+# The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
+vcard-adr-code = Tangalt ZIP/Postal:
 vcard-adr-country = Tamurt
 
 # NOTE vCard field
@@ -102,6 +109,7 @@ vcard-note-add = Rnu tazmilt
 vcard-org-title = Azwel
 vcard-org-role = Tamlilt
 vcard-org-org = Takebbanit
+vcard-org-org-unit = Agezdu
 
 # Custom properties
 

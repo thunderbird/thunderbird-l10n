@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Yella umaynut
-aboutDialog-title =
-    .title = Ɣef { -brand-full-name }
 about-dialog-title = Ɣef { -brand-full-name }
 release-notes-link = Iwenniten n lqem
 update-check-for-updates-button = Senqed ma llan ileqman
@@ -19,6 +17,7 @@ update-failed = Aleqqem ur yeddi ara. <a data-l10n-name="failed-link">Zdem lqem 
 update-admin-disabled = Aleqqem isweḥlit unebdal n unagraw-ik
 update-no-updates-found = { -brand-short-name } iţwaleqqem
 update-other-instance-handling-updates = { -brand-short-name } tleqm-it tummant nniḍen
+update-manual = Ileqman llan deg  <a data-l10n-name="manual-link"/>
 update-unsupported = Ur tezmireḍ ara ad tleqmeḍ ugar ɣef unagraw-agi. <a data-l10n-name="unsupported-link">Issin ugar</a>
 update-restarting = Tulsa n tnekra...
 # Variables:
@@ -38,22 +37,6 @@ aboutDialog-version = { $version } ({ $bits }-ibiten)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-ibiten)
 aboutdialog-update-checking-failed = Aɣelluy deg usenqed n yileqman.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     d <a data-l10n-name="community-exp-credits-link">
-    imţekkiyen</a>
-     a nmahel lwaḥid i wakken a ḥrez Web yeldi, d azayez, d uffar i yal yiwen.
-community-2 =
-    { -brand-short-name } ifeṣl-it <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , <a data-l10n-name="community-credits-link">
-    imţekkiyen</a>
-     a nmahel lwaḥid i wakken a ḥrez Web yeldi, d azayez, d uffar i yal yiwen.
-about-helpus =
-    Tebɣiḍ tallalt? <a data-l10n-name="helpus-donate-link">
-    Mudd tawsa</a> or <a data-l10n-name="helpus-get-involved-link">
-    ţekki!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> d <a data-l10n-name="community-exp-credits-link">imţekkiyen</a> a nmahel lwaḥid i wakken a ḥrez Web yeldi, d azayez, d uffar i yal yiwen.
 community-desc = { -brand-short-name } ifeṣl-it <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">imţekkiyen</a> a nmahel lwaḥid i wakken a ḥrez Web yeldi, d azayez, d uffar i yal yiwen.
 about-donation = Tebɣiḍ tallalt? <a data-l10n-name="helpus-donate-link">Mudd tawsa</a> or <a data-l10n-name="helpus-get-involved-link">ţekki!</a>

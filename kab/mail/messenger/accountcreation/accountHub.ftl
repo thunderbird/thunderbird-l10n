@@ -20,6 +20,8 @@ account-hub-donate = Mudd tawsa
 
 ## Initial setup page
 
+account-hub-email-setup-button = Amiḍan n yimayl
+    .title = Sbadu amiḍan n yimayl
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Qqen ɣer Sync…
 

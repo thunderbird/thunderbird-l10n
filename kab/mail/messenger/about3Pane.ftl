@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Fneẓ/Snefli afeggag n izizdig arurad
+quick-filter-button-label = Imzizdeg arurad
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } izen
+       *[other] { $count } iznan
+    }
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -117,6 +130,10 @@ quick-filter-bar-gloda-upsell-line2 = Sit ‘Kcem’  tikelt nniḍen akken ad t
 
 folder-pane-get-messages-button =
     .title = Awi izen
+folder-pane-write-message-button = Izen imaynuten
+    .title = Aru iznan imaynuten
+folder-pane-more-menu-button =
+    .title = Tixtiṛiyin n ugalis n yikaramen
 
 ## Message thread pane
 

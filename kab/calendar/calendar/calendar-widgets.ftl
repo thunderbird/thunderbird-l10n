@@ -34,6 +34,15 @@ calendar-nav-button-prev-tooltip-year =
 calendar-nav-button-next-tooltip-day =
     .title = Ass d-iteddun
     .accesskey = X
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Dduṛt d-iteddun
+    .accesskey = r
+calendar-nav-button-next-tooltip-month =
+    .title = Aggur d-iteddun
+    .accesskey = r
+calendar-nav-button-next-tooltip-year =
+    .title = Aseggas i d-iteddun
+    .accesskey = r
 calendar-today-button-tooltip =
     .title = Ddu ɣer Ass-a
 calendar-view-toggle-day = Ass
@@ -49,6 +58,8 @@ calendar-view-toggle-month = Aggur
 
 calendar-hide-weekends-option =
     .label = Ussan n dduṛt kan
+calendar-show-tasks-calendar-option =
+    .label = Sken Tiwuriwin deg uwitay
 
 ## Calendar Context Menu
 

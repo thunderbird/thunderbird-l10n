@@ -9,11 +9,26 @@ appmenu-sync-panel-title =
     .title = Mtawi
 appmenu-sync-account =
     .value = example@example.com
+appmenu-sync-settings =
+    .label = Iγewwaṛen n umtawi
+    .accesskey = M
+appmenu-sync-sign-out =
+    .label = Ffeɣ…
+    .accesskey = F
 
 ## New Account
 
 appmenu-new-account-panel-title =
     .title = Amiḍan amaynut
+appmenu-new-account-panel =
+    .label = Amiḍan amaynut
+    .accesskey = A
+appmenu-new-calendar =
+    .label = Awitay
+    .accesskey = A
+appmenu-new-chat-account =
+    .label = Adiwenni
+    .accesskey = w
 
 ## New Account / Address Book
 
