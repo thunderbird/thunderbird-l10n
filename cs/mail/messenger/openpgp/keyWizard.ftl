@@ -26,6 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Vytvořit klíč OpenPGP
+openpgp-keygen-secret-protection = Ochrana tajného klíče
+radio-keygen-no-protection =
+    .label = Nechráněný
+radio-keygen-protect-primary-pass =
+    .label = Chránit hlavním heslem
+radio-keygen-passphrase-protection =
+    .label = Chránit přístupovou frází:
+openpgp-passphrase-repeat = Potvrďte bezpečnostní frázi:
 openpgp-generate-key-info = <b>Vytváření klíče může trvat až několik minut.</b> Po tu dobu prosím aplikaci neukončujte. Proces se urychlí, když budete aktivně pracovat s prohlížečem nebo provádět operace s častým přístupem k pevnému disku. Až bude vytváření klíče dokončeno, budete upozorněni.
 openpgp-keygen-expiry-title = Doba platnosti klíče
 openpgp-keygen-expiry-description = Určete dobu platnosti svého nově vytvořeného klíče. Dobu platnosti můžete později změnit a v případě potřeby ji prodloužit.
@@ -102,7 +110,7 @@ openpgp-import-key-list-amount-2 =
 openpgp-import-key-list-description = Potvrďte, které klíče mohou být považovány za vaše osobní klíče. Jako vaše osobní klíče by měly být použity pouze klíče, které jste si sami vytvořili a které zobrazují vaši vlastní identitu. Tuto volbu můžete později změnit v dialogu Vlastnosti klíče.
 openpgp-import-key-list-caption = Klíče označené jako osobní klíče budou uvedeny v sekci Koncové šifrování. Ostatní budou k dispozici ve správci klíčů.
 openpgp-passphrase-prompt-title = Vyžadována přístupová fráze
-#   $key (String) - the id of the key being imported
+#   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Zadejte prosím přístupovou frázi pro odemknutí následujícího klíče: { $key }
 openpgp-import-key-button =
     .label = Vybrat soubor k importu…

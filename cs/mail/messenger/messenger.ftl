@@ -141,6 +141,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Smazat složku
     .accesskey = m
+menu-edit-unsubscribe-newsgroup =
+    .label = Odhlásit odběr diskusní skupiny
+    .accesskey = O
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -207,6 +210,9 @@ mail-context-undelete-messages =
             [one] Obnovit zprávu
            *[other] Obnovit vybrané smazané zprávy
         }
+context-menu-decrypt-to-folder2 =
+    .label = Vytvořit dešifrovanou kopii
+    .accesskey = V
 
 ## Message header pane
 
@@ -397,3 +403,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Zapomenout bezpečnostní fráze OpenPGP

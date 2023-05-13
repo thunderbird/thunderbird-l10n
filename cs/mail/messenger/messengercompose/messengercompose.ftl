@@ -117,6 +117,10 @@ attachment-area-show =
     .title = Zobrazí lištu příloh ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
     .title = Skryje lištu příloh ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
 drop-file-label-attachment =
     { $count ->
         [one] Přidat jako přílohu
@@ -180,14 +184,26 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Správce klíčů
     .accesskey = k
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Nemáte nastaveno odesílání oboustranně šifrovaných zpráv z adresy { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Pro použití koncového šifrování nejprve odstraňte chyby klíče pro { $addr }
+# Variables:
+# $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-many =
     { $count ->
         [one] Pro použití koncového šifrování nejprve odstraňte chyby klíče pro jednoho příjemce.
         [few] Pro použití koncového šifrování nejprve odstraňte chyby klíčů pro { $count } příjemce.
        *[other] Pro použití koncového šifrování nejprve odstraňte chyby klíčů pro { $count } příjemců.
     }
+# Variables:
+# $addr (String) - Email address with certificate issues.
 smime-cert-issue-notification-one = Pro použití koncového šifrování nejprve odstraňte chyby certifikátu pro { $addr }
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many =
     { $count ->
         [one] Pro použití koncového šifrování nejprve odstraňte chyby certifikátu pro jednoho příjemce.
@@ -288,6 +304,7 @@ many-public-recipients-prompt-send = Přesto odeslat
 compose-missing-identity-warning = Unikátní identita odpovídající adrese odesílatele nebyla nalezena. Zpráva bude odeslána s pomocí současné adresy odesílatele a nastavení pro identitu { $identity }.
 encrypted-bcc-warning = Při odesílání zašifrované zprávy nejsou příjemci v poli Skrytá kopie zcela utajeni. Všichni příjemci je mohou být schopni identifikovat.
 encrypted-bcc-ignore-button = Rozumím
+auto-disable-e2ee-warning = Oboustranné šifrování této zprávy bylo automaticky vypnuto.
 
 ## Editing
 
@@ -318,6 +335,8 @@ cloud-file-placeholder-intro = Soubor { $filename } byl poslán přes úložišt
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
 cloud-file-count-header =
     { $count ->
         [one] Připojil jsem k tomuto e-mailu { $count } soubor:
@@ -354,26 +373,33 @@ cloud-file-template-download-limit = Omezení počtu stažení:
 
 # Messages
 
-# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error-title = Chyba spojení
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = { -brand-short-name } je offline, ke službě { $provider } se nelze připojit.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was uploaded and caused the error
 cloud-file-upload-error-with-custom-message-title = Nahrávání souboru { $filename } do služby { $provider } se nezdařilo
+cloud-file-rename-error-title = Chyba přejmenování
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
-cloud-file-rename-error-title = Chyba přejmenování
 cloud-file-rename-error = Vyskytl se problém s přejmenováním souboru { $filename } ve službě { $provider }.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = Přejmenování souboru { $filename } se ve službě { $provider } nezdařilo
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } nepodporuje přejmenování již nahraných souborů.
-# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-attachment-error-title = Chyba posílání souborů přes úložiště
-cloud-file-attachment-error = Nepodařilo se aktualizovat soubor { $filename } posílaný přes úložiště, protože byla jeho místní kopie přesunuta nebo smazána.
+# Variables:
 # $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Nepodařilo se aktualizovat soubor { $filename } posílaný přes úložiště, protože byla jeho místní kopie přesunuta nebo smazána.
 cloud-file-account-error-title = Chyba účtu úložiště
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nepodařilo se aktualizovat soubor { $filename } posílaný přes úložiště, protože byl účet úložiště smazán.
 
 ## Link Preview
