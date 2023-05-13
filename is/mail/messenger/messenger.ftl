@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Eyða möppu
     .accesskey = E
+menu-edit-unsubscribe-newsgroup =
+    .label = Hætta áskrift að fréttahóp
+    .accesskey = k
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -205,6 +208,9 @@ mail-context-undelete-messages =
             [one] Endurheimta póst
            *[other] Endurheimta valinn póst
         }
+context-menu-decrypt-to-folder2 =
+    .label = Búa til afkóðað afrit í
+    .accesskey = B
 
 ## Message header pane
 

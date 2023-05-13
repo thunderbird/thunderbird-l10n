@@ -3,6 +3,27 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Víxla flýtisíuslá af/á
+quick-filter-button-label = Flýtisía
+thread-pane-header-display-button =
+    .title = Valkostir birtingar skilaboðalista
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } póstur
+       *[other] { $count } póstar
+    }
+thread-pane-header-context-table-view =
+    .label = Töflusýn
+thread-pane-header-context-cards-view =
+    .label = Spjaldasýn
+thread-pane-header-context-hide =
+    .label = Fela fyrirsögn skilaboðalista
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button

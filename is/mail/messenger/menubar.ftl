@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Fyrirsögn skilaboðalista
+    .accesskey = g
 menu-font-size-label =
     .label = Leturstærð
     .accesskey = u
