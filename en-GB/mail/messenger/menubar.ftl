@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Message List Header
+    .accesskey = H
 menu-font-size-label =
     .label = Font Size
     .accesskey = o
