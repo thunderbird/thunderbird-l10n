@@ -3,6 +3,27 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Växla snabbfilterfältet
+quick-filter-button-label = Snabbfilter
+thread-pane-header-display-button =
+    .title = Visningsalternativ för meddelandelistan
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } meddelande
+       *[other] { $count } meddelanden
+    }
+thread-pane-header-context-table-view =
+    .label = Tabellvy
+thread-pane-header-context-cards-view =
+    .label = Kortvy
+thread-pane-header-context-hide =
+    .label = Dölj meddelandelistans rubrik
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button

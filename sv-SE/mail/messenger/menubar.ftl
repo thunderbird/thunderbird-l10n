@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Meddelandelistans rubrik
+    .accesskey = r
 menu-font-size-label =
     .label = Textstorlek
     .accesskey = e

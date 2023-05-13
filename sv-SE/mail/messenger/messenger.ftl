@@ -139,7 +139,10 @@ menu-file-save-as-file =
 
 menu-edit-delete-folder =
     .label = Ta bort mapp
-    .accesskey = r
+    .accesskey = T
+menu-edit-unsubscribe-newsgroup =
+    .label = Avsluta prenumeration på nyhetsgrupp
+    .accesskey = A
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -154,10 +157,10 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Återställ borttaget meddelande
-           *[other] Återställ markerade borttagna meddelanden
+            [one] Ångra borttagning av meddelande
+           *[other] Ångra borttagning av valda meddelanden
         }
-    .accesskey = b
+    .accesskey = n
 
 ## Message Menu
 
@@ -202,8 +205,8 @@ context-menu-decrypt-to-folder =
 mail-context-undelete-messages =
     .label =
         { $count ->
-            [one] Återställ borttaget meddelande
-           *[other] Återställ markerade borttagna meddelanden
+            [one] Ångra borttagning av meddelande
+           *[other] Ångra borttagning av valda meddelanden
         }
 context-menu-decrypt-to-folder2 =
     .label = Skapa dekrypterad kopia i
