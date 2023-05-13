@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Eliminar o cartafol
     .accesskey = t
+menu-edit-unsubscribe-newsgroup =
+    .label = Cancelar a subscrición ao grupo de noticias
+    .accesskey = c
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

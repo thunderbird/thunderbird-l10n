@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Cabeceira da lista de mensaxes
+    .accesskey = c
 menu-font-size-label =
     .label = Tamaño da letra
     .accesskey = T

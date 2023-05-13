@@ -21,6 +21,8 @@ thread-pane-header-context-table-view =
     .label = Vista de táboa
 thread-pane-header-context-cards-view =
     .label = Vista de tarxetas
+thread-pane-header-context-hide =
+    .label = Ocultar a cabeceira da lista de mensaxes
 
 ## Quick Filter Bar
 
