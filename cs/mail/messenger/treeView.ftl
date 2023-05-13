@@ -7,3 +7,4 @@
 
 tree-list-view-column-picker =
     .title = Vyberte sloupce, které chcete zobrazit
+tree-list-view-row-watched-thread = Vlákno sledováno
