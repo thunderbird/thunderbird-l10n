@@ -45,6 +45,8 @@ customize-button-style-text-only =
     .label = Pouze text
 customize-cancel = Zrušit
 customize-save = Uložit
+customize-main-toolbar-target =
+    .aria-label = Hlavní lišta
 
 ## Unified toolbar customization palette context menu
 
