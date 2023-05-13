@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Nadi:
 search-bar-placeholder = Nadi…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -21,6 +29,7 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-title = Sagen ifeggagen n yifecka
 customize-space-tab-mail = Imayl
     .title = Imayl
 customize-space-tab-addressbook = Imedlis n tensa
@@ -33,11 +42,36 @@ customize-space-tab-chat = Adiwenni usrid
     .title = Adiwenni usrid
 customize-space-tab-settings = Iɣewwaren
     .title = Iɣewwaren
+customize-button-style-label = Talɣa n tqeffalt:
 customize-button-style-icons-beside-text =
     .label = Tigiiniyin n daw uḍris
+customize-button-style-text-only =
+    .label = Aḍris kan
+customize-cancel = Sefsex
+customize-save = Sekles
+customize-spaces-tabs =
+    .aria-label = Tallunin
+customize-main-toolbar-target =
+    .aria-label = Ɛfeggag n yifecka agejdan
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Rnu ɣer { $target }
+customize-palette-add-everywhere =
+    .label = Rnu ɣer yifeggagen n yifecka
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Kkes
+customize-target-remove-everywhere =
+    .label = Kkes seg yifeggagen n yifecka
+customize-target-add-everywhere =
+    .label = Rnu ɣer yifeggagen n yifecka
+customize-target-start =
+    .label = Senkez ɣer tazwara
+customize-target-end =
+    .label = Senkez ɣer taggara

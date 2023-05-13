@@ -38,3 +38,6 @@ openpgp-key-assistant-back-button = Ɣer deffir
 openpgp-key-assistant-accept-button = Qbel
 openpgp-key-assistant-close-button = Mdel
 openpgp-key-assistant-disable-button = Sens awgelhen
+# Variables:
+# $date (String) - The key creation date.
+openpgp-key-assistant-key-created = yettwarna deg { $date }
