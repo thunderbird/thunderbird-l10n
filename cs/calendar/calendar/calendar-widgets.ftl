@@ -73,6 +73,8 @@ calendar-view-toggle-month = Měsíc
 
 calendar-control-bar-menu-button =
     .title = Možnosti rozložení kalendáře
+calendar-find-events-menu-option =
+    .label = Panel Hledat události
 calendar-hide-weekends-option =
     .label = Pouze pracovní dny
 calendar-define-workweek-option =

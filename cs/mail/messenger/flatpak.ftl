@@ -8,6 +8,8 @@
 
 # This is the label on the icon
 flatpak-desktop-name = { -brand-short-name }
+# Appears as a tooltip when hovering over application menu entry
+flatpak-desktop-comment = Odesílání a přijímání pošty pomocí { -brand-product-name(case: "gen") }
 # A generic description of Thunderbird
 flatpak-desktop-generic-name = Poštovní klient
 

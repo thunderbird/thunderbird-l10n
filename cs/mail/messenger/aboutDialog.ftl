@@ -3,12 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Co je nového
-aboutDialog-title =
-    .title =
-        { -brand-full-name.case-status ->
-            [with-cases] O { -brand-full-name(case: "loc") }
-           *[no-cases] O aplikaci { -brand-full-name }
-        }
 about-dialog-title =
     { -brand-full-name.case-status ->
         [with-cases] O { -brand-full-name(case: "loc") }
@@ -48,17 +42,8 @@ aboutDialog-version = { $version } ({ $bits } bitů)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bitů)
 aboutdialog-update-checking-failed = Kontrola aktualizací se nezdařila
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     je <a data-l10n-name="community-exp-credits-link">
-    celosvětová komunita</a>
-     snažící se o zachování veřejně dostupného, otevřeného a všem přístupného webu.
-about-helpus =
-    Chcete pomoci? <a data-l10n-name="helpus-donate-link">
-    Darujte příspěvek</a> or <a data-l10n-name="helpus-get-involved-link">
-    se zapojte!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> je <a data-l10n-name="community-exp-credits-link">celosvětová komunita</a> snažící se o zachování veřejně dostupného, otevřeného a všem přístupného webu.
+community-desc = { -brand-short-name } vytváří <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> a <a data-l10n-name="community-credits-link">celosvětová komunita</a> snažící se o zachování veřejně dostupného, otevřeného a všem přístupného webu.
 about-donation = Chcete pomoci? <a data-l10n-name="helpus-donate-link">Darujte příspěvek</a> or <a data-l10n-name="helpus-get-involved-link">se zapojte!</a>
 bottom-links-license = Licence
 bottom-links-rights = Vaše práva

@@ -5,6 +5,8 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Přepnout panel Rychlý filtr
 quick-filter-button-label = Rychlý filtr
 # Variables:
 # $count (Number) - The number of messages in this folder.
@@ -15,6 +17,12 @@ thread-pane-folder-message-count =
         [many] zpráv
        *[other] zpráv
     }
+thread-pane-header-context-table-view =
+    .label = Zobrazení tabulky
+thread-pane-header-context-cards-view =
+    .label = Zobrazení karet
+thread-pane-header-context-hide =
+    .label = Skrýt hlavičku seznamu zpráv
 
 ## Quick Filter Bar
 
@@ -146,6 +154,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Zobrazovat tlačítko „Nová zpráva“
 folder-pane-header-context-hide =
     .label = Skrýt záhlaví podokna složek
+folder-pane-show-total-toggle =
+    .label = Zobrazit celkový počet zpráv
 
 ## Message thread pane
 

@@ -96,6 +96,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Hlavička seznamu zpráv
+    .accesskey = H
 menu-font-size-label =
     .label = Velikost písma
     .accesskey = o
@@ -122,6 +125,9 @@ mail-uidensity-touch =
     .accesskey = t
 mail-uidensity-default =
     .label = Výchozí
+    .accesskey = V
+mail-uidensity-relaxed =
+    .label = Volné rozložení
     .accesskey = V
 menu-spaces-toolbar-button =
     .label = Navigační lišta
