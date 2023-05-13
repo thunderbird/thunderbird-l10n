@@ -97,6 +97,42 @@ openpgp-key-man-import-from-clipbrd =
 openpgp-key-man-import-from-url =
     .label = Ion-phortaich iuchraichean o URL
     .accesskey = U
+openpgp-key-man-export-to-file =
+    .label = Às-phortaich iuchraichean poblach ann am faidhle
+    .accesskey = e
+openpgp-key-man-send-keys =
+    .label = Cuir iuchraichean poblach air a’ phost-d
+    .accesskey = s
+openpgp-key-man-backup-secret-keys =
+    .label = Sàbhail lethbhreac-glèidhidh iuchraichean ann am faidhle
+    .accesskey = b
+openpgp-key-man-discover-cmd =
+    .label = Fidir iuchraichean air loidhne
+    .accesskey = d
+openpgp-key-man-publish-cmd =
+    .label = Foillsich
+    .accesskey = F
+openpgp-key-publish = Foillsich
+openpgp-key-man-discover-prompt = Airson iuchraichean OpenPGP fhidreadh air loidhne, air frithealaichean iuchraichean no leis a’ phròtacal WKD, cuir a-steach seòladh puist-d no ID iuchrach.
+openpgp-key-man-discover-progress = A’ lorg…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Chaidh an iuchair phoblach a chur gu “{ $keyserver }”.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Cha b’ urrainn dhuinn an iuchair phoblach agad a chur gu “{ $keyserver }”.
+openpgp-key-copy-key =
+    .label = Dèan lethbhreac dhen iuchair phoblach
+    .accesskey = c
+openpgp-key-export-key =
+    .label = Às-phortaich iuchair phoblach ann am faidhle
+    .accesskey = e
+openpgp-key-backup-key =
+    .label = Sàbhail lethbhreac-glèidhidh iuchrach ann am faidhle
+    .accesskey = S
+openpgp-key-send-key =
+    .label = Cuir iuchair phoblach air a’ phost-d
+    .accesskey = s
 
 ## e2e encryption settings
 
