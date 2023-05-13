@@ -8,6 +8,8 @@
 quick-filter-button =
     .title = Přepnout panel Rychlý filtr
 quick-filter-button-label = Rychlý filtr
+thread-pane-header-display-button =
+    .title = Možnosti zobrazení seznamu zpráv
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
