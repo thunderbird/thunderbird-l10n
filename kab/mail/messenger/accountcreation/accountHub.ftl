@@ -27,6 +27,7 @@ account-hub-sync-button = Qqen ɣer Sync…
 
 ## Email page
 
+account-hub-email-title = Sbadu amiḍan-ik n yimayl
 account-hub-email-cancel-button = Sefsex
 account-hub-email-back-button = Ɣer deffir
 account-hub-email-continue-button = Kemmel
