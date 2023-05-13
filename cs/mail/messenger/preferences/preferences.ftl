@@ -699,6 +699,7 @@ certificate-button =
 security-devices-button =
     .label = Bezpečnostní zařízení…
     .accesskey = B
+email-e2ee-header = Oboustranné šifrování e-mailů
 account-settings = Nastavení účtu
 
 ## Chat Tab

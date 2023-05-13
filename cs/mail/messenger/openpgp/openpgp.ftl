@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Ukládat koncepty zašifrované
     .accesskey = r
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Odesílat veřejný klíč(e) OpenPGP v hlavičkách e-mailu pro kompatibilitu se standardem Autocrypt
+    .accesskey = O
 openpgp-key-user-id-label = Účet / ID uživatele
 openpgp-keygen-title-label =
     .title = Vytvořit klíč OpenPGP
@@ -115,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publikovat
     .accesskey = P
+openpgp-key-publish = Publikovat
 openpgp-key-man-discover-prompt = Pro nalezení klíčů OpenPGP na serverech klíčů nebo pomocí protokolu WKD zadejte buď e-mailovou adresu nebo ID klíče.
 openpgp-key-man-discover-progress = Hledání…
 # Variables:
@@ -316,6 +321,17 @@ openpgp-personal-no-label =
     .label = Ne, nepoužívat ho jako můj osobní klíč.
 openpgp-personal-yes-label =
     .label = Ano, považovat tento klíč za osobní klíč.
+openpgp-passphrase-protection =
+    .label = Ochrana přístupovou frází
+openpgp-passphrase-status-unprotected = Nechráněný
+openpgp-passphrase-status-primary-password = Chráněno hlavním heslem { -brand-short-name(case: "gen") }
+openpgp-passphrase-status-user-passphrase = Chráněno přístupovou frází
+openpgp-passphrase-instruction-unprotected = Nastavte přístupovou frázi pro ochranu tohoto klíče
+openpgp-passphrase-instruction-primary-password = Případně chraňte tento klíč samostatnou přístupovou frází
+openpgp-passphrase-instruction-user-passphrase = Odemkněte tento klíč, pokud chcete změnit jeho ochranu.
+openpgp-passphrase-unlock = Odemknout
+openpgp-passphrase-unlocked = Klíč byl úspěšně odemčen.
+openpgp-remove-protection = Odstranit ochranu přístupovou frází
 openpgp-copy-cmd-label =
     .label = Kopírovat
 
@@ -633,8 +649,6 @@ import-key-file = Importovat soubor s klíčem OpenPGP
 import-rev-file = Importovat soubor se zneplatněním OpenPGP
 gnupg-file = Soubory GnuPG
 import-keys-failed = Importování klíčů selhalo
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Zadejte prosím heslo, které odemkne následující klíč: { $key }
 file-to-big-to-import = Tento soubor je příliš velký. Neimportujte velké množství klíčů najednou.
 
