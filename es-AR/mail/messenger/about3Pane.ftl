@@ -10,6 +10,13 @@ quick-filter-button =
 quick-filter-button-label = Filtro rápido
 thread-pane-header-display-button =
     .title = Opciones de visualización de la lista de mensajes
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } mensaje
+       *[other] { $count } mensajes
+    }
 thread-pane-header-context-table-view =
     .label = Vista de tabla
 thread-pane-header-context-cards-view =
