@@ -142,7 +142,7 @@ menu-edit-delete-folder =
     .accesskey = B
 menu-edit-unsubscribe-newsgroup =
     .label = Cancelar suscripción
-    .accesskey = b
+    .accesskey = u
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

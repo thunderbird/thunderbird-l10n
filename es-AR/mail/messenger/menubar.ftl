@@ -102,7 +102,7 @@ menu-view-folders-toggle-header =
 
 menu-view-toggle-thread-pane-header =
     .label = Encabezado de la lista de mensajes
-    .accesskey = H
+    .accesskey = z
 menu-font-size-label =
     .label = Tamaño de letra
     .accesskey = o
