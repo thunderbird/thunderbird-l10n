@@ -3,6 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Alternar a barra de filtro rápido
+quick-filter-button-label = Filtro rápido
+thread-pane-header-display-button =
+    .title = Opcións de visualización da lista de mensaxes
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } mensaxe
+       *[other] { $count } mensaxes
+    }
+thread-pane-header-context-table-view =
+    .label = Vista de táboa
+thread-pane-header-context-cards-view =
+    .label = Vista de tarxetas
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
