@@ -264,12 +264,45 @@ openpgp-passphrase-instruction-user-passphrase = Thoir a’ ghlas dhen iuchair s
 openpgp-passphrase-unlock = Thoir a’ ghlas dheth
 openpgp-passphrase-unlocked = Chaidh a’ ghlas a thoirt dhen iuchair.
 openpgp-remove-protection = Thoir air falbh an dìon le abairt-fhaire
+openpgp-use-primary-password = Thoir air falbh an abairt-fhaire is dìon e le prìomh-fhacal-faire
+openpgp-passphrase-new = Abairt-fhaire ùr
+openpgp-passphrase-new-repeat = Dearbh an abairt-fhaire ùr
+openpgp-passphrase-set = Suidhich an abairt-fhaire
+openpgp-passphrase-change = Atharraich an abairt-fhaire
+openpgp-copy-cmd-label =
+    .label = Dèan lethbhreac
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = Chan eil iuchair phearsanta OpenPGP aig { -brand-short-name } airson <b>{ $identity }</b>
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys =
+    { $count ->
+        [one] Lorg { -brand-short-name } { $count } iuchair phearsanta OpenPGP a tha co-cheangailte ri <b>{ $identity }</b>
+        [two] Lorg { -brand-short-name } { $count } iuchair phearsanta OpenPGP a tha co-cheangailte ri <b>{ $identity }</b>
+        [few] Lorg { -brand-short-name } { $count } iuchraichean pearsanta OpenPGP a tha co-cheangailte ri <b>{ $identity }</b>
+       *[other] Lorg { -brand-short-name } { $count } iuchair phearsanta OpenPGP a tha co-cheangailte ri <b>{ $identity }</b>
+    }
+#   $key (String) - the currently selected OpenPGP key
+openpgp-selection-status-have-key = Tha an rèiteachadh làithreach agad a’ cleachdadh ID iuchair <b>{ $key }</b>
+#   $key (String) - the currently selected OpenPGP key
+openpgp-selection-status-error = Tha an rèiteachadh làithreach agad a’ cleachdadh ID iuchair <b>{ $key }</b> ach dh’fhalbh an ùine air.
+openpgp-add-key-button =
+    .label = Cuir iuchair ris…
+    .accesskey = u
+e2e-learn-more = Barrachd fiosrachaidh
+openpgp-keygen-success = Chaidh an iuchair OpenPGP a chruthachadh!
+openpgp-keygen-import-success = Chaidh an iuchair OpenPGP ion-phortadh!
+openpgp-keygen-external-success = Chaidh ID iuchair GnuPG air an taobh a-muigh a shàbhaladh!
 
 ## OpenPGP Key selection area
 
+openpgp-radio-none =
+    .label = Chan eil gin
+openpgp-radio-none-desc = Na cleachd OpenPGP mu choinneamh na dearbh-aithne seo.
+openpgp-radio-key-not-usable = Cha ghabh an iuchair seo a chleachdadh mar iuchair phearsanta a chionn ’s gu bheil an iuchair rùin a dhìth!
 
 ## Strings in keyDetailsDlg.xhtml
 
