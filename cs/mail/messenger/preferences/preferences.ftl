@@ -701,6 +701,11 @@ security-devices-button =
     .accesskey = B
 email-e2ee-header = Oboustranné šifrování e-mailů
 account-settings = Nastavení účtu
+email-e2ee-automatism = Automatické použití šifrování
+email-e2ee-auto-on =
+    .label = Automaticky zapne šifrování kdykoli je to možné
+email-e2ee-auto-off-notify =
+    .label = Zobrazit upozornění vždy, když je šifrování automaticky vypnuto
 
 ## Chat Tab
 

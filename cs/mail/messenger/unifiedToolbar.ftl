@@ -13,6 +13,14 @@ search-bar-button =
 search-bar-item =
     .label = Hledat:
 search-bar-placeholder = Hledat…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -21,6 +29,7 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-title = Přizpůsobit nástrojové lišty
 customize-space-tab-mail = Pošta
     .title = Pošta
 customize-space-tab-addressbook = Kontakty
@@ -34,6 +43,7 @@ customize-space-tab-chat = Chat
 customize-space-tab-settings = Nastavení
     .title = Nastavení
 customize-restore-default = Obnovit výchozí
+customize-change-appearance = Změnit vzhled…
 customize-button-style-label = Styl tlačítek:
 customize-button-style-icons-beside-text =
     .label = Ikony vedle textu
@@ -50,8 +60,26 @@ customize-main-toolbar-target =
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Přidat do { $target }
+customize-palette-add-everywhere =
+    .label = Přidat do všech nástrojových lišt
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Krok vpřed
+customize-target-backward =
+    .label = Krok zpět
 customize-target-remove =
     .label = Odebrat
+customize-target-remove-everywhere =
+    .label = Odebrat ze všech nástrojových lišt
+customize-target-add-everywhere =
+    .label = Přidat do všech nástrojových lišt
+customize-target-start =
+    .label = Přesun na začátek
+customize-target-end =
+    .label = Přesun na konec
