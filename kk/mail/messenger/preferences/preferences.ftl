@@ -622,6 +622,8 @@ certificate-button =
 security-devices-button =
     .label = Қауіпсіздік құрылғылары…
     .accesskey = р
+email-e2ee-header = Эл. поштаны өтпелі шифрлеу
+account-settings = Тіркелгі баптаулары
 
 ## Chat Tab
 

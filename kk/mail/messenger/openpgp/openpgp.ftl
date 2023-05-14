@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Жариялау
     .accesskey = и
+openpgp-key-publish = Жариялау
 openpgp-key-man-discover-prompt = OpenPGP кілттерін Интернетте, кілттер серверлерінде немесе WKD хаттамасы пайдалану арқылы табу үшін эл. пошта адресін немесе кілт идентификаторын енгізіңіз.
 openpgp-key-man-discover-progress = Іздеу…
 # Variables:
@@ -311,7 +312,13 @@ openpgp-personal-no-label =
     .label = Жоқ, оны менің жеке кілтім ретінде пайдаланбау.
 openpgp-personal-yes-label =
     .label = Иә, бұл кілтті жеке кілт ретінде қарастыру.
+openpgp-passphrase-protection =
+    .label = Кілттік фраза қорғанысы
+openpgp-passphrase-status-unprotected = Қорғалмаған
 openpgp-passphrase-unlock = Босату
+openpgp-passphrase-unlocked = Кілт блоктауы сәтті ашылды.
+openpgp-remove-protection = Кілттік фразамен қорғауды алып тастау
+openpgp-use-primary-password = Кілттік фразаны өшіріп, басты парольмен қорғау
 openpgp-passphrase-new = Жаңа кілттік фраза
 openpgp-passphrase-new-repeat = Жаңа кілттік фразаны растау
 openpgp-passphrase-set = Кілттік фразаны орнату
@@ -627,8 +634,6 @@ import-key-file = OpenPGP кілт файлын импорттау
 import-rev-file = OpenPGP қайта шақыру файлын импорттау
 gnupg-file = GnuPGфайлдары
 import-keys-failed = Кілттерді импорттау сәтсіз аяқталды
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Келесі кілттің құлпын ашатын кілттік фразаны енгізіңіз: { $key }
 file-to-big-to-import = Бұл файл тым үлкен. Кілттердің үлкен жинағын бірден импорттамаңыз.
 
