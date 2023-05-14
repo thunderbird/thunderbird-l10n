@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Опублікувати
     .accesskey = О
+openpgp-key-publish = Опублікувати
 openpgp-key-man-discover-prompt = Щоб дослідити ключі OpenPGP в Мережі, на серверах ключів або за допомогою протоколу WKD, введіть адресу електронної пошти або ID ключа.
 openpgp-key-man-discover-progress = Пошук…
 # Variables:
@@ -379,6 +380,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Термін дії ключа завершується менш ніж за 6 місяців
 openpgp-key-has-expired-icon =
     .title = Ключ не чинний
+openpgp-suggest-publishing-key = Публікування відкритого ключа на сервері ключів дозволяє іншим виявляти його.
 openpgp-key-expand-section =
     .tooltiptext = Докладніше
 openpgp-key-revoke-title = Відкликати ключ
@@ -646,8 +648,6 @@ import-key-file = Імпортувати файл ключа OpenPGP
 import-rev-file = Імпортувати файл відкликання OpenPGP
 gnupg-file = Файли GnuPG
 import-keys-failed = Не вдалося імпортувати ключі
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Введіть парольну фразу, яка розблокує такий ключ: { $key }
 # Variables:
 # $key (String) - Key id to unlock.

@@ -3,6 +3,28 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Перемкнути панель швидкого фільтрування
+quick-filter-button-label = Швидкий фільтр
+thread-pane-header-display-button =
+    .title = Параметри показу списку повідомлень
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } повідомлення
+        [few] { $count } повідомлення
+       *[many] { $count } повідомлень
+    }
+thread-pane-header-context-table-view =
+    .label = Подання таблицею
+thread-pane-header-context-cards-view =
+    .label = Подання картками
+thread-pane-header-context-hide =
+    .label = Сховати заголовок списку повідомлень
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button

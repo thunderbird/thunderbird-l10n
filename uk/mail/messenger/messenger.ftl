@@ -141,6 +141,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Видалити теку
     .accesskey = В
+menu-edit-unsubscribe-newsgroup =
+    .label = Відписатись від групи новин
+    .accesskey = и
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
