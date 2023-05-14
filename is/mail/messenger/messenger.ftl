@@ -391,3 +391,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Gleyma OpenPGP-aðgangsorðum
