@@ -18,7 +18,7 @@
 <!ENTITY accountPasswordManager.label "O contrasinal introducido aquí almacenarase no Xestor de contrasinais. Deixe a caixa en branco se desexa que o contrasinal se lle pida en cada conexión.">
 
 <!ENTITY accountAdvancedTitle.label   "Opcións avanzadas">
-<!ENTITY accountAdvancedInfo.label    "Pode saltarse este paso se o desexa.">
+<!ENTITY accountAdvancedInfo.label    "Pode saltar este paso se o desexa.">
 <!ENTITY accountAdvanced.newMailNotification.label   "Avisarme de correo novo">
 <!ENTITY accountAliasGroupbox.caption "Alias local">
 <!ENTITY accountAliasField.label      "Alias:">
