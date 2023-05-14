@@ -8,6 +8,8 @@
 quick-filter-button =
     .title = De snelfilterbalk in-/uitschakelen
 quick-filter-button-label = Snelfilter
+thread-pane-header-display-button =
+    .title = Weergaveopties voor berichtenlijst
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -15,6 +17,10 @@ thread-pane-folder-message-count =
         [one] { $count } bericht
        *[other] { $count } berichten
     }
+thread-pane-header-context-table-view =
+    .label = Tabelweergave
+thread-pane-header-context-hide =
+    .label = Koptekst berichtenlijst verbergen
 
 ## Quick Filter Bar
 
