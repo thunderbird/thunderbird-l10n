@@ -6,6 +6,15 @@
 ## Message List Header Bar
 
 quick-filter-button-label = Γρήγορο φιλτράρισμα
+thread-pane-header-display-button =
+    .title = Επιλογές εμφάνισης λίστας μηνυμάτων
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } μήνυμα
+       *[other] { $count } μηνύματα
+    }
 thread-pane-header-context-table-view =
     .label = Προβολή πίνακα
 thread-pane-header-context-cards-view =
