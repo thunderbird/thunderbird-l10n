@@ -618,6 +618,22 @@ certificate-button =
 security-devices-button =
     .label = Dispositivos de seguridad…
     .accesskey = D
+email-e2ee-header = Cifrado de extremo a extremo del correo electrónico
+account-settings = Configuración de la cuenta
+email-e2ee-enable-info = Configurar cuentas de correo electrónico e identidades para el cifrado de extremo a extremo en la configuración de la cuenta.
+email-e2ee-automatism = Uso automático de cifrado
+email-e2ee-automatism-pre =
+    { -brand-short-name } puede ayudar activando o desactivando automáticamente el cifrado al redactar un correo electrónico.
+    La activación / desactivación automática se basa en la disponibilidad de claves o certificados de corresponsales válidos y aceptados.
+email-e2ee-auto-on =
+    .label = Activar el cifrado automáticamente cuando sea posible
+email-e2ee-auto-off =
+    .label = Desactivar automáticamente el cifrado cuando los destinatarios cambien y el cifrado ya no sea posible
+email-e2ee-auto-off-notify =
+    .label = Mostrar una notificación cuando el cifrado se desactive automáticamente
+email-e2ee-automatism-post =
+    Las decisiones automáticas se pueden anular activando o desactivando manualmente el cifrado al redactar un mensaje.
+    Nota: el cifrado siempre se activa automáticamente al responder a un mensaje cifrado.
 
 ## Chat Tab
 
