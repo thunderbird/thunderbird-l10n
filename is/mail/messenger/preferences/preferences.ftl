@@ -624,7 +624,20 @@ security-devices-button =
     .accesskey = g
 email-e2ee-header = Enda-í-enda dulritun tölvupósts
 account-settings = Stillingar reiknings
+email-e2ee-enable-info = Settu upp tölvupóstreikninga og auðkenni fyrir enda-til-enda dulritun í stillingum reikningsins.
 email-e2ee-automatism = Sjálfvirk notkun dulritunar
+email-e2ee-automatism-pre =
+    { -brand-short-name } getur hjálpað með því að kveikja eða slökkva sjálfkrafa á dulritun á meðan þú skrifar tölvupóst.
+    Að kveikja/slökkva sjálfvirkt byggist á því að gildir og viðurkenndir dulritunarlyklar eða skilríki séu til staðar.
+email-e2ee-auto-on =
+    .label = Virkja dulritun sjálfkrafa þegar mögulegt er
+email-e2ee-auto-off =
+    .label = Slökkva sjálfkrafa á dulritun þegar viðtakendur breytast og dulritun er ekki lengur möguleg
+email-e2ee-auto-off-notify =
+    .label = Birta tilkynningu þegar slökkt er sjálfkrafa á dulritun
+email-e2ee-automatism-post =
+    Hægt er að hnekkja sjálfvirkum ákvörðunum með því að kveikja eða slökkva handvirkt á dulritun þegar þú skrifar skilaboð.
+    Athugið: dulritun er alltaf virkjuð sjálfkrafa þegar dulrituðum skilaboðum er svarað.
 
 ## Chat Tab
 

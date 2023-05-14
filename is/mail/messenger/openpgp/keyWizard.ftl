@@ -26,6 +26,7 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Útbúa OpenPGP-lykil
+openpgp-keygen-secret-protection = Verndun leynilykla
 radio-keygen-no-protection =
     .label = Óvarið
 radio-keygen-protect-primary-pass =

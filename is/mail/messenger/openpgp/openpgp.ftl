@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Gefa út
     .accesskey = G
+openpgp-key-publish = Gefa út
 openpgp-key-man-discover-prompt = Til að finna OpenPGP-lykla á netinu, á lyklaþjónum eða með því að nota WKD-samskiptareglur skaltu annað hvort setja inn póstfang eða auðkenni lykils.
 openpgp-key-man-discover-progress = Leitar…
 # Variables:
@@ -328,6 +329,8 @@ openpgp-remove-protection = Fjarlægja vernd með aðgangsorðum
 openpgp-use-primary-password = Fjarlægja aðgangsorð og vernda með aðallykilorði
 openpgp-passphrase-new = Ný aðgangsorð
 openpgp-passphrase-new-repeat = Staðfestu nýju aðgangsorðin
+openpgp-passphrase-set = Stilltu aðgangsorð
+openpgp-passphrase-change = Breyta aðgangsorðum
 openpgp-copy-cmd-label =
     .label = Afrita
 
@@ -370,6 +373,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Lykillinn rennur út eftir innan við 6 mánuði
 openpgp-key-has-expired-icon =
     .title = Lykill útrunninn
+openpgp-suggest-publishing-key = Birting opinbera dreifilykilsins á lyklaþjóni gerir öðrum kleift að finna hann.
 openpgp-key-expand-section =
     .tooltiptext = Nánari upplýsingar
 openpgp-key-revoke-title = Afturkalla lykil
@@ -638,6 +642,17 @@ import-rev-file = Flytja inn OpenPGP-afturköllunarskrá
 gnupg-file = GnuPG-skrár
 import-keys-failed = Mistókst að flytja inn lyklana
 passphrase-prompt = Settu inn aðgangsorðið til að aflæsa eftirfarandi lykli: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Settu inn aðgangsorð til að opna leynilykilinn með auðkenninu { $key }, búinn til { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Settu inn aðgangsorð til að opna leynilykilinn með auðkenninu { $subkey }, sem er undirlykill lykilsins { $key }, búinn til { $date }, { $username_and_email },
 file-to-big-to-import = Þessi skrá er of stór. Ekki flytja inn stór sett af lyklum í einu.
 
 ## Strings used in enigmailKeygen.js
