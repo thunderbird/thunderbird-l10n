@@ -246,6 +246,24 @@ openpgp-acceptance-unverified-label =
     .label = Tha, ach cha do dhearbh mi gur e an iuchair cheart a th’ ann.
 openpgp-acceptance-verified-label =
     .label = Tha, dhearbh mi mi fhìn gu bheil an lorg-meòir ceart aig an iuchair seo.
+key-accept-personal =
+    Tha an dà chuir a’ phàirt rùin is a’ phàirt phoblach dhen iuchair seo agad. ’S urrainn dhut a chleachdadh mar iuchair phearsanta.
+    Ma thug cuideigin eile dhut an iuchair seo, na cleachd e mar iuchair phearsanta.
+openpgp-personal-no-label =
+    .label = Chan eil, na cleachd e mar an iuchair phearsanta agam.
+openpgp-personal-yes-label =
+    .label = Tha, làimhsich an iuchair seo mar iuchair phearsanta.
+openpgp-passphrase-protection =
+    .label = Dìon le abairt-fhaire
+openpgp-passphrase-status-unprotected = Gun dìon
+openpgp-passphrase-status-primary-password = Ga dhìon leis a’ phrìomh-fhacal-faire aig { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Ga dhìon le abairt-fhaire
+openpgp-passphrase-instruction-unprotected = Suidhich abairt-fhaire a dhìon na h-iuchrach seo
+openpgp-passphrase-instruction-primary-password = Air neo dìon an iuchair seo le abairt-fhaire fa leth
+openpgp-passphrase-instruction-user-passphrase = Thoir a’ ghlas dhen iuchair seo gus an dìon aige atharrachadh.
+openpgp-passphrase-unlock = Thoir a’ ghlas dheth
+openpgp-passphrase-unlocked = Chaidh a’ ghlas a thoirt dhen iuchair.
+openpgp-remove-protection = Thoir air falbh an dìon le abairt-fhaire
 
 ## e2e encryption settings
 
