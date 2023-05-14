@@ -202,6 +202,14 @@ openpgp-key-details-signatures-tab =
     .label = Teisteanasan
 openpgp-key-details-structure-tab =
     .label = Structar
+openpgp-key-details-uid-certified-col =
+    .label = ID a’ chleachdaiche / Teisteanaichte le
+openpgp-key-details-key-id-label = ID na h-iuchrach
+openpgp-key-details-id-label =
+    .label = ID
+openpgp-key-details-key-type-label = Seòrsa
+openpgp-key-details-key-part-label =
+    .label = Cuid iuchrach
 
 ## e2e encryption settings
 
