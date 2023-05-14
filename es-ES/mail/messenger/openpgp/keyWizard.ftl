@@ -26,6 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Generar clave OpenPGP
+openpgp-keygen-secret-protection = Protección de clave secreta
+radio-keygen-no-protection =
+    .label = Sin proteger
+radio-keygen-protect-primary-pass =
+    .label = Proteger con la contraseña principal
+radio-keygen-passphrase-protection =
+    .label = Proteger con una frase de contraseña:
+openpgp-passphrase-repeat = Confirma la frase de contraseña:
 openpgp-generate-key-info = <b>La generación de la clave puede tardar varios minutos en completarse.</b> No salga de la aplicación mientras la generación de la clave esté en proceso. Navegar activamente o realizar operaciones que hagan un uso intensivo de disco repondrá el 'grupo de aleatoriedad' y acelerará el proceso. Se le avisará cuando la generación de la clave se haya completado.
 openpgp-keygen-expiry-title = Caducidad de la clave
 openpgp-keygen-expiry-description = Establezca la fecha de vencimiento de la clave recién generada. Puede cambiar esta fecha para ampliar el tiempo de caducidad si fuera necesario.
@@ -74,7 +82,7 @@ openpgp-keygen-short-expiry = La clave debe tener una validez de al menos un dí
 openpgp-keygen-ongoing = ¡La generación de las claves ya está en marcha!
 openpgp-keygen-error-core = No se puede inicializar el servicio principal de OpenPGP
 openpgp-keygen-error-failed = La generación de la clave OpenPGP ha fallado de manera inesperada
-#   $identity (String) - the newly generate OpenPGP Key
+#   $key (String) - the ID of the newly generated OpenPGP key
 openpgp-keygen-error-revocation = La clave OpenPGP se ha creado correctamente, pero no se ha podido obtener la revocación de la clave { $key }
 openpgp-keygen-abort-title = ¿Desea cancelar la generación de la clave?
 openpgp-keygen-abort = La generación de la clave OpenPGP se encuentra actualmente en marcha, ¿está seguro de que desea cancelarla?
@@ -95,6 +103,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Confirme qué claves pueden utilizarse como sus claves personales. Sólo las claves que creó usted mismo y que muestran su propia identidad deberían usarse como claves personales. Puede cambiar esta opción más adelante en el cuadro de diálogo Propiedades de la clave.
 openpgp-import-key-list-caption = Las claves marcadas para ser utilizadas como claves personales se enumerarán en la sección Cifrado de extremo a extremo. Las demás estarán disponibles dentro del Administrador de claves.
+openpgp-import-keep-passphrases =
+    .label = Mantener la protección de frase de contraseña para las claves secretas importadas
 openpgp-passphrase-prompt-title = Se requiere frase de acceso.
 #   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Introduzca la frase de acceso para desbloquear la siguiente clave: { $key }

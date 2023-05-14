@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Eliminar carpeta
     .accesskey = r
+menu-edit-unsubscribe-newsgroup =
+    .label = Darse de baja del grupo de noticias
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -205,6 +208,9 @@ mail-context-undelete-messages =
             [one] Restaurar mensaje
            *[other] Restaurar mensajes seleccionados
         }
+context-menu-decrypt-to-folder2 =
+    .label = Crear copia descifrada en
+    .accesskey = f
 
 ## Message header pane
 
@@ -385,3 +391,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Olvidar frases de contraseña de OpenPGP

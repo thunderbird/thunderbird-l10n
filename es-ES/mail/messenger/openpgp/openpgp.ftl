@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publicar
     .accesskey = P
+openpgp-key-publish = Publicar
 openpgp-key-man-discover-prompt = Para descubrir claves OpenPGP en línea, en servidores de claves o usando el protocolo WKD, escriba una dirección de correo electrónico o un ID de clave.
 openpgp-key-man-discover-progress = Buscando…
 # Variables:
@@ -623,8 +624,6 @@ import-key-file = Importar archivo de clave OpenPGP
 import-rev-file = Importar archivo de revocación de OpenPGP
 gnupg-file = Archivos GnuPG
 import-keys-failed = Error al importar las claves
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Escriba la frase de contraseña para desbloquear la siguiente clave: { $key }
 file-to-big-to-import = Este archivo es demasiado grande. No importe un gran conjunto de claves a la vez.
 
