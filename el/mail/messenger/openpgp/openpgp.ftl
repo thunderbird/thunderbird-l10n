@@ -318,9 +318,11 @@ openpgp-personal-yes-label =
 openpgp-passphrase-protection =
     .label = Προστασία φράσης πρόσβασης
 openpgp-passphrase-status-unprotected = Χωρίς προστασία
+openpgp-passphrase-status-primary-password = Προστατεύεται από τον κύριο κωδικό πρόσβασης του { -brand-short-name }
 openpgp-passphrase-status-user-passphrase = Προστατεύεται από φράση πρόσβασης
 openpgp-passphrase-instruction-user-passphrase = Ξεκλειδώστε αυτό το κλειδί για να αλλάξετε την προστασία του.
 openpgp-passphrase-unlock = Ξεκλείδωμα
+openpgp-passphrase-unlocked = Το κλειδί ξεκλειδώθηκε επιτυχώς.
 openpgp-remove-protection = Αφαίρεση προστασίας με φράση πρόσβασης
 openpgp-passphrase-new = Νέα φράση πρόσβασης
 openpgp-passphrase-new-repeat = Επιβεβαίωση νέας φράσης πρόσβασης
@@ -368,6 +370,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Το κλειδί λήγει σε λιγότερο από 6 μήνες
 openpgp-key-has-expired-icon =
     .title = Το κλειδί έληξε
+openpgp-suggest-publishing-key = Η δημοσίευση του δημόσιου κλειδιού σε έναν διακομιστή κλειδιών επιτρέπει σε άλλους χρήστες να το ανακαλύψουν.
 openpgp-key-expand-section =
     .tooltiptext = Περισσότερες πληροφορίες
 openpgp-key-revoke-title = Ανάκληση κλειδιού
@@ -636,6 +639,17 @@ import-rev-file = Εισαγωγή αρχείου ανάκλησης OpenPGP
 gnupg-file = Αρχεία GnuPG
 import-keys-failed = Αποτυχία εισαγωγής κλειδιών
 passphrase-prompt = Εισαγάγετε τη μυστική φράση που ξεκλειδώνει το ακόλουθο κλειδί: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Εισαγάγετε τη φράση πρόσβασης για να ξεκλειδώσετε το μυστικό κλειδί με αναγνωριστικό { $key }, που δημιουργήθηκε στις { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Εισαγάγετε τη φράση πρόσβασης για να ξεκλειδώσετε το μυστικό κλειδί με αναγνωριστικό { $subkey }, που είναι υποκλειδί του κλειδιού με αναγνωριστικό { $key } και δημιουργήθηκε στις { $date }, { $username_and_email }
 file-to-big-to-import = Το αρχείο είναι πολύ μεγάλο. Παρακαλώ μην εισαγάγετε ταυτόχρονα ένα μεγάλο σύνολο κλειδιών.
 
 ## Strings used in enigmailKeygen.js
