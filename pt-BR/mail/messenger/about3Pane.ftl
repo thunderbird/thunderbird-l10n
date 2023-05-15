@@ -17,6 +17,12 @@ thread-pane-folder-message-count =
         [one] { $count } mensagem
        *[other] { $count } mensagens
     }
+thread-pane-header-context-table-view =
+    .label = Exibição em tabela
+thread-pane-header-context-cards-view =
+    .label = Exibição em cartões
+thread-pane-header-context-hide =
+    .label = Ocultar cabeçalho da lista de mensagens
 
 ## Quick Filter Bar
 

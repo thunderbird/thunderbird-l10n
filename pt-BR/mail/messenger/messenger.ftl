@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Excluir pasta
     .accesskey = x
+menu-edit-unsubscribe-newsgroup =
+    .label = Cancelar inscrição no grupo de notícias
+    .accesskey = n
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
