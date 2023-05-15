@@ -345,15 +345,37 @@ key-does-not-expire = Chan fhalbh an ùine air an iuchair
 key-expired-date = Dh’fhalbh an ùine air { $keyExpiry }
 key-expired-simple = Dh’fhalbh an ùine air an iuchair
 key-revoked-simple = Chaidh an iuchair a ghairm air ais
+key-do-you-accept = A bheil thu a’ gabhail ris an iuchair seo airson soidhnidhean digiteach a dhearbhadh agus airson teachdaireachdan a chrioptachadh?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Dearbh lorg-meòir na h-iuchrach slighe seanail conaltraidh thèarainte seach post-d a dhèanamh cinnteach gu e an iuchair aig { $addr } a th’ ann an da-rìribh.
 
 ## Strings enigmailMsgComposeOverlay.js
 
+# Variables:
+# $problem (String) - Error message from key usability check.
+cannot-use-own-key-because = Chan urrainn dhuinn an teachdaireachd a chur a chionn ’s gu bheil duilgheadas leis an iuchair phearsanta agad. { $problem }
+cannot-encrypt-because-missing = Chan urrainn dhuinn an teachdaireachd seo a chur le crioptachadh ceann ri ceann a chionn ’s gu bheil duilgheadasan ann le iuchraichean nam faightearan a leanas: { $problem }
+window-locked = Tha an uinneag sgrìobhaidh glaiste; sguireadh dhen chur
+# Strings in mimeDecrypt.jsm
+mime-decrypt-encrypted-part-concealed-data = Seo cuid dhen teachdaireachd a tha crioptaichte. Feumaidh tu fhosgladh ann an uinneag fa leth le bhith a’ briogadh air a’ cheanglachan.#
 
 ## Strings in keyserver.jsm
 
+keyserver-error-aborted = Sguireadh dheth
+keyserver-error-unknown = Thachair mearachd neo-aithnichte
+keyserver-error-server-error = Rinn am frithealaiche iuchraichean aithris air mearachd.
+keyserver-error-import-error = Cha b’ urrainn dhuinn an iuchair a chaidh a luchdadh a-nuas ion-phortadh.
+keyserver-error-unavailable = Chan eil am frithealaiche iuchraichean ri làimh.
+keyserver-error-security-error = Chan eil am frithealaiche iuchraichean a’ cur taic ri inntrigeadh crioptaichte.
+keyserver-error-certificate-error = Chan eil teisteanas an fhrithealaiche iuchraichean dligheach.
+keyserver-error-unsupported = Chan eil taic ris an fhrithealaiche iuchraichean.
 
 ## Strings in mimeWkdHandler.jsm
 
+wkd-message-body-req =
+    Dhèilig an solaraiche puist-d agad ris an iarrtas agad agus luchdaich e suas an iuchair phoblach agad gu eòlaire iuchraichean-lìn OpenPGP.
+    Dèan dearbhadh gu bheil thu airson foillseachadh na h-iuchrach phoblach agad a choileanadh.
 
 ## Strings in persistentCrypto.jsm
 
