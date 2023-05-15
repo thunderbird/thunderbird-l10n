@@ -208,8 +208,8 @@ always-check-default =
     .label = Να γίνεται πάντα έλεγχος στην εκκίνηση για το αν το { -brand-short-name } είναι το προεπιλεγμένο πρόγραμμα αλληλογραφίας
     .accesskey = λ
 check-default-button =
-    .label = Έλεγχος τώρα…
-    .accesskey = τ
+    .label = Έλεγχος…
+    .accesskey = λ
 # Note: This is the search engine name for all the different platforms.
 # Platforms that don't support it should be left blank.
 search-engine-name =
@@ -620,13 +620,20 @@ security-devices-button =
     .accesskey = Σ
 email-e2ee-header = Διατερματική κρυπτογράφηση email
 account-settings = Ρυθμίσεις λογαριασμού
+email-e2ee-enable-info = Διαμορφώστε λογαριασμούς email και ταυτότητες για διατερματική κρυπτογράφηση στις ρυθμίσεις λογαριασμού.
 email-e2ee-automatism = Αυτόματη χρήση κρυπτογράφησης
+email-e2ee-automatism-pre =
+    Το { -brand-short-name } μπορεί να βοηθήσει (απ)ενεργοποιώντας αυτόματα την κρυπτογράφηση κατά τη σύνταξη ενός email.
+    Η αυτόματη (απ)ενεργοποίηση βασίζεται στη διαθεσιμότητα των έγκυρων και αποδεκτών κλειδιών ή πιστοποιητικών των επιστολογράφων.
 email-e2ee-auto-on =
     .label = Αυτόματη ενεργοποίηση κρυπτογράφησης όταν είναι δυνατόν
 email-e2ee-auto-off =
     .label = Αυτόματη απενεργοποίηση κρυπτογράφησης όταν αλλάζουν οι παραλήπτες και η κρυπτογράφηση δεν είναι πλέον δυνατή
 email-e2ee-auto-off-notify =
     .label = Εμφάνιση ειδοποίησης όταν η κρυπτογράφηση απενεργοποιείται αυτόματα
+email-e2ee-automatism-post =
+    Οι αυτόματες αποφάσεις μπορούν να παρακαμφθούν από τη μη αυτόματη (απ)ενεργοποίηση της κρυπτογράφησης κατά τη σύνταξη ενός μηνύματος.
+    Σημείωση: Η κρυπτογράφηση ενεργοποιείται πάντα αυτόματα όταν απαντάτε σε κρυπτογραφημένο μήνυμα.
 
 ## Chat Tab
 
