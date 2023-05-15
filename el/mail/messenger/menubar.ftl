@@ -69,7 +69,7 @@ menu-quit =
 menu-quit-mac =
     .label = Έξοδος από το { -brand-shorter-name }{ -brand-shorter-name }
 quit-app-shortcut =
-    .key = Ε
+    .key = Q
 
 ## Mail Toolbar
 
