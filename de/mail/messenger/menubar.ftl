@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Kopfzeile der Nachrichtenliste
+    .accesskey = K
 menu-font-size-label =
     .label = Schriftgröße
     .accesskey = S
