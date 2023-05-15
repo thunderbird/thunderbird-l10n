@@ -19,6 +19,8 @@ thread-pane-folder-message-count =
     }
 thread-pane-header-context-table-view =
     .label = Tabelweergave
+thread-pane-header-context-cards-view =
+    .label = Kaartenweergave
 thread-pane-header-context-hide =
     .label = Koptekst berichtenlijst verbergen
 

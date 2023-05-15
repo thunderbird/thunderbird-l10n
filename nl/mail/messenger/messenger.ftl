@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Map verwijderen
     .accesskey = M
+menu-edit-unsubscribe-newsgroup =
+    .label = Afmelden voor nieuwsgroep
+    .accesskey = m
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
