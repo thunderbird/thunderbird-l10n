@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Map fuortsmite
     .accesskey = M
+menu-edit-unsubscribe-newsgroup =
+    .label = Ofmelde foar nijsgroep
+    .accesskey = m
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -205,6 +208,9 @@ mail-context-undelete-messages =
             [one] Berjocht fuortsmite ûngedien meitsje
            *[other] Fuortsmite selektearre berjochten ûngedien meitsje
         }
+context-menu-decrypt-to-folder2 =
+    .label = Untsifere kopy meitsje yn
+    .accesskey = k
 
 ## Message header pane
 
@@ -385,3 +391,4 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Ferjit OpenPGP-wachtwurden

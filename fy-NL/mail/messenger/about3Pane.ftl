@@ -3,6 +3,27 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = De fluchfilterbalke yn-/útskeakelje
+quick-filter-button-label = Fluchfilter
+thread-pane-header-display-button =
+    .title = Werjefteopsjes foar berjochtelist
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } berjocht
+       *[other] { $count } berjochten
+    }
+thread-pane-header-context-table-view =
+    .label = Tabelwerjefte
+thread-pane-header-context-cards-view =
+    .label = Kaartenwerjefte
+thread-pane-header-context-hide =
+    .label = Koptekst berjochtelist ferstopje
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -132,6 +153,8 @@ folder-pane-header-context-toggle-new-message =
     .label = ‘Nij berjocht’ toane
 folder-pane-header-context-hide =
     .label = Koptekst mappepaniel ferstopje
+folder-pane-show-total-toggle =
+    .label = Toan it totaal oantal berjochten
 
 ## Message thread pane
 

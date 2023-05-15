@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publisearje
     .accesskey = P
+openpgp-key-publish = Publisearje
 openpgp-key-man-discover-prompt = Fier om OpenPGP-kaaien online, op kaaiservers of mei it WKD-protokol te ûntdekken, in e-mailadres of in kaai-ID yn.
 openpgp-key-man-discover-progress = Sykje…
 # Variables:
@@ -314,6 +315,22 @@ openpgp-personal-no-label =
     .label = Nee, net as myn persoanlike kaai brûke.
 openpgp-personal-yes-label =
     .label = Ja, dizze kaai as in persoanlike kaai behannelje.
+openpgp-passphrase-protection =
+    .label = Wachtwurdsinbeskerming
+openpgp-passphrase-status-unprotected = Net beskerme
+openpgp-passphrase-status-primary-password = Beskerme troch it haadwachtwurd fan { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Befeilige mei in wachtwurdsin
+openpgp-passphrase-instruction-unprotected = Stel in wachtwurdsin yn om dizze kaai te beskermjen
+openpgp-passphrase-instruction-primary-password = Dizze kaai ek befeiligje mei in aparte wachtwurdsin
+openpgp-passphrase-instruction-user-passphrase = Untskoattelje dizze kaai om de befeiliging te wizigjen.
+openpgp-passphrase-unlock = Untskoattelje
+openpgp-passphrase-unlocked = Kaai mei sukses ûntskoattele.
+openpgp-remove-protection = Wachtwurdsinbefeiliging fuortsmite
+openpgp-use-primary-password = Smyt de wachtwurdsin en befeiligje mei it haadwachtwurd
+openpgp-passphrase-new = Nije wachtwurdsin
+openpgp-passphrase-new-repeat = Nije wachtwurdsin befêstigje
+openpgp-passphrase-set = Wachtwurdsin ynstelle
+openpgp-passphrase-change = Wachtwurdsin wizigje
 openpgp-copy-cmd-label =
     .label = Kopiearje
 
@@ -356,6 +373,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Kaai ferrint oer minder as 6 moannen
 openpgp-key-has-expired-icon =
     .title = Kaai ferrûn
+openpgp-suggest-publishing-key = Troch de iepenbiere kaai op in kaaiserver te publisearjen, kinne oaren dizze ûntdekke.
 openpgp-key-expand-section =
     .tooltiptext = Mear ynformaasje
 openpgp-key-revoke-title = Kaai ynlûke
@@ -623,9 +641,18 @@ import-key-file = OpenPGP-kaaibestân ymportearje
 import-rev-file = OpenPGP-ynlûkingsbestân ymportearje
 gnupg-file = GnuPG-bestannen
 import-keys-failed = It ymportearjen fan de kaaien is mislearre
+passphrase-prompt = Fier de wachtwurdsin yn wêrmei't de folgjende kaai ûntskoattele wurdt: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
-passphrase-prompt = Fier de wachtwurdsin yn wêrmei't de folgjende kaai ûntskoattele wurdt: { $key }
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Fier de wachtwurdsin yn om de geheime kaai mei ID { $key }, oanmakke { $date }, { $username_and_email } te ûntskoatteljen
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Fier de wachtwurdsin yn om de geheime kaai mei ID { $subkey }, hokker in subkaai is fan kaai0-ID { $key }, oanmakke { $date }, { $username_and_email } te ûntskoatteljen
 file-to-big-to-import = Dit bestân is te grut. Ymportearje gjin grutte set kaaien tagelyk.
 
 ## Strings used in enigmailKeygen.js

@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = OpenSearch-provider tafoegje
 add-opensearch-provider-text = Fier de URL yn fan de OpenSearch-provider dy’t jo tafoegje wolle. Brûk de direkte URL fan it OpenSearch-beskriuwingsbestân of in URL wêr’t it automatysk fûn wurde kin.
 adding-opensearch-provider-failed-title = Tafoegjen fan OpenSearch-provider mislearre
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Kin OpenSearch-provider foar { $url } net tafoegje.
 minimize-to-tray-label =
     .label = Nei de systeembalke ferpleatse wannear { -brand-short-name } minimalisearre is
@@ -620,6 +622,22 @@ certificate-button =
 security-devices-button =
     .label = Befeiligingsapparaten…
     .accesskey = a
+email-e2ee-header = E-mail end-to-end-fersifering
+account-settings = Accountynstellingen
+email-e2ee-enable-info = E-mailaccounts en identiteiten foar end-to-end-fersifering yn accountynstellingen ynstelle.
+email-e2ee-automatism = Automatysk gebrûk fan fersifering
+email-e2ee-automatism-pre =
+    { -brand-short-name } kin helpe troch fersifering automatysk yn of út te skeakeljen wylst it opstellen fan in e-mailberjocht.
+    Automatysk ynskeakelje/útskeakelje is basearre op de beskikberheid fan jildige en akseptearre kaaien of sertifikaten fan ûntfangers.
+email-e2ee-auto-on =
+    .label = Skeakelje fersifering wannear mooglik automatysk yn
+email-e2ee-auto-off =
+    .label = Fersifering automatysk útskeakelje wannear ûntfangers wizigje en fersifering net mear mooglik is
+email-e2ee-auto-off-notify =
+    .label = Toan in melding wannear fersifering automatysk útskeakele wurdt
+email-e2ee-automatism-post =
+    Automatyske beslissingen kinne opheven wurde troch fersifering hânmjittich yn of út te skeakeljen by it opstellen fan in berjocht.
+    Opmerking: fersifering is altyd automatysk ynskeakele by it beäntwurdzjen fan in fersifere berjocht.
 
 ## Chat Tab
 
