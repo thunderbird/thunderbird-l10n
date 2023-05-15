@@ -304,9 +304,47 @@ openpgp-radio-none =
 openpgp-radio-none-desc = Na cleachd OpenPGP mu choinneamh na dearbh-aithne seo.
 openpgp-radio-key-not-usable = Cha ghabh an iuchair seo a chleachdadh mar iuchair phearsanta a chionn ’s gu bheil an iuchair rùin a dhìth!
 openpgp-radio-key-not-accepted = Mus urrainn dhut an iuchair seo a chleachdadh, feumaidh tu aontachadh ris mar iuchair phearsanta!
+openpgp-radio-key-not-found = Cha b’ urrainn dhuinn an iuchair a lorg! Ma tha thu airson a chleachdadh, feumaidh tu ion-phortadh gu { -brand-short-name }.
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
+openpgp-radio-key-expires = Falbhaidh an ùine air: { $date }
+#   $date (String) - the past expiration date of when the OpenPGP key expired
+openpgp-radio-key-expired = Dh’fhalbh an ùine air: { $date }
+openpgp-key-expires-within-6-months-icon =
+    .title = Falbhaidh an ùine air an iuchair ann an nas lugha na 6 mìosan
+openpgp-key-has-expired-icon =
+    .title = Dh’fhalbh an ùine air an iuchair
+openpgp-suggest-publishing-key = Ma dh’fhoillsicheas tu an iuchair phoblach air frithealaiche iuchraichean, is urrainn do dhaoine eile lorg fhaighinn air.
+openpgp-key-expand-section =
+    .tooltiptext = Barrachd fiosrachaidh
+openpgp-key-revoke-title = Ais-ghairm iuchair
+openpgp-key-edit-title = Atharraich an iuchair OpenPGP
+openpgp-key-edit-date-title = Cuir sìneadh sa cheann-là a dh’fhalbhas an ùine air
+openpgp-manager-description = Cleachd am manaidsear iuchraichean OpenPGP a stiùireadh is a choimhead air iuchraichean poblach nan co-sgrìobhaichean agad is gach iuchair eile nach fhaic thu gu h-àrd.
+openpgp-manager-button =
+    .label = Fosgail manaidsear iuchraichean OpenPGP
+    .accesskey = m
+openpgp-key-remove-external =
+    .label = Thoir air falbh ID na h-iuchrach air an taobh a-muigh
+    .accesskey = h
+key-external-label = Iuchair GnuPG air an taobh a-muigh
 
 ## Strings in keyDetailsDlg.xhtml
 
+key-type-public = iuchair phoblach
+key-type-primary = prìomh-iuchair
+key-type-subkey = fo-iuchair
+key-type-pair = paidhir iuchraichean (iuchair rùin is iuchair phoblach)
+key-expiry-never = chan ann idir
+key-usage-encrypt = Crioptaich
+key-usage-sign = Soidhnich
+key-usage-certify = Teisteanaich
+key-usage-authentication = Dearbhadh
+key-does-not-expire = Chan fhalbh an ùine air an iuchair
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
+key-expired-date = Dh’fhalbh an ùine air { $keyExpiry }
+key-expired-simple = Dh’fhalbh an ùine air an iuchair
+key-revoked-simple = Chaidh an iuchair a ghairm air ais
 
 ## Strings enigmailMsgComposeOverlay.js
 
