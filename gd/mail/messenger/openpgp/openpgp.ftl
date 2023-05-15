@@ -376,6 +376,9 @@ keyserver-error-unsupported = Chan eil taic ris an fhrithealaiche iuchraichean.
 wkd-message-body-req =
     Dhèilig an solaraiche puist-d agad ris an iarrtas agad agus luchdaich e suas an iuchair phoblach agad gu eòlaire iuchraichean-lìn OpenPGP.
     Dèan dearbhadh gu bheil thu airson foillseachadh na h-iuchrach phoblach agad a choileanadh.
+wkd-message-body-process =
+    Seo post-d co-cheangailte ri pròiseasadh fèin-obrachail airson an iuchair phoblach agad a luchdadh suas gu eòlaire iuchraichean-lìn OpenPGP.
+    Cha leig thu leas dad a dhèanamh de làimh aig an ìre-sa.
 
 ## Strings in persistentCrypto.jsm
 
