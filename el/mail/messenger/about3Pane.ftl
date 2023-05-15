@@ -5,6 +5,8 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = (Απ)ενεργοποίηση γραμμής γρήγορου φιλτραρίσματος
 quick-filter-button-label = Γρήγορο φιλτράρισμα
 thread-pane-header-display-button =
     .title = Επιλογές εμφάνισης λίστας μηνυμάτων
@@ -19,6 +21,8 @@ thread-pane-header-context-table-view =
     .label = Προβολή πίνακα
 thread-pane-header-context-cards-view =
     .label = Προβολή καρτών
+thread-pane-header-context-hide =
+    .label = Απόκρυψη κεφαλίδας λίστας μηνυμάτων
 
 ## Quick Filter Bar
 

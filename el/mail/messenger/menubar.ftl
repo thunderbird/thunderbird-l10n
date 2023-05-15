@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Κεφαλίδα λίστας μηνυμάτων
+    .accesskey = Κ
 menu-font-size-label =
     .label = Μέγεθος γραμματοσειράς
     .accesskey = θ
