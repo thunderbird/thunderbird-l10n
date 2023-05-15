@@ -184,10 +184,6 @@ menu-open-key-manager =
     .label = Διαχείριση κλειδιών
     .accesskey = χ
 # Variables:
-# $addr (String) - Email address (which related to the currently selected
-#                  from address) which isn't set up to end-to-end encryption.
-openpgp-key-issue-notification-from = Δεν έχετε κάνει παραμετροποίηση για να λαμβάνετε κρυπτογραφημένα από άκρο σε άκρο μηνύματα από τον/την { $addr }.
-# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων κλειδιών για το { $addr }
 # Variables:
@@ -291,7 +287,6 @@ many-public-recipients-prompt-send = Αποστολή ούτως ή άλλως
 compose-missing-identity-warning = Δεν βρέθηκε μοναδική ταυτότητα που να αντιστοιχεί στη διεύθυνση «Από». Το μήνυμα θα αποσταλεί με το τρέχον πεδίο «Από» και τις ρυθμίσεις της ταυτότητας «{ $identity }».
 encrypted-bcc-warning = Κατά την αποστολή ενός κρυπτογραφημένου μηνύματος, οι παραλήπτες στο πεδίο «Κρυφή Κοιν.» δεν αποκρύπτονται πλήρως. Όλοι οι παραλήπτες ενδέχεται να μπορέσουν να τους αναγνωρίσουν.
 encrypted-bcc-ignore-button = Κατάλαβα
-auto-disable-e2ee-warning = Η από άκρο σε άκρο κρυπτογράφηση για αυτό το μήνυμα απενεργοποιήθηκε αυτόματα.
 
 ## Editing
 

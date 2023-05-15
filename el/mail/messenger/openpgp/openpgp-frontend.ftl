@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Επαλήθευση υπογραφής
     .accesskey = Ε
 openpgp-has-sender-key = Το μήνυμα ισχυρίζεται ότι περιέχει το δημόσιο κλειδί OpenPGP του αποστολέα.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Προειδοποίηση: Το νέο δημόσιο κλειδί OpenPGP σε αυτό το μήνυμα διαφέρει από τα δημόσια κλειδιά που έχετε προηγουμένως αποδεχθεί για { $email }.
 openpgp-import-sender-key =
     .label = Εισαγωγή…
@@ -32,7 +34,7 @@ openpgp-broken-exchange-info = Αυτό είναι ένα μήνυμα OpenPGP �
 openpgp-broken-exchange-repair =
     .label = Επιδιόρθωση μηνύματος
 openpgp-broken-exchange-wait = Παρακαλώ περιμένετε…
-openpgp-has-nested-encrypted-parts = Το μήνυμα περιλαμβάνει επιπρόσθετα κρυπτογραφημένα μέρη.
+openpgp-has-nested-encrypted-parts = Αυτό το μήνυμα περιλαμβάνει επιπρόσθετα κρυπτογραφημένα μέρη.
 openpgp-show-encrypted-parts = Αποκρυπτογράφηση και εμφάνιση
 openpgp-cannot-decrypt-because-mdc =
     Αυτό είναι ένα κρυπτογραφημένο μήνυμα που χρησιμοποιεί ένα παλιό και ευάλωτο μηχανισμό.

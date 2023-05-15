@@ -127,7 +127,7 @@ openpgp-key-man-discover-progress = Αναζήτηση…
 openpgp-key-publish-ok = Το δημόσιο κλειδί απεστάλη στο «{ $keyserver }».
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
-openpgp-key-publish-fail = Απέτυχε η αποστολή του δημοσίου κλειδιού σας στο "{ $keyserver }".
+openpgp-key-publish-fail = Αποτυχία αποστολής του δημοσίου κλειδιού σας στο «{ $keyserver }».
 openpgp-key-copy-key =
     .label = Αντιγραφή δημόσιου κλειδιού
     .accesskey = Α
