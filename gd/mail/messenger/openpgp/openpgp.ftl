@@ -303,6 +303,7 @@ openpgp-radio-none =
     .label = Chan eil gin
 openpgp-radio-none-desc = Na cleachd OpenPGP mu choinneamh na dearbh-aithne seo.
 openpgp-radio-key-not-usable = Cha ghabh an iuchair seo a chleachdadh mar iuchair phearsanta a chionn ’s gu bheil an iuchair rùin a dhìth!
+openpgp-radio-key-not-accepted = Mus urrainn dhut an iuchair seo a chleachdadh, feumaidh tu aontachadh ris mar iuchair phearsanta!
 
 ## Strings in keyDetailsDlg.xhtml
 
