@@ -4,3 +4,7 @@
 
 calendar-print-layout-list = Спіс
 calendar-print-layout-month-grid = Сетка месяца
+calendar-print-range-from = Ад
+calendar-print-range-to = Да
+calendar-print-back-button = Назад
+calendar-print-next-button = Далей

@@ -6,4 +6,5 @@ calendar-ics-file-window-2 =
     .title = Імпартаваць падзеі і заданні календара
 calendar-ics-file-window-title = Імпартаваць падзеі і заданні календара
 calendar-ics-file-dialog-import-event-button-label = Імпартаваць падзею
+calendar-ics-file-accept-button-ok-label = OK
 calendar-ics-file-cancel-button-close-label = Закрыць
