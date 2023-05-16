@@ -93,6 +93,8 @@
 <!ENTITY deleteFolderCmd.accesskey "д">
 <!ENTITY unsubscribeNewsgroupCmd.label "Адпісацца">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "д">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Вылучыць">
 <!ENTITY selectMenu.accesskey "В">
 <!ENTITY all.label "Усе">
@@ -204,23 +206,23 @@
 <!ENTITY groupBySort.accesskey "г">
 <!ENTITY msgsMenu.label "Лісты">
 <!ENTITY msgsMenu.accesskey "ы">
-<!ENTITY threads.label "Нізкі">
+<!ENTITY threads.label "Ланцужкі">
 <!ENTITY threads.accesskey "з">
 <!ENTITY allMsgsCmd.label "Усе">
 <!ENTITY allMsgsCmd.accesskey "У">
-<!ENTITY expandAllThreadsCmd.label "Разгарнуць усе нізкі">
+<!ENTITY expandAllThreadsCmd.label "Разгарнуць усе ланцужкі">
 <!ENTITY expandAllThreadsCmd.accesskey "Р">
 <!ENTITY expandAllThreadsCmd.key "*">
-<!ENTITY collapseAllThreadsCmd.label "Згарнуць усе нізкі">
+<!ENTITY collapseAllThreadsCmd.label "Згарнуць усе ланцужкі">
 <!ENTITY collapseAllThreadsCmd.accesskey "З">
 <!ENTITY collapseAllThreadsCmd.key "\">
 <!ENTITY unreadMsgsCmd.label "Непрачытаныя">
 <!ENTITY unreadMsgsCmd.accesskey "Н">
-<!ENTITY threadsWithUnreadCmd.label "Нізкі з непрачытанымі">
+<!ENTITY threadsWithUnreadCmd.label "Ланцужкі з непрачытанымі">
 <!ENTITY threadsWithUnreadCmd.accesskey "е">
-<!ENTITY watchedThreadsWithUnreadCmd.label "Нізкі пад наглядам з непрачытанымі">
+<!ENTITY watchedThreadsWithUnreadCmd.label "Ланцужкі пад наглядам з непрачытанымі">
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "г">
-<!ENTITY ignoredThreadsCmd.label "Ігнараваныя нізкі">
+<!ENTITY ignoredThreadsCmd.label "Ігнараваныя ланцужкі">
 <!ENTITY ignoredThreadsCmd.accesskey "І">
 
 <!ENTITY headersMenu.label "Загалоўкі">
@@ -342,10 +344,10 @@
 <!ENTITY replyToListMsgCmd.label "Адказаць спісу">
 <!ENTITY replyToListMsgCmd.accesskey "с">
 <!ENTITY replyToListMsgCmd.key "l">
-<!ENTITY forwardMsgCmd.label "Накіраваць">
+<!ENTITY forwardMsgCmd.label "Пераслаць">
 <!ENTITY forwardMsgCmd.accesskey "к">
 <!ENTITY forwardMsgCmd.key "l">
-<!ENTITY forwardAsMenu.label "Накіраваць як">
+<!ENTITY forwardAsMenu.label "Пераслаць як">
 <!ENTITY forwardAsMenu.accesskey "к">
 <!ENTITY forwardAsInline.label "Убудаванне">
 <!ENTITY forwardAsInline.accesskey "б">
@@ -500,7 +502,7 @@
 <!ENTITY replyButton.label "Адказаць">
 <!ENTITY replyAllButton.label "Адк. усім">
 <!ENTITY replyListButton.label "Адказаць спісу">
-<!ENTITY forwardButton.label "Накіраваць">
+<!ENTITY forwardButton.label "Пераслаць">
 <!ENTITY fileButton.label "Файл">
 <!ENTITY archiveButton.label "Архіў">
 <!ENTITY openConversationButton.label "Размова">
@@ -537,9 +539,9 @@
 <!ENTITY replyButton.tooltip "Адказаць на ліст">
 <!ENTITY replyAllButton.tooltip "Адказаць адпраўніку і ўсім атрымальнікам">
 <!ENTITY replyListButton.tooltip "Адказаць паштоваму спісу">
-<!ENTITY forwardButton.tooltip "Накіраваць вылучаны ліст">
-<!ENTITY forwardAsInline.tooltip "Накіраваць вылучаны ліст як убудаваны тэкст">
-<!ENTITY forwardAsAttachment.tooltip "Накіраваць вылучаны ліст як далучэнне">
+<!ENTITY forwardButton.tooltip "Пераслаць вылучаны ліст">
+<!ENTITY forwardAsInline.tooltip "Пераслаць вылучаны ліст як убудаваны тэкст">
+<!ENTITY forwardAsAttachment.tooltip "Пераслаць вылучаны ліст як далучэнне">
 <!ENTITY fileButton.tooltip "Перамясціць вылучаны ліст">
 <!ENTITY archiveButton.tooltip "Заархівіраваць вылучаныя лісты">
 <!ENTITY nextButton.tooltip "Перамясціцца да наступнага непрачытанага ліста">
@@ -558,8 +560,8 @@
 <!ENTITY appmenuButton1.tooltip "Адлюстраваць меню &brandShortName; Menu">
 
 <!-- Toolbar Button Popup -->
-<!ENTITY buttonMenuForwardAsInline.label "Накіраваць усярэдзіне">
-<!ENTITY buttonMenuForwardAsAttachment.label "Накіраваць як далучэнне">
+<!ENTITY buttonMenuForwardAsInline.label "Пераслаць усярэдзіне">
+<!ENTITY buttonMenuForwardAsAttachment.label "Пераслаць як далучэнне">
 
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Паказаць адлеглае змесціва ў гэтым лісце">
@@ -678,7 +680,7 @@
 
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Вылучыць слупкі для адлюстравання">
-<!ENTITY threadColumn2.tooltip "Паказваць нізкі лістоў">
+<!ENTITY threadColumn2.tooltip "Паказваць ланцужкі лістоў">
 <!ENTITY fromColumn2.tooltip "Размеркаваць па адпраўнікам">
 <!ENTITY recipientColumn2.tooltip "Размеркаваць па атрымальнікам">
 <!ENTITY correspondentColumn2.tooltip "Сартаваць па карэспандэнтам">
@@ -726,15 +728,15 @@
 <!ENTITY contextReplyAll.accesskey "У">
 <!ENTITY contextReplyList.label "Адказаць спісу">
 <!ENTITY contextReplyList.accesskey "с">
-<!ENTITY contextForward.label "Накіраваць">
+<!ENTITY contextForward.label "Пераслаць">
 <!ENTITY contextForward.accesskey "к">
-<!ENTITY contextForwardAsMenu.label "Накіраваць як">
+<!ENTITY contextForwardAsMenu.label "Пераслаць як">
 <!ENTITY contextForwardAsMenu.accesskey "я">
 <!ENTITY contextForwardAsInline.label "Усярэдзіне">
 <!ENTITY contextForwardAsInline.accesskey "у">
 <!ENTITY contextForwardAsAttachmentItem.label "Далучэнне">
 <!ENTITY contextForwardAsAttachmentItem.accesskey "Д">
-<!ENTITY contextMultiForwardAsAttachment.label "Накіраваць як далучэнні">
+<!ENTITY contextMultiForwardAsAttachment.label "Пераслаць як далучэнні">
 <!ENTITY contextMultiForwardAsAttachment.accesskey "л">
 <!ENTITY contextMoveMsgMenu.label "Перамясціць у">
 <!ENTITY contextMoveMsgMenu.accesskey "м">

@@ -33,8 +33,8 @@
 <!ENTITY hdrReplyListButton1.tooltip "Адказаць паштоваму спісу">
 <!ENTITY hdrFollowupButton1.label "Даслаць водгук">
 <!ENTITY hdrFollowupButton1.tooltip "Даслаць водгук у навінакупу">
-<!ENTITY hdrForwardButton1.label "Накіраваць">
-<!ENTITY hdrForwardButton1.tooltip "Накіраваць гэты ліст">
+<!ENTITY hdrForwardButton1.label "Пераслаць">
+<!ENTITY hdrForwardButton1.tooltip "Пераслаць гэты ліст">
 <!ENTITY hdrJunkButton1.label "Лухта">
 <!ENTITY hdrJunkButton1.tooltip "Пазначыць гэты ліст як лухту">
 <!ENTITY hdrTrashButton1.label "Выдаліць">
@@ -91,6 +91,7 @@
 <!ENTITY deleteAllAttachmentsCmd.accesskey    "В">
 
 <!ENTITY openAttachment.tooltip "Адкрыць далучаны файл">
+
 
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "Захаваць">

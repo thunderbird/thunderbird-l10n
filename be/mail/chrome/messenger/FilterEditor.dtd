@@ -36,7 +36,7 @@
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Рухаць ліст у">
 <!ENTITY copyMessage.label "Капіяваць ліст у">
-<!ENTITY forwardTo.label "Накіраваць ліст да">
+<!ENTITY forwardTo.label "Пераслаць ліст да">
 <!ENTITY replyWithTemplate.label "Адказаць паводле ўзору">
 <!ENTITY markMessageRead.label "Пазначыць прачытаным">
 <!ENTITY markMessageUnread.label "Пазначыць непрачытаным">
