@@ -622,6 +622,16 @@ certificate-button =
 security-devices-button =
     .label = Varnostne naprave …
     .accesskey = V
+email-e2ee-header = Šifriranje e-pošte od konca do konca
+account-settings = Nastavitve računa
+email-e2ee-enable-info = E-poštne račune in identitete za šifriranje od konca do konca nastavite v nastavitvah računa.
+email-e2ee-automatism = Samodejna uporaba šifriranja
+email-e2ee-auto-on =
+    .label = Samodejno omogoči šifriranje, ko je to mogoče
+email-e2ee-auto-off =
+    .label = Samodejno onemogoči šifriranje, ko se zamenjajo prejemniki in šifriranje ni več mogoče
+email-e2ee-auto-off-notify =
+    .label = Pokaži obvestilo vsakič, ko se šifriranje samodejno onemogoči
 
 ## Chat Tab
 
