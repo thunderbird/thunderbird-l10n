@@ -3,6 +3,29 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Prikaži/skrij vrstico hitrega filtra
+quick-filter-button-label = Hitri filter
+thread-pane-header-display-button =
+    .title = Možnosti prikaza seznama sporočil
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } sporočilo
+        [two] { $count } sporočili
+        [few] { $count } sporočila
+       *[other] { $count } sporočil
+    }
+thread-pane-header-context-table-view =
+    .label = Pogled razpredelnice
+thread-pane-header-context-cards-view =
+    .label = Pogled kartic
+thread-pane-header-context-hide =
+    .label = Skrij glavo seznama sporočil
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -134,6 +157,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Prikaži gumb "Novo sporočilo"
 folder-pane-header-context-hide =
     .label = Skrij glavo podokna map
+folder-pane-show-total-toggle =
+    .label = Prikaži skupno število sporočil
 
 ## Message thread pane
 

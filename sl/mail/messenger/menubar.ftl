@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Glava seznama sporočil
+    .accesskey = G
 menu-font-size-label =
     .label = Velikost pisave
     .accesskey = o
