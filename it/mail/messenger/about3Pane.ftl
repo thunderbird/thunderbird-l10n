@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Premere “Invio” nuovamente per continu
 
 folder-pane-get-messages-button =
     .title = Scarica messaggi
+folder-pane-get-all-messages-menuitem =
+    .label = Scarica tutti i nuovi messaggi
+    .accesskey = G
 folder-pane-write-message-button = Nuovo messaggio
     .title = Scrivi un nuovo messaggio
 folder-pane-more-menu-button =
