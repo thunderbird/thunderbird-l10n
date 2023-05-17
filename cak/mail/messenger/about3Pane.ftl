@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -117,6 +120,9 @@ quick-filter-bar-gloda-upsell-line2 = Tapitz'a’ chik ‘Enter’ richin k'a ni
 
 folder-pane-get-messages-button =
     .title = Tik'ul rutzijol
+folder-pane-get-all-messages-menuitem =
+    .label = Kek'ul Ronojel K'ak'a' taq Tzijol
+    .accesskey = K
 
 ## Message thread pane
 
