@@ -146,6 +146,9 @@ quick-filter-bar-gloda-upsell-line2 = Pwyswch ‘Enter’ eto i barhau i chwilio
 
 folder-pane-get-messages-button =
     .title = Estyn Negeseuon
+folder-pane-get-all-messages-menuitem =
+    .label = Estyn Pob Neges Newydd
+    .accesskey = E
 folder-pane-write-message-button = Neges Newydd
     .title = Ysgrifennu neges newydd
 folder-pane-more-menu-button =
