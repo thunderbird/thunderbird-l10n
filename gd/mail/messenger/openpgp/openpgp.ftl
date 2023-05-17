@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-intro-description = Airson teachdaireachdan crioptaichte a chur no feadhainn ris a bheil soidhneadh digiteach, feumaidh tu teicneolas crioptachaidh a rèiteachadh, can OpenPGP no S/MIME.
+e2e-intro-description-more = Tagh an iuchair phearsanta agad airson cleachadh OpenPGP a chur an comas no an teisteanas pearsanta agad airson cleachdadh S/MIME a chur an comas. A thaobh iuchrach no teisteanais phearsanta, ’s ann agad-sa ’s a tha an iuchair rùin cho-cheangailte.
 e2e-signing-description = Leigidh soidhneadh digiteach leis na faightearan dearbhadh gur e thu fhèin a chuir e agus nach deach an t-susbaint atharrachadh. Bidh soidhneadh ri teachdaireachdan crioptaichte a ghnàth an-còmhnaidh.
 e2e-sign-message =
     .label = Soidhnich teachdaireachdan gun chrioptachadh
