@@ -136,6 +136,9 @@ quick-filter-bar-gloda-upsell-line2 = Appuyez sur la touche « Entrée » à n
 
 folder-pane-get-messages-button =
     .title = Relever les nouveaux messages
+folder-pane-get-all-messages-menuitem =
+    .label = Relever tous les nouveaux messages
+    .accesskey = l
 folder-pane-write-message-button = Nouveau message
     .title = Rédiger un nouveau message
 folder-pane-more-menu-button =
