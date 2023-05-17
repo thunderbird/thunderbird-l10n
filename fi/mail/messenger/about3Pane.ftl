@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -117,6 +120,9 @@ quick-filter-bar-gloda-upsell-line2 = Paina ‘Enter’ uudestaan jatkaaksesi ha
 
 folder-pane-get-messages-button =
     .title = Nouda viestit
+folder-pane-get-all-messages-menuitem =
+    .label = Nouda kaikki uudet viestit
+    .accesskey = N
 folder-pane-write-message-button = Uusi viesti
     .title = Kirjoita uusi viesti
 # Context menu item to toggle display of "New Message" button in folder pane header
