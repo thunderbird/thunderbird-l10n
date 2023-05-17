@@ -130,6 +130,9 @@ quick-filter-bar-gloda-upsell-line2 = Nhấn ‘Enter’ một lần nữa để
 
 folder-pane-get-messages-button =
     .title = Nhận thư
+folder-pane-get-all-messages-menuitem =
+    .label = Nhận tất cả thư mới
+    .accesskey = y
 folder-pane-write-message-button = Thư mới
     .title = Soạn một thư mới
 folder-pane-more-menu-button =
