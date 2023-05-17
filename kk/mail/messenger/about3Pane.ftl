@@ -136,6 +136,9 @@ quick-filter-bar-gloda-upsell-line2 = Келесіден іздеуді жалғ
 
 folder-pane-get-messages-button =
     .title = Хабарламаларды алу
+folder-pane-get-all-messages-menuitem =
+    .label = Барлық жаңа хабарламаларды алу
+    .accesskey = л
 folder-pane-write-message-button = Жаңа хабарлама
     .title = Жаңа хабарламаны құрастыру
 folder-pane-more-menu-button =
