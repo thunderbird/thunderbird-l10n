@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -113,6 +116,12 @@ quick-filter-bar-gloda-upsell-line1 = Nastavi ovu pretragu po svim mapama
 # Variables:
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Pritisnite ponovno ‘Enter’ kako biste nastavili vaše pretraživanje za: { $text }
+
+## Folder pane
+
+folder-pane-get-all-messages-menuitem =
+    .label = Dohvati sve nove poruke
+    .accesskey = D
 
 ## Message thread pane
 
