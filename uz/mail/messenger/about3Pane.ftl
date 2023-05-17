@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -112,6 +115,12 @@ quick-filter-bar-gloda-upsell-line1 = Ushbu qidiruvni barcha jildlar bo‘ylab d
 # Variables:
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = { $text } uchun qidiruvni davom yana davom ettirish uchun "Enter" tugmasini bosing
+
+## Folder pane
+
+folder-pane-get-all-messages-menuitem =
+    .label = Barcha yangi xabarlarni yuklab olish
+    .accesskey = y
 
 ## Message thread pane
 
