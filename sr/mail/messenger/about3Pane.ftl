@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -118,6 +121,9 @@ quick-filter-bar-gloda-upsell-line2 = Притисните још једном �
 
 folder-pane-get-messages-button =
     .title = Добави поруке
+folder-pane-get-all-messages-menuitem =
+    .label = Добави све нове поруке
+    .accesskey = Д
 folder-pane-write-message-button = Нова порука
     .title = Саставите нову поруку
 folder-pane-more-menu-button =
