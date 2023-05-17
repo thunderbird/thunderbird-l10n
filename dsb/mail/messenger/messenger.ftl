@@ -142,6 +142,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Zarědnik lašowaś
     .accesskey = Z
+menu-edit-unsubscribe-newsgroup =
+    .label = Diskusijnu kupku wótskazaś
+    .accesskey = i
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
