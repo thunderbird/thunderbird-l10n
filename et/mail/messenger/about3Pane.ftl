@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -117,6 +120,9 @@ quick-filter-bar-gloda-upsell-line2 = Vajuta uuesti ‘Enter', et jätkata otsin
 
 folder-pane-get-messages-button =
     .title = Tõmba kirjad
+folder-pane-get-all-messages-menuitem =
+    .label = Tõmba kõik uued kirjad
+    .accesskey = T
 folder-pane-write-message-button = Uus kiri
     .title = Koosta uus kiri
 folder-pane-header-context-hide =
