@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -113,6 +116,12 @@ quick-filter-bar-gloda-upsell-line1 = Continuă această căutare în toate dosa
 # Variables:
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Apasă „Enter” din nou pentru a continua căutarea după { $text }
+
+## Folder pane
+
+folder-pane-get-all-messages-menuitem =
+    .label = Toate conturile
+    .accesskey = T
 
 ## Message thread pane
 
