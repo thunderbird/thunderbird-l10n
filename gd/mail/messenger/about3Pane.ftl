@@ -142,6 +142,9 @@ quick-filter-bar-gloda-upsell-line2 = Put ‘Enter’ a-rithist gus leantainn or
 
 folder-pane-get-messages-button =
     .title = Faigh na teachdaireachdan
+folder-pane-get-all-messages-menuitem =
+    .label = Faigh a h-uile teachdaireachd ùr
+    .accesskey = g
 folder-pane-write-message-button = Teachdaireachd ùr
     .title = Sgrìobh teachdaireachd ùr
 folder-pane-more-menu-button =
