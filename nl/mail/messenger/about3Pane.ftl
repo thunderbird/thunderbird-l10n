@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Druk nogmaals op ‘Enter’ om verder te 
 
 folder-pane-get-messages-button =
     .title = Berichten ophalen
+folder-pane-get-all-messages-menuitem =
+    .label = Alle nieuwe berichten ophalen
+    .accesskey = A
 folder-pane-write-message-button = Nieuw bericht
     .title = Een nieuw bericht opstellen
 folder-pane-more-menu-button =
