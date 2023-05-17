@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Ýttu aftur á ‘Enter’ til að leita �
 
 folder-pane-get-messages-button =
     .title = Ná í póst
+folder-pane-get-all-messages-menuitem =
+    .label = Ná í nýjan póst
+    .accesskey = N
 folder-pane-write-message-button = Nýr póstur
     .title = Semja ný skilaboð
 folder-pane-more-menu-button =
