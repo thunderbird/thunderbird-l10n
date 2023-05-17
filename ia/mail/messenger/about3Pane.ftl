@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Pulsa de novo ‘Enter’ pro continuar tu
 
 folder-pane-get-messages-button =
     .title = Reciper messages
+folder-pane-get-all-messages-menuitem =
+    .label = Reception de tote le nove messages
+    .accesskey = R
 folder-pane-write-message-button = Nove message
     .title = Compone un message nove
 folder-pane-more-menu-button =
