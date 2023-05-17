@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Şunu aramaya devam etmek için Enter'a ye
 
 folder-pane-get-messages-button =
     .title = İletileri al
+folder-pane-get-all-messages-menuitem =
+    .label = Tüm yeni iletileri indir
+    .accesskey = T
 folder-pane-write-message-button = Yeni ileti
     .title = Yeni bir ileti oluştur
 folder-pane-more-menu-button =
