@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Eingabetaste erneut drücken für Volltext
 
 folder-pane-get-messages-button =
     .title = Nachrichten abrufen
+folder-pane-get-all-messages-menuitem =
+    .label = Alle Konten abrufen
+    .accesskey = A
 folder-pane-write-message-button = Neue Nachricht
     .title = Eine neue Nachricht verfassen
 folder-pane-more-menu-button =
