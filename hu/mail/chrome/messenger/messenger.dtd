@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "l">
 <!ENTITY unsubscribeNewsgroupCmd.label "Leiratkozás">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "L">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Kijelölés">
 <!ENTITY selectMenu.accesskey "e">
 <!ENTITY all.label "Mind">
@@ -536,7 +538,7 @@
 <!ENTITY addressBookButton.label "Címjegyzék">
 <!ENTITY chatButton.label "Csevegés">
 <!ENTITY glodaSearch.title "Globális keresés">
-<!ENTITY searchItem.title "Gyorskeresés">
+<!ENTITY searchItem.title "Gyors keresés">
 <!ENTITY mailViewsToolbarItem.title "Levélnézetek">
 <!ENTITY folderLocationToolbarItem.title "Mappa helye">
 <!ENTITY tagButton.label "Címke">
