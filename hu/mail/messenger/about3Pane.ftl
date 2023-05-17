@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Nyomja meg az Enter billentyűt a(z) { $te
 
 folder-pane-get-messages-button =
     .title = Üzenetek letöltése
+folder-pane-get-all-messages-menuitem =
+    .label = Összes új üzenet letöltése
+    .accesskey = s
 folder-pane-write-message-button = Új üzenet
     .title = Új üzenet írása
 folder-pane-more-menu-button =
