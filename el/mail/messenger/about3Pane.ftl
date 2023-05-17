@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Πατήστε «Enter» ξανά για �
 
 folder-pane-get-messages-button =
     .title = Λήψη μηνυμάτων
+folder-pane-get-all-messages-menuitem =
+    .label = Λήψη όλων των νέων μηνυμάτων
+    .accesskey = Λ
 folder-pane-write-message-button = Νέο μήνυμα
     .title = Σύνθεση νέου μηνύματος
 folder-pane-more-menu-button =
