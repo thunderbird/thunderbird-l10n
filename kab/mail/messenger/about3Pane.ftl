@@ -130,6 +130,9 @@ quick-filter-bar-gloda-upsell-line2 = Sit ‘Kcem’  tikelt nniḍen akken ad t
 
 folder-pane-get-messages-button =
     .title = Awi izen
+folder-pane-get-all-messages-menuitem =
+    .label = Awi-d akk iznan imaynuten
+    .accesskey = y
 folder-pane-write-message-button = Izen imaynuten
     .title = Aru iznan imaynuten
 folder-pane-more-menu-button =
