@@ -141,6 +141,9 @@ quick-filter-bar-gloda-upsell-line2 = Stlačením klávesu ‘Enter’ môžete 
 
 folder-pane-get-messages-button =
     .title = Prijať správy
+folder-pane-get-all-messages-menuitem =
+    .label = Prijať všetky nové správy
+    .accesskey = P
 folder-pane-write-message-button = Nová správa
     .title = Napísať novú správu
 folder-pane-more-menu-button =
