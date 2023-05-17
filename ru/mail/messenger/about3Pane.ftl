@@ -140,6 +140,9 @@ quick-filter-bar-gloda-upsell-line2 = Нажмите ещё раз ‘Enter’ �
 
 folder-pane-get-messages-button =
     .title = Получить сообщения
+folder-pane-get-all-messages-menuitem =
+    .label = Все новые сообщения
+    .accesskey = с
 folder-pane-write-message-button = Создать
     .title = Создать новое сообщение
 folder-pane-more-menu-button =
