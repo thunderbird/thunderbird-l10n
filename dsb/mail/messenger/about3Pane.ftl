@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Tłocćo ‘Enter’ hyšći raz, aby ze s
 
 folder-pane-get-messages-button =
     .title = Powěsći wobstaraś
+folder-pane-get-all-messages-menuitem =
+    .label = Wšykne nowe powěsći wótwołaś
+    .accesskey = W
 folder-pane-write-message-button = Nowa powěsć
     .title = Nowu powěsć pisaś
 folder-pane-more-menu-button =
