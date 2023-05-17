@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -113,6 +116,12 @@ quick-filter-bar-gloda-upsell-line1 = Kenderc'hel ar c'hlask e-barzh an holl deu
 # Variables:
 # $text (String) - What the user has typed so far.
 quick-filter-bar-gloda-upsell-line2 = Pouezit war ar stokell ‘Enankañ’ en-dro evit kenderc'hel ho c'hlask evit: { $text }
+
+## Folder pane
+
+folder-pane-get-all-messages-menuitem =
+    .label = Kerc'hat an holl bosteloù nevez
+    .accesskey = e
 
 ## Message thread pane
 
