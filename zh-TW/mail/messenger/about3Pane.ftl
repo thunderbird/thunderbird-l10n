@@ -133,6 +133,9 @@ quick-filter-bar-gloda-upsell-line2 = 按下 Enter 鍵以繼續搜尋: { $text }
 
 folder-pane-get-messages-button =
     .title = 下載郵件
+folder-pane-get-all-messages-menuitem =
+    .label = 下載所有新郵件
+    .accesskey = G
 folder-pane-write-message-button = 寫新訊息
     .title = 撰寫新訊息
 folder-pane-more-menu-button =
