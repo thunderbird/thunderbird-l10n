@@ -138,6 +138,9 @@ quick-filter-bar-gloda-upsell-line2 = Pulse ‘Enter’ de nuevo para continuar 
 
 folder-pane-get-messages-button =
     .title = Obtener mensajes
+folder-pane-get-all-messages-menuitem =
+    .label = Recibir todos los mensajes nuevos
+    .accesskey = R
 folder-pane-write-message-button = Nuevo mensaje
     .title = Redactar un nuevo mensaje
 folder-pane-more-menu-button =
