@@ -142,6 +142,9 @@ quick-filter-bar-gloda-upsell-line2 = Pritisnite spet ‘Enter', da nadaljujete 
 
 folder-pane-get-messages-button =
     .title = Prejmi sporočila
+folder-pane-get-all-messages-menuitem =
+    .label = Prejmi vsa nova sporočila
+    .accesskey = P
 folder-pane-write-message-button = Novo sporočilo
     .title = Napiši novo sporočilo
 folder-pane-more-menu-button =
