@@ -191,6 +191,10 @@ autoscroll-label =
 smooth-scrolling-label =
     .label = Користи глатко клизање
     .accesskey = г
+browsing-gtk-use-non-overlay-scrollbars =
+    .label = Увек прикажи траке за померање
+    .accesskey = т
+window-layout-legend = Распоред прозора
 draw-in-titlebar-label =
     .label = Сакриј насловну траку системског прозора
     .accesskey = ј
@@ -219,7 +223,7 @@ search-integration-label =
 config-editor-button =
     .label = Уређивач подешавања…
     .accesskey = п
-return-receipts-description = Начин на који { -brand-short-name } барата са потврдама о пријему
+return-receipts-description = Начин на који { -brand-short-name } руководи потврдама о пријему
 return-receipts-button =
     .label = Потврде о пријему…
     .accesskey = П
@@ -612,6 +616,19 @@ certificate-button =
 security-devices-button =
     .label = Сигурносни уређаји…
     .accesskey = С
+email-e2ee-header = Шифровање поште с краја на крај
+email-e2ee-enable-info = Подесите налоге е-поште и идентитете за шифровање с краја на крај у подешавањима налога.
+email-e2ee-automatism = Самостално коришћење шифровања
+email-e2ee-automatism-pre = { -brand-short-name } може помоћи самосталним омогућавањем или онемогућавањем шифровања приликом писања мејла. Самостално шифровање се подешава на основу доступности исправних и прихваћених кључева или сертификата саговорника.
+email-e2ee-auto-on =
+    .label = Самостално омогући шифровање када је то могуће
+email-e2ee-auto-off =
+    .label = Самостално онемогући шифровање када се саговорници промене и шифровање постане немогуће
+email-e2ee-auto-off-notify =
+    .label = Прикажи поруку када се шифровање самостално онемогући
+email-e2ee-automatism-post =
+    Самосталне одлуке је могуће прегласати ручним омогућавањем или онемогућавањем шифровања приликом писања поруке.
+    Напомена: шифровање је увек самостално омогућено када се одговара на шифровану поруку.
 
 ## Chat Tab
 
