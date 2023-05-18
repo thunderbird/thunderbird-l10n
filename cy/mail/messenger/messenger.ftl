@@ -146,7 +146,7 @@ menu-edit-delete-folder =
     .accesskey = F
 menu-edit-unsubscribe-newsgroup =
     .label = Dad-danysgrifio Grŵp Newyddion
-    .accesskey = b
+    .accesskey = D
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

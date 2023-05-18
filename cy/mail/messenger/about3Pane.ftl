@@ -6,10 +6,10 @@
 ## Message List Header Bar
 
 quick-filter-button =
-    .title = Toggle'r Bar Hidlo Cyflym
+    .title = Togglo'r Bar Hidlo Cyflym
 quick-filter-button-label = Hidl Cyflym
 thread-pane-header-display-button =
-    .title = Opsiynau arddangos rhestr negeseuon
+    .title = Dewisiadau dangos rhestrau negeseuon
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -22,11 +22,11 @@ thread-pane-folder-message-count =
        *[other] { $count } Neges
     }
 thread-pane-header-context-table-view =
-    .label = Golygfa Tabl
+    .label = Golwg Tabl
 thread-pane-header-context-cards-view =
-    .label = Golygfa Cardiau
+    .label = Golwg Cardiau
 thread-pane-header-context-hide =
-    .label = Cuddio Pennawd Rhestr Negeseuon
+    .label = Cuddio Pennyn Rhestr Negeseuon
 
 ## Quick Filter Bar
 
@@ -148,7 +148,7 @@ folder-pane-get-messages-button =
     .title = Estyn Negeseuon
 folder-pane-get-all-messages-menuitem =
     .label = Estyn Pob Neges Newydd
-    .accesskey = G
+    .accesskey = E
 folder-pane-write-message-button = Neges Newydd
     .title = Ysgrifennu neges newydd
 folder-pane-more-menu-button =

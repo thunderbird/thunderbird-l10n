@@ -101,8 +101,8 @@ menu-view-folders-toggle-header =
 ## View / Layout
 
 menu-view-toggle-thread-pane-header =
-    .label = Pennawd Rhestr Negeseuon
-    .accesskey = H
+    .label = Pennyn Rhestrau Negeseuon
+    .accesskey = P
 menu-font-size-label =
     .label = Maint Ffont
     .accesskey = M
