@@ -216,7 +216,7 @@
 <!ENTITY followupAddr2.label "Inoltra a">
 <!ENTITY subject2.label "Oggetto">
 <!ENTITY subject.accesskey "t">
-<!ENTITY attachmentBucketCloseButton.tooltip "Nascondi il riquadro allegati">
+<!ENTITY attachmentBucketCloseButton.tooltip "Nascondi pannello allegati">
 
 <!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Inserisci una faccina">
