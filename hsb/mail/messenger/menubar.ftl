@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Hłowa powěsćoweje lisćiny
+    .accesskey = H
 menu-font-size-label =
     .label = Pismowa wulkosć
     .accesskey = i
