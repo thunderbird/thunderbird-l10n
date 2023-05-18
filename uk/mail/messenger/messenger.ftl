@@ -150,6 +150,8 @@ menu-edit-delete-messages =
     .label =
         { $count ->
             [one] Видалити повідомлення
+            [few] Видалити $count повідомлення
+            [many] Видалити $count повідомлень
            *[other] Видалити вибрані повідомлення
         }
     .accesskey = В
@@ -158,10 +160,12 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Повернути повідомлення
-           *[other] Повернути вибрані повідомлення
+            [one] Відновити повідомлення
+            [few] Відновити $count повідомлення
+            [many] Відновити $count повідомлень
+           *[other] Відновити вибрані повідомлення
         }
-    .accesskey = п
+    .accesskey = н
 
 ## Message Menu
 
@@ -207,8 +211,10 @@ context-menu-decrypt-to-folder =
 mail-context-undelete-messages =
     .label =
         { $count ->
-            [one] Повернути повідомлення
-           *[other] Повернути вибрані повідомлення
+            [one] Відновити повідомлення
+            [few] Відновити $count повідомлення
+            [many] Відновити $count повідомлень
+           *[other] Відновити вибрані повідомлення
         }
 context-menu-decrypt-to-folder2 =
     .label = Створити розшифровану копію в
