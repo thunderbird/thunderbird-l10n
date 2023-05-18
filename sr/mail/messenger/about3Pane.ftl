@@ -5,6 +5,17 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Прикажи брзо филтрирање
+quick-filter-button-label = Брзо филтрирање
+thread-pane-header-display-button =
+    .title = Опције приказа списка порука
+thread-pane-header-context-table-view =
+    .label = Приказ табеле
+thread-pane-header-context-cards-view =
+    .label = Приказ картица
+thread-pane-header-context-hide =
+    .label = Сакриј заглавље списка порука
 
 ## Quick Filter Bar
 
