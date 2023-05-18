@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "E">
 <!ENTITY unsubscribeNewsgroupCmd.label "Annulla sottoscrizione">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Seleziona">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Tutti">
@@ -143,7 +145,7 @@
 <!ENTITY messagePaneWide.accesskey "e">
 <!ENTITY messagePaneVertical.label "Visualizzazione verticale">
 <!ENTITY messagePaneVertical.accesskey "V">
-<!ENTITY showFolderPaneCmd.label "Riquadro cartelle">
+<!ENTITY showFolderPaneCmd.label "Pannello cartelle">
 <!ENTITY showFolderPaneCmd.accesskey "R">
 <!ENTITY showFolderPaneColsCmd.label "Colonne del pannello delle cartelle">
 <!ENTITY showFolderPaneColsCmd.accesskey "P">
@@ -443,7 +445,7 @@
 <!ENTITY openFeedWebPage.accesskey "W">
 <!ENTITY openFeedSummary.label "Aprire come sommario">
 <!ENTITY openFeedSummary.accesskey "S">
-<!ENTITY openFeedWebPageInMP.label "Scambia la pagina web e il sommario nel riquadro dell’anteprima">
+<!ENTITY openFeedWebPageInMP.label "Scambia la pagina web e il sommario nel pannello anteprima">
 <!ENTITY openFeedWebPageInMP.accesskey "S">
 
 <!-- Windows Menu -->
