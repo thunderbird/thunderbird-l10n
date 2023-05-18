@@ -55,8 +55,17 @@ customize-button-style-text-only =
     .label = Pouze text
 customize-cancel = Zrušit
 customize-save = Uložit
+customize-unsaved-changes = Neuložené změny v jiných panelech
+customize-search-bar =
+    .label = Vyhledávání tlačítek pro lišty…
 customize-main-toolbar-target =
     .aria-label = Hlavní lišta
+customize-palette-mail-specific-title = Dostupné pouze pro Poštu
+customize-palette-addressbook-specific-title = Dostupné pouze pro Kontakty
+customize-palette-calendar-specific-title = Dostupné pouze pro Kalendář
+customize-palette-tasks-specific-title = Dostupné pouze pro Úkoly
+customize-palette-chat-specific-title = Dostupné pouze pro Chat
+customize-palette-settings-specific-title = Dostupné pouze pro Nastavení
 
 ## Unified toolbar customization palette context menu
 
