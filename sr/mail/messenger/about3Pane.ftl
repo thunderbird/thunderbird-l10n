@@ -150,6 +150,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Прикажи „Нова порука”
 folder-pane-header-context-hide =
     .label = Сакриј заглавље површи фасцикли
+folder-pane-show-total-toggle =
+    .label = Прикажи укупан збир порука
 
 ## Message thread pane
 

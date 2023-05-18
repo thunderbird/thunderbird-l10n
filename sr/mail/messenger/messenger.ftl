@@ -141,6 +141,9 @@ mail-context-undelete-messages =
             [one] Врати обрисану поруку
            *[other] Врати изабране обрисане поруке
         }
+context-menu-decrypt-to-folder2 =
+    .label = Направи дешифровану копију у
+    .accesskey = д
 
 ## Message header pane
 
