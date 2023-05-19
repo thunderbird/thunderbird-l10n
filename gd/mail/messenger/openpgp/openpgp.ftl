@@ -383,9 +383,16 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+# Variables:
+# $subject (String) - Subject of the message.
+converter-decrypt-body-failed =
+    Cha b’ urrainn dhuinn an teachdaireachd aig a bheil an cuspair
+    { $subject }.
+    a dhì-chrioptachadh. A bheil thu airson feuchainn ris a-rithist le abairt-fhaire eile no a bheil thu airson leum a ghearradh seachad air an teachdaireachd?
 
 ## Strings filters.jsm
 
+filter-folder-required = Feumaidh tu pasgan targaide a thaghadh.
 
 ## Strings filtersWrapper.jsm
 
