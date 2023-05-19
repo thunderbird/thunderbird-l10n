@@ -15,6 +15,7 @@
 <!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
    - This label and tooltip is used for the column with the checkbox in the
    - task tree view. -->
+<!ENTITY calendar.unifinder.tree.categories.label          "Катэгорыя">
 <!ENTITY calendar.unifinder.tree.calendarname.label        "Назва календара">
 
 <!ENTITY calendar.today.button.tooltip          "Перайсці да сёння" >
@@ -46,6 +47,7 @@
      separate entry will be shown for each of the occurrences that happen on or
      before today (or the selected date, whichever is later). -->
 
+<!ENTITY calendar.task-details.category.label        "Катэгорыя:">
 
 
 

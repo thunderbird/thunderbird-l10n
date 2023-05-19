@@ -48,6 +48,9 @@
    - illustrates how it might look like: https://bugzilla.mozilla.org/attachment.cgi?id=8810121 -->
 
 <!-- Main page -->
+<!ENTITY event.categories.label                           "Катэгорыя:">
+<!ENTITY event.categories.accesskey                       "К">
+<!ENTITY event.categories.textbox.label                   "Дадаць новую катэгорыю" >
 <!ENTITY event.calendar.label                             "Каляндар:" >
 <!ENTITY event.calendar.accesskey                         "К">
 <!ENTITY event.description.label                          "Апісанне:" >
@@ -137,6 +140,7 @@
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.calendar.label        "Каляндар:">
+<!ENTITY read.only.category.label        "Катэгорыя:">
 <!ENTITY read.only.description.label     "Апісанне">
 
 <!-- Summary dialog -->
