@@ -5,6 +5,24 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Mussar/zuppentar la trav per filtrar svelt
+quick-filter-button-label = Filter svelt
+thread-pane-header-display-button =
+    .title = Opziuns da vista per la glista da messadis
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } messadi
+       *[other] { $count } messadis
+    }
+thread-pane-header-context-table-view =
+    .label = Vista da tabella
+thread-pane-header-context-cards-view =
+    .label = Vista da cartas
+thread-pane-header-context-hide =
+    .label = Zuppentar il chau da la glista da messadis
 
 ## Quick Filter Bar
 
@@ -138,6 +156,8 @@ folder-pane-header-context-toggle-new-message =
     .label = Mussar «Nov messadi»
 folder-pane-header-context-hide =
     .label = Zuppentar il titel da la panela dad ordinaturs
+folder-pane-show-total-toggle =
+    .label = Mussar il dumber total da messadis
 
 ## Message thread pane
 

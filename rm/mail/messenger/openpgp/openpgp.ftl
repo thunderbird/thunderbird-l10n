@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publitgar
     .accesskey = P
+openpgp-key-publish = Publitgar
 openpgp-key-man-discover-prompt = Per tschertgar clavs OpenPGP online – sin servers da clavs u cun agid dal protocol WKD – endatar ina adressa d'e-mail u ina ID da clav.
 openpgp-key-man-discover-progress = Tschertgar…
 # Variables:
@@ -314,6 +315,22 @@ openpgp-personal-no-label =
     .label = Na, betg l'utilisar sco mia clav persunala.
 openpgp-personal-yes-label =
     .label = Gea, considerar questa clav sco ina clav persunala.
+openpgp-passphrase-protection =
+    .label = Protecziun cun frasa-clav
+openpgp-passphrase-status-unprotected = Betg protegida
+openpgp-passphrase-status-primary-password = Protegida dal pled-clav universal da { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Protegida dad ina frasa-clav
+openpgp-passphrase-instruction-unprotected = Definescha ina frasa-clav per proteger questa clav
+openpgp-passphrase-instruction-primary-password = Sco alternativa pos ti era proteger questa clav cun ina frasa-clav separada
+openpgp-passphrase-instruction-user-passphrase = Deblochescha questa clav per midar sia protecziun.
+openpgp-passphrase-unlock = Debloccar
+openpgp-passphrase-unlocked = Debloccà cun success la clav.
+openpgp-remove-protection = Allontanar la protecziun cun frasa-clav
+openpgp-use-primary-password = Allontanar la frasa-clav e proteger cun il pled-clav universal
+openpgp-passphrase-new = Nova frasa-clav
+openpgp-passphrase-new-repeat = Confermar la nova frasa-clav
+openpgp-passphrase-set = Definir ina frasa-clav
+openpgp-passphrase-change = Midar la frasa-clav
 openpgp-copy-cmd-label =
     .label = Copiar
 
@@ -356,6 +373,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = La clav scada en pli pauc che 6 mais
 openpgp-key-has-expired-icon =
     .title = La clav è scadida
+openpgp-suggest-publishing-key = La publicaziun da la clav publica sin in server da clavs permetta ad autras persunas da la chattar.
 openpgp-key-expand-section =
     .tooltiptext = Ulteriuras infurmaziuns
 openpgp-key-revoke-title = Revocar la clav
@@ -623,9 +641,18 @@ import-key-file = Importar ina datoteca da clav OpenPGP
 import-rev-file = Importar ina datoteca da revocaziun OpenPGP
 gnupg-file = Datotecas GnuPG
 import-keys-failed = L'import da las clavs n'è betg reussì
+passphrase-prompt = Endatescha per plaschair la frasa-clav che deblochescha la suandanta clav: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
-passphrase-prompt = Endatescha per plaschair la frasa-clav che deblochescha la suandanta clav: { $key }
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Endatescha la frasa-clav per debloccar la clav secreta cun la ID { $key }, creada ils { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Endatescha la frasa-clav per debloccar la clav secreta cun la ID { $subkey } ch'è ina sutclav da la clav cun la ID { $key }, creada ils { $date }, { $username_and_email }
 file-to-big-to-import = Questa datoteca è memia gronda. N'importescha per plaschair betg memia bleras clavs en ina.
 
 ## Strings used in enigmailKeygen.js

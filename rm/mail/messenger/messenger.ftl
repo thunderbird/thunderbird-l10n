@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Stizzar l'ordinatur
     .accesskey = z
+menu-edit-unsubscribe-newsgroup =
+    .label = Deabunar la gruppa da discussiun
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -205,6 +208,9 @@ mail-context-undelete-messages =
             [one] Restaurar il messadi
            *[other] Restaurar ils messadis marcads
         }
+context-menu-decrypt-to-folder2 =
+    .label = Crear ina copia decriptada en
+    .accesskey = d
 
 ## Message header pane
 
@@ -384,4 +390,8 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+openpgp-forget = Emblidar las frasas-clav OpenPGP
+
+## Quota panel.
 

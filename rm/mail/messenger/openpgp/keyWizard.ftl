@@ -26,6 +26,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Generar ina clav OpenPGP
+openpgp-keygen-secret-protection = Protecziun cun clav secreta
+radio-keygen-no-protection =
+    .label = Betg protegida
+radio-keygen-protect-primary-pass =
+    .label = Proteger cun il pled-clav universal
+radio-keygen-passphrase-protection =
+    .label = Proteger cun ina frasa-clav:
+openpgp-passphrase-repeat = Conferma la frasa-clav:
 openpgp-generate-key-info = <b>La generaziun dad ina clav po durar pliras minutas.</b> Na terminescha betg l'applicaziun enfin che la generaziun da la clav n'è betg finida. Cun navigar activamain u exequir operaziuns exigentas per il disc dir durant la generaziun da la clav, pos ti augmentar il nivel da casualitad ed accelerar il process. Ti vegns infurmà uschespert ch'il process è terminà.
 openpgp-keygen-expiry-title = Scadenza da la clav
 openpgp-keygen-expiry-description = Definescha la data da scadenza da tia clav gist generada. Ti pos adattar pli tard la data da scadenza per la prolungar, sche necessari.
@@ -74,7 +82,7 @@ openpgp-keygen-short-expiry = Ti clav sto esser valida per almain in di.
 openpgp-keygen-ongoing = La generaziun da la clav è gia en lavur!
 openpgp-keygen-error-core = Impussibel d'inizialisar il servetsch principal da OpenPGP
 openpgp-keygen-error-failed = Ina errur nunspetgada ha impedì la generaziun da la clav OpenPGP
-#   $identity (String) - the newly generate OpenPGP Key
+#   $key (String) - the ID of the newly generated OpenPGP key
 openpgp-keygen-error-revocation = La clav OpenPGP è vegnida creada cun success, ma i n'è betg reussì dad obtegnair la revocaziun per la clav { $key }
 openpgp-keygen-abort-title = Interrumper la generaziun da la clav?
 openpgp-keygen-abort = La generaziun da la clav OpenPGP è en lavur. La vuls ti propi interrumper?
@@ -95,6 +103,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Conferma tge clavs che pon vegnir consideradas sco tias clavs persunalas. Mo clavs che ti tez has creà e che mussan tia atgna identitad duessan vegnir utilisadas sco clavs persunalas. Ti pos midar questa opziun pli tard en il dialog «Caracteristicas da clavs».
 openpgp-import-key-list-caption = Las clavs marcadas sco clavs persunalas vegnan enumeradas en la secziun da criptadi da fin a fin. Tschellas stattan a disposiziun en l'administraziun da clavs.
+openpgp-import-keep-passphrases =
+    .label = Mantegnair la protecziun cun la frasa-clav per las clavs secretas importadas
 openpgp-passphrase-prompt-title = Frasa-clav obligatorica
 #   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Endatescha per plaschair la frasa-clav per debloccar la suandanta clav: { $key }

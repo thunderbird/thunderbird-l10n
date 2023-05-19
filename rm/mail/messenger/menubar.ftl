@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Chau da la glista da messadis
+    .accesskey = m
 menu-font-size-label =
     .label = Grondezza da scrittira
     .accesskey = o

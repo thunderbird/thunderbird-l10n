@@ -622,6 +622,22 @@ certificate-button =
 security-devices-button =
     .label = Apparats da segirezza…
     .accesskey = s
+email-e2ee-header = Criptadi fin-a-fin dad e-mail
+account-settings = Parameters dal conto
+email-e2ee-enable-info = Configurescha contos dad e-mail ed identitads per il criptadi fin-a-fin en ils parameters dal conto.
+email-e2ee-automatism = Utilisaziun automatica da dal criptadi
+email-e2ee-automatism-pre =
+    { -brand-short-name } po ta gidar cun activar u deactivar automaticamain il criptadi durant la redacziun dad in e-mail.
+    L'activaziun / deactivaziun automatica succeda tut tenor disponibladad da clavs validas ed acceptadas dals correspundents.
+email-e2ee-auto-on =
+    .label = Activar automaticamain il criptadi sche pussaivel
+email-e2ee-auto-off =
+    .label = Deactivar automaticamain il criptadi en cas ch'ils destinaturs sa midan ed il criptadi n'è betg pli pussaivel
+email-e2ee-auto-off-notify =
+    .label = Mussar in avis en cas ch'il criptadi vegn deactivà automaticamain
+email-e2ee-automatism-post =
+    Decisiuns automaticas vegnan ignoradas sch'il criptadi vegn activà u deactivà manualmain durant rediger in messadi.
+    Avis: Il criptadi è adina activà automaticamain sch'i sa tracta dad ina resposta ad in messadi criptà.
 
 ## Chat Tab
 
