@@ -8,6 +8,8 @@
 quick-filter-button =
     .title = Rědku spěšnego filtra pśešaltowaś
 quick-filter-button-label = Spěšny filter
+thread-pane-header-display-button =
+    .title = Pokazowańske nastajenja za powěsćowu lisćinu
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -21,6 +23,8 @@ thread-pane-header-context-table-view =
     .label = Tabelowy naglěd
 thread-pane-header-context-cards-view =
     .label = Kórtowy naglěd
+thread-pane-header-context-hide =
+    .label = Głowu powěsćoweje lisćiny schowaś
 
 ## Quick Filter Bar
 
@@ -192,6 +196,8 @@ threadpane-column-header-unread-button =
     .title = Pó cytańskem statusu sortěrowaś
 threadpane-column-label-unread-button =
     .label = Cytański status
+threadpane-read-cell-label = Pśecytany
+threadpane-unread-cell-label = Njecytane
 threadpane-column-header-sender = Wót
     .title = Pó Wót sortěrowaś
 threadpane-column-label-sender =
