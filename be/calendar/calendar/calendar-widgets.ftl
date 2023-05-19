@@ -21,6 +21,8 @@ calendar-nav-button-next-tooltip-month =
 calendar-nav-button-next-tooltip-year =
     .title = Наступны год
     .accesskey = с
+calendar-today-button-tooltip =
+    .title = Перайсці да сёння
 
 ## Menu on calendar control bar
 

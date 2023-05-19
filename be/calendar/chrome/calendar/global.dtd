@@ -19,3 +19,5 @@
 <!ENTITY onemonthforward.tooltip "Наступны месяц" >
 <!ENTITY oneyearbackward.tooltip "Мінулы год" >
 <!ENTITY oneyearforward.tooltip "Наступны год" >
+
+<!ENTITY showToday.tooltip "Перайсці да сёння">

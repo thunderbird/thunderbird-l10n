@@ -3,6 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
+<!ENTITY lightning.toolbar.gototoday.label "Сёння">
+<!ENTITY lightning.toolbar.gototoday.tooltip "Перайсці да сёння">
 
 <!-- Mode Toolbar -->
 <!ENTITY lightning.toolbar.calendar.label     "Каляндар">

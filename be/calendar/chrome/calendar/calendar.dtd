@@ -17,6 +17,7 @@
    - task tree view. -->
 <!ENTITY calendar.unifinder.tree.calendarname.label        "Назва календара">
 
+<!ENTITY calendar.today.button.tooltip          "Перайсці да сёння" >
 
 
 <!ENTITY calendar.nextmonth.label               "Наступны месяц" >
