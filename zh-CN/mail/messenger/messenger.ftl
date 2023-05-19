@@ -139,6 +139,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = 删除文件夹
     .accesskey = D
+menu-edit-unsubscribe-newsgroup =
+    .label = 退订新闻组
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -386,3 +389,6 @@ quick-filter-bar-show =
 ## OpenPGP
 
 openpgp-forget = 忘记 OpenPGP 密码
+
+## Quota panel.
+

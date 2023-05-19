@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = 消息标题
+    .accesskey = H
 menu-font-size-label =
     .label = 字号
     .accesskey = o

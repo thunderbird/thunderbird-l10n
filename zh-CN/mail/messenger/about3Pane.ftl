@@ -5,6 +5,20 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = 开启快速筛选栏
+quick-filter-button-label = 快速筛选
+thread-pane-header-display-button =
+    .title = 消息列表选项
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count = { $count } 条消息
+thread-pane-header-context-table-view =
+    .label = 表格视图
+thread-pane-header-context-cards-view =
+    .label = 卡片视图
+thread-pane-header-context-hide =
+    .label = 隐藏消息标题
 
 ## Quick Filter Bar
 
