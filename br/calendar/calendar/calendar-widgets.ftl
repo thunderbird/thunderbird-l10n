@@ -44,5 +44,5 @@ calendar-context-menu-next-multiweek =
     .label = Ar sizhun a-zeu
     .accesskey = s
 calendar-context-menu-next-month =
-    .label = Ar miz a-zeu
+    .label = Ar miz a zeu
     .accesskey = a
