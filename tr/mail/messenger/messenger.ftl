@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Dizini sil
     .accesskey = i
+menu-edit-unsubscribe-newsgroup =
+    .label = Haber grubu aboneliğinden ayrıl
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -384,4 +387,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 

@@ -26,6 +26,7 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = OpenPGP Anahtarı Oluştur
+openpgp-keygen-secret-protection = Gizli anahtar koruması
 radio-keygen-no-protection =
     .label = Korumasız
 radio-keygen-protect-primary-pass =

@@ -623,6 +623,13 @@ security-devices-button =
     .label = Güvenlik aygıtları…
     .accesskey = G
 email-e2ee-header = Uçtan uca e-posta şifreleme
+email-e2ee-automatism = Otomatik şifreleme kullanımı
+email-e2ee-auto-on =
+    .label = Mümkün olduğunda şifrelemeyi otomatik olarak etkinleştir
+email-e2ee-auto-off =
+    .label = Alıcılar değiştiğinde ve şifreleme artık mümkün olmadığında şifrelemeyi otomatik olarak devre dışı bırak
+email-e2ee-auto-off-notify =
+    .label = Şifreleme otomatik olarak devre dışı bırakıldığında bildirim göster
 
 ## Chat Tab
 
