@@ -192,6 +192,7 @@ threadpane-column-header-unread-button =
     .title = Ordinar per stato de lectura
 threadpane-column-label-unread-button =
     .label = Stato de lectura
+threadpane-read-cell-label = Legite
 threadpane-unread-cell-label = Non legite
 threadpane-column-header-sender = De
     .title = Ordinar per mittente
