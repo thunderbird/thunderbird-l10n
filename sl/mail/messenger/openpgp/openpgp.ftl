@@ -114,6 +114,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Objavi
     .accesskey = O
+openpgp-key-publish = Objavi
 openpgp-key-man-discover-progress = Iskanje …
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys

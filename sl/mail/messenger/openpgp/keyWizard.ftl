@@ -26,6 +26,11 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Ustvari ključ OpenPGP
+openpgp-keygen-secret-protection = Zaščita tajnega ključa
+radio-keygen-no-protection =
+    .label = Nezaščiten
+radio-keygen-protect-primary-pass =
+    .label = Zaščiti z glavnim geslom
 radio-keygen-passphrase-protection =
     .label = Zaščiti z geslom:
 openpgp-passphrase-repeat = Potrdi geslo:
