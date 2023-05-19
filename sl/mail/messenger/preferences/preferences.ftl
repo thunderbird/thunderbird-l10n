@@ -626,12 +626,18 @@ email-e2ee-header = Šifriranje e-pošte od konca do konca
 account-settings = Nastavitve računa
 email-e2ee-enable-info = E-poštne račune in identitete za šifriranje od konca do konca nastavite v nastavitvah računa.
 email-e2ee-automatism = Samodejna uporaba šifriranja
+email-e2ee-automatism-pre =
+    { -brand-short-name } vam lahko pomaga, tako da med sestavljanjem sporočila samodejno omogoči ali onemogoči šifriranje.
+    Samodejno omogočanje/onemogočanje temelji na razpoložljivosti veljavnih in sprejetih ključev ali digitalnih potrdil prejemnikov.
 email-e2ee-auto-on =
     .label = Samodejno omogoči šifriranje, ko je to mogoče
 email-e2ee-auto-off =
     .label = Samodejno onemogoči šifriranje, ko se zamenjajo prejemniki in šifriranje ni več mogoče
 email-e2ee-auto-off-notify =
     .label = Pokaži obvestilo vsakič, ko se šifriranje samodejno onemogoči
+email-e2ee-automatism-post =
+    Samodejne odločitve lahko preglasite tako, da med sestavljanjem sporočila ročno omogočite ali onemogočite šifriranje.
+    Opomba: ob odgovarjanju na šifrirano sporočilo je šifriranje vedno samodejno vključeno.
 
 ## Chat Tab
 
