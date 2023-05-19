@@ -13,4 +13,5 @@ calendar-print-filter-completedtasks = Trevelloù echuet
 calendar-print-filter-taskswithnoduedate = Trevelloù hep deiziad spisaet
 calendar-print-range-from = A-berzh
 calendar-print-range-to = Da
+calendar-print-back-button = Kent
 calendar-print-next-button = War-lerc’h
