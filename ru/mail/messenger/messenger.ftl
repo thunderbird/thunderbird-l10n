@@ -402,3 +402,12 @@ quick-filter-bar-show =
 ## OpenPGP
 
 openpgp-forget = Забыть парольные фразы OpenPGP
+
+## Quota panel.
+
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% заполнено
+    .title = IMAP-квота: использовано { $usage } из { $limit }
