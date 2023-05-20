@@ -10,6 +10,14 @@ quick-filter-button =
 quick-filter-button-label = Брзо филтрирање
 thread-pane-header-display-button =
     .title = Опције приказа списка порука
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } порука
+        [few] { $count } поруке
+       *[other] { $count } порука
+    }
 thread-pane-header-context-table-view =
     .label = Приказ табеле
 thread-pane-header-context-cards-view =
