@@ -392,3 +392,9 @@ openpgp-forget = 忘记 OpenPGP 密码
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% 已使用
+    .title = IMAP 容量：已用 { $usage }/总共 { $limit }
