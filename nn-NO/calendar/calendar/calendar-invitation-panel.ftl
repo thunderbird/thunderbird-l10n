@@ -5,6 +5,12 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } har invitert deg til:
+calendar-invitation-panel-status-new = Du er invitert til denne hendinga.
+calendar-invitation-panel-status-processed = Denne hendinga er allereie lagt til i kalenderen din.
+calendar-invitation-panel-status-updateminor = Denne meldinga inneheld ei oppdatering for denne hendinga.
+calendar-invitation-panel-status-updatemajor = Denne meldinga inneheld ei oppdatering for denne hendinga. Du bør stadfeste deltakinga di på nytt.
+calendar-invitation-panel-status-cancelled = Denne meldinga inneheld ei avlysing av denne hendinga.
+calendar-invitation-panel-status-cancelled-notfound = Denne meldinga inneheld ei avlysing av ei hending som ikkje er funnen i kalenderen din.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } har avlyst:
