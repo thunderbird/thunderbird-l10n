@@ -392,3 +392,16 @@ quick-filter-bar-show =
 ## OpenPGP
 
 openpgp-forget = Esquecer as frases de acceso OpenPGP
+
+## Quota panel.
+
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% cheo
+    .title =
+        IMAP quota: { $usage } used of { $limit } total
+        IMAP quota: { $usage } used of { $limit } total
+        IMAP quota: { $usage } used of { $limit } total
+        Cota de IMAP: { $usage } usado dun total de { $limit }

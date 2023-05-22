@@ -49,3 +49,12 @@ tree-list-view-row-spam =
 tree-list-view-row-not-spam =
     .alt = Indicador de mensaxe de correo lixo
     .title = A mensaxe non está marcada como correo lixo
+tree-list-view-row-read =
+    .alt = Indicador do estado dos lidos
+    .title =
+        Estado de lectura da mensaxe
+        Estado de lectura del mensaje
+        Estado de lectura da mensaxe
+tree-list-view-row-not-read =
+    .alt = Indicador do estado dos non lidos
+    .title = Estado de non lectura da mensaxe
