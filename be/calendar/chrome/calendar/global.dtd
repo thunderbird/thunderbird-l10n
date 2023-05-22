@@ -21,3 +21,6 @@
 <!ENTITY oneyearforward.tooltip "Наступны год" >
 
 <!ENTITY showToday.tooltip "Перайсці да сёння">
+<!ENTITY onedayforward.tooltip "Наступны дзень">
+<!ENTITY onedaybackward.tooltip "Мінулы дзень">
+<!ENTITY showselectedday.tooltip "Паказаць падзеі ў выбраны дзень">
