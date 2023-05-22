@@ -41,10 +41,10 @@ privacy-junk-header = ჯართი
 collection-header = { -brand-short-name } – მონაცემთა აღრიცხვა და გამოყენება
 collection-description = ჩვენ ვცდილობთ მოგცეთ არჩევანის უფლება და აღვრიცხოთ მხოლოდ ის მონაცემები, რომლებიც დაგვეხმარება, გავაუმჯობესოთ { -brand-short-name }. ყოველთვის დაგეკითხებით პირადი ინფორმაციის მიღებამდე.
 collection-privacy-notice = პირადულობის დაცვის განაცხადი
-collection-health-report-telemetry-disabled = თქვენ გააუქმეთ ნებართვა და შედეგად, { -vendor-short-name } ვეღარ შეძლებს ტექნიკური და გამოყენების მონაცემების აღრიცხვას. აქამდე შეგროვებული ყველა მონაცემი, წაიშლება 30 დღეში.
+collection-health-report-telemetry-disabled = თქვენ გააუქმეთ ნებართვა და შედეგად { -vendor-short-name } ვეღარ შეძლებს ტექნიკური და გამოყენების მონაცემების აღრიცხვას. აქამდე შეგროვებული ყველა მონაცემი წაიშლება 30 დღეში.
 collection-health-report-telemetry-disabled-link = ვრცლად
 collection-health-report =
-    .label = ნებართვა, რომ { -brand-short-name } შეძლებს, გადაუგზავნოს ტექნიკური და გამოყენების მონაცემები { -vendor-short-name }-ს
+    .label = ნებართვა, რომ { -brand-short-name } შეძლებს გადაუგზავნოს ტექნიკური და გამოყენების მონაცემები { -vendor-short-name }-ს
     .accesskey = ტ
 collection-health-report-link = ვრცლად
 # This message is displayed above disabled data sharing options in developer builds
@@ -124,6 +124,8 @@ remove-search-engine =
 add-opensearch-provider-title = დამატება OpenSearch-მომწოდებლის
 add-opensearch-provider-text = შეიყვანეთ ბმული, OpenSearch-მომწოდებლის დასამატებლად. ან პირდაპირი ბმული გამოიყენეთ, OpenSearch-აღწერის ფაილისთვის, ან ბმული, სადაც თვითაღმოჩენით მოინახება.
 adding-opensearch-provider-failed-title = OpenSearch-მომწოდებელი ვერ დაემატა
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = ვერ ხერხდება OpenSearch-მომწოდებლის დამატება ბმულზე { $url }.
 minimize-to-tray-label =
     .label = როცა { -brand-short-name } ჩაიკეცება, გადავიდეს სისტემის არეში
