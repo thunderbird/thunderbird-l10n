@@ -100,7 +100,7 @@ addr-book-import-into-new-directory2 = 创建一个名为 <strong>"{ $addressBoo
 # $addressBookName (string) - name of the address book to import into
 addr-book-summary-title = 将所选数据导入“{ $addressBookName }”目录
 # $addressBookName (string) - name of the address book that will be created.
-addr-book-summary-description = 将创建一个名为“{ $addressBookName }”的新地址簿。
+addr-book-summary-description = 将创建一个名为“{ $addressBookName }”的新通讯录。
 
 ## Import from calendar file steps
 

@@ -47,7 +47,7 @@ quick-filter-bar-starred-label = 已加星标
 # include messages from contacts in one of the user's non-remote address
 # books.
 quick-filter-bar-inaddrbook =
-    .title = 仅显示来自地址簿中联系人的消息
+    .title = 仅显示来自通讯录中联系人的消息
 # The label for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.

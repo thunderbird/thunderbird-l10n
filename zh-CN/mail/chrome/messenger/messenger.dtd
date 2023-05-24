@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "D">
 <!ENTITY unsubscribeNewsgroupCmd.label "取消订阅">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "选择">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "全部">
@@ -866,7 +868,7 @@
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "将地址添加到通讯录…">
 <!ENTITY AddToAddressBook.accesskey "B">
-<!ENTITY AddDirectlyToAddressBook.label "添加至地址簿">
+<!ENTITY AddDirectlyToAddressBook.label "添加至通讯录">
 <!ENTITY AddDirectlyToAddressBook.accesskey "B">
 <!ENTITY EditContact1.label "编辑联系人">
 <!ENTITY EditContact1.accesskey "E">

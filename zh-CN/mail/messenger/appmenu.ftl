@@ -31,9 +31,9 @@ appmenu-sync-sign-out =
 ## New Account
 
 appmenu-new-account-panel-title =
-    .title = 新账户
+    .title = 添加账户
 appmenu-new-account-panel =
-    .label = 新账户
+    .label = 添加账户
     .accesskey = N
 appmenu-create-new-mail-account =
     .label = 注册新邮箱

@@ -82,7 +82,7 @@
      books.
      -->
 <!ENTITY quickFilterBar.inaddrbook.tooltip
-         "仅显示来自地址簿中联系人的消息">
+         "仅显示来自通讯录中联系人的消息">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.tags.label):
      The label for the filter button that causes us to filter results to only
