@@ -41,7 +41,7 @@
 <!ENTITY community.creditsLink      "全球社区">
 <!ENTITY community.end3             "，致力于让互联网保持开放、公开且人人可用。">
 
-<!ENTITY helpus.start               "想帮忙吗？">
+<!ENTITY helpus.start               "想支持我们吗？">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to the thunderbird donation page -->
 <!ENTITY helpus.donateLink          "捐款">
 <!ENTITY helpus.middle              "或者">

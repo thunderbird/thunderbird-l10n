@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = 新版变化
-aboutDialog-title =
-    .title = 关于 { -brand-full-name }
 about-dialog-title = 关于 { -brand-full-name }
 release-notes-link = 发行说明
 update-internal-error = 发生内部错误，无法检查更新。可访问 <a data-l10n-name="manual-link"/> 手动下载更新。
@@ -40,25 +38,9 @@ aboutDialog-version = { $version }（{ $bits } 位）
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version }（{ $isodate }）（{ $bits } 位）
 aboutdialog-update-checking-failed = 检查更新失败。
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-    是一个<a data-l10n-name="community-exp-credits-link">
-    全球社区</a>
-    ，致力于让互联网保持开放、公开且人人可用。
-community-2 =
-    { -brand-short-name } 诞生于 <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    。我们是一个<a data-l10n-name="community-credits-link">
-    全球社区</a>
-    ，致力于让互联网保持开放、公开且人人可用。
-about-helpus =
-    想帮忙吗？<a data-l10n-name="helpus-donate-link">
-    捐款</a> or <a data-l10n-name="helpus-get-involved-link">
-    一起来参与！</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a>是一个<a data-l10n-name="community-exp-credits-link">全球社区</a>，致力于让互联网保持开放、公开且人人可用。
 community-desc = { -brand-short-name } 诞生于 <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>。我们是一个<a data-l10n-name="community-credits-link">全球社区</a>，致力于让互联网保持开放、公开且人人可用。
-about-donation = 想帮忙吗？<a data-l10n-name="helpus-donate-link">捐款</a> or <a data-l10n-name="helpus-get-involved-link">一起来参与！</a>
+about-donation = 想支持我们吗？<a data-l10n-name="helpus-donate-link">向我们捐款</a>或<a data-l10n-name="helpus-get-involved-link">参与进来！</a>
 bottom-links-license = 许可信息
 bottom-links-rights = 最终用户权利
 bottom-links-privacy = 隐私权政策
