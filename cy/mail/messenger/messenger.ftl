@@ -412,4 +412,4 @@ openpgp-forget = Anghofio cyfrinymadrodd OpenPGP
 #   $usage (String) - Current quota usage (may include unit)
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% yn llawn
-    .title = Cwota IMAP: { $usage } wedi'i ddefnyddio o gyfanswm { $limit }
+    .title = Cwota IMAP: { $usage } wedi'i ddefnyddio o gyfanswm o { $limit }
