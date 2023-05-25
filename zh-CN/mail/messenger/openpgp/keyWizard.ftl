@@ -77,7 +77,7 @@ openpgp-keygen-import-complete =
     .label = 关闭
     .accesskey = C
 openpgp-keygen-missing-username = 尚未指定当前账户的名称。请在账户设置中的“您的名字”栏输入姓名。
-openpgp-keygen-long-expiry = 您不能创建有效期超过 100 年的密钥。
+openpgp-keygen-long-expiry = 无法创建有效期超过 100 年的密钥。
 openpgp-keygen-short-expiry = 您的密钥有效期不能少于 1 天。
 openpgp-keygen-ongoing = 已在生成密钥中！
 openpgp-keygen-error-core = 无法初始化 OpenPGP 核心服务
@@ -105,7 +105,7 @@ openpgp-import-key-list-caption = 标记为“个人密钥”的密钥，将列�
 openpgp-import-keep-passphrases =
     .label = 对导入的密钥进行密码保护
 openpgp-passphrase-prompt-title = 请输入密语
-#   $key (String) - the id of the key being imported
+#   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = 请输入用于解密下列密钥的密语：{ $key }
 openpgp-import-key-button =
     .label = 选择要导入的文件…

@@ -623,7 +623,7 @@ revoke-cert-failed = 无法创建吊销证书。
 gen-going = 已在生成密钥中！
 keygen-missing-user-name = 尚未指定选择的账户/身份名称。请在账户设置中的“您的名字”栏输入姓名。
 expiry-too-short = 您的密钥有效期不能少于 1 天。
-expiry-too-long = 您不能创建有效期超过 100 年的密钥。
+expiry-too-long = 无法创建有效期超过 100 年的密钥。
 # Variables:
 # $id (String) - Name and/or email address to generate keys for.
 key-confirm = 确定要生成“{ $id }”的公钥与私钥吗？
