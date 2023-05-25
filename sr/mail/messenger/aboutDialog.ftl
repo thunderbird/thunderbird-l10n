@@ -3,14 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Шта је ново
-aboutDialog-title =
-    .title = О { -brand-full-name }-у
 about-dialog-title = О { -brand-full-name }-у
 release-notes-link = Белешке о издању
 update-internal-error = Није могуће проверити ажурирања због интерне грешке. Ажурирања су доступна на <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Провери надоградње
     .accesskey = П
-update-update-button = Поново покрените да бисте ажурирали { -brand-shorter-name }
+update-update-button = Поново покрени и ажурирај { -brand-shorter-name }
     .accesskey = о
 update-checking-for-updates = Провера надоградњи…
 update-downloading-message = Преузимам ажурирање — <span data-l10n-name="download-status"></span>
@@ -40,22 +38,6 @@ aboutDialog-version = { $version } ({ $bits }-битна)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-битна)
 aboutdialog-update-checking-failed = Провера ажурирања није успела.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     је <a data-l10n-name="community-exp-credits-link">
-    глобална заједница</a>
-     која ради на томе да задржи веб отвореним, јавним и доступним свима.
-community-2 =
-    { -brand-short-name } је дизајнирала <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , <a data-l10n-name="community-credits-link">
-    глобална заједница</a>
-     која ради на томе да задржи веб отвореним, јавним и доступним свима.
-about-helpus =
-    Желите да помогнете? <a data-l10n-name="helpus-donate-link">
-    Донирајте</a> or <a data-l10n-name="helpus-get-involved-link">
-    се прикључите!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> је <a data-l10n-name="community-exp-credits-link">глобална заједница</a> која ради на томе да задржи веб отвореним, јавним и доступним свима.
 community-desc = { -brand-short-name } је дизајнирала <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">глобална заједница</a> која ради на томе да задржи веб отвореним, јавним и доступним свима.
 about-donation = Желите да помогнете? <a data-l10n-name="helpus-donate-link">Донирајте</a> or <a data-l10n-name="helpus-get-involved-link">се прикључите!</a>
