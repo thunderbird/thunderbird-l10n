@@ -90,6 +90,9 @@ menu-view-repair-text-encoding =
     .label = Korjaa merkistökoodaus
     .accesskey = K
 
+## View / Folders
+
+
 ## View / Layout
 
 menu-font-size-label =
@@ -119,6 +122,9 @@ mail-uidensity-touch =
 mail-uidensity-default =
     .label = Oletus
     .accesskey = D
+mail-uidensity-relaxed =
+    .label = Rento
+    .accesskey = R
 menu-spaces-toolbar-button =
     .label = Tilat-työkalupalkki
     .accesskey = T

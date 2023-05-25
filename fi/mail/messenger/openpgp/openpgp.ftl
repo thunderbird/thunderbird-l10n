@@ -115,6 +115,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Julkaise
     .accesskey = J
+openpgp-key-publish = Julkaise
 openpgp-key-man-discover-prompt = Etsi OpenPGP-avaimia verkossa, avainpalvelimissa tai WKD-protokollaa käyttäen kirjoittamalla joko sähköpostiosoitteesi tai avaimesi tunniste (ID).
 openpgp-key-man-discover-progress = Etsitään…
 # Variables:
@@ -302,6 +303,8 @@ openpgp-personal-no-label =
     .label = Ei, älä käytä sitä henkilökohtaisena avaimenani.
 openpgp-personal-yes-label =
     .label = Kyllä, käytä tätä avainta henkilökohtaisena avaimenani.
+openpgp-passphrase-unlock = Avaa
+openpgp-passphrase-unlocked = Avain avattu onnistuneesti.
 openpgp-copy-cmd-label =
     .label = Kopioi
 
@@ -608,8 +611,6 @@ import-key-file = Tuo OpenPGP-avaintiedosto
 import-rev-file = Tuo OpenPGP-kumoamistiedosto
 gnupg-file = GnuPG-tiedostot
 import-keys-failed = Avainten tuonti epäonnistui
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Kirjoita salalause joka avaa seuraavan avaimen: { $key }
 file-to-big-to-import = Tämä tiedosto on liian suuri. Älä tuo liian suurta määrää avaimia kerralla.
 

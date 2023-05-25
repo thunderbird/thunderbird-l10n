@@ -148,6 +148,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Uudelleenohjaa
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -202,9 +204,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Poistetaanko { $name }?
 addon-removal-confirmation-button = Poista
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Poistetaanko { $name } ja siihen liittyvät asetukset sekä tiedot { -brand-short-name }ista?
 caret-browsing-prompt-title = Selaus kohdistimella
 caret-browsing-prompt-text = F7-näppäimellä voit ottaa käyttöön tai poistaa käytöstä selauksen kohdistimella. Tämän toiminnon ollessa päällä osassa sisällössä on liikuteltava kohdistin, jonka avulla voit näppäimistöllä valita tekstiä. Selataanko kohdistimella?
@@ -216,11 +220,16 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Vastausta ei tueta
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Vastausosoite ({ $email }) ei vaikuta olevan valvottu osoite. Kukaan ei todennäköisesti lue tähän osoitteeseen tulevia viestejä.
 no-reply-reply-anyway-button = Vastaa silti
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures }/{ $total } viestin salausta ei voitu purkaa, joten niitä ei kopioitu.
 
 ## Spaces toolbar
@@ -241,6 +250,10 @@ spaces-context-new-tab-item =
     .label = Avaa uudessa välilehdessä
 spaces-context-new-window-item =
     .label = Avaa uudessa ikkunassa
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = Vaihda näkymään { $tabName }
 settings-context-open-settings-item2 =
     .label = Asetukset
 settings-context-open-account-settings-item2 =
@@ -304,3 +317,13 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Unohda OpenPGP-salalauseet
+
+## Quota panel.
+
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent } % täynnä
+    .title = IMAP-kiintiö: Käytetty { $usage }/{ $limit }

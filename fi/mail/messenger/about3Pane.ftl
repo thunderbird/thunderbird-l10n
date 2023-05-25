@@ -5,6 +5,14 @@
 
 ## Message List Header Bar
 
+quick-filter-button-label = Pikasuodatus
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } viesti
+       *[other] { $count } viestiä
+    }
 
 ## Quick Filter Bar
 

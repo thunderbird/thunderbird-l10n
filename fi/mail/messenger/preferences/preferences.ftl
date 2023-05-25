@@ -190,6 +190,10 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = Näytä aina vierityspalkit
     .accesskey = v
 window-layout-legend = Ikkunan asettelu
+auto-hide-tabbar-label =
+    .label = Piilota välilehtipalkki automaattisesti
+    .accesskey = A
+auto-hide-tabbar-description = Piilota välilehtipalkki, kun auki on vain yksi välilehti
 system-integration-legend = Järjestelmään liittäminen
 always-check-default =
     .label = Tarkista aina onko { -brand-short-name } järjestelmän oletussähköpostiohjelma
@@ -270,6 +274,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Tyhjennä heti
     .accesskey = T
+clear-cache-shutdown-label =
+    .label = Tyhjennä välimuisti sammutettaessa
+    .accesskey = s
 fonts-legend = Kirjasinlajit ja värit
 default-font-label =
     .value = Oletuskirjasin:
@@ -595,6 +602,11 @@ certificate-button =
 security-devices-button =
     .label = Turvalaitteet…
     .accesskey = T
+email-e2ee-header = Sähköpostin päästä päähän -salaus
+account-settings = Tilin asetukset
+email-e2ee-automatism = Automaattinen salauksen käyttö
+email-e2ee-auto-on =
+    .label = Ota salaus käyttöön automaattisesti, kun mahdollista
 
 ## Chat Tab
 
@@ -694,6 +706,7 @@ search-results-help-link = Tarvitsetko apua? Vieraile <a data-l10n-name="url">{ 
 
 ## Sync Tab
 
+sync-signedout-description = Synkronoi tilit, osoitekirjat, kalenterit, lisäosat ja asetukset kaikilla laitteillasi.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Kirjaudu synkronoidaksesi…
 # Variables:
@@ -724,4 +737,5 @@ show-synced-change = Muokkaa…
 synced-acount-item-server-config = Palvelimen määritys
 synced-acount-item-filters = Suodattimet
 synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synkronoi sähköpostitilisi, osoitekirjasi, kalenterisi ja henkilöllisyytesi kaikilla laitteillasi.
 sync-disconnected-turn-on-sync = Ota synkronointi käyttöön…
