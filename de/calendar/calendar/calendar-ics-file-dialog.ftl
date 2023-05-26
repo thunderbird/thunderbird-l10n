@@ -30,14 +30,18 @@ calendar-ics-file-dialog-sort-title-ascending =
 calendar-ics-file-dialog-sort-title-descending =
     .label = Sortieren nach Titel (Z > A)
 calendar-ics-file-dialog-progress-message = Import wird durchgeführt…
-calendar-ics-file-import-success = Erfolgreich importiert.
+calendar-ics-file-import-success = Erfolgreich importiert!
 calendar-ics-file-import-error = Beim Importieren trat ein Fehler auf.
-calendar-ics-file-import-complete = Import abgeschlossen
+calendar-ics-file-import-complete = Import abgeschlossen.
+# Variables:
+# $duplicatesCount (Number) - Number of items already existing in the target calendar.
 calendar-ics-file-import-duplicates =
     { $duplicatesCount ->
         [one] Ein Eintrag wurde ignoriert, da er bereits im Zielkalender existiert.
        *[other] { $duplicatesCount } Einträge wurden ignoriert, da sie bereits im Zielkalender existieren.
     }
+# Variables:
+# $errorsCount (Number) - Number of errors while importing ics file.
 calendar-ics-file-import-errors =
     { $errorsCount ->
         [one] Ein Eintrag konnte nicht importiert werden. Weitere Details dazu in der Fehlerkonsole.
