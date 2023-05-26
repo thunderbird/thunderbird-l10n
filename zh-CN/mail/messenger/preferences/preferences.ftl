@@ -235,7 +235,7 @@ return-receipts-button =
 update-app-legend = { -brand-short-name } 更新
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 68.0.1
-update-app-version = 版本: { $version }
+update-app-version = 版本：{ $version }
 allow-description = 允许 { -brand-short-name }：
 automatic-updates-label =
     .label = 自动安装更新（推荐，可提升安全性）
