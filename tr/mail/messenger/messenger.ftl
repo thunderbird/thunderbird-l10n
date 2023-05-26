@@ -388,6 +388,7 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = OpenPGP parolalarını unut
 
 ## Quota panel.
 
