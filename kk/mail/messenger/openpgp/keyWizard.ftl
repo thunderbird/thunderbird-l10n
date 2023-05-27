@@ -26,6 +26,7 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = OpenPGP кілтін генерациялау
+openpgp-keygen-secret-protection = Құпия кілт қорғанысы
 radio-keygen-no-protection =
     .label = Қорғалмаған
 radio-keygen-protect-primary-pass =
@@ -102,8 +103,10 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Қай кілттерді жеке кілттер ретінде қарастыруға болатынын растаңыз. Жеке кілттер ретінде тек өзіңіз жасаған және сіздің жеке басыңызды көрсететін кілттер ғана пайдаланылуы керек. Бұл баптауды кейінірек Кілт қасиеттері сұхбат терезесінде өзгертуге болады.
 openpgp-import-key-list-caption = Жеке кілттер ретінде қарастырылатын кілттер Өтпелі шифрлеу бөлімінде тізімделеді. Қалғандары Кілттер басқарушысы ішінде қолжетімді болады.
+openpgp-import-keep-passphrases =
+    .label = Импортталған құпия кілттер үшін кілттік фразамен қорғанысты сақтау
 openpgp-passphrase-prompt-title = Кілттік фраза керек
-#   $key (String) - the id of the key being imported
+#   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Келесі кілтті босату ашу үшін кілттік фразаны енгізіңіз: { $key }
 openpgp-import-key-button =
     .label = Импорттау үшін файлды таңдау…
