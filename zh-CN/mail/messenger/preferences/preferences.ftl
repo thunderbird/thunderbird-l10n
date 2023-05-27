@@ -82,10 +82,10 @@ update-setting-write-failure-message =
     无法写入文件：{ $path }
 update-in-progress-title = 正在更新
 update-in-progress-message = 您要继续 { -brand-short-name } 的此次更新吗？
-update-in-progress-ok-button = 放弃
+update-in-progress-ok-button = 放弃(&D)
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
-update-in-progress-cancel-button = 继续
+update-in-progress-cancel-button = 继续(&C)
 account-button = 账户设置
 open-addons-sidebar-button = 扩展和主题
 
@@ -545,7 +545,7 @@ third-party-never =
 third-party-visited =
     .label = 仅访问过的域
 keep-label =
-    .value = 保存直至：
+    .value = 保存直至
     .accesskey = K
 keep-expire =
     .label = 它们过期
@@ -580,7 +580,7 @@ junk-description =
     设定您默认的垃圾邮件设置。
     可以在“账户设置”中设定特定于账户的垃圾邮件设置。
 junk-label =
-    .label = 当我将消息标记为垃圾邮件时：
+    .label = 当我将消息标记为垃圾邮件时
     .accesskey = W
 junk-move-label =
     .label = 将它们移动至账户的“垃圾”文件夹
@@ -608,7 +608,7 @@ antivirus-description = { -brand-short-name } 可以让防病毒软件更容易�
 antivirus-label =
     .label = 允许防病毒软件隔离个别传入的邮件
     .accesskey = A
-certificate-description = 当某个服务器索取我的个人证书时：
+certificate-description = 当某个服务器索取我的个人证书时
 certificate-auto =
     .label = 自动选择
     .accesskey = S
@@ -644,7 +644,7 @@ email-e2ee-automatism-post =
 ## Chat Tab
 
 startup-label =
-    .value = 启动 { -brand-short-name } 时:
+    .value = 启动 { -brand-short-name } 时
     .accesskey = s
 offline-label =
     .label = 保持我的聊天账户离线
@@ -665,7 +665,7 @@ idle-time-label = 分钟时，让我的联系人获知
 ##
 
 away-message-label =
-    .label = 并设置我的状态为离开，且加上此状态信息：
+    .label = 同时设置我的状态为离开，并添加此状态信息
     .accesskey = A
 send-typing-label =
     .label = 在对话时发送正在输入通知
@@ -707,7 +707,7 @@ chat-browse-sound-button =
     .label = 浏览…
     .accesskey = B
 theme-label =
-    .value = 主题：
+    .value = 主题
     .accesskey = T
 style-mail =
     .label = { -brand-short-name }
@@ -757,10 +757,10 @@ sync-signedout-account-signin-btn = 登录以同步…
 sync-pane-header = 同步
 # Variables:
 # $userEmail (String) - The email logged into Sync.
-sync-pane-email-not-verified = “{ $userEmail }” 未验证。
+sync-pane-email-not-verified = “{ $userEmail }”未验证。
 # Variables:
 # $userEmail (String) - The email logged into Sync.
-sync-signedin-login-failure = 请登录以重新绑定 “{ $userEmail }”
+sync-signedin-login-failure = 请登录以重新绑定“{ $userEmail }”
 sync-pane-resend-verification = 重发验证邮件
 sync-pane-sign-in = 登录
 sync-pane-remove-account = 移除账户
