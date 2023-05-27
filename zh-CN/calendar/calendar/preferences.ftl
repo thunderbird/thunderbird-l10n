@@ -11,16 +11,16 @@ dateformat-label =
     .accesskey = D
 #   $date (String) - the formatted example date
 dateformat-long =
-    .label = 长: { $date }
+    .label = 长：{ $date }
 #   $date (String) - the formatted example date
 dateformat-short =
-    .label = 短: { $date }
+    .label = 短：{ $date }
 use-system-timezone-radio-button =
     .label = 使用系统时区
 set-timezone-manually-radio-button =
     .label = 手动设置时区
 timezone-label =
-    .value = 时区:
+    .value = 时区：
 weekstart-label =
     .value = 周起始日
     .accesskey = r
