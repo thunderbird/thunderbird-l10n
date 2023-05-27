@@ -34,5 +34,5 @@ sender-outside-domain-label =
     .value = 如果发件人不在我的域中：
     .accesskey = t
 other-cases-text-label =
-    .value = 其它情况：
+    .value = 其他情况
     .accesskey = a

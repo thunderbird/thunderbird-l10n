@@ -26,7 +26,7 @@
 <!ENTITY notInToCc.accesskey          "T">
 <!ENTITY outsideDomain.label          "如果发件人在我的网域之外：">
 <!ENTITY outsideDomain.accesskey      "s">
-<!ENTITY otherCases.label             "其它情况：">
+<!ENTITY otherCases.label             "其他情况：">
 <!ENTITY otherCases.accesskey         "o">
 <!ENTITY askMe.label                  "询问我">
 <!ENTITY alwaysSend.label             "一律发送">
