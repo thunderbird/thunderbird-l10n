@@ -17,4 +17,4 @@ keyword-remove-button =
 new-keyword-title = 新建关键词
 new-keyword-label = 关键词：
 edit-keyword-title = 编辑关键词
-edit-keyword-label = 关键词:
+edit-keyword-label = 关键词：
