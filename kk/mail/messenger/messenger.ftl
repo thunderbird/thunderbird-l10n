@@ -139,6 +139,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Буманы өшіру
     .accesskey = ш
+menu-edit-unsubscribe-newsgroup =
+    .label = Жаңалықтар тобына жазылудан бас тарту
+    .accesskey = б
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -203,6 +206,9 @@ mail-context-undelete-messages =
             [one] Хабарламаны өшіруді болдырмау
            *[other] Таңдалған хабарламалар өшіруін болдырмау
         }
+context-menu-decrypt-to-folder2 =
+    .label = Шифрлеуі ашылған көшірмесін келесі жерде жасау
+    .accesskey = у
 
 ## Message header pane
 
@@ -383,3 +389,13 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = OpenPGP кілттік фразаларын ұмыту
+
+## Quota panel.
+
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% толық
+    .title = IMAP квотасы: { $limit } ішінен { $usage } қолданылуда

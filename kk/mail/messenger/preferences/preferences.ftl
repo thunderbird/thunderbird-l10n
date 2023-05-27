@@ -624,6 +624,9 @@ security-devices-button =
     .accesskey = р
 email-e2ee-header = Эл. поштаны өтпелі шифрлеу
 account-settings = Тіркелгі баптаулары
+email-e2ee-automatism = Шифрлеуді автоматты түрде пайдалану
+email-e2ee-auto-on =
+    .label = Шифрлеуді мүмкін болған кезде автоматты түрде іске қосу
 
 ## Chat Tab
 

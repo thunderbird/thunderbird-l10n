@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Хабарламалар тізімінің тақырыптамасын
+    .accesskey = Х
 menu-font-size-label =
     .label = Қаріп өлшемі
     .accesskey = р

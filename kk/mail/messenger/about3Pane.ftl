@@ -21,6 +21,8 @@ thread-pane-header-context-table-view =
     .label = Кесте ретінде
 thread-pane-header-context-cards-view =
     .label = Карталар ретінде
+thread-pane-header-context-hide =
+    .label = Хабарламалар тізімінің тақырыптамасын жасыру
 
 ## Quick Filter Bar
 
@@ -154,6 +156,8 @@ folder-pane-header-context-toggle-new-message =
     .label = "Жаңа хабарлама" көрсету
 folder-pane-header-context-hide =
     .label = Бума панелінің тақырыптамасын жасыру
+folder-pane-show-total-toggle =
+    .label = Жалпы хабарламалар тізімін көрсету
 
 ## Message thread pane
 
