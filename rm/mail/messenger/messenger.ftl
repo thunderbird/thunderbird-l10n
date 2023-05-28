@@ -395,3 +395,9 @@ openpgp-forget = Emblidar las frasas-clav OpenPGP
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = Occupà: { $percent }%
+    .title = Quota IMAP: { $usage } occupà da  { $limit } en total
