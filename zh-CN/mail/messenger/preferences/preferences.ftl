@@ -406,7 +406,7 @@ condensed-addresses-label =
 ## Compose Tab
 
 forward-label =
-    .value = 转发消息：
+    .value = 转发消息
     .accesskey = F
 inline-label =
     .label = 内联
