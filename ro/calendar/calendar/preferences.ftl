@@ -4,6 +4,7 @@
 
 calendar-title = Calendar
 calendar-title-reminder = Mementouri
+calendar-title-notification = Notificări
 calendar-title-category = Categorii
 dateformat-label =
     .value = Formatul datei:
@@ -14,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Scurt: { $date }
+use-system-timezone-radio-button =
+    .label = Utilizați fusul orar al sistemului
+set-timezone-manually-radio-button =
+    .label = Setați fusul orar manual
 timezone-label =
     .value = Fus orar:
 weekstart-label =
@@ -100,12 +105,6 @@ previous-weeks-label =
     .value = Săptămâni anterioare de afișat:
     .accesskey = p
 todaypane-legend = Panoul zilei de azi
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = Secțiunea următoare afișează:
-    .accesskey = u
 event-task-legend = Evenimente și sarcini
 default-length-label =
     .value = Durata implicită a unui eveniment și sarcini:

@@ -2,12 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from AccountManager.xul -->
-
 <!-- extracted from AccountManager.xhtml -->
 
 <!ENTITY accountManagerTitle.label "Setări pentru cont">
-
 <!ENTITY  accountManagerCloseButton.label "Închide">
 
 <!ENTITY accountActionsButton.label "Acțiuni cu privire la cont">
@@ -23,7 +20,4 @@
 <!ENTITY removeButton.label "Elimină contul">
 <!ENTITY removeButton.accesskey "R">
 
-<!-- AccountManager.xul -->
-
-<!-- AccountManager.xhtml -->
-
+<!ENTITY addonsButton.label "Extensii &amp; teme">
