@@ -28,6 +28,13 @@ openpgp-key-assistant-resolve-title =
        *[other] { -brand-short-name } löysi vastaanottajan { $recipient } avaimet.
     }
 openpgp-key-assistant-valid-description = Valitse avain, jonka haluat hyväksyä
+# Variables:
+# $numKeys (Number) - The number of available keys.
+openpgp-key-assistant-invalid-title =
+    { $numKeys ->
+        [one] Seuraavaa avainta ei voi käyttää, ellet hanki siihen päivitystä.
+       *[other] Seuraavia avaimia ei voi käyttää, ellet hanki niihin päivitystä.
+    }
 openpgp-key-assistant-no-key-available = Avainta ei ole saatavilla.
 openpgp-key-assistant-multiple-keys = Useita avaimia on saatavilla.
 # Variables:
@@ -56,7 +63,10 @@ openpgp-key-assistant-key-source =
         [one] Lähde
        *[other] Lähteet
     }
+openpgp-key-assistant-key-collected-attachment = sähköpostin liitetiedosto
 openpgp-key-assistant-key-collected-keyserver = avainpalvelin
+# Web Key Directory (WKD) is a concept.
+openpgp-key-assistant-key-collected-wkd = Web Key Directory
 # Do not translate GnuPG, it's a name of other software.
 openpgp-key-assistant-key-collected-gnupg = GnuPG-avainnippu
 # Variables:
@@ -78,6 +88,11 @@ openpgp-key-assistant-discover-title = Etsintä verkosta on käynnissä.
 # Variables:
 # $recipient (String) - The email address which we're discovering keys.
 openpgp-key-assistant-discover-keys = Etsitään vastaanottajan { $recipient } avaimia…
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    Päivitys löydettiin yhdelle aiemmin henkilön { $recipient } hyväksytyistä avaimista.
+    Avainta voi nyt käyttää, koska se ei ole enää vanhentunut.
 
 ## Dialog buttons
 
