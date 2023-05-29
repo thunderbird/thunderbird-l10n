@@ -19,12 +19,6 @@
 <!ENTITY lightning.menupopup.new.calendar.accesskey "C">
 
 <!-- Open menu popup in File menu -->
-<!ENTITY lightning.menupopup.open.label               "Deschide">
-<!ENTITY lightning.menupopup.open.accesskey           "D">
-<!ENTITY lightning.menupopup.open.message.label       "Mesaj salvat…">
-<!ENTITY lightning.menupopup.open.message.accesskey   "M">
-
-<!-- Open menu popup in File menu -->
 <!ENTITY lightning.menupopup.open.calendar.label      "Fișier cu calendar…">
 <!ENTITY lightning.menupopup.open.calendar.accesskey  "c">
 
@@ -51,6 +45,10 @@
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Pentru moment, poți activa acesta numai în dialogul de proprietăți a calendarului, dacă serverul calendarului este responsabil de planificare.">
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Această opțiune este disponibilă numai dacă serverul calendarului gestionează planificarea. Activarea va permite revenirea la planificarea standard pe bază de e-mail, în locul lăsării acesteia pe server.">
+
+<!-- The notifications settings in the properties dialog -->
+<!ENTITY lightning.calendarproperties.notifications.label                   "Notificări">
+<!ENTITY lightning.calendarproperties.globalNotifications.label             "Preferințe globale de notificare…">
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label                                  "Acceptă">
@@ -96,8 +94,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Modifică starea de participare pentru serie fără să trimiți un răspuns organizatorului">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
