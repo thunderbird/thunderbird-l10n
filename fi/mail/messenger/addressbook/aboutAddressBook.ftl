@@ -122,6 +122,10 @@ about-addressbook-column-label-addresses2 =
     .label = Osoitteet
 about-addressbook-column-label-addrbook2 =
     .label = Osoitekirja
+about-addressbook-confirm-delete-mixed-title = Poista yhteystiedot ja listat
+# Variables:
+# $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
+about-addressbook-confirm-delete-mixed = Haluatko varmasti poistaa nämä { $count } yhteystietoa ja listaa?
 # Variables:
 # $count (Number) - The number of lists to be deleted.
 about-addressbook-confirm-delete-lists-title =
