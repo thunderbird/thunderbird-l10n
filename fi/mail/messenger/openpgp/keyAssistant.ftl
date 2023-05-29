@@ -3,10 +3,18 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 openpgp-key-assistant-title = OpenPGP-avainavustin
+openpgp-key-assistant-rogue-warning = Vältä väärennetyn avaimen hyväksymistä. Varmista, että olet saanut oikean avaimen vahvistamalla saamasi avain. <a data-l10n-name="openpgp-link">Lisätietoja…</a>
 
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = Ei voi salata
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-description =
+    { $count ->
+        [one] Sinulla on jo yhden vastaanottajan käyttökelpoinen ja hyväksytty avain.
+       *[other] Sinulla on jo { $count } vastaanottajan käyttökelpoisia ja hyväksyttyjä avaimia.
+    }
 openpgp-key-assistant-recipients-description-no-issues = Tämä viesti voidaan salata. Sinulla on käyttökelpoiset ja hyväksytyt avaimet kaikille vastaanottajille.
 
 ## Resolve section
@@ -22,6 +30,13 @@ openpgp-key-assistant-resolve-title =
 openpgp-key-assistant-valid-description = Valitse avain, jonka haluat hyväksyä
 openpgp-key-assistant-no-key-available = Avainta ei ole saatavilla.
 openpgp-key-assistant-multiple-keys = Useita avaimia on saatavilla.
+# Variables:
+# $count (Number) - The number of unaccepted keys.
+openpgp-key-assistant-key-unaccepted =
+    { $count ->
+        [one] Avain on saatavilla, mutta sitä ei ole vielä hyväksytty
+       *[other] Useita avaimia on saatavilla, mutta yhtäkään niistä ei ole vielä hyväksytty.
+    }
 # Variables:
 # $date (String) - The expiration date of the key.
 openpgp-key-assistant-key-accepted-expired = Hyväksytty avain on vanhentunut { $date }.
