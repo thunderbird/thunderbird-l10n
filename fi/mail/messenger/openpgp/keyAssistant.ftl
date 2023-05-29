@@ -11,6 +11,14 @@ openpgp-key-assistant-recipients-description-no-issues = Tämä viesti voidaan s
 
 ## Resolve section
 
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+# $numKeys (Number) - The number of keys.
+openpgp-key-assistant-resolve-title =
+    { $numKeys ->
+        [one] { -brand-short-name } löysi vastaanottajan { $recipient } avaimen.
+       *[other] { -brand-short-name } löysi vastaanottajan { $recipient } avaimet.
+    }
 openpgp-key-assistant-valid-description = Valitse avain, jonka haluat hyväksyä
 openpgp-key-assistant-no-key-available = Avainta ei ole saatavilla.
 openpgp-key-assistant-multiple-keys = Useita avaimia on saatavilla.
@@ -36,10 +44,25 @@ openpgp-key-assistant-key-source =
 openpgp-key-assistant-key-collected-keyserver = avainpalvelin
 # Do not translate GnuPG, it's a name of other software.
 openpgp-key-assistant-key-collected-gnupg = GnuPG-avainnippu
+# Variables:
+# $count (Number) - Number of found keys.
+openpgp-key-assistant-keys-has-collected =
+    { $count ->
+        [one] Avain löydettiin, mutta sitä ei ole vielä hyväksytty.
+       *[other] Useita avaimia löydettiin, mutta yhtäkään niistä ei ole vielä hyväksytty.
+    }
 openpgp-key-assistant-key-rejected = Tämä avain on aiemmin hylätty.
+openpgp-key-assistant-key-accepted-other = Tämä avain on aiemmin hyväksytty toiselle sähköpostiosoitteelle.
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+openpgp-key-assistant-resolve-discover-info = Etsi vastaanottajan { $recipient } lisäavaimia tai päivitettyjä avaimia verkosta, tai tuo avaimia tiedostosta.
 
 ## Discovery section
 
+openpgp-key-assistant-discover-title = Etsintä verkosta on käynnissä.
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-discover-keys = Etsitään vastaanottajan { $recipient } avaimia…
 
 ## Dialog buttons
 
