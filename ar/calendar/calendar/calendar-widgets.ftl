@@ -7,6 +7,7 @@ calendar-deactivated-notification-tasks = كلّ التقويمات معطّلة
 
 ## Side panel
 
+calendar-enable-button = فعّل
 
 ## Calendar navigation
 
