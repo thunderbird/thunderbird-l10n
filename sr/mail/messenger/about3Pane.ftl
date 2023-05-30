@@ -160,6 +160,9 @@ folder-pane-header-context-hide =
     .label = Сакриј заглавље површи фасцикли
 folder-pane-show-total-toggle =
     .label = Прикажи укупан збир порука
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Компактни преглед
+    .accesskey = К
 
 ## Message thread pane
 
