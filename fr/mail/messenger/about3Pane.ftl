@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Masquer l’en-tête du panneau des dossiers
 folder-pane-show-total-toggle =
     .label = Afficher le nombre total de messages
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Vue compacte
+    .accesskey = V
 
 ## Message thread pane
 
