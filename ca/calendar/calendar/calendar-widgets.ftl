@@ -10,6 +10,7 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-enable-button = Habilita
 calendar-import-new-calendar = Calendari nou…
     .title = Creeu o subscriviu-vos a un calendari nou
 calendar-refresh-calendars =
