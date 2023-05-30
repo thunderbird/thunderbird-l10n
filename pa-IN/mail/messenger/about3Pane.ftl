@@ -104,6 +104,9 @@ quick-filter-bar-gloda-upsell-line2 = Press ‘Enter’ again to continue your s
 folder-pane-get-all-messages-menuitem =
     .label = Get All New Messages
     .accesskey = G
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Compact View
+    .accesskey = C
 
 ## Message thread pane
 
