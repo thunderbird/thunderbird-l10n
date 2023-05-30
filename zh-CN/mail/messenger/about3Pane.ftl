@@ -150,6 +150,9 @@ folder-pane-header-context-hide =
     .label = 隐藏文件夹窗格标题
 folder-pane-show-total-toggle =
     .label = 显示总消息数
+folder-pane-mode-context-toggle-compact-mode =
+    .label = 紧凑模式
+    .accesskey = C
 
 ## Message thread pane
 
