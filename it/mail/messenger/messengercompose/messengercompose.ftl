@@ -201,7 +201,7 @@ smime-cert-issue-notification-one = Per utilizzare la crittografia end-to-end è
 smime-cert-issue-notification-many = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con il certificato per { $count } destinatari.
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-single = La crittografia end-to-end richiede la risoluzione dei problemi chiave per { $addr }.
+openpgp-key-issue-notification-single = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con la chiave per { $addr }
 # Variables:
 # $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-multi =
