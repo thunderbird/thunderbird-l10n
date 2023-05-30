@@ -15,6 +15,7 @@ calendar-list-header = Күнтізбелер
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } күнтізбесі басылған
+calendar-enable-button = Іске қосу
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
