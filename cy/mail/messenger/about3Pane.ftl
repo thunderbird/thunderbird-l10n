@@ -166,6 +166,9 @@ folder-pane-header-context-hide =
     .label = Cuddio Penyn Paen Ffolder
 folder-pane-show-total-toggle =
     .label = Dangos Cyfanswm Nifer y Negeseuon
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Golwg Cryno
+    .accesskey = G
 
 ## Message thread pane
 
