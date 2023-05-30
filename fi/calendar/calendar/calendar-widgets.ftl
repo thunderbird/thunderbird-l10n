@@ -15,6 +15,7 @@ calendar-list-header = Kalenterit
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Kalenteri { $calendarName } on mykistetty
+calendar-enable-button = Ota käyttöön
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
