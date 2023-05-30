@@ -17,6 +17,12 @@ thread-pane-folder-message-count =
         [one] { $count } Message
        *[other] { $count } Messages
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] { $count } Selected
+    }
 thread-pane-header-context-table-view =
     .label = Table View
 thread-pane-header-context-cards-view =
@@ -158,9 +164,28 @@ folder-pane-header-context-hide =
     .label = Hide Folder Pane Header
 folder-pane-show-total-toggle =
     .label = Show Total Message Count
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Show Folder Size
+folder-pane-mode-context-button =
+    .title = Folder mode options
 folder-pane-mode-context-toggle-compact-mode =
     .label = Compact View
     .accesskey = C
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 unread message
+       *[other] { $count } unread messages
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 total message
+       *[other] { $count } total messages
+    }
 
 ## Message thread pane
 
