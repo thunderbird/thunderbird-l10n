@@ -160,6 +160,9 @@ folder-pane-header-context-hide =
     .label = Скрыть заголовок панели папок
 folder-pane-show-total-toggle =
     .label = Показать общее количество сообщений
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Компактный вид
+    .accesskey = о
 
 ## Message thread pane
 
