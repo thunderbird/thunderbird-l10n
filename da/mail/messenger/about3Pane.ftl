@@ -129,6 +129,9 @@ folder-pane-more-menu-button =
     .title = Mapperudeindstillinger
 folder-pane-header-context-hide =
     .label = Skjul mapperudeoverskrift
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompakt visning
+    .accesskey = K
 
 ## Message thread pane
 
