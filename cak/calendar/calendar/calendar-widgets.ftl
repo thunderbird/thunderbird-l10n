@@ -6,6 +6,7 @@
 ## Side panel
 
 calendar-list-header = Taq cholb'äl q'ij
+calendar-enable-button = Titzij
 calendar-new-event-primary-button = K'ak'a' Molojri'ïl
 calendar-new-task-primary-button = K'ak'a' Samaj
 
