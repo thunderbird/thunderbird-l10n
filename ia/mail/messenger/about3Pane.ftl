@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Celar le titulo de pannello de plica
 folder-pane-show-total-toggle =
     .label = Monstrar le computo total de messages
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Visualisation compacte
+    .accesskey = c
 
 ## Message thread pane
 
