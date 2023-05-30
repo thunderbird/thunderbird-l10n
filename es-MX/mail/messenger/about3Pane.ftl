@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Ocultar cabecera del panel de carpetas
 folder-pane-show-total-toggle =
     .label = Mostrar la cantidad total de mensajes
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Vista compacta
+    .accesskey = C
 
 ## Message thread pane
 
