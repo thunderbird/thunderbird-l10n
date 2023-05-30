@@ -153,6 +153,9 @@ folder-pane-header-context-hide =
     .label = 隱藏資料夾窗格標題
 folder-pane-show-total-toggle =
     .label = 顯示郵件總數
+folder-pane-mode-context-toggle-compact-mode =
+    .label = 精簡檢視
+    .accesskey = C
 
 ## Message thread pane
 
