@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Aðeins í boði fyrir dagatalssvæ�
 customize-palette-tasks-specific-title = Aðeins í boði fyrir verkefnasvæði
 customize-palette-chat-specific-title = Aðeins í boði fyrir spjallsvæði
 customize-palette-settings-specific-title = Aðeins í boði fyrir stillingasvæði
+customize-palette-extension-specific-title = Aðeins í boði fyrir þetta svæði
 
 ## Unified toolbar customization palette context menu
 

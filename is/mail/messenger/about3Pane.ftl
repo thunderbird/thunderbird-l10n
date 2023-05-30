@@ -17,6 +17,13 @@ thread-pane-folder-message-count =
         [one] { $count } póstur
        *[other] { $count } póstar
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } valið
+       *[other] { $count } valin
+    }
 thread-pane-header-context-table-view =
     .label = Töflusýn
 thread-pane-header-context-cards-view =
@@ -158,9 +165,28 @@ folder-pane-header-context-hide =
     .label = Fela fyrirsögn möppuspjalds
 folder-pane-show-total-toggle =
     .label = Birta heildarfjölda skilaboða
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Sýna stærð möppu
+folder-pane-mode-context-button =
+    .title = Valkostir möppuhams
 folder-pane-mode-context-toggle-compact-mode =
     .label = Þjöppuð sýn
     .accesskey = Þ
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] { $count } ólesin skilaboð
+       *[other] { $count } ólesin skilaboð
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] { $count } skilaboð samtals
+       *[other] { $count } skilaboð samtals
+    }
 
 ## Message thread pane
 

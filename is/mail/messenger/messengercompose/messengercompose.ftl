@@ -200,6 +200,26 @@ smime-cert-issue-notification-one = Enda-í-enda dulritun krefst þess að leyst
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Enda-í-enda dulritun krefst þess að leyst séu vandamál með skilríki fyrir { $count } viðtakendur.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Enda-í-enda dulritun krefst þess að leyst séu vandamál með dulritunarlykla fyrir { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Enda-í-enda dulritun krefst þess að leyst séu vandamál með dulritunarlykla fyrir { $count } viðtakanda.
+       *[other] Enda-í-enda dulritun krefst þess að leyst séu vandamál með dulritunarlykla fyrir { $count } viðtakendur.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Enda-í-enda dulritun krefst þess að leyst séu vandamál með skilríki fyrir { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Enda-í-enda dulritun krefst þess að leyst séu vandamál með skilríki fyrir { $count } viðtakanda.
+       *[other] Enda-í-enda dulritun krefst þess að leyst séu vandamál með skilríki fyrir { $count } viðtakendur.
+    }
 key-notification-disable-encryption =
     .label = Ekki dulrita
     .accesskey = d
