@@ -17,6 +17,7 @@ calendars-table-cache-enabled = Välimuisti käytössä
 calendars-table-imip-identity = iMIP-identiteetti
 calendars-table-imip-identity-disabled = iMIP pois käytöstä
 calendars-table-imip-identity-account = iMIP-tili
+calendars-table-forceemailscheduling = Pakota sähköpostin aikataulutus
 calendars-table-capabilities-alarms-popup-supported = Ponnahdushälytykset tuettu
 calendars-table-capabilities-attachments-supported = Liite tuettu
 calendars-table-capabilities-priority-supported = Prioriteetti tuettu

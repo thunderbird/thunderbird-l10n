@@ -58,6 +58,10 @@ vcard-url-label = Verkkosivusto
 vcard-tel-header = Puhelinnumerot
 vcard-tel-add = Lisää puhelinnumero
 vcard-tel-label = Puhelinnumero
+# Or "Mobile"
+vcard-entry-type-cell = Matkapuhelin
+vcard-entry-type-fax = Faksi
+vcard-entry-type-pager = Hakulaite
 
 # TZ vCard field
 
@@ -70,6 +74,7 @@ vcard-impp2-header = Pikaviestintä
 vcard-impp-add = Lisää pikaviestitili
 vcard-impp-label = Pikaviestitili
 vcard-impp-option-other = Muu
+vcard-impp-input-label = URI
 
 # BDAY and ANNIVERSARY vCard field
 
@@ -108,6 +113,8 @@ vcard-org-org = Organisaatio
 
 # Custom properties
 
+vcard-custom-header = Mukautetut ominaisuudet
+vcard-custom-add = Lisää mukautettuja ominaisuuksia
 vcard-remove-button-title =
     .title = Poista
 vcard-remove-button = Poista
