@@ -5,6 +5,7 @@
 
 ## Side panel
 
+calendar-enable-button = Dayakan
 
 ## Calendar navigation
 
