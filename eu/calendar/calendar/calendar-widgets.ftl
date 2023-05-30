@@ -15,6 +15,7 @@ calendar-list-header = Egutegiak
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } egutegia isildua izan da
+calendar-enable-button = Gaitu
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
