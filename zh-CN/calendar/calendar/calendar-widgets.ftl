@@ -15,6 +15,7 @@ calendar-list-header = 日历
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = 已禁止“{ $calendarName }”日历的通知
+calendar-enable-button = 启用
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
