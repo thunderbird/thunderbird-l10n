@@ -162,6 +162,9 @@ folder-pane-header-context-hide =
     .label = Hłowu wobłuka rjadowaka schować
 folder-pane-show-total-toggle =
     .label = Cyłkowna ličba powěsćow
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompaktny napohlad
+    .accesskey = K
 
 ## Message thread pane
 
