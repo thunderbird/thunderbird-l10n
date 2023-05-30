@@ -112,6 +112,9 @@ quick-filter-bar-gloda-upsell-line2 = לחץ ‘Enter’ שוב כדי להמש�
 folder-pane-get-all-messages-menuitem =
     .label = קבל את כל ההודעות החדשות
     .accesskey = G
+folder-pane-mode-context-toggle-compact-mode =
+    .label = תצוגה חסכונית
+    .accesskey = ח
 
 ## Message thread pane
 
