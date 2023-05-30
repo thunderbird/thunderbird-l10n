@@ -7,6 +7,7 @@ calendar-deactivated-notification-tasks = Šiuo metu visi kalendoriai yra išjun
 
 ## Side panel
 
+calendar-enable-button = Įjungti
 
 ## Calendar navigation
 
