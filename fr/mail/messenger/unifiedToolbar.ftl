@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Disponible uniquement pour l’espac
 customize-palette-tasks-specific-title = Disponible uniquement pour l’espace Tâches
 customize-palette-chat-specific-title = Disponible uniquement pour l’espace Messagerie instantanée
 customize-palette-settings-specific-title = Disponible uniquement pour l’espace Paramètres
+customize-palette-extension-specific-title = Disponible uniquement pour cet espace
 
 ## Unified toolbar customization palette context menu
 

@@ -199,6 +199,26 @@ smime-cert-issue-notification-one = Pour utiliser le chiffrement de bout en bout
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de certificat pour { $count } destinataires.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de clés pour { $addr }
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de clés pour { $count } destinataires.
+       *[other] Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de clés pour { $count } destinataires.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de certificat pour { $addr }
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de certificat pour { $count } destinataires.
+       *[other] Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de certificat pour { $count } destinataires.
+    }
 key-notification-disable-encryption =
     .label = Ne pas chiffrer
     .accesskey = N
