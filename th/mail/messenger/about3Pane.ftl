@@ -117,6 +117,9 @@ quick-filter-bar-gloda-upsell-line2 = กด ‘Enter’ อีกครั้�
 folder-pane-get-all-messages-menuitem =
     .label = รับข้อความใหม่ทั้งหมด
     .accesskey = ร
+folder-pane-mode-context-toggle-compact-mode =
+    .label = มุมมองแบบกะทัดรัด
+    .accesskey = ก
 
 ## Message thread pane
 
