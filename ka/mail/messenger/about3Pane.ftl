@@ -121,6 +121,9 @@ quick-filter-bar-gloda-upsell-line2 = ხელახლა დაწკაპ�
 folder-pane-get-all-messages-menuitem =
     .label = ყველა ახალი წერილის მიღება
     .accesskey = მ
+folder-pane-mode-context-toggle-compact-mode =
+    .label = შემჭიდროებული ჩვენება
+    .accesskey = შ
 
 ## Message thread pane
 
