@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Mappa ablaktábla fejlécének elrejtése
 folder-pane-show-total-toggle =
     .label = Teljes üzenetszám megjelenítése
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Tömör nézet
+    .accesskey = T
 
 ## Message thread pane
 
