@@ -150,6 +150,9 @@ folder-pane-header-context-hide =
     .label = Ẩn header ngăn thư mục
 folder-pane-show-total-toggle =
     .label = Hiển thị tổng số thư
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Chế độ xem gọn
+    .accesskey = C
 
 ## Message thread pane
 
