@@ -15,6 +15,7 @@ calendar-list-header = Protyki
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Protkya { $calendarName } je nětko něma
+calendar-enable-button = Zmóžnić
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
