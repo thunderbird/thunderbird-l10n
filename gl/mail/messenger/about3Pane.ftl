@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Agochar a cabeceira do panel de cartafoles
 folder-pane-show-total-toggle =
     .label = Mostrar o reconto total de mensaxes
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Vista compacta
+    .accesskey = c
 
 ## Message thread pane
 
