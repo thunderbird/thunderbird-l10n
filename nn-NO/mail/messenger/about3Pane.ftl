@@ -125,6 +125,9 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = e
 folder-pane-write-message-button = Ny melding
     .title = Skriv ei ny melding
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompaktvising
+    .accesskey = K
 
 ## Message thread pane
 
