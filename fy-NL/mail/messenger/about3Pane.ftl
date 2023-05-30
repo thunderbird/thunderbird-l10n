@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Koptekst mappepaniel ferstopje
 folder-pane-show-total-toggle =
     .label = Toan it totaal oantal berjochten
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompakt byld
+    .accesskey = K
 
 ## Message thread pane
 
