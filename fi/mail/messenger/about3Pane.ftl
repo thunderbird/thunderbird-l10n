@@ -136,6 +136,9 @@ folder-pane-write-message-button = Uusi viesti
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Näytä "Uusi viesti"
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Tiivis näkkymä
+    .accesskey = T
 
 ## Message thread pane
 
