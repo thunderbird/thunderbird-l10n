@@ -127,6 +127,9 @@ folder-pane-write-message-button = Uus kiri
     .title = Koosta uus kiri
 folder-pane-header-context-hide =
     .label = Peida kaustade paneeli päis
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompaktne vaade
+    .accesskey = p
 
 ## Message thread pane
 
