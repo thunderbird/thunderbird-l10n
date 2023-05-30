@@ -15,6 +15,7 @@ calendar-list-header = 行事曆
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = 已將 { $calendarName } 行事曆靜音
+calendar-enable-button = 啟用
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
