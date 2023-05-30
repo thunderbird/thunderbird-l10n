@@ -121,6 +121,9 @@ quick-filter-bar-gloda-upsell-line2 = Premeu Retorn un altre cop per continuar l
 folder-pane-get-all-messages-menuitem =
     .label = Recupera tots els missatges nous
     .accesskey = p
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Visualització compacta
+    .accesskey = V
 
 ## Message thread pane
 
