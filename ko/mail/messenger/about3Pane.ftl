@@ -117,6 +117,9 @@ quick-filter-bar-gloda-upsell-line2 = 검색을 다시 하려면 ‘Enter'키를
 folder-pane-get-all-messages-menuitem =
     .label = 새 메시지 모두 받기
     .accesskey = G
+folder-pane-mode-context-toggle-compact-mode =
+    .label = 간단히 보기
+    .accesskey = C
 
 ## Message thread pane
 
