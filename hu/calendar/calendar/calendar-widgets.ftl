@@ -15,6 +15,7 @@ calendar-list-header = Naptárak
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = A(z) „{ $calendarName }” naptár elnémítva
+calendar-enable-button = Engedélyezés
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
