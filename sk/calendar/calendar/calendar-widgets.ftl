@@ -15,6 +15,7 @@ calendar-list-header = Kalendáre
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Pre kalendár { $calendarName } boli vypnuté upozornenia
+calendar-enable-button = Povoliť
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
