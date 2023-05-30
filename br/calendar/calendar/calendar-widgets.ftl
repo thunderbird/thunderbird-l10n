@@ -5,6 +5,7 @@
 
 ## Side panel
 
+calendar-enable-button = Gweredekaat
 
 ## Calendar navigation
 
