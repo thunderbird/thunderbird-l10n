@@ -132,6 +132,9 @@ folder-pane-header-folder-modes =
     .label = Karpeta moduak
 folder-pane-header-context-hide =
     .label = Ezkutatu karpeta panelaren goiburua
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Ikuspegi trinkoa
+    .accesskey = n
 
 ## Message thread pane
 
