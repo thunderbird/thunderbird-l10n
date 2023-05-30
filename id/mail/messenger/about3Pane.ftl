@@ -117,6 +117,9 @@ quick-filter-bar-gloda-upsell-line2 = Tekan tombol ‘Enter’ sekali lagi untuk
 folder-pane-get-all-messages-menuitem =
     .label = Ambil Semua Pesan Baru
     .accesskey = A
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Tampilan Ringkas
+    .accesskey = C
 
 ## Message thread pane
 
