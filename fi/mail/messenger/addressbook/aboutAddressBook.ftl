@@ -27,10 +27,10 @@ all-address-books = Kaikki osoitekirjat
 # Variables:
 # $name (String) - The name of the selected book/list.
 # $count (Number) - The number of contacts in the selected book/list.
-about-addressbook-card-count = Yhteystietoja osoitekirjassa { $name }: { $count }
+about-addressbook-card-count = Yhteyshenkilöjä osoitekirjassa { $name }: { $count }
 # Variables:
 # $count (Number) - The number of contacts in all address books.
-about-addressbook-card-count-all = Yhteystietoja kaikissa osoitekirjoissa: { $count }
+about-addressbook-card-count-all = Yhteyshenkilöjä kaikissa osoitekirjoissa: { $count }
 about-addressbook-books-context-properties =
     .label = Ominaisuudet
 about-addressbook-books-context-edit-list =
@@ -47,10 +47,12 @@ about-addressbook-books-context-delete =
     .label = Poista
 about-addressbook-books-context-remove =
     .label = Poista
+about-addressbook-books-context-startup-default =
+    .label = Oletuskansio
 about-addressbook-confirm-delete-book-title = Poista osoitekirja
 # Variables:
 # $name (String) - Name of the address book to be deleted.
-about-addressbook-confirm-delete-book = Haluatko varmasti poistaa osoitekirjan { $name } ja kaikki sen yhteystiedot?
+about-addressbook-confirm-delete-book = Haluatko varmasti poistaa osoitekirjan { $name } ja kaikki sen yhteyshenkilöt?
 about-addressbook-confirm-remove-remote-book-title = Poista osoitekirja
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
@@ -110,22 +112,34 @@ about-addressbook-column-label-organization =
 about-addressbook-column-header-addrbook = Osoitekirja
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
+about-addressbook-column-header-generatedname2 = Nimi
+    .title = Järjestä nimen mukaan
 about-addressbook-column-label-generatedname2 =
     .label = Nimi
+about-addressbook-column-header-emailaddresses2 = Sähköpostiosoitteet
+    .title = Järjestä sähköpostiosoitteiden mukaan
 about-addressbook-column-label-emailaddresses2 =
     .label = Sähköpostiosoitteet
+about-addressbook-column-header-nickname2 = Kutsumanimi
+    .title = Järjestä kutsumanimen mukaan
 about-addressbook-column-label-nickname2 =
     .label = Kutsumanimi
+about-addressbook-column-header-phonenumbers2 = Puhelinnumerot
+    .title = Järjestä puhelinnumerojen mukaan
 about-addressbook-column-label-phonenumbers2 =
     .label = Puhelinnumerot
+about-addressbook-column-header-addresses2 = Osoitteet
+    .title = Järjestä osoitteen mukaan
 about-addressbook-column-label-addresses2 =
     .label = Osoitteet
+about-addressbook-column-header-addrbook2 = Osoitekirja
+    .title = Järjestä osoitekirjan mukaan
 about-addressbook-column-label-addrbook2 =
     .label = Osoitekirja
-about-addressbook-confirm-delete-mixed-title = Poista yhteystiedot ja listat
+about-addressbook-confirm-delete-mixed-title = Poista yhteyshenkilöt ja listat
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
-about-addressbook-confirm-delete-mixed = Haluatko varmasti poistaa nämä { $count } yhteystietoa ja listaa?
+about-addressbook-confirm-delete-mixed = Haluatko varmasti poistaa nämä { $count } yhteyshenkilöä ja listaa?
 # Variables:
 # $count (Number) - The number of lists to be deleted.
 about-addressbook-confirm-delete-lists-title =
@@ -141,11 +155,46 @@ about-addressbook-confirm-delete-lists =
         [one] Haluatko varmasti poistaa listan { $name }?
        *[other] Haluatko varmasti poistaa nämä { $count } listaa?
     }
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+about-addressbook-confirm-remove-contacts-title =
+    { $count ->
+        [one] Poista yhteyshenkilö
+       *[other] Poista yhteyshenkilöt
+    }
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $name (String) - The name of the contact to be removed, if $count is 1.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts =
+    { $count ->
+        [one] Haluatko varmasti poistaa yhteyshenkilön { $name } listalta { $list }?
+       *[other] Haluatko varmasti poistaa nämä { $count } yhteyshenkilöä listalta { $list }?
+    }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title =
+    { $count ->
+        [one] Poista yhteyshenkilö
+       *[other] Poista yhteyshenkilöt
+    }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+# $name (String) - The name of the contact to be deleted, if $count is 1.
+about-addressbook-confirm-delete-contacts =
+    { $count ->
+        [one] Haluatko varmasti poistaa yhteyshenkilön { $name }?
+       *[other] Haluatko varmasti poistaa nämä { $count } yhteyshenkilöä?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Yhteyshenkilöjä ei ole saatavilla
+about-addressbook-placeholder-new-contact = Uusi yhteyshenkilö
+about-addressbook-placeholder-search-only = Tämä osoitekirja näyttää yhteystietoja vain haun jälkeen
 about-addressbook-placeholder-searching = Etsitään…
+about-addressbook-placeholder-no-search-results = Yhteyshenkilöjä ei löytynyt
 
 ## Details
 
@@ -153,8 +202,15 @@ about-addressbook-placeholder-searching = Etsitään…
 # $count (Number) - The number of selected items (will never be fewer than two)
 about-addressbook-selection-mixed-header = { $count } valittua yhteystietoa ja listaa
 # Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header = { $count } valittua yhteyshenkilöä
+# Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } valittua listaa
+about-addressbook-details-edit-photo =
+    .title = Muokkaa yhteyshenkilön kuvaa
+about-addressbook-new-contact-header = Uusi yhteyshenkilö
+about-addressbook-prefer-display-name = Suosi näyttönimeä viestin otsikon sijaan
 about-addressbook-event-action-button = Tapahtuma
 about-addressbook-search-action-button = Etsi
 about-addressbook-new-list-action-button = Uusi lista
@@ -162,6 +218,7 @@ about-addressbook-begin-edit-contact-button = Muokkaa
 about-addressbook-delete-edit-contact-button = Poista
 about-addressbook-cancel-edit-contact-button = Peruuta
 about-addressbook-save-edit-contact-button = Tallenna
+about-addressbook-add-contact-to = Lisää osoitekirjaan:
 about-addressbook-details-email-addresses-header = Sähköpostiosoitteet
 about-addressbook-details-phone-numbers-header = Puhelinnumerot
 about-addressbook-details-addresses-header = Osoitteet
