@@ -129,6 +129,9 @@ folder-pane-more-menu-button =
     .title = Opções do painel de pastas
 folder-pane-header-context-hide =
     .label = Ocultar cabeçalho do painel de pastas
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Visão compactada
+    .accesskey = c
 
 ## Message thread pane
 
