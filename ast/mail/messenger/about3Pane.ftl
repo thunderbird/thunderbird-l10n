@@ -121,6 +121,9 @@ quick-filter-bar-gloda-upsell-line2 = Calca ‘Enter’ de nueves pa siguir cola
 folder-pane-get-all-messages-menuitem =
     .label = Recibir tolos mensaxes nuevos
     .accesskey = R
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Vista compauta
+    .accesskey = C
 
 ## Message thread pane
 
