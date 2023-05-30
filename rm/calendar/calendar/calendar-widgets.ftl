@@ -15,6 +15,7 @@ calendar-list-header = Chalenders
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Il chalender { $calendarName } è vegnì mess en silenzi
+calendar-enable-button = Activar
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
