@@ -15,6 +15,7 @@ calendar-list-header = Calendrau
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Mae calendr { $calendarName } wedi'i dewi
+calendar-enable-button = Galluogi
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
