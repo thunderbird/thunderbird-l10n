@@ -162,6 +162,9 @@ folder-pane-header-context-hide =
     .label = Falaich bann-cinn leòsan nam pasgan
 folder-pane-show-total-toggle =
     .label = Seall iomlan nan teachdaireachdan
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Sealladh dùmhail
+    .accesskey = S
 
 ## Message thread pane
 
