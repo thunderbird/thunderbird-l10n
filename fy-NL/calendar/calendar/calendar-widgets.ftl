@@ -15,6 +15,7 @@ calendar-list-header = Aginda’s
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName }-aginda is dôve
+calendar-enable-button = Ynskeakelje
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
