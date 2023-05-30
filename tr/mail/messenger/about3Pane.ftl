@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Dizin bölmesi başlığını gizle
 folder-pane-show-total-toggle =
     .label = Toplam ileti sayısını göster
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Yoğun görünüm
+    .accesskey = Y
 
 ## Message thread pane
 
