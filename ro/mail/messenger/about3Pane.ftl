@@ -122,6 +122,9 @@ quick-filter-bar-gloda-upsell-line2 = Apasă „Enter” din nou pentru a contin
 folder-pane-get-all-messages-menuitem =
     .label = Toate conturile
     .accesskey = T
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Mod afișare compact
+    .accesskey = c
 
 ## Message thread pane
 
