@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Dölj mappfönsterraden
 folder-pane-show-total-toggle =
     .label = Visa totalt antal meddelanden
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompakt vy
+    .accesskey = p
 
 ## Message thread pane
 
