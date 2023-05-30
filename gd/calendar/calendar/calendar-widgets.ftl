@@ -15,6 +15,7 @@ calendar-list-header = Mìosachain
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Chaidh am mìosachan { $calendarName } a mhùchadh
+calendar-enable-button = Cuir an comas
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
