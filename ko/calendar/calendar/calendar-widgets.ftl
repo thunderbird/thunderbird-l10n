@@ -10,6 +10,7 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-enable-button = 활성화
 
 ## Calendar navigation
 
