@@ -199,6 +199,9 @@ smime-cert-issue-notification-one = A criptografia de ponta a ponta requer a res
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = A criptografia de ponta a ponta requer a resolução de problemas de certificado de { $count } destinatários.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = A criptografia de ponta a ponta requer a resolução de problemas de chave de { $addr }.
 key-notification-disable-encryption =
     .label = Não criptografar
     .accesskey = N
