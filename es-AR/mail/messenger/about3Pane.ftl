@@ -158,9 +158,21 @@ folder-pane-header-context-hide =
     .label = Ocultar encabezado de vista de carpetas
 folder-pane-show-total-toggle =
     .label = Mostrar la cantidad total de mensajes
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Mostrar tamaño de carpeta
+folder-pane-mode-context-button =
+    .title = Opciones del modo de carpeta
 folder-pane-mode-context-toggle-compact-mode =
     .label = Vista compacta
     .accesskey = c
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 mensaje no leído
+       *[other] { $count } mensajes no leídos
+    }
 
 ## Message thread pane
 

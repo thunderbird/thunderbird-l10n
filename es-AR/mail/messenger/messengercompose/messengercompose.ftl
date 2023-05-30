@@ -200,6 +200,23 @@ smime-cert-issue-notification-one = El cifrado de extremo a extremo requiere res
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = El cifrado de extremo a extremo requiere resolver problemas de certificado para { $count } destinatarios.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] El cifrado de extremo a extremo requiere resolver problemas de clave para { $count } destinatarios.
+       *[other] El cifrado de extremo a extremo requiere resolver problemas de clave para { $count } destinatarios.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = El cifrado de extremo a extremo requiere resolver problemas de certificado de { $addr }
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] El cifrado de extremo a extremo requiere resolver problemas de certificado para { $count } destinatarios.
+       *[other] El cifrado de extremo a extremo requiere resolver problemas de certificado para { $count } destinatarios.
+    }
 key-notification-disable-encryption =
     .label = No cifrar
     .accesskey = N
