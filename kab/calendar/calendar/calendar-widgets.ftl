@@ -11,6 +11,7 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Iwitayen
+calendar-enable-button = Rmed
 calendar-new-event-primary-button = Rnu tadyant
 calendar-new-task-primary-button = Tawuri tamaynut
 
