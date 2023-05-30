@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Kopfzeile des Ordnerbereichs ausblenden
 folder-pane-show-total-toggle =
     .label = Gesamtanzahl der Nachrichten anzeigen
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompakte Ansicht
+    .accesskey = K
 
 ## Message thread pane
 
