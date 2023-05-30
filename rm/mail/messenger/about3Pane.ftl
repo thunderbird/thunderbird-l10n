@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Zuppentar il titel da la panela dad ordinaturs
 folder-pane-show-total-toggle =
     .label = Mussar il dumber total da messadis
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Vista cumpacta
+    .accesskey = C
 
 ## Message thread pane
 
