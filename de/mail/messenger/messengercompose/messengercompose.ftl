@@ -199,6 +199,24 @@ smime-cert-issue-notification-one = Die Ende-zu-Ende-Verschlüsselung erfordert 
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Die Ende-zu-Ende-Verschlüsselung erfordert das Beheben von Problemen mit den Zertifikaten von { $count } Empfängern.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Die Ende-zu-Ende-Verschlüsselung erfordert die Lösung von Schlüsselproblemen für { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+       *[other] Die Ende-zu-Ende-Verschlüsselung erfordert die Lösung von Schlüsselproblemen bei { $count } Empfängern.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Die Ende-zu-Ende-Verschlüsselung erfordert die Lösung eines Problems mit dem Zertifikat von { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+       *[other] Die Ende-zu-Ende-Verschlüsselung erfordert die Lösung von Zertifikatsproblemen bei { $count } Empfängern.
+    }
 key-notification-disable-encryption =
     .label = Nicht verschlüsseln
     .accesskey = N
