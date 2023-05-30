@@ -21,6 +21,17 @@ thread-pane-folder-message-count =
         [many] { $count } Neges
        *[other] { $count } Neges
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [zero] { $count } Wedi'i ddewis
+        [one] { $count } Wedi'i ddewis
+        [two] { $count } Wedi'i ddewis
+        [few] { $count } Wedi'i ddewis
+        [many] { $count } Wedi'i ddewis
+       *[other] { $count } Wedi'i ddewis
+    }
 thread-pane-header-context-table-view =
     .label = Golwg Tabl
 thread-pane-header-context-cards-view =
@@ -166,9 +177,36 @@ folder-pane-header-context-hide =
     .label = Cuddio Penyn Paen Ffolder
 folder-pane-show-total-toggle =
     .label = Dangos Cyfanswm Nifer y Negeseuon
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Dangos Maint Ffolder
+folder-pane-mode-context-button =
+    .title = Dewisiadau modd ffolder
 folder-pane-mode-context-toggle-compact-mode =
     .label = Golwg Cryno
     .accesskey = G
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [zero] { $count } neges heb eu darllen
+        [one] 1 neges heb ei darllen
+        [two] { $count } neges heb eu darllen
+        [few] { $count } neges heb eu darllen
+        [many] { $count } neges heb eu darllen
+       *[other] { $count } neges heb eu darllen
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [zero] Cyfanswm { $count } neges
+        [one] 1 neges i gyd
+        [two] Cyfanswm { $count } neges
+        [few] Cyfanswm { $count } neges
+        [many] Cyfanswm { $count } neges
+       *[other] Cyfanswm { $count } neges
+    }
 
 ## Message thread pane
 
