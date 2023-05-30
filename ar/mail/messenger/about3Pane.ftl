@@ -125,6 +125,9 @@ quick-filter-bar-gloda-upsell-line2 = اضغط زر الإدخال لمتابع�
 folder-pane-get-all-messages-menuitem =
     .label = اجلب كل الرسائل الجديدة
     .accesskey = ج
+folder-pane-mode-context-toggle-compact-mode =
+    .label = منظور متضام
+    .accesskey = م
 
 ## Message thread pane
 
