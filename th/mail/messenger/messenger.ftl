@@ -168,6 +168,7 @@ message-header-msg-flagged =
 
 ## Message header cutomize panel
 
+message-header-customize-panel-title = การตั้งค่าส่วนหัวของข้อความ
 message-header-customize-button-style =
     .value = รูปแบบปุ่ม
     .accesskey = B
@@ -180,6 +181,7 @@ message-header-button-style-icons =
 message-header-show-sender-full-address =
     .label = แสดงที่อยู่แบบเต็มของผู้ส่งเสมอ
     .accesskey = f
+message-header-show-sender-full-address-description = ที่อยู่อีเมลจะถูกแสดงอยู่ใต้ชื่อ
 message-header-hide-label-column =
     .label = ซ่อนคอลัมน์ป้ายกำกับ
     .accesskey = I
@@ -202,7 +204,11 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = ต้องการเอา { $name } ออกหรือไม่?
 addon-removal-confirmation-button = เอาออก
+caret-browsing-prompt-title = การเลื่อนดูด้วยแป้นพิมพ์
 caret-browsing-prompt-check-text = ไม่ต้องถามอีก
+repair-text-encoding-button =
+    .label = ซ่อมแซมการเข้ารหัสข้อความ
+    .tooltiptext = คาดเดาการเข้ารหัสข้อความที่ถูกต้องจากเนื้อหาข้อความ
 
 ## no-reply handling
 
@@ -213,6 +219,10 @@ no-reply-title = ไม่รองรับการตอบกลับ
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = แถบเครื่องมือ
+    .aria-label = แถบเครื่องมือ
+    .aria-description = แถบเครื่องมือแนวตั้งสำหรับสลับระหว่าส่วนต่างๆ ใช้แป้นลูกศรเพื่อเลื่อนไปยังปุ่มอื่นๆ
 spaces-toolbar-button-mail2 =
     .title = จดหมาย
 spaces-toolbar-button-address-book2 =
@@ -247,6 +257,8 @@ menuitem-customize-label =
     .label = ปรับแต่ง…
 spaces-customize-background-color = สีพื้นหลัง
 spaces-customize-icon-color = สีของปุ่ม
+spaces-customize-button-restore = เรียกคืนค่าเริ่มต้น
+    .accesskey = R
 customize-panel-button-save = เสร็จสิ้น
     .accesskey = D
 
@@ -263,4 +275,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
