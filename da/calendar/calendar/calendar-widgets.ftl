@@ -11,6 +11,7 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Kalendere
+calendar-enable-button = Aktiver
 calendar-import-new-calendar = Ny kalender…
     .title = Opret eller abonner på en ny kalender
 calendar-refresh-calendars =
