@@ -122,6 +122,9 @@ quick-filter-bar-gloda-upsell-line2 = Spauskite „Įvesti“, kad būtų pratę
 folder-pane-get-all-messages-menuitem =
     .label = Atsiųsti visus laiškus
     .accesskey = s
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Rodyti glaustai
+    .accesskey = R
 
 ## Message thread pane
 
