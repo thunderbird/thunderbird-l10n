@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Disponibile solo per lo spazio Calen
 customize-palette-tasks-specific-title = Disponibile solo per lo spazio Attività
 customize-palette-chat-specific-title = Disponibile solo per lo spazio Chat
 customize-palette-settings-specific-title = Disponibile solo per lo spazio Impostazioni
+customize-palette-extension-specific-title = Disponibile solo per questo spazio
 
 ## Unified toolbar customization palette context menu
 
