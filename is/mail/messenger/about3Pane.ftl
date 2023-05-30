@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Fela fyrirsögn möppuspjalds
 folder-pane-show-total-toggle =
     .label = Birta heildarfjölda skilaboða
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Þjöppuð sýn
+    .accesskey = Þ
 
 ## Message thread pane
 
