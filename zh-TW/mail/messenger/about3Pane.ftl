@@ -16,6 +16,12 @@ thread-pane-folder-message-count =
     { $count ->
        *[other] { $count } 封郵件
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] 已選擇 { $count } 筆
+    }
 thread-pane-header-context-table-view =
     .label = 表格檢視
 thread-pane-header-context-cards-view =
@@ -153,9 +159,26 @@ folder-pane-header-context-hide =
     .label = 隱藏資料夾窗格標題
 folder-pane-show-total-toggle =
     .label = 顯示郵件總數
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = 顯示資料夾大小
+folder-pane-mode-context-button =
+    .title = 資料夾模式選項
 folder-pane-mode-context-toggle-compact-mode =
     .label = 精簡檢視
     .accesskey = C
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+       *[other] { $count } 封未讀訊息
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+       *[other] 共 { $count } 封訊息
+    }
 
 ## Message thread pane
 
