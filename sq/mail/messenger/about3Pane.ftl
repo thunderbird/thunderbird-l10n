@@ -129,6 +129,9 @@ folder-pane-more-menu-button =
     .title = Mundësi kuadrati dosjesh
 folder-pane-header-context-hide =
     .label = Fshih Krye Kuadrati Dosjesh
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Parje e Ngjeshur
+    .accesskey = P
 
 ## Message thread pane
 
