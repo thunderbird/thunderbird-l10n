@@ -108,9 +108,9 @@ appmenu-open-calendar =
 ## View / Layout
 
 appmenu-view-panel-title =
-    .title = Ansehen
+    .title = Ansicht
 appmenu-view-panel =
-    .label = Ansehen
+    .label = Ansicht
     .accesskey = A
 appmenuitem-toggle-thread-pane-header =
     .label = Kopfzeile der Nachrichtenliste
