@@ -121,6 +121,9 @@ quick-filter-bar-gloda-upsell-line2 = Trykk ‘Enter’ igjen for å fortsette s
 folder-pane-get-all-messages-menuitem =
     .label = Hent alle nye meldinger
     .accesskey = e
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompakt visning
+    .accesskey = K
 
 ## Message thread pane
 
