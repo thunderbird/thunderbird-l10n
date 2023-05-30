@@ -122,6 +122,9 @@ quick-filter-bar-gloda-upsell-line2 = Pritisnite ponovno ‘Enter’ kako biste 
 folder-pane-get-all-messages-menuitem =
     .label = Dohvati sve nove poruke
     .accesskey = D
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Zbijeni prikaz
+    .accesskey = Z
 
 ## Message thread pane
 
