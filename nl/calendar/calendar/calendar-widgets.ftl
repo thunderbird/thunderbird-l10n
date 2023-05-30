@@ -15,6 +15,7 @@ calendar-list-header = Agenda’s
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName }-agenda is gedempt
+calendar-enable-button = Inschakelen
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
