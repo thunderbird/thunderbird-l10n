@@ -139,6 +139,9 @@ folder-pane-header-context-toggle-new-message =
     .label = Wyświetlaj „Nowa wiadomość”
 folder-pane-header-context-hide =
     .label = Ukryj nagłówek panelu folderów
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Widok kompaktowy
+    .accesskey = k
 
 ## Message thread pane
 
