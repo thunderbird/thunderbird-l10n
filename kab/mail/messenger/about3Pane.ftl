@@ -137,6 +137,9 @@ folder-pane-write-message-button = Izen imaynuten
     .title = Aru iznan imaynuten
 folder-pane-more-menu-button =
     .title = Tixtiṛiyin n ugalis n yikaramen
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Timeẓri yessden
+    .accesskey = T
 
 ## Message thread pane
 
