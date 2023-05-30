@@ -15,6 +15,7 @@ calendar-list-header = Dagatöl
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Þaggað var niður í { $calendarName } dagatalinu
+calendar-enable-button = Virkja
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
