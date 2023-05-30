@@ -121,6 +121,9 @@ quick-filter-bar-gloda-upsell-line2 = Натиснете отново „Enter�
 folder-pane-get-all-messages-menuitem =
     .label = Проверка за нови писма
     .accesskey = П
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Компактен изглед
+    .accesskey = К
 
 ## Message thread pane
 
