@@ -123,6 +123,9 @@ folder-pane-get-messages-button =
 folder-pane-get-all-messages-menuitem =
     .label = Kek'ul Ronojel K'ak'a' taq Tzijol
     .accesskey = K
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Molk'ïy Tz'etoj
+    .accesskey = M
 
 ## Message thread pane
 
