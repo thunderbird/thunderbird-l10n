@@ -11,6 +11,7 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = ปฏิทิน
+calendar-enable-button = เปิดใช้งาน
 calendar-import-new-calendar = ปฏิทินใหม่…
     .title = สร้างหรือสมัครรับข้อมูลปฏิทินใหม่
 calendar-new-event-primary-button = เหตุการณ์ใหม่
