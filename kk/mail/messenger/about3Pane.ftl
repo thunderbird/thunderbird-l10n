@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Бума панелінің тақырыптамасын жасыру
 folder-pane-show-total-toggle =
     .label = Жалпы хабарламалар тізімін көрсету
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Ықшам көрініс
+    .accesskey = Ы
 
 ## Message thread pane
 
