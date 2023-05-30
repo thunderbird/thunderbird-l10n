@@ -162,6 +162,9 @@ folder-pane-header-context-hide =
     .label = Skrij glavo podokna map
 folder-pane-show-total-toggle =
     .label = Prikaži skupno število sporočil
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Zgoščen pogled
+    .accesskey = Z
 
 ## Message thread pane
 
