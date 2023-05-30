@@ -7,6 +7,7 @@ calendar-deactivated-notification-tasks = Toate calendarele sunt acum dezactivat
 
 ## Side panel
 
+calendar-enable-button = Activează
 
 ## Calendar navigation
 
