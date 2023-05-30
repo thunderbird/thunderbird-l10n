@@ -13,12 +13,9 @@ calendar-add-notification-button =
 calendar-list-header = Calendários
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
-calendar-list-item-tooltip =
-    .title = Opções do calendário { $calendarName }
-# Variables:
-#  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = O calendário { $calendarName } foi silenciado
+calendar-enable-button = Ativar
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
