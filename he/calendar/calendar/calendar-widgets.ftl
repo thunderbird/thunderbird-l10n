@@ -7,6 +7,7 @@ calendar-deactivated-notification-tasks = כל לוחות השנה מושבתי�
 
 ## Side panel
 
+calendar-enable-button = הפעלה
 
 ## Calendar navigation
 
