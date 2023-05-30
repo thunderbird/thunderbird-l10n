@@ -15,6 +15,7 @@ calendar-list-header = Takvimler
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = { $calendarName } takvimi sessize alındı
+calendar-enable-button = Etkinleştir
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
