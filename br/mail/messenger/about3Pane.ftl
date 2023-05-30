@@ -122,6 +122,9 @@ quick-filter-bar-gloda-upsell-line2 = Pouezit war ar stokell ‘Enankañ’ en-d
 folder-pane-get-all-messages-menuitem =
     .label = Kerc'hat an holl bosteloù nevez
     .accesskey = e
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Gwel fetis
+    .accesskey = f
 
 ## Message thread pane
 
