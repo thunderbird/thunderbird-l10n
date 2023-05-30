@@ -122,6 +122,9 @@ quick-filter-bar-gloda-upsell-line2 = Vēlreiz nospiediet ievades taustiņu, lai
 folder-pane-get-all-messages-menuitem =
     .label = Saņemt visas vēstules
     .accesskey = S
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompakts skats
+    .accesskey = K
 
 ## Message thread pane
 
