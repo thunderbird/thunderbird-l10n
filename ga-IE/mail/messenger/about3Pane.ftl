@@ -124,6 +124,9 @@ quick-filter-bar-gloda-upsell-line2 = Brúigh ‘Enter’ arís chun dul ar agha
 folder-pane-get-all-messages-menuitem =
     .label = Faigh Gach Teachtaireacht Nua
     .accesskey = g
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Dlúthamharc
+    .accesskey = D
 
 ## Message thread pane
 
