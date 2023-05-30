@@ -122,6 +122,9 @@ quick-filter-bar-gloda-upsell-line2 = Націсніце ‘Enter’ зноў, �
 folder-pane-get-all-messages-menuitem =
     .label = Атрымаць усе новыя лісты
     .accesskey = А
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Шчыльная праява
+    .accesskey = Ш
 
 ## Message thread pane
 
