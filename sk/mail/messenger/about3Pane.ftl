@@ -161,6 +161,9 @@ folder-pane-header-context-hide =
     .label = Skryť hlavičku panela priečinkov
 folder-pane-show-total-toggle =
     .label = Zobraziť celkový počet správ
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompaktné zobrazenie
+    .accesskey = K
 
 ## Message thread pane
 
