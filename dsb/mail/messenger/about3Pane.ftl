@@ -162,6 +162,9 @@ folder-pane-header-context-hide =
     .label = Głowu wobceŕka zarědnika schowaś
 folder-pane-show-total-toggle =
     .label = Cełkowna licba powěsćow
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Kompaktny naglěd
+    .accesskey = K
 
 ## Message thread pane
 
