@@ -121,6 +121,9 @@ quick-filter-bar-gloda-upsell-line2 = Սեղմեք ‘Enter'՝ շարունակ�
 folder-pane-get-all-messages-menuitem =
     .label = Ստանալ բոլոր նոր նամակները
     .accesskey = G
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Հավաք տեսք
+    .accesskey = Հ
 
 ## Message thread pane
 
