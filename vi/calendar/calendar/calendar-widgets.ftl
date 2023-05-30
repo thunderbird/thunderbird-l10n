@@ -15,6 +15,7 @@ calendar-list-header = Lịch
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Lịch { $calendarName } đã bị ẩn
+calendar-enable-button = Bật
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
