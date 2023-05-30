@@ -158,6 +158,9 @@ folder-pane-header-context-hide =
     .label = Nascondi intestazione pannello cartelle
 folder-pane-show-total-toggle =
     .label = Mostra il conteggio totale dei messaggi
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Visualizzazione compatta
+    .accesskey = V
 
 ## Message thread pane
 
