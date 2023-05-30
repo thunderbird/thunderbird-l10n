@@ -121,6 +121,9 @@ quick-filter-bar-gloda-upsell-line2 = { $text } uchun qidiruvni davom yana davom
 folder-pane-get-all-messages-menuitem =
     .label = Barcha yangi xabarlarni yuklab olish
     .accesskey = y
+folder-pane-mode-context-toggle-compact-mode =
+    .label = Ixcham ko‘rinish
+    .accesskey = I
 
 ## Message thread pane
 
