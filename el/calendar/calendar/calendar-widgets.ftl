@@ -15,6 +15,7 @@ calendar-list-header = Ημερολόγια
 #  $calendarName (String) - Calendar name as given by the user
 calendar-no-reminders-tooltip =
     .title = Το ημερολόγιο «{ $calendarName }» έχει τεθεί σε σίγαση
+calendar-enable-button = Ενεργοποίηση
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
