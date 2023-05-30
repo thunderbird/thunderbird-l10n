@@ -165,9 +165,16 @@ message-header-button-style-text =
     .label = Текст
 message-header-button-style-icons =
     .label = Иконице
+message-header-show-sender-full-address =
+    .label = Увек прикажи пуну адресу пошиљаоца
+    .accesskey = У
+message-header-show-sender-full-address-description = Е-адреса биће приказана испод приказаног имена.
 message-header-show-recipient-avatar =
     .label = Прикажи профилну слику пошиљаоца
     .accesskey = с
+message-header-hide-label-column =
+    .label = Сакриј колону етикета
+    .accesskey = к
 message-header-large-subject =
     .label = Велики наслов теме
     .accesskey = к
@@ -255,4 +262,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
