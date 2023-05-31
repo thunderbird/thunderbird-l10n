@@ -199,6 +199,26 @@ smime-cert-issue-notification-one = End-to-end kryptering kräver att certifikat
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = End-to-end kryptering kräver att certifikatproblem löses för { $count } mottagare.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = End-to-end-kryptering kräver att man löser nyckelproblem för { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] End-to-end-kryptering kräver att nyckelproblem löses för { $count } mottagare.
+       *[other] End-to-end-kryptering kräver att nyckelproblem löses för { $count } mottagare.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = End-to-end-kryptering kräver att certifikatproblem löses för { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] End-to-end-kryptering kräver att certifikatproblem löses för { $count } mottagare.
+       *[other] End-to-end-kryptering kräver att certifikatproblem löses för { $count } mottagare.
+    }
 key-notification-disable-encryption =
     .label = Kryptera inte
     .accesskey = n

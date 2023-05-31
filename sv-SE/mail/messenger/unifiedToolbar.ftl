@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Endast tillgänglig för kalender
 customize-palette-tasks-specific-title = Endast tillgänglig för uppgifter
 customize-palette-chat-specific-title = Endast tillgänglig för chatt
 customize-palette-settings-specific-title = Endast tillgänglig för inställningar
+customize-palette-extension-specific-title = Endast tillgängligt för detta utrymme
 
 ## Unified toolbar customization palette context menu
 

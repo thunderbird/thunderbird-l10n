@@ -17,6 +17,13 @@ thread-pane-folder-message-count =
         [one] { $count } meddelande
        *[other] { $count } meddelanden
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } meddelande valt
+       *[other] { $count } meddelande valda
+    }
 thread-pane-header-context-table-view =
     .label = Tabellvy
 thread-pane-header-context-cards-view =
@@ -158,9 +165,28 @@ folder-pane-header-context-hide =
     .label = Dölj mappfönsterraden
 folder-pane-show-total-toggle =
     .label = Visa totalt antal meddelanden
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Visa mappstorlek
+folder-pane-mode-context-button =
+    .title = Alternativ för mappläge
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakt vy
     .accesskey = p
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 oläst meddelande
+       *[other] { $count } olästa meddelanden
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] { $count } meddelande totalt
+       *[other] { $count } meddelanden totalt
+    }
 
 ## Message thread pane
 
