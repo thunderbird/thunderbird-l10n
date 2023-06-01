@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Доступно только для
 customize-palette-tasks-specific-title = Доступно только для Места Задач
 customize-palette-chat-specific-title = Доступно только для Места Чатов
 customize-palette-settings-specific-title = Доступно только для Места Настроек
+customize-palette-extension-specific-title = Доступно только для этого Места
 
 ## Unified toolbar customization palette context menu
 

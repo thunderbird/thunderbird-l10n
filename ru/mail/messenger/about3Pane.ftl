@@ -18,6 +18,14 @@ thread-pane-folder-message-count =
         [few] { $count } сообщения
        *[many] { $count } сообщений
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } выбрано
+        [few] { $count } выбраны
+       *[many] { $count } выбрано
+    }
 thread-pane-header-context-table-view =
     .label = В виде таблицы
 thread-pane-header-context-cards-view =
@@ -160,9 +168,30 @@ folder-pane-header-context-hide =
     .label = Скрыть заголовок панели папок
 folder-pane-show-total-toggle =
     .label = Показать общее количество сообщений
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Показать размер папки
+folder-pane-mode-context-button =
+    .title = Настройки режима папок
 folder-pane-mode-context-toggle-compact-mode =
     .label = Компактный вид
     .accesskey = о
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] { $count } непрочитанное сообщение
+        [few] { $count } непрочитанных сообщения
+       *[many] { $count } непрочитанных сообщений
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Всего { $count } сообщение
+        [few] Всего { $count } сообщения
+       *[many] Всего { $count } сообщений
+    }
 
 ## Message thread pane
 

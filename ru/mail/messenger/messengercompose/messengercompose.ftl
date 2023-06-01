@@ -204,6 +204,28 @@ smime-cert-issue-notification-one = Для сквозного шифровани
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Для сквозного шифрования нужно решить проблемы с сертификатами для { $count } получателей.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Для сквозного шифрования нужно решить проблему с ключом для { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Для сквозного шифрования нужно решить проблемы с ключами для { $count } получателя.
+        [few] Для сквозного шифрования нужно решить проблемы с ключами для { $count } получателей.
+       *[many] Для сквозного шифрования нужно решить проблемы с ключами для { $count } получателей.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Для сквозного шифрования нужно решить проблему с сертификатом для { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Для сквозного шифрования нужно решить проблемы с сертификатами для { $count } получателя.
+        [few] Для сквозного шифрования нужно решить проблемы с сертификатами для { $count } получателей.
+       *[many] Для сквозного шифрования нужно решить проблемы с сертификатами для { $count } получателей.
+    }
 key-notification-disable-encryption =
     .label = Не шифровать
     .accesskey = е
