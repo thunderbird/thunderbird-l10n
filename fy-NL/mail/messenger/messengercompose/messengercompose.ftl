@@ -200,6 +200,26 @@ smime-cert-issue-notification-one = End-to-end-fersifering fereasket it oplossen
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $count } ûntfangers.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $count } ûntfanger.
+       *[other] End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $count } ûntfangers.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $count } ûntfanger.
+       *[other] End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $count } ûntfangers.
+    }
 key-notification-disable-encryption =
     .label = Net fersiferje
     .accesskey = i

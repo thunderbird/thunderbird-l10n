@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Allinnich beskikber foar Agindafunks
 customize-palette-tasks-specific-title = Allinnich beskikber foar Takenfunksje
 customize-palette-chat-specific-title = Allinnich beskikber foar Chatfunksje
 customize-palette-settings-specific-title = Allinnich beskikber foar Ynstellingenfunksje
+customize-palette-extension-specific-title = Allinnich beskikber foar dizze Funksje
 
 ## Unified toolbar customization palette context menu
 

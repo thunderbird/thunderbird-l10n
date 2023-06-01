@@ -17,6 +17,13 @@ thread-pane-folder-message-count =
         [one] { $count } berjocht
        *[other] { $count } berjochten
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } selektearre
+       *[other] { $count } selektearre
+    }
 thread-pane-header-context-table-view =
     .label = Tabelwerjefte
 thread-pane-header-context-cards-view =
@@ -158,9 +165,28 @@ folder-pane-header-context-hide =
     .label = Koptekst mappepaniel ferstopje
 folder-pane-show-total-toggle =
     .label = Toan it totaal oantal berjochten
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Mapgrutte toane
+folder-pane-mode-context-button =
+    .title = Opsjes foar mapmodus
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakt byld
     .accesskey = K
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 net-lêzen berjocht
+       *[other] { $count } net-lêzen berjochten
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] totaal 1 berjocht
+       *[other] totaal { $count } berjochten
+    }
 
 ## Message thread pane
 
