@@ -25,12 +25,12 @@ thread-pane-folder-message-count =
 # $count (Number) - The number of messages currently selected.
 thread-pane-folder-selected-count =
     { $count ->
-        [zero] { $count } Wedi'i ddewis
+        [zero] { $count } Wedi'u dewis
         [one] { $count } Wedi'i ddewis
-        [two] { $count } Wedi'i ddewis
-        [few] { $count } Wedi'i ddewis
-        [many] { $count } Wedi'i ddewis
-       *[other] { $count } Wedi'i ddewis
+        [two] { $count } Wedi'u dewis
+        [few] { $count } Wedi'u dewis
+        [many] { $count } Wedi'u dewis
+       *[other] { $count } Wedi'u dewis
     }
 thread-pane-header-context-table-view =
     .label = Golwg Tabl
@@ -200,12 +200,12 @@ folder-pane-unread-aria-label =
 # $count (Number) - Number of total messages.
 folder-pane-total-aria-label =
     { $count ->
-        [zero] Cyfanswm { $count } neges
-        [one] 1 neges i gyd
-        [two] Cyfanswm { $count } neges
-        [few] Cyfanswm { $count } neges
-        [many] Cyfanswm { $count } neges
-       *[other] Cyfanswm { $count } neges
+        [zero] Cyfanswm o { $count } neges
+        [one] Cyfamswm o 1 neges
+        [two] Cyfanswm o { $count } neges
+        [few] Cyfanswm o { $count } neges
+        [many] Cyfanswm o { $count } neges
+       *[other] Cyfanswm o { $count } neges
     }
 
 ## Message thread pane

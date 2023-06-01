@@ -222,14 +222,14 @@ smime-cert-issue-notification-one = Mae amgryptio pen-i-ben yn gofyn am ddatrys 
 smime-cert-issue-notification-many = Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } derbynnydd.
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-single = Mae amgryptio o un pen i'r llall yn gofyn am ddatrys problemau allweddol ar gyfer { $addr }.
+openpgp-key-issue-notification-single = Mae amgryptio o ben-i-ben yn gofyn am ddatrys problemau allweddol ar gyfer { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-multi =
     { $count ->
-        [zero] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $count } derbynnydd.
+        [zero] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $count } derbynnyddion.
         [one] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $count } derbynnydd.
-        [two] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $count } derbynnydd.
+        [two] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $count } dderbynnydd.
         [few] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $count } derbynnydd.
         [many] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $count } derbynnydd.
        *[other] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $count } derbynnydd.
@@ -241,9 +241,9 @@ smime-cert-issue-notification-single = Mae amgryptio pen-i-ben yn gofyn am ddatr
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-multi =
     { $count ->
-        [zero] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } derbynnydd.
+        [zero] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } derbynnyddion.
         [one] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } derbynnydd.
-        [two] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } derbynnydd.
+        [two] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } dderbynnydd.
         [few] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } derbynnydd.
         [many] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } derbynnydd.
        *[other] Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } derbynnydd.
