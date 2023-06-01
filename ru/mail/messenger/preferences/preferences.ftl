@@ -277,18 +277,18 @@ compact-folder-size =
 use-cache-before =
     .value = Использовать до
     .accesskey = ь
-use-cache-after = МБ на диске для кэша
+use-cache-after = МБ на диске для кеша
 
 ##
 
 smart-cache-label =
-    .label = Отключить автоматическое управление кэшем
+    .label = Отключить автоматическое управление кешем
     .accesskey = ю
 clear-cache-button =
     .label = Очистить сейчас
     .accesskey = о
 clear-cache-shutdown-label =
-    .label = Очищать кэш при выходе
+    .label = Очищать кеш при выходе
     .accesskey = ч
 fonts-legend = Шрифты и цвета
 default-font-label =

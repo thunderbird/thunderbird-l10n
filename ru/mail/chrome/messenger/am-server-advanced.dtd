@@ -10,7 +10,7 @@
 <!ENTITY usingSubscription.accesskey "о">
 <!ENTITY dualUseFolders.label "Сервер поддерживает папки, содержащие вложенные папки и сообщения">
 <!ENTITY dualUseFolders.accesskey "е">
-<!ENTITY maximumConnectionsNumber.label "Максимальное число кэшируемых соединений">
+<!ENTITY maximumConnectionsNumber.label "Максимальное число кешируемых соединений">
 <!ENTITY maximumConnectionsNumber.accesskey "к">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
 <!ENTITY namespaceDesc.label "Эти настройки определяют пространства имён на вашем IMAP-сервере">
@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "у">
 <!ENTITY overrideNamespaces.label "Разрешить серверу перекрывать эти пространства имён">
 <!ENTITY overrideNamespaces.accesskey "з">
-<!ENTITY pop3DeferringDesc.label "При загрузке почты c сервера этой учётной записи, помещать новые сообщения в следующую папку:" >
+<!ENTITY pop3DeferringDesc.label "При загрузке почты c сервера этой учётной записи, помещать новые сообщения в следующую папку:">
 <!ENTITY accountInbox.label "«Входящие» для этой учётной записи">
 <!ENTITY accountInbox.accesskey "д">
 <!ENTITY deferToServer.label "«Входящие» для другой учётной записи">
