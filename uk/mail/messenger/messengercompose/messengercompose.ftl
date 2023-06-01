@@ -205,6 +205,28 @@ smime-cert-issue-notification-one = Наскрізне шифрування ви
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Наскрізне шифрування вимагає розв'язання проблем сертифікату для { $count } одержувачів
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Наскрізне шифрування потребує розв'язання проблем з ключем для { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Наскрізне шифрування потребує розв'язання проблем з ключем для { $count } адресата.
+        [few] Наскрізне шифрування потребує розв'язання проблем з ключем для { $count } адресатів.
+       *[many] Наскрізне шифрування потребує розв'язання проблем з ключем для { $count } адресатів.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Наскрізне шифрування вимагає розв'язання проблем із сертифікатом для { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Наскрізне шифрування потребує розв'язання проблем із сертифікатом для { $count } адресата.
+        [few] Наскрізне шифрування потребує розв'язання проблем із сертифікатом для { $count } адресатів.
+       *[many] Наскрізне шифрування потребує розв'язання проблем із сертифікатом для { $count } адресатів.
+    }
 key-notification-disable-encryption =
     .label = Не шифрувати
     .accesskey = Н

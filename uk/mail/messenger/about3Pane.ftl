@@ -18,6 +18,14 @@ thread-pane-folder-message-count =
         [few] { $count } повідомлення
        *[many] { $count } повідомлень
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } вибрано
+        [few] { $count } вибрано
+       *[many] { $count } вибрано
+    }
 thread-pane-header-context-table-view =
     .label = Подання таблицею
 thread-pane-header-context-cards-view =
@@ -160,9 +168,30 @@ folder-pane-header-context-hide =
     .label = Сховати заголовок панелі тек
 folder-pane-show-total-toggle =
     .label = Показати загальну кількість повідомлень
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Показати розмір теки
+folder-pane-mode-context-button =
+    .title = Параметри режиму тек
 folder-pane-mode-context-toggle-compact-mode =
     .label = Компактний вигляд
     .accesskey = м
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 непрочитане повідомлення
+        [few] { $count } непрочитані повідомлення
+       *[many] { $count } непрочитаних повідомлень
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Всього 1 повідомлення
+        [few] Всього { $count } повідомлення
+       *[many] Всього { $count } повідомлень
+    }
 
 ## Message thread pane
 
