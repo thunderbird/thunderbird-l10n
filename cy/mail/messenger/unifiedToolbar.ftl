@@ -69,7 +69,7 @@ customize-palette-calendar-specific-title = Ar gael ar gyfer Man Calendr yn unig
 customize-palette-tasks-specific-title = Ar gael ar gyfer Man Tasgau'n unig
 customize-palette-chat-specific-title = Ar gael ar gyfer Man Sgwrsio'n unig
 customize-palette-settings-specific-title = Ar gael ar gyfer Man Gosodiadau'n unig
-customize-palette-extension-specific-title = Ar gael ar gyfer y Lle hwn yn unig
+customize-palette-extension-specific-title = Ar gael ar gyfer y Bwlch hwn yn unig
 
 ## Unified toolbar customization palette context menu
 
