@@ -21,8 +21,8 @@ thread-pane-folder-message-count =
 # $count (Number) - The number of messages currently selected.
 thread-pane-folder-selected-count =
     { $count ->
-        [one] { $count } éléments sélectionnés
-       *[other] { $count } éléments sélectionnés
+        [one] { $count } message sélectionné
+       *[other] { $count } messages sélectionnés
     }
 thread-pane-header-context-table-view =
     .label = Vue tableau
@@ -178,14 +178,14 @@ folder-pane-mode-context-toggle-compact-mode =
 folder-pane-unread-aria-label =
     { $count ->
         [one] 1 message non lu
-       *[other] { $count } messages non lus
+       *[other] { $count } messages non lus
     }
 # Variables:
 # $count (Number) - Number of total messages.
 folder-pane-total-aria-label =
     { $count ->
         [one] 1 message au total
-       *[other] { $count } messages au total
+       *[other] { $count } messages au total
     }
 
 ## Message thread pane
