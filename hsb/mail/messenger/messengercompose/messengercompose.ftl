@@ -210,6 +210,30 @@ smime-cert-issue-notification-one = Zaklučowanje kónc do kónca sej rozrisanje
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za někotrych přijimarjow wužaduje ({ $count })
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za { $addr } wužaduje.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za { $count } přijimarja wužaduje.
+        [two] Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za { $count } přijimarjow wužaduje.
+        [few] Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za { $count } přijimarjow wužaduje.
+       *[other] Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za { $count } přijimarjow wužaduje.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za { $addr } wužaduje.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za { $count } přijimarja wužaduje.
+        [two] Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za { $count } přijimarjow wužaduje.
+        [few] Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za { $count } přijimarjow wužaduje.
+       *[other] Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za { $count } přijimarjow wužaduje.
+    }
 key-notification-disable-encryption =
     .label = Njezaklučować
     .accesskey = N

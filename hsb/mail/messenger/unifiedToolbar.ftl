@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Jenož za protykowy rum k dispozicij
 customize-palette-tasks-specific-title = Jenož za nadawkowy rum k dispoziciji
 customize-palette-chat-specific-title = Jenož za chattowy rum k dispoziciji
 customize-palette-settings-specific-title = Jenož za rum nastajenjow k dispoziciji
+customize-palette-extension-specific-title = Jenož za tutón rum k dispoziciji
 
 ## Unified toolbar customization palette context menu
 

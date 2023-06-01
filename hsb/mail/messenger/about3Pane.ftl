@@ -19,6 +19,15 @@ thread-pane-folder-message-count =
         [few] { $count } powěsće
        *[other] { $count } powěsćow
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } wubrana
+        [two] { $count } wubranej
+        [few] { $count } wubrane
+       *[other] { $count } wubranych
+    }
 thread-pane-header-context-table-view =
     .label = Tabelowy napohlad
 thread-pane-header-context-cards-view =
@@ -162,9 +171,32 @@ folder-pane-header-context-hide =
     .label = Hłowu wobłuka rjadowaka schować
 folder-pane-show-total-toggle =
     .label = Cyłkowna ličba powěsćow
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Wulkosć rjadowaka pokazać
+folder-pane-mode-context-button =
+    .title = Nastajenja rjadowakoweho modusa
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktny napohlad
     .accesskey = K
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] { $count } nječitana powěsć
+        [two] { $count } nječitanej powěsći
+        [few] { $count } nječitane powěsće
+       *[other] { $count } nječitanych powěsćow
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] { $count } powěsć dohromady
+        [two] { $count } powěsći dohromady
+        [few] { $count } powěsće dohromady
+       *[other] { $count } powěsćow dohromady
+    }
 
 ## Message thread pane
 
