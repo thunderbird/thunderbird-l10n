@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Alleen beschikbaar voor Agendafuncti
 customize-palette-tasks-specific-title = Alleen beschikbaar voor Takenfunctie
 customize-palette-chat-specific-title = Alleen beschikbaar voor Chatfunctie
 customize-palette-settings-specific-title = Alleen beschikbaar voor Instellingenfunctie
+customize-palette-extension-specific-title = Alleen beschikbaar voor deze Functie
 
 ## Unified toolbar customization palette context menu
 

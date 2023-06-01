@@ -200,6 +200,26 @@ smime-cert-issue-notification-one = End-to-end-versleuteling vereist het oplosse
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $count } ontvangers.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $count } ontvanger.
+       *[other] End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $count } ontvangers.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $count } ontvanger.
+       *[other] End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $count } ontvangers.
+    }
 key-notification-disable-encryption =
     .label = Niet versleutelen
     .accesskey = i
