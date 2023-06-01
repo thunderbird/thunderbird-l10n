@@ -17,6 +17,13 @@ thread-pane-folder-message-count =
         [one] { $count } mensaje
        *[other] { $count } mensajes
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } seleccionado
+       *[other] { $count } seleccionados
+    }
 thread-pane-header-context-table-view =
     .label = Vista de tabla
 thread-pane-header-context-cards-view =
@@ -172,6 +179,13 @@ folder-pane-unread-aria-label =
     { $count ->
         [one] 1 mensaje no leído
        *[other] { $count } mensajes no leídos
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 mensaje total
+       *[other] { $count } mensajes totales
     }
 
 ## Message thread pane
