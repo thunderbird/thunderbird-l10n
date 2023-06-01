@@ -20,7 +20,7 @@ thread-pane-folder-message-count =
 # $count (Number) - The number of messages currently selected.
 thread-pane-folder-selected-count =
     { $count ->
-       *[other] 已選擇 { $count } 筆
+       *[other] 已選擇 { $count } 封
     }
 thread-pane-header-context-table-view =
     .label = 表格檢視
@@ -177,6 +177,7 @@ folder-pane-unread-aria-label =
 # $count (Number) - Number of total messages.
 folder-pane-total-aria-label =
     { $count ->
+        [one] { $count } 封訊息
        *[other] 共 { $count } 封訊息
     }
 
