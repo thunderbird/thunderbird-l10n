@@ -257,6 +257,9 @@ menuitem-customize-label =
     .label = ปรับแต่ง…
 spaces-customize-background-color = สีพื้นหลัง
 spaces-customize-icon-color = สีของปุ่ม
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = สีของปุ่มที่เลือก
 spaces-customize-button-restore = เรียกคืนค่าเริ่มต้น
     .accesskey = R
 customize-panel-button-save = เสร็จสิ้น
