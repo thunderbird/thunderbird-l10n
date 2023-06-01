@@ -21,6 +21,15 @@ connection-dialog-window =
             [macos] width: 44em !important
            *[other] width: 49em !important
         }
+connection-dialog-window2 =
+    .title = Setările conexiunii
+disable-extension-button = Dezactivează extensia
+# Variables:
+#   $name (String) - The extension that is controlling the proxy settings.
+#
+# The extension-icon is the extension's icon, or a fallback image. It should be
+# purely decoration for the actual extension name, with alt="".
+proxy-settings-controlled-by-extension = O extensie, <img data-l10n-name="extension-icon" alt="" /> { $name }, controlează modul în care { -brand-short-name } se conectează la internet.
 connection-proxy-legend = Configurează proxyuri pentru accesul la internet
 proxy-type-no =
     .label = Fără proxy
@@ -71,6 +80,8 @@ no-proxy-label =
     .value = Fără proxy pentru:
     .accesskey = n
 no-proxy-example = Exemplu: .mozilla.org, .net.nz, 192.168.1.0/24
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-noproxy-localhost-desc-2 = Conexiunile către localhost, 127.0.0.1/8 și ::1 nu trec niciodată printr-un proxy.
 proxy-password-prompt =
     .label = Nu solicita autentificarea dacă parola este salvată
     .accesskey = i
