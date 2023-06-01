@@ -17,6 +17,13 @@ thread-pane-folder-message-count =
         [one] { $count } üzenet
        *[other] { $count } üzenet
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } kiválasztva
+       *[other] { $count } kiválasztva
+    }
 thread-pane-header-context-table-view =
     .label = Táblázat nézet
 thread-pane-header-context-cards-view =
@@ -158,9 +165,28 @@ folder-pane-header-context-hide =
     .label = Mappa ablaktábla fejlécének elrejtése
 folder-pane-show-total-toggle =
     .label = Teljes üzenetszám megjelenítése
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Mappaméret megjelenítése
+folder-pane-mode-context-button =
+    .title = Mappamód beállításai
 folder-pane-mode-context-toggle-compact-mode =
     .label = Tömör nézet
     .accesskey = T
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 olvasatlan üzenet
+       *[other] { $count } olvasatlan üzenet
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Összesen 1 üzenet
+       *[other] Összesen { $count } üzenet
+    }
 
 ## Message thread pane
 

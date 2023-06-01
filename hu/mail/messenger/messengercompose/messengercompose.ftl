@@ -200,6 +200,24 @@ smime-cert-issue-notification-one = A végpontok közötti titkosításhoz meg k
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = A végpontok közötti titkosításhoz meg kell oldani a tanúsítványproblémákat { $count } címzettnél.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = A végpontok közötti titkosításhoz meg kell oldani a kulcsproblémákat a következőnél: { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+       *[other] A végpontok közötti titkosításhoz { $count } címzettnél meg kell oldani a kulcsproblémákat.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = A végpontok közötti titkosításhoz meg kell oldani a tanúsítványproblémákat a következőnél: { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+       *[other] A végpontok közötti titkosításhoz { $count } címzettnél meg kell oldani a tanúsítványproblémákat.
+    }
 key-notification-disable-encryption =
     .label = Ne titkosítsa
     .accesskey = N

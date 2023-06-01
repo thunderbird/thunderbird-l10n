@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Csak a Naptár helyhez érhető el
 customize-palette-tasks-specific-title = Csak a Feladatok helyhez érhető el
 customize-palette-chat-specific-title = Csak a Csevegés helyhez érhető el
 customize-palette-settings-specific-title = Csak a Beállítások helyhez érhető el
+customize-palette-extension-specific-title = Csak ehhez a helyhez érhető el
 
 ## Unified toolbar customization palette context menu
 
