@@ -61,5 +61,5 @@ tree-list-view-row-read =
     .alt = Indicateur d’état de lecture
     .title = État de lecture du message
 tree-list-view-row-not-read =
-    .alt = Indicateur de statut non lu
-    .title = État du message non lu
+    .alt = Indicateur d’état non lu
+    .title = État non lu du message
