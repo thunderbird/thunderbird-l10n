@@ -58,14 +58,18 @@ customize-save = Uložit
 customize-unsaved-changes = Neuložené změny v jiných panelech
 customize-search-bar =
     .label = Vyhledávání tlačítek pro lišty…
+customize-spaces-tabs =
+    .aria-label = Prostory
 customize-main-toolbar-target =
     .aria-label = Hlavní lišta
-customize-palette-mail-specific-title = Dostupné pouze pro Poštu
+customize-palette-generic-title = Dostupné pro všechny Prostory
+customize-palette-mail-specific-title = Dostupné pouze pro Pošta
 customize-palette-addressbook-specific-title = Dostupné pouze pro Kontakty
 customize-palette-calendar-specific-title = Dostupné pouze pro Kalendář
 customize-palette-tasks-specific-title = Dostupné pouze pro Úkoly
 customize-palette-chat-specific-title = Dostupné pouze pro Chat
 customize-palette-settings-specific-title = Dostupné pouze pro Nastavení
+customize-palette-extension-specific-title = Dostupné pouze pro tento Prostor
 
 ## Unified toolbar customization palette context menu
 

@@ -253,6 +253,7 @@ about-addressbook-details-email-addresses-header = E-mailové adresy
 about-addressbook-details-phone-numbers-header = Telefonní čísla
 about-addressbook-details-addresses-header = Adresy
 about-addressbook-details-notes-header = Poznámky
+about-addressbook-details-impp-header = Okamžité zprávy
 about-addressbook-details-websites-header = Webové stránky
 about-addressbook-details-other-info-header = Další údaje
 about-addressbook-entry-type-work = Práce

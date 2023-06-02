@@ -70,11 +70,13 @@ vcard-tz-add = Přidat časové pásmo
 
 # IMPP vCard field
 
+vcard-impp2-header = Okamžité zprávy
 vcard-impp-add = Přidat účet chatu
 vcard-impp-label = Účet chatu
 vcard-impp-select = Protokol
 vcard-impp-option-other = Ostatní
 vcard-impp-input-label = URI
+vcard-impp-input-title = URI pro okamžité zprávy
 
 # BDAY and ANNIVERSARY vCard field
 

@@ -19,6 +19,15 @@ thread-pane-folder-message-count =
         [many] zpráv
        *[other] zpráv
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] Vybrána { $count }
+        [few] Vybrány { $count }
+        [many] Vybráno { $count }
+       *[other] Vybráno { $count }
+    }
 thread-pane-header-context-table-view =
     .label = Zobrazení tabulky
 thread-pane-header-context-cards-view =
@@ -161,6 +170,9 @@ folder-pane-header-context-hide =
     .label = Skrýt záhlaví podokna složek
 folder-pane-show-total-toggle =
     .label = Zobrazit celkový počet zpráv
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Zobrazit velikost složky
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktní zobrazení
     .accesskey = K
