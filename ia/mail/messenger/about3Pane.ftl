@@ -17,6 +17,12 @@ thread-pane-folder-message-count =
         [one] { $count } Message
        *[other] { $count } Messages
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] { $count } Selegite
+    }
 thread-pane-header-context-table-view =
     .label = Vista de tabella
 thread-pane-header-context-cards-view =
@@ -158,9 +164,28 @@ folder-pane-header-context-hide =
     .label = Celar le titulo de pannello de plica
 folder-pane-show-total-toggle =
     .label = Monstrar le computo total de messages
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Monstrar dimension del plica
+folder-pane-mode-context-button =
+    .title = Optiones de modo del plicas
 folder-pane-mode-context-toggle-compact-mode =
     .label = Visualisation compacte
     .accesskey = c
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 message non lecte
+       *[other] { $count } messages non lecte
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 message total
+       *[other] { $count } messages total
+    }
 
 ## Message thread pane
 

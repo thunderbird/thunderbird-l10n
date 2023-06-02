@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Disponibile solo pro Spatio agenda
 customize-palette-tasks-specific-title = Disponibile solo pro Spatio de activitates
 customize-palette-chat-specific-title = Disponibile solo pro Spatio de chats
 customize-palette-settings-specific-title = Disponibile solo pro Spatio de parametros
+customize-palette-extension-specific-title = Disponibile solo pro iste Spatio
 
 ## Unified toolbar customization palette context menu
 
