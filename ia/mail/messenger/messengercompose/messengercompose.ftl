@@ -199,6 +199,9 @@ smime-cert-issue-notification-one = Le cryptation de extremo a extremo require r
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Le cryptation de extremo a extremo require resolver problemas de certificato pro { $count } destinatarios.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Le cryptation de extremo a extremo require resolver problemas clave pro { $addr }.
 key-notification-disable-encryption =
     .label = Non cryptar
     .accesskey = N
