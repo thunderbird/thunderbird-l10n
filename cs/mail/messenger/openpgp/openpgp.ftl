@@ -332,6 +332,7 @@ openpgp-passphrase-instruction-user-passphrase = Odemkněte tento klíč, pokud 
 openpgp-passphrase-unlock = Odemknout
 openpgp-passphrase-unlocked = Klíč byl úspěšně odemčen.
 openpgp-remove-protection = Odstranit ochranu přístupovou frází
+openpgp-use-primary-password = Odebrat přístupovou frází a chránit pomocí hlavního hesla
 openpgp-passphrase-new = Nová přístupová fráze
 openpgp-passphrase-new-repeat = Potvrdit novou přístupovou frázi
 openpgp-passphrase-set = Nastavit přístupovou frázi

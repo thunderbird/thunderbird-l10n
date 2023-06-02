@@ -176,6 +176,24 @@ folder-pane-header-toggle-folder-size =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktní zobrazení
     .accesskey = K
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 nepřečtená zpráva
+        [few] { $count } nepřečtené zprávy
+        [many] { $count } nepřečtených zpráv
+       *[other] { $count } nepřečtených zpráv
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Celkem 1 zpráva
+        [few] Celkem { $count } zprávy
+        [many] Celkem { $count } zpráv
+       *[other] Celkem { $count } zpráv
+    }
 
 ## Message thread pane
 

@@ -701,11 +701,20 @@ security-devices-button =
     .accesskey = B
 email-e2ee-header = Oboustranné šifrování e-mailů
 account-settings = Nastavení účtu
+email-e2ee-enable-info = V Nastavení účtu nastavte koncové šifrování pro e-mailové účty a identity.
 email-e2ee-automatism = Automatické použití šifrování
+email-e2ee-automatism-pre =
+    { -brand-short-name } pomůže tak, že při psaní e-mailu automaticky zapne nebo vypne šifrování.
+    Automatické zapnutí/vypnutí závisí na dostupnosti platných a přijatých klíčů nebo certifikátů korespondentů.
 email-e2ee-auto-on =
     .label = Automaticky zapne šifrování kdykoli je to možné
+email-e2ee-auto-off =
+    .label = Automaticky vypne šifrování pokud se korespondenti změní a nebo šifrování již není možné
 email-e2ee-auto-off-notify =
     .label = Zobrazit upozornění vždy, když je šifrování automaticky vypnuto
+email-e2ee-automatism-post =
+    Automatická rozhodnutí lze potlačit ručním povolením nebo zakázáním šifrování při psaní zprávy.
+    Poznámka: šifrování je vždy automaticky povoleno při odpovědi na zašifrovanou zprávu.
 
 ## Chat Tab
 

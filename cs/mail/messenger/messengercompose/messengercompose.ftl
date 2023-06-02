@@ -210,6 +210,12 @@ smime-cert-issue-notification-many =
         [few] Pro použití koncového šifrování nejprve odstraňte chyby certifikátů pro { $count } příjemce.
        *[other] Pro použití koncového šifrování nejprve odstraňte chyby certifikátů pro { $count } příjemců.
     }
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Pro použití koncového šifrování nejprve odstraňte chyby klíče pro { $addr }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Pro použití koncového šifrování nejprve odstraňte chyby certifikátu pro { $addr }
 key-notification-disable-encryption =
     .label = Nešifrovat
     .accesskey = N

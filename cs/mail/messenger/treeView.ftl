@@ -57,3 +57,6 @@ tree-list-view-row-spam =
 tree-list-view-row-not-spam =
     .alt = Indikátor stavu nevyžádané pošty
     .title = Zpráva nebyla označena jako nevyžádaná pošta
+tree-list-view-row-read =
+    .alt = Indikátor stavu přečtení
+    .title = Stav přečtení zprávy
