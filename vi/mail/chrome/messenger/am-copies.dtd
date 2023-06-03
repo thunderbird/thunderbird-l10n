@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-copies.xul -->
-
 <!-- extracted from am-copies.xhtml -->
 
 <!ENTITY copyAndFolderTitle.label "Bản sao &amp; thư mục">
@@ -28,7 +26,7 @@
 <!ENTITY sentInOtherFolder.label "Khác:">
 <!ENTITY sentInOtherFolder.accesskey "K">
 <!-- LOCALIZATION NOTE (archivesFolderOn.label): OK to translate this, bug #57440 -->
-<!ENTITY archivesTitle.label "Thư Lưu Trữ">
+<!ENTITY archivesTitle.label "Thư lưu trữ">
 <!ENTITY keepArchives.label "Giữ thư lưu trữ trong:">
 <!ENTITY keepArchives.accesskey "G">
 <!ENTITY archiveHierarchyButton.label "Tùy chọn lưu trữ…">
@@ -37,8 +35,8 @@
 <!ENTITY archivesFolderOn.accesskey "L">
 <!ENTITY archiveInOtherFolder.label "Khác:">
 <!ENTITY archiveInOtherFolder.accesskey "h">
-<!ENTITY specialFolders.label "Nháp và Mẫu">
-<!ENTITY keepDrafts2.label "Giữ tin nhắn nháp trong:">
+<!ENTITY specialFolders.label "Nháp và mẫu">
+<!ENTITY keepDrafts2.label "Giữ thư nháp trong:">
 <!-- LOCALIZATION NOTE (draftsFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY draftsFolderOn.label "Thư mục &quot;Thư nháp&quot; trên:">
 <!ENTITY draftsFolderOn.accesskey "n">

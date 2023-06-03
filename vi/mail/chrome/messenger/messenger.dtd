@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "D">
 <!ENTITY unsubscribeNewsgroupCmd.label "Hủy đăng ký">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Chọn">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Tất cả">
@@ -285,7 +287,7 @@
 <!ENTITY searchAddressesCmd.accesskey "S">
 
 <!-- Go Menu -->
-<!ENTITY goMenu.label "Đi">
+<!ENTITY goMenu.label "Điều hướng">
 <!ENTITY goMenu.accesskey "G">
 <!ENTITY nextMenu.label "Tiếp">
 <!ENTITY nextMenu.accesskey "N">

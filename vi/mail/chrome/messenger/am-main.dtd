@@ -7,11 +7,11 @@
 <!ENTITY accountTitle.label "Cài đặt tài khoản">
 <!ENTITY accountName.label "Tên tài khoản:">
 <!ENTITY accountName.accesskey "n">
-<!ENTITY identityTitle.label "Định danh Mặc định">
+<!ENTITY identityTitle.label "Định danh mặc định">
 <!ENTITY identityDesc.label "Mỗi tài khoản có một định danh, đó là thông tin để người khác nhận ra khi họ đọc thư của bạn.">
-<!ENTITY name.label "Tên của Bạn:">
+<!ENTITY name.label "Tên của bạn:">
 <!ENTITY name.accesskey "B">
-<!ENTITY email.label "Địa chỉ Email:">
+<!ENTITY email.label "Địa chỉ email:">
 <!ENTITY email.accesskey "E">
 <!ENTITY catchAll.label "Trả lời từ danh tính này khi tiêu đề phân phối khớp với:">
 <!ENTITY catchAll.accesskey "d">
