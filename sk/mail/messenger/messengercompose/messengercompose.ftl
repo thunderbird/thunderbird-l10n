@@ -205,6 +205,30 @@ smime-cert-issue-notification-one = Obojstranné šifrovanie vyžaduje vyriešen
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre niekoľkých príjemcov (celkom { $count }).
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre { $count } príjemcu.
+        [few] Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre { $count } príjemcov.
+        [many] Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre { $count } príjemcov.
+       *[other] Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre { $count } príjemcov.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre { $count } príjemcu.
+        [few] Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre { $count } príjemcov.
+        [many] Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre { $count } príjemcov.
+       *[other] Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre { $count } príjemcov.
+    }
 key-notification-disable-encryption =
     .label = Nešifrovať
     .accesskey = N

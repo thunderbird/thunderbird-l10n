@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Dostupné len pre kartu Kalendár
 customize-palette-tasks-specific-title = Dostupné len pre kartu Úlohy
 customize-palette-chat-specific-title = Dostupné len pre kartu Konverzácie
 customize-palette-settings-specific-title = Dostupné len pre kartu Nastavenia
+customize-palette-extension-specific-title = Dostupné len pre toto miesto
 
 ## Unified toolbar customization palette context menu
 
