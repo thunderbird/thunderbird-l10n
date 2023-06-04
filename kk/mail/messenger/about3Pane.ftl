@@ -17,6 +17,12 @@ thread-pane-folder-message-count =
         [one] { $count } хабарлама
        *[other] { $count } хабарлама
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] { $count } таңдалды
+    }
 thread-pane-header-context-table-view =
     .label = Кесте ретінде
 thread-pane-header-context-cards-view =
@@ -158,9 +164,28 @@ folder-pane-header-context-hide =
     .label = Бума панелінің тақырыптамасын жасыру
 folder-pane-show-total-toggle =
     .label = Жалпы хабарламалар тізімін көрсету
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Бума өлшемін көрсету
+folder-pane-mode-context-button =
+    .title = Бума режимінің баптаулары
 folder-pane-mode-context-toggle-compact-mode =
     .label = Ықшам көрініс
     .accesskey = Ы
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 оқылмаған хабарлама
+       *[other] { $count } оқылмаған хабарлама
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 жалпы хабарлама
+       *[other] { $count } жалпы хабарлама
+    }
 
 ## Message thread pane
 

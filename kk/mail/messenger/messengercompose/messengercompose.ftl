@@ -197,6 +197,26 @@ smime-cert-issue-notification-one = Өтпелі шифрлеу үшін { $addr
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Өтпелі шифрлеу үшін { $count } алушы үшін сертификат мәселелерін шешу керек.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Өтпелі шифрлеу үшін { $addr } үшін кілт мәселелерін шешу керек.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Өтпелі шифрлеу үшін { $count } алушы үшін кілт мәселелерін шешу керек.
+       *[other] Өтпелі шифрлеу үшін { $count } алушы үшін кілт мәселелерін шешу керек.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Өтпелі шифрлеу үшін { $addr } үшін сертификат мәселелерін шешу керек.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Өтпелі шифрлеу үшін { $count } алушы үшін сертификат мәселелерін шешу керек.
+       *[other] Өтпелі шифрлеу үшін { $count } алушы үшін сертификат мәселелерін шешу керек.
+    }
 key-notification-disable-encryption =
     .label = Шифрлемеу
     .accesskey = ф
