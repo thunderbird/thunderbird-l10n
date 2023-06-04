@@ -186,19 +186,19 @@ menu-open-key-manager =
 openpgp-key-issue-notification-from = 您並未設定好可從 { $addr } 傳送端到端加密訊息。
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = 端到端加密功能需要解決 { $addr } 的金鑰問題
+openpgp-key-issue-notification-one = 需要解決 { $addr } 的金鑰問題，才可使用端到端加密功能。
 # Variables:
 # $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = 端到端加密功能需要解決 { $count } 位收件者的金鑰問題。
+openpgp-key-issue-notification-many = 需要解決 { $count } 位收件者的金鑰問題，才可使用端到端加密功能。
 # Variables:
 # $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = 端到端加密功能需要解決 { $addr } 的憑證問題。
+smime-cert-issue-notification-one = 需要解決 { $addr } 的憑證問題，才可使用端到端加密功能。
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = 端到端加密功能需要解決 { $count } 位收件者的憑證問題。
+smime-cert-issue-notification-many = 需要解決 { $count } 位收件者的憑證問題，才可使用端到端加密功能。
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-single = 需要解決 { $addr } 的金鑰問題才可使用端到端加密功能。
+openpgp-key-issue-notification-single = 需要解決 { $addr } 的金鑰問題，才可使用端到端加密功能。
 # Variables:
 # $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-multi =
