@@ -7,9 +7,7 @@ account-setup-tab-title = 账户设置
 ## Header
 
 account-setup-title = 设置现有的电子邮件地址
-account-setup-description =
-    若要使用您现有的电子邮件地址，请填写您的凭据。<br/>
-    { -brand-product-name } 将会自动查询可用并推荐使用的服务器配置。
+account-setup-description = 若要使用您现有的电子邮件地址，请填写您的凭据。
 account-setup-secondary-description = { -brand-product-name } 将自动搜索可用的和推荐的服务器配置。
 account-setup-success-title = 成功创建账户！
 account-setup-success-description = 您可以在 { -brand-short-name } 使用此账户了。
