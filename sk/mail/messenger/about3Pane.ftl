@@ -19,6 +19,15 @@ thread-pane-folder-message-count =
         [many] { $count } správ
        *[other] { $count } správ
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } označená
+        [few] { $count } označené
+        [many] { $count } označených
+       *[other] { $count } označených
+    }
 thread-pane-header-context-table-view =
     .label = Zobrazenie tabuľky
 thread-pane-header-context-cards-view =
@@ -161,9 +170,32 @@ folder-pane-header-context-hide =
     .label = Skryť hlavičku panela priečinkov
 folder-pane-show-total-toggle =
     .label = Zobraziť celkový počet správ
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Zobraziť veľkosť priečinkov
+folder-pane-mode-context-button =
+    .title = Možnosti režimu priečinkov
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktné zobrazenie
     .accesskey = K
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] Jedna neprečítaná správa
+        [few] { $count } neprečítané správy
+        [many] { $count } neprečítaných správ
+       *[other] { $count } neprečítaných správ
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Celkovo jedna správa
+        [few] Celkovo { $count } správy
+        [many] Celkovo { $count } správ
+       *[other] Celkovo { $count } správ
+    }
 
 ## Message thread pane
 
