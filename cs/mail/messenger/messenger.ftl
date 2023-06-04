@@ -150,6 +150,7 @@ menu-edit-delete-messages =
     .label =
         { $count ->
             [one] Smazat zprávu
+            [few] Smazat označené zprávy
            *[other] Smazat označené zprávy
         }
     .accesskey = m
@@ -159,6 +160,7 @@ menu-edit-undelete-messages =
     .label =
         { $count ->
             [one] Obnovit zprávu
+            [few] Obnovit vybrané smazané zprávy
            *[other] Obnovit vybrané smazané zprávy
         }
     .accesskey = n
@@ -208,6 +210,7 @@ mail-context-undelete-messages =
     .label =
         { $count ->
             [one] Obnovit zprávu
+            [few] Obnovit vybrané smazané zprávy
            *[other] Obnovit vybrané smazané zprávy
         }
 context-menu-decrypt-to-folder2 =
