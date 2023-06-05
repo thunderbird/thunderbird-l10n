@@ -37,6 +37,9 @@ addons-and-themes-toolbarbutton =
 
 ## Folder Toolbar Header Popup
 
+show-tags-folders-label =
+    .label = Պիտակներ
+    .accesskey = T
 
 ## Menu
 
@@ -127,4 +130,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
