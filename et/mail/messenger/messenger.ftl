@@ -84,6 +84,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Hiljutised kaustad
     .accesskey = i
+show-tags-folders-label =
+    .label = Sildid
+    .accesskey = S
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktne vaade
     .accesskey = v
@@ -334,4 +337,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
