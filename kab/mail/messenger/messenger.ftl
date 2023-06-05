@@ -84,6 +84,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Ikaramen ineggura
     .accesskey = I
+show-tags-folders-label =
+    .label = Tibzimin
+    .accesskey = b
 folder-toolbar-toggle-folder-compact-view =
     .label = Timeẓri yessden
     .accesskey = T
@@ -325,4 +328,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
