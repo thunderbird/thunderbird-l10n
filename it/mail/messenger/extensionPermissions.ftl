@@ -18,6 +18,7 @@ webext-perms-description-experiment = Avere accesso completo e senza restrizioni
 webext-perms-description-messagesImport = Importa messaggi in Thunderbird
 webext-perms-description-messagesModify = Leggere e modificare le email mentre vengono visualizzate
 webext-perms-description-messagesMove = Copia o sposta i tuoi messaggi email (incluso lo spostamento nel cestino)
+webext-perms-description-messagesDelete = Elimina definitivamente i tuoi messaggi email
 webext-perms-description-messagesRead = Leggi i messaggi e contrassegnali o aggiungi un’etichetta
 webext-perms-description-messagesTags = Creare, modificare ed eliminare le etichette dei messaggi
 webext-perms-description-sensitiveDataUpload = Trasferire dati sensibili dell’utente (se è stato consentito l’accesso) a un server remoto per ulteriori elaborazioni
