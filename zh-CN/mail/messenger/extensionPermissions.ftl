@@ -8,9 +8,15 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = 创建、重命名或删除您的邮件账户文件夹
+webext-perms-description-accountsIdentities = 创建、修改或删除您的邮件账户身份
+webext-perms-description-accountsRead = 查看您的邮件账户、身份及邮件夹
 webext-perms-description-addressBooks = 读取和修改您的通讯录与联系人
 webext-perms-description-compose = 在撰写和发送电子邮件时阅读和修改您的电子邮件
 webext-perms-description-compose-send = 代您发送撰写的电子邮件
 webext-perms-description-experiment = 对 { -brand-short-name } 和的您计算机拥有不受限制的完全访问权
+webext-perms-description-messagesImport = 将消息导入 Thunderbird
 webext-perms-description-messagesModify = 阅读并修改向您显示的电子邮件
+webext-perms-description-messagesMove = 复制或移动您的邮件消息（包含将消息移动到垃圾箱）
+webext-perms-description-messagesDelete = 永久删除您的邮件消息
 webext-perms-description-messagesRead = 阅读您的邮件消息，并给其做标记或添加标签
+webext-perms-description-messagesTags = 创建、修改或删除消息标签
