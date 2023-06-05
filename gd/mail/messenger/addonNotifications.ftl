@@ -42,6 +42,8 @@ xpinstall-disabled-button =
 #   $addonName (String): the name of the add-on.
 #   $addonId (String): the ID of add-on.
 addon-install-blocked-by-policy = Chaidh { $addonName } ({ $addonId }) a bhacadh le rianaire an t-siostaim agad.
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-domain-blocked-by-policy = Cha do leig rianair an t-siostaim agad leis an làrach seo iarraidh ort bathar-bog a stàladh air a’ choimpiutair agad.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = Chaidh { $addonName } a chur ri { -brand-short-name }
