@@ -294,6 +294,13 @@ no-reply-reply-anyway-button = 還是要回覆
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = 無法解密全部共 { $total } 封訊息當中的 { $failures } 封訊息，並未複製。
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+       *[other] 無法解密全部共 { $total } 封訊息當中的 { $failures } 封訊息，並未複製。
+    }
 
 ## Spaces toolbar
 
