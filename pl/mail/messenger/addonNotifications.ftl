@@ -82,6 +82,13 @@ addon-confirm-install-unsigned-message =
         [few] Ostrożnie! Strona prosi o zgodę na instalację { $addonCount } niezweryfikowanych dodatków w programie { -brand-short-name }. Kontynuuj na własną odpowiedzialność.
        *[many] Ostrożnie! Strona prosi o zgodę na instalację { $addonCount } niezweryfikowanych dodatków w programie { -brand-short-name }. Kontynuuj na własną odpowiedzialność.
     }
+# Variables:
+#   $addonCount (Number): the number of add-ons being installed (at least 2)
+addon-confirm-install-some-unsigned-message =
+    { $addonCount ->
+        [few] Ostrożnie! Strona prosi o zgodę na instalację { $addonCount } dodatków w programie { -brand-short-name } – niektóre z nich są niezweryfikowane. Kontynuuj na własną odpowiedzialność.
+       *[many] Ostrożnie! Strona prosi o zgodę na instalację { $addonCount } dodatków w programie { -brand-short-name } – niektóre z nich są niezweryfikowane. Kontynuuj na własną odpowiedzialność.
+    }
 
 ## Add-on install errors
 ## Variables:

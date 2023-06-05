@@ -8,8 +8,14 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Tworzenie, zmienianie nazw i usuwanie folderów konta pocztowego
+webext-perms-description-accountsIdentities = Tworzenie, modyfikowanie i usuwanie tożsamości konta pocztowego
+webext-perms-description-accountsRead = Wgląd do kont pocztowych, ich tożsamości i folderów
 webext-perms-description-addressBooks = Odczytywanie i zmienianie książek adresowych i wizytówek
 webext-perms-description-compose = Odczytywanie i modyfikowanie wiadomości e-mail podczas ich tworzenia i wysyłania
+webext-perms-description-compose-send = Wysyłanie napisanych wiadomości e-mail w imieniu użytkownika
 webext-perms-description-experiment = Pełny, nieograniczony dostęp do programu { -brand-short-name } i komputera
+webext-perms-description-messagesImport = Importowanie wiadomości do programu Thunderbird
 webext-perms-description-messagesModify = Odczytywanie i modyfikowanie wiadomości e-mail podczas ich wyświetlania
+webext-perms-description-messagesMove = Kopiowanie i przenoszenie wiadomości e-mail (w tym przenoszenie ich do kosza)
+webext-perms-description-messagesDelete = Trwałe usuwanie wiadomości e-mail
 webext-perms-description-messagesRead = Odczytywanie wiadomości e-mail oraz ich oznaczanie i dodawanie etykiet
