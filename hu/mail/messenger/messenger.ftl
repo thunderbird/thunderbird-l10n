@@ -269,7 +269,7 @@ toolbar-context-menu-remove-extension =
 
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
-addon-removal-title = Eltávoltja a következőt: { $name }?
+addon-removal-title = Eltávolítja a következőt: { $name }?
 addon-removal-confirmation-button = Eltávolítás
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
@@ -295,6 +295,14 @@ no-reply-reply-anyway-button = Válasz mindenképp
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } / { $total } üzenetet nem sikerült visszafejteni, és nem lettek másolva.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } / { $total } üzenetet nem sikerült visszafejteni, és nem lett másolva.
+       *[other] { $failures } / { $total } üzenetet nem sikerült visszafejteni, és nem lettek másolva.
+    }
 
 ## Spaces toolbar
 
