@@ -300,8 +300,8 @@ decrypt-and-copy-failures = { $failures } des { $total } messages n’ont pas pu
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures-multiple =
     { $failures ->
-        [one] { $failures } des { $total } messages n’ont pas pu être déchiffrés et n’ont pas été copiés.
-       *[other] { $failures } des { $total } messages n’ont pas pu être déchiffrés et n’ont pas été copiés.
+        [one] { $failures } message sur { $total } n’a pas pu être déchiffré et n’a pas été copié.
+       *[other] { $failures }  messages sur { $total } n’ont pas pu être déchiffrés et n’ont pas été copiés.
     }
 
 ## Spaces toolbar
