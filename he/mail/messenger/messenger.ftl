@@ -61,6 +61,9 @@ folder-toolbar-hide-toolbar-toolbarbutton =
 show-all-folders-label =
     .label = כל התיקיות
     .accesskey = כ
+show-tags-folders-label =
+    .label = תווית
+    .accesskey = ת
 
 ## Menu
 
@@ -181,4 +184,7 @@ quick-filter-bar-show =
     .key = ס
 
 ## OpenPGP
+
+
+## Quota panel.
 
