@@ -21,3 +21,4 @@ webext-perms-description-messagesMove = Copïo neu symud eich negeseuon e-bost (
 webext-perms-description-messagesDelete = Dileu eich negeseuon e-bost yn barhaol
 webext-perms-description-messagesRead = Darllenwch eich negeseuon e-bost a'u marcio neu eu tagio
 webext-perms-description-messagesTags = Creu, addasu a dileu tagiau neges
+webext-perms-description-sensitiveDataUpload = Trosglwyddo data defnyddwyr sensitif (os yw mynediad wedi'i ganiatáu) i weinydd pell i'w brosesu ymhellach
