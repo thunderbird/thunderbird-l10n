@@ -30,6 +30,9 @@ about-rights-notification-text = { -brand-short-name } adalah perangkat lunak be
 
 ## Folder Toolbar Header Popup
 
+show-tags-folders-label =
+    .label = Tag
+    .accesskey = T
 
 ## Menu
 
@@ -118,4 +121,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
