@@ -13,6 +13,7 @@ webext-perms-description-accountsRead = Consulte as suas contas de e-mail, as re
 webext-perms-description-addressBooks = Ler e modificar os seus livros de endereços e contactos
 webext-perms-description-compose = Leia e modifique as suas mensagens de e-mail enquanto as redige e as envia
 webext-perms-description-compose-send = Enviar mensagens de e-mail redigidas em seu nome
+webext-perms-description-compose-save = Guarde mensagens de e-mail compostas como rascunhos ou modelos
 webext-perms-description-experiment = Tenha acesso completo e sem restrições a { -brand-short-name } e ao seu computador
 webext-perms-description-messagesModify = Leia e modifique as suas mensagens de e-mail à medida que lhe vão sendo apresentadas
 webext-perms-description-messagesMove = Copiar ou mover as suas mensagens de e-mail (incluindo movê-las para a pasta do lixo)
