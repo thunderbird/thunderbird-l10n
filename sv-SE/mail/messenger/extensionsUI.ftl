@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Skadliga tillägg kan stjäla din privata information eller äventyra din dator. Installera bara detta tillägg om du litar på källan.
 webext-perms-learn-more = Läs mer
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } har lagts till.

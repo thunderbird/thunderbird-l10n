@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Tillåt aldrig
     .accesskey = a
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Rapportera misstänkt webbplats
+    .accesskey = R
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Den här webbplatsen begär åtkomst till dina MIDI-enheter (Musical Instrument Digital Interface). Enhetsåtkomst kan aktiveras genom att installera ett tillägg.
+site-permission-install-first-prompt-midi-message = Denna åtkomst är inte garanterad säker. Fortsätt bara om du litar på den här webbplatsen.
 
 ##
 
@@ -44,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) är blockerad av din systemadministratör.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Din systemadministratör förhindrade den här webbplatsen från att be dig installera programvara på din dator.
+addon-install-full-screen-blocked = Tilläggsinstallation är inte tillåten när den är i eller innan fullskärmsläge.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } har lagts till { -brand-short-name }
@@ -53,6 +61,14 @@ webext-perms-update-menu-item = { $addonName } kräver nya behörigheter
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Ta bort { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Ta bort { $name } från { -brand-shorter-name }?
+addon-removal-button = Ta bort
+addon-removal-abuse-report-checkbox = Rapportera detta tillägg till { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -94,6 +110,7 @@ addon-install-error-incorrect-hash = Tillägget kunde inte installeras eftersom 
 addon-install-error-corrupt-file = Tillägget som hämtats från den här webbplatsen kunde inte installeras eftersom det verkar vara skadat.
 addon-install-error-file-access = { $addonName } kunde inte installeras eftersom { -brand-short-name } inte kan ändra den nödvändiga filen.
 addon-install-error-not-signed = { -brand-short-name } har förhindrat den här webbplatsen från att installera en ej verifierad tillägg.
+addon-install-error-invalid-domain = Tillägget { $addonName } kan inte installeras från den här platsen.
 addon-local-install-error-network-failure = Detta tillägg kunde inte installeras på grund av ett filsystemfel.
 addon-local-install-error-incorrect-hash = Detta tillägg kunde inte installeras eftersom den inte matchar tillägget { -brand-short-name } som förväntas.
 addon-local-install-error-corrupt-file = Det här tillägget kunde inte installeras eftersom det verkar vara skadat.

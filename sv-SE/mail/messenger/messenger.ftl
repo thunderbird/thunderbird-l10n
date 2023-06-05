@@ -295,6 +295,14 @@ no-reply-reply-anyway-button = Svara ändå
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } av { $total } meddelanden kunde inte dekrypteras och kopierades inte.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } av { $total } meddelanden kunde inte dekrypteras och kopierades inte.
+       *[other] { $failures } av { $total } meddelanden kunde inte dekrypteras och kopierades inte.
+    }
 
 ## Spaces toolbar
 
