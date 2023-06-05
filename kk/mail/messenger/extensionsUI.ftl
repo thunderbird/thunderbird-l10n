@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 webext-experiment-warning = Зиянкес қосымшалар сіздің жеке деректеріңізді ұрлай алады. Бұл қосымшаны тек шыққан көзіне сенсеңіз, орнатуға болады.
+webext-perms-learn-more = Көбірек білу
