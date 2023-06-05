@@ -31,6 +31,9 @@ messenger-window-close-button =
 
 ## Folder Toolbar Header Popup
 
+show-tags-folders-label =
+    .label = Меткі
+    .accesskey = М
 
 ## Menu
 
@@ -121,4 +124,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
