@@ -121,6 +121,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Thư mục gần đây
     .accesskey = R
+show-tags-folders-label =
+    .label = Nhãn
+    .accesskey = T
 folder-toolbar-toggle-folder-compact-view =
     .label = Chế độ xem thu gọn
     .accesskey = C
@@ -389,3 +392,6 @@ quick-filter-bar-show =
 ## OpenPGP
 
 openpgp-forget = Quên cụm mật khẩu OpenPGP
+
+## Quota panel.
+
