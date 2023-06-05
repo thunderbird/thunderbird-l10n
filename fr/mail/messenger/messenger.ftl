@@ -295,6 +295,14 @@ no-reply-reply-anyway-button = Répondre quand même
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } des { $total } messages n’ont pas pu être déchiffrés et n’ont pas été copiés.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } des { $total } messages n’ont pas pu être déchiffrés et n’ont pas été copiés.
+       *[other] { $failures } des { $total } messages n’ont pas pu être déchiffrés et n’ont pas été copiés.
+    }
 
 ## Spaces toolbar
 
