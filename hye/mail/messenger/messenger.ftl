@@ -84,6 +84,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Վերջին բացուած պանակները
     .accesskey = Վ
+show-tags-folders-label =
+    .label = Պիտակներ
+    .accesskey = Պ
 folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
@@ -308,4 +311,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
