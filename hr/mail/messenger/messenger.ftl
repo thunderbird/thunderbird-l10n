@@ -85,6 +85,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Nedavne mape
     .accesskey = N
+show-tags-folders-label =
+    .label = Oznake
+    .accesskey = z
 folder-toolbar-toggle-folder-compact-view =
     .label = Zbijeni prikaz
     .accesskey = Z
@@ -340,4 +343,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
