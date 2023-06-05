@@ -8,8 +8,10 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Cruthaich, ath-ainmich no sguab às pasganan a’ chunntais phuist agad
+webext-perms-description-accountsIdentities = Cruthaich, atharraich no sguab às dearbh-aithnean nan cunntasan puist agad
 webext-perms-description-addressBooks = na leabhraichean-sheòlaidhean is an luchd-aithne agad a leughadh is atharrachadh
 webext-perms-description-compose = Na teachdaireachdan puist-d agad a leughadh is atharrachadh mar a sgrìobhas is mar a chuireas tu iad
+webext-perms-description-compose-send = Puist-d a sgrìobh thu a chur às do leth
 webext-perms-description-experiment = Làn-inntrigeadh gun chuingeachadh dha { -brand-short-name } agus dhan choimpiutair agad
 webext-perms-description-messagesModify = Na teachdaireachdan puist-d agad a leughadh is atharrachadh mar a thèid an taisbeanadh dhut
 webext-perms-description-messagesRead = Leugh na teachdaireachdan puist-d is comharraich no tagaich iad
