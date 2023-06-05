@@ -8,3 +8,4 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Направите, преименујте или избришите фасцикле вашег налога е-поште
+webext-perms-description-messagesTags = Стварајте, мењајте или бришите ознаке порука
