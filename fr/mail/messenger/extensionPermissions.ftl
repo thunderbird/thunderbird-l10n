@@ -15,3 +15,4 @@ webext-perms-description-experiment = Avoir un accès complet et illimité à { 
 webext-perms-description-messagesImport = Importer des messages dans Thunderbird
 webext-perms-description-messagesModify = Lire et modifier vos messages au moment où ils sont affichés
 webext-perms-description-messagesMove = Copier ou déplacer vos messages (y compris pour les mettre dans la corbeille)
+webext-perms-description-messagesTags = Créer, modifier et supprimer des étiquettes de messages
