@@ -2,14 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+xpinstall-prompt = Το { -brand-short-name } εμπόδισε το αίτημα του ιστοτόπου για εγκατάσταση λογισμικού στον υπολογιστή σας.
 
 ## Variables:
 ##   $host (String): The hostname of the site the add-on is being installed from.
 
 xpinstall-prompt-header = Να επιτραπεί στο { $host } η εγκατάσταση ενός προσθέτου;
+xpinstall-prompt-message = Προσπαθείτε να εγκαταστήσετε ένα πρόσθετο από το { $host }. Βεβαιωθείτε ότι εμπιστεύεστε τον ιστότοπο πριν συνεχίσετε.
 
 ##
 
+xpinstall-prompt-header-unknown = Να επιτραπεί σε έναν άγνωστο ιστότοπο η εγκατάσταση ενός προσθέτου;
+xpinstall-prompt-message-unknown = Προσπαθείτε να εγκαταστήσετε ένα πρόσθετο από έναν άγνωστο ιστότοπο. Βεβαιωθείτε ότι εμπιστεύεστε αυτό τον ιστότοπο πριν συνεχίσετε.
+xpinstall-prompt-dont-allow =
+    .label = Απόρριψη
+    .accesskey = π
+xpinstall-prompt-never-allow =
+    .label = Οριστική απόρριψη
+    .accesskey = Ο
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -27,6 +37,13 @@ xpinstall-disabled = Η εγκατάσταση λογισμικού είναι �
 xpinstall-disabled-button =
     .label = Ενεργοποίηση
     .accesskey = ν
+# This message is shown when the installation of an add-on is blocked by enterprise policy.
+# Variables:
+#   $addonName (String): the name of the add-on.
+#   $addonId (String): the ID of add-on.
+addon-install-blocked-by-policy = Το { $addonName } ({ $addonId }) έχει αποκλειστεί από τον διαχειριστή του συστήματός σας.
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-domain-blocked-by-policy = Ο διαχειριστής του συστήματός σας εμπόδισε την ερώτηση αυτού του ιστοτόπου για εγκατάσταση λογισμικού στον υπολογιστή σας.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = Το { $addonName } προστέθηκε στο { -brand-short-name }
@@ -36,6 +53,13 @@ webext-perms-update-menu-item = Το { $addonName } απαιτεί νέα δικ
 
 ## Add-on removal warning
 
+# Variables:
+#   $addonCount (Number): the number of add-ons being downloaded
+addon-downloading-and-verifying =
+    { $addonCount ->
+        [one] Λήψη και επαλήθευση του προσθέτου…
+       *[other] Λήψη και επαλήθευση { $addonCount } προσθέτων…
+    }
 addon-download-verifying = Επαλήθευση
 addon-install-cancel-button =
     .label = Ακύρωση
@@ -47,14 +71,34 @@ addon-install-accept-button =
 ## Variables:
 ##   $addonCount (Number): the number of add-ons being installed
 
+addon-confirm-install-message =
+    { $addonCount ->
+        [one] Ο ιστότοπος θέλει να εγκαταστήσει ένα πρόσθετο στο { -brand-short-name }:
+       *[other] Ο ιστότοπος θέλει να εγκαταστήσει { $addonCount } πρόσθετα στο { -brand-short-name }:
+    }
+addon-confirm-install-unsigned-message =
+    { $addonCount ->
+        [one] Προσοχή: Ο ιστότοπος θέλει να εγκαταστήσει ένα μη επαληθευμένο πρόσθετο στο { -brand-short-name }. Συνεχίστε με δική σας ευθύνη.
+       *[other] Προσοχή: Ο ιστότοπος θέλει να εγκαταστήσει { $addonCount } μη επαληθευμένα πρόσθετα στο { -brand-short-name }. Συνεχίστε με δική σας ευθύνη.
+    }
+# Variables:
+#   $addonCount (Number): the number of add-ons being installed (at least 2)
+addon-confirm-install-some-unsigned-message = Προσοχή: Ο ιστότοπος θέλει να εγκαταστήσει { $addonCount } πρόσθετα στο { -brand-short-name }, μερικά από τα οποία δεν είναι επαληθευμένα. Συνεχίστε με δική σας ευθύνη.
 
 ## Add-on install errors
 ## Variables:
 ##   $addonName (String): the add-on name.
 
 addon-install-error-network-failure = Δεν ήταν δυνατή η λήψη του προσθέτου λόγω αποτυχίας σύνδεσης.
+addon-install-error-incorrect-hash = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή δεν συμφωνεί με το αναμενόμενο πρόσθετο { -brand-short-name }.
+addon-install-error-corrupt-file = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου που ελήφθη από τον ιστότοπο επειδή φαίνεται να έχει καταστραφεί.
 addon-install-error-file-access = Το { $addonName } δεν ήταν δυνατό να εγκατασταθεί, επειδή το { -brand-short-name } δεν μπόρεσε να τροποποιήσει το απαιτούμενο αρχείο.
+addon-install-error-not-signed = Το { -brand-short-name } εμπόδισε την εγκατάσταση ενός μη επαληθευμένου προσθέτου από τον ιστότοπο.
+addon-local-install-error-network-failure = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου λόγω σφάλματος στο σύστημα αρχείων.
+addon-local-install-error-incorrect-hash = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή δεν συμφωνεί με το αναμενόμενο πρόσθετο { -brand-short-name }.
+addon-local-install-error-corrupt-file = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή φαίνεται να έχει καταστραφεί.
 addon-local-install-error-file-access = Το { $addonName } δεν ήταν δυνατό να εγκατασταθεί, επειδή το { -brand-short-name } δεν μπόρεσε να τροποποιήσει το απαιτούμενο αρχείο.
+addon-local-install-error-not-signed = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή δεν έχει επαληθευτεί.
 # Variables:
 #   $appVersion (String): the application version.
 addon-install-error-incompatible = Δεν ήταν δυνατή η εγκατάσταση του { $addonName } γιατί δεν είναι συμβατό με το { -brand-short-name } { $appVersion }.
