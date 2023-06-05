@@ -5,6 +5,7 @@
 
 ## Message List Header Bar
 
+quick-filter-button-label = Snøggfilter
 
 ## Quick Filter Bar
 
@@ -235,9 +236,13 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Bruke endringane no?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Bruka kolonnane åt denne mappa på { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Bruk kolonnane åt denne mappa på { $name } og den sine undermapper?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Bruk gjeldande mappevising på { $name }?

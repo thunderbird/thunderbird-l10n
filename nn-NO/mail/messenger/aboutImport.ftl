@@ -34,6 +34,7 @@ source-seamonkey = Importer frå ein { app-name-seamonkey }-installasjon
 source-seamonkey-description = Importer innstillingar, filter, meldingar og andre data frå ein { app-name-seamonkey }-profil.
 source-outlook = Importer frå { app-name-outlook }
 source-becky = Importer frå { app-name-becky }
+source-file2 = Importer frå ei fil
 
 ## Import from file selections
 
@@ -98,6 +99,7 @@ summary-pane-start = Start Import
 ## Footer area
 
 footer-help = Treng du hjelp?
+footer-support-forum = Brukarstøtteforum
 
 ## Step navigation on top of the wizard pages
 
