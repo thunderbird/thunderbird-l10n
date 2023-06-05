@@ -122,6 +122,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Πρόσφατοι φάκελοι
     .accesskey = Π
+show-tags-folders-label =
+    .label = Ετικέτες
+    .accesskey = τ
 folder-toolbar-toggle-folder-compact-view =
     .label = Συμπτυγμένη προβολή
     .accesskey = Σ
@@ -390,4 +393,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
