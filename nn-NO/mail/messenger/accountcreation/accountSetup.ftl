@@ -66,12 +66,18 @@ account-setup-button-done = Ferdig
 
 ## Notifications
 
+account-setup-looking-up-settings = Undersøkjer konfigurasjonen…
+account-setup-looking-up-settings-guess = Undsersøker konfigurasjonen: Prøver vanlege tenarnamn…
 account-setup-checking-password = Kontrollerer passord…
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-success-settings-db = Fann konfigurasjonen i Mozillas ISP-database.
 
 ## Illustrations
 
 account-setup-step2-image =
     .title = Lastar…
+account-setup-step3-image =
+    .title = Fann konfigurasjonen
 account-setup-step5-image =
     .title = Konto opretta
 account-setup-privacy-footnote2 = Opplysningane dine vert berre lagra lokalt på datamaskina di.
