@@ -14,6 +14,18 @@ xpinstall-prompt-message = Դուք փորձում էք տեղադրել յաւ�
 
 xpinstall-prompt-header-unknown = Թոյլատրե՞լ անյայտ կայքին տեղադրել յաւելում:
 xpinstall-prompt-message-unknown = Դուք փորձում էք յաւելում տեղադրել անյայտ կայքից։ Համոզուէք, որ վստահում էք այս կայքին՝ շարունակելուց առաջ։
+xpinstall-prompt-dont-allow =
+    .label = Չթոյղատրել
+    .accesskey = Չ
+xpinstall-prompt-never-allow =
+    .label = Երբէք չթոյղատրել
+    .accesskey = Ե
+# Accessibility Note:
+# Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
+# See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
+xpinstall-prompt-install =
+    .label = Շարունակել տեղադրումը
+    .accesskey = Շ
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
@@ -49,6 +61,9 @@ addon-downloading-and-verifying =
        *[other] { $addonCount } յաւելումների ներբեռնում եւ ստուգում…
     }
 addon-download-verifying = Ստուգում
+addon-install-cancel-button =
+    .label = Չեղարկել
+    .accesskey = Չ
 addon-install-accept-button =
     .label = Աւելացնել
     .accesskey = Ա
@@ -61,6 +76,11 @@ addon-confirm-install-message =
         [one] Այս կայքը ցանկանում է յաւելում տեղադրել { -brand-short-name }-ում.
        *[other] Այս կայքը ցանկանում է { $addonCount } յաւելում տեղադրել { -brand-short-name }-ում.
     }
+addon-confirm-install-unsigned-message =
+    { $addonCount ->
+        [one] Ուշադրութիւն. Այս կայքը ցանկանում է տեղադրել չստուգուած յաւելում { -brand-short-name }-ում: Վարուէք ըստ սեփական հայեցողութեան:
+       *[other] Ուշադրութիւն. Այս կայքը ցանկանում է տեղադրել { $addonCount } չստուգուած յաւելումներ { -brand-short-name }-ում: Վարուէք ըստ սեփական հայեցողութեան:
+    }
 # Variables:
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
 addon-confirm-install-some-unsigned-message = Ուշադրութիւն. Այս կայքը ցանկանում է տեղադրել { $addonCount } յաւելումներ { -brand-short-name }-ում, որոնց մի մասը ստուգուած չէ: Վարուէք ըստ սեփական հայեցողութեան:
@@ -69,8 +89,16 @@ addon-confirm-install-some-unsigned-message = Ուշադրութիւն. Այս �
 ## Variables:
 ##   $addonName (String): the add-on name.
 
+addon-install-error-network-failure = Յաւելումը չի կարող ներբեռնուել, քանի որ տեղի է ունեցել կապի խափանում:
+addon-install-error-incorrect-hash = Այս յաւելումը չի կարող տեղադրուել, քանի որ այն չի համապատասխանում ակնկալուող { -brand-short-name } յաւելմանը:
+addon-install-error-corrupt-file = Այս կայքից ներբեռնած յաւելումը չի տեղադրուել, քանի որ այն վնասուած է:
 addon-install-error-file-access = { $addonName }-ը չի կարող տեղադրուել, քանի որ { -brand-short-name }-ը չի կարող ձեւափոխել անհրաժեշտ նիշը:
+addon-install-error-not-signed = { -brand-short-name }-ը կանխել է այս կայքից չստուգուած յաւելումների տեղադրումը:
+addon-local-install-error-network-failure = Ընդլայնումը չի կարող տեղակայուել համակարգային սխալի պատճառով։
+addon-local-install-error-incorrect-hash = Այս յաւելումը չի կարող տեղադրուել, քանի որ այն չի համապատասխանում ակնկալուող { -brand-short-name } յաւելմանը:
+addon-local-install-error-corrupt-file = Այս յաւելումը չի կարող տեղակայուել քանի որ այն վնասուած է:
 addon-local-install-error-file-access = Այս յաւելումը չի տեղակայուել, քանի որ { -brand-short-name }֊ը չի կարողանում փոփոխել անհրաժեշտ նիշը:
+addon-local-install-error-not-signed = Այս յաւելումը չի կարող տեղադրուել, քանի որ այն ստուգուած չէ:
 # Variables:
 #   $appVersion (String): the application version.
 addon-install-error-incompatible = { $addonName }-ը չի կարող տեղադրուել, քանի որ համատեղելի չէ { -brand-short-name } { $appVersion }-ի հետ:
