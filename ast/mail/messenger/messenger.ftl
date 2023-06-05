@@ -29,6 +29,9 @@
 
 ## Folder Toolbar Header Popup
 
+show-tags-folders-label =
+    .label = Etiquetes
+    .accesskey = E
 
 ## Menu
 
@@ -117,4 +120,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
