@@ -15,6 +15,7 @@ webext-perms-description-compose = Lee y modifica tus mensajes de correo electr�
 webext-perms-description-compose-send = Enviar mensajes de correo electrónico compuestos en tu nombre
 webext-perms-description-compose-save = Guardar correos redactados como borradores o plantillas
 webext-perms-description-experiment = Dar acceso completo y sin restricciones a { -brand-short-name } y tu computadora
+webext-perms-description-messagesImport = Importar mensajes en Thunderbird
 webext-perms-description-messagesModify = Leer y modificar tus mensajes de correo electrónico a medida que se muestran
 webext-perms-description-messagesMove = Copia o mueve tus mensajes de correo electrónico (incluido moverlos a la carpeta de la papelera)
 webext-perms-description-messagesDelete = Elimina permanentemente tus mensajes de correo electrónico
