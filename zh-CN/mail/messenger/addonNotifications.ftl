@@ -42,6 +42,8 @@ xpinstall-disabled-button =
 #   $addonName (String): the name of the add-on.
 #   $addonId (String): the ID of add-on.
 addon-install-blocked-by-policy = { $addonName }（{ $addonId }）已被系统管理员禁用。
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-domain-blocked-by-policy = 您的系统管理员已阻止此网站在您的计算机上安装软件的请求。
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } 已添加到 { -brand-short-name }
