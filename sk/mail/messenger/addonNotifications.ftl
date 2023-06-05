@@ -19,6 +19,11 @@ xpinstall-prompt-dont-allow =
     .accesskey = N
 xpinstall-prompt-never-allow =
     .label = Nikdy nepovoliť
+    .accesskey = k
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Nahlásiť podozrivú stránku
     .accesskey = N
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Táto stránka požaduje prístup k vašim zariadeniam MIDI (Musical Instrument Digital Interface). Prístup k zariadeniam je možné povoliť inštaláciou doplnku.
+site-permission-install-first-prompt-midi-message = Tento prístup nie je zaručene bezpečný. Pokračujte len vtedy, ak dôverujete tejto stránke.
 
 ##
 
@@ -44,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = Doplnok { $addonName } ({ $addonId }) bol zablokovaný správcom vášho počítača.{ " " }
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Váš správca systému zabránil tejto stránke požiadať vás o inštaláciu softvéru do vášho počítača.
+addon-install-full-screen-blocked = V režime celej obrazovky alebo tesne pred jeho zapnutím nie je inštalácia doplnkov povolená.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = Doplnok { $addonName } bol pridaný do aplikácie { -brand-short-name }
@@ -53,6 +61,14 @@ webext-perms-update-menu-item = Doplnok { $addonName } vyžaduje nové povolenia
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Odstrániť doplnok { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Odstrániť { $name } z { -brand-shorter-name(case: "gen") }?
+addon-removal-button = Odstrániť
+addon-removal-abuse-report-checkbox = Nahlásiť toto rozšírenie spoločnosti { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -88,6 +104,7 @@ addon-confirm-install-unsigned-message =
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
 addon-confirm-install-some-unsigned-message =
     { $addonCount ->
+        [one] Upozornenie: táto stránka sa do prehliadača { -brand-short-name } pokúša nainštalovať doplnok, ktorý nie je overený. Pokračujete na vlastné riziko.
         [few] Upozornenie: táto stránka sa do prehliadača { -brand-short-name } pokúša nainštalovať { $addonCount } doplnky, niektoré z nich nie sú overené. Pokračujete na vlastné riziko.
        *[other] Upozornenie: táto stránka sa do prehliadača { -brand-short-name } pokúša nainštalovať { $addonCount } doplnkov, niektoré z nich nie sú overené. Pokračujete na vlastné riziko.
     }
@@ -101,6 +118,7 @@ addon-install-error-incorrect-hash = Doplnok nemohol byť nainštalovaný, preto
 addon-install-error-corrupt-file = Doplnok stiahnutý z tejto stránky nemohol byť nainštalovaný, pretože je zrejme poškodený.
 addon-install-error-file-access = Doplnok { $addonName } nemohol byť nainštalovaný, pretože { -brand-short-name } nemohol upraviť potrebný súbor.
 addon-install-error-not-signed = { -brand-short-name } zabránil tejto stránke nainštalovať neoverený doplnok.
+addon-install-error-invalid-domain = Doplnok { $addonName } nie je možné nainštalovať z tohto umiestnenia.
 addon-local-install-error-network-failure = Doplnok nemohol byť nainštalovaný kvôli chybe v súborovom systéme.
 addon-local-install-error-incorrect-hash = Tento doplnok nemohol byť nainštalovaný, pretože neodpovedá tomu, čo prehliadač { -brand-short-name } očakával.
 addon-local-install-error-corrupt-file = Doplnok nemohol byť nainštalovaný, pretože je zrejme poškodený.
