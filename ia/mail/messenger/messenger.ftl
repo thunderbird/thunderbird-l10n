@@ -295,6 +295,14 @@ no-reply-reply-anyway-button = Responder comocunque
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } de { $total } messages non pote esser decryptate e non era copiate.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } de { $total } messages non pote esser decryptate e non era copiate.
+       *[other] { $failures } de { $total } messages non pote esser decryptate e non era copiate.
+    }
 
 ## Spaces toolbar
 

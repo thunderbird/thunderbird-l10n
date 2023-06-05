@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Non permitter jammais
     .accesskey = N
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Reportar sito suspecte
+    .accesskey = R
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Iste sito demanda accesso a tu dispositivos MIDI. Le accesso al dispositivo pote esser activate per installation de un additivo.
+site-permission-install-first-prompt-midi-message = Iste accesso non es garantite esser secur. Solo continua si tu te fide de iste sito.
 
 ##
 
@@ -44,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) es blocate per tu administrator de systema.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Tu administrator de systema ha impedite iste sito de demandar te de installar software sur tu computator.
+addon-install-full-screen-blocked = Le installation de additivos non es permittite in modo plen schermo, o ante entrar in illo.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } addite a { -brand-short-name }
@@ -53,6 +61,14 @@ webext-perms-update-menu-item = { $addonName } require nove permissiones
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Remover { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Remover { $name } de { -brand-shorter-name }?
+addon-removal-button = Remover
+addon-removal-abuse-report-checkbox = Reportar iste extension a { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -94,6 +110,7 @@ addon-install-error-incorrect-hash = Le additivo non pote esser installate perqu
 addon-install-error-corrupt-file = Le additivo discargate de iste sito non pote esser installate perque illo pare esser corrumpite.
 addon-install-error-file-access = { $addonName } non pote esser installate perque { -brand-short-name } non pote modificar le file necessari.
 addon-install-error-not-signed = { -brand-short-name } ha impedite a iste sito de installar un additivo non verificate.
+addon-install-error-invalid-domain = Le additivo { $addonName } non pote esser installate ab iste position.
 addon-local-install-error-network-failure = Iste additivo non ha potite esser installate a causa de un error del systema de files.
 addon-local-install-error-incorrect-hash = Le additivo non ha potite esser installate perque illo non corresponde al additivo { -brand-short-name } expectate.
 addon-local-install-error-corrupt-file = Iste additivo non pote esser installate perque illo pare corrupte.

@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Additivos malefic pote robar tu informationes personal o compromitter tu computator. Solmente installa iste additivo si tu confide a su origine.
 webext-perms-learn-more = Saper plus
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } ha essite addite.
