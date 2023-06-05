@@ -8,8 +8,14 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Erstellen, Umbenennen und Löschen von Ordnern von E-Mail-Konten
+webext-perms-description-accountsRead = Auflistung von E-Mail-Konten und deren Identitäten sowie Lesen von deren Ordnern
 webext-perms-description-addressBooks = Auf Adressbücher und deren Kontakte zugreifen und diese bearbeiten
 webext-perms-description-compose = E-Mail-Nachrichten lesen und verändern, während Sie diese schreiben und senden
+webext-perms-description-compose-send = E-Mail-Nachrichten mit Ihren Identitäten senden
+webext-perms-description-compose-save = E-Mail-Nachrichten als Entwürfe oder Vorlagen speichern
 webext-perms-description-experiment = Vollständiger Zugriff auf { -brand-short-name } und Ihren Computer
 webext-perms-description-messagesModify = Lesen von E-Mail-Nachrichten sowie Verändern von deren Darstellung
+webext-perms-description-messagesMove = Kopieren und Verschieben von E-Mail-Nachrichten (einschließlich in den Papierkorb)
+webext-perms-description-messagesDelete = E-Mail-Nachrichten dauerhaft löschen
 webext-perms-description-messagesRead = Lesen von E-Mail-Nachrichten und diese markieren oder mit Schlagwörtern versehen
+webext-perms-description-messagesTags = Erstellen, Bearbeiten und Löschen von Schlagwörten für Nachrichten
