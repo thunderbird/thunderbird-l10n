@@ -8,5 +8,6 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Créer, renommer ou supprimer des dossiers de vos comptes de messagerie
+webext-perms-description-accountsIdentities = Créer, modifier ou supprimer des identités de vos comptes de messagerie
 webext-perms-description-addressBooks = Consulter et modifier vos carnets d’adresses et vos contacts
 webext-perms-description-experiment = Avoir un accès complet et illimité à { -brand-short-name } et à votre ordinateur
