@@ -8,8 +8,16 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Creu, ailenwi neu ddileu ffolderi eich cyfrif e-bost
+webext-perms-description-accountsIdentities = Creu, newid neu ddileu ffolderi eich cyfrif e-bost
+webext-perms-description-accountsRead = Gweld eich cyfrifon e-bost, eu hunaniaeth a'u ffolderi
 webext-perms-description-addressBooks = Darllenwch ac addasu eich llyfrau cyfeiriad a chysylltiadau
 webext-perms-description-compose = Darllenwch ac addasu eich negeseuon e-bost wrth i chi eu cyfansoddi a'u hanfon
+webext-perms-description-compose-send = Anfon negeseuon e-bost wedi'u cyfansoddi ar eich rhan
+webext-perms-description-compose-save = Cadw negeseuon e-bost wedi'u hysgrifennu fel drafftiau neu dempledi
 webext-perms-description-experiment = Meddu ar fynediad llawn, heb gyfyngiad i { -brand-short-name }, a'ch cyfrifiadur
+webext-perms-description-messagesImport = Mewnforio negeseuon i Thunderbird
 webext-perms-description-messagesModify = Darllenwch ac addaswch eich negeseuon e-bost wrth iddyn nhw gael eu dangos i chi
+webext-perms-description-messagesMove = Copïo neu symud eich negeseuon e-bost (gan gynnwys eu symud i'r ffolder sbwriel)
+webext-perms-description-messagesDelete = Dileu eich negeseuon e-bost yn barhaol
 webext-perms-description-messagesRead = Darllenwch eich negeseuon e-bost a'u marcio neu eu tagio
+webext-perms-description-messagesTags = Creu, addasu a dileu tagiau neges

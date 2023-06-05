@@ -14,6 +14,9 @@ xpinstall-prompt-message = Rydych yn ceisio gosod ychwanegyn o { $host }. Gwnewc
 
 xpinstall-prompt-header-unknown = Caniatáu i wefan anhysbys osod ategyn?
 xpinstall-prompt-message-unknown = Rydych yn ceisio gosod ychwanegyn o wefan anhysbys. Gwnewch yn siŵr eich bod yn ymddiried yn y wefan hon cyn parhau.
+xpinstall-prompt-dont-allow =
+    .label = Peidio â Chaniatáu
+    .accesskey = P
 xpinstall-prompt-never-allow =
     .label = Byth Caniatáu
     .accesskey = B
@@ -39,6 +42,8 @@ xpinstall-disabled-button =
 #   $addonName (String): the name of the add-on.
 #   $addonId (String): the ID of add-on.
 addon-install-blocked-by-policy = Mae { $addonName } ({ $addonId }) wedi ei rwystro gan eich gweinyddwr system.
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-domain-blocked-by-policy = Rhwystrodd eich gweinyddwr systemau y wefan hon rhag gofyn i chi osod meddalwedd ar eich cyfrifiadur.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } wedi ei ychwanegu i { -brand-short-name }
