@@ -11,4 +11,5 @@ webext-perms-description-accountsFolders = Crear, renombrar o eliminar las carpe
 webext-perms-description-addressBooks = Leer y modificar tu libreta de direcciones y contactos
 webext-perms-description-compose = Lee y modifica tus mensajes de correo electrónico mientras los redactas y los envías
 webext-perms-description-experiment = Dar acceso completo y sin restricciones a { -brand-short-name } y tu computadora
+webext-perms-description-messagesModify = Leer y modificar tus mensajes de correo electrónico a medida que se muestran
 webext-perms-description-messagesRead = Leer tus mensajes de correo electrónico o etiquetarlos
