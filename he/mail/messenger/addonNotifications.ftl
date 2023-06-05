@@ -33,6 +33,10 @@ xpinstall-prompt-install =
 ##
 
 xpinstall-disabled-locked = התקנת תוכנה נוטרלה על־ידי מנהל המערכת שלך.
+xpinstall-disabled = האפשרות להתקין תוכנה כרגע מנוטרלת. יש ללחוץ על הפעלה ולנסות שוב.
+xpinstall-disabled-button =
+    .label = הפעלה
+    .accesskey = פ
 # This message is shown when the installation of an add-on is blocked by enterprise policy.
 # Variables:
 #   $addonName (String): the name of the add-on.
@@ -54,6 +58,7 @@ addon-downloading-and-verifying =
         [one] בתהליך הורדה ואימות תוספת…
        *[other] בתהליך הורדה ואימות { $addonCount } תוספות…
     }
+addon-download-verifying = מתבצע אימות
 addon-install-cancel-button =
     .label = ביטול
     .accesskey = ב
@@ -87,6 +92,7 @@ addon-install-error-corrupt-file = לא ניתן היה להתקין את התו
 addon-install-error-file-access = לא ניתן היה להתקין את { $addonName } מכיוון של־{ -brand-short-name } אין אפשרות לשנות את הקובץ הנדרש.
 addon-install-error-not-signed = { -brand-short-name } מנע מאתר זה להתקין תוספת לא מאומתת.
 addon-local-install-error-network-failure = לא ניתן היה להתקין תוספת זו עקב שגיאה במערכת הקבצים.
+addon-local-install-error-incorrect-hash = לא ניתן להתקין תוספת זו כיוון שהיא אינה תואמת את התוספת המצופה { -brand-short-name }.
 addon-local-install-error-corrupt-file = לא ניתן היה להתקין תוספת זו מכיוון שהיא ככל הנראה פגומה.
 addon-local-install-error-file-access = לא ניתן היה להתקין את { $addonName } מכיוון של־{ -brand-short-name } אין אפשרות לשנות את הקובץ הנדרש.
 addon-local-install-error-not-signed = לא ניתן היה להתקין תוספת זו מכיוון שהיא לא אומתה.
