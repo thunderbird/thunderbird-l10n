@@ -9,5 +9,9 @@
 
 webext-perms-description-accountsFolders = Créer, renommer ou supprimer des dossiers de vos comptes de messagerie
 webext-perms-description-accountsIdentities = Créer, modifier ou supprimer des identités de vos comptes de messagerie
+webext-perms-description-accountsRead = Voir vos comptes de messagerie, leurs identités et leurs dossiers
 webext-perms-description-addressBooks = Consulter et modifier vos carnets d’adresses et vos contacts
 webext-perms-description-experiment = Avoir un accès complet et illimité à { -brand-short-name } et à votre ordinateur
+webext-perms-description-messagesImport = Importer des messages dans Thunderbird
+webext-perms-description-messagesModify = Lire et modifier vos messages au moment où ils sont affichés
+webext-perms-description-messagesMove = Copier ou déplacer vos messages (y compris pour les mettre dans la corbeille)
