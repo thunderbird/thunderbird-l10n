@@ -30,6 +30,9 @@ about-rights-notification-text = { -brand-short-name } este un software liber ș
 
 ## Folder Toolbar Header Popup
 
+show-tags-folders-label =
+    .label = Etichete
+    .accesskey = t
 
 ## Menu
 
@@ -121,4 +124,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
