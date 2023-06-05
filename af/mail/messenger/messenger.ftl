@@ -29,6 +29,9 @@
 
 ## Folder Toolbar Header Popup
 
+show-tags-folders-label =
+    .label = Merkers
+    .accesskey = M
 
 ## Menu
 
@@ -113,4 +116,7 @@ quick-filter-bar-toggle =
     .accesskey = K
 
 ## OpenPGP
+
+
+## Quota panel.
 
