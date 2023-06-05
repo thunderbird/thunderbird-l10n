@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 webext-experiment-warning = Zlonamjerni dodaci mogu ukrasti vaše privatne podatke ili ugroziti vaše računalo. Instalirajte ovaj dodatak samo ukoliko vjerujete izvoru.
+webext-perms-learn-more = Saznaj više
