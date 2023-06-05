@@ -8,5 +8,13 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = e-posti konto kaustade loomine, ümbernimetamine või kustutamine
+webext-perms-description-accountsIdentities = e-posti kontode identiteetide loomine, muutmine ja kustutamine
+webext-perms-description-accountsRead = e-posti kontode, nende identiteetide ja kaustade nägemine
 webext-perms-description-addressBooks = aadressiraamatute ja kontaktide vaatamine ning muutmine
+webext-perms-description-compose = kirjade lugemine ja muutmine nende koostamise ja saatmise ajal
+webext-perms-description-compose-send = sinu nimel koostatud kirjade saatmine
+webext-perms-description-experiment = täielik ja piiramatu ligipääs rakendusele { -brand-short-name } ja sinu arvutile
+webext-perms-description-messagesModify = kirjade lugemine ja muutmine sulle kuvamise ajal
+webext-perms-description-messagesMove = sinu kirjade kopeerimine või liigutamine (kaasa arvatud nende prügikasti liigutamine)
+webext-perms-description-messagesDelete = sinu kirjade jäädavalt kustutamine
 webext-perms-description-messagesRead = e-kirjade lugemine, märkimine või sildistamine

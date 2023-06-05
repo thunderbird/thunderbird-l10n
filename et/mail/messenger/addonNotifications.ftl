@@ -7,12 +7,25 @@ xpinstall-prompt = { -brand-short-name } takistas sellel veebilehel sinult luba 
 ## Variables:
 ##   $host (String): The hostname of the site the add-on is being installed from.
 
+xpinstall-prompt-header = Kas lubada saidil { $host } lisa paigaldamine?
+xpinstall-prompt-message = Üritad paigaldada lisa saidilt { $host }. Enne jätkamist veendu, et usaldad seda saiti.
 
 ##
 
+xpinstall-prompt-header-unknown = Kas lubada tundmatul saidil lisa paigaldamine?
+xpinstall-prompt-message-unknown = Üritad paigaldada lisa tundmatult saidilt. Enne jätkamist veendu, et usaldad seda saiti.
 xpinstall-prompt-dont-allow =
     .label = Ära luba
     .accesskey = r
+xpinstall-prompt-never-allow =
+    .label = Ära luba mitte kunagi
+    .accesskey = r
+# Accessibility Note:
+# Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
+# See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
+xpinstall-prompt-install =
+    .label = Jätka paigaldamist
+    .accesskey = J
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
@@ -24,6 +37,11 @@ xpinstall-disabled = Tarkvara paigaldamine on praegu keelatud. Klõpsa Luba ja p
 xpinstall-disabled-button =
     .label = Luba
     .accesskey = L
+# This message is shown when the installation of an add-on is blocked by enterprise policy.
+# Variables:
+#   $addonName (String): the name of the add-on.
+#   $addonId (String): the ID of add-on.
+addon-install-blocked-by-policy = Lisa { $addonName } ({ $addonId }) on süsteemiadministraatori poolt blokitud.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { -brand-short-name }ile paigaldati lisa { $addonName }
