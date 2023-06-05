@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 webext-experiment-warning = Els complements maliciosos podrien robar informació privada o posar l'ordinador en risc. Instal·leu aquest complement únicament si confieu en la font.
+webext-perms-learn-more = Més informació
