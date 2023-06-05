@@ -122,6 +122,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Dosje për Të fundit
     .accesskey = f
+show-tags-folders-label =
+    .label = Etiketa
+    .accesskey = E
 folder-toolbar-toggle-folder-compact-view =
     .label = Parje e Ngjeshur
     .accesskey = N
@@ -384,4 +387,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
