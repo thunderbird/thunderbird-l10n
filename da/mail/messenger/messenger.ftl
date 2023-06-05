@@ -84,6 +84,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Seneste mapper
     .accesskey = e
+show-tags-folders-label =
+    .label = Mærkater
+    .accesskey = M
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompakt visning
     .accesskey = K
@@ -343,4 +346,7 @@ quick-filter-bar-show =
     .key = F
 
 ## OpenPGP
+
+
+## Quota panel.
 
