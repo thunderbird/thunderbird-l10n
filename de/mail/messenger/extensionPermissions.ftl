@@ -15,6 +15,7 @@ webext-perms-description-compose = E-Mail-Nachrichten lesen und verändern, wäh
 webext-perms-description-compose-send = E-Mail-Nachrichten mit Ihren Identitäten senden
 webext-perms-description-compose-save = E-Mail-Nachrichten als Entwürfe oder Vorlagen speichern
 webext-perms-description-experiment = Vollständiger Zugriff auf { -brand-short-name } und Ihren Computer
+webext-perms-description-messagesImport = Nachrichten in Thunderbird importieren
 webext-perms-description-messagesModify = Lesen von E-Mail-Nachrichten sowie Verändern von deren Darstellung
 webext-perms-description-messagesMove = Kopieren und Verschieben von E-Mail-Nachrichten (einschließlich in den Papierkorb)
 webext-perms-description-messagesDelete = E-Mail-Nachrichten dauerhaft löschen
