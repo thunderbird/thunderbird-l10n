@@ -122,6 +122,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Azken karpetak
     .accesskey = A
+show-tags-folders-label =
+    .label = Etiketak
+    .accesskey = t
 folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
@@ -384,4 +387,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
