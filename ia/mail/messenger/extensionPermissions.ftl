@@ -9,12 +9,15 @@
 
 webext-perms-description-accountsFolders = Crear, renominar o deler dossiers de tu conto de posta
 webext-perms-description-accountsIdentities = Crear, modificar o deler identitates de tu conto de posta
+webext-perms-description-accountsRead = Vider tu contos de e-mail, lor identitates e lor dossiers
 webext-perms-description-addressBooks = Lege e modifica tu libros de adresses e contactos
 webext-perms-description-compose = Lege e modifica tu messages email durante que tu compone e invia los
 webext-perms-description-compose-send = Inviar messages email per conto tue
 webext-perms-description-compose-save = Salvar le messages email redigite in minutas o modellos
+webext-perms-description-experiment = Haber accesso complete e illimitate a { -brand-short-name } e a tu computator
 webext-perms-description-messagesImport = Importar messages in Thunderbird
 webext-perms-description-messagesModify = Lege e modifica tu messages e-mail durante que illos es monstrate pro te
+webext-perms-description-messagesMove = Copiar o displaciar tu messages de e-mail (incluse jectar los in le corbe a papiro)
 webext-perms-description-messagesDelete = Deler permanentemente tu messages email
 webext-perms-description-messagesRead = Lege tu messages email e marca o etiquetta illos
 webext-perms-description-messagesTags = Crear, modificar e deler tags de message
