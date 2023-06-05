@@ -8,9 +8,15 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Skapa, byt namn på eller ta bort dina mappar för e-postkonton
+webext-perms-description-accountsIdentities = Skapa, ändra eller ta bort dina e-postkontoidentiteter
+webext-perms-description-accountsRead = Se dina e-postkonton, deras identiteter och deras mappar
 webext-perms-description-addressBooks = Läs och ändra dina adressböcker och kontakter
 webext-perms-description-compose = Läs och ändra dina e-postmeddelanden när du skriver och skickar dem
 webext-perms-description-compose-send = Skicka e-postmeddelanden på uppdrag av användaren
 webext-perms-description-experiment = Har full, obegränsad åtkomst till { -brand-short-name } och din dator
 webext-perms-description-messagesModify = Läs och ändra dina e-postmeddelanden när de visas för dig
+webext-perms-description-messagesMove = Kopiera eller flytta dina e-postmeddelanden (inklusive flytta dem till papperskorgen)
+webext-perms-description-messagesDelete = Ta bort dina e-postmeddelanden permanent
 webext-perms-description-messagesRead = Läs dina e-postmeddelanden och markera eller tagga dem
+webext-perms-description-messagesTags = Skapa, ändra och ta bort meddelandetaggar
+webext-perms-description-sensitiveDataUpload = Överför känslig användardata (om åtkomst har beviljats) till en fjärrserver för vidare bearbetning
