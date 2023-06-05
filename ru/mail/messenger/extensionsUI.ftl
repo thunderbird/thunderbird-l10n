@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Вредоносные дополнения могут украсть вашу личную информацию или подвергнуть риску ваш компьютер. Устанавливайте это дополнение, только если вы доверяете его источнику.
 webext-perms-learn-more = Подробнее
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } было добавлено.

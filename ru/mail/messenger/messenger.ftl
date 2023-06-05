@@ -304,6 +304,15 @@ no-reply-reply-anyway-button = Все равно ответить
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } из { $total } сообщений не могли быть расшифрованы и не были скопированы.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } из { $total } сообщений не могло быть расшифровано и не было скопировано.
+        [few] { $failures } из { $total } сообщений не могли быть расшифрованы и не были скопированы.
+       *[many] { $failures } из { $total } сообщений не могли быть расшифрованы и не были скопированы.
+    }
 
 ## Spaces toolbar
 
