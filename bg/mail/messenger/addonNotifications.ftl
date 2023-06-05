@@ -14,6 +14,9 @@ xpinstall-prompt-message = Опитвате се да инсталирате д�
 
 xpinstall-prompt-header-unknown = Може ли неизвестна страница да инсталира добавка?
 xpinstall-prompt-message-unknown = Опитвате се да инсталирате добавка от неизвестна страница. Уверете се, че имате доверие на страницата, преди да продължите.
+xpinstall-prompt-dont-allow =
+    .label = Забраняване
+    .accesskey = З
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
@@ -22,6 +25,9 @@ xpinstall-prompt-message-unknown = Опитвате се да инсталира
 
 xpinstall-disabled-locked = Инсталирането на софтуер е изключено от вашия системен администратор.
 xpinstall-disabled = Инсталирането на софтуер в момента е изключено. Натиснете Включване и опитайте отново.
+xpinstall-disabled-button =
+    .label = Включване
+    .accesskey = В
 # This message is shown when the installation of an add-on is blocked by enterprise policy.
 # Variables:
 #   $addonName (String): the name of the add-on.
@@ -40,4 +46,5 @@ addon-download-verifying = Удостоверяване
 ## Variables:
 ##   $addonName (String): the add-on name.
 
+addon-install-error-network-failure = Добавката не може да бъде изтеглена поради неуспешно установена връзка.
 addon-local-install-error-network-failure = Добавката не може да бъде инсталирана поради грешка във файловата система.
