@@ -30,6 +30,9 @@ about-rights-notification-text = { -brand-short-name } ir bezmaksas un atvērtā
 
 ## Folder Toolbar Header Popup
 
+show-tags-folders-label =
+    .label = Birkas
+    .accesskey = B
 
 ## Menu
 
@@ -118,4 +121,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
