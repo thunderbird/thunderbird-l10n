@@ -84,6 +84,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = უახლესი საქაღალდეები
     .accesskey = უ
+show-tags-folders-label =
+    .label = ჭდეები
+    .accesskey = T
 folder-toolbar-toggle-folder-compact-view =
     .label = შემჭიდროებული ჩვენება
     .accesskey = ჭ
@@ -322,4 +325,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
