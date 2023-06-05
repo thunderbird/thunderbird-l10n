@@ -32,10 +32,18 @@ xpinstall-prompt-install =
 
 ##
 
+xpinstall-disabled-locked = პროგრამების ჩადგმა ამჟამად გამორთულია თქვენი სისტემის ზედამხედველის მიერ.
 xpinstall-disabled = პროგრამების ჩადგმა შეჩერებულია. დააწკაპეთ ჩართვაზე და ხელახლა სცადეთ.
 xpinstall-disabled-button =
     .label = ჩართვა
     .accesskey = რ
+# This message is shown when the installation of an add-on is blocked by enterprise policy.
+# Variables:
+#   $addonName (String): the name of the add-on.
+#   $addonId (String): the ID of add-on.
+addon-install-blocked-by-policy = { $addonName } ({ $addonId }) შეზღუდულია თქვენი სისტემის ზედამხედველის მიერ.
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-domain-blocked-by-policy = თქვენი სისტემის ზედამხედველი უკრძალავს ამ საიტს თქვენს კომპიუტერში პროგრამის დაყენების მოთხოვნას.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } დაემატა { -brand-short-name }-ს

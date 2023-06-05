@@ -7,4 +7,16 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+webext-perms-description-accountsFolders = თქვენი ანგარიშების საქაღალეების შექმნა, გადარქმევა ან გადარქმევა
+webext-perms-description-accountsIdentities = თქვენი ანგარიშების ვინაობის მონაცემთა შექმნა, შესწორება ან წაშლა
+webext-perms-description-accountsRead = თქვენი ფოსტის ანგარიშების, ვინაობის მონაცემებისა და საქაღალდეების ნახვა
 webext-perms-description-addressBooks = მისამართების წიგნაკის ნახვა და შეცვლა
+webext-perms-description-compose = წერილის შედგენისა და გაგზავნისას, მისი ნახვა და ჩასწორება
+webext-perms-description-compose-send = შედგენილი წერილეიბს გაგზავნა თქვენი სახელით
+webext-perms-description-compose-save = შედგენილი წერილების შენახვა წინასწარ ნამუშევრად ან ნიმუშად
+webext-perms-description-experiment = სრული წვდომით, შეუზღუდავად შეძლებს გამოიყენოს { -brand-short-name } და თქვენი კომპიუტერი
+webext-perms-description-messagesModify = ელფოსტის წერილების წაკითხვა და შესწორება მათი გამოჩენისას
+webext-perms-description-messagesMove = თქვენი წერილების ასლის შექმნა და გადაადგილება (სანაგვეში მოთავსებაც)
+webext-perms-description-messagesDelete = თქვენი ელფოსტის წერილების სამუდამოდ წაშლა
+webext-perms-description-messagesRead = თქვენი ელფოსტის წერილების წაკითხვა და მონიშვნა ჭდეები
+webext-perms-description-messagesTags = წერილის ჭდეების შექმნა, შესწორება და წაშლა
