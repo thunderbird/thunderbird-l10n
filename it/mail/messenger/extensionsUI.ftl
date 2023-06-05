@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Un componente aggiuntivo malevolo è in grado di sottrarre informazioni personali o compromettere l’intero computer. Installare questo componente aggiuntivo solo se si ritiene la fonte affidabile.
 webext-perms-learn-more = Ulteriori informazioni
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } è stato installato.
