@@ -2,6 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Variables:
+# $organizer (String) - The participant that cancelled the invitation.
+calendar-invitation-panel-intro-cancel = { $organizer }-ը չեղարկել է՝
+# Variables:
+# $summary (String) - A short summary or title of the event.
+calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Պահպանել
 calendar-invitation-panel-view-button = Տեսք
 calendar-invitation-panel-update-button = Թարմացնել
@@ -12,7 +18,10 @@ calendar-invitation-panel-tentative-button = Միգուցե
 calendar-invitation-panel-more-button = Ավելին
 calendar-invitation-panel-menu-item-save-copy =
     .label = Պահել պատճեն
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Ցույց տալ փոփոխությունները
 calendar-invitation-panel-prop-title-when = Երբ․
+calendar-invitation-panel-prop-title-location = Տեղադրությունը.
 # Variables:
 # $dayOfWeek (String) - The day of the week for a given date.
 # $date (String) - The date example: Tuesday, February 24, 2022.
