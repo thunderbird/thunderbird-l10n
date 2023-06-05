@@ -84,6 +84,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Recent Folders
     .accesskey = R
+show-tags-folders-label =
+    .label = Tags
+    .accesskey = T
 folder-toolbar-toggle-folder-compact-view =
     .label = Compact View
     .accesskey = C
@@ -337,4 +340,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
