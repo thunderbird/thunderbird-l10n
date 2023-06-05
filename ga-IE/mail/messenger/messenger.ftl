@@ -57,6 +57,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Fillteáin is Déanaí
     .accesskey = D
+show-tags-folders-label =
+    .label = Clibeanna
+    .accesskey = C
 folder-toolbar-toggle-folder-compact-view =
     .label = Dlúthamharc
     .accesskey = c
@@ -179,4 +182,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
