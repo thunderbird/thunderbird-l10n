@@ -124,6 +124,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = Pasganan o chionn goirid
     .accesskey = P
+show-tags-folders-label =
+    .label = Tagaichean
+    .accesskey = T
 folder-toolbar-toggle-folder-compact-view =
     .label = Sealladh dùmhail
     .accesskey = S
@@ -394,3 +397,6 @@ quick-filter-bar-show =
 ## OpenPGP
 
 openpgp-forget = Dìochuimhnich abairtean-faire OpenPGP
+
+## Quota panel.
+
