@@ -292,6 +292,14 @@ no-reply-reply-anyway-button = Yine de yanıtla
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $total } iletinin { $failures } tanesinin şifresi çözülemedi ve bu iletiler kopyalanmadı.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $total } iletiden { $failures } tanesinin şifresi çözülemedi ve bu iletiler kopyalanmadı.
+       *[other] { $total } iletiden { $failures } tanesinin şifresi çözülemedi ve bu iletiler kopyalanmadı.
+    }
 
 ## Spaces toolbar
 
@@ -395,3 +403,9 @@ openpgp-forget = OpenPGP parolalarını unut
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = %{ $percent } dolu
+    .title = IMAP kotası: { $usage } (kullanılan) / { $limit } (toplam)
