@@ -630,6 +630,9 @@ email-e2ee-auto-off =
     .label = Alıcılar değiştiğinde ve şifreleme artık mümkün olmadığında şifrelemeyi otomatik olarak devre dışı bırak
 email-e2ee-auto-off-notify =
     .label = Şifreleme otomatik olarak devre dışı bırakıldığında bildirim göster
+email-e2ee-automatism-post =
+    Otomatik kararlar, bir ileti oluşturulurken şifrelemenin manuel olarak etkinleştirilmesi veya devre dışı bırakılmasıyla geçersiz kılınabilir.
+    Not: Şifreli bir iletiye yanıt verilirken şifreleme her zaman otomatik olarak etkinleştirilir.
 
 ## Chat Tab
 
