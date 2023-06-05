@@ -299,6 +299,16 @@ no-reply-reply-anyway-button = Najebać toho wotmołwić
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } z { $total } powěsćow njejsu so dešifrowali a njejsu so kopěrowali.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } z { $total } powěsćow njeje so dešifrowała a njeje so kopěrowała.
+        [two] { $failures } z { $total } powěsćow njejstej so dešifrowałoj a njejstej so kopěrowałoj.
+        [few] { $failures } z { $total } powěsćow njejsu so dešifrowali a njejsu so kopěrowali.
+       *[other] { $failures } z { $total } powěsćow njeje so dešifrowało a njeje so kopěrowało.
+    }
 
 ## Spaces toolbar
 
