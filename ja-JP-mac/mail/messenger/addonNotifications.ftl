@@ -37,9 +37,19 @@ xpinstall-disabled = ソフトウェアのインストールは現在無効に�
 xpinstall-disabled-button =
     .label = 有効にする
     .accesskey = n
+# This message is shown when the installation of an add-on is blocked by enterprise policy.
+# Variables:
+#   $addonName (String): the name of the add-on.
+#   $addonId (String): the ID of add-on.
+addon-install-blocked-by-policy = システム管理者により、{ $addonName } ({ $addonId }) のインストールがブロックされました。
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-domain-blocked-by-policy = システム管理者により、このサイトからコンピューターにソフトウェアをインストールがすることが許可されていません。
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } が { -brand-short-name } に追加されました
+# Variables:
+#   $addonName (String): the localized name of the extension which has been updated.
+webext-perms-update-menu-item = { $addonName } が新たな権限を必要としています
 
 ## Add-on removal warning
 
