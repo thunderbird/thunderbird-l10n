@@ -8,13 +8,16 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Cree, renombre o elimine las carpetas de su cuenta de correo electrónico
+webext-perms-description-accountsIdentities = Crear, modificar o eliminar las identidades de la cuenta de correo
 webext-perms-description-accountsRead = Ver sus cuentas de correo, sus identidades y sus carpetas.
 webext-perms-description-addressBooks = Leer y modificar su libreta de direcciones y contactos
 webext-perms-description-compose = Lea y modifique sus mensajes de correo electrónico mientras los redacta y los envía
 webext-perms-description-compose-send = Enviar mensajes de correo electrónico compuestos en su nombre
 webext-perms-description-compose-save = Guardar correos electrónicos redactados como borradores o plantillas
 webext-perms-description-experiment = Tener acceso completo y sin restricciones a { -brand-short-name } y a su computadora
+webext-perms-description-messagesImport = Importar mensajes en Thunderbird
 webext-perms-description-messagesModify = Leer y modificar sus mensajes de correo electrónico a medida que se le muestran
 webext-perms-description-messagesMove = Copie o mueva sus mensajes de correo electrónico (incluido moverlos a la carpeta de la papelera)
 webext-perms-description-messagesDelete = Eliminar permanentemente sus mensajes de correo electrónico
 webext-perms-description-messagesRead = Lea sus mensajes de correo electrónico y márquelos o etiquételos
+webext-perms-description-messagesTags = Crear, modificar y eliminar etiquetas de mensajes

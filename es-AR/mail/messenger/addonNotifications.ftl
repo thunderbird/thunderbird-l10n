@@ -37,6 +37,13 @@ xpinstall-disabled = La instalación de software está actualmente deshabilitada
 xpinstall-disabled-button =
     .label = Habilitar
     .accesskey = H
+# This message is shown when the installation of an add-on is blocked by enterprise policy.
+# Variables:
+#   $addonName (String): the name of the add-on.
+#   $addonId (String): the ID of add-on.
+addon-install-blocked-by-policy = { $addonName } ({ $addonId }) está bloqueado por el administrador del sistema.
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-domain-blocked-by-policy = El administrador del sistema evitó que este sitio pida instalar software en su computadora.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } agregado a { -brand-short-name }
@@ -74,6 +81,9 @@ addon-confirm-install-unsigned-message =
         [one] Cuidado: este sitio quiere instalar un complemento no verificado en { -brand-short-name }. Proceda bajo su propio riesgo.
        *[other] Cuidado: este sitio quiere instalar los complementos no verificados 2 en { -brand-short-name }. Proceda bajo su propio riesgo.
     }
+# Variables:
+#   $addonCount (Number): the number of add-ons being installed (at least 2)
+addon-confirm-install-some-unsigned-message = Advertencia: Este sitio desea instalar { $addonCount } complementos en { -brand-short-name }, algunos de los cuales no están verificados. Proceda bajo su propio riesgo.
 
 ## Add-on install errors
 ## Variables:
