@@ -15,6 +15,7 @@ webext-perms-description-compose = Læse og redigere dine mails, mens du skriver
 webext-perms-description-compose-send = Sende mails på dine vegne
 webext-perms-description-compose-save = Gemme oprettede meddelelser som kladder eller skabeloner
 webext-perms-description-experiment = Få fuld, uhindret adgang til { -brand-short-name } og din computer
+webext-perms-description-messagesImport = Importer beskeder til Thunderbird
 webext-perms-description-messagesModify = Læse og tilpasse dine meddelelser, når de vises for dig
 webext-perms-description-messagesMove = Kopiere eller flytte dine meddelelser (herunder flytte dem til mappen Papirkurv)
 webext-perms-description-messagesDelete = Permanent slette dine meddelelser
