@@ -8,7 +8,15 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Vytvářet, přejmenovávat či mazat složky vašeho poštovního účtu
+webext-perms-description-accountsIdentities = Vytvářet, upravovat či mazat identity vašeho poštovního účtu
+webext-perms-description-accountsRead = Zobrazovat informace o vašich účtech, jejich identitách a složkách
+webext-perms-description-addressBooks = Číst a upravovat vaše kontakty a složky kontaktů
 webext-perms-description-compose = Číst a upravovat vaše e-mailové zprávy během psaní a odesílání
+webext-perms-description-compose-send = Odesílat vaším jménem e-mailové zprávy
+webext-perms-description-compose-save = Ukládat koncepty a šablony zpráv
 webext-perms-description-experiment = Plný, neomezený přístup k aplikaci { -brand-short-name } a k vašemu počítači
 webext-perms-description-messagesModify = Číst a upravovat vaše e-mailové zprávy během jejich zobrazování
+webext-perms-description-messagesMove = Kopírovat nebo přesouvat e-mailové zprávy, včetně přesouvání do složky koše
+webext-perms-description-messagesDelete = Trvale mazat vaše e-mailové zprávy
 webext-perms-description-messagesRead = Číst vaše e-mailové zprávy a označovat je
+webext-perms-description-messagesTags = Vytvářet, upravovat a mazat štítky zpráv
