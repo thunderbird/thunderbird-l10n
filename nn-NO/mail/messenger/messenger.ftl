@@ -67,6 +67,9 @@ show-all-folders-label =
 show-recent-folders-label =
     .label = Sist brukte mapper
     .accesskey = r
+show-tags-folders-label =
+    .label = Merkelapp
+    .accesskey = M
 
 ## Menu
 
@@ -238,4 +241,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
