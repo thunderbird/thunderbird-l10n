@@ -22,6 +22,9 @@ xpinstall-prompt-message-unknown = Դուք փորձում էք յաւելում
 
 xpinstall-disabled-locked = Ծրագրաշարի տեղադրումը անջատուել է համակարգավարի կողմից։
 xpinstall-disabled = Ծրագրերի տեղադրումը ժամանակաւորապէս անջատուած է: Սեղմէք միացնել եւ կրկին փորձէք:
+xpinstall-disabled-button =
+    .label = Միացնել
+    .accesskey = ի
 # This message is shown when the installation of an add-on is blocked by enterprise policy.
 # Variables:
 #   $addonName (String): the name of the add-on.
