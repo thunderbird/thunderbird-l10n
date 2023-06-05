@@ -29,6 +29,9 @@
 
 ## Folder Toolbar Header Popup
 
+show-tags-folders-label =
+    .label = Етикети
+    .accesskey = т
 
 ## Menu
 
@@ -108,4 +111,7 @@ mail-context-undelete-messages =
 
 
 ## OpenPGP
+
+
+## Quota panel.
 
