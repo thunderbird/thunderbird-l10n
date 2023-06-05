@@ -303,6 +303,18 @@ no-reply-reply-anyway-button = Ateb Beth Bynnag
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [zero] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
+        [one] Ni fu modd dadgryptio { $failures } o { $total } neges ac ni chafodd ei chopïo.
+        [two] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
+        [few] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
+        [many] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
+       *[other] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
+    }
 
 ## Spaces toolbar
 

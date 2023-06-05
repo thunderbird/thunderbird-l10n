@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Gall ychwanegion maleisus ddwyn eich manylion preifat neu gyfaddawdu eich cyfrifiadur. Gosodwch yr ychwanegiad hwn dim ond os ydych yn ymddiried yn y ffynhonnell.
 webext-perms-learn-more = Dysgu rhagor
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = Ychwanegwyd { $addonName }
