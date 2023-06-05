@@ -8,7 +8,16 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Krijoni, riemërtoni, ose fshini dosje llogarish tuajat email-i
+webext-perms-description-accountsIdentities = Krijoni, ndryshoni, ose fshini identitete llogarish tuajat email-i
+webext-perms-description-accountsRead = Shihni llogaritë tuaja email, identitetet e tyre dhe dosjet përkatëse
 webext-perms-description-addressBooks = Të lexojë dhe modifikojë librat tuaj të kontaktit dhe kontaktet tuaja
 webext-perms-description-compose = Lexoni dhe ndryshoni mesazhet tuaj email teksa i hartoni dhe dërgoni ato
+webext-perms-description-compose-send = Dërgoni mesazhe email të hartuar, në emrin tuaj
+webext-perms-description-compose-save = Ruani si skica ose gjedhe mesazhe email të hartuar
+webext-perms-description-experiment = Të ketë hyrje të plotë, të pakufizuar në { -brand-short-name } dhe në kompjuterin tuaj
+webext-perms-description-messagesImport = Importoni mesazhe në Thunderbird
 webext-perms-description-messagesModify = Lexoni dhe ndryshoni mesazhet tuaj email, dora-dorës që ju shfaqen
+webext-perms-description-messagesMove = Kopjoni ose lëvizni mesazhe email tuajat (përfshi kalimin e tyre te dosja e hedhurinave)
+webext-perms-description-messagesDelete = Fshini përgjithmonë mesazhet tuaja email
 webext-perms-description-messagesRead = Lexoni mesazhet tuaj email dhe u vini shenjë ose etiketa
+webext-perms-description-messagesTags = Krijoni, ndryshoni dhe fshini etiketa mesazhesh
