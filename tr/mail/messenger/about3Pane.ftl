@@ -17,6 +17,13 @@ thread-pane-folder-message-count =
         [one] { $count } ileti
        *[other] { $count } ileti
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } ileti seçildi
+       *[other] { $count } ileti seçildi
+    }
 thread-pane-header-context-table-view =
     .label = Tablo görünümü
 thread-pane-header-context-cards-view =
@@ -158,9 +165,28 @@ folder-pane-header-context-hide =
     .label = Dizin bölmesi başlığını gizle
 folder-pane-show-total-toggle =
     .label = Toplam ileti sayısını göster
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Dizin boyutunu göster
+folder-pane-mode-context-button =
+    .title = Dizin modu seçenekleri
 folder-pane-mode-context-toggle-compact-mode =
     .label = Yoğun görünüm
     .accesskey = Y
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 okunmamış ileti
+       *[other] { $count } okunmamış ileti
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Toplam 1 ileti
+       *[other] Toplam { $count } ileti
+    }
 
 ## Message thread pane
 

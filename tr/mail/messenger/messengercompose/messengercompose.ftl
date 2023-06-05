@@ -200,6 +200,26 @@ smime-cert-issue-notification-one = Uçtan uca şifreleme için { $addr } sertif
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Uçtan uca şifreleme için { $count } alıcının sertifika sorunlarını çözmeniz gerekiyor.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Uçtan uca şifreleme için { $addr } anahtar sorunlarını çözmeniz gerekiyor.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Uçtan uca şifreleme için { $count } alıcının anahtar sorunlarını çözmeniz gerekiyor.
+       *[other] Uçtan uca şifreleme için { $count } alıcının anahtar sorunlarını çözmeniz gerekiyor.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Uçtan uca şifreleme için { $addr } sertifika sorunlarını çözmeniz gerekiyor.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Uçtan uca şifreleme için { $count } alıcının sertifika sorunlarını çözmeniz gerekiyor.
+       *[other] Uçtan uca şifreleme için { $count } alıcının sertifika sorunlarını çözmeniz gerekiyor.
+    }
 key-notification-disable-encryption =
     .label = Şifreleme yapma
     .accesskey = f
