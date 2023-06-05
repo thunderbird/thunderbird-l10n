@@ -59,6 +59,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = K'ak'a' taq Yakwuj
     .accesskey = K
+show-tags-folders-label =
+    .label = Taq etal
+    .accesskey = e
 folder-toolbar-toggle-folder-compact-view =
     .label = Molk'ïy Tz'etoj
     .accesskey = M
@@ -223,4 +226,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
