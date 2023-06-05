@@ -300,6 +300,16 @@ no-reply-reply-anyway-button = Aj tak odpovedať
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } z { $total } správ sa nepodarilo dešifrovať a neboli skopírované.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } z { $total } správ sa nepodarilo dešifrovať a nebola skopírovaná.
+        [few] { $failures } z { $total } správ sa nepodarilo dešifrovať a neboli skopírované.
+        [many] { $failures } z { $total } správ sa nepodarilo dešifrovať a neboli skopírované.
+       *[other] { $failures } z { $total } správ sa nepodarilo dešifrovať a neboli skopírované.
+    }
 
 ## Spaces toolbar
 
