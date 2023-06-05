@@ -18,3 +18,4 @@ webext-perms-description-messagesModify = Leer y modificar tus mensajes de corre
 webext-perms-description-messagesMove = Copia o mueve tus mensajes de correo electrónico (incluido moverlos a la carpeta de la papelera)
 webext-perms-description-messagesDelete = Elimina permanentemente tus mensajes de correo electrónico
 webext-perms-description-messagesRead = Leer tus mensajes de correo electrónico o etiquetarlos
+webext-perms-description-sensitiveDataUpload = Transferir datos confidenciales del usuario (si se ha otorgado acceso) a un servidor remoto para su posterior procesamiento
