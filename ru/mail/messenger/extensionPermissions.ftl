@@ -21,3 +21,4 @@ webext-perms-description-messagesMove = Копирование или перем
 webext-perms-description-messagesDelete = Удаление ваших почтовых сообщений без возможности восстановления
 webext-perms-description-messagesRead = Чтение ваших почтовых сообщений и добавление к ним меток
 webext-perms-description-messagesTags = Создание, изменение и удаление меток сообщений
+webext-perms-description-sensitiveDataUpload = Передача конфиденциальных пользовательских данных (если доступ был предоставлен) на удаленный сервер для дальнейшей обработки
