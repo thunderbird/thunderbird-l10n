@@ -8,8 +8,16 @@
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
 webext-perms-description-accountsFolders = Створюйте, перейменовуйте або видаляйте теки облікового запису електронної пошти
+webext-perms-description-accountsIdentities = Створюйте, змінюйте або видаляйте теки облікового запису електронної пошти
+webext-perms-description-accountsRead = Перегляньте свої електронні скриньки, їхні ідентифікаційні дані та теки
 webext-perms-description-addressBooks = Читати й змінювати вашу адресну книгу й контакти
 webext-perms-description-compose = Читайте та змінюйте електронні повідомлення під час їх створення та надсилання
 webext-perms-description-compose-send = Надсилати складені повідомлення електронної пошти від вашого імені
+webext-perms-description-compose-save = Зберегти створені повідомлення електронної пошти до чернеток або шаблонів
+webext-perms-description-messagesImport = Імпорт повідомлень у Thunderbird
 webext-perms-description-messagesModify = Читайте та змінюйте свої повідомлення електронної пошти, коли їх показано вам
+webext-perms-description-messagesMove = Копіюйте або переміщуйте повідомлення е-пошти (включно з переміщенням їх у теку сміття)
+webext-perms-description-messagesDelete = Назавжди видаліть свої повідомлення е-пошти
 webext-perms-description-messagesRead = Читання і додавання позначок до поштових повідомлень
+webext-perms-description-messagesTags = Створюйте, змінюйте та видаляйте мітки повідомлень
+webext-perms-description-sensitiveDataUpload = Передайте конфіденційні дані користувача (якщо доступ надано) на віддалений сервер для подальшої обробки
