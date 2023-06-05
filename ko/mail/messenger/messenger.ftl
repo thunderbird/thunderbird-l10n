@@ -54,6 +54,9 @@ show-smart-folders-label =
 show-recent-folders-label =
     .label = 최근 폴더
     .accesskey = R
+show-tags-folders-label =
+    .label = 태그
+    .accesskey = T
 folder-toolbar-toggle-folder-compact-view =
     .label = 간단히 보기
     .accesskey = C
@@ -145,4 +148,7 @@ quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
+
+
+## Quota panel.
 
