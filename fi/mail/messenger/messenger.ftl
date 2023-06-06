@@ -172,6 +172,10 @@ mail-context-undelete-messages =
 
 other-action-redirect-msg =
     .label = Uudelleenohjaa
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = Käyttäjän { $address } profiilikuva.
 
 ## Message header cutomize panel
 

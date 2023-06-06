@@ -13,6 +13,13 @@ thread-pane-folder-message-count =
         [one] { $count } viesti
        *[other] { $count } viestiä
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } valittu
+       *[other] { $count } valittu
+    }
 
 ## Quick Filter Bar
 
@@ -136,9 +143,28 @@ folder-pane-write-message-button = Uusi viesti
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Näytä "Uusi viesti"
+folder-pane-show-total-toggle =
+    .label = Näytä viestien kokonaismäärä
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Näytä kansion koko
 folder-pane-mode-context-toggle-compact-mode =
     .label = Tiivis näkkymä
     .accesskey = T
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 lukematon viesti
+       *[other] { $count } lukematonta viestiä
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 viesti
+       *[other] { $count } viestiä
+    }
 
 ## Message thread pane
 

@@ -74,6 +74,7 @@ profile-file-picker-archive = Valitse <strong>ZIP</strong>-tiedosto
 profile-file-picker-archive-description = ZIP-tiedoston on oltava pienempi kuin 2 Gt.
 profile-file-picker-archive-title = Valitse zip-tiedosto (pienempi kuin 2 Gt)
 items-pane-title2 = Valitse mitä tuodaan:
+items-pane-directory = Hakemisto:
 items-pane-profile-name = Profiilin nimi:
 items-pane-checkbox-accounts = Tilit ja asetukset
 items-pane-checkbox-address-books = Osoitekirjat
@@ -91,6 +92,7 @@ addr-book-sqlite-file = SQLite-tietokantatiedosto (.sqlite)
 addr-book-mab-file = Mork-tietokantatiedosto (.mab)
 addr-book-file-picker = Valitse osoitekirjatiedosto
 addr-book-csv-field-map-title = Vastaa kenttien nimet
+addr-book-csv-field-map-desc = Valitse lähdekenttiä vastaavat osoitekirjan kentät. Poista valinta niistä kentistä, joita et halua tuoda.
 addr-book-directories-title = Valitse, mihin valitut tiedot tuodaan
 addr-book-directories-pane-source = Lähdetiedosto:
 # $addressBookName (string) - name of the new address book that would be created.
@@ -108,6 +110,7 @@ calendar-items-loading = Ladataan kohteita…
 calendar-items-filter-input =
     .placeholder = Suodata kohteita…
 calendar-select-all-items = Valitse kaikki
+calendar-deselect-all-items = Poista kaikkien valinta
 calendar-target-title = Valitse, mihin valitut kohteet tuodaan.
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = Luo uusi kalenteri nimeltä <strong>"{ $targetCalendar }"</strong>
