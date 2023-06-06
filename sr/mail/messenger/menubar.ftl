@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Заглавље списка порука
+    .accesskey = г
 menu-font-size-label =
     .label = Величина фонта
     .accesskey = о
