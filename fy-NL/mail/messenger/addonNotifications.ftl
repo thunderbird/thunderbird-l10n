@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Nea tastean
     .accesskey = N
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Fertochte website melde
+    .accesskey = m
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Dizze website freget tagong ta jo MIDI-apparaten (Musical Instrument Digital Interface). Tagong ta apparaten kin ynskeakele wurde troch in add-on te ynstallearjen.
+site-permission-install-first-prompt-midi-message = Dizze tagong is net garandearre feilich. Gean allinnich fierder as jo dizze website fertrouwe.
 
 ##
 
@@ -44,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) is blokkearre troch jo systeembehearder.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Jo systeembehearder hat foarkommen dat dizze website jo freget software op jo kompjûter te ynstallearjen.
+addon-install-full-screen-blocked = Add-on-installaasje is net tastien yn of foar it iepenjen fan de modus folslein skerm.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } tafoege oan { -brand-short-name }
@@ -53,6 +61,14 @@ webext-perms-update-menu-item = { $addonName } hat nije tastimmingen nedich
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = { $name } fuortsmite?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = { $name } út { -brand-shorter-name } fuortsmite?
+addon-removal-button = Fuortsmite
+addon-removal-abuse-report-checkbox = Dizze útwreiding rapportearje oan { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -94,6 +110,7 @@ addon-install-error-incorrect-hash = De add-on koe net ynstallearre wurde, omdat
 addon-install-error-corrupt-file = De add-on fan dizze website downloade add-on koe net ynstallearre wurde, omdat dizze skansearre liket.
 addon-install-error-file-access = { $addonName } koe net ynstallearre wurde, omdat { -brand-short-name } it nedige bestân net oanpasse kin.
 addon-install-error-not-signed = { -brand-short-name } hat opkeard dat dizze website in net-ferifiearre add-on ynstallearre hat.
+addon-install-error-invalid-domain = De add-on { $addonName } kin net fan dizze lokaasje ynstallearre wurde.
 addon-local-install-error-network-failure = Dizze add-on koe net ynstallearre wurde, fanwegen in bestânssysteemflater.
 addon-local-install-error-incorrect-hash = Dizze add-on koe net ynstallearre wurde, omdat dizze net oerienkomt mei de ferwachte add-on { -brand-short-name }.
 addon-local-install-error-corrupt-file = Dizze add-on koe net ynstallearre wurde, omdat dizze skansearre liket.
