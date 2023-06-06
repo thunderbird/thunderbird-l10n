@@ -295,6 +295,14 @@ no-reply-reply-anyway-button = Toch antwoorden
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } van { $total } berichten kunnen niet worden ontsleuteld en zijn niet gekopieerd.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } van { $total } berichten kan niet worden ontsleuteld en is niet gekopieerd.
+       *[other] { $failures } van { $total } berichten kunnen niet worden ontsleuteld en zijn niet gekopieerd.
+    }
 
 ## Spaces toolbar
 

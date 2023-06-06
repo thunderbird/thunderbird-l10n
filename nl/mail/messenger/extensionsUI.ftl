@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Kwaadwillende add-ons kunnen uw privégegevens stelen of de controle over uw computer overnemen. Installeer deze add-on alleen als u de bron vertrouwt.
 webext-perms-learn-more = Meer info
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } is toegevoegd.
