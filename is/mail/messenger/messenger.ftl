@@ -295,6 +295,14 @@ no-reply-reply-anyway-button = Svara samt
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Ekki var hægt að afkóða { $failures } af { $total } skilaboðum og þau voru ekki afrituð.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] Ekki var hægt að afkóða { $failures } af { $total } skilaboðum og þau voru ekki afrituð.
+       *[other] Ekki var hægt að afkóða { $failures } af { $total } skilaboðum og þau voru ekki afrituð.
+    }
 
 ## Spaces toolbar
 
