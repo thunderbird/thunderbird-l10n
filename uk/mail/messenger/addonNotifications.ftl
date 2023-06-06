@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Ніколи не дозволяти
     .accesskey = Н
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Повідомити про підозрілий сайт
+    .accesskey = П
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Цей сайт запитує доступ до ваших пристроїв MIDI (цифровий інтерфейс музичних інструментів). Можна надати доступ до пристроїв, установивши додаток.
+site-permission-install-first-prompt-midi-message = Неможливо гарантувати безпеку цього доступу. Продовжуйте, лише якщо ви довіряєте цьому сайту.
 
 ##
 
@@ -44,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) заблоковано вашим системним адміністратором.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Ваш системний адміністратор заблокував запит на встановлення програмного забезпечення з цього сайту на ваш комп'ютер.
+addon-install-full-screen-blocked = Встановлення додатків не дозволено під час або перед початком повноекранного режиму.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } додано до { -brand-short-name }
@@ -53,6 +61,14 @@ webext-perms-update-menu-item = { $addonName } вимагає нових доз�
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Вилучити { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Вилучити { $name } з { -brand-shorter-name }?
+addon-removal-button = Вилучити
+addon-removal-abuse-report-checkbox = Поскаржитись на це розширення до { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -102,6 +118,7 @@ addon-install-error-incorrect-hash = Додаток не може бути вс�
 addon-install-error-corrupt-file = Додаток, завантажений з цього сайту, не може бути встановлений, тому що він виглядає пошкодженим.
 addon-install-error-file-access = { $addonName } не вдалося встановити, тому що { -brand-short-name } не може змінити необхідний файл.
 addon-install-error-not-signed = { -brand-short-name } заблокував встановлення неперевіреного додатка з цього сайту.
+addon-install-error-invalid-domain = Неможливо встановити додаток { $addonName } звідси.
 addon-local-install-error-network-failure = Цей додаток не може бути встановлений через помилку файлової системи.
 addon-local-install-error-incorrect-hash = Цей додаток не може бути встановлений, тому що він не відповідає додатку, очікуваному { -brand-short-name }.
 addon-local-install-error-corrupt-file = Цей додаток не може бути встановлений, тому що він виглядає пошкодженим.

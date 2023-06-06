@@ -303,6 +303,15 @@ no-reply-reply-anyway-button = Все одно відровісти
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Не вдалося розшифрувати та скопіювати { $failures } з { $total } повідомлень.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] Не вдалося розшифрувати та скопіювати { $failures } з { $total } повідомлення.
+        [few] Не вдалося розшифрувати та скопіювати { $failures } з { $total } повідомлень.
+       *[many] Не вдалося розшифрувати та скопіювати { $failures } з { $total } повідомлень.
+    }
 
 ## Spaces toolbar
 

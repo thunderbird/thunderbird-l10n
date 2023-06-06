@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Зловмисні додатки можуть викрадати вашу особисту інформацію та становлять загрозу для вашого комп'ютера. Встановлюйте цей додаток лише якщо ви довіряєте його походженню.
 webext-perms-learn-more = Докладніше
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } додано.
