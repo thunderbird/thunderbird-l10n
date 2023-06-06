@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Không bao giờ cho phép
     .accesskey = N
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Báo cáo trang web đáng ngờ
+    .accesskey = R
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Trang web này đang yêu cầu quyền truy cập vào các thiết bị MIDI (Giao diện kỹ thuật số dành cho nhạc cụ) của bạn. Có thể bật quyền truy cập thiết bị bằng cách cài đặt tiện ích mở rộng.
+site-permission-install-first-prompt-midi-message = Lần truy cập này không được đảm bảo an toàn. Chỉ tiếp tục nếu bạn tin tưởng trang web này.
 
 ##
 
@@ -44,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) bị chặn bởi quản trị viên hệ thống của bạn.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Quản trị viên hệ thống của bạn đã ngăn trang web này yêu cầu bạn cài đặt phần mềm trên máy tính của bạn.
+addon-install-full-screen-blocked = Cài đặt tiện ích không được phép trong khi ở hoặc trước khi vào chế độ toàn màn hình.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } đã thêm vào { -brand-short-name }
@@ -53,6 +61,14 @@ webext-perms-update-menu-item = { $addonName } yêu cầu quyền mới
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Xóa { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Xóa { $name } khỏi { -brand-shorter-name }?
+addon-removal-button = Xóa
+addon-removal-abuse-report-checkbox = Báo cáo tiện ích mở rộng này cho { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying = Đang tải và xác thực { $addonCount } tiện ích…
@@ -82,6 +98,7 @@ addon-install-error-incorrect-hash = Không thể cài đặt tiện ích này v
 addon-install-error-corrupt-file = Không thể cài đặt tiện ích được tải từ trang này vì có vẻ nó đã bị hỏng.
 addon-install-error-file-access = { $addonName } không thể cài đặt vì { -brand-short-name } không thể sửa đổi tập tin cần thiết.
 addon-install-error-not-signed = { -brand-short-name } không cho phép trang này cài đặt một tiện ích chưa được xác thực.
+addon-install-error-invalid-domain = Không thể cài đặt tiện ích { $addonName } từ địa chỉ này.
 addon-local-install-error-network-failure = Không thể cài đặt tiện ích này vì có lỗi hệ thống tập tin.
 addon-local-install-error-incorrect-hash = Không thể cài đặt tiện ích này vì nó không khớp với tiện ích { -brand-short-name } được mong đợi.
 addon-local-install-error-corrupt-file = Không thể cài đặt tiện ích này vì có vẻ như nó đã bị hỏng.
