@@ -168,7 +168,7 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [zero] Dad-ddileu'r Negeseuon Hyn
+            [zero] Does Dim Negeseuon i'w Dileu
             [one] Dad-ddileu Neges
             [two] Dad-ddileu'r Negeseuon Hyn
             [few] Dad-ddileu'r Negeseuon Hyn
@@ -224,7 +224,11 @@ context-menu-decrypt-to-folder =
 mail-context-undelete-messages =
     .label =
         { $count ->
+            [zero] Does Dim Negeseuon i'w Dileu
             [one] Dad-ddileu Neges
+            [two] Dad-ddileu'r Negeseuon Hyn
+            [few] Dad-ddileu'r Negeseuon Hyn
+            [many] Dad-ddileu'r Negeseuon Hyn
            *[other] Dad-ddileu'r Negeseuon Hyn
         }
 context-menu-decrypt-to-folder2 =
