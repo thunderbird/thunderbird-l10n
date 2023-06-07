@@ -155,7 +155,11 @@ menu-edit-unsubscribe-newsgroup =
 menu-edit-delete-messages =
     .label =
         { $count ->
+            [zero] Dim Negeseuon i'w Dileu
             [one] Dileu Neges
+            [two] Dileu'r Negeseuon Hyn
+            [few] Dileu'r Negeseuon Hyn
+            [many] Dileu'r Negeseuon Hyn
            *[other] Dileu'r Negeseuon Hyn
         }
     .accesskey = N
@@ -164,7 +168,11 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
+            [zero] Dad-ddileu'r Negeseuon Hyn
             [one] Dad-ddileu Neges
+            [two] Dad-ddileu'r Negeseuon Hyn
+            [few] Dad-ddileu'r Negeseuon Hyn
+            [many] Dad-ddileu'r Negeseuon Hyn
            *[other] Dad-ddileu'r Negeseuon Hyn
         }
     .accesskey = a
