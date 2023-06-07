@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = 仅适用于日历空间
 customize-palette-tasks-specific-title = 仅适用于任务空间
 customize-palette-chat-specific-title = 仅适用于聊天空间
 customize-palette-settings-specific-title = 仅适用于设置空间
+customize-palette-extension-specific-title = 仅适用于此空间
 
 ## Unified toolbar customization palette context menu
 

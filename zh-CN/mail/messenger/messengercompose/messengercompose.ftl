@@ -180,22 +180,26 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = 密钥管理器
     .accesskey = M
+openpgp-key-issue-notification-one = 端到端加密功能需解决 { $addr } 的密钥问题。
+openpgp-key-issue-notification-many = 端到端加密功能需解决 { $count } 位收件人的密钥问题。
+smime-cert-issue-notification-one = 端到端加密功能需解决 { $addr } 的证书问题。
+smime-cert-issue-notification-many = 端到端加密功能需解决 { $count } 位收件人的证书问题。
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = 您未设置为从 { $addr } 发送端到端的加密消息。
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = 端到端加密功能需解决 { $addr } 的密钥问题。
+openpgp-key-issue-notification-single = 端到端加密需要 { $addr } 的密钥。
 # Variables:
 # $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = 端到端加密功能需解决 { $count } 位收件人的密钥问题。
+openpgp-key-issue-notification-multi = 端到端加密功能需要 { $count } 位收件人的密钥。
 # Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = 端到端加密功能需解决 { $addr } 的证书问题。
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = 端到端加密功能需要 { $addr } 的证书。
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = 端到端加密功能需解决 { $count } 位收件人的证书问题。
+smime-cert-issue-notification-multi = 端到端加密功能需要 { $count } 位收件人的证书。
 key-notification-disable-encryption =
     .label = 不加密
     .accesskey = D

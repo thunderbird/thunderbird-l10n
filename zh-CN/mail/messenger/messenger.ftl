@@ -293,6 +293,10 @@ no-reply-reply-anyway-button = 仍然回复
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = 共计 { $total } 条消息，有 { $failures } 条因解密失败而未复制。
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple = 共计 { $total } 条消息，其中 { $failures } 条因解密失败而未被复制。
 
 ## Spaces toolbar
 

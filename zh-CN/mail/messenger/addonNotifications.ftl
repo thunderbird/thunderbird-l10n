@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = 永不允许
     .accesskey = N
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = 报告可疑网站
+    .accesskey = R
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = 此网站请求访问您的 MIDI（乐器数字接口）设备，安装附加组件后可实现访问。
+site-permission-install-first-prompt-midi-message = 此访问不一定安全，请仅在您信任此网站时才继续。
 
 ##
 
@@ -44,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName }（{ $addonId }）已被系统管理员禁用。
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = 您的系统管理员已阻止此网站在您的计算机上安装软件的请求。
+addon-install-full-screen-blocked = 在全屏模式下或在进入全屏模式时，不允许安装附加组件。
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } 已添加到 { -brand-short-name }
@@ -53,6 +61,14 @@ webext-perms-update-menu-item = { $addonName } 需要新的权限
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = 要移除 { $name } 吗？
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = 要从 { -brand-shorter-name } 中移除 { $name } 吗？
+addon-removal-button = 移除
+addon-removal-abuse-report-checkbox = 向 { -vendor-short-name } 举报此扩展
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying = 正在下载并验证 { $addonCount } 个附加组件…
@@ -82,6 +98,7 @@ addon-install-error-incorrect-hash = 此附加组件未能安装，它不匹配�
 addon-install-error-corrupt-file = 从此网站下载的这个附加组件文件损坏了，无法安装。
 addon-install-error-file-access = { $addonName } 未能安装，{ -brand-short-name } 无法修改所需的文件。
 addon-install-error-not-signed = { -brand-short-name } 已阻止此网站安装未通过验证的附加组件。
+addon-install-error-invalid-domain = 无法从此位置安装附加组件 { $addonName }。
 addon-local-install-error-network-failure = 因为文件系统错误，无法安装该附加组件。
 addon-local-install-error-incorrect-hash = 所下载的不是本要安装附加组件 { -brand-short-name }，无法安装。
 addon-local-install-error-corrupt-file = 从此网站下载的这个附加组件文件损坏了，无法安装。

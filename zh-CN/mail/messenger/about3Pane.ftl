@@ -13,6 +13,9 @@ thread-pane-header-display-button =
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count = { $count } 条消息
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count = 已选择 { $count } 个消息
 thread-pane-header-context-table-view =
     .label = 表格视图
 thread-pane-header-context-cards-view =
@@ -150,9 +153,20 @@ folder-pane-header-context-hide =
     .label = 隐藏文件夹窗格标题
 folder-pane-show-total-toggle =
     .label = 显示总消息数
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = 显示文件夹大小
+folder-pane-mode-context-button =
+    .title = 文件夹模式选项
 folder-pane-mode-context-toggle-compact-mode =
     .label = 紧凑模式
     .accesskey = C
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label = { $count } 条未读消息
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label = 总共 { $count } 条消息
 
 ## Message thread pane
 
