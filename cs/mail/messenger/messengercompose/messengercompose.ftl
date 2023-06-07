@@ -184,26 +184,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Správce klíčů
     .accesskey = k
-# Variables:
-# $addr (String) - Email address (which related to the currently selected
-#                  from address) which isn't set up to end-to-end encryption.
-openpgp-key-issue-notification-from = Nemáte nastaveno odesílání oboustranně šifrovaných zpráv z adresy { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Pro použití koncového šifrování nejprve odstraňte chyby klíče pro { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-many =
     { $count ->
         [one] Pro použití koncového šifrování nejprve odstraňte chyby klíče pro jednoho příjemce.
         [few] Pro použití koncového šifrování nejprve odstraňte chyby klíčů pro { $count } příjemce.
        *[other] Pro použití koncového šifrování nejprve odstraňte chyby klíčů pro { $count } příjemců.
     }
-# Variables:
-# $addr (String) - Email address with certificate issues.
 smime-cert-issue-notification-one = Pro použití koncového šifrování nejprve odstraňte chyby certifikátu pro { $addr }
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many =
     { $count ->
         [one] Pro použití koncového šifrování nejprve odstraňte chyby certifikátu pro jednoho příjemce.
@@ -211,11 +199,33 @@ smime-cert-issue-notification-many =
        *[other] Pro použití koncového šifrování nejprve odstraňte chyby certifikátů pro { $count } příjemců.
     }
 # Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Nemáte nastaveno odesílání oboustranně šifrovaných zpráv z adresy { $addr }.
+# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Pro použití koncového šifrování nejprve odstraňte chyby klíče pro { $addr }
 # Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Koncové šifrování vyžaduje vyřešení problémů s klíči pro { $count } příjemce.
+        [few] Koncové šifrování vyžaduje vyřešení problémů s klíči pro { $count } příjemce.
+        [many] Koncové šifrování vyžaduje vyřešení problémů s klíči pro { $count } příjemců.
+       *[other] Koncové šifrování vyžaduje vyřešení problémů s klíči pro { $count } příjemců.
+    }
+# Variables:
 # $addr (String) - mail address with certificate issues.
 smime-cert-issue-notification-single = Pro použití koncového šifrování nejprve odstraňte chyby certifikátu pro { $addr }
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Koncové šifrování vyžaduje vyřešení problémů s certifikáty pro { $count } příjemce.
+        [few] Koncové šifrování vyžaduje vyřešení problémů s certifikáty pro { $count } příjemce.
+        [many] Koncové šifrování vyžaduje vyřešení problémů s certifikáty pro { $count } příjemců.
+       *[other] Koncové šifrování vyžaduje vyřešení problémů s certifikáty pro { $count } příjemců.
+    }
 key-notification-disable-encryption =
     .label = Nešifrovat
     .accesskey = N

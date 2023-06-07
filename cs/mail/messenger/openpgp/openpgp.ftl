@@ -656,6 +656,17 @@ import-rev-file = Importovat soubor se zneplatněním OpenPGP
 gnupg-file = Soubory GnuPG
 import-keys-failed = Importování klíčů selhalo
 passphrase-prompt = Zadejte prosím heslo, které odemkne následující klíč: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Zadejte přístupovou frázi pro odemknutí tajného klíče s ID { $key }, vytvořeného { $date } uživatelem { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Zadejte přístupovou frázi pro odemknutí tajného klíče s ID { $subkey }, což je podklíč klíče s ID { $key }, vytvořeného { $date } uživatelem { $username_and_email }
 file-to-big-to-import = Tento soubor je příliš velký. Neimportujte velké množství klíčů najednou.
 
 ## Strings used in enigmailKeygen.js
