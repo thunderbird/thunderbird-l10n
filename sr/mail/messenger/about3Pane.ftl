@@ -160,6 +160,9 @@ folder-pane-header-context-hide =
     .label = Сакриј заглавље површи фасцикли
 folder-pane-show-total-toggle =
     .label = Прикажи укупан збир порука
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Прикажи величину фасцикле
 folder-pane-mode-context-toggle-compact-mode =
     .label = Компактни преглед
     .accesskey = К
