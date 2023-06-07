@@ -308,12 +308,12 @@ decrypt-and-copy-failures = Nid oedd modd dadgryptio { $failures } o { $total } 
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures-multiple =
     { $failures ->
-        [zero] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
-        [one] Ni fu modd dadgryptio { $failures } o { $total } neges ac ni chafodd ei chopïo.
-        [two] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
-        [few] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
-        [many] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
-       *[other] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
+        [zero] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac nid ydynt wedi'u copïo.
+        [one] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac nid ydynt wedi'u copïo.
+        [two] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac nid ydynt wedi'u copïo.
+        [few] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac nid ydynt wedi'u copïo.
+        [many] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac nid ydynt wedi'u copïo.
+       *[other] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac nid ydynt wedi'u copïo.
     }
 
 ## Spaces toolbar

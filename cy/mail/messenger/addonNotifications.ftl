@@ -35,7 +35,7 @@ xpinstall-prompt-install =
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
 site-permission-install-first-prompt-midi-header = Mae'r wefan hon yn gofyn am fynediad i'ch dyfeisiau MIDI (Rhyngwyneb Digidol Offeryn Cerdd). Mae modd galluogi mynediad i ddyfais trwy osod ychwanegyn.
-site-permission-install-first-prompt-midi-message = Nid oes gwarant fod y mynediad hwn yn ddiogel. Parhewch dim ond os ydych yn ymddiried yn y wefan hon.
+site-permission-install-first-prompt-midi-message = Does dim gwarant fod y mynediad hwn yn ddiogel. Parhewch dim ond os ydych yn ymddiried yn y wefan hon.
 
 ##
 
@@ -51,7 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = Mae { $addonName } ({ $addonId }) wedi ei rwystro gan eich gweinyddwr system.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Rhwystrodd eich gweinyddwr systemau y wefan hon rhag gofyn i chi osod meddalwedd ar eich cyfrifiadur.
-addon-install-full-screen-blocked = Nid yw gosod ychwanegiad yn cael ei ganiatáu wrth fynd i'r modd sgrin lawn neu cyn hynny.
+addon-install-full-screen-blocked = Nid yw gosod ychwanegion yn cael ei ganiatáu cyn mynd neu wrth fynd i'r modd sgrin lawn.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } wedi ei ychwanegu i { -brand-short-name }
@@ -68,7 +68,7 @@ addon-removal-title = Tynnu { $name }?
 #   $name (String): the name of the extension which is about to be removed.
 addon-removal-message = Tynnu { $name } o { -brand-shorter-name }?
 addon-removal-button = Tynnu
-addon-removal-abuse-report-checkbox = Adroddwch yr estyniad hwn i { -vendor-short-name }
+addon-removal-abuse-report-checkbox = Adroddwch am yr estyniad hwn i { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
