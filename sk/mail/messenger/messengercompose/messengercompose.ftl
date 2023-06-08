@@ -189,22 +189,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Správca kľúčov
     .accesskey = S
+openpgp-key-issue-notification-one = Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre { $addr }
+openpgp-key-issue-notification-many = Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre niekoľkých príjemcov (celkom { $count }).
+smime-cert-issue-notification-one = Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre { $addr }.
+smime-cert-issue-notification-many = Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre niekoľkých príjemcov (celkom { $count }).
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Nie ste nastavení na odosielanie obojstranne šifrovaných správ z adresy { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre niekoľkých príjemcov (celkom { $count }).
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre niekoľkých príjemcov (celkom { $count }).
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre { $addr }.
@@ -298,6 +290,16 @@ many-public-recipients-notice =
         [one] Vaša správa má viditeľného príjemcu. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
         [few] Príjemcovia (celkom { $count }) v poliach Komu a Kópia si navzájom uvidia adresy. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
        *[other] Príjemcovia (celkom { $count }) v poliach Komu a Kópia si navzájom uvidia adresy. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
+    }
+public-recipients-notice-single = Vaša správa má verejného príjemcu. Prezradeniu príjemcu sa môžete vyhnúť tak, že použijete skrytú kópiu.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } príjemca v poliach Komu a Kópia si navzájom uvidí adresy. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
+        [few] { $count } príjemcovia v poliach Komu a Kópia si navzájom uvidia adresy. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
+        [many] { $count } príjemcov v poliach Komu a Kópia si navzájom uvidí adresy. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
+       *[other] { $count } príjemcov v poliach Komu a Kópia si navzájom uvidí adresy. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
     }
 many-public-recipients-bcc =
     .label = Použiť Skrytú kópiu

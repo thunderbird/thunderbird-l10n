@@ -98,9 +98,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = E-mailové adresy
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Prezývka
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Telefónne čísla
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -234,6 +231,33 @@ about-addressbook-selection-contacts-header = Vybraté kontakty: { $count }
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = Vybraté zoznamy: { $count }
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } označená položka adresára
+        [few] { $count } označené položky adresára
+        [many] { $count } označených položiek adresára
+       *[other] { $count } označených položiek adresára
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } označený kontakt
+        [few] { $count } označené kontakty
+        [many] { $count } označených kontaktov
+       *[other] { $count } označených kontaktov
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } označený zoznam
+        [few] { $count } označené zoznamy
+        [many] { $count } označených zoznamov
+       *[other] { $count } označených zoznamov
+    }
 about-addressbook-details-edit-photo =
     .title = Upraviť fotografiu kontaktu
 about-addressbook-new-contact-header = Nový kontakt
