@@ -225,6 +225,27 @@ about-addressbook-selection-contacts-header = { $count } contacts sélectionné
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } listes sélectionnées
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } entrées de carnet d’adresses sélectionnées
+       *[other] { $count } entrées de carnet d’adresses sélectionnées
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } contact sélectionné
+       *[other] { $count } contacts sélectionnés
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } liste sélectionnée
+       *[other] { $count } listes sélectionnées
+    }
 about-addressbook-details-edit-photo =
     .title = Modifier la photo du contact
 about-addressbook-new-contact-header = Nouveau contact
