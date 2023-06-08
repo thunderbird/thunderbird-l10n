@@ -285,8 +285,8 @@ public-recipients-notice-single = Votre message a un destinataire public. Vous p
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
 public-recipients-notice-multi =
     { $count ->
-        [one] Les { $count } destinataires en « Pour » et « Copie à » verront les adresses des autres. Vous pouvez éviter de révéler les destinataires en utilisant plutôt « Copie cachée à ».
-       *[other] Les { $count } destinataires en « Pour » et « Copie à » verront les adresses des autres. Vous pouvez éviter de révéler les destinataires en utilisant plutôt « Copie cachée à ».
+        [one] Le destinataire en « Pour » ou « Copie à » verra les adresses des autres destinataires. Vous pouvez éviter de révéler les destinataires en utilisant plutôt « Copie cachée à ».
+       *[other] Les { $count } destinataires en « Pour » et « Copie à » verront les adresses des autres destinataires. Vous pouvez éviter de révéler les destinataires en utilisant plutôt « Copie cachée à ».
     }
 many-public-recipients-bcc =
     .label = Utiliser plutôt la Copie cachée
