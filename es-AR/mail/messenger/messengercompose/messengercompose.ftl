@@ -184,22 +184,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Administrador de claves
     .accesskey = m
+openpgp-key-issue-notification-one = El cifrado de extremo a extremo requiere resolver problemas de clave de { $addr }
+openpgp-key-issue-notification-many = El cifrado de extremo a extremo requiere resolver problemas de clave para { $count } destinatarios.
+smime-cert-issue-notification-one = El cifrado de extremo a extremo requiere resolver problemas de certificado de { $addr }
+smime-cert-issue-notification-many = El cifrado de extremo a extremo requiere resolver problemas de certificado para { $count } destinatarios.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = No está configurado para enviar mensajes cifrados de extremo a extremo desde { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = El cifrado de extremo a extremo requiere resolver problemas de clave de { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = El cifrado de extremo a extremo requiere resolver problemas de clave para { $count } destinatarios.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = El cifrado de extremo a extremo requiere resolver problemas de certificado de { $addr }
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = El cifrado de extremo a extremo requiere resolver problemas de certificado para { $count } destinatarios.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = El cifrado de extremo a extremo requiere resolver problemas de clave de { $addr }.
@@ -287,6 +279,14 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] Su mensaje tiene un destinatario público, Puede evitar  revelar destinatarios usando Cco en su lugar
+       *[other] Los destinatarios de { $count } en Para y Cc pueden ver la dirección de los demás. Puede evitar revelar destinatarios usando Cco en su lugar.
+    }
+public-recipients-notice-single = Tu mensaje tiene un destinatario público. Puede evitar revelar el destinatario usando Cco en su lugar.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] Los destinatarios de { $count } en Para y Cc pueden ver la dirección de los demás. Puede evitar revelar destinatarios usando Cco en su lugar.
        *[other] Los destinatarios de { $count } en Para y Cc pueden ver la dirección de los demás. Puede evitar revelar destinatarios usando Cco en su lugar.
     }
 many-public-recipients-bcc =
