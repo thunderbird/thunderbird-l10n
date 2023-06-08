@@ -40,6 +40,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Viðhalda virkum síum þegar skipt er á milli mappa
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Flýtisíuvalmynd
+quick-filter-bar-dropdown-unread =
+    .label = Ólesið
+quick-filter-bar-dropdown-starred =
+    .label = Stjörnumerkt
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Tengiliður
+quick-filter-bar-dropdown-tags =
+    .label = Merki
+quick-filter-bar-dropdown-attachment =
+    .label = Viðhengi
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =

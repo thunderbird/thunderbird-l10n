@@ -246,6 +246,9 @@ message-header-show-sender-full-address-description = Tölvupóstfangið mun bir
 message-header-show-recipient-avatar =
     .label = Sýna birtingarmynd sendanda
     .accesskey = b
+message-header-show-big-avatar =
+    .label = Stærri notandamynd
+    .accesskey = d
 message-header-hide-label-column =
     .label = Fela skýringadálk
     .accesskey = l
@@ -291,9 +294,6 @@ no-reply-reply-anyway-button = Svara samt
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Ekki var hægt að afkóða { $failures } af { $total } skilaboðum og þau voru ekki afrituð.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
