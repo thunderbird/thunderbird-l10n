@@ -250,6 +250,9 @@ message-header-show-sender-full-address-description = E-mejlowa adresa so pod zw
 message-header-show-recipient-avatar =
     .label = Profilowy wobraz wotpósłarja pokazać
     .accesskey = P
+message-header-show-big-avatar =
+    .label = Wjetši profilowy wobraz
+    .accesskey = t
 message-header-hide-label-column =
     .label = Špaltu popisow schować
     .accesskey = o
@@ -295,9 +298,6 @@ no-reply-reply-anyway-button = Najebać toho wotmołwić
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } z { $total } powěsćow njejsu so dešifrowali a njejsu so kopěrowali.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

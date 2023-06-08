@@ -98,9 +98,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = E-mejlowe adresy
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Přimjeno
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Telefonowe čisła
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -240,6 +237,33 @@ about-addressbook-selection-contacts-header = Ličba wubranych kontaktow: { $cou
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = Ličba wubranych lisćinow: { $count }
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } wubrana zapisk adresnika
+        [two] { $count } wubranej zapiskaj adresnika
+        [few] { $count } wubrane zapiski adresnika
+       *[other] { $count } wubranych zapiskow adresnika
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } wubrany kontakt
+        [two] { $count } wubranej kontaktaj
+        [few] { $count } wubrane kontakty
+       *[other] { $count } wubranych kontaktow
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } wubrana lisćina
+        [two] { $count } wubranej lisćinje
+        [few] { $count } wubrane lisćiny
+       *[other] { $count } wubranych lisćinow
+    }
 about-addressbook-details-edit-photo =
     .title = Kontaktowe foto wobdźěłać
 about-addressbook-new-contact-header = Nowy kontakt

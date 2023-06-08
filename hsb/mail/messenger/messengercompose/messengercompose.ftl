@@ -194,22 +194,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Zrjadowak klučow
     .accesskey = Z
+openpgp-key-issue-notification-one = Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za { $addr } wužaduje
+openpgp-key-issue-notification-many = Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za někotrych přijimarjow wužaduje ({ $count }).
+smime-cert-issue-notification-one = Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za { $addr } wužaduje
+smime-cert-issue-notification-many = Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za někotrych přijimarjow wužaduje ({ $count })
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Njejsće přihotowany, zo byšće powěsće kónc do kónca wot { $addr } pósłał.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za { $addr } wužaduje
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za někotrych přijimarjow wužaduje ({ $count }).
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za { $addr } wužaduje
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za někotrych přijimarjow wužaduje ({ $count })
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za { $addr } wužaduje.
@@ -301,6 +293,16 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] Waša powěsć ma zjawneho přijimarja. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
+        [two] { $count } přijimarjej budźetaj w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
+        [few] { $count } přijimarjo budu w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
+       *[other] { $count } přijimarjow budźe w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
+    }
+public-recipients-notice-single = Waša powěsć ma zjawneho přijimarja. Móžeće wobeńć, zo so přijimar wotkrywa, hdyž město toho schowanu kopiju wužiwaće.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } přijimar budźe w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
         [two] { $count } přijimarjej budźetaj w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
         [few] { $count } přijimarjo budu w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
        *[other] { $count } přijimarjow budźe w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
