@@ -44,6 +44,10 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Pri prepínaní priečinkov ponechať filter aktívny
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Ponuka Rýchly filter
 quick-filter-bar-dropdown-unread =
     .label = Neprečítané
 quick-filter-bar-dropdown-starred =
@@ -80,10 +84,10 @@ quick-filter-bar-inaddrbook-label = Kontakt
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
 quick-filter-bar-tags =
-    .title = Zobraziť len správy s priradeným popisom
+    .title = Zobraziť len správy s priradenou značkou
 # The label for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
-quick-filter-bar-tags-label = Popisy
+quick-filter-bar-tags-label = Značky
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment =
@@ -120,11 +124,11 @@ quick-filter-bar-textbox =
     .placeholder = Filtrovať tieto správy <{ quick-filter-bar-textbox-shortcut }>
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
-    .title = Režim filtrovania podľa popisov
+    .title = Režim filtrovania podľa značiek
 # The Any-of tagging mode.
 quick-filter-bar-boolean-mode-any =
-    .label = Ktorýkoľvek z
-    .title = Správa musí mať priradený aspoň jeden z nasledujúcich popisov
+    .label = Ktorákoľvek z
+    .title = Správa musí mať priradenú aspoň jednu z nasledujúcich značiek
 # The All-of tagging mode.
 quick-filter-bar-boolean-mode-all =
     .label = Všetky uvedené
@@ -274,10 +278,10 @@ threadpane-column-header-size = Veľkosť
     .title = Usporiadať podľa veľkosti
 threadpane-column-label-size =
     .label = Veľkosť
-threadpane-column-header-tags = Popis
-    .title = Usporiadať podľa popisu
+threadpane-column-header-tags = Značky
+    .title = Usporiadať podľa značiek
 threadpane-column-label-tags =
-    .label = Popis
+    .label = Značky
 threadpane-column-header-account = Účet
     .title = Usporiadať podľa účtov
 threadpane-column-label-account =

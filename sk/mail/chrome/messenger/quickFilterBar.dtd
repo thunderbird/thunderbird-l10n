@@ -89,14 +89,14 @@
      include messages with at least one tag on them.
      -->
 <!ENTITY quickFilterBar.tags.label
-         "Popisy">
+         "Značky">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.tags.tooltip):
      The tooltip for the filter button that causes us to filter results to only
      include messages with at least one tag on them.
      -->
 <!ENTITY quickFilterBar.tags.tooltip
-         "Zobraziť len správy s priradeným popisom">
+         "Zobraziť len správy s priradenou značkou">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.attachment.label):
      The label for the filter button that causes us to filter results to only
@@ -177,7 +177,7 @@
 <!-- LOCALIZATION NOTE (quickFilterBar.booleanMode.tooltip):
      Tooltip of the Any of / All of tagging mode selector.
      -->
-<!ENTITY quickFilterBar.booleanMode.tooltip "Režim filtrovania podľa popisov">
+<!ENTITY quickFilterBar.booleanMode.tooltip "Režim filtrovania podľa značiek">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.booleanModeAny.label):
      Tooltip of the Any of / All of tagging mode selector.
@@ -187,7 +187,7 @@
 <!-- LOCALIZATION NOTE (quickFilterBar.booleanModeAny.tooltip):
      Tooltip of the Any of / All of tagging mode selector.
      -->
-<!ENTITY quickFilterBar.booleanModeAny.tooltip "Správa musí mať priradený aspoň jeden z nasledujúcich popisov">
+<!ENTITY quickFilterBar.booleanModeAny.tooltip "Správa musí mať priradenú aspoň jednu z nasledujúcich značiek">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.booleanModeAll.label):
      Tooltip of the Any of / All of tagging mode selector.
@@ -197,7 +197,7 @@
 <!-- LOCALIZATION NOTE (quickFilterBar.booleanModeAll.tooltip):
      Tooltip of the Any of / All of tagging mode selector.
      -->
-<!ENTITY quickFilterBar.booleanModeAll.tooltip "Správa musí mať priradené všetky nasledujúce popisy">
+<!ENTITY quickFilterBar.booleanModeAll.tooltip "Správa musí mať priradené všetky nasledujúce značky">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.textbox.idealWidth):
      The number of pixels for the ideal width of the quick filter box textbox.

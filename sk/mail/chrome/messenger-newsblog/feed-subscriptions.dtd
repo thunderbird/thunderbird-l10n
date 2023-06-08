@@ -32,7 +32,7 @@
 
 <!ENTITY autotagEnable.label         "Automaticky vytvoriť značky z názvov &lt;kategórií&gt; v kanáloch">
 <!ENTITY autotagEnable.accesskey     "m">
-<!ENTITY autotagUsePrefix.label      "Pridávať predponu:">
+<!ENTITY autotagUsePrefix.label      "Pridávať značkám predponu:">
 <!ENTITY autotagUsePrefix.accesskey  "r">
 <!ENTITY autoTagPrefix.placeholder   "Zadajte predponu značky">
 
