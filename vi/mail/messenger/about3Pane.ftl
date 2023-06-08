@@ -13,6 +13,9 @@ thread-pane-header-display-button =
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count = { $count } thư
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count = { $count } đã chọn
 thread-pane-header-context-table-view =
     .label = Chế độ xem bảng
 thread-pane-header-context-cards-view =
@@ -29,6 +32,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Giữ các bộ lọc được áp dụng khi chuyển đổi thư mục
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Menu bộ lọc nhanh
+quick-filter-bar-dropdown-unread =
+    .label = Chưa đọc
+quick-filter-bar-dropdown-starred =
+    .label = Đã gắn sao
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Liên hệ
+quick-filter-bar-dropdown-tags =
+    .label = Nhãn
+quick-filter-bar-dropdown-attachment =
+    .label = Đính kèm
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -150,9 +167,24 @@ folder-pane-header-context-hide =
     .label = Ẩn header ngăn thư mục
 folder-pane-show-total-toggle =
     .label = Hiển thị tổng số thư
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Hiển thị kích cỡ thư mục
+folder-pane-mode-context-button =
+    .title = Tùy chọn chế độ thư mục
 folder-pane-mode-context-toggle-compact-mode =
     .label = Chế độ xem gọn
     .accesskey = C
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label = { $count } thư chưa đọc
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 thư tổng cộng
+       *[other] { $count } thư tổng cộng
+    }
 
 ## Message thread pane
 
@@ -187,6 +219,8 @@ threadpane-column-header-unread-button =
     .title = Sắp xếp theo trạng thái đọc
 threadpane-column-label-unread-button =
     .label = Trạng thái đọc
+threadpane-read-cell-label = Đã đọc
+threadpane-unread-cell-label = Chưa đọc
 threadpane-column-header-sender = Từ
     .title = Sắp xếp theo người gửi
 threadpane-column-label-sender =
