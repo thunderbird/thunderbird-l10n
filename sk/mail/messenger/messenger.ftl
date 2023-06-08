@@ -124,8 +124,8 @@ show-recent-folders-label =
     .label = Najnovšie priečinky
     .accesskey = N
 show-tags-folders-label =
-    .label = S popisom
-    .accesskey = o
+    .label = Značky
+    .accesskey = a
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktné zobrazenie
     .accesskey = K
@@ -296,9 +296,6 @@ no-reply-reply-anyway-button = Aj tak odpovedať
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } z { $total } správ sa nepodarilo dešifrovať a neboli skopírované.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

@@ -12,7 +12,7 @@
 <!ENTITY viewUnread.accesskey "N">
 <!ENTITY viewNotDeleted.label "Neodstránené">
 <!ENTITY viewNotDeleted.accesskey "d">
-<!ENTITY viewTags.label "S popisom">
+<!ENTITY viewTags.label "Značky">
 <!ENTITY viewTags.accesskey "o">
 <!ENTITY viewCustomViews.label "Vlastné pohľady">
 <!ENTITY viewCustomViews.accesskey "V">
