@@ -280,7 +280,7 @@ many-public-recipients-notice =
         [one] Votre message a un destinataire public. Vous pouvez éviter de révéler les destinataires en utilisant plutôt « Copie cachée à ».
        *[other] Les { $count } destinataires en « Pour » et « Copie à » verront les adresses des autres. Vous pouvez éviter de révéler les destinataires en utilisant plutôt « Copie cachée à ».
     }
-public-recipients-notice-single = Votre message a un destinataire public. Vous pouvez éviter de divulguer le destinataire en utilisant plutôt la Copie cachée.
+public-recipients-notice-single = Votre message a un destinataire public. Vous pouvez éviter de divulguer le destinataire en utilisant plutôt « Copie cachée à ».
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
 public-recipients-notice-multi =

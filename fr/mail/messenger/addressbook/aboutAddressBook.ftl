@@ -229,7 +229,7 @@ about-addressbook-selection-lists-header = { $count } listes sélectionnées
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
     { $count ->
-        [one] { $count } entrées de carnet d’adresses sélectionnées
+        [one] { $count } entrée de carnet d’adresses sélectionnée
        *[other] { $count } entrées de carnet d’adresses sélectionnées
     }
 # Variables:
