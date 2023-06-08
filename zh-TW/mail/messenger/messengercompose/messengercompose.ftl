@@ -180,22 +180,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = 金鑰管理員
     .accesskey = M
+openpgp-key-issue-notification-one = 需要解決 { $addr } 的金鑰問題，才可使用端到端加密功能。
+openpgp-key-issue-notification-many = 需要解決 { $count } 位收件者的金鑰問題，才可使用端到端加密功能。
+smime-cert-issue-notification-one = 需要解決 { $addr } 的憑證問題，才可使用端到端加密功能。
+smime-cert-issue-notification-many = 需要解決 { $count } 位收件者的憑證問題，才可使用端到端加密功能。
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = 您並未設定好可從 { $addr } 傳送端到端加密訊息。
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = 需要解決 { $addr } 的金鑰問題，才可使用端到端加密功能。
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = 需要解決 { $count } 位收件者的金鑰問題，才可使用端到端加密功能。
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = 需要解決 { $addr } 的憑證問題，才可使用端到端加密功能。
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = 需要解決 { $count } 位收件者的憑證問題，才可使用端到端加密功能。
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = 需要解決 { $addr } 的金鑰問題，才可使用端到端加密功能。
@@ -281,6 +273,13 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] 您的訊息當中有公開的收件者，可以改用「密件副本」來避免揭露收件者資訊。
+       *[other] 「給」與「副本」收件者共有 { $count } 位，都可看到彼此的收件信箱。您可以改用「密件副本」來避免揭露收件者資訊。
+    }
+public-recipients-notice-single = 您的郵件已設定公開收件者。您可以改用「密件副本」來避免揭露收件者資訊。
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
        *[other] 「給」與「副本」收件者共有 { $count } 位，都可看到彼此的收件信箱。您可以改用「密件副本」來避免揭露收件者資訊。
     }
 many-public-recipients-bcc =

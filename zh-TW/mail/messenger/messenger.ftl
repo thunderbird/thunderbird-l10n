@@ -245,6 +245,9 @@ message-header-show-sender-full-address-description = 將在顯示名稱下方�
 message-header-show-recipient-avatar =
     .label = 顯示寄件者的個人資料照片
     .accesskey = p
+message-header-show-big-avatar =
+    .label = 個人資料大頭照
+    .accesskey = g
 message-header-hide-label-column =
     .label = 隱藏標籤欄
     .accesskey = l
@@ -290,9 +293,6 @@ no-reply-reply-anyway-button = 還是要回覆
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = 無法解密全部共 { $total } 封訊息當中的 { $failures } 封訊息，並未複製。
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

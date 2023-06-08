@@ -38,6 +38,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = 切換資料夾時仍然套用篩選條件？
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = 快速篩選選單
+quick-filter-bar-dropdown-unread =
+    .label = 未讀
+quick-filter-bar-dropdown-starred =
+    .label = 已標星號
+quick-filter-bar-dropdown-inaddrbook =
+    .label = 聯絡人
+quick-filter-bar-dropdown-tags =
+    .label = 標籤
+quick-filter-bar-dropdown-attachment =
+    .label = 附件
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
