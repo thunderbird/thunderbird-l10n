@@ -255,6 +255,9 @@ message-header-show-sender-full-address-description = Адрес электро�
 message-header-show-recipient-avatar =
     .label = Показывать фото профиля отправителя
     .accesskey = ф
+message-header-show-big-avatar =
+    .label = Увеличенное изображение профиля
+    .accesskey = п
 message-header-hide-label-column =
     .label = Скрыть столбец меток
     .accesskey = ы
@@ -300,9 +303,6 @@ no-reply-reply-anyway-button = Все равно ответить
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } из { $total } сообщений не могли быть расшифрованы и не были скопированы.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

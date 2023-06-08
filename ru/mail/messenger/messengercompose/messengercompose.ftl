@@ -188,22 +188,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Менеджер ключей
     .accesskey = ж
+openpgp-key-issue-notification-one = Для сквозного шифрования нужно решить проблему с ключом для { $addr }
+openpgp-key-issue-notification-many = Для сквозного шифрования нужно решить проблемы с ключами для { $count } получателей.
+smime-cert-issue-notification-one = Для сквозного шифрования нужно решить проблему с сертификатом для { $addr }.
+smime-cert-issue-notification-many = Для сквозного шифрования нужно решить проблемы с сертификатами для { $count } получателей.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Вы не настроили отправку сообщений, зашифрованных сквозным методом, с адреса { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Для сквозного шифрования нужно решить проблему с ключом для { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Для сквозного шифрования нужно решить проблемы с ключами для { $count } получателей.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Для сквозного шифрования нужно решить проблему с сертификатом для { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Для сквозного шифрования нужно решить проблемы с сертификатами для { $count } получателей.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Для сквозного шифрования нужно решить проблему с ключом для { $addr }.
@@ -293,6 +285,15 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] В вашем сообщении есть публичный адресат. Вы можете избежать раскрытия адресата, используя вместо этого «Скрытую копию».
+        [few] { $count } адресата в полях «Кому» и «Копия» увидят адреса друг друга. Вы можете избежать раскрытия адресатов, используя вместо этого «Скрытую копию».
+       *[many] { $count } адресатов в полях «Кому» и «Копия» увидят адреса друг друга. Вы можете избежать раскрытия адресатов, используя вместо этого «Скрытую копию».
+    }
+public-recipients-notice-single = У вашего сообщения есть общедоступный получатель. Вы можете избежать раскрытия получателя, используя вместо этого скрытую копию.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } адресат в полях «Кому» и «Копия» увидят адреса друг друга. Вы можете избежать раскрытия адресата, используя вместо этого «Скрытую копию».
         [few] { $count } адресата в полях «Кому» и «Копия» увидят адреса друг друга. Вы можете избежать раскрытия адресатов, используя вместо этого «Скрытую копию».
        *[many] { $count } адресатов в полях «Кому» и «Копия» увидят адреса друг друга. Вы можете избежать раскрытия адресатов, используя вместо этого «Скрытую копию».
     }

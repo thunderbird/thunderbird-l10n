@@ -231,6 +231,30 @@ about-addressbook-selection-contacts-header = { $count } выбранных ко
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } выбранных списков
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] Выбрана { $count } запись адресной книги
+        [few] Выбрано { $count } записи адресной книги
+       *[many] Выбрано { $count } записей адресной книги
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] Выбран { $count } контакт
+        [few] Выбрано { $count } контакта
+       *[many] Выбрано { $count } контактов
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] Выбран { $count } список
+        [few] Выбрано { $count } списка
+       *[many] Выбрано { $count } списков
+    }
 about-addressbook-details-edit-photo =
     .title = Изменить фото контакта
 about-addressbook-new-contact-header = Новый контакт
