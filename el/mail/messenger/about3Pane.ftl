@@ -33,6 +33,16 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Διατήρηση φίλτρων κατά την εναλλαγή φακέλων
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Μενού γρήγορου φιλτραρίσματος
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Επαφή
+quick-filter-bar-dropdown-tags =
+    .label = Ετικέτες
+quick-filter-bar-dropdown-attachment =
+    .label = Συνημμένο
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -158,6 +168,11 @@ folder-pane-header-context-hide =
     .label = Απόκρυψη κεφαλίδας προβολής φακέλων
 folder-pane-show-total-toggle =
     .label = Εμφάνιση συνολικού αριθμού μηνυμάτων
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Εμφάνιση μεγέθους φακέλου
+folder-pane-mode-context-button =
+    .title = Επιλογές λειτουργίας φακέλου
 folder-pane-mode-context-toggle-compact-mode =
     .label = Συμπτυγμένη προβολή
     .accesskey = Σ
