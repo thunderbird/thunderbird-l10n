@@ -249,6 +249,39 @@ about-addressbook-selection-contacts-header = Mae { $count } cysylltiad wedi'u d
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = Mae { $count } rhestr wedi'u dewis
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [zero] { $count } cofnod llyfr cyfeiriadau dethol
+        [one] { $count } cofnod llyfr cyfeiriadau dethol
+        [two] { $count } cofnod llyfr cyfeiriadau dethol
+        [few] { $count } cofnod llyfr cyfeiriadau dethol
+        [many] { $count } cofnod llyfr cyfeiriadau dethol
+       *[other] { $count } cofnod llyfr cyfeiriadau dethol
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [zero] Mae { $count } cysylltiad wedi'u dewis
+        [one] Mae { $count } cyswllt wedi'i ddewis
+        [two] Mae { $count } cysylltiad wedi'u dewis
+        [few] Mae { $count } cysylltiad wedi'u dewis
+        [many] Mae { $count } cysylltiad wedi'u dewis
+       *[other] Mae { $count } cysylltiad wedi'u dewis
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [zero] Mae { $count } rhestr wedi'u dewis
+        [one] { $count } rhestr dewisiedig
+        [two] Mae { $count } rhestr wedi'u dewis
+        [few] Mae { $count } rhestr wedi'u dewis
+        [many] Mae { $count } rhestr wedi'u dewis
+       *[other] Mae { $count } rhestr wedi'u dewis
+    }
 about-addressbook-details-edit-photo =
     .title = Golygu llun cyswllt
 about-addressbook-new-contact-header = Cysylltiad Newydd

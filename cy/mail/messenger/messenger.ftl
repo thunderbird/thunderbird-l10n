@@ -266,6 +266,9 @@ message-header-show-sender-full-address-description = Bydd y cyfeiriad e-bost yn
 message-header-show-recipient-avatar =
     .label = Dangos llun proffil yr anfonwr
     .accesskey = D
+message-header-show-big-avatar =
+    .label = Llun proffil mwy
+    .accesskey = L
 message-header-hide-label-column =
     .label = Cuddio colofn y labeli
     .accesskey = u
@@ -311,9 +314,6 @@ no-reply-reply-anyway-button = Ateb Beth Bynnag
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

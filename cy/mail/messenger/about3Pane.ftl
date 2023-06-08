@@ -48,6 +48,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Cadw hidlau ar waith wrth newid ffolderi
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Dewislen hidlo cyflym
+quick-filter-bar-dropdown-unread =
+    .label = Heb eu Darllen
+quick-filter-bar-dropdown-starred =
+    .label = Serennog
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Cysylltu
+quick-filter-bar-dropdown-tags =
+    .label = Tagiau
+quick-filter-bar-dropdown-attachment =
+    .label = Atodiad
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
