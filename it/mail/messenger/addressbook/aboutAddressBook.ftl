@@ -229,8 +229,8 @@ about-addressbook-selection-lists-header = { $count } liste selezionate
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
     { $count ->
-        [one] { $count } voci selezionate della rubrica
-       *[other] { $count } voci selezionate della rubrica
+        [one] { $count } voce della rubrica selezionata
+       *[other] { $count } voci della rubrica selezionate
     }
 # Variables:
 # $count (Number) - The number of selected contacts
@@ -243,7 +243,7 @@ about-addressbook-selection-contacts-header2 =
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header2 =
     { $count ->
-        [one] { $count } elenco selezionato
+        [one] { $count } lista selezionata
        *[other] { $count } liste selezionate
     }
 about-addressbook-details-edit-photo =

@@ -285,7 +285,7 @@ public-recipients-notice-single = Il tuo messaggio ha un destinatario pubblico. 
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
 public-recipients-notice-multi =
     { $count ->
-        [one] I { $count } destinatari inseriti nei campi A e Cc possono vedere i rispettivi indirizzi. Puoi evitare di mostrare gli indirizzi dei destinatari utilizzando Ccn.
+        [one] Il destinatario inserito nei campi A e Cc può vedere il proprio indirizzo. Puoi evitare di mostrare gli indirizzi dei destinatari utilizzando Ccn.
        *[other] I { $count } destinatari inseriti nei campi A e Cc possono vedere i rispettivi indirizzi. Puoi evitare di mostrare gli indirizzi dei destinatari utilizzando Ccn.
     }
 many-public-recipients-bcc =

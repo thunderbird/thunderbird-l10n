@@ -43,7 +43,7 @@ quick-filter-bar-sticky =
 # The tooltip for the filter button that replaces the quick filter buttons with
 # a dropdown menu.
 quick-filter-bar-dropdown =
-    .title = Menu filtro rapido
+    .title = Menu filtro veloce
 quick-filter-bar-dropdown-unread =
     .label = Non letto
 quick-filter-bar-dropdown-starred =
