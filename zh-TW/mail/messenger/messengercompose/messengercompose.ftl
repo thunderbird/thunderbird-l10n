@@ -275,12 +275,12 @@ many-public-recipients-notice =
         [one] 您的訊息當中有公開的收件者，可以改用「密件副本」來避免揭露收件者資訊。
        *[other] 「給」與「副本」收件者共有 { $count } 位，都可看到彼此的收件信箱。您可以改用「密件副本」來避免揭露收件者資訊。
     }
-public-recipients-notice-single = 您的郵件已設定公開收件者。您可以改用「密件副本」來避免揭露收件者資訊。
+public-recipients-notice-single = 您的郵件有公開收件者，可以改用「密件副本」來避免揭露收件者資訊。
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
 public-recipients-notice-multi =
     { $count ->
-       *[other] 「給」與「副本」收件者共有 { $count } 位，都可看到彼此的收件信箱。您可以改用「密件副本」來避免揭露收件者資訊。
+       *[other] 共有 { $count } 位「給」與「副本」收件者，他們都可看到彼此的收件信箱。您可以改用「密件副本」來避免揭露收件者資訊。
     }
 many-public-recipients-bcc =
     .label = 改為密件副本收件者

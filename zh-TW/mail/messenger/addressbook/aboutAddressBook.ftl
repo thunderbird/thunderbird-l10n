@@ -226,19 +226,19 @@ about-addressbook-selection-lists-header = { $count } 個選擇的清單
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
     { $count ->
-       *[other] { $count } 個選擇的通訊錄項目
+       *[other] 選擇的 { $count } 筆通訊錄項目
     }
 # Variables:
 # $count (Number) - The number of selected contacts
 about-addressbook-selection-contacts-header2 =
     { $count ->
-       *[other] { $count } 位選擇的聯絡人
+       *[other] 選擇的 { $count } 位聯絡人
     }
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header2 =
     { $count ->
-       *[other] { $count } 個選擇的清單
+       *[other] 選擇的 { $count } 個清單
     }
 about-addressbook-details-edit-photo =
     .title = 編輯連絡人相片
