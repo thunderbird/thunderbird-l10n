@@ -21,6 +21,9 @@ openpgp-openpgp = OpenPGP
 openpgp-no-sig = Không có chữ ký số
 openpgp-no-sig-info = Thư này không có chữ kí điện tử của người gửi. Việc thiếu chữ kí điện tử có nghĩa là lá thư có thể đã được gửi bởi một người giả dạng địa chỉ email này. Cũng có thể lá thư đã bị sửa đổi trong khi truyền tải qua hệ thống mạng.
 openpgp-uncertain-sig = Chữ ký số không chắc chắn
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-uncertain-sig-with-date = Chữ ký số không chắc chắn - Đã ký vào { $date }
 openpgp-invalid-sig = Chữ ký số không hợp lệ
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.

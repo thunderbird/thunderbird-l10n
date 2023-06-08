@@ -244,6 +244,9 @@ message-header-show-sender-full-address-description = Địa chỉ email sẽ đ
 message-header-show-recipient-avatar =
     .label = Hiển thị ảnh hồ sơ của người gửi
     .accesskey = P
+message-header-show-big-avatar =
+    .label = Ảnh hồ sơ lớn hơn
+    .accesskey = g
 message-header-hide-label-column =
     .label = Ẩn cột nhãn
     .accesskey = l
@@ -289,10 +292,11 @@ no-reply-reply-anyway-button = Vẫn trả lời
 
 ## error messages
 
+decrypt-and-copy-failures = Không thể giải mã { $failures } trong tổng số { $total } thư.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = Không thể giải mã { $failures } trong tổng số { $total } thư.
+decrypt-and-copy-failures-multiple = Không thể giải mã và sao chép { $failures } trong tổng số { $total } thư.
 
 ## Spaces toolbar
 
@@ -395,3 +399,9 @@ openpgp-forget = Quên cụm mật khẩu OpenPGP
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% đã đầy
+    .title = Hạn ngạch IMAP: { $usage } đã sử dụng trong tổng số { $limit }

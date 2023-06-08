@@ -172,22 +172,26 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Quản lý khóa
     .accesskey = M
+openpgp-key-issue-notification-one = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề của khóa đối với { $addr }
+openpgp-key-issue-notification-many = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề của khóa đối với { $count } người nhận.
+smime-cert-issue-notification-one = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề về chứng chỉ đối với { $addr }.
+smime-cert-issue-notification-many = Mã hóa end-to-end yêu cầu giải quyết các vấn đề về chứng chỉ đối với { $count } người nhận.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Bạn chưa thiết lập để gửi tin nhắn được mã hóa đầu cuối từ { $addr }.
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề của khóa đối với { $addr }
+openpgp-key-issue-notification-single = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề của khóa đối với { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề của khóa đối với { $count } người nhận.
+openpgp-key-issue-notification-multi = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề của khóa đối với { $count } người nhận.
 # Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề về chứng chỉ đối với { $addr }.
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề về chứng chỉ đối với { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Mã hóa end-to-end yêu cầu giải quyết các vấn đề về chứng chỉ đối với { $count } người nhận.
+smime-cert-issue-notification-multi = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề về chứng chỉ đối với { $count } người nhận.
 key-notification-disable-encryption =
     .label = Không mã hóa
     .accesskey = D
@@ -256,6 +260,10 @@ many-public-recipients-notice =
     { $count ->
        *[other] { $count } người nhận trong Đến và Cc sẽ thấy địa chỉ của nhau. Thay vào đó, bạn có thể tránh tiết lộ người nhận bằng cách sử dụng Bcc.
     }
+public-recipients-notice-single = Thư của bạn có người nhận công khai. Thay vào đó, bạn có thể tránh tiết lộ người nhận bằng cách sử dụng Bcc.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi = { $count } người nhận trong Đến và Cc sẽ thấy địa chỉ của nhau. Thay vào đó, bạn có thể tránh tiết lộ người nhận bằng cách sử dụng Bcc.
 many-public-recipients-bcc =
     .label = Sử dụng Bcc thay thế
     .accesskey = U
