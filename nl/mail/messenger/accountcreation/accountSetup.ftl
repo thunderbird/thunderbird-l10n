@@ -33,8 +33,6 @@ account-setup-name-info-icon =
     .title = Uw naam, zoals getoond aan anderen
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = E-mailadres
     .accesskey = E
@@ -45,8 +43,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Uw bestaande e-mailadres
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Wachtwoord
     .accesskey = W

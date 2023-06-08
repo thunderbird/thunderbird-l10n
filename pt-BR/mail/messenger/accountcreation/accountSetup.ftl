@@ -31,8 +31,6 @@ account-setup-name-info-icon =
     .title = Seu nome, como será mostrado aos outros
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = Endereço de email
     .accesskey = E
@@ -43,8 +41,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Seu endereço de email existente
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Senha
     .accesskey = S

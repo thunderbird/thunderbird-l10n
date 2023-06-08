@@ -25,8 +25,6 @@ account-setup-name-info-icon =
     .title = Kitiems rodomas jūsų vardas
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = Elektroninio pašto adresas
     .accesskey = E
@@ -37,8 +35,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Jūsų turimas el. pašto adresas
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Slaptažodis
     .accesskey = S

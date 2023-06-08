@@ -33,8 +33,6 @@ account-setup-name-info-icon =
     .title = Így fog megjelenni a neve
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = E-mail cím
     .accesskey = E
@@ -45,8 +43,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = A meglévő e-mail címe
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Jelszó
     .accesskey = J

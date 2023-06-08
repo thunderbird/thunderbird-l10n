@@ -33,8 +33,6 @@ account-setup-name-info-icon =
     .title = Your name, as shown to others
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = Email address
     .accesskey = E
@@ -45,8 +43,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Your existing email address
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Password
     .accesskey = P

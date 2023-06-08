@@ -33,8 +33,6 @@ account-setup-name-info-icon =
     .title = Tên của bạn, như được hiển thị cho những người khác
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = Địa chỉ email
     .accesskey = E
@@ -45,8 +43,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Địa chỉ email hiện tại của bạn
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Mật khẩu
     .accesskey = P

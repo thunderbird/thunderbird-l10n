@@ -33,8 +33,6 @@ account-setup-name-info-icon =
     .title = Nimesi kuten se muille näytetään
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = Sähköpostiosoite
     .accesskey = S
@@ -45,8 +43,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Nykyinen sähköpostiosoitteesi
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Salasana
     .accesskey = a

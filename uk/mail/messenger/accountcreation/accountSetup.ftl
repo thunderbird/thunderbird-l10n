@@ -33,8 +33,6 @@ account-setup-name-info-icon =
     .title = Ваше ім’я, яким його бачитимуть інші
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = Адреса електронної пошти
     .accesskey = е
@@ -45,8 +43,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Ваша наявна адреса електронної пошти
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Пароль
     .accesskey = П

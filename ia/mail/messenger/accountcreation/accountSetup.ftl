@@ -31,8 +31,6 @@ account-setup-name-info-icon =
     .title = Nomine a monstrar
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = Adresse email
     .accesskey = e
@@ -43,8 +41,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Tu adresse e-mail existente
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Contrasigno
     .accesskey = C

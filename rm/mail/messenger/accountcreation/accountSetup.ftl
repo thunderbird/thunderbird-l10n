@@ -33,8 +33,6 @@ account-setup-name-info-icon =
     .title = Tes num, uschia co el duai vegnir mussà ad auters
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = Adressa dad e-mail
     .accesskey = e
@@ -45,8 +43,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Tia adressa dad e-mail existenta
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Pled-clav
     .accesskey = P

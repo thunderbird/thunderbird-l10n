@@ -33,8 +33,6 @@ account-setup-name-info-icon =
     .title = Zure izena, besteei erakutsiko zaien bezala
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = Helbide elektronikoa
     .accesskey = H
@@ -45,8 +43,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Zure posta elektroniko bat
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Pasahitza
     .accesskey = P

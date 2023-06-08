@@ -31,8 +31,6 @@ account-setup-name-info-icon =
     .title = Ditt namn, som det visas för andra
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = E-postadress
     .accesskey = E
@@ -43,8 +41,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Din befintliga e-postadress
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Lösenord
     .accesskey = L

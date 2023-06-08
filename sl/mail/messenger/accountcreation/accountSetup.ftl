@@ -31,8 +31,6 @@ account-setup-name-info-icon =
     .title = Vaše ime, s katerim se predstavljate
 
 
-account-setup-name-warning-icon =
-    .title = { account-setup-name-warning }
 
 account-setup-email-label = E-poštni naslov
     .accesskey = E
@@ -43,8 +41,6 @@ account-setup-email-input =
 account-setup-email-info-icon =
     .title = Vaš obstoječi e-poštni naslov
 
-account-setup-email-warning-icon =
-    .title = { account-setup-email-warning }
 
 account-setup-password-label = Geslo
     .accesskey = G
