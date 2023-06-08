@@ -183,22 +183,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestore chiavi
     .accesskey = G
+openpgp-key-issue-notification-one = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con la chiave per { $addr }
+openpgp-key-issue-notification-many = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con la chiave per { $count } destinatari.
+smime-cert-issue-notification-one = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con il certificato per { $addr }
+smime-cert-issue-notification-many = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con il certificato per { $count } destinatari.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Il sistema non è configurato per inviare messaggi con crittografia end-to-end da { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con la chiave per { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con la chiave per { $count } destinatari.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con il certificato per { $addr }
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con il certificato per { $count } destinatari.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con la chiave per { $addr }
@@ -286,6 +278,14 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] Il tuo messaggio ha un destinatario pubblico. Puoi evitare di mostrare gli indirizzi dei destinatari utilizzando Ccn.
+       *[other] I { $count } destinatari inseriti nei campi A e Cc possono vedere i rispettivi indirizzi. Puoi evitare di mostrare gli indirizzi dei destinatari utilizzando Ccn.
+    }
+public-recipients-notice-single = Il tuo messaggio ha un destinatario pubblico. È possibile evitare di rivelare il destinatario utilizzando Ccn.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] I { $count } destinatari inseriti nei campi A e Cc possono vedere i rispettivi indirizzi. Puoi evitare di mostrare gli indirizzi dei destinatari utilizzando Ccn.
        *[other] I { $count } destinatari inseriti nei campi A e Cc possono vedere i rispettivi indirizzi. Puoi evitare di mostrare gli indirizzi dei destinatari utilizzando Ccn.
     }
 many-public-recipients-bcc =

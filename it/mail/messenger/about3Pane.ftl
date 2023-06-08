@@ -40,6 +40,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Mantieni i filtri quando si cambia cartella
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Menu filtro rapido
+quick-filter-bar-dropdown-unread =
+    .label = Non letto
+quick-filter-bar-dropdown-starred =
+    .label = Speciale
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Contatti
+quick-filter-bar-dropdown-tags =
+    .label = Etichette
+quick-filter-bar-dropdown-attachment =
+    .label = Allegati
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
