@@ -219,6 +219,15 @@ about-addressbook-selection-contacts-header = { $count } liên hệ đã chọn
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } danh sách đã chọn
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 = { $count } mục trong sổ địa chỉ đã chọn
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 = { $count } liên hệ đã chọn
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 = { $count } danh sách đã chọn
 about-addressbook-details-edit-photo =
     .title = Chỉnh sửa ảnh liên hệ
 about-addressbook-new-contact-header = Liên hệ mới
