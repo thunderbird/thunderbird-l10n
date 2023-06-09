@@ -98,9 +98,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = E-mail-címek
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Becenév
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Telefonszámok
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -228,6 +225,27 @@ about-addressbook-selection-contacts-header = { $count } kiválasztott névjegy
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } kiválasztott lista
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } kiválasztott címjegyzék-bejegyzés
+       *[other] { $count } kiválasztott címjegyzék-bejegyzés
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } kiválasztott névjegy
+       *[other] { $count } kiválasztott névjegy
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } kiválasztott lista
+       *[other] { $count } kiválasztott lista
+    }
 about-addressbook-details-edit-photo =
     .title = Névjegyfotó szerkesztése
 about-addressbook-new-contact-header = Új névjegy
