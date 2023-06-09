@@ -244,6 +244,9 @@ message-header-show-sender-full-address-description = 电子邮件地址将显�
 message-header-show-recipient-avatar =
     .label = 显示发件人头像
     .accesskey = p
+message-header-show-big-avatar =
+    .label = 更大的个人资料图片
+    .accesskey = g
 message-header-hide-label-column =
     .label = 隐藏标签列
     .accesskey = I
@@ -289,9 +292,6 @@ no-reply-reply-anyway-button = 仍然回复
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = 共计 { $total } 条消息，有 { $failures } 条因解密失败而未复制。
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

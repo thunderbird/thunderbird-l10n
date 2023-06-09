@@ -268,6 +268,10 @@ many-public-recipients-notice =
     { $count ->
        *[other] “收件人（To）”与“抄送（Cc）”共有 { $count } 位，他们可以看到彼此的邮箱地址。您可以改用“密送”来避免泄露收件人信息。
     }
+public-recipients-notice-single = 您的消息有一个公开的收件人。您可以改用密件抄送来避免泄露收件人。
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi = 共有 { $count } 位 “收件人（To）”与“抄送人（Cc）”，他们可以看到彼此的邮箱地址。您可以改用“密送”来避免泄露收件人信息。
 many-public-recipients-bcc =
     .label = 改用密送
     .accesskey = U
