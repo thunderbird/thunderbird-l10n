@@ -222,6 +222,15 @@ about-addressbook-selection-contacts-header = { $count } 位选定的联系人
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } 个选定的列表
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 = 已选 { $count } 位联系人
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 = 已选 { $count } 位联系人
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 = 已选 { $count } 个列表
 about-addressbook-details-edit-photo =
     .title = 编辑联系人照片
 about-addressbook-new-contact-header = 新建联系人
