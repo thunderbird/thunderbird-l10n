@@ -184,22 +184,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Kulcskezelő
     .accesskey = K
+openpgp-key-issue-notification-one = A végpontok közötti titkosításhoz meg kell oldani a kulcsproblémákat a következőnél: { $addr }
+openpgp-key-issue-notification-many = A végpontok közötti titkosításhoz meg kell oldani a kulcsproblémákat { $count } címzettnél.
+smime-cert-issue-notification-one = A végpontok közötti titkosításhoz meg kell oldani a tanúsítványproblémákat a következőnél: { $addr }
+smime-cert-issue-notification-many = A végpontok közötti titkosításhoz meg kell oldani a tanúsítványproblémákat { $count } címzettnél.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Nem lett beállítva, hogy végpontok közti titkosítással rendelkező üzeneteket küldjön innen: { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = A végpontok közötti titkosításhoz meg kell oldani a kulcsproblémákat a következőnél: { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = A végpontok közötti titkosításhoz meg kell oldani a kulcsproblémákat { $count } címzettnél.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = A végpontok közötti titkosításhoz meg kell oldani a tanúsítványproblémákat a következőnél: { $addr }
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = A végpontok közötti titkosításhoz meg kell oldani a tanúsítványproblémákat { $count } címzettnél.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = A végpontok közötti titkosításhoz meg kell oldani a kulcsproblémákat a következőnél: { $addr }.
@@ -287,6 +279,7 @@ many-public-recipients-notice =
         [one] Az üzenetének nyilvános címzettje van. Elkerülheti a címzettek közzétételét, ha helyette rejtett másolatot használ.
        *[other] A címzett és másolatot kapó { $count } partner látni fogja egymás címét. Elkerülheti a címzettek közzétételét, ha helyette rejtett másolatot használ.
     }
+public-recipients-notice-single = Az üzenetének nyilvános címzettje van. Elkerülheti a címzett közzétételét, ha helyette rejtett másolatot használ.
 many-public-recipients-bcc =
     .label = Helyette rejtett másolat használata
     .accesskey = H
