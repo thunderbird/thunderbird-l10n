@@ -40,6 +40,8 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Filters in stand houden bij het wisselen van mappen
+quick-filter-bar-dropdown-attachment =
+    .label = Bijlage
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
