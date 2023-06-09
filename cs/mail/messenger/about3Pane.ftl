@@ -44,6 +44,16 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Při změně složky ponechat zvolený filtr
+quick-filter-bar-dropdown-unread =
+    .label = Nepřečteno
+quick-filter-bar-dropdown-starred =
+    .label = S hvězdičkou
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Štítky
+quick-filter-bar-dropdown-attachment =
+    .label = Příloha
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
