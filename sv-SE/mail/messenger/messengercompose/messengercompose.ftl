@@ -183,22 +183,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Nyckelhanterare
     .accesskey = N
+openpgp-key-issue-notification-one = End-to-end kryptering kräver att man löser nyckelproblem för { $addr }
+openpgp-key-issue-notification-many = End-to-end kryptering kräver att nyckelproblem löses för { $count } mottagare.
+smime-cert-issue-notification-one = End-to-end kryptering kräver att certifikatproblem löses för { $addr }.
+smime-cert-issue-notification-many = End-to-end kryptering kräver att certifikatproblem löses för { $count } mottagare.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = { $addr } är inte konfigurerad för att skicka end-to-end-krypterade meddelanden.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = End-to-end kryptering kräver att man löser nyckelproblem för { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = End-to-end kryptering kräver att nyckelproblem löses för { $count } mottagare.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = End-to-end kryptering kräver att certifikatproblem löses för { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = End-to-end kryptering kräver att certifikatproblem löses för { $count } mottagare.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = End-to-end-kryptering kräver att man löser nyckelproblem för { $addr }.
@@ -286,6 +278,14 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] Ditt meddelande har en offentlig mottagare. Du kan undvika att avslöja mottagare genom att använda Dold kopia istället.
+       *[other] { $count } mottagare i fältet Till och Kopia kan se varandras adresser. Du kan undvika att avslöja mottagare genom att använda Dold kopia istället.
+    }
+public-recipients-notice-single = Ditt meddelande har en offentlig mottagare. Du kan undvika att avslöja mottagaren genom att använda Dold kopia istället.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } mottagare i fältet Till och Kopia kan se varandras adresser. Du kan undvika att avslöja mottagare genom att använda Dold kopia istället.
        *[other] { $count } mottagare i fältet Till och Kopia kan se varandras adresser. Du kan undvika att avslöja mottagare genom att använda Dold kopia istället.
     }
 many-public-recipients-bcc =

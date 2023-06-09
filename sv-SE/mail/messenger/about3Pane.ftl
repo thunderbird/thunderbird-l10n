@@ -40,6 +40,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Behåller filtreringen vid byte av mapp
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Snabbfiltermeny
+quick-filter-bar-dropdown-unread =
+    .label = Olästa
+quick-filter-bar-dropdown-starred =
+    .label = Märkta
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Etiketter
+quick-filter-bar-dropdown-attachment =
+    .label = Bilaga
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
