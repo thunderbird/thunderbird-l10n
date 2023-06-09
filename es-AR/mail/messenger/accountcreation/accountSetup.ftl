@@ -22,6 +22,8 @@ account-setup-name-input =
     .placeholder = Juan Pérez
 account-setup-name-info-icon =
     .title = Su nombre, como se mostrará al resto
+account-setup-name-warning-icon =
+    .title = Ingrese su nombre
 account-setup-email-label = Dirección de correo electrónico
     .accesskey = e
 account-setup-email-input =
@@ -275,6 +277,8 @@ account-setup-calendar-name-input =
 account-setup-calendar-color-label = Color
 account-setup-calendar-refresh-label = Actualizar
 account-setup-calendar-refresh-manual = A mano
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
 account-setup-calendar-refresh-interval =
     { $count ->
         [one] Cada minuto
