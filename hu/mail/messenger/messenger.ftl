@@ -246,6 +246,9 @@ message-header-show-sender-full-address-description = Az e-mail-cím a megjelen�
 message-header-show-recipient-avatar =
     .label = A feladó profilképének megjelenítése
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Nagyobb profilkép
+    .accesskey = g
 message-header-hide-label-column =
     .label = Címkék oszlop elrejtése
     .accesskey = r
@@ -291,9 +294,6 @@ no-reply-reply-anyway-button = Válasz mindenképp
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } / { $total } üzenetet nem sikerült visszafejteni, és nem lettek másolva.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

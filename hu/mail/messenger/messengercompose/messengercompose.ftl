@@ -280,6 +280,13 @@ many-public-recipients-notice =
        *[other] A címzett és másolatot kapó { $count } partner látni fogja egymás címét. Elkerülheti a címzettek közzétételét, ha helyette rejtett másolatot használ.
     }
 public-recipients-notice-single = Az üzenetének nyilvános címzettje van. Elkerülheti a címzett közzétételét, ha helyette rejtett másolatot használ.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] A címzett és másolatot kapó { $count } partner látni fogja egymás címét. Elkerülheti a címzettek közzétételét, ha helyette rejtett másolatot használ.
+       *[other] A címzett és másolatot kapó { $count } partner látni fogja egymás címét. Elkerülheti a címzettek közzétételét, ha helyette rejtett másolatot használ.
+    }
 many-public-recipients-bcc =
     .label = Helyette rejtett másolat használata
     .accesskey = H
