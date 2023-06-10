@@ -624,6 +624,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Encriptació d'extrem a extrem del correu electrònic
 account-settings = Paràmetres del compte
+email-e2ee-enable-info = Configureu comptes de correu electrònic i identitats per al xifratge d'extrem a extrem en els Paràmetres del compte.
 email-e2ee-automatism = Ús automàtic del xifratge
 email-e2ee-automatism-pre =
     El { -brand-short-name } pot ajudar-vos activant o desactivant automàticament el xifratge mentre redacteu un correu electrònic.
@@ -632,6 +633,11 @@ email-e2ee-auto-on =
     .label = Activa automàticament el xifratge quan sigui possible
 email-e2ee-auto-off =
     .label = Desactiva automàticament el xifratge quan canviïn els destinataris i el xifratge ja no sigui possible
+email-e2ee-auto-off-notify =
+    .label = Mostra una notificació sempre que el xifratge es desactivi automàticament
+email-e2ee-automatism-post =
+    Les decisions automàtiques es poden alterar activant o desactivant manualment el xifratge en redactar un missatge.
+    Nota: el xifratge sempre s'activa automàticament quan es respon a un missatge xifrat.
 
 ## Chat Tab
 
