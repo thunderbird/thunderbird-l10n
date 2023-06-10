@@ -5,6 +5,31 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Mostra/amaga la barra de filtre ràpid
+quick-filter-button-label = Filtre ràpid
+thread-pane-header-display-button =
+    .title = Opcions de visualització de la llista de missatges
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } missatge
+       *[other] { $count } missatges
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } seleccionat
+       *[other] { $count } seleccionats
+    }
+thread-pane-header-context-table-view =
+    .label = Vista de taula
+thread-pane-header-context-cards-view =
+    .label = Vista de targetes
+thread-pane-header-context-hide =
+    .label = Amaga la capçalera de la llista de missatges
 
 ## Quick Filter Bar
 
@@ -15,6 +40,20 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Continua aplicant els filtres quan canviï de carpeta
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Menú de filtre ràpid
+quick-filter-bar-dropdown-unread =
+    .label = Per llegir
+quick-filter-bar-dropdown-starred =
+    .label = Destacat
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Contacte
+quick-filter-bar-dropdown-tags =
+    .label = Etiquetes
+quick-filter-bar-dropdown-attachment =
+    .label = Adjuncions
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -118,6 +157,8 @@ quick-filter-bar-gloda-upsell-line2 = Premeu Retorn un altre cop per continuar l
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Recupera
 folder-pane-get-all-messages-menuitem =
     .label = Recupera tots els missatges nous
     .accesskey = p
