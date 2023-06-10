@@ -183,22 +183,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Key Manager
     .accesskey = M
+openpgp-key-issue-notification-one = End-to-end encryption requires resolving key issues for { $addr }
+openpgp-key-issue-notification-many = End-to-end encryption requires resolving key issues for { $count } recipients.
+smime-cert-issue-notification-one = End-to-end encryption requires resolving certificate issues for { $addr }.
+smime-cert-issue-notification-many = End-to-end encryption requires resolving certificate issues for { $count } recipients.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = You are not set up to send end-to-end encrypted messages from { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = End-to-end encryption requires resolving key issues for { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = End-to-end encryption requires resolving key issues for { $count } recipients.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = End-to-end encryption requires resolving certificate issues for { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = End-to-end encryption requires resolving certificate issues for { $count } recipients.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = End-to-end encryption requires resolving key issues for { $addr }.
@@ -284,6 +276,13 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] Your message has a public recipient. You can avoid disclosing recipients by using Bcc instead.
+       *[other] The { $count } recipients in To and Cc will see each other’s address. You can avoid disclosing recipients by using Bcc instead.
+    }
+public-recipients-notice-single = Your message has a public recipient. You can avoid disclosing the recipient by using Bcc instead.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
        *[other] The { $count } recipients in To and Cc will see each other’s address. You can avoid disclosing recipients by using Bcc instead.
     }
 many-public-recipients-bcc =
