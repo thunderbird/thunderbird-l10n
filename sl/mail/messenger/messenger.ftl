@@ -256,6 +256,9 @@ message-header-show-sender-full-address-description = E-poštni naslov bo prikaz
 message-header-show-recipient-avatar =
     .label = Prikaži sliko profila pošiljatelja
     .accesskey = s
+message-header-show-big-avatar =
+    .label = Večja slika profila
+    .accesskey = č
 message-header-hide-label-column =
     .label = Skrij stolpec z oznakami
     .accesskey = o
@@ -301,10 +304,17 @@ no-reply-reply-anyway-button = Vseeno odgovori
 
 ## error messages
 
+decrypt-and-copy-failures =
+    { $failures ->
+        [one] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato ni bilo kopirano.
+        [two] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato nista bili kopirani.
+        [few] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato niso bila kopirana.
+       *[other] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato niso bila kopirana.
+    }
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures =
+decrypt-and-copy-failures-multiple =
     { $failures ->
         [one] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato ni bilo kopirano.
         [two] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato nista bili kopirani.

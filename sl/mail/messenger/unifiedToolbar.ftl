@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Na voljo samo za komponento Koledar
 customize-palette-tasks-specific-title = Na voljo samo za komponento Opravila
 customize-palette-chat-specific-title = Na voljo samo za komponento Klepet
 customize-palette-settings-specific-title = Na voljo samo za komponento Nastavitve
+customize-palette-extension-specific-title = Na voljo samo za to komponento
 
 ## Unified toolbar customization palette context menu
 

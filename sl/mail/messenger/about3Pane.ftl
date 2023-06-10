@@ -35,6 +35,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Obdrži uporabo filtrov ob menjavi map
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Meni hitrega filtra
+quick-filter-bar-dropdown-unread =
+    .label = Neprebrana
+quick-filter-bar-dropdown-starred =
+    .label = Označena z zvezdico
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Stik
+quick-filter-bar-dropdown-tags =
+    .label = Oznake
+quick-filter-bar-dropdown-attachment =
+    .label = Priponka
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -162,9 +176,23 @@ folder-pane-header-context-hide =
     .label = Skrij glavo podokna map
 folder-pane-show-total-toggle =
     .label = Prikaži skupno število sporočil
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Prikaži velikost mape
+folder-pane-mode-context-button =
+    .title = Možnosti načina mape
 folder-pane-mode-context-toggle-compact-mode =
     .label = Zgoščen pogled
     .accesskey = Z
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 neprebrano sporočilo
+        [two] { $count } neprebrani sporočili
+        [few] { $count } neprebrana sporočila
+       *[other] { $count } neprebranih sporočil
+    }
 
 ## Message thread pane
 
