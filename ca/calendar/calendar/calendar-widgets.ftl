@@ -10,7 +10,16 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Calendaris
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = S'ha silenciat el calendari { $calendarName }
 calendar-enable-button = Habilita
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Opcions de calendari { $calendarName }
 calendar-import-new-calendar = Calendari nou…
     .title = Creeu o subscriviu-vos a un calendari nou
 calendar-refresh-calendars =
@@ -32,6 +41,9 @@ calendar-nav-button-prev-tooltip-multiweek =
 calendar-nav-button-prev-tooltip-month =
     .title = Mes anterior
     .accesskey = r
+calendar-nav-button-prev-tooltip-year =
+    .title = Any anterior
+    .accesskey = n
 calendar-nav-button-next-tooltip-day =
     .title = Dia següent
     .accesskey = t
@@ -44,6 +56,9 @@ calendar-nav-button-next-tooltip-multiweek =
 calendar-nav-button-next-tooltip-month =
     .title = Mes següent
     .accesskey = t
+calendar-nav-button-next-tooltip-year =
+    .title = Any següent
+    .accesskey = s
 calendar-today-button-tooltip =
     .title = Vés a avui
 calendar-view-toggle-day = Dia
@@ -57,6 +72,16 @@ calendar-view-toggle-month = Mes
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Opcions de disseny del calendari
+calendar-find-events-menu-option =
+    .label = Subfinestra de cerca de cites
+calendar-hide-weekends-option =
+    .label = Només els dies feiners
+calendar-define-workweek-option =
+    .label = Defineix els dies feiners
+calendar-show-tasks-calendar-option =
+    .label = Mostra les tasques al calendari
 
 ## Calendar Context Menu
 

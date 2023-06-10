@@ -5,21 +5,17 @@
 dock-options-window-dialog =
     .title = Opcions de la icona de l'aplicació
     .style = width: 45em;
-
+dock-options-window-dialog2 =
+    .title = Opcions de la icona de l'aplicació
 bounce-system-dock-icon =
     .label = Anima la icona de l'aplicació en rebre un missatge nou
     .accesskey = i
-
 dock-icon-legend = Distintiu de la icona de l'aplicació
-
 dock-icon-show-label =
     .value = Afegeix a la icona de l'aplicació:
-
 count-unread-messages-radio =
     .label = Nombre de missatges per llegir
     .accesskey = m
-
 count-new-messages-radio =
     .label = Nombre de missatges nous
     .accesskey = N
-
