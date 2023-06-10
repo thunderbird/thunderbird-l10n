@@ -184,22 +184,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Xestor de chaves
     .accesskey = X
+openpgp-key-issue-notification-one = O cifrado de extremo a extremo require a resolución de problemas de chave de { $addr }
+openpgp-key-issue-notification-many = O cifrado de extremo a extremo require a resolución de problemas de chave de { $count } destinatarios.
+smime-cert-issue-notification-one = O cifrado de extremo a extremo require a resolución de problemas de certificado de { $addr }.
+smime-cert-issue-notification-many = O cifrado de extremo a extremo require a resolución de problemas de certificado de { $count } destinatarios.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Non está configurado o envío de mensaxes cifradas de extremo a extremo desde { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = O cifrado de extremo a extremo require a resolución de problemas de chave de { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = O cifrado de extremo a extremo require a resolución de problemas de chave de { $count } destinatarios.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = O cifrado de extremo a extremo require a resolución de problemas de certificado de { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = O cifrado de extremo a extremo require a resolución de problemas de certificado de { $count } destinatarios.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = A cifraxe de extremo a extremo require a resolución de problemas de chave de { $addr }
@@ -289,6 +281,7 @@ many-public-recipients-notice =
         [one] A súa mensaxe ten un destinatario público. Pode agochar os destinatarios usando en troques o campo Cco.
        *[other] Os { $count } destinatarios en Para e Cc poden ver os enderezos uns dos outros. Pode evitar revelar os destinatarios usando no seu lugar Cco.
     }
+public-recipients-notice-single = A súa mensaxe ten un destinatario público. Pode evitar revelar o destinatario usando Cco no seu lugar.
 many-public-recipients-bcc =
     .label = Mudar para Cco (con copia oculta)
     .accesskey = u

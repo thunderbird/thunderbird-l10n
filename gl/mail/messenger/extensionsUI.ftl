@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Os complementos maliciosos poden roubar a súa información privada ou comprometer o seu computador. Instale este complemento só se confía na orixe.
 webext-perms-learn-more = Máis información
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = Engadiuse { $addonName }.
