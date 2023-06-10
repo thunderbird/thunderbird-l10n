@@ -19,6 +19,15 @@ thread-pane-folder-message-count =
         [few] { $count } sporočila
        *[other] { $count } sporočil
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } izbrano
+        [two] { $count } izbrani
+        [few] { $count } izbrana
+       *[other] { $count } izbranih
+    }
 thread-pane-header-context-table-view =
     .label = Pogled razpredelnice
 thread-pane-header-context-cards-view =
