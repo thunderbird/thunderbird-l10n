@@ -184,22 +184,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Anahtar yöneticisi
     .accesskey = n
+openpgp-key-issue-notification-one = Uçtan uca şifreleme için { $addr } anahtar sorunlarını çözmeniz gerekiyor
+openpgp-key-issue-notification-many = Uçtan uca şifreleme için { $count } alıcının anahtar sorunlarını çözmeniz gerekiyor.
+smime-cert-issue-notification-one = Uçtan uca şifreleme için { $addr } sertifika sorunlarını çözmeniz gerekiyor.
+smime-cert-issue-notification-many = Uçtan uca şifreleme için { $count } alıcının sertifika sorunlarını çözmeniz gerekiyor.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = { $addr } adresinden uçtan uca şifreli ileti göndermek için gereken ayarları yapmadınız.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Uçtan uca şifreleme için { $addr } anahtar sorunlarını çözmeniz gerekiyor
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Uçtan uca şifreleme için { $count } alıcının anahtar sorunlarını çözmeniz gerekiyor.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Uçtan uca şifreleme için { $addr } sertifika sorunlarını çözmeniz gerekiyor.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Uçtan uca şifreleme için { $count } alıcının sertifika sorunlarını çözmeniz gerekiyor.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Uçtan uca şifreleme için { $addr } anahtar sorunlarını çözmeniz gerekiyor.
@@ -287,6 +279,13 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] İletinizin görünür bir alıcısı var. Bunun yerine Bcc’yi kullanarak alıcıların açığa çıkmasını önleyebilirsiniz.
+       *[other] Kime ve Cc alanlarındaki { $count } alıcı birbirlerinin adresini görebilecek. Bunun yerine Bcc kullanarak alıcıları göstermekten kaçınabilirsiniz.
+    }
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] Kime ve Cc alanlarındaki { $count } alıcı birbirlerinin adresini görebilecek. Bunun yerine Bcc kullanarak alıcıları göstermekten kaçınabilirsiniz.
        *[other] Kime ve Cc alanlarındaki { $count } alıcı birbirlerinin adresini görebilecek. Bunun yerine Bcc kullanarak alıcıları göstermekten kaçınabilirsiniz.
     }
 many-public-recipients-bcc =

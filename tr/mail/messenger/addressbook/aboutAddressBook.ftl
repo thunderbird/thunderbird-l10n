@@ -225,6 +225,27 @@ about-addressbook-selection-contacts-header = { $count } kişi seçili
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } liste seçili
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } adres defteri kaydı seçildi
+       *[other] { $count } adres defteri kaydı seçildi
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } kişi seçildi
+       *[other] { $count } kişi seçildi
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } liste seçildi
+       *[other] { $count } liste seçildi
+    }
 about-addressbook-details-edit-photo =
     .title = Kişi fotoğrafını düzenle
 about-addressbook-new-contact-header = Yeni kişi

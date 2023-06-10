@@ -24,12 +24,16 @@ account-setup-name-input =
     .placeholder = Ahmet Yılmaz
 account-setup-name-info-icon =
     .title = Başkalarına gösterilecek adınız
+account-setup-name-warning-icon =
+    .title = Lütfen adınızı yazın
 account-setup-email-label = E-posta adresi
     .accesskey = E
 account-setup-email-input =
     .placeholder = ahmet.yilmaz@example.com
 account-setup-email-info-icon =
     .title = Mevcut e-posta adresiniz
+account-setup-email-warning-icon =
+    .title = Geçersiz e-posta adresi
 account-setup-password-label = Parola
     .accesskey = P
     .title = İsteğe bağlı, yalnızca kullanıcı adını doğrulamak için kullanılır
@@ -275,6 +279,8 @@ account-setup-calendar-name-input =
 account-setup-calendar-color-label = Renk
 account-setup-calendar-refresh-label = Tazele
 account-setup-calendar-refresh-manual = Elle
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
 account-setup-calendar-refresh-interval =
     { $count ->
         [one] Her dakika
