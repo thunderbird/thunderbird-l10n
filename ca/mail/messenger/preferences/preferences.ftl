@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Afegeix un proveïdor d'OpenSearch
 add-opensearch-provider-text = Introduïu l'URL del proveïdor d'OpenSearch que voleu afegir. Utilitzeu l'URL directe del fitxer de descripció d'OpenSearch o un URL en què es pugui descobrir automàticament.
 adding-opensearch-provider-failed-title = No s'ha pogut afegir el proveïdor d'OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = No s'ha pogut afegir el proveïdor d'OpenSearch per a { $url }.
 minimize-to-tray-label =
     .label = En minimitzar el { -brand-short-name }, mou-lo a la safata
@@ -620,6 +622,16 @@ certificate-button =
 security-devices-button =
     .label = Dispositius de seguretat…
     .accesskey = D
+email-e2ee-header = Encriptació d'extrem a extrem del correu electrònic
+account-settings = Paràmetres del compte
+email-e2ee-automatism = Ús automàtic del xifratge
+email-e2ee-automatism-pre =
+    El { -brand-short-name } pot ajudar-vos activant o desactivant automàticament el xifratge mentre redacteu un correu electrònic.
+    L'activació/desactivació automàtica es basa en la disponibilitat de claus o certificats vàlids i acceptats dels corresponsals.
+email-e2ee-auto-on =
+    .label = Activa automàticament el xifratge quan sigui possible
+email-e2ee-auto-off =
+    .label = Desactiva automàticament el xifratge quan canviïn els destinataris i el xifratge ja no sigui possible
 
 ## Chat Tab
 
