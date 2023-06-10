@@ -183,22 +183,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Schlüsselverwaltung
     .accesskey = w
+openpgp-key-issue-notification-one = Die Ende-zu-Ende-Verschlüsselung erfordert das Beheben eines Problems mit dem Schlüssel von { $addr }.
+openpgp-key-issue-notification-many = Die Ende-zu-Ende-Verschlüsselung erfordert das Beheben von Problemen mit den Schlüsseln von { $count } Empfängern.
+smime-cert-issue-notification-one = Die Ende-zu-Ende-Verschlüsselung erfordert das Beheben eines Problems mit dem Zertifikat von { $addr }.
+smime-cert-issue-notification-many = Die Ende-zu-Ende-Verschlüsselung erfordert das Beheben von Problemen mit den Zertifikaten von { $count } Empfängern.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Sie sind nicht für den Versand von Ende-zu-Ende-verschlüsselten Nachrichten von { $addr } eingerichtet.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Die Ende-zu-Ende-Verschlüsselung erfordert das Beheben eines Problems mit dem Schlüssel von { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Die Ende-zu-Ende-Verschlüsselung erfordert das Beheben von Problemen mit den Schlüsseln von { $count } Empfängern.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Die Ende-zu-Ende-Verschlüsselung erfordert das Beheben eines Problems mit dem Zertifikat von { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Die Ende-zu-Ende-Verschlüsselung erfordert das Beheben von Problemen mit den Zertifikaten von { $count } Empfängern.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Die Ende-zu-Ende-Verschlüsselung erfordert die Lösung von Schlüsselproblemen für { $addr }.
@@ -284,6 +276,13 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] Die Nachricht hat einen mitlesbaren Empfänger. Dies kann verhindert werden, indem das Feld "Blindkopie (BCC)" für den Empfänger verwendet wird.
+       *[other] Die { $count } Empfänger in den Feldern "An" und "Kopie (CC)" sehen gegenseitig ihre Adressen. Dies kann verhindert werden, indem das Feld "Blindkopie (BCC)" für die Empfänger verwendet wird.
+    }
+public-recipients-notice-single = Ihre Nachricht hat einen öffentlichen Empfänger. Sie können die Offenlegung des Empfängers vermeiden, indem Sie stattdessen BCC verwenden.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
        *[other] Die { $count } Empfänger in den Feldern "An" und "Kopie (CC)" sehen gegenseitig ihre Adressen. Dies kann verhindert werden, indem das Feld "Blindkopie (BCC)" für die Empfänger verwendet wird.
     }
 many-public-recipients-bcc =
