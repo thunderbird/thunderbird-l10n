@@ -39,6 +39,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Бумаларды ауыстыру кезінде сүзгілерді іске асырылған күйінде ұстау
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Жедел сүзгі мәзірі
+quick-filter-bar-dropdown-unread =
+    .label = Оқылмаған
+quick-filter-bar-dropdown-starred =
+    .label = Жұлдызы бар
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Контакт
+quick-filter-bar-dropdown-tags =
+    .label = Тегтер
+quick-filter-bar-dropdown-attachment =
+    .label = Салыным
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
