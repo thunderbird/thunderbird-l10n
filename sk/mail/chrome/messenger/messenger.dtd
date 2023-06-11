@@ -184,8 +184,8 @@
 <!ENTITY sortBySizeCmd.accesskey "e">
 <!ENTITY sortByStatusCmd.label "Stav">
 <!ENTITY sortByStatusCmd.accesskey "v">
-<!ENTITY sortByTagsCmd.label "Značky">
-<!ENTITY sortByTagsCmd.accesskey "Z">
+<!ENTITY sortByTagsCmd.label "Štítky">
+<!ENTITY sortByTagsCmd.accesskey "t">
 <!ENTITY sortByJunkStatusCmd.label "Stĺpec Spam">
 <!ENTITY sortByJunkStatusCmd.accesskey "c">
 <!ENTITY sortBySubjectCmd.label "Predmet">
@@ -392,8 +392,8 @@
 <!ENTITY watchThreadMenu.label "Sledovať vlákno">
 <!ENTITY watchThreadMenu.accesskey "S">
 <!ENTITY watchThreadMenu.key "w">
-<!ENTITY tagMenu.label "Značka">
-<!ENTITY tagMenu.accesskey "Z">
+<!ENTITY tagMenu.label "Štítok">
+<!ENTITY tagMenu.accesskey "t">
 <!ENTITY tagCmd0.key "0">
 <!ENTITY tagCmd1.key "1">
 <!ENTITY tagCmd2.key "2">
@@ -541,7 +541,7 @@
 <!ENTITY searchItem.title "Rýchle vyhľadávanie">
 <!ENTITY mailViewsToolbarItem.title "Zobrazenie e-mailov">
 <!ENTITY folderLocationToolbarItem.title "Umiestnenie priečinka">
-<!ENTITY tagButton.label "Značka">
+<!ENTITY tagButton.label "Štítok">
 <!ENTITY compactButton.label "Vykonať údržbu">
 <!ENTITY appmenuButton.label "Hlavná ponuka">
 
@@ -571,7 +571,7 @@
 <!ENTITY stopButton.tooltip "Zastaviť aktuálny prenos">
 <!ENTITY addressBookButton.tooltip "Otvorí adresár">
 <!ENTITY chatButton.tooltip "Zobrazí kartu Konverzácie">
-<!ENTITY tagButton.tooltip "Priradí správe značku">
+<!ENTITY tagButton.tooltip "Priradí správe štítok">
 <!ENTITY compactButton.tooltip "Odstráni vymazané správy z označeného priečinka">
 <!ENTITY appmenuButton1.tooltip "Zobrazí ponuku aplikácie &brandShortName;">
 
@@ -604,9 +604,9 @@
 <!ENTITY appmenuSelectFlagged.label "Vybrať správy označené hviezdičkou">
 
 <!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nová značka…">
+<!ENTITY addNewTag.label "Nový štítok…">
 <!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Spravovať značky…">
+<!ENTITY manageTags.label "Spravovať štítky…">
 <!ENTITY manageTags.accesskey "S">
 
 <!-- Folder Pane -->
@@ -682,7 +682,7 @@
 <!ENTITY subjectColumn.label "Predmet">
 <!ENTITY dateColumn.label "Dátum">
 <!ENTITY priorityColumn.label "Priorita">
-<!ENTITY tagsColumn.label "Značka">
+<!ENTITY tagsColumn.label "Štítok">
 <!ENTITY accountColumn.label "Účet">
 <!ENTITY statusColumn.label "Stav">
 <!ENTITY sizeColumn.label "Veľkosť">
@@ -707,7 +707,7 @@
 <!ENTITY subjectColumn2.tooltip "Usporiadať podľa predmetu">
 <!ENTITY dateColumn2.tooltip "Usporiadať podľa dátumu">
 <!ENTITY priorityColumn2.tooltip "Usporiadať podľa priority">
-<!ENTITY tagsColumn2.tooltip "Usporiadať podľa značiek">
+<!ENTITY tagsColumn2.tooltip "Usporiadať podľa štítkov">
 <!ENTITY accountColumn2.tooltip "Usporiadať podľa účtov">
 <!ENTITY statusColumn2.tooltip "Usporiadať podľa stavu">
 <!ENTITY sizeColumn2.tooltip "Usporiadať podľa veľkosti">

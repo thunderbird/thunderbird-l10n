@@ -12,8 +12,8 @@
 <!ENTITY viewUnread.accesskey "N">
 <!ENTITY viewNotDeleted.label "Neodstránené">
 <!ENTITY viewNotDeleted.accesskey "d">
-<!ENTITY viewTags.label "Značky">
-<!ENTITY viewTags.accesskey "Z">
+<!ENTITY viewTags.label "Štítky">
+<!ENTITY viewTags.accesskey "t">
 <!ENTITY viewCustomViews.label "Vlastné pohľady">
 <!ENTITY viewCustomViews.accesskey "V">
 <!ENTITY viewVirtualFolder.label "Uložiť pohľad ako priečinok…">

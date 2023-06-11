@@ -43,7 +43,7 @@
 <!ENTITY markMessageUnread.label "Označiť ako neprečítané">
 <!ENTITY markMessageStarred.label "Pridať hviezdičku">
 <!ENTITY setPriority.label "Zmeniť prioritu na">
-<!ENTITY addTag.label "Priradiť správe značku">
+<!ENTITY addTag.label "Priradiť správe štítok">
 <!ENTITY setJunkScore.label "Nastaviť druh správy na">
 <!ENTITY deleteMessage.label "Odstrániť správu">
 <!ENTITY deleteFromPOP.label "Odstrániť zo servera POP">
