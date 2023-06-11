@@ -44,6 +44,16 @@ quick-filter-bar-sticky =
 # a dropdown menu.
 quick-filter-bar-dropdown =
     .title = Menú de filtro rápido
+quick-filter-bar-dropdown-unread =
+    .label = No leídos
+quick-filter-bar-dropdown-starred =
+    .label = Con estrella
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Contacto
+quick-filter-bar-dropdown-tags =
+    .label = Etiquetas
+quick-filter-bar-dropdown-attachment =
+    .label = Adjunto
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
