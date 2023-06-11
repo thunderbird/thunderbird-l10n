@@ -12,7 +12,7 @@ message-header-reply-to-list-name = Odpovedať na
 message-header-cc-list-name = Kópia
 message-header-bcc-list-name = Skrytá kópia
 message-header-newsgroups-list-name = Diskusné skupiny
-message-header-tags-list-name = Značky
+message-header-tags-list-name = Štítky
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.

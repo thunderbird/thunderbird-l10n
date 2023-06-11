@@ -3,9 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-window =
-    .title = Nová značka
+    .title = Nový štítok
 tag-name-label =
-    .value = Názov značky:
+    .value = Názov štítku:
     .accesskey = N
 tag-color-label =
     .value = Farba:

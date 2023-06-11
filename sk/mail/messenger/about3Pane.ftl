@@ -55,7 +55,7 @@ quick-filter-bar-dropdown-starred =
 quick-filter-bar-dropdown-inaddrbook =
     .label = Kontakt
 quick-filter-bar-dropdown-tags =
-    .label = Značky
+    .label = Štítky
 quick-filter-bar-dropdown-attachment =
     .label = Príloha
 # The tooltip for the filter button that causes us to filter results to only
@@ -84,10 +84,10 @@ quick-filter-bar-inaddrbook-label = Kontakt
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
 quick-filter-bar-tags =
-    .title = Zobraziť len správy s priradenou značkou
+    .title = Zobraziť len správy s priradeným štítkom
 # The label for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
-quick-filter-bar-tags-label = Značky
+quick-filter-bar-tags-label = Štítky
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment =
@@ -124,15 +124,15 @@ quick-filter-bar-textbox =
     .placeholder = Filtrovať tieto správy <{ quick-filter-bar-textbox-shortcut }>
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
-    .title = Režim filtrovania podľa značiek
+    .title = Režim filtrovania podľa štítkov
 # The Any-of tagging mode.
 quick-filter-bar-boolean-mode-any =
-    .label = Ktorákoľvek z
-    .title = Správa musí mať priradenú aspoň jednu z nasledujúcich značiek
+    .label = Ktorýkoľvek z
+    .title = Správa musí mať priradenú aspoň jeden z nasledujúcich štítkov
 # The All-of tagging mode.
 quick-filter-bar-boolean-mode-all =
     .label = Všetky uvedené
-    .title = Správa musí mať priradené všetky nasledujúce popisy
+    .title = Správa musí mať priradené všetky nasledujúce štítky
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
@@ -278,10 +278,10 @@ threadpane-column-header-size = Veľkosť
     .title = Usporiadať podľa veľkosti
 threadpane-column-label-size =
     .label = Veľkosť
-threadpane-column-header-tags = Značky
-    .title = Usporiadať podľa značiek
+threadpane-column-header-tags = Štítky
+    .title = Usporiadať podľa štítkov
 threadpane-column-label-tags =
-    .label = Značky
+    .label = Štítky
 threadpane-column-header-account = Účet
     .title = Usporiadať podľa účtov
 threadpane-column-label-account =
