@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Mai permetter
     .accesskey = M
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Rapportar ina website suspectusa
+    .accesskey = R
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Questa website dumonda l'access a tes apparats MIDI (Musical Instrument Digital Interface). L'access als apparats pon ins garantir cun installar in supplement.
+site-permission-install-first-prompt-midi-message = La segirezza da quest access n'è betg garantida. Cuntinuescha mo sche ti ta fidas da questa website.
 
 ##
 
@@ -53,6 +60,11 @@ webext-perms-update-menu-item = { $addonName } dumonda novas autorisaziuns
 
 ## Add-on removal warning
 
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Allontanar { $name } da { -brand-shorter-name }?
+addon-removal-button = Allontanar
+addon-removal-abuse-report-checkbox = Rapportar questa extensiun a { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -94,6 +106,7 @@ addon-install-error-incorrect-hash = Impussibel dad installar il supplement. El 
 addon-install-error-corrupt-file = Impussibel dad installar il supplement telechargià da questa pagina. El para dad esser donnegià.
 addon-install-error-file-access = Impussibel dad installar { $addonName } perquai che { -brand-short-name } na po betg modifitgar la datoteca necessaria.
 addon-install-error-not-signed = { -brand-short-name } ha impedì che questa pagina installeschia in supplement betg verifitgà.
+addon-install-error-invalid-domain = Impussibel dad installar il supplement { $addonName } da quest lieu.
 addon-local-install-error-network-failure = Impussibel dad installar quest supplement pervia d'ina errur en il sistem da datotecas.
 addon-local-install-error-incorrect-hash = Impussibel dad installar quest supplement. El na correspunda betg al supplement che { -brand-short-name } ha spetgà.
 addon-local-install-error-corrupt-file = Impussibel dad installar quest supplement. El para dad esser donnegià.

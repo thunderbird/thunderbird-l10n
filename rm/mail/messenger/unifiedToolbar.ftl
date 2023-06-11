@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Disponibel mo per il spazi «Chalend
 customize-palette-tasks-specific-title = Disponibel mo per il spazi «Incumbensas»
 customize-palette-chat-specific-title = Disponibel mo per il spazi «Chat»
 customize-palette-settings-specific-title = Disponibel mo per il spazi «Parameters»
+customize-palette-extension-specific-title = Mo disponibel per quest spazi
 
 ## Unified toolbar customization palette context menu
 

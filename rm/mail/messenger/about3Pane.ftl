@@ -17,6 +17,13 @@ thread-pane-folder-message-count =
         [one] { $count } messadi
        *[other] { $count } messadis
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } tschernì
+       *[other] { $count } tschernids
+    }
 thread-pane-header-context-table-view =
     .label = Vista da tabella
 thread-pane-header-context-cards-view =
@@ -33,6 +40,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Laschar activà ils criteris dals filters cun midar l'ordinatur
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Menu dal filter svelt
+quick-filter-bar-dropdown-unread =
+    .label = Nunlegì
+quick-filter-bar-dropdown-starred =
+    .label = Cun staila
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Contact
+quick-filter-bar-dropdown-tags =
+    .label = Etichettas
+quick-filter-bar-dropdown-attachment =
+    .label = Agiunta
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -158,9 +179,28 @@ folder-pane-header-context-hide =
     .label = Zuppentar il titel da la panela dad ordinaturs
 folder-pane-show-total-toggle =
     .label = Mussar il dumber total da messadis
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Mussar la grondezza da l'ordinatur
+folder-pane-mode-context-button =
+    .title = Opziuns dal modus ordinaturs
 folder-pane-mode-context-toggle-compact-mode =
     .label = Vista cumpacta
     .accesskey = C
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 messadi nunlegì
+       *[other] { $count } messadis nunlegids
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 messadi en total
+       *[other] { $count } messadis en total
+    }
 
 ## Message thread pane
 

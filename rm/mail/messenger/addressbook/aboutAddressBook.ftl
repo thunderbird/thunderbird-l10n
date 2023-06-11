@@ -98,9 +98,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = Adressas dad e-mail
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Surnum
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Numers da telefon
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -228,6 +225,27 @@ about-addressbook-selection-contacts-header = { $count } contacts tschernids
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } glistas tschernidas
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } endataziun tschernida en il cudeschet d'adressas
+       *[other] { $count } endataziuns tschernidas en il cudeschet d'adressas
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } contact tschernì
+       *[other] { $count } contacts tschernids
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } glista tschernida
+       *[other] { $count } glistas tschernidas
+    }
 about-addressbook-details-edit-photo =
     .title = Modifitgar la fotografia dal contact
 about-addressbook-new-contact-header = Nov contact

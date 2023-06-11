@@ -246,6 +246,9 @@ message-header-show-sender-full-address-description = L'adressa dad e-mail vegn 
 message-header-show-recipient-avatar =
     .label = Mussar il maletg da profil dal speditur
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Maletg da profil pli grond
+    .accesskey = g
 message-header-hide-label-column =
     .label = Zuppentar la colonna «Etichettas»
     .accesskey = l
@@ -291,10 +294,15 @@ no-reply-reply-anyway-button = Tuttina respunder
 
 ## error messages
 
+decrypt-and-copy-failures = I n'è betg reussì da decriptar { $failures } da { $total } messadis. Quels n'èn betg vegnids copiads.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = I n'è betg reussì da decriptar { $failures } da { $total } messadis. Quels n'èn betg vegnids copiads.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] I n'è betg reussì da decriptar e copiar { $failures } messadi da { $total } en total.
+       *[other] I n'è betg reussì da decriptar e copiar { $failures } messadis da { $total } en total.
+    }
 
 ## Spaces toolbar
 
