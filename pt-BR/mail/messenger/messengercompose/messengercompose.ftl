@@ -280,7 +280,14 @@ many-public-recipients-notice =
         [one] Sua mensagem tem um destinatário público. Você pode evitar revelar destinatários usando Cco em vez de Para ou Cc.
        *[other] Os { $count } destinatários em Para e Cc irão ver os endereços uns dos outros. Você pode evitar revelar destinatários usando Cco.
     }
-public-recipients-notice-single = Sua mensagem tem um destinatário público. Você pode evitar expor o destinatário usando Cco.
+public-recipients-notice-single = Sua mensagem tem um destinatário público. Você pode evitar revelar o destinatário usando Cco.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] Há um destinatário em Para ou Cc. Você pode evitar revelar destinatários usando Cco.
+       *[other] Os { $count } destinatários em Para e Cc irão ver os endereços uns dos outros. Você pode evitar revelar destinatários usando Cco.
+    }
 many-public-recipients-bcc =
     .label = Mudar para Cco (com cópia oculta)
     .accesskey = u
