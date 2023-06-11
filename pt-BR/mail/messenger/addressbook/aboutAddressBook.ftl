@@ -98,9 +98,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = Endereços de email
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Apelido
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Números de telefone
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -228,6 +225,27 @@ about-addressbook-selection-contacts-header = { $count } contatos selecionados
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } listas selecionadas
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } item selecionado do catálogo de endereços
+       *[other] { $count } itens selecionados do catálogo de endereços
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } contato selecionado
+       *[other] { $count } contatos selecionados
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } lista selecionada
+       *[other] { $count } listas selecionadas
+    }
 about-addressbook-details-edit-photo =
     .title = Editar foto do contato
 about-addressbook-new-contact-header = Novo contato

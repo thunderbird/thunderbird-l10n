@@ -183,22 +183,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gerenciador de chaves
     .accesskey = G
+openpgp-key-issue-notification-one = A criptografia de ponta a ponta requer a resolução de problemas de chave de { $addr }
+openpgp-key-issue-notification-many = A criptografia de ponta a ponta requer a resolução de problemas de chave de { $count } destinatários.
+smime-cert-issue-notification-one = A criptografia de ponta a ponta requer a resolução de problemas de certificado de { $addr }.
+smime-cert-issue-notification-many = A criptografia de ponta a ponta requer a resolução de problemas de certificado de { $count } destinatários.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Não está configurado enviar mensagens criptografadas de ponta a ponta de { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = A criptografia de ponta a ponta requer a resolução de problemas de chave de { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = A criptografia de ponta a ponta requer a resolução de problemas de chave de { $count } destinatários.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = A criptografia de ponta a ponta requer a resolução de problemas de certificado de { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = A criptografia de ponta a ponta requer a resolução de problemas de certificado de { $count } destinatários.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = A criptografia de ponta a ponta requer a resolução de problemas de chave de { $addr }.
@@ -288,6 +280,7 @@ many-public-recipients-notice =
         [one] Sua mensagem tem um destinatário público. Você pode evitar revelar destinatários usando Cco em vez de Para ou Cc.
        *[other] Os { $count } destinatários em Para e Cc irão ver os endereços uns dos outros. Você pode evitar revelar destinatários usando Cco.
     }
+public-recipients-notice-single = Sua mensagem tem um destinatário público. Você pode evitar expor o destinatário usando Cco.
 many-public-recipients-bcc =
     .label = Mudar para Cco (com cópia oculta)
     .accesskey = u
