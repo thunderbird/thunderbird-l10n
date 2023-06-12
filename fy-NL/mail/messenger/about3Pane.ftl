@@ -40,6 +40,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Hâld filters tapast wylst wikseljen fan mappen?
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Snelfiltermenu
+quick-filter-bar-dropdown-unread =
+    .label = Net lêzen
+quick-filter-bar-dropdown-starred =
+    .label = Mei stjer
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Labels
+quick-filter-bar-dropdown-attachment =
+    .label = Bylage
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =

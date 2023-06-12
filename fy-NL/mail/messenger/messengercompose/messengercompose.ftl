@@ -184,22 +184,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Kaaibehearder
     .accesskey = h
+openpgp-key-issue-notification-one = End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $addr }
+openpgp-key-issue-notification-many = End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $count } ûntfangers.
+smime-cert-issue-notification-one = End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $addr }
+smime-cert-issue-notification-many = End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $count } ûntfangers.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Jo hawwe Thunderbird net ynsteld om ein-ta-ein-fersifere berjochten te ferstjoeren fan { $addr } ôf.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $count } ûntfangers.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $addr }
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $count } ûntfangers.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $addr }.
@@ -288,6 +280,14 @@ many-public-recipients-notice =
     { $count ->
         [one] Jo berjocht hat in iepenbiere ûntfanger. Jo kinne foarkomme dat ûntfangers toand wurde troch yn stee hjirfan Bcc te brûken.
        *[other] De { $count } ûntfangers yn Oan en Cc sille de adressen fan de oaren sjen. Jo kinne foarkomme dat ûntfangers toand wurde troch yn stee hjirfan Bcc te brûken.
+    }
+public-recipients-notice-single = Jo berjocht hat in iepenbiere ûntfanger. Jo kinne foarkomme dat de ûntfanger bekend makke wurdt troch yn stee derfan Bcc te brûken.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] De { $count } ûntfangers yn Oan en Cc sille inoars adres sjen. Jo kinne foarkomme dat ûntfangers toand wurde troch yn stee hjirfan Bcc te brûken.
+       *[other] De { $count } ûntfangers yn Oan en Cc sille inoars adres sjen. Jo kinne foarkomme dat ûntfangers toand wurde troch yn stee hjirfan Bcc te brûken.
     }
 many-public-recipients-bcc =
     .label = Yn stee dêrfan Bcc brûke

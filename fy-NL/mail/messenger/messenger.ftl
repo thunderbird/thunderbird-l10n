@@ -246,6 +246,9 @@ message-header-show-sender-full-address-description = It e-mailadres sil ûnder 
 message-header-show-recipient-avatar =
     .label = Profylôfbylding ôfstjoerder toane
     .accesskey = P
+message-header-show-big-avatar =
+    .label = Gruttere profylôfbylding
+    .accesskey = o
 message-header-hide-label-column =
     .label = Kolomlabels ferstopje
     .accesskey = b
@@ -291,9 +294,6 @@ no-reply-reply-anyway-button = Dochs antwurdzje
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } fan { $total } berjochten koene net ûntsifere wurde en binne net kopiearre.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
