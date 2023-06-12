@@ -189,22 +189,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Менеджер ключів
     .accesskey = М
+openpgp-key-issue-notification-one = Наскрізне шифрування вимагає розв'язання проблем ключів для { $addr }
+openpgp-key-issue-notification-many = Наскрізне шифрування вимагає розв'язання проблем ключів для { $count } одержувачів
+smime-cert-issue-notification-one = Наскрізне шифрування вимагає розв'язання проблем сертифікату для { $addr }
+smime-cert-issue-notification-many = Наскрізне шифрування вимагає розв'язання проблем сертифікату для { $count } одержувачів
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Ви не налаштували надсилання повідомлення з наскрізним шифруванням з { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Наскрізне шифрування вимагає розв'язання проблем ключів для { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Наскрізне шифрування вимагає розв'язання проблем ключів для { $count } одержувачів
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Наскрізне шифрування вимагає розв'язання проблем сертифікату для { $addr }
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Наскрізне шифрування вимагає розв'язання проблем сертифікату для { $count } одержувачів
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Наскрізне шифрування потребує розв'язання проблем з ключем для { $addr }.
@@ -296,6 +288,15 @@ many-public-recipients-notice =
         [one] Ваше повідомлення має публічного отримувача. Ви можете уникнути розкриття адрес отримувачів, скориставшись натомість полем ПК (прихована копія).
         [few] { $count } отримувачі в полях Кому та Копія бачитимуть всіх адресатів. Ви можете уникнути розкриття адрес отримувачів, скориставшись натомість полем ПК (прихована копія).
        *[many] { $count } отримувачів у полях Кому та Копія бачитимуть всіх адресатів. Ви можете уникнути розкриття адрес отримувачів, скориставшись натомість полем ПК (прихована копія).
+    }
+public-recipients-notice-single = Ваше повідомлення має публічного адресата. Ви можете уникнути розкриття адресатів, скориставшись прихованою копією.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } адресат у полях Кому та Копія бачитиме всі адреси. Ви можете уникнути розкриття адресатів, скориставшись натомість полем ПК (прихована копія).
+        [few] { $count } адресати у полях Кому та Копія бачитимуть усі адреси. Ви можете уникнути розкриття адресатів, скориставшись натомість полем ПК (прихована копія).
+       *[many] { $count } адресатів у полях Кому та Копія бачитимуть усі адреси. Ви можете уникнути розкриття адресатів, скориставшись натомість полем ПК (прихована копія).
     }
 many-public-recipients-bcc =
     .label = Використовувати приховану копію натомість

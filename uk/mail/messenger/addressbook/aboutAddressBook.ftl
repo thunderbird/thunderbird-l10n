@@ -98,9 +98,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = Адреси електронної пошти
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Псевдонім
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Номери телефону
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -234,6 +231,30 @@ about-addressbook-selection-contacts-header = Вибрано { $count } конт
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = Вибрано { $count } списків
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } вибраний запис адресної книги
+        [few] { $count } вибрані записи адресної книги
+       *[many] { $count } вибраних записів адресної книги
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } вибраний контакт
+        [few] { $count } вибрані контакти
+       *[many] { $count } вибраних контактів
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } вибраний список
+        [few] { $count } вибрані списки
+       *[many] { $count } вибраних списків
+    }
 about-addressbook-details-edit-photo =
     .title = Змінити світлину контакту
 about-addressbook-new-contact-header = Новий контакт

@@ -42,6 +42,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Застосовувати фільтри і після зміни теки
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Меню швидкого фільтра
+quick-filter-bar-dropdown-unread =
+    .label = Непрочитані
+quick-filter-bar-dropdown-starred =
+    .label = З зірочкою
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Контакти
+quick-filter-bar-dropdown-tags =
+    .label = Мітки
+quick-filter-bar-dropdown-attachment =
+    .label = Вкладення
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
