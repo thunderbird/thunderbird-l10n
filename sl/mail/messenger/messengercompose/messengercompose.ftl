@@ -193,17 +193,9 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Upravitelj ključev
     .accesskey = U
-# Variables:
-# $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključem za { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-many = Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključi za { $count } prejemnikov.
-# Variables:
-# $addr (String) - Email address with certificate issues.
 smime-cert-issue-notification-one = Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $addr }
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-many = Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $count } prejemnikov.
 key-notification-disable-encryption =
     .label = Ne šifriraj
@@ -275,6 +267,15 @@ many-public-recipients-notice =
         [two] Prejemnika v poljih Za in Kp bosta videla naslove drug drugega. Prejemnike lahko prikrijete tako, da uporabite polje Skp.
         [few] { $count } prejemniki v poljih Za in Kp bodo videli naslove drug drugega. Prejemnike lahko prikrijete tako, da uporabite polje Skp.
        *[other] { $count } prejemnikov v poljih Za in Kp bo videlo naslove drug drugega. Prejemnike lahko prikrijete tako, da uporabite polje Skp.
+    }
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { "" }
+        [two] Prejemnika v poljih Za in Kp ({ $count }) bosta videla naslove drug drugega. Prejemnike lahko prikrijete z uporabo polja Skp.
+        [few] Prejemniki v poljih Za in Kp ({ $count }) bodo videli naslove drug drugega. Prejemnike lahko prikrijete z uporabo polja Skp.
+       *[other] Prejemniki v poljih Za in Kp ({ $count }) bodo videli naslove drug drugega. Prejemnike lahko prikrijete z uporabo polja Skp.
     }
 many-public-recipients-bcc =
     .label = Raje uporabi Skp
