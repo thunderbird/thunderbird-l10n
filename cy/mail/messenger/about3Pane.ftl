@@ -194,6 +194,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Dangos Maint Ffolder
+folder-pane-header-hide-local-folders =
+    .label = Cuddio Ffolderi Lleol
 folder-pane-mode-context-button =
     .title = Dewisiadau modd ffolder
 folder-pane-mode-context-toggle-compact-mode =

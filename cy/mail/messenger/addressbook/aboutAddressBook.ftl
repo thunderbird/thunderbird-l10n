@@ -206,6 +206,22 @@ about-addressbook-confirm-remove-contacts =
        *[other] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Ydych chi'n siŵr eich bod am ddileu { $name } o { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [zero] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
+        [one] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
+        [two] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
+        [few] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
+        [many] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
+       *[other] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -220,6 +236,20 @@ about-addressbook-confirm-delete-contacts-title =
 # $count (Number) - The number of contacts to be deleted.
 # $name (String) - The name of the contact to be deleted, if $count is 1.
 about-addressbook-confirm-delete-contacts =
+    { $count ->
+        [zero] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
+        [one] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
+        [two] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
+        [few] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
+        [many] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
+       *[other] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Ydych chi'n siŵr eich bod am ddileu'r cyswllt { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
     { $count ->
         [zero] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
         [one] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
