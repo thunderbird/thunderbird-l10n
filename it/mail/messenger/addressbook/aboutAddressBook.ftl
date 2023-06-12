@@ -198,7 +198,7 @@ about-addressbook-confirm-remove-contacts-single = Rimuovere { $name } da { $lis
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-multi =
     { $count ->
-        [one] Eliminare questi { $count } contatti dalla lista { $list }?
+        [one] Eliminare questo contatto dalla lista { $list }?
        *[other] Eliminare questi { $count } contatti dalla lista { $list }?
     }
 # Variables:
@@ -223,7 +223,7 @@ about-addressbook-confirm-delete-contacts-single = Eliminare il contatto { $name
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-multi =
     { $count ->
-        [one] Eliminare questi { $count } contatti?
+        [one] Eliminare questo contatto?
        *[other] Eliminare questi { $count } contatti?
     }
 
