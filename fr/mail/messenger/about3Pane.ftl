@@ -182,6 +182,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Afficher la taille du dossier
+folder-pane-header-hide-local-folders =
+    .label = Masquer les dossiers locaux
 folder-pane-mode-context-button =
     .title = Options du mode dossier
 folder-pane-mode-context-toggle-compact-mode =
