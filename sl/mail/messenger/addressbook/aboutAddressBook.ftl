@@ -98,9 +98,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = E-poštni naslovi
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Vzdevek
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Telefonske številke
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -219,6 +216,9 @@ about-addressbook-confirm-delete-contacts =
         [few] Ali res želite izbrisati izbrane { $count } stike?
        *[other] Ali res želite izbrisati izbranih { $count } stikov?
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Ali ste prepričani, da želite izbrisati stik { $name }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
