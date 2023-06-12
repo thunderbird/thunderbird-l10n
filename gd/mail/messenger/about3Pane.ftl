@@ -19,6 +19,15 @@ thread-pane-folder-message-count =
         [few] { $count } teachdaireachdan
        *[other] { $count } teachdaireachd
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } air a thaghadh
+        [two] { $count } air an taghadh
+        [few] { $count } air an taghadh
+       *[other] { $count } air an taghadh
+    }
 thread-pane-header-context-table-view =
     .label = An sealladh clàir
 thread-pane-header-context-cards-view =
@@ -35,6 +44,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Cum na criathragan beò nuair a leumar eadar pasgain
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Clàr-taice na grad-chriathraige
+quick-filter-bar-dropdown-unread =
+    .label = Gun leughadh
+quick-filter-bar-dropdown-starred =
+    .label = Le rionnag ris
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Neach-aithne
+quick-filter-bar-dropdown-tags =
+    .label = Tagaichean
+quick-filter-bar-dropdown-attachment =
+    .label = Ceanglachan
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -162,6 +185,13 @@ folder-pane-header-context-hide =
     .label = Falaich bann-cinn leòsan nam pasgan
 folder-pane-show-total-toggle =
     .label = Seall iomlan nan teachdaireachdan
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Seall meud a’ phasgain
+folder-pane-header-hide-local-folders =
+    .label = Falaich na pasganan ionadail
+folder-pane-mode-context-button =
+    .title = Roghainnean modh nam pasgan
 folder-pane-mode-context-toggle-compact-mode =
     .label = Sealladh dùmhail
     .accesskey = S
