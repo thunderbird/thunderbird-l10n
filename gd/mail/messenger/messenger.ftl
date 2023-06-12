@@ -250,6 +250,9 @@ message-header-show-sender-full-address-description = Thèid an seòladh-puist a
 message-header-show-recipient-avatar =
     .label = Seall dealbh pròifil an t-seòladair
     .accesskey = b
+message-header-show-big-avatar =
+    .label = Dealbh pròifil nas motha
+    .accesskey = b
 message-header-hide-label-column =
     .label = Falaich colbh nan leubailean
     .accesskey = F
@@ -400,3 +403,9 @@ openpgp-forget = Dìochuimhnich abairtean-faire OpenPGP
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% làn
+    .title = Cuòta IMAP: { $usage } à { $limit } air a chleachdadh uile gu lèir
