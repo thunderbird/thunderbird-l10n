@@ -194,16 +194,36 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Manaidsear nan iuchraichean
     .accesskey = M
+openpgp-key-issue-notification-one = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na h-iuchraichean airson { $addr } a chur ceart
+smime-cert-issue-notification-one = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na teisteanasan airson { $addr } a chur ceart.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Cha do shuidhich thu comas teachdaireachdan crioptaichte ceann ri ceann a chur o { $addr }.
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na h-iuchraichean airson { $addr } a chur ceart
+openpgp-key-issue-notification-single = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na h-iuchraichean airson { $addr } a chur ceart.
 # Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na teisteanasan airson { $addr } a chur ceart.
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig { $count } fhaightear a chur ceart an toiseach.
+        [two] Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig { $count } fhaightear a chur ceart an toiseach.
+        [few] Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig { $count } faightearan a chur ceart an toiseach.
+       *[other] Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig { $count } faightear a chur ceart an toiseach.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na teisteanasan airson { $addr } a chur ceart.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Airson crioptachadh ceann ri ceann, feumaidh tu duilgheadasan nan teisteanasan a th’ aig { $count } fhaightear a chur ceart an toiseach.
+        [two] Airson crioptachadh ceann ri ceann, feumaidh tu duilgheadasan nan teisteanasan a th’ aig { $count } fhaightear a chur ceart an toiseach.
+        [few] Airson crioptachadh ceann ri ceann, feumaidh tu duilgheadasan nan teisteanasan a th’ aig { $count } faightearan a chur ceart an toiseach.
+       *[other] Airson crioptachadh ceann ri ceann, feumaidh tu duilgheadasan nan teisteanasan a th’ aig { $count } faightear a chur ceart an toiseach.
+    }
 key-notification-disable-encryption =
     .label = Na crioptaich
     .accesskey = N
@@ -267,6 +287,15 @@ show-bcc-row-button = Bcc
     .title = Seall an raon “Bcc” ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Raointean seòlachaidh eile a thèid a thaisbeanadh
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] Chì an { $count } fhaightear ann an Gu agus Cc seòladh a chèile. ’S urrainn dhut seo a sheachnadh le bhith a’ cleachdadh Bcc an àite sin.
+        [two] Chì an { $count } fhaightear ann an Gu agus Cc seòladh a chèile. ’S urrainn dhut seo a sheachnadh le bhith a’ cleachdadh Bcc an àite sin.
+        [few] Chì na { $count } faightearan ann an Gu agus Cc seòladh a chèile. ’S urrainn dhut seo a sheachnadh le bhith a’ cleachdadh Bcc an àite sin.
+       *[other] Chì na { $count } faightear ann an Gu agus Cc seòladh a chèile. ’S urrainn dhut seo a sheachnadh le bhith a’ cleachdadh Bcc an àite sin.
+    }
 many-public-recipients-bcc =
     .label = Cleachd Bcc na àite
     .accesskey = C
