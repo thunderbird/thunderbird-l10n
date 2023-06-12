@@ -195,6 +195,24 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Sealladh dùmhail
     .accesskey = S
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] { $count } teachdaireachd gun leughadh
+        [two] { $count } theachdaireachd gun leughadh
+        [few] { $count } teachdaireachdan gun leughadh
+       *[other] { $count } teachdaireachd gun leughadh
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] { $count } teachdaireachd uile gu lèir
+        [two] { $count } theachdaireachd uile gu lèir
+        [few] { $count } teachdaireachdan uile gu lèir
+       *[other] { $count } teachdaireachd uile gu lèir
+    }
 
 ## Message thread pane
 

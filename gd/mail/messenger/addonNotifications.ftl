@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Na ceadaich seo uair sam bith
     .accesskey = N
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Dèan aithris air làrach amharasach
+    .accesskey = r
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Tha an làrach seo ag iarraidh cead-inntrigidh dha na h-uidheaman MIDI (Musical Instrument Digital Interface) agad. ’S urrainn dhut inntrigeadh dhan uidheam a chur an comas le bhith a’ stàladh tuilleadan.
+site-permission-install-first-prompt-midi-message = Chan eil làn-chinnt gum bi an t-inntrigeadh seo sàbhailte. Na lean air adhart ach ma tha earbsa agad san làrach seo.
 
 ##
 
@@ -44,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = Chaidh { $addonName } ({ $addonId }) a bhacadh le rianaire an t-siostaim agad.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Cha do leig rianair an t-siostaim agad leis an làrach seo iarraidh ort bathar-bog a stàladh air a’ choimpiutair agad.
+addon-install-full-screen-blocked = Chan fhaod thu tuilleadan a stàladh fhad ’s a tha thu ann am modh na làn-sgrìn no gu bhith dol ann.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = Chaidh { $addonName } a chur ri { -brand-short-name }
@@ -53,6 +61,14 @@ webext-perms-update-menu-item = Feumaidh { $addonName } ceadan ùra
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = A bheil thu airson { $name } a thoirt air falbh?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = A bheil thu airson { $name } a thoirt air falbh o { -brand-shorter-name }?
+addon-removal-button = Thoir air falbh
+addon-removal-abuse-report-checkbox = Dèan aithris air an leudachan seo gu { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -106,6 +122,7 @@ addon-install-error-incorrect-hash = Cha b’ urrainn dhuinn an tuilleadan seo a
 addon-install-error-corrupt-file = Cha b’ urrainn dhuinn an tuilleadan a chaidh a luchdadh a-nuas on làrach seo a stàladh a chionn ’s gu bheil e truaillte a-rèir coltais.
 addon-install-error-file-access = Cha b’ urrainn dhuinn { $addonName } a stàladh a chionn ’s nach urrainn dha { -brand-short-name } am faidhle air a bheil feum atharrachadh.
 addon-install-error-not-signed = Cha do leig { -brand-short-name } leis an làrach seo tuilleadan neo-dhearbhte a stàladh.
+addon-install-error-invalid-domain = Cha ghabh an tuilleadan { $addonName } a stàladh on ionad seo.
 addon-local-install-error-network-failure = Cha do ghabh an tuilleadan seo a stàladh air sgàth mearachd ann an siostam nam faidhle.
 addon-local-install-error-incorrect-hash = Cha b’ urrainn dhuinn an tuilleadan seo a stàladh a chionn ’s nach eil e a’ freagairt ris an tuilleadan a bha dùil aig { -brand-short-name } ris.
 addon-local-install-error-corrupt-file = Cha do ghabh an tuilleadan seo a stàladh a chionn 's gu bheil e truaillte a-rèir coltais.

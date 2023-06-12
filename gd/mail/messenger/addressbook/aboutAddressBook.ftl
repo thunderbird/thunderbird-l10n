@@ -187,6 +187,16 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Thoir air falbh an luchd-aithne
     }
 # Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a thoirt air falbh o { $list }?
+        [two] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a thoirt air falbh o { $list }?
+        [few] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a thoirt air falbh o { $list }?
+       *[other] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a thoirt air falbh o { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -194,6 +204,18 @@ about-addressbook-confirm-delete-contacts-title =
         [two] Sguab an luchd-aithne às
         [few] Sguab an luchd-aithne às
        *[other] Sguab an luchd-aithne às
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = A bheil thu cinnteach gu bheil thu airson an neach-aithne { $name } a sguabadh às?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a sguabadh às?
+        [two] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a sguabadh às?
+        [few] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a sguabadh às?
+       *[other] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a sguabadh às?
     }
 
 ## Card list placeholder
@@ -207,6 +229,33 @@ about-addressbook-placeholder-no-search-results = Cha deach luchd-aithne a lorg
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] Thagh thu { $count } innteart ann an leabhar nan seòladh
+        [two] Thagh thu { $count } innteart ann an leabhar nan seòladh
+        [few] Thagh thu { $count } innteartan ann an leabhar nan seòladh
+       *[other] Thagh thu { $count } innteart ann an leabhar nan seòladh
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] Thagh thu { $count } neach-aithne
+        [two] Thagh thu { $count } neach-aithne
+        [few] Thagh thu { $count } luchd-aithne
+       *[other] Thagh thu { $count } neach-aithne
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] Thagh thu { $count } liosta
+        [two] Thagh thu { $count } liosta
+        [few] Thagh thu { $count } liostaichean
+       *[other] Thagh thu { $count } liosta
+    }
 about-addressbook-details-edit-photo =
     .title = Deasaich dealbh an neach-aithne
 about-addressbook-new-contact-header = Neach-aithne ùr
