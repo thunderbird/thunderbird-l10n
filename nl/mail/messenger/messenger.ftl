@@ -246,6 +246,9 @@ message-header-show-sender-full-address-description = Het e-mailadres wordt onde
 message-header-show-recipient-avatar =
     .label = Profielafbeelding afzender tonen
     .accesskey = P
+message-header-show-big-avatar =
+    .label = Grotere profielafbeelding
+    .accesskey = o
 message-header-hide-label-column =
     .label = Kolomlabels verbergen
     .accesskey = l
@@ -291,9 +294,6 @@ no-reply-reply-anyway-button = Toch antwoorden
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } van { $total } berichten kunnen niet worden ontsleuteld en zijn niet gekopieerd.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

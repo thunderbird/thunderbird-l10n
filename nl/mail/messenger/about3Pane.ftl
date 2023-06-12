@@ -40,6 +40,18 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Filters in stand houden bij het wisselen van mappen
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Snelfiltermenu
+quick-filter-bar-dropdown-unread =
+    .label = Ongelezen
+quick-filter-bar-dropdown-starred =
+    .label = Met ster
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Contact
+quick-filter-bar-dropdown-tags =
+    .label = Labels
 quick-filter-bar-dropdown-attachment =
     .label = Bijlage
 # The tooltip for the filter button that causes us to filter results to only

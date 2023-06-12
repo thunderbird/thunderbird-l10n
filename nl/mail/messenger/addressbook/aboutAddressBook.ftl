@@ -98,9 +98,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = E-mailadressen
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Schermnaam
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Telefoonnummers
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -228,6 +225,27 @@ about-addressbook-selection-contacts-header = { $count } geselecteerde contacten
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } geselecteerde lijsten
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } geselecteerde adresboekvermelding
+       *[other] { $count } geselecteerde adresboekvermeldingen
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } geselecteerd contact
+       *[other] { $count } geselecteerde contacten
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } geselecteerde lijst
+       *[other] { $count } geselecteerde lijsten
+    }
 about-addressbook-details-edit-photo =
     .title = Contactfoto bewerken
 about-addressbook-new-contact-header = Nieuw contact
