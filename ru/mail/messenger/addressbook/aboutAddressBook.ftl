@@ -194,6 +194,19 @@ about-addressbook-confirm-remove-contacts =
        *[many] Вы действительно хотите удалить эти { $count } контактов из { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Вы уверены, что хотите удалить { $name } из { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Вы действительно хотите удалить этот { $count } контакт из { $list }?
+        [few] Вы действительно хотите удалить эти { $count } контакта из { $list }?
+       *[many] Вы действительно хотите удалить эти { $count } контактов из { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -210,6 +223,9 @@ about-addressbook-confirm-delete-contacts =
         [few] Вы действительно хотите удалить эти { $count } контакта?
        *[many] Вы действительно хотите удалить эти { $count } контактов?
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Вы уверены, что хотите удалить контакт { $name }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
