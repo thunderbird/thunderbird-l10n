@@ -215,6 +215,9 @@ about-addressbook-confirm-delete-contacts =
         [few] Opravdu chcete smazat tyto { $count } kontakty?
        *[other] Opravdu chcete smazat těchto { $count } kontaktů?
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Opravdu chcete smazat kontakt { $name }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -236,6 +239,33 @@ about-addressbook-selection-contacts-header = Vybrané kontakty: { $count }
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = Vybrané seznamy: { $count }
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } vybraná složka kontaktů
+        [few] { $count } vybrané složky kontaktů
+        [many] { $count } vybraných složek kontaktů
+       *[other] { $count } vybraných složek kontaktů
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } vybraný kontakt
+        [few] { $count } vybrané kontakty
+        [many] { $count } vybraných kontaktů
+       *[other] { $count } vybraných kontaktů
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } vybraná skupina
+        [few] { $count } vybrané skupiny
+        [many] { $count } vybraných skupin
+       *[other] { $count } vybraných skupin
+    }
 about-addressbook-details-edit-photo =
     .title = Upravit fotografii kontaktu
 about-addressbook-new-contact-header = Nový kontakt

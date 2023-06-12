@@ -183,6 +183,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Zobrazit velikost složky
+folder-pane-header-hide-local-folders =
+    .label = Skrýt Místní složky
 folder-pane-mode-context-button =
     .title = Možnosti režimu zobrazení složek
 folder-pane-mode-context-toggle-compact-mode =
