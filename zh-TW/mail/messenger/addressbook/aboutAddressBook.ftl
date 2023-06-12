@@ -188,6 +188,17 @@ about-addressbook-confirm-remove-contacts =
        *[other] 您確定要從 { $list } 清單刪除 { $count } 位聯絡人嗎？
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = 您確定要自 { $list } 移除 { $name } 嗎
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+       *[other] 您確定要從 { $list } 清單刪除 { $count } 位聯絡人嗎？
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -199,6 +210,15 @@ about-addressbook-confirm-delete-contacts-title =
 about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] 您確定要刪除聯絡人 { $name } 嗎？
+       *[other] 您確定要刪除下列 { $count } 位聯絡人嗎？
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = 您確定要刪除聯絡人 { $name }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
        *[other] 您確定要刪除下列 { $count } 位聯絡人嗎？
     }
 

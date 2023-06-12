@@ -176,6 +176,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = 顯示資料夾大小
+folder-pane-header-hide-local-folders =
+    .label = 隱藏本機郵件匣
 folder-pane-mode-context-button =
     .title = 資料夾模式選項
 folder-pane-mode-context-toggle-compact-mode =
