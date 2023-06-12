@@ -184,22 +184,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Sleutelbeheerder
     .accesskey = h
+openpgp-key-issue-notification-one = End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $addr }
+openpgp-key-issue-notification-many = End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $count } ontvangers.
+smime-cert-issue-notification-one = End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $addr }.
+smime-cert-issue-notification-many = End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $count } ontvangers.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = U hebt Thunderbird niet ingesteld om end-to-end-versleutelde berichten te verzenden vanaf { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $count } ontvangers.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $count } ontvangers.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $addr }.
@@ -287,6 +279,14 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] Uw bericht heeft een openbare ontvanger. U kunt voorkomen dat ontvangers worden onthuld door in plaats hiervan Bcc te gebruiken.
+       *[other] De { $count } ontvangers in Aan en Cc zullen elkaars adres zien. U kunt voorkomen dat ontvangers worden onthuld door in plaats hiervan Bcc te gebruiken.
+    }
+public-recipients-notice-single = Uw bericht heeft een openbare ontvanger. U kunt voorkomen dat de ontvanger bekend wordt gemaakt door in plaats daarvan Bcc te gebruiken.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] De { $count } ontvangers in Aan en Cc zullen elkaars adres zien. U kunt voorkomen dat ontvangers worden onthuld door in plaats hiervan Bcc te gebruiken.
        *[other] De { $count } ontvangers in Aan en Cc zullen elkaars adres zien. U kunt voorkomen dat ontvangers worden onthuld door in plaats hiervan Bcc te gebruiken.
     }
 many-public-recipients-bcc =
