@@ -190,6 +190,18 @@ about-addressbook-confirm-remove-contacts =
        *[other] Biztos, hogy eltávolítja ezt a(z) { $count } névjegyet a(z) { $list } listáról?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Biztos, hogy eltávolítja a(z) { $name } névjegyet a(z) { $list } listáról?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Biztos, hogy eltávolítja ezt a(z) { $count } névjegyet a(z) { $list } listáról?
+       *[other] Biztos, hogy eltávolítja ezt a(z) { $count } névjegyet a(z) { $list } listáról?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -203,6 +215,16 @@ about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] Biztos, hogy törli a(z) { $name } névjegyet?
        *[other] Biztos, hogy törli ezt a(z) { $count } listát?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Biztos, hogy törli a(z) { $name } névjegyet?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Biztos, hogy törli ezt a(z) { $count } névjegyet?
+       *[other] Biztos, hogy törli ezt a(z) { $count } névjegyet?
     }
 
 ## Card list placeholder
