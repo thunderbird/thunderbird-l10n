@@ -61,6 +61,8 @@ webext-perms-update-menu-item = Το { $addonName } απαιτεί νέα δικ
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Αφαίρεση του «{ $name }»;
+addon-removal-button = Αφαίρεση
+addon-removal-abuse-report-checkbox = Αναφορά επέκτασης στη { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -102,6 +104,7 @@ addon-install-error-incorrect-hash = Δεν ήταν δυνατή η εγκατ�
 addon-install-error-corrupt-file = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου που ελήφθη από τον ιστότοπο επειδή φαίνεται να έχει καταστραφεί.
 addon-install-error-file-access = Το { $addonName } δεν ήταν δυνατό να εγκατασταθεί, επειδή το { -brand-short-name } δεν μπόρεσε να τροποποιήσει το απαιτούμενο αρχείο.
 addon-install-error-not-signed = Το { -brand-short-name } εμπόδισε την εγκατάσταση ενός μη επαληθευμένου προσθέτου από τον ιστότοπο.
+addon-install-error-invalid-domain = Το πρόσθετο «{ $addonName }» δεν μπορεί να εγκατασταθεί από αυτήν την τοποθεσία.
 addon-local-install-error-network-failure = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου λόγω σφάλματος στο σύστημα αρχείων.
 addon-local-install-error-incorrect-hash = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή δεν συμφωνεί με το αναμενόμενο πρόσθετο { -brand-short-name }.
 addon-local-install-error-corrupt-file = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή φαίνεται να έχει καταστραφεί.

@@ -204,6 +204,15 @@ about-addressbook-confirm-delete-contacts =
         [one] Θέλετε σίγουρα να διαγράψετε την επαφή { $name };
        *[other] Θέλετε σίγουρα να διαγράψετε αυτές τις { $count } επαφές;
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Θέλετε σίγουρα να διαγράψετε την επαφή «{ $name }»;
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+       *[other] Θέλετε σίγουρα να διαγράψετε αυτές τις { $count } επαφές;
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -225,6 +234,26 @@ about-addressbook-selection-contacts-header = { $count } επιλεγμένες 
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } επιλεγμένες λίστες
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+       *[other] { $count } επιλεγμένες καταχωρήσεις ευρετηρίου
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } επιλεγμένη επαφή
+       *[other] { $count } επιλεγμένες επαφές
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } επιλεγμένη λίστα
+       *[other] { $count } επιλεγμένες λίστες
+    }
 about-addressbook-details-edit-photo =
     .title = Επεξεργασία φωτογραφίας επαφής
 about-addressbook-new-contact-header = Νέα επαφή

@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Τα κακόβουλα πρόσθετα μπορούν να κλέψουν τις προσωπικές σας πληροφορίες ή να θέσουν σε κίνδυνο τον υπολογιστή σας. Να εγκαταστήσετε αυτό το πρόσθετο μόνο αν εμπιστεύεστε την προέλευσή του.
 webext-perms-learn-more = Μάθετε περισσότερα
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = Το { $addonName } προστέθηκε.

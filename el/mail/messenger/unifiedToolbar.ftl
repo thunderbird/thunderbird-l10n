@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Διαθέσιμο μόνο για �
 customize-palette-tasks-specific-title = Διαθέσιμο μόνο για τον χώρο εργασιών
 customize-palette-chat-specific-title = Διαθέσιμο μόνο για τον χώρο συνομιλιών
 customize-palette-settings-specific-title = Διαθέσιμο μόνο για τον χώρο ρυθμίσεων
+customize-palette-extension-specific-title = Διαθέσιμο μόνο για αυτόν τον χώρο
 
 ## Unified toolbar customization palette context menu
 

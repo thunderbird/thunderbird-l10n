@@ -246,6 +246,9 @@ message-header-show-sender-full-address-description = Η διεύθυνση emai
 message-header-show-recipient-avatar =
     .label = Εμφάνιση εικόνας προφίλ αποστολέα
     .accesskey = φ
+message-header-show-big-avatar =
+    .label = Μεγαλύτερη εικόνα προφίλ
+    .accesskey = γ
 message-header-hide-label-column =
     .label = Απόκρυψη στήλης ετικετών
     .accesskey = π
@@ -291,9 +294,6 @@ no-reply-reply-anyway-button = Απάντηση ούτως ή άλλως
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = Δεν ήταν δυνατή η αποκρυπτογράφηση και αντιγραφή { $failures } από { $total } μηνύματα.
 
 ## Spaces toolbar

@@ -171,11 +171,27 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Εμφάνιση μεγέθους φακέλου
+folder-pane-header-hide-local-folders =
+    .label = Απόκρυψη τοπικών φακέλων
 folder-pane-mode-context-button =
     .title = Επιλογές λειτουργίας φακέλου
 folder-pane-mode-context-toggle-compact-mode =
     .label = Συμπτυγμένη προβολή
     .accesskey = Σ
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 μη αναγνωσμένο μήνυμα
+       *[other] { $count } μη αναγνωσμένα μηνύματα
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 μήνυμα συνολικά
+       *[other] { $count } μηνύματα συνολικά
+    }
 
 ## Message thread pane
 
