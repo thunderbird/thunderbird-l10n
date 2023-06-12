@@ -370,7 +370,7 @@ mark-read-no-delay =
     .label = takoj na zaslonu
     .accesskey = a
 view-attachments-inline =
-    .label = Prikaži medvrstične priponke
+    .label = Prikaži priponke znotraj sporočila
     .accesskey = z
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
