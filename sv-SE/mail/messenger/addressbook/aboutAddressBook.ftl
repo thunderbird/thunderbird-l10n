@@ -190,6 +190,18 @@ about-addressbook-confirm-remove-contacts =
        *[other] Är du säker att du vill ta bort dessa { $count } kontakter från { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Är du säker på att du vill ta bort { $name } från { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Är du säker på att du vill ta bort kontakten från { $list }?
+       *[other] Är du säker på att du vill ta bort dessa { $count } kontakter från { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -202,6 +214,16 @@ about-addressbook-confirm-delete-contacts-title =
 about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] Är du säker på att du vill ta bort kontakten { $name }?
+       *[other] Är du säker på att du vill ta bort dessa { $count } kontakter?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Är du säker på att du vill ta bort kontakten { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Är du säker på att du vill ta bort kontakten?
        *[other] Är du säker på att du vill ta bort dessa { $count } kontakter?
     }
 
