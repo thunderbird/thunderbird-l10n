@@ -226,6 +226,14 @@ about-addressbook-confirm-delete-contacts =
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Вы уверены, что хотите удалить контакт { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Вы действительно хотите удалить этот { $count } контакт?
+        [few] Вы действительно хотите удалить эти { $count } контакта?
+       *[many] Вы действительно хотите удалить эти { $count } контактов?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
