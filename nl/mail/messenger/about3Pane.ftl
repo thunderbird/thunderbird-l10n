@@ -182,6 +182,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Mapgrootte tonen
+folder-pane-header-hide-local-folders =
+    .label = Lokale mappen verbergen
 folder-pane-mode-context-button =
     .title = Opties voor mapmodus
 folder-pane-mode-context-toggle-compact-mode =
