@@ -181,6 +181,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Monstrar dimension del plica
+folder-pane-header-hide-local-folders =
+    .label = Celar le plicas local
 folder-pane-mode-context-button =
     .title = Optiones de modo del plicas
 folder-pane-mode-context-toggle-compact-mode =
