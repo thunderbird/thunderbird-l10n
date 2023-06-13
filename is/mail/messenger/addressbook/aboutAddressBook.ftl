@@ -190,6 +190,18 @@ about-addressbook-confirm-remove-contacts =
        *[other] Ertu viss um að þú viljir eyða þessum { $count } tengiliðum úr { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Ertu viss um að þú viljir fjarlægja { $name } úr { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Ertu viss um að þú viljir eyða þessum { $count } tengilið úr { $list }?
+       *[other] Ertu viss um að þú viljir eyða þessum { $count } tengiliðum úr { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -202,6 +214,16 @@ about-addressbook-confirm-delete-contacts-title =
 about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] Ertu viss um að þú viljir eyða tengiliðnum { $name }?
+       *[other] Ertu viss um að þú viljir eyða þessum { $count } tengiliðum?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Ertu viss um að þú viljir eyða tengiliðnum { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Ertu viss um að þú viljir eyða þessum { $count } tengilið?
        *[other] Ertu viss um að þú viljir eyða þessum { $count } tengiliðum?
     }
 
