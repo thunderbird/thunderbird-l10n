@@ -190,6 +190,18 @@ about-addressbook-confirm-remove-contacts =
        *[other] Binne jo wis dat jo dizze { $count } kontakten út { $list } fuortsmite wolle?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Binne jo wis dat jo { $name } út { $list } fuortsmite wolle?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Binne jo wis dat jo dizze { $count } kontakt út { $list } fuortsmite wolle?
+       *[other] Binne jo wis dat jo dizze { $count } kontakten út { $list } fuortsmite wolle?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -202,6 +214,16 @@ about-addressbook-confirm-delete-contacts-title =
 about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] Binne jo wis dat jo it kontakt { $name } fuortsmite wolle?
+       *[other] Binne jo wis dat jo dizze { $count } kontakten fuortsmite wolle?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Binne jo wis dat jo it kontakt { $name } fuortsmite wolle?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Binne jo wis dat jo dit kontakt fuortsmite wolle?
        *[other] Binne jo wis dat jo dizze { $count } kontakten fuortsmite wolle?
     }
 
