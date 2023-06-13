@@ -190,6 +190,10 @@ about-addressbook-confirm-remove-contacts =
        *[other] ¿Está seguro de querer borrar estos { $count } contactos de { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = ¿Está seguro de querer eliminar { $name } de { $list }?
+# Variables:
 # $count (Number) - The number of contacts to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-multi =
@@ -212,6 +216,9 @@ about-addressbook-confirm-delete-contacts =
         [one] ¿Está seguro de querer borrar el contacto { $name }?
        *[other] ¿Está seguro de querer borrar estos { $count } contactos?
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = ¿Está seguro de querer borrar el contacto { $name }?
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-multi =
