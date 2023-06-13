@@ -182,6 +182,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Sýna stærð möppu
+folder-pane-header-hide-local-folders =
+    .label = Fela staðbundnar möppur
 folder-pane-mode-context-button =
     .title = Valkostir möppuhams
 folder-pane-mode-context-toggle-compact-mode =
