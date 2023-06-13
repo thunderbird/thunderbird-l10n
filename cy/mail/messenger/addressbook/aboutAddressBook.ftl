@@ -214,12 +214,12 @@ about-addressbook-confirm-remove-contacts-single = Ydych chi'n siŵr eich bod am
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-multi =
     { $count ->
-        [zero] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-        [one] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-        [two] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-        [few] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-        [many] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-       *[other] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
+        [zero] Ydych chi'n siŵr eich bod eisiau tynnu'r { $count } cysylltiadau o { $list }?
+        [one] Ydych chi'n siŵr eich bod eisiau tynnu'r { $count } cysylltiad o { $list }?
+        [two] Ydych chi'n siŵr eich bod eisiau tynnu'r { $count } gysylltiad o { $list }?
+        [few] Ydych chi'n siŵr eich bod eisiau tynnu'r { $count } cysylltiad o { $list }?
+        [many] Ydych chi'n siŵr eich bod eisiau tynnu'r { $count } chysylltiad o { $list }?
+       *[other] Ydych chi'n siŵr eich bod eisiau tynnu'r { $count } cysylltiad o { $list }?
     }
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
@@ -251,11 +251,11 @@ about-addressbook-confirm-delete-contacts-single = Ydych chi'n siŵr eich bod am
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-multi =
     { $count ->
-        [zero] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
+        [zero] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiadau hyn?
         [one] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
-        [two] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
+        [two] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } gysylltiad yma?
         [few] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
-        [many] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
+        [many] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } chysylltiad yma?
        *[other] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
     }
 
