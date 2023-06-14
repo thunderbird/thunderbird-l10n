@@ -104,7 +104,7 @@ quick-filter-bar-textbox-shortcut =
 # the messages and that there is a hotkey they can press to get to the
 # box faster.
 quick-filter-bar-textbox =
-    .placeholder = 筛选这些消息 <{ quick-filter-bar-textbox-shortcut }>
+    .placeholder = 过滤符合条件的消息 <{ quick-filter-bar-textbox-shortcut }>
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = 标签筛选模式
