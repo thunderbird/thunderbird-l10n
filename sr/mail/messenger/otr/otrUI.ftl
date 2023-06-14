@@ -9,6 +9,7 @@ reauth-label = Поново потврди идентитет контакта
 auth-cancel = Откажи
 auth-cancel-access-key = к
 auth-error = Догодила се грешка приликом потврђивања идентитета контакта.
+auth-success = Потврђивање идентитета контакта је успешно завршено.
 finger-verify = Потврди
 # Do not translate 'OTR' (name of an encryption protocol)
 buddycontextmenu-label = Додај OTR отисак
