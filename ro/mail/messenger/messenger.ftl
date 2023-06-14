@@ -24,6 +24,9 @@ about-rights-notification-text = { -brand-short-name } este un software liber ș
 
 ## Toolbar
 
+addons-and-themes-toolbarbutton =
+    .label = Suplimente și teme
+    .tooltiptext = Gestionează-ți suplimentele
 
 ## Folder Pane
 

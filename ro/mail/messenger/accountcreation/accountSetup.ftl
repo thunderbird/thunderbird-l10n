@@ -12,7 +12,6 @@
 account-setup-name-input =
     .placeholder = Ion Popescu
 
-
 ## Action buttons
 
 
@@ -21,6 +20,7 @@ account-setup-name-input =
 
 ## Illustrations
 
+account-setup-getting-started = Noțiuni introductive
 
 ## Results area
 
@@ -45,12 +45,15 @@ account-setup-name-input =
 
 ## Dismiss account creation dialog
 
+
 ## Alert dialogs
 
 
 ## Addon installation section
 
+
 ## Success view
+
 
 ## Calendar synchronization dialog
 
