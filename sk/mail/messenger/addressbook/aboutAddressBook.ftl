@@ -194,6 +194,20 @@ about-addressbook-confirm-remove-contacts =
        *[other] Naozaj chcete odstrániť týchto { $count } kontaktov zo zoznamu { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Naozaj chcete odstrániť kontakt { $name } zo zoznamu { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Naozaj chcete odstrániť tento { $count } kontakt zo zoznamu { $list }?
+        [few] Naozaj chcete odstrániť tieto { $count } kontakty zo zoznamu { $list }?
+        [many] Naozaj chcete odstrániť týchto { $count } kontaktov zo zoznamu { $list }?
+       *[other] Naozaj chcete odstrániť týchto { $count } kontaktov zo zoznamu { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -208,6 +222,18 @@ about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] Naozaj chcete odstrániť kontakt { $name }?
         [few] Naozaj chcete odstrániť tieto { $count } kontakty?
+       *[other] Naozaj chcete odstrániť týchto { $count } kontaktov?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Naozaj chcete odstrániť kontakt { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Naozaj chcete odstrániť tento { $count } kontakt?
+        [few] Naozaj chcete odstrániť tieto { $count } kontakty?
+        [many] Naozaj chcete odstrániť týchto { $count } kontaktov?
        *[other] Naozaj chcete odstrániť týchto { $count } kontaktov?
     }
 

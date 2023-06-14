@@ -392,7 +392,7 @@
 <!ENTITY watchThreadMenu.label "Sledovať vlákno">
 <!ENTITY watchThreadMenu.accesskey "S">
 <!ENTITY watchThreadMenu.key "w">
-<!ENTITY tagMenu.label "Štítok">
+<!ENTITY tagMenu.label "Štítky">
 <!ENTITY tagMenu.accesskey "t">
 <!ENTITY tagCmd0.key "0">
 <!ENTITY tagCmd1.key "1">
@@ -541,7 +541,7 @@
 <!ENTITY searchItem.title "Rýchle vyhľadávanie">
 <!ENTITY mailViewsToolbarItem.title "Zobrazenie e-mailov">
 <!ENTITY folderLocationToolbarItem.title "Umiestnenie priečinka">
-<!ENTITY tagButton.label "Štítok">
+<!ENTITY tagButton.label "Štítky">
 <!ENTITY compactButton.label "Vykonať údržbu">
 <!ENTITY appmenuButton.label "Hlavná ponuka">
 
@@ -682,7 +682,7 @@
 <!ENTITY subjectColumn.label "Predmet">
 <!ENTITY dateColumn.label "Dátum">
 <!ENTITY priorityColumn.label "Priorita">
-<!ENTITY tagsColumn.label "Štítok">
+<!ENTITY tagsColumn.label "Štítky">
 <!ENTITY accountColumn.label "Účet">
 <!ENTITY statusColumn.label "Stav">
 <!ENTITY sizeColumn.label "Veľkosť">
