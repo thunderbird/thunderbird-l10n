@@ -190,6 +190,18 @@ about-addressbook-confirm-remove-contacts =
        *[other] { $list } listesinden { $count } kişiyi silmek istediğinizden emin misiniz?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = { $name } kişisini { $list } listesinden çıkarmak istediğinizden emin misiniz?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] { $list } listesinden { $count } kişiyi kaldırmak istediğinizden emin misiniz?
+       *[other] { $list } listesinden { $count } kişiyi kaldırmak istediğinizden emin misiniz?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -203,6 +215,16 @@ about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] { $name } kişisini silmek istediğinizden emin misiniz?
        *[other] { $count } kişiyi silmek istediğinizden emin misiniz?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = { $name } adlı kişiyi silmek istediğinizden emin misiniz?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Bu { $count } kişiyi silmek istediğinizden emin misiniz?
+       *[other] Bu { $count } kişiyi silmek istediğinizden emin misiniz?
     }
 
 ## Card list placeholder
