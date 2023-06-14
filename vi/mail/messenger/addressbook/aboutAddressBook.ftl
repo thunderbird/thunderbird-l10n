@@ -186,6 +186,14 @@ about-addressbook-confirm-remove-contacts =
        *[other] Bạn có chắc chắn muốn xóa { $count } địa chỉ liên hệ này khỏi { $list } không?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Bạn có chắc chắn muốn xóa { $name } khỏi { $list } không?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi = Bạn có chắc chắn muốn xóa { $count } địa chỉ liên hệ này khỏi { $list } không?
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -198,6 +206,12 @@ about-addressbook-confirm-delete-contacts =
     { $count ->
        *[other] Bạn có chắc chắn muốn xóa { $count } địa chỉ liên hệ này không?
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Bạn có chắc là mình muốn xóa liên hệ { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi = Bạn có chắc chắn muốn xóa { $count } liên hệ này không?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
