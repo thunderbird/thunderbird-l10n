@@ -152,7 +152,7 @@
      box faster.
      -->
 <!ENTITY quickFilterBar.textbox.emptyText.base1
-         "过滤这些消息 #1">
+         "筛选这些消息 #1">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.show.key2):
      This is the key used to show the quick filter bar. -->

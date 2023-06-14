@@ -7,8 +7,6 @@
 <!ENTITY windowTitle.label "账户向导">
 <!ENTITY accountWizard.size "width: 40em; height: 38em;">
 
-<!-- Entities for Account Type page -->
-
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "身份">
@@ -36,14 +34,12 @@
 <!ENTITY newsServerLabel.label "新闻组服务器:">
 <!ENTITY newsServerLabel.accesskey "S">
 
-<!-- Entities for Outgoing Server page -->
-
 <!-- Entities for Account name page -->
 
 <!ENTITY accnameTitle.label "账户名称">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "输入您想要此账户使用的名称。（例如，&quot;工作账户&quot;、&quot;家庭账户&quot; 或 &quot;新闻账户&quot;）">
-<!ENTITY accnameLabel.label "账户名称:">
+<!ENTITY accnameLabel.label "账户名称：">
 <!ENTITY accnameLabel.accesskey "A">
 
 <!-- Entities for Done (Congratulations) page -->

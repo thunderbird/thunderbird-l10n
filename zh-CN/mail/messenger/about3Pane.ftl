@@ -39,7 +39,7 @@ quick-filter-bar-dropdown =
 quick-filter-bar-dropdown-unread =
     .label = 未读
 quick-filter-bar-dropdown-starred =
-    .label = 加星
+    .label = 星标
 quick-filter-bar-dropdown-inaddrbook =
     .label = 联系人
 quick-filter-bar-dropdown-tags =
@@ -104,7 +104,7 @@ quick-filter-bar-textbox-shortcut =
 # the messages and that there is a hotkey they can press to get to the
 # box faster.
 quick-filter-bar-textbox =
-    .placeholder = 过滤这些消息 <{ quick-filter-bar-textbox-shortcut }>
+    .placeholder = 筛选这些消息 <{ quick-filter-bar-textbox-shortcut }>
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = 标签筛选模式
