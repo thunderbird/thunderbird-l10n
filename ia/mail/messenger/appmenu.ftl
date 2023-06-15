@@ -205,6 +205,6 @@ appmenuitem-banner-update-available =
 appmenuitem-banner-update-manual =
     .label = Actualisation disponibile — discargar ora
 appmenuitem-banner-update-unsupported =
-    .label = Actualisation fallite — systema non compatibile
+    .label = Actualisation fallite — systema incompatibile
 appmenuitem-banner-update-restart =
     .label = Actualisation disponibile — reinitiar ora
