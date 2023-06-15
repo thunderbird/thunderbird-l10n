@@ -185,6 +185,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Показати розмір теки
+folder-pane-header-hide-local-folders =
+    .label = Сховати локальні теки
 folder-pane-mode-context-button =
     .title = Параметри режиму тек
 folder-pane-mode-context-toggle-compact-mode =
