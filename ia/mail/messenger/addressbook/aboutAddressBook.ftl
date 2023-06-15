@@ -248,6 +248,13 @@ about-addressbook-selection-contacts-header = { $count } contactos eligite
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } listas eligite
 # Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } entrata seligite del libro de adresses
+       *[other] { $count } entratas seligite del libro de adresses
+    }
+# Variables:
 # $count (Number) - The number of selected contacts
 about-addressbook-selection-contacts-header2 =
     { $count ->

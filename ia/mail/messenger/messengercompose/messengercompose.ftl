@@ -183,22 +183,14 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestor de claves
     .accesskey = G
+openpgp-key-issue-notification-one = Le cryptation de extremo a extremo require resolver problemas de clave pro { $addr }.
+openpgp-key-issue-notification-many = Le cryptation de extremo a extremo require resolver problemas de clave pro { $count } destinatarios.
+smime-cert-issue-notification-one = Le cryptation de extremo a extremo require resolver problemas de certificato pro { $addr }.
+smime-cert-issue-notification-many = Le cryptation de extremo a extremo require resolver problemas de certificato pro { $count } destinatarios.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Tu non es preste a inviar messages cryptate de extremo-a-extremo ab { $addr }.
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Le cryptation de extremo a extremo require resolver problemas de clave pro { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Le cryptation de extremo a extremo require resolver problemas de clave pro { $count } destinatarios.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Le cryptation de extremo a extremo require resolver problemas de certificato pro { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Le cryptation de extremo a extremo require resolver problemas de certificato pro { $count } destinatarios.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Le cryptation de extremo a extremo require resolver problemas clave pro { $addr }.
@@ -287,6 +279,14 @@ many-public-recipients-notice =
     { $count ->
         [one] Tu message ha un destinatario public. Tu in vice pote impedir de revelar le destinatarios  per Ccn.
        *[other] Le { $count } destinatarios in A e Cc videra le un le adresse del altere. Tu in vice pote impedir de revelar le destinatarios per Ccn.
+    }
+public-recipients-notice-single = Tu message ha un destinatario public. Tu pote evitar revelar le destinatario per utilisar le Bcc in vice.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] Le { $count } destinatarios in "Pro" e "Copia a' videra le adresses del alteres. Tu pote evitar revelar le destinatarios per usar le "Copia celate a" in vice.
+       *[other] Le { $count } destinatarios in "Pro" e "Copia a' videra le adresses del alteres. Tu pote evitar revelar le destinatarios per usar le "Copia celate a" in vice.
     }
 many-public-recipients-bcc =
     .label = Usar Bcc in vice
