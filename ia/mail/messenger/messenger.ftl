@@ -246,6 +246,9 @@ message-header-show-sender-full-address-description = Le adresse email essera mo
 message-header-show-recipient-avatar =
     .label = Monstrar le photo de profilo del expeditor
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Photo de profilo plus grande
+    .accesskey = P
 message-header-hide-label-column =
     .label = Celar columna de etiquettas
     .accesskey = e
@@ -291,9 +294,6 @@ no-reply-reply-anyway-button = Responder comocunque
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } de { $total } messages non pote esser decryptate e non era copiate.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.

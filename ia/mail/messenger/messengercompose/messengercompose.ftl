@@ -286,7 +286,7 @@ public-recipients-notice-single = Tu message ha un destinatario public. Tu pote 
 public-recipients-notice-multi =
     { $count ->
         [one] Le { $count } destinatarios in "Pro" e "Copia a' videra le adresses del alteres. Tu pote evitar revelar le destinatarios per usar le "Copia celate a" in vice.
-       *[other] Le { $count } destinatarios in "Pro" e "Copia a' videra le adresses del alteres. Tu pote evitar revelar le destinatarios per usar le "Copia celate a" in vice.
+       *[other] Le { $count } destinatarios in Pro e Cc videra le adresses del alteres. Tu pote evitar revelar le destinatarios per usar le Bcc in vice.
     }
 many-public-recipients-bcc =
     .label = Usar Bcc in vice
