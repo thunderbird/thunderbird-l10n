@@ -6,17 +6,25 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Espai flexible
+search-bar-label = Cerca
 toolbar-write-message-label = Redacta
 toolbar-write-message =
     .title = Crea un missatge nou
+toolbar-move-to-label = Mou a
+toolbar-move-to =
+    .title = Mou el missatge seleccionat
 toolbar-unifinder-label = Cerca cites
 toolbar-unifinder =
     .title = Mostra/amaga la subfinestra de cerca de cites
 toolbar-folder-location-label = Ubicació de la carpeta
+toolbar-folder-location =
+    .title = Canvia a la carpeta
 toolbar-edit-event-label = Edita
 toolbar-edit-event =
     .title = Edita la cita o la tasca seleccionada
 toolbar-get-messages-label = Recupera
+toolbar-get-messages =
+    .title = Recupera els missatges nous de tots els comptes
 toolbar-reply-label = Respon
 toolbar-reply =
     .title = Respon el missatge
@@ -51,8 +59,9 @@ toolbar-junk-label = Correu brossa
 toolbar-junk =
     .title = Marca els missatges seleccionats com a correu brossa
 toolbar-delete-label = Suprimeix
-toolbar-delete =
-    .title = Suprimeix els missatges o carpetes seleccionats
+toolbar-delete-title =
+    .title = Suprimeix els missatges seleccionats
+toolbar-undelete-label = Desfés la supressió
 toolbar-compact-label = Compacta
 toolbar-compact =
     .title = Treu els missatges suprimits de la carpeta seleccionada

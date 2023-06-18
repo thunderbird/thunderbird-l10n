@@ -71,13 +71,18 @@ policy-NetworkPrediction = Activa o desactiva la predicció de xarxa (obtenció 
 policy-OfferToSaveLogins = Força el paràmetre per a permetre que el { -brand-short-name } ofereixi recordar els inicis de sessió i les contrasenyes que s'hagin desat. Els valors acceptats són «true» (cert) i «false» (fals).
 policy-OfferToSaveLoginsDefault = Defineix el valor per defecte del paràmetre per a permetre que el { -brand-short-name } ofereixi recordar els inicis de sessió i les contrasenyes que s'hagin desat. Els valors acceptats són «true» (cert) i «false» (fals).
 policy-OverrideFirstRunPage = Substitueix la pàgina de la primera execució. Deixeu aquesta política en blanc si voleu desactivar la pàgina de la primera execució.
+policy-OverridePostUpdatePage = Substitueix la pàgina «Novetats» després d'una actualització. Deixeu aquesta política en blanc si voleu desactivar la pàgina de després de les actualitzacions.
 policy-PasswordManagerEnabled = Permet desar les contrasenyes en el gestor de contrasenyes.
 # PDF.js and PDF should not be translated
 policy-PDFjs = Desactiva o configura el PDF.js, el visor de PDF incorporat en el { -brand-short-name }.
+policy-Permissions2 = Configura els permisos per a la càmera, el micròfon, la ubicació, les notificacions i la reproducció automàtica.
+policy-Preferences = Defineix i bloca els valors d'un subconjunt de preferències.
+policy-PrimaryPassword = Requereix o impedeix l'ús d'una contrasenya principal.
 policy-PromptForDownloadLocation = Demana on es desaran els fitxers en baixar-los.
 policy-Proxy = Configura els paràmetres del servidor intermediari.
 policy-RequestedLocales = Defineix la llista de llengües sol·licitades per a l'aplicació, en ordre de preferència.
 policy-SanitizeOnShutdown2 = Esborra les dades de navegació en sortir.
+policy-SearchEngines = Configura els paràmetres del motor de cerca. Aquesta política només està disponible en la versió Extended Support Release (ESR).
 policy-SearchSuggestEnabled = Activa o desactiva els suggeriments de cerca.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Instal·la mòduls PKCS #11.
