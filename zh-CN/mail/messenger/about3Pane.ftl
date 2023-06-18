@@ -170,6 +170,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = 显示文件夹大小
+folder-pane-header-hide-local-folders =
+    .label = 隐藏本地文件夹
 folder-pane-mode-context-button =
     .title = 文件夹模式选项
 folder-pane-mode-context-toggle-compact-mode =
