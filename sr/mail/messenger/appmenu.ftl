@@ -5,6 +5,8 @@
 
 ## Sync
 
+appmenu-sync-account =
+    .value = example@example.com
 
 ## New Account
 
@@ -176,3 +178,13 @@ appmenu-help-about-product =
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = Преузимање ажурирања за { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Доступно је ажурирање — преузмите сада
+appmenuitem-banner-update-manual =
+    .label = Доступно је ажурирање — преузмите сада
+appmenuitem-banner-update-unsupported =
+    .label = Ажурирање није могуће — некомпатибилан систем
+appmenuitem-banner-update-restart =
+    .label = Доступно је ажурирање — поново покрените
