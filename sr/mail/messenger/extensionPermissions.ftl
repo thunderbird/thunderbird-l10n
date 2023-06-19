@@ -21,3 +21,4 @@ webext-perms-description-messagesMove = Копирајте или премешт
 webext-perms-description-messagesDelete = Трајно избришите ваше е-поруке
 webext-perms-description-messagesRead = Читајте ваше е-поруке и додајте им ознаку
 webext-perms-description-messagesTags = Стварајте, мењајте или бришите ознаке порука
+webext-perms-description-sensitiveDataUpload = Пренесите осетљиве корисничке податке (ако је приступ добијен) на удаљени сервер ради даље обраде
