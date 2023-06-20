@@ -11,7 +11,15 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Kalendere
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Alarmer for kalenderen { $calendarName } ignoreres
 calendar-enable-button = Aktiver
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Kalenderindstillinger for { $calendarName }
 calendar-import-new-calendar = Ny kalender…
     .title = Opret eller abonner på en ny kalender
 calendar-refresh-calendars =
@@ -72,6 +80,8 @@ calendar-hide-weekends-option =
     .label = Kun hverdage
 calendar-define-workweek-option =
     .label = Definer hverdage
+calendar-show-tasks-calendar-option =
+    .label = Vis opgaver i Kalender
 
 ## Calendar Context Menu
 
