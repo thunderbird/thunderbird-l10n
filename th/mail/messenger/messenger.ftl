@@ -168,6 +168,10 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = ติดดาวแล้ว
     .aria-label = ติดดาวแล้ว
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = รูปโปรไฟล์ของ { $address }
 
 ## Message header cutomize panel
 
@@ -185,6 +189,9 @@ message-header-show-sender-full-address =
     .label = แสดงที่อยู่แบบเต็มของผู้ส่งเสมอ
     .accesskey = f
 message-header-show-sender-full-address-description = ที่อยู่อีเมลจะถูกแสดงอยู่ใต้ชื่อ
+message-header-show-recipient-avatar =
+    .label = แสดงรูปโปรไฟล์ของผู้ส่ง
+    .accesskey = p
 message-header-hide-label-column =
     .label = ซ่อนคอลัมน์ป้ายกำกับ
     .accesskey = I
@@ -240,6 +247,10 @@ spaces-context-new-tab-item =
     .label = เปิดในแท็บใหม่
 spaces-context-new-window-item =
     .label = เปิดในหน้าต่างใหม่
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = สลับไปที่ { $tabName }
 settings-context-open-settings-item2 =
     .label = การตั้งค่า
 settings-context-open-account-settings-item2 =
@@ -260,6 +271,9 @@ menuitem-customize-label =
     .label = ปรับแต่ง…
 spaces-customize-background-color = สีพื้นหลัง
 spaces-customize-icon-color = สีของปุ่ม
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = สีพื้นหลังของปุ่มที่เลือก
 # The icon color used on the buttons of the spaces toolbar when they are
 # `current`, meaning the related space/tab is active and visible.
 spaces-customize-accent-text-color = สีของปุ่มที่เลือก
