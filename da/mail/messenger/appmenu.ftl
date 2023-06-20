@@ -5,6 +5,8 @@
 
 ## Sync
 
+appmenu-sync-panel-title =
+    .title = Synkronisering
 appmenu-signin-panel =
     .label = Log ind på Sync
     .accesskey = L

@@ -208,6 +208,9 @@ message-header-hide-label-column =
 message-header-large-subject =
     .label = Emne med stor skrift
     .accesskey = S
+message-header-all-headers =
+    .label = Vis alle meddelelseshoveder
+    .accesskey = a
 
 ## Action Button Context Menu
 
@@ -244,9 +247,6 @@ no-reply-reply-anyway-button = Svar alligevel
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures } af { $total } beskeder kunne ikke dekrypteres og blev ikke kopieret.
 
 ## Spaces toolbar

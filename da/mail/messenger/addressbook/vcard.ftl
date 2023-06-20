@@ -58,6 +58,8 @@ vcard-url-label = Websted
 vcard-tel-header = Telefonnumre
 vcard-tel-add = Tilføj telefonnummer
 vcard-tel-label = Telefonnummer
+# Or "Mobile"
+vcard-entry-type-cell = Mobil
 vcard-entry-type-fax = Fax
 vcard-entry-type-pager = Personsøger
 

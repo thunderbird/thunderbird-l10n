@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Kalender
 category-calendar =
     .tooltiptext = Kalender
+pane-sync-title = Synkronisering
+category-sync =
+    .tooltiptext = Synkronisering
 general-language-and-appearance-header = Sprog og udseende
 general-incoming-mail-header = Indgående meddelelser
 general-files-and-attachment-header = Filer og vedhæftninger
@@ -363,6 +366,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Marker omgående
     .accesskey = a
+view-attachments-inline =
+    .label = Vis vedhæftede filer som en del af meddelelsen
+    .accesskey = S
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -724,9 +730,16 @@ search-results-help-link = Har du brug for hjælp? Besøg <a data-l10n-name="url
 ## Sync Tab
 
 sync-signedout-caption = Tag dit net med dig
+sync-signedout-description = Synkroniser dine konti, adressebøger, kalendere, tilføjelser og indstillinger på tværs af alle dine enheder.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Log ind på Sync…
+sync-pane-header = Synkronisering
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = “{ $userEmail }” er ikke bekræftet
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Log ind for at synkronisere “{ $userEmail }”
 sync-pane-resend-verification = Gensend bekræftelse
 sync-pane-sign-in = Log ind
 sync-pane-remove-account = Fjern konto

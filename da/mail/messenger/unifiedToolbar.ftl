@@ -55,6 +55,7 @@ customize-button-style-text-only =
     .label = Kun tekst
 customize-cancel = Annuller
 customize-save = Gem
+customize-unsaved-changes = Ugemte ændringer i andre områder
 customize-search-bar =
     .label = Find værktøjslinjeknapper…
 customize-spaces-tabs =
@@ -62,6 +63,13 @@ customize-spaces-tabs =
 customize-main-toolbar-target =
     .aria-label = Hovedværktøjslinje
 customize-palette-generic-title = Tilgængelig i alle områder
+customize-palette-mail-specific-title = Kun tilgængelig i området Mail
+customize-palette-addressbook-specific-title = Kun tilgængelig i området Adressebog
+customize-palette-calendar-specific-title = Kun tilgængelig i området Kalender
+customize-palette-tasks-specific-title = Kun tilgængelig i området Opgaver
+customize-palette-chat-specific-title = Kun tilgængelig i området Chat
+customize-palette-settings-specific-title = Kun tilgængelig i området Indstillinger
+customize-palette-extension-specific-title = Kun tilgængelig i dette område
 
 ## Unified toolbar customization palette context menu
 

@@ -5,6 +5,21 @@
 
 ## Message List Header Bar
 
+quick-filter-button-label = Lynfilter
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } meddelelse
+       *[other] { $count } meddelelser
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } valgt
+       *[other] { $count } valgte
+    }
 
 ## Quick Filter Bar
 
@@ -127,11 +142,36 @@ folder-pane-write-message-button = Ny meddelelse
     .title = Skriv en ny meddelelse
 folder-pane-more-menu-button =
     .title = Mapperudeindstillinger
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Vis "Hent meddelelser"
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Vis "Ny meddelelse"
 folder-pane-header-context-hide =
     .label = Skjul mapperudeoverskrift
+folder-pane-show-total-toggle =
+    .label = Vis det samlede antal meddelelser
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Vis mappestørrelse
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakt visning
     .accesskey = K
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 ulæst meddelelse
+       *[other] { $count } ulæste meddelelser
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 meddelelse i alt
+       *[other] { $count } meddelelser i alt
+    }
 
 ## Message thread pane
 
@@ -151,18 +191,23 @@ threadpane-column-header-flagged =
     .title = Sorter efter stjernemarkering
 threadpane-column-label-flagged =
     .label = Stjernemarkeret
+threadpane-flagged-cell-label = Stjernemarkeret
 threadpane-column-header-attachments =
     .title = Sorter efter vedhæftede filer
 threadpane-column-label-attachments =
     .label = Vedhæftede filer
+threadpane-attachments-cell-label = Vedhæftede filer
 threadpane-column-header-spam =
     .title = Sorter efter spam-status
 threadpane-column-label-spam =
     .label = Spam
+threadpane-spam-cell-label = Spam
 threadpane-column-header-unread-button =
     .title = Sorter efter læst-status
 threadpane-column-label-unread-button =
     .label = Læst status
+threadpane-read-cell-label = Læst
+threadpane-unread-cell-label = Ulæst
 threadpane-column-header-sender = Fra
     .title = Sorter efter afsender
 threadpane-column-label-sender =

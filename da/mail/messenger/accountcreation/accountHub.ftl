@@ -19,17 +19,6 @@ account-hub-release-notes = Udgivelsesnoter
 account-hub-support = Support
 account-hub-donate = Donér
 
-## Start page
-
-account-hub-email-button = Opsæt mailkonto
-account-hub-new-email-button = Få en ny mailadresse
-account-hub-calendar-button = Opsæt kalender
-account-hub-address-book-button = Opsæt adressebog
-account-hub-chat-button = Opsæt chat
-account-hub-feed-button = Opsæt RSS-feed
-account-hub-newsgroup-button = Opsæt nyhedsgruppe
-account-hub-import-button = Importer profil
-
 ## Initial setup page
 
 account-hub-email-setup-button = Mailkonto
@@ -46,6 +35,8 @@ account-hub-newsgroup-setup-button = Nyhedsgruppe
     .title = Opsæt en nyhedsgruppekonto
 account-hub-import-setup-button = Importer
     .title = Importer en sikkerhedskopieret profil
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Log ind på Sync…
 
 ## Email page
 
