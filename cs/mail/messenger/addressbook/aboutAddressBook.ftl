@@ -199,6 +199,20 @@ about-addressbook-confirm-remove-contacts =
        *[other] Opravdu chcete odebrat těchto { $count } kontaktů ze seznamu { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Opravdu chcete odebrat kontakt { $name } ze seznamu { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Opravdu chcete odebrat tento { $count } kontakt ze seznamu { $list }?
+        [few] Opravdu chcete odebrat tyto { $count } kontakty ze seznamu { $list }?
+        [many] Opravdu chcete odebrat těchto { $count } kontaktů ze seznamu { $list }?
+       *[other] Opravdu chcete odebrat těchto { $count } kontaktů ze seznamu { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -218,6 +232,15 @@ about-addressbook-confirm-delete-contacts =
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Opravdu chcete smazat kontakt { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Opravdu chcete smazat tento { $count } kontakt?
+        [few] Opravdu chcete smazat tyto { $count } kontakty?
+        [many] Opravdu chcete smazat těchto { $count } kontaktů?
+       *[other] Opravdu chcete smazat těchto { $count } kontaktů?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
