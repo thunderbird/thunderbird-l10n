@@ -182,6 +182,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Amosar o tamaño do cartafol
+folder-pane-header-hide-local-folders =
+    .label = Ocultar cartafoles locais
 folder-pane-mode-context-button =
     .title = Opcións do modo de cartafol
 folder-pane-mode-context-toggle-compact-mode =
