@@ -251,6 +251,9 @@ message-header-show-sender-full-address-description = E-mailová adresa se zobra
 message-header-show-recipient-avatar =
     .label = Zobrazovat profilový obrázek odesílatele
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Větší profilový obrázek
+    .accesskey = V
 message-header-hide-label-column =
     .label = Skrýt sloupec s popisky
     .accesskey = l
@@ -300,14 +303,21 @@ no-reply-reply-anyway-button = Přesto odpověď odeslat
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures =
     { $failures ->
         [one] { $failures } z { $total } zpráv se nepodařilo dešifrovat a nemohla být zkopírována.
         [few] { $failures } z { $total } zpráv se nepodařilo dešifrovat a nemohly být zkopírovány.
        *[other] { $failures } z { $total } zpráv se nepodařilo dešifrovat a nemohlo být zkopírováno.
+    }
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } z { $total } zprávy nemohla být dešifrována a nebyla zkopírována.
+        [few] { $failures } ze { $total } zpráv nemohly být dešifrovány a nebyly zkopírovány.
+        [many] { $failures } z { $total } zpráv nemohlo být dešifrováno a nebylo zkopírováno.
+       *[other] { $failures } z { $total } zpráv nemohlo být dešifrováno a nebylo zkopírováno.
     }
 
 ## Spaces toolbar

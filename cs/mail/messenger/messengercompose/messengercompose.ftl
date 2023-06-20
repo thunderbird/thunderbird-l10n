@@ -296,6 +296,16 @@ many-public-recipients-notice =
         [few] Celkem { $count } adresáti v polích Komu a Kopie navzájem uvidí své adresy. Pokud se tomu chcete vyhnout, použijte pole Skrytá kopie.
        *[other] Celkem { $count } adresátů v polích Komu a Kopie navzájem uvidí své adresy. Pokud se tomu chcete vyhnout, použijte pole Skrytá kopie.
     }
+public-recipients-notice-single = Vaše zpráva má veřejného příjemce. Můžete zabránit prozrazení příjemce tak, že použijete skrytou kopii.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } příjemce v polích Komu a Kopie uvidí adresu toho druhého. Prozrazení adres můžete předejít tak, že je přesunete do pole Skrytá kopie.
+        [few] { $count } příjemci v polích Komu a Kopie uvidí adresy každý toho druhého. Prozrazení adres můžete předejít tak, že je přesunete do pole Skrytá kopie.
+        [many] { $count } příjemců v polích Komu a Kopie uvidí adresy každý toho druhého. Prozrazení adres můžete předejít tak, že je přesunete do pole Skrytá kopie.
+       *[other] { $count } příjemců v polích Komu a Kopie uvidí adresy každý toho druhého. Prozrazení adres můžete předejít tak, že je přesunete do pole Skrytá kopie.
+    }
 many-public-recipients-bcc =
     .label = Použít skrytou kopii
     .accesskey = u
