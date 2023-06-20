@@ -619,6 +619,16 @@ certificate-button =
 security-devices-button =
     .label = Sikkerhedsenheder…
     .accesskey = E
+account-settings = Kontoindstillinger
+email-e2ee-enable-info = Opret mailkonti og identiteter til end to end-kryptering under Kontoindstillinger.
+email-e2ee-automatism = Automatisk brug af kryptering
+email-e2ee-automatism-pre =
+    { -brand-short-name } kan hjælpe dig med automatisk at slå kryptering til eller fra, når du opretter en meddelelse.
+    Kryptering slås automatisk til, når der findes gyldige og accepterede modtagernøgler eller -certifikater.
+email-e2ee-auto-on =
+    .label = Slå kryptering til automatisk, når det er muligt
+email-e2ee-auto-off =
+    .label = Slå kryptering fra automatisk, når modtagerne ændres og kryptering ikke længere er mulig
 
 ## Chat Tab
 
