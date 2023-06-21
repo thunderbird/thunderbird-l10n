@@ -38,6 +38,20 @@ thread-pane-header-context-cards-view =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Behold de valgte filtre, når der skiftes mappe?
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Lynfiltermenu
+quick-filter-bar-dropdown-unread =
+    .label = Ulæste
+quick-filter-bar-dropdown-starred =
+    .label = Stjernemarkerede
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Mærkater
+quick-filter-bar-dropdown-attachment =
+    .label = Vedhæftet fil
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -150,6 +164,9 @@ folder-pane-write-message-button = Ny meddelelse
     .title = Skriv en ny meddelelse
 folder-pane-more-menu-button =
     .title = Mapperudeindstillinger
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Mappetilstande
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
     .label = Vis "Hent meddelelser"
@@ -163,6 +180,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Vis mappestørrelse
+folder-pane-mode-context-button =
+    .title = Indstillinger for mappetilstand
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakt visning
     .accesskey = K
