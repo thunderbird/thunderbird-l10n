@@ -5,7 +5,11 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Vis/skjul lynfilterlinje
 quick-filter-button-label = Lynfilter
+thread-pane-header-display-button =
+    .title = Visningsindstillinger for meddelelsesliste
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -20,6 +24,10 @@ thread-pane-folder-selected-count =
         [one] { $count } valgt
        *[other] { $count } valgte
     }
+thread-pane-header-context-table-view =
+    .label = Tabelvisning
+thread-pane-header-context-cards-view =
+    .label = Kortvisning
 
 ## Quick Filter Bar
 
