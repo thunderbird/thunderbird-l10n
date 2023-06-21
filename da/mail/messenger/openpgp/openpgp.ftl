@@ -25,10 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Opbevar meddelelseskladder i krypteret format
     .accesskey = O
-# Do not translate "Autocrypt", it's the name of a standard.
-e2e-autocrypt-headers =
-    .label = Send offentlig(e) OpenPGP-nøgle(r) i samme mailheaders for at sikre kompatibilitet med Autocrypt
-    .accesskey = S
 openpgp-key-user-id-label = Konto / bruger-id
 openpgp-keygen-title-label =
     .title = Generer OpenPGP-nøgle
@@ -59,6 +55,10 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Avanceret…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">OBS: Nøglegenerering kan tage flere minutter.</a> Luk ikke programmet mens nøglegenereringen er i gang. Hvis du aktivt browser eller udfører diskintensive operationer, mens nøglegenereringen står på, fylder du ‘tilfældigheds-puljen’ op, hvilket får processen til at gå hurtigere. Du får besked, når nøglen er færdig.
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Send offentlig(e) OpenPGP-nøgle(r) i samme mailheaders for at sikre kompatibilitet med Autocrypt
+    .accesskey = S
 openpgp-key-created-label =
     .label = Oprettet
 openpgp-key-expiry-label =
@@ -314,6 +314,11 @@ openpgp-personal-no-label =
     .label = Nej, brug den ikke som min personlige nøgle.
 openpgp-personal-yes-label =
     .label = Ja, behandl denne nøgle som en personlig nøgle.
+openpgp-passphrase-status-unprotected = Ubeskyttet
+openpgp-passphrase-status-primary-password = Beskyttet af { -brand-short-name }s hovedadgangskode
+openpgp-passphrase-instruction-user-passphrase = Lås denne nøgle op for at ændre dens beskyttelse.
+openpgp-passphrase-unlock = Lås op
+openpgp-passphrase-unlocked = Nøglen er låst op.
 openpgp-copy-cmd-label =
     .label = Kopier
 
@@ -623,8 +628,6 @@ import-key-file = Importer OpenPGP-nøglefil
 import-rev-file = Importer OpenPGP-tilbagekaldelsesfil
 gnupg-file = GnuPG-filer
 import-keys-failed = Import af nøgler mislykkedes
-# Variables:
-# $key (String) - Key id to unlock.
 passphrase-prompt = Indtast adgangsudtrykket, der låser følgende nøgle op: { $key }
 file-to-big-to-import = Denne fil er for stor. Undlad at importere mange nøgler på én gang.
 
