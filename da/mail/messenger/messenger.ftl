@@ -292,6 +292,14 @@ no-reply-reply-anyway-button = Svar alligevel
 ## error messages
 
 decrypt-and-copy-failures = { $failures } af { $total } beskeder kunne ikke dekrypteres og blev ikke kopieret.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } ud af { $total } meddelelser kunne ikke dekrypteres og blev ikke kopieret.
+       *[other] { $failures } ud af { $total } meddelelser kunne ikke dekrypteres og blev ikke kopieret.
+    }
 
 ## Spaces toolbar
 
@@ -394,3 +402,9 @@ quick-filter-bar-show =
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% fyldt
+    .title = IMAP-kvote: { $usage } brugt af { $limit } i alt

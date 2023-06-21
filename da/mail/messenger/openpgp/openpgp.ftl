@@ -361,6 +361,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Nøglen udløber om mindre end 6 måneder
 openpgp-key-has-expired-icon =
     .title = Nøgle udløbet
+openpgp-suggest-publishing-key = Hvis du offentliggør den offentlige nøgle på en nøgleserver, kan andre finde den.
 openpgp-key-expand-section =
     .tooltiptext = Flere oplysninger
 openpgp-key-revoke-title = Tilbagekald nøgle
