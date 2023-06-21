@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Overskrift på meddelelsesliste
+    .accesskey = O
 menu-font-size-label =
     .label = Skriftstørrelse
     .accesskey = S
