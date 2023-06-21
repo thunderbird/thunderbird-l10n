@@ -33,15 +33,53 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Gå en side tilbage ({ $shortcut })
+    .aria-label = Tilbage
+    .accesskey = T
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Tilbage
+    .accesskey = T
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Gå en side frem ({ $shortcut })
+    .aria-label = Frem
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Frem
+    .accesskey = F
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Genindlæs side
+    .aria-label = Genindlæs
+    .accesskey = G
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Genindlæs side
+    .label = Genindlæs
+    .accesskey = G
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Stop indlæsning af side
+    .aria-label = Stop
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Stop indlæsning af side
+    .label = Stop
+    .accesskey = S
 
 ## Toolbar
 
