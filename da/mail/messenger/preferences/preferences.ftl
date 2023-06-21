@@ -629,6 +629,11 @@ email-e2ee-auto-on =
     .label = Slå kryptering til automatisk, når det er muligt
 email-e2ee-auto-off =
     .label = Slå kryptering fra automatisk, når modtagerne ændres og kryptering ikke længere er mulig
+email-e2ee-auto-off-notify =
+    .label = Vis en besked, når kryptering automatisk slås fra
+email-e2ee-automatism-post =
+    Automatiske beslutninger kan tilsidesættes, hvis du manuelt slår kryptering til eller fra, når du opretter en meddelelse.
+    OBS: Kryptering er altid automatisk slået til, når du svarer på en krypteret meddelelse.
 
 ## Chat Tab
 
