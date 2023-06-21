@@ -29,6 +29,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Webstedet anmoder om adgang til dine MIDI-enheder (Musical Instrument Digital Interface). Adgangen kan aktiveres ved at installere en tilføjelse.
+site-permission-install-first-prompt-midi-message = Der er ingen garanti for, at adgangen er sikker. Fortsæt kun, hvis du stoler på webstedet.
 
 ##
 
@@ -44,6 +46,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) er blokeret af din system-administrator.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Din systemadministrator har forhindret dette websted i at spørge dig om lov til at installere software på din computer.
+addon-install-full-screen-blocked = Installation af tilføjelser er ikke tilladt i eller før aktivering af fuldskærmstilstand.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } tilføjet til { -brand-short-name }
@@ -53,6 +56,14 @@ webext-perms-update-menu-item = { $addonName } kræver nye tilladelser
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Fjern { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Fjern { $name } fra { -brand-shorter-name }?
+addon-removal-button = Fjern
+addon-removal-abuse-report-checkbox = Rapporter denne udvidelse til { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -94,6 +105,7 @@ addon-install-error-incorrect-hash = Tilføjelsen kunne ikke installeres, da den
 addon-install-error-corrupt-file = Tilføjelsen fra dette websted kunne ikke installeres, da den tilsyneladende er ødelagt.
 addon-install-error-file-access = { $addonName } kunne ikke installeres, da { -brand-short-name } ikke kan ændre den nødvendige fil.
 addon-install-error-not-signed = { -brand-short-name } har forhindret dette websted i at installere en ikke-verificeret tilføjelse.
+addon-install-error-invalid-domain = Tilføjelsen { $addonName } kan ikke installeres fra denne placering.
 addon-local-install-error-network-failure = Denne tilføjelse kunne ikke installeres på grund af en fejl i filsystemet.
 addon-local-install-error-incorrect-hash = Denne tilføjelse kunne ikke installeres, da den ikke svarer til den tilføjelse, som { -brand-short-name } forventede.
 addon-local-install-error-corrupt-file = Denne tilføjelse kunne ikke installeres, da den tilsyneladende er ødelagt.
