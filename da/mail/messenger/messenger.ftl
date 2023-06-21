@@ -208,6 +208,9 @@ mail-context-undelete-messages =
             [one] Gendan meddelelsen
            *[other] Fortryd sletning af valgte meddelelser
         }
+context-menu-decrypt-to-folder2 =
+    .label = Opret krypteret kopi i
+    .accesskey = y
 
 ## Message header pane
 
@@ -240,6 +243,9 @@ message-header-show-sender-full-address-description = Mailadressen vil blive vis
 message-header-show-recipient-avatar =
     .label = Vis afsenderens profilbillede
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Større profilbillede
+    .accesskey = r
 message-header-hide-label-column =
     .label = Skjul kolonnen etiketter
     .accesskey = E
