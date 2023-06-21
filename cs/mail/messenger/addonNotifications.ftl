@@ -104,8 +104,21 @@ addon-confirm-install-unsigned-message =
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
 addon-confirm-install-some-unsigned-message =
     { $addonCount ->
-        [few] Upozornění: Tato stránka chce nainstalovat { $addonCount } doplňky do aplikace { -brand-short-name }, z nichž některé jsou neověřené. Pokračujte na vlastní riziko.
-       *[other] Upozornění: Tato stránka chce nainstalovat { $addonCount } doplňků do aplikace { -brand-short-name }, z nichž některé jsou neověřené. Pokračujte na vlastní riziko.
+        [one]
+            { -brand-short-name.case-status ->
+                [with-cases] Upozornění: Tato stránka chce do { -brand-short-name(case: "gen") } nainstalovat nověřený doplněk. Pokračujte na vlastní riziko.
+               *[no-cases] Upozornění: Tato stránka chce do aplikace { -brand-short-name } nainstalovat nověřený doplněk. Pokračujte na vlastní riziko.
+            }
+        [few]
+            { -brand-short-name.case-status ->
+                [with-cases] Upozornění: Tato stránka chce do { -brand-short-name(case: "gen") } nainstalovat { $addonCount } doplňky, z nichž některé jsou neověřené. Pokračujte na vlastní riziko.
+               *[no-cases] Upozornění: Tato stránka chce do aplikace { -brand-short-name } nainstalovat { $addonCount } doplňky, z nichž některé jsou neověřené. Pokračujte na vlastní riziko.
+            }
+       *[other]
+            { -brand-short-name.case-status ->
+                [with-cases] Upozornění: Tato stránka chce do { -brand-short-name(case: "gen") } nainstalovat { $addonCount } doplňků, z nichž některé jsou neověřené. Pokračujte na vlastní riziko.
+               *[no-cases] Upozornění: Tato stránka chce do aplikace { -brand-short-name } nainstalovat { $addonCount } doplňků, z nichž některé jsou neověřené. Pokračujte na vlastní riziko.
+            }
     }
 
 ## Add-on install errors
