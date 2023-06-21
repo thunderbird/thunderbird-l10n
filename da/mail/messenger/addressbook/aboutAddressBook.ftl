@@ -190,6 +190,10 @@ about-addressbook-confirm-remove-contacts =
        *[other] Er du sikker på, at du vil fjerne disse { $count } kontakter fra { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Er du sikker på, du ønsker at fjerne { $name } fra { $list }?
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -204,6 +208,9 @@ about-addressbook-confirm-delete-contacts =
         [one] Er du sikker på, at du vil slette kontakten { $name }?
        *[other] Er du sikker på, at du vil slette disse { $count } kontakter?
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Er du sikker på, du ønsker at slette kontakten { $name }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -225,6 +232,20 @@ about-addressbook-selection-contacts-header = { $count } valgte kontakter
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } valgte lister
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } valgt kontakt
+       *[other] { $count } valgte kontakter
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } valgt liste
+       *[other] { $count } valgte lister
+    }
 about-addressbook-details-edit-photo =
     .title = Rediger kontaktbillede
 about-addressbook-new-contact-header = Ny kontakt

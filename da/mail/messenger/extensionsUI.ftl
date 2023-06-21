@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Ondsindede tilføjelser kan stjæle dine private informationer eller kompromittere din computer. Installer kun tilføjelsen, hvis du stoler på udgiveren.
 webext-perms-learn-more = Læs mere
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } blev tilføjet.
