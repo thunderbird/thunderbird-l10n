@@ -191,8 +191,22 @@ smime-cert-issue-notification-many = End-to-end-kryptering kræver, at du løser
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = For at benytte end to end-kyptering, skal du løse nøgleproblemerne for adressen { $addr }.
 # Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] For at benytte end to end-kyptering, skal du løse nøgleproblemerne for 1 modtager.
+       *[other] For at benytte end to end-kyptering, skal du løse nøgleproblemerne for { $count } modtagere.
+    }
+# Variables:
 # $addr (String) - mail address with certificate issues.
 smime-cert-issue-notification-single = For at benytte end to end-kyptering, skal du løse certifikatproblemerne for adressen { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] For at benytte end to end-kyptering, skal du løse certifikatproblemerne for 1 modtager.
+       *[other] For at benytte end to end-kyptering, skal du løse certifikatproblemerne for { $count } modtagere.
+    }
 key-notification-disable-encryption =
     .label = Krypter ikke
     .accesskey = i
