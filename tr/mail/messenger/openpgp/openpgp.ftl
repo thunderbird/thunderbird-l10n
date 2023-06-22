@@ -25,10 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Taslak iletileri şifrelenmiş olarak sakla
     .accesskey = r
-# Do not translate "Autocrypt", it's the name of a standard.
-e2e-autocrypt-headers =
-    .label = Autocrypt ile uyumluluk için OpenPGP ortak anahtarlarını e-posta üstbilgisinde gönder
-    .accesskey = t
 openpgp-key-user-id-label = Hesap / Kullanıcı kimliği
 openpgp-keygen-title-label =
     .title = OpenPGP Anahtarı Oluştur
@@ -59,6 +55,10 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Gelişmiş…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">NOT: Anahtarın oluşturulması birkaç dakika sürebilir.</a> Anahtar oluşturma devam ederken uygulamadan çıkmayın. Anahtar oluşturma sırasında internette gezinmeniz ve veya diskiniz kullanmanız "rastgelelik havuzunu" dolduracak ve süreci hızlandıracaktır. Anahtar oluşturma tamamlandığında bilgilendirileceksiniz.
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Autocrypt ile uyumluluk için OpenPGP ortak anahtarlarını e-posta üstbilgisinde gönder
+    .accesskey = t
 openpgp-key-created-label =
     .label = Oluşturma
 openpgp-key-expiry-label =
@@ -320,6 +320,7 @@ openpgp-passphrase-status-unprotected = Korumasız
 openpgp-passphrase-status-primary-password = { -brand-short-name } ana parolasıyla korunuyor
 openpgp-passphrase-status-user-passphrase = Parolayla korunuyor
 openpgp-passphrase-instruction-unprotected = Bu anahtarı korumak için bir parola belirleyin
+openpgp-passphrase-instruction-user-passphrase = Korumasını değiştirmek için bu anahtarın kilidini açın.
 openpgp-passphrase-unlock = Kilidi aç
 openpgp-passphrase-unlocked = Anahtarın kilidi başarıyla açıldı.
 openpgp-remove-protection = Parola korumasını kaldır

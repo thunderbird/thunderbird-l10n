@@ -182,6 +182,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Dizin boyutunu göster
+folder-pane-header-hide-local-folders =
+    .label = Yerel dizinleri gizle
 folder-pane-mode-context-button =
     .title = Dizin modu seçenekleri
 folder-pane-mode-context-toggle-compact-mode =
