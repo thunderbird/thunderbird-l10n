@@ -197,6 +197,34 @@ openpgp-key-issue-notification-one = Za uporabo šifriranja od konca do konca je
 openpgp-key-issue-notification-many = Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključi za { $count } prejemnikov.
 smime-cert-issue-notification-one = Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $addr }
 smime-cert-issue-notification-many = Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $count } prejemnikov.
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Vaše nastavitve niso pripravljene za pošiljanje od konca do konca šifriranih sporočil z naslova { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključi za { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključi za { $count } prejemnika.
+        [two] Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključi za { $count } prejemnika.
+        [few] Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključi za { $count } prejemnike.
+       *[other] Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključi za { $count } prejemnikov.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $addr }
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $count } prejemnika.
+        [two] Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $count } prejemnika.
+        [few] Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $count } prejemnike.
+       *[other] Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $count } prejemnikov.
+    }
 key-notification-disable-encryption =
     .label = Ne šifriraj
     .accesskey = N
@@ -268,6 +296,7 @@ many-public-recipients-notice =
         [few] { $count } prejemniki v poljih Za in Kp bodo videli naslove drug drugega. Prejemnike lahko prikrijete tako, da uporabite polje Skp.
        *[other] { $count } prejemnikov v poljih Za in Kp bo videlo naslove drug drugega. Prejemnike lahko prikrijete tako, da uporabite polje Skp.
     }
+public-recipients-notice-single = Sporočilo ima javnega prejemnika. Razkritju prejemnika se lahko izognete z uporabo polja Skp.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
 public-recipients-notice-multi =

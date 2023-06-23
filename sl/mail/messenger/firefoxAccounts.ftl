@@ -14,6 +14,7 @@ fxa-verification-not-sent-body = Potrditvene e-pošte ni bilo mogoče poslati. P
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+fxa-signout-dialog-title = Odjava iz { -fxaccount-brand-name(capitalization: "sentence") }a?
 fxa-signout-dialog-body = Sinhronizirani podatki bodo ostali v vašem računu.
 fxa-signout-dialog-button = Odjava
 

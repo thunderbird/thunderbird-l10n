@@ -264,6 +264,15 @@ about-addressbook-selection-contacts-header = { $count } izbranih stikov
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } izbranih seznamov
 # Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } izbran vnos v imenik
+        [two] { $count } izbrana vnosa v imenik
+        [few] { $count } izbrani vnosi v imenik
+       *[other] { $count } izbranih vnosov v imenik
+    }
+# Variables:
 # $count (Number) - The number of selected contacts
 about-addressbook-selection-contacts-header2 =
     { $count ->

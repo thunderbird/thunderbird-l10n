@@ -25,10 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Shranjuj osnutke sporočil v šifrirani obliki
     .accesskey = o
-# Do not translate "Autocrypt", it's the name of a standard.
-e2e-autocrypt-headers =
-    .label = Pošiljaj javne ključe OpenPGP v glavah e-pošte za združljivost s šifriranjem Autocrypt
-    .accesskey = t
 openpgp-key-user-id-label = Račun/ID uporabnika
 openpgp-keygen-title-label =
     .title = Ustvari ključ OpenPGP
@@ -59,6 +55,10 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Napredno …
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">OPOMBA: Ustvarjanje ključev lahko traja nekaj minut.</a> Med ustvarjanjem ključev ne zapirajte programa. Dejavno brskanje ali izvajanje zahtevnih opravil na disku bo polnilo "bazen naključnosti" in pospešilo postopek ustvarjanja ključev. Obveščeni boste, ko bo postopek končan.
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Pošiljaj javne ključe OpenPGP v glavah e-pošte za združljivost s šifriranjem Autocrypt
+    .accesskey = t
 openpgp-key-created-label =
     .label = Ustvarjen
 openpgp-key-expiry-label =
@@ -379,6 +379,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Ključ bo pretekel čez manj kot 6 mesecev
 openpgp-key-has-expired-icon =
     .title = Veljavnost ključa je pretekla
+openpgp-suggest-publishing-key = Objava javnega ključa na strežniku ključev omogoča drugim, da ga odkrijejo.
 openpgp-key-expand-section =
     .tooltiptext = Več informacij
 openpgp-key-revoke-title = Prekliči ključ
