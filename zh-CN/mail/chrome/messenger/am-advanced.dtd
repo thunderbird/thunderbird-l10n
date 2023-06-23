@@ -5,10 +5,10 @@
 <!-- extracted from am-advanced.xhtml -->
 
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
-<!ENTITY smtpServer.label "发送服务器 (SMTP) 设置">
+<!ENTITY smtpServer.label "发件服务器（SMTP）设置">
 
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
-<!ENTITY smtpDescription.label "管理您身份信息的同时，您可以从此列表中选择外发服务器 (SMTP)，或者您也可以选择 &quot;使用默认服务器&quot;。">
+<!ENTITY smtpDescription.label "管理您身份信息的同时，您可以从此列表中选择发件服务器（SMTP），或者您也可以选择 &quot;使用默认服务器&quot;。">
 
 <!ENTITY smtpListAdd.label  "添加…">
 <!ENTITY smtpListAdd.accesskey  "d">

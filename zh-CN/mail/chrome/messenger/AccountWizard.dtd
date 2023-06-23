@@ -27,7 +27,7 @@
 
 <!-- Entities for Incoming Server page -->
 
-<!ENTITY incomingTitle.label "接收服务器信息">
+<!ENTITY incomingTitle.label "收件服务器信息">
 <!ENTITY incomingUsername.label "用户名：">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "输入新闻 (NNTP) 服务器名。（例如，&quot;news.netscape.net&quot;。）">
