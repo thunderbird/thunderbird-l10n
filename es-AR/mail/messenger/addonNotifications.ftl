@@ -95,7 +95,7 @@ addon-confirm-install-message =
 addon-confirm-install-unsigned-message =
     { $addonCount ->
         [one] Cuidado: este sitio quiere instalar un complemento no verificado en { -brand-short-name }. Proceda bajo su propio riesgo.
-       *[other] Cuidado: este sitio quiere instalar los complementos no verificados 2 en { -brand-short-name }. Proceda bajo su propio riesgo.
+       *[other] Cuidado: este sitio quiere instalar { $addonCount } complementos no verificados en { -brand-short-name }. Proceda bajo su propio riesgo.
     }
 # Variables:
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
