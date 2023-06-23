@@ -464,8 +464,8 @@
 <!ENTITY activitymanager.accesskey "v">
 <!ENTITY imAccountsStatus.label "聊天状态">
 <!ENTITY imAccountsStatus.accesskey "C">
-<!ENTITY imStatus.available          "可用">
-<!ENTITY imStatus.unavailable        "不可用">
+<!ENTITY imStatus.available          "空闲">
+<!ENTITY imStatus.unavailable        "忙碌">
 <!ENTITY imStatus.offline            "脱机">
 <!ENTITY imStatus.showAccounts       "显示账户…">
 <!ENTITY joinChatCmd.label "参与聊天…">

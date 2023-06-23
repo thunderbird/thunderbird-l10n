@@ -36,8 +36,8 @@
 <!ENTITY joinChatButton.label          "加入聊天">
 <!ENTITY chatAccountsButton.label      "显示账户">
 
-<!ENTITY status.available          "可用">
-<!ENTITY status.unavailable        "不可用">
+<!ENTITY status.available          "空闲">
+<!ENTITY status.unavailable        "忙碌">
 <!ENTITY status.offline            "脱机">
 
 <!ENTITY openLinkCmd.label            "打开链接…">
