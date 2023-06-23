@@ -54,7 +54,7 @@ policy-Extensions = Инсталирајте, уклоните или закљу
 policy-ExtensionSettings = Управљајте свим аспектима инсталације проширења.
 policy-ExtensionUpdate = Омогућите или онемогућите аутоматско ажурирање проширења.
 policy-Handlers = Подесите подразумеване менаџере апликација.
-policy-HardwareAcceleration = Ако је вредност лажна, хардверско убрзање ће бити искључено.
+policy-HardwareAcceleration = Ако је вредност лажна, искључи хардверско убрзање.
 policy-InstallAddonsPermission = Дозволите одређеним страницама да инсталирају додатке.
 policy-LegacyProfiles = Онемогућите функцију намећући посебан налог за сваку инсталацију
 
