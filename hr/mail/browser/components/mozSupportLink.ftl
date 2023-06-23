@@ -2,7 +2,4 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-recurrence-preview-label = Pregled
-calendar-recurrence-next = Sljedeći mjesec
-calendar-recurrence-previous = Prethodni mjesec
-calendar-recurrence-today = Danas
+moz-support-link-text = Saznaj više

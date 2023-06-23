@@ -127,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Dodaj OpenSearch pružatelja usluge
 add-opensearch-provider-text = Unesite URL OpenSearch pružatelja usluge kako biste dodali. Koristite direktni URL OpenSearch datoteke opisa ili URL gdje se može automatski otkriti.
 adding-opensearch-provider-failed-title = Dodavanje OpenSearch pružatelja usluge nije uspjelo
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Nije moguće dodati OpenSearch pružatelja usluge za { $url }.
 minimize-to-tray-label =
     .label = Kada je { -brand-short-name } smanjen, premjesti ga u sistemsku traku
@@ -197,6 +199,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Uvijek prikaži trake za pomicanje
     .accesskey = c
+window-layout-legend = Raspored prozora
 system-integration-legend = Sistemska integracija
 always-check-default =
     .label = Prilikom pokretanja uvijek provjeri je li { -brand-short-name } zadani program za e-poštu

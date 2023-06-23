@@ -194,6 +194,19 @@ about-addressbook-confirm-remove-contacts =
        *[other] Jeste li sigurni da želite ukloniti { $count } kontakata s { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Jeste li sigurni da želite obrisati { $name } iz { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Jeste li sigurni da želite ukloniti { $count } kontakt iz { $list }?
+        [few] Jeste li sigurni da želite ukloniti { $count } kontakta iz { $list }?
+       *[other] Jeste li sigurni da želite ukloniti { $count } kontakata iz { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -205,6 +218,17 @@ about-addressbook-confirm-delete-contacts-title =
 # $count (Number) - The number of contacts to be deleted.
 # $name (String) - The name of the contact to be deleted, if $count is 1.
 about-addressbook-confirm-delete-contacts =
+    { $count ->
+        [one] Jeste li sigurni da želite obrisati { $count } kontakt?
+        [few] Jeste li sigurni da želite obrisati { $count } kontakta?
+       *[other] Jeste li sigurni da želite obrisati { $count } kontakata?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Jeste li sigurni da želite obrisati kontakt { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
     { $count ->
         [one] Jeste li sigurni da želite obrisati { $count } kontakt?
         [few] Jeste li sigurni da želite obrisati { $count } kontakta?
@@ -231,6 +255,30 @@ about-addressbook-selection-contacts-header = { $count } odabranih kontakata
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } odabranih popisa
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } odabrani unos adresara
+        [few] { $count } odabrana unosa adresara
+       *[other] { $count } odabranih unosa adresara
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } odabrani kontakt
+        [few] { $count } odabrana kontakta
+       *[other] { $count } odabranih kontakata
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } odabrani popis
+        [few] { $count } odabrana popisa
+       *[other] { $count } odabranih popisa
+    }
 about-addressbook-details-edit-photo =
     .title = Uredi sliku kontakta
 about-addressbook-new-contact-header = Novi kontakt
