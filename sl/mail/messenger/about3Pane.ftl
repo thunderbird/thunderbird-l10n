@@ -204,6 +204,15 @@ folder-pane-unread-aria-label =
         [few] { $count } neprebrana sporočila
        *[other] { $count } neprebranih sporočil
     }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Skupno 1 sporočilo
+        [two] Skupno { $count } sporočili
+        [few] Skupno { $count } sporočila
+       *[other] Skupno { $count } sporočil
+    }
 
 ## Message thread pane
 
