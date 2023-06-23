@@ -16,6 +16,7 @@ accounts-default = Zadano?
 identity-name = Identitet
 send-via-email = Pošalji e-poštom
 app-basics-telemetry = Telemetrijski podaci
+app-basics-cache-use = Upotreba predmemorije
 mail-libs-title = Biblioteke
 libs-table-heading-library = Biblioteka
 libs-table-heading-expected-version = Očekivana najmanja inačica

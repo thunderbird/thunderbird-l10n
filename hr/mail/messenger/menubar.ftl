@@ -92,8 +92,17 @@ menu-view-repair-text-encoding =
     .label = Ispravi kodiranje teksta
     .accesskey = v
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Zaglavlje okna mape
+    .accesskey = m
+
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Zaglavlje popisa poruka
+    .accesskey = p
 menu-font-size-label =
     .label = Veličina fonta
     .accesskey = o

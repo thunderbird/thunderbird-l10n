@@ -21,3 +21,4 @@ webext-perms-description-messagesMove = Kopira ili premješta poruke e-pošte (u
 webext-perms-description-messagesDelete = Trajno briše vaše poruke e-pošte
 webext-perms-description-messagesRead = Pročitajte svoje poruke e-pošte i označite ih
 webext-perms-description-messagesTags = Stvorite, mijenjajte i brišite oznake poruka
+webext-perms-description-sensitiveDataUpload = Prijenos osjetljivih korisničkih podataka (ako je pristup odobren) na udaljeni poslužitelj radi daljnje obrade
