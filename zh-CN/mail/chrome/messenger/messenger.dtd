@@ -297,7 +297,7 @@
 <!ENTITY nextUnreadMsgCmd.label "未读消息">
 <!ENTITY nextUnreadMsgCmd.accesskey "U">
 <!ENTITY nextUnreadMsgCmd.key "n">
-<!ENTITY nextStarredMsgCmd.label "已加星标之消息">
+<!ENTITY nextStarredMsgCmd.label "已加星标的消息">
 <!ENTITY nextStarredMsgCmd.accesskey "S">
 <!ENTITY nextUnreadThread.label "未读话题">
 <!ENTITY nextUnreadThread.accesskey "T">
@@ -318,7 +318,7 @@
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goChatCmd.label "聊天">
 <!ENTITY goChatCmd.accesskey "C">
-<!ENTITY prevStarredMsgCmd.label "已加星标之消息">
+<!ENTITY prevStarredMsgCmd.label "已加星标的消息">
 <!ENTITY prevStarredMsgCmd.accesskey "S">
 <!ENTITY folderMenu.label "文件夹">
 <!ENTITY folderMenu.accesskey "o">

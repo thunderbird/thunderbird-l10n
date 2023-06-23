@@ -26,7 +26,7 @@
 <!ENTITY retentionKeepAll.accesskey "a">
 <!ENTITY retentionKeepRecent.label "除最近使用的全部删除">
 <!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "一律保留已加星标之消息">
+<!ENTITY retentionApplyToFlagged.label "一律保留已加星标的消息">
 <!ENTITY retentionApplyToFlagged.accesskey "e">
 
 <!ENTITY folderSynchronizationTab.label          "同步">
