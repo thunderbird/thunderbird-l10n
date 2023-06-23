@@ -188,6 +188,14 @@ about-addressbook-confirm-remove-contacts =
        *[other] 您确定要从 { $list } 列表删除 { $count } 位联系人吗？
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = 您确定要从 { $list } 中删除 { $name } 吗？
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi = 您确定要从 { $list } 列表删除 { $count } 位联系人吗？
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -201,6 +209,12 @@ about-addressbook-confirm-delete-contacts =
         [one] 您确定要删除联系人 { $name } 吗？
        *[other] 您确定要删除下列 { $count } 位联系人吗？
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = 您确定要删除联系人 { $name } 吗？
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi = 您确定要删除这 { $count } 位联系人吗？
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
