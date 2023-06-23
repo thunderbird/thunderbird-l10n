@@ -24,7 +24,7 @@
 <!ENTITY retentionDeleteMsg.accesskey "m">
 <!ENTITY retentionKeepAll.label "不要删除任何消息">
 <!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "除最近使用的全部删除">
+<!ENTITY retentionKeepRecent.label "仅保留最近">
 <!ENTITY retentionKeepRecent.accesskey "l">
 <!ENTITY retentionApplyToFlagged.label "一律保留已加星标的消息">
 <!ENTITY retentionApplyToFlagged.accesskey "e">

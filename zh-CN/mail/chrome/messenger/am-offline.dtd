@@ -22,7 +22,7 @@
 <!ENTITY retentionCleanup.label "将旧消息永久删除可释放更多磁盘空间。">
 <!ENTITY retentionCleanupImap.label "为回收磁盘空间，旧消息会被永久删除，这包括本地的副本和远程服务器上的原始内容。">
 <!ENTITY retentionCleanupPop.label "要回收磁盘空间，可以永久删除旧消息，包括远程服务器上的原文。">
-<!ENTITY retentionKeepMsg.label "删除超过">
+<!ENTITY retentionKeepMsg.label "删除">
 <!ENTITY retentionKeepMsg.accesskey "t">
 <!ENTITY retentionKeepAll.label "不删除任何消息">
 <!ENTITY retentionKeepAll.accesskey "n">
@@ -50,8 +50,8 @@
 <!ENTITY ageAutosyncBefore.label         "同步最近">
 <!ENTITY ageAutosync.accesskey           "z">
 <!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "天">
-<!ENTITY weekAgeInterval.label           "周">
-<!ENTITY monthAgeInterval.label          "月">
-<!ENTITY yearAgeInterval.label           "年">
+<!ENTITY dayAgeInterval.label            "天前的消息">
+<!ENTITY weekAgeInterval.label           "周前的消息">
+<!ENTITY monthAgeInterval.label          "个月前的消息">
+<!ENTITY yearAgeInterval.label           "年前的消息">
 <!ENTITY ageAutosyncAfter.label          "">
