@@ -190,6 +190,18 @@ about-addressbook-confirm-remove-contacts =
        *[other] Vuls ti propi allontanar quests { $count } contacts da la glista { $list }?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Vuls ti propi allontanar { $name } da { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Vuls ti propi allontanar quest contact da la glista { $list }?
+       *[other] Vuls ti propi allontanar quests { $count } contacts da la glista { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -202,6 +214,16 @@ about-addressbook-confirm-delete-contacts-title =
 about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] Vuls ti propi stizzar il contact { $name }?
+       *[other] Vuls ti propi stizzar quests { $count } contacts?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Vuls ti propi stizzar il contact { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Vuls ti propi stizzar quest contact?
        *[other] Vuls ti propi stizzar quests { $count } contacts?
     }
 

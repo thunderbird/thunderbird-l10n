@@ -182,6 +182,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Mussar la grondezza da l'ordinatur
+folder-pane-header-hide-local-folders =
+    .label = Zuppentar ils ordinaturs locals
 folder-pane-mode-context-button =
     .title = Opziuns dal modus ordinaturs
 folder-pane-mode-context-toggle-compact-mode =

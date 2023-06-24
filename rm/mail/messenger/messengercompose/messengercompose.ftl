@@ -183,22 +183,34 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Administraziun da clavs
     .accesskey = m
+openpgp-key-issue-notification-one = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun la clav per { $addr }
+openpgp-key-issue-notification-many = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun la clav per { $count } destinaturs.
+smime-cert-issue-notification-one = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun il certificat per { $addr }.
+smime-cert-issue-notification-many = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun il certificat per { $count } destinaturs.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Il sistem n'è betg configurà per trametter messadis cun criptadi fin-a-fin da { $addr }.
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun la clav per { $addr }
+openpgp-key-issue-notification-single = Per utilisar il criptadi fin-a-fin èsi necessari da schliar ils problems cun la clav per { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun la clav per { $count } destinaturs.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Per utilisar il criptadi fin-a-fin èsi necessari da schliar ils problems cun la clav per { $count } destinatur.
+       *[other] Per utilisar il criptadi fin-a-fin èsi necessari da schliar ils problems cun la clav per { $count } destinaturs.
+    }
 # Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun il certificat per { $addr }.
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Per utilisar il criptadi fin-a-fin èsi necessari da schliar ils problems cun il certificat per { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun il certificat per { $count } destinaturs.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Per utilisar il criptadi fin-a-fin èsi necessari da schliar ils problems cun il certificat per { $count } destinatur.
+       *[other] Per utilisar il criptadi fin-a-fin èsi necessari da schliar ils problems cun il certificat per { $count } destinaturs.
+    }
 key-notification-disable-encryption =
     .label = Betg criptar
     .accesskey = B
@@ -267,6 +279,14 @@ many-public-recipients-notice =
     { $count ->
         [one] Tes messadi ha in destinatur public. Ti pos evitar che destinaturs vegnian revelads cun utilisar il champ Bcc.
        *[other] Ils { $count } destinaturs en ils champs A e Cc pon vesair l'adressa in da l'auter. Ti pos evitar che destinaturs vegnian revelads cun utilisar il champ Bcc.
+    }
+public-recipients-notice-single = Tes messadi ha in destinatur public. Igl è pussaivel dad evitar ch'il destinatur è visibel cun utilisar Bcc.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] Ils { $count } destinaturs en ils champs A e Cc pon mintgamai vesair l'adressa dals auters. Ti pos evitar che destinaturs vegnian revelads cun utilisar il champ Bcc.
+       *[other] Ils { $count } destinaturs en ils champs A e Cc pon mintgamai vesair l'adressa dals auters. Ti pos evitar che destinaturs vegnian revelads cun utilisar il champ Bcc.
     }
 many-public-recipients-bcc =
     .label = Utilisar Bcc

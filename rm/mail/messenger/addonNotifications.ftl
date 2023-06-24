@@ -51,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) è bloccà da l'administratur da tes sistem.{ " " }
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = L'administratur da tes sistem ha impedì che questa website ta dumondia dad installar software sin tes computer.
+addon-install-full-screen-blocked = L'installaziun da supplements n'è betg permessa durant u avant che midar en il modus da maletg entir.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = Agiuntà { $addonName } a { -brand-short-name }
@@ -60,6 +61,9 @@ webext-perms-update-menu-item = { $addonName } dumonda novas autorisaziuns
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Allontanar { $name }?
 # Variables:
 #   $name (String): the name of the extension which is about to be removed.
 addon-removal-message = Allontanar { $name } da { -brand-shorter-name }?
