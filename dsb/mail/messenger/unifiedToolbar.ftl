@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Jano za rum kalendarja k dispoziciji
 customize-palette-tasks-specific-title = Jano za rum nadawkow k dispoziciji
 customize-palette-chat-specific-title = Jano za chatowy rum k dispoziciji
 customize-palette-settings-specific-title = Jano za rum nastajenjow k dispoziciji
+customize-palette-extension-specific-title = Jano za toś ten rum k dispoziciji
 
 ## Unified toolbar customization palette context menu
 

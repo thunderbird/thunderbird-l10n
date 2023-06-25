@@ -250,6 +250,9 @@ message-header-show-sender-full-address-description = E-mailowa adresa se pód z
 message-header-show-recipient-avatar =
     .label = Profilowy wobraz wótpósłarja pokazaś
     .accesskey = P
+message-header-show-big-avatar =
+    .label = Wětšy profilowy wobraz
+    .accesskey = f
 message-header-hide-label-column =
     .label = Słup pópisanjow schowaś
     .accesskey = u
@@ -295,10 +298,17 @@ no-reply-reply-anyway-button = Weto wotegroniś
 
 ## error messages
 
+decrypt-and-copy-failures = { $failures } z { $total } powěsćow njejsu se dešifrěrowali a njejsu se kopěrowali.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = { $failures } z { $total } powěsćow njejsu se dešifrěrowali a njejsu se kopěrowali.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } z { $total } powěsćow njejo se dešifrěrowała a kopěrowała.
+        [two] { $failures } z { $total } powěsćow njejstej se dešifrěrowałej a kopěrowałej.
+        [few] { $failures } z { $total } powěsćow njejsu se dešifrěrowali a kopěrowali.
+       *[other] { $failures } z { $total } powěsćow njejo se dešifrěrowało a kopěrowało.
+    }
 
 ## Spaces toolbar
 
