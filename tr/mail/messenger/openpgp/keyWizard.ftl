@@ -103,6 +103,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Hangi anahtarların kişisel anahtarlarınınız olarak kullanılacağını onaylayın. Yalnızca kendi oluşturduğunuz ve kendi kimliğinizi gösteren anahtarları kişisel anahtar olarak kullanmalısınız. Bu seçeneği daha sonra Anahtar Özellikleri iletişim kutusundan değiştirebilirsiniz.
 openpgp-import-key-list-caption = Kişisel anahtar olarak işaretlenen anahtarlar Uçtan Uca Şifreleme bölümünde listelenir. Diğerlerine ise Anahtar Yöneticisi'nden ulaşabilirsiniz.
+openpgp-import-keep-passphrases =
+    .label = İçe aktarılan gizli anahtarlar için parola korumasını sürdür
 openpgp-passphrase-prompt-title = Parola gerekli
 #   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Lütfen şu anahtarın kilidini açmak için parolayı girin: { $key }

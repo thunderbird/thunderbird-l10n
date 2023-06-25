@@ -576,7 +576,7 @@ primary-password-button =
     .accesskey = d
 forms-primary-pw-fips-title = Şu anda FIPS kipindesiniz. FIPS için boş olmayan bir ana parola gereklidir.
 forms-master-pw-fips-desc = Parola değiştirme başarısız
-junk-description = Varsayılan gereksiz posta ayarlarınızı yapılandırın. Hesaba özel gereksiz posta ayarları, Hesap Ayarları'ndan yapılandırılabilir.
+junk-description = Varsayılan gereksiz e-posta ayarlarınızı yapılandırın. Hesaba özel gereksiz e-posta ayarlarını hesap ayarlarından yapılandırılabilirsiniz.
 junk-label =
     .label = İletileri gereksiz olarak işaretlediğimde:
     .accesskey = l
@@ -622,8 +622,13 @@ certificate-button =
 security-devices-button =
     .label = Güvenlik aygıtları…
     .accesskey = G
-email-e2ee-header = Uçtan uca e-posta şifreleme
-email-e2ee-automatism = Otomatik şifreleme kullanımı
+email-e2ee-header = Uçtan Uca E-posta Şifreleme
+account-settings = Hesap ayarları
+email-e2ee-enable-info = Uçtan uca şifreleme için e-posta hesaplarını ve kimlikleri hesap ayarlarından ayarlayabilirsiniz.
+email-e2ee-automatism = Otomatik Şifreleme Kullanımı
+email-e2ee-automatism-pre =
+    { -brand-short-name }, e-posta oluştururken şifrelemeyi otomatik olarak etkinleştirerek veya devre dışı bırakarak işinizi kolaylaştırabilir.
+    Otomatik etkinleştirme/devre dışı bırakmanın çalışması için, yazıştığınız kişilerin geçerli ve kabul edilmiş anahtar veya sertifikalarının bulunması gerekir.
 email-e2ee-auto-on =
     .label = Mümkün olduğunda şifrelemeyi otomatik olarak etkinleştir
 email-e2ee-auto-off =

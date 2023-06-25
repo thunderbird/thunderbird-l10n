@@ -211,6 +211,9 @@ mail-context-undelete-messages =
             [one] Silinen iletiyi geri al
            *[other] Seçilen silinmiş iletileri geri al
         }
+context-menu-decrypt-to-folder2 =
+    .label = Çözülmüş kopyasını oluştur
+    .accesskey = y
 
 ## Message header pane
 
@@ -243,6 +246,9 @@ message-header-show-sender-full-address-description = E-posta adresi, gönderen 
 message-header-show-recipient-avatar =
     .label = Gönderenin profil resmini göster
     .accesskey = o
+message-header-show-big-avatar =
+    .label = Daha büyük profil resmi
+    .accesskey = ü
 message-header-hide-label-column =
     .label = Etiketler sütununu gizle
     .accesskey = ü
@@ -288,9 +294,6 @@ no-reply-reply-anyway-button = Yine de yanıtla
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $total } iletinin { $failures } tanesinin şifresi çözülemedi ve bu iletiler kopyalanmadı.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
