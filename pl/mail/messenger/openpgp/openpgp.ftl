@@ -654,6 +654,12 @@ passphrase-prompt = Wprowadź hasło odblokowujące ten klucz: { $key }
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
 passphrase-prompt2 = Wprowadź hasło, aby odblokować tajny klucz o identyfikatorze { $key }, utworzony { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Wprowadź hasło, aby odblokować tajny klucz o identyfikatorze { $subkey }, będący kluczem podrzędnym klucza o identyfikatorze { $key }, utworzonego { $date }, { $username_and_email },
 file-to-big-to-import = Ten plik jest za duży. Nie importuj jednocześnie dużego zestawu kluczy.
 
 ## Strings used in enigmailKeygen.js
