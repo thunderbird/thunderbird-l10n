@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Złośliwe dodatki mogą wykradać dane prywatne lub infekować komputery. Zainstaluj dodatek jedynie, jeśli ufasz jego pochodzeniu.
 webext-perms-learn-more = Więcej informacji
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = Dodano rozszerzenie „{ $addonName }”.

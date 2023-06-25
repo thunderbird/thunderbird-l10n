@@ -21,3 +21,4 @@ webext-perms-description-messagesMove = Kopiowanie i przenoszenie wiadomości e
 webext-perms-description-messagesDelete = Trwałe usuwanie wiadomości e-mail
 webext-perms-description-messagesRead = Odczytywanie wiadomości e-mail oraz ich oznaczanie i dodawanie etykiet
 webext-perms-description-messagesTags = Tworzenie, modyfikowanie i usuwanie etykiet wiadomości
+webext-perms-description-sensitiveDataUpload = Przesyłanie prywatnych danych użytkownika (jeśli udzielono dostęp) na zdalny serwer w celu dalszego przetwarzania
