@@ -189,6 +189,18 @@ about-addressbook-confirm-remove-contacts =
        *[other] { $list } ішінен бұл { $count } контакт өшіруді шынымен қалайсыз ба?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = { $list } ішінен { $name } өшіруді шынымен қалайсыз ба?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] { $list } ішінен бұл { $count } контактты өшіруді шынымен қалайсыз ба?
+       *[other] { $list } ішінен бұл { $count } контактты өшіруді шынымен қалайсыз ба?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -201,6 +213,16 @@ about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] { $name } контактін өшіруді шынымен қалайсыз ба?
        *[other] Бұл { $count } контактті өшіруді шынымен қалайсыз ба?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = { $name } контактын өшіруді шынымен қалайсыз ба?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Бұл { $count } контактты өшіруді шынымен қалайсыз ба?
+       *[other] Бұл { $count } контактты өшіруді шынымен қалайсыз ба?
     }
 
 ## Card list placeholder
@@ -228,6 +250,20 @@ about-addressbook-selection-lists-header = { $count } таңдалған тіз�
 about-addressbook-selection-mixed-header2 =
     { $count ->
        *[other] Адрестік кітапшаның { $count } жазбасы таңдалды
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } контакт таңдалды
+       *[other] { $count } контакт таңдалды
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } тізім таңдалды
+       *[other] { $count } тізім таңдалды
     }
 about-addressbook-details-edit-photo =
     .title = Контакт фотосын түзету
