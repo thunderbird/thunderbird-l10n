@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-main.xul -->
-
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "Hesap Ayarları">
@@ -17,7 +15,7 @@
 <!ENTITY email.accesskey "E">
 <!ENTITY catchAll.label "Teslim üst bilgileri eşleştiğinde bu kimlikten yanıt ver:">
 <!ENTITY catchAll.accesskey "ü">
-<!ENTITY replyTo.label "Reply-to adresi:">
+<!ENTITY replyTo.label "Yanıt adresi:">
 <!ENTITY replyTo.accesskey "s">
 <!ENTITY replyTo.placeholder "Alıcılar bu diğer adrese yanıt verecektir">
 <!ENTITY organization.label "Kurum:">
@@ -34,7 +32,7 @@
 <!ENTITY editVCard.label "Kartviziti düzenle…">
 <!ENTITY editVCard.accesskey "d">
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
-<!ENTITY attachVCard.label "İletilere vCard'ımı ekle">
+<!ENTITY attachVCard.label "İletilere vCard’ımı ekle">
 <!ENTITY attachVCard.accesskey "v">
 
 <!ENTITY manageIdentities.label "Kimlikleri yönet…">

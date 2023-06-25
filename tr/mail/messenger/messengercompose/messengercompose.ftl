@@ -98,7 +98,7 @@ context-menuitem-attach-files =
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
-    .label = vCard'ım
+    .label = vCard’ım
     .accesskey = C
 context-menuitem-attach-openpgp-key =
     .label = OpenPGP ortak anahtarım
@@ -281,6 +281,7 @@ many-public-recipients-notice =
         [one] İletinizin görünür bir alıcısı var. Bunun yerine Bcc’yi kullanarak alıcıların açığa çıkmasını önleyebilirsiniz.
        *[other] Kime ve Cc alanlarındaki { $count } alıcı birbirlerinin adresini görebilecek. Bunun yerine Bcc kullanarak alıcıları göstermekten kaçınabilirsiniz.
     }
+public-recipients-notice-single = İletinizin herkese açık bir alıcısı var. Bunun yerine Bcc’yi kullanarak alıcıyı herkesin görmesini önleyebilirsiniz.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
 public-recipients-notice-multi =
