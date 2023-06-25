@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Złosne dodanki mógu waše priwatne daty kšadnuś abo wašomu licadłoju škóźiś. Instalěrujśo toś ten dodank jano, gaž žrědłoju dowěriśo.
 webext-perms-learn-more = Dalšne informacije
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } jo se pśidał.

@@ -194,22 +194,38 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Zastojnik klucow
     .accesskey = Z
+openpgp-key-issue-notification-one = Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za { $addr } pomina
+openpgp-key-issue-notification-many = Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za někotare dostawarje pomina ({ $count }).
+smime-cert-issue-notification-one = Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za { $addr } pomina.
+smime-cert-issue-notification-many = Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za někotare dostawarje pomina ({ $count }).
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Njejsćo pśigótowany, aby powěsći kóńc do kóńca wót { $addr } pósłał.
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za { $addr } pomina
+openpgp-key-issue-notification-single = Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za { $addr } pomina.
 # Variables:
 # $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za někotare dostawarje pomina ({ $count }).
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za { $count } dostawarja pomina.
+        [two] Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za { $count } dostawarja pomina.
+        [few] Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za { $count } dostawarje pomina.
+       *[other] Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za { $count } dostawarjow pomina.
+    }
 # Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za { $addr } pomina.
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za { $addr } pomina.
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za někotare dostawarje pomina ({ $count }).
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za { $count } dostawarja pomina.
+        [two] Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za { $count } dostawarja pomina.
+        [few] Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za { $count } dostawarje pomina.
+       *[other] Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za { $count } dostawarjow pomina.
+    }
 key-notification-disable-encryption =
     .label = Njekoděrowaś
     .accesskey = N

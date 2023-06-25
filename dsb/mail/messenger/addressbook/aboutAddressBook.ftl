@@ -233,6 +233,15 @@ about-addressbook-confirm-delete-contacts =
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Cośo toś kontakt { $name } napšawdu lašowaś?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Cośo napšawdu toś ten { $count } kontakt wulašowaś?
+        [two] Cośo napšawdu toś tej { $count } kontakta wulašowaś?
+        [few] Cośo napšawdu toś te { $count } kontakty wulašowaś?
+       *[other] Cośo napšawdu toś te { $count } kontaktow wulašowaś?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -254,6 +263,33 @@ about-addressbook-selection-contacts-header = Licba wubranych kontaktow: { $coun
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = Licba wubranych lisćinow: { $count }
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } wubrany zapisk adresnika
+        [two] { $count } wubranej zapiska adresnika
+        [few] { $count } wubrane zapiski adresnika
+       *[other] { $count } wubranych zapiskow adresnika
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } wubrany kontakt
+        [two] { $count } wubranej kontakta
+        [few] { $count } wubrane kontakty
+       *[other] { $count } wubranych kontaktow
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } wubrana lisćina
+        [two] { $count } wubranej lisćinje
+        [few] { $count } wubrane lisćiny
+       *[other] { $count } wubranych lisćinow
+    }
 about-addressbook-details-edit-photo =
     .title = Kontaktowe foto wobźěłaś
 about-addressbook-new-contact-header = Nowy kontakt
