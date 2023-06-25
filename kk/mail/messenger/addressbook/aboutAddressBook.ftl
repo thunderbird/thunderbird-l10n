@@ -98,9 +98,6 @@ about-addressbook-column-label-generatedname =
 about-addressbook-column-header-emailaddresses = Эл. пошта адрестері
 about-addressbook-column-label-emailaddresses =
     .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Ник аты
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
 about-addressbook-column-header-phonenumbers = Телефон нөмірлері
 about-addressbook-column-label-phonenumbers =
     .label = { about-addressbook-column-header-phonenumbers }
@@ -226,6 +223,12 @@ about-addressbook-selection-contacts-header = { $count } таңдалған ко
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } таңдалған тізім
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+       *[other] Адрестік кітапшаның { $count } жазбасы таңдалды
+    }
 about-addressbook-details-edit-photo =
     .title = Контакт фотосын түзету
 about-addressbook-new-contact-header = Жаңа контакт
