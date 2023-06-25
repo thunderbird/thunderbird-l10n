@@ -626,6 +626,18 @@ email-e2ee-header = Szyfrowanie „end-to-end” wiadomości
 account-settings = Ustawienia konta
 email-e2ee-enable-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w ustawieniach konta.
 email-e2ee-automatism = Automatyczne używanie szyfrowania
+email-e2ee-automatism-pre =
+    { -brand-short-name } może pomagać w automatycznym włączaniu lub wyłączaniu szyfrowania podczas tworzenia wiadomości.
+    Ta funkcja działa na podstawie dostępności ważnych i zaakceptowanych kluczy lub certyfikatów rozmówców.
+email-e2ee-auto-on =
+    .label = Automatycznie włączaj szyfrowanie, kiedy to możliwe
+email-e2ee-auto-off =
+    .label = Automatycznie wyłączaj szyfrowanie, gdy zmieniają się odbiorcy i szyfrowanie nie jest już możliwe
+email-e2ee-auto-off-notify =
+    .label = Wyświetlaj powiadomienie za każdym razem, gdy szyfrowanie zostanie automatycznie wyłączone
+email-e2ee-automatism-post =
+    Automatyczne decyzje mogą zostać zastąpione przez ręczne włączenie lub wyłączenie szyfrowania podczas tworzenia wiadomości.
+    Uwaga: szyfrowanie jest zawsze automatycznie włączane podczas odpowiadania na zaszyfrowaną wiadomość.
 
 ## Chat Tab
 

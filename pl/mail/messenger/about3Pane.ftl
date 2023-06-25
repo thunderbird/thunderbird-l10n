@@ -5,6 +5,33 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Przełącz pasek szybkiego filtrowania
+quick-filter-button-label = Szybkie filtrowanie
+thread-pane-header-display-button =
+    .title = Opcje wyświetlania listy wiadomości
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } wiadomość
+        [few] { $count } wiadomości
+       *[many] { $count } wiadomości
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } zaznaczona
+        [few] { $count } zaznaczone
+       *[many] { $count } zaznaczonych
+    }
+thread-pane-header-context-table-view =
+    .label = Widok tabeli
+thread-pane-header-context-cards-view =
+    .label = Widok wizytówek
+thread-pane-header-context-hide =
+    .label = Ukryj nagłówek listy wiadomości
 
 ## Quick Filter Bar
 
@@ -15,6 +42,12 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Określa, czy automatycznie filtrować nowo otwierane foldery
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Menu szybkiego filtrowania
+quick-filter-bar-dropdown-unread =
+    .label = Nieprzeczytane
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
