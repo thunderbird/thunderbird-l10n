@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Тек Күнтізбе кеңіст
 customize-palette-tasks-specific-title = Тек Тарсырмалар кеңістігі үшін қолжетімді
 customize-palette-chat-specific-title = Тек Чат кеңістігі үшін қолжетімді
 customize-palette-settings-specific-title = Тек Баптаулар кеңістігі үшін қолжетімді
+customize-palette-extension-specific-title = Тек бұл Кеңістік үшін қолжетімді
 
 ## Unified toolbar customization palette context menu
 
