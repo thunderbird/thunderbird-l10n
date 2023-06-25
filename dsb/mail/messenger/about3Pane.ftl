@@ -19,6 +19,15 @@ thread-pane-folder-message-count =
         [few] { $count } powěsći
        *[other] { $count } powěsćow
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } wubrana
+        [two] { $count } wubranej
+        [few] { $count } wubrane
+       *[other] { $count } wubranych
+    }
 thread-pane-header-context-table-view =
     .label = Tabelowy naglěd
 thread-pane-header-context-cards-view =
@@ -35,6 +44,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Pśi pśešaltowanju zarědnikow filtry dalej nałožyś
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Meni spěšnego filtra
+quick-filter-bar-dropdown-unread =
+    .label = Njecytane
+quick-filter-bar-dropdown-starred =
+    .label = Z gwězdku
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Wobznamjenja
+quick-filter-bar-dropdown-attachment =
+    .label = Pśidank
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -162,9 +185,34 @@ folder-pane-header-context-hide =
     .label = Głowu wobceŕka zarědnika schowaś
 folder-pane-show-total-toggle =
     .label = Cełkowna licba powěsćow
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Wjelikosć zarědnika pokazaś
+folder-pane-header-hide-local-folders =
+    .label = Lokalne zarědniki schowaś
+folder-pane-mode-context-button =
+    .title = Nastajenja zarědnikowego modusa
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktny naglěd
     .accesskey = K
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] { $count } njecytana powěsć
+        [two] { $count } njecytanej powěsći
+        [few] { $count } njecytane powěsći
+       *[other] { $count } njecytanych powěsćow
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] { $count } powěsć dogromady
+        [two] { $count } powěsći dogromady
+        [few] { $count } powěsći dogromady
+       *[other] { $count } powěsćow dogromady
+    }
 
 ## Message thread pane
 

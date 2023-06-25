@@ -198,6 +198,20 @@ about-addressbook-confirm-remove-contacts =
        *[other] Cośo napšawdu toś te { $count } kontaktow z { $list } wótwónoźeś?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Cośo napšawdu { $name } z { $list } wótwónoźeś?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Cośo napšawdu toś ten { $count } kontakt z { $list } wótwónoźeś?
+        [two] Cośo napšawdu toś tej { $count } kontakta z { $list } wótwónoźeś?
+        [few] Cośo napšawdu toś te { $count } kontakty z { $list } wótwónoźeś?
+       *[other] Cośo napšawdu toś te { $count } kontaktow z { $list } wótwónoźeś?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -216,6 +230,9 @@ about-addressbook-confirm-delete-contacts =
         [few] Cośo napšawdu toś te { $count } kontakty wulašowaś?
        *[other] Cośo napšawdu toś te { $count } kontaktow wulašowaś?
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Cośo toś kontakt { $name } napšawdu lašowaś?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
