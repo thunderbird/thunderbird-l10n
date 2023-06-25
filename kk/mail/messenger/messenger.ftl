@@ -244,6 +244,9 @@ message-header-show-sender-full-address-description = Электрондық п�
 message-header-show-recipient-avatar =
     .label = Жіберушінің профиль суретін көрсету
     .accesskey = у
+message-header-show-big-avatar =
+    .label = Профильдің үлкенірек сүреті
+    .accesskey = к
 message-header-hide-label-column =
     .label = Белгілер бағанын жасыру
     .accesskey = л
@@ -289,10 +292,15 @@ no-reply-reply-anyway-button = Сонда да жауап беру
 
 ## error messages
 
+decrypt-and-copy-failures = { $total } ішінен { $failures } хабарламаны дешифрлеу мүмкін емес және олар көшірілмеді.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = { $total } ішінен { $failures } хабарламаны дешифрлеу мүмкін емес және олар көшірілмеді.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $total } ішінен { $failures } хабарламаны дешифрлеу мүмкін емес және олар көшірілмеді.
+       *[other] { $total } ішінен { $failures } хабарламаны дешифрлеу мүмкін емес және олар көшірілмеді.
+    }
 
 ## Spaces toolbar
 

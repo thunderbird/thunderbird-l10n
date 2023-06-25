@@ -25,10 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Шимай қағаз хабарламаларын шифрленген түрде сақтау
     .accesskey = р
-# Do not translate "Autocrypt", it's the name of a standard.
-e2e-autocrypt-headers =
-    .label = Autocrypt үйлесімділігі үшін эл. пошта тақырыптамаларында OpenPGP ашық кілт(тер)ін жіберу
-    .accesskey = т
 openpgp-key-user-id-label = Тіркелгі / Пайдаланушы идентификаторы
 openpgp-keygen-title-label =
     .title = OpenPGP кілтін генерациялау
@@ -59,6 +55,10 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Кеңейтілген…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">ЕСКЕРТУ: Кілтті генерациялау бірнеше минутты алуы мүмкін.</a> Кілтті генерациялау орындалып жатқанда қолданбадан шықпаңыз. Кілтті генерациялау кезінде белсенді шолу немесе дискіні көп қажет ететін операцияларды орындау «кездейсоқтық пулын» толықтырады және процесті жылдамдатады. Кілтті генерациялау аяқталған кезде сізге ескерту жіберіледі.
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Autocrypt үйлесімділігі үшін эл. пошта тақырыптамаларында OpenPGP ашық кілт(тер)ін жіберу
+    .accesskey = т
 openpgp-key-created-label =
     .label = Жасалған
 openpgp-key-expiry-label =
@@ -641,6 +641,17 @@ import-rev-file = OpenPGP қайта шақыру файлын импортта�
 gnupg-file = GnuPGфайлдары
 import-keys-failed = Кілттерді импорттау сәтсіз аяқталды
 passphrase-prompt = Келесі кілттің құлпын ашатын кілттік фразаны енгізіңіз: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = { $username_and_email }, { $date } жасалған, { $key } идентификаторы бар құпия кілт құлпын ашу үшін кілттік фразаны енгізіңіз
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = { $username_and_email }, { $date } жасалған, { $key } кілтінің ішкі кілті болып табылатын { $subkey } идентификаторы бар құпия кілт құлпын ашу үшін кілттік фразаны енгізіңіз
 file-to-big-to-import = Бұл файл тым үлкен. Кілттердің үлкен жинағын бірден импорттамаңыз.
 
 ## Strings used in enigmailKeygen.js
