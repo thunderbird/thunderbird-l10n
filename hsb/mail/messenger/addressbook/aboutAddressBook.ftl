@@ -198,6 +198,20 @@ about-addressbook-confirm-remove-contacts =
        *[other] Chceće woprawdźe tutej { $count } kontaktow z { $list } wotstronić?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Chceće woprawdźe { $name } z { $list } wotstronić?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Chceće woprawdźe tutón { $count } kontakt z { $list } wotstronić?
+        [two] Chceće woprawdźe tutej { $count } kontaktaj z { $list } wotstronić?
+        [few] Chceće woprawdźe tute { $count } kontakty z { $list } wotstronić?
+       *[other] Chceće woprawdźe tute { $count } kontaktow z { $list } wotstronić?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -213,6 +227,18 @@ about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] Chceće woprawdźe kontakt { $name } zhašeć?
         [two] Chceće woprawdźe tute { $count } kontaktaj zhašeć?
+        [few] Chceće woprawdźe tute { $count } kontakty zhašeć?
+       *[other] Chceće woprawdźe tute { $count } kontaktow zhašeć?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Chceće woprawdźe kontakt { $name } zhašeć?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Chceće woprawdźe tutón { $count } kontakt zhašeć?
+        [two] Chceće woprawdźe tutej { $count } kontaktaj zhašeć?
         [few] Chceće woprawdźe tute { $count } kontakty zhašeć?
        *[other] Chceće woprawdźe tute { $count } kontaktow zhašeć?
     }
