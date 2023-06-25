@@ -69,6 +69,7 @@ customize-palette-calendar-specific-title = Dostępne tylko dla miejsca kalendar
 customize-palette-tasks-specific-title = Dostępne tylko dla miejsca zadań
 customize-palette-chat-specific-title = Dostępne tylko dla miejsca komunikatora
 customize-palette-settings-specific-title = Dostępne tylko dla miejsca ustawień
+customize-palette-extension-specific-title = Dostępne tylko dla tego miejsca
 
 ## Unified toolbar customization palette context menu
 

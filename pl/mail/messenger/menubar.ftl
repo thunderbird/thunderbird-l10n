@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Nagłówek listy wiadomości
+    .accesskey = w
 menu-font-size-label =
     .label = Rozmiar czcionki
     .accesskey = R

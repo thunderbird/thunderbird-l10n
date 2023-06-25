@@ -189,27 +189,41 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Menedżer kluczy
     .accesskey = d
-# Variables:
-# $addr (String) - Email address (which related to the currently selected
-#                  from address) which isn't set up to end-to-end encryption.
-openpgp-key-issue-notification-from = Wysyłanie zaszyfrowanych wiadomości z adresu { $addr } nie jest skonfigurowane.
-# Variables:
-# $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-one = Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-many =
     { $count ->
         [one] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $count } odbiorcy.
         [few] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $count } odbiorców.
        *[many] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $count } odbiorców.
     }
-# Variables:
-# $addr (String) - Email address with certificate issues.
 smime-cert-issue-notification-one = Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $addr }.
+smime-cert-issue-notification-many =
+    { $count ->
+        [one] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $count } odbiorcy.
+        [few] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $count } odbiorców.
+       *[many] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $count } odbiorców.
+    }
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Wysyłanie zaszyfrowanych wiadomości z adresu { $addr } nie jest skonfigurowane.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $count } odbiorcy.
+        [few] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $count } odbiorców.
+       *[many] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $count } odbiorców.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many =
+smime-cert-issue-notification-multi =
     { $count ->
         [one] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $count } odbiorcy.
         [few] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $count } odbiorców.
@@ -282,6 +296,15 @@ extra-address-rows-menu-button =
 many-public-recipients-notice =
     { $count ->
         [one] Wiadomość ma publicznego odbiorcę. Można uniknąć ujawniania odbiorców, używając zamiast tego pola Ukryta kopia.
+        [few] { $count } odbiorców w polach Do i Kopia będzie widzieć swoje adresy. Można uniknąć ujawniania odbiorców, używając zamiast tego pola Ukryta kopia.
+       *[many] { $count } odbiorców w polach Do i Kopia będzie widzieć swoje adresy. Można uniknąć ujawniania odbiorców, używając zamiast tego pola Ukryta kopia.
+    }
+public-recipients-notice-single = Wiadomość ma publicznego odbiorcę. Można uniknąć ujawniania odbiorcy, używając zamiast tego pola Ukryta kopia.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } odbiorca w polach Do i Kopia będzie widzieć swój adres. Można uniknąć ujawniania odbiorcy, używając zamiast tego pola Ukryta kopia.
         [few] { $count } odbiorców w polach Do i Kopia będzie widzieć swoje adresy. Można uniknąć ujawniania odbiorców, używając zamiast tego pola Ukryta kopia.
        *[many] { $count } odbiorców w polach Do i Kopia będzie widzieć swoje adresy. Można uniknąć ujawniania odbiorców, używając zamiast tego pola Ukryta kopia.
     }
