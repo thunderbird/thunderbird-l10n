@@ -144,6 +144,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Usuń folder
     .accesskey = U
+menu-edit-unsubscribe-newsgroup =
+    .label = Zrezygnuj z subskrypcji grupy dyskusyjnej
+    .accesskey = Z
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -209,6 +212,9 @@ mail-context-undelete-messages =
             [one] Przywróć wiadomość
            *[other] Przywróć zaznaczone wiadomości
         }
+context-menu-decrypt-to-folder2 =
+    .label = Utwórz odszyfrowaną kopię w
+    .accesskey = U
 
 ## Message header pane
 
@@ -241,6 +247,9 @@ message-header-show-sender-full-address-description = Adres e-mail będzie widoc
 message-header-show-recipient-avatar =
     .label = Pokazuj zdjęcie profilowe nadawcy
     .accesskey = P
+message-header-show-big-avatar =
+    .label = Większe zdjęcie profilowe
+    .accesskey = W
 message-header-hide-label-column =
     .label = Ukrywaj kolumnę etykiet
     .accesskey = U
@@ -286,10 +295,16 @@ no-reply-reply-anyway-button = Odpowiedz mimo to
 
 ## error messages
 
+decrypt-and-copy-failures = Nie udało się odszyfrować { $failures } z { $total } wiadomości i nie zostały one skopiowane.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = Nie udało się odszyfrować { $failures } z { $total } wiadomości i nie zostały one skopiowane.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] Nie udało się odszyfrować { $failures } z { $total } wiadomości i nie została ona skopiowana.
+        [few] Nie udało się odszyfrować { $failures } z { $total } wiadomości i nie zostały one skopiowane.
+       *[many] Nie udało się odszyfrować { $failures } z { $total } wiadomości i nie zostały one skopiowane.
+    }
 
 ## Spaces toolbar
 
@@ -390,6 +405,13 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Zapomnij hasła OpenPGP
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = Zajęte { $percent }%
+    .title = Przydział IMAP: zajęte { $usage } z całkowitej pojemności { $limit }

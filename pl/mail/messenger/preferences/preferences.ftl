@@ -622,6 +622,10 @@ certificate-button =
 security-devices-button =
     .label = Urządzenia zabezpieczające…
     .accesskey = U
+email-e2ee-header = Szyfrowanie „end-to-end” wiadomości
+account-settings = Ustawienia konta
+email-e2ee-enable-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w ustawieniach konta.
+email-e2ee-automatism = Automatyczne używanie szyfrowania
 
 ## Chat Tab
 

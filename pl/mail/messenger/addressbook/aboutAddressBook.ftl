@@ -207,6 +207,19 @@ about-addressbook-confirm-remove-contacts =
        *[many] Czy na pewno usunąć te { $count } kontaktów z listy „{ $list }”?
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Czy na pewno usunąć kontakt „{ $name }” z listy „{ $list }”?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Czy na pewno usunąć ten kontakt z listy „{ $list }”?
+        [few] Czy na pewno usunąć te { $count } kontakty z listy „{ $list }”?
+       *[many] Czy na pewno usunąć te { $count } kontaktów z listy „{ $list }”?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -219,6 +232,17 @@ about-addressbook-confirm-delete-contacts-title =
 about-addressbook-confirm-delete-contacts =
     { $count ->
         [one] Czy na pewno usunąć kontakt „{ $name }”?
+        [few] Czy na pewno usunąć te { $count } kontakty?
+       *[many] Czy na pewno usunąć te { $count } kontaktów?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Czy na pewno usunąć kontakt „{ $name }”?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Czy na pewno usunąć ten kontakt?
         [few] Czy na pewno usunąć te { $count } kontakty?
        *[many] Czy na pewno usunąć te { $count } kontaktów?
     }
@@ -253,6 +277,30 @@ about-addressbook-selection-contacts-header =
 # Variables:
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header =
+    { $count ->
+        [one] { $count } wybrana lista
+        [few] { $count } wybrane listy
+       *[many] { $count } wybranych list
+    }
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } wybrany wpis książki adresowej
+        [few] { $count } wybrane wpisy książki adresowej
+       *[many] { $count } wybranych wpisów książki adresowej
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } wybrany kontakt
+        [few] { $count } wybrane kontakty
+       *[many] { $count } wybranych kontaktów
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
     { $count ->
         [one] { $count } wybrana lista
         [few] { $count } wybrane listy
