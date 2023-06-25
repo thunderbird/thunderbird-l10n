@@ -48,6 +48,14 @@ quick-filter-bar-dropdown =
     .title = Menu szybkiego filtrowania
 quick-filter-bar-dropdown-unread =
     .label = Nieprzeczytane
+quick-filter-bar-dropdown-starred =
+    .label = Z gwiazdką
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Od znajomych
+quick-filter-bar-dropdown-tags =
+    .label = Z etykietą
+quick-filter-bar-dropdown-attachment =
+    .label = Z załącznikiem
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -172,9 +180,34 @@ folder-pane-header-context-toggle-new-message =
     .label = Wyświetlaj „Nowa wiadomość”
 folder-pane-header-context-hide =
     .label = Ukryj nagłówek panelu folderów
+folder-pane-show-total-toggle =
+    .label = Wyświetlaj całkowitą liczbę wiadomości
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Wyświetlaj rozmiar folderu
+folder-pane-header-hide-local-folders =
+    .label = Ukryj lokalne foldery
+folder-pane-mode-context-button =
+    .title = Opcje trybu folderów
 folder-pane-mode-context-toggle-compact-mode =
     .label = Widok kompaktowy
     .accesskey = k
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 nieprzeczytana wiadomość
+        [few] { $count } nieprzeczytane wiadomości
+       *[many] { $count } nieprzeczytanych wiadomości
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 wiadomość
+        [few] Łącznie { $count } wiadomości
+       *[many] Łącznie { $count } wiadomości
+    }
 
 ## Message thread pane
 
@@ -209,6 +242,8 @@ threadpane-column-header-unread-button =
     .title = Sortowanie według stanu przeczytania
 threadpane-column-label-unread-button =
     .label = Stan przeczytania
+threadpane-read-cell-label = Przeczytana
+threadpane-unread-cell-label = Nieprzeczytana
 threadpane-column-header-sender = Nadawca
     .title = Sortowanie według nadawcy
 threadpane-column-label-sender =

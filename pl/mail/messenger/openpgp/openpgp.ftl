@@ -25,10 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Przechowuj szkice wiadomości w formacie zaszyfrowanym
     .accesskey = P
-# Do not translate "Autocrypt", it's the name of a standard.
-e2e-autocrypt-headers =
-    .label = Wysyłaj klucze publiczne OpenPGP w nagłówkach wiadomości, aby zapewnić zgodność z Autocrypt
-    .accesskey = W
 openpgp-key-user-id-label = Identyfikator konta/użytkownika
 openpgp-keygen-title-label =
     .title = Wygeneruj klucz OpenPGP
@@ -59,6 +55,10 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Zaawansowane…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">UWAGA: generowanie klucza może zająć nawet kilka minut.</a> Nie wyłączaj aplikacji w trakcie generowania. Aktywne przeglądanie Internetu i wykonywanie działań intensywnie korzystających z dysku podczas generowania klucza uzupełni „pulę losowości” i przyspieszy ten proces. Po ukończeniu generowania zostanie wyświetlony komunikat.
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Wysyłaj klucze publiczne OpenPGP w nagłówkach wiadomości, aby zapewnić zgodność z Autocrypt
+    .accesskey = W
 openpgp-key-created-label =
     .label = Utworzono
 openpgp-key-expiry-label =
@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Opublikuj
     .accesskey = O
+openpgp-key-publish = Opublikuj
 openpgp-key-man-discover-prompt = Aby wykrywać klucze OpenPGP w Internecie, na serwerach kluczy lub za pomocą protokołu WKD, wprowadź adres e-mail lub identyfikator klucza.
 openpgp-key-man-discover-progress = Wyszukiwanie…
 # Variables:
@@ -320,6 +321,22 @@ openpgp-personal-no-label =
     .label = Nie, nie używaj go jako mojego klucza osobistego.
 openpgp-personal-yes-label =
     .label = Tak, traktuj ten klucz jako klucz osobisty.
+openpgp-passphrase-protection =
+    .label = Ochrona hasłem
+openpgp-passphrase-status-unprotected = Niechroniony
+openpgp-passphrase-status-primary-password = Chroniony głównym hasłem { -brand-short-name(case: "gen") }
+openpgp-passphrase-status-user-passphrase = Chroniony hasłem
+openpgp-passphrase-instruction-unprotected = Ustaw hasło, aby chronić ten klucz
+openpgp-passphrase-instruction-primary-password = Albo chroń ten klucz osobnym hasłem
+openpgp-passphrase-instruction-user-passphrase = Odblokuj ten klucz, aby zmienić jego ochronę.
+openpgp-passphrase-unlock = Odblokuj
+openpgp-passphrase-unlocked = Pomyślnie odblokowano klucz.
+openpgp-remove-protection = Usuń ochronę hasłem
+openpgp-use-primary-password = Usuń hasło i chroń hasłem głównym
+openpgp-passphrase-new = Nowe hasło
+openpgp-passphrase-new-repeat = Potwierdź nowe hasło
+openpgp-passphrase-set = Ustaw hasło
+openpgp-passphrase-change = Zmień hasło
 openpgp-copy-cmd-label =
     .label = Kopiuj
 
@@ -363,6 +380,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Klucz wygasa za mniej niż 6 miesięcy
 openpgp-key-has-expired-icon =
     .title = Klucz wygasł
+openpgp-suggest-publishing-key = Opublikowanie klucza publicznego na serwerze kluczy umożliwia innym jego wykrycie.
 openpgp-key-expand-section =
     .tooltiptext = Więcej informacji
 openpgp-key-revoke-title = Unieważnij klucz
@@ -630,9 +648,12 @@ import-key-file = Importuj plik klucza OpenPGP
 import-rev-file = Importuj plik unieważnienia OpenPGP
 gnupg-file = Pliki GnuPG
 import-keys-failed = Zaimportowanie kluczy się nie powiodło
+passphrase-prompt = Wprowadź hasło odblokowujące ten klucz: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
-passphrase-prompt = Wprowadź hasło odblokowujące ten klucz: { $key }
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Wprowadź hasło, aby odblokować tajny klucz o identyfikatorze { $key }, utworzony { $date }, { $username_and_email }
 file-to-big-to-import = Ten plik jest za duży. Nie importuj jednocześnie dużego zestawu kluczy.
 
 ## Strings used in enigmailKeygen.js
