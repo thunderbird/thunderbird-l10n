@@ -7,7 +7,7 @@ calendar-title-reminder = 提醒
 calendar-title-notification = 通知
 calendar-title-category = 分类
 dateformat-label =
-    .value = 日期格式:
+    .value = 日期格式
     .accesskey = D
 #   $date (String) - the formatted example date
 dateformat-long =
@@ -20,7 +20,7 @@ use-system-timezone-radio-button =
 set-timezone-manually-radio-button =
     .label = 手动设置时区
 timezone-label =
-    .value = 时区：
+    .value = 时区
 weekstart-label =
     .value = 周起始日
     .accesskey = r
