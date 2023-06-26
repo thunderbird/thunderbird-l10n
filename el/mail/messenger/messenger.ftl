@@ -397,3 +397,9 @@ quick-filter-bar-show =
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% γεμάτο
+    .title = Ποσοστό IMAP: { $usage } χρησιμοποιημένο από συνολικό { $limit }
