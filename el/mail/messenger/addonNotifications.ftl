@@ -34,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Αυτός ο ιστότοπος απαιτεί πρόσβαση στις συσκευές MIDI (Musical Instrument Digital Interface) σας. Η πρόσβαση στις συσκευές μπορεί να ενεργοποιηθεί με την εγκατάσταση ενός προσθέτου.
+site-permission-install-first-prompt-midi-message = Αυτή η πρόσβαση δεν είναι εγγυημένο ότι είναι ασφαλής. Συνεχίστε μόνο εάν εμπιστεύεστε αυτόν τον ιστότοπο.
 
 ##
 
@@ -49,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = Το { $addonName } ({ $addonId }) έχει αποκλειστεί από τον διαχειριστή του συστήματός σας.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Ο διαχειριστής του συστήματός σας εμπόδισε την ερώτηση αυτού του ιστοτόπου για εγκατάσταση λογισμικού στον υπολογιστή σας.
+addon-install-full-screen-blocked = Η εγκατάσταση προσθέτων δεν επιτρέπεται κατά τη χρήση ή πριν την είσοδο σε λειτουργία πλήρους οθόνης.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = Το { $addonName } προστέθηκε στο { -brand-short-name }
@@ -61,6 +64,9 @@ webext-perms-update-menu-item = Το { $addonName } απαιτεί νέα δικ
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Αφαίρεση του «{ $name }»;
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Αφαίρεση του { $name } από το { -brand-shorter-name };
 addon-removal-button = Αφαίρεση
 addon-removal-abuse-report-checkbox = Αναφορά επέκτασης στη { -vendor-short-name }
 # Variables:

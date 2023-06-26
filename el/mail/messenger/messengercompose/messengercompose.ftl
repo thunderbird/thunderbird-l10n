@@ -183,22 +183,34 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Διαχείριση κλειδιών
     .accesskey = χ
+openpgp-key-issue-notification-one = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων κλειδιών για το { $addr }
+openpgp-key-issue-notification-many = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων κλειδιών για { $count } παραλήπτες.
+smime-cert-issue-notification-one = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων πιστοποιητικών για το { $addr }.
+smime-cert-issue-notification-many = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων πιστοποιητικών για { $count } παραλήπτες.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Δεν έχετε ρυθμίσει την αποστολή διατερματικά κρυπτογραφημένων μηνυμάτων από το { $addr }.
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων κλειδιών για το { $addr }
+openpgp-key-issue-notification-single = Η από άκρο σε άκρο κρυπτογράφηση απαιτεί την επίλυση θεμάτων κλειδιού για { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων κλειδιών για { $count } παραλήπτες.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] έναν
+       *[other] πολλούς
+    }
 # Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων πιστοποιητικών για το { $addr }.
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Η από άκρο σε άκρο κρυπτογράφηση απαιτεί την επίλυση ζητημάτων πιστοποιητικού για { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων πιστοποιητικών για { $count } παραλήπτες.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] έναν
+       *[other] πολλούς
+    }
 key-notification-disable-encryption =
     .label = Χωρίς κρυπτογράφηση
     .accesskey = Χ
@@ -268,6 +280,7 @@ many-public-recipients-notice =
         [one] Το μήνυμά σας έχει έναν δημόσιο παραλήπτη. Μπορείτε να αποφύγετε την αποκάλυψη των παραληπτών με το πεδίο «Κρυφή κοιν.».
        *[other] Οι { $count } παραλήπτες στα πεδία «Προς» και «Κοιν.» θα βλέπουν τις διευθύνσεις των υπολοίπων. Μπορείτε να αποφύγετε την αποκάλυψη των παραληπτών με το πεδίο «Κρυφή κοιν.».
     }
+public-recipients-notice-single = Το μήνυμά σας έχει δημόσιο παραλήπτη. Μπορείτε εναλλακτικά να αποφύγετε την εμφάνιση του αποδέκτη με χρήση του Bcc.
 many-public-recipients-bcc =
     .label = Χρήση «Κρυφή κοιν.»
     .accesskey = Χ

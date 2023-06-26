@@ -21,3 +21,4 @@ webext-perms-description-messagesMove = Αντιγραφή ή μετακίνησ
 webext-perms-description-messagesDelete = Οριστική διαγραφή email
 webext-perms-description-messagesRead = Ανάγνωση, επισήμανση και προσθήκη ετικετών σε email
 webext-perms-description-messagesTags = Δημιουργία, τροποποίηση και διαγραφή ετικετών μηνυμάτων
+webext-perms-description-sensitiveDataUpload = Μεταφορά των ευαίσθητων δεδομένων χρήστη (αν έχει δοθεί πρόσβαση) σε απομακρυσμένο διακομιστή για περαιτέρω επεξεργασία
