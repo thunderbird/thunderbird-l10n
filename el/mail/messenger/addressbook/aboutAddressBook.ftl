@@ -194,6 +194,14 @@ about-addressbook-confirm-remove-contacts =
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Είστε σίγουροι για την αφαίρεση του { $name } από το { $list };
 # Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Είστε σίγουροι ότι θέλετε να αφαιρέσετε αυτή την { $count } επαφή από τη { $list };
+       *[other] Είστε σίγουροι ότι θέλετε να αφαιρέσετε τις { $count } επαφές από τη { $list };
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->

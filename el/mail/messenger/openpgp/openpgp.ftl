@@ -25,10 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Αποθήκευση πρόχειρων μηνυμάτων σε κρυπτογραφημένη μορφή
     .accesskey = κ
-# Do not translate "Autocrypt", it's the name of a standard.
-e2e-autocrypt-headers =
-    .label = Αποστολή δημόσιων κλειδιών OpenPGP στις κεφαλίδες των email για συμβατότητα με το Autocrypt
-    .accesskey = t
 openpgp-key-user-id-label = Λογαριασμός/ID χρήστη
 openpgp-keygen-title-label =
     .title = Δημιουργία κλειδιού OpenPGP
@@ -59,6 +55,10 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Σύνθετα…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">ΣΗΜΕΙΩΣΗ: Η δημιουργία κλειδιού ενδέχεται να διαρκέσει αρκετά λεπτά για να ολοκληρωθεί.</a> Μην κλείσετε την εφαρμογή ενώ είναι σε εξέλιξη η δημιουργία του κλειδιού. Η ενεργή περιήγηση ή η εκτέλεση έντονων εργασιών δίσκου κατά τη δημιουργία του κλειδιού θα αναπληρώσει τη 'δεξαμενή τυχαιότητας' και θα επιταχύνει τη διαδικασία. Θα ενημερωθείτε όταν ολοκληρωθεί η δημιουργία του κλειδιού.
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Αποστολή δημόσιων κλειδιών OpenPGP στις κεφαλίδες των email για συμβατότητα με το Autocrypt
+    .accesskey = t
 openpgp-key-created-label =
     .label = Δημιουργία
 openpgp-key-expiry-label =
@@ -321,6 +321,7 @@ openpgp-passphrase-status-unprotected = Χωρίς προστασία
 openpgp-passphrase-status-primary-password = Προστατεύεται από τον κύριο κωδικό πρόσβασης του { -brand-short-name }
 openpgp-passphrase-status-user-passphrase = Προστατεύεται από φράση πρόσβασης
 openpgp-passphrase-instruction-unprotected = Ορισμός φράσης πρόσβασης για την προστασία αυτού του κλειδιού
+openpgp-passphrase-instruction-primary-password = Εναλλακτικά προστατεύστε αυτό το κλειδί με ξεχωριστή φράση πρόσβασης
 openpgp-passphrase-instruction-user-passphrase = Ξεκλειδώστε αυτό το κλειδί για να αλλάξετε την προστασία του.
 openpgp-passphrase-unlock = Ξεκλείδωμα
 openpgp-passphrase-unlocked = Το κλειδί ξεκλειδώθηκε επιτυχώς.

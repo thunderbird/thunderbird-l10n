@@ -295,6 +295,14 @@ no-reply-reply-anyway-button = Απάντηση ούτως ή άλλως
 ## error messages
 
 decrypt-and-copy-failures = Δεν ήταν δυνατή η αποκρυπτογράφηση και αντιγραφή { $failures } από { $total } μηνύματα.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } από { $total } μήνυμα δεν ήταν δυνατή η αποκρυπτογράφησή του και δεν αντιγράφηκε.
+       *[other] { $failures } από { $total } μηνύματα δεν ήταν δυνατή η αποκρυπτογράφησή τους και δεν αντιγράφηκαν.
+    }
 
 ## Spaces toolbar
 
@@ -394,6 +402,7 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Ξεχάστε τις φράσεις πρόσβασης OpenPGP
 
 ## Quota panel.
 

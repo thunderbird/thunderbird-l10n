@@ -198,8 +198,8 @@ openpgp-key-issue-notification-single = Η από άκρο σε άκρο κρυ�
 # $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-multi =
     { $count ->
-        [one] έναν
-       *[other] πολλούς
+        [one] Η από άκρο σε άκρο κρυπτογράφηση απαιτεί την επίλυση θεμάτων κλειδιού για { $count } αποδέκτη.
+       *[other] Η από άκρο σε άκρο κρυπτογράφηση απαιτεί την επίλυση θεμάτων κλειδιών για { $count } αποδέκτες.
     }
 # Variables:
 # $addr (String) - mail address with certificate issues.

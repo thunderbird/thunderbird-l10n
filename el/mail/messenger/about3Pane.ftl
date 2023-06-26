@@ -21,7 +21,7 @@ thread-pane-folder-message-count =
 # $count (Number) - The number of messages currently selected.
 thread-pane-folder-selected-count =
     { $count ->
-        [one] Επιλέχθηκε ένα
+        [one] Επιλέχθηκε { $count }
        *[other] Επιλέχθηκαν { $count }
     }
 thread-pane-header-context-table-view =
