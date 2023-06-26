@@ -48,3 +48,6 @@ tree-list-view-row-not-spam =
 tree-list-view-row-read =
     .alt = Δείκτης κατάστασης αναγνωσμένου
     .title = Κατάσταση αναγνωσμένου μηνύματος
+tree-list-view-row-not-read =
+    .alt = Δείκτης κατάστασης μη αναγνωσμένων
+    .title = Δείκτης κατάστασης μη αναγνωσμένων
