@@ -188,6 +188,10 @@ openpgp-key-issue-notification-many = End-to-end-kryptering kræver, at du løse
 smime-cert-issue-notification-one = End-to-end-kryptering kræver, at du løser certifikatproblemer for { $addr }.
 smime-cert-issue-notification-many = End-to-end-kryptering kræver, at du løser certifikatproblemer for { $count } modtagere.
 # Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Programmet er ikke indstillet til at sende end to end-krypterede meddelelser fra adressen { $addr }.
+# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = For at benytte end to end-kyptering, skal du løse nøgleproblemerne for adressen { $addr }.
 # Variables:
@@ -275,6 +279,14 @@ many-public-recipients-notice =
     { $count ->
         [one] Din meddelelse har en offentlig modtager. Du kan undgå at afsløre modtagere ved at bruge Skjult kopi til (BCC) i stedet.
        *[other] De { $count } modtagere i Til og Kopi til (CC)  kan se hinandens adresse. Du kan undgå at afsløre modtagere ved at bruge Skjult kopi til (BCC) i stedet.
+    }
+public-recipients-notice-single = En af modtagerne af din meddelelse kan ses af andre. Du kan undgå at afsløre modtageren ved at benytte Skjult kopi til (Bcc) i stedet.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { "" }
+       *[other] De { $count } modtagere i felterne Til og Kopi til (Cc) vil kunne se hinandens mailadresser. Du kan undgå at vise modtagerne ved at bruge Skjult kopi til (Bcc) i stedet.
     }
 many-public-recipients-bcc =
     .label = Brug Skjult kopi (Bcc) i stedet

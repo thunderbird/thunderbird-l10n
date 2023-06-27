@@ -29,6 +29,11 @@ openpgp-generate-key-title = Generer OpenPGP-nøgle
 openpgp-keygen-secret-protection = Beskyttelse af hemmelig nøgle
 radio-keygen-no-protection =
     .label = Ubeskyttet
+radio-keygen-protect-primary-pass =
+    .label = Beskyt med hovedadgangskoden
+radio-keygen-passphrase-protection =
+    .label = Beskyt med et adgangsudtryk:
+openpgp-passphrase-repeat = Bekræft adgangsudtryk:
 openpgp-generate-key-info = <b>Nøglegenerering kan tage flere minutter.</b> Luk ikke programmet mens nøglegenereringen er i gang. Hvis du aktivt browser eller udfører diskintensive operationer, mens nøglegenereringen står på, fylder du ‘tilfældigheds-puljen’ op, hvilket får processen til at gå hurtigere. Du får besked, når nøglen er færdig.
 openpgp-keygen-expiry-title = Nøgleudløb
 openpgp-keygen-expiry-description = Angiv udløbsdatoen for din netop genererede nøgle. Du kan senere tjekke datoen og forlænge den, hvis det bliver nødvendigt.
@@ -98,6 +103,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Bekræft hvilke nøgler, der kan betragtes som dine personlige nøgler. Du bør kun bruge nøgler, som du selv har oprettet, og som viser din identitet, som personlige nøgler. Du kan ændre denne indstilling senere under Nøgleegenskaber.
 openpgp-import-key-list-caption = Nøgler der er markeret som personlige nøgler vil optræde i sektionen for end to end-kryptering. Øvrige nøgler vises under Nøgleadministration.
+openpgp-import-keep-passphrases =
+    .label = Behold beskyttelse med adgangsudtryk for importerede hemmelige nøgler
 openpgp-passphrase-prompt-title = Adgangsudtryk påkrævet
 #   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Indtast adgangsudtrykket for at låse følgende nøgle op: { $key }

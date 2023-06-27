@@ -119,6 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Udgiv
     .accesskey = U
+openpgp-key-publish = Udgiv
 openpgp-key-man-discover-prompt = For at finde OpenPGP-nøgler online, enten på nøgleservere eller ved hjælp af WKD-protokollen, skal du indtaste en mailadresse eller et nøgle-id.
 openpgp-key-man-discover-progress = Søger…
 # Variables:
@@ -314,11 +315,22 @@ openpgp-personal-no-label =
     .label = Nej, brug den ikke som min personlige nøgle.
 openpgp-personal-yes-label =
     .label = Ja, behandl denne nøgle som en personlig nøgle.
+openpgp-passphrase-protection =
+    .label = Beskyttelse med adgangsudtryk
 openpgp-passphrase-status-unprotected = Ubeskyttet
 openpgp-passphrase-status-primary-password = Beskyttet af { -brand-short-name }s hovedadgangskode
+openpgp-passphrase-status-user-passphrase = Beskyttet af et adgangsudtryk
+openpgp-passphrase-instruction-unprotected = Opret et adgangsudtryk for at beskytte denne nøgle
+openpgp-passphrase-instruction-primary-password = Alternativt kan du beskytte denne nøgle med et separat adgangsudtryk
 openpgp-passphrase-instruction-user-passphrase = Lås denne nøgle op for at ændre dens beskyttelse.
 openpgp-passphrase-unlock = Lås op
 openpgp-passphrase-unlocked = Nøglen er låst op.
+openpgp-remove-protection = Fjern adgangsudtrykbeskyttelse
+openpgp-use-primary-password = Fjern adgangsudtrykbeskyttelse og beskyt med hovedadgangskode
+openpgp-passphrase-new = Nyt adgangsudtryk
+openpgp-passphrase-new-repeat = Gentag nyt adgangsudtryk
+openpgp-passphrase-set = Opret adgangsudtryk
+openpgp-passphrase-change = Skift adgangsudtryk
 openpgp-copy-cmd-label =
     .label = Kopier
 
@@ -630,6 +642,17 @@ import-rev-file = Importer OpenPGP-tilbagekaldelsesfil
 gnupg-file = GnuPG-filer
 import-keys-failed = Import af nøgler mislykkedes
 passphrase-prompt = Indtast adgangsudtrykket, der låser følgende nøgle op: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Indtast adgangsudtrykket for at låse op for den hemmelige nøgle med ID'et { $key }, oprettet { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Indtast adgangsudtrykket for at låse op for den hemmelige nøgle med ID'et { $subkey }, en undernøgle til nøgle-ID { $key }, oprettet { $date }, { $username_and_email }
 file-to-big-to-import = Denne fil er for stor. Undlad at importere mange nøgler på én gang.
 
 ## Strings used in enigmailKeygen.js

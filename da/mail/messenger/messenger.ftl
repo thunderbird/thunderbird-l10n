@@ -143,6 +143,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Slet mappe
     .accesskey = S
+menu-edit-unsubscribe-newsgroup =
+    .label = Afmeld nyhedsgruppe
+    .accesskey = s
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -399,6 +402,7 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Glem OpenPGP-adgangsudtryk
 
 ## Quota panel.
 

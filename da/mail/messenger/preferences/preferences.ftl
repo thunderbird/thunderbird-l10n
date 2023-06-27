@@ -619,6 +619,7 @@ certificate-button =
 security-devices-button =
     .label = Sikkerhedsenheder…
     .accesskey = E
+email-e2ee-header = End to end-kryptering for mails
 account-settings = Kontoindstillinger
 email-e2ee-enable-info = Opret mailkonti og identiteter til end to end-kryptering under Kontoindstillinger.
 email-e2ee-automatism = Automatisk brug af kryptering
