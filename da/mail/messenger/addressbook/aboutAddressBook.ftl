@@ -248,6 +248,13 @@ about-addressbook-selection-contacts-header = { $count } valgte kontakter
 # $count (Number) - The number of selected lists
 about-addressbook-selection-lists-header = { $count } valgte lister
 # Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] 1 valgt kontakt
+       *[other] { $count } valgte adressebogselementer
+    }
+# Variables:
 # $count (Number) - The number of selected contacts
 about-addressbook-selection-contacts-header2 =
     { $count ->

@@ -28,6 +28,8 @@ thread-pane-header-context-table-view =
     .label = Tabelvisning
 thread-pane-header-context-cards-view =
     .label = Kortvisning
+thread-pane-header-context-hide =
+    .label = Skjul overskrifter på meddelelsesliste
 
 ## Quick Filter Bar
 
@@ -180,6 +182,8 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Vis mappestørrelse
+folder-pane-header-hide-local-folders =
+    .label = Skjul Lokale mapper
 folder-pane-mode-context-button =
     .title = Indstillinger for mappetilstand
 folder-pane-mode-context-toggle-compact-mode =
