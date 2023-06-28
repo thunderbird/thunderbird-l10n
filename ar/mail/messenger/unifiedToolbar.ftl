@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = الأيقونات بجانب النص
+customize-button-style-icons-beside-text-option = الأيقونات بجانب النص
 
 ## Unified toolbar customization palette context menu
 
