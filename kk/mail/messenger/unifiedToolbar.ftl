@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Тек таңбашалар
 customize-button-style-text-only =
     .label = Тек мәтін
+customize-button-style-icons-beside-text-option = Таңбашалар мәтіннің қасында
 customize-cancel = Бас тарту
 customize-save = Сақтау
 customize-unsaved-changes = Басқа кеңістіктердегі сақталмаған өзгерістер
