@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = 僅圖示
 customize-button-style-text-only =
     .label = 僅文字
+customize-button-style-icons-beside-text-option = 文字旁的圖示
 customize-cancel = 取消
 customize-save = 儲存
 customize-unsaved-changes = 其他空間中未儲存的變更
