@@ -6,12 +6,12 @@
 <!ENTITY wizard.label             "Criar nova agenda" >
 <!ENTITY wizard.description       "Procurar sua agenda" >
 
-<!ENTITY initialpage.description    "Sua agenda pode ser armazenada no seu computador, ou em um servidor para acesso remoto ou compartilhamento com seus colegas ou amigos." >
+<!ENTITY initialpage.description    "Sua agenda pode ser armazenada no seu computador, ou em um servidor para poder acessar remotamente e compartilhar com seus colegas ou amigos." >
 <!ENTITY initialpage.computer.label  "No meu computador">
 <!ENTITY initialpage.network.label  "Na rede">
 
 <!ENTITY locationpage.description         "Informe o que é necessário para acessar sua agenda remota" >
-<!ENTITY locationpage.login.description   "Opcional: insira um nome de usuário e senha" >
+<!ENTITY locationpage.login.description   "Opcional: Insira um nome de usuário e senha" >
 <!ENTITY locationpage.username.label      "Nome de usuário:" >
 <!ENTITY locationpage.password.label      "Senha:" >
 
