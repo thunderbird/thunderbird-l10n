@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Anahtarın sona erme süresini değiştir
-
+openpgp-change-expiry-title = Anahtarın sona erme süresini değiştir
 info-will-expire = Bu anahtarın süresi { $date } tarihinde dolacak şekilde yapılandırılmış.
 info-already-expired = Bu anahtarın süresi dolmuş.
 info-does-not-expire = Bu anahtar, süresi asla dolmayacak şekilde yapılandırılmış.
-
 info-explanation-1 = <b>Süresi dolan anahtarlar</b> şifreleme veya dijital imzalama için kullanılamaz.
-
 info-explanation-2 = Bu anahtarı daha uzun bir süre kullanmak isterseniz son kullanma tarihini değiştirin ve ardından ortak anahtarı yazıştığınız kişilerle yeniden paylaşın.
-
 expire-dont-change =
     .label = Son kullanma tarihini değiştirme
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Anahtarın süresi:
 expire-in-months = Ay
+expire-no-change-label = Son kullanma tarihini değiştirme
+expire-in-time-label = Anahtarın süresi:
+expire-never-expire-label = Anahtarın süresi dolmayacak
