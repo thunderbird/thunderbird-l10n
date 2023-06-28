@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Samo ikone
 customize-button-style-text-only =
     .label = Samo besedilo
+customize-button-style-icons-beside-text-option = Ikone poleg besedila
 customize-cancel = Prekliči
 customize-save = Shrani
 customize-unsaved-changes = Neshranjene spremembe pri drugih komponentah
