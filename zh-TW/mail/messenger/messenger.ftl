@@ -163,6 +163,15 @@ menu-edit-undelete-messages =
            *[other] 救回選擇的郵件
         }
     .accesskey = d
+menu-edit-properties =
+    .label = 屬性
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = 資料夾屬性
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = 新聞群組屬性
+    .accesskey = o
 
 ## Message Menu
 
