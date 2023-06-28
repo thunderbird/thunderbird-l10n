@@ -4,6 +4,7 @@
 
 openpgp-change-key-expiry-title =
     .title = Ndryshoni Skadim Kyçi
+openpgp-change-expiry-title = Ndryshoni Skadim Kyçi
 info-will-expire = Ky kyç aktualisht është i formësuar të skadojë më { $date }.
 info-already-expired = Ky kyç ka skaduar tashmë.
 info-does-not-expire = Ky kyç aktualisht është i formësuar të mos skadojë kurrë.
@@ -16,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Kyçi do të skadojë më:
 expire-in-months = Muaj
+expire-no-change-label = Mos e ndrysho datën e skadimit
+expire-in-time-label = Kyçi do të skadojë më:
+expire-never-expire-label = Kyçi nuk skadon kurrë
