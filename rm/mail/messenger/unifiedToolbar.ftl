@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Mo iconas
 customize-button-style-text-only =
     .label = Mo text
+customize-button-style-icons-beside-text-option = Simbols sper il text
 customize-cancel = Interrumper
 customize-save = Memorisar
 customize-unsaved-changes = Modificaziuns betg memorisadas en auters spazis
