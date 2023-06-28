@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Vetëm ikona
 customize-button-style-text-only =
     .label = Vetëm tekst
+customize-button-style-icons-beside-text-option = Ikona në krah të Tekstit
 customize-cancel = Anuloje
 customize-save = Ruaje
 customize-unsaved-changes = Ndryshime të paruajtura në hapësira të tjera
