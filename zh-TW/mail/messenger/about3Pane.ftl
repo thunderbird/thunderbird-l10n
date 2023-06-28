@@ -183,6 +183,10 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = 精簡檢視
     .accesskey = C
+folder-pane-mode-move-up =
+    .label = 上移
+folder-pane-mode-move-down =
+    .label = 下移
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =

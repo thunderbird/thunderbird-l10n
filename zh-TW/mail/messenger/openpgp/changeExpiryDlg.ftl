@@ -4,7 +4,9 @@
 
 openpgp-change-key-expiry-title =
     .title = 更改金鑰有效期限
-openpgp-change-expiry-title = 更改金鑰有效期限
+openpgp-change-expiry-title = 更改密鑰有效期限
+# Variables:
+# $date (String) - Date the key is expiring on.
 info-will-expire = 這把金鑰目前設定於 { $date } 到期。
 info-already-expired = 這把金鑰已經過期。
 info-does-not-expire = 這把金鑰目前設定為永不過期。
