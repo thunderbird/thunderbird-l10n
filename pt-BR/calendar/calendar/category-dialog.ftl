@@ -4,4 +4,4 @@
 
 category-name-label = Nome
 category-color-label =
-    .label = Usar Cor
+    .label = Usar cor
