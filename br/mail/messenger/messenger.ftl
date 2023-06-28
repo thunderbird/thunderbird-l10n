@@ -62,6 +62,15 @@ menu-edit-undelete-messages =
            *[other] Dizilemel ar c'hemennadennoù diuzet
         }
     .accesskey = d
+menu-edit-properties =
+    .label = Perzhioù…
+    .accesskey = s
+menu-edit-folder-properties =
+    .label = Perzhioù an teuliad
+    .accesskey = s
+menu-edit-newsgroup-properties =
+    .label = Perzhioù ar strollad-keleier
+    .accesskey = s
 
 ## Message Menu
 
