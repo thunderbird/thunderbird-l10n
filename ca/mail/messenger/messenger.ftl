@@ -104,6 +104,15 @@ menu-edit-undelete-messages =
            *[other] Recupera els missatges esborrats seleccionats
         }
     .accesskey = b
+menu-edit-properties =
+    .label = Propietats
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Propietats de la carpeta
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Propietats del grup de discussió
+    .accesskey = o
 
 ## Message Menu
 
