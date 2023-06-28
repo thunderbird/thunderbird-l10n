@@ -11,5 +11,7 @@ set-password-backup-pw =
     .value = Facal-faire an lethbhric-ghlèidhidh air an iuchair rùin:
 set-password-repeat-backup-pw =
     .value = Facal-faire an lethbhric-ghlèidhidh air an iuchair rùin (a-rithist):
+set-password-backup-pw-label = Facal-faire an lethbhric-ghlèidhidh air an iuchair rùin:
+set-password-backup-pw2-label = Facal-faire an lethbhric-ghlèidhidh air an iuchair rùin (a-rithist):
 set-password-reminder = <b>Cudromach</b>: ma dhìochuimhnicheas tu facal-faire lethbhreac-glèidhidh na h-iuchrach rùin agad, chan urrainn dhut an lethbhreac-glèidhidh seo a chleachdadh às dèidh sin. Cùm cunntas dheth ann an àite sàbhailte.
 password-quality-meter = Tomhas càileachd an fhacail-fhaire
