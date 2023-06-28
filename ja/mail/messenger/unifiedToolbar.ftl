@@ -5,6 +5,7 @@
 
 ### Unified Toolbar strings
 
+
 ## Search bar
 
 search-bar-button =
@@ -17,8 +18,8 @@ search-bar-placeholder = 検索...
 # in messenger.dtd.
 search-bar-placeholder-with-key2 =
     { PLATFORM() ->
-        [macos] {search-bar-placeholder} <kbd>⌘</kbd> <kbd>K</kbd>
-       *[other] {search-bar-placeholder} <kbd>Ctrl</kbd> + <kbd>K</kbd>
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
     }
 
 ## Unified toolbar context menu
@@ -52,6 +53,7 @@ customize-button-style-icons-only =
     .label = アイコンのみ
 customize-button-style-text-only =
     .label = テキストのみ
+customize-button-style-icons-beside-text-option = アイコンの横にテキスト
 customize-cancel = キャンセル
 customize-save = 保存
 customize-unsaved-changes = 他のスペースの未保存の変更
