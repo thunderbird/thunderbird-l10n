@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Ícones ao lado do texto
+customize-button-style-icons-beside-text-option = Ícones ao lado do texto
 
 ## Unified toolbar customization palette context menu
 
