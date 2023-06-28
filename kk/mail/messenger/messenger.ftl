@@ -163,6 +163,15 @@ menu-edit-undelete-messages =
            *[other] Таңдалған хабарламалар өшіруін болдырмау
         }
     .accesskey = б
+menu-edit-properties =
+    .label = Қасиеттері
+    .accesskey = м
+menu-edit-folder-properties =
+    .label = Бума қасиеттері
+    .accesskey = м
+menu-edit-newsgroup-properties =
+    .label = Жаңалықтар тобының қасиеттері
+    .accesskey = м
 
 ## Message Menu
 
