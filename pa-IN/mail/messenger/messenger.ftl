@@ -62,6 +62,15 @@ menu-edit-undelete-messages =
            *[other] Undelete Selected Messages
         }
     .accesskey = d
+menu-edit-properties =
+    .label = Properties
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Folder Properties
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Newsgroup Properties
+    .accesskey = o
 
 ## Message Menu
 
