@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Текст до иконите
+customize-button-style-icons-beside-text-option = Текст до иконите
 
 ## Unified toolbar customization palette context menu
 
