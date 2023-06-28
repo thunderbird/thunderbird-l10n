@@ -165,6 +165,15 @@ menu-edit-undelete-messages =
            *[other] Przywróć zaznaczone wiadomości
         }
     .accesskey = d
+menu-edit-properties =
+    .label = Właściwości
+    .accesskey = i
+menu-edit-folder-properties =
+    .label = Właściwości folderu
+    .accesskey = i
+menu-edit-newsgroup-properties =
+    .label = Właściwości grupy dyskusyjnej
+    .accesskey = i
 
 ## Message Menu
 
