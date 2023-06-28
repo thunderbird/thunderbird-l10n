@@ -169,6 +169,15 @@ menu-edit-undelete-messages =
            *[other] Восстановить выбранные сообщения
         }
     .accesskey = н
+menu-edit-properties =
+    .label = Свойства
+    .accesskey = й
+menu-edit-folder-properties =
+    .label = Свойства папки
+    .accesskey = й
+menu-edit-newsgroup-properties =
+    .label = Свойства группы новостей
+    .accesskey = й
 
 ## Message Menu
 
