@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Seçilen silinmiş iletileri geri al
         }
     .accesskey = i
+menu-edit-properties =
+    .label = Özellikler
+    .accesskey = Ö
+menu-edit-folder-properties =
+    .label = Dizin özellikleri
+    .accesskey = Ö
+menu-edit-newsgroup-properties =
+    .label = Haber grubu özellikleri
+    .accesskey = Ö
 
 ## Message Menu
 
