@@ -97,6 +97,15 @@ menu-edit-undelete-messages =
            *[other] Recuperar mensagens selecionadas
         }
     .accesskey = u
+menu-edit-properties =
+    .label = Propriedades
+    .accesskey = e
+menu-edit-folder-properties =
+    .label = Propriedades da pasta
+    .accesskey = e
+menu-edit-newsgroup-properties =
+    .label = Propriedades do grupo de notícias
+    .accesskey = e
 
 ## Message Menu
 
