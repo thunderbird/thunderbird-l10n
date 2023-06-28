@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Μόνο εικονίδια
 customize-button-style-text-only =
     .label = Μόνο κείμενο
+customize-button-style-icons-beside-text-option = Εικονίδια δίπλα στο κείμενο
 customize-cancel = Ακύρωση
 customize-save = Αποθήκευση
 customize-unsaved-changes = Μη αποθηκευμένες αλλαγές σε άλλους χώρους
