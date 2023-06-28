@@ -166,13 +166,13 @@ menu-edit-undelete-messages =
     .accesskey = R
 menu-edit-properties =
     .label = Propiedades
-    .accesskey = o
+    .accesskey = P
 menu-edit-folder-properties =
     .label = Propiedades de carpeta
-    .accesskey = o
+    .accesskey = P
 menu-edit-newsgroup-properties =
     .label = Propiedades del grupo
-    .accesskey = o
+    .accesskey = P
 
 ## Message Menu
 

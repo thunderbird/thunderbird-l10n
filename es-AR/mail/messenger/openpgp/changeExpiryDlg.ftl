@@ -5,6 +5,8 @@
 openpgp-change-key-expiry-title =
     .title = Cambiar vencimiento de la clave
 openpgp-change-expiry-title = Cambiar vencimiento de la clave
+# Variables:
+# $date (String) - Date the key is expiring on.
 info-will-expire = Esta clave está actualmente configurada para expirar el { $date }.
 info-already-expired = Esta clave ya caducó.
 info-does-not-expire = Esta clave está actualmente configurada para no expirar nunca.
