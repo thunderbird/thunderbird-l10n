@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Chỉ biểu tượng
 customize-button-style-text-only =
     .label = Chỉ văn bản
+customize-button-style-icons-beside-text-option = Biểu tượng bên cạnh văn bản
 customize-cancel = Hủy bỏ
 customize-save = Lưu
 customize-unsaved-changes = Các thay đổi chưa được lưu trong các không gian khác
