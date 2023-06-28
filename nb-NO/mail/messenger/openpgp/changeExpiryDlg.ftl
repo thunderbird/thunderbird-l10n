@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Endre når nøkkelen utløper
-
+openpgp-change-expiry-title = Endre når nøkkelen utløper
 info-will-expire = Denne nøkkelen er for øyeblikket konfigurert til å utløpe den { $date }.
 info-already-expired = Denne nøkkelen er allerede utløpt.
 info-does-not-expire = Denne nøkkelen er for øyeblikket konfigurert til å aldri utløpe.
-
 info-explanation-1 = <b>Etter at en nøkkel har gått ut</b>, er det ikke lenger mulig å bruke den til kryptering eller digital signering.
-
 info-explanation-2 = Om du vil bruke nøkkelen over lengre tid, endrer du utløpsdatoen, og deretter deler du den offentlige nøkkelen med samtalepartnerne dine igjen.
-
 expire-dont-change =
     .label = Ikke endre utløpsdatoen
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Nøkkelen utløper om:
 expire-in-months = Måneder
+expire-no-change-label = Ikke endre utløpsdatoen
+expire-in-time-label = Nøkkelen utløper om:
+expire-never-expire-label = Nøkkelen vil aldri utløpe
