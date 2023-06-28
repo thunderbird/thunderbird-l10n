@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Arlunioù ouzhpenn an destenn
+customize-button-style-icons-beside-text-option = Arlunioù ouzhpenn an destenn
 
 ## Unified toolbar customization palette context menu
 
