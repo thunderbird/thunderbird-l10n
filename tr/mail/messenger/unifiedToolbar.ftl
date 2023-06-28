@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Yalnızca simgeler
 customize-button-style-text-only =
     .label = Yalnızca metin
+customize-button-style-icons-beside-text-option = Simgeler metnin yanında
 customize-cancel = Vazgeç
 customize-save = Kaydet
 customize-unsaved-changes = Diğer sekmelerde kaydedilmemiş değişiklikler var
