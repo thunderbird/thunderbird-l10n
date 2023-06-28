@@ -30,6 +30,7 @@ customize-space-tab-settings = Postavke
     .title = Postavke
 customize-button-style-icons-beside-text =
     .label = Ikone uz tekst
+customize-button-style-icons-beside-text-option = Ikone uz tekst
 
 ## Unified toolbar customization palette context menu
 
