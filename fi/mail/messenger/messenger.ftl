@@ -149,6 +149,15 @@ menu-edit-undelete-messages =
            *[other] Kumoa valittujen viestien poisto
         }
     .accesskey = m
+menu-edit-properties =
+    .label = Ominaisuudet
+    .accesskey = O
+menu-edit-folder-properties =
+    .label = Kansion ominaisuudet
+    .accesskey = O
+menu-edit-newsgroup-properties =
+    .label = Keskusteluryhmän ominaisuudet
+    .accesskey = O
 
 ## Message Menu
 
