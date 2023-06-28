@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Պատկերակ գրույթի կողքին
+customize-button-style-icons-beside-text-option = Պատկերակ գրույթի կողքին
 
 ## Unified toolbar customization palette context menu
 
