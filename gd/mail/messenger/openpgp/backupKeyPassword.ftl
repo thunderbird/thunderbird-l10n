@@ -4,6 +4,7 @@
 
 set-password-window =
     .title = Tagh facal-faire airson lethbhreac-glèidhidh a dhèanamh dhen iuchair OpenPGP agad
+set-password-window-title = Tagh facal-faire airson lethbhreac-glèidhidh a dhèanamh dhen iuchair OpenPGP agad
 set-password-legend = Tagh facal-faire
 set-password-message = Dìonaidh am facal-faire a shuidhicheas tu an-seo am faidhle lethbhric-ghlèidhidh a chruthaicheas tu dhan iuchair dhìomhair OpenPGP agad. Feumaidh tu am facal-faire seo a shuidheachadh mus lean thu air adhart leis an lethbhreac-ghlèidhidh.
 set-password-backup-pw =
