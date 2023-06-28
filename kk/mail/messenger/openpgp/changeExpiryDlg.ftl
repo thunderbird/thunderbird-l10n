@@ -4,6 +4,7 @@
 
 openpgp-change-key-expiry-title =
     .title = Кілттің жарамдылық мерзімін өзгерту
+openpgp-change-expiry-title = Кілттің жарамдылық мерзімін өзгерту
 info-will-expire = Бұл кілт { $date } күні аяқталатындай бапталған.
 info-already-expired = Бұл кілттің мерзімі өтіп кеткен.
 info-does-not-expire = Бұл кілт мерзімі ешқашан аяқталмайтындай бапталған.
@@ -16,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Кілттің жарамдылық мерзімі бітеді:
 expire-in-months = Ай
+expire-no-change-label = Жарамдылық мерзімін өзгертпеу
+expire-in-time-label = Кілттің жарамдылық мерзімі бітеді:
+expire-never-expire-label = Кілттің жарамдылық мерзімі ешқашан бітпейді
