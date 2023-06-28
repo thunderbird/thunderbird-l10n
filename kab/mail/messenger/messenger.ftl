@@ -123,6 +123,15 @@ menu-edit-undelete-messages =
            *[other] Sefsex tukksa n yiznan yettwafernen
         }
     .accesskey = f
+menu-edit-properties =
+    .label = Timeẓliyin
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Timeẓliyin n ukaram
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Timeẓliyin n isallen nugraw
+    .accesskey = o
 
 ## Message Menu
 
