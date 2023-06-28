@@ -164,6 +164,12 @@ menu-edit-undelete-messages =
            *[other] Restaurar as mensaxes seleccionadas
         }
     .accesskey = t
+menu-edit-properties =
+    .label = Propiedades
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Propiedades do cartafol
+    .accesskey = o
 
 ## Message Menu
 
