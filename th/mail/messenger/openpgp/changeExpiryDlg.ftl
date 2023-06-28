@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = เปลี่ยนการหมดอายุของคีย์
-
+openpgp-change-expiry-title = เปลี่ยนการหมดอายุของคีย์
 info-will-expire = ขณะนี้คีย์ได้รับการกำหนดค่าให้หมดอายุใน { $date }
 info-already-expired = คีย์นี้หมดอายุไปแล้ว
 info-does-not-expire = ขณะนี้คีย์ได้รับการกำหนดค่าให้ไม่มีวันหมดอายุ
-
 info-explanation-1 = <b>หลังจากที่คีย์หมดอายุแล้ว</b> คุณจะไม่สามารถใช้คีย์ดังกล่าวในการเข้ารหัสหรือลงลายเซ็นดิจิทัลได้อีกต่อไป
-
 info-explanation-2 = หากต้องการใช้คีย์นี้เป็นระยะเวลานานขึ้น ให้เปลี่ยนวันที่หมดอายุ จากนั้นแบ่งปันคีย์สาธารณะกับคู่สนทนาของคุณอีกครั้ง
-
 expire-dont-change =
     .label = ไม่ต้องเปลี่ยนวันหมดอายุ
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = คีย์จะหมดอายุใน:
 expire-in-months = เดือน
+expire-no-change-label = ไม่ต้องเปลี่ยนวันหมดอายุ
+expire-in-time-label = คีย์จะหมดอายุใน:
+expire-never-expire-label = คีย์จะไม่มีวันหมดอายุ
