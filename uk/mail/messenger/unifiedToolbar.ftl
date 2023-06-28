@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Тільки піктограми
 customize-button-style-text-only =
     .label = Тільки текст
+customize-button-style-icons-beside-text-option = Піктограми поруч з текстом
 customize-cancel = Скасувати
 customize-save = Зберегти
 customize-unsaved-changes = Незбережені зміни в інших місцях
