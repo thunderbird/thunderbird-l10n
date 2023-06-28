@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = 아이콘만
 customize-button-style-text-only =
     .label = 텍스트만
+customize-button-style-icons-beside-text-option = 텍스트 옆에 아이콘
 customize-cancel = 취소
 customize-save = 저장
 customize-unsaved-changes = 다른 스페이스에 저장되지 않은 변경 사항
