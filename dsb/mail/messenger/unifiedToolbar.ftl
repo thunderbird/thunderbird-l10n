@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Jano symbole
 customize-button-style-text-only =
     .label = Jano tekst
+customize-button-style-icons-beside-text-option = Symbole a tekst
 customize-cancel = Pśetergnuś
 customize-save = Składowaś
 customize-unsaved-changes = Njeskłaźone změny w drugich rumach
