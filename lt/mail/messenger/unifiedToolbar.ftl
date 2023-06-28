@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Piktogramos šalia teksto
+customize-button-style-icons-beside-text-option = Piktogramos šalia teksto
 
 ## Unified toolbar customization palette context menu
 
