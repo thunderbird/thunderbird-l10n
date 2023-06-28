@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Ikonas blakus tekstam
+customize-button-style-icons-beside-text-option = Ikonas blakus tekstam
 
 ## Unified toolbar customization palette context menu
 
