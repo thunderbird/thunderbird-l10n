@@ -169,6 +169,15 @@ menu-edit-undelete-messages =
            *[other] Відновити вибрані повідомлення
         }
     .accesskey = н
+menu-edit-properties =
+    .label = Властивості…
+    .accesskey = т
+menu-edit-folder-properties =
+    .label = Властивості теки…
+    .accesskey = т
+menu-edit-newsgroup-properties =
+    .label = Властивості групи новин…
+    .accesskey = т
 
 ## Message Menu
 
