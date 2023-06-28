@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Verwijderen van geselecteerde berichten ongedaan maken
         }
     .accesskey = V
+menu-edit-properties =
+    .label = Eigenschappen
+    .accesskey = E
+menu-edit-folder-properties =
+    .label = Mapeigenschappen
+    .accesskey = E
+menu-edit-newsgroup-properties =
+    .label = Nieuwsgroepeigenschappen
+    .accesskey = E
 
 ## Message Menu
 
