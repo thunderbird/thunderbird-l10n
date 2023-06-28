@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Fuortsmite selektearre berjochten ûngedien meitsje
         }
     .accesskey = u
+menu-edit-properties =
+    .label = Eigenskippen
+    .accesskey = E
+menu-edit-folder-properties =
+    .label = Mapeigenskippen
+    .accesskey = E
+menu-edit-newsgroup-properties =
+    .label = Nijsgroepeigenskippen
+    .accesskey = E
 
 ## Message Menu
 
