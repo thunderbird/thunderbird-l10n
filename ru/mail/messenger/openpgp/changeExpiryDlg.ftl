@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Изменить срок действия ключа
-
+openpgp-change-expiry-title = Изменить срок действия ключа
 info-will-expire = Этот ключ в настоящее время действует до { $date }.
 info-already-expired = Срок действия этого ключа истёк.
 info-does-not-expire = Этот ключ в настоящее время является бессрочным.
-
 info-explanation-1 = <b>После истечения срока действия ключа</b> его будет невозможно использовать для шифрования или цифровой подписи.
-
 info-explanation-2 = Чтобы использовать этот ключ в течение более длительного периода времени, измените срок его действия, а затем снова отправьте его открытый ключ партнёрам по общению.
-
 expire-dont-change =
     .label = Не менять срок действия
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Срок действия ключа истечёт через:
 expire-in-months = месяцев
+expire-no-change-label = Не менять срок действия
+expire-in-time-label = Срок действия ключа истечёт через:
+expire-never-expire-label = Ключ никогда не истечёт
