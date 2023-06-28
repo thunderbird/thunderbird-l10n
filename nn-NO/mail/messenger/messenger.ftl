@@ -103,6 +103,15 @@ menu-edit-undelete-messages =
            *[other] Angre valde meldingar
         }
     .accesskey = g
+menu-edit-properties =
+    .label = Eigenskapar
+    .accesskey = N
+menu-edit-folder-properties =
+    .label = Mappeeigenskapar
+    .accesskey = N
+menu-edit-newsgroup-properties =
+    .label = Nyhendegruppe-innstillingar
+    .accesskey = N
 
 ## Message Menu
 
