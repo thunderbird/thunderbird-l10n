@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Само иконице
 customize-button-style-text-only =
     .label = Само текст
+customize-button-style-icons-beside-text-option = Иконице поред текста
 customize-cancel = Откажи
 customize-save = Сачувај
 customize-unsaved-changes = Несачуване промене у другим просторима
