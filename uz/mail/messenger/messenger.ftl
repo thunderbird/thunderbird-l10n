@@ -62,6 +62,15 @@ menu-edit-undelete-messages =
            *[other] Tanlangan xabarlarni o‘chirishni bekor qilish
         }
     .accesskey = d
+menu-edit-properties =
+    .label = Xossalari
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Jild xossalari
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Yangiliklar to‘plami xossalari
+    .accesskey = o
 
 ## Message Menu
 
