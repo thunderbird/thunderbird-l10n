@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Allinnich piktogrammen
 customize-button-style-text-only =
     .label = Allinnich tekst
+customize-button-style-icons-beside-text-option = Ikoantsjes neist tekst
 customize-cancel = Annulearje
 customize-save = Bewarje
 customize-unsaved-changes = Net-bewarre wizigingen yn oare funksjes
