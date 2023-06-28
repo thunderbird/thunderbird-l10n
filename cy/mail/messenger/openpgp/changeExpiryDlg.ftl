@@ -5,6 +5,8 @@
 openpgp-change-key-expiry-title =
     .title = Newid Dod i Ben yr Allwedd
 openpgp-change-expiry-title = Newid Dod i Ben yr Allwedd
+# Variables:
+# $date (String) - Date the key is expiring on.
 info-will-expire = Mae'r allwedd hon wedi'i ffurfweddu i ddod i ben ar { $date }
 info-already-expired = Mae'r allwedd hon eisoes wedi dod i ben.
 info-does-not-expire = Mae'r allwedd hon wedi'i ffurfweddu i beidio byth â dod i ben.

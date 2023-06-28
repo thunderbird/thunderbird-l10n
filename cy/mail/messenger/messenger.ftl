@@ -178,13 +178,13 @@ menu-edit-undelete-messages =
     .accesskey = a
 menu-edit-properties =
     .label = Priodweddau
-    .accesskey = o
+    .accesskey = P
 menu-edit-folder-properties =
     .label = Priodweddau Ffolderi
-    .accesskey = o
+    .accesskey = P
 menu-edit-newsgroup-properties =
     .label = Priodweddau Grŵp Newyddion
-    .accesskey = o
+    .accesskey = P
 
 ## Message Menu
 
