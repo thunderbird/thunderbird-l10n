@@ -96,6 +96,15 @@ menu-edit-undelete-messages =
            *[other] Díscrios Teachtaireachtaí Roghnaithe
         }
     .accesskey = D
+menu-edit-properties =
+    .label = Airíonna
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Airíonna Fillteáin
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Airíonna an Ghrúpa Nuachta
+    .accesskey = o
 
 ## Message Menu
 
