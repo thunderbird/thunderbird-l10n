@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Ikonoak bakarrik
 customize-button-style-text-only =
     .label = Testua bakarrik
+customize-button-style-icons-beside-text-option = Ikonoak testuaren ondoan
 customize-cancel = Utzi
 customize-save = Gorde
 customize-unsaved-changes = Gorde gabeko aldaketak beste guneetan
