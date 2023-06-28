@@ -165,14 +165,14 @@ menu-edit-undelete-messages =
         }
     .accesskey = R
 menu-edit-properties =
-    .label = Propriétés du dossier
-    .accesskey = o
+    .label = Propriétés
+    .accesskey = P
 menu-edit-folder-properties =
     .label = Propriétés du dossier
-    .accesskey = o
+    .accesskey = P
 menu-edit-newsgroup-properties =
     .label = Propriétés du groupe
-    .accesskey = o
+    .accesskey = P
 
 ## Message Menu
 
