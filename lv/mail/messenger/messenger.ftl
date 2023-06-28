@@ -63,6 +63,15 @@ menu-edit-undelete-messages =
            *[other] Atdzēst atlasītās vēstules
         }
     .accesskey = A
+menu-edit-properties =
+    .label = Īpašības
+    .accesskey = Z
+menu-edit-folder-properties =
+    .label = Mapes īpašības
+    .accesskey = Z
+menu-edit-newsgroup-properties =
+    .label = Ziņu grupas īpašības
+    .accesskey = Z
 
 ## Message Menu
 
