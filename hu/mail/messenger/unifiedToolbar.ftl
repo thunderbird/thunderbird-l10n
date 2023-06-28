@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Csak ikonok
 customize-button-style-text-only =
     .label = Csak szöveg
+customize-button-style-icons-beside-text-option = Ikonok a szöveg mellett
 customize-cancel = Mégse
 customize-save = Mentés
 customize-unsaved-changes = Nem mentett módosítások más helyeken
