@@ -188,6 +188,9 @@ about-addressbook-confirm-delete-contacts =
         [one] Haluatko varmasti poistaa yhteyshenkilön { $name }?
        *[other] Haluatko varmasti poistaa nämä { $count } yhteyshenkilöä?
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Haluatko varmasti poistaa yhteystiedon { $name }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list

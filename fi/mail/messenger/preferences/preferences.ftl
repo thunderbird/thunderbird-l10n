@@ -322,6 +322,7 @@ quoted-text-color =
 search-handler-table =
     .placeholder = Suodata sisältötyypit ja toiminnot
 type-column-header = Sisältötyyppi
+action-column-header = Toiminto
 save-to-label =
     .label = Tallenna kansioon
     .accesskey = T
@@ -605,8 +606,15 @@ security-devices-button =
 email-e2ee-header = Sähköpostin päästä päähän -salaus
 account-settings = Tilin asetukset
 email-e2ee-automatism = Automaattinen salauksen käyttö
+email-e2ee-automatism-pre =
+    { -brand-short-name } voi auttaa ottamalla salauksen automaattisesti käyttöön tai poistamalla sen käytöstä sähköpostin kirjoittamisen aikana.
+    Automaattinen käyttöönotto ja poistaminen käytöstä perustuu kelvollisten sekä hyväksyttyjen vastaanottajien avainten tai varmenteiden saatavuuteen.
 email-e2ee-auto-on =
     .label = Ota salaus käyttöön automaattisesti, kun mahdollista
+email-e2ee-auto-off =
+    .label = Poista salaus automaattisesti käytöstä, kun vastaanottajat vaihtuvat ja salaus ei ole enää mahdollista
+email-e2ee-auto-off-notify =
+    .label = Näytä ilmoitus aina, kun salaus poistetaan automaattisesti käytöstä
 
 ## Chat Tab
 
@@ -706,12 +714,16 @@ search-results-help-link = Tarvitsetko apua? Vieraile <a data-l10n-name="url">{ 
 
 ## Sync Tab
 
+sync-signedout-caption = Ota verkko mukaasi
 sync-signedout-description = Synkronoi tilit, osoitekirjat, kalenterit, lisäosat ja asetukset kaikilla laitteillasi.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Kirjaudu synkronoidaksesi…
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = Sähköpostiosoitetta “{ $userEmail }” ei ole vahistettu.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Kirjaudu sisään palauttaaksesi osoitteen { $userEmail } yhteyden
 sync-pane-resend-verification = Lähetä vahvistus uudestaan
 sync-pane-sign-in = Kirjaudu sisään
 sync-pane-remove-account = Poista tili

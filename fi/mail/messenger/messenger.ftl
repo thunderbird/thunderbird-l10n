@@ -33,15 +33,41 @@ content-tab-security-broken-icon =
 
 # Back
 
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Edellinen
+    .accesskey = E
 
 # Forward
 
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Seuraava
+    .accesskey = S
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Lataa sivu uudelleen
+    .aria-label = Lataa uudelleen
+    .accesskey = d
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Lataa sivu uudelleen
+    .label = Lataa uudelleen
+    .accesskey = d
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Pysäytä sivun lataaminen
+    .aria-label = Pysäytä
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Pysäytä sivun lataaminen
+    .label = Pysäytä
+    .accesskey = S
 
 ## Toolbar
 
@@ -195,6 +221,9 @@ message-header-show-sender-full-address-description = Sähköpostiosoite näytet
 message-header-show-recipient-avatar =
     .label = Näytä lähettäjän profiilikuva
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Suurempi profiilikuva
+    .accesskey = f
 message-header-all-headers =
     .label = Näytä kaikki otsakkeet
     .accesskey = a
@@ -234,9 +263,6 @@ no-reply-reply-anyway-button = Vastaa silti
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures = { $failures }/{ $total } viestin salausta ei voitu purkaa, joten niitä ei kopioitu.
 
 ## Spaces toolbar
