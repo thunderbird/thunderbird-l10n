@@ -163,6 +163,15 @@ menu-edit-undelete-messages =
            *[other] 恢复所选的消息
         }
     .accesskey = d
+menu-edit-properties =
+    .label = 属性
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = 文件夹属性
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = 新闻组属性
+    .accesskey = o
 
 ## Message Menu
 
