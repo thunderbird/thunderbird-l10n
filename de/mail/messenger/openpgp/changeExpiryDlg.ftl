@@ -4,19 +4,19 @@
 
 openpgp-change-key-expiry-title =
     .title = Ablaufdatum des Schlüssels ändern
-
+openpgp-change-expiry-title = Ablaufdatum des Schlüssels ändern
 info-will-expire = Der Schlüssel ist derzeit so konfiguriert, dass er am { $date } abläuft.
 info-already-expired = Der Schlüssel ist bereits abgelaufen.
 info-does-not-expire = Der Schlüssel ist derzeit so konfiguriert, dass er nie abläuft.
-
 info-explanation-1 = <b>Nachdem ein Schlüssel abläuft</b>, kann er nicht mehr für Verschlüsselung und digitale Unterschriften verwendet werden.
-
 info-explanation-2 = Um diesen Schlüssel länger verwenden zu können, ändern Sie das Ablaufdatum und teilen Sie den Schlüssel erneut mit Ihren Kommunikationspartnern.
-
 expire-dont-change =
-  .label = Ablaufdatum nicht ändern
+    .label = Ablaufdatum nicht ändern
 expire-never-label =
-  .label = Schlüssel läuft nie ab
+    .label = Schlüssel läuft nie ab
 expire-in-label =
-  .label = Schlüssel läuft ab in:
+    .label = Schlüssel läuft ab in:
 expire-in-months = Monaten
+expire-no-change-label = Ablaufdatum nicht ändern
+expire-in-time-label = Schlüssel läuft ab in:
+expire-never-expire-label = Schlüssel läuft nie ab
