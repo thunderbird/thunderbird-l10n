@@ -20,6 +20,7 @@ customize-space-tab-calendar = Каляндар
     .title = Каляндар
 customize-button-style-icons-beside-text =
     .label = Значкі з тэкстам
+customize-button-style-icons-beside-text-option = Значкі з тэкстам
 
 ## Unified toolbar customization palette context menu
 
