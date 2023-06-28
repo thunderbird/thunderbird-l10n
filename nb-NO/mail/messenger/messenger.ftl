@@ -93,6 +93,15 @@ menu-edit-undelete-messages =
            *[other] Angre valgte meldinger
         }
     .accesskey = g
+menu-edit-properties =
+    .label = Egenskaper
+    .accesskey = N
+menu-edit-folder-properties =
+    .label = Mappeegenskaper
+    .accesskey = N
+menu-edit-newsgroup-properties =
+    .label = Nyhetsgruppe-innstillinger
+    .accesskey = N
 
 ## Message Menu
 
