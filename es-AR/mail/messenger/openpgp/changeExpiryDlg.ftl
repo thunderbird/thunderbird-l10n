@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Cambiar vencimiento de la clave
-
+openpgp-change-expiry-title = Cambiar vencimiento de la clave
 info-will-expire = Esta clave está actualmente configurada para expirar el { $date }.
 info-already-expired = Esta clave ya caducó.
 info-does-not-expire = Esta clave está actualmente configurada para no expirar nunca.
-
 info-explanation-1 = <b>Después del vencimiento de una clave</b>, ya no será posible usarla para cifrado o firma digital.
-
 info-explanation-2 = Para usar esta clave durante un período de tiempo más largo, cambie la fecha de vencimiento y comparta la clave pública con sus compañeros de conversación de nuevo.
-
 expire-dont-change =
     .label = No cambiar la fecha de vencimiento.
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = La clave expirará en:
 expire-in-months = Meses
+expire-no-change-label = No cambiar la fecha de vencimiento.
+expire-in-time-label = La clave expirará en:
+expire-never-expire-label = La clave nunca expirará
