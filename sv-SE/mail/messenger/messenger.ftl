@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Ångra borttagning av valda meddelanden
         }
     .accesskey = n
+menu-edit-properties =
+    .label = Egenskaper
+    .accesskey = E
+menu-edit-folder-properties =
+    .label = Mappegenskaper
+    .accesskey = E
+menu-edit-newsgroup-properties =
+    .label = Diskussionsgruppsegenskaper
+    .accesskey = E
 
 ## Message Menu
 
