@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Ìomhaigheagan ri taobh an teacsa
+customize-button-style-icons-beside-text-option = Ìomhaigheagan ri taobh an teacsa
 
 ## Unified toolbar customization palette context menu
 
