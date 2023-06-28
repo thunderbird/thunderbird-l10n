@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Taq wachib'äl chuchi' Tz'ib'atzij
+customize-button-style-icons-beside-text-option = Taq wachib'äl chuchi' Tz'ib'atzij
 
 ## Unified toolbar customization palette context menu
 
