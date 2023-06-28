@@ -62,6 +62,15 @@ menu-edit-undelete-messages =
            *[other] Vrati odabrane izbrisane poruke
         }
     .accesskey = d
+menu-edit-properties =
+    .label = Svojstva
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Svojstva direktorija
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Svojstva novinske grupe
+    .accesskey = o
 
 ## Message Menu
 
