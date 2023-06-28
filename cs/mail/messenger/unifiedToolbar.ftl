@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Pouze ikony
 customize-button-style-text-only =
     .label = Pouze text
+customize-button-style-icons-beside-text-option = Ikony vedle textu
 customize-cancel = Zrušit
 customize-save = Uložit
 customize-unsaved-changes = Neuložené změny v jiných panelech
