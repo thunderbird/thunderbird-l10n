@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Zmeniť platnosť kľúča
-
+openpgp-change-expiry-title = Zmeniť platnosť kľúča
 info-will-expire = Platnosť tohto kľúča je momentálne nastavená tak, aby vypršala dňa { $date }.
 info-already-expired = Platnosť tohto kľúča už vypršala.
 info-does-not-expire = Tento kľúč je momentálne nastavený tak, aby nikdy nevypršal.
-
 info-explanation-1 = <b>Po uplynutí platnosti kľúča</b> ho už nie je možné použiť na šifrovanie alebo digitálne podpisovanie.
-
 info-explanation-2 = Ak chcete tento kľúč používať dlhšiu dobu, zmeňte jeho dátum vypršania platnosti a potom znova zdieľajte verejný kľúč so svojimi partnermi pre konverzáciu.
-
 expire-dont-change =
     .label = Nemeniť dátum platnosti
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Platnosť kľúča vyprší za:
 expire-in-months = Mesiacov
+expire-no-change-label = Nemeniť dátum platnosti
+expire-in-time-label = Platnosť kľúča vyprší za:
+expire-never-expire-label = Platnosť kľúča nikdy nevyprší
