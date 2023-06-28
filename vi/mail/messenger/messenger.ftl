@@ -163,6 +163,15 @@ menu-edit-undelete-messages =
            *[other] Không xóa thư đã chọn
         }
     .accesskey = d
+menu-edit-properties =
+    .label = Thuộc tính
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Thuộc tính thư mục
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Thuộc tính nhóm tin
+    .accesskey = o
 
 ## Message Menu
 
