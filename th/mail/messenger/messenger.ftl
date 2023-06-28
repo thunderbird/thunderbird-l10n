@@ -117,6 +117,15 @@ menu-edit-undelete-messages =
            *[other] เลิกลบข้อความที่เลือก
         }
     .accesskey = เ
+menu-edit-properties =
+    .label = คุณสมบัติ
+    .accesskey = ค
+menu-edit-folder-properties =
+    .label = คุณสมบัติโฟลเดอร์
+    .accesskey = ค
+menu-edit-newsgroup-properties =
+    .label = คุณสมบัติกลุ่มข่าว
+    .accesskey = ค
 
 ## Message Menu
 
