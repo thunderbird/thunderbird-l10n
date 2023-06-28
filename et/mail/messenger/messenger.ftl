@@ -123,6 +123,15 @@ menu-edit-undelete-messages =
            *[other] Taasta valitud kirjad
         }
     .accesskey = T
+menu-edit-properties =
+    .label = Omadused
+    .accesskey = e
+menu-edit-folder-properties =
+    .label = Kausta omadused
+    .accesskey = e
+menu-edit-newsgroup-properties =
+    .label = Uudistegrupi omadused
+    .accesskey = e
 
 ## Message Menu
 
