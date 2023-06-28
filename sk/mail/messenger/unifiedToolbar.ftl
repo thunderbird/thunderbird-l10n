@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Iba ikony
 customize-button-style-text-only =
     .label = Iba text
+customize-button-style-icons-beside-text-option = Ikony vedľa textu
 customize-cancel = Zrušiť
 customize-save = Uložiť
 customize-unsaved-changes = Neuložené zmeny pre iné karty
