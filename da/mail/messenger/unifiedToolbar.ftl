@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Kun ikoner
 customize-button-style-text-only =
     .label = Kun tekst
+customize-button-style-icons-beside-text-option = Ikoner ved siden af tekst
 customize-cancel = Annuller
 customize-save = Gem
 customize-unsaved-changes = Ugemte ændringer i andre områder
