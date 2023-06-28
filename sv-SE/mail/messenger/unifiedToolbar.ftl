@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Endast ikoner
 customize-button-style-text-only =
     .label = Endast text
+customize-button-style-icons-beside-text-option = Text bredvid ikoner
 customize-cancel = Avbryt
 customize-save = Spara
 customize-unsaved-changes = Osparade ändringar i andra utrymmen
