@@ -28,20 +28,20 @@
    - This label and tooltip is used for the column with the checkbox in the
    - task tree view. -->
 <!ENTITY calendar.unifinder.tree.done.label                "Concluída">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Ordenar por finalização">
+<!ENTITY calendar.unifinder.tree.done.tooltip2             "Ordenar por conclusão">
 <!ENTITY calendar.unifinder.tree.priority.label            "Prioridade">
 <!ENTITY calendar.unifinder.tree.priority.tooltip2         "Ordenar por prioridade">
 <!ENTITY calendar.unifinder.tree.title.label               "Título">
 <!ENTITY calendar.unifinder.tree.title.tooltip2            "Ordenar por título">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; completada">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Ordenar por &#037; completo">
+<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; conclusão">
+<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Ordenar por &#037; conclusão">
 <!ENTITY calendar.unifinder.tree.startdate.label           "Início">
 <!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Ordenar por data de início">
 <!ENTITY calendar.unifinder.tree.enddate.label             "Fim">
 <!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Ordenar por data de término">
 <!ENTITY calendar.unifinder.tree.duedate.label             "Prazo">
 <!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Ordenar pelo prazo">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Concluída">
+<!ENTITY calendar.unifinder.tree.completeddate.label       "Conclusão">
 <!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Ordenar por data de conclusão">
 <!ENTITY calendar.unifinder.tree.categories.label          "Categoria">
 <!ENTITY calendar.unifinder.tree.categories.tooltip2       "Ordenar por categoria">
@@ -53,10 +53,10 @@
 <!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Ordenar por nome da agenda">
 <!ENTITY calendar.unifinder.tree.duration.label            "Vencimento">
 <!ENTITY calendar.unifinder.tree.duration.tooltip2         "Ordenar por tempo até o vencimento">
-<!ENTITY calendar.unifinder.close.tooltip                  "Fecha a busca e a lista de eventos">
+<!ENTITY calendar.unifinder.close.tooltip                  "Fechar busca e lista de eventos">
 
-<!ENTITY calendar.today.button.tooltip          "Vai para hoje" >
-<!ENTITY calendar.todaypane.button.tooltip      "Exibe painel hoje" >
+<!ENTITY calendar.today.button.tooltip          "Ir para hoje" >
+<!ENTITY calendar.todaypane.button.tooltip      "Exibir painel hoje" >
 
 <!ENTITY calendar.day.button.tooltip            "Mudar para visão do dia" >
 <!ENTITY calendar.week.button.tooltip           "Mudar para visão da semana" >
@@ -66,22 +66,22 @@
 <!ENTITY calendar.nextday.label                 "Próximo dia" >
 <!ENTITY calendar.prevday.label                 "Dia anterior" >
 <!ENTITY calendar.nextday.accesskey             "x" >
-<!ENTITY calendar.prevday.accesskey             "s" >
+<!ENTITY calendar.prevday.accesskey             "n" >
 <!ENTITY calendar.nextweek.label                "Próxima semana" >
 <!ENTITY calendar.prevweek.label                "Semana anterior" >
 <!ENTITY calendar.nextweek.accesskey            "x" >
-<!ENTITY calendar.prevweek.accesskey            "S" >
+<!ENTITY calendar.prevweek.accesskey            "n" >
 <!ENTITY calendar.nextmonth.label               "Próximo mês" >
 <!ENTITY calendar.prevmonth.label               "Mês anterior" >
 <!ENTITY calendar.nextmonth.accesskey           "x" >
-<!ENTITY calendar.prevmonth.accesskey           "s" >
+<!ENTITY calendar.prevmonth.accesskey           "n" >
 
-<!ENTITY calendar.navigation.nextday.tooltip    "Avança um dia" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Recua um dia" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Avança uma semana" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Recua uma semana" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Avança um mês" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Recua um mês" >
+<!ENTITY calendar.navigation.nextday.tooltip    "Avançar um dia" >
+<!ENTITY calendar.navigation.prevday.tooltip    "Recuar um dia" >
+<!ENTITY calendar.navigation.nextweek.tooltip   "Avançar uma semana" >
+<!ENTITY calendar.navigation.prevweek.tooltip   "Recuar uma semana" >
+<!ENTITY calendar.navigation.nextmonth.tooltip  "Avançar um mês" >
+<!ENTITY calendar.navigation.prevmonth.tooltip  "Recuar um mês" >
 
 <!ENTITY calendar.newevent.button.label         "Novo evento" >
 <!ENTITY calendar.newtask.button.label          "Nova tarefa" >
@@ -90,6 +90,7 @@
 <!ENTITY calendar.week.button.label             "Semana" >
 <!ENTITY calendar.month.button.label            "Mês" >
 <!ENTITY calendar.multiweek.button.label        "Semanal" >
+
 <!ENTITY calendar.onlyworkday.checkbox.label    "Somente dias úteis" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "o" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Ver tarefas" >
@@ -98,7 +99,7 @@
 <!ENTITY calendar.completedtasks.checkbox.accesskey "c" >
 
 <!ENTITY calendar.orientation.label "Alternar visão" >
-<!ENTITY calendar.orientation.accesskey "G" >
+<!ENTITY calendar.orientation.accesskey "t" >
 
 <!ENTITY calendar.search.options.searchfor " contém">
 
@@ -117,8 +118,8 @@
 <!ENTITY calendar.task.filter.overdue.accesskey     "v">
 <!ENTITY calendar.task.filter.completed.label       "Tarefas concluídas">
 <!ENTITY calendar.task.filter.completed.accesskey   "c">
-<!ENTITY calendar.task.filter.open.label            "Tarefas incompletas">
-<!ENTITY calendar.task.filter.open.accesskey        "i">
+<!ENTITY calendar.task.filter.open.label            "Tarefas não concluídas">
+<!ENTITY calendar.task.filter.open.accesskey        "n">
 
 <!-- LOCALIZATION NOTE(calendar.task.filter.current.label)
      "Current Tasks" will show all tasks, except those with a start date set
@@ -136,7 +137,7 @@
 <!ENTITY calendar.task-details.priority.high.label   "Alta">
 <!ENTITY calendar.task-details.status.label          "estado">
 <!ENTITY calendar.task-details.category.label        "categoria">
-<!ENTITY calendar.task-details.repeat.label          "repete">
+<!ENTITY calendar.task-details.repeat.label          "repetir">
 <!ENTITY calendar.task-details.attachments.label     "anexos">
 <!ENTITY calendar.task-details.start.label           "data inicial">
 <!ENTITY calendar.task-details.due.label             "data de conclusão">
