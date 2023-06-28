@@ -170,6 +170,15 @@ menu-edit-undelete-messages =
            *[other] Razveljavi izbris izbranih sporočil
         }
     .accesskey = R
+menu-edit-properties =
+    .label = Lastnosti
+    .accesskey = L
+menu-edit-folder-properties =
+    .label = Lastnosti mape
+    .accesskey = L
+menu-edit-newsgroup-properties =
+    .label = Lastnosti novičarske skupine …
+    .accesskey = L
 
 ## Message Menu
 
