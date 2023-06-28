@@ -123,6 +123,15 @@ menu-edit-undelete-messages =
            *[other] Յետարկել ընտրուած նամակների ջնջումը
         }
     .accesskey = ր
+menu-edit-properties =
+    .label = Յատկութիւններ...
+    .accesskey = տ
+menu-edit-folder-properties =
+    .label = Թղթապանակի յատկութիւնները
+    .accesskey = տ
+menu-edit-newsgroup-properties =
+    .label = Տեղեկատուախմբերի յատկութիւնները
+    .accesskey = տ
 
 ## Message Menu
 
