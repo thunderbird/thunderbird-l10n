@@ -98,6 +98,15 @@ menu-edit-undelete-messages =
            *[other] Man Keyuj Cha'on taq Tzijol
         }
     .accesskey = y
+menu-edit-properties =
+    .label = Taq ichinil
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Kichinil Yakwuj
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Kichinil Kimolaj Tzijol
+    .accesskey = o
 
 ## Message Menu
 
