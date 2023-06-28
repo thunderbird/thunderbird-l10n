@@ -161,6 +161,15 @@ menu-edit-undelete-messages =
            *[other] Çfshiji Mesazhet e Përzgjedhur
         }
     .accesskey = Ç
+menu-edit-properties =
+    .label = Veti
+    .accesskey = v
+menu-edit-folder-properties =
+    .label = Veti Dosjeje
+    .accesskey = v
+menu-edit-newsgroup-properties =
+    .label = Veti Grupi Lajmesh
+    .accesskey = v
 
 ## Message Menu
 
