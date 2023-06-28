@@ -30,6 +30,7 @@ customize-space-tab-settings = Settings
     .title = Settings
 customize-button-style-icons-beside-text =
     .label = Icons beside Text
+customize-button-style-icons-beside-text-option = Icons beside Text
 
 ## Unified toolbar customization palette context menu
 
