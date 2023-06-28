@@ -170,6 +170,9 @@ menu-edit-properties =
 menu-edit-folder-properties =
     .label = Propiedades do cartafol
     .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Propiedades do grupo de noticias
+    .accesskey = o
 
 ## Message Menu
 
