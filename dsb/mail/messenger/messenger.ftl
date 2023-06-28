@@ -166,6 +166,15 @@ menu-edit-undelete-messages =
            *[other] Wubrane powěsći wótnowiś
         }
     .accesskey = o
+menu-edit-properties =
+    .label = Kakosći
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Kakosći zarědnika
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Kakosći diskusijneje kupki
+    .accesskey = o
 
 ## Message Menu
 
