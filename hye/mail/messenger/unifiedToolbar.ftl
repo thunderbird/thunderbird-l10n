@@ -30,6 +30,7 @@ customize-space-tab-settings = Կարգաւորումներ
     .title = Կարգաւորումներ
 customize-button-style-icons-beside-text =
     .label = Պատկերները գրոյթի կողքին
+customize-button-style-icons-beside-text-option = Պատկերները գրոյթի կողքին
 
 ## Unified toolbar customization palette context menu
 
