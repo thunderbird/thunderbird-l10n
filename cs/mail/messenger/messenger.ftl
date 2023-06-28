@@ -167,6 +167,15 @@ menu-edit-undelete-messages =
            *[other] Obnovit vybrané smazané zprávy
         }
     .accesskey = n
+menu-edit-properties =
+    .label = Vlastnosti
+    .accesskey = l
+menu-edit-folder-properties =
+    .label = Vlastnosti složky
+    .accesskey = l
+menu-edit-newsgroup-properties =
+    .label = Vlastnosti diskusní skupiny
+    .accesskey = l
 
 ## Message Menu
 
