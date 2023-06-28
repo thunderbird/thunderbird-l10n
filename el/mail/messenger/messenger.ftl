@@ -164,6 +164,12 @@ menu-edit-undelete-messages =
            *[other] Αναίρεση διαγραφής επιλεγμένων μηνυμάτων
         }
     .accesskey = ν
+menu-edit-properties =
+    .label = Ιδιότητες
+    .accesskey = δ
+menu-edit-folder-properties =
+    .label = Ιδιότητες φακέλου
+    .accesskey = δ
 
 ## Message Menu
 
