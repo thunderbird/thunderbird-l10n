@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = ไอคอนเท่านั้น
 customize-button-style-text-only =
     .label = ข้อความเท่านั้น
+customize-button-style-icons-beside-text-option = ไอคอนข้างข้อความ
 customize-cancel = ยกเลิก
 customize-save = บันทึก
 customize-unsaved-changes = มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกในพื้นที่อื่นๆ
