@@ -30,6 +30,7 @@ customize-space-tab-settings = Innstillingar
     .title = Innstillingar
 customize-button-style-icons-beside-text =
     .label = Ikon ved sida av teksten
+customize-button-style-icons-beside-text-option = Ikon ved sida av teksten
 
 ## Unified toolbar customization palette context menu
 
