@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Kijelölt üzenetek visszaállítása
         }
     .accesskey = v
+menu-edit-properties =
+    .label = Tulajdonságok
+    .accesskey = T
+menu-edit-folder-properties =
+    .label = Mappa tulajdonságai
+    .accesskey = T
+menu-edit-newsgroup-properties =
+    .label = Hírcsoport tulajdonságai
+    .accesskey = T
 
 ## Message Menu
 
