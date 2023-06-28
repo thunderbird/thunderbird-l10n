@@ -189,6 +189,10 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Þjöppuð sýn
     .accesskey = Þ
+folder-pane-mode-move-up =
+    .label = Færa upp
+folder-pane-mode-move-down =
+    .label = Færa niður
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =
