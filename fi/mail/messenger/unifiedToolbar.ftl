@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Vain kuvakkeet
 customize-button-style-text-only =
     .label = Vain teksti
+customize-button-style-icons-beside-text-option = Kuvakkeet tekstin vieressä
 customize-cancel = Peruuta
 customize-save = Tallenna
 customize-main-toolbar-target =
