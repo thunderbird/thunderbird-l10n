@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Jenož symbole
 customize-button-style-text-only =
     .label = Jenož tekst
+customize-button-style-icons-beside-text-option = Symbole a tekst
 customize-cancel = Přetorhnyć
 customize-save = Składować
 customize-unsaved-changes = Njeskładowane změny w druhich rumach
