@@ -62,6 +62,15 @@ menu-edit-undelete-messages =
            *[other] Batal buang Mesej yang Dipilih
         }
     .accesskey = b
+menu-edit-properties =
+    .label = Sifat
+    .accesskey = u
+menu-edit-folder-properties =
+    .label = Sifat Folder
+    .accesskey = u
+menu-edit-newsgroup-properties =
+    .label = Sifat Kumpulan berita
+    .accesskey = u
 
 ## Message Menu
 
