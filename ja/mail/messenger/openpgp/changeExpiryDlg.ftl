@@ -19,3 +19,6 @@ expire-never-label =
 expire-in-label =
     .label = 有効期限を次の期間までにする:
 expire-in-months = か月間
+expire-no-change-label = 有効期限を変更しない
+expire-in-time-label = 有効期限を次の期間までにする:
+expire-never-expire-label = 有効期限を無期限にする
