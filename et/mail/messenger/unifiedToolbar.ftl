@@ -31,6 +31,7 @@ customize-space-tab-settings = Sätted
     .title = Sätted
 customize-button-style-icons-beside-text =
     .label = Ikoonid teksti kõrval
+customize-button-style-icons-beside-text-option = Ikoonid teksti kõrval
 
 ## Unified toolbar customization palette context menu
 
