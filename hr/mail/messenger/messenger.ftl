@@ -124,6 +124,15 @@ menu-edit-undelete-messages =
            *[other] Vrati odabrane poruke
         }
     .accesskey = r
+menu-edit-properties =
+    .label = Postavke
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Postavke mape
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Postavke interesne grupe
+    .accesskey = o
 
 ## Message Menu
 
