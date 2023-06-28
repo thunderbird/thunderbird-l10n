@@ -47,6 +47,7 @@ customize-button-style-icons-beside-text =
     .label = Tigiiniyin n daw uḍris
 customize-button-style-text-only =
     .label = Aḍris kan
+customize-button-style-icons-beside-text-option = Tigiiniyin n daw uḍris
 customize-cancel = Sefsex
 customize-save = Sekles
 customize-spaces-tabs =
