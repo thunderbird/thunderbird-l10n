@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Jildichheidsdoer fan kaai wizigje
-
+openpgp-change-expiry-title = Jildichheidsdoer fan kaai wizigje
 info-will-expire = Dizze kaai is op it stuit konfigurearre om te ferfallen op { $date }.
 info-already-expired = Dizze kaai is al ferfallen.
 info-does-not-expire = Dizze kaai is op it stuit konfigurearre om nea te ferfallen.
-
 info-explanation-1 = <b>Neidat in kaai ferrûn is</b>, is it net mooglik dizze nochris te brûken foar fersifering of digitale ûndertekening.
-
 info-explanation-2 = As jo dizze kaai foar in langere perioade brûke wolle, wizigje dan de ferrindatum en diel jo iepenbiere kaai opnij mei jo petearpartners.
-
 expire-dont-change =
     .label = De ferrindatum net wizigje
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Kaai ferrint oer:
 expire-in-months = moannen
+expire-no-change-label = De ferrindatum net wizigje
+expire-in-time-label = Kaai ferrint oer:
+expire-never-expire-label = Kaai ferrint nea
