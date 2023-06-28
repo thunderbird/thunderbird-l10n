@@ -97,6 +97,15 @@ menu-edit-undelete-messages =
            *[other] בטל מחיקת הודעות נבחרות
         }
     .accesskey = ב
+menu-edit-properties =
+    .label = מאפיינים
+    .accesskey = א
+menu-edit-folder-properties =
+    .label = מאפייני תיקייה
+    .accesskey = א
+menu-edit-newsgroup-properties =
+    .label = מאפייני קבוצת חדשות
+    .accesskey = א
 
 ## Message Menu
 
