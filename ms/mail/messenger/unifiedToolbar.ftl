@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Ikon sebelah Teks
+customize-button-style-icons-beside-text-option = Ikon sebelah Teks
 
 ## Unified toolbar customization palette context menu
 
