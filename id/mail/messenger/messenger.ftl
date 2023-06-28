@@ -63,6 +63,15 @@ menu-edit-undelete-messages =
            *[other] Kembalikan Pesan yang Dipilih
         }
     .accesskey = k
+menu-edit-properties =
+    .label = Keterangan:
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Properti Folder
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Properti Newsgroup
+    .accesskey = o
 
 ## Message Menu
 
