@@ -170,6 +170,9 @@ menu-edit-properties =
 menu-edit-folder-properties =
     .label = Ιδιότητες φακέλου
     .accesskey = δ
+menu-edit-newsgroup-properties =
+    .label = Ιδιότητες ομάδας συζητήσεων
+    .accesskey = δ
 
 ## Message Menu
 
