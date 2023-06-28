@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Restaurer les messages sélectionnés
         }
     .accesskey = R
+menu-edit-properties =
+    .label = Propriétés du dossier
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Propriétés du dossier
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Propriétés du groupe
+    .accesskey = o
 
 ## Message Menu
 
