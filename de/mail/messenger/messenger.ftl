@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Löschen der gewählten Nachrichten aufheben
         }
     .accesskey = L
+menu-edit-properties =
+    .label = Eigenschaften
+    .accesskey = n
+menu-edit-folder-properties =
+    .label = Ordner-Eigenschaften
+    .accesskey = n
+menu-edit-newsgroup-properties =
+    .label = Newsgruppen-Eigenschaften
+    .accesskey = n
 
 ## Message Menu
 
