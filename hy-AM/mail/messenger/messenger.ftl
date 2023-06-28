@@ -70,6 +70,15 @@ menu-edit-undelete-messages =
            *[other] Ետարկել ընտրված նամակները
         }
     .accesskey = ր
+menu-edit-properties =
+    .label = Հատկություններ...
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Թղթ. հատկությունները
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Լուրախմբերի հատկությունը
+    .accesskey = o
 
 ## Message Menu
 
