@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Snifel tasarut n keffu
-
+openpgp-change-expiry-title = Snifel tasarut n keffu
 info-will-expire = Tasarut-a tura tettuswel akken ad temmet deg { $date }.
 info-already-expired = Tasarut-a temmut yakan.
 info-does-not-expire = Tasarut-a tura tettuswel akken ur tettmettat ara akk.
-
 info-explanation-1 = <b>Seld ad temmet tsarut</b>, d awezɣi ad tettwaseqdec deg uwgelhen neɣ deg uzmul umḍin.
-
 info-explanation-2 = I useqdec n tsarut-a i twala ɣezzifen, beddel azemz n keffu-ines, syen bḍu tasarut tazayuzt d yimdanen yettekkan deg udiwenni tikkelt-nniḍen.
-
 expire-dont-change =
     .label = Ur ttbeddil ara azemz n taggara
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Tasarut ad temmet deg:
 expire-in-months = Ayyuren
+expire-no-change-label = Ur ttbeddil ara azemz n taggara
+expire-in-time-label = Tasarut ad temmet deg:
+expire-never-expire-label = Tasarut ur tettmettat ara akk
