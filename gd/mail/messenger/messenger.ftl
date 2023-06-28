@@ -166,6 +166,15 @@ menu-edit-undelete-messages =
            *[other] Neo-dhèan sguabadh às nan teachdaireachdan
         }
     .accesskey = d
+menu-edit-properties =
+    .label = Roghainnean
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Roghainnean a' phasgain
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Roghainnean a' bhuidhinn-naidheachd
+    .accesskey = o
 
 ## Message Menu
 
