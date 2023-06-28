@@ -99,6 +99,15 @@ menu-edit-undelete-messages =
            *[other] Врати изабране обрисане поруке
         }
     .accesskey = т
+menu-edit-properties =
+    .label = Својства
+    .accesskey = о
+menu-edit-folder-properties =
+    .label = Својства фасцикле
+    .accesskey = о
+menu-edit-newsgroup-properties =
+    .label = Својства новинске групе
+    .accesskey = о
 
 ## Message Menu
 
