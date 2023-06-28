@@ -64,6 +64,15 @@ menu-edit-undelete-messages =
            *[other] Адмяніць выдаленне вылучаных лістоў
         }
     .accesskey = ы
+menu-edit-properties =
+    .label = Уласцівасці
+    .accesskey = ц
+menu-edit-folder-properties =
+    .label = Уласцівасці папкі
+    .accesskey = ц
+menu-edit-newsgroup-properties =
+    .label = Уласцівасці навінакупы
+    .accesskey = ц
 
 ## Message Menu
 
