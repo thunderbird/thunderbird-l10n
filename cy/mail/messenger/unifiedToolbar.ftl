@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Eiconau yn unig
 customize-button-style-text-only =
     .label = Testun yn unig
+customize-button-style-icons-beside-text-option = Eiconau gerllaw Testun
 customize-cancel = Diddymu
 customize-save = Cadw
 customize-unsaved-changes = Newidiadau heb eu cadw mewn mannau eraill
