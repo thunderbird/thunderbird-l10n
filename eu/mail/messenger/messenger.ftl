@@ -161,6 +161,15 @@ menu-edit-undelete-messages =
            *[other] Desezabatu hautatutako mezuak
         }
     .accesskey = e
+menu-edit-properties =
+    .label = Propietateak
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Karpetaren propietateak
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Berri-taldeen propietateak
+    .accesskey = o
 
 ## Message Menu
 
