@@ -90,6 +90,15 @@ menu-edit-undelete-messages =
            *[other] 선택한 메시지 삭제 취소
         }
     .accesskey = d
+menu-edit-properties =
+    .label = 속성…
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = 폴더 속성…
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = 뉴스 그룹 속성…
+    .accesskey = o
 
 ## Message Menu
 
