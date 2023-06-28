@@ -18,6 +18,7 @@ customize-menu-customize =
 
 customize-button-style-icons-beside-text =
     .label = Pictograme alăturate textului
+customize-button-style-icons-beside-text-option = Pictograme alăturate textului
 
 ## Unified toolbar customization palette context menu
 
