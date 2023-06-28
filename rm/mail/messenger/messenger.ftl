@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Restaurar ils messadis marcads
         }
     .accesskey = R
+menu-edit-properties =
+    .label = Caracteristicas
+    .accesskey = r
+menu-edit-folder-properties =
+    .label = Caracteristicas da l'ordinatur
+    .accesskey = r
+menu-edit-newsgroup-properties =
+    .label = Caracteristicas da la gruppa da discussiun
+    .accesskey = r
 
 ## Message Menu
 
