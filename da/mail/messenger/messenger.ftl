@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Fortryd sletning af valgte meddelelser
         }
     .accesskey = G
+menu-edit-properties =
+    .label = Egenskaber
+    .accesskey = E
+menu-edit-folder-properties =
+    .label = Mappeegenskaber
+    .accesskey = E
+menu-edit-newsgroup-properties =
+    .label = Nyhedsgruppens egenskaber
+    .accesskey = E
 
 ## Message Menu
 
