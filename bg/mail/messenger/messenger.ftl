@@ -62,6 +62,15 @@ menu-edit-undelete-messages =
            *[other] Възстановяване на изтритите писма
         }
     .accesskey = з
+menu-edit-properties =
+    .label = Свойства
+    .accesskey = о
+menu-edit-folder-properties =
+    .label = Свойства на папката
+    .accesskey = о
+menu-edit-newsgroup-properties =
+    .label = Свойства за дискусионна група
+    .accesskey = о
 
 ## Message Menu
 
