@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Zmień datę wygaśnięcia klucza
-
+openpgp-change-expiry-title = Zmień datę wygaśnięcia klucza
 info-will-expire = Ten klucz jest obecnie skonfigurowany do wygaśnięcia w dniu { $date }.
 info-already-expired = Ten klucz już wygasł.
 info-does-not-expire = Ten klucz jest obecnie skonfigurowany tak, aby nigdy nie wygasł.
-
 info-explanation-1 = <b>Po wygaśnięciu klucza</b> nie można już używać go do szyfrowania ani podpisywania cyfrowego.
-
 info-explanation-2 = Aby używać tego klucza przez dłuższy czas, zmień jego datę wygaśnięcia, a następnie ponownie udostępnij klucz publiczny swoim rozmówcom.
-
 expire-dont-change =
     .label = Nie zmieniaj daty wygaśnięcia
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Klucz wygaśnie za:
 expire-in-months = mies.
+expire-no-change-label = Nie zmieniaj daty wygaśnięcia
+expire-in-time-label = Klucz wygaśnie za:
+expire-never-expire-label = Klucz nigdy nie wygaśnie
