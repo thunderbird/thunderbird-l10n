@@ -169,10 +169,10 @@ menu-edit-properties =
     .accesskey = P
 menu-edit-folder-properties =
     .label = Proprietà cartella
-    .accesskey = P
+    .accesskey = c
 menu-edit-newsgroup-properties =
     .label = Proprietà gruppi di discussione
-    .accesskey = P
+    .accesskey = u
 
 ## Message Menu
 
