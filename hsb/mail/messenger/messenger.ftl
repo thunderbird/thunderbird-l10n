@@ -166,6 +166,15 @@ menu-edit-undelete-messages =
            *[other] Wubrane powěsće wobnowić
         }
     .accesskey = b
+menu-edit-properties =
+    .label = Kajkosće
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Kajkosće rjadowaka
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Kajkosće diskusijneje skupiny
+    .accesskey = o
 
 ## Message Menu
 
