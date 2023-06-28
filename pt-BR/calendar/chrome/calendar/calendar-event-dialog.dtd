@@ -27,7 +27,7 @@
 <!ENTITY newevent.status.completed.label          "Concluído em" >
 
 <!-- The following entity is for New Task dialog only -->
-<!ENTITY newtodo.percentcomplete.label      "&#037; completada">
+<!ENTITY newtodo.percentcomplete.label      "&#037; concluído">
 
 <!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label,
      event.attendees.disallowcounter.label)
@@ -43,15 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Indica que você não aceitará contrapropostas">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
-
-<!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -93,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Excluir…">
 <!ENTITY  event.menu.item.delete.accesskey                "E">
-<!ENTITY  event.menu.item.page.setup.label                "Configuração de página">
-<!ENTITY  event.menu.item.page.setup.accesskey            "C">
-<!ENTITY  event.menu.item.print.label                     "Imprimir">
-<!ENTITY  event.menu.item.print.accesskey                 "I">
 
 <!ENTITY  event.menu.edit.label                           "Editar">
 <!ENTITY  event.menu.edit.accesskey                       "E">
@@ -121,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "B">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Personalizar…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "P">
-<!ENTITY  event.menu.view.showlink.label                  "Exibir atalho relacionado">
-<!ENTITY  event.menu.view.showlink.accesskey              "E">
 
 <!ENTITY  event.menu.options.label                            "Opções">
 <!ENTITY  event.menu.options.accesskey                        "O">

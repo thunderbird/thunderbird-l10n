@@ -308,7 +308,7 @@
 <!ENTITY calendar.context.convertmenu.task.label         "Tarefa…">
 <!ENTITY calendar.context.convertmenu.task.accesskey     "T">
 
-<!ENTITY calendar.tasks.view.minimonth.label           "Minimês">
+<!ENTITY calendar.tasks.view.minimonth.label           "Mini-mês">
 <!ENTITY calendar.tasks.view.minimonth.accesskey       "i">
 
 <!ENTITY calendar.tasks.view.calendarlist.label        "Lista de agendas">
