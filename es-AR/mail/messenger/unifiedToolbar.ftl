@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Sólo íconos
 customize-button-style-text-only =
     .label = Sólo texto
+customize-button-style-icons-beside-text-option = Íconos a un lado del texto
 customize-cancel = Cancelar
 customize-save = Guardar
 customize-unsaved-changes = Hay cambios no guardados en otros espacios
