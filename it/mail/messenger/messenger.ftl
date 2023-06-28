@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Ripristina messaggi selezionati
         }
     .accesskey = i
+menu-edit-properties =
+    .label = Proprietà
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Proprietà cartella
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Proprietà gruppi di discussione
+    .accesskey = o
 
 ## Message Menu
 
