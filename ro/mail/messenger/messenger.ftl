@@ -66,6 +66,15 @@ menu-edit-undelete-messages =
            *[other] Recuperează mesajele selectate
         }
     .accesskey = j
+menu-edit-properties =
+    .label = Proprietăți
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Proprietăți dosar
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Proprietăți grup de discuții
+    .accesskey = o
 
 ## Message Menu
 
