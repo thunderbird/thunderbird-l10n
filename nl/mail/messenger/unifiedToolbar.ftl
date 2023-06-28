@@ -53,6 +53,7 @@ customize-button-style-icons-only =
     .label = Alleen pictogrammen
 customize-button-style-text-only =
     .label = Alleen tekst
+customize-button-style-icons-beside-text-option = Pictogrammen naast tekst
 customize-cancel = Annuleren
 customize-save = Opslaan
 customize-unsaved-changes = Niet-opgeslagen wijzigingen in andere functies
