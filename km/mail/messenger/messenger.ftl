@@ -62,6 +62,15 @@ menu-edit-undelete-messages =
            *[other] Ետարկել ընտրված նամակները
         }
     .accesskey = d
+menu-edit-properties =
+    .label = លក្ខណសម្បត្តិ
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = លក្ខណសម្បត្តិ​ថត
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = លក្ខណសម្បត្តិ​វេទិកា​ព័ត៌មាន…
+    .accesskey = o
 
 ## Message Menu
 
