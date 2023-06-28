@@ -98,6 +98,15 @@ menu-edit-undelete-messages =
            *[other] Atšaukti pažymėtų laiškų šalinimą
         }
     .accesskey = t
+menu-edit-properties =
+    .label = Savybės
+    .accesskey = v
+menu-edit-folder-properties =
+    .label = Aplanko savybės
+    .accesskey = v
+menu-edit-newsgroup-properties =
+    .label = Naujienų grupės savybės
+    .accesskey = v
 
 ## Message Menu
 
