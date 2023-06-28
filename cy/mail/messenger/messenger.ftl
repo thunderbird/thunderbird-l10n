@@ -176,6 +176,12 @@ menu-edit-undelete-messages =
            *[other] Dad-ddileu'r Negeseuon Hyn
         }
     .accesskey = a
+menu-edit-properties =
+    .label = Priodweddau
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Priodweddau Grŵp Newyddion
+    .accesskey = o
 
 ## Message Menu
 
