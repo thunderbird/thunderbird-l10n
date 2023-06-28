@@ -62,6 +62,15 @@ menu-edit-undelete-messages =
            *[other] Restaurar mensaxes esbillaos
         }
     .accesskey = x
+menu-edit-properties =
+    .label = Propiedaes
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = Propiedaes de carpeta
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = Propiedaes del grupu
+    .accesskey = o
 
 ## Message Menu
 
