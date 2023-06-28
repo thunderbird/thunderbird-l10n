@@ -30,6 +30,7 @@ customize-space-tab-settings = პარამეტრები
     .title = პარამეტრები
 customize-button-style-icons-beside-text =
     .label = ხატულები ტექსტთან ერთად
+customize-button-style-icons-beside-text-option = ხატულები ტექსტთან ერთად
 
 ## Unified toolbar customization palette context menu
 
