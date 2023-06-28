@@ -169,6 +169,15 @@ menu-edit-undelete-messages =
            *[other] 選択したメッセージを削除しない
         }
     .accesskey = d
+menu-edit-properties =
+    .label = プロパティ
+    .accesskey = o
+menu-edit-folder-properties =
+    .label = フォルダーのプロパティ
+    .accesskey = o
+menu-edit-newsgroup-properties =
+    .label = ニュースグループのプロパティ
+    .accesskey = o
 
 ## Message Menu
 
