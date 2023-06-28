@@ -123,6 +123,15 @@ menu-edit-undelete-messages =
            *[other] შერჩეული წერილების აღდგენა
         }
     .accesskey = ღ
+menu-edit-properties =
+    .label = პარამეტრები
+    .accesskey = ი
+menu-edit-folder-properties =
+    .label = საქაღალდის პარამეტრები
+    .accesskey = ი
+menu-edit-newsgroup-properties =
+    .label = სიახლეების ჯგუფების პარამეტრები
+    .accesskey = ი
 
 ## Message Menu
 
