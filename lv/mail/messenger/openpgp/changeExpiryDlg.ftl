@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Atslēgas izbeigšanās maiņa
-
+openpgp-change-expiry-title = Atslēgas izbeigšanās maiņa
 info-will-expire = Pašlaik šai atslēgai derīgums ir iestatīts līdz { $date }.
 info-already-expired = Šai atslēgai derīgums jau ir beidzies.
 info-does-not-expire = Pašlaik šai atslēgai derīgums ir iestatīts bezgalīgs.
-
 info-explanation-1 = <b>Pēc atslēgas derīguma beigām</b> to vairs nav iespējams izmantot šifrēšanai vai digitālajam parakstam.
-
 info-explanation-2 = Lai izmantotu šo atslēgu ilgāku laiku, palieliniet tās derīgumu un pēc tam vēlreiz izplatiet publisko atslēgu saviem sarunu partneriem.
-
 expire-dont-change =
     .label = Nemainīt derīguma datumu
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Atslēgas derīgums līdz:
 expire-in-months = Mēneši
+expire-no-change-label = Nemainīt derīguma datumu
+expire-in-time-label = Atslēgas derīgums līdz:
+expire-never-expire-label = Atslēga derēs vienmēr
