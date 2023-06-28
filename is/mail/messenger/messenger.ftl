@@ -164,6 +164,15 @@ menu-edit-undelete-messages =
            *[other] Endurheimta valinn póst
         }
     .accesskey = d
+menu-edit-properties =
+    .label = Eiginleikar
+    .accesskey = g
+menu-edit-folder-properties =
+    .label = Eiginleikar möppu
+    .accesskey = g
+menu-edit-newsgroup-properties =
+    .label = Eiginleikar fréttahóps
+    .accesskey = g
 
 ## Message Menu
 
