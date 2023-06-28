@@ -4,15 +4,12 @@
 
 openpgp-change-key-expiry-title =
     .title = Αλλαγή λήξης κλειδιού
-
+openpgp-change-expiry-title = Αλλαγή λήξης κλειδιού
 info-will-expire = Αυτό το κλειδί έχει ρυθμιστεί ώστε να λήξει στις { $date }.
 info-already-expired = Αυτό το κλειδί έχει ήδη λήξει.
 info-does-not-expire = Αυτό το κλειδί έχει ρυθμιστεί ώστε να μην λήξει ποτέ.
-
 info-explanation-1 = <b>Αφού ένα κλειδί λήξει</b>, δεν είναι δυνατή πλέον η χρήση του για κρυπτογράφηση ή ψηφιακή υπογραφή.
-
 info-explanation-2 = Για να χρησιμοποιήσετε το κλειδί αυτό για μια μεγαλύτερη χρονική περίοδο, αλλάξτε την ημερομηνία λήξης του και στη συνέχεια μοιραστείτε ξανά το δημόσιο κλειδί με τους ανθρώπους που επικοινωνείτε.
-
 expire-dont-change =
     .label = Να μην αλλαχθεί η ημερομηνία λήξης
 expire-never-label =
@@ -20,3 +17,6 @@ expire-never-label =
 expire-in-label =
     .label = Το κλειδί θα λήξει σε:
 expire-in-months = Μήνες
+expire-no-change-label = Να μην αλλαχθεί η ημερομηνία λήξης
+expire-in-time-label = Το κλειδί θα λήξει σε:
+expire-never-expire-label = Το κλειδί δεν θα λήξει ποτέ
