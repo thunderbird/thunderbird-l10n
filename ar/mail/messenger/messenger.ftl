@@ -62,6 +62,15 @@ menu-edit-undelete-messages =
            *[other] ألغِ حذف الرسائل المختارة
         }
     .accesskey = ل
+menu-edit-properties =
+    .label = الخصائص
+    .accesskey = م
+menu-edit-folder-properties =
+    .label = خصائص المجلد
+    .accesskey = م
+menu-edit-newsgroup-properties =
+    .label = خصائص مجموعة البريد
+    .accesskey = م
 
 ## Message Menu
 
