@@ -19,6 +19,6 @@ expire-never-label =
 expire-in-label =
     .label = La clave expirará en:
 expire-in-months = Meses
-expire-no-change-label = No cambiar la fecha de vencimiento.
+expire-no-change-label = No cambiar la fecha de vencimiento
 expire-in-time-label = La clave expirará en:
 expire-never-expire-label = La clave nunca expirará
