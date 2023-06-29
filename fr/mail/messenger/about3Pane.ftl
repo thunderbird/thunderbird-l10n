@@ -190,9 +190,9 @@ folder-pane-mode-context-toggle-compact-mode =
     .label = Vue compacte
     .accesskey = V
 folder-pane-mode-move-up =
-    .label = Monter
+    .label = Déplacer vers le haut
 folder-pane-mode-move-down =
-    .label = Descendre
+    .label = Déplacer vers le bas
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =
