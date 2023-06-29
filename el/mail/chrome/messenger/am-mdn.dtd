@@ -20,7 +20,7 @@
 <!ENTITY requestMDN.label             "Κατά τη λήψη αιτήματος για αποδεικτικό προβολής:">
 <!ENTITY returnSome.label             "Αποδοχή αποδεικτικών προβολής για ορισμένα μηνύματα">
 <!ENTITY returnSome.accesskey         "ε">
-<!ENTITY never.label                  "Να μην γίνεται ποτέ αποστολή αποδεικτικού προβολής">
+<!ENTITY never.label                  "Να μη γίνεται ποτέ αποστολή αποδεικτικού προβολής">
 <!ENTITY never.accesskey              "Ν">
 <!ENTITY notInToCc.label              "Αν δεν είμαι στα πεδία «Προς» ή «Κοιν.» του μηνύματος:">
 <!ENTITY notInToCc.accesskey          "Α">

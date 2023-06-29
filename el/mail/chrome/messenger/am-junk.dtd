@@ -17,7 +17,7 @@
 <!ENTITY purge1.accesskey "υ">
 <!ENTITY purge2.label "ημέρες">
 
-<!ENTITY whitelistHeader.label "Να μην γίνεται αυτόματη επισήμανση αλληλογραφίας ως ανεπιθύμητης, όταν ο αποστολέας ανήκει στα εξής: ">
+<!ENTITY whitelistHeader.label "Να μη γίνεται αυτόματη επισήμανση της αλληλογραφίας ως ανεπιθύμητης, όταν ο αποστολέας ανήκει στα εξής: ">
 <!ENTITY whitelistHeader.accesskey "μ">
 
 <!ENTITY ispHeadersWarning.label "Αν ενεργοποιηθεί, το &brandShortName; αυτόματα θα θεωρεί ανεπιθύμητα τα μηνύματα που επισημαίνονται από αυτή την εξωτερική υπηρεσία ταξινόμησης.">

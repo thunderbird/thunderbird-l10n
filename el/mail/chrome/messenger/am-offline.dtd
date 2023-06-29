@@ -2,15 +2,15 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY doNotDownloadPop3Movemail.label "Για εξοικονόμηση χώρου, να μην λαμβάνονται:">
-<!ENTITY doNotDownloadNntp.label "Για εξοικονόμηση χώρου, να μην λαμβάνονται για χρήση εκτός σύνδεσης:">
+<!ENTITY doNotDownloadPop3Movemail.label "Για εξοικονόμηση χώρου, να μη λαμβάνονται:">
+<!ENTITY doNotDownloadNntp.label "Για εξοικονόμηση χώρου, να μη λαμβάνονται για χρήση εκτός σύνδεσης:">
 <!ENTITY doNotDownloadImap.label "Για εξοικονόμηση χώρου, μπορείτε να περιορίσετε κατά ημερομηνία ή μέγεθος τη λήψη μηνυμάτων από τον διακομιστή, καθώς και τη διατήρηση τοπικών αντιγράφων για χρήση εκτός σύνδεσης.">
 <!ENTITY allFoldersOffline2.label "Διατήρηση των μηνυμάτων όλων των φακέλων του λογαριασμού στον υπολογιστή">
 <!ENTITY allFoldersOffline2.accesskey "ο">
 <!ENTITY allFoldersOfflineNote.label "Σημείωση: Η αλλαγή θα επηρεάσει όλους τους φακέλους αυτού του λογαριασμού. Για ορισμό μεμονωμένων φακέλων, κάντε κλικ στο κουμπί «Σύνθετα…».">
 <!ENTITY offlineNotDownload.label "Μηνύματα μεγαλύτερα από">
 <!ENTITY offlineNotDownload.accesskey "Μ">
-<!ENTITY autosyncNotDownload.label "Να μην γίνεται λήψη μηνυμάτων, μεγαλύτερων από">
+<!ENTITY autosyncNotDownload.label "Να μη γίνεται λήψη μηνυμάτων, μεγαλύτερων από">
 <!ENTITY autosyncNotDownload.accesskey "μ">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "ημερών">
@@ -24,7 +24,7 @@
 <!ENTITY retentionCleanupPop.label "Για ανάκτηση χώρου, μπορείτε να διαγράψετε οριστικά τα παλιά σας μηνύματα, μαζί με τα αρχικά μηνύματα στον απομακρυσμένο διακομιστή.">
 <!ENTITY retentionKeepMsg.label "Διαγραφή μηνυμάτων, παλαιότερων από">
 <!ENTITY retentionKeepMsg.accesskey "μ">
-<!ENTITY retentionKeepAll.label "Να μην γίνει διαγραφή μηνυμάτων">
+<!ENTITY retentionKeepAll.label "Να μη γίνει διαγραφή μηνυμάτων">
 <!ENTITY retentionKeepAll.accesskey "η">
 <!ENTITY retentionKeepRecent.label "Διαγραφή όλων, εκτός των τελευταίων">
 <!ENTITY retentionKeepRecent.accesskey "κ">
