@@ -192,6 +192,10 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Компактний вигляд
     .accesskey = м
+folder-pane-mode-move-up =
+    .label = Вгору
+folder-pane-mode-move-down =
+    .label = Вниз
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =
