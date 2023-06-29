@@ -169,10 +169,10 @@ menu-edit-properties =
     .accesskey = E
 menu-edit-folder-properties =
     .label = Mappegenskaper
-    .accesskey = E
+    .accesskey = M
 menu-edit-newsgroup-properties =
     .label = Diskussionsgruppsegenskaper
-    .accesskey = E
+    .accesskey = D
 
 ## Message Menu
 
