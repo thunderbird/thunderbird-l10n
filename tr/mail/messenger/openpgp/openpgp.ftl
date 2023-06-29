@@ -32,7 +32,7 @@ openpgp-cancel-key =
     .label = İptal
     .tooltiptext = Anahtar oluşturmayı iptal et
 openpgp-key-gen-expiry-title =
-    .label = Anahtar süre sonu
+    .label = Anahtarın zaman aşımı
 openpgp-key-gen-expire-label = Anahtarın süre soru:
 openpgp-key-gen-days-label =
     .label = gün
@@ -266,6 +266,7 @@ openpgp-key-details-structure-tab =
 openpgp-key-details-uid-certified-col =
     .label = Kullanıcı kimliği / Onaylayan
 openpgp-key-details-key-id-label = Anahtar kimliği
+openpgp-key-details-user-id3-label = Talep eden anahtar sahibi
 openpgp-key-details-id-label =
     .label = Kimlik
 openpgp-key-details-key-type-label = Türü
@@ -308,12 +309,12 @@ openpgp-acceptance-unverified-label =
 openpgp-acceptance-verified-label =
     .label = Evet, bu anahtarın doğru parmak izine sahip olduğunu doğruladım.
 key-accept-personal =
-    Bu anahtarın hem ortak hem gizli parçasına sahipsiniz. Anahtarı Kişisel anahtar olarak kullanabilirsiniz.
+    Bu anahtarın hem ortak hem gizli parçasına sahipsiniz. Bu anahtarı kişisel anahtar olarak kullanabilirsiniz.
     Ama bu anahtarı size başka birisi verdiyse kişisel anahtar olarak kullanmayın.
 openpgp-personal-no-label =
     .label = Hayır, kişisel anahtarım olarak kullanma.
 openpgp-personal-yes-label =
-    .label = Evet, bu anahtara kişisel anahtar olarak kullan.
+    .label = Evet, bu anahtarı kişisel anahtar olarak kullan.
 openpgp-passphrase-protection =
     .label = Parola koruması
 openpgp-passphrase-status-unprotected = Korumasız

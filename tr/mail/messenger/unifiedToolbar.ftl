@@ -73,6 +73,7 @@ customize-palette-calendar-specific-title = Yalnızca Takvim sekmesinde kullanı
 customize-palette-tasks-specific-title = Yalnızca Görevler sekmesinde kullanılabilir
 customize-palette-chat-specific-title = Yalnızca Sohbet sekmesinde kullanılabilir
 customize-palette-settings-specific-title = Yalnızca Ayarlar sekmesinde kullanılabilir
+customize-palette-extension-specific-title = Yalnızca bu sekmede kullanılabilir
 
 ## Unified toolbar customization palette context menu
 
