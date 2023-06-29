@@ -223,6 +223,9 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = ต้องการเอา { $name } ออกหรือไม่?
 addon-removal-confirmation-button = เอาออก
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = ลบ { $name } ตลอดจนการกำหนดค่าและข้อมูลออกจาก { -brand-short-name } ไหม?
 caret-browsing-prompt-title = การเลื่อนดูด้วยแป้นพิมพ์
 caret-browsing-prompt-check-text = ไม่ต้องถามอีก
 repair-text-encoding-button =
@@ -232,9 +235,13 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = ไม่รองรับการตอบกลับ
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
+no-reply-message = ที่อยู่ตอบกลับ ({ $email }) ดูเหมือนจะไม่ใช่ที่อยู่ที่ได้รับการตรวจสอบ ข้อความที่ส่งถึงที่อยู่นี้อาจจะไม่มีใครได้อ่าน
 
 ## error messages
 
+decrypt-and-copy-failures = { $failures } จากข้อความ { $total } ไม่สามารถถอดรหัสและไม่ถูกคัดลอก
 
 ## Spaces toolbar
 
@@ -248,6 +255,8 @@ spaces-toolbar-button-address-book2 =
     .title = สมุดรายชื่อ
 spaces-toolbar-button-calendar2 =
     .title = ปฏิทิน
+spaces-toolbar-button-tasks2 =
+    .title = งาน
 spaces-toolbar-button-chat2 =
     .title = แชท
 spaces-toolbar-button-settings2 =
@@ -264,6 +273,8 @@ settings-context-open-settings-item2 =
     .label = การตั้งค่า
 settings-context-open-account-settings-item2 =
     .label = ตั้งค่าบัญชี
+settings-context-open-addons-item2 =
+    .label = ส่วนเสริมและชุดรูปแบบ
 
 ## Spaces toolbar pinned tab menupopup
 

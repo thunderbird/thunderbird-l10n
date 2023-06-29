@@ -133,6 +133,7 @@ encryption-options-smime =
 
 ## Link Preview
 
+link-preview-description = { -brand-short-name } สามารถเพิ่มการแสดงตัวอย่างแบบฝังเมื่อวางลิงก์
 link-preview-autoadd = เพิ่มการแสดงตัวอย่างลิงก์โดยอัตโนมัติถ้าเป็นไปได้
 
 ## Dictionary selection popup
