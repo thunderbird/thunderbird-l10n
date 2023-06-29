@@ -272,7 +272,7 @@ openpgp-key-details-id-label =
 openpgp-key-details-key-type-label = Τύπος
 openpgp-key-details-key-part-label =
     .label = Τμήμα κλειδιού
-openpgp-key-details-attr-ignored = Προειδοποίηση: Αυτό το κλειδί ενδέχεται να μην λειτουργεί όπως αναμένεται, επειδή ορισμένες από τις ιδιότητές του δεν είναι ασφαλείς και ενδέχεται να αγνοηθούν.
+openpgp-key-details-attr-ignored = Προειδοποίηση: Αυτό το κλειδί ενδέχεται να μη λειτουργεί όπως αναμένεται, επειδή ορισμένες από τις ιδιότητές του δεν είναι ασφαλείς και ενδέχεται να αγνοηθούν.
 openpgp-key-details-attr-upgrade-sec = Θα πρέπει να αναβαθμίσετε τις επισφαλείς ιδιότητες.
 openpgp-key-details-attr-upgrade-pub = Θα πρέπει να ζητήσετε από τον κάτοχο του κλειδιού να ενημερώσει τις επισφαλείς ιδιότητες.
 openpgp-key-details-upgrade-unsafe =
@@ -312,7 +312,7 @@ key-accept-personal =
     Για αυτό το κλειδί, έχετε τόσο το δημόσιο όσο και το μυστικό μέρος. Μπορείτε να το χρησιμοποιήσετε ως προσωπικό κλειδί.
     Εάν αυτό το κλειδί σάς δόθηκε από κάποιον τρίτο, τότε μην το χρησιμοποιήσετε ως προσωπικό κλειδί.
 openpgp-personal-no-label =
-    .label = Όχι, να μην χρησιμοποιηθεί ως προσωπικό κλειδί μου.
+    .label = Όχι, να μη χρησιμοποιηθεί ως το προσωπικό μου κλειδί.
 openpgp-personal-yes-label =
     .label = Ναι, να αντιμετωπιστεί το κλειδί ως προσωπικό κλειδί.
 openpgp-passphrase-protection =
@@ -361,7 +361,7 @@ openpgp-keygen-external-success = Το ID εξωτερικού κλειδιού 
 
 openpgp-radio-none =
     .label = Κανένα
-openpgp-radio-none-desc = Να μην χρησιμοποιηθεί OpenPGP για αυτήν την ταυτότητα.
+openpgp-radio-none-desc = Να μη χρησιμοποιηθεί OpenPGP για αυτήν την ταυτότητα.
 openpgp-radio-key-not-usable = Αυτό το κλειδί δεν μπορεί να χρησιμοποιηθεί ως προσωπικό, επειδή λείπει το μυστικό κλειδί!
 openpgp-radio-key-not-accepted = Για να χρησιμοποιήσετε αυτό το κλειδί θα πρέπει να το εγκρίνετε ως προσωπικό κλειδί!
 openpgp-radio-key-not-found = Δεν ήταν δυνατή η εύρεση του κλειδιού! Εάν θέλετε να το χρησιμοποιήσετε, πρέπει να το εισαγάγετε στο { -brand-short-name }.
@@ -792,7 +792,7 @@ repeat-prefix = Αυτή η ειδοποίηση θα επαναληφθεί { $
 repeat-suffix-singular = ακόμη φορά.
 repeat-suffix-plural = ακόμη φορές.
 no-repeat = Αυτή η ειδοποίηση δεν θα εμφανιστεί ξανά.
-dlg-keep-setting = Αποθήκευση απάντησης και να μην γίνει ξανά ερώτηση
+dlg-keep-setting = Αποθήκευση απάντησης και να μη γίνει ξανά ερώτηση
 dlg-button-ok = &OK
 dlg-button-close = &Κλείσιμο
 dlg-button-cancel = &Ακύρωση

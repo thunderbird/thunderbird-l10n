@@ -26,4 +26,4 @@ libs-table-heading-status = Κατάσταση
 libs-rnp-status-ok = OK
 libs-rnp-status-load-failed = Αποτυχία φόρτωσης. Το OpenPGP δεν θα λειτουργεί.
 libs-rnp-status-incompatible = Μη συμβατή έκδοση. Το OpenPGP δεν θα λειτουργεί.
-libs-rnp-status-unofficial = Ανεπίσημη έκδοση. Το OpenPGP ενδέχεται να μην λειτουργεί σωστά.
+libs-rnp-status-unofficial = Ανεπίσημη έκδοση. Το OpenPGP ενδέχεται να μη λειτουργεί σωστά.
