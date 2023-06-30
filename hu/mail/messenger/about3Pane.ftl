@@ -189,6 +189,10 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Tömör nézet
     .accesskey = T
+folder-pane-mode-move-up =
+    .label = Mozgatás felfelé
+folder-pane-mode-move-down =
+    .label = Mozgatás lefelé
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =
