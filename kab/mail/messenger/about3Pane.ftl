@@ -25,6 +25,16 @@ thread-pane-folder-message-count =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Eǧǧ imzizdigen ttwasensen ticki tettbeddiled gar ikaramen
+quick-filter-bar-dropdown-unread =
+    .label = Ur ittwaɣṛi ara
+quick-filter-bar-dropdown-starred =
+    .label = Ɣur-s itri
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Inermisen
+quick-filter-bar-dropdown-tags =
+    .label = Tibzimin
+quick-filter-bar-dropdown-attachment =
+    .label = Amedday
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -140,6 +150,10 @@ folder-pane-more-menu-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Timeẓri yessden
     .accesskey = T
+folder-pane-mode-move-up =
+    .label = Ali
+folder-pane-mode-move-down =
+    .label = Ader
 
 ## Message thread pane
 
@@ -162,6 +176,8 @@ threadpane-attachments-cell-label = Ticeqqufin yeddan
 threadpane-column-label-spam =
     .label = Aspam
 threadpane-spam-cell-label = Aspam
+threadpane-read-cell-label = Γɣaṛ
+threadpane-unread-cell-label = Ur ittwaɣṛi ara
 threadpane-column-header-sender = Si
     .title = Asmizzwer s Si
 threadpane-column-label-sender =

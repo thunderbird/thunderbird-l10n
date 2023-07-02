@@ -39,6 +39,18 @@ appmenu-newab-panel-title =
 
 appmenu-create-panel-title =
     .title = Rnu
+appmenu-create-panel =
+    .label = Rnu
+    .accesskey = R
+appmenu-create-message =
+    .label = Izen
+    .accesskey = I
+appmenu-create-event =
+    .label = Tadyant
+    .accesskey = T
+appmenu-create-task =
+    .label = Tawuri
+    .accesskey = T
 
 ## Open
 
