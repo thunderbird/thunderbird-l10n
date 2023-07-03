@@ -10,10 +10,57 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = 캘린더
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } 캘린더는 음소거 되었습니다.
 calendar-enable-button = 활성화
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } 캘린더 설정
+calendar-import-new-calendar = 새 캘린더…
+    .title = 새 캘린더를 만들거나 구독
+calendar-refresh-calendars =
+    .title = 모든 캘린더를 다시 로드하고 변경사항 동기화
+calendar-new-event-primary-button = 새 이벤트
+calendar-new-task-primary-button = 새 태스크
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = 이전 날
+    .accesskey = s
+calendar-nav-button-prev-tooltip-week =
+    .title = 이전 주
+    .accesskey = s
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = 이전 주
+    .accesskey = s
+calendar-nav-button-prev-tooltip-month =
+    .title = 이전 달
+    .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = 이전 연도
+    .accesskey = s
+calendar-nav-button-next-tooltip-day =
+    .title = 다음 날
+    .accesskey = x
+calendar-nav-button-next-tooltip-week =
+    .title = 다음 주
+    .accesskey = x
+calendar-nav-button-next-tooltip-multiweek =
+    .title = 다음 주
+    .accesskey = x
+calendar-nav-button-next-tooltip-month =
+    .title = 다음 달
+    .accesskey = x
+calendar-nav-button-next-tooltip-year =
+    .title = 다음 연도
+    .accesskey = x
+calendar-today-button-tooltip =
+    .title = 오늘로 이동
 calendar-view-toggle-day = 일별
     .title = 일별 보기로 전환합니다
 calendar-view-toggle-week = 주별
