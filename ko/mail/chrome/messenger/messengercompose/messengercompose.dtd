@@ -11,6 +11,7 @@
 <!ENTITY newMenu.label "새로 만들기">
 <!ENTITY newMenu.accesskey "N">
 <!ENTITY newMessage.label "메시지">
+<!ENTITY newMessage.accesskey "M">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "주소록 연락처…">
 <!ENTITY newContact.accesskey "C">

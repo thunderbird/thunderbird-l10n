@@ -108,3 +108,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } 대기 중
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } 참가자
 calendar-invitation-panel-prop-title-attachments = 첨부:
+calendar-invitation-change-indicator-removed = 제거됨
+calendar-invitation-change-indicator-added = 새로 만들기
+calendar-invitation-change-indicator-modified = 변경됨
