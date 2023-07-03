@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = 編輯所有會發生的項目
     .accesskey = a
+description-context-menu-copy-link-text =
+    .label = 複製鏈結文字
