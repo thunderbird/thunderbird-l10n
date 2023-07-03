@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Golygu pob enghraifft
     .accesskey = e
+description-context-menu-copy-link-text =
+    .label = Copïo Testun Cyswllt
