@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Redigera alla förekomster
     .accesskey = a
+description-context-menu-copy-link-text =
+    .label = Kopiera länktext
