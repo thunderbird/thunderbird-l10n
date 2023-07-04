@@ -14,4 +14,4 @@ edit-button-context-menu-all-occurrences =
     .label = Modifica tutte le occorrenze
     .accesskey = d
 description-context-menu-copy-link-text =
-    .label = Copia testo link
+    .label = Copia testo del link
