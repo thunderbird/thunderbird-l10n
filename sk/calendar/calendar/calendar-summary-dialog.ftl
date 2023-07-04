@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Upraviť všetky výskyty
     .accesskey = p
+description-context-menu-copy-link-text =
+    .label = Kopírovať text odkazu
