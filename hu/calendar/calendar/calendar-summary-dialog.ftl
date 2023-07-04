@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Minden előfordulás szerkesztése
     .accesskey = M
+description-context-menu-copy-link-text =
+    .label = Hivatkozás szövegének másolása
