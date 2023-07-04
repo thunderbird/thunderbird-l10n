@@ -3,16 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-summary-dialog-edit-button =
-  .label = Bearbeiten
-  .accesskey = B
-
+    .label = Bearbeiten
+    .accesskey = B
 calendar-summary-dialog-edit-menu-button =
-  .label = Bearbeiten
-
+    .label = Bearbeiten
 edit-button-context-menu-this-occurrence =
-  .label = Nur dieses Vorkommen bearbeiten
-  .accesskey = d
-
+    .label = Nur dieses Vorkommen bearbeiten
+    .accesskey = d
 edit-button-context-menu-all-occurrences =
-  .label = Alle Vorkommen bearbeiten
-  .accesskey = A
+    .label = Alle Vorkommen bearbeiten
+    .accesskey = A
+description-context-menu-copy-link-text =
+    .label = Link-Text kopieren
