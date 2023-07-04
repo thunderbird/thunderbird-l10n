@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Барлық қайталануларын түзету
     .accesskey = а
+description-context-menu-copy-link-text =
+    .label = Сілтеме мәтінін көшіру
