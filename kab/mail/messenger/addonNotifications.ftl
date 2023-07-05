@@ -53,6 +53,8 @@ webext-perms-update-menu-item = { $addonName } yesra tisirag-nniḍen
 
 ## Add-on removal warning
 
+addon-removal-button = Kkes
+addon-removal-abuse-report-checkbox = Mmel asiɣzef-a i { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -94,6 +96,7 @@ addon-install-error-incorrect-hash = Azegrir-a ur yezmir ara ad yebded acku ur i
 addon-install-error-corrupt-file = Azegrir i d-tessidreḍ seg usmel-agi web, ur yezmir ara ad yebded acku mačči d ameɣtu.
 addon-install-error-file-access = { $addonName } ur yezmir ara ad yebded acku { -brand-short-name } ur yezmir ara ad ibeddel afaylu ilaqen.
 addon-install-error-not-signed = { -brand-short-name } issewḥel asmel-agi ɣef usebded n uzegrir ur nettwasenqed ara.
+addon-install-error-invalid-domain = Azegrir { $addonName } yezmer ad d-yettusbedd seg wadig-a.
 addon-local-install-error-network-failure = Azegrir-agi ur yebdid ara acku tella tuccḍa deg unagraw n ifuyla.
 addon-local-install-error-incorrect-hash = Azegrir-a ur yezmir ara ad yebded acku ur imṣaba ara d uzegrir { -brand-short-name } itturajun.
 addon-local-install-error-corrupt-file = Azegrir-agi ur yizmir ara ad yebded acku mačči d ameɣtu.
