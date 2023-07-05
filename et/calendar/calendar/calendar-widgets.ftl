@@ -74,6 +74,14 @@ calendar-view-toggle-month = Kuu
 
 calendar-control-bar-menu-button =
     .title = Kalendri paigutuse valikud
+calendar-find-events-menu-option =
+    .label = Sündmuste otsingu paneel
+calendar-hide-weekends-option =
+    .label = Ainult tööpäevad
+calendar-define-workweek-option =
+    .label = Tööpäevade määramine
+calendar-show-tasks-calendar-option =
+    .label = Kalendris ülesannete kuvamine
 
 ## Calendar Context Menu
 
