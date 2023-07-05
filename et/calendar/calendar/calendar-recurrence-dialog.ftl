@@ -3,3 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-recurrence-preview-label = Eelvaade
+calendar-recurrence-next = Järgmine kuu
+calendar-recurrence-previous = Eelmine kuu
+calendar-recurrence-today = Täna

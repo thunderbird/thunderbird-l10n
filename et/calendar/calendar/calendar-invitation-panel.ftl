@@ -74,6 +74,22 @@ calendar-invitation-interval-all-day-between-months = { $startDay }. { $startMon
 # $startTime (String) - The time the interval starts.
 # $timezone  (String) - The timezone the interval is in.
 calendar-invitation-interval-same-date-time = { $startDate } <b>{ $startTime }</b> { $timezone }
+# Example: Friday, September 16, 2022 14:00 – 16:00 America/Port of Spain
+# Variables:
+# $startDate (String) - The date the interval starts.
+# $startTime (String) - The time the interval starts.
+# $endTime   (String) - The time the interval ends.
+# $timezone  (String) - The timezone the interval is in.
+calendar-invitation-interval-same-day = { $startDate } <b>{ $startTime }</b> – <b>{ $endTime }</b> { $timezone }
+# Example: Friday, September 16, 2022 14:00 – Tuesday, September 20, 2022 16:00 America/Port of Spain
+# Variables:
+# $startDate (String) - The date the interval starts.
+# $startTime (String) - The time the interval starts.
+# $endDate   (String) - The date the interval ends.
+# $endTime   (String) - The time the interval ends.
+# $timezone  (String) - The timezone the interval is in.
+calendar-invitation-interval-several-days = { $startDate } <b>{ $startTime }</b> – { $endDate } <b>{ $endTime }</b> { $timezone }
+calendar-invitation-panel-prop-title-recurrence = Kordub:
 calendar-invitation-panel-prop-title-attendees = Osalejad:
 calendar-invitation-panel-prop-title-description = Kirjeldus:
 # Variables:
@@ -91,3 +107,7 @@ calendar-invitation-panel-partstat-needs-action = { $count } - ootel
 # Variables:
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } osalejat
+calendar-invitation-panel-prop-title-attachments = Manused:
+calendar-invitation-change-indicator-removed = Eemaldatud
+calendar-invitation-change-indicator-added = Uus
+calendar-invitation-change-indicator-modified = Muudetud
