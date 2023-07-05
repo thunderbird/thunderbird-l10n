@@ -76,6 +76,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Nimekirja päis
+    .accesskey = p
 menu-font-size-label =
     .label = Fondi suurus
     .accesskey = F

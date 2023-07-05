@@ -5,6 +5,17 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Lülita kiirfiltri riba
+quick-filter-button-label = Kiirfilter
+thread-pane-header-display-button =
+    .title = Nimekirja kuvamise valikud
+thread-pane-header-context-table-view =
+    .label = Tabelivaade
+thread-pane-header-context-cards-view =
+    .label = Kaartide vaade
+thread-pane-header-context-hide =
+    .label = Peida nimekirja päis
 
 ## Quick Filter Bar
 
@@ -15,6 +26,10 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Filtrid jäetakse kaustade vahetamisel rakendatuks
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Kiirfiltri menüü
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -147,6 +162,8 @@ threadpane-column-header-attachments =
     .title = Sordi manuste järgi
 threadpane-column-label-attachments =
     .label = Manused
+threadpane-column-label-unread-button =
+    .label = Loetus
 threadpane-column-header-sender = Saatja
     .title = Sordi saatja järgi
 threadpane-column-label-sender =
