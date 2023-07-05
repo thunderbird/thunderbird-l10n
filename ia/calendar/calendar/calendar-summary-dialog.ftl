@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Rediger tote le occurrentias
     .accesskey = t
+description-context-menu-copy-link-text =
+    .label = Copiar le texto del ligamine
