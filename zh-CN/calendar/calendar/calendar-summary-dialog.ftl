@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = 编辑所有重复事项
     .accesskey = a
+description-context-menu-copy-link-text =
+    .label = 复制链接文本
