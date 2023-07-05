@@ -2,10 +2,5 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Table
-
-tree-list-view-column-picker =
-    .title = Vali kuvatavad veerud
-tree-list-view-column-picker-restore =
-    .label = Taasta veergude järjekord
+apply-current-view-to-menu =
+    .label = Rakenda praegune vaade…
