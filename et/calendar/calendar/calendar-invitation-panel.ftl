@@ -12,13 +12,24 @@ calendar-invitation-panel-status-updatemajor = See kiri sisaldab selle sündmuse
 calendar-invitation-panel-status-cancelled = See kiri sisaldab selle sündmuse tühistamist.
 calendar-invitation-panel-status-cancelled-notfound = See kiri sisaldab sinu kalendrist puuduva sündmuse tühistamist.
 # Variables:
+# $organizer (String) - The participant that cancelled the invitation.
+calendar-invitation-panel-intro-cancel = { $organizer } on tühistanud:
+# Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Salvesta
+calendar-invitation-panel-view-button = Vaata
+calendar-invitation-panel-update-button = Uuenda
+calendar-invitation-panel-delete-button = Kustuta
 calendar-invitation-panel-accept-button = Jah
 calendar-invitation-panel-decline-button = Ei
 calendar-invitation-panel-tentative-button = Võib-olla
 calendar-invitation-panel-reply-status = * Sa pole veel otsustanud või vastanud
+calendar-invitation-panel-more-button = Rohkem
+calendar-invitation-panel-menu-item-save-copy =
+    .label = Salvesta koopia
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Muudatuste kuvamine
 calendar-invitation-panel-prop-title-when = Aeg:
 calendar-invitation-panel-prop-title-location = Asukoht:
 # Variables:
@@ -29,6 +40,40 @@ calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
 # $time (String) - The time part of a datetime using the "short" timeStyle.
 # $timezone (String) - The timezone info for the datetime.
 calendar-invitation-datetime-time = { $time } ({ $timezone })
+# Example: Friday, September 16, 2022
+# Variables:
+# $startDate (String) - The date (without time) the event starts on.
+calendar-invitation-interval-all-day = { $startDate }
+# Example: September 16, 2022 – September 16, 2023
+# Variables:
+# $startMonth (String) - The month the interval starts.
+# $startDay   (String) - The day of the month the interval starts.
+# $startYear  (String) - The year the interval starts.
+# $endMonth   (String) - The month the interval ends.
+# $endDay     (String) - The day of the month the interval ends.
+# $endYear    (String) - The year the interval ends.
+calendar-invitation-interval-all-day-between-years = { $startDay }. { $startMonth } { $startYear } – { $endDay }. { $endMonth } { $endYear }
+# Example: September 16 – 20, 2022
+# Variables:
+# $month      (String) - The month the interval is in.
+# $startDay   (String) - The day of the month the interval starts.
+# $endDay     (String) - The day of the month the interval ends.
+# $year       (String) - The year the interval is in.
+calendar-invitation-interval-all-day-in-month = { $startDay }. – { $endDay }. { $month } { $year }
+# Example: September 16 – October 20, 2022
+# Variables:
+# $startMonth (String) - The month the interval starts.
+# $startDay   (String) - The day of the month the interval starts.
+# $endMonth   (String) - The month the interval ends.
+# $endDay     (String) - The day of the month the interval ends.
+# $year       (String) - The year the interval is in.
+calendar-invitation-interval-all-day-between-months = { $startDay }. { $startMonth } – { $endDay }. { $endMonth } { $year }
+# Example: Friday, September 16, 2022 15:00 America/Port of Spain
+# Variables:
+# $startDate (String) - The date the interval starts.
+# $startTime (String) - The time the interval starts.
+# $timezone  (String) - The timezone the interval is in.
+calendar-invitation-interval-same-date-time = { $startDate } <b>{ $startTime }</b> { $timezone }
 calendar-invitation-panel-prop-title-attendees = Osalejad:
 calendar-invitation-panel-prop-title-description = Kirjeldus:
 # Variables:
