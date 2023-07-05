@@ -5,6 +5,12 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } kutsus sind:
+calendar-invitation-panel-status-new = Sind on kutsutud sellele sündmusele.
+calendar-invitation-panel-status-processed = See sündmus on juba kalendrisse lisatud.
+calendar-invitation-panel-status-updateminor = See kiri sisaldab selle sündmuse uuendust.
+calendar-invitation-panel-status-updatemajor = See kiri sisaldab selle sündmuse uuendust. Peaksid oma osalemise üle kinnitama.
+calendar-invitation-panel-status-cancelled = See kiri sisaldab selle sündmuse tühistamist.
+calendar-invitation-panel-status-cancelled-notfound = See kiri sisaldab sinu kalendrist puuduva sündmuse tühistamist.
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
