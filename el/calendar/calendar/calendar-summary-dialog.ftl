@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Επεξεργασία όλων των συμβάντων
     .accesskey = ρ
+description-context-menu-copy-link-text =
+    .label = Αντιγραφή κειμένου συνδέσμου
