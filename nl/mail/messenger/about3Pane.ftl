@@ -189,6 +189,10 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Compacte weergave
     .accesskey = C
+folder-pane-mode-move-up =
+    .label = Omhoog verplaatsen
+folder-pane-mode-move-down =
+    .label = Omlaag verplaatsen
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =
