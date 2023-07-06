@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Chỉnh sửa tất cả các lần xuất hiện
     .accesskey = a
+description-context-menu-copy-link-text =
+    .label = Sao chép văn bản liên kết
