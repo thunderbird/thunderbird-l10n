@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Змінити всі повторювання
     .accesskey = в
+description-context-menu-copy-link-text =
+    .label = Копіювати текст посилання
