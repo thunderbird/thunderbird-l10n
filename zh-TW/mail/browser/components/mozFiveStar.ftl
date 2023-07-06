@@ -6,4 +6,4 @@
 # Variables:
 #   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
 moz-five-star-rating =
-    .title = 評分: { NUMBER($rating, maximumFractionDigits: 1) }，滿分 5 分
+    .title = 評分 { NUMBER($rating, maximumFractionDigits: 1) } 分，滿分 5 分
