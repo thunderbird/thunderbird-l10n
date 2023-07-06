@@ -5,3 +5,4 @@
 calendar-recurrence-preview-label = Alberz
 calendar-recurrence-next = Ar miz a zeu
 calendar-recurrence-previous = Ar miz a-raok
+calendar-recurrence-today = Hiziv

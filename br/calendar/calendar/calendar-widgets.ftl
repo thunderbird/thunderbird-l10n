@@ -5,7 +5,10 @@
 
 ## Side panel
 
+calendar-list-header = Deiziataerioù
 calendar-enable-button = Gweredekaat
+calendar-new-event-primary-button = Darvoud nevez
+calendar-new-task-primary-button = Trevell nevez
 
 ## Calendar navigation
 
