@@ -140,6 +140,7 @@ threadpane-column-header-attachments =
     .title = Rummañ dre genstagadurioù
 threadpane-column-label-attachments =
     .label = Kenstagadurioù
+threadpane-attachments-cell-label = Kenstagadurioù
 threadpane-column-header-sender = Kaser
     .title = Rummañ dre gaser
 threadpane-column-label-sender =

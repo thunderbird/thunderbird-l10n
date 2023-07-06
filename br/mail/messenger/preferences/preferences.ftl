@@ -4,6 +4,8 @@
 
 close-button =
     .aria-label = Serriñ
+preferences-doc-title2 = Arventennoù
+pane-general-title = Hollek
 category-general =
     .tooltiptext = { pane-general-title }
 pane-compose-title = Aozañ

@@ -97,6 +97,8 @@
 <!ENTITY deleteFolderCmd.accesskey "D">
 <!ENTITY unsubscribeNewsgroupCmd.label "Digoumanantiñ">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Diuzañ">
 <!ENTITY selectMenu.accesskey "D">
 <!ENTITY all.label "Pep tra">
@@ -505,7 +507,7 @@
 
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "Kerc'hat ar c'hemennadennoù ">
-<!ENTITY newMsgButton.label "Skridaozañ">
+<!ENTITY newMsgButton.label "Skrivañ">
 <!ENTITY replyButton.label "Respont">
 <!ENTITY replyAllButton.label "Respont d'an holl">
 <!ENTITY replyListButton.label "Respont d'ar roll">
@@ -932,4 +934,3 @@
 <!ENTITY openAddressBookDock.label      "Digeriñ karned ar chomlec'hioù">
 
 <!-- Content tab Navigation buttons -->
-

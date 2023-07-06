@@ -77,6 +77,8 @@ menu-edit-newsgroup-properties =
 
 ## AppMenu
 
+appmenu-settings =
+    .label = Arventennoù
 
 ## Context menu
 
@@ -109,6 +111,12 @@ mail-context-undelete-messages =
 
 ## Spaces toolbar
 
+spaces-toolbar-button-chat2 =
+    .title = Flapva
+spaces-toolbar-button-settings2 =
+    .title = Arventennoù
+settings-context-open-settings-item2 =
+    .label = Arventennoù
 
 ## Spaces toolbar pinned tab menupopup
 
