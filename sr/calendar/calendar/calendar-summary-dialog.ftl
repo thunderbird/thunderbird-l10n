@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Уреди сва појављивања
     .accesskey = a
+description-context-menu-copy-link-text =
+    .label = Копирај текст везе
