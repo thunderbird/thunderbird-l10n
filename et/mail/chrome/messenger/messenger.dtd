@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "K">
 <!ENTITY unsubscribeNewsgroupCmd.label "Tühista tellimus">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "m">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Vali">
 <!ENTITY selectMenu.accesskey "V">
 <!ENTITY all.label "Kõik">
@@ -680,7 +682,7 @@
 <!ENTITY subjectColumn.label "Teema">
 <!ENTITY dateColumn.label "Kuupäev">
 <!ENTITY priorityColumn.label "Prioriteet">
-<!ENTITY tagsColumn.label "Silt">
+<!ENTITY tagsColumn.label "Sildid">
 <!ENTITY accountColumn.label "Konto">
 <!ENTITY statusColumn.label "Olek">
 <!ENTITY sizeColumn.label "Suurus">
