@@ -181,7 +181,7 @@ folder-pane-mode-move-down =
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =
     { $count ->
-        [one] 1 unread lugemata kiri
+        [one] 1 lugemata kiri
        *[other] { $count } lugemata kirja
     }
 # Variables:
@@ -310,8 +310,8 @@ threadpane-message-replied-forwarded =
     .alt = Vastamise ja edastamise indikaator
     .title = Vastatud ja edastatud kiri
 threadpane-message-replied-redirected =
-    .alt = Vastamise ja ümbersuunamise indikaator
-    .title = Vastatud ja ümbersuunatud kiri
+    .alt = Vastamise ja ümber suunamise indikaator
+    .title = Vastatud ja ümber suunatud kiri
 threadpane-message-forwarded-redirected =
     .alt = Edastamise ja ümber suunamise indikaator
     .title = Edastatud ja ümber suunatud kiri

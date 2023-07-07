@@ -14,7 +14,14 @@ accounts-conn-security = Ühenduse turvalisus
 accounts-auth-method = Autentimise meetod
 accounts-default = Vaikimisi?
 identity-name = Identiteet
-
 send-via-email = Saada e-postiga
-
 app-basics-telemetry = Telemeetriaandmed
+app-basics-cache-use = Vahemälu kasutus
+libs-table-heading-expected-version = Eeldatav minimaalne versioon
+libs-table-heading-loaded-version = Kasutusel olev versioon
+libs-table-heading-path = Asukoht
+libs-table-heading-status = Olek
+libs-rnp-status-ok = Sobib
+libs-rnp-status-load-failed = Laadimine ebaõnnestus. OpenPGP ei tööta.
+libs-rnp-status-incompatible = Ühildumatu versioon. OpenPGP ei tööta.
+libs-rnp-status-unofficial = Mitteametlik versioon. OpenPGP ei pruugi ootuspäraselt töötada.
