@@ -59,7 +59,7 @@
      include messages that have been starred/flagged.
      -->
 <!ENTITY quickFilterBar.starred.label
-         "已加星标">
+         "星标">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.starred.tooltip):
      The tooltip for the filter button that causes us to filter results to only
