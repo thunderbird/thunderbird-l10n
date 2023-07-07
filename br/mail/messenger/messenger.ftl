@@ -117,9 +117,13 @@ spaces-toolbar-button-settings2 =
     .title = Arventennoù
 settings-context-open-settings-item2 =
     .label = Arventennoù
+settings-context-open-account-settings-item2 =
+    .label = Arventennoù ar gont
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
 
 ## Spaces toolbar customize panel
 

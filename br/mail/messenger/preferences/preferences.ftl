@@ -23,6 +23,8 @@ general-files-and-attachment-header = Restroù & Kenstagadurioù
 general-tags-header = Merkoù
 general-reading-and-display-header = Lenn & Skrammañ
 general-updates-header = Hizivadennoù
+general-network-and-diskspace-header = Rouedad & Egor kantenn
+general-indexing-label = Ibiliadur
 composition-attachments-header = Kenstagadurioù
 compose-html-style-title = Doare HTML
 composition-addressing-header = Chomlec’hiañ
@@ -33,6 +35,8 @@ collection-backlogged-crash-reports-link = Gouzout hiroc’h
 privacy-security-header = Diogelroez
 privacy-certificates-title = Testenioù
 chat-pane-header = Flapva
+chat-status-title = Stad
+chat-notifications-title = Rebuzadurioù
 chat-pane-styling-header = Neuz
 choose-messenger-language-description = Dibabit ar yezhoù arveret evit diskouez al lañserioù, kemennadennoù ha rebuzadurioù eus { -brand-short-name }.
 manage-messenger-languages-button =
@@ -184,6 +188,9 @@ diskspace-legend = Egor war ar gantenn
 offline-compact-folder =
     .label = Koazhañ an holl deuliadoù pa e tieub an dra-se muioc'h eget
     .accesskey = a
+offline-compact-folder-automatically =
+    .label = Atav goulenn diganin a-raok koazhañ
+    .accesskey = a
 compact-folder-size =
     .value = Me en holl
 
@@ -246,6 +253,8 @@ smaller-size-item =
 quoted-text-color =
     .label = Liv :
     .accesskey = L
+type-column-header = Seurt endalc'had
+action-column-header = Gwered
 save-to-label =
     .label = Enrollañ ar restroù e
     .accesskey = E
@@ -304,6 +313,8 @@ open-msg-ex-window =
 close-move-delete =
     .label = Serrin prenestr / ivinell ar gemennadenn goude an dilec'hiañ pe an dilemel
     .accesskey = S
+display-name-label =
+    .value = Anv da skrammañ:
 condensed-addresses-label =
     .label = Diskouez an anv evit an den eus ma c'harned chomlec'hioù nemetken
     .accesskey = D
@@ -402,6 +413,8 @@ add-cloud-account =
 remove-cloud-account =
     .label = Lemel
     .accesskey = L
+find-cloud-providers =
+    .value = Kavout muioc’h a bourchaserien…
 cloud-account-description = Ouzhpennañ ur gwazerezh kadaviñ Filelink nevez
 
 ## Privacy Tab
@@ -497,6 +510,7 @@ certificate-button =
 security-devices-button =
     .label = Trevnadoù diogelroez…
     .accesskey = T
+account-settings = Arventennoù ar gont
 
 ## Chat Tab
 
