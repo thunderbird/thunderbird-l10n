@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Muuda kõiki toimumiskordi
     .accesskey = k
+description-context-menu-copy-link-text =
+    .label = Kopeeri lingi tekst

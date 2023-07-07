@@ -10,6 +10,20 @@ quick-filter-button =
 quick-filter-button-label = Kiirfilter
 thread-pane-header-display-button =
     .title = Nimekirja kuvamise valikud
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } kiri
+       *[other] { $count } kirja
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } valitud
+       *[other] { $count } valitud
+    }
 thread-pane-header-context-table-view =
     .label = Tabelivaade
 thread-pane-header-context-cards-view =
@@ -30,6 +44,16 @@ quick-filter-bar-sticky =
 # a dropdown menu.
 quick-filter-bar-dropdown =
     .title = Kiirfiltri menüü
+quick-filter-bar-dropdown-unread =
+    .label = Lugemata
+quick-filter-bar-dropdown-starred =
+    .label = Tähistatud
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Sildid
+quick-filter-bar-dropdown-attachment =
+    .label = Manusega
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -140,16 +164,40 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = T
 folder-pane-write-message-button = Uus kiri
     .title = Koosta uus kiri
+folder-pane-more-menu-button =
+    .title = Kaustade paneeli sätted
 folder-pane-header-context-hide =
     .label = Peida kaustade paneeli päis
+folder-pane-header-hide-local-folders =
+    .label = Peida kohalikud kaustad
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktne vaade
     .accesskey = p
+folder-pane-mode-move-up =
+    .label = Liiguta üles
+folder-pane-mode-move-down =
+    .label = Liiguta alla
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 unread lugemata kiri
+       *[other] { $count } lugemata kirja
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 kiri
+       *[other] { $count } kirja
+    }
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Lülita kõikide kirjade valimist
+threadpane-column-header-select-all =
+    .title = Vali kõik kirjad
 threadpane-column-label-select =
     .label = Vali kõik kirjad
 threadpane-column-header-thread =
