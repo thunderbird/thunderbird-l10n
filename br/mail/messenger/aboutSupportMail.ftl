@@ -15,4 +15,5 @@ accounts-auth-method = Hentenn dilesa
 accounts-default = Dre ziouer?
 identity-name = Titouroù ar gont
 send-via-email = Kas dre bostel
+libs-table-heading-status = Stad
 libs-rnp-status-ok = Mat eo
