@@ -4,6 +4,7 @@
 
 calendar-title = Deiziataer
 calendar-title-reminder = Kounadurioù
+calendar-title-notification = Rebuzadurioù
 calendar-title-category = Rummadoù
 dateformat-label =
     .value = Rizh testenn an deiziad:
@@ -97,12 +98,6 @@ previous-weeks-label =
     .value = Sizhunvezhioù kent da ziskouez:
     .accesskey = o
 todaypane-legend = Panell &hiziv
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = Ar rann dazont a ziskouez:
-    .accesskey = U
 event-task-legend = Darvoudoù ha trevelloù
 default-length-label =
     .value = Padelezh dre ziouer an darvoudoù hag an taskoù:
