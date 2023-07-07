@@ -16,6 +16,10 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
+customize-space-tab-chat = Flapva
+    .title = Flapva
+customize-space-tab-settings = Arventennoù
+    .title = Arventennoù
 customize-button-style-icons-beside-text =
     .label = Arlunioù ouzhpenn an destenn
 customize-button-style-icons-beside-text-option = Arlunioù ouzhpenn an destenn

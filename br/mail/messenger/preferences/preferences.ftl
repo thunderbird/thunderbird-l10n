@@ -23,10 +23,17 @@ general-files-and-attachment-header = Restroù & Kenstagadurioù
 general-tags-header = Merkoù
 general-reading-and-display-header = Lenn & Skrammañ
 general-updates-header = Hizivadennoù
+composition-attachments-header = Kenstagadurioù
 compose-html-style-title = Doare HTML
+composition-addressing-header = Chomlec’hiañ
 privacy-passwords-header = Gerioù-tremen
+collection-health-report-telemetry-disabled-link = Gouzout hiroc’h
+collection-health-report-link = Gouzout hiroc’h
+collection-backlogged-crash-reports-link = Gouzout hiroc’h
 privacy-security-header = Diogelroez
 privacy-certificates-title = Testenioù
+chat-pane-header = Flapva
+chat-pane-styling-header = Neuz
 choose-messenger-language-description = Dibabit ar yezhoù arveret evit diskouez al lañserioù, kemennadennoù ha rebuzadurioù eus { -brand-short-name }.
 manage-messenger-languages-button =
     .label = Yezhoù all...
@@ -39,6 +46,7 @@ update-in-progress-ok-button = &Dilezel
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Kenderc'hel
+account-button = Arventennoù ar gont
 
 ## OS Authentication dialog
 
@@ -88,6 +96,9 @@ animated-alert-label =
 customize-alert-label =
     .label = Personelaat…
     .accesskey = P
+mail-system-sound-label =
+    .label = Son ar reizhiad dre ziouer evit ur postel nevez
+    .accesskey = d
 mail-custom-sound-label =
     .label = Ober gant ar restr son da heul
     .accesskey = u
