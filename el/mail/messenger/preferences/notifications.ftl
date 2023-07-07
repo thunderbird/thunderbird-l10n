@@ -4,17 +4,13 @@
 
 notifications-dialog-window =
     .title = Προσαρμογή ειδοποίησης νέων email
-
 customize-alert-description = Επιλέξτε ποια πεδία θα εμφανίζονται στην ειδοποίηση:
-
 preview-text-checkbox =
     .label = Προεπισκόπηση κειμένου μηνύματος
     .accesskey = Π
-
 subject-checkbox =
     .label = Θέμα
     .accesskey = Θ
-
 sender-checkbox =
     .label = Αποστολέας
     .accesskey = π
@@ -26,8 +22,7 @@ sender-checkbox =
 ## to translate the whole sentence.
 
 open-time-label-before =
-    .value = Εμφάνιση ειδοποίησης νέων email για
+    .value = Εμφάνιση ειδοποίησης για
     .accesskey = ν
-
 open-time-label-after =
     .value = δευτερόλεπτα
