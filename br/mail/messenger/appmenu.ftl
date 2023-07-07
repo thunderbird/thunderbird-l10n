@@ -14,6 +14,14 @@ appmenu-new-chat-account =
 
 ## New Account / Address Book
 
+appmenu-newab-panel-title =
+    .title = Karned chomlec’hioù nevez
+appmenu-newab-panel =
+    .label = Karned chomlec’hioù nevez
+    .accesskey = K
+appmenu-new-addressbook =
+    .label = Karned-chomlec’hioù lec'hel
+    .accesskey = K
 
 ## Create
 
@@ -26,6 +34,9 @@ appmenu-new-chat-account =
 
 ## Tools
 
+appmenu-tools-import =
+    .label = Enporzhiañ
+    .accesskey = E
 
 ## Help
 

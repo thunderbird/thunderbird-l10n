@@ -6,3 +6,6 @@ openpgp-one-recipient-status-status =
     .label = Stad
 openpgp-one-recipient-status-created-date =
     .label = Krouet
+pubkey-import-button =
+    .buttonlabelaccept = Enporzhiañ
+    .buttonaccesskeyaccept = E
