@@ -126,7 +126,7 @@ show-tags-folders-label =
     .label = Etiquetas
     .accesskey = t
 folder-toolbar-toggle-folder-compact-view =
-    .label = Visão compacta
+    .label = Exibição compacta
     .accesskey = c
 
 ## Menu

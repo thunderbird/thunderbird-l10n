@@ -187,7 +187,7 @@ folder-pane-header-hide-local-folders =
 folder-pane-mode-context-button =
     .title = Opções do modo de pasta
 folder-pane-mode-context-toggle-compact-mode =
-    .label = Visão compacta
+    .label = Exibição compacta
     .accesskey = c
 folder-pane-mode-move-up =
     .label = Mover para cima
@@ -337,7 +337,7 @@ threadpane-message-replied-forwarded-redirected =
 apply-columns-to-menu =
     .label = Aplicar colunas a…
 apply-current-view-to-menu =
-    .label = Aplicar visão atual a…
+    .label = Aplicar exibição atual a…
 apply-current-view-to-folder =
     .label = Pasta…
 apply-current-view-to-folder-children =
@@ -354,7 +354,7 @@ apply-current-columns-to-folder-message = Aplicar as colunas da pasta atual em {
 apply-current-columns-to-folder-with-children-message = Aplicar as colunas da pasta atual em { $name } e suas filhas?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-view-to-folder-message = Aplicar a visão da pasta atual a { $name }?
+apply-current-view-to-folder-message = Aplicar a exibição da pasta atual a { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-view-to-folder-with-children-message = Aplicar a visão da pasta atual a { $name } e seus filhos?
+apply-current-view-to-folder-with-children-message = Aplicar a exibição da pasta atual a { $name } e seus filhos?

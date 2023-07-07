@@ -4,7 +4,7 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-<!ENTITY viewPicker.label "Visualizar:">
+<!ENTITY viewPicker.label "Ver:">
 <!ENTITY viewPicker.accesskey "V">
 <!ENTITY viewAll.label "Tudo">
 <!ENTITY viewAll.accesskey "u">
@@ -14,9 +14,9 @@
 <!ENTITY viewNotDeleted.accesskey "e">
 <!ENTITY viewTags.label "Etiquetas">
 <!ENTITY viewTags.accesskey "t">
-<!ENTITY viewCustomViews.label "Visualizações">
+<!ENTITY viewCustomViews.label "Exibições personalizadas">
 <!ENTITY viewCustomViews.accesskey "V">
-<!ENTITY viewVirtualFolder.label "Salvar como pasta…">
+<!ENTITY viewVirtualFolder.label "Salvar exibição como pasta…">
 <!ENTITY viewVirtualFolder.accesskey "S">
 <!ENTITY viewCustomizeView.label "Personalizar…">
 <!ENTITY viewCustomizeView.accesskey "P">

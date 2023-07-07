@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "x">
 <!ENTITY unsubscribeNewsgroupCmd.label "Cancelar inscrição">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "C">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Selecionar">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Todos">
@@ -162,7 +164,7 @@
 <!ENTITY favoriteFolders.accesskey "F">
 <!ENTITY recentFolders.label "Recentes">
 <!ENTITY recentFolders.accesskey "R">
-<!ENTITY compactVersion.label "Visão compacta">
+<!ENTITY compactVersion.label "Exibição compacta">
 <!ENTITY compactVersion.accesskey "c">
 
 <!-- Sort Menu -->
@@ -537,7 +539,7 @@
 <!ENTITY chatButton.label "Conversa">
 <!ENTITY glodaSearch.title "Pesquisa global">
 <!ENTITY searchItem.title "Pesquisa rápida">
-<!ENTITY mailViewsToolbarItem.title "Modos de visualização">
+<!ENTITY mailViewsToolbarItem.title "Modos de exibição">
 <!ENTITY folderLocationToolbarItem.title "Local da pasta">
 <!ENTITY tagButton.label "Etiquetas">
 <!ENTITY compactButton.label "Compactar">
