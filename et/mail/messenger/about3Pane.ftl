@@ -198,6 +198,8 @@ threadpane-column-header-select =
     .title = Lülita kõikide kirjade valimist
 threadpane-column-header-select-all =
     .title = Vali kõik kirjad
+threadpane-column-header-deselect-all =
+    .title = Tühista kirjade valik
 threadpane-column-label-select =
     .label = Vali kõik kirjad
 threadpane-column-header-thread =
@@ -208,10 +210,12 @@ threadpane-column-header-flagged =
     .title = Sordi tähistuse järgi
 threadpane-column-label-flagged =
     .label = Tähistatus
+threadpane-flagged-cell-label = Tähistatud
 threadpane-column-header-attachments =
     .title = Sordi manuste järgi
 threadpane-column-label-attachments =
     .label = Manused
+threadpane-attachments-cell-label = Manused
 threadpane-column-header-spam =
     .title = Sordi rämpspostiks olemise järgi
 threadpane-column-label-spam =
@@ -221,6 +225,8 @@ threadpane-column-header-unread-button =
     .title = Sordi loetuse järgi
 threadpane-column-label-unread-button =
     .label = Loetus
+threadpane-read-cell-label = Loetud
+threadpane-unread-cell-label = Lugemata
 threadpane-column-header-sender = Saatja
     .title = Sordi saatja järgi
 threadpane-column-label-sender =
@@ -288,8 +294,34 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Uue kirja indikaator
+    .title = Uus kiri
+threadpane-message-replied =
+    .alt = Vastamise indikaator
+    .title = Vastatud kiri
+threadpane-message-redirected =
+    .alt = Ümber suunamise indikaator
+    .title = Ümber suunatud kiri
+threadpane-message-forwarded =
+    .alt = Edastamise indikaator
+    .title = Edastatud kiri
+threadpane-message-replied-forwarded =
+    .alt = Vastamise ja edastamise indikaator
+    .title = Vastatud ja edastatud kiri
+threadpane-message-replied-redirected =
+    .alt = Vastamise ja ümbersuunamise indikaator
+    .title = Vastatud ja ümbersuunatud kiri
+threadpane-message-forwarded-redirected =
+    .alt = Edastamise ja ümber suunamise indikaator
+    .title = Edastatud ja ümber suunatud kiri
+threadpane-message-replied-forwarded-redirected =
+    .alt = Vastamise, edastamise ja ümber suunamise indikaator
+    .title = Vastatud, edastatud ja ümber suunatud kiri
 apply-columns-to-menu =
     .label = Rakenda tulbad…
+apply-current-view-to-menu =
+    .label = Rakenda praegune vaade…
 apply-current-view-to-folder =
     .label = Kaustale…
 apply-current-view-to-folder-children =
@@ -297,9 +329,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Kas rakendada muudatused?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Kas rakendada käesoleva kausta tulbad kaustale { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Kas rakendada käesoleva kausta tulbad kaustale { $name } ja selle alamkaustadele?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Kas rakendada käesoleva kausta vaade kaustale { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Kas rakendada käesoleva kausta vaade kaustale { $name } ja selle alamkaustadele?
