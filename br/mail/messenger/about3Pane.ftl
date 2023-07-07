@@ -28,10 +28,10 @@ quick-filter-bar-unread-label = Anlennet
 # The tooltip for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred =
-    .title = Diskouez ar c'hemennadennoù steredek hepken
+    .title = Diskouez ar c’hemennadennoù gant ur steredenn hepken
 # The label for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
-quick-filter-bar-starred-label = Steredek
+quick-filter-bar-starred-label = Steredenn
 # The tooltip for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.

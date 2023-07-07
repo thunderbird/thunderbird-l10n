@@ -59,14 +59,14 @@
      include messages that have been starred/flagged.
      -->
 <!ENTITY quickFilterBar.starred.label
-         "Steredek">
+         "Steredenn">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.starred.tooltip):
      The tooltip for the filter button that causes us to filter results to only
      include messages that have been starred/flagged.
      -->
 <!ENTITY quickFilterBar.starred.tooltip
-         "Diskouez ar c'hemennadennoù steredek hepken">
+         "Diskouez ar c’hemennadennoù gant ur steredenn hepken">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.inaddrbook.label):
      The label for the filter button that causes us to filter results to only

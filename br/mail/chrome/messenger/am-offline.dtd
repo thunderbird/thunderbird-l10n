@@ -28,7 +28,7 @@
 <!ENTITY retentionKeepAll.accesskey "C">
 <!ENTITY retentionKeepRecent.label "Lemel kuit an holl anezho nemet ar re nevesañ">
 <!ENTITY retentionKeepRecent.accesskey "o">
-<!ENTITY retentionApplyToFlagged.label "Atav mirout ar c'hemennadennoù steredek">
+<!ENTITY retentionApplyToFlagged.label "Atav mirout ar c’hemennadennoù gant ur steredenn">
 <!ENTITY retentionApplyToFlagged.accesskey "k">
 <!ENTITY nntpRemoveMsgBody.label "Lemel ar c'horfoù eus ar c'hemennadennoù gant brasoc'h eget">
 <!ENTITY nntpRemoveMsgBody.accesskey "o">

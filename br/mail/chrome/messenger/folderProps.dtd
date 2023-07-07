@@ -26,7 +26,7 @@
 <!ENTITY retentionKeepAll.accesskey "a">
 <!ENTITY retentionKeepRecent.label "Dilemel an holl anezho nemet an nevesañ">
 <!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Atav mirout ar c'hemennadennoù steredek">
+<!ENTITY retentionApplyToFlagged.label "Atav mirout ar c’hemennadennoù gant ur steredenn">
 <!ENTITY retentionApplyToFlagged.accesskey "e">
 
 <!ENTITY folderSynchronizationTab.label          "Goubredañ">
