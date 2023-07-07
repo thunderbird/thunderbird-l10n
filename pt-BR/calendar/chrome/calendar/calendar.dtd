@@ -58,10 +58,10 @@
 <!ENTITY calendar.today.button.tooltip          "Ir para hoje" >
 <!ENTITY calendar.todaypane.button.tooltip      "Exibir painel hoje" >
 
-<!ENTITY calendar.day.button.tooltip            "Mudar para visão do dia" >
-<!ENTITY calendar.week.button.tooltip           "Mudar para visão da semana" >
-<!ENTITY calendar.month.button.tooltip          "Mudar para visão do mês" >
-<!ENTITY calendar.multiweek.button.tooltip      "Mudar para visão semanal" >
+<!ENTITY calendar.day.button.tooltip            "Mudar para exibição do dia" >
+<!ENTITY calendar.week.button.tooltip           "Mudar para exibição da semana" >
+<!ENTITY calendar.month.button.tooltip          "Mudar para exibição do mês" >
+<!ENTITY calendar.multiweek.button.tooltip      "Mudar para exibição semanal" >
 
 <!ENTITY calendar.nextday.label                 "Próximo dia" >
 <!ENTITY calendar.prevday.label                 "Dia anterior" >
@@ -98,7 +98,7 @@
 <!ENTITY calendar.completedtasks.checkbox.label     "Exibir tarefas concluídas" >
 <!ENTITY calendar.completedtasks.checkbox.accesskey "c" >
 
-<!ENTITY calendar.orientation.label "Alternar visão" >
+<!ENTITY calendar.orientation.label "Alternar exibição" >
 <!ENTITY calendar.orientation.accesskey "t" >
 
 <!ENTITY calendar.search.options.searchfor " contém">
