@@ -32,7 +32,7 @@
 
 <!ENTITY autotagEnable.label         "Krouiñ klavioù ent emgefreek adalek anvioù rummadoù al lanv">
 <!ENTITY autotagEnable.accesskey     "t">
-<!ENTITY autotagUsePrefix.label      "Rakgeriañ ar c'hlavioù gant :">
+<!ENTITY autotagUsePrefix.label      "Rakgeriañ ar merkoù gant:">
 <!ENTITY autotagUsePrefix.accesskey  "R">
 <!ENTITY autoTagPrefix.placeholder   "Enankit ur rakger klav">
 

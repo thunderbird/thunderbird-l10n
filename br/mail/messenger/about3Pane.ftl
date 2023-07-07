@@ -5,6 +5,7 @@
 
 ## Message List Header Bar
 
+quick-filter-button-label = Sil prim
 
 ## Quick Filter Bar
 
@@ -15,6 +16,8 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Mirout ar siloù arloet pa zigoran un teuliad all
+quick-filter-bar-dropdown-tags =
+    .label = Merkoù
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =

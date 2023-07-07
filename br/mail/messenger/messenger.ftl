@@ -23,15 +23,19 @@
 
 ## Toolbar
 
+quick-filter-toolbarbutton =
+    .label = Sil prim
+    .tooltiptext = Silañ ar c’hemennadennoù
 
 ## Folder Pane
 
+folder-pane-header-label = Teuliad
 
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
-    .label = Gerioù Alc'hwez
-    .accesskey = G
+    .label = Merkoù
+    .accesskey = M
 
 ## Menu
 

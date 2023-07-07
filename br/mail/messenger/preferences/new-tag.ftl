@@ -3,9 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-window =
-    .title = Klav nevez
-
+    .title = Merk nevez
 tag-name-label =
     .value = Anv ar merk :
     .accesskey = m
-
+tag-color-label =
+    .value = Liv:
+    .accesskey = L

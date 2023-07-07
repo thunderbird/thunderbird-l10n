@@ -182,7 +182,7 @@
 <!ENTITY sortBySizeCmd.accesskey "M">
 <!ENTITY sortByStatusCmd.label "Stad">
 <!ENTITY sortByStatusCmd.accesskey "S">
-<!ENTITY sortByTagsCmd.label "Gerioù Alc'hwez">
+<!ENTITY sortByTagsCmd.label "Merkoù">
 <!ENTITY sortByTagsCmd.accesskey "G">
 <!ENTITY sortByJunkStatusCmd.label "Stad lastez">
 <!ENTITY sortByJunkStatusCmd.accesskey "S">

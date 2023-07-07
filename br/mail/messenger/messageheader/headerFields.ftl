@@ -5,6 +5,7 @@
 
 ## Header lists
 
+message-header-tags-list-name = Merkoù
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.

@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-
 <!ENTITY viewPicker.label "Gwelout :">
 <!ENTITY viewPicker.accesskey "G">
 <!ENTITY viewAll.label "Pep tra">
@@ -13,7 +12,7 @@
 <!ENTITY viewUnread.accesskey "A">
 <!ENTITY viewNotDeleted.label "Ket dilamet">
 <!ENTITY viewNotDeleted.accesskey "d">
-<!ENTITY viewTags.label "Gerioù Alc'hwez">
+<!ENTITY viewTags.label "Merkoù">
 <!ENTITY viewTags.accesskey "G">
 <!ENTITY viewCustomViews.label "Personelaat ar gwelioù">
 <!ENTITY viewCustomViews.accesskey "r">
