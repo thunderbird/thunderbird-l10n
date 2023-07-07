@@ -189,6 +189,10 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakt byld
     .accesskey = K
+folder-pane-mode-move-up =
+    .label = Omheech ferpleatse
+folder-pane-mode-move-down =
+    .label = Omleech ferpleatse
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =

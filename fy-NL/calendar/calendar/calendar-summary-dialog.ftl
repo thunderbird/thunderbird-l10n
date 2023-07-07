@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Alle werhellingen bewurkje
     .accesskey = A
+description-context-menu-copy-link-text =
+    .label = Keppelingstekst kopiearje
