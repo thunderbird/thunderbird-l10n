@@ -54,6 +54,7 @@ e2e-learn-more = Gouzout hiroc’h
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+key-man-button-import = &Enporzhiañ
 
 ## Strings used in errorHandling.jsm
 
