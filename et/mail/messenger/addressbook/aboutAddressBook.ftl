@@ -22,7 +22,6 @@ about-addressbook-toolbar-import =
 ## Books
 
 all-address-books = Kõik aadressiraamatud
-
 about-addressbook-books-context-properties =
     .label = Omadused
 about-addressbook-books-context-synchronize =
@@ -39,7 +38,6 @@ about-addressbook-books-context-remove =
     .label = Eemalda
 about-addressbook-books-context-startup-default =
     .label = Avamisel kasutatav vaikekataloog
-
 about-addressbook-confirm-delete-book-title = Aadressiraamatu kustutamine
 # Variables:
 # $name (String) - Name of the address book to be deleted.
@@ -57,17 +55,14 @@ about-addressbook-search =
     .placeholder = Otsi aadressiraamatust { $name }
 about-addressbook-search-all =
     .placeholder = Otsi kõigist aadressiraamatutest
-
 about-addressbook-sort-button2 =
     .title = Nimekirja kuvamise valikud
-
 about-addressbook-name-format-display =
     .label = Kuvatav nimi
 about-addressbook-name-format-firstlast =
     .label = Eesnimi perekonnanimi
 about-addressbook-name-format-lastfirst =
     .label = Perekonnanimi, eesnimi
-
 about-addressbook-sort-name-ascending =
     .label = Sordi nime järgi (A > Y)
 about-addressbook-sort-name-descending =
@@ -76,7 +71,6 @@ about-addressbook-sort-email-ascending =
     .label = Sordi e-posti aadressi järgi (A > Y)
 about-addressbook-sort-email-descending =
     .label = Sordi e-posti aadressi järgi (Y > A)
-
 about-addressbook-horizontal-layout =
     .label = Lülitu horisontaalsele paigutusele
 about-addressbook-vertical-layout =
@@ -109,10 +103,40 @@ about-addressbook-column-label-organization =
 about-addressbook-column-header-addrbook = Aadressiraamat
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
-
+about-addressbook-column-header-generatedname2 = Nimi
+    .title = Sordi nime alusel
+about-addressbook-column-label-generatedname2 =
+    .label = Nimi
+about-addressbook-column-header-emailaddresses2 = E-posti aadressid
+    .title = Sordi e-posti aadresside alusel
+about-addressbook-column-label-emailaddresses2 =
+    .label = E-posti aadressid
+about-addressbook-column-header-nickname2 = Hüüdnimi
+    .title = Sordi hüüdnime alusel
+about-addressbook-column-label-nickname2 =
+    .label = Hüüdnimi
+about-addressbook-column-header-phonenumbers2 = Telefoninumbrid
+    .title = Sordi telefoninumbrite alisel
+about-addressbook-column-label-phonenumbers2 =
+    .label = Telefoninumbrid
+about-addressbook-column-header-addresses2 = Aadressid
+    .title = Sordi aadresside alusel
+about-addressbook-column-label-addresses2 =
+    .label = Aadressid
+about-addressbook-column-header-department2 = Osakond
+    .title = Sordi osakonna alusel
+about-addressbook-column-label-department2 =
+    .label = Osakond
+about-addressbook-column-header-organization2 = Asutus
+    .title = Sordi asutuse alusel
+about-addressbook-column-label-organization2 =
+    .label = Asutus
+about-addressbook-column-header-addrbook2 = Aadressiraamat
+    .title = Sordi aadressiraamatu alusel
+about-addressbook-column-label-addrbook2 =
+    .label = Aadressiraamat
 about-addressbook-cards-context-write =
     .label = Kirjuta
-
 about-addressbook-confirm-delete-mixed-title = Kontaktide ja listide kustutamine
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
@@ -176,30 +200,25 @@ about-addressbook-placeholder-no-search-results = Kontakte ei leitud
 ## Details
 
 about-addressbook-prefer-display-name = Kuvatavat nime eelistatakse kirja päistes olevale
-
 about-addressbook-write-action-button = Kirjuta
 about-addressbook-event-action-button = Sündmus
 about-addressbook-search-action-button = Otsi
-
 about-addressbook-begin-edit-contact-button = Muuda
 about-addressbook-delete-edit-contact-button = Kustuta
 about-addressbook-cancel-edit-contact-button = Loobu
 about-addressbook-save-edit-contact-button = Salvesta
-
 about-addressbook-add-contact-to = Aadressiraamat:
-
 about-addressbook-details-email-addresses-header = E-posti aadressid
 about-addressbook-details-phone-numbers-header = Telefoninumbrid
 about-addressbook-details-addresses-header = Addresses
 about-addressbook-details-notes-header = Märkmed
 about-addressbook-details-other-info-header = Muu info
-
 about-addressbook-entry-type-work = Töö
 about-addressbook-entry-type-home = Kodu
 about-addressbook-entry-type-fax = Faks
+# Or "Mobile"
 about-addressbook-entry-type-cell = Mobiil
 about-addressbook-entry-type-pager = Peiler
-
 about-addressbook-entry-name-birthday = Sünnipäev
 about-addressbook-entry-name-anniversary = Pulma-aastapäev
 about-addressbook-entry-name-title = Amet
@@ -207,7 +226,6 @@ about-addressbook-entry-name-role = Roll
 about-addressbook-entry-name-organization = Organisatsioon
 about-addressbook-entry-name-website = Sait
 about-addressbook-entry-name-time-zone = Ajavöönd
-
 about-addressbook-unsaved-changes-prompt-title = Salvestamata muudatused
 about-addressbook-unsaved-changes-prompt = Kas soovid enne redigeerimisvaatest väljumist muudatused salvestada?
 
@@ -217,7 +235,6 @@ about-addressbook-photo-drop-target = Lohista või kopeeri pilt siia või klõps
 about-addressbook-photo-drop-loading = Foto laadimine…
 about-addressbook-photo-drop-error = Foto laadimine ebaõnnestus.
 about-addressbook-photo-filepicker-title = Pildifaili valimine
-
 about-addressbook-photo-discard = Loobu olemasolevast fotost
 about-addressbook-photo-cancel = Loobu
 about-addressbook-photo-save = Salvesta
