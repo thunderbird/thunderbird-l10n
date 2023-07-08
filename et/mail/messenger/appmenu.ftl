@@ -8,9 +8,35 @@
 
 ## New Account
 
+appmenu-new-calendar =
+    .label = Kalender
+    .accesskey = K
+appmenu-new-chat-account =
+    .label = Kiirsuhtlus
+    .accesskey = s
+appmenu-new-feed =
+    .label = Uudistevood
+    .accesskey = U
+appmenu-new-newsgroup =
+    .label = Uudistegrupp
+    .accesskey = g
 
 ## New Account / Address Book
 
+appmenu-newab-panel-title =
+    .title = Uus aadressiraamat
+appmenu-newab-panel =
+    .label = Uus aadressiraamat
+    .accesskey = a
+appmenu-new-addressbook =
+    .label = Kohalik aadressiraamat
+    .accesskey = a
+appmenu-new-carddav =
+    .label = CardDAVi aadressiraamat
+    .accesskey = C
+appmenu-new-ldap =
+    .label = LDAPi aadressiraamat
+    .accesskey = L
 
 ## Create
 
