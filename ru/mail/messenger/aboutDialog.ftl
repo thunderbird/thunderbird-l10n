@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Что нового
-aboutDialog-title =
-    .title = О { -brand-full-name }
 about-dialog-title = О { -brand-full-name }
 release-notes-link = Примечания к выпуску
 update-internal-error = Не удалось проверить наличие обновлений из-за внутренней ошибки. Обновления доступны по адресу <a data-l10n-name="manual-link"/>
@@ -40,25 +38,9 @@ aboutDialog-version = { $version } ({ $bits }-разрядный)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-разрядный)
 aboutdialog-update-checking-failed = Не удалось проверить наличие обновлений.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     является <a data-l10n-name="community-exp-credits-link">
-    глобальным сообществом</a>
-    , работающим над тем, чтобы Интернет оставался открытым, публичным и доступным для всех и каждого.
-community-2 =
-    { -brand-short-name } создан <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-     — <a data-l10n-name="community-credits-link">
-    глобальным сообществом</a>
-    , работающим над тем, чтобы Интернет оставался открытым, публичным и доступным для всех и каждого.
-about-helpus =
-    Хотите помочь? <a data-l10n-name="helpus-donate-link">
-    Сделайте пожертвование</a> or <a data-l10n-name="helpus-get-involved-link">
-    присоединяйтесь!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> является <a data-l10n-name="community-exp-credits-link">глобальным сообществом</a>, работающим над тем, чтобы Интернет оставался открытым, публичным и доступным для всех и каждого.
 community-desc = { -brand-short-name } создан <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> — <a data-l10n-name="community-credits-link">глобальным сообществом</a>, работающим над тем, чтобы Интернет оставался открытым, публичным и доступным для всех и каждого.
-about-donation = Хотите помочь? <a data-l10n-name="helpus-donate-link">Сделайте пожертвование</a> or <a data-l10n-name="helpus-get-involved-link">присоединяйтесь!</a>
+about-donation = Хотите помочь? <a data-l10n-name="helpus-donate-link">Сделайте пожертвование</a> или <a data-l10n-name="helpus-get-involved-link">присоединяйтесь!</a>
 bottom-links-license = Информация о лицензии
 bottom-links-rights = Права конечного пользователя
 bottom-links-privacy = Политика приватности
