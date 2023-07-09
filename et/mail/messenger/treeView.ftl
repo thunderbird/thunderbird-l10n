@@ -5,7 +5,28 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Märkeruut praeguse rea valimiseks
+    .title = Vali praegune rida
+tree-list-view-row-deselect =
+    .alt = Märkeruut praeguse rea valimiseks
+    .title = Eemalda praeguse rea valik
+tree-list-view-row-delete =
+    .title = Kustutage praegune rida
+tree-list-view-row-restore =
+    .title = Taasta praegune rida
 tree-list-view-column-picker =
     .title = Vali kuvatavad veerud
 tree-list-view-column-picker-restore =
     .label = Taasta veergude järjekord
+tree-list-view-row-thread-button =
+    .title = See kiri on lõimes
+tree-list-view-row-ignored-thread = Ignoreeritud lõim
+tree-list-view-row-ignored-thread-button =
+    .title = Seda kirja ignoreeritakse lõimes
+tree-list-view-row-ignored-subthread = Ignoreeritud alamlõim
+tree-list-view-row-ignored-subthread-button =
+    .title = See alamlõim on ignoreeritud
+tree-list-view-row-watched-thread = Jälgitud lõim
+tree-list-view-row-watched-thread-button =
+    .title = See kiri on lõimes jälgitud

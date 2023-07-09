@@ -124,6 +124,8 @@ remove-search-engine =
 add-opensearch-provider-title = Lisa OpenSearchi teenusepakkuja
 add-opensearch-provider-text = Sisesta lisatava OpenSearchi teenusepakkuja URL. Kasuta kas otsest kirjeldusfaili URLi või automaatselt tuvastamise URLi.
 adding-opensearch-provider-failed-title = OpenSearchi teenusepakkuja lisamine ebaõnnestus.
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = OpenSearchi teenusepakkujat URLile { $url } polnud võimalik lisada.
 minimize-to-tray-label =
     .label = { -brand-short-name }i minimeerimisel liigutatakse see salve
@@ -353,6 +355,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = kohe pärast kuvamist
     .accesskey = o
+view-attachments-inline =
+    .label = Manuste kuvamine kirja sees
+    .accesskey = M
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
