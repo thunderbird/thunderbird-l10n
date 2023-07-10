@@ -181,10 +181,10 @@ menu-edit-properties =
     .accesskey = P
 menu-edit-folder-properties =
     .label = Priodweddau Ffolderi
-    .accesskey = P
+    .accesskey = F
 menu-edit-newsgroup-properties =
     .label = Priodweddau Grŵp Newyddion
-    .accesskey = P
+    .accesskey = G
 
 ## Message Menu
 
