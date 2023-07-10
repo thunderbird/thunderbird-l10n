@@ -53,8 +53,12 @@ menu-edit-delete-folder =
 menu-edit-delete-messages =
     .label =
         { $count ->
-            [one] Dilemel ar gemennadenn
-           *[other] Dilemel ar c'hemennadennoù diuzet
+            [1] Dilemel ar gemennadenn
+            [one] Dilemel ar c’hemennadennoù diuzet
+            [two] Dilemel ar c’hemennadennoù diuzet
+            [few] Dilemel ar c’hemennadennoù diuzet
+            [many] Dilemel ar c’hemennadennoù diuzet
+           *[other] Dilemel ar c’hemennadennoù diuzet
         }
     .accesskey = D
 # Variables:
@@ -62,8 +66,12 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Adsevel ar gemennadenn
-           *[other] Dizilemel ar c'hemennadennoù diuzet
+            [1] Dizilemel ar gemennadenn
+            [one] Dizilemel ar c’hemennadennoù diuzet
+            [two] Dizilemel ar c’hemennadennoù diuzet
+            [few] Dizilemel ar c’hemennadennoù diuzet
+            [many] Dizilemel ar c’hemennadennoù diuzet
+           *[other] Dizilemel ar c’hemennadennoù diuzet
         }
     .accesskey = d
 menu-edit-properties =
@@ -91,8 +99,12 @@ appmenu-settings =
 mail-context-undelete-messages =
     .label =
         { $count ->
-            [one] Adsevel ar gemennadenn
-           *[other] Dizilemel ar c'hemennadennoù diuzet
+            [1] Dizilemel ar gemennadenn
+            [one] Dizilemel ar c’hemennadennoù diuzet
+            [two] Dizilemel ar c’hemennadennoù diuzet
+            [few] Dizilemel ar c’hemennadennoù diuzet
+            [many] Dizilemel ar c’hemennadennoù diuzet
+           *[other] Dizilemel ar c’hemennadennoù diuzet
         }
 
 ## Message header pane

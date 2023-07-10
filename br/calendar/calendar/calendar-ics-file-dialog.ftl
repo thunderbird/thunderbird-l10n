@@ -13,6 +13,14 @@ calendar-ics-file-accept-button-ok-label = Mat eo
 calendar-ics-file-cancel-button-close-label = Serriñ
 calendar-ics-file-dialog-message-2 = Enporzhiañ adalek ur restr:
 calendar-ics-file-dialog-calendar-menu-label = Enporzhiañ en deiziataer:
+# "A > Z" is used as a concise way to say "alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-ascending =
+    .label = Rummañ dre ditl (A > Z)
+# "Z > A" is used as a concise way to say "reverse alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-descending =
+    .label = Rummañ dre ditl (Z > A)
 calendar-ics-file-dialog-progress-message = Oc’h enporzhiañ…
 calendar-ics-file-import-success = Enporzhiet gant berzh!
 calendar-ics-file-import-error = Ur fazi a zo c'hoarvezet ha c'hwitet eo bet war an enporzhiañ.

@@ -66,8 +66,10 @@ quick-filter-bar-no-results = Disoc'h ebet
 quick-filter-bar-results =
     { $count ->
         [one] { $count } gemennadenn
-        [two] { $count } a gemennadennoù
-       *[other] { $count } a gemennadennoù
+        [two] { $count } gemennadenn
+        [few] { $count } c'hemennadenn
+        [many] { $count } a gemennadennoù
+       *[other] { $count } kemennadenn
     }
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
