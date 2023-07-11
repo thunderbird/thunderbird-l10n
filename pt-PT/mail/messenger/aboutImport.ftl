@@ -91,6 +91,9 @@ addr-book-vcard-file = Ficheiro vCard (.vcf, .vcard)
 addr-book-sqlite-file = Ficheiro de base de dados SQLite (.sqlite)
 addr-book-mab-file = Ficheiro de base de dados Mork (.mab)
 addr-book-file-picker = Selecione um ficheiro de livro de endereços
+addr-book-csv-field-map-title = Corresponder nomes dos campos
+addr-book-csv-field-map-desc = Selecione os campos do livro de endereços que correspondem aos campos da fonte. Desmarque os que não quiser importar.
+addr-book-directories-title = Selecione para onde importar os dados selecionados
 addr-book-directories-pane-source = Ficheiro fonte:
 # $addressBookName (string) - name of the new address book that would be created.
 addr-book-import-into-new-directory2 = Crie uma nova diretoria denominada por <strong>"{ $addressBookName }"</strong>
@@ -111,6 +114,13 @@ calendar-deselect-all-items = Desselecionar tudo
 calendar-target-title = Selecione para onde importar os itens escolhidos.
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = Crie um novo calendário denominado por <strong>"{ $targetCalendar }"</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+        [one] Importar um item para o calendário "{ $targetCalendar }"
+       *[other] Importar { $itemCount } para o calendário "{ $targetCalendar }"
+    }
 
 ## Import dialog
 

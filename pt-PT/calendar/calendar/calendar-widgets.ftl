@@ -74,10 +74,14 @@ calendar-view-toggle-month = Mês
 
 calendar-control-bar-menu-button =
     .title = Opções do esquema do calendário
+calendar-find-events-menu-option =
+    .label = Painel de Localização de Eventos
 calendar-hide-weekends-option =
     .label = Apenas dias úteis
 calendar-define-workweek-option =
     .label = Defina os dias úteis
+calendar-show-tasks-calendar-option =
+    .label = Mostrar tarefas no calendário
 
 ## Calendar Context Menu
 

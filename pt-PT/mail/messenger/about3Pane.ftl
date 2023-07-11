@@ -5,6 +5,31 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Alternar barra de filtros rápidos
+quick-filter-button-label = Filtro rápido
+thread-pane-header-display-button =
+    .title = Mostrar opções de apresentação
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } mensagem
+       *[other] { $count } mensagens
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } selecionada
+       *[other] { $count } selecionadas
+    }
+thread-pane-header-context-table-view =
+    .label = Vista de tabela
+thread-pane-header-context-cards-view =
+    .label = Vista de cartões
+thread-pane-header-context-hide =
+    .label = Ocultar cabeçalho da lista de mensagens
 
 ## Quick Filter Bar
 
@@ -15,6 +40,20 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Manter aplicação de filtros ao trocar de pastas
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Menu de filtros rápidos
+quick-filter-bar-dropdown-unread =
+    .label = Não lidas
+quick-filter-bar-dropdown-starred =
+    .label = Com estrela
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Contacto
+quick-filter-bar-dropdown-tags =
+    .label = Etiquetas
+quick-filter-bar-dropdown-attachment =
+    .label = Anexo
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -127,11 +166,47 @@ folder-pane-write-message-button = Nova mensagem
     .title = Componha uma nova mensagem
 folder-pane-more-menu-button =
     .title = Opções do painel de pastas
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modos de pastas
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Mostrar “Obter mensagens”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Mostrar “Nova mensagem”
 folder-pane-header-context-hide =
     .label = Ocultar cabeçalho do painel de pastas
+folder-pane-show-total-toggle =
+    .label = Mostrar o número total de mensagens
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Mostrar tamanho da pasta
+folder-pane-header-hide-local-folders =
+    .label = Ocultar pastas locais
+folder-pane-mode-context-button =
+    .title = Opções do modo de pastas
 folder-pane-mode-context-toggle-compact-mode =
     .label = Visão compactada
     .accesskey = c
+folder-pane-mode-move-up =
+    .label = Mover para cima
+folder-pane-mode-move-down =
+    .label = Mover para baixo
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 mensagem por ler
+       *[other] { $count } mensagens por ler
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 mensagem
+       *[other] { $count } mensagens
+    }
 
 ## Message thread pane
 
@@ -151,18 +226,23 @@ threadpane-column-header-flagged =
     .title = Ordenar por estrela
 threadpane-column-label-flagged =
     .label = Com estrela
+threadpane-flagged-cell-label = Com estrela
 threadpane-column-header-attachments =
     .title = Ordenar por anexos
 threadpane-column-label-attachments =
     .label = Anexos
+threadpane-attachments-cell-label = Anexos
 threadpane-column-header-spam =
     .title = Ordenar por estado do lixo eletrónico
 threadpane-column-label-spam =
     .label = Spam
+threadpane-spam-cell-label = Spam
 threadpane-column-header-unread-button =
     .title = Ordenar pelo estado de leitura
 threadpane-column-label-unread-button =
     .label = Estado de leitura
+threadpane-read-cell-label = Lidas
+threadpane-unread-cell-label = Não lidas
 threadpane-column-header-sender = De
     .title = Ordenar por remetente
 threadpane-column-label-sender =
