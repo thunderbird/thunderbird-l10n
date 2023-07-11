@@ -92,10 +92,11 @@ addon-confirm-install-unsigned-message =
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
 addon-confirm-install-some-unsigned-message =
     { $addonCount ->
-        [two] Diwallit : c’hoant he deus al lec'hienn-mañ da staliañ { $addonCount } askouezh e { -brand-short-name }, ha reoù ’zo n’int ket gwiriet. Kendalc’hit en ho riskl hoc’h-unan.
-        [few] Diwallit : c’hoant he deus al lec’hienn-mañ da staliañ { $addonCount } askouezh e { -brand-short-name }, ha reoù ’zo n’int ket gwiriet. Kendalc’hit en ho riskl hoc’h-unan.
-        [many] Diwallit : c’hoant he deus al lec'hienn-mañ da staliañ { $addonCount } a askouezhioù e { -brand-short-name }, ha reoù ’zo n’int ket gwiriet. Kendalc’hit en ho riskl hoc’h-unan.
-       *[other] Diwallit : c’hoant he deus al lec'hienn-mañ da staliañ { $addonCount } askouezh e { -brand-short-name }, ha reoù ’zo n’int ket gwiriet. Kendalc’hit en ho riskl hoc’h-unan.
+        [one] Diwallit: c’hoant he deus al lec'hienn-mañ da staliañ { $addonCount } askouezh e { -brand-short-name }, ha reoù ’zo n’int ket gwiriet. Kendalc’hit en ho riskl hoc’h-unan.
+        [two] Diwallit: c’hoant he deus al lec'hienn-mañ da staliañ { $addonCount } askouezh e { -brand-short-name }, ha reoù ’zo n’int ket gwiriet. Kendalc’hit en ho riskl hoc’h-unan.
+        [few] Diwallit: c’hoant he deus al lec’hienn-mañ da staliañ { $addonCount } askouezh e { -brand-short-name }, ha reoù ’zo n’int ket gwiriet. Kendalc’hit en ho riskl hoc’h-unan.
+        [many] Diwallit: c’hoant he deus al lec'hienn-mañ da staliañ { $addonCount } a askouezhioù e { -brand-short-name }, ha reoù ’zo n’int ket gwiriet. Kendalc’hit en ho riskl hoc’h-unan.
+       *[other] Diwallit: c’hoant he deus al lec'hienn-mañ da staliañ { $addonCount } askouezh e { -brand-short-name }, ha reoù ’zo n’int ket gwiriet. Kendalc’hit en ho riskl hoc’h-unan.
     }
 
 ## Add-on install errors
