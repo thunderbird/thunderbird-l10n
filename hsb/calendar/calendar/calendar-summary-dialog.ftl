@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Wšě podawki wobdźěłać
     .accesskey = d
+description-context-menu-copy-link-text =
+    .label = Wotkazowy tekst kopěrować
