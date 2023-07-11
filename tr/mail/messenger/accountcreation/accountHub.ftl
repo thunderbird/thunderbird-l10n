@@ -10,7 +10,7 @@
 ## Header
 
 account-hub-brand = { -brand-full-name }
-account-hub-welcome-line = <span data-l10n-name="brand-name">{ -brand-full-name }</span>’e hoş geldiniz
+account-hub-welcome-line = <span data-l10n-name="brand-name">{ -brand-full-name }’e</span> hoş geldiniz
 account-hub-title = Hesap merkezi
 
 ## Footer
@@ -18,17 +18,6 @@ account-hub-title = Hesap merkezi
 account-hub-release-notes = Sürüm notları
 account-hub-support = Destek
 account-hub-donate = Bağış yapın
-
-## Start page
-
-account-hub-email-button = E-posta hesabı kur
-account-hub-new-email-button = Yeni bir e-posta adresi al
-account-hub-calendar-button = Takvimi ayarla
-account-hub-address-book-button = Adres defterini ayarla
-account-hub-chat-button = Sohbeti ayarla
-account-hub-feed-button = RSS beslemesini ayarla
-account-hub-newsgroup-button = Haber grubu kur
-account-hub-import-button = Profili içe aktar
 
 ## Initial setup page
 
