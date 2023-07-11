@@ -94,8 +94,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Düzenleyene yanıt göndermeden bu dizi için katılım durumunuzu değiştirin">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
@@ -109,6 +107,6 @@
 <!ENTITY todaypane.showMiniday.accesskey  "ü">
 <!ENTITY todaypane.showNone.label "Hiçbirini gösterme">
 <!ENTITY todaypane.showNone.accesskey "H">
-<!ENTITY todaypane.showTodayPane.label "Bugünün bölmesini göster">
+<!ENTITY todaypane.showTodayPane.label "Bugün bölmesini göster">
 <!ENTITY todaypane.showTodayPane.accesskey "ö">
 <!ENTITY todaypane.statusButton.label "Bugün bölmesi">
