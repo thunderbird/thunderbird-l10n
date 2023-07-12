@@ -38,6 +38,9 @@ appmenu-new-newsgroup =
 
 appmenu-create-panel-title =
     .title = Opprett
+appmenu-create-panel =
+    .label = Ny
+    .accesskey = N
 appmenu-create-message =
     .label = Melding
     .accesskey = M
