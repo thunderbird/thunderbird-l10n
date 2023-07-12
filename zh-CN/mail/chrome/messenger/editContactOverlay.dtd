@@ -5,13 +5,13 @@
 <!ENTITY editContactPanelDeleteContact.label "删除">
 <!ENTITY editContactPanelDeleteContact.accesskey "l">
 
-<!ENTITY editContactName.label "名称：">
+<!ENTITY editContactName.label "名称">
 <!ENTITY editContactName.accesskey "N">
 
-<!ENTITY editContactEmail.label "电子邮件：">
+<!ENTITY editContactEmail.label "邮箱">
 <!ENTITY editContactEmail.accesskey "E">
 
-<!ENTITY editContactAddressBook.label "通讯录：">
+<!ENTITY editContactAddressBook.label "通讯录">
 <!ENTITY editContactAddressBook.accesskey "A">
 
 <!ENTITY editContactPanelDone.label "完成">
