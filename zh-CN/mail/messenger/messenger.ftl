@@ -205,7 +205,7 @@ context-menu-redirect-msg =
 mail-context-delete-messages =
     .label =
         { $count ->
-           *[other] 删除选择的消息？
+           *[other] 删除选中消息
         }
 context-menu-decrypt-to-folder =
     .label = 复制解密消息到

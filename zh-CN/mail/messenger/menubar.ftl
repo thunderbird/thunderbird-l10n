@@ -74,7 +74,7 @@ quit-app-shortcut =
 ## Mail Toolbar
 
 toolbar-junk-button =
-    .label = 是垃圾邮件
+    .label = 垃圾邮件
     .tooltiptext = 将选择的消息标记为垃圾邮件
 toolbar-not-junk-button =
     .label = 非垃圾邮件
