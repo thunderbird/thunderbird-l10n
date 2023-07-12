@@ -44,6 +44,18 @@ menu-help-more-troubleshooting-info =
 menu-help-troubleshooting-info =
     .label = Feilsøkingsinfo
     .accesskey = F
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Avslutt
+           *[other] Avslutt
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] A
+           *[other] A
+        }
 
 ## Mail Toolbar
 

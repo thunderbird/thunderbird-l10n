@@ -143,6 +143,9 @@ exchange-dialog-cancel-button = Avbryt
 
 ## Dismiss account creation dialog
 
+exit-dialog-title = Ingen e-postkonto konfigurert
+exit-dialog-cancel-button = Hald fram med konfigurasjonen
+    .accesskey = H
 
 ## Alert dialogs
 
