@@ -18,6 +18,7 @@ calendars-table-imip-identity = Identidade iMIP
 calendars-table-imip-identity-disabled = iMIP desativado
 calendars-table-imip-identity-account = Conta iMIP
 calendars-table-organizerid = Id. do organizador
+calendars-table-forceemailscheduling = Forçar agendamento de e-mail
 calendars-table-capabilities-alarms-popup-supported = Suportados alarmes de Pop-up
 calendars-table-capabilities-alarms-oninviations-supported = Suportados alarmes no convite
 calendars-table-capabilities-attachments-supported = Suportados anexos
