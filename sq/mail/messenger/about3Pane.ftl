@@ -5,6 +5,30 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Shfaqni/Fshihni Shtyllën e Filtrimit të Shpejtë
+quick-filter-button-label = Filtrim i Shpejtë
+thread-pane-header-display-button =
+    .title = Mundësi shfaqjeje liste mesazhesh
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } Mesazh
+       *[other] { $count } Mesazhe
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] { $count } të Përzgjedhur
+    }
+thread-pane-header-context-table-view =
+    .label = Parje Si Tabelë
+thread-pane-header-context-cards-view =
+    .label = Parje Si Skeda
+thread-pane-header-context-hide =
+    .label = Fshih Krye Liste Mesazhesh
 
 ## Quick Filter Bar
 
@@ -15,6 +39,20 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Mbajini në punë filtrat, kur këmbehen dosje
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Menu filtrimi të shpejtë
+quick-filter-bar-dropdown-unread =
+    .label = Të palexuar
+quick-filter-bar-dropdown-starred =
+    .label = Me yllkë
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Etiketa
+quick-filter-bar-dropdown-attachment =
+    .label = Bashkëngjitje
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -127,11 +165,47 @@ folder-pane-write-message-button = Mesazh i Ri
     .title = Hartoni një mesazh të ri
 folder-pane-more-menu-button =
     .title = Mundësi kuadrati dosjesh
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Mënyra Dosjesh
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Shfaq “Merr Mesazhe”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Shfaq “Mesazh i Ri”
 folder-pane-header-context-hide =
     .label = Fshih Krye Kuadrati Dosjesh
+folder-pane-show-total-toggle =
+    .label = Shfaq Numër Mesazhesh Gjithsej
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Shfaq Madhësi Dosjeje
+folder-pane-header-hide-local-folders =
+    .label = Fshihi Dosjet Vendore
+folder-pane-mode-context-button =
+    .title = Mundësi mënyrash dosjesh
 folder-pane-mode-context-toggle-compact-mode =
     .label = Parje e Ngjeshur
     .accesskey = P
+folder-pane-mode-move-up =
+    .label = Shpjere Sipër
+folder-pane-mode-move-down =
+    .label = Shpjere Poshtë
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 mesazh i palexuar
+       *[other] { $count } mesazhe të palexuar
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Gjithsej 1mesazh
+       *[other] Gjithsej { $count } mesazhe
+    }
 
 ## Message thread pane
 
@@ -166,6 +240,7 @@ threadpane-column-header-unread-button =
     .title = Renditi sipas gjendjeje leximi
 threadpane-column-label-unread-button =
     .label = Gjendje leximi
+threadpane-read-cell-label = Të lexuar
 threadpane-column-header-sender = Nga
     .title = Renditi sipas nga-ve
 threadpane-column-label-sender =
