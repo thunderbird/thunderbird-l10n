@@ -241,6 +241,7 @@ threadpane-column-header-unread-button =
 threadpane-column-label-unread-button =
     .label = Gjendje leximi
 threadpane-read-cell-label = Të lexuar
+threadpane-unread-cell-label = Të palexuar
 threadpane-column-header-sender = Nga
     .title = Renditi sipas nga-ve
 threadpane-column-label-sender =
