@@ -7,7 +7,7 @@
 <!ENTITY conversationsHeader.label     "对话">
 <!ENTITY searchResultConversation.label "搜索结果">
 <!ENTITY chat.noConv.title             "对话会显示在这里。">
-<!ENTITY chat.noConv.description       "使用左侧的联系人列表开始一次对话。">
+<!ENTITY chat.noConv.description       "使用左侧的联系人列表开始对话。">
 <!ENTITY chat.noPreviousConv.description       "&brandShortName; 目前没有存储任何以前与此联系人的对话。">
 <!ENTITY chat.noAccount.title             "您还没有设置聊天账户。">
 <!ENTITY chat.noAccount.description       "让 &brandShortName; 引导您设置聊天账户。">
