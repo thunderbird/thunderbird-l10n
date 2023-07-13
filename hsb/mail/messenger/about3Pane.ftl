@@ -184,7 +184,7 @@ folder-pane-header-context-toggle-new-message =
 folder-pane-header-context-hide =
     .label = Hłowu wobłuka rjadowaka schować
 folder-pane-show-total-toggle =
-    .label = Cyłkowna ličba powěsćow
+    .label = Cyłkownu ličbu powěsćow pokazać
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Wulkosć rjadowaka pokazać
