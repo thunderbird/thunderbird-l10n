@@ -184,7 +184,7 @@ folder-pane-header-context-toggle-new-message =
 folder-pane-header-context-hide =
     .label = Głowu wobceŕka zarědnika schowaś
 folder-pane-show-total-toggle =
-    .label = Cełkowna licba powěsćow
+    .label = Cełkownu licbu powěsćow pokazaś
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Wjelikosć zarědnika pokazaś
