@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-title = Каляндар
+calendar-title-notification = Абвесткі
 calendar-title-category = Катэгорыі
+dateformat-label =
+    .value = Тэкставы фармат даты:
+    .accesskey = Д
 task-start-4-label =
     .label = Заўтра
