@@ -141,8 +141,12 @@ account-setup-result-username-different = A receber: { $incoming }, A enviar: { 
 
 ## Error messages
 
+# Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
+account-setup-credentials-incomplete = A autenticação falhou. As credenciais inseridas estão incorretas ou é necessário um nome de utilizador separado para iniciar a sessão. Este nome de utilizador é geralmente a credencial do domínio do Windows com ou sem o domínio (por exemplo, janedoe ou AD\\janedoe)
 account-setup-credentials-wrong = A autenticação falhou. Por favor, verifique o nome de utilizador e palavra-passe
 account-setup-find-settings-failed = O { -brand-short-name } não conseguiu localizar as definições da sua conta.
+account-setup-exchange-config-unverifiable = Não foi possível verificar a configuração. Se o seu nome de utilizador e palavra-passe estiverem corretos, é provável que o administrador do servidor tenha desativado a configuração selecionada para a sua conta. Tente selecionar outro protocolo.
+account-setup-provisioner-error = Ocorreu um erro ao configurar a sua nova conta em { -brand-short-name }. Por favor, tente configurar manualmente a sua conta com as suas credenciais.
 
 ## Manual configuration area
 
@@ -152,6 +156,7 @@ account-setup-protocol-label = Protocolo:
 account-setup-hostname-label = Nome do servidor:
 account-setup-port-label = Porta:
     .title = Defina o número da porta para 0 para deteção automática
+account-setup-auto-description = O { -brand-short-name } tentará detetar automaticamente os campos deixados em branco.
 account-setup-ssl-label = Segurança da ligação:
 account-setup-outgoing-server-legend = Servidor de envio
 
@@ -178,8 +183,10 @@ account-setup-insecure-outgoing-title = Definições de envio:
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> não utiliza encriptação.
+account-setup-warning-cleartext-details = Os servidores de correio inseguros não utilizam ligações encriptadas para proteger as suas palavras-passe ou informações privadas. Ao estabelecer ligação a este servidor pode expor a sua palavra-passe e as informações privadas.
 account-setup-insecure-server-checkbox = Eu compreendo os riscos
     .accesskey = u
+account-setup-insecure-description = O { -brand-short-name } pode permitir que receba o seu correio com as configurações indicadas. No entanto, deve contactar o administrador ou fornecedor de correio eletrónico sobre estas ligações incorretas. Para mais informações, consulte as <a data-l10n-name="thunderbird-faq-link">FAQ do Thunderbird</a>.
 insecure-dialog-cancel-button = Alterar definições
     .accesskey = d
 insecure-dialog-confirm-button = Confirmar
@@ -187,12 +194,16 @@ insecure-dialog-confirm-button = Confirmar
 
 ## Warning Exchange confirmation dialog
 
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+exchange-dialog-question = O { -brand-short-name } encontrou as informações de configuração da sua conta em { $domain }. Deseja continuar e enviar as suas credenciais?
 exchange-dialog-confirm-button = Iniciar sessão
 exchange-dialog-cancel-button = Cancelar
 
 ## Dismiss account creation dialog
 
 exit-dialog-title = Nenhuma conta de correio eletrónico configurada
+exit-dialog-description = Tem a certeza que deseja cancelar o processo de configuração? O { -brand-short-name } poderá ser usado sem uma conta de e-mail, mas muitos recursos não estarão disponíveis.
 account-setup-no-account-checkbox = Utilizar o { -brand-short-name } sem uma conta de correio eletrónico
     .accesskey = { "" }
 exit-dialog-cancel-button = Continuar configuração
@@ -219,6 +230,12 @@ account-setup-settings-button = Definições da conta
 account-setup-encryption-button = Encriptação ponto a ponto
 account-setup-signature-button = Adicionar uma assinatura
 account-setup-dictionaries-button = Transferir dicionários
+account-setup-address-book-carddav-button = Conectar-se a um livro de endereços CardDAV
+account-setup-address-book-ldap-button = Associar a um livro de endereços LDAP
+account-setup-calendar-button = Associar a um calendário remoto
+account-setup-linked-services-title = Associar os seus serviços associados
+account-setup-linked-services-description = O { -brand-short-name } detetou outros serviços associados à sua conta de e-mail.
+account-setup-no-linked-description = Configure outros serviços para aproveitar ao máximo a sua experiência com o { -brand-short-name }.
 account-setup-button-finish = Terminar
     .accesskey = T
 account-setup-looking-up-address-books = A procurar livros de endereços…
