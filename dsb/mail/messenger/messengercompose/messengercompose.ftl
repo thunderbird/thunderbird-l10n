@@ -297,6 +297,16 @@ many-public-recipients-notice =
         [few] { $count } dostawarje w póloma Komu a Kopija budu adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje wótekšywaju.
        *[other] { $count } dostawarjow w póloma Komu a Kopija buźo adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje wótekšywaju.
     }
+public-recipients-notice-single = Waša powěsć ma zjawnego dostawarja. Móžośo  se togo wobinuś, až se dostawaŕ pśeraźijo, gaž město togo schowanu kopiju wužywaśo.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } dostawaŕ buźo w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
+        [two] { $count } dostawarja buźo w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
+        [few] { $count } dostawarje buźo w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
+       *[other] { $count } dostawarjow buźo w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
+    }
 many-public-recipients-bcc =
     .label = Schowanu kopiju město togo wužywaś
     .accesskey = S
