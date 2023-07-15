@@ -236,6 +236,13 @@ account-setup-calendar-button = Associar a um calendário remoto
 account-setup-linked-services-title = Associar os seus serviços associados
 account-setup-linked-services-description = O { -brand-short-name } detetou outros serviços associados à sua conta de e-mail.
 account-setup-no-linked-description = Configure outros serviços para aproveitar ao máximo a sua experiência com o { -brand-short-name }.
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description =
+    { $count ->
+        [one] O { -brand-short-name } encontrou um livro de endereços associado à sua conta de e-mail.
+       *[other] O { -brand-short-name } encontrou { $count } livros de endereços associados à sua conta de e-mail.
+    }
 account-setup-button-finish = Terminar
     .accesskey = T
 account-setup-looking-up-address-books = A procurar livros de endereços…
