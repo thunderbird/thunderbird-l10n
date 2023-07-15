@@ -121,6 +121,8 @@ calendar-summary-title =
         [one] Importar um item para o calendário "{ $targetCalendar }"
        *[other] Importar { $itemCount } para o calendário "{ $targetCalendar }"
     }
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = Será criado um novo calendário denominado "{ $targetCalendar }".
 
 ## Import dialog
 
@@ -130,6 +132,11 @@ progress-pane-importing2 = A importar... { $progressPercent }
 progress-pane-exporting2 = A exportar... { $progressPercent }
 progress-pane-finished-desc2 = Concluída.
 error-pane-title = Erro
+error-message-zip-file-too-big2 = O ficheiro ZIP selecionado tem mais de 2GB. Comece por extrair o mesmo e depois importe a partir da pasta extraída.
+error-message-extract-zip-file-failed2 = A extração do ficheiro ZIP falhou. Comece por extrair o mesmo e depois importe da pasta extraída.
+error-message-failed = A importação falhou inesperadamente. Podem estar disponíveis mais informações na Consola de Erros
+error-failed-to-parse-ics-file = Não foram encontrados itens que possam ser importados.
+error-export-failed = A exportação falhou inesperadamente. Podem estar disponíveis mais informações na Consola de Erros
 error-message-no-profile = Nenhum perfil encontrado.
 
 ## <csv-field-map> element
@@ -143,6 +150,7 @@ csv-target-field = Campo do livro de endereços
 ## Export tab
 
 export-profile-title = Exporte contas, mensagens, catálogos de endereços, e definições para um ficheiro ZIP.
+export-profile-description = O perfil atual é maior que 2GB. Sugerimos que faça um backup manual.
 export-open-profile-folder = Abrir pasta de perfil
 export-file-picker2 = Exportar para um ficheiro ZIP
 export-brand-name = { -brand-product-name }
