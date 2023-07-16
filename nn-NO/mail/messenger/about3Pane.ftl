@@ -6,6 +6,13 @@
 ## Message List Header Bar
 
 quick-filter-button-label = Snøggfilter
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } melding
+       *[other] { $count } meldingar
+    }
 
 ## Quick Filter Bar
 
@@ -16,6 +23,16 @@ quick-filter-button-label = Snøggfilter
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Behald filtra ved byte av mappe
+quick-filter-bar-dropdown-unread =
+    .label = Ulesne
+quick-filter-bar-dropdown-starred =
+    .label = Med stjerne
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Etikettar
+quick-filter-bar-dropdown-attachment =
+    .label = Vedlegg
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -129,6 +146,10 @@ folder-pane-write-message-button = Ny melding
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktvising
     .accesskey = K
+folder-pane-mode-move-up =
+    .label = Flytt opp
+folder-pane-mode-move-down =
+    .label = Flytt ned
 
 ## Message thread pane
 
