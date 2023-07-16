@@ -5,6 +5,8 @@
 # Variables:
 # $organizer (String) - The participant that created the original invitation.
 calendar-invitation-panel-intro = { $organizer } ได้เชิญคุณให้เข้าร่วม:
+calendar-invitation-panel-status-new = คุณได้รับเชิญให้เข้าร่วมกิจกรรมนี้
+calendar-invitation-panel-status-processed = เพิ่มเหตุการณ์นี้ในปฏิทินของคุณแล้ว
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } ได้ยกเลิก:
@@ -19,6 +21,11 @@ calendar-invitation-panel-accept-button = ใช่
 calendar-invitation-panel-decline-button = ไม่
 calendar-invitation-panel-tentative-button = อาจจะ
 calendar-invitation-panel-reply-status = * คุณยังไม่ได้ตัดสินใจหรือตอบกลับ
+calendar-invitation-panel-more-button = เพิ่มเติม
+calendar-invitation-panel-menu-item-save-copy =
+    .label = บันทึกสำเนา
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = แสดงการเปลี่ยนแปลง
 calendar-invitation-panel-prop-title-when = เมื่อ:
 calendar-invitation-panel-prop-title-location = ตำแหน่งที่ตั้ง:
 # Variables:
@@ -48,3 +55,6 @@ calendar-invitation-panel-partstat-needs-action = รอพิจารณา { 
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = ผู้เข้าร่วม { $count } คน
 calendar-invitation-panel-prop-title-attachments = ไฟล์แนบ:
+calendar-invitation-change-indicator-removed = เอาออกแล้ว
+calendar-invitation-change-indicator-added = ใหม่
+calendar-invitation-change-indicator-modified = เปลี่ยนแปลงแล้ว
