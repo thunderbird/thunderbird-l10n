@@ -25,10 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Nachrichtenentwürfe verschlüsselt speichern
     .accesskey = N
-# Do not translate "Autocrypt", it's the name of a standard.
-e2e-autocrypt-headers =
-    .label = Senden Sie öffentliche(n) OpenPGP-Schlüssel in den E-Mail-Kopfzeilen für die Kompatibilität mit Autocrypt
-    .accesskey = t
 openpgp-key-user-id-label = Konto / Benutzerkennung
 openpgp-keygen-title-label =
     .title = OpenGPG-Schlüssel erzeugen
@@ -59,6 +55,10 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Erweitert…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">HINWEIS: Das Erzeugen eines Schlüssels kann mehrere Minuten dauern.</a> Beenden Sie die Anwendung nicht, während der Schlüssel erzeugt wird. Aktives Surfen im Internet oder intensive Lese- und Schreibvorgänge setzen den 'Zufallsgenerator' wieder auf Normalniveau zurück und beschleunigen den Vorgang. Sie werden benachrichtigt, wenn die Schlüsselerzeugung abgeschlossen ist.
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Öffentliche(n) OpenPGP-Schlüssel in E-Mail-Kopfzeilen senden für Kompatibilität mit Autocrypt
+    .accesskey = t
 openpgp-key-created-label =
     .label = Erstellt am
 openpgp-key-expiry-label =
@@ -119,7 +119,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = veröffentlichen
     .accesskey = V
-openpgp-key-publish = Publizieren
+openpgp-key-publish = Veröffentlichen
 openpgp-key-man-discover-prompt = Geben Sie eine E-Mail-Adresse oder Schlüssel-ID ein, um OpenPGP-Schlüssel auf Schlüsselservern oder mit dem WKD-Protokoll zu finden.
 openpgp-key-man-discover-progress = Suche wird durchgeführt…
 # Variables:
@@ -607,7 +607,7 @@ need-online = Die gewählte Funktion ist nicht im Offline-Modus verfügbar. Bitt
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
 no-key-found2 = Es wurde kein Schlüssel gefunden, welcher den Suchkriterien entspricht.
-no-update-found = Sie besitzen bereits die Schlüssel, welche online gefunden worden.
+no-update-found = Die online gefundenen Schlüssel besitzen Sie bereits.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
