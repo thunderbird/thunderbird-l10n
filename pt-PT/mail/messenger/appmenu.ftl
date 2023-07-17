@@ -5,11 +5,34 @@
 
 ## Sync
 
+appmenu-sync-account =
+    .value = example@example.com
+appmenu-sync-settings =
+    .label = Definições de sincronização
+    .accesskey = s
+appmenu-sync-sign-out =
+    .label = Terminar sessão…
+    .accesskey = T
 
 ## New Account
 
 appmenu-new-account-panel-title =
     .title = Nova conta
+appmenu-new-account-panel =
+    .label = Nova conta
+    .accesskey = N
+appmenu-create-new-mail-account =
+    .label = Obter um novo endereço de e-mail
+    .accesskey = O
+appmenu-new-mail-account =
+    .label = Conta de e-mail existente
+    .accesskey = e
+appmenu-new-calendar =
+    .label = Calendário
+    .accesskey = C
+appmenu-new-chat-account =
+    .label = Chat
+    .accesskey = C
 
 ## New Account / Address Book
 

@@ -106,6 +106,42 @@ about-addressbook-column-label-organization =
 about-addressbook-column-header-addrbook = Livro de endereços
 about-addressbook-column-label-addrbook =
     .label = { about-addressbook-column-header-addrbook }
+about-addressbook-column-header-generatedname2 = Nome
+    .title = Ordenar pelo nome
+about-addressbook-column-label-generatedname2 =
+    .label = Nome
+about-addressbook-column-header-emailaddresses2 = Endereços de e-mail
+    .title = Ordenar por endereço de e-mail
+about-addressbook-column-label-emailaddresses2 =
+    .label = Endereços de e-mail
+about-addressbook-column-header-nickname2 = Pseudónimo
+    .title = Ordenar por pseudónimo
+about-addressbook-column-label-nickname2 =
+    .label = Pseudónimo
+about-addressbook-column-header-phonenumbers2 = Números de telefone
+    .title = Ordenar por números de telefone
+about-addressbook-column-label-phonenumbers2 =
+    .label = Números de Telefone
+about-addressbook-column-header-addresses2 = Moradas
+    .title = Ordenar por moradas
+about-addressbook-column-label-addresses2 =
+    .label = Moradas
+about-addressbook-column-header-title2 = Cargo
+    .title = Ordenar pelo cargo
+about-addressbook-column-label-title2 =
+    .label = Cargo
+about-addressbook-column-header-department2 = Departamento
+    .title = Ordenar por departamento
+about-addressbook-column-label-department2 =
+    .label = Departamento
+about-addressbook-column-header-organization2 = Organização
+    .title = Ordenar por organização
+about-addressbook-column-label-organization2 =
+    .label = Organização
+about-addressbook-column-header-addrbook2 = Livro de endereços
+    .title = Ordenar por livro de endereços
+about-addressbook-column-label-addrbook2 =
+    .label = Livro de endereços
 about-addressbook-cards-context-write =
     .label = Escrever
 about-addressbook-confirm-delete-mixed-title = Apagar contactos e listas
@@ -134,6 +170,34 @@ about-addressbook-confirm-remove-contacts-title =
         [one] Remover contacto
        *[other] Remover contactos
     }
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $name (String) - The name of the contact to be removed, if $count is 1.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts =
+    { $count ->
+        [one] Tem a certeza que pretende remover { $name } de { $list }?
+       *[other] Tem a certeza que pretende remover estes { $count } contactos de { $list }?
+    }
+# Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Tem a certeza que pretende remover { $name } de { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Tem a certeza que pretende remover este contacto de { $list }?
+       *[other] Tem a certeza que pretende remover estes { $count } de { $list }?
+    }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title =
+    { $count ->
+        [one] Apagar contacto
+       *[other] Apagar contactos
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -144,6 +208,8 @@ about-addressbook-confirm-remove-contacts-title =
 
 # Photo dialog
 
+about-addressbook-photo-save = Guardar
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N

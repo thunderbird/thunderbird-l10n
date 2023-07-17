@@ -243,6 +243,13 @@ account-setup-found-address-books-description =
         [one] O { -brand-short-name } encontrou um livro de endereços associado à sua conta de e-mail.
        *[other] O { -brand-short-name } encontrou { $count } livros de endereços associados à sua conta de e-mail.
     }
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description =
+    { $count ->
+        [one] O { -brand-short-name } encontrou um calendário associado à sua conta de e-mail.
+       *[other] O { -brand-short-name } encontrou { $count } calendários associados à sua conta de e-mail.
+    }
 account-setup-button-finish = Terminar
     .accesskey = T
 account-setup-looking-up-address-books = A procurar livros de endereços…
