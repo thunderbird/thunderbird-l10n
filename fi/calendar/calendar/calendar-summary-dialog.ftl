@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Muokkaa kaikkia esiintymiä
     .accesskey = u
+description-context-menu-copy-link-text =
+    .label = Kopioi linkin teksti

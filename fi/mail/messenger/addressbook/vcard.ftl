@@ -108,8 +108,18 @@ vcard-note-header = Huomautuksia
 
 vcard-org-header = Organisaation ominaisuudet
 vcard-org-add = Lisää organisaation ominaisuuksia
+vcard-org-title-input =
+    .title = Asema tai tehtävä
+    .placeholder = Tehtävänimike
 vcard-org-role = Rooli
 vcard-org-org = Organisaatio
+vcard-org-org-input =
+    .title = Organisaatioyksikön nimi
+    .placeholder = Yrityksen nimi
+vcard-org-org-unit = Osasto
+vcard-org-org-unit-input =
+    .title = Organisaatioyksikön nimi
+    .placeholder = Osasto
 
 # Custom properties
 
