@@ -367,7 +367,7 @@
 <!-- Calendar Publish Dialog -->
 <!ENTITY calendar.publish.dialog.title              "Kalender veröffentlichen">
 <!ENTITY calendar.publish.url.label                 "URL zum Veröffentlichen">
-<!ENTITY calendar.publish.publish.button      "Publizieren">
+<!ENTITY calendar.publish.publish.button      "Veröffentlichen">
 <!ENTITY calendar.publish.close.button      "Schließen">
 
 <!-- Select Calendar Dialog -->
