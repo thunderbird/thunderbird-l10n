@@ -101,7 +101,7 @@ context-menuitem-attach-vcard =
     .label = Meine vCard
     .accesskey = C
 context-menuitem-attach-openpgp-key =
-    .label = Mein öffentlicher OpenPGP-Schlüssel
+    .label = Meinen öffentlichen OpenPGP-Schlüssel
     .accesskey = O
 #   $count (Number) - the number of attachments in the attachment bucket
 attachment-bucket-count-value =
