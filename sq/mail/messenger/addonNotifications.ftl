@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Mos e Lejo Kurrë
     .accesskey = K
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Raportoni Sajt të Dyshimtë
+    .accesskey = R
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Ky sajt po kërkon hyrje te pajisje tuajat MIDI (Musical Instrument Digital Interface). Hyrja te pajisjet mund të aktivizohet duke instaluar një shtesë.
+site-permission-install-first-prompt-midi-message = Nuk garantohet se ky sajt është i parrezik. Vazhdoni vetëm nëse e besoni këtë sajt.
 
 ##
 
