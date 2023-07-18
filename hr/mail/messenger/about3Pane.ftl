@@ -5,6 +5,33 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Uključi/isključi traku brzog filtriranja
+quick-filter-button-label = Brzo filtriranje
+thread-pane-header-display-button =
+    .title = Mogućnosti prikaza popisa poruka
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } poruka
+        [few] { $count } poruke
+       *[other] { $count } poruka
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } odabrana
+        [few] { $count } odabrane
+       *[other] { $count } odabranih
+    }
+thread-pane-header-context-table-view =
+    .label = Tablični prikaz
+thread-pane-header-context-cards-view =
+    .label = Kartični prikaz
+thread-pane-header-context-hide =
+    .label = Sakrij zaglavlje popisa poruka
 
 ## Quick Filter Bar
 
@@ -15,6 +42,20 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Primijeni filtere prilikom promjene mape
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Izbornik brzog filtriranja
+quick-filter-bar-dropdown-unread =
+    .label = Nepročitano
+quick-filter-bar-dropdown-starred =
+    .label = Zvjezdica
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Oznake
+quick-filter-bar-dropdown-attachment =
+    .label = Privitak
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -119,9 +160,13 @@ quick-filter-bar-gloda-upsell-line2 = Pritisnite ponovno ‘Enter’ kako biste 
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Dohvati poruke
 folder-pane-get-all-messages-menuitem =
     .label = Dohvati sve nove poruke
     .accesskey = D
+folder-pane-write-message-button = Nova poruka
+    .title = Napiši novu poruku
 folder-pane-mode-context-toggle-compact-mode =
     .label = Zbijeni prikaz
     .accesskey = Z
