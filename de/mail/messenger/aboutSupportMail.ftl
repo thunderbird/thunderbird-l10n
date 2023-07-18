@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 accounts-title = E-Mail- und Newsgruppen-Konten
-show-private-data-main-text = Konten-Bezeichnungen einschließen
+show-private-data-main-text = Kontennamen einschließen
 show-private-data-explanation-text = (möglicherweise identifizierende Information)
 accounts-ID = ID
 accounts-name = Name

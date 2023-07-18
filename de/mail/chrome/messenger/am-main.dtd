@@ -2,12 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-main.xul -->
-
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "Konten-Einstellungen">
-<!ENTITY accountName.label "Konten-Bezeichnung:">
+<!ENTITY accountName.label "Kontoname:">
 <!ENTITY accountName.accesskey "B">
 <!ENTITY identityTitle.label "Standard-Identität">
 <!ENTITY identityDesc.label "Diese Informationen erhalten Empfänger Ihrer Nachrichten.">
