@@ -167,26 +167,87 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = D
 folder-pane-write-message-button = Nova poruka
     .title = Napiši novu poruku
+folder-pane-more-menu-button =
+    .title = Mogućnosti okna mapa
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Načini mapa
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Prikaži tipku “Dohvati poruke”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Prikaži tipku “Nova poruka”
+folder-pane-header-context-hide =
+    .label = Sakrij zaglavlje okna mape
+folder-pane-show-total-toggle =
+    .label = Prikaži ukupan broj poruka
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Prikaži veličinu mape
+folder-pane-header-hide-local-folders =
+    .label = Sakrij lokalne mape
+folder-pane-mode-context-button =
+    .title = Mogućnosti načina mapa
 folder-pane-mode-context-toggle-compact-mode =
     .label = Zbijeni prikaz
     .accesskey = Z
+folder-pane-mode-move-up =
+    .label = Pomakni gore
+folder-pane-mode-move-down =
+    .label = Pomakni dolje
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] { $count } nepročitana poruka
+        [few] { $count } nepročitane poruke
+       *[other] { $count } nepročitanih poruka
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Ukupno { $count } poruka
+        [few] Ukupno { $count } poruke
+       *[other] Ukupno { $count } poruka
+    }
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Uključi/isključi odabir svih poruka
+threadpane-column-header-select-all =
+    .title = Odaberi sve poruke
+threadpane-column-header-deselect-all =
+    .title = Ukloni odabir na svim porukama
 threadpane-column-label-select =
     .label = Odaberite poruke
+threadpane-column-header-thread =
+    .title = Uključi/isključi teme poruka
 threadpane-column-label-thread =
     .label = Tema
 threadpane-column-header-flagged =
     .title = Sortiraj prema zvjezdici
 threadpane-column-label-flagged =
     .label = Zvjezdica
+threadpane-flagged-cell-label = Zvjezdica
 threadpane-column-header-attachments =
     .title = Sortiraj prema privitcima
 threadpane-column-label-attachments =
     .label = Privici
+threadpane-attachments-cell-label = Privici
+threadpane-column-header-spam =
+    .title = Sortiraj prema statusu neželjene pošte
+threadpane-column-label-spam =
+    .label = Neželjena pošta
+threadpane-spam-cell-label = Neželjena pošta
+threadpane-column-header-unread-button =
+    .title = Sortiraj prema statusu čitanja
+threadpane-column-label-unread-button =
+    .label = Status čitanja
+threadpane-read-cell-label = Pročitano
+threadpane-unread-cell-label = Nepročitano
 threadpane-column-header-sender = Šalje
     .title = Sortiraj prema pošiljatelju
 threadpane-column-label-sender =
@@ -254,6 +315,15 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indikator nove poruke
+    .title = Nova poruka
+threadpane-message-replied =
+    .alt = Indikator odgovora
+    .title = Na poruku je odgovoreno
+threadpane-message-redirected =
+    .alt = Indikator preusmjeravanja
+    .title = Poruka je preusmjerena
 apply-columns-to-menu =
     .label = Primijeni stupce na…
 apply-current-view-to-menu =

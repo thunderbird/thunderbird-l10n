@@ -30,7 +30,11 @@ account-hub-address-book-setup-button = Adresar
 account-hub-chat-setup-button = Razgovor
     .title = Postavi račun razgovora
 account-hub-feed-setup-button = RSS feed
-    .title = { "" }
+    .title = Postavi RSS feed račun
+account-hub-newsgroup-setup-button = Interesna grupa
+    .title = Postavi račun interesne grupe
+account-hub-import-setup-button = Uvoz
+    .title = Uvezi prethodno spremljeni profil
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Prijavi se za sinkronizaciju…
 
