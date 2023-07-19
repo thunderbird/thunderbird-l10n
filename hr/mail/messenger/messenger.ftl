@@ -34,15 +34,53 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Idi jednu stranicu natrag ({ $shortcut })
+    .aria-label = Natrag
+    .accesskey = N
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Natrag
+    .accesskey = N
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Idi jednu stranicu naprijed ({ $shortcut })
+    .aria-label = Naprijed
+    .accesskey = p
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Naprijed
+    .accesskey = p
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Ponovno učitaj stranicu
+    .aria-label = Ponovno učitaj
+    .accesskey = o
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Ponovno učitaj stranicu
+    .label = Ponovno učitaj
+    .accesskey = o
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Zaustavi učitavanje stranice
+    .aria-label = Zaustavi
+    .accesskey = s
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Zaustavi učitavanje stranice
+    .label = Zaustavi
+    .accesskey = s
 
 ## Toolbar
 
@@ -106,6 +144,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Obriši mapu
     .accesskey = O
+menu-edit-unsubscribe-newsgroup =
+    .label = Ukini pretplatu na interesnu grupu
+    .accesskey = U
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -161,6 +202,8 @@ appmenu-redirect-msg =
 
 context-menu-redirect-msg =
     .label = Preusmjeri
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label =
         { $count ->
@@ -179,6 +222,9 @@ mail-context-undelete-messages =
             [one] Vrati obrisanu poruku
            *[other] Vrati odabrane poruke
         }
+context-menu-decrypt-to-folder2 =
+    .label = Stvori dekriptiranu kopiju u
+    .accesskey = j
 
 ## Message header pane
 
@@ -211,6 +257,9 @@ message-header-show-sender-full-address-description = Adresa e-pošte biti će p
 message-header-show-recipient-avatar =
     .label = Prikaži profilnu sliku pošiljatelja
     .accesskey = P
+message-header-show-big-avatar =
+    .label = Veća profilna slika
+    .accesskey = V
 message-header-hide-label-column =
     .label = Sakrij stupac oznaka
     .accesskey = k
@@ -233,9 +282,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Ukloni { $name }?
 addon-removal-confirmation-button = Ukloni
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Ukloniti { $name } kao i njegovu konfiguraciju i podatke iz { -brand-short-name }?
 caret-browsing-prompt-title = Pokazivačko pregledavanje
 caret-browsing-prompt-text = Pritiskom na F7, uključujete ili isključujete Pokazivačko pregledavanje. To znači da će se na sadržaju pojaviti kursor koji vam omogućava označavanje teksta tipkovnicom. Želite li uključiti Pokazivačko pregledavanje?
@@ -247,12 +298,23 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Odgovor nije podržan
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Čini se da adresa za odgovor ({ $email }) nije nadzirana adresa. Poruke poslane na ovu adresu vjerojatno nitko neće pročitati.
 no-reply-reply-anyway-button = Svejedno odgovori
 
 ## error messages
 
 decrypt-and-copy-failures = { $failures } od { $total } poruka nije moglo biti dešifrirano i nije kopirano.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } od { $total } poruka nije bilo moguće dekriptirati i nisu kopirane.
+        [few] { $failures } od { $total } poruka nije bilo moguće dekriptirati i nisu kopirane.
+       *[other] { $failures } od { $total } poruka nije bilo moguće dekriptirati i nisu kopirane.
+    }
 
 ## Spaces toolbar
 
@@ -353,6 +415,13 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Zaboravi OpenPGP šifre
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% popunjeno
+    .title = IMAP kvota: { $usage } iskorišteno od ukupno { $limit }
