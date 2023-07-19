@@ -635,6 +635,9 @@ email-e2ee-auto-off =
     .label = Automatski onemogući šifriranje kada se primatelji promjene i šifriranje više nije moguće
 email-e2ee-auto-off-notify =
     .label = Prikaži obavijest kada je šifriranje automatski onemogućeno
+email-e2ee-automatism-post =
+    Automatske odluke se mogu nadjačati ručnim omogućavanjem ili isključivanjem šifriranja prilikom pisanja poruke.
+    Napomena: Šifriranje je uvijek automatski omogućeno prilikom odgovora na šifriranu poruku.
 
 ## Chat Tab
 
@@ -777,6 +780,7 @@ show-synced-item-account = Računi e-pošte
 show-synced-item-address = Adresari
 show-synced-item-calendar = Kalendari
 show-synced-item-identity = Identiteti
+show-synced-item-passwords = Lozinke
 show-synced-change = Promijeni…
 synced-acount-item-server-config = Postavke poslužitelja
 synced-acount-item-filters = Filteri
