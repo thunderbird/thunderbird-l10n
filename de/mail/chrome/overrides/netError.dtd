@@ -10,7 +10,7 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Fehler: Verbindung fehlgeschlagen">
+<!ENTITY connectionFailure.title "Verbindung nicht möglich">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Fehler: Port aus Sicherheitsgründen blockiert">
@@ -108,7 +108,7 @@
 </ul>
 ">
 
-<!ENTITY proxyResolveFailure.title "Fehler: Proxy-Server nicht gefunden">
+<!ENTITY proxyResolveFailure.title "Der Proxy-Server kann nicht gefunden werden">
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
   <li>Überprüfen Sie bitte, ob die Proxy-Einstellungen korrekt sind.</li>
