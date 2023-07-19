@@ -289,6 +289,15 @@ many-public-recipients-notice =
         [few] Vaša poruka ima { $count } javna primatelja, koji će moći vidjeti sve druge primatelje. Ukoliko želite veću privatnost, možete izbjeći otkrivanje primatelja ukoliko koristite Bcc polje.
        *[other] Vaša poruka ima { $count } javnih primatelja, koji će moći vidjeti sve druge primatelje. Ukoliko želite veću privatnost, možete izbjeći otkrivanje primatelja ukoliko koristite Bcc polje.
     }
+public-recipients-notice-single = Vaša poruka ima javnog primatelja. Možete izbjeći otkrivanje primatelja korištenjem Bcc polja.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } primatelj u Prima i Cc će vidjeti sve adrese. Možete izbjeći ovo ukoliko koristite Bcc polje.
+        [few] { $count } primatelja u Prima i Cc će vidjeti sve adrese. Možete izbjeći ovo ukoliko koristite Bcc polje.
+       *[other] { $count } primatelja u Prima i Cc će vidjeti sve adrese. Možete izbjeći ovo ukoliko koristite Bcc polje.
+    }
 many-public-recipients-bcc =
     .label = Koristi Bcc umjesto toga
     .accesskey = u
@@ -313,6 +322,7 @@ many-public-recipients-prompt-send = Pošalji svejedno
 compose-missing-identity-warning = Jedinstven identitet koji odgovara polju Šalje nije pronađen. Poruka će biti poslana koristeći postojeće polje Šalje i postavke od identiteta { $identity }.
 encrypted-bcc-warning = Kada šaljete šifriranu poruku, primatelji u Bcc polju nisu potpuno skriveni. Svi primatelji će ih možda moći identificirati.
 encrypted-bcc-ignore-button = Razumijem
+auto-disable-e2ee-warning = Obostrano šifriranje za ovu poruku je automatski onemogućeno.
 
 ## Editing
 
