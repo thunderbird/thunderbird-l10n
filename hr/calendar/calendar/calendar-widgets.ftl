@@ -10,10 +10,57 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Kalendari
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } kalendar je utišan
 calendar-enable-button = Omogući
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } mogućnosti kalendara
+calendar-import-new-calendar = Novi kalendar…
+    .title = Stvori ili se pretplati na novi kalendar
+calendar-refresh-calendars =
+    .title = Ponovno učitaj kalendare i sinkroniziraj promjene
+calendar-new-event-primary-button = Novi događaj
+calendar-new-task-primary-button = Novi zadatak
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Prethodni dan
+    .accesskey = P
+calendar-nav-button-prev-tooltip-week =
+    .title = Prethodni tjedan
+    .accesskey = P
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Prethodni tjedan
+    .accesskey = P
+calendar-nav-button-prev-tooltip-month =
+    .title = Prethodni mjesec
+    .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = Prethodna godina
+    .accesskey = P
+calendar-nav-button-next-tooltip-day =
+    .title = Sljedeći dan
+    .accesskey = S
+calendar-nav-button-next-tooltip-week =
+    .title = Sljedeći tjedan
+    .accesskey = S
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Sljedeći tjedan
+    .accesskey = S
+calendar-nav-button-next-tooltip-month =
+    .title = Sljedeći mjesec
+    .accesskey = S
+calendar-nav-button-next-tooltip-year =
+    .title = Sljedeća godina
+    .accesskey = S
+calendar-today-button-tooltip =
+    .title = Idi na danas
 calendar-view-toggle-day = Dan
     .title = Prebaci na prikaz dana
 calendar-view-toggle-week = Tjedan
@@ -25,6 +72,16 @@ calendar-view-toggle-month = Mjesec
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Mogućnosti izgleda kalendara
+calendar-find-events-menu-option =
+    .label = Okno pronalaska događaja
+calendar-hide-weekends-option =
+    .label = Samo radni dani
+calendar-define-workweek-option =
+    .label = Odredite radne dane u tjednu
+calendar-show-tasks-calendar-option =
+    .label = Prikaži zadatke u kalendaru
 
 ## Calendar Context Menu
 
