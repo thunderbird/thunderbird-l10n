@@ -200,6 +200,13 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = Uvijek prikaži trake za pomicanje
     .accesskey = c
 window-layout-legend = Raspored prozora
+draw-in-titlebar-label =
+    .label = Sakrij naslovnu traku prozora sustava
+    .accesskey = S
+auto-hide-tabbar-label =
+    .label = Automatski sakrij traku s karticama
+    .accesskey = A
+auto-hide-tabbar-description = Sakrij traku s karticama kako je samo jedna kartica otvorena
 system-integration-legend = Sistemska integracija
 always-check-default =
     .label = Prilikom pokretanja uvijek provjeri je li { -brand-short-name } zadani program za e-poštu
@@ -280,6 +287,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Očisti sada
     .accesskey = O
+clear-cache-shutdown-label =
+    .label = Očisti predmemoriju prilikom zatvaranja
+    .accesskey = s
 fonts-legend = Fontovi i boje
 default-font-label =
     .value = Zadani font:
@@ -612,6 +622,19 @@ certificate-button =
 security-devices-button =
     .label = Sigurnosni uređaji…
     .accesskey = S
+email-e2ee-header = Obostrano šifriranje e-pošte
+account-settings = Postavke računa
+email-e2ee-enable-info = Postavite račun e-pošte i identitete za obostrano šifriranje u postavkama računa.
+email-e2ee-automatism = Automatsko korištenje šifriranja
+email-e2ee-automatism-pre =
+    { -brand-short-name } vam može pomoći na način da automatski omogućuje ili isključuje šifriranje prilikom pisanja poruke.
+    Isto je temeljeno na dostupnosti ispravnih i prihvaćenih ključeva ili certifikata dopisnika.
+email-e2ee-auto-on =
+    .label = Automatski omogući šifriranje kada je to moguće
+email-e2ee-auto-off =
+    .label = Automatski onemogući šifriranje kada se primatelji promjene i šifriranje više nije moguće
+email-e2ee-auto-off-notify =
+    .label = Prikaži obavijest kada je šifriranje automatski onemogućeno
 
 ## Chat Tab
 
