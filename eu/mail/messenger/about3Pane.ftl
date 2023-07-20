@@ -5,6 +5,31 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Txandakatu iragazki bizkorren barra
+quick-filter-button-label = Iragazki bizkorra
+thread-pane-header-display-button =
+    .title = Mezu zerrendaren bistaratze aukerak
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] Mezu { $count }
+       *[other] { $count } mezu
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } aukeratua
+       *[other] { $count } aukeratuak
+    }
+thread-pane-header-context-table-view =
+    .label = Taula ikuspegia
+thread-pane-header-context-cards-view =
+    .label = Txartel ikuspegia
+thread-pane-header-context-hide =
+    .label = Gorde mezu zerrendaren goiburua
 
 ## Quick Filter Bar
 
@@ -15,6 +40,20 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Mantendu iragazkiak aplikatuta karpetak aldatzean
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Iragazki bizkorren menua
+quick-filter-bar-dropdown-unread =
+    .label = Irakurri gabeak
+quick-filter-bar-dropdown-starred =
+    .label = Izarduna
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontaktua
+quick-filter-bar-dropdown-tags =
+    .label = Etiketak
+quick-filter-bar-dropdown-attachment =
+    .label = Eranskina
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -130,11 +169,44 @@ folder-pane-more-menu-button =
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Karpeta moduak
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Erakutsi “Lortu mezuak”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Erakutsi “Mezuak berria”
 folder-pane-header-context-hide =
     .label = Ezkutatu karpeta panelaren goiburua
+folder-pane-show-total-toggle =
+    .label = Erakutsi mezuen kopuru osoa
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Erakutsi karpetaren tamaina
+folder-pane-header-hide-local-folders =
+    .label = Ezkutatu karpeta lokalak
+folder-pane-mode-context-button =
+    .title = Karpeta moduaren aukerak
 folder-pane-mode-context-toggle-compact-mode =
     .label = Ikuspegi trinkoa
     .accesskey = n
+folder-pane-mode-move-up =
+    .label = Eraman gora
+folder-pane-mode-move-down =
+    .label = Eraman behera
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] Irakurri gabeko mezu 1
+       *[other] { $count } mezu irakurri gabe
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Guztira mezu 1
+       *[other] Guztira { $count } mezu
+    }
 
 ## Message thread pane
 
@@ -169,6 +241,7 @@ threadpane-column-header-unread-button =
     .title = Ordenatu irakurketa egoeraren arabera
 threadpane-column-label-unread-button =
     .label = Irakurketa egoera
+threadpane-read-cell-label = Irakurri
 threadpane-column-header-sender = Nork
     .title = Ordenatu bidaltzailearen arabera
 threadpane-column-label-sender =
