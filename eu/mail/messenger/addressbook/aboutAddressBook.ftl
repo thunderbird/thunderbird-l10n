@@ -190,6 +190,14 @@ about-addressbook-confirm-remove-contacts =
        *[other] Ziur zaude { $name } kontaktuak ezabatu nahi dituzula { $list } zerrendatik?
     }
 # Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Ziur zaude kontaktu { $count } ezabatu nahi duzula { $list } zerrendatik?
+       *[other] Ziur zaude { $count } kontaktu ezabatu nahi dituzula { $list } zerrendatik?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -204,6 +212,9 @@ about-addressbook-confirm-delete-contacts =
         [one] Ziur zaude { $name } kontaktua ezabatu nahi duzula?
        *[other] Ziur zaude { $name } kontaktu hauek ezabatu nahi dituzula?
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Ziur zaude { $name }kontaktua ezabatu nahi duzula?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -217,14 +228,12 @@ about-addressbook-placeholder-no-search-results = Ez da kontakturik aurkitu
 ## Details
 
 # Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } kontaktu eta zerrenda hautatuak
-# Variables:
 # $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } kontaktu hautatuak
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } zerrenda hautatuak
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] Kontaktu { $count } hautatua
+       *[other] { $count } kontaktu hautatuak
+    }
 about-addressbook-details-edit-photo =
     .title = Editatu kontaktuaren argazkia
 about-addressbook-new-contact-header = Kontaktu berria

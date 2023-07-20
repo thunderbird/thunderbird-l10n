@@ -242,6 +242,7 @@ threadpane-column-header-unread-button =
 threadpane-column-label-unread-button =
     .label = Irakurketa egoera
 threadpane-read-cell-label = Irakurri
+threadpane-unread-cell-label = Irakurri gabe
 threadpane-column-header-sender = Nork
     .title = Ordenatu bidaltzailearen arabera
 threadpane-column-label-sender =

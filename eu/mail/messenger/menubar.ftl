@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Mezu zerrendaren goiburua
+    .accesskey = g
 menu-font-size-label =
     .label = Letra-tamaina
     .accesskey = t
