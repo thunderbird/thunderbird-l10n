@@ -9,6 +9,8 @@ e2e-learn-more = Gouzout hiroc’h
 
 ## OpenPGP Key selection area
 
+openpgp-key-expand-section =
+    .tooltiptext = Muioc’h a ditouroù
 
 ## Strings in keyDetailsDlg.xhtml
 

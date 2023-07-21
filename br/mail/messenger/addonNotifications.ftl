@@ -8,12 +8,12 @@ xpinstall-prompt = { -brand-short-name } en deus difennet al lec'hienn-mañ da s
 ##   $host (String): The hostname of the site the add-on is being installed from.
 
 xpinstall-prompt-header = Aotren { $host } da staliañ un askouezh?
-xpinstall-prompt-message = Emaoc’h o klask staliañ un enlugellad adalek { $host }. Bezit sur eo fizius al lec’hienn-mañ a-raok kenderc’hel ganti.
+xpinstall-prompt-message = Emaoc’h o klask staliañ un enlugellad diouzh { $host }. Bezit sur eo fizius al lec’hienn-mañ a-raok kenderc’hel ganti.
 
 ##
 
 xpinstall-prompt-header-unknown = Aotren ul lec'hienn dianav da staliañ askouezhioù?
-xpinstall-prompt-message-unknown = Emaoc’h o klask staliañ un askouezh adalek ul lec’hienn dianav. Bezit sur e c’hallit fiziañ el lec’hienn-mañ a-raok kenderc’hel ganti.
+xpinstall-prompt-message-unknown = Emaoc’h o klask staliañ un askouezh diouzh ul lec’hienn dianav. Bezit sur e c’hallit fiziañ el lec’hienn-mañ a-raok kenderc’hel ganti.
 xpinstall-prompt-dont-allow =
     .label = Na aotren
     .accesskey = N
@@ -51,6 +51,9 @@ webext-perms-update-menu-item = Aotreoù nevez a zo goulennet gant { $addonName 
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Dilemel { $name }?
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =

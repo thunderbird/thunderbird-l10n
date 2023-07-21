@@ -22,6 +22,10 @@ all-address-books = An holl garnedoù chomlec’hioù
 
 ## Cards
 
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search =
+    .placeholder = Klask { $name }
 about-addressbook-search-all =
     .placeholder = Klask en holl garnedoù chomlec’hioù
 about-addressbook-sort-button2 =
@@ -44,6 +48,22 @@ about-addressbook-sort-email-descending =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-label-generatedname =
+    .label = { about-addressbook-column-header-generatedname }
+about-addressbook-column-label-emailaddresses =
+    .label = { about-addressbook-column-header-emailaddresses }
+about-addressbook-column-label-phonenumbers =
+    .label = { about-addressbook-column-header-phonenumbers }
+about-addressbook-column-label-addresses =
+    .label = { about-addressbook-column-header-addresses }
+about-addressbook-column-label-title =
+    .label = { about-addressbook-column-header-title }
+about-addressbook-column-label-department =
+    .label = { about-addressbook-column-header-department }
+about-addressbook-column-label-organization =
+    .label = { about-addressbook-column-header-organization }
+about-addressbook-column-label-addrbook =
+    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Anv
     .title = Rummañ dre anv
 about-addressbook-column-header-emailaddresses2 = Chomlec’hioù postel

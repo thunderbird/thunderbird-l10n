@@ -9,7 +9,7 @@ rights-intro-point-3 = Molladoù zo e { -brand-short-name }, evel Danevell ar Sa
 rights-intro-point-4 = Penaos ez arveront ho titouroù personel hag ar meno kaset da { -vendor-short-name } dre { -brand-short-name } zo deskrivet war <a data-l10n-name="mozilla-privacy-policy-link">Reolennoù { -brand-short-name } a-fet buhez prevez</a>.
 rights-intro-point-5 = Keweriusterioù zo eus { -brand-short-name } a ra gant gwazerezhioù kelaouiñ diazezet war ar genrouedad, koulskoude n'omp ket evit gwarantiñ ez int spis penn-da-benn ha hep fazioù. Titouroù ouzhpenn (en o zouez penaos diweredekaat ar c'heweriusterioù a ra gant ar gwazerezhioù-mañ) a vez kavet e <a data-l10n-name="mozilla-service-terms-link">termenoù ar gwazerezh</a>.
 rights-intro-point-5-unbranded = Mar bez enkorfet gwazerezhioù web er c'henderc'had-mañ e tlefe bezañ ereet an holl dermenoù arloadus e-keñver arver ar gwazerezh(ioù) ouzh <a data-l10n-name="mozilla-website-services-link">Gwazerezhioù al lec'hiennoù web</a> ar gevrenn.
-rights-intro-point-6 = Evit gallout lenn mentrezhoù endalc'hadoù video ’zo e pellgarg { -brand-short-name } molladoù dienrinegañ adalek perzhidi trede.
+rights-intro-point-6 = Evit gallout lenn mentrezhoù endalc’hadoù video ’zo e pellgarg { -brand-short-name } molladoù ezrinegañ diouzh perzhidi trede.
 rights-webservices-header = Gwazerezhioù kelaouiñ diazezet war ar genrouedad { -brand-full-name }
 rights-locationawarebrowsing = <strong>Merdeiñ gant kelaouiñ ho lec'hiadur : </strong>a vez asantet a-ratozh bepred. Ne vo ket kaset titouroù a-zivout ho lec'hiadur hep hoc'h aotre. Mar fell deoc'h diweredekaat ar mollad-mañ da vat, grit evel ma 'z eo displeget :
 rights-locationawarebrowsing-term-1 = War barrenn an URL, biziatait <code>a-zivout : kefluniañ</code>

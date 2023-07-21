@@ -54,6 +54,8 @@ account-button = Arventennoù ar gont
 
 ## OS Authentication dialog
 
+# Don't change this label.
+master-password-os-auth-dialog-caption = { -brand-full-name }
 
 ## General Tab
 
@@ -286,7 +288,7 @@ auto-mark-as-read =
     .label = Merkañ ar c'hemennadennoù evel lennet ent emgefreek
     .accesskey = a
 mark-read-no-delay =
-    .label = Adalek ar skrammañ
+    .label = Adal ar skrammañ
     .accesskey = s
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
@@ -433,8 +435,8 @@ history-label =
     .label = Derc'hel soñj eus al lec'hiennoù hag an ereoù gweladennet ganin
     .accesskey = s
 cookies-label =
-    .label = Degemer toupinoù adalek lec'hiennoù
-    .accesskey = D
+    .label = Asantiñ toupinoù diouzh lec’hiennoù
+    .accesskey = A
 third-party-label =
     .value = Degemer toupinoù un trede :
     .accesskey = g
@@ -443,7 +445,7 @@ third-party-always =
 third-party-never =
     .label = Morse
 third-party-visited =
-    .label = Adalek lec'hiennoù gweladennet
+    .label = Diouzh lec’hiennoù gweladennet
 keep-label =
     .value = Mirout betek:
     .accesskey = M
@@ -580,6 +582,8 @@ chat-browse-sound-button =
 theme-label =
     .value = Neuz:
     .accesskey = T
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = Lagadennoù
 style-dark =
