@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "r">
 <!ENTITY overrideNamespaces.label "Aotren an dafariad da flastrañ an egoroù envel-mañ">
 <!ENTITY overrideNamespaces.accesskey "A">
-<!ENTITY pop3DeferringDesc.label "Pa vez pellgarget posteloù adalek dafariad ar gont-mañ, arverañ an teuliad da heul evit kadaviñ kemennadennoù nevez :" >
+<!ENTITY pop3DeferringDesc.label "Pa vez pellgarget posteloù diouzh dafariad ar gont-mañ, arverañ an teuliad da heul evit kadaviñ kemennadennoù nevez:">
 <!ENTITY accountInbox.label "Boest degemer evit ar gont-mañ">
 <!ENTITY accountInbox.accesskey "g">
 <!ENTITY deferToServer.label "Boestad-degemer evit meur a gont">

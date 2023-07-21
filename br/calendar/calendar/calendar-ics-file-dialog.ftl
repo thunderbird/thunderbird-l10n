@@ -11,7 +11,7 @@ calendar-ics-file-dialog-2 =
     .buttonlabelaccept = Enporzhiañ pep-tra
 calendar-ics-file-accept-button-ok-label = Mat eo
 calendar-ics-file-cancel-button-close-label = Serriñ
-calendar-ics-file-dialog-message-2 = Enporzhiañ adalek ur restr:
+calendar-ics-file-dialog-message-2 = Enporzhiañ diouzh ur restr:
 calendar-ics-file-dialog-calendar-menu-label = Enporzhiañ en deiziataer:
 # "A > Z" is used as a concise way to say "alphabetical order".
 # You may replace it with something appropriate to your language.

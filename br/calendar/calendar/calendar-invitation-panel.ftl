@@ -2,6 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Variables:
+# $organizer (String) - The participant that cancelled the invitation.
+calendar-invitation-panel-intro-cancel = Nullet eo bet gant { $organizer }:
+# Variables:
+# $summary (String) - A short summary or title of the event.
+calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-action-button = Enrollañ
 calendar-invitation-panel-view-button = Gwelout
 calendar-invitation-panel-update-button = Hizivaat
@@ -16,6 +22,10 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Diskouez ar cheñchamantoù
 calendar-invitation-panel-prop-title-when = Pegoulz:
 calendar-invitation-panel-prop-title-location = Lec'hiadur:
+# Variables:
+# $dayOfWeek (String) - The day of the week for a given date.
+# $date (String) - The date example: Tuesday, February 24, 2022.
+calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
 # Variables:
 # $time (String) - The time part of a datetime using the "short" timeStyle.
 # $timezone (String) - The timezone info for the datetime.

@@ -319,7 +319,7 @@
 
 <!-- Calendar Alarm Dialog -->
 
-<!ENTITY calendar.alarm.location.label              "Lec'hiadur :" >
+<!ENTITY calendar.alarm.location.label              "Lec’hiadur:" >
 <!ENTITY calendar.alarm.details.label               "Munudoù..." >
 
 <!ENTITY calendar.alarm.snoozefor.label             "Lakaat da ad-seniñ a-benn" >
@@ -345,20 +345,21 @@
 
 <!-- Calendar Server Dialog -->
 <!ENTITY calendar.server.dialog.title.edit          "Embann an deiziataer">
-<!ENTITY calendar.server.dialog.name.label          "Anv an deiziataer :">
+<!ENTITY calendar.server.dialog.name.label          "Anv an deiziataer:">
 
 <!-- Calendar Properties -->
-<!ENTITY calendarproperties.color.label                    "Liv :">
+<!ENTITY calendarproperties.color.label                    "Liv:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.format.label                   "Mentrezh :">
-<!ENTITY calendarproperties.location.label                 "Lec'hiadur :">
-<!ENTITY calendarproperties.refreshInterval.label          "Azgrenaat an deiziataer :">
+<!ENTITY calendarproperties.format.label                   "Mentrezh:">
+<!ENTITY calendarproperties.location.label                 "Lec’hiadur:">
+<!ENTITY calendarproperties.refreshInterval.label          "Azgrenaat an deiziataer:">
 <!ENTITY calendarproperties.refreshInterval.manual.label   "Gant an dorn">
-<!ENTITY calendarproperties.name.label                     "Anv :">
+<!ENTITY calendarproperties.name.label                     "Anv:">
 <!ENTITY calendarproperties.readonly.label                 "Lenn hepken">
 <!ENTITY calendarproperties.firealarms.label               "Skrammañ an adc'halvoù">
 <!ENTITY calendarproperties.cache3.label                   "Skor ezlinenn">
+<!ENTITY calendarproperties.enabled2.label                 "Gweredekaat an deiziataer-mañ">
 <!ENTITY calendarproperties.forceDisabled.label            "N'eo ket bet kavet pourchaser an deiziataer-mañ. C'hoarvez a ra alies pa vez diweredekaet pe distaliet askouezhioù ’zo.">
 <!ENTITY calendarproperties.unsubscribe.label              "Digoumanantiñ">
 <!ENTITY calendarproperties.unsubscribe.accesskey          "D">
@@ -374,12 +375,12 @@
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Munudoù...">
-<!ENTITY calendar.error.code "Boneg fazi :">
-<!ENTITY calendar.error.description "Deskrivadur :">
+<!ENTITY calendar.error.code "Boneg fazi:">
+<!ENTITY calendar.error.description "Deskrivadur:">
 <!ENTITY calendar.error.title "C'hoarvezet ez eus bet ur fazi.">
 
 <!-- Extract buttons in message header -->
 <!ENTITY calendar.extract.event.button         "Ouzhpennañ e-giz un darvoud">
 <!ENTITY calendar.extract.task.button          "Ouzhpennañ e-giz un trevell">
-<!ENTITY calendar.extract.event.button.tooltip "Eztennañ titouroù deiziataer adalek ar gemennadenn-mañ hag ouzhpennañ anezho d'ho teiziataer evel un darvoud">
-<!ENTITY calendar.extract.task.button.tooltip  "Eztennañ titouroù deiziataer adalek ar gemennadenn-mañ hag ouzhpennañ anezho d'ho teiziataer evel un trevell">
+<!ENTITY calendar.extract.event.button.tooltip "Eztennañ titouroù deiziataer diouzh ar gemennadenn-mañ hag ouzhpennañ anezho d’ho teiziataer evel un darvoud">
+<!ENTITY calendar.extract.task.button.tooltip  "Eztennañ titouroù deiziataer diouzh ar gemennadenn-mañ hag ouzhpennañ anezho d’ho teiziataer evel un trevell">

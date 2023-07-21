@@ -32,8 +32,8 @@
 
 <!ENTITY filterActionOrderWarning.label "Notenn : Loc'het e vo gwezhioù ar siloù dre un urzh disheñvel.">
 <!ENTITY filterActionOrder.label "Gwelout urzh loc'hañ ar gwezhioù">
-<!-- New Style Filter Rule Actions -->
 
+<!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Dilec'hiañ ar gemennadenn etrezek">
 <!ENTITY copyMessage.label "Eilañ ar gemennadenn e">
 <!ENTITY forwardTo.label "Kas ar gemennadenn en-dro da">
@@ -46,7 +46,7 @@
 <!ENTITY setJunkScore.label "Lakaat ar stad « Lastez » war">
 <!ENTITY deleteMessage.label "Dilemel ar gemennadenn">
 <!ENTITY deleteFromPOP.label "Lemel kuit diouzh an dafariad POP">
-<!ENTITY fetchFromPOP.label "Kerc'hat adalek an dafariad POP">
+<!ENTITY fetchFromPOP.label "Kerc’hat diouzh an dafariad POP">
 <!ENTITY ignoreThread.label "Leuskel an neudennad a-gostez">
 <!ENTITY ignoreSubthread.label "Leuskel an isneudennad a-gostez">
 <!ENTITY watchThread.label "Sellout ouzh an neudennad">
@@ -61,6 +61,5 @@
      are truncated in the widgets.
   -->
 <!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
-
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

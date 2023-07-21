@@ -42,13 +42,10 @@
 <!ENTITY event.attendees.disallowcounter.accesskey   "a">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -90,10 +87,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Dilemel...">
 <!ENTITY  event.menu.item.delete.accesskey                "D">
-<!ENTITY  event.menu.item.page.setup.label                "Arventennoù ar bajenn">
-<!ENTITY  event.menu.item.page.setup.accesskey            "A">
-<!ENTITY  event.menu.item.print.label                     "Moullañ">
-<!ENTITY  event.menu.item.print.accesskey                 "M">
 
 <!ENTITY  event.menu.edit.label                           "Embann">
 <!ENTITY  event.menu.edit.accesskey                       "b">
@@ -118,8 +111,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "B">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Personelaat...">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "P">
-<!ENTITY  event.menu.view.showlink.label                  "Skrammañ an ereoù kar">
-<!ENTITY  event.menu.view.showlink.accesskey              "k">
 
 <!ENTITY  event.menu.options.label                            "Dibarzhioù">
 <!ENTITY  event.menu.options.accesskey                        "D">
@@ -192,14 +183,14 @@
 <!ENTITY counter.button.original.accesskey                "r">
 
 <!-- Main page -->
-<!ENTITY event.title.textbox.label                        "Titl :" >
+<!ENTITY event.title.textbox.label                        "Titl:" >
 <!ENTITY event.title.textbox.accesskey                    "i">
-<!ENTITY event.location.label                             "Lec'hiadur :" >
+<!ENTITY event.location.label                             "Lec’hiadur:" >
 <!ENTITY event.location.accesskey                         "L">
 <!ENTITY event.categories.label                           "Rummad">
 <!ENTITY event.categories.accesskey                       "a">
 <!ENTITY event.categories.textbox.label                   "Ouzhpennañ ur rummad nevez" >
-<!ENTITY event.calendar.label                             "Deiziataerioù :" >
+<!ENTITY event.calendar.label                             "Deiziataer:" >
 <!ENTITY event.calendar.accesskey                         "e">
 <!ENTITY event.attendees.label                            "Perzhidi:" >
 <!ENTITY event.attendees.accesskey                        "P">
@@ -217,7 +208,7 @@
 <!ENTITY task.status.accesskey                            "a">
 <!ENTITY event.repeat.label                               "Bep pegeit?" >
 <!ENTITY event.repeat.accesskey                           "B">
-<!ENTITY event.until.label                                "Bete&amp;k:">
+<!ENTITY event.until.label                                "Betek:">
 <!ENTITY event.until.accesskey                            "B">
 <!ENTITY event.reminder.label                             "Koun:" >
 <!ENTITY event.reminder.accesskey                         "o">

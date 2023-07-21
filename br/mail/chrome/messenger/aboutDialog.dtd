@@ -15,7 +15,7 @@
 -->
 <!ENTITY update.checkForUpdatesButton.label       "Gwiriañ mar bez hizivadurioù d'ober">
 <!ENTITY update.checkForUpdatesButton.accesskey   "G">
-<!ENTITY update.updateButton.label3               "Adloc'hit evit hizivaat &brandShorterName;">
+<!ENTITY update.updateButton.label3               "Adloc’hañ evit hizivaat &brandShorterName;">
 <!ENTITY update.updateButton.accesskey            "A">
 
 
@@ -41,12 +41,12 @@
 <!ENTITY community.creditsLink      "gumuniezh vedel">
 <!ENTITY community.end3             " a labour a-gevret evit derc'hel ar web digor, foran ha haezadus evit an holl.">
 
-<!ENTITY helpus.start               "C'hoant sikour ? ">
+<!ENTITY helpus.start               "C’hoant da sikour?">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to the thunderbird donation page -->
 <!ENTITY helpus.donateLink          "Roit arc'hant">
 <!ENTITY helpus.middle              " pe ">
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to https://www.thunderbird.net/get-involved/. -->
-<!ENTITY helpus.getInvolvedLink     "Kemerit perzh enni!">
+<!ENTITY helpus.getInvolvedLink     "kemer perzh!">
 <!ENTITY helpus.end                 "">
 
 <!ENTITY releaseNotes.link          "Notennoù handelv">

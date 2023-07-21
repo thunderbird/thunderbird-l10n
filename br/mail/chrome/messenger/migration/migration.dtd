@@ -5,8 +5,8 @@
 
 <!ENTITY migrationWizard.title          "Skoazeller Enporzhiañ">
 
-<!ENTITY importFromWin.label            "Enporzhiañ an dibarzhioù, perzhioù ar c'hontoù, karned chomlec'hioù, siloù ha titouroù all adalek :">
-<!ENTITY importFromNonWin.label         "Enporzhiañ gwellvezioù, perzhioù ar c'hontoù, ar c'harned chomlec'hioù, siloù ha titouroù all adalek :">
+<!ENTITY importFromWin.label            "Enporzhiañ an dibarzhioù, perzhioù ar c’hontoù, karned chomlec’hioù, siloù ha roadennoù all diouzh:">
+<!ENTITY importFromNonWin.label         "Enporzhiañ gwellvezioù, perzhioù ar c’hontoù, ar c’harned chomlec’hioù, siloù ha roadennoù all diouzh:">
 <!ENTITY importSourceNotFound.label     "N'eus bet kavet arload ebet evit enporzhiañ roadennoù.">
 
 <!ENTITY importFromNothing.label        "Na enporzhiañ netra">
@@ -16,7 +16,7 @@
 <!ENTITY importFromOutlook.label        "Outlook">
 <!ENTITY importFromOutlook.accesskey    "O">
 
-<!ENTITY importSource.title             "Enporzhiañ arventennoù ha teuliadoù posteloù adalek">
+<!ENTITY importSource.title             "Enporzhiañ arventennoù ha teuliadoù posteloù">
 <!ENTITY importItems.title              "Elfennoù da enporzhiañ">
 <!ENTITY importItems.label              "Diuzañ pe elfennoù da enporzhiañ :">
 
@@ -24,7 +24,7 @@
 <!ENTITY migrating.label                "Emañ an elfennoù a heul o vezañ enporzhiet …">
 
 <!ENTITY selectProfile.title            "Diuzañ un aelad">
-<!ENTITY selectProfile.label            "An aeladoù a heul a c'hell bezañ enporzhiet adalek :">
+<!ENTITY selectProfile.label            "An aeladoù a heul a c’hell bezañ enporzhiet diouzh:">
 
 <!ENTITY done.title                     "Enporzhiañ klokaet">
 <!ENTITY done.label                     "Enporzhiet mat eo bet an elfennoù a heul :">
