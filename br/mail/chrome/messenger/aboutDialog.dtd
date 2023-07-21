@@ -41,7 +41,7 @@
 <!ENTITY community.creditsLink      "gumuniezh vedel">
 <!ENTITY community.end3             " a labour a-gevret evit derc'hel ar web digor, foran ha haezadus evit an holl.">
 
-<!ENTITY helpus.start               "C’hoant da sikour?">
+<!ENTITY helpus.start               "C’hoant da sikour? ">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to the thunderbird donation page -->
 <!ENTITY helpus.donateLink          "Roit arc'hant">
 <!ENTITY helpus.middle              " pe ">

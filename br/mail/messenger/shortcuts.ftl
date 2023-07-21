@@ -34,7 +34,7 @@ alt-shortcut-key =
 meta-ctrl-shortcut-key =
     { PLATFORM() ->
         [macos] ⌃ ⌘ { $key }
-       *[other] Meta+Reol+{ $key }
+       *[other] Meta+Ctrl+{ $key }
     }
 meta-alt-shortcut-key =
     { PLATFORM() ->

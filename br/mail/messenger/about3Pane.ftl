@@ -6,6 +6,16 @@
 ## Message List Header Bar
 
 quick-filter-button-label = Sil prim
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } gemennadenn
+        [two] { $count } gemennadenn
+        [few] { $count } c'hemennadenn
+        [many] { $count } a gemennadennoù
+       *[other] { $count } kemennadenn
+    }
 
 ## Quick Filter Bar
 
@@ -127,6 +137,8 @@ quick-filter-bar-gloda-upsell-line2 = Pouezit war ar stokell ‘Enankañ’ en-d
 folder-pane-get-all-messages-menuitem =
     .label = Kerc'hat an holl bosteloù nevez
     .accesskey = e
+folder-pane-write-message-button = Kemennadenn nevez
+    .title = Skrivañ ur gemennadenn nevez
 folder-pane-mode-context-toggle-compact-mode =
     .label = Gwel fetis
     .accesskey = f
