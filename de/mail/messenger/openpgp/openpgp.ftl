@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-e2e-intro-description = Um Nachrichten zu verschlüsseln oder digital zu unterschreiben, muss eine der Verschlüsselungstechnologien OpenPGP oder S/MIME eingerichtet werden.
+e2e-intro-description = Um verschlüsselte oder digital signierte Nachrichten zu versenden, müssen Sie eine Verschlüsselungstechnologie einrichten, entweder OpenPGP oder S/MIME.
 e2e-intro-description-more = Wählen Sie Ihren persönlichen Schlüssel für die Verwendung von OpenPGP oder Ihr persönliches Zertifikat für S/MIME. Für einen persönlichen Schlüssel oder ein persönliches Zertifikat verfügen Sie über den entsprechenden geheimen Schlüssel.
-e2e-signing-description = Eine digitale Unterschrift ermöglicht den Empfängern zu verifizieren, dass die Nachricht von Ihnen gesendet und der Inhalt nicht verändert wurde. Verschlüsselte Nachrichten sind standardmäßig immer signiert.
+e2e-signing-description = Mit einer digitalen Signatur können Empfänger überprüfen, ob die Nachricht von Ihnen gesendet und ihr Inhalt nicht verändert wurde. Verschlüsselte Nachrichten sind standardmäßig immer signiert.
 e2e-sign-message =
-    .label = Unverschlüsselte Nachrichten digital unterschreiben
+    .label = Unverschlüsselte Nachrichten digital signieren
     .accesskey = d
 e2e-disable-enc =
     .label = Verschlüsselung für neue Nachrichten nicht verwenden
@@ -17,7 +17,7 @@ e2e-enable-enc =
 e2e-enable-description = Die Verschlüsselung kann für einzelne Nachrichten deaktiviert werden.
 e2e-advanced-section = Erweiterte Einstellungen
 e2e-attach-key =
-    .label = Automatisch meinen öffentlichen Schlüssel anhängen, wenn ich eine digitale Unterschrift für OpenPGP hinzufüge
+    .label = Beim Hinzufügen einer digitalen OpenPGP-Signatur meinen öffentlichen Schlüssel anhängen
     .accesskey = o
 e2e-encrypt-subject =
     .label = Betreff von OpenPGP-Nachrichten verschlüsseln
@@ -51,7 +51,7 @@ openpgp-key-gen-key-type-ecc =
     .label = ECC (Elliptische Kurve)
 openpgp-generate-key =
     .label = Schlüssel erzeugen
-    .tooltiptext = Erzeugt ein OpenGPG-konformes Schlüsselpaar zum Verschlüsseln und/oder Unterschreiben
+    .tooltiptext = Erzeugt ein OpenGPG-konformes Schlüsselpaar zum Verschlüsseln und/oder Signieren
 openpgp-advanced-prefs-button-label =
     .label = Erweitert…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">HINWEIS: Das Erzeugen eines Schlüssels kann mehrere Minuten dauern.</a> Beenden Sie die Anwendung nicht, während der Schlüssel erzeugt wird. Aktives Surfen im Internet oder intensive Lese- und Schreibvorgänge setzen den 'Zufallsgenerator' wieder auf Normalniveau zurück und beschleunigen den Vorgang. Sie werden benachrichtigt, wenn die Schlüsselerzeugung abgeschlossen ist.
@@ -396,7 +396,7 @@ key-type-subkey = Unterschlüssel
 key-type-pair = Schlüsselpaar (geheimer Schlüssel und öffentlicher Schlüssel)
 key-expiry-never = nie
 key-usage-encrypt = Verschlüsseln
-key-usage-sign = Unterschreiben
+key-usage-sign = Signieren
 key-usage-certify = Beglaubigen
 key-usage-authentication = Authentifizieren
 key-does-not-expire = Der Schlüssel läuft nicht ab.
@@ -405,7 +405,7 @@ key-does-not-expire = Der Schlüssel läuft nicht ab.
 key-expired-date = Der Schlüssel lief am { $keyExpiry } ab.
 key-expired-simple = Der Schlüssel ist abgelaufen.
 key-revoked-simple = Der Schlüssel wurde widerrufen.
-key-do-you-accept = Akzeptieren Sie diesen Schlüssel für das Verifizieren von digitalen Unterschriften und das Verschlüsseln von Nachrichten?
+key-do-you-accept = Akzeptieren Sie diesen Schlüssel für das Verifizieren digitaler Signaturen und das Verschlüsseln von Nachrichten?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
 key-verification = Verifizieren Sie den Fingerabdruck dieses Schlüssels über einen anderen Kommunikationsweg als E-Mail, um sicherzustellen, dass der Schlüssel wirklich { $addr } gehört.
@@ -544,11 +544,11 @@ openpgp-export-secret-fail = <b>Ausgewählter öffentlicher Schlüssel konnte ni
 
 key-ring-pub-key-revoked = Der Schlüssel { $userId } (Schlüssel-ID { $keyId }) wurde widerrufen.
 key-ring-pub-key-expired = Der Schlüssel { $userId } (Schlüssel-ID { $keyId }) ist abgelaufen.
-key-ring-no-secret-key = Sie haben nicht den geheimen Schlüssel für { $userId } (Schlüssel-ID { $keyId }) in Ihrem Schlüsselbund und können den Schlüssel daher nicht für eine digitale Unterschrift einsetzen.
-key-ring-pub-key-not-for-signing = Der Schlüssel { $userId } (Schlüssel-ID { $keyId }) kann nicht für digitale Unterschriften verwendet werden.
+key-ring-no-secret-key = Sie haben anscheinend nicht den geheimen Schlüssel für { $userId } (Schlüssel-ID { $keyId }) in Ihrem Schlüsselbund und können ihn daher nicht zum Signieren verwenden.
+key-ring-pub-key-not-for-signing = Der Schlüssel { $userId } (Schlüssel-ID { $keyId }) kann nicht zum Signieren verwendet werden.
 key-ring-pub-key-not-for-encryption = Der Schlüssel { $userId } (Schlüssel-ID { $keyId }) kann nicht für Verschlüsselung verwendet werden.
-key-ring-sign-sub-keys-revoked = Alle Unterschlüssel für digitale Unterschriften in { $userId } (Schlüssel-ID { $keyId }) wurden widerrufen.
-key-ring-sign-sub-keys-expired = Alle Unterschlüssel für digitale Unterschriften in { $userId } (Schlüssel-ID { $keyId }) sind abgelaufen.
+key-ring-sign-sub-keys-revoked = Alle Signier-Unterschlüssel von Schlüssel { $userId } (Schlüssel-ID { $keyId }) wurden widerrufen.
+key-ring-sign-sub-keys-expired = Alle Signier-Unterschlüssel von Schlüssel { $userId } (Schlüssel-ID { $keyId }) sind abgelaufen.
 key-ring-enc-sub-keys-revoked = Alle Unterschlüssel für Verschlüsselung in { $userId } (Schlüssel-ID { $keyId }) wurden widerrufen.
 key-ring-enc-sub-keys-expired = Alle Unterschlüssel für Verschlüsselung in { $userId } (Schlüssel-ID { $keyId }) sind abgelaufen.
 
@@ -562,10 +562,9 @@ user-att-photo = Benutzerattribut (JPEG-Attribut)
 already-revoked = Dieser Schlüssel wurde bereits widerrufen.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
-    Sie sind dabei, folgenden Schlüssel zu widerrufen:
-    '{ $identity }'
-    Sie werden mit diesem Schlüssel nicht mehr unterscheiben können, und sobald der Widerruf verteilt ist, werden andere nicht mehr mit diesem Schlüssel verschlüsseln können. Sie können mit dem Schlüssel aber weiterhin alte Nachrichten entschlüsseln.
-    Wollen Sie fortfahren?
+    Sie sind im Begriff, den Schlüssel „{ $identity }“ zu widerrufen.
+    Sie können diesen Schlüssel nicht mehr zum Signieren verwenden und sobald der Widerruf veröffentlicht wurde, können andere nicht mehr mit diesem Schlüssel verschlüsseln. Sie können den Schlüssel jedoch weiterhin verwenden, um alte Nachrichten zu entschlüsseln.
+    Möchten Sie fortfahren?
 #   $keyId (String) - the id of the key being revoked
 revoke-key-not-present =
     Sie verfügen über keinen Schlüssel (0x{ $keyId }), der zu diesem Widerrufszertifikat passt.
@@ -681,21 +680,21 @@ failed-decrypt = Fehler bei der Entschlüsselung
 fix-broken-exchange-msg-failed = Nachricht konnte nicht repariert werden.
 # Variables:
 # $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Konnte keine Verbindung von Datei mit digitaler Unterschrift "{ $attachment }" mit einem Anhang finden
+attachment-no-match-from-signature = Die Signaturdatei „{ $attachment }“ konnte keinem Anhang zugeordnet werden
 # Variables:
 # $attachment (String) - File name of the attachment.
-attachment-no-match-to-signature = Konnte keine Verbindung von Anhang "{ $attachment }" mit Datei mit digitaler Unterschrift finden
+attachment-no-match-to-signature = Der Anhang „{ $attachment }“ konnte keiner Signaturdatei zugeordnet werden
 # Variables:
 # $attachment (String) - File name of the attachment
-signature-verified-ok = Die digitale Unterschrift für den Anhang { $attachment } wurde erfolgreich bestätigt.
+signature-verified-ok = Die Signatur für den Anhang „{ $attachment }“ wurde erfolgreich verifiziert
 # Variables:
 # $attachment (String) - File name of the attachment
-signature-verify-failed = Die digitale Unterschrift für den Anhang { $attachment } konnte nicht bestätigt werden.
+signature-verify-failed = Die Signatur für den Anhang „{ $attachment }“ konnte nicht verifiziert werden
 decrypt-ok-no-sig =
     Warnung
-    Entschlüsselung verlief erfolgreich, aber die digitale Unterschrift konnte nicht erfolgreich bestätigt werden.
+    Die Entschlüsselung war erfolgreich, aber die digitale Signatur konnte nicht verifiziert werden.
 msg-ovl-button-cont-anyway = Trotzdem f&ortfahren
-enig-content-note = *Anhänge dieser Nachricht wurden weder digital unterschrieben noch verschlüsselt.*
+enig-content-note = *Anhänge zu dieser Nachricht wurden weder digital signiert noch verschlüsselt*
 
 ## Strings used in enigmailMsgComposeOverlay.js
 
@@ -728,8 +727,8 @@ quoted-printable-warn =
 # Variables:
 # $width (Number) - Number of characters per line.
 minimal-line-wrapping =
-    Sie haben die Zeilenbreite auf { $width } Zeichen festgelegt. Für korrektes Verschlüsseln und Unterschreiben muss die Zeilenbreite mindestens 68 Zeichen weit sein.
-    Soll die Zeilenbreite jetzt auf 68 Zeichen geändert werden?
+    Sie haben den Zeilenumbruch auf { $width } Zeichen eingestellt. Für korrektes Verschlüsseln und/oder digitales Signieren muss dieser Wert mindestens 68 betragen.
+    Möchten Sie den Zeilenumbruch jetzt auf 68 Zeichen ändern?
 sending-news =
     Senden verschlüsselter Nachricht abgebrochen.
     Die Nachricht kann nicht verschlüsselt werden, da einige Empfänger Newsgruppen sind. Bitte senden Sie die Nachricht erneut, aber ohne Verschlüsselung.
@@ -738,10 +737,10 @@ send-to-news-warning =
     Davon wird abgeraten, da es nur sinnvoll ist, falls alle Mitglieder der Newsgruppe die Nachricht entschlüsseln können, z.B. wenn die Nachricht mit den Schlüsseln aller Gruppenmitglieder verschlüsselt ist. Senden Sie diese Nachricht nur, wenn Sie wirklich wissen, was Sie tun.
     Fortfahren?
 save-attachment-header = Entschlüsselten Anhang speichern
-possibly-pgp-mime = Eventuell mit PGP/MIME verschlüsselte oder unterschriebene Nachricht; verwenden Sie die Funktion 'Entschlüsseln/Verifizieren' zum Verifizieren
+possibly-pgp-mime = Möglicherweise PGP/MIME-verschlüsselte oder signierte Nachricht; verwenden Sie die Funktion „Entschlüsseln/Verifizieren“ zum Verifizieren.
 # Variables:
 # $key (String) - Sender email address.
-cannot-send-sig-because-no-own-key = Die Nachricht kann nicht digital unterschrieben werden, da Sie noch keine Ende-zu-Ende-Verschlüsselung für <{ $key }> eingerichtet haben.
+cannot-send-sig-because-no-own-key = Diese Nachricht kann nicht digital signiert werden, da Sie noch keine Ende-zu-Ende-Verschlüsselung für <{ $key }> eingerichtet haben.
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Die Nachricht kann nicht verschlüsselt gesendet werden, da Sie noch keine Ende-zu-Ende-Verschlüsselung für <{ $key }> eingerichtet haben.
@@ -760,7 +759,7 @@ do-import-one = Soll der folgende Schlüssel importiert werden? { $name } ({ $id
 cant-import = Beim Importieren eines öffentlichen Schlüssels trat ein Fehler auf.
 unverified-reply = Der eingerückte Teil der Nachricht (die Antwort) wurde wahrscheinlich verändert.
 key-in-message-body = Im Nachrichteninhalt wurde ein Schlüssel erkannt. Klicken Sie aus "Schlüssel importieren", um den Schlüssel zu importieren.
-sig-mismatch = Fehler - digitale Unterschrift stimmt nicht überein
+sig-mismatch = Fehler – digitale Signatur stimmt nicht überein
 invalid-email = Fehler - ungültige E-Mail-Adresse(n)
 # Variables:
 # $name (String) - File name of the attachment.

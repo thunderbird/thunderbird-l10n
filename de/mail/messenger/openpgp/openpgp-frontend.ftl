@@ -15,7 +15,7 @@ openpgp-ctx-import-key =
     .label = OpenPGP-Schlüssel importieren
     .accesskey = m
 openpgp-ctx-verify-att =
-    .label = Unterschrift verifizieren
+    .label = Signatur verifizieren
     .accesskey = v
 openpgp-has-sender-key = Die Nachricht gibt an, den öffentlichen OpenPGP-Schlüssel des Absenders zu enthalten.
 # Variables:
@@ -25,7 +25,7 @@ openpgp-import-sender-key =
     .label = Importieren…
 openpgp-search-keys-openpgp =
     .label = OpenPGP-Schlüssel suchen
-openpgp-missing-signature-key = Diese Nachricht wurde mit einem Schlüssel unterschrieben, über den Sie nicht verfügen.
+openpgp-missing-signature-key = Diese Nachricht wurde mit einem Schlüssel signiert, den Sie noch nicht besitzen.
 openpgp-search-signature-key =
     .label = Suchen…
 # Don't translate the terms "OpenPGP" and "MS-Exchange"
@@ -42,8 +42,8 @@ openpgp-cannot-decrypt-because-mdc =
     Zum Schutz vor dieser Gefahr werden die Inhalte nicht angezeigt.
 openpgp-cannot-decrypt-because-missing-key = Der zum Entschlüsseln dieser Nachricht benötigte geheime Schlüssel ist nicht vorhanden.
 openpgp-partially-signed =
-    Nur ein Teil dieser Nachricht wurde mit OpenPGP digital unterschrieben.
-    Wenn die Schaltfläche "Verifizieren" angeklickt wird, werden die nicht geschützten Nachrichtenteile ausgeblendet und der Status der digitalen Unterschrift wird angezeigt.
+    Nur ein Teil dieser Nachricht wurde mit OpenPGP digital signiert.
+    Wenn Sie auf die Schaltfläche „Verifizieren“ klicken, werden die ungeschützten Teile ausgeblendet und der Status der digitalen Signatur wird angezeigt.
 openpgp-partially-encrypted =
     Nur ein Teil dieser Nachricht wurde mit OpenPGP verschlüsselt.
     Die bereits angezeigten lesbaren Nachrichtenteile waren unverschlüsselt.

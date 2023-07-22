@@ -18,9 +18,8 @@
 <!ENTITY encryption.certificate.accesskey "w">
 <!ENTITY encryption.certificate_clear.button "Leeren">
 <!ENTITY encryption.certificate_clear.accesskey "e">
-<!ENTITY signingGroupTitle.label "Digitale Unterschrift">
-
-<!ENTITY signingCert2.message "Persönliches Zertifikat für digitale Unterschrift:">
+<!ENTITY signingGroupTitle.label "Digitales Signieren">
+<!ENTITY signingCert2.message "Persönliches Zertifikat für digitales Signieren:">
 
 <!ENTITY sendingDefaults.label "Senden von Nachrichten - Standardeinstellungen">
 
@@ -42,6 +41,6 @@
 <!ENTITY certPicker.info  "Zertifikat:">
 <!ENTITY certPicker.detailsLabel "Details des ausgewählten Zertifikats:">
 
-<!ENTITY openpgpKey.message "Persönlicher Schlüssel für Verschlüsselung und digitale Unterschrift:">
+<!ENTITY openpgpKey.message "Persönlicher Schlüssel für Verschlüsseln und digitales Signieren:">
 <!ENTITY openpgpKey.button "Persönlichen Schlüssel auswählen…">
 <!ENTITY openpgpKey.accesskey "P">

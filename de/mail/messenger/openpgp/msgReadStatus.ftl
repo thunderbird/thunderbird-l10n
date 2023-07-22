@@ -14,39 +14,39 @@ message-security-button =
            *[other] Nachrichten-Sicherheit anzeigen (Strg+Alt+{ message-header-show-security-info-key })
         }
 openpgp-view-signer-key =
-    .label = Schlüssel der digitalen Unterschrift anzeigen
+    .label = Unterzeichnerschlüssel anzeigen
 openpgp-view-your-encryption-key =
     .label = Ihren Schlüssel für Entschlüsselung anzeigen
 openpgp-openpgp = OpenPGP
-openpgp-no-sig = Keine digitale Unterschrift
-openpgp-no-sig-info = Diese Nachricht besitzt keine digitale Unterschrift des Absenders. Des Fehlen einer digitalen Unterschrift bedeutet, dass die Nachricht auch von jemandem gesendet worden sein kann, der vorgibt, diese E-Mail-Adresse zu besitzen. Die Nachricht kann auch während des Transports vom Absender zum Empfänger verändert worden sein.
-openpgp-uncertain-sig = Nicht gesicherte digitale Unterschrift
+openpgp-no-sig = Keine digitale Signatur
+openpgp-no-sig-info = Diese Nachricht enthält nicht die digitale Signatur des Absenders. Das Fehlen einer digitalen Signatur bedeutet, dass die Nachricht von jemandem gesendet worden sein könnte, der vorgibt, diese E-Mail-Adresse zu besitzen. Es ist auch möglich, dass die Nachricht während der Übertragung über das Netzwerk verändert wurde.
+openpgp-uncertain-sig = Unsichere digitale Signatur
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-uncertain-sig-with-date = Unsichere digitale Signatur – Signiert am { $date }
-openpgp-invalid-sig = Ungültige digitale Unterschrift
+openpgp-invalid-sig = Ungültige digitale Signatur
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Ungültige digitale Signatur – Signiert am { $date }
-openpgp-good-sig = Gute digitale Unterschrift
+openpgp-good-sig = Gute digitale Signatur
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Gute digitale Signatur – Signiert am { $date }
-openpgp-sig-uncertain-no-key = Diese Nachricht enthält eine digitale Unterschrift, aber es ist nicht gesichert, dass diese korrekt ist. Um die digitale Unterschrift zu verifizieren, müssen Sie eine Kopie des öffentlichen Schlüssels des Absenders erhalten.
-openpgp-sig-uncertain-uid-mismatch = Diese Nachricht enthält eine digitale Unterschrift, aber es gab einen Fehler bei der Übereinstimmung. Die Nachricht wurde von einer E-Mail-Adresse gesendet, welche nicht mit der im öffentlichen Schlüssel des Unterschriftengebers übereinstimmt.
-openpgp-sig-uncertain-not-accepted = Diese Nachricht enthält eine digitale Unterschrift, aber Sie haben noch nicht entschieden, ob Sie den Schlüssel des Unterschriftengebers akzeptieren.
-openpgp-sig-invalid-rejected = Diese Nachricht enthält eine digitale Unterschrift, aber Sie haben den Schlüssel des Unterschriftengebers zu einem früheren Zeitpunkt als abzulehnen eingestuft.
-openpgp-sig-invalid-technical-problem = Diese Nachricht enthält eine digitale Unterschrift, aber ein technischer Fehler wurde erkannt. Entweder ist die Nachricht beschädigt oder sie wurde von jemandem anders verändert.
-openpgp-sig-valid-unverified = Diese Nachricht enthält eine gültige digitale Unterschrift mit einem bereits von Ihnen akzeptierten Schlüssel. Bislang haben Sie aber nicht verifiziert, dass der Schlüssel wirklich dem Sender gehört.
-openpgp-sig-valid-verified = Diese Nachricht enthält eine gültige digitale Unterschrift mit einem verifizierten Schlüssel.
-openpgp-sig-valid-own-key = Diese Nachricht enthält eine gültige digitale Unterschrift mit Ihrem persönlichen Schlüssel.
+openpgp-sig-uncertain-no-key = Diese Nachricht enthält eine digitale Signatur, aber es ist nicht sicher, ob sie korrekt ist. Um die Signatur zu verifizieren, müssen Sie eine Kopie des öffentlichen Schlüssels des Absenders erhalten.
+openpgp-sig-uncertain-uid-mismatch = Diese Nachricht enthält eine digitale Signatur, aber es wurde eine Unstimmigkeit festgestellt. Die Nachricht wurde von einer E-Mail-Adresse gesendet, die nicht mit dem öffentlichen Schlüssel des Unterzeichners übereinstimmt.
+openpgp-sig-uncertain-not-accepted = Diese Nachricht enthält eine digitale Signatur, aber Sie haben noch nicht entschieden, ob Sie den Schlüssel des Unterzeichners akzeptieren.
+openpgp-sig-invalid-rejected = Diese Nachricht enthält eine digitale Signatur, aber Sie haben zuvor entschieden, den Unterzeichnerschlüssel abzulehnen.
+openpgp-sig-invalid-technical-problem = Diese Nachricht enthält eine digitale Signatur, aber es wurde ein technischer Fehler festgestellt. Entweder wurde die Nachricht beschädigt oder von einer anderen Person verändert.
+openpgp-sig-valid-unverified = Diese Nachricht enthält eine gültige digitale Signatur eines Schlüssels, den Sie bereits akzeptiert haben. Sie haben jedoch noch nicht verifiziert, ob dieser Schlüssel wirklich dem Absender gehört.
+openpgp-sig-valid-verified = Diese Nachricht enthält eine gültige digitale Signatur eines verifizierten Schlüssels.
+openpgp-sig-valid-own-key = Diese Nachricht enthält eine gültige digitale Signatur Ihres persönlichen Schlüssels.
 # Variables:
 # $key (String) - The ID of the OpenPGP key used to create the signature.
-openpgp-sig-key-id = Schlüssel-ID der digitalen Unterschrift: { $key }
+openpgp-sig-key-id = Schlüssel-ID des Unterzeichners: { $key }
 # Variables:
 # $key (String) - The primary ID of the OpenPGP key used to create the signature.
 # $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
-openpgp-sig-key-id-with-subkey-id = Schlüssel-ID der digitalen Unterschrift: { $key } (Unterschlüssel-ID: { $subkey })
+openpgp-sig-key-id-with-subkey-id = Schlüssel-ID des Unterzeichners: { $key } (Unterschlüssel-ID: { $subkey })
 # Variables:
 # $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = Ihr Schlüssel für Entschlüsselung: { $key }
@@ -69,13 +69,13 @@ openpgp-message-header-encrypted-ok-icon =
 openpgp-message-header-encrypted-notok-icon =
     .alt = Fehler bei der Entschlüsselung
 openpgp-message-header-signed-ok-icon =
-    .alt = Gute digitale Unterschrift
+    .alt = Gute digitale Signatur
 # Mismatch icon is used for notok state as well
 openpgp-message-header-signed-mismatch-icon =
-    .alt = Schlechte digitale Unterschrift
+    .alt = Schlechte digitale Signatur
 openpgp-message-header-signed-unknown-icon =
-    .alt = Unbekannter Status der digitalen Unterschrift
+    .alt = Unbekannter Signaturstatus
 openpgp-message-header-signed-verified-icon =
-    .alt = Verifizierte digitale Unterschrift
+    .alt = Verifizierte digitale Signatur
 openpgp-message-header-signed-unverified-icon =
-    .alt = Nicht verifizierte digitale Unterschrift
+    .alt = Nicht verifizierte digitale Signatur
