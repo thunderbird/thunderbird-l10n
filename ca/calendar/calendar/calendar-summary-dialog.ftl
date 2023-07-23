@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Edita totes les ocurrències
     .accesskey = t
+description-context-menu-copy-link-text =
+    .label = Copia el text de l'enllaç
