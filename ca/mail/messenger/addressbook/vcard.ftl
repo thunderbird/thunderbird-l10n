@@ -104,9 +104,15 @@ vcard-adr-country = País
 
 # NOTE vCard field
 
+vcard-note-header = Anotacions
+vcard-note-add = Afegeix una anotació
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
+vcard-org-title = Títol
+vcard-org-role = Rol
+vcard-org-org = Organització
+vcard-org-org-unit = Departament
 
 # Custom properties
 

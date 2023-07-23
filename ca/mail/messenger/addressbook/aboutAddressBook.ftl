@@ -127,6 +127,7 @@ about-addressbook-cancel-edit-contact-button = Cancel·la
 about-addressbook-save-edit-contact-button = Desa
 about-addressbook-details-email-addresses-header = Adreces electròniques
 about-addressbook-details-phone-numbers-header = Números de telèfon
+about-addressbook-details-notes-header = Anotacions
 about-addressbook-details-other-info-header = Altra informació
 about-addressbook-entry-name-birthday = Data de naixement
 about-addressbook-entry-name-anniversary = Aniversari
