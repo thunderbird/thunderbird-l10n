@@ -5,6 +5,7 @@
 
 ## Window controls
 
+about-rights-notification-text = El { -brand-short-name } és programari lliure i de codi obert, creat per una comunitat de milers de desenvolupadors d'arreu del món.
 
 ## Content tabs
 
@@ -166,7 +167,7 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Voleu eliminar { $name }?
 addon-removal-confirmation-button = Elimina
 caret-browsing-prompt-title = Navegació amb cursor
