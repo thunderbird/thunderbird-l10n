@@ -24,3 +24,6 @@ libs-table-heading-loaded-version = Versió en ús
 libs-table-heading-path = Camí
 libs-table-heading-status = Estat
 libs-rnp-status-ok = Correcte
+libs-rnp-status-load-failed = No s'ha pogut carregar. L'OpenPGP no funcionarà.
+libs-rnp-status-incompatible = Versió incompatible. L'OpenPGP no funcionarà.
+libs-rnp-status-unofficial = Versió no oficial. L'OpenPGP podria no funcionar com s'esperaria.
