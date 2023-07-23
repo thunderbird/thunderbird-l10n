@@ -34,28 +34,55 @@ vcard-n-add-lastname =
     .title = Afegeix els cognoms
 vcard-n-suffix = Sufix
 vcard-n-add-suffix =
-    .title = Afegeix un sufix
+    .title = Afegeix el sufix
 
 # Nickname
 
+vcard-nickname = Sobrenom
 
 # Email vCard field
 
+vcard-email-header = Adreces electròniques
+vcard-email-add = Afegeix una adreça electrònica
+vcard-email-label = Adreça electrònica
+vcard-primary-email-label = Per defecte
 
 # URL vCard field
 
+vcard-url-header = Llocs web
+vcard-url-add = Afegeix un lloc web
+vcard-url-label = Lloc web
 
 # Tel vCard field
 
+vcard-tel-header = Números de telèfon
+vcard-tel-add = Afegeix un número de telèfon
+vcard-tel-label = Número de telèfon
+# Or "Mobile"
+vcard-entry-type-cell = Mòbil
+vcard-entry-type-fax = Fax
+vcard-entry-type-pager = Buscapersones
 
 # TZ vCard field
 
+vcard-tz-header = Fus horari
+vcard-tz-add = Afegeix el fus horari
 
 # IMPP vCard field
 
+vcard-impp2-header = Missatgeria instantània
+vcard-impp-add = Afegeix un compte de xat
+vcard-impp-label = Compte de xat
+vcard-impp-select = Protocol
+vcard-impp-option-other = Altres
+vcard-impp-input-label = URI
+vcard-impp-input-title = URI per a la missatgeria instantània
 
 # BDAY and ANNIVERSARY vCard field
 
+vcard-bday-anniversary-header = Dates especials
+vcard-bday-anniversary-add = Afegeix una data especial
+vcard-bday-label = Aniversari
 
 # ADR vCard field
 
