@@ -27,9 +27,29 @@ account-provisioner-button-back = Vés enrere
 ## Notifications
 
 account-provisioner-fetching-provisioners = S'estan recuperant els proveïdors…
+account-provisioner-connection-issues = No s'ha pogut crear la comunicació amb els servidors d'inici de sessió. Comproveu la vostra connexió.
+account-provisioner-searching-email = S'estan cercant comptes de correu disponibles…
+account-provisioner-searching-domain = S'estan cercant dominis disponibles…
+account-provisioner-searching-error = No s'ha pogut suggerir cap adreça. Proveu de canviar els termes de cerca.
 
 ## Illustrations
 
+account-provisioner-step1-image =
+    .title = Trieu quin compte voleu crear
 
 ## Search results
 
+# Variables:
+# $count (Number) - The number of domains found during search.
+account-provisioner-results-title =
+    { $count ->
+        [one] S'ha trobat una adreça disponible per a:
+       *[other] S'han trobat { $count } adreces disponibles per a:
+    }
+account-provisioner-mail-results-caption = Podeu provar de cercar sobrenoms o qualsevol altre terme per trobar més adreces electròniques.
+account-provisioner-domain-results-caption = Podeu provar de cercar sobrenoms o qualsevol altre terme per trobar més dominis.
+account-provisioner-free-account = Gratuït
+# Variables:
+# $price (String) - Yearly fee for the mail account. For example "US $9.99".
+account-provision-price-per-year = { $price } per any
+account-provisioner-all-results-button = Mostra tots els resultats
