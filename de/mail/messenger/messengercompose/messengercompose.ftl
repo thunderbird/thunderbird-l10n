@@ -202,7 +202,7 @@ openpgp-key-issue-notification-multi =
     }
 # Variables:
 # $addr (String) - mail address with certificate issues.
-smime-cert-issue-notification-single = Die Ende-zu-Ende-Verschlüsselung erfordert die Lösung eines Problems mit dem Zertifikat von { $addr }.
+smime-cert-issue-notification-single = Die Ende-zu-Ende-Verschlüsselung erfordert die Lösung von Zertifikatsproblemen für { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-multi =
