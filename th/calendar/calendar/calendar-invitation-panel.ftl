@@ -36,6 +36,10 @@ calendar-invitation-datetime-date = วัน{ $dayOfWeek }ที่ { $date }
 # $time (String) - The time part of a datetime using the "short" timeStyle.
 # $timezone (String) - The timezone info for the datetime.
 calendar-invitation-datetime-time = { $time } ({ $timezone })
+# Example: Friday, September 16, 2022
+# Variables:
+# $startDate (String) - The date (without time) the event starts on.
+calendar-invitation-interval-all-day = { $startDate }
 calendar-invitation-panel-prop-title-recurrence = ทำซ้ำ:
 calendar-invitation-panel-prop-title-attendees = ผู้เข้าร่วม:
 calendar-invitation-panel-prop-title-description = คำอธิบาย:
