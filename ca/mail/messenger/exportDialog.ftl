@@ -8,3 +8,7 @@ export-dialog =
     .buttonlabelaccept = Següent
 export-dialog-button-finish = Finalitza
 export-dialog-file-picker = Exporta a un fitxer zip
+export-dialog-description1 = Exporteu els comptes de correu, els missatges de correu, les llibretes d'adreces i els paràmetres a un fitxer zip.
+export-dialog-desc2 = Quan us calgui, podeu importar el fitxer zip per a restaurar el vostre perfil.
+export-dialog-exporting = S'està exportant…
+export-dialog-exported = L'exportació ha acabat.
