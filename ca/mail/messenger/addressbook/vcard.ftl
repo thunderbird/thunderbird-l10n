@@ -94,6 +94,13 @@ vcard-adr-header = Adreces
 vcard-adr-add = Afegeix una adreça
 vcard-adr-label = Adreça
 vcard-adr-street = Adreça postal
+# Or "Locality"
+vcard-adr-locality = Població
+# Or "Region"
+vcard-adr-region = Estat/província
+# The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
+vcard-adr-code = Codi postal
+vcard-adr-country = País
 
 # NOTE vCard field
 
