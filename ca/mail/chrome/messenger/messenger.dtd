@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "x">
 <!ENTITY unsubscribeNewsgroupCmd.label "Cancel·la la subscripció">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Selecciona">
 <!ENTITY selectMenu.accesskey "l">
 <!ENTITY all.label "Tot">
@@ -471,7 +473,7 @@
 <!ENTITY savedFiles.label "Fitxers desats">
 <!ENTITY savedFiles.accesskey "d">
 <!ENTITY savedFiles.key "j">
-<!ENTITY filtersCmd2.label "Filtres de missatge">
+<!ENTITY filtersCmd2.label "Filtres de missatges">
 <!ENTITY filtersCmd2.accesskey "F">
 <!ENTITY filtersApply.label "Executa els filtres en la carpeta">
 <!ENTITY filtersApply.accesskey "r">

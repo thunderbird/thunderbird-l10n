@@ -106,12 +106,55 @@ appmenu-open-calendar =
 
 appmenu-font-size-value = Mida de la lletra
 appmenu-mail-uidensity-value = Densitat
+appmenu-uidensity-compact =
+    .tooltiptext = Compacte
+appmenu-uidensity-default =
+    .tooltiptext = Per defecte
+appmenu-uidensity-relaxed =
+    .tooltiptext = Espaiós
+appmenuitem-font-size-enlarge =
+    .tooltiptext = Augmenta la mida de la lletra
+appmenuitem-font-size-reduce =
+    .tooltiptext = Redueix la mida de la lletra
+# Variables:
+# $size (String) - The current font size.
+appmenuitem-font-size-reset =
+    .label = { $size } píxels
+    .tooltiptext = Reinicia la mida de la lletra
 
 ## Tools
 
+appmenu-tools-panel-title =
+    .title = Eines
+appmenu-tools-panel =
+    .label = Eines
+    .accesskey = E
+appmenu-tools-import =
+    .label = Importa
+    .accesskey = I
+appmenu-tools-export =
+    .label = Exporta
+    .accesskey = E
+appmenu-tools-message-search =
+    .label = Cerca missatges
+    .accesskey = C
+appmenu-tools-message-filters =
+    .label = Filtres de missatges
+    .accesskey = F
+appmenu-tools-download-manager =
+    .label = Gestor de baixades
+    .accesskey = G
+appmenu-tools-activity-manager =
+    .label = Gestor d'activitat
+    .accesskey = a
+appmenu-tools-dev-tools =
+    .label = Eines per a desenvolupadors
+    .accesskey = E
 
 ## Help
 
+appmenu-help-panel-title =
+    .title = Ajuda
 
 ## Application Update
 
