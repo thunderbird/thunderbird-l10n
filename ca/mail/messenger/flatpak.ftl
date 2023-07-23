@@ -18,3 +18,7 @@ flatpak-desktop-generic-name = Client de correu
 ## window to write a message. Visible in a context menu after right clicking a
 ## Thunderbird taskbar icon, possibly other places depending on the environment.
 
+flatpak-desktop-action-compose = Redacta un missatge nou
+flatpak-desktop-action-addressbook = Obre la llibreta d'adreces
+flatpak-desktop-action-calendar = Obre el calendari
+flatpak-desktop-action-keymanager = Obre el gestor de claus OpenPGP

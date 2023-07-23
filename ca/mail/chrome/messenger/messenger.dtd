@@ -939,7 +939,7 @@
 
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "Opcions de la icona de l'aplicació…">
-<!ENTITY writeNewMessageDock.label      "Escriu un missatge nou">
+<!ENTITY writeNewMessageDock.label      "Redacta un missatge nou">
 <!ENTITY openAddressBookDock.label      "Obre la llibreta d'adreces">
 
 <!-- Content tab Navigation buttons -->
