@@ -7,7 +7,7 @@
 <!ENTITY accountTitle.label "Konten-Einstellungen">
 <!ENTITY accountName.label "Kontoname:">
 <!ENTITY accountName.accesskey "B">
-<!ENTITY identityTitle.label "Standard-Identität">
+<!ENTITY identityTitle.label "Standardidentität">
 <!ENTITY identityDesc.label "Diese Informationen erhalten Empfänger Ihrer Nachrichten.">
 <!ENTITY name.label "Ihr Name:">
 <!ENTITY name.accesskey "N">
