@@ -82,10 +82,18 @@ vcard-impp-input-title = URI per a la missatgeria instantània
 
 vcard-bday-anniversary-header = Dates especials
 vcard-bday-anniversary-add = Afegeix una data especial
-vcard-bday-label = Aniversari
+vcard-bday-label = Data de naixement
+vcard-anniversary-label = Aniversari
+vcard-date-day = Dia
+vcard-date-month = Mes
+vcard-date-year = Any
 
 # ADR vCard field
 
+vcard-adr-header = Adreces
+vcard-adr-add = Afegeix una adreça
+vcard-adr-label = Adreça
+vcard-adr-street = Adreça postal
 
 # NOTE vCard field
 

@@ -20,7 +20,6 @@ about-addressbook-toolbar-new-list =
 ## Books
 
 all-address-books = Totes les llibretes d'adreces
-
 about-addressbook-books-context-properties =
     .label = Propietats
 about-addressbook-books-context-synchronize =
@@ -31,7 +30,6 @@ about-addressbook-books-context-delete =
     .label = Suprimeix
 about-addressbook-books-context-remove =
     .label = Elimina
-
 about-addressbook-confirm-delete-book-title = Suprimeix la llibreta d'adreces
 # Variables:
 # $name (String) - Name of the address book to be deleted.
@@ -49,14 +47,12 @@ about-addressbook-search =
     .placeholder = Cerca en { $name }
 about-addressbook-search-all =
     .placeholder = Cerca en totes les llibretes d'adreces
-
 about-addressbook-name-format-display =
     .label = Nom a mostrar
 about-addressbook-name-format-firstlast =
     .label = Nom i cognoms
 about-addressbook-name-format-lastfirst =
     .label = Cognoms, Nom
-
 about-addressbook-sort-name-ascending =
     .label = Ordena per nom (A > Z)
 about-addressbook-sort-name-descending =
@@ -123,17 +119,20 @@ about-addressbook-confirm-delete-contacts =
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+
 ## Details
 
 about-addressbook-begin-edit-contact-button = Edita
 about-addressbook-cancel-edit-contact-button = Cancel·la
 about-addressbook-save-edit-contact-button = Desa
-
 about-addressbook-details-email-addresses-header = Adreces electròniques
 about-addressbook-details-phone-numbers-header = Números de telèfon
 about-addressbook-details-other-info-header = Altra informació
+about-addressbook-entry-name-birthday = Data de naixement
+about-addressbook-entry-name-anniversary = Aniversari
 
 # Photo dialog
+
 
 # Keyboard shortcuts
 
