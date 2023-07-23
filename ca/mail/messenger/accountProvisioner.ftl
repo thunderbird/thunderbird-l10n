@@ -53,3 +53,5 @@ account-provisioner-free-account = Gratuït
 # $price (String) - Yearly fee for the mail account. For example "US $9.99".
 account-provision-price-per-year = { $price } per any
 account-provisioner-all-results-button = Mostra tots els resultats
+account-provisioner-open-in-tab-img =
+    .title = S'obre en una pestanya nova
