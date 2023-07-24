@@ -12,6 +12,7 @@ import-from-thunderbird-zip =
 import-from-thunderbird-dir =
     .label = Thunderbird (carpeta del perfil)
     .accesskey = T
+zip-file-too-big-message = El fitxer comprimit seleccionat és més gran de 2 GB. Primer descomprimiu-lo i, a continuació, importeu-lo des de la carpeta on l'heu extret.
 wizardpage-failed =
     .label = Ha fallat la importació
 wizardpage-failed-message = La importació ha fallat inesperadament; pot ser que hi hagi disponible més informació a la consola d'errors.
