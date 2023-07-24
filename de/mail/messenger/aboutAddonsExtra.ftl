@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 add-on-options-button =
-    .title = Add-on-Einstellungen
-
+    .title = Optionen für Add-ons
 add-on-search-alternative-button-label = Ersatz für Add-on finden
-
 atn-addons-heading-search-input =
     .placeholder = Auf addons.thunderbird.net suchen
-

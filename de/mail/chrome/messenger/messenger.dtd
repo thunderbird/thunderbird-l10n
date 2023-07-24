@@ -582,7 +582,7 @@
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Externe Inhalte in dieser Nachricht anzeigen">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "N">
-<!ENTITY editRemoteContentSettings.label "Einstellungen für externe Inhalte bearbeiten…">
+<!ENTITY editRemoteContentSettings.label "Optionen für externe Inhalte bearbeiten…">
 <!ENTITY editRemoteContentSettings.accesskey "E">
 <!ENTITY editRemoteContentSettingsUnix.label "Einstellungen für externe Inhalte bearbeiten…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "E">
@@ -590,7 +590,7 @@
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Warnung für diese Nachricht ignorieren">
 <!ENTITY phishingOptionIgnore.accesskey "d">
-<!ENTITY phishingOptionSettings.label "Einstellungen für die Betrugsversuch-Erkennung bearbeiten…">
+<!ENTITY phishingOptionSettings.label "Optionen für Betrugserkennung bearbeiten…">
 <!ENTITY phishingOptionSettings.accesskey "E">
 <!ENTITY phishingOptionSettingsUnix.label "Einstellungen für die Betrugsversuch-Erkennung bearbeiten…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "E">
@@ -938,7 +938,7 @@
 <!ENTITY showAllAppsCmdMac.label        "Alle einblenden">
 
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "Dock-Symbol-Einstellungen…">
+<!ENTITY dockOptions.label              "Optionen für App-Symbol…">
 <!ENTITY writeNewMessageDock.label      "Neue Nachricht verfassen">
 <!ENTITY openAddressBookDock.label      "Adressbuch öffnen">
 

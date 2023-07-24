@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY options.title "Entwicklerwerkzeuge - Einstellungen">
+<!ENTITY options.title "Optionen für Entwicklerwerkzeuge">
 <!ENTITY options.status.label "Status:">
 <!ENTITY options.port.label "Port:">
 <!ENTITY options.forcelocal.label "Verbindungen von anderen Computern zulassen">

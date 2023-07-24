@@ -73,7 +73,7 @@ calendar-view-toggle-month = Monat
 ## Menu on calendar control bar
 
 calendar-control-bar-menu-button =
-    .title = Kalender-Layout-Einstellungen
+    .title = Kalender-Layout-Optionen
 calendar-find-events-menu-option =
     .label = Terminsuche-Bereich
 calendar-hide-weekends-option =

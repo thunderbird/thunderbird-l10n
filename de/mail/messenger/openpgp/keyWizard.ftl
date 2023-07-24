@@ -101,12 +101,12 @@ openpgp-import-key-list-amount-2 =
         [one] { -brand-short-name } erkannte einen Schlüssel, der importiert werden kann.
        *[other] { -brand-short-name } erkannte { $count } Schlüssel, die importiert werden können.
     }
-openpgp-import-key-list-description = Bestätigen Sie, welche Schlüssel Ihre persönlichen sind. Nur von Ihnen selbst erzeugte Schlüssel und die Sie als Schlüsselinhaber ausgeben sollten als persönliche Schlüssel verwendet werden. Sie können diese Eigenschaft später in den Schlüsseleigenschaften ändern.
+openpgp-import-key-list-description = Bestätigen Sie, welche Schlüssel als Ihre persönlichen Schlüssel behandelt werden sollen. Nur Schlüssel, die Sie selbst erstellt haben und die Ihre eigene Identität zeigen, sollten als persönliche Schlüssel verwendet werden. Sie können diese Option später in den Schlüsseleigenschaften ändern.
 openpgp-import-key-list-caption = Als persönlich gekennzeichnete Schlüssel werden im Abschnitt Ende-zu-Ende-Verschlüsselung aufgeführt. Die anderen Schlüssel sind in der Schlüsselverwaltung verfügbar.
 openpgp-import-keep-passphrases =
     .label = Passphrasenschutz für importierte geheime Schlüssel beibehalten
 openpgp-passphrase-prompt-title = Passwort benötigt
-#   $key (String) - the id of the key being imported
+#   $identity (String) - the id of the key being imported
 openpgp-passphrase-prompt = Bitte Passwort eingeben, um den folgenden Schlüssel zu entsperren: { $key }
 openpgp-import-key-button =
     .label = Datei für den Import auswählen…

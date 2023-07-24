@@ -99,7 +99,7 @@ folder-pane-toolbar =
     .toolbarname = Konten-/Ordneransicht
     .accesskey = O
 folder-pane-toolbar-options-button =
-    .tooltiptext = Einstellungen für Konten-/Ordneransicht
+    .tooltiptext = Optionen für Konten-/Ordneransicht
 folder-pane-header-label = Ordner
 
 ## Folder Toolbar Header Popup

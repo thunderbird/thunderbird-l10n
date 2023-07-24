@@ -3,12 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 dock-options-window-dialog =
-    .title = Dock-Symbol - Einstellungen
+    .title = Optionen für App-Symbol
     .style = width: 35em;
 dock-options-window-dialog2 =
-    .title = App-Symbol – Einstellungen
+    .title = Optionen für App-Symbol
 dock-options-show-badge =
-    .label = Zähler am Dock-Symbol anzeigen
+    .label = Zähler am App-Symbol anzeigen
     .accesskey = Z
 bounce-system-dock-icon =
     .label = Dock-Symbol beim Eingang neuer Nachrichten animieren

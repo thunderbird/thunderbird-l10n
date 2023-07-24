@@ -5,7 +5,7 @@
 <!ENTITY accountWindow.title           "Konto-Einstellungen">
 <!ENTITY accountWindow.width           "300">
 <!ENTITY account.general               "Allgemein">
-<!ENTITY account.advanced              "Erweiterte Einstellungen">
+<!ENTITY account.advanced              "Erweiterte Optionen">
 <!ENTITY account.name                  "Benutzername:">
 <!ENTITY account.password              "Passwort:">
 <!ENTITY account.alias                 "Lokaler Anzeigename:">
