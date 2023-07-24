@@ -7,4 +7,4 @@
 
 # Variables:
 #   $percent (Number) - Usage percentage of the assigned IMAP quota.
-quota-percent-used = { $percent }% đủ
+quota-percent-used = { $percent }% đã dùng

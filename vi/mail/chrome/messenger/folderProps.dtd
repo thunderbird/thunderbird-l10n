@@ -9,7 +9,7 @@
 <!ENTITY folderRebuildSummaryFile2.label         "Sửa thư mục">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "S">
 <!ENTITY folderRebuildSummaryFile.explanation    "Đôi khi tập tin chỉ mục của thư mục (.msf) bị hư và thư tin trông có thể như bị biến mất hoặc các thư tin đã xóa lại hiện ra; sửa thư mục có thể khắc phục các vấn đề này.">
-<!ENTITY folderIncludeInGlobalSearch.label       "Bao gồm thư tin trong thư mục này trong kết quả Tìm kiếm Bao quát">
+<!ENTITY folderIncludeInGlobalSearch.label       "Bao gồm thư trong thư mục này trong kết quả tìm kiếm tổng quát">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "g">
 
 <!ENTITY retention.label "Chính sách Sử dụng">
