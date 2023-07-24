@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Не жаңалық
-aboutDialog-title =
-    .title = { -brand-full-name } туралы
 about-dialog-title = { -brand-full-name } туралы
 release-notes-link = Шығарылым ескертпесі
 update-internal-error = Ішкі қатеге байланысты жаңартуларды тексеру мүмкін емес. Жаңартулар <a data-l10n-name="manual-link"/> адресі бойынша қолжетімді
@@ -40,25 +38,9 @@ aboutDialog-version = { $version } ({ $bits }-биттік)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-биттік)
 aboutdialog-update-checking-failed = Жаңартуларды тексеру сәтсіз аяқталды.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     бұл <a data-l10n-name="community-exp-credits-link">
-    глобалды қоғамдастық,</a>
-     интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.
-community-2 =
-    { -brand-short-name } жасаған <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , ол <a data-l10n-name="community-credits-link">
-    глобалды қоғамдастық,</a>
-     интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.
-about-helpus =
-    Көмектескіңіз келе ме? <a data-l10n-name="helpus-donate-link">
-    Ақшалай көмектесіңіз</a> or <a data-l10n-name="helpus-get-involved-link">
-    үлес қосуға болады!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> бұл <a data-l10n-name="community-exp-credits-link">глобалды қоғамдастық,</a> интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.
 community-desc = { -brand-short-name } жасаған <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, ол <a data-l10n-name="community-credits-link">глобалды қоғамдастық,</a> интернетті ашық, ортақ және қолжетімді қылуға бірге жұмыс істейді.
-about-donation = Көмектескіңіз келе ме? <a data-l10n-name="helpus-donate-link">Ақшалай көмектесіңіз</a> or <a data-l10n-name="helpus-get-involved-link">үлес қосуға болады!</a>
+about-donation = Көмектескіңіз келе ме? <a data-l10n-name="helpus-donate-link">Ақшалай көмектесіңіз</a> немесе <a data-l10n-name="helpus-get-involved-link">үлес қосуға болады!</a>
 bottom-links-license = Лицензиялық ақпарат
 bottom-links-rights = Түпкі пайдаланушы құқықтары
 bottom-links-privacy = Жекелік саясаты
