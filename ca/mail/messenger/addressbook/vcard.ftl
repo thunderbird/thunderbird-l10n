@@ -116,3 +116,8 @@ vcard-org-org-unit = Departament
 
 # Custom properties
 
+vcard-custom-header = Propietats personalitzades
+vcard-custom-add = Afegeix propietats personalitzades
+vcard-remove-button-title =
+    .title = Elimina
+vcard-remove-button = Elimina
