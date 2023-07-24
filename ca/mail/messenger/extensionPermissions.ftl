@@ -21,3 +21,4 @@ webext-perms-description-messagesMove = Copiar o moure els vostres missatges de 
 webext-perms-description-messagesDelete = Suprimir permanentment els vostres missatges de correu electrònic
 webext-perms-description-messagesRead = Llegir els vostres missatges de correu electrònic i marcar-los o etiquetar-los
 webext-perms-description-messagesTags = Crear, modificar i suprimir etiquetes de missatges
+webext-perms-description-sensitiveDataUpload = Transferir dades confidencials de l'usuari (si se n'ha concedit l'accés) a un servidor remot per a un processament posterior
