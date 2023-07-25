@@ -63,7 +63,7 @@
 <!ENTITY cellAlignBottom.label            "Unten">
 <!ENTITY cellAlignJustify.label           "Ausrichten">
 <!ENTITY cellInheritColor.label           "(Tabellenfarbe durchscheinen lassen)">
-<!ENTITY cellUseCheckboxHelp.label        "Verwenden Sie die Kontrollkästchen, um zu bestimmen, welche Einstellungen an alle gewählten Zellen angewendet werden.">
+<!ENTITY cellUseCheckboxHelp.label        "Verwenden Sie Kontrollkästchen, um festzulegen, welche Eigenschaften auf alle ausgewählten Zellen angewendet werden sollen.">
 
 <!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Größe">
