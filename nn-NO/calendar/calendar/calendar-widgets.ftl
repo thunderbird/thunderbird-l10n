@@ -27,6 +27,21 @@ calendar-new-task-primary-button = Ny oppgåve
 
 ## Calendar navigation
 
+calendar-nav-button-next-tooltip-day =
+    .title = Neste dag
+    .accesskey = N
+calendar-nav-button-next-tooltip-week =
+    .title = Neste veke
+    .accesskey = N
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Neste veke
+    .accesskey = N
+calendar-nav-button-next-tooltip-month =
+    .title = Neste månad
+    .accesskey = N
+calendar-nav-button-next-tooltip-year =
+    .title = Neste år
+    .accesskey = N
 calendar-today-button-tooltip =
     .title = Gå til I dag
 calendar-view-toggle-day = Dag
@@ -40,10 +55,16 @@ calendar-view-toggle-month = Månad
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Innstillingar for kalenderutsjånad
+calendar-find-events-menu-option =
+    .label = Finn hendingsrute
 calendar-hide-weekends-option =
     .label = Berre arbeidsveke
 calendar-define-workweek-option =
     .label = Definer arbeidsvekedagar
+calendar-show-tasks-calendar-option =
+    .label = Vis oppgåver i kalender
 
 ## Calendar Context Menu
 
