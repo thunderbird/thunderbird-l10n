@@ -58,6 +58,8 @@ vcard-url-label = Nettstad
 vcard-tel-header = Telefonnummer
 vcard-tel-add = Legg til telefonnummer
 vcard-tel-label = Telefonnummer
+# Or "Mobile"
+vcard-entry-type-cell = Celle
 vcard-entry-type-fax = Faks
 vcard-entry-type-pager = Personsøkjar
 
@@ -70,6 +72,7 @@ vcard-tz-add = Legg til tidssone
 
 vcard-impp-add = Legg til nettpratkonto
 vcard-impp-label = Nettpratkonto
+vcard-impp-select = Protokoll
 vcard-impp-option-other = Anna
 vcard-impp-input-label = URI
 
@@ -107,6 +110,7 @@ vcard-note-add = Legg til notat
 vcard-org-title = Tittel
 vcard-org-role = Rolle
 vcard-org-org = Organisasjon
+vcard-org-org-unit = Avdeling
 
 # Custom properties
 

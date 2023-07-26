@@ -5,6 +5,9 @@
 
 ## Send Format
 
+compose-send-auto-menu-item =
+    .label = Automatisk
+    .accesskey = A
 
 ## Addressing widget
 
@@ -106,6 +109,8 @@ encryption-options-smime =
 
 to-address-row-label =
     .value = Til
+cc-address-row-label =
+    .value = Kopi
 many-public-recipients-prompt-cancel = Avbryt sending
 many-public-recipients-prompt-send = Send likevel
 

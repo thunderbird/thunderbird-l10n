@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Kalender
 category-calendar =
     .tooltiptext = Kalender
+pane-sync-title = Synkronisering
+category-sync =
+    .tooltiptext = Synkronisering
 general-language-and-appearance-header = Språk og utsjånad
 general-incoming-mail-header = Innkomande e-postar
 general-files-and-attachment-header = Filer og vedlegg
@@ -124,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Legg til OpenSearch-tilbydar
 add-opensearch-provider-text = Skriv inn adressa til OpenSearch-tilbydaren du vil leggje til. Bruk anten den direkte adressa til OpenSearch-skildringsfila, eller ei adresse der ho kan oppdagast automatisk.
 adding-opensearch-provider-failed-title = Klarte ikkje leggje til OpenSearch-tilbydar
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Klarte ikke leggje til OpenSearch-tilbydar for { $url }.
 minimize-to-tray-label =
     .label = Når { -brand-short-name } er minimert, flytt han til systemstatusfeltet
@@ -713,3 +718,20 @@ search-results-help-link = Treng du hjelp? Gå til <a data-l10n-name="url">{ -br
 
 ## Sync Tab
 
+sync-pane-header = Synkronisering
+sync-pane-sign-in = Logg inn
+sync-pane-remove-account = Fjern kontoen
+sync-pane-edit-photo =
+    .title = Endre profilbilde
+sync-pane-manage-account = Handsam kontoen
+sync-pane-sign-out = Logg ut…
+sync-pane-device-name-title = Einingsnamn
+sync-pane-change-device-name = Endre namn på eininga
+sync-pane-cancel = Avbryt
+sync-pane-save = Lagre
+sync-pane-show-synced-header-on = Synkronisering: PÅ
+sync-pane-show-synced-header-off = Synkronisering: AV
+sync-pane-sync-now = Synkroniser no
+sync-panel-sync-now-syncing = Synkroniserer…
+show-synced-list-heading = Du synkroniserer for tida desse elementa:
+show-synced-learn-more = Les meir…

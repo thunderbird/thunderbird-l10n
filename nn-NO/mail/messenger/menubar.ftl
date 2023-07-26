@@ -44,6 +44,9 @@ menu-help-more-troubleshooting-info =
 menu-help-troubleshooting-info =
     .label = Feilsøkingsinfo
     .accesskey = F
+menu-help-about-product =
+    .label = Om { -brand-short-name }
+    .accesskey = O
 # These menu-quit strings are only used on Windows and Linux.
 menu-quit =
     .label =
@@ -56,6 +59,11 @@ menu-quit =
             [windows] A
            *[other] A
         }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = Avslutt { -brand-shorter-name }
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 

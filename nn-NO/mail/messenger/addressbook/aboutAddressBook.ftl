@@ -21,6 +21,8 @@ about-addressbook-toolbar-import =
 
 ## Books
 
+all-address-books-row =
+    .title = Alle adressebøker
 all-address-books = Alle adressebøkene
 about-addressbook-books-context-properties =
     .label = Eigenskapar
@@ -119,10 +121,16 @@ about-addressbook-column-label-nickname2 =
     .label = Kallenamn
 about-addressbook-column-header-phonenumbers2 = Telefonnummer
     .title = Sorter etter telefonnummer
+about-addressbook-column-label-phonenumbers2 =
+    .label = Telefonnummer
 about-addressbook-column-header-addresses2 = Adresser
     .title = Sorter etter adresser
+about-addressbook-column-label-addresses2 =
+    .label = Adresser
 about-addressbook-column-header-title2 = Tittel
     .title = Sorter etter tittel
+about-addressbook-column-label-title2 =
+    .label = Tittel
 about-addressbook-column-header-organization2 = Organisasjon
     .title = Sorter etter organisasjon
 about-addressbook-column-header-addrbook2 = Adressebok

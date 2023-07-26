@@ -7,6 +7,7 @@ export-page-title = Eksporter
 
 ## Header
 
+import-start = Importverkty
 import-from-app = Importer frå applikasjon
 import-file = Importer frå ei fil
 import-file-title = Vel ei fil for[ importere innhaldet.

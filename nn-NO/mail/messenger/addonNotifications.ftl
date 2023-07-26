@@ -52,6 +52,14 @@ webext-perms-update-menu-item = { $addonName } krev nye løyve
 ## Add-on removal warning
 
 # Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Fjerne { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Fjerne { $name } frå { -brand-shorter-name }?
+addon-removal-button = Fjern
+addon-removal-abuse-report-checkbox = Rapporter denne utvidinga til { -vendor-short-name }
+# Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
     { $addonCount ->
@@ -92,6 +100,7 @@ addon-install-error-incorrect-hash = Klarte ikkje å installere tillegget fordi 
 addon-install-error-corrupt-file = Klarte ikkje å installere utvidinga, lasta ned frå denne sida, fordi det ser ut til at ho er skada.
 addon-install-error-file-access = Klarte ikkje å installere { $addonName } fordi { -brand-short-name } kan ikkje endre den påkravde fila.
 addon-install-error-not-signed = { -brand-short-name } har hindra denne sida frå å installere ei ikkje-stadfesta utviding.
+addon-install-error-invalid-domain = Tillegget { $addonName } kan ikkje installerast frå denne plasseringa.
 addon-local-install-error-network-failure = Denne utvidinga kan ikkje installerast på grunn av ein feil på filsystemet.
 addon-local-install-error-incorrect-hash = Klarte ikkje å installere denne utvidinga på grunn av at ho ikkje passar med utvidinga som { -brand-short-name } venta.
 addon-local-install-error-corrupt-file = Denne utvidinga kan ikkje installerast fordi ho ser ut til å vera skadd.

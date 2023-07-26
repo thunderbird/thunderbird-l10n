@@ -13,6 +13,8 @@ thread-pane-folder-message-count =
         [one] { $count } melding
        *[other] { $count } meldingar
     }
+thread-pane-header-context-table-view =
+    .label = Tabellvising
 
 ## Quick Filter Bar
 
@@ -171,6 +173,8 @@ threadpane-column-label-attachments =
 threadpane-attachments-cell-label = Vedlegg
 threadpane-column-header-unread-button =
     .title = Sorter etter lesen-status
+threadpane-read-cell-label = Lesne
+threadpane-unread-cell-label = Ulesne
 threadpane-column-header-sender = Frå
     .title = Sorter etter: Frå
 threadpane-column-label-sender =

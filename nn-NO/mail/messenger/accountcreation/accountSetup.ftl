@@ -109,6 +109,7 @@ account-setup-protocol-label = Protokoll:
 account-setup-hostname-label = Vertsnamn:
 account-setup-port-label = Port:
     .title = Still inn portnummeret til 0 för automatisk oppdaging
+account-setup-outgoing-server-legend = Utgåande server
 
 ## Incoming/Outgoing SSL Authentication options
 
