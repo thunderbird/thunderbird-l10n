@@ -23,22 +23,18 @@ update-restarting = Startar på nytt…
 channel-description = Du brukar no oppdateringskanalen <span data-l10n-name="current-channel">{ $channel }</span> .
 warning-desc-version = { -brand-short-name } er eksperimentell og kan vera ustabil.
 warning-desc-telemetry = Denne versjonen sender automatisk informasjon om yting, maskinvare, bruksmønster og tilpassingar tilbake til { -vendor-short-name } for å hjelpa til med å gjera { -brand-short-name } betre.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     er eit <a data-l10n-name="community-exp-credits-link">
-    globalt samfunn</a>
-     som jobbar saman for å halda nettet ope og tilgjengeleg for alle.
-community-2 =
-    { -brand-short-name } er utvikla av <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , eit <a data-l10n-name="community-credits-link">
-    globalt samfunn</a>
-     som jobbar for å halda nettet ope og tilgjengeleg for alle.
-about-helpus =
-    Vil du hjelpa til? <a data-l10n-name="helpus-donate-link">
-    Gje ei pengegåve</a> or <a data-l10n-name="helpus-get-involved-link">
-    ver med!</a>
+# Example of resulting string: 66.0.1 (64-bit)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $bits (Number): bits of the architecture (32 or 64)
+aboutDialog-version = { $version } ({ $bits }-bitar)
+# Example of resulting string: 66.0a1 (2019-01-16) (64-bit)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $bits (Number): bits of the architecture (32 or 64)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
+aboutdialog-update-checking-failed = Klarte ikkje å sjå etter oppdateringar
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> er eit <a data-l10n-name="community-exp-credits-link">globalt samfunn</a> som jobbar saman for å halda nettet ope og tilgjengeleg for alle.
 community-desc = { -brand-short-name } er utvikla av <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, eit <a data-l10n-name="community-credits-link">globalt samfunn</a> som jobbar for å halda nettet ope og tilgjengeleg for alle.
 about-donation = Vil du hjelpa til? <a data-l10n-name="helpus-donate-link">Gje ei pengegåve</a> or <a data-l10n-name="helpus-get-involved-link">ver med!</a>

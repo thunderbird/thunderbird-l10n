@@ -85,6 +85,7 @@ error-pane-title = Feil
 
 ## <csv-field-map> element
 
+csv-source-field = Kjeldefelt
 
 ## Export tab
 
@@ -104,6 +105,8 @@ footer-support-forum = Brukarstøtteforum
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = Importsteg
 step-confirm = Stadfest
 # Variables:
 # $number (number) - step number
