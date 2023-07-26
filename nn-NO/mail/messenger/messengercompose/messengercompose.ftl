@@ -109,6 +109,11 @@ encryption-options-smime =
 
 to-address-row-label =
     .value = Til
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .label = Til-felt
+    .accesskey = T
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -120,8 +125,18 @@ show-to-row-button = Til
 cc-address-row-label =
     .value = Kopi
 #   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = Kopi-felt
+    .accesskey = K
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Kopi
+    .accesskey = K
+#   $key (String) - the shortcut key for this field
 show-cc-row-button = Kopi
-    .title = Vis «Kopi»-felt ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+    .title = Vis Kopi-felt ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 bcc-address-row-label =
     .value = Blindkopi
 #   $key (String) - the shortcut key for this field
@@ -137,6 +152,9 @@ show-bcc-row-extra-menuitem =
 #   $key (String) - the shortcut key for this field
 show-bcc-row-button = Blindkopi
     .title = Vis blindkopifelt ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+many-public-recipients-bcc =
+    .label = Bruk blindkopi i staden
+    .accesskey = B
 many-public-recipients-prompt-cancel = Avbryt sending
 many-public-recipients-prompt-send = Send likevel
 
@@ -159,6 +177,7 @@ many-public-recipients-prompt-send = Send likevel
 
 cloud-file-template-size = Storleik:
 cloud-file-template-link = Lenke
+cloud-file-template-download-limit = Nedlastingsgrense:
 
 # Messages
 

@@ -236,6 +236,8 @@ spaces-pinned-button-menuitem-show =
 menuitem-customize-label =
     .label = Tilpass…
 spaces-customize-background-color = Bakgrunnsfarge
+customize-panel-button-save = Ferdig
+    .accesskey = F
 
 ## Quick Filter Bar
 
