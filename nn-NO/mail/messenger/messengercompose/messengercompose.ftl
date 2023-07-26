@@ -109,8 +109,34 @@ encryption-options-smime =
 
 to-address-row-label =
     .value = Til
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = Til
+    .accesskey = T
+#   $key (String) - the shortcut key for this field
+show-to-row-button = Til
+    .title = Vis Til-felt ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 cc-address-row-label =
     .value = Kopi
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Kopi
+    .title = Vis «Kopi»-felt ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+bcc-address-row-label =
+    .value = Blindkopi
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .label = Blindkopifelt
+    .accesskey = B
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = Blindkopi
+    .accesskey = B
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = Blindkopi
+    .title = Vis blindkopifelt ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 many-public-recipients-prompt-cancel = Avbryt sending
 many-public-recipients-prompt-send = Send likevel
 
