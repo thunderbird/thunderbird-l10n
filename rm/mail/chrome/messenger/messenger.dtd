@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "z">
 <!ENTITY unsubscribeNewsgroupCmd.label "Annullar l'abunament">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "A">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Tscherner">
 <!ENTITY selectMenu.accesskey "h">
 <!ENTITY all.label "Tuts">
@@ -489,7 +491,7 @@
 <!ENTITY exportCmd.accesskey "x">
 <!ENTITY clearRecentHistory.label "Stizzar la cronologia pli nova…">
 <!ENTITY clearRecentHistory.accesskey "c">
-<!ENTITY accountManagerCmd2.label "Configuraziun da contos">
+<!ENTITY accountManagerCmd2.label "Parameters dals contos">
 <!ENTITY accountManagerCmd2.accesskey "S">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
