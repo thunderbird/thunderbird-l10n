@@ -139,7 +139,7 @@
 <!ENTITY quoteCmd.accesskey "N">
 
 <!--LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
-<!ENTITY attachVCard.label "Visitenkarte anhängen">
+<!ENTITY attachVCard.label "Visitenkarte (vCard) anhängen">
 <!ENTITY attachVCard.accesskey "v">
 
 <!ENTITY returnReceiptMenu.label "Empfangsbestätigung (MDN) anfordern">
@@ -216,10 +216,9 @@
 <!ENTITY followupAddr2.label "Followup an">
 <!ENTITY subject2.label "Betreff">
 <!ENTITY subject.accesskey "r">
-
 <!ENTITY attachmentBucketCloseButton.tooltip "Anhangbereich ausblenden">
 
-<!-- Format Toolbar, imported from editorAppShell.xul -->
+<!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Einen Smiley einfügen">
 <!ENTITY smiley1Cmd.label "Lächeln">
 <!ENTITY smiley2Cmd.label "Stirn runzeln">

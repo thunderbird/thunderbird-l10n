@@ -32,7 +32,7 @@
 <!ENTITY editVCard.label "Visitenkarte bearbeiten…">
 <!ENTITY editVCard.accesskey "s">
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
-<!ENTITY attachVCard.label "Visitenkarte an Nachrichten anhängen">
+<!ENTITY attachVCard.label "Meine Visitenkarte (vCard) an Nachrichten anhängen">
 <!ENTITY attachVCard.accesskey "v">
 
 <!ENTITY manageIdentities.label "Weitere Identitäten…">
