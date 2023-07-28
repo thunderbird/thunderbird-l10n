@@ -11,6 +11,7 @@
 <!ENTITY newMenu.label "Nevez">
 <!ENTITY newMenu.accesskey "N">
 <!ENTITY newMessage.label "Kemennadenn">
+<!ENTITY newMessage.accesskey "K">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Darempred ar c'harned chomlec'hioù…">
 <!ENTITY newContact.accesskey "c">
@@ -205,12 +206,13 @@
 <!ENTITY printButton.tooltip "Moullañ ar gemennadenn-mañ">
 
 <!-- Headers -->
-<!-- Headers -->
+<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
+    Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY fromAddr.accesskey "b">
 <!ENTITY subject.accesskey "D">
 <!ENTITY attachmentBucketCloseButton.tooltip "Kuzhat penel ar c'henstagadurioù">
 
-<!-- Format Toolbar, imported from editorAppShell.xul -->
+<!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Enlakaat ur fromarlun">
 <!ENTITY smiley1Cmd.label "Mousc'hoarzhiñ">
 <!ENTITY smiley2Cmd.label "Krizañ e dal">
