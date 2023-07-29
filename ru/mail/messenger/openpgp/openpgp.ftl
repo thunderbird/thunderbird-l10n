@@ -25,10 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Хранить черновики сообщений в зашифрованном формате
     .accesskey = ч
-# Do not translate "Autocrypt", it's the name of a standard.
-e2e-autocrypt-headers =
-    .label = Отправлять открытый(е) ключ(и) OpenPGP в заголовках электронной почты для совместимости с Autocrypt.
-    .accesskey = м
 openpgp-key-user-id-label = Учётная запись / Идентификатор пользователя
 openpgp-keygen-title-label =
     .title = Создать ключ OpenPGP
@@ -59,6 +55,10 @@ openpgp-generate-key =
 openpgp-advanced-prefs-button-label =
     .label = Дополнительно…
 openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">ПРИМЕЧАНИЕ: Генерация ключа может занять до нескольких минут.</a> Не выходите из приложения, пока идёт генерация ключа. Активный просмотр страниц или выполнение операций с интенсивным использованием диска во время генерации ключа пополнит «пул случайностей» и ускорит процесс. Вы будете предупреждены, когда генерация ключа будет завершена.
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Отправлять открытый(е) ключ(и) OpenPGP в заголовках электронной почты для совместимости с Autocrypt.
+    .accesskey = м
 openpgp-key-created-label =
     .label = Создан
 openpgp-key-expiry-label =
@@ -129,7 +129,7 @@ openpgp-key-publish-ok = Открытый ключ отправлен на «{ $
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
 openpgp-key-publish-fail = Не удалось отправить открытый ключ на «{ $keyserver }».
 openpgp-key-copy-key =
-    .label = Копировать открытый ключ
+    .label = Скопировать открытый ключ
     .accesskey = п
 openpgp-key-export-key =
     .label = Экспортировать открытый ключ в файл
@@ -145,9 +145,9 @@ openpgp-key-send-key =
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
-            [one] Копировать идентификатор ключа в буфер обмена
-            [few] Копировать идентификаторы ключей в буфер обмена
-           *[many] Копировать идентификаторы ключей в буфер обмена
+            [one] Скопировать идентификатор ключа в буфер обмена
+            [few] Скопировать идентификаторы ключей в буфер обмена
+           *[many] Скопировать идентификаторы ключей в буфер обмена
         }
     .accesskey = м
 # Variables:
@@ -155,9 +155,9 @@ openpgp-key-man-copy-key-ids =
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
-            [one] Копировать отпечаток в буфер обмена
-            [few] Копировать отпечатки в буфер обмена
-           *[many] Копировать отпечатки в буфер обмена
+            [one] Скопировать отпечаток в буфер обмена
+            [few] Скопировать отпечатки в буфер обмена
+           *[many] Скопировать отпечатки в буфер обмена
         }
     .accesskey = ч
 # Variables:
@@ -165,15 +165,15 @@ openpgp-key-man-copy-fprs =
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
-            [one] Копировать открытый ключ в буфер обмена
-            [few] Копировать открытые ключи в буфер обмена
-           *[many] Копировать открытые ключи в буфер обмена
+            [one] Скопировать открытый ключ в буфер обмена
+            [few] Скопировать открытые ключи в буфер обмена
+           *[many] Скопировать открытые ключи в буфер обмена
         }
     .accesskey = в
 openpgp-key-man-ctx-expor-to-file-label =
     .label = Экспортировать ключи в файл
 openpgp-key-man-ctx-copy =
-    .label = Копировать
+    .label = Скопировать
     .accesskey = п
 # Variables:
 # $count (Number) - Number of fingerprints.
@@ -338,7 +338,7 @@ openpgp-passphrase-new-repeat = Подтвердить новую парольн
 openpgp-passphrase-set = Установить парольную фразу
 openpgp-passphrase-change = Изменить парольную фразу
 openpgp-copy-cmd-label =
-    .label = Копировать
+    .label = Скопировать
 
 ## e2e encryption settings
 

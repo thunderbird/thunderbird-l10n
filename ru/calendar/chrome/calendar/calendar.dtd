@@ -9,13 +9,10 @@
 <!ENTITY calendar.newevent.button.tooltip         "Создать новое событие" >
 <!ENTITY calendar.newtask.button.tooltip          "Создать новую задачу" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "Задачи" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Показать выполненные задачи">
 
 <!ENTITY calendar.today.button.label          "Сегодня">
 <!ENTITY calendar.tomorrow.button.label       "Завтра">
-<!ENTITY calendar.upcoming.button.label       "Предстоящие">
 
 <!ENTITY calendar.events.filter.all.label "Все события">
 <!ENTITY calendar.events.filter.today.label "События на сегодня">
@@ -88,13 +85,12 @@
 
 <!ENTITY calendar.newevent.button.label         "Новое событие" >
 <!ENTITY calendar.newtask.button.label          "Новая задача" >
-<!ENTITY calendar.print.button.label            "Печать" >
-<!ENTITY calendar.print.button.accesskey        "П">
 
 <!ENTITY calendar.day.button.label              "День" >
 <!ENTITY calendar.week.button.label             "Неделя" >
 <!ENTITY calendar.month.button.label            "Месяц" >
 <!ENTITY calendar.multiweek.button.label        "По неделям" >
+
 <!ENTITY calendar.onlyworkday.checkbox.label    "Только рабочие дни" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "Т" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Задачи в текущем обзоре" >
@@ -169,7 +165,7 @@
 <!ENTITY calendar.context.deleteevent.accesskey       "б">
 <!ENTITY calendar.context.cutevent.label              "Вырезать">
 <!ENTITY calendar.context.cutevent.accesskey          "В">
-<!ENTITY calendar.context.copyevent.label             "Копировать">
+<!ENTITY calendar.context.copyevent.label             "Скопировать">
 <!ENTITY calendar.context.copyevent.accesskey         "К">
 <!ENTITY calendar.context.pasteevent.label            "Вставить">
 <!ENTITY calendar.context.pasteevent.accesskey        "ь">
@@ -255,7 +251,7 @@
 <!ENTITY calendar.context.postpone.1week.label      "1 неделю">
 <!ENTITY calendar.context.postpone.1week.accesskey  "н">
 
-<!ENTITY calendar.copylink.label       "Копировать ссылку">
+<!ENTITY calendar.copylink.label       "Скопировать ссылку">
 <!ENTITY calendar.copylink.accesskey   "К">
 
 <!-- Task View -->
@@ -355,7 +351,6 @@
 <!ENTITY calendarproperties.color.label                    "Цвет:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Сервер календарей Sun Java System (WCAP)">
 <!ENTITY calendarproperties.format.label                   "Формат:">
 <!ENTITY calendarproperties.location.label                 "Адрес:">
 <!ENTITY calendarproperties.refreshInterval.label          "Обновлять календарь:">
@@ -364,7 +359,6 @@
 <!ENTITY calendarproperties.readonly.label                 "Только для чтения">
 <!ENTITY calendarproperties.firealarms.label               "Показывать оповещения">
 <!ENTITY calendarproperties.cache3.label                   "Работать автономно">
-<!ENTITY calendarproperties.enabled.label                  "Включите этот календарь">
 <!ENTITY calendarproperties.enabled2.label                 "Включить этот календарь">
 <!ENTITY calendarproperties.forceDisabled.label            "Провайдер для этого календаря не найден. Зачастую это происходит после отключения или удаления специальных дополнений.">
 <!ENTITY calendarproperties.unsubscribe.label              "Отменить подписку">
@@ -376,27 +370,8 @@
 <!ENTITY calendar.publish.publish.button      "Опубликовать">
 <!ENTITY calendar.publish.close.button      "Закрыть">
 
-<!ENTITY calendar.publish.example.url.description   "Например http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Выбор календаря">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Печать календаря">
-<!ENTITY calendar.print.title.label "Заголовок:">
-<!ENTITY calendar.print.layout.label "Вид:">
-<!ENTITY calendar.print.range.label "Режим печати">
-<!ENTITY calendar.print.currentView2.label "Текущий обзор">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Выбранные события/задачи">
-<!ENTITY calendar.print.tasks.label "Задачи">
-<!ENTITY calendar.print.events.label "События">
-<!ENTITY calendar.print.custom.label "Диапазон дат:">
-<!ENTITY calendar.print.from.label "С ">
-<!ENTITY calendar.print.to.label "по ">
-<!ENTITY calendar.print.settingsGroup.label "Параметры печати">
-<!ENTITY calendar.print.optionsGroup.label "Параметры">
-<!ENTITY calendar.print.taskswithnoduedate.label "Бессрочные задачи">
-<!ENTITY calendar.print.completedtasks.label "Завершённые задачи">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Подробнее…">

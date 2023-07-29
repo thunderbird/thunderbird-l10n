@@ -26,7 +26,6 @@
 <!ENTITY contextOutgoing.accesskey "е">
 <!ENTITY contextArchive.label "Архивации">
 <!ENTITY contextArchive.accesskey "х">
-
 <!ENTITY contextPeriodic.accesskey "е">
 
 <!ENTITY filterActionDesc.label "Производить следующие действия:">
@@ -37,7 +36,7 @@
 
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Переместить сообщение в">
-<!ENTITY copyMessage.label "Копировать сообщение в">
+<!ENTITY copyMessage.label "Скопировать сообщение в">
 <!ENTITY forwardTo.label "Переслать сообщение на">
 <!ENTITY replyWithTemplate.label "Ответить по шаблону">
 <!ENTITY markMessageRead.label "Отметить как прочитанное">

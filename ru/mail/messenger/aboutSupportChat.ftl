@@ -7,5 +7,5 @@ chat-table-heading-account = ID
 chat-table-heading-protocol = Протокол
 chat-table-heading-name = Имя
 chat-table-heading-actions = Действия
-chat-table-copy-debug-log = Копировать лог отладки
+chat-table-copy-debug-log = Скопировать лог отладки
     .title = Копирует ошибки и другие логи из этой учётной записи чата в буфер обмена. Может содержать личную информацию, такую как сообщения чата.

@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Указывает, что вы не принимаете встречные предложения">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Удалить…">
 <!ENTITY  event.menu.item.delete.accesskey                "У">
-<!ENTITY  event.menu.item.page.setup.label                "Параметры страницы">
-<!ENTITY  event.menu.item.page.setup.accesskey            "а">
-<!ENTITY  event.menu.item.print.label                     "Печать">
-<!ENTITY  event.menu.item.print.accesskey                 "П">
 
 <!ENTITY  event.menu.edit.label                           "Правка">
 <!ENTITY  event.menu.edit.accesskey                       "П">
@@ -104,7 +97,7 @@
 <!ENTITY  event.menu.edit.redo.accesskey                  "т">
 <!ENTITY  event.menu.edit.cut.label                       "Вырезать">
 <!ENTITY  event.menu.edit.cut.accesskey                   "В">
-<!ENTITY  event.menu.edit.copy.label                      "Копировать">
+<!ENTITY  event.menu.edit.copy.label                      "Скопировать">
 <!ENTITY  event.menu.edit.copy.accesskey                  "К">
 <!ENTITY  event.menu.edit.paste.label                     "Вставить">
 <!ENTITY  event.menu.edit.paste.accesskey                 "с">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "с">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Настроить…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "Н">
-<!ENTITY  event.menu.view.showlink.label                  "Показать связанные ссылки">
-<!ENTITY  event.menu.view.showlink.accesskey              "о">
 
 <!ENTITY  event.menu.options.label                            "Настройки">
 <!ENTITY  event.menu.options.accesskey                        "Н">
@@ -407,11 +398,6 @@
 <!ENTITY read.only.location.label        "Место:">
 <!ENTITY read.only.category.label        "Категория:">
 <!ENTITY read.only.organizer.label       "Организатор:">
-<!ENTITY read.only.reply.label           "Ответ:">
-<!ENTITY read.only.accept.label          "Я буду участвовать">
-<!ENTITY read.only.decline.label         "Я не буду участвовать">
-<!ENTITY read.only.tentative.label       "Я мог бы присутствовать">
-<!ENTITY read.only.needs.action.label    "Я подтвержу позже">
 <!ENTITY read.only.reminder.label        "Напоминание:">
 <!ENTITY read.only.attachments.label     "Вложения:">
 <!ENTITY read.only.attendees.label       "Участники">

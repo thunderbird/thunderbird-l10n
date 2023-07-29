@@ -103,10 +103,10 @@
 <!ENTITY saveAllAttachmentsButton1.label   "Сохранить все">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Сохранить все вложенные файлы">
 
-<!ENTITY copyLinkCmd.label        "Копировать ссылку">
+<!ENTITY copyLinkCmd.label        "Скопировать ссылку">
 <!ENTITY copyLinkCmd.accesskey    "и">
 
-<!ENTITY CopyMessageId.label "Копировать идентификатор">
+<!ENTITY CopyMessageId.label "Скопировать идентификатор">
 <!ENTITY CopyMessageId.accesskey "п">
 <!ENTITY OpenMessageForMsgId.label "Открыть сообщение по идентификатору">
 <!ENTITY OpenMessageForMsgId.accesskey "ы">

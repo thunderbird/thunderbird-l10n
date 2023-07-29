@@ -99,6 +99,8 @@
 <!ENTITY deleteFolderCmd.accesskey "У">
 <!ENTITY unsubscribeNewsgroupCmd.label "Отписаться">
 <!ENTITY unsubscribeNewsgroupCmd.accesskey "т">
+
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Выделить">
 <!ENTITY selectMenu.accesskey "ы">
 <!ENTITY all.label "Все сообщения">
@@ -374,9 +376,9 @@
 <!ENTITY moveMsgToMenu.accesskey "е">
 <!ENTITY moveCopyMsgRecentMenu.label "Недавно открытые">
 <!ENTITY moveCopyMsgRecentMenu.accesskey "Н">
-<!ENTITY copyMessageLocation.label "Копировать адрес сообщения">
+<!ENTITY copyMessageLocation.label "Скопировать адрес сообщения">
 <!ENTITY copyMessageLocation.accesskey "а">
-<!ENTITY copyMsgToMenu.label "Копировать в папку">
+<!ENTITY copyMsgToMenu.label "Скопировать в папку">
 <!ENTITY copyMsgToMenu.accesskey "и">
 <!ENTITY moveToFolderAgain.label "Повторить перемещение">
 <!ENTITY moveToFolderAgain.accesskey "в">
@@ -765,7 +767,7 @@
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "Н">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Избранное">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "о">
-<!ENTITY contextCopyMsgMenu.label "Копировать в папку">
+<!ENTITY contextCopyMsgMenu.label "Скопировать в папку">
 <!ENTITY contextCopyMsgMenu.accesskey "К">
 <!ENTITY contextKillThreadMenu.label "Пропустить обсуждение">
 <!ENTITY contextKillSubthreadMenu.accesskey "е">
@@ -876,13 +878,13 @@
 <!ENTITY SubscribeToNewsgroup.accesskey "и">
 <!ENTITY SendMessageTo.label "Составить сообщение для">
 <!ENTITY SendMessageTo.accesskey "с">
-<!ENTITY CopyEmailAddress.label "Копировать адрес электронной почты">
+<!ENTITY CopyEmailAddress.label "Скопировать адрес электронной почты">
 <!ENTITY CopyEmailAddress.accesskey "а">
-<!ENTITY CopyNameAndEmailAddress.label "Копировать имя и адрес электронной почты">
+<!ENTITY CopyNameAndEmailAddress.label "Скопировать имя и адрес электронной почты">
 <!ENTITY CopyNameAndEmailAddress.accesskey "о">
-<!ENTITY CopyNewsgroupName.label "Копировать имя группы новостей">
+<!ENTITY CopyNewsgroupName.label "Скопировать имя группы новостей">
 <!ENTITY CopyNewsgroupName.accesskey "п">
-<!ENTITY CopyNewsgroupURL.label "Копировать сетевой адрес группы новостей">
+<!ENTITY CopyNewsgroupURL.label "Скопировать URL группы новостей">
 <!ENTITY CopyNewsgroupURL.accesskey "и">
 <!ENTITY CreateFilterFrom.label "Создать фильтр из…">
 <!ENTITY CreateFilterFrom.accesskey "ф">
@@ -898,11 +900,11 @@
 <!ENTITY saveLinkAsCmd.accesskey "С">
 <!ENTITY saveImageAsCmd.label "Сохранить изображение как…">
 <!ENTITY saveImageAsCmd.accesskey "х">
-<!ENTITY copyLinkCmd.label "Копировать ссылку">
+<!ENTITY copyLinkCmd.label "Скопировать ссылку">
 <!ENTITY copyLinkCmd.accesskey "ы">
-<!ENTITY copyImageAllCmd.label "Копировать изображение">
+<!ENTITY copyImageAllCmd.label "Скопировать изображение">
 <!ENTITY copyImageAllCmd.accesskey "и">
-<!ENTITY copyEmailCmd.label "Копировать адрес электронной почты">
+<!ENTITY copyEmailCmd.label "Скопировать адрес электронной почты">
 <!ENTITY copyEmailCmd.accesskey "э">
 <!ENTITY stopCmd.label "Остановить">
 <!ENTITY stopCmd.accesskey "т">

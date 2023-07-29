@@ -217,7 +217,7 @@ mail-context-delete-messages =
            *[other] Удалить выбранные сообщения
         }
 context-menu-decrypt-to-folder =
-    .label = Копировать в расшифрованном виде в
+    .label = Скопировать в расшифрованном виде в
     .accesskey = ш
 # Variables:
 # $count (Number) - Number of selected messages.
