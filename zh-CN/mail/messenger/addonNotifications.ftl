@@ -54,10 +54,10 @@ addon-domain-blocked-by-policy = 您的系统管理员已阻止此网站在您�
 addon-install-full-screen-blocked = 在全屏模式下或在进入全屏模式时，不允许安装附加组件。
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
-webext-perms-sideload-menu-item = { $addonName } 已添加到 { -brand-short-name }
+webext-perms-sideload-menu-item = “{ $addonName }”已添加到 { -brand-short-name }
 # Variables:
 #   $addonName (String): the localized name of the extension which has been updated.
-webext-perms-update-menu-item = { $addonName } 需要新的权限
+webext-perms-update-menu-item = “{ $addonName }”需要新的权限
 
 ## Add-on removal warning
 
@@ -96,15 +96,15 @@ addon-confirm-install-some-unsigned-message = 注意：此网站想在 { -brand-
 addon-install-error-network-failure = 因为连接失败，未能下载此附加组件。
 addon-install-error-incorrect-hash = 此附加组件未能安装，它不匹配预期的附加组件 { -brand-short-name }。
 addon-install-error-corrupt-file = 从此网站下载的这个附加组件文件损坏了，无法安装。
-addon-install-error-file-access = { $addonName } 未能安装，{ -brand-short-name } 无法修改所需的文件。
+addon-install-error-file-access = “{ $addonName }”未能安装，{ -brand-short-name } 无法修改所需的文件。
 addon-install-error-not-signed = { -brand-short-name } 已阻止此网站安装未通过验证的附加组件。
-addon-install-error-invalid-domain = 无法从此位置安装附加组件 { $addonName }。
+addon-install-error-invalid-domain = 无法从此位置安装附加组件“{ $addonName }”。
 addon-local-install-error-network-failure = 因为文件系统错误，无法安装该附加组件。
 addon-local-install-error-incorrect-hash = 所下载的不是本要安装附加组件 { -brand-short-name }，无法安装。
 addon-local-install-error-corrupt-file = 从此网站下载的这个附加组件文件损坏了，无法安装。
-addon-local-install-error-file-access = { $addonName } 未能安装，因为 { -brand-short-name } 无法修改所需的文件。
+addon-local-install-error-file-access = “{ $addonName }”未能安装，因为 { -brand-short-name } 无法修改所需的文件。
 addon-local-install-error-not-signed = 此附加组件无法安装，因为它未通过验证。
 # Variables:
 #   $appVersion (String): the application version.
-addon-install-error-incompatible = { $addonName } 未能安装，因为它与 { -brand-short-name } { $appVersion } 不兼容。
-addon-install-error-blocklisted = { $addonName } 未能安装，因为它很可能引发稳定性或安全性问题。
+addon-install-error-incompatible = “{ $addonName }”未能安装，因为它与 { -brand-short-name } { $appVersion } 不兼容。
+addon-install-error-blocklisted = “{ $addonName }”未能安装，因为它很可能引发稳定性或安全性问题。

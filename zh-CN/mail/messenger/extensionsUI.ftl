@@ -6,4 +6,4 @@ webext-experiment-warning = 恶意的附加组件可能会窃取您的私密信�
 webext-perms-learn-more = 详细了解
 # Variables:
 #   $addonName (String): localized named of the extension that was just installed.
-addon-post-install-message = { $addonName } 已添加。
+addon-post-install-message = “{ $addonName }”已添加。
