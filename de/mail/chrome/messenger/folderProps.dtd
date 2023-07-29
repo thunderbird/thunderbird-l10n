@@ -12,26 +12,26 @@
 <!ENTITY folderIncludeInGlobalSearch.label       "Nachrichten dieses Ordners für die globale Suche indizieren">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "N">
 
-<!ENTITY retention.label "Speicherplatz">
-<!ENTITY retentionUseAccount.label "Einstellungen des Kontos verwenden">
+<!ENTITY retention.label "Aufbewahrungsregeln">
+<!ENTITY retentionUseAccount.label  "Einstellungen des Kontos verwenden">
 <!ENTITY retentionUseAccount.accesskey "E">
 <!ENTITY daysOld.label "Tage">
 <!ENTITY message.label "Nachrichten">
-<!ENTITY retentionCleanup.label "Alte Nachrichten endgültig löschen, um Speicherplatz freizugeben:">
-<!ENTITY retentionCleanupImap.label "Alte Nachrichten endgültig löschen, um Speicherplatz freizugeben - sowohl lokale Kopien als auch auf dem IMAP-Server:">
-<!ENTITY retentionCleanupPop.label "Alte Nachrichten endgültig löschen, um Speicherplatz freizugeben - einschließlich der Originale auf dem POP-Server:">
-<!ENTITY retentionDeleteMsg.label "Nachrichten, die älter sind als">
+<!ENTITY retentionCleanup.label "Um Speicherplatz zurückzugewinnen, können alte Nachrichten dauerhaft gelöscht werden.">
+<!ENTITY retentionCleanupImap.label "Um Speicherplatz zurückzugewinnen, können alte Nachrichten dauerhaft gelöscht werden, und zwar sowohl lokale Kopien als auch die Originale auf dem Remote-Server.">
+<!ENTITY retentionCleanupPop.label "Um Speicherplatz zurückzugewinnen, können alte Nachrichten dauerhaft gelöscht werden, und zwar einschließlich der Originale auf dem Remote-Server.">
+<!ENTITY retentionDeleteMsg.label "Nachrichten löschen, die älter sind als">
 <!ENTITY retentionDeleteMsg.accesskey "N">
-<!ENTITY retentionKeepAll.label "Keine Nachrichten">
+<!ENTITY retentionKeepAll.label "Keine Nachrichten löschen">
 <!ENTITY retentionKeepAll.accesskey "K">
-<!ENTITY retentionKeepRecent.label "Alle außer den neuesten">
+<!ENTITY retentionKeepRecent.label "Alle löschen außer den neuesten">
 <!ENTITY retentionKeepRecent.accesskey "u">
 <!ENTITY retentionApplyToFlagged.label "Gekennzeichnete Nachrichten immer behalten">
 <!ENTITY retentionApplyToFlagged.accesskey "z">
 
 <!ENTITY folderSynchronizationTab.label          "Synchronisation">
-<!ENTITY folderCheckForNewMessages2.label        "Diesen Ordner auf neue Nachrichten überprüfen, wenn Nachrichten für dieses Konto empfangen werden">
-<!ENTITY folderCheckForNewMessages2.accesskey    "D">
+<!ENTITY folderCheckForNewMessages2.label         "Diesen Ordner auf neue Nachrichten überprüfen, wenn Nachrichten für dieses Konto empfangen werden">
+<!ENTITY folderCheckForNewMessages2.accesskey     "D">
 
 <!ENTITY offlineFolder.check.label               "Diesen Ordner zum Offline-Lesen auswählen">
 <!ENTITY offlineFolder.check.accesskey           "O">

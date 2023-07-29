@@ -19,9 +19,9 @@
 <!ENTITY nntpNotDownloadRead.accesskey "G">
 <!ENTITY nntpDownloadMsg.label "Nachrichten, die älter sind als">
 <!ENTITY nntpDownloadMsg.accesskey "a">
-<!ENTITY retentionCleanup.label "Alte Nachrichten endgültig löschen, um Speicherplatz freizugeben:">
-<!ENTITY retentionCleanupImap.label "Alte Nachrichten endgültig löschen, um Speicherplatz freizugeben - sowohl lokale Kopien als auch auf dem IMAP-Server:">
-<!ENTITY retentionCleanupPop.label "Alte Nachrichten endgültig löschen, um Speicherplatz freizugeben - einschließlich der Originale auf dem POP-Server:">
+<!ENTITY retentionCleanup.label "Um Speicherplatz zurückzugewinnen, können alte Nachrichten dauerhaft gelöscht werden.">
+<!ENTITY retentionCleanupImap.label "Um Speicherplatz zurückzugewinnen, können alte Nachrichten dauerhaft gelöscht werden, und zwar sowohl lokale Kopien als auch die Originale auf dem Remote-Server.">
+<!ENTITY retentionCleanupPop.label "Um Speicherplatz zurückzugewinnen, können alte Nachrichten dauerhaft gelöscht werden, und zwar einschließlich der Originale auf dem Remote-Server.">
 <!ENTITY retentionKeepMsg.label "Nachrichten, die älter sind als">
 <!ENTITY retentionKeepMsg.accesskey "c">
 <!ENTITY retentionKeepAll.label "Keine Nachrichten">
