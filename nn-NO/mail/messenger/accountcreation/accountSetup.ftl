@@ -69,15 +69,23 @@ account-setup-button-done = Ferdig
 account-setup-looking-up-settings = Undersøkjer konfigurasjonen…
 account-setup-looking-up-settings-guess = Undsersøker konfigurasjonen: Prøver vanlege tenarnamn…
 account-setup-checking-password = Kontrollerer passord…
+account-setup-installing-addon = Lastar ned og installerer utviding…
+account-setup-success-guess-offline = Du er i fråkopla modus. Vi har gjetta nokre av innstillingane, men du må sjølv registrere dei rette innstillingane.
+account-setup-success-password = Passordet er OK
+account-setup-success-addon = Utvidinga vart installert
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Fann konfigurasjonen i Mozillas ISP-database.
 
 ## Illustrations
 
+account-setup-step1-image =
+    .title = Førstegongsoppsett
 account-setup-step2-image =
     .title = Lastar…
 account-setup-step3-image =
     .title = Fann konfigurasjonen
+account-setup-step4-image =
+    .title = Tilkoplingsfeil
 account-setup-step5-image =
     .title = Konto opretta
 account-setup-privacy-footnote2 = Opplysningane dine vert berre lagra lokalt på datamaskina di.
@@ -89,6 +97,13 @@ account-setup-getting-started = Kom i gang
 
 ## Results area
 
+# Variables:
+#  $count (Number) - Number of available protocols.
+account-setup-results-area-title =
+    { $count ->
+        [one] Tilgjengeleg konfigurasjon
+       *[other] Tilgjengelege konfigurasjonar
+    }
 account-setup-result-imap-description = Hald mapper og e-postar synkroniserte på serveren din
 account-setup-result-pop-description = Behald mapper og e-postar på datamaskina di
 account-setup-incoming-title = Innkomande
