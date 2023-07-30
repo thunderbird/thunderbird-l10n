@@ -2,9 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY doNotDownloadPop3Movemail.label "For å spara diskplass, ikkje last ned:">
-<!ENTITY doNotDownloadNntp.label "For å spara diskplass, ikkje last ned for fråkopla bruk:">
-<!ENTITY doNotDownloadImap.label "For å spara diskplass kan nedlasting av meldingar frå tenaren og oppbevaring av lokale kopiar for fråkopla bruk avgrensast til ein bestemt alder eller storleik.">
+<!ENTITY doNotDownloadPop3Movemail.label "For å spare diskplass, ikkje last ned:">
+<!ENTITY doNotDownloadNntp.label "For å spare diskplass, ikkje last ned for fråkopla bruk:">
+<!ENTITY doNotDownloadImap.label "For å spare diskplass kan nedlasting av meldingar frå tenaren og oppbevaring av lokale kopiar for fråkopla bruk avgrensast til ein bestemt alder eller storleik.">
 <!ENTITY allFoldersOffline2.label "Behald meldingar i alle mapper for denne kontoen, på denne datamaskina">
 <!ENTITY allFoldersOffline2.accesskey "a">
 <!ENTITY allFoldersOfflineNote.label "Merk: Om du endrar dette, påverkar det alle mapper i denne kontoen. For å stille inn einskildmapper, bruk Avansert…-knappen.">
