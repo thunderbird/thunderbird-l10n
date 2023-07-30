@@ -91,6 +91,8 @@ account-setup-step5-image =
 account-setup-privacy-footnote2 = Opplysningane dine vert berre lagra lokalt på datamaskina di.
 account-setup-selection-help = Ikkje sikker på kva du skal velje?
 account-setup-selection-error = Treng du hjelp?
+account-setup-success-help = Er du uviss på dei neste stega dine?
+account-setup-documentation-help = Oppsettsdokumentasjon
 account-setup-forum-help = Brukarstøtteforum
 account-setup-privacy-help = Personvernerklæring
 account-setup-getting-started = Kom i gang
@@ -113,17 +115,20 @@ account-setup-exchange-title = Server
 account-setup-result-no-encryption = Inga kryptering
 account-setup-result-ssl = SSL/TLS
 account-setup-result-starttls = STARTTLS
+account-setup-result-outgoing-existing = Bruk eksisterande utgåande SMTP-tenar
 
 ## Error messages
 
 
 ## Manual configuration area
 
+account-setup-manual-config-title = Manuell konfigurasjon
 account-setup-incoming-server-legend = Innkomande tenar
 account-setup-protocol-label = Protokoll:
 account-setup-hostname-label = Vertsnamn:
 account-setup-port-label = Port:
     .title = Still inn portnummeret til 0 för automatisk oppdaging
+account-setup-ssl-label = Tilkoplingssikkerheit:
 account-setup-outgoing-server-legend = Utgåande server
 
 ## Incoming/Outgoing SSL Authentication options
@@ -138,6 +143,8 @@ ssl-encrypted-password-option = Kryptert passord
 ssl-noencryption-option = Ingen
 account-setup-auth-label = Godkjenningsmetode:
 account-setup-username-label = Brukarnamn:
+account-setup-advanced-setup-button = Avansert konfigurasjon
+    .accesskey = A
 
 ## Warning insecure server dialog
 

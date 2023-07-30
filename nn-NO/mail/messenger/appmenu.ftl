@@ -7,15 +7,26 @@
 
 appmenu-sync-panel-title =
     .title = Synkroniser
+appmenu-signin-panel =
+    .label = Logg inn for å synkronisere
+    .accesskey = L
 appmenu-sync-sync =
     .value = Kontosynkronisering
     .accesskey = K
 appmenu-sync-manage =
     .value = Handsam kontoen
     .accesskey = H
+appmenu-sync-account =
+    .value = example@example.com
 appmenu-sync-now =
     .label = Synkroniser no
     .accesskey = S
+appmenu-sync-settings =
+    .label = Synkroniseringsinnstillingar
+    .accesskey = S
+appmenu-sync-sign-out =
+    .label = Logg ut
+    .accesskey = L
 
 ## New Account
 
@@ -24,6 +35,12 @@ appmenu-new-account-panel-title =
 appmenu-new-account-panel =
     .label = Ny konto
     .accesskey = N
+appmenu-create-new-mail-account =
+    .label = Få ein ny e-post
+    .accesskey = F
+appmenu-new-mail-account =
+    .label = Eksisterande e-post
+    .accesskey = E
 appmenu-new-calendar =
     .label = Kalender
     .accesskey = K
