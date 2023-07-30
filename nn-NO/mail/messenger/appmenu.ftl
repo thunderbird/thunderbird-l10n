@@ -44,12 +44,29 @@ appmenu-new-mail-account =
 appmenu-new-calendar =
     .label = Kalender
     .accesskey = K
+appmenu-new-chat-account =
+    .label = Nettprat
+    .accesskey = N
 appmenu-new-newsgroup =
     .label = Nyheitsgruppe
     .accesskey = N
 
 ## New Account / Address Book
 
+appmenu-newab-panel-title =
+    .title = Ny adressebok
+appmenu-newab-panel =
+    .label = Ny adressebok
+    .accesskey = a
+appmenu-new-addressbook =
+    .label = Lokal adressebok
+    .accesskey = L
+appmenu-new-carddav =
+    .label = CardDav-adressebok
+    .accesskey = C
+appmenu-new-ldap =
+    .label = LDAP-adressebok
+    .accesskey = L
 
 ## Create
 
