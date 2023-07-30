@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Kva er nytt
+about-dialog-title = Om { -brand-full-name }
 release-notes-link = Versjonsnotat
 update-check-for-updates-button = Sjå etter oppdateringar
     .accesskey = S

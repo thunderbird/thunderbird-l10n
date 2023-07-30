@@ -175,6 +175,18 @@ many-public-recipients-prompt-send = Send likevel
 
 # Template
 
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = Les meir om { $link }.
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Filelink-teneste:
 cloud-file-template-size = Storleik:
 cloud-file-template-link = Lenke
 cloud-file-template-download-limit = Nedlastingsgrense:
