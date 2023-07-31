@@ -170,13 +170,13 @@ menu-edit-undelete-messages =
         }
     .accesskey = d
 menu-edit-properties =
-    .label = 情報を見る
+    .label = 情報
     .accesskey = o
 menu-edit-folder-properties =
-    .label = フォルダーの情報を見る
+    .label = フォルダーの情報
     .accesskey = o
 menu-edit-newsgroup-properties =
-    .label = ニュースグループの情報を見る
+    .label = ニュースグループの情報
     .accesskey = o
 
 ## Message Menu
