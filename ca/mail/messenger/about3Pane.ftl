@@ -169,6 +169,9 @@ folder-pane-more-menu-button =
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Modes de carpetes
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Mostra «Missatge nou»
 folder-pane-mode-context-toggle-compact-mode =
     .label = Visualització compacta
     .accesskey = V
