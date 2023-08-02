@@ -3,11 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 languages-customize-moveup =
-    .label = Puja
+    .label = Amunt
     .accesskey = u
 languages-customize-movedown =
-    .label = Baixa
-    .accesskey = B
+    .label = Avall
+    .accesskey = v
 languages-customize-remove =
     .label = Elimina
     .accesskey = m

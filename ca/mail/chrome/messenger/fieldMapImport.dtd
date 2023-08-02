@@ -6,10 +6,10 @@
 <!ENTITY fieldMapImport.next.accesskey "n">
 <!ENTITY fieldMapImport.previous.label "Anterior">
 <!ENTITY fieldMapImport.previous.accesskey "e">
-<!ENTITY fieldMapImport.text "Utilitza Mou cap amunt i Mou cap avall per emparellar els camps de la llibreta d'adreces a l'esquerra de les dades correctes per importar-les a la dreta. No marqueu els ítems que no voleu importar.  ">
-<!ENTITY fieldMapImport.up.label "Mou cap amunt">
+<!ENTITY fieldMapImport.text "Utilitzeu «Mou amunt» i «Mou avall» per emparellar els camps de la llibreta d'adreces de l'esquerra amb les dades correctes que s'importaran de la dreta. No marqueu els elements que no voleu importar.">
+<!ENTITY fieldMapImport.up.label "Mou amunt">
 <!ENTITY fieldMapImport.up.accesskey "u">
-<!ENTITY fieldMapImport.down.label "Mou cap avall">
+<!ENTITY fieldMapImport.down.label "Mou avall">
 <!ENTITY fieldMapImport.down.accesskey "v">
 <!ENTITY fieldMapImport.fieldListTitle "Camps de la llibreta d'adreces:">
 <!ENTITY fieldMapImport.dataTitle "Registres de dades per importar:">

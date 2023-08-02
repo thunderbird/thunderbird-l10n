@@ -193,6 +193,13 @@ folder-pane-mode-move-up =
     .label = Mou amunt
 folder-pane-mode-move-down =
     .label = Mou avall
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 missatge per llegir
+       *[other] { $count } missatges per llegir
+    }
 
 ## Message thread pane
 

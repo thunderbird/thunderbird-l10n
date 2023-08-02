@@ -16,7 +16,7 @@
 <!ENTITY reorderTopButton "Mou a la part superior">
 <!ENTITY reorderTopButton.accessKey "o">
 <!ENTITY reorderTopButton.toolTip "Reorganitza el filtre perquè s'executi abans de tots els altres">
-<!ENTITY reorderUpButton.label "Mou cap amunt">
+<!ENTITY reorderUpButton.label "Mou amunt">
 <!ENTITY reorderUpButton.accesskey "M">
 <!ENTITY reorderDownButton.label "Mou cap avall">
 <!ENTITY reorderDownButton.accesskey "o">
