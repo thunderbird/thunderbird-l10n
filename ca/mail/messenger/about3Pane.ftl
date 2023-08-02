@@ -169,9 +169,23 @@ folder-pane-more-menu-button =
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Modes de carpetes
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Mostra «Recupera els missatges»
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Mostra «Missatge nou»
+folder-pane-header-context-hide =
+    .label = Amaga la capçalera de la subfinestra de carpetes
+folder-pane-show-total-toggle =
+    .label = Mostra el nombre total de missatges
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Mostra la mida de les carpetes
+folder-pane-header-hide-local-folders =
+    .label = Amaga les carpetes locals
+folder-pane-mode-context-button =
+    .title = Opcions del mode de carpeta
 folder-pane-mode-context-toggle-compact-mode =
     .label = Visualització compacta
     .accesskey = V
