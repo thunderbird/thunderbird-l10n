@@ -674,7 +674,7 @@
 <!ENTITY saveAsVirtualFolderMenu.label "Desa la cerca com una carpeta…">
 
 <!-- Thread Pane -->
-<!ENTITY selectColumn.label "Seleccioneu missatges">
+<!ENTITY selectColumn.label "Selecció de missatges">
 <!ENTITY threadColumn.label "Conversa">
 <!ENTITY fromColumn.label "Remitent">
 <!ENTITY recipientColumn.label "Destinatari">

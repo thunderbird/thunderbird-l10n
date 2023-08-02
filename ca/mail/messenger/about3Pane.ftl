@@ -200,13 +200,20 @@ folder-pane-unread-aria-label =
         [one] 1 missatge per llegir
        *[other] { $count } missatges per llegir
     }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 missatge en total
+       *[other] { $count } missatges en total
+    }
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Commuta la selecció de tots els missatges
 threadpane-column-label-select =
-    .label = Seleccioneu missatges
+    .label = Selecció de missatges
 threadpane-column-label-thread =
     .label = Conversa
 threadpane-column-header-flagged =
