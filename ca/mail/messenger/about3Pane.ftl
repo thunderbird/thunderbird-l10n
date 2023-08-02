@@ -189,6 +189,10 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Visualització compacta
     .accesskey = V
+folder-pane-mode-move-up =
+    .label = Mou amunt
+folder-pane-mode-move-down =
+    .label = Mou avall
 
 ## Message thread pane
 
