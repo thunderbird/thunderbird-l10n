@@ -310,6 +310,21 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indicador de missatge nou
+    .title = Missatge nou
+threadpane-message-replied =
+    .alt = Indicador de resposta
+    .title = Missatge respost
+threadpane-message-redirected =
+    .alt = Indicador de redirecció
+    .title = Missatge redirigit
+threadpane-message-forwarded =
+    .alt = Indicador de reenviament
+    .title = Missatge reenviat
+threadpane-message-replied-forwarded =
+    .alt = Indicador de resposta i reenviament
+    .title = Missatge contestat i reenviat
 apply-columns-to-menu =
     .label = Aplica els canvis a…
 apply-current-view-to-folder =
