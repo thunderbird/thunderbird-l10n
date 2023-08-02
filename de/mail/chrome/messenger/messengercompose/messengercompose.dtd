@@ -19,7 +19,7 @@
 <!ENTITY attachMenu.accesskey "h">
 <!ENTITY attachCloudCmd.label "Filelink">
 <!ENTITY attachCloudCmd.accesskey "F">
-<!ENTITY attachPageCmd.label "Webseite anhängen…">
+<!ENTITY attachPageCmd.label "Webseite…">
 <!ENTITY attachPageCmd.accesskey "W">
 <!ENTITY remindLater.label "Mich später erinnern">
 <!ENTITY remindLater.accesskey "M">
