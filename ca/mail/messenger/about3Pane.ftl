@@ -164,6 +164,11 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = p
 folder-pane-write-message-button = Missatge nou
     .title = Redacta un missatge nou
+folder-pane-more-menu-button =
+    .title = Opcions de la subfinestra de carpetes
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Modes de carpetes
 folder-pane-mode-context-toggle-compact-mode =
     .label = Visualització compacta
     .accesskey = V
