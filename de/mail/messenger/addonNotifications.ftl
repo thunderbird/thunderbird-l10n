@@ -94,12 +94,12 @@ addon-confirm-install-message =
     }
 addon-confirm-install-unsigned-message =
     { $addonCount ->
-        [one] Achtung: Diese Seite möchte ein nicht verifiziertes Add-on in { -brand-short-name } installieren. Das Installieren erfolgt auf eigene Gefahr.
-       *[other] Achtung: Diese Seite möchte { $addonCount } nicht verifizierte Add-ons in { -brand-short-name } installieren. Das Installieren erfolgt auf eigene Gefahr.
+        [one] Achtung: Diese Website möchte ein nicht verifiziertes Add-on in { -brand-short-name } installieren. Das Installieren erfolgt auf eigene Gefahr.
+       *[other] Achtung: Diese Website möchte { $addonCount } nicht verifizierte Add-ons in { -brand-short-name } installieren. Das Installieren erfolgt auf eigene Gefahr.
     }
 # Variables:
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
-addon-confirm-install-some-unsigned-message = Achtung: Diese Seite möchte { $addonCount } Add-ons in { -brand-short-name } installieren, von denen einige nicht verifiziert sind. Das Installieren erfolgt auf eigene Gefahr.
+addon-confirm-install-some-unsigned-message = Achtung: Diese Website möchte { $addonCount } Add-ons in { -brand-short-name } installieren, von denen einige nicht verifiziert sind. Das Installieren erfolgt auf eigene Gefahr.
 
 ## Add-on install errors
 ## Variables:
@@ -107,7 +107,7 @@ addon-confirm-install-some-unsigned-message = Achtung: Diese Seite möchte { $ad
 
 addon-install-error-network-failure = Das Add-on konnte auf Grund eines Verbindungsfehlers nicht heruntergeladen werden.
 addon-install-error-incorrect-hash = Das Add-on konnte nicht installiert werden, da es nicht das von { -brand-short-name } erwartete Add-on ist.
-addon-install-error-corrupt-file = Das von dieser Seite heruntergeladene Add-on konnte nicht installiert werden, da es beschädigt zu sein scheint.
+addon-install-error-corrupt-file = Das von dieser Website heruntergeladene Add-on konnte nicht installiert werden, da es anscheinend beschädigt ist.
 addon-install-error-file-access = { $addonName } konnte nicht installiert werden, da { -brand-short-name } die benötigte Datei nicht verändern kann.
 addon-install-error-not-signed = { -brand-short-name } hat diese Website am Installieren eines nicht verifizierten Add-ons gehindert.
 addon-install-error-invalid-domain = Das Add-on { $addonName } kann von diesem Speicherort nicht installiert werden.

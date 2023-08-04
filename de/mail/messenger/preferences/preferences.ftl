@@ -530,10 +530,10 @@ remote-content-info =
     .value = Erfahren Sie mehr über die Datenschutzaspekte externer Inhalte
 web-content = Webinhalte
 history-label =
-    .label = Besuchte Webseiten und Links merken
+    .label = Besuchte Websites und Links merken
     .accesskey = W
 cookies-label =
-    .label = Cookies von Webseiten akzeptieren
+    .label = Cookies von Websites akzeptieren
     .accesskey = C
 third-party-label =
     .value = Cookies von Drittanbietern akzeptieren:
@@ -627,8 +627,8 @@ account-settings = Konten-Einstellungen
 email-e2ee-enable-info = Richten Sie E-Mail-Konten und Identitäten für die Ende-zu-Ende-Verschlüsselung in den Konten-Einstellungen ein.
 email-e2ee-automatism = Automatische Verwendung der Verschlüsselung
 email-e2ee-automatism-pre =
-    { -brand-short-name } kann Sie dabei unterstützen, indem es die Verschlüsselung während des Verfassens einer E-Mail automatisch aktiviert oder deaktiviert.
-    Die automatische Aktivierung/Deaktivierung basiert auf der Verfügbarkeit von gültigen und akzeptierten Schlüsseln oder Zertifikaten der Korrespondenten.
+    { -brand-short-name } kann beim Verfassen einer E-Mail helfen, die Verschlüsselung automatisch zu aktivieren oder zu deaktivieren.
+    Die automatische Aktivierung/Deaktivierung basiert auf der Verfügbarkeit von gültigen und akzeptierten Schlüsseln oder Zertifikaten der Gesprächsteilnehmer.
 email-e2ee-auto-on =
     .label = Verschlüsselung automatisch aktivieren, wenn möglich
 email-e2ee-auto-off =

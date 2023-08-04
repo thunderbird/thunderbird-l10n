@@ -98,7 +98,7 @@ context-menuitem-attach-files =
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
-    .label = Meine vCard
+    .label = Meine Visitenkarte (vCard)
     .accesskey = C
 context-menuitem-attach-openpgp-key =
     .label = Meinen öffentlichen OpenPGP-Schlüssel
