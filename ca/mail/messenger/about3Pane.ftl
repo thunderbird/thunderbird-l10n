@@ -336,6 +336,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Missatge respost, reenviat i redirigit
 apply-columns-to-menu =
     .label = Aplica els canvis a…
+apply-current-view-to-menu =
+    .label = Aplica la vista actual a…
 apply-current-view-to-folder =
     .label = La carpeta…
 apply-current-view-to-folder-children =
@@ -343,9 +345,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Voleu aplicar els canvis?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Aplica les columnes de la carpeta a { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Aplica les columnes de la carpeta a { $name } i a les carpetes de dins?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Voleu aplicar la vista de la carpeta actual a { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Voleu aplicar la vista de la carpeta actual a { $name } i a les seves subcarpetes?

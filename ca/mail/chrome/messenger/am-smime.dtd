@@ -5,8 +5,11 @@
 <!ENTITY e2eTitle.label "Xifratge d'extrem a extrem">
 <!ENTITY e2eLearnMore.label "Més informació">
 
+<!ENTITY e2eEnc.description "Sense xifratge d'extrem a extrem, el contingut dels missatges queda fàcilment exposat al vostre proveïdor de correu electrònic i a la vigilància de masses.">
 
+<!ENTITY e2eTechPref.description "Tecnologia de xifratge preferida:">
 
+<!ENTITY encryptionCert2.message "Certificat personal per a xifrar:">
 <!ENTITY digitalSign.certificate.button "Seleccioneu…">
 <!ENTITY digitalSign.certificate.accesskey "S">
 <!ENTITY digitalSign.certificate_clear.button "Neteja">
@@ -16,9 +19,13 @@
 <!ENTITY encryption.certificate_clear.button "Neteja">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "Signatura digital">
+<!ENTITY signingCert2.message "Certificat personal per a signar digitalment:">
 
+<!ENTITY sendingDefaults.label "Paràmetres per defecte per a enviar missatges">
 
+<!ENTITY technologyAutomatic.label "Selecciona automàticament en funció de les claus o certificats disponibles">
 
+<!ENTITY certificates2.label "S/MIME">
 
 
 <!ENTITY openpgpKeys.label "OpenPGP">
