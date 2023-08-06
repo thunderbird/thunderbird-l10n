@@ -10,12 +10,12 @@
 <!ENTITY e2eTechPref.description "Tecnologia de xifratge preferida:">
 
 <!ENTITY encryptionCert2.message "Certificat personal per a xifrar:">
-<!ENTITY digitalSign.certificate.button "Seleccioneu…">
+<!ENTITY digitalSign.certificate.button "Selecciona…">
 <!ENTITY digitalSign.certificate.accesskey "S">
 <!ENTITY digitalSign.certificate_clear.button "Neteja">
 <!ENTITY digitalSign.certificate_clear.accesskey "j">
-<!ENTITY encryption.certificate.button "Seleccioneu…">
-<!ENTITY encryption.certificate.accesskey "u">
+<!ENTITY encryption.certificate.button "Selecciona…">
+<!ENTITY encryption.certificate.accesskey "S">
 <!ENTITY encryption.certificate_clear.button "Neteja">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "Signatura digital">
@@ -26,6 +26,10 @@
 <!ENTITY technologyAutomatic.label "Selecciona automàticament en funció de les claus o certificats disponibles">
 
 <!ENTITY certificates2.label "S/MIME">
+<!ENTITY manageCerts3.label "Gestiona els certificats S/MIME">
+<!ENTITY manageCerts3.accesskey "G">
+<!ENTITY manageDevices2.label "Dispositius de seguretat S/MIME">
+<!ENTITY manageDevices2.accesskey "D">
 
 
 <!ENTITY openpgpKeys.label "OpenPGP">
