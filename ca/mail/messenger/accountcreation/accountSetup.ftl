@@ -146,6 +146,7 @@ account-setup-credentials-incomplete = L'autenticació ha fallat. O bé les cred
 account-setup-credentials-wrong = L'autenticació ha fallat. Comproveu el nom d'usuari i la contrasenya
 account-setup-find-settings-failed = El { -brand-short-name } no ha pogut trobar els paràmetres per al vostre compte de correu.
 account-setup-exchange-config-unverifiable = No s'ha pogut verificar la configuració. Si el vostre nom d'usuari i contrasenya són correctes, és probable que l'administrador del servidor hagi desactivat la configuració seleccionada per al vostre compte. Proveu de seleccionar un altre protocol.
+account-setup-provisioner-error = S'ha produït un error en configurar el vostre compte en el { -brand-short-name }. Proveu de configurar-lo manualment amb les vostres credencials.
 
 ## Manual configuration area
 
@@ -201,6 +202,14 @@ exchange-dialog-cancel-button = Cancel·la
 
 ## Dismiss account creation dialog
 
+exit-dialog-title = No s'ha configurat cap compte de correu electrònic
+exit-dialog-description = Segur que voleu cancel·lar el procés de configuració? El { -brand-short-name } es pot utilitzar sense compte de correu electrònic, però moltes funcions no estaran disponibles.
+account-setup-no-account-checkbox = Utilitza el { -brand-short-name } sense compte de correu electrònic
+    .accesskey = U
+exit-dialog-cancel-button = Continua la configuració
+    .accesskey = C
+exit-dialog-confirm-button = Surt de la configuració
+    .accesskey = S
 
 ## Alert dialogs
 
@@ -217,6 +226,11 @@ account-setup-addon-no-protocol = Aquest servidor de correu electrònic no admet
 
 ## Success view
 
+account-setup-settings-button = Paràmetres del compte
+account-setup-encryption-button = Xifratge d'extrem a extrem
+account-setup-signature-button = Afegeix una signatura
+account-setup-dictionaries-button = Baixa diccionaris
+account-setup-address-book-carddav-button = Connecta a una llibreta d'adreces CardDAV
 
 ## Calendar synchronization dialog
 
