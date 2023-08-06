@@ -5,7 +5,7 @@
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
 <!ENTITY title.label "Nachrichten-Sicherheit">
-<!ENTITY subject.plaintextWarning "Bitte beachten Sie: Betreffzeilen von Nachrichten werden nie verschlüsselt.">
+<!ENTITY subject.plaintextWarning "Bitte beachten: Betreffzeilen von E-Mail-Nachrichten werden niemals verschlüsselt.">
 <!ENTITY status.heading "Die Inhalte Ihrer Nachricht werden wie folgt gesendet:">
 <!ENTITY status.signed "Digital signiert:">
 <!ENTITY status.encrypted "Verschlüsselt:">
