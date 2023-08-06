@@ -31,6 +31,8 @@
 <!ENTITY manageDevices2.label "Dispositius de seguretat S/MIME">
 <!ENTITY manageDevices2.accesskey "D">
 
+<!ENTITY technologySMIME.label "Prioritza S/MIME">
+<!ENTITY technologyOpenPGP.label "Prioritza OpenPGP">
 
 <!ENTITY openpgpKeys.label "OpenPGP">
 
@@ -39,3 +41,6 @@
 <!ENTITY certPicker.info  "Certificat:">
 <!ENTITY certPicker.detailsLabel "Detalls del certificat seleccionat:">
 
+<!ENTITY openpgpKey.message "Clau personal per a xifrar i per a signar digitalment:">
+<!ENTITY openpgpKey.button "Defineix la clau personal…">
+<!ENTITY openpgpKey.accesskey "o">
