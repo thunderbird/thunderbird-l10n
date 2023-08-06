@@ -7,9 +7,11 @@ account-setup-tab-title = Configuració del compte
 ## Header
 
 account-setup-title = Configuració de la vostra adreça electrònica existent
-account-setup-description =
-    Per utilitzar la vostra adreça electrònica actual, empleneu les vostres credencials.<br/>
-    El { -brand-product-name } cercarà automàticament una configuració de servidor recomanada i funcional.
+account-setup-description = Per utilitzar la vostra adreça electrònica actual, empleneu les vostres credencials.
+account-setup-secondary-description = El { -brand-product-name } cercarà automàticament una configuració de servidor recomanable i que funcioni.
+account-setup-success-title = El compte s'ha creat correctament
+account-setup-success-description = Ja podeu utilitzar aquest compte amb el { -brand-short-name }
+account-setup-success-secondary-description = Podeu millorar l'experiència connectant serveis relacionats i configurant paràmetres avançats del compte.
 
 ## Form fields
 
