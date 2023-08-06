@@ -6,7 +6,7 @@ account-setup-tab-title = Configuració del compte
 
 ## Header
 
-account-setup-title = Configuració de la vostra adreça electrònica existent
+account-setup-title = Configuració d'una adreça electrònica existent
 account-setup-description = Per utilitzar la vostra adreça electrònica actual, empleneu les vostres credencials.
 account-setup-secondary-description = El { -brand-product-name } cercarà automàticament una configuració de servidor recomanable i que funcioni.
 account-setup-success-title = El compte s'ha creat correctament
@@ -37,6 +37,10 @@ account-setup-password-label = Contrasenya
     .title = Opcional, només es farà servir per validar el vostre usuari
 account-provisioner-button = Obtén una adreça electrònica nova
     .accesskey = O
+account-setup-password-toggle-show =
+    .title = Mostra la contrasenya
+account-setup-password-toggle-hide =
+    .title = Amaga la contrasenya
 account-setup-remember-password = Recorda la contrasenya
     .accesskey = R
 account-setup-exchange-label = Nom d'inici de sessió
@@ -98,11 +102,16 @@ account-setup-step3-image =
     .title = S'ha trobat la configuració
 account-setup-step4-image =
     .title = Error de connexió
+account-setup-step5-image =
+    .title = S'ha creat el compte
 account-setup-privacy-footnote2 = Les vostres credencials només s'emmagatzemaran localment al vostre ordinador.
 account-setup-selection-help = No sabeu què seleccionar?
 account-setup-selection-error = Necessiteu ajuda?
+account-setup-success-help = No esteu segur dels passos següents?
 account-setup-documentation-help = Documentació de configuració
 account-setup-forum-help = Fòrum d'assistència
+account-setup-privacy-help = Política de privadesa
+account-setup-getting-started = Primers passos
 
 ## Results area
 
@@ -115,6 +124,8 @@ account-setup-results-area-title =
     }
 account-setup-result-imap-description = Mantingueu les carpetes i els correus electrònics sincronitzats al servidor
 account-setup-result-pop-description = Conserveu les carpetes i els correus electrònics en l'ordinador
+# Note: Exchange, Office365 are the name of products.
+account-setup-result-exchange2-description = Utilitza el servidor Microsoft Exchange o els serveis al núvol d'Office365
 account-setup-incoming-title = Entrada
 account-setup-outgoing-title = Sortida
 account-setup-username-title = Nom d'usuari
