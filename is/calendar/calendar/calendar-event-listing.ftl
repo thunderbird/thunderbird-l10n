@@ -2,9 +2,52 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-event-listing-close =
+    .tooltiptext = Loka atburðaleit og atburðalista
 
 ## Listing columns
 
+calendar-event-listing-column-calendar-name =
+    .label = Nafn dagatals
+    .tooltiptext = Raða eftir nafni dagatals
+calendar-event-listing-column-category =
+    .label = Flokkur
+    .tooltiptext = Raða eftir flokk
+# This label and tooltip is used for the column with the checkbox in the task
+# tree view, which indicates whether a task has been marked as completed.
+calendar-event-listing-column-completed =
+    .label = Ljúka
+    .tooltiptext = Raða eftir lokið
+calendar-event-listing-column-completed-date =
+    .label = Lokið
+    .tooltiptext = Raða eftir lokadagsetningu
+calendar-event-listing-column-due-date =
+    .label = Lokadagur
+    .tooltiptext = Raða eftir framkvæmist fyrir
+calendar-event-listing-column-end-date =
+    .label = Endar
+    .tooltiptext = Raða eftir lokadagsetningu
+calendar-event-listing-column-location =
+    .label = Staðsetning
+    .tooltiptext = Raða eftir staðsetningu
+calendar-event-listing-column-percent-complete =
+    .label = % Lokið
+    .tooltiptext = Raða eftir % lokið
+calendar-event-listing-column-priority =
+    .label = Forgangur
+    .tooltiptext = Raða eftir forgangi
+calendar-event-listing-column-start-date =
+    .label = Byrjar
+    .tooltiptext = Raða eftir upphafsdagsetningu
+calendar-event-listing-column-status =
+    .label = Staða
+    .tooltiptext = Raða eftir stöðu
+calendar-event-listing-column-time-until-due =
+    .label = Framkvæmist fyrir
+    .tooltiptext = Raða eftir framkvæmist fyrir
+calendar-event-listing-column-title =
+    .label = Titill
+    .tooltiptext = Raða eftir titli
 
 ## Interval dropdown options
 
