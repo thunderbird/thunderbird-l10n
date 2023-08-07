@@ -34,5 +34,11 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-next-7-days =
+    .label = Taq nimaq'ij pa ri 7 apo q'ij
+calendar-event-listing-interval-next-14-days =
+    .label = Taq nimaq'ij pa ri 14 apo q'ij
+calendar-event-listing-interval-next-31-days =
+    .label = Taq nimaq'ij pa ri 31 apo q'ij
 calendar-event-listing-interval-selected-day =
     .label = Q'ij Cha'on Wakam
