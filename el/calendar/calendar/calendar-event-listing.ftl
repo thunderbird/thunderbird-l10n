@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-event-listing-close =
+    .tooltiptext = Κλείσιμο αναζήτησης και λίστας εκδηλώσεων
 
 ## Listing columns
 
@@ -49,3 +51,15 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-calendar-month =
+    .label = Εκδηλώσεις σε αυτόν τον ημερολογιακό μήνα
+calendar-event-listing-interval-current-view =
+    .label = Εκδηλώσεις στην τρέχουσα προβολή
+calendar-event-listing-interval-next-7-days =
+    .label = Εκδηλώσεις στις επόμενες 7 ημέρες
+calendar-event-listing-interval-next-14-days =
+    .label = Εκδηλώσεις στις επόμενες 14 ημέρες
+calendar-event-listing-interval-next-31-days =
+    .label = Εκδηλώσεις στις επόμενες 31 ημέρες
+calendar-event-listing-interval-selected-day =
+    .label = Τρέχουσα επιλεγμένη ημέρα
