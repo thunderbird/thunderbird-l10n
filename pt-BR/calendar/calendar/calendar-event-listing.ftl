@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-event-listing-close =
+    .tooltiptext = Fechar busca e lista de eventos
 
 ## Listing columns
 
@@ -11,6 +13,14 @@ calendar-event-listing-column-calendar-name =
 calendar-event-listing-column-category =
     .label = Categoria
     .tooltiptext = Ordenar por categoria
+# This label and tooltip is used for the column with the checkbox in the task
+# tree view, which indicates whether a task has been marked as completed.
+calendar-event-listing-column-completed =
+    .label = Concluída
+    .tooltiptext = Ordenar por conclusão
+calendar-event-listing-column-completed-date =
+    .label = Conclusão
+    .tooltiptext = Ordenar por data de conclusão
 calendar-event-listing-column-due-date =
     .label = Prazo
     .tooltiptext = Ordenar pelo prazo
@@ -20,6 +30,9 @@ calendar-event-listing-column-end-date =
 calendar-event-listing-column-location =
     .label = Local
     .tooltiptext = Ordenar por local
+calendar-event-listing-column-percent-complete =
+    .label = % conclusão
+    .tooltiptext = Ordenar por % conclusão
 calendar-event-listing-column-priority =
     .label = Prioridade
     .tooltiptext = Ordenar por prioridade
