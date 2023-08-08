@@ -67,7 +67,7 @@
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled       "განახლებები ამორთულია თქვენი სისტემის ზედამხედველის მიერ">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
-<!ENTITY update.otherInstanceHandlingUpdates "&brandShortName; უკვე ახლდება">
+<!ENTITY update.otherInstanceHandlingUpdates "&brandShortName; უკვე ახლდება სხვა ცალკე გაშვებულიდან">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into
