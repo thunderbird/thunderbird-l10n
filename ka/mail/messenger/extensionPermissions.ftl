@@ -21,3 +21,4 @@ webext-perms-description-messagesMove = თქვენი წერილებ
 webext-perms-description-messagesDelete = თქვენი ელფოსტის წერილების სამუდამოდ წაშლა
 webext-perms-description-messagesRead = თქვენი ელფოსტის წერილების წაკითხვა და მონიშვნა ჭდეები
 webext-perms-description-messagesTags = წერილის ჭდეების შექმნა, შესწორება და წაშლა
+webext-perms-description-sensitiveDataUpload = მომხმარებლის საფრთხილო მონაცემების გადატანა (წვდომის ნებართვის მიღებისას) დაშორებულ სერვერზე შემდგომი დამუშავებისთვის
