@@ -25,36 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Shranjuj osnutke sporočil v šifrirani obliki
     .accesskey = o
-openpgp-key-user-id-label = Račun/ID uporabnika
-openpgp-keygen-title-label =
-    .title = Ustvari ključ OpenPGP
-openpgp-cancel-key =
-    .label = Prekliči
-    .tooltiptext = Prekliči ustvarjanje ključa
-openpgp-key-gen-expiry-title =
-    .label = Pretek ključa
-openpgp-key-gen-expire-label = Ključ preteče čez
-openpgp-key-gen-days-label =
-    .label = dni
-openpgp-key-gen-months-label =
-    .label = mesecev
-openpgp-key-gen-years-label =
-    .label = let
-openpgp-key-gen-no-expiry-label =
-    .label = Ključ ne preteče
-openpgp-key-gen-key-size-label = Velikost ključa
-openpgp-key-gen-console-label = Ustvarjanje ključa
-openpgp-key-gen-key-type-label = Vrsta ključa
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (eliptična krivulja)
-openpgp-generate-key =
-    .label = Ustvari ključ
-    .tooltiptext = Ustvari nov ključ, skladen z OpenPGP, za šifriranje in/ali podpisovanje
-openpgp-advanced-prefs-button-label =
-    .label = Napredno …
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">OPOMBA: Ustvarjanje ključev lahko traja nekaj minut.</a> Med ustvarjanjem ključev ne zapirajte programa. Dejavno brskanje ali izvajanje zahtevnih opravil na disku bo polnilo "bazen naključnosti" in pospešilo postopek ustvarjanja ključev. Obveščeni boste, ko bo postopek končan.
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =
     .label = Pošiljaj javne ključe OpenPGP v glavah e-pošte za združljivost s šifriranjem Autocrypt
@@ -418,10 +388,7 @@ key-do-you-accept = Ali sprejemate ta ključ za preverjanje digitalnih podpisov 
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Sporočila ni mogoče poslati, ker je prišlo do težave z vašim osebnim ključem. { $problem }
-cannot-encrypt-because-missing = Tega sporočila ni mogoče poslati s šifriranjem od konca do konca zaradi težav s ključi naslednjih prejemnikov: { $problem }
 window-locked = Okno za pisanje sporočila je zaklenjeno; pošiljanje preklicano
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = To je šifriran del sporočila. Odpreti ga morate v ločenem oknu, tako da kliknete na priponko.
 
 ## Strings in keyserver.jsm
 
@@ -610,7 +577,6 @@ key-trust-group = (skupina)
 import-key-file = Uvozi datoteko ključa OpenPGP
 gnupg-file = Datoteke GnuPG
 import-keys-failed = Uvažanje ključev ni uspelo
-passphrase-prompt = Vnesite geslo, ki odklepa naslednji ključ: { $key }
 file-to-big-to-import = Ta datoteka je prevelika. Ne uvažajte velikega števila ključev hkrati.
 
 ## Strings used in enigmailKeygen.js
@@ -687,6 +653,7 @@ send-to-news-warning =
     To je odsvetovano, ker je smiselno le, če lahko sporočilo dešifrirajo vsi člani skupine, torej bi moralo biti šifrirano s ključi vseh članov. To sporočilo pošljite samo, če natančno veste, kaj počnete.
     Želite nadaljevati?
 save-attachment-header = Shrani dešifrirano priponko
+possibly-pgp-mime = Morebiti šifrirano ali podpisano s PGP/MIME; preverite s funkcijo 'Dešifriraj/Preveri'
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Tega sporočila ni mogoče digitalno podpisati, ker še niste nastavili šifriranja od konca do konca za <{ $key }>
