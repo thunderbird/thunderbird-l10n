@@ -195,6 +195,10 @@ folder-pane-mode-context-button =
 folder-pane-mode-context-toggle-compact-mode =
     .label = Zgoščen pogled
     .accesskey = Z
+folder-pane-mode-move-up =
+    .label = Premakni gor
+folder-pane-mode-move-down =
+    .label = Premakni dol
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =

@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Uredi vse ponovitve
     .accesskey = v
+description-context-menu-copy-link-text =
+    .label = Kopiraj besedilo povezave
