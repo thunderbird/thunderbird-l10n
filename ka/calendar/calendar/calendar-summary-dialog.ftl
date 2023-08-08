@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = ყველა თარიღის ჩასწორება
     .accesskey = ყ
+description-context-menu-copy-link-text =
+    .label = ბმულის წარწერის ასლი
