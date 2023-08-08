@@ -19,9 +19,9 @@
 <!ENTITY calendar.events.filter.future.label "Všetky budúce udalosti">
 <!ENTITY calendar.events.filter.current.label "Udalosti práve vybraného dňa">
 <!ENTITY calendar.events.filter.currentview.label "Udalosti v aktuálnom zobrazení">
-<!ENTITY calendar.events.filter.next7Days.label "Udalosti za posledných 7 dní">
-<!ENTITY calendar.events.filter.next14Days.label "Udalosti za posledných 14 dní">
-<!ENTITY calendar.events.filter.next31Days.label "Udalosti za posledných 31 dní">
+<!ENTITY calendar.events.filter.next7Days.label "Udalosti v nasledujúcich 7 dňoch">
+<!ENTITY calendar.events.filter.next14Days.label "Udalosti v nasledujúcich 14 dňoch">
+<!ENTITY calendar.events.filter.next31Days.label "Udalosti v nasledujúcich 31 dňoch">
 <!ENTITY calendar.events.filter.thisCalendarMonth.label "Udalosti v aktuálnom mesačnom kalendári">
 
 <!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
@@ -58,38 +58,9 @@
 <!ENTITY calendar.today.button.tooltip          "Prejsť na dnešný deň" >
 <!ENTITY calendar.todaypane.button.tooltip      "Zobraziť panel Dnes" >
 
-<!ENTITY calendar.day.button.tooltip            "Zmeniť pohľad na denný" >
-<!ENTITY calendar.week.button.tooltip           "Zmeniť pohľad na týždenný" >
-<!ENTITY calendar.month.button.tooltip          "Zmeniť pohľad na mesačný" >
-<!ENTITY calendar.multiweek.button.tooltip      "Zmeniť pohľad na viactýždenný" >
-
-<!ENTITY calendar.nextday.label                 "Nasledujúci deň" >
-<!ENTITY calendar.prevday.label                 "Predchádzajúci deň" >
-<!ENTITY calendar.nextday.accesskey             "a" >
-<!ENTITY calendar.prevday.accesskey             "e" >
-<!ENTITY calendar.nextweek.label                "Nasledujúci týždeň" >
-<!ENTITY calendar.prevweek.label                "Predchádzajúci týždeň" >
-<!ENTITY calendar.nextweek.accesskey            "a" >
-<!ENTITY calendar.prevweek.accesskey            "e" >
-<!ENTITY calendar.nextmonth.label               "Nasledujúci mesiac" >
-<!ENTITY calendar.prevmonth.label               "Predchádzajúci mesiac" >
-<!ENTITY calendar.nextmonth.accesskey           "a" >
-<!ENTITY calendar.prevmonth.accesskey           "e" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Jeden deň dopredu" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Jeden deň naspäť" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Jeden týždeň dopredu" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Jeden týždeň naspäť" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Jeden mesiac dopredu" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Jeden mesiac naspäť" >
-
 <!ENTITY calendar.newevent.button.label         "Nová udalosť" >
 <!ENTITY calendar.newtask.button.label          "Nová úloha" >
 
-<!ENTITY calendar.day.button.label              "Deň" >
-<!ENTITY calendar.week.button.label             "Týždeň" >
-<!ENTITY calendar.month.button.label            "Mesiac" >
-<!ENTITY calendar.multiweek.button.label        "Viac týždňov" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Iba pracovné dni" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Úlohy v pohľade" >
@@ -274,8 +245,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "d">
 <!ENTITY calendar.context.unsubscribeserver.label      "Odhlásiť odber kalendára…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "h">
-<!ENTITY calendar.context.synccalendars.label          "Synchronizovať kalendáre">
-<!ENTITY calendar.context.synccalendars.accesskey      "c">
 <!ENTITY calendar.context.publish.label                "Publikovať celý kalendár…">
 <!ENTITY calendar.context.publish.accesskey            "P">
 <!ENTITY calendar.context.export.label                 "Exportovať kalendár…">
