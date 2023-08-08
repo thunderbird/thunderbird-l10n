@@ -52,14 +52,20 @@ calendar-event-listing-column-title =
 ## Interval dropdown options
 
 calendar-event-listing-interval-calendar-month =
-    .label = ღონისძიებები, ამ კალენდარულ თვეში
+    .label = ღონისძიებები ამ კალენდარულ თვეში
 calendar-event-listing-interval-current-view =
     .label = ღონისძიებები მიმდინარე გვერდზე
 calendar-event-listing-interval-next-7-days =
-    .label = ღონისძიებები, მომდევნო 7 დღეში
+    .label = ღონისძიებები მომდევნო 7 დღეში
 calendar-event-listing-interval-next-14-days =
-    .label = ღონისძიებები, მომდევნო 14 დღეში
+    .label = ღონისძიებები მომდევნო 14 დღეში
 calendar-event-listing-interval-next-31-days =
-    .label = ღონისძიებები, მომდევნო 31 დღეში
+    .label = ღონისძიებები მომდევნო 31 დღეში
+calendar-event-listing-interval-next-6-months =
+    .label = ღონისძიებები მომდევნო 6 თვეში
+calendar-event-listing-interval-next-12-months =
+    .label = ღონისძიებები მომდევნო 12 თვეში
 calendar-event-listing-interval-selected-day =
     .label = მითითებული დღის
+calendar-event-listing-interval-today =
+    .label = დღევანდელი ღონისძიებები

@@ -19,10 +19,10 @@
 <!ENTITY calendar.events.filter.future.label "ყველა მომავალი ღონისძიება">
 <!ENTITY calendar.events.filter.current.label "მითითებული დღის">
 <!ENTITY calendar.events.filter.currentview.label "ღონისძიებები მიმდინარე გვერდზე">
-<!ENTITY calendar.events.filter.next7Days.label "ღონისძიებები, მომდევნო 7 დღეში">
-<!ENTITY calendar.events.filter.next14Days.label "ღონისძიებები, მომდევნო 14 დღეში">
-<!ENTITY calendar.events.filter.next31Days.label "ღონისძიებები, მომდევნო 31 დღეში">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "ღონისძიებები, ამ კალენდარულ თვეში">
+<!ENTITY calendar.events.filter.next7Days.label "ღონისძიებები მომდევნო 7 დღეში">
+<!ENTITY calendar.events.filter.next14Days.label "ღონისძიებები მომდევნო 14 დღეში">
+<!ENTITY calendar.events.filter.next31Days.label "ღონისძიებები მომდევნო 31 დღეში">
+<!ENTITY calendar.events.filter.thisCalendarMonth.label "ღონისძიებები ამ კალენდარულ თვეში">
 
 <!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
    - This label and tooltip is used for the column with the checkbox in the
@@ -58,38 +58,9 @@
 <!ENTITY calendar.today.button.tooltip          "გადასვლა დღევანდელზე" >
 <!ENTITY calendar.todaypane.button.tooltip      "დღევანდელი დაფა" >
 
-<!ENTITY calendar.day.button.tooltip            "გადართვა დღეზე" >
-<!ENTITY calendar.week.button.tooltip           "გადართვა კვირაზე" >
-<!ENTITY calendar.month.button.tooltip          "გადართვა თვეზე" >
-<!ENTITY calendar.multiweek.button.tooltip      "გადართვა მრავალი კვირის ჩვენებაზე" >
-
-<!ENTITY calendar.nextday.label                 "შემდეგი დღე" >
-<!ENTITY calendar.prevday.label                 "წინა დღე" >
-<!ENTITY calendar.nextday.accesskey             "შ" >
-<!ENTITY calendar.prevday.accesskey             "წ" >
-<!ENTITY calendar.nextweek.label                "შემდეგი კვირა" >
-<!ENTITY calendar.prevweek.label                "წინა კვირა" >
-<!ENTITY calendar.nextweek.accesskey            "შ" >
-<!ENTITY calendar.prevweek.accesskey            "წ" >
-<!ENTITY calendar.nextmonth.label               "შემდეგი თვე" >
-<!ENTITY calendar.prevmonth.label               "წინა თვე" >
-<!ENTITY calendar.nextmonth.accesskey           "შ" >
-<!ENTITY calendar.prevmonth.accesskey           "წ" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "ერთი დღით შემდგომ" >
-<!ENTITY calendar.navigation.prevday.tooltip    "ერთი დღით წინ" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "ერთი კვირით შემდგომ" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "ერთი კვირით წინ" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "ერთი თვით შემდგომ" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "ერთი თვით წინ" >
-
 <!ENTITY calendar.newevent.button.label         "ახალი ღონისძიება" >
 <!ENTITY calendar.newtask.button.label          "ჩასწორება" >
 
-<!ENTITY calendar.day.button.label              "დღე" >
-<!ENTITY calendar.week.button.label             "კვირა" >
-<!ENTITY calendar.month.button.label            "თვე" >
-<!ENTITY calendar.multiweek.button.label        "მრავალი კვირა" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "მხოლოდ სამუშაო დღეები" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "უ" >
 <!ENTITY calendar.displaytodos.checkbox.label   "ნაჩვენები დავალების" >
@@ -274,8 +245,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "მ">
 <!ENTITY calendar.context.unsubscribeserver.label      "კალენდრის გამოწერის გაუქმება…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "უ">
-<!ENTITY calendar.context.synccalendars.label          "კალენდრების სინქრონიზაცია">
-<!ENTITY calendar.context.synccalendars.accesskey      "ქ">
 <!ENTITY calendar.context.publish.label                "კალენდრის გამოქვეყნება">
 <!ENTITY calendar.context.publish.accesskey            "ყ">
 <!ENTITY calendar.context.export.label                 "კალენდრის გადატანა…">
