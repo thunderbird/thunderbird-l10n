@@ -63,3 +63,5 @@ calendar-event-listing-interval-next-31-days =
     .label = 31 天内的事件
 calendar-event-listing-interval-selected-day =
     .label = 已选日期
+calendar-event-listing-interval-today =
+    .label = 今日活动
