@@ -58,38 +58,8 @@
 <!ENTITY calendar.today.button.tooltip          "Zu Heute wechseln" >
 <!ENTITY calendar.todaypane.button.tooltip      "Tagesplan anzeigen" >
 
-<!ENTITY calendar.day.button.tooltip            "Zur Tagesansicht wechseln" >
-<!ENTITY calendar.week.button.tooltip           "Zur Wochenansicht wechseln" >
-<!ENTITY calendar.month.button.tooltip          "Zur Monatsansicht wechseln" >
-<!ENTITY calendar.multiweek.button.tooltip      "Zur mehrwöchigen Ansicht wechseln" >
-
-<!ENTITY calendar.nextday.label                 "Nächster Tag" >
-<!ENTITY calendar.prevday.label                 "Vorheriger Tag" >
-<!ENTITY calendar.nextday.accesskey             "N" >
-<!ENTITY calendar.prevday.accesskey             "V" >
-<!ENTITY calendar.nextweek.label                "Nächste Woche" >
-<!ENTITY calendar.prevweek.label                "Vorherige Woche" >
-<!ENTITY calendar.nextweek.accesskey            "N" >
-<!ENTITY calendar.prevweek.accesskey            "V" >
-<!ENTITY calendar.nextmonth.label               "Nächster Monat" >
-<!ENTITY calendar.prevmonth.label               "Vorheriger Monat" >
-<!ENTITY calendar.nextmonth.accesskey           "N" >
-<!ENTITY calendar.prevmonth.accesskey           "V" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Einen Tag vor" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Einen Tag zurück" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Eine Woche vor" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Eine Woche zurück" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Einen Monat vor" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Einen Monat zurück" >
-
 <!ENTITY calendar.newevent.button.label         "Neuer Termin" >
 <!ENTITY calendar.newtask.button.label          "Neue Aufgabe" >
-
-<!ENTITY calendar.day.button.label              "Tag" >
-<!ENTITY calendar.week.button.label             "Woche" >
-<!ENTITY calendar.month.button.label            "Monat" >
-<!ENTITY calendar.multiweek.button.label        "Mehrere Wochen" >
 
 <!ENTITY calendar.onlyworkday.checkbox.label    "Nur Werktage" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "N" >
@@ -101,7 +71,7 @@
 <!ENTITY calendar.orientation.label "Ansicht rotieren" >
 <!ENTITY calendar.orientation.accesskey "o" >
 
-<!ENTITY calendar.search.options.searchfor " enthält">
+<!ENTITY calendar.search.options.searchfor " enthalten">
 
 <!ENTITY calendar.list.header.label                 "Kalender">
 
@@ -275,8 +245,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "R">
 <!ENTITY calendar.context.unsubscribeserver.label      "Kalender abbestellen…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "B">
-<!ENTITY calendar.context.synccalendars.label          "Kalender synchronisieren">
-<!ENTITY calendar.context.synccalendars.accesskey      "L">
 <!ENTITY calendar.context.publish.label                "Kalender veröffentlichen…">
 <!ENTITY calendar.context.publish.accesskey            "K">
 <!ENTITY calendar.context.export.label                 "Kalender exportieren…">
