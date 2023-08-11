@@ -27,36 +27,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Gorde mezuen zirriborroak formatu zifratuan
     .accesskey = z
-openpgp-key-user-id-label = Kontua / erabiltzaile ID
-openpgp-keygen-title-label =
-    .title = Sortarazi OpenPGP gakoa
-openpgp-cancel-key =
-    .label = Utzi
-    .tooltiptext = Utzi gakoa sortzea
-openpgp-key-gen-expiry-title =
-    .label = Gakoaren iraungitzea
-openpgp-key-gen-expire-label = Gakoa iraungitzen da
-openpgp-key-gen-days-label =
-    .label = egun
-openpgp-key-gen-months-label =
-    .label = hilabete
-openpgp-key-gen-years-label =
-    .label = urte
-openpgp-key-gen-no-expiry-label =
-    .label = Gakoa ez da iraungitzen
-openpgp-key-gen-key-size-label = Gakoaren tamaina
-openpgp-key-gen-console-label = Gako sorrera
-openpgp-key-gen-key-type-label = Gako mota
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
-openpgp-generate-key =
-    .label = Sortu gakoa
-    .tooltiptext = OpenPGP bateragarria den gako berria sortzen du zifratzeko edo/eta sinatzeko
-openpgp-advanced-prefs-button-label =
-    .label = Aurreratua…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link"> OHARRA:Gakoa sortzeak hainbat minutu har ditzake burutu artean.</a> Ez irten aplikaziotik gakoa sortzen ari denean.  Gakoa sortzen ari denean, nabigatze aktiboak edo disko erabilera intentsiboa dakarten eragiketek 'ausazkotasunaren multzoa' berriz beteko dute eta prozesua azkartu. Gakoa sortzea amaitzean jakinaraziko zaizu.
 openpgp-key-created-label =
     .label = Sortuta
 openpgp-key-expiry-label =
@@ -117,6 +87,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Argitaratu
     .accesskey = A
+openpgp-key-publish = Argitaratu
 openpgp-key-man-discover-prompt = OpenPGP gakoak sarean bilatzeko, gako-zerbitzarietan edo WKD protokoloa erabiliz, sartu edo posta elektronikoa edo gako IDa.
 openpgp-key-man-discover-progress = Bilatzen…
 # Variables:
@@ -137,6 +108,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Bidali posta elektronikoz gako publikoa
     .accesskey = p
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -144,6 +117,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Kopiatu ID gakoak arbelera
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -151,6 +126,8 @@ openpgp-key-man-copy-fprs =
            *[other] Kopiatu hatz-markak arbelera
         }
     .accesskey = h
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -163,6 +140,8 @@ openpgp-key-man-ctx-expor-to-file-label =
 openpgp-key-man-ctx-copy =
     .label = Kopiatu
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -170,6 +149,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Hatz-markak
         }
     .accesskey = H
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -177,6 +158,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] Gako IDak
         }
     .accesskey = G
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -300,6 +283,8 @@ openpgp-personal-no-label =
     .label = Ez, ez erabili nire gako pertsonal bezala.
 openpgp-personal-yes-label =
     .label = Bai, tratatu gako hau pertsonal gako bezala.
+openpgp-passphrase-unlock = Desblokeatu
+openpgp-passphrase-unlocked = Gakoa behar bezala desblokeatu da.
 openpgp-copy-cmd-label =
     .label = Kopiatu
 
@@ -334,9 +319,9 @@ openpgp-radio-none-desc = Ez erabili OpenPGP identitate honentzat.
 openpgp-radio-key-not-usable = Gako hau ezin da gako pertsonal gisa erabili, gako sekretua galdu delako!
 openpgp-radio-key-not-accepted = Gako hau erabiltzeko, gako pertsonal gisa onartu behar duzu!
 openpgp-radio-key-not-found = Gakoa ezin da aurkitu! Erabili nahi izanez gero { -brand-short-name }(e)ra inportatu behar duzu.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Iraungitze data: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Iraungitze data: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = Gako iraungitzea 6 hilabete baino lehenago
@@ -355,7 +340,9 @@ openpgp-key-remove-external =
     .label = Kendu kanpo gako ID
     .accesskey = k
 key-external-label = Kanpo GnuPG gakoa
-# Strings in keyDetailsDlg.xhtml
+
+## Strings in keyDetailsDlg.xhtml
+
 key-type-public = Gako publikoa
 key-type-primary = Gako nagusia
 key-type-subkey = Azpi-gakoa
@@ -366,18 +353,25 @@ key-usage-sign = sinatu
 key-usage-certify = Ziurtatu
 key-usage-authentication = Autentifikazioa
 key-does-not-expire = Gakoa ez da iraungitzen
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Gakoaren iraungitzea: { $keyExpiry }
 key-expired-simple = Gakoa iraungita dago
 key-revoked-simple = Gakoa ukatu zen.
 key-do-you-accept = Onartzen al duzu gako hau sinadura digitalak egiaztatzeko eta mezuak zifratzeko?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Egiaztatu gakoaren hartz-marka posta elektronikoa ez den komunikazio kanal seguru bat erabiliz, benetan ziurtatzeko gakoa helbide honetakoa dela: { $addr }
-# Strings enigmailMsgComposeOverlay.js
+
+## Strings enigmailMsgComposeOverlay.js
+
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Ezin da mezua bidali, zure gako pertsonalarekin arazo bat dagoelako. { $problem }
-cannot-encrypt-because-missing = Ezin da mezua bidali muturretik-muturrerako zifratzeaz, ondorengo hartzaileen gakoekin arazoak daudelako: { $problem }
 window-locked = Mezu-prestatze leihoa blokeatua dago; bidalketa bertan behera utzi da
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Hau mezuaren atal zifratua da. Aparteko leiho baten ireki beharra daukazu eranskinean klik eginda.
-# Strings in keyserver.jsm
+
+## Strings in keyserver.jsm
+
 keyserver-error-aborted = Bertan behera utzita
 keyserver-error-unknown = Errore ezezagun bat gertatu da
 keyserver-error-server-error = Gako-zerbitzariak errorearen berri eman du.
@@ -386,34 +380,50 @@ keyserver-error-unavailable = Gako-zerbitzaria ez dago eskuragarri.
 keyserver-error-security-error = Gako-zerbitzariak ez du sarrera zifratuaren euskarririk.
 keyserver-error-certificate-error = Gako-zerbitzariaren ziurtagiria ez da baliozkoa.
 keyserver-error-unsupported = Ez dago gako-zerbitzari eskuragarrik.
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.jsm
+
 wkd-message-body-req =
     Zure posta elektroniko hornitzaileak zure OpenPGP gako publikoa Web gako direktorio batera kargatzea eskatzen dizu.
     Mesedez, berretsi zure gako publikoa argitaratzea osotzeko.
 wkd-message-body-process =
     Mezu hau zure gako publikoa automatikoki OpenPGP web gako direktoriora igotzeko prozesuaz lotua dago.
     Puntu honetan ez daukazu inolako ekintzarik egin beharrik eskuz.
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.jsm
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Ezin da deszifratu gai hau duen mezua:
     { $subject }.
     Beste pasa-esaldi bat erabiliz berriz saiatu nahi duzu edo mezua saltatu nahi duzu?
-# Strings filters.jsm
+
+## Strings filters.jsm
+
 filter-folder-required = Helburu-karpeta bat hautatu behar duzu.
 filter-decrypt-move-warn-experimental =
     Abisua - "Deszifratu betirako" iragazki ekintzak mezuak apurtzea ekar dezake.
     Gure gomendio garrantzitsua da aurretik saiatu beharko zenukeela "sortu deszifratutako kopia" iragazkia, probatu emaitza kontu handiz eta iragazki hau bakarrik erabiltzen hasi behin emaitzarekin pozik zaudela.
 filter-term-pgpencrypted-label = OpenPGP zifratua
 filter-key-required = Hartzaile gakoa aukeratu behar duzu.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Ezin da '{ $desc }'  gako zifratua aurkitu.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Abisua - "zifratu gakora" iragazki ekintzak hartzaileak aldatzen ditu.
     Ez badaukazu { $desc }(e)n gako sekretua ez zara gai izango hemendik aurrera mezuak irakurtzeko.
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.jsm
+
 filter-decrypt-move-label = Deszifratu betirako (OpenPGP)
 filter-decrypt-copy-label = Sortu deszifratutako kopia (OpenPGP)
 filter-encrypt-label = Zifratu gakora (OpenPGP)
-# Strings in enigmailKeyImportInfo.js
+
+## Strings in enigmailKeyImportInfo.js
+
 import-info-title =
     .title = Eginda! gakoak inportatuta
 import-info-bits = bit
@@ -421,11 +431,15 @@ import-info-created = Sortuta
 import-info-fpr = Hatz-marka
 import-info-details = Erakutsi zehetasunak eta kudeatu gako onartzea
 import-info-no-keys = Ez da gakorik inportatu
-# Strings in enigmailKeyManager.js
+
+## Strings in enigmailKeyManager.js
+
 import-from-clip = Gakoa(k) inportatu nahi d(it)uzu arbeletik?
 import-from-url = Jaitsi gako publikoa URL honetatik:
 copy-to-clipbrd-failed = Ezin izan da kopiatu aukeratutako gakoak arbelera.
 copy-to-clipbrd-ok = Gakoa(k) kopiatuta arbelera
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     ABISUA - Gako sekretua ezabatzera zoaz.
     
@@ -439,6 +453,8 @@ delete-mix =
     Gako sekretua ezabatzen baduzu, ez zara gai izango hemendik aurrera gako horrekin mezuak deszifratzeko eta ezta hura ukatzeko gai izan.
     
     Benetan ezabatu nahi dituzu BIAK, aukeratutako gako sekretu eta gako publikoak?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Gako publikoa ezabatu nahi duzu
     '{ $userId }'?
@@ -459,6 +475,8 @@ default-pub-key-filename = Esportatuak-gako-publikoak
 default-pub-sec-key-filename = Gako-sekretuen-babeskopia
 refresh-key-warn = Abisua: Gako kopuruaren arabera eta konexio abiaduraren arabera, gako guztiak freskatzea nahiko prozesu luzea izan daiteke!
 preview-failed = Ezin da gako publiko fitxategia irakurri.
+# Variables:
+# $reason (String) - Error description.
 general-error = Errorea: { $reason }
 dlg-button-delete = E&zabatu
 
@@ -468,7 +486,12 @@ openpgp-export-public-success = <b>Gako publikoa ondo esportatu da!</b>
 openpgp-export-public-fail = <b>Ezin da esportatu gako publikoa!</b>
 openpgp-export-secret-success = <b>Gako sekretua ondo esportatu da!</b>
 openpgp-export-secret-fail = <b>Ezin da esportatu gako sekretua!</b>
-# Strings in keyObj.jsm
+
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = { $userId } (key ID { $keyId }) gakoa ukatua dago.
 key-ring-pub-key-expired = { $userId } (key ID { $keyId }) gakoa iraungita dago.
 key-ring-no-secret-key = Badirudi ez daukazula gako sekreturik  { $userId } (key ID { $keyId }) gakorako zure gako-sortan; ezin duzu gakoa erabili sinatzeko.
@@ -478,10 +501,14 @@ key-ring-sign-sub-keys-revoked = { $userId } (key ID { $keyId }) gakoaren sinatz
 key-ring-sign-sub-keys-expired = { $userId } (key ID { $keyId }) gakoaren sinatze azpi-gako guztiak iraungita daude.
 key-ring-enc-sub-keys-revoked = { $userId } (key ID { $keyId }) gakoaren zifratze azpi-gako guztiak ukatuak daude.
 key-ring-enc-sub-keys-expired = { $userId } (key ID { $keyId }) gakoaren zifratze azpi-gako guztiak iraungita daude.
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.jsm
+
 keyring-photo = Argazkia
 user-att-photo = Erabiltzaile atributua (JPEG irudia)
-# Strings in key.jsm
+
+## Strings in key.jsm
+
 already-revoked = Dagoeneko ukatuta dago gako hau.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -501,7 +528,9 @@ after-revoke-info =
     Banatu berriz gako publiko hau, posta elektronikoz bidaliz, edo gako-zerbitzarietara igoz, besteek jakin dezaten gako hau ukatu duzula.
     Besteek darabilten softwareak ukazioaren berri izan bezain laster, zure gako zaharra erabiltzeari utziko diote.
     Gako berri bat erabiltzen bazabiltza posta helbide berdinaz eta gako publiko berria eransten badiozu posta bidalketei, orduan gako zaharraren ukatzearen inguruko informazioa automatikoki jasoko dute.
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.jsm & decryption.jsm
+
 key-man-button-import = &Inportatu
 delete-key-title = Ezabatu OpenPGP gakoa
 delete-external-key-title = Kendu kanpo GnuPG gakoa
@@ -509,26 +538,44 @@ delete-external-key-description = Kanpo GnuPG gako ID hau kendu nahi duzu?
 key-in-use-title = OpenPGP gakoa unean erabiltzen.
 delete-key-in-use-description = Ezin da prozesatu! Ezabatzeko aukeratu duzun gakoa une honetan identitate honek darabil. Aukeratu beste gako bat edo bat ere ez eta saiatu berriz.
 revoke-key-in-use-description = Ezin da prozesatu! ukatzeko aukeratu duzun gakoa une honetan identitate honek darabil. Aukeratu beste gako bat edo bat ere ez eta saiatu berriz.
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.jsm
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = '{ $keySpec }' posta elektroniko helbidea ez dator bat zure gako-sortako gakoekin.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = Konfiguratutako gako ID '{ $keySpec }'  ez da aurkitzen zure gako-sortan.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Ez duzu berretsi '{ $keySpec }' IDa duen gakoa zure gako pertsonala denik.
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 need-online = Aukeratu duzu funtzioa ez dago erabilgarri lineaz kanpo moduan. Jar zaitez linean eta saiatu berriro.
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
 no-key-found2 = Ez da aurkitu bilaketa irizpideekin bat datorren gako erabilgarririk.
 no-update-found = Badaukazu jada sarean aurkitu diren gakoak.
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 fail-key-extract = Errorea - gakoa ateratzeko komandoak huts egin du
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.jsm
+
 fail-cancel = Errorea - gako harrera bertan behera utzi du erabiltzaileak
 not-first-block = Errorea - Lehen OpenPGP blokea ez da gako publiko blokea
 import-key-confirm = Inportatu mezuan kapsulatutako gako publikoa(k)?
 fail-key-import = Errorea - Gako inportatzeak huts egin du
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Fitxategian idazteak huts egin du { $output }
 no-pgp-block = Errorea - Gaizki egituratutako OpenPGP datu blokea aurkitu da
 confirm-permissive-import = Inportazioak huts egin du. Inportatzea saiatzen ari zaren gakoa hondatua dagoela dirudi eta atributu ezezagunak darabil. Zuzenak diren zatiak inportatzen saiatzea nahi duzu? Honen emaitza gako ez osoa eta erabiltezina inportatzea izan daiteke.
-# Strings used in trust.jsm
+
+## Strings used in trust.jsm
+
 key-valid-unknown = ezezaguna
 key-valid-invalid = Baliogabea
 key-valid-disabled = desgaituta
@@ -539,14 +586,17 @@ key-trust-marginal = Bazterrekoa
 key-trust-full = Fidagarria
 key-trust-ultimate = Azkenekoa
 key-trust-group = (taldea)
-# Strings used in commonWorkflows.js
+
+## Strings used in commonWorkflows.js
+
 import-key-file = Inportatu OpenPGP gako fitxategia
 import-rev-file = Inportatu OpenPGP ukapen fitxategia
 gnupg-file = GnuPG fitxategiak
 import-keys-failed = Huts egin du gakoak inportatzeak
-passphrase-prompt = Mesedez sartu pasa-esaldia ondorengo gakoa desblokeatzen duena: { $key }
 file-to-big-to-import = Fitxategi hau handiegia da. Mesedez ez inportatu gako multzo handiak batera.
-# Strings used in enigmailKeygen.js
+
+## Strings used in enigmailKeygen.js
+
 save-revoke-cert-as = Sortu eta gorde ukapen ziurtagiria
 revoke-cert-ok = Ukapen ziurtagiria zuzen sortu da. Zure gako publikoa baliogabetzeko erabil dezakezu, adib. zure gako sekretua galdu duzunean.
 revoke-cert-failed = Ezin da sortu ukapen ziurtagiria.
@@ -554,33 +604,53 @@ gen-going = Gakoaren sorrera abian da!
 keygen-missing-user-name = Ez dago izenik zehaztuta aukeratutako kontu/indentitaterako. Mesedez sartu balioa  "zure Izena" eremuan kontuko ezarpenetan.
 expiry-too-short = Zure gakoa askoz jota egun baten balioztatu beharko da.
 expiry-too-long = Ezin duzu sortu, 100 urte baino beranduago iraungiko den gakoa.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Sortu gako publiko eta sekretua '{ $id }' identitaterako?
 key-man-button-generate-key = Sortu &gakoa
 key-abort = Bertan behera utzi gako sorrera?
 key-man-button-generate-key-abort = Bertan behera &utzi gako sorrera?
 key-man-button-generate-key-continue = &Jarraitu gako sorrera
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
 
 failed-decrypt = Errorea - deszifratzeak huts egin du
 fix-broken-exchange-msg-failed = Ez da lortu mezua konpontzea.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = '{ $attachment }' sinadura fitxategia ez dator bat eranskin batekin
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = '{ $attachment }' eranskina ez dator bat sinadura fitxategi batekin
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = { $attachment } eranskinerako sinadura ondo egiaztatu da
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = { $attachment } eranskinerako sinadura ezin da egiaztatu
 decrypt-ok-no-sig =
     Abisua
     Zifratzea ondo egin da, baina sinadura ezin da ondo egiaztatu
 msg-ovl-button-cont-anyway = &Jarraitu hala ere
 enig-content-note = *Mezu honen eranskinak ez dira sinatu ezta zifratu*
-# Strings used in enigmailMsgComposeOverlay.js
+
+## Strings used in enigmailMsgComposeOverlay.js
+
 msg-compose-button-send = &Bidali mezua
 msg-compose-details-button-label = Xehetasunak…
 msg-compose-details-button-access-key = X
 send-aborted = Bidaliketa eragiketa abortatua.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Ez dago nahikoa konfiantza '{ $key }' gakoan
+# Variables:
+# $key (String) - Key id.
 key-not-found = '{ $key }'  gakoa ez da aurkitu
+# Variables:
+# $key (String) - Key id.
 key-revoked = '{ $key }'  gakoa ukatu da
+# Variables:
+# $key (String) - Key id.
 key-expired = '{ $key }'  gakoa iraungi da
 msg-compose-internal-error = Barne errore bat eman da.
 keys-to-export = Aukeratu OpenPGP gakoak txertatzeko
@@ -592,6 +662,8 @@ msg-compose-partially-encrypted-short = Argi ibili kontuzko informazioa filtratz
 quoted-printable-warn =
     Gaitua daukazu 'aipu-inprimagarriak' kodeketa bidalketa mezuentzat. Honek deszifratze oker bat ekar dezake edo/eta zure mezuaren egiaztatze okerra.
     Desgaitu nahi duzu bidalitako mezuetako 'aipu-inprimagarriak' orain?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Lerro egokitzea { $width } karakteretan ezarria daukazu. Zifraketa edo/eta sinatze zuzenerako balio hau gutxienez 68 izan beharko luke.
     Nahi duzu orain lerro egokitzea 68 karakteretan ezartzea?
@@ -604,31 +676,58 @@ send-to-news-warning =
     Jarraitu?
 save-attachment-header = Gorde zifratutako eranskina
 possibly-pgp-mime = Agian PGP/MIME zifratutako edo sinatutako mezua; erabili 'Deszifratu/egiaztatu' funtzioa egiaztatzeko
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Ezinda digitalki sinatu mezu hau, oraindik ez daukazulako <{ $key }> gakoa muturretik-muturrera konfiguratuta
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Ezinda mezu hau zifratua bidali, oraindik ez daukazulako <{ $key }> gakoa muturretik-muturrera konfiguratuta
-# Strings used in decryption.jsm
+
+## Strings used in decryption.jsm
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Inportatu ondorengo gakoak?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = Inportatu { $name } ({ $id })?
 cant-import = Errorea gako publikoa inportatzean
 unverified-reply = Koskadun mezu zatia (erantzuna) litekeena da aldatu izana
 key-in-message-body = Gakoa aurkitu da mezu gorputzean. Sakatu 'Gakoa inportatu' gakoa inportatzeko
 sig-mismatch = Errorea - sinadurak ez datoz bat
 invalid-email = Errorea - Posta elektroniko helbide baliogabea
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Irekitzen ari zaren '{ $name }' eranskina badirudi OpenPGP gako fitxategi bat duela.
     Sakatu 'Inportatu' dauzkan gakoak inportatzeko edo 'Erakutsi' fitxategiaren edukia ikusteko nabigatzaile leiho baten
 dlg-button-view = &Erakutsi
-# Strings used in enigmailMsgHdrViewOverlay.js
+
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 decrypted-msg-with-format-error = Deszifratutako mezua (PGP formatudun mezu apurtua berreskuratua, litekeena da Exchange zerbitzari zahar batek apurtzea, horregatik litekeena da emaitza ez izatea perfektua irakurtzeko)
-# Strings used in encryption.jsm
+
+## Strings used in encryption.jsm
+
 not-required = Errorea - ez da zifraketarik behar
-# Strings used in windows.jsm
+
+## Strings used in windows.jsm
+
 no-photo-available = Argazkia ez dago erabilgarri
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = '{ $photo }' argazki bide-izena ezin da irakurri
 debug-log-title = OpenPGP arazketa egunkaria
-# Strings used in dialog.jsm
+
+## Strings used in dialog.jsm
+
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix = Alerta hau errepikatuko da: { $count }
 repeat-suffix-singular = aldi baten.
 repeat-suffix-plural = alditan.
@@ -642,9 +741,13 @@ enig-prompt = OpenPGP gonbita
 enig-confirm = OpenPGP berrespena
 enig-alert = OpenPGP alerta
 enig-info = OpenPGP informazioa
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.jsm
+
 dlg-button-retry = Saiatu be&rriro
 dlg-button-skip = &Saltatu
-# Strings used in enigmailMsgBox.js
+
+## Strings used in enigmailMsgBox.js
+
 enig-alert-title =
     .title = OpenPGP alerta

@@ -544,23 +544,12 @@ third-party-never =
     .label = Inoiz ez
 third-party-visited =
     .label = Bisitatutakoetatik
-keep-label =
-    .value = Mantendu:
-    .accesskey = M
-keep-expire =
-    .label = iraungi arte
-keep-close =
-    .label = { -brand-short-name } itxi arte
-keep-ask =
-    .label = galdetu niri beti
 cookies-button =
     .label = Erakutsi cookieak…
     .accesskey = E
 do-not-track-label =
     .label = Bidali webguneei "Do Not Track" seinalea zure jarraipena ez egitea adierazteko
     .accesskey = n
-learn-button =
-    .label = Argibide gehiago
 dnt-learn-more-button =
     .value = Argibide gehiago
 passwords-description = { -brand-short-name }(e)k pasahitzen informazioa gogora dezake zure kontu guztientzat.
@@ -622,6 +611,7 @@ certificate-button =
 security-devices-button =
     .label = Segurtasun-gailuak…
     .accesskey = S
+account-settings = Kontu-ezarpenak
 
 ## Chat Tab
 

@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -143,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Ezabatu karpeta
     .accesskey = E
+menu-edit-unsubscribe-newsgroup =
+    .label = Berri-taldeko harpidetza kendu
+    .accesskey = k
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -185,14 +185,6 @@ appmenu-settings =
     .label = Ezarpenak
 appmenu-addons-and-themes =
     .label = Gehigarriak eta itxurak
-appmenu-help-enter-troubleshoot-mode =
-    .label = Arazoak konpontzeko modua…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Desaktibatu arazoak konpontzeko modua
-appmenu-help-more-troubleshooting-info =
-    .label = Arazoak konpontzeko informazio gehiago
-appmenu-redirect-msg =
-    .label = Birbideratzea
 
 ## Context menu
 
@@ -206,9 +198,6 @@ mail-context-delete-messages =
             [one] Ezabatu mezua
            *[other] Ezabatu hautatutako mezuak
         }
-context-menu-decrypt-to-folder =
-    .label = Kopiatu deszifratua hona
-    .accesskey = z
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -249,6 +238,9 @@ message-header-show-sender-full-address-description = Posta elektroniko helbidea
 message-header-show-recipient-avatar =
     .label = Erakutsi bidaltzailearen profileko irudia
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Profileko irudi handiagoa
+    .accesskey = h
 message-header-hide-label-column =
     .label = Ezkutatu etiketa zutabea
     .accesskey = z
@@ -294,10 +286,6 @@ no-reply-reply-anyway-button = Erantzun hala ere
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = { $total }(e)tik { $failures } mezu ezin izan dira deszifratu eta ez dira kopiatuko.
 
 ## Spaces toolbar
 
