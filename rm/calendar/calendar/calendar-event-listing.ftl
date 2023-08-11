@@ -52,14 +52,20 @@ calendar-event-listing-column-title =
 ## Interval dropdown options
 
 calendar-event-listing-interval-calendar-month =
-    .label = Eveniments en quest mais da chalender
+    .label = Eveniments da quest mais da chalender
 calendar-event-listing-interval-current-view =
     .label = Eveniments dal di tschernì
 calendar-event-listing-interval-next-7-days =
-    .label = Eveniments en ils proxims 7 dis
+    .label = Eveniments dals proxims 7 dis
 calendar-event-listing-interval-next-14-days =
-    .label = Eveniments en ils proxims 14 dis
+    .label = Eveniments dals proxims 14 dis
 calendar-event-listing-interval-next-31-days =
-    .label = Eveniments en ils proxims 31 dis
+    .label = Eveniments dals proxims 31 dis
+calendar-event-listing-interval-next-6-months =
+    .label = Eveniments dals proxims 6 mais
+calendar-event-listing-interval-next-12-months =
+    .label = Eveniments dals proxims 12 mais
 calendar-event-listing-interval-selected-day =
     .label = Il di tschernì actualmain
+calendar-event-listing-interval-today =
+    .label = Eveniments dad oz
