@@ -16,20 +16,39 @@ about-addressbook-toolbar-new-contact =
     .label = Contacte nou
 about-addressbook-toolbar-new-list =
     .label = Llista nova
+about-addressbook-toolbar-import =
+    .label = Importa
 
 ## Books
 
+all-address-books-row =
+    .title = Totes les llibretes d'adreces
 all-address-books = Totes les llibretes d'adreces
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = Nombre total de contactes en { $name }: { $count }
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Nombre total de contactes en totes les llibretes d'adreces: { $count }
 about-addressbook-books-context-properties =
     .label = Propietats
+about-addressbook-books-context-edit-list =
+    .label = Edita la llista
 about-addressbook-books-context-synchronize =
     .label = Sincronitza
+about-addressbook-books-context-edit =
+    .label = Edita
 about-addressbook-books-context-print =
     .label = Imprimeix…
+about-addressbook-books-context-export =
+    .label = Exporta…
 about-addressbook-books-context-delete =
     .label = Suprimeix
 about-addressbook-books-context-remove =
     .label = Elimina
+about-addressbook-books-context-startup-default =
+    .label = Directori d'inici per defecte
 about-addressbook-confirm-delete-book-title = Suprimeix la llibreta d'adreces
 # Variables:
 # $name (String) - Name of the address book to be deleted.
@@ -92,28 +111,11 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Elimina els contactes
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Segur que voleu eliminar { $name } de la llista { $list }?
-       *[other] Segur que voleu eliminar aquests { $count } contactes de la llista { $list }?
-    }
-# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Suprimeix el contacte
        *[other] Suprimeix els contactes
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Segur que voleu suprimir el contacte { $name }?
-       *[other] Segur que voleu suprimir aquests { $count } contactes?
     }
 
 ## Card list placeholder

@@ -231,6 +231,62 @@ account-setup-encryption-button = Xifratge d'extrem a extrem
 account-setup-signature-button = Afegeix una signatura
 account-setup-dictionaries-button = Baixa diccionaris
 account-setup-address-book-carddav-button = Connecta a una llibreta d'adreces CardDAV
+account-setup-address-book-ldap-button = Connecta a una llibreta d'adreces LDAP
+account-setup-calendar-button = Connecta a un calendari remot
+account-setup-linked-services-title = Connecteu els vostres serveis enllaçats
+account-setup-linked-services-description = El { -brand-short-name } ha detectat altres serveis enllaçats al vostre compte de correu electrònic.
+account-setup-no-linked-description = Configureu altres serveis per treure el màxim profit del { -brand-short-name }.
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description =
+    { $count ->
+        [one] El { -brand-short-name } ha trobat una llibreta d'adreces enllaçada al vostre compte de correu electrònic.
+       *[other] El { -brand-short-name } ha trobat { $count } llibretes d'adreces enllaçades al vostre compte de correu electrònic.
+    }
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description =
+    { $count ->
+        [one] El { -brand-short-name } ha trobat un calendari enllaçat al compte de correu electrònic.
+       *[other] El { -brand-short-name } ha trobat { $count } calendaris enllaçats al compte de correu electrònic.
+    }
+account-setup-button-finish = Finalitza
+    .accesskey = F
+account-setup-looking-up-address-books = S'estan cercant llibretes d'adreces…
+account-setup-looking-up-calendars = S'estan cercant calendaris…
+account-setup-address-books-button = Llibretes d'adreces
+account-setup-calendars-button = Calendaris
+account-setup-connect-link = Connecta
+account-setup-existing-address-book = S'ha connectat
+    .title = La llibreta d'adreces ja està connectada
+account-setup-existing-calendar = S'ha connectat
+    .title = El calendari ja està connectat
+account-setup-connect-all-calendars = Connecta tots els calendaris
+account-setup-connect-all-address-books = Connecta totes les llibretes d'adreces
 
 ## Calendar synchronization dialog
 
+calendar-dialog-title = Connecta el calendari
+calendar-dialog-cancel-button = Cancel·la
+    .accesskey = C
+calendar-dialog-confirm-button = Connecta
+    .accesskey = n
+account-setup-calendar-name-label = Nom
+account-setup-calendar-name-input =
+    .placeholder = El meu calendari
+account-setup-calendar-color-label = Color
+account-setup-calendar-refresh-label = Actualitza
+account-setup-calendar-refresh-manual = Manualment
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
+account-setup-calendar-refresh-interval =
+    { $count ->
+        [one] Cada minut
+       *[other] Cada { $count } minuts
+    }
+account-setup-calendar-read-only = Només de lectura
+    .accesskey = N
+account-setup-calendar-show-reminders = Mostra els recordatoris
+    .accesskey = M
+account-setup-calendar-offline-support = Funcionament fora de línia
+    .accesskey = F
