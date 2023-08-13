@@ -38,7 +38,7 @@
 
 <!ENTITY newContactAbContext.label          "Contacte nou">
 <!ENTITY newContactAbContext.accesskey      "c">
-<!ENTITY newListAbContext.label             "Crea una llista">
+<!ENTITY newListAbContext.label             "Llista nova">
 <!ENTITY newListAbContext.accesskey         "l">
 
 <!ENTITY toButton.label                     "Afegeix a A:">
