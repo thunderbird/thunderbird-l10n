@@ -93,6 +93,7 @@ vcard-date-year = Any
 vcard-adr-header = Adreces
 vcard-adr-add = Afegeix una adreça
 vcard-adr-label = Adreça
+vcard-adr-delivery-label = Etiqueta de lliurament
 vcard-adr-street = Adreça postal
 # Or "Locality"
 vcard-adr-locality = Població
@@ -109,10 +110,21 @@ vcard-note-add = Afegeix una anotació
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
+vcard-org-header = Propietats de l'organització
+vcard-org-add = Afegeix propietats de l'organització
 vcard-org-title = Títol
+vcard-org-title-input =
+    .title = Càrrec o feina
+    .placeholder = Càrrec
 vcard-org-role = Rol
 vcard-org-org = Organització
+vcard-org-org-input =
+    .title = Nom de l'organització
+    .placeholder = Nom de l'empresa
 vcard-org-org-unit = Departament
+vcard-org-org-unit-input =
+    .title = Nom de la unitat d'organització
+    .placeholder = Departament
 
 # Custom properties
 
