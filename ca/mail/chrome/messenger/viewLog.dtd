@@ -4,8 +4,8 @@
 
 <!ENTITY viewLog.title "Registre dels filtres">
 <!ENTITY viewLogInfo.text "El registre de filtres és un fitxer que documenta els filtres que s'han executat. Utilitzeu la casella de selecció inferior per habilitar el registre.">
-<!ENTITY clearLog.label "Buida el registre">
-<!ENTITY clearLog.accesskey "B">
+<!ENTITY clearLog.label "Esborra el registre">
+<!ENTITY clearLog.accesskey "b">
 <!ENTITY enableLog.label "Habilita el registre de filtres">
 <!ENTITY enableLog.accesskey "H">
 <!ENTITY closeLog.label "Tanca">
