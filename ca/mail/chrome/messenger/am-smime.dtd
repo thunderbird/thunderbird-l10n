@@ -13,11 +13,11 @@
 <!ENTITY digitalSign.certificate.button "Selecciona…">
 <!ENTITY digitalSign.certificate.accesskey "S">
 <!ENTITY digitalSign.certificate_clear.button "Esborra">
-<!ENTITY digitalSign.certificate_clear.accesskey "j">
+<!ENTITY digitalSign.certificate_clear.accesskey "b">
 <!ENTITY encryption.certificate.button "Selecciona…">
 <!ENTITY encryption.certificate.accesskey "S">
 <!ENTITY encryption.certificate_clear.button "Esborra">
-<!ENTITY encryption.certificate_clear.accesskey "e">
+<!ENTITY encryption.certificate_clear.accesskey "b">
 <!ENTITY signingGroupTitle.label "Signatura digital">
 <!ENTITY signingCert2.message "Certificat personal per a signar digitalment:">
 
