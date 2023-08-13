@@ -8,6 +8,19 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Cerca
+search-bar-item =
+    .label = Cerca:
+search-bar-placeholder = Cerca…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -16,9 +29,24 @@ customize-menu-customize =
 
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Icones al costat del text
+customize-title = Personalitza les barres d'eines
+customize-space-tab-mail = Correu
+    .title = Correu
+customize-space-tab-addressbook = Llibreta d'adreces
+    .title = Llibreta d'adreces
+customize-space-tab-calendar = Calendari
+    .title = Calendari
+customize-space-tab-tasks = Tasques
+    .title = Tasques
+customize-space-tab-chat = Xat
+    .title = Xat
+customize-space-tab-settings = Paràmetres
+    .title = Paràmetres
+customize-restore-default = Restaura el valor per defecte
+customize-change-appearance = Canvia l'aparença…
+customize-button-style-label = Estil de botons:
 customize-button-style-icons-beside-text-option = Icones al costat del text
+customize-button-style-icons-above-text-option = Icones a sobre del text
 
 ## Unified toolbar customization palette context menu
 
