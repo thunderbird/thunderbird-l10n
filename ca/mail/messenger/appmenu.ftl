@@ -200,3 +200,11 @@ appmenu-help-about-product =
 
 appmenuitem-banner-update-downloading =
     .label = S'està baixant l'actualització del { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Hi ha una actualització — baixa-la ara
+appmenuitem-banner-update-manual =
+    .label = Hi ha una actualització — baixa-la ara
+appmenuitem-banner-update-unsupported =
+    .label = No s'ha pogut actualitzar — sistema incompatible
+appmenuitem-banner-update-restart =
+    .label = Hi ha una actualització — reinicia ara
