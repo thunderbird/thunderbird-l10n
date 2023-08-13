@@ -117,13 +117,16 @@ vcard-org-title-input =
     .title = Càrrec o feina
     .placeholder = Càrrec
 vcard-org-role = Rol
+vcard-org-role-input =
+    .title = Funció o part que heu dut a terme en una situació determinada
+    .placeholder = Rol d'un projecte
 vcard-org-org = Organització
 vcard-org-org-input =
     .title = Nom de l'organització
     .placeholder = Nom de l'empresa
 vcard-org-org-unit = Departament
 vcard-org-org-unit-input =
-    .title = Nom de la unitat d'organització
+    .title = Nom de la unitat organitzativa
     .placeholder = Departament
 
 # Custom properties
