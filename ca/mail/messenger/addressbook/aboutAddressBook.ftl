@@ -185,9 +185,34 @@ about-addressbook-confirm-delete-contacts-multi =
 
 about-addressbook-placeholder-empty-book = No hi ha cap contacte
 about-addressbook-placeholder-new-contact = Contacte nou
+about-addressbook-placeholder-search-only = Aquesta llibreta d'adreces no mostra cap contacte fins que no feu una cerca
+about-addressbook-placeholder-searching = S'està cercant…
+about-addressbook-placeholder-no-search-results = No s'ha trobat cap contacte
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+       *[other] { $count } entrades seleccionades de la llibreta d'adreces
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } contacte seleccionat
+       *[other] { $count } contactes seleccionats
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } llista seleccionada
+       *[other] { $count } llistes seleccionades
+    }
+about-addressbook-details-edit-photo =
+    .title = Edita la fotografia del contacte
 about-addressbook-new-contact-header = Contacte nou
 about-addressbook-begin-edit-contact-button = Edita
 about-addressbook-cancel-edit-contact-button = Cancel·la
