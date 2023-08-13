@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Nobedadeak
-aboutDialog-title =
-    .title = { -brand-full-name }(r)i buruz
 about-dialog-title = { -brand-full-name }(r)i buruz
 release-notes-link = Bertsio-oharrak
 update-internal-error = Ezin dira eguneraketak bilatu barne-errore bat dela eta. Eguneraketak <a data-l10n-name="manual-link"/> helbidean daude erabilgarri
@@ -40,17 +38,8 @@ aboutDialog-version = { $version } ({ $bits }-bit)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
 aboutdialog-update-checking-failed = Huts egin du eguneraketak bilatzean.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     weba ireki, publiko eta guztiontzat atzigarri mantentzeko lanean dabilen <a data-l10n-name="community-exp-credits-link">
-    komunitate globala</a>
-     da.
-about-helpus =
-    Lagundu nahi? <a data-l10n-name="helpus-donate-link">
-    Dohaintza bat egin</a> or <a data-l10n-name="helpus-get-involved-link">
-    Hartu parte!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> weba ireki, publiko eta guztiontzat atzigarri mantentzeko lanean dabilen <a data-l10n-name="community-exp-credits-link">komunitate globala</a> da.
+community-desc = <a data-l10n-name="community-mozilla-link"></a>k diseinatzen du { -brand-short-name }, weba ireki, publiko eta guztiontzat atzigarri mantentzeko lanean dabilen <a data-l10n-name="community-creditsLink"></a>{ -vendor-short-name }komunitate globalak.
 about-donation = Lagundu nahi? <a data-l10n-name="helpus-donate-link">Dohaintza bat egin</a> or <a data-l10n-name="helpus-get-involved-link">Hartu parte!</a>
 bottom-links-license = Lizentziaren informazioa
 bottom-links-rights = Erabiltzailearen eskubideak
