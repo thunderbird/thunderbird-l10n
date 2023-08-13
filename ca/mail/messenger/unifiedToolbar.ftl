@@ -58,9 +58,37 @@ customize-spaces-tabs =
     .aria-label = Espais
 customize-main-toolbar-target =
     .aria-label = Barra d'eines principal
+customize-palette-generic-title = Disponible en tots els espais
+customize-palette-mail-specific-title = Disponible només en l'espai Correu
+customize-palette-addressbook-specific-title = Disponible només en l'espai Llibreta d'adreces
+customize-palette-calendar-specific-title = Disponible només en l'espai Calendari
+customize-palette-tasks-specific-title = Disponible només en l'espai Tasques
+customize-palette-chat-specific-title = Disponible només en l'espai Xat
+customize-palette-settings-specific-title = Disponible només en l'espai Paràmetres
+customize-palette-extension-specific-title = Disponible només en aquest espai
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Afegeix a { $target }
+customize-palette-add-everywhere =
+    .label = Afegeix a totes les barres d'eines
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Mou cap endavant
+customize-target-backward =
+    .label = Mou cap enrere
+customize-target-remove =
+    .label = Elimina
+customize-target-remove-everywhere =
+    .label = Elimina de totes les barres d'eines
+customize-target-add-everywhere =
+    .label = Afegeix a totes les barres d'eines
+customize-target-start =
+    .label = Mou al principi
+customize-target-end =
+    .label = Mou al final
