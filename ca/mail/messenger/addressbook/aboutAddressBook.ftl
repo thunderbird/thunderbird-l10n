@@ -83,7 +83,7 @@ about-addressbook-sort-email-ascending =
 about-addressbook-sort-email-descending =
     .label = Ordena per adreça electrònica (Z > A)
 about-addressbook-table-layout =
-    .label = Disposició de la taula
+    .label = Disposició en taula
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
