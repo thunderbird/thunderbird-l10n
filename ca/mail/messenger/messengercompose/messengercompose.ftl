@@ -224,3 +224,6 @@ link-preview-yes-replace = Sí
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Afegeix diccionaris…
+    .accesskey = A
