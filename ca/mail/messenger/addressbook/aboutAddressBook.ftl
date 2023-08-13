@@ -212,7 +212,7 @@ about-addressbook-selection-lists-header2 =
        *[other] { $count } llistes seleccionades
     }
 about-addressbook-details-edit-photo =
-    .title = Edita la fotografia del contacte
+    .title = Edita la foto del contacte
 about-addressbook-new-contact-header = Contacte nou
 about-addressbook-prefer-display-name = Prefereix el nom a mostrar en lloc de la capçalera del missatge
 about-addressbook-write-action-button = Redacta
@@ -231,11 +231,34 @@ about-addressbook-details-notes-header = Anotacions
 about-addressbook-details-impp-header = Missatgeria instantània
 about-addressbook-details-websites-header = Llocs web
 about-addressbook-details-other-info-header = Altra informació
+about-addressbook-entry-type-work = Feina
+about-addressbook-entry-type-home = Particular
+about-addressbook-entry-type-fax = Fax
+# Or "Mobile"
+about-addressbook-entry-type-cell = Mòbil
+about-addressbook-entry-type-pager = Buscapersones
 about-addressbook-entry-name-birthday = Data de naixement
 about-addressbook-entry-name-anniversary = Aniversari
+about-addressbook-entry-name-title = Títol
+about-addressbook-entry-name-role = Rol
+about-addressbook-entry-name-organization = Organització
+about-addressbook-entry-name-website = Lloc web
+about-addressbook-entry-name-time-zone = Fus horari
+about-addressbook-entry-name-custom1 = Personalitzat 1
+about-addressbook-entry-name-custom2 = Personalitzat 2
+about-addressbook-entry-name-custom3 = Personalitzat 3
+about-addressbook-entry-name-custom4 = Personalitzat 4
+about-addressbook-unsaved-changes-prompt-title = Canvis sense desar
+about-addressbook-unsaved-changes-prompt = Voleu desar els canvis abans de sortir de l'edició?
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = Deixeu anar o enganxeu una foto aquí, o feu clic per seleccionar un fitxer.
+about-addressbook-photo-drop-loading = S'està carregant la foto…
+about-addressbook-photo-drop-error = No s'ha pogut carregar la foto.
+about-addressbook-photo-filepicker-title = Seleccioneu un fitxer d'imatge
+about-addressbook-photo-discard = Descarta la foto existent
+about-addressbook-photo-cancel = Cancel·la
 
 # Keyboard shortcuts
 
