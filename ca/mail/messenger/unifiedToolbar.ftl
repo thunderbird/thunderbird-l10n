@@ -47,6 +47,17 @@ customize-change-appearance = Canvia l'aparença…
 customize-button-style-label = Estil de botons:
 customize-button-style-icons-beside-text-option = Icones al costat del text
 customize-button-style-icons-above-text-option = Icones a sobre del text
+customize-button-style-icons-only-option = Només icones
+customize-button-style-text-only-option = Només text
+customize-cancel = Cancel·la
+customize-save = Desa
+customize-unsaved-changes = Hi ha canvis sense desar en altres espais
+customize-search-bar =
+    .label = Botons de la barra de cerca…
+customize-spaces-tabs =
+    .aria-label = Espais
+customize-main-toolbar-target =
+    .aria-label = Barra d'eines principal
 
 ## Unified toolbar customization palette context menu
 
