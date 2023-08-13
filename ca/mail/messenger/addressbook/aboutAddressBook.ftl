@@ -259,6 +259,7 @@ about-addressbook-photo-drop-error = No s'ha pogut carregar la foto.
 about-addressbook-photo-filepicker-title = Seleccioneu un fitxer d'imatge
 about-addressbook-photo-discard = Descarta la foto existent
 about-addressbook-photo-cancel = Cancel·la
+about-addressbook-photo-save = Desa
 
 # Keyboard shortcuts
 

@@ -10,6 +10,9 @@ appmenu-sync-panel-title =
 appmenu-signin-panel =
     .label = Inicia la sessió al Sync
     .accesskey = I
+appmenu-sync-sync =
+    .value = Sincronització del compte
+    .accesskey = S
 appmenu-sync-manage =
     .value = Gestiona el compte
     .accesskey = G
@@ -104,6 +107,13 @@ appmenu-open-calendar =
 
 ## View / Layout
 
+appmenu-view-panel-title =
+    .title = Visualitza
+appmenu-view-panel =
+    .label = Visualitza
+    .accesskey = V
+appmenuitem-toggle-thread-pane-header =
+    .label = Capçalera de la llista de missatges
 appmenu-font-size-value = Mida de la lletra
 appmenu-mail-uidensity-value = Densitat
 appmenu-uidensity-compact =
@@ -155,6 +165,38 @@ appmenu-tools-dev-tools =
 
 appmenu-help-panel-title =
     .title = Ajuda
+appmenu-help-get-help =
+    .label = Obteniu ajuda
+    .accesskey = O
+appmenu-help-explore-features =
+    .label = Exploreu les funcions
+    .accesskey = f
+appmenu-help-shortcuts =
+    .label = Dreceres de teclat
+    .accesskey = t
+appmenu-help-get-involved =
+    .label = Col·laboreu-hi
+    .accesskey = C
+appmenu-help-donation =
+    .label = Feu un donatiu
+    .accesskey = d
+appmenu-help-share-feedback =
+    .label = Compartiu idees i comentaris
+    .accesskey = u
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Mode de resolució de problemes…
+    .accesskey = M
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Desactiva el mode de resolució de problemes
+    .accesskey = m
+appmenu-help-troubleshooting-info =
+    .label = Informació de resolució de problemes
+    .accesskey = I
+appmenu-help-about-product =
+    .label = Quant al { -brand-short-name }
+    .accesskey = Q
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = S'està baixant l'actualització del { -brand-shorter-name }
