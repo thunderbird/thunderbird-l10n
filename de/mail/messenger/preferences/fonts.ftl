@@ -11,8 +11,6 @@ fonts-label-default =
     .label = Standard ({ $name })
 fonts-label-default-unnamed =
     .label = Standard
-fonts-encoding-dialog-title =
-    .title = Schriftarten und Zeichenkodierungen
 fonts-language-legend =
     .value = Schriftarten für
     .accesskey = S
@@ -116,8 +114,8 @@ use-document-fonts-checkbox =
     .label = Nachrichten das Verwenden eigener statt der oben gewählten Schriftarten erlauben
     .accesskey = N
 use-fixed-width-plain-checkbox =
-    .label = Unproportionale Schriftart für Reintext-Nachrichten verwenden
-    .accesskey = U
+    .label = Schriftart mit fester Breite für Reintext-Nachrichten verwenden
+    .accesskey = x
 
 ## Language settings
 

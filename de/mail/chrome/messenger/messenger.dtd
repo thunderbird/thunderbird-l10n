@@ -87,20 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Löschen">
-<!ENTITY deleteMsgCmd.accesskey "L">
-<!ENTITY undeleteMsgCmd.label "Löschen der Nachricht aufheben">
-<!ENTITY undeleteMsgCmd.accesskey "L">
-<!ENTITY deleteMsgsCmd.label "Ausgewählte Nachrichten löschen">
-<!ENTITY deleteMsgsCmd.accesskey "l">
-<!ENTITY undeleteMsgsCmd.label "Löschen der gewählten Nachrichten aufheben">
-<!ENTITY undeleteMsgsCmd.accesskey "L">
-<!ENTITY deleteFolderCmd.label "Ordner löschen">
-<!ENTITY deleteFolderCmd.accesskey "l">
-<!ENTITY unsubscribeNewsgroupCmd.label "Abbestellen">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "s">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Auswählen">
 <!ENTITY selectMenu.accesskey "u">
 <!ENTITY all.label "Alles">
@@ -112,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "G">
 <!ENTITY menuFavoriteFolder.label "Favoriten-Ordner">
 <!ENTITY menuFavoriteFolder.accesskey "F">
-<!ENTITY folderPropsCmd2.label "Eigenschaften">
-<!ENTITY folderPropsFolderCmd2.label "Ordner-Eigenschaften">
-<!ENTITY folderPropsNewsgroupCmd2.label "Newsgruppen-Eigenschaften">
-<!ENTITY folderPropsCmd.accesskey "n">
 <!ENTITY undoDeleteMsgCmd.label "Rückgängig: Nachricht löschen">
 <!ENTITY redoDeleteMsgCmd.label "Wiederherstellen: Nachricht löschen">
 <!ENTITY undoMoveMsgCmd.label "Rückgängig: Nachricht verschieben">
@@ -147,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "S">
 <!ENTITY showFolderPaneCmd.label "Konten-/Ordnerliste">
 <!ENTITY showFolderPaneCmd.accesskey "O">
-<!ENTITY showFolderPaneColsCmd.label "Ordnerspalten">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Nachrichtenbereich">
 <!ENTITY showMessageCmd.accesskey "c">
 
@@ -353,7 +333,7 @@
 <!ENTITY replyToListMsgCmd.accesskey "L">
 <!ENTITY replyToListMsgCmd.key "l">
 <!ENTITY forwardMsgCmd.label "Weiterleiten">
-<!ENTITY forwardMsgCmd.accesskey "">
+<!ENTITY forwardMsgCmd.accesskey "F">
 <!ENTITY forwardMsgCmd.key "l">
 <!ENTITY forwardAsMenu.label "Weiterleiten als">
 <!ENTITY forwardAsMenu.accesskey "e">
@@ -598,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Neue Nachricht">
 <!ENTITY appmenuNewContactCmd.label "Adressbuchkontakt…">
-<!ENTITY appmenuEditMenu.label "Bearbeiten">
 <!ENTITY appmenuToolbarLayout.label "Symbolleisten anpassen…">
-<!ENTITY appmenuSelectThread.label "Themenbaum markieren">
-<!ENTITY appmenuSelectFlagged.label "Gekennzeichnete Nachrichten markieren">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Neues Schlagwort…">
@@ -742,7 +719,7 @@
 <!ENTITY contextEditTemplate.label "Vorlage bearbeiten">
 <!ENTITY contextEditTemplate.accesskey "o">
 <!ENTITY contextArchive.label "Archivieren">
-<!ENTITY contextArchive.accesskey "">
+<!ENTITY contextArchive.accesskey "h">
 <!ENTITY contextReplySender.label "Antworten nur an Absender">
 <!ENTITY contextReplySender.accesskey "A">
 <!ENTITY contextReplyNewsgroup2.label "Antworten an Newsgruppe">
@@ -906,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "G">
 <!ENTITY copyEmailCmd.label "E-Mail-Adresse kopieren">
 <!ENTITY copyEmailCmd.accesskey "d">
-<!ENTITY stopCmd.label "Stopp">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Neu laden">
-<!ENTITY reloadCmd.accesskey "N">
 <!ENTITY openInBrowser.label "In Browser öffnen">
 <!ENTITY openInBrowser.accesskey "B">
 <!ENTITY openLinkInBrowser.label "Link in Browser öffnen">
