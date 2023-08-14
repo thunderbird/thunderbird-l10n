@@ -82,40 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = Sortera efter e-postadress (A > Ö)
 about-addressbook-sort-email-descending =
     .label = Sortera efter e-postadress (Ö > A)
-about-addressbook-horizontal-layout =
-    .label = Växla till horisontell layout
-about-addressbook-vertical-layout =
-    .label = Växla till vertikal layout
 about-addressbook-table-layout =
     .label = Tabellayout
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Namn
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = E-postadresser
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Telefonnummer
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Adresser
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Titel
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Avdelning
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organisation
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Adressbok
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Namn
     .title = Sortera efter namn
 about-addressbook-column-label-generatedname2 =
@@ -181,15 +153,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Ta bort kontakter
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Är du säker på att du vill ta bort { $name } från { $list }?
-       *[other] Är du säker att du vill ta bort dessa { $count } kontakter från { $list }?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Är du säker på att du vill ta bort { $name } från { $list }?
@@ -207,14 +170,6 @@ about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Ta bort kontakt
        *[other] Ta bort kontakter
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Är du säker på att du vill ta bort kontakten { $name }?
-       *[other] Är du säker på att du vill ta bort dessa { $count } kontakter?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -238,15 +193,6 @@ about-addressbook-placeholder-no-search-results = Inga kontakter hittades
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } valda kontakter och listor
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } valda kontakter
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } valda listor
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
@@ -310,7 +256,7 @@ about-addressbook-unsaved-changes-prompt = Vill du spara dina ändringar innan d
 
 # Photo dialog
 
-about-addressbook-photo-drop-target = Släpp eller klistra in ett foto här, eller klicka för att välja en fil.
+about-addressbook-photo-drop-target = Släpp eller klistra in ett foto här eller klicka för att välja en fil.
 about-addressbook-photo-drop-loading = Laddar foto…
 about-addressbook-photo-drop-error = Det gick inte att ladda fotot.
 about-addressbook-photo-filepicker-title = Välj en bildfil
