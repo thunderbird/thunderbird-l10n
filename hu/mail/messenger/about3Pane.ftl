@@ -168,7 +168,7 @@ folder-pane-more-menu-button =
     .title = Mappa ablaktábla beállításai
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
-    .label = Mappa módok
+    .label = Mappamódok
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
     .label = „Üzenetek letöltése” megjelenítése
