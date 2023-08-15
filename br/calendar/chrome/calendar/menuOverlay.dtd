@@ -6,7 +6,7 @@
 <!ENTITY event.new.event                        "Darvoudoù nevez...">
 <!ENTITY event.new.event.accesskey              "N">
 
-<!ENTITY event.new.task                         "Trevell &amp;nevez...">
+<!ENTITY event.new.task                         "Trevell nevez…">
 <!ENTITY event.new.task.accesskey               "k">
 
 <!ENTITY calendar.import.label                  "Enporzhiañ...">
@@ -28,10 +28,6 @@
       data and unsubscribing means just taking it out of the calendar list. -->
 <!ENTITY calendar.removecalendar.label          "Dilemel an deiziataer diuzet...">
 <!ENTITY calendar.removecalendar.accesskey      "l">
-
-
-<!ENTITY calendar.menu.customize.label          "Personelaat...">
-<!ENTITY calendar.menu.customize.accesskey      "P">
 
 <!ENTITY showUnifinderCmd.label                 "Kavout darvoudoù">
 <!ENTITY showUnifinderCmd.accesskey             "K">
