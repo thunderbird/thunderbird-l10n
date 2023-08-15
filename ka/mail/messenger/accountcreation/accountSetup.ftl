@@ -6,11 +6,9 @@ account-setup-tab-title = ანგარიშის დაყენება
 
 ## Header
 
-account-setup-title = გამართეთ თქვენი არსებული ელფოსტის მისამართი
-account-setup-description =
-    კუთვნილი ელფოსტის გამოსაყენებლად, შეავსეთ მონაცემები.<br/>
-    { -brand-product-name } თავადვე მოიძიებს გამოსადეგ და სასურველ პარამეტრებს გასამართად.
-account-setup-secondary-description = { -brand-product-name } თავად მოიძიებს სერვერის გამართულ და სასურველ წყობას.
+account-setup-title = გამართეთ თქვენი კუთვნილი ელფოსტის მისამართი
+account-setup-description = თქვენი მიმდინარე ელფოსტის გამოსაყენებლად შეავსეთ მონაცემები.
+account-setup-secondary-description = { -brand-product-name } თავად მოიძიებს გამოსადეგ და სასურველ პარამეტრებს გასამართად.
 account-setup-success-title = ანგარიში შეიქმნა წარმატებით
 account-setup-success-description = უკვე, შეგიძლიათ ამ ანგარიშისთვის გამოიყენოთ { -brand-short-name }.
 account-setup-success-secondary-description = სრულყოფილად სარგებლობისთვის, დაუკავშირეთ სხვა მომსახურებები და გამართეთ გაფართოებული პარამეტრები.
@@ -23,7 +21,7 @@ account-setup-name-label = თქვენი სრული სახელი
 account-setup-name-input =
     .placeholder = პეტრე პავლიაშვილი
 account-setup-name-info-icon =
-    .title = სახელი, რომლებსაც სხვები დაინახავენ
+    .title = სახელი, რომლსაც სხვები იხილავენ
 account-setup-name-warning-icon =
     .title = გთხოვთ მიუთითოთ თქვენი სახელი
 account-setup-email-label = ელფოსტის მისამართი
