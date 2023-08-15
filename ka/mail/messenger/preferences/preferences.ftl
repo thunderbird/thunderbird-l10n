@@ -598,8 +598,8 @@ security-devices-button =
 ## Chat Tab
 
 startup-label =
-    .value = { -brand-short-name } პროგრამის გახსნისას:
-    .accesskey = s
+    .value = როცა { -brand-short-name } გაეშვება:
+    .accesskey = ც
 offline-label =
     .label = სასაუბროს ანგარიშის ამორთვა
 auto-connect-label =

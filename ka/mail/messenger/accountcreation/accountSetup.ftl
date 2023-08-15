@@ -10,7 +10,7 @@ account-setup-title = გამართეთ თქვენი კუთვ�
 account-setup-description = თქვენი მიმდინარე ელფოსტის გამოსაყენებლად შეავსეთ მონაცემები.
 account-setup-secondary-description = { -brand-product-name } თავად მოიძიებს გამოსადეგ და სასურველ პარამეტრებს გასამართად.
 account-setup-success-title = ანგარიში შეიქმნა წარმატებით
-account-setup-success-description = უკვე, შეგიძლიათ ამ ანგარიშისთვის გამოიყენოთ { -brand-short-name }.
+account-setup-success-description = უკვე შეგიძლიათ ამ ანგარიშისთვის გამოიყენოთ { -brand-short-name }.
 account-setup-success-secondary-description = სრულყოფილად სარგებლობისთვის, დაუკავშირეთ სხვა მომსახურებები და გამართეთ გაფართოებული პარამეტრები.
 
 ## Form fields
@@ -38,7 +38,7 @@ account-setup-password-label = პაროლი
 account-provisioner-button = ელფოსტის ახალი მისამართის მიღება
     .accesskey = ღ
 account-setup-password-toggle-show =
-    .title = პაროლის ნათლად ჩვენება
+    .title = პაროლის ღიად ჩვენება
 account-setup-password-toggle-hide =
     .title = პაროლის დამალვა
 account-setup-remember-password = პაროლის დამახსოვრება
@@ -104,7 +104,7 @@ account-setup-step4-image =
     .title = დაკავშირების შეცდომა
 account-setup-step5-image =
     .title = ანგარიში შექმნილია
-account-setup-privacy-footnote2 = თქვენი მონაცემები, მხოლოდ ადგილობრივად შეინახება კომპიუტერში.
+account-setup-privacy-footnote2 = თქვენი პირადი მონაცემები მხოლოდ ადგილობრივად შეინახება კომპიუტერში.
 account-setup-selection-help = არ იცით რა აირჩიოთ?
 account-setup-selection-error = გესაჭიროებათ დახმარება?
 account-setup-success-help = ზუსტად არ იცით, შემდეგ რა მოიმოქმედოთ?
@@ -125,7 +125,7 @@ account-setup-results-area-title =
 account-setup-result-imap-description = ინარჩუნებს თქვენს საქაღალდეებსა და წერილებს სერვერთან სინქრონში
 account-setup-result-pop-description = ინარჩუნებს თქვენს საქაღალდეებსა და წერილებს თქვენს კომპიუტერში
 # Note: Exchange, Office365 are the name of products.
-account-setup-result-exchange2-description = გამოიყენეთ Microsoft Exchange სერვერი ან Office365 ღრუბლოვანი მომსახურებები
+account-setup-result-exchange2-description = იყენებს Microsoft-Exchange-სერვერი ან Office365-ის ღრუბლოვანი მომსახურებები
 account-setup-incoming-title = მიღებული
 account-setup-outgoing-title = გაგზავნილი
 account-setup-username-title = მომხმარებლის სახელი

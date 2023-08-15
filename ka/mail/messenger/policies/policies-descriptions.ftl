@@ -41,7 +41,7 @@ policy-DisableSystemAddonUpdate = შეზღუდვა, რომ { -brand-s
 policy-DisableTelemetry = გაზომვების გათიშვა.
 policy-DisplayMenuBar = მენიუს ზოლის გამოჩენა ნაგულისხმევად.
 policy-DNSOverHTTPS = DNS-ის HTTPS-ით გადაცემის გამართვა.
-policy-DontCheckDefaultClient = გაშვებისას, პროგრამის ნაგულისხმევობის შემოწმების გათიშვა.
+policy-DontCheckDefaultClient = გაშვებისას პროგრამის ნაგულისხმეობის შემოწმების გათიშვა.
 policy-DownloadDirectory = ჩამოტვირთვის ნაგულისხმევი საქაღალდის მითითება და ჩაკეტვა.
 # “lock” means that the user won’t be able to change this setting
 policy-EnableTrackingProtection = შიგთავსის შეზღუდვის ჩართვა ან გამორთვა და დამატებით ამ პარამეტრების ჩაკეტვა.
