@@ -17,6 +17,6 @@
 <!ENTITY removeDataChatAccount.desc   "Löscht alle aufgezeichneten Gesprächsdaten, die zu diesem Konto gehören, von der Festplatte.">
 <!ENTITY showData.label               "Speicherort öffnen">
 <!ENTITY showData.accesskey           "S">
-<!ENTITY progressPending              "Ausgewählte Daten löschen…">
+<!ENTITY progressPending              "Ausgewählte Daten werden gelöscht…">
 <!ENTITY progressSuccess              "Erfolgreich gelöscht">
 <!ENTITY progressFailure              "Fehler beim Löschen">

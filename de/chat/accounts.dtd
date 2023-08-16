@@ -28,6 +28,6 @@
 <!ENTITY account.cancelReconnection.accesskey     "b">
 <!ENTITY account.copyDebugLog.label     "Debug-Protokoll kopieren">
 <!ENTITY account.copyDebugLog.accesskey "D">
-<!ENTITY account.connecting           "Verbinden…">
-<!ENTITY account.disconnecting        "Verbindung trennen…">
+<!ENTITY account.connecting           "Verbindung wird aufgebaut…">
+<!ENTITY account.disconnecting        "Verbindung wird getrennt…">
 <!ENTITY account.disconnected         "Nicht verbunden">
