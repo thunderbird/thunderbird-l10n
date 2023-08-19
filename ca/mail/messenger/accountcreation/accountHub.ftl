@@ -17,7 +17,7 @@ account-hub-title = Centre de comptes
 
 account-hub-release-notes = Notes de la versió
 account-hub-support = Assistència
-account-hub-donate = Feu una donació
+account-hub-donate = Feu un donatiu
 
 ## Initial setup page
 

@@ -40,7 +40,7 @@ aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bits)
 aboutdialog-update-checking-failed = No s'han pogut cercar actualitzacions.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> és una <a data-l10n-name="community-exp-credits-link">comunitat global</a> que treballa conjuntament per mantenir el web obert, públic i accessible per a tothom.
 community-desc = El { -brand-short-name } està dissenyat per <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, una <a data-l10n-name="community-credits-link">comunitat global</a> que treballa conjuntament per mantenir el web obert, públic i accessible per a tothom.
-about-donation = Voleu ajudar? <a data-l10n-name="helpus-donate-link">Feu una donació</a> or <a data-l10n-name="helpus-get-involved-link">col·laboreu-hi!</a>
+about-donation = Voleu ajudar? <a data-l10n-name="helpus-donate-link">Feu una donatiu</a> o <a data-l10n-name="helpus-get-involved-link">col·laboreu-hi!</a>
 bottom-links-license = Informació de la llicència
 bottom-links-rights = Drets dels usuaris finals
 bottom-links-privacy = Política de privadesa
