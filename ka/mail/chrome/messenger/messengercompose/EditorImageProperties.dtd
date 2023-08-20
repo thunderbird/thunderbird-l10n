@@ -17,7 +17,7 @@
 <!ENTITY title.label "მინიშნება:">
 <!ENTITY title.accessKey "ნ">
 <!ENTITY title.tooltip "html 'title' ატრიბუტი, რომელიც მინიშნებას უჩვენებს">
-<!ENTITY altText.label "დართული ტექსტი:">
+<!ENTITY altText.label "დართული წარწერა:">
 <!ENTITY altText.accessKey "დ">
 <!ENTITY altTextEditField.tooltip "სურათის ნაცვლად გამოსაჩენი ტექსტი">
 <!ENTITY noAltText.label "ტექსტის დართვის გარეშე">
