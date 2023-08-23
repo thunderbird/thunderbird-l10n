@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Hibakeresési mód kikapcsolása
     .accesskey = k
-menu-help-more-troubleshooting-info =
-    .label = Több hibakeresési információ
-    .accesskey = T
 menu-help-troubleshooting-info =
     .label = Hibakeresési információ
     .accesskey = H
@@ -69,7 +66,7 @@ menu-quit =
 menu-quit-mac =
     .label = Kilépés a { -brand-shorter-name }ból
 quit-app-shortcut =
-    .key = K
+    .key = Q
 
 ## Mail Toolbar
 
@@ -121,12 +118,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Kompakt
     .accesskey = K
-mail-uidensity-normal =
-    .label = Normál
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Érintőképernyős
-    .accesskey = r
 mail-uidensity-default =
     .label = Alapértelmezett
     .accesskey = A
