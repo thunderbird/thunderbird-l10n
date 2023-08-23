@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Sorun giderme modunu kapat
     .accesskey = o
-menu-help-more-troubleshooting-info =
-    .label = Diğer sorun giderme bilgileri
-    .accesskey = b
 menu-help-troubleshooting-info =
     .label = Sorun giderme bilgileri
     .accesskey = u
@@ -69,7 +66,7 @@ menu-quit =
 menu-quit-mac =
     .label = { -brand-shorter-name } uygulamasından çık
 quit-app-shortcut =
-    .key = k
+    .key = Q
 
 ## Mail Toolbar
 
@@ -121,12 +118,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Kompakt
     .accesskey = K
-mail-uidensity-normal =
-    .label = Normal
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Dokunmatik
-    .accesskey = D
 mail-uidensity-default =
     .label = Varsayılan
     .accesskey = V
