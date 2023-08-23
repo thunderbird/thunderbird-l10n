@@ -9,4 +9,4 @@
 langpack-creator = mozilla.org
 # To credit multiple contributors, use a comma-delimited list.
 # Example: Joe Solon, Suzy Solon
-langpack-contributors = Séamus Ó Ciardhuáin, Kevin Scannell, Brian King
+langpack-contributors = Séamus Ó Ciardhuáin, Kevin Scannell, Brian King, Seán de Búrca
