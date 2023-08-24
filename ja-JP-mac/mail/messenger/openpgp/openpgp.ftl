@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = OpenPGP 公開鍵を Autocrypt 互換のメールヘッダーで送信する
     .accesskey = t
-openpgp-key-user-id-label = アカウント / ユーザー ID
-openpgp-keygen-title-label =
-    .title = OpenPGP 鍵を生成
-openpgp-cancel-key =
-    .label = キャンセル
-    .tooltiptext = 鍵の生成をキャンセルします
-openpgp-key-gen-expiry-title =
-    .label = 鍵の有効期限
-openpgp-key-gen-expire-label = 鍵の有効期限を指定します
-openpgp-key-gen-days-label =
-    .label = 日後
-openpgp-key-gen-months-label =
-    .label = か月後
-openpgp-key-gen-years-label =
-    .label = 年後
-openpgp-key-gen-no-expiry-label =
-    .label = 無期限
-openpgp-key-gen-key-size-label = 鍵長
-openpgp-key-gen-console-label = 鍵を生成
-openpgp-key-gen-key-type-label = 鍵のタイプ
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (楕円曲線暗号)
-openpgp-generate-key =
-    .label = 鍵を生成
-    .tooltiptext = 暗号化、署名のための新しい OpenPGP 準拠の鍵を生成します
-openpgp-advanced-prefs-button-label =
-    .label = 高度な設定...
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">注意: 鍵の生成が完了するまで数分かかることがあります</a>。鍵の生成の途中でアプリケーションを終了させないでください。鍵の生成中に、ウェブブラウザーを使用する、もしくはディスクアクセスが激しい処理を行うと「乱数プール」が満たされ、処理が早く終わります。鍵の生成が終了したらお知らせします。
 openpgp-key-created-label =
     .label = 作成日
 openpgp-key-expiry-label =
@@ -419,12 +389,7 @@ key-verification = メール以外の安全な通信手段で鍵のフィンガ�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = あなたの個人鍵に問題があるためメッセージを送信できませんでした。{ $problem }
-cannot-encrypt-because-missing = 以下の受信者の鍵に問題があるためエンドツーエンド暗号化によるメッセージを送信できませんでした: { $problem }
 window-locked = メッセージ作成ウインドウがロックされているため、送信がキャンセルされました。
-
-## Strings in mimeDecrypt.jsm
-
-mime-decrypt-encrypted-part-concealed-data = これは暗号化されたメッセージの一部です。添付ファイルをクリックして別のウインドウで開きます。
 
 ## Strings in keyserver.jsm
 
@@ -647,18 +612,17 @@ import-key-file = OpenPGP 鍵ファイルを読み込む
 import-rev-file = OpenPGP 失効証明書ファイルを読み込む
 gnupg-file = GnuPG ファイル
 import-keys-failed = 鍵の読み込みに失敗しました
-passphrase-prompt = 以下の鍵のロックを解除するため、パスフレーズを入力してください: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2 = 次の秘密鍵を解除するパスフレーズを入力してください: ID { $key }、作成日 { $date }、所有者 { $username_and_email }
+passphrase-prompt2 = 次の秘密鍵のロックを解除するパスフレーズを入力してください: ID { $key }、作成日 { $date }、所有者 { $username_and_email }
 # Variables:
 # $subkey (String) - Key id to unlock, which is a subkey.
 # $key (String) - This is the main key, to which the subkey belongs.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2-sub = 次の秘密鍵を解除するパスフレーズを入力してください: ID { $subkey } (鍵 ID { $key } の副鍵)、作成日 { $date }、所有者 { $username_and_email }
+passphrase-prompt2-sub = 次の秘密鍵のロックを解除するパスフレーズを入力してください: ID { $subkey } (鍵 ID { $key } の副鍵)、作成日 { $date }、所有者 { $username_and_email }
 file-to-big-to-import = ファイルが大きすぎます。たくさんの鍵を一度に読み込まないでください。
 
 ## Strings used in enigmailKeygen.js
