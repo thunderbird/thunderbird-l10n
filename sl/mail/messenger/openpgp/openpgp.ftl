@@ -427,6 +427,11 @@ filter-key-required = Izbrati morate ključ prejemnika.
 # Variables:
 # $desc (String) - Email address to look for a key of.
 filter-key-not-found = Ključa za šifriranje za "{ $desc }" ni bilo mogoče najti.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
+filter-warn-key-not-secret =
+    Pozor – dejanje filtra "Šifriraj v ključ" zamenja prejemnike.
+    Če nimate tajnega ključa za "{ $desc }", sporočil ne boste več mogli prebrati.
 
 ## Strings filtersWrapper.jsm
 

@@ -2,6 +2,41 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
+# “Account” can be localized, “Firefox” must be treated as a brand,
+# and kept in English.
+-fxaccount-brand-name =
+    { $sklon ->
+        [rodilnik]
+            { $zacetnica ->
+                [velika] Računa Firefox
+               *[mala] računa Firefox
+            }
+        [dajalnik]
+            { $zacetnica ->
+                [velika] Računu Firefox
+               *[mala] računu Firefox
+            }
+        [tozilnik]
+            { $zacetnica ->
+                [velika] Račun Firefox
+               *[mala] račun Firefox
+            }
+        [mestnik]
+            { $zacetnica ->
+                [velika] Računu Firefox
+               *[mala] računu Firefox
+            }
+        [orodnik]
+            { $zacetnica ->
+                [velika] Računom Firefox
+               *[mala] računom Firefox
+            }
+       *[imenovalnik]
+            { $zacetnica ->
+                [velika] Račun Firefox
+               *[mala] račun Firefox
+            }
+    }
 
 ## These strings are shown in a desktop notification after the user requests we resend a verification email.
 
