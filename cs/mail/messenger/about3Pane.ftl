@@ -14,10 +14,10 @@ thread-pane-header-display-button =
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
     { $count ->
-        [one] zpráva
-        [few] zprávy
-        [many] zpráv
-       *[other] zpráv
+        [one] { $count } zpráva
+        [few] { $count } zprávy
+        [many] { $count } zpráv
+       *[other] { $count } zpráv
     }
 # Variables:
 # $count (Number) - The number of messages currently selected.
