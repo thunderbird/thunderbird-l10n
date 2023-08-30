@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Deactivar il modus per schliar problems
     .accesskey = o
-menu-help-more-troubleshooting-info =
-    .label = Dapli infurmaziuns per schliar problems
-    .accesskey = m
 menu-help-troubleshooting-info =
     .label = Infurmaziuns per schliar problems
     .accesskey = p
@@ -69,7 +66,7 @@ menu-quit =
 menu-quit-mac =
     .label = Terminar { -brand-shorter-name }
 quit-app-shortcut =
-    .key = T
+    .key = Q
 
 ## Mail Toolbar
 
@@ -121,12 +118,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Cumpact
     .accesskey = u
-mail-uidensity-normal =
-    .label = Normal
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Touch
-    .accesskey = T
 mail-uidensity-default =
     .label = Standard
     .accesskey = d
