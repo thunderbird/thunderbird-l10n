@@ -21,7 +21,7 @@ thread-pane-folder-message-count =
 # $count (Number) - The number of messages currently selected.
 thread-pane-folder-selected-count =
     { $count ->
-       *[other] { $count } markiert
+       *[other] { $count } ausgewählt
     }
 thread-pane-header-context-table-view =
     .label = Tabellenansicht
@@ -347,13 +347,13 @@ apply-current-view-to-folder-children =
 apply-changes-to-folder-title = Änderungen übernehmen?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-columns-to-folder-message = Sollen die Spalteneinstellungen des aktuellen Ordners für "{ $name }" übernommen werden?
+apply-current-columns-to-folder-message = Spalteneinstellungen des aktuellen Ordners für „{ $name }“ übernehmen?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-columns-to-folder-with-children-message = Sollen die Spalteneinstellungen des aktuellen Ordners für "{ $name }" und alle Unterordner übernommen werden?
+apply-current-columns-to-folder-with-children-message = Spalteneinstellungen des aktuellen Ordners für „{ $name }“ und dessen Unterordner übernehmen?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-view-to-folder-message = Ansicht des aktuellen Ordners auf { $name } übernehmen?
+apply-current-view-to-folder-message = Ansicht des aktuellen Ordners für „{ $name }“ übernehmen?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-view-to-folder-with-children-message = Die Ansicht des aktuellen Ordners auf { $name } und seine Unterordner übernehmen?
+apply-current-view-to-folder-with-children-message = Ansicht des aktuellen Ordners für „{ $name }“ und dessen Unterordner übernehmen?

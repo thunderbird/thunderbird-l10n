@@ -7,7 +7,7 @@ apply-current-view-to-menu =
 threadpane-apply-changes-prompt-title = Änderungen übernehmen?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-threadpane-apply-changes-prompt-no-children-text = Ansicht des aktuellen Ordners auf{ $name } übernehmen?
+threadpane-apply-changes-prompt-no-children-text = Ansicht des aktuellen Ordners für „{ $name }“ übernehmen?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-threadpane-apply-changes-prompt-with-children-text = Ansicht des aktuellen Ordners auf{ $name } und Unterordner übernehmen?
+threadpane-apply-changes-prompt-with-children-text = Ansicht des aktuellen Ordners für „{ $name }“ und dessen Unterordner übernehmen?

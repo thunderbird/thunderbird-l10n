@@ -17,12 +17,12 @@
 <!ENTITY calendar.events.filter.all.label "Alle Termine">
 <!ENTITY calendar.events.filter.today.label "Heutige Termine">
 <!ENTITY calendar.events.filter.future.label "Alle zukünftigen Termine">
-<!ENTITY calendar.events.filter.current.label "Momentan gewählter Tag">
-<!ENTITY calendar.events.filter.currentview.label "Termine in der aktuellen Ansicht">
-<!ENTITY calendar.events.filter.next7Days.label "Termine in den nächsten 7 Tagen">
-<!ENTITY calendar.events.filter.next14Days.label "Termine in den nächsten 14 Tagen">
-<!ENTITY calendar.events.filter.next31Days.label "Termine in den nächsten 31 Tagen">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Termine in diesem Kalendermonat">
+<!ENTITY calendar.events.filter.current.label "Aktuell ausgewählter Tag">
+<!ENTITY calendar.events.filter.currentview.label "Termine der aktuellen Ansicht">
+<!ENTITY calendar.events.filter.next7Days.label "Termine der nächsten 7 Tage">
+<!ENTITY calendar.events.filter.next14Days.label "Termine der nächsten 14 Tage">
+<!ENTITY calendar.events.filter.next31Days.label "Termine der nächsten 31 Tage">
+<!ENTITY calendar.events.filter.thisCalendarMonth.label "Termine dieses Kalendermonats">
 
 <!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
    - This label and tooltip is used for the column with the checkbox in the
