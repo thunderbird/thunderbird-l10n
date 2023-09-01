@@ -183,33 +183,27 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Διαχείριση κλειδιών
     .accesskey = χ
-openpgp-key-issue-notification-one = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων κλειδιών για το { $addr }
-openpgp-key-issue-notification-many = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων κλειδιών για { $count } παραλήπτες.
-smime-cert-issue-notification-one = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων πιστοποιητικών για το { $addr }.
-smime-cert-issue-notification-many = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων πιστοποιητικών για { $count } παραλήπτες.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Δεν έχετε ρυθμίσει την αποστολή διατερματικά κρυπτογραφημένων μηνυμάτων από το { $addr }.
 # Variables:
 # $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-single = Η από άκρο σε άκρο κρυπτογράφηση απαιτεί την επίλυση θεμάτων κλειδιού για { $addr }.
+openpgp-key-issue-notification-single = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση των ζητημάτων κλειδιού για το { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-multi =
     { $count ->
-        [one] Η από άκρο σε άκρο κρυπτογράφηση απαιτεί την επίλυση θεμάτων κλειδιού για { $count } αποδέκτη.
-       *[other] Η από άκρο σε άκρο κρυπτογράφηση απαιτεί την επίλυση θεμάτων κλειδιών για { $count } αποδέκτες.
+       *[other] Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων κλειδιών για { $count } παραλήπτες.
     }
 # Variables:
 # $addr (String) - mail address with certificate issues.
-smime-cert-issue-notification-single = Η από άκρο σε άκρο κρυπτογράφηση απαιτεί την επίλυση ζητημάτων πιστοποιητικού για { $addr }.
+smime-cert-issue-notification-single = Η διατερματική κρυπτογράφηση απαιτεί την επίλυση ζητημάτων πιστοποιητικών για το { $addr }.
 # Variables:
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-multi =
     { $count ->
-        [one] έναν
-       *[other] πολλούς
+       *[other] Η διατερματική κρυπτογράφηση απαιτεί την επίλυση των ζητημάτων πιστοποιητικού για { $count } παραλήπτες.
     }
 key-notification-disable-encryption =
     .label = Χωρίς κρυπτογράφηση
@@ -274,19 +268,12 @@ show-bcc-row-button = Κρυφή κοιν.
     .title = Εμφάνιση πεδίου «Κρυφή κοιν.» ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Άλλα πεδία διευθυνσιοδότησης για εμφάνιση
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Το μήνυμά σας έχει έναν δημόσιο παραλήπτη. Μπορείτε να αποφύγετε την αποκάλυψη των παραληπτών με το πεδίο «Κρυφή κοιν.».
-       *[other] Οι { $count } παραλήπτες στα πεδία «Προς» και «Κοιν.» θα βλέπουν τις διευθύνσεις των υπολοίπων. Μπορείτε να αποφύγετε την αποκάλυψη των παραληπτών με το πεδίο «Κρυφή κοιν.».
-    }
-public-recipients-notice-single = Το μήνυμά σας έχει δημόσιο παραλήπτη. Μπορείτε εναλλακτικά να αποφύγετε την εμφάνιση του αποδέκτη με χρήση του Bcc.
+public-recipients-notice-single = Το μήνυμά σας έχει δημόσιο παραλήπτη. Μπορείτε να αποφύγετε την αποκάλυψη του παραλήπτη με το πεδίο «Κρυφή κοιν.».
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
 public-recipients-notice-multi =
     { $count ->
-        [one] Ο { $count } αποδέκτης στο πεδίο To και Cc θα βλέπει τις διευθύνσεις των άλλων. Μπορείτε εναλλακτικά να αποφύγετε την αποκάλυψη των αποδεκτών με χρήση του Bcc.
-       *[other] Οι { $count } αποδέκτες στο πεδίο To και Cc θα βλέπουν τις διευθύνσεις των άλλων. Μπορείτε εναλλακτικά να αποφύγετε την αποκάλυψη των αποδεκτών με χρήση του Bcc.
+       *[other] Οι { $count } παραλήπτες στα πεδία «Προς» και «Κοιν.» θα βλέπουν τις διευθύνσεις των υπολοίπων. Μπορείτε να αποφύγετε την αποκάλυψη των παραληπτών με το πεδίο «Κρυφή κοιν.».
     }
 many-public-recipients-bcc =
     .label = Χρήση «Κρυφή κοιν.»

@@ -82,40 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = Ταξινόμηση κατά διεύθυνση email (A > Z)
 about-addressbook-sort-email-descending =
     .label = Ταξινόμηση κατά διεύθυνση email (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Εναλλαγή σε οριζόντια διάταξη
-about-addressbook-vertical-layout =
-    .label = Εναλλαγή σε κάθετη διάταξη
 about-addressbook-table-layout =
     .label = Διάταξη πίνακα
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Όνομα
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Διευθύνσεις email
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Αριθμοί τηλεφώνου
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Διευθύνσεις
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Τίτλος
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Τμήμα
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Οργανισμός
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Ευρετήριο
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Όνομα
     .title = Ταξινόμηση κατά όνομα
 about-addressbook-column-label-generatedname2 =
@@ -181,25 +153,15 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Αφαίρεση επαφών
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Θέλετε σίγουρα να αφαιρέσετε την επαφή { $name } από τη λίστα { $list };
-       *[other] Θέλετε σίγουρα να αφαιρέσετε αυτές τις { $count } επαφές από τη λίστα { $list };
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts-single = Είστε σίγουροι για την αφαίρεση του { $name } από το { $list };
+about-addressbook-confirm-remove-contacts-single = Θέλετε σίγουρα να αφαιρέσετε τον/την { $name } από το «{ $list }»;
 # Variables:
 # $count (Number) - The number of contacts to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-multi =
     { $count ->
-        [one] Είστε σίγουροι ότι θέλετε να αφαιρέσετε αυτή την { $count } επαφή από τη { $list };
-       *[other] Είστε σίγουροι ότι θέλετε να αφαιρέσετε τις { $count } επαφές από τη { $list };
+       *[other] Θέλετε σίγουρα να αφαιρέσετε αυτές τις { $count } επαφές από το «{ $list }»;
     }
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
@@ -207,14 +169,6 @@ about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Διαγραφή επαφής
        *[other] Διαγραφή επαφών
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Θέλετε σίγουρα να διαγράψετε την επαφή { $name };
-       *[other] Θέλετε σίγουρα να διαγράψετε αυτές τις { $count } επαφές;
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -237,15 +191,6 @@ about-addressbook-placeholder-no-search-results = Δεν βρέθηκαν επα
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } επιλεγμένες επαφές και λίστες
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } επιλεγμένες επαφές
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } επιλεγμένες λίστες
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
