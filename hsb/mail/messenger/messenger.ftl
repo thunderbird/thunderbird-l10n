@@ -131,9 +131,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktny napohlad
     .accesskey = K
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -190,19 +187,14 @@ appmenu-settings =
     .label = Nastajenja
 appmenu-addons-and-themes =
     .label = Přidatki a drasty
-appmenu-help-enter-troubleshoot-mode =
-    .label = Modus za rozrisowanje problemow…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Modus za rozrisanje problemow znjemóžnić
-appmenu-help-more-troubleshooting-info =
-    .label = Dalše informacije za rozrisowanje problemow
-appmenu-redirect-msg =
-    .label = Hinak wodźić
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Hinak wodźić
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Powěsć přetorhnyć
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -213,9 +205,6 @@ mail-context-delete-messages =
             [few] Wubrane powěsće zhašeć
            *[other] Wubrane powěsće zhašeć
         }
-context-menu-decrypt-to-folder =
-    .label = Jako dešifrowanu kopěrować do
-    .accesskey = d
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -307,7 +296,6 @@ no-reply-reply-anyway-button = Najebać toho wotmołwić
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } z { $total } powěsćow njejsu so dešifrowali a njejsu so kopěrowali.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
