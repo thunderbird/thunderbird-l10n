@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakte werjefte
     .accesskey = K
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -188,19 +185,14 @@ appmenu-settings =
     .label = Ynstellingen
 appmenu-addons-and-themes =
     .label = Add-ons en tema’s
-appmenu-help-enter-troubleshoot-mode =
-    .label = Probleemoplossingsmodus…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Probleemoplossingsmodus útskeakelje
-appmenu-help-more-troubleshooting-info =
-    .label = Mear probleemoplossingsynformaasje
-appmenu-redirect-msg =
-    .label = Omliede
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Omliede
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Berjocht annulearje
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -209,9 +201,6 @@ mail-context-delete-messages =
             [one] Berjocht fuortsmite
            *[other] Selektearre berjochten fuortsmite
         }
-context-menu-decrypt-to-folder =
-    .label = Kopiearje as ûntsifere nei
-    .accesskey = K
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -303,7 +292,6 @@ no-reply-reply-anyway-button = Dochs antwurdzje
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } fan { $total } berjochten koene net ûntsifere wurde en binne net kopiearre.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
