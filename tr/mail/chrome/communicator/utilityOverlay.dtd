@@ -9,7 +9,7 @@
 <!ENTITY newMenu.label            "Yeni">
 <!ENTITY newMenu.accesskey          "Y">
 
-<!ENTITY editMenu.label          "Düzenle">
+<!ENTITY editMenu.label          "Düzen">
 <!ENTITY editMenu.accesskey        "z">
 <!ENTITY undoCmd.label            "Geri al">
 <!ENTITY undoCmd.accesskey          "r">
@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "Y">
 <!ENTITY deleteCmd.label          "Sil">
 <!ENTITY deleteCmd.accesskey        "S">
-
 <!ENTITY customizeCmd.label "Özelleştir">
 <!ENTITY customizeCmd.accesskey "t">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Kapat">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "K">
-
-<!ENTITY quitApplicationCmd.label  "Çık">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "k">
-
-<!ENTITY quitApplicationCmdUnix.label  "Çık">
-<!ENTITY quitApplicationCmdUnix.accesskey  "k">
-
-<!ENTITY quitApplicationCmdMac.label  "&brandShortName; uygulamasından çık">
-<!ENTITY quitApplicationCmdMac.accesskey  "k">

@@ -25,36 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Taslak iletileri şifrelenmiş olarak sakla
     .accesskey = r
-openpgp-key-user-id-label = Hesap / Kullanıcı kimliği
-openpgp-keygen-title-label =
-    .title = OpenPGP Anahtarı Oluştur
-openpgp-cancel-key =
-    .label = İptal
-    .tooltiptext = Anahtar oluşturmayı iptal et
-openpgp-key-gen-expiry-title =
-    .label = Anahtarın zaman aşımı
-openpgp-key-gen-expire-label = Anahtarın süre soru:
-openpgp-key-gen-days-label =
-    .label = gün
-openpgp-key-gen-months-label =
-    .label = ay
-openpgp-key-gen-years-label =
-    .label = yıl
-openpgp-key-gen-no-expiry-label =
-    .label = Anahtarın süresi dolmasın
-openpgp-key-gen-key-size-label = Anahtar boyutu
-openpgp-key-gen-console-label = Anahtar üretimi
-openpgp-key-gen-key-type-label = Anahtar türü
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Eliptik Eğri)
-openpgp-generate-key =
-    .label = Anahtar oluştur
-    .tooltiptext = Şifreleme ve/veya imzalama için yeni bir OpenPGP uyumlu anahtar oluşturur
-openpgp-advanced-prefs-button-label =
-    .label = Gelişmiş…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">NOT: Anahtarın oluşturulması birkaç dakika sürebilir.</a> Anahtar oluşturma devam ederken uygulamadan çıkmayın. Anahtar oluşturma sırasında internette gezinmeniz ve veya diskiniz kullanmanız "rastgelelik havuzunu" dolduracak ve süreci hızlandıracaktır. Anahtar oluşturma tamamlandığında bilgilendirileceksiniz.
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =
     .label = Autocrypt ile uyumluluk için OpenPGP ortak anahtarlarını e-posta üstbilgisinde gönder
@@ -373,11 +343,13 @@ openpgp-key-expires-within-6-months-icon =
     .title = Anahtarın süresi 6 aydan kısa bir süre içinde dolacak
 openpgp-key-has-expired-icon =
     .title = Anahtarın süresi doldu
+openpgp-suggest-publishing-key = Ortak anahtarı bir anahtar sunucusunda yayımlamak, başkalarının anahtarı keşfetmesine olanak tanır.
 openpgp-key-expand-section =
     .tooltiptext = Daha fazla bilgi
 openpgp-key-revoke-title = Anahtarı iptal et
 openpgp-key-edit-title = OpenPGP anahtarını değiştir
 openpgp-key-edit-date-title = Geçerlilik tarihini uzat
+openpgp-manager-description = Yazıştığınız kişilerin ortak anahtarlarını ve yukarıda listelenmeyen diğer tüm anahtarları görüntülemek ve yönetmek için OpenPGP anahtar yöneticisini kullanın.
 openpgp-manager-button =
     .label = OpenPGP Anahtar Yöneticisi
     .accesskey = Y
@@ -404,16 +376,16 @@ key-expired-date = Anahtarın süresi { $keyExpiry } tarihinde doldu
 key-expired-simple = Anahtarın süresi doldu
 key-revoked-simple = Anahtar iptal edildi
 key-do-you-accept = Dijital imzaları doğrulamak ve iletileri şifrelemek için bu anahtarı kabul ediyor musunuz?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Gerçekten { $addr } e-postasının anahtarı olduğundan emin olmak için e-posta dışında güvenli bir iletişim kanalı kullanarak anahtarın parmak izini doğrulayın.
 
 ## Strings enigmailMsgComposeOverlay.js
 
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kişisel anahtarınızla ilgili bir sorun olduğundan ileti gönderilemedi. { $problem }
-cannot-encrypt-because-missing = Aşağıdaki alıcıların anahtarlarında sorun olduğu için bu ileti uçtan uca şifrelemeyle gönderilemedi: { $problem }
 window-locked = Oluşturma penceresi kilitli; gönderme iptal edildi
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Bu, şifrelenmiş bir ileti parçasıdır. Eke tıklayarak ayrı bir pencerede açmanız gerekiyor.
 
 ## Strings in keyserver.jsm
 
@@ -428,6 +400,9 @@ keyserver-error-unsupported = Anahtar sunucusu desteklenmiyor.
 
 ## Strings in mimeWkdHandler.jsm
 
+wkd-message-body-req =
+    E-posta sağlayıcınız ortak anahtarınızı OpenPGP web anahtarı dizinine yükleme isteğinizi işleme koydu.
+    Lütfen ortak anahtarınızın yayımlanmasını tamamlamak için onaylayın.
 wkd-message-body-process =
     Bu, ortak anahtarınızı OpenPGP Web Anahtar Dizini'ne yüklemek için otomatik işlemeyle ilgili bir e-postadır.
     Şu anda herhangi bir işlem yapmanız gerekmiyor.
@@ -590,7 +565,11 @@ import-key-file = OpenPGP anahtar dosyasını içe aktar
 import-rev-file = OpenPGP iptal dosyasını içe aktar
 gnupg-file = GnuPG dosyaları
 import-keys-failed = Anahtarlar içe aktarılamadı
-passphrase-prompt = Lütfen şu anahtarın kilidini açan parolayı girin: { $key }
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = { $key } kimlikli, { $date } tarihinde oluşturulan, { $username_and_email }  gizli anahtarıınn kilidini açmak için parolayı girin
 file-to-big-to-import = Bu dosya çok büyük. Lütfen büyük anahtar kümelerini aynı anda içe aktarmayın.
 
 ## Strings used in enigmailKeygen.js
