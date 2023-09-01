@@ -128,9 +128,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = 精簡檢視
     .accesskey = C
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -187,19 +184,14 @@ appmenu-settings =
     .label = 設定
 appmenu-addons-and-themes =
     .label = 附加元件與佈景主題
-appmenu-help-enter-troubleshoot-mode =
-    .label = 疑難排解模式…
-appmenu-help-exit-troubleshoot-mode =
-    .label = 關閉疑難排解模式
-appmenu-help-more-troubleshooting-info =
-    .label = 更多疑難排解資訊
-appmenu-redirect-msg =
-    .label = 重導
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = 重導
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = 取消郵件
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -208,9 +200,6 @@ mail-context-delete-messages =
             [one] 刪除訊息
            *[other] 刪除選擇的訊息
         }
-context-menu-decrypt-to-folder =
-    .label = 將解密格式複製到
-    .accesskey = y
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -302,7 +291,6 @@ no-reply-reply-anyway-button = 還是要回覆
 
 ## error messages
 
-decrypt-and-copy-failures = 無法解密全部共 { $total } 封訊息當中的 { $failures } 封訊息，並未複製。
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
