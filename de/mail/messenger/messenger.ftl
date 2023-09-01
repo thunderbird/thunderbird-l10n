@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakte Ansicht
     .accesskey = K
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -188,19 +185,14 @@ appmenu-settings =
     .label = Einstellungen
 appmenu-addons-and-themes =
     .label = Add-ons und Themes
-appmenu-help-enter-troubleshoot-mode =
-    .label = Fehlerbehebungsmodus…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Fehlerbehebungsmodus deaktivieren
-appmenu-help-more-troubleshooting-info =
-    .label = Weitere Informationen zur Fehlerbehebung
-appmenu-redirect-msg =
-    .label = Umleiten
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Umleiten
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Nachricht verwerfen
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -209,9 +201,6 @@ mail-context-delete-messages =
             [one] Nachricht löschen
            *[other] Ausgewählte Nachrichten löschen
         }
-context-menu-decrypt-to-folder =
-    .label = Entschlüsselt kopieren nach
-    .accesskey = E
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -303,7 +292,6 @@ no-reply-reply-anyway-button = Trotzdem antworten
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } von { $total } Nachrichten konnten nicht entschlüsselt werden und wurden daher nicht kopiert.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
