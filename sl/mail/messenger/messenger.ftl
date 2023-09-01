@@ -131,9 +131,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Zgoščen pogled
     .accesskey = Z
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -194,19 +191,14 @@ appmenu-settings =
     .label = Nastavitve
 appmenu-addons-and-themes =
     .label = Dodatki in teme
-appmenu-help-enter-troubleshoot-mode =
-    .label = Način za odpravljanje težav …
-appmenu-help-exit-troubleshoot-mode =
-    .label = Izključi način za odpravljanje težav
-appmenu-help-more-troubleshooting-info =
-    .label = Več podatkov za odpravljanje težav
-appmenu-redirect-msg =
-    .label = Preusmeri
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Preusmeri
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Prekliči sporočilo
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -217,9 +209,6 @@ mail-context-delete-messages =
             [few] Izbriši izbrana sporočila
            *[other] Izbriši izbrana sporočila
         }
-context-menu-decrypt-to-folder =
-    .label = Kopiraj v nešifrirani obliki v
-    .accesskey = f
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -313,13 +302,6 @@ no-reply-reply-anyway-button = Vseeno odgovori
 
 ## error messages
 
-decrypt-and-copy-failures =
-    { $failures ->
-        [one] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato ni bilo kopirano.
-        [two] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato nista bili kopirani.
-        [few] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato niso bila kopirana.
-       *[other] { $failures } od { $total } sporočil ni bilo mogoče dešifrirati, zato niso bila kopirana.
-    }
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
