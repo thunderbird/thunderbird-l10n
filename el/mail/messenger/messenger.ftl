@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Συμπτυγμένη προβολή
     .accesskey = Σ
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -188,19 +185,14 @@ appmenu-settings =
     .label = Ρυθμίσεις
 appmenu-addons-and-themes =
     .label = Πρόσθετα και θέματα
-appmenu-help-enter-troubleshoot-mode =
-    .label = Λειτουργία επίλυσης προβλημάτων…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Απενεργοποίηση λειτουργίας επίλυσης προβλημάτων
-appmenu-help-more-troubleshooting-info =
-    .label = Πληροφορίες επίλυσης προβλημάτων
-appmenu-redirect-msg =
-    .label = Ανακατεύθυνση
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Ανακατεύθυνση
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Ακύρωση μηνύματος
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -209,9 +201,6 @@ mail-context-delete-messages =
             [one] Διαγραφή μηνύματος
            *[other] Διαγραφή επιλεγμένων μηνυμάτων
         }
-context-menu-decrypt-to-folder =
-    .label = Αντιγραφή ως αποκρυπτογραφημένο σε
-    .accesskey = γ
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -303,7 +292,6 @@ no-reply-reply-anyway-button = Απάντηση ούτως ή άλλως
 
 ## error messages
 
-decrypt-and-copy-failures = Δεν ήταν δυνατή η αποκρυπτογράφηση και αντιγραφή { $failures } από { $total } μηνύματα.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
