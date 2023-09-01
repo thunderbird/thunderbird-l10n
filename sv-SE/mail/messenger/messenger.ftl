@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakt vy
     .accesskey = K
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -188,19 +185,14 @@ appmenu-settings =
     .label = Inställningar
 appmenu-addons-and-themes =
     .label = Tillägg och teman
-appmenu-help-enter-troubleshoot-mode =
-    .label = Felsökningsläge…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Stäng av felsökningsläge
-appmenu-help-more-troubleshooting-info =
-    .label = Mer felsökningsinformation
-appmenu-redirect-msg =
-    .label = Omdirigera
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Omdirigera
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Avbryt meddelande
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -209,9 +201,6 @@ mail-context-delete-messages =
             [one] Ta bort meddelande
            *[other] Ta bort valda meddelanden
         }
-context-menu-decrypt-to-folder =
-    .label = Kopiera som dekrypterad till
-    .accesskey = y
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -303,7 +292,6 @@ no-reply-reply-anyway-button = Svara ändå
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } av { $total } meddelanden kunde inte dekrypteras och kopierades inte.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
