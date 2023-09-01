@@ -16,6 +16,7 @@ chat-encryption-description = { $protocol } za sporočila v klepetu zagotavlja �
 chat-encryption-status = Stanje šifriranja
 chat-encryption-placeholder = Šifriranje ni inicializirano.
 chat-encryption-sessions = Seje
+chat-encryption-sessions-description = Za pravilno delovanje šifriranja od konca do konca morate potrditi zaupanje drugim sejam, ki so trenutno prijavljene v vaš račun. Za preverjanje seje je potrebna interakcija z drugim odjemalcem. Potrditev seje lahko povzroči, da bo { -brand-short-name } zaupal tudi vsem sejam, ki jim zaupa tisti odjemalec.
 chat-encryption-session-verify = preveri
     .title = Preveri istovetnost te seje
 chat-encryption-session-trusted = zaupanja vredno
