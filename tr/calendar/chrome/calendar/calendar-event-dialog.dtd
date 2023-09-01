@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY event.title.label                  "Ögeyi düzenle" >
+<!ENTITY event.title.label                  "Kaydı düzenle" >
 
 <!ENTITY event.dialog.keepDurationButton.tooltip   "Bitiş tarihini değiştirirken süreyi sabit tut">
 <!ENTITY event.dialog.keepDurationButton.accesskey "t">
@@ -358,7 +358,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "⁠" >
 <!ENTITY event.recurrence.appointments.label            "etkinlik oluştur" >
 <!ENTITY event.repeat.until.label                       "Şu tarihe kadar tekrarla" >
-<!ENTITY event.recurrence.preview.label                 "Önizleme">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Katılımcıları davet et">
