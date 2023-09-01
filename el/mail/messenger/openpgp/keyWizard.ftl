@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Προσθήκη προσωπικού κλειδιού OpenPGP για το «{ $identity }»
-key-wizard-button =
-    .buttonlabelaccept = Συνέχεια
-    .buttonlabelhelp = Επιστροφή
 key-wizard-dialog =
     .buttonlabelaccept = Συνέχεια
     .buttonlabelextra1 = Επιστροφή
@@ -104,10 +101,8 @@ openpgp-import-key-list-amount-2 =
 openpgp-import-key-list-description = Επιβεβαιώστε ποια κλειδιά μπορούν να θεωρηθούν ως προσωπικά. Μόνο τα κλειδιά που δημιουργήσατε εσείς και που δείχνουν τη δική σας ταυτότητα θα πρέπει να χρησιμοποιούνται ως προσωπικά. Μπορείτε να αλλάξετε αυτήν την επιλογή αργότερα στο παράθυρο διαλόγου «Ιδιότητες κλειδιού».
 openpgp-import-key-list-caption = Τα κλειδιά που έχουν επισημανθεί ως προσωπικά θα εμφανίζονται στην ενότητα «Διατερματική κρυπτογράφηση». Τα άλλα θα είναι διαθέσιμα στη Διαχείριση κλειδιών.
 openpgp-import-keep-passphrases =
-    .label = Να διατηρηθεί η προστασία της φράσης πρόσβασης για τα μυστικά κλειδιά που θα εισαχθούν
+    .label = Διατήρηση προστασίας με φράση πρόσβασης για τα εισαγόμενα μυστικά κλειδιά
 openpgp-passphrase-prompt-title = Απαιτείται φράση πρόσβασης
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Εισαγάγετε τον κωδικό πρόσβασης για να ξεκλειδώσετε το ακόλουθο κλειδί: { $key }
 openpgp-import-key-button =
     .label = Επιλέξτε αρχείο για εισαγωγή…
     .accesskey = Ε

@@ -407,5 +407,5 @@ openpgp-forget = Ξεχάστε τις φράσεις πρόσβασης OpenPGP
 #   $percent (Number) - Usage percentage of the assigned IMAP quota.
 #   $usage (String) - Current quota usage (may include unit)
 #   $limit (String) - Current quota limit (may include unit)
-quota-panel-percent-used = { $percent }% γεμάτο
-    .title = Ποσοστό IMAP: { $usage } χρησιμοποιημένο από συνολικό { $limit }
+quota-panel-percent-used = { $percent }% πλήρες
+    .title = Ποσοστό IMAP: { $usage } σε χρήση από συνολικά { $limit }
