@@ -130,9 +130,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktné zobrazenie
     .accesskey = K
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -191,19 +188,14 @@ appmenu-settings =
     .label = Nastavenia
 appmenu-addons-and-themes =
     .label = Doplnky a témy
-appmenu-help-enter-troubleshoot-mode =
-    .label = Režim riešenia problémov…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Vypnúť režim riešenia problémov
-appmenu-help-more-troubleshooting-info =
-    .label = Ďalšie informácie pre riešenie problémov
-appmenu-redirect-msg =
-    .label = Presmerovať
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Presmerovať
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Zrušiť správu
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -213,9 +205,6 @@ mail-context-delete-messages =
             [few] Odstrániť označené správy
            *[other] Odstrániť označené správy
         }
-context-menu-decrypt-to-folder =
-    .label = Skopírovať ako dešifrované do
-    .accesskey = f
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -308,7 +297,6 @@ no-reply-reply-anyway-button = Aj tak odpovedať
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } z { $total } správ sa nepodarilo dešifrovať a neboli skopírované.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
