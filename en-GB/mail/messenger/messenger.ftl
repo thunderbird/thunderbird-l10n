@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Compact View
     .accesskey = C
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -188,19 +185,14 @@ appmenu-settings =
     .label = Settings
 appmenu-addons-and-themes =
     .label = Add-ons and Themes
-appmenu-help-enter-troubleshoot-mode =
-    .label = Troubleshoot Mode…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Turn Troubleshoot Mode Off
-appmenu-help-more-troubleshooting-info =
-    .label = More Troubleshooting Information
-appmenu-redirect-msg =
-    .label = Redirect
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Redirect
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Cancel Message
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -209,9 +201,6 @@ mail-context-delete-messages =
             [one] Delete message
            *[other] Delete selected messages
         }
-context-menu-decrypt-to-folder =
-    .label = Copy As Decrypted To
-    .accesskey = y
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -303,7 +292,6 @@ no-reply-reply-anyway-button = Reply Anyway
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } of { $total } messages could not be decrypted and were not copied.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
