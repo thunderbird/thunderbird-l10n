@@ -133,9 +133,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Golwg Cryno
     .accesskey = G
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,19 +197,14 @@ appmenu-settings =
     .label = Gosodiadau
 appmenu-addons-and-themes =
     .label = Ychwanegion a Themâu
-appmenu-help-enter-troubleshoot-mode =
-    .label = Y Modd Datrys Problemau…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Diffodd y Modd Datrys Problemau
-appmenu-help-more-troubleshooting-info =
-    .label = Rhagor o Wybodaeth Datrys Problemau
-appmenu-redirect-msg =
-    .label = Ailgyfeirio
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Ailgyfeirio
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Diddymu Neges
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -225,9 +217,6 @@ mail-context-delete-messages =
             [many] Dileu'r Negeseuon Hyn
            *[other] Dileu'r Negeseuon Hyn
         }
-context-menu-decrypt-to-folder =
-    .label = Copi Fel Wedi'i Ddatgryptio I.
-    .accesskey = D
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -323,7 +312,6 @@ no-reply-reply-anyway-button = Ateb Beth Bynnag
 
 ## error messages
 
-decrypt-and-copy-failures = Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac heb eu copïo.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
