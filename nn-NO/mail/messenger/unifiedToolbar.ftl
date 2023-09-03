@@ -28,7 +28,11 @@ customize-space-tab-chat = Nettprat
     .title = Nettprat
 customize-space-tab-settings = Innstillingar
     .title = Innstillingar
+customize-button-style-label = Knappestil:
 customize-button-style-icons-beside-text-option = Ikon ved sida av teksten
+customize-button-style-icons-above-text-option = Ikon over tekst
+customize-button-style-icons-only-option = Berre ikon
+customize-button-style-text-only-option = Berre tekst
 
 ## Unified toolbar customization palette context menu
 

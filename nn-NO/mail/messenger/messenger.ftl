@@ -71,9 +71,6 @@ show-tags-folders-label =
     .label = Merkelapp
     .accesskey = M
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -127,14 +124,6 @@ appmenu-settings =
     .label = Innstillingar
 appmenu-addons-and-themes =
     .label = Tillegg og tema
-appmenu-help-enter-troubleshoot-mode =
-    .label = Feilsøkingsmodus…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Slå av feilsøkingsmodus
-appmenu-help-more-troubleshooting-info =
-    .label = Meir feilsøkingsinformasjon
-appmenu-redirect-msg =
-    .label = Omdiriger
 
 ## Context menu
 
@@ -157,6 +146,9 @@ other-action-redirect-msg =
 ## Message header cutomize panel
 
 message-header-customize-panel-title = Innstillingar for meldingshovud
+message-header-customize-button-style =
+    .value = Knappestil
+    .accesskey = K
 message-header-button-style-default =
     .label = Ikon og tekst
 message-header-button-style-text =

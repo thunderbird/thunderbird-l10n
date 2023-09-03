@@ -4,17 +4,14 @@
 
 receipts-dialog-window =
     .title = Kvitteringar
-
 receipt-arrive-label = Når du får ei kvittering:
-
+receipt-move-radio-control =
+    .label = Flytt ho til «Sendt»-mappa
+    .accesskey = F
 receipt-request-label = Når eg mottek førespurnad for kvittering:
-
 receipt-send-never-label =
     .label = Aldri send
-
 receipt-send-always-label =
     .label = Alltid send
-
 receipt-send-ask-label =
     .label = Spør meg
-

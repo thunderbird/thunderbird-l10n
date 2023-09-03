@@ -63,3 +63,5 @@ calendar-event-listing-interval-next-31-days =
     .label = Hendingar dei neste 31 dagane
 calendar-event-listing-interval-selected-day =
     .label = Vald dag
+calendar-event-listing-interval-today =
+    .label = Hendingar i dag
