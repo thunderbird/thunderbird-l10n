@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Þjöppuð sýn
     .accesskey = p
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -188,19 +185,14 @@ appmenu-settings =
     .label = Stillingar
 appmenu-addons-and-themes =
     .label = Viðbætur og þemu
-appmenu-help-enter-troubleshoot-mode =
-    .label = Úrræðaleitarhamur…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Slökkva á úrræðaleitarham
-appmenu-help-more-troubleshooting-info =
-    .label = Frekari upplýsingar um úrræðaleit
-appmenu-redirect-msg =
-    .label = Endurbeina
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Endurbeina
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Hætta við skilaboð
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -209,9 +201,6 @@ mail-context-delete-messages =
             [one] Eyða skilaboðum
            *[other] Eyða völdum skilaboðum
         }
-context-menu-decrypt-to-folder =
-    .label = Afrita sem afkóðað í
-    .accesskey = f
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -303,7 +292,6 @@ no-reply-reply-anyway-button = Svara samt
 
 ## error messages
 
-decrypt-and-copy-failures = Ekki var hægt að afkóða { $failures } af { $total } skilaboðum og þau voru ekki afrituð.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
