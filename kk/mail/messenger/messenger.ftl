@@ -128,9 +128,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ықшам көрініс
     .accesskey = Ы
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -187,19 +184,14 @@ appmenu-settings =
     .label = Баптаулар
 appmenu-addons-and-themes =
     .label = Қосымшалар және темалар
-appmenu-help-enter-troubleshoot-mode =
-    .label = Мәселелерді шешу режимі…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Мәселелерді шешу режимін сөндіру
-appmenu-help-more-troubleshooting-info =
-    .label = Мәселелерді шешудің көбірек ақпараты
-appmenu-redirect-msg =
-    .label = Қайта бағдарлау
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Қайта бағдарлау
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Хабарламаны болдырмау
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -207,9 +199,6 @@ mail-context-delete-messages =
         { $count ->
            *[other] Таңдалған хабарламаларды өшіру
         }
-context-menu-decrypt-to-folder =
-    .label = Шифрі шешілген түрінде келесі жерге көшіру
-    .accesskey = ш
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -301,7 +290,6 @@ no-reply-reply-anyway-button = Сонда да жауап беру
 
 ## error messages
 
-decrypt-and-copy-failures = { $total } ішінен { $failures } хабарламаны дешифрлеу мүмкін емес және олар көшірілмеді.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
