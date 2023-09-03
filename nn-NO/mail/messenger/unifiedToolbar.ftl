@@ -28,8 +28,6 @@ customize-space-tab-chat = Nettprat
     .title = Nettprat
 customize-space-tab-settings = Innstillingar
     .title = Innstillingar
-customize-button-style-icons-beside-text =
-    .label = Ikon ved sida av teksten
 customize-button-style-icons-beside-text-option = Ikon ved sida av teksten
 
 ## Unified toolbar customization palette context menu
@@ -37,3 +35,15 @@ customize-button-style-icons-beside-text-option = Ikon ved sida av teksten
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Flytt fram
+customize-target-backward =
+    .label = Flytt tilbake
+customize-target-remove =
+    .label = Fjern
+customize-target-remove-everywhere =
+    .label = Fjern frå alle verktøylinjer
+customize-target-start =
+    .label = Flytt til start
+customize-target-end =
+    .label = Flytt til slutten
