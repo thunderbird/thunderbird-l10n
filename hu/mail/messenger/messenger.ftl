@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Tömör nézet
     .accesskey = T
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -188,19 +185,14 @@ appmenu-settings =
     .label = Beállítások
 appmenu-addons-and-themes =
     .label = Kiegészítők és témák
-appmenu-help-enter-troubleshoot-mode =
-    .label = Hibaelhárítási mód…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Hibakeresési mód kikapcsolása
-appmenu-help-more-troubleshooting-info =
-    .label = További hibakeresési információ
-appmenu-redirect-msg =
-    .label = Átirányítás
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Átirányítás
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Üzenet érvénytelenítése
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -209,9 +201,6 @@ mail-context-delete-messages =
             [one] Üzenet törlése
            *[other] Kijelölt üzenetek törlése
         }
-context-menu-decrypt-to-folder =
-    .label = Másolás visszafejtettként ide
-    .accesskey = v
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -303,7 +292,6 @@ no-reply-reply-anyway-button = Válasz mindenképp
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } / { $total } üzenetet nem sikerült visszafejteni, és nem lettek másolva.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
