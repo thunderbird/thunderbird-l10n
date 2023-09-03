@@ -9,13 +9,10 @@
 <!ENTITY calendar.newevent.button.tooltip         "Lag ny hending" >
 <!ENTITY calendar.newtask.button.tooltip          "Lag ny oppgåve" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "Oppgåver" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Vis fullførte oppgåver">
 
 <!ENTITY calendar.today.button.label          "I dag">
 <!ENTITY calendar.tomorrow.button.label       "I morgon">
-<!ENTITY calendar.upcoming.button.label       "Komande">
 
 <!ENTITY calendar.events.filter.all.label "Alle hendingar">
 <!ENTITY calendar.events.filter.today.label "Hendingar i dag">
@@ -61,40 +58,9 @@
 <!ENTITY calendar.today.button.tooltip          "Gå til «I dag»" >
 <!ENTITY calendar.todaypane.button.tooltip      "Vis «I dag»-ruta" >
 
-<!ENTITY calendar.day.button.tooltip            "Byt til dagvising" >
-<!ENTITY calendar.week.button.tooltip           "Byt til vekevising" >
-<!ENTITY calendar.month.button.tooltip          "Byt til månadvising" >
-<!ENTITY calendar.multiweek.button.tooltip      "Byt til fleirvekevising" >
-
-<!ENTITY calendar.nextday.label                 "Neste dag" >
-<!ENTITY calendar.prevday.label                 "Førre dag" >
-<!ENTITY calendar.nextday.accesskey             "N" >
-<!ENTITY calendar.prevday.accesskey             "F" >
-<!ENTITY calendar.nextweek.label                "Neste veke" >
-<!ENTITY calendar.prevweek.label                "Førre veke" >
-<!ENTITY calendar.nextweek.accesskey            "e" >
-<!ENTITY calendar.prevweek.accesskey            "ø" >
-<!ENTITY calendar.nextmonth.label               "Neste månad" >
-<!ENTITY calendar.prevmonth.label               "Førre månad" >
-<!ENTITY calendar.nextmonth.accesskey           "s" >
-<!ENTITY calendar.prevmonth.accesskey           "r" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Ein dag fram" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Ein dag tilbake" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Ei veke fram" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Ei veke tilbake" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Ein månad fram" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Ein månad tilbake" >
-
 <!ENTITY calendar.newevent.button.label         "Ny hending" >
 <!ENTITY calendar.newtask.button.label          "Ny oppgåve" >
-<!ENTITY calendar.print.button.label            "Skriv ut" >
-<!ENTITY calendar.print.button.accesskey        "u">
 
-<!ENTITY calendar.day.button.label              "Dag" >
-<!ENTITY calendar.week.button.label             "Veke" >
-<!ENTITY calendar.month.button.label            "Månad" >
-<!ENTITY calendar.multiweek.button.label        "Fleire veker" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Berre arbeidsveke" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "B" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Oppgåver i visinga" >
@@ -155,9 +121,9 @@
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac    "&lt;&#x21E7;&#x2318;K&gt;">
 
 <!-- Context Menu -->
-<!ENTITY calendar.context.modifyorviewitem.label      "Opna">
+<!ENTITY calendar.context.modifyorviewitem.label      "Opne">
 <!ENTITY calendar.context.modifyorviewitem.accesskey  "O">
-<!ENTITY calendar.context.modifyorviewtask.label      "Opna oppgåve…">
+<!ENTITY calendar.context.modifyorviewtask.label      "Opne oppgåve…">
 <!ENTITY calendar.context.modifyorviewtask.accesskey  "o">
 <!ENTITY calendar.context.newevent.label              "Ny hending…">
 <!ENTITY calendar.context.newevent.accesskey          "N">
@@ -279,8 +245,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "F">
 <!ENTITY calendar.context.unsubscribeserver.label      "Avslutt abonnement på kalender…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "A">
-<!ENTITY calendar.context.synccalendars.label          "Synkroniser kalendrar">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Publiser kalender…">
 <!ENTITY calendar.context.publish.accesskey            "P">
 <!ENTITY calendar.context.export.label                 "Eksporter kalender…">
@@ -355,7 +319,6 @@
 <!ENTITY calendarproperties.color.label                    "Farge:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label                   "Format:">
 <!ENTITY calendarproperties.location.label                 "Adresse:">
 <!ENTITY calendarproperties.refreshInterval.label          "Oppdater kalenderen:">
@@ -364,7 +327,6 @@
 <!ENTITY calendarproperties.readonly.label                 "Skriveverna">
 <!ENTITY calendarproperties.firealarms.label               "Vis alarmar">
 <!ENTITY calendarproperties.cache3.label                   "Fråkopla støtte">
-<!ENTITY calendarproperties.enabled.label                  "Slå på denne kalenderen">
 <!ENTITY calendarproperties.enabled2.label                 "Aktiver denne kalenderen">
 <!ENTITY calendarproperties.forceDisabled.label            "Fann ikkje tilbydaren av denne kalenderen. Dette skjer ofte om du har slått av eller avinstallert enkelte utvidingar.">
 <!ENTITY calendarproperties.unsubscribe.label              "Stopp abonnement">
@@ -376,27 +338,8 @@
 <!ENTITY calendar.publish.publish.button      "Publiser">
 <!ENTITY calendar.publish.close.button      "Lat att">
 
-<!ENTITY calendar.publish.example.url.description   "til dømes http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Vel kalender">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Skriv ut kalender">
-<!ENTITY calendar.print.title.label "Tittel:">
-<!ENTITY calendar.print.layout.label "Utsjånad:">
-<!ENTITY calendar.print.range.label "Utskriftsområde">
-<!ENTITY calendar.print.currentView2.label "Aktiv vising">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Valde hendingar/oppgåver">
-<!ENTITY calendar.print.tasks.label "Oppgåver">
-<!ENTITY calendar.print.events.label "Hendingar">
-<!ENTITY calendar.print.custom.label "Hendingar mellom:">
-<!ENTITY calendar.print.from.label "Frå:">
-<!ENTITY calendar.print.to.label "Til:">
-<!ENTITY calendar.print.settingsGroup.label "Utskriftsoppsett">
-<!ENTITY calendar.print.optionsGroup.label "Innstillingar">
-<!ENTITY calendar.print.taskswithnoduedate.label "Oppgåver utan forfallsdato">
-<!ENTITY calendar.print.completedtasks.label "Fullførte oppgåver">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Detaljar…">

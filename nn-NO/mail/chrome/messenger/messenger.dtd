@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Slett melding">
-<!ENTITY deleteMsgCmd.accesskey "t">
-<!ENTITY undeleteMsgCmd.label "Angre sletting av melding">
-<!ENTITY undeleteMsgCmd.accesskey "g">
-<!ENTITY deleteMsgsCmd.label "Slett valde meldingar">
-<!ENTITY deleteMsgsCmd.accesskey "v">
-<!ENTITY undeleteMsgsCmd.label "Angre valde meldingar">
-<!ENTITY undeleteMsgsCmd.accesskey "A">
-<!ENTITY deleteFolderCmd.label "Slett mappe">
-<!ENTITY deleteFolderCmd.accesskey "S">
-<!ENTITY unsubscribeNewsgroupCmd.label "Stopp abonnementet">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "a">
 <!ENTITY selectMenu.label "Vel">
 <!ENTITY selectMenu.accesskey "V">
 <!ENTITY all.label "Alle">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "e">
 <!ENTITY menuFavoriteFolder.label "Favorittmappe">
 <!ENTITY menuFavoriteFolder.accesskey "F">
-<!ENTITY folderPropsCmd2.label "Eigenskapar">
-<!ENTITY folderPropsFolderCmd2.label "Mappeeigenskapar">
-<!ENTITY folderPropsNewsgroupCmd2.label "Nyhendegruppe-innstillingar">
-<!ENTITY folderPropsCmd.accesskey "N">
 <!ENTITY undoDeleteMsgCmd.label "Ange sletting av melding">
 <!ENTITY redoDeleteMsgCmd.label "Gjenta sletting av melding">
 <!ENTITY undoMoveMsgCmd.label "Angre flytting av melding">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Mappepanel">
 <!ENTITY showFolderPaneCmd.accesskey "M">
-<!ENTITY showFolderPaneColsCmd.label "Kolonner i mappepanelet">
-<!ENTITY showFolderPaneColsCmd.accesskey "K">
 <!ENTITY showMessageCmd.label "Meldingsvindauge">
 <!ENTITY showMessageCmd.accesskey "v">
 
@@ -432,7 +414,7 @@
 <!ENTITY openMessageWindowCmd.label "Opne melding">
 <!ENTITY openMessageWindowCmd.accesskey "d">
 <!ENTITY openMessageWindowCmd.key "o">
-<!ENTITY openInConversationCmd.label "Opna i konversasjon">
+<!ENTITY openInConversationCmd.label "Opne i konversasjon">
 <!ENTITY openInConversationCmd.accesskey "s">
 <!ENTITY openInConversationCmd.key "o">
 <!ENTITY openAttachmentListCmd.label "Vedlegg">
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Ny melding">
 <!ENTITY appmenuNewContactCmd.label "Adressebokkontaktar …">
-<!ENTITY appmenuEditMenu.label "Rediger">
 <!ENTITY appmenuToolbarLayout.label "Verktøylinjeutsjånad…">
-<!ENTITY appmenuSelectThread.label "Vel tråd">
-<!ENTITY appmenuSelectFlagged.label "Vel meldingar med stjerne">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nytt merkelapp-stikkord…">
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "d">
 <!ENTITY copyEmailCmd.label "Kopier e-postadresse">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Stopp">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Oppdater">
-<!ENTITY reloadCmd.accesskey "O">
 <!ENTITY openInBrowser.label "Opne i nettlesar">
 <!ENTITY openInBrowser.accesskey "n">
 <!ENTITY openLinkInBrowser.label "Opne lenke i nettlesar">

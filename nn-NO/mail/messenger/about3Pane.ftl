@@ -145,6 +145,9 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = e
 folder-pane-write-message-button = Ny melding
     .title = Skriv ei ny melding
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Mappemodus
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktvising
     .accesskey = K
