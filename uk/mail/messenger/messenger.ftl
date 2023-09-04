@@ -21,7 +21,7 @@ unread-messages-os-tooltip =
         [few] { $count } непрочитані повідомлення
        *[many] { $count } непрочитаних повідомлень
     }
-about-rights-notification-text = { -brand-short-name } є вільним програмним забезпеченням з відкритим кодом, створене тисячами людей з усього світу.
+about-rights-notification-text = { -brand-short-name } є вільним програмним забезпеченням з відкритим кодом, створений тисячами людей з усього світу.
 
 ## Content tabs
 
