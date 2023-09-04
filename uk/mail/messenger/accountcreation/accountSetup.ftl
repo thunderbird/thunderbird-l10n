@@ -7,10 +7,8 @@ account-setup-tab-title = Налаштування облікового запи
 ## Header
 
 account-setup-title = Налаштуйте свою наявну електронну адресу
-account-setup-description =
-    Щоб використовувати поточну адресу електронної пошти, заповніть свої дані. <br/>
-    { -brand-product-name } автоматично шукатиме робочу та рекомендовану конфігурацію сервера.
-account-setup-secondary-description = { -brand-product-name } автоматично шукатиме робочу та рекомендовану конфігурації сервера.
+account-setup-description = Щоб використовувати чинну адресу електронної пошти, заповніть свої облікові дані.
+account-setup-secondary-description = { -brand-product-name } автоматично виконає пошук рекомендованої конфігурації сервера.
 account-setup-success-title = Обліковий запис створено!
 account-setup-success-description = Тепер ви можете користуватися цим обліковим записом у { -brand-short-name }.
 account-setup-success-secondary-description = Ви можете додати функціональність, під'єднавши пов'язані служби та сконфігурувавши розширені налаштування облікового запису.
