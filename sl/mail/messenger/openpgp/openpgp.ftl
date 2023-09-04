@@ -693,6 +693,7 @@ dlg-button-view = &Prikaži
 
 ## Strings used in enigmailMsgHdrViewOverlay.js
 
+decrypted-msg-with-format-error = Dešifrirano sporočilo (obnovljena pokvarjena oblika e-pošte PGP, ki je verjetno posledica starega strežnika Exchange, tako da rezultat morda ne bo popolnoma berljiv)
 
 ## Strings used in encryption.jsm
 
