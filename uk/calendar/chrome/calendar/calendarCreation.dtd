@@ -45,7 +45,7 @@
 <!ENTITY network.nocredentials.label "Для цього розташування не потрібні облікові дані">
 <!ENTITY network.loading.description "Будь ласка, зачекайте доки обробляються ваші календарі.">
 <!ENTITY network.notfound.description "Не вдалося знайти календарі в цьому розташуванні. Будь ласка, перевірте свої налаштування.">
-<!ENTITY network.authfail.description "Введені вами облікові дані не було прийняти. Будь ласка, перевірте свої налаштування.">
+<!ENTITY network.authfail.description "Введені вами облікові дані було відхилено. Будь ласка, перевірте свої налаштування.">
 
 <!ENTITY network.subscribe.single.description "Оберіть календарі, на які б ви хотіли підписатися.">
 <!ENTITY network.subscribe.multiple.description "Для цього розташування доступні декілька типів календарів. Оберіть тип календаря, потім позначте календарі, на які ви хочете підписатися.">
