@@ -22,11 +22,28 @@ calendar-list-item-context-button =
     .title = Kalenderinstillingar for { $calendarName }
 calendar-import-new-calendar = Ny kalender…
     .title = Opprett eller abonner på ein ny kalender
+calendar-refresh-calendars =
+    .title = Oppdater alle kalendrar og synkroniser endringar
 calendar-new-event-primary-button = Ny hending
 calendar-new-task-primary-button = Ny oppgåve
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Føregåande dag
+    .accesskey = F
+calendar-nav-button-prev-tooltip-week =
+    .title = Føregåande veke
+    .accesskey = F
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Føregåande veke
+    .accesskey = F
+calendar-nav-button-prev-tooltip-month =
+    .title = Førre månad
+    .accesskey = F
+calendar-nav-button-prev-tooltip-year =
+    .title = Føregåande år
+    .accesskey = g
 calendar-nav-button-next-tooltip-day =
     .title = Neste dag
     .accesskey = N
