@@ -241,7 +241,7 @@ cc-address-row-label =
     .value = Másolat
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
-    .label = Másolatot kap mező
+    .label = Másolat mező
     .accesskey = M
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
@@ -250,13 +250,13 @@ show-cc-row-extra-menuitem =
     .label = Másolat
     .accesskey = M
 #   $key (String) - the shortcut key for this field
-show-cc-row-button = Másolatot kap
+show-cc-row-button = Másolat
     .title = Másolatot kap mező megjelenítése ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 bcc-address-row-label =
     .value = Rejtett másolat
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
-    .label = Rejtett másolatot kap
+    .label = Rejtett másolat mező
     .accesskey = R
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
