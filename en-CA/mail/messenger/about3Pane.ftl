@@ -5,6 +5,26 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Toggle the Quick Filter Bar
+quick-filter-button-label = Quick Filter
+thread-pane-header-display-button =
+    .title = Message list display options
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } Message
+       *[other] { $count } Messages
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] { $count } Selected
+    }
+thread-pane-header-context-table-view =
+    .label = Table View
 
 ## Quick Filter Bar
 
