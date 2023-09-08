@@ -184,10 +184,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Kulcskezelő
     .accesskey = K
-openpgp-key-issue-notification-one = A végpontok közötti titkosításhoz meg kell oldani a kulcsproblémákat a következőnél: { $addr }
-openpgp-key-issue-notification-many = A végpontok közötti titkosításhoz meg kell oldani a kulcsproblémákat { $count } címzettnél.
-smime-cert-issue-notification-one = A végpontok közötti titkosításhoz meg kell oldani a tanúsítványproblémákat a következőnél: { $addr }
-smime-cert-issue-notification-many = A végpontok közötti titkosításhoz meg kell oldani a tanúsítványproblémákat { $count } címzettnél.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -242,7 +238,7 @@ show-to-row-extra-menuitem =
 show-to-row-button = Címzett
     .title = Címzett mező megjelenítése ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 cc-address-row-label =
-    .value = Másolatot kap
+    .value = Másolat
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
     .label = Másolatot kap mező
@@ -251,13 +247,13 @@ show-cc-row-main-menuitem =
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
-    .label = Másolatot kap
+    .label = Másolat
     .accesskey = M
 #   $key (String) - the shortcut key for this field
 show-cc-row-button = Másolatot kap
     .title = Másolatot kap mező megjelenítése ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 bcc-address-row-label =
-    .value = Rejtett másolatot kap
+    .value = Rejtett másolat
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
     .label = Rejtett másolatot kap
@@ -266,19 +262,13 @@ show-bcc-row-main-menuitem =
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
-    .label = Rejtett másolatot kap
+    .label = Rejtett másolat
     .accesskey = R
 #   $key (String) - the shortcut key for this field
-show-bcc-row-button = Rejtett másolatot kap
+show-bcc-row-button = Rejtett másolat
     .title = Rejtett másolatot kap mező megjelenítése ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = További megjelenítendő címzési mezők
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Az üzenetének nyilvános címzettje van. Elkerülheti a címzettek közzétételét, ha helyette rejtett másolatot használ.
-       *[other] A címzett és másolatot kapó { $count } partner látni fogja egymás címét. Elkerülheti a címzettek közzétételét, ha helyette rejtett másolatot használ.
-    }
 public-recipients-notice-single = Az üzenetének nyilvános címzettje van. Elkerülheti a címzett közzétételét, ha helyette rejtett másolatot használ.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
