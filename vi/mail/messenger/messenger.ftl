@@ -128,9 +128,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Chế độ xem thu gọn
     .accesskey = C
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -187,19 +184,14 @@ appmenu-settings =
     .label = Cài đặt
 appmenu-addons-and-themes =
     .label = Tiện ích mở rộng và chủ đề
-appmenu-help-enter-troubleshoot-mode =
-    .label = Chế độ xử lý sự cố…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Tắt chế độ xử lý sự cố
-appmenu-help-more-troubleshooting-info =
-    .label = Thông tin xử lý sự cố khác
-appmenu-redirect-msg =
-    .label = Chuyển hướng
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Chuyển hướng
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Hủy thư
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -207,9 +199,6 @@ mail-context-delete-messages =
         { $count ->
            *[other] Xóa các thư đã chọn
         }
-context-menu-decrypt-to-folder =
-    .label = Sao chép dưới dạng giải mã thành
-    .accesskey = y
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -301,7 +290,6 @@ no-reply-reply-anyway-button = Vẫn trả lời
 
 ## error messages
 
-decrypt-and-copy-failures = Không thể giải mã { $failures } trong tổng số { $total } thư.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
