@@ -28,6 +28,12 @@ alert-refresh = S'està intentant actualitzar la conversa xifrada amb { $name }.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 alert-gone-insecure = S'ha acabat la conversa xifrada amb { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+finger-unseen = La identitat de { $name } encara no s'ha verificat. No és possible l'espiament fortuït, però amb cert esforç algú podria estar escoltant. Per impedir que se us vigili, verifiqueu la identitat d'aquest contacte.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+finger-seen = { $name } us està contactant des d'un ordinador no reconegut. No és possible l'espiament fortuït, però amb cert esforç algú podria estar escoltant. Per impedir que se us vigili, verifiqueu la identitat d'aquest contacte.
 state-not-private = La conversa actual no és privada.
 state-generic-not-private = La conversa actual no és privada.
 # Variables:
