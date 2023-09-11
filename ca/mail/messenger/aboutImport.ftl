@@ -56,16 +56,50 @@ file-addressbook = Importa les llibretes d'adreces
 ## Import from app profile steps
 
 from-app-thunderbird = Importa un perfil del { app-name-thunderbird }
+from-app-seamonkey = Importa un perfil del { app-name-seamonkey }
 from-app-outlook = Importa de l'{ app-name-outlook }
+from-app-becky = Importa del { app-name-becky }
+from-app-apple-mail = Importa de l'{ app-name-apple-mail }
+profiles-pane-title-thunderbird = Importa els paràmetres i les dades d'un perfil del { app-name-thunderbird }.
+profiles-pane-title-seamonkey = Importa els paràmetres i les dades d'un perfil del { app-name-seamonkey }.
+profiles-pane-title-outlook = Importa les dades de l'{ app-name-outlook }.
+profiles-pane-title-becky = Importa les dades del { app-name-becky }.
+profiles-pane-title-apple-mail = Importa els missatges de l'{ app-name-apple-mail }.
+items-pane-directory = Directori:
+items-pane-profile-name = Nom del perfil:
+items-pane-checkbox-accounts = Comptes i paràmetres
+items-pane-checkbox-address-books = Llibretes d'adreces
+items-pane-checkbox-calendars = Calendaris
+items-pane-checkbox-mail-messages = Missatges de correu
+items-pane-override = Les dades existents o idèntiques no se sobreescriuran.
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Trieu el format del fitxer que conté les dades de la vostra llibreta d'adreces.
+addr-book-csv-file = Fitxer separat per comes o tabulacions (.csv, .tsv)
+addr-book-ldif-file = Fitxer LDIF (.ldif)
+addr-book-vcard-file = Fitxer vCard (.vcf, .vcard)
+addr-book-sqlite-file = Fitxer de base de dades SQLite (.sqlite)
+addr-book-mab-file = Fitxer de base de dades Mork (.mab)
+addr-book-file-picker = Seleccioneu el fitxer de la llibreta d'adreces
 
 ## Import from calendar file steps
 
+calendar-items-loading = S'estan carregant els elements…
+calendar-items-filter-input =
+    .placeholder = Filtra elements…
+calendar-select-all-items = Selecciona-ho tot
+calendar-deselect-all-items = Desselecciona-ho tot
+calendar-target-title = Seleccioneu on s'importaran els elements que heu triat.
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = S'està important… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = S'està exportant… { $progressPercent }
+progress-pane-finished-desc2 = S'ha acabat.
+error-pane-title = Error
 
 ## <csv-field-map> element
 
