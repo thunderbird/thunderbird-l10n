@@ -126,9 +126,15 @@ summary-pane-start-over = Reinicia l'eina d'importació
 ## Footer area
 
 footer-help = Necessiteu ajuda?
+footer-import-documentation = Documentació sobre la importació
+footer-export-documentation = Documentació sobre l'exportació
+footer-support-forum = Fòrum d'assistència
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = Passos d'importació
+step-confirm = Confirma
 # Variables:
 # $number (number) - step number
 step-count = { $number }
