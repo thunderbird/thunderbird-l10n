@@ -272,18 +272,34 @@ show-bcc-row-button = Cco
 extra-address-rows-menu-button =
     .title = Altres camps de l'adreçament per mostrar
 public-recipients-notice-single = El missatge té un destinatari públic. Es pot evitar la divulgació del destinatari utilitzant Cco.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+       *[other] Els { $count } destinataris dels camps «A» i «Cc» veuran la identitat els uns dels altres. Si no voleu que els destinataris es vegin mútuament, utilitzeu «Cco».
+    }
 many-public-recipients-bcc =
     .label = Utilitza CCo
     .accesskey = U
 many-public-recipients-ignore =
     .label = Mantén els destinataris públics
     .accesskey = M
+many-public-recipients-prompt-title = Massa destinataris públics
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [one] El missatge té un destinatari públic. Això pot ser un problema per a la privadesa. Es pot evitar movent el destinatari dels camps «A» o «Cc» cap a «Cco».
+       *[other] El missatge té { $count } destinataris públics, que veuran la identitat els uns dels altres. Això pot ser un problema de privadesa. Es pot evitar movent el destinatari dels camps «A» o «Cc» cap a «Cco».
+    }
+many-public-recipients-prompt-cancel = Cancel·la l'enviament
+many-public-recipients-prompt-send = Envia igualment
 
 ## Notifications
 
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
 compose-missing-identity-warning = S'ha trobat més d'una identitat que coincideix amb l'adreça «De». El missatge s'enviarà amb el camp «De» actual i amb els paràmetres de la identitat «{ $identity }».
+encrypted-bcc-warning = Quan s'envia un missatge xifrat, els destinataris del camp «Cco»  no estan totalment ocults. Tots els destinataris podrien identificar-los.
 
 ## Editing
 
