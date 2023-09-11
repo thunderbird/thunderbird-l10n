@@ -373,9 +373,37 @@ cloud-file-connection-error-title = Error de connexió
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = El { -brand-short-name } està desconnectat. No es pot connectar a { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = No s'ha pogut pujar { $filename } a { $provider }
+cloud-file-rename-error-title = Error en canviar de nom
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Hi ha hagut un problema en canviar el nom de { $filename } a { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = No s'ha pogut canviar el nom de { $filename } a { $provider }
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } no permet canviar el nom dels fitxers ja pujats.
+cloud-file-attachment-error-title = Error d'adjunció de Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = No s'ha pogut actualitzar l'adjunció de Filelink { $filename } perquè el fitxer local s'ha mogut o suprimit.
+cloud-file-account-error-title = Error de compte de Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = No s'ha pogut actualitzar l'adjunció de Filelink { $filename } perquè s'ha suprimit el compte de Filelink.
 
 ## Link Preview
 
+link-preview-title = Previsualització de l'enllaç
+link-preview-description = El { -brand-short-name } pot afegir una previsualització incrustada quan s'enganxa un enllaç.
+link-preview-autoadd = Afegeix automàticament una previsualització de l'enllaç sempre que sigui possible
+link-preview-replace-now = Voleu afegir una previsualització de l'enllaç per a aquest enllaç?
 link-preview-yes-replace = Sí
 
 ## Dictionary selection popup
