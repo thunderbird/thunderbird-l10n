@@ -13,6 +13,7 @@ import-start-description = Seleccioneu la font des de la qual voleu importar. M�
 import-from-app = Importa d'una aplicació
 import-file = Importa d'un fitxer
 import-file-title = Seleccioneu un fitxer per importar-ne el contingut.
+import-file-description = Trieu importar un perfil amb còpia de seguretat prèvia, llibretes d'adreces o calendaris.
 import-address-book-title = Importa un fitxer de llibreta d'adreces
 import-calendar-title = Importa un fitxer de calendari
 export-profile = Exporta
@@ -32,10 +33,16 @@ app-name-outlook = Outlook
 app-name-becky = Becky! Internet Mail
 app-name-apple-mail = Apple Mail
 source-thunderbird = Importa d'una altra instal·lació del { app-name-thunderbird }
+source-thunderbird-description = Importeu els paràmetres, els filtres, els missatges i altres dades d'un perfil del { app-name-thunderbird }.
 source-seamonkey = Importa d'una instal·lació del { app-name-seamonkey }
+source-seamonkey-description = Importeu els paràmetres, els filtres, els missatges i altres dades d'un perfil del { app-name-seamonkey }.
 source-outlook = Importa de l'{ app-name-outlook }
+source-outlook-description = Importeu els comptes, les llibretes d'adreces i els missatges de l'{ app-name-outlook }.
 source-becky = Importa del { app-name-becky }
+source-becky-description = Importeu les llibretes d'adreces i els missatges del { app-name-becky }.
 source-apple-mail = Importa de l'{ app-name-apple-mail }
+source-apple-mail-description = Importeu els missatges de l'{ app-name-apple-mail }.
+source-file2 = Importa d'un fitxer
 source-file-description = Seleccioneu un fitxer per importar les llibretes d'adreces, els calendaris o la còpia de seguretat d'un perfil (fitxer ZIP).
 
 ## Import from file selections
@@ -48,6 +55,8 @@ file-addressbook = Importa les llibretes d'adreces
 
 ## Import from app profile steps
 
+from-app-thunderbird = Importa un perfil del { app-name-thunderbird }
+from-app-outlook = Importa de l'{ app-name-outlook }
 
 ## Import from address book file steps
 
