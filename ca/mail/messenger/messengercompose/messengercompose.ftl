@@ -198,9 +198,80 @@ openpgp-key-issue-notification-multi =
         [one] Per utilitzar el xifratge d'extrem a extrem, heu de resoldre els problemes de claus d'{ $count } destinatari.
        *[other] Per utilitzar el xifratge d'extrem a extrem, heu de resoldre els problemes de claus de { $count } destinataris.
     }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Per utilitzar el xifratge d'extrem a extrem, heu de resoldre els problemes de certificat de { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Per utilitzar el xifratge d'extrem a extrem, heu de resoldre els problemes de certificat d'1 { $count } destinatari.
+       *[other] Per utilitzar el xifratge d'extrem a extrem, heu de resoldre els problemes de certificat de { $count } destinataris.
+    }
+key-notification-disable-encryption =
+    .label = No xifris
+    .accesskey = N
+    .tooltiptext = Desactiva el xifratge d'extrem a extrem
+key-notification-resolve =
+    .label = Resol…
+    .accesskey = R
+    .tooltiptext = Obre l'assistent de claus d'OpenPGP
+can-encrypt-smime-notification = El xifratge d'extrem a extrem amb S/MIME és possible.
+can-encrypt-openpgp-notification = El xifratge d'extrem a extrem amb OpenPGP és possible.
+can-e2e-encrypt-button =
+    .label = Xifra
+    .accesskey = X
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = A
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .label = Camp A
+    .accesskey = A
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { $key }
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = A
+    .accesskey = A
+#   $key (String) - the shortcut key for this field
+show-to-row-button = A
+    .title = Mostra el camp A ({ ctrl-cmd-shift-pretty-prefix } { $key })
+cc-address-row-label =
+    .value = Cc
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = Camp Cc
+    .accesskey = C
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { $key }
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Cc
+    .accesskey = C
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Cc
+    .title = Mostra el camp Cc ({ ctrl-cmd-shift-pretty-prefix } { $key })
+bcc-address-row-label =
+    .value = Cco
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .label = Camp Cco
+    .accesskey = o
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = Cco
+    .accesskey = o
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = Cco
+    .title = Mostra el camp Cco (){ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = Altres camps de l'adreçament per mostrar
+public-recipients-notice-single = El missatge té un destinatari públic. Es pot evitar la divulgació del destinatari utilitzant Cco.
 many-public-recipients-bcc =
     .label = Utilitza CCo
     .accesskey = U
