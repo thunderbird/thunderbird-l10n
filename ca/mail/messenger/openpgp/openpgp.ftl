@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+e2e-intro-description = Per enviar missatges xifrats o signats digitalment, heu de configurar una tecnologia de xifratge, ja sigui OpenPGP o S/MIME.
 
 ## e2e encryption settings
 
