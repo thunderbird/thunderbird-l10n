@@ -52,6 +52,7 @@ file-profile-description = Seleccioneu un perfil del Thunderbird amb còpia de s
 file-calendar = Importa els calendaris
 file-calendar-description = Seleccioneu un fitxer que contingui calendaris o cites exportats (.ics)
 file-addressbook = Importa les llibretes d'adreces
+file-addressbook-description = Seleccioneu un fitxer que contingui llibretes d'adreces i contactes exportats
 
 ## Import from app profile steps
 
@@ -100,18 +101,34 @@ progress-pane-importing2 = S'està important… { $progressPercent }
 progress-pane-exporting2 = S'està exportant… { $progressPercent }
 progress-pane-finished-desc2 = S'ha acabat.
 error-pane-title = Error
+error-message-zip-file-too-big2 = El fitxer ZIP seleccionat és més gran de 2 GB. Primer descomprimiu-lo i, a continuació, importeu-lo des de la carpeta on l'heu extret.
+error-message-extract-zip-file-failed2 = No s'ha pogut extreure el fitxer ZIP. Descomprimiu-lo manualment i, a continuació, importeu-lo des de la carpeta on l'heu extret.
+error-message-failed = La importació ha fallat inesperadament; pot ser que hi hagi disponible més informació a la consola d'errors.
+error-failed-to-parse-ics-file = No s'ha trobat cap element importable en el fitxer.
+error-export-failed = L'exportació ha fallat inesperadament; pot ser que hi hagi disponible més informació a la consola d'errors.
+error-message-no-profile = No s'ha trobat cap perfil.
 
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = La primera fila conté els noms dels camps
 
 ## Export tab
 
+export-file-picker2 = Exporta a un fitxer ZIP
+export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-title = Dades que s'importaran
+summary-pane-start = Inicia la importació
+summary-pane-start-over = Reinicia l'eina d'importació
 
 ## Footer area
 
+footer-help = Necessiteu ajuda?
 
 ## Step navigation on top of the wizard pages
 
+# Variables:
+# $number (number) - step number
+step-count = { $number }
