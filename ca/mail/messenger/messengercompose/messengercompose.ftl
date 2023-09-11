@@ -184,6 +184,20 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestor de claus
     .accesskey = G
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = El compte  { $addr } no està configurat per enviar missatges xifrats d'extrem a extrem.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Per utilitzar el xifratge d'extrem a extrem, heu de resoldre els problemes de claus de { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Per utilitzar el xifratge d'extrem a extrem, heu de resoldre els problemes de claus d'{ $count } destinatari.
+       *[other] Per utilitzar el xifratge d'extrem a extrem, heu de resoldre els problemes de claus de { $count } destinataris.
+    }
 
 ## Addressing Area
 
