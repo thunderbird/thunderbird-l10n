@@ -51,7 +51,7 @@ quick-filter-bar-dropdown =
 quick-filter-bar-dropdown-unread =
     .label = Neprebrana
 quick-filter-bar-dropdown-starred =
-    .label = Označena z zvezdico
+    .label = Z zvezdico
 quick-filter-bar-dropdown-inaddrbook =
     .label = Stik
 quick-filter-bar-dropdown-tags =
@@ -71,7 +71,7 @@ quick-filter-bar-starred =
     .title = Prikaži samo sporočila z zvezdico
 # The label for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
-quick-filter-bar-starred-label = Označena z zvezdico
+quick-filter-bar-starred-label = Z zvezdico
 # The tooltip for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.
