@@ -25,6 +25,10 @@ thread-pane-folder-selected-count =
     }
 thread-pane-header-context-table-view =
     .label = Table View
+thread-pane-header-context-cards-view =
+    .label = Cards View
+thread-pane-header-context-hide =
+    .label = Hide Message List Header
 
 ## Quick Filter Bar
 
@@ -35,6 +39,20 @@ thread-pane-header-context-table-view =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Keep filters applied when switching folders
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Quick filter menu
+quick-filter-bar-dropdown-unread =
+    .label = Unread
+quick-filter-bar-dropdown-starred =
+    .label = Starred
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Contact
+quick-filter-bar-dropdown-tags =
+    .label = Tags
+quick-filter-bar-dropdown-attachment =
+    .label = Attachment
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -138,29 +156,92 @@ quick-filter-bar-gloda-upsell-line2 = Press ‘Enter’ again to continue your s
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Get Messages
 folder-pane-get-all-messages-menuitem =
     .label = Get All New Messages
     .accesskey = G
+folder-pane-write-message-button = New Message
+    .title = Compose a new message
+folder-pane-more-menu-button =
+    .title = Folder pane options
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Folder Modes
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Show “Get Messages”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Show “New Message”
+folder-pane-header-context-hide =
+    .label = Hide Folder Pane Header
+folder-pane-show-total-toggle =
+    .label = Show Total Message Count
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Show Folder Size
+folder-pane-header-hide-local-folders =
+    .label = Hide Local Folders
+folder-pane-mode-context-button =
+    .title = Folder mode options
 folder-pane-mode-context-toggle-compact-mode =
     .label = Compact View
     .accesskey = C
+folder-pane-mode-move-up =
+    .label = Move Up
+folder-pane-mode-move-down =
+    .label = Move Down
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 unread message
+       *[other] { $count } unread messages
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 total message
+       *[other] { $count } total messages
+    }
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Toggle select all messages
+threadpane-column-header-select-all =
+    .title = Select all messages
+threadpane-column-header-deselect-all =
+    .title = Deselect all messages
 threadpane-column-label-select =
     .label = Select Messages
+threadpane-column-header-thread =
+    .title = Toggle message threads
 threadpane-column-label-thread =
     .label = Thread
 threadpane-column-header-flagged =
     .title = Sort by star
 threadpane-column-label-flagged =
     .label = Starred
+threadpane-flagged-cell-label = Starred
 threadpane-column-header-attachments =
     .title = Sort by attachments
 threadpane-column-label-attachments =
     .label = Attachments
+threadpane-attachments-cell-label = Attachments
+threadpane-column-header-spam =
+    .title = Sort by spam status
+threadpane-column-label-spam =
+    .label = Spam
+threadpane-spam-cell-label = Spam
+threadpane-column-header-unread-button =
+    .title = Sort by read status
+threadpane-column-label-unread-button =
+    .label = Read status
+threadpane-read-cell-label = Read
+threadpane-unread-cell-label = Unread
 threadpane-column-header-sender = From
     .title = Sort by from
 threadpane-column-label-sender =
@@ -228,6 +309,30 @@ threadpane-column-label-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = New message indicator
+    .title = New message
+threadpane-message-replied =
+    .alt = Replied indicator
+    .title = Message replied
+threadpane-message-redirected =
+    .alt = Redirected indicator
+    .title = Message redirected
+threadpane-message-forwarded =
+    .alt = Forwarded indicator
+    .title = Message forwarded
+threadpane-message-replied-forwarded =
+    .alt = Replied and forwarded indicator
+    .title = Message replied and forwarded
+threadpane-message-replied-redirected =
+    .alt = Replied and redirected indicator
+    .title = Message replied and redirected
+threadpane-message-forwarded-redirected =
+    .alt = Forwarded and redirected indicator
+    .title = Message forwarded and redirected
+threadpane-message-replied-forwarded-redirected =
+    .alt = Replied, forwarded, and redirected indicator
+    .title = Message replied, forwarded, and redirected
 apply-columns-to-menu =
     .label = Apply columns to…
 apply-current-view-to-menu =
