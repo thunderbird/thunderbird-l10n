@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Yoğun görünüm
     .accesskey = Y
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -188,19 +185,14 @@ appmenu-settings =
     .label = Ayarlar
 appmenu-addons-and-themes =
     .label = Eklentiler ve temalar
-appmenu-help-enter-troubleshoot-mode =
-    .label = Sorun giderme modu…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Sorun giderme modunu kapat
-appmenu-help-more-troubleshooting-info =
-    .label = Diğer sorun giderme bilgileri
-appmenu-redirect-msg =
-    .label = Yönlendir
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Yönlendir
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = İletiyi iptal et
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -209,9 +201,6 @@ mail-context-delete-messages =
             [one] İletiyi sil
            *[other] Seçilmiş iletileri sil
         }
-context-menu-decrypt-to-folder =
-    .label = Şifresi çözülmüş olarak kopyala
-    .accesskey = f
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -303,7 +292,6 @@ no-reply-reply-anyway-button = Yine de yanıtla
 
 ## error messages
 
-decrypt-and-copy-failures = { $total } iletinin { $failures } tanesinin şifresi çözülemedi ve bu iletiler kopyalanmadı.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
