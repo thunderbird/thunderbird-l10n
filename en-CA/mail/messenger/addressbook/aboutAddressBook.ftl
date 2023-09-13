@@ -82,43 +82,48 @@ about-addressbook-sort-email-ascending =
     .label = Sort by e-mail address (A > Z)
 about-addressbook-sort-email-descending =
     .label = Sort by e-mail address (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Switch to horizontal layout
-about-addressbook-vertical-layout =
-    .label = Switch to vertical layout
 about-addressbook-table-layout =
     .label = Table layout
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Name
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Email Addresses
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Nickname
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
-about-addressbook-column-header-phonenumbers = Phone Numbers
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Addresses
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Title
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Department
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organization
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Address Book
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
+about-addressbook-column-header-generatedname2 = Name
+    .title = Sort by name
+about-addressbook-column-label-generatedname2 =
+    .label = Name
+about-addressbook-column-header-emailaddresses2 = Email Addresses
+    .title = Sort by email addresses
+about-addressbook-column-label-emailaddresses2 =
+    .label = Email Addresses
+about-addressbook-column-header-nickname2 = Nickname
+    .title = Sort by nickname
+about-addressbook-column-label-nickname2 =
+    .label = Nickname
+about-addressbook-column-header-phonenumbers2 = Phone Numbers
+    .title = Sort by phone numbers
+about-addressbook-column-label-phonenumbers2 =
+    .label = Phone Numbers
+about-addressbook-column-header-addresses2 = Addresses
+    .title = Sort by addresses
+about-addressbook-column-label-addresses2 =
+    .label = Addresses
+about-addressbook-column-header-title2 = Title
+    .title = Sort by title
+about-addressbook-column-label-title2 =
+    .label = Title
+about-addressbook-column-header-department2 = Department
+    .title = Sort by department
+about-addressbook-column-label-department2 =
+    .label = Department
+about-addressbook-column-header-organization2 = Organization
+    .title = Sort by organization
+about-addressbook-column-label-organization2 =
+    .label = Organization
+about-addressbook-column-header-addrbook2 = Address Book
+    .title = Sort by address book
+about-addressbook-column-label-addrbook2 =
+    .label = Address Book
 about-addressbook-cards-context-write =
     .label = Write
 about-addressbook-confirm-delete-mixed-title = Delete Contacts and Lists
@@ -148,12 +153,14 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Remove Contacts
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
+# $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
+about-addressbook-confirm-remove-contacts-single = Are you sure you want to remove { $name } from { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
     { $count ->
-        [one] Are you sure you want to remove { $name } from { $list }?
        *[other] Are you sure you want to remove these { $count } contacts from { $list }?
     }
 # Variables:
@@ -164,11 +171,12 @@ about-addressbook-confirm-delete-contacts-title =
        *[other] Delete Contacts
     }
 # Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Are you sure you want to delete the contact { $name }?
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
+about-addressbook-confirm-delete-contacts-multi =
     { $count ->
-        [one] Are you sure you want to delete the contact { $name }?
        *[other] Are you sure you want to delete these { $count } contacts?
     }
 
@@ -184,14 +192,25 @@ about-addressbook-placeholder-no-search-results = No contacts found
 ## Details
 
 # Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } selected contacts and lists
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+       *[other] { $count } selected address book entries
+    }
 # Variables:
 # $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } selected contact
+       *[other] { $count } selected contacts
+    }
 # Variables:
 # $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } selected list
+       *[other] { $count } selected lists
+    }
 about-addressbook-details-edit-photo =
     .title = Edit contact photo
 about-addressbook-new-contact-header = New Contact

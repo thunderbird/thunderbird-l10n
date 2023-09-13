@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Turn Troubleshoot Mode Off
     .accesskey = O
-menu-help-more-troubleshooting-info =
-    .label = More Troubleshooting Information
-    .accesskey = M
 menu-help-troubleshooting-info =
     .label = Troubleshooting Information
     .accesskey = T
@@ -92,8 +89,17 @@ menu-view-repair-text-encoding =
     .label = Repair Text Encoding
     .accesskey = c
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Folder Pane Header
+    .accesskey = F
+
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Message List Header
+    .accesskey = H
 menu-font-size-label =
     .label = Font Size
     .accesskey = o
@@ -112,12 +118,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Compact
     .accesskey = C
-mail-uidensity-normal =
-    .label = Normal
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Touch
-    .accesskey = T
 mail-uidensity-default =
     .label = Default
     .accesskey = D

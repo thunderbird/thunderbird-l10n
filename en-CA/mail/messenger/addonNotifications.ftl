@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Never Allow
     .accesskey = N
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Report Suspicious Site
+    .accesskey = R
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = This site is requesting access to your MIDI (Musical Instrument Digital Interface) devices. Device access can be enabled by installing an add-on.
+site-permission-install-first-prompt-midi-message = This access is not guaranteed to be safe. Only continue if you trust this site.
 
 ##
 
@@ -44,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) is blocked by your system administrator.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Your system administrator prevented this site from asking you to install software on your computer.
+addon-install-full-screen-blocked = Add-on installation is not allowed while in or before entering fullscreen mode.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } added to { -brand-short-name }
@@ -53,6 +61,14 @@ webext-perms-update-menu-item = { $addonName } requires new permissions
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Remove { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Remove { $name } from { -brand-shorter-name }?
+addon-removal-button = Remove
+addon-removal-abuse-report-checkbox = Report this extension to { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -94,6 +110,7 @@ addon-install-error-incorrect-hash = The add-on could not be installed because i
 addon-install-error-corrupt-file = The add-on downloaded from this site could not be installed because it appears to be corrupt.
 addon-install-error-file-access = { $addonName } could not be installed because { -brand-short-name } cannot modify the needed file.
 addon-install-error-not-signed = { -brand-short-name } has prevented this site from installing an unverified add-on.
+addon-install-error-invalid-domain = The add-on { $addonName } can not be installed from this location.
 addon-local-install-error-network-failure = This add-on could not be installed because of a filesystem error.
 addon-local-install-error-incorrect-hash = This add-on could not be installed because it does not match the add-on { -brand-short-name } expected.
 addon-local-install-error-corrupt-file = This add-on could not be installed because it appears to be corrupt.
