@@ -200,6 +200,12 @@ openpgp-key-issue-notification-multi =
 # Variables:
 # $addr (String) - mail address with certificate issues.
 smime-cert-issue-notification-single = End-to-end encryption requires resolving certificate issues for { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+       *[other] End-to-end encryption requires resolving certificate issues for { $count } recipients.
+    }
 key-notification-disable-encryption =
     .label = Do Not Encrypt
     .accesskey = D
@@ -263,6 +269,13 @@ show-bcc-row-button = Bcc
     .title = Show Bcc Field ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Other addressing fields to show
+public-recipients-notice-single = Your message has a public recipient. You can avoid disclosing the recipient by using Bcc instead.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+       *[other] The { $count } recipients in To and Cc will see each other’s address. You can avoid disclosing recipients by using Bcc instead.
+    }
 many-public-recipients-bcc =
     .label = Use Bcc Instead
     .accesskey = U
@@ -286,6 +299,7 @@ many-public-recipients-prompt-send = Send Anyway
 compose-missing-identity-warning = A unique identity matching the From address was not found. The message will be sent using the current From field and settings from identity { $identity }.
 encrypted-bcc-warning = When sending an encrypted message, recipients in Bcc are not fully hidden. All recipients may be able to identify them.
 encrypted-bcc-ignore-button = Understood
+auto-disable-e2ee-warning = End-to-end encryption for this message was automatically disabled.
 
 ## Editing
 

@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Calendar
 category-calendar =
     .tooltiptext = Calendar
+pane-sync-title = Sync
+category-sync =
+    .tooltiptext = Sync
 general-language-and-appearance-header = Language & Appearance
 general-incoming-mail-header = Incoming Mails
 general-files-and-attachment-header = Files & Attachments
@@ -124,6 +127,8 @@ remove-search-engine =
 add-opensearch-provider-title = Add OpenSearch Provider
 add-opensearch-provider-text = Enter the URL of the OpenSearch provider to add. Either use the direct URL of the OpenSearch Description file, or a URL where it can be auto-discovered.
 adding-opensearch-provider-failed-title = Adding OpenSearch Provider Failed
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Could not add OpenSearch Provider for { $url }.
 minimize-to-tray-label =
     .label = When { -brand-short-name } is minimized, move it to the tray
@@ -194,6 +199,14 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Always show scrollbars
     .accesskey = c
+window-layout-legend = Window Layout
+draw-in-titlebar-label =
+    .label = Hide system window titlebar
+    .accesskey = H
+auto-hide-tabbar-label =
+    .label = Auto hide tab bar
+    .accesskey = A
+auto-hide-tabbar-description = Hide the tab bar when only a single tab is open
 system-integration-legend = System Integration
 always-check-default =
     .label = Always check to see if { -brand-short-name } is the default mail client on startup
@@ -274,6 +287,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Clear Now
     .accesskey = C
+clear-cache-shutdown-label =
+    .label = Clear cache on shutdown
+    .accesskey = s
 fonts-legend = Fonts & Colours
 default-font-label =
     .value = Default font:
@@ -528,23 +544,12 @@ third-party-never =
     .label = Never
 third-party-visited =
     .label = From visited
-keep-label =
-    .value = Keep until:
-    .accesskey = K
-keep-expire =
-    .label = they expire
-keep-close =
-    .label = I close { -brand-short-name }
-keep-ask =
-    .label = ask me every time
 cookies-button =
     .label = Show Cookies…
     .accesskey = S
 do-not-track-label =
     .label = Send websites a “Do Not Track” signal that you don’t want to be tracked
     .accesskey = n
-learn-button =
-    .label = Learn more
 dnt-learn-more-button =
     .value = Learn more
 passwords-description = { -brand-short-name } can remember passwords for all of your accounts.
@@ -606,6 +611,22 @@ certificate-button =
 security-devices-button =
     .label = Security Devices…
     .accesskey = D
+email-e2ee-header = Email End-To-End Encryption
+account-settings = Account Settings
+email-e2ee-enable-info = Set up email accounts and identities for End-To-End Encryption in Account Settings.
+email-e2ee-automatism = Automatic Use of Encryption
+email-e2ee-automatism-pre =
+    { -brand-short-name } can assist by automatically enabling or disabling encryption while composing an email.
+    Auto enabling/disabling is based on the availability of valid and accepted correspondents’ keys or certificates.
+email-e2ee-auto-on =
+    .label = Automatically enable encryption when possible
+email-e2ee-auto-off =
+    .label = Automatically disable encryption when recipients change and encryption is no longer possible
+email-e2ee-auto-off-notify =
+    .label = Show a notification whenever encryption is disabled automatically
+email-e2ee-automatism-post =
+    Automatic decisions may be overridden by manually enabling or disabling encryption when composing a message.
+    Note: encryption is always automatically enabled when replying to an encrypted message.
 
 ## Chat Tab
 
@@ -716,3 +737,42 @@ search-results-help-link = Need help? Visit <a data-l10n-name="url">{ -brand-sho
 
 ## Sync Tab
 
+sync-signedout-caption = Take Your Web With You
+sync-signedout-description = Synchronize your accounts, address books, calendars, add-ons, and settings across all your devices.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Sign in to Sync…
+sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” is not verified.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Please sign in to reconnect “{ $userEmail }”
+sync-pane-resend-verification = Resend verification
+sync-pane-sign-in = Sign in
+sync-pane-remove-account = Remove account
+sync-pane-edit-photo =
+    .title = Change profile picture
+sync-pane-manage-account = Manage account
+sync-pane-sign-out = Sign out…
+sync-pane-device-name-title = Device Name
+sync-pane-change-device-name = Change device name
+sync-pane-cancel = Cancel
+sync-pane-save = Save
+sync-pane-show-synced-header-on = Syncing ON
+sync-pane-show-synced-header-off = Syncing OFF
+sync-pane-sync-now = Sync Now
+sync-panel-sync-now-syncing = Syncing…
+show-synced-list-heading = You are currently syncing these items:
+show-synced-learn-more = Learn more…
+show-synced-item-account = Email Accounts
+show-synced-item-address = Address Books
+show-synced-item-calendar = Calendars
+show-synced-item-identity = Identities
+show-synced-item-passwords = Passwords
+show-synced-change = Change…
+synced-acount-item-server-config = Server configuration
+synced-acount-item-filters = Filters
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Synchronize your email accounts, address books, calendars, and identities across all your devices.
+sync-disconnected-turn-on-sync = Turn on Syncing…

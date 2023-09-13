@@ -2,23 +2,18 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+fonts-dialog-title = Fonts
 fonts-window-close =
     .key = w
-
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Default ({ $name })
 fonts-label-default-unnamed =
     .label = Default
-
-fonts-encoding-dialog-title =
-    .title = Fonts & Encodings
-
 fonts-language-legend =
     .value = Fonts for:
     .accesskey = t
-
 fonts-proportional-label =
     .value = Proportional:
     .accesskey = P
@@ -89,45 +84,35 @@ font-language-group-tibetan =
 
 default-font-serif =
     .label = Serif
-
 default-font-sans-serif =
     .label = Sans Serif
-
 font-size-proportional-label =
     .value = Size:
     .accesskey = e
-
 font-size-monospace-label =
     .value = Size:
     .accesskey = i
-
 font-serif-label =
     .value = Serif:
     .accesskey = S
-
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
-
 font-monospace-label =
     .value = Monospace:
     .accesskey = M
-
 font-min-size-label =
     .value = Minimum font size:
     .accesskey = z
-
 min-size-none =
     .label = None
 
 ## Fonts in message
 
 font-control-legend = Font Control
-
 use-document-fonts-checkbox =
     .label = Allow messages to use other fonts
     .accesskey = o
-
 use-fixed-width-plain-checkbox =
     .label = Use fixed width font for plain text messages
     .accesskey = x
@@ -135,17 +120,13 @@ use-fixed-width-plain-checkbox =
 ## Language settings
 
 text-encoding-legend = Text Encoding
-
 text-encoding-description = Set the default text encoding for sending and receiving mail
-
 font-outgoing-email-label =
     .value = Outgoing Mail:
     .accesskey = u
-
 font-incoming-email-label =
     .value = Incoming Mail:
     .accesskey = I
-
 default-font-reply-checkbox =
     .label = When possible, use the default text encoding in replies
     .accesskey = h
