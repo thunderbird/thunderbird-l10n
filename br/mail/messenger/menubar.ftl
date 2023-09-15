@@ -38,6 +38,9 @@ menu-quit-mac =
 
 ## View / Layout
 
+menu-spaces-toolbar-button =
+    .label = Barrenn ar Spasoù
+    .accesskey = S
 
 ## File
 

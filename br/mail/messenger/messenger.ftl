@@ -37,9 +37,6 @@ show-tags-folders-label =
     .label = Merkoù
     .accesskey = M
 
-## Menu
-
-
 ## File Menu
 
 
@@ -127,17 +124,49 @@ mail-context-undelete-messages =
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Barenn ar Spasoù
+    .aria-label = Barenn ar Spasoù
+    .aria-description = Barenn a-blom evit cheñch etre ar spasoù.
+spaces-toolbar-button-mail2 =
+    .title = Postel
+spaces-toolbar-button-address-book2 =
+    .title = Karned chomlec’hioù
+spaces-toolbar-button-calendar2 =
+    .title = Deiziataer
+spaces-toolbar-button-tasks2 =
+    .title = Trevelloù
 spaces-toolbar-button-chat2 =
     .title = Flapva
+spaces-toolbar-button-overflow =
+    .title = Muioc’h a Spasoù…
 spaces-toolbar-button-settings2 =
     .title = Arventennoù
+spaces-toolbar-button-hide =
+    .title = Kuzh barenn ar Spasoù
+spaces-toolbar-button-show =
+    .title = Diskouez ar barenn ar Spasoù
+spaces-context-new-tab-item =
+    .label = Digeriñ en un ivinell nevez
+spaces-context-new-window-item =
+    .label = Digeriñ en ur prenestr nevez
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = Mont da { $tabName }
 settings-context-open-settings-item2 =
     .label = Arventennoù
 settings-context-open-account-settings-item2 =
     .label = Arventennoù ar gont
+settings-context-open-addons-item2 =
+    .label = Askouezhioù ha Neuzioù
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Lañser ar Spasoù
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =
     .label = { spaces-toolbar-button-address-book2.title }
 spaces-pinned-button-menuitem-calendar2 =
@@ -153,6 +182,11 @@ spaces-pinned-button-menuitem-show =
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Personelaat…
+spaces-customize-background-color = Liv an drekleur
+customize-panel-button-save = Graet
+    .accesskey = G
 
 ## Quick Filter Bar
 
