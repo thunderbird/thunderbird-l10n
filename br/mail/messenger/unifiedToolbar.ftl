@@ -29,6 +29,9 @@ customize-space-tab-chat = Flapva
 customize-space-tab-settings = Arventennoù
     .title = Arventennoù
 customize-button-style-icons-beside-text-option = Arlunioù ouzhpenn an destenn
+customize-spaces-tabs =
+    .aria-label = Spasoù
+customize-palette-generic-title = Hegerz evit an holl Spasoù
 
 ## Unified toolbar customization palette context menu
 
