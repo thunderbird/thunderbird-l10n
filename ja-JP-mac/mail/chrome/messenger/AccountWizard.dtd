@@ -5,7 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label		"アカウントアシスタント">
-<!ENTITY accountWizard.size		"width: 42em; height: 39em;"><!-- (^^; en-US: width: 40em; height: 38em; -->
 
 <!-- Entities for Identity page -->
 
