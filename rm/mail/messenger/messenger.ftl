@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista cumpacta
     .accesskey = c
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -188,19 +185,14 @@ appmenu-settings =
     .label = Parameters
 appmenu-addons-and-themes =
     .label = Supplements e designs
-appmenu-help-enter-troubleshoot-mode =
-    .label = Modus per schliar problems…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Deactivar il modus per schliar problems
-appmenu-help-more-troubleshooting-info =
-    .label = Dapli infurmaziuns per schliar problems
-appmenu-redirect-msg =
-    .label = Renviar
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Renviar
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Sbittar il messadi
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -209,9 +201,6 @@ mail-context-delete-messages =
             [one] Stizzar il messadi
            *[other] Stizzar ils messadis tschernids
         }
-context-menu-decrypt-to-folder =
-    .label = Copiar sco decriptà en
-    .accesskey = i
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -303,7 +292,6 @@ no-reply-reply-anyway-button = Tuttina respunder
 
 ## error messages
 
-decrypt-and-copy-failures = I n'è betg reussì da decriptar { $failures } da { $total } messadis. Quels n'èn betg vegnids copiads.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
