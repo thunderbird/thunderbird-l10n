@@ -8,9 +8,9 @@
 <!ENTITY folderRebuildSummaryFileTip2.label      "Özet dosyası indeksini yeniden oluştur">
 <!ENTITY folderRebuildSummaryFile2.label         "Dizini onar">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "r">
-<!ENTITY folderRebuildSummaryFile.explanation    "Bazen dizin indeks dosyası (.msf) hasar görebilir ve iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Dizini onarmak bu sorunları çözebilir.">
+<!ENTITY folderRebuildSummaryFile.explanation    "Bazen dizin indeks dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Dizini onarmak bu sorunları çözebilir.">
 <!ENTITY folderIncludeInGlobalSearch.label       "Bu dizindeki iletileri global arama sonuçlarına dahil et">
-<!ENTITY folderIncludeInGlobalSearch.accesskey   "g">
+<!ENTITY folderIncludeInGlobalSearch.accesskey   "o">
 
 <!ENTITY retention.label "Kayıt ilkeleri">
 <!ENTITY retentionUseAccount.label  "Hesap ayarlarımı kullan">
