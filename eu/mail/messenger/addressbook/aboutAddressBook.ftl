@@ -82,40 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = Ordenatu Eposta helbideaz (A > Z)
 about-addressbook-sort-email-descending =
     .label = Ordenatu Eposta helbideaz (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Aldatu diseinu horizontalera
-about-addressbook-vertical-layout =
-    .label = Aldatu diseinu bertikalera
 about-addressbook-table-layout =
     .label = Taula diseinua
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Izena
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Helbide elektronikoak
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Telefono zenbakiak
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Helbideak
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Izenburua
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Saila
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Erakundea
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Helbide-liburua
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Izena
     .title = Izenez ordenatu
 about-addressbook-column-label-generatedname2 =
@@ -182,15 +154,6 @@ about-addressbook-confirm-remove-contacts-title =
     }
 # Variables:
 # $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Ziur zaude { $name } ezabatu nahi duzula { $list } zerrendatik?
-       *[other] Ziur zaude { $name } kontaktuak ezabatu nahi dituzula { $list } zerrendatik?
-    }
-# Variables:
-# $count (Number) - The number of contacts to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-multi =
     { $count ->
@@ -203,14 +166,6 @@ about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Ezabatu kontaktua
        *[other] Ezabatu kontaktuak
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Ziur zaude { $name } kontaktua ezabatu nahi duzula?
-       *[other] Ziur zaude { $name } kontaktu hauek ezabatu nahi dituzula?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -233,6 +188,13 @@ about-addressbook-selection-contacts-header2 =
     { $count ->
         [one] Kontaktu { $count } hautatua
        *[other] { $count } kontaktu hautatuak
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } zerrenda hautatua
+       *[other] { $count } zerrenda hautatuak
     }
 about-addressbook-details-edit-photo =
     .title = Editatu kontaktuaren argazkia
