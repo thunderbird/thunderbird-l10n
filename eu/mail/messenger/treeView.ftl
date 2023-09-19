@@ -48,3 +48,6 @@ tree-list-view-row-not-spam =
 tree-list-view-row-read =
     .alt = Irakurri egoeraren adierazlea
     .title = Egoeraren adierazlearen mezua
+tree-list-view-row-not-read =
+    .alt = Irakurri-gabeko egoeraren adierazlea
+    .title = irakurri-gabeko egoera mezua

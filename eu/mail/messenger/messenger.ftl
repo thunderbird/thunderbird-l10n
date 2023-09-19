@@ -190,6 +190,9 @@ appmenu-addons-and-themes =
 
 context-menu-redirect-msg =
     .label = Birbideratzea
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Utzi mezua
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -385,6 +388,13 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% full
+    .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
