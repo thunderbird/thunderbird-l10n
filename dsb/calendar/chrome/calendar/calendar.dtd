@@ -9,22 +9,19 @@
 <!ENTITY calendar.newevent.button.tooltip         "Nowe tšojenje napóraś" >
 <!ENTITY calendar.newtask.button.tooltip          "Nowy nadawk napóraś" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "Nadawki" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Dokóńcone nadawki pokazaś">
 
 <!ENTITY calendar.today.button.label          "Źinsa">
 <!ENTITY calendar.tomorrow.button.label       "Witśe">
-<!ENTITY calendar.upcoming.button.label       "Pśiduce">
 
 <!ENTITY calendar.events.filter.all.label "Wšykne tšojenja">
 <!ENTITY calendar.events.filter.today.label "Źinsajšne tšojenja">
 <!ENTITY calendar.events.filter.future.label "Wšykne pśichodne tšojenja">
 <!ENTITY calendar.events.filter.current.label "Tuchylu wubrany źeń">
 <!ENTITY calendar.events.filter.currentview.label "Tšojenja w aktualnem naglěźe">
-<!ENTITY calendar.events.filter.next7Days.label "Tšojenja w běgu pśiducych 7 dnjow">
-<!ENTITY calendar.events.filter.next14Days.label "Tšojenja w běgu pśiducych 14 dnjow">
-<!ENTITY calendar.events.filter.next31Days.label "Tšojenja w běgu pśiducych 31 dnjow">
+<!ENTITY calendar.events.filter.next7Days.label "Tšojenja pśiducych 7 dnjow">
+<!ENTITY calendar.events.filter.next14Days.label "Tšojenja pśiducych 14 dnjow">
+<!ENTITY calendar.events.filter.next31Days.label "Tšojenja pśiducych 31 dnjow">
 <!ENTITY calendar.events.filter.thisCalendarMonth.label "Tšojenja w toś tom kalenderowem mjasecu">
 
 <!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
@@ -61,40 +58,9 @@
 <!ENTITY calendar.today.button.tooltip          "K źinsnajšnemu dnju" >
 <!ENTITY calendar.todaypane.button.tooltip      "Źinsajšny źeń pokazaś" >
 
-<!ENTITY calendar.day.button.tooltip            "Dnjowy naglěd wužywaś" >
-<!ENTITY calendar.week.button.tooltip           "Tyźeński naglěd wužywaś" >
-<!ENTITY calendar.month.button.tooltip          "Mjasecny naglěd wužywaś" >
-<!ENTITY calendar.multiweek.button.tooltip      "Wěcejtyźeński naglěd wužywaś" >
-
-<!ENTITY calendar.nextday.label                 "Pśiducy źeń" >
-<!ENTITY calendar.prevday.label                 "Pjerwjejšny źeń" >
-<!ENTITY calendar.nextday.accesskey             "d" >
-<!ENTITY calendar.prevday.accesskey             "w" >
-<!ENTITY calendar.nextweek.label                "Pśiducy tyźeń" >
-<!ENTITY calendar.prevweek.label                "Pjerwjejšny tyźeń" >
-<!ENTITY calendar.nextweek.accesskey            "d" >
-<!ENTITY calendar.prevweek.accesskey            "r" >
-<!ENTITY calendar.nextmonth.label               "Pśiducy mjasec" >
-<!ENTITY calendar.prevmonth.label               "Pjerwjejšny mjasec" >
-<!ENTITY calendar.nextmonth.accesskey           "d" >
-<!ENTITY calendar.prevmonth.accesskey           "w" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Jaden źeń doprědka" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Jaden źeń slědk" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Jaden tyźeń slědk" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Jaden tyźeń slědk" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Jaden mjasec doprědka" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Jaden mjasec slědk" >
-
 <!ENTITY calendar.newevent.button.label         "Nowe tšojenje" >
 <!ENTITY calendar.newtask.button.label          "Nowy nadawk" >
-<!ENTITY calendar.print.button.label            "Śišćaś" >
-<!ENTITY calendar.print.button.accesskey        "i">
 
-<!ENTITY calendar.day.button.label              "Źeń" >
-<!ENTITY calendar.week.button.label             "Tyźeń" >
-<!ENTITY calendar.month.button.label            "Mjasec" >
-<!ENTITY calendar.multiweek.button.label        "Wěcejtyźeń" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Jano źěłowe dny" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "J" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Nadawki w pśeglěźe" >
@@ -279,8 +245,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "w">
 <!ENTITY calendar.context.unsubscribeserver.label      "Kalender wótskazaś…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "s">
-<!ENTITY calendar.context.synccalendars.label          "Kalendery synchronizěrowaś">
-<!ENTITY calendar.context.synccalendars.accesskey      "c">
 <!ENTITY calendar.context.publish.label                "Kalender wózjawiś…">
 <!ENTITY calendar.context.publish.accesskey            "z">
 <!ENTITY calendar.context.export.label                 "Kalender eksportěrowaś…">
@@ -355,7 +319,6 @@
 <!ENTITY calendarproperties.color.label                    "Barwa:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label                   "Format:">
 <!ENTITY calendarproperties.location.label                 "Městno:">
 <!ENTITY calendarproperties.refreshInterval.label          "Kalender aktualizěrowaś:">
@@ -364,7 +327,6 @@
 <!ENTITY calendarproperties.readonly.label                 "Jano cytajobny">
 <!ENTITY calendarproperties.firealarms.label               "Dopomnjeśa pokazaś">
 <!ENTITY calendarproperties.cache3.label                   "Pódpěra offline">
-<!ENTITY calendarproperties.enabled.label                  "Toś ten kalender zašaltowaś">
 <!ENTITY calendarproperties.enabled2.label                 "Toś ten kalendaŕ zmóžniś">
 <!ENTITY calendarproperties.forceDisabled.label            "Póbitowaŕ za toś ten kalender njedajo se namakaś. To se cesto stawa, jolic sćo wěste dodanki znjemóžnił abo wótinstalował.">
 <!ENTITY calendarproperties.unsubscribe.label              "Wótskazaś">
@@ -376,27 +338,8 @@
 <!ENTITY calendar.publish.publish.button      "Wózjawiś">
 <!ENTITY calendar.publish.close.button      "Zacyniś">
 
-<!ENTITY calendar.publish.example.url.description   "Něco ako http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Kalender wubraś">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Kalender śišćaś">
-<!ENTITY calendar.print.title.label "Titel:">
-<!ENTITY calendar.print.layout.label "Wugótowanje:">
-<!ENTITY calendar.print.range.label "Śišćański wobceŕk">
-<!ENTITY calendar.print.currentView2.label "Aktualny pśeglěd">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Wubrane tšojenja/nadawki">
-<!ENTITY calendar.print.tasks.label "Nadawki">
-<!ENTITY calendar.print.events.label "Tšojenja">
-<!ENTITY calendar.print.custom.label "Swójski datowy wobcerk:">
-<!ENTITY calendar.print.from.label "Wót:">
-<!ENTITY calendar.print.to.label "Až do:">
-<!ENTITY calendar.print.settingsGroup.label "Śišćakowe nastajenja">
-<!ENTITY calendar.print.optionsGroup.label "Nastajenja">
-<!ENTITY calendar.print.taskswithnoduedate.label "Nadawki bźez termina">
-<!ENTITY calendar.print.completedtasks.label "Dokóńcone nadawki">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Drobnostki…">
