@@ -130,9 +130,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Zbijeni prikaz
     .accesskey = Z
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -189,19 +186,14 @@ appmenu-settings =
     .label = Postavke
 appmenu-addons-and-themes =
     .label = Dodaci i teme
-appmenu-help-enter-troubleshoot-mode =
-    .label = Način rada za rješavanje problema…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Isključi način rada za rješavanje problema
-appmenu-help-more-troubleshooting-info =
-    .label = Više informacija za rješavanje problema
-appmenu-redirect-msg =
-    .label = Preusmjeri
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Preusmjeri
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Otkaži poruku
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -211,9 +203,6 @@ mail-context-delete-messages =
             [few] Obriši odabrane poruke
            *[other] Obriši odabrane poruke
         }
-context-menu-decrypt-to-folder =
-    .label = Kopiraj kao dešifrirano u
-    .accesskey = p
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -305,7 +294,6 @@ no-reply-reply-anyway-button = Svejedno odgovori
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } od { $total } poruka nije moglo biti dešifrirano i nije kopirano.
 # Variables:
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
