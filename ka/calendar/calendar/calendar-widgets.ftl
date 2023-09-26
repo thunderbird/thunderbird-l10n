@@ -10,6 +10,7 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = კალენდრები
 calendar-enable-button = ჩართვა
 calendar-new-event-primary-button = ახალი ღონისძიება
 calendar-new-task-primary-button = ახალი დავალება
