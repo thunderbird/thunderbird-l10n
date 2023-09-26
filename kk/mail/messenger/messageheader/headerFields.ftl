@@ -12,6 +12,7 @@ message-header-reply-to-list-name = Кімге жауап беру
 message-header-cc-list-name = Көшірме
 message-header-bcc-list-name = Жасырын көшірме
 message-header-newsgroups-list-name = Жаңалықтар топтары
+message-header-followup-to-list-name = Жаңалықтар тобына жауап жазу
 message-header-tags-list-name = Тегтер
 
 ## Other message headers.
