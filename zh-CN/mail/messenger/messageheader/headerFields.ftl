@@ -12,6 +12,7 @@ message-header-reply-to-list-name = 回复给
 message-header-cc-list-name = 抄送
 message-header-bcc-list-name = 密送
 message-header-newsgroups-list-name = 新闻组
+message-header-followup-to-list-name = 回复到
 message-header-tags-list-name = 标签
 
 ## Other message headers.
