@@ -12,6 +12,7 @@ message-header-reply-to-list-name = 回覆給
 message-header-cc-list-name = 副本
 message-header-bcc-list-name = 密件副本
 message-header-newsgroups-list-name = 新聞群組
+message-header-followup-to-list-name = 原文參見
 message-header-tags-list-name = 標籤
 
 ## Other message headers.
