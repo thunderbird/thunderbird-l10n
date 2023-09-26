@@ -12,6 +12,7 @@ message-header-reply-to-list-name = Odpovedať na
 message-header-cc-list-name = Kópia
 message-header-bcc-list-name = Skrytá kópia
 message-header-newsgroups-list-name = Diskusné skupiny
+message-header-followup-to-list-name = Pokračovať na
 message-header-tags-list-name = Štítky
 
 ## Other message headers.
