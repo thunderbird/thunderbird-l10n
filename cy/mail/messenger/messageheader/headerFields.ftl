@@ -12,7 +12,7 @@ message-header-reply-to-list-name = Ateb i
 message-header-cc-list-name = Cc
 message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = Grwpiau Newyddion
-message-header-followup-to-list-name = Ymateb
+message-header-followup-to-list-name = Ymateb i
 message-header-tags-list-name = Tagiau
 
 ## Other message headers.
