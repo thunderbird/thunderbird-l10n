@@ -45,30 +45,43 @@ customize-space-tab-settings = Asetukset
 customize-restore-default = Palauta oletukset
 customize-change-appearance = Muuta ulkoasua…
 customize-button-style-label = Painikkeen tyyli:
-customize-button-style-icons-beside-text =
-    .label = Kuvakkeet tekstin vieressä
-customize-button-style-icons-above-text =
-    .label = Kuvakkeet tekstin yläpuolella
-customize-button-style-icons-only =
-    .label = Vain kuvakkeet
-customize-button-style-text-only =
-    .label = Vain teksti
 customize-button-style-icons-beside-text-option = Kuvakkeet tekstin vieressä
 customize-button-style-icons-above-text-option = Kuvakkeet tekstin yläpuolella
 customize-button-style-icons-only-option = Vain kuvakkeet
 customize-button-style-text-only-option = Vain teksti
 customize-cancel = Peruuta
 customize-save = Tallenna
+customize-unsaved-changes = Tallentamattomia muutoksia muissa näkymissä
+customize-search-bar =
+    .label = Etsi työkalupalkin painikkeita…
+customize-spaces-tabs =
+    .aria-label = Näkymät
 customize-main-toolbar-target =
     .aria-label = Pääpalkki
+customize-palette-generic-title = Saatavilla kaikkiin näkymiin
+customize-palette-mail-specific-title = Saatavilla vain sähköpostin näkymään
+customize-palette-addressbook-specific-title = Saatavilla vain osoitekirjan näkymään
+customize-palette-calendar-specific-title = Saatavilla vain kalenterin näkymään
+customize-palette-tasks-specific-title = Saatavilla vain tehtävien näkymään
+customize-palette-chat-specific-title = Saatavilla vain keskustelun näkymään
+customize-palette-settings-specific-title = Saatavilla vain asetusten näkymään
+customize-palette-extension-specific-title = Saatavilla vain tähän näkymään
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Lisää näkymään { $target }
 customize-palette-add-everywhere =
     .label = Lisää kaikkiin työkalupalkkeihin
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Siirrä eteenpäin
+customize-target-backward =
+    .label = Siirrä taaksepäin
 customize-target-remove =
     .label = Poista
 customize-target-remove-everywhere =

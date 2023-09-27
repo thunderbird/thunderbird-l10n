@@ -5,6 +5,8 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Näytä/piilota pikasuodatuspalkki
 quick-filter-button-label = Pikasuodatus
 # Variables:
 # $count (Number) - The number of messages in this folder.
@@ -30,6 +32,10 @@ thread-pane-folder-selected-count =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Säilytä suodatusasetukset vaihdettaessa kansiota
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Pikasuodatusvalikko
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -148,9 +154,15 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Näytä kansion koko
+folder-pane-header-hide-local-folders =
+    .label = Piilota paikalliset kansiot
 folder-pane-mode-context-toggle-compact-mode =
     .label = Tiivis näkkymä
     .accesskey = T
+folder-pane-mode-move-up =
+    .label = Siirrä ylös
+folder-pane-mode-move-down =
+    .label = Siirrä alas
 # Variables:
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =
