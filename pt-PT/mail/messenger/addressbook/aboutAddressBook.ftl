@@ -251,10 +251,17 @@ about-addressbook-entry-name-custom1 = Personalizado 1
 about-addressbook-entry-name-custom2 = Personalizado 2
 about-addressbook-entry-name-custom3 = Personalizado 3
 about-addressbook-entry-name-custom4 = Personalizado 4
-about-addressbook-unsaved-changes-prompt-title = Alterações por guardar
+about-addressbook-unsaved-changes-prompt-title = Alterações não guardadas
+about-addressbook-unsaved-changes-prompt = Quer guardar as suas alterações antes de sair do modo de edição?
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = Solte ou cole uma foto aqui ou clique para selecionar um ficheiro.
+about-addressbook-photo-drop-loading = A carregar foto…
+about-addressbook-photo-drop-error = Falha ao carregar a foto.
+about-addressbook-photo-filepicker-title = Selecione um ficheiro de imagem
+about-addressbook-photo-discard = Descartar foto existente
+about-addressbook-photo-cancel = Cancelar
 about-addressbook-photo-save = Guardar
 
 # Keyboard shortcuts
