@@ -190,6 +190,9 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = Näytä aina vierityspalkit
     .accesskey = v
 window-layout-legend = Ikkunan asettelu
+draw-in-titlebar-label =
+    .label = Piilota järjestelmän määrittämä ikkunan otsikkopalkki
+    .accesskey = ä
 auto-hide-tabbar-label =
     .label = Piilota välilehtipalkki automaattisesti
     .accesskey = A
@@ -356,6 +359,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Kun ne avataan
     .accesskey = K
+view-attachments-inline =
+    .label = Näytä liitteet sisennettynä
+    .accesskey = y
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -525,23 +531,12 @@ third-party-never =
     .label = Ei milloinkaan
 third-party-visited =
     .label = Vierailluilta sivustoilta
-keep-label =
-    .value = Säilytä evästeet:
-    .accesskey = t
-keep-expire =
-    .label = kunnes ne vanhenevat
-keep-close =
-    .label = kunnes { -brand-short-name } suljetaan
-keep-ask =
-    .label = kysy aina erikseen
 cookies-button =
     .label = Näytä evästeet…
     .accesskey = N
 do-not-track-label =
     .label = Lähetä sivustoille ”Do Not Track”-signaali, joka kertoo ettet halua sinua seurattavan
     .accesskey = s
-learn-button =
-    .label = Lue lisää
 dnt-learn-more-button =
     .value = Lue lisää
 passwords-description = Voit tallentaa { -brand-short-name }iin kaikkien sähköpostitiliesi salasanat.
@@ -605,6 +600,7 @@ security-devices-button =
     .accesskey = T
 email-e2ee-header = Sähköpostin päästä päähän -salaus
 account-settings = Tilin asetukset
+email-e2ee-enable-info = Määritä sähköpostitilit ja identiteetit päästä päähän -salausta varten tiliasetuksissa.
 email-e2ee-automatism = Automaattinen salauksen käyttö
 email-e2ee-automatism-pre =
     { -brand-short-name } voi auttaa ottamalla salauksen automaattisesti käyttöön tai poistamalla sen käytöstä sähköpostin kirjoittamisen aikana.
@@ -615,6 +611,9 @@ email-e2ee-auto-off =
     .label = Poista salaus automaattisesti käytöstä, kun vastaanottajat vaihtuvat ja salaus ei ole enää mahdollista
 email-e2ee-auto-off-notify =
     .label = Näytä ilmoitus aina, kun salaus poistetaan automaattisesti käytöstä
+email-e2ee-automatism-post =
+    Automaattiset päätökset voidaan ohittaa ottamalla salaus manuaalisesti käyttöön tai poistamalla se käytöstä viestiä kirjoitettaessa.
+    Huomautus: salaus on aina automaattisesti käytössä, kun vastaat salattuun viestiin.
 
 ## Chat Tab
 

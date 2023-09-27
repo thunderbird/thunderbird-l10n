@@ -110,12 +110,20 @@ account-setup-privacy-footnote2 = Kirjautumistietosi tallennetaan vain paikallis
 account-setup-selection-help = Etkö ole varma, mitä valita?
 account-setup-selection-error = Tarvitsetko apua?
 account-setup-success-help = Oletko epävarma seuraavista vaiheista?
+account-setup-documentation-help = Määrityksen dokumentaatio
 account-setup-forum-help = Tukipalsta
 account-setup-privacy-help = Tietosuojakäytäntö
 account-setup-getting-started = Alkuun pääsy
 
 ## Results area
 
+# Variables:
+#  $count (Number) - Number of available protocols.
+account-setup-results-area-title =
+    { $count ->
+        [one] Saatavilla oleva kokoonpanon määritys
+       *[other] Saatavilla olevat kokoonpanon määritykset
+    }
 account-setup-result-imap-description = Pidä kansiot ja sähköpostit synkronoituna palvelimellesi
 account-setup-result-pop-description = Säilytä kansiot ja sähköpostit tietokoneellasi
 # Note: Exchange, Office365 are the name of products.
@@ -140,6 +148,7 @@ account-setup-credentials-incomplete = Tunnistautuminen epäonnistui. Joko annet
 account-setup-credentials-wrong = Todennus epäonnistui. Tarkista käyttäjätunnus ja salasana
 account-setup-find-settings-failed = { -brand-short-name } ei löytänyt asetuksia sähköpostitilisi osalta
 account-setup-exchange-config-unverifiable = Kokoonpanoa ei voitu vahvistaa. Jos käyttäjätunnuksesi ja salasanasi ovat oikein, palvelimen järjestelmänvalvoja on todennäköisesti estänyt tilillesi valitsemasi kokoonpanon. Yritä uudelleen valitsemalla toinen yhteyskäytäntö.
+account-setup-provisioner-error = Tapahtui virhe määritettäessä uutta tiliäsi { -brand-short-name }iin. Yritä määrittää tilisi manuaalisesti kirjautumistiedoillasi.
 
 ## Manual configuration area
 
