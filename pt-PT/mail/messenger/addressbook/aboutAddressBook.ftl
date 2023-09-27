@@ -82,30 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = Ordenar por endereço de e-mail (A > Z)
 about-addressbook-sort-email-descending =
     .label = Ordenar por endereço de e-mail (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Mudar para vista horizontal
-about-addressbook-vertical-layout =
-    .label = Mudar para vista vertical
 about-addressbook-table-layout =
     .label = Disposição da tabela
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Nome
-about-addressbook-column-header-emailaddresses = Endereços de e-mail
-about-addressbook-column-header-phonenumbers = Números de Telefone
-about-addressbook-column-header-addresses = Endereços
-about-addressbook-column-header-title = Título
-about-addressbook-column-header-department = Departamento
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organização
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Livro de endereços
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Nome
     .title = Ordenar pelo nome
 about-addressbook-column-label-generatedname2 =
@@ -171,15 +153,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Remover contactos
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Tem a certeza que pretende remover { $name } de { $list }?
-       *[other] Tem a certeza que pretende remover estes { $count } contactos de { $list }?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Tem a certeza que pretende remover { $name } de { $list }?
@@ -198,13 +171,87 @@ about-addressbook-confirm-delete-contacts-title =
         [one] Apagar contacto
        *[other] Apagar contactos
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Tem a certeza que deseja apagar o contacto { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Tem a certeza que pretende apagar este contacto?
+       *[other] Tem a certeza que pretende apagar estes { $count } contactos?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Sem contactos disponíveis
+about-addressbook-placeholder-new-contact = Novo contacto
+about-addressbook-placeholder-search-only = Este livro de endereços apenas mostra os contactos após uma pesquisa
+about-addressbook-placeholder-searching = A procurar…
+about-addressbook-placeholder-no-search-results = Nenhum contacto encontrado
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } entrada selecionada no livro de endereços
+       *[other] { $count } entradas selecionadas no livro de endereços
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } contacto selecionado
+       *[other] { $count } contactos selecionados
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } lista selecionada
+       *[other] { $count } listas selecionadas
+    }
+about-addressbook-details-edit-photo =
+    .title = Editar fotografia do contacto
+about-addressbook-new-contact-header = Novo contacto
+about-addressbook-prefer-display-name = Mostrar nome sempre acima do cabeçalho da mensagem
+about-addressbook-write-action-button = Escrever
+about-addressbook-event-action-button = Evento
+about-addressbook-search-action-button = Pesquisar
+about-addressbook-new-list-action-button = Nova lista
+about-addressbook-begin-edit-contact-button = Editar
+about-addressbook-delete-edit-contact-button = Apagar
+about-addressbook-cancel-edit-contact-button = Cancelar
+about-addressbook-save-edit-contact-button = Guardar
+about-addressbook-add-contact-to = Adicionar a:
+about-addressbook-details-email-addresses-header = Endereços de e-mail
+about-addressbook-details-phone-numbers-header = Números de telefone
+about-addressbook-details-addresses-header = Endereços
+about-addressbook-details-notes-header = Notas
+about-addressbook-details-impp-header = Mensagens instantâneas
+about-addressbook-details-websites-header = Websites
+about-addressbook-details-other-info-header = Outras informações
+about-addressbook-entry-type-work = Trabalho
+about-addressbook-entry-type-home = Casa
+about-addressbook-entry-type-fax = Fax
+# Or "Mobile"
+about-addressbook-entry-type-cell = Telemóvel
+about-addressbook-entry-type-pager = Pager
+about-addressbook-entry-name-birthday = Data de nascimento
+about-addressbook-entry-name-anniversary = Aniversário
+about-addressbook-entry-name-title = Título
+about-addressbook-entry-name-role = Papel
+about-addressbook-entry-name-organization = Organização
+about-addressbook-entry-name-website = Website
+about-addressbook-entry-name-time-zone = Fuso horário
+about-addressbook-entry-name-custom1 = Personalizado 1
+about-addressbook-entry-name-custom2 = Personalizado 2
+about-addressbook-entry-name-custom3 = Personalizado 3
+about-addressbook-entry-name-custom4 = Personalizado 4
+about-addressbook-unsaved-changes-prompt-title = Alterações por guardar
 
 # Photo dialog
 
