@@ -80,38 +80,10 @@ about-addressbook-sort-email-ascending =
     .label = Järjestä sähköpostiosoitteen mukaan (A > Ö)
 about-addressbook-sort-email-descending =
     .label = Järjestä sähköpostiosoitteen mukaan (Ö > A)
-about-addressbook-horizontal-layout =
-    .label = Vaihda vaakasuuntaiseen asetteluun
-about-addressbook-vertical-layout =
-    .label = Vaihda pystysuuntaiseen asetteluun
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Nimi
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Sähköpostiosoitteet
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Puhelinnumerot
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Osoitteet
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Ammattinimi
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Osasto
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organisaatio
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Osoitekirja
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Nimi
     .title = Järjestä nimen mukaan
 about-addressbook-column-label-generatedname2 =
@@ -165,28 +137,15 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Poista yhteyshenkilöt
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
+# $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Haluatko varmasti poistaa yhteyshenkilön { $name } listalta { $list }?
-       *[other] Haluatko varmasti poistaa nämä { $count } yhteyshenkilöä listalta { $list }?
-    }
+about-addressbook-confirm-remove-contacts-single = Haluatko varmasti poistaa { $name } listasta { $list }?
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Poista yhteyshenkilö
        *[other] Poista yhteyshenkilöt
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Haluatko varmasti poistaa yhteyshenkilön { $name }?
-       *[other] Haluatko varmasti poistaa nämä { $count } yhteyshenkilöä?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -204,14 +163,26 @@ about-addressbook-placeholder-no-search-results = Yhteyshenkilöjä ei löytynyt
 ## Details
 
 # Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } valittua yhteystietoa ja listaa
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } valittu osoitekirjan merkintä
+       *[other] { $count } valittua osoitekirjan merkintää
+    }
 # Variables:
 # $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } valittua yhteyshenkilöä
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } valittu yhteystieto
+       *[other] { $count } valittua yhteystietoa
+    }
 # Variables:
 # $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } valittua listaa
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } valittu lista
+       *[other] { $count } valittua listaa
+    }
 about-addressbook-details-edit-photo =
     .title = Muokkaa yhteyshenkilön kuvaa
 about-addressbook-new-contact-header = Uusi yhteyshenkilö
