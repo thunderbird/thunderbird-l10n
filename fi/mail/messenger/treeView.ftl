@@ -7,6 +7,8 @@
 
 tree-list-view-row-delete =
     .title = Poista nykyinen rivi
+tree-list-view-row-restore =
+    .title = Palauta nykyinen rivi
 tree-list-view-column-picker =
     .title = Valitse näytettävät sarakkeet
 tree-list-view-column-picker-restore =
