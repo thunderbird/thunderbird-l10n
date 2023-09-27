@@ -204,10 +204,13 @@ exchange-dialog-cancel-button = Peruuta
 ## Dismiss account creation dialog
 
 exit-dialog-title = Sähköpostitiliä ei ole määritetty
+exit-dialog-description = Haluatko varmasti perua määrityksen? { -brand-short-name } on käytettävissä myös ilman sähköpostitiliä, mutta useimmat ominaisuudet eivät ole saatavilla.
 account-setup-no-account-checkbox = Käytä { -brand-short-name }iä ilman sähköpostitiliä
     .accesskey = ö
 exit-dialog-cancel-button = Jatka määritysten tekoa
     .accesskey = J
+exit-dialog-confirm-button = Poistu määrityksestä
+    .accesskey = E
 
 ## Alert dialogs
 

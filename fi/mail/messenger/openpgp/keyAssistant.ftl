@@ -64,6 +64,8 @@ openpgp-key-assistant-key-source =
        *[other] Lähteet
     }
 openpgp-key-assistant-key-collected-attachment = sähköpostin liitetiedosto
+# Autocrypt is the name of a standard.
+openpgp-key-assistant-key-collected-autocrypt = Autocrypt-otsake
 openpgp-key-assistant-key-collected-keyserver = avainpalvelin
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Web Key Directory
