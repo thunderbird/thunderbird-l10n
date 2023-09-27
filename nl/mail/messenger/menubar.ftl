@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Probleemoplossingsmodus uitschakelen
     .accesskey = c
-menu-help-more-troubleshooting-info =
-    .label = Meer probleemoplossingsinformatie
-    .accesskey = M
 menu-help-troubleshooting-info =
     .label = Probleemoplossingsinformatie
     .accesskey = i
@@ -69,7 +66,7 @@ menu-quit =
 menu-quit-mac =
     .label = { -brand-shorter-name } afsluiten
 quit-app-shortcut =
-    .key = f
+    .key = Q
 
 ## Mail Toolbar
 
@@ -121,12 +118,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Compact
     .accesskey = C
-mail-uidensity-normal =
-    .label = Normaal
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Aanraking
-    .accesskey = A
 mail-uidensity-default =
     .label = Standaard
     .accesskey = S
