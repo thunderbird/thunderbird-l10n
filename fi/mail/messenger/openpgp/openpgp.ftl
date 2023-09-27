@@ -25,36 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Säilytä luonnosviestit salatussa muodossa
     .accesskey = m
-openpgp-key-user-id-label = Tili / käyttäjätunnus
-openpgp-keygen-title-label =
-    .title = Luo OpenPGP-avain
-openpgp-cancel-key =
-    .label = Peruuta
-    .tooltiptext = Peruuta avaimen luonti
-openpgp-key-gen-expiry-title =
-    .label = Avaimen voimassaoloaika
-openpgp-key-gen-expire-label = Avain vanhenee
-openpgp-key-gen-days-label =
-    .label = vuorokaudessa
-openpgp-key-gen-months-label =
-    .label = kuukaudessa
-openpgp-key-gen-years-label =
-    .label = vuodessa
-openpgp-key-gen-no-expiry-label =
-    .label = Avain ei vanhene
-openpgp-key-gen-key-size-label = Avaimen koko
-openpgp-key-gen-console-label = Avaimen luominen
-openpgp-key-gen-key-type-label = Avaintyyppi
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (elliptinen käyrä)
-openpgp-generate-key =
-    .label = Luo avain
-    .tooltiptext = Luo uuden salauksessa ja/tai allekirjoittamisessa tarvittavan OpenPGP -yhteensopivan avaimen
-openpgp-advanced-prefs-button-label =
-    .label = Lisäasetukset…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">HUOMAA: Avaimen luominen saattaa kestää useita minuutteja.</a> Älä sulje sovellusta avaimen luomisen aikana. Aktiivinen selaaminen tai muiden levyintensiivisten toimintojen suorittaminen avaimen luomisen aikana tehostaa 'satunnaisuusaluetta' ja nopeuttaa prosessia. Kun avaimen luominen valmistuu, siitä annetaan ilmoitus.
 openpgp-key-created-label =
     .label = Luotu
 openpgp-key-expiry-label =
@@ -268,6 +238,13 @@ openpgp-key-details-id-label =
 openpgp-key-details-key-type-label = Tyyppi
 openpgp-key-details-key-part-label =
     .label = Avaimen osa
+openpgp-key-details-attr-ignored = Varoitus: Tämä avain ei ehkä toimi odotetulla tavalla, koska jotkin sen ominaisuudet ovat vaarallisia ja ne saatetaan ohittaa.
+openpgp-key-details-attr-upgrade-sec = Sinun tulee päivittää vaaralliset ominaisuudet.
+openpgp-key-details-attr-upgrade-pub = Pyydä tämän avaimen omistajaa päivittämään vaaralliset ominaisuudet.
+openpgp-key-details-upgrade-unsafe =
+    .label = Päivitä vaaralliset ominaisuudet
+    .accesskey = P
+openpgp-key-details-upgrade-ok = Avain päivitettiin onnistuneesti. Sinun tulee jakaa päivitetty julkinen avain viestien vastaanottajien kanssa.
 openpgp-key-details-algorithm-label =
     .label = Algoritmi
 openpgp-key-details-size-label =
@@ -309,6 +286,7 @@ openpgp-passphrase-status-unprotected = Suojaamaton
 openpgp-passphrase-status-primary-password = Suojattu { -brand-short-name }in pääsalasanalla
 openpgp-passphrase-status-user-passphrase = Suojattu tunnuslauseella
 openpgp-passphrase-instruction-unprotected = Aseta tunnuslause tämän avaimen suojaamiseksi
+openpgp-passphrase-instruction-user-passphrase = Avaa tämän avaimen lukitus muuttaaksesi sen suojausta.
 openpgp-passphrase-unlock = Avaa
 openpgp-passphrase-unlocked = Avain avattu onnistuneesti.
 openpgp-remove-protection = Poista tunnuslausesuojaus
@@ -398,10 +376,7 @@ key-do-you-accept = Hyväksytkö tämän avaimen digitaalisten allekirjoitusten 
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Viestiä ei voida lähettää, koska henkilökohtaisessa avaimessasi on ongelma. { $problem }
-cannot-encrypt-because-missing = Tätä viestiä ei voi lähettää päästä päähän -salauksella, koska seuraavien vastaanottajien avaimissa on ongelmia: { $problem }
 window-locked = Kirjoitusikkuna on lukittu; lähetys peruutettu
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Tämä on salattu viestiosa. Avaa se erillisessä ikkunassa napsauttamalla liitettä.
 
 ## Strings in keyserver.jsm
 
@@ -624,7 +599,6 @@ import-key-file = Tuo OpenPGP-avaintiedosto
 import-rev-file = Tuo OpenPGP-kumoamistiedosto
 gnupg-file = GnuPG-tiedostot
 import-keys-failed = Avainten tuonti epäonnistui
-passphrase-prompt = Kirjoita salalause joka avaa seuraavan avaimen: { $key }
 file-to-big-to-import = Tämä tiedosto on liian suuri. Älä tuo liian suurta määrää avaimia kerralla.
 
 ## Strings used in enigmailKeygen.js
