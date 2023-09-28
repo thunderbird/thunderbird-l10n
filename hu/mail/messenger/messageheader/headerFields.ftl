@@ -12,6 +12,7 @@ message-header-reply-to-list-name = Válaszcím
 message-header-cc-list-name = Másolat
 message-header-bcc-list-name = Rejtett másolat
 message-header-newsgroups-list-name = Hírcsoportok
+message-header-followup-to-list-name = Hírcsop. vál.
 message-header-tags-list-name = Címkék
 
 ## Other message headers.
