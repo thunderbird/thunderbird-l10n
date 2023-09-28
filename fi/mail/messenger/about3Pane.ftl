@@ -6,8 +6,10 @@
 ## Message List Header Bar
 
 quick-filter-button =
-    .title = Näytä/piilota pikasuodatuspalkki
+    .title = Pikasuodatuspalkki päällä/pois
 quick-filter-button-label = Pikasuodatus
+thread-pane-header-display-button =
+    .title = Viestiluettelon näkymävaihtoehdot
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -22,6 +24,12 @@ thread-pane-folder-selected-count =
         [one] { $count } valittu
        *[other] { $count } valittu
     }
+thread-pane-header-context-table-view =
+    .label = Välilehtinäkymä
+thread-pane-header-context-cards-view =
+    .label = Korttinäkymä
+thread-pane-header-context-hide =
+    .label = Piilota viestiluettelon otsikko
 
 ## Quick Filter Bar
 
@@ -36,6 +44,16 @@ quick-filter-bar-sticky =
 # a dropdown menu.
 quick-filter-bar-dropdown =
     .title = Pikasuodatusvalikko
+quick-filter-bar-dropdown-unread =
+    .label = Lukematon
+quick-filter-bar-dropdown-starred =
+    .label = Tähti
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Yhteystieto
+quick-filter-bar-dropdown-tags =
+    .label = Tunnukset
+quick-filter-bar-dropdown-attachment =
+    .label = Liite
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
