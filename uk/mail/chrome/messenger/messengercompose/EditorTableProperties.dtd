@@ -61,7 +61,7 @@
 <!ENTITY cellAlignTop.label               "Вгорі">
 <!ENTITY cellAlignMiddle.label            "Посередині">
 <!ENTITY cellAlignBottom.label            "Внизу">
-<!ENTITY cellAlignJustify.label           "Щодо інших об’єктів">
+<!ENTITY cellAlignJustify.label           "По ширині">
 <!ENTITY cellInheritColor.label           "(Буде видний фон таблиці)">
 <!ENTITY cellUseCheckboxHelp.label        "Встановіть прапорці, щоб визначити, які властивості будуть застосовані до всіх вибраних осередків">
 

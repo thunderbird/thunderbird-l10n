@@ -37,7 +37,7 @@
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Створити посилання…">
 <!ENTITY createLinkCmd.accesskey "С">
-<!ENTITY editLinkCmd.label "Редагувати об’єкт в новому вікні Компонувальника">
+<!ENTITY editLinkCmd.label "Редагувати посилання в новому редакторі">
 <!ENTITY editLinkCmd.accesskey "Р">
 
 <!-- Font Face SubMenu -->
