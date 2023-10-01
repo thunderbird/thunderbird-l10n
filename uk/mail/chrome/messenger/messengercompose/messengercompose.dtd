@@ -134,7 +134,7 @@
 <!ENTITY checkSpellingCmd2.key2 "VK_F7">
 <!ENTITY checkSpellingCmd2.accesskey "г">
 <!ENTITY enableInlineSpellChecker.label "Перевіряти правопис під час введення">
-<!ENTITY enableInlineSpellChecker.accesskey "б">
+<!ENTITY enableInlineSpellChecker.accesskey "П">
 <!ENTITY quoteCmd.label "Цитувати повідомлення">
 <!ENTITY quoteCmd.accesskey "Ц">
 

@@ -17,14 +17,14 @@
 <!ENTITY importFromOutlook.accesskey    "O">
 
 <!ENTITY importSource.title             "Імпорт налаштувань і даних з">
-<!ENTITY importItems.title              "Об’єкти для імпорту">
-<!ENTITY importItems.label              "Виберіть об’єкти для імпорту:">
+<!ENTITY importItems.title              "Елементи для імпорту">
+<!ENTITY importItems.label              "Виберіть елементи для імпорту:">
 
 <!ENTITY migrating.title                "Імпортую…">
-<!ENTITY migrating.label                "Зараз триває імпорт наступних об'єктів…">
+<!ENTITY migrating.label                "Зараз триває імпорт зазначених елементів…">
 
 <!ENTITY selectProfile.title            "Вибір профілю">
 <!ENTITY selectProfile.label            "Імпорт може бути здійснений з наступних профілів:">
 
 <!ENTITY done.title                     "Імпорт завершений">
-<!ENTITY done.label                     "Наступні об’єкти були успішно імпортовані:">
+<!ENTITY done.label                     "Зазначені елементи успішно імпортовано:">

@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Видалити повідомлення">
-<!ENTITY deleteMsgCmd.accesskey "В">
-<!ENTITY undeleteMsgCmd.label "Повернути повідомлення">
-<!ENTITY undeleteMsgCmd.accesskey "п">
-<!ENTITY deleteMsgsCmd.label "Видалити вибрані повідомлення">
-<!ENTITY deleteMsgsCmd.accesskey "В">
-<!ENTITY undeleteMsgsCmd.label "Повернути вибрані повідомлення">
-<!ENTITY undeleteMsgsCmd.accesskey "б">
-<!ENTITY deleteFolderCmd.label "Видалити теку">
-<!ENTITY deleteFolderCmd.accesskey "В">
-<!ENTITY unsubscribeNewsgroupCmd.label "Відписатися">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "п">
 <!ENTITY selectMenu.label "Виділити">
 <!ENTITY selectMenu.accesskey "и">
 <!ENTITY all.label "Усі">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "П">
 <!ENTITY menuFavoriteFolder.label "Улюблена тека">
 <!ENTITY menuFavoriteFolder.accesskey "У">
-<!ENTITY folderPropsCmd2.label "Властивості…">
-<!ENTITY folderPropsFolderCmd2.label "Властивості теки…">
-<!ENTITY folderPropsNewsgroupCmd2.label "Властивості групи новин…">
-<!ENTITY folderPropsCmd.accesskey "т">
 <!ENTITY undoDeleteMsgCmd.label "Скасувати видалення повідомлення">
 <!ENTITY redoDeleteMsgCmd.label "Повторити видалення повідомлення">
 <!ENTITY undoMoveMsgCmd.label "Скасувати переміщення повідомлення">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "В">
 <!ENTITY showFolderPaneCmd.label "Панель тек">
 <!ENTITY showFolderPaneCmd.accesskey "т">
-<!ENTITY showFolderPaneColsCmd.label "Стовпчики панелі тек">
-<!ENTITY showFolderPaneColsCmd.accesskey "н">
 <!ENTITY showMessageCmd.label "Панель повідомлень">
 <!ENTITY showMessageCmd.accesskey "О">
 
@@ -288,7 +270,7 @@
 <!ENTITY goMenu.label "Перехід">
 <!ENTITY goMenu.accesskey "П">
 <!ENTITY nextMenu.label "Далі">
-<!ENTITY nextMenu.accesskey "Н">
+<!ENTITY nextMenu.accesskey "а">
 <!ENTITY nextMsgCmd.label "Повідомлення">
 <!ENTITY nextMsgCmd.accesskey "в">
 <!ENTITY nextMsgCmd.key "f">
@@ -504,7 +486,7 @@
 <!ENTITY devToolboxCmd.accesskey "П">
 <!ENTITY devToolboxCmd.commandkey "i">
 <!ENTITY debugAddonsCmd.label "Налагодження додатків">
-<!ENTITY debugAddonsCmd.accesskey "З">
+<!ENTITY debugAddonsCmd.accesskey "Н">
 <!ENTITY errorConsoleCmd.label "Консоль помилок">
 <!ENTITY errorConsoleCmd.accesskey "К">
 <!ENTITY errorConsoleCmd.commandkey "j">
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Нове повідомлення">
 <!ENTITY appmenuNewContactCmd.label "Контакт адресної книги…">
-<!ENTITY appmenuEditMenu.label "Редагувати">
 <!ENTITY appmenuToolbarLayout.label "Розклад панелей…">
-<!ENTITY appmenuSelectThread.label "Вибрати розмову">
-<!ENTITY appmenuSelectFlagged.label "Вибрати повідомлення із зірочкою">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Нова мітка…">
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "К">
 <!ENTITY copyEmailCmd.label "Копіювати адресу е-пошти">
 <!ENTITY copyEmailCmd.accesskey "К">
-<!ENTITY stopCmd.label "Зупинити">
-<!ENTITY stopCmd.accesskey "З">
-<!ENTITY reloadCmd.label "Перезавантажити">
-<!ENTITY reloadCmd.accesskey "П">
 <!ENTITY openInBrowser.label "Відкрити у браузері">
 <!ENTITY openInBrowser.accesskey "б">
 <!ENTITY openLinkInBrowser.label "Відкрити посилання у браузері">
