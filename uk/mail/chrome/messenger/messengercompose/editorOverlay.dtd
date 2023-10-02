@@ -17,7 +17,7 @@
 <!ENTITY insertLinkCmd2.label "Посилання…">
 <!ENTITY insertLinkCmd2.accesskey "П">
 <!ENTITY insertLinkCmd2.key "K">
-<!ENTITY insertAnchorCmd.label "Якір з ім’ям…">
+<!ENTITY insertAnchorCmd.label "Якір з іменем…">
 <!ENTITY insertAnchorCmd.accesskey "Я">
 <!ENTITY insertImageCmd.label "Зображення…">
 <!ENTITY insertImageCmd.accesskey "З">
