@@ -213,7 +213,7 @@
 <!ENTITY fromAddr.accesskey "d">
 <!ENTITY replyAddr2.label "Odgovori na">
 <!ENTITY newsgroupsAddr2.label "Novičarska skupina">
-<!ENTITY followupAddr2.label "Nadaljuj za">
+<!ENTITY followupAddr2.label "Nadaljuj na">
 <!ENTITY subject2.label "Zadeva">
 <!ENTITY subject.accesskey "Z">
 <!ENTITY attachmentBucketCloseButton.tooltip "Skrij podokno za priponke">

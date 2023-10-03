@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "P">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Izbriši sporočilo">
-<!ENTITY deleteMsgCmd.accesskey "b">
-<!ENTITY undeleteMsgCmd.label "Razveljavi izbris sporočila">
-<!ENTITY undeleteMsgCmd.accesskey "R">
-<!ENTITY deleteMsgsCmd.label "Izbriši izbrana sporočila">
-<!ENTITY deleteMsgsCmd.accesskey "b">
-<!ENTITY undeleteMsgsCmd.label "Razveljavi izbris izbranih sporočil">
-<!ENTITY undeleteMsgsCmd.accesskey "R">
-<!ENTITY deleteFolderCmd.label "Izbriši mapo">
-<!ENTITY deleteFolderCmd.accesskey "b">
-<!ENTITY unsubscribeNewsgroupCmd.label "Odjavi naročnino">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "d">
 <!ENTITY selectMenu.label "Izberi">
 <!ENTITY selectMenu.accesskey "e">
 <!ENTITY all.label "Vse">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "Priljubljena mapa">
 <!ENTITY menuFavoriteFolder.accesskey "P">
-<!ENTITY folderPropsCmd2.label "Lastnosti">
-<!ENTITY folderPropsFolderCmd2.label "Lastnosti mape">
-<!ENTITY folderPropsNewsgroupCmd2.label "Lastnosti novičarske skupine …">
-<!ENTITY folderPropsCmd.accesskey "L">
 <!ENTITY undoDeleteMsgCmd.label "Razveljavi izbris sporočila">
 <!ENTITY redoDeleteMsgCmd.label "Uveljavi izbris sporočila">
 <!ENTITY undoMoveMsgCmd.label "Razveljavi premik sporočila">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "N">
 <!ENTITY showFolderPaneCmd.label "Podokno map">
 <!ENTITY showFolderPaneCmd.accesskey "m">
-<!ENTITY showFolderPaneColsCmd.label "Stolpci podokna map">
-<!ENTITY showFolderPaneColsCmd.accesskey "c">
 <!ENTITY showMessageCmd.label "Podokno sporočil">
 <!ENTITY showMessageCmd.accesskey "s">
 
@@ -342,7 +324,7 @@
 <!ENTITY replyMsgCmd.key "r">
 <!ENTITY replySenderCmd.label "Odgovori samo pošiljatelju">
 <!ENTITY replySenderCmd.accesskey "š">
-<!ENTITY replyNewsgroupCmd2.label "Nadaljuj za novičarsko skupino">
+<!ENTITY replyNewsgroupCmd2.label "Nadaljuj na novičarsko skupino">
 <!ENTITY replyNewsgroupCmd2.accesskey "v">
 <!ENTITY replyToAllMsgCmd.label "Odgovori vsem">
 <!ENTITY replyToAllMsgCmd.accesskey "e">
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Novo sporočilo">
 <!ENTITY appmenuNewContactCmd.label "Stik iz imenika …">
-<!ENTITY appmenuEditMenu.label "Uredi">
 <!ENTITY appmenuToolbarLayout.label "Razporeditev orodne vrstice …">
-<!ENTITY appmenuSelectThread.label "Izberi nit">
-<!ENTITY appmenuSelectFlagged.label "Izberi sporočila z zvezdico">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova oznaka …">
@@ -743,7 +722,7 @@
 <!ENTITY contextArchive.accesskey "h">
 <!ENTITY contextReplySender.label "Odgovori samo pošiljatelju">
 <!ENTITY contextReplySender.accesskey "š">
-<!ENTITY contextReplyNewsgroup2.label "Nadaljuj za novičarsko skupino">
+<!ENTITY contextReplyNewsgroup2.label "Nadaljuj na novičarsko skupino">
 <!ENTITY contextReplyNewsgroup2.accesskey "N">
 <!ENTITY contextReplyAll.label "Odgovori vsem">
 <!ENTITY contextReplyAll.accesskey "e">
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "K">
 <!ENTITY copyEmailCmd.label "Kopiraj e-poštni naslov">
 <!ENTITY copyEmailCmd.accesskey "K">
-<!ENTITY stopCmd.label "Ustavi">
-<!ENTITY stopCmd.accesskey "s">
-<!ENTITY reloadCmd.label "Ponovno naloži">
-<!ENTITY reloadCmd.accesskey "P">
 <!ENTITY openInBrowser.label "Odpri v brskalniku">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Odpri povezavo v brskalniku">
