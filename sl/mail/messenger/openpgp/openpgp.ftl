@@ -522,6 +522,11 @@ user-att-photo = Atribut uporabnika (slika JPEG)
 ## Strings in key.jsm
 
 already-revoked = Ta ključ je že preklican.
+#   $identity (String) - the id and associated user identity of the key being revoked
+revoke-key-question =
+    Preklicali boste ključ "{ $identity }".
+    S tem ključem se ne boste več mogli podpisovati in po njegovi distribuciji ga drugi ne bodo več mogli uporabiti za šifriranje. Še vedno boste lahko z njim dešifrirali stara sporočila.
+    Ali želite nadaljevati?
 #   $keyId (String) - the id of the key being revoked
 revoke-key-already-revoked = Ključ 0x{ $keyId } je že preklican.
 key-man-button-revoke-key = Pre&kliči ključ
