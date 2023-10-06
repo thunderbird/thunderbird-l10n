@@ -56,6 +56,9 @@ menuitem-font-size-reset =
 mail-uidensity-label =
     .label = 밀도
     .accesskey = D
+mail-uidensity-compact =
+    .label = 좁게
+    .accesskey = C
 
 ## File
 
