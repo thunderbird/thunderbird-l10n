@@ -28,6 +28,8 @@ about-addressbook-books-context-synchronize =
     .label = 동기화
 about-addressbook-books-context-edit =
     .label = 편집
+about-addressbook-books-context-export =
+    .label = 내보내기…
 about-addressbook-confirm-remove-remote-book-title = 주소록 삭제
 
 ## Cards
@@ -48,10 +50,6 @@ about-addressbook-sort-name-ascending =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-nickname = 닉네임
-about-addressbook-column-header-phonenumbers = 전화번호
-about-addressbook-column-header-addresses = 주소
-about-addressbook-column-header-title = 제목
 about-addressbook-cards-context-write =
     .label = 쓰기
 about-addressbook-confirm-delete-mixed-title = 연락처와 목록 삭제

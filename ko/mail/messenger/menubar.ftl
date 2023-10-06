@@ -3,11 +3,17 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## View Menu
-
 ## Tools Menu
 
+menu-tools-settings =
+    .label = 설정
+    .accesskey = e
+menu-addons-and-themes =
+    .label = 부가 기능 및 테마
+    .accesskey = A
+
 ## Help Menu
+
 
 ## Mail Toolbar
 
@@ -26,7 +32,30 @@ toolbar-undelete-button =
 
 ## View
 
+menu-view-repair-text-encoding =
+    .label = 텍스트 인코딩 복구
+    .accesskey = c
+
+## View / Folders
+
+
 ## View / Layout
+
+menu-font-size-label =
+    .label = 글자 크기
+    .accesskey = o
+menuitem-font-size-enlarge =
+    .label = 글자 크기 크게
+    .accesskey = I
+menuitem-font-size-reduce =
+    .label = 글자 크기 작게
+    .accesskey = D
+menuitem-font-size-reset =
+    .label = 글자 크기 초기화
+    .accesskey = R
+mail-uidensity-label =
+    .label = 밀도
+    .accesskey = D
 
 ## File
 

@@ -24,6 +24,9 @@ about-rights-notification-text = { -brand-short-name }은 전 세계 수천 명�
 
 ## Toolbar
 
+addons-and-themes-toolbarbutton =
+    .label = 부가 기능 및 테마
+    .tooltiptext = 부가 기능 관리
 
 ## Folder Pane
 
@@ -60,9 +63,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = 간단히 보기
     .accesskey = C
-
-## Menu
-
 
 ## File Menu
 
@@ -105,6 +105,8 @@ menu-edit-newsgroup-properties =
 
 ## AppMenu
 
+appmenu-addons-and-themes =
+    .label = 부가 기능 및 테마
 
 ## Context menu
 
@@ -128,6 +130,9 @@ mail-context-undelete-messages =
 
 ## Add-on removal warning
 
+repair-text-encoding-button =
+    .label = 텍스트 인코딩 복구
+    .tooltiptext = 메시지 내용에서 올바른 텍스트 인코딩을 예상하여 복구
 
 ## no-reply handling
 
@@ -137,6 +142,8 @@ mail-context-undelete-messages =
 
 ## Spaces toolbar
 
+settings-context-open-addons-item2 =
+    .label = 부가 기능 및 테마
 
 ## Spaces toolbar pinned tab menupopup
 
