@@ -27,3 +27,5 @@ libs-rnp-status-ok = 確定
 libs-rnp-status-load-failed = 載入失敗，無法使用 OpenPGP。
 libs-rnp-status-incompatible = 版本不相容，無法使用 OpenPGP。
 libs-rnp-status-unofficial = 非官方版本，OpenPGP 可能無法如預期使用。
+libs-otr-status-ok = 確定
+libs-otr-status-error = 載入失敗，無法使用 OTR 聊天加密功能。
