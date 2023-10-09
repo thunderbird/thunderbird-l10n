@@ -5,7 +5,7 @@
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
 <!ENTITY title.label "Securitate del message">
-<!ENTITY subject.plaintextWarning "Nota: le rigas del subjecto del messages email non es jammais cifrate.">
+<!ENTITY subject.plaintextWarning "Nota: le lineas de subjecto de messages de e-mail non es jammais cryptate.">
 <!ENTITY status.heading "Le contento de tu message sera inviate assi:">
 <!ENTITY status.signed "Signate digitalmente:">
 <!ENTITY status.encrypted "Cifrate:">
