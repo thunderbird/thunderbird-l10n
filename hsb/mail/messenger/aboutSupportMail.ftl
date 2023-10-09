@@ -28,3 +28,4 @@ libs-rnp-status-load-failed = Začitanje njeje so poradźiło. OpenPGP njebudźe
 libs-rnp-status-incompatible = Inkompatibelna wersija. OpenPGP so njefunguje.
 libs-rnp-status-unofficial = Njeoficielna wersija. OpenPGP snano kaž wočakowany njefunguje.
 libs-otr-status-ok = W porjadku
+libs-otr-status-error = Začitanje njeje so poradźiło. Chatowe zaklučowanje OTR njebudźe fungować.
