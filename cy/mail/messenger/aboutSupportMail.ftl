@@ -27,3 +27,5 @@ libs-rnp-status-ok = Iawn
 libs-rnp-status-load-failed = Wedi methu llwytho. Ni fydd OpenPGP yn gweithio.
 libs-rnp-status-incompatible = Fersiwn anghydnaws. Ni fydd OpenPGP yn gweithio.
 libs-rnp-status-unofficial = Fersiwn answyddogol. Efallai na fydd OpenPGP yn gweithio yn ôl y disgwyl.
+libs-otr-status-ok = Iawn
+libs-otr-status-error = Wedi methu llwytho. Ni fydd amgryptio sgwrs OTR yn gweithio.
