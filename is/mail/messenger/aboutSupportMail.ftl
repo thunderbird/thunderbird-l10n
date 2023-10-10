@@ -27,3 +27,5 @@ libs-rnp-status-ok = Í lagi
 libs-rnp-status-load-failed = Mistókst að hlaða inn. OpenPGP mun ekki virka.
 libs-rnp-status-incompatible = Ósamhæfð útgáfa. OpenPGP mun ekki virka.
 libs-rnp-status-unofficial = Óopinber útgáfa. OpenPGP gæti ekki virkað eins og búast má við.
+libs-otr-status-ok = Í lagi
+libs-otr-status-error = Mistókst að hlaða inn. Dulritun OTR-spjalls mun ekki virka.
