@@ -27,3 +27,5 @@ libs-rnp-status-ok = OK
 libs-rnp-status-load-failed = Nepodarilo sa načítať. OpenPGP nebude fungovať.
 libs-rnp-status-incompatible = Nekompatibilná verzia. OpenPGP nebude fungovať.
 libs-rnp-status-unofficial = Neoficiálna verzia. OpenPGP nemusí fungovať podľa očakávania.
+libs-otr-status-ok = OK
+libs-otr-status-error = Nepodarilo sa načítať. Šifrovanie OTR chatu nebude fungovať.
