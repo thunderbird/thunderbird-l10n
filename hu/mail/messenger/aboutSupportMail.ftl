@@ -27,3 +27,5 @@ libs-rnp-status-ok = OK
 libs-rnp-status-load-failed = Sikertelen betöltés. Az OpenPGP nem fog működni.
 libs-rnp-status-incompatible = Nem kompatibilis verzió. Az OpenPGP nem fog működni.
 libs-rnp-status-unofficial = Nem hivatalos verzió. Előfordulhat, hogy az OpenPGP nem a várt módon működik.
+libs-otr-status-ok = OK
+libs-otr-status-error = A betöltés sikertelen. Az OTR csevegéstitkosítás nem fog működni.
