@@ -27,3 +27,5 @@ libs-rnp-status-ok = OK
 libs-rnp-status-load-failed = Laden mislukt. OpenPGP werkt niet.
 libs-rnp-status-incompatible = Incompatibele versie. OpenPGP werkt niet.
 libs-rnp-status-unofficial = Onofficiële versie. OpenPGP werkt mogelijk niet zoals verwacht.
+libs-otr-status-ok = OK
+libs-otr-status-error = Laden mislukt. OTR-chatversleuteling werkt niet.
