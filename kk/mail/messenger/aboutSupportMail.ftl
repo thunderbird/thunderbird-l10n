@@ -27,3 +27,5 @@ libs-rnp-status-ok = ОК
 libs-rnp-status-load-failed = Жүктеу сәтсіз аяқталды. OpenPGP жұмыс істемейді.
 libs-rnp-status-incompatible = Үйлесімсіз нұсқа. OpenPGP жұмыс істемейді.
 libs-rnp-status-unofficial = Бейресми нұсқасы. OpenPGP күткендей жұмыс істемеуі мүмкін.
+libs-otr-status-ok = ОК
+libs-otr-status-error = Жүктеу сәтсіз аяқталды. OTR чат шифрлеуі жұмыс істемейді.
