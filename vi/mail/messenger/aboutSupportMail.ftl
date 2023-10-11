@@ -27,3 +27,5 @@ libs-rnp-status-ok = OK
 libs-rnp-status-load-failed = Không thể tải. OpenPGP sẽ không hoạt động.
 libs-rnp-status-incompatible = Phiên bản không tương thích. OpenPGP sẽ không hoạt động.
 libs-rnp-status-unofficial = Phiên bản không chính thức. OpenPGP có thể không hoạt động như mong đợi.
+libs-otr-status-ok = OK
+libs-otr-status-error = Không thể tải. Mã hóa trò chuyện OTR sẽ không hoạt động.
