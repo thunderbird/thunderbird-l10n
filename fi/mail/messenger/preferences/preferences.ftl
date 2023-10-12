@@ -456,13 +456,16 @@ default-format-label =
 compose-send-format-title = Lähetysmuoto
 compose-send-automatic-option =
     .label = Automaattinen
+compose-send-automatic-description = Jos viestissä ei käytetä tyyliä, lähetä pelkkänä tekstinä. Muussa tapauksessa lähetä HTML-muodossa ja pelkän tekstin varmistuksella.
 compose-send-both-option =
     .label = Sekä HTML että pelkkä teksti
 compose-send-both-description = Vastaanottajan sähköpostisovellus määrittää näytettävän version.
 compose-send-html-option =
     .label = Vain HTML
+compose-send-html-description = Jotkut vastaanottajat eivät ehkä pysty lukemaan viestiä ilman pelkän tekstin varmistusta.
 compose-send-plain-option =
     .label = Vain pelkkä teksti
+compose-send-plain-description = Jotkin tyylit muunnetaan tavalliseksi vaihtoehdoksi, kun taas muut sommitteluominaisuudet poistetaan käytöstä.
 autocomplete-description = Kirjoitettaessa vastaanottajia, etsi vastineita kohteesta:
 ab-label =
     .label = Paikalliset osoitekirjat
@@ -699,6 +702,17 @@ no-preview-description = Tämä teema ei ole kelvollinen tai sitä ei tilapäise
 chat-variant-label =
     .value = Muunnelma:
     .accesskey = M
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 15.4em
+    .placeholder = Etsi asetuksista
 
 ## Settings UI Search Results
 
