@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Gnàthaich…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Faigh a h-uile teachdaireachd ùr
+    .accesskey = g
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Ìomhaigheagan ri taobh an teacsa
 customize-button-style-icons-beside-text-option = Ìomhaigheagan ri taobh an teacsa
 
 ## Unified toolbar customization palette context menu
