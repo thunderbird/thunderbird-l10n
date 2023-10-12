@@ -27,6 +27,9 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Pertsonalizatu…
 
+# Unified toolbar get messages button context menu
+
+
 ## Unified Toolbar customization
 
 customize-title = Pertsonalizatu tresna-barrak
@@ -45,14 +48,6 @@ customize-space-tab-settings = Ezarpenak
 customize-restore-default = Berrezarri lehenetsiak
 customize-change-appearance = Aldatu itxura…
 customize-button-style-label = Botoien estiloa
-customize-button-style-icons-beside-text =
-    .label = Ikonoak testuaren ondoan
-customize-button-style-icons-above-text =
-    .label = Ikonoak testuaren gainean
-customize-button-style-icons-only =
-    .label = Ikonoak bakarrik
-customize-button-style-text-only =
-    .label = Testua bakarrik
 customize-button-style-icons-beside-text-option = Ikonoak testuaren ondoan
 customize-button-style-icons-above-text-option = Ikonoak testuaren gainean
 customize-button-style-icons-only-option = Ikonoak bakarrik
