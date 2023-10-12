@@ -14,6 +14,12 @@
 customize-menu-customize =
     .label = Moslash…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Barcha yangi xabarlarni yuklab olish
+    .accesskey = y
+
 ## Unified Toolbar customization
 
 
