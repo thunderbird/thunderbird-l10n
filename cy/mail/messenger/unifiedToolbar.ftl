@@ -27,6 +27,9 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Cyfaddasu…
 
+# Unified toolbar get messages button context menu
+
+
 ## Unified Toolbar customization
 
 customize-title = Cyfaddasu Bariau Offer
@@ -45,14 +48,6 @@ customize-space-tab-settings = Gosodiadau
 customize-restore-default = Adfer y rhagosodiadau
 customize-change-appearance = Newid golwg…
 customize-button-style-label = Arddull botwm:
-customize-button-style-icons-beside-text =
-    .label = Eiconau gerllaw Testun
-customize-button-style-icons-above-text =
-    .label = Eiconau uwchben testun
-customize-button-style-icons-only =
-    .label = Eiconau yn unig
-customize-button-style-text-only =
-    .label = Testun yn unig
 customize-button-style-icons-beside-text-option = Eiconau gerllaw testun
 customize-button-style-icons-above-text-option = Eiconau uwchben testun
 customize-button-style-icons-only-option = Eiconau yn unig
