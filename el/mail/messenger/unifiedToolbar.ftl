@@ -29,6 +29,9 @@ customize-menu-customize =
 
 # Unified toolbar get messages button context menu
 
+toolbar-get-all-messages-menuitem =
+    .label = Λήψη όλων των νέων μηνυμάτων
+    .accesskey = Λ
 
 ## Unified Toolbar customization
 
