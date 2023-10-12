@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = התאמה אישית…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = קבל את כל ההודעות החדשות
+    .accesskey = G
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = סמלים לצד טקסט
 customize-button-style-icons-beside-text-option = סמלים לצד טקסט
 
 ## Unified toolbar customization palette context menu
