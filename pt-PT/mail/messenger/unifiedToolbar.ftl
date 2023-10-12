@@ -15,6 +15,12 @@ search-bar-placeholder = Pesquisar…
 customize-menu-customize =
     .label = Personalizar...
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Obter todas as novas mensagens
+    .accesskey = g
+
 ## Unified Toolbar customization
 
 customize-button-style-label = Estilo dos botões:
