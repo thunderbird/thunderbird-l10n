@@ -14,6 +14,12 @@
 customize-menu-customize =
     .label = Saincheap…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Faigh Gach Teachtaireacht Nua
+    .accesskey = g
+
 ## Unified Toolbar customization
 
 
