@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Настроить…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Все новые сообщения
+    .accesskey = с
+
 ## Unified Toolbar customization
 
 customize-title = Настройка панелей инструментов
@@ -45,14 +51,6 @@ customize-space-tab-settings = Настройки
 customize-restore-default = Восстановить по умолчанию
 customize-change-appearance = Изменить внешний вид…
 customize-button-style-label = Стиль кнопок:
-customize-button-style-icons-beside-text =
-    .label = Значки рядом с текстом
-customize-button-style-icons-above-text =
-    .label = Значки над текстом
-customize-button-style-icons-only =
-    .label = Только значки
-customize-button-style-text-only =
-    .label = Только текст
 customize-button-style-icons-beside-text-option = Значки рядом с текстом
 customize-button-style-icons-above-text-option = Значки над текстом
 customize-button-style-icons-only-option = Только значки
