@@ -14,6 +14,12 @@
 customize-menu-customize =
     .label = Doelmaak…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Kry alle nuwe boodskappe
+    .accesskey = K
+
 ## Unified Toolbar customization
 
 
