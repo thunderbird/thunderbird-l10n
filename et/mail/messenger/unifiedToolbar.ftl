@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Kohanda...
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Tõmba kõik uued kirjad
+    .accesskey = T
+
 ## Unified Toolbar customization
 
 customize-title = Tööriistaribade kohandamine
@@ -45,14 +51,6 @@ customize-space-tab-settings = Sätted
 customize-restore-default = Taasta vaikeväärtused
 customize-change-appearance = Muuda välimust…
 customize-button-style-label = Nupu stiil:
-customize-button-style-icons-beside-text =
-    .label = Ikoonid teksti kõrval
-customize-button-style-icons-above-text =
-    .label = Ikoonid teksti kohal
-customize-button-style-icons-only =
-    .label = Ainult ikoonid
-customize-button-style-text-only =
-    .label = Ainult tekst
 customize-button-style-icons-beside-text-option = Ikoonid teksti kõrval
 customize-cancel = Loobu
 customize-save = Salvesta
