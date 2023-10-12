@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Customise…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Get All New Messages
+    .accesskey = G
+
 ## Unified Toolbar customization
 
 customize-title = Customise Toolbars
@@ -45,14 +51,6 @@ customize-space-tab-settings = Settings
 customize-restore-default = Restore default
 customize-change-appearance = Change appearance…
 customize-button-style-label = Button style:
-customize-button-style-icons-beside-text =
-    .label = Icons beside Text
-customize-button-style-icons-above-text =
-    .label = Icons above text
-customize-button-style-icons-only =
-    .label = Icons only
-customize-button-style-text-only =
-    .label = Text only
 customize-button-style-icons-beside-text-option = Icons beside Text
 customize-button-style-icons-above-text-option = Icons above text
 customize-button-style-icons-only-option = Icons only
