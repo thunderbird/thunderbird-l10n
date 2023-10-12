@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Прилагоди…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Добави све нове поруке
+    .accesskey = Д
+
 ## Unified Toolbar customization
 
 customize-title = Прилагоди алатне траке
@@ -45,14 +51,6 @@ customize-space-tab-settings = Подешавања
 customize-restore-default = Врати на подразумевано
 customize-change-appearance = Промени изглед…
 customize-button-style-label = Стил дугмета:
-customize-button-style-icons-beside-text =
-    .label = Иконице поред текста
-customize-button-style-icons-above-text =
-    .label = Иконице изнад текста
-customize-button-style-icons-only =
-    .label = Само иконице
-customize-button-style-text-only =
-    .label = Само текст
 customize-button-style-icons-beside-text-option = Иконице поред текста
 customize-button-style-icons-above-text-option = Иконице изнад текста
 customize-button-style-icons-only-option = Само иконице
