@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Tilpas…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Hent alle nye meddelelser
+    .accesskey = H
+
 ## Unified Toolbar customization
 
 customize-title = Tilpas værktøjslinjer
@@ -45,14 +51,6 @@ customize-space-tab-settings = Indstillinger
 customize-restore-default = Gendan standard
 customize-change-appearance = Skift udseende...
 customize-button-style-label = Knapstil:
-customize-button-style-icons-beside-text =
-    .label = Ikoner ved siden af tekst
-customize-button-style-icons-above-text =
-    .label = Ikoner over tekst
-customize-button-style-icons-only =
-    .label = Kun ikoner
-customize-button-style-text-only =
-    .label = Kun tekst
 customize-button-style-icons-beside-text-option = Ikoner ved siden af tekst
 customize-button-style-icons-above-text-option = Ikoner over tekst
 customize-button-style-icons-only-option = Kun ikoner
