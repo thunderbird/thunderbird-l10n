@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Personalitza…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Recupera tots els missatges nous
+    .accesskey = p
+
 ## Unified Toolbar customization
 
 customize-title = Personalitza les barres d'eines
