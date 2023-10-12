@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Налаштувати…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Отримати всі нові повідомлення
+    .accesskey = О
+
 ## Unified Toolbar customization
 
 customize-title = Налаштувати панелі інструментів
@@ -45,14 +51,6 @@ customize-space-tab-settings = Налаштування
 customize-restore-default = Відновити типові
 customize-change-appearance = Змінити вигляд…
 customize-button-style-label = Стиль кнопки:
-customize-button-style-icons-beside-text =
-    .label = Піктограми поруч з текстом
-customize-button-style-icons-above-text =
-    .label = Піктограми над текстом
-customize-button-style-icons-only =
-    .label = Тільки піктограми
-customize-button-style-text-only =
-    .label = Тільки текст
 customize-button-style-icons-beside-text-option = Піктограми поруч з текстом
 customize-button-style-icons-above-text-option = Піктограми над текстом
 customize-button-style-icons-only-option = Тільки піктограми
