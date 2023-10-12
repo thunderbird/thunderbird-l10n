@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Կարգավորել…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Ստանալ բոլոր նոր նամակները
+    .accesskey = G
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Պատկերակ գրույթի կողքին
 customize-button-style-icons-beside-text-option = Պատկերակ գրույթի կողքին
 
 ## Unified toolbar customization palette context menu
