@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Oanpasse…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Alle nije berjochten ophelje
+    .accesskey = N
+
 ## Unified Toolbar customization
 
 customize-title = Arkbalke oanpasse
@@ -45,14 +51,6 @@ customize-space-tab-settings = Ynstellingen
 customize-restore-default = Standertwearde weromsette
 customize-change-appearance = Uterlik wizigje…
 customize-button-style-label = Knopstyl:
-customize-button-style-icons-beside-text =
-    .label = Ikoantsjes neist tekst
-customize-button-style-icons-above-text =
-    .label = Piktogrammen boppe tekst
-customize-button-style-icons-only =
-    .label = Allinnich piktogrammen
-customize-button-style-text-only =
-    .label = Allinnich tekst
 customize-button-style-icons-beside-text-option = Ikoantsjes neist tekst
 customize-button-style-icons-above-text-option = Piktogrammen boppe tekst
 customize-button-style-icons-only-option = Allinnich piktogrammen
