@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Баптау…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Барлық жаңа хабарламаларды алу
+    .accesskey = л
+
 ## Unified Toolbar customization
 
 customize-title = Саймандар панельдерін баптау
@@ -45,14 +51,6 @@ customize-space-tab-settings = Баптаулар
 customize-restore-default = Бастапқы түрін қалпына келтіру
 customize-change-appearance = Сыртқы түрін өзгерту…
 customize-button-style-label = Батырмалар стилі:
-customize-button-style-icons-beside-text =
-    .label = Таңбашалар мәтіннің қасында
-customize-button-style-icons-above-text =
-    .label = Мәтіннің үстіндегі таңбашалар
-customize-button-style-icons-only =
-    .label = Тек таңбашалар
-customize-button-style-text-only =
-    .label = Тек мәтін
 customize-button-style-icons-beside-text-option = Таңбашалар мәтіннің қасында
 customize-button-style-icons-above-text-option = Мәтіннің үстіндегі таңбашалар
 customize-button-style-icons-only-option = Тек таңбашалар
