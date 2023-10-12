@@ -27,6 +27,9 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Testreszabás…
 
+# Unified toolbar get messages button context menu
+
+
 ## Unified Toolbar customization
 
 customize-title = Eszköztárak testreszabása
@@ -45,14 +48,6 @@ customize-space-tab-settings = Beállítások
 customize-restore-default = Alapértelmezések visszaállítása
 customize-change-appearance = Megjelenés módosítása…
 customize-button-style-label = Gombstílus:
-customize-button-style-icons-beside-text =
-    .label = Ikonok a szöveg mellett
-customize-button-style-icons-above-text =
-    .label = Ikonok a szöveg felett
-customize-button-style-icons-only =
-    .label = Csak ikonok
-customize-button-style-text-only =
-    .label = Csak szöveg
 customize-button-style-icons-beside-text-option = Ikonok a szöveg mellett
 customize-button-style-icons-above-text-option = Ikonok a szöveg felett
 customize-button-style-icons-only-option = Csak ikonok
