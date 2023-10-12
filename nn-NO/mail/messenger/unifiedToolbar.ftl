@@ -14,6 +14,12 @@
 customize-menu-customize =
     .label = Tilpass …
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Hent alle nye meldingar
+    .accesskey = e
+
 ## Unified Toolbar customization
 
 customize-space-tab-mail = E-post
