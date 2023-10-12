@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Personalizar…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Recibir todas as mensaxes novas
+    .accesskey = a
+
 ## Unified Toolbar customization
 
 customize-title = Personalizar a barra de ferramentas
@@ -45,14 +51,6 @@ customize-space-tab-settings = Configuración
 customize-restore-default = Restaurar a configuración predeterminada
 customize-change-appearance = Cambiar a aparencia...
 customize-button-style-label = Estilo de botón:
-customize-button-style-icons-beside-text =
-    .label = Texto debaixo das iconas
-customize-button-style-icons-above-text =
-    .label = Iconas sobre o texto
-customize-button-style-icons-only =
-    .label = Só iconas
-customize-button-style-text-only =
-    .label = Só texto
 customize-button-style-icons-beside-text-option = Texto debaixo das iconas
 customize-button-style-icons-above-text-option = Iconas sobre o texto
 customize-button-style-icons-only-option = Só iconas
