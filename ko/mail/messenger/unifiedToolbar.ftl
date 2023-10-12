@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = 사용자 정의…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = 새 메시지 모두 받기
+    .accesskey = G
+
 ## Unified Toolbar customization
 
 customize-title = 도구 모음 사용자 지정
@@ -45,14 +51,6 @@ customize-space-tab-settings = 설정
 customize-restore-default = 기본값 복원
 customize-change-appearance = 모양 변경…
 customize-button-style-label = 버튼 스타일:
-customize-button-style-icons-beside-text =
-    .label = 텍스트 옆에 아이콘
-customize-button-style-icons-above-text =
-    .label = 텍스트 위의 아이콘
-customize-button-style-icons-only =
-    .label = 아이콘만
-customize-button-style-text-only =
-    .label = 텍스트만
 customize-button-style-icons-beside-text-option = 텍스트 옆에 아이콘
 customize-button-style-icons-above-text-option = 텍스트 위의 아이콘
 customize-button-style-icons-only-option = 아이콘만
