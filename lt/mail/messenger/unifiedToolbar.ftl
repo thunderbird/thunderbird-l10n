@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Tvarkyti…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Atsiųsti visus laiškus
+    .accesskey = s
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Piktogramos šalia teksto
 customize-button-style-icons-beside-text-option = Piktogramos šalia teksto
 
 ## Unified toolbar customization palette context menu
