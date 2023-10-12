@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Pielāgot…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Saņemt visas vēstules
+    .accesskey = S
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Ikonas blakus tekstam
 customize-button-style-icons-beside-text-option = Ikonas blakus tekstam
 
 ## Unified toolbar customization palette context menu
