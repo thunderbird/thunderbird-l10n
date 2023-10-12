@@ -164,6 +164,8 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = N
 folder-pane-write-message-button = Uusi viesti
     .title = Kirjoita uusi viesti
+folder-pane-more-menu-button =
+    .title = Kansiopaneelin asetukset
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Kansiotilat
@@ -173,6 +175,8 @@ folder-pane-header-context-toggle-get-messages =
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Näytä "Uusi viesti"
+folder-pane-header-context-hide =
+    .label = Piilota kansiopaneelin otsake
 folder-pane-show-total-toggle =
     .label = Näytä viestien kokonaismäärä
 # Context menu item to show or hide folder sizes
@@ -180,6 +184,8 @@ folder-pane-header-toggle-folder-size =
     .label = Näytä kansion koko
 folder-pane-header-hide-local-folders =
     .label = Piilota paikalliset kansiot
+folder-pane-mode-context-button =
+    .title = Kansiotilan asetukset
 folder-pane-mode-context-toggle-compact-mode =
     .label = Tiivis näkymä
     .accesskey = T
@@ -218,6 +224,8 @@ threadpane-column-header-flagged =
     .title = Järjestä tähden olemassaolon mukaan
 threadpane-column-label-flagged =
     .label = Tähti
+threadpane-cell-flagged =
+    .aria-label = Tähdellä merkitty
 threadpane-flagged-cell-label = Tähti
 threadpane-column-header-attachments =
     .title = Järjestä liitteiden mukaan
