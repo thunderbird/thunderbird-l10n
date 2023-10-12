@@ -16,6 +16,12 @@ search-bar-button =
 customize-menu-customize =
     .label = Наладзіць…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Атрымаць усе новыя лісты
+    .accesskey = А
+
 ## Unified Toolbar customization
 
 customize-space-tab-addressbook = Адрасная кніга
