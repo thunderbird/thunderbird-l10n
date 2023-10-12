@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Prilagodi…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Dohvati sve nove poruke
+    .accesskey = G
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Ikone uz tekst
 customize-button-style-icons-beside-text-option = Ikone uz tekst
 
 ## Unified toolbar customization palette context menu
