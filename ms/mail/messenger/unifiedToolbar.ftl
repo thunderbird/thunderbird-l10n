@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Penyesuaian…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Dapatkan Semua Mesej Baru
+    .accesskey = D
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Ikon sebelah Teks
 customize-button-style-icons-beside-text-option = Ikon sebelah Teks
 
 ## Unified toolbar customization palette context menu
