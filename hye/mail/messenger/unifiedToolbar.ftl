@@ -14,6 +14,12 @@
 customize-menu-customize =
     .label = Կարգաւորել…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Ստանալ բոլոր նոր նամակները
+    .accesskey = Ս
+
 ## Unified Toolbar customization
 
 customize-space-tab-mail = Փոստ
@@ -28,8 +34,6 @@ customize-space-tab-chat = Զրուցարան
     .title = Զրուցարան
 customize-space-tab-settings = Կարգաւորումներ
     .title = Կարգաւորումներ
-customize-button-style-icons-beside-text =
-    .label = Պատկերները գրոյթի կողքին
 customize-button-style-icons-beside-text-option = Պատկերները գրոյթի կողքին
 
 ## Unified toolbar customization palette context menu
