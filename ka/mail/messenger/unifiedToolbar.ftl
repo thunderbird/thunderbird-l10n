@@ -14,6 +14,12 @@
 customize-menu-customize =
     .label = მორგება…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = ყველა ახალი წერილის მიღება
+    .accesskey = მ
+
 ## Unified Toolbar customization
 
 customize-space-tab-mail = ფოსტა
@@ -28,8 +34,6 @@ customize-space-tab-chat = სასაუბრო
     .title = სასაუბრო
 customize-space-tab-settings = პარამეტრები
     .title = პარამეტრები
-customize-button-style-icons-beside-text =
-    .label = ხატულები ტექსტთან ერთად
 customize-button-style-icons-beside-text-option = ხატულები ტექსტთან ერთად
 
 ## Unified toolbar customization palette context menu
