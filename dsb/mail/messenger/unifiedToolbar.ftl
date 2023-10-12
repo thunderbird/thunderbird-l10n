@@ -29,6 +29,9 @@ customize-menu-customize =
 
 # Unified toolbar get messages button context menu
 
+toolbar-get-all-messages-menuitem =
+    .label = Wšykne nowe powěsći wótwołaś
+    .accesskey = W
 
 ## Unified Toolbar customization
 
