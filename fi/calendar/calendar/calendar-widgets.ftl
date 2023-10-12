@@ -74,6 +74,8 @@ calendar-view-toggle-month = Kuukausi
 
 calendar-control-bar-menu-button =
     .title = Kalenterin asetteluvaihtoehdot
+calendar-find-events-menu-option =
+    .label = Etsi tapahtumia -paneeli
 calendar-hide-weekends-option =
     .label = Vain työviikon päivät
 calendar-define-workweek-option =

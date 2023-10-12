@@ -33,6 +33,12 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Siirry sivu taaksepäin ({ $shortcut })
+    .aria-label = Takaisin
+    .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Edellinen
@@ -40,6 +46,12 @@ content-tab-menu-back-mac =
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Siirry sivu eteenpäin ({ $shortcut })
+    .aria-label = Seuraava
+    .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Seuraava
@@ -117,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Tiivis näkymä
     .accesskey = T
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -131,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Poista kansio
     .accesskey = o
+menu-edit-unsubscribe-newsgroup =
+    .label = Lopeta uutisryhmän tilaus
+    .accesskey = r
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -173,19 +185,14 @@ appmenu-settings =
     .label = Asetukset
 appmenu-addons-and-themes =
     .label = Lisäosat ja teemat
-appmenu-help-enter-troubleshoot-mode =
-    .label = Ongelmanratkaisutila…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Poista ongelmanratkaisutila käytöstä
-appmenu-help-more-troubleshooting-info =
-    .label = Lisää ongelmanratkaisutietoja
-appmenu-redirect-msg =
-    .label = Uudelleenohjaa
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Uudelleenohjaa
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Peruuta viesti
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -214,6 +221,7 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
+message-header-customize-panel-title = Viestin otsakeasetukset
 message-header-customize-button-style =
     .value = Painikkeen tyyli
     .accesskey = P
@@ -272,7 +280,14 @@ no-reply-reply-anyway-button = Vastaa silti
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures }/{ $total } viestin salausta ei voitu purkaa, joten niitä ei kopioitu.
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures }/{ $total } viestin salausta ei voitu purkaa, joten sitä ei kopioitu.
+       *[other] { $failures }/{ $total } viestin salausta ei voitu purkaa, joten niitä ei kopioitu.
+    }
 
 ## Spaces toolbar
 
@@ -288,6 +303,10 @@ spaces-toolbar-button-chat2 =
     .title = Keskustelu
 spaces-toolbar-button-settings2 =
     .title = Asetukset
+spaces-toolbar-button-hide =
+    .title = Piilota Tilat-työkalupalkki
+spaces-toolbar-button-show =
+    .title = Näytä Tilat-työkalupalkki
 spaces-context-new-tab-item =
     .label = Avaa uudessa välilehdessä
 spaces-context-new-window-item =
@@ -305,6 +324,8 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Tilat-valikko
 spaces-pinned-button-menuitem-mail2 =
     .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =
@@ -332,6 +353,7 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Muokkaa…
+spaces-customize-panel-title = Tilat-työkalupalkin asetukset
 spaces-customize-background-color = Taustaväri
 spaces-customize-icon-color = Painikkeen väri
 # The background color used on the buttons of the spaces toolbar when they are

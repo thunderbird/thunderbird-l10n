@@ -42,11 +42,8 @@ menu-help-enter-troubleshoot-mode =
     .label = Ongelmanratkaisutila…
     .accesskey = O
 menu-help-exit-troubleshoot-mode =
-    .label = Poista Ongelmanratkaisutila käytöstä
+    .label = Poista ongelmanratkaisutila käytöstä
     .accesskey = i
-menu-help-more-troubleshooting-info =
-    .label = Lisää ongelmanratkaisutietoja
-    .accesskey = s
 menu-help-troubleshooting-info =
     .label = Tietoja ongelmatilanteisiin
     .accesskey = l
@@ -68,6 +65,11 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Lopeta { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 
@@ -92,9 +94,15 @@ menu-view-repair-text-encoding =
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = Kansiopaneelin otsake
+    .accesskey = p
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Viestiluettelon otsake
+    .accesskey = V
 menu-font-size-label =
     .label = Fonttikoko
     .accesskey = o
@@ -113,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Tiivistä
     .accesskey = v
-mail-uidensity-normal =
-    .label = Normaali
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Kosketus
-    .accesskey = k
 mail-uidensity-default =
     .label = Oletus
     .accesskey = D

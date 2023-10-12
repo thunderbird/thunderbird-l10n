@@ -27,3 +27,5 @@ libs-rnp-status-ok = OK
 libs-rnp-status-load-failed = Lataus epäonnistui. OpenPGP ei toimi.
 libs-rnp-status-incompatible = Yhteensopimaton versio. OpenPGP ei toimi.
 libs-rnp-status-unofficial = Epävirallinen versio. OpenPGP ei ehkä toimi odotetulla tavalla.
+libs-otr-status-ok = OK
+libs-otr-status-error = Lataus epäonnistui. OTR-keskustelun salaus ei toimi.
