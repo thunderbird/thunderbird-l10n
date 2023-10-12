@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Tùy biến…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Nhận tất cả thư mới
+    .accesskey = y
+
 ## Unified Toolbar customization
 
 customize-title = Tùy biến thanh công cụ
@@ -45,14 +51,6 @@ customize-space-tab-settings = Cài đặt
 customize-restore-default = Khôi phục về mặc định
 customize-change-appearance = Thay đổi giao diện…
 customize-button-style-label = Kiểu nút:
-customize-button-style-icons-beside-text =
-    .label = Biểu tượng bên cạnh văn bản
-customize-button-style-icons-above-text =
-    .label = Biểu tượng trên văn bản
-customize-button-style-icons-only =
-    .label = Chỉ biểu tượng
-customize-button-style-text-only =
-    .label = Chỉ văn bản
 customize-button-style-icons-beside-text-option = Biểu tượng bên cạnh văn bản
 customize-button-style-icons-above-text-option = Biểu tượng trên văn bản
 customize-button-style-icons-only-option = Chỉ biểu tượng
