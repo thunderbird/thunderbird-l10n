@@ -66,6 +66,8 @@ about-addressbook-search =
     .placeholder = Hae { $name }
 about-addressbook-search-all =
     .placeholder = Hae kaikista osoitekirjoista
+about-addressbook-sort-button2 =
+    .title = Listanäkymän valinnat
 about-addressbook-name-format-display =
     .label = Näyttönimi
 about-addressbook-name-format-firstlast =
@@ -80,6 +82,8 @@ about-addressbook-sort-email-ascending =
     .label = Järjestä sähköpostiosoitteen mukaan (A > Ö)
 about-addressbook-sort-email-descending =
     .label = Järjestä sähköpostiosoitteen mukaan (Ö > A)
+about-addressbook-table-layout =
+    .label = Taulukkoasettelu
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
@@ -152,6 +156,13 @@ about-addressbook-confirm-delete-contacts-title =
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Haluatko varmasti poistaa yhteystiedon { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Haluatko varmasti poistaa tämän { $count } yhteystiedon?
+       *[other] Haluatko varmasti poistaa nämä { $count } yhteystietoa?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
