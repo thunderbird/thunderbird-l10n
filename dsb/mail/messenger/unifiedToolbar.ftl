@@ -27,6 +27,9 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Pśiměriś…
 
+# Unified toolbar get messages button context menu
+
+
 ## Unified Toolbar customization
 
 customize-title = Symbolowe rědki pśiměriś
@@ -45,14 +48,6 @@ customize-space-tab-settings = Nastajenja
 customize-restore-default = Standard wótnowiś
 customize-change-appearance = Naglěd změniś…
 customize-button-style-label = Tłocaškowy stil:
-customize-button-style-icons-beside-text =
-    .label = Symbole a tekst
-customize-button-style-icons-above-text =
-    .label = Symbole nad tekstom
-customize-button-style-icons-only =
-    .label = Jano symbole
-customize-button-style-text-only =
-    .label = Jano tekst
 customize-button-style-icons-beside-text-option = Symbole a tekst
 customize-button-style-icons-above-text-option = Symbole nad tekstom
 customize-button-style-icons-only-option = Jano symbole
