@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = 自定义…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = 获取所有新消息
+    .accesskey = G
+
 ## Unified Toolbar customization
 
 customize-title = 定制工具栏…
@@ -45,14 +51,6 @@ customize-space-tab-settings = 设置
 customize-restore-default = 恢复默认设置
 customize-change-appearance = 更改外观…
 customize-button-style-label = 按钮样式：
-customize-button-style-icons-beside-text =
-    .label = 在图标旁显示文字
-customize-button-style-icons-above-text =
-    .label = 在图标下方显示文字
-customize-button-style-icons-only =
-    .label = 仅图标
-customize-button-style-text-only =
-    .label = 仅文本
 customize-button-style-icons-beside-text-option = 在图标旁显示文字
 customize-button-style-icons-above-text-option = 在图标下方显示文字
 customize-button-style-icons-only-option = 仅图标
