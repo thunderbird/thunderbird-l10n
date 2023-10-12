@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Prispôsobiť…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Prijať všetky nové správy
+    .accesskey = P
+
 ## Unified Toolbar customization
 
 customize-title = Prispôsobiť panely s nástrojmi
@@ -45,14 +51,6 @@ customize-space-tab-settings = Nastavenia
 customize-restore-default = Obnoviť predvolené
 customize-change-appearance = Zmeniť vzhľad…
 customize-button-style-label = Štýl tlačidiel:
-customize-button-style-icons-beside-text =
-    .label = Ikony vedľa textu
-customize-button-style-icons-above-text =
-    .label = Ikony nad textom
-customize-button-style-icons-only =
-    .label = Iba ikony
-customize-button-style-text-only =
-    .label = Iba text
 customize-button-style-icons-beside-text-option = Ikony vedľa textu
 customize-button-style-icons-above-text-option = Ikony nad textom
 customize-button-style-icons-only-option = Iba ikony
