@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Özelleştir…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Tüm yeni iletileri indir
+    .accesskey = T
+
 ## Unified Toolbar customization
 
 customize-title = Araç çubuklarını özelleştir
@@ -45,14 +51,6 @@ customize-space-tab-settings = Ayarlar
 customize-restore-default = Varsayılanı geri yükle
 customize-change-appearance = Görünümü değiştir…
 customize-button-style-label = Düğme stili:
-customize-button-style-icons-beside-text =
-    .label = Simgeler metnin yanında
-customize-button-style-icons-above-text =
-    .label = Simgeler metnin üzerinde
-customize-button-style-icons-only =
-    .label = Yalnızca simgeler
-customize-button-style-text-only =
-    .label = Yalnızca metin
 customize-button-style-icons-beside-text-option = Simgeler metnin yanında
 customize-button-style-icons-above-text-option = Simgeler metnin üzerinde
 customize-button-style-icons-only-option = Yalnızca simgeler
