@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Aanpassen…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Alle nieuwe berichten ophalen
+    .accesskey = A
+
 ## Unified Toolbar customization
 
 customize-title = Werkbalken aanpassen
@@ -45,14 +51,6 @@ customize-space-tab-settings = Instellingen
 customize-restore-default = Standaardwaarde herstellen
 customize-change-appearance = Uiterlijk wijzigen…
 customize-button-style-label = Knopstijl:
-customize-button-style-icons-beside-text =
-    .label = Pictogrammen naast tekst
-customize-button-style-icons-above-text =
-    .label = Pictogrammen boven tekst
-customize-button-style-icons-only =
-    .label = Alleen pictogrammen
-customize-button-style-text-only =
-    .label = Alleen tekst
 customize-button-style-icons-beside-text-option = Pictogrammen naast tekst
 customize-button-style-icons-above-text-option = Pictogrammen boven tekst
 customize-button-style-icons-only-option = Alleen pictogrammen
