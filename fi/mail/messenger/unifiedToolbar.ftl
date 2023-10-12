@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Muokkaa…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Nouda kaikki uudet viestit
+    .accesskey = N
+
 ## Unified Toolbar customization
 
 customize-title = Muokkaa työkalupalkkeja
