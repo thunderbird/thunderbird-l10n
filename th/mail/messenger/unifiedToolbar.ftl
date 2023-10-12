@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = ปรับแต่ง…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = รับข้อความใหม่ทั้งหมด
+    .accesskey = ร
+
 ## Unified Toolbar customization
 
 customize-title = ปรับแต่งแถบเครื่องมือ
@@ -45,14 +51,6 @@ customize-space-tab-settings = การตั้งค่า
 customize-restore-default = เรียกคืนค่าเริ่มต้น
 customize-change-appearance = เปลี่ยนรูปลักษณ์…
 customize-button-style-label = ลักษณะปุ่ม:
-customize-button-style-icons-beside-text =
-    .label = ไอคอนข้างข้อความ
-customize-button-style-icons-above-text =
-    .label = ไอคอนเหนือข้อความ
-customize-button-style-icons-only =
-    .label = ไอคอนเท่านั้น
-customize-button-style-text-only =
-    .label = ข้อความเท่านั้น
 customize-button-style-icons-beside-text-option = ไอคอนข้างข้อความ
 customize-button-style-icons-above-text-option = ไอคอนเหนือข้อความ
 customize-button-style-icons-only-option = ไอคอนเท่านั้น
