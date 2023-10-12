@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Prilagodi…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Dohvati sve nove poruke
+    .accesskey = D
+
 ## Unified Toolbar customization
 
 customize-title = Prilagodi alatne trake
