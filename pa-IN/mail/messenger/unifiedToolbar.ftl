@@ -14,6 +14,12 @@
 customize-menu-customize =
     .label = Customize…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Get All New Messages
+    .accesskey = G
+
 ## Unified Toolbar customization
 
 
