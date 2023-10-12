@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Персонализиране…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Проверка за нови писма
+    .accesskey = П
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Текст до иконите
 customize-button-style-icons-beside-text-option = Текст до иконите
 
 ## Unified toolbar customization palette context menu
