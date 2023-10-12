@@ -29,6 +29,9 @@ customize-menu-customize =
 
 # Unified toolbar get messages button context menu
 
+toolbar-get-all-messages-menuitem =
+    .label = Receber de todas as contas
+    .accesskey = t
 
 ## Unified Toolbar customization
 
