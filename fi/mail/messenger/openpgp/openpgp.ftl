@@ -25,6 +25,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Säilytä luonnosviestit salatussa muodossa
     .accesskey = m
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Lähetä julkiset OpenPGP-avaimet sähköpostin otsakkeissa, jotta ne ovat yhteensopivia automaattisen Autcrypt-salauksen kanssa
+    .accesskey = { "" }
 openpgp-key-created-label =
     .label = Luotu
 openpgp-key-expiry-label =
@@ -286,6 +290,7 @@ openpgp-passphrase-status-unprotected = Suojaamaton
 openpgp-passphrase-status-primary-password = Suojattu { -brand-short-name }in pääsalasanalla
 openpgp-passphrase-status-user-passphrase = Suojattu tunnuslauseella
 openpgp-passphrase-instruction-unprotected = Aseta tunnuslause tämän avaimen suojaamiseksi
+openpgp-passphrase-instruction-primary-password = Vaihtoehtoisesti voit suojata tämän avaimen erillisellä tunnuslauseella
 openpgp-passphrase-instruction-user-passphrase = Avaa tämän avaimen lukitus muuttaaksesi sen suojausta.
 openpgp-passphrase-unlock = Avaa
 openpgp-passphrase-unlocked = Avain avattu onnistuneesti.
@@ -370,6 +375,9 @@ key-expired-date = Avain vanhentui { $keyExpiry }
 key-expired-simple = Avain on vanhentunut
 key-revoked-simple = Avain kumottiin
 key-do-you-accept = Hyväksytkö tämän avaimen digitaalisten allekirjoitusten todentamiseksi ja viestien salaamiseksi?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Varmista avaimen sormenjälki muulla suojatulla viestintäkanavalla kuin sähköpostilla varmistaaksesi, että se on todella osoitteen { $addr } avain.
 
 ## Strings enigmailMsgComposeOverlay.js
 
@@ -599,6 +607,17 @@ import-key-file = Tuo OpenPGP-avaintiedosto
 import-rev-file = Tuo OpenPGP-kumoamistiedosto
 gnupg-file = GnuPG-tiedostot
 import-keys-failed = Avainten tuonti epäonnistui
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Anna tunnuslause avataksesi salaisen avaimen, jonka tunnus on { $key }, luotu { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Anna tunnuslause avataksesi salaisen avaimen, jonka tunnus on { $subkey }, joka on avaintunnuksen { $key } aliavain, luotu { $date }, { $username_and_email }
 file-to-big-to-import = Tämä tiedosto on liian suuri. Älä tuo liian suurta määrää avaimia kerralla.
 
 ## Strings used in enigmailKeygen.js
