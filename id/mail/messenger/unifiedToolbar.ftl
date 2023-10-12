@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Kesukaan…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Ambil Semua Pesan Baru
+    .accesskey = A
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Ikon di sebelah Teks
 customize-button-style-icons-beside-text-option = Ikon di sebelah Teks
 
 ## Unified toolbar customization palette context menu
