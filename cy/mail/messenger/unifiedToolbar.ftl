@@ -29,6 +29,9 @@ customize-menu-customize =
 
 # Unified toolbar get messages button context menu
 
+toolbar-get-all-messages-menuitem =
+    .label = Estyn Pob Neges Newydd
+    .accesskey = E
 
 ## Unified Toolbar customization
 
