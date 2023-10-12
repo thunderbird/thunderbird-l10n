@@ -27,6 +27,9 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Sérsníða…
 
+# Unified toolbar get messages button context menu
+
+
 ## Unified Toolbar customization
 
 customize-title = Sérsníða verkfærastikur
@@ -45,14 +48,6 @@ customize-space-tab-settings = Stillingar
 customize-restore-default = Endurheimta sjálfgefið
 customize-change-appearance = Breyta útliti…
 customize-button-style-label = Hnappastíll:
-customize-button-style-icons-beside-text =
-    .label = Tákn við hliðina á texta
-customize-button-style-icons-above-text =
-    .label = Tákn fyrir ofan texta
-customize-button-style-icons-only =
-    .label = Einungis tákn
-customize-button-style-text-only =
-    .label = Einungis texti
 customize-button-style-icons-beside-text-option = Tákn við hliðina á texta
 customize-button-style-icons-above-text-option = Tákn fyrir ofan texta
 customize-button-style-icons-only-option = Einungis tákn
