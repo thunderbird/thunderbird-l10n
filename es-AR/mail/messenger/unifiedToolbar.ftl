@@ -29,6 +29,9 @@ customize-menu-customize =
 
 # Unified toolbar get messages button context menu
 
+toolbar-get-all-messages-menuitem =
+    .label = Recibir todos los mensajes nuevos
+    .accesskey = b
 
 ## Unified Toolbar customization
 
