@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Përshtateni…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Merri Krejt Mesazhet
+    .accesskey = M
+
 ## Unified Toolbar customization
 
 customize-title = Përshtatni Panele
@@ -45,14 +51,6 @@ customize-space-tab-settings = Rregullime
 customize-restore-default = Rikthe parazgjedhjet
 customize-change-appearance = Ndryshoni dukjen…
 customize-button-style-label = Stil butonash:
-customize-button-style-icons-beside-text =
-    .label = Ikona në krah të Tekstit
-customize-button-style-icons-above-text =
-    .label = Ikona sipër teksti
-customize-button-style-icons-only =
-    .label = Vetëm ikona
-customize-button-style-text-only =
-    .label = Vetëm tekst
 customize-button-style-icons-beside-text-option = Ikona në krah të Tekstit
 customize-button-style-icons-above-text-option = Ikona sipër teksti
 customize-button-style-icons-only-option = Vetëm ikona
