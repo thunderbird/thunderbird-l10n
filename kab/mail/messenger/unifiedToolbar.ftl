@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Sagen…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Awi-d akk iznan imaynuten
+    .accesskey = y
+
 ## Unified Toolbar customization
 
 customize-title = Sagen ifeggagen n yifecka
@@ -43,10 +49,6 @@ customize-space-tab-chat = Adiwenni usrid
 customize-space-tab-settings = Iɣewwaren
     .title = Iɣewwaren
 customize-button-style-label = Talɣa n tqeffalt:
-customize-button-style-icons-beside-text =
-    .label = Tigiiniyin n daw uḍris
-customize-button-style-text-only =
-    .label = Aḍris kan
 customize-button-style-icons-beside-text-option = Tigiiniyin n daw uḍris
 customize-button-style-text-only-option = Aḍris kan
 customize-cancel = Sefsex
