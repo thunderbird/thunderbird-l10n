@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Anpassen…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Alle Konten abrufen
+    .accesskey = A
+
 ## Unified Toolbar customization
 
 customize-title = Symbolleisten anpassen
@@ -45,14 +51,6 @@ customize-space-tab-settings = Einstellungen
 customize-restore-default = Standard wiederherstellen
 customize-change-appearance = Erscheinungsbild ändern…
 customize-button-style-label = Stil der Schaltflächen:
-customize-button-style-icons-beside-text =
-    .label = Symbole neben Text
-customize-button-style-icons-above-text =
-    .label = Symbole über dem Text
-customize-button-style-icons-only =
-    .label = Nur Symbole
-customize-button-style-text-only =
-    .label = Nur Text
 customize-button-style-icons-beside-text-option = Symbole neben Text
 customize-button-style-icons-above-text-option = Symbole über dem Text
 customize-button-style-icons-only-option = Nur Symbole
