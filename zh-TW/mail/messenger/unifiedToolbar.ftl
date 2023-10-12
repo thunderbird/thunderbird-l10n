@@ -27,6 +27,9 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = 自訂…
 
+# Unified toolbar get messages button context menu
+
+
 ## Unified Toolbar customization
 
 customize-title = 自訂工具列
@@ -45,14 +48,6 @@ customize-space-tab-settings = 設定
 customize-restore-default = 還原預設值
 customize-change-appearance = 更改外觀…
 customize-button-style-label = 按鈕樣式:
-customize-button-style-icons-beside-text =
-    .label = 文字旁的圖示
-customize-button-style-icons-above-text =
-    .label = 在圖示下方顯示文字
-customize-button-style-icons-only =
-    .label = 僅圖示
-customize-button-style-text-only =
-    .label = 僅文字
 customize-button-style-icons-beside-text-option = 文字旁有圖示
 customize-button-style-icons-above-text-option = 在圖示下方顯示文字
 customize-button-style-icons-only-option = 只顯示圖示
