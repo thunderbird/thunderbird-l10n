@@ -291,6 +291,10 @@ decrypt-and-copy-failures-multiple =
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Tilat-työkalupalkki
+    .aria-label = Tilat-työkalupalkki
+    .aria-description = Pystysuuntainen työkalupalkki, joka mahdollistaa eri tilojen välillä vaihtamisen. Käytä nuolinäppäimiä liikkuaksesi painikkeiden välillä.
 spaces-toolbar-button-mail2 =
     .title = Sähköposti
 spaces-toolbar-button-address-book2 =
@@ -301,6 +305,8 @@ spaces-toolbar-button-tasks2 =
     .title = Tehtävät
 spaces-toolbar-button-chat2 =
     .title = Keskustelu
+spaces-toolbar-button-overflow =
+    .title = Lisää tiloja…
 spaces-toolbar-button-settings2 =
     .title = Asetukset
 spaces-toolbar-button-hide =
