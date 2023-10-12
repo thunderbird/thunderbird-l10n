@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Personalizare…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Toate conturile
+    .accesskey = T
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Pictograme alăturate textului
 customize-button-style-icons-beside-text-option = Pictograme alăturate textului
 
 ## Unified toolbar customization palette context menu
