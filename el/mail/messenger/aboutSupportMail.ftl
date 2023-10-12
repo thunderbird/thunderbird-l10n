@@ -28,3 +28,4 @@ libs-rnp-status-load-failed = Αποτυχία φόρτωσης. Το OpenPGP δ
 libs-rnp-status-incompatible = Μη συμβατή έκδοση. Το OpenPGP δεν θα λειτουργεί.
 libs-rnp-status-unofficial = Ανεπίσημη έκδοση. Το OpenPGP ενδέχεται να μη λειτουργεί σωστά.
 libs-otr-status-ok = OK
+libs-otr-status-error = Αποτυχία φόρτωσης. Η κρυπτογράφηση συνομιλίας OTR δεν θα λειτουργεί.
