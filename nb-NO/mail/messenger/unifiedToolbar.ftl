@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = Tilpass …
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Hent alle nye meldinger
+    .accesskey = e
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = Ikoner ved siden av teksten
 customize-button-style-icons-beside-text-option = Ikoner ved siden av teksten
 
 ## Unified toolbar customization palette context menu
