@@ -27,6 +27,9 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Προσαρμογή…
 
+# Unified toolbar get messages button context menu
+
+
 ## Unified Toolbar customization
 
 customize-title = Προσαρμογή γραμμών εργαλείων
@@ -45,14 +48,6 @@ customize-space-tab-settings = Ρυθμίσεις
 customize-restore-default = Επαναφορά προεπιλογών
 customize-change-appearance = Αλλαγή εμφάνισης…
 customize-button-style-label = Στυλ κουμπιών:
-customize-button-style-icons-beside-text =
-    .label = Εικονίδια δίπλα στο κείμενο
-customize-button-style-icons-above-text =
-    .label = Εικονίδια πάνω από κείμενο
-customize-button-style-icons-only =
-    .label = Μόνο εικονίδια
-customize-button-style-text-only =
-    .label = Μόνο κείμενο
 customize-button-style-icons-beside-text-option = Εικονίδια δίπλα στο κείμενο
 customize-button-style-icons-above-text-option = Εικονίδια πάνω από κείμενο
 customize-button-style-icons-only-option = Μόνο εικονίδια
