@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Modifitgar…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Retschaiver tut ils messadis novs
+    .accesskey = n
+
 ## Unified Toolbar customization
 
 customize-title = Persunalisar las travs d'utensils
@@ -45,14 +51,6 @@ customize-space-tab-settings = Parameters
 customize-restore-default = Restaurar il standard
 customize-change-appearance = Modifitgar l'apparientscha
 customize-button-style-label = Stil da buttun:
-customize-button-style-icons-beside-text =
-    .label = Simbols sper il text
-customize-button-style-icons-above-text =
-    .label = Iconas sur il text
-customize-button-style-icons-only =
-    .label = Mo iconas
-customize-button-style-text-only =
-    .label = Mo text
 customize-button-style-icons-beside-text-option = Simbols sper il text
 customize-button-style-icons-above-text-option = Iconas sur il text
 customize-button-style-icons-only-option = Mo iconas
