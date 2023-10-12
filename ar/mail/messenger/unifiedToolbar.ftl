@@ -14,10 +14,14 @@
 customize-menu-customize =
     .label = خصّص…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = اجلب كل الرسائل الجديدة
+    .accesskey = ج
+
 ## Unified Toolbar customization
 
-customize-button-style-icons-beside-text =
-    .label = الأيقونات بجانب النص
 customize-button-style-icons-beside-text-option = الأيقونات بجانب النص
 
 ## Unified toolbar customization palette context menu
