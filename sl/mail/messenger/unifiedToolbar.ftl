@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Prilagodi …
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Prejmi vsa nova sporočila
+    .accesskey = P
+
 ## Unified Toolbar customization
 
 customize-title = Prilagajanje orodnih vrstic
@@ -45,14 +51,6 @@ customize-space-tab-settings = Nastavitve
 customize-restore-default = Obnovi privzeto
 customize-change-appearance = Spremeni videz …
 customize-button-style-label = Slog gumbov:
-customize-button-style-icons-beside-text =
-    .label = Ikone poleg besedila
-customize-button-style-icons-above-text =
-    .label = Ikone nad besedilom
-customize-button-style-icons-only =
-    .label = Samo ikone
-customize-button-style-text-only =
-    .label = Samo besedilo
 customize-button-style-icons-beside-text-option = Ikone poleg besedila
 customize-button-style-icons-above-text-option = Ikone nad besedilom
 customize-button-style-icons-only-option = Samo ikone
