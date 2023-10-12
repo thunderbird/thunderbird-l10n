@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Přiměrić…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Wšě nowe powěsće wobstarać
+    .accesskey = W
+
 ## Unified Toolbar customization
 
 customize-title = Symbolowe lajsty přiměrić
@@ -45,14 +51,6 @@ customize-space-tab-settings = Nastajenja
 customize-restore-default = Standard wobnowić
 customize-change-appearance = Napohlad změnić…
 customize-button-style-label = Tłóčatkowy stil:
-customize-button-style-icons-beside-text =
-    .label = Symbole a tekst
-customize-button-style-icons-above-text =
-    .label = Symbole nad tekstom
-customize-button-style-icons-only =
-    .label = Jenož symbole
-customize-button-style-text-only =
-    .label = Jenož tekst
 customize-button-style-icons-beside-text-option = Symbole a tekst
 customize-button-style-icons-above-text-option = Symbole nad tekstom
 customize-button-style-icons-only-option = Jenož symbole
