@@ -27,6 +27,12 @@ search-bar-placeholder-with-key2 =
 customize-menu-customize =
     .label = Anpassa…
 
+# Unified toolbar get messages button context menu
+
+toolbar-get-all-messages-menuitem =
+    .label = Hämta alla nya meddelanden
+    .accesskey = H
+
 ## Unified Toolbar customization
 
 customize-title = Anpassa verktygsfält
@@ -45,14 +51,6 @@ customize-space-tab-settings = Inställningar
 customize-restore-default = Återställ standard
 customize-change-appearance = Ändra utseende…
 customize-button-style-label = Knappstil:
-customize-button-style-icons-beside-text =
-    .label = Text bredvid ikoner
-customize-button-style-icons-above-text =
-    .label = Ikoner ovanför text
-customize-button-style-icons-only =
-    .label = Endast ikoner
-customize-button-style-text-only =
-    .label = Endast text
 customize-button-style-icons-beside-text-option = Text bredvid ikoner
 customize-button-style-icons-above-text-option = Ikoner ovanför text
 customize-button-style-icons-only-option = Endast ikoner
