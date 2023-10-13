@@ -27,3 +27,5 @@ libs-rnp-status-ok = OK
 libs-rnp-status-load-failed = Betg reussì da chargiar. OpenPGP na vegn betg a funcziunar.
 libs-rnp-status-incompatible = Versiun incumpatibla. OpenPGP na vegn betg a funcziunar.
 libs-rnp-status-unofficial = Versiun inuffiziala. OpenPGP na vegn eventualmain betg a funcziunar sco spetgà.
+libs-otr-status-ok = OK
+libs-otr-status-error = Betg reussì da chargiar. Il criptadi da chats OTR na vegn betg a funcziunar.
