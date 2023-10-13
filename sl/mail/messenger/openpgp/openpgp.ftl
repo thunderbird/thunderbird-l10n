@@ -652,6 +652,9 @@ msg-compose-partially-encrypted-inlinePGP =
     Razmislite o odstranitvi celotnega navedka iz odgovora temu pošiljatelju.
 msg-compose-cannot-save-draft = Napaka pri shranjevanju osnutka
 msg-compose-partially-encrypted-short = Pazite se razkritja občutljivih podatkov – sporočilo je delno šifrirano.
+quoted-printable-warn =
+    Za pošiljanje sporočil imate omogočeno kodiranje "quoted-printable". To lahko povzroči nepravilnosti pri dešifriranju in/ali preverjanju sporočila.
+    Ali želite zdaj izklopiti pošiljanje sporočil s kodiranjem "quoted-printable"?
 # Variables:
 # $width (Number) - Number of characters per line.
 minimal-line-wrapping =
