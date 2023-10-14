@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Dërgoni kyç(e) publik OpenPGP te krye email-esh, për përputhje me Autocrypt
     .accesskey = t
-openpgp-key-user-id-label = Llogari / ID Përdoruesi
-openpgp-keygen-title-label =
-    .title = Prodho Kyç OpenPGP
-openpgp-cancel-key =
-    .label = Anuloje
-    .tooltiptext = Anuloni Prodhim Kyçi
-openpgp-key-gen-expiry-title =
-    .label = Skadim kyçi
-openpgp-key-gen-expire-label = Kyçi skadon për
-openpgp-key-gen-days-label =
-    .label = ditë
-openpgp-key-gen-months-label =
-    .label = muaj
-openpgp-key-gen-years-label =
-    .label = vjet
-openpgp-key-gen-no-expiry-label =
-    .label = Kyçi nuk skadon
-openpgp-key-gen-key-size-label = Madhësi kyçi
-openpgp-key-gen-console-label = Prodhim Kyçesh
-openpgp-key-gen-key-type-label = Lloj kyçi
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Lakore Eliptike)
-openpgp-generate-key =
-    .label = Prodho kyç
-    .tooltiptext = Prodhon një kyç të ri të përputhshëm me OpenPGP-në, për fshehtëzim dhe/ose nënshkrim
-openpgp-advanced-prefs-button-label =
-    .label = Të mëtejshme…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">SHËNIM:Prodhimi i kyçit mund të dojë deri në disa minuta që të plotësohet.</a> Mos e mbyllni aplikacionin, teksa bëhet prodhimi i kyçit. Shfletimi aktivisht ose kryerja e veprimeve që angazhojnë fort diskun, gjatë prodhimit të kyçit, do të rimbushë “randomness pool” dhe do të përshpejtojë procesin. Kur prodhimi i kyçit të jetë plotësuar, do të njoftoheni.
 openpgp-key-created-label =
     .label = Krijuar më
 openpgp-key-expiry-label =
@@ -119,6 +89,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Botoje
     .accesskey = B
+openpgp-key-publish = Botoje
 openpgp-key-man-discover-prompt = Që të zbuloni kyçe OpenPGP në internet, në shërbyes kyçesh apo duke përdorur protokollin WKD, jepni ose një adresë email, ose një ID kyçi.
 openpgp-key-man-discover-progress = Po kërkohet…
 # Variables:
@@ -314,6 +285,17 @@ openpgp-personal-no-label =
     .label = Jo, mos e përdor si kyçin tim personal.
 openpgp-personal-yes-label =
     .label = Po trajtoje këtë kyç si kyç personal.
+openpgp-passphrase-protection =
+    .label = Mbrojtje Me Frazëkalim
+openpgp-passphrase-status-unprotected = I pambrojtur
+openpgp-passphrase-status-user-passphrase = Mbrojtur me një frazëkalim
+openpgp-passphrase-unlock = Shkyçe
+openpgp-passphrase-unlocked = Kyçi u shkyç me sukses.
+openpgp-remove-protection = Hiq mbrojtje me frazëkalim
+openpgp-passphrase-new = Frazëkalim i ri
+openpgp-passphrase-new-repeat = Ripohoni frazëkalim të ri
+openpgp-passphrase-set = Caktoni frazëkalim
+openpgp-passphrase-change = Ndryshoni frazëkalim
 openpgp-copy-cmd-label =
     .label = Kopjoje
 
@@ -397,10 +379,7 @@ key-verification = Verifikoni shenjat e gishtave të kyçit duke përdorur një 
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = S’arrihet të dërgohet mesazhi, ngaqë ka një problem me kyçin tuaj personal. { $problem }
-cannot-encrypt-because-missing = S’arrihet të dërgohet ky mesazh me fshehtëzim skaj-më-skaj, ngaqë ka probleme me kyçet e marrësve vijues: { $problem }
 window-locked = Dritarja e hartimeve është e kyçur; dërgimi u anulua
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Kjo është pjesë e fshehtëzuar e një mesazhi. Do t’ju duhet ta hapni në një dritare veçmas, duke klikuar mbi bashkëngjitjen.
 
 ## Strings in keyserver.jsm
 
@@ -624,9 +603,6 @@ import-key-file = Importo Kartelë Kyçi OpenPGP
 import-rev-file = Importo Kartelë Shfuqizimi OpenPGP
 gnupg-file = Kartela GnuPG
 import-keys-failed = Importimi i kyçeve dështoi
-# Variables:
-# $key (String) - Key id to unlock.
-passphrase-prompt = Ju lutemi, jepni frazëkalimin që shkyç kyçin vijues: { $key }
 file-to-big-to-import = Kjo kartelë është shumë e madhe. Ju lutemi, mos importoni njëherësh një grup të madh kyçesh.
 
 ## Strings used in enigmailKeygen.js

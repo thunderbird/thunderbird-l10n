@@ -544,23 +544,12 @@ third-party-never =
     .label = Kurrë
 third-party-visited =
     .label = Nga të vizituarit
-keep-label =
-    .value = Mbaji:
-    .accesskey = M
-keep-expire =
-    .label = deri sa të skadojnë
-keep-close =
-    .label = deri sa të mbyll { -brand-short-name }-in
-keep-ask =
-    .label = pyetmë çdo herë
 cookies-button =
     .label = Shfaqni Cookie-t…
     .accesskey = S
 do-not-track-label =
     .label = Dërgojuni sajteve një sinjal “Mos Më Gjurmo” se nuk doni të ndiqeni
     .accesskey = D
-learn-button =
-    .label = Mësoni më tepër
 dnt-learn-more-button =
     .value = Mësoni më tepër
 passwords-description = { -brand-short-name }-i mund të mbajë mend fjalëkalimet për tërë llogaritë tuaja.
@@ -622,6 +611,9 @@ certificate-button =
 security-devices-button =
     .label = Pajisje Sigurie…
     .accesskey = P
+email-e2ee-header = Fshehtëzim Email-esh Skaj-Më-Skaj
+account-settings = Rregullime Llogarie
+email-e2ee-automatism = Përdorim i Automatizuar i Fshehtëzimit
 
 ## Chat Tab
 
