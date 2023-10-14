@@ -51,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) është bllokuar nga përgjegjësi i sistemit tuaj.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Përgjegjësi i sistemit tuaj e pengoi këtë sajt t’ju kërkojë të instalojë program në kompjuterin tuaj.
+addon-install-full-screen-blocked = Nuk lejohet instalim shtesash teksa gjendet në mënyrën sa krejt ekrani ose para saj.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } u shtua te { -brand-short-name }
@@ -60,6 +61,14 @@ webext-perms-update-menu-item = { $addonName } lyp leje të reja
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Të hiqet { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Të hiqet { $name } nga { -brand-shorter-name }?
+addon-removal-button = Hiqe
+addon-removal-abuse-report-checkbox = Raportojeni këtë zgjerim te { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -101,6 +110,7 @@ addon-install-error-incorrect-hash = Shtesa s’u instalua dot, ngaqë s’përp
 addon-install-error-corrupt-file = Shtesa e shkarkuar prej këtij sajti s’u instalua dot, ngaqë duket se është e dëmtuar.
 addon-install-error-file-access = { $addonName } s’u instalua dot, ngaqë { -brand-short-name } s’mund të ndryshojë kartelën e nevojshme.
 addon-install-error-not-signed = { -brand-short-name } e ka penguar këtë sajt të instalojë një shtesë të paverifikuar.
+addon-install-error-invalid-domain = Shtesa { $addonName } s’mund të instalohet që nga kjo vendndodhje.
 addon-local-install-error-network-failure = Kjo shtesë s’u instalua dot, për shkak të një gabimi në sistemin e kartelave.
 addon-local-install-error-incorrect-hash = Kjo shtesë s’u instalua dot, ngaqë s’përputhet me shtesën { -brand-short-name } siç pritej.
 addon-local-install-error-corrupt-file = Kjo shtesë s’u instalua dot, ngaqë duket të jetë e dëmtuar.

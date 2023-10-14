@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Parje e Ngjeshur
     .accesskey = N
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -185,19 +182,14 @@ appmenu-settings =
     .label = Rregullime
 appmenu-addons-and-themes =
     .label = Shtesa dhe Tema
-appmenu-help-enter-troubleshoot-mode =
-    .label = Mënyra Diagnostikim…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Çaktivizo Mënyrën Diagnostikim
-appmenu-help-more-troubleshooting-info =
-    .label = Më Tepër Hollësi Diagnostikimi
-appmenu-redirect-msg =
-    .label = Ridrejto
 
 ## Context menu
 
 context-menu-redirect-msg =
     .label = Ridrejtoje
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Anuloje Mesazhin
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
@@ -206,9 +198,6 @@ mail-context-delete-messages =
             [one] Fshije mesazhin
            *[other] Fshi mesazhet e përzgjedhur
         }
-context-menu-decrypt-to-folder =
-    .label = Kopjoje Si të Shfshehtëzuar Te
-    .accesskey = K
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -294,10 +283,6 @@ no-reply-reply-anyway-button = Përgjigjuni, Sido Qoftë
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = { $failures } nga { $total } mesazhe s’u shfshehtëzuan dot dhe nuk u kopjuan.
 
 ## Spaces toolbar
 

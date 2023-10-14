@@ -82,43 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = Renditi sipas adresash email (A > Z)
 about-addressbook-sort-email-descending =
     .label = Renditi sipas adresash email (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Kalo në skemë horizontale
-about-addressbook-vertical-layout =
-    .label = Kalo në skemë vertikale
 about-addressbook-table-layout =
     .label = Skemë tabele
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Emër
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Adresa Email
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Nofkë
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
-about-addressbook-column-header-phonenumbers = Numra Telefonash
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Adresa
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Titull
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Degë
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Ent
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Libër Adresash
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Emrash
     .title = Renditi sipas emrash
 about-addressbook-column-label-generatedname2 =
@@ -184,28 +153,15 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Hiq Kontaktet
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
+# $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Jeni i sigurt se doni të hiqet { $name } prej { $list }?
-       *[other] Jeni i sigurt se doni të hiqen këto { $count } kontakte prej { $list }?
-    }
+about-addressbook-confirm-remove-contacts-single = Jeni i sigurt se doni të hiqet { $name } nga { $list }?
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Fshije Kontaktin
        *[other] Fshiji Kontaktet
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Jeni i sigurt se doni të fshihet kontakti { $name }?
-       *[other] Jeni i sigurt se doni të fshihen këto { $count } kontakte?
     }
 
 ## Card list placeholder
@@ -219,15 +175,6 @@ about-addressbook-placeholder-no-search-results = S’u gjetën kontakte
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } kontakte dhe lista të përzgjedhura
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } kontakte të përzgjedhura
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } lista të përzgjedhura
 about-addressbook-details-edit-photo =
     .title = Përpunoni foto kontakti
 about-addressbook-new-contact-header = Kontakt i Ri

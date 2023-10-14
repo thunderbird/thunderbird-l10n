@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Shtoni një Kyç Personal OpenPGP për { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Vazhdo
-    .buttonlabelhelp = Kthehu mbrapsht
 key-wizard-dialog =
     .buttonlabelaccept = Vazhdo
     .buttonlabelextra1 = Kthehu mbrapsht
@@ -26,6 +23,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Prodho Kyç OpenPGP
+openpgp-keygen-secret-protection = Mbrojtje Kyçesh të Fshehtë
+radio-keygen-no-protection =
+    .label = I pambrojtur
+radio-keygen-protect-primary-pass =
+    .label = Mbroje me Fjalëkalimin e Përgjithshëm
+radio-keygen-passphrase-protection =
+    .label = Mbroje me një frazëkalim:
+openpgp-passphrase-repeat = Ripohoni frazëkalimin:
 openpgp-generate-key-info = <b>Prodhimi i kyçit mund të dojë deri në disa minuta që të plotësohet.</b> Mos e mbyllni aplikacionin, teksa bëhet prodhimi i kyçit. Shfletimi aktivisht ose kryerja e veprimeve që angazhojnë fort diskun, gjatë prodhimit të kyçit, do të rimbushë “randomness pool” dhe do të përshpejtojë procesin. Kur prodhimi i kyçit të jetë plotësuar, do të njoftoheni.
 openpgp-keygen-expiry-title = Skadim kyçi
 openpgp-keygen-expiry-description = Përcaktoni kohën e skadimit të kyçit tuaj të sapoprodhuar. Datën mund ta kontrolloni më vonë, për ta shtyrë më tej, nëse duhet.
@@ -74,7 +79,7 @@ openpgp-keygen-short-expiry = Kyçi juaj duhet të jetë i vlefshëm për të pa
 openpgp-keygen-ongoing = Prodhim kyçi tashmë në kryerje e sipër!
 openpgp-keygen-error-core = S’arrihet të niset Shërbimi Bazë OpenPGP
 openpgp-keygen-error-failed = Prodhimi i Kyçit OpenPGP dështoi papritmas
-#   $identity (String) - the newly generate OpenPGP Key
+#   $key (String) - the ID of the newly generated OpenPGP key
 openpgp-keygen-error-revocation = Kyçi OpenPGP u krijua me sukses, por s’u arrit të merrej shfuqizim për kyçin { $key }
 openpgp-keygen-abort-title = Të ndërpritet prodhimi i kyçit?
 openpgp-keygen-abort = Prodhim Kyçi OpenPGP aktualisht në kryerje e sipër, jeni i sigurt se doni të anulohet?
@@ -96,8 +101,6 @@ openpgp-import-key-list-amount-2 =
 openpgp-import-key-list-description = Ripohoni cilët kyçe mund të trajtohen si kyçet tuaj personalë. Si kyçe personalë duhen përdorur vetëm kyçe që krijuat ju vetë dhe që shfaqin identitetin tuaj. Këtë mundësi mund ta ndryshoni më vonë që nga dialogu Veti Kyçi.
 openpgp-import-key-list-caption = Kyçet e shënuar për t’u trajtuar si Kyçe Personalë do të radhiten te ndarja Fshehtëzim Skaj-Më-Skaj. Të tjerët do të jenë të passhëm brenda Përgjegjësit të Kyçeve.
 openpgp-passphrase-prompt-title = Lypset frazëkalim
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Ju lutemi, jepni frazëkalimin që të shkyçet kyçi vijues: { $key }
 openpgp-import-key-button =
     .label = Përzgjidhni Kartelë për Importim…
     .accesskey = P
