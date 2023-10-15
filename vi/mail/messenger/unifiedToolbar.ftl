@@ -60,6 +60,8 @@ customize-save = Lưu
 customize-unsaved-changes = Các thay đổi chưa được lưu trong các không gian khác
 customize-search-bar =
     .label = Các nút trên thanh công cụ tìm kiếm…
+customize-spaces-tabs =
+    .aria-label = Spaces
 customize-main-toolbar-target =
     .aria-label = Thanh công cụ chính
 
@@ -87,4 +89,4 @@ customize-target-add-everywhere =
 customize-target-start =
     .label = Di chuyển lên đầu tiên
 customize-target-end =
-    .label = Di chuyển đến cuối cùng
+    .label = Di chuyển xuống cuối cùng
