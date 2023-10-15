@@ -513,6 +513,8 @@ key-ring-pub-key-revoked = Ključ { $userId } (ID ključa { $keyId }) je preklic
 key-ring-pub-key-expired = Ključu { $userId } (ID ključa { $keyId }) je pretekla veljavnost.
 key-ring-pub-key-not-for-signing = Ključa { $userId } (ID ključa { $keyId }) ni mogoče uporabiti za podpisovanje.
 key-ring-pub-key-not-for-encryption = Ključa { $userId } (ID ključa { $keyId }) ni mogoče uporabiti za šifriranje.
+key-ring-sign-sub-keys-revoked = Vsi podpisovalski podključi ključa { $userId } (ID ključa { $keyId }) so preklicani.
+key-ring-enc-sub-keys-revoked = Vsi šifrirni podključi ključa { $userId } (ID ključa { $keyId }) so preklicani.
 
 ## Strings in gnupg-keylist.jsm
 
