@@ -10,7 +10,7 @@
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Невдала спроба з’єднання">
+<!ENTITY connectionFailure.title "Не вдалося з'єднатися">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Звернення до цієї адреси заборонено">
@@ -19,13 +19,13 @@
 <!ENTITY dnsNotFound.title "Сервер не знайдено">
 <!ENTITY dnsNotFound.longDesc "
 <ul>
-<li>Перевірте, чи не допущена помилка при наборі адреси, наприклад
-<strong>ww</strong>.example.com замість
-<strong>www</strong>.example.com</li>
-<li>Якщо жодна сторінка не завантажується — перевірте налаштування з’єднання
-з інтернетом.</li>
-<li>Якщо комп’ютер або мережа захищені фаєрволом або проксі-сервером — переконайтеся, що
-&brandShortName; дозволено виходити в інтернет.</li>
+  <li>Перевірте адресу на наявність помилок, наприклад:
+    <strong>ww</strong>.example.com замість
+    <strong>www</strong>.example.com</li>
+  <li>Якщо жодна сторінка не завантажується, перевірте
+    інтернет-з'єднання.</li>
+  <li>Якщо комп'ютер або мережа захищені мережевим екраном або проксі,
+    переконайтеся, що для &brandShortName; дозволено доступ до Інтернету.</li>
 </ul>
 ">
 
@@ -59,7 +59,7 @@
 </ul>
 ">
 
-<!ENTITY netInterrupt.title "З’єднання перервано">
+<!ENTITY netInterrupt.title "З'єднання перервано">
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Документ застарів">
@@ -86,10 +86,10 @@
 </ul>
 ">
 
-<!ENTITY netReset.title "З’єднання скинуто">
+<!ENTITY netReset.title "З'єднання скинуто">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "Перевищено термін очікування з’єднання">
+<!ENTITY netTimeout.title "Перевищено термін очікування з'єднання">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "Невідомий тип адреси">
@@ -99,11 +99,11 @@
 </ul>
 ">
 
-<!ENTITY proxyConnectFailure.title "Проксі-сервер відмовляється приймати з’єднання">
+<!ENTITY proxyConnectFailure.title "Проксі-сервер відмовляється приймати з'єднання">
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
-  <li>Перевірте налаштування проксі-сервера і переконайтеся, що вони правильні.</li>
-  <li>Зв’яжіться з вашим системним адміністратором і переконайтеся, що проксі-сервер
+  <li>Перевірте правильність налаштувань проксі.</li>
+  <li>Зверніться до свого системного адміністратора й переконайтеся, що проксі-сервер
     працює.</li>
 </ul>
 ">
@@ -111,9 +111,9 @@
 <!ENTITY proxyResolveFailure.title "Неможливо знайти проксі-сервер">
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
-  <li>Перевірте правильність встановлених налаштувань проксі-сервера.</li>
-  <li>Перевірте з’єднання вашого комп’ютера з мережею.</li>
-  <li>Якщо ваш комп’ютер або мережа захищені мережевим екраном чи проксі-сервером — переконайтеся,
+  <li>Перевірте правильність налаштувань проксі.</li>
+  <li>Перевірте інтернет-з'єднання вашого комп'ютера.</li>
+  <li>Якщо ваш комп'ютер або мережа захищені мережевим екраном чи проксі, переконайтеся,
     що для &brandShortName; дозволено доступ до Інтернету.</li>
 </ul>
 ">
@@ -135,7 +135,7 @@
 </ul>
 ">
 
-<!ENTITY nssFailure2.title "Не вдалось установити безпечне з’єднання">
+<!ENTITY nssFailure2.title "Не вдалося встановити безпечне з'єднання">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
   <li>Сторінка, котру ви намагаєтесь переглянути, не може бути показана оскільки не вдалося перевірити справжність отриманих даних.</li>
@@ -143,7 +143,7 @@
 </ul>
 ">
 
-<!ENTITY nssBadCert.title "Не вдалось установити безпечне з’єднання">
+<!ENTITY nssBadCert.title "Не вдалося встановити безпечне з'єднання">
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
   <li>Це може бути проблема конфігурації сервера, або, можливо, хтось
@@ -155,12 +155,12 @@
 
 <!ENTITY sharedLongDesc "
 <ul>
-  <li>Можливо, сайт тимчасово недоступний або переобтяжений запитами. Почекайте трохи
-    і спробуйте знову.</li>
-  <li>Якщо ви не можете завантажити жодну сторінку — перевірте настройки з’єднання
-    з інтернетом.</li>
-  <li>Якщо ваш комп’ютер або мережа захищені фаєрволом або проксі-сервером — переконайтеся,
-    що &brandShortName; дозволено вихід в інтернет.</li>
+  <li>Можливо, сайт тимчасово недоступний або перевантажений. Повторіть спробу
+    пізніше.</li>
+  <li>Якщо жодна сторінка не завантажується, перевірте інтернет-з'єднання
+    вашого комп'ютера.</li>
+  <li>Якщо ваш комп'ютер або мережа захищені мережевим екраном чи проксі, переконайтеся,
+    що для &brandShortName; дозволено доступ до Інтернету.</li>
 </ul>
 ">
 
@@ -183,14 +183,14 @@ button is included here (instead of netError.xhtml) because it exposes
 functionality specific to thunderbird. -->
 
 <!ENTITY securityOverride.warningContent "
-<p>Вам не слід додавати виняток, якщо ви використовуєте з’єднання, якому не цілком довіряєте, або якщо ви зазвичай не бачите попередження для цього сервера.</p>
+<p>Вам не слід додавати виняток, якщо ви використовуєте інтернет-з'єднання, якому не цілком довіряєте, або якщо ви зазвичай не бачите попередження для цього сервера.</p>
 
 <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
 <!ENTITY remoteXUL.title "Віддалений XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Зв’яжіться з власниками сайту та повідомте їх про цю проблему.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Зв'яжіться з власниками сайту та повідомте їх про цю проблему.</li></ul></p>">
 
 <!ENTITY inadequateSecurityError.title "Ваше з'єднання незахищене">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
