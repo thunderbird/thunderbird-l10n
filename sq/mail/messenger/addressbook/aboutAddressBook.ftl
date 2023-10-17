@@ -157,12 +157,23 @@ about-addressbook-confirm-remove-contacts-title =
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Jeni i sigurt se doni të hiqet { $name } nga { $list }?
 # Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Jeni i sigurt se doni të hiqet ky kontakt prej { $list }?
+       *[other] Jeni i sigurt se doni të hiqen këto { $count } kontakte prej { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Fshije Kontaktin
        *[other] Fshiji Kontaktet
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Jeni i sigurt se doni të fshihet kontakti { $name }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
