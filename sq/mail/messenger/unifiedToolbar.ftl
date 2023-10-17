@@ -71,6 +71,7 @@ customize-palette-calendar-specific-title = I passhëm vetëm për Hapësirën K
 customize-palette-tasks-specific-title = I passhëm vetëm për Hapësirën Punë
 customize-palette-chat-specific-title = I passhëm vetëm për Hapësirën Fjalosje
 customize-palette-settings-specific-title = I passhëm vetëm për Hapësirën Rregullime
+customize-palette-extension-specific-title = I passhëm vetëm për këtë Hapësirë
 
 ## Unified toolbar customization palette context menu
 
