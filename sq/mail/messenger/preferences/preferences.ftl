@@ -614,6 +614,12 @@ security-devices-button =
 email-e2ee-header = Fshehtëzim Email-esh Skaj-Më-Skaj
 account-settings = Rregullime Llogarie
 email-e2ee-automatism = Përdorim i Automatizuar i Fshehtëzimit
+email-e2ee-auto-on =
+    .label = Aktivizo automatikisht fshehtëzimin, kurdo që të jetë e mundur
+email-e2ee-auto-off =
+    .label = Çaktivizo automatikisht fshehtëzimin, kur marrësit ndryshojnë dhe fshehtëzimi s’është më i mundshëm
+email-e2ee-auto-off-notify =
+    .label = Shfaqë një njoftim, kurdo që fshehtëzimi është çaktivizuar automatikisht
 
 ## Chat Tab
 

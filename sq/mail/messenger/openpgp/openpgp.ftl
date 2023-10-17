@@ -338,6 +338,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Kyçi skadon për më pak se 6 muaj
 openpgp-key-has-expired-icon =
     .title = Kyçi skadoi
+openpgp-suggest-publishing-key = Publikimi në një shërbyes kyçesh i kyçit publik u lejon të tjerëve ta zbulojnë atë.
 openpgp-key-expand-section =
     .tooltiptext = Më tepër hollësi
 openpgp-key-revoke-title = Shfuqizojeni Kyçin
