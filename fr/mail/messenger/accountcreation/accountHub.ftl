@@ -77,6 +77,6 @@ account-hub-ssl-noencryption-option =
     .label = Aucune
 account-hub-auth-label = Méthode d’authentification
 account-hub-username-label = Nom d’utilisateur
-account-hub-adding-account-title = Lors de l’ajout d’un compte
+account-hub-adding-account-title = Ajout du compte
 account-hub-adding-account-subheader = Nouveau test des paramètres de configuration du compte
 account-hub-account-added-title = Compte ajouté
