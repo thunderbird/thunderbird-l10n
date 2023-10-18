@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Nid ydym yn gallu anfon e-bost dilysu ar hyn o
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Allgofnodi o gyfrif?
 sync-signout-dialog-body = Bydd data wedi'i gydweddu'n aros yn eich cyfrif.
 sync-signout-dialog-button = Allgofnodi
 

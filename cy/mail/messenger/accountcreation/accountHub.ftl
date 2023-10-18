@@ -41,7 +41,42 @@ account-hub-sync-button = Mewngofnodi i Sync…
 ## Email page
 
 account-hub-email-title = Creu cyfrif e-bost
+account-hub-add-email-title = Ychwanegu Eich Cyfrif
+account-hub-manually-configure-email-title = Gosod Ffurfweddu Cyfrif
 account-hub-email-cancel-button = Diddymu
+account-hub-email-stop-button = Atal
 account-hub-email-back-button = Nôl
+account-hub-email-retest-button = Ailbrofi
+account-hub-email-finish-button = Gorffen
+account-hub-email-manually-configure-button = Ffurfweddu â Llaw
 account-hub-email-continue-button = Parhau
 account-hub-email-confirm-button = Cadarnhau
+account-hub-incoming-server-legend = Gweinydd Derbyn
+account-hub-outgoing-server-legend = Gweinydd anfon
+account-hub-protocol-label = Protocol
+account-hub-hostname-label = Enw Gwesteiwr
+account-hub-port-label = Porth
+    .title = Gosodwch rif y porthladd i 0 ar gyfer canfod awtomatig
+account-hub-auto-description = Bydd { -brand-short-name } yn ceisio awtoganfod meysydd sy'n cael eu gadael yn wag.
+account-hub-ssl-label = Diogelwch cysylltiad
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Awtoganfod
+account-hub-ssl-no-authentication-option =
+    .label = Dim dilysiad
+account-hub-ssl-cleartext-password-option =
+    .label = Cyfrinair arferol
+account-hub-ssl-encrypted-password-option =
+    .label = Cyfrinair wedi'i amgryptio
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Dim
+account-hub-auth-label = Dull dilysu
+account-hub-username-label = Enw Defnyddiwr
+account-hub-adding-account-title = Ychwanegu Cyfrif
+account-hub-adding-account-subheader = Ail-brofi gosodiadau cyfluniad cyfrif
+account-hub-account-added-title = Ychwanegwyd Cyfrif
