@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Non è stato possibile inviare la mail di veri
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Disconnettersi dall’account?
 sync-signout-dialog-body = I dati sincronizzati verranno mantenuti nell’account.
 sync-signout-dialog-button = Disconnetti
 
