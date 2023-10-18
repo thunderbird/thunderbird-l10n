@@ -42,6 +42,7 @@ account-hub-sync-button = Pola Sync přizjewić…
 
 account-hub-email-title = Waše e-mejlowe konto konfigurować
 account-hub-add-email-title = Přidajće swoje konto
+account-hub-manually-configure-email-title = Kontowu konfiguraciju nastajić
 account-hub-email-cancel-button = Přetorhnyć
 account-hub-email-stop-button = Zastajić
 account-hub-email-back-button = Wróćo
@@ -54,6 +55,8 @@ account-hub-incoming-server-legend = Dochadny serwer
 account-hub-outgoing-server-legend = Wuchadny serwer
 account-hub-protocol-label = Protokol
 account-hub-hostname-label = Hostmjeno
+account-hub-port-label = Port
+    .title = Stajće portowe čisło na 0 za awtomatiske spóznaće
 account-hub-auto-description = { -brand-short-name } budźe pospytować, pola awtomatisce wotkryć, kotrež su prózdne.
 account-hub-ssl-label = Zwiskowa wěstota
 
@@ -75,4 +78,5 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-label = Awtentifikaciska metoda
 account-hub-username-label = Wužiwarske mjeno
 account-hub-adding-account-title = Přidawanje konta
+account-hub-adding-account-subheader = Nastajenja za kontowu konfiguraciju znowa testować
 account-hub-account-added-title = Konto je so přidało
