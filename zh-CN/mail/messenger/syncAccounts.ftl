@@ -17,6 +17,7 @@ sync-verification-not-sent-body = 我们目前无法发送验证邮件，请稍�
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = 确定要退出账户吗？
 sync-signout-dialog-body = 已同步的数据将保留在您的账户中。
 sync-signout-dialog-button = 退出
 

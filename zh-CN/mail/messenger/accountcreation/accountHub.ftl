@@ -41,7 +41,42 @@ account-hub-sync-button = 登录以同步…
 ## Email page
 
 account-hub-email-title = 设置您的电子邮件账户
+account-hub-add-email-title = 添加您的账户
+account-hub-manually-configure-email-title = 设置账户配置
 account-hub-email-cancel-button = 取消
+account-hub-email-stop-button = 停用
 account-hub-email-back-button = 后退
+account-hub-email-retest-button = 重新测试
+account-hub-email-finish-button = 完成
+account-hub-email-manually-configure-button = 手动配置
 account-hub-email-continue-button = 继续
 account-hub-email-confirm-button = 确认
+account-hub-incoming-server-legend = 收件服务器
+account-hub-outgoing-server-legend = 发件服务器
+account-hub-protocol-label = 协议
+account-hub-hostname-label = 主机名
+account-hub-port-label = 端口
+    .title = 设置端口号为 0 表示自动检测
+account-hub-auto-description = { -brand-short-name } 将尝试自动检测留白的字段。
+account-hub-ssl-label = 连接安全性
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = 自动检测
+account-hub-ssl-no-authentication-option =
+    .label = 无须验证
+account-hub-ssl-cleartext-password-option =
+    .label = 普通密码
+account-hub-ssl-encrypted-password-option =
+    .label = 加密密码
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = 无
+account-hub-auth-label = 验证方式
+account-hub-username-label = 用户名
+account-hub-adding-account-title = 正在添加账户
+account-hub-adding-account-subheader = 正在重新测试账户配置
+account-hub-account-added-title = 账户已添加
