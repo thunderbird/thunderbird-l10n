@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Njemóžemy tuchwilu wobkrućensku e-mejlku s�
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Wot konta wotzjewić?
 sync-signout-dialog-body = Synchronizowane daty we wašim konće wostanu.
 sync-signout-dialog-button = Wotzjewić
 

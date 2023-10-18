@@ -19,17 +19,6 @@ account-hub-release-notes = Wersijowe informacije
 account-hub-support = Pomoc
 account-hub-donate = Darić
 
-## Start page
-
-account-hub-email-button = E-mejlowe konto konfigurować
-account-hub-new-email-button = Wobstarajće sej e-mejlowu adresu
-account-hub-calendar-button = Protyku konfigurować
-account-hub-address-book-button = Adresnik konfigurować
-account-hub-chat-button = Chat konfigurować
-account-hub-feed-button = RSS-kanal konfigurować
-account-hub-newsgroup-button = Diskusijnu skupinu konfigurować
-account-hub-import-button = Profil importować
-
 ## Initial setup page
 
 account-hub-email-setup-button = E-mejlowe konto
@@ -52,7 +41,38 @@ account-hub-sync-button = Pola Sync přizjewić…
 ## Email page
 
 account-hub-email-title = Waše e-mejlowe konto konfigurować
+account-hub-add-email-title = Přidajće swoje konto
 account-hub-email-cancel-button = Přetorhnyć
+account-hub-email-stop-button = Zastajić
 account-hub-email-back-button = Wróćo
+account-hub-email-retest-button = Znowa testować
+account-hub-email-finish-button = Dokónčić
+account-hub-email-manually-configure-button = Manuelnje konfigurować
 account-hub-email-continue-button = Dale
 account-hub-email-confirm-button = Wobkrućić
+account-hub-incoming-server-legend = Dochadny serwer
+account-hub-outgoing-server-legend = Wuchadny serwer
+account-hub-protocol-label = Protokol
+account-hub-hostname-label = Hostmjeno
+account-hub-auto-description = { -brand-short-name } budźe pospytować, pola awtomatisce wotkryć, kotrež su prózdne.
+account-hub-ssl-label = Zwiskowa wěstota
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Awtomatisce zwěsćić
+account-hub-ssl-no-authentication-option =
+    .label = Žana awtentifikacija
+account-hub-ssl-cleartext-password-option =
+    .label = Normalne hesło
+account-hub-ssl-encrypted-password-option =
+    .label = Zaklučowane hesło
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Žadyn
+account-hub-auth-label = Awtentifikaciska metoda
+account-hub-username-label = Wužiwarske mjeno
+account-hub-adding-account-title = Přidawanje konta
+account-hub-account-added-title = Konto je so přidało
