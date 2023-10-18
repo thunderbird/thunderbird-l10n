@@ -41,7 +41,42 @@ account-hub-sync-button = Přihlásit se ke službě Sync…
 ## Email page
 
 account-hub-email-title = Nastavení vašeho e-mailového účtu
+account-hub-add-email-title = Přidat váš účet
+account-hub-manually-configure-email-title = Nastavit konfiguraci účtu
 account-hub-email-cancel-button = Zrušit
+account-hub-email-stop-button = Zastavit
 account-hub-email-back-button = Zpět
+account-hub-email-retest-button = Znovu otestovat
+account-hub-email-finish-button = Dokončit
+account-hub-email-manually-configure-button = Nastavit ručně
 account-hub-email-continue-button = Pokračovat
 account-hub-email-confirm-button = Potvrdit
+account-hub-incoming-server-legend = Příchozí server
+account-hub-outgoing-server-legend = Server odchozí pošty
+account-hub-protocol-label = Protokol
+account-hub-hostname-label = Server
+account-hub-port-label = Port
+    .title = Pro automatickou detekci nastavte číslo portu na 0
+account-hub-auto-description = { -brand-short-name } se pokusí automaticky doplnit pole, která jste nevyplnili.
+account-hub-ssl-label = Zabezpečení připojení
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Rozpoznat automaticky
+account-hub-ssl-no-authentication-option =
+    .label = Bez autentizace
+account-hub-ssl-cleartext-password-option =
+    .label = Heslo, zabezpečený přenos
+account-hub-ssl-encrypted-password-option =
+    .label = Šifrované heslo
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Žádný
+account-hub-auth-label = Způsob autentizace
+account-hub-username-label = Uživatelské jméno
+account-hub-adding-account-title = Přidání účtu
+account-hub-adding-account-subheader = Opětovné otestování nastavení konfigurace účtu
+account-hub-account-added-title = Účet přidán
