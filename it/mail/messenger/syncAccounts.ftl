@@ -8,10 +8,20 @@
 
 ## These strings are shown in a desktop notification after the user requests we resend a verification email.
 
+sync-verification-sent-title = Verifica inviata
+# Variables:
+# $userEmail (String) - Email address of the account used for sync.
+sync-verification-sent-body = Un link di verifica è stato inviato a { $userEmail }.
+sync-verification-not-sent-title = Impossibile inviare la verifica
+sync-verification-not-sent-body = Non è stato possibile inviare la mail di verifica, riprovare più tardi.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-body = I dati sincronizzati verranno mantenuti nell’account.
+sync-signout-dialog-button = Disconnetti
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
+sync-disconnect-dialog-title = Disconnettersi?
 sync-disconnect-dialog-body = { -brand-product-name } interromperà la sincronizzazione con l’account ma non verrà rimosso alcun dato da questo dispositivo.
+sync-disconnect-dialog-button = Disconnetti
