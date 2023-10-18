@@ -48,7 +48,7 @@ account-hub-email-stop-button = Arrêter
 account-hub-email-back-button = Retour
 account-hub-email-retest-button = Retester
 account-hub-email-finish-button = Terminer
-account-hub-email-manually-configure-button = Configuration manuelle
+account-hub-email-manually-configure-button = Configurer manuellement
 account-hub-email-continue-button = Continuer
 account-hub-email-confirm-button = Confirmer
 account-hub-incoming-server-legend = Serveur entrant
@@ -57,7 +57,7 @@ account-hub-protocol-label = Protocole
 account-hub-hostname-label = Nom d’hôte
 account-hub-port-label = Port
     .title = Définir le numéro de port à 0 pour l’autodétection
-account-hub-auto-description = { -brand-short-name } essayera de détecter automatiquement les champs qui sont laissés vides.
+account-hub-auto-description = { -brand-short-name } tentera de détecter automatiquement les champs qui sont laissés vides.
 account-hub-ssl-label = Sécurité de la connexion
 
 ## Incoming/Outgoing SSL Authentication options
