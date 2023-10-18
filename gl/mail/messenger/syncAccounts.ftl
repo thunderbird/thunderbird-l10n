@@ -23,4 +23,5 @@ sync-signout-dialog-button = Saír
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
 sync-disconnect-dialog-title = Desconectar?
+sync-disconnect-dialog-body = O { -brand-product-name } deixará de sincronizar mais non eliminará ningún dos seus datos neste dispositivo.
 sync-disconnect-dialog-button = Desconectar
