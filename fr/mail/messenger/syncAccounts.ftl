@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Nous ne parvenons pas à vous envoyer d’e-ma
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Se déconnecter du compte ?
 sync-signout-dialog-body = Les données synchronisées resteront dans votre compte.
 sync-signout-dialog-button = Se déconnecter
 
