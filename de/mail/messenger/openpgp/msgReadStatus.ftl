@@ -55,12 +55,12 @@ openpgp-enc-key-id = Ihr Schlüssel für Entschlüsselung: { $key }
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Ihre Schlüssel-ID für Entschlüsselung: { $key } (Unterschlüssel-ID: { $subkey })
 openpgp-enc-none = Nachricht ist nicht verschlüsselt
-openpgp-enc-none-label = Die Nachricht wurde vor dem Senden nicht verschlüsselt. Unverschlüsselt über das Internet gesendete Informationen können von anderen Personen während des Transport gelesen werden.
+openpgp-enc-none-label = Diese Nachricht wurde vor dem Senden nicht verschlüsselt. Unverschlüsselt über das Internet gesendete Informationen können von anderen Personen während der Übertragung gelesen werden.
 openpgp-enc-invalid-label = Nachricht kann nicht entschlüsselt werden
-openpgp-enc-invalid = Die Nachricht wurde vor dem Senden verschlüsselt, aber sie kann nicht entschlüsselt werden.
-openpgp-enc-clueless = Es sind unbekannte Probleme mit dieser verschlüsselten Nachricht aufgetreten.
+openpgp-enc-invalid = Diese Nachricht wurde vor dem Senden verschlüsselt, kann aber nicht entschlüsselt werden.
+openpgp-enc-clueless = Mit dieser verschlüsselten Nachricht sind unbekannte Probleme aufgetreten.
 openpgp-enc-valid-label = Nachricht ist verschlüsselt
-openpgp-enc-valid = Die Nachricht wurde vor dem Senden verschlüsselt. Die Verschlüsselung stellt sicher, dass die Nachricht nur von den beabsichtigten Empfängern gelesen werden kann.
+openpgp-enc-valid = Diese Nachricht wurde vor dem Senden verschlüsselt. Die Verschlüsselung gewährleistet, dass die Nachricht nur von den Empfängern gelesen werden kann, für die sie bestimmt ist.
 openpgp-unknown-key-id = Unbekannter Schlüssel
 openpgp-other-enc-additional-key-ids = Zusätzlich wurde die Nachricht an die Besitzer der folgenden Schlüssel verschlüsselt gesendet:
 openpgp-other-enc-all-key-ids = Die Nachricht wurde an die Besitzer der folgenden Schlüssel verschlüsselt gesendet:
