@@ -19,17 +19,6 @@ account-hub-release-notes = Opombe ob izdaji
 account-hub-support = Podpora
 account-hub-donate = Donirajte
 
-## Start page
-
-account-hub-email-button = Nastavi račun za e-pošto
-account-hub-new-email-button = Pridobi nov e-poštni naslov
-account-hub-calendar-button = Nastavi koledar
-account-hub-address-book-button = Nastavi imenik
-account-hub-chat-button = Nastavi klepet
-account-hub-feed-button = Nastavi vir RSS
-account-hub-newsgroup-button = Nastavi novičarsko skupino
-account-hub-import-button = Uvozi profil
-
 ## Initial setup page
 
 account-hub-email-setup-button = E-poštni račun
@@ -53,6 +42,39 @@ account-hub-sync-button = Prijava v sinhronizacijo …
 
 account-hub-email-title = Nastavite račun za e-pošto
 account-hub-email-cancel-button = Prekliči
+account-hub-email-stop-button = Ustavi
 account-hub-email-back-button = Nazaj
+account-hub-email-retest-button = Preizkusi znova
+account-hub-email-finish-button = Dokončaj
+account-hub-email-manually-configure-button = Nastavi ročno
 account-hub-email-continue-button = Nadaljuj
 account-hub-email-confirm-button = Potrdi
+account-hub-incoming-server-legend = Dohodni strežnik
+account-hub-outgoing-server-legend = Odhodni strežnik
+account-hub-protocol-label = Protokol
+account-hub-hostname-label = Ime gostitelja
+account-hub-port-label = Vrata
+    .title = Za samodejno zaznavo nastavite številko vrat na 0
+account-hub-auto-description = { -brand-short-name } bo poskusil samodejno zaznati vrednosti za neizpolnjena polja.
+account-hub-ssl-label = Varnost povezave
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Zaznaj samodejno
+account-hub-ssl-no-authentication-option =
+    .label = Brez overitve
+account-hub-ssl-cleartext-password-option =
+    .label = Običajno geslo
+account-hub-ssl-encrypted-password-option =
+    .label = Šifrirano geslo
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Brez
+account-hub-auth-label = Metoda overitve
+account-hub-username-label = Uporabniško ime
+account-hub-adding-account-title = Dodajanje računa
+account-hub-adding-account-subheader = Ponovno preizkušanje nastavitev računa
+account-hub-account-added-title = Račun dodan
