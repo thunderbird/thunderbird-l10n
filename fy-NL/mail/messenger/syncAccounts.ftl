@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Wy kinne op dit stuit gjin ferifikaasje-e-mail
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Ofmelde by account?
 sync-signout-dialog-body = Syngronisearre gegevens sille yn jo account bliuwe.
 sync-signout-dialog-button = Ofmelde
 
