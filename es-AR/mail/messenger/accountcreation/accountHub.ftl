@@ -41,12 +41,12 @@ account-hub-sync-button = Ingresar a Sync…
 ## Email page
 
 account-hub-email-title = Configurar una cuenta de correo electrónico
-account-hub-add-email-title = Agrega tu cuenta
+account-hub-add-email-title = Agregar una cuenta
 account-hub-manually-configure-email-title = Establecer configuración de cuenta
 account-hub-email-cancel-button = Cancelar
 account-hub-email-stop-button = Detener
 account-hub-email-back-button = Atrás
-account-hub-email-retest-button = Volver a probar
+account-hub-email-retest-button = Volver a verificar
 account-hub-email-finish-button = Finalizar
 account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
