@@ -17,7 +17,7 @@ sync-verification-not-sent-body = 我們暫時無法寄出驗證信，請稍後�
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
-sync-signout-dialog-title = 要登出帳號嗎
+sync-signout-dialog-title = 要登出帳號嗎？
 sync-signout-dialog-body = 已同步的資料將保留在您的帳號中。
 sync-signout-dialog-button = 登出
 

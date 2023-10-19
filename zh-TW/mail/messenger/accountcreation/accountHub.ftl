@@ -41,8 +41,8 @@ account-hub-sync-button = 登入至 Sync…
 ## Email page
 
 account-hub-email-title = 設定您的電子郵件帳號
-account-hub-add-email-title = 新增帳號
-account-hub-manually-configure-email-title = 設定帳號設定
+account-hub-add-email-title = 新增您的帳號
+account-hub-manually-configure-email-title = 帳號設定
 account-hub-email-cancel-button = 取消
 account-hub-email-stop-button = 停止
 account-hub-email-back-button = 上一頁
@@ -51,12 +51,12 @@ account-hub-email-finish-button = 完成
 account-hub-email-manually-configure-button = 手動設定
 account-hub-email-continue-button = 繼續
 account-hub-email-confirm-button = 確認
-account-hub-incoming-server-legend = 收件伺服器
-account-hub-outgoing-server-legend = 寄件伺服器
+account-hub-incoming-server-legend = 內送伺服器
+account-hub-outgoing-server-legend = 外寄伺服器
 account-hub-protocol-label = 通訊協定
 account-hub-hostname-label = 主機名稱
 account-hub-port-label = 埠
-    .title = 將埠號設定為 0 以進行自動偵測
+    .title = 埠號設定為 0 即可自動偵測
 account-hub-auto-description = { -brand-short-name } 將嘗試自動偵測留白的欄位。
 account-hub-ssl-label = 連線安全性
 
@@ -75,7 +75,7 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = 無
-account-hub-auth-label = 認證方式:
+account-hub-auth-label = 認證方式
 account-hub-username-label = 使用者名稱
 account-hub-adding-account-title = 新增帳號
 account-hub-adding-account-subheader = 正在重新測試帳號設定
