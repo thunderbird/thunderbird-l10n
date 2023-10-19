@@ -19,17 +19,6 @@ account-hub-release-notes = Uitgaveopmerkingen
 account-hub-support = Ondersteuning
 account-hub-donate = Doneren
 
-## Start page
-
-account-hub-email-button = E-mailaccount instellen
-account-hub-new-email-button = Een nieuw e-mailadres aanvragen
-account-hub-calendar-button = Agenda instellen
-account-hub-address-book-button = Adresboek instellen
-account-hub-chat-button = Chat instellen
-account-hub-feed-button = RSS-feed instellen
-account-hub-newsgroup-button = Nieuwsgroep instellen
-account-hub-import-button = Profiel importeren
-
 ## Initial setup page
 
 account-hub-email-setup-button = E-mailaccount
@@ -52,7 +41,42 @@ account-hub-sync-button = Aanmelden bij Synchronisatie…
 ## Email page
 
 account-hub-email-title = Uw e-mailaccount instellen
+account-hub-add-email-title = Uw account toevoegen
+account-hub-manually-configure-email-title = Accountconfiguratie instellen
 account-hub-email-cancel-button = Annuleren
+account-hub-email-stop-button = Stoppen
 account-hub-email-back-button = Terug
+account-hub-email-retest-button = Opnieuw testen
+account-hub-email-finish-button = Voltooien
+account-hub-email-manually-configure-button = Handmatig configureren
 account-hub-email-continue-button = Doorgaan
 account-hub-email-confirm-button = Bevestigen
+account-hub-incoming-server-legend = Inkomende server
+account-hub-outgoing-server-legend = Uitgaande server
+account-hub-protocol-label = Protocol
+account-hub-hostname-label = Hostnaam
+account-hub-port-label = Poort
+    .title = Stel het poortnummer in op 0 voor automatische detectie
+account-hub-auto-description = { -brand-short-name } probeert velden die leeg zijn gelaten automatisch te detecteren.
+account-hub-ssl-label = Verbindingsbeveiliging
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Autodetectie
+account-hub-ssl-no-authentication-option =
+    .label = Geen authenticatie
+account-hub-ssl-cleartext-password-option =
+    .label = Normaal wachtwoord
+account-hub-ssl-encrypted-password-option =
+    .label = Versleuteld wachtwoord
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Geen
+account-hub-auth-label = Authenticatiemethode
+account-hub-username-label = Gebruikersnaam
+account-hub-adding-account-title = Account toevoegen
+account-hub-adding-account-subheader = Accountconfiguratie-instellingen opnieuw testen
+account-hub-account-added-title = Account toegevoegd

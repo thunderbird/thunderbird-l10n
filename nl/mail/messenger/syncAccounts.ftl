@@ -17,6 +17,7 @@ sync-verification-not-sent-body = We kunnen op dit moment geen verificatie-e-mai
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Afmelden bij account?
 sync-signout-dialog-body = Gesynchroniseerde gegevens zullen in uw account blijven.
 sync-signout-dialog-button = Afmelden
 
