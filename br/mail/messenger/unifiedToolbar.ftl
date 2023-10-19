@@ -8,6 +8,7 @@
 
 ## Search bar
 
+search-bar-placeholder = Klask...
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
 # in messenger.dtd.
