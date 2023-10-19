@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Мы не можем отправить сей
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Выйти из учётной записи?
 sync-signout-dialog-body = Синхронизированные данные останутся в вашем аккаунте.
 sync-signout-dialog-button = Выйти
 
