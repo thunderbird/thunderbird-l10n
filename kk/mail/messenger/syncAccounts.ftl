@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Ағымдағы уақытта растау �
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Тіркелгіден шығу керек пе?
 sync-signout-dialog-body = Синхрондалған деректер сіздің тіркелгіңізде қалады.
 sync-signout-dialog-button = Шығу
 
