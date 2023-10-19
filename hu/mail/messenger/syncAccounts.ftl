@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Nem sikerült elküldeni az ellenőrző levele
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Kijelentkezés a fiókjából?
 sync-signout-dialog-body = A szinkronizált adatok a fiókjában maradnak.
 sync-signout-dialog-button = Kijelentkezés
 

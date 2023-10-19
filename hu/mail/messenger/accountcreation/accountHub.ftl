@@ -19,17 +19,6 @@ account-hub-release-notes = Kiadási megjegyzések
 account-hub-support = Támogatás
 account-hub-donate = Adományozás
 
-## Start page
-
-account-hub-email-button = E-mail-fiók beállítása
-account-hub-new-email-button = Új e-mail-cím kérése
-account-hub-calendar-button = Naptár létrehozása
-account-hub-address-book-button = Címjegyzék létrehozása
-account-hub-chat-button = Csevegés létrehozása
-account-hub-feed-button = RSS-hírcsatorna létrehozása
-account-hub-newsgroup-button = Hírcsoport létrehozása
-account-hub-import-button = Profil importálása
-
 ## Initial setup page
 
 account-hub-email-setup-button = E-mail-fiók
@@ -52,7 +41,42 @@ account-hub-sync-button = Jelentkezzen be a Syncbe…
 ## Email page
 
 account-hub-email-title = Állítsa be e-mail-fiókját
+account-hub-add-email-title = Fiók hozzáadása
+account-hub-manually-configure-email-title = Fiókkonfiguráció beállítása
 account-hub-email-cancel-button = Mégse
+account-hub-email-stop-button = Leállítás
 account-hub-email-back-button = Vissza
+account-hub-email-retest-button = Újratesztelés
+account-hub-email-finish-button = Befejezés
+account-hub-email-manually-configure-button = Kézi beállítás
 account-hub-email-continue-button = Folytatás
 account-hub-email-confirm-button = Megerősítés
+account-hub-incoming-server-legend = Bejövő kiszolgáló
+account-hub-outgoing-server-legend = Kimenő kiszolgáló
+account-hub-protocol-label = Protokoll
+account-hub-hostname-label = Gépnév
+account-hub-port-label = Port
+    .title = Állítsa 0-ra az automatikus észleléshez
+account-hub-auto-description = A { -brand-short-name } megpróbálja automatikusan felismerni az üresen hagyott mezőket.
+account-hub-ssl-label = Kapcsolat biztonsága
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Automatikus felismerés
+account-hub-ssl-no-authentication-option =
+    .label = Nincs hitelesítés
+account-hub-ssl-cleartext-password-option =
+    .label = Normál jelszó
+account-hub-ssl-encrypted-password-option =
+    .label = Titkosított jelszó
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Nincs
+account-hub-auth-label = Hitelesítési módszer
+account-hub-username-label = Felhasználónév
+account-hub-adding-account-title = Fiók hozzáadása…
+account-hub-adding-account-subheader = Fiókkonfigurációs beállítások újratesztelése
+account-hub-account-added-title = Fiók hozzáadva
