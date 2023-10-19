@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Die E-Mail zur Verifizierung konnte nicht gese
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Von Ihrem Konto abmelden?
 sync-signout-dialog-body = Synchronisierte Daten bleiben weiter in Ihrem Konto.
 sync-signout-dialog-button = Abmelden
 
