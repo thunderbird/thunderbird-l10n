@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Njamóžomy tuchylu wobkšuśeńsku mejlku sł
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Wót konta wótzjawiś?
 sync-signout-dialog-body = Synchronizěrowane daty we wašom konśe wóstanu.
 sync-signout-dialog-button = Wótzjawiś
 

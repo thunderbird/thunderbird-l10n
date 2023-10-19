@@ -19,17 +19,6 @@ account-hub-release-notes = Wersijowe informacije
 account-hub-support = Pomoc
 account-hub-donate = Pósćiś
 
-## Start page
-
-account-hub-email-button = E-mailowe konto konfigurěrowaś
-account-hub-new-email-button = Wobstarajśo se e-mailowu adresu
-account-hub-calendar-button = Kalendaŕ konfigurěrowaś
-account-hub-address-book-button = Adresnik konfigurěrowaś
-account-hub-chat-button = Chat konfigurěrowaś
-account-hub-feed-button = RSS-kanal konfigurěrowaś
-account-hub-newsgroup-button = Diskusijnu kupku konfigurěrowaś
-account-hub-import-button = Profil importěrowaś
-
 ## Initial setup page
 
 account-hub-email-setup-button = E-mailowe konto
@@ -52,7 +41,42 @@ account-hub-sync-button = Pla Sync pśizjawiś…
 ## Email page
 
 account-hub-email-title = Wašo e-mailowe konto konfigurěrowaś
+account-hub-add-email-title = Pśidajśo wašo konto
+account-hub-manually-configure-email-title = Kontowu konfiguraciju nastajiś
 account-hub-email-cancel-button = Pśetergnuś
+account-hub-email-stop-button = Stoj
 account-hub-email-back-button = Slědk
+account-hub-email-retest-button = Znowego testowaś
+account-hub-email-finish-button = Dokóńcyś
+account-hub-email-manually-configure-button = Manuelnje konfigurěrowaś
 account-hub-email-continue-button = Dalej
 account-hub-email-confirm-button = Wobkšuśiś
+account-hub-incoming-server-legend = Dochadny serwer
+account-hub-outgoing-server-legend = Wuchadny serwer
+account-hub-protocol-label = Protokol
+account-hub-hostname-label = Hostmě
+account-hub-port-label = Port
+    .title = Portowy numer na 0 za awtomatiske spóznaśe stajiś
+account-hub-auto-description = { -brand-short-name } buźo wopytowaś, póla awtomatiski namakaś, kótarež su prozne.
+account-hub-ssl-label = Zwiskowa wěstota
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Awtomatiski zwěsćiś
+account-hub-ssl-no-authentication-option =
+    .label = Žedno awtentificěrowanje
+account-hub-ssl-cleartext-password-option =
+    .label = Normalne gronidło
+account-hub-ssl-encrypted-password-option =
+    .label = Skoděrowane gronidło
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Žeden
+account-hub-auth-label = Awtentificěrowańska metoda
+account-hub-username-label = Wužywaŕske mě
+account-hub-adding-account-title = Pśidawanje konta
+account-hub-adding-account-subheader = Nastajenja za kontowu konfiguraciju znowego testowaś
+account-hub-account-added-title = Konto jo se pśidało
