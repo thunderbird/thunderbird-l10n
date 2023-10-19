@@ -19,17 +19,6 @@ account-hub-release-notes = Útgáfuupplýsingar
 account-hub-support = Aðstoð
 account-hub-donate = Styrkja
 
-## Start page
-
-account-hub-email-button = Settu upp tölvupóstreikning
-account-hub-new-email-button = Fáðu nýtt tölvupóstfang
-account-hub-calendar-button = Settu upp dagatal
-account-hub-address-book-button = Settu upp nafnaskrá
-account-hub-chat-button = Settu upp spjall
-account-hub-feed-button = Settu upp RSS-streymi
-account-hub-newsgroup-button = Settu upp fréttahóp
-account-hub-import-button = Flytja inn notandasnið
-
 ## Initial setup page
 
 account-hub-email-setup-button = Tölvupóstreikningur
@@ -52,7 +41,22 @@ account-hub-sync-button = Skráðu þig inn til að samstilla…
 ## Email page
 
 account-hub-email-title = Settu upp tölvupóstreikninginn þinn
+account-hub-manually-configure-email-title = Setja upp stillingar reiknings
 account-hub-email-cancel-button = Hætta við
+account-hub-email-stop-button = Stöðva
 account-hub-email-back-button = Til baka
+account-hub-email-retest-button = Prófa aftur
+account-hub-email-finish-button = Ljúka
+account-hub-email-manually-configure-button = Stilla handvirkt
 account-hub-email-continue-button = Halda áfram
 account-hub-email-confirm-button = Staðfesta
+account-hub-incoming-server-legend = Póstþjónn inn
+account-hub-outgoing-server-legend = Póstþjónn út
+account-hub-protocol-label = Samskiptamáti
+account-hub-hostname-label = Hýsitölva
+
+## Incoming/Outgoing SSL Authentication options
+
+
+## Incoming/Outgoing SSL options
+
