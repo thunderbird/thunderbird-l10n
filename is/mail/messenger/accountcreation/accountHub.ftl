@@ -41,6 +41,7 @@ account-hub-sync-button = Skráðu þig inn til að samstilla…
 ## Email page
 
 account-hub-email-title = Settu upp tölvupóstreikninginn þinn
+account-hub-add-email-title = Bæta við reikningi
 account-hub-manually-configure-email-title = Setja upp stillingar reiknings
 account-hub-email-cancel-button = Hætta við
 account-hub-email-stop-button = Stöðva
@@ -54,9 +55,28 @@ account-hub-incoming-server-legend = Póstþjónn inn
 account-hub-outgoing-server-legend = Póstþjónn út
 account-hub-protocol-label = Samskiptamáti
 account-hub-hostname-label = Hýsitölva
+account-hub-port-label = Gátt
+    .title = Settu númer gáttar á 0 til að finna gátt sjálfvirkt
+account-hub-auto-description = { -brand-short-name } mun reyna að greina sjálfvirkt þá reiti sem eru skildir eftir auðir.
+account-hub-ssl-label = Öryggi tengingar
 
 ## Incoming/Outgoing SSL Authentication options
 
+account-hub-ssl-autodetect-option =
+    .label = Skynja sjálfkrafa
+account-hub-ssl-no-authentication-option =
+    .label = Engin auðkenning
+account-hub-ssl-cleartext-password-option =
+    .label = Venjulegt lykilorð
+account-hub-ssl-encrypted-password-option =
+    .label = Dulritað lykilorð
 
 ## Incoming/Outgoing SSL options
 
+account-hub-ssl-noencryption-option =
+    .label = Ekkert
+account-hub-auth-label = Auðkenningaraðferð
+account-hub-username-label = Notandanafn
+account-hub-adding-account-title = Bætir við reikningi
+account-hub-adding-account-subheader = Endurprófa stillingar reiknings
+account-hub-account-added-title = Reikningi bætt við

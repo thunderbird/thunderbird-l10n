@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Því miður getum við ekki sent staðfesting
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Skrá út af reikningnum?
 sync-signout-dialog-body = Samstillt gögn verða áfram á reikningnum þínum.
 sync-signout-dialog-button = Skrá út
 
