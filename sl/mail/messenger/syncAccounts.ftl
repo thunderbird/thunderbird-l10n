@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Potrditvene e-pošte ni bilo mogoče poslati. 
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Se želite odjaviti iz računa?
 sync-signout-dialog-body = Sinhronizirani podatki bodo ostali v vašem računu.
 sync-signout-dialog-button = Odjava
 
