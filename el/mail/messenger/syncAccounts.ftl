@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Δεν είνα δυνατή η αποστολ
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Να γίνει αποσύνδεση από τον λογαριασμό;
 sync-signout-dialog-body = Τα συγχρονισμένα δεδομένα θα παραμείνουν στον λογαριασμό σας.
 sync-signout-dialog-button = Αποσύνδεση
 

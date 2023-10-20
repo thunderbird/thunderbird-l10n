@@ -19,17 +19,6 @@ account-hub-release-notes = Σημειώσεις έκδοσης
 account-hub-support = Υποστήριξη
 account-hub-donate = Δωρεά
 
-## Start page
-
-account-hub-email-button = Ρύθμιση λογαριασμού email
-account-hub-new-email-button = Απόκτηση νέας διεύθυνσης email
-account-hub-calendar-button = Ρύθμιση ημερολογίου
-account-hub-address-book-button = Ρύθμιση ευρετηρίου
-account-hub-chat-button = Ρύθμιση συνομιλίας
-account-hub-feed-button = Ρύθμιση ροής RSS
-account-hub-newsgroup-button = Ρύθμιση ομάδας συζητήσεων
-account-hub-import-button = Εισαγωγή προφίλ
-
 ## Initial setup page
 
 account-hub-email-setup-button = Λογαριασμός email
@@ -52,7 +41,35 @@ account-hub-sync-button = Σύνδεση στο Sync…
 ## Email page
 
 account-hub-email-title = Ρύθμιση λογαριασμού email
+account-hub-manually-configure-email-title = Ρύθμιση παραμέτρων λογαριασμού
 account-hub-email-cancel-button = Ακύρωση
+account-hub-email-stop-button = Διακοπή
 account-hub-email-back-button = Πίσω
+account-hub-email-retest-button = Δοκιμή ξανά
+account-hub-email-finish-button = Τέλος
+account-hub-email-manually-configure-button = Χειροκίνητη ρύθμιση
 account-hub-email-continue-button = Συνέχεια
 account-hub-email-confirm-button = Επιβεβαίωση
+account-hub-incoming-server-legend = Διακομιστής εισερχομένων
+account-hub-outgoing-server-legend = Διακομιστής εξερχομένων
+account-hub-protocol-label = Πρωτόκολλο
+account-hub-hostname-label = Όνομα κεντρικού υπολογιστή
+account-hub-ssl-label = Ασφάλεια σύνδεσης
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Αυτόματος εντοπισμός
+account-hub-ssl-no-authentication-option =
+    .label = Χωρίς ταυτοποίηση
+account-hub-ssl-cleartext-password-option =
+    .label = Κανονικός κωδικός πρόσβασης
+account-hub-ssl-encrypted-password-option =
+    .label = Κρυπτογραφημένος κωδικός πρόσβασης
+
+## Incoming/Outgoing SSL options
+
+account-hub-auth-label = Μέθοδος ταυτοποίησης
+account-hub-username-label = Όνομα χρήστη
+account-hub-adding-account-title = Προσθήκη λογαριασμού
+account-hub-account-added-title = Ο λογαριασμός προστέθηκε
