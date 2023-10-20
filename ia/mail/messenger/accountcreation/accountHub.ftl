@@ -19,17 +19,6 @@ account-hub-release-notes = Notas de version
 account-hub-support = Supporto
 account-hub-donate = Donar
 
-## Start page
-
-account-hub-email-button = Crear un conto email
-account-hub-new-email-button = Obtene un nove adresse email
-account-hub-calendar-button = Crear agenda
-account-hub-address-book-button = Crear libro del adresses
-account-hub-chat-button = Crear chat
-account-hub-feed-button = Configurar un fluxo RSS
-account-hub-newsgroup-button = Configurar un gruppo de discussion
-account-hub-import-button = Importar profilo
-
 ## Initial setup page
 
 account-hub-email-setup-button = Conto email
@@ -52,7 +41,38 @@ account-hub-sync-button = Connecter se a Sync…
 ## Email page
 
 account-hub-email-title = Crear tu conto email
+account-hub-add-email-title = Adde tu conto
 account-hub-email-cancel-button = Cancellar
+account-hub-email-stop-button = Stoppar
 account-hub-email-back-button = Retro
+account-hub-email-retest-button = Retestar
+account-hub-email-finish-button = Finir
+account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
 account-hub-email-confirm-button = Confirmar
+account-hub-incoming-server-legend = Servitor de arrivata
+account-hub-outgoing-server-legend = Servitor in exito
+account-hub-protocol-label = Protocollo
+account-hub-hostname-label = Nomine del hoste
+account-hub-auto-description = { -brand-short-name } tentara auto-relevar le campos lassate vacue.
+account-hub-ssl-label = Securitate de connexion
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Deteger automaticamente
+account-hub-ssl-no-authentication-option =
+    .label = Sin authentication
+account-hub-ssl-cleartext-password-option =
+    .label = Contrasigno normal
+account-hub-ssl-encrypted-password-option =
+    .label = Contrasigno cryptate
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Nulle
+account-hub-auth-label = Methodo de authentication:
+account-hub-username-label = Nomine de usator
+account-hub-adding-account-title = Addente conto
+account-hub-account-added-title = Conto addite

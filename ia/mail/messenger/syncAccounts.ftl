@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Nos non pote inviar un message de verification
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Disconnecter se del conto?
 sync-signout-dialog-body = Le datos synchronisate remanera in tu conto.
 sync-signout-dialog-button = Clauder session
 
