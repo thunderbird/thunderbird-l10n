@@ -27,3 +27,5 @@ libs-rnp-status-ok = U redu
 libs-rnp-status-load-failed = Učitavanje nije uspjelo. OpenPGP neće raditi.
 libs-rnp-status-incompatible = Nekompatibilna inačica. OpenPGP neće raditi.
 libs-rnp-status-unofficial = Neslužbena inačica. OpenPGP možda neće raditi kako se očekuje.
+libs-otr-status-ok = U redu
+libs-otr-status-error = Učitavanje nije uspjelo. Kriptiranje OTR razgovora neće raditi.

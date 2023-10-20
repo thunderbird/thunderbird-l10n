@@ -17,6 +17,7 @@ sync-verification-not-sent-body = U ovom trenutku nismo u mogućnosti poslati e-
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Odjavi se iz računa?
 sync-signout-dialog-body = Sinkronizirani podatci ostat će pohranjeni u tvom računu.
 sync-signout-dialog-button = Odjavi se
 

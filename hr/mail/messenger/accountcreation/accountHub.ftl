@@ -41,7 +41,42 @@ account-hub-sync-button = Prijavi se za sinkronizaciju…
 ## Email page
 
 account-hub-email-title = Postavite svoj račun e-pošte
+account-hub-add-email-title = Dodajte svoj račun
+account-hub-manually-configure-email-title = Postavite konfiguraciju računa
 account-hub-email-cancel-button = Odustani
+account-hub-email-stop-button = Zaustavi
 account-hub-email-back-button = Natrag
+account-hub-email-retest-button = Ponovno testiraj
+account-hub-email-finish-button = Završi
+account-hub-email-manually-configure-button = Ručno podešavanje
 account-hub-email-continue-button = Nastavi
 account-hub-email-confirm-button = Potvrdi
+account-hub-incoming-server-legend = Dolazni poslužitelj
+account-hub-outgoing-server-legend = Odlazni poslužitelj
+account-hub-protocol-label = Protokol
+account-hub-hostname-label = Adresa poslužitelja
+account-hub-port-label = Port
+    .title = Postavite broj porta na 0 za automatsko otkrivanje
+account-hub-auto-description = { -brand-short-name } će pokušati automatski otkriti polja koja su ostavljena prazna.
+account-hub-ssl-label = Sigurnost veze
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Automatski otkrij
+account-hub-ssl-no-authentication-option =
+    .label = Bez provjere autentičnosti
+account-hub-ssl-cleartext-password-option =
+    .label = Normalna lozinka
+account-hub-ssl-encrypted-password-option =
+    .label = Šifrirana lozinka
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Ništa
+account-hub-auth-label = Metoda provjere autentičnosti
+account-hub-username-label = Korisničko ime
+account-hub-adding-account-title = Dodavanje računa
+account-hub-adding-account-subheader = Ponovno testiranje postavki računa
+account-hub-account-added-title = Račun je dodan
