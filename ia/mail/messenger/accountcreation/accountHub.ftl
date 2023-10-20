@@ -42,6 +42,7 @@ account-hub-sync-button = Connecter se a Sync…
 
 account-hub-email-title = Crear tu conto email
 account-hub-add-email-title = Adde tu conto
+account-hub-manually-configure-email-title = Definir le configuration del conto
 account-hub-email-cancel-button = Cancellar
 account-hub-email-stop-button = Stoppar
 account-hub-email-back-button = Retro
@@ -54,6 +55,8 @@ account-hub-incoming-server-legend = Servitor de arrivata
 account-hub-outgoing-server-legend = Servitor in exito
 account-hub-protocol-label = Protocollo
 account-hub-hostname-label = Nomine del hoste
+account-hub-port-label = Porta
+    .title = Configura le numero de porta a 0 pro auto-detection
 account-hub-auto-description = { -brand-short-name } tentara auto-relevar le campos lassate vacue.
 account-hub-ssl-label = Securitate de connexion
 
