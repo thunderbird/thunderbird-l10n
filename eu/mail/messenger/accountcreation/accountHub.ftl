@@ -19,17 +19,6 @@ account-hub-release-notes = Bertsio-oharrak
 account-hub-support = Laguntza
 account-hub-donate = Dohaintza egin
 
-## Start page
-
-account-hub-email-button = Konfiguratu posta elektroniko kontua
-account-hub-new-email-button = Eskuratu posta elektroniko berri bat
-account-hub-calendar-button = Konfiguratu egutegia
-account-hub-address-book-button = Konfiguratu helbide-liburua
-account-hub-chat-button = Konfiguratu txata
-account-hub-feed-button = Konfiguratu RSS jarioak
-account-hub-newsgroup-button = Konfiguratu berri-taldeak
-account-hub-import-button = Inportatu profila
-
 ## Initial setup page
 
 account-hub-email-setup-button = Posta elektroniko kontua
@@ -52,7 +41,42 @@ account-hub-sync-button = Hasi saioa sinkronizatzeko…
 ## Email page
 
 account-hub-email-title = Konfiguratu zure posta elektroniko kontua
+account-hub-add-email-title = Gehitu zure kontua
+account-hub-manually-configure-email-title = Ezarri kontuaren konfigurazioa
 account-hub-email-cancel-button = Utzi
+account-hub-email-stop-button = Gelditu
 account-hub-email-back-button = Atzera
+account-hub-email-retest-button = Birprobatu
+account-hub-email-finish-button = Amaitu
+account-hub-email-manually-configure-button = Eskuz konfiguratu
 account-hub-email-continue-button = Jarraitu
 account-hub-email-confirm-button = Berretsi
+account-hub-incoming-server-legend = Hartzeko zerbitzaria
+account-hub-outgoing-server-legend = Posta bidaltzeko zerbitzaria
+account-hub-protocol-label = Protokoloa
+account-hub-hostname-label = Ostalari-izena
+account-hub-port-label = Ataka
+    .title = Ezarri ataka zenbakia 0 auto-detektatzeko
+account-hub-auto-description = { -brand-short-name } hutsik dauden eremuak auto-detektatzen saiatuko da.
+account-hub-ssl-label = Konexioaren segurtasuna
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Autodetektatu
+account-hub-ssl-no-authentication-option =
+    .label = Autentifikaziorik ez
+account-hub-ssl-cleartext-password-option =
+    .label = Pasahitz arrunta
+account-hub-ssl-encrypted-password-option =
+    .label = Zifratutako pasahitza
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Bat ere ez
+account-hub-auth-label = Autentifikazio-metodoa
+account-hub-username-label = Erabiltzaile-izena
+account-hub-adding-account-title = Kontua gehitzen
+account-hub-adding-account-subheader = Kontuaren konfigurazio ezarpenak birprobatzen
+account-hub-account-added-title = Kontua gehitua

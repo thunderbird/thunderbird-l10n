@@ -27,3 +27,5 @@ libs-rnp-status-ok = Ados
 libs-rnp-status-load-failed = Kargatzeak huts egin du. OpenPGP ez da ibiliko.
 libs-rnp-status-incompatible = Bertsio ez bateragarria. OpenPGP ez da ibiliko.
 libs-rnp-status-unofficial = Bertsio ez ofiziala. Baliteke OpenPGP ez ibiltzea espero bezala.
+libs-otr-status-ok = Ados
+libs-otr-status-error = Kargatzeak huts egin du. OTR txat zifratzea ez da ibiliko.
