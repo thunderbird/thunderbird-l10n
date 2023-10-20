@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Ezin dugu egiaztapen-mezua bidali une honetan,
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Kontuko saioa amaitu?
 sync-signout-dialog-body = Sinkronizatutako datuek zure kontuan jarraituko dute.
 sync-signout-dialog-button = Amaitu saioa
 

@@ -71,6 +71,7 @@ customize-palette-calendar-specific-title = Erabilgarri egutegi gunean bakarrik
 customize-palette-tasks-specific-title = Erabilgarri zeregin gunean bakarrik
 customize-palette-chat-specific-title = Erabilgarri txat gunean bakarrik
 customize-palette-settings-specific-title = Erabilgarri ezarpenak gunean bakarrik
+customize-palette-extension-specific-title = Erabilgarri gune honetan bakarrik
 
 ## Unified toolbar customization palette context menu
 
