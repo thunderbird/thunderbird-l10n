@@ -19,17 +19,6 @@ account-hub-release-notes = Versionsfakta
 account-hub-support = Support
 account-hub-donate = Donera
 
-## Start page
-
-account-hub-email-button = Konfigurera e-postkonto
-account-hub-new-email-button = Skapa en ny e-postadress
-account-hub-calendar-button = Ställ in en kalender
-account-hub-address-book-button = Ställ in adressboken
-account-hub-chat-button = Ställ in chatt
-account-hub-feed-button = Ställ in RSS-flöde
-account-hub-newsgroup-button = Ställ in nyhetsgrupp
-account-hub-import-button = Importera profil
-
 ## Initial setup page
 
 account-hub-email-setup-button = E-postkonto
@@ -52,7 +41,23 @@ account-hub-sync-button = Logga in för att synkronisera…
 ## Email page
 
 account-hub-email-title = Konfigurera ditt e-postkonto
+account-hub-add-email-title = Lägg till ditt konto
+account-hub-manually-configure-email-title = Ställ in kontokonfiguration
 account-hub-email-cancel-button = Avbryt
+account-hub-email-stop-button = Stoppa
 account-hub-email-back-button = Tillbaka
+account-hub-email-retest-button = Testa igen
+account-hub-email-finish-button = Slutför
+account-hub-email-manually-configure-button = Konfigurera manuellt
 account-hub-email-continue-button = Fortsätt
 account-hub-email-confirm-button = Bekräfta
+account-hub-incoming-server-legend = Inkommande server
+account-hub-outgoing-server-legend = Utgående server
+account-hub-protocol-label = Protokoll
+account-hub-hostname-label = Värdnamn
+
+## Incoming/Outgoing SSL Authentication options
+
+
+## Incoming/Outgoing SSL options
+
