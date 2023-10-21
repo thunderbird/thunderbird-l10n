@@ -19,7 +19,7 @@
 <!ENTITY newevent.eventStatus.cancelled.accesskey "О" >
 <!ENTITY newevent.todoStatus.cancelled.label      "Скасовано" >
 <!ENTITY newevent.status.tentative.label          "Сумнівно" >
-<!ENTITY newevent.status.tentative.accesskey      "С" >
+<!ENTITY newevent.status.tentative.accesskey      "м" >
 <!ENTITY newevent.status.confirmed.label          "Підтверджено" >
 <!ENTITY newevent.status.confirmed.accesskey      "т" >
 <!ENTITY newevent.status.needsaction.label        "Вимагає дії" >
