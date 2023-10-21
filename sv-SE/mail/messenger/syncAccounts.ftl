@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Vi kan inte skicka ett verifieringsmeddelande 
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Logga ut från konto?
 sync-signout-dialog-body = Synkroniserad data kommer att finnas kvar på ditt konto.
 sync-signout-dialog-button = Logga ut
 

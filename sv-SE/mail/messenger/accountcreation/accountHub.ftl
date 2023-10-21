@@ -55,9 +55,28 @@ account-hub-incoming-server-legend = Inkommande server
 account-hub-outgoing-server-legend = Utgående server
 account-hub-protocol-label = Protokoll
 account-hub-hostname-label = Värdnamn
+account-hub-port-label = Port
+    .title = Ställ in portnumret till 0 för autodetektering
+account-hub-auto-description = { -brand-short-name } försöker automatiskt fylla i fält som lämnats tomma.
+account-hub-ssl-label = Anslutningssäkerhet
 
 ## Incoming/Outgoing SSL Authentication options
 
+account-hub-ssl-autodetect-option =
+    .label = Autodetektera
+account-hub-ssl-no-authentication-option =
+    .label = Ingen autentisering
+account-hub-ssl-cleartext-password-option =
+    .label = Normalt lösenord
+account-hub-ssl-encrypted-password-option =
+    .label = Krypterat lösenord
 
 ## Incoming/Outgoing SSL options
 
+account-hub-ssl-noencryption-option =
+    .label = Ingen
+account-hub-auth-label = Autentiseringsmetod
+account-hub-username-label = Användarnamn
+account-hub-adding-account-title = Lägger till konto
+account-hub-adding-account-subheader = Testa kontokonfigurationsinställningarna igen
+account-hub-account-added-title = Konto har lagts till
