@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Зараз ми не можемо надісл
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Вийти з облікового запису?
 sync-signout-dialog-body = Синхронізовані дані залишаться у вашому обліковому записі.
 sync-signout-dialog-button = Вийти
 

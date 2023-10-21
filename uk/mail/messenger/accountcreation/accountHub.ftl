@@ -19,17 +19,6 @@ account-hub-release-notes = Примітки до випуску
 account-hub-support = Підтримка
 account-hub-donate = Зробити внесок
 
-## Start page
-
-account-hub-email-button = Налаштувати обліковий запис електронної пошти
-account-hub-new-email-button = Отримати нову електронну адресу
-account-hub-calendar-button = Налаштувати календар
-account-hub-address-book-button = Налаштувати адресну книгу
-account-hub-chat-button = Налаштувати чат
-account-hub-feed-button = Налаштувати RSS-канал
-account-hub-newsgroup-button = Налаштувати групу новин
-account-hub-import-button = Імпорт профілю
-
 ## Initial setup page
 
 account-hub-email-setup-button = Обліковий запис електронної пошти
@@ -52,7 +41,42 @@ account-hub-sync-button = Увійти до Синхронізації…
 ## Email page
 
 account-hub-email-title = Налаштуйте свій обліковий запис електронної пошти
+account-hub-add-email-title = Додайте свій обліковий запис
+account-hub-manually-configure-email-title = Налаштувати обліковий запис
 account-hub-email-cancel-button = Скасувати
+account-hub-email-stop-button = Зупинити
 account-hub-email-back-button = Назад
+account-hub-email-retest-button = Тестувати ще раз
+account-hub-email-finish-button = Завершити
+account-hub-email-manually-configure-button = Налаштувати вручну
 account-hub-email-continue-button = Продовжити
 account-hub-email-confirm-button = Підтвердити
+account-hub-incoming-server-legend = Сервер вхідної пошти
+account-hub-outgoing-server-legend = Сервер вихідної пошти
+account-hub-protocol-label = Протокол
+account-hub-hostname-label = Ім'я сервера
+account-hub-port-label = Порт
+    .title = Встановіть 0 для автовизначення
+account-hub-auto-description = { -brand-short-name } спробує автоматично визначити поля, які залишились порожніми.
+account-hub-ssl-label = Захист з'єднання
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Автовиявлення
+account-hub-ssl-no-authentication-option =
+    .label = Без автентифікації
+account-hub-ssl-cleartext-password-option =
+    .label = Звичайний пароль
+account-hub-ssl-encrypted-password-option =
+    .label = Зашифрований пароль
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Жодного
+account-hub-auth-label = Метод автентифікації
+account-hub-username-label = Ім'я користувача
+account-hub-adding-account-title = Додавання облікового запису
+account-hub-adding-account-subheader = Повторна перевірка налаштувань конфігурації облікового запису
+account-hub-account-added-title = Обліковий запис додано
