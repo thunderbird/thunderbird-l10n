@@ -262,6 +262,7 @@ openpgp-key-details-expiry-header = Vanhentuminen
 openpgp-key-details-usage-label =
     .label = Käyttö
 openpgp-key-details-fingerprint-label = Sormenjälki
+openpgp-key-details-legend-secret-missing = Avaimille, joissa on merkintä (!), ei ole salaista avainta käytettävissä.
 openpgp-key-details-sel-action =
     .label = Valitse toiminto…
     .accesskey = V
