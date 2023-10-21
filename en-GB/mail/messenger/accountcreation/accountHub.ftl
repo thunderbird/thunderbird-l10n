@@ -19,17 +19,6 @@ account-hub-release-notes = Release notes
 account-hub-support = Support
 account-hub-donate = Donate
 
-## Start page
-
-account-hub-email-button = Set up email account
-account-hub-new-email-button = Get a new email address
-account-hub-calendar-button = Set up calendar
-account-hub-address-book-button = Set up address book
-account-hub-chat-button = Set up chat
-account-hub-feed-button = Set up RSS feed
-account-hub-newsgroup-button = Set up newsgroup
-account-hub-import-button = Import profile
-
 ## Initial setup page
 
 account-hub-email-setup-button = Email Account
@@ -52,7 +41,42 @@ account-hub-sync-button = Sign in to Sync…
 ## Email page
 
 account-hub-email-title = Set up your email account
+account-hub-add-email-title = Add Your Account
+account-hub-manually-configure-email-title = Set Up Account Configuration
 account-hub-email-cancel-button = Cancel
+account-hub-email-stop-button = Stop
 account-hub-email-back-button = Back
+account-hub-email-retest-button = Retest
+account-hub-email-finish-button = Finish
+account-hub-email-manually-configure-button = Configure Manually
 account-hub-email-continue-button = Continue
 account-hub-email-confirm-button = Confirm
+account-hub-incoming-server-legend = Incoming server
+account-hub-outgoing-server-legend = Outgoing server
+account-hub-protocol-label = Protocol
+account-hub-hostname-label = Hostname
+account-hub-port-label = Port
+    .title = Set the port number to 0 for autodetection
+account-hub-auto-description = { -brand-short-name } will attempt to auto-detect fields that are left blank.
+account-hub-ssl-label = Connection security
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Autodetect
+account-hub-ssl-no-authentication-option =
+    .label = No authentication
+account-hub-ssl-cleartext-password-option =
+    .label = Normal password
+account-hub-ssl-encrypted-password-option =
+    .label = Encrypted password
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = None
+account-hub-auth-label = Authentication method
+account-hub-username-label = Username
+account-hub-adding-account-title = Adding Account
+account-hub-adding-account-subheader = Re-testing account configuration settings
+account-hub-account-added-title = Account Added
