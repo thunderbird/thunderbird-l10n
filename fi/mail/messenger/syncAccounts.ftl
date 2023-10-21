@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Vahvistussähköpostin lähetys ei onnistu tä
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Haluatko kirjautua ulos tililtäsi?
 sync-signout-dialog-body = Synkronoidut tiedot säilyvät tililläsi.
 sync-signout-dialog-button = Kirjaudu ulos
 

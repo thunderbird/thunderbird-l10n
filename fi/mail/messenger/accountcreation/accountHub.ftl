@@ -19,17 +19,6 @@ account-hub-release-notes = Julkaisutiedot
 account-hub-support = Tuki
 account-hub-donate = Lahjoita
 
-## Start page
-
-account-hub-email-button = Määritä sähköpostitili
-account-hub-new-email-button = Hanki uusi sähköpostiosoite
-account-hub-calendar-button = Määritä kalenteri
-account-hub-address-book-button = Määritä osoitekirja
-account-hub-chat-button = Määritä keskustelu
-account-hub-feed-button = Määritä RSS-syöte
-account-hub-newsgroup-button = Määritä keskusteluryhmä
-account-hub-import-button = Tuo profiili
-
 ## Initial setup page
 
 account-hub-email-setup-button = Sähköpostitili
@@ -52,7 +41,42 @@ account-hub-sync-button = Kirjaudu Sync-palveluun…
 ## Email page
 
 account-hub-email-title = Määritä sähköpostitilisi
+account-hub-add-email-title = Lisää tili
+account-hub-manually-configure-email-title = Määritä tilin asetukset
 account-hub-email-cancel-button = Peruuta
+account-hub-email-stop-button = Pysäytä
 account-hub-email-back-button = Edellinen
+account-hub-email-retest-button = Testaa uudelleen
+account-hub-email-finish-button = Valmis
+account-hub-email-manually-configure-button = Määritä manuaalisesti
 account-hub-email-continue-button = Jatka
 account-hub-email-confirm-button = Vahvista
+account-hub-incoming-server-legend = Saapuvan postin palvelin
+account-hub-outgoing-server-legend = Lähtevän postin palvelin
+account-hub-protocol-label = Yhteyskäytäntö
+account-hub-hostname-label = Palvelin
+account-hub-port-label = Portti
+    .title = Aseta portin numeroksi 0 automaattista havaitsemista varten
+account-hub-auto-description = { -brand-short-name } yrittää tunnistaa tyhjiksi jätetyt kentät automaattisesti.
+account-hub-ssl-label = Yhteyden suojaus
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Tunnista automaattisesti
+account-hub-ssl-no-authentication-option =
+    .label = Ei todennusta
+account-hub-ssl-cleartext-password-option =
+    .label = Normaali salasana
+account-hub-ssl-encrypted-password-option =
+    .label = Salattu salasana
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Ei mitään
+account-hub-auth-label = Todennustapa
+account-hub-username-label = Käyttäjätunnus
+account-hub-adding-account-title = Lisätään tili
+account-hub-adding-account-subheader = Tilin määritysasetuksia testataan uudelleen
+account-hub-account-added-title = Tili lisätty
