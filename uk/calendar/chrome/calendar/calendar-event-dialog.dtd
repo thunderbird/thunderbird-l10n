@@ -18,8 +18,8 @@
 <!ENTITY newevent.eventStatus.cancelled.label     "Скасовано" >
 <!ENTITY newevent.eventStatus.cancelled.accesskey "О" >
 <!ENTITY newevent.todoStatus.cancelled.label      "Скасовано" >
-<!ENTITY newevent.status.tentative.label          "Попередньо" >
-<!ENTITY newevent.status.tentative.accesskey      "П" >
+<!ENTITY newevent.status.tentative.label          "Сумнівно" >
+<!ENTITY newevent.status.tentative.accesskey      "С" >
 <!ENTITY newevent.status.confirmed.label          "Підтверджено" >
 <!ENTITY newevent.status.confirmed.accesskey      "т" >
 <!ENTITY newevent.status.needsaction.label        "Вимагає дії" >
@@ -358,7 +358,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Повторювати лише" >
 <!ENTITY event.recurrence.appointments.label            "раз" >
 <!ENTITY event.repeat.until.label                       "Повторювати до" >
-<!ENTITY event.recurrence.preview.label                 "Попередній перегляд">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Запрошення учасників">
