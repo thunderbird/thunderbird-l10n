@@ -3,63 +3,63 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-event-listing-close =
-    .tooltiptext = Close event search and event list
+    .tooltiptext = ਈਵੈਂਟ ਖੋਜ ਅਤੇ ਈਵੈਂਟ ਸੂਚੀ ਬੰਦ ਕਰੋ
 
 ## Listing columns
 
 calendar-event-listing-column-calendar-name =
-    .label = Calendar Name
-    .tooltiptext = Sort by calendar name
+    .label = ਕੈਲੰਡਰ ਦਾ ਨਾਂ
+    .tooltiptext = ਕੈਲੰਡਰ ਨਾਂ ਮੁਤਾਬਕ ਲੜੀਬੱਧ ਕਰੋ
 calendar-event-listing-column-category =
-    .label = Category
-    .tooltiptext = Sort by category
+    .label = ਕੈਟਾਗਰੀ
+    .tooltiptext = ਵਰਗ ਮੁਤਾਬਕ ਲੜੀਬੱਧ ਕਰੋ
 # This label and tooltip is used for the column with the checkbox in the task
 # tree view, which indicates whether a task has been marked as completed.
 calendar-event-listing-column-completed =
-    .label = Done
-    .tooltiptext = Sort by completion
+    .label = ਮੁਕੰਮਲ
+    .tooltiptext = ਪੂਰਾ ਹੋਣ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 calendar-event-listing-column-completed-date =
-    .label = Completed
-    .tooltiptext = Sort by completed date
+    .label = ਪੂਰਾ
+    .tooltiptext = ਪੂਰਾ ਹੋਣ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 calendar-event-listing-column-due-date =
-    .label = Due
-    .tooltiptext = Sort by due date
+    .label = ਮਿਆਦ
+    .tooltiptext = ਮਿਆਦ ਤਾਰੀਖ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 calendar-event-listing-column-end-date =
-    .label = End
-    .tooltiptext = Sort by end date
+    .label = ਆਖਰੀ
+    .tooltiptext = ਆਖਰੀ ਤਾਰੀਖ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 calendar-event-listing-column-location =
-    .label = Location
-    .tooltiptext = Sort by location
+    .label = ਟਿਕਾਣਾ
+    .tooltiptext = ਟਿਕਾਣੇ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 calendar-event-listing-column-percent-complete =
-    .label = % Complete
-    .tooltiptext = Sort by % complete
+    .label = % ਪੂਰਾ
+    .tooltiptext = % ਪੂਰਾ ਹੋਣ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 calendar-event-listing-column-priority =
-    .label = Priority
-    .tooltiptext = Sort by priority
+    .label = ਤਰਜੀਹ
+    .tooltiptext = ਤਰਜੀਹ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 calendar-event-listing-column-start-date =
-    .label = Start
-    .tooltiptext = Sort by start date
+    .label = ਸ਼ੁਰੂ
+    .tooltiptext = ਸ਼ੁਰੂਆਤੀ ਤਾਰੀਖ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 calendar-event-listing-column-status =
-    .label = Status
-    .tooltiptext = Sort by status
+    .label = ਸਥਿਤੀ
+    .tooltiptext = ਸਥਿਤੀ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 calendar-event-listing-column-time-until-due =
-    .label = Due in
-    .tooltiptext = Sort by time until due
+    .label = { "" }
+    .tooltiptext = { "" }
 calendar-event-listing-column-title =
-    .label = Title
-    .tooltiptext = Sort by title
+    .label = ਟਾਈਟਲ
+    .tooltiptext = ਟਾਈਟਲ ਮੁਤਾਬਕ ਲੜੀਬੱਧ
 
 ## Interval dropdown options
 
 calendar-event-listing-interval-calendar-month =
-    .label = Events in this Calendar Month
+    .label = ਇਸ ਕੈਲੰਡਰ ਮਹੀਨੇ ਵਿੱਚ ਈਵੈਂਟ
 calendar-event-listing-interval-current-view =
-    .label = Events in Current View
+    .label = ਮੌਜੂਦਾ ਝਲਕ ਵਿੱਚ ਈਵੈਂਟ
 calendar-event-listing-interval-next-7-days =
-    .label = Events in the Next 7 Days
+    .label = ਅਗਲੇ 7 ਦਿਨਾਂ ਵਿੱਚ ਈਵੈਂਟ
 calendar-event-listing-interval-next-14-days =
-    .label = Events in the Next 14 Days
+    .label = ਅਗਲੇ 14 ਦਿਨਾਂ ਵਿੱਚ ਈਵੈਂਟ
 calendar-event-listing-interval-next-31-days =
-    .label = Events in the Next 31 Days
+    .label = ਅਗਲੇ 31 ਦਿਨਾਂ ਵਿੱਚ ਈਵੈਂਟ
 calendar-event-listing-interval-selected-day =
-    .label = Currently Selected Day
+    .label = ਇਸ ਵੇਲੇ ਚੁਣਿਆ ਦਿਨ
