@@ -11,11 +11,11 @@
 <!ENTITY initialpage.network.label  "ਨੈਟਵਰਕ ਤੇ">
 
 <!ENTITY locationpage.description         "Provide info about what is needed to access your remote calendar" >
-<!ENTITY locationpage.login.description   "Optional: enter an username and password" >
-<!ENTITY locationpage.username.label      "Username:" >
-<!ENTITY locationpage.password.label      "Password:" >
+<!ENTITY locationpage.login.description   "ਚੋਣਵਾਂ: ਵਰਤੋਂਕਾਰ-ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਦਿਓ" >
+<!ENTITY locationpage.username.label      "ਵਰਤੋਂਕਾਰ ਨਾਂ:" >
+<!ENTITY locationpage.password.label      "ਪਾਸਵਰਡ:" >
 
-<!ENTITY custompage.shortdescription  "Customize your calendar" >
+<!ENTITY custompage.shortdescription  "ਆਪਣੇ ਕੈਲੰਡਰ ਨੂੰ ਆਪਣੇ ਮੁਤਾਬਕ ਢਾਲੋ" >
 <!ENTITY custompage.longdescription   "You can give your calendar a nickname and colorize the events from this calendar." >
 
 <!ENTITY finishpage.longdescription   "ਤੁਹਾਡਾ ਕੈਲੰਡਰ ਬਣਾਇਆ ਗਿਆ ਹੈ।" >

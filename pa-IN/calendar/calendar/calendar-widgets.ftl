@@ -8,12 +8,12 @@
 
 ## Calendar navigation
 
-calendar-view-toggle-day = Day
-    .title = Switch to day view
-calendar-view-toggle-week = Week
-    .title = Switch to week view
-calendar-view-toggle-multiweek = Multiweek
-    .title = Switch to multiweek view
+calendar-view-toggle-day = ਦਿਨ
+    .title = ਦਿਨ ਦੀ ਝਲਕ ਲਈ ਬਦਲੋ
+calendar-view-toggle-week = ਹਫ਼ਤਾ
+    .title = ਹਫ਼ਤੇਵਾਰੀ ਝਲਕ ਲਈ ਬਦਲੋ
+calendar-view-toggle-multiweek = ਬਹੁ-ਹਫ਼ਤੇ
+    .title = ਕਈ ਹਫ਼ਤਿਆਂ ਦੀ ਝਲਕ ਵਿੱਚ ਬਦਲੋ
 calendar-view-toggle-month = Month
     .title = Switch to month view
 
