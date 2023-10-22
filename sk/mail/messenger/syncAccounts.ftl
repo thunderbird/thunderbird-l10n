@@ -17,6 +17,7 @@ sync-verification-not-sent-body = V tomto momente nie je možné odoslať overov
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Odhlásiť sa z účtu?
 sync-signout-dialog-body = Synchronizované údaje zostanú vo vašom účte.
 sync-signout-dialog-button = Odhlásiť sa
 

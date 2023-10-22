@@ -19,17 +19,6 @@ account-hub-release-notes = Poznámky k vydaniu
 account-hub-support = Podpora
 account-hub-donate = Prispieť
 
-## Start page
-
-account-hub-email-button = Nastaviť e-mailový účet
-account-hub-new-email-button = Získať novú e-mailovú adresu
-account-hub-calendar-button = Nastaviť kalendár
-account-hub-address-book-button = Nastaviť adresár
-account-hub-chat-button = Nastaviť konverzácie
-account-hub-feed-button = Nastaviť kanál RSS
-account-hub-newsgroup-button = Nastaviť diskusnú skupinu
-account-hub-import-button = Importovať profil
-
 ## Initial setup page
 
 account-hub-email-setup-button = E-mailový účet
@@ -52,7 +41,42 @@ account-hub-sync-button = Prihlásiť sa a synchronizovať…
 ## Email page
 
 account-hub-email-title = Nastavenie e-mailového účtu
+account-hub-add-email-title = Pridajte svoj účet
+account-hub-manually-configure-email-title = Nastaviť konfiguráciu účtu
 account-hub-email-cancel-button = Zrušiť
+account-hub-email-stop-button = Zastaviť
 account-hub-email-back-button = Naspäť
+account-hub-email-retest-button = Znova otestovať nastavenie
+account-hub-email-finish-button = Dokončiť
+account-hub-email-manually-configure-button = Nastaviť manuálne
 account-hub-email-continue-button = Pokračovať
 account-hub-email-confirm-button = Potvrdiť
+account-hub-incoming-server-legend = Server prichádzajúcej pošty
+account-hub-outgoing-server-legend = Server odchádzajúcej pošty
+account-hub-protocol-label = Protokol
+account-hub-hostname-label = Názov servera
+account-hub-port-label = Port
+    .title = Pre automatickú detekciu nastavte číslo portu na 0
+account-hub-auto-description = { -brand-short-name } sa pokúsi automaticky zistiť polia, ktoré zostávajú nevyplnené.
+account-hub-ssl-label = Zabezpečenie pripojenia
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Autodetekcia
+account-hub-ssl-no-authentication-option =
+    .label = Žiadne overenia totožnosti
+account-hub-ssl-cleartext-password-option =
+    .label = Normálne heslo
+account-hub-ssl-encrypted-password-option =
+    .label = Zašifrované heslo
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Žiadne
+account-hub-auth-label = Metóda overenia
+account-hub-username-label = Používateľské meno
+account-hub-adding-account-title = Účet sa pridáva
+account-hub-adding-account-subheader = Opätovne sa testujú nastavenia účtu
+account-hub-account-added-title = Účet bol pridaný
