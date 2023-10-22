@@ -19,17 +19,6 @@ account-hub-release-notes = Notas de la versión
 account-hub-support = Ayuda
 account-hub-donate = Donar
 
-## Start page
-
-account-hub-email-button = Configurar una cuenta de correo electrónico
-account-hub-new-email-button = Obtener una nueva dirección de correo electrónico
-account-hub-calendar-button = Configurar el calendario
-account-hub-address-book-button = Configurar la libreta de direcciones
-account-hub-chat-button = Configurar el chat
-account-hub-feed-button = Configurar el canal RSS
-account-hub-newsgroup-button = Configurar el grupo de noticias
-account-hub-import-button = Importar perfil
-
 ## Initial setup page
 
 account-hub-email-setup-button = Cuenta de correo electrónico
@@ -52,7 +41,42 @@ account-hub-sync-button = Iniciar sesión en Sync…
 ## Email page
 
 account-hub-email-title = Configure su cuenta de correo electrónico
+account-hub-add-email-title = Añada su cuenta
+account-hub-manually-configure-email-title = Configuración de la cuenta
 account-hub-email-cancel-button = Cancelar
+account-hub-email-stop-button = Detener
 account-hub-email-back-button = Atrás
+account-hub-email-retest-button = Volver a probar
+account-hub-email-finish-button = Finalizar
+account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
 account-hub-email-confirm-button = Confirmar
+account-hub-incoming-server-legend = Servidor de entrada
+account-hub-outgoing-server-legend = Servidor de salida
+account-hub-protocol-label = Protocolo
+account-hub-hostname-label = Nombre del servidor
+account-hub-port-label = Puerto
+    .title = Establezca el número de puerto en 0 para la detección automática
+account-hub-auto-description = { -brand-short-name } intentará detectar automáticamente los campos que se dejen en blanco.
+account-hub-ssl-label = Seguridad de la conexión
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Detectar automáticamente
+account-hub-ssl-no-authentication-option =
+    .label = Sin autentificación
+account-hub-ssl-cleartext-password-option =
+    .label = Contraseña normal
+account-hub-ssl-encrypted-password-option =
+    .label = Contraseña cifrada
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Ninguno
+account-hub-auth-label = Método de autentificación
+account-hub-username-label = Nombre de usuario
+account-hub-adding-account-title = Añadiendo cuenta
+account-hub-adding-account-subheader = Volver a probar los ajustes de configuración de la cuenta
+account-hub-account-added-title = Cuenta añadida
