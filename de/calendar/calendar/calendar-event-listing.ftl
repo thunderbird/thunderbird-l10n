@@ -66,6 +66,6 @@ calendar-event-listing-interval-next-6-months =
 calendar-event-listing-interval-next-12-months =
     .label = Termine der nächsten 12 Monate
 calendar-event-listing-interval-selected-day =
-    .label = Aktuell ausgewählter Tag
+    .label = Termine des ausgewählten Tages
 calendar-event-listing-interval-today =
     .label = Heutige Termine
