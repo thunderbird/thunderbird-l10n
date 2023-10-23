@@ -78,4 +78,5 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-label = Methodo de authentication:
 account-hub-username-label = Nomine de usator
 account-hub-adding-account-title = Addente conto
+account-hub-adding-account-subheader = Nove test de parametros de configuration del conto
 account-hub-account-added-title = Conto addite
