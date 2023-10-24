@@ -19,17 +19,6 @@ account-hub-release-notes = Ghi chú phát hành
 account-hub-support = Hỗ trợ
 account-hub-donate = Quyên góp
 
-## Start page
-
-account-hub-email-button = Thiết lập tài khoản email
-account-hub-new-email-button = Tạo một địa chỉ email mới
-account-hub-calendar-button = Thiết lập lịch
-account-hub-address-book-button = Thiết lập sổ địa chỉ
-account-hub-chat-button = Thiết lập trò chuyện
-account-hub-feed-button = Thiết lập nguồn cấp dữ liệu RSS
-account-hub-newsgroup-button = Thiết lập nhóm tin
-account-hub-import-button = Nhập hồ sơ
-
 ## Initial setup page
 
 account-hub-email-setup-button = Tài khoản email
@@ -52,7 +41,42 @@ account-hub-sync-button = Đăng nhập để đồng bộ hóa…
 ## Email page
 
 account-hub-email-title = Thiết lập tài khoản email của bạn
+account-hub-add-email-title = Thêm tài khoản của bạn
+account-hub-manually-configure-email-title = Thiết lập cấu hình tài khoản
 account-hub-email-cancel-button = Huỷ bỏ
+account-hub-email-stop-button = Dừng
 account-hub-email-back-button = Quay lại
+account-hub-email-retest-button = Kiểm tra lại
+account-hub-email-finish-button = Hoàn tất
+account-hub-email-manually-configure-button = Cấu hình thủ công
 account-hub-email-continue-button = Tiếp tục
 account-hub-email-confirm-button = Xác nhận
+account-hub-incoming-server-legend = Máy chủ nhận thư
+account-hub-outgoing-server-legend = Máy chủ gửi thư
+account-hub-protocol-label = Giao thức
+account-hub-hostname-label = Tên máy chủ
+account-hub-port-label = Cổng
+    .title = Đặt cổng thành 0 để tự động phát hiện
+account-hub-auto-description = { -brand-short-name } sẽ thử tự động phát hiện các trường bị bỏ trống.
+account-hub-ssl-label = Bảo mật kết nối
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Tự động phát hiện
+account-hub-ssl-no-authentication-option =
+    .label = Không xác thực
+account-hub-ssl-cleartext-password-option =
+    .label = Mật khẩu bình thường
+account-hub-ssl-encrypted-password-option =
+    .label = Mật khẩu được mã hóa
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Không
+account-hub-auth-label = Phương thức xác thực
+account-hub-username-label = Tên đăng nhập
+account-hub-adding-account-title = Đang thêm tài khoản
+account-hub-adding-account-subheader = Kiểm tra lại cài đặt cấu hình tài khoản
+account-hub-account-added-title = Đã thêm tài khoản

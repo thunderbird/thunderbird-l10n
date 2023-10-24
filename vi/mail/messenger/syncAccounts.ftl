@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Chúng tôi không thể gửi thư xác thự
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Đăng xuất tài khoản?
 sync-signout-dialog-body = Dữ liệu đã đồng bộ hóa sẽ vẫn còn trong tài khoản của bạn.
 sync-signout-dialog-button = Đăng xuất
 
