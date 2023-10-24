@@ -41,6 +41,7 @@ account-hub-sync-button = Σύνδεση στο Sync…
 ## Email page
 
 account-hub-email-title = Ρύθμιση λογαριασμού email
+account-hub-add-email-title = Προσθήκη λογαριασμού
 account-hub-manually-configure-email-title = Ρύθμιση παραμέτρων λογαριασμού
 account-hub-email-cancel-button = Ακύρωση
 account-hub-email-stop-button = Διακοπή
@@ -54,6 +55,9 @@ account-hub-incoming-server-legend = Διακομιστής εισερχομέν
 account-hub-outgoing-server-legend = Διακομιστής εξερχομένων
 account-hub-protocol-label = Πρωτόκολλο
 account-hub-hostname-label = Όνομα κεντρικού υπολογιστή
+account-hub-port-label = Θύρα
+    .title = Ορίστε τον αριθμό θύρας σε 0 για αυτόματο εντοπισμό
+account-hub-auto-description = Το { -brand-short-name } θα προσπαθήσει να εντοπίσει αυτόματα τα κενά πεδία.
 account-hub-ssl-label = Ασφάλεια σύνδεσης
 
 ## Incoming/Outgoing SSL Authentication options
@@ -69,7 +73,10 @@ account-hub-ssl-encrypted-password-option =
 
 ## Incoming/Outgoing SSL options
 
+account-hub-ssl-noencryption-option =
+    .label = Κανένας
 account-hub-auth-label = Μέθοδος ταυτοποίησης
 account-hub-username-label = Όνομα χρήστη
 account-hub-adding-account-title = Προσθήκη λογαριασμού
+account-hub-adding-account-subheader = Επανάληψη δοκιμής των ρυθμίσεων διαμόρφωσης λογαριασμού
 account-hub-account-added-title = Ο λογαριασμός προστέθηκε
