@@ -67,9 +67,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Сажети преглед
     .accesskey = г
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -123,14 +120,6 @@ appmenu-settings =
     .label = Подешавања
 appmenu-addons-and-themes =
     .label = Додаци и теме
-appmenu-help-enter-troubleshoot-mode =
-    .label = Режим решавања проблема…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Искључи режим за решавање проблема
-appmenu-help-more-troubleshooting-info =
-    .label = Више података за решавање проблема
-appmenu-redirect-msg =
-    .label = Преусмери
 
 ## Context menu
 
@@ -141,7 +130,7 @@ context-menu-redirect-msg =
 mail-context-delete-messages =
     .label =
         { $count ->
-            [one] Обриши изабрану поруку`
+            [one] Обриши изабрану поруку
             [few] Обриши изабране поруке
            *[other] Обриши изабране поруке
         }
