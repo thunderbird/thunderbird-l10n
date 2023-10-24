@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Impussibel da trametter in e-mail da verificaz
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Sortir dal conto?
 sync-signout-dialog-body = Las datas sincronisadas restan en tes conto.
 sync-signout-dialog-button = Sortir
 

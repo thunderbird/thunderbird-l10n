@@ -41,7 +41,42 @@ account-hub-sync-button = S'annunziar en Sync…
 ## Email page
 
 account-hub-email-title = Endrizzar tes conto dad e-mail
+account-hub-add-email-title = Agiuntescha tes conto
+account-hub-manually-configure-email-title = Endrizzar la configuraziun dal conto
 account-hub-email-cancel-button = Interrumper
+account-hub-email-stop-button = Stop
 account-hub-email-back-button = Enavos
+account-hub-email-retest-button = Retestar
+account-hub-email-finish-button = Terminar
+account-hub-email-manually-configure-button = Configurar manualmain
 account-hub-email-continue-button = Cuntinuar
 account-hub-email-confirm-button = Confermar
+account-hub-incoming-server-legend = Server d'entrada
+account-hub-outgoing-server-legend = Server da sortida
+account-hub-protocol-label = Protocol
+account-hub-hostname-label = Num dal host
+account-hub-port-label = Port
+    .title = Endatescha 0 sco numer da port per la determinaziun automatica
+account-hub-auto-description = { -brand-short-name } vegn ad empruvar dad emplenir automaticamain champs vids.
+account-hub-ssl-label = Segirezza da la connexiun
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Determinaziun automatica
+account-hub-ssl-no-authentication-option =
+    .label = Nagina autentificaziun
+account-hub-ssl-cleartext-password-option =
+    .label = Pled-clav normal
+account-hub-ssl-encrypted-password-option =
+    .label = Pled-clav criptà
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Nagin
+account-hub-auth-label = Metoda d'autentificaziun
+account-hub-username-label = Num d'utilisader
+account-hub-adding-account-title = Agiuntar il conto
+account-hub-adding-account-subheader = Retestar ils parameters da la configuraziun dal conto
+account-hub-account-added-title = Agiuntà il conto
