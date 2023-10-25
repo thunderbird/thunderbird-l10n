@@ -42,6 +42,32 @@ account-hub-sync-button = Eşitlemek için giriş yap…
 
 account-hub-email-title = E-posta hesabınızı ayarlayın
 account-hub-email-cancel-button = Vazgeç
+account-hub-email-stop-button = Durdur
 account-hub-email-back-button = Geri
+account-hub-email-retest-button = Tekrar sına
+account-hub-email-finish-button = Bitir
 account-hub-email-continue-button = Devam et
 account-hub-email-confirm-button = Onayla
+account-hub-incoming-server-legend = Gelen sunucusu
+account-hub-outgoing-server-legend = Giden sunucusu
+account-hub-protocol-label = Protokol
+account-hub-hostname-label = Sunucu
+account-hub-port-label = Port
+    .title = Otomatik algılama için port numarasını 0 olarak ayarlayın
+account-hub-auto-description = { -brand-short-name }, boş bırakılan alanları otomatik olarak algılamaya çalışır.
+account-hub-ssl-label = Bağlantı güvenliği
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Otomatik algıla
+account-hub-ssl-cleartext-password-option =
+    .label = Normal parola
+account-hub-ssl-encrypted-password-option =
+    .label = Şifrelenmiş parola
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Yok
+account-hub-username-label = Kullanıcı adı

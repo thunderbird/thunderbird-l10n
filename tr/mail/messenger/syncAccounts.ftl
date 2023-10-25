@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Şu anda doğrulama e-postası gönderemedik. 
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Hesaptan çıkış yapılsın mı?
 sync-signout-dialog-body = Eşitlenmiş veriler hesabınızda kalacaktır.
 sync-signout-dialog-button = Çıkış yap
 
