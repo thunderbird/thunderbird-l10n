@@ -3,14 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 dateformat-label =
-    .value = Date Text Format:
+    .value = ਤਾਰੀਖ ਲਿਖਤ ਰੂਪ:
     .accesskey = D
 #   $date (String) - the formatted example date
 dateformat-long =
-    .label = Long: { $date }
+    .label = ਲੰਮੀ: { $date }
 #   $date (String) - the formatted example date
 dateformat-short =
-    .label = Short: { $date }
+    .label = ਛੋਟੀ: { $date }
 weekstart-label =
     .value = ਹਫ਼ਤਾ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ:
     .accesskey = r
@@ -87,29 +87,25 @@ previous-weeks-label =
     .value = ਵੇਖਾਉਣ ਲਈ ਪਿਛਲੇ ਹਫ਼ਤੇ:
     .accesskey = P
 task-start-label =
-    .value = Start Date:
+    .value = ਸ਼ੁਰੂ ਹੋਣ ਦੀ ਤਾਰੀਖ:
 task-start-1-label =
-    .label = None
+    .label = ਕੋਈ ਨਹੀਂ
 task-start-2-label =
-    .label = Start of Day
+    .label = ਦਿਨ ਦੀ ਸ਼ੁਰੂਆਤ
 task-start-3-label =
-    .label = End of Day
+    .label = ਦਿਨ ਦਾ ਅੰਤ
 task-start-4-label =
-    .label = Tomorrow
+    .label = ਭਲਕੇ
 task-start-5-label =
-    .label = Next Week
+    .label = ਅਗਲੇ ਹਫ਼ਤੇ
 task-start-6-label =
-    .label = Relative to Current Time
+    .label = ਮੌਜੂਦਾ ਸਮੇਂ ਦੇ ਮੁਤਾਬਕ
 task-start-7-label =
-    .label = Relative to Start
+    .label = ਸ਼ੁਰੂ ਦੇ ਮੁਤਾਬਕ
 task-start-8-label =
-    .label = Relative to Next Hour
+    .label = ਅਗਲੇ ਘੰਟੇ ਦੇ ਮੁਤਾਬਕ
 task-due-label =
-    .value = Due Date:
-accessibility-legend = Accessibility
-accessibility-colors-label =
-    .label = Optimize colors for accessibility
-    .accesskey = c
+    .value = ਪੂਰਾ ਕਰਨ ਦੀ ਤਾਰੀਖ:
 reminder-legend = ਜਦੋਂ ਇੱਕ ਅਲਾਰਮ ਬੰਦ ਹੋਵੇ:
 reminder-play-checkbox =
     .label = ਸਾਊਂਡ ਚਲਾਓ

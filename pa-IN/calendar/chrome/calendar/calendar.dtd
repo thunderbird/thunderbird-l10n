@@ -37,7 +37,7 @@
 <!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "">
 <!ENTITY calendar.unifinder.tree.startdate.label           "ਸ਼ੁਰੂ">
 <!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Sort by start date">
-<!ENTITY calendar.unifinder.tree.enddate.label             "End">
+<!ENTITY calendar.unifinder.tree.enddate.label             "ਆਖਰੀ">
 <!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Sort by end date">
 <!ENTITY calendar.unifinder.tree.duedate.label             "Due">
 <!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Sort by due date">
@@ -141,7 +141,7 @@
 <!ENTITY calendar.context.button.label                "Today Pane">
 <!ENTITY calendar.context.button.accesskey            "T">
 
-<!ENTITY calendar.context.attendance.menu.label                 "Attendance">
+<!ENTITY calendar.context.attendance.menu.label                 "ਹਾਜ਼ਰੀ">
 <!ENTITY calendar.context.attendance.menu.accesskey             "d">
 <!ENTITY calendar.context.attendance.occurrence.label           "This Occurrence">
 
@@ -180,14 +180,14 @@
 <!ENTITY priority.level.high                "High">
 <!ENTITY priority.level.high.accesskey      "H">
 
-<!ENTITY calendar.context.postpone.1hour.label      "1 Hour">
+<!ENTITY calendar.context.postpone.1hour.label      "1 ਘੰਟਾ">
 <!ENTITY calendar.context.postpone.1hour.accesskey  "H">
-<!ENTITY calendar.context.postpone.1day.label       "1 Day">
+<!ENTITY calendar.context.postpone.1day.label       "1 ਦਿਨ">
 <!ENTITY calendar.context.postpone.1day.accesskey   "D">
 <!ENTITY calendar.context.postpone.1week.label      "1 Week">
 <!ENTITY calendar.context.postpone.1week.accesskey  "W">
 
-<!ENTITY calendar.copylink.label       "Copy Link Location">
+<!ENTITY calendar.copylink.label       "ਲਿੰਕ ਟਿਕਾਣਾ ਕਾਪੀ ਕਰੋ">
 <!ENTITY calendar.copylink.accesskey   "C">
 
 <!-- Task View -->

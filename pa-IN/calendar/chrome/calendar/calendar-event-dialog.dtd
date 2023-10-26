@@ -122,7 +122,7 @@
 <!ENTITY  event.menu.options.priority.normal.accesskey        "N">
 <!ENTITY  event.menu.options.priority.high.label              "High">
 <!ENTITY  event.menu.options.priority.high.accesskey          "H">
-<!ENTITY  event.menu.options.privacy.label                    "Privacy">
+<!ENTITY  event.menu.options.privacy.label                    "ਪਰਦੇਦਾਰੀ">
 <!ENTITY  event.menu.options.privacy.accesskey                "P">
 <!ENTITY  event.menu.options.privacy.public.label             "Public Event">
 <!ENTITY  event.menu.options.privacy.public.accesskey         "u">
@@ -132,9 +132,9 @@
 <!ENTITY  event.menu.options.privacy.private.accesskey        "r">
 <!ENTITY  event.menu.options.show.time.label                  "Show Time as">
 <!ENTITY  event.menu.options.show.time.accesskey              "T">
-<!ENTITY  event.menu.options.show.time.busy.label             "Busy">
+<!ENTITY  event.menu.options.show.time.busy.label             "ਰੁਝੇ">
 <!ENTITY  event.menu.options.show.time.busy.accesskey         "B">
-<!ENTITY  event.menu.options.show.time.free.label             "Free">
+<!ENTITY  event.menu.options.show.time.free.label             "ਵੇਹਲੇ">
 <!ENTITY  event.menu.options.show.time.free.accesskey         "F">
 
 <!ENTITY event.invite.attendees.label                     "Invite Attendees…">
@@ -145,11 +145,11 @@
 <!ENTITY event.email.tentative.attendees.accesskey        "U">
 
 <!-- Toolbar -->
-<!ENTITY  event.toolbar.delete.label                      "Delete">
+<!ENTITY  event.toolbar.delete.label                      "ਹਟਾਓ">
 <!ENTITY  event.toolbar.attendees.label                   "Invite Attendees">
-<!ENTITY  event.toolbar.privacy.label                     "Privacy">
+<!ENTITY  event.toolbar.privacy.label                     "ਪਰਦੇਦਾਰੀ">
 
-<!ENTITY  event.toolbar.delete.tooltip                    "Delete">
+<!ENTITY  event.toolbar.delete.tooltip                    "ਹਟਾਓ">
 <!ENTITY  event.toolbar.attendees.tooltip                 "Invite Attendees">
 <!ENTITY  event.toolbar.attachments.tooltip               "Add Attachments">
 <!ENTITY  event.toolbar.privacy.tooltip                   "Change Privacy">
@@ -168,12 +168,12 @@
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Title:" >
 <!ENTITY event.title.textbox.accesskey                    "I">
-<!ENTITY event.location.label                             "Location:" >
+<!ENTITY event.location.label                             "ਟਿਕਾਣਾ:" >
 <!ENTITY event.location.accesskey                         "L">
-<!ENTITY event.categories.label                           "Category:">
+<!ENTITY event.categories.label                           "ਕੈਟਾਗਰੀ:">
 <!ENTITY event.categories.accesskey                       "y">
 <!ENTITY event.categories.textbox.label                   "Add a new category" >
-<!ENTITY event.calendar.label                             "Calendar:" >
+<!ENTITY event.calendar.label                             "ਕੈਲੰਡਰ:" >
 <!ENTITY event.calendar.accesskey                         "C">
 <!ENTITY event.attendees.label                            "Attendees:" >
 <!ENTITY event.attendees.accesskey                        "I">
