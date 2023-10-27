@@ -112,7 +112,7 @@ quick-filter-bar-textbox-shortcut =
 quick-filter-bar-textbox =
     .placeholder = 過濾這些訊息 <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
-    .label = 過濾訊息:
+    .label = 過濾訊息：
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -127,7 +127,7 @@ quick-filter-bar-search-placeholder-with-key = 過濾訊息… { quick-filter-ba
 # Label of the search button in the quick filter bar text box. Clicking it will
 # launch a global search.
 quick-filter-bar-search-button =
-    .alt = 隨處搜尋
+    .alt = 搜尋所有位置
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = 標籤篩選模式
