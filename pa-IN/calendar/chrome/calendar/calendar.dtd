@@ -6,10 +6,10 @@
 <!ENTITY calendar.calendar.label     "ਕੈਲੰਡਰ">
 <!ENTITY calendar.calendar.accesskey "C">
 
-<!ENTITY calendar.newevent.button.tooltip         "Create a new event" >
-<!ENTITY calendar.newtask.button.tooltip          "Create a new task" >
+<!ENTITY calendar.newevent.button.tooltip         "ਨਵਾਂ ਈਵੈਂਟ ਬਣਾਓ" >
+<!ENTITY calendar.newtask.button.tooltip          "ਨਵਾਂ ਕੰਮ ਬਣਾਓ" >
 
-<!ENTITY calendar.unifinder.showcompletedtodos.label "Show completed Tasks">
+<!ENTITY calendar.unifinder.showcompletedtodos.label "ਪੂਰੇ ਹੋਏ ਕੰਮ ਦਿਖਾਓ">
 
 <!ENTITY calendar.today.button.label          "ਅੱਜ">
 <!ENTITY calendar.tomorrow.button.label       "ਭਲਕ">
@@ -41,27 +41,27 @@
 <!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Sort by end date">
 <!ENTITY calendar.unifinder.tree.duedate.label             "Due">
 <!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Sort by due date">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Completed">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Sort by completed date">
+<!ENTITY calendar.unifinder.tree.completeddate.label       "ਪੂਰਾ">
+<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "ਪੂਰਾ ਕਰਨ ਤਾਰੀਖ ਰਾਹੀਂ ਲੜੀਬੱਧ">
 <!ENTITY calendar.unifinder.tree.categories.label          "ਕੈਟਾਗਰੀ">
 <!ENTITY calendar.unifinder.tree.categories.tooltip2       "ਕੈਟਾਗਰੀ ਰਾਹੀਂ ਲੜੀਬੱਧ">
 <!ENTITY calendar.unifinder.tree.location.label            "ਟਿਕਾਣਾ">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Sort by location">
+<!ENTITY calendar.unifinder.tree.location.tooltip2         "ਟਿਕਾਣੇ ਰਾਹੀਂ ਲੜੀਬੱਧ">
 <!ENTITY calendar.unifinder.tree.status.label              "ਸਥਿਤੀ">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Sort by status">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Calendar Name">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Sort by calendar name">
-<!ENTITY calendar.unifinder.tree.duration.label            "Due in">
+<!ENTITY calendar.unifinder.tree.status.tooltip2           "ਸਥਿਤੀ ਰਾਹੀਂ ਲੜੀਬੱਧ">
+<!ENTITY calendar.unifinder.tree.calendarname.label        "ਕੈਲੰਡਰ ਦਾ ਨਾਂ">
+<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "ਕੈਲੰਡਰ ਨਾਂ ਰਾਹੀਂ ਲੜੀਬੱਧ">
+<!ENTITY calendar.unifinder.tree.duration.label            "ਇਸ ਵਿੱਚ ਪੂਰਾ">
 <!ENTITY calendar.unifinder.tree.duration.tooltip2         "Sort by time until due">
 <!ENTITY calendar.unifinder.close.tooltip                  "Close event search and event list">
 
-<!ENTITY calendar.today.button.tooltip          "Go to Today" >
-<!ENTITY calendar.todaypane.button.tooltip      "Show Today Pane" >
+<!ENTITY calendar.today.button.tooltip          "ਅੱਜ ਉੱਤੇ ਜਾਓ" >
+<!ENTITY calendar.todaypane.button.tooltip      "ਅੱਜ ਦਾ ਖਾਕਾ ਵੇਖਾਓ" >
 
-<!ENTITY calendar.newevent.button.label         "New Event" >
-<!ENTITY calendar.newtask.button.label          "New Task" >
+<!ENTITY calendar.newevent.button.label         "ਨਵਾਂ ਈਵੈਂਟ" >
+<!ENTITY calendar.newtask.button.label          "ਨਵਾਂ ਕੰਮ" >
 
-<!ENTITY calendar.onlyworkday.checkbox.label    "Workweek days only" >
+<!ENTITY calendar.onlyworkday.checkbox.label    "ਹਫ਼ਤੇ ਦੇ ਕੰਮਕਾਜੀ ਦਿਨ ਹੀ" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Tasks in View" >
 <!ENTITY calendar.displaytodos.checkbox.accesskey "k" >
@@ -128,9 +128,9 @@
 <!ENTITY calendar.context.newevent.accesskey          "N">
 <!ENTITY calendar.context.newtodo.label               "New Task…">
 <!ENTITY calendar.context.newtodo.accesskey           "k">
-<!ENTITY calendar.context.deletetask.label            "Delete Task">
+<!ENTITY calendar.context.deletetask.label            "ਕੰਮ ਹਟਾਓ">
 <!ENTITY calendar.context.deletetask.accesskey        "l">
-<!ENTITY calendar.context.deleteevent.label           "Delete Event">
+<!ENTITY calendar.context.deleteevent.label           "ਈਵੈਂਟ ਹਟਾਓ">
 <!ENTITY calendar.context.deleteevent.accesskey       "l">
 <!ENTITY calendar.context.cutevent.label              "ਕੱਟੋ">
 <!ENTITY calendar.context.cutevent.accesskey          "t">
@@ -138,7 +138,7 @@
 <!ENTITY calendar.context.copyevent.accesskey         "C">
 <!ENTITY calendar.context.pasteevent.label            "ਚੇਪੋ">
 <!ENTITY calendar.context.pasteevent.accesskey        "P">
-<!ENTITY calendar.context.button.label                "Today Pane">
+<!ENTITY calendar.context.button.label                "ਅੱਜ ਦਾ ਖਾਕਾ">
 <!ENTITY calendar.context.button.accesskey            "T">
 
 <!ENTITY calendar.context.attendance.menu.label                 "ਹਾਜ਼ਰੀ">
@@ -152,23 +152,23 @@
 <!ENTITY calendar.context.progress.accesskey          "P">
 <!ENTITY calendar.context.priority.label              "ਤਰਜੀਹ">
 <!ENTITY calendar.context.priority.accesskey          "r">
-<!ENTITY calendar.context.postpone.label              "Postpone Task">
+<!ENTITY calendar.context.postpone.label              "ਕੰਮ ਨੂੰ ਮੁਲਤਵੀ ਕਰੋ">
 <!ENTITY calendar.context.postpone.accesskey          "s">
 
 <!ENTITY percnt "&#38;#37;" ><!--=percent sign-->
 
-<!ENTITY calendar.context.markcompleted.label     "Mark Completed">
+<!ENTITY calendar.context.markcompleted.label     "ਪੂਰੇ ਹੋਣ ਦਾ ਨਿਸ਼ਾਨ ਲਾਓ">
 <!ENTITY calendar.context.markcompleted.accesskey "o">
 
-<!ENTITY progress.level.0             "0&percnt; Completed">
+<!ENTITY progress.level.0             "0&percnt; ਪੂਰਾ">
 <!ENTITY progress.level.0.accesskey   "0">
-<!ENTITY progress.level.25            "25&percnt; Completed">
+<!ENTITY progress.level.25            "25&percnt; ਪੂਰਾ">
 <!ENTITY progress.level.25.accesskey  "2">
-<!ENTITY progress.level.50            "50&percnt; Completed">
+<!ENTITY progress.level.50            "50&percnt; ਪੂਰਾ">
 <!ENTITY progress.level.50.accesskey  "5">
-<!ENTITY progress.level.75            "75&percnt; Completed">
+<!ENTITY progress.level.75            "75&percnt; ਪੂਰਾ">
 <!ENTITY progress.level.75.accesskey  "7">
-<!ENTITY progress.level.100            "100&percnt; Completed">
+<!ENTITY progress.level.100            "100&percnt; ਪੂਰਾ">
 <!ENTITY progress.level.100.accesskey  "1">
 
 <!ENTITY priority.level.none                "Not specified">
@@ -184,7 +184,7 @@
 <!ENTITY calendar.context.postpone.1hour.accesskey  "H">
 <!ENTITY calendar.context.postpone.1day.label       "1 ਦਿਨ">
 <!ENTITY calendar.context.postpone.1day.accesskey   "D">
-<!ENTITY calendar.context.postpone.1week.label      "1 Week">
+<!ENTITY calendar.context.postpone.1week.label      "1 ਹਫ਼ਤਾ">
 <!ENTITY calendar.context.postpone.1week.accesskey  "W">
 
 <!ENTITY calendar.copylink.label       "ਲਿੰਕ ਟਿਕਾਣਾ ਕਾਪੀ ਕਰੋ">
@@ -234,7 +234,7 @@
 <!ENTITY calendar.tasks.view.minimonth.label           "Mini-Month">
 <!ENTITY calendar.tasks.view.minimonth.accesskey       "M">
 
-<!ENTITY calendar.tasks.view.calendarlist.label        "Calendar List">
+<!ENTITY calendar.tasks.view.calendarlist.label        "ਕੈਲੰਡਰ ਸੂਚੀ">
 <!ENTITY calendar.tasks.view.calendarlist.accesskey    "L">
 
 <!ENTITY calendar.tasks.view.filtertasks.label           "Filter Tasks">

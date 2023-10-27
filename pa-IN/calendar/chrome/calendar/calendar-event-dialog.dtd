@@ -333,37 +333,37 @@
 
 <!ENTITY event.recurrence.range.label                   "Range of recurrence">
 <!ENTITY event.recurrence.forever.label                 "No end date" >
-<!ENTITY event.recurrence.repeat.for.label              "Create" >
-<!ENTITY event.recurrence.appointments.label            "Appointment(s)" >
-<!ENTITY event.repeat.until.label                       "Repeat until" >
+<!ENTITY event.recurrence.repeat.for.label              "ਬਣਾਓ" >
+<!ENTITY event.recurrence.appointments.label            "ਮੁਲਾਕਤਾਂ" >
+<!ENTITY event.repeat.until.label                       "ਇਸ ਤੱਕ ਦੁਹਰਾਓ" >
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Invite Attendees">
-<!ENTITY event.organizer.label                  "Organizer">
+<!ENTITY event.organizer.label                  "ਪਰਬੰਧਕ">
 <!ENTITY event.freebusy.suggest.slot            "Suggest time slot:">
 <!ENTITY event.freebusy.button.next.slot        "Next slot">
 <!ENTITY event.freebusy.button.previous.slot    "Previous slot">
-<!ENTITY event.freebusy.zoom                    "Zoom:">
-<!ENTITY event.freebusy.legend.free             "Free" >
-<!ENTITY event.freebusy.legend.busy             "Busy" >
-<!ENTITY event.freebusy.legend.busy_tentative   "Tentative" >
-<!ENTITY event.freebusy.legend.busy_unavailable "Out of Office" >
-<!ENTITY event.freebusy.legend.unknown          "No Information" >
+<!ENTITY event.freebusy.zoom                    "ਜ਼ੂਮ:">
+<!ENTITY event.freebusy.legend.free             "ਵੇਹਲੇ" >
+<!ENTITY event.freebusy.legend.busy             "ਰੁਝੇ" >
+<!ENTITY event.freebusy.legend.busy_tentative   "ਆਰਜ਼ੀ" >
+<!ENTITY event.freebusy.legend.busy_unavailable "ਦਫ਼ਤਰ ਵਿੱਚ ਨਹੀਂ" >
+<!ENTITY event.freebusy.legend.unknown          "ਕੋਈ ਜਾਣਕਾਰੀ ਨਹੀਂ" >
 <!ENTITY event.attendee.role.required           "Required Attendee">
 <!ENTITY event.attendee.role.optional           "Optional Attendee">
 <!ENTITY event.attendee.role.chair              "Chair">
 <!ENTITY event.attendee.role.nonparticipant     "Non Participant">
 <!ENTITY event.attendee.usertype.individual     "Individual">
 <!ENTITY event.attendee.usertype.group          "Group">
-<!ENTITY event.attendee.usertype.resource       "Resource">
-<!ENTITY event.attendee.usertype.room           "Room">
+<!ENTITY event.attendee.usertype.resource       "ਸਰੋਤ">
+<!ENTITY event.attendee.usertype.room           "ਕਮਰਾ">
 
 <!-- Timezone dialog -->
-<!ENTITY timezone.title.label            "Please Specify the Timezone">
-<!ENTITY event.timezone.custom.label     "More Timezones…">
+<!ENTITY timezone.title.label            "ਸਮਾਂ-ਖੇਤਰ ਦਿਓ ਜੀ">
+<!ENTITY event.timezone.custom.label     "ਹੋਰ ਸਮਾਂ-ਖੇਤਰ…">
 
 <!-- Read-Only dialog -->
-<!ENTITY read.only.general.label         "General">
+<!ENTITY read.only.general.label         "ਆਮ">
 <!ENTITY read.only.title.label           "Title:">
 <!ENTITY read.only.event.start.label     "Start Date:">
 <!ENTITY read.only.task.start.label      "Start Date:">
