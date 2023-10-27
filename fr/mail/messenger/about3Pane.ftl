@@ -123,7 +123,7 @@ quick-filter-bar-search =
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
     { PLATFORM() ->
-        [macos] <kbd>A</kbd> <kbd>A</kbd> <kbd>K</kbd>
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
        *[other] <kbd>Ctrl</kbd> + <kbd>Maj</kbd> + <kbd>K</kbd>
     }
 # This is the empty text for the text search box.
@@ -133,7 +133,7 @@ quick-filter-bar-search-placeholder-with-key = Filtrer les messages… { quick-f
 # Label of the search button in the quick filter bar text box. Clicking it will
 # launch a global search.
 quick-filter-bar-search-button =
-    .alt = Recherchez partout
+    .alt = Rechercher partout
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Mode de filtrage par étiquettes
