@@ -6,8 +6,8 @@ account-setup-tab-title = Nastavenie účtu
 
 ## Header
 
-account-setup-title = Nastavenie existujúcej e-mailovej adresy
-account-setup-description = Ak chcete použiť svoju aktuálnu e-mailovú adresu, vyplňte svoje prihlasovacie údaje.
+account-setup-title = Nastavenie existujúcej e‑mailovej adresy
+account-setup-description = Ak chcete použiť svoju aktuálnu e‑mailovú adresu, vyplňte svoje prihlasovacie údaje.
 account-setup-secondary-description = { -brand-product-name } automaticky vyhľadá funkčnú a odporúčanú konfiguráciu servera.
 account-setup-success-title = Účet bol úspešne vytvorený
 account-setup-success-description = Teraz môžete tento účet používať v aplikácii { -brand-short-name }.
@@ -24,18 +24,18 @@ account-setup-name-info-icon =
     .title = Vaše meno tak ako bude zobrazené ostatným
 account-setup-name-warning-icon =
     .title = Prosím, zadajte svoje meno
-account-setup-email-label = E-mailová adresa
+account-setup-email-label = E‑mailová adresa
     .accesskey = E
 account-setup-email-input =
     .placeholder = jan.novak@example.com
 account-setup-email-info-icon =
-    .title = Vaša existujúca e-mailová adresa
+    .title = Vaša existujúca e‑mailová adresa
 account-setup-email-warning-icon =
-    .title = Neplatná e-mailová adresa
+    .title = Neplatná e‑mailová adresa
 account-setup-password-label = Heslo
     .accesskey = H
     .title = Voliteľné, bude použité len na overenie používateľského mena
-account-provisioner-button = Získať novú e-mailovú adresu
+account-provisioner-button = Získať novú e‑mailovú adresu
     .accesskey = n
 account-setup-password-toggle-show =
     .title = Zobraziť heslo ako čistý text
@@ -73,7 +73,7 @@ account-setup-looking-up-settings = Vyhľadáva sa konfigurácia…
 account-setup-looking-up-settings-guess = Vyhľadáva sa konfigurácia: skúšajú sa bežné názvy serverov…
 account-setup-looking-up-settings-half-manual = Vyhľadáva sa konfigurácia: prebieha testovanie servera…
 account-setup-looking-up-disk = Vyhľadáva sa konfigurácia: v inštalácii { -brand-short-name(case: "gen") }…
-account-setup-looking-up-isp = Vyhľadáva sa konfigurácia: u poskytovateľa e-mailu…
+account-setup-looking-up-isp = Vyhľadáva sa konfigurácia: u poskytovateľa e‑mailu…
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-looking-up-db = Vyhľadáva sa konfigurácia: v databáze Mozilla ISP…
 account-setup-looking-up-mx = Vyhľadáva sa konfigurácia: v doméne prichádzajúcej pošty…
@@ -88,7 +88,7 @@ account-setup-success-addon = Doplnok bol úspešne nainštalovaný
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Konfigurácia bola nájdená v databáze Mozilla ISP.
 account-setup-success-settings-disk = Konfigurácia bola nájdená v inštalácii { -brand-short-name(case: "gen") }.
-account-setup-success-settings-isp = Konfigurácia bola nájdená u poskytovateľa e-mailu.
+account-setup-success-settings-isp = Konfigurácia bola nájdená u poskytovateľa e‑mailu.
 # Note: Microsoft Exchange is a product name.
 account-setup-success-settings-exchange = Konfigurácia bola nájdená na serveri Microsoft Exchange.
 
@@ -123,8 +123,8 @@ account-setup-results-area-title =
         [few] Dostupné konfigurácie
        *[other] Dostupné konfigurácie
     }
-account-setup-result-imap-description = Udržuje vaše priečinky a e-maily synchronizované so serverom
-account-setup-result-pop-description = Ponecháva vaše priečinky a e-maily v počítači
+account-setup-result-imap-description = Udržuje vaše priečinky a e‑maily synchronizované so serverom
+account-setup-result-pop-description = Ponecháva vaše priečinky a e‑maily v počítači
 # Note: Exchange, Office365 are the name of products.
 account-setup-result-exchange2-description = Použiť server Microsoft Exchange alebo cloudové služby Office 365
 account-setup-incoming-title = Prichádzajúca
@@ -145,7 +145,7 @@ account-setup-result-username-different = Server prichádzajúcej pošty: { $inc
 # Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
 account-setup-credentials-incomplete = Overenie zlyhalo. Buď sú zadané prihlasovacie údaje nesprávne, alebo sa na prihlásenie vyžaduje samostatné používateľské meno. Týmto menom je zvyčajne vaše prihlásenie do domény systému Windows, s uvedením domény alebo bez nej (napríklad jannovak alebo DOMENA\jannovak)
 account-setup-credentials-wrong = Overenie zlyhalo. Skontrolujte používateľské meno a heslo
-account-setup-find-settings-failed = { -brand-short-name(case: "dat") } sa nepodarilo nájsť nastavenia pre váš e-mailový účet
+account-setup-find-settings-failed = { -brand-short-name(case: "dat") } sa nepodarilo nájsť nastavenia pre váš e‑mailový účet
 account-setup-exchange-config-unverifiable = Konfiguráciu sa nepodarilo overiť. Ak sú vaše používateľské meno a heslo správne, je pravdepodobné, že správca servera zakázal vybratú konfiguráciu vášho účtu. Skúste zvoliť iný protokol.
 account-setup-provisioner-error = Pri nastavovaní nového účtu v aplikácii { -brand-short-name } sa vyskytla chyba. Skúste svoj účet nastaviť ručne pomocou svojich prihlasovacích údajov.
 
@@ -187,7 +187,7 @@ account-setup-warning-cleartext = Server <b>{ $server }</b> nepoužíva šifrova
 account-setup-warning-cleartext-details = Nezabezpečené poštové servery nepoužívajú šifrované pripojenia na ochranu hesiel a súkromných informácií. Pri pripojení k tomuto serveru je možné vaše heslo a citlivé údaje prečítať treťou stranou.
 account-setup-insecure-server-checkbox = Rozumiem rizikám
     .accesskey = R
-account-setup-insecure-description = { -brand-short-name } vám môže umožniť získať vaše e-mailové správy použitím poskytnutej konfigurácie. Avšak mali by ste kontaktovať vášho poskytovateľa e-mailovej schránky alebo správcu systému a požiadať ho o údaje k neplatným pripojeniam. Ďalšie informácie nájdete na stránke <a data-l10n-name="thunderbird-faq-link">Thunderbird - Často kladené otázky</a>.
+account-setup-insecure-description = { -brand-short-name } vám môže umožniť získať vaše e‑mailové správy použitím poskytnutej konfigurácie. Avšak mali by ste kontaktovať vášho poskytovateľa e‑mailovej schránky alebo správcu systému a požiadať ho o údaje k neplatným pripojeniam. Ďalšie informácie nájdete na stránke <a data-l10n-name="thunderbird-faq-link">Thunderbird - Často kladené otázky</a>.
 insecure-dialog-cancel-button = Zmeniť nastavenia
     .accesskey = Z
 insecure-dialog-confirm-button = Potvrdiť
@@ -203,9 +203,9 @@ exchange-dialog-cancel-button = Zrušiť
 
 ## Dismiss account creation dialog
 
-exit-dialog-title = Nie je nakonfigurovaný žiadny e-mailový účet
-exit-dialog-description = Naozaj chcete zrušiť proces nastavenia? { -brand-short-name } je stále možné používať aj bez e-mailového účtu, ale mnohé funkcie nebudú k dispozícii.
-account-setup-no-account-checkbox = Používať { -brand-short-name } bez e-mailového účtu
+exit-dialog-title = Nie je nakonfigurovaný žiadny e‑mailový účet
+exit-dialog-description = Naozaj chcete zrušiť proces nastavenia? { -brand-short-name } je stále možné používať aj bez e‑mailového účtu, ale mnohé funkcie nebudú k dispozícii.
+account-setup-no-account-checkbox = Používať { -brand-short-name } bez e‑mailového účtu
     .accesskey = u
 exit-dialog-cancel-button = Pokračovať v nastavení
     .accesskey = P
@@ -222,8 +222,8 @@ account-setup-confirm-advanced-description = Toto dialógové okno bude zatvoren
 ## Addon installation section
 
 account-setup-addon-install-title = Nainštalovať
-account-setup-addon-install-intro = Doplnok tretej strany vám umožňuje prístup k vašej e-mailovej adrese na tomto serveri:
-account-setup-addon-no-protocol = Tento e-mailový server bohužiaľ nepodporuje otvorené protokoly. { account-setup-addon-install-intro }
+account-setup-addon-install-intro = Doplnok tretej strany vám umožňuje prístup k vašej e‑mailovej adrese na tomto serveri:
+account-setup-addon-no-protocol = Tento e‑mailový server bohužiaľ nepodporuje otvorené protokoly. { account-setup-addon-install-intro }
 
 ## Success view
 
@@ -235,23 +235,23 @@ account-setup-address-book-carddav-button = Pripojiť sa k adresáru typu CardDA
 account-setup-address-book-ldap-button = Pripojiť sa k adresáru LDAP
 account-setup-calendar-button = Pripojiť sa k vzdialenému kalendáru
 account-setup-linked-services-title = Pripojenie prepojených služieb
-account-setup-linked-services-description = { -brand-short-name } našiel ďalšie služby spojené s vaším e-mailovým účtom.
-account-setup-no-linked-description = Nastavte si ďalšie služby, aby ste zo svojho e-mailového klienta { -brand-short-name } vyťažili maximum.
+account-setup-linked-services-description = { -brand-short-name } našiel ďalšie služby spojené s vaším e‑mailovým účtom.
+account-setup-no-linked-description = Nastavte si ďalšie služby, aby ste zo svojho e‑mailového klienta { -brand-short-name } vyťažili maximum.
 # Variables:
 # $count (Number) - The number of address books found during autoconfig.
 account-setup-found-address-books-description =
     { $count ->
-        [one] { -brand-short-name } našiel jeden adresár prepojený s vašim e-mailovým účtom.
-        [few] { -brand-short-name } našiel { $count } adresáre prepojené s vašim e-mailovým účtom.
-       *[other] { -brand-short-name } našiel { $count } adresárov prepojených s vašim e-mailovým účtom.
+        [one] { -brand-short-name } našiel jeden adresár prepojený s vašim e‑mailovým účtom.
+        [few] { -brand-short-name } našiel { $count } adresáre prepojené s vašim e‑mailovým účtom.
+       *[other] { -brand-short-name } našiel { $count } adresárov prepojených s vašim e‑mailovým účtom.
     }
 # Variables:
 # $count (Number) - The number of calendars found during autoconfig.
 account-setup-found-calendars-description =
     { $count ->
-        [one] { -brand-short-name } našiel jeden kalendár prepojený s vašim e-mailovým účtom.
-        [few] { -brand-short-name } našiel { $count } kalendáre prepojené s vašim e-mailovým účtom.
-       *[other] { -brand-short-name } našiel { $count } kalendárov prepojených s vašim e-mailovým účtom.
+        [one] { -brand-short-name } našiel jeden kalendár prepojený s vašim e‑mailovým účtom.
+        [few] { -brand-short-name } našiel { $count } kalendáre prepojené s vašim e‑mailovým účtom.
+       *[other] { -brand-short-name } našiel { $count } kalendárov prepojených s vašim e‑mailovým účtom.
     }
 account-setup-button-finish = Dokončiť
     .accesskey = D

@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Indikuje, že neakceptujete protinávrhy">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Odstrániť…">
 <!ENTITY  event.menu.item.delete.accesskey                "d">
-<!ENTITY  event.menu.item.page.setup.label                "Nastavenie tlače">
-<!ENTITY  event.menu.item.page.setup.accesskey            "N">
-<!ENTITY  event.menu.item.print.label                     "Tlačiť">
-<!ENTITY  event.menu.item.print.accesskey                 "T">
 
 <!ENTITY  event.menu.edit.label                           "Upraviť">
 <!ENTITY  event.menu.edit.accesskey                       "U">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "u">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Prispôsobiť…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "P">
-<!ENTITY  event.menu.view.showlink.label                  "Zobraziť súvisiaci odkaz">
-<!ENTITY  event.menu.view.showlink.accesskey              "o">
 
 <!ENTITY  event.menu.options.label                            "Možnosti">
 <!ENTITY  event.menu.options.accesskey                        "M">
@@ -155,9 +146,9 @@
 
 <!ENTITY event.invite.attendees.label                     "Pozvať účastníkov…">
 <!ENTITY event.invite.attendees.accesskey                 "P">
-<!ENTITY event.email.attendees.label                      "Napísať e-mail pre všetkých účastníkov…">
+<!ENTITY event.email.attendees.label                      "Napísať e‑mail pre všetkých účastníkov…">
 <!ENTITY event.email.attendees.accesskey                  "a">
-<!ENTITY event.email.tentative.attendees.label            "Napísať e-mail pre nerozhodnutých účastníkov…">
+<!ENTITY event.email.tentative.attendees.label            "Napísať e‑mail pre nerozhodnutých účastníkov…">
 <!ENTITY event.email.tentative.attendees.accesskey        "N">
 <!ENTITY event.remove.attendees.label2                    "Odstrániť všetkých účastníkov">
 <!ENTITY event.remove.attendees.accesskey                 "O">
@@ -367,7 +358,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Vytvoriť schôdzku" >
 <!ENTITY event.recurrence.appointments.label            "krát" >
 <!ENTITY event.repeat.until.label                       "Opakovať do dátumu" >
-<!ENTITY event.recurrence.preview.label                 "Ukážka">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Pozvaní účastníci">

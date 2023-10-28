@@ -79,51 +79,23 @@ about-addressbook-sort-name-ascending =
 about-addressbook-sort-name-descending =
     .label = Usporiadať podľa mena (Z > A)
 about-addressbook-sort-email-ascending =
-    .label = Usporiadať podľa e-mailovej adresy (A > Z)
+    .label = Usporiadať podľa e‑mailovej adresy (A > Z)
 about-addressbook-sort-email-descending =
-    .label = Usporiadať podľa e-mailovej adresy (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Prepnúť na horizontálne rozloženie
-about-addressbook-vertical-layout =
-    .label = Prepnúť na vertikálne rozloženie
+    .label = Usporiadať podľa e‑mailovej adresy (Z > A)
 about-addressbook-table-layout =
     .label = Tabuľkové rozloženie
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Meno
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = E-mailové adresy
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Telefónne čísla
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Adresy
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Titul
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Oddelenie
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organizácia
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Adresár
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Názov
     .title = Usporiadať podľa názvu
 about-addressbook-column-label-generatedname2 =
     .label = Názov
-about-addressbook-column-header-emailaddresses2 = E-mailové adresy
-    .title = Usporiadať podľa e-mailových adries
+about-addressbook-column-header-emailaddresses2 = E‑mailové adresy
+    .title = Usporiadať podľa e‑mailových adries
 about-addressbook-column-label-emailaddresses2 =
-    .label = E-mailové adresy
+    .label = E‑mailové adresy
 about-addressbook-column-header-nickname2 = Prezývka
     .title = Usporiadať podľa prezývky
 about-addressbook-column-label-nickname2 =
@@ -184,16 +156,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Odstránenie kontaktov
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Naozaj chcete odstrániť kontakt { $name } zo zoznamu { $list }?
-        [few] Naozaj chcete odstrániť tieto { $count } kontakty zo zoznamu { $list }?
-       *[other] Naozaj chcete odstrániť týchto { $count } kontaktov zo zoznamu { $list }?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Naozaj chcete odstrániť kontakt { $name } zo zoznamu { $list }?
@@ -214,15 +176,6 @@ about-addressbook-confirm-delete-contacts-title =
         [one] Odstránenie kontaktu
         [few] Odstránenie kontaktov
        *[other] Odstránenie kontaktov
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Naozaj chcete odstrániť kontakt { $name }?
-        [few] Naozaj chcete odstrániť tieto { $count } kontakty?
-       *[other] Naozaj chcete odstrániť týchto { $count } kontaktov?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -248,15 +201,6 @@ about-addressbook-placeholder-no-search-results = Neboli nájdené žiadne konta
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = Vybraté kontakty a zoznamy: { $count }
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = Vybraté kontakty: { $count }
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = Vybraté zoznamy: { $count }
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
@@ -297,7 +241,7 @@ about-addressbook-delete-edit-contact-button = Odstrániť
 about-addressbook-cancel-edit-contact-button = Zrušiť
 about-addressbook-save-edit-contact-button = Uložiť
 about-addressbook-add-contact-to = Pridať do:
-about-addressbook-details-email-addresses-header = E-mailové adresy
+about-addressbook-details-email-addresses-header = E‑mailové adresy
 about-addressbook-details-phone-numbers-header = Telefónne čísla
 about-addressbook-details-addresses-header = Adresy
 about-addressbook-details-notes-header = Poznámky

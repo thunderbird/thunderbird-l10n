@@ -8,7 +8,7 @@
 <!ENTITY MsgSelect.label "Položky pre použitie v režime offline">
 <!ENTITY MsgSyncDesc.label "Ak už ste vybrali poštové priečinky alebo diskusné skupiny, môžete ich stiahnuť a/alebo synchronizovať. Inak kliknite na tlačidlo &quot;Vybrať&quot; a vyberte priečinky a skupiny, ktoré chcete používať v režime offline.">
 <!ENTITY MsgSyncDirections.label "Stiahnuť a/alebo synchronizovať:">
-<!ENTITY syncTypeMail.label "E-mailové správy">
+<!ENTITY syncTypeMail.label "E‑mailové správy">
 <!ENTITY syncTypeMail.accesskey "E">
 <!ENTITY syncTypeNews.label "Príspevky diskusných skupín">
 <!ENTITY syncTypeNews.accesskey "d">

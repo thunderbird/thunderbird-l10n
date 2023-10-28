@@ -10,7 +10,7 @@
 
 <!ENTITY signer.name "Podpísal:">
 <!ENTITY recipient.name "Zašifrované pre:">
-<!ENTITY email.address "E-mailová adresa:">
+<!ENTITY email.address "E‑mailová adresa:">
 <!ENTITY issuer.name "Certifikát vydal:">
 
 <!-- LOCALIZATION NOTE(SMIME.label): This a name for a technical standard. You should not translate it, but if applicable, you may write it using localized characters. -->

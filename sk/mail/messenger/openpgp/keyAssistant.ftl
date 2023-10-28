@@ -16,7 +16,7 @@ openpgp-key-assistant-recipients-issue-description =
         [few] Ak chcete šifrovať, musíte získať a prijať použiteľné kľúče pre { $count } príjemcov. <a data-l10n-name="openpgp-link">Ďalšie informácie…</a>
        *[other] Ak chcete šifrovať, musíte získať a prijať použiteľné kľúče pre { $count } príjemcov. <a data-l10n-name="openpgp-link">Ďalšie informácie…</a>
     }
-openpgp-key-assistant-info-alias = { -brand-short-name } zvyčajne vyžaduje, aby verejný kľúč príjemcu obsahoval ID používateľa so zodpovedajúcou e-mailovou adresou. Toto je možné prepísať pomocou pravidiel aliasu príjemcu OpenPGP. <a data-l10n-name="openpgp-link">Ďalšie informácie…</a>
+openpgp-key-assistant-info-alias = { -brand-short-name } zvyčajne vyžaduje, aby verejný kľúč príjemcu obsahoval ID používateľa so zodpovedajúcou e‑mailovou adresou. Toto je možné prepísať pomocou pravidiel aliasu príjemcu OpenPGP. <a data-l10n-name="openpgp-link">Ďalšie informácie…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-description =
@@ -77,7 +77,7 @@ openpgp-key-assistant-key-source =
         [few] Zdroje
        *[other] Zdrojov
     }
-openpgp-key-assistant-key-collected-attachment = e-mailová príloha
+openpgp-key-assistant-key-collected-attachment = e‑mailová príloha
 # Autocrypt is the name of a standard.
 openpgp-key-assistant-key-collected-autocrypt = Hlavička automatického šifrovania
 openpgp-key-assistant-key-collected-keyserver = Kľúčový server
@@ -94,7 +94,7 @@ openpgp-key-assistant-keys-has-collected =
        *[other] Našlo sa viacero kľúčov, ale žiadny z nich zatiaľ nebol akceptovaný.
     }
 openpgp-key-assistant-key-rejected = Tento kľúč bol predtým odmietnutý.
-openpgp-key-assistant-key-accepted-other = Tento kľúč bol predtým akceptovaný pre inú e-mailovú adresu.
+openpgp-key-assistant-key-accepted-other = Tento kľúč bol predtým akceptovaný pre inú e‑mailovú adresu.
 # Variables:
 # $recipient (String) - The email address of the recipient needing resolution.
 openpgp-key-assistant-resolve-discover-info = Vyhľadajte ďalšie alebo aktualizované kľúče pre príjemcu { $recipient } online alebo ich importujte zo súboru.

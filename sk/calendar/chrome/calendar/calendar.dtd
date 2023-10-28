@@ -350,5 +350,5 @@
 <!-- Extract buttons in message header -->
 <!ENTITY calendar.extract.event.button         "Pridať ako udalosť">
 <!ENTITY calendar.extract.task.button          "Pridať ako úlohu">
-<!ENTITY calendar.extract.event.button.tooltip "Extrahuje informácie o termínoch z e-mailovej správy a pridá ich do kalendára ako udalosť">
-<!ENTITY calendar.extract.task.button.tooltip  "Extrahuje informácie o termínoch z e-mailovej správy a pridá ich do kalendára ako úlohu">
+<!ENTITY calendar.extract.event.button.tooltip "Extrahuje informácie o termínoch z e‑mailovej správy a pridá ich do kalendára ako udalosť">
+<!ENTITY calendar.extract.task.button.tooltip  "Extrahuje informácie o termínoch z e‑mailovej správy a pridá ich do kalendára ako úlohu">

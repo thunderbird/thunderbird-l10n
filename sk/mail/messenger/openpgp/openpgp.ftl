@@ -27,38 +27,8 @@ e2e-encrypt-drafts =
     .accesskey = u
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =
-    .label = Odosielať verejný kľúč (kľúče) OpenPGP v hlavičkách e-mailov kvôli kompatibilite so štandardom Autocrypt
+    .label = Odosielať verejný kľúč (kľúče) OpenPGP v hlavičkách e‑mailov kvôli kompatibilite so štandardom Autocrypt
     .accesskey = c
-openpgp-key-user-id-label = Účet / ID používateľa
-openpgp-keygen-title-label =
-    .title = Vytvoriť OpenPGP kľúč
-openpgp-cancel-key =
-    .label = Zrušiť
-    .tooltiptext = Zrušiť vytváranie kľúča
-openpgp-key-gen-expiry-title =
-    .label = Vypršanie platnosti kľúča
-openpgp-key-gen-expire-label = Platnosť kľúča vyprší o
-openpgp-key-gen-days-label =
-    .label = dní
-openpgp-key-gen-months-label =
-    .label = mesiacov
-openpgp-key-gen-years-label =
-    .label = rokov
-openpgp-key-gen-no-expiry-label =
-    .label = Kľúč bez obmedzenej platnosti
-openpgp-key-gen-key-size-label = Veľkosť kľúča
-openpgp-key-gen-console-label = Vytváranie kľúča
-openpgp-key-gen-key-type-label = Typ kľúča
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Eliptická krivka)
-openpgp-generate-key =
-    .label = Vytvoriť kľúč
-    .tooltiptext = Vytvorí nový OpenPGP kľúč pre šifrovanie a/alebo podpisovanie
-openpgp-advanced-prefs-button-label =
-    .label = Pokročilé…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">POZNÁMKA: Dokončenie generovania kľúča môže trvať až niekoľko minút.</a> Počas generovania kľúča neopúšťajte aplikáciu. Aktívne prehliadanie alebo vykonávanie operácií náročných na disk počas generovania kľúča zvýši „náhodnosť“ a urýchli proces. Po dokončení generovania kľúča budete upozornený.
 openpgp-key-created-label =
     .label = Vytvorený
 openpgp-key-expiry-label =
@@ -108,7 +78,7 @@ openpgp-key-man-export-to-file =
     .label = Exportovať verejné kľúče do súboru
     .accesskey = E
 openpgp-key-man-send-keys =
-    .label = Poslať verejné kľúče e-mailom
+    .label = Poslať verejné kľúče e‑mailom
     .accesskey = P
 openpgp-key-man-backup-secret-keys =
     .label = Zálohovať tajné kľúče do súboru
@@ -120,7 +90,7 @@ openpgp-key-man-publish-cmd =
     .label = Publikovať
     .accesskey = P
 openpgp-key-publish = Publikovať
-openpgp-key-man-discover-prompt = Ak chcete vyhľadať kľúče OpenPGP online, na kľúčových serveroch alebo pomocou protokolu WKD, zadajte buď e-mailovú adresu alebo ID kľúča.
+openpgp-key-man-discover-prompt = Ak chcete vyhľadať kľúče OpenPGP online, na kľúčových serveroch alebo pomocou protokolu WKD, zadajte buď e‑mailovú adresu alebo ID kľúča.
 openpgp-key-man-discover-progress = Vyhľadávanie…
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
@@ -138,7 +108,7 @@ openpgp-key-backup-key =
     .label = Zálohovať tajný kľúč do súboru
     .accesskey = h
 openpgp-key-send-key =
-    .label = Poslať verejný kľúč e-mailom
+    .label = Poslať verejný kľúč e‑mailom
     .accesskey = P
 # Variables:
 # $count (Number) - Number of keys ids to copy.
@@ -217,7 +187,7 @@ openpgp-key-man-refresh-online =
     .label = Obnoviť online
     .accesskey = b
 openpgp-key-man-ignored-ids =
-    .label = E-mailové adresy
+    .label = E‑mailové adresy
 openpgp-key-man-del-key =
     .label = Odstrániť kľúč
     .accesskey = d
@@ -263,7 +233,7 @@ openpgp-key-man-select-all-key =
     .key = A
 openpgp-key-man-key-details-key =
     .key = I
-openpgp-ign-addr-intro = Súhlasíte s používaním tohto kľúča pre nasledujúce vybraté e-mailové adresy:
+openpgp-ign-addr-intro = Súhlasíte s používaním tohto kľúča pre nasledujúce vybraté e‑mailové adresy:
 openpgp-key-details-doc-title = Vlastnosti kľúča
 openpgp-key-details-signatures-tab =
     .label = Certifikácie
@@ -415,17 +385,14 @@ key-revoked-simple = Kľúč bol zneplatnený
 key-do-you-accept = Prijímate tento kľúč na overovanie digitálnych podpisov a na šifrovanie správ?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
-key-verification = Overte odtlačok kľúča pomocou zabezpečeného komunikačného kanála iného ako e-mail, aby ste sa uistili, že ide skutočne o kľúč adresáta { $addr }.
+key-verification = Overte odtlačok kľúča pomocou zabezpečeného komunikačného kanála iného ako e‑mail, aby ste sa uistili, že ide skutočne o kľúč adresáta { $addr }.
 
 ## Strings enigmailMsgComposeOverlay.js
 
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Správu sa nepodarilo odoslať, pretože sa vyskytol problém s vašim osobným kľúčom. { $problem }
-cannot-encrypt-because-missing = Túto správu nie je možné odoslať s obojstranným šifrovaním, pretože sa vyskytli problémy s kľúčmi nasledujúcich príjemcov: { $problem }
 window-locked = Okno na napísanie správy je zamknuté; odoslanie zrušené
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Toto je šifrovaná časť správy. Musíte ju otvoriť v samostatnom okne kliknutím na prílohu.
 
 ## Strings in keyserver.jsm
 
@@ -441,10 +408,10 @@ keyserver-error-unsupported = Kľúčový server nie je podporovaný.
 ## Strings in mimeWkdHandler.jsm
 
 wkd-message-body-req =
-    Váš poskytovateľ e-mailu spracoval žiadosť o nahranie vášho verejného kľúča do webového adresára kľúčov OpenPGP.
+    Váš poskytovateľ e‑mailu spracoval žiadosť o nahranie vášho verejného kľúča do webového adresára kľúčov OpenPGP.
     Prosím, potvrďte zverejnenie verejného kľúča.
 wkd-message-body-process =
-    Toto je e-mail súvisiaci s automatickým spracovaním na nahranie vášho verejného kľúča do webového adresára kľúčov OpenPGP.
+    Toto je e‑mail súvisiaci s automatickým spracovaním na nahranie vášho verejného kľúča do webového adresára kľúčov OpenPGP.
     V tomto kroku nemusíte robiť nič.
 
 ## Strings in persistentCrypto.jsm
@@ -472,7 +439,7 @@ filter-key-not-found = Nepodarilo sa nájsť šifrovací kľúč pre '{ $desc }'
 # $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Upozornenie - akcia filtra “Šifrovať kľúčom” nahradí príjemcov.
-    Ak nemáte tajný kľúč pre '{ $desc }', nebudete si už môcť prečítať e-maily.
+    Ak nemáte tajný kľúč pre '{ $desc }', nebudete si už môcť prečítať e‑maily.
 
 ## Strings filtersWrapper.jsm
 
@@ -581,9 +548,9 @@ key-man-button-revoke-key = &Zneplatniť kľúč
 openpgp-key-revoke-success = Kľúč bol úspešne zneplatnený.
 after-revoke-info =
     Kľúč bol zneplatnený.
-    Dajte tento verejný kľúč zdieľať opäť jeho odoslaním e-mailom alebo jeho odovzdaním na servery s kľúčmi, aby ostatní vedeli, že ste kľúč zneplatnili.
+    Dajte tento verejný kľúč zdieľať opäť jeho odoslaním e‑mailom alebo jeho odovzdaním na servery s kľúčmi, aby ostatní vedeli, že ste kľúč zneplatnili.
     Akonáhle sa softvér používaný inými ľuďmi dozvie o zneplatnení, prestane používať váš starý kľúč.
-    Ak používate nový kľúč pre rovnakú e-mailovú adresu a k odosielaným e-mailom pripájate nový verejný kľúč, automaticky sa zahrnú informácie o vašom zneplatnenom starom kľúči.
+    Ak používate nový kľúč pre rovnakú e‑mailovú adresu a k odosielaným e‑mailom pripájate nový verejný kľúč, automaticky sa zahrnú informácie o vašom zneplatnenom starom kľúči.
 
 ## Strings in keyRing.jsm & decryption.jsm
 
@@ -599,7 +566,7 @@ revoke-key-in-use-description = Nie je možné pokračovať! Kľúč, ktorý ste
 
 # Variables:
 # $keySpec (String) - Email address.
-key-error-key-spec-not-found = E-mailová adresa ‘{ $keySpec }’ sa nezhoduje s kľúčom na vašom zväzku kľúčov.
+key-error-key-spec-not-found = E‑mailová adresa ‘{ $keySpec }’ sa nezhoduje s kľúčom na vašom zväzku kľúčov.
 # $keySpec (String) - Key id.
 key-error-key-id-not-found = Nastavené ID kľúča '{ $keySpec }' sa nenachádza na vašom zväzku kľúčov.
 # $keySpec (String) - Key id.
@@ -649,7 +616,6 @@ import-key-file = Importovať súbor kľúča OpenPGP
 import-rev-file = Importovať súbor zneplatnenia OpenPGP
 gnupg-file = Súbory GnuPG
 import-keys-failed = Importovanie kľúčov zlyhalo
-passphrase-prompt = Zadajte prístupovú frázu, ktorá odomkne nasledujúci kľúč: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
@@ -726,7 +692,7 @@ msg-compose-partially-encrypted-inlinePGP =
     Správa, na ktorú odpovedáte, obsahovala nešifrované aj šifrované časti. Ak odosielateľ pôvodne nebol schopný dešifrovať niektoré časti správy, možno mu poskytnete dôverné informácie, ktoré odosielateľ sám nedokázal dešifrovať.
     Zvážte odstránenie všetkého citovaného textu z vašej odpovede tomuto odosielateľovi.
 msg-compose-cannot-save-draft = Chyba pri ukladaní konceptu
-msg-compose-partially-encrypted-short = Pozor na únik citlivých informácií - čiastočne šifrovaný e-mail.
+msg-compose-partially-encrypted-short = Pozor na únik citlivých informácií - čiastočne šifrovaný e‑mail.
 quoted-printable-warn =
     Pre odosielanie správ ste povolili kódovanie 'quoted-printable'. Môže to mať za následok nesprávne dešifrovanie a / alebo overenie vašej správy.
     Prajete si teraz vypnúť odosielanie správ určených pre tlač?
@@ -739,7 +705,7 @@ sending-news =
     Operácia šifrovaného odoslania bola prerušená.
     Túto správu nie je možné zašifrovať, pretože medzi príjemcami sa nachádzajú aj diskusné skupiny. Správu odošlite znova bez šifrovania.
 send-to-news-warning =
-    Upozornenie: Chystáte sa odoslať zašifrovaný e-mail do diskusnej skupiny.
+    Upozornenie: Chystáte sa odoslať zašifrovaný e‑mail do diskusnej skupiny.
     To sa neodporúča, pretože to má zmysel, iba ak správu môžu dešifrovať všetci členovia skupiny, t. j. správa musí byť zašifrovaná kľúčmi všetkých účastníkov skupiny. Túto správu odošlite, iba ak presne viete, čo robíte.
     Pokračovať?
 save-attachment-header = Uložiť dešifrovanú prílohu
@@ -766,7 +732,7 @@ cant-import = Chyba pri importovaní verejného kľúča
 unverified-reply = Odsadená časť správy (odpoveď) bola pravdepodobne upravená
 key-in-message-body = V tele správy sa našiel kľúč. Kliknutím na tlačidlo "Importovať kľúč" ho naimportujete
 sig-mismatch = Chyba - nesúlad podpisov
-invalid-email = Chyba - neplatná e-mailová adresa (adresy)
+invalid-email = Chyba - neplatná e‑mailová adresa (adresy)
 # Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
@@ -776,7 +742,7 @@ dlg-button-view = &Zobraziť
 
 ## Strings used in enigmailMsgHdrViewOverlay.js
 
-decrypted-msg-with-format-error = Dešifrovaná správa (obnovený nefunkčný formát e-mailu PGP pravdepodobne spôsobený starým serverom Exchange, takže výsledok nemusí byť dokonalý na prečítanie)
+decrypted-msg-with-format-error = Dešifrovaná správa (obnovený nefunkčný formát e‑mailu PGP pravdepodobne spôsobený starým serverom Exchange, takže výsledok nemusí byť dokonalý na prečítanie)
 
 ## Strings used in encryption.jsm
 

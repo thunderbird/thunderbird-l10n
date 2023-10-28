@@ -16,10 +16,8 @@ openpgp-one-recipient-status-open-details =
     .label = Otvoriť podrobnosti a upraviť prijatie…
 openpgp-one-recipient-status-discover =
     .label = Vyhľadať nový alebo aktualizovaný kľúč
-
 openpgp-one-recipient-status-instruction1 = Ak chcete príjemcovi odoslať obojstranne šifrovanú správu, musíte získať jeho verejný kľúč OpenPGP a označiť ho ako prijatý.
-openpgp-one-recipient-status-instruction2 = Ak chcete získať ich verejný kľúč, importujte ich z e-mailu, ktorý vám poslali a zároveň ho obsahuje. Prípadne sa môžete pokúsiť vyhľadať ich verejný kľúč v adresári.
-
+openpgp-one-recipient-status-instruction2 = Ak chcete získať ich verejný kľúč, importujte ich z e‑mailu, ktorý vám poslali a zároveň ho obsahuje. Prípadne sa môžete pokúsiť vyhľadať ich verejný kľúč v adresári.
 openpgp-key-own = Prijatý (osobný kľúč)
 openpgp-key-secret-not-personal = Nepoužiteľné
 openpgp-key-verified = Prijatý (overený)
@@ -27,26 +25,31 @@ openpgp-key-unverified = Prijatý (neoverený)
 openpgp-key-undecided = Neprijatý (nerozhodnutý)
 openpgp-key-rejected = Neprijatý (zamietnutý)
 openpgp-key-expired = Platnosť skončila
-
+# Variables:
+# $key (String) - Recipient email address.
 openpgp-intro = Dostupné verejné kľúče pre { $key }
-
+# Variables:
+# $kid (String) - Public key id to import.
 openpgp-pubkey-import-id = ID: { $kid }
+# Variables:
+# $fpr (String) - Fingerprint of the public key to import.
 openpgp-pubkey-import-fpr = Odtlačok: { $fpr }
-
+# Variables:
+# $num (Number) - Number of public keys contained in the key file.
 openpgp-pubkey-import-intro =
     { $num ->
         [one] Súbor obsahuje jeden verejný kľúč, ako je uvedené nižšie:
         [few] Súbor obsahuje { $num } verejné kľúče, ako je uvedené nižšie:
        *[other] Súbor obsahuje { $num } verejných kľúčov, ako je uvedené nižšie:
     }
-
+# Variables:
+# $num (Number) - Number of keys to accept.
 openpgp-pubkey-import-accept =
     { $num ->
-        [one] Prijímate tento kľúč na overovanie digitálnych podpisov a na šifrovanie správ pre všetky zobrazené e-mailové adresy?
-        [few] Prijímate tieto kľúče na overovanie digitálnych podpisov a na šifrovanie správ pre všetky zobrazené e-mailové adresy?
-       *[other] Prijímate tieto kľúče na overovanie digitálnych podpisov a na šifrovanie správ pre všetky zobrazené e-mailové adresy?
+        [one] Prijímate tento kľúč na overovanie digitálnych podpisov a na šifrovanie správ pre všetky zobrazené e‑mailové adresy?
+        [few] Prijímate tieto kľúče na overovanie digitálnych podpisov a na šifrovanie správ pre všetky zobrazené e‑mailové adresy?
+       *[other] Prijímate tieto kľúče na overovanie digitálnych podpisov a na šifrovanie správ pre všetky zobrazené e‑mailové adresy?
     }
-
 pubkey-import-button =
     .buttonlabelaccept = Importovať
     .buttonaccesskeyaccept = I

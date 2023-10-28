@@ -5,13 +5,10 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Pridať osobný kľúč OpenPGP pre { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Pokračovať
-    .buttonlabelhelp = Prejsť späť
 key-wizard-dialog =
     .buttonlabelaccept = Pokračovať
     .buttonlabelextra1 = Naspäť
-key-wizard-warning = <b>Ak pre túto e-mailovú adresu máte existujúci osobný kľúč</b>, mali by ste ho importovať. V opačnom prípade nebudete mať prístup do svojich archívov zašifrovaných e-mailov ani nebudete môcť prečítať prichádzajúce zašifrované e-maily od ľudí, ktorí stále používajú váš existujúci kľúč.
+key-wizard-warning = <b>Ak pre túto e‑mailovú adresu máte existujúci osobný kľúč</b>, mali by ste ho importovať. V opačnom prípade nebudete mať prístup do svojich archívov zašifrovaných e‑mailov ani nebudete môcť prečítať prichádzajúce zašifrované e‑maily od ľudí, ktorí stále používajú váš existujúci kľúč.
 key-wizard-learn-more = Ďalšie informácie
 radio-create-key =
     .label = Vytvoriť nový kľúč OpenPGP
@@ -66,7 +63,7 @@ openpgp-keygen-progress-title = Generuje sa váš nový kľúč OpenPGP…
 openpgp-keygen-import-progress-title = Importujú sa vaše kľúče OpenPGP…
 openpgp-import-success = Kľúče OpenPGP sa úspešne importovali.
 openpgp-import-success-title = Dokončenie procesu importu
-openpgp-import-success-description = Ak chcete začať používať svoj importovaný kľúč OpenPGP na šifrovanie e-mailov, zavrite toto dialógové okno a vyberte ho v nastaveniach účtu.
+openpgp-import-success-description = Ak chcete začať používať svoj importovaný kľúč OpenPGP na šifrovanie e‑mailov, zavrite toto dialógové okno a vyberte ho v nastaveniach účtu.
 openpgp-keygen-confirm =
     .label = Potvrdiť
 openpgp-keygen-dismiss =
@@ -107,8 +104,6 @@ openpgp-import-key-list-caption = Kľúče označené ako osobné kľúče budú
 openpgp-import-keep-passphrases =
     .label = Ponechať ochranu prístupovou frázou pre importované tajné kľúče
 openpgp-passphrase-prompt-title = Vyžaduje sa prístupová fráza
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Zadajte prístupovú frázu a odomknite nasledujúci kľúč: { $key }
 openpgp-import-key-button =
     .label = Zvoľte súbor, ktorý chcete importovať…
     .accesskey = Z

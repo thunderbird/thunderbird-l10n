@@ -37,14 +37,14 @@
      lightning.calendarproperties.forceEmailScheduling.label)
      These strings are used in the calendar wizard and the calendar properties dialog, but are only
      displayed when setting/using a caldav calendar -->
-<!ENTITY lightning.calendarproperties.email.label                           "E-mail:">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.label            "Uprednostniť plánovanie e-mailov na strane klienta">
+<!ENTITY lightning.calendarproperties.email.label                           "E‑mail:">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label            "Uprednostniť plánovanie e‑mailov na strane klienta">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Toto môžete povoliť len po nastavení vlastností kalendára a ak kalendárový server podporuje plánovanie.">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Táto možnosť je dostupná iba ak kalendárový server podporuje plánovanie. Povolenie tejto možnosti umožní použiť štandardné plánovanie pomocou e-mailov namiesto servera.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Táto možnosť je dostupná iba ak kalendárový server podporuje plánovanie. Povolenie tejto možnosti umožní použiť štandardné plánovanie pomocou e‑mailov namiesto servera.">
 
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label                   "Upozornenia">
@@ -92,10 +92,6 @@
 <!ENTITY lightning.imipbar.btnDontSend.label                                "Neodoslať odpoveď">
 <!ENTITY lightning.imipbar.btnDontSend.tooltiptext                          "Zmení stav vašej účasti bez odoslania odpovede organizátorovi">
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Zmení stav vašej účasti pre celú sériu bez odoslania odpovede organizátorovi">
-
-<!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 
 <!-- Lightning specific keybindings -->
 <!ENTITY lightning.keys.event.new "U">

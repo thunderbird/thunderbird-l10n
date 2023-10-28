@@ -21,8 +21,8 @@ account-hub-donate = Prispieť
 
 ## Initial setup page
 
-account-hub-email-setup-button = E-mailový účet
-    .title = Nastaviť e-mailový účet
+account-hub-email-setup-button = E‑mailový účet
+    .title = Nastaviť e‑mailový účet
 account-hub-calendar-setup-button = Kalendár
     .title = Nastaviť lokálny alebo vzdialený kalendár
 account-hub-address-book-setup-button = Adresár
@@ -40,7 +40,7 @@ account-hub-sync-button = Prihlásiť sa a synchronizovať…
 
 ## Email page
 
-account-hub-email-title = Nastavenie e-mailového účtu
+account-hub-email-title = Nastavenie e‑mailového účtu
 account-hub-add-email-title = Pridajte svoj účet
 account-hub-manually-configure-email-title = Nastaviť konfiguráciu účtu
 account-hub-email-cancel-button = Zrušiť

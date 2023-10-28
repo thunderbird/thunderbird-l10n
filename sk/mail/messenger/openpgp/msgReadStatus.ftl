@@ -19,24 +19,40 @@ openpgp-view-your-encryption-key =
     .label = Zobraziť dešifrovací kľúč
 openpgp-openpgp = OpenPGP
 openpgp-no-sig = Žiadny digitálny podpis
-openpgp-no-sig-info = Táto správa neobsahuje digitálny podpis odosielateľa. Keďže tento podpis chýba, mohol túto správu odoslať ktokoľvek, kto pozná danú e-mailovú adresu. Je tiež možné, že správa bola pozmenená počas cesty v sieti.
+openpgp-no-sig-info = Táto správa neobsahuje digitálny podpis odosielateľa. Keďže tento podpis chýba, mohol túto správu odoslať ktokoľvek, kto pozná danú e‑mailovú adresu. Je tiež možné, že správa bola pozmenená počas cesty v sieti.
 openpgp-uncertain-sig = Pochybný digitálny podpis
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-uncertain-sig-with-date = Pochybný digitálny podpis – podpísané dňa { $date }
 openpgp-invalid-sig = Neplatný digitálny podpis
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Neplatný digitálny podpis – podpísané dňa { $date }
 openpgp-good-sig = Dobrý digitálny podpis
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Dobrý digitálny podpis – podpísané dňa { $date }
 openpgp-sig-uncertain-no-key = Táto správa obsahuje digitálny podpis, ale nie je isté, či je správny. Na overenie podpisu musíte získať kópiu verejného kľúča odosielateľa.
-openpgp-sig-uncertain-uid-mismatch = Táto správa obsahuje digitálny podpis, ale zistil sa nesúlad. Správa bola odoslaná z e-mailovej adresy, ktorá sa nezhoduje s verejným kľúčom podpisovateľa.
+openpgp-sig-uncertain-uid-mismatch = Táto správa obsahuje digitálny podpis, ale zistil sa nesúlad. Správa bola odoslaná z e‑mailovej adresy, ktorá sa nezhoduje s verejným kľúčom podpisovateľa.
 openpgp-sig-uncertain-not-accepted = Táto správa obsahuje digitálny podpis, ale ešte ste sa nerozhodli, či je podpisový kľúč odosielateľa pre vás prijateľný.
 openpgp-sig-invalid-rejected = Táto správa obsahuje digitálny podpis, ale predtým ste sa rozhodli odmietnuť podpisový kľúč.
 openpgp-sig-invalid-technical-problem = Táto správa obsahuje digitálny podpis, ale bola zistená technická chyba. Buď bola správa poškodená, alebo ju upravil niekto iný.
 openpgp-sig-valid-unverified = Táto správa obsahuje platný digitálny podpis z kľúča, ktorý ste už prijali. Zatiaľ ste však neoverili, že kľúč skutočne vlastní odosielateľ.
 openpgp-sig-valid-verified = Táto správa obsahuje platný digitálny podpis z overeného kľúča.
 openpgp-sig-valid-own-key = Táto správa obsahuje platný digitálny podpis z vášho osobného kľúča.
+# Variables:
+# $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = ID podpisového kľúča: { $key }
+# Variables:
+# $key (String) - The primary ID of the OpenPGP key used to create the signature.
+# $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
 openpgp-sig-key-id-with-subkey-id = ID podpisového kľúča: { $key } (ID podkľúča: { $subkey })
+# Variables:
+# $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = ID vášho dešifrovacieho kľúča: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = ID vášho dešifrovacieho kľúča: { $key } (ID podkľúča: { $subkey })
 openpgp-enc-none = Správa nie je zašifrovaná
 openpgp-enc-none-label = Táto správa nebola pred odoslaním zašifrovaná. Informácie posielané cez internet bez šifrovania môžu byť počas prenosu sledované inými osobami.

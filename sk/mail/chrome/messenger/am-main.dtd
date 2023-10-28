@@ -11,7 +11,7 @@
 <!ENTITY identityDesc.label "Každý účet má vlastnú identitu, čo sú vlastne informácie o vás, ktoré uvidia príjemcovia vašich správ.">
 <!ENTITY name.label "Vaše meno:">
 <!ENTITY name.accesskey "V">
-<!ENTITY email.label "E-mailová adresa:">
+<!ENTITY email.label "E‑mailová adresa:">
 <!ENTITY email.accesskey "E">
 <!ENTITY catchAll.label "Odpovedať z tejto identity ak sa hlavička zhoduje:">
 <!ENTITY catchAll.accesskey "d">

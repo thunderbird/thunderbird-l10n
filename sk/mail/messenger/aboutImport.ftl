@@ -87,7 +87,7 @@ items-pane-profile-name = Názov profilu:
 items-pane-checkbox-accounts = Účty a nastavenia
 items-pane-checkbox-address-books = Adresáre
 items-pane-checkbox-calendars = Kalendáre
-items-pane-checkbox-mail-messages = E-mailové správy
+items-pane-checkbox-mail-messages = E‑mailové správy
 items-pane-override = Žiadne existujúce alebo identické údaje nebudú prepísané.
 
 ## Import from address book file steps

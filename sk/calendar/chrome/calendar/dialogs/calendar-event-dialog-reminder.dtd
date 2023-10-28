@@ -12,7 +12,7 @@
 <!ENTITY reminder.action.label                             "Vyberte akciu pripomienky">
 
 <!ENTITY reminder.action.alert.label                       "Zobraziť upozornenie">
-<!ENTITY reminder.action.email.label                       "Odoslať e-mail">
+<!ENTITY reminder.action.email.label                       "Odoslať e‑mail">
 
 <!ENTITY alarm.units.minutes                               "minút" >
 <!ENTITY alarm.units.hours                                 "hodín" >

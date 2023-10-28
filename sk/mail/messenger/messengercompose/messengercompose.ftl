@@ -44,7 +44,7 @@ pill-aria-label =
        *[other] { $email }, 1 z { $count }: stlačte Enter pre úpravu, Delete pre vymazanie.
     }
 #   $email (String) - the email address
-pill-tooltip-invalid-address = { $email } nie je platnou e-mailovou adresou
+pill-tooltip-invalid-address = { $email } nie je platnou e‑mailovou adresou
 #   $email (String) - the email address
 pill-tooltip-not-in-address-book = { $email } sa nenachádza vo vašom adresári
 pill-action-edit =
@@ -189,10 +189,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Správca kľúčov
     .accesskey = S
-openpgp-key-issue-notification-one = Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre { $addr }
-openpgp-key-issue-notification-many = Obojstranné šifrovanie vyžaduje vyriešenie problémov s kľúčom pre niekoľkých príjemcov (celkom { $count }).
-smime-cert-issue-notification-one = Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre { $addr }.
-smime-cert-issue-notification-many = Obojstranné šifrovanie vyžaduje vyriešenie problémov s certifikátom pre niekoľkých príjemcov (celkom { $count }).
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -284,13 +280,6 @@ show-bcc-row-button = Skrytá kópia
     .title = Zobraziť pole Skrytá kópia ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Ostatné polia s adresou, ktoré sa majú zobraziť
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Vaša správa má viditeľného príjemcu. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
-        [few] Príjemcovia (celkom { $count }) v poliach Komu a Kópia si navzájom uvidia adresy. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
-       *[other] Príjemcovia (celkom { $count }) v poliach Komu a Kópia si navzájom uvidia adresy. Zverejňovaniu príjemcov sa môžete vyhnúť použitím Skrytej kópie.
-    }
 public-recipients-notice-single = Vaša správa má verejného príjemcu. Prezradeniu príjemcu sa môžete vyhnúť tak, že použijete skrytú kópiu.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.

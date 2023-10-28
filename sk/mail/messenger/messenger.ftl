@@ -232,6 +232,9 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
+
+## Message header customize panel
+
 message-header-customize-panel-title = Nastavenia hlavičky správy
 message-header-customize-button-style =
     .value = Štýl tlačidiel
@@ -245,7 +248,7 @@ message-header-button-style-icons =
 message-header-show-sender-full-address =
     .label = Vždy zobrazovať celú adresu odosielateľa
     .accesskey = c
-message-header-show-sender-full-address-description = E-mailová adresa sa zobrazí pod zobrazovaným menom.
+message-header-show-sender-full-address-description = E‑mailová adresa sa zobrazí pod zobrazovaným menom.
 message-header-show-recipient-avatar =
     .label = Zobraziť profilovú fotku odosielateľa
     .accesskey = f
@@ -401,7 +404,7 @@ quick-filter-bar-toggle =
     .label = Rýchly filter
     .accesskey = R
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

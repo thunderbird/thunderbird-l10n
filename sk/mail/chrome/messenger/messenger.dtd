@@ -87,20 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Odstrániť správu">
-<!ENTITY deleteMsgCmd.accesskey "O">
-<!ENTITY undeleteMsgCmd.label "Obnoviť správu">
-<!ENTITY undeleteMsgCmd.accesskey "O">
-<!ENTITY deleteMsgsCmd.label "Odstrániť označené správy">
-<!ENTITY deleteMsgsCmd.accesskey "O">
-<!ENTITY undeleteMsgsCmd.label "Obnoviť označené správy">
-<!ENTITY undeleteMsgsCmd.accesskey "O">
-<!ENTITY deleteFolderCmd.label "Odstrániť priečinok">
-<!ENTITY deleteFolderCmd.accesskey "d">
-<!ENTITY unsubscribeNewsgroupCmd.label "Odhlásiť">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "d">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Vybrať">
 <!ENTITY selectMenu.accesskey "b">
 <!ENTITY all.label "Všetky">
@@ -112,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "h">
 <!ENTITY menuFavoriteFolder.label "Priečinok Obľúbené">
 <!ENTITY menuFavoriteFolder.accesskey "b">
-<!ENTITY folderPropsCmd2.label "Vlastnosti">
-<!ENTITY folderPropsFolderCmd2.label "Vlastnosti priečinka">
-<!ENTITY folderPropsNewsgroupCmd2.label "Vlastnosti diskusnej skupiny">
-<!ENTITY folderPropsCmd.accesskey "l">
 <!ENTITY undoDeleteMsgCmd.label "Obnoviť odstránenú správu">
 <!ENTITY redoDeleteMsgCmd.label "Znovu odstrániť správu">
 <!ENTITY undoMoveMsgCmd.label "Späť presunúť správu">
@@ -147,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "Z">
 <!ENTITY showFolderPaneCmd.label "Panel priečinkov">
 <!ENTITY showFolderPaneCmd.accesskey "a">
-<!ENTITY showFolderPaneColsCmd.label "Stĺpce panela priečinkov">
-<!ENTITY showFolderPaneColsCmd.accesskey "S">
 <!ENTITY showMessageCmd.label "Panel správy">
 <!ENTITY showMessageCmd.accesskey "P">
 
@@ -539,7 +519,7 @@
 <!ENTITY chatButton.label "Konverzácie">
 <!ENTITY glodaSearch.title "Globálne vyhľadávanie">
 <!ENTITY searchItem.title "Rýchle vyhľadávanie">
-<!ENTITY mailViewsToolbarItem.title "Zobrazenie e-mailov">
+<!ENTITY mailViewsToolbarItem.title "Zobrazenie e‑mailov">
 <!ENTITY folderLocationToolbarItem.title "Umiestnenie priečinka">
 <!ENTITY tagButton.label "Štítky">
 <!ENTITY compactButton.label "Vykonať údržbu">
@@ -598,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nová správa">
 <!ENTITY appmenuNewContactCmd.label "Kontakt adresára…">
-<!ENTITY appmenuEditMenu.label "Úpravy">
 <!ENTITY appmenuToolbarLayout.label "Rozloženie panela nástrojov…">
-<!ENTITY appmenuSelectThread.label "Vybrať vlákno">
-<!ENTITY appmenuSelectFlagged.label "Vybrať správy označené hviezdičkou">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nový štítok…">
@@ -878,9 +855,9 @@
 <!ENTITY SubscribeToNewsgroup.accesskey "P">
 <!ENTITY SendMessageTo.label "Odoslať správu">
 <!ENTITY SendMessageTo.accesskey "s">
-<!ENTITY CopyEmailAddress.label "Kopírovať e-mailovú adresu">
+<!ENTITY CopyEmailAddress.label "Kopírovať e‑mailovú adresu">
 <!ENTITY CopyEmailAddress.accesskey "K">
-<!ENTITY CopyNameAndEmailAddress.label "Kopírovať meno a e-mailovú adresu">
+<!ENTITY CopyNameAndEmailAddress.label "Kopírovať meno a e‑mailovú adresu">
 <!ENTITY CopyNameAndEmailAddress.accesskey "m">
 <!ENTITY CopyNewsgroupName.label "Kopírovať názov diskusnej skupiny">
 <!ENTITY CopyNewsgroupName.accesskey "K">
@@ -888,7 +865,7 @@
 <!ENTITY CopyNewsgroupURL.accesskey "a">
 <!ENTITY CreateFilterFrom.label "Vytvoriť filter z…">
 <!ENTITY CreateFilterFrom.accesskey "f">
-<!ENTITY reportPhishingURL.label "Nahlásiť podozrivý e-mail">
+<!ENTITY reportPhishingURL.label "Nahlásiť podozrivý e‑mail">
 <!ENTITY reportPhishingURL.accesskey "N">
 
 <!-- Spell checker context menu items -->
@@ -904,12 +881,8 @@
 <!ENTITY copyLinkCmd.accesskey "d">
 <!ENTITY copyImageAllCmd.label "Kopírovať obrázok">
 <!ENTITY copyImageAllCmd.accesskey "o">
-<!ENTITY copyEmailCmd.label "Kopírovať e-mailovú adresu">
+<!ENTITY copyEmailCmd.label "Kopírovať e‑mailovú adresu">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Zastaviť">
-<!ENTITY stopCmd.accesskey "Z">
-<!ENTITY reloadCmd.label "Obnoviť">
-<!ENTITY reloadCmd.accesskey "O">
 <!ENTITY openInBrowser.label "Otvoriť v prehliadači">
 <!ENTITY openInBrowser.accesskey "h">
 <!ENTITY openLinkInBrowser.label "Otvoriť odkaz v prehliadači">
@@ -939,7 +912,7 @@
 
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "Nastavenia ikony aplikácie…">
-<!ENTITY writeNewMessageDock.label      "Nová e-mailová správa">
+<!ENTITY writeNewMessageDock.label      "Nová e‑mailová správa">
 <!ENTITY openAddressBookDock.label      "Otvoriť adresár">
 
 <!-- Content tab Navigation buttons -->

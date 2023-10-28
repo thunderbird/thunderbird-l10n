@@ -5,7 +5,7 @@
 <!ENTITY e2eTitle.label "Obojstranné šifrovanie">
 <!ENTITY e2eLearnMore.label "Ďalšie informácie">
 
-<!ENTITY e2eEnc.description "Bez obojstranného šifrovania bude obsah správ ľahko vystavený vášmu poskytovateľovi e-mailov a hromadnému sledovaniu.">
+<!ENTITY e2eEnc.description "Bez obojstranného šifrovania bude obsah správ ľahko vystavený vášmu poskytovateľovi e‑mailov a hromadnému sledovaniu.">
 
 <!ENTITY e2eTechPref.description "Uprednostnená technológia šifrovania:">
 

@@ -18,7 +18,7 @@ flatpak-desktop-generic-name = Poštový klient
 ## window to write a message. Visible in a context menu after right clicking a
 ## Thunderbird taskbar icon, possibly other places depending on the environment.
 
-flatpak-desktop-action-compose = Nová e-mailová správa
+flatpak-desktop-action-compose = Nová e‑mailová správa
 flatpak-desktop-action-addressbook = Otvoriť adresár
 flatpak-desktop-action-calendar = Otvoriť Kalendár
 flatpak-desktop-action-keymanager = Otvoriť správcu kľúčov OpenPGP

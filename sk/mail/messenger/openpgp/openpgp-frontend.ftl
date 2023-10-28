@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Overiť podpis
     .accesskey = O
 openpgp-has-sender-key = Táto správa údajne obsahuje OpenPGP verejný kľúč odosielateľa.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Upozornenie: Nový verejný kľúč OpenPGP v tejto správe sa líši od verejných kľúčov, ktoré ste predtým prijali pre { $email }.
 openpgp-import-sender-key =
     .label = Importovať…
@@ -49,4 +51,4 @@ openpgp-partially-encrypted =
 openpgp-reminder-partial-display = Pripomienka: Správa uvedená nižšie je iba časťou pôvodnej správy.
 openpgp-partial-verify-button = Overiť
 openpgp-partial-decrypt-button = Dešifrovať
-openpgp-unexpected-key-for-you = Upozornenie: Táto správa obsahuje neznámy kľúč OpenPGP, ktorý odkazuje na jednu z vašich vlastných e-mailových adries. Ak toto nie je jeden z vašich vlastných kľúčov, môže ísť o pokus oklamať iných korešpondentov.
+openpgp-unexpected-key-for-you = Upozornenie: Táto správa obsahuje neznámy kľúč OpenPGP, ktorý odkazuje na jednu z vašich vlastných e‑mailových adries. Ak toto nie je jeden z vašich vlastných kľúčov, môže ísť o pokus oklamať iných korešpondentov.
