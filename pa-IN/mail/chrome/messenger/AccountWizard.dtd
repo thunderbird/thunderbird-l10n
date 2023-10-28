@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "ਅਕਾਊਂਟ ਸਹਾਇਕ">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -17,8 +14,8 @@
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "ਨਾਂ ਭਰੋ, ਜੋ ਕਿ ਤੁਸੀਂ ਬਾਹਰ ਜਾਣ ਵਾਲੇ ਸੁਨੇਹਿਆਂ ਦੇ &quot;ਵਲੋਂ(From)&quot; ਖੇਤਰ ਵਿੱਚ ਦੇਣਾ ਚਾਹੁੰਦੇ ਹੋ">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
-	1, do not translate two of "&quot;"
-	2, Use localized full name instead of "John Smith"
+  1, do not translate two of "&quot;"
+  2, Use localized full name instead of "John Smith"
 -->
 <!ENTITY fullnameExample.label "(ਉਦਾਹਰਨ ਲਈ, &quot;ਜਰਨੈਲ ਸਿੰਘ &quot;)">
 <!ENTITY fullnameLabel.label "ਤੁਹਾਡਾ ਨਾਂ:">
@@ -29,24 +26,12 @@
 
 <!-- Entities for Incoming Server page -->
 
-<!-- Entities for Server page -->
 <!ENTITY incomingTitle.label "Incoming Server Information">
-
-<!-- for when the user has an SMTP server pre-configured -->
-<!-- LOCALIZATION NOTE (currentSmtpBefore.label) : Do not translate "SMTP" and "&quot;" in
-     this variable. Also, translate currentSmtpBefore.label and currentSmtpAfter.label as a single sentence,
-	  inserting text after the "&quot;" entity in currentSmtpAfter.label, if required grammatically
--->
-<!ENTITY incomingUsername.label "User Name:">
+<!ENTITY incomingUsername.label "ਵਰਤੋਂਕਾਰ ਨਾਂ:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "ਆਪਣੇ ਖਬਰ ਸਰਵਰ ਦਾ ਨਾਂ ਦਿਉ (NNTP) (ਉਦਾਹਰਨ ਲਈ, &quot;news.example.net&quot;)">
-
 <!ENTITY newsServerLabel.label "ਨਿਊਜ਼ਗਰੁੱਪ ਸਰਵਰ:">
 <!ENTITY newsServerLabel.accesskey "N">
-
-
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 
@@ -63,4 +48,3 @@
 <!ENTITY newsServerNamePrefix.label "ਖਬਰਸਾਰ ਸਰਵਰ ਨਾਂ (NNTP):">
 <!ENTITY clickFinish.label "ਮੁਕੰਮਲ ਨੂੰ ਸੈਟਿੰਗ ਸੰਭਾਲਣ ਅਤੇ ਅਕਾਊਂਟ ਸਹਾਇਕ ਨੂੰ ਬੰਦ ਕਰਨ ਲਈ ਇਸਤੇਮਾਲ ਕਰੋ">
 <!ENTITY clickFinish.labelMac "ਇਹ ਸੈਟਿੰਗ ਸੰਭਾਲਣ ਅਤੇ ਅਕਾਊਂਟ ਸਹਾਇਕ ਨੂੰ ਬੰਦ ਕਰਨ ਵਾਸਤੇ ਮੁਕੰਮਲ ਨੂੰ ਕਲਿੱਕ ਕਰੋ।">
-
