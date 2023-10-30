@@ -145,7 +145,7 @@ quick-filter-bar-search-placeholder-with-key = Hidlo negeseuon… { quick-filter
 # Label of the search button in the quick filter bar text box. Clicking it will
 # launch a global search.
 quick-filter-bar-search-button =
-    .alt = Chwiliwch ym mhobman
+    .alt = Chwilio ym mhobman
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Modd hidlo tagiau
