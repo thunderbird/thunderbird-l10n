@@ -194,6 +194,13 @@ about-addressbook-placeholder-no-search-results = Ez da kontakturik aurkitu
 ## Details
 
 # Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] Helbide liburu sarrera { $count } hautatua
+       *[other] { $count } helbide liburu sarrera hautatuak
+    }
+# Variables:
 # $count (Number) - The number of selected contacts
 about-addressbook-selection-contacts-header2 =
     { $count ->

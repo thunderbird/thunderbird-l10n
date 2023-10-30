@@ -224,6 +224,9 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
+
+## Message header customize panel
+
 message-header-customize-panel-title = Mezu goiburuaren ezarpenak
 message-header-customize-button-style =
     .value = Botoien estiloa
@@ -289,6 +292,14 @@ no-reply-reply-anyway-button = Erantzun hala ere
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $total }(e)tik { $failures } mezu ezin izan dira deszifratu eta ez da kopiatuko.
+       *[other] { $total }(e)tik { $failures } mezu ezin izan dira deszifratu eta ez dira kopiatuko.
+    }
 
 ## Spaces toolbar
 
@@ -382,7 +393,7 @@ quick-filter-bar-toggle =
     .label = Iragazki bizkorren barra
     .accesskey = b
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
