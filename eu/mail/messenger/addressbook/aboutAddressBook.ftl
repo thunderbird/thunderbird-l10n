@@ -153,6 +153,10 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Kendu kontaktuak
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Ziur zaude{ $name } kendu nahi duzula { $list }(e)tik?
+# Variables:
 # $count (Number) - The number of contacts to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-multi =
@@ -170,6 +174,13 @@ about-addressbook-confirm-delete-contacts-title =
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Ziur zaude { $name }kontaktua ezabatu nahi duzula?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Ziur zaude { $name } kontaktua ezabatu nahi duzula?
+       *[other] Ziur zaude { $name } kontaktu hauek ezabatu nahi dituzula?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
