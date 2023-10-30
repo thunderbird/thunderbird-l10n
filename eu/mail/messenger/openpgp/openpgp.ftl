@@ -289,6 +289,10 @@ openpgp-passphrase-status-unprotected = Babes-gabea
 openpgp-passphrase-status-user-passphrase = Pasaesaldiaz babestua
 openpgp-passphrase-unlock = Desblokeatu
 openpgp-passphrase-unlocked = Gakoa behar bezala desblokeatu da.
+openpgp-passphrase-new = Pasaesaldi berria
+openpgp-passphrase-new-repeat = Berretsi pasaesaldi berria
+openpgp-passphrase-set = Ezarri pasaesaldia
+openpgp-passphrase-change = Aldatu pasaesaldia
 openpgp-copy-cmd-label =
     .label = Kopiatu
 

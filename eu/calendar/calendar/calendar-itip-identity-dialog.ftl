@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-itip-identity-dialog-title = Party crashing?
 calendar-itip-identity-warning = Ez zaude oraindik gonbidatuen zerrendan.
 calendar-itip-identity-label = Erantzun hau bezala:
 calendar-itip-identity-label-none = Elkartu gertaera honekin:
