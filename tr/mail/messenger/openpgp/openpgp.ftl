@@ -557,6 +557,7 @@ key-valid-expired = süresi doldu
 key-trust-untrusted = güvenilmeyen
 key-trust-marginal = marjinal
 key-trust-full = güvenilir
+key-trust-ultimate = en yüksek
 key-trust-group = (grup)
 
 ## Strings used in commonWorkflows.js

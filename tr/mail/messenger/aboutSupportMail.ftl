@@ -28,3 +28,4 @@ libs-rnp-status-load-failed = Yüklenemedi. OpenPGP çalışmayacak.
 libs-rnp-status-incompatible = Uyumsuz sürüm. OpenPGP çalışmayacak.
 libs-rnp-status-unofficial = Resmi olmayan sürüm. OpenPGP beklendiği gibi çalışmayabilir.
 libs-otr-status-ok = Tamam
+libs-otr-status-error = Yüklenemedi. OTR sohbet şifrelemesi çalışmayacak.

@@ -117,6 +117,23 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Bu iletileri süz <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search =
+    .label = İletileri süz:
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = İletileri süz… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Her yerde ara
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Etiket süzme kipi
@@ -222,6 +239,8 @@ threadpane-column-header-thread =
     .title = İleti dizilerini aç/kapat
 threadpane-column-label-thread =
     .label = Dizi
+threadpane-cell-thread =
+    .aria-label = Dizi durumu
 threadpane-column-header-flagged =
     .title = Yıldıza göre sırala
 threadpane-column-label-flagged =
@@ -253,14 +272,20 @@ threadpane-column-header-sender = Gönderen
     .title = Gönderene göre sırala
 threadpane-column-label-sender =
     .label = Gönderen
+threadpane-cell-sender =
+    .aria-label = Gönderen
 threadpane-column-header-recipient = Alıcı
     .title = Alıcıya göre sırala
 threadpane-column-label-recipient =
     .label = Alıcı
+threadpane-cell-recipient =
+    .aria-label = Alıcı
 threadpane-column-header-correspondents = Yazanlar
     .title = Yazanlara göre sırala
 threadpane-column-label-correspondents =
     .label = Yazanlar
+threadpane-cell-correspondents =
+    .aria-label = Yazanlar
 threadpane-column-header-subject = Konu
     .title = Konuya göre sırala
 threadpane-column-label-subject =
@@ -313,6 +338,8 @@ threadpane-column-header-unread = Okunmadı
     .title = Dizideki okunmamış iletilerin sayısı
 threadpane-column-label-unread =
     .label = Okunmadı
+threadpane-cell-unread =
+    .aria-label = Okunmamış ileti sayısı
 threadpane-column-header-total = Toplam
     .title = Dizideki iletilerin toplam sayısı
 threadpane-column-label-total =

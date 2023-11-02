@@ -61,6 +61,8 @@ account-hub-ssl-label = Bağlantı güvenliği
 
 account-hub-ssl-autodetect-option =
     .label = Otomatik algıla
+account-hub-ssl-no-authentication-option =
+    .label = Yetkilendirme yok
 account-hub-ssl-cleartext-password-option =
     .label = Normal parola
 account-hub-ssl-encrypted-password-option =
@@ -70,4 +72,5 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Yok
+account-hub-auth-label = Yetkilendirme yöntemi
 account-hub-username-label = Kullanıcı adı

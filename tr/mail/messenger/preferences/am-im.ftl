@@ -4,14 +4,15 @@
 
 account-settings-title = Kimlik Doğrulama Ayarları
 account-channel-title = Varsayılan Kanallar
-
 chat-autologin =
     .label = Başlangıçta oturum aç
-
 chat-encryption-generic = Genel
 chat-encryption-log =
     .label = Görüşme günlüklerine uçtan uca şifrelemeli iletileri dahil et
 chat-encryption-label = Yerel uçtan uca şifreleme
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
+chat-encryption-description = { $protocol } sohbet iletileri için uçtan uca şifreleme sağlar. Bu sayede üçüncü şahıslar yazışmaları gizlice dinleyemez. Şifrelemenin çalışması için aşağıdaki kurulum adımlarını tamamlamanız gerekebilir.
 chat-encryption-status = Şifreleme durumu
 chat-encryption-placeholder = Şifreleme başlatılmadı.
 chat-encryption-sessions = Oturumlar
