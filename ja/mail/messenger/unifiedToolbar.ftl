@@ -26,9 +26,7 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = カスタマイズ...
-
 # Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = 新着メッセージをすべて受信
     .accesskey = G
