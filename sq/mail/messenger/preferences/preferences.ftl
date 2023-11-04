@@ -613,6 +613,7 @@ security-devices-button =
     .accesskey = P
 email-e2ee-header = Fshehtëzim Email-esh Skaj-Më-Skaj
 account-settings = Rregullime Llogarie
+email-e2ee-enable-info = Ujdisni llogari dhe identitete email-i për Fshehtëzim Skaj-Më-Skaj, te Rregullime Llogarie.
 email-e2ee-automatism = Përdorim i Automatizuar i Fshehtëzimit
 email-e2ee-auto-on =
     .label = Aktivizo automatikisht fshehtëzimin, kurdo që të jetë e mundur

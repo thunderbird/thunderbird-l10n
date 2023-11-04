@@ -291,6 +291,7 @@ openpgp-passphrase-status-unprotected = I pambrojtur
 openpgp-passphrase-status-primary-password = Mbrojtur me Fjalëkalimin Parësor të { -brand-short-name }-it
 openpgp-passphrase-status-user-passphrase = Mbrojtur me një frazëkalim
 openpgp-passphrase-instruction-unprotected = Caktoni një frazëkalim për të mbrojtur këtë kyç
+openpgp-passphrase-instruction-primary-password = Ndryshe, mbrojeni këtë kyç me një frazëkalim më vete
 openpgp-passphrase-instruction-user-passphrase = Që të ndryshohet mbrojtja e tij, zhbllokojeni këtë kyç.
 openpgp-passphrase-unlock = Shkyçe
 openpgp-passphrase-unlocked = Kyçi u shkyç me sukses.
@@ -608,6 +609,17 @@ import-key-file = Importo Kartelë Kyçi OpenPGP
 import-rev-file = Importo Kartelë Shfuqizimi OpenPGP
 gnupg-file = Kartela GnuPG
 import-keys-failed = Importimi i kyçeve dështoi
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Jepni frazëkalimin, që të shkyçet kyçi i fshehtë me ID-në { $key }, krijuar më { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Jepni frazëkalimin, që të shkyçet kyçi i fshehtë me ID-në { $subkey }, që është një nënkyç i ID-së së kyçit { $key }, krijuar më { $date }, { $username_and_email }
 file-to-big-to-import = Kjo kartelë është shumë e madhe. Ju lutemi, mos importoni njëherësh një grup të madh kyçesh.
 
 ## Strings used in enigmailKeygen.js
