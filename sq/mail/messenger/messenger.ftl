@@ -295,6 +295,14 @@ no-reply-reply-anyway-button = Përgjigjuni, Sido Qoftë
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } nga { $total } mesazhe s’u shfshehtëzuan dot dhe s’u kopjua.
+       *[other] { $failures } nga { $total } mesazhe s’u shfshehtëzuan dot dhe s’u kopjuan.
+    }
 
 ## Spaces toolbar
 
