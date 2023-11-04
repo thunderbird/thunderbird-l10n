@@ -174,6 +174,13 @@ about-addressbook-confirm-delete-contacts-title =
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Jeni i sigurt se doni të fshihet kontakti { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Jeni i sigurt se doni të fshihet { $count } kontakt?
+       *[other] Jeni i sigurt se doni të fshihen këto { $count } kontakte?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -186,6 +193,27 @@ about-addressbook-placeholder-no-search-results = S’u gjetën kontakte
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } zë libri adresash i përzgjedhur
+       *[other] { $count } zëra libri adresash të përzgjedhur
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } kontakt i përzgjedhur
+       *[other] { $count } kontakte të përzgjedhura
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } listë e përzgjedhur
+       *[other] { $count } lista të përzgjedhura
+    }
 about-addressbook-details-edit-photo =
     .title = Përpunoni foto kontakti
 about-addressbook-new-contact-header = Kontakt i Ri

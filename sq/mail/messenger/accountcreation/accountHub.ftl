@@ -41,7 +41,42 @@ account-hub-sync-button = Hyni në Sync…
 ## Email page
 
 account-hub-email-title = Ujdisni llogarinë tuaj email
+account-hub-add-email-title = Shtoni Llogarinë Tuaj
+account-hub-manually-configure-email-title = Ujdisni Formësim Llogarie
 account-hub-email-cancel-button = Anuloje
+account-hub-email-stop-button = Ndale
 account-hub-email-back-button = Mbrapsht
+account-hub-email-retest-button = Riprovoje
+account-hub-email-finish-button = Përfundoje
+account-hub-email-manually-configure-button = Formësojeni Dorazi
 account-hub-email-continue-button = Vazhdo
 account-hub-email-confirm-button = Ripohojeni
+account-hub-incoming-server-legend = Shërbyes marrës
+account-hub-outgoing-server-legend = Shërbyes dërgues
+account-hub-protocol-label = Protokoll
+account-hub-hostname-label = Strehëemër
+account-hub-port-label = Portë
+    .title = Për vetëpikasje, numrin e portës vendoseni 0
+account-hub-auto-description = { -brand-short-name } do të përpiqet të vetëpikasë vlerat për fushat që janë lënë të zbrazëta.
+account-hub-ssl-label = Siguri lidhjeje
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Vetëzbuloje
+account-hub-ssl-no-authentication-option =
+    .label = Pa mirëfilltësim
+account-hub-ssl-cleartext-password-option =
+    .label = Fjalëkalim normal
+account-hub-ssl-encrypted-password-option =
+    .label = Fjalëkalim i fshehtëzuar
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Asnjë
+account-hub-auth-label = Metodë mirëfilltësimi
+account-hub-username-label = Emër përdoruesi
+account-hub-adding-account-title = Shtim Llogarish
+account-hub-adding-account-subheader = Riprovim rregullimesh formësimi llogarie
+account-hub-account-added-title = Llogaria u Shtua

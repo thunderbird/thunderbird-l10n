@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Çaktivizo Mënyrën Diagnostikim
     .accesskey = Ç
-menu-help-more-troubleshooting-info =
-    .label = Më Tepër Hollësi Diagnostikimi
-    .accesskey = M
 menu-help-troubleshooting-info =
     .label = Hollësi Diagnostikimi
     .accesskey = H
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Dilni prej { -brand-shorter-name }-it
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = D
 
@@ -100,6 +100,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Krye Liste Mesazhesh
+    .accesskey = K
 menu-font-size-label =
     .label = Madhësi Shkronjash
     .accesskey = M
@@ -118,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Kompakte
     .accesskey = K
-mail-uidensity-normal =
-    .label = Normale
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Touch
-    .accesskey = T
 mail-uidensity-default =
     .label = Parazgjedhje
     .accesskey = P
