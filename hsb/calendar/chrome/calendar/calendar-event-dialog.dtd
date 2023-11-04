@@ -140,9 +140,9 @@
 <!ENTITY  event.menu.options.show.time.label                  "Čas pokazać jako">
 <!ENTITY  event.menu.options.show.time.accesskey              "k">
 <!ENTITY  event.menu.options.show.time.busy.label             "Aktiwny">
-<!ENTITY  event.menu.options.show.time.busy.accesskey         "b">
+<!ENTITY  event.menu.options.show.time.busy.accesskey         "A">
 <!ENTITY  event.menu.options.show.time.free.label             "K dispoziciji">
-<!ENTITY  event.menu.options.show.time.free.accesskey         "S">
+<!ENTITY  event.menu.options.show.time.free.accesskey         "K">
 
 <!ENTITY event.invite.attendees.label                     "Wobdźělnikow přeprosyć…">
 <!ENTITY event.invite.attendees.accesskey                 "d">
@@ -366,8 +366,8 @@
 <!ENTITY event.freebusy.button.next.slot        "Přichodne městno">
 <!ENTITY event.freebusy.button.previous.slot    "Předchadne městno">
 <!ENTITY event.freebusy.zoom                    "Skalowanje:">
-<!ENTITY event.freebusy.legend.free             "Swobodny" >
-<!ENTITY event.freebusy.legend.busy             "Njeswobodny" >
+<!ENTITY event.freebusy.legend.free             "K dispoziciji" >
+<!ENTITY event.freebusy.legend.busy             "Aktiwny" >
 <!ENTITY event.freebusy.legend.busy_tentative   "Nachwilu" >
 <!ENTITY event.freebusy.legend.busy_unavailable "zwonka domu" >
 <!ENTITY event.freebusy.legend.unknown          "Žane informacije" >
