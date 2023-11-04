@@ -100,6 +100,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Ripohoni cilët kyçe mund të trajtohen si kyçet tuaj personalë. Si kyçe personalë duhen përdorur vetëm kyçe që krijuat ju vetë dhe që shfaqin identitetin tuaj. Këtë mundësi mund ta ndryshoni më vonë që nga dialogu Veti Kyçi.
 openpgp-import-key-list-caption = Kyçet e shënuar për t’u trajtuar si Kyçe Personalë do të radhiten te ndarja Fshehtëzim Skaj-Më-Skaj. Të tjerët do të jenë të passhëm brenda Përgjegjësit të Kyçeve.
+openpgp-import-keep-passphrases =
+    .label = Mbaje ruajtjen e frazëkalimeve për kyçe të fshehtë të importuar
 openpgp-passphrase-prompt-title = Lypset frazëkalim
 openpgp-import-key-button =
     .label = Përzgjidhni Kartelë për Importim…

@@ -17,6 +17,7 @@ sync-verification-not-sent-body = S’qemë në gjendje të dërgojmë mesazh ve
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Të dilet nga llogaria?
 sync-signout-dialog-body = Të dhënat e njëkohësuara do të mbeten në llogarinë tuaj.
 sync-signout-dialog-button = Dilni
 
