@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Fshije Dosjen
     .accesskey = j
+menu-edit-unsubscribe-newsgroup =
+    .label = Shpajtohuni nga Grupi i Lajmeve
+    .accesskey = S
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -206,6 +209,9 @@ mail-context-undelete-messages =
             [one] Çfshije Mesazhin
            *[other] Çfshiji Mesazhet e Përzgjedhur
         }
+context-menu-decrypt-to-folder2 =
+    .label = Krijo Kopje të Shfshehtëzuar Në
+    .accesskey = f
 
 ## Message header pane
 
@@ -220,6 +226,9 @@ message-header-recipient-avatar =
     .alt = Foto profili e { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Rregullime Kryeje të Mesazheve
 message-header-customize-button-style =
@@ -238,6 +247,9 @@ message-header-show-sender-full-address-description = Adresa email do të shfaqe
 message-header-show-recipient-avatar =
     .label = Shfaq foto profili të dërguesit
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Foto profili më e madhe
+    .accesskey = m
 message-header-hide-label-column =
     .label = Fshihe shtyllën e etiketave
     .accesskey = e
@@ -376,12 +388,19 @@ quick-filter-bar-toggle =
     .label = Shtyllë Filtri të Shpejtë
     .accesskey = S
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
 ## OpenPGP
 
+openpgp-forget = Harro frazëkalime OpenPGP
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% i mbushur
+    .title = Kuota IMAP: { $usage } të përdorur, nga { $limit } gjithsej

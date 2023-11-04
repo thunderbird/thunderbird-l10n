@@ -114,6 +114,10 @@ attachment-area-show =
     .title = Shfaqeni kuadratin e bashkëngjitjeve ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
     .title = Fshiheni kuadratin e bashkëngjitjeve ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
 drop-file-label-attachment =
     { $count ->
         [one] Shtoje si bashkëngjitje
@@ -180,10 +184,30 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Përgjegjës Kyçesh
     .accesskey = P
-openpgp-key-issue-notification-one = Fshehtëzimi skaj-mëskaj lyp zgjidhje problemesh me kyçet për { $addr }
-openpgp-key-issue-notification-many = Fshehtëzimi skaj-mëskaj lyp zgjidhje problemesh me kyçet për { $count } marrës.
-smime-cert-issue-notification-one = Fshehtëzimi skaj-mëskaj lyp zgjidhje problemesh me dëshmitë për { $addr }
-smime-cert-issue-notification-many = Fshehtëzimi skaj-mëskaj lyp zgjidhje problemesh me dëshmitë për { $count } marrës.
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = S’keni ujdisur dërgim mesazhesh të fshehtëzuar skaj-më-skaj nga { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Fshehtëzimi skaj-më-skaj lyp zgjidhje problemesh me kyçet për { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Fshehtëzimi skaj-më-skaj lyp zgjidhje problemesh me kyçet për { $count } marrës.
+       *[other] Fshehtëzimi skaj-më-skaj lyp zgjidhje problemesh me kyçet për { $count } marrës.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Fshehtëzimi skaj-më-skaj lyp zgjidhje problemesh me dëshmitë për { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Fshehtëzimi skaj-më-skaj lyp zgjidhje problemesh me dëshmitë për { $count } marrës.
+       *[other] Fshehtëzimi skaj-më-skaj lyp zgjidhje problemesh me dëshmitë për { $count } marrës.
+    }
 key-notification-disable-encryption =
     .label = Mos e Fshehtëzo
     .accesskey = s
@@ -247,12 +271,7 @@ show-bcc-row-button = Bcc
     .title = Shfaqni Fushë “Bcc” ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Fusha të tjera adrese për t’u shfaqur
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Mesazhi juaj ka një marrës publik. Nxjerrjen zbuluar të marrësve mund të shmangni duke përdorur fushën Bcc.
-       *[other] { $count } marrësit te fushat Për dhe Cc do të shohin adresat e njëri-tjetrit. Nxjerrjen zbuluar të marrësve mund të shmangni duke përdorur fushën Bcc.
-    }
+public-recipients-notice-single = Mesazhi juaj ka një marrës publik. Nxjerrjen zbuluar të marrësit mund ta shmangni duke përdorur fushën Bcc.
 many-public-recipients-bcc =
     .label = Më mirë përdor Bcc
     .accesskey = M
@@ -276,6 +295,7 @@ many-public-recipients-prompt-send = Dërgoje, Sido Qoftë
 compose-missing-identity-warning = S’u gjet ndonjë identitet unik që përputhet me adresën Nga. Mesazhi do të dërgohet duke përdorur fushën e tanishme Nga dhe rregullimet nga identiteti { $identity }.
 encrypted-bcc-warning = Kur dërgohet një mesazh i fshehtëzuar, marrësit te fusha Bcc tani s’janë plotësisht të fshehur. Krejt marrësit mund të jenë në gjendje t’i identifikojnë ata.
 encrypted-bcc-ignore-button = E kuptova
+auto-disable-e2ee-warning = Për këtë mesazh u çaktivizua automatilisht fshehtëzimi skaj-më-skaj.
 
 ## Editing
 
@@ -306,6 +326,8 @@ cloud-file-placeholder-intro = Kartela { $filename } qe bashkëngjitur si një l
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
 cloud-file-count-header =
     { $count ->
         [one] I kam lidhur { $count } kartelë këtij email-i:
@@ -341,26 +363,33 @@ cloud-file-template-download-limit = Kufi Shkarkimesh:
 
 # Messages
 
-# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error-title = Gabim Lidhjeje
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = { -brand-short-name }-i është jashtë linje. S’u lidh dot me { $provider }.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was uploaded and caused the error
 cloud-file-upload-error-with-custom-message-title = Dështoi ngarkimi i { $filename } te { $provider }
+cloud-file-rename-error-title = Gabim Riemërtimi
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
-cloud-file-rename-error-title = Gabim Riemërtimi
 cloud-file-rename-error = Pati një problem me riemërtimin e { $filename } te { $provider }.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = Riemërtimi i { $filename } te { $provider } Dështoi
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } nuk mbulon riemërtim kartelash tashmë të ngarkuara.
-# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-attachment-error-title = Gabim Bashkëngjitjeje Filelink
-cloud-file-attachment-error = S’u arrit të përditësohej bashkëngjitja Filelink { $filename }, ngaqë kartela vendore për të është lëvizur ose fshirë.
+# Variables:
 # $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = S’u arrit të përditësohej bashkëngjitja Filelink { $filename }, ngaqë kartela vendore për të është lëvizur ose fshirë.
 cloud-file-account-error-title = Gabim Llogarie Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = S’u arrit të përditësohej bashkëngjitja Filelink { $filename }, ngaqë llogaria Filelink për të është fshirë.
 
 ## Link Preview
