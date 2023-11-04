@@ -41,6 +41,7 @@ account-hub-sync-button = Eşitlemek için giriş yap…
 ## Email page
 
 account-hub-email-title = E-posta hesabınızı ayarlayın
+account-hub-add-email-title = Hesabınızı ekleyin
 account-hub-email-cancel-button = Vazgeç
 account-hub-email-stop-button = Durdur
 account-hub-email-back-button = Geri
@@ -74,3 +75,4 @@ account-hub-ssl-noencryption-option =
     .label = Yok
 account-hub-auth-label = Yetkilendirme yöntemi
 account-hub-username-label = Kullanıcı adı
+account-hub-account-added-title = Hesap eklendi

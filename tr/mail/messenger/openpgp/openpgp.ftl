@@ -578,6 +578,7 @@ file-to-big-to-import = Bu dosya çok büyük. Lütfen büyük anahtar kümeleri
 save-revoke-cert-as = İptal sertifikası oluştur ve kaydet
 revoke-cert-failed = İptal sertifikası oluşturulamadı.
 gen-going = Anahtar üretimi devam ediyor!
+keygen-missing-user-name = Seçilen hesap/kimlik için bir ad belirtilmedi. Lütfen hesap ayarlarında  “Adınız” alanına bir değer girin.
 expiry-too-short = Anahtarınız en az bir gün geçerli olmalıdır.
 expiry-too-long = Süresi 100 yıldan fazla olan bir anahtar oluşturamazsınız.
 # Variables:

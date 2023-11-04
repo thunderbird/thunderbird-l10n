@@ -8,6 +8,13 @@ openpgp-key-assistant-rogue-warning = Sahte anahtarları kabul etmekten kaçın�
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = Şifrelenemiyor
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-issue-description =
+    { $count ->
+        [one] Şifrelemek için bir alıcıya ait kullanılabilir anahtarı edinip kabul etmeniz gerekir. <a data-l10n-name="openpgp-link">Daha fazla bilgi alın…</a>
+       *[other] Şifrelemek için { $count } alıcıya ait kullanılabilir anahtarları edinip kabul etmeniz gerekir. <a data-l10n-name="openpgp-link">Daha fazla bilgi alın…</a>
+    }
 openpgp-key-assistant-info-alias = { -brand-short-name } normalde alıcının ortak anahtarının, e-posta adresi eşleşen bir kullanıcı kimliği içermesini gerektirir. Bunu OpenPGP alıcı diğer ad kurallarını kullanılarak geçersiz kılabilirsiniz. <a data-l10n-name="openpgp-link">Daha fazla bilgi alın…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.

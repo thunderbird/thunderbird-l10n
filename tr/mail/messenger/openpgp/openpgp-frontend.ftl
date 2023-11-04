@@ -51,3 +51,4 @@ openpgp-partially-encrypted =
 openpgp-reminder-partial-display = Hatırlatma: Aşağıda gösterilen ileti, asıl iletinin yalnızca bir alt kümesidir.
 openpgp-partial-verify-button = Doğrula
 openpgp-partial-decrypt-button = Şifreyi çöz
+openpgp-unexpected-key-for-you = Uyarı: Bu ileti kendi e-posta adreslerinizden birini işaret eden bilinmeyen bir OpenPGP anahtarı içeriyor. Bu sizin kendi anahtarlarınızdan biri değilse, diğer yazıştığınız kişileri kandırma girişimi olabilir.
