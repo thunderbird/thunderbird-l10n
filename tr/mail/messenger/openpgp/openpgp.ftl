@@ -441,6 +441,10 @@ import-from-clip = Panodan bazı anahtarları içe aktarmak istiyor musunuz?
 import-from-url = Ortak anahtarı bu adresten indir:
 copy-to-clipbrd-failed = Seçilen anahtar(lar) panoya kopyalanamadı.
 copy-to-clipbrd-ok = Anahtar(lar) panoya kopyalandı
+delete-mix =
+    UYARI: Gizli anahtarları silmek üzeresiniz!
+    Gizli anahtarınızı silerseniz artık o anahtar kullanılarak şifrelenmiş iletilerin şifresini çözemezsiniz.
+    Seçilen gizli ve ortak anahtarların HER ikisini de gerçekten silmek istiyor musunuz?
 # Variables:
 # $userId (String) - User id of the key.
 delete-pub-key =
@@ -482,6 +486,7 @@ openpgp-export-secret-fail = <b>Seçilen gizli anahtar dışa aktarılamadı.</b
 
 key-ring-pub-key-revoked = { $userId } anahtarı (anahtar kimliği { $keyId }) iptal edildi.
 key-ring-pub-key-expired = { $userId } anahtarının (anahtar kimliği { $keyId }) süresi doldu.
+key-ring-no-secret-key = Anahtarlığınızda { $userId } (anahtar kimliği { $keyId }) için gizli anahtar yok. İmzalama için bu anahtarı kullanamazsınız.
 key-ring-pub-key-not-for-signing = { $userId } anahtarı (anahtar kimliği { $keyId }) imzalama için kullanılamaz.
 key-ring-pub-key-not-for-encryption = { $userId } anahtarı (anahtar kimliği { $keyId }) şifreleme için kullanılamaz.
 key-ring-sign-sub-keys-revoked = { $UserId } anahtarının tüm imzalama alt anahtarları (anahtar kimliği { $keyId }) iptal edildi.
@@ -576,6 +581,7 @@ file-to-big-to-import = Bu dosya çok büyük. Lütfen büyük anahtar kümeleri
 ## Strings used in enigmailKeygen.js
 
 save-revoke-cert-as = İptal sertifikası oluştur ve kaydet
+revoke-cert-ok = İptal sertifikası başarıyla oluşturuldu. Bu sertifikayı gizli anahtarınızı kaybetmeniz gibi durumlarda ortak anahtarınızı iptal etmek için kullanabilirsiniz.
 revoke-cert-failed = İptal sertifikası oluşturulamadı.
 gen-going = Anahtar üretimi devam ediyor!
 keygen-missing-user-name = Seçilen hesap/kimlik için bir ad belirtilmedi. Lütfen hesap ayarlarında  “Adınız” alanına bir değer girin.
