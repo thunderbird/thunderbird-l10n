@@ -19,17 +19,6 @@ account-hub-release-notes = Notas de lançamento
 account-hub-support = Apoio
 account-hub-donate = Fazer donativo
 
-## Start page
-
-account-hub-email-button = Configurar uma conta de correio eletrónico
-account-hub-new-email-button = Obter um novo endereço de correio eletrónico
-account-hub-calendar-button = Configurar calendário
-account-hub-address-book-button = Configurar livro de endereços
-account-hub-chat-button = Configurar mensagens instantâneas
-account-hub-feed-button = Configurar feed RSS
-account-hub-newsgroup-button = Configurar grupo de notícias
-account-hub-import-button = Importar perfil
-
 ## Initial setup page
 
 account-hub-email-setup-button = Conta de correio eletrónico
@@ -52,7 +41,39 @@ account-hub-sync-button = Iniciar sessão para sincronizar…
 ## Email page
 
 account-hub-email-title = Configurar a sua conta de e-mail
+account-hub-add-email-title = Adicionar a sua conta
+account-hub-manually-configure-email-title = Definir configuração da conta
 account-hub-email-cancel-button = Cancelar
+account-hub-email-stop-button = Parar
 account-hub-email-back-button = Retroceder
+account-hub-email-finish-button = Concluir
+account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
 account-hub-email-confirm-button = Confirmar
+account-hub-incoming-server-legend = Servidor de receção
+account-hub-outgoing-server-legend = Servidor de envio
+account-hub-protocol-label = Protocolo
+account-hub-hostname-label = Nome de anfitrião
+account-hub-port-label = Porta
+    .title = Defina o número da porta; 0 para deteção automática
+account-hub-ssl-label = Segurança da ligação
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Detetar automaticamente
+account-hub-ssl-no-authentication-option =
+    .label = Sem autenticação
+account-hub-ssl-cleartext-password-option =
+    .label = Palavra-passe normal
+account-hub-ssl-encrypted-password-option =
+    .label = Palavra-passe encriptada
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Nenhuma
+account-hub-auth-label = Método de autenticação
+account-hub-username-label = Nome de utilizador
+account-hub-adding-account-title = Adicionar conta
+account-hub-account-added-title = Conta adicionada

@@ -125,6 +125,14 @@ vcard-org-org-input =
     .title = Nome da organização
     .placeholder = Nome da empresa
 vcard-org-org-unit = Departamento
+vcard-org-org-unit-input =
+    .title = Nome da unidade organizacional
+    .placeholder = Departamento
 
 # Custom properties
 
+vcard-custom-header = Propriedades personalizadas
+vcard-custom-add = Adicionar propriedades personalizadas
+vcard-remove-button-title =
+    .title = Remover
+vcard-remove-button = Remover
