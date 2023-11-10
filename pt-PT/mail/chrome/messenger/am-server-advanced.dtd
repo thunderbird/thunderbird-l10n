@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY serverAdvanced.label "Definições avançadas de conta">
+<!ENTITY serverAdvanced.label "Definições avançadas da conta">
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 <!ENTITY serverDirectory.label "Diretório do servidor IMAP:">
 <!ENTITY serverDirectory.accesskey "D">

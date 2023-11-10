@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Assistente de contas">
-<!ENTITY accountWizard.size "width: 55em; height: 44em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -36,8 +33,6 @@
 <!ENTITY newsServerLabel.label "Servidor do grupo de notícias:">
 <!ENTITY newsServerLabel.accesskey "S">
 
-<!-- Entities for Outgoing Server page -->
-
 <!-- Entities for Account name page -->
 
 <!ENTITY accnameTitle.label "Nome da conta">
@@ -52,4 +47,4 @@
 <!ENTITY completionText.label "Verifique se a informações estão corretas.">
 <!ENTITY newsServerNamePrefix.label "Nome do servidor de notícias (NNTP):">
 <!ENTITY clickFinish.label "Clique em Concluir para guardar estas definições e sair do assistente.">
-<!ENTITY clickFinish.labelMac "Clique em Terminar para guardar estas definições e sair do assistente.">
+<!ENTITY clickFinish.labelMac "Clique em Terminar para guardar estas definições e sair do assistente da conta.">

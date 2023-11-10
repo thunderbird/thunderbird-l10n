@@ -13,7 +13,7 @@
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "g">
 
 <!ENTITY retention.label "Política de retenção">
-<!ENTITY retentionUseAccount.label  "Utilizar definições da minha conta">
+<!ENTITY retentionUseAccount.label  "Utilizar as definições da minha conta">
 <!ENTITY retentionUseAccount.accesskey "d">
 <!ENTITY daysOld.label "dias de antiguidade">
 <!ENTITY message.label "mensagens">

@@ -43,7 +43,7 @@
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Por agora, pode apenas ativar isto depois de configurar este calendário no seu diálogo de propriedade se o servidor do calendário cuidar do agendamento.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Por agora, só pode ativar isto depois de configurar este calendário na sua janela de propriedade se o servidor do calendário cuidar do agendamento.">
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Esta opção apenas está disponível se o servidor do calendário lidar com o agendamento. Ativar isto irá permitir retroceder para o agendamento baseado no email padrão em vez de o deixar para o servidor.">
 
 <!-- The notifications settings in the properties dialog -->
@@ -94,8 +94,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Alterar o seu estado de participação para as séries sem enviar uma resposta para o organizador">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
