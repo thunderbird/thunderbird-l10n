@@ -117,6 +117,23 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filtrar estas mensaxes <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search =
+    .label = Filtrar mensaxes:
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Filtrar mensaxes... { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Busca por todas partes
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Modo de filtrado de etiquetas
@@ -218,95 +235,139 @@ threadpane-column-header-deselect-all =
     .title = Deselecionar todas as mensaxes
 threadpane-column-label-select =
     .label = Seleccionar mensaxes
+threadpane-cell-select =
+    .aria-label = Seleccionar mensaxe
 threadpane-column-header-thread =
     .title = Alternar conversas de mensaxes
 threadpane-column-label-thread =
     .label = Fío
+threadpane-cell-thread =
+    .aria-label = Estado do fío
 threadpane-column-header-flagged =
     .title = Ordenar polas estrelas
 threadpane-column-label-flagged =
     .label = Con estrela
+threadpane-cell-flagged =
+    .aria-label = Con estrela
 threadpane-flagged-cell-label = Con estrela
 threadpane-column-header-attachments =
     .title = Ordenar polos anexos
 threadpane-column-label-attachments =
     .label = Anexos
+threadpane-cell-attachments =
+    .aria-label = Anexos
 threadpane-attachments-cell-label = Anexos
 threadpane-column-header-spam =
     .title = Ordenar polo estado de correo lixo
 threadpane-column-label-spam =
     .label = Correo lixo
+threadpane-cell-spam =
+    .aria-label = Estado de spam
 threadpane-spam-cell-label = Correo lixo
 threadpane-column-header-unread-button =
     .title = Ordenar polo estado de lectura
 threadpane-column-label-unread-button =
     .label = Estado de lectura
+threadpane-cell-read-status =
+    .aria-label = Estado de lectura
 threadpane-read-cell-label = Ler
 threadpane-unread-cell-label = Non lidos
 threadpane-column-header-sender = De
     .title = Ordenar polo remitente
 threadpane-column-label-sender =
     .label = De
+threadpane-cell-sender =
+    .aria-label = Desde
 threadpane-column-header-recipient = Destinatario
     .title = Ordenar polo destinatario
 threadpane-column-label-recipient =
     .label = Destinatario
+threadpane-cell-recipient =
+    .aria-label = Destinatario
 threadpane-column-header-correspondents = Correspondentes
     .title = Ordenar por correspondentes
 threadpane-column-label-correspondents =
     .label = Correspondentes
+threadpane-cell-correspondents =
+    .aria-label = Correspondentes
 threadpane-column-header-subject = Asunto
     .title = Ordenar polo asunto
 threadpane-column-label-subject =
     .label = Asunto
+threadpane-cell-subject =
+    .aria-label = Asunto
 threadpane-column-header-date = Data
     .title = Ordenar pola data
 threadpane-column-label-date =
     .label = Data
+threadpane-cell-date =
+    .aria-label = Data
 threadpane-column-header-received = Recibido
     .title = Ordenar pola data de recepción
 threadpane-column-label-received =
     .label = Recibido
+threadpane-cell-received =
+    .aria-label = Data de recepción
 threadpane-column-header-status = Estado
     .title = Ordenar polo estado
 threadpane-column-label-status =
     .label = Estado
+threadpane-cell-status =
+    .aria-label = Estado
 threadpane-column-header-size = Tamaño
     .title = Ordenar polo tamaño
 threadpane-column-label-size =
     .label = Tamaño
+threadpane-cell-size =
+    .aria-label = Tamaño
 threadpane-column-header-tags = Etiqueta
     .title = Ordenar polas etiquetas
 threadpane-column-label-tags =
     .label = Etiqueta
+threadpane-cell-tags =
+    .aria-label = Etiquetas
 threadpane-column-header-account = Conta
     .title = Ordenar pola conta
 threadpane-column-label-account =
     .label = Conta
+threadpane-cell-account =
+    .aria-label = Conta
 threadpane-column-header-priority = Prioridade
     .title = Ordenar pola prioridade
 threadpane-column-label-priority =
     .label = Prioridade
+threadpane-cell-priority =
+    .aria-label = Prioridade
 threadpane-column-header-unread = Non lida
     .title = Número de mensaxes non lidas no fío
 threadpane-column-label-unread =
     .label = Non lida
+threadpane-cell-unread =
+    .aria-label = Número de mensaxes sen ler
 threadpane-column-header-total = Total
     .title = Número total de mensaxes no fío
 threadpane-column-label-total =
     .label = Total
+threadpane-cell-total =
+    .aria-label = Número total de mensaxes
 threadpane-column-header-location = Localización
     .title = Ordenar pola localización
 threadpane-column-label-location =
     .label = Localización
+threadpane-cell-location =
+    .aria-label = Localización
 threadpane-column-header-id = Aviso de recepción
     .title = Ordenar pola orde de recepción
 threadpane-column-label-id =
     .label = Aviso de recepción
+threadpane-cell-id =
+    .aria-label = Aviso de recepción
 threadpane-column-header-delete =
     .title = Eliminar unha mensaxe
 threadpane-column-label-delete =
     .label = Eliminar
+threadpane-cell-delete =
+    .aria-label = Eliminar
 
 ## Message state variations
 
