@@ -41,7 +41,42 @@ account-hub-sync-button = Identificarse para sincronizar…
 ## Email page
 
 account-hub-email-title = Configure a súa conta de correo electrónico
+account-hub-add-email-title = Engadir a súa conta
+account-hub-manually-configure-email-title = Establecer a configuración da conta
 account-hub-email-cancel-button = Cancelar
+account-hub-email-stop-button = Deter
 account-hub-email-back-button = Recuar
+account-hub-email-retest-button = Probar novamente
+account-hub-email-finish-button = Finalizar
+account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
 account-hub-email-confirm-button = Confirmar
+account-hub-incoming-server-legend = Servidor entrante
+account-hub-outgoing-server-legend = Servidor saínte
+account-hub-protocol-label = Protocolo
+account-hub-hostname-label = Nome do servidor
+account-hub-port-label = Porto
+    .title = Establece o número do porto a 0 para autodetectalo
+account-hub-auto-description = O { -brand-short-name } tentará detectar automaticamente os campos que deixe en branco.
+account-hub-ssl-label = Seguranza da conexión
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Detectar automaticamente
+account-hub-ssl-no-authentication-option =
+    .label = Sen autenticación
+account-hub-ssl-cleartext-password-option =
+    .label = Contrasinal normal
+account-hub-ssl-encrypted-password-option =
+    .label = Contrasinal cifrado
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Ningunha
+account-hub-auth-label = Método de autenticación
+account-hub-username-label = Nome de usuario
+account-hub-adding-account-title = Engadindo conta
+account-hub-adding-account-subheader = Volvendo a probar a configuración da conta
+account-hub-account-added-title = Conta engadida

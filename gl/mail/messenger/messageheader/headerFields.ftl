@@ -12,6 +12,7 @@ message-header-reply-to-list-name = Responder a
 message-header-cc-list-name = Cc
 message-header-bcc-list-name = Cco
 message-header-newsgroups-list-name = Grupos de noticias
+message-header-followup-to-list-name = Seguimento a
 message-header-tags-list-name = Etiquetas
 
 ## Other message headers.
@@ -20,7 +21,6 @@ message-header-tags-list-name = Etiquetas
 message-header-author-field = Autor<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organización<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Asunto<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Seguimento a<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Data<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Axente de usuario<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referencias<span data-l10n-name="field-separator">:</span>

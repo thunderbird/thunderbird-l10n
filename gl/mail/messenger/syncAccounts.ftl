@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Non foi posíbel enviar un correo de comprobac
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Pechar a sesión na conta?
 sync-signout-dialog-body = Os datos sincronizados permanecerán na súa conta.
 sync-signout-dialog-button = Saír
 
