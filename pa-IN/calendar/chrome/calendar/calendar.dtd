@@ -96,18 +96,18 @@
      that is after today and after the selected date. If a task repeats, a
      separate entry will be shown for each of the occurrences that happen on or
      before today (or the selected date, whichever is later). -->
-<!ENTITY calendar.task.filter.current.label         "Current Tasks">
+<!ENTITY calendar.task.filter.current.label         "ਮੌਜੂਦਾ ਕੰਮ">
 <!ENTITY calendar.task.filter.current.accesskey     "u">
 
 <!ENTITY calendar.task-details.title.label           "title">
 <!ENTITY calendar.task-details.organizer.label       "from">
-<!ENTITY calendar.task-details.priority.label        "priority">
-<!ENTITY calendar.task-details.priority.low.label    "Low">
-<!ENTITY calendar.task-details.priority.normal.label "Normal">
-<!ENTITY calendar.task-details.priority.high.label   "High">
-<!ENTITY calendar.task-details.status.label          "status">
-<!ENTITY calendar.task-details.category.label        "category">
-<!ENTITY calendar.task-details.repeat.label          "repeat">
+<!ENTITY calendar.task-details.priority.label        "ਤਰਜੀਹ">
+<!ENTITY calendar.task-details.priority.low.label    "ਘੱਟ">
+<!ENTITY calendar.task-details.priority.normal.label "ਸਧਾਰਨ">
+<!ENTITY calendar.task-details.priority.high.label   "ਵੱਧ">
+<!ENTITY calendar.task-details.status.label          "ਹਾਲਤ">
+<!ENTITY calendar.task-details.category.label        "ਕੈਟਾਗਰੀ">
+<!ENTITY calendar.task-details.repeat.label          "ਦੁਹਰਾਓ">
 <!ENTITY calendar.task-details.attachments.label     "ਅਟੈਚਮੈਂਟਾਂ">
 <!ENTITY calendar.task-details.start.label           "ਸ਼ੁਰੂ ਹੋਣ ਦੀ ਤਾਰੀਖ">
 <!ENTITY calendar.task-details.due.label             "ਪੂਰਾ ਕਰਨ ਦੀ ਤਾਰੀਖ">
