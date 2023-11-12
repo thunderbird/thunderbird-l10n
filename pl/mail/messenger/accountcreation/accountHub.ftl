@@ -19,17 +19,6 @@ account-hub-release-notes = Informacje o wydaniu
 account-hub-support = Pomoc
 account-hub-donate = Przekaż datek
 
-## Start page
-
-account-hub-email-button = Skonfiguruj konto pocztowe
-account-hub-new-email-button = Nowy adres e-mail
-account-hub-calendar-button = Skonfiguruj kalendarz
-account-hub-address-book-button = Skonfiguruj książkę adresową
-account-hub-chat-button = Skonfiguruj komunikator
-account-hub-feed-button = Skonfiguruj źródło aktualności RSS
-account-hub-newsgroup-button = Skonfiguruj grupę dyskusyjną
-account-hub-import-button = Importuj profil
-
 ## Initial setup page
 
 account-hub-email-setup-button = Konto pocztowe
@@ -52,7 +41,27 @@ account-hub-sync-button = Zaloguj się do synchronizacji…
 ## Email page
 
 account-hub-email-title = Skonfiguruj konto pocztowe
+account-hub-add-email-title = Dodaj konto
+account-hub-manually-configure-email-title = Konfiguruj konto
 account-hub-email-cancel-button = Anuluj
+account-hub-email-stop-button = Zatrzymaj
 account-hub-email-back-button = Wstecz
+account-hub-email-retest-button = Wykryj ponownie
+account-hub-email-finish-button = Zakończ
+account-hub-email-manually-configure-button = Konfiguruj ręcznie
 account-hub-email-continue-button = Kontynuuj
 account-hub-email-confirm-button = Potwierdź
+account-hub-incoming-server-legend = Serwer poczty przychodzącej
+account-hub-outgoing-server-legend = Serwer poczty wychodzącej
+account-hub-protocol-label = Protokół
+account-hub-hostname-label = Adres serwera
+account-hub-port-label = Port
+    .title = Wartość 0 spowoduje użycie automatycznego wykrywania
+account-hub-auto-description = { -brand-short-name } spróbuje automatycznie wykryć wartości pól, które są puste.
+account-hub-ssl-label = Bezpieczeństwo połączenia
+
+## Incoming/Outgoing SSL Authentication options
+
+
+## Incoming/Outgoing SSL options
+
