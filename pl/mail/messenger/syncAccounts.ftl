@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Nie udało się wysłać wiadomości z odnoś
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Czy wylogować się z konta?
 sync-signout-dialog-body = Zsynchronizowane dane pozostaną na koncie.
 sync-signout-dialog-button = Wyloguj się
 
