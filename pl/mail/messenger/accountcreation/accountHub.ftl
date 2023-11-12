@@ -62,6 +62,21 @@ account-hub-ssl-label = Bezpieczeństwo połączenia
 
 ## Incoming/Outgoing SSL Authentication options
 
+account-hub-ssl-autodetect-option =
+    .label = Wykryj automatycznie
+account-hub-ssl-no-authentication-option =
+    .label = Bez uwierzytelniania
+account-hub-ssl-cleartext-password-option =
+    .label = Zwykłe hasło
+account-hub-ssl-encrypted-password-option =
+    .label = Szyfrowane hasło
 
 ## Incoming/Outgoing SSL options
 
+account-hub-ssl-noencryption-option =
+    .label = Brak
+account-hub-auth-label = Metoda uwierzytelniania
+account-hub-username-label = Nazwa użytkownika
+account-hub-adding-account-title = Dodawanie konta
+account-hub-adding-account-subheader = Ponowne wykrywanie ustawień konfiguracji konta
+account-hub-account-added-title = Dodano konto
