@@ -11,6 +11,7 @@ account-setup-description = For å bruke den gjeldande e-postadressa di, skriv i
 account-setup-secondary-description = { -brand-product-name } vil automatiskt søkje etter ein fungerande og tilrådd serverkonfigurasjon.
 account-setup-success-title = Kontoen er oppretta
 account-setup-success-description = Du kan no bruke denne kontoen med { -brand-short-name }.
+account-setup-success-secondary-description = Du kan forbrtre opplevinga ved å kople til nærskylde tenester og konfigurere avanserte kontoinnstillingar.
 
 ## Form fields
 
