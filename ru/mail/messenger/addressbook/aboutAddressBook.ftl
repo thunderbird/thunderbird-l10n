@@ -82,40 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = Сортировать по адресу эл. почты (от A до Z)
 about-addressbook-sort-email-descending =
     .label = Сортировать по адресу эл. почты (от Z до A)
-about-addressbook-horizontal-layout =
-    .label = Переключиться на горизонтальную раскладку
-about-addressbook-vertical-layout =
-    .label = Переключиться на вертикальную компоновку
 about-addressbook-table-layout =
     .label = Макет таблицы
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Имя
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Адреса электронной почты
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Номера телефонов
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Адреса
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Заголовок
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Отдел
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Организация
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Адресная книга
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Имя
     .title = Упорядочивать по имени
 about-addressbook-column-label-generatedname2 =
@@ -153,7 +125,7 @@ about-addressbook-column-header-addrbook2 = Адресная книга
 about-addressbook-column-label-addrbook2 =
     .label = Адресная книга
 about-addressbook-cards-context-write =
-    .label = Записать
+    .label = Написать
 about-addressbook-confirm-delete-mixed-title = Удаление контактов и списков
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
@@ -184,16 +156,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[many] Удаление контактов
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Вы действительно хотите удалить { $name } из { $list }?
-        [few] Вы действительно хотите удалить эти { $count } контакта из { $list }?
-       *[many] Вы действительно хотите удалить эти { $count } контактов из { $list }?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Вы уверены, что хотите удалить { $name } из { $list }?
@@ -213,15 +175,6 @@ about-addressbook-confirm-delete-contacts-title =
         [one] Удаление контакта
         [few] Удаление контактов
        *[many] Удаление контактов
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Вы действительно хотите удалить контакт { $name }?
-        [few] Вы действительно хотите удалить эти { $count } контакта?
-       *[many] Вы действительно хотите удалить эти { $count } контактов?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -246,15 +199,6 @@ about-addressbook-placeholder-no-search-results = Контакты не найд
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } выбранных контактов и списков
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } выбранных контактов
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } выбранных списков
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
@@ -283,7 +227,7 @@ about-addressbook-details-edit-photo =
     .title = Изменить фото контакта
 about-addressbook-new-contact-header = Новый контакт
 about-addressbook-prefer-display-name = Использовать отображаемое имя вместо имени из заголовка сообщения
-about-addressbook-write-action-button = Записать
+about-addressbook-write-action-button = Написать
 about-addressbook-event-action-button = Событие
 about-addressbook-search-action-button = Поиск
 about-addressbook-new-list-action-button = Новый список
