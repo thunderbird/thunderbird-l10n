@@ -615,12 +615,18 @@ email-e2ee-header = Fshehtëzim Email-esh Skaj-Më-Skaj
 account-settings = Rregullime Llogarie
 email-e2ee-enable-info = Ujdisni llogari dhe identitete email-i për Fshehtëzim Skaj-Më-Skaj, te Rregullime Llogarie.
 email-e2ee-automatism = Përdorim i Automatizuar i Fshehtëzimit
+email-e2ee-automatism-pre =
+    { -brand-short-name } mund të ndihmojë duke aktivizuar ose çaktivizuar fshehtëzimin, teksa hartohet një emaill.
+    Aktivizimi/çaktivizimi i automatizuar bazohet në praninë e kyçeve apo dëshmive të vlefshme të pranuara të korrespondentëve.
 email-e2ee-auto-on =
     .label = Aktivizo automatikisht fshehtëzimin, kurdo që të jetë e mundur
 email-e2ee-auto-off =
     .label = Çaktivizo automatikisht fshehtëzimin, kur marrësit ndryshojnë dhe fshehtëzimi s’është më i mundshëm
 email-e2ee-auto-off-notify =
     .label = Shfaqë një njoftim, kurdo që fshehtëzimi është çaktivizuar automatikisht
+email-e2ee-automatism-post =
+    Vendime për automatizim mund të anashkalohen duke aktivizuar apo çaktivizuar dorazi fshehtëzimin, kur hartohet një mesash.
+    Shënim: fshehtëzimi është përherë i aktivizuar automatikisht, kur i përgjigjeni një mesazhi të fshehtëzuar.
 
 ## Chat Tab
 

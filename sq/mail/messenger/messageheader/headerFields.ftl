@@ -12,6 +12,7 @@ message-header-reply-to-list-name = Përgjigjuni te
 message-header-cc-list-name = Cc
 message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = Grupe Lajmesh
+message-header-followup-to-list-name = Vazhdojeni te
 message-header-tags-list-name = Etiketa
 
 ## Other message headers.
@@ -20,7 +21,6 @@ message-header-tags-list-name = Etiketa
 message-header-author-field = Autor<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Ent<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Subjekt<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Vazhdojeni te<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Datë<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Agjent përdoruesi<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referenca<span data-l10n-name="field-separator">:</span>

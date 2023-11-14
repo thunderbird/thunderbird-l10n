@@ -21,3 +21,4 @@ webext-perms-description-messagesMove = Kopjoni ose lëvizni mesazhe email tuaja
 webext-perms-description-messagesDelete = Fshini përgjithmonë mesazhet tuaja email
 webext-perms-description-messagesRead = Lexoni mesazhet tuaj email dhe u vini shenjë ose etiketa
 webext-perms-description-messagesTags = Krijoni, ndryshoni dhe fshini etiketa mesazhesh
+webext-perms-description-sensitiveDataUpload = Të shpërngulë të dhëna rezervat përdoruesi (nëse është akorduar hyrje në to ) te një shërbyes i largët për përpunim të mëtejshëm
