@@ -272,6 +272,13 @@ show-bcc-row-button = Bcc
 extra-address-rows-menu-button =
     .title = Fusha të tjera adrese për t’u shfaqur
 public-recipients-notice-single = Mesazhi juaj ka një marrës publik. Nxjerrjen zbuluar të marrësit mund ta shmangni duke përdorur fushën Bcc.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } marrës te fushat Për dhe Cc do të shohë adresën e tjetrit. Nxjerrjen zbuluar të marrësve mund të shmangni duke përdorur fushën Bcc.
+       *[other] { $count } marrësit te fushat Për dhe Cc do të shohin adresën e njëri-tjetrit. Nxjerrjen zbuluar të marrësve mund të shmangni duke përdorur fushën Bcc.
+    }
 many-public-recipients-bcc =
     .label = Më mirë përdor Bcc
     .accesskey = M
