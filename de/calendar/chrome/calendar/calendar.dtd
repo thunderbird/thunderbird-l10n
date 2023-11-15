@@ -144,7 +144,7 @@
 
 <!ENTITY calendar.context.attendance.menu.label                 "Teilnahme">
 <!ENTITY calendar.context.attendance.menu.accesskey             "n">
-<!ENTITY calendar.context.attendance.occurrence.label           "Dieses Ereignis">
+<!ENTITY calendar.context.attendance.occurrence.label           "Dieser Termin">
 <!ENTITY calendar.context.attendance.all2.label                 "Gesamte Terminreihe">
 <!ENTITY calendar.context.attendance.send.label                 "Benachrichtigung jetzt senden">
 <!ENTITY calendar.context.attendance.send.accesskey             "B">
