@@ -41,6 +41,7 @@ about-addressbook-books-context-remove =
     .label = Уклони
 about-addressbook-books-context-startup-default =
     .label = Подразумевана почетна фасцикла
+about-addressbook-confirm-delete-book-title = Обриши именик
 about-addressbook-confirm-remove-remote-book-title = Уклони именик
 
 ## Cards
@@ -55,6 +56,10 @@ about-addressbook-sort-button2 =
     .title = Прикажи опције приказа
 about-addressbook-name-format-display =
     .label = Име за приказ
+about-addressbook-name-format-firstlast =
+    .label = Име и презиме
+about-addressbook-name-format-lastfirst =
+    .label = Презиме, Име
 about-addressbook-sort-name-ascending =
     .label = Поређај по називу (А > Ш)
 about-addressbook-sort-name-descending =
@@ -63,14 +68,16 @@ about-addressbook-sort-email-ascending =
     .label = Поређај по е-адреси (А > Ш)
 about-addressbook-sort-email-descending =
     .label = Поређај по е-адреси (Ш > А)
+about-addressbook-table-layout =
+    .label = Распоред табеле
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-emailaddresses = Адресе е-поште
-about-addressbook-column-header-addrbook = Именик
 about-addressbook-column-header-generatedname2 = Назив
     .title = Поређај по називу
+about-addressbook-column-label-generatedname2 =
+    .label = Назив
 about-addressbook-column-header-emailaddresses2 = Адресе е-поште
     .title = Поређај по адреси е-поште
 about-addressbook-column-label-emailaddresses2 =
@@ -81,6 +88,8 @@ about-addressbook-column-label-nickname2 =
     .label = Надимак
 about-addressbook-column-header-phonenumbers2 = Бројеви телефона
     .title = Поређај по бројевима телефона
+about-addressbook-column-label-phonenumbers2 =
+    .label = Бројеви телефона
 about-addressbook-column-header-addresses2 = Адресе
     .title = Поређај по адресама
 about-addressbook-column-label-addresses2 =
@@ -91,14 +100,19 @@ about-addressbook-column-label-title2 =
     .label = Наслов
 about-addressbook-column-header-department2 = Одељење
     .title = Поређај по одељењу
+about-addressbook-column-label-department2 =
+    .label = Одељење
 about-addressbook-column-header-organization2 = Организација
     .title = Поређај по организацији
+about-addressbook-column-label-organization2 =
+    .label = Организација
 about-addressbook-column-header-addrbook2 = Именик
     .title = Поређај по именику
 about-addressbook-column-label-addrbook2 =
     .label = Именик
 about-addressbook-cards-context-write =
     .label = Пиши
+about-addressbook-confirm-delete-mixed-title = Обриши контакте и листе
 # Variables:
 # $count (Number) - The number of contacts to be removed.
 about-addressbook-confirm-remove-contacts-title =
@@ -111,6 +125,7 @@ about-addressbook-confirm-remove-contacts-title =
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Контакти нису доступни
 about-addressbook-placeholder-new-contact = Нови контакт
 about-addressbook-placeholder-searching = Тражим…
 

@@ -18,6 +18,14 @@ thread-pane-folder-message-count =
         [few] { $count } поруке
        *[other] { $count } порука
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } изабрана
+        [few] { $count } изабране
+       *[other] { $count } изабрано
+    }
 thread-pane-header-context-table-view =
     .label = Приказ табеле
 thread-pane-header-context-cards-view =
@@ -34,6 +42,20 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Задржи примену филтера приликом мењања између фасцикли
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Мени брзог филтрирања
+quick-filter-bar-dropdown-unread =
+    .label = Непрочитано
+quick-filter-bar-dropdown-starred =
+    .label = Са звездицом
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Контакт
+quick-filter-bar-dropdown-tags =
+    .label = Ознаке
+quick-filter-bar-dropdown-attachment =
+    .label = Прилог
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -98,6 +120,16 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Филтрирај ове поруке <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search =
+    .label = Филтер порука:
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Филтрирај поруке… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Потражи свуда
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Режим филтрирања ознака
@@ -165,9 +197,31 @@ folder-pane-header-toggle-folder-size =
     .label = Прикажи величину фасцикле
 folder-pane-header-hide-local-folders =
     .label = Сакриј локалне фасцикле
+folder-pane-mode-context-button =
+    .title = Опције режима фасцикле
 folder-pane-mode-context-toggle-compact-mode =
     .label = Компактни преглед
     .accesskey = К
+folder-pane-mode-move-up =
+    .label = Помери горе
+folder-pane-mode-move-down =
+    .label = Помери доле
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] једна непрочитана порука
+        [few] { $count } непрочитане поруке
+       *[other] { $count } непрочитаних порука
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] једна порука укупно
+        [few] { $count } поруке укупно
+       *[other] { $count } порука укупно
+    }
 
 ## Message thread pane
 
@@ -179,97 +233,160 @@ threadpane-column-header-deselect-all =
     .title = Поништи избор свих порука
 threadpane-column-label-select =
     .label = Одаберите поруке
+threadpane-cell-select =
+    .aria-label = Изабери поруку
 threadpane-column-header-thread =
     .title = Промени стање приказа нити порука
 threadpane-column-label-thread =
     .label = Нит
+threadpane-cell-thread =
+    .aria-label = Стање нити
 threadpane-column-header-flagged =
     .title = Поређај по звездици
 threadpane-column-label-flagged =
     .label = Са звездицом
+threadpane-cell-flagged =
+    .aria-label = Са звездицом
 threadpane-flagged-cell-label = Са звездицом
 threadpane-column-header-attachments =
     .title = Поређај по прилозима
 threadpane-column-label-attachments =
     .label = Прилози
+threadpane-cell-attachments =
+    .aria-label = Прилози
 threadpane-attachments-cell-label = Прилози
 threadpane-column-header-spam =
     .title = Поређај по непожељности
 threadpane-column-label-spam =
     .label = Непожељно
+threadpane-cell-spam =
+    .aria-label = Стање непожељног
 threadpane-spam-cell-label = Непожељно
 threadpane-column-header-unread-button =
     .title = Поређај по стању прочитаности
+threadpane-column-label-unread-button =
+    .label = Стање прочитаности
+threadpane-cell-read-status =
+    .aria-label = Стање прочитаности
+threadpane-read-cell-label = Прочитано
+threadpane-unread-cell-label = Непрочитано
 threadpane-column-header-sender = Шаље
     .title = Поређај по пошиљаоцу
 threadpane-column-label-sender =
     .label = Шаље
+threadpane-cell-sender =
+    .aria-label = Шаље
 threadpane-column-header-recipient = Прималац
     .title = Поређај по примаоцу
 threadpane-column-label-recipient =
     .label = Прималац
+threadpane-cell-recipient =
+    .aria-label = Прималац
 threadpane-column-header-correspondents = Дописници
     .title = Поређај по дописницима
 threadpane-column-label-correspondents =
     .label = Дописници
+threadpane-cell-correspondents =
+    .aria-label = Дописници
 threadpane-column-header-subject = Наслов
     .title = Поређај по наслову
 threadpane-column-label-subject =
     .label = Наслов
+threadpane-cell-subject =
+    .aria-label = Тема
 threadpane-column-header-date = Датум
     .title = Поређај по датуму
 threadpane-column-label-date =
     .label = Датум
+threadpane-cell-date =
+    .aria-label = Датум
 threadpane-column-header-received = Примљено
     .title = Поређај по датуму пријема
 threadpane-column-label-received =
     .label = Примљено
+threadpane-cell-received =
+    .aria-label = Датум пријема
 threadpane-column-header-status = Стање
     .title = Поређај на основу стања
 threadpane-column-label-status =
     .label = Стање
+threadpane-cell-status =
+    .aria-label = Стање
 threadpane-column-header-size = Величина
     .title = Поређај по величини
 threadpane-column-label-size =
     .label = Величина
+threadpane-cell-size =
+    .aria-label = Величина
 threadpane-column-header-tags = Ознаке
     .title = Поређај по ознакама
 threadpane-column-label-tags =
     .label = Ознаке
+threadpane-cell-tags =
+    .aria-label = Ознаке
 threadpane-column-header-account = Налог
     .title = Поређај по налогу
 threadpane-column-label-account =
     .label = Налог
+threadpane-cell-account =
+    .aria-label = Налог
 threadpane-column-header-priority = Првенство
     .title = Поређај по првенству
 threadpane-column-label-priority =
     .label = Првенство
+threadpane-cell-priority =
+    .aria-label = Првенство
 threadpane-column-header-unread = Непрочитано
     .title = Број непрочитаних порука у овој нити
 threadpane-column-label-unread =
     .label = Непрочитано
+threadpane-cell-unread =
+    .aria-label = Број непрочитаних порука
 threadpane-column-header-total = Укупно
     .title = Укупан број порука у овој нити
 threadpane-column-label-total =
     .label = Укупно
+threadpane-cell-total =
+    .aria-label = Укупан број порука
 threadpane-column-header-location = Локација
     .title = Поређај по месту
 threadpane-column-label-location =
     .label = Локација
+threadpane-cell-location =
+    .aria-label = Место
 threadpane-column-header-id = Редослед пријема
     .title = Поређај по редоследу пријема
 threadpane-column-label-id =
     .label = Редослед пријема
+threadpane-cell-id =
+    .aria-label = Редослед пријема
 threadpane-column-header-delete =
     .title = Обриши поруку
 threadpane-column-label-delete =
     .label = Обриши
+threadpane-cell-delete =
+    .aria-label = Обриши
 
 ## Message state variations
 
 threadpane-message-new =
     .alt = Показивач нове поруке
     .title = Нова порука
+threadpane-message-replied =
+    .alt = Показивач одговора
+    .title = Одговор примљен
+threadpane-message-redirected =
+    .alt = Показивач преусмеравања
+    .title = Порука преусмерена
+threadpane-message-forwarded =
+    .alt = Показивач прослеђивања
+    .title = Порука прослеђена
+threadpane-message-replied-forwarded =
+    .alt = Показивач одговора и прослеђивања
+    .title = Примљен одговор на поруку и порука је прослеђена
+threadpane-message-replied-redirected =
+    .alt = Показивач одговора и преусмеравања
+    .title = Примљен одговор на поруку и порука је преусмерена
 apply-columns-to-menu =
     .label = Примени колоне на…
 apply-current-view-to-menu =

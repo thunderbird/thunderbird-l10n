@@ -29,12 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Шаљи OpenPGP јавне кључве у заглављу е-поруке зарад боље усклађености са Autocrypt-ом
     .accesskey = т
-openpgp-cancel-key =
-    .label = Откажи
-    .tooltiptext = Откажи стварање кључа
-openpgp-generate-key =
-    .label = Направи кључ
-    .tooltiptext = Ствара нови OpenPGP усклађени кључ за шифровање и/или потписивање
 openpgp-key-man-title =
     .title = OpenPGP управник кључева
 openpgp-key-man-edit-menu =
@@ -132,6 +126,9 @@ keyring-photo = Слика
 
 ## Strings used in keyRing.jsm
 
+# Variables:
+# $output (String) - File that writing was attempted to.
+file-write-failed = Неуспех при упису у датотеку { $output }
 
 ## Strings used in trust.jsm
 

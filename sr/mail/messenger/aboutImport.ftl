@@ -132,12 +132,19 @@ export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-start = Покрени увоз
 
 ## Footer area
 
+footer-help = Потребна вам је помоћ?
+footer-import-documentation = Увези документацију
+footer-export-documentation = Извези документацију
+footer-support-forum = Форум подршке
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = Кораци увоза
 step-confirm = Потврди
 # Variables:
 # $number (number) - step number
