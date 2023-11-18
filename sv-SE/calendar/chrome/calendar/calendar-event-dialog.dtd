@@ -259,7 +259,7 @@
 <!ENTITY event.repeat.does.not.repeat.label             "Återkommer inte">
 <!ENTITY event.repeat.daily.label                       "Daglig">
 <!ENTITY event.repeat.weekly.label                      "Veckovis">
-<!ENTITY event.repeat.every.weekday.label               "Varje dag">
+<!ENTITY event.repeat.every.weekday.label               "Varje vardag">
 <!ENTITY event.repeat.bi.weekly.label                   "Varannan vecka">
 <!ENTITY event.repeat.monthly.label                     "Månadsvis">
 <!ENTITY event.repeat.yearly.label                      "Årlig">
@@ -274,7 +274,7 @@
 
 <!ENTITY event.recurrence.pattern.every.label           "Var" >
 <!ENTITY repeat.units.days.both                         "dag" >
-<!ENTITY event.recurrence.pattern.every.weekday.label   "Varje dag" >
+<!ENTITY event.recurrence.pattern.every.weekday.label   "Varje vardag" >
 
 <!ENTITY event.recurrence.pattern.weekly.every.label    "Var" >
 <!ENTITY repeat.units.weeks.both                        "vecka" >
@@ -358,7 +358,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Skapa" >
 <!ENTITY event.recurrence.appointments.label            "möte(n)" >
 <!ENTITY event.repeat.until.label                       "Upprepa tills" >
-<!ENTITY event.recurrence.preview.label                 "Förhandsgranska">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Bjud in deltagare">
