@@ -67,6 +67,7 @@ openpgp-manager-button =
 
 ## Strings in keyDetailsDlg.xhtml
 
+key-usage-encrypt = Шифруј
 
 ## Strings enigmailMsgComposeOverlay.js
 
