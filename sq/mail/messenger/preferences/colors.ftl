@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Ngjyra
+colors-dialog-title = Ngjyra
 colors-dialog-legend = Tekst dhe Sfond
 text-color-label =
     .value = Tekst:
