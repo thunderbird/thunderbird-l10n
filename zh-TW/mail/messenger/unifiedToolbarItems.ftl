@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = 進度指示器
 toolbar-throbber =
     .title = 進度指示器
+toolbar-create-contact-label = 新連絡人
+toolbar-create-contact =
+    .title = 建立新聯絡人
+toolbar-create-address-book-label = 新增通訊錄
+toolbar-create-address-book =
+    .title = 建立新通訊錄
+toolbar-create-list-label = 新增群組名單
+toolbar-create-list =
+    .title = 建立新郵件群組
+toolbar-import-contacts-label = 匯入
+toolbar-import-contacts =
+    .title = 從檔案匯入聯絡人
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = 新增本機通訊錄
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = 新增 CardDAV 通訊錄
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = 新增 LDAP 通訊錄

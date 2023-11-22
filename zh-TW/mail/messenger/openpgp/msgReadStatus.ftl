@@ -21,22 +21,43 @@ openpgp-openpgp = OpenPGP
 openpgp-no-sig = 沒有數位簽章
 openpgp-no-sig-info = 此訊息中未包含寄件者的數位簽章。這代表訊息可能是別人冒名寄送，也有可能在傳送過程中已遭人修改。
 openpgp-uncertain-sig = 無法確認的數位簽章
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-uncertain-sig-with-date = 無法確認的數位簽章 - 簽署於 { $date }
 openpgp-invalid-sig = 無效的數位簽章
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = 無效的數位簽章 - 簽署於 { $date }
+openpgp-bad-date-sig = 簽章日期不符
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = 簽署日期不符 - 簽署於 { $date }
 openpgp-good-sig = 正確的數位簽章
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = 正確的數位簽章 - 簽署於 { $date }
 openpgp-sig-uncertain-no-key = 此訊息包含數位簽章，但無法確認簽章是否正確。若要驗證簽章，需要取得寄件者的公鑰。
 openpgp-sig-uncertain-uid-mismatch = 此訊息包含數位簽章，但與已知的簽章不符。訊息是由與寄件者公鑰不符的電子郵件地址寄出的。
 openpgp-sig-uncertain-not-accepted = 此訊息包含數位簽章，但您尚未決定寄件者的金鑰是否可接受。
 openpgp-sig-invalid-rejected = 此訊息包含數位簽章，但您先前曾決定要拒絕簽署者的金鑰。
 openpgp-sig-invalid-technical-problem = 此訊息包含數位簽章，但偵測到技術錯誤。可能是訊息已毀損或遭人竄改。
+openpgp-sig-invalid-date-mismatch = 此訊息包含數位簽章但數位簽章不是在寄出時簽署。這可能是您嘗試使用不正確的情境內容來欺騙您:例如在其他時間環境寫下或為別人設計的內容。
 openpgp-sig-valid-unverified = 此訊息包含您先前接受過的金鑰所簽署的有效數位簽章。但您還沒有確認過金鑰真的屬於該寄件者。
 openpgp-sig-valid-verified = 此訊息包含已驗證的金鑰所簽署的有效數位簽章。
 openpgp-sig-valid-own-key = 此訊息包含由您的個人金鑰所簽署的有效數位簽章。
+# Variables:
+# $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = 簽署者金鑰 ID: { $key }
+# Variables:
+# $key (String) - The primary ID of the OpenPGP key used to create the signature.
+# $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
 openpgp-sig-key-id-with-subkey-id = 簽署者金鑰 ID: { $key }（子金鑰 ID: { $subkey }）
+# Variables:
+# $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = 您的解密金鑰 ID: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = 您的解密金鑰 ID: { $key }（子金鑰 ID: { $subkey }）
 openpgp-enc-none = 郵件未加密
 openpgp-enc-none-label = 此郵件寄出前沒被加密過。未加密的資訊在網際網路傳輸過程中有可能被偷看。
