@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Mewngofnodion wedi eu Cadw
+saved-logins-title = Mewngofnodion wedi eu Cadw
 window-close =
     .key = c
 focus-search-primary-shortcut =

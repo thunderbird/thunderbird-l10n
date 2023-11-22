@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = Derbynebau Dychwelyd
+receipts-dialog-title = Derbynebau Dychwelyd
 return-receipt-checkbox-control =
     .label = Wrth anfon negeseuon, gofyn bob tro am dderbynneb dychwelyd
     .accesskey = a

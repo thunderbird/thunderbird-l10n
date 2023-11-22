@@ -4,11 +4,10 @@
 
 tag-dialog-window =
     .title = Tab Newydd
-
+tag-dialog-title = Tab Newydd
 tag-name-label =
     .value = Enw Tag:
     .accesskey = T
-
 tag-color-label =
     .value = Lliw:
     .accesskey = L

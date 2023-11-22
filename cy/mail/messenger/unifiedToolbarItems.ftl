@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Dangosydd Gweithgaredd
 toolbar-throbber =
     .title = Dangosydd Gweithgaredd
+toolbar-create-contact-label = Cysylltiad Newydd
+toolbar-create-contact =
+    .title = Creu cyswllt newydd
+toolbar-create-address-book-label = Llyfr Cyfeiriadau Newydd
+toolbar-create-address-book =
+    .title = Creu llyfr cyfeiriadau newydd
+toolbar-create-list-label = Rhestr Newydd
+toolbar-create-list =
+    .title = Creu rhestr bostio newydd
+toolbar-import-contacts-label = Mewnforio
+toolbar-import-contacts =
+    .title = Mewnforio cysylltiadau o ffeil
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Ychwanegu Llyfr Cyfeiriadau Lleol
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Ychwanegu Llyfr Cyfeiriadau CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Ychwanegu Llyfr Cyfeiriadau LDAP
