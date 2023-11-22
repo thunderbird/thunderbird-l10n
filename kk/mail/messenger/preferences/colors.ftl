@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Түстер
+colors-dialog-title = Түстер
 colors-dialog-legend = Мәтін мен аясы
 text-color-label =
     .value = Мәтін:
