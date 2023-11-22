@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Χρώματα
+colors-dialog-title = Χρώματα
 colors-dialog-legend = Κείμενο και φόντο
 text-color-label =
     .value = Κείμενο:
