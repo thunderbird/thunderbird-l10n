@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Boje
+colors-dialog-title = Boje
 colors-dialog-legend = Tekst i pozadina
 text-color-label =
     .value = Tekst:
