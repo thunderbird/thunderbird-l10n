@@ -59,8 +59,6 @@ toolbar-junk-label = Čapor
 toolbar-junk =
     .title = Wubrane powěsće jako čapor markěrować
 toolbar-delete-label = Zhašeć
-toolbar-delete =
-    .title = Wubrane powěsće abo rjadowak zhašeć
 toolbar-delete-title =
     .title = Wubrane powěsće zhašeć
 toolbar-undelete-label = Wobnowić
@@ -144,3 +142,22 @@ toolbar-stop =
 toolbar-throbber-label = Pokazowar aktiwity
 toolbar-throbber =
     .title = Pokazowar aktiwity
+toolbar-create-contact-label = Nowy kontakt
+toolbar-create-contact =
+    .title = Nowy kontakt wutworić
+toolbar-create-address-book-label = Nowy adresnik
+toolbar-create-address-book =
+    .title = Nowy adresnik załožić
+toolbar-create-list-label = Nowa lisćina
+toolbar-import-contacts-label = Importować
+toolbar-import-contacts =
+    .title = Kontakty z dataje importować
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Lokalny adresnik přidać
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Adresnik CardDAV přidać
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Adresnik LDAP přidać
