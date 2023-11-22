@@ -2,13 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window =
-    .title = Цвета
-    .style =
-        { PLATFORM() ->
-            [macos] width: 57em !important
-           *[other] width: 42em !important
-        }
 colors-dialog-window2 =
     .title = Цвета
 colors-dialog-legend = Текст и фон
