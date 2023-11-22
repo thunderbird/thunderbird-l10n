@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Koloreak
+colors-dialog-title = Koloreak
 colors-dialog-legend = Testua eta atzeko planoa
 text-color-label =
     .value = Testua:
