@@ -41,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Tuta powěsć digitalnu signaturu wobsahuje
 openpgp-sig-uncertain-not-accepted = Tuta powěsć digitalnu signaturu wobsahuje, ale njejsće hišće rozsudźił, hač kluč signowarja je za was akceptabelny.
 openpgp-sig-invalid-rejected = Tuta powěsć digitalnu signaturu wobsahuje, ale sće do toho rozsudźił, kluč signowarja wotpokazać.
 openpgp-sig-invalid-technical-problem = Tuta powěsć digitalnu signaturu wobsahuje, ale techniski zmylk je so namakał. Pak je powěsć wobškodźena pak něchtó druhi je powěsć změnił.
+openpgp-sig-invalid-date-mismatch = Tuta powěsć digitalnu signaturu wobsahuje, ale signatura njeje so w samsnym času wutworiła kaž je so e-mejlowa powěsć pósłała. To móhło pospyt być, was z wobsahom ze sfalšowaneho konteksta jebać: na př. wobsah, kotryž je so w druhim časowym konteksće napisał abo kotryž je za někoho druheho mysleny.
 openpgp-sig-valid-unverified = Tuta powěsć płaćiwu signaturu z kluča wobsahuje, kotryž je so hižo akceptował. Ale hišće njejsće přepruwował, hač kluč woprawdźe wotpósłarjej słuša.
 openpgp-sig-valid-verified = Tuta powěsć płaćiwu digitalnu signaturu z přepruwowaneho kluča wobsahuje.
 openpgp-sig-valid-own-key = Tuta powěsć płaćiwu digitalnu signaturu z wašeho wosobinskeho kluča wobsahuje.
