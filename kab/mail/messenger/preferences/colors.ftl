@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Initen
+colors-dialog-title = Initen
 colors-dialog-legend = Aḍris d ugilal
 text-color-label =
     .value = Aḍris:
