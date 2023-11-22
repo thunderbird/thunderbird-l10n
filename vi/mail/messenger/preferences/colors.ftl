@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Màu
+colors-dialog-title = Màu
 colors-dialog-legend = Văn bản và nền
 text-color-label =
     .value = Văn bản:
