@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = 色彩
+colors-dialog-title = 色彩
 colors-dialog-legend = 文字與背景
 text-color-label =
     .value = 文字:
