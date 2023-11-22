@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Colurs
+colors-dialog-title = Colurs
 colors-dialog-legend = Text e fund davos
 text-color-label =
     .value = Text:
