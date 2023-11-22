@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Barvy
+colors-dialog-title = Barvy
 colors-dialog-legend = Text a pozadí
 text-color-label =
     .value = Text:
