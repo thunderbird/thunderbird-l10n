@@ -9,17 +9,17 @@
 
 webext-perms-description-accountsFolders = Creare, rinominare o eliminare le cartelle dell’account di posta
 webext-perms-description-accountsIdentities = Creare, modificare o eliminare le identità dell’account di posta
-webext-perms-description-accountsRead = Visualizzare i tuoi account di posta, le identità e le cartelle a essi associate
+webext-perms-description-accountsRead = Visualizzare gli account di posta, le identità e le cartelle a essi associate
 webext-perms-description-addressBooks = Leggere e modificare la rubrica e i contatti
 webext-perms-description-compose = Leggere e modificare le email in fase di composizione e di invio
 webext-perms-description-compose-send = Inviare messaggi di posta elettronica per conto dell’utente
 webext-perms-description-compose-save = Salvare messaggi di posta elettronica come bozze o modelli
 webext-perms-description-experiment = Avere accesso completo e senza restrizioni a { -brand-short-name } e al computer
-webext-perms-description-messagesImport = Importa messaggi in Thunderbird
+webext-perms-description-messagesImport = Importare messaggi in Thunderbird
 webext-perms-description-messagesModify = Leggere e modificare le email mentre vengono visualizzate
-webext-perms-description-messagesMove = Copia o sposta i tuoi messaggi email (incluso lo spostamento nel cestino)
-webext-perms-description-messagesDelete = Elimina definitivamente i tuoi messaggi email
-webext-perms-description-messagesRead = Leggi i messaggi e contrassegnali o aggiungi un’etichetta
+webext-perms-description-messagesMove = Copiare o spostare i messaggi email (incluso lo spostamento nel cestino)
+webext-perms-description-messagesDelete = Eliminare definitivamente i messaggi email
+webext-perms-description-messagesRead = Leggere i messaggi e contrassegnarli o aggiungere un’etichetta
 webext-perms-description-messagesRead2 = Leggere i messaggi di posta elettronica
 webext-perms-description-messagesUpdate = Modificare proprietà ed etichette dei messaggi di posta elettronica
 webext-perms-description-messagesTags = Creare, modificare ed eliminare le etichette dei messaggi
