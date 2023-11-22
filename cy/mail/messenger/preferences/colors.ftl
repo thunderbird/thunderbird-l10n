@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Lliwiau
+colors-dialog-title = Lliwiau
 colors-dialog-legend = Testun a Chefndir
 text-color-label =
     .value = Testun:
