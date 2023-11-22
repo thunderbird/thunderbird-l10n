@@ -4,7 +4,7 @@
 
 saved-logins =
     .title = Ingresos guardados
-saved-logins-title = Ingresos guardados
+saved-logins-title = Inicios de sesión guardados
 window-close =
     .key = w
 focus-search-primary-shortcut =
