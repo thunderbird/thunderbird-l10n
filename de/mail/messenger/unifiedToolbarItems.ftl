@@ -59,8 +59,6 @@ toolbar-junk-label = Junk
 toolbar-junk =
     .title = Gewählte Nachricht(en) als Junk einstufen
 toolbar-delete-label = Löschen
-toolbar-delete =
-    .title = Gewählte(n) Nachricht(en) oder Ordner löschen
 toolbar-delete-title =
     .title = Ausgewählte Nachrichten löschen
 toolbar-undelete-label = Wiederherstellen
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Aktivitätsindikator
 toolbar-throbber =
     .title = Aktivitätsindikator
+toolbar-create-contact-label = Neuer Kontakt
+toolbar-create-contact =
+    .title = Neuen Kontakt anlegen
+toolbar-create-address-book-label = Neues Adressbuch
+toolbar-create-address-book =
+    .title = Neues Adressbuch anlegen
+toolbar-create-list-label = Neue Liste
+toolbar-create-list =
+    .title = Neue Mailingliste anlegen
+toolbar-import-contacts-label = Importieren
+toolbar-import-contacts =
+    .title = Kontakte aus einer Datei importieren
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Lokales Adressbuch hinzufügen
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = CardDAV-Adressbuch hinzufügen
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = LDAP-Adressbuch hinzufügen

@@ -28,6 +28,10 @@ openpgp-invalid-sig = Ungültige digitale Signatur
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Ungültige digitale Signatur – Signiert am { $date }
+openpgp-bad-date-sig = Signatur-Datumskonflikt
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Signaturdatum stimmt nicht überein - Signiert am { $date }
 openpgp-good-sig = Gute digitale Signatur
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Diese Nachricht enthält eine digitale Sign
 openpgp-sig-uncertain-not-accepted = Diese Nachricht enthält eine digitale Signatur, aber Sie haben noch nicht entschieden, ob Sie den Schlüssel des Unterzeichners akzeptieren.
 openpgp-sig-invalid-rejected = Diese Nachricht enthält eine digitale Signatur, aber Sie haben zuvor entschieden, den Unterzeichnerschlüssel abzulehnen.
 openpgp-sig-invalid-technical-problem = Diese Nachricht enthält eine digitale Signatur, aber es wurde ein technischer Fehler festgestellt. Entweder wurde die Nachricht beschädigt oder von einer anderen Person verändert.
+openpgp-sig-invalid-date-mismatch = Diese Nachricht enthält eine digitale Signatur, aber die Signatur wurde nicht zum gleichen Zeitpunkt erstellt, als die E-Mail-Nachricht gesendet wurde. Dies könnte ein Versuch sein, Sie mit Inhalten aus dem falschen Kontext zu täuschen: z.B. Inhalte, die in einem anderen zeitlichen Kontext geschrieben wurden oder für jemand anderes bestimmt sind.
 openpgp-sig-valid-unverified = Diese Nachricht enthält eine gültige digitale Signatur eines Schlüssels, den Sie bereits akzeptiert haben. Sie haben jedoch noch nicht verifiziert, ob dieser Schlüssel wirklich dem Absender gehört.
 openpgp-sig-valid-verified = Diese Nachricht enthält eine gültige digitale Signatur eines verifizierten Schlüssels.
 openpgp-sig-valid-own-key = Diese Nachricht enthält eine gültige digitale Signatur Ihres persönlichen Schlüssels.

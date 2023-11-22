@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Gespeicherte Zugangsdaten
+saved-logins-title = Gespeicherte Zugangsdaten
 window-close =
     .key = w
 focus-search-primary-shortcut =
@@ -48,18 +49,16 @@ remove =
 import =
     .label = Importieren…
     .accesskey = m
-
 password-close-button =
     .label = Schließen
     .accesskey = c
-
 show-passwords =
     .label = Passwörter anzeigen
     .accesskey = z
 hide-passwords =
     .label = Passwörter ausblenden
     .accesskey = b
-logins-description-all =  Zugangsdaten für folgende Anbieter sind auf Ihrem Computer gespeichert:
+logins-description-all = Zugangsdaten für folgende Anbieter sind auf Ihrem Computer gespeichert:
 logins-description-filtered = Folgende Zugangsdaten stimmen mit Ihrer Suche überein:
 remove-all =
     .label = Alle entfernen
@@ -75,12 +74,10 @@ no-master-password-prompt = Sollen Ihre Passwörter wirklich angezeigt werden?
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Bestätigen Sie Ihre Identität, um die gespeicherten Passwörter anzuzeigen.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = gespeicherte Passwörter anzeigen
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
