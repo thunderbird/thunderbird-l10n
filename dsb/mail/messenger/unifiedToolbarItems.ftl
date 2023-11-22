@@ -59,8 +59,6 @@ toolbar-junk-label = Cajk
 toolbar-junk =
     .title = Wubrane powěsći ako cajk markěrowaś
 toolbar-delete-label = Lašowaś
-toolbar-delete =
-    .title = Wubrane powěsći abo zarědnik lašowaś
 toolbar-delete-title =
     .title = Wubrane powěsći lašowaś
 toolbar-undelete-label = Wótnowiś
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Indikator aktiwity
 toolbar-throbber =
     .title = Indikator aktiwity
+toolbar-create-contact-label = Nowy kontakt
+toolbar-create-contact =
+    .title = Nowy kontakt napóraś
+toolbar-create-address-book-label = Nowy adresnik
+toolbar-create-address-book =
+    .title = Nowy adresnik załožyś
+toolbar-create-list-label = Nowa lisćina
+toolbar-create-list =
+    .title = Nowu rozpósłańsku lisćinu załožyś
+toolbar-import-contacts-label = Importěrowaś
+toolbar-import-contacts =
+    .title = Kontakty z dataje importěrowaś
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Lokalny adresnik pśidaś
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Adresnik CardDAV pśidaś
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Adresnik LDAP pśidaś

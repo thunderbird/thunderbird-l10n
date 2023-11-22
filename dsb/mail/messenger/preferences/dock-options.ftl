@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-dock-options-window-dialog =
-    .title = Nastajenja nałožeńskego symbola
-    .style = width: 37em;
 dock-options-window-dialog2 =
     .title = Nastajenja nałožeńskego symbola
+dock-options-dialog-title = Nastajenja nałožeńskego symbola
 dock-options-show-badge =
     .label = Pśitykack pokazaś
     .accesskey = P

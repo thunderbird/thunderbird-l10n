@@ -28,6 +28,10 @@ openpgp-invalid-sig = Njepłaśiwa digitalna signatura
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Njepłaśiwa digitalna signatura – pódpisana dnja { $date }
+openpgp-bad-date-sig = Datumowy konflikt signatury
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Datumowy konflikt signatury – { $date } signěrowany
 openpgp-good-sig = Dobra digitalna signatura
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
