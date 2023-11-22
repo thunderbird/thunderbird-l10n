@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Farver
+colors-dialog-title = Farver
 colors-dialog-legend = Tekst og baggrund
 text-color-label =
     .value = Tekst:
