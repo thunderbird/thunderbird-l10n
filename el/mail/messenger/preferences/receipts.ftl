@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = Αποδεικτικά προβολής
+receipts-dialog-title = Αποδεικτικά ανάγνωσης
 return-receipt-checkbox-control =
     .label = Κατά την αποστολή μηνυμάτων, να ζητείται πάντα αποδεικτικό προβολής
     .accesskey = Κ

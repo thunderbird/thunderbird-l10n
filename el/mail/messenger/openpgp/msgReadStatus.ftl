@@ -28,6 +28,10 @@ openpgp-invalid-sig = Μη έγκυρη ψηφιακή υπογραφή
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Μη έγκυρη ψηφιακή υπογραφή - Υπογράφηκε στις { $date }
+openpgp-bad-date-sig = Ασυμφωνία ημερομηνίας υπογραφής
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Ασυμφωνία ημερομηνίας υπογραφής - Υπογραφή στις { $date }
 openpgp-good-sig = Έγκυρη ψηφιακή υπογραφή
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Αυτό το μήνυμα περιέχει
 openpgp-sig-uncertain-not-accepted = Αυτό το μήνυμα περιέχει ψηφιακή υπογραφή, αλλά δεν έχετε αποφασίσει ακόμα αν το κλειδί του υπογράφοντα είναι αποδεκτό από εσάς.
 openpgp-sig-invalid-rejected = Αυτό το μήνυμα περιέχει ψηφιακή υπογραφή, αλλά έχετε ήδη αποφασίσει να απορρίψετε το κλειδί του υπογράφοντα.
 openpgp-sig-invalid-technical-problem = Αυτό το μήνυμα περιέχει μια ψηφιακή υπογραφή, αλλά εντοπίστηκε ένα τεχνικό σφάλμα. Είτε το μήνυμα έχει καταστραφεί, είτε το μήνυμα έχει τροποποιηθεί από κάποιον άλλο.
+openpgp-sig-invalid-date-mismatch = Αυτό το μήνυμα περιέχει μια ψηφιακή υπογραφή, αλλά η υπογραφή δεν δημιουργήθηκε την ίδια στιγμή που απεστάλη το μήνυμα email. Αυτό θα μπορούσε να είναι μια απόπειρα εξαπάτησης με περιεχόμενο από λάθος πλαίσιο: π.χ. περιεχόμενο που γράφτηκε σε άλλο χρονικό πλαίσιο ή που προορίζεται για άλλο άτομο.
 openpgp-sig-valid-unverified = Αυτό το μήνυμα περιλαμβάνει μια έγκυρη, ψηφιακή υπογραφή από ένα κλειδί που έχετε ήδη αποδεχτεί. Ωστόσο, δεν έχετε επαληθεύσει ακόμη ότι το κλειδί ανήκει πράγματι στον αποστολέα.
 openpgp-sig-valid-verified = Αυτό το μήνυμα περιλαμβάνει μια έγκυρη, ψηφιακή υπογραφή από ένα επαληθευμένο κλειδί.
 openpgp-sig-valid-own-key = Αυτό το μήνυμα περιέχει έγκυρη ψηφιακή υπογραφή από το προσωπικό σας κλειδί.
