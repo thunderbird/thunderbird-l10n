@@ -28,6 +28,10 @@ openpgp-invalid-sig = Signature numérique non valide
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Signature numérique invalide - Signé le { $date }
+openpgp-bad-date-sig = Non-concordance de la date de la signature
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Non-concordance de la date de la signature - Signé le { $date }
 openpgp-good-sig = Signature numérique correcte
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Ce message contient une signature numériqu
 openpgp-sig-uncertain-not-accepted = Ce message contient une signature numérique, mais vous n’avez pas encore indiqué si la clé du signataire vous paraît correcte ou non.
 openpgp-sig-invalid-rejected = Ce message contient une signature numérique, mais vous avez précédemment décidé de rejeter la clé du signataire.
 openpgp-sig-invalid-technical-problem = Ce message contient une signature numérique, mais une erreur technique a été détectée. Soit le message a été corrompu, soit le message a été modifié par quelqu’un d’autre.
+openpgp-sig-invalid-date-mismatch = Ce message contient une signature numérique, mais cette signature n’a pas été effectuée au moment de l’envoi du courrier électronique. Il peut s’agir d’une tentative de vous tromper avec du contenu provenant du mauvais contexte : par ex. un contenu écrit dans un autre contexte ponctuel ou destiné à quelqu’un d’autre.
 openpgp-sig-valid-unverified = Ce message comprend une signature numérique valide d’une clé que vous avez déjà acceptée. Cependant, vous n’avez pas encore vérifié que la clé appartient réellement à l’expéditeur.
 openpgp-sig-valid-verified = Ce message comprend une signature numérique valide d’une clé vérifiée.
 openpgp-sig-valid-own-key = Ce message comprend une signature numérique valide de votre clé personnelle.

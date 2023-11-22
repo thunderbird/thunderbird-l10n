@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Identifiants enregistrés
+saved-logins-title = Identifiants enregistrés
 window-close =
     .key = w
 focus-search-primary-shortcut =
@@ -48,11 +49,9 @@ remove =
 import =
     .label = Importer…
     .accesskey = I
-
 password-close-button =
     .label = Fermer
     .accesskey = F
-
 show-passwords =
     .label = Afficher les mots de passe
     .accesskey = A
@@ -75,12 +74,10 @@ no-master-password-prompt = Voulez-vous vraiment afficher vos mots de passe ?
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Confirmez votre identité pour révéler les mots de passe enregistrés.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = révéler les mots de passe enregistrés
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }

@@ -59,8 +59,6 @@ toolbar-junk-label = Indésirable
 toolbar-junk =
     .title = Marquer le message sélectionné comme indésirable
 toolbar-delete-label = Supprimer
-toolbar-delete =
-    .title = Supprimer les messages ou dossiers sélectionnés
 toolbar-delete-title =
     .title = Supprimer les messages sélectionnés
 toolbar-undelete-label = Restaurer
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Indicateur d’activité
 toolbar-throbber =
     .title = Indicateur d’activité
+toolbar-create-contact-label = Nouveau contact
+toolbar-create-contact =
+    .title = Créer un nouveau contact
+toolbar-create-address-book-label = Nouveau carnet d’adresses
+toolbar-create-address-book =
+    .title = Créer un nouveau carnet d’adresses
+toolbar-create-list-label = Nouvelle liste
+toolbar-create-list =
+    .title = Créer une nouvelle liste de diffusion
+toolbar-import-contacts-label = Importer
+toolbar-import-contacts =
+    .title = Importer des contacts depuis un fichier
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Ajouter un carnet d’adresses local
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Ajouter un carnet d’adresses CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Ajouter un carnet d’adresses LDAP
