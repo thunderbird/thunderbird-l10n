@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Színek
+colors-dialog-title = Színek
 colors-dialog-legend = Szöveg és háttér
 text-color-label =
     .value = Szöveg:
