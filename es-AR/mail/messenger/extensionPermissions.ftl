@@ -23,5 +23,5 @@ webext-perms-description-messagesRead = Lea sus mensajes de correo electrónico 
 webext-perms-description-messagesRead2 = Lea sus mensajes de correo electrónico
 webext-perms-description-messagesUpdate = Cambiar las propiedades y etiquetas de sus mensajes de correo electrónico
 webext-perms-description-messagesTags = Crear, modificar y eliminar etiquetas de mensajes
-webext-perms-description-messagesTagsList = Listar etiquetas de mensaje
+webext-perms-description-messagesTagsList = Hacer listas de las etiquetas de mensaje
 webext-perms-description-sensitiveDataUpload = Transferir datos confidenciales del usuario (si se ha otorgado acceso) a un servidor remoto para su posterior procesamiento

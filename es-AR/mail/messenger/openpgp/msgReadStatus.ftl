@@ -31,7 +31,7 @@ openpgp-invalid-sig-with-date = Firma digital inválida - Firmado el { $date }
 openpgp-bad-date-sig = La fecha de la firma no coincide
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-bad-date-sig-with-date = La fecha de la firma no coincide - Firmado el { $date }
+openpgp-bad-date-sig-with-date = La fecha de la firma no coincide Firmado el { $date }
 openpgp-good-sig = Buena firma digital
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -41,7 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Este mensaje contiene una firma digital, pe
 openpgp-sig-uncertain-not-accepted = Este mensaje contiene una firma digital, pero todavía  no decidió si la clave del firmante es aceptable para usted.
 openpgp-sig-invalid-rejected = Este mensaje contiene una firma digital, pero previamente decidió rechazar la clave del firmante.
 openpgp-sig-invalid-technical-problem = Este mensaje contiene una firma digital, pero se detectó un error técnico. O el mensaje está corrupto o fue modificado por otra persona.
-openpgp-sig-invalid-date-mismatch = Este mensaje contiene una firma digital, pero la firma no se realizó en el mismo momento en que se envió el mensaje de correo electrónico. Esto podría ser un intento de engañarlo con contenido del contexto incorrecto: p. contenido escrito en otro contexto actual o destinado a otra persona.
+openpgp-sig-invalid-date-mismatch = Este mensaje contiene una firma digital, pero la firma no se realizó en el mismo momento en que se envió el mensaje de correo electrónico. Esto podría ser un intento de engañarlo con contenido del contexto incorrecto: por ejemplo, contenido escrito en otro contexto  o destinado a otra persona.
 openpgp-sig-valid-unverified = Este mensaje incluye una firma digital válida de una clave que había sido aceptaba previamente. Sin embargo, no se verificó que la clave sea realmente propiedad del remitente.
 openpgp-sig-valid-verified = Este mensaje incluye una firma digital válida de una clave verificada.
 openpgp-sig-valid-own-key = Este mensaje incluye una firma digital válida de su clave personal.
