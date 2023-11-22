@@ -21,22 +21,43 @@ openpgp-openpgp = OpenPGP
 openpgp-no-sig = Нет цифровой подписи
 openpgp-no-sig-info = Это сообщение не содержит цифровую подпись отправителя. Её отсутствие означает, что сообщение могло быть отправлено кем-нибудь ещё, притворяющимся, что у него есть этот адрес электронной почты. Также возможно, что сообщение было изменено во время передачи по сети.
 openpgp-uncertain-sig = Неопределённая цифровая подпись
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-uncertain-sig-with-date = Неопределённая цифровая подпись — Подписано { $date }
 openpgp-invalid-sig = Неверная цифровая подпись
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Неверная цифровая подпись — Подписано { $date }
+openpgp-bad-date-sig = Несоответствие даты подписи
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Несоответствие даты подписи: подписано { $date }
 openpgp-good-sig = Хорошая цифровая подпись
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Хорошая цифровая подпись — Подписано { $date }
 openpgp-sig-uncertain-no-key = Это сообщение содержит цифровую подпись, но неясно, корректна ли она. Для проверки подписи необходимо получить копию открытого ключа отправителя.
 openpgp-sig-uncertain-uid-mismatch = Это сообщение содержит цифровую подпись, но обнаружено несоответствие. Сообщение было отправлено с адреса электронной почты, который не соответствует открытому ключу подписавшего.
 openpgp-sig-uncertain-not-accepted = Это сообщение содержит цифровую подпись, но вы ещё не решили, принимать ли ключ подписавшего.
 openpgp-sig-invalid-rejected = Это сообщение содержит цифровую подпись, но вы ранее решили отклонить ключ подписавшего.
 openpgp-sig-invalid-technical-problem = Это сообщение содержит цифровую подпись, но была обнаружена техническая ошибка. Либо сообщение было повреждено, либо было изменено кем-то другим.
+openpgp-sig-invalid-date-mismatch = Это сообщение содержит цифровую подпись, но подпись не была сделана во время отправки сообщения электронной почты. Это может быть попыткой обмануть вас содержимым из неправильного контекста: например, содержимое, написанное в другом актуальном контексте или предназначенное для кого-то другого.
 openpgp-sig-valid-unverified = Это сообщение содержит действительную цифровую подпись, соответствующую ключу, который вы уже приняли. Однако вы ещё не убедились, что ключ действительно принадлежит отправителю.
 openpgp-sig-valid-verified = Это сообщение включает в себя действительную цифровую подпись, соответствующую проверенному ключу.
 openpgp-sig-valid-own-key = Это сообщение включает в себя действительную цифровую подпись, соответствующую вашему личному ключу.
+# Variables:
+# $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = Идентификатор ключа подписавшего: { $key }
+# Variables:
+# $key (String) - The primary ID of the OpenPGP key used to create the signature.
+# $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
 openpgp-sig-key-id-with-subkey-id = Идентификатор ключа подписавшего: { $key } (Идентификатор подчинённого ключа: { $subkey })
+# Variables:
+# $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = Идентификатор вашего ключа дешифрования: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Идентификатор вашего ключа дешифрования: { $key } (Идентификатор подчинённого ключа: { $subkey })
 openpgp-enc-none = Сообщение не зашифровано
 openpgp-enc-none-label = Сообщение не было зашифровано перед отправкой. Информация, отправленная через Интернет без шифрования, может быть прочитана посторонними людьми во время передачи.

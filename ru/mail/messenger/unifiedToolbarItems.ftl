@@ -59,8 +59,6 @@ toolbar-junk-label = Спам
 toolbar-junk =
     .title = Отметить выбранные сообщения как спам
 toolbar-delete-label = Удалить
-toolbar-delete =
-    .title = Удалить выбранные сообщения или папку
 toolbar-delete-title =
     .title = Удалить выбранные сообщения
 toolbar-undelete-label = Восстановить
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Индикатор активности
 toolbar-throbber =
     .title = Индикатор активности
+toolbar-create-contact-label = Новый контакт
+toolbar-create-contact =
+    .title = Создать новый контакт
+toolbar-create-address-book-label = Новая адресная книга
+toolbar-create-address-book =
+    .title = Создать новую адресную книгу
+toolbar-create-list-label = Новый список
+toolbar-create-list =
+    .title = Создать новый список рассылки
+toolbar-import-contacts-label = Импорт
+toolbar-import-contacts =
+    .title = Импорт контактов из файла
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Добавить локальную адресную книгу
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Добавить адресную книгу CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Добавить адресную книгу LDAP

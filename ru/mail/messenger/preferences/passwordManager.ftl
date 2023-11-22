@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Сохранённые логины
+saved-logins-title = Сохранённые логины
 window-close =
     .key = w
 focus-search-primary-shortcut =
