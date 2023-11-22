@@ -59,8 +59,6 @@ toolbar-junk-label = Ανεπιθύμητα
 toolbar-junk =
     .title = Επισήμανση επιλεγμένων μηνυμάτων ως ανεπιθύμητων
 toolbar-delete-label = Διαγραφή
-toolbar-delete =
-    .title = Διαγραφή επιλεγμένων μηνυμάτων ή φακέλου
 toolbar-delete-title =
     .title = Διαγραφή επιλεγμένων μηνυμάτων
 toolbar-undelete-label = Αναίρεση διαγραφής
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Επισήμανση ενέργειας
 toolbar-throbber =
     .title = Επισήμανση ενέργειας
+toolbar-create-contact-label = Νέα επαφή
+toolbar-create-contact =
+    .title = Δημιουργία νέας επαφής
+toolbar-create-address-book-label = Νέο ευρετήριο
+toolbar-create-address-book =
+    .title = Δημιουργία νέου ευρετηρίου
+toolbar-create-list-label = Νέα λίστα
+toolbar-create-list =
+    .title = Δημιουργία νέας λίστας αλληλογραφίας
+toolbar-import-contacts-label = Εισαγωγή
+toolbar-import-contacts =
+    .title = Εισαγωγή επαφών από αρχείο
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Προσθήκη τοπικού ευρετηρίου
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Προσθήκη ευρετηρίου CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Προσθήκη ευρετηρίου LDAP
