@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Barve
+colors-dialog-title = Barve
 colors-dialog-legend = Besedilo in ozadje
 text-color-label =
     .value = Besedilo:
