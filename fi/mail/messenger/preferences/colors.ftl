@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Värit
+colors-dialog-title = Värit
 colors-dialog-legend = Tekstin ja taustan asetukset
 text-color-label =
     .value = Teksti:
