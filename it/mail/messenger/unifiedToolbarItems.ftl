@@ -59,8 +59,6 @@ toolbar-junk-label = Indesiderata
 toolbar-junk =
     .title = Segna i messaggi selezionati come posta indesiderata
 toolbar-delete-label = Elimina
-toolbar-delete =
-    .title = Elimina i messaggi o la cartella selezionata
 toolbar-delete-title =
     .title = Elimina i messaggi selezionati
 toolbar-undelete-label = Ripristina
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Indicatore di attività
 toolbar-throbber =
     .title = Indicatore di attività
+toolbar-create-contact-label = Nuovo contatto
+toolbar-create-contact =
+    .title = Crea un nuovo contatto
+toolbar-create-address-book-label = Nuova rubrica
+toolbar-create-address-book =
+    .title = Crea una nuova rubrica
+toolbar-create-list-label = Nuova lista
+toolbar-create-list =
+    .title = Crea una nuova mailing list
+toolbar-import-contacts-label = Importa
+toolbar-import-contacts =
+    .title = Importa contatti da un file
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Aggiungi rubrica locale
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Aggiungi rubrica CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Aggiungi rubrica LDAP
