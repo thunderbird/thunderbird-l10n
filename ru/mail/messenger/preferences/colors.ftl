@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Цвета
+colors-dialog-title = Цвета
 colors-dialog-legend = Текст и фон
 text-color-label =
     .value = Текст:
