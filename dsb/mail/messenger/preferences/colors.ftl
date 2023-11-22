@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Barwy
+colors-dialog-title = Barwy
 colors-dialog-legend = Tekst a slězyna
 text-color-label =
     .value = Tekst:
