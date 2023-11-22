@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Renkler
+colors-dialog-title = Renkler
 colors-dialog-legend = Metin ve Arka Plan
 text-color-label =
     .value = Metin:
