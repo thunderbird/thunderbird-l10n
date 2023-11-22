@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Litir
+colors-dialog-title = Litir
 colors-dialog-legend = Texti og Bakgrunnur
 text-color-label =
     .value = Texti:
