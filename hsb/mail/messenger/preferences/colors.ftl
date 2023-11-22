@@ -4,6 +4,7 @@
 
 colors-dialog-window2 =
     .title = Barby
+colors-dialog-title = Barby
 colors-dialog-legend = Tekst a pozadk
 text-color-label =
     .value = Tekst:
