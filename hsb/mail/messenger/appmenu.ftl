@@ -57,7 +57,7 @@ appmenu-new-newsgroup =
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
-    .title = Nowy asdresnik
+    .title = Nowy adresnik
 appmenu-newab-panel =
     .label = Nowy adresnik
     .accesskey = a
