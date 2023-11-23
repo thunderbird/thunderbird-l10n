@@ -41,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Þessi skilaboð innihalda stafræna undirr
 openpgp-sig-uncertain-not-accepted = Þessi skilaboð innihalda stafræna undirritun en þú hefur ekki enn ákveðið hvort dulritunarlykill undirritarans sé ásættanlegur.
 openpgp-sig-invalid-rejected = Þessi skilaboð innihalda stafræna undirritun en þú hefur áður ákveðið að hafna dulritunarlykli undirritarans.
 openpgp-sig-invalid-technical-problem = Þessi skilaboð innihalda stafræna undirritun en tæknileg villa fannst í henni. Annað hvort hafa skilaboðin skemmst eða þeim verið breytt af einhverjum.
+openpgp-sig-invalid-date-mismatch = Þessi póstur inniheldur stafræna undirritun, en undirritunin var ekki gerð á sama tíma og tölvupósturinn var sendur. Þetta gæti verið tilraun til að blekkja þig með efni úr röngu samhengi: t.d. efni skrifað í öðru tímasamhengi eða ætlað einhverjum öðrum.
 openpgp-sig-valid-unverified = Þessi skilaboð innihalda gilda stafræna undirritun með dulritunarlykli sem þú hefur þegar samþykkt. Hins vegar hefur þú ekki enn staðfest að lykillinn sé raunverulega í eigu sendandans.
 openpgp-sig-valid-verified = Þessi skilaboð innihalda gilda stafræna undirritun með staðfestum lykli.
 openpgp-sig-valid-own-key = Þessi skilaboð innihalda gilda stafræna undirritun með einkalyklinum þínum.
