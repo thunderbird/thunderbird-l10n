@@ -59,8 +59,6 @@ toolbar-junk-label = Спам
 toolbar-junk =
     .title = Таңдалған хабарламаларды спам ретінде белгілеу
 toolbar-delete-label = Өшіру
-toolbar-delete =
-    .title = Таңдалған хабарламаларды немесе буманы өшіру
 toolbar-delete-title =
     .title = Таңдалған хабарламаларды өшіру
 toolbar-undelete-label = Өшірілгенді қалпына келтіру
@@ -144,3 +142,10 @@ toolbar-stop =
 toolbar-throbber-label = Активтілік айқындағышы
 toolbar-throbber =
     .title = Активтілік айқындағышы
+toolbar-create-list-label = Жаңа тізім
+toolbar-create-list =
+    .title = Жаңа хат тарату тізімін жасау
+toolbar-import-contacts-label = Импорттау
+
+## New Address Book popup items
+
