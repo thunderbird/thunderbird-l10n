@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Etkinlik göstergesi
 toolbar-throbber =
     .title = Etkinlik göstergesi
+toolbar-create-contact-label = Yeni kişi
+toolbar-create-contact =
+    .title = Yeni kişi oluştur
+toolbar-create-address-book-label = Yeni adres defteri
+toolbar-create-address-book =
+    .title = Yeni adres defteri oluştur
+toolbar-create-list-label = Yeni liste
+toolbar-create-list =
+    .title = Yeni e-posta listesi oluştur
+toolbar-import-contacts-label = İçe aktar
+toolbar-import-contacts =
+    .title = Kişileri dosyadan içe aktar
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Yerel adres defteri ekle
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = CardDAV adres defteri ekle
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = LDAP adres defteri ekle

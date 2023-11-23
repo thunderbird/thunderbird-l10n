@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Kayıtlı hesaplar
+saved-logins-title = Kayıtlı hesaplar
 window-close =
     .key = w
 focus-search-primary-shortcut =
@@ -48,11 +49,9 @@ remove =
 import =
     .label = İçe aktar…
     .accesskey = a
-
 password-close-button =
     .label = Kapat
     .accesskey = K
-
 show-passwords =
     .label = Parolaları göster
     .accesskey = p
@@ -75,12 +74,10 @@ no-master-password-prompt = Parolalarınızı göstermek istediğinizden emin mi
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Kayıtlı parolaları görmek için kimliğinizi doğrulayın.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = kayıtlı parolaları gösterme
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
