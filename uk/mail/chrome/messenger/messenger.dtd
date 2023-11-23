@@ -150,35 +150,35 @@
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Сортування">
 <!ENTITY sortMenu.accesskey "С">
-<!ENTITY sortByDateCmd.label "за датою">
-<!ENTITY sortByDateCmd.accesskey "д">
+<!ENTITY sortByDateCmd.label "Дата">
+<!ENTITY sortByDateCmd.accesskey "а">
 <!ENTITY sortByReceivedCmd.label "Отримано">
 <!ENTITY sortByReceivedCmd.accesskey "О">
-<!ENTITY sortByStarCmd.label "за зірочкою">
-<!ENTITY sortByStarCmd.accesskey "р">
-<!ENTITY sortByAttachmentsCmd.label "за вкладеннями">
+<!ENTITY sortByStarCmd.label "Зірочка">
+<!ENTITY sortByStarCmd.accesskey "ч">
+<!ENTITY sortByAttachmentsCmd.label "Вкладення">
 <!ENTITY sortByAttachmentsCmd.accesskey "л">
-<!ENTITY sortByPriorityCmd.label "за важливістю">
+<!ENTITY sortByPriorityCmd.label "Важливість">
 <!ENTITY sortByPriorityCmd.accesskey "ж">
-<!ENTITY sortBySizeCmd.label "за розміром">
+<!ENTITY sortBySizeCmd.label "Розмір">
 <!ENTITY sortBySizeCmd.accesskey "з">
-<!ENTITY sortByStatusCmd.label "за станом">
+<!ENTITY sortByStatusCmd.label "Стан">
 <!ENTITY sortByStatusCmd.accesskey "т">
-<!ENTITY sortByTagsCmd.label "за мітками">
+<!ENTITY sortByTagsCmd.label "Мітки">
 <!ENTITY sortByTagsCmd.accesskey "м">
-<!ENTITY sortByJunkStatusCmd.label "за ознакою спаму">
+<!ENTITY sortByJunkStatusCmd.label "Ознака спаму">
 <!ENTITY sortByJunkStatusCmd.accesskey "с">
-<!ENTITY sortBySubjectCmd.label "за темою">
+<!ENTITY sortBySubjectCmd.label "Тема">
 <!ENTITY sortBySubjectCmd.accesskey "е">
 <!ENTITY sortByFromCmd.label "Від">
 <!ENTITY sortByFromCmd.accesskey "В">
-<!ENTITY sortByRecipientCmd.label "За отримувачем">
+<!ENTITY sortByRecipientCmd.label "Отримувач">
 <!ENTITY sortByRecipientCmd.accesskey "т">
 <!ENTITY sortByCorrespondentCmd.label "Кореспонденти">
 <!ENTITY sortByCorrespondentCmd.accesskey "е">
-<!ENTITY sortByUnreadCmd.label "за прочитаністю">
-<!ENTITY sortByUnreadCmd.accesskey "ч">
-<!ENTITY sortByOrderReceivedCmd.label "за порядком отримання">
+<!ENTITY sortByUnreadCmd.label "Прочитано">
+<!ENTITY sortByUnreadCmd.accesskey "и">
+<!ENTITY sortByOrderReceivedCmd.label "Порядок отримання">
 <!ENTITY sortByOrderReceivedCmd.accesskey "я">
 <!ENTITY sortAscending.label "За зростанням">
 <!ENTITY sortAscending.accesskey "з">
