@@ -36,11 +36,28 @@ appmenu-new-account-panel =
     .label = Нов профил
     .accesskey = { "" }
 appmenu-create-new-mail-account =
-    .label = Регистрация на нов имейл
+    .label = Регистрация на нова поща
+    .accesskey = { "" }
+appmenu-new-calendar =
+    .label = Календар
+    .accesskey = { "" }
+appmenu-new-chat-account =
+    .label = Разговори
+    .accesskey = { "" }
+appmenu-new-feed =
+    .label = Емисии
+    .accesskey = { "" }
+appmenu-new-newsgroup =
+    .label = Дискусионна група
     .accesskey = { "" }
 
 ## New Account / Address Book
 
+appmenu-newab-panel-title =
+    .title = Нов адресник
+appmenu-newab-panel =
+    .label = Нов адресник
+    .accesskey = { "" }
 
 ## Create
 
@@ -56,6 +73,32 @@ appmenu-create-new-mail-account =
 
 ## Help
 
+appmenu-help-panel-title =
+    .title = Помощ
+appmenu-help-get-help =
+    .label = Получaаване на помощ
+    .accesskey = { "" }
+appmenu-help-explore-features =
+    .label = Разучaване на възможностите
+    .accesskey = Р
+appmenu-help-shortcuts =
+    .label = Клавишни комбинации
+    .accesskey = К
+appmenu-help-get-involved =
+    .label = Включете се
+    .accesskey = { "" }
+appmenu-help-donation =
+    .label = Направете дарение
+    .accesskey = р
+appmenu-help-share-feedback =
+    .label = Споделяне на идеи и обратна връзка
+    .accesskey = в
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Режим за отстраняване на неизправности…
+    .accesskey = н
+appmenu-help-about-product =
+    .label = Относно { -brand-short-name }
+    .accesskey = { "" }
 
 ## Application Update
 

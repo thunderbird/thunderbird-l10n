@@ -1,0 +1,135 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+toolbar-context-menu-menu-bar =
+    .toolbarname = Лента с менюта
+    .accesskey = { "" }
+
+## Tools Menu
+
+menu-tools-settings =
+    .label = Настройки
+    .accesskey = { "" }
+menu-addons-and-themes =
+    .label = Добавки и теми
+    .accesskey = { "" }
+
+## Help Menu
+
+menu-help-help-title =
+    .label = Помощ
+    .accesskey = { "" }
+menu-help-get-help =
+    .label = Получете помощ
+    .accesskey = { "" }
+menu-help-explore-features =
+    .label = Разучaване на възможностите
+    .accesskey = { "" }
+menu-help-shortcuts =
+    .label = Клавишни комбинации
+    .accesskey = { "" }
+menu-help-get-involved =
+    .label = Включете се
+    .accesskey = { "" }
+menu-help-donation =
+    .label = Направете дарение
+    .accesskey = { "" }
+menu-help-share-feedback =
+    .label = Споделяне на идеи и обратна връзка
+    .accesskey = { "" }
+menu-help-enter-troubleshoot-mode =
+    .label = Режим за отстраняване на неизправности...
+    .accesskey = { "" }
+menu-help-exit-troubleshoot-mode =
+    .label = Изключване на режима за отстраняване на неизправности
+    .accesskey = { "" }
+menu-help-troubleshooting-info =
+    .label = Информация за отстраняване на неизправности
+    .accesskey = { "" }
+menu-help-about-product =
+    .label = Относно { -brand-short-name }
+    .accesskey = О
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Изход
+           *[other] Изход
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] И
+           *[other] д
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = Изход от { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
+quit-app-shortcut =
+    .key = И
+
+## Mail Toolbar
+
+toolbar-junk-button =
+    .label = Нежелана поща
+    .tooltiptext = Маркиране на съобщенията като нежелани
+toolbar-delete-button =
+    .label = Изтриване
+    .tooltiptext = Изтриване на избраните съобщения или папки
+toolbar-undelete-button =
+    .label = Възстановяване
+    .tooltiptext = Възстановяване на избраните съобщения
+
+## View
+
+menu-view-repair-text-encoding =
+    .label = Поправка на кодировката
+    .accesskey = к
+
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Заглавка на панела с папки
+    .accesskey = п
+
+## View / Layout
+
+menu-view-toggle-thread-pane-header =
+    .label = Заглавка на списък със съобщения
+    .accesskey = с
+menu-font-size-label =
+    .label = Размер на шрифта
+    .accesskey = ш
+menuitem-font-size-enlarge =
+    .label = Увеличаване размера на текста
+    .accesskey = У
+menuitem-font-size-reduce =
+    .label = Намаляване на размера на шрифта
+    .accesskey = Н
+menuitem-font-size-reset =
+    .label = Нулиране на размера на шрифта
+    .accesskey = Н
+mail-uidensity-label =
+    .label = Плътност
+    .accesskey = { "" }
+mail-uidensity-compact =
+    .label = Уплътняване
+    .accesskey = ъ
+mail-uidensity-default =
+    .label = Стандартно
+    .accesskey = { "" }
+mail-uidensity-relaxed =
+    .label = Отпуснат
+    .accesskey = { "" }
+menu-spaces-toolbar-button =
+    .label = Лента с инструменти
+    .accesskey = { "" }
+
+## File
+
+file-new-newsgroup-account =
+    .label = Сметка в дискусионна група...
+    .accesskey = г
