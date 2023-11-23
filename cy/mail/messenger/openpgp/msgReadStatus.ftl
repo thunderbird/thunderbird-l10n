@@ -28,10 +28,10 @@ openpgp-invalid-sig = Llofnod Digidol Annilys
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Llofnod Digidol Annilys - Wedi'i lofnodi ar { $date }
-openpgp-bad-date-sig = Llofnod Dyddiad Camgymharu
+openpgp-bad-date-sig = Gwrthdaro Dyddiad Llofnod
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-bad-date-sig-with-date = Llofnod Dyddiad Camgymharu - Llofnod ar { $date }
+openpgp-bad-date-sig-with-date = Gwrthdaro Dyddiad Llofnod - Llofnodwyd ar { $date }
 openpgp-good-sig = Llofnod Digidol Da
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -41,7 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Mae'r neges hon yn cynnwys llofnod digidol,
 openpgp-sig-uncertain-not-accepted = Mae'r neges hon yn cynnwys llofnod digidol, ond nid ydych wedi penderfynu eto a yw allwedd y llofnodwr yn dderbyniol i chi.
 openpgp-sig-invalid-rejected = Mae'r neges hon yn cynnwys llofnod digidol, ond rydych chi wedi penderfynu gwrthod allwedd y llofnodwr yn flaenorol.
 openpgp-sig-invalid-technical-problem = Mae'r neges hon yn cynnwys llofnod digidol, ond canfuwyd gwall technegol. Naill ai mae'r neges wedi'i llygru, neu mae'r neges wedi'i haddasu gan rywun arall.
-openpgp-sig-invalid-date-mismatch = Mae'r neges hon yn cynnwys llofnod digidol, ond ni wnaed y llofnod ar yr un pryd ag anfonwyd y neges e-bost. Gallai hyn fod yn ymgais i’ch twyllo gyda chynnwys o’r cyd-destun anghywir: e.e. cynnwys wedi'i ysgrifennu mewn cyd-destun amserol arall neu wedi'i olygu ar gyfer rhywun arall.
+openpgp-sig-invalid-date-mismatch = Mae'r neges hon yn cynnwys llofnod digidol, ond ni wnaed y llofnod ar yr un pryd ag anfonwyd y neges e-bost. Gallai hyn fod yn ymgais i’ch twyllo gyda chynnwys o’r cyd-destun anghywir: e.e. cynnwys wedi'i ysgrifennu mewn cyd-destun amser arall neu wedi'i olygu ar gyfer rhywun arall.
 openpgp-sig-valid-unverified = Mae'r neges hon yn cynnwys llofnod digidol dilys o allwedd rydych chi eisoes wedi'i derbyn. Fodd bynnag, nid ydych wedi gwirio eto bod yr allwedd yn eiddo i'r anfonwr mewn gwirionedd.
 openpgp-sig-valid-verified = Mae'r neges hon yn cynnwys llofnod digidol dilys o allwedd wedi'i gwirio.
 openpgp-sig-valid-own-key = Mae'r neges hon yn cynnwys llofnod digidol dilys o'ch allwedd bersonol.
