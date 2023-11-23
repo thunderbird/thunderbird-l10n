@@ -59,8 +59,6 @@ toolbar-junk-label = Ruslpóstur
 toolbar-junk =
     .title = Merkja valin skilaboð sem ruslpóst
 toolbar-delete-label = Eyða
-toolbar-delete =
-    .title = Eyða völdum skilaboðum eða möppum
 toolbar-delete-title =
     .title = Eyða völdum skilaboðum
 toolbar-undelete-label = Afturkalla eyðingu
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Virknimælir
 toolbar-throbber =
     .title = Virknimælir
+toolbar-create-contact-label = Nýr tengiliður
+toolbar-create-contact =
+    .title = Búa til nýjan tengilið
+toolbar-create-address-book-label = Ný nafnaskrá
+toolbar-create-address-book =
+    .title = Búa til nýja nafnaskrá
+toolbar-create-list-label = Nýr listi
+toolbar-create-list =
+    .title = Búa til nýjan póstlista
+toolbar-import-contacts-label = Flytja inn
+toolbar-import-contacts =
+    .title = Flytja tengiliði inn úr skrá
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Bæta við staðbundinni nafnaskrá
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Bæta við CardDAV-nafnaskrá
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Bæta við LDAP-nafnaskrá

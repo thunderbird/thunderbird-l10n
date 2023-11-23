@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Vistaðar innskráningar
+saved-logins-title = Vistaðar innskráningar
 window-close =
     .key = w
 focus-search-primary-shortcut =
@@ -51,7 +52,6 @@ import =
 password-close-button =
     .label = Loka
     .accesskey = L
-
 show-passwords =
     .label = Sýna lykilorð
     .accesskey = k
@@ -74,12 +74,10 @@ no-master-password-prompt = Ertu viss um að viljir sýna lykilorðin þín?
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Staðfestu auðkenni þitt til að birta vistuð lykilorð.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = birta vistuð lykilorð
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
