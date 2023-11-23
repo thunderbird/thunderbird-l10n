@@ -163,7 +163,7 @@
 <!ENTITY sortBySizeCmd.label "Розмір">
 <!ENTITY sortBySizeCmd.accesskey "з">
 <!ENTITY sortByStatusCmd.label "Стан">
-<!ENTITY sortByStatusCmd.accesskey "т">
+<!ENTITY sortByStatusCmd.accesskey "н">
 <!ENTITY sortByTagsCmd.label "Мітки">
 <!ENTITY sortByTagsCmd.accesskey "м">
 <!ENTITY sortByJunkStatusCmd.label "Ознака спаму">
@@ -175,7 +175,7 @@
 <!ENTITY sortByRecipientCmd.label "Отримувач">
 <!ENTITY sortByRecipientCmd.accesskey "т">
 <!ENTITY sortByCorrespondentCmd.label "Кореспонденти">
-<!ENTITY sortByCorrespondentCmd.accesskey "е">
+<!ENTITY sortByCorrespondentCmd.accesskey "К">
 <!ENTITY sortByUnreadCmd.label "Прочитано">
 <!ENTITY sortByUnreadCmd.accesskey "и">
 <!ENTITY sortByOrderReceivedCmd.label "Порядок отримання">
