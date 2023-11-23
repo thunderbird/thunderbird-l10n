@@ -197,7 +197,7 @@
 <!ENTITY sendButton.tooltip "Надіслати це повідомлення зараз">
 <!ENTITY sendlaterButton.tooltip "Надіслати це повідомлення пізніше">
 <!ENTITY quoteButton.tooltip "Цитувати попереднє повідомлення">
-<!ENTITY addressButton.tooltip "Вибрати адресата з адресної книги">
+<!ENTITY addressButton.tooltip "Вибрати отримувача з адресної книги">
 <!ENTITY spellingButton.tooltip "Перевірити правопис вибраного чи всього повідомлення">
 <!ENTITY saveButton.tooltip "Зберегти це повідомлення">
 <!ENTITY cutButton.tooltip              "Вирізати">

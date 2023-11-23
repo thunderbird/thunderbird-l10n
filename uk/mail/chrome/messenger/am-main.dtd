@@ -8,7 +8,7 @@
 <!ENTITY accountName.label "Назва облікового запису:">
 <!ENTITY accountName.accesskey "І">
 <!ENTITY identityTitle.label "Ідентифікатор">
-<!ENTITY identityDesc.label "Кожен обліковий запис має ідентифікатор для збереження тієї інформації про вас, яку бачать одержувачі ваших повідомлень.">
+<!ENTITY identityDesc.label "Кожен обліковий запис має ідентифікатор для збереження тієї інформації про вас, яку бачать отримувачі ваших повідомлень.">
 <!ENTITY name.label "Ваше ім'я:">
 <!ENTITY name.accesskey "В">
 <!ENTITY email.label "Адреса електронної пошти:">

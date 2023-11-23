@@ -184,15 +184,11 @@ menu-manage-keys =
     .label = Керувати ключами
     .accesskey = к
 menu-view-certificates =
-    .label = Переглянути сертифікати одержувачів
+    .label = Переглянути сертифікати отримувачів
     .accesskey = П
 menu-open-key-manager =
     .label = Менеджер ключів
     .accesskey = М
-openpgp-key-issue-notification-one = Наскрізне шифрування вимагає розв'язання проблем ключів для { $addr }
-openpgp-key-issue-notification-many = Наскрізне шифрування вимагає розв'язання проблем ключів для { $count } одержувачів
-smime-cert-issue-notification-one = Наскрізне шифрування вимагає розв'язання проблем сертифікату для { $addr }
-smime-cert-issue-notification-many = Наскрізне шифрування вимагає розв'язання проблем сертифікату для { $count } одержувачів
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -282,13 +278,6 @@ show-bcc-row-button = Прихована копія
     .title = Показати поле прихована копія ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Інші поля адресування для показу
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Ваше повідомлення має публічного отримувача. Ви можете уникнути розкриття адрес отримувачів, скориставшись натомість полем ПК (прихована копія).
-        [few] { $count } отримувачі в полях Кому та Копія бачитимуть всіх адресатів. Ви можете уникнути розкриття адрес отримувачів, скориставшись натомість полем ПК (прихована копія).
-       *[many] { $count } отримувачів у полях Кому та Копія бачитимуть всіх адресатів. Ви можете уникнути розкриття адрес отримувачів, скориставшись натомість полем ПК (прихована копія).
-    }
 public-recipients-notice-single = Ваше повідомлення має публічного адресата. Ви можете уникнути розкриття адресатів, скориставшись прихованою копією.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -320,7 +309,7 @@ many-public-recipients-prompt-send = Все одно надіслати
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
 compose-missing-identity-warning = Адреса електронної пошти, що відповідає полю "Від" не знайдена. Повідомлення буде надіслано з використанням поточного поля "Від" і налаштувань адреси електронної пошти { $identity }.
-encrypted-bcc-warning = Під час надсилання зашифрованого повідомлення одержувачі прихованих копій не повністю приховані. Усі одержувачі можуть їх ідентифікувати.
+encrypted-bcc-warning = Під час надсилання зашифрованого повідомлення отримувачі прихованих копій не повністю приховані. Інші отримувачі можуть їх ідентифікувати.
 encrypted-bcc-ignore-button = Зрозуміло
 auto-disable-e2ee-warning = Наскрізне шифрування для цього повідомлення було автоматично вимкнено.
 

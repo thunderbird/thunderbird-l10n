@@ -172,8 +172,8 @@
 <!ENTITY sortBySubjectCmd.accesskey "е">
 <!ENTITY sortByFromCmd.label "Від">
 <!ENTITY sortByFromCmd.accesskey "В">
-<!ENTITY sortByRecipientCmd.label "за адресатом">
-<!ENTITY sortByRecipientCmd.accesskey "д">
+<!ENTITY sortByRecipientCmd.label "За отримувачем">
+<!ENTITY sortByRecipientCmd.accesskey "т">
 <!ENTITY sortByCorrespondentCmd.label "Кореспонденти">
 <!ENTITY sortByCorrespondentCmd.accesskey "е">
 <!ENTITY sortByUnreadCmd.label "за прочитаністю">
@@ -532,7 +532,7 @@
 <!ENTITY getAllNewMsgCmd.accesskey "О">
 <!ENTITY newMsgButton.tooltip "Написати повідомлення">
 <!ENTITY replyButton.tooltip "Відповісти на повідомлення">
-<!ENTITY replyAllButton.tooltip "Відповісти відправнику та всім адресатам">
+<!ENTITY replyAllButton.tooltip "Відповісти відправнику та всім отримувачам">
 <!ENTITY replyListButton.tooltip "Відповісти списку розсилки">
 <!ENTITY forwardButton.tooltip "Переслати вибране повідомлення">
 <!ENTITY forwardAsInline.tooltip "Переслати вибране повідомлення у вигляді вбудованого тексту">
@@ -645,8 +645,8 @@
 <!ENTITY searchSubjectMenu.label "Тема">
 <!ENTITY searchFromMenu.label "Відправник">
 <!ENTITY searchSubjectOrFromMenu.label "Тема або відправник">
-<!ENTITY searchRecipient.label "Одержувачі">
-<!ENTITY searchSubjectOrRecipientMenu.label "Тема, адресат або копія">
+<!ENTITY searchRecipient.label "Кому або Копія">
+<!ENTITY searchSubjectOrRecipientMenu.label "Тема, кому або копія">
 <!ENTITY searchMessageBody.label "Будь-де у повідомлені">
 <!ENTITY saveAsVirtualFolderMenu.label "Зберегти результати пошуку як теку…">
 
@@ -654,7 +654,7 @@
 <!ENTITY selectColumn.label "Вибрати повідомлення">
 <!ENTITY threadColumn.label "Розмова">
 <!ENTITY fromColumn.label "Від">
-<!ENTITY recipientColumn.label "Одержувачі">
+<!ENTITY recipientColumn.label "Отримувач">
 <!ENTITY correspondentColumn.label "Кореспонденти">
 <!ENTITY subjectColumn.label "Тема">
 <!ENTITY dateColumn.label "Дата">

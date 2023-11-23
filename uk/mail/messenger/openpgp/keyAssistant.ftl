@@ -12,20 +12,20 @@ openpgp-key-assistant-recipients-issue-header = Не вдалося зашифр
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-issue-description =
     { $count ->
-        [one] Щоб зашифрувати, ви повинні отримати та прийняти ключі, які можна використовувати для одного одержувача. <a data-l10n-name="openpgp-link">Докладніше…</a>
-        [few] Щоб зашифрувати, ви повинні отримати та прийняти ключі, які можна використовувати для { $count }  одержувачів. <a data-l10n-name="openpgp-link">Докладніше…</a>
-       *[many] Щоб зашифрувати, ви повинні отримати та прийняти ключі, які можна використовувати для { $count }  одержувачів. <a data-l10n-name="openpgp-link">Докладніше…</a>
+        [one] Щоб зашифрувати, ви повинні отримати та схвалити чинний ключ для одного отримувача. <a data-l10n-name="openpgp-link">Докладніше…</a>
+        [few] Щоб зашифрувати, ви повинні отримати та схвалити чинні ключі для { $count } отримувачів. <a data-l10n-name="openpgp-link">Докладніше…</a>
+       *[many] Щоб зашифрувати, ви повинні отримати та схвалити чинні ключі для { $count } отримувача. <a data-l10n-name="openpgp-link">Докладніше…</a>
     }
-openpgp-key-assistant-info-alias = { -brand-short-name } зазвичай вимагає, щоб відкритий ключ одержувача містив ID користувача з відповідною адресою електронної пошти. Це можна скасувати за допомогою правил псевдонімів одержувача OpenPGP. <a data-l10n-name="openpgp-link">Докладніше…</a>
+openpgp-key-assistant-info-alias = { -brand-short-name } зазвичай вимагає, щоб відкритий ключ отримувача містив ID користувача з відповідною адресою електронної пошти. Це можна перевизначити за допомогою правил псевдонімів отримувача OpenPGP. <a data-l10n-name="openpgp-link">Докладніше…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-description =
     { $count ->
-        [one] У вас уже є готовий до користування та прийнятий для одного одержувача ключ.
-        [few] У вас уже є готові до користування та прийняті для { $count } одержувачів ключі.
-       *[many] У вас уже є готові до користування та прийняті для { $count } одержувачів ключі.
+        [one] У вас уже є чинний та схвалений ключ для одного отримувача.
+        [few] У вас уже є чинні та схвалені ключі для { $count } отримувачів.
+       *[many] У вас уже є чинні та схвалені ключі для { $count } отримувачів.
     }
-openpgp-key-assistant-recipients-description-no-issues = Це повідомлення можна зашифрувати. У вас є доступні та прийняті для всіх одержувачів ключі.
+openpgp-key-assistant-recipients-description-no-issues = Це повідомлення можна зашифрувати. У вас є чинні та схвалені ключі для всіх отримувачів.
 
 ## Resolve section
 

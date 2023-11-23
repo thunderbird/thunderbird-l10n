@@ -21,7 +21,6 @@ message-header-tags-list-name = Мітки
 message-header-author-field = Автор<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Організація<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Тема<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Доповнення до<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Дата<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = User agent<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Посилання<span data-l10n-name="field-separator">:</span>
@@ -45,5 +44,5 @@ message-header-address-not-in-address-book-button =
 message-header-address-in-address-book-button =
     .title = Змінити контакт
 message-header-field-show-more = Більше
-    .title = Показати всіх одержувачів
+    .title = Показати всіх отримувачів
 message-ids-field-show-all = Показати все
