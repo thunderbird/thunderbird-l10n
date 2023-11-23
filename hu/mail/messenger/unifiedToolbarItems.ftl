@@ -59,8 +59,6 @@ toolbar-junk-label = Levélszemét
 toolbar-junk =
     .title = A kijelölt üzenetek megjelölése szemétként
 toolbar-delete-label = Törlés
-toolbar-delete =
-    .title = Kijelölt üzenetek vagy mappa törlése
 toolbar-delete-title =
     .title = A kijelölt üzenetek törlése
 toolbar-undelete-label = Törlés visszavonása
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Aktivitásjelző
 toolbar-throbber =
     .title = Aktivitásjelző
+toolbar-create-contact-label = Új névjegy
+toolbar-create-contact =
+    .title = Új névjegy létrehozása
+toolbar-create-address-book-label = Új címjegyzék
+toolbar-create-address-book =
+    .title = Új címjegyzék létrehozása
+toolbar-create-list-label = Új lista
+toolbar-create-list =
+    .title = Új levelezőlista létrehozása
+toolbar-import-contacts-label = Importálás
+toolbar-import-contacts =
+    .title = Névjegyek importálása fájlból
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Helyi címjegyzék hozzáadása
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = CardDAV-címjegyzék hozzáadása
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = LDAP-címjegyzék hozzáadása

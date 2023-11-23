@@ -21,22 +21,43 @@ openpgp-openpgp = OpenPGP
 openpgp-no-sig = Nincs digitális aláírás
 openpgp-no-sig-info = Ez az üzenet nem tartalmazza a feladó digitális aláírását. A digitális aláírás hiánya azt jelenti, hogy az üzenetet más is küldhette meghamisítva a feladó címét, vagy az üzenetet módosították, miközben áthaladt a hálózaton.
 openpgp-uncertain-sig = Bizonytalan digitális aláírás
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-uncertain-sig-with-date = Bizonytalan digitális aláírás – Aláírás dátuma: { $date }
 openpgp-invalid-sig = Érvénytelen digitális aláírás
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Érvénytelen digitális aláírás – Aláírás dátuma: { $date }
+openpgp-bad-date-sig = Az aláírás dátuma eltér
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Az aláírás dátuma eltér – Aláírás dátuma: { $date }
 openpgp-good-sig = Jó digitális aláírás
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Jó digitális aláírás – Aláírás dátuma: { $date }
 openpgp-sig-uncertain-no-key = Ez az üzenet digitális aláírást tartalmaz, de nem biztos, hogy helyes. Az aláírás ellenőrzéséhez meg kell szereznie a feladó nyilvános kulcsának másolatát.
 openpgp-sig-uncertain-uid-mismatch = Ez az üzenet digitális aláírást tartalmaz, de eltérést észleltek. Az üzenetet olyan e-mail-címről küldték, amely nem felel meg az aláíró nyilvános kulcsának.
 openpgp-sig-uncertain-not-accepted = Ez az üzenet digitális aláírást tartalmaz, de még nem döntött arról, hogy az aláíró kulcsa elfogadható-e Ön számára.
 openpgp-sig-invalid-rejected = Ez az üzenet digitális aláírást tartalmaz, de Ön korábban úgy döntött, hogy elutasítja az aláíró kulcsot.
 openpgp-sig-invalid-technical-problem = Ez az üzenet digitális aláírást tartalmaz, de technikai hibát észleltek. Vagy az üzenet sérült meg, vagy valaki más módosította az üzenetet.
+openpgp-sig-invalid-date-mismatch = Ez az üzenet digitális aláírást tartalmaz, de az aláírás nem a levél elküldésével egyidejűleg történt. Ez egy megtévesztési kísérlet is lehet, például más aktuális kontextusban írt vagy másnak szánt tartalmat is kaphatott.
 openpgp-sig-valid-unverified = Ez az üzenet érvényes digitális aláírást tartalmaz egy olyan kulcsból, amelyet már elfogadott. Viszont még nem erősítette meg, hogy a kulcs valóban a feladó tulajdonában van.
 openpgp-sig-valid-verified = Ez az üzenet érvényes digitális aláírást tartalmaz egy ellenőrzött kulcsból.
 openpgp-sig-valid-own-key = Ez az üzenet érvényes digitális aláírást tartalmaz a személyes kulcsából.
+# Variables:
+# $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = Aláíró kulcs azonosítója: { $key }
+# Variables:
+# $key (String) - The primary ID of the OpenPGP key used to create the signature.
+# $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
 openpgp-sig-key-id-with-subkey-id = Aláíró kulcs azonosítója: { $key } (Alkulcs azonosítója: { $subkey })
+# Variables:
+# $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = A visszafejtési kulcs azonosítója: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = A visszafejtési kulcs azonosítója: { $key } (Alkulcs azonosítója: { $subkey })
 openpgp-enc-none = Az üzenet nem titkosított
 openpgp-enc-none-label = Az üzenetet nem titkosították küldés előtt. Az interneten keresztül küldött titkosítatlan adatokhoz útközben mások is hozzáférhetnek.
