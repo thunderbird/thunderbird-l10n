@@ -70,6 +70,20 @@ appmenu-newab-panel =
 
 ## Tools
 
+appmenu-tools-panel-title =
+    .title = Инструменти
+appmenu-tools-panel =
+    .label = Инструменти
+    .accesskey = { "" }
+appmenu-tools-import =
+    .label = Внасяне
+    .accesskey = В
+appmenu-tools-export =
+    .label = Изнасяне
+    .accesskey = И
+appmenu-tools-message-search =
+    .label = Търсене из съобщенията
+    .accesskey = { "" }
 
 ## Help
 
