@@ -59,8 +59,6 @@ toolbar-junk-label = Skräppost
 toolbar-junk =
     .title = Markera de valda meddelandena som skräp
 toolbar-delete-label = Ta bort
-toolbar-delete =
-    .title = Ta bort markerade meddelanden eller mappar
 toolbar-delete-title =
     .title = Ta bort de markerade meddelandena
 toolbar-undelete-label = Ångra borttagning
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Aktivitetsindikator
 toolbar-throbber =
     .title = Aktivitetsindikator
+toolbar-create-contact-label = Ny kontakt
+toolbar-create-contact =
+    .title = Skapa en ny kontakt
+toolbar-create-address-book-label = Ny adressbok
+toolbar-create-address-book =
+    .title = Skapa en ny adressbok
+toolbar-create-list-label = Ny lista
+toolbar-create-list =
+    .title = Skapa en ny e-postlista
+toolbar-import-contacts-label = Importera
+toolbar-import-contacts =
+    .title = Importera kontakter från en fil
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Lägg till lokal adressbok
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Lägg till CardDAV-adressbok
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Lägg till LDAP-adressbok
