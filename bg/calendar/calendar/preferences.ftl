@@ -4,6 +4,7 @@
 
 calendar-title = Календар
 calendar-title-reminder = Напомняния
+calendar-title-notification = Известия
 calendar-title-category = Категории
 dateformat-label =
     .value = Текстов формат на датата:
@@ -14,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Кратък: { $date }
+use-system-timezone-radio-button =
+    .label = Използване на системната часова зона
+set-timezone-manually-radio-button =
+    .label = Ръчно задаване на часовата зона
 timezone-label =
     .value = Часови пояс:
 weekstart-label =
@@ -100,12 +105,9 @@ previous-weeks-label =
     .value = Показвани изминали седмици:
     .accesskey = П
 todaypane-legend = Дневен график
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = Следващият раздел показва:
-    .accesskey = л
+agenda-days =
+    .value = Дневният ред показва:
+    .accesskey = Д
 event-task-legend = Събития и задачи
 default-length-label =
     .value = Стандартна продължителност на събитие или задача:
@@ -133,10 +135,9 @@ task-due-label =
 edit-intab-label =
     .label = Редактиране на събития и задачи в раздел вместо в диалогово прозорец.
     .accesskey = с
-accessibility-legend = Достъпност
-accessibility-colors-label =
-    .label = Цветове, оптимизирани за достъпност
-    .accesskey = Ц
+prompt-delete-label =
+    .label = Подкана преди изтриване на събития и задачи.
+    .accesskey = о
 reminder-legend = Когато е време за припомняне:
 reminder-play-checkbox =
     .label = Изпълняване на звук
@@ -179,6 +180,7 @@ event-alarm-time-label =
 task-alarm-time-label =
     .value = Подразбиращо се време за припомняне преди събитие:
     .accesskey = с
+calendar-notifications-customize-label = Известията могат да бъдат персонализирани за всеки календар в прозореца със свойства на календара.
 category-new-label = Нова категория
 category-edit-label = Редактиране на категория
 category-overwrite-title = Внимание: Дублиращо се име

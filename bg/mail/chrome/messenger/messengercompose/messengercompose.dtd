@@ -11,6 +11,7 @@
 <!ENTITY newMenu.label "Нови">
 <!ENTITY newMenu.accesskey "Н">
 <!ENTITY newMessage.label "Писмо">
+<!ENTITY newMessage.accesskey "М">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Контакт от адресника…">
 <!ENTITY newContact.accesskey "К">

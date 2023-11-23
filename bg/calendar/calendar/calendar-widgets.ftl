@@ -47,17 +47,39 @@ calendar-nav-button-prev-tooltip-year =
 calendar-nav-button-next-tooltip-day =
     .title = Следващ ден
     .accesskey = е
-calendar-view-toggle-day = Часове
+calendar-nav-button-next-tooltip-week =
+    .title = Следваща седмица
+    .accesskey = ц
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Следваща седмица
+    .accesskey = ц
+calendar-nav-button-next-tooltip-month =
+    .title = Следващ месец
+    .accesskey = е
+calendar-nav-button-next-tooltip-year =
+    .title = Следваща година
+    .accesskey = д
+calendar-today-button-tooltip =
+    .title = Отваряне на днешния ден
+calendar-view-toggle-day = Ден
     .title = Превключване към дневен изглед
-calendar-view-toggle-week = Дни
+calendar-view-toggle-week = Седмица
     .title = Превключване към седмичен излгед
-calendar-view-toggle-multiweek = Седмици
+calendar-view-toggle-multiweek = Многоседмично
     .title = Превключване към многоседмичен изглед
 calendar-view-toggle-month = Месец
     .title = Превключване към месечен изглед
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Опции за оформление на календара
+calendar-hide-weekends-option =
+    .label = Само работни дни
+calendar-define-workweek-option =
+    .label = Задаване на дните на работната седмица
+calendar-show-tasks-calendar-option =
+    .label = Показване на задачите в календара
 
 ## Calendar Context Menu
 

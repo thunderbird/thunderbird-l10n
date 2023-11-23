@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY titledefault.label "&brandFullName;">
-<!ENTITY titleSeparator.label " – ">
+<!ENTITY titleSeparator.label " - ">
 
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Папка…">
@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Изтриване на писмото">
-<!ENTITY deleteMsgCmd.accesskey "з">
-<!ENTITY undeleteMsgCmd.label "Възстановяване на изтрито писмо">
-<!ENTITY undeleteMsgCmd.accesskey "з">
-<!ENTITY deleteMsgsCmd.label "Изтриване на избраните писма">
-<!ENTITY deleteMsgsCmd.accesskey "з">
-<!ENTITY undeleteMsgsCmd.label "Възстановяване на изтритите писма">
-<!ENTITY undeleteMsgsCmd.accesskey "з">
-<!ENTITY deleteFolderCmd.label "Изтриване на папка">
-<!ENTITY deleteFolderCmd.accesskey "з">
-<!ENTITY unsubscribeNewsgroupCmd.label "Отписване">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "О">
 <!ENTITY selectMenu.label "Избиране">
 <!ENTITY selectMenu.accesskey "И">
 <!ENTITY all.label "Всичко">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "з">
 <!ENTITY menuFavoriteFolder.label "Любима папка">
 <!ENTITY menuFavoriteFolder.accesskey "ю">
-<!ENTITY folderPropsCmd2.label "Свойства">
-<!ENTITY folderPropsFolderCmd2.label "Свойства на папката">
-<!ENTITY folderPropsNewsgroupCmd2.label "Свойства за дискусионна група">
-<!ENTITY folderPropsCmd.accesskey "о">
 <!ENTITY undoDeleteMsgCmd.label "Отмяна Изтриване на писмо">
 <!ENTITY redoDeleteMsgCmd.label "Повторение Изтриване на писмо">
 <!ENTITY undoMoveMsgCmd.label "Отмяна Преместване на писмо">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "В">
 <!ENTITY showFolderPaneCmd.label "Панел за папки">
 <!ENTITY showFolderPaneCmd.accesskey "л">
-<!ENTITY showFolderPaneColsCmd.label "Колони в панел за папки">
-<!ENTITY showFolderPaneColsCmd.accesskey "п">
 <!ENTITY showMessageCmd.label "Панел за писма">
 <!ENTITY showMessageCmd.accesskey "П">
 
@@ -485,6 +467,8 @@
 <!ENTITY deleteJunk.accesskey "з">
 <!ENTITY importCmd.label "Внасяне…">
 <!ENTITY importCmd.accesskey "я">
+<!ENTITY exportCmd.label "Изнасяне…">
+<!ENTITY exportCmd.accesskey "x">
 <!ENTITY clearRecentHistory.label "Изчистване на скорошна история…">
 <!ENTITY clearRecentHistory.accesskey "и">
 <!ENTITY accountManagerCmd2.label "Настройки на регистрация">
@@ -594,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Ново съобщение">
 <!ENTITY appmenuNewContactCmd.label "Контакт от адресника…">
-<!ENTITY appmenuEditMenu.label "Редакция">
 <!ENTITY appmenuToolbarLayout.label "Оформление на лентата с инструменти…">
-<!ENTITY appmenuSelectThread.label "Избор на нишка">
-<!ENTITY appmenuSelectFlagged.label "Изтегляне на писмата с флаг">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Нов етикет…">
@@ -902,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "и">
 <!ENTITY copyEmailCmd.label "Копиране на адреса">
 <!ENTITY copyEmailCmd.accesskey "К">
-<!ENTITY stopCmd.label "Стоп">
-<!ENTITY stopCmd.accesskey "С">
-<!ENTITY reloadCmd.label "Презареждане">
-<!ENTITY reloadCmd.accesskey "П">
 <!ENTITY openInBrowser.label "Отваряне в браузър">
 <!ENTITY openInBrowser.accesskey "О">
 <!ENTITY openLinkInBrowser.label "Отваряне връзката в браузър">
