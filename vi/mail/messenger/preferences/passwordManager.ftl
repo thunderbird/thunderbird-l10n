@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Đăng nhập đã lưu
+saved-logins-title = Thông tin đăng nhập đã lưu
 window-close =
     .key = w
 focus-search-primary-shortcut =
@@ -48,11 +49,9 @@ remove =
 import =
     .label = Nhập…
     .accesskey = I
-
 password-close-button =
     .label = Đóng
     .accesskey = C
-
 show-passwords =
     .label = Hiện mật khẩu
     .accesskey = P
@@ -75,12 +74,10 @@ no-master-password-prompt = Bạn có chắc bạn muốn hiện các mật kh�
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Xác nhận danh tính của bạn để hiển thị mật khẩu đã lưu.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = hiển thị mật khẩu đã lưu
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
