@@ -152,6 +152,14 @@ toolbar-create-list-label = Жаңа тізім
 toolbar-create-list =
     .title = Жаңа хат тарату тізімін жасау
 toolbar-import-contacts-label = Импорттау
+toolbar-import-contacts =
+    .title = Файлдан контакттарды импорттау
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Жергілікті адрестік кітапшаны қосу
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = CardDAV адрестік кітапшасын қосу
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = LDAP адрестік кітапшасын қосу
