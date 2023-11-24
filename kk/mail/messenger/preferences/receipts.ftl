@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = Алу есептемелері
+receipts-dialog-title = Алу есептемелері
 return-receipt-checkbox-control =
     .label = Хабарламаларды жіберу кезінде, алу есептемелерін әрқашан сұрау
     .accesskey = з
