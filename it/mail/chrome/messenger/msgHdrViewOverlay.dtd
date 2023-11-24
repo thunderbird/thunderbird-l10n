@@ -20,7 +20,7 @@
 <!ENTITY referencesField4.label "Referenze">
 <!ENTITY messageIdField4.label "ID del Messaggio">
 <!ENTITY inReplyToField4.label "In risposta a">
-<!ENTITY originalWebsite4.label "Sito Web">
+<!ENTITY originalWebsite4.label "Sito web">
 
 <!ENTITY hdrArchiveButton1.label "Archivia">
 <!ENTITY hdrArchiveButton1.tooltip "Archivia questo messaggio">
