@@ -4,11 +4,10 @@
 
 tag-dialog-window =
     .title = Nove tag
-
+tag-dialog-title = Nove tag
 tag-name-label =
     .value = Nomine de tag:
     .accesskey = t
-
 tag-color-label =
     .value = Color:
     .accesskey = C
