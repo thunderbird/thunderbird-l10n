@@ -38,6 +38,9 @@ appmenu-new-account-panel =
 appmenu-create-new-mail-account =
     .label = Регистрация на нова поща
     .accesskey = { "" }
+appmenu-new-mail-account =
+    .label = Съществуващ имейл
+    .accesskey = С
 appmenu-new-calendar =
     .label = Календар
     .accesskey = { "" }
@@ -58,15 +61,76 @@ appmenu-newab-panel-title =
 appmenu-newab-panel =
     .label = Нов адресник
     .accesskey = { "" }
+appmenu-new-addressbook =
+    .label = Местни адресници
+    .accesskey = М
+appmenu-new-carddav =
+    .label = Адресник на CardDAV
+    .accesskey = д
+appmenu-new-ldap =
+    .label = LDAP адресник
+    .accesskey = д
 
 ## Create
 
+appmenu-create-panel-title =
+    .title = Създаване
+appmenu-create-panel =
+    .label = Създаване
+    .accesskey = С
+appmenu-create-message =
+    .label = Съобщение
+    .accesskey = щ
+appmenu-create-event =
+    .label = Събитие
+    .accesskey = б
+appmenu-create-task =
+    .label = Задача
+    .accesskey = { "" }
+appmenu-create-contact =
+    .label = Контакт
+    .accesskey = К
 
 ## Open
 
+appmenu-open-file-panel =
+    .label = Отваряне от файл
+    .accesskey = О
+appmenu-open-file-panel-title =
+    .title = Отваряне от файл
+appmenu-open-message =
+    .label = Съобщение…
+    .accesskey = С
+appmenu-open-calendar =
+    .label = Календар…
+    .accesskey = К
 
 ## View / Layout
 
+appmenu-view-panel-title =
+    .title = Изглед
+appmenu-view-panel =
+    .label = Изглед
+    .accesskey = И
+appmenuitem-toggle-thread-pane-header =
+    .label = Заглавка на списък със съобщения
+appmenu-font-size-value = Размер на шрифта
+appmenu-mail-uidensity-value = Плътност
+appmenu-uidensity-compact =
+    .tooltiptext = Компактна
+appmenu-uidensity-default =
+    .tooltiptext = Стандартно
+appmenu-uidensity-relaxed =
+    .tooltiptext = Отпуснат
+appmenuitem-font-size-enlarge =
+    .tooltiptext = Увеличаване размера на шрифта
+appmenuitem-font-size-reduce =
+    .tooltiptext = Намаляване на размера на шрифта
+# Variables:
+# $size (String) - The current font size.
+appmenuitem-font-size-reset =
+    .label = { $size }px
+    .tooltiptext = { "" }
 
 ## Tools
 
@@ -84,6 +148,18 @@ appmenu-tools-export =
 appmenu-tools-message-search =
     .label = Търсене из съобщенията
     .accesskey = { "" }
+appmenu-tools-message-filters =
+    .label = Филтри за съобщения
+    .accesskey = Ф
+appmenu-tools-download-manager =
+    .label = Мениджър на изтеглянията
+    .accesskey = М
+appmenu-tools-activity-manager =
+    .label = Мениджър на дейностите
+    .accesskey = М
+appmenu-tools-dev-tools =
+    .label = Развойни инструменти
+    .accesskey = Р
 
 ## Help
 
@@ -110,9 +186,25 @@ appmenu-help-share-feedback =
 appmenu-help-enter-troubleshoot-mode2 =
     .label = Режим за отстраняване на неизправности…
     .accesskey = н
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Изключване на режима за отстраняване на неизправности
+    .accesskey = И
+appmenu-help-troubleshooting-info =
+    .label = Информация за отстраняване на неизправности
+    .accesskey = { "" }
 appmenu-help-about-product =
     .label = Относно { -brand-short-name }
     .accesskey = { "" }
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = Изтегляне на ново издание на { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Налично е ново издание – изтеглете го сега
+appmenuitem-banner-update-manual =
+    .label = Налично е ново издание – изтеглете го сега
+appmenuitem-banner-update-unsupported =
+    .label = Не може да се актуализира — системата е несъвместима
+appmenuitem-banner-update-restart =
+    .label = Налично е издание – рестартирайте
