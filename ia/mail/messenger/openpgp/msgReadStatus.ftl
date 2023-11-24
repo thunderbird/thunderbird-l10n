@@ -21,10 +21,20 @@ openpgp-openpgp = OpenPGP
 openpgp-no-sig = Nulle firma digital
 openpgp-no-sig-info = Iste message non include le signatura digital del expeditor. Le absentia de un signatura digital significa que le message poterea haber essite inviate per alcuno que finge de haber iste adresse email. Tamben es possibile que le message ha essite alterate durante su transmission per le rete.
 openpgp-uncertain-sig = Firma digital incerte
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-uncertain-sig-with-date = Firma digital incerte - signate le { $date }
 openpgp-invalid-sig = Firma digital invalide
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Firma digital non valide - signate le { $date }
+openpgp-bad-date-sig = Discordantia de data del firma
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Discordantia de data del firma - Firmate le { $date }
 openpgp-good-sig = Firma digital bon
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Firma digital valide - signate le { $date }
 openpgp-sig-uncertain-no-key = Iste message include una firma digital, ma il es incerte si illo es correcte. Pro verificar le firma, tu debe obtener un copia del clave public del signatario.
 openpgp-sig-uncertain-uid-mismatch = Iste message include una firma digital, ma un discordantia ha essite revelate: le message ha essite inviate per un adresse email que non concorda con le clave public del signatario.
@@ -34,9 +44,19 @@ openpgp-sig-invalid-technical-problem = Iste message contine una firma digital, 
 openpgp-sig-valid-unverified = Iste message include una firma digital valide ex un clave que tu ha jam acceptate. Totevia, tu non ha ancora verificate que le expeditor es realmente le proprietario de iste clave.
 openpgp-sig-valid-verified = Iste message include una firma digital valide ex un clave verificate.
 openpgp-sig-valid-own-key = Iste message include una firma digital valide de tu clave personal.
+# Variables:
+# $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = ID de clave signator: { $key }
+# Variables:
+# $key (String) - The primary ID of the OpenPGP key used to create the signature.
+# $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
 openpgp-sig-key-id-with-subkey-id = ID de clave signator: { $key } (ID de sub clave: { $subkey })
+# Variables:
+# $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = Tu ID de clave de decryptation: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = ID de clave de decryptation: { $key } (ID de sub clave: { $subkey })
 openpgp-enc-none = Message non cifrate
 openpgp-enc-none-label = Iste message non ha essite cryptate ante que illo ha essite inviate. Informationes inviate per internet non cryptate pote esser vidite per altere personas durante lor transito.

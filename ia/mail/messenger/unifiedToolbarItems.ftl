@@ -59,8 +59,6 @@ toolbar-junk-label = Indesirate
 toolbar-junk =
     .title = Marcar le messages sequente como indesiderate
 toolbar-delete-label = Deler
-toolbar-delete =
-    .title = Deler le messages o le plicas seligite
 toolbar-delete-title =
     .title = Deler le messages selecte
 toolbar-undelete-label = Restabilir
@@ -144,3 +142,22 @@ toolbar-stop =
 toolbar-throbber-label = Indicator de activitate
 toolbar-throbber =
     .title = Indicator de activitate
+toolbar-create-contact-label = Nove contacto
+toolbar-create-contact =
+    .title = Crear un nove contacto
+toolbar-create-address-book-label = Nove libro del adresses
+toolbar-create-address-book =
+    .title = Crear un nove libro de adresses
+toolbar-create-list-label = Nove lista
+toolbar-import-contacts-label = Importar
+toolbar-import-contacts =
+    .title = Importar contactos ab un file
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Adde libro de adresses local
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Adde le libro del adresses CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Adder le libro del adresses LDAP
