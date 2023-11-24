@@ -20,5 +20,6 @@ webext-perms-description-messagesModify = Lege e modifica tu messages e-mail dur
 webext-perms-description-messagesMove = Copiar o displaciar tu messages de e-mail (incluse jectar los in le corbe a papiro)
 webext-perms-description-messagesDelete = Deler permanentemente tu messages email
 webext-perms-description-messagesRead = Lege tu messages email e marca o etiquetta illos
+webext-perms-description-messagesRead2 = Lege tu messages email
 webext-perms-description-messagesTags = Crear, modificar e deler tags de message
 webext-perms-description-sensitiveDataUpload = Transferer datos sensibile de usator (si le accesso ha essite concedite) a un servitor remote pro altere processo
