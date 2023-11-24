@@ -18,7 +18,7 @@
 <!ENTITY accountPasswordManager.label "这里输入的密码将被保存在账户管理器中。如果您想每次连接此账户时都提示输入密码，请留空此框。">
 
 <!ENTITY accountAdvancedTitle.label   "高级选项">
-<!ENTITY accountAdvancedInfo.label    "如果您想，可以随时跳过这一步。">
+<!ENTITY accountAdvancedInfo.label    "您也可以选择跳过此步。">
 <!ENTITY accountAdvanced.newMailNotification.label   "新邮件通知">
 <!ENTITY accountAliasGroupbox.caption "本地别名">
 <!ENTITY accountAliasField.label      "别名：">
