@@ -41,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Iste message include una firma digital, ma 
 openpgp-sig-uncertain-not-accepted = Iste message include una firma digital, ma tu non ha ancora decidite se le clave del signatario es acceptabile pro te.
 openpgp-sig-invalid-rejected = Iste message include una firma digital, ma tu ha previemente decidite rejectar le clave del signatario.
 openpgp-sig-invalid-technical-problem = Iste message contine una firma digital, ma un error technic ha essite revelate: o le message ha essite corrumpite, o modificate per alcuno altere.
+openpgp-sig-invalid-date-mismatch = Iste message contine un firma digital, ma le firma non era facite al mesme tempore que le message era inviate. Isto poterea esser un tentativa de deciper te con contento ab le mal contexto: e.g. contento scribite in un altere momento o destinate a alcun altere.
 openpgp-sig-valid-unverified = Iste message include una firma digital valide ex un clave que tu ha jam acceptate. Totevia, tu non ha ancora verificate que le expeditor es realmente le proprietario de iste clave.
 openpgp-sig-valid-verified = Iste message include una firma digital valide ex un clave verificate.
 openpgp-sig-valid-own-key = Iste message include una firma digital valide de tu clave personal.
