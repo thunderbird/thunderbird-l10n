@@ -74,6 +74,8 @@ calendar-view-toggle-month = Месец
 
 calendar-control-bar-menu-button =
     .title = Опции за оформление на календара
+calendar-find-events-menu-option =
+    .label = Намерете прозореца за събития
 calendar-hide-weekends-option =
     .label = Само работни дни
 calendar-define-workweek-option =

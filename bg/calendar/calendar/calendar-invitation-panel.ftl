@@ -95,5 +95,6 @@ calendar-invitation-panel-partstat-needs-action = { $count } неотговор�
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } участника
 calendar-invitation-panel-prop-title-attachments = Прикачени файлове:
+calendar-invitation-change-indicator-removed = Премахнат
 calendar-invitation-change-indicator-added = Нов
 calendar-invitation-change-indicator-modified = Променен
