@@ -12,6 +12,8 @@ calendar-add-notification-button =
 
 calendar-list-header = Iwitayen
 calendar-enable-button = Rmed
+calendar-refresh-calendars =
+    .title = Sal-id tikkelt niḍen akk iwitayen u mtawi isnifal
 calendar-new-event-primary-button = Rnu tadyant
 calendar-new-task-primary-button = Tawuri tamaynut
 
@@ -60,6 +62,8 @@ calendar-view-toggle-month = Aggur
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Tixtiṛiyin n tneɣruft n uwitay
 calendar-hide-weekends-option =
     .label = Ussan n dduṛt kan
 calendar-show-tasks-calendar-option =

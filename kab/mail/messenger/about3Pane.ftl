@@ -98,6 +98,15 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Zizdeg iznan agis <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search =
+    .label = Sizdeg iznan:
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Err tabzimt i uskar n uzizdeg
@@ -159,6 +168,8 @@ folder-pane-mode-move-down =
 
 threadpane-column-header-select =
     .title = Fren/kkes afran n yiznan
+threadpane-column-header-select-all =
+    .title = Fren akk iznan
 threadpane-column-label-select =
     .label = Fren iznan
 threadpane-column-label-thread =
@@ -167,11 +178,15 @@ threadpane-column-header-flagged =
     .title = Asmizzwer s yetri
 threadpane-column-label-flagged =
     .label = Ɣur-s itri
+threadpane-cell-flagged =
+    .aria-label = Ɣur-s itri
 threadpane-flagged-cell-label = Ɣur-s itri
 threadpane-column-header-attachments =
     .title = Asmizzer s tceqqufin yeddan
 threadpane-column-label-attachments =
     .label = Ticeqqufin yeddan
+threadpane-cell-attachments =
+    .aria-label = Ticeqqufin yeddan
 threadpane-attachments-cell-label = Ticeqqufin yeddan
 threadpane-column-label-spam =
     .label = Aspam
@@ -182,22 +197,32 @@ threadpane-column-header-sender = Si
     .title = Asmizzwer s Si
 threadpane-column-label-sender =
     .label = Si
+threadpane-cell-sender =
+    .aria-label = Seg
 threadpane-column-header-recipient = Anermas
     .title = Asmizzwer s unarmas
 threadpane-column-label-recipient =
     .label = Anermas
+threadpane-cell-recipient =
+    .aria-label = Anermas
 threadpane-column-header-correspondents = Inmeɣṛa
     .title = Asmizzwer s inmeɣṛa
 threadpane-column-label-correspondents =
     .label = Inmeɣṛa
+threadpane-cell-correspondents =
+    .aria-label = Inmeɣṛa
 threadpane-column-header-subject = Amgay
     .title = Asmizzwer s umgay
 threadpane-column-label-subject =
     .label = Amgay
+threadpane-cell-subject =
+    .aria-label = Asentel
 threadpane-column-header-date = Azemz
     .title = Asmizzwer s wazemz
 threadpane-column-label-date =
     .label = Azemz
+threadpane-cell-date =
+    .aria-label = Azemz
 threadpane-column-header-received = Iţwarmes
     .title = Asmizzwer s wazemz n urmas
 threadpane-column-label-received =
@@ -206,22 +231,32 @@ threadpane-column-header-status = Addad
     .title = Asmizzwer s waddad
 threadpane-column-label-status =
     .label = Addad
+threadpane-cell-status =
+    .aria-label = Addad
 threadpane-column-header-size = Teɣzi
     .title = Asmizzwer s teɣzi
 threadpane-column-label-size =
     .label = Teɣzi
+threadpane-cell-size =
+    .aria-label = Teɣzi
 threadpane-column-header-tags = Tabzimt
     .title = Asmizzwer s tebzimin
 threadpane-column-label-tags =
     .label = Tabzimt
+threadpane-cell-tags =
+    .aria-label = Tibzimin
 threadpane-column-header-account = Amiḍan
     .title = Smizzéwer s umiḍan
 threadpane-column-label-account =
     .label = Amiḍan
+threadpane-cell-account =
+    .aria-label = Amiḍan
 threadpane-column-header-priority = Tazwart
     .title = Asmizzwer s tezwart
 threadpane-column-label-priority =
     .label = Tazwart
+threadpane-cell-priority =
+    .aria-label = Tazwart
 threadpane-column-header-unread = Ur ittwaɣṛi ara
     .title = Amḍan n yeznan ur nettwaɣri ara deg usqerdec
 threadpane-column-label-unread =
@@ -234,6 +269,8 @@ threadpane-column-header-location = Tansa
     .title = Asmizzwer s wadig
 threadpane-column-label-location =
     .label = Tansa
+threadpane-cell-location =
+    .aria-label = Adig
 threadpane-column-header-id = Taladna tettwarmes
     .title = Asmizzwer s wazemz n urmas
 threadpane-column-label-id =
@@ -242,6 +279,8 @@ threadpane-column-header-delete =
     .title = Kkes izen
 threadpane-column-label-delete =
     .label = Kkes
+threadpane-cell-delete =
+    .aria-label = Kkes
 
 ## Message state variations
 
