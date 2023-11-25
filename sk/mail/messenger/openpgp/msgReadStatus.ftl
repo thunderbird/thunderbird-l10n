@@ -28,6 +28,10 @@ openpgp-invalid-sig = Neplatný digitálny podpis
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Neplatný digitálny podpis – podpísané dňa { $date }
+openpgp-bad-date-sig = Nesúlad dátumu podpisu
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Nesúlad dátumu podpisu – podpísané dňa { $date }
 openpgp-good-sig = Dobrý digitálny podpis
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Táto správa obsahuje digitálny podpis, a
 openpgp-sig-uncertain-not-accepted = Táto správa obsahuje digitálny podpis, ale ešte ste sa nerozhodli, či je podpisový kľúč odosielateľa pre vás prijateľný.
 openpgp-sig-invalid-rejected = Táto správa obsahuje digitálny podpis, ale predtým ste sa rozhodli odmietnuť podpisový kľúč.
 openpgp-sig-invalid-technical-problem = Táto správa obsahuje digitálny podpis, ale bola zistená technická chyba. Buď bola správa poškodená, alebo ju upravil niekto iný.
+openpgp-sig-invalid-date-mismatch = Táto správa obsahuje digitálny podpis, ale podpis nebol vytvorený súčasne s odoslaním e‑mailovej správy. Môže ísť o pokus oklamať vás obsahom z nesprávneho kontextu: napr. obsah napísaný v inom kontexte alebo určený pre niekoho iného.
 openpgp-sig-valid-unverified = Táto správa obsahuje platný digitálny podpis z kľúča, ktorý ste už prijali. Zatiaľ ste však neoverili, že kľúč skutočne vlastní odosielateľ.
 openpgp-sig-valid-verified = Táto správa obsahuje platný digitálny podpis z overeného kľúča.
 openpgp-sig-valid-own-key = Táto správa obsahuje platný digitálny podpis z vášho osobného kľúča.

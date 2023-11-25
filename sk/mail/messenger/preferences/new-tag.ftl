@@ -4,6 +4,7 @@
 
 tag-dialog-window =
     .title = Nový štítok
+tag-dialog-title = Nový štítok
 tag-name-label =
     .value = Názov štítku:
     .accesskey = N

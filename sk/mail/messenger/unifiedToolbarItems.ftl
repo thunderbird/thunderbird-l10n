@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Indikátor činnosti
 toolbar-throbber =
     .title = Indikátor činnosti
+toolbar-create-contact-label = Nový kontakt
+toolbar-create-contact =
+    .title = Vytvoriť nový kontakt
+toolbar-create-address-book-label = Nový adresár
+toolbar-create-address-book =
+    .title = Vytvoriť nový adresár
+toolbar-create-list-label = Nový zoznam
+toolbar-create-list =
+    .title = Vytvoriť nový rozosielací zoznam
+toolbar-import-contacts-label = Importovať
+toolbar-import-contacts =
+    .title = Importovať kontakty zo súboru
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Pridať lokálny adresár
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Pridať adresár typu CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Pridať adresár LDAP
