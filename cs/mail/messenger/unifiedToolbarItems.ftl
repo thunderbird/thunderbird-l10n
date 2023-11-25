@@ -153,3 +153,7 @@ toolbar-import-contacts-label = Importovat
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Přidat složku kontaktů CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Přidat složku kontaktů LDAP
