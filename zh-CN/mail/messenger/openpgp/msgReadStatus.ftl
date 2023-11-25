@@ -28,6 +28,10 @@ openpgp-invalid-sig = 无效的数字签名
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = 无效的数字签名 - 签署于 { $date }
+openpgp-bad-date-sig = 签名日期不匹配
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = 签名日期不匹配 - 签名日期：{ $date }
 openpgp-good-sig = 正确的数字签名
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.

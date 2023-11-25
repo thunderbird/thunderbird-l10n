@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = 返回回执
+receipts-dialog-title = 回执
 return-receipt-checkbox-control =
     .label = 发送消息时，一律要求得到邮件回执
     .accesskey = W

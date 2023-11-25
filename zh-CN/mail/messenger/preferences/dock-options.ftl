@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-dock-options-window-dialog =
-    .title = 应用图标选项
-    .style = width: 35em;
 dock-options-window-dialog2 =
     .title = 应用程序图标选项
+dock-options-dialog-title = 应用图标选项
 dock-options-show-badge =
     .label = 显示角标
     .accesskey = b

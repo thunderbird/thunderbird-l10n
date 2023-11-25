@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = 活动指示器
 toolbar-throbber =
     .title = 活动指示器
+toolbar-create-contact-label = 新建联系人
+toolbar-create-contact =
+    .title = 新建联系人
+toolbar-create-address-book-label = 新建通讯录
+toolbar-create-address-book =
+    .title = 新建通讯录
+toolbar-create-list-label = 新建列表
+toolbar-create-list =
+    .title = 新建邮件列表
+toolbar-import-contacts-label = 导入
+toolbar-import-contacts =
+    .title = 从文件导入联系人
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = 添加本地通讯录
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = 添加 CardDAV 通讯录
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = 添加 LDAP 通讯录

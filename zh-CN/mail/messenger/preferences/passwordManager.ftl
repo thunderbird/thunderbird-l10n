@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = 已保存的登录信息
+saved-logins-title = 保存的登录信息
 window-close =
     .key = w
 focus-search-primary-shortcut =
