@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-dock-options-window-dialog =
-    .title = Nastavení ikony aplikace
-    .style = width: 35em;
 dock-options-window-dialog2 =
     .title = Nastavení ikony aplikace
+dock-options-dialog-title = Nastavení ikony aplikace
 dock-options-show-badge =
     .label = Zobrazit odznak
     .accesskey = b

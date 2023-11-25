@@ -59,8 +59,6 @@ toolbar-junk-label = Nevyžádaná pošta
 toolbar-junk =
     .title = Označí vybrané zprávy jako nevyžádanou poštu
 toolbar-delete-label = Smazat
-toolbar-delete =
-    .title = Smaže vybrané zprávy nebo složku
 toolbar-delete-title =
     .title = Smazat vybrané zprávy
 toolbar-undelete-label = Zrušit smazání
@@ -144,3 +142,14 @@ toolbar-stop =
 toolbar-throbber-label = Indikátor aktivity
 toolbar-throbber =
     .title = Indikátor aktivity
+toolbar-create-contact-label = Nový kontakt
+toolbar-create-contact =
+    .title = Vytvoření nového kontaktu
+toolbar-create-address-book-label = Nová složka kontaktů
+toolbar-create-address-book =
+    .title = Vytvoření nové složky kontaktů
+toolbar-create-list-label = Nová skupina
+toolbar-import-contacts-label = Importovat
+
+## New Address Book popup items
+
