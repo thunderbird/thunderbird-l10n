@@ -59,8 +59,6 @@ toolbar-junk-label = Небажане
 toolbar-junk =
     .title = Позначте вибрані повідомлення небажаними
 toolbar-delete-label = Видалити
-toolbar-delete =
-    .title = Видалити вибрані повідомлення або теку
 toolbar-delete-title =
     .title = Видалити вибрані повідомлення
 toolbar-undelete-label = Відновити
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Індикатор активності
 toolbar-throbber =
     .title = Індикатор активності
+toolbar-create-contact-label = Новий контакт
+toolbar-create-contact =
+    .title = Створити новий контакт
+toolbar-create-address-book-label = Нова адресна книга
+toolbar-create-address-book =
+    .title = Створити нову адресну книгу
+toolbar-create-list-label = Новий список
+toolbar-create-list =
+    .title = Створити новий список розсилки
+toolbar-import-contacts-label = Імпорт
+toolbar-import-contacts =
+    .title = Імпортувати контакти з файлу
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Додати локальну адресну книгу
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Додати адресну книгу CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Додати адресну книгу LDAP
