@@ -28,6 +28,10 @@ openpgp-invalid-sig = Firma digital no válida
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Firma digital no válida - Firmado el { $date }
+openpgp-bad-date-sig = La fecha de la firma no coincide
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = La fecha de la firma no coincide Firmado el { $date }
 openpgp-good-sig = Firma digital correcta
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Este mensaje contiene una firma digital, pe
 openpgp-sig-uncertain-not-accepted = Este mensaje contiene una firma digital, pero aún no ha decidido si acepta la clave del firmante.
 openpgp-sig-invalid-rejected = Este mensaje contiene una firma digital, pero previamente decidió rechazar la clave del firmante.
 openpgp-sig-invalid-technical-problem = Este mensaje contiene una firma digital, pero se detectó un error técnico. O el mensaje se ha dañado o alguien más lo ha modificado.
+openpgp-sig-invalid-date-mismatch = Este mensaje contiene una firma digital, pero la firma no se realizó en el mismo momento en que se envió el mensaje de correo electrónico. Esto podría ser un intento de engañarle con contenido de un contexto equivocado: p. ej., contenido escrito en un contexto distinto o destinado a otra persona.
 openpgp-sig-valid-unverified = Este mensaje incluye una firma digital válida de una clave que ya ha aceptado. Sin embargo, aún no ha comprobado que la clave sea propiedad del remitente.
 openpgp-sig-valid-verified = Este mensaje incluye una firma digital válida de una clave verificada.
 openpgp-sig-valid-own-key = Este mensaje incluye una firma digital válida de su clave personal.
