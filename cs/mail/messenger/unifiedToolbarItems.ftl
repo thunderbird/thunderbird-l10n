@@ -150,6 +150,8 @@ toolbar-create-address-book =
     .title = Vytvoření nové složky kontaktů
 toolbar-create-list-label = Nová skupina
 toolbar-import-contacts-label = Importovat
+toolbar-import-contacts =
+    .title = Importovat kontakty ze souboru
 
 ## New Address Book popup items
 
