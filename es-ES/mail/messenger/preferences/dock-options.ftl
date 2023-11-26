@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-dock-options-window-dialog =
-    .title = Opciones del icono de la aplicación
-    .style = width: 42em;
 dock-options-window-dialog2 =
     .title = Opciones del icono de la aplicación
+dock-options-dialog-title = Opciones del icono de la aplicación
 dock-options-show-badge =
     .label = Mostrar icono de insignia
     .accesskey = M
