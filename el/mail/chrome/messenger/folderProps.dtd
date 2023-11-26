@@ -9,7 +9,7 @@
 <!ENTITY folderRebuildSummaryFile2.label         "Επιδιόρθωση φακέλου">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "ρ">
 <!ENTITY folderRebuildSummaryFile.explanation    "Μερικές φορές, το αρχείο ευρετηρίου φακέλου (.msf) καταστρέφεται και τα μηνύματα φαίνεται να λείπουν ή να εμφανίζονται παρά τη διαγραφή τους· η επιδιόρθωση του φακέλου ίσως λύσει αυτά τα ζητήματα.">
-<!ENTITY folderIncludeInGlobalSearch.label       "Να συμπεριλαμβάνονται τα μηνύματα αυτού του φακέλου στα αποτελέσματα της καθολικής αναζήτησης">
+<!ENTITY folderIncludeInGlobalSearch.label       "Συμπερίληψη των μηνυμάτων αυτού του φακέλου στα αποτελέσματα της καθολικής αναζήτησης">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "θ">
 
 <!ENTITY retention.label "Πολιτική διατήρησης">
