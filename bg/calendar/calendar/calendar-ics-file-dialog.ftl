@@ -30,3 +30,11 @@ calendar-ics-file-dialog-sort-title-descending =
 calendar-ics-file-dialog-progress-message = Внасяне…
 calendar-ics-file-import-success = Успешно внасяне!
 calendar-ics-file-import-error = Възникна грешка и внасянето не бе успешно.
+calendar-ics-file-import-complete = Внасянето завършено
+# Variables:
+# $duplicatesCount (Number) - Number of items already existing in the target calendar.
+calendar-ics-file-import-duplicates =
+    { $duplicatesCount ->
+        [one] Един елемент беше игнориран, тъй като вече съществува в целевия календар.
+       *[other] { $duplicatesCount } елементи бяха игнорирани, тъй като вече съществуват в целевия календар.
+    }
