@@ -41,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = 此消息包含数字签名，但与已知�
 openpgp-sig-uncertain-not-accepted = 此消息包含数字签名，但您尚未决定是否接受发件人的密钥。
 openpgp-sig-invalid-rejected = 此消息包含数字签名，但您先前已决定要拒绝签名者的密钥。
 openpgp-sig-invalid-technical-problem = 此消息包含数字签名，但检测到技术错误。可能已损坏或遭人窜改。
+openpgp-sig-invalid-date-mismatch = 此消息包含数字签名，但签名时间与邮件发送时间不一致。这可能是有人试图利用错误上下文中的内容（例如，另一适时的上下文中撰写的内容，或是本应发送给另一人的内容）来欺骗您。
 openpgp-sig-valid-unverified = 此消息包含您先前接受过的密钥所生成的有效数字签名。但您还未验证过密钥是否确属于该发件人。
 openpgp-sig-valid-verified = 此消息包含由已验证的密钥所生成的有效数字签名。
 openpgp-sig-valid-own-key = 此消息包含由您的个人密钥所生成的有效数字签名。
