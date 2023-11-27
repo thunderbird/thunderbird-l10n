@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Търсене
+search-bar-item =
+    .label = Търсене:
+search-bar-placeholder = Търсене…
 
 ## Unified toolbar context menu
 
