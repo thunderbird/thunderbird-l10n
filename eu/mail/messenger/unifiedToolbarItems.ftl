@@ -142,3 +142,16 @@ toolbar-stop =
 toolbar-throbber-label = Jarduera-adierazlea
 toolbar-throbber =
     .title = Jarduera-adierazlea
+toolbar-create-contact-label = Kontaktu berria
+toolbar-create-contact =
+    .title = Sortu kontaktu berria
+toolbar-create-address-book-label = Helbide-liburu berria
+toolbar-create-address-book =
+    .title = Sortu helbide-liburu berria
+toolbar-create-list-label = Zerrenda berria
+toolbar-import-contacts-label = Inportatu
+toolbar-import-contacts =
+    .title = Inportatu kontaktuak fitxategitik…
+
+## New Address Book popup items
+
