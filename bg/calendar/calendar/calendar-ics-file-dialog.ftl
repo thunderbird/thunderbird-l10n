@@ -38,3 +38,11 @@ calendar-ics-file-import-duplicates =
         [one] Един елемент беше игнориран, тъй като вече съществува в целевия календар.
        *[other] { $duplicatesCount } елементи бяха игнорирани, тъй като вече съществуват в целевия календар.
     }
+# Variables:
+# $errorsCount (Number) - Number of errors while importing ics file.
+calendar-ics-file-import-errors =
+    { $errorsCount ->
+        [one] Един елемент не успя да бъде внесен. Проверете конзолата за грешки за подробности.
+       *[other] { $errorsCount } елемента не успяха да бъдат внесени. Проверете конзолата за грешки за подробности.
+    }
+calendar-ics-file-dialog-no-calendars = Няма календари, които могат да внасят събития или задачи.
