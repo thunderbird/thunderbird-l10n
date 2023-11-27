@@ -24,11 +24,28 @@
 <!-- Below are new strings for the revised new calendar dialog. The above strings should be
     removed/renamed later on -->
 
+<!ENTITY sourcetabs.other.label  "Друго">
 
+<!ENTITY buttons.create.label "Създаване на нов календар">
+<!ENTITY buttons.create.accesskey "к">
 
+<!ENTITY buttons.find.label "Намиране на календар">
+<!ENTITY buttons.find.accesskey "Н">
 
+<!ENTITY buttons.back.label "Назад">
+<!ENTITY buttons.back.accesskey "З">
 
+<!ENTITY buttons.subscribe.label "Абониране">
+<!ENTITY buttons.subscribe.accesskey "А">
 
+<!ENTITY calendartype.label "Тип календар:">
 <!ENTITY location.label "Местоположение:">
+<!ENTITY location.placeholder "URL или име на хост на сървъра на календара">
 
+<!ENTITY network.nocredentials.label "Това местоположение не изисква идентификационни данни">
+<!ENTITY network.loading.description "Моля, изчакайте, докато вашите календари бъдат открити.">
+<!ENTITY network.notfound.description "Няма календари на това място. Моля, проверете настройките си.">
+<!ENTITY network.authfail.description "Идентификационните данни, които сте въвели, не бяха приети. Моля, проверете настройките си.">
 
+<!ENTITY network.subscribe.single.description "Моля, изберете календарите, за които искате да се абонирате.">
+<!ENTITY network.subscribe.multiple.description "За това местоположение са налични множество типове календари. Моля, изберете типа календар, след което маркирайте календарите, за които искате да се абонирате.">
