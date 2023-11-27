@@ -62,9 +62,31 @@ customize-palette-addressbook-specific-title = Достъпен само за а
 customize-palette-calendar-specific-title = Достъпен само за пространството на календара
 customize-palette-tasks-specific-title = Достъпен само за пространството на задачите
 customize-palette-chat-specific-title = Достъпен само за пространството на разговорите
+customize-palette-settings-specific-title = Достъпен само за пространството на настройките
+customize-palette-extension-specific-title = Достъпен само за това пространство
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Добавяне към { $target }
+customize-palette-add-everywhere =
+    .label = Добавяне към всички ленти с инструменти
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Отиване напред
+customize-target-backward =
+    .label = Отиване назад
+customize-target-remove =
+    .label = Премахване
+customize-target-remove-everywhere =
+    .label = Премахване от всички ленти с инструменти
+customize-target-add-everywhere =
+    .label = Добавяне към всички ленти с инструменти
+customize-target-start =
+    .label = В началото
+customize-target-end =
+    .label = В края
