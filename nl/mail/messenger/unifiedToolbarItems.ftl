@@ -59,8 +59,6 @@ toolbar-junk-label = Ongewenst
 toolbar-junk =
     .title = De geselecteerde berichten als ongewenst markeren
 toolbar-delete-label = Verwijderen
-toolbar-delete =
-    .title = Geselecteerde berichten of map verwijderen
 toolbar-delete-title =
     .title = De geselecteerde berichten verwijderen
 toolbar-undelete-label = Verwijderen ongedaan maken
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Activiteitsindicator
 toolbar-throbber =
     .title = Activiteitsindicator
+toolbar-create-contact-label = Nieuw contact
+toolbar-create-contact =
+    .title = Een nieuw contact aanmaken
+toolbar-create-address-book-label = Nieuw adresboek
+toolbar-create-address-book =
+    .title = Een nieuw adresboek aanmaken
+toolbar-create-list-label = Nieuwe lijst
+toolbar-create-list =
+    .title = Een nieuwe e-maillijst aanmaken
+toolbar-import-contacts-label = Importeren
+toolbar-import-contacts =
+    .title = Contacten uit een bestand importeren
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Lokaal adresboek toevoegen
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = CardDAV-adresboek toevoegen
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = LDAP-adresboek toevoegen

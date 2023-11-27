@@ -21,22 +21,43 @@ openpgp-openpgp = OpenPGP
 openpgp-no-sig = Geen digitale handtekening
 openpgp-no-sig-info = Dit bericht bevat geen digitale ondertekening van de afzender. De afwezigheid van een digitale ondertekening betekent dat dit bericht door iemand anders dan de werkelijke eigenaar van dit e-mailadres kan zijn verzonden. Het is ook mogelijk dat het bericht is verminkt tijdens het versturen over het netwerk.
 openpgp-uncertain-sig = Onzekere digitale handtekening
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-uncertain-sig-with-date = Onzekere digitale handtekening – Ondertekend op { $date }
 openpgp-invalid-sig = Ongeldige digitale handtekening
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Ongeldige digitale handtekening – Ondertekend op { $date }
+openpgp-bad-date-sig = Datum van handtekening komt niet overeen
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Ondertekeningsdatum komt niet overeen – Ondertekend op { $date }
 openpgp-good-sig = Goede digitale handtekening
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Goede digitale handtekening – Ondertekend op { $date }
 openpgp-sig-uncertain-no-key = Dit bericht bevat een digitale handtekening, maar het is onzeker of deze correct is. Om de handtekening te verifiëren, moet u een kopie van de publieke sleutel van de afzender verkrijgen.
 openpgp-sig-uncertain-uid-mismatch = Dit bericht bevat een digitale handtekening, maar er is een verkeerde combinatie gedetecteerd. Het bericht is verzonden vanaf een e-mailadres dat niet overeenkomt met de publieke sleutel van de ondertekenaar.
 openpgp-sig-uncertain-not-accepted = Dit bericht bevat een digitale handtekening, maar u hebt nog niet besloten of de sleutel van de ondertekenaar acceptabel voor u is.
 openpgp-sig-invalid-rejected = Dit bericht bevat een digitale handtekening, maar u hebt eerder besloten de sleutel van de ondertekenaar te weigeren.
 openpgp-sig-invalid-technical-problem = Dit bericht bevat een digitale handtekening, maar er is een technische fout gedetecteerd. Het bericht is beschadigd of het bericht is door iemand anders gewijzigd.
+openpgp-sig-invalid-date-mismatch = Dit bericht bevat een digitale ondertekening, maar de ondertekening is niet gemaakt op het moment dat het e-mailbericht is verzonden. Dit kan een poging zijn om u te misleiden met inhoud uit de verkeerde context: bijvoorbeeld inhoud die in een andere tijdscontext is geschreven of voor iemand anders bedoeld is.
 openpgp-sig-valid-unverified = Dit bericht bevat een geldige digitale handtekening van een sleutel die u al hebt geaccepteerd. U hebt echter nog niet geverifieerd dat de sleutel daadwerkelijk van de afzender is.
 openpgp-sig-valid-verified = Dit bericht bevat een geldige digitale handtekening van een geverifieerde sleutel.
 openpgp-sig-valid-own-key = Dit bericht bevat een geldige digitale handtekening van uw persoonlijke sleutel.
+# Variables:
+# $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = Sleutel-ID ondertekenaar: { $key }
+# Variables:
+# $key (String) - The primary ID of the OpenPGP key used to create the signature.
+# $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
 openpgp-sig-key-id-with-subkey-id = Sleutel-ID ondertekenaar: { $key } (subsleutel-ID: { $subkey })
+# Variables:
+# $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = Uw ontsleutelingssleutel-ID: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Uw ontsleutelingssleutel-ID: { $key } (subsleutel-ID: { $subkey })
 openpgp-enc-none = Bericht is niet versleuteld
 openpgp-enc-none-label = Dit bericht is niet versleuteld voordat het werd verzonden. Gegevens die zonder versleuteling over het internet worden verzonden kunnen onderweg door anderen worden ingezien.
