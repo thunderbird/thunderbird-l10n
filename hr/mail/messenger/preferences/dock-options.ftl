@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-dock-options-window-dialog =
-    .title = Mogućnosti aplikacijske ikone
-    .style = width: 35em;
 dock-options-window-dialog2 =
     .title = Mogućnosti aplikacijske ikone
+dock-options-dialog-title = Mogućnosti aplikacijske ikone
 dock-options-show-badge =
     .label = Prikaži ikonu značke
     .accesskey = r

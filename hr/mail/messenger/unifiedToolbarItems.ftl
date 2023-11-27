@@ -142,3 +142,16 @@ toolbar-stop =
 toolbar-throbber-label = Indikator aktivnosti
 toolbar-throbber =
     .title = Indikator aktivnosti
+toolbar-create-contact-label = Novi kontakt
+toolbar-create-contact =
+    .title = Stvori novi kontakt
+toolbar-create-address-book-label = Novi adresar
+toolbar-create-address-book =
+    .title = Stvori novi adresar
+toolbar-create-list-label = Novi popis
+toolbar-create-list =
+    .title = Stvori novi popis primatelja
+toolbar-import-contacts-label = Uvoz
+
+## New Address Book popup items
+
