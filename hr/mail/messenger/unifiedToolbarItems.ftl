@@ -152,6 +152,14 @@ toolbar-create-list-label = Novi popis
 toolbar-create-list =
     .title = Stvori novi popis primatelja
 toolbar-import-contacts-label = Uvoz
+toolbar-import-contacts =
+    .title = Uvezi kontakte iz datoteke
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Dodaj lokalni adresar
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Dodaj CardDAV adresar
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Dodaj LDAP adresar
