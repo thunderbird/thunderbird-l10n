@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Manylion Rhaglen
+app-manager-dialog-title = Manylion Rhaglen
 remove-app-button =
     .label = Tynnu
     .accesskey = T
