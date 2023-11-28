@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Opziuns da l'icona da l'applicaziun
+dock-options-dialog-title = Opziuns da l'icona da l'applicaziun
 dock-options-show-badge =
     .label = Mussar l'icona da l'ensaina
     .accesskey = e
