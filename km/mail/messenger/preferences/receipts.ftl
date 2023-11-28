@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Return Receipts
-
+receipts-dialog-title = Return Receipts
 receipt-arrive-label = When a receipt arrives:
-
 receipt-request-label = When I receive a request for a return receipt:
-
 receipt-send-never-label =
     .label = Never send
-
 receipt-send-always-label =
     .label = Always send
-
 receipt-send-ask-label =
     .label = Ask me
-
