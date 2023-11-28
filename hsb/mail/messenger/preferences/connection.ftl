@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Swójski
 connection-dialog-window2 =
     .title = Zwiskowe nastajenja
+connection-dialog-title = Zwiskowe nastajenja
 disable-extension-button = Rozšěrjenje znjemóžnić
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
