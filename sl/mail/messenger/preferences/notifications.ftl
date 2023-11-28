@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Prilagodi opozorilo o novi pošti
-
+notifications-dialog-title = Prilagodi opozorilo o novi pošti
 customize-alert-description = Izberite, katera polja naj bodo prikazana v obvestilu z opozorilom:
-
 preview-text-checkbox =
     .label = Besedilo predogleda sporočila
     .accesskey = B
-
 subject-checkbox =
     .label = Zadeva
     .accesskey = Z
-
 sender-checkbox =
     .label = Pošiljatelj
     .accesskey = P
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Prikaži opozorilo o novi pošti za
     .accesskey = r
-
 open-time-label-after =
     .value = sekund
