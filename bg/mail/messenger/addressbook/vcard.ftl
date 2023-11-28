@@ -82,15 +82,57 @@ vcard-impp-input-title = URI за незабавни съобщения
 
 vcard-bday-anniversary-header = Специални дати
 vcard-bday-anniversary-add = Добавяне на специална дата
+vcard-bday-label = Рожден ден
+vcard-anniversary-label = Годишнина
+vcard-date-day = Ден
+vcard-date-month = Месец
+vcard-date-year = Година
 
 # ADR vCard field
 
+vcard-adr-header = Адреси
+vcard-adr-add = Добавяне на адрес
+vcard-adr-label = Адрес
+vcard-adr-delivery-label = Етикет за доставка
+vcard-adr-street = Улица
+# Or "Locality"
+vcard-adr-locality = Град
+# Or "Region"
+vcard-adr-region = Област/Община:
+# The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
+vcard-adr-code = Пощенски код:
+vcard-adr-country = Държава
 
 # NOTE vCard field
 
+vcard-note-header = Бележки
+vcard-note-add = Добавяне на бележка
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
+vcard-org-header = Организационни свойства
+vcard-org-add = Добавяне на организационни свойства
+vcard-org-title = Заглавие
+vcard-org-title-input =
+    .title = Позиция или месторабота
+    .placeholder = длъжност
+vcard-org-role = Роля
+vcard-org-role-input =
+    .title = Функция или роля в конкретна ситуация
+    .placeholder = Длъжност в проекта
+vcard-org-org = Организация
+vcard-org-org-input =
+    .title = Име на организацията
+    .placeholder = Име на фирмата
+vcard-org-org-unit = Отдел
+vcard-org-org-unit-input =
+    .title = Отдел
+    .placeholder = Отрдел
 
 # Custom properties
 
+vcard-custom-header = Други данни
+vcard-custom-add = Добвяне на други данни
+vcard-remove-button-title =
+    .title = Премахване
+vcard-remove-button = Премахване
