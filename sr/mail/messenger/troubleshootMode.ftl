@@ -5,6 +5,7 @@
 troubleshoot-mode-window =
     .title = { -brand-short-name } режим за решавање проблема
     .style = width: 37em;
+troubleshoot-mode-dialog-title = { -brand-short-name } режим за решавање проблема
 troubleshoot-mode-description = Користите { -brand-short-name } режим за решавање проблема да анализирате проблеме. Ваши додаци и прилагођена подешавања биће привремено онемогућена.
 troubleshoot-mode-description2 = Можете учинити нека од ових измена трајним:
 troubleshoot-mode-disable-addons =
