@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Podrobnosti programa
+app-manager-dialog-title = Podrobnosti programa
 remove-app-button =
     .label = Odstrani
     .accesskey = d
