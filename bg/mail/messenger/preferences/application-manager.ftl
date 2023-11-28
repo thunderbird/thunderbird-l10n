@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Детайли за приложението
+app-manager-dialog-title = Детайли за приложението
 remove-app-button =
     .label = Премахване
     .accesskey = П
