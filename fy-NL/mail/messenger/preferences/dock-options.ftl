@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Programmasymboalopsjes
+dock-options-dialog-title = Programmasymboalopsjes
 dock-options-show-badge =
     .label = Badge-piktogram toane
     .accesskey = p
