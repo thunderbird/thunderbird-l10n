@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Vetjake
 connection-dialog-window2 =
     .title = Rregullime Lidhjeje
+connection-dialog-title = Rregullime Lidhjeje
 disable-extension-button = Çaktivizoje Zgjerimin
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
