@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = გამონაკლისები
+permissions-dialog-title = გამონაკლისები
 permission-preferences-close-window =
     .key = w
 website-address-label =
