@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = U
     .tooltiptext = Sekcem tansa-ik tudmawant tufrint akken ad tefruḍ DNS s HTTPS
 connection-dns-over-https-custom-label = Udmawan
-connection-dialog-window =
-    .title = Iɣewwaṛen n tuqqna
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Iɣewwaṛen n tuqqna
 disable-extension-button = Sens asiɣzef
