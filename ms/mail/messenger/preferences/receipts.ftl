@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Resit Pemberitahu Serahan
-
+receipts-dialog-title = Resit Pemberitahu Serahan
 receipt-arrive-label = Apabila resit pemberitahuan serahan diterima:
-
 receipt-request-label = Apabila saya diminta menyerahkan resit pemberitahu serahan:
-
 receipt-send-never-label =
     .label = Jangan sesekali hantar
-
 receipt-send-always-label =
     .label = Sentiasa hantar
-
 receipt-send-ask-label =
     .label = Tanya saya
-
