@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Applikaasjedetails
+app-manager-dialog-title = Applikaasjedetails
 remove-app-button =
     .label = Fuortsmite
     .accesskey = F
