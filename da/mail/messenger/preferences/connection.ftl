@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = e
     .tooltiptext = Angiv den URL, du foretrækker til DNS-opslag over HTTPS
 connection-dns-over-https-custom-label = Tilpasset
-connection-dialog-window =
-    .title = Forbindelsesindstillinger
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Forbindelsesindstillinger
 disable-extension-button = Deaktiver udvidelse
