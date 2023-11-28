@@ -4,6 +4,7 @@
 
 offline-dialog-window =
     .title = Подешавања рада ван мреже
+offline-dialog-title = Подешавања рада ван мреже
 autodetect-online-label =
     .label = Аутоматски прати пронађено стање рада на мрежи
     .accesskey = т
