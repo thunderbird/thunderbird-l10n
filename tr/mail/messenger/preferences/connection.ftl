@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Özel
 connection-dialog-window2 =
     .title = Bağlantı ayarları
+connection-dialog-title = Bağlantı ayarları
 disable-extension-button = Uzantıyı etkisizleştir
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
