@@ -41,7 +41,39 @@ account-hub-sync-button = Log ind på Sync…
 ## Email page
 
 account-hub-email-title = Opsæt din mailkonto
+account-hub-add-email-title = Tilføj din konto
 account-hub-email-cancel-button = Annuller
+account-hub-email-stop-button = Stop
 account-hub-email-back-button = Tilbage
+account-hub-email-retest-button = Test igen
+account-hub-email-finish-button = Afslut
 account-hub-email-continue-button = Fortsæt
 account-hub-email-confirm-button = Bekræft
+account-hub-incoming-server-legend = Indgående server
+account-hub-outgoing-server-legend = Udgående server
+account-hub-protocol-label = Protokol
+account-hub-hostname-label = Værtsnavn
+account-hub-port-label = Port
+    .title = Sæt portnummeret til 0 for automatisk udfyldning
+account-hub-auto-description = { -brand-short-name } forsøger automatisk at udfylde tomme felter.
+account-hub-ssl-label = Forbindelsessikkerhed
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Find automatisk
+account-hub-ssl-no-authentication-option =
+    .label = Ingen godkendelse
+account-hub-ssl-cleartext-password-option =
+    .label = Almindelig adgangskode
+account-hub-ssl-encrypted-password-option =
+    .label = Krypteret adgangskode
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Ingen
+account-hub-auth-label = Godkendelsesmetode
+account-hub-username-label = Brugernavn
+account-hub-adding-account-title = Tilføjer konto
+account-hub-account-added-title = Konto tilføjet

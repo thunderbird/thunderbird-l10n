@@ -27,3 +27,4 @@ libs-rnp-status-ok = OK
 libs-rnp-status-load-failed = Kunne ikke indlæses. OpenPGP vil ikke fungere.
 libs-rnp-status-incompatible = Ikke-kompatibel version. OpenPGP vil ikke fungere.
 libs-rnp-status-unofficial = Uofficiel version. OpenPGP fungerer muligvis ikke efter hensigten.
+libs-otr-status-ok = OK
