@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Titouroù kennaskañ enrollet
+saved-logins-title = Titouroù kennaskañ enrollet
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
