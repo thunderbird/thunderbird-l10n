@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = T
     .tooltiptext = Spesifiser føretrekt nettadresse for DNS-oppslag over HTTPS
 connection-dns-over-https-custom-label = Tilpassa
-connection-dialog-window =
-    .title = Tilkoplingsinnstillingar
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Tilkoplingsinnstillingar
 disable-extension-button = Slå av utviding
