@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = 输入您偏好的 URL，用来完成基于 HTTPS 的 DNS 解析
 connection-dns-over-https-custom-label = 自定义
-connection-dialog-window =
-    .title = 连接设置
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = 连接设置
 disable-extension-button = 禁用扩展
