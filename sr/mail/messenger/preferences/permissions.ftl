@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Изузеци
+permissions-dialog-title = Изузеци
 permission-preferences-close-window =
     .key = њ
 website-address-label =
