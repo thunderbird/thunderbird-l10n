@@ -54,7 +54,7 @@ collection-health-report-link = Mësoni më tepër
 # or builds with no Telemetry support available.
 collection-health-report-disabled = Raportimi i të dhënave është i çaktivizuar për këtë formësim montimi
 collection-backlogged-crash-reports =
-    .label = Lejojeni { -brand-short-name }-in të dërgojë njoftime të dikurshme vithisjesh në emrin tuaj
+    .label = Lejojeni { -brand-short-name }-in të dërgojë në emrin tuaj njoftime vithisjesh të dikurshme ende pezull
     .accesskey = v
 collection-backlogged-crash-reports-link = Mësoni më tepër
 privacy-security-header = Siguri
