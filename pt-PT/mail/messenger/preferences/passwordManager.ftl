@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Credenciais guardadas
+saved-logins-title = Credenciais guardadas
 window-close =
     .key = w
 focus-search-primary-shortcut =
@@ -48,11 +49,9 @@ remove =
 import =
     .label = Importar...
     .accesskey = I
-
 password-close-button =
     .label = Fechar
     .accesskey = c
-
 show-passwords =
     .label = Mostrar palavras-passe
     .accesskey = M
@@ -75,12 +74,10 @@ no-master-password-prompt = Tem a certeza que deseja mostrar as suas palavras-pa
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Confirme a sua identidade para revelar as palavras-passe guardadas.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = revelar as palavras-passe guardadas
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
