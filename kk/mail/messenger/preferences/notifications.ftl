@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Жаңа пошта туралы хабарлауды баптау
-
+notifications-dialog-title = Жаңа пошта туралы хабарлауды баптау
 customize-alert-description = Ескерту хабарламасында қандай өрістерді қолдануды таңдау:
-
 preview-text-checkbox =
     .label = Хабарламаның алдын-ала қарау мәтіні
     .accesskey = Х
-
 subject-checkbox =
     .label = Тақырыбы
     .accesskey = Т
-
 sender-checkbox =
     .label = Жіберуші
     .accesskey = е
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Келесі үшін жаңа пошта ескертуін көрсету
     .accesskey = ж
-
 open-time-label-after =
     .value = секунд
