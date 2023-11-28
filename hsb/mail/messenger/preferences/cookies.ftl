@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Placki
+cookies-dialog-title = Placki
 window-close-key =
     .key = w
 window-focus-search-key =
