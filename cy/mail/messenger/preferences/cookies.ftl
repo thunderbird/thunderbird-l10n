@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Cwcis
+cookies-dialog-title = Cwcis
 window-close-key =
     .key = w
 window-focus-search-key =
