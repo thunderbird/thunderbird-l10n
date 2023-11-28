@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Sagen alɣu n yimayl amaynut
-
+notifications-dialog-title = Sagen alɣu n yimayl amaynut
 customize-alert-description = Fren anwa urtan ad sekneḍ deg ulɣu:
-
 preview-text-checkbox =
     .label = Aḍris n teskant n yizen
     .accesskey = s
-
 subject-checkbox =
     .label = Amgay
     .accesskey = A
-
 sender-checkbox =
     .label = Amazan
     .accesskey = m
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Sken alɣu n yimayl amaynut i
     .accesskey = N
-
 open-time-label-after =
     .value = tasinin
