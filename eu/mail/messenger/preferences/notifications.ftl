@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Pertsonalizatu posta berriaren alerta
-
+notifications-dialog-title = Pertsonalizatu posta berriaren alerta
 customize-alert-description = Aukeratu zein eremu nahi duzun erakustea jakinarazpen-alertan:
-
 preview-text-checkbox =
     .label = Mezuaren aurreikuspen-testua
     .accesskey = M
-
 subject-checkbox =
     .label = Gaia
     .accesskey = G
-
 sender-checkbox =
     .label = Bidaltzailea
     .accesskey = e
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Erakutsi posta berriaren alerta
     .accesskey = b
-
 open-time-label-after =
     .value = segundoz
