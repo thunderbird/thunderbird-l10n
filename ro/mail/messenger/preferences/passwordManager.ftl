@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Date de autentificare salvate
+saved-logins-title = Date de autentificare salvate
 window-close =
     .key = w
 focus-search-primary-shortcut =
