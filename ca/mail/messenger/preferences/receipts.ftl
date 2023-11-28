@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = Confirmacions de recepció
+receipts-dialog-title = Confirmacions de recepció
 return-receipt-checkbox-control =
     .label = Quan s'enviïn missatges, sol·licita sempre una confirmació de recepció
     .accesskey = Q
