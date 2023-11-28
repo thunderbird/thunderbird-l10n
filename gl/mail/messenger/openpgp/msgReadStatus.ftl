@@ -28,6 +28,10 @@ openpgp-invalid-sig = Sinatura dixital non válida
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Sinatura dixital non válida: asinada o { $date }
+openpgp-bad-date-sig = A data da sinatura non concorda
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = A data da sinatura non concorda: asinado o { $date }
 openpgp-good-sig = Sinatura dixital válida
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Esta mensaxe contén unha sinatura dixital,
 openpgp-sig-uncertain-not-accepted = Esta mensaxe contén unha sinatura dixital, mais aínda non decidiu se a chave do asinante é aceptábel para vostede.
 openpgp-sig-invalid-rejected = Esta mensaxe contén unha sinatura dixital, mais previamente decidiu rexeitar a chave do asinante.
 openpgp-sig-invalid-technical-problem = Esta mensaxe contén unha sinatura dixital, mais detectouse un erro técnico. Ou a mensaxe foi corrompida ou a mensaxe foi modificada por outra persoa.
+openpgp-sig-invalid-date-mismatch = Esta mensaxe contén unha sinatura dixital, pero a sinatura non se fixo ao mesmo tempo que se enviou a mensaxe de correo electrónico. Isto podería ser un intento de engano con contido dun contexto incorrecto: p. ex. contido escrito noutro contexto distinto ou destinado a outra persoa.
 openpgp-sig-valid-unverified = Esta mensaxe inclúe unha sinatura dixital válida dunha chave que xa aceptou. No entanto, aínda non verificou que a chave sexa realmente propiedade do remitente.
 openpgp-sig-valid-verified = Esta mensaxe inclúe unha sinatura dixital válida dunha chave verificada.
 openpgp-sig-valid-own-key = Esta mensaxe inclúe unha sinatura dixital válida da súa chave persoal.
