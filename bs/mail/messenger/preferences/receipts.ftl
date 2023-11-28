@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Potvrde čitanja
-
+receipts-dialog-title = Potvrde čitanja
 receipt-arrive-label = Kada potvrda stigne:
-
 receipt-request-label = Kada primim zahtjev za potvrdu čitanja:
-
 receipt-send-never-label =
     .label = Nikad ne šalji
-
 receipt-send-always-label =
     .label = Uvijek pošalji
-
 receipt-send-ask-label =
     .label = Pitaj me
-
