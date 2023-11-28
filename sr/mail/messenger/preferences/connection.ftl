@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = П
     .tooltiptext = Унесите пожељни URL за решавање DNS преко HTTP-а
 connection-dns-over-https-custom-label = Прилагођено
-connection-dialog-window =
-    .title = Подешавања везе
-    .style =
-        { PLATFORM() ->
-            [macos] width: 45em !important
-           *[other] width: 50em !important
-        }
 connection-dialog-window2 =
     .title = Подешавања везе
 disable-extension-button = Онемогући додатак
