@@ -4,6 +4,7 @@
 
 tag-dialog-window =
     .title = 新規タグ
+tag-dialog-title = 新規タグ
 tag-name-label =
     .value = タグ名:
     .accesskey = T
