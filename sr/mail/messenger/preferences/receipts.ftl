@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = Повратнице
+receipts-dialog-title = Повратнице
 return-receipt-checkbox-control =
     .label = Приликом слања поруке, увек затражи повратницу
     .accesskey = ц
