@@ -5,6 +5,7 @@
 troubleshoot-mode-window =
     .title = โหมดแก้ไขปัญหาของ { -brand-short-name }
     .style = width: 37em;
+troubleshoot-mode-dialog-title = โหมดแก้ไขปัญหาของ { -brand-short-name }
 troubleshoot-mode-description = ใช้โหมดแก้ไขปัญหาของ { -brand-short-name } เพื่อวินิจฉัยปัญหา ส่วนเสริมและการปรับแต่งของคุณจะถูกปิดใช้งานชั่วคราว
 troubleshoot-mode-description2 = คุณสามารถทำการเปลี่ยนแปลงบางส่วนหรือทั้งหมดอย่างถาวร:
 troubleshoot-mode-disable-addons =
