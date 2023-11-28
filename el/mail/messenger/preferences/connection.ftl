@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = Π
     .tooltiptext = Εισαγάγετε το προτιμώμενο URL σας για επίλυση DNS over HTTPS
 connection-dns-over-https-custom-label = Προσαρμοσμένο
-connection-dialog-window =
-    .title = Ρυθμίσεις σύνδεσης
-    .style =
-        { PLATFORM() ->
-            [macos] width: 60em !important
-           *[other] width: 60em !important
-        }
 connection-dialog-window2 =
     .title = Ρυθμίσεις σύνδεσης
 disable-extension-button = Απενεργοποίηση επέκτασης
