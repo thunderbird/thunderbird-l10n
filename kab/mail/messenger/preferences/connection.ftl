@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Udmawan
 connection-dialog-window2 =
     .title = Iɣewwaṛen n tuqqna
+connection-dialog-title = Iɣewwaṛen n tuqqna
 disable-extension-button = Sens asiɣzef
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
