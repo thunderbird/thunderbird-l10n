@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-permissions-reminder-window =
-    .title = Exceptions
-    .style = width: 45em;
 permissions-reminder-window2 =
     .title = Exceptions
 permission-preferences-close-window =
