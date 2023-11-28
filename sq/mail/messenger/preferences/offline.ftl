@@ -4,6 +4,7 @@
 
 offline-dialog-window =
     .title = Rregullime për Jo Në Linjë
+offline-dialog-title = Rregullime për Jo Në Linjë
 autodetect-online-label =
     .label = Ndiq vetvetiu gjendjen e zbuluar për në linjë ose jashtë saj
     .accesskey = N
