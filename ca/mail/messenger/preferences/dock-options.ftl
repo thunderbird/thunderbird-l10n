@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Opcions de la icona de l'aplicació
+dock-options-dialog-title = Opcions de la icona de l'aplicació
 dock-options-show-badge =
     .label = Mostra la icona de distintiu
     .accesskey = d
