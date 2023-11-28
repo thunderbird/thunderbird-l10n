@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Gnàthaich a' chaismeachd airson post ùr
-
+notifications-dialog-title = Gnàthaich a' chaismeachd airson post ùr
 customize-alert-description = Tagh na raointean a nochdas sna rabhaidhean caismeachd:
-
 preview-text-checkbox =
     .label = Teacsa ro-shealladh nan teachdaireachdan
     .accesskey = T
-
 subject-checkbox =
     .label = Cuspair
     .accesskey = s
-
 sender-checkbox =
     .label = Seòladair
     .accesskey = e
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Seall am brath mu phost ùr fad
     .accesskey = m
-
 open-time-label-after =
     .value = diog(an)
