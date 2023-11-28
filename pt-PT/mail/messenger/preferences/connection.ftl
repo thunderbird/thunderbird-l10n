@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = P
     .tooltiptext = Introduza o seu URL preferido para resolver DNS por HTTPS
 connection-dns-over-https-custom-label = Personalizado
-connection-dialog-window =
-    .title = Definições de ligação
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Definições de ligação
 disable-extension-button = Desativar extensão
