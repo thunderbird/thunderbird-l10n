@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Programdetaljar
+app-manager-dialog-title = Programdetaljar
 remove-app-button =
     .label = Fjern
     .accesskey = F
