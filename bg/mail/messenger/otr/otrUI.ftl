@@ -40,3 +40,27 @@ state-generic-not-private = Текущият разговор не е личен
 #   $name (String) - the screen name of a chat contact person
 state-unverified = Текущият разговор е шифрован, но не е частен, тъй като самоличността на { $name } все още не е потвърдена.
 state-generic-unverified = Текущият разговор е шифрован, но не е личен, тъй като някои самоличности все още не са потвърдени.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+state-private = Самоличността на { $name } е потвърдена. Текущият разговор е шифрован и частен.
+state-generic-private = Текущият разговор е шифрован и частен.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+state-finished = { $name } прекрати шифрования си разговор с вас; трябва да направите същото.
+state-not-private-label = Несигурен
+state-unverified-label = Непотвърден
+state-private-label = Личен
+state-finished-label = Завършен
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+verify-request = { $name } поиска потвърждение на вашата самоличност.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+afterauth-private = Вие потвърдихте самоличността на { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+afterauth-unverified = Самоличността на { $name } не е потвърдена.
+# Do not translate 'OTR' (name of an encryption protocol)
+# Variables:
+#   $error (String) - contains an error message that describes the cause of the failure
+otr-genkey-failed = Неуспешно генериране на OTR личен ключ: { $error }
