@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Tilpass varsling om ny e-post
-
+notifications-dialog-title = Tilpass varsling om ny e-post
 customize-alert-description = Velg hva beskjeden skal inneholde:
-
 preview-text-checkbox =
     .label = Forhåndsvisning av meldingsteksten
     .accesskey = F
-
 subject-checkbox =
     .label = Emne
     .accesskey = E
-
 sender-checkbox =
     .label = Avsender
     .accesskey = A
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Vis varsel for ny e-post i
     .accesskey = V
-
 open-time-label-after =
     .value = sekunder
