@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = R
 messenger-languages-window2 =
     .title = { -brand-short-name } Iɣewwaṛen n Tutlayt
+messenger-languages-dialog-title = { -brand-short-name } Iɣewwaṛen n Tutlayt
 messenger-languages-description = { -brand-short-name } Ad d-yesken tutlayt tamezwarut d tutlayt-ik tamezwert, daɣen ad d-yesken tutlayin-nniḍen ma yessefk s usmizzwer akken i d-ttbanent.
 messenger-languages-search = Anadi n tutlayin-nniḍen...
 messenger-languages-searching =
