@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = L
 messenger-languages-window2 =
     .title = { -brand-short-name }in kieliasetukset
+messenger-languages-dialog-title = { -brand-short-name }in kieliasetukset
 messenger-languages-description = { -brand-short-name } näyttää ensimmäisen kielen oletuskielenä ja tarvittaessa muut kielet siinä järjestyksessä kuin ne ilmenevät.
 messenger-languages-search = Etsi lisää kieliä…
 messenger-languages-searching =
