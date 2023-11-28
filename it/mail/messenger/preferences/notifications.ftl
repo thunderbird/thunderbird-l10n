@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Personalizzazione delle notifiche per nuova posta
-
+notifications-dialog-title = Personalizzazione delle notifiche per nuova posta
 customize-alert-description = Scegliere quali campi mostrare nell’avviso:
-
 preview-text-checkbox =
     .label = Testo anteprima messaggio
     .accesskey = T
-
 subject-checkbox =
     .label = Oggetto
     .accesskey = O
-
 sender-checkbox =
     .label = Mittente
     .accesskey = e
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Mostra una notifica di nuova mail per
     .accesskey = M
-
 open-time-label-after =
     .value = secondi
