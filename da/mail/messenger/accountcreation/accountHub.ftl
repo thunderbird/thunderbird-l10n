@@ -42,6 +42,7 @@ account-hub-sync-button = Log ind på Sync…
 
 account-hub-email-title = Opsæt din mailkonto
 account-hub-add-email-title = Tilføj din konto
+account-hub-manually-configure-email-title = Indstillinger for ny konto
 account-hub-email-cancel-button = Annuller
 account-hub-email-stop-button = Stop
 account-hub-email-back-button = Tilbage
