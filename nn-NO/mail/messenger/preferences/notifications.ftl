@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Tilpass ny e-postlyd
-
+notifications-dialog-title = Tilpass ny e-postlyd
 customize-alert-description = Vel kva for felt som skal visast i varselmeldinga:
-
 preview-text-checkbox =
     .label = Førehandsvising av meldingstekst
     .accesskey = F
-
 subject-checkbox =
     .label = Emne
     .accesskey = E
-
 sender-checkbox =
     .label = Avsendar
     .accesskey = A
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Vis varsel for ny e-post i
     .accesskey = V
-
 open-time-label-after =
     .value = sekund
