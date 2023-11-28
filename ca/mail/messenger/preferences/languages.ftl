@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = A
 messenger-languages-window2 =
     .title = Paràmetres de llengua del { -brand-short-name }
+messenger-languages-dialog-title = Paràmetres de llengua del { -brand-short-name }
 messenger-languages-description = El { -brand-short-name } utilitzarà la primera llengua per defecte i, si cal, utilitzarà les altres llengües en l'ordre en què apareixen.
 messenger-languages-search = Cerca més llengües…
 messenger-languages-searching =
