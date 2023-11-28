@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = ਪ੍ਰਾਪਤਕਰਤਾ ਵਾਪਸੀ ਰਸੀਦ
-
+receipts-dialog-title = ਪ੍ਰਾਪਤਕਰਤਾ ਵਾਪਸੀ ਰਸੀਦ
 receipt-arrive-label = ਜਦੋਂ ਇੱਕ ਵਾਪਸੀ ਰਸੀਦ ਦੀ ਆਵੇ:
-
 receipt-request-label = ਜਦੋਂ ਮੈਨੂੰ ਇੱਕ ਵਾਪਸੀ ਰਸੀਦ ਦੀ ਮੰਗ ਆਵੇ:
-
 receipt-send-never-label =
     .label = ਕਦੇ ਵੀ ਨਾ ਭੇਜੋ
-
 receipt-send-always-label =
     .label = ਹਮੇਸ਼ਾ ਭੇਜੋ
-
 receipt-send-ask-label =
     .label = ਮੈਨੂੰ ਪੁੱਛੋ
-
