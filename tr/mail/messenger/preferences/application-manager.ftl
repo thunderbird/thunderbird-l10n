@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Uygulama ayrıntıları
+app-manager-dialog-title = Uygulama ayrıntıları
 remove-app-button =
     .label = Kaldır
     .accesskey = K
