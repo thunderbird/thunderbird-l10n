@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Testenioù-degemer
-
+receipts-dialog-title = Testenioù-degemer
 receipt-arrive-label = P’en em gav un testeni-degemer:
-
 receipt-request-label = Pa resevan un azgoulenn evit un testeni-degemer :
-
 receipt-send-never-label =
     .label = Chom hep kas atav
-
 receipt-send-always-label =
     .label = Kas bepred
-
 receipt-send-ask-label =
     .label = Goulenn ganin
-
