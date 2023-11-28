@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = დ
 messenger-languages-window2 =
     .title = { -brand-short-name } – ენის პარამეტრები
+messenger-languages-dialog-title = { -brand-short-name } – ენის პარამეტრები
 messenger-languages-description = { -brand-short-name } აჩვენებს თქვენ მიერ მითითებულ პირველ ენას ნაგულისხმევად, ხოლო საჭიროების შემთხვევაში დამატებითს, რიგითობის შესაბამისად.
 messenger-languages-search = სხვა ენების მოძიება...
 messenger-languages-searching =
