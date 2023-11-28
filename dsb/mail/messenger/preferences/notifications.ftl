@@ -4,6 +4,7 @@
 
 notifications-dialog-window =
     .title = Powěźenku wó nowem posće pśiměriś
+notifications-dialog-title = Powěźenku wó nowem posće pśiměriś
 customize-alert-description = Póla wubraś, kótarež deje se w powěźeńce pokazaś:
 preview-text-checkbox =
     .label = Pśeglědowy tekst powěsći
