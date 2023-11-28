@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = כניסות שמורות
+saved-logins-title = כניסות שמורות
 copy-username-cmd =
     .label = העתקת שם המשתמש
     .accesskey = ש
@@ -28,7 +29,6 @@ column-heading-password =
 import =
     .label = ייבוא…
     .accesskey = י
-
 show-passwords =
     .label = הצגת ססמאות
     .accesskey = צ
