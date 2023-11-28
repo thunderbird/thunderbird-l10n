@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = P
 messenger-languages-window2 =
     .title = Jazyk aplikácie { -brand-short-name }
+messenger-languages-dialog-title = Jazyk aplikácie { -brand-short-name }
 messenger-languages-description = { -brand-short-name } zobrazí používateľské rozhranie v prvom vybranom jazyku. Ostatné použije podľa potreby a to vo vybranom poradí.
 messenger-languages-search = Hľadať ďalšie jazyky…
 messenger-languages-searching =
