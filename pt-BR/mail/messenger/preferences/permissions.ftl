@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Exceções
+permissions-dialog-title = Exceções
 permission-preferences-close-window =
     .key = w
 website-address-label =
