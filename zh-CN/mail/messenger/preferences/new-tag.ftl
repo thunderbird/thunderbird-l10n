@@ -4,7 +4,7 @@
 
 tag-dialog-window =
     .title = 新建标签
-tag-dialog-title = 新建标签
+tag-dialog-title = 新标签
 tag-name-label =
     .value = 标签名称:
     .accesskey = T
