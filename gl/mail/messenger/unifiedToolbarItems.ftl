@@ -59,8 +59,6 @@ toolbar-junk-label = Correo lixo
 toolbar-junk =
     .title = Marcar as mensaxes seleccionadas como correo lixo
 toolbar-delete-label = Eliminar
-toolbar-delete =
-    .title = Eliminar as mensaxes ou cartafoles seleccionados
 toolbar-delete-title =
     .title = Elimina as mensaxes seleccionadas
 toolbar-undelete-label = Restaurar
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Indicador de actividade
 toolbar-throbber =
     .title = Indicador de actividade
+toolbar-create-contact-label = Novo contacto
+toolbar-create-contact =
+    .title = Crear un novo contacto
+toolbar-create-address-book-label = Nova axenda de enderezos
+toolbar-create-address-book =
+    .title = Crear unha nova axenda de enderezos
+toolbar-create-list-label = Nova lista
+toolbar-create-list =
+    .title = Crear unha nova lista de correo
+toolbar-import-contacts-label = Importar
+toolbar-import-contacts =
+    .title = Importar contactos dun ficheiro
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Engadir unha axenda de enderezos local
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Engadir unha axenda de enderezos CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Engadir unha axenda de enderezos LDAP

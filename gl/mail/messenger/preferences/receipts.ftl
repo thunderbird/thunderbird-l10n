@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = Avisos de recepción
+receipts-dialog-title = Acusar o recibimento
 return-receipt-checkbox-control =
     .label = Ao enviar mensaxes, solicitar sempre un aviso de recepción
     .accesskey = W
