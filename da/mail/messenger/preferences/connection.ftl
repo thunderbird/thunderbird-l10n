@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Tilpasset
 connection-dialog-window2 =
     .title = Forbindelsesindstillinger
+connection-dialog-title = Forbindelsesindstillinger
 disable-extension-button = Deaktiver udvidelse
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
