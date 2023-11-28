@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = Introdu URL-ul preferat pentru rezolvarea DNS over HTTPS
 connection-dns-over-https-custom-label = Personalizat
-connection-dialog-window =
-    .title = Setări privind conexiunea
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Setările conexiunii
 disable-extension-button = Dezactivează extensia
