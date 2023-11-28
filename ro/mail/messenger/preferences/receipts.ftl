@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Confirmări de primire
-
+receipts-dialog-title = Confirmări de primire
 receipt-arrive-label = Când sosește o confirmare:
-
 receipt-request-label = Când mi se cere confirmare de primire:
-
 receipt-send-never-label =
     .label = Nu trimite niciodată
-
 receipt-send-always-label =
     .label = Trimite mereu
-
 receipt-send-ask-label =
     .label = Întreabă-mă
-
