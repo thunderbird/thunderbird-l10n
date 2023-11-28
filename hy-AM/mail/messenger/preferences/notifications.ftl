@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Կարգավորել նոր նամակի ստացումը
-
+notifications-dialog-title = Կարգավորել նոր նամակի ստացումը
 customize-alert-description = Ընտրել ցուցադրվելիք դաշտերը նոր նամակի դեպքում.
-
 preview-text-checkbox =
     .label = Նախն. դիտման տեքստը
     .accesskey = M
-
 subject-checkbox =
     .label = Վերնագիր
     .accesskey = Վ
-
 sender-checkbox =
     .label = Ուղարկողը
     .accesskey = e
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Ցուցադրել նոր նամակի մասին
     .accesskey = ն
-
 open-time-label-after =
     .value = վայրկյան
