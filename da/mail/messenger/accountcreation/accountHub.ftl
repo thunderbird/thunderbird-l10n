@@ -76,4 +76,5 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-label = Godkendelsesmetode
 account-hub-username-label = Brugernavn
 account-hub-adding-account-title = Tilføjer konto
+account-hub-adding-account-subheader = Gentester kontoindstillinger
 account-hub-account-added-title = Konto tilføjet
