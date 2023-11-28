@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = T
 messenger-languages-window2 =
     .title = { -brand-short-name }-taalynstellingen
+messenger-languages-dialog-title = { -brand-short-name }-taalynstellingen
 messenger-languages-description = { -brand-short-name } sil de earste taal as jo standerttaal werjaan en sa nedich alternative talen werjaan yn de folchoarder wêryn se ferskine.
 messenger-languages-search = Nei mear talen sykje…
 messenger-languages-searching =
