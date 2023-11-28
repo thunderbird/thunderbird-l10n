@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Обратни разписки
-
+receipts-dialog-title = Обратни разписки
 receipt-arrive-label = При пристигане на обратна разписка:
-
 receipt-request-label = При получаване на заявка за обратна разписка:
-
 receipt-send-never-label =
     .label = Не изпраща
-
 receipt-send-always-label =
     .label = Автоматично изпращане
-
 receipt-send-ask-label =
     .label = Запитване
-
