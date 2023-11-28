@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Iɣewwaṛen n tignit n usnas
+dock-options-dialog-title = Iɣewwaṛen n tignit n usnas
 dock-options-show-badge =
     .label = Sken tignit n tsakezt
     .accesskey = z
