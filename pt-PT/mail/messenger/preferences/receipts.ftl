@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Recibos de leitura
-
+receipts-dialog-title = Recibos de leitura
 receipt-arrive-label = Ao receber um recibo:
-
 receipt-request-label = Ao receber um pedido de um recibo de leitura:
-
 receipt-send-never-label =
     .label = Nunca enviar
-
 receipt-send-always-label =
     .label = Enviar sempre
-
 receipt-send-ask-label =
     .label = Perguntar
-
