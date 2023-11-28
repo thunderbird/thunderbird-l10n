@@ -5,6 +5,7 @@
 troubleshoot-mode-window =
     .title = Отстраняване на неизправности с { -brand-short-name }
     .style = width: 37em;
+troubleshoot-mode-dialog-title = Отстраняване на неизправности с { -brand-short-name }
 troubleshoot-mode-description = Използвайте { -brand-short-name } режим за отстраняване на неизправности, за да диагностицирате проблеми. Вашите добавки и персонализации ще бъдат временно деактивирани.
 troubleshoot-mode-description2 = Можете да направите някои или всички от тези промени постоянни:
 troubleshoot-mode-disable-addons =
