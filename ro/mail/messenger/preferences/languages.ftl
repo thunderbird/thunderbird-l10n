@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = A
 messenger-languages-window2 =
     .title = Setări de limbă { -brand-short-name }
+messenger-languages-dialog-title = Setări de limbă { -brand-short-name }
 messenger-languages-description = { -brand-short-name } va afișa limba implicită pe prima poziție și pe cele alternative, dacă este necesar, în ordinea în care apar.
 messenger-languages-search = Caută mai multe limbi ...
 messenger-languages-searching =
