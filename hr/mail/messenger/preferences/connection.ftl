@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = Z
     .tooltiptext = Unesite željeni URL za DNS preko HTTPS
 connection-dns-over-https-custom-label = Zadano
-connection-dialog-window =
-    .title = Postavke spajanja
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Postavke spajanja
 disable-extension-button = Onemogući dodatak
