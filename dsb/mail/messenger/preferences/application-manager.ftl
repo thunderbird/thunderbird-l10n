@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Drobnostki nałoženja
+app-manager-dialog-title = Drobnostki nałoženja
 remove-app-button =
     .label = Wótpóraś
     .accesskey = W
