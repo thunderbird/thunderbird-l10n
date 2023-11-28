@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = g
 messenger-languages-window2 =
     .title = Parameters da lingua da { -brand-short-name }
+messenger-languages-dialog-title = Parameters da lingua da { -brand-short-name }
 messenger-languages-description = { -brand-short-name } vegn a duvrar l'emprima lingua sco standard e sche necessari las linguas suandantas tenor lur successiun en la glista.
 messenger-languages-search = Tschertgar ulteriuras linguas…
 messenger-languages-searching =
