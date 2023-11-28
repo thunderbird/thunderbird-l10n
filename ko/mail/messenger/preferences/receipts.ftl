@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = 수신 확인 메시지 설정
+receipts-dialog-title = 수신 확인 메시지 설정
 return-receipt-checkbox-control =
     .label = 메시지를 보낼 때 항상 수신 확인을 요청하기
     .accesskey = W
