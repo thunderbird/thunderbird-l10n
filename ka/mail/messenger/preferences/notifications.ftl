@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = ახალი წერილის შეტყობინების მორგება
-
+notifications-dialog-title = ახალი წერილის შეტყობინების მორგება
 customize-alert-description = მიუთითეთ სასურველი ველები შეტყობინებებში საჩვენებლად:
-
 preview-text-checkbox =
     .label = გზავნილის ტექსტის შეთვალიერება
     .accesskey = M
-
 subject-checkbox =
     .label = თემა
     .accesskey = S
-
 sender-checkbox =
     .label = გამგზავნი
     .accesskey = e
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = ახალი ფოსტის შეტყობინების ჩვენება
     .accesskey = N
-
 open-time-label-after =
     .value = წამით
