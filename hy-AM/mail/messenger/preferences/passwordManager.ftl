@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Պահպանված մուտքեր
+saved-logins-title = Պահպանված մուտքեր
 window-close =
     .key = w
 focus-search-primary-shortcut =
