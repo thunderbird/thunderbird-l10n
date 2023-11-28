@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = о
     .tooltiptext = Введите свой URL для разрешения DNS через HTTPS
 connection-dns-over-https-custom-label = Другой URL
-connection-dialog-window =
-    .title = Параметры соединения
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Параметры соединения
 disable-extension-button = Отключить расширение
