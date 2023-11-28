@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Sovelluskuvakkeen asetukset
+dock-options-dialog-title = Sovelluskuvakkeen asetukset
 dock-options-show-badge =
     .label = Näytä lukumäärää ilmaiseva kuvake
     .accesskey = m
