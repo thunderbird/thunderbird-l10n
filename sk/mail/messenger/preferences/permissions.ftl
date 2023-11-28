@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Výnimky
+permissions-dialog-title = Výnimky
 permission-preferences-close-window =
     .key = w
 website-address-label =
