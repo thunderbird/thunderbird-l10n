@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Wuwzaća
+permissions-dialog-title = Wuwzaća
 permission-preferences-close-window =
     .key = w
 website-address-label =
