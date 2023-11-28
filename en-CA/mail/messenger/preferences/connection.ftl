@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = Enter your preferred URL for resolving DNS over HTTPS
 connection-dns-over-https-custom-label = Custom
-connection-dialog-window =
-    .title = Connection Settings
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Connection Settings
 disable-extension-button = Disable Extension
