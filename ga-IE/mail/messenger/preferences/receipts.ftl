@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Admhálacha Léite
-
+receipts-dialog-title = Admhálacha Léite
 receipt-arrive-label = Nuair a thagann admháil léite:
-
 receipt-request-label = Agus iarratas ar admháil léite faighte agam:
-
 receipt-send-never-label =
     .label = Ná seol choíche
-
 receipt-send-always-label =
     .label = Seol i gcónaí
-
 receipt-send-ask-label =
     .label = Fiafraigh díom
-
