@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = D
 messenger-languages-window2 =
     .title = Nastavitve jezikov { -brand-short-name(sklon: "rodilnik") }
+messenger-languages-dialog-title = Nastavitve jezikov { -brand-short-name(sklon: "rodilnik") }
 messenger-languages-description = { -brand-short-name } bo privzeto prikazal prvi jezik, po potrebi pa pomožne jezike v navedenem vrstnem redu.
 messenger-languages-search = Poišči več jezikov …
 messenger-languages-searching =
