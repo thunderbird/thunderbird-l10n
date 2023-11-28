@@ -4,6 +4,7 @@
 
 offline-dialog-window =
     .title = Setări pentru lucrul offline
+offline-dialog-title = Setări pentru lucrul offline
 autodetect-online-label =
     .label = Urmărește automat starea online detectată
     .accesskey = d
