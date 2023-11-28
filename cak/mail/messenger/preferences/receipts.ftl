@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Tzolin taq Wujil
-
+receipts-dialog-title = Tzolin taq Wujil
 receipt-arrive-label = Toq napon jun tzolin ruwujil:
-
 receipt-request-label = Toq tik'utüx jun tzolin wujil chwe:
-
 receipt-send-never-label =
     .label = Majub'ey titaq
-
 receipt-send-always-label =
     .label = Junelïk titaq
-
 receipt-send-ask-label =
     .label = Tik'utüx pe chwe
-
