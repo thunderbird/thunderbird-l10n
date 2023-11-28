@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Tregues Veprimtarie
 toolbar-throbber =
     .title = Tregues Veprimtarie
+toolbar-create-contact-label = Kontakt i Ri
+toolbar-create-contact =
+    .title = Krijoni kontakt të ri
+toolbar-create-address-book-label = Libër i Ri Adresash
+toolbar-create-address-book =
+    .title = Krijoni libër të ri adresash
+toolbar-create-list-label = Listë e Re
+toolbar-create-list =
+    .title = Krijoni një listë të re postimesh
+toolbar-import-contacts-label = Importo
+toolbar-import-contacts =
+    .title = Importoni kontakte prej një kartele
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Shtoni Libër Vendor Adresash
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Shtoni Libër Adresash CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Shtoni Libër Adresash LDAP

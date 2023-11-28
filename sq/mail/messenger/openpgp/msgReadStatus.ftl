@@ -21,10 +21,20 @@ openpgp-openpgp = OpenPGP
 openpgp-no-sig = Pa Nënshkrim Dixhital
 openpgp-no-sig-info = Ky mesazh nuk përfshin nënshkrimin numerik të dërguesit. Mungesa e një nënshkrimi numerik do të thotë se mesazhi mund të jetë dërguar nga dikush që hiqet sikur ka këtë adresë email. Mundet, po aq, që mesazhi të jetë tjetërsuar gjatë transitit nëpër rrjet.
 openpgp-uncertain-sig = Nënshkrim Dixhital i Paqartë
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-uncertain-sig-with-date = Nënshkrim Dixhital i Paqartë - Nënshkruar më { $date }
 openpgp-invalid-sig = Nënshkrim Dixhital i Pavlefshëm
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Nënshkrim Dixhital i Pavlefshëm - Nënshkruar më { $date }
+openpgp-bad-date-sig = Mospërputhje Date Nënshkrimi
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Mospërputhje Date Nënshkrimi - Nënshkrua më { $date }
 openpgp-good-sig = Nënshkrim Dixhital i Mirë
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Nënshkrim Dixhital i Mirë - Nënshkruar më { $date }
 openpgp-sig-uncertain-no-key = Ky mesazh përmban një nënshkrim dixhital, por s’është e qartë nëse ky është i saktë. Që të verifikoni nënshkrimin, ju duhet të merrni një kopje të kyçit publik të dërguesit.
 openpgp-sig-uncertain-uid-mismatch = Ky mesazh përmban një nënshkrim dixhital, por u pikas një mospërputhje. Mesazhi qe dërguar prej një adrese email që s’përkon me kyçin publik të dërguesit.
@@ -34,9 +44,19 @@ openpgp-sig-invalid-technical-problem = Ky mesazh përmban një nënshkrim dixhi
 openpgp-sig-valid-unverified = Ky mesazh përmban një nënshkrim dixhital të vlefshëm prej një kyçi që e keni pranuar tashmë. Sidoqoftë, s’keni verifikuar ende që kyçi i përket vërtet dërguesit.
 openpgp-sig-valid-verified = Ky mesazh përmban një nënshkrim dixhital të vlefshëm prej  një kyçi të verifikuar.
 openpgp-sig-valid-own-key = Ky mesazh përmban një nënshkrim dixhital të vlefshëm prej kyçit tuaj personal.
+# Variables:
+# $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = ID kyçi nënshkruesi: { $key }
+# Variables:
+# $key (String) - The primary ID of the OpenPGP key used to create the signature.
+# $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
 openpgp-sig-key-id-with-subkey-id = ID kyçi nënshkruesi: { $key } (ID nënkyçi: { $subkey })
+# Variables:
+# $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = ID-ja e kyçit tuaj të shfshehtëzimeve: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = ID-ja e kyçit tuaj të shfshehtëzimeve: { $key } (ID nënkyçi: { $subkey })
 openpgp-enc-none = Mesazhi S’është Fshehtëzuar
 openpgp-enc-none-label = Ky mesazh s’qe fshehtëzuar para se të dërgohej. Të dhënat e dërguara pa fshehtëzim përmes Internetit mund të shihen nga të tjerë gjatë transitit.
