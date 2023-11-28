@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = D
 messenger-languages-window2 =
     .title = Postavke jezika za { -brand-short-name }
+messenger-languages-dialog-title = Postavke jezika za { -brand-short-name }
 messenger-languages-description = { -brand-short-name } će prikazati prvi jezik kao zadani, dok će alternativne jezike prikazati ukoliko je potrebno prema redosljedu pojavljivanja.
 messenger-languages-search = Traži više jezika…
 messenger-languages-searching =
