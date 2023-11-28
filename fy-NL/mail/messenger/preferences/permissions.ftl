@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Utsûnderingen
+permissions-dialog-title = Utsûnderingen
 permission-preferences-close-window =
     .key = w
 website-address-label =
