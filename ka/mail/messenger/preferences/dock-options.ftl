@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = პროგრამის ხატულის პარამეტრები
+dock-options-dialog-title = პროგრამის ხატულის პარამეტრები
 dock-options-show-badge =
     .label = ნიშნის ხატულის ჩვენება
     .accesskey = ნ
