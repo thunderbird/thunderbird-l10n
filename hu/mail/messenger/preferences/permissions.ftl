@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Kivételek
+permissions-dialog-title = Kivételek
 permission-preferences-close-window =
     .key = w
 website-address-label =
