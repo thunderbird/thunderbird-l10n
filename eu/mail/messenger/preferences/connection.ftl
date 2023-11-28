@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = P
     .tooltiptext = Sartu zure gogoko URL HTTPSn DNSak ebazteko
 connection-dns-over-https-custom-label = Pertsonalizatua
-connection-dialog-window =
-    .title = Konexio-ezarpenak
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Konexio-ezarpenak
 disable-extension-button = Desgaitu hedapena
