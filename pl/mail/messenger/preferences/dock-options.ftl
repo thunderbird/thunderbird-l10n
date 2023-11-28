@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Opcje ikony aplikacji
+dock-options-dialog-title = Opcje ikony aplikacji
 dock-options-show-badge =
     .label = Wyświetlanie plakietki na ikonie
     .accesskey = W
