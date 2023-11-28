@@ -9,6 +9,11 @@ troubleshoot-mode-window =
            *[no-cases] Režim řešení potíží v aplikaci { -brand-short-name }
         }
     .style = width: 37em;
+troubleshoot-mode-dialog-title =
+    { -brand-short-name.case-status ->
+        [with-cases] Režim řešení potíží v { -brand-short-name(case: "loc") }
+       *[no-cases] Režim řešení potíží v aplikaci { -brand-short-name }
+    }
 troubleshoot-mode-description =
     { -brand-short-name.case-status ->
         [with-cases] Režim řešení potíží v { -brand-short-name(case: "loc") } vám pomůže s diagnostikou problémů. Vaše doplňky a uživatelská nastavení budou dočasně zakázána.
