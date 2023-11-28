@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Kvitteringer
-
+receipts-dialog-title = Kvitteringer
 receipt-arrive-label = Når en kvittering mottas:
-
 receipt-request-label = Når jeg mottar forespørsel om kvittering:
-
 receipt-send-never-label =
     .label = Aldri send
-
 receipt-send-always-label =
     .label = Send alltid
-
 receipt-send-ask-label =
     .label = Spør meg
-
