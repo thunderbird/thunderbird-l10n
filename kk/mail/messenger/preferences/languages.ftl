@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = о
 messenger-languages-window2 =
     .title = { -brand-short-name } тіл баптаулары
+messenger-languages-dialog-title = { -brand-short-name } тіл баптаулары
 messenger-languages-description = { -brand-short-name } бірінші тілді сіздің негізгі тілі ретінде көрсетеді, және қосымша тілдерді керек болған кезде олардың пайда болу ретімен көрсететін болады.
 messenger-languages-search = Көбірек тілдерді іздеу…
 messenger-languages-searching =
