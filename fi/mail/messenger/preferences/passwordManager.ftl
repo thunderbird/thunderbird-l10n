@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Tallennetut kirjautumistiedot
+saved-logins-title = Tallennetut kirjautumistiedot
 window-close =
     .key = s
 focus-search-primary-shortcut =
@@ -48,11 +49,9 @@ remove =
 import =
     .label = Tuo…
     .accesskey = T
-
 password-close-button =
     .label = Sulje
     .accesskey = S
-
 show-passwords =
     .label = Näytä salasanat
     .accesskey = N
@@ -75,12 +74,10 @@ no-master-password-prompt = Haluatko varmasti näyttää kaikki salasanat?
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Vahvista henkilöllisyytesi paljastaaksesi tallennetut salasanat.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = paljastaa tallennetut salasanat
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
