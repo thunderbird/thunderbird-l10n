@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Lagrede innlogginger
+saved-logins-title = Lagrede innlogginger
 window-close =
     .key = w
 focus-search-primary-shortcut =
@@ -48,11 +49,9 @@ remove =
 import =
     .label = Importer…
     .accesskey = I
-
 password-close-button =
     .label = Lukk
     .accesskey = L
-
 show-passwords =
     .label = Vis passord
     .accesskey = p
@@ -75,12 +74,10 @@ no-master-password-prompt = Er du sikker på at du vil vise passordene?
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Bekreft identiteten din for å vise de lagrede passordene.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = vis de lagrede passordene
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
