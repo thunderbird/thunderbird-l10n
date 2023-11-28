@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Опције иконице програма
+dock-options-dialog-title = Опције иконице програма
 dock-options-show-badge =
     .label = Прикажи иконицу беџа
     .accesskey = б
