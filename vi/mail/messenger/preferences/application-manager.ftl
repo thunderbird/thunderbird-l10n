@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Chi tiết ứng dụng
+app-manager-dialog-title = Chi tiết ứng dụng
 remove-app-button =
     .label = Xóa
     .accesskey = R
