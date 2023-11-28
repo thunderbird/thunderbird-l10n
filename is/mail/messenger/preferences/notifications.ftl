@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Sérsníða tilkynningu um nýjan póst
-
+notifications-dialog-title = Sérsníða tilkynningu um nýjan póst
 customize-alert-description = Velja hvaða svæði á að sýna í áminningu:
-
 preview-text-checkbox =
     .label = Forskoðun textapósts
     .accesskey = F
-
 subject-checkbox =
     .label = Efni
     .accesskey = f
-
 sender-checkbox =
     .label = Sendandi
     .accesskey = e
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Sýna tilkynningu um nýjan póst fyrir
     .accesskey = n
-
 open-time-label-after =
     .value = sekúndur
