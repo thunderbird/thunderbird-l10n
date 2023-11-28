@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Таңдауыңызша
 connection-dialog-window2 =
     .title = Байланыс баптаулары
+connection-dialog-title = Байланыс баптаулары
 disable-extension-button = Кеңейтуді сөндіру
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
