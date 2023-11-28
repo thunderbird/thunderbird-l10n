@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Personelaat galv evezhiañ ar posteloù nevez
-
+notifications-dialog-title = Personelaat galv evezhiañ ar posteloù nevez
 customize-alert-description = Dibab ar maeziennoù da ziskouez er c'hemenn evezhiañ :
-
 preview-text-checkbox =
     .label = Testenn alberz ar postel
     .accesskey = T
-
 subject-checkbox =
     .label = Danvez
     .accesskey = D
-
 sender-checkbox =
     .label = Kaser
     .accesskey = K
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Diskouez ar c'hemenn evezh evit ar posteloù nevez e-pad
     .accesskey = n
-
 open-time-label-after =
     .value = a eilennoù
