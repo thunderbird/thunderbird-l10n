@@ -4,6 +4,7 @@
 
 notifications-dialog-window =
     .title = Προσαρμογή ειδοποίησης νέων email
+notifications-dialog-title = Προσαρμογή ειδοποίησης νέων email
 customize-alert-description = Επιλέξτε ποια πεδία θα εμφανίζονται στην ειδοποίηση:
 preview-text-checkbox =
     .label = Προεπισκόπηση κειμένου μηνύματος
