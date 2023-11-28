@@ -295,15 +295,94 @@ no-reply-reply-anyway-button = Отговорете все пак
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } от { $total } съобщения не можаха да бъдат декриптирани и не бяха копирани.
+       *[other] { $failures } от { $total } съобщения не можаха да бъдат декриптирани и не бяха копирани.
+    }
 
 ## Spaces toolbar
 
+spaces-toolbar-button-mail2 =
+    .title = Поща
+spaces-toolbar-button-address-book2 =
+    .title = Адресник
+spaces-toolbar-button-calendar2 =
+    .title = Календар
+spaces-toolbar-button-tasks2 =
+    .title = Задачи
+spaces-toolbar-button-chat2 =
+    .title = Разговори
+spaces-toolbar-button-overflow =
+    .title = Още пространства…
+spaces-toolbar-button-settings2 =
+    .title = Настройки
+spaces-toolbar-button-hide =
+    .title = Скриване на лентата с инструменти за пространства
+spaces-toolbar-button-show =
+    .title = Показване на лентата с инструменти на пространства
+spaces-context-new-tab-item =
+    .label = Отваряне в нов раздел
+spaces-context-new-window-item =
+    .label = Отваряне на нов прозорец
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = Превключване към { $tabName }
+settings-context-open-settings-item2 =
+    .label = Настройки
+settings-context-open-account-settings-item2 =
+    .label = Настройки на профила
+settings-context-open-addons-item2 =
+    .label = Добавки и теми
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Меню за пространства
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] Едно непрочетено съобшение
+           *[other] { $count } непрочетени съобщения
+        }
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Персонализиране…
+spaces-customize-panel-title = Настройки на лентата с инструменти на пространства
+spaces-customize-background-color = Цвят на фона:
+spaces-customize-icon-color = Цвят на бутона
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Избран цвят на фона на бутона
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Избран цвят на бутона
+spaces-customize-button-restore = Връщане на стандартни настройки
+    .accesskey = В
+customize-panel-button-save = Готово
+    .accesskey = Г
 
 ## Quick Filter Bar
 
@@ -319,6 +398,13 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Забравяне на фразите за OpenPGP
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% запълнено
+    .title = IMAP квота: { $usage } използвани от общо { $limit }
