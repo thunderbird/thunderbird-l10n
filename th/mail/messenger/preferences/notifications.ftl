@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = ปรับแต่งการแจ้งเตือนจดหมายใหม่
-
+notifications-dialog-title = ปรับแต่งการแจ้งเตือนจดหมายใหม่
 customize-alert-description = เลือกข้อมูลที่จะแสดงในข้อความแจ้งเตือน:
-
 preview-text-checkbox =
     .label = ตัวอย่างข้อความตัวอักษร
     .accesskey = ต
-
 subject-checkbox =
     .label = หัวเรื่อง
     .accesskey = ห
-
 sender-checkbox =
     .label = ผู้ส่ง
     .accesskey = ผ
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = แสดงการแจ้งเตือนจดหมายใหม่เป็นเวลา
     .accesskey = ส
-
 open-time-label-after =
     .value = วินาที
