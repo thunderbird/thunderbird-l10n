@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Yakon taq kitikirib'al molojri'ïl
+saved-logins-title = Yakon taq kitikirib'al molojri'ïl
 window-close =
     .key = w
 copy-provider-url-cmd =
@@ -44,7 +45,6 @@ remove =
 import =
     .label = Tijik' pe…
     .accesskey = j
-
 show-passwords =
     .label = Kek'ut Ewan taq Tzij
     .accesskey = E
