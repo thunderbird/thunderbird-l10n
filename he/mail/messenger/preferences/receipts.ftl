@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = קבלות חוזרות
-
+receipts-dialog-title = קבלות חוזרות
 receipt-arrive-label = כאשר מגיעה קבלה:
-
 receipt-request-label = כאשר אני מקבל בקשה לקבלה חוזרת:
-
 receipt-send-never-label =
     .label = אל תשלח לעולם
-
 receipt-send-always-label =
     .label = שלח תמיד
-
 receipt-send-ask-label =
     .label = שאל אותי
-
