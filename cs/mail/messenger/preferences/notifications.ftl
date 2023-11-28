@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Nová pošta
-
+notifications-dialog-title = Nová pošta
 customize-alert-description = Pole zobrazovaná v okně upozornění:
-
 preview-text-checkbox =
     .label = Náhled na tělo zprávy
     .accesskey = N
-
 subject-checkbox =
     .label = Předmět
     .accesskey = P
-
 sender-checkbox =
     .label = Odesílatel
     .accesskey = O
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Upozornění na novou poštu zobrazit po dobu
     .accesskey = U
-
 open-time-label-after =
     .value = sekund
