@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Aplikazio-ikonoaren aukerak
+dock-options-dialog-title = Aplikazio-ikonoaren aukerak
 dock-options-show-badge =
     .label = Erakutsi bereizgarriaren ikonoa
     .accesskey = E
