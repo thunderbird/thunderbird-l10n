@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = T
 messenger-languages-window2 =
     .title = Indstillinger for sprog i { -brand-short-name }
+messenger-languages-dialog-title = Indstillinger for sprog i { -brand-short-name }
 messenger-languages-description = { -brand-short-name } vil som standard vise det første sprog, og vil om nødvendigt vise alternative sprog i den valgte rækkefølge.
 messenger-languages-search = Søg efter flere sprog ...
 messenger-languages-searching =
