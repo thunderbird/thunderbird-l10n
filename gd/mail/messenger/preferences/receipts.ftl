@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Bannan-cuidhteis
-
+receipts-dialog-title = Bannan-cuidhteis
 receipt-arrive-label = Nuair a thig bann-cuidhteis a-steach:
-
 receipt-request-label = Nuair a thig iarrtas airson bann-cuidhteis a-steach:
-
 receipt-send-never-label =
     .label = Na cuir idir
-
 receipt-send-always-label =
     .label = Cuir an-còmhnaidh
-
 receipt-send-ask-label =
     .label = Faighnich dhìom
-
