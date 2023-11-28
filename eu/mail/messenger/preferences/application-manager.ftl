@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Aplikazio xehetasunak
+app-manager-dialog-title = Aplikazio xehetasunak
 remove-app-button =
     .label = Kendu
     .accesskey = K
