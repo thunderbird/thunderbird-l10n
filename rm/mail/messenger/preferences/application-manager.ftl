@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Detagls da l'applicaziun
+app-manager-dialog-title = Detagls da l'applicaziun
 remove-app-button =
     .label = Allontanar
     .accesskey = R
