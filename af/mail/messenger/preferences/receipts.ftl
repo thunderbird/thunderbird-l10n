@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Antwoordstrokies
-
+receipts-dialog-title = Antwoordstrokies
 receipt-arrive-label = Wanneer 'n strokie aankom:
-
 receipt-request-label = Wanneer ek 'n versoek om antwoordstrokie ontvang:
-
 receipt-send-never-label =
     .label = Stuur nooit nie
-
 receipt-send-always-label =
     .label = Stuur altyd
-
 receipt-send-ask-label =
     .label = Vra my
-
