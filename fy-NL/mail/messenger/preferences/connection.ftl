@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Oanpast
 connection-dialog-window2 =
     .title = Ferbiningsynstellingen
+connection-dialog-title = Ferbiningsynstellingen
 disable-extension-button = Utwreiding útskeakelje
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
