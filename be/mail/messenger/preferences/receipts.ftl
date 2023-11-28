@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Квіткі атрымання
-
+receipts-dialog-title = Квіткі атрымання
 receipt-arrive-label = Калі прыбывае квіток:
-
 receipt-request-label = Калі я атрымліваю патрабаванне квітка атрымання:
-
 receipt-send-never-label =
     .label = Ніколі не дасылаць
-
 receipt-send-always-label =
     .label = Заўсёды дасылаць
-
 receipt-send-ask-label =
     .label = Спытаць мяне
-
