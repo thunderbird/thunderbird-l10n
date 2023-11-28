@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = S
 messenger-languages-window2 =
     .title = Rregullime Gjuhe { -brand-short-name }-i
+messenger-languages-dialog-title = Rregullime Gjuhe { -brand-short-name }-i
 messenger-languages-description = { -brand-short-name }-i do të shfaqë gjuhën e parë si parazgjedhjen tuaj dhe, në u dashtë,  do të shfaqë gjuhë alternative sipas radhës që shfaqen.
 messenger-languages-search = Kërkoni për më tepër gjuhë…
 messenger-languages-searching =
