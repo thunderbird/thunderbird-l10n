@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Acuses de recibu
-
+receipts-dialog-title = Acuses de recibu
 receipt-arrive-label = Cuando aporte un acuse de recibu:
-
 receipt-request-label = Cuando reciba una solicitú d'acuse de recibu:
-
 receipt-send-never-label =
     .label = Nun unviar enxamás
-
 receipt-send-always-label =
     .label = Unviar siempre
-
 receipt-send-ask-label =
     .label = Entrugame
-
