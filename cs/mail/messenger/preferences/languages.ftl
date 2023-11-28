@@ -16,13 +16,6 @@ languages-customize-select-language =
 languages-customize-add =
     .label = Přidat
     .accesskey = a
-messenger-languages-window =
-    .title =
-        { -brand-short-name.case-status ->
-            [with-cases] Nastavení jazyka { -brand-short-name(case: "gen") }
-           *[no-cases] Nastavení jazyka aplikace { -brand-short-name }
-        }
-    .style = width: 40em
 messenger-languages-window2 =
     .title =
         { -brand-short-name.case-status ->
