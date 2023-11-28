@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = התאם אישית התראת דואר חדש
-
+notifications-dialog-title = התאם אישית התראת דואר חדש
 customize-alert-description = בחר אילו שדות יוצגו בחיווי ההתראה:
-
 preview-text-checkbox =
     .label = טקסט תצוגה מקדימה
     .accesskey = מ
-
 subject-checkbox =
     .label = נושא
     .accesskey = נ
-
 sender-checkbox =
     .label = שולח
     .accesskey = ש
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = הצגת התראת דואר חדש למשך
     .accesskey = ח
-
 open-time-label-after =
     .value = שניות
