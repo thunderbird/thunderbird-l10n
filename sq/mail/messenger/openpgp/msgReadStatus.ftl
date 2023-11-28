@@ -41,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Ky mesazh përmban një nënshkrim dixhital
 openpgp-sig-uncertain-not-accepted = Ky mesazh përmban një nënshkrim dixhital, por s’keni vendosur ende nëse kyçi i nënshkruesit është apo jo i pranueshëm për ju.
 openpgp-sig-invalid-rejected = Ky mesazh përmban një nënshkrim dixhital, por më herët keni vendosur ta hidhni poshtë kyçin e nënshkruesit.
 openpgp-sig-invalid-technical-problem = Ky mesazh përmban një nënshkrim dixhital, por u pikas një gabim teknik. Ose mesazhi është dëmtuar, ose mesazhi është ndryshuar nga dikush tjetër.
+openpgp-sig-invalid-date-mismatch = Ky mesazh përmban një nënshkrim dixhital, por nënshkrim s’qe bërë në të njëjtën kohë që qe dërguar mesazhi. Kjo mund të jetë një përpjekje për t’ju rrejtur me lëndë nga kontekst i keq: p.sh., lëndë e shkruar në tjetër kontekst kohor, ose e menduar për tjetërkënd.
 openpgp-sig-valid-unverified = Ky mesazh përmban një nënshkrim dixhital të vlefshëm prej një kyçi që e keni pranuar tashmë. Sidoqoftë, s’keni verifikuar ende që kyçi i përket vërtet dërguesit.
 openpgp-sig-valid-verified = Ky mesazh përmban një nënshkrim dixhital të vlefshëm prej  një kyçi të verifikuar.
 openpgp-sig-valid-own-key = Ky mesazh përmban një nënshkrim dixhital të vlefshëm prej kyçit tuaj personal.
