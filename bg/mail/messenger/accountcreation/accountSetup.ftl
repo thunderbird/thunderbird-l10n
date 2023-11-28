@@ -2,13 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-account-setup-tab-title = Установяване на нова сметка
+account-setup-tab-title = Създаване на нов профил
 
 ## Header
 
 account-setup-title = Настройте своя съществуваща пощенска кутия
-account-setup-description = За да използвате текущия си  електронен адрес, попълнете идентификационните си данни.
+account-setup-description = За да използвате текущия си електронен адрес, попълнете идентификационните си данни.
 account-setup-secondary-description = { -brand-product-name } автоматично ще търси работеща и препоръчана сървърна конфигурация.
+account-setup-success-title = Профилът е създаден успешно
 
 ## Form fields
 
@@ -17,6 +18,8 @@ account-setup-name-label = Вашето цяло име
 # Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
 account-setup-name-input =
     .placeholder = Иван Иванов
+account-setup-name-warning-icon =
+    .title = Моля, въведете името си
 account-setup-email-label = Електронен адрес:
     .accesskey = Е
 account-setup-email-input =
@@ -28,6 +31,8 @@ account-setup-password-label = Парола
     .title = { "" }
 account-provisioner-button = Получете нов електронен адрес
     .accesskey = П
+account-setup-remember-password = Запазване на паролата
+    .accesskey = З
 #   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
 account-setup-exchange-input =
     .placeholder = YOURDOMAIN\yourusername
