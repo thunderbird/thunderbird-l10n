@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Izjeme
+permissions-dialog-title = Izjeme
 permission-preferences-close-window =
     .key = w
 website-address-label =
