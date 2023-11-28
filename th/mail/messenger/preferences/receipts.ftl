@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = การแจ้งเตือนการเปิดอ่าน
+receipts-dialog-title = การแจ้งเตือนการเปิดอ่าน
 return-receipt-checkbox-control =
     .label = เมื่อส่งข้อความ ให้ขอการแจ้งเตือนการเปิดอ่านเสมอ
     .accesskey = ม
