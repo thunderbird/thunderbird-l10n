@@ -22,6 +22,11 @@ messenger-languages-window2 =
             [with-cases] Jazyk { -brand-short-name(case: "gen") }
            *[no-cases] Jazyk aplikace { -brand-short-name }
         }
+messenger-languages-dialog-title =
+    { -brand-short-name.case-status ->
+        [with-cases] Jazyk { -brand-short-name(case: "gen") }
+       *[no-cases] Jazyk aplikace { -brand-short-name }
+    }
 messenger-languages-description = { -brand-short-name } zobrazí své uživatelské rozhraní v prvním vybraném jazyce. Ostatní použije jen pokud bude potřeba, a to ve vybraném pořadí.
 messenger-languages-search = Najít další jazyky…
 messenger-languages-searching =
