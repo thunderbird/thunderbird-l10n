@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Toepassingsdetails
+app-manager-dialog-title = Toepassingsdetails
 remove-app-button =
     .label = Verwijderen
     .accesskey = V
