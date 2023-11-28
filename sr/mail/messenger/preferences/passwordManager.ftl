@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Сачуване пријаве
+saved-logins-title = Сачуване пријаве
 window-close =
     .key = њ
 focus-search-primary-shortcut =
