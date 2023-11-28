@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Vlastní
 connection-dialog-window2 =
     .title = Nastavení připojení
+connection-dialog-title = Nastavení připojení
 disable-extension-button = Zakázat rozšíření
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
