@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Uue kirja saabumisteate kohandamine
-
+notifications-dialog-title = Uue kirja saabumisteate kohandamine
 customize-alert-description = Vali, milliseid välju uuest kirjast teavitamisel kuvatakse:
-
 preview-text-checkbox =
     .label = Kirja lühike sissejuhatus
     .accesskey = K
-
 subject-checkbox =
     .label = Teema
     .accesskey = T
-
 sender-checkbox =
     .label = Saatja
     .accesskey = a
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Uue kirja teavitust näidatakse
     .accesskey = U
-
 open-time-label-after =
     .value = sekundit
