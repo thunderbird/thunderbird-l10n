@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Aktivitetsindikator
 toolbar-throbber =
     .title = Aktivitetsindikator
+toolbar-create-contact-label = Ny kontakt
+toolbar-create-contact =
+    .title = Opret ny kontakt
+toolbar-create-address-book-label = Ny adressebog
+toolbar-create-address-book =
+    .title = Opret ny adressebog
+toolbar-create-list-label = Ny mailingliste
+toolbar-create-list =
+    .title = Opret ny mailingliste
+toolbar-import-contacts-label = Importer
+toolbar-import-contacts =
+    .title = Importer kontakter fra en fil
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Tilføj lokal adressebog
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Tilføj CardDAV-adressebog
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Tilføj LDAP-adressebog

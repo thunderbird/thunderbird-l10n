@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Det er i øjeblikket ikke muligt at sende en b
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Log ud af konto?
 sync-signout-dialog-body = Synkroniserede data vil forblive på din konto.
 sync-signout-dialog-button = Log ud
 
