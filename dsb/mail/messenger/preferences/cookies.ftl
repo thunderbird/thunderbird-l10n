@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Cookieje
+cookies-dialog-title = Cookieje
 window-close-key =
     .key = w
 window-focus-search-key =
