@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Personnalisé
 connection-dialog-window2 =
     .title = Paramètres de connexion
+connection-dialog-title = Paramètres de connexion
 disable-extension-button = Désactiver l’extension
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
