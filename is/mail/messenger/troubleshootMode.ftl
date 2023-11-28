@@ -5,6 +5,7 @@
 troubleshoot-mode-window =
     .title = { -brand-short-name } úrræðaleitarhamur
     .style = width: 37em;
+troubleshoot-mode-dialog-title = { -brand-short-name } úrræðaleitarhamur
 troubleshoot-mode-description = Notaðu { -brand-short-name } bilanaleitarham til að greina vandamál. Viðbæturnar þínar og sérstillingar verða tímabundið óvirkar.
 troubleshoot-mode-description2 = Þú getur gert sumar eða allar þessar breytingar varanlegar:
 troubleshoot-mode-disable-addons =
