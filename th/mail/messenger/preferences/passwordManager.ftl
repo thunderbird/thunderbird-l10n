@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = การเข้าสู่ระบบที่บันทึกไว้
+saved-logins-title = การเข้าสู่ระบบที่บันทึกไว้
 window-close =
     .key = w
 focus-search-primary-shortcut =
