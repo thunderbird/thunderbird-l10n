@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Warskôging by nije e-mail oanpasse
-
+notifications-dialog-title = Warskôging by nije e-mail oanpasse
 customize-alert-description = Kies hokker fjilden toand wurde yn de warskôgingsnotifikaasje:
-
 preview-text-checkbox =
     .label = Foarbyldwerjeftetekst
     .accesskey = F
-
 subject-checkbox =
     .label = Underwerp
     .accesskey = U
-
 sender-checkbox =
     .label = Ofstjoerder
     .accesskey = O
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Warskôging by nije e-mail
     .accesskey = N
-
 open-time-label-after =
     .value = sekonden
