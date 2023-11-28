@@ -4,6 +4,7 @@
 
 app-manager-window-dialog2 =
     .title = Podrobnosće nałoženja
+app-manager-dialog-title = Podrobnosće nałoženja
 remove-app-button =
     .label = Wotstronić
     .accesskey = W
