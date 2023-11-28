@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Clàraidhean a-steach a chaidh a shàbhaladh
+saved-logins-title = Clàraidhean a-steach a chaidh a shàbhaladh
 window-close =
     .key = w
 focus-search-primary-shortcut =
@@ -48,11 +49,9 @@ remove =
 import =
     .label = Ion-phortaich…
     .accesskey = I
-
 password-close-button =
     .label = Dùin
     .accesskey = D
-
 show-passwords =
     .label = Seall na faclan-faire
     .accesskey = f
@@ -75,12 +74,10 @@ no-master-password-prompt = A bheil thu cinnteach gu bheil thu airson na faclan-
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Dearbh cò thusa airson am facal-faire a shàbhail thu a nochdadh.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = na faclan-faire a shàbhail thu a nochdadh
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
