@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Salbuespenak
+permissions-dialog-title = Salbuespenak
 permission-preferences-close-window =
     .key = w
 website-address-label =
