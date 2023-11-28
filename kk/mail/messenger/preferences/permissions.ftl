@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Ережеден бөлек
+permissions-dialog-title = Ережеден бөлек
 permission-preferences-close-window =
     .key = w
 website-address-label =
