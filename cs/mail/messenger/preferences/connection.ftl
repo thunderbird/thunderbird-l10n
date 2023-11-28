@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = n
     .tooltiptext = Zadejte vlastní URL adresu pro službu DNS over HTTPS
 connection-dns-over-https-custom-label = Vlastní
-connection-dialog-window =
-    .title = Nastavení připojení
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Nastavení připojení
 disable-extension-button = Zakázat rozšíření
