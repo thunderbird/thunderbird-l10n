@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Egyéni
 connection-dialog-window2 =
     .title = Kapcsolat beállításai
+connection-dialog-title = Kapcsolat beállításai
 disable-extension-button = Kiegészítő letiltása
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
