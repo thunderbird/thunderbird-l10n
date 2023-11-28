@@ -5,8 +5,11 @@
 <!ENTITY e2eTitle.label "Шифроване от край до край">
 <!ENTITY e2eLearnMore.label "Научете повече">
 
+<!ENTITY e2eEnc.description "Без шифроване от край до край съдържанието на съобщенията са лесно достъпни за вашия имейл доставчик и за масово наблюдение.">
 
+<!ENTITY e2eTechPref.description "Предпочитана технология за шифроване:">
 
+<!ENTITY encryptionCert2.message "Персонален сертификат за шифроване:">
 <!ENTITY digitalSign.certificate.button "Избор…">
 <!ENTITY digitalSign.certificate.accesskey "И">
 <!ENTITY digitalSign.certificate_clear.button "Изчистване">
@@ -16,14 +19,26 @@
 <!ENTITY encryption.certificate_clear.button "Изчистване">
 <!ENTITY encryption.certificate_clear.accesskey "и">
 <!ENTITY signingGroupTitle.label "Цифров подпис">
+<!ENTITY signingCert2.message "Персонален сертификат за цифрово подписване:">
 
+<!ENTITY sendingDefaults.label "Настройки по подразбиране за изпращане на съобщения">
 
+<!ENTITY technologyAutomatic.label "Автоматичен избор въз основа на наличните ключове или сертификати">
 
+<!ENTITY certificates2.label "S/MIME">
+<!ENTITY manageCerts3.label "Управление на S/MIME сертификати">
+<!ENTITY manageCerts3.accesskey "У">
+<!ENTITY manageDevices2.label "S/MIME устройства за сигурност">
 
+<!ENTITY technologySMIME.label "Предпочитане на S/MIME">
+<!ENTITY technologyOpenPGP.label "Предпочитане на OpenPGP">
 
+<!ENTITY openpgpKeys.label "OpenPGP">
 
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Избор на сертификат">
 <!ENTITY certPicker.info  "Сертификат:">
 <!ENTITY certPicker.detailsLabel "Подробности за избрания сертификат:">
 
+<!ENTITY openpgpKey.message "Персонален ключ за шифроване и за цифрово подписване:">
+<!ENTITY openpgpKey.button "Задаване на личен ключ…">
