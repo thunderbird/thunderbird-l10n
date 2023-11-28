@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Saņemšanas apliecinājumi
-
+receipts-dialog-title = Saņemšanas apliecinājumi
 receipt-arrive-label = Kad pienāk apliecinājums:
-
 receipt-request-label = Kad saņemat saņemšanas apliecinājuma pieprasījumu:
-
 receipt-send-never-label =
     .label = Nesūtīt nekad
-
 receipt-send-always-label =
     .label = Sūtīt vienmēr
-
 receipt-send-ask-label =
     .label = Jautāt
-
