@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Eithriadau
+permissions-dialog-title = Eithriadau
 permission-preferences-close-window =
     .key = f
 website-address-label =
