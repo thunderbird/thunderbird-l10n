@@ -20,6 +20,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Tùy chỉnh
 connection-dialog-window2 =
     .title = Cài đặt kết nối
+connection-dialog-title = Cài đặt kết nối
 disable-extension-button = Vô hiệu hóa tiện ích mở rộng
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
