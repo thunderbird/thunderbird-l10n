@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Mukautettu
 connection-dialog-window2 =
     .title = Yhteysasetukset
+connection-dialog-title = Yhteysasetukset
 disable-extension-button = Poista laajennus käytöstä
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
