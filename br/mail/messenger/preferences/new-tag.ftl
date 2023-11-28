@@ -4,6 +4,7 @@
 
 tag-dialog-window =
     .title = Merk nevez
+tag-dialog-title = Merk nevez
 tag-name-label =
     .value = Anv ar merk :
     .accesskey = m
