@@ -4,6 +4,7 @@
 
 attachment-reminder-window =
     .title = Mots-clés de rappel pour les pièces jointes
+attachment-reminder-dialog-title = Mots-clés de rappel pour les pièces jointes
 attachment-reminder-label = { -brand-short-name } vous avertira de l’absence de pièces jointes si vous êtes sur le point d’envoyer un e-mail contenant l’un de ces mots-clés.
 keyword-new-button =
     .label = Nouveau…
