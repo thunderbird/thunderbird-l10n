@@ -60,8 +60,25 @@ openpgp-keygen-type-ecc =
     .label = ECC (елиптична крива)
 openpgp-keygen-button = Генериране на ключ
 openpgp-keygen-progress-title = Създаване на нов OpenPGP ключ
+openpgp-keygen-import-progress-title = Внасяне на OpenPGP ключове…
+openpgp-import-success = OpenPGP ключовете са внесени  успешно!
+openpgp-import-success-title = Завършване на процеса на внасяне
+openpgp-import-success-description = За да започнете да използвате вашия внесен OpenPGP ключ за криптиране на електронна поща,  затворете този диалогов прозорец и влезте в настройките на вашия профил, за да го изберете.
+openpgp-keygen-confirm =
+    .label = Потвърждение
 openpgp-keygen-dismiss =
     .label = Отказ
+openpgp-keygen-cancel =
+    .label = Отмяна на процеса…
+openpgp-keygen-import-complete =
+    .label = Затваряне
+    .accesskey = З
+openpgp-keygen-missing-username = Няма посочено име за текущия профил. Моля, въведете стойност в полето „Вашето име“ в настройките.
+openpgp-keygen-long-expiry = Не можете да създадете ключ, който изтича след повече от 100 години.
+openpgp-keygen-short-expiry = Вашият ключ трябва да е валиден поне един ден.
+openpgp-keygen-ongoing = Генерирането на ключ вече е в ход!
+openpgp-keygen-error-core = OpenPGP Core Service не може да се включи
+openpgp-keygen-error-failed = Генерирането на OpenPGP ключ неочаквано се провали
 
 ## Import Key section
 
