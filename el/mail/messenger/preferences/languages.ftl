@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = Π
 messenger-languages-window2 =
     .title = Ρυθμίσεις γλώσσας του { -brand-short-name }
+messenger-languages-dialog-title = Ρυθμίσεις γλώσσας του { -brand-short-name }
 messenger-languages-description = Το { -brand-short-name } θα εμφανίζει την πρώτη γλώσσα ως την προεπιλεγμένη και θα προβάλει εναλλακτικές γλώσσες με τη σειρά που φαίνονται, αν είναι απαραίτητο.
 messenger-languages-search = Αναζήτηση για περισσότερες γλώσσες…
 messenger-languages-searching =
