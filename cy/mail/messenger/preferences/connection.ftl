@@ -14,13 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = Rhowch eich hoff URL er mwyn datrys DNS drod HTTPS
 connection-dns-over-https-custom-label = Cyfaddas
-connection-dialog-window =
-    .title = Gosodiadau Cysylltu
-    .style =
-        { PLATFORM() ->
-            [macos] width: 44em !important
-           *[other] width: 49em !important
-        }
 connection-dialog-window2 =
     .title = Gosodiadau Cysylltu
 disable-extension-button = Analluogi Estyniad
