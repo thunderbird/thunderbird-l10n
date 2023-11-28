@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Tilpassa
 connection-dialog-window2 =
     .title = Tilkoplingsinnstillingar
+connection-dialog-title = Tilkoplingsinnstillingar
 disable-extension-button = Slå av utviding
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
