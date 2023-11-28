@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Innstillingar for app-ikon
+dock-options-dialog-title = Innstillingar for app-ikon
 dock-options-show-badge =
     .label = Vis merkeikon
     .accesskey = i
