@@ -4,17 +4,14 @@
 
 notifications-dialog-window =
     .title = Përshtatni Sinjalizim për Postë të Re
-
+notifications-dialog-title = Përshtatni Sinjalizim për Postë të Re
 customize-alert-description = Zgjidhni cilat fusha të shfaqen te shënimi për sinjalizim:
-
 preview-text-checkbox =
     .label = Tekst Paraparjeje Mesazhi
     .accesskey = T
-
 subject-checkbox =
     .label = Subjekt
     .accesskey = S
-
 sender-checkbox =
     .label = Dërgues
     .accesskey = D
@@ -28,6 +25,5 @@ sender-checkbox =
 open-time-label-before =
     .value = Shfaq Njoftim Poste të Re për
     .accesskey = N
-
 open-time-label-after =
     .value = sekonda
