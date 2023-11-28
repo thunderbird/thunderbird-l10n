@@ -4,6 +4,7 @@
 
 receipts-dialog-window =
     .title = Kvitteringar
+receipts-dialog-title = Kvitteringar
 receipt-arrive-label = Når du får ei kvittering:
 receipt-move-radio-control =
     .label = Flytt ho til «Sendt»-mappa
