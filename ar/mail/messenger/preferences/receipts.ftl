@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = إعلامات الوصول
-
+receipts-dialog-title = إعلامات الوصول
 receipt-arrive-label = عند وصول الإعلام:
-
 receipt-request-label = عند استلامي طلب إعلام الوصول:
-
 receipt-send-never-label =
     .label = لا تُرسل أبدًا
-
 receipt-send-always-label =
     .label = أرسل دائمًا
-
 receipt-send-ask-label =
     .label = اسألني
-
