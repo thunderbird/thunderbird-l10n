@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Прилагођено
 connection-dialog-window2 =
     .title = Подешавања везе
+connection-dialog-title = Подешавања везе
 disable-extension-button = Онемогући додатак
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
