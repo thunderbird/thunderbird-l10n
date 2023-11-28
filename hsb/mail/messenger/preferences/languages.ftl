@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = P
 messenger-languages-window2 =
     .title = Rěčne nastajenja { -brand-short-name }
+messenger-languages-dialog-title = Rěčne nastajenja { -brand-short-name }
 messenger-languages-description = { -brand-short-name } pokaza prěnju rěč jako waš standard a dalše rěče, jeli trjeba, w porjedźe, w kotrymž so jewja.
 messenger-languages-search = Dalše rěče pytać…
 messenger-languages-searching =
