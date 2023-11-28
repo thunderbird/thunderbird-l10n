@@ -18,6 +18,7 @@ languages-customize-add =
     .accesskey = a
 messenger-languages-window2 =
     .title = Configuración de idioma do { -brand-short-name }
+messenger-languages-dialog-title = Configuración de idioma do { -brand-short-name }
 messenger-languages-description = O { -brand-short-name } amosará o primeiro idioma como predeterminado e, se é preciso, amosará os idiomas alternativos na orde na que apareceren.
 messenger-languages-search = Buscar máis idiomas…
 messenger-languages-searching =
