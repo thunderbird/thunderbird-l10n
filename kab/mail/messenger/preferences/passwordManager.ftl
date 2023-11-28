@@ -4,6 +4,7 @@
 
 saved-logins =
     .title = Inekcam yettwakelsen
+saved-logins-title = Inekcam yettwakelsen
 window-close =
     .key = w
 focus-search-primary-shortcut =
@@ -48,11 +49,9 @@ remove =
 import =
     .label = Kter…
     .accesskey = t
-
 password-close-button =
     .label = Mdel
     .accesskey = M
-
 show-passwords =
     .label = Sken awalen uffiren
     .accesskey = S
@@ -75,12 +74,10 @@ no-master-password-prompt = Tebɣiḍ ad d-tessekneḍ awalen uffiren?
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Senqed tamagit-ik i ubeyyen n wawalen uffiren yettwakelsen.
-
 # This message can be seen by trying to show or copy the passwords.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
 password-os-auth-dialog-message-macosx = Beyyen-d awalen-ik uffiren yettwakelsen
-
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
