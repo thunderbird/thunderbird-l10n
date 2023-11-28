@@ -4,17 +4,12 @@
 
 receipts-dialog-window =
     .title = Pažymos iš laiškų gavėjų
-
+receipts-dialog-title = Pažymos iš laiškų gavėjų
 receipt-arrive-label = Gavus laiško pristatymo pažymą:
-
 receipt-request-label = Kai siuntėjas prašo pranešti apie laiško gavimą:
-
 receipt-send-never-label =
     .label = Neišsiųsti
-
 receipt-send-always-label =
     .label = Išsiųsti
-
 receipt-send-ask-label =
     .label = Paklausti
-
