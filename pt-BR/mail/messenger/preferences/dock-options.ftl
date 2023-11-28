@@ -4,6 +4,7 @@
 
 dock-options-window-dialog2 =
     .title = Opções de ícone do aplicativo
+dock-options-dialog-title = Opções de ícone do aplicativo
 dock-options-show-badge =
     .label = Exibir ícone do emblema
     .accesskey = b
