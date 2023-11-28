@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Undantekningar
+permissions-dialog-title = Undantekningar
 permission-preferences-close-window =
     .key = w
 website-address-label =
