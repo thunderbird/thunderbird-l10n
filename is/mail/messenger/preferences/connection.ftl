@@ -16,6 +16,7 @@ connection-dns-over-https-url-custom =
 connection-dns-over-https-custom-label = Sérsniðið
 connection-dialog-window2 =
     .title = Stillingar tengingar
+connection-dialog-title = Stillingar tengingar
 disable-extension-button = Slökkva á viðbót
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
