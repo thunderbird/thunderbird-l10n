@@ -4,6 +4,7 @@
 
 permissions-reminder-window2 =
     .title = Poikkeukset
+permissions-dialog-title = Poikkeukset
 permission-preferences-close-window =
     .key = w
 website-address-label =
