@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Újdonságok
-aboutDialog-title =
-    .title = A { -brand-full-name } névjegye
 about-dialog-title = A { -brand-full-name } névjegye
 release-notes-link = Kiadási megjegyzések
 update-internal-error = Belső hiba miatt nem lehet frissítéseket keresni. A frissítések itt érhetők el: <a data-l10n-name="manual-link"/>
@@ -40,25 +38,9 @@ aboutDialog-version = { $version } ({ $bits } bites)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bites)
 aboutdialog-update-checking-failed = Nem sikerült a frissítések keresése.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     egy <a data-l10n-name="community-exp-credits-link">
-    nemzetközi közösség</a>
-    , amely a nyílt, nyilvános és mindenki számára elérhető internetért dolgozik.
-community-2 =
-    A { -brand-short-name }öt a <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-     tervezte, egy <a data-l10n-name="community-credits-link">
-    nemzetközi közösség</a>
-    , amely a nyílt, nyilvános és mindenki számára elérhető internetért dolgozik.
-about-helpus =
-    Szeretne segíteni? <a data-l10n-name="helpus-donate-link">
-    Támogasson,</a> or <a data-l10n-name="helpus-get-involved-link">
-    vegyen részt!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> egy <a data-l10n-name="community-exp-credits-link">nemzetközi közösség</a>, amely a nyílt, nyilvános és mindenki számára elérhető internetért dolgozik.
 community-desc = A { -brand-short-name }öt a <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> tervezte, egy <a data-l10n-name="community-credits-link">nemzetközi közösség</a>, amely a nyílt, nyilvános és mindenki számára elérhető internetért dolgozik.
-about-donation = Szeretne segíteni? <a data-l10n-name="helpus-donate-link">Támogasson,</a> or <a data-l10n-name="helpus-get-involved-link">vegyen részt!</a>
+about-donation = Szeretne segíteni? <a data-l10n-name="helpus-donate-link">Támogasson</a>, vagy <a data-l10n-name="helpus-get-involved-link">vegyen részt!</a>
 bottom-links-license = Licencinformációk
 bottom-links-rights = Végfelhasználói jogok
 bottom-links-privacy = Adatvédelmi irányelvek
