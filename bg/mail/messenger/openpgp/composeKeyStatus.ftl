@@ -16,3 +16,11 @@ openpgp-recip-missing = няма наличен ключ
 openpgp-recip-none-accepted = няма приет ключ
 openpgp-compose-general-info-alias = { -brand-short-name } обикновено изисква публичният ключ на получателя да съдържа потребителски идентификатор със съответстващ имейл адрес. Това може да бъде отменено чрез използване на правила за псевдоним на получател на OpenPGP.
 openpgp-compose-general-info-alias-learn-more = Научете повече
+# Variables:
+# $count (Number) - Number of alias keys for a recipient.
+openpgp-compose-alias-status-direct =
+    { $count ->
+        [one] съпоставен към един псевдоним
+       *[other] съпоставен към { $count } псевдонима
+    }
+openpgp-compose-alias-status-error = неизползваем/недостъпен псевдоним ключ
