@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Kolačići
+cookies-dialog-title = Kolačići
 window-close-key =
     .key = w
 window-focus-search-key =

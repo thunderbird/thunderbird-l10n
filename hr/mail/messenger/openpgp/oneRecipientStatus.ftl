@@ -12,3 +12,7 @@ openpgp-one-recipient-status-created-date =
     .label = Stvoreno
 openpgp-one-recipient-status-expires-date =
     .label = Ističe
+openpgp-one-recipient-status-open-details =
+    .label = Otvorite detalje i uredite prihvaćanje…
+openpgp-one-recipient-status-discover =
+    .label = Otkrijte novi ili ažurirani ključ
