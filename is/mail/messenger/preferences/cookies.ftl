@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Vefkökur
+cookies-dialog-title = Vefkökur
 window-close-key =
     .key = w
 window-focus-search-key =
