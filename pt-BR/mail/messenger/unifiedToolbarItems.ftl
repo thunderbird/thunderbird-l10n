@@ -59,8 +59,6 @@ toolbar-junk-label = Spam
 toolbar-junk =
     .title = Marcar as mensagens selecionadas como spam
 toolbar-delete-label = Excluir
-toolbar-delete =
-    .title = Excluir pasta ou mensagens selecionadas
 toolbar-delete-title =
     .title = Excluir as mensagens selecionadas
 toolbar-undelete-label = Restaurar
@@ -144,3 +142,16 @@ toolbar-stop =
 toolbar-throbber-label = Indicador de atividade
 toolbar-throbber =
     .title = Indicador de atividade
+toolbar-create-contact-label = Novo contato
+toolbar-create-contact =
+    .title = Criar novo contato
+toolbar-create-address-book-label = Novo catálogo de endereços
+toolbar-create-address-book =
+    .title = Criar novo catálogo de endereços
+toolbar-create-list-label = Nova lista
+toolbar-import-contacts-label = Importar
+toolbar-import-contacts =
+    .title = Importar contatos de um arquivo
+
+## New Address Book popup items
+
