@@ -94,6 +94,8 @@
 <!ENTITY cspBlocked.title "Блокирано от Content Security Policy">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; предотврати зареждането на страницата по този начин, защото тя има политика за сигурност, която го забранява.</p>">
 
+<!ENTITY xfoBlocked.title "Блокиран от правилата за опции на X-Frame">
+<!ENTITY xfoBlocked.longDesc "<p>&brandShortName; предотврати зареждането на тази страница в този контекст, защото страницата има правило за X-Frame-Options, което го забранява.</p>">
 
 <!ENTITY corruptedContentErrorv2.title "Грешка поради развалено съдържание">
 <!ENTITY corruptedContentErrorv2.longDesc "<p>Страницата не може да бъде показана поради грешка при прехвърляне на данните.</p><ul><li>Моля, уведомете собствениците на страницата за проблема.</li></ul>">
@@ -122,4 +124,5 @@ functionality specific to thunderbird. -->
 
 <!ENTITY blockedByPolicy.title "Забранена страница">
 
+<!ENTITY networkProtocolError.title "Грешка в мрежовия протокол">
 <!ENTITY networkProtocolError.longDesc "<p>Страницата не може да бъде показана поради грешка в мрежовия протокол.</p><ul><li>Моля, уведомете собствениците на страницата за проблема.</li></ul>">

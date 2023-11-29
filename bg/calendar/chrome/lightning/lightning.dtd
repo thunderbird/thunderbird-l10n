@@ -19,10 +19,6 @@
 <!ENTITY lightning.menupopup.new.calendar.accesskey "К">
 
 <!-- Open menu popup in File menu -->
-<!ENTITY lightning.menupopup.open.label               "Отваряне">
-<!ENTITY lightning.menupopup.open.accesskey           "О">
-<!ENTITY lightning.menupopup.open.message.label       "Запазено писмо…">
-<!ENTITY lightning.menupopup.open.message.accesskey   "п">
 <!ENTITY lightning.menupopup.open.calendar.label      "Календар файл…">
 <!ENTITY lightning.menupopup.open.calendar.accesskey  "л">
 
@@ -37,7 +33,22 @@
 <!ENTITY lightning.menu.eventtask.accesskey            "б">
 
 <!-- properties dialog, calendar creation wizard -->
-<!ENTITY lightning.calendarproperties.email.label               "Мейл:">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.email.label,
+     lightning.calendarproperties.forceEmailScheduling.label)
+     These strings are used in the calendar wizard and the calendar properties dialog, but are only
+     displayed when setting/using a caldav calendar -->
+<!ENTITY lightning.calendarproperties.email.label                           "Мейл:">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label            "Предпочитано имейл планиране от страна на клиента">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
+     lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
+     - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Засега можете да включите това само след като настроите този календар в неговия диалогов прозорец със свойства и ако сървърът на календара се грижи за планирането.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Тази опция е налична само ако сървърът на календара обработва планирането. Активирането ще позволи да се върнете към стандартния график, базиран на имейл, вместо да го оставяте на сървъра.">
+
+<!-- The notifications settings in the properties dialog -->
+<!ENTITY lightning.calendarproperties.notifications.label                   "Известия">
+<!ENTITY lightning.calendarproperties.globalNotifications.label             "Общи предпочитания за уведомяване…">
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label                                  "Приемане">
@@ -56,6 +67,9 @@
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Изтриване от календара">
 <!ENTITY lightning.imipbar.btnDetails.label                                 "Подробности…">
 <!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Показване подробностите на събитието">
+<!ENTITY lightning.imipbar.btnDoNotShowImipBar.label                        "Спиране на тези съобщения">
+<!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Календар">
+<!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext                      "Към раздела с календара">
 <!ENTITY lightning.imipbar.btnMore.label                                    "Повече">
 <!ENTITY lightning.imipbar.btnMore.tooltiptext                              "Щракнете за показване на повече възможности">
 <!ENTITY lightning.imipbar.btnReconfirm2.label                              "Препотвърждаване">
@@ -72,9 +86,14 @@
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Обновяване на събитието в календара">
 <!ENTITY lightning.imipbar.description                                      "Писмото съдържа покана за събитие.">
 
+<!ENTITY lightning.imipbar.btnSend.label                                    "Изпращане на отговор">
+<!ENTITY lightning.imipbar.btnSend.tooltiptext                              "Изпращане на отговор на организатора">
+<!ENTITY lightning.imipbar.btnSendSeries.tooltiptext                        "Изпращане отговор за цялата серия на организатора">
+<!ENTITY lightning.imipbar.btnDontSend.label                                "Без изпращане на отговор">
+<!ENTITY lightning.imipbar.btnDontSend.tooltiptext                          "Промяна на вида на участието ви без да изпращате отговор до организатора">
+<!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Промяна на вида на участието ви, за цялата серия, без да изпращате отговор до организатора">
+
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
