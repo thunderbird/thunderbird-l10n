@@ -149,9 +149,17 @@ toolbar-create-address-book-label = Novo catálogo de endereços
 toolbar-create-address-book =
     .title = Criar novo catálogo de endereços
 toolbar-create-list-label = Nova lista
+toolbar-create-list =
+    .title = Criar nova lista de emails
 toolbar-import-contacts-label = Importar
 toolbar-import-contacts =
     .title = Importar contatos de um arquivo
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Adicionar catálogo de endereços local
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Adicionar catálogo de endereços CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Adicionar catálogo de endereços LDAP
