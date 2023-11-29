@@ -41,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Ce message contient une signature numériqu
 openpgp-sig-uncertain-not-accepted = Ce message contient une signature numérique, mais vous n’avez pas encore indiqué si la clé du signataire vous paraît correcte ou non.
 openpgp-sig-invalid-rejected = Ce message contient une signature numérique, mais vous avez précédemment décidé de rejeter la clé du signataire.
 openpgp-sig-invalid-technical-problem = Ce message contient une signature numérique, mais une erreur technique a été détectée. Soit le message a été corrompu, soit le message a été modifié par quelqu’un d’autre.
+openpgp-sig-invalid-date-mismatch = Ce message contient une signature numérique, mais qui n’a pas été produite au moment de l’envoi de l’e-mail. Il peut s’agir d’une tentative de vous tromper avec du contenu provenant d’une situation fausse : p. ex. un contenu écrit dans un contexte différent à un autre moment ou destiné à quelqu’un d’autre.
 openpgp-sig-valid-unverified = Ce message comprend une signature numérique valide d’une clé que vous avez déjà acceptée. Cependant, vous n’avez pas encore vérifié que la clé appartient réellement à l’expéditeur.
 openpgp-sig-valid-verified = Ce message comprend une signature numérique valide d’une clé vérifiée.
 openpgp-sig-valid-own-key = Ce message comprend une signature numérique valide de votre clé personnelle.
