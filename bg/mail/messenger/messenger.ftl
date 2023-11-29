@@ -210,7 +210,7 @@ mail-context-undelete-messages =
            *[other] Възстановяване на изтритите писма
         }
 context-menu-decrypt-to-folder2 =
-    .label = Създаване на декриптирано копие в
+    .label = Създаване на дешифровано копие в
     .accesskey = з
 
 ## Message header pane
@@ -300,8 +300,8 @@ no-reply-reply-anyway-button = Отговорете все пак
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures-multiple =
     { $failures ->
-        [one] { $failures } от { $total } съобщения не можаха да бъдат декриптирани и не бяха копирани.
-       *[other] { $failures } от { $total } съобщения не можаха да бъдат декриптирани и не бяха копирани.
+        [one] { $failures } от { $total } съобщения не можаха да бъдат дешифровани и не бяха копирани.
+       *[other] { $failures } от { $total } съобщения не можаха да бъдат дешифровани и не бяха копирани.
     }
 
 ## Spaces toolbar

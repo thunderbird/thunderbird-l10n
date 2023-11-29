@@ -73,7 +73,7 @@ openpgp-key-assistant-key-source =
     }
 openpgp-key-assistant-key-collected-attachment = прикачен файл
 # Autocrypt is the name of a standard.
-openpgp-key-assistant-key-collected-autocrypt = Заглавка за автоматично криптиране
+openpgp-key-assistant-key-collected-autocrypt = Заглавка за автоматично дешифроване
 openpgp-key-assistant-key-collected-keyserver = сървър за ключове
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Директория с уеб ключове
