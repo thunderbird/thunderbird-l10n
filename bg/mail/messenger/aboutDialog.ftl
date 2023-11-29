@@ -40,7 +40,7 @@ aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-бита)
 aboutdialog-update-checking-failed = Невъзможна проверка за обновявания.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> е <a data-l10n-name="community-exp-credits-link">глобална, сплотена общност</a>, работеща за една отворена и общодостъпна Мрежа.
 community-desc = { -brand-short-name } е разработен от <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">глобална, сплотена общност</a>, работеща за една отворена и общодостъпна Мрежа.
-about-donation = Искате да помогнете? <a data-l10n-name="helpus-donate-link">Направете дарение</a> or <a data-l10n-name="helpus-get-involved-link">се включете и вие!</a>
+about-donation = Искате  ли да помогнете? <a data-l10n-name="helpus-donate-link">Направете дарение</a> или <a data-l10n-name="helpus-get-involved-link">се включете и вие в проекта!</a>
 bottom-links-license = Лицензна информация
 bottom-links-rights = Права на крайния потребител
 bottom-links-privacy = Политика на поверителност
