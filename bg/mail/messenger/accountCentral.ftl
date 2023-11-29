@@ -4,6 +4,13 @@
 
 account-central-title = Добре дошли при { -brand-full-name }
 account-settings = Настройки на профила
+#   $accounts (Number) - the number of configured accounts
+setup-title =
+    { $accounts ->
+        [0] Избор на опции за настройка
+        [one] Настройка на друг профил
+       *[other] Настройка на други профили
+    }
 about-title = Относно { -brand-full-name }
 resources-title = Ресурси
 release-notes =
