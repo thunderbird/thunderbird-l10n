@@ -59,8 +59,6 @@ toolbar-junk-label = Net-winske
 toolbar-junk =
     .title = De selektearre berjochten as net-winske markearje
 toolbar-delete-label = Fuortsmite
-toolbar-delete =
-    .title = Selektearre berjochten of map fuortsmite
 toolbar-delete-title =
     .title = De selektearre berjochten fuortsmite
 toolbar-undelete-label = Fuortsmiten ûngedien meitsje
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Aktiviteitsyndikator
 toolbar-throbber =
     .title = Aktiviteitsyndikator
+toolbar-create-contact-label = Nij kontakt
+toolbar-create-contact =
+    .title = In nij kontakt oanmeitsje
+toolbar-create-address-book-label = Nij adresboek
+toolbar-create-address-book =
+    .title = In nij adresboek oanmeitsje
+toolbar-create-list-label = Nije list
+toolbar-create-list =
+    .title = In nije e-maillist oanmeitsje
+toolbar-import-contacts-label = Ymportearje
+toolbar-import-contacts =
+    .title = Kontakten út in bestân ymportearje
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Lokaal adresboek tafoegje
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = CardDAV-adresboek tafoegje
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = LDAP-adresboek tafoegje
