@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Sütik
+cookies-dialog-title = Sütik
 window-close-key =
     .key = w
 window-focus-search-key =
