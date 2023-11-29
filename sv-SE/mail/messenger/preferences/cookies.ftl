@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Kakor
+cookies-dialog-title = Kakor
 window-close-key =
     .key = w
 window-focus-search-key =
