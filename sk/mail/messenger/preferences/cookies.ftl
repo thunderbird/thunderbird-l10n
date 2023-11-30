@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Cookies
+cookies-dialog-title = Súbory cookies
 window-close-key =
     .key = w
 window-focus-search-key =
