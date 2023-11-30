@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Evästeet
+cookies-dialog-title = Evästeet
 window-close-key =
     .key = w
 window-focus-search-key =

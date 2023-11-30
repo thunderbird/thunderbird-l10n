@@ -188,6 +188,7 @@ account-setup-warning-cleartext = <b>{ $server }</b> ei käytä salausta.
 account-setup-warning-cleartext-details = Suojaamattomat sähköpostipalvelimet eivät salaa yhteyksiään eivätkä siten suojele salasanojasi ja henkilökohtaisia tietojasi. Salasanasi ja henkilökohtaiset tietosi voivat joutua vääriin käsiin ottamalla yhteyden tähän palvelimeen.
 account-setup-insecure-server-checkbox = Ymmärrän riskit
     .accesskey = Y
+account-setup-insecure-description = { -brand-short-name } mahdollistaa pääsyn sähköpostiisi käyttämällä annettuja määrityksiä. Sinun tulee kuitenkin ottaa yhteyttä järjestelmänvalvojaasi tai sähköpostin palveluntarjoajaasi koskien näitä virheellisiä yhteyksiä. Katso lisätietoja <a data-l10n-name="thunderbird-faq-link">Thunderbirdin usein kysytyistä kysymyksistä</a>.
 insecure-dialog-cancel-button = Muuta asetukset
     .accesskey = M
 insecure-dialog-confirm-button = Vahvista
