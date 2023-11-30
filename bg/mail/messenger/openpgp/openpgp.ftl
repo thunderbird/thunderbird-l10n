@@ -90,7 +90,7 @@ openpgp-key-man-publish-cmd =
     .label = Публикуване
     .accesskey = П
 openpgp-key-publish = Публикуване
-openpgp-key-man-discover-prompt = За да откриете OpenPGP ключове онлайн, на сървъри за ключове или като използвате протокола WKD, въведете имейл адрес или ID на ключ.
+openpgp-key-man-discover-prompt = За да откриете OpenPGP ключове на сървъри за ключове или чрез използването на WKD протокола, въведете имейл адрес или ID на ключ.
 openpgp-key-man-discover-progress = Търсене…
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
@@ -110,6 +110,25 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Изпращане на публичен ключ по имейл
     .accesskey = И
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
+openpgp-key-man-copy-fprs =
+    .label =
+        { $count ->
+            [one] Копиране на пръстовия отпечатък в клипборда
+           *[other] Копиране на пръстовите отпечатъци в клипборда
+        }
+    .accesskey = п
+openpgp-key-man-close =
+    .label = Затваряне
+openpgp-key-man-reload =
+    .label = Презареждане на кеша на ключовете
+    .accesskey = ж
+openpgp-key-man-select-all =
+    .label = Избиране на всички ключове
+    .accesskey = в
+openpgp-card-details-close-window-label =
+    .buttonlabelaccept = Затваряне
 
 ## e2e encryption settings
 
@@ -207,6 +226,7 @@ e2e-learn-more = Научете повече
 
 ## Strings used in dialog.jsm
 
+dlg-button-close = &Затваряне
 
 ## Strings used in persistentCrypto.jsm
 
