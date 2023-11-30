@@ -48,6 +48,7 @@ account-hub-email-stop-button = Stop
 account-hub-email-back-button = Tilbage
 account-hub-email-retest-button = Test igen
 account-hub-email-finish-button = Afslut
+account-hub-email-manually-configure-button = Manuel opsætning
 account-hub-email-continue-button = Fortsæt
 account-hub-email-confirm-button = Bekræft
 account-hub-incoming-server-legend = Indgående server

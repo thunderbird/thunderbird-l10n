@@ -41,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Denne meddelelse indeholder en digital sign
 openpgp-sig-uncertain-not-accepted = Denne meddelelse indeholder en digital signatur, men du har endnu ikke angivet, om du kan acceptere underskriverens nøgle.
 openpgp-sig-invalid-rejected = Denne meddelelse indeholder en digital signatur, men du har tidligere besluttet at afvise underskriverens nøgle.
 openpgp-sig-invalid-technical-problem = Denne meddelelse indeholder en digital signatur, men der er opstået en teknisk fejl. Enten er meddelelsen blevet ødelagt, eller også er den blevet ændret af en anden.
+openpgp-sig-invalid-date-mismatch = Denne meddelelse indeholder en digital signatur, men signaturen er ikke dannet på samme tid som mailen blev sendt. Dette kan skyldes et forsøg på at snyde dig med indhold fra en forkert kontekst, fx indhold, der er genereret i en anden sammenhæng eller med en anden modtager for øje.
 openpgp-sig-valid-unverified = Denne meddelelse indeholder en gyldig digital signatur fra en nøgle, som du allerede har accepteret. Du har dog endnu ikke verificeret, om nøglen rent faktisk tilhører afsenderen.
 openpgp-sig-valid-verified = Denne meddelelse indeholder en gyldig digital signatur fra en verificeret nøgle.
 openpgp-sig-valid-own-key = Denne meddelelse indeholder en gyldig digital signatur fra din personlige nøgle.
