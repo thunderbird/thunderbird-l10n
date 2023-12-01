@@ -59,8 +59,6 @@ toolbar-junk-label = Neželeno
 toolbar-junk =
     .title = Označi izbrana sporočila kot neželena
 toolbar-delete-label = Izbriši
-toolbar-delete =
-    .title = Izbriši izbrana sporočila ali mapo
 toolbar-delete-title =
     .title = Izbriši izbrana sporočila
 toolbar-undelete-label = Razveljavi izbris
@@ -144,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Merilnik dejavnosti
 toolbar-throbber =
     .title = Merilnik dejavnosti
+toolbar-create-contact-label = Nov stik
+toolbar-create-contact =
+    .title = Ustvari nov stik
+toolbar-create-address-book-label = Nov imenik
+toolbar-create-address-book =
+    .title = Ustvari nov imenik
+toolbar-create-list-label = Nov seznam
+toolbar-create-list =
+    .title = Ustvari nov poštni seznam
+toolbar-import-contacts-label = Uvozi
+toolbar-import-contacts =
+    .title = Uvozi stike iz datoteke
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Dodaj krajevni imenik
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Dodaj imenik CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Dodaj imenik LDAP
