@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Piškotki
+cookies-dialog-title = Piškotki
 window-close-key =
     .key = w
 window-focus-search-key =
