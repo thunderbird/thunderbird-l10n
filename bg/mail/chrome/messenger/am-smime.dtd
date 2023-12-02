@@ -29,6 +29,7 @@
 <!ENTITY manageCerts3.label "Управление на S/MIME сертификати">
 <!ENTITY manageCerts3.accesskey "У">
 <!ENTITY manageDevices2.label "S/MIME устройства за сигурност">
+<!ENTITY manageDevices2.accesskey "в">
 
 <!ENTITY technologySMIME.label "Предпочитане на S/MIME">
 <!ENTITY technologyOpenPGP.label "Предпочитане на OpenPGP">
@@ -42,3 +43,4 @@
 
 <!ENTITY openpgpKey.message "Персонален ключ за шифроване и за цифрово подписване:">
 <!ENTITY openpgpKey.button "Задаване на личен ключ…">
+<!ENTITY openpgpKey.accesskey "о">
