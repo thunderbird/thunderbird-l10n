@@ -59,6 +59,11 @@ toolbar-junk-label = 스팸
 toolbar-junk =
     .title = 스팸인 메세지를 골라 표시하세요
 toolbar-delete-label = 삭제
+toolbar-delete-title =
+    .title = 선택한 매세지 삭제
+toolbar-undelete-label = 삭제 취소
+toolbar-undelete =
+    .title = 선택한 매세지 삭제 취소
 toolbar-compact-label = 비우기
 toolbar-compact =
     .title = 선택한 폴더에서 삭제 표시된 메시지 지우기
@@ -137,3 +142,6 @@ toolbar-stop =
 toolbar-throbber-label = 활성도 지시자
 toolbar-throbber =
     .title = 활성도 지시자
+
+## New Address Book popup items
+

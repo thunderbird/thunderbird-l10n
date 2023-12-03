@@ -57,9 +57,25 @@ account-hub-protocol-label = 프로토콜
 account-hub-hostname-label = 호스트명
 account-hub-port-label = 포트
     .title = 자동 감지를 위해서는 포트 번호를 0번으로 지정하십시오
+account-hub-auto-description = { -brand-short-name }가 비어있는 필드는 자동으로 감지를 시도합니다.
+account-hub-ssl-label = 연결 보안
 
 ## Incoming/Outgoing SSL Authentication options
 
+account-hub-ssl-autodetect-option =
+    .label = 자동 감지
+account-hub-ssl-no-authentication-option =
+    .label = 인증 없음
+account-hub-ssl-cleartext-password-option =
+    .label = 일반 비밀번호
+account-hub-ssl-encrypted-password-option =
+    .label = 암호화된 비밀번호
 
 ## Incoming/Outgoing SSL options
 
+account-hub-ssl-noencryption-option =
+    .label = 없음
+account-hub-auth-label = 인증 방법
+account-hub-username-label = 사용자명
+account-hub-adding-account-title = 계정 추가
+account-hub-account-added-title = 계정 추가됨

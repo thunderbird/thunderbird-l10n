@@ -71,6 +71,7 @@ customize-palette-calendar-specific-title = 캘린더 스페이스에서만 사�
 customize-palette-tasks-specific-title = 작업 스페이스에서만 사용 가능
 customize-palette-chat-specific-title = 채팅 스페이스에서만 사용 가능
 customize-palette-settings-specific-title = 설정 스페이스에서만 사용 가능
+customize-palette-extension-specific-title = 이 스페이스에서만 사용 가능
 
 ## Unified toolbar customization palette context menu
 

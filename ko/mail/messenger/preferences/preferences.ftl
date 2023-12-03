@@ -121,6 +121,12 @@ default-search-engine = 기본 검색 엔진
 remove-search-engine =
     .label = 삭제
     .accesskey = v
+add-opensearch-provider-title = OpenSearch 공급자 추가
+add-opensearch-provider-text = 추가할 OpenSearch 공급자의 URL을 입력하세요. OpenSearch 설명 파일의 직접 URL을 사용하거나, 자동으로 검색될 수 있는 URL을 사용하세요.
+adding-opensearch-provider-failed-title = OpenSearch 공급자 추가 실패
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
+adding-opensearch-provider-failed-text = { $url }에 대한 OpenSearch 공급자를 추가할 수 없습니다.
 minimize-to-tray-label =
     .label = { -brand-short-name }가 최소화되면 트레이로 이동
     .accesskey = m
@@ -143,6 +149,7 @@ change-dock-icon = 앱 아이콘 설정 변경
 app-icon-options =
     .label = 독 아이콘 옵션…
     .accesskey = n
+notification-settings2 = 경고 및 기본 소리는 시스템 설정의 알림 창에서 비활성화할 수 있습니다.
 animated-alert-label =
     .label = 알림창 띄우기
     .accesskey = S
@@ -186,7 +193,17 @@ autoscroll-label =
 smooth-scrolling-label =
     .label = 부드러운 스크롤 사용하기
     .accesskey = m
+browsing-gtk-use-non-overlay-scrollbars =
+    .label = 항상 스크롤바 표시하기
+    .accesskey = c
 window-layout-legend = 창 레이아웃
+draw-in-titlebar-label =
+    .label = 시스템 창 제목 표시줄 숨기기
+    .accesskey = H
+auto-hide-tabbar-label =
+    .label = 탭 표시줄 자동 숨기기
+    .accesskey = A
+auto-hide-tabbar-description = 탭이 하나만 열려있는 경우 탭 표시줄 숨기기
 system-integration-legend = 시스템 통합
 always-check-default =
     .label = 시작 시 { -brand-short-name }가 기본 메일 프로그램인지 항상 확인
@@ -575,6 +592,12 @@ certificate-button =
 security-devices-button =
     .label = 보안 기기…
     .accesskey = D
+email-e2ee-header = 이메일 종단간 암호화
+account-settings = 계정 설정
+email-e2ee-enable-info = 계정 설정에서 종단간 암호화를 위한 이메일 및 ID를 설정하세요
+email-e2ee-automatism = 암호화 자동 사용
+email-e2ee-auto-on =
+    .label = 가능한 경우 자동으로 암호화 활성화하기
 
 ## Chat Tab
 
@@ -644,6 +667,8 @@ chat-browse-sound-button =
 theme-label =
     .value = 테마:
     .accesskey = T
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = 거품
 style-dark =
@@ -662,7 +687,47 @@ chat-variant-label =
 ## Settings UI Search Results
 
 search-results-header = 검색 결과
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] 죄송합니다! “<span data-l10n-name="query"></span>”에 대한 결과가 없습니다.
+       *[other] 죄송합니다! “<span data-l10n-name="query"></span>”에 대한 검색 결과가 없습니다.
+    }
 search-results-help-link = 도움이 필요하세요? <a data-l10n-name="url">{ -brand-short-name } 지원</a>에 방문하세요.
 
 ## Sync Tab
 
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Sync에 로그인…
+sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }”은 인증되지 않았습니다.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = "{ $userEmail }"에 연결하려면 다시 로그인해주세요
+sync-pane-resend-verification = 인증 메일 재전송
+sync-pane-sign-in = 로그인
+sync-pane-remove-account = 계정 삭제
+sync-pane-edit-photo =
+    .title = 프로필 사진 변경
+sync-pane-manage-account = 계정 관리
+sync-pane-sign-out = 로그아웃…
+sync-pane-device-name-title = 기기 이름
+sync-pane-change-device-name = 기기 이름 변경
+sync-pane-cancel = 취소
+sync-pane-save = 저장
+sync-pane-show-synced-header-on = 동기화 켜짐
+sync-pane-show-synced-header-off = 동기화 꺼짐
+sync-pane-sync-now = 지금 동기화하기
+sync-panel-sync-now-syncing = 동기화 중…
+show-synced-list-heading = 현재 다음 항목을 동기화 중입니다:
+show-synced-learn-more = 더 알아보기…
+show-synced-item-account = 이메일 계정
+show-synced-item-address = 주소록
+show-synced-item-calendar = 캘린더
+show-synced-item-identity = 아이디
+show-synced-item-passwords = 비밀번호
+show-synced-change = 변경…
+synced-acount-item-server-config = 서버 구성
+synced-acount-item-filters = 필터
