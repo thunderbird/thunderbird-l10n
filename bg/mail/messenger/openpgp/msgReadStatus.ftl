@@ -60,3 +60,27 @@ openpgp-enc-key-id = Идентификационният номер на ваш
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Вашият идентификатор на ключ за дешифриране: { $key } ( и на подключ: { $subkey })
 openpgp-enc-none = Съобщението не е шифровано
+openpgp-enc-none-label = Това съобщение не е шифровано преди да бъде изпратено. Информацията, изпратена по интернет без криптиране, може да бъде видяна от други хора, докато е в транзит.
+openpgp-enc-invalid-label = Съобщението не може да бъде дешифрирано
+openpgp-enc-invalid = Писмото е било шифровано преди да ви бъде изпратено, но не може да бъде дешифровано.
+openpgp-enc-clueless = Има неизвестни проблеми с шифрованото писмо.
+openpgp-enc-valid-label = Писмото е шифровано
+openpgp-enc-valid = Това съобщение е шифровано преди да ви бъде изпратено. Шифроването гарантира, че съобщението може да бъде прочетено само от получателите, за които е предназначено.
+openpgp-unknown-key-id = Неизвестен ключ
+openpgp-other-enc-additional-key-ids = Освен това съобщението беше шифровано до собствениците на следните ключове:
+openpgp-other-enc-all-key-ids = Съобщението беше шифровано до собствениците на следните ключове:
+openpgp-message-header-encrypted-ok-icon =
+    .alt = Дешифрирането е успешно
+openpgp-message-header-encrypted-notok-icon =
+    .alt = Дешифрирането не бе успешно
+openpgp-message-header-signed-ok-icon =
+    .alt = Добър подпис
+# Mismatch icon is used for notok state as well
+openpgp-message-header-signed-mismatch-icon =
+    .alt = Лош подпис
+openpgp-message-header-signed-unknown-icon =
+    .alt = Неизвестен статус на подпис
+openpgp-message-header-signed-verified-icon =
+    .alt = Потвърден подпис
+openpgp-message-header-signed-unverified-icon =
+    .alt = Непотвърден подпис
