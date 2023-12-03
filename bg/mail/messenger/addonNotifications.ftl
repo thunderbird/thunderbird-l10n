@@ -116,4 +116,14 @@ addon-install-error-network-failure = Добавката не може да бъ
 addon-install-error-incorrect-hash = Добавката не може да бъде инсталирана, защото не е тази, която { -brand-short-name } очаква.
 addon-install-error-corrupt-file = Изтеглената добавка не може да бъде инсталирана, защото изглежда е повредена.
 addon-install-error-file-access = Добавката { $addonName } не може да бъде инсталирана, защото { -brand-short-name } не може да промени необходимите файлове.
+addon-install-error-not-signed = { -brand-short-name } предотврати опит за инсталиране на непроверена добавка от страницата.
+addon-install-error-invalid-domain = Добавката { $addonName } не може да се инсталира от това местоположение.
 addon-local-install-error-network-failure = Добавката не може да бъде инсталирана поради грешка във файловата система.
+addon-local-install-error-incorrect-hash = Добавката не може да бъде инсталирана, защото не е тази, която { -brand-short-name } очаква.
+addon-local-install-error-corrupt-file = Добавката не може да бъде инсталирана, защото изглежда е повредена.
+addon-local-install-error-file-access = Добавката { $addonName } не може да бъде инсталирана, защото { -brand-short-name } не може да промени необходимите файлове.
+addon-local-install-error-not-signed = Добавката не може да бъде инсталирана, защото не е проверена.
+# Variables:
+#   $appVersion (String): the application version.
+addon-install-error-incompatible = Добавката { $addonName } не може да бъде инсталирана, защото е несъвместима с { -brand-short-name } { $appVersion }.
+addon-install-error-blocklisted = Добавката { $addonName } не може да бъде инсталирана, защото носи висок риск от причиняване на проблеми със стабилността или сигурността.
