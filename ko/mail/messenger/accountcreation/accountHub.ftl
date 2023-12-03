@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
+
+
 ## Header
 
 account-hub-brand = { -brand-full-name }
@@ -14,3 +18,48 @@ account-hub-title = 계정 허브
 account-hub-release-notes = 출시 안내
 account-hub-support = 지원
 account-hub-donate = 기부
+
+## Initial setup page
+
+account-hub-email-setup-button = 이메일 계정
+    .title = 이메일 계정을 설정하세요
+account-hub-calendar-setup-button = 캘린터
+    .title = 로컬 또는 원격 캘린더를 설정하세요
+account-hub-address-book-setup-button = 주소록
+    .title = 로컬 또는 원격 주소록을 설정하세요
+account-hub-chat-setup-button = 채팅
+    .title = 채팅 계정을 설정하세요
+account-hub-feed-setup-button = RSS 피드
+    .title = RSS 피드 계정을 설정하세요
+account-hub-newsgroup-setup-button = 뉴스그룹
+    .title = 뉴스그룹 계정을 설정하세요
+account-hub-import-setup-button = 가져오기
+    .title = 백업된 프로필을 가져옴
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Sync에 로그인…
+
+## Email page
+
+account-hub-email-title = 이메일 계정 설정
+account-hub-add-email-title = 계정 추가
+account-hub-manually-configure-email-title = 계정 설정
+account-hub-email-cancel-button = 취소
+account-hub-email-stop-button = 중지
+account-hub-email-back-button = 뒤로
+account-hub-email-retest-button = 다시 테스트
+account-hub-email-finish-button = 완료
+account-hub-email-manually-configure-button = 수동으로 구성
+account-hub-email-continue-button = 계속
+account-hub-email-confirm-button = 확인
+account-hub-incoming-server-legend = 메일 수신 서버
+account-hub-outgoing-server-legend = 메일 송신 서버
+account-hub-protocol-label = 프로토콜
+account-hub-hostname-label = 호스트명
+account-hub-port-label = 포트
+    .title = 자동 감지를 위해서는 포트 번호를 0번으로 지정하십시오
+
+## Incoming/Outgoing SSL Authentication options
+
+
+## Incoming/Outgoing SSL options
+
