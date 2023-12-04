@@ -694,6 +694,8 @@ chat-browse-sound-button =
 theme-label =
     .value = Тема:
     .accesskey = Т
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = Мехурчета
 style-dark =
@@ -708,9 +710,67 @@ no-preview-description = Темата е непълна или временно 
 chat-variant-label =
     .value = Вариант:
     .accesskey = В
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 15.4em
+    .placeholder = Намиране в настройки
 
 ## Settings UI Search Results
 
+search-results-header = Резултати от търсенето
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] Съжаляваме! Няма резултати в настройките за „<span data-l10n-name="query"></span>“.
+       *[other] Съжаляваме! Няма резултати в настройките за „<span data-l10n-name="query"></span>“.
+    }
+search-results-help-link = Имате ли нужда от помощ? Посетете <a data-l10n-name="url">сайта за поддръжката на { -brand-short-name }</a>
 
 ## Sync Tab
 
+sync-signedout-caption = Вземете Мрежата със себе си
+sync-signedout-description = Синхронизирайте своите профили, адресници,  календари, добавки и настройки на всичките си устройства.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Вход за синхронизиране
+sync-pane-header = Синхронизиране
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = „{ $userEmail }“ не е потвърден.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Моля, впишете се, за да се свържете наново "{ $userEmail }"
+sync-pane-resend-verification = Повторно изпращане на потвърждение
+sync-pane-sign-in = Вписване
+sync-pane-remove-account = Премахване на профил
+sync-pane-edit-photo =
+    .title = Промяна снимката на профила
+sync-pane-manage-account = Управление на профила
+sync-pane-sign-out = Излизане…
+sync-pane-device-name-title = Име на текущото устройство
+sync-pane-change-device-name = Промяна на името на устройството
+sync-pane-cancel = Отказ
+sync-pane-save = Запазване
+sync-pane-show-synced-header-on = Синхронизиране: ВКЛЮЧЕНО
+sync-pane-show-synced-header-off = Синхронизиране: ИЗКЛЮЧЕНО
+sync-pane-sync-now = Синхронизиране
+sync-panel-sync-now-syncing = Синхронизиране…
+show-synced-list-heading = В момента се синхронизират следните елементи:
+show-synced-learn-more = Научете повече…
+show-synced-item-account = Имейл профили
+show-synced-item-address = Адресници
+show-synced-item-calendar = Календари
+show-synced-item-identity = Идентичности
+show-synced-item-passwords = Пароли
+show-synced-change = Промяна…
+synced-acount-item-server-config = Конфигурация на сървъра
+synced-acount-item-filters = Филтри
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Синхронизирайте вашите имейл профили, адресници, календари и самоличности на всичките си устройства.
+sync-disconnected-turn-on-sync = Включване на синхронизирането...
