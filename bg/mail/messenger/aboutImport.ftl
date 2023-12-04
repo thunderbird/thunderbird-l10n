@@ -40,6 +40,10 @@ source-outlook = Внасяне от { app-name-outlook }
 source-outlook-description = Внасяне на профили, адресници и съобщения от { app-name-outlook }.
 source-becky = Внасяне от { app-name-becky }
 source-becky-description = Внасяне на  адресници и съобщения от { app-name-becky }.
+source-apple-mail = Внасяне от { app-name-apple-mail }
+source-apple-mail-description = Внасяне на съобщения от { app-name-apple-mail }
+source-file2 = Внасяне от файл
+source-file-description = Избор на файл за внасяне  на адресници, календари или резервно копие на профил (ZIP файл).
 
 ## Import from file selections
 
