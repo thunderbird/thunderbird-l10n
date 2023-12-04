@@ -155,6 +155,8 @@ toolbar-import-contacts =
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Přidat místní složku kontaktů
 toolbar-new-address-book-popup-add-carddav-address-book =
     .label = Přidat složku kontaktů CardDAV
 toolbar-new-address-book-popup-add-ldap-address-book =
