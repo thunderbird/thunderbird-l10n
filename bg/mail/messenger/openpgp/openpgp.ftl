@@ -119,14 +119,127 @@ openpgp-key-man-copy-fprs =
            *[other] Копиране на пръстовите отпечатъци в клипборда
         }
     .accesskey = п
+openpgp-key-man-ctx-expor-to-file-label =
+    .label = Изнасяне на ключовете във файл
+openpgp-key-man-ctx-copy =
+    .label = Копиране
+    .accesskey = К
+# Variables:
+# $count (Number) - Number of fingerprints.
+openpgp-key-man-ctx-copy-fprs =
+    .label =
+        { $count ->
+            [one] Отпечатъци
+           *[other] Отпечатъци
+        }
+    .accesskey = О
+# Variables:
+# $count (Number) - Number of key ids.
+openpgp-key-man-ctx-copy-key-ids =
+    .label =
+        { $count ->
+            [one] Идентификатор (ID) на ключ
+           *[other] Идентификатор (ID) на ключoве
+        }
+    .accesskey = И
+# Variables:
+# $count (Number) - Number of public keys.
+openpgp-key-man-ctx-copy-public-keys =
+    .label =
+        { $count ->
+            [one] Публичен ключ
+           *[other] Публични ключове
+        }
+    .accesskey = П
 openpgp-key-man-close =
     .label = Затваряне
 openpgp-key-man-reload =
     .label = Презареждане на кеша на ключовете
     .accesskey = ж
+openpgp-key-man-change-expiry =
+    .label = Промяна на датата на изтичане
+    .accesskey = П
+openpgp-key-man-refresh-online =
+    .label = Онлайн обновяване
+    .accesskey = О
+openpgp-key-man-ignored-ids =
+    .label = Адреси за е-поща
+openpgp-key-man-del-key =
+    .label = Изтриване на ключ
+    .accesskey = И
+openpgp-delete-key =
+    .label = Изтриване на ключ
+    .accesskey = И
+openpgp-key-man-revoke-key =
+    .label = Отмяна на ключ
+    .accesskey = О
+openpgp-key-man-key-props =
+    .label = Свойства на ключа
+    .accesskey = С
+openpgp-key-man-key-more =
+    .label = Повече
+    .accesskey = П
+openpgp-key-man-view-photo =
+    .label = Идентификатор със снимка
+    .accesskey = С
+openpgp-key-man-ctx-view-photo-label =
+    .label = Преглед на идентификатора със снимка
+openpgp-key-man-show-invalid-keys =
+    .label = Показване на невалидни ключове
+    .accesskey = П
+openpgp-key-man-show-others-keys =
+    .label = Показване на ключове от други хора
+    .accesskey = д
+openpgp-key-man-user-id-label =
+    .label = Име
+openpgp-key-man-fingerprint-label =
+    .label = Пръстов отпечатък
 openpgp-key-man-select-all =
     .label = Избиране на всички ключове
     .accesskey = в
+openpgp-key-man-empty-tree-tooltip =
+    .label = Въведете понятия за търсене в полето по-горе
+openpgp-key-man-nothing-found-tooltip =
+    .label = Няма ключове, които отговарят на вашите думи за търсене
+openpgp-key-man-please-wait-tooltip =
+    .label = Моля, изчакайте, докато ключовете се зареждат...
+openpgp-key-man-filter-label =
+    .placeholder = Търсене на ключове
+openpgp-key-man-select-all-key =
+    .key = А
+openpgp-key-man-key-details-key =
+    .key = О
+openpgp-ign-addr-intro = Приемане на използването на този ключ за следните избрани имейл адреси:
+openpgp-key-details-doc-title = Свойства на ключа
+openpgp-key-details-signatures-tab =
+    .label = Сертификати
+openpgp-key-details-structure-tab =
+    .label = Структура
+openpgp-key-details-uid-certified-col =
+    .label = Потребителско име / Удостоверено от
+openpgp-key-details-key-id-label = Идентификатор на ключ
+openpgp-key-details-user-id3-label = Заявен собственик на ключ
+openpgp-key-details-id-label =
+    .label = ID
+openpgp-key-details-key-type-label = Вид
+openpgp-key-details-key-part-label =
+    .label = Ключова част
+openpgp-key-details-attr-ignored = Предупреждение: Този ключ може да не работи според очакванията, тъй като някои от свойствата му не са безопасни и може да бъдат игнорирани.
+openpgp-key-details-attr-upgrade-sec = Трябва да надстроите необезопасените свойства.
+openpgp-key-details-attr-upgrade-pub = Трябва да помолите собственика на този ключ да надстрои необезопасените свойства.
+openpgp-key-details-upgrade-unsafe =
+    .label = Надстрока на необезопасените свойства
+    .accesskey = { "" }
+openpgp-key-details-upgrade-ok = Ключът бе надстроен успешно. Трябва да споделите надстроения публичен ключ с вашите кореспонденти.
+openpgp-key-details-algorithm-label =
+    .label = Алгоритъм
+openpgp-key-details-size-label =
+    .label = Размер
+openpgp-key-details-created-label =
+    .label = Дата на създаване
+openpgp-key-details-created-header = Дата на създаване
+openpgp-key-details-expiry-label =
+    .label = Дата на изтичане
 openpgp-card-details-close-window-label =
     .buttonlabelaccept = Затваряне
 
