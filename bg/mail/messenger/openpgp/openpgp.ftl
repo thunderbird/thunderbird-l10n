@@ -240,11 +240,56 @@ openpgp-key-details-created-label =
 openpgp-key-details-created-header = Дата на създаване
 openpgp-key-details-expiry-label =
     .label = Дата на изтичане
+openpgp-key-details-expiry-header = Дата на изтичане
+openpgp-key-details-usage-label =
+    .label = Употреба
+openpgp-key-details-fingerprint-label = Пръстов отпечатък
+openpgp-key-details-legend-secret-missing = За ключове, маркирани с (!), секретният ключ не е наличен.
+openpgp-key-details-sel-action =
+    .label = Избор на действие...
+    .accesskey = д
 openpgp-card-details-close-window-label =
     .buttonlabelaccept = Затваряне
+openpgp-acceptance-label =
+    .label = Приемане на ключ
+openpgp-acceptance-rejected-label =
+    .label = Не, отхвърлете този ключ.
+openpgp-acceptance-undecided-label =
+    .label = Още не, може би по-късно.
+openpgp-acceptance-unverified-label =
+    .label = Да, но не съм проверил дали това е правилният ключ.
+openpgp-acceptance-verified-label =
+    .label = Да, проверих лично, че този ключ има правилния пръстов отпечатък.
+key-accept-personal =
+    За този ключ имате както публичната, така и секретната част. Можете да го използвате като личен ключ.
+    Ако този ключ ви е даден от някой друг, не го използвайте като личен ключ.
+openpgp-personal-no-label =
+    .label = Не, не го използвай като мой личен ключ.
+openpgp-personal-yes-label =
+    .label = Да, третирайте този ключ като личен ключ.
+openpgp-passphrase-protection =
+    .label = Защита с фраза за достъп
+openpgp-passphrase-status-unprotected = Незащитен
+openpgp-passphrase-status-primary-password = Защитен от основната парола на { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Защитен с фраза за достъп
+openpgp-passphrase-instruction-unprotected = Задайте фраза за достъп, за да защитите този ключ
+openpgp-passphrase-instruction-primary-password = Като алтернатива, защитете този ключ с отделна фраза за достъп
+openpgp-passphrase-instruction-user-passphrase = Отключете този ключ, за да промените защитата му.
+openpgp-passphrase-unlock = Отключване
+openpgp-passphrase-unlocked = Ключът е успешно отключен.
+openpgp-remove-protection = Премахване на защитата с фраза за достъп
+openpgp-use-primary-password = Премахване на фразата за достъп и смяна на защитата  с основна парола
+openpgp-passphrase-new = Нова фраза за достъп
+openpgp-passphrase-new-repeat = Потвърдете фразата за достъп
+openpgp-passphrase-set = Задаване на фраза за достъп
+openpgp-passphrase-change = Промяна на фразата за достъп
+openpgp-copy-cmd-label =
+    .label = Копиране
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = { -brand-short-name } няма личен OpenPGP ключ за <b>{ $identity }</b>
 e2e-learn-more = Научете повече
 
 ## OpenPGP Key selection area
