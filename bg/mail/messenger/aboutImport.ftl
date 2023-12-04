@@ -13,12 +13,33 @@ import-start-description = Избор на източника, от който �
 import-from-app = Внасяне от приложение
 import-file = Внасяне от файл
 import-file-title = Изберете файл, за да внесете съдържанието му.
+import-file-description = Изберете да внесете предварително архивиран профил, адресни книги или календари.
+import-address-book-title = Внасяне на файл с адресник
+import-calendar-title = Внасяне на календарен файл
+export-profile = Изнасяне
 
 ## Buttons
 
+button-back = Назад
+button-continue = Продължаване
+button-export = Изнасяне
+button-finish = Завършване
 
 ## Import from app steps
 
+app-name-thunderbird = Thunderbird
+app-name-seamonkey = SeaMonkey
+app-name-outlook = Outlook
+app-name-becky = Becky! Internet Mail
+app-name-apple-mail = Apple Mail
+source-thunderbird = Внасяне от друга инсталация на { app-name-thunderbird }
+source-thunderbird-description = Внасяне на настройки, филтри, съобщения и други данни от профил на { app-name-thunderbird }.
+source-seamonkey = Внасяне от инсталация на { app-name-seamonkey }
+source-seamonkey-description = Внасяне на настройки, филтри, съобщения и други данни от профил на { app-name-seamonkey }
+source-outlook = Внасяне от { app-name-outlook }
+source-outlook-description = Внасяне на профили, адресници и съобщения от { app-name-outlook }.
+source-becky = Внасяне от { app-name-becky }
+source-becky-description = Внасяне на  адресници и съобщения от { app-name-becky }.
 
 ## Import from file selections
 
