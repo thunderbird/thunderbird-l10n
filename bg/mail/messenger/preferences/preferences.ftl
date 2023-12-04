@@ -4,18 +4,74 @@
 
 close-button =
     .aria-label = Затваряне
+preferences-doc-title2 = Настройки
+category-list =
+    .aria-label = Категории
+pane-general-title = Основни
+category-general =
+    .tooltiptext = { pane-general-title }
 pane-compose-title = Съставяне
 category-compose =
     .tooltiptext = Съставяне
+pane-privacy-title = Поверителност и сигурност
+category-privacy =
+    .tooltiptext = Поверителност и сигурност
 pane-chat-title = Разговори
 category-chat =
     .tooltiptext = Разговори
 pane-calendar-title = Календар
 category-calendar =
     .tooltiptext = Календар
+pane-sync-title = Синхронизиране
+category-sync =
+    .tooltiptext = Синхронизиране
+general-language-and-appearance-header = Език и външен вид
+general-incoming-mail-header = Входящи писма
+general-files-and-attachment-header = Файлове и прикачени файлове
+general-tags-header = Етикети
+general-reading-and-display-header = Четене и показване
+general-updates-header = Обновявания
+general-network-and-diskspace-header = Мрежа и дисково пространство
+general-indexing-label = Индексиране
+composition-category-header = Съставяне на писма
+composition-attachments-header = Прикачени файлове
+composition-spelling-title = Правопис
+compose-html-style-title = HTML стил
+composition-addressing-header = Адресиране
+privacy-main-header = Поверителност
+privacy-passwords-header = Пароли
+privacy-junk-header = Нежелана поща
+collection-header = Събиране и използване на данни от { -brand-short-name }
+collection-description = Стремим се да ви предоставяме възможност и да събираме само толкова, колкото ни е необходимо, за да предоставяме и подобряваме { -brand-short-name } за всички. Винаги искаме разрешение преди да получим лична информация.
+collection-privacy-notice = Политика на поверителност
+collection-health-report-telemetry-disabled = Вече не позволявате на { -vendor-short-name } да събира технически данни и данни за взаимодействията. Всички стари данни ще бъдат изтрити в рамките на 30 дни.
 collection-health-report-telemetry-disabled-link = Научете повече
+collection-health-report =
+    .label = Разрешаване на { -brand-short-name } да изпраща технически данни и данни за взаимодействие до { -vendor-short-name }
+    .accesskey = Р
 collection-health-report-link = Научете повече
+# This message is displayed above disabled data sharing options in developer builds
+# or builds with no Telemetry support available.
+collection-health-report-disabled = Докладването да данни е изключено за тази конфигурация на изданието
+collection-backlogged-crash-reports =
+    .label = Разрешаване на { -brand-short-name } да изпраща натрупани доклади за сривове от ваше име
+    .accesskey = д
 collection-backlogged-crash-reports-link = Научете повече
+privacy-security-header = Защита
+privacy-scam-detection-title = Откриване на измама
+privacy-anti-virus-title = Борба с вируси
+privacy-certificates-title = Сертификати
+chat-pane-header = Разговори
+chat-status-title = Състояние
+chat-notifications-title = Известия
+chat-pane-styling-header = Стайлинг
+choose-messenger-language-description = Изберете езиците, използвани за показване на менюта, съобщения и известия от { -brand-short-name }.
+manage-messenger-languages-button =
+    .label = Допълнителни езици…
+    .accesskey = е
+confirm-messenger-language-change-description = Рестартирайте { -brand-short-name }, за да бъдат приложени промените
+confirm-messenger-language-change-button = Прилагане и рестартиране
+update-setting-write-failure-title = Грешка при запазване на настройките за обновяване
 # Variables:
 #   $path (String) - Path to the configuration file
 # The newlines between the main text and the line containing the path is
@@ -26,9 +82,26 @@ update-setting-write-failure-message =
     Обърнете внимание, че задаването на тази настройка за обновяване изисква права за запис във файла по-долу. Вие или системен администратор може да успеете да разрешите проблема, като предоставите на групата потребители пълни права над файла.
     
     Във файлa „{ $path }“ не може да бъде записвано.
+update-in-progress-title = Обновяване в процес на изпълнение
+update-in-progress-message = Желаете ли { -brand-short-name } да продължи с обновяването?
+update-in-progress-ok-button = &Отхвърляне
+# Continue is the cancel button so pressing escape or using a platform standard
+# method of closing the UI will not discard the update.
+update-in-progress-cancel-button = &Продължаване
+account-button = Настройки на регистрация
+open-addons-sidebar-button = Добавки и теми
 
 ## OS Authentication dialog
 
+# This message can be seen by trying to add a Primary Password.
+primary-password-os-auth-dialog-message-win = За да създадете основна парола, въведете идентификационните си данни за вход в Windows. Това помага за защитата на сигурността на вашите профили.
+# This message can be seen by trying to add a Primary Password.
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to "
+# and includes subtitle of "Enter password for the user "xxx" to allow this." These
+# notes are only valid for English. Please test in your locale.
+primary-password-os-auth-dialog-message-macosx = създаде основна парола
+# Don't change this label.
+master-password-os-auth-dialog-caption = { -brand-full-name }
 
 ## General Tab
 
@@ -47,6 +120,18 @@ restore-default-label =
     .label = Възстановяване
     .accesskey = В
 default-search-engine = Стандартна търсеща машина
+add-web-search-engine =
+    .label = Добавяне…
+    .accesskey = Д
+remove-search-engine =
+    .label = Премахване
+    .accesskey = П
+add-opensearch-provider-title = Добяване на OpenSearch доставчик
+add-opensearch-provider-text = Въвеждане на URL адреса на доставчика на OpenSearch. Използвайте директния URL на файла с описание на OpenSearch, или URL, където може да бъде автоматично открит.
+adding-opensearch-provider-failed-title = Неуспешно добавяне на OpenSearch доставчик
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
+adding-opensearch-provider-failed-text = Невъзможно е да се добави OpenSearch доставчик за { $url }.
 new-message-arrival = При пристигане на ново писмо:
 mail-play-sound-label =
     .label =
@@ -392,20 +477,9 @@ third-party-never =
     .label = Никога
 third-party-visited =
     .label = От посетените
-keep-label =
-    .value = Задържане до:
-    .accesskey = З
-keep-expire =
-    .label = загуба на валидност
-keep-close =
-    .label = затваряне на { -brand-short-name }
-keep-ask =
-    .label = питане всеки път
 cookies-button =
     .label = Показване на бисквитките…
     .accesskey = П
-learn-button =
-    .label = Научете повече
 dnt-learn-more-button =
     .value = Научете повече
 passwords-description = { -brand-short-name } може да запомни паролите на всичките ви регистрации.
