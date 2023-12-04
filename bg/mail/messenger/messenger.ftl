@@ -306,6 +306,10 @@ decrypt-and-copy-failures-multiple =
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Лента с инструменти на пространства
+    .aria-label = Лента с инструменти на пространства
+    .aria-description = Вертикална лента за смяна между различните пространства. Използвайте клавишните стрелки за навигация.
 spaces-toolbar-button-mail2 =
     .title = Поща
 spaces-toolbar-button-address-book2 =

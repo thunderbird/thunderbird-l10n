@@ -151,20 +151,34 @@
 <!ENTITY calendar.context.attendance.dontsend.label             "Без изпращане на известие">
 <!ENTITY calendar.context.attendance.dontsend.accesskey         "Б">
 
+<!ENTITY calendar.context.attendance.occ.accepted.accesskey     "А">
 <!ENTITY calendar.context.attendance.occ.accepted.label         "Приемане">
+<!ENTITY calendar.context.attendance.occ.tentative.accesskey    "г">
 <!ENTITY calendar.context.attendance.occ.tentative.label        "Условно приемане">
+<!ENTITY calendar.context.attendance.occ.declined.accesskey     "с">
 <!ENTITY calendar.context.attendance.occ.declined.label         "Отказан">
+<!ENTITY calendar.context.attendance.occ.delegated.accesskey    "п">
 <!ENTITY calendar.context.attendance.occ.delegated.label        "Делегиран">
+<!ENTITY calendar.context.attendance.occ.needsaction.accesskey  "о">
 <!ENTITY calendar.context.attendance.occ.needsaction.label      "Все още се нуждае от действие">
+<!ENTITY calendar.context.attendance.occ.inprogress.accesskey   "В">
 <!ENTITY calendar.context.attendance.occ.inprogress.label       "Изпълнява се">
+<!ENTITY calendar.context.attendance.occ.completed.accesskey    "Г">
 <!ENTITY calendar.context.attendance.occ.completed.label        "Завършено">
 
+<!ENTITY calendar.context.attendance.all.accepted.accesskey     "п">
 <!ENTITY calendar.context.attendance.all.accepted.label         "Приемане">
+<!ENTITY calendar.context.attendance.all.tentative.accesskey    "у">
 <!ENTITY calendar.context.attendance.all.tentative.label        "Условно приемане">
+<!ENTITY calendar.context.attendance.all.declined.accesskey     "о">
 <!ENTITY calendar.context.attendance.all.declined.label         "Отказано">
+<!ENTITY calendar.context.attendance.all.delegated.accesskey    "л">
 <!ENTITY calendar.context.attendance.all.delegated.label        "Делегирано">
+<!ENTITY calendar.context.attendance.all.needsaction.accesskey  "в">
 <!ENTITY calendar.context.attendance.all.needsaction.label      "Все още се нуждае от действие">
+<!ENTITY calendar.context.attendance.all.inprogress.accesskey   "п">
 <!ENTITY calendar.context.attendance.all.inprogress.label       "Изпълнява се">
+<!ENTITY calendar.context.attendance.all.completed.accesskey    "п">
 <!ENTITY calendar.context.attendance.all.completed.label        "Завършено">
 
 <!-- Task Context Menu -->

@@ -5,6 +5,12 @@
 saved-logins =
     .title = Запазени регистрации
 saved-logins-title = Запазени регистрации
+window-close =
+    .key = п
+focus-search-primary-shortcut =
+    .key = н
+focus-search-alt-shortcut =
+    .key = с
 copy-provider-url-cmd =
     .label = Копиране на URL
     .accesskey = К
