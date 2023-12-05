@@ -10,6 +10,8 @@ account-setup-title = Настройте своя съществуваща по�
 account-setup-description = За да използвате текущия си електронен адрес, попълнете идентификационните си данни.
 account-setup-secondary-description = { -brand-product-name } автоматично ще търси работеща и препоръчана сървърна конфигурация.
 account-setup-success-title = Профилът е създаден успешно
+account-setup-success-description = Вече можете да използвате този акаунт с { -brand-short-name }.
+account-setup-success-secondary-description = Можете да подобрите изживяването си, като свържете  услуги и конфигурирате разширените настройки на профила.
 
 ## Form fields
 
@@ -18,6 +20,8 @@ account-setup-name-label = Вашето цяло име
 # Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
 account-setup-name-input =
     .placeholder = Иван Иванов
+account-setup-name-info-icon =
+    .title = Вашето име, както ще го видят другите
 account-setup-name-warning-icon =
     .title = Моля, въведете името си
 account-setup-email-label = Електронен адрес:
@@ -26,37 +30,120 @@ account-setup-email-input =
     .placeholder = ivan.ivanov@example.com
 account-setup-email-info-icon =
     .title = Вашият съществуващ адрес на ел. поща
+account-setup-email-warning-icon =
+    .title = Недействителен адрес на ел. поща
 account-setup-password-label = Парола
     .accesskey = П
     .title = { "" }
 account-provisioner-button = Получете нов електронен адрес
     .accesskey = П
+account-setup-password-toggle-show =
+    .title = Показване на паролата в ясен текст
+account-setup-password-toggle-hide =
+    .title = Скриване на паролата
 account-setup-remember-password = Запазване на паролата
     .accesskey = З
+account-setup-exchange-label = Потребителско име
+    .accesskey = П
 #   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
 account-setup-exchange-input =
     .placeholder = YOURDOMAIN\yourusername
+#   Domain refers to the Windows domain in ActiveDirectory. We mean the user's login in Windows at the local corporate network.
+account-setup-exchange-info-icon =
+    .title = Вход в домейн
 
 ## Action buttons
 
 account-setup-button-cancel = Прекъсване
     .accesskey = П
+account-setup-button-manual-config = Ръчна конфигурация
+    .accesskey = Р
+account-setup-button-stop = Спиране
+    .accesskey = С
+account-setup-button-retest = Повторен тест
+    .accesskey = П
 account-setup-button-continue = Продължаване
     .accesskey = р
+account-setup-button-done = Готово
+    .accesskey = Г
 
 ## Notifications
 
+account-setup-looking-up-settings = Търсене на настройки…
+account-setup-looking-up-settings-guess = Търсене на конфигурация: Изпробване на обичайни имена на сървъри…
+account-setup-looking-up-settings-half-manual = Търсене на конфигурация: Изпробване на сървър…
+account-setup-looking-up-disk = Търсене  на конфигурация: { -brand-short-name } инсталация…
+account-setup-looking-up-isp = Търсене на конфигурация: Доставчик на е-поща
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-looking-up-db = Търсене на конфигурация: База от данни на Mozilla за доставчици…
+account-setup-looking-up-mx = Търсене на настройки: Домейн за входяща поща…
+account-setup-looking-up-exchange = Търсене на конфигурация: Сървър на Exchange…
+account-setup-checking-password = Проверяване на паролата…
 account-setup-installing-addon = Добавката се изтегля и инсталира...
+account-setup-success-half-manual = Следните настройки бяха открити при запитване на този сървър:
+account-setup-success-guess = Открита е конфигурация чрез изпробване на приети имена на сървъри.
+account-setup-success-guess-offline = Вие сте извън линия. Предположихме и попълнихме част от настройките, но сега ще трябва да въведете верните настройки.
+account-setup-success-password = Паролата е правилна!
+account-setup-success-addon = Добавката е инсталирана успешно.
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-success-settings-db = Открита е конфигурация в базата от данни за интернет доставчици на Мозила
+account-setup-success-settings-disk = Намерена конфигурация при инсталация на { -brand-short-name }.
+account-setup-success-settings-isp = Намерена конфигурация при доставчик на е-поща.
+# Note: Microsoft Exchange is a product name.
+account-setup-success-settings-exchange = Намерена конфигурация за Microsoft Exchange сървър.
 
 ## Illustrations
 
+account-setup-step1-image =
+    .title = Първоначалната настройка
+account-setup-step2-image =
+    .title = Зареждане…
+account-setup-step3-image =
+    .title = Намерена конфигурация
+account-setup-step4-image =
+    .title = Грешка при свързване
+account-setup-step5-image =
+    .title = Създаден профил
 account-setup-privacy-footnote2 = Вашите идентификационни данни ще се съхраняват само локално на вашия компютър.
+account-setup-selection-help = Не сте сигурни какво да изберете?
+account-setup-selection-error = Имате ли нужда от помощ?
+account-setup-success-help = Не сте сигурни за следващите си стъпки?
+account-setup-documentation-help = Документация за настройка
+account-setup-forum-help = Форум за поддръжка
+account-setup-privacy-help = Политика на поверителност
+account-setup-getting-started = Първи стъпки
 
 ## Results area
 
+# Variables:
+#  $count (Number) - Number of available protocols.
+account-setup-results-area-title =
+    { $count ->
+        [one] достъпна конфигурация
+       *[other] достъпни конфигурации
+    }
+account-setup-result-imap-description = Поддържайте вашите папки и имейли синхронизирани на вашия сървър
+account-setup-result-pop-description = Поддържайте вашите папки и имейли  на вашия сървър
+# Note: Exchange, Office365 are the name of products.
+account-setup-result-exchange2-description = Използвайте сървъра на Microsoft Exchange или облачните услуги на Office365
+account-setup-incoming-title = Входяща
+account-setup-outgoing-title = Изходяща
+account-setup-username-title = Потребителско име
+account-setup-exchange-title = Сървър
+account-setup-result-no-encryption = Без шифроване
+account-setup-result-ssl = SSL/TLS
+account-setup-result-starttls = STARTTLS
+account-setup-result-outgoing-existing = Използване на съществуващ изходящ SMTP сървър
+# Variables:
+#  $incoming (String): The email/username used to log into the incoming server
+#  $outgoing (String): The email/username used to log into the outgoing server
+account-setup-result-username-different = Входящи: { $incoming }, Изходящи: { $outgoing }
 
 ## Error messages
 
+# Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
+account-setup-credentials-incomplete = Неуспешна идентификация. Или въведените идентификационни данни са неправилни, или е необходимо отделно потребителско име за влизане. Това потребителско име обикновено е вашето за влизане в домейна на Windows със или без домейна (например janedoe или AD\\janedoe)
+account-setup-credentials-wrong = Грешка при удостоверяване. Моля, проверете потребителското име и паролата.
 
 ## Manual configuration area
 
