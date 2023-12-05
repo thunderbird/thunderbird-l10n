@@ -152,13 +152,61 @@ about-addressbook-confirm-remove-contacts-title =
         [one] Премахване на контакт
        *[other] Премахване на контакт
     }
+# Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Сигурни ли сте, че искате да премахнете { $name } от { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Сигурни ли сте, че искате да премахнете този контакт от { $list }?
+       *[other] Сигурни ли сте, че искате да премахнете тези { $count } контакта от { $list }?
+    }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title =
+    { $count ->
+        [one] Изтриване на контакт
+       *[other] Изтриване на контакти
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Сигурни ли сте, че искате да изтриете контакта { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Сигурни ли сте, че искате да изтриете този контакт?
+       *[other] Сигурни ли сте, че искате да изтриете тези { $count } контакта?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Няма налични контакти
+about-addressbook-placeholder-new-contact = Нов контакт
+about-addressbook-placeholder-search-only = Този адресник показва контакти само след търсене
+about-addressbook-placeholder-searching = Търсене…
+about-addressbook-placeholder-no-search-results = Няма намерени контакти
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] един избран запис в адресника
+       *[other] { $count } избрани записа в адресника
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } избран контакт
+       *[other] { $count } избрани контакти
+    }
 
 # Photo dialog
 

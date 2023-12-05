@@ -5,6 +5,8 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Превключва лентата за бързо търсене
 quick-filter-button-label = Бърз филтър
 thread-pane-header-display-button =
     .title = Опции за показване на списък със съобщения
@@ -378,8 +380,25 @@ threadpane-message-replied =
 threadpane-message-redirected =
     .alt = Индикатор за пренасочване
     .title = Съобщението е пренасочено
+threadpane-message-forwarded =
+    .alt = Индикатор за препращане
+    .title = Съобщението е препратено
+threadpane-message-replied-forwarded =
+    .alt = Индикатор за отговор и препращане
+    .title = Съобщението е отговорено и препратено
+threadpane-message-replied-redirected =
+    .alt = Индикатор за отговор и пренасочване
+    .title = Съобщението е отговорено и пренасочено
+threadpane-message-forwarded-redirected =
+    .alt = Индикатор за препращане и пренасочване
+    .title = Съобщението е препратено и пренасочено
+threadpane-message-replied-forwarded-redirected =
+    .alt = Индикатор за отговор, препращане и пренасочване
+    .title = Съобщението е отговорено, препратено и пренасочено
 apply-columns-to-menu =
     .label = Прилагане на колоните към…
+apply-current-view-to-menu =
+    .label = Прилагане на текущия изглед към...
 apply-current-view-to-folder =
     .label = Папка…
 apply-current-view-to-folder-children =
@@ -387,9 +406,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Прилагане на промените?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Прилагане на сегашните колони на папката към { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Прилагане на сегашните колони на папката към { $name } и подпапките й?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Прилагане на изгледа на текущата папка към { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Прилагане на изгледа на текущата папка към { $name } и подпапките ѝ?
