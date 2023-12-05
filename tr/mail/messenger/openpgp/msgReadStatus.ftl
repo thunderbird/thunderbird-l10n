@@ -28,6 +28,10 @@ openpgp-invalid-sig = Geçersiz dijital imza
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Geçersiz dijital imza - { $date } tarihinde imzalandı
+openpgp-bad-date-sig = İmza tarihi eşleşmiyor
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = İmza tarihi eşleşmiyor - { $date } tarihinde imzalandı
 openpgp-good-sig = İyi dijital imza
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.

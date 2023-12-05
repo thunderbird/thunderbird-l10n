@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Çerezler
+cookies-dialog-title = Çerezler
 window-close-key =
     .key = w
 window-focus-search-key =
