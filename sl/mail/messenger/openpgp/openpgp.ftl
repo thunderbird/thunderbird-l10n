@@ -405,6 +405,9 @@ keyserver-error-unsupported = Strežnik ključev ni podprt.
 
 ## Strings in mimeWkdHandler.jsm
 
+wkd-message-body-req =
+    Vaš ponudnik e-pošte je obdelal vašo zahtevo za prenos vašega javnega ključa v OpenPGP Web Key Directory.
+    Prosimo, potrdite, da dokončate objavo vašega javnega ključa.
 
 ## Strings in persistentCrypto.jsm
 
