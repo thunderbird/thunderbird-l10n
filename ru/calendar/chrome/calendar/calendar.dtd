@@ -58,38 +58,8 @@
 <!ENTITY calendar.today.button.tooltip          "Перейти на сегодня" >
 <!ENTITY calendar.todaypane.button.tooltip      "Показать мероприятия на сегодня" >
 
-<!ENTITY calendar.day.button.tooltip            "Перейти к обзору дня" >
-<!ENTITY calendar.week.button.tooltip           "Перейти к обзору недели" >
-<!ENTITY calendar.month.button.tooltip          "Перейти к обзору месяца" >
-<!ENTITY calendar.multiweek.button.tooltip      "Перейти к обзору по неделям" >
-
-<!ENTITY calendar.nextday.label                 "Следующий день" >
-<!ENTITY calendar.prevday.label                 "Предыдущий день" >
-<!ENTITY calendar.nextday.accesskey             "С" >
-<!ENTITY calendar.prevday.accesskey             "П" >
-<!ENTITY calendar.nextweek.label                "Следующая неделя" >
-<!ENTITY calendar.prevweek.label                "Предыдущая неделя" >
-<!ENTITY calendar.nextweek.accesskey            "С" >
-<!ENTITY calendar.prevweek.accesskey            "П" >
-<!ENTITY calendar.nextmonth.label               "Следующий месяц" >
-<!ENTITY calendar.prevmonth.label               "Предыдущий месяц" >
-<!ENTITY calendar.nextmonth.accesskey           "С" >
-<!ENTITY calendar.prevmonth.accesskey           "П" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "На один день вперёд" >
-<!ENTITY calendar.navigation.prevday.tooltip    "На один день назад" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "На одну неделю вперёд" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "На одну неделю назад" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "На один месяц вперёд" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "На один месяц назад" >
-
 <!ENTITY calendar.newevent.button.label         "Новое событие" >
 <!ENTITY calendar.newtask.button.label          "Новая задача" >
-
-<!ENTITY calendar.day.button.label              "День" >
-<!ENTITY calendar.week.button.label             "Неделя" >
-<!ENTITY calendar.month.button.label            "Месяц" >
-<!ENTITY calendar.multiweek.button.label        "По неделям" >
 
 <!ENTITY calendar.onlyworkday.checkbox.label    "Только рабочие дни" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "Т" >
@@ -165,7 +135,7 @@
 <!ENTITY calendar.context.deleteevent.accesskey       "б">
 <!ENTITY calendar.context.cutevent.label              "Вырезать">
 <!ENTITY calendar.context.cutevent.accesskey          "В">
-<!ENTITY calendar.context.copyevent.label             "Скопировать">
+<!ENTITY calendar.context.copyevent.label             "Копировать">
 <!ENTITY calendar.context.copyevent.accesskey         "К">
 <!ENTITY calendar.context.pasteevent.label            "Вставить">
 <!ENTITY calendar.context.pasteevent.accesskey        "ь">
@@ -251,7 +221,7 @@
 <!ENTITY calendar.context.postpone.1week.label      "1 неделю">
 <!ENTITY calendar.context.postpone.1week.accesskey  "н">
 
-<!ENTITY calendar.copylink.label       "Скопировать ссылку">
+<!ENTITY calendar.copylink.label       "Копировать ссылку">
 <!ENTITY calendar.copylink.accesskey   "К">
 
 <!-- Task View -->
@@ -275,8 +245,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "е">
 <!ENTITY calendar.context.unsubscribeserver.label      "Отписаться от календаря…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "п">
-<!ENTITY calendar.context.synccalendars.label          "Синхронизировать календари">
-<!ENTITY calendar.context.synccalendars.accesskey      "и">
 <!ENTITY calendar.context.publish.label                "Опубликовать календарь…">
 <!ENTITY calendar.context.publish.accesskey            "к">
 <!ENTITY calendar.context.export.label                 "Экспортировать календарь…">

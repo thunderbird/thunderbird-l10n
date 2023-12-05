@@ -26,7 +26,7 @@
 <!ENTITY account.edit.accesskey       "в">
 <!ENTITY account.cancelReconnection.label         "Отменить повторное подключение">
 <!ENTITY account.cancelReconnection.accesskey     "м">
-<!ENTITY account.copyDebugLog.label     "Скопировать лог отладки">
+<!ENTITY account.copyDebugLog.label     "Копировать лог отладки">
 <!ENTITY account.copyDebugLog.accesskey "п">
 <!ENTITY account.connecting           "Подключение…">
 <!ENTITY account.disconnecting        "Отключение…">

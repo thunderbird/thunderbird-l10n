@@ -97,7 +97,7 @@
 <!ENTITY  event.menu.edit.redo.accesskey                  "т">
 <!ENTITY  event.menu.edit.cut.label                       "Вырезать">
 <!ENTITY  event.menu.edit.cut.accesskey                   "В">
-<!ENTITY  event.menu.edit.copy.label                      "Скопировать">
+<!ENTITY  event.menu.edit.copy.label                      "Копировать">
 <!ENTITY  event.menu.edit.copy.accesskey                  "К">
 <!ENTITY  event.menu.edit.paste.label                     "Вставить">
 <!ENTITY  event.menu.edit.paste.accesskey                 "с">
@@ -358,7 +358,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Повторять только" >
 <!ENTITY event.recurrence.appointments.label            "раз" >
 <!ENTITY event.repeat.until.label                       "Повторять до" >
-<!ENTITY event.recurrence.preview.label                 "Предварительный просмотр">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Приглашение участников">

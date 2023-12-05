@@ -36,7 +36,7 @@
 
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Переместить сообщение в">
-<!ENTITY copyMessage.label "Скопировать сообщение в">
+<!ENTITY copyMessage.label "Копировать сообщение в">
 <!ENTITY forwardTo.label "Переслать сообщение на">
 <!ENTITY replyWithTemplate.label "Ответить по шаблону">
 <!ENTITY markMessageRead.label "Отметить как прочитанное">
