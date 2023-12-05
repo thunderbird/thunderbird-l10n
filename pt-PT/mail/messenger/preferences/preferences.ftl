@@ -4,6 +4,7 @@
 
 close-button =
     .aria-label = Fechar
+preferences-doc-title2 = Definições
 category-list =
     .aria-label = Categorias
 pane-general-title = Geral
