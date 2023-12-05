@@ -207,9 +207,63 @@ about-addressbook-selection-contacts-header2 =
         [one] { $count } избран контакт
        *[other] { $count } избрани контакти
     }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } избран списък
+       *[other] { $count } избрани списъка
+    }
+about-addressbook-details-edit-photo =
+    .title = Редактиране на снимка на контакта
+about-addressbook-new-contact-header = Нов контакт
+about-addressbook-prefer-display-name = Винаги се предпочита изобразявано име над заглавката
+about-addressbook-write-action-button = Писане
+about-addressbook-event-action-button = Събитие
+about-addressbook-search-action-button = Търсене
+about-addressbook-new-list-action-button = Нов списък
+about-addressbook-begin-edit-contact-button = Редактиране
+about-addressbook-delete-edit-contact-button = Изтриване
+about-addressbook-cancel-edit-contact-button = Отказ
+about-addressbook-save-edit-contact-button = Запазване
+about-addressbook-add-contact-to = Добавяне към:
+about-addressbook-details-email-addresses-header = Имейл адрес
+about-addressbook-details-phone-numbers-header = Телефонен номер
+about-addressbook-details-addresses-header = Адреси
+about-addressbook-details-notes-header = Бележки
+about-addressbook-details-impp-header = Незабавни съобщения
+about-addressbook-details-websites-header = Уебсайтове
+about-addressbook-details-other-info-header = Друга информация
+about-addressbook-entry-type-work = Служебен
+about-addressbook-entry-type-home = Домашен
+about-addressbook-entry-type-fax = Факс
+# Or "Mobile"
+about-addressbook-entry-type-cell = Мобилен
+about-addressbook-entry-type-pager = Пейджър
+about-addressbook-entry-name-birthday = Рожден ден
+about-addressbook-entry-name-anniversary = Годишнина
+about-addressbook-entry-name-title = Длъжност
+about-addressbook-entry-name-role = Роля
+about-addressbook-entry-name-organization = Организация
+about-addressbook-entry-name-website = Уебсайт
+about-addressbook-entry-name-time-zone = Часови пояс
+about-addressbook-entry-name-custom1 = Друго 1
+about-addressbook-entry-name-custom2 = Друго 2
+about-addressbook-entry-name-custom3 = Друго 3
+about-addressbook-entry-name-custom4 = Друго 4
+about-addressbook-unsaved-changes-prompt-title = Незапазени промени
+about-addressbook-unsaved-changes-prompt = Искате ли да запазите промените си, преди да напуснете изгледа за редактиране?
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = Пуснете или поставете снимка тук или щракнете, за да изберете файл.
+about-addressbook-photo-drop-loading = Зареждане на снимка…
+about-addressbook-photo-drop-error = Неуспешно зареждане на снимката.
+about-addressbook-photo-filepicker-title = Избор на изображение
+about-addressbook-photo-discard = Отхвърляне на съществуващата снимка
+about-addressbook-photo-cancel = Отказ
+about-addressbook-photo-save = Запазване
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = А
