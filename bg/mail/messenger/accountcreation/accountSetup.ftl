@@ -144,37 +144,98 @@ account-setup-result-username-different = Входящи: { $incoming }, Изх�
 # Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
 account-setup-credentials-incomplete = Неуспешна идентификация. Или въведените идентификационни данни са неправилни, или е необходимо отделно потребителско име за влизане. Това потребителско име обикновено е вашето за влизане в домейна на Windows със или без домейна (например janedoe или AD\\janedoe)
 account-setup-credentials-wrong = Грешка при удостоверяване. Моля, проверете потребителското име и паролата.
+account-setup-find-settings-failed = { -brand-short-name } не успя да намери настройки за вашата регистрация.
+account-setup-exchange-config-unverifiable = Конфигурацията не можа да бъде потвърдена. Ако вашето потребителско име и парола са правилни, вероятно администраторът на сървъра е деактивирал избраната конфигурация за вашия прффил. Опитайте да изберете друг протокол.
+account-setup-provisioner-error = Възникна грешка при настройването на новия ви профил в { -brand-short-name }. Моля, опитайте ръчно да настроите акаунта си с вашите идентификационни данни.
 
 ## Manual configuration area
 
+account-setup-manual-config-title = Ръчна конфигурация
+account-setup-incoming-server-legend = Входящ сървър
+account-setup-protocol-label = Протокол:
+account-setup-hostname-label = Име на хост:
+account-setup-port-label = Порт:
+    .title = Задайте 0 за автоматично откриване
+account-setup-auto-description = { -brand-short-name } ще се опита да открие автоматично полета, които са оставени празни.
+account-setup-ssl-label = Сигурност на връзката:
+account-setup-outgoing-server-legend = Изходящ сървър
 
 ## Incoming/Outgoing SSL Authentication options
 
+ssl-autodetect-option = Автоматично разпознаване
+ssl-no-authentication-option = Без удостоверяване
+ssl-cleartext-password-option = Обикновена парола
+ssl-encrypted-password-option = Шифрована парола
 
 ## Incoming/Outgoing SSL options
 
+ssl-noencryption-option = Няма
+account-setup-auth-label = Метод на удостоверяване:
+account-setup-username-label = Потребителско име:
+account-setup-advanced-setup-button = Разширени настройки
+    .accesskey = Р
 
 ## Warning insecure server dialog
 
+account-setup-insecure-title = Внимание!
+account-setup-insecure-incoming-title = Входящи настройки:
+account-setup-insecure-outgoing-title = Изходящи настройки:
+# Variables:
+#  $server (String): The name of the hostname of the server the user was trying to connect to.
+account-setup-warning-cleartext = <b>{ $server }</b> не използва шифроване.
+account-setup-warning-cleartext-details = Незащитените пощенски сървъри не използват шифровани връзки, за да защитят вашите пароли и друга лична информация. Като се свързвате с такъв сървър вие излагате на показ лична информация.
+account-setup-insecure-server-checkbox = Разбирам рисковете
+    .accesskey = Р
+account-setup-insecure-description = { -brand-short-name } може да ви позволи да стигнете до пощата си с помощта на предоставените конфигурации. Трябва обаче да се свържете с вашия администратор или доставчик на имейл относно тези неправилни връзки. Вижте <a data-l10n-name="thunderbird-faq-link">често задавани въпроси за Thunderbird</a> за повече информация.
 insecure-dialog-cancel-button = Промяна на настройките
     .accesskey = р
+insecure-dialog-confirm-button = Потвърждаване
+    .accesskey = П
 
 ## Warning Exchange confirmation dialog
 
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+exchange-dialog-question = { -brand-short-name } намери информация за настройка на вашия профил на { $domain }. Искате ли да продължите и да изпратите идентификационните си данни?
+exchange-dialog-confirm-button = Влизане
 exchange-dialog-cancel-button = Прекъсване
 
 ## Dismiss account creation dialog
 
+exit-dialog-title = Няма конфигуриран имейл акаунт
 exit-dialog-description = Сигурни ли сте, че искате да отмените процеса на настройка? { -brand-short-name } все още може да се използва без електронна поща, но много функции няма да са налични.
+account-setup-no-account-checkbox = Използвайте { -brand-short-name } без имейл акаунт
+    .accesskey = б
+exit-dialog-cancel-button = Продължаване с настройката
+    .accesskey = П
+exit-dialog-confirm-button = Излизане от настройката
+    .accesskey = И
 
 ## Alert dialogs
 
+account-setup-creation-error-title = Грешка при създаване на профил
+account-setup-error-server-exists = Входящият съръвр вече съществува.
+account-setup-confirm-advanced-title = Потвърдете разширените настройки
+account-setup-confirm-advanced-description = Този диалогов прозорец ще бъде затворен и ще бъде създаден профил с текущите настройки, дори ако конфигурацията е неправилна. Искате ли да продължите?
 
 ## Addon installation section
 
+account-setup-addon-install-title = Инсталиране
+account-setup-addon-install-intro = Добавка от трета страна, може да ви позволи да получите достъп до пощенската си сметка на този сървър:
+account-setup-addon-no-protocol = За съжаление този имейл сървър не поддържа отворени протоколи. { account-setup-addon-install-intro }
 
 ## Success view
 
+account-setup-settings-button = Настройки на профил
+account-setup-encryption-button = Шифроване от край до край
+account-setup-signature-button = Добавяне на подпис
+account-setup-dictionaries-button = Изтегляне на речници
+account-setup-address-book-carddav-button = Свързване към CardDAV адресник
+account-setup-address-book-ldap-button = Свързване към LDAP адресник
+account-setup-calendar-button = Свързване към отдалечен календар
+account-setup-linked-services-title = Свързване на свързаните услуги
+account-setup-linked-services-description = { -brand-short-name } откри други услуги, свързани с вашия имейл профил.
+account-setup-no-linked-description = Настройте други услуги, за да извлечете максимума от вашето { -brand-short-name } изживяване.
 
 ## Calendar synchronization dialog
 
