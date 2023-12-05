@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Indicaziun da l'activitad
 toolbar-throbber =
     .title = Indicaziun da l'activitad
+toolbar-create-contact-label = Nov contact
+toolbar-create-contact =
+    .title = Crear in nov contact
+toolbar-create-address-book-label = Nov cudeschet d'adressas
+toolbar-create-address-book =
+    .title = Crear in nov cudeschet d'adressas
+toolbar-create-list-label = Nova glista
+toolbar-create-list =
+    .title = Crear ina nov glista dad e-mail
+toolbar-import-contacts-label = Importar
+toolbar-import-contacts =
+    .title = Importar contacts dad ina datoteca
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Agiuntar in cudeschet d'adressas local
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Agiuntar in cudeschet d'adressas CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Agiuntar in cudeschet d'adressas LDAP

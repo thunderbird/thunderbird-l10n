@@ -28,6 +28,10 @@ openpgp-invalid-sig = Signatura digitala nunvalida
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Signatura digitala nunvalida – Signà ils { $date }
+openpgp-bad-date-sig = Datas divergentas da la signatura
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Datas divergentas da la signatura – Signà ils { $date }
 openpgp-good-sig = Signatura digitala valida
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Quest messadi cuntegna ina signatura digita
 openpgp-sig-uncertain-not-accepted = Quest messadi cuntegna ina signatura digitala, ma ti n'has anc betg decidì sche ti vuls acceptar la clav dal signatari.
 openpgp-sig-invalid-rejected = Quest messadi cuntegna ina signatura digitala, ma ti has decidì pli baud da refusar la clav dal signatari.
 openpgp-sig-invalid-technical-problem = Quest messadi cuntegna ina signatura digitala. Igl è dentant succedida ina errur tecnica. U ch'il messadi è vegnì donnegià u ch'el è vegnì modifitgà dad insatgi auter.
+openpgp-sig-invalid-date-mismatch = Quest messadi cuntegna ina signatura digitala, ma il temp da la signatura na correspunda betg al temp da la spediziun dal messadi dad e-mail. I pudess sa tractar dad in'emprova da t'engianar cun cuntegn dad in auter context: p.ex. cuntegn ch'è vegnì scrit en in auter mument u che sa drizza ad insatgi auter.
 openpgp-sig-valid-unverified = Quest messadi includa ina signatura digitala valida dad ina clav che ti has gia acceptà. Ti n'has dentant anc betg verifitgà che la clav appartegna propi al speditur.
 openpgp-sig-valid-verified = Quest messadi includa ina signatura digitala valida dad ina clav verifitgada.
 openpgp-sig-valid-own-key = Quest messadi includa ina signatura digitala valida da tia clav persunala.
