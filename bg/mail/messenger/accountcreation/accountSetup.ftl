@@ -236,8 +236,57 @@ account-setup-calendar-button = Свързване към отдалечен к�
 account-setup-linked-services-title = Свързване на свързаните услуги
 account-setup-linked-services-description = { -brand-short-name } откри други услуги, свързани с вашия имейл профил.
 account-setup-no-linked-description = Настройте други услуги, за да извлечете максимума от вашето { -brand-short-name } изживяване.
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description =
+    { $count ->
+        [one] { -brand-short-name } намери { $count } адресник, свързан с вашия имейл профил.
+       *[other] { -brand-short-name } намери { $count } адресника, свързани с вашия имейл профил.
+    }
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description =
+    { $count ->
+        [one] { -brand-short-name } намери { $count } календар, свързан с вашия имейл профил.
+       *[other] { -brand-short-name } намери { $count } календара, свързани с вашия имейл профил.
+    }
+account-setup-button-finish = Завършване
+    .accesskey = З
+account-setup-looking-up-address-books = Търсене на адреснци…
+account-setup-looking-up-calendars = Търсене на календари...
+account-setup-address-books-button = Адресници
+account-setup-calendars-button = Календари
+account-setup-connect-link = Свързване
+account-setup-existing-address-book = Свързан
+    .title = Адресникът вече е свързан
+account-setup-existing-calendar = Свързан
+    .title = Календарът вече е свързан
+account-setup-connect-all-calendars = Свързване на всички календари
+account-setup-connect-all-address-books = Свързване на всички адресници
 
 ## Calendar synchronization dialog
 
+calendar-dialog-title = Свързване на календар
 calendar-dialog-cancel-button = Прекъсване
     .accesskey = П
+calendar-dialog-confirm-button = Свързване
+    .accesskey = С
+account-setup-calendar-name-label = Име
+account-setup-calendar-name-input =
+    .placeholder = Моят календар
+account-setup-calendar-color-label = Цвят
+account-setup-calendar-refresh-label = Опресняване
+account-setup-calendar-refresh-manual = Ръчно
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
+account-setup-calendar-refresh-interval =
+    { $count ->
+        [one] На всяка минута
+       *[other] На всеки { $minutes } минути
+    }
+account-setup-calendar-read-only = Само за четене
+    .accesskey = ч
+account-setup-calendar-show-reminders = Показване на припомнянията
+    .accesskey = п
+account-setup-calendar-offline-support = Поддръжка извън мрежата
+    .accesskey = и
