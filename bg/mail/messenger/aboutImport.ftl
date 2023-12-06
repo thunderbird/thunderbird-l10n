@@ -72,9 +72,27 @@ profile-source-named = Внасяне от следния профил -  <stron
 profile-file-picker-directory = Избор на папка за профила
 profile-file-picker-archive = Избор на <strong>ZIP</strong> файл
 profile-file-picker-archive-description = ZIP файлът трябва да е по-малък от 2 GB.
+profile-file-picker-archive-title = Избор на ZIP файл (по-малък от 2 GB)
+items-pane-title2 = Избор на елементи за внасяне:
+items-pane-directory = Папка:
+items-pane-profile-name = Име на профил:
+items-pane-checkbox-accounts = Профили и настройки
+items-pane-checkbox-address-books = Адресници
+items-pane-checkbox-calendars = Календари
+items-pane-checkbox-mail-messages = Писма
+items-pane-override = Всички съществуващи или идентични данни няма да бъдат презаписани.
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Избор на файловия формат, съдържащ данните от вашата адресна книга.
+addr-book-csv-file = Файл, разделен със запетая или табулатор (.csv, .tsv)
+addr-book-ldif-file = LDIF файл (.ldif)
+addr-book-vcard-file = vCard файл (.vcf, .vcard)
+addr-book-sqlite-file = SQLite файл с база данни (.sqlite)
+addr-book-mab-file = Файл с база данни Mork (.mab)
+addr-book-file-picker = Избор на файл с адресник
+addr-book-csv-field-map-title = Съвпадение на имена на полета
+addr-book-csv-field-map-desc = Избор на полетата на адресната книга, съответстващи на изходните полета. Премахнете отметката от полетата, които не искате да внесете.
 
 ## Import from calendar file steps
 
