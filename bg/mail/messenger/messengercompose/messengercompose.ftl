@@ -8,6 +8,18 @@
 compose-send-format-menu =
     .label = Формат за изпращане
     .accesskey = Ф
+compose-send-auto-menu-item =
+    .label = Автоматично
+    .accesskey = А
+compose-send-both-menu-item =
+    .label = Както HTML, така и обикновен текст
+    .accesskey = К
+compose-send-html-menu-item =
+    .label = Само HTML
+    .accesskey = С
+compose-send-plain-menu-item =
+    .label = Само обикновен текст
+    .accesskey = о
 
 ## Addressing widget
 
@@ -36,6 +48,13 @@ pill-tooltip-not-in-address-book = { $email } липсва в адресната
 pill-action-edit =
     .label = Промяна на адрес
     .accesskey = П
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = Избор на  всички адреси в { $type }
+    .accesskey = в
+pill-action-select-all-pills =
+    .label = Избор на всички адреси
+    .accesskey = а
 pill-action-move-to =
     .label = Преместване в „До“
     .accesskey = д
@@ -65,6 +84,10 @@ menuitem-toggle-attachment-pane =
 toolbar-button-add-attachment =
     .label = Прикачване
     .tooltiptext = Добавяне на прикачен файл ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
+add-attachment-notification-reminder2 =
+    .label = Добавяне на прикачен файл
+    .accesskey = п
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 menuitem-attach-files =
     .label = Файлове…
     .accesskey = ф
@@ -73,6 +96,24 @@ context-menuitem-attach-files =
     .label = Прикачане на файлове…
     .accesskey = ф
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = Моята vCard
+    .accesskey = т
+context-menuitem-attach-openpgp-key =
+    .label = Моят публичен ключ на OpenPGP
+    .accesskey = п
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } прикачен файл
+        [one] { $count } прикачени файла
+       *[other] { $count } прикачени файла
+    }
+attachment-area-show =
+    .title = Показва лентата с прикачени файлове ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Скрива лентата с прикачени файлове ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
@@ -104,6 +145,15 @@ button-return-receipt =
 
 ## Encryption
 
+encryption-menu =
+    .label = Защита
+    .accesskey = З
+encryption-toggle =
+    .label = Шифроване
+    .tooltiptext = Използване на шифроване от край до край на това съобщение
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = Преглеждане или промяна на настройките за шифриране на OpenPGP
 
 ## Addressing Area
 
