@@ -114,21 +114,66 @@ calendar-deselect-all-items = Демаркиране на всички
 calendar-target-title = Изберете къде да внесете избраните елементи
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = Създайте нов календар, наречен <strong>"{ $targetCalendar }"</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+        [one] Внасяне на един елемент в календара "{ $targetCalendar }"
+       *[other] Внасяне на { $itemCount } елемента в календара "{ $targetCalendar }"
+    }
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = Ще бъде създаден нов календар, наречен „{ $targetCalendar }“.
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = Внасяне… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Изнасяне… { $progressPercent }
+progress-pane-finished-desc2 = Завършено
+error-pane-title = Грешка
+error-message-zip-file-too-big2 = Избраният zip файл е по-голям от 2 GB. Моля, първо го извлечете, след това го внесете от извлечената папка.
+error-message-extract-zip-file-failed2 = Неуспешно извличане на ZIP файла. Моля, извлечете го ръчно, след това го внесете от извлечената папка.
+error-message-failed = Внасянето е неуспешно. Повече информация може да е налична в конзолата за грешки.
+error-failed-to-parse-ics-file = Във файла няма намерени елементи за внасяне..
+error-export-failed = Изнасянето е неуспешно. Повече информация може да е налична в конзолата за грешки.
+error-message-no-profile = Няма намерен профил.
 
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = В първия запис са имената на полетата
+csv-source-field = Поле за източника
+csv-source-first-record = Първи запис
+csv-source-second-record = Втори запис
+csv-target-field = Поле за адресника
 
 ## Export tab
 
+export-profile-title = Изнасяне на профили, съобщения, адресни книги и настройки в ZIP файл.
+export-profile-description = Ако текущият ви профил е по-голям от 2 GB, ви предлагаме да го архивирате сами.
+export-open-profile-folder = Отваряне на папката на профила
+export-file-picker2 = Изнасяне в zip файл
+export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-title = Данни за внасяне
+summary-pane-start = Стартиране на внасянето
+summary-pane-warning = { -brand-product-name } ще трябва да се рестартира, когато внасянето приключи.
+summary-pane-start-over = Рестартиране на инструмента за вснасяне
 
 ## Footer area
 
+footer-help = Имате ли нужда от помощ?
+footer-import-documentation = Документация за процеса на внасяне
+footer-export-documentation = Документация за процеса на изнасяне
+footer-support-forum = Форум за поддръжка
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = Стъпки на процеса за внасяне
+step-confirm = Потвърждение
+# Variables:
+# $number (number) - step number
+step-count = { $number }
