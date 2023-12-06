@@ -47,6 +47,8 @@ xpinstall-disabled-button =
 #   $addonName (String): the name of the add-on.
 #   $addonId (String): the ID of add-on.
 addon-install-blocked-by-policy = Lisäosa { $addonName } ({ $addonId }) on järjestelmänvalvojasi estämä.{ " " }
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-domain-blocked-by-policy = Järjestelmänvalvojasi esti tätä sivustoa pyytämästä sinua asentamaan ohjelmistoja tietokoneellesi.
 addon-install-full-screen-blocked = Lisäosien asennus ei ole sallittu koko näytön tilassa tai ennen koko näytön tilaan siirtymistä.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
@@ -64,6 +66,7 @@ addon-removal-title = Poistetaanko { $name }?
 #   $name (String): the name of the extension which is about to be removed.
 addon-removal-message = Poistetaanko ”{ $name }” { -brand-shorter-name }istä?
 addon-removal-button = Poista
+addon-removal-abuse-report-checkbox = Raportoi tämä laajennus { -vendor-short-name }lle
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -105,6 +108,7 @@ addon-install-error-incorrect-hash = Lisäosaa ei voitu asentaa, koska se ei vas
 addon-install-error-corrupt-file = Ladattua lisäosaa ei voitu asentaa, koska asennuspaketti on virheellinen.
 addon-install-error-file-access = Lisäosaa { $addonName } ei voitu asentaa, koska { -brand-short-name } ei pysty muokkaamaan vaadittua tiedostoa.
 addon-install-error-not-signed = { -brand-short-name } esti tätä sivustoa asentamasta varmentamatonta lisäosaa.
+addon-install-error-invalid-domain = Lisäosaa { $addonName } ei voi asentaa tästä sijainnista.
 addon-local-install-error-network-failure = Lisäosaa ei voitu asentaa tiedostojärjestelmävirheen vuoksi.
 addon-local-install-error-incorrect-hash = Tätä lisäosaa ei voitu asentaa koska se ei vastaa { -brand-short-name }in odottamaa lisäosaa.
 addon-local-install-error-corrupt-file = Lisäosaa ei voitu asentaa koska lisäosapaketti on ilmeisesti vaurioitunut.
