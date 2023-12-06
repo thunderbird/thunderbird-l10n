@@ -6,3 +6,8 @@ verify-window-title = Verifica la identitat
 # Variables:
 #   $subject (String) - a human readable identifier for the other side of the verification flow.
 verify-window-subject-title = Verifica la identitat de { $subject }
+verify-dialog =
+    .buttonlabelaccept = Coincideixen
+    .buttonaccesskeyaccept = C
+    .buttonlabelextra2 = No coincideixen
+    .buttonaccesskeyextra2 = N

@@ -5,6 +5,21 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Minimitza
+messenger-window-maximize-button =
+    .tooltiptext = Maximitza
+messenger-window-restore-down-button =
+    .tooltiptext = Restaura avall
+messenger-window-close-button =
+    .tooltiptext = Tanca
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip =
+    { $count ->
+        [one] 1 missatge per llegir
+       *[other] { $count } missatges per llegir
+    }
 about-rights-notification-text = El { -brand-short-name } és programari lliure i de codi obert, creat per una comunitat de milers de desenvolupadors d'arreu del món.
 
 ## Content tabs
@@ -18,15 +33,53 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Vés una pàgina enrere ({ $shortcut })
+    .aria-label = Enrere
+    .accesskey = E
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Enrere
+    .accesskey = E
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Vés una pàgina endavant ({ $shortcut })
+    .aria-label = Endavant
+    .accesskey = d
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Endavant
+    .accesskey = d
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Torna a carregar la pàgina
+    .aria-label = Torna a carregar
+    .accesskey = r
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Torna a carregar la pàgina
+    .label = Torna a carregar
+    .accesskey = r
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Atura la càrrega de la pàgina
+    .aria-label = Atura
+    .accesskey = A
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Atura la càrrega de la pàgina
+    .label = Atura
+    .accesskey = A
 
 ## Toolbar
 
@@ -76,11 +129,11 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Visualització compacta
     .accesskey = c
 
-## Menu
-
-
 ## File Menu
 
+menu-file-save-as-file =
+    .label = Fitxer…
+    .accesskey = F
 
 ## Edit Menu
 
@@ -125,14 +178,6 @@ redirect-msg-menuitem =
 
 appmenu-addons-and-themes =
     .label = Complements i temes
-appmenu-help-enter-troubleshoot-mode =
-    .label = Mode de resolució de problemes…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Desactiva el mode de resolució de problemes
-appmenu-help-more-troubleshooting-info =
-    .label = Més informació de resolució de problemes
-appmenu-redirect-msg =
-    .label = Redirigeix
 
 ## Context menu
 
@@ -153,6 +198,9 @@ other-action-redirect-msg =
     .label = Redirigeix
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
@@ -197,7 +245,7 @@ quick-filter-bar-toggle =
     .label = Barra de filtre ràpid
     .accesskey = r
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

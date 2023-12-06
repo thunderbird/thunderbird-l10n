@@ -42,6 +42,29 @@ account-hub-sync-button = Inicia la sessió al Sync…
 
 account-hub-email-title = Configureu el vostre compte de correu
 account-hub-email-cancel-button = Cancel·la
+account-hub-email-stop-button = Atura
 account-hub-email-back-button = Enrere
 account-hub-email-continue-button = Continua
 account-hub-email-confirm-button = Confirma
+account-hub-incoming-server-legend = Servidor d'entrada
+account-hub-outgoing-server-legend = Servidor de sortida
+account-hub-protocol-label = Protocol
+account-hub-ssl-label = Seguretat de la connexió
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = Detecció automàtica
+account-hub-ssl-no-authentication-option =
+    .label = Sense autenticació
+account-hub-ssl-cleartext-password-option =
+    .label = Contrasenya normal
+account-hub-ssl-encrypted-password-option =
+    .label = Contrasenya xifrada
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Cap
+account-hub-auth-label = Mètode d'autenticació
+account-hub-username-label = Nom d'usuari

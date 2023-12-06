@@ -66,6 +66,9 @@ profiles-pane-title-seamonkey = Importa els paràmetres i les dades d'un perfil 
 profiles-pane-title-outlook = Importa les dades de l'{ app-name-outlook }.
 profiles-pane-title-becky = Importa les dades del { app-name-becky }.
 profiles-pane-title-apple-mail = Importa els missatges de l'{ app-name-apple-mail }.
+profile-file-picker-directory = Trieu una carpeta de perfil
+profile-file-picker-archive = Trieu un fitxer <strong>zip</strong>
+items-pane-title2 = Trieu què voleu importar:
 items-pane-directory = Directori:
 items-pane-profile-name = Nom del perfil:
 items-pane-checkbox-accounts = Comptes i paràmetres
@@ -83,9 +86,12 @@ addr-book-vcard-file = Fitxer vCard (.vcf, .vcard)
 addr-book-sqlite-file = Fitxer de base de dades SQLite (.sqlite)
 addr-book-mab-file = Fitxer de base de dades Mork (.mab)
 addr-book-file-picker = Seleccioneu el fitxer de la llibreta d'adreces
+addr-book-directories-title = Seleccioneu on s'importaran les dades que heu triat
+addr-book-directories-pane-source = Fitxer font:
 
 ## Import from calendar file steps
 
+calendar-items-title = Seleccioneu quins elements voleu importar.
 calendar-items-loading = S'estan carregant els elements…
 calendar-items-filter-input =
     .placeholder = Filtra elements…
@@ -111,6 +117,9 @@ error-message-no-profile = No s'ha trobat cap perfil.
 ## <csv-field-map> element
 
 csv-first-row-contains-headers = La primera fila conté els noms dels camps
+csv-source-first-record = Primer registre
+csv-source-second-record = Segon registre
+csv-target-field = Camp de la llibreta d'adreces
 
 ## Export tab
 
