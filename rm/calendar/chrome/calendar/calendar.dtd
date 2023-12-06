@@ -9,13 +9,10 @@
 <!ENTITY calendar.newevent.button.tooltip         "Crear in nov eveniment" >
 <!ENTITY calendar.newtask.button.tooltip          "Crear ina nova incumbensa" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "Incumbensas" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Mussar las incumbensas cumplettadas">
 
 <!ENTITY calendar.today.button.label          "Oz">
 <!ENTITY calendar.tomorrow.button.label       "Damaun">
-<!ENTITY calendar.upcoming.button.label       "Proximamain">
 
 <!ENTITY calendar.events.filter.all.label "Tut ils eveniments">
 <!ENTITY calendar.events.filter.today.label "Ils eveniments dad oz">
@@ -61,40 +58,9 @@
 <!ENTITY calendar.today.button.tooltip          "Siglir ad oz" >
 <!ENTITY calendar.todaypane.button.tooltip      "Mussar la lastra dad oz" >
 
-<!ENTITY calendar.day.button.tooltip            "Mussar la vista dal di" >
-<!ENTITY calendar.week.button.tooltip           "Mussar la vista da l'emna" >
-<!ENTITY calendar.month.button.tooltip          "Mussar la vista dal mais" >
-<!ENTITY calendar.multiweek.button.tooltip      "Mussar la vista da pliras emnas" >
-
-<!ENTITY calendar.nextday.label                 "Proxim di" >
-<!ENTITY calendar.prevday.label                 "Ultim di" >
-<!ENTITY calendar.nextday.accesskey             "P" >
-<!ENTITY calendar.prevday.accesskey             "U" >
-<!ENTITY calendar.nextweek.label                "Proxima emna" >
-<!ENTITY calendar.prevweek.label                "Ultima emna" >
-<!ENTITY calendar.nextweek.accesskey            "P" >
-<!ENTITY calendar.prevweek.accesskey            "U" >
-<!ENTITY calendar.nextmonth.label               "Proxim mais" >
-<!ENTITY calendar.prevmonth.label               "Ultim mais" >
-<!ENTITY calendar.nextmonth.accesskey           "P" >
-<!ENTITY calendar.prevmonth.accesskey           "U" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "In di enavant" >
-<!ENTITY calendar.navigation.prevday.tooltip    "In di enavos" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Ina emna enavant" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Ina emna enavos" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "In mais enavant" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "In mais enavos" >
-
 <!ENTITY calendar.newevent.button.label         "Nov eveniment" >
 <!ENTITY calendar.newtask.button.label          "Nova incumbensa" >
-<!ENTITY calendar.print.button.label            "Stampar" >
-<!ENTITY calendar.print.button.accesskey        "p">
 
-<!ENTITY calendar.day.button.label              "Di" >
-<!ENTITY calendar.week.button.label             "Emna" >
-<!ENTITY calendar.month.button.label            "Mais" >
-<!ENTITY calendar.multiweek.button.label        "Pliras emnas" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Be dis da lavur" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "l" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Incumbensas en vista" >
@@ -277,10 +243,8 @@
       list. -->
 <!ENTITY calendar.context.removeserver.label           "Allontanar in chalender…">
 <!ENTITY calendar.context.removeserver.accesskey       "A">
-<!ENTITY calendar.context.unsubscribeserver.label      "Deabunar in chalender…">
+<!ENTITY calendar.context.unsubscribeserver.label      "Deabunar il chalender…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "D">
-<!ENTITY calendar.context.synccalendars.label          "Sincronisar chalenders">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Publitgar in chalender…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "Exportar in chalender…">
@@ -355,7 +319,6 @@
 <!ENTITY calendarproperties.color.label                    "Colur:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label                   "Format:">
 <!ENTITY calendarproperties.location.label                 "Lieu:">
 <!ENTITY calendarproperties.refreshInterval.label          "Actualisar il chalender:">
@@ -364,7 +327,6 @@
 <!ENTITY calendarproperties.readonly.label                 "Mo per lectura">
 <!ENTITY calendarproperties.firealarms.label               "Mussar las promemorias">
 <!ENTITY calendarproperties.cache3.label                   "Cumpatibel cun il modus senza connexiun">
-<!ENTITY calendarproperties.enabled.label                  "Activar quest chalender">
 <!ENTITY calendarproperties.enabled2.label                 "Activar quest chalender">
 <!ENTITY calendarproperties.forceDisabled.label            "Impussibel da chattar il provider da quest chalender. Quai po capitar sche ti has deactivà u deinstallà tscherts supplements.">
 <!ENTITY calendarproperties.unsubscribe.label              "Deabunar">
@@ -376,27 +338,8 @@
 <!ENTITY calendar.publish.publish.button      "Publitgar">
 <!ENTITY calendar.publish.close.button      "Serrar">
 
-<!ENTITY calendar.publish.example.url.description   "Per exempel http://www.messerver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Tscherner in chalender">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Stampar in chalender">
-<!ENTITY calendar.print.title.label "Titel:">
-<!ENTITY calendar.print.layout.label "Disposiziun:">
-<!ENTITY calendar.print.range.label "Tge stampar">
-<!ENTITY calendar.print.currentView2.label "Vista actuala">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Incumbensas/eveniments tschernids">
-<!ENTITY calendar.print.tasks.label "Incumbensas">
-<!ENTITY calendar.print.events.label "Eveniments">
-<!ENTITY calendar.print.custom.label "Perioda persunalisada:">
-<!ENTITY calendar.print.from.label "Da:">
-<!ENTITY calendar.print.to.label "A:">
-<!ENTITY calendar.print.settingsGroup.label "Configuraziun da stampa">
-<!ENTITY calendar.print.optionsGroup.label "Opziuns">
-<!ENTITY calendar.print.taskswithnoduedate.label "Incumbensas senza data da scadenza">
-<!ENTITY calendar.print.completedtasks.label "Incumbensas cumplettadas">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Detagls…">
