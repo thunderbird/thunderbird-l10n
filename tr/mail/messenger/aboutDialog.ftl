@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Yeni neler var?
-aboutDialog-title =
-    .title = { -brand-full-name } hakkında
 about-dialog-title = { -brand-full-name } hakkında
 release-notes-link = Sürüm notları
 update-internal-error = Dahili bir hata nedeniyle güncellemeler kontrol edilemiyor. Güncellemeleri <a data-l10n-name="manual-link"/> adresinde bulabilirsiniz.
@@ -40,20 +38,9 @@ aboutDialog-version = { $version } ({ $bits } bit)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bit)
 aboutdialog-update-checking-failed = Güncellemeler kontrol edilemedi.
-community-exp = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> Web’i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan <a data-l10n-name="community-exp-credits-link">küresel bir topluluktur</a>.
-community-2 =
-    { -brand-short-name }, <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-     tarafından tasarlanmıştır. &vendorShortName;, interneti daha iyiye taşımak için birlikte çalışan <a data-l10n-name="community-credits-link">
-    küresel bir topluluktur.</a>
-     Web'i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan insanlardan oluşur.
-about-helpus =
-    Yardım etmek ister misiniz? <a data-l10n-name="helpus-donate-link">
-    Bağış yapın</a> or <a data-l10n-name="helpus-get-involved-link">
-    siz de katkıda bulunun!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> Web’i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan <a data-l10n-name="community-exp-credits-link">küresel bir topluluktur</a>.
 community-desc = { -brand-short-name }, <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> tarafından tasarlanmıştır. &vendorShortName;, interneti daha iyiye taşımak için birlikte çalışan <a data-l10n-name="community-credits-link">küresel bir topluluktur.</a> Web'i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan insanlardan oluşur.
-about-donation = Yardım etmek ister misiniz? <a data-l10n-name="helpus-donate-link">Bağış yapın</a> or <a data-l10n-name="helpus-get-involved-link">siz de katkıda bulunun!</a>
+about-donation = Yardım etmek ister misiniz? <a data-l10n-name="helpus-donate-link">Bağış yapın</a> veya <a data-l10n-name="helpus-get-involved-link">siz de katkıda bulunun!</a>
 bottom-links-license = Lisans Bilgileri
 bottom-links-rights = Son Kullanıcı Hakları
 bottom-links-privacy = Gizlilik İlkeleri
