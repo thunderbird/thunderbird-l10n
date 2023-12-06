@@ -93,9 +93,27 @@ addr-book-mab-file = Файл с база данни Mork (.mab)
 addr-book-file-picker = Избор на файл с адресник
 addr-book-csv-field-map-title = Съвпадение на имена на полета
 addr-book-csv-field-map-desc = Избор на полетата на адресната книга, съответстващи на изходните полета. Премахнете отметката от полетата, които не искате да внесете.
+addr-book-directories-title = Изберете къде да внесете избраните данни
+addr-book-directories-pane-source = Изходен файл:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Създайте нова директория, наречена <strong>"{ $addressBookName }"</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Внасяне на избраните данни в директорията „{ $addressBookName }“.
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = Ще бъде създадена нова адресна книга, наречена „{ $addressBookName }“.
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = Изберете файла iCalendar (.ics), който искате да внесете.
+calendar-items-title = Изберете елементите за внасяне:
+calendar-items-loading = Зареждане на елементи…
+calendar-items-filter-input =
+    .placeholder = Филтриране на елементи…
+calendar-select-all-items = Маркиране на всички
+calendar-deselect-all-items = Демаркиране на всички
+calendar-target-title = Изберете къде да внесете избраните елементи
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = Създайте нов календар, наречен <strong>"{ $targetCalendar }"</strong>
 
 ## Import dialog
 
