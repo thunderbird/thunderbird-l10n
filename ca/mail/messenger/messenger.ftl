@@ -140,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Suprimeix la carpeta
     .accesskey = x
+menu-edit-unsubscribe-newsgroup =
+    .label = Cancel·la la subscripció al grup de discussió
+    .accesskey = C
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -176,6 +179,10 @@ redirect-msg-menuitem =
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = Fitxer…
+appmenu-settings =
+    .label = Paràmetres
 appmenu-addons-and-themes =
     .label = Complements i temes
 
@@ -183,6 +190,17 @@ appmenu-addons-and-themes =
 
 context-menu-redirect-msg =
     .label = Redirigeix
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Cancel·la el missatge
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-delete-messages =
+    .label =
+        { $count ->
+            [one] Suprimeix el missatge
+           *[other] Suprimeix els missatges seleccionats
+        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -191,17 +209,40 @@ mail-context-undelete-messages =
             [one] Recupera el missatge esborrat
            *[other] Recupera els missatges esborrats seleccionats
         }
+context-menu-decrypt-to-folder2 =
+    .label = Crea una còpia desxifrada a
+    .accesskey = d
 
 ## Message header pane
 
 other-action-redirect-msg =
     .label = Redirigeix
+message-header-msg-flagged =
+    .title = Destacat
+    .aria-label = Destacat
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = Imatge de perfil de { $address }.
 
 ## Message header cutomize panel
 
 
 ## Message header customize panel
 
+message-header-customize-panel-title = Configuració de la capçalera del missatge
+message-header-customize-button-style =
+    .value = Estil de botons
+    .accesskey = b
+message-header-button-style-default =
+    .label = Icones i text
+message-header-button-style-text =
+    .label = Text
+message-header-button-style-icons =
+    .label = Icones
+message-header-show-sender-full-address =
+    .label = Mostra sempre l'adreça completa del remitent
+    .accesskey = c
 
 ## Action Button Context Menu
 
