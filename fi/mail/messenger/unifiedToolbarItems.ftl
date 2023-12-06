@@ -142,3 +142,15 @@ toolbar-stop =
 toolbar-throbber-label = Toimintaindikaattori
 toolbar-throbber =
     .title = Toimintaindikaattori
+toolbar-create-address-book-label = Uusi osoitekirja
+toolbar-create-address-book =
+    .title = Luo uusi osoitekirja
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Lisää paikallinen osoitekirja
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Lisää CardDAV-osoitekirja
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Lisää LDAP-osoitekirja
