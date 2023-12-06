@@ -47,9 +47,31 @@ source-file-description = Избор на файл за внасяне  на а�
 
 ## Import from file selections
 
+file-profile2 = Внасяне на архивиран профил
+file-profile-description = Избор на предварително архивиран Thunderbird профил (.zip)
+file-calendar = Внасяне на календар
+file-calendar-description = Избор на файл, съдържащ изнесени календари или събития (.ics)
+file-addressbook = Внасяне на адресник
+file-addressbook-description = Избор на файл, съдържащ изнесени адресни книги и контакти
 
 ## Import from app profile steps
 
+from-app-thunderbird = Внасяне от друг профил на { app-name-thunderbird }
+from-app-seamonkey = Внасяне от друг профил на { app-name-seamonkey }
+from-app-outlook = Внасяне от { app-name-outlook }
+from-app-becky = Внасяне от { app-name-becky }
+from-app-apple-mail = Внасяне от { app-name-apple-mail }
+profiles-pane-title-thunderbird = Внасяне на настройки и данни от друг профил на { app-name-thunderbird }.
+profiles-pane-title-seamonkey = Внасяне на настройки и данни от профил на { app-name-seamonkey }.
+profiles-pane-title-outlook = Внасяне на данни от { app-name-outlook }
+profiles-pane-title-becky = Внасяне на данни от { app-name-becky }
+profiles-pane-title-apple-mail = Внасяне на съобщения от { app-name-apple-mail }
+profile-source = Внасяне от профил
+# $profileName (string) - name of the profile
+profile-source-named = Внасяне от следния профил -  <strong>"{ $profileName }"</strong>
+profile-file-picker-directory = Избор на папка за профила
+profile-file-picker-archive = Избор на <strong>ZIP</strong> файл
+profile-file-picker-archive-description = ZIP файлът трябва да е по-малък от 2 GB.
 
 ## Import from address book file steps
 
