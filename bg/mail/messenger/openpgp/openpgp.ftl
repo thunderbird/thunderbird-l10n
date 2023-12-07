@@ -111,6 +111,15 @@ openpgp-key-send-key =
     .label = Изпращане на публичен ключ по имейл
     .accesskey = И
 # Variables:
+# $count (Number) - Number of keys ids to copy.
+openpgp-key-man-copy-key-ids =
+    .label =
+        { $count ->
+            [one] Копиране на идентификатора на ключове в системния буфер
+           *[other] Копиране на идентификаторите на ключове в системния буфер
+        }
+    .accesskey = К
+# Variables:
 # $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
@@ -119,6 +128,15 @@ openpgp-key-man-copy-fprs =
            *[other] Копиране на пръстовите отпечатъци в клипборда
         }
     .accesskey = п
+# Variables:
+# $count (Number) - Number of public keys to copy.
+openpgp-key-man-copy-to-clipboard =
+    .label =
+        { $count ->
+            [one] Копиране на публичен ключ в системния буфер
+           *[other] Копиране на публични ключове в системния буфер
+        }
+    .accesskey = ч
 openpgp-key-man-ctx-expor-to-file-label =
     .label = Изнасяне на ключовете във файл
 openpgp-key-man-ctx-copy =
@@ -290,6 +308,13 @@ openpgp-copy-cmd-label =
 
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-no-key = { -brand-short-name } няма личен OpenPGP ключ за <b>{ $identity }</b>
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys =
+    { $count ->
+        [one] { -brand-short-name } намери { $count } личен OpenPGP ключ, свързан с <b>{ $identity }</b>
+       *[other] { -brand-short-name } намери { $count } лични OpenPGP ключа, свързани с <b>{ $identity }</b>
+    }
 e2e-learn-more = Научете повече
 openpgp-keygen-success = OpenPGP ключът е създаден успешно!
 openpgp-keygen-import-success = OpenPGP ключовете са внесени успешно!
