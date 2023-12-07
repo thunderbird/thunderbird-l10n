@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = アクティブインジケーター
 toolbar-throbber =
     .title = アクティブインジケーター
+toolbar-create-contact-label = 新しい連絡先
+toolbar-create-contact =
+    .title =  新しい連絡先を作成します
+toolbar-create-address-book-label = 新しいアドレス帳
+toolbar-create-address-book =
+    .title = 新しいアドレス帳を作成します
+toolbar-create-list-label = 新しいアドレスリスト
+toolbar-create-list =
+    .title = 新しいアドレスリストを作成します
+toolbar-import-contacts-label = インポート
+toolbar-import-contacts =
+    .title = ファイルから連絡先をインポートします
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = ローカルアドレス帳を追加
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = CardDAV アドレス帳を追加
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = LDAP アドレス帳を追加
