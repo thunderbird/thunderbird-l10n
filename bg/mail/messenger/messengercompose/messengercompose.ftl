@@ -198,9 +198,34 @@ openpgp-key-issue-notification-multi =
         [one] Шифроването от край до край изисква разрешаване на проблемите с ключовете за { $count } получател.
        *[other] Шифроването от край до край изисква разрешаване на проблемите с ключовете за { $count } получателя.
     }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Шифроването от край до край изисква разрешаване на проблемите със сертификатите за { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Шифроването от край до край изисква разрешаване на проблемите със сертификатите на { $count } получател.
+       *[other] Шифроването от край до край изисква разрешаване на проблемите със сертификатите на { $count } получателя.
+    }
+key-notification-disable-encryption =
+    .label = Без шифроване
+    .accesskey = Б
+    .tooltiptext = Забрана за шифроване от край до край
+key-notification-resolve =
+    .label = Решаване...
+    .accesskey = Р
+    .tooltiptext = Отваряне на мениджъра на OpenPGP ключове
+can-encrypt-smime-notification = S/MIME шифроване от край до край е възможно.
+can-encrypt-openpgp-notification = OpenPGP криптиране от край до край е възможно.
+can-e2e-encrypt-button =
+    .label = Шифроване
+    .accesskey = Ш
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = До
 many-public-recipients-bcc =
     .label = Използване на Скрито копие
     .accesskey = к
