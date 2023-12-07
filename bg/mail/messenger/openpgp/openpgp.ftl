@@ -489,9 +489,17 @@ save-keys-failed = Запазването на ключовете не бе ус
 default-pub-key-filename = Изнасяне на публични ключове
 default-pub-sec-key-filename = Архивиране на секретни ключове
 refresh-key-warn = Предупреждение: в зависимост от броя на ключовете и скоростта на връзката, опресняването на всички ключове може да бъде доста дълъг процес!
+preview-failed = Невъзможност за прочитане на файл с публичен ключ.
+# Variables:
+# $reason (String) - Error description.
+general-error = Грешка: { $reason }
+dlg-button-delete = Из&триване
 
 ## Account settings export output
 
+openpgp-export-public-success = <b>Избраният публичен ключ е изнесен успешно!</b>
+openpgp-export-public-fail = <b>Невъзможност за изнасяне на избрания публичен ключ!</b>
+openpgp-export-secret-success = <b>Секретният ключ е изнесен успешно!</b>
 
 ## Strings in keyObj.jsm
 ## Variables:
@@ -501,12 +509,37 @@ refresh-key-warn = Предупреждение: в зависимост от б
 
 ## Strings in gnupg-keylist.jsm
 
+keyring-photo = Снимка
+user-att-photo = Потребителски атрибут (JPEG изображение)
 
 ## Strings in key.jsm
 
+already-revoked = Този ключ вече е отменен.
+#   $identity (String) - the id and associated user identity of the key being revoked
+revoke-key-question =
+    На път сте да отмените ключа „{ $identity }“.
+    Вече няма да можете да подписвате с този ключ и след като бъде разпространен, другите вече няма да могат да шифроват с този ключ. Все още можете да използвате ключа за дешифриране на стари съобщения.
+    Искате ли да продължите?
+#   $keyId (String) - the id of the key being revoked
+revoke-key-not-present =
+    Нямате ключ (0x{ $keyId }), който да съответства на този сертификат за анулиране!
+    Ако сте загубили ключа си, трябва да го внесете (напр. от ключов сървър), преди да внесете сертификата за анулиране!
+#   $keyId (String) - the id of the key being revoked
+revoke-key-already-revoked = Ключът 0x{ $keyId } вече е отменен.
+key-man-button-revoke-key = &Анулиране на ключ
+openpgp-key-revoke-success = Ключът е анулиран успешно.
+after-revoke-info =
+    Ключът е анулиран.
+    Споделете този публичен ключ отново, като го изпратите по имейл или като го качите на сървър, за да уведомите другите, че сте го отменили
+    Веднага щом софтуерът, използван от други хора, научи за анулирането, той ще спре да използва стария ви ключ.
+    Ако използвате нов ключ за същия имейл адрес и прикачите новия публичен ключ към имейлите, които изпращате, тогава информацията за вашия отменен стар ключ ще бъде включена автоматично.
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+key-man-button-import = &Внасяне
+delete-key-title = Изтриване на OpenPGP ключ
+delete-external-key-title = Премахване на външен GnuPG ключ
+delete-external-key-description = Искате ли да премахнете този външен идентификатор на GnuPG ключ?
 
 ## Strings used in errorHandling.jsm
 
@@ -525,9 +558,19 @@ refresh-key-warn = Предупреждение: в зависимост от б
 
 ## Strings used in trust.jsm
 
+key-valid-revoked = отменен
+key-valid-expired = изтекъл
+key-trust-untrusted = недоверен
+key-trust-marginal = маргинален
+key-trust-full = доверен
+key-trust-ultimate = краен
+key-trust-group = (група)
 
 ## Strings used in commonWorkflows.js
 
+import-key-file = Внасяне на OpenPGP ключ
+import-rev-file = Внасяне на файл за анулиране на OpenPGP
+gnupg-file = GnuPG файлове
 
 ## Strings used in enigmailKeygen.js
 
