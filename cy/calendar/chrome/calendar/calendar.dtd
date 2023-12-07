@@ -58,38 +58,8 @@
 <!ENTITY calendar.today.button.tooltip          "Mynd i Heddiw" >
 <!ENTITY calendar.todaypane.button.tooltip      "Dangos Paen Heddiw" >
 
-<!ENTITY calendar.day.button.tooltip            "Newid i golwg diwrnod" >
-<!ENTITY calendar.week.button.tooltip           "Newid i golwg wythnos" >
-<!ENTITY calendar.month.button.tooltip          "Newid i golwg mis" >
-<!ENTITY calendar.multiweek.button.tooltip      "Newid i golwg wythnosol" >
-
-<!ENTITY calendar.nextday.label                 "Diwrnod Nesaf" >
-<!ENTITY calendar.prevday.label                 "Diwrnod Blaenorol" >
-<!ENTITY calendar.nextday.accesskey             "N" >
-<!ENTITY calendar.prevday.accesskey             "B" >
-<!ENTITY calendar.nextweek.label                "Wythnos Nesaf" >
-<!ENTITY calendar.prevweek.label                "Wythnos Flaenorol" >
-<!ENTITY calendar.nextweek.accesskey            "W" >
-<!ENTITY calendar.prevweek.accesskey            "F" >
-<!ENTITY calendar.nextmonth.label               "Mis Nesaf" >
-<!ENTITY calendar.prevmonth.label               "Mis Blaenorol" >
-<!ENTITY calendar.nextmonth.accesskey           "M" >
-<!ENTITY calendar.prevmonth.accesskey           "l" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Ymlaen Un Diwrnod" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Yn Diwrnod Nôl" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Un Wythnos Ymlaen" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Un Wythnos Nôl" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Un Mis Ymlaen" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Un Mis Nôl" >
-
 <!ENTITY calendar.newevent.button.label         "Digwyddiad Newydd" >
 <!ENTITY calendar.newtask.button.label          "Tasg Newydd" >
-
-<!ENTITY calendar.day.button.label              "Diwrnod" >
-<!ENTITY calendar.week.button.label             "Wythnos" >
-<!ENTITY calendar.month.button.label            "Mis" >
-<!ENTITY calendar.multiweek.button.label        "Wythnosau" >
 
 <!ENTITY calendar.onlyworkday.checkbox.label    "Dyddiau'r wythnos waith yn unig" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "w" >
@@ -275,8 +245,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "T">
 <!ENTITY calendar.context.unsubscribeserver.label      "Dad-danysgrifio i Galendr…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "D">
-<!ENTITY calendar.context.synccalendars.label          "Cydweddu Calendrau">
-<!ENTITY calendar.context.synccalendars.accesskey      "C">
 <!ENTITY calendar.context.publish.label                "Cyhoeddi Calendr…">
 <!ENTITY calendar.context.publish.accesskey            "C">
 <!ENTITY calendar.context.export.label                 "Allforio Calendr…">
@@ -298,13 +266,13 @@
 <!ENTITY calendar.context.showall.label                "Dangos Pob Calendr">
 <!ENTITY calendar.context.showall.accesskey            "P">
 
-<!ENTITY calendar.context.convertmenu.label              "Trosi I">
+<!ENTITY calendar.context.convertmenu.label              "Trosi i">
 <!ENTITY calendar.context.convertmenu.accesskey.mail     "n">
 <!ENTITY calendar.context.convertmenu.accesskey.calendar "T">
 <!ENTITY calendar.context.convertmenu.event.label        "Digwyddiad…">
 <!ENTITY calendar.context.convertmenu.event.accesskey    "D">
 <!ENTITY calendar.context.convertmenu.message.label      "Neges…">
-<!ENTITY calendar.context.convertmenu.message.accesskey  "N">
+<!ENTITY calendar.context.convertmenu.message.accesskey  "T">
 <!ENTITY calendar.context.convertmenu.task.label         "Tasg…">
 <!ENTITY calendar.context.convertmenu.task.accesskey     "T">
 

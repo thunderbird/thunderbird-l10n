@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Dileu Neges">
-<!ENTITY deleteMsgCmd.accesskey "N">
-<!ENTITY undeleteMsgCmd.label "Dad-ddileu Neges">
-<!ENTITY undeleteMsgCmd.accesskey "a">
-<!ENTITY deleteMsgsCmd.label "Dileu'r Negeseuon Hyn">
-<!ENTITY deleteMsgsCmd.accesskey "i">
-<!ENTITY undeleteMsgsCmd.label "Dad-ddileu'r Negeseuon Hyn">
-<!ENTITY undeleteMsgsCmd.accesskey "a">
-<!ENTITY deleteFolderCmd.label "Dileu Ffolder">
-<!ENTITY deleteFolderCmd.accesskey "F">
-<!ENTITY unsubscribeNewsgroupCmd.label "Dad-danysgrifio">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "y">
 <!ENTITY selectMenu.label "Dewis">
 <!ENTITY selectMenu.accesskey "w">
 <!ENTITY all.label "Y Cyfan">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "Hoff Ffolder">
 <!ENTITY menuFavoriteFolder.accesskey "H">
-<!ENTITY folderPropsCmd2.label "Priodweddau">
-<!ENTITY folderPropsFolderCmd2.label "Priodweddau Ffolderi">
-<!ENTITY folderPropsNewsgroupCmd2.label "Priodweddau Grŵp Newyddion">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Dadwneud Dileu Negeseuon">
 <!ENTITY redoDeleteMsgCmd.label "Ail-wneud Dileu Neges">
 <!ENTITY undoMoveMsgCmd.label "Dadwneud Symud Neges">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "F">
 <!ENTITY showFolderPaneCmd.label "Paen Ffolder">
 <!ENTITY showFolderPaneCmd.accesskey "F">
-<!ENTITY showFolderPaneColsCmd.label "Colofnau Paenau Ffolderi">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "Paen Neges">
 <!ENTITY showMessageCmd.accesskey "N">
 
@@ -370,7 +352,7 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
 <!ENTITY createFilter.label "Creu Hidl o'r Neges…">
 <!ENTITY createFilter.accesskey "H">
-<!ENTITY moveMsgToMenu.label "Symud I">
+<!ENTITY moveMsgToMenu.label "Symud i">
 <!ENTITY moveMsgToMenu.accesskey "S">
 <!ENTITY moveCopyMsgRecentMenu.label "Diweddar">
 <!ENTITY moveCopyMsgRecentMenu.accesskey "D">
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Neges Newydd">
 <!ENTITY appmenuNewContactCmd.label "Cysylltiad Llyfr Cyfeiriadau…">
-<!ENTITY appmenuEditMenu.label "Golygu">
 <!ENTITY appmenuToolbarLayout.label "Cynllun Bar Offer…">
-<!ENTITY appmenuSelectThread.label "Dewis Edefyn">
-<!ENTITY appmenuSelectFlagged.label "Estyn Negeseuon Serennog">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Tag Newydd…">
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "p">
 <!ENTITY copyEmailCmd.label "Copïo Cyfeiriad E-bost">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Atal">
-<!ENTITY stopCmd.accesskey "A">
-<!ENTITY reloadCmd.label "Ail-lwytho">
-<!ENTITY reloadCmd.accesskey "A">
 <!ENTITY openInBrowser.label "Agor yn y Porwr">
 <!ENTITY openInBrowser.accesskey "A">
 <!ENTITY openLinkInBrowser.label "Agor Dolen yn y Porwr">
