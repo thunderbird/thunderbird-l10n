@@ -247,7 +247,7 @@
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "О">
 <!ENTITY calendar.context.publish.label                "Публикуване на календар…">
 <!ENTITY calendar.context.publish.accesskey            "б">
-<!ENTITY calendar.context.export.label                 "Експортиране на календар…">
+<!ENTITY calendar.context.export.label                 "Изнасяне на календар…">
 <!ENTITY calendar.context.export.accesskey             "р">
 <!ENTITY calendar.context.properties.label             "Свойства">
 <!ENTITY calendar.context.properties.accesskey         "й">

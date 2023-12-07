@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-finger-title = Виждани преди OTR отпечатъци
-finger-intro = OTR ключови отпечатъци от предишни криптирани разговори от край до край.
+finger-intro = OTR ключови отпечатъци от предишни шифровани разговори от край до край.
 finger-screen-name =
     .label = Контакт
 finger-verified =

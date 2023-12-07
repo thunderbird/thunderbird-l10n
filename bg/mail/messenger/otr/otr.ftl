@@ -4,7 +4,7 @@
 
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-msgevent-encryption-required-part1 = Опитахте да изпратите некриптирано съобщение до { $name }. Като правило нешифрованите съобщения не са разрешени.
+msgevent-encryption-required-part1 = Опитахте да изпратите нешифровано съобщение до { $name }. Като правило нешифрованите съобщения не са разрешени.
 msgevent-encryption-required-part2 = Опит за започване на личен разговор. Вашето съобщение ще бъде изпратено повторно, когато частният разговор започне.
 msgevent-encryption-error = Възникна грешка при шифроването на вашето съобщение. Съобщението не е изпратено.
 # Variables:
