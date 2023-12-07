@@ -291,27 +291,105 @@ openpgp-copy-cmd-label =
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-no-key = { -brand-short-name } няма личен OpenPGP ключ за <b>{ $identity }</b>
 e2e-learn-more = Научете повече
+openpgp-keygen-success = OpenPGP ключът е създаден успешно!
+openpgp-keygen-import-success = OpenPGP ключовете са внесени успешно!
+openpgp-keygen-external-success = ID на външния GnuPG ключ е запазен!
 
 ## OpenPGP Key selection area
 
+openpgp-radio-none =
+    .label = Няма
+openpgp-radio-none-desc = Без използване на OpenPGP за тази самоличност.
+openpgp-radio-key-not-usable = Този ключ не може да се използва като личен ключ, защото секретният ключ липсва!
+openpgp-radio-key-not-accepted = За да използвате този ключ, трябва да го одобрите като личен!
+openpgp-radio-key-not-found = Този ключ не може да бъде намерен! Ако искате да го използвате, трябва да го внесете в { -brand-short-name }.
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
+openpgp-radio-key-expires = Валиден до: { $date }
+#   $date (String) - the past expiration date of when the OpenPGP key expired
+openpgp-radio-key-expired = Изтекъл на: { $date }
+openpgp-key-expires-within-6-months-icon =
+    .title = Ключът изтича след по-малко от 6 месеца
+openpgp-key-has-expired-icon =
+    .title = Ключът не е вече валиден
+openpgp-suggest-publishing-key = Публикуването на публичния ключ на сървър за ключове позволява на другите да го открият.
+openpgp-key-expand-section =
+    .tooltiptext = Повече информация
+openpgp-key-revoke-title = Отмяна на ключ
+openpgp-key-edit-title = Промяна на OpenPGP ключ
+openpgp-key-edit-date-title = Удължаване на срока на годност
+openpgp-manager-description = Използвайте OpenPGP Key Manager, за да видите и управлявате публичните ключове на вашите кореспонденти и всички други ключове, които не са изброени по-горе.
+openpgp-manager-button =
+    .label = Управление на OpenPGP ключове
+    .accesskey = У
+openpgp-key-remove-external =
+    .label = Премахване на ID на външен ключ
+    .accesskey = П
+key-external-label = Външен GnuPG ключ
 
 ## Strings in keyDetailsDlg.xhtml
 
+key-type-public = публичен ключ
+key-type-primary = първичен ключ
+key-type-subkey = подключ
+key-type-pair = двойка ключове (таен ключ и публичен ключ)
+key-expiry-never = никога
+key-usage-encrypt = Шифроване
+key-usage-sign = Подписване
+key-usage-certify = Сертифициране
+key-usage-authentication = Удостоверяване
+key-does-not-expire = Ключът не изтича
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
+key-expired-date = Ключът е изтекъл на { $keyExpiry }
+key-expired-simple = Ключът не е валиден
+key-revoked-simple = Ключът беше анулиран
+key-do-you-accept = Приемате ли този ключ за проверка на цифрови подписи и за криптиране на съобщения?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Проверете пръстовия отпечатък на ключа, като използвате защитен комуникационен канал, различен от имейл, за да сте сигурни, че това наистина е ключът на { $addr }.
 
 ## Strings enigmailMsgComposeOverlay.js
 
+# Variables:
+# $problem (String) - Error message from key usability check.
+cannot-use-own-key-because = Невъзможност за изпращане на съобщението поради  проблем с вашия личен ключ. { $problem }
+window-locked = Прозорецът за ново съобщение е заключен; изпращането е отменено
 
 ## Strings in keyserver.jsm
 
+keyserver-error-aborted = Прекратено
+keyserver-error-unknown = Възникна неизвестна грешка
+keyserver-error-server-error = Ключовият сървър докладва за грешка.
+keyserver-error-import-error = Неуспешно внасяне на изтегления ключ.
+keyserver-error-unavailable = Ключовият сървър не е наличен.
+keyserver-error-security-error = Ключовият сървър не поддържа шифрован достъп.
+keyserver-error-certificate-error = Сертификатът на сървъра за ключове не е валиден.
+keyserver-error-unsupported = Ключовият сървър не се поддържа.
 
 ## Strings in mimeWkdHandler.jsm
 
+wkd-message-body-req =
+    Вашият доставчик на електронна поща обработи заявката ви за качване на вашия публичен ключ в уеб каталога на OpenPGP.
+    Моля, потвърдете, за да завършите публикуването на вашия публичен ключ.
+wkd-message-body-process =
+    Това е имейл, свързан с автоматичната обработка за качване на вашия публичен ключ в OpenPGP уеб каталога.
+    На този етап не е необходимо да предприемате никакви ръчни действия.
 
 ## Strings in persistentCrypto.jsm
 
+# Variables:
+# $subject (String) - Subject of the message.
+converter-decrypt-body-failed =
+    Неуспешно дешифроване на съобщение с тема
+    { $subject }.
+    Искате ли да опитате отново с друга парола или искате да пропуснете съобщението?
 
 ## Strings filters.jsm
 
+filter-folder-required = Трябва да изберете целева папка.
+filter-decrypt-move-warn-experimental =
+    Предупреждение - филтърното действие „Декриптиране за постоянно“ може да доведе до унищожени съобщения.
+    Силно ви препоръчваме първо да опитате филтъра „Създаване на декриптирано копие“, да тествате внимателно резултата и да започнете да използвате този филтър едва след като сте доволни от резултата.
 
 ## Strings filtersWrapper.jsm
 

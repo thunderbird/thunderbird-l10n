@@ -397,10 +397,18 @@ cloud-file-attachment-error = Неуспешно актуализиране на
 cloud-file-account-error-title = Грешка във Filelink профила
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
-cloud-file-account-error = Неуспешно актуализиране на прикачения файл с Filelink { $filename }, тъй като неговият акаунт за Filelink е изтрит.
+cloud-file-account-error = Неуспешно актуализиране на прикачения файл с Filelink { $filename }, тъй като неговият Filelink профил е изтрит.
 
 ## Link Preview
 
+link-preview-title = Преглед на връзката
+link-preview-description = { -brand-short-name } може да добави вграден преглед при поставяне на връзки.
+link-preview-autoadd = Автоматично добавяне на визуализации на връзки, когато е възможно
+link-preview-replace-now = Добавяне на визуализация на връзката за тази връзка?
+link-preview-yes-replace = Да
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Добавяне на речници…
+    .accesskey = р
