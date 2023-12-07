@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "İletiyi sil">
-<!ENTITY deleteMsgCmd.accesskey "t">
-<!ENTITY undeleteMsgCmd.label "Silinen iletiyi geri al">
-<!ENTITY undeleteMsgCmd.accesskey "i">
-<!ENTITY deleteMsgsCmd.label "Seçilmiş iletileri sil">
-<!ENTITY deleteMsgsCmd.accesskey "S">
-<!ENTITY undeleteMsgsCmd.label "Seçilen silinmiş iletileri geri al">
-<!ENTITY undeleteMsgsCmd.accesskey "a">
-<!ENTITY deleteFolderCmd.label "Dizini sil">
-<!ENTITY deleteFolderCmd.accesskey "i">
-<!ENTITY unsubscribeNewsgroupCmd.label "Abonelikten çık">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "A">
 <!ENTITY selectMenu.label "Seç">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Tümü">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "l">
 <!ENTITY menuFavoriteFolder.label "Dizini favorilere ekle">
 <!ENTITY menuFavoriteFolder.accesskey "e">
-<!ENTITY folderPropsCmd2.label "Özellikler">
-<!ENTITY folderPropsFolderCmd2.label "Dizin özellikleri">
-<!ENTITY folderPropsNewsgroupCmd2.label "Haber grubu özellikleri">
-<!ENTITY folderPropsCmd.accesskey "Ö">
 <!ENTITY undoDeleteMsgCmd.label "Silinen iletiyi geri al">
 <!ENTITY redoDeleteMsgCmd.label "İletiyi tekrar sil">
 <!ENTITY undoMoveMsgCmd.label "İleti taşımayı geri al">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "k">
 <!ENTITY showFolderPaneCmd.label "Dizin bölmesi">
 <!ENTITY showFolderPaneCmd.accesskey "D">
-<!ENTITY showFolderPaneColsCmd.label "Dizin bölmesi sütunları">
-<!ENTITY showFolderPaneColsCmd.accesskey "B">
 <!ENTITY showMessageCmd.label "İleti bölmesi">
 <!ENTITY showMessageCmd.accesskey "B">
 
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Yeni ileti">
 <!ENTITY appmenuNewContactCmd.label "Adres defteri kişisi…">
-<!ENTITY appmenuEditMenu.label "Düzenle">
 <!ENTITY appmenuToolbarLayout.label "Araç çubuğu düzeni…">
-<!ENTITY appmenuSelectThread.label "Diziyi seç">
-<!ENTITY appmenuSelectFlagged.label "Yıldızlı iletileri seç">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Yeni etiket…">
@@ -614,7 +593,7 @@
 <!ENTITY folderSizeColumn.label "Boyut">
 
 <!-- Folder Pane Context Menu -->
-<!ENTITY folderContextGetMessages.label "İletileri İndir">
+<!ENTITY folderContextGetMessages.label "İletileri indir">
 <!ENTITY folderContextGetMessages.accesskey "n">
 <!ENTITY folderContextMarkAllFoldersRead.label "Tüm dizinleri okundu olarak işaretle">
 <!ENTITY folderContextPauseAllUpdates.label "Tüm güncellemeleri duraklat">
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "y">
 <!ENTITY copyEmailCmd.label "E-posta adresini kopyala">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Durdur">
-<!ENTITY stopCmd.accesskey "D">
-<!ENTITY reloadCmd.label "Tazele">
-<!ENTITY reloadCmd.accesskey "T">
 <!ENTITY openInBrowser.label "Tarayıcıda aç">
 <!ENTITY openInBrowser.accesskey "T">
 <!ENTITY openLinkInBrowser.label "Bağlantıyı tarayıcıda aç">
