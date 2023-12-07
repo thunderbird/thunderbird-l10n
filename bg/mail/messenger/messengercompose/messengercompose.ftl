@@ -154,6 +154,50 @@ encryption-toggle =
 encryption-options-openpgp =
     .label = OpenPGP
     .tooltiptext = Преглеждане или промяна на настройките за шифриране на OpenPGP
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = Преглед или промяна на S/MIME настройките за шифроване
+signing-toggle =
+    .label = Подписване
+    .tooltiptext = Използване на цифрово подписване за това съобщение
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = M
+menu-encrypt =
+    .label = Шифроване
+    .accesskey = Ш
+menu-encrypt-subject =
+    .label = Шифроване на темата
+    .accesskey = т
+menu-sign =
+    .label = Цифрово подписване
+    .accesskey = Ц
+menu-manage-keys =
+    .label = Ключов асистент
+    .accesskey = К
+menu-view-certificates =
+    .label = Преглед на сертификатите на получателите
+    .accesskey = П
+menu-open-key-manager =
+    .label = Мениджър на ключове
+    .accesskey = М
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Липса на настройки за изпращане на шифровани от край до край съобщения от { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Шифроването от край до край изисква разрешаване на проблемите с ключовете за { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Шифроването от край до край изисква разрешаване на проблемите с ключовете за { $count } получател.
+       *[other] Шифроването от край до край изисква разрешаване на проблемите с ключовете за { $count } получателя.
+    }
 
 ## Addressing Area
 
