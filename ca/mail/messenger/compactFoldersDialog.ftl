@@ -4,6 +4,7 @@
 
 compact-dialog-window-title =
     .title = Compacta les carpetes
+compact-folders-dialog-title = Compacta les carpetes
 compact-dialog =
     .buttonlabelaccept = Compacta-les ara
     .buttonaccesskeyaccept = C
