@@ -12,6 +12,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = คีย์นี้เป็นคีย์ที่มีโครงสร้างที่ซับซ้อน จึงไม่รองรับการเปลี่ยนวันหมดอายุ
 openpgp-key-man-title =
     .title = ตัวจัดการคีย์ OpenPGP
+openpgp-key-man-dialog-title = ตัวจัดการคีย์ OpenPGP
 openpgp-key-man-generate =
     .label = คู่คีย์ใหม่
     .accesskey = ค
