@@ -1,53 +1,17 @@
-
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-intro-description = Pentru a transmite mesaje criptate sau semnate digital, trebuie să configurezi o tehnologie de criptare, fie OpenPGP, fie S/MIME.
-
 e2e-intro-description-more = Selectează cheia personală pentru a permite utilizarea OpenPGP sau certificatul personal pentru a permite utilizarea S/MIME. Pentru cheile personale sau certificate ai cheia secretă corespunzătoare.
-
-openpgp-key-user-id-label = Cont / ID utilizator
-openpgp-keygen-title-label =
-    .title = Generează cheia OpenPGP
-openpgp-cancel-key =
-    .label = Renunță
-    .tooltiptext = Renunță la generarea cheii
-openpgp-key-gen-expiry-title =
-    .label = Data de expirare a cheii
-openpgp-key-gen-expire-label = Cheia expiră în
-openpgp-key-gen-days-label =
-    .label = zile
-openpgp-key-gen-months-label =
-    .label = luni
-openpgp-key-gen-years-label =
-    .label = ani
-openpgp-key-gen-no-expiry-label =
-    .label = Cheia nu expiră
-openpgp-key-gen-key-size-label = Mărime cheie
-openpgp-key-gen-console-label = Generare de chei
-openpgp-key-gen-key-type-label = Tip de cheie
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Curbă eliptică)
-openpgp-generate-key =
-    .label = Generează cheia
-    .tooltiptext = Generează o cheie nouă conformă OpenPGP pentru criptare și/sau semnare
-openpgp-advanced-prefs-button-label =
-    .label = Avansate…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">NOTĂ: Generarea unei chei poate dura câteva minute.</a> Nu ieși din aplicație cât timp se generează o cheie. Navigarea activă pe Internet sau efectuarea de operații cu solicitarea intensivă a calculatorului în timpul generării cheilor va mări nivelul de randomizare și va accelera procesul. Va fi afișat un mesaj la finalizarea generării cheii.
-
 openpgp-key-expiry-label =
     .label = Data expirării
-
 openpgp-key-id-label =
     .label = ID cheie
-
 openpgp-cannot-change-expiry = Cheia are o structură complexă și nu permite schimbarea datei de expirare.
-
 openpgp-key-man-title =
     .title = Manager de chei OpenPGP
+openpgp-key-man-dialog-title = Manager de chei OpenPGP
 openpgp-key-man-generate =
     .label = Pereche nouă de chei
     .accesskey = K
@@ -56,7 +20,6 @@ openpgp-key-man-gen-revoke =
     .accesskey = R
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Generează și salvează un certificat de revocare
-
 openpgp-key-man-file-menu =
     .label = Fișier
     .accesskey = F
@@ -72,7 +35,6 @@ openpgp-key-man-generate-menu =
 openpgp-key-man-keyserver-menu =
     .label = Server de chei
     .accesskey = K
-
 openpgp-key-man-import-public-from-file =
     .label = Importă chei din fișier
     .accesskey = I
@@ -95,32 +57,25 @@ openpgp-key-man-send-keys =
 openpgp-key-man-backup-secret-keys =
     .label = Fă o copie de rezervă cu cheile în fișier
     .accesskey = B
-
 openpgp-key-man-discover-cmd =
     .label = Caută chei online
     .accesskey = D
 openpgp-key-man-discover-prompt = Pentru a căuta chei OpenPGP online, pe servere de chei sau folosind protocolul WKD, introdu o adresă de e-mail sau un ID de cheie.
 openpgp-key-man-discover-progress = Căutare în curs…
-
 openpgp-key-copy-key =
     .label = Copiază cheia publică
     .accesskey = C
-
 openpgp-key-export-key =
     .label = Exportă cheia publică într-un fișier
     .accesskey = E
-
 openpgp-key-backup-key =
     .label = Fă o copie de rezervă cu cheia secretă în fișier
     .accesskey = B
-
 openpgp-key-send-key =
     .label = Trimite cheia publică prin e-mail
     .accesskey = S
-
 openpgp-key-man-ctx-expor-to-file-label =
     .label = Exportă cheile într-un fișier
-
 openpgp-key-man-close =
     .label = Închide
 openpgp-key-man-reload =
@@ -168,15 +123,12 @@ openpgp-key-man-nothing-found-tooltip =
     .label = Nicio cheie nu se potrivește cu termenii de căutare
 openpgp-key-man-please-wait-tooltip =
     .label = Te rugăm să aștepți până când se încarcă cheile ...
-
 openpgp-key-man-filter-label =
     .placeholder = Caută chei
-
 openpgp-key-man-select-all-key =
     .key = A
 openpgp-key-man-key-details-key =
     .key = I
-
 openpgp-key-details-signatures-tab =
     .label = Certificări
 openpgp-key-details-structure-tab =
@@ -188,7 +140,6 @@ openpgp-key-details-id-label =
 openpgp-key-details-key-type-label = Tip
 openpgp-key-details-key-part-label =
     .label = Parte de cheie
-
 openpgp-key-details-algorithm-label =
     .label = Algoritm
 openpgp-key-details-size-label =
@@ -224,7 +175,6 @@ openpgp-personal-no-label =
     .label = Nu, nu o folosi drept cheie personală.
 openpgp-personal-yes-label =
     .label = Da, tratează această cheie drept cheie personală.
-
 openpgp-copy-cmd-label =
     .label = Copiază
 
@@ -232,52 +182,38 @@ openpgp-copy-cmd-label =
 
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Configurația ta curentă folosește cheia <b>{ $key }</b>, care a expirat.
-
 openpgp-add-key-button =
     .label = Adaugă o cheie...
     .accesskey = A
-
 e2e-learn-more = Află mai multe
-
 openpgp-keygen-success = Cheia OpenPGP a fost creată cu succes!
-
 openpgp-keygen-import-success = Cheile OpenPGP au fost importate cu succes!
-
 openpgp-keygen-external-success = ID-ul cheii externe GnuPG a fost salvat!
 
 ## OpenPGP Key selection area
 
 openpgp-radio-none =
     .label = Niciuna
-
 openpgp-radio-none-desc = Nu folosi OpenPGP pentru această identitate.
-
 #   $key (String) - the expiration date of the OpenPGP key
 openpgp-radio-key-expires = Expiră la: { $date }
-
 #   $key (String) - the expiration date of the OpenPGP key
 openpgp-radio-key-expired = Expiră la: { $date }
-
 openpgp-key-expand-section =
     .tooltiptext = Mai multe informații
-
 openpgp-key-revoke-title = Revocă cheia
-
 openpgp-key-edit-title = Schimbă cheia OpenPGP
-
 openpgp-key-edit-date-title = Prelungește perioada de valabilitate
-
 openpgp-manager-description = Folosește managerul de chei OpenPGP pentru a vizualiza și gestiona cheile publice ale persoanelor cu care corespondezi și toate celelalte chei care nu sunt enumerate mai sus.
-
 openpgp-manager-button =
     .label = Manager de chei OpenPGP
     .accesskey = K
-
 openpgp-key-remove-external =
     .label = Elimină ID cheie externă
     .accesskey = E
-
 key-external-label = Cheie GnuPG externă
+
+## Strings in keyDetailsDlg.xhtml
 
 # Strings in keyDetailsDlg.xhtml
 key-type-public = cheie publică
@@ -295,12 +231,13 @@ key-expired-simple = Cheia a expirat
 key-revoked-simple = Cheia a fost revocată
 key-do-you-accept = Accepți cheia pentru verificarea semnăturilor digitale și pentru criptarea mesajelor?
 
+## Strings enigmailMsgComposeOverlay.js
+
 # Strings enigmailMsgComposeOverlay.js
 cannot-use-own-key-because = Mesajul nu poate fi trimis pentru că a apărut o problemă la cheia ta personală. { $problem }
-cannot-encrypt-because-missing = Mesajul nu poate fi trimis criptat end-to-end deoarece sunt probleme legate de cheile următorilor destinatari: { $problem }
 window-locked = Fereastra de redactare a mesajelor este blocată; trimitere anulată
 
-mime-decrypt-encrypted-part-concealed-data = Este o parte criptată a mesajului. Trebuie să o deschizi într-o fereastră separată dând clic pe atașament.
+## Strings in keyserver.jsm
 
 # Strings in keyserver.jsm
 keyserver-error-aborted = Abandonat
@@ -312,6 +249,8 @@ keyserver-error-security-error = Serverul de chei nu are suport pentru acces cri
 keyserver-error-certificate-error = Certificatul serverului de chei nu este valid.
 keyserver-error-unsupported = Serverul de chei nu este compatibil.
 
+## Strings in mimeWkdHandler.jsm
+
 # Strings in mimeWkdHandler.jsm
 wkd-message-body-req =
     Furnizorul tău de e-mail ți-a procesat cererea de a încărca cheia publică în directorul web de chei OpenPGP.
@@ -320,11 +259,15 @@ wkd-message-body-process =
     Este un mesaj legat de procesarea automată de încărcare a cheii tale publice în directorul web de chei OpenPGP.
     Deocamdată nu este necesară nicio acțiune manuală din partea ta.
 
+## Strings in persistentCrypto.jsm
+
 # Strings in persistentCrypto.jsm
 converter-decrypt-body-failed =
     Nu s-a reușit decriptarea mesajului cu subiectul
     { $subject }.
     Vrei să încerci din nou cu altă parolă sau vrei să sari peste mesaj?
+
+## Strings filters.jsm
 
 # Strings filters.jsm
 filter-folder-required = Trebuie să selectezi un dosar-țintă.
@@ -338,10 +281,14 @@ filter-warn-key-not-secret =
     Avertisment - Acțiunea de filtrare „Criptare cu cheie” înlocuiește destinatarii.
     Dacă nu ai cheia secretă pentru „{ $desc }”, nu vei mai putea citi mesajele de e-mail.
 
+## Strings filtersWrapper.jsm
+
 # Strings filtersWrapper.jsm
 filter-decrypt-move-label = Decriptează permanent (OpenPGP)
 filter-decrypt-copy-label = Creează copie decriptată (OpenPGP)
 filter-encrypt-label = Criptează pentru cheie (OpenPGP)
+
+## Strings in enigmailKeyImportInfo.js
 
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
@@ -351,6 +298,8 @@ import-info-created = Creată
 import-info-fpr = Amprentă
 import-info-details = Vezi detaliile și gestionează acceptarea cheii
 import-info-no-keys = Nu a fost importată nicio cheie.
+
+## Strings in enigmailKeyManager.js
 
 # Strings in enigmailKeyManager.js
 import-from-clip = Vrei să imporți chei din clipboard?
@@ -395,9 +344,13 @@ dlg-button-delete = &Șterge
 
 openpgp-export-public-success = <b>Cheie publică exportată cu succes!</b>
 openpgp-export-public-fail = <b>Cheia publică selectată nu a putut fi exportată!</b>
-
 openpgp-export-secret-success = <b>Cheia secretă a fost exportată cu succes!</b>
 openpgp-export-secret-fail = <b>Cheia secretă selectată nu a putut fi exportată!</b>
+
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
 
 # Strings in keyObj.jsm
 key-ring-pub-key-revoked = Cheia { $userId } (ID cheie { $keyId }) este revocată.
@@ -410,62 +363,67 @@ key-ring-sign-sub-keys-expired = Toate subcheile de semnătură ale cheii { $use
 key-ring-enc-sub-keys-revoked = Toate subcheile de criptare ale cheii { $userId } (ID cheie { $keyId }) sunt revocate.
 key-ring-enc-sub-keys-expired = Toate subcheile de criptare ale cheii { $userId } (ID cheie { $keyId }) au expirat.
 
+## Strings in gnupg-keylist.jsm
+
 # Strings in gnupg-keylist.jsm
 keyring-photo = Fotografie
 user-att-photo = Atribut utilizator (imagine JPEG)
 
+## Strings in key.jsm
+
 # Strings in key.jsm
 already-revoked = Cheia a fost deja revocată.
-
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
     Ești pe cale să revoci cheia '{ $identity }'.
     Nu vei mai putea semna cu această cheie și, odată distribuită, alții nu vor mai putea cripta cu ea. O poți folosi în continuare la decriptarea mesajelor vechi.
     Vrei să continui?
-
 #   $keyId (String) - the id of the key being revoked
 revoke-key-not-present =
     Nu ai nicio cheie (0x{ $keyId }) potrivit cu acest certificat de revocare!
     Dacă ți-ai pierdut cheia, trebuie să o imporți (de ex., de pe un server de chei) înainte de a importa certificatul de revocare!
-
 #   $keyId (String) - the id of the key being revoked
 revoke-key-already-revoked = Cheia 0x{ $keyId } a fost deja revocată.
-
 key-man-button-revoke-key = &Revocă cheia
-
 openpgp-key-revoke-success = Cheia a fost revocată cu succes.
-
 after-revoke-info =
     Cheia a fost revocată.
     Partajează iar această cheie publică, trimițând-o prin e-mail sau încărcând-o pe serverele de chei, pentru a-i anunța pe ceilalți că ai revocat-o.
     Imediat ce software-ul folosit de ceilalți găsește informația despre revocare, acesta va înceta să îți mai folosească cheia veche.
     Dacă folosești o cheie nouă pentru aceeași adresă de e-mail și atașezi cheia publică nouă la mesajele pe care le trimiți prin e-mail, atunci informațiile despre cheia veche revocată vor fi incluse automat.
 
+## Strings in keyRing.jsm & decryption.jsm
+
 # Strings in keyRing.jsm & decryption.jsm
 key-man-button-import = &Importă
-
 delete-key-title = Șterge cheia OpenPGP
-
 delete-external-key-title = Elimină cheia externă GnuPG
-
 delete-external-key-description = Vrei să ștergi acest ID de cheie externă GnuPG?
-
 key-in-use-title = Cheie OpenPGP utilizată în prezent
-
 delete-key-in-use-description = Nu se poate continua! Cheia selectată pentru ștergere este utilizată în prezent de această identitate. Selectează o cheie diferită sau nu selecta niciuna și încearcă din nou.
-
 revoke-key-in-use-description = Nu se poate continua! Cheia selectată pentru revocare este utilizată în prezent de această identitate. Selectează o cheie diferită sau nu selecta niciuna și încearcă din nou.
+
+## Strings used in errorHandling.jsm
 
 # Strings used in errorHandling.jsm
 key-error-key-spec-not-found = Adresa de e-mail „{ $keySpec }” nu poate fi corelată cu o cheie din fișierul de chei.
 key-error-key-id-not-found = ID-ul cheii configurate „{ $keySpec }” nu se regăsește în fișierul de chei.
 key-error-not-accepted-as-personal = Nu ai confirmat cheia cu ID-ul „{ $keySpec }” drept cheie personală.
 
+## Strings used in enigmailKeyManager.js & windows.jsm
+
 # Strings used in enigmailKeyManager.js & windows.jsm
 need-online = Funcția pe care ai selectat-o nu este disponibilă în modul offline. Treci în modul online și încearcă din nou.
 
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
 # Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 fail-key-extract = Eroare - Comanda de extragere a cheii a eșuat
+
+## Strings used in keyRing.jsm
 
 # Strings used in keyRing.jsm
 fail-cancel = Eroare - Recepția cheii a fost anulată de utilizator
@@ -475,6 +433,8 @@ fail-key-import = Eroare - Importul cheii a eșuat
 file-write-failed = Nu s-a reușit scrierea în fișierul { $output }
 no-pgp-block = Eroare - Nu s-a găsit niciun bloc valid de date blindate OpenPGP
 confirm-permissive-import = Importul a eșuat. Cheia pe care încerci să o imporți poate fi coruptă sau folosește atribute necunoscute. Vrei să încerci să imporți părțile corecte? Poate conduce la importarea de chei incomplete și neutilizabile.
+
+## Strings used in trust.jsm
 
 # Strings used in trust.jsm
 key-valid-unknown = necunoscută
@@ -488,13 +448,16 @@ key-trust-full = de încredere
 key-trust-ultimate = absolută
 key-trust-group = (grupă)
 
+## Strings used in commonWorkflows.js
+
 # Strings used in commonWorkflows.js
 import-key-file = Importă un fișier de chei OpenPGP
 import-rev-file = Importă un fișier de revocare OpenPGP
 gnupg-file = Fișiere GnuPG
 import-keys-failed = Importul cheilor a eșuat
-passphrase-prompt = Introdu parola de deblocare a cheii următoare: { $key }
 file-to-big-to-import = Fișierul este prea mare. Nu importa un set mare de chei deodată.
+
+## Strings used in enigmailKeygen.js
 
 # Strings used in enigmailKeygen.js
 save-revoke-cert-as = Creează și salvează certificatul de revocare
@@ -510,12 +473,11 @@ key-abort = Abandonezi generarea cheilor?
 key-man-button-generate-key-abort = &Abandonează generarea cheilor
 key-man-button-generate-key-continue = &Continuă generarea cheilor
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
 
 # Strings used in enigmailMessengerOverlay.js
 failed-decrypt = Eroare - decriptarea a eșuat
 fix-broken-exchange-msg-failed = Repararea mesajului nu a reușit.
-
 attachment-no-match-from-signature = Fișierul de semnătură „{ $attachment }” nu a putut fi corelat la un atașament
 attachment-no-match-to-signature = Atașamentul „{ $attachment }” nu a putut fi corelat la un fișier de semnătură
 signature-verified-ok = Semnătura pentru atașamentul { $attachment } a fost verificată cu succes
@@ -525,6 +487,8 @@ decrypt-ok-no-sig =
     Decriptarea a fost efectuată cu succes, dar semnătura nu a putut fi verificată corect
 msg-ovl-button-cont-anyway = &Continuă oricum
 enig-content-note = *Atașamentele acestui mesaj nu au fost semnate, nici criptate*
+
+## Strings used in enigmailMsgComposeOverlay.js
 
 # Strings used in enigmailMsgComposeOverlay.js
 msg-compose-button-send = &Trimite mesajul
@@ -560,6 +524,8 @@ possibly-pgp-mime = Mesaj posibil criptat sau semnat cu PGP/MIME; folosește fun
 cannot-send-sig-because-no-own-key = Mesajul nu poate fi semnat digital pentru că nu ai configurat criptarea end-to-end pentru <{ $key }>
 cannot-send-enc-because-no-own-key = Mesajul nu poate fi criptat pentru că nu ai configurat criptarea end-to-end pentru <{ $key }>
 
+## Strings used in decryption.jsm
+
 # Strings used in decryption.jsm
 do-import-multiple =
     Imporți cheile următoare?
@@ -575,16 +541,24 @@ attachment-pgp-key =
     Dă clic pe „Import” ca să imporți cheile incluse sau pe „Afișare” ca să vezi conținutul fișierului într-o fereastră de browser
 dlg-button-view = &Afișare
 
+## Strings used in enigmailMsgHdrViewOverlay.js
+
 # Strings used in enigmailMsgHdrViewOverlay.js
 decrypted-msg-with-format-error = Mesaj decriptat (format de e-mail PGP defect restaurat, probabil produs de un server Exchange vechi, deci rezultatul ar putea să nu fie perfect lizibil)
 
+## Strings used in encryption.jsm
+
 # Strings used in encryption.jsm
 not-required = Eroare - Nu necesită nicio criptare
+
+## Strings used in windows.jsm
 
 # Strings used in windows.jsm
 no-photo-available = Nicio fotografie disponibilă
 error-photo-path-not-readable = Calea către fotografia „{ $photo }” nu este lizibilă
 debug-log-title = Jurnal de depanare OpenPGP
+
+## Strings used in dialog.jsm
 
 # Strings used in dialog.jsm
 repeat-prefix = Alerta se va repeta { $count }
@@ -601,9 +575,13 @@ enig-confirm = Confirmare OpenPGP
 enig-alert = Alertă OpenPGP
 enig-info = Informații OpenPGP
 
+## Strings used in persistentCrypto.jsm
+
 # Strings used in persistentCrypto.jsm
 dlg-button-retry = &Reîncearcă
 dlg-button-skip = &Sari peste
+
+## Strings used in enigmailMsgBox.js
 
 enig-alert-title =
     .title = Alertă OpenPGP
