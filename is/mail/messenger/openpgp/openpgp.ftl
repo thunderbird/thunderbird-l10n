@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Senda OpenPGP-dreifilykil/lykla í tölvupósthausum til að halda samhæfni við Autocrypt
     .accesskey = p
-openpgp-key-user-id-label = Reikningur / Notandaauðkenni
-openpgp-keygen-title-label =
-    .title = Útbúa OpenPGP-lykil
-openpgp-cancel-key =
-    .label = Hætta við
-    .tooltiptext = Hætta við að útbúa lykil
-openpgp-key-gen-expiry-title =
-    .label = Gildistími lykils
-openpgp-key-gen-expire-label = Lykill rennur út eftir
-openpgp-key-gen-days-label =
-    .label = dagar
-openpgp-key-gen-months-label =
-    .label = mánuðir
-openpgp-key-gen-years-label =
-    .label = ár
-openpgp-key-gen-no-expiry-label =
-    .label = Lykill rennur ekki út
-openpgp-key-gen-key-size-label = Stærð lykils
-openpgp-key-gen-console-label = Lyklagerð
-openpgp-key-gen-key-type-label = Tegund lykils
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
-openpgp-generate-key =
-    .label = Útbúa lykil
-    .tooltiptext = Útbýr nýjan OpenPGP-samhæfðan lykil fyrir dulritun og/eða undirritun
-openpgp-advanced-prefs-button-label =
-    .label = Ítarlegt…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">ATHUGAÐU: Það getur tekið allt að nokkrar mínútur að búa til lykla.</a> Ekki hætta í forritinu á meðan lyklagerð er í gangi. Sé verið að vafra eða framkvæma diskfrekar aðgerðir meðan á lyklagerð stendur endurnýjar það tilviljunarkennt úrtak tölvunnar (randomness pool) og flýtir fyrir ferlinu. Þú færð aðvörun þegar lyklagerð er lokið.
 openpgp-key-created-label =
     .label = Búið til
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Þetta er lykill með flókna uppbyggingu, það er ekki stuðningur við að breyta fyrningardagsetningu hans.
 openpgp-key-man-title =
     .title = OpenPGP lyklastýring
+openpgp-key-man-dialog-title = OpenPGP lyklastýring
 openpgp-key-man-generate =
     .label = Nýtt lyklapar
     .accesskey = k
@@ -415,10 +386,7 @@ key-verification = Staðfestu fingrafar lykilsins með því að nota örugga sa
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Ekki er hægt að senda skilaboðin vegna þess að það er vandamál með persónulega lykilinn þinn. { $problem }
-cannot-encrypt-because-missing = Ekki er hægt að senda þessi skilaboð með enda-í-enda dulritun vegna þess að vandamál eru með dulritunarlykla eftirfarandi viðtakenda: { $problem }
 window-locked = Skrifgluggi er læstur; hætt við sendingu
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Þetta er dulritaður hluti skilaboða. Þú þarft að opna það í sérstökum glugga með því að smella á viðhengið.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = Flytja inn OpenPGP-lykilskrá
 import-rev-file = Flytja inn OpenPGP-afturköllunarskrá
 gnupg-file = GnuPG-skrár
 import-keys-failed = Mistókst að flytja inn lyklana
-passphrase-prompt = Settu inn aðgangsorðið til að aflæsa eftirfarandi lykli: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
