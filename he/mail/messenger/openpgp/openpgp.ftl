@@ -1,39 +1,13 @@
-
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-advanced-section = הגדרות מתקדמות
-
-openpgp-key-user-id-label = חשבון / מזהה משתמש
-openpgp-keygen-title-label =
-    .title = ייצור מפתח OpenPGP
-openpgp-cancel-key =
-    .label = ביטול
-    .tooltiptext = ביטול ייצור מפתח
-openpgp-key-gen-days-label =
-    .label = ימים
-openpgp-key-gen-months-label =
-    .label = חודשים
-openpgp-key-gen-years-label =
-    .label = שנים
-openpgp-key-gen-key-size-label = גודל מפתח
-openpgp-key-gen-key-type-label = סוג מפתח
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ‏ECC (עקומה אליפטית)
-openpgp-advanced-prefs-button-label =
-    .label = מתקדם…
-
 openpgp-key-id-label =
     .label = מזהה מפתח
-
 openpgp-cannot-change-expiry = זהו מפתח עם מבנה מורכב, שינוי תאריך התפוגה שלו אינו נתמך.
-
 openpgp-key-man-title =
     .title = מנהל מפתחות OpenPGP
-
 openpgp-key-man-file-menu =
     .label = קובץ
     .accesskey = ק
@@ -46,11 +20,9 @@ openpgp-key-man-view-menu =
 openpgp-key-man-generate-menu =
     .label = ייצור
     .accesskey = י
-
 openpgp-key-man-ctx-copy =
     .label = העתקה
     .accesskey = ה
-
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -58,7 +30,6 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] טביעות אצבע
         }
     .accesskey = ט
-
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -66,7 +37,6 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] מזהי מפתח
         }
     .accesskey = מ
-
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -74,7 +44,6 @@ openpgp-key-man-ctx-copy-public-keys =
            *[other] מפתחות ציבוריים
         }
     .accesskey = צ
-
 openpgp-key-man-close =
     .label = סגירה
 openpgp-key-man-change-expiry =
@@ -116,10 +85,8 @@ openpgp-key-man-nothing-found-tooltip =
     .label = אין מפתחות שתואמים למונחי החיפוש שלך
 openpgp-key-man-please-wait-tooltip =
     .label = נא להמתין בזמן טעינת המפתחות...
-
 openpgp-key-man-filter-label =
     .placeholder = חיפוש אחר מפתחות
-
 openpgp-key-details-signatures-tab =
     .label = אישורים
 openpgp-key-details-structure-tab =
@@ -127,7 +94,6 @@ openpgp-key-details-structure-tab =
 openpgp-key-details-id-label =
     .label = מזהה
 openpgp-key-details-key-type-label = סוג
-
 openpgp-key-details-algorithm-label =
     .label = אלגוריתם
 openpgp-key-details-size-label =
@@ -146,7 +112,6 @@ openpgp-key-details-sel-action =
     .accesskey = ב
 openpgp-card-details-close-window-label =
     .buttonlabelaccept = סגירה
-
 openpgp-copy-cmd-label =
     .label = העתקה
 
@@ -155,50 +120,37 @@ openpgp-copy-cmd-label =
 openpgp-add-key-button =
     .label = הוספת מפתח…
     .accesskey = ה
-
 e2e-learn-more = מידע נוסף
-
 openpgp-keygen-success = מפתח OpenPGP נוצר בהצלחה!
-
 openpgp-keygen-import-success = מפתחות OpenPGP יובאו בהצלחה!
-
 openpgp-keygen-external-success = מזהה מפתח GnuPG חיצוני נשמר!
 
 ## OpenPGP Key selection area
 
 openpgp-radio-none =
     .label = ללא
-
 openpgp-radio-none-desc = לא להשתמש ב־OpenPGP עבור זהות זו.
-
 openpgp-radio-key-not-usable = מפתח זה אינו שמיש כמפתח אישי, כי המפתח הסודי חסר!
 openpgp-radio-key-not-accepted = כדי להשתמש במפתח זה עליך לאשר אותו כמפתח אישי!
 openpgp-radio-key-not-found = מפתח זה לא נמצא! אם ברצונך להשתמש בו, עליך לייבא אותו אל { -brand-short-name }.
-
 #   $key (String) - the expiration date of the OpenPGP key
 openpgp-radio-key-expires = יפוג בתאריך: { $date }
-
 #   $key (String) - the expiration date of the OpenPGP key
 openpgp-radio-key-expired = פג בתאריך: { $date }
-
 openpgp-key-expires-within-6-months-icon =
     .title = תוקף המפתח יפוג בעוד פחות מ־6 חודשים
-
 openpgp-key-has-expired-icon =
     .title = פג תוקף המפתח
-
 openpgp-key-expand-section =
     .tooltiptext = מידע נוסף
-
 openpgp-key-edit-title = שינוי מפתח OpenPGP
-
 openpgp-key-edit-date-title = הארכת תאריך התפוגה
-
 openpgp-key-remove-external =
     .label = הסרת מזהה מפתח חיצוני
     .accesskey = ס
-
 key-external-label = מפתח GnuPG חיצוני
+
+## Strings in keyDetailsDlg.xhtml
 
 # Strings in keyDetailsDlg.xhtml
 key-type-public = מפתח ציבורי
@@ -207,9 +159,96 @@ key-type-subkey = מפתח משנה
 key-expired-date = תוקף המפתח פג ב־{ $keyExpiry }
 key-expired-simple = פג תוקף המפתח
 
+## Strings enigmailMsgComposeOverlay.js
+
+
+## Strings in keyserver.jsm
+
+
+## Strings in mimeWkdHandler.jsm
+
+
+## Strings in persistentCrypto.jsm
+
+
+## Strings filters.jsm
+
+
+## Strings filtersWrapper.jsm
+
+
+## Strings in enigmailKeyImportInfo.js
+
+
+## Strings in enigmailKeyManager.js
+
+
 ## Account settings export output
+
+
+## Strings in keyObj.jsm
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
+
+## Strings in gnupg-keylist.jsm
+
+
+## Strings in key.jsm
+
+
+## Strings in keyRing.jsm & decryption.jsm
+
+
+## Strings used in errorHandling.jsm
+
+
+## Strings used in enigmailKeyManager.js & windows.jsm
+
+
+## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+
+## Strings used in keyRing.jsm
+
+
+## Strings used in trust.jsm
+
+
+## Strings used in commonWorkflows.js
+
+
+## Strings used in enigmailKeygen.js
 
 expiry-too-long = לא ניתן ליצור מפתח שתוקפו יפוג בעוד יותר ממאה שנה.
 
-# Strings used in enigmailMessengerOverlay.js
+## Strings used in enigmailMessengerOverlay.js
+
+
+## Strings used in enigmailMsgComposeOverlay.js
+
+
+## Strings used in decryption.jsm
+
+
+## Strings used in enigmailMsgHdrViewOverlay.js
+
+
+## Strings used in encryption.jsm
+
+
+## Strings used in windows.jsm
+
+
+## Strings used in dialog.jsm
+
+
+## Strings used in persistentCrypto.jsm
+
+
+## Strings used in enigmailMsgBox.js
 
