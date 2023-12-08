@@ -34,6 +34,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = ეს გასაღები რთული აგებულებისაა, მისი ვადის ცვლილება, არ არის მხარდაჭერილი.
 openpgp-key-man-title =
     .title = OpenPGP-გასაღების მმართველი
+openpgp-key-man-dialog-title = OpenPGP-გასაღების მმართველი
 openpgp-key-man-generate =
     .label = გასაღებების ახალი წყვილი
     .accesskey = ღ
