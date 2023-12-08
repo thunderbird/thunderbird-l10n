@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = Integreiddio System
+system-integration-dialog-title = Integreiddio System
 system-integration-dialog =
     .buttonlabelaccept = Gosod fel y Rhagosodiad
     .buttonlabelcancel = Hepgor Integreiddio
