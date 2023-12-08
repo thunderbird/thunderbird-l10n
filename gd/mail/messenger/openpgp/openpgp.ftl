@@ -29,30 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Cuir iuchraichean poblach OpenPGP ann am bannan-cinn puist-d airson co-chòrdalachd le Autocrypt
     .accesskey = t
-openpgp-key-user-id-label = Cunntas/ID a’ chleachdaiche
-openpgp-keygen-title-label =
-    .title = Gin iuchair OpenPGP
-openpgp-cancel-key =
-    .label = Sguir dheth
-    .tooltiptext = Sguir de ghintinn na h-iuchrach
-openpgp-key-gen-expiry-title =
-    .label = Cuin a dh’fhalbhas an ùine air an iuchair
-openpgp-key-gen-expire-label = Falbhaidh an ùine air an iuchair ann an
-openpgp-key-gen-no-expiry-label =
-    .label = Chan fhalbh an ùine air an iuchair
-openpgp-key-gen-key-size-label = Meud na h-iuchrach
-openpgp-key-gen-console-label = Gintinn na h-iuchrach
-openpgp-key-gen-key-type-label = Seòrsa na h-iuchrach
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
-openpgp-generate-key =
-    .label = Gin iuchair
-    .tooltiptext = Ginidh seo iuchair ùr a ghèilleas ri OpenPGP airson crioptachadh agus/no soidhneadh
-openpgp-advanced-prefs-button-label =
-    .label = Adhartach…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">Dh’fhaoidte gun toir gintinn na h-iuchrach grunn mhionaidean.</a> Na fàg an aplacaid fhad ’s a tha an iuchair ga gintinn. Ma nì thu brabhsadh no rudan a bhios trom air an diosg fhad ’s a tha an iuchair ga gintinn, ath-lìonaidh sin an “randomness pool” agus cuiridh sin spionnadh sa phròiseas. Gheibh thu brath nuair a bhios an iuchair air a gintinn.
 openpgp-key-created-label =
     .label = Air a chruthachadh
 openpgp-key-expiry-label =
@@ -62,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Seo iuchair aig a bheil structar toinnte, chan urrainn dhut an ceann-là a dh’fhalbhas an ùine air atharrachadh.
 openpgp-key-man-title =
     .title = Manaidsear iuchraichean OpenPGP
+openpgp-key-man-dialog-title = Manaidsear iuchraichean OpenPGP
 openpgp-key-man-generate =
     .label = Paidhir iuchraichean ùr
     .accesskey = P
@@ -356,10 +333,7 @@ key-verification = Dearbh lorg-meòir na h-iuchrach slighe seanail conaltraidh t
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Chan urrainn dhuinn an teachdaireachd a chur a chionn ’s gu bheil duilgheadas leis an iuchair phearsanta agad. { $problem }
-cannot-encrypt-because-missing = Chan urrainn dhuinn an teachdaireachd seo a chur le crioptachadh ceann ri ceann a chionn ’s gu bheil duilgheadasan ann le iuchraichean nam faightearan a leanas: { $problem }
 window-locked = Tha an uinneag sgrìobhaidh glaiste; sguireadh dhen chur
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Seo cuid dhen teachdaireachd a tha crioptaichte. Feumaidh tu fhosgladh ann an uinneag fa leth le bhith a’ briogadh air a’ cheanglachan.#
 
 ## Strings in keyserver.jsm
 
