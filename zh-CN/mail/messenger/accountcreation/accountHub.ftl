@@ -80,3 +80,4 @@ account-hub-username-label = 用户名
 account-hub-adding-account-title = 正在添加账户
 account-hub-adding-account-subheader = 正在重新测试账户配置
 account-hub-account-added-title = 账户已添加
+account-hub-find-settings-failed = { -brand-full-name } 未能找到您的邮件账户设置。
