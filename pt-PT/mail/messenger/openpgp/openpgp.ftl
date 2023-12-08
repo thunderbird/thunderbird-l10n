@@ -5,36 +5,6 @@
 e2e-intro-description = Para enviar mensagens encriptadas ou assinadas digitalmente, tem de configurar uma tecnologia de encriptação, OpenPGP ou S/MIME.
 e2e-intro-description-more = Selecione a sua chave pessoal para ativar a utilização do OpenPGP, ou o seu certificado pessoal para ativar a utilização do S/MIME. Para uma chave ou certificado pessoal, você possui a respetiva chave secreta.
 e2e-signing-description = Uma assinatura digital permite que os destinatários verifiquem que a mensagem foi enviada por si e se o seu conteúdo não foi alterado. As mensagens encriptadas são assinadas por predefinição
-openpgp-key-user-id-label = Conta / ID do utilizador
-openpgp-keygen-title-label =
-    .title = Gerar chave OpenPGP
-openpgp-cancel-key =
-    .label = Cancelar
-    .tooltiptext = Cancelar geração da chave
-openpgp-key-gen-expiry-title =
-    .label = Validade da chave
-openpgp-key-gen-expire-label = A chave expira em
-openpgp-key-gen-days-label =
-    .label = dias
-openpgp-key-gen-months-label =
-    .label = meses
-openpgp-key-gen-years-label =
-    .label = anos
-openpgp-key-gen-no-expiry-label =
-    .label = A chave não expira
-openpgp-key-gen-key-size-label = Tamanho da chave
-openpgp-key-gen-console-label = Geração da chave
-openpgp-key-gen-key-type-label = Tipo de chave
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (curva elíptica)
-openpgp-generate-key =
-    .label = Gerar chave
-    .tooltiptext = Gera uma nova chave compatível com o OpenPGP para encriptação e/ou assinatura
-openpgp-advanced-prefs-button-label =
-    .label = Avançado…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">Nota: A geração da chave pode demorar vários minutos para ser concluída.</a> Não saia da aplicação enquanto a geração da chave estiver em curso. Navegar ativamente ou realizar operações com uma utilização intensiva do disco durante a geração da chave irá reabastecer a 'fonte de aleatoriedade' e acelerar o processo. Será alertado quando a geração da chave for concluída.
 openpgp-key-expiry-label =
     .label = Validade
 openpgp-key-id-label =
@@ -42,6 +12,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Esta é uma chave com uma estrutura complexa. Não é possível alterar a respetiva data de validade.
 openpgp-key-man-title =
     .title = Gestor de chaves OpenPGP
+openpgp-key-man-dialog-title = Gestor de chaves OpenPGP
 openpgp-key-man-generate =
     .label = Novo par de chaves
     .accesskey = v
@@ -324,10 +295,7 @@ key-do-you-accept = Aceita esta chave para validar assinaturas digitais e para e
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Não foi possível enviar a mensagem porque existe um problema com a sua chave pessoal. { $problem }
-cannot-encrypt-because-missing = Não foi possível enviar esta mensagem com encriptação ponto a ponto, porque existem problemas com as chaves dos seguintes destinatários: { $problem }
 window-locked = A janela de composição está bloqueada; envio cancelado
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Esta é uma parte encriptada da mensagem. Você precisa de abrir a mesma numa janela separada clicando no anexo.
 
 ## Strings in keyserver.jsm
 
@@ -548,9 +516,6 @@ import-key-file = Importar ficheiro de chave OpenPGP
 import-rev-file = Importar ficheiro de revogação OpenPGP
 gnupg-file = Ficheiros GnuPG
 import-keys-failed = A importação das chaves falhou
-# Variables:
-# $key (String) - Key id to unlock.
-passphrase-prompt = Por favor, especifique a frase secreta que desbloqueia a seguinte chave: { $key }
 file-to-big-to-import = Este ficheiro é demasiado grande. Não importe um grande conjunto de chaves de uma vez.
 
 ## Strings used in enigmailKeygen.js
