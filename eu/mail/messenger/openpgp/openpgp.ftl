@@ -36,6 +36,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Hau egitura konplexuko gakoa da, bere iraungitze data aldaketa ez da onartzen.
 openpgp-key-man-title =
     .title = OpenPGP gako kudeatzailea
+openpgp-key-man-dialog-title = OpenPGP gako kudeatzailea
 openpgp-key-man-generate =
     .label = Gako pare berria
     .accesskey = p
