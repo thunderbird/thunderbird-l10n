@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-compact-dialog-window =
-    .title = Komprimera mappar
-    .style = width: 50em;
 compact-dialog-window-title =
     .title = Komprimera mappar
+compact-folders-dialog-title = Komprimera mappar
 compact-dialog =
     .buttonlabelaccept = Komprimera nu
     .buttonaccesskeyaccept = n
