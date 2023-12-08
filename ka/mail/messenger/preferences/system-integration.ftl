@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = სისტემური ინტეგრაცია
+system-integration-dialog-title = სისტემური ინტეგრაცია
 system-integration-dialog =
     .buttonlabelaccept = გახდეს ნაგულისხმევი
     .buttonlabelcancel = ჩამატების გამოტოვება
