@@ -8,6 +8,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = זהו מפתח עם מבנה מורכב, שינוי תאריך התפוגה שלו אינו נתמך.
 openpgp-key-man-title =
     .title = מנהל מפתחות OpenPGP
+openpgp-key-man-dialog-title = מנהל מפתחות OpenPGP
 openpgp-key-man-file-menu =
     .label = קובץ
     .accesskey = ק
