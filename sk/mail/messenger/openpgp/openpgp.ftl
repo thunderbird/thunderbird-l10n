@@ -38,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Toto je kľúč so zložitou štruktúrou, zmena jeho dátumu platnosti nie je podporovaná.
 openpgp-key-man-title =
     .title = Správca kľúčov OpenPGP
+openpgp-key-man-dialog-title = Správca kľúčov OpenPGP
 openpgp-key-man-generate =
     .label = Nový pár kľúčov
     .accesskey = N
