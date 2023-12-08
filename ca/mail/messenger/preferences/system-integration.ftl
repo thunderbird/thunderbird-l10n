@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = Integració amb el sistema
+system-integration-dialog-title = Integració amb el sistema
 system-integration-dialog =
     .buttonlabelaccept = Defineix per defecte
     .buttonlabelcancel = Omet la integració
