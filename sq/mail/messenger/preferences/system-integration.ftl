@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = Integrim me Sistemin
+system-integration-dialog-title = Integrim me Sistemin
 system-integration-dialog =
     .buttonlabelaccept = Vëre si Parazgjedhje
     .buttonlabelcancel = Anashkaloje Integrimin
