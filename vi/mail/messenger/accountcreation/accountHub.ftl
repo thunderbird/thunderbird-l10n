@@ -80,3 +80,4 @@ account-hub-username-label = Tên đăng nhập
 account-hub-adding-account-title = Đang thêm tài khoản
 account-hub-adding-account-subheader = Kiểm tra lại cài đặt cấu hình tài khoản
 account-hub-account-added-title = Đã thêm tài khoản
+account-hub-find-settings-failed = { -brand-full-name } không tìm thấy cài đặt cho tài khoản email của bạn.

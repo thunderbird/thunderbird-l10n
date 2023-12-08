@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Chỉ báo hoạt động
 toolbar-throbber =
     .title = Chỉ báo hoạt động
+toolbar-create-contact-label = Liên hệ mới
+toolbar-create-contact =
+    .title = Tạo một liên hệ mới
+toolbar-create-address-book-label = Sổ địa chỉ mới
+toolbar-create-address-book =
+    .title = Tạo một sổ địa chỉ mới
+toolbar-create-list-label = Danh sách mới
+toolbar-create-list =
+    .title = Tạo một danh sách gửi thư mới
+toolbar-import-contacts-label = Nhập
+toolbar-import-contacts =
+    .title = Nhập liên hệ từ tập tin
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Thêm sổ địa chỉ cục bộ
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Thêm sổ địa chỉ CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Thêm sổ địa chỉ LDAP
