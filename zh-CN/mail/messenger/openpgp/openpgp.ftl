@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = 在发送邮件头中包含 OpenPGP 公钥，以与 Autocrypt 功能兼容
     .accesskey = t
-openpgp-key-user-id-label = 账户 / 用户 ID
-openpgp-keygen-title-label =
-    .title = 生成 OpenPGP 密钥
-openpgp-cancel-key =
-    .label = 取消
-    .tooltiptext = 取消生成密钥
-openpgp-key-gen-expiry-title =
-    .label = 密钥到期日
-openpgp-key-gen-expire-label = 密钥过期时间
-openpgp-key-gen-days-label =
-    .label = 天
-openpgp-key-gen-months-label =
-    .label = 月
-openpgp-key-gen-years-label =
-    .label = 年
-openpgp-key-gen-no-expiry-label =
-    .label = 密钥永不过期
-openpgp-key-gen-key-size-label = 密钥大小
-openpgp-key-gen-console-label = 密钥生成方式
-openpgp-key-gen-key-type-label = 密钥类型
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC（椭圆曲线）
-openpgp-generate-key =
-    .label = 生成密钥
-    .tooltiptext = 生成新的 OpenPGP 兼容密钥，进行加密与/或签名
-openpgp-advanced-prefs-button-label =
-    .label = 高级…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">注意：密钥生成可能需要几分才能完成。</a></b>密钥生成过程中，请不要关闭应用程序。主动浏览上网，或进行频繁读写磁盘操作，可补充“随机数池”以加速密钥生成。完成后将提示您密钥已生成。
 openpgp-key-created-label =
     .label = 创建于
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = 该密钥结构复杂，不支持更改到期日。
 openpgp-key-man-title =
     .title = OpenPGP 密钥管理器
+openpgp-key-man-dialog-title = OpenPGP 密钥管理器
 openpgp-key-man-generate =
     .label = 生成新密钥对
     .accesskey = K
@@ -406,10 +377,7 @@ key-verification = 请使用电子邮件以外的安全通信方式验证密钥�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = 您的个人密钥有问题，无法发送消息。{ $problem }
-cannot-encrypt-because-missing = 由于下列收件人的密钥有问题，无法用端到端加密的方式发送此消息：{ $problem }
 window-locked = 邮件撰写窗口已锁定；取消发送
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = 这是加密过的消息部分。请点击附件用单独视窗打开。
 
 ## Strings in keyserver.jsm
 
@@ -601,7 +569,6 @@ import-key-file = 导入 OpenPGP 密钥文件
 import-rev-file = 导入 OpenPGP 吊销文件
 gnupg-file = GnuPG 文件
 import-keys-failed = 导入密钥失败
-passphrase-prompt = 请输入可解密下列密钥的密语：{ $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
