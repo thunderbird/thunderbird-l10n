@@ -80,3 +80,4 @@ account-hub-username-label = Пайдаланушы аты
 account-hub-adding-account-title = Тіркелгіні қосу
 account-hub-adding-account-subheader = Тіркелгі баптауларын қайта тексерілуде
 account-hub-account-added-title = Тіркелгі қосылды
+account-hub-find-settings-failed = { -brand-full-name } сіздің эл. пошта тіркелгісі үшін баптауларды таба алмады.
