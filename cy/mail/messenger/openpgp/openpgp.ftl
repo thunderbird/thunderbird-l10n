@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Anfonwch allwedd(i) cyhoeddus OpenPGP ym mhenawdau'r e-bost i sicrhau eu bod yn gydnaws ag Autocrypt
     .accesskey = A
-openpgp-key-user-id-label = Cyfrif / ID Defnyddiwr
-openpgp-keygen-title-label =
-    .title = Cynhyrchu Allwedd OpenPGP
-openpgp-cancel-key =
-    .label = Diddymu
-    .tooltiptext = Diddymu Cynhyrchu Allwedd
-openpgp-key-gen-expiry-title =
-    .label = Allwedd yn dod i ben
-openpgp-key-gen-expire-label = Allwedd yn dod i ben ymhen
-openpgp-key-gen-days-label =
-    .label = diwrnod
-openpgp-key-gen-months-label =
-    .label = mis
-openpgp-key-gen-years-label =
-    .label = b/mlynedd
-openpgp-key-gen-no-expiry-label =
-    .label = Nid yw'r allwedd yn dod i ben
-openpgp-key-gen-key-size-label = Maint yr allwedd
-openpgp-key-gen-console-label = Cynhyrchu Allwedd
-openpgp-key-gen-key-type-label = Math o allwedd
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Cromlin Eliptig)
-openpgp-generate-key =
-    .label = Cynhyrchu allwedd
-    .tooltiptext = Yn cynhyrchu allwedd OpenPGP cydymffurfiol ar gyfer amgryptiad a/neu lofnodi
-openpgp-advanced-prefs-button-label =
-    .label = Uwch…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">SYLWCH: Gall cynhyrchu allweddol gymryd rhai munudau i'w gwblhau.</a> Peidiwch â gadael y rhaglen tra bo'r allwedd yn cael ei gynhyrchu. Bydd pori neu berfformio gweithrediadau disg-ddwys yn ystod cynhyrchu'r allwedd yn ailgyflenwi'r 'gronfa ar hap' ac yn cyflymu'r broses. Cewch eich rhybuddio pan fydd cynhyrchu'r allweddol wedi'i gwblhau.
 openpgp-key-created-label =
     .label = Crëwyd
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Mae hwn yn allwedd gyda strwythur cymhleth, nid yw newid ei ddyddiad dod i ben yn cael ei gefnogi.
 openpgp-key-man-title =
     .title = Rheolwr Allweddi OpenPGP
+openpgp-key-man-dialog-title = Rheolwr Allweddi OpenPGP
 openpgp-key-man-generate =
     .label = Pâr Allweddi Newydd
     .accesskey = P
@@ -443,10 +414,7 @@ key-verification = Dilyswch bysbrint yr allwedd gan ddefnyddio sianel gyfathrebu
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Methu anfon y neges, oherwydd mae problem gyda'ch allwedd bersonol. { $problem }
-cannot-encrypt-because-missing = Methu anfon y neges hon gydag amgryptio pen-i-ben, oherwydd mae problemau gydag allweddi'r derbynwyr canlynol: { $problem }
 window-locked = Mae'r ffenestr gyfansoddi wedi'i chloi; anfon wedi'i ddiddymu
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Mae hon yn rhan o neges wedi'i hamgryptio. Mae angen i chi ei hagor mewn ffenestr ar wahân trwy glicio ar yr atodiad.
 
 ## Strings in keyserver.jsm
 
@@ -669,7 +637,6 @@ import-key-file = Mewnforio Ffeil Allwedd OpenPGP
 import-rev-file = Mewnforio Ffeil Dirymu OpenPGP
 gnupg-file = Ffeiliau GnuPG
 import-keys-failed = Methodd mewnforio'r allweddi
-passphrase-prompt = Rhowch yr cyfrinymadrodd sy'n datgloi'r allwedd ganlynol: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
