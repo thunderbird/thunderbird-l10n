@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = Integrare cu sistemul
+system-integration-dialog-title = Integrare cu sistemul
 system-integration-dialog =
     .buttonlabelaccept = Setează ca implicit
     .buttonlabelcancel = Omite integrarea
