@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-compact-dialog-window =
-    .title = Zarědniki zgusćiś
-    .style = width: 50em;
 compact-dialog-window-title =
     .title = Zarědniki zgusćiś
+compact-folders-dialog-title = Zarědniki zgusćiś
 compact-dialog =
     .buttonlabelaccept = Něnto zgusćiś
     .buttonaccesskeyaccept = u
