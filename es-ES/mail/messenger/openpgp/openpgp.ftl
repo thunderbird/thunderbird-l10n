@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Enviar la(s) clave(s) pública(s) OpenPGP en las cabeceras del correo electrónico para mantener la compatibilidad con Autocrypt
     .accesskey = A
-openpgp-key-user-id-label = Cuenta / ID de usuario
-openpgp-keygen-title-label =
-    .title = Generar clave OpenPGP
-openpgp-cancel-key =
-    .label = Cancelar
-    .tooltiptext = Cancelar generación de clave
-openpgp-key-gen-expiry-title =
-    .label = Caducidad de la clave
-openpgp-key-gen-expire-label = La clave caduca en
-openpgp-key-gen-days-label =
-    .label = días
-openpgp-key-gen-months-label =
-    .label = meses
-openpgp-key-gen-years-label =
-    .label = años
-openpgp-key-gen-no-expiry-label =
-    .label = La clave no caduca
-openpgp-key-gen-key-size-label = Tamaño de clave
-openpgp-key-gen-console-label = Generación de clave
-openpgp-key-gen-key-type-label = Tipo de clave
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (curva elíptica)
-openpgp-generate-key =
-    .label = Generar clave
-    .tooltiptext = Genera una nueva clave compatible con OpenPGP para cifrado y/o firma
-openpgp-advanced-prefs-button-label =
-    .label = Avanzado…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">NOTA: La generación de la clave puede tardar varios minutos en completarse.</a> No salga de la aplicación mientras se está generando la clave. La exploración activa o la realización de operaciones intensivas del disco durante la generación de claves repondrá el "grupo de aleatoriedad" y acelerará el proceso. Se le avisará cuando se complete la generación de claves.
 openpgp-key-created-label =
     .label = Creado
 openpgp-key-expiry-label =
@@ -415,10 +385,7 @@ key-verification = Verifique la huella digital de la clave utilizando un canal d
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = No se puede enviar el mensaje porque hay un problema con su clave personal. { $problem }
-cannot-encrypt-because-missing = No se puede enviar este mensaje con cifrado extremo a extremo porque hay problemas con las claves de los siguientes destinatarios: { $problem }
 window-locked = La ventana de redacción está bloqueada; envío cancelado
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Esta es una parte cifrada del mensaje. Tiene que abrirla en una ventana separada haciendo clic en el archivo adjunto.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +608,6 @@ import-key-file = Importar archivo de clave OpenPGP
 import-rev-file = Importar archivo de revocación de OpenPGP
 gnupg-file = Archivos GnuPG
 import-keys-failed = Error al importar las claves
-passphrase-prompt = Escriba la frase de contraseña para desbloquear la siguiente clave: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
