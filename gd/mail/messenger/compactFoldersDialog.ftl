@@ -2,13 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-compact-dialog-window =
-    .title = Dùmhlaich na pasganan
-    .style =
-        width: 50em;
-        width: 50em;
 compact-dialog-window-title =
     .title = Dùmhlaich na pasganan
+compact-folders-dialog-title = Dùmhlaich na pasganan
 compact-dialog =
     .buttonlabelaccept = Dùmhlaich an-dràsta
     .buttonaccesskeyaccept = D
