@@ -627,12 +627,72 @@ save-revoke-cert-as = Създаване и запазване на сертиф
 revoke-cert-ok = Сертификатът за анулиране е създаден успешно. Можете да го използвате, за да обезсилите своя публичен ключ, напр. в случай, че загубите секретния си ключ.
 revoke-cert-failed = Сертификатът за анулиране не можа да бъде създаден.
 gen-going = Генерирането на ключ вече е в ход!
+keygen-missing-user-name = Няма посочено име в избрания профил. Моля, въведете стойност в полето „Вашето име“ в настройките си..
+expiry-too-short = Вашият ключ трябва да е валиден поне един ден.
+expiry-too-long = Не можете да създадете ключ, който изтича след повече от 100 години.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
+key-confirm = Генериране на публичен и таен ключ за „{ $id }“?
+key-man-button-generate-key = &Генериране на ключ
+key-abort = Прекъсване на генерирането?
+key-man-button-generate-key-abort = &Прекъсване на генерирането на ключ
+key-man-button-generate-key-continue = &Продължаване с генерирането на ключ
 
 ## Strings used in enigmailMessengerOverlay.js
 
+failed-decrypt = Грешка - неуспешно дешифриране
+fix-broken-exchange-msg-failed = Невъзможност за поправка на това съобщение.
+# Variables:
+# $attachment (String) - File name of the signature file.
+attachment-no-match-from-signature = Файлът за подпис „{ $attachment }“ не може да бъде съпоставен с прикачения файл
+# Variables:
+# $attachment (String) - File name of the attachment.
+attachment-no-match-to-signature = Не може да бъде съпоставен прикаченият файл „{ $attachment }“  с файла за подпис
+# Variables:
+# $attachment (String) - File name of the attachment
+signature-verified-ok = Подписът за прикачен файл { $attachment } бе проверен успешно
+# Variables:
+# $attachment (String) - File name of the attachment
+signature-verify-failed = Подписът за прикачения файл { $attachment } не можа да бъде проверен
+decrypt-ok-no-sig =
+    Внимание
+    Дешифрирането беше успешно, но подписът не можа да бъде проверен правилно
+msg-ovl-button-cont-anyway = &Продължаване въпреки това
+enig-content-note = *Прикачените файлове към това съобщение не са нито подписани, нито шифрирани*
 
 ## Strings used in enigmailMsgComposeOverlay.js
 
+msg-compose-button-send = &Изпращане на съобщение
+msg-compose-details-button-label = Подробности…
+msg-compose-details-button-access-key = П
+send-aborted = Операцията за изпращане е прекратена.
+# Variables:
+# $key (String) - Key id.
+key-not-trusted = Няма достатъчно доверие за ключ „{ $key }“
+# Variables:
+# $key (String) - Key id.
+key-not-found = Ключът „{ $key }“ не е намерен
+# Variables:
+# $key (String) - Key id.
+key-revoked = Ключът „{ $key }“ е отменен
+# Variables:
+# $key (String) - Key id.
+key-expired = Ключът „{ $key }“ е изтекъл
+msg-compose-internal-error = Възникна вътрешна грешка.
+keys-to-export = Избор на OpenPGP ключове за вмъкване
+msg-compose-partially-encrypted-inlinePGP =
+    Съобщението, на което отговаряте, съдържа както нешифровани, така и шифровани части. Ако изпращачът не е успял да дешифрова някои части от съобщението първоначално, може да изтече поверителна информация.
+    Моля, обмислете премахването на целия цитиран текст от вашия отговор до този подател.
+msg-compose-cannot-save-draft = Грешка при запазване на черновата
+msg-compose-partially-encrypted-short = Пазете се от изтичане на чувствителна информация - частично шифрован имейл.
+quoted-printable-warn =
+    Вие сте активирали кодирането „цитирано за печат“ за изпращане на съобщения. Това може да доведе до неправилно дешифриране и/или проверка на вашето съобщение.
+    Искате ли да изключите изпращането на съобщения „цитирано за печат“ сега?
+# Variables:
+# $width (Number) - Number of characters per line.
+minimal-line-wrapping =
+    Задали сте пренасяне на ред на { $width } знака. За правилно шифроване и/или подписване тази стойност трябва да бъде поне 68.
+    Искате ли да промените пренасянето на редове на 68 знака?
 
 ## Strings used in decryption.jsm
 
