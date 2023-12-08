@@ -38,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Бұл күрделі құрылымы бар кілт, оның жарамдылық мерзімін өзгертуге қолдау көрсетілмейді.
 openpgp-key-man-title =
     .title = OpenPGP кілттер басқарушысы
+openpgp-key-man-dialog-title = OpenPGP кілттер басқарушысы
 openpgp-key-man-generate =
     .label = Жаңа кілттер жұбы
     .accesskey = к
