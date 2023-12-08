@@ -4,6 +4,7 @@
 
 compact-dialog-window-title =
     .title = Údržba priečinkov
+compact-folders-dialog-title = Údržba priečinkov
 compact-dialog =
     .buttonlabelaccept = Vykonať údržbu teraz
     .buttonaccesskeyaccept = V
