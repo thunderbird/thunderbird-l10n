@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-compact-dialog-window =
-    .title = 壓實重整郵件匣
-    .style = width: 50em;
 compact-dialog-window-title =
     .title = 壓實重整郵件匣
+compact-folders-dialog-title = 壓實重整郵件匣
 compact-dialog =
     .buttonlabelaccept = 立即壓實重整
     .buttonaccesskeyaccept = C
