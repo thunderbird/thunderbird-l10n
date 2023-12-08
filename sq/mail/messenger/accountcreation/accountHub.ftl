@@ -80,3 +80,4 @@ account-hub-username-label = Emër përdoruesi
 account-hub-adding-account-title = Shtim Llogarish
 account-hub-adding-account-subheader = Riprovim rregullimesh formësimi llogarie
 account-hub-account-added-title = Llogaria u Shtua
+account-hub-find-settings-failed = { -brand-full-name } s’arriti të gjejë rregullimet për llogarinë tuaj email
