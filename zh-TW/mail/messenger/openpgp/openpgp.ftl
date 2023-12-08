@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = 在寄出郵件標頭中包含 OpenPGP 公鑰，加強與 Autocrypt 功能間的相容性
     .accesskey = t
-openpgp-key-user-id-label = 帳號 / 使用者 ID
-openpgp-keygen-title-label =
-    .title = 產生 OpenPGP 金鑰
-openpgp-cancel-key =
-    .label = 取消
-    .tooltiptext = 取消金鑰產生
-openpgp-key-gen-expiry-title =
-    .label = 金鑰到期日
-openpgp-key-gen-expire-label = 金鑰過期時間
-openpgp-key-gen-days-label =
-    .label = 天
-openpgp-key-gen-months-label =
-    .label = 月
-openpgp-key-gen-years-label =
-    .label = 年
-openpgp-key-gen-no-expiry-label =
-    .label = 金鑰永不過期
-openpgp-key-gen-key-size-label = 金鑰大小
-openpgp-key-gen-console-label = 金鑰產生方式
-openpgp-key-gen-key-type-label = 金鑰類型
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC（橢圓曲線）
-openpgp-generate-key =
-    .label = 產生金鑰
-    .tooltiptext = 產生一把新的 OpenPGP 相容金鑰，進行加密與/或簽章
-openpgp-advanced-prefs-button-label =
-    .label = 進階…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">註: 可能需要花上幾分鐘金鑰才能產生完成。</a>金鑰產生過程中，請不要關閉應用程式。持續上網，或進行需要頻繁讀寫磁碟的動作，可重新補充「隨機程度池」以加速金鑰產生。完成後將提示您金鑰已經產生。
 openpgp-key-created-label =
     .label = 建立於
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = 這是一把複雜結構的金鑰，不支援更改到期日。
 openpgp-key-man-title =
     .title = OpenPGP 金鑰管理員
+openpgp-key-man-dialog-title = OpenPGP 金鑰管理員
 openpgp-key-man-generate =
     .label = 產生新金鑰對
     .accesskey = K
@@ -406,10 +377,7 @@ key-verification = 請使用電子郵件以外的安全通訊方式確認金鑰�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = 您的個人金鑰有問題，無法傳送訊息。{ $problem }
-cannot-encrypt-because-missing = 由於下列收件者的金鑰有問題，無法用端到端加密的方式傳送此訊息: { $problem }
 window-locked = 信件撰寫視窗已鎖定，取消傳送
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = 這是加密過的訊息部分。請點擊附件用獨立視窗開啟。
 
 ## Strings in keyserver.jsm
 
@@ -601,7 +569,6 @@ import-key-file = 匯入 OpenPGP 金鑰檔案
 import-rev-file = 匯入 OpenPGP 撤銷檔案
 gnupg-file = GnuPG 檔案
 import-keys-failed = 金鑰匯入失敗
-passphrase-prompt = 請輸入可解開下列金鑰的密語: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
