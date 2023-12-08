@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Skicka publika OpenPGP-nycklar i e-posthuvudena för kompatibilitet med Autocrypt
     .accesskey = t
-openpgp-key-user-id-label = Konto / användar-ID
-openpgp-keygen-title-label =
-    .title = Generera OpenPGP-nyckel
-openpgp-cancel-key =
-    .label = Avbryt
-    .tooltiptext = Avbryt nyckelgenerering
-openpgp-key-gen-expiry-title =
-    .label = Nyckeln upphör
-openpgp-key-gen-expire-label = Nyckeln upphör om
-openpgp-key-gen-days-label =
-    .label = dagar
-openpgp-key-gen-months-label =
-    .label = månader
-openpgp-key-gen-years-label =
-    .label = år
-openpgp-key-gen-no-expiry-label =
-    .label = Nyckeln upphör inte
-openpgp-key-gen-key-size-label = Nyckelstorlek
-openpgp-key-gen-console-label = Nyckelgenerering
-openpgp-key-gen-key-type-label = Nyckeltyp
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (elliptisk kurva)
-openpgp-generate-key =
-    .label = Generera nyckel
-    .tooltiptext = Genererar en ny OpenPGP-kompatibel nyckel för kryptering och/eller signering
-openpgp-advanced-prefs-button-label =
-    .label = Avancerat…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">OBS: Nyckelgenerering kan ta upp till flera minuter att slutföra.</a> Stäng inte programmet medan nyckelgenerering pågår. Om du surfar eller utför en hårddiskaktivitet under nyckelgenerering kommer du att fylla på den "slumpmässiga poolen" och påskynda processen. Du får en varning när nyckelgenerering är klar.
 openpgp-key-created-label =
     .label = Skapad
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Detta är en nyckel med en komplex struktur, ändring av dess utgångsdatum stöds inte.
 openpgp-key-man-title =
     .title = OpenPGP-nyckelhanterare
+openpgp-key-man-dialog-title = OpenPGP-nyckelhanterare
 openpgp-key-man-generate =
     .label = Nytt nyckelpar
     .accesskey = N
@@ -415,10 +386,7 @@ key-verification = Verifiera nyckelns fingeravtryck med en annan säker kommunik
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Det går inte att skicka meddelandet eftersom det finns ett problem med din personliga nyckel. { $problem }
-cannot-encrypt-because-missing = Det går inte att skicka meddelandet med end-to-end kryptering eftersom det finns problem med nycklarna för följande mottagare: { $problem }
 window-locked = Skrivfönstret är låst; skicka avbruten
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Detta är en krypterad meddelandedel. Du måste öppna det i ett separat fönster genom att klicka på bilagan.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = Importera OpenPGP-nyckelfil
 import-rev-file = Importera OpenPGP-återkallningsfil
 gnupg-file = GnuPG-filer
 import-keys-failed = Importering av nycklarna misslyckades
-passphrase-prompt = Ange lösenfrasen som låser upp följande nyckel: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
