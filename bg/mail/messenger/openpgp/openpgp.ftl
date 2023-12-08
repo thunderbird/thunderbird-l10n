@@ -693,25 +693,87 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Задали сте пренасяне на ред на { $width } знака. За правилно шифроване и/или подписване тази стойност трябва да бъде поне 68.
     Искате ли да промените пренасянето на редове на 68 знака?
+sending-news =
+    Операцията за шифровано изпращане е прекратена.
+    Това съобщение не може да бъде шифровано, защото има получатели от дискусионна група. Моля, изпратете отново съобщението без шифроване.
+send-to-news-warning =
+    Предупреждение: Вие сте на път да изпратите шифрован имейл до дискусионна група.
+    Това не се препоръчва, защото има смисъл само ако всички членове на групата могат да дешифрират съобщението, т.е. съобщението трябва да бъде шифрирано с ключовете на всички участници в групата. Моля, изпратете това съобщение само ако знаете точно какво правите.
+    Продължаване?
+save-attachment-header = Запазване на дешифриран прикачен файл
+possibly-pgp-mime = Възможно PGP/MIME криптирано или подписано съобщение; използвайте функцията „Дешифроване/Проверяване“, за да потвърдите
+# Variables:
+# $key (String) - Sender email address.
+cannot-send-sig-because-no-own-key = Не може да се подпише цифрово това съобщение, защото все още не сте конфигурирали шифроване от край до край за <{ $key }>
+# Variables:
+# $key (String) - Sender email address.
+cannot-send-enc-because-no-own-key = Това съобщение не може да бъде изпратено шифровано, тъй като все още не сте конфигурирали шифроване от край до край за <{ $key }>
 
 ## Strings used in decryption.jsm
 
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
+do-import-multiple =
+    Внасяне на следните ключове?
+    { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
+do-import-one = Внасяне на { $name } ({ $id })?
+cant-import = Грешка при внасяне на публичен ключ
+unverified-reply = Частта на съобщението с отстъп (отговор) вероятно е била променена
+key-in-message-body = Намерен е ключ в тялото на съобщението. Щракнете върху „Внасяне на ключ“, за го внесете
+sig-mismatch = Грешка - Несъответствие на подписа
+invalid-email = Грешка - невалиден имейл адрес
+# Variables:
+# $name (String) - File name of the attachment.
+attachment-pgp-key =
+    Прикаченият файл „{ $name }“, който отваряте, изглежда е ключов файл на OpenPGP.
+    Щракнете върху „Внасяне“, за да внесете съдържащите се в него ключове, или върху „Преглед“, за да видите съдържанието на файла
+dlg-button-view = &Преглед
 
 ## Strings used in enigmailMsgHdrViewOverlay.js
 
+decrypted-msg-with-format-error = Дешифровано съобщение (възстановен повреден PGP имейл формат, вероятно причинен от стар Exchange сървър. Резултатът може да не е идеален за четене)
 
 ## Strings used in encryption.jsm
 
+not-required = Грешка - не е необходимо шифроване
 
 ## Strings used in windows.jsm
 
+no-photo-available = Няма налична снимка
+# Variables:
+# $photo (String) - Path of the photo in the key.
+error-photo-path-not-readable = Пътят на снимката „{ $photo }“ не се чете
+debug-log-title = Дневник за отстраняване на грешки на OpenPGP
 
 ## Strings used in dialog.jsm
 
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
+repeat-prefix = Този сигнал ще се повтори { $count }
+repeat-suffix-singular = повече време.
+repeat-suffix-plural = повече пъти.
+no-repeat = Това предупреждение няма да се показва отново.
+dlg-keep-setting = Запомнете отговора ми и не ме питайте отново
+dlg-button-ok = &Добре
 dlg-button-close = &Затваряне
+dlg-button-cancel = &Отказ
+dlg-no-prompt = Не ми показвай този диалогов прозорец отново
+enig-prompt = Подкана за OpenPGP
+enig-confirm = OpenPGP потвърждение
+enig-alert = Сигнал за OpenPGP
+enig-info = Информация за OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 
+dlg-button-retry = &Повторен опит
+dlg-button-skip = &Пропускане
 
 ## Strings used in enigmailMsgBox.js
 
+enig-alert-title =
+    .title = Сигнал за OpenPGP
