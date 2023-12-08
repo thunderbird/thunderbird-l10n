@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Gửi (các) khóa công khai OpenPGP trong header của email để tương thích với Autocrypt
     .accesskey = t
-openpgp-key-user-id-label = Tài khoản / ID người dùng
-openpgp-keygen-title-label =
-    .title = Tạo khóa OpenPGP
-openpgp-cancel-key =
-    .label = Hủy bỏ
-    .tooltiptext = Hủy bỏ tạo khóa
-openpgp-key-gen-expiry-title =
-    .label = Khóa hết hạn
-openpgp-key-gen-expire-label = Khóa hết hạn sau
-openpgp-key-gen-days-label =
-    .label = ngày
-openpgp-key-gen-months-label =
-    .label = tháng
-openpgp-key-gen-years-label =
-    .label = năm
-openpgp-key-gen-no-expiry-label =
-    .label = Khóa không hết hạn
-openpgp-key-gen-key-size-label = Kích thước khóa
-openpgp-key-gen-console-label = Trình tạo khóa
-openpgp-key-gen-key-type-label = Loại khóa
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
-openpgp-generate-key =
-    .label = Tạo khóa
-    .tooltiptext = Tạo khóa tuân thủ OpenPGP mới để mã hóa và/hoặc ký
-openpgp-advanced-prefs-button-label =
-    .label = Nâng cao…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">LƯU Ý: Quá trình tạo khóa có thể mất đến vài phút để hoàn thành.</a> Không thoát ứng dụng khi đang trong quá trình tạo khóa. Tích cực duyệt hoặc thực hiện các thao tác sử dụng nhiều ổ đĩa trong quá trình tạo khóa sẽ bổ sung 'nhóm ngẫu nhiên' và tăng tốc quá trình. Bạn sẽ được thông báo khi quá trình tạo khóa hoàn tất.
 openpgp-key-created-label =
     .label = Đã tạo
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Đây là khóa có cấu trúc phức tạp, việc thay đổi ngày hết hạn không được hỗ trợ.
 openpgp-key-man-title =
     .title = Trình quản lý khóa OpenPGP
+openpgp-key-man-dialog-title = Trình quản lý khóa OpenPGP
 openpgp-key-man-generate =
     .label = Cặp khóa mới
     .accesskey = K
@@ -396,10 +367,7 @@ key-verification = Xác minh dấu vân tay của khóa bằng kênh liên lạc
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Không thể gửi tin nhắn vì có sự cố với khóa cá nhân của bạn. { $problem }
-cannot-encrypt-because-missing = Không thể gửi thư này bằng mã hóa đầu cuối vì có vấn đề với khóa của những người nhận sau: { $problem }
 window-locked = Cửa sổ soạn thảo bị khóa; đã hủy gửi
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Đây là một phần tin nhắn được mã hóa. Bạn cần mở nó trong một cửa sổ riêng tư bằng cách nhấp vào đính kèm.
 
 ## Strings in keyserver.jsm
 
@@ -588,7 +556,6 @@ key-trust-group = (nhóm)
 import-key-file = Nhập tập tin khóa OpenPGP
 gnupg-file = Tập tin GnuPG
 import-keys-failed = Nhập khóa không thành công
-passphrase-prompt = Vui lòng nhập cụm mật khẩu để mở khóa sau: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
