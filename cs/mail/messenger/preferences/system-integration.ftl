@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = Nastavení systému
+system-integration-dialog-title = Nastavení systému
 system-integration-dialog =
     .buttonlabelaccept = Nastavit jako výchozí
     .buttonlabelcancel = Přeskočit integraci
