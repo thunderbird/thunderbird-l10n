@@ -80,3 +80,4 @@ account-hub-username-label = Nombre de usuario
 account-hub-adding-account-title = Agregando cuenta
 account-hub-adding-account-subheader = Volver a probar los ajustes de configuración de la cuenta
 account-hub-account-added-title = Cuenta agregada
+account-hub-find-settings-failed = { -brand-full-name } no pudo encontrar la configuración para su cuenta de correo electrónico.
