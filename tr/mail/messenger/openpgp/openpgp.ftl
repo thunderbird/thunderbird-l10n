@@ -38,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Bu karmaşık yapıya sahip bir anahtar. Son kullanma tarihinin değiştirilmesi desteklenmiyor.
 openpgp-key-man-title =
     .title = OpenPGP Anahtar Yöneticisi
+openpgp-key-man-dialog-title = OpenPGP Anahtar Yöneticisi
 openpgp-key-man-generate =
     .label = Yeni anahtar çifti
     .accesskey = a
