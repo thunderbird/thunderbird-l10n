@@ -4,6 +4,7 @@
 
 compact-dialog-window-title =
     .title = Уплътняване на папки
+compact-folders-dialog-title = Уплътняване на папки
 compact-dialog =
     .buttonlabelaccept = Уплътняване
     .buttonaccesskeyaccept = ъ
