@@ -400,7 +400,7 @@ close-move-delete =
 display-name-label =
     .value = Nom a mostrar:
 condensed-addresses-label =
-    .label = Ensenya només el nom a mostrar de la gent que estigui a la meva llibreta d'adreces
+    .label = Mostra només el nom a mostrar de la gent que estigui a la meva llibreta d'adreces
     .accesskey = n
 
 ## Compose Tab
