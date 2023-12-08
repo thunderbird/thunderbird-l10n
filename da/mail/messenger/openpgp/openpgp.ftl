@@ -25,36 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Opbevar meddelelseskladder i krypteret format
     .accesskey = O
-openpgp-key-user-id-label = Konto / bruger-id
-openpgp-keygen-title-label =
-    .title = Generer OpenPGP-nøgle
-openpgp-cancel-key =
-    .label = Fortryd
-    .tooltiptext = Fortryd nøglegenerering
-openpgp-key-gen-expiry-title =
-    .label = Nøgleudløb
-openpgp-key-gen-expire-label = Nøgle udløber om
-openpgp-key-gen-days-label =
-    .label = dage
-openpgp-key-gen-months-label =
-    .label = måneder
-openpgp-key-gen-years-label =
-    .label = år
-openpgp-key-gen-no-expiry-label =
-    .label = Nøglen udløber ikke
-openpgp-key-gen-key-size-label = Nøglestørrelse
-openpgp-key-gen-console-label = Nøglegenerering
-openpgp-key-gen-key-type-label = Nøgletype
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
-openpgp-generate-key =
-    .label = Generer nøgle
-    .tooltiptext = Genererer en ny OpenPGP-kompatibel nøgle til kryptering og/eller signering
-openpgp-advanced-prefs-button-label =
-    .label = Avanceret…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">OBS: Nøglegenerering kan tage flere minutter.</a> Luk ikke programmet mens nøglegenereringen er i gang. Hvis du aktivt browser eller udfører diskintensive operationer, mens nøglegenereringen står på, fylder du ‘tilfældigheds-puljen’ op, hvilket får processen til at gå hurtigere. Du får besked, når nøglen er færdig.
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =
     .label = Send offentlig(e) OpenPGP-nøgle(r) i samme mailheaders for at sikre kompatibilitet med Autocrypt
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Dette er en nøgle med en kompleks struktur. Ændring af udløbsdato understøttes ikke.
 openpgp-key-man-title =
     .title = OpenPGP Nøgleadministration
+openpgp-key-man-dialog-title = OpenPGP Nøgleadministration
 openpgp-key-man-generate =
     .label = Nye nøglepar
     .accesskey = p
@@ -415,10 +386,7 @@ key-verification = Bekræft nøglens fingeraftryk gennem en sikker kommunikation
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kunne ikke sende meddelelsen, fordi der er et problem med din personlige nøgle. { $problem }
-cannot-encrypt-because-missing = Kunne ikke sende denne meddelelse med end to end-kryptering, fordi der er problemer med nøglerne for følgende modtagere: { $problem }
 window-locked = Skrivevinduet er låst; afsendelse annulleret
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Dette er en krypteret meddelelsesdel. Du skal åbne det i et separat vindue ved at klikke på den vedhæftede fil.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = Importer OpenPGP-nøglefil
 import-rev-file = Importer OpenPGP-tilbagekaldelsesfil
 gnupg-file = GnuPG-filer
 import-keys-failed = Import af nøgler mislykkedes
-passphrase-prompt = Indtast adgangsudtrykket, der låser følgende nøgle op: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
