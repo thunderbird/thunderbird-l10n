@@ -5,36 +5,6 @@
 e2e-intro-description = หากต้องการส่งข้อความที่เข้ารหัสหรือลงลายเซ็นแบบดิจิทัล คุณจำเป็นต้องกำหนดค่าเทคโนโลยีการเข้ารหัสทั้ง OpenPGP หรือ S/MIME
 e2e-intro-description-more = เลือกคีย์ส่วนตัวของคุณเพื่อเปิดใช้งาน OpenPGP หรือเลือกใบรับรองของคุณเพื่อเปิดใช้งาน S/MIME คุณจะมีคีย์ลับที่สอดคล้องกันไม่ว่าคุณจะเลือกใช้คีย์ส่วนตัวหรือใบรับรองก็ตาม
 e2e-signing-description = ลายเซ็นดิจิทัลช่วยให้ผู้รับสามารถตรวจสอบได้ว่าข้อความถูกส่งจากคุณและเนื้อหาไม่มีการเปลี่ยนแปลง ข้อความที่ถูกเข้ารหัสจะถูกลงลายเซ็นตามค่าเริ่มต้น
-openpgp-key-user-id-label = บัญชี / ID ผู้ใช้
-openpgp-keygen-title-label =
-    .title = สร้างคีย์ OpenPGP
-openpgp-cancel-key =
-    .label = ยกเลิก
-    .tooltiptext = ยกเลิกการสร้างคีย์
-openpgp-key-gen-expiry-title =
-    .label = วันหมดอายุของคีย์
-openpgp-key-gen-expire-label = คีย์จะหมดอายุใน
-openpgp-key-gen-days-label =
-    .label = วัน
-openpgp-key-gen-months-label =
-    .label = เดือน
-openpgp-key-gen-years-label =
-    .label = ปี
-openpgp-key-gen-no-expiry-label =
-    .label = คีย์จะไม่มีวันหมดอายุ
-openpgp-key-gen-key-size-label = ขนาดคีย์
-openpgp-key-gen-console-label = การสร้างคีย์
-openpgp-key-gen-key-type-label = ชนิดคีย์
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (เส้นโค้งรูปไข่)
-openpgp-generate-key =
-    .label = สร้างคีย์
-    .tooltiptext = สร้างคีย์ที่สอดคล้องตาม OpenPGP ใหม่สำหรับการเข้ารหัสและ/หรือการลงลายเซ็น
-openpgp-advanced-prefs-button-label =
-    .label = ขั้นสูง…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">หมายเหตุ: การสร้างคีย์อาจต้องใช้เวลาหลายนาทีจึงจะเสร็จสมบูรณ์</a> อย่าออกจากแอปพลิเคชันในขณะที่กำลังสร้างคีย์อยู่ การเรียกดูเว็บหรือทำงานต่าง ๆ ที่ต้องอาศัยการทำงานของดิสก์มากในระหว่างที่กำลังสร้างคีย์จะช่วยเพิ่มประสิทธิภาพให้กับ ‘พูลการสุ่ม’ และเพิ่มความเร็วในการทำงาน คุณจะได้รับการแจ้งเตือนเมื่อการสร้างคีย์เสร็จสมบูรณ์แล้ว
 openpgp-key-expiry-label =
     .label = วันหมดอายุ
 openpgp-key-id-label =
@@ -327,10 +297,7 @@ key-do-you-accept = คุณยอมรับคีย์นี้สำหร
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = ไม่สามารถส่งข้อความได้ เนื่องจากมีปัญหากับคีย์ส่วนตัวของคุณ { $problem }
-cannot-encrypt-because-missing = ไม่สามารถส่งข้อความนี้ด้วยการเข้ารหัสแบบครบวงจรได้ เนื่องจากมีปัญหากับคีย์ของผู้รับต่อไปนี้: { $problem }
 window-locked = การส่งถูกยกเลิกแล้ว เนื่องจากหน้าต่างเขียนถูกล็อก
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = นี่คือส่วนของข้อความที่ถูกเข้ารหัส คุณต้องเปิดในหน้าต่างที่แยกต่างหากโดยคลิกที่ไฟล์แนบ
 
 ## Strings in keyserver.jsm
 
@@ -552,9 +519,6 @@ import-key-file = นำเข้าไฟล์คีย์ OpenPGP
 import-rev-file = นำเข้าไฟล์การเพิกถอน OpenPGP
 gnupg-file = ไฟล์ GnuPG
 import-keys-failed = การนำเข้าคีย์ล้มเหลว
-# Variables:
-# $key (String) - Key id to unlock.
-passphrase-prompt = โปรดป้อนวลีรหัสผ่านเพื่อปลดล็อกคีย์ต่อไปนี้: { $key }
 file-to-big-to-import = ไฟล์นี้มีขนาดใหญ่เกินไป โปรดอย่านำเข้าชุดคีย์จำนวนมากพร้อมกัน
 
 ## Strings used in enigmailKeygen.js
