@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-compact-dialog-window =
-    .title = Стиснути теки
-    .style = width: 50em;
 compact-dialog-window-title =
     .title = Стиснути теки
+compact-folders-dialog-title = Стиснути теки
 compact-dialog =
     .buttonlabelaccept = Стиснути зараз
     .buttonaccesskeyaccept = С
