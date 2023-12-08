@@ -80,3 +80,4 @@ account-hub-username-label = Username
 account-hub-adding-account-title = Adding Account
 account-hub-adding-account-subheader = Re-testing account configuration settings
 account-hub-account-added-title = Account Added
+account-hub-find-settings-failed = { -brand-full-name } failed to find the settings for your email account.
