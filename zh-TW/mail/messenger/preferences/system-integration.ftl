@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = 系統整合
+system-integration-dialog-title = 系統整合
 system-integration-dialog =
     .buttonlabelaccept = 設為預設軟體
     .buttonlabelcancel = 略過整合
