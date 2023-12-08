@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = OpenPGP nyilvános kulcsok küldése a levelek fejlécében az Autocrpyt-kompatibilitás érdekében
     .accesskey = t
-openpgp-key-user-id-label = Fiók / felhasználói azonosító
-openpgp-keygen-title-label =
-    .title = OpenPGP-kulcs előállítása
-openpgp-cancel-key =
-    .label = Mégse
-    .tooltiptext = Kulcselőállítás megszakítása
-openpgp-key-gen-expiry-title =
-    .label = Kulcs lejárata
-openpgp-key-gen-expire-label = A kulcs lejár:
-openpgp-key-gen-days-label =
-    .label = nap múlva
-openpgp-key-gen-months-label =
-    .label = hónap múlva
-openpgp-key-gen-years-label =
-    .label = év múlva
-openpgp-key-gen-no-expiry-label =
-    .label = A kulcs nem jár le
-openpgp-key-gen-key-size-label = Kulcsméret
-openpgp-key-gen-console-label = Kulcselőállítás
-openpgp-key-gen-key-type-label = Kulcs típusa
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (elliptikus görbe)
-openpgp-generate-key =
-    .label = Kulcs előállítása
-    .tooltiptext = Új OpenPGP-nek megfelelő kulcsot állít elő titkosításhoz és aláíráshoz
-openpgp-advanced-prefs-button-label =
-    .label = Speciális…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">MEGJEGYZÉS: A kulcs előállítása akár néhány percet is igénybe vehet.</a> Ne zárja be az alkalmazást, amíg a kulcs előállítása folyamatban van. A kulcselőállítás során az aktív böngészés vagy a lemezintenzív műveletek feltöltik a „véletlenszerűségi készletet”, és ez felgyorsítja a folyamatot. Értesítést kap, amikor a kulcselőállítás befejeződött.
 openpgp-key-created-label =
     .label = Létrehozva
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Ez egy komplex felépítésű kulcs, lejárati idejének megváltoztatása nem támogatott.
 openpgp-key-man-title =
     .title = OpenPGP-kulcskezelő
+openpgp-key-man-dialog-title = OpenPGP-kulcskezelő
 openpgp-key-man-generate =
     .label = Új kulcspár
     .accesskey = k
@@ -415,10 +386,7 @@ key-verification = Ellenőrizze a kulcs ujjlenyomatát az e-mailtől eltérő bi
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Az üzenet nem küldhető el, mert probléma van a személyes kulcsával. { $problem }
-cannot-encrypt-because-missing = Az üzenetet nem lehet végpontok közötti titkosítással elküldeni, mert problémák vannak a következő címzettek kulcsaival: { $problem }
 window-locked = Az írási ablak zárolva van; küldés megszakítva
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Ez egy titkosított üzenetrész. A mellékletre kattintva, egy külön ablakban kell megnyitnia.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = OpenPGP-kulcsfájl importálása
 import-rev-file = OpenPGP visszavonási fájl importálása
 gnupg-file = GnuPG-fájlok
 import-keys-failed = A kulcsok importálása sikertelen
-passphrase-prompt = Írja be a jelmondatot, amely feloldja a következő kulcsot: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
