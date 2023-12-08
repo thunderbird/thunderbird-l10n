@@ -25,36 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Αποθήκευση πρόχειρων μηνυμάτων σε κρυπτογραφημένη μορφή
     .accesskey = κ
-openpgp-key-user-id-label = Λογαριασμός/ID χρήστη
-openpgp-keygen-title-label =
-    .title = Δημιουργία κλειδιού OpenPGP
-openpgp-cancel-key =
-    .label = Ακύρωση
-    .tooltiptext = Ακύρωση δημιουργίας κλειδιού
-openpgp-key-gen-expiry-title =
-    .label = Λήξη κλειδιού
-openpgp-key-gen-expire-label = Το κλειδί λήγει σε
-openpgp-key-gen-days-label =
-    .label = ημέρες
-openpgp-key-gen-months-label =
-    .label = μήνες
-openpgp-key-gen-years-label =
-    .label = έτη
-openpgp-key-gen-no-expiry-label =
-    .label = Το κλειδί δεν λήγει
-openpgp-key-gen-key-size-label = Μέγεθος κλειδιού
-openpgp-key-gen-console-label = Δημιουργία κλειδιού
-openpgp-key-gen-key-type-label = Τύπος κλειδιού
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
-openpgp-generate-key =
-    .label = Δημιουργία κλειδιού
-    .tooltiptext = Δημιουργεί ένα νέο σύμφωνο κλειδί OpenPGP για κρυπτογράφηση και/ή υπογραφή
-openpgp-advanced-prefs-button-label =
-    .label = Σύνθετα…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">ΣΗΜΕΙΩΣΗ: Η δημιουργία κλειδιού ενδέχεται να διαρκέσει αρκετά λεπτά για να ολοκληρωθεί.</a> Μην κλείσετε την εφαρμογή ενώ είναι σε εξέλιξη η δημιουργία του κλειδιού. Η ενεργή περιήγηση ή η εκτέλεση έντονων εργασιών δίσκου κατά τη δημιουργία του κλειδιού θα αναπληρώσει τη 'δεξαμενή τυχαιότητας' και θα επιταχύνει τη διαδικασία. Θα ενημερωθείτε όταν ολοκληρωθεί η δημιουργία του κλειδιού.
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =
     .label = Αποστολή δημόσιων κλειδιών OpenPGP στις κεφαλίδες των email για συμβατότητα με το Autocrypt
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Αυτό είναι κλειδί με περίπλοκη δομή, η αλλαγή της ημερομηνίας λήξης δεν υποστηρίζεται.
 openpgp-key-man-title =
     .title = Διαχείριση κλειδιών OpenPGP
+openpgp-key-man-dialog-title = Διαχείριση κλειδιών OpenPGP
 openpgp-key-man-generate =
     .label = Νέο ζεύγος κλειδιών
     .accesskey = γ
@@ -415,10 +386,7 @@ key-verification = Επαληθεύστε το αποτύπωμα του κλε�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Δεν είναι δυνατή η αποστολή του μηνύματος, επειδή υπάρχει πρόβλημα με το προσωπικό σας κλειδί. { $problem }
-cannot-encrypt-because-missing = Δεν είναι δυνατή η αποστολή αυτού του μηνύματος με κρυπτογράφηση από άκρο σε άκρο, επειδή υπάρχουν προβλήματα με τα κλειδιά των ακόλουθων παραληπτών: { $problem }
 window-locked = Το παράθυρο σύνθεσης είναι κλειδωμένο· η αποστολή ακυρώθηκε
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Αυτό είναι ένα τμήμα κρυπτογραφημένου μηνύματος. Πρέπει να το ανοίξετε σε ξεχωριστό παράθυρο κάνοντας κλικ στο συνημμένο.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = Εισαγωγή αρχείου κλειδιού OpenPGP
 import-rev-file = Εισαγωγή αρχείου ανάκλησης OpenPGP
 gnupg-file = Αρχεία GnuPG
 import-keys-failed = Αποτυχία εισαγωγής κλειδιών
-passphrase-prompt = Εισαγάγετε τη μυστική φράση που ξεκλειδώνει το ακόλουθο κλειδί: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
