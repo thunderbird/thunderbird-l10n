@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = Intégration système
+system-integration-dialog-title = Intégration système
 system-integration-dialog =
     .buttonlabelaccept = Définir par défaut
     .buttonlabelcancel = Ignorer l’intégration
