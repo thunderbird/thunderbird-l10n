@@ -38,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Esta es una clave con una estructura compleja, no se admite cambiar su fecha de caducidad.
 openpgp-key-man-title =
     .title = Administrador de claves OpenPGP
+openpgp-key-man-dialog-title = Administrador de claves OpenPGP
 openpgp-key-man-generate =
     .label = Nuevo par de claves
     .accesskey = N
