@@ -5,36 +5,6 @@
 e2e-intro-description = For å sende krypterte eller digitalt signerte meldingar, må du konfigurere ein krypteringsteknologi, anten OpenPGP eller S/MIME.
 e2e-intro-description-more = Vel den personlege nøkkelen din for å slå på OpenPGP, eller det personlege sertifikatet ditt for å slå på S/MIME. For ein personlig nøkkel eller eit sertifikat eig du den tilsvarande hemmelege nøkkelen.
 e2e-advanced-section = Avanserte innstillingar
-openpgp-key-user-id-label = Konto/Brukar-ID
-openpgp-keygen-title-label =
-    .title = Generer OpenPGP-nøkkel
-openpgp-cancel-key =
-    .label = Avbryt
-    .tooltiptext = Avbryt nøkkelgenerering
-openpgp-key-gen-expiry-title =
-    .label = Nøkkelen går ut
-openpgp-key-gen-expire-label = Nøkkelen går ut om
-openpgp-key-gen-days-label =
-    .label = dagar
-openpgp-key-gen-months-label =
-    .label = månadar
-openpgp-key-gen-years-label =
-    .label = år
-openpgp-key-gen-no-expiry-label =
-    .label = Nøkkelen går ikkje ut
-openpgp-key-gen-key-size-label = Nøkkelstørrelse
-openpgp-key-gen-console-label = Nøkkelgenerering
-openpgp-key-gen-key-type-label = Nøkkeltype
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (elliptisk kurve)
-openpgp-generate-key =
-    .label = Generer nøkkel
-    .tooltiptext = Genererer ein ny OpenPGP-kompatibel nøkkel for kryptering og/eller signering
-openpgp-advanced-prefs-button-label =
-    .label = Avansert…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">Merk: Nøkkelgenerering kan ta opptil fleire minutt å fullføre.</a> Ikkje avslutt applikasjonen medan nøkkelgenereringa er i gang. Dersom du aktivt surfar eller utfører diskintensive operasjonar under ei nøkkelgenerering, vil det fylle opp «randomness pool»-en og gjere prosessen raskare. Du vert varsla når nøkkelgenereringa er fullført.
 openpgp-key-created-label =
     .label = Opprtta
 openpgp-key-expiry-label =
@@ -44,6 +14,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Dette er ein nøkkel med ein kompleks struktur, det er ikkje støtte for å endre går ut-datoen.
 openpgp-key-man-title =
     .title = OpenPGP-nøkkelhandterar
+openpgp-key-man-dialog-title = OpenPGP-nøkkelhandterar
 openpgp-key-man-generate =
     .label = Nytt nøkkelpar
     .accesskey = N
@@ -330,10 +301,7 @@ key-do-you-accept = Godtar du denne nøkkelen for å stadfeste digitale signatur
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Klarte ikkje å sende meldinga, fordi det er eit problem med den personlege nøkkelen din. { $problem }
-cannot-encrypt-because-missing = Klarte ikkje å sende denne meldinga med ende-til-ende-kryptering, fordi det er problem med nøklane til følgjande mottakarar: { $problem }
 window-locked = Meldingsvindauge er låst; sending avbroten
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Dette er ein kryptert meldingsdel. Du må opne det i eit eige vindauge ved å klikke på vedlegget.
 
 ## Strings in keyserver.jsm
 
@@ -554,7 +522,6 @@ import-key-file = Importer OpenPGP-nøkkelfil
 import-rev-file = Importer OpenPGP-tilbakekallingsfil
 gnupg-file = GnuPG-filer
 import-keys-failed = Mislykka importering av nøklane
-passphrase-prompt = Skriv inn passordfrasa som låser opp følgjande nøkkel: { $key }
 file-to-big-to-import = Denne fila er for stor. Ikkje importer eit stort sett med nøklar på ein gong.
 
 ## Strings used in enigmailKeygen.js
