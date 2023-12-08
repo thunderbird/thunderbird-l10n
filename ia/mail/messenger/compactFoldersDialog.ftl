@@ -4,6 +4,7 @@
 
 compact-dialog-window-title =
     .title = Compactar dossiers
+compact-folders-dialog-title = Compactar dossiers
 compact-dialog =
     .buttonlabelaccept = Compactar ora
     .buttonaccesskeyaccept = C
