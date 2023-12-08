@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = Integrácia so systémom
+system-integration-dialog-title = Integrácia so systémom
 system-integration-dialog =
     .buttonlabelaccept = Nastaviť ako predvolený
     .buttonlabelcancel = Preskočiť nastavenie integrácie
