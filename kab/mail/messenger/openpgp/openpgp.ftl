@@ -25,36 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Kles iznan irewwayen deg umasal awgelhan
     .accesskey = s
-openpgp-key-user-id-label = Amiḍan / Asulay n useqdac
-openpgp-keygen-title-label =
-    .title = Sirew tasarut OpenPGP
-openpgp-cancel-key =
-    .label = Sefsex
-    .tooltiptext = Sefsex asirew n tsarut
-openpgp-key-gen-expiry-title =
-    .label = Keffu n tsarut
-openpgp-key-gen-expire-label = Tasarut ad temmet deg
-openpgp-key-gen-days-label =
-    .label = ussan
-openpgp-key-gen-months-label =
-    .label = ayyuren
-openpgp-key-gen-years-label =
-    .label = iseggasen
-openpgp-key-gen-no-expiry-label =
-    .label = Tasarut ut tettmettat ara
-openpgp-key-gen-key-size-label = Teɣzi n tsarut
-openpgp-key-gen-console-label = Asirew n tsarut
-openpgp-key-gen-key-type-label = Anaw n tsarut
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
-openpgp-generate-key =
-    .label = Sirew tasarut
-    .tooltiptext = Sirew tasarut i yemṣadan d OpenPGP i uwgelhen d/neɣ uzmul
-openpgp-advanced-prefs-button-label =
-    .label = Talqayt…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">Asirew n tsarut yezmer ad yeṭṭef  aṭas n tesdatin akken ad yemmed.</a> Ur teffeɣ ara seg usnas ma iteddu usirew n tsarut. Tunigin turmidt neɣ aselken n temhalin tussidin ɣef uḍebsi ma iteddu usirew n tsarut ad d-yerr 'amsegaw agacuran' d urured n ukala. Ad d-teṭṭfeḍ ulɣu mi ara yemmed usirew n tsarut.
 openpgp-key-created-label =
     .label = Yettwarna
 openpgp-key-expiry-label =
@@ -64,6 +34,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Ta d tasarut s tɣessa tuddist, Abeddel n uzemz-is n taggara ur yettwasefrak ara.
 openpgp-key-man-title =
     .title = Asefrak n tsarut OpenPGP
+openpgp-key-man-dialog-title = Asefrak n tsarut OpenPGP
 openpgp-key-man-generate =
     .label = Tayuga n tsura timaynutin
     .accesskey = K
@@ -377,10 +348,7 @@ key-verification = Senqed adsil umḍin n tsarut s usenqed n ubadu n teywalt aɣ
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = D awezɣi tuzna n yizen, acku yella wugur deg tsarut-ik tudmawant. { $problem }
-cannot-encrypt-because-missing = D awezɣi ad yettwazen yizen s uwgelhen seg yixef ɣer yixef. Acku llan wuguren akked tsura n uɣerwaḍ-a: { $problem }
 window-locked = Asfaylu n usuddes yemdel; tuzna tettwasefsex
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Wagi d aḥric n yizen yettwawgelhen. Tesriḍd ad t-teldiḍ deg usfaylu weḥd-s s usiti ɣef umedday.
 
 ## Strings in keyserver.jsm
 
@@ -539,7 +507,6 @@ key-trust-group = (agraw)
 import-key-file = Kter afaylu n tsarut OpenPGP
 gnupg-file = Ifuyla GnuPG
 import-keys-failed = Aktar n tsura ur yeddi ara
-passphrase-prompt = Ma ulac aɣilif, sekcem tafyirt n uɛeddi ara yeldi n tasarut: { $key }
 file-to-big-to-import = Afaylu-a d ameqqran aṭas. Ma ulac aɣilif, ur d-ketter ara taggayt tameqqrant n tsura ɣef tikkelt.
 
 ## Strings used in enigmailKeygen.js
