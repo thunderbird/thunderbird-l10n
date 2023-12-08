@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Odesílat veřejný klíč(e) OpenPGP v hlavičkách e-mailu pro kompatibilitu se standardem Autocrypt
     .accesskey = O
-openpgp-key-user-id-label = Účet / ID uživatele
-openpgp-keygen-title-label =
-    .title = Vytvořit klíč OpenPGP
-openpgp-cancel-key =
-    .label = Zrušit
-    .tooltiptext = Zrušit vytváření klíče
-openpgp-key-gen-expiry-title =
-    .label = Doba platnosti klíče
-openpgp-key-gen-expire-label = Platnost klíče skončí za
-openpgp-key-gen-days-label =
-    .label = dnů
-openpgp-key-gen-months-label =
-    .label = měsíců
-openpgp-key-gen-years-label =
-    .label = roků
-openpgp-key-gen-no-expiry-label =
-    .label = Platnost klíče není omezená
-openpgp-key-gen-key-size-label = Velikost klíče
-openpgp-key-gen-console-label = Vytváření klíče
-openpgp-key-gen-key-type-label = Typ klíče
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (eliptická křivka)
-openpgp-generate-key =
-    .label = Vytvořit klíč
-    .tooltiptext = Vytvoří nový klíč OpenPGP pro šifrování a/nebo podepisování
-openpgp-advanced-prefs-button-label =
-    .label = Rozšířené…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">POZNÁMKA: Vytváření klíče může trvat až několik minut.</a> Po tu dobu prosím aplikaci neukončujte. Proces se urychlí, když budete aktivně pracovat s prohlížečem nebo provádět operace s častým přístupem k pevnému disku. Až bude vytváření klíče dokončeno, budete upozorněni.
 openpgp-key-created-label =
     .label = Vytvořeno
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Toto je klíč se složitou strukturou, změna data konce jeho platnosti není podporována.
 openpgp-key-man-title =
     .title = Správce klíčů OpenPGP
+openpgp-key-man-dialog-title = Správce klíčů OpenPGP
 openpgp-key-man-generate =
     .label = Nový pár klíčů
     .accesskey = N
@@ -431,10 +402,7 @@ key-verification = Ověřte otisk klíče pomocí jiného bezpečného komunika�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Zprávu nelze odeslat, protože se u vašeho osobního klíče vyskytl problém. { $problem }
-cannot-encrypt-because-missing = Tuto zprávu nelze odeslat za použití koncového šifrování, protože u klíčů následujících příjemců se vyskytly problémy: { $problem }
 window-locked = Okno psaní zprávy je uzamčeno; odesílání bylo zrušeno
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Toto je zašifrovaná část zprávy. Otevřít ji musíte v samostatném okně klepnutím na přílohu.
 
 ## Strings in keyserver.jsm
 
@@ -655,7 +623,6 @@ import-key-file = Importovat soubor s klíčem OpenPGP
 import-rev-file = Importovat soubor se zneplatněním OpenPGP
 gnupg-file = Soubory GnuPG
 import-keys-failed = Importování klíčů selhalo
-passphrase-prompt = Zadejte prosím heslo, které odemkne následující klíč: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
