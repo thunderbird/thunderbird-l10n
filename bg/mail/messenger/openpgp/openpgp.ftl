@@ -500,12 +500,22 @@ dlg-button-delete = Из&триване
 openpgp-export-public-success = <b>Избраният публичен ключ е изнесен успешно!</b>
 openpgp-export-public-fail = <b>Невъзможност за изнасяне на избрания публичен ключ!</b>
 openpgp-export-secret-success = <b>Секретният ключ е изнесен успешно!</b>
+openpgp-export-secret-fail = <b>Невъзможност за изнасяне на избрания секретен ключ!</b>
 
 ## Strings in keyObj.jsm
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+key-ring-pub-key-revoked = Ключът { $userId } (ID на ключ { $keyId }) е отменен.
+key-ring-pub-key-expired = Ключът { $userId } (ID на ключ { $keyId }) е изтекъл.
+key-ring-no-secret-key = Изглежда нямате секретния ключ за { $userId } (идентификатор на ключ { $keyId }) във вашия ключодържател; не можете да използвате ключа за подписване.
+key-ring-pub-key-not-for-signing = Ключът { $userId } (ID на ключ { $keyId }) не може да се използва за подписване.
+key-ring-pub-key-not-for-encryption = Ключът { $userId } (ID на ключ { $keyId }) не може да се използва за шифроване.
+key-ring-sign-sub-keys-revoked = Всички подключове за подписване на ключ { $userId } (ID на ключ { $keyId }) се отменят.
+key-ring-sign-sub-keys-expired = Всички подключове за подписване на ключ { $userId } (ID на ключ { $keyId }) са изтекли.
+key-ring-enc-sub-keys-revoked = Всички подключове за шифроване на ключ { $userId } (ID на ключ { $keyId }) са отменени.
+key-ring-enc-sub-keys-expired = Всички подключове за шифроване на ключ { $userId } (ID на ключ { $keyId }) са изтекли.
 
 ## Strings in gnupg-keylist.jsm
 
@@ -540,24 +550,50 @@ key-man-button-import = &Внасяне
 delete-key-title = Изтриване на OpenPGP ключ
 delete-external-key-title = Премахване на външен GnuPG ключ
 delete-external-key-description = Искате ли да премахнете този външен идентификатор на GnuPG ключ?
+key-in-use-title = OpenPGP ключът се използва в момента
+delete-key-in-use-description = Не може да се продължи! Ключът, който сте избрали за изтриване, в момента се използва от тази самоличност. Изберете друг ключ или изберете нито един и опитайте отново.
+revoke-key-in-use-description = Не може да се продължи! Ключът, който сте избрали за анулиране, в момента се използва от тази самоличност. Изберете друг ключ или изберете нито един и опитайте отново.
 
 ## Strings used in errorHandling.jsm
 
+# Variables:
+# $keySpec (String) - Email address.
+key-error-key-spec-not-found = Имейл адресът ‘{ $keySpec }’ не може да бъде съпоставен с ключ на вашия ключодържател.
+# $keySpec (String) - Key id.
+key-error-key-id-not-found = Конфигурираният идентификатор на ключ ‘{ $keySpec }’ не може да бъде намерен във вашия ключодържател.
+# $keySpec (String) - Key id.
+key-error-not-accepted-as-personal = Не сте потвърдили, че ключът с ID ‘{ $keySpec }’ е вашият личен ключ.
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+need-online = Функцията, която сте избрали, не е налична в офлайн режим. Моля, влезте онлайн и опитайте отново.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
+no-key-found2 = Не успяхме да намерим използваем ключ, отговарящ на посочените критерии за търсене.
+no-update-found = Вече имате ключовете, които бяха открити онлайн.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+fail-key-extract = Грешка - командата за извличане на ключ е неуспешна
 
 ## Strings used in keyRing.jsm
 
+fail-cancel = Грешка - Получаването на ключ е отменено от потребителя
+not-first-block = Грешка - Първият OpenPGP блок не е с публичен ключ
+import-key-confirm = Внасяне на публичните ключове, вградени в съобщението?
+fail-key-import = Грешка - неуспешно внасяне на ключ
+# Variables:
+# $output (String) - File that writing was attempted to.
+file-write-failed = Неуспешен запис във файл { $output }
+no-pgp-block = Грешка - Не е намерен валиден OpenPGP блок от данни
+confirm-permissive-import = Неуспешно внасяне. Ключът, който се опитвате да внесете, може да е повреден или да използва неизвестни атрибути. Искате ли да опитате да внесете  частите, които са правилни? Това може да доведе до внасяне на непълни и неизползваеми ключове.
 
 ## Strings used in trust.jsm
 
+key-valid-unknown = неизвестен
+key-valid-invalid = Невалиден
+key-valid-disabled = изключен
 key-valid-revoked = отменен
 key-valid-expired = изтекъл
 key-trust-untrusted = недоверен
@@ -571,9 +607,26 @@ key-trust-group = (група)
 import-key-file = Внасяне на OpenPGP ключ
 import-rev-file = Внасяне на файл за анулиране на OpenPGP
 gnupg-file = GnuPG файлове
+import-keys-failed = Неуспешно внасяне на ключове
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Въведете паролата, за да отключите секретния ключ с ID { $key }, създаден { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Въведете паролата, за да отключите секретния ключ с ID { $subkey }, който е подключ на ID на ключ { $key }, създаден на { $date }, { $username_and_email }
+file-to-big-to-import = Този файл е твърде голям. Моля, не внасяйте голям набор от ключове наведнъж.
 
 ## Strings used in enigmailKeygen.js
 
+save-revoke-cert-as = Създаване и запазване на сертификат за анулиране
+revoke-cert-ok = Сертификатът за анулиране е създаден успешно. Можете да го използвате, за да обезсилите своя публичен ключ, напр. в случай, че загубите секретния си ключ.
+revoke-cert-failed = Сертификатът за анулиране не можа да бъде създаден.
+gen-going = Генерирането на ключ вече е в ход!
 
 ## Strings used in enigmailMessengerOverlay.js
 
