@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-compact-dialog-window =
-    .title = Suru kaustad kokku
-    .style = width: 50em;
 compact-dialog-window-title =
     .title = Suru kaustad kokku
+compact-folders-dialog-title = Suru kaustad kokku
 compact-dialog =
     .buttonlabelaccept = Suru kokku
     .buttonaccesskeyaccept = S
