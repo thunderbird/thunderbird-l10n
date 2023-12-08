@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Zjawne kluče OpenPGP w e-mejlowych hłowach za kompatibelnosć z Autocrypt pósłać
     .accesskey = k
-openpgp-key-user-id-label = Konto/Wužiwarski ID
-openpgp-keygen-title-label =
-    .title = OpenPGP-kluč wutworić
-openpgp-cancel-key =
-    .label = Přetorhnyć
-    .tooltiptext = Wutworjenje kluča přetorhnyć
-openpgp-key-gen-expiry-title =
-    .label = Płaćiwosć kluča
-openpgp-key-gen-expire-label = Kluč spadnje za
-openpgp-key-gen-days-label =
-    .label = dnjow
-openpgp-key-gen-months-label =
-    .label = měsacow
-openpgp-key-gen-years-label =
-    .label = lět
-openpgp-key-gen-no-expiry-label =
-    .label = Kluč njespadnje
-openpgp-key-gen-key-size-label = Wulkosć kluča
-openpgp-key-gen-console-label = Wutworjenje kluča
-openpgp-key-gen-key-type-label = Klučowy typ:
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
-openpgp-generate-key =
-    .label = Kluč wutworić
-    .tooltiptext = Wutworja nowy hodźacy so OPenPGP-kluč za zaklučowanje a/abo signowanje
-openpgp-advanced-prefs-button-label =
-    .label = Rozšěrjeny…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">KEDŹBU: Wutworjenje kluča móže někotre mjeńšiny trać.</a> Njekónčće nałoženje, mjeztym so kluč wutworja. Hdyž aktiwnje přehladujeće abo operacije z intensiwnym wužiwanjom kruteje tačele wuwjedźeće, mjeztym zo so kluč wutworja, so ‚pool připadnosće‘ znowa napjelni a proces pospěši. Dóstanjeće zdźělenku, hdyž wutowrjenje kluča je dokónčene.
 openpgp-key-created-label =
     .label = Wutworjeny
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = To je kluč z kompleksnej strukturu, změnjenje jeho datuma spadnjenja so njepodpěruje.
 openpgp-key-man-title =
     .title = Zrjadowak OpenPGP-klučow
+openpgp-key-man-dialog-title = Zrjadowak OpenPGP-klučow
 openpgp-key-man-generate =
     .label = Nowy klučowy por
     .accesskey = k
@@ -429,10 +400,7 @@ key-verification = Přepruwujće porstowy wotćišć kluča z pomocu druheho wě
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Njeje móžno powěsć słać, dokelž je problem z wašim wosobinskim klučom. { $problem }
-cannot-encrypt-because-missing = Njeje móžno, tutu powěsć ze zaklučowanjom kónc do kónca pósłác, dokelž su problemy z klučemi slědowacych přijimarjow: { $problem }
 window-locked = Wobdźěłowanske wokno je zawrjene; słanje je so přetorhnyło
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = To je zaklučowany powěsćowy dźěl. Klikńće na přiwěšk, zo byšće jón w separatnym woknje wočinił.
 
 ## Strings in keyserver.jsm
 
@@ -655,7 +623,6 @@ import-key-file = Dataju OpenPGP-kluča importować
 import-rev-file = Wotwołansku dataju OpenPGP importować
 gnupg-file = GnuPG-dataje
 import-keys-failed = Importowanje klučow njeje so poradźiło
-passphrase-prompt = Prošu zapodajće hesłowu frazu, kotraž slědowacy kluč dopušća: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
