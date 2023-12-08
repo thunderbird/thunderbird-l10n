@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-compact-dialog-window =
-    .title = Trinkotu karpetak
-    .style = width: 50em;
 compact-dialog-window-title =
     .title = Trinkotu karpetak
+compact-folders-dialog-title = Trinkotu karpetak
 compact-dialog =
     .buttonlabelaccept = Trinkotu orain
     .buttonaccesskeyaccept = T
