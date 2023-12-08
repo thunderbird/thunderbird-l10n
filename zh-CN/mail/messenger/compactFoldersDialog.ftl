@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-compact-dialog-window =
-    .title = 压缩邮件夹
-    .style = width: 50em;
 compact-dialog-window-title =
     .title = 压缩邮件夹
+compact-folders-dialog-title = 压缩邮件夹
 compact-dialog =
     .buttonlabelaccept = 立即压缩
     .buttonaccesskeyaccept = C
