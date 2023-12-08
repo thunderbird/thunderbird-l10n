@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Publike OpenPGP-kaai(en) yn de e-mailheaders ferstjoere foar komptabiliteit mei Autocrypt
     .accesskey = y
-openpgp-key-user-id-label = Account / Brûkers-ID
-openpgp-keygen-title-label =
-    .title = OpenPGP-kaai oanmeitsje
-openpgp-cancel-key =
-    .label = Annulearje
-    .tooltiptext = Oanmeitsjen kaai annulearje
-openpgp-key-gen-expiry-title =
-    .label = Jildichheidsdoer kaai
-openpgp-key-gen-expire-label = Kaai ferrint oer
-openpgp-key-gen-days-label =
-    .label = dagen
-openpgp-key-gen-months-label =
-    .label = moannen
-openpgp-key-gen-years-label =
-    .label = jier
-openpgp-key-gen-no-expiry-label =
-    .label = Kaai ferrint net
-openpgp-key-gen-key-size-label = Kaaigrutte
-openpgp-key-gen-console-label = Oanmeitsjen kaai
-openpgp-key-gen-key-type-label = Kaaitype
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptyske Kurve)
-openpgp-generate-key =
-    .label = Kaai oanmeitsje
-    .tooltiptext = Makket in nije OpenPGP-kaai oan foar fersifering en/of ûndertekening
-openpgp-advanced-prefs-button-label =
-    .label = Avansearre…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">OPMERKING: it oanmeitsjen fan de kaai kin inkelde minuten duorje.</a> Slút de tapassing net ôf wylst de kaai oanmakke wurdt. Aktyf navigearje of skiifyntensive bewurkingen útfiere wylst it oanmeitsjen fan de kaai sil de ‘samar-wat-pool’ oanfolje en it proses fersnelle. Jo wurde warskôge wannear’t it oanmeitsjen fan de kaai ree is.
 openpgp-key-created-label =
     .label = Oanmakke
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Dit is in kaai mei in komplekse struktuer, it wizigjen fan de ferrindatum wurdt net stipe.
 openpgp-key-man-title =
     .title = OpenPGP-kaaibehearder
+openpgp-key-man-dialog-title = OpenPGP-kaaibehearder
 openpgp-key-man-generate =
     .label = Nije kaaipear
     .accesskey = p
@@ -415,10 +386,7 @@ key-verification = Kontrolearje de fingerôfdruk fan de kaai fia in oar befeilig
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kin it berjocht net ferstjoere, omdat der in probleem is mei jo persoanlike kaai. { $problem }
-cannot-encrypt-because-missing = Kin dit berjocht net ferstjoere mei end-to-end-fersifering, omdat der problemen binne mei de kaaien fan de folgjende ûntfangers: { $problem }
 window-locked = It opstelfinster is beskoattele; ferstjoeren annulearre
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Dit is in fersifere berjochtdiel. Jo moatte it yn in apart finster iepenje troch op de bylage te klikken.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = OpenPGP-kaaibestân ymportearje
 import-rev-file = OpenPGP-ynlûkingsbestân ymportearje
 gnupg-file = GnuPG-bestannen
 import-keys-failed = It ymportearjen fan de kaaien is mislearre
-passphrase-prompt = Fier de wachtwurdsin yn wêrmei't de folgjende kaai ûntskoattele wurdt: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
