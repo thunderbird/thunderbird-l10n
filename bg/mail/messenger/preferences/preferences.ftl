@@ -247,7 +247,7 @@ update-history-button =
 use-service =
     .label = Използване на услуга във фонов режим за инсталиране на обновявания
     .accesskey = ф
-cross-user-udpate-warning = Тази настройка ще се прилага за всички акаунти в Windows и профили { -brand-short-name }, използващи тази инсталация на { -brand-short-name }.
+cross-user-udpate-warning = Тази настройка ще се прилага за всички профили в Windows и профили { -brand-short-name }, използващи тази инсталация на { -brand-short-name }.
 networking-legend = Връзка
 proxy-config-description = Настройки на { -brand-short-name } за достъп до Мрежата
 network-settings-button =
@@ -611,7 +611,7 @@ security-devices-button =
     .accesskey = б
 email-e2ee-header = Шифроване  на електронните съобщения от край до край
 account-settings = Настройки на регистрация
-email-e2ee-enable-info = Настройте имейл акаунти и самоличности за шифроване от край до край в настройките на акаунта.
+email-e2ee-enable-info = Настройте имейл профил и самоличности за шифроване от край до край в настройките на акаунта.
 email-e2ee-automatism = Автоматично използване на шифроване
 email-e2ee-automatism-pre =
     { -brand-short-name } може да помогне, като автоматично активира или деактивира шифроването, докато пишете имейл.

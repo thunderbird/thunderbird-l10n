@@ -19,6 +19,6 @@ carddav-loading = Търсене на настройки…
 # $url (String) - CardDAV endpoint hostname. For example "example.com".
 carddav-known-incompatible = Известно е, че { $url } е несъвместим с { -brand-short-name }.
 carddav-connection-error = Грешка при свързване.
-carddav-none-found = Няма намерени адресни книги за добавяне за посочения акаунт.
-carddav-already-added = Всички адресни книги за посочения акаунт вече са добавени.
+carddav-none-found = Няма намерени адресни книги за добавяне за посочения профил.
+carddav-already-added = Всички адресни книги за посочения профил вече са добавени.
 carddav-available-books = Налични адресници:

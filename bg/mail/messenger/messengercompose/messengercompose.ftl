@@ -316,7 +316,7 @@ compose-tool-button-remove-text-styling =
 
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
-cloud-file-unknown-account-tooltip = Качен в неизвестен акаунт във Filelink.
+cloud-file-unknown-account-tooltip = Качен в неизвестен профил във Filelink.
 
 # Placeholder file
 
