@@ -25,36 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Nachrichtenentwürfe verschlüsselt speichern
     .accesskey = N
-openpgp-key-user-id-label = Konto / Benutzerkennung
-openpgp-keygen-title-label =
-    .title = OpenGPG-Schlüssel erzeugen
-openpgp-cancel-key =
-    .label = Abbrechen
-    .tooltiptext = Schlüsselerzeugung abbrechen
-openpgp-key-gen-expiry-title =
-    .label = Ablaufdatum
-openpgp-key-gen-expire-label = Schlüssel wird ungültig in
-openpgp-key-gen-days-label =
-    .label = Tagen
-openpgp-key-gen-months-label =
-    .label = Monaten
-openpgp-key-gen-years-label =
-    .label = Jahren
-openpgp-key-gen-no-expiry-label =
-    .label = Schlüssel wird nie ungültig
-openpgp-key-gen-key-size-label = Schlüssellänge
-openpgp-key-gen-console-label = Schlüsselerzeugung
-openpgp-key-gen-key-type-label = Schlüsselart
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptische Kurve)
-openpgp-generate-key =
-    .label = Schlüssel erzeugen
-    .tooltiptext = Erzeugt ein OpenGPG-konformes Schlüsselpaar zum Verschlüsseln und/oder Signieren
-openpgp-advanced-prefs-button-label =
-    .label = Erweitert…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">HINWEIS: Das Erzeugen eines Schlüssels kann mehrere Minuten dauern.</a> Beenden Sie die Anwendung nicht, während der Schlüssel erzeugt wird. Aktives Surfen im Internet oder intensive Lese- und Schreibvorgänge setzen den 'Zufallsgenerator' wieder auf Normalniveau zurück und beschleunigen den Vorgang. Sie werden benachrichtigt, wenn die Schlüsselerzeugung abgeschlossen ist.
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =
     .label = Öffentliche(n) OpenPGP-Schlüssel in E-Mail-Kopfzeilen senden für Kompatibilität mit Autocrypt
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Dies ist ein Schlüssel mit einer komplexen Struktur, das Ändern des Ablaufdatums wird nicht unterstützt.
 openpgp-key-man-title =
     .title = OpenPGP-Schlüssel verwalten
+openpgp-key-man-dialog-title = OpenPGP-Schlüssel verwalten
 openpgp-key-man-generate =
     .label = Neues Schlüsselpaar
     .accesskey = N
@@ -415,10 +386,7 @@ key-verification = Verifizieren Sie den Fingerabdruck dieses Schlüssels über e
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Die Nachricht konnte nicht gesendet werden, da es ein Problem mit Ihrem persönlichen Schlüssel gibt. { $problem }
-cannot-encrypt-because-missing = Die Nachricht kann nicht mit Ende-zu-Ende-Verschlüsselung gesendet werden, weil es Probleme mit den Schlüsseln folgender Empfänger gibt: { $problem }
 window-locked = Das Verfassen-Fenster ist gesperrt, der Sende-Vorgang wurde abgebrochen.
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Dies ist ein verschlüsselter Teil der Nachricht. Sie müssen ihn in einem separaten Fenster öffnen, indem Sie auf den Anhang klicken.
 
 ## Strings in keyserver.jsm
 
@@ -643,7 +611,6 @@ import-key-file = OpenPGP-Schlüsseldatei importieren
 import-rev-file = OpenPGP-Widerrufsdatei importieren
 gnupg-file = GnuPG-Dateien
 import-keys-failed = Fehler beim Import der Schlüssel
-passphrase-prompt = Bitte geben Sie das Passwort für den folgenden Schlüssel ein: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
