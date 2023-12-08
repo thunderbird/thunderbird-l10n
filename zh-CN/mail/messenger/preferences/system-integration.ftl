@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = 系统集成
+system-integration-dialog-title = 系统集成
 system-integration-dialog =
     .buttonlabelaccept = 设为默认值
     .buttonlabelcancel = 跳过整合
