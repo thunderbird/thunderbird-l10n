@@ -4,7 +4,7 @@
 
 <!-- extracted from am-main.xhtml -->
 
-<!ENTITY accountTitle.label "Настройки на регистрация">
+<!ENTITY accountTitle.label "Настройки на профила">
 <!ENTITY accountName.label "Име на сметката:">
 <!ENTITY accountName.accesskey "И">
 <!ENTITY identityTitle.label "Самоличност по подразбиране">
