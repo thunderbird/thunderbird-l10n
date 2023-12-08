@@ -38,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Това е ключ със сложна структура, не се поддържа промяна на датата му на валидност.
 openpgp-key-man-title =
     .title = Управление на OpenPGP ключове
+openpgp-key-man-dialog-title = Управление на OpenPGP ключове
 openpgp-key-man-generate =
     .label = Нова двойка ключове
     .accesskey = д
