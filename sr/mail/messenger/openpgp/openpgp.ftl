@@ -31,6 +31,7 @@ e2e-autocrypt-headers =
     .accesskey = т
 openpgp-key-man-title =
     .title = OpenPGP управник кључева
+openpgp-key-man-dialog-title = OpenPGP управник кључева
 openpgp-key-man-edit-menu =
     .label = Уреди
     .accesskey = е
