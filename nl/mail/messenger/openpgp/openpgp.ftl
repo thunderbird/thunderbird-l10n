@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Publieke OpenPGP-sleutel(s) in de e-mailheaders verzenden voor compatibiliteit met Autocrypt
     .accesskey = y
-openpgp-key-user-id-label = Account / Gebruikers-ID
-openpgp-keygen-title-label =
-    .title = OpenPGP-sleutel aanmaken
-openpgp-cancel-key =
-    .label = Annuleren
-    .tooltiptext = Aanmaken sleutel annuleren
-openpgp-key-gen-expiry-title =
-    .label = Geldigheidsduur sleutel
-openpgp-key-gen-expire-label = Sleutel verloopt over
-openpgp-key-gen-days-label =
-    .label = dagen
-openpgp-key-gen-months-label =
-    .label = maanden
-openpgp-key-gen-years-label =
-    .label = jaar
-openpgp-key-gen-no-expiry-label =
-    .label = Sleutel vervalt niet
-openpgp-key-gen-key-size-label = Sleutelgrootte
-openpgp-key-gen-console-label = Aanmaken sleutel
-openpgp-key-gen-key-type-label = Sleuteltype
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptische Curve)
-openpgp-generate-key =
-    .label = Sleutel aanmaken
-    .tooltiptext = Maakt een nieuwe OpenPGP-sleutel aan voor versleuteling en/of ondertekening
-openpgp-advanced-prefs-button-label =
-    .label = Geavanceerd…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">OPMERKING: het aanmaken van de sleutel kan enkele minuten in beslag nemen.</a> Sluit de applicatie niet af terwijl het aanmaken van de sleutel bezig is. Actief navigeren of schijfintensieve bewerkingen uitvoeren tijdens het genereren van sleutels zal de ‘willekeurigheidspool’ aanvullen en het proces versnellen. U wordt gewaarschuwd wanneer het aanmaken van de sleutel is voltooid.
 openpgp-key-created-label =
     .label = Aangemaakt
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Dit is een sleutel met een complexe structuur, het wijzigen van de vervaldatum wordt niet ondersteund.
 openpgp-key-man-title =
     .title = OpenPGP-sleutelbeheerder
+openpgp-key-man-dialog-title = OpenPGP-sleutelbeheerder
 openpgp-key-man-generate =
     .label = Nieuw sleutelpaar
     .accesskey = s
@@ -415,10 +386,7 @@ key-verification = Controleer de vingerafdruk van de sleutel met een ander bevei
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kan het bericht niet verzenden, omdat er een probleem is met uw persoonlijke sleutel. { $problem }
-cannot-encrypt-because-missing = Kan dit bericht niet verzenden met end-to-end-versleuteling, omdat er problemen zijn met de sleutels van de volgende ontvangers: { $problem }
 window-locked = Het opstelvenster is vergrendeld; verzenden geannuleerd
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Dit is een versleuteld berichtgedeelte. U moet het in een apart venster openen door op de bijlage te klikken.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = OpenPGP-sleutelbestand importeren
 import-rev-file = OpenPGP-intrekkingsbestand importeren
 gnupg-file = GnuPG-bestanden
 import-keys-failed = Het importeren van de sleutels is mislukt
-passphrase-prompt = Voer de wachtwoordzin in waarmee de volgende sleutel wordt ontgrendeld: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
