@@ -80,3 +80,4 @@ account-hub-username-label = Notandanafn
 account-hub-adding-account-title = Bætir við reikningi
 account-hub-adding-account-subheader = Endurprófa stillingar reiknings
 account-hub-account-added-title = Reikningi bætt við
+account-hub-find-settings-failed = { -brand-full-name } fann ekki stillingarnar fyrir tölvupóstreikninginn þinn
