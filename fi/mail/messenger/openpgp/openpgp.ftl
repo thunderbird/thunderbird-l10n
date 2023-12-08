@@ -38,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Tämä on avain, jolla on monimutkainen rakenne. Sen voimassaoloajan muuttamista ei tueta.
 openpgp-key-man-title =
     .title = OpenPGP-avainhallinta
+openpgp-key-man-dialog-title = OpenPGP-avainhallinta
 openpgp-key-man-generate =
     .label = Uusi avainpari
     .accesskey = U
