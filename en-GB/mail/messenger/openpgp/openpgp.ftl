@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Send OpenPGP public key(s) in the email headers for compatibility with Autocrypt
     .accesskey = t
-openpgp-key-user-id-label = Account / User ID
-openpgp-keygen-title-label =
-    .title = Generate OpenPGP Key
-openpgp-cancel-key =
-    .label = Cancel
-    .tooltiptext = Cancel Key Generation
-openpgp-key-gen-expiry-title =
-    .label = Key expiry
-openpgp-key-gen-expire-label = Key expires in
-openpgp-key-gen-days-label =
-    .label = days
-openpgp-key-gen-months-label =
-    .label = months
-openpgp-key-gen-years-label =
-    .label = years
-openpgp-key-gen-no-expiry-label =
-    .label = Key does not expire
-openpgp-key-gen-key-size-label = Key size
-openpgp-key-gen-console-label = Key Generation
-openpgp-key-gen-key-type-label = Key type
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (Elliptic Curve)
-openpgp-generate-key =
-    .label = Generate key
-    .tooltiptext = Generates a new OpenPGP compliant key for encryption and/or signing
-openpgp-advanced-prefs-button-label =
-    .label = Advanced…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">NOTE: Key generation may take up to several minutes to complete.</a> Do not exit the application while key generation is in progress. Actively browsing or performing disk-intensive operations during key generation will replenish the 'randomness pool' and speed-up the process. You will be alerted when key generation is completed.
 openpgp-key-created-label =
     .label = Created
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = This is a key with a complex structure, changing its expiry date isn't supported.
 openpgp-key-man-title =
     .title = OpenPGP Key Manager
+openpgp-key-man-dialog-title = OpenPGP Key Manager
 openpgp-key-man-generate =
     .label = New Key Pair
     .accesskey = K
@@ -415,10 +386,7 @@ key-verification = Verify the fingerprint of the key using a secure communicatio
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Unable to send the message, because there is a problem with your personal key. { $problem }
-cannot-encrypt-because-missing = Unable to send this message with end-to-end encryption, because there are problems with the keys of the following recipients: { $problem }
 window-locked = Compose window is locked; send cancelled
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = This is an encrypted message part. You need to open it in a separate window by clicking on the attachment.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = Import OpenPGP Key File
 import-rev-file = Import OpenPGP Revocation File
 gnupg-file = GnuPG Files
 import-keys-failed = Importing the keys failed
-passphrase-prompt = Please enter the passphrase that unlocks the following key: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
