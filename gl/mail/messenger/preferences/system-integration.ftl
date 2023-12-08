@@ -4,6 +4,7 @@
 
 system-integration-title =
     .title = Integración co sistema
+system-integration-dialog-title = Integración co sistema
 system-integration-dialog =
     .buttonlabelaccept = Estabelecer como predeterminado
     .buttonlabelcancel = Saltar integración
