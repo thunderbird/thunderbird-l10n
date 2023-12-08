@@ -38,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Ky është një kyç me një strukturë komplekse, nuk mbulohet ndryshimi i datës së skadimit të tij.
 openpgp-key-man-title =
     .title = Përgjegjës Kyçesh OpenPGP
+openpgp-key-man-dialog-title = Përgjegjës Kyçesh OpenPGP
 openpgp-key-man-generate =
     .label = Çift i Ri Kyçesh
     .accesskey = K
