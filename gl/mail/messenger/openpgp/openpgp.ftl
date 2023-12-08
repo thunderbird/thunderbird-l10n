@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Enviar as chaves públicas de OpenPGP nas cabeceiras do correo electrónico para fornecer a compatibilidade con Autocrypt
     .accesskey = v
-openpgp-key-user-id-label = Conta/Identificador de usuario
-openpgp-keygen-title-label =
-    .title = Xerar unha chave OpenPGP
-openpgp-cancel-key =
-    .label = Cancelar
-    .tooltiptext = Cancelar a xeración da chave
-openpgp-key-gen-expiry-title =
-    .label = Caducidade da chave
-openpgp-key-gen-expire-label = A chave caduca en
-openpgp-key-gen-days-label =
-    .label = días
-openpgp-key-gen-months-label =
-    .label = meses
-openpgp-key-gen-years-label =
-    .label = anos
-openpgp-key-gen-no-expiry-label =
-    .label = A chave non caduca
-openpgp-key-gen-key-size-label = Tamaño da chave
-openpgp-key-gen-console-label = Xeración de chaves
-openpgp-key-gen-key-type-label = Tipo de chave
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (curva elíptica)
-openpgp-generate-key =
-    .label = Xerar unha chave
-    .tooltiptext = Xera unha nova chave compatíbel co OpenPGP para cifrar e/ou asinar
-openpgp-advanced-prefs-button-label =
-    .label = Avanzadas…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">Nota: a xeración de chaves pode tardar varios minutos en completarse.</a> Non saia da aplicación mentres a xeración de chaves estea en curso. Navegar activamente ou realizar operacións intensivas en disco durante a xeración de chaves reabastecerá o «cantidade de aleatoriedade» e acelerará o proceso. Recibirá un aviso cando remate a xeración de chaves.
 openpgp-key-created-label =
     .label = Data de creación
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Esta é unha chave cunha estrutura complexa; non se admite cambiar a súa data de caducidade.
 openpgp-key-man-title =
     .title = Xestor de chaves OpenPGP
+openpgp-key-man-dialog-title = Xestor de chaves OpenPGP
 openpgp-key-man-generate =
     .label = Novo par de chaves
     .accesskey = v
@@ -415,10 +386,7 @@ key-verification = Verifique a impresión dixital da chave mediante unha canle d
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Non se puido enviar a mensaxe porque hai un problema coa súa chave persoal. { $problema }
-cannot-encrypt-because-missing = Non se puido enviar esta mensaxe co cifrado de extremo a extremo porque hai problemas coas chaves dos seguintes destinatarios: { $problem }
 window-locked = A xanela de redacción está bloqueada; cancelouse o envío
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Esta é unha parte da mensaxe cifrada. Debe abrila nunha xanela separada facendo clic no anexo.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = Importar o ficheiro de chave OpenPGP
 import-rev-file = Importar ficheiro de revogación OpenPGP
 gnupg-file = Ficheiros GnuPG
 import-keys-failed = Fallou a importación das chaves
-passphrase-prompt = Insira a frase secreta que desbloquea a seguinte chave: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
