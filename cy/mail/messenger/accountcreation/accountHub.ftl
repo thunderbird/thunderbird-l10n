@@ -80,3 +80,4 @@ account-hub-username-label = Enw Defnyddiwr
 account-hub-adding-account-title = Ychwanegu Cyfrif
 account-hub-adding-account-subheader = Ail-brofi gosodiadau ffurfweddiad cyfrif
 account-hub-account-added-title = Ychwanegwyd Cyfrif
+account-hub-find-settings-failed = Methodd { -brand-full-name } â dod o hyd i'r gosodiadau ar gyfer eich cyfrif e-bost.
