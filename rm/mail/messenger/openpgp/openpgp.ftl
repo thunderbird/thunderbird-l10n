@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Trametter la(s) clav(s) publica(s) OpenPGP en ils chaus-pagina dals e-mails per garantir la cumpatibilitad cun Autocrypt
     .accesskey = t
-openpgp-key-user-id-label = Conto / ID da l'utilisader
-openpgp-keygen-title-label =
-    .title = Generar ina clav OpenPGP
-openpgp-cancel-key =
-    .label = Interrumper
-    .tooltiptext = Interrumper la generaziun da la clav
-openpgp-key-gen-expiry-title =
-    .label = Scadenza da la clav
-openpgp-key-gen-expire-label = La clav scada en
-openpgp-key-gen-days-label =
-    .label = dis
-openpgp-key-gen-months-label =
-    .label = mais
-openpgp-key-gen-years-label =
-    .label = onns
-openpgp-key-gen-no-expiry-label =
-    .label = La clav na scada mai
-openpgp-key-gen-key-size-label = Dimensiun da la clav
-openpgp-key-gen-console-label = Generaziun da la clav
-openpgp-key-gen-key-type-label = Tip da clav
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (curva elliptica)
-openpgp-generate-key =
-    .label = Generar ina clav
-    .tooltiptext = Generescha ina nova clav confurma ad OpenPGP per criptadi e/u signatura
-openpgp-advanced-prefs-button-label =
-    .label = Avanzà…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">REMARTGA: La generaziun dad ina clav po durar pliras minutas.</a> Na terminescha betg l'applicaziun enfin che la generaziun da la clav n'è betg finida. Cun navigar activamain u exequir operaziuns exigentas per il disc dir durant la generaziun da la clav, pos ti augmentar il nivel da casualitad ed accelerar il process. Ti vegns infurmà uschespert ch'il process è terminà.
 openpgp-key-created-label =
     .label = Data da creaziun
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = Quai è ina clav cun ina structura cumplexa. La midada da sia data da scadenza na vegn betg sustegnida.
 openpgp-key-man-title =
     .title = Administraziun da clavs OpenPGP
+openpgp-key-man-dialog-title = Administraziun da clavs OpenPGP
 openpgp-key-man-generate =
     .label = Nov pèr da clavs
     .accesskey = N
@@ -415,10 +386,7 @@ key-verification = Verifitgescha l'impronta digitala da la clav cun agid dad in 
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Impussibel da trametter il messadi. I dat in problem cun tia clav persunala. { $problem }
-cannot-encrypt-because-missing = Impussibel da trametter quest messadi cun criptadi da fin a fin. I dat problems cun las clavs dals suandants destinaturs: { $problem }
 window-locked = La fanestra da rediger è bloccada; spediziun annullada
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Quai è ina part criptada dal messadi. Ti stos l'avrir en ina fanestra separada cun cliccar sin l'agiunta.
 
 ## Strings in keyserver.jsm
 
@@ -641,7 +609,6 @@ import-key-file = Importar ina datoteca da clav OpenPGP
 import-rev-file = Importar ina datoteca da revocaziun OpenPGP
 gnupg-file = Datotecas GnuPG
 import-keys-failed = L'import da las clavs n'è betg reussì
-passphrase-prompt = Endatescha per plaschair la frasa-clav che deblochescha la suandanta clav: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
