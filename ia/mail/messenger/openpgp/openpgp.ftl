@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Invia clave public OpenPGP(s) in le titulos del emails pro compatibilitate con Autocrypt
     .accesskey = t
-openpgp-key-user-id-label = Conto/ID usator
-openpgp-keygen-title-label =
-    .title = Generar clave OpenPGP
-openpgp-cancel-key =
-    .label = Cancellar
-    .tooltiptext = Cancellar generation de clave
-openpgp-key-gen-expiry-title =
-    .label = Expiration del clave
-openpgp-key-gen-expire-label = Le clave expirara in:
-openpgp-key-gen-days-label =
-    .label = dies
-openpgp-key-gen-months-label =
-    .label = menses
-openpgp-key-gen-years-label =
-    .label = annos
-openpgp-key-gen-no-expiry-label =
-    .label = Le clave non expira
-openpgp-key-gen-key-size-label = Dimension del clave:
-openpgp-key-gen-console-label = Generation del clave
-openpgp-key-gen-key-type-label = Typo de clave
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (curva elliptic)
-openpgp-generate-key =
-    .label = Generar clave
-    .tooltiptext = Genera un nove clave conforme a OpenPGP pro cryptation o firma
-openpgp-advanced-prefs-button-label =
-    .label = Avantiate…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">Nota: Le generation de clave pote occupar usque plure minutas pro completar.</a> Non exir del application durante que es in curso le generation del clave. Navigar activemente o exequer operationes intensive pro le disco durante le generation del clave replena le 'piscina aleatori' e accelera le procedura. Tu sera alertate quando generation del clave es completate.
 openpgp-key-created-label =
     .label = Create
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = La structura de iste clave es complexe, la cambio de su data de expiration non es supportate.
 openpgp-key-man-title =
     .title = Gestor de clave OpenPGP
+openpgp-key-man-dialog-title = Gestor de clave OpenPGP
 openpgp-key-man-generate =
     .label = Nove par de claves
     .accesskey = N
@@ -415,10 +386,7 @@ key-verification = Verifica le dactylogramma del clave usante un canal de commun
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Impossibile inviar le message, perque il ha un problema con tu clave personal. { $problem }
-cannot-encrypt-because-missing = Impossibile inviar iste message con cryptographia end-to-end, perque il ha problemas con le claves del sequente destinatarios: { $problem }
 window-locked = Le fenestra de composition es blocate; invio cancellate
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Isto es un parte de message cryptate. Tu debe aperir lo in un fenestra separate cliccante sur le annexo.
 
 ## Strings in keyserver.jsm
 
@@ -643,7 +611,6 @@ import-key-file = Importar le file clave OpenPGP
 import-rev-file = Importar le le revocation del file OpenPGP
 gnupg-file = Files GnuPG
 import-keys-failed = Importation de claves fallite!
-passphrase-prompt = Insere le phrase contrasigno que disbloca le sequente clave: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
