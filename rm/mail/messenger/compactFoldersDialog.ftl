@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-compact-dialog-window =
-    .title = Cumprimer ils ordinaturs
-    .style = width: 60em;
 compact-dialog-window-title =
     .title = Cumprimer ils ordinaturs
+compact-folders-dialog-title = Cumprimer ils ordinaturs
 compact-dialog =
     .buttonlabelaccept = Cumprimer ussa
     .buttonaccesskeyaccept = C
