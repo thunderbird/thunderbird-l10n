@@ -25,36 +25,6 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Przechowuj szkice wiadomości w formacie zaszyfrowanym
     .accesskey = P
-openpgp-key-user-id-label = Identyfikator konta/użytkownika
-openpgp-keygen-title-label =
-    .title = Wygeneruj klucz OpenPGP
-openpgp-cancel-key =
-    .label = Anuluj
-    .tooltiptext = Anuluj generowanie klucza
-openpgp-key-gen-expiry-title =
-    .label = Ważność klucza
-openpgp-key-gen-expire-label = Klucz wygasa za
-openpgp-key-gen-days-label =
-    .label = dni
-openpgp-key-gen-months-label =
-    .label = mies.
-openpgp-key-gen-years-label =
-    .label = lat(a)
-openpgp-key-gen-no-expiry-label =
-    .label = Klucz nie wygasa
-openpgp-key-gen-key-size-label = Rozmiar klucza
-openpgp-key-gen-console-label = Generowanie kluczy
-openpgp-key-gen-key-type-label = Typ klucza
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (krzywa eliptyczna)
-openpgp-generate-key =
-    .label = Wygeneruj klucz
-    .tooltiptext = Generuje nowy klucz zgodny z OpenPGP do szyfrowania i podpisywania
-openpgp-advanced-prefs-button-label =
-    .label = Zaawansowane…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">UWAGA: generowanie klucza może zająć nawet kilka minut.</a> Nie wyłączaj aplikacji w trakcie generowania. Aktywne przeglądanie Internetu i wykonywanie działań intensywnie korzystających z dysku podczas generowania klucza uzupełni „pulę losowości” i przyspieszy ten proces. Po ukończeniu generowania zostanie wyświetlony komunikat.
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =
     .label = Wysyłaj klucze publiczne OpenPGP w nagłówkach wiadomości, aby zapewnić zgodność z Autocrypt
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = To klucz o złożonej strukturze, zmiana jego daty wygaśnięcia nie jest obsługiwana.
 openpgp-key-man-title =
     .title = Menedżer kluczy OpenPGP
+openpgp-key-man-dialog-title = Menedżer kluczy OpenPGP
 openpgp-key-man-generate =
     .label = Nowa para kluczy
     .accesskey = N
@@ -422,10 +393,7 @@ key-verification = Zweryfikuj odcisk klucza za pomocą zabezpieczonego środka k
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Nie można wysłać wiadomości, ponieważ wystąpił problem z kluczem osobistym. { $problem }
-cannot-encrypt-because-missing = Nie można wysłać tej wiadomości za pomocą szyfrowania typu „end-to-end”, ponieważ wystąpiły problemy z kluczami tych odbiorców: { $problem }
 window-locked = Okno tworzenia wiadomości jest zablokowane; anulowano wysyłanie
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = To jest zaszyfrowana część wiadomości. Musisz otworzyć ją w oddzielnym oknie, klikając załącznik.
 
 ## Strings in keyserver.jsm
 
@@ -648,7 +616,6 @@ import-key-file = Importuj plik klucza OpenPGP
 import-rev-file = Importuj plik unieważnienia OpenPGP
 gnupg-file = Pliki GnuPG
 import-keys-failed = Zaimportowanie kluczy się nie powiodło
-passphrase-prompt = Wprowadź hasło odblokowujące ten klucz: { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
