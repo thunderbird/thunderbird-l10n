@@ -29,36 +29,6 @@ e2e-encrypt-drafts =
 e2e-autocrypt-headers =
     .label = Envoyer la ou les clés publiques OpenPGP dans l’en-tête des messages pour assurer la compatibilité avec Autocrypt
     .accesskey = v
-openpgp-key-user-id-label = Compte / Identifiant utilisateur
-openpgp-keygen-title-label =
-    .title = Générer une clé OpenPGP
-openpgp-cancel-key =
-    .label = Annuler
-    .tooltiptext = Annuler la génération de la clé
-openpgp-key-gen-expiry-title =
-    .label = Expiration de la clé
-openpgp-key-gen-expire-label = La clé expire dans
-openpgp-key-gen-days-label =
-    .label = jours
-openpgp-key-gen-months-label =
-    .label = mois
-openpgp-key-gen-years-label =
-    .label = ans
-openpgp-key-gen-no-expiry-label =
-    .label = La clé n’expire jamais
-openpgp-key-gen-key-size-label = Taille de la clé
-openpgp-key-gen-console-label = Génération de la clé
-openpgp-key-gen-key-type-label = Type de clé
-openpgp-key-gen-key-type-rsa =
-    .label = RSA
-openpgp-key-gen-key-type-ecc =
-    .label = ECC (courbe elliptique)
-openpgp-generate-key =
-    .label = Générer une clé
-    .tooltiptext = Génère une nouvelle clé conforme à OpenPGP pour chiffrer et/ou signer
-openpgp-advanced-prefs-button-label =
-    .label = Avancé…
-openpgp-keygen-desc = <a data-l10n-name="openpgp-keygen-desc-link">REMARQUE : la génération de clé peut prendre plusieurs minutes.</a> Veuillez ne pas quitter l’application tant que la génération de clé est en cours. Naviguer de façon soutenue sur le Web ou exécuter des opérations qui sollicitent le disque pendant la génération de clé renforcera le caractère aléatoire du processus et l’accélérera. Vous serez averti·e lorsque la génération de clé sera terminée.
 openpgp-key-created-label =
     .label = Date de création
 openpgp-key-expiry-label =
@@ -68,6 +38,7 @@ openpgp-key-id-label =
 openpgp-cannot-change-expiry = La structure de cette clé est complexe, la modification de sa date d’expiration n’est pas prise en charge.
 openpgp-key-man-title =
     .title = Gestionnaire de clés OpenPGP
+openpgp-key-man-dialog-title = Gestionnaire de clés OpenPGP
 openpgp-key-man-generate =
     .label = Nouvelle paire de clés
     .accesskey = N
@@ -415,10 +386,7 @@ key-verification = Vérifiez l’empreinte numérique de la clé à l’aide d�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Impossible d’envoyer le message, car il y a un problème avec votre clé personnelle. { $problem }
-cannot-encrypt-because-missing = Impossible d’envoyer ce message avec un chiffrement de bout en bout, car il y a des problèmes avec les clés des destinataires suivants : { $problem }
 window-locked = La fenêtre de rédaction est verrouillée ; envoi annulé
-# Strings in mimeDecrypt.jsm
-mime-decrypt-encrypted-part-concealed-data = Il s’agit d’une partie d’un message chiffré. Vous devez l’ouvrir dans une fenêtre séparée en cliquant sur la pièce jointe.
 
 ## Strings in keyserver.jsm
 
@@ -640,7 +608,6 @@ import-key-file = Importer un fichier de clé OpenPGP
 import-rev-file = Importer un fichier de révocation OpenPGP
 gnupg-file = Fichiers GnuPG
 import-keys-failed = Échec de l’importation des clés
-passphrase-prompt = Veuillez saisir la phrase de passe pour déverrouiller la clé suivante : { $key }
 # Variables:
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
