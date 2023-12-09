@@ -409,6 +409,9 @@ keyserver-error-unsupported = Strežnik ključev ni podprt.
 wkd-message-body-req =
     Vaš ponudnik e-pošte je obdelal vašo zahtevo za prenos vašega javnega ključa v OpenPGP Web Key Directory.
     Prosimo, potrdite, da dokončate objavo vašega javnega ključa.
+wkd-message-body-process =
+    To je e-poštno sporočilo, povezano s samodejno obdelavo za nalaganje vašega javnega ključa v imenik spletnih ključev OpenPGP.
+    Trenutno vam ni treba ročno storiti ničesar.
 
 ## Strings in persistentCrypto.jsm
 
