@@ -80,3 +80,4 @@ account-hub-username-label = Имя пользователя
 account-hub-adding-account-title = Добавление учетной записи
 account-hub-adding-account-subheader = Повторное тестирование параметров конфигурации учетной записи
 account-hub-account-added-title = Учётная запись добавлена
+account-hub-find-settings-failed = { -brand-full-name } не удалось найти настройки для вашей учетной записи почты
