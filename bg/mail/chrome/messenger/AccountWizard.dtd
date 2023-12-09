@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Помощник за регистрация">
-<!ENTITY accountWizard.size "width: 50em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -36,14 +33,12 @@
 <!ENTITY newsServerLabel.label "Сървър на дискусионна група:">
 <!ENTITY newsServerLabel.accesskey "С">
 
-<!-- Entities for Outgoing Server page -->
-
 <!-- Entities for Account name page -->
 
-<!ENTITY accnameTitle.label "Име на сметката">
+<!ENTITY accnameTitle.label "Име на профила">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Напишете името, под което ще използвате тази регистрация (например, &quot;Служебна поща&quot;, &quot;Домашна поща&quot; или &quot;Регистрация за новини&quot;).">
-<!ENTITY accnameLabel.label "Име на сметката:">
+<!ENTITY accnameLabel.label "Име на профила:">
 <!ENTITY accnameLabel.accesskey "И">
 
 <!-- Entities for Done (Congratulations) page -->

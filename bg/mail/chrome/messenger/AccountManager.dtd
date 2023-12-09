@@ -11,13 +11,13 @@
 <!ENTITY accountActionsButton.accesskey "р">
 <!ENTITY addMailAccountButton.label "Добавяне на пощенска регистрация…">
 <!ENTITY addMailAccountButton.accesskey "Д">
-<!ENTITY addIMAccountButton.label "Добавяне на сметка за разговор…">
+<!ENTITY addIMAccountButton.label "Добавяне на профил за разговор…">
 <!ENTITY addIMAccountButton.accesskey "р">
 <!ENTITY addFeedAccountButton.label "Добавяне регистрация на емисия…">
 <!ENTITY addFeedAccountButton.accesskey "е">
 <!ENTITY setDefaultButton.label "По подразбиране">
 <!ENTITY setDefaultButton.accesskey "П">
-<!ENTITY removeButton.label "Премахване на сметка">
+<!ENTITY removeButton.label "Премахване на профил">
 <!ENTITY removeButton.accesskey "П">
 
 <!ENTITY addonsButton.label "Разширения и теми">
