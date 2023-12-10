@@ -11,9 +11,9 @@
 <!ENTITY accountActionsButton.accesskey "р">
 <!ENTITY addMailAccountButton.label "Добавяне на пощенска регистрация…">
 <!ENTITY addMailAccountButton.accesskey "Д">
-<!ENTITY addIMAccountButton.label "Добавяне на профил за разговор…">
+<!ENTITY addIMAccountButton.label "Добавяне на профил за разговори…">
 <!ENTITY addIMAccountButton.accesskey "р">
-<!ENTITY addFeedAccountButton.label "Добавяне регистрация на емисия…">
+<!ENTITY addFeedAccountButton.label "Добавяне на профил за на емисии…">
 <!ENTITY addFeedAccountButton.accesskey "е">
 <!ENTITY setDefaultButton.label "По подразбиране">
 <!ENTITY setDefaultButton.accesskey "П">

@@ -28,9 +28,9 @@
 <!ENTITY newCreateEmailAccountCmd.accesskey "П">
 <!ENTITY newExistingEmailAccountCmd.label "Профил за съществуваща поща…">
 <!ENTITY newExistingEmailAccountCmd.accesskey "С">
-<!ENTITY newIMAccountCmd.label "Сметка за разговор…">
+<!ENTITY newIMAccountCmd.label "Профил за разговори…">
 <!ENTITY newIMAccountCmd.accesskey "С">
-<!ENTITY newFeedAccountCmd.label "Регистрация на емисия…">
+<!ENTITY newFeedAccountCmd.label "Профил за емисии…">
 <!ENTITY newFeedAccountCmd.accesskey "е">
 <!ENTITY newIMContactCmd.label "Контакт за разговор…">
 <!ENTITY newIMContactCmd.accesskey "К">
@@ -38,7 +38,7 @@
 <!ENTITY  newMessageCmd.key "M">
 <!ENTITY  newMessageCmd.label "Писмо">
 <!ENTITY  newMessageCmd.accesskey "п">
-<!ENTITY  newContactCmd.label "Контакт от адресника…">
+<!ENTITY  newContactCmd.label "Контакт към адресника…">
 <!ENTITY  newContactCmd.accesskey "к">
 <!ENTITY openMenuCmd.label "Отваряне">
 <!ENTITY openMenuCmd.accesskey "о">
@@ -577,7 +577,7 @@
 
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Ново съобщение">
-<!ENTITY appmenuNewContactCmd.label "Контакт от адресника…">
+<!ENTITY appmenuNewContactCmd.label "Контакт към адресника…">
 <!ENTITY appmenuToolbarLayout.label "Оформление на лентата с инструменти…">
 
 <!-- Tags Menu Popup -->
