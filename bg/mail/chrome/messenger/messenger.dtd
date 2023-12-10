@@ -24,9 +24,9 @@
 <!ENTITY moveToNewWindow.accesskey "п">
 <!ENTITY newVirtualFolderCmd.label "Запазени търсения…">
 <!ENTITY newVirtualFolderCmd.accesskey "З">
-<!ENTITY newCreateEmailAccountCmd.label "Получаване на нова сметка…">
+<!ENTITY newCreateEmailAccountCmd.label "Профил за електронна поща…">
 <!ENTITY newCreateEmailAccountCmd.accesskey "П">
-<!ENTITY newExistingEmailAccountCmd.label "Съществуваща регистрация…">
+<!ENTITY newExistingEmailAccountCmd.label "Профил за съществуваща поща…">
 <!ENTITY newExistingEmailAccountCmd.accesskey "С">
 <!ENTITY newIMAccountCmd.label "Сметка за разговор…">
 <!ENTITY newIMAccountCmd.accesskey "С">
