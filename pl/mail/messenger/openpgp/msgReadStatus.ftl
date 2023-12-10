@@ -28,6 +28,10 @@ openpgp-invalid-sig = Nieprawidłowy podpis cyfrowy
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Nieprawidłowy podpis cyfrowy – podpisany w dniu { $date }
+openpgp-bad-date-sig = Niezgodność daty podpisu
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Niezgodność daty podpisu – podpisany w dniu { $date }
 openpgp-good-sig = Dobry podpis cyfrowy
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Ta wiadomość zawiera podpis cyfrowy, ale 
 openpgp-sig-uncertain-not-accepted = Ta wiadomość zawiera podpis cyfrowy, ale nie zdecydowano jeszcze, czy klucz osoby podpisującej jest dla Ciebie akceptowalny.
 openpgp-sig-invalid-rejected = Ta wiadomość zawiera podpis cyfrowy, ale wcześniej zdecydowano odrzucić klucz osoby podpisującej.
 openpgp-sig-invalid-technical-problem = Ta wiadomość zawiera podpis cyfrowy, ale wykryto błąd techniczny. Wiadomość została uszkodzona albo zmieniona przez kogoś innego.
+openpgp-sig-invalid-date-mismatch = Ta wiadomość zawiera podpis cyfrowy, ale nie został on złożony w momencie wysłania wiadomości e-mail. Może to być próba oszustwa za pomocą treści z niewłaściwego kontekstu: np. treści napisane w innym kontekście czasowym lub przeznaczone dla kogoś innego.
 openpgp-sig-valid-unverified = Ta wiadomość zawiera prawidłowy podpis cyfrowy z klucza, który już zaakceptowano. Nie zweryfikowano jednak jeszcze, czy klucz jest rzeczywiście własnością nadawcy.
 openpgp-sig-valid-verified = Ta wiadomość zawiera prawidłowy podpis cyfrowy ze zweryfikowanego klucza.
 openpgp-sig-valid-own-key = Ta wiadomość zawiera prawidłowy podpis cyfrowy z własnego klucza osobistego.

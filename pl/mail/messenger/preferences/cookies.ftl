@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Ciasteczka
+cookies-dialog-title = Ciasteczka
 window-close-key =
     .key = w
 window-focus-search-key =
