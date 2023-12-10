@@ -80,3 +80,4 @@ account-hub-username-label = Používateľské meno
 account-hub-adding-account-title = Účet sa pridáva
 account-hub-adding-account-subheader = Opätovne sa testujú nastavenia účtu
 account-hub-account-added-title = Účet bol pridaný
+account-hub-find-settings-failed = { -brand-full-name(case: "dat") } nemohol nájsť nastavenia pre váš e‑mailový účet
