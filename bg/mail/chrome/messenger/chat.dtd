@@ -34,7 +34,7 @@
 
 <!ENTITY addBuddyButton.label          "Добавяне на контакт">
 <!ENTITY joinChatButton.label          "Присъединяване към разговор">
-<!ENTITY chatAccountsButton.label      "Списък със сметки">
+<!ENTITY chatAccountsButton.label      "Показване на профили">
 
 <!ENTITY status.available          "На линия">
 <!ENTITY status.unavailable        "Зает">
