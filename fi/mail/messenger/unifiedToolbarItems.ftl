@@ -145,6 +145,7 @@ toolbar-throbber =
 toolbar-create-address-book-label = Uusi osoitekirja
 toolbar-create-address-book =
     .title = Luo uusi osoitekirja
+toolbar-import-contacts-label = Tuo
 
 ## New Address Book popup items
 
