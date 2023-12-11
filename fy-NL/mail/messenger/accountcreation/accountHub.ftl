@@ -80,3 +80,4 @@ account-hub-username-label = Brûkersnamme
 account-hub-adding-account-title = Account tafoegje
 account-hub-adding-account-subheader = Accountkonfiguraasje-ynstellingen opnij teste
 account-hub-account-added-title = Account tafoege
+account-hub-find-settings-failed = { -brand-full-name } kin de ynstellingen foar jo e-mailaccount net fine
