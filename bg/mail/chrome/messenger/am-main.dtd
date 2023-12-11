@@ -5,7 +5,7 @@
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "Настройки на профила">
-<!ENTITY accountName.label "Име на сметката:">
+<!ENTITY accountName.label "Име на профила:">
 <!ENTITY accountName.accesskey "И">
 <!ENTITY identityTitle.label "Самоличност по подразбиране">
 <!ENTITY identityDesc.label "Всяка регистрация е уникална. Това е информация, която другите виждат, четейки вашите писма.">

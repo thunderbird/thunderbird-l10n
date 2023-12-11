@@ -447,7 +447,7 @@
 <!ENTITY imStatus.available          "На линия">
 <!ENTITY imStatus.unavailable        "Зает">
 <!ENTITY imStatus.offline            "Без връзка">
-<!ENTITY imStatus.showAccounts       "Показване на сметките…">
+<!ENTITY imStatus.showAccounts       "Показване на профилите…">
 <!ENTITY joinChatCmd.label "Присъединяване към разговор…">
 <!ENTITY joinChatCmd.accesskey "П">
 <!ENTITY savedFiles.label "Запазени файлове">

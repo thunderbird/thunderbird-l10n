@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Account manager window for Instantbird -->
-<!ENTITY accounts.title                      "Сметки - &brandShortName;">
+<!ENTITY accounts.title                      "Профили - &brandShortName;">
 <!-- Instant messaging account status window for Thunderbird -->
 <!ENTITY accountsWindow.title                "Състояние на незабавните съобщения">
 
