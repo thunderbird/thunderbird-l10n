@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Rastros (Cookies)
+cookies-dialog-title = Rastros
 window-close-key =
     .key = w
 window-focus-search-key =
