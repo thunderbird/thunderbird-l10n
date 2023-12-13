@@ -577,6 +577,12 @@ import-keys-failed = Anahtarlar içe aktarılamadı
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
 passphrase-prompt2 = { $key } kimlikli, { $date } tarihinde oluşturulan { $username_and_email } gizli anahtarının kilidini açmak için parolayı girin
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = { $key } anahtar kimliğinin alt anahtarı olan { $subkey } kimlikli, { $date } tarihinde oluşturulan { $username_and_email } gizli anahtarının kilidini açmak için parolayı girin
 file-to-big-to-import = Bu dosya çok büyük. Lütfen büyük anahtar kümelerini aynı anda içe aktarmayın.
 
 ## Strings used in enigmailKeygen.js

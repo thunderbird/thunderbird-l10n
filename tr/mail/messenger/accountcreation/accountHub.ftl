@@ -80,3 +80,4 @@ account-hub-username-label = Kullanıcı adı
 account-hub-adding-account-title = Hesap ekleme
 account-hub-adding-account-subheader = Hesap yapılandırma ayarları yeniden sınanıyor
 account-hub-account-added-title = Hesap eklendi
+account-hub-find-settings-failed = { -brand-full-name }, e-posta hesabınızın ayarlarını bulamadı.
