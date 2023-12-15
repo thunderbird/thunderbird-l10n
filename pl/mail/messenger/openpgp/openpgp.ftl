@@ -451,6 +451,7 @@ filter-encrypt-label = Zaszyfruj do klucza (OpenPGP)
 
 import-info-title =
     .title = Pomyślnie zaimportowano klucze
+import-info-dialog-title = Pomyślnie zaimportowano klucze
 import-info-bits = Bity
 import-info-created = Utworzono
 import-info-fpr = Odcisk klucza
