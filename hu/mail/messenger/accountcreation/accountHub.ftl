@@ -80,3 +80,4 @@ account-hub-username-label = Felhasználónév
 account-hub-adding-account-title = Fiók hozzáadása…
 account-hub-adding-account-subheader = Fiókkonfigurációs beállítások újratesztelése
 account-hub-account-added-title = Fiók hozzáadva
+account-hub-find-settings-failed = A { -brand-full-name } nem találta meg az e-mail-fiókja beállításait
