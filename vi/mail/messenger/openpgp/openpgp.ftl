@@ -496,6 +496,11 @@ user-att-photo = Thuộc tính người dùng (hình ảnh JPEG)
 ## Strings in key.jsm
 
 already-revoked = Khóa này đã bị thu hồi trước đó.
+#   $identity (String) - the id and associated user identity of the key being revoked
+revoke-key-question =
+    Bạn sắp thu hồi khóa ‘{ $identity }’.
+    Bạn sẽ không thể ký bằng khóa này nữa và sau khi được phân phối, những người khác sẽ không thể mã hóa bằng khóa đó nữa. Bạn vẫn có thể dùng khóa để giải mã thư cũ.
+    Bạn có muốn tiếp tục?
 #   $keyId (String) - the id of the key being revoked
 revoke-key-already-revoked = Khóa 0x{ $keyId } đã bị thu hồi trước đó.
 key-man-button-revoke-key = Thu hồi khóa (&R)
