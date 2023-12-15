@@ -395,6 +395,7 @@ filter-encrypt-label = Ծածկագրել բանալին (OpenPGP)
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = Յաջողուե՜ց։ Բանալիները ներմուծուած են
+import-info-dialog-title = Յաջողուե՜ց։ Բանալիները ներմուծուած են
 import-info-bits = Բիթեր
 import-info-created = Ստեղծուել է
 import-info-fpr = Մատնահետք
