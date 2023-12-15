@@ -444,6 +444,7 @@ filter-encrypt-label = Kryptera till nyckel (OpenPGP)
 
 import-info-title =
     .title = Nycklar har importerats!
+import-info-dialog-title = Nycklar har importerats!
 import-info-bits = Bitar
 import-info-created = Skapad
 import-info-fpr = Fingeravtryck
