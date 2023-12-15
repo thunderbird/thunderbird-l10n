@@ -444,6 +444,7 @@ filter-encrypt-label = Krypter til nøgle (OpenPGP)
 
 import-info-title =
     .title = Succes! Nøgler importeret
+import-info-dialog-title = Succes! Nøgler importeret
 import-info-bits = Bits
 import-info-created = Oprettet
 import-info-fpr = Fingeraftryk
