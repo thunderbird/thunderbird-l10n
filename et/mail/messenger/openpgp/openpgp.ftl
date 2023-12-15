@@ -397,6 +397,7 @@ filter-encrypt-label = Krüpteeri võtmega (OpenPGP)
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = Võtmete importimine õnnestus!
+import-info-dialog-title = Võtmete importimine õnnestus!
 import-info-bits = Bitid
 import-info-created = Loodud
 import-info-fpr = Sõrmejälg
