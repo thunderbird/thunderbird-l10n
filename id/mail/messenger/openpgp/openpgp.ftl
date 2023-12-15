@@ -351,6 +351,7 @@ filter-encrypt-label = Enkripsi ke kunci (OpenPGP)
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = Sukses! Kunci diimpor
+import-info-dialog-title = Sukses! Kunci diimpor
 import-info-bits = Bit
 import-info-created = Dibuat
 import-info-fpr = Sidik Jari
