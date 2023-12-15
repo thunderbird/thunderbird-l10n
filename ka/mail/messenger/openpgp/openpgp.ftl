@@ -413,6 +413,7 @@ filter-encrypt-label = დაშიფვრა გასაღებზე (Ope
 
 import-info-title =
     .title = წარმატებით გადმოტანილია გასაღებები.
+import-info-dialog-title = წარმატებით გადმოტანილია გასაღებები.
 import-info-bits = ბიტი
 import-info-created = შექმნილი
 import-info-fpr = ანაბეჭდი
