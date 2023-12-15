@@ -435,6 +435,7 @@ filter-encrypt-label = Zifratu gakora (OpenPGP)
 
 import-info-title =
     .title = Eginda! gakoak inportatuta
+import-info-dialog-title = Eginda! gakoak inportatuta
 import-info-bits = bit
 import-info-created = Sortuta
 import-info-fpr = Hatz-marka
