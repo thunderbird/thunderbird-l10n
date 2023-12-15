@@ -451,6 +451,7 @@ filter-encrypt-label = Захистити ключ (OpenPGP)
 
 import-info-title =
     .title = Ключі успішно імпортовано
+import-info-dialog-title = Ключі успішно імпортовано
 import-info-bits = біт
 import-info-created = Створено
 import-info-fpr = Цифровий відбиток
