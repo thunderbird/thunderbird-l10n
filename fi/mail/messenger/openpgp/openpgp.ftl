@@ -444,6 +444,7 @@ filter-encrypt-label = Salaa avaimeen (OpenPGP)
 
 import-info-title =
     .title = Onnistui! Avaimet tuotu
+import-info-dialog-title = Onnistui! Avaimet tuotu
 import-info-bits = Bittiä
 import-info-created = Luotu
 import-info-fpr = Sormenjälki
