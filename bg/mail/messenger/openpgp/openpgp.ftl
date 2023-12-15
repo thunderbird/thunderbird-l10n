@@ -444,6 +444,7 @@ filter-encrypt-label = Шифроване към ключ (OpenPGP)
 
 import-info-title =
     .title = Успех! Ключовете са внесени
+import-info-dialog-title = Успех! Ключовете са внесени
 import-info-bits = байта
 import-info-created = Дата на създаване
 import-info-fpr = Пръстов отпечатък
