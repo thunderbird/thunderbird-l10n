@@ -452,6 +452,7 @@ filter-encrypt-label = Šifrovať na kľúč (OpenPGP)
 
 import-info-title =
     .title = Importovanie bolo úspešné!
+import-info-dialog-title = Importovanie bolo úspešné!
 import-info-bits = bitov
 import-info-created = Vytvorený
 import-info-fpr = Odtlačok
