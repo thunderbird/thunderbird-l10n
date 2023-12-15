@@ -358,6 +358,7 @@ filter-encrypt-label = Krypter til nøkkel (OpenPGP)
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = Nøkler importerte!
+import-info-dialog-title = Nøkler importerte!
 import-info-bits = Bit
 import-info-created = Opprettet
 import-info-fpr = Fingeravtrykk
