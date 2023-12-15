@@ -83,7 +83,7 @@
      to download the latest version of Firefox (e.g. https://www.firefox.com). As this is all in one line,
      try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.manual.start        "Изтегляне на ">
-<!ENTITY update.manual.linkText     "последната версия">
+<!ENTITY update.manual.linkText     "последно издание">
 <!ENTITY update.manual.end          "">
 
 <!-- LOCALIZATION NOTE (update.unsupported.start,update.unsupported.linkText,update.unsupported.end):
