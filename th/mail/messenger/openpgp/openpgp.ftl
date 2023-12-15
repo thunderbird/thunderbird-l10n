@@ -355,6 +355,7 @@ filter-encrypt-label = เข้ารหัสให้กับคีย์ (O
 
 import-info-title =
     .title = สำเร็จ! นำเข้าคีย์แล้ว
+import-info-dialog-title = สำเร็จ! นำเข้าคีย์แล้ว
 import-info-bits = บิต
 import-info-created = สร้างเมื่อ
 import-info-fpr = ลายนิ้วมือ
