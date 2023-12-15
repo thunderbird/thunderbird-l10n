@@ -359,6 +359,7 @@ filter-encrypt-label = Krypter til nøkkel (OpenPGP)
 
 import-info-title =
     .title = Nøklar importerte!
+import-info-dialog-title = Nøklar importerte!
 import-info-bits = Bit
 import-info-created = Laga
 import-info-fpr = Fingeravtrykk
