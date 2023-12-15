@@ -444,6 +444,7 @@ filter-encrypt-label = Titkosítás a kulcshoz (OpenPGP)
 
 import-info-title =
     .title = Sikeres! Kulcsok importálva
+import-info-dialog-title = Sikeres! Kulcsok importálva
 import-info-bits = Bitek
 import-info-created = Létrehozva
 import-info-fpr = Ujjlenyomat
