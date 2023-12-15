@@ -444,6 +444,7 @@ filter-encrypt-label = Cifrar coa chave (OpenPGP)
 
 import-info-title =
     .title = As chaves foron importadas correctamente
+import-info-dialog-title = As chaves foron importadas correctamente
 import-info-bits = Bits
 import-info-created = Data de creación
 import-info-fpr = Impresión dixital
