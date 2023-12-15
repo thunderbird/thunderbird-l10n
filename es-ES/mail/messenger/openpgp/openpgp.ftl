@@ -444,6 +444,7 @@ filter-encrypt-label = Cifrar a clave (OpenPGP)
 
 import-info-title =
     .title = ¡Claves importadas correctamente!
+import-info-dialog-title = ¡Claves importadas correctamente!
 import-info-bits = Bits
 import-info-created = Creado
 import-info-fpr = Huella digital
