@@ -444,6 +444,7 @@ filter-encrypt-label = Chiffrer avec la clé (OpenPGP)
 
 import-info-title =
     .title = Clés correctement importées
+import-info-dialog-title = Clés correctement importées
 import-info-bits = Bits
 import-info-created = Date de création
 import-info-fpr = Empreinte
