@@ -444,6 +444,7 @@ filter-encrypt-label = Versleutelen naar sleutel (OpenPGP)
 
 import-info-title =
     .title = Succes! Sleutels geïmporteerd
+import-info-dialog-title = Succes! Sleutels geïmporteerd
 import-info-bits = Bits
 import-info-created = Aangemaakt
 import-info-fpr = Vingerafdruk
