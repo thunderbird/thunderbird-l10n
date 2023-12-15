@@ -444,6 +444,7 @@ filter-encrypt-label = Κρυπτογράφηση με κλειδί (OpenPGP)
 
 import-info-title =
     .title = Επιτυχία! Έγινε εισαγωγή κλειδιών
+import-info-dialog-title = Επιτυχία! Έγινε εισαγωγή κλειδιών
 import-info-bits = Bits
 import-info-created = Δημιουργήθηκε
 import-info-fpr = Αποτύπωμα
