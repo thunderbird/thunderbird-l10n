@@ -441,6 +441,7 @@ filter-encrypt-label = Кілтпен шифрлеу (OpenPGP)
 
 import-info-title =
     .title = Кілттер сәтті импортталды
+import-info-dialog-title = Кілттер сәтті импортталды
 import-info-bits = Бит
 import-info-created = Жасалған
 import-info-fpr = Баспасы
