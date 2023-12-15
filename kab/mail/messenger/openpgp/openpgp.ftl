@@ -389,6 +389,7 @@ filter-encrypt-label = Yewgelhen s tsarut (OpenPGP)
 
 import-info-title =
     .title = Tisura ttwaketrent akken iwata
+import-info-dialog-title = Tisura ttwaketrent akken iwata
 import-info-bits = Ibiten
 import-info-created = Yettwarna
 import-info-fpr = Adsil umḍin
