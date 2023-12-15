@@ -444,6 +444,7 @@ filter-encrypt-label = Critta su chiave (OpenPGP)
 
 import-info-title =
     .title = Chiavi importate correttamente.
+import-info-dialog-title = Chiavi importate correttamente.
 import-info-bits = Bit
 import-info-created = Data di creazione
 import-info-fpr = Impronta digitale
