@@ -420,6 +420,7 @@ filter-encrypt-label = Mã hóa thành khóa (OpenPGP)
 
 import-info-title =
     .title = Thành công! Các khóa đã được nhập
+import-info-dialog-title = Thành công! Các khóa đã được nhập
 import-info-bits = Bit
 import-info-created = Đã tạo
 import-info-fpr = Dấu vân tay
