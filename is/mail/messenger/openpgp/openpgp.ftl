@@ -444,6 +444,7 @@ filter-encrypt-label = Dulkóða í lykil (OpenPGP)
 
 import-info-title =
     .title = Tókst! Lyklar voru fluttir inn
+import-info-dialog-title = Tókst! Lyklar voru fluttir inn
 import-info-bits = Bitar
 import-info-created = Búinn til
 import-info-fpr = Fingrafar
