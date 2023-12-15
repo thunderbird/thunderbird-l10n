@@ -28,6 +28,10 @@ openpgp-invalid-sig = Chữ ký số không hợp lệ
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Chữ ký số không hợp lệ - Đã ký vào { $date }
+openpgp-bad-date-sig = Ngày ký không khớp
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Ngày ký không khớp - Đã ký vào { $date }
 openpgp-good-sig = Chữ ký số tốt
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Thư này chứa chữ ký số nhưng đã
 openpgp-sig-uncertain-not-accepted = Thư này chứa chữ ký số, nhưng bạn vẫn chưa quyết định xem khóa của người ký có được bạn chấp nhận hay không.
 openpgp-sig-invalid-rejected = Thư này chứa chữ ký số, nhưng trước đó bạn đã quyết định từ chối khóa người ký.
 openpgp-sig-invalid-technical-problem = Thư này chứa chữ ký số, nhưng đã phát hiện ra lỗi kỹ thuật. Thư đã bị hỏng hoặc đã bị người khác sửa đổi.
+openpgp-sig-invalid-date-mismatch = Thư này chứa chữ ký điện tử nhưng chữ ký không được tạo cùng lúc với thư email được gửi. Đây có thể là một nỗ lực nhằm đánh lừa bạn bằng nội dung sai ngữ cảnh: ví dụ: nội dung được viết trong thời gian bối cảnh khác hoặc dành cho người khác.
 openpgp-sig-valid-unverified = Thư này bao gồm một chữ ký số hợp lệ từ một khóa mà bạn đã chấp nhận. Tuy nhiên, bạn vẫn chưa xác minh được rằng khóa có thực sự thuộc sở hữu của người gửi hay không.
 openpgp-sig-valid-verified = Thư này bao gồm một chữ ký số hợp lệ từ một khóa đã được xác minh.
 openpgp-sig-valid-own-key = Thư này bao gồm một chữ ký số hợp lệ từ khóa cá nhân của bạn.
