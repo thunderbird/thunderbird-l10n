@@ -424,6 +424,7 @@ filter-encrypt-label = 使用密钥加密（OpenPGP）
 
 import-info-title =
     .title = 成功！已导入密钥
+import-info-dialog-title = 成功！已导入密钥
 import-info-bits = 位
 import-info-created = 创建于
 import-info-fpr = 指纹
