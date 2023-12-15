@@ -444,6 +444,7 @@ filter-encrypt-label = Criptografar com chave (OpenPGP)
 
 import-info-title =
     .title = Sucesso! Chaves importadas
+import-info-dialog-title = Sucesso! Chaves importadas
 import-info-bits = Bits
 import-info-created = Criação
 import-info-fpr = Impressão digital
