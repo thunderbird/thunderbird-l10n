@@ -444,6 +444,7 @@ filter-encrypt-label = Crypta tu clave (OpenPGP)
 
 import-info-title =
     .title = Claves importate con successo
+import-info-dialog-title = Claves importate con successo
 import-info-bits = Bits
 import-info-created = Create
 import-info-fpr = Dactylogramma
