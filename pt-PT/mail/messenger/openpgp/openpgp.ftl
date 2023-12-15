@@ -353,6 +353,7 @@ filter-encrypt-label = Encriptar para a chave (OpenPGP)
 
 import-info-title =
     .title = Sucesso! Chaves importadas
+import-info-dialog-title = Sucesso! Chaves importadas
 import-info-bits = Bits
 import-info-created = Criada
 import-info-fpr = Identificador digital
