@@ -332,6 +332,7 @@ filter-encrypt-label = 키로 암호화 (OpenPGP)
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = 성공! 키 가져오기 완료
+import-info-dialog-title = 성공! 키 가져오기 완료
 import-info-bits = 비트
 import-info-created = 생성일
 import-info-fpr = 지문
