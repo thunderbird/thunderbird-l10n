@@ -450,6 +450,7 @@ filter-encrypt-label = Šifriraj v ključ (OpenPGP)
 
 import-info-title =
     .title = Ključi so uspešno uvoženi!
+import-info-dialog-title = Ključi so uspešno uvoženi!
 import-info-bits = Bitov
 import-info-created = Ustvarjen
 import-info-fpr = Prstni odtis
