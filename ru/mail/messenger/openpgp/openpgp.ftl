@@ -451,6 +451,7 @@ filter-encrypt-label = Зашифровывать ключом (OpenPGP)
 
 import-info-title =
     .title = Успешно! Ключи импортированы
+import-info-dialog-title = Успешно! Ключи импортированы
 import-info-bits = Биты
 import-info-created = Создано
 import-info-fpr = Отпечаток
