@@ -458,6 +458,7 @@ filter-encrypt-label = Z klučom zaklučować (OpenPGP)
 
 import-info-title =
     .title = Wuspěch! Kluče su so importowali
+import-info-dialog-title = Wuspěch! Kluče su so importowali
 import-info-bits = Bity
 import-info-created = Wutworjeny
 import-info-fpr = Porstowy wotćišć
