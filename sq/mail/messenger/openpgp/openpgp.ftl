@@ -444,6 +444,7 @@ filter-encrypt-label = Fshehtëzoje sipas kyçi (OpenPGP)
 
 import-info-title =
     .title = Sukses! Kyçet u importuan
+import-info-dialog-title = Sukses! Kyçet u importuan
 import-info-bits = Bite
 import-info-created = Krijuar më
 import-info-fpr = Shenja gishtash
