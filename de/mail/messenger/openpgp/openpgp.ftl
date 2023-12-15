@@ -444,6 +444,7 @@ filter-encrypt-label = Mit Schlüssel verschlüsseln (OpenPGP)
 
 import-info-title =
     .title = Schlüssel erfolgreich importiert
+import-info-dialog-title = Schlüssel erfolgreich importiert
 import-info-bits = Bit
 import-info-created = Erstellt am
 import-info-fpr = Fingerabdruck
