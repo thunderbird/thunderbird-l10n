@@ -346,6 +346,7 @@ filter-encrypt-label = Šifruoti su raktu („OpenPGP“)
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = Raktai sėkmingai importuoti
+import-info-dialog-title = Raktai sėkmingai importuoti
 import-info-bits = bitų
 import-info-created = Sukurtas
 import-info-fpr = „Pirštų atspaudas“
