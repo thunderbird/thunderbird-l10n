@@ -430,6 +430,7 @@ filter-encrypt-label = Anahtara şifrele (OpenPGP)
 
 import-info-title =
     .title = Anahtarlar başarıyla içe aktarıldı!
+import-info-dialog-title = Anahtarlar başarıyla içe aktarıldı!
 import-info-bits = Bit
 import-info-created = Oluşturma
 import-info-fpr = Parmak izi
