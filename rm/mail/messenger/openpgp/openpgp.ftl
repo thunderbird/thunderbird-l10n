@@ -444,6 +444,7 @@ filter-encrypt-label = Criptar cun la clav (OpenPGP)
 
 import-info-title =
     .title = Importà las clavs cun success
+import-info-dialog-title = Importà las clavs cun success
 import-info-bits = Bits
 import-info-created = Creà
 import-info-fpr = Impronta
