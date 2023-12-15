@@ -472,6 +472,7 @@ filter-encrypt-label = Amgryptio i allwedd (OpenPGP)
 
 import-info-title =
     .title = Llwyddiant! Allweddi wedi'u mewnforio
+import-info-dialog-title = Llwyddiant! Allweddi wedi'u mewnforio
 import-info-bits = Didau
 import-info-created = Crëwyd
 import-info-fpr = Bysbrint
