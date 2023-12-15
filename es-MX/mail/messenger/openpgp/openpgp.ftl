@@ -406,6 +406,7 @@ filter-encrypt-label = Cifrar a clave (OpenPGP)
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = Claves importadas con ¡Éxito!
+import-info-dialog-title = Claves importadas con ¡Éxito!
 import-info-bits = Bits
 import-info-created = Creado
 import-info-fpr = Huella digital
