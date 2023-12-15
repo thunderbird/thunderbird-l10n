@@ -293,6 +293,7 @@ filter-encrypt-label = Criptează pentru cheie (OpenPGP)
 # Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = Succes! Cheia a fost importată
+import-info-dialog-title = Succes! Cheia a fost importată
 import-info-bits = Biți
 import-info-created = Creată
 import-info-fpr = Amprentă
