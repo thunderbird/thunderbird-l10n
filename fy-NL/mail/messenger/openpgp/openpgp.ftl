@@ -444,6 +444,7 @@ filter-encrypt-label = Fersiferje nei kaai (OpenPGP)
 
 import-info-title =
     .title = Sukses! Kaaien ymportearre
+import-info-dialog-title = Sukses! Kaaien ymportearre
 import-info-bits = Bits
 import-info-created = Oanmakke
 import-info-fpr = Fingerôfdruk
