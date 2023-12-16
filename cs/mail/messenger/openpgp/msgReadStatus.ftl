@@ -30,6 +30,9 @@ openpgp-invalid-sig = Neplatný elektronický podpis
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Neplatný digitální podpis – podepsáno dne { $date }
 openpgp-bad-date-sig = Neshodující se datum podpisu
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Nesouhlasí datum podpisu - podepsáno dne { $date }
 openpgp-good-sig = Platný elektronický podpis
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.

@@ -80,3 +80,8 @@ account-hub-username-label = Uživatelské jméno
 account-hub-adding-account-title = Přidání účtu
 account-hub-adding-account-subheader = Opětovné otestování nastavení konfigurace účtu
 account-hub-account-added-title = Účet přidán
+account-hub-find-settings-failed =
+    { -brand-full-name.case_status ->
+        [with-cases] { -brand-full-name(case: "gen") } se nepodařilo najít nastavení vašeho poštovního účtu.
+       *[no-cases] Aplikaci { -brand-full-name } se nepodařilo najít nastavení vašeho poštovního účtu.
+    }

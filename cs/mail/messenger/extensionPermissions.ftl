@@ -23,4 +23,5 @@ webext-perms-description-messagesRead = Číst vaše e-mailové zprávy a označ
 webext-perms-description-messagesRead2 = Číst vaše poštovní zprávy
 webext-perms-description-messagesUpdate = Měnit vlastnosti a štítky vašich poštovních zpráv
 webext-perms-description-messagesTags = Vytvářet, upravovat a mazat štítky zpráv
+webext-perms-description-messagesTagsList = Procházet štítky zpráv
 webext-perms-description-sensitiveDataUpload = Přenášet důvěrná data uživatele (pokud byl udělen přístup) na vzdálený server pro další zpracování
