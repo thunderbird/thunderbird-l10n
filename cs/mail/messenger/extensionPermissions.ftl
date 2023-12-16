@@ -20,5 +20,7 @@ webext-perms-description-messagesModify = Číst a upravovat vaše e-mailové zp
 webext-perms-description-messagesMove = Kopírovat nebo přesouvat e-mailové zprávy, včetně přesouvání do složky koše
 webext-perms-description-messagesDelete = Trvale mazat vaše e-mailové zprávy
 webext-perms-description-messagesRead = Číst vaše e-mailové zprávy a označovat je
+webext-perms-description-messagesRead2 = Číst vaše poštovní zprávy
+webext-perms-description-messagesUpdate = Měnit vlastnosti a štítky vašich poštovních zpráv
 webext-perms-description-messagesTags = Vytvářet, upravovat a mazat štítky zpráv
 webext-perms-description-sensitiveDataUpload = Přenášet důvěrná data uživatele (pokud byl udělen přístup) na vzdálený server pro další zpracování
