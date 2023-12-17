@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 list-calendar-context-reload-menuitem =
-    .label = Синхронизиране:
+    .label = Синхронизиране
     .accesskey = С
 calendar-item-context-menu-modify-menuitem =
     .label = Редактиране
