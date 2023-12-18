@@ -80,3 +80,4 @@ account-hub-username-label = Käyttäjätunnus
 account-hub-adding-account-title = Lisätään tili
 account-hub-adding-account-subheader = Tilin määritysasetuksia testataan uudelleen
 account-hub-account-added-title = Tili lisätty
+account-hub-find-settings-failed = { -brand-full-name } ei löytänyt asetuksia sähköpostitilisi osalta.
