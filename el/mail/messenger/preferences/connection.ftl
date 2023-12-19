@@ -8,7 +8,7 @@ connection-dns-over-https-url-resolver = Χρήση παρόχου
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 connection-dns-over-https-url-item-default =
     .label = { $name } (Προεπιλογή)
-    .tooltiptext = Χρήση προεπιλεγμένου URL για επίλυση DNS over HTTPS
+    .tooltiptext = Χρήση του προεπιλεγμένου URL για ανάλυση DNS μέσω HTTPS
 connection-dns-over-https-url-custom =
     .label = Προσαρμοσμένο
     .accesskey = Π
