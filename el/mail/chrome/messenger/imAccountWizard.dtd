@@ -29,4 +29,4 @@
 
 <!ENTITY accountSummaryTitle.label   "Σύνοψη">
 <!ENTITY accountSummaryInfo.label    "Μια σύνοψη των πληροφοριών που έχετε εισαγάγει εμφανίζεται παρακάτω. Παρακαλώ ελέγξτε τες πριν από τη δημιουργία του λογαριασμού.">
-<!ENTITY accountSummary.connectNow.label "Σύνδεση σε αυτόν τον λογαριασμό τώρα.">
+<!ENTITY accountSummary.connectNow.label "Σύνδεση σε αυτόν τον λογαριασμό τώρα">

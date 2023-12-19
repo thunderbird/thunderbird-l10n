@@ -5,7 +5,7 @@
 <!ENTITY folderProps.windowtitle.label           "Ιδιότητες">
 
 <!ENTITY generalInfo.label                       "Γενικές πληροφορίες">
-<!ENTITY folderRebuildSummaryFileTip2.label      "Επιδιόρθωση αρχείου περίληψης ευρετηρίου">
+<!ENTITY folderRebuildSummaryFileTip2.label      "Ανακατασκευή ευρετηρίου αρχείου σύνοψης">
 <!ENTITY folderRebuildSummaryFile2.label         "Επιδιόρθωση φακέλου">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "ρ">
 <!ENTITY folderRebuildSummaryFile.explanation    "Μερικές φορές, το αρχείο ευρετηρίου φακέλου (.msf) καταστρέφεται και τα μηνύματα φαίνεται να λείπουν ή να εμφανίζονται παρά τη διαγραφή τους· η επιδιόρθωση του φακέλου ίσως λύσει αυτά τα ζητήματα.">
