@@ -20,7 +20,7 @@
 <!ENTITY whitelistHeader.label "Να μη γίνεται αυτόματη επισήμανση της αλληλογραφίας ως ανεπιθύμητης, όταν ο αποστολέας ανήκει στα εξής: ">
 <!ENTITY whitelistHeader.accesskey "μ">
 
-<!ENTITY ispHeadersWarning.label "Αν ενεργοποιηθεί, το &brandShortName; αυτόματα θα θεωρεί ανεπιθύμητα τα μηνύματα που επισημαίνονται από αυτή την εξωτερική υπηρεσία ταξινόμησης.">
+<!ENTITY ispHeadersWarning.label "Αν ενεργοποιηθεί, το &brandShortName; αυτόματα θα θεωρεί ανεπιθύμητα τα μηνύματα που επισημαίνονται από αυτήν την εξωτερική υπηρεσία ταξινόμησης.">
 <!ENTITY ispHeaders.label "Να θεωρούνται έμπιστες οι κεφαλίδες ανεπιθύμητων email που ορίζονται από το: ">
 <!ENTITY ispHeaders.accesskey "φ">
 
