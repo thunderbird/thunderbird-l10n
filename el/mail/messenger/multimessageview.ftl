@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 multi-message-window-title =
-    .title = Περίληψη μηνύματος
+    .title = Σύνοψη μηνύματος
 selected-messages-label =
     .label = Επιλεγμένα μηνύματα
 multi-message-archive-button =

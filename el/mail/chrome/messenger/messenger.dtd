@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Διαγραφή μηνύματος">
-<!ENTITY deleteMsgCmd.accesskey "Δ">
-<!ENTITY undeleteMsgCmd.label "Αναίρεση διαγραφής μηνύματος">
-<!ENTITY undeleteMsgCmd.accesskey "ν">
-<!ENTITY deleteMsgsCmd.label "Διαγραφή επιλεγμένων μηνυμάτων">
-<!ENTITY deleteMsgsCmd.accesskey "Δ">
-<!ENTITY undeleteMsgsCmd.label "Αναίρεση διαγραφής επιλεγμένων μηνυμάτων">
-<!ENTITY undeleteMsgsCmd.accesskey "ν">
-<!ENTITY deleteFolderCmd.label "Διαγραφή φακέλου">
-<!ENTITY deleteFolderCmd.accesskey "Δ">
-<!ENTITY unsubscribeNewsgroupCmd.label "Κατάργηση εγγραφής">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "ρ">
 <!ENTITY selectMenu.label "Επιλογή">
 <!ENTITY selectMenu.accesskey "Ε">
 <!ENTITY all.label "Όλα">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "σ">
 <!ENTITY menuFavoriteFolder.label "Αγαπημένος φάκελος">
 <!ENTITY menuFavoriteFolder.accesskey "γ">
-<!ENTITY folderPropsCmd2.label "Ιδιότητες">
-<!ENTITY folderPropsFolderCmd2.label "Ιδιότητες φακέλου">
-<!ENTITY folderPropsNewsgroupCmd2.label "Ιδιότητες ομάδας συζητήσεων">
-<!ENTITY folderPropsCmd.accesskey "δ">
 <!ENTITY undoDeleteMsgCmd.label "Αναίρεση διαγραφής μηνύματος">
 <!ENTITY redoDeleteMsgCmd.label "Επανάληψη διαγραφής μηνύματος">
 <!ENTITY undoMoveMsgCmd.label "Αναίρεση μετακίνησης μηνύματος">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "θ">
 <!ENTITY showFolderPaneCmd.label "Περιοχή φακέλων">
 <!ENTITY showFolderPaneCmd.accesskey "φ">
-<!ENTITY showFolderPaneColsCmd.label "Στήλες περιοχής φακέλων">
-<!ENTITY showFolderPaneColsCmd.accesskey "Φ">
 <!ENTITY showMessageCmd.label "Περιοχή μηνύματος">
 <!ENTITY showMessageCmd.accesskey "μ">
 
@@ -250,7 +232,7 @@
 <!ENTITY bodyMenuFeed.accesskey "η">
 <!ENTITY viewFeedWebPage.label "Ιστοσελίδα">
 <!ENTITY viewFeedWebPage.accesskey "σ">
-<!ENTITY viewFeedSummary.label "Περίληψη">
+<!ENTITY viewFeedSummary.label "Σύνοψη">
 <!ENTITY viewFeedSummary.accesskey "ψ">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Προεπιλεγμένη μορφή">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "μ">
@@ -441,9 +423,9 @@
 <!ENTITY openFeedMessage1.accesskey "ν">
 <!ENTITY openFeedWebPage.label "Άνοιγμα ως ιστοσελίδα">
 <!ENTITY openFeedWebPage.accesskey "σ">
-<!ENTITY openFeedSummary.label "Άνοιγμα ως περίληψη">
+<!ENTITY openFeedSummary.label "Άνοιγμα ως σύνοψη">
 <!ENTITY openFeedSummary.accesskey "ψ">
-<!ENTITY openFeedWebPageInMP.label "Εναλλαγή ιστοσελίδας και περίληψης στα μηνύματα">
+<!ENTITY openFeedWebPageInMP.label "Εναλλαγή ιστοσελίδας και σύνοψης στην προβολή μηνυμάτων">
 <!ENTITY openFeedWebPageInMP.accesskey "γ">
 
 <!-- Windows Menu -->
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Νέο μήνυμα">
 <!ENTITY appmenuNewContactCmd.label "Επαφή ευρετηρίου…">
-<!ENTITY appmenuEditMenu.label "Επεξεργασία">
 <!ENTITY appmenuToolbarLayout.label "Διάταξη γραμμής εργαλείων…">
-<!ENTITY appmenuSelectThread.label "Επιλογή νήματος">
-<!ENTITY appmenuSelectFlagged.label "Επιλογή μηνυμάτων με αστέρι">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Νέα ετικέτα…">
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "ι">
 <!ENTITY copyEmailCmd.label "Αντιγραφή διεύθυνσης email">
 <!ENTITY copyEmailCmd.accesskey "Ε">
-<!ENTITY stopCmd.label "Διακοπή">
-<!ENTITY stopCmd.accesskey "Δ">
-<!ENTITY reloadCmd.label "Ανανέωση">
-<!ENTITY reloadCmd.accesskey "ν">
 <!ENTITY openInBrowser.label "Άνοιγμα σε πρόγραμμα περιήγησης">
 <!ENTITY openInBrowser.accesskey "ο">
 <!ENTITY openLinkInBrowser.label "Άνοιγμα συνδέσμου σε πρόγραμμα περιήγησης">
