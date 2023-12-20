@@ -81,3 +81,5 @@ account-hub-adding-account-title = Aggiunta dell’account
 account-hub-adding-account-subheader = Nuovo test delle impostazioni di configurazione dell’account
 account-hub-account-added-title = Account aggiunto
 account-hub-find-settings-failed = { -brand-full-name } non è riuscito a trovare le impostazioni per il tuo account email.
+account-hub-notification-show-more = Mostra dettagli
+account-hub-notification-show-less = Nascondi dettagli
