@@ -81,3 +81,5 @@ account-hub-adding-account-title = Konto wird hinzugefügt
 account-hub-adding-account-subheader = Konto-Konfigurationseinstellungen werden erneut getestet
 account-hub-account-added-title = Konto hinzugefügt
 account-hub-find-settings-failed = { -brand-full-name } konnte keine Einstellungen für Ihr E-Mail-Konto finden.
+account-hub-notification-show-more = Mehr anzeigen
+account-hub-notification-show-less = Weniger anzeigen
