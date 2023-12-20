@@ -378,6 +378,15 @@ threadpane-column-label-delete =
     .label = Zhašeć
 threadpane-cell-delete =
     .aria-label = Zhašeć
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } wotmołwa
+        [two] { $count } wotmołwje
+        [few] { $count } wotmołwy
+       *[other] { $count } wotmołwow
+    }
 
 ## Message state variations
 
