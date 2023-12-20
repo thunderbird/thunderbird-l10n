@@ -81,3 +81,5 @@ account-hub-adding-account-title = Ychwanegu Cyfrif
 account-hub-adding-account-subheader = Ail-brofi gosodiadau ffurfweddiad cyfrif
 account-hub-account-added-title = Ychwanegwyd Cyfrif
 account-hub-find-settings-failed = Methodd { -brand-full-name } â dod o hyd i'r gosodiadau ar gyfer eich cyfrif e-bost.
+account-hub-notification-show-more = Dangos rhagor
+account-hub-notification-show-less = Dangos llai

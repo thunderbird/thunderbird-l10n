@@ -388,6 +388,17 @@ threadpane-column-label-delete =
     .label = Dileu
 threadpane-cell-delete =
     .aria-label = Dileu
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [zero] { $count } ateb
+        [one] { $count } ateb
+        [two] { $count } ateb
+        [few] { $count } ateb
+        [many] { $count } ateb
+       *[other] { $count } ateb
+    }
 
 ## Message state variations
 
