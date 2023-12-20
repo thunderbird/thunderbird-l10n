@@ -81,3 +81,5 @@ account-hub-adding-account-title = Προσθήκη λογαριασμού
 account-hub-adding-account-subheader = Επανάληψη δοκιμής των ρυθμίσεων διαμόρφωσης λογαριασμού
 account-hub-account-added-title = Ο λογαριασμός προστέθηκε
 account-hub-find-settings-failed = Το { -brand-full-name } απέτυχε να εντοπίσει τις ρυθμίσεις του λογαριασμού email σας.
+account-hub-notification-show-more = Εμφάνιση περισσότερων
+account-hub-notification-show-less = Εμφάνιση λιγότερων
