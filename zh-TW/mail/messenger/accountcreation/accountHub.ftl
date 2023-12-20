@@ -81,3 +81,5 @@ account-hub-adding-account-title = 新增帳號
 account-hub-adding-account-subheader = 正在重新測試帳號設定
 account-hub-account-added-title = 已新增帳號
 account-hub-find-settings-failed = { -brand-full-name } 找不到適用您郵件帳號的設定資訊。
+account-hub-notification-show-more = 顯示更多
+account-hub-notification-show-less = 顯示更少
