@@ -81,3 +81,5 @@ account-hub-adding-account-title = Pśidawanje konta
 account-hub-adding-account-subheader = Nastajenja za kontowu konfiguraciju znowego testowaś
 account-hub-account-added-title = Konto jo se pśidało
 account-hub-find-settings-failed = { -brand-full-name } njejo mógał nastajenja za wašo e-mailowe konto namakaś.
+account-hub-notification-show-more = Wěcej pokazaś
+account-hub-notification-show-less = Mjenjej pokazaś
