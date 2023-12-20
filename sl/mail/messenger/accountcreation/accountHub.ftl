@@ -81,3 +81,5 @@ account-hub-adding-account-title = Dodajanje računa
 account-hub-adding-account-subheader = Ponovno preizkušanje nastavitev računa
 account-hub-account-added-title = Račun dodan
 account-hub-find-settings-failed = { -brand-full-name } ni uspel najti nastavitev za vaš e-poštni račun.
+account-hub-notification-show-more = Prikaži več
+account-hub-notification-show-less = Prikaži manj
