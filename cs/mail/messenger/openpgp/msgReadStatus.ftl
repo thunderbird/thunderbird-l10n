@@ -42,6 +42,7 @@ openpgp-sig-uncertain-uid-mismatch = Tato zpráva obsahuje elektronický podpis,
 openpgp-sig-uncertain-not-accepted = Tato zpráva obsahuje elektronický podpis, ale ještě jste nerozhodli, zda klíč podpisovatele přijímáte či ne.
 openpgp-sig-invalid-rejected = Tato zpráva obsahuje elektronický podpis, ale dříve jste rozhodli klíč podpisovatele nepřijmout.
 openpgp-sig-invalid-technical-problem = Tato zpráva obsahuje elektronický podpis, ale byla zjištěna technická chyba. Buď byla zpráva poškozena, nebo byla někým pozměněna.
+openpgp-sig-invalid-date-mismatch = Tato zpráva obsahuje elektronický podpis, ale tento podpis nebyl vytvořen v okamžiku odeslání poštovní zprávy. Může jít o pokus oklamat vás obsahem z nesprávného kontextu, např. obsah napsaný v jiném časovém kontextu nebo určený pro někoho jiného.
 openpgp-sig-valid-unverified = Tato zpráva obsahuje platný elektronický podpis provedený klíčem, který jste už přijali. Ještě jste ale neověřili, že vlastníkem klíče je skutečně odesílatel.
 openpgp-sig-valid-verified = Tato zpráva obsahuje platný elektronický podpis provedený ověřeným klíčem.
 openpgp-sig-valid-own-key = Tato zpráva obsahuje platný elektronický podpis provedený vaším osobním klíčem.

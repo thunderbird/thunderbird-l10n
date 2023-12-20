@@ -85,3 +85,5 @@ account-hub-find-settings-failed =
         [with-cases] { -brand-full-name(case: "gen") } se nepodařilo najít nastavení vašeho poštovního účtu.
        *[no-cases] Aplikaci { -brand-full-name } se nepodařilo najít nastavení vašeho poštovního účtu.
     }
+account-hub-notification-show-more = Zobrazit více
+account-hub-notification-show-less = Zobrazit méně
