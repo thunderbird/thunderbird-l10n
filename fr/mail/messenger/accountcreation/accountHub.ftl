@@ -81,3 +81,5 @@ account-hub-adding-account-title = Ajout du compte
 account-hub-adding-account-subheader = Nouveau test des paramètres de configuration du compte
 account-hub-account-added-title = Compte ajouté
 account-hub-find-settings-failed = { -brand-full-name } n’a pas trouvé les paramètres de votre compte de messagerie.
+account-hub-notification-show-more = Afficher plus
+account-hub-notification-show-less = Afficher moins
