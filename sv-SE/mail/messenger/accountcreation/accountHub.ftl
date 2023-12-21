@@ -81,3 +81,5 @@ account-hub-adding-account-title = Lägger till konto
 account-hub-adding-account-subheader = Testa kontokonfigurationsinställningarna igen
 account-hub-account-added-title = Konto har lagts till
 account-hub-find-settings-failed = { -brand-full-name } kunde inte hitta inställningarna för ditt e-postkonto.
+account-hub-notification-show-more = Visa mer
+account-hub-notification-show-less = Visa mindre
