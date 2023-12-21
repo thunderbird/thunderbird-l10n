@@ -81,3 +81,5 @@ account-hub-adding-account-title = Добавяне на профил
 account-hub-adding-account-subheader = Повторно тестване на настройките за конфигурация на профила
 account-hub-account-added-title = Профилът е добавен
 account-hub-find-settings-failed = { -brand-full-name } не успя да намери настройките за вашия имейл акаунт.
+account-hub-notification-show-more = Показване на повече
+account-hub-notification-show-less = Показване на по-малко
