@@ -81,3 +81,5 @@ account-hub-adding-account-title = Добавление учетной запи�
 account-hub-adding-account-subheader = Повторное тестирование параметров конфигурации учетной записи
 account-hub-account-added-title = Учётная запись добавлена
 account-hub-find-settings-failed = { -brand-full-name } не удалось найти настройки для вашей учетной записи почты
+account-hub-notification-show-more = Показать больше
+account-hub-notification-show-less = Показать меньше
