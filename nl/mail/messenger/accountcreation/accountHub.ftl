@@ -81,3 +81,5 @@ account-hub-adding-account-title = Account toevoegen
 account-hub-adding-account-subheader = Accountconfiguratie-instellingen opnieuw testen
 account-hub-account-added-title = Account toegevoegd
 account-hub-find-settings-failed = { -brand-full-name } kan de instellingen voor uw e-mailaccount niet vinden
+account-hub-notification-show-more = Meer tonen
+account-hub-notification-show-less = Minder tonen
