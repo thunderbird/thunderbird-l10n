@@ -33,4 +33,4 @@ override-color-always =
 override-color-auto =
     .label = 仅在使用高对比度主题时
 override-color-never =
-    .label = 总不
+    .label = 永不
