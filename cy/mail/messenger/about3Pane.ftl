@@ -392,7 +392,7 @@ threadpane-cell-delete =
 # $count (Number) - Number of replies in thread.
 threadpane-replies =
     { $count ->
-        [zero] { $count } ateb
+        [zero] { $count } atebion
         [one] { $count } ateb
         [two] { $count } ateb
         [few] { $count } ateb
