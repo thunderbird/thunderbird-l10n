@@ -91,7 +91,7 @@ openpgp-key-man-publish-cmd =
     .label = Публикуване
     .accesskey = П
 openpgp-key-publish = Публикуване
-openpgp-key-man-discover-prompt = За да откриете OpenPGP ключове на сървъри за ключове или чрез използването на WKD протокола, въведете имейл адрес или ID на ключ.
+openpgp-key-man-discover-prompt = Въведете имейл адрес или ID на ключ за стартиране на търсенето на OpenPGP ключове в сървърите за ключове или чрез използването на WKD протокола.
 openpgp-key-man-discover-progress = Търсене…
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
