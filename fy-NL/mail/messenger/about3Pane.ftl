@@ -368,6 +368,13 @@ threadpane-column-label-delete =
     .label = Fuortsmite
 threadpane-cell-delete =
     .aria-label = Fuortsmite
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } antwurd
+       *[other] { $count } antwurden
+    }
 
 ## Message state variations
 
