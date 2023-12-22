@@ -368,6 +368,13 @@ threadpane-column-label-delete =
     .label = Eyða
 threadpane-cell-delete =
     .aria-label = Eyða
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } svar
+       *[other] { $count } svör
+    }
 
 ## Message state variations
 
