@@ -373,6 +373,14 @@ threadpane-column-label-delete =
     .label = Видалити
 threadpane-cell-delete =
     .aria-label = Видалити
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } відповідь
+        [few] { $count } відповіді
+       *[many] { $count } відповідей
+    }
 
 ## Message state variations
 

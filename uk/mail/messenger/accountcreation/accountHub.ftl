@@ -81,3 +81,5 @@ account-hub-adding-account-title = Додавання облікового за�
 account-hub-adding-account-subheader = Повторна перевірка налаштувань конфігурації облікового запису
 account-hub-account-added-title = Обліковий запис додано
 account-hub-find-settings-failed = { -brand-full-name } не знайшов налаштування для вашого облікового запису електронної пошти.
+account-hub-notification-show-more = Показати більше
+account-hub-notification-show-less = Показати менше
