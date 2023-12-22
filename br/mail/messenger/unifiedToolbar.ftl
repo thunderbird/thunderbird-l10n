@@ -31,11 +31,18 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-space-tab-addressbook = Karned chomlec’hioù
+    .title = Karned chomlec’hioù
+customize-space-tab-calendar = Deiziataer
+    .title = Deiziataer
 customize-space-tab-chat = Flapva
     .title = Flapva
 customize-space-tab-settings = Arventennoù
     .title = Arventennoù
+customize-change-appearance = Cheñch neuz…
 customize-button-style-icons-beside-text-option = Arlunioù ouzhpenn an destenn
+customize-cancel = Nullañ
+customize-save = Enrollañ
 customize-spaces-tabs =
     .aria-label = Spasoù
 customize-palette-generic-title = Hegerz evit an holl Spasoù
