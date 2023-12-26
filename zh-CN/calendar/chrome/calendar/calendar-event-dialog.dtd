@@ -40,7 +40,7 @@
 <!ENTITY event.attendees.notifyundisclosed.tooltip   "此选项将分别为每个参与者发送一封邀请信。每封邀请信只包含收件方，而不会披露其他参与者。">
 <!ENTITY event.attendees.disallowcounter.label       "不接受意见">
 <!ENTITY event.attendees.disallowcounter.accesskey   "a">
-<!ENTITY event.attendees.disallowcounter.tooltip     "表示您不接受不同意见">
+<!ENTITY event.attendees.disallowcounter.tooltip     "表示您拒绝接受不同意见">
 
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.message.key2            "N">
