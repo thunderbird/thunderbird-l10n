@@ -289,7 +289,7 @@
 <!ENTITY event.recurrence.monthly.fourth.label          "第四">
 <!ENTITY event.recurrence.monthly.fifth.label           "第五">
 <!ENTITY event.recurrence.monthly.last.label            "最后">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label  "星期天" >
+<!ENTITY event.recurrence.pattern.monthly.week.1.label  "星期日" >
 <!ENTITY event.recurrence.pattern.monthly.week.2.label  "星期一" >
 <!ENTITY event.recurrence.pattern.monthly.week.3.label  "星期二" >
 <!ENTITY event.recurrence.pattern.monthly.week.4.label  "星期三" >
@@ -331,7 +331,7 @@
 <!ENTITY event.recurrence.yearly.fourth.label                "第四">
 <!ENTITY event.recurrence.yearly.fifth.label                 "第五">
 <!ENTITY event.recurrence.yearly.last.label                  "最后">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label        "星期天" >
+<!ENTITY event.recurrence.pattern.yearly.week.1.label        "星期日" >
 <!ENTITY event.recurrence.pattern.yearly.week.2.label        "星期一" >
 <!ENTITY event.recurrence.pattern.yearly.week.3.label        "星期二" >
 <!ENTITY event.recurrence.pattern.yearly.week.4.label        "星期三" >
