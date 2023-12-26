@@ -117,7 +117,7 @@ quick-filter-bar-search-shortcut =
 # This is the empty text for the text search box.
 # The goal is to convey to the user that typing in the box will filter the
 # messages and that there is a hotkey they can press to get to the box faster.
-quick-filter-bar-search-placeholder-with-key = 过滤消息… { quick-filter-bar-search-shortcut }
+quick-filter-bar-search-placeholder-with-key = 筛选消息… { quick-filter-bar-search-shortcut }
 # Label of the search button in the quick filter bar text box. Clicking it will
 # launch a global search.
 quick-filter-bar-search-button =
