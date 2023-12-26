@@ -38,7 +38,7 @@ vcard-n-add-suffix =
 
 # Nickname
 
-vcard-nickname = 呢称
+vcard-nickname = 昵称
 
 # Email vCard field
 
