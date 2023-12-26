@@ -38,18 +38,15 @@
 <!ENTITY event.attendees.notifyundisclosed.label     "分别邀请各参与者">
 <!ENTITY event.attendees.notifyundisclosed.accesskey "x">
 <!ENTITY event.attendees.notifyundisclosed.tooltip   "此选项将分别为每个参与者发送一封邀请信。每封邀请信只包含收件方，而不会披露其他参与者。">
-<!ENTITY event.attendees.disallowcounter.label       "不允许计数">
+<!ENTITY event.attendees.disallowcounter.label       "不接受意见">
 <!ENTITY event.attendees.disallowcounter.accesskey   "a">
-<!ENTITY event.attendees.disallowcounter.tooltip     "表示您不接受计数提案">
+<!ENTITY event.attendees.disallowcounter.tooltip     "表示您不接受不同意见">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "删除…">
 <!ENTITY  event.menu.item.delete.accesskey                "D">
-<!ENTITY  event.menu.item.page.setup.label                "页面设置">
-<!ENTITY  event.menu.item.page.setup.accesskey            "u">
-<!ENTITY  event.menu.item.print.label                     "打印">
-<!ENTITY  event.menu.item.print.accesskey                 "P">
 
 <!ENTITY  event.menu.edit.label                           "编辑">
 <!ENTITY  event.menu.edit.accesskey                       "E">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "E">
 <!ENTITY  event.menu.view.toolbars.customize.label        "定制">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "C">
-<!ENTITY  event.menu.view.showlink.label                  "显示相关链接">
-<!ENTITY  event.menu.view.showlink.accesskey              "R">
 
 <!ENTITY  event.menu.options.label                            "选项">
 <!ENTITY  event.menu.options.accesskey                        "O">
@@ -367,7 +358,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "创建" >
 <!ENTITY event.recurrence.appointments.label            "指派" >
 <!ENTITY event.repeat.until.label                       "重复直到" >
-<!ENTITY event.recurrence.preview.label                 "预览">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "邀请参与者">
