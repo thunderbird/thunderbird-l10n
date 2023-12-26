@@ -187,38 +187,38 @@
 <!ENTITY counter.button.original.tooltip2                 "此字段将填入提出反对意见前原始事件的内容">
 
 <!-- Main page -->
-<!ENTITY event.title.textbox.label                        "标题：" >
+<!ENTITY event.title.textbox.label                        "标题" >
 <!ENTITY event.title.textbox.accesskey                    "i">
-<!ENTITY event.location.label                             "位置：" >
+<!ENTITY event.location.label                             "位置" >
 <!ENTITY event.location.accesskey                         "L">
-<!ENTITY event.categories.label                           "分类：">
+<!ENTITY event.categories.label                           "分类">
 <!ENTITY event.categories.accesskey                       "y">
 <!ENTITY event.categories.textbox.label                   "添加新分类" >
-<!ENTITY event.calendar.label                             "日历：" >
+<!ENTITY event.calendar.label                             "日历" >
 <!ENTITY event.calendar.accesskey                         "C">
-<!ENTITY event.attendees.label                            "参与者：" >
+<!ENTITY event.attendees.label                            "参与者" >
 <!ENTITY event.attendees.accesskey                        "I">
 <!ENTITY event.alldayevent.label                          "全天事件" >
 <!ENTITY event.alldayevent.accesskey                      "d">
-<!ENTITY event.from.label                                 "开始：" >
+<!ENTITY event.from.label                                 "开始" >
 <!ENTITY event.from.accesskey                             "S">
-<!ENTITY task.from.label                                  "开始：" >
-<!ENTITY task.from.accesskey                              "B">
-<!ENTITY event.to.label                                   "结束：" >
+<!ENTITY task.from.label                                  "开始" >
+<!ENTITY task.from.accesskey                              "S">
+<!ENTITY event.to.label                                   "结束" >
 <!ENTITY event.to.accesskey                               "n">
-<!ENTITY task.to.label                                    "截止时间：" >
+<!ENTITY task.to.label                                    "截止日期" >
 <!ENTITY task.to.accesskey                                "u">
-<!ENTITY task.status.label                                "状态：" >
+<!ENTITY task.status.label                                "状态" >
 <!ENTITY task.status.accesskey                            "a">
-<!ENTITY event.repeat.label                               "重复：" >
+<!ENTITY event.repeat.label                               "重复" >
 <!ENTITY event.repeat.accesskey                           "R">
-<!ENTITY event.until.label                                "直到：">
+<!ENTITY event.until.label                                "直到">
 <!ENTITY event.until.accesskey                            "i">
-<!ENTITY event.reminder.label                             "提醒：" >
+<!ENTITY event.reminder.label                             "提醒" >
 <!ENTITY event.reminder.accesskey                         "m">
-<!ENTITY event.description.label                          "描述：" >
+<!ENTITY event.description.label                          "描述" >
 <!ENTITY event.description.accesskey                      "p">
-<!ENTITY event.attachments.label                          "附件：" >
+<!ENTITY event.attachments.label                          "附件" >
 <!ENTITY event.attachments.accesskey                      "h" >
 <!ENTITY event.attachments.menubutton.label               "附加">
 <!ENTITY event.attachments.menubutton.accesskey           "A">
@@ -274,7 +274,7 @@
 
 <!ENTITY event.recurrence.pattern.every.label           "每" >
 <!ENTITY repeat.units.days.both                         "天" >
-<!ENTITY event.recurrence.pattern.every.weekday.label   "每个工作周" >
+<!ENTITY event.recurrence.pattern.every.weekday.label   "每个工作日" >
 
 <!ENTITY event.recurrence.pattern.weekly.every.label    "每" >
 <!ENTITY repeat.units.weeks.both                        "周" >
