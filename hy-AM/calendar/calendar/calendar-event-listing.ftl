@@ -63,3 +63,5 @@ calendar-event-listing-interval-next-31-days =
     .label = Իրադարձություններ հաջորդ 31 օրում
 calendar-event-listing-interval-selected-day =
     .label = Ներկայումս ընտրված օր
+calendar-event-listing-interval-today =
+    .label = Այսօրվա իրադարձությունները

@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Խմբագրել բոլոր դեպքերը
     .accesskey = a
+description-context-menu-copy-link-text =
+    .label = Պատճենել հղման տեքստը

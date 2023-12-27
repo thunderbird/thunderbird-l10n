@@ -63,6 +63,12 @@ calendar-view-toggle-month = Ամիս
 
 calendar-control-bar-menu-button =
     .title = Օրացույցի դասավորության ընտրանքներ
+calendar-hide-weekends-option =
+    .label = Միայն աշխատանքային օրեր
+calendar-define-workweek-option =
+    .label = Սահմանեք աշխատանքային շաբաթվա օրերը
+calendar-show-tasks-calendar-option =
+    .label = Ցույց տալ առաջադրանքները օրացույցում
 
 ## Calendar Context Menu
 
