@@ -17,7 +17,7 @@ messenger-window-close-button =
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
     { $count ->
-       *[other] { $count } tin nhắn chưa đọc
+       *[other] { $count } thư chưa đọc
     }
 about-rights-notification-text = { -brand-short-name } là phần mềm nguồn mở và miễn phí, được xây dựng bởi một cộng đồng gồm hàng ngàn người từ khắp nơi trên thế giới.
 
@@ -225,6 +225,9 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
+
+## Message header customize panel
+
 message-header-customize-panel-title = Cài đặt header thư
 message-header-customize-button-style =
     .value = Kiểu nút
@@ -386,7 +389,7 @@ quick-filter-bar-toggle =
     .label = Thanh bộ lọc nhanh
     .accesskey = Q
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

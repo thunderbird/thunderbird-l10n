@@ -87,20 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Xóa thư">
-<!ENTITY deleteMsgCmd.accesskey "D">
-<!ENTITY undeleteMsgCmd.label "Không xóa thư">
-<!ENTITY undeleteMsgCmd.accesskey "d">
-<!ENTITY deleteMsgsCmd.label "Xóa thư đã chọn">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "Không xóa thư đã chọn">
-<!ENTITY undeleteMsgsCmd.accesskey "d">
-<!ENTITY deleteFolderCmd.label "Xóa thư mục">
-<!ENTITY deleteFolderCmd.accesskey "D">
-<!ENTITY unsubscribeNewsgroupCmd.label "Hủy đăng ký">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Chọn">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Tất cả">
@@ -112,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "Thư mục yêu thích">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "Thuộc tính">
-<!ENTITY folderPropsFolderCmd2.label "Thuộc tính thư mục">
-<!ENTITY folderPropsNewsgroupCmd2.label "Thuộc tính nhóm tin">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Hoàn tác xóa thư">
 <!ENTITY redoDeleteMsgCmd.label "Làm lại xóa thư">
 <!ENTITY undoMoveMsgCmd.label "Hoàn tác di chuyển thư">
@@ -147,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Ngăn thư mục">
 <!ENTITY showFolderPaneCmd.accesskey "F">
-<!ENTITY showFolderPaneColsCmd.label "Cột trong ngăn thư mục">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "Ngăn đọc thư">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -598,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Thư mới">
 <!ENTITY appmenuNewContactCmd.label "Liên hệ trong sổ địa chỉ…">
-<!ENTITY appmenuEditMenu.label "Chỉnh sửa">
 <!ENTITY appmenuToolbarLayout.label "Bố cục thanh công cụ…">
-<!ENTITY appmenuSelectThread.label "Chọn chủ đề">
-<!ENTITY appmenuSelectFlagged.label "Chọn thư được gắn dấu sao">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nhãn mới…">
@@ -712,7 +689,7 @@
 <!ENTITY statusColumn2.tooltip "Sắp xếp theo trạng thái">
 <!ENTITY sizeColumn2.tooltip "Sắp xếp theo kích thước">
 <!ENTITY junkStatusColumn2.tooltip "Sắp xếp theo trạng thái thư rác">
-<!ENTITY unreadColumn2.tooltip "Số lượng tin nhắn chưa đọc trong chủ đề">
+<!ENTITY unreadColumn2.tooltip "Số lượng thư chưa đọc trong chủ đề">
 <!ENTITY totalColumn2.tooltip "Tổng số tin nhắn trong chủ đề">
 <!ENTITY readColumn2.tooltip "Sắp xếp theo đã đọc">
 <!ENTITY receivedColumn2.tooltip "Sắp xếp theo ngày nhận">
@@ -906,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "p">
 <!ENTITY copyEmailCmd.label "Sao chép địa chỉ email">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Dừng">
-<!ENTITY stopCmd.accesskey "D">
-<!ENTITY reloadCmd.label "Tải lại">
-<!ENTITY reloadCmd.accesskey "i">
 <!ENTITY openInBrowser.label "Mở trong trình duyệt">
 <!ENTITY openInBrowser.accesskey "o">
 <!ENTITY openLinkInBrowser.label "Mở liên kết trong trình duyệt">
