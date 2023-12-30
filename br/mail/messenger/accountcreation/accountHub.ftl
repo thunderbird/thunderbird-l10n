@@ -21,7 +21,7 @@ account-hub-release-notes = Notennoù handelv
 
 ## Email page
 
-account-hub-email-cancel-button = Nullañ
+account-hub-email-cancel-button = Dilezel
 
 ## Incoming/Outgoing SSL Authentication options
 

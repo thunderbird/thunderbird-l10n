@@ -3,15 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Forms
-
-account-provisioner-button-cancel = Dilezel
-
-## Notifications
+## Encryption status
 
 
-## Illustrations
+## Resolve section
 
 
-## Search results
+## Discovery section
 
+
+## Dialog buttons
+
+openpgp-key-assistant-cancel-button = Dilezel

@@ -64,11 +64,11 @@ about-addressbook-placeholder-new-contact = Darempred nevez
 
 about-addressbook-new-contact-header = Darempred nevez
 about-addressbook-new-list-action-button = Roll nevez
-about-addressbook-cancel-edit-contact-button = Nullañ
+about-addressbook-cancel-edit-contact-button = Dilezel
 
 # Photo dialog
 
-about-addressbook-photo-cancel = Nullañ
+about-addressbook-photo-cancel = Dilezel
 
 # Keyboard shortcuts
 

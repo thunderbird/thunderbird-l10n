@@ -446,20 +446,9 @@ third-party-never =
     .label = Morse
 third-party-visited =
     .label = Diouzh lec’hiennoù gweladennet
-keep-label =
-    .value = Mirout betek:
-    .accesskey = M
-keep-expire =
-    .label = ez echuont
-keep-close =
-    .label = ma serrin { -brand-short-name }
-keep-ask =
-    .label = goulenn ganin bewech
 cookies-button =
     .label = Diskouez an toupinoù…
     .accesskey = s
-learn-button =
-    .label = Gouzout hiroc'h
 dnt-learn-more-button =
     .value = Gouzout hiroc'h
 passwords-description = Gallout a ra { -brand-short-name } derc'hel soñj eus ho kerioù-tremen evit ho holl kontoù.
@@ -604,3 +593,4 @@ chat-variant-label =
 
 ## Sync Tab
 
+sync-pane-cancel = Dilezel

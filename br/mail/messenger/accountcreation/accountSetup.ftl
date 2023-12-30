@@ -11,8 +11,8 @@
 
 ## Action buttons
 
-account-setup-button-cancel = Nullañ
-    .accesskey = N
+account-setup-button-cancel = Dilezel
+    .accesskey = D
 
 ## Notifications
 
@@ -42,7 +42,7 @@ insecure-dialog-cancel-button = Kemmañ an arventennoù
 
 ## Warning Exchange confirmation dialog
 
-exchange-dialog-cancel-button = Nullañ
+exchange-dialog-cancel-button = Dilezel
 
 ## Dismiss account creation dialog
 
@@ -59,5 +59,5 @@ account-setup-settings-button = Arventennoù ar gont
 
 ## Calendar synchronization dialog
 
-calendar-dialog-cancel-button = Nullañ
-    .accesskey = N
+calendar-dialog-cancel-button = Dilezel
+    .accesskey = D

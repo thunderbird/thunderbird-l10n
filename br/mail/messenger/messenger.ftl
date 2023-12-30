@@ -91,6 +91,9 @@ appmenu-settings =
 
 ## Context menu
 
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Dilezel ar gemennadenn
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -108,6 +111,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
@@ -196,7 +202,7 @@ quick-filter-bar-toggle =
     .label = Barrenn sil prim
     .accesskey = s
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

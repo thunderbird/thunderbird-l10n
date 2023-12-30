@@ -102,6 +102,7 @@ key-man-button-import = &Enporzhiañ
 
 ## Strings used in dialog.jsm
 
+dlg-button-cancel = &Dilezel
 
 ## Strings used in persistentCrypto.jsm
 

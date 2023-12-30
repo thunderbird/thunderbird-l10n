@@ -6,6 +6,8 @@ key-wizard-learn-more = Gouzout hiroc’h
 
 ## Generate key section
 
+openpgp-keygen-dismiss =
+    .label = Dilezel
 openpgp-keygen-import-complete =
     .label = Serriñ
     .accesskey = S
