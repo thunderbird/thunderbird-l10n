@@ -209,6 +209,9 @@ mail-context-undelete-messages =
             [one] Kumoa viestin poisto
            *[other] Kumoa valittujen viestien poisto
         }
+context-menu-decrypt-to-folder2 =
+    .label = Luo salauksesta purettu kopio kansioon
+    .accesskey = r
 
 ## Message header pane
 
@@ -220,6 +223,9 @@ message-header-recipient-avatar =
     .alt = Käyttäjän { $address } profiilikuva.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Viestin otsakeasetukset
 message-header-customize-button-style =
@@ -381,7 +387,7 @@ quick-filter-bar-toggle =
     .label = Pikasuodatuspalkki
     .accesskey = P
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
