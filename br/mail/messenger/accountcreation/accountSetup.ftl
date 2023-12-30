@@ -11,6 +11,8 @@
 
 ## Action buttons
 
+account-setup-button-cancel = Nullañ
+    .accesskey = N
 
 ## Notifications
 
@@ -35,9 +37,12 @@
 
 ## Warning insecure server dialog
 
+insecure-dialog-cancel-button = Kemmañ an arventennoù
+    .accesskey = a
 
 ## Warning Exchange confirmation dialog
 
+exchange-dialog-cancel-button = Nullañ
 
 ## Dismiss account creation dialog
 
@@ -54,3 +59,5 @@ account-setup-settings-button = Arventennoù ar gont
 
 ## Calendar synchronization dialog
 
+calendar-dialog-cancel-button = Nullañ
+    .accesskey = N

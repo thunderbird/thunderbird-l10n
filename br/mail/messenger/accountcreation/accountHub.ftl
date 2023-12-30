@@ -21,3 +21,10 @@ account-hub-release-notes = Notennoù handelv
 
 ## Email page
 
+account-hub-email-cancel-button = Nullañ
+
+## Incoming/Outgoing SSL Authentication options
+
+
+## Incoming/Outgoing SSL options
+
