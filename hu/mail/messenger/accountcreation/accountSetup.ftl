@@ -284,7 +284,7 @@ account-setup-calendar-refresh-manual = Kézzel
 account-setup-calendar-refresh-interval =
     { $count ->
         [one] Percenként
-       *[other] { $minutes } percenként
+       *[other] { $count } percenként
     }
 account-setup-calendar-read-only = Csak olvasható
     .accesskey = o

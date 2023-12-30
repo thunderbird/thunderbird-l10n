@@ -368,6 +368,13 @@ threadpane-column-label-delete =
     .label = Törlés
 threadpane-cell-delete =
     .aria-label = Törlés
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } válasz
+       *[other] { $count } válasz
+    }
 
 ## Message state variations
 
