@@ -11,6 +11,7 @@
 <!ENTITY newMenu.label "ใหม่">
 <!ENTITY newMenu.accesskey "ห">
 <!ENTITY newMessage.label "ข้อความ">
+<!ENTITY newMessage.accesskey "ข">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "ผู้ติดต่อของสมุดรายชื่อ…">
 <!ENTITY newContact.accesskey "ผ">
