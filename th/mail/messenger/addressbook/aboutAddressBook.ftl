@@ -73,16 +73,50 @@ about-addressbook-sort-email-descending =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-cards-context-write =
+    .label = เขียน
+about-addressbook-confirm-delete-mixed-title = ลบผู้ติดต่อและรายชื่อ
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-no-search-results = ไม่พบผู้ติดต่อ
 
 ## Details
 
+about-addressbook-new-contact-header = ผู้ติดต่อใหม่
+about-addressbook-search-action-button = ค้นหา
+about-addressbook-new-list-action-button = รายชื่อใหม่
+about-addressbook-begin-edit-contact-button = แก้ไข
+about-addressbook-delete-edit-contact-button = ลบ
+about-addressbook-cancel-edit-contact-button = ยกเลิก
+about-addressbook-save-edit-contact-button = บันทึก
+about-addressbook-add-contact-to = เพิ่มไปยัง:
+about-addressbook-details-email-addresses-header = ที่อยู่อีเมล
+about-addressbook-details-phone-numbers-header = หมายเลขโทรศัพท์
+about-addressbook-details-addresses-header = ที่อยู่
+about-addressbook-details-notes-header = หมายเหตุ
+about-addressbook-details-impp-header = ระบบส่งข้อความแบบทันที
+about-addressbook-details-websites-header = เว็บไซต์
+about-addressbook-details-other-info-header = ข้อมูลอื่นๆ
+about-addressbook-entry-type-work = ที่ทำงาน
+about-addressbook-entry-type-home = บ้าน
+about-addressbook-entry-type-fax = โทรสาร
+# Or "Mobile"
+about-addressbook-entry-type-cell = มือถือ
+about-addressbook-entry-type-pager = วิทยุติดตามตัว
+about-addressbook-entry-name-birthday = วันเกิด
+about-addressbook-entry-name-anniversary = วันครบรอบ
+about-addressbook-entry-name-title = ตำแหน่ง
+about-addressbook-entry-name-role = หน้าที่
+about-addressbook-entry-name-organization = องค์กร
+about-addressbook-entry-name-website = เว็บไซต์
+about-addressbook-entry-name-time-zone = เขตเวลา
 
 # Photo dialog
 
+about-addressbook-photo-cancel = ยกเลิก
+about-addressbook-photo-save = บันทึก
 
 # Keyboard shortcuts
 
