@@ -41,7 +41,41 @@ account-hub-sync-button = ลงชื่อเข้า Sync…
 ## Email page
 
 account-hub-email-title = ตั้งค่าบัญชีอีเมลของคุณ
+account-hub-add-email-title = เพิ่มบัญชีของคุณ
+account-hub-manually-configure-email-title = ตั้งการกำหนดค่าบัญชี
 account-hub-email-cancel-button = ยกเลิก
+account-hub-email-stop-button = หยุด
 account-hub-email-back-button = ย้อนกลับ
+account-hub-email-retest-button = ทดสอบใหม่
+account-hub-email-finish-button = เสร็จสิ้น
+account-hub-email-manually-configure-button = กำหนดค่าด้วยตนเอง
 account-hub-email-continue-button = ดำเนินการต่อ
 account-hub-email-confirm-button = ยืนยัน
+account-hub-incoming-server-legend = เซิร์ฟเวอร์ขาเข้า
+account-hub-outgoing-server-legend = เซิร์ฟเวอร์ขาออก
+account-hub-protocol-label = โปรโตคอล
+account-hub-hostname-label = ชื่อโฮสต์
+account-hub-port-label = พอร์ต
+    .title = ตั้งหมายเลขพอร์ตเป็น 0 เพื่อตรวจหาอัตโนมัติ
+account-hub-auto-description = { -brand-short-name } จะพยายามตรวจหาช่องกรอกข้อมูลที่ถูกเว้นว่างไว้โดยอัตโนมัติ
+account-hub-ssl-label = ความปลอดภัยของการเชื่อมต่อ
+
+## Incoming/Outgoing SSL Authentication options
+
+account-hub-ssl-autodetect-option =
+    .label = ตรวจหาอัตโนมัติ
+account-hub-ssl-no-authentication-option =
+    .label = ไม่มีการยืนยันตัวตน
+account-hub-ssl-cleartext-password-option =
+    .label = รหัสผ่านปกติ
+account-hub-ssl-encrypted-password-option =
+    .label = รหัสผ่านที่เข้ารหัส
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = ไม่มี
+account-hub-auth-label = วิธีการยืนยันตัวตน
+account-hub-username-label = ชื่อผู้ใช้
+account-hub-adding-account-title = กำลังเพิ่มบัญชี
+account-hub-account-added-title = เพิ่มบัญชีแล้ว
