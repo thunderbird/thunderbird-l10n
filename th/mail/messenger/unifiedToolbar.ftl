@@ -71,6 +71,7 @@ customize-palette-calendar-specific-title = ใช้ได้เฉพาะพ
 customize-palette-tasks-specific-title = ใช้ได้เฉพาะพื้นที่งานเท่านั้น
 customize-palette-chat-specific-title = ใช้ได้เฉพาะพื้นที่แชทเท่านั้น
 customize-palette-settings-specific-title = ใช้ได้เฉพาะพื้นที่การตั้งค่าเท่านั้น
+customize-palette-extension-specific-title = ใช้ได้เฉพาะพื้นที่นี้เท่านั้น
 
 ## Unified toolbar customization palette context menu
 
