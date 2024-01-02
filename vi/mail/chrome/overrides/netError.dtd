@@ -157,7 +157,7 @@
 
 <!ENTITY securityOverride.linkText "Hoặc bạn có thể thêm một ngoại lệ…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Đưa tôi ra khỏi đây!">
-<!ENTITY securityOverride.exceptionButtonLabel "Thêm Ngoại Lệ…">
+<!ENTITY securityOverride.exceptionButtonLabel "Thêm ngoại lệ…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
