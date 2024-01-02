@@ -18,6 +18,6 @@
 <!ENTITY cmd.removeFromHistory.accesskey           "e">
 <!ENTITY cmd.clearList.label                       "Xóa danh sách">
 <!ENTITY cmd.clearList.accesskey                   "C">
-<!ENTITY cmd.clearList.tooltip                     "Xóa tất cả các mục khỏi danh sách các tập tin đã lưu, ngoại trừ các bản tải xuống đang diễn ra.">
+<!ENTITY cmd.clearList.tooltip                     "Xóa tất cả các mục trong danh sách các tập tin đã lưu, trừ các tập tin đang được tải xuống.">
 <!ENTITY cmd.searchDownloads.label                 "Tìm kiếm…">
 <!ENTITY cmd.searchDownloads.key                   "F">

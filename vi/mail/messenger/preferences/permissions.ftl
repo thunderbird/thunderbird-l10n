@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-reminder-window2 =
-    .title = Ngoại trừ
-permissions-dialog-title = Ngoại trừ
+    .title = Ngoại lệ
+permissions-dialog-title = Ngoại lệ
 permission-preferences-close-window =
     .key = w
 website-address-label =
