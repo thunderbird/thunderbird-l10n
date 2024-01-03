@@ -131,9 +131,14 @@ mail-context-undelete-messages =
             [one] Angre sletting av melding
            *[other] Angre sletting av valgte meldinger
         }
+context-menu-decrypt-to-folder2 =
+    .label = Lag dekryptert kopi i
+    .accesskey = a
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = Omdiriger
 
 ## Message header cutomize panel
 

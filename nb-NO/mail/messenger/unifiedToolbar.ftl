@@ -22,6 +22,14 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = E-post
+    .title = E-post
+customize-space-tab-addressbook = Adressebok
+    .title = Adressebok
+customize-space-tab-calendar = Kalender
+    .title = Kalender
+customize-space-tab-tasks = Oppgaver
+    .title = Oppgaver
 customize-button-style-icons-beside-text-option = Ikoner ved siden av teksten
 
 ## Unified toolbar customization palette context menu
