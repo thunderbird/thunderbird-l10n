@@ -64,9 +64,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakt visning
     .accesskey = K
 
-## Menu
-
-
 ## File Menu
 
 
@@ -113,19 +110,35 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-redirect-msg =
+    .label = Omdiriger
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Avbryt melding
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-delete-messages =
+    .label =
+        { $count ->
+            [one] Slett meldingen
+           *[other] Slett de valgte meldingene
+        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
     .label =
         { $count ->
             [one] Angre sletting av melding
-           *[other] Angre valgte meldinger
+           *[other] Angre sletting av valgte meldinger
         }
 
 ## Message header pane
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
@@ -157,7 +170,7 @@ quick-filter-bar-toggle =
     .label = Filterverktøylinje
     .accesskey = F
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
