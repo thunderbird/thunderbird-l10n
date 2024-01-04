@@ -647,6 +647,11 @@ msg-compose-internal-error = Dahili bir hata oluştu.
 keys-to-export = Eklenecek OpenPGP anahtarlarını seçin
 msg-compose-cannot-save-draft = Taslak kaydedilirken hata oluştu
 msg-compose-partially-encrypted-short = Hassas bilgilerin sızmasına karşı dikkatli olun: Bu e-posta kısmen şifrelenmiş.
+# Variables:
+# $width (Number) - Number of characters per line.
+minimal-line-wrapping =
+    Satır kaydırmayı { $width } karakter olarak ayarladınız. Doğru şifreleme ve/veya imzalama için bu değer en az 68 karakter olmalıdır.
+    Satır kaydırmayı 68 karakter olarak değiştirmek ister misiniz?
 sending-news =
     Şifrelenmiş gönderme işlemi iptal edildi.
     Alıcılar arasında haber grubu alıcıları olduğu için bu ileti şifrelenemez. Lütfen iletiyi şifrelemeden tekrar gönderin.
