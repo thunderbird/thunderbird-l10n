@@ -23,7 +23,7 @@ that require it.  -->
 
 <!ENTITY itemHistory.label                 "Historik Shfletimi">
 <!ENTITY itemHistory.accesskey             "S">
-<!ENTITY itemCookies.label                 "Cookies">
+<!ENTITY itemCookies.label                 "“Cookies”">
 <!ENTITY itemCookies.accesskey             "C">
 <!ENTITY itemCache.label                   "Fshehtinë">
 <!ENTITY itemCache.accesskey               "F">

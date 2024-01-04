@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 cookies-window-dialog2 =
-    .title = Cookies
-cookies-dialog-title = Cookies
+    .title = “Cookies”
+cookies-dialog-title = “Cookies”
 window-close-key =
     .key = w
 window-focus-search-key =
