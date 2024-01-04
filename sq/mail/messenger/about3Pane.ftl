@@ -367,6 +367,13 @@ threadpane-column-label-delete =
     .label = Fshije
 threadpane-cell-delete =
     .aria-label = Fshije
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } përgjigje
+       *[other] { $count } përgjigje
+    }
 
 ## Message state variations
 
