@@ -81,3 +81,5 @@ account-hub-adding-account-title = Engadindo conta
 account-hub-adding-account-subheader = Volvendo a probar a configuración da conta
 account-hub-account-added-title = Conta engadida
 account-hub-find-settings-failed = O { -brand-full-name } non atopou a configuración da súa conta de correo electrónico.
+account-hub-notification-show-more = Amosar máis
+account-hub-notification-show-less = Amosar menos
