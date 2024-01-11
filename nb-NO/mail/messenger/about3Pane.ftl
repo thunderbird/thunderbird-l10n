@@ -5,6 +5,16 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Vis/skjul filterverktøylinjen
+quick-filter-button-label = Hurtigfilter
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } melding
+       *[other] { $count } meldinger
+    }
 
 ## Quick Filter Bar
 
@@ -15,6 +25,20 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Behold filtrene ved bytte av mappe
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Hurtigfiltermeny
+quick-filter-bar-dropdown-unread =
+    .label = Uleste
+quick-filter-bar-dropdown-starred =
+    .label = Med stjerne
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakt
+quick-filter-bar-dropdown-tags =
+    .label = Etiketter
+quick-filter-bar-dropdown-attachment =
+    .label = Vedlegg
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -78,6 +102,23 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filtrer disse meldingene <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search =
+    .label = Filtrer meldinger:
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Filtrer meldinger… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Søk overalt
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Taggfiltreringsmodus
@@ -118,9 +159,13 @@ quick-filter-bar-gloda-upsell-line2 = Trykk ‘Enter’ igjen for å fortsette s
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Hent meldinger
 folder-pane-get-all-messages-menuitem =
     .label = Hent alle nye meldinger
     .accesskey = e
+folder-pane-write-message-button = Ny melding
+    .title = Skriv en ny melding
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakt visning
     .accesskey = K
