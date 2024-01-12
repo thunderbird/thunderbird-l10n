@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Spara e-postmeddelanden som utkast eller
 webext-perms-description-experiment = Har full, obegränsad åtkomst till { -brand-short-name } och din dator
 webext-perms-description-messagesImport = Importera meddelanden till Thunderbird
 webext-perms-description-messagesModify = Läs och ändra dina e-postmeddelanden när de visas för dig
+webext-perms-description-messagesModifyPermanent = Permanent ändra källkoden för dina meddelanden (inklusive rubriker, text och bilagor)
 webext-perms-description-messagesMove = Kopiera eller flytta dina e-postmeddelanden (inklusive flytta dem till papperskorgen)
 webext-perms-description-messagesDelete = Ta bort dina e-postmeddelanden permanent
 webext-perms-description-messagesRead = Läs dina e-postmeddelanden och markera eller tagga dem
