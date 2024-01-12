@@ -14,6 +14,16 @@ connection-dns-over-https-url-custom =
     .accesskey = ก
     .tooltiptext = ป้อน URL ที่คุณต้องการสำหรับแปลงที่อยู่ DNS ผ่าน HTTPS
 connection-dns-over-https-custom-label = กำหนดเอง
+connection-dialog-window2 =
+    .title = การตั้งค่าการเชื่อมต่อ
+connection-dialog-title = การตั้งค่าการเชื่อมต่อ
+disable-extension-button = ปิดใช้งานส่วนขยาย
+# Variables:
+#   $name (String) - The extension that is controlling the proxy settings.
+#
+# The extension-icon is the extension's icon, or a fallback image. It should be
+# purely decoration for the actual extension name, with alt="".
+proxy-settings-controlled-by-extension = ส่วนขยาย <img data-l10n-name="extension-icon" alt="" /> { $name } กำลังควบคุมวิธีที่ { -brand-short-name } เชื่อมต่อกับอินเทอร์เน็ต
 connection-proxy-legend = กำหนดค่าพร็อกซีเพื่อเข้าถึงอินเทอร์เน็ต
 proxy-type-no =
     .label = ไม่มีพร็อกซี
@@ -64,6 +74,8 @@ no-proxy-label =
     .value = ไม่มีพร็อกซีสำหรับ:
     .accesskey = ไ
 no-proxy-example = ตัวอย่าง: .mozilla.org, .net.nz, 192.168.1.0/24
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-noproxy-localhost-desc-2 = การเชื่อมต่อไปยัง localhost, 127.0.0.1/8, และ ::1 จะไม่ผ่านพร็อกซี
 proxy-password-prompt =
     .label = ไม่ต้องถามสำหรับการรับรองความถูกต้องหากรหัสผ่านถูกบันทึกไว้
     .accesskey = ถ
