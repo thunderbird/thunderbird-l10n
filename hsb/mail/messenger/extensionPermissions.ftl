@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Spisane e-mejlowe powěsće jako naćisk
 webext-perms-description-experiment = Mějće połny, njewobmjezowany přistup k { -brand-short-name } a swojemu ličakej
 webext-perms-description-messagesImport = Powěsće do Thunderbird importować
 webext-perms-description-messagesModify = Čitajće a změńće swoje mejlki kaž maja so wam pokazać
+webext-perms-description-messagesModifyPermanent = Žórło wašich powěsćow na přeco změnić (mjez nimi hłowy, wobsah a přiwěški)
 webext-perms-description-messagesMove = Kopěrujće abo přesuńće swoje e-mejlowe powěsće (inkluziwnje jich přesunjenje do rjadowaka papjernika)
 webext-perms-description-messagesDelete = Waše e-mejlowe powěsće na přeco zhašeć
 webext-perms-description-messagesRead = Čitajće swoje e-mejlowe powěsće a markěrujće abo woznamjeńće je
