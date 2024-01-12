@@ -368,6 +368,13 @@ threadpane-column-label-delete =
     .label = Stizzar
 threadpane-cell-delete =
     .aria-label = Stizzar
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } resposta
+       *[other] { $count } respostas
+    }
 
 ## Message state variations
 

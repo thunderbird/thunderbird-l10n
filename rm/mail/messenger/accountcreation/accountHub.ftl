@@ -80,3 +80,6 @@ account-hub-username-label = Num d'utilisader
 account-hub-adding-account-title = Agiuntar il conto
 account-hub-adding-account-subheader = Retestar ils parameters da la configuraziun dal conto
 account-hub-account-added-title = Agiuntà il conto
+account-hub-find-settings-failed = { -brand-full-name } n’ha betg chattà la configuraziun per tes conto dad e-mail.
+account-hub-notification-show-more = Mussar dapli
+account-hub-notification-show-less = Mussar damain
