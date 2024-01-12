@@ -17,6 +17,7 @@ webext-perms-description-compose-save = shranjevanje sestavljenih sporočil kot 
 webext-perms-description-experiment = popoln, neomejen dostop do { -brand-short-name }a in vašega računalnika
 webext-perms-description-messagesImport = uvoz sporočil v Thunderbird
 webext-perms-description-messagesModify = branje in spreminjanje e-poštnih sporočil, ko se prikazujejo
+webext-perms-description-messagesModifyPermanent = trajno spreminjanje vira vaših sporočil (vključno z glavami, vsebino in priponkami)
 webext-perms-description-messagesMove = kopiranje ali premikanje e-poštnih sporočil (vključno s premikanjem v smetnjak)
 webext-perms-description-messagesDelete = trajno brisanje e-poštnih sporočil
 webext-perms-description-messagesRead = branje e-poštnih sporočil in njihovo označevanje
