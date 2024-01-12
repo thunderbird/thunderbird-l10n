@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Cadw negeseuon e-bost wedi'u hysgrifennu
 webext-perms-description-experiment = Meddu ar fynediad llawn, heb gyfyngiad i { -brand-short-name }, a'ch cyfrifiadur
 webext-perms-description-messagesImport = Mewnforio negeseuon i Thunderbird
 webext-perms-description-messagesModify = Darllenwch ac addaswch eich negeseuon e-bost wrth iddyn nhw gael eu dangos i chi
+webext-perms-description-messagesModifyPermanent = Addaswch ffynhonnell eich negeseuon yn barhaol (gan gynnwys penawdau, corff ac atodiadau)
 webext-perms-description-messagesMove = Copïo neu symud eich negeseuon e-bost (gan gynnwys eu symud i'r ffolder sbwriel)
 webext-perms-description-messagesDelete = Dileu eich negeseuon e-bost yn barhaol
 webext-perms-description-messagesRead = Darllenwch eich negeseuon e-bost a'u marcio neu eu tagio
