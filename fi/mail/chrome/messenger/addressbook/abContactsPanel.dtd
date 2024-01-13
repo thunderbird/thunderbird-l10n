@@ -12,7 +12,7 @@
 <!ENTITY mailingListPropertiesMenu.label    "Postituslistan ominaisuudet">
 <!ENTITY mailingListPropertiesMenu.accesskey "i">
 
-<!ENTITY abContextMenuButton.tooltip        "Näytä Osoitekirjan pikavalikko">
+<!ENTITY abContextMenuButton.tooltip        "Näytä osoitekirjan pikavalikko">
 <!ENTITY addressbookPicker.label            "Osoitekirja:">
 <!ENTITY addressbookPicker.accesskey        "O">
 <!ENTITY searchContacts.label               "Etsi yhteyshenkilöitä:">

@@ -63,7 +63,7 @@ about-addressbook-confirm-remove-remote-book = Haluatko varmasti poistaa osoitek
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search =
-    .placeholder = Hae { $name }
+    .placeholder = Hae osoitekirjasta { $name }
 about-addressbook-search-all =
     .placeholder = Hae kaikista osoitekirjoista
 about-addressbook-sort-button2 =

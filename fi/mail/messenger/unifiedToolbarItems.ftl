@@ -142,10 +142,18 @@ toolbar-stop =
 toolbar-throbber-label = Toimintaindikaattori
 toolbar-throbber =
     .title = Toimintaindikaattori
+toolbar-create-contact-label = Uusi yhteyshenkilö
+toolbar-create-contact =
+    .title = Luo uusi yhteyshenkilö
 toolbar-create-address-book-label = Uusi osoitekirja
 toolbar-create-address-book =
     .title = Luo uusi osoitekirja
+toolbar-create-list-label = Uusi lista
+toolbar-create-list =
+    .title = Luo uusi postituslista
 toolbar-import-contacts-label = Tuo
+toolbar-import-contacts =
+    .title = Tuo yhteystiedot tiedostosta
 
 ## New Address Book popup items
 
