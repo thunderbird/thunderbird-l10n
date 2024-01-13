@@ -17,6 +17,7 @@ webext-perms-description-compose-save = E-Mail-Nachrichten als Entwürfe oder Vo
 webext-perms-description-experiment = Vollständiger Zugriff auf { -brand-short-name } und Ihren Computer
 webext-perms-description-messagesImport = Nachrichten in Thunderbird importieren
 webext-perms-description-messagesModify = Lesen von E-Mail-Nachrichten sowie Verändern von deren Darstellung
+webext-perms-description-messagesModifyPermanent = Die Quelle Ihrer Nachrichten dauerhaft verändern (einschließlich Kopfzeilen, Nachrichtentext und Anhänge)
 webext-perms-description-messagesMove = Kopieren und Verschieben von E-Mail-Nachrichten (einschließlich in den Papierkorb)
 webext-perms-description-messagesDelete = E-Mail-Nachrichten dauerhaft löschen
 webext-perms-description-messagesRead = Lesen von E-Mail-Nachrichten und diese markieren oder mit Schlagwörtern versehen
