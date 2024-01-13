@@ -124,6 +124,11 @@ appmenuitem-font-size-enlarge =
     .tooltiptext = Suurenna fontin kokoa
 appmenuitem-font-size-reduce =
     .tooltiptext = Pienennä fontin kokoa
+# Variables:
+# $size (String) - The current font size.
+appmenuitem-font-size-reset =
+    .label = { $size } px
+    .tooltiptext = Palauta fontin oletuskoko
 
 ## Tools
 
