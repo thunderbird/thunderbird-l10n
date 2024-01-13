@@ -80,3 +80,6 @@ account-hub-username-label = Korisničko ime
 account-hub-adding-account-title = Dodavanje računa
 account-hub-adding-account-subheader = Ponovno testiranje postavki računa
 account-hub-account-added-title = Račun je dodan
+account-hub-find-settings-failed = { -brand-full-name } nije uspio pronaći postavke za vaš račun e-pošte.
+account-hub-notification-show-more = Prikaži više
+account-hub-notification-show-less = Prikaži manje
