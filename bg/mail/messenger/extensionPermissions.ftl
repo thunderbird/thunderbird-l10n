@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Запазване на съставен
 webext-perms-description-experiment = Пълен и неограничен достъп до { -brand-short-name } и вашия компютър
 webext-perms-description-messagesImport = Внасяне  на съобщения в Thunderbird
 webext-perms-description-messagesModify = Четене и промяна на вашите имейл съобщения, докато ви се показват
+webext-perms-description-messagesModifyPermanent = Променяне за постоянно източника на вашите съобщения (включително заглавките, тялото и прикачените файлове)
 webext-perms-description-messagesMove = Копиране или преместване на вашите имейл съобщения (включително преместването им в папката за боклук)
 webext-perms-description-messagesDelete = Окончателно изтриване на вашите имейл съобщения
 webext-perms-description-messagesRead = Четене на вашите имейл съобщения, маркиране и смяна на етикетите им
