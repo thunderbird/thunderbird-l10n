@@ -81,3 +81,5 @@ account-hub-adding-account-title = Dodawanie konta
 account-hub-adding-account-subheader = Ponowne wykrywanie ustawień konfiguracji konta
 account-hub-account-added-title = Dodano konto
 account-hub-find-settings-failed = { -brand-full-name } nie znalazł ustawień konta.
+account-hub-notification-show-more = Więcej
+account-hub-notification-show-less = Mniej

@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Zapisywanie napisanych wiadomości jako 
 webext-perms-description-experiment = Pełny, nieograniczony dostęp do programu { -brand-short-name } i komputera
 webext-perms-description-messagesImport = Importowanie wiadomości do programu Thunderbird
 webext-perms-description-messagesModify = Odczytywanie i modyfikowanie wiadomości e-mail podczas ich wyświetlania
+webext-perms-description-messagesModifyPermanent = Trwałe modyfikowanie źródła wiadomości (w tym nagłówków, treści i załączników)
 webext-perms-description-messagesMove = Kopiowanie i przenoszenie wiadomości e-mail (w tym przenoszenie ich do kosza)
 webext-perms-description-messagesDelete = Trwałe usuwanie wiadomości e-mail
 webext-perms-description-messagesRead = Odczytywanie wiadomości e-mail oraz ich oznaczanie i dodawanie etykiet
