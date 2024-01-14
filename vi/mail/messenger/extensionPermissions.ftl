@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Lưu các email đã soạn dưới dạ
 webext-perms-description-experiment = Có quyền truy cập đầy đủ, không hạn chế vào { -brand-short-name } và máy tính của bạn
 webext-perms-description-messagesImport = Nhập thư vào Thunderbird
 webext-perms-description-messagesModify = Đọc và sửa đổi thông báo email của bạn khi chúng được hiển thị cho bạn
+webext-perms-description-messagesModifyPermanent = Sửa đổi vĩnh viễn nguồn thư của bạn (bao gồm header, nội dung và tập tin đính kèm)
 webext-perms-description-messagesMove = Sao chép hoặc di chuyển các thư trong email của bạn (bao gồm cả việc chuyển chúng vào thùng rác)
 webext-perms-description-messagesDelete = Xóa vĩnh viễn các thư trong email của bạn
 webext-perms-description-messagesRead = Đọc email của bạn và đánh dấu hoặc gắn nhãn chúng

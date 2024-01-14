@@ -82,3 +82,4 @@ account-hub-adding-account-subheader = Kiểm tra lại cài đặt cấu hình 
 account-hub-account-added-title = Đã thêm tài khoản
 account-hub-find-settings-failed = { -brand-full-name } không tìm thấy cài đặt cho tài khoản email của bạn.
 account-hub-notification-show-more = Xem thêm
+account-hub-notification-show-less = Hiện ít hơn
