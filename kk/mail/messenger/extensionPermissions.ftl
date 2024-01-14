@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Алдын-ала құрастырылғ
 webext-perms-description-experiment = Сіздің { -brand-short-name } және компьютеріңізге толық, шектеусіз рұқсаты бар
 webext-perms-description-messagesImport = Thunderbird қолданбасына хабарламаларды импорттау
 webext-perms-description-messagesModify = Электрондық пошта хабарламаларын сізге көрсетілу ретімен оқып, өзгерту
+webext-perms-description-messagesModifyPermanent = Хабарламаларыңыздың қайнар көзін тұрақты өзгерту (соның ішінде хабарлама тақырыптамалары, денесі және салынымдары)
 webext-perms-description-messagesMove = Эл. пошта хабарламаларын көшіру немесе жылжыту (оларды қоқыс бумасына жылжытуды қоса)
 webext-perms-description-messagesDelete = Эл. пошта хабарламаларыңызды біржола өшіру
 webext-perms-description-messagesRead = Пошта хабарламаларыңызды оқу және оларға белгілерді қосу
