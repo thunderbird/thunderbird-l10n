@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Ukladať vytvorené e‑mailové správy
 webext-perms-description-experiment = Mať úplný, neobmedzený prístup k { -brand-short-name }u a k vášmu počítaču
 webext-perms-description-messagesImport = Importovať správy do Thunderbirdu
 webext-perms-description-messagesModify = Čítať a upravovať vaše správy pri zobrazovaní
+webext-perms-description-messagesModifyPermanent = Natrvalo upraviť zdroj vašich správ (vrátane hlavičiek, tela a príloh)
 webext-perms-description-messagesMove = Kopírovať alebo presúvať e‑mailové správy (vrátane ich presunutia do odpadkového koša)
 webext-perms-description-messagesDelete = Natrvalo odstraňovať e‑mailové správy
 webext-perms-description-messagesRead = Čítať vaše e‑mailové správy a priraďovať im štítky
