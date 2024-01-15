@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Gearstalde e-mailberjochten bewarje as k
 webext-perms-description-experiment = Krij folsleine, ûnbeheinde tagong ta { -brand-short-name } en jo kompjûter
 webext-perms-description-messagesImport = Berjochten yn Thunderbird ymportearje
 webext-perms-description-messagesModify = Lês en bewurkje jo e-mailberjochten lykas se oan jo toand wurde
+webext-perms-description-messagesModifyPermanent = De boarne fan jo berjochten permanint wizigje (ynklusyf kopteksten, tekst en bylagen)
 webext-perms-description-messagesMove = Jo e-mailberjochten kopiearje of ferpleatse (ynklusyf ferpleatse nei it jiskefet)
 webext-perms-description-messagesDelete = Jo e-mailberjochten permanint fuortsmite
 webext-perms-description-messagesRead = Lês jo e-mailberjochten en markearje of labelje dy
