@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Memorisar ils messadis dad e-mail redigi
 webext-perms-description-experiment = Avair access cumplet, senza restricziuns a { -brand-short-name } ed a tes computer
 webext-perms-description-messagesImport = Importar messadis en Thunderbird
 webext-perms-description-messagesModify = Legia e modifitgescha tes messadis dad e-mail durant ch'els ta vegnan mussads
+webext-perms-description-messagesModifyPermanent = Modifitgar permanentamain la funtauna da tes messadis (inclusivamain chaus-pagina, body ed agiuntas)
 webext-perms-description-messagesMove = Copiar u spustar tes messadis dad e-mail (inclus il spustament en il chanaster da palpiri)
 webext-perms-description-messagesDelete = Stizzar definitivamain tes messadis dad e-mail
 webext-perms-description-messagesRead = Legia tes messadis dad e-mail ed als marchescha u etichettescha
