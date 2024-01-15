@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Samengestelde e-mailberichten opslaan al
 webext-perms-description-experiment = Volledige, onbeperkte toegang tot { -brand-short-name } en uw computer verkrijgen
 webext-perms-description-messagesImport = Berichten in Thunderbird importeren
 webext-perms-description-messagesModify = Uw e-mailberichten zoals ze aan u worden getoond lezen en bewerken
+webext-perms-description-messagesModifyPermanent = De bron van uw berichten permanent wijzigen (inclusief kopteksten, tekst en bijlagen)
 webext-perms-description-messagesMove = Uw e-mailberichten kopiëren of verplaatsen (inclusief verplaatsen naar de prullenbak)
 webext-perms-description-messagesDelete = Uw e-mailberichten permanent verwijderen
 webext-perms-description-messagesRead = Uw e-mailberichten lezen en deze markeren of labelen
