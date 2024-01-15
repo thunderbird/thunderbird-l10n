@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Vistaðu samin tölvupóstskeyti sem dr�
 webext-perms-description-experiment = Hafa fullan, ótakmarkaðan aðgang að { -brand-short-name } og tölvunni þinni
 webext-perms-description-messagesImport = Flytja skilaboð inn í Thunderbird
 webext-perms-description-messagesModify = Lesa og breyta tölvupóstskilaboðum þínum eins og þau birtast þér
+webext-perms-description-messagesModifyPermanent = Breyta varanlega upprunaefni skilaboðanna þinna (þar á meðal hausum, meginmáli og viðhengjum)
 webext-perms-description-messagesMove = Afrita eða færa tölvupóstskeytin þín (þar á meðal að færa þau í ruslið)
 webext-perms-description-messagesDelete = Eyða tölvupóstskilaboðum þínum varanlega
 webext-perms-description-messagesRead = Lesa tölvupóstinn þinn og merkja skilaboð
