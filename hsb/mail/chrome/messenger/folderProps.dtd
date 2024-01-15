@@ -9,7 +9,7 @@
 <!ENTITY folderRebuildSummaryFile2.label         "Rjadowak porjedźić">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "R">
 <!ENTITY folderRebuildSummaryFile.explanation    "Druhdy so dataja rjadowakoweho indeksa (.msf) so poškodźa a powěsće móhli so zhubić abo zhašene powěsće so dale pokazuja; porjedźenje rjadowaka móže tute problemy wotstronić.">
-<!ENTITY folderIncludeInGlobalSearch.label       "Powěsće z tutoho rjadowaka do wuslědki globalneho pytanje zapřijeć">
+<!ENTITY folderIncludeInGlobalSearch.label       "Powěsće z tutoho rjadowaka do wuslědkow globalneho pytanja zapřijeć">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "P">
 
 <!ENTITY retention.label "Prawidła wobchowanja">
