@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Ekkert
+account-hub-auth-no-authentication-option =
+    .label = Engin auðkenning
 account-hub-auth-label = Auðkenningaraðferð
 account-hub-username-label = Notandanafn
 account-hub-adding-account-title = Bætir við reikningi
