@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Asnjë
+account-hub-auth-no-authentication-option =
+    .label = Pa Mirëfilltësim
 account-hub-auth-label = Metodë mirëfilltësimi
 account-hub-username-label = Emër përdoruesi
 account-hub-adding-account-title = Shtim Llogarish
