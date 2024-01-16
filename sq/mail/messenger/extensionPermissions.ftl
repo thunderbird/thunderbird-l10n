@@ -17,6 +17,7 @@ webext-perms-description-compose-save = Ruani si skica ose gjedhe mesazhe email 
 webext-perms-description-experiment = Të ketë hyrje të plotë, të pakufizuar në { -brand-short-name } dhe në kompjuterin tuaj
 webext-perms-description-messagesImport = Importoni mesazhe në Thunderbird
 webext-perms-description-messagesModify = Lexoni dhe ndryshoni mesazhet tuaj email, dora-dorës që ju shfaqen
+webext-perms-description-messagesModifyPermanent = Ndryshoni në mënyrë permanente burimin e mesazheve tuaj (përfshi krye, lëndë dhe bashkëngjitje)
 webext-perms-description-messagesMove = Kopjoni ose lëvizni mesazhe email tuajat (përfshi kalimin e tyre te dosja e hedhurinave)
 webext-perms-description-messagesDelete = Fshini përgjithmonë mesazhet tuaja email
 webext-perms-description-messagesRead = Lexoni mesazhet tuaj email dhe u vini shenjë ose etiketa
