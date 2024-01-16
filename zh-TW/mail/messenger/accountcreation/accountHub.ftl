@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = 無
+account-hub-auth-no-authentication-option =
+    .label = 不認證
 account-hub-auth-label = 認證方式
 account-hub-username-label = 使用者名稱
 account-hub-adding-account-title = 新增帳號
