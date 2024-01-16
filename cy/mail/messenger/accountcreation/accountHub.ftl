@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Dim
+account-hub-auth-no-authentication-option =
+    .label = Dim Dilysu
 account-hub-auth-label = Dull dilysu
 account-hub-username-label = Enw Defnyddiwr
 account-hub-adding-account-title = Ychwanegu Cyfrif
