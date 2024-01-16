@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Zarědniki wašogo e-mailowego konta napóraś, pśemjeniś abo wulašowaś
 webext-perms-description-accountsIdentities = Identiy wašogo e-mailowego konta napóraś, změniś abo wulašowaś
 webext-perms-description-accountsRead = Waše e-mailowe konta, jich identity a jich zarědniki pokazaś
@@ -17,6 +24,7 @@ webext-perms-description-compose-save = Spisane e-mailowe powěsći ako nacerjen
 webext-perms-description-experiment = Mějśo połny, njewobgranicowany pśistup k { -brand-short-name } a swójomu licadłu
 webext-perms-description-messagesImport = Powěsći do Thunderbird importěrowaś
 webext-perms-description-messagesModify = Cytajśo a změńśo swóje mejlki ako maju se wam pokazaś
+webext-perms-description-messagesModifyPermanent = Žrědło wašych powěsćow na pśecej změniś (mjazy nimi głowy, wopśimjeśe a pśidanki)
 webext-perms-description-messagesMove = Kopěrujśo abo pśesuńśo swóje e-mailowe powěsći (inkluziwnje jich pśesunjenje do zarědnika papjernika)
 webext-perms-description-messagesDelete = Waše e-mailowe powěsći na pśecej wulašowaś
 webext-perms-description-messagesRead = Cytajśo swóje e-mailowe powěsći a markěrujśo abo wóznamjeńśo je
