@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Απενεργοποίηση λειτουργίας επίλυσης προβλημάτων
     .accesskey = Α
-menu-help-more-troubleshooting-info =
-    .label = Πληροφορίες επίλυσης προβλημάτων
-    .accesskey = Π
 menu-help-troubleshooting-info =
     .label = Πληροφορίες επίλυσης προβλημάτων
     .accesskey = ο
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Έξοδος από το { -brand-shorter-name }{ -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -119,14 +119,8 @@ mail-uidensity-label =
     .label = Πυκνότητα
     .accesskey = Π
 mail-uidensity-compact =
-    .label = Πολύ πυκνό
-    .accesskey = ο
-mail-uidensity-normal =
-    .label = Κανονικό
-    .accesskey = Κ
-mail-uidensity-touch =
-    .label = Αφή
-    .accesskey = Α
+    .label = Συμπαγής
+    .accesskey = Σ
 mail-uidensity-default =
     .label = Προεπιλογή
     .accesskey = Π
