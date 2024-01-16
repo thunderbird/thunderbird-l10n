@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Ninguno
+account-hub-auth-no-authentication-option =
+    .label = Sin autenticación
 account-hub-auth-label = Método de autenticación
 account-hub-username-label = Nombre de usuario
 account-hub-adding-account-title = Agregando cuenta
