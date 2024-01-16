@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Žeden
+account-hub-auth-no-authentication-option =
+    .label = Žedna awtentifikacija
 account-hub-auth-label = Awtentificěrowańska metoda
 account-hub-username-label = Wužywaŕske mě
 account-hub-adding-account-title = Pśidawanje konta
