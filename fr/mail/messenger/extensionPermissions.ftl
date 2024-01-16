@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Créer, renommer ou supprimer des dossiers de vos comptes de messagerie
 webext-perms-description-accountsIdentities = Créer, modifier ou supprimer des identités de vos comptes de messagerie
 webext-perms-description-accountsRead = Voir vos comptes de messagerie, leurs identités et leurs dossiers
