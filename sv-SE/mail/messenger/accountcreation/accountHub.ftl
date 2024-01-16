@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Ingen
+account-hub-auth-no-authentication-option =
+    .label = Ingen autentisering
 account-hub-auth-label = Autentiseringsmetod
 account-hub-username-label = Användarnamn
 account-hub-adding-account-title = Lägger till konto
