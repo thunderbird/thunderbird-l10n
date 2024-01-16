@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Žadyn
+account-hub-auth-no-authentication-option =
+    .label = Žana awtentifikacija
 account-hub-auth-label = Awtentifikaciska metoda
 account-hub-username-label = Wužiwarske mjeno
 account-hub-adding-account-title = Přidawanje konta
