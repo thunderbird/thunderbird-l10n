@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Yok
+account-hub-auth-no-authentication-option =
+    .label = Yetkilendirme yok
 account-hub-auth-label = Yetkilendirme yöntemi
 account-hub-username-label = Kullanıcı adı
 account-hub-adding-account-title = Hesap ekleme
