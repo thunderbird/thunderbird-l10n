@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Žiadne
+account-hub-auth-no-authentication-option =
+    .label = Bez overenia
 account-hub-auth-label = Metóda overenia
 account-hub-username-label = Používateľské meno
 account-hub-adding-account-title = Účet sa pridáva
