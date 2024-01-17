@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Creu, ailenwi neu ddileu ffolderi eich cyfrif e-bost
 webext-perms-description-accountsIdentities = Creu, newid neu ddileu ffolderi eich cyfrif e-bost
 webext-perms-description-accountsRead = Gweld eich cyfrifon e-bost, eu hunaniaeth a'u ffolderi
