@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Gjin
+account-hub-auth-no-authentication-option =
+    .label = Gjin autentikaasje
 account-hub-auth-label = Autentikaasjemetoade
 account-hub-username-label = Brûkersnamme
 account-hub-adding-account-title = Account tafoegje
