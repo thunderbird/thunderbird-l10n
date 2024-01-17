@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Geen
+account-hub-auth-no-authentication-option =
+    .label = Geen authenticatie
 account-hub-auth-label = Authenticatiemethode
 account-hub-username-label = Gebruikersnaam
 account-hub-adding-account-title = Account toevoegen
