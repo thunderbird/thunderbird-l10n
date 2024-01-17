@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Жоқ
+account-hub-auth-no-authentication-option =
+    .label = Аутентификациясыз
 account-hub-auth-label = Аутентификация тәсілі
 account-hub-username-label = Пайдаланушы аты
 account-hub-adding-account-title = Тіркелгіні қосу
