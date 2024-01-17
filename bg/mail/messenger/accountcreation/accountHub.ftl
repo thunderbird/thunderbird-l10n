@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Няма
+account-hub-auth-no-authentication-option =
+    .label = Без удостоверяване
 account-hub-auth-label = Метод за удостоверяване
 account-hub-username-label = Потребителско име
 account-hub-adding-account-title = Добавяне на профил
