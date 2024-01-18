@@ -44,11 +44,8 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Disattiva Modalità risoluzione problemi
     .accesskey = D
-menu-help-more-troubleshooting-info =
-    .label = Altre informazioni per la risoluzione di problemi
-    .accesskey = u
 menu-help-troubleshooting-info =
-    .label = Informazioni sulla risoluzione dei problemi
+    .label = Informazioni per la risoluzione dei problemi
     .accesskey = z
 menu-help-about-product =
     .label = Informazioni su { -brand-short-name }
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Esci da { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Compatta
     .accesskey = C
-mail-uidensity-normal =
-    .label = Normale
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Touch
-    .accesskey = T
 mail-uidensity-default =
     .label = Predefinita
     .accesskey = P
