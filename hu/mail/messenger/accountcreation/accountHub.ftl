@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Nincs
+account-hub-auth-no-authentication-option =
+    .label = Nincs hitelesítés
 account-hub-auth-label = Hitelesítési módszer
 account-hub-username-label = Felhasználónév
 account-hub-adding-account-title = Fiók hozzáadása…
