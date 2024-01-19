@@ -273,11 +273,11 @@
 <!ENTITY event.recurrence.year.label                    "blynyddol" >
 
 <!ENTITY event.recurrence.pattern.every.label           "Pob" >
-<!ENTITY repeat.units.days.both                         "Dydd(iau)" >
+<!ENTITY repeat.units.days.both                         "Diwrnod" >
 <!ENTITY event.recurrence.pattern.every.weekday.label   "Pob diwrnod wythnos" >
 
 <!ENTITY event.recurrence.pattern.weekly.every.label    "Pob" >
-<!ENTITY repeat.units.weeks.both                        "Wythnos(au)" >
+<!ENTITY repeat.units.weeks.both                        "Wythnos" >
 <!ENTITY event.recurrence.on.label                      "Ar:" >
 
 <!ENTITY event.recurrence.pattern.monthly.every.label   "Pob" >
@@ -358,7 +358,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Creu" >
 <!ENTITY event.recurrence.appointments.label            "apwyntiad" >
 <!ENTITY event.repeat.until.label                       "Ailadrodd tan" >
-<!ENTITY event.recurrence.preview.label                 "Rhagolwg">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Gwahodd Mynychwyr">
