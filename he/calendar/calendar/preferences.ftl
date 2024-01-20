@@ -14,6 +14,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = קצר: { $date }
+use-system-timezone-radio-button =
+    .label = שימוש באזור הזמן של המערכת
+set-timezone-manually-radio-button =
+    .label = הגדרת אזור זמן ידנית
 timezone-label =
     .value = אזור זמן:
 weekstart-label =
@@ -97,11 +101,8 @@ previous-weeks-label =
     .value = שבועות קודמים להצגה:
     .accesskey = ק
 todaypane-legend = חלונית היום
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = סעיף האירועים הקרובים מציג:
+agenda-days =
+    .value = סדר היום מציג:
     .accesskey = ס
 event-task-legend = אירועים ומשימות
 default-length-label =
@@ -130,10 +131,6 @@ task-due-label =
 edit-intab-label =
     .label = עריכת אירועים ומשימות בלשונית במקום בחלונית.
     .accesskey = ל
-accessibility-legend = נגישות
-accessibility-colors-label =
-    .label = צבעים מותאמים לנגישות
-    .accesskey = נ
 reminder-legend = בעת כיבוי ההתראה:
 reminder-play-checkbox =
     .label = השמע צליל

@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = עריכת כל המופעים
     .accesskey = כ
+description-context-menu-copy-link-text =
+    .label = העתקת הטקסט מהקישור
