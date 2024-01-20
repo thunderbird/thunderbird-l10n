@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Nagin
+account-hub-auth-no-authentication-option =
+    .label = Nagina autentificaziun
 account-hub-auth-label = Metoda d'autentificaziun
 account-hub-username-label = Num d'utilisader
 account-hub-adding-account-title = Agiuntar il conto
