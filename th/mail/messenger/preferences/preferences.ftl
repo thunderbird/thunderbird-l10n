@@ -607,6 +607,12 @@ certificate-button =
 security-devices-button =
     .label = อุปกรณ์ความปลอดภัย…
     .accesskey = อ
+email-e2ee-header = การเข้ารหัสอีเมลแบบครอบคลุม
+account-settings = การตั้งค่าบัญชี
+email-e2ee-enable-info = ตั้งค่าบัญชีอีเมลและข้อมูลประจำตัวสำหรับการเข้ารหัสแบบครอบคลุมในการตั้งค่าบัญชี
+email-e2ee-automatism = การใช้การเข้ารหัสอัตโนมัติ
+email-e2ee-auto-on =
+    .label = เปิดใช้งานการเข้ารหัสโดยอัตโนมัติเมื่อเป็นไปได้
 
 ## Chat Tab
 
@@ -676,6 +682,8 @@ chat-browse-sound-button =
 theme-label =
     .value = ชุดตกแต่ง:
     .accesskey = ด
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = ฟองอากาศ
 style-dark =
@@ -694,7 +702,47 @@ chat-variant-label =
 ## Settings UI Search Results
 
 search-results-header = ผลการค้นหา
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] ขออภัย! ไม่มีผลลัพธ์สำหรับ “<span data-l10n-name="query"></span>” ในตัวเลือก
+       *[other] ขออภัย! ไม่มีผลลัพธ์สำหรับ “<span data-l10n-name="query"></span>” ในการตั้งค่า
+    }
 search-results-help-link = ต้องการความช่วยเหลือ? เยี่ยมชม <a data-l10n-name="url">การสนับสนุนของ { -brand-short-name }</a>
 
 ## Sync Tab
 
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = ลงชื่อเข้า Sync…
+sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” ยังไม่ได้รับการยืนยัน
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = โปรดลงชื่อเข้าเพื่อเชื่อมต่อ “{ $userEmail }” ใหม่อีกครั้ง
+sync-pane-resend-verification = ส่งการยืนยันใหม่
+sync-pane-sign-in = ลงชื่อเข้า
+sync-pane-remove-account = เอาบัญชีออก
+sync-pane-edit-photo =
+    .title = เปลี่ยนรูปโปรไฟล์
+sync-pane-manage-account = จัดการบัญชี
+sync-pane-sign-out = ลงชื่อออก…
+sync-pane-device-name-title = ชื่ออุปกรณ์
+sync-pane-change-device-name = เปลี่ยนชื่ออุปกรณ์
+sync-pane-cancel = ยกเลิก
+sync-pane-save = บันทึก
+sync-pane-show-synced-header-on = การซิงค์เปิดอยู่
+sync-pane-show-synced-header-off = การซิงค์ปิดอยู่
+sync-pane-sync-now = ซิงค์ตอนนี้
+sync-panel-sync-now-syncing = กำลังซิงค์…
+show-synced-list-heading = คุณกำลังซิงค์รายการเหล่านี้:
+show-synced-learn-more = เรียนรู้เพิ่มเติม…
+show-synced-item-account = บัญชีอีเมล
+show-synced-item-address = สมุดรายชื่อ
+show-synced-item-calendar = ปฏิทิน
+show-synced-item-identity = ข้อมูลประจำตัว
+show-synced-item-passwords = รหัสผ่าน
+show-synced-change = เปลี่ยน…
+synced-acount-item-server-config = การกำหนดค่าเซิร์ฟเวอร์
+synced-acount-item-filters = ตัวกรอง
