@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Ei mitään
+account-hub-auth-no-authentication-option =
+    .label = Ei todennusta
 account-hub-auth-label = Todennustapa
 account-hub-username-label = Käyttäjätunnus
 account-hub-adding-account-title = Lisätään tili
