@@ -225,6 +225,9 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
+
+## Message header customize panel
+
 message-header-customize-panel-title = 消息标题栏设置
 message-header-customize-button-style =
     .value = 按钮样式
@@ -268,7 +271,7 @@ toolbar-context-menu-remove-extension =
 
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
-addon-removal-title = 要移除 { $name } 吗？
+addon-removal-title = 确定要移除 { $name } 吗？
 addon-removal-confirmation-button = 移除
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
@@ -386,7 +389,7 @@ quick-filter-bar-toggle =
     .label = 快速筛选栏
     .accesskey = Q
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

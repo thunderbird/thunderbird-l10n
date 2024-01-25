@@ -63,7 +63,7 @@ webext-perms-update-menu-item = “{ $addonName }”需要新的权限
 
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
-addon-removal-title = 要移除 { $name } 吗？
+addon-removal-title = 确定要移除 { $name } 吗？
 # Variables:
 #   $name (String): the name of the extension which is about to be removed.
 addon-removal-message = 要从 { -brand-shorter-name } 中移除 { $name } 吗？
