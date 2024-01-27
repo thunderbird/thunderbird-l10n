@@ -15,6 +15,7 @@ calendar-invitation-panel-delete-button = מחיקה
 calendar-invitation-panel-accept-button = כן
 calendar-invitation-panel-decline-button = לא
 calendar-invitation-panel-tentative-button = אולי
+calendar-invitation-panel-more-button = עוד
 calendar-invitation-panel-menu-item-save-copy =
     .label = שמירת עותק
 calendar-invitation-panel-menu-item-toggle-changes =
