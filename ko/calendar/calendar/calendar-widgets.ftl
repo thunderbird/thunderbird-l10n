@@ -72,6 +72,14 @@ calendar-view-toggle-month = 월별
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = 캘린더 레이아웃 설정
+calendar-hide-weekends-option =
+    .label = 업무일만 표시
+calendar-define-workweek-option =
+    .label = 업무일 정의
+calendar-show-tasks-calendar-option =
+    .label = 캘린더에에 태스크 표시
 
 ## Calendar Context Menu
 
