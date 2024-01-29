@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Apagar mensagem">
-<!ENTITY deleteMsgCmd.accesskey "A">
-<!ENTITY undeleteMsgCmd.label "Recuperar mensagem">
-<!ENTITY undeleteMsgCmd.accesskey "u">
-<!ENTITY deleteMsgsCmd.label "Apagar mensagens selecionadas">
-<!ENTITY deleteMsgsCmd.accesskey "d">
-<!ENTITY undeleteMsgsCmd.label "Recuperar mensagens selecionadas">
-<!ENTITY undeleteMsgsCmd.accesskey "d">
-<!ENTITY deleteFolderCmd.label "Apagar pasta">
-<!ENTITY deleteFolderCmd.accesskey "A">
-<!ENTITY unsubscribeNewsgroupCmd.label "Cancelar subscrição">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "c">
 <!ENTITY selectMenu.label "Selecionar">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Tudo">
@@ -108,12 +96,8 @@
 <!ENTITY selectThreadCmd.key "a">
 <!ENTITY selectFlaggedCmd.label "Mensagens com estrela">
 <!ENTITY selectFlaggedCmd.accesskey "s">
-<!ENTITY menuFavoriteFolder.label "Pasta de favoritos">
+<!ENTITY menuFavoriteFolder.label "Pasta de marcadores">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "Propriedades">
-<!ENTITY folderPropsFolderCmd2.label "Propriedades da pasta">
-<!ENTITY folderPropsNewsgroupCmd2.label "Propriedades do grupo de notícias">
-<!ENTITY folderPropsCmd.accesskey "e">
 <!ENTITY undoDeleteMsgCmd.label "Anular (apagar mensagem)">
 <!ENTITY redoDeleteMsgCmd.label "Refazer (apagar mensagem)">
 <!ENTITY undoMoveMsgCmd.label "Anular (mover mensagem)">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Painel de pastas">
 <!ENTITY showFolderPaneCmd.accesskey "s">
-<!ENTITY showFolderPaneColsCmd.label "Colunas do painel de pastas">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Painel de mensagens">
 <!ENTITY showMessageCmd.accesskey "m">
 
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nova mensagem">
 <!ENTITY appmenuNewContactCmd.label "Contacto do livro de endereços...">
-<!ENTITY appmenuEditMenu.label "Editar">
 <!ENTITY appmenuToolbarLayout.label "Esquema da barra de ferramentas…">
-<!ENTITY appmenuSelectThread.label "Selecionar tópico">
-<!ENTITY appmenuSelectFlagged.label "Selecionar mensagens com estrela">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova etiqueta...">
@@ -650,7 +629,7 @@
 <!ENTITY folderContextSearchForMessages.accesskey "s">
 <!ENTITY folderContextProperties2.label "Propriedades">
 <!ENTITY folderContextProperties2.accesskey "P">
-<!ENTITY folderContextFavoriteFolder.label "Pasta de favoritos">
+<!ENTITY folderContextFavoriteFolder.label "Pasta de marcadores">
 <!ENTITY folderContextFavoriteFolder.accesskey "a">
 <!ENTITY folderContextSettings2.label "Definições">
 <!ENTITY folderContextSettings2.accesskey "e">
@@ -763,7 +742,7 @@
 <!ENTITY contextMoveMsgMenu.accesskey "M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Recente">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "c">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favoritos">
+<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Marcadores">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
 <!ENTITY contextCopyMsgMenu.label "Copiar para">
 <!ENTITY contextCopyMsgMenu.accesskey "C">
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "o">
 <!ENTITY copyEmailCmd.label "Copiar endereço de e-mail">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Parar">
-<!ENTITY stopCmd.accesskey "P">
-<!ENTITY reloadCmd.label "Recarregar">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Abrir no navegador">
 <!ENTITY openInBrowser.accesskey "o">
 <!ENTITY openLinkInBrowser.label "Abrir ligação no navegador">
