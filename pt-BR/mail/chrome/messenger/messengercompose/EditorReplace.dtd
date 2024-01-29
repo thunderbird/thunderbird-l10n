@@ -6,14 +6,14 @@
 
 <!ENTITY replaceDialog.title "Procurar e substituir">
 <!ENTITY findField.label "Procurar texto:">
-<!ENTITY findField.accesskey "z">
+<!ENTITY findField.accesskey "x">
 <!ENTITY replaceField.label "Substituir por:">
 <!ENTITY replaceField.accesskey "b">
-<!ENTITY caseSensitiveCheckbox.label "Diferenciar maiúsculas de minúsculas">
+<!ENTITY caseSensitiveCheckbox.label "Diferenciar maiúsculas e minúsculas">
 <!ENTITY caseSensitiveCheckbox.accesskey "D">
-<!ENTITY wrapCheckbox.label "Ultrapassar início/fim">
-<!ENTITY wrapCheckbox.accesskey "U">
-<!ENTITY backwardsCheckbox.label "Pesquisar para trás">
+<!ENTITY wrapCheckbox.label "Recomeçar do início após chegar ao final">
+<!ENTITY wrapCheckbox.accesskey "R">
+<!ENTITY backwardsCheckbox.label "Pesquisar de baixo para cima">
 <!ENTITY backwardsCheckbox.accesskey "P">
 <!ENTITY findNextButton.label "Procurar próximo">
 <!ENTITY findNextButton.accesskey "m">
