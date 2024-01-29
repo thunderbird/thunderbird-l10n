@@ -87,13 +87,13 @@
 <!ENTITY fontStyleMenu.accesskey "s">
 <!ENTITY styleBoldCmd.label "Negrito">
 <!ENTITY styleBoldCmd.accesskey "N">
-<!ENTITY styleBoldCmd.key "b">
+<!ENTITY styleBoldCmd.key "B">
 <!ENTITY styleItalicCmd.label "Itálico">
 <!ENTITY styleItalicCmd.accesskey "I">
-<!ENTITY styleItalicCmd.key "i">
+<!ENTITY styleItalicCmd.key "I">
 <!ENTITY styleUnderlineCmd.label "Sublinhado">
 <!ENTITY styleUnderlineCmd.accesskey "S">
-<!ENTITY styleUnderlineCmd.key "u">
+<!ENTITY styleUnderlineCmd.key "U">
 <!ENTITY styleStrikeThruCmd.label "Riscado">
 <!ENTITY styleStrikeThruCmd.accesskey "R">
 <!ENTITY styleSuperscriptCmd.label "Sobrescrito">

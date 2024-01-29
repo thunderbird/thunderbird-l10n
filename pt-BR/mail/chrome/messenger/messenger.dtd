@@ -46,7 +46,7 @@
 <!ENTITY openMessageFileCmd.accesskey "b">
 <!ENTITY saveAsMenu.label "Salvar como">
 <!ENTITY saveAsMenu.accesskey "a">
-<!ENTITY saveAsFileCmd.key "S">
+<!ENTITY saveAsFileCmd.key "s">
 <!ENTITY saveAsTemplateCmd.label "Modelo">
 <!ENTITY saveAsTemplateCmd.accesskey "M">
 <!ENTITY getNewMsgForCmd.label "Receber novas mensagens de">
@@ -84,21 +84,7 @@
 <!ENTITY downloadStarredCmd.accesskey "e">
 <!ENTITY printCmd.label "Imprimir…">
 <!ENTITY printCmd.accesskey "I">
-<!ENTITY printCmd.key "P">
-
-<!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Excluir mensagem">
-<!ENTITY deleteMsgCmd.accesskey "x">
-<!ENTITY undeleteMsgCmd.label "Restaurar mensagem">
-<!ENTITY undeleteMsgCmd.accesskey "R">
-<!ENTITY deleteMsgsCmd.label "Excluir mensagens selecionadas">
-<!ENTITY deleteMsgsCmd.accesskey "x">
-<!ENTITY undeleteMsgsCmd.label "Restaurar mensagens selecionadas">
-<!ENTITY undeleteMsgsCmd.accesskey "R">
-<!ENTITY deleteFolderCmd.label "Excluir pasta">
-<!ENTITY deleteFolderCmd.accesskey "x">
-<!ENTITY unsubscribeNewsgroupCmd.label "Cancelar inscrição">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "C">
+<!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Selecionar">
@@ -107,15 +93,11 @@
 <!ENTITY all.accesskey "T">
 <!ENTITY selectThreadCmd.label "Tópico">
 <!ENTITY selectThreadCmd.accesskey "c">
-<!ENTITY selectThreadCmd.key "A">
+<!ENTITY selectThreadCmd.key "a">
 <!ENTITY selectFlaggedCmd.label "Mensagens com estrela">
 <!ENTITY selectFlaggedCmd.accesskey "M">
 <!ENTITY menuFavoriteFolder.label "Pasta favorita">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "Propriedades">
-<!ENTITY folderPropsFolderCmd2.label "Propriedades da pasta">
-<!ENTITY folderPropsNewsgroupCmd2.label "Propriedades do grupo de notícias">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Desfazer exclusão de mensagem">
 <!ENTITY redoDeleteMsgCmd.label "Refazer exclusão de mensagem">
 <!ENTITY undoMoveMsgCmd.label "Desfazer mover mensagem">
@@ -147,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Painel de pastas">
 <!ENTITY showFolderPaneCmd.accesskey "a">
-<!ENTITY showFolderPaneColsCmd.label "Colunas do painel de pastas">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Painel de mensagens">
 <!ENTITY showMessageCmd.accesskey "P">
 
@@ -262,25 +242,25 @@
 
 <!ENTITY pageSourceCmd.label "Código-fonte da mensagem">
 <!ENTITY pageSourceCmd.accesskey "f">
-<!ENTITY pageSourceCmd.key "U">
-<!ENTITY getNewMessagesCmd.key "Y">
-<!ENTITY getAllNewMessagesCmd.key "y">
+<!ENTITY pageSourceCmd.key "u">
+<!ENTITY getNewMessagesCmd.key "y">
+<!ENTITY getAllNewMessagesCmd.key "Y">
 
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Procurar">
 <!ENTITY findMenu.accesskey "o">
 <!ENTITY findCmd.label "Procurar nesta mensagem…">
 <!ENTITY findCmd.accesskey "o">
-<!ENTITY findCmd.key "F">
+<!ENTITY findCmd.key "f">
 <!ENTITY findAgainCmd.label "Procurar novamente">
 <!ENTITY findAgainCmd.accesskey "n">
-<!ENTITY findAgainCmd.key "G">
+<!ENTITY findAgainCmd.key "g">
 <!ENTITY findAgainCmd.key2 "VK_F3">
-<!ENTITY findPrevCmd.key "G">
+<!ENTITY findPrevCmd.key "g">
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Pesquisar mensagens…">
 <!ENTITY searchMailCmd.accesskey "P">
-<!ENTITY searchMailCmd.key "F">
+<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Pesquisa global…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Pesquisar endereços…">
@@ -293,7 +273,7 @@
 <!ENTITY nextMenu.accesskey "P">
 <!ENTITY nextMsgCmd.label "Mensagem">
 <!ENTITY nextMsgCmd.accesskey "M">
-<!ENTITY nextMsgCmd.key "F">
+<!ENTITY nextMsgCmd.key "f">
 <!ENTITY nextUnreadMsgCmd.label "Mensagem não lida">
 <!ENTITY nextUnreadMsgCmd.accesskey "l">
 <!ENTITY nextUnreadMsgCmd.key "n">
@@ -306,10 +286,10 @@
 <!ENTITY prevMenu.accesskey "t">
 <!ENTITY prevMsgCmd.label "Mensagem">
 <!ENTITY prevMsgCmd.accesskey "M">
-<!ENTITY prevMsgCmd.key "B">
+<!ENTITY prevMsgCmd.key "b">
 <!ENTITY prevUnreadMsgCmd.label "Mensagem não lida">
 <!ENTITY prevUnreadMsgCmd.accesskey "l">
-<!ENTITY prevUnreadMsgCmd.key "P">
+<!ENTITY prevUnreadMsgCmd.key "p">
 <!ENTITY goForwardCmd.label "Avançar">
 <!ENTITY goForwardCmd.accesskey "A">
 <!ENTITY goForwardCmd.commandKey "]">
@@ -341,20 +321,20 @@
 <!ENTITY cancelNewsMsgCmd.accesskey "m">
 <!ENTITY replyMsgCmd.label "Responder">
 <!ENTITY replyMsgCmd.accesskey "R">
-<!ENTITY replyMsgCmd.key "R">
+<!ENTITY replyMsgCmd.key "r">
 <!ENTITY replySenderCmd.label "Responder só ao remetente">
 <!ENTITY replySenderCmd.accesskey "R">
 <!ENTITY replyNewsgroupCmd2.label "Responder ao grupo">
 <!ENTITY replyNewsgroupCmd2.accesskey "p">
 <!ENTITY replyToAllMsgCmd.label "Responder a todos">
 <!ENTITY replyToAllMsgCmd.accesskey "T">
-<!ENTITY replyToAllMsgCmd.key "R">
+<!ENTITY replyToAllMsgCmd.key "r">
 <!ENTITY replyToListMsgCmd.label "Responder à lista">
 <!ENTITY replyToListMsgCmd.accesskey "s">
 <!ENTITY replyToListMsgCmd.key "l">
 <!ENTITY forwardMsgCmd.label "Encaminhar">
 <!ENTITY forwardMsgCmd.accesskey "E">
-<!ENTITY forwardMsgCmd.key "L">
+<!ENTITY forwardMsgCmd.key "l">
 <!ENTITY forwardAsMenu.label "Encaminhar como">
 <!ENTITY forwardAsMenu.accesskey "h">
 <!ENTITY forwardAsInline.label "Texto na mensagem">
@@ -382,7 +362,7 @@
 <!ENTITY copyMsgToMenu.accesskey "p">
 <!ENTITY moveToFolderAgain.label "Mover novamente">
 <!ENTITY moveToFolderAgain.accesskey "M">
-<!ENTITY moveToFolderAgainCmd.key "M">
+<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignorar tópico">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "K">
@@ -406,20 +386,20 @@
 <!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Marcar">
 <!ENTITY markMenu.accesskey "c">
-<!ENTITY toggleReadCmd.key "M">
+<!ENTITY toggleReadCmd.key "m">
 <!ENTITY markAsReadCmd.label "Como lida">
 <!ENTITY markAsReadCmd.accesskey "m">
 <!ENTITY markAsUnreadCmd.label "Como não lida">
 <!ENTITY markAsUnreadCmd.accesskey "d">
 <!ENTITY markThreadAsReadCmd.label "Tópico como lido">
 <!ENTITY markThreadAsReadCmd.accesskey "c">
-<!ENTITY markThreadAsReadCmd.key "R">
+<!ENTITY markThreadAsReadCmd.key "r">
 <!ENTITY markReadByDateCmd.label "Como lidas por data…">
 <!ENTITY markReadByDateCmd.accesskey "o">
-<!ENTITY markReadByDateCmd.key "C">
+<!ENTITY markReadByDateCmd.key "c">
 <!ENTITY markAllReadCmd.label "Todas como lidas">
 <!ENTITY markAllReadCmd.accesskey "T">
-<!ENTITY markAllReadCmd.key "C">
+<!ENTITY markAllReadCmd.key "c">
 <!ENTITY markStarredCmd.label "Adicionar estrela">
 <!ENTITY markStarredCmd.accesskey "s">
 <!ENTITY markStarredCmd.key "S">
@@ -598,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nova mensagem">
 <!ENTITY appmenuNewContactCmd.label "Contato no catálogo de endereços…">
-<!ENTITY appmenuEditMenu.label "Editar">
 <!ENTITY appmenuToolbarLayout.label "Personalizar barra de ferramentas…">
-<!ENTITY appmenuSelectThread.label "Selecionar tópico">
-<!ENTITY appmenuSelectFlagged.label "Selecionar mensagens com estrela">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova etiqueta…">
@@ -906,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "m">
 <!ENTITY copyEmailCmd.label "Copiar endereço de email">
 <!ENTITY copyEmailCmd.accesskey "o">
-<!ENTITY stopCmd.label "Parar">
-<!ENTITY stopCmd.accesskey "P">
-<!ENTITY reloadCmd.label "Recarregar">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Abrir no navegador">
 <!ENTITY openInBrowser.accesskey "A">
 <!ENTITY openLinkInBrowser.label "Abrir link no navegador">

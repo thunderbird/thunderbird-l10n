@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "R">
 <!ENTITY deleteCmd.label          "Excluir">
 <!ENTITY deleteCmd.accesskey        "x">
-
 <!ENTITY customizeCmd.label "Personalizar">
 <!ENTITY customizeCmd.accesskey "P">
 
@@ -29,15 +28,5 @@
 <!ENTITY showTaskbarCmd.accesskey        "s">
 
 <!ENTITY closeCmd.label      "Fechar">
-<!ENTITY closeCmd.key      "w">
+<!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "F">
-
-<!ENTITY quitApplicationCmd.label  "Sair">
-<!ENTITY quitApplicationCmd.key    "q">
-<!ENTITY quitApplicationCmd.accesskey  "S">
-
-<!ENTITY quitApplicationCmdUnix.label  "Sair">
-<!ENTITY quitApplicationCmdUnix.accesskey  "S">
-
-<!ENTITY quitApplicationCmdMac.label  "Sair do &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "S">

@@ -30,7 +30,7 @@
 <!ENTITY buttons.create.accesskey "r">
 
 <!ENTITY buttons.find.label "Procurar agendas">
-<!ENTITY buttons.find.accesskey "P">
+<!ENTITY buttons.find.accesskey "F">
 
 <!ENTITY buttons.back.label "Voltar">
 <!ENTITY buttons.back.accesskey "V">

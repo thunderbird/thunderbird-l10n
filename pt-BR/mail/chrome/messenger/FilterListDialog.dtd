@@ -36,5 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "f">
 <!ENTITY helpButton.label "Ajuda">
 <!ENTITY helpButton.accesskey "A">
-<!ENTITY closeCmd.key "w">
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Pesquisar filtros por nome…">
