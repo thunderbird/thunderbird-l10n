@@ -104,7 +104,7 @@ account-setup-step4-image =
     .title = Erro de conexão
 account-setup-step5-image =
     .title = Conta criada
-account-setup-privacy-footnote2 = Suas credenciais são armazenadas apenas localmente em seu computador.
+account-setup-privacy-footnote2 = Suas credenciais são armazenadas apenas localmente neste computador.
 account-setup-selection-help = Não tem certeza do que selecionar?
 account-setup-selection-error = Precisa de ajuda?
 account-setup-success-help = Não tem certeza do que fazer a seguir?
@@ -123,7 +123,7 @@ account-setup-results-area-title =
        *[other] Configurações disponíveis
     }
 account-setup-result-imap-description = Mantém suas pastas e emails sincronizados em seu servidor
-account-setup-result-pop-description = Mantém suas pastas e emails em seu computador
+account-setup-result-pop-description = Mantém suas pastas e emails neste computador
 # Note: Exchange, Office365 are the name of products.
 account-setup-result-exchange2-description = Usar servidor Microsoft Exchange ou serviços na nuvem do Office365
 account-setup-incoming-title = Recebimento
