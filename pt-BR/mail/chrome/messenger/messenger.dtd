@@ -438,7 +438,7 @@
 <!ENTITY messengerCmd.accesskey "M">
 <!ENTITY addressBookCmd.label "Catálogo de endereços">
 <!ENTITY addressBookCmd.accesskey "a">
-<!ENTITY addressBookCmd.key "b">
+<!ENTITY addressBookCmd.key "B">
 <!ENTITY addonNoPrefs.label "Nenhuma extensão configurada.">
 <!ENTITY activitymanager.label "Gerenciador de atividade">
 <!ENTITY activitymanager.accesskey "G">
@@ -818,7 +818,7 @@
      This is actually the key used for the global message search box; we have
      not changed
   -->
-<!ENTITY quickSearchCmd.key "K">
+<!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
      #1 with the contents of the appropriate search.keyLabel.* value for the

@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Procurar mensagens em:">
 <!ENTITY searchHeading.accesskey     "z">
 <!ENTITY searchSubfolders.label      "Incluir subpastas">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Resultados">
 <!ENTITY moveButton.label            "Mover para">
 <!ENTITY moveButton.accesskey        "M">
-<!ENTITY closeCmd.key                "w">
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "Abrir pasta da mensagem">
 <!ENTITY openInFolder.accesskey      "b">
 <!ENTITY saveAsVFButton.label        "Salvar como pasta de pesquisa…">
 <!ENTITY saveAsVFButton.accesskey    "S">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Pesquisar no:">
 <!ENTITY abSearchHeading.accesskey   "s">
 <!ENTITY propertiesButton.label      "Propriedades">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "Excluir">
 <!ENTITY deleteCardButton.accesskey  "x">
 <!ENTITY abSearchDialogTitle.label   "Pesquisar catálogo">
-
