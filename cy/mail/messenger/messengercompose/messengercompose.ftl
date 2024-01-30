@@ -64,8 +64,8 @@ pill-action-select-all-pills =
     .label = Dewis Pob Cyfeiriad
     .accesskey = D
 pill-action-move-to =
-    .label = Symud i
-    .accesskey = S
+    .label = Symud i At
+    .accesskey = A
 pill-action-move-cc =
     .label = Symud i CC
     .accesskey = C
@@ -152,7 +152,7 @@ drop-file-label-inline =
 ## Reorder Attachment Panel
 
 move-attachment-first-panel-button =
-    .label = Symud yn Gyntaf
+    .label = Symud y Cyntaf
 move-attachment-left-panel-button =
     .label = Symud i'r Chwith
 move-attachment-right-panel-button =
@@ -204,10 +204,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Rheolwr Allwedd
     .accesskey = R
-openpgp-key-issue-notification-one = Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $addr }
-openpgp-key-issue-notification-many = Mae amgryptio pen-i-ben yn gofyn am ddatrys materion allweddi ar gyfer { $count } derbynnydd.
-smime-cert-issue-notification-one = Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $addr }.
-smime-cert-issue-notification-many = Mae amgryptio pen-i-ben yn gofyn am ddatrys materion tystysgrifau ar gyfer { $count } derbynnydd.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -303,16 +299,6 @@ show-bcc-row-button = Bcc
     .title = Dangos Maes Bcc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Meysydd cyfeiriadau eraill i'w dangos
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [zero] Nid oes gan eich neges unrhyw dderbynydd.
-        [one] osgoi datgelu derbynwyr trwy ddefnyddio Bcc yn lle.
-        [two] Bydd y  { $count } derbyniwr yn At a Cc yn gweld cyfeiriad ei gilydd. Gallwch osgoi datgelu derbynwyr trwy ddefnyddio Bcc yn lle.
-        [few] Bydd y  { $count } derbyniwr yn At a Cc yn gweld cyfeiriad ei gilydd. Gallwch osgoi datgelu derbynwyr trwy ddefnyddio Bcc yn lle.
-        [many] Bydd y  { $count } derbyniwr yn At a Cc yn gweld cyfeiriad ei gilydd. Gallwch osgoi datgelu derbynwyr trwy ddefnyddio Bcc yn lle.
-       *[other] Bydd y  { $count } derbyniwr yn At a Cc yn gweld cyfeiriad ei gilydd. Gallwch osgoi datgelu derbynwyr trwy ddefnyddio Bcc yn lle.
-    }
 public-recipients-notice-single = Mae gan eich neges dderbynnydd cyhoeddus. Gallwch osgoi datgelu'r derbynnydd trwy ddefnyddio Bcc yn lle hynny.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.

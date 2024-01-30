@@ -738,7 +738,7 @@
 <!ENTITY contextForwardAsAttachmentItem.accesskey "A">
 <!ENTITY contextMultiForwardAsAttachment.label "Ymlaen fel Atodiadau">
 <!ENTITY contextMultiForwardAsAttachment.accesskey "A">
-<!ENTITY contextMoveMsgMenu.label "Symud I">
+<!ENTITY contextMoveMsgMenu.label "Symud i">
 <!ENTITY contextMoveMsgMenu.accesskey "S">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Diweddar">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "D">
