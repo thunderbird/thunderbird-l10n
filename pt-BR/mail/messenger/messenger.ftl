@@ -227,6 +227,9 @@ message-header-recipient-avatar =
 
 ## Message header cutomize panel
 
+
+## Message header customize panel
+
 message-header-customize-panel-title = Configurações do cabeçalho de mensagens
 message-header-customize-button-style =
     .value = Estilo de botões
@@ -393,9 +396,9 @@ quick-filter-bar-toggle =
     .label = Barra de filtragem
     .accesskey = f
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
-    .key = K
+    .key = k
 
 ## OpenPGP
 

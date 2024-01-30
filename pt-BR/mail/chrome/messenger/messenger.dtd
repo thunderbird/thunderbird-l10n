@@ -281,7 +281,7 @@
 <!ENTITY nextStarredMsgCmd.accesskey "M">
 <!ENTITY nextUnreadThread.label "Tópico não lido">
 <!ENTITY nextUnreadThread.accesskey "T">
-<!ENTITY nextUnreadThread.key "T">
+<!ENTITY nextUnreadThread.key "t">
 <!ENTITY prevMenu.label "Anterior">
 <!ENTITY prevMenu.accesskey "t">
 <!ENTITY prevMsgCmd.label "Mensagem">
@@ -365,13 +365,13 @@
 <!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignorar tópico">
 <!ENTITY killThreadMenu.accesskey "I">
-<!ENTITY killThreadMenu.key "K">
+<!ENTITY killThreadMenu.key "k">
 <!ENTITY killSubthreadMenu.label "Ignorar subtópico">
 <!ENTITY killSubthreadMenu.accesskey "s">
-<!ENTITY killSubthreadMenu.key "K">
+<!ENTITY killSubthreadMenu.key "k">
 <!ENTITY watchThreadMenu.label "Monitorar tópico">
 <!ENTITY watchThreadMenu.accesskey "p">
-<!ENTITY watchThreadMenu.key "W">
+<!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Aplicar etiqueta">
 <!ENTITY tagMenu.accesskey "l">
 <!ENTITY tagCmd0.key "0">
@@ -452,7 +452,7 @@
 <!ENTITY joinChatCmd.accesskey "E">
 <!ENTITY savedFiles.label "Arquivos salvos">
 <!ENTITY savedFiles.accesskey "u">
-<!ENTITY savedFiles.key "J">
+<!ENTITY savedFiles.key "j">
 <!ENTITY filtersCmd2.label "Filtros de mensagens">
 <!ENTITY filtersCmd2.accesskey "F">
 <!ENTITY filtersApply.label "Aplicar filtros na pasta">
@@ -893,7 +893,7 @@
 
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Minimizar">
-<!ENTITY minimizeWindow.key "M">
+<!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Trazer tudo para frente">
 <!ENTITY zoomWindow.label "Zoom">
 
