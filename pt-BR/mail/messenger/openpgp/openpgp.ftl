@@ -138,8 +138,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Copiar chaves públicas para área de transferência
         }
     .accesskey = b
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Exportar chaves para arquivo
 openpgp-key-man-ctx-copy =
     .label = Copiar
     .accesskey = C
@@ -225,7 +223,7 @@ openpgp-key-man-please-wait-tooltip =
 openpgp-key-man-filter-label =
     .placeholder = Procurar chaves
 openpgp-key-man-select-all-key =
-    .key = T
+    .key = A
 openpgp-key-man-key-details-key =
     .key = I
 openpgp-ign-addr-intro = Você aceita usar esta chave nos seguintes endereços de email selecionados:

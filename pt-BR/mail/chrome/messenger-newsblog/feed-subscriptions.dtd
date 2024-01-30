@@ -51,5 +51,5 @@
 <!ENTITY button.exportOPML.accesskey "o">
 <!ENTITY button.exportOPML.tooltip   "Exportar canais de informações mantendo a estrutura de pastas; clique com Ctrl ou tecle Ctrl+Enter para exportar como uma lista">
 
-<!ENTITY cmd.close.commandKey        "W">
+<!ENTITY cmd.close.commandKey        "w">
 <!ENTITY button.close.label          "Fechar">
