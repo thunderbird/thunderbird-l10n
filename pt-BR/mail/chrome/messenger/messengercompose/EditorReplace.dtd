@@ -13,7 +13,7 @@
 <!ENTITY caseSensitiveCheckbox.accesskey "D">
 <!ENTITY wrapCheckbox.label "Recomeçar do início após chegar ao final">
 <!ENTITY wrapCheckbox.accesskey "R">
-<!ENTITY backwardsCheckbox.label "Pesquisar de baixo para cima">
+<!ENTITY backwardsCheckbox.label "Pesquisar para trás">
 <!ENTITY backwardsCheckbox.accesskey "P">
 <!ENTITY findNextButton.label "Procurar próximo">
 <!ENTITY findNextButton.accesskey "m">
