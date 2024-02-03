@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Không
+account-hub-auth-no-authentication-option =
+    .label = Không xác thực
 account-hub-auth-label = Phương thức xác thực
 account-hub-username-label = Tên đăng nhập
 account-hub-adding-account-title = Đang thêm tài khoản
