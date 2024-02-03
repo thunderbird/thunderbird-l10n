@@ -94,7 +94,7 @@ toolbar-address-book =
 toolbar-chat-label = แชท
 toolbar-chat =
     .title = แสดงแท็บแชท
-toolbar-add-ons-and-themes-label = ส่วนเสริมและธีม
+toolbar-add-ons-and-themes-label = ส่วนเสริมและชุดรูปแบบ
 toolbar-add-ons-and-themes =
     .title = จัดการส่วนเสริมของคุณ
 toolbar-calendar-label = ปฏิทิน
@@ -142,3 +142,6 @@ toolbar-stop =
 toolbar-throbber-label = ตัวบ่งชี้กิจกรรม
 toolbar-throbber =
     .title = ตัวบ่งชี้กิจกรรม
+
+## New Address Book popup items
+

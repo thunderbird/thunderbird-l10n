@@ -9,8 +9,8 @@ menu-tools-settings =
     .label = ตั้งค่า
     .accesskey = e
 menu-addons-and-themes =
-    .label = ส่วนเสริมและธีม
-    .accesskey = A
+    .label = ส่วนเสริมและชุดรูปแบบ
+    .accesskey = ส
 
 ## Help Menu
 
@@ -19,9 +19,6 @@ menu-help-enter-troubleshoot-mode =
     .accesskey = M
 menu-help-exit-troubleshoot-mode =
     .label = ปิดโหมดแก้ไขปัญหา
-    .accesskey = M
-menu-help-more-troubleshooting-info =
-    .label = ข้อมูลการแก้ไขปัญหาเพิ่มเติม
     .accesskey = M
 
 ## Mail Toolbar
@@ -65,12 +62,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = กระชับ
     .accesskey = C
-mail-uidensity-normal =
-    .label = ปกติ
-    .accesskey = N
-mail-uidensity-touch =
-    .label = ระบบสัมผัส
-    .accesskey = T
 mail-uidensity-default =
     .label = ค่าเริ่มต้น
     .accesskey = D

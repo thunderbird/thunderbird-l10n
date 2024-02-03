@@ -75,5 +75,5 @@
 <!ENTITY imageInputTab.label "แบบฟอร์ม">
 <!ENTITY imageLocationTab.label "ตำแหน่งที่ตั้ง">
 <!ENTITY imageDimensionsTab.label "มิติ">
-<!ENTITY imageAppearanceTab.label "ลักษณะที่ปรากฏ">
+<!ENTITY imageAppearanceTab.label "รูปลักษณ์">
 <!ENTITY imageLinkTab.label "ลิงก์">

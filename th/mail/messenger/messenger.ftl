@@ -85,9 +85,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = มุมมองแบบกะทัดรัด
     .accesskey = ก
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -140,15 +137,7 @@ appmenu-save-as-file =
 appmenu-settings =
     .label = การตั้งค่า
 appmenu-addons-and-themes =
-    .label = ส่วนเสริมและธีม
-appmenu-help-enter-troubleshoot-mode =
-    .label = โหมดแก้ไขปัญหา…
-appmenu-help-exit-troubleshoot-mode =
-    .label = ปิดโหมดแก้ไขปัญหา
-appmenu-help-more-troubleshooting-info =
-    .label = ข้อมูลการแก้ไขปัญหาเพิ่มเติม
-appmenu-redirect-msg =
-    .label = เปลี่ยนเส้นทาง
+    .label = ส่วนเสริมและชุดรูปแบบ
 
 ## Context menu
 
@@ -158,9 +147,6 @@ context-menu-redirect-msg =
 # $count (Number) - Number of selected messages.
 mail-context-delete-messages =
     .label = ลบข้อความที่เลือก
-context-menu-decrypt-to-folder =
-    .label = คัดลอกแบบถูกถอดรหัสไปที่
-    .accesskey = y
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -183,6 +169,9 @@ message-header-recipient-avatar =
     .alt = รูปโปรไฟล์ของ { $address }
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = การตั้งค่าส่วนหัวของข้อความ
 message-header-customize-button-style =
@@ -241,7 +230,6 @@ no-reply-message = ที่อยู่ตอบกลับ ({ $email }) ด�
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } จากข้อความ { $total } ไม่สามารถถอดรหัสและไม่ถูกคัดลอก
 
 ## Spaces toolbar
 
@@ -310,7 +298,7 @@ quick-filter-bar-toggle =
     .label = แถบตัวกรองแบบรวดเร็ว
     .accesskey = ถ
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
