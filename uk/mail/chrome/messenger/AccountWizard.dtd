@@ -5,12 +5,11 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Майстер облікових записів">
-<!ENTITY accountWizard.size "width: 55em; height: 38em;">
 
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Ідентифікація">
-<!ENTITY identityDesc.label "Кожен обліковий запис має ідентифікатор — інформацію, що визначає вас для інших, коли вони отримують ваші повідомлення.">
+<!ENTITY identityDesc.label "Кожен обліковий запис має ідентифікатор – інформацію, що визначає вас для інших, коли вони отримують ваші повідомлення.">
 
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Введіть своє ім'я, яке з'являтиметься в полі &quot;Від&quot; ваших вихідних повідомлень">

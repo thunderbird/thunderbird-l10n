@@ -19,4 +19,4 @@
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name = Thunderbird
 -vendor-short-name = Mozilla
-trademarkInfo = Mozilla Thunderbird і логотипи Thunderbird є торгівельними марками компанії Mozilla Foundation.
+trademarkInfo = Mozilla Thunderbird і логотипи Thunderbird є торговельними марками компанії Mozilla Foundation.
