@@ -74,7 +74,7 @@
 <!ENTITY advancedButton.label "Nâng cao…">
 <!ENTITY advancedButton.accesskey "v">
 <!ENTITY serverDefaultCharset2.label "Bảng mã văn bản mặc định:">
-<!ENTITY localPath1.label "Thư mục nội bộ:">
+<!ENTITY localPath1.label "Thư mục cục bộ:">
 <!ENTITY localFolderPicker.label "Chọn thư mục cục bộ">
 <!ENTITY browseFolder.label "Duyệt…">
 <!ENTITY browseFolder.accesskey "B">

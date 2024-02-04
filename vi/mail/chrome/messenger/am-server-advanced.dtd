@@ -18,7 +18,7 @@
 <!ENTITY personalNamespace.accesskey "K">
 <!ENTITY publicNamespace.label "Công khai (đã chia sẻ):">
 <!ENTITY publicNamespace.accesskey "s">
-<!ENTITY otherUsersNamespace.label "Người dùng Khác:">
+<!ENTITY otherUsersNamespace.label "Người dùng khác:">
 <!ENTITY otherUsersNamespace.accesskey "N">
 <!ENTITY overrideNamespaces.label "Cho phép máy chủ ghi đè những không gian tên này">
 <!ENTITY overrideNamespaces.accesskey "o">
