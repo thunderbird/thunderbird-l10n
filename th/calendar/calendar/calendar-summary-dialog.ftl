@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = แก้ไขเหตุการณ์ทั้งหมด
     .accesskey = a
+description-context-menu-copy-link-text =
+    .label = คัดลอกข้อความลิงก์

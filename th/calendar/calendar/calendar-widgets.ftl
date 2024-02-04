@@ -11,9 +11,19 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = ปฏิทิน
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = ปฏิทิน { $calendarName } ได้ถูกปิดแจ้งเตือนแล้ว
 calendar-enable-button = เปิดใช้งาน
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = ตัวเลือกปฏิทิน { $calendarName }
 calendar-import-new-calendar = ปฏิทินใหม่…
     .title = สร้างหรือสมัครรับข้อมูลปฏิทินใหม่
+calendar-refresh-calendars =
+    .title = โหลดปฏิทินทั้งหมดใหม่และประสานการเปลี่ยนแปลง
 calendar-new-event-primary-button = เหตุการณ์ใหม่
 calendar-new-task-primary-button = งานใหม่
 
@@ -62,6 +72,14 @@ calendar-view-toggle-month = เดือน
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = ตัวเลือกเค้าโครงปฏิทิน
+calendar-hide-weekends-option =
+    .label = วันทำงานเท่านั้น
+calendar-define-workweek-option =
+    .label = กำหนดวันทำงาน
+calendar-show-tasks-calendar-option =
+    .label = แสดงงานในปฏิทิน
 
 ## Calendar Context Menu
 
