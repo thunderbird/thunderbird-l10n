@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Čo je nové
-aboutDialog-title =
-    .title = O aplikácii { -brand-full-name }
 about-dialog-title = O aplikácii { -brand-full-name }
 release-notes-link = Poznámky k vydaniu
 update-internal-error = Nie je možné skontrolovať aktualizácie kvôli internej chybe. Aktualizácie sú k dispozícii na stránke <a data-l10n-name="manual-link"/>
@@ -32,30 +30,14 @@ warning-desc-telemetry = Zároveň spoločnosti { -vendor-short-name } automatic
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1
 #   $bits (Number): bits of the architecture (32 or 64)
-aboutDialog-version = { $version } ({ $bits }-bitová verzia)
+aboutDialog-version = { $version } ({ $bits }‑bitová verzia)
 # Example of resulting string: 66.0a1 (2019-01-16) (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
-aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bitová verzia)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }‑bitová verzia)
 aboutdialog-update-checking-failed = Nepodarilo sa skontrolovať aktualizácie.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     je <a data-l10n-name="community-exp-credits-link">
-    globálna komunita</a>
-     pracujúca s cieľom zachovať internet otvoreným, verejným a dostupným zdrojom pre všetkých.
-community-2 =
-    { -brand-short-name } vytvára <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , <a data-l10n-name="community-credits-link">
-    globálna komunita</a>
-     pracujúca s cieľom zachovať internet otvoreným, verejným a dostupným zdrojom pre všetkých.
-about-helpus =
-    Chcete nám pomôcť? <a data-l10n-name="helpus-donate-link">
-    Zašlite svoj príspevok</a> alebo <a data-l10n-name="helpus-get-involved-link">
-    sa zapojte</a>.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> je <a data-l10n-name="community-exp-credits-link">globálna komunita</a> pracujúca s cieľom zachovať internet otvoreným, verejným a dostupným zdrojom pre všetkých.
 community-desc = { -brand-short-name } vytvára <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">globálna komunita</a> pracujúca s cieľom zachovať internet otvoreným, verejným a dostupným zdrojom pre všetkých.
 about-donation = Chcete nám pomôcť? <a data-l10n-name="helpus-donate-link">Zašlite svoj príspevok</a> alebo <a data-l10n-name="helpus-get-involved-link">sa zapojte</a>.
