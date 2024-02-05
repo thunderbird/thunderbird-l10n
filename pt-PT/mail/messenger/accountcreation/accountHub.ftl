@@ -46,6 +46,7 @@ account-hub-manually-configure-email-title = Definir configuração da conta
 account-hub-email-cancel-button = Cancelar
 account-hub-email-stop-button = Parar
 account-hub-email-back-button = Retroceder
+account-hub-email-retest-button = Testar novamente
 account-hub-email-finish-button = Concluir
 account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
