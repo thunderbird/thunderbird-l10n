@@ -57,6 +57,7 @@ account-hub-protocol-label = Protocolo
 account-hub-hostname-label = Nome de anfitrião
 account-hub-port-label = Porta
     .title = Defina o número da porta; 0 para deteção automática
+account-hub-auto-description = O { -brand-short-name } tentará detetar automaticamente os campos deixados em branco.
 account-hub-ssl-label = Segurança da ligação
 
 ## Incoming/Outgoing SSL Authentication options
@@ -74,7 +75,10 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Nenhuma
+account-hub-auth-no-authentication-option =
+    .label = Sem Autenticação
 account-hub-auth-label = Método de autenticação
 account-hub-username-label = Nome de utilizador
 account-hub-adding-account-title = Adicionar conta
+account-hub-adding-account-subheader = A testar novamente as definições de configuração da conta
 account-hub-account-added-title = Conta adicionada
