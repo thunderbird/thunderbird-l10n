@@ -651,3 +651,5 @@ search-results-help-link = Precisa de ajuda? Visite o <a data-l10n-name="url">Ap
 
 ## Sync Tab
 
+sync-signedout-description = Sincronize as suas contas, livros de endereço, calendários, extras e definições entre todos os seus dispositivos.
+show-synced-item-calendar = Calendários

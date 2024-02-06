@@ -102,8 +102,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Copiar chaves públicas para a área de transferência
         }
     .accesskey = P
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Exportar chaves para um ficheiro
 openpgp-key-man-ctx-copy =
     .label = Copiar
     .accesskey = C
@@ -481,6 +479,7 @@ need-online = A função que selecionou não está disponível no modo desligado
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
+no-key-found2 = Não foi possível encontrar qualquer tecla que corresponda aos critérios de pesquisa especificados.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 

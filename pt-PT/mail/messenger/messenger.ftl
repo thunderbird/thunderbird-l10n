@@ -68,9 +68,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = i
 
-## Menu
-
-
 ## File Menu
 
 
@@ -114,12 +111,6 @@ menu-edit-newsgroup-properties =
 
 appmenu-addons-and-themes =
     .label = Extras e temas
-appmenu-help-enter-troubleshoot-mode =
-    .label = Modo de diagnóstico…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Desativar o modo de diagnóstico
-appmenu-help-more-troubleshooting-info =
-    .label = Mais informação de diagnóstico
 
 ## Context menu
 
@@ -138,6 +129,9 @@ mail-context-undelete-messages =
 ## Message header cutomize panel
 
 
+## Message header customize panel
+
+
 ## Action Button Context Menu
 
 
@@ -152,6 +146,8 @@ mail-context-undelete-messages =
 
 ## Spaces toolbar
 
+spaces-toolbar-button-calendar2 =
+    .title = Calendário
 
 ## Spaces toolbar pinned tab menupopup
 
@@ -167,7 +163,7 @@ quick-filter-bar-toggle =
     .label = Barra de filtro rápida
     .accesskey = B
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = F
 
