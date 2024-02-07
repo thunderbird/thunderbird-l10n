@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Posta hesabı klasörleri oluşturma, yeniden adlandırma ve silme
 webext-perms-description-accountsIdentities = Posta hesabı kimlileri oluşturma, değiştirme ve silme
 webext-perms-description-accountsRead = Posta hesaplarınızı, hesap kimliklerini ve klasörlerini görüntüleme
@@ -17,6 +24,7 @@ webext-perms-description-compose-save = Oluşturulan e-posta iletilerini taslak 
 webext-perms-description-experiment = { -brand-short-name } uygulamasına ve bilgisayarınıza tam, sınırsız erişim sağlama
 webext-perms-description-messagesImport = İletileri Thunderbird’e aktarma
 webext-perms-description-messagesModify = Size gösterilen e-posta iletilerini okuma ve değiştirme
+webext-perms-description-messagesModifyPermanent = İletilerinizin kaynağını (üst bilgiler, gövde ve ekler dahil) kalıcı olarak değiştirme
 webext-perms-description-messagesMove = E-posta iletilerinizi kopyalama ve taşıma (çöp kutusuna taşıma dahil)
 webext-perms-description-messagesDelete = E-posta iletilerinizi kalıcı olarak silme
 webext-perms-description-messagesRead = E-posta iletilerinizi okuma, işaretleme ve etiketleme
