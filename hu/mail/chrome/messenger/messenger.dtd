@@ -68,7 +68,7 @@
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY compactFolders.label "Mappák tömörítése">
 <!ENTITY compactFolders.accesskey "s">
-<!ENTITY emptyTrashCmd.label "Törölt elemek mappa ürítése">
+<!ENTITY emptyTrashCmd.label "Kuka ürítése">
 <!ENTITY emptyTrashCmd.accesskey "r">
 <!ENTITY offlineMenu.label "Kapcsolat nélkül">
 <!ENTITY offlineMenu.accesskey "c">
@@ -87,20 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Üzenet törlése">
-<!ENTITY deleteMsgCmd.accesskey "z">
-<!ENTITY undeleteMsgCmd.label "Törölt üzenet visszaállítása">
-<!ENTITY undeleteMsgCmd.accesskey "v">
-<!ENTITY deleteMsgsCmd.label "Kijelölt üzenetek törlése">
-<!ENTITY deleteMsgsCmd.accesskey "i">
-<!ENTITY undeleteMsgsCmd.label "Kijelölt üzenetek visszaállítása">
-<!ENTITY undeleteMsgsCmd.accesskey "l">
-<!ENTITY deleteFolderCmd.label "Mappa törlése">
-<!ENTITY deleteFolderCmd.accesskey "l">
-<!ENTITY unsubscribeNewsgroupCmd.label "Leiratkozás">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "L">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Kijelölés">
 <!ENTITY selectMenu.accesskey "e">
 <!ENTITY all.label "Mind">
@@ -112,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "C">
 <!ENTITY menuFavoriteFolder.label "Kedvencek mappa">
 <!ENTITY menuFavoriteFolder.accesskey "K">
-<!ENTITY folderPropsCmd2.label "Tulajdonságok">
-<!ENTITY folderPropsFolderCmd2.label "Mappa tulajdonságai">
-<!ENTITY folderPropsNewsgroupCmd2.label "Hírcsoport tulajdonságai">
-<!ENTITY folderPropsCmd.accesskey "T">
 <!ENTITY undoDeleteMsgCmd.label "Üzenettörlés visszavonása">
 <!ENTITY redoDeleteMsgCmd.label "Üzenettörlés visszaállítása">
 <!ENTITY undoMoveMsgCmd.label "Üzenetáthelyezés visszavonása">
@@ -147,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "F">
 <!ENTITY showFolderPaneCmd.label "Mappa ablaktábla">
 <!ENTITY showFolderPaneCmd.accesskey "M">
-<!ENTITY showFolderPaneColsCmd.label "Mappa ablaktábla oszlopai">
-<!ENTITY showFolderPaneColsCmd.accesskey "o">
 <!ENTITY showMessageCmd.label "Üzenetablak">
 <!ENTITY showMessageCmd.accesskey "z">
 
@@ -598,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Új üzenet">
 <!ENTITY appmenuNewContactCmd.label "Névjegy…">
-<!ENTITY appmenuEditMenu.label "Szerkesztés">
 <!ENTITY appmenuToolbarLayout.label "Eszköztár elrendezése…">
-<!ENTITY appmenuSelectThread.label "Szál kijelölése">
-<!ENTITY appmenuSelectFlagged.label "Csillagozott üzenetek kijelölése">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Új címke…">
@@ -634,7 +611,7 @@
 <!ENTITY folderContextRemove.accesskey "T">
 <!ENTITY folderContextCompact.label "Tömörítés">
 <!ENTITY folderContextCompact.accesskey "r">
-<!ENTITY folderContextEmptyTrash.label "Törölt elemek mappa ürítése">
+<!ENTITY folderContextEmptyTrash.label "Kuka ürítése">
 <!ENTITY folderContextEmptyTrash.accesskey "r">
 <!ENTITY folderContextEmptyJunk.label "Szemetek mappa ürítése">
 <!ENTITY folderContextEmptyJunk.accesskey "m">
@@ -906,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "K">
 <!ENTITY copyEmailCmd.label "E-mail cím másolása">
 <!ENTITY copyEmailCmd.accesskey "m">
-<!ENTITY stopCmd.label "Leállítás">
-<!ENTITY stopCmd.accesskey "L">
-<!ENTITY reloadCmd.label "Frissítés">
-<!ENTITY reloadCmd.accesskey "r">
 <!ENTITY openInBrowser.label "Megnyitás böngészőben">
 <!ENTITY openInBrowser.accesskey "b">
 <!ENTITY openLinkInBrowser.label "Hivatkozás megnyitása böngészőben">

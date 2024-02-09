@@ -52,7 +52,7 @@
 <!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY expungeOnExit.label "A Beérkezett üzenetek mappa kitisztítása kilépéskor">
 <!ENTITY expungeOnExit.accesskey "n">
-<!ENTITY emptyTrashOnExit.label "A Törölt elemek mappa ürítése kilépéskor">
+<!ENTITY emptyTrashOnExit.label "Kuka ürítése kilépéskor">
 <!ENTITY emptyTrashOnExit.accesskey "r">
 <!ENTITY loginAtStartup.label "Új üzenetek ellenőrzése indításkor">
 <!ENTITY loginAtStartup.accesskey "e">
