@@ -142,8 +142,8 @@ mail-play-sound-label =
         }
     .accesskey =
         { PLATFORM() ->
-            [macos] C
-           *[other] n
+            [macos] s
+           *[other] d
         }
 mail-play-button =
     .label = Chwarae
@@ -544,23 +544,12 @@ third-party-never =
     .label = Byth
 third-party-visited =
     .label = O'r ymwelwyd
-keep-label =
-    .value = Cadw tan:
-    .accesskey = C
-keep-expire =
-    .label = daw i ben
-keep-close =
-    .label = Cau { -brand-short-name }
-keep-ask =
-    .label = gofyn i mi bob tro
 cookies-button =
     .label = Dangos Cwcis…
     .accesskey = D
 do-not-track-label =
     .label = Anfon neges “Dim Tracio” at wefannau nad ydych am gael eich tracio
     .accesskey = D
-learn-button =
-    .label = Dysgu rhagor
 dnt-learn-more-button =
     .value = Dysgu rhagor
 passwords-description = Mae { -brand-short-name } yn gallu cofio cyfrineiriau eich holl cyfrifon.

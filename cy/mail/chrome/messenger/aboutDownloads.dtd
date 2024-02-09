@@ -20,4 +20,4 @@
 <!ENTITY cmd.clearList.accesskey                   "l">
 <!ENTITY cmd.clearList.tooltip                     "Tynnu pob cofnod o'r rhestr ffeiliau wedi eu cadw, ar wahân i lwythi i lawr sy'n digwydd ar hyn o bryd.">
 <!ENTITY cmd.searchDownloads.label                 "Chwilio…">
-<!ENTITY cmd.searchDownloads.key                   "w">
+<!ENTITY cmd.searchDownloads.key                   "F">

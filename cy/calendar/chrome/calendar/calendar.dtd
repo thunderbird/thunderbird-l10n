@@ -272,7 +272,7 @@
 <!ENTITY calendar.context.convertmenu.event.label        "Digwyddiad…">
 <!ENTITY calendar.context.convertmenu.event.accesskey    "D">
 <!ENTITY calendar.context.convertmenu.message.label      "Neges…">
-<!ENTITY calendar.context.convertmenu.message.accesskey  "T">
+<!ENTITY calendar.context.convertmenu.message.accesskey  "N">
 <!ENTITY calendar.context.convertmenu.task.label         "Tasg…">
 <!ENTITY calendar.context.convertmenu.task.accesskey     "T">
 
