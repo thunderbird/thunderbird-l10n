@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Ništa
+account-hub-auth-no-authentication-option =
+    .label = Bez provjere autentičnosti
 account-hub-auth-label = Metoda provjere autentičnosti
 account-hub-username-label = Korisničko ime
 account-hub-adding-account-title = Dodavanje računa
