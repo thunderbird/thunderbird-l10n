@@ -157,11 +157,11 @@ account-setup-provisioner-error = Digwyddodd gwall wrth osod eich cyfrif newydd 
 ## Manual configuration area
 
 account-setup-manual-config-title = Gosodiadau gweinydd
-account-setup-incoming-server-legend = Gweinydd Derbyn
+account-setup-incoming-server-legend = Gweinydd derbyn
 account-setup-protocol-label = Protocol:
 account-setup-hostname-label = Enw Gwesteiwr:
 account-setup-port-label = Porth:
-    .title = Gosod rhif y porth i 0 ar gyfer awtoganfod
+    .title = Gosodwch rhif y porth i 0 ar gyfer awtoganfod
 account-setup-auto-description = Bydd { -brand-short-name } yn ceisio awtoganfod meysydd sy'n cael eu gadael yn wag.
 account-setup-ssl-label = Diogelwch y cysylltiad:
 account-setup-outgoing-server-legend = Gweinydd anfon

@@ -13,7 +13,7 @@
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
 <!ENTITY newsgroupsField4.label "Grwpiau Newyddion">
-<!ENTITY followupToField4.label "Ymateb">
+<!ENTITY followupToField4.label "Ymateb i">
 <!ENTITY tagsHdr4.label "Tagiau">
 <!ENTITY dateField4.label "Dyddiad">
 <!ENTITY userAgentField4.label "Asiant defnyddiwr">

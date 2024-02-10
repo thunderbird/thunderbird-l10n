@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Diffodd y Modd Datrys Problemau
     .accesskey = D
-menu-help-more-troubleshooting-info =
-    .label = Rhagor o Wybodaeth Datrys Problemau
-    .accesskey = R
 menu-help-troubleshooting-info =
     .label = Gwybodaeth am Ddatrys Problemau
     .accesskey = G
@@ -57,8 +54,8 @@ menu-help-about-product =
 menu-quit =
     .label =
         { PLATFORM() ->
-            [windows] Gorffen
-           *[other] Gadael
+            [windows] Gadael
+           *[other] Gorffen
         }
     .accesskey =
         { PLATFORM() ->
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Gadael { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = G
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Cywasgu
     .accesskey = C
-mail-uidensity-normal =
-    .label = Arferol
-    .accesskey = A
-mail-uidensity-touch =
-    .label = Cyffwrdd
-    .accesskey = y
 mail-uidensity-default =
     .label = Rhagosodiad
     .accesskey = R

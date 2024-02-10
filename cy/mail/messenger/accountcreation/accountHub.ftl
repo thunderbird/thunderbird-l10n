@@ -56,7 +56,7 @@ account-hub-outgoing-server-legend = Gweinydd anfon
 account-hub-protocol-label = Protocol
 account-hub-hostname-label = Enw Gwesteiwr
 account-hub-port-label = Porth
-    .title = Gosodwch rif y porthladd i 0 ar gyfer canfod awtomatig
+    .title = Gosodwch rif y porth i 0 ar gyfer awtoganfod
 account-hub-auto-description = Bydd { -brand-short-name } yn ceisio awtoganfod meysydd sy'n cael eu gadael yn wag.
 account-hub-ssl-label = Diogelwch cysylltiad
 
