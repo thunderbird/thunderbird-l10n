@@ -2,11 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY viewLog.title "Метрыка сітаў">
+<!ENTITY viewLog.title "Журнал фільтраў">
 <!ENTITY viewLogInfo.text "Метрыка сітаў збірае звесткі аб дзейнасці сітаў ў гэтым рахунку. Скарыстайце скрынку адзнакі ўнізе, каб дазволіць метрыку.">
-<!ENTITY clearLog.label "Ачысціць метрыку">
+<!ENTITY clearLog.label "Ачысціць журнал">
 <!ENTITY clearLog.accesskey "ч">
-<!ENTITY enableLog.label "Дазволіць метрыку сітаў">
+<!ENTITY enableLog.label "Уключыць журнал фільтраў">
 <!ENTITY enableLog.accesskey "Д">
-<!ENTITY closeLog.label "Зачыніць">
+<!ENTITY closeLog.label "Закрыць">
 <!ENTITY closeLog.accesskey "ы">
