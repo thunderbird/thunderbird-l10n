@@ -1,14 +1,14 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
 <!-- Window title -->
+<!ENTITY windowTitle.label "Priodweddau'r Rhestr">
 
-
-<!ENTITY windowTitle.label "Rhestri Priodweddau">
-
-<!ENTITY ListType.label "Math Rhestr">
+<!ENTITY ListType.label "Math o Restr">
 <!ENTITY bulletStyle.label "Arddull Bwled:">
-<!ENTITY startingNumber.label "Cychwyn yn:">
+<!ENTITY startingNumber.label "Cychwyn gyda:">
 <!ENTITY startingNumber.accessKey "C">
 <!ENTITY none.value "Dim">
 <!ENTITY bulletList.value "Rhestr Bwled (Heb ei rhifo)">
@@ -16,5 +16,5 @@
 <!ENTITY definitionList.value "Rhestr Ddiffinio">
 <!ENTITY changeEntireListRadio.label "Newid y rhestr i gyd">
 <!ENTITY changeEntireListRadio.accessKey "N">
-<!ENTITY changeSelectedRadio.label "Newid rhai eitemau yn unig">
+<!ENTITY changeSelectedRadio.label "Newid yr eitemau wedi'u dewis yn unig">
 <!ENTITY changeSelectedRadio.accessKey "r">

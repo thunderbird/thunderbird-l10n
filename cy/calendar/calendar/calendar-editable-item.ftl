@@ -27,4 +27,4 @@ calendar-editable-item-reminder-icon-suppressed-alarm =
 calendar-editable-item-reminder-icon-email =
     .alt = Mae e-bost atgoffa wedi'i drefnu
 calendar-editable-item-reminder-icon-audio =
-    .alt = Mae rhybudd atgoffa wedi'i drefnu
+    .alt = Mae rhybudd atgoffa sain wedi'i drefnu

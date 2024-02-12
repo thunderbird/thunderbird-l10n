@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+## $count (Number) - Number of events selected for deletion.
+
 calendar-delete-event-prompt-title =
     { $count ->
         [zero] Dileu Digwyddiadau
@@ -20,6 +24,10 @@ calendar-delete-event-prompt-message =
         [many] Ydych chi wir eisiau dileu'r { $count } digwyddiad yma?
        *[other] Ydych chi wir eisiau dileu'r { $count } digwyddiad yma?
     }
+
+## Variables:
+## $count (Number) - Number of tasks selected for deletion.
+
 calendar-delete-task-prompt-title =
     { $count ->
         [zero] Dileu Tasgau
@@ -31,13 +39,17 @@ calendar-delete-task-prompt-title =
     }
 calendar-delete-task-prompt-message =
     { $count ->
-        [zero] Ydych chi wir eisiau dileu'r digwyddiadau yma?
-        [one] Ydych chi wir eisiau dileu'r digwyddiad yma?
-        [two] Ydych chi wir eisiau dileu'r { $count } digwyddiad yma?
-        [few] Ydych chi wir eisiau dileu'r { $count } digwyddiad yma?
-        [many] Ydych chi wir eisiau dileu'r { $count } digwyddiad yma?
-       *[other] Ydych chi wir eisiau dileu'r { $count } digwyddiad yma?
+        [zero] Ydych chi wir eisiau dileu'r dasg yma?
+        [one] Ydych chi wir eisiau dileu'r dasg yma?
+        [two] Ydych chi wir eisiau dileu'r { $count } dasg yma?
+        [few] Ydych chi wir eisiau dileu'r { $count } tasg yma?
+        [many] Ydych chi wir eisiau dileu'r { $count } tasg yma?
+       *[other] Ydych chi wir eisiau dileu'r { $count } tasg yma?
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
 calendar-delete-item-prompt-title =
     { $count ->
         [zero] Dileu Eitemau
@@ -56,4 +68,7 @@ calendar-delete-item-prompt-message =
         [many] Ydych chi wir eisiau dileu'r { $count } eitem yma?
        *[other] Ydych chi wir eisiau dileu'r { $count } eitem yma?
     }
+
+##
+
 calendar-delete-prompt-disable-message = Peidiwch gofyn i mi eto

@@ -8,7 +8,7 @@ calendar-event-listing-close =
 ## Listing columns
 
 calendar-event-listing-column-calendar-name =
-    .label = Enw Calendr
+    .label = Enw'r Calendr
     .tooltiptext = Trefnu yn ôl enw calendr
 calendar-event-listing-column-category =
     .label = Categori
@@ -54,7 +54,7 @@ calendar-event-listing-column-title =
 calendar-event-listing-interval-calendar-month =
     .label = Digwyddiadau yn ystod y Mis Calendr yma
 calendar-event-listing-interval-current-view =
-    .label = Digwyddiadau yn y Golwg Gyfredol
+    .label = Digwyddiadau yn y Golwg Cyfredol
 calendar-event-listing-interval-next-7-days =
     .label = Digwyddiadau yn ystod y 7 Diwrnod Nesaf
 calendar-event-listing-interval-next-14-days =
@@ -66,6 +66,6 @@ calendar-event-listing-interval-next-6-months =
 calendar-event-listing-interval-next-12-months =
     .label = Digwyddiadau yn Ystod y 12 Mis Nesaf
 calendar-event-listing-interval-selected-day =
-    .label = Diwrnod Cyfredol wedi'i Ddewis
+    .label = Diwrnod wedi'i Ddewis Cyfredol
 calendar-event-listing-interval-today =
     .label = Digwyddiadau Heddiw

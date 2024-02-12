@@ -521,7 +521,7 @@
 <!ENTITY searchItem.title "Chwilio Cyflym">
 <!ENTITY mailViewsToolbarItem.title "Golwg E-bost">
 <!ENTITY folderLocationToolbarItem.title "Lleoliad Ffolder">
-<!ENTITY tagButton.label "Tag">
+<!ENTITY tagButton.label "Tagio">
 <!ENTITY compactButton.label "Cywasgu">
 <!ENTITY appmenuButton.label "AppMenu">
 
