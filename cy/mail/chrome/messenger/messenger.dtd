@@ -35,7 +35,7 @@
 <!ENTITY newIMContactCmd.label "Cysylltiad Sgwrsio…">
 <!ENTITY newIMContactCmd.accesskey "S">
 <!ENTITY  newMessageCmd2.key "E">
-<!ENTITY  newMessageCmd.key "N">
+<!ENTITY  newMessageCmd.key "M">
 <!ENTITY  newMessageCmd.label "Neges">
 <!ENTITY  newMessageCmd.accesskey "n">
 <!ENTITY  newContactCmd.label "Cysylltiad Llyfr Cyfeiriadau…">
@@ -343,7 +343,7 @@
 <!ENTITY forwardAsAttachmentCmd.accesskey "A">
 <!ENTITY editAsNewMsgCmd.label "Golygu fel Neges Newydd">
 <!ENTITY editAsNewMsgCmd.accesskey "G">
-<!ENTITY editAsNewMsgCmd.key "g">
+<!ENTITY editAsNewMsgCmd.key "e">
 <!ENTITY editDraftMsgCmd.label "Golygu Neges Ddrafft">
 <!ENTITY editDraftMsgCmd.accesskey "D">
 <!ENTITY editTemplateMsgCmd.label "Golygu Templed">
@@ -906,7 +906,7 @@
 <!ENTITY hideThisAppCmdMac.commandkey   "H">
 <!ENTITY hideThisAppCmdMac.modifiers    "accel">
 <!ENTITY hideOtherAppsCmdMac.label      "Cuddio Eraill">
-<!ENTITY hideOtherAppsCmdMac.commandkey "E">
+<!ENTITY hideOtherAppsCmdMac.commandkey "H">
 <!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
 <!ENTITY showAllAppsCmdMac.label        "Dangos y Cyfan">
 
