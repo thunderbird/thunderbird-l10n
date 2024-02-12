@@ -147,11 +147,11 @@ about-addressbook-confirm-delete-lists-title =
 about-addressbook-confirm-delete-lists =
     { $count ->
         [zero] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiadau { $name }?
-        [one] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiad { $name }?
-        [two] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiad { $name }?
-        [few] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiad { $name }?
-        [many] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiad { $name }?
-       *[other] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiad { $name }?
+        [one] Ydych chi'n siŵr eich bod eisiau dileu'r { $name }?
+        [two] Ydych chi'n siŵr eich bod eisiau dileu'r { $count } rhestr yma?
+        [few] Ydych chi'n siŵr eich bod eisiau dileu'r { $count } rhestr yma?
+        [many] Ydych chi'n siŵr eich bod eisiau dileu'r { $count } rhestr yma?
+       *[other] Ydych chi'n siŵr eich bod eisiau dileu'r { $count } rhestr yma?
     }
 # Variables:
 # $count (Number) - The number of contacts to be removed.

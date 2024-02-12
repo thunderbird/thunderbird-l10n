@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-ics-file-window-2 =
-    .title = Mewnforio Digwyddiadau a Thasgau Calendr
 calendar-ics-file-window-title = Mewnforio Digwyddiadau a Thasgau Calendr
 calendar-ics-file-dialog-import-event-button-label = Mewnforio Digwyddiadau
 calendar-ics-file-dialog-import-task-button-label = Mewnforio Tasg
@@ -50,9 +48,9 @@ calendar-ics-file-import-errors =
     { $errorsCount ->
         [zero] Methodd mewnforio dim eitemau.
         [one] Methodd mewnforio un eitem. Gwiriwch y Consol Gwall am fanylion.
-        [two] Methodd mewnforio { $errorCount } eitem. Gwiriwch y Consol Gwall am fanylion.
-        [few] Methodd mewnforio { $errorCount } eitem. Gwiriwch y Consol Gwall am fanylion.
-        [many] Methodd mewnforio { $errorCount } eitem. Gwiriwch y Consol Gwall am fanylion.
-       *[other] Methodd mewnforio { $errorCount } eitem. Gwiriwch y Consol Gwall am fanylion.
+        [two] Methodd mewnforio { $errorsCount } eitem. Gwiriwch y Consol Gwall am fanylion.
+        [few] Methodd mewnforio { $errorsCount } eitem. Gwiriwch y Consol Gwall am fanylion.
+        [many] Methodd mewnforio { $errorsCount } eitem. Gwiriwch y Consol Gwall am fanylion.
+       *[other] Methodd mewnforio { $errorsCount } eitem. Gwiriwch y Consol Gwall am fanylion.
     }
 calendar-ics-file-dialog-no-calendars = Nid oes unrhyw galendrau sy'n gallu mewnforio digwyddiadau neu dasgau.
