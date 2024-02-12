@@ -60,7 +60,7 @@ menu-quit =
     .accesskey =
         { PLATFORM() ->
             [windows] G
-           *[other] a
+           *[other] o
         }
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =

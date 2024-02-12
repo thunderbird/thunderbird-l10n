@@ -210,8 +210,8 @@ context-menu-cancel-msg =
 mail-context-delete-messages =
     .label =
         { $count ->
-            [zero] Dileu'r Negeseuon Hyn
-            [one] Dileu'r Neges Hon
+            [zero] Dim Negeseuon i'w Dileu
+            [one] Dileu Neges
             [two] Dileu'r Negeseuon Hyn
             [few] Dileu'r Negeseuon Hyn
             [many] Dileu'r Negeseuon Hyn
@@ -246,6 +246,9 @@ message-header-recipient-avatar =
     .alt = Llun proffil { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Gosodiadau Pennyn Neges
 message-header-customize-button-style =
@@ -421,7 +424,7 @@ quick-filter-bar-toggle =
     .label = Bar Hidlo Cyflym
     .accesskey = H
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

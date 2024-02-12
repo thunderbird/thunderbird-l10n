@@ -28,6 +28,6 @@ troubleshoot-mode-quit =
         }
     .accesskey =
         { PLATFORM() ->
-            [windows] a
+            [windows] G
            *[other] o
         }

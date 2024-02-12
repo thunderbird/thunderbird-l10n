@@ -94,7 +94,7 @@
 
 <!ENTITY detachedAttachmentFolder.show.label        "Agor Ffolder Cynhwysol">
 <!ENTITY detachedAttachmentFolder.show.accesskey    "F">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Dangos yn y Canfyddwr">
+<!ENTITY detachedAttachmentFolder.showMac.label     "Dangos yn Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "C">
 
 <!-- Attachment toolbar items -->
