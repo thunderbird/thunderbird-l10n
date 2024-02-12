@@ -101,7 +101,7 @@
      sortAttachmentsPanelBtn.SortSelection.ZA.label, except for the sort direction. -->
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.AZ.label "Trefnu'r Dewis: A - Z">
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.ZA.label "Trefnu'r Dewis: Z - A">
-<!ENTITY sortAttachmentsPanelBtn.key "t">
+<!ENTITY sortAttachmentsPanelBtn.key "y">
 
 <!-- View Menu -->
 <!ENTITY viewMenu.label "Golwg">

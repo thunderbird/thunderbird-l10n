@@ -69,7 +69,7 @@ menu-quit-mac =
 # does not include this key, as it determines the keyboard shortcut for
 # shutting down the application.
 quit-app-shortcut =
-    .key = G
+    .key = Q
 
 ## Mail Toolbar
 

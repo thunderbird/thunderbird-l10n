@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 close-shortcut =
-    .key = f
+    .key = w
 # Variables:
 #   $title (String): the title of the popup window
 extension-popup-title =

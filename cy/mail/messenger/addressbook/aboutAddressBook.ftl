@@ -82,40 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = Trefnu yn ôl cyfeiriad e-bost (A > Z)
 about-addressbook-sort-email-descending =
     .label = Trefnu yn ôl cyfeiriad e-bost (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Newid i gynllun llorweddol
-about-addressbook-vertical-layout =
-    .label = Newid i gynllun llorweddol
 about-addressbook-table-layout =
     .label = Cynllun tabl
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Enw
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Cyfeiriadau E-bost
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Rhifau Ffôn
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Cyfeiriadau
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Teitl
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Adran
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Corff
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Llyfr Cyfeiriadau
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Enw
     .title = Trefnu yn ôl enwau
 about-addressbook-column-label-generatedname2 =
@@ -174,7 +146,7 @@ about-addressbook-confirm-delete-lists-title =
 # $name (String) - The name of the list to be deleted, if $count is 1.
 about-addressbook-confirm-delete-lists =
     { $count ->
-        [zero] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiad { $name }?
+        [zero] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiadau { $name }?
         [one] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiad { $name }?
         [two] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiad { $name }?
         [few] Ydych chi'n siŵr eich bod eisiau dileu'r cysylltiad { $name }?
@@ -191,19 +163,6 @@ about-addressbook-confirm-remove-contacts-title =
         [few] Tynnu Cysylltiad
         [many] Tynnu Cysylltiad
        *[other] Tynnu Cysylltiad
-    }
-# Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [zero] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-        [one] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-        [two] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-        [few] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-        [many] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
-       *[other] Ydych chi'n siŵr eich bod eisiau tynnu'r cysylltiad { $name } o { $list }?
     }
 # Variables:
 # $name (String) - The name of the contact to be removed.
@@ -233,18 +192,6 @@ about-addressbook-confirm-delete-contacts-title =
        *[other] Dileu Cysylltiad
     }
 # Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [zero] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
-        [one] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
-        [two] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
-        [few] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
-        [many] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
-       *[other] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
-    }
-# Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Ydych chi'n siŵr eich bod am ddileu'r cyswllt { $name }?
 # Variables:
@@ -270,15 +217,6 @@ about-addressbook-placeholder-no-search-results = Heb ganfod cysylltiadau
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = Mae { $count } o gysylltiadau a rhestrau wedi'u dewis
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = Mae { $count } cysylltiad wedi'u dewis
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = Mae { $count } rhestr wedi'u dewis
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =

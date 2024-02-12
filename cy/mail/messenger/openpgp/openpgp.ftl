@@ -150,8 +150,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Copïo Allwedd Gyhoeddus I'r Clipfwrdd
         }
     .accesskey = A
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Allforio Allweddi i Ffeil
 openpgp-key-man-ctx-copy =
     .label = Copïo
     .accesskey = C
@@ -249,7 +247,7 @@ openpgp-key-man-please-wait-tooltip =
 openpgp-key-man-filter-label =
     .placeholder = Chwilio am allweddi
 openpgp-key-man-select-all-key =
-    .key = P
+    .key = A
 openpgp-key-man-key-details-key =
     .key = I
 openpgp-ign-addr-intro = Rydych yn derbyn defnyddio'r allwedd hon ar gyfer y cyfeiriadau e-bost dethol canlynol:
