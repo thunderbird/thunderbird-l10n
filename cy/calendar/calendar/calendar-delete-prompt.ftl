@@ -39,12 +39,12 @@ calendar-delete-task-prompt-title =
     }
 calendar-delete-task-prompt-message =
     { $count ->
-        [zero] Ydych chi wir eisiau dileu'r dasg yma?
-        [one] Ydych chi wir eisiau dileu'r dasg yma?
-        [two] Ydych chi wir eisiau dileu'r { $count } dasg yma?
-        [few] Ydych chi wir eisiau dileu'r { $count } tasg yma?
-        [many] Ydych chi wir eisiau dileu'r { $count } tasg yma?
-       *[other] Ydych chi wir eisiau dileu'r { $count } tasg yma?
+        [zero] Ydych chi wir eisiau dileu'r tasgau hyn?
+        [one] Ydych chi wir eisiau dileu'r dasg hon?
+        [two] Ydych chi wir eisiau dileu'r { $count } dasg hyn?
+        [few] Ydych chi wir eisiau dileu'r { $count } tasg hyn?
+        [many] Ydych chi wir eisiau dileu'r { $count } thasg hyn?
+       *[other] Ydych chi wir eisiau dileu'r { $count } tasg hyn?
     }
 
 ## Variables:
