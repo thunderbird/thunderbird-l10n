@@ -35,8 +35,8 @@
 <!ENTITY calendar.unifinder.tree.location.label            "Месца">
 <!ENTITY calendar.unifinder.tree.status.label              "Статус">
 <!ENTITY calendar.unifinder.tree.calendarname.label        "Назва календара">
+<!ENTITY calendar.unifinder.close.tooltip                  "Закрыць пошук і спіс падзей">
 
-<!ENTITY calendar.today.button.tooltip          "Перайсці да сёння" >
 
 <!ENTITY calendar.newevent.button.label         "Новая падзея" >
 <!ENTITY calendar.newtask.button.label          "Новая задача" >
@@ -44,6 +44,7 @@
 <!ENTITY calendar.onlyworkday.checkbox.label    "Толькі працоўныя дні" >
 
 
+<!ENTITY calendar.search.options.searchfor " змяшчаюць">
 
 <!ENTITY calendar.list.header.label                 "Каляндар">
 
@@ -67,6 +68,8 @@
 
 <!-- Context Menu -->
 <!ENTITY calendar.context.modifyorviewitem.label      "Адкрыць">
+<!ENTITY calendar.context.newevent.label              "Новая падзея…">
+<!ENTITY calendar.context.newtodo.label               "Новая задача…">
 <!ENTITY calendar.context.deletetask.label            "Выдаліць задачу">
 <!ENTITY calendar.context.deleteevent.label           "Выдаліць падзею">
 <!ENTITY calendar.context.pasteevent.label            "Уставіць">
@@ -75,6 +78,7 @@
 
 
 <!-- Task Context Menu -->
+<!ENTITY calendar.context.postpone.label              "Адкласці задачу">
 
 <!--=percent sign-->
 
@@ -119,6 +123,11 @@
 
 
 
+<!ENTITY calendar.alarm.snooze.5minutes.label       "5 хвілін" >
+<!ENTITY calendar.alarm.snooze.10minutes.label      "10 хвілін" >
+<!ENTITY calendar.alarm.snooze.15minutes.label      "15 хвілін" >
+<!ENTITY calendar.alarm.snooze.30minutes.label      "30 хвілін" >
+<!ENTITY calendar.alarm.snooze.45minutes.label      "45 хвілін" >
 
 <!-- LOCALIZATION NOTE (calendar.alarm.snooze.cancel)
      This string is not seen in the UI, it is read by screen readers when the
