@@ -19,6 +19,12 @@ calendar-event-listing-column-location =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-next-7-days =
+    .label = Падзеі наступных 7 дзён
+calendar-event-listing-interval-next-14-days =
+    .label = Падзеі наступных 14 дзён
+calendar-event-listing-interval-next-31-days =
+    .label = Падзеі наступнага 31 дня
 calendar-event-listing-interval-selected-day =
     .label = Зараз выбраны дзень
 calendar-event-listing-interval-today =
