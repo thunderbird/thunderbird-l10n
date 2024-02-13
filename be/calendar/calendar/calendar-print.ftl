@@ -4,6 +4,10 @@
 
 calendar-print-layout-list = Спіс
 calendar-print-layout-month-grid = Сетка месяца
+calendar-print-filter-label = Што друкаваць
+calendar-print-filter-events = Падзеі
+calendar-print-filter-tasks = Задачы
+calendar-print-filter-completedtasks = Выкананыя задачы
 calendar-print-range-from = Ад
 calendar-print-range-to = Да
 calendar-print-back-button = Назад
