@@ -63,12 +63,17 @@
 
 <!ENTITY calendar.task-details.priority.label        "прыярытэт">
 <!ENTITY calendar.task-details.priority.low.label    "Нізкі">
-<!ENTITY calendar.task-details.category.label        "Катэгорыя:">
+<!ENTITY calendar.task-details.priority.normal.label "Звычайны">
+<!ENTITY calendar.task-details.priority.high.label   "Высокі">
+<!ENTITY calendar.task-details.status.label          "статус">
+<!ENTITY calendar.task-details.category.label        "катэгорыя">
 
+<!ENTITY calendar.task.priority.button.tooltip  "Змяніць прыярытэт">
 
 
 <!-- Context Menu -->
 <!ENTITY calendar.context.modifyorviewitem.label      "Адкрыць">
+<!ENTITY calendar.context.modifyorviewtask.label      "Адкрыць задачу…">
 <!ENTITY calendar.context.newevent.label              "Новая падзея…">
 <!ENTITY calendar.context.newtodo.label               "Новая задача…">
 <!ENTITY calendar.context.deletetask.label            "Выдаліць задачу">
@@ -121,6 +126,10 @@
      This is the access key used for the showOnlyCalendar string -->
 <!ENTITY calendar.context.showall.label                "Паказаць усе календары">
 
+<!ENTITY calendar.context.convertmenu.label              "Пераўтварыць у">
+<!ENTITY calendar.context.convertmenu.event.label        "Падзею…">
+<!ENTITY calendar.context.convertmenu.message.label      "Паведамленне…">
+<!ENTITY calendar.context.convertmenu.task.label         "Задачу…">
 
 
 
@@ -134,6 +143,9 @@
 <!ENTITY calendar.alarm.snooze.15minutes.label      "15 хвілін" >
 <!ENTITY calendar.alarm.snooze.30minutes.label      "30 хвілін" >
 <!ENTITY calendar.alarm.snooze.45minutes.label      "45 хвілін" >
+<!ENTITY calendar.alarm.snooze.1hour.label          "1 гадзіну" >
+<!ENTITY calendar.alarm.snooze.2hours.label         "2 гадзіны" >
+<!ENTITY calendar.alarm.snooze.1day.label           "1 дзень" >
 
 <!-- LOCALIZATION NOTE (calendar.alarm.snooze.cancel)
      This string is not seen in the UI, it is read by screen readers when the
