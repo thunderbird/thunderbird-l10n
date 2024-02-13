@@ -13,9 +13,9 @@
       is the general action of removing it, while deleting means to clear the
       data and unsubscribing means just taking it out of the calendar list. -->
 
+<!ENTITY showUnifinderCmd.label                 "Знайсці падзеі">
 
-
-
+<!ENTITY calendar.displaytodos.checkbox.label       "Паказваць задачы ў календары">
 
 <!ENTITY goTodayCmd.label                       "Сёння">
 <!ENTITY goTodayCmd.accesskey                   "С">
