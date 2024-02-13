@@ -6,6 +6,9 @@
 ## Side panel
 
 calendar-list-header = Календары
+calendar-enable-button = Уключыць
+calendar-new-event-primary-button = Новая падзея
+calendar-new-task-primary-button = Новая задача
 
 ## Calendar navigation
 
@@ -44,6 +47,14 @@ calendar-today-button-tooltip =
 
 ## Menu on calendar control bar
 
+calendar-find-events-menu-option =
+    .label = Панэль пошуку падзей
+calendar-hide-weekends-option =
+    .label = Толькі працоўныя дні
+calendar-define-workweek-option =
+    .label = Вызначыць працоўныя дні
+calendar-show-tasks-calendar-option =
+    .label = Паказваць задачы ў календары
 
 ## Calendar Context Menu
 
