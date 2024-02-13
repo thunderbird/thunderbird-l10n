@@ -140,6 +140,7 @@
 
 <!-- Calendar Properties -->
 <!ENTITY calendarproperties.color.label                    "Колер:">
+<!ENTITY calendarproperties.caldav.label                   "CalDAV">
 <!ENTITY calendarproperties.firealarms.label               "Паказваць напаміны">
 <!ENTITY calendarproperties.enabled2.label                 "Уключыць гэты каляндар">
 
