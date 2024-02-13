@@ -53,6 +53,8 @@
 <!ENTITY calendar.task.filter.all.accesskey         "У">
 <!ENTITY calendar.task.filter.today.label           "Сёння">
 <!ENTITY calendar.task.filter.today.accesskey       "С">
+<!ENTITY calendar.task.filter.notstarted.label      "Непачатыя задачы">
+<!ENTITY calendar.task.filter.overdue.label         "Пратэрмінаваныя задачы">
 
 <!-- LOCALIZATION NOTE(calendar.task.filter.current.label)
      "Current Tasks" will show all tasks, except those with a start date set
@@ -84,6 +86,8 @@
 
 
 
+<!ENTITY calendar.context.attendance.all.accepted.label         "Прынята">
+<!ENTITY calendar.context.attendance.all.declined.label         "Адхілена">
 
 <!-- Task Context Menu -->
 <!ENTITY calendar.context.priority.label              "Прыярытэт">
@@ -160,6 +164,7 @@
 <!-- Calendar Properties -->
 <!ENTITY calendarproperties.color.label                    "Колер:">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
+<!ENTITY calendarproperties.refreshInterval.label          "Абнаўляць каляндар:">
 <!ENTITY calendarproperties.refreshInterval.manual.label   "Уручную">
 <!ENTITY calendarproperties.firealarms.label               "Паказваць напаміны">
 <!ENTITY calendarproperties.enabled2.label                 "Уключыць гэты каляндар">
@@ -173,6 +178,8 @@
 <!-- Select Calendar Dialog -->
 
 <!-- Error reporting -->
+<!ENTITY calendar.error.detail "Падрабязнасці…">
+<!ENTITY calendar.error.code "Код памылкі:">
 <!ENTITY calendar.error.description "Апісанне:">
 
 <!-- Extract buttons in message header -->
