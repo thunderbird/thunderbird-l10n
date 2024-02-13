@@ -25,6 +25,7 @@
 <!ENTITY calendar.unifinder.tree.done.label                "Гатова">
 <!ENTITY calendar.unifinder.tree.priority.label            "Прыярытэт">
 <!ENTITY calendar.unifinder.tree.categories.label          "Катэгорыя">
+<!ENTITY calendar.unifinder.tree.location.label            "Месца">
 <!ENTITY calendar.unifinder.tree.calendarname.label        "Назва календара">
 
 <!ENTITY calendar.today.button.tooltip          "Перайсці да сёння" >
