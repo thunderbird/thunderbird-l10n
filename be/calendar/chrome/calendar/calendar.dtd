@@ -18,12 +18,17 @@
 <!ENTITY calendar.events.filter.today.label "Сённяшнія падзеі">
 <!ENTITY calendar.events.filter.future.label "Усе будучыя падзеі">
 <!ENTITY calendar.events.filter.current.label "Зараз выбраны дзень">
+<!ENTITY calendar.events.filter.next7Days.label "Падзеі наступных 7 дзён">
+<!ENTITY calendar.events.filter.next14Days.label "Падзеі наступных 14 дзён">
+<!ENTITY calendar.events.filter.next31Days.label "Падзеі наступнага 31 дня">
+<!ENTITY calendar.events.filter.thisCalendarMonth.label "Падзеі гэтага каляндарнага месяца">
 
 <!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
    - This label and tooltip is used for the column with the checkbox in the
    - task tree view. -->
 <!ENTITY calendar.unifinder.tree.done.label                "Гатова">
 <!ENTITY calendar.unifinder.tree.priority.label            "Прыярытэт">
+<!ENTITY calendar.unifinder.tree.title.label               "Назва">
 <!ENTITY calendar.unifinder.tree.categories.label          "Катэгорыя">
 <!ENTITY calendar.unifinder.tree.location.label            "Месца">
 <!ENTITY calendar.unifinder.tree.calendarname.label        "Назва календара">
@@ -52,6 +57,7 @@
      before today (or the selected date, whichever is later). -->
 <!ENTITY calendar.task.filter.current.label         "Бягучыя задачы">
 
+<!ENTITY calendar.task-details.priority.label        "прыярытэт">
 <!ENTITY calendar.task-details.category.label        "Катэгорыя:">
 
 
@@ -71,6 +77,9 @@
 
 
 
+<!ENTITY calendar.context.postpone.1hour.label      "1 гадзіна">
+<!ENTITY calendar.context.postpone.1day.label       "1 дзень">
+<!ENTITY calendar.context.postpone.1week.label      "1 тыдзень">
 
 
 <!-- Task View -->
@@ -79,6 +88,8 @@
 <!ENTITY calendar.taskview.delete.label     "Выдаліць">
 
 <!-- Server Context Menu -->
+<!ENTITY calendar.context.newserver.label              "Новы каляндар…">
+<!ENTITY calendar.context.findcalendar.label           "Знайсці каляндар…" >
 
 <!-- LOCALIZATION NOTE (calendar.context.removeserver.label): Removing the
       calendar is the general action of removing it, while deleting means to
@@ -111,6 +122,7 @@
      dialog. -->
 
 <!-- Calendar Server Dialog -->
+<!ENTITY calendar.server.dialog.title.edit          "Рэдагаваць каляндар">
 <!ENTITY calendar.server.dialog.name.label          "Назва календара:">
 
 <!-- Calendar Properties -->
@@ -125,3 +137,5 @@
 <!ENTITY calendar.error.description "Апісанне:">
 
 <!-- Extract buttons in message header -->
+<!ENTITY calendar.extract.event.button         "Дадаць як падзею">
+<!ENTITY calendar.extract.task.button          "Дадаць як задачу">
