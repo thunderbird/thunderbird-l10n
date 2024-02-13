@@ -21,3 +21,5 @@ calendar-event-listing-column-location =
 
 calendar-event-listing-interval-selected-day =
     .label = Зараз выбраны дзень
+calendar-event-listing-interval-today =
+    .label = Сённяшнія падзеі
