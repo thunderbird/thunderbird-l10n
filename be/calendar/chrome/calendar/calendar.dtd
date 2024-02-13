@@ -87,7 +87,6 @@
 
 
 <!ENTITY calendar.context.attendance.all.accepted.label         "Прынята">
-<!ENTITY calendar.context.attendance.all.declined.label         "Адхілена">
 
 <!-- Task Context Menu -->
 <!ENTITY calendar.context.priority.label              "Прыярытэт">
@@ -119,6 +118,8 @@
       clear the data and unsubscribing means just taking it out of the calendar
       list. -->
 <!ENTITY calendar.context.removeserver.label           "Выдаліць каляндар…">
+<!ENTITY calendar.context.publish.label                "Апублікаваць каляндар…">
+<!ENTITY calendar.context.export.label                 "Экспартаваць каляндар…">
 <!ENTITY calendar.context.properties.label             "Уласцівасці">
 
 <!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
@@ -141,6 +142,7 @@
 
 <!-- Calendar Alarm Dialog -->
 
+<!ENTITY calendar.alarm.details.label               "Падрабязнасці…" >
 
 
 <!ENTITY calendar.alarm.snooze.5minutes.label       "5 хвілін" >
