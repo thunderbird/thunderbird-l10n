@@ -29,8 +29,11 @@
 <!ENTITY calendar.unifinder.tree.done.label                "Гатова">
 <!ENTITY calendar.unifinder.tree.priority.label            "Прыярытэт">
 <!ENTITY calendar.unifinder.tree.title.label               "Назва">
+<!ENTITY calendar.unifinder.tree.startdate.label           "Пачатак">
+<!ENTITY calendar.unifinder.tree.duedate.label             "Тэрмін">
 <!ENTITY calendar.unifinder.tree.categories.label          "Катэгорыя">
 <!ENTITY calendar.unifinder.tree.location.label            "Месца">
+<!ENTITY calendar.unifinder.tree.status.label              "Статус">
 <!ENTITY calendar.unifinder.tree.calendarname.label        "Назва календара">
 
 <!ENTITY calendar.today.button.tooltip          "Перайсці да сёння" >
@@ -63,6 +66,7 @@
 
 
 <!-- Context Menu -->
+<!ENTITY calendar.context.modifyorviewitem.label      "Адкрыць">
 <!ENTITY calendar.context.deletetask.label            "Выдаліць задачу">
 <!ENTITY calendar.context.deleteevent.label           "Выдаліць падзею">
 <!ENTITY calendar.context.pasteevent.label            "Уставіць">
@@ -127,6 +131,8 @@
 
 <!-- Calendar Properties -->
 <!ENTITY calendarproperties.color.label                    "Колер:">
+<!ENTITY calendarproperties.firealarms.label               "Паказваць напаміны">
+<!ENTITY calendarproperties.enabled2.label                 "Уключыць гэты каляндар">
 
 <!-- Calendar Publish Dialog -->
 <!ENTITY calendar.publish.close.button      "Закрыць">
