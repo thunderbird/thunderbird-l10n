@@ -43,6 +43,7 @@
 <!ENTITY calendar.newtask.button.label          "Новая задача" >
 
 <!ENTITY calendar.onlyworkday.checkbox.label    "Толькі працоўныя дні" >
+<!ENTITY calendar.completedtasks.checkbox.label     "Паказаць выкананыя задачы" >
 
 
 <!ENTITY calendar.search.options.searchfor " змяшчаюць">
@@ -54,6 +55,7 @@
 <!ENTITY calendar.task.filter.all.accesskey         "У">
 <!ENTITY calendar.task.filter.today.label           "Сёння">
 <!ENTITY calendar.task.filter.today.accesskey       "С">
+<!ENTITY calendar.task.filter.next7days.label       "Наступныя сем дзён">
 <!ENTITY calendar.task.filter.notstarted.label      "Непачатыя задачы">
 <!ENTITY calendar.task.filter.overdue.label         "Пратэрмінаваныя задачы">
 <!ENTITY calendar.task.filter.completed.label       "Выкананыя задачы">
@@ -75,6 +77,7 @@
 
 <!ENTITY calendar.task.priority.button.tooltip  "Змяніць прыярытэт">
 
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Ctrl+Shift+K&gt;">
 
 <!-- Context Menu -->
 <!ENTITY calendar.context.modifyorviewitem.label      "Адкрыць">
@@ -88,6 +91,7 @@
 <!ENTITY calendar.context.pasteevent.label            "Уставіць">
 
 
+<!ENTITY calendar.context.attendance.occ.accepted.label         "Прынята">
 
 <!ENTITY calendar.context.attendance.all.accepted.label         "Прынята">
 
@@ -121,6 +125,7 @@
       clear the data and unsubscribing means just taking it out of the calendar
       list. -->
 <!ENTITY calendar.context.removeserver.label           "Выдаліць каляндар…">
+<!ENTITY calendar.context.unsubscribeserver.label      "Адпісацца ад календара…">
 <!ENTITY calendar.context.publish.label                "Апублікаваць каляндар…">
 <!ENTITY calendar.context.export.label                 "Экспартаваць каляндар…">
 <!ENTITY calendar.context.properties.label             "Уласцівасці">
@@ -141,12 +146,14 @@
 <!ENTITY calendar.context.convertmenu.task.label         "Задачу…">
 
 
+<!ENTITY calendar.tasks.view.calendarlist.label        "Спіс календароў">
 
 
 <!-- Calendar Alarm Dialog -->
 
 <!ENTITY calendar.alarm.details.label               "Падрабязнасці…" >
 
+<!ENTITY calendar.alarm.title.label                 "Напаміны календара" >
 
 <!ENTITY calendar.alarm.snooze.5minutes.label       "5 хвілін" >
 <!ENTITY calendar.alarm.snooze.10minutes.label      "10 хвілін" >
@@ -186,6 +193,7 @@
 <!ENTITY calendar.error.detail "Падрабязнасці…">
 <!ENTITY calendar.error.code "Код памылкі:">
 <!ENTITY calendar.error.description "Апісанне:">
+<!ENTITY calendar.error.title "Узнікла памылка">
 
 <!-- Extract buttons in message header -->
 <!ENTITY calendar.extract.event.button         "Дадаць як падзею">
