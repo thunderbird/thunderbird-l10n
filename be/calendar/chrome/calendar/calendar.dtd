@@ -9,7 +9,7 @@
 <!ENTITY calendar.newevent.button.tooltip         "Стварыць новую падзею" >
 <!ENTITY calendar.newtask.button.tooltip          "Стварыць новую задачу" >
 
-<!ENTITY calendar.unifinder.showcompletedtodos.label "Паказаць завершаныя задачы">
+<!ENTITY calendar.unifinder.showcompletedtodos.label "Паказаць выкананыя задачы">
 
 <!ENTITY calendar.today.button.label          "Сёння">
 <!ENTITY calendar.tomorrow.button.label       "Заўтра">
@@ -31,6 +31,7 @@
 <!ENTITY calendar.unifinder.tree.title.label               "Назва">
 <!ENTITY calendar.unifinder.tree.startdate.label           "Пачатак">
 <!ENTITY calendar.unifinder.tree.duedate.label             "Тэрмін">
+<!ENTITY calendar.unifinder.tree.completeddate.label       "Выканана">
 <!ENTITY calendar.unifinder.tree.categories.label          "Катэгорыя">
 <!ENTITY calendar.unifinder.tree.location.label            "Месца">
 <!ENTITY calendar.unifinder.tree.status.label              "Статус">
@@ -55,6 +56,8 @@
 <!ENTITY calendar.task.filter.today.accesskey       "С">
 <!ENTITY calendar.task.filter.notstarted.label      "Непачатыя задачы">
 <!ENTITY calendar.task.filter.overdue.label         "Пратэрмінаваныя задачы">
+<!ENTITY calendar.task.filter.completed.label       "Выкананыя задачы">
+<!ENTITY calendar.task.filter.open.label            "Нявыкананыя задачы">
 
 <!-- LOCALIZATION NOTE(calendar.task.filter.current.label)
      "Current Tasks" will show all tasks, except those with a start date set
