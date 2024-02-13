@@ -7,3 +7,5 @@ calendar-summary-dialog-edit-button =
     .accesskey = Р
 calendar-summary-dialog-edit-menu-button =
     .label = Рэдагаваць
+description-context-menu-copy-link-text =
+    .label = Капіяваць тэкст спасылкі

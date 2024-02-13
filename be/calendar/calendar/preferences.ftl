@@ -4,7 +4,7 @@
 
 calendar-title = Каляндар
 calendar-title-reminder = Напаміны
-calendar-title-notification = Абвесткі
+calendar-title-notification = Апавяшчэнні
 calendar-title-category = Катэгорыі
 dateformat-label =
     .value = Тэкставы фармат даты:
@@ -32,6 +32,9 @@ day-7-name =
     .label = Субота
 workdays-label =
     .value = Працоўныя дні:
+visible-hours-label =
+    .value = Паказваць:
+    .accesskey = П
 midnight-label =
     .label = Поўнач
 noon-label =
