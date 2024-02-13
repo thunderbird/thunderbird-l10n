@@ -7,4 +7,4 @@ calendar-invitation-current-participation-status-icon-accepted =
 calendar-invitation-current-participation-status-icon-declined =
     .alt = Wedi'i gwrthod ar hyn o bryd
 calendar-invitation-current-participation-status-icon-needs-action =
-    .alt = Heb benderfynnu ar hyn o bryd
+    .alt = Heb benderfynu ar hyn o bryd
