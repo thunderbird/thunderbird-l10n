@@ -2,9 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title "Правіла сіта">
-<!ENTITY filterName.label "Назва сіта:">
-<!ENTITY filterName.accesskey "і">
+<!ENTITY window.title "Правілы фільтравання">
+<!ENTITY filterName.label "Імя фільтра:">
 
 <!ENTITY junk.label "Лухта">
 <!ENTITY notJunk.label "Не лухта">
@@ -15,7 +14,7 @@
 <!ENTITY highPriorityCmd.label "Высокі">
 <!ENTITY highestPriorityCmd.label "Найвышэйшы">
 
-<!ENTITY contextDesc.label "Ужываць сіта пры:">
+<!ENTITY contextDesc.label "Ужываць фільтр пры:">
 <!ENTITY contextIncomingMail.label "Атрыманне новай пошты:">
 <!ENTITY contextIncomingMail.accesskey "А">
 <!ENTITY contextManual.label "Ручным выкананні">
@@ -50,10 +49,10 @@
 <!ENTITY ignoreThread.label "Ігнараваць нізку">
 <!ENTITY ignoreSubthread.label "Ігнараваць паднізку">
 <!ENTITY watchThread.label "Сачыць за нізкай">
-<!ENTITY stopExecution.label "Спыніць выкананне сіта">
+<!ENTITY stopExecution.label "Спыніць выкананне фільтра">
 
 <!ENTITY addAction.tooltip "Дадаць новае дзеянне">
-<!ENTITY removeAction.tooltip "Выдаліць гэтае дзеянне">
+<!ENTITY removeAction.tooltip "Выдаліць гэта дзеянне">
 
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
@@ -61,5 +60,5 @@
      are truncated in the widgets.
   -->
 <!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
-<!ENTITY filterActionTypeFlexValue "3">
-<!ENTITY filterActionTargetFlexValue "6">
+<!ENTITY filterActionTypeFlexValue "1">
+<!ENTITY filterActionTargetFlexValue "4">
