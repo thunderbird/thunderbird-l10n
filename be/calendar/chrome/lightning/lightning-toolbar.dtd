@@ -2,17 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
-<!ENTITY lightning.toolbar.gototoday.label "Сёння">
-<!ENTITY lightning.toolbar.gototoday.tooltip "Перайсці да сёння">
-
 <!-- Mode Toolbar -->
 <!ENTITY lightning.toolbar.calendar.label     "Каляндар">
-
-<!-- Toolbar write button -->
+<!ENTITY lightning.toolbar.task.label         "Задачы">
 
 <!-- Calendar and Task Mode Toolbar -->
+<!ENTITY lightning.toolbar.day.label                 "Дзень">
+<!ENTITY lightning.toolbar.week.label                "Тыдзень">
 <!ENTITY lightning.toolbar.month.label               "Месяц">
 <!ENTITY lightning.toolbar.month.accesskey           "М">
-<!-- LOCALIZATION NOTE: the same as appmenuButton.label and appmenuButton1.tooltip
-     from messenger.dtd -->

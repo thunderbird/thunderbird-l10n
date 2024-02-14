@@ -3,15 +3,21 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Event Menu -->
+<!ENTITY event.new.event                        "Новая падзея…">
+
+<!ENTITY event.new.task                         "Новая задача…">
+
+<!ENTITY calendar.import.label                  "Імпарт…">
+
+<!ENTITY calendar.export.label                  "Экспарт…">
 
 
-
-
-
+<!ENTITY calendar.unsubscribecalendar.label     "Адпісацца ад выбранага календара…">
 
 <!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
       is the general action of removing it, while deleting means to clear the
       data and unsubscribing means just taking it out of the calendar list. -->
+<!ENTITY calendar.removecalendar.label          "Выдаліць выбраны каляндар…">
 
 <!ENTITY showUnifinderCmd.label                 "Знайсці падзеі">
 
@@ -21,3 +27,4 @@
 <!ENTITY goTodayCmd.accesskey                   "С">
 
 
+<!ENTITY calendar.properties.label              "Уласцівасці календара…">
