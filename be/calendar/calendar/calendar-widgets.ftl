@@ -9,6 +9,8 @@ calendar-deactivated-notification-tasks = У дадзены момант усе 
 
 calendar-list-header = Календары
 calendar-enable-button = Уключыць
+calendar-refresh-calendars =
+    .title = Перазагрузіць усе календары і сінхранізаваць змены
 calendar-new-event-primary-button = Новая падзея
 calendar-new-task-primary-button = Новая задача
 

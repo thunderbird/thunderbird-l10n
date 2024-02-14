@@ -64,6 +64,7 @@ week-1-label =
     .label = 1 тыдзень
 week-2-label =
     .label = 2 тыдні
+event-task-legend = Падзеі і задачы
 task-start-4-label =
     .label = Заўтра
 task-start-5-label =
