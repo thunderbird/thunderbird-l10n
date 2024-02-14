@@ -83,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "מחק הודעה">
-<!ENTITY deleteMsgCmd.accesskey "ח">
-<!ENTITY undeleteMsgCmd.label "בטל מחיקת הודעה">
-<!ENTITY undeleteMsgCmd.accesskey "ב">
-<!ENTITY deleteMsgsCmd.label "מחק הודעות נבחרות">
-<!ENTITY deleteMsgsCmd.accesskey "נ">
-<!ENTITY undeleteMsgsCmd.label "בטל מחיקת הודעות נבחרות">
-<!ENTITY undeleteMsgsCmd.accesskey "ב">
-<!ENTITY deleteFolderCmd.label "מחיקת תיקייה">
-<!ENTITY deleteFolderCmd.accesskey "ת">
-<!ENTITY unsubscribeNewsgroupCmd.label "בטל מנוי">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "מ">
 <!ENTITY selectMenu.label "בחר">
 <!ENTITY selectMenu.accesskey "ב">
 <!ENTITY all.label "הכול">
@@ -106,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "מ">
 <!ENTITY menuFavoriteFolder.label "תיקייה מועדפת">
 <!ENTITY menuFavoriteFolder.accesskey "ע">
-<!ENTITY folderPropsCmd2.label "מאפיינים">
-<!ENTITY folderPropsFolderCmd2.label "מאפייני תיקייה">
-<!ENTITY folderPropsNewsgroupCmd2.label "מאפייני קבוצת חדשות">
-<!ENTITY folderPropsCmd.accesskey "א">
 <!ENTITY undoDeleteMsgCmd.label "בטל מחיקת הודעה">
 <!ENTITY redoDeleteMsgCmd.label "בצע שוב מחיקת הודעה">
 <!ENTITY undoMoveMsgCmd.label "בטל העברת הודעה">
@@ -141,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "א">
 <!ENTITY showFolderPaneCmd.label "לוח תיקיות">
 <!ENTITY showFolderPaneCmd.accesskey "ת">
-<!ENTITY showFolderPaneColsCmd.label "עמודות חלונית תיקיות">
-<!ENTITY showFolderPaneColsCmd.accesskey "ח">
 <!ENTITY showMessageCmd.label "חלונית הודעה">
 <!ENTITY showMessageCmd.accesskey "ה">
 
@@ -579,10 +561,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "הודעה חדשה">
 <!ENTITY appmenuNewContactCmd.label "איש קשר בפנקס הכתובות…">
-<!ENTITY appmenuEditMenu.label "עריכה">
 <!ENTITY appmenuToolbarLayout.label "פריסת סרגל כלים…">
-<!ENTITY appmenuSelectThread.label "בחירת נושא דיון">
-<!ENTITY appmenuSelectFlagged.label "בחירת הודעות שסומנו בכוכבית">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "תווית חדשה…">
@@ -692,7 +671,7 @@
 <!ENTITY totalColumn2.tooltip "סך כל ההודעות בנושא דיון">
 <!ENTITY readColumn2.tooltip "מיון לפי מצב קריאה">
 <!ENTITY receivedColumn2.tooltip "מיון לפי תאריך הקבלה">
-<!ENTITY starredColumn2.tooltip "מיון פי כוכבית">
+<!ENTITY starredColumn2.tooltip "מיון לפי כוכבית">
 <!ENTITY locationColumn2.tooltip "מיון לפי מיקום">
 <!ENTITY idColumn2.tooltip "מיון לפי סדר הקבלה">
 <!ENTITY attachmentColumn2.tooltip "מיון לפי קבצים מצורפים">
@@ -870,10 +849,6 @@
 <!ENTITY copyImageAllCmd.accesskey "ת">
 <!ENTITY copyEmailCmd.label "העתקת כתובת דוא״ל">
 <!ENTITY copyEmailCmd.accesskey "ד">
-<!ENTITY stopCmd.label "עצירה">
-<!ENTITY stopCmd.accesskey "ע">
-<!ENTITY reloadCmd.label "טעינה מחדש">
-<!ENTITY reloadCmd.accesskey "ט">
 <!ENTITY openInBrowser.label "פתיחה בדפדפן">
 <!ENTITY openInBrowser.accesskey "פ">
 <!ENTITY openLinkInBrowser.label "פתיחת קישור בדפדפן">
@@ -907,4 +882,3 @@
 <!ENTITY openAddressBookDock.label      "פתיחת פנקס כתובות">
 
 <!-- Content tab Navigation buttons -->
-
