@@ -13,8 +13,25 @@ calendar-event-listing-column-calendar-name =
 calendar-event-listing-column-category =
     .label = Катэгорыя
     .tooltiptext = { "" }
+# This label and tooltip is used for the column with the checkbox in the task
+# tree view, which indicates whether a task has been marked as completed.
+calendar-event-listing-column-completed =
+    .label = Гатова
+    .tooltiptext = { "" }
+calendar-event-listing-column-completed-date =
+    .label = Выканана
+    .tooltiptext = { "" }
+calendar-event-listing-column-due-date =
+    .label = Тэрмін
+    .tooltiptext = { "" }
 calendar-event-listing-column-location =
     .label = Месца
+    .tooltiptext = { "" }
+calendar-event-listing-column-priority =
+    .label = Прыярытэт
+    .tooltiptext = { "" }
+calendar-event-listing-column-status =
+    .label = Статус
     .tooltiptext = { "" }
 
 ## Interval dropdown options
@@ -25,6 +42,10 @@ calendar-event-listing-interval-next-14-days =
     .label = Падзеі наступных 14 дзён
 calendar-event-listing-interval-next-31-days =
     .label = Падзеі наступнага 31 дня
+calendar-event-listing-interval-next-6-months =
+    .label = Падзеі наступных 6 месяцаў
+calendar-event-listing-interval-next-12-months =
+    .label = Падзеі наступных 12 месяцаў
 calendar-event-listing-interval-selected-day =
     .label = Зараз выбраны дзень
 calendar-event-listing-interval-today =
