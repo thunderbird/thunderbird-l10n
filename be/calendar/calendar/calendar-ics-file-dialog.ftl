@@ -11,3 +11,5 @@ calendar-ics-file-accept-button-ok-label = OK
 calendar-ics-file-cancel-button-close-label = Закрыць
 calendar-ics-file-dialog-message-2 = Імпарт з файла:
 calendar-ics-file-dialog-calendar-menu-label = Імпарт у каляндар:
+calendar-ics-file-dialog-items-loading-message =
+    .value = Загрузка элементаў...
