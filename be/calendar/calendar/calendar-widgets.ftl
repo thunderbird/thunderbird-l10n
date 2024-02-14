@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-deactivated-notification-events = У дадзены момант усе календары адключаны. Уключыце існуючы каляндар або дадайце новы, каб ствараць і рэдагаваць падзеі.
+calendar-deactivated-notification-tasks = У дадзены момант усе календары адключаны. Уключыце існуючы каляндар або дадайце новы, каб ствараць і рэдагаваць задачы.
 
 ## Side panel
 
