@@ -4,6 +4,5 @@
 
 <!--LOCALIZATION NOTE shown while obtaining certificates from a directory -->
 
-<!ENTITY title.label "Загрузка пасведчанняў">
-<!ENTITY info.message "Пошук пасведчанняў атрымальнікаў у дырэкторыі. Магчыма, патрабуецца некалькі хвілінаў.">
+<!ENTITY title.label "Спампоўка сертыфікатаў">
 <!ENTITY stop.label "Спыніць пошук">

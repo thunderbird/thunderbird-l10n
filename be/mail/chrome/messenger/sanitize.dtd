@@ -19,11 +19,12 @@ that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "">
 
 
+
 <!ENTITY itemHistory.label                 "Гісторыя аглядання">
 <!ENTITY itemHistory.accesskey             "Г">
 <!ENTITY itemCookies.label                 "Біркі">
 <!ENTITY itemCookies.accesskey             "Б">
-<!ENTITY itemCache.label                   "Запаснік">
+<!ENTITY itemCache.label                   "Кэш">
 <!ENTITY itemCache.accesskey               "З">
 
 <!-- LOCALIZATION NOTE (sanitizeEverythingUndoWarning): Second warning paragraph
