@@ -58,6 +58,7 @@
 <!ENTITY  event.toolbar.saveandclose.tooltip              "Захаваць і закрыць">
 <!ENTITY  event.toolbar.delete.tooltip                    "Выдаліць">
 <!ENTITY  event.toolbar.priority.tooltip                  "Змяніць прыярытэт">
+<!ENTITY  event.toolbar.status.tooltip                    "Змяніць статус">
 
 <!-- Counter box -->
 <!-- LOCALIZATON NOTE(counter.button.*)
