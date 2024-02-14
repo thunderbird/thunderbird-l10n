@@ -4,6 +4,7 @@
 
 calendar-deactivated-notification-events = У дадзены момант усе календары адключаны. Уключыце існуючы каляндар або дадайце новы, каб ствараць і рэдагаваць падзеі.
 calendar-deactivated-notification-tasks = У дадзены момант усе календары адключаны. Уключыце існуючы каляндар або дадайце новы, каб ствараць і рэдагаваць задачы.
+calendar-notifications-label = Паказваць апавяшчэнні аб падзеях, якія маюць быць
 calendar-add-notification-button =
     .label = Дадаць апавяшчэнне
 
@@ -11,6 +12,8 @@ calendar-add-notification-button =
 
 calendar-list-header = Календары
 calendar-enable-button = Уключыць
+calendar-import-new-calendar = Новы каляндар…
+    .title = Стварыць новы або падпісацца на існуючы каляндар
 calendar-refresh-calendars =
     .title = Перазагрузіць усе календары і сінхранізаваць змены
 calendar-new-event-primary-button = Новая падзея
