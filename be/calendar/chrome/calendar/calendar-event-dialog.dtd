@@ -44,15 +44,20 @@
 
 <!ENTITY  event.menu.options.priority.low.label               "Нізкі">
 <!ENTITY  event.menu.options.priority.normal.label            "Звычайны">
+<!ENTITY  event.menu.options.priority.high.label              "Высокі">
+<!ENTITY  event.menu.options.privacy.label                    "Прыватнасць">
+<!ENTITY  event.menu.options.privacy.confidential.label       "Паказваць толькі час і дату">
 
 
 <!-- Toolbar -->
 <!ENTITY  event.toolbar.saveandclose.label                "Захаваць і закрыць">
 <!ENTITY  event.toolbar.delete.label                      "Выдаліць">
+<!ENTITY  event.toolbar.privacy.label                     "Прыватнасць">
 
 <!ENTITY  event.toolbar.save.tooltip2                     "Захаваць">
 <!ENTITY  event.toolbar.saveandclose.tooltip              "Захаваць і закрыць">
 <!ENTITY  event.toolbar.delete.tooltip                    "Выдаліць">
+<!ENTITY  event.toolbar.priority.tooltip                  "Змяніць прыярытэт">
 
 <!-- Counter box -->
 <!-- LOCALIZATON NOTE(counter.button.*)
