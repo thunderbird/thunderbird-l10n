@@ -16,7 +16,7 @@ calendar-delete-event-prompt-message =
     { $count ->
         [one] Вы сапраўды хочаце выдаліць падзею?
         [few] Вы сапраўды хочаце выдаліць { $count } падзеі?
-       *[many] Вы сапраўды хочаце выдаліць { $count } падзеяў?
+       *[many] Вы сапраўды хочаце выдаліць { $count } падзей?
     }
 
 ## Variables:
