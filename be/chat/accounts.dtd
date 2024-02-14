@@ -3,13 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Account manager window for Instantbird -->
-<!ENTITY accounts.title                      "Акаўнты  - &brandShortName;">
-<!ENTITY accountManager.width                "460">
+<!ENTITY accounts.title                      "Уліковыя запісы - &brandShortName;">
 <!-- Instant messaging account status window for Thunderbird -->
 <!ENTITY accountsWindow.title                "Стан імгненных паведамленняў">
-<!ENTITY accountsWindow2.style               "width: 41em; height: 27em;">
 
-<!ENTITY accountManager.newAccount.label     "Стварыць акаўнт">
+<!ENTITY accountManager.newAccount.label     "Стварыць уліковы запіс">
 <!ENTITY accountManager.newAccount.accesskey "С">
 <!ENTITY accountManager.close.label          "Закрыць">
 <!ENTITY accountManager.close.accesskey      "ч">
@@ -24,18 +22,12 @@
 <!ENTITY account.connect.accesskey    "З">
 <!ENTITY account.disconnect.label     "Адлучыцца">
 <!ENTITY account.disconnect.accesskey "Р">
-<!ENTITY account.delete.label         "Выдаліць">
-<!ENTITY account.delete.accesskey     "В">
 <!ENTITY account.edit.label           "Уласцівасці">
 <!ENTITY account.edit.accesskey       "У">
-<!ENTITY account.moveup.label         "Рухаць угору">
-<!ENTITY account.movedown.label       "Рухаць уніз">
 <!ENTITY account.cancelReconnection.label         "Скасаваць перазлучэнне">
 <!ENTITY account.cancelReconnection.accesskey     "С">
-<!ENTITY account.copyDebugLog.label     "Скапіяваць метрыку наладкі">
+<!ENTITY account.copyDebugLog.label     "Капіяваць журнал наладкі">
 <!ENTITY account.copyDebugLog.accesskey "к">
-<!ENTITY account.showDebugLog.label     "Паказаць лог наладкі">
-<!ENTITY account.showDebugLog.accesskey "П">
 <!ENTITY account.connecting           "Злучэнне…">
 <!ENTITY account.disconnecting        "Разлучэнне…">
 <!ENTITY account.disconnected         "Не злучана">

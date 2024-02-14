@@ -87,3 +87,5 @@ reminder-play-alarm-button =
     .accesskey = П
 category-new-label = Новая катэгорыя
 category-edit-label = Рэдагаваць катэгорыю
+category-overwrite = Катэгорыя з гэтым імем ужо існуе. Ці жадаеце яе перазапісаць?
+category-blank-warning = Вы павінны ўвесці імя катэгорыі.
