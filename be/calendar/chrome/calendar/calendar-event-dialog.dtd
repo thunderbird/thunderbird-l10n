@@ -7,6 +7,9 @@
 
 
 <!ENTITY newevent.status.label                    "Статус" >
+<!ENTITY newevent.eventStatus.cancelled.label     "Скасавана" >
+<!ENTITY newevent.todoStatus.cancelled.label      "Скасавана" >
+<!ENTITY newevent.status.confirmed.label          "Пацверджана" >
 
 <!-- The following entity is for New Task dialog only -->
 
@@ -42,21 +45,30 @@
 <!ENTITY  event.menu.edit.paste.label                     "Уставіць">
 
 
+<!ENTITY  event.menu.options.attendees.label                  "Запрасіць удзельнікаў…">
+<!ENTITY  event.menu.options.timezone2.label                  "Паказваць часавыя поясы">
+<!ENTITY  event.menu.options.priority2.label                  "Прыярытэт">
 <!ENTITY  event.menu.options.priority.low.label               "Нізкі">
 <!ENTITY  event.menu.options.priority.normal.label            "Звычайны">
 <!ENTITY  event.menu.options.priority.high.label              "Высокі">
 <!ENTITY  event.menu.options.privacy.label                    "Прыватнасць">
 <!ENTITY  event.menu.options.privacy.confidential.label       "Паказваць толькі час і дату">
 
+<!ENTITY event.invite.attendees.label                     "Запрасіць удзельнікаў…">
+<!ENTITY event.remove.attendees.label2                    "Выдаліць усіх удзельнікаў">
+<!ENTITY event.remove.attendee.label                      "Выдаліць удзельніка">
 
 <!-- Toolbar -->
+<!ENTITY  event.toolbar.save.label2                       "Захаваць">
 <!ENTITY  event.toolbar.saveandclose.label                "Захаваць і закрыць">
 <!ENTITY  event.toolbar.delete.label                      "Выдаліць">
+<!ENTITY  event.toolbar.attendees.label                   "Запрасіць удзельнікаў">
 <!ENTITY  event.toolbar.privacy.label                     "Прыватнасць">
 
 <!ENTITY  event.toolbar.save.tooltip2                     "Захаваць">
 <!ENTITY  event.toolbar.saveandclose.tooltip              "Захаваць і закрыць">
 <!ENTITY  event.toolbar.delete.tooltip                    "Выдаліць">
+<!ENTITY  event.toolbar.attendees.tooltip                 "Запрасіць удзельнікаў">
 <!ENTITY  event.toolbar.priority.tooltip                  "Змяніць прыярытэт">
 <!ENTITY  event.toolbar.status.tooltip                    "Змяніць статус">
 
@@ -74,14 +86,22 @@
 <!ENTITY event.categories.textbox.label                   "Дадаць новую катэгорыю" >
 <!ENTITY event.calendar.label                             "Каляндар:" >
 <!ENTITY event.calendar.accesskey                         "К">
+<!ENTITY event.attendees.label                            "Удзельнікі:" >
+<!ENTITY task.status.label                                "Статус:" >
+<!ENTITY event.reminder.label                             "Напамін:" >
 <!ENTITY event.description.label                          "Апісанне:" >
 <!ENTITY event.description.accesskey                      "е">
+<!ENTITY event.attachments.popup.open.label               "Адкрыць" >
+<!ENTITY event.priority2.label                            "Прыярытэт:">
+
+<!ENTITY event.reminder.none.label                        "Без напаміну " >
 
 
-
+<!ENTITY event.statusbarpanel.privacy.label               "Прыватнасць:">
 
 <!-- Recurrence dialog -->
 
+<!ENTITY event.repeat.does.not.repeat.label             "Не паўтараць">
 <!ENTITY event.repeat.yearly.label                      "Штогод">
 
 <!ENTITY event.recurrence.year.label                    "штогод" >
