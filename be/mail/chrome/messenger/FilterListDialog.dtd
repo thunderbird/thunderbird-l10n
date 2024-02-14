@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title "Сіты лістоў">
-<!ENTITY nameColumn.label "Назва сіта">
-<!ENTITY activeColumn.label "Дазволена">
-<!ENTITY newButton.label "Новае…">
+<!ENTITY window.title "Фільтры паведамленняў">
+<!ENTITY nameColumn.label "Імя фільтра">
+<!ENTITY activeColumn.label "Уключаны">
+<!ENTITY newButton.label "Новы…">
 <!ENTITY newButton.accesskey "Н">
 <!ENTITY newButton.popupCopy.label "Капіяваць…">
 <!ENTITY newButton.popupCopy.accesskey "К">
@@ -36,8 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "і">
 <!ENTITY helpButton.label "Даведка">
 <!ENTITY helpButton.accesskey "Д">
-<!ENTITY closeCmd.key "W"> 
-<!ENTITY searchBox.emptyText "Пошук сітаў па назве…">
-
-
-
+<!ENTITY closeCmd.key "W">
+<!ENTITY searchBox.emptyText "Пошук фільтраў па імях…">

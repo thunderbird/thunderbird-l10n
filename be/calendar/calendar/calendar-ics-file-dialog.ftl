@@ -13,3 +13,4 @@ calendar-ics-file-dialog-message-2 = Імпарт з файла:
 calendar-ics-file-dialog-calendar-menu-label = Імпарт у каляндар:
 calendar-ics-file-dialog-items-loading-message =
     .value = Загрузка элементаў...
+calendar-ics-file-dialog-no-calendars = Няма календароў, у якія можна імпартаваць падзеі або задачы.
