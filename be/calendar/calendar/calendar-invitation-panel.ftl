@@ -31,4 +31,17 @@ calendar-invitation-panel-prop-title-location = Месца:
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.
 calendar-invitation-interval-all-day = { $startDate }
+calendar-invitation-panel-prop-title-attendees = Удзельнікі:
 calendar-invitation-panel-prop-title-description = Апісанне:
+# Variables:
+# $count (Number) - The number of attendees with the "ACCEPTED" participation status.
+calendar-invitation-panel-partstat-accepted = { $count } так
+# Variables:
+# $count (Number) - The number of attendees with the "DECLINED" participation status.
+calendar-invitation-panel-partstat-declined = { $count } не
+# Variables:
+# $count (Number) - The number of attendees with the "TENTATIVE" participation status.
+calendar-invitation-panel-partstat-tentative = { $count } магчыма
+# Variables:
+# $count (Number) - The total number of attendees.
+calendar-invitation-panel-partstat-total = { $count } удзельнікаў
