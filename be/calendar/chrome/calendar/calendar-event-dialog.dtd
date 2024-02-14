@@ -102,10 +102,19 @@
 <!-- Recurrence dialog -->
 
 <!ENTITY event.repeat.does.not.repeat.label             "Не паўтараць">
+<!ENTITY event.repeat.daily.label                       "Штодзень">
+<!ENTITY event.repeat.weekly.label                      "Штотыдзень">
+<!ENTITY event.repeat.every.weekday.label               "Кожны працоўны дзень">
+<!ENTITY event.repeat.monthly.label                     "Штомесяц">
 <!ENTITY event.repeat.yearly.label                      "Штогод">
 
+<!ENTITY event.recurrence.occurs.label                  "Паўтараць" >
+<!ENTITY event.recurrence.day.label                     "штодзень" >
+<!ENTITY event.recurrence.week.label                    "штотыдзень" >
+<!ENTITY event.recurrence.month.label                   "штомесяц" >
 <!ENTITY event.recurrence.year.label                    "штогод" >
 
+<!ENTITY event.recurrence.pattern.every.label           "Кожны" >
 
 
 <!ENTITY repeat.units.months.both                       "месяц" >
