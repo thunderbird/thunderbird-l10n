@@ -4,6 +4,8 @@
 
 calendar-deactivated-notification-events = У дадзены момант усе календары адключаны. Уключыце існуючы каляндар або дадайце новы, каб ствараць і рэдагаваць падзеі.
 calendar-deactivated-notification-tasks = У дадзены момант усе календары адключаны. Уключыце існуючы каляндар або дадайце новы, каб ствараць і рэдагаваць задачы.
+calendar-add-notification-button =
+    .label = Дадаць апавяшчэнне
 
 ## Side panel
 
