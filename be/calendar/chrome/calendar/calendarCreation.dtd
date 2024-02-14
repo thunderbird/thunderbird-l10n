@@ -2,9 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY wizard.title             "Новы календар" >
-<!ENTITY wizard.label             "Стварыць новы календар" >
-<!ENTITY wizard.description       "Размясціце свой календар" >
+<!ENTITY wizard.title             "Новы каляндар" >
+<!ENTITY wizard.label             "Стварыць новы каляндар" >
 
 <!ENTITY initialpage.description    "Вы можаце захаваць каляндар на камп'ютары або на серверы, каб мець да яго аддалены доступ ці падзяліцца ім са сваімі сябрамі або калегамі." >
 <!ENTITY initialpage.computer.label  "На камп'ютары">
@@ -15,7 +14,6 @@
 <!ENTITY locationpage.username.label      "Імя карыстальніка:" >
 <!ENTITY locationpage.password.label      "Пароль:" >
 
-<!ENTITY custompage.shortdescription  "Уладкуйце свой каляндар" >
 
 
 <!-- Below are new strings for the revised new calendar dialog. The above strings should be

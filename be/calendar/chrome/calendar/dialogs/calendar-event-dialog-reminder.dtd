@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY reminder.add.label                                "Дадаць">
+<!ENTITY reminder.remove.label                             "Выдаліць">
+
+<!ENTITY reminder.action.label                             "Выберыце дзеянне для напаміну">
+
+<!ENTITY reminder.action.alert.label                       "Паказаць абвестку">
+<!ENTITY reminder.action.email.label                       "Адправіць электронны ліст">
+
+<!ENTITY alarm.units.minutes                               "хвілін" >
+<!ENTITY alarm.units.hours                                 "гадзін" >
+<!ENTITY alarm.units.days                                  "дзён" >
