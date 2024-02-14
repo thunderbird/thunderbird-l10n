@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-invitation-panel-action-button = Захаваць
 calendar-invitation-panel-accept-button = Так
 calendar-invitation-panel-decline-button = Не
 calendar-invitation-panel-tentative-button = Магчыма
-calendar-invitation-panel-reply-status = * Вы яшчэ не вырашылі і не адказалі
 calendar-invitation-panel-more-button = Больш
 calendar-invitation-panel-menu-item-save-copy =
     .label = Захаваць копію

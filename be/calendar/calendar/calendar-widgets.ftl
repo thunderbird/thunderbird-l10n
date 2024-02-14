@@ -44,6 +44,12 @@ calendar-nav-button-next-tooltip-year =
     .accesskey = с
 calendar-today-button-tooltip =
     .title = Перайсці да сёння
+calendar-view-toggle-day = Дзень
+    .title = { "" }
+calendar-view-toggle-week = Тыдзень
+    .title = { "" }
+calendar-view-toggle-month = Месяц
+    .title = { "" }
 
 ## Menu on calendar control bar
 

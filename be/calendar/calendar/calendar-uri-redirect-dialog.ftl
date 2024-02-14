@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-uri-redirect-original-uri-label = Бягучы URI:
+calendar-uri-redirect-target-uri-label = Перанакіраванне на новы URI:

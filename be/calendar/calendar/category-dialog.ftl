@@ -3,3 +3,5 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 category-name-label = Назва
+category-color-label =
+    .label = Выкарыстоўваць колер
