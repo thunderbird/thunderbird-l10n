@@ -41,8 +41,10 @@
 <!ENTITY  event.menu.item.saveandclose.label              "Захаваць і закрыць">
 
 
+<!ENTITY  event.menu.edit.cut.label                       "Выразаць">
 <!ENTITY  event.menu.edit.copy.label                      "Капіяваць">
 <!ENTITY  event.menu.edit.paste.label                     "Уставіць">
+<!ENTITY  event.menu.edit.select.all.label                "Вылучыць усё">
 
 
 <!ENTITY  event.menu.options.attendees.label                  "Запрасіць удзельнікаў…">
