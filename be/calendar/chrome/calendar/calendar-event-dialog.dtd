@@ -40,13 +40,16 @@
     - when editing events/tasks in a tab. -->
 <!ENTITY  event.menu.item.saveandclose.label              "Захаваць і закрыць">
 
+<!ENTITY  event.menu.item.delete.label                    "Выдаліць…">
 
+<!ENTITY  event.menu.edit.label                           "Рэдагаваць">
 <!ENTITY  event.menu.edit.cut.label                       "Выразаць">
 <!ENTITY  event.menu.edit.copy.label                      "Капіяваць">
 <!ENTITY  event.menu.edit.paste.label                     "Уставіць">
 <!ENTITY  event.menu.edit.select.all.label                "Вылучыць усё">
 
 
+<!ENTITY  event.menu.options.label                            "Параметры">
 <!ENTITY  event.menu.options.attendees.label                  "Запрасіць удзельнікаў…">
 <!ENTITY  event.menu.options.timezone2.label                  "Паказваць часавыя поясы">
 <!ENTITY  event.menu.options.priority2.label                  "Прыярытэт">
@@ -54,7 +57,10 @@
 <!ENTITY  event.menu.options.priority.normal.label            "Звычайны">
 <!ENTITY  event.menu.options.priority.high.label              "Высокі">
 <!ENTITY  event.menu.options.privacy.label                    "Прыватнасць">
+<!ENTITY  event.menu.options.privacy.public.label             "Публічная падзея">
 <!ENTITY  event.menu.options.privacy.confidential.label       "Паказваць толькі час і дату">
+<!ENTITY  event.menu.options.privacy.private.label            "Прыватная падзея">
+<!ENTITY  event.menu.options.show.time.label                  "Паказваць час як">
 
 <!ENTITY event.invite.attendees.label                     "Запрасіць удзельнікаў…">
 <!ENTITY event.remove.attendees.label2                    "Выдаліць усіх удзельнікаў">
@@ -89,14 +95,30 @@
 <!ENTITY event.calendar.label                             "Каляндар:" >
 <!ENTITY event.calendar.accesskey                         "К">
 <!ENTITY event.attendees.label                            "Удзельнікі:" >
+<!ENTITY event.from.label                                 "Пачатак:" >
+<!ENTITY task.from.label                                  "Пачатак:" >
+<!ENTITY task.to.label                                    "Тэрмін:" >
 <!ENTITY task.status.label                                "Статус:" >
 <!ENTITY event.reminder.label                             "Напамін:" >
 <!ENTITY event.description.label                          "Апісанне:" >
 <!ENTITY event.description.accesskey                      "е">
+<!ENTITY event.attachments.label                          "Прымацаванні:" >
+<!ENTITY event.attachments.menubutton.label               "Прымацаваць">
+<!ENTITY event.attachments.url.label                      "Вэб-старонку…">
 <!ENTITY event.attachments.popup.open.label               "Адкрыць" >
+<!ENTITY event.attachments.popup.attachPage.label         "Прымацаваць вэб-старонку…" >
 <!ENTITY event.priority2.label                            "Прыярытэт:">
 
 <!ENTITY event.reminder.none.label                        "Без напаміну " >
+<!ENTITY event.reminder.0minutes.before.label             "за 0 хвілін да" >
+<!ENTITY event.reminder.5minutes.before.label             "за 5 хвілін да" >
+<!ENTITY event.reminder.15minutes.before.label            "за 15 хвілін да" >
+<!ENTITY event.reminder.30minutes.before.label            "за 30 хвілін да" >
+<!ENTITY event.reminder.1hour.before.label                "за 1 гадзіну да" >
+<!ENTITY event.reminder.2hours.before.label               "за 2 гадзіны да" >
+<!ENTITY event.reminder.12hours.before.label              "за 12 гадзін да" >
+<!ENTITY event.reminder.1day.before.label                 "за 1 дзень да" >
+<!ENTITY event.reminder.1week.before.label                "за 1 тыдзень да" >
 
 
 <!ENTITY event.statusbarpanel.privacy.label               "Прыватнасць:">
@@ -119,7 +141,9 @@
 <!ENTITY event.recurrence.pattern.every.label           "Кожны" >
 
 
+<!ENTITY event.recurrence.pattern.monthly.every.label   "Кожны" >
 <!ENTITY repeat.units.months.both                       "месяц" >
+<!ENTITY event.recurrence.monthly.every.label           "Кожны" >
 <!ENTITY event.recurrence.monthly.first.label           "першы">
 <!ENTITY event.recurrence.monthly.second.label          "другі">
 <!ENTITY event.recurrence.monthly.third.label           "трэці">
@@ -135,6 +159,7 @@
 <!ENTITY event.recurrence.pattern.monthly.week.7.label  "Субота" >
 <!ENTITY event.recurrence.repeat.dayofmonth.label       "Дзень месяца">
 
+<!ENTITY event.recurrence.every.label                        "Кожны:" >
 <!ENTITY event.recurrence.pattern.yearly.every.month.label   "Кожны" >
 
 <!-- LOCALIZATON NOTE
@@ -144,6 +169,7 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly
 -->
+<!ENTITY event.recurrence.pattern.yearly.of.label            "" >
 
 <!ENTITY event.recurrence.pattern.yearly.month.1.label       "Студзень" >
 <!ENTITY event.recurrence.pattern.yearly.month.2.label       "Люты" >
@@ -172,6 +198,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.6.label        "Пятніца" >
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Субота" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "дзень" >
+<!ENTITY event.recurrence.of.label                           "" >
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Студзень" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Люты" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Сакавік" >
@@ -187,12 +214,17 @@
 
 
 <!-- Attendees dialog -->
+<!ENTITY event.attendee.role.required           "Абавязковы ўдзельнік">
+<!ENTITY event.attendee.role.optional           "Неабавязковы ўдзельнік">
+<!ENTITY event.attendee.usertype.room           "Пакой">
 
 <!-- Timezone dialog -->
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.calendar.label        "Каляндар:">
 <!ENTITY read.only.category.label        "Катэгорыя:">
+<!ENTITY read.only.attachments.label     "Прымацаванні:">
+<!ENTITY read.only.attendees.label       "Удзельнікі">
 <!ENTITY read.only.description.label     "Апісанне">
 
 <!-- Summary dialog -->
