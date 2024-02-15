@@ -6,7 +6,7 @@
 <!ENTITY wizard.label             "Стварыць новы каляндар" >
 <!ENTITY wizard.description       "Размясціце ваш каляндар" >
 
-<!ENTITY initialpage.description    "Вы можаце захаваць каляндар на камп'ютары або на серверы, каб мець да яго аддалены доступ ці падзяліцца ім са сваімі сябрамі або калегамі." >
+<!ENTITY initialpage.description    "Вы можаце трымаць ваш каляндар на вашым камп'ютары або на серверы, каб мець да яго аддалены доступ ці падзяліцца ім са сваімі сябрамі або калегамі." >
 <!ENTITY initialpage.computer.label  "На камп'ютары">
 <!ENTITY initialpage.network.label  "У сетцы">
 
@@ -15,6 +15,7 @@
 <!ENTITY locationpage.username.label      "Імя карыстальніка:" >
 <!ENTITY locationpage.password.label      "Пароль:" >
 
+<!ENTITY custompage.shortdescription  "Персаналізуйце ваш каляндар" >
 
 <!ENTITY finishpage.shortdescription  "Каляндар створаны" >
 <!ENTITY finishpage.longdescription   "Вы стварылі каляндар." >
@@ -22,6 +23,7 @@
 <!-- Below are new strings for the revised new calendar dialog. The above strings should be
     removed/renamed later on -->
 
+<!ENTITY sourcetabs.other.label  "Іншае">
 
 <!ENTITY buttons.create.label "Стварыць каляндар">
 
@@ -38,5 +40,6 @@
 <!ENTITY network.nocredentials.label "Для гэтага размяшчэння не патрабуюцца ўліковыя даныя">
 <!ENTITY network.loading.description "Калі ласка, дачакайцеся, пакуль знойдуцца вашы календары.">
 <!ENTITY network.notfound.description "Не атрымалася знайсці календары ў гэтым размяшчэнні. Калі ласка, праверце свае налады.">
+<!ENTITY network.authfail.description "Уліковыя даныя, якія вы ўвялі, не былі прыняты. Калі ласка, праверце вашы налады.">
 
 <!ENTITY network.subscribe.single.description "Калі ласка, выберыце календары, на якія жадаеце падпісацца.">
