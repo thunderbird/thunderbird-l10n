@@ -9,6 +9,7 @@ calendar-print-filter-label = Што друкаваць
 calendar-print-filter-events = Падзеі
 calendar-print-filter-tasks = Задачы
 calendar-print-filter-completedtasks = Выкананыя задачы
+calendar-print-filter-taskswithnoduedate = Бестэрміновыя задачы
 calendar-print-range-from = Ад
 calendar-print-range-to = Да
 calendar-print-back-button = Назад
