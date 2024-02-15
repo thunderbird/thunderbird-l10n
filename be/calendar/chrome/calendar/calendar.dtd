@@ -153,6 +153,8 @@
 
 <!ENTITY calendar.alarm.details.label               "Падрабязнасці…" >
 
+<!ENTITY calendar.alarm.snoozefor.label             "Адкласці на" >
+<!ENTITY calendar.alarm.snoozeallfor.label          "Адкласці ўсе на" >
 <!ENTITY calendar.alarm.title.label                 "Напаміны календара" >
 
 <!ENTITY calendar.alarm.snooze.5minutes.label       "5 хвілін" >
@@ -178,6 +180,7 @@
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
 <!ENTITY calendarproperties.refreshInterval.label          "Абнаўляць каляндар:">
 <!ENTITY calendarproperties.refreshInterval.manual.label   "Уручную">
+<!ENTITY calendarproperties.readonly.label                 "Толькі для чытання">
 <!ENTITY calendarproperties.firealarms.label               "Паказваць напаміны">
 <!ENTITY calendarproperties.enabled2.label                 "Уключыць гэты каляндар">
 <!ENTITY calendarproperties.unsubscribe.label              "Адпісацца">
