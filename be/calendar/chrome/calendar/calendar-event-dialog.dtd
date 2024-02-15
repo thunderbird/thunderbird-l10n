@@ -17,6 +17,8 @@
      event.attendees.disallowcounter.label)
    - These three labels are displayed side by side in the event dialog, make sure
    - they still fit in. -->
+<!ENTITY event.attendees.notify.label                "Апавясціць удзельнікаў">
+<!ENTITY event.attendees.notifyundisclosed.label     "Асобнае запрашэнне для кожнага ўдзельніка">
 
 <!-- Keyboard Shortcuts -->
 
@@ -43,11 +45,14 @@
 <!ENTITY  event.menu.item.delete.label                    "Выдаліць…">
 
 <!ENTITY  event.menu.edit.label                           "Рэдагаваць">
+<!ENTITY  event.menu.edit.undo.label                      "Адрабіць">
+<!ENTITY  event.menu.edit.redo.label                      "Узнавіць">
 <!ENTITY  event.menu.edit.cut.label                       "Выразаць">
 <!ENTITY  event.menu.edit.copy.label                      "Капіяваць">
 <!ENTITY  event.menu.edit.paste.label                     "Уставіць">
 <!ENTITY  event.menu.edit.select.all.label                "Вылучыць усё">
 
+<!ENTITY  event.menu.view.toolbars.customize.label        "Персаналізаваць…">
 
 <!ENTITY  event.menu.options.label                            "Параметры">
 <!ENTITY  event.menu.options.attendees.label                  "Запрасіць удзельнікаў…">
@@ -97,6 +102,7 @@
 <!ENTITY event.attendees.label                            "Удзельнікі:" >
 <!ENTITY event.from.label                                 "Пачатак:" >
 <!ENTITY task.from.label                                  "Пачатак:" >
+<!ENTITY event.to.label                                   "Канец:" >
 <!ENTITY task.to.label                                    "Тэрмін:" >
 <!ENTITY task.status.label                                "Статус:" >
 <!ENTITY event.reminder.label                             "Напамін:" >
