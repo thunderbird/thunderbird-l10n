@@ -75,6 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Brez
+account-hub-auth-no-authentication-option =
+    .label = Brez overitve
 account-hub-auth-label = Metoda overitve
 account-hub-username-label = Uporabniško ime
 account-hub-adding-account-title = Dodajanje računa
