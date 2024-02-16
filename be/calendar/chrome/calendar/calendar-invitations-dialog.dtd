@@ -4,6 +4,9 @@
 -->
 
 <!-- Calendar Invitations Dialog -->
+<!ENTITY calendar.invitations.dialog.invitations.text                   "Запрашэнні">
+<!ENTITY calendar.invitations.dialog.statusmessage.updating.text        "Абнаўленне спіса запрашэнняў.">
 
 <!-- Calendar Invitations List -->
 <!ENTITY calendar.invitations.list.accept.button.label                  "Прыняць">
+<!ENTITY calendar.invitations.list.decline.button.label                 "Адхіліць">
