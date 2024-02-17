@@ -138,8 +138,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Copia chiavi pubbliche negli appunti
         }
     .accesskey = v
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Esporta chiavi su file
 openpgp-key-man-ctx-copy =
     .label = Copia
     .accesskey = C
@@ -427,7 +425,7 @@ filter-term-pgpencrypted-label = Crittato con OpenPGP
 filter-key-required = È necessario selezionare una chiave del destinatario.
 # Variables:
 # $desc (String) - Email address to look for a key of.
-filter-key-not-found = Impossibile trovare una chiave di crittatura per “{ $desc }”.
+filter-key-not-found = Impossibile trovare una chiave crittografica per “{ $desc }”.
 # Variables:
 # $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
