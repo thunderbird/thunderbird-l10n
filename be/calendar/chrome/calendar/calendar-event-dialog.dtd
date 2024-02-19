@@ -19,13 +19,18 @@
    - they still fit in. -->
 <!ENTITY event.attendees.notify.label                "Апавясціць удзельнікаў">
 <!ENTITY event.attendees.notifyundisclosed.label     "Асобнае запрашэнне для кожнага ўдзельніка">
+<!ENTITY event.attendees.disallowcounter.label       "Забараніць сустрэчныя прапановы">
+<!ENTITY event.attendees.disallowcounter.tooltip     "Паказвае, што вы не прымаеце сустрэчныя прапановы">
 
 <!-- Keyboard Shortcuts -->
 
 <!-- Menubar -->
+<!ENTITY  event.menu.item.new.label                       "Стварыць">
+<!ENTITY  event.menu.item.new.accesskey                   "С">
 <!ENTITY  event.menu.item.new.event.label                 "Падзея">
 <!ENTITY  event.menu.item.new.task.label                  "Задача">
 <!ENTITY  event.menu.item.new.message.label               "Паведамленне">
+<!ENTITY  event.menu.item.new.contact.label               "Кантакт з адраснай кнігі">
 <!ENTITY  event.menu.item.close.label                     "Закрыць">
 
 <!-- LOCALIZATION NOTE
@@ -68,6 +73,7 @@
 <!ENTITY  event.menu.options.show.time.label                  "Паказваць час як">
 
 <!ENTITY event.invite.attendees.label                     "Запрасіць удзельнікаў…">
+<!ENTITY event.email.attendees.label                      "Скласці электронны ліст для ўсіх удзельнікаў…">
 <!ENTITY event.remove.attendees.label2                    "Выдаліць усіх удзельнікаў">
 <!ENTITY event.remove.attendee.label                      "Выдаліць удзельніка">
 
@@ -127,6 +133,7 @@
 <!ENTITY event.reminder.1week.before.label                "за 1 тыдзень да" >
 
 
+<!ENTITY event.statusbarpanel.freebusy.label              "Час як:">
 <!ENTITY event.statusbarpanel.privacy.label               "Прыватнасць:">
 
 <!-- Recurrence dialog -->
@@ -235,3 +242,4 @@
 
 <!-- Summary dialog -->
 <!ENTITY summary.dialog.saveclose.label         "Захаваць і закрыць">
+<!ENTITY summary.dialog.accept.label            "Прыняць">
