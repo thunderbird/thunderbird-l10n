@@ -4,7 +4,7 @@
 
 calendar-invitation-panel-status-new = Rydych wedi cael gwahoddiad i'r digwyddiad hwn.
 calendar-invitation-panel-status-processed = Mae'r digwyddiad hwn wedi ei ychwanegu i'ch calendr.
-calendar-invitation-panel-status-updateminor = Mae'r neges hon yn cynnwys diweddariad am y ddigwyddiad hwn.
+calendar-invitation-panel-status-updateminor = Mae'r neges hon yn cynnwys diweddariad ar gyfer y digwyddiad hwn.
 calendar-invitation-panel-status-updatemajor = Mae'r neges hon yn cynnwys diweddariad am y digwyddiad hwn. Dylech ail-gadarnhau eich presenoldeb.
 calendar-invitation-panel-status-cancelled = Mae'r neges hon yn cynnwys diddymiad ar gyfer y digwyddiad hwn.
 calendar-invitation-panel-status-cancelled-notfound = Mae'r neges hon yn cynnwys diddymiad ar gyfer digwyddiad nad yw ar eich calendr.
