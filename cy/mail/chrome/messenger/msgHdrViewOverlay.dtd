@@ -100,7 +100,7 @@
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "Cadw">
 <!ENTITY saveAttachmentButton1.tooltip     "Cadw'r ffeil atodol">
-<!ENTITY saveAllAttachmentsButton1.label   "Cadw Pob Un">
+<!ENTITY saveAllAttachmentsButton1.label   "Cadw'r Cyfan">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Cadw'r holl ffeiliau atodol">
 
 <!ENTITY copyLinkCmd.label        "Copïo Lleoliad Dolen">
