@@ -59,7 +59,7 @@
 <!ENTITY otherActionsOpenInNewTab1.accesskey "T">
 <!ENTITY markAsReadMenuItem1.label "Marcio wedi Darllen">
 <!ENTITY markAsReadMenuItem1.accesskey "D">
-<!ENTITY markAsUnreadMenuItem1.label "Marcio heb Darllen">
+<!ENTITY markAsUnreadMenuItem1.label "Marcio heb ei Darllen">
 <!ENTITY markAsUnreadMenuItem1.accesskey "D">
 <!ENTITY saveAsMenuItem1.label "Cadw fel…">
 <!ENTITY saveAsMenuItem1.accesskey "C">
