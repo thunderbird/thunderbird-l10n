@@ -497,7 +497,7 @@
 <!ENTITY replyButton.label "Ateb">
 <!ENTITY replyAllButton.label "Ateb Pawb">
 <!ENTITY replyListButton.label "Ateb i'r Rhestr">
-<!ENTITY forwardButton.label "Ymlaen">
+<!ENTITY forwardButton.label "Anfon Ymlaen">
 <!ENTITY fileButton.label "Ffeil">
 <!ENTITY archiveButton.label "Archifo">
 <!ENTITY openConversationButton.label "Sgwrs">
@@ -730,7 +730,7 @@
 <!ENTITY contextReplyList.accesskey "R">
 <!ENTITY contextForward.label "Ymlaen">
 <!ENTITY contextForward.accesskey "Y">
-<!ENTITY contextForwardAsMenu.label "Ymlaen Fel">
+<!ENTITY contextForwardAsMenu.label "Anfon Ymlaen Fel">
 <!ENTITY contextForwardAsMenu.accesskey "Y">
 <!ENTITY contextForwardAsInline.label "Mewnlin">
 <!ENTITY contextForwardAsInline.accesskey "M">
