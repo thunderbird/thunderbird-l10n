@@ -243,3 +243,4 @@
 <!-- Summary dialog -->
 <!ENTITY summary.dialog.saveclose.label         "Захаваць і закрыць">
 <!ENTITY summary.dialog.accept.label            "Прыняць">
+<!ENTITY summary.dialog.accept.tooltiptext      "Прыняць запрашэнне">

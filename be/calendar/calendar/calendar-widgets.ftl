@@ -12,6 +12,10 @@ calendar-add-notification-button =
 
 calendar-list-header = Календары
 calendar-enable-button = Уключыць
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Параметры календара { $calendarName }
 calendar-import-new-calendar = Новы каляндар…
     .title = Стварыць новы або падпісацца на існуючы каляндар
 calendar-refresh-calendars =
