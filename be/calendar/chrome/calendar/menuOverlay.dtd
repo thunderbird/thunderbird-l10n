@@ -21,18 +21,24 @@
 <!ENTITY calendar.deletecalendar.label          "Выдаліць выбраны каляндар…">
 <!ENTITY calendar.deletecalendar.accesskey      "В">
 <!ENTITY calendar.unsubscribecalendar.label     "Адпісацца ад выбранага календара…">
+<!ENTITY calendar.unsubscribecalendar.accesskey "А">
 
 <!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
       is the general action of removing it, while deleting means to clear the
       data and unsubscribing means just taking it out of the calendar list. -->
-<!ENTITY calendar.removecalendar.label          "Выдаліць выбраны каляндар…">
+<!ENTITY calendar.removecalendar.label          "Прыбраць выбраны каляндар…">
+<!ENTITY calendar.removecalendar.accesskey      "П">
 
 <!ENTITY showUnifinderCmd.label                 "Знайсці падзеі">
+<!ENTITY showUnifinderCmd.accesskey             "н">
+<!ENTITY showUnifinderCmd.tooltip               "Пераключыць адлюстраванне панэлі пошуку падзей">
 
 <!ENTITY calendar.displaytodos.checkbox.label       "Паказваць задачы ў календары">
+<!ENTITY calendar.displaytodos.checkbox.accesskey   "к">
 
 <!ENTITY goTodayCmd.label                       "Сёння">
 <!ENTITY goTodayCmd.accesskey                   "С">
 
 
 <!ENTITY calendar.properties.label              "Уласцівасці календара…">
+<!ENTITY calendar.properties.accesskey          "л">
