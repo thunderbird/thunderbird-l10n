@@ -30,6 +30,9 @@ calendar-event-listing-column-end-date =
 calendar-event-listing-column-location =
     .label = Месца
     .tooltiptext = { "" }
+calendar-event-listing-column-percent-complete =
+    .label = % выканана
+    .tooltiptext = Сартаваць па % выканання
 calendar-event-listing-column-priority =
     .label = Прыярытэт
     .tooltiptext = { "" }
@@ -39,9 +42,14 @@ calendar-event-listing-column-start-date =
 calendar-event-listing-column-status =
     .label = Статус
     .tooltiptext = { "" }
+calendar-event-listing-column-title =
+    .label = Назва
+    .tooltiptext = Сартаваць па назве
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-calendar-month =
+    .label = Падзеі гэтага каляндарнага месяца
 calendar-event-listing-interval-next-7-days =
     .label = Падзеі наступных 7 дзён
 calendar-event-listing-interval-next-14-days =
