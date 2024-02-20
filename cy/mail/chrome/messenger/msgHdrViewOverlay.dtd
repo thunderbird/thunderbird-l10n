@@ -95,7 +95,7 @@
 <!ENTITY detachedAttachmentFolder.show.label        "Agor Ffolder Cynhwysol">
 <!ENTITY detachedAttachmentFolder.show.accesskey    "F">
 <!ENTITY detachedAttachmentFolder.showMac.label     "Dangos yn Finder">
-<!ENTITY detachedAttachmentFolder.showMac.accesskey "C">
+<!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
 
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "Cadw">
