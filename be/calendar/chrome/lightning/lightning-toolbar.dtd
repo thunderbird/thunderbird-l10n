@@ -4,10 +4,20 @@
 
 <!-- Mode Toolbar -->
 <!ENTITY lightning.toolbar.calendar.label     "Каляндар">
+<!ENTITY lightning.toolbar.calendar.tooltip   "Пераключыцца на ўкладку календара">
+<!ENTITY lightning.toolbar.calendar.accesskey "к">
 <!ENTITY lightning.toolbar.task.label         "Задачы">
+<!ENTITY lightning.toolbar.task.tooltip       "Пераключыцца на ўкладку задач">
+<!ENTITY lightning.toolbar.task.accesskey     "з">
 
 <!-- Calendar and Task Mode Toolbar -->
 <!ENTITY lightning.toolbar.day.label                 "Дзень">
+<!ENTITY lightning.toolbar.day.accesskey             "Д">
 <!ENTITY lightning.toolbar.week.label                "Тыдзень">
+<!ENTITY lightning.toolbar.week.accesskey            "Т">
 <!ENTITY lightning.toolbar.month.label               "Месяц">
 <!ENTITY lightning.toolbar.month.accesskey           "М">
+<!ENTITY lightning.toolbar.calendarmenu.label        "Панэль календара">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey    "П">
+<!ENTITY lightning.toolbar.calendarpane.label        "Паказаць панэль календара">
+<!ENTITY lightning.toolbar.calendarpane.accesskey    "а">

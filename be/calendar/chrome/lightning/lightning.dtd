@@ -12,14 +12,19 @@
 
 <!-- New menu popup in File menu -->
 <!ENTITY lightning.menupopup.new.event.label    "Падзея…">
+<!ENTITY lightning.menupopup.new.event.accesskey "П">
 <!ENTITY lightning.menupopup.new.task.label     "Задача…">
+<!ENTITY lightning.menupopup.new.task.accesskey "З">
 <!ENTITY lightning.menupopup.new.calendar.label "Каляндар…">
+<!ENTITY lightning.menupopup.new.calendar.accesskey "К">
 
 <!-- Open menu popup in File menu -->
 
 <!-- View Menu -->
 <!ENTITY lightning.menu.view.calendar.label            "Каляндар">
+<!ENTITY lightning.menu.view.calendar.accesskey        "К">
 <!ENTITY lightning.menu.view.tasks.label               "Задачы">
+<!ENTITY lightning.menu.view.tasks.accesskey           "З">
 
 <!-- Events and Tasks menu -->
 <!ENTITY lightning.menu.eventtask.label                "Падзеі і задачы">
@@ -42,6 +47,8 @@
 <!ENTITY lightning.imipbar.btnDelete.label                                  "Выдаліць">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Выдаліць з календара">
 <!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Каляндар">
+<!ENTITY lightning.imipbar.btnReschedule.label                              "Перапланаваць">
+<!ENTITY lightning.imipbar.btnReschedule.tooltiptext                        "Перапланаваць падзею">
 <!ENTITY lightning.imipbar.btnSaveCopy.label                                "Захаваць копію">
 <!ENTITY lightning.imipbar.btnUpdate.label                                  "Абнавіць">
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Абнавіць падзею ў календары">
