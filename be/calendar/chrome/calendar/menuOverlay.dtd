@@ -4,14 +4,22 @@
 
 <!-- Event Menu -->
 <!ENTITY event.new.event                        "Новая падзея…">
+<!ENTITY event.new.event.accesskey              "п">
 
 <!ENTITY event.new.task                         "Новая задача…">
+<!ENTITY event.new.task.accesskey               "з">
 
 <!ENTITY calendar.import.label                  "Імпарт…">
+<!ENTITY calendar.import.accesskey              "І">
 
 <!ENTITY calendar.export.label                  "Экспарт…">
+<!ENTITY calendar.export.accesskey              "Э">
 
+<!ENTITY calendar.publish.label                 "Публікацыя…">
+<!ENTITY calendar.publish.accesskey             "у">
 
+<!ENTITY calendar.deletecalendar.label          "Выдаліць выбраны каляндар…">
+<!ENTITY calendar.deletecalendar.accesskey      "В">
 <!ENTITY calendar.unsubscribecalendar.label     "Адпісацца ад выбранага календара…">
 
 <!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
