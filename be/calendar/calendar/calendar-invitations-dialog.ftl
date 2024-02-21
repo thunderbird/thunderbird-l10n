@@ -4,3 +4,7 @@
 
 calendar-invitation-current-participation-status-icon-accepted =
     .alt = У цяперашні час прынята
+calendar-invitation-current-participation-status-icon-declined =
+    .alt = У цяперашні час адхілена
+calendar-invitation-current-participation-status-icon-needs-action =
+    .alt = У цяперашні час не вырашана
