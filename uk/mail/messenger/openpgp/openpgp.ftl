@@ -141,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[many] Скопіювати відкриті ключі до буфера обміну
         }
     .accesskey = в
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Експорт ключів до файлу
 openpgp-key-man-ctx-copy =
     .label = Копіювати
     .accesskey = о
@@ -768,7 +766,7 @@ repeat-suffix-singular = раз.
 repeat-suffix-plural = разів.
 no-repeat = Це попередження більше не з'являтиметься.
 dlg-keep-setting = Запам’ятати моє рішення і більше не запитувати
-dlg-button-ok = &Гаразд
+dlg-button-ok = &OK
 dlg-button-close = &Закрити
 dlg-button-cancel = &Скасувати
 dlg-no-prompt = Більше не показувати це вікно.
