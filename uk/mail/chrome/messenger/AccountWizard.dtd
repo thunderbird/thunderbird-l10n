@@ -46,5 +46,5 @@
 <!ENTITY completionTitle.label "Вітаємо!">
 <!ENTITY completionText.label "Будь ласка, перевірте правильність наступної інформації.">
 <!ENTITY newsServerNamePrefix.label "Назва сервера новин (NNTP):">
-<!ENTITY clickFinish.label "Натисніть «Гаразд», щоб зберегти новий обліковий запис та вийти з майстра.">
+<!ENTITY clickFinish.label "Натисніть Завершити, щоб зберегти новий обліковий запис та вийти з майстра.">
 <!ENTITY clickFinish.labelMac "Клацніть Готово, щоб зберегти ці налаштування та завершити роботу Майстра.">
