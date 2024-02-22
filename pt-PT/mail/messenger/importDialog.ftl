@@ -18,3 +18,4 @@ zip-file-too-big-title = Ficheiro ZIP demasiado grande
 zip-file-too-big-message = O ficheiro ZIP selecionado tem mais de 2GB. Comece por extrair o mesmo e depois importe a partir da pasta extraída.
 wizardpage-failed =
     .label = Falha ao importar
+wizardpage-failed-message = A importação falhou inesperadamente. Podem estar disponíveis mais informações na Consola de Erros

@@ -28,4 +28,5 @@ fxa-signout-dialog-button = Terminar sessão
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
 sync-disconnect-dialog-title = Desligar?
+sync-disconnect-dialog-body = O { -brand-product-name } deixará de sincronizar mas não irá eliminar quaisquer dados neste dispositivo.
 sync-disconnect-dialog-button = Desligar

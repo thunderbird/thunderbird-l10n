@@ -4,3 +4,11 @@
 
 close-shortcut =
     .key = w
+# Variables:
+#   $title (String): the title of the popup window
+extension-popup-title =
+    { PLATFORM() ->
+        [macos] { $title }
+       *[other] { $title } - { -brand-full-name }
+    }
+extension-popup-default-title = { -brand-full-name }
