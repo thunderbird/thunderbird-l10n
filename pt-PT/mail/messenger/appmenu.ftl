@@ -64,6 +64,12 @@ appmenu-newab-panel =
 appmenu-new-addressbook =
     .label = Livro de endereços local
     .accesskey = L
+appmenu-new-carddav =
+    .label = Livro de endereços CardDav
+    .accesskey = C
+appmenu-new-ldap =
+    .label = Livro de endereços LDAP
+    .accesskey = L
 
 ## Create
 
@@ -198,3 +204,7 @@ appmenuitem-banner-update-available =
     .label = Atualização disponível — transferir agora
 appmenuitem-banner-update-manual =
     .label = Atualização disponível — transferir agora
+appmenuitem-banner-update-unsupported =
+    .label = Não foi possível atualizar – sistema incompatível
+appmenuitem-banner-update-restart =
+    .label = Atualização disponível – reiniciar agora

@@ -241,6 +241,8 @@ threadpane-column-header-thread =
     .title = Alternar tópicos de mensagens
 threadpane-column-label-thread =
     .label = Tópico
+threadpane-cell-thread =
+    .aria-label = Estado do tópico
 threadpane-column-header-flagged =
     .title = Ordenar por estrela
 threadpane-column-label-flagged =
@@ -358,12 +360,21 @@ threadpane-column-header-id = Ordem de receção
     .title = Ordenar por ordem de receção
 threadpane-column-label-id =
     .label = Ordem de receção
+threadpane-cell-id =
+    .aria-label = Ordem de receção
 threadpane-column-header-delete =
     .title = Eliminar uma mensagem
 threadpane-column-label-delete =
     .label = Eliminar
 threadpane-cell-delete =
     .aria-label = Eliminar
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } resposta
+       *[other] { $count } respostas
+    }
 
 ## Message state variations
 

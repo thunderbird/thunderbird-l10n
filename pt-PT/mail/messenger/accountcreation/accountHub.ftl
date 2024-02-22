@@ -82,3 +82,6 @@ account-hub-username-label = Nome de utilizador
 account-hub-adding-account-title = Adicionar conta
 account-hub-adding-account-subheader = A testar novamente as definições de configuração da conta
 account-hub-account-added-title = Conta adicionada
+account-hub-find-settings-failed = O { -brand-full-name } não conseguiu encontrar as definições para a sua conta de e-mail.
+account-hub-notification-show-more = Mostrar mais
+account-hub-notification-show-less = Mostrar menos
