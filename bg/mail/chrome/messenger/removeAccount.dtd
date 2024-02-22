@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY dialogTitle                  "Премахване на сметка и данни">
+<!ENTITY dialogTitle                  "Премахване на профила и данните му">
 <!ENTITY removeButton.label           "Премахване">
 <!ENTITY removeButton.accesskey       "п">
-<!ENTITY removeAccount.label          "Премахване да данните за сметката">
+<!ENTITY removeAccount.label          "Премахване на данните за профила">
 <!ENTITY removeAccount.accesskey      "д">
 <!ENTITY removeAccount.desc           "Премахва само информацията за сметката от &brandShortName;. Сметката на сървъра остава незасегната.">
 <!ENTITY removeData.label             "Премахване на съобщенията">
