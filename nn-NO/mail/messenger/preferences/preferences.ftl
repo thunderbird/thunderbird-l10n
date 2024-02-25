@@ -137,7 +137,7 @@ new-message-arrival = Når ei ny melding kjem:
 mail-play-sound-label =
     .label =
         { PLATFORM() ->
-            [macos] Bruk følgjande lydfil:
+            [macos] Spel av følgjande lydfil:
            *[other] Spel av ein lyd
         }
     .accesskey =
@@ -530,23 +530,12 @@ third-party-never =
     .label = Aldri
 third-party-visited =
     .label = Frå besøkte
-keep-label =
-    .value = Ta vare på dei til:
-    .accesskey = e
-keep-expire =
-    .label = Dei går ut på dato
-keep-close =
-    .label = Eg lukkar { -brand-short-name }
-keep-ask =
-    .label = Spør meg kvar gong
 cookies-button =
     .label = Vis infokapslar…
     .accesskey = V
 do-not-track-label =
     .label = Send nettsider eit «Ikkje spor»-signal om at du ikkje vil bli spora
     .accesskey = n
-learn-button =
-    .label = Les meir
 dnt-learn-more-button =
     .value = Les meir
 passwords-description = { -brand-short-name } kan hugse passordinformasjon for alle kontoane dine, slik at du ikkje treng å skriva inn innloggingsdetaljane fleire gonger.
