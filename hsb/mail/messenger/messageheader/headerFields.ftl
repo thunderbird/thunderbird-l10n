@@ -14,6 +14,12 @@ message-header-bcc-list-name = Schowana kopija
 message-header-newsgroups-list-name = Diskusijne skupiny
 message-header-followup-to-list-name = Dale sposrědkować do
 message-header-tags-list-name = Znački
+message-header-list-help = Lisćina-Pomoc
+message-header-list-unsubscribe = Lisćina-Wotskazać
+message-header-list-subscribe = Lisćina-Abonować
+message-header-list-post = Lisćina-Přinošk
+message-header-list-owner = Lisćina-wobsedźer
+message-header-list-archive = Lisćina-Archiw
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -21,7 +27,6 @@ message-header-tags-list-name = Znački
 message-header-author-field = Awtor<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organizacija<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Tema<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Dalesposrědkowanje do<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Datum<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Useragent<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referency<span data-l10n-name="field-separator">:</span>
