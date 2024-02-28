@@ -17,8 +17,8 @@ message-header-tags-list-name = Tagiau
 message-header-list-help = Rhestr-Cymorth
 message-header-list-unsubscribe = Rhestr-Dad-danysgrifio
 message-header-list-subscribe = Rhestr-Tanysgrifio
-message-header-list-post = Rhestr-Post
-message-header-list-owner = Perchennog y Rhestr
+message-header-list-post = Rhestr-E-bost
+message-header-list-owner = Rhestr-Perchennog
 message-header-list-archive = Rhestr-Archif
 
 ## Other message headers.
@@ -33,11 +33,11 @@ message-header-references-field = Cyfeiriadau<span data-l10n-name="field-separat
 message-header-message-id-field = ID Neges<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Wrth ateb i<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Gwefan<span data-l10n-name="field-separator">:</span>
-message-header-list-help-field = Rhestr-Help<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Rhestr-Cymorth<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = Rhestr-Dad-danysgrifio <span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = Rhestr-Tanysgrifio <span data-l10n-name="field-separator">:</span>
-message-header-list-post-field = Rhestr-Post <span data-l10n-name="field-separator">:</span>
-message-header-list-owner-field = Perchennog y Rhestr<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Rhestr-E-bost<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Rhestr-Perchennog<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = Rhestr-Archif<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
