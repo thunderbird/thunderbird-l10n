@@ -14,12 +14,12 @@ message-header-bcc-list-name = 密件副本
 message-header-newsgroups-list-name = 新聞群組
 message-header-followup-to-list-name = 原文參見
 message-header-tags-list-name = 標籤
-message-header-list-help = 清單-說明
+message-header-list-help = 清單說明
 message-header-list-unsubscribe = 清單取消訂閱
 message-header-list-subscribe = 清單訂閱
 message-header-list-post = 郵件清單
 message-header-list-owner = 清單擁有者
-message-header-list-archive = 清單-封存
+message-header-list-archive = 清單備存位置
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
