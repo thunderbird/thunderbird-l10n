@@ -14,6 +14,12 @@ message-header-bcc-list-name = Blindkopie (BCC)
 message-header-newsgroups-list-name = Newsgruppen
 message-header-followup-to-list-name = Followup an
 message-header-tags-list-name = Schlagwörter
+message-header-list-help = Liste-Hilfe
+message-header-list-unsubscribe = Liste-Abonnement löschen
+message-header-list-subscribe = Liste-Abonnieren
+message-header-list-post = Liste-Beitrag
+message-header-list-owner = Liste-Besitzer
+message-header-list-archive = Liste-Archiv
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -21,13 +27,18 @@ message-header-tags-list-name = Schlagwörter
 message-header-author-field = Autor<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organisation<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Betreff<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Followup an<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Datum<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = User-Agent<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referenzen<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = Nachrichten-ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Als Antwort auf<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Webseite<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Listen-Hilfe<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Listen-Abonnement löschen<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Liste-Abonnieren<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Liste-Beitrag<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Liste-Besitzer<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Liste-Archiv<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
