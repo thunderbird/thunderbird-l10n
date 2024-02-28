@@ -17,14 +17,14 @@ message-header-tags-list-name = 標籤
 message-header-list-help = 清單說明
 message-header-list-unsubscribe = 清單取消訂閱
 message-header-list-subscribe = 清單訂閱
-message-header-list-post = 郵件清單
+message-header-list-post = 清單張貼位置
 message-header-list-owner = 清單擁有者
 message-header-list-archive = 清單備存位置
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
 
-message-header-author-field = 作者<span data-l10n-name="field-separator">:</span>
+message-header-author-field = 作者<span data-l10n-name="field-separator">：</span>
 message-header-organization-field = 公司<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = 主旨<span data-l10n-name="field-separator">:</span>
 message-header-date-field = 日期<span data-l10n-name="field-separator">:</span>
@@ -33,12 +33,12 @@ message-header-references-field = 參考資料<span data-l10n-name="field-separa
 message-header-message-id-field = 郵件編號<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = 回覆給<span data-l10n-name="field-separator">:</span>
 message-header-website-field = 網站<span data-l10n-name="field-separator">:</span>
-message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
-message-header-list-unsubscribe-field = 使用清單方式取消訂閱<span data-l10n-name="field-separator">:</span>
-message-header-list-subscribe-field = 清單訂閱方式<span data-l10n-name="field-separator">:</span>
-message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
-message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
-message-header-list-archive-field = Log-Archive<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = 清單說明<span data-l10n-name="field-separator">：</span>
+message-header-list-unsubscribe-field = 清單取消訂閱<span data-l10n-name="field-separator">：</span>
+message-header-list-subscribe-field = 清單訂閱<span data-l10n-name="field-separator">：</span>
+message-header-list-post-field = 清單張貼<span data-l10n-name="field-separator">：</span>
+message-header-list-owner-field = 清單擁有者<span data-l10n-name="field-separator">：</span>
+message-header-list-archive-field = 清單備存位置<span data-l10n-name="field-separator">：</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
