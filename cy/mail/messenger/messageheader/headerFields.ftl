@@ -14,6 +14,12 @@ message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = Grwpiau Newyddion
 message-header-followup-to-list-name = Ymateb i
 message-header-tags-list-name = Tagiau
+message-header-list-help = Rhestr-Cymorth
+message-header-list-unsubscribe = Rhestr-Dad-danysgrifio
+message-header-list-subscribe = Rhestr-Tanysgrifio
+message-header-list-post = Rhestr-Post
+message-header-list-owner = Perchennog y Rhestr
+message-header-list-archive = Rhestr-Archif
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -21,13 +27,18 @@ message-header-tags-list-name = Tagiau
 message-header-author-field = Awdur<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Corff<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Pwnc<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Dilynol i<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Dyddiad<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Asiant defnyddiwr<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Cyfeiriadau<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = ID Neges<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Wrth ateb i<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Gwefan<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Rhestr-Help<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Rhestr-Dad-danysgrifio <span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Rhestr-Tanysgrifio <span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Rhestr-Post <span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Perchennog y Rhestr<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Rhestr-Archif<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
