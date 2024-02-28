@@ -15,7 +15,7 @@ message-header-newsgroups-list-name = Gruppi di discussione
 message-header-followup-to-list-name = Inoltra a
 message-header-tags-list-name = Etichette
 message-header-list-help = List-Help
-message-header-list-unsubscribe = List-Annulla iscrizione
+message-header-list-unsubscribe = List-Unsubscribe
 message-header-list-subscribe = List-Subscribe
 message-header-list-post = List-Post
 message-header-list-owner = List-Owner
@@ -37,7 +37,7 @@ message-header-list-help-field = List-Help<span data-l10n-name="field-separator"
 message-header-list-unsubscribe-field = List-Unsubscribe<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-separator">:</span>
 message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
-message-header-list-owner-field = Proprietario elenco<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
