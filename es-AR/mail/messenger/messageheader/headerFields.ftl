@@ -14,6 +14,12 @@ message-header-bcc-list-name = Cco
 message-header-newsgroups-list-name = Grupos de noticias
 message-header-followup-to-list-name = Redireccionar a
 message-header-tags-list-name = Etiquetas
+message-header-list-help = Lista-Ayuda
+message-header-list-unsubscribe = Cancelar suscripción
+message-header-list-subscribe = Suscribirse a listas
+message-header-list-post = Lista de mensajes
+message-header-list-owner = Propietario de la lista
+message-header-list-archive = List-Archive
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -21,13 +27,18 @@ message-header-tags-list-name = Etiquetas
 message-header-author-field = Autor<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organización<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Asunto<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Seguimiento a <span data-l10n-name="field-separator">:</span>
 message-header-date-field = Fecha<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Agente de usuario<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referencias<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = ID de Mensaje<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = En respuesta a<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Sitio web<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = List-Help <span data-l10n-name = "field-separator">: </span>
+message-header-list-unsubscribe-field = Cancelar suscripción <span data-l10n-name = "field-separator">: </span>
+message-header-list-subscribe-field = List-Suscribir <span data-l10n-name = "field-separator">: </span>
+message-header-list-post-field = List-Post <span data-l10n-name = "field-separator">: </span>
+message-header-list-owner-field = Propietario de la lista <span data-l10n-name = "field-separator">: </span>
+message-header-list-archive-field = Archivo de lista <span data-l10n-name = "field-separator">: </span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
