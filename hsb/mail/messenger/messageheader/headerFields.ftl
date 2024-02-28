@@ -18,7 +18,7 @@ message-header-list-help = Lisćina-Pomoc
 message-header-list-unsubscribe = Lisćina-Wotskazać
 message-header-list-subscribe = Lisćina-Abonować
 message-header-list-post = Lisćina-Přinošk
-message-header-list-owner = Lisćina-wobsedźer
+message-header-list-owner = Lisćina-Wobsedźer
 message-header-list-archive = Lisćina-Archiw
 
 ## Other message headers.
@@ -33,6 +33,12 @@ message-header-references-field = Referency<span data-l10n-name="field-separator
 message-header-message-id-field = Powěsćowy ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Wotmołwjejo na<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Websydło<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Lisćina-Pomoc<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Lisćina-Wotskazać<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Lisćina-Abonować<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Lisćina-Přinošk<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Lisćina-Wobsedźer<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Lisćina-Archiw<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
