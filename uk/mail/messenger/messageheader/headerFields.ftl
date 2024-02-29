@@ -14,6 +14,12 @@ message-header-bcc-list-name = Прихована копія
 message-header-newsgroups-list-name = Групи новин
 message-header-followup-to-list-name = Продовження до
 message-header-tags-list-name = Мітки
+message-header-list-help = Список-Допомога
+message-header-list-unsubscribe = Список-Відписатися
+message-header-list-subscribe = Список-Підписатися
+message-header-list-post = Список-Допис
+message-header-list-owner = Список-Власник
+message-header-list-archive = Список-Архів
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -27,6 +33,12 @@ message-header-references-field = Посилання<span data-l10n-name="field-
 message-header-message-id-field = ID повідомлення<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = У відповідь на<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Вебсайт<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Список-Допомога<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Список-Відпідписатися<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Список-Підписатися<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Список-Допис<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Список-Власник<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Список-Архів<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
