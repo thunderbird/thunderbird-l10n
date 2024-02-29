@@ -50,9 +50,9 @@ policy-EncryptedMediaExtensions = Encrypted Media Extensions’ı etkinleştir v
 # A “locked” extension can’t be disabled or removed by the user. This policy
 # takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
 # English or translate them as verbs.
-policy-Extensions = Eklentileri yükle, kaldır veya kilitle. Yükleme seçeneğinde parametre olarak URL veya yol kullanılır. Kaldırma ve kilitleme seçeneklerinde ise eklenti kimliği kullanılır.
-policy-ExtensionSettings = Eklenti kurulumunun tüm yönlerini yönet.
-policy-ExtensionUpdate = Otomatik eklenti güncellemelerini aç veya kapat.
+policy-Extensions = Uzantıları yükle, kaldır veya kilitle. Yükleme seçeneğinde parametre olarak URL veya yol kullanılır. Kaldırma ve kilitleme seçeneklerinde ise uzantı kimliği kullanılır.
+policy-ExtensionSettings = Uzantı kurulumunun tüm yönlerini yönet.
+policy-ExtensionUpdate = Otomatik uzantı güncellemelerini aç veya kapat.
 policy-Handlers = Varsayılan uygulama işleyicilerini yapılandır.
 policy-HardwareAcceleration = false ise donanım ivmelenmesini kapat.
 policy-InstallAddonsPermission = Belirli websitelerinin eklenti yüklemesine izin ver.
