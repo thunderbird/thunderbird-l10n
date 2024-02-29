@@ -29,6 +29,9 @@ menu-help-explore-features =
 menu-help-get-involved =
     .label = Ver med
     .accesskey = V
+menu-help-donation =
+    .label = Gje ei pengegåve
+    .accesskey = G
 menu-help-share-feedback =
     .label = Del idear og tilbakemeldingar
     .accesskey = D
@@ -38,9 +41,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Slå av feilsøkingsmodus
     .accesskey = a
-menu-help-more-troubleshooting-info =
-    .label = Meir feilsøkingsinformasjon
-    .accesskey = M
 menu-help-troubleshooting-info =
     .label = Feilsøkingsinfo
     .accesskey = F
@@ -62,6 +62,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Avslutt { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -109,12 +112,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Kompakt
     .accesskey = K
-mail-uidensity-normal =
-    .label = Normal
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Tøtsj
-    .accesskey = T
 mail-uidensity-default =
     .label = Standard
     .accesskey = S
