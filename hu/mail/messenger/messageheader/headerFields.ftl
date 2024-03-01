@@ -14,6 +14,12 @@ message-header-bcc-list-name = Rejtett másolat
 message-header-newsgroups-list-name = Hírcsoportok
 message-header-followup-to-list-name = Hírcsop. vál.
 message-header-tags-list-name = Címkék
+message-header-list-help = Lista-Súgó
+message-header-list-unsubscribe = Lista-Leiratkozás
+message-header-list-subscribe = Lista-Feliratkozás
+message-header-list-post = Lista-Hozzászólás
+message-header-list-owner = Lista-Tulajdonos
+message-header-list-archive = Lista-Archívum
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -21,13 +27,18 @@ message-header-tags-list-name = Címkék
 message-header-author-field = Szerző<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Szervezet<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Tárgy<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Válasz a következőre:<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Dátum<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Felhasználói ügynök<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Hivatkozások<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = Üzenetazonosító<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Válasz erre:<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Webhely<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Lista-Súgó<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Lista-Leiratkozás<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Lista-Feliratkozás<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Lista-Hozzászólás<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Lista-Tulajdonos<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Lista-Archívum<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
