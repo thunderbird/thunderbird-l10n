@@ -34,7 +34,7 @@ message-header-message-id-field = Meddelande-ID<span data-l10n-name="field-separ
 message-header-in-reply-to-field = Svar på<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Webbplats<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = Lista-Hjälp<span data-l10n-name="field-separator">:</span>
-message-header-list-unsubscribe-field = Lista-Avprenumerera <span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Lista-Avprenumerera<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = Lista-Prenumerera<span data-l10n-name="field-separator">:</span>
 message-header-list-post-field = Lista-Post<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Lista-Ägare<span data-l10n-name="field-separator">:</span>
