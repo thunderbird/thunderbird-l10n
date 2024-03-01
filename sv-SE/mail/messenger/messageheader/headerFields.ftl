@@ -14,6 +14,12 @@ message-header-bcc-list-name = Dold kopia
 message-header-newsgroups-list-name = Nyhetsgrupper
 message-header-followup-to-list-name = Uppföljning till
 message-header-tags-list-name = Taggar
+message-header-list-help = Lista-Hjälp
+message-header-list-unsubscribe = Lista-Avprenumerera
+message-header-list-subscribe = Lista-Prenumerera
+message-header-list-post = Lista-Post
+message-header-list-owner = Lista-Ägare
+message-header-list-archive = Lista-Arkiv
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -21,13 +27,18 @@ message-header-tags-list-name = Taggar
 message-header-author-field = Författare<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organisation<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Ämne<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Uppföljning till<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Datum<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Användaragent<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referenser<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = Meddelande-ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Svar på<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Webbplats<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Lista-Hjälp<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Lista-Avprenumerera <span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Lista-Prenumerera<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Lista-Post<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Lista-Ägare<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Lista-Arkiv<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
