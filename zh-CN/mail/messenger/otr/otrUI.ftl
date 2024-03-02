@@ -49,7 +49,7 @@ state-generic-private = 当前的对话已加密，且可确保隐私。
 state-finished = { $name } 已结束与您的加密对话；您也应该中断对话。
 state-not-private-label = 不安全
 state-unverified-label = 未验证
-state-private-label = 私人
+state-private-label = 私密
 state-finished-label = 已完成
 # Variables:
 #   $name (String) - the screen name of a chat contact person
