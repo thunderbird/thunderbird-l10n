@@ -87,20 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "删除消息">
-<!ENTITY deleteMsgCmd.accesskey "D">
-<!ENTITY undeleteMsgCmd.label "恢复已删除的消息">
-<!ENTITY undeleteMsgCmd.accesskey "d">
-<!ENTITY deleteMsgsCmd.label "删除选定的消息">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "恢复所选的消息">
-<!ENTITY undeleteMsgsCmd.accesskey "d">
-<!ENTITY deleteFolderCmd.label "删除文件夹">
-<!ENTITY deleteFolderCmd.accesskey "D">
-<!ENTITY unsubscribeNewsgroupCmd.label "取消订阅">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "选择">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "全部">
@@ -112,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "收藏夹">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "属性">
-<!ENTITY folderPropsFolderCmd2.label "文件夹属性">
-<!ENTITY folderPropsNewsgroupCmd2.label "新闻组属性">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "撤销 删除消息">
 <!ENTITY redoDeleteMsgCmd.label "重做删除消息">
 <!ENTITY undoMoveMsgCmd.label "撤销 移动消息">
@@ -147,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "文件夹窗格">
 <!ENTITY showFolderPaneCmd.accesskey "F">
-<!ENTITY showFolderPaneColsCmd.label "文件夹窗格列">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "消息窗格">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -409,12 +389,12 @@
 <!ENTITY toggleReadCmd.key "m">
 <!ENTITY markAsReadCmd.label "已读">
 <!ENTITY markAsReadCmd.accesskey "R">
-<!ENTITY markAsUnreadCmd.label "为未读">
+<!ENTITY markAsUnreadCmd.label "未读">
 <!ENTITY markAsUnreadCmd.accesskey "U">
 <!ENTITY markThreadAsReadCmd.label "话题为已读">
 <!ENTITY markThreadAsReadCmd.accesskey "T">
 <!ENTITY markThreadAsReadCmd.key "r">
-<!ENTITY markReadByDateCmd.label "已读日期…">
+<!ENTITY markReadByDateCmd.label "某日已读…">
 <!ENTITY markReadByDateCmd.accesskey "D">
 <!ENTITY markReadByDateCmd.key "c">
 <!ENTITY markAllReadCmd.label "全部已读">
@@ -423,10 +403,10 @@
 <!ENTITY markStarredCmd.label "添加星标">
 <!ENTITY markStarredCmd.accesskey "S">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "为垃圾">
+<!ENTITY markAsJunkCmd.label "垃圾">
 <!ENTITY markAsJunkCmd.accesskey "J">
 <!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "为非垃圾">
+<!ENTITY markAsNotJunkCmd.label "非垃圾">
 <!ENTITY markAsNotJunkCmd.accesskey "N">
 <!ENTITY markAsNotJunkCmd.key "j">
 <!ENTITY recalculateJunkScoreCmd.label "运行垃圾邮件控制">
@@ -598,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "新建消息">
 <!ENTITY appmenuNewContactCmd.label "通讯录联系人…">
-<!ENTITY appmenuEditMenu.label "编辑">
 <!ENTITY appmenuToolbarLayout.label "工具栏布局…">
-<!ENTITY appmenuSelectThread.label "选择话题">
-<!ENTITY appmenuSelectFlagged.label "选择加星标的消息">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "新建标签…">
@@ -906,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "I">
 <!ENTITY copyEmailCmd.label "复制邮件地址">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "停止">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "重新加载">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "在浏览器中打开">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "在浏览器中打开链接">
