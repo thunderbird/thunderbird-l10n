@@ -38,6 +38,7 @@ message-header-list-unsubscribe-field = Хаттарды тарату тізім
 message-header-list-subscribe-field = Хаттарды тарату тізімі-Жазылу<span data-l10n-name="field-separator">:</span>
 message-header-list-post-field = Хаттарды тарату тізімі-Хабарлама<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Хаттарды тарату тізімі-Иесі<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Хаттарды тарату тізімі-Иесі<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
