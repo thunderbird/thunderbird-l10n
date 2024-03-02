@@ -391,7 +391,7 @@
 <!ENTITY markAsReadCmd.accesskey "R">
 <!ENTITY markAsUnreadCmd.label "未读">
 <!ENTITY markAsUnreadCmd.accesskey "U">
-<!ENTITY markThreadAsReadCmd.label "话题为已读">
+<!ENTITY markThreadAsReadCmd.label "话题已读">
 <!ENTITY markThreadAsReadCmd.accesskey "T">
 <!ENTITY markThreadAsReadCmd.key "r">
 <!ENTITY markReadByDateCmd.label "某日已读…">
