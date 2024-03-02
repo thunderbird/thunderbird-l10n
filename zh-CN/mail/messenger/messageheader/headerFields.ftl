@@ -14,6 +14,7 @@ message-header-bcc-list-name = 密送
 message-header-newsgroups-list-name = 新闻组
 message-header-followup-to-list-name = 回复到
 message-header-tags-list-name = 标签
+message-header-list-help = 列表帮助
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -21,7 +22,6 @@ message-header-tags-list-name = 标签
 message-header-author-field = 作者<span data-l10n-name="field-separator">：</span>
 message-header-organization-field = 组织<span data-l10n-name="field-separator">：</span>
 message-header-subject-field = 主题<span data-l10n-name="field-separator">：</span>
-message-header-followup-to-field = 跟进发送至<span data-l10n-name="field-separator">：</span>
 message-header-date-field = 日期<span data-l10n-name="field-separator">：</span>
 message-header-user-agent-field = 用户代理<span data-l10n-name="field-separator">：</span>
 message-header-references-field = 参考<span data-l10n-name="field-separator">：</span>
