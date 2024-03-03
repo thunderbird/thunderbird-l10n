@@ -279,7 +279,7 @@ openpgp-acceptance-verified-label =
     .label = Ja, ich selbst habe überprüft, dass der Schlüssel über den korrekten Fingerabdruck verfügt.
 key-accept-personal =
     Für diesen Schlüssel besitzen Sie sowohl den öffentlichen als auch den geheimen Teil. Sie können ihn daher als persönlichen Schlüssel verwenden.
-    Falls Sie diesen Schlüssel von einer anderen Person erhalten haben, dann sollten Sie ihn keinesfalls als einen persönlichen Schlüssel verwenden.
+    Falls Sie diesen Schlüssel von einer anderen Person erhalten haben, sollten Sie ihn keinesfalls als einen persönlichen Schlüssel verwenden.
 openpgp-personal-no-label =
     .label = Nein, nicht als meinen persönlichen Schlüssel verwenden.
 openpgp-personal-yes-label =
