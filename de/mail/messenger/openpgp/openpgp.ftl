@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-intro-description = Um verschlüsselte oder digital signierte Nachrichten zu versenden, müssen Sie eine Verschlüsselungstechnologie einrichten, entweder OpenPGP oder S/MIME.
-e2e-intro-description-more = Wählen Sie Ihren persönlichen Schlüssel für die Verwendung von OpenPGP oder Ihr persönliches Zertifikat für S/MIME. Für einen persönlichen Schlüssel oder ein persönliches Zertifikat verfügen Sie über den entsprechenden geheimen Schlüssel.
+e2e-intro-description-more = Wählen Sie Ihren persönlichen Schlüssel für die Verwendung von OpenPGP oder Ihr persönliches Zertifikat für S/MIME. Bei einem persönlichen Schlüssel oder persönlichen Zertifikat sind Sie Eigentümer des entsprechenden geheimen Schlüssels.
 e2e-signing-description = Mit einer digitalen Signatur können Empfänger überprüfen, ob die Nachricht von Ihnen gesendet und ihr Inhalt nicht verändert wurde. Verschlüsselte Nachrichten sind standardmäßig immer signiert.
 e2e-sign-message =
     .label = Unverschlüsselte Nachrichten digital signieren
@@ -138,8 +138,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Öffentliche Schlüssel in Zwischenablage kopieren
         }
     .accesskey = p
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Schlüssel in Datei exportieren
 openpgp-key-man-ctx-copy =
     .label = Kopieren
     .accesskey = K
@@ -280,8 +278,8 @@ openpgp-acceptance-unverified-label =
 openpgp-acceptance-verified-label =
     .label = Ja, ich selbst habe überprüft, dass der Schlüssel über den korrekten Fingerabdruck verfügt.
 key-accept-personal =
-    Sie verfügen sowohl über den öffentlichen als auch über den geheimen Teil dieses Schlüssels und können ihn daher als persönlichen Schlüssel verwenden.
-    Falls Sie diesen Schlüssel von einer anderen Person erhalten haben, dürfen Sie diesen nicht als persönlichen Schlüssel verwenden.
+    Für diesen Schlüssel besitzen Sie sowohl den öffentlichen als auch den geheimen Teil. Sie können ihn daher als persönlichen Schlüssel verwenden.
+    Falls Sie diesen Schlüssel von einer anderen Person erhalten haben, dann sollten Sie ihn keinesfalls als einen persönlichen Schlüssel verwenden.
 openpgp-personal-no-label =
     .label = Nein, nicht als meinen persönlichen Schlüssel verwenden.
 openpgp-personal-yes-label =
@@ -431,8 +429,8 @@ filter-key-not-found = Kein Schlüssel für Verschlüsselung von '{ $desc }' gef
 # Variables:
 # $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
-    Warnung: Die Filteraktion "Mit Schlüssel verschlüsseln" ersetzt die Empfänger.
-    Falls Sie nicht über den geheimen Schlüssel für '{ $desc }' verfügen, werden Sie die E-Mails nicht mehr lesen können.
+    Achtung: Die Filteraktion „Mit Schlüssel verschlüsseln“ ersetzt die Empfänger.
+    Falls Sie den geheimen Schlüssel für „{ $desc }“ nicht besitzen, können Sie die E-Mails nicht mehr lesen.
 
 ## Strings filtersWrapper.jsm
 
@@ -536,8 +534,8 @@ revoke-key-question =
     Möchten Sie fortfahren?
 #   $keyId (String) - the id of the key being revoked
 revoke-key-not-present =
-    Sie verfügen über keinen Schlüssel (0x{ $keyId }), der zu diesem Widerrufszertifikat passt.
-    Wenn Sie Ihren Schlüssel verloren haben, müssen Sie ihn (z.B. von einem Schlüsselserver) importieren, bevor Sie das Widerrufszertifikat anwenden können.
+    Sie besitzen keinen Schlüssel (0x{ $keyId }), der zu diesem Widerrufszertifikat passt.
+    Falls Sie Ihren Schlüssel verloren haben, müssen Sie ihn importieren (z. B. von einem Schlüsselserver), bevor Sie das Widerrufszertifikat importieren.
 #   $keyId (String) - the id of the key being revoked
 revoke-key-already-revoked = Der Schlüssel 0x{ $keyId } wurde bereits widerrufen.
 key-man-button-revoke-key = Schlüssel &widerrufen
@@ -735,10 +733,6 @@ attachment-pgp-key =
     Bei dem zu öffnenden Anhang "{ $name }" scheint es sich um eine OpenPGP-Schlüsseldatei zu handeln.
     Wählen Sie "Importieren" für den Import der enthaltenen Schlüssel oder "Anzeigen", um die Datei in einem Browser-Fenster zu öffnen.
 dlg-button-view = &Anzeigen
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Entschlüsselte Nachricht (beschädigtes PGP-E-Mail-Format wiederhergestellt, welches vermutlich durch einen alten Exchange-Server verursacht wurde, weshalb der Inhalt eventuell nicht vollständig lesbar ist)
 
 ## Strings used in encryption.jsm
 

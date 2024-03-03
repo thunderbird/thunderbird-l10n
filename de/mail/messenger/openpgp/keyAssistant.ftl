@@ -12,8 +12,8 @@ openpgp-key-assistant-recipients-issue-header = Verschlüsselung nicht möglich
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-issue-description =
     { $count ->
-        [one] Um verschlüsseln zu können, müssen Sie über einen verwendbaren Schlüssel für einen Empfänger verfügen und diesen akzeptieren. <a data-l10n-name="openpgp-link">Weitere Informationen…</a>
-       *[other] Um verschlüsseln zu können, müssen Sie über verwendbare Schlüssel für { $count } Empfänger verfügen und diese akzeptieren. <a data-l10n-name="openpgp-link">Weitere Informationen…</a>
+        [one] Zum Verschlüsseln müssen Sie einen verwendbaren Schlüssel für einen Empfänger erhalten und akzeptieren. <a data-l10n-name="openpgp-link">Weitere Informationen…</a>
+       *[other] Zum Verschlüsseln müssen Sie verwendbare Schlüssel für { $count } Empfänger erhalten und akzeptieren. <a data-l10n-name="openpgp-link">Weitere Informationen…</a>
     }
 openpgp-key-assistant-info-alias = { -brand-short-name } erfordert standardmäßig die Übereinstimmung einer Benutzerkennung des öffentlichen Schlüssels des Empfängers mit einer E-Mail-Adresse. Dies kann mittels einer OpenPGP-Alias-Regel überschrieben werden. <a data-l10n-name="openpgp-link">Weitere Informationen…</a>
 # Variables:
