@@ -74,6 +74,8 @@ calendar-view-toggle-month = เดือน
 
 calendar-control-bar-menu-button =
     .title = ตัวเลือกเค้าโครงปฏิทิน
+calendar-find-events-menu-option =
+    .label = บานหน้าต่างค้นหาเหตุการณ์
 calendar-hide-weekends-option =
     .label = วันทำงานเท่านั้น
 calendar-define-workweek-option =

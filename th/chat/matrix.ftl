@@ -8,8 +8,13 @@
 
 ## Conversation names when a room has no user readable name.
 
-room-name-empty = การสนทนาว่าง
+room-name-empty = การสนทนาเปล่า
 # Variables:
 #  $oldName (String) - The previous name the conversation had before it was
 #    removed.
-room-name-empty-had-name = การสนทนาว่าง (เดิมชื่อ { $oldName })
+room-name-empty-had-name = การสนทนาเปล่า (เดิมชื่อ { $oldName })
+# Variables:
+#  $participant (String) - The name of one participant that isn't the user.
+#  $otherParticipantCount (Number) - The count of other participants apart from
+#    the user and $participant.
+room-name-others2 = { $participant } และอีก { $otherParticipantCount } คน
