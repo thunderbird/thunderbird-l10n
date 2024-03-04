@@ -142,6 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = ตัวบ่งชี้กิจกรรม
 toolbar-throbber =
     .title = ตัวบ่งชี้กิจกรรม
+toolbar-create-contact-label = ผู้ติดต่อใหม่
+toolbar-create-contact =
+    .title = สร้างผู้ติดต่อใหม่
+toolbar-create-address-book-label = สมุดรายชื่อใหม่
+toolbar-create-address-book =
+    .title = สร้างสมุดรายชื่อใหม่
+toolbar-create-list-label = รายชื่อใหม่
+toolbar-create-list =
+    .title = สร้างรายชื่อผู้รับจดหมายใหม่
+toolbar-import-contacts-label = นำเข้า
+toolbar-import-contacts =
+    .title = นำเข้าผู้ติดต่อจากไฟล์
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = เพิ่มสมุดรายชื่อในเครื่อง
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = เพิ่มสมุดรายชื่อ CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = เพิ่มสมุดรายชื่อ LDAP
