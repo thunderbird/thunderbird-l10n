@@ -2,6 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+dock-options-window-dialog2 =
+    .title = ตัวเลือกไอคอนแอป
+dock-options-dialog-title = ตัวเลือกไอคอนแอป
+dock-options-show-badge =
+    .label = แสดงไอคอนป้าย
+    .accesskey = ป
 bounce-system-dock-icon =
     .label = ทำให้ไอคอนแอปเคลื่อนไหวเมื่อมีข้อความใหม่มาถึง
     .accesskey = ท
@@ -14,3 +20,4 @@ count-unread-messages-radio =
 count-new-messages-radio =
     .label = จำนวนข้อความใหม่
     .accesskey = ม
+notification-settings-info2 = คุณสามารถปิดใช้งานป้ายในบานหน้าต่างการแจ้งเตือนของการตั้งค่าระบบ

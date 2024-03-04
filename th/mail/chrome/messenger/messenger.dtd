@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "ลบข้อความ">
-<!ENTITY deleteMsgCmd.accesskey "ล">
-<!ENTITY undeleteMsgCmd.label "เลิกลบข้อความ">
-<!ENTITY undeleteMsgCmd.accesskey "เ">
-<!ENTITY deleteMsgsCmd.label "ลบข้อความที่เลือก">
-<!ENTITY deleteMsgsCmd.accesskey "ล">
-<!ENTITY undeleteMsgsCmd.label "เลิกลบข้อความที่เลือก">
-<!ENTITY undeleteMsgsCmd.accesskey "เ">
-<!ENTITY deleteFolderCmd.label "ลบโฟลเดอร์">
-<!ENTITY deleteFolderCmd.accesskey "ล">
-<!ENTITY unsubscribeNewsgroupCmd.label "เลิกบอกรับ">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "เ">
 <!ENTITY selectMenu.label "เลือก">
 <!ENTITY selectMenu.accesskey "อ">
 <!ENTITY all.label "ทั้งหมด">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "ต">
 <!ENTITY menuFavoriteFolder.label "โฟลเดอร์โปรด">
 <!ENTITY menuFavoriteFolder.accesskey "ฟ">
-<!ENTITY folderPropsCmd2.label "คุณสมบัติ">
-<!ENTITY folderPropsFolderCmd2.label "คุณสมบัติโฟลเดอร์">
-<!ENTITY folderPropsNewsgroupCmd2.label "คุณสมบัติกลุ่มข่าว">
-<!ENTITY folderPropsCmd.accesskey "ค">
 <!ENTITY undoDeleteMsgCmd.label "เลิกทำการลบข้อความ">
 <!ENTITY redoDeleteMsgCmd.label "ทำซ้ำการลบข้อความ">
 <!ENTITY undoMoveMsgCmd.label "เลิกทำการย้ายข้อความ">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "แ">
 <!ENTITY showFolderPaneCmd.label "บานหน้าต่างโฟลเดอร์">
 <!ENTITY showFolderPaneCmd.accesskey "บ">
-<!ENTITY showFolderPaneColsCmd.label "คอลัมน์บานหน้าต่างโฟลเดอร์">
-<!ENTITY showFolderPaneColsCmd.accesskey "ค">
 <!ENTITY showMessageCmd.label "บานหน้าต่างข้อความ">
 <!ENTITY showMessageCmd.accesskey "ข">
 
@@ -202,9 +184,9 @@
 <!ENTITY sortAscending.accesskey "น">
 <!ENTITY sortDescending.label "จากมากไปน้อย">
 <!ENTITY sortDescending.accesskey "ม">
-<!ENTITY sortThreaded.label "มีเธรด">
+<!ENTITY sortThreaded.label "มีหัวข้อ">
 <!ENTITY sortThreaded.accesskey "ธ">
-<!ENTITY sortUnthreaded.label "ไม่มีเธรด">
+<!ENTITY sortUnthreaded.label "ไม่มีหัวข้อ">
 <!ENTITY sortUnthreaded.accesskey "ไ">
 <!ENTITY groupBySort.label "จัดกลุ่มตามการเรียง">
 <!ENTITY groupBySort.accesskey "จ">
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "ข้อความใหม่">
 <!ENTITY appmenuNewContactCmd.label "ผู้ติดต่อของสมุดรายชื่อ…">
-<!ENTITY appmenuEditMenu.label "แก้ไข">
 <!ENTITY appmenuToolbarLayout.label "เค้าโครงแถบเครื่องมือ…">
-<!ENTITY appmenuSelectThread.label "เลือกเธรด">
-<!ENTITY appmenuSelectFlagged.label "เลือกข้อความที่ติดดาว">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "ป้ายกำกับใหม่…">
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "ภ">
 <!ENTITY copyEmailCmd.label "คัดลอกที่อยู่อีเมล">
 <!ENTITY copyEmailCmd.accesskey "อ">
-<!ENTITY stopCmd.label "หยุด">
-<!ENTITY stopCmd.accesskey "ห">
-<!ENTITY reloadCmd.label "โหลดใหม่">
-<!ENTITY reloadCmd.accesskey "ใ">
 <!ENTITY openInBrowser.label "เปิดในเบราว์เซอร์">
 <!ENTITY openInBrowser.accesskey "ป">
 <!ENTITY openLinkInBrowser.label "เปิดลิงก์ในเบราว์เซอร์">
