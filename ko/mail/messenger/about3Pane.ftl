@@ -5,6 +5,10 @@
 
 ## Message List Header Bar
 
+thread-pane-header-context-table-view =
+    .label = 테이블 보기
+thread-pane-header-context-cards-view =
+    .label = 카드 보기
 
 ## Quick Filter Bar
 
@@ -120,13 +124,29 @@ folder-pane-get-all-messages-menuitem =
 folder-pane-mode-context-toggle-compact-mode =
     .label = 간단히 보기
     .accesskey = C
+folder-pane-mode-move-up =
+    .label = 위로 이동
+folder-pane-mode-move-down =
+    .label = 아래로 이동
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label = { $count }개의 읽지 않은 메시지
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label = { $count }개의 총 메시지
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = 모든 메시지 선택 토글
+threadpane-column-header-select-all =
+    .title = 모든 메시지 선택
+threadpane-column-header-deselect-all =
+    .title = 모든 메시지 선택 해제
 threadpane-column-label-select =
     .label = 메시지 선택
+threadpane-cell-select =
+    .aria-label = 메시지 선택
 threadpane-column-label-thread =
     .label = 글타래
 threadpane-column-header-flagged =
