@@ -14,6 +14,12 @@ message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = Nieuwsgroepen
 message-header-followup-to-list-name = Opvolgen aan
 message-header-tags-list-name = Labels
+message-header-list-help = Lijst-Help
+message-header-list-unsubscribe = Lijst-Afmelden
+message-header-list-subscribe = Lijst-Abonneren
+message-header-list-post = Lijst-Bericht
+message-header-list-owner = Lijst-Eigenaar
+message-header-list-archive = Lijst-Archief
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -21,13 +27,18 @@ message-header-tags-list-name = Labels
 message-header-author-field = Auteur<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organisatie<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Onderwerp<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Vervolg op<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Datum<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Useragent<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referenties<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = Bericht-ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Als antwoord op<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Website<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Lijst-Help<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Lijst-Afmelden<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Lijst-Abonneren<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Lijst-Bericht<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Lijst-Eigenaar<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Lijst-Archief<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
