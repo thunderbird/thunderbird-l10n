@@ -43,6 +43,6 @@ community-desc = { -brand-short-name } е разработен от <a data-l10n
 about-donation = Искате  ли да помогнете? <a data-l10n-name="helpus-donate-link">Направете дарение</a> или <a data-l10n-name="helpus-get-involved-link">се включете и вие в проекта!</a>
 bottom-links-license = Лицензна информация
 bottom-links-rights = Права на крайния потребител
-bottom-links-privacy = Политика на поверителност
+bottom-links-privacy = Политика за личните данни
 cmd-close-mac-command-key =
     .key = w

@@ -7,7 +7,7 @@ provisioner-searching-icon =
     .alt = Търсене…
 account-provisioner-title = Създаване на нов имейл адрес
 account-provisioner-description = Използвайте нашите доверени партньори, за да получите нов личен и защитен имейл адрес.
-account-provisioner-start-help = Използваните думи за търсене се изпращат до { -vendor-short-name } (<a data-l10n-name="mozilla-privacy-link">Декларация за поверителност</a>) и трети страни доставчици на имейл <strong>mailfence.com </strong> (<a data-l10n-name="mailfence-privacy-link">Декларация за поверителност</a>, <a data-l10n-name="mailfence-tou-link">Условия за ползване</a >) и <strong>gandi.net</strong> (<a data-l10n-name="gandi-privacy-link">Правила за поверителност</a>, <a data-l10n-name="gandi-tou- link">Условия за ползване</a>), за да намерите налични имейл адреси.
+account-provisioner-start-help = Използваните думи за търсене се изпращат до { -vendor-short-name } (<a data-l10n-name="mozilla-privacy-link">Политика за личните данни</a>) и трети страни доставчици на имейл <strong>mailfence.com </strong> (<a data-l10n-name="mailfence-privacy-link">Политика за личните данни</a>, <a data-l10n-name="mailfence-tou-link">Условия за ползване</a >) и <strong>gandi.net</strong> (<a data-l10n-name="gandi-privacy-link">Правила за поверителност</a>, <a data-l10n-name="gandi-tou- link">Условия за ползване</a>), за да намерите налични имейл адреси.
 account-provisioner-mail-account-title = Купете си нов имейл адрес
 account-provisioner-mail-account-description = Thunderbird си партнира с <a data-l10n-name="mailfence-home-link">Mailfence</a>, за да ви предложи нов личен и защитен имейл. Вярваме, че всеки трябва да има защитен имейл.
 account-provisioner-domain-title = Купете си собствен имейл и домейн
