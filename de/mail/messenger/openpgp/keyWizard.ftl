@@ -5,13 +5,10 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Persönlichen OpenPGP-Schlüssel für { $identity } hinzufügen
-key-wizard-button =
-    .buttonlabelaccept = Weiter
-    .buttonlabelhelp = Zurück
 key-wizard-dialog =
     .buttonlabelaccept = Fortfahren
     .buttonlabelextra1 = Zurück
-key-wizard-warning = <b>Falls Sie bereits einen persönlichen Schlüssel für diese E-Mail-Adresse besitzen</b>, sollten Sie diesen importieren. Ansonsten haben Sie keinen Zugriff auf Ihre alten verschlüsselten Nachrichten noch werden Sie die Nachrichten von Personen lesen können, welche noch Ihren alten Schlüssel verwenden.
+key-wizard-warning = <b>Falls Sie bereits einen persönlichen Schlüssel für diese E-Mail-Adresse besitzen</b>, sollten Sie diesen importieren. Andernfalls haben Sie keinen Zugriff auf Ihre alten verschlüsselten E-Mails und können auch keine eingehenden verschlüsselten E-Mails von Personen lesen, die noch Ihren bisherigen Schlüssel verwenden.
 key-wizard-learn-more = Weitere Informationen
 radio-create-key =
     .label = Neuen OpenPGP-Schlüssel erzeugen
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = Als persönlich gekennzeichnete Schlüssel wer
 openpgp-import-keep-passphrases =
     .label = Passphrasenschutz für importierte geheime Schlüssel beibehalten
 openpgp-passphrase-prompt-title = Passwort benötigt
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Bitte Passwort eingeben, um den folgenden Schlüssel zu entsperren: { $key }
 openpgp-import-key-button =
     .label = Datei für den Import auswählen…
     .accesskey = D
