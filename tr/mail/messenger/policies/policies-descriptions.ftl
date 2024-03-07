@@ -40,7 +40,7 @@ policy-DisableSecurityBypass = Kullanıcının bazı güvenlik uyarılarını at
 policy-DisableSystemAddonUpdate = { -brand-short-name } uygulamasının sistem eklentilerini yüklemesini ve güncellemesini önle.
 policy-DisableTelemetry = Telemetri’yi kapat.
 policy-DisplayMenuBar = Varsayılan olarak menü çubuğunu göster.
-policy-DNSOverHTTPS = HTTP üzerinden DNS’i yapılandır.
+policy-DNSOverHTTPS = HTTPS üzerinden DNS’i yapılandır.
 policy-DontCheckDefaultClient = Başlangıçta varsayılan istemci kontrolünü devre dışı bırak.
 policy-DownloadDirectory = İndirme klasörünü ayarla ve kilitle.
 # “lock” means that the user won’t be able to change this setting

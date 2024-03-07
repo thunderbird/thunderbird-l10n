@@ -84,5 +84,5 @@ proxy-remote-dns =
     .label = SOCKS v5 kullanırken vekil sunucu DNS’i
     .accesskey = d
 proxy-enable-doh =
-    .label = HTTP üzerinden DNS’i etkinleştir
+    .label = HTTPS üzerinden DNS’i etkinleştir
     .accesskey = D
