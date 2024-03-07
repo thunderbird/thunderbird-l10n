@@ -63,6 +63,8 @@ calendar-view-toggle-month = Ամիս
 
 calendar-control-bar-menu-button =
     .title = Օրացույցի դասավորության ընտրանքներ
+calendar-find-events-menu-option =
+    .label = Գտնել իրադարձությունների վահանակը
 calendar-hide-weekends-option =
     .label = Միայն աշխատանքային օրեր
 calendar-define-workweek-option =

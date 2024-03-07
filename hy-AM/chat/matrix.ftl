@@ -9,3 +9,7 @@
 ## Conversation names when a room has no user readable name.
 
 room-name-empty = Դատարկ խոսակցություն
+# Variables:
+#  $oldName (String) - The previous name the conversation had before it was
+#    removed.
+room-name-empty-had-name = Դատարկ խոսակցություն (եղել է { $oldName })-ում

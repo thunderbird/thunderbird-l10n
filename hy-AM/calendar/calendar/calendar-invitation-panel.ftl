@@ -8,7 +8,6 @@ calendar-invitation-panel-intro-cancel = { $organizer }-ը չեղարկել է՝
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Պահպանել
 calendar-invitation-panel-view-button = Տեսք
 calendar-invitation-panel-update-button = Թարմացնել
 calendar-invitation-panel-delete-button = Ջնջել
@@ -22,14 +21,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Ցույց տալ փոփոխությունները
 calendar-invitation-panel-prop-title-when = Երբ․
 calendar-invitation-panel-prop-title-location = Տեղադրությունը.
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.
@@ -94,3 +85,4 @@ calendar-invitation-panel-partstat-tentative = { $count } միգուցե
 calendar-invitation-panel-prop-title-attachments = Կցորդներ՝
 calendar-invitation-change-indicator-removed = Հեռացված
 calendar-invitation-change-indicator-added = Նոր
+calendar-invitation-change-indicator-modified = Փոխված
