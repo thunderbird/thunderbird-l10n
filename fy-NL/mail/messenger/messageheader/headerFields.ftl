@@ -14,6 +14,12 @@ message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = Nijsgroepen
 message-header-followup-to-list-name = Reaksjes-nei
 message-header-tags-list-name = Labels
+message-header-list-help = List-Help
+message-header-list-unsubscribe = List-Ofmelde
+message-header-list-subscribe = List-Abonnearje
+message-header-list-post = List-Berjocht
+message-header-list-owner = List-Eigner
+message-header-list-archive = List-Argyf
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -21,13 +27,18 @@ message-header-tags-list-name = Labels
 message-header-author-field = Auteur<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organisaasje<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Underwerp<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Ferfolch op<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Datum<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Useragent<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referinsjes<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = Berjocht-ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = As antwurd op<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Website<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = List-Ofmelde<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = List-Abonnearje<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = List-Berjocht<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = List-Eigner<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = List-Argyf<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
