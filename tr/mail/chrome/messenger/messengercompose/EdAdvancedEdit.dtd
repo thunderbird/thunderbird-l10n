@@ -14,5 +14,5 @@
 <!ENTITY tabCSS.label                   "Satır İçi Biçem">
 <!ENTITY tabJSE.label                   "JavaScript Olayları">
 
-<!ENTITY editAttribute.label    "Bir ögenin değerini değiştirmek için üzerine tıklayın">
+<!ENTITY editAttribute.label    "Bir öğenin değerini değiştirmek için üzerine tıklayın">
 <!ENTITY removeAttribute.label  "Kaldır">

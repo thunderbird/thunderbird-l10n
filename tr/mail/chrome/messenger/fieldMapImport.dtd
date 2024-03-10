@@ -6,7 +6,7 @@
 <!ENTITY fieldMapImport.next.accesskey "n">
 <!ENTITY fieldMapImport.previous.label "Önceki">
 <!ENTITY fieldMapImport.previous.accesskey "c">
-<!ENTITY fieldMapImport.text "Soldaki adres defteri alanlarını sağdaki içe alınacak verilerle eşleştirmek için Yukarı ve Aşağı düğmelerini kullanın. İçe almak istemediğiniz ögelerin işaretini kaldırın.">
+<!ENTITY fieldMapImport.text "Soldaki adres defteri alanlarını sağdaki içe alınacak verilerle eşleştirmek için Yukarı ve Aşağı düğmelerini kullanın. İçe almak istemediğiniz öğelerin işaretini kaldırın.">
 <!ENTITY fieldMapImport.up.label "Yukarı">
 <!ENTITY fieldMapImport.up.accesskey "Y">
 <!ENTITY fieldMapImport.down.label "Aşağı">
