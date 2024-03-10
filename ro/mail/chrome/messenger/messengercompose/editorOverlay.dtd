@@ -57,7 +57,7 @@
 <!ENTITY fontCourier.accesskey "C">
 
 <!-- Font Size SubMenu -->
-<!ENTITY FontSizeSelect.tooltip "Alege o dimensiune a fontului">
+<!ENTITY FontSizeSelect.tooltip "Alege o dimensiune pentru font">
 <!ENTITY decreaseFontSize.label "Mai mică">
 <!ENTITY decreaseFontSize.accesskey "M">
 <!ENTITY decrementFontSize.key "&lt;">
@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Proprietăți tabel…">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Imagine">
 <!ENTITY imageToolbarCmd.tooltip "Inserează o imagine nouă sau editează proprietățile imaginii selectate">
 <!ENTITY hruleToolbarCmd.label "Linie orizontală">
