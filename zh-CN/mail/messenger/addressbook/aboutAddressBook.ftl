@@ -82,40 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = 按电子邮件地址排序（A > Z）
 about-addressbook-sort-email-descending =
     .label = 按电子邮件地址排序（Z > A）
-about-addressbook-horizontal-layout =
-    .label = 切换为水平布局
-about-addressbook-vertical-layout =
-    .label = 切换为垂直布局
 about-addressbook-table-layout =
     .label = 表格视图
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = 名称
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = 电子邮件地址
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = 手机号码
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = 地址
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = 职位
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = 部门
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = 公司
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = 通讯录
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = 名称
     .title = 按名称排序
 about-addressbook-column-label-generatedname2 =
@@ -179,15 +151,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] 移除联系人
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] 您确定要从 { $list } 删除联系人 { $name } 吗？
-       *[other] 您确定要从 { $list } 列表删除 { $count } 位联系人吗？
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = 您确定要从“{ $list }”中删除“{ $name }”吗？
@@ -200,14 +163,6 @@ about-addressbook-confirm-remove-contacts-multi = 您确定要从“{ $list }”
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
        *[other] 删除联系人
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] 您确定要删除联系人 { $name } 吗？
-       *[other] 您确定要删除下列 { $count } 位联系人吗？
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -227,15 +182,6 @@ about-addressbook-placeholder-no-search-results = 找不到联系人
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } 个选定的联系人和列表
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } 位选定的联系人
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } 个选定的列表
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 = 已选 { $count } 位联系人
@@ -262,7 +208,7 @@ about-addressbook-details-email-addresses-header = 电子邮件地址
 about-addressbook-details-phone-numbers-header = 手机号码
 about-addressbook-details-addresses-header = 地址
 about-addressbook-details-notes-header = 备注
-about-addressbook-details-impp-header = 即时通讯
+about-addressbook-details-impp-header = 即时通信
 about-addressbook-details-websites-header = 网站
 about-addressbook-details-other-info-header = 其他信息
 about-addressbook-entry-type-work = 工作

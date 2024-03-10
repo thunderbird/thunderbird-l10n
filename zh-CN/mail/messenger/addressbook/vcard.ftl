@@ -70,7 +70,7 @@ vcard-tz-add = 添加时区
 
 # IMPP vCard field
 
-vcard-impp2-header = 即时通讯
+vcard-impp2-header = 即时通信
 vcard-impp-add = 添加聊天账户
 vcard-impp-label = 聊天账户
 vcard-impp-select = 协议
