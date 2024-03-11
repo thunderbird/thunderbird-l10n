@@ -13,14 +13,14 @@
 <!ENTITY maximumConnectionsNumber.label "Önbelleğe alınacak bağlantı sayısı üst sınırı">
 <!ENTITY maximumConnectionsNumber.accesskey "n">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
-<!ENTITY namespaceDesc.label "Bu tercihler IMAP sunucunuzdaki ad uzaylarını tanımlar">
-<!ENTITY personalNamespace.label "Kişisel ad uzayı:">
+<!ENTITY namespaceDesc.label "Bu tercihler IMAP sunucunuzdaki isim uzaylarını tanımlar">
+<!ENTITY personalNamespace.label "Kişisel isim uzayı:">
 <!ENTITY personalNamespace.accesskey "z">
 <!ENTITY publicNamespace.label "Genel (paylaşılan):">
 <!ENTITY publicNamespace.accesskey "e">
 <!ENTITY otherUsersNamespace.label "Diğer kullanıcılar:">
 <!ENTITY otherUsersNamespace.accesskey "i">
-<!ENTITY overrideNamespaces.label "Sunucunun bu ad uzaylarının üstüne yazmasına izin ver">
+<!ENTITY overrideNamespaces.label "Sunucunun bu isim uzaylarının üstüne yazmasına izin ver">
 <!ENTITY overrideNamespaces.accesskey "u">
 <!ENTITY pop3DeferringDesc.label "Bu hesabın sunucusundan e-posta indirirken yeni iletileri depolamak için şu dizini kullan:">
 <!ENTITY accountInbox.label "Bu hesabın gelen kutusu">
