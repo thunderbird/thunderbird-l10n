@@ -27,7 +27,7 @@ e2e-encrypt-drafts =
     .accesskey = r
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =
-    .label = Autocrypt ile uyumluluk için OpenPGP ortak anahtarlarını e-posta üstbilgisinde gönder
+    .label = Autocrypt ile uyumluluk için OpenPGP ortak anahtarlarını e-posta üst bilgisinde gönder
     .accesskey = t
 openpgp-key-created-label =
     .label = Oluşturma
@@ -138,8 +138,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Ortak anahtarları panoya kopyala
         }
     .accesskey = O
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Anahtarları dosyaya aktar
 openpgp-key-man-ctx-copy =
     .label = Kopyala
     .accesskey = K
@@ -685,9 +683,6 @@ attachment-pgp-key =
     Açtığınız '{ $name }' eki bir OpenPGP anahtar dosyası gibi görünüyor.
     Dosyanın içerdiği anahtarları içe aktarmak için 'İçe aktar'ı veya dosya içeriğini tarayıcı penceresinde görüntülemek için 'Görüntüle'yi tıklayın
 dlg-button-view = &Göster
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
 
 ## Strings used in encryption.jsm
 
