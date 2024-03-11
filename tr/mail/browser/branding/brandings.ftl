@@ -15,4 +15,4 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
--profiler-brand-name = Firefox Profilleyici
+-profiler-brand-name = Firefox Profiler
