@@ -7,7 +7,7 @@
 <!ENTITY pageColors.label "Sayfa Renkleri">
 <!ENTITY defaultColorsRadio.label "Okuyucunun varsayılan renkleri (Sayfada renk belirleme)">
 <!ENTITY defaultColorsRadio.accessKey "d">
-<!ENTITY defaultColorsRadio.tooltip "Sadece okuyucunun tarayıcısındaki renk ayarlarını kullan">
+<!ENTITY defaultColorsRadio.tooltip "Yalnızca okuyucunun tarayıcısındaki renk ayarlarını kullan">
 <!ENTITY customColorsRadio.label "Özel renkleri kullan:">
 <!ENTITY customColorsRadio.accessKey "r">
 <!ENTITY customColorsRadio.tooltip "Bu renkler okuyucunun tarayıcı ayarlarından önceliklidir">

@@ -5,7 +5,7 @@
 calendar-editable-item-privacy-icon-private =
     .alt = Gizlilik: Özel etkinlik
 calendar-editable-item-privacy-icon-confidential =
-    .alt = Gizlilik: Sadece saati ve tarihi göster
+    .alt = Gizlilik: Yalnızca saati ve tarihi göster
 calendar-editable-item-recurrence =
     .alt = Yinelenen
 calendar-editable-item-recurrence-exception =

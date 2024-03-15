@@ -62,13 +62,13 @@ calendar-nav-button-next-tooltip-year =
 calendar-today-button-tooltip =
     .title = Bugüne git
 calendar-view-toggle-day = Gün
-    .title = Günlük gösterime geç
+    .title = Gün görünümüne geç
 calendar-view-toggle-week = Hafta
     .title = Hafta görünümüne geç
 calendar-view-toggle-multiweek = Çok haftalı
     .title = Çok haftalı görünüme geç
 calendar-view-toggle-month = Ay
-    .title = Aylık gösterime geç
+    .title = Ay görünümüne geç
 
 ## Menu on calendar control bar
 
@@ -77,7 +77,7 @@ calendar-control-bar-menu-button =
 calendar-find-events-menu-option =
     .label = Etkinlik bulma bölmesi
 calendar-hide-weekends-option =
-    .label = Sadece iş günleri
+    .label = Yalnızca iş günleri
 calendar-define-workweek-option =
     .label = İş günlerini tanımla
 calendar-show-tasks-calendar-option =

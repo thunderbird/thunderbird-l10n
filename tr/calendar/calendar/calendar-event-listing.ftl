@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-event-listing-close =
-    .tooltiptext = Olay aramayı ve olay listesini kapat
+    .tooltiptext = Etkinlik aramayı ve etkinlik listesini kapat
 
 ## Listing columns
 

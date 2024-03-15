@@ -133,7 +133,7 @@
 <!ENTITY  event.menu.options.privacy.accesskey                "G">
 <!ENTITY  event.menu.options.privacy.public.label             "Açık etkinlik">
 <!ENTITY  event.menu.options.privacy.public.accesskey         "A">
-<!ENTITY  event.menu.options.privacy.confidential.label       "Sadece saati ve tarihi göster">
+<!ENTITY  event.menu.options.privacy.confidential.label       "Yalnızca saati ve tarihi göster">
 <!ENTITY  event.menu.options.privacy.confidential.accesskey   "S">
 <!ENTITY  event.menu.options.privacy.private.label            "Özel etkinlik">
 <!ENTITY  event.menu.options.privacy.private.accesskey        "z">
@@ -235,7 +235,7 @@
 <!ENTITY event.url.label                                  "İlgili bağlantı:" >
 <!ENTITY event.priority2.label                            "Önemlilik:">
 
-<!ENTITY event.reminder.none.label                        "Anımsatıcı yok" >
+<!ENTITY event.reminder.none.label                        "Anımsatıcı yok " >
 <!ENTITY event.reminder.0minutes.before.label             "0 dakika önce" >
 <!ENTITY event.reminder.5minutes.before.label             "5 dakika önce" >
 <!ENTITY event.reminder.15minutes.before.label            "15 dakika önce" >
@@ -316,7 +316,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.2.label       "Şubat" >
 <!ENTITY event.recurrence.pattern.yearly.month.3.label       "Mart" >
 <!ENTITY event.recurrence.pattern.yearly.month.4.label       "Nisan" >
-<!ENTITY event.recurrence.pattern.yearly.month.5.label       "May" >
+<!ENTITY event.recurrence.pattern.yearly.month.5.label       "Mayıs" >
 <!ENTITY event.recurrence.pattern.yearly.month.6.label       "Haziran" >
 <!ENTITY event.recurrence.pattern.yearly.month.7.label       "Temmuz" >
 <!ENTITY event.recurrence.pattern.yearly.month.8.label       "Ağustos" >
@@ -355,7 +355,7 @@
 
 <!ENTITY event.recurrence.range.label                   "Tekrarlama aralığı">
 <!ENTITY event.recurrence.forever.label                 "Bitiş tarihi yok" >
-<!ENTITY event.recurrence.repeat.for.label              "⁠" >
+<!ENTITY event.recurrence.repeat.for.label              "Oluştur" >
 <!ENTITY event.recurrence.appointments.label            "etkinlik oluştur" >
 <!ENTITY event.repeat.until.label                       "Şu tarihe kadar tekrarla" >
 
