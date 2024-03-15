@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = C
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Générer et enregistrer un certificat de révocation
+openpgp-key-man-gen-revocation =
+    .label = Enregistrer le certificat de révocation dans un fichier
+    .accesskey = E
 openpgp-key-man-file-menu =
     .label = Fichier
     .accesskey = F
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Copier les clés publiques dans le presse-papiers
         }
     .accesskey = p
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Exporter les clés vers un fichier
 openpgp-key-man-ctx-copy =
     .label = Copier
     .accesskey = C
@@ -730,10 +731,6 @@ attachment-pgp-key =
     La pièce jointe « { $name } » que vous essayez d’ouvrir semble être un fichier de clé OpenPGP.
     Cliquez sur « Importer » pour importer les clés contenues ou sur « Afficher » pour afficher le contenu du fichier dans une fenêtre de navigateur.
 dlg-button-view = &Afficher
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = E-mail déchiffré (restauration d’un format d’e-mail PGP défectueux probablement causé par un ancien serveur Exchange ; le résultat pourrait ne pas être complètement lisible)
 
 ## Strings used in encryption.jsm
 
