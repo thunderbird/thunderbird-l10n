@@ -450,3 +450,5 @@ apply-current-view-to-folder-message = Gosod golwg y ffolder gyfredol i { $name 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Gosod golwg y ffolder gyfredol i { $name } a'i phlant?
+threadpane-card-menu-button =
+    .title = Dewislen neges

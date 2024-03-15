@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = D
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Cynhyrchu a Chadw Tystysgrif Dirymu
+openpgp-key-man-gen-revocation =
+    .label = Cadw Tystysgrif Diddymu I Ffeil
+    .accesskey = C
 openpgp-key-man-file-menu =
     .label = Ffeil
     .accesskey = F
@@ -759,10 +762,6 @@ attachment-pgp-key =
     Mae'n ymddangos bod yr atodiad '{ $name }' rydych chi'n ei agor yn ffeil allwedd OpenPGP.
     Cliciwch 'Mewnforio' i fewnforio'r allweddi sydd wedi'u cynnwys neu 'Golwg' i weld cynnwys y ffeil mewn ffenestr porwr
 dlg-button-view = &Golwg
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Neges wedi'i dadgryptio (fformat e-bost PGP wedi'i dorri wedi'i adfer yn ôl pob tebyg wedi'i achosi gan hen weinydd Exchange, fel na fyddai'r canlyniad yn berffaith i'w darllen o bosibl)
 
 ## Strings used in encryption.jsm
 
