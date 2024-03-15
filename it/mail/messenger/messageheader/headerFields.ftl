@@ -14,12 +14,22 @@ message-header-bcc-list-name = Ccn
 message-header-newsgroups-list-name = Gruppi di discussione
 message-header-followup-to-list-name = Inoltra a
 message-header-tags-list-name = Etichette
+# List management header - RFC 2369.
+message-header-list-id = List-ID
+# List management header - RFC 2369.
 message-header-list-help = List-Help
+# List management header - RFC 2369.
 message-header-list-unsubscribe = List-Unsubscribe
+# List management header - RFC 2369.
 message-header-list-subscribe = List-Subscribe
+# List management header - RFC 2369.
 message-header-list-post = List-Post
+# List management header - RFC 2369.
 message-header-list-owner = List-Owner
+# List management header - RFC 2369.
 message-header-list-archive = List-Archive
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Archiviato-a
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -33,12 +43,42 @@ message-header-references-field = Riferimenti<span data-l10n-name="field-separat
 message-header-message-id-field = ID messaggio<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = In risposta a<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Sito web<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = List-Unsubscribe<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-separator">:</span>
 message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Archiviato-in<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Ottieni assistenza
+    .accesskey = O
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Annulla iscrizione…
+    .accesskey = A
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Sottoscrivi…
+    .accesskey = S
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Scrivi
+    .accesskey = S
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Contatta l’amministratore…
+    .accesskey = C
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Elenca archivi
+    .accesskey = E
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Permalink del messaggio
+    .accesskey = P
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.

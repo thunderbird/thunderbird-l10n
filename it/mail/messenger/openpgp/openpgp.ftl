@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = r
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Genera e salva il certificato di revoca
+openpgp-key-man-gen-revocation =
+    .label = Salva certificato di revoca in un file
+    .accesskey = S
 openpgp-key-man-file-menu =
     .label = File
     .accesskey = F
@@ -730,10 +733,6 @@ attachment-pgp-key =
     L’allegato “{ $name }” che si sta aprendo sembra essere un file della chiave OpenPGP.
     Fare clic su “Importa” per importare le chiavi contenute o su “Visualizza” per visualizzare il contenuto del file in una finestra del browser
 dlg-button-view = &Visualizza
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Messaggio decrittato (ripristinato formato di posta PGP danneggiato, probabilmente a causa di un server Exchange obsoleto, per questo motivo il risultato potrebbe non essere completamente leggibile)
 
 ## Strings used in encryption.jsm
 
