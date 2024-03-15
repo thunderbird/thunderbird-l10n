@@ -418,3 +418,5 @@ apply-current-view-to-folder-message = 確定要將目前信件匣的畫面套�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = 確定要將目前信件匣的畫面套用到 { $name } 與其子信件匣嗎？
+threadpane-card-menu-button =
+    .title = 訊息選單

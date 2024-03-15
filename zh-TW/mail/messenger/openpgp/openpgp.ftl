@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = R
 openpgp-key-man-ctx-gen-revoke-label =
     .label = 產生並儲存撤銷憑證
+openpgp-key-man-gen-revocation =
+    .label = 將撤銷憑證儲存到檔案
+    .accesskey = C
 openpgp-key-man-file-menu =
     .label = 檔案
     .accesskey = F
@@ -135,8 +138,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] 將公鑰複製到剪貼簿
         }
     .accesskey = P
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = 將金鑰匯出成檔案
 openpgp-key-man-ctx-copy =
     .label = 複製
     .accesskey = C
@@ -676,10 +677,6 @@ invalid-email = 錯誤 - 電子郵件地址無效
 # $name (String) - File name of the attachment.
 attachment-pgp-key = 您正要開啟的附件「{ $name }」看來是一把 OpenPGP 金鑰檔案。請點擊「匯入」來匯入金鑰，或點擊「檢視」來使用瀏覽器視窗檢視檔案內容。
 dlg-button-view = 檢視 (&V)
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = 解密訊息（從可能是由舊版 Exchange 伺服器毀損的 PGP 郵件格式恢復，結果可能不容易閱讀）
 
 ## Strings used in encryption.jsm
 
