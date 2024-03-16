@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = t
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Skapa och spara återkallningscertifikat
+openpgp-key-man-gen-revocation =
+    .label = Spara återkallelsecertifikat till fil
+    .accesskey = c
 openpgp-key-man-file-menu =
     .label = Arkiv
     .accesskey = A
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Kopiera publika nycklar till Urklipp
         }
     .accesskey = p
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Exportera nycklar till fil
 openpgp-key-man-ctx-copy =
     .label = Kopiera
     .accesskey = K
@@ -733,10 +734,6 @@ attachment-pgp-key =
     Bilagan '{ $name }' du öppnar verkar vara en OpenPGP-nyckelfil.
     Klicka på 'Importera' för att importera nycklarna eller 'Visa' för att se filinnehållet i ett webbläsarfönster
 dlg-button-view = &Visa
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Dekrypterat meddelande (återställ trasigt PGP e-postformat förmodligen orsakat av en gammal Exchange-server, så resultatet kanske inte går att läsa)
 
 ## Strings used in encryption.jsm
 
