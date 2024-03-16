@@ -29,7 +29,7 @@ message-header-list-owner = List-Owner
 # List management header - RFC 2369.
 message-header-list-archive = List-Archive
 # Direct link to the archived form of an individual email message - RFC 5064.
-message-header-archived-at = Archiviato-a
+message-header-archived-at = Archived-At
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -50,7 +50,7 @@ message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-
 message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
-message-header-archived-at-field = Archiviato-in<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Ottieni assistenza
@@ -61,8 +61,8 @@ list-id-list-unsubscribe =
     .accesskey = A
 # Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
 list-id-list-subscribe =
-    .label = Sottoscrivi…
-    .accesskey = S
+    .label = Iscriviti…
+    .accesskey = s
 # Describes (i.e. http or mailto URL) how to post to the mailing list.
 list-id-list-post =
     .label = Scrivi
@@ -73,12 +73,12 @@ list-id-list-owner =
     .accesskey = C
 # Describes (i.e. http or mailto URL) how to access archives for the mailing list.
 list-id-list-archive =
-    .label = Elenca archivi
+    .label = Archivio lista di distribuzione
     .accesskey = E
 # Direct link to the archived form of an individual email message. RFC 5064.
 list-id-archived-at =
-    .label = Permalink del messaggio
-    .accesskey = P
+    .label = Link al messaggio
+    .accesskey = k
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.

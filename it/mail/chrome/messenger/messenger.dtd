@@ -87,20 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Elimina messaggio">
-<!ENTITY deleteMsgCmd.accesskey "E">
-<!ENTITY undeleteMsgCmd.label "Ripristina messaggio">
-<!ENTITY undeleteMsgCmd.accesskey "i">
-<!ENTITY deleteMsgsCmd.label "Elimina messaggi selezionati">
-<!ENTITY deleteMsgsCmd.accesskey "S">
-<!ENTITY undeleteMsgsCmd.label "Ripristina messaggi selezionati">
-<!ENTITY undeleteMsgsCmd.accesskey "p">
-<!ENTITY deleteFolderCmd.label "Elimina cartella">
-<!ENTITY deleteFolderCmd.accesskey "E">
-<!ENTITY unsubscribeNewsgroupCmd.label "Annulla sottoscrizione">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Seleziona">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Tutti">
@@ -112,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "Cartella preferita">
 <!ENTITY menuFavoriteFolder.accesskey "f">
-<!ENTITY folderPropsCmd2.label "Proprietà">
-<!ENTITY folderPropsFolderCmd2.label "Proprietà cartella">
-<!ENTITY folderPropsNewsgroupCmd2.label "Proprietà gruppi di discussione">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Annulla elimina messaggio">
 <!ENTITY redoDeleteMsgCmd.label "Ripeti elimina messaggio">
 <!ENTITY undoMoveMsgCmd.label "Annulla sposta messaggio">
@@ -147,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Pannello cartelle">
 <!ENTITY showFolderPaneCmd.accesskey "R">
-<!ENTITY showFolderPaneColsCmd.label "Colonne del pannello delle cartelle">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "Anteprima messaggio">
 <!ENTITY showMessageCmd.accesskey "A">
 
@@ -566,7 +546,7 @@
 <!ENTITY previousMsgButton.tooltip "Vai al messaggio precedente">
 <!ENTITY goForwardButton.tooltip "Avanti di un messaggio">
 <!ENTITY goBackButton.tooltip "Indietro di un messaggio">
-<!ENTITY markButton.tooltip "Segna i messaggi">
+<!ENTITY markButton.tooltip "Contrassegna i messaggi">
 <!ENTITY printButton.tooltip "Stampa questo messaggio">
 <!ENTITY stopButton.tooltip "Interrompi il trasferimento corrente">
 <!ENTITY addressBookButton.tooltip "Apri la rubrica">
@@ -598,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nuovo messaggio">
 <!ENTITY appmenuNewContactCmd.label "Contatto rubrica…">
-<!ENTITY appmenuEditMenu.label "Modifica">
 <!ENTITY appmenuToolbarLayout.label "Personalizza barra degli strumenti…">
-<!ENTITY appmenuSelectThread.label "Seleziona la discussione">
-<!ENTITY appmenuSelectFlagged.label "Seleziona i messaggi speciali">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nuova etichetta…">
@@ -906,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "I">
 <!ENTITY copyEmailCmd.label "Copia indirizzo email">
 <!ENTITY copyEmailCmd.accesskey "i">
-<!ENTITY stopCmd.label "Interrompi">
-<!ENTITY stopCmd.accesskey "e">
-<!ENTITY reloadCmd.label "Ricarica">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Apri nel browser">
 <!ENTITY openInBrowser.accesskey "w">
 <!ENTITY openLinkInBrowser.label "Apri link nel browser">
