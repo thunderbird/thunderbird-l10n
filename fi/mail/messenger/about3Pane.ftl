@@ -426,3 +426,5 @@ apply-current-view-to-folder-message = Käytetäänkö nykyisen kansion näkymä
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Asetetaanko nykyisen kansion näkymä kansioon { $name } ja sen alikansioille?
+threadpane-card-menu-button =
+    .title = Viestivalikko

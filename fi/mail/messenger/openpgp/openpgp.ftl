@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = K
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Luo ja tallenna kumoamisvarmenne
+openpgp-key-man-gen-revocation =
+    .label = Tallenna kumoamisvarmenne tiedostoon
+    .accesskey = T
 openpgp-key-man-file-menu =
     .label = Tiedosto
     .accesskey = T
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Kopioi julkiset avaimet leikepöydälle
         }
     .accesskey = ä
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Vie avaimet tiedostoon
 openpgp-key-man-ctx-copy =
     .label = Kopioi
     .accesskey = K
@@ -733,10 +734,6 @@ attachment-pgp-key =
     Liite '{ $name }' vaikuttaa olevan OpenPGP-avaintiedosto.
     Napsauta "Tuo" tuodaksesi avaimen tai "Näytä" tarkastellaksesi tiedoston sisältöä selainikkunassa
 dlg-button-view = &Näytä
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Salauksesta purettu viesti (palautettu rikkoutuneesta PGP-sähköpostimuodosta, jonka aiheutti mitä luultavimmin vanha Exchange-palvelin, joten lopputulos ei välttämättä ole täydellisesti luettavissa)
 
 ## Strings used in encryption.jsm
 
