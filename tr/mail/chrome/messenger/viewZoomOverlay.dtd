@@ -8,12 +8,10 @@ fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
 If shift key is needed with your locale popular keyboard for them,
 you can use these alternative items. Otherwise, their values should be empty.  -->
 
-
 <!ENTITY fullZoomEnlargeCmd.label       "Yakınlaştır">
 <!ENTITY fullZoomEnlargeCmd.accesskey   "k">
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
-<!-- + is above this key on many keyboards -->
-<!ENTITY fullZoomEnlargeCmd.commandkey2 "="> 
+<!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
 <!ENTITY fullZoomEnlargeCmd.commandkey3 "">
 
 <!ENTITY fullZoomReduceCmd.label        "Uzaklaştır">
@@ -26,7 +24,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
-<!ENTITY fullZoomToggleCmd.label        "Sadece metni yakınlaştır">
+<!ENTITY fullZoomToggleCmd.label        "Yalnızca metni yakınlaştır">
 <!ENTITY fullZoomToggleCmd.accesskey    "m">
 <!ENTITY fullZoom.label                 "Yakınlaştır">
 <!ENTITY fullZoom.accesskey             "Y">

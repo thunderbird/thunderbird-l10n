@@ -233,7 +233,7 @@
 <!ENTITY event.attachments.popup.attachPage.label         "Web sayfası ekle…" >
 <!ENTITY event.attachments.popup.attachPage.accesskey     "W" >
 <!ENTITY event.url.label                                  "İlgili bağlantı:" >
-<!ENTITY event.priority2.label                            "Önemlilik:">
+<!ENTITY event.priority2.label                            "Öncelik:">
 
 <!ENTITY event.reminder.none.label                        "Anımsatıcı yok " >
 <!ENTITY event.reminder.0minutes.before.label             "0 dakika önce" >

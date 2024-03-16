@@ -11,12 +11,12 @@
 <!ENTITY initialpage.network.label  "Ağ üzerinde">
 
 <!ENTITY locationpage.description         "Uzaktaki takviminize ulaşmak için gerekli bilgileri sağlayın" >
-<!ENTITY locationpage.login.description   "Tercihe bağlı: Kullanıcı ve parola girin" >
+<!ENTITY locationpage.login.description   "Tercihe bağlı: Kullanıcı adı ve parola girin" >
 <!ENTITY locationpage.username.label      "Kullanıcı adı:" >
 <!ENTITY locationpage.password.label      "Parola:" >
 
-<!ENTITY custompage.shortdescription  "Takviminizi özelleştiririn" >
-<!ENTITY custompage.longdescription   "Takviminize bir takma ad verebilir ve bu takvimdeki etkinlikleri reklendirebilirsiniz." >
+<!ENTITY custompage.shortdescription  "Takviminizi özelleştirin" >
+<!ENTITY custompage.longdescription   "Takviminize bir takma ad verebilir ve bu takvimdeki etkinlikleri renklendirebilirsiniz." >
 
 <!ENTITY finishpage.shortdescription  "Takvim oluşturuldu" >
 <!ENTITY finishpage.longdescription   "Takviminiz oluşturuldu." >
@@ -40,7 +40,7 @@
 
 <!ENTITY calendartype.label "Takvim türü:">
 <!ENTITY location.label "Konum:">
-<!ENTITY location.placeholder "Takvim sunucusunun URL'si veya ana bilgisayar adı">
+<!ENTITY location.placeholder "Takvim sunucusunun URL’si veya ana bilgisayar adı">
 
 <!ENTITY network.nocredentials.label "Bu konum kimlik bilgileri gerektirmez">
 <!ENTITY network.loading.description "Lütfen takvimleriniz keşfedilirken bekleyin.">

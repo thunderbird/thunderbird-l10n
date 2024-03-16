@@ -426,3 +426,5 @@ apply-current-view-to-folder-message = Geçerli dizinin görünümü { $name } d
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Geçerli dizinin görünümü { $name } ve alt dizinlerine uygulansın mı?
+threadpane-card-menu-button =
+    .title = İleti menüsü

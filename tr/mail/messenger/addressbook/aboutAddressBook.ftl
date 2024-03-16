@@ -82,40 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = E-posta adresine göre sırala (A > Z)
 about-addressbook-sort-email-descending =
     .label = E-posta adresine göre sırala (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Yatay düzene geç
-about-addressbook-vertical-layout =
-    .label = Dikey düzene geç
 about-addressbook-table-layout =
     .label = Tablo düzeni
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Adı
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = E-posta adresleri
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Telefon numaraları
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Adresler
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Unvan
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Bölüm
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Şirket
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Adres defteri
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Ad
     .title = Ada göre sırala
 about-addressbook-column-label-generatedname2 =
@@ -181,15 +153,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Kişileri sil
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] { $list } listesinden { $name } kişisini silmek istediğinizden emin misiniz?
-       *[other] { $list } listesinden { $count } kişiyi silmek istediğinizden emin misiniz?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = { $name } kişisini { $list } listesinden çıkarmak istediğinizden emin misiniz?
@@ -209,14 +172,6 @@ about-addressbook-confirm-delete-contacts-title =
        *[other] Kişileri sil
     }
 # Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] { $name } kişisini silmek istediğinizden emin misiniz?
-       *[other] { $count } kişiyi silmek istediğinizden emin misiniz?
-    }
-# Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = { $name } adlı kişiyi silmek istediğinizden emin misiniz?
 # Variables:
@@ -232,21 +187,12 @@ about-addressbook-confirm-delete-contacts-multi =
 
 about-addressbook-placeholder-empty-book = Kişi yok
 about-addressbook-placeholder-new-contact = Yeni kişi
-about-addressbook-placeholder-search-only = Bu adres defterinde kişiler sadece bir aramanın ardından gösterilir
+about-addressbook-placeholder-search-only = Bu adres defterinde kişiler yalnızca bir aramanın ardından gösterilir
 about-addressbook-placeholder-searching = Aranıyor…
 about-addressbook-placeholder-no-search-results = Kişi bulunamadı
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } kişi ve liste seçili
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } kişi seçili
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } liste seçili
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
