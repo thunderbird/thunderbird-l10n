@@ -425,3 +425,5 @@ apply-current-view-to-folder-message = Ағымдағы бума түрін { $n
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Ағымдағы бума түрін { $name } және оның ішкі бумалары үшін іске асыру керек пе?
+threadpane-card-menu-button =
+    .title = Хабарлама мәзірі

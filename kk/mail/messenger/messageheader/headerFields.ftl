@@ -14,11 +14,19 @@ message-header-bcc-list-name = Жасырын көшірме
 message-header-newsgroups-list-name = Жаңалықтар топтары
 message-header-followup-to-list-name = Жаңалықтар тобына жауап жазу
 message-header-tags-list-name = Тегтер
+# List management header - RFC 2369.
+message-header-list-id = { "" }
+# List management header - RFC 2369.
 message-header-list-help = Хаттарды тарату тізімі-Көмек
+# List management header - RFC 2369.
 message-header-list-unsubscribe = Хаттарды тарату тізімі-Жазылудан бас тарту
+# List management header - RFC 2369.
 message-header-list-subscribe = Хаттарды тарату тізімі-Жазылу
+# List management header - RFC 2369.
 message-header-list-post = Хаттарды тарату тізімі-Хабарлама
+# List management header - RFC 2369.
 message-header-list-owner = Хаттарды тарату тізімі-Иесі
+# List management header - RFC 2369.
 message-header-list-archive = Хаттарты тарату тізімі-Архив
 
 ## Other message headers.
@@ -39,6 +47,22 @@ message-header-list-subscribe-field = Хаттарды тарату тізімі
 message-header-list-post-field = Хаттарды тарату тізімі-Хабарлама<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Хаттарды тарату тізімі-Иесі<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = Хаттарды тарату тізімі-Иесі<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Көмек алу
+    .accesskey = м
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Жазылудан бас тарту…
+    .accesskey = ы
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Жазылу…
+    .accesskey = Ж
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Жазу
+    .accesskey = Ж
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
