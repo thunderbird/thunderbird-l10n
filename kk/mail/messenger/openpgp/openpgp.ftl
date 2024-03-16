@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = р
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Қайта шақыру сертификатын жасау және сақтау
+openpgp-key-man-gen-revocation =
+    .label = Қайта шақыру сертификатын файлға сақтау
+    .accesskey = с
 openpgp-key-man-file-menu =
     .label = Файл
     .accesskey = Ф
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Ашық кілтті алмасу буферіне көшіріп алу
         }
     .accesskey = ш
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Кілттерді файлға экспорттау
 openpgp-key-man-ctx-copy =
     .label = Көшіріп алу
     .accesskey = К
@@ -732,10 +733,6 @@ attachment-pgp-key =
     Сіз ашып жатқан "{ $name }" салынымы OpenPGP кілт файлы сияқты көрінеді.
     Құрамындағы кілттерді импорттау үшін "Импорттау" батырмасын немесе браузер терезесінде файл мазмұнын қарау үшін "Қарау" батырмасын басыңыз.
 dlg-button-view = Қа&рау
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Дешифрленген хабарлама (қалпына келтірілген бұзылған PGP электрондық пошта пішімі ескі Exchange серверінен болуы мүмкін, сондықтан нәтиже оқуға мінсіз болмауы мүмкін)
 
 ## Strings used in encryption.jsm
 

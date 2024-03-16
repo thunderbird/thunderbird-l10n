@@ -27,7 +27,7 @@ message-header-list-post = Хаттарды тарату тізімі-Хабар
 # List management header - RFC 2369.
 message-header-list-owner = Хаттарды тарату тізімі-Иесі
 # List management header - RFC 2369.
-message-header-list-archive = Хаттарты тарату тізімі-Архив
+message-header-list-archive = Хаттарды тарату тізімі-Архив
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -41,7 +41,7 @@ message-header-references-field = Сілтемелер<span data-l10n-name="fiel
 message-header-message-id-field = Хабарлама анықтағышы<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Келесіге жауап<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Веб-сайт<span data-l10n-name="field-separator">:</span>
-message-header-list-help-field = Хаттарты тарату тізімі-Көмек<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Хаттарды тарату тізімі-Көмек<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = Хаттарды тарату тізімі-Жазылудан бас тарту<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = Хаттарды тарату тізімі-Жазылу<span data-l10n-name="field-separator">:</span>
 message-header-list-post-field = Хаттарды тарату тізімі-Хабарлама<span data-l10n-name="field-separator">:</span>
@@ -63,6 +63,14 @@ list-id-list-subscribe =
 list-id-list-post =
     .label = Жазу
     .accesskey = Ж
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Хаттарды тарату тізімінің архивтері
+    .accesskey = а
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Хабарламаның тұрақты сілтемесі
+    .accesskey = т
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
