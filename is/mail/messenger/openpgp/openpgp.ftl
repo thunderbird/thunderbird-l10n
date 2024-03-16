@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = r
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Búa til og vista afturköllunarskilríki
+openpgp-key-man-gen-revocation =
+    .label = Vista afturköllunarskilríki í skrá
+    .accesskey = f
 openpgp-key-man-file-menu =
     .label = Skrá
     .accesskey = S
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Afrita dreifilykla yfir á klippispjald
         }
     .accesskey = d
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Flytja út lykla í skrá
 openpgp-key-man-ctx-copy =
     .label = Afrita
     .accesskey = f
@@ -733,10 +734,6 @@ attachment-pgp-key =
     Viðhengið „{ $name }“ sem þú ert að opna virðist vera OpenPGP lykilskrá.
     Smelltu á „Flytja inn“ til að flytja inn lyklana sem eru í henni eða „Skoða“ til að skoða efni skrárinnar í vafraglugga
 dlg-button-view = &Skoða
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Afkóðuð skilaboð (endurheimt skemmt PGP-tölvupóstsnið, líklega af völdum gamals Exchange-póstþjóns, þannig að niðurstaðan gæti verið minna en fullkomin til að lesa)
 
 ## Strings used in encryption.jsm
 

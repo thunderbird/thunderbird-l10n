@@ -426,3 +426,5 @@ apply-current-view-to-folder-message = Viltu nota sýn núverandi möppu í { $n
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Viltu nota sýn núverandi möppu í { $name } og afleiður hennar?
+threadpane-card-menu-button =
+    .title = Skilaboðavalmynd
