@@ -425,3 +425,5 @@ apply-current-view-to-folder-message = Ansicht des aktuellen Ordners für „{ $
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Ansicht des aktuellen Ordners für „{ $name }“ und dessen Unterordner übernehmen?
+threadpane-card-menu-button =
+    .title = Nachrichtenmenü

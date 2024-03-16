@@ -3,9 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-itip-identity-dialog-title = Keine Eintrittskarte?
-
 calendar-itip-identity-warning = Sie sind noch nicht auf der Gästeliste.
-
+calendar-itip-identity-dialog-box-title = Nicht eingeladener Gast
+calendar-itip-identity-warning-body = Die E-Mail-Adresse des Kalenders, in den Sie diese Einladung importieren, steht nicht auf der Gästeliste.
 calendar-itip-identity-label = Antworten als:
-
 calendar-itip-identity-label-none = Termin verknüpfen mit:
