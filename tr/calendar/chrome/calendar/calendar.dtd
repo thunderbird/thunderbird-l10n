@@ -49,7 +49,7 @@
 <!ENTITY calendar.unifinder.tree.location.tooltip2         "Konuma göre sırala">
 <!ENTITY calendar.unifinder.tree.status.label              "Durum">
 <!ENTITY calendar.unifinder.tree.status.tooltip2           "Duruma göre sırala">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Takvim ismi">
+<!ENTITY calendar.unifinder.tree.calendarname.label        "Takvim adı">
 <!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Takvim adına göre sırala">
 <!ENTITY calendar.unifinder.tree.duration.label            "Süresi">
 <!ENTITY calendar.unifinder.tree.duration.tooltip2         "Kalan zamana göre sırala">

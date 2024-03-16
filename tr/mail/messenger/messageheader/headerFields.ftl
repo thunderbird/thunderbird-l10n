@@ -50,6 +50,10 @@ message-header-list-post-field = List-Post<span data-l10n-name="field-separator"
 message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
 message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Yardım al
+    .accesskey = Y
 # Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
 list-id-list-unsubscribe =
     .label = Abonelikten ayrıl…
