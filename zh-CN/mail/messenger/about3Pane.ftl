@@ -402,3 +402,5 @@ apply-current-view-to-folder-message = 要将当前文件夹的视图应用到 {
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = 要将当前文件夹的视图应用于 { $name } 及其子文件夹吗？
+threadpane-card-menu-button =
+    .title = 消息菜单
