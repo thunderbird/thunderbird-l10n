@@ -438,3 +438,5 @@ apply-current-view-to-folder-message = Uporabi pogled trenutne mape za { $name }
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Uporabi pogled trenutne mape za { $name } in njene podrejene?
+threadpane-card-menu-button =
+    .title = Meni sporočila

@@ -21,13 +21,32 @@ message-header-tags-list-name = Oznake
 message-header-author-field = Avtor<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organizacija<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Zadeva<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Nadaljuj na<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Datum<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Uporabniški agent<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Sklici<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = ID sporočila<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = V odgovor na<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Spletno mesto<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Poiščite pomoč
+    .accesskey = P
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Odjavi se …
+    .accesskey = O
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Naroči se …
+    .accesskey = N
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Sestavi
+    .accesskey = S
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Stalna povezava do sporočila
+    .accesskey = t
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
