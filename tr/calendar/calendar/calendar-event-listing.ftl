@@ -8,7 +8,7 @@ calendar-event-listing-close =
 ## Listing columns
 
 calendar-event-listing-column-calendar-name =
-    .label = Takvim ismi
+    .label = Takvim adı
     .tooltiptext = Takvim adına göre sırala
 calendar-event-listing-column-category =
     .label = Kategoriler
@@ -31,10 +31,10 @@ calendar-event-listing-column-location =
     .label = Konum
     .tooltiptext = Konuma göre sırala
 calendar-event-listing-column-percent-complete =
-    .label = % Tamamla
-    .tooltiptext = Tamamlanma %'sine göre sırala
+    .label = Tamamlanma %’si
+    .tooltiptext = Tamamlanma %’sine göre sırala
 calendar-event-listing-column-priority =
-    .label = Önemlilik
+    .label = Öncelik
     .tooltiptext = Önceliğe göre sırala
 calendar-event-listing-column-start-date =
     .label = Başlangıç
@@ -46,7 +46,7 @@ calendar-event-listing-column-time-until-due =
     .label = Süresi
     .tooltiptext = Kalan zamana göre sırala
 calendar-event-listing-column-title =
-    .label = Konu
+    .label = Başlık
     .tooltiptext = Başlığa göre sırala
 
 ## Interval dropdown options
