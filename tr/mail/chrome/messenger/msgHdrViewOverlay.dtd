@@ -42,9 +42,9 @@
 
 <!ENTITY hdrViewToolbarShowFull.label "Simgeleri ve metni göster">
 <!ENTITY hdrViewToolbarShowFull.accesskey "v">
-<!ENTITY hdrViewToolbarShowIcons.label "Sadece simgeleri göster">
+<!ENTITY hdrViewToolbarShowIcons.label "Yalnızca simgeleri göster">
 <!ENTITY hdrViewToolbarShowIcons.accesskey "S">
-<!ENTITY hdrViewToolbarShowText.label "Sadece metni göster">
+<!ENTITY hdrViewToolbarShowText.label "Yalnızca metni göster">
 <!ENTITY hdrViewToolbarShowText.accesskey "m">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Göndereni yanıtla'yı her zaman göster">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "G">

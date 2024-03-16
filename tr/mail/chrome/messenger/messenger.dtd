@@ -322,7 +322,7 @@
 <!ENTITY replyMsgCmd.label "Yanıtla">
 <!ENTITY replyMsgCmd.accesskey "Y">
 <!ENTITY replyMsgCmd.key "r">
-<!ENTITY replySenderCmd.label "Sadece göndereni yanıtla">
+<!ENTITY replySenderCmd.label "Yalnızca göndereni yanıtla">
 <!ENTITY replySenderCmd.accesskey "r">
 <!ENTITY replyNewsgroupCmd2.label "Hesap Grubuna Devam İletisi">
 <!ENTITY replyNewsgroupCmd2.accesskey "D">
