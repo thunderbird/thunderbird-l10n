@@ -29,7 +29,7 @@ message-header-list-owner = List-Owner
 # List management header - RFC 2369.
 message-header-list-archive = List-Archive
 # Direct link to the archived form of an individual email message - RFC 5064.
-message-header-archived-at = Archivado en
+message-header-archived-at = Archived-At
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -43,22 +43,22 @@ message-header-references-field = Referencias<span data-l10n-name="field-separat
 message-header-message-id-field = ID de Mensaje<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = En respuesta a<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Sitio web<span data-l10n-name="field-separator">:</span>
-message-header-list-id-field = ID de lista <span data-l10n-name = "field-separator">: </span>
+message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = List-Unsubscribe<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-separator">:</span>
 message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
-message-header-archived-at-field = Archivado en <span data-l10n-name = "field-separator">: </span>
+message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Obtener ayuda
-    .accesskey = O
+    .accesskey = y
 # Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
 list-id-list-unsubscribe =
-    .label = Cancelar la suscripción…
-    .accesskey = C
+    .label = Desuscribirse…
+    .accesskey = u
 # Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
 list-id-list-subscribe =
     .label = Suscribirse…
@@ -74,11 +74,11 @@ list-id-list-owner =
 # Describes (i.e. http or mailto URL) how to access archives for the mailing list.
 list-id-list-archive =
     .label = Listar archivos
-    .accesskey = L
+    .accesskey = a
 # Direct link to the archived form of an individual email message. RFC 5064.
 list-id-archived-at =
     .label = Enlace permanente del mensaje
-    .accesskey = E
+    .accesskey = p
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
