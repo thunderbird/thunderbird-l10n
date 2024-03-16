@@ -43,14 +43,14 @@ message-header-references-field = 參考資料<span data-l10n-name="field-separa
 message-header-message-id-field = 郵件編號<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = 回覆給<span data-l10n-name="field-separator">:</span>
 message-header-website-field = 網站<span data-l10n-name="field-separator">:</span>
-message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = List-ID<span data-l10n-name="field-separator">：</span>
 message-header-list-help-field = 清單說明<span data-l10n-name="field-separator">：</span>
 message-header-list-unsubscribe-field = 清單取消訂閱<span data-l10n-name="field-separator">：</span>
 message-header-list-subscribe-field = 清單訂閱<span data-l10n-name="field-separator">：</span>
 message-header-list-post-field = 清單張貼<span data-l10n-name="field-separator">：</span>
 message-header-list-owner-field = 清單擁有者<span data-l10n-name="field-separator">：</span>
 message-header-list-archive-field = 清單備存位置<span data-l10n-name="field-separator">：</span>
-message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = 存檔於<span data-l10n-name="field-separator">：</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = 取得幫助
@@ -65,7 +65,7 @@ list-id-list-subscribe =
     .accesskey = S
 # Describes (i.e. http or mailto URL) how to post to the mailing list.
 list-id-list-post =
-    .label = 寫入
+    .label = 寫信
     .accesskey = W
 # Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
 list-id-list-owner =
@@ -73,7 +73,7 @@ list-id-list-owner =
     .accesskey = C
 # Describes (i.e. http or mailto URL) how to access archives for the mailing list.
 list-id-list-archive =
-    .label = 列出壓縮檔
+    .label = 列出存檔
     .accesskey = A
 # Direct link to the archived form of an individual email message. RFC 5064.
 list-id-archived-at =
