@@ -437,3 +437,5 @@ apply-current-view-to-folder-message = Použiť nastavenie zobrazenia aktuálneh
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Použiť nastavenie zobrazenia aktuálneho priečinka aj na priečinok { $name } a jeho podpriečinky?
+threadpane-card-menu-button =
+    .title = Ponuka pre správu
