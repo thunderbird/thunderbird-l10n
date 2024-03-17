@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = S
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Prodho & Ruaj Dëshmi Shfuqizimi
+openpgp-key-man-gen-revocation =
+    .label = Ruaje Dëshminë e Shfuqizimit Në Kartelë
+    .accesskey = R
 openpgp-key-man-file-menu =
     .label = Kartelë
     .accesskey = K
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Kopjo Kyçe Publikë Në të Papastër
         }
     .accesskey = K
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Eksportoni Kyçe Në Kartelë
 openpgp-key-man-ctx-copy =
     .label = Kopjoje
     .accesskey = K
@@ -734,10 +735,6 @@ attachment-pgp-key =
     Bashkëngjitja '{ $name }' që po hapni duket të jetë një kartelë kyçi OpenPGP.
     Klikoni mbi “Importoje” që të importohen kyçet që përmban, ose “Shiheni” që të shihni lëndën e kartelës në një dritare shfletuesi
 dlg-button-view = &Shiheni
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Mesazh i shfshehtëzuar (u rikthyer format i dëmtuar email-i PGP, shkaktuar ndoshta nga një shërbyes i vjetër Exchange, ndaj përfundimi mund të mos jetë i përsosur për lexim)
 
 ## Strings used in encryption.jsm
 

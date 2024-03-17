@@ -425,3 +425,5 @@ apply-current-view-to-folder-message = Të aplikohet pamja e dosjes së tanishme
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Të aplikohet pamja e dosjes së tanishme te { $name } dhe pjellat e saj?
+threadpane-card-menu-button =
+    .title = Menu mesazhesh
