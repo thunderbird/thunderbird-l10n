@@ -15,6 +15,8 @@ message-header-newsgroups-list-name = Grupe Lajmesh
 message-header-followup-to-list-name = Vazhdojeni te
 message-header-tags-list-name = Etiketa
 # List management header - RFC 2369.
+message-header-list-id = List-ID
+# List management header - RFC 2369.
 message-header-list-help = List-Help
 # List management header - RFC 2369.
 message-header-list-unsubscribe = List-Unsubscribe
@@ -26,6 +28,8 @@ message-header-list-post = List-Post
 message-header-list-owner = List-Owner
 # List management header - RFC 2369.
 message-header-list-archive = List-Archive
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Archived-At
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
