@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = R
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Generate & Save Revocation Certificate
+openpgp-key-man-gen-revocation =
+    .label = Save Revocation Certificate To File
+    .accesskey = C
 openpgp-key-man-file-menu =
     .label = File
     .accesskey = F
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Copy Public Keys To Clipboard
         }
     .accesskey = P
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Export Keys To File
 openpgp-key-man-ctx-copy =
     .label = Copy
     .accesskey = C
@@ -733,10 +734,6 @@ attachment-pgp-key =
     The attachment '{ $name }' you are opening appears to be an OpenPGP key file.
     Click 'Import' to import the keys contained or 'View' to view the file contents in a browser window
 dlg-button-view = &View
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Decrypted message (restored broken PGP email format probably caused by an old Exchange server, so that the result might not be perfect to read)
 
 ## Strings used in encryption.jsm
 
