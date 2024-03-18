@@ -438,3 +438,5 @@ apply-current-view-to-folder-message = Naglěd aktualnego zarědnika na { $name 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Naglěd aktualnego zarědnika na { $name } a jogo źiśi nałožyś?
+threadpane-card-menu-button =
+    .title = Powěsćowy meni
