@@ -75,6 +75,10 @@ list-id-list-owner =
 list-id-list-archive =
     .label = Archiwy nalistować
     .accesskey = A
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Powěsćowy trajny wotkaz
+    .accesskey = P
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
