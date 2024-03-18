@@ -14,11 +14,17 @@ message-header-bcc-list-name = Cco
 message-header-newsgroups-list-name = Grupos de notícias
 message-header-followup-to-list-name = Encaminhar para
 message-header-tags-list-name = Etiquetas
+# List management header - RFC 2369.
 message-header-list-help = List-Help
+# List management header - RFC 2369.
 message-header-list-unsubscribe = List-Unsubscribe
+# List management header - RFC 2369.
 message-header-list-subscribe = List-Subscribe
+# List management header - RFC 2369.
 message-header-list-post = List-Post
+# List management header - RFC 2369.
 message-header-list-owner = List-Owner
+# List management header - RFC 2369.
 message-header-list-archive = List-Archive
 
 ## Other message headers.
@@ -39,6 +45,18 @@ message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-
 message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Obter ajuda
+    .accesskey = H
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Cancelar inscrição…
+    .accesskey = C
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Inscrever…
+    .accesskey = I
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.

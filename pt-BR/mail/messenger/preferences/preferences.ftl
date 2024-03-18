@@ -578,6 +578,7 @@ junk-delete-label =
 junk-read-label =
     .label = Marcar como lidas as mensagens definidas como spam
     .accesskey = M
+junk-read-description = Marcar mensagens como lidas
 junk-log-label =
     .label = Registrar as atividades do filtro antispam adaptativo
     .accesskey = R
