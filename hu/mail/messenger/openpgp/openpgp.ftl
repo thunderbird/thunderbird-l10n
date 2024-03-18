@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = V
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Visszavonási tanúsítvány létrehozása és mentése
+openpgp-key-man-gen-revocation =
+    .label = Visszavonási tanúsítvány fájlba mentése
+    .accesskey = t
 openpgp-key-man-file-menu =
     .label = Fájl
     .accesskey = F
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Nyilvános kulcsok vágólapra másolása
         }
     .accesskey = N
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Kulcsok exportálása fájlba
 openpgp-key-man-ctx-copy =
     .label = Másolás
     .accesskey = M
@@ -733,10 +734,6 @@ attachment-pgp-key =
     A(z) „{ $name }” melléklet amit megnyit egy OpenPGP-kulcsfájlnak tűnik.
     Kattintson az „Importálásra” a tartalmazott kulcs importálásához, vagy a „Nézetre”, hogy megtekintse a fájl tartalmát egy böngészőablakban
 dlg-button-view = &Nézet
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Visszafejtett üzenet (visszaállított hibás PGP e-mail-formátum, valószínűleg egy régi Exchange kiszolgáló miatt, így az eredmény lehet, hogy nem tökéletesen olvasható)
 
 ## Strings used in encryption.jsm
 
