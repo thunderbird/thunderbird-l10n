@@ -14,12 +14,22 @@ message-header-bcc-list-name = Schowana kopija
 message-header-newsgroups-list-name = Diskusijne skupiny
 message-header-followup-to-list-name = Dale sposrědkować do
 message-header-tags-list-name = Znački
+# List management header - RFC 2369.
+message-header-list-id = List-ID
+# List management header - RFC 2369.
 message-header-list-help = Lisćina-Pomoc
+# List management header - RFC 2369.
 message-header-list-unsubscribe = Lisćina-Wotskazać
+# List management header - RFC 2369.
 message-header-list-subscribe = Lisćina-Abonować
+# List management header - RFC 2369.
 message-header-list-post = Lisćina-Přinošk
+# List management header - RFC 2369.
 message-header-list-owner = Lisćina-Wobsedźer
+# List management header - RFC 2369.
 message-header-list-archive = Lisćina-Archiw
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Archived-At
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -33,12 +43,38 @@ message-header-references-field = Referency<span data-l10n-name="field-separator
 message-header-message-id-field = Powěsćowy ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Wotmołwjejo na<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Websydło<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = Lisćina-Pomoc<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = Lisćina-Wotskazać<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = Lisćina-Abonować<span data-l10n-name="field-separator">:</span>
 message-header-list-post-field = Lisćina-Přinošk<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Lisćina-Wobsedźer<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = Lisćina-Archiw<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Pomoc wobstarać
+    .accesskey = P
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Wotskazać…
+    .accesskey = o
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Abonować…
+    .accesskey = b
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Pisać
+    .accesskey = P
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Administrator skontaktować…
+    .accesskey = m
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Archiwy nalistować
+    .accesskey = A
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.

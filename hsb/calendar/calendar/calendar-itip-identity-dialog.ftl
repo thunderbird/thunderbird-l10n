@@ -4,5 +4,6 @@
 
 calendar-itip-identity-dialog-title = Njepřeprošeny?
 calendar-itip-identity-warning = Na hóstnej lisćinje hišće njejsće.
+calendar-itip-identity-dialog-box-title = Njepřeprošeny hósć
 calendar-itip-identity-label = Wotmołwić jako:
 calendar-itip-identity-label-none = Tutón podawk zwjazać z:
