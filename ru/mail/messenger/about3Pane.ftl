@@ -432,3 +432,5 @@ apply-current-view-to-folder-message = Применить вид текущей 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Применить вид текущей папки к { $name } и вложенным в неё папкам?
+threadpane-card-menu-button =
+    .title = Меню сообщений

@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = ы
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Создать и сохранить сертификат отзыва
+openpgp-key-man-gen-revocation =
+    .label = Сохранить сертификат отзыва в файл
+    .accesskey = С
 openpgp-key-man-file-menu =
     .label = Файл
     .accesskey = а
@@ -141,8 +144,6 @@ openpgp-key-man-copy-to-clipboard =
            *[many] Копировать открытые ключи в буфер обмена
         }
     .accesskey = в
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Экспортировать ключи в файл
 openpgp-key-man-ctx-copy =
     .label = Копировать
     .accesskey = п
@@ -740,10 +741,6 @@ attachment-pgp-key =
     Открываемое вложение «{ $name }», вероятно, является файлом ключей OpenPGP.
     Щёлкните «Импортировать», чтобы импортировать содержащиеся ключи, или «Просмотр», чтобы просмотреть содержимое файла в окне браузера
 dlg-button-view = &Просмотр
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Расшифрованное сообщение (возможно, восстановлен неправильный формат электронной почты PGP, вызванный старым сервером Exchange, так что результат может быть не идеальным для чтения)
 
 ## Strings used in encryption.jsm
 
