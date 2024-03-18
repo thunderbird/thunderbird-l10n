@@ -10,10 +10,45 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Kalendere
 calendar-enable-button = Aktiver
+calendar-new-event-primary-button = Ny hendelse
+calendar-new-task-primary-button = Ny oppgave
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Forrige dag
+    .accesskey = s
+calendar-nav-button-prev-tooltip-week =
+    .title = Forrige uke
+    .accesskey = s
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Forrige uke
+    .accesskey = s
+calendar-nav-button-prev-tooltip-month =
+    .title = Forrige måned
+    .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = Forrige år
+    .accesskey = s
+calendar-nav-button-next-tooltip-day =
+    .title = Neste dag
+    .accesskey = x
+calendar-nav-button-next-tooltip-week =
+    .title = Neste uke
+    .accesskey = x
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Neste uke
+    .accesskey = x
+calendar-nav-button-next-tooltip-month =
+    .title = Neste måned
+    .accesskey = x
+calendar-nav-button-next-tooltip-year =
+    .title = Neste år
+    .accesskey = x
+calendar-today-button-tooltip =
+    .title = Gå til i dag
 calendar-view-toggle-day = Dag
     .title = Bytt til dagsvisning
 calendar-view-toggle-week = Uke
