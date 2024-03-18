@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = R
 openpgp-key-man-ctx-gen-revoke-label =
     .label = 生成并保存吊销证书
+openpgp-key-man-gen-revocation =
+    .label = 保存吊销证书至文件
+    .accesskey = C
 openpgp-key-man-file-menu =
     .label = 文件
     .accesskey = F
@@ -135,8 +138,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] 复制公钥至剪贴板
         }
     .accesskey = P
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = 将密钥导出为文件
 openpgp-key-man-ctx-copy =
     .label = 复制
     .accesskey = C
@@ -676,10 +677,6 @@ invalid-email = 错误 - 电子邮件地址无效
 # $name (String) - File name of the attachment.
 attachment-pgp-key = 您正要打开的附件“{ $name }”似乎是 OpenPGP 密钥文件。请点击“导入”以导入密钥，或点击“查看”以在浏览器窗口中查看文件内容。
 dlg-button-view = 查看(&V)
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = 解密消息（从可能是由旧版 Exchange 服务器损坏的 PGP 邮件格式恢复，结果可能不易阅读）
 
 ## Strings used in encryption.jsm
 
