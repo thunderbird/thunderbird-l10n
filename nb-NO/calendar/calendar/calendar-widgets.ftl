@@ -12,6 +12,10 @@ calendar-add-notification-button =
 
 calendar-list-header = Kalendere
 calendar-enable-button = Aktiver
+calendar-import-new-calendar = Ny kalender…
+    .title = Opprett eller abonner på en ny kalender
+calendar-refresh-calendars =
+    .title = Oppdater alle kalendre og synkroniser endringer
 calendar-new-event-primary-button = Ny hendelse
 calendar-new-task-primary-button = Ny oppgave
 
@@ -60,6 +64,14 @@ calendar-view-toggle-month = Måned
 
 ## Menu on calendar control bar
 
+calendar-find-events-menu-option =
+    .label = Finn hendelsesrute
+calendar-hide-weekends-option =
+    .label = Bare arbeiduke
+calendar-define-workweek-option =
+    .label = Definer arbeidsukedager
+calendar-show-tasks-calendar-option =
+    .label = Vis oppgaver i kalender
 
 ## Calendar Context Menu
 
