@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = o
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Wotwołanski certifikat wutworić a składować
+openpgp-key-man-gen-revocation =
+    .label = Wotwołanski certifikat do dataje składować
+    .accesskey = c
 openpgp-key-man-file-menu =
     .label = Dataja
     .accesskey = D
@@ -144,8 +147,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Zjawne kluče do mjezyskłada kopěrować
         }
     .accesskey = Z
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Kluče do dataje eksportować
 openpgp-key-man-ctx-copy =
     .label = Kopěrować
     .accesskey = K
@@ -747,10 +748,6 @@ attachment-pgp-key =
     Zda so, zo přiwěšk ‚{ $name }‘, kotryž wočinjeće, je dataja OpenPGP-kluča.
     Klikńće na ‚Importować‘, zo byšće wobsahowane kluče importował abo na ‚Pokazać‘, zo byšće wobsah dataje we woknje wobhladowaka pokazał
 dlg-button-view = &Pokazać
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Dešifrowana powěsć (wobnowjeny wobškodźeny e-mejlowy format PGP je so najskerje přez stary serwer Exchange zawinował; přez to njeda so snano wuslědk derje čitać)
 
 ## Strings used in encryption.jsm
 
