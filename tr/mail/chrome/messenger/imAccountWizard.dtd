@@ -15,7 +15,7 @@
 <!ENTITY accountPasswordTitle.label   "Parola">
 <!ENTITY accountPasswordInfo.label    "Lütfen aşağıdaki kutuya parolanızı girin.">
 <!ENTITY accountPasswordField.label   "Parola:">
-<!ENTITY accountPasswordManager.label "Buraya girdiğiniz parola, Parola Yöneticisi'nde depolanacaktır. Bu hesaba her bağlandığınızda parolanızın sorulmasını istiyorsanız bu kutuyu boş bırakın.">
+<!ENTITY accountPasswordManager.label "Buraya girdiğiniz parola, parola yöneticisinde saklanacaktır. Bu hesaba her bağlandığınızda parolanızın sorulmasını istiyorsanız bu kutuyu boş bırakın.">
 
 <!ENTITY accountAdvancedTitle.label   "Gelişmiş Seçenekler">
 <!ENTITY accountAdvancedInfo.label    "İsterseniz bu adımı geçebilirsiniz.">
