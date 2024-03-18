@@ -14,11 +14,17 @@ message-header-bcc-list-name = Rejtett másolat
 message-header-newsgroups-list-name = Hírcsoportok
 message-header-followup-to-list-name = Hírcsop. vál.
 message-header-tags-list-name = Címkék
+# List management header - RFC 2369.
 message-header-list-help = Lista-Súgó
+# List management header - RFC 2369.
 message-header-list-unsubscribe = Lista-Leiratkozás
+# List management header - RFC 2369.
 message-header-list-subscribe = Lista-Feliratkozás
+# List management header - RFC 2369.
 message-header-list-post = Lista-Hozzászólás
+# List management header - RFC 2369.
 message-header-list-owner = Lista-Tulajdonos
+# List management header - RFC 2369.
 message-header-list-archive = Lista-Archívum
 
 ## Other message headers.
@@ -39,6 +45,30 @@ message-header-list-subscribe-field = Lista-Feliratkozás<span data-l10n-name="f
 message-header-list-post-field = Lista-Hozzászólás<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Lista-Tulajdonos<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = Lista-Archívum<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Segítség kérése
+    .accesskey = S
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Leiratkozás…
+    .accesskey = L
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Feliratkozás…
+    .accesskey = F
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Írás
+    .accesskey = r
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Kapcsolatfelvétel a rendszergazdával…
+    .accesskey = K
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Listaarchívum
+    .accesskey = a
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.

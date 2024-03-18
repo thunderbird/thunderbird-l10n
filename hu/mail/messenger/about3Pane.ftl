@@ -426,3 +426,5 @@ apply-current-view-to-folder-message = Alkalmazza a jelenlegi mappa nézetét a(
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Alkalmazza az aktuális mappa nézetét a(z) { $name } mappára és a gyermekeire?
+threadpane-card-menu-button =
+    .title = Üzenet menü
