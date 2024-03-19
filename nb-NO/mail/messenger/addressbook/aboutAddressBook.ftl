@@ -42,9 +42,11 @@ about-addressbook-search =
 
 about-addressbook-placeholder-empty-book = Ingen tilgjengelige kontakter
 about-addressbook-placeholder-new-contact = Ny kontakt
+about-addressbook-placeholder-no-search-results = Ingen kontakter funnet
 
 ## Details
 
+about-addressbook-search-action-button = Søk
 about-addressbook-begin-edit-contact-button = Rediger
 about-addressbook-delete-edit-contact-button = Slett
 about-addressbook-cancel-edit-contact-button = Avbryt

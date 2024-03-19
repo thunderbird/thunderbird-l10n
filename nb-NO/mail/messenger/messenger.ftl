@@ -16,6 +16,10 @@ about-rights-notification-text = { -brand-short-name } er programvare basert på
 
 ## Content tabs
 
+content-tab-security-high-icon =
+    .alt = Tilkoblingen er sikker
+content-tab-security-broken-icon =
+    .alt = Tilkoblingen er ikke sikker
 
 # Back
 
@@ -34,6 +38,12 @@ about-rights-notification-text = { -brand-short-name } er programvare basert på
 addons-and-themes-toolbarbutton =
     .label = Tillegg og temaer
     .tooltiptext = T
+quick-filter-toolbarbutton =
+    .label = Hurtigfilter
+    .tooltiptext = Filtrer meldinger
+redirect-msg-button =
+    .label = Omdiriger
+    .tooltiptext = Omdiriger den valgte meldingen
 
 ## Folder Pane
 
@@ -109,9 +119,14 @@ menu-edit-newsgroup-properties =
 
 ## Message Menu
 
+redirect-msg-menuitem =
+    .label = Omdiriger
+    .accesskey = O
 
 ## AppMenu
 
+appmenu-settings =
+    .label = Innstillinger
 appmenu-addons-and-themes =
     .label = Tillegg og temaer
 
@@ -152,6 +167,11 @@ other-action-redirect-msg =
 
 ## Message header customize panel
 
+message-header-customize-button-style =
+    .value = Knappestil
+    .accesskey = K
+message-header-button-style-default =
+    .label = Ikoner og tekst
 message-header-button-style-text =
     .label = Tekst
 message-header-button-style-icons =

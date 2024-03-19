@@ -12,12 +12,22 @@
 
 ## Footer
 
+account-hub-donate = Doner
 
 ## Initial setup page
 
+account-hub-newsgroup-setup-button = Temagruppe
+    .title = Sett opp en temagruppekonto
 
 ## Email page
 
+account-hub-email-cancel-button = Avbryt
+account-hub-email-stop-button = Stopp
+account-hub-email-back-button = Tilbake
+account-hub-email-retest-button = Test på nytt
+account-hub-email-finish-button = Fullfør
+account-hub-email-continue-button = Fortsett
+account-hub-email-confirm-button = Bekreft
 account-hub-protocol-label = Protokoll
 account-hub-port-label = Port
     .title = Sett portnummeret til 0 for automatisk utfylling

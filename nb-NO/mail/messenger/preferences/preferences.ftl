@@ -366,6 +366,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Umiddelbart etter de er vist
     .accesskey = U
+view-attachments-inline =
+    .label = Vis vedlegg som en del av meldingen
+    .accesskey = V
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
