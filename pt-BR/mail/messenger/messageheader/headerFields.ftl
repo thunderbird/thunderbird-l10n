@@ -63,10 +63,18 @@ list-id-list-unsubscribe =
 list-id-list-subscribe =
     .label = Inscrever…
     .accesskey = I
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Escrever
+    .accesskey = E
 # Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
 list-id-list-owner =
     .label = Entrar em contato com administrador…
     .accesskey = c
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Arquivamento da lista
+    .accesskey = A
 # Direct link to the archived form of an individual email message. RFC 5064.
 list-id-archived-at =
     .label = Link permanente da mensagem
