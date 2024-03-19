@@ -14,6 +14,9 @@ connection-dns-over-https-url-custom =
     .accesskey = T
     .tooltiptext = Angi din foretrukne nettadresse for DNS-oppslag over HTTPS
 connection-dns-over-https-custom-label = Tilpasset
+connection-dialog-window2 =
+    .title = Tilkoblingsinnstillinger
+connection-dialog-title = Tilkoblingsinnstillinger
 disable-extension-button = Slå av utvidelse
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.

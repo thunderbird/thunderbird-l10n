@@ -71,12 +71,20 @@ items-pane-checkbox-calendars = Kalendere
 
 ## Import from address book file steps
 
+addr-book-ldif-file = LDIF-fil (.ldif)
+addr-book-vcard-file = vCard-fil (.vcf, .vcard)
+addr-book-mab-file = Mork-databasefil (.mab)
+addr-book-file-picker = Velg en adressebokfil
+addr-book-directories-pane-source = Kildefil:
 
 ## Import from calendar file steps
 
+calendar-select-all-items = Merk alle
 
 ## Import dialog
 
+progress-pane-finished-desc2 = Fullført.
+error-pane-title = Feil
 
 ## <csv-field-map> element
 
@@ -89,6 +97,7 @@ items-pane-checkbox-calendars = Kalendere
 
 ## Footer area
 
+footer-help = Trenger du hjelp?
 
 ## Step navigation on top of the wizard pages
 

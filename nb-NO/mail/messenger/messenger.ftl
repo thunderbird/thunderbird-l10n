@@ -152,12 +152,22 @@ other-action-redirect-msg =
 
 ## Message header customize panel
 
+message-header-button-style-text =
+    .label = Tekst
+message-header-button-style-icons =
+    .label = Ikoner
+message-header-show-big-avatar =
+    .label = Større profilbilde
+    .accesskey = S
 
 ## Action Button Context Menu
 
 
 ## Add-on removal warning
 
+repair-text-encoding-button =
+    .label = Reparer tekstkoding
+    .tooltiptext = Gjett riktig tekstkoding fra meldingsinnhold
 
 ## no-reply handling
 
@@ -167,12 +177,36 @@ other-action-redirect-msg =
 
 ## Spaces toolbar
 
+spaces-toolbar-button-tasks2 =
+    .title = Oppgaver
+spaces-toolbar-button-settings2 =
+    .title = Innstillinger
+spaces-toolbar-button-hide =
+    .title = Skjul hurtigknapp-verktøylinjen
+settings-context-open-settings-item2 =
+    .label = Innstillinger
+settings-context-open-account-settings-item2 =
+    .label = Kontoinnstillinger
+settings-context-open-addons-item2 =
+    .label = Tillegg og tema
 
 ## Spaces toolbar pinned tab menupopup
 
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] Én ulest melding
+           *[other] { $count } uleste meldinger
+        }
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Tilpass …
+customize-panel-button-save = Ferdig
+    .accesskey = F
 
 ## Quick Filter Bar
 

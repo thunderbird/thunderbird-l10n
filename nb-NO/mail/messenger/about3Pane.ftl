@@ -15,6 +15,8 @@ thread-pane-folder-message-count =
         [one] { $count } melding
        *[other] { $count } meldinger
     }
+thread-pane-header-context-cards-view =
+    .label = Kortvisning
 
 ## Quick Filter Bar
 
@@ -166,14 +168,43 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = e
 folder-pane-write-message-button = Ny melding
     .title = Skriv en ny melding
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Mappemodus
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Vis «Hent meldinger»
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Vis «Ny melding»
+folder-pane-show-total-toggle =
+    .label = Vis totalt antall meldinger
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Vis mappestørrelse
+folder-pane-header-hide-local-folders =
+    .label = Skjul lokale mapper
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakt visning
     .accesskey = K
+folder-pane-mode-move-up =
+    .label = Flytt opp
+folder-pane-mode-move-down =
+    .label = Flytt ned
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 ulest melding
+       *[other] { $count } uleste meldinger
+    }
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Skift velg alle meldingene
+threadpane-column-header-select-all =
+    .title = Velg alle meldinger
 threadpane-column-label-select =
     .label = Velg meldinger
 threadpane-column-label-thread =
@@ -185,15 +216,28 @@ threadpane-column-label-flagged =
 threadpane-column-header-attachments =
     .title = Sorter etter vedlegg
 threadpane-column-label-attachments =
-    .label = Vedlegg-status
+    .label = Vedlegg
+threadpane-cell-attachments =
+    .aria-label = Vedlegg
+threadpane-attachments-cell-label = Vedlegg
+threadpane-column-header-spam =
+    .title = Sorter etter søppelpoststatus
+threadpane-column-label-spam =
+    .label = Søppelpost
+threadpane-read-cell-label = Lest
+threadpane-unread-cell-label = Uleste
 threadpane-column-header-sender = Fra
     .title = Sorter etter fra
 threadpane-column-label-sender =
     .label = Fra
+threadpane-cell-sender =
+    .aria-label = Fra
 threadpane-column-header-recipient = Mottaker
     .title = Sorter etter mottaker
 threadpane-column-label-recipient =
     .label = Mottaker
+threadpane-cell-recipient =
+    .aria-label = Mottaker
 threadpane-column-header-correspondents = Korrespondenter
     .title = Sorter etter korrespondenter
 threadpane-column-label-correspondents =
@@ -202,10 +246,14 @@ threadpane-column-header-subject = Emne
     .title = Sorter etter emne
 threadpane-column-label-subject =
     .label = Emne
+threadpane-cell-subject =
+    .aria-label = Emne
 threadpane-column-header-date = Dato
     .title = Sorter etter dato
 threadpane-column-label-date =
     .label = Dato
+threadpane-cell-date =
+    .aria-label = Dato
 threadpane-column-header-received = Mottatt
     .title = Sorter etter dato mottatt
 threadpane-column-label-received =
@@ -218,14 +266,20 @@ threadpane-column-header-size = Størrelse
     .title = Sorter etter størrelse
 threadpane-column-label-size =
     .label = Størrelse
+threadpane-cell-size =
+    .aria-label = Størrelse
 threadpane-column-header-tags = Etikett
     .title = Sorter etter etikett
 threadpane-column-label-tags =
     .label = Etikett
+threadpane-cell-tags =
+    .aria-label = Etiketter
 threadpane-column-header-account = Konto
     .title = Sorter etter konto
 threadpane-column-label-account =
     .label = Konto
+threadpane-cell-account =
+    .aria-label = Konto
 threadpane-column-header-priority = Prioritet
     .title = Sorter etter prioritet
 threadpane-column-label-priority =
@@ -234,10 +288,14 @@ threadpane-column-header-unread = Ulest
     .title = Antall uleste meldinger i tråden
 threadpane-column-label-unread =
     .label = Ulest
+threadpane-cell-unread =
+    .aria-label = Antall uleste meldinger
 threadpane-column-header-total = Totalt
     .title = Totalt antall meldinger i tråden
 threadpane-column-label-total =
     .label = Totalt
+threadpane-cell-total =
+    .aria-label = Totalt antall meldinger
 threadpane-column-header-location = Plassering
     .title = Sorter etter plassering
 threadpane-column-label-location =
@@ -250,9 +308,14 @@ threadpane-column-header-delete =
     .title = Slett en melding
 threadpane-column-label-delete =
     .label = Slett
+threadpane-cell-delete =
+    .aria-label = Slett
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indikator for ny melding
+    .title = Ny melding
 apply-columns-to-menu =
     .label = Bruk kolonnene på …
 apply-current-view-to-folder =

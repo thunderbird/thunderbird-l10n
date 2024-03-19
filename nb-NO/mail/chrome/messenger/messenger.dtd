@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Slett melding">
-<!ENTITY deleteMsgCmd.accesskey "t">
-<!ENTITY undeleteMsgCmd.label "Angre sletting av melding">
-<!ENTITY undeleteMsgCmd.accesskey "g">
-<!ENTITY deleteMsgsCmd.label "Slett valgte meldinger">
-<!ENTITY deleteMsgsCmd.accesskey "v">
-<!ENTITY undeleteMsgsCmd.label "Angre valgte meldinger">
-<!ENTITY undeleteMsgsCmd.accesskey "A">
-<!ENTITY deleteFolderCmd.label "Slett mappe">
-<!ENTITY deleteFolderCmd.accesskey "S">
-<!ENTITY unsubscribeNewsgroupCmd.label "Stopp abonnement">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "a">
 <!ENTITY selectMenu.label "Merk">
 <!ENTITY selectMenu.accesskey "M">
 <!ENTITY all.label "Alle">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "s">
 <!ENTITY menuFavoriteFolder.label "Favorittmappe">
 <!ENTITY menuFavoriteFolder.accesskey "F">
-<!ENTITY folderPropsCmd2.label "Egenskaper">
-<!ENTITY folderPropsFolderCmd2.label "Mappeegenskaper">
-<!ENTITY folderPropsNewsgroupCmd2.label "Nyhetsgruppe-innstillinger">
-<!ENTITY folderPropsCmd.accesskey "N">
 <!ENTITY undoDeleteMsgCmd.label "Angre sletting av melding">
 <!ENTITY redoDeleteMsgCmd.label "Gjenta sletting av melding">
 <!ENTITY undoMoveMsgCmd.label "Angre flytting av melding">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Mappepanel">
 <!ENTITY showFolderPaneCmd.accesskey "M">
-<!ENTITY showFolderPaneColsCmd.label "Kolonner i mappepanelet">
-<!ENTITY showFolderPaneColsCmd.accesskey "K">
 <!ENTITY showMessageCmd.label "Meldingsvindu">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Ny melding">
 <!ENTITY appmenuNewContactCmd.label "Adressebokkontakter …">
-<!ENTITY appmenuEditMenu.label "Rediger">
 <!ENTITY appmenuToolbarLayout.label "Verktøylinjeutseende …">
-<!ENTITY appmenuSelectThread.label "Velg tråd">
-<!ENTITY appmenuSelectFlagged.label "Velg meldinger med stjerne">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Ny etikett …">
@@ -692,7 +671,7 @@
 <!ENTITY starredColumn.label "Stjerne">
 <!ENTITY locationColumn.label "Plassering">
 <!ENTITY idColumn.label "Mottaksrekkefølge">
-<!ENTITY attachmentColumn.label "Vedlegg-status">
+<!ENTITY attachmentColumn.label "Vedlegg">
 <!ENTITY deleteColumn.label "Slett">
 
 <!-- Thread Pane Tooltips -->
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "d">
 <!ENTITY copyEmailCmd.label "Kopier e-postadresse">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Stopp">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Oppdater">
-<!ENTITY reloadCmd.accesskey "O">
 <!ENTITY openInBrowser.label "Åpne i nettleser">
 <!ENTITY openInBrowser.accesskey "Å">
 <!ENTITY openLinkInBrowser.label "Åpne lenke i nettleser">

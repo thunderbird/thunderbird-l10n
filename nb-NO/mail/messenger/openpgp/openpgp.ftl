@@ -4,6 +4,15 @@
 
 e2e-intro-description = For å sende krypterte eller digitalt signerte meldinger, må du konfigurere en krypteringsteknologi, enten OpenPGP eller S/MIME.
 e2e-intro-description-more = Velg din personlige nøkkel for å slå på OpenPGP, eller ditt personlige sertifikat for å slå på S/MIME. For en personlig nøkkel eller sertifikat eier du den tilsvarende hemmelige nøkkelen.
+e2e-sign-message =
+    .label = Signer ukrypterte meldinger
+    .accesskey = u
+e2e-disable-enc =
+    .label = Skru av kryptering for nye meldinger
+    .accesskey = S
+e2e-enable-enc =
+    .label = Skru på kryptering for nye meldinger
+    .accesskey = n
 e2e-advanced-section = Avanserte innstillinger
 e2e-attach-key =
     .label = Legg ved min offentlige nøkkel når du legger til en digital OpenPGP-signatur
@@ -84,6 +93,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Send offentlig nøkkel via e-post
     .accesskey = S
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -91,6 +102,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Kopier Nøkkel-ID-er til utklippstavlen
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -98,6 +111,8 @@ openpgp-key-man-copy-fprs =
            *[other] Kopier fingeravtrykk til utklippstavlen
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -105,11 +120,11 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Kopier offentlige nøkler til utklippstavlen
         }
     .accesskey = o
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Eksporter nøkler til fil
 openpgp-key-man-ctx-copy =
     .label = Kopier
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -117,6 +132,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Fingeravtrykk
         }
     .accesskey = F
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -124,6 +141,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] Nøkkel-ID-er
         }
     .accesskey = N
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -256,14 +275,15 @@ openpgp-radio-none-desc = Ikke bruk OpenPGP for denne identiteten.
 openpgp-radio-key-not-usable = Denne nøkkelen kan ikke brukes som en personlig nøkkel, fordi den hemmelige nøkkelen mangler!
 openpgp-radio-key-not-accepted = For å bruke denne nøkkelen må du godkjenne den som en personlig nøkkel!
 openpgp-radio-key-not-found = Denne nøkkelen ble ikke funnet! Hvis du vil bruke den, må du importere den til { -brand-short-name }.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Utløper den: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Utløpt den: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = Nøkkelen utløper om under 6 måneder
 openpgp-key-has-expired-icon =
     .title = Nøkkel utløpt
+openpgp-suggest-publishing-key = Hvis du publiserer den offentlige nøkkelen på en nøkkelserver, kan andre finne den.
 openpgp-key-expand-section =
     .tooltiptext = Mer informasjon
 openpgp-key-revoke-title = Tilbakekall nøkkel
@@ -280,7 +300,6 @@ key-external-label = Ekstern GnuPG-nøkkel
 
 ## Strings in keyDetailsDlg.xhtml
 
-# Strings in keyDetailsDlg.xhtml
 key-type-public = offentlig nøkkel
 key-type-primary = primærnøkkel
 key-type-subkey = undernøkkel
@@ -291,6 +310,8 @@ key-usage-sign = Signer
 key-usage-certify = Sertifiser
 key-usage-authentication = Autentisering
 key-does-not-expire = Nøkkelen utløper ikke
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Nøkkelen utløp den { $keyExpiry }
 key-expired-simple = Nøkkelen er utløpt
 key-revoked-simple = Nøkkelen ble tilbakekalt
@@ -298,13 +319,13 @@ key-do-you-accept = Godtar du denne nøkkelen for å bekrefte digitale signature
 
 ## Strings enigmailMsgComposeOverlay.js
 
-# Strings enigmailMsgComposeOverlay.js
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kan ikke sende meldingen, fordi det er et problem med din personlige nøkkel. { $problem }
 window-locked = Meldingsvindu er låst; sending avbrutt
 
 ## Strings in keyserver.jsm
 
-# Strings in keyserver.jsm
 keyserver-error-aborted = Avbrutt
 keyserver-error-unknown = En ukjent feil oppstod
 keyserver-error-server-error = Nøkkelserveren rapporterte en feil.
@@ -316,7 +337,6 @@ keyserver-error-unsupported = Nøkkelserveren støttes ikke.
 
 ## Strings in mimeWkdHandler.jsm
 
-# Strings in mimeWkdHandler.jsm
 wkd-message-body-req =
     Din e-postleverandør behandlet forespørselen din om å laste opp den offentlige nøkkelen til OpenPGP Web Key Directory.
     Bekreft for å fullføre publiseringen av din offentlige nøkkel.
@@ -326,7 +346,8 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
-# Strings in persistentCrypto.jsm
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Kunne ikke dekryptere melding med emnet
     { $subject }.
@@ -334,28 +355,29 @@ converter-decrypt-body-failed =
 
 ## Strings filters.jsm
 
-# Strings filters.jsm
 filter-folder-required = Du må velge en målmappe
 filter-decrypt-move-warn-experimental =
     Advarsel - filterhandlingen «Dekrypter permanent» kan føre til ødelagte meldinger.
     Vi anbefaler på det sterkeste at du først prøver filteret «Opprett dekryptert kopi», tester resultatet nøye, og begynner først å bruke dette filteret når du er fornøyd med resultatet.
 filter-term-pgpencrypted-label = OpenPGP-kryptert
 filter-key-required = Du må velge en mottakernøkkel.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Kunne ikke finne en krypteringsnøkkel for «{ $desc }».
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Advarsel - filterhandlingen «Krypter til nøkkel» erstatter mottakerne.
     Hvis du ikke har den hemmelige nøkkelen for «{ $desc }», vil du ikke lenger kunne lese e-postene.
 
 ## Strings filtersWrapper.jsm
 
-# Strings filtersWrapper.jsm
 filter-decrypt-move-label = Dekrypter permanent (OpenPGP)
 filter-decrypt-copy-label = Lag dekryptert kopi (OpenPGP)
 filter-encrypt-label = Krypter til nøkkel (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-# Strings in enigmailKeyImportInfo.js
 import-info-title =
     .title = Nøkler importerte!
 import-info-dialog-title = Nøkler importerte!
@@ -367,11 +389,12 @@ import-info-no-keys = Ingen nøkler importerte.
 
 ## Strings in enigmailKeyManager.js
 
-# Strings in enigmailKeyManager.js
 import-from-clip = Vil du importere noen nøkler fra utklippstavlen?
 import-from-url = Last ned offentlig nøkkel fra denne nettadressen:
 copy-to-clipbrd-failed = Kunne ikke kopiere de valgte nøklene til utklippstavlen.
 copy-to-clipbrd-ok = Nøkler kopierte til utklippstavlen
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     ADVARSEL: Du er i ferd med å slette en hemmelig nøkkel!
     
@@ -383,6 +406,8 @@ delete-mix =
     ADVARSEL: Du er i ferd med å slette hemmelige nøkler!
     Hvis du sletter din hemmelige nøkkel, vil du ikke lenger kunne dekryptere noen meldinger som er kryptert for den nøkkelen.
     Vil du virkelig slette BÅDE, de valgte hemmelige og offentlige nøklene?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Vil du slette den offentlige nøkkelen
     «{ $userId }»?
@@ -403,6 +428,8 @@ default-pub-key-filename = Eksporterte-offentlige-nøkler
 default-pub-sec-key-filename = Sikkerhetskopi-av-hemmelige-nøkler
 refresh-key-warn = Advarsel: Avhengig av antall nøkler og tilkoblingshastighet, kan det være en lang prosess å oppdatere alle nøklene!
 preview-failed = Kan ikke lese inn offentlig nøkkelfil.
+# Variables:
+# $reason (String) - Error description.
 general-error = Feil: { $reason }
 dlg-button-delete = &Slett
 
@@ -418,7 +445,6 @@ openpgp-export-secret-fail = <b>Det gikk ikke å eksportere den valgte hemmelige
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
-# Strings in keyObj.jsm
 key-ring-pub-key-revoked = Nøkkelen { $userId } (nøkkel-ID { $keyId }) er tilbakekalt.
 key-ring-pub-key-expired = Nøkkelen { $userId } (nøkkel-ID { $keyId }) er utløpt.
 key-ring-no-secret-key = Det ser ikke ut til at du har den hemmelige nøkkelen for { $userId } (nøkkel-ID { $keyId }) på nøkkelringen din; du kan ikke bruke nøkkelen til signering.
@@ -431,13 +457,11 @@ key-ring-enc-sub-keys-expired = Alle krypteringsundernøklene til nøkkel { $use
 
 ## Strings in gnupg-keylist.jsm
 
-# Strings in gnupg-keylist.jsm
 keyring-photo = Foto
 user-att-photo = Brukerattributt (JPEG-bilde)
 
 ## Strings in key.jsm
 
-# Strings in key.jsm
 already-revoked = Denne nøkkelen er allerede trukket tilbake.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -460,7 +484,6 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
-# Strings in keyRing.jsm & decryption.jsm
 key-man-button-import = &Importer
 delete-key-title = Slett OpenPGP-nøkkel
 delete-external-key-title = Fjern den eksterne GnuPG-nøkkelen
@@ -471,14 +494,16 @@ revoke-key-in-use-description = Kan ikke fortsette! Nøkkelen du valgte for tilb
 
 ## Strings used in errorHandling.jsm
 
-# Strings used in errorHandling.jsm
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = E-postadressen «{ $keySpec }» kan ikke matches med en nøkkel på nøkkelringen.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = Fant ikke den konfigurerte nøkkel-ID-en «{ $keySpec }» på nøkkelringen.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Du har ikke bekreftet at nøkkelen med ID «{ $keySpec }» er din personlige nøkkel.
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
-# Strings used in enigmailKeyManager.js & windows.jsm
 need-online = Funksjonen du har valgt er ikke tilgjengelig i frakoblet modus. Koble til og prøv igjen.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
@@ -486,23 +511,22 @@ need-online = Funksjonen du har valgt er ikke tilgjengelig i frakoblet modus. Ko
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 fail-key-extract = Feil - nøkkelekstraksjonskommandoen mislyktes
 
 ## Strings used in keyRing.jsm
 
-# Strings used in keyRing.jsm
 fail-cancel = Feil - Mottak av nøkkel avbrutt av bruker
 not-first-block = Feil - Første OpenPGP-blokk ikke offentlig nøkkelblokk
 import-key-confirm = Vil du importere den offentlige nøkkelen innebygd i meldingen?
 fail-key-import = Feil - import av nøkkel mislyktes
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Kunne ikke skrive til filen { $output }
 no-pgp-block = Feil - Ingen gyldig, armert OpenPGP-datablokk funnet
 confirm-permissive-import = Import mislyktes. Nøkkelen du prøver å importere kan være korrupt eller bruke ukjente attributter. Vil du prøve å importere de riktige delene? Dette kan føre til import av ufullstendige og ubrukelige nøkler.
 
 ## Strings used in trust.jsm
 
-# Strings used in trust.jsm
 key-valid-unknown = ukjent
 key-valid-invalid = ugyldig
 key-valid-disabled = slått av
@@ -516,7 +540,6 @@ key-trust-group = (gruppe)
 
 ## Strings used in commonWorkflows.js
 
-# Strings used in commonWorkflows.js
 import-key-file = Importer OpenPGP-nøkkelfil
 import-rev-file = Importer OpenPGP-tilbakekallingsfil
 gnupg-file = GnuPG-filer
@@ -525,7 +548,6 @@ file-to-big-to-import = Denne filen er for stor. Ikke importer et stort sett med
 
 ## Strings used in enigmailKeygen.js
 
-# Strings used in enigmailKeygen.js
 save-revoke-cert-as = Opprett og lagre tilbakekallingssertifikat
 revoke-cert-ok = Tilbakekallingssertifikatet er opprettet. Du kan bruke det til å ugyldiggjøre den offentlige nøkkelen, f.eks. i tilfelle du mister den hemmelige nøkkelen.
 revoke-cert-failed = Tilbakekallingssertifikatet kunne ikke opprettes.
@@ -533,6 +555,8 @@ gen-going = Nøkkelgenerering er allerede i gang!
 keygen-missing-user-name = Det er ikke angitt noe navn for den valgte kontoen/identiteten. Skriv inn en verdi i feltet «Ditt navn» i kontoinnstillingene.
 expiry-too-short = Nøkkelen din må være gyldig i minst en dag.
 expiry-too-long = Du kan ikke opprette en nøkkel som går ut senere enn 100 år.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Generere en offentlig og hemmelig nøkkel for «{ $id }»?
 key-man-button-generate-key = &Generer nøkkel
 key-abort = Avbryte nøkkelgenerering?
@@ -543,9 +567,17 @@ key-man-button-generate-key-continue = &Fortsett nøkkelgenerering
 
 failed-decrypt = Feil - dekryptering mislyktes
 fix-broken-exchange-msg-failed = Klarte ikke å reparere meldingen.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Kunne ikke samsvare signaturfilen «{ $attachment }» til et vedlegg
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Kunne ikke samsvare vedlegg «{ $attachment }» til en signaturfil
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = Signaturen for vedlegget { $attachment } ble bekreftet
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = Signaturen for vedlegget { $attachment } kunne ikke bekreftes
 decrypt-ok-no-sig =
     Advarsel
@@ -555,14 +587,21 @@ enig-content-note = *Vedlegg til denne meldingen er ikke signerte eller kryptert
 
 ## Strings used in enigmailMsgComposeOverlay.js
 
-# Strings used in enigmailMsgComposeOverlay.js
 msg-compose-button-send = &Send melding
 msg-compose-details-button-label = Detaljer…
 msg-compose-details-button-access-key = D
 send-aborted = Sendingsoperasjonen avbrutt.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Ikke nok tillit til nøkkelen «{ $key }»
+# Variables:
+# $key (String) - Key id.
 key-not-found = Nøkkel «{ $key }» ikke funnet
+# Variables:
+# $key (String) - Key id.
 key-revoked = Nøkkel «{ $key }» tilbakekalt
+# Variables:
+# $key (String) - Key id.
 key-expired = Nøkkel «{ $key }» utløpt
 msg-compose-internal-error = En intern feil har oppstått.
 keys-to-export = Velg OpenPGP-nøkler du vil sette inn
@@ -574,6 +613,8 @@ msg-compose-partially-encrypted-short = Se opp for å lekke sensitiv informasjon
 quoted-printable-warn =
     Du har slått på «quoted-printable»-koding for sending av meldinger. Dette kan føre til feil under dekryptering og/eller bekreftelse av meldingen.
     Ønsker du å slå av å sende «quoted-printable»-meldinger nå?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Du har satt linjeskift til { $width } tegn. For riktig kryptering og/eller signering, må denne verdien være minst 68.
     Ønsker du å endre linjeskiftet til 68 tegn nå?
@@ -586,46 +627,54 @@ send-to-news-warning =
     Fortsette?
 save-attachment-header = Lagre dekryptert vedlegg
 possibly-pgp-mime = Mulig PGP-/MIME-kryptert eller signert melding; bruk «Dekrypter/verifiser»-funksjonen for å bekrefte
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Kan ikke signere denne meldingen digitalt, fordi du ennå ikke har konfigurert ende-til-ende-kryptering for <{ $key }>
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Kan ikke sende denne meldingen kryptert, fordi du ennå ikke har konfigurert ende-til-ende-kryptering for <{ $key }>
 
 ## Strings used in decryption.jsm
 
-# Strings used in decryption.jsm
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Importere følgende nøkler?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = Importere { $name } ({ $id })?
 cant-import = Feil ved import av offentlig nøkkel
 unverified-reply = Innrykket meldingsdel (svar) ble trolig endret
 key-in-message-body = En nøkkel ble funnet i meldingen. Klikk «Importer nøkkel» for å importere nøkkelen
 sig-mismatch = Feil - signaturen samsvarer ikke
 invalid-email = Feil - ugyldige e-postadresser
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Vedlegget «{ $name }» du åpner ser ut til å være en OpenPGP-nøkkelfil.
     Klikk på «Importer» for å importere nøklene eller «Vis» for å se filinnholdet i nettleservinduet
 dlg-button-view = &Vis
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-# Strings used in enigmailMsgHdrViewOverlay.js
-decrypted-msg-with-format-error = Dekryptert melding (gjenopprettet ødelagt PGP-e-postformat sannsynligvis forårsaket av en gammel Exchange-server, slik at resultatet kanskje ikke er perfekt å lese)
-
 ## Strings used in encryption.jsm
 
-# Strings used in encryption.jsm
 not-required = Feil - ingen kryptering nødvendig
 
 ## Strings used in windows.jsm
 
-# Strings used in windows.jsm
 no-photo-available = Ingen foto tilgjengelig
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Fotostien «{ $photo }» er ikke lesbar
 debug-log-title = OpenPGP-feilsøkingslogg
 
 ## Strings used in dialog.jsm
 
-# Strings used in dialog.jsm
+# This string is followed by either repeat-suffix-singular if $count is 1 or else
+# by repeat-suffix-plural.
+# Variables:
+# $count (Number) - Number of times the alert will repeat.
 repeat-prefix = Denne varselen vil bli gjentatt { $count }
 repeat-suffix-singular = gang til.
 repeat-suffix-plural = ganger til.
@@ -642,12 +691,10 @@ enig-info = OpenPGP-informasjon
 
 ## Strings used in persistentCrypto.jsm
 
-# Strings used in persistentCrypto.jsm
 dlg-button-retry = &Prøv igjen
 dlg-button-skip = &Hopp over
 
 ## Strings used in enigmailMsgBox.js
 
-# Strings used in enigmailMsgBox.js
 enig-alert-title =
     .title = OpenPGP-varsel

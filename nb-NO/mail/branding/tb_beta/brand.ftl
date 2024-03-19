@@ -13,3 +13,10 @@
 ## Reference: https://www.mozilla.org/styleguide/communications/translation/
 
 -brand-shorter-name = Thunderbird Beta
+-brand-short-name = Thunderbird Beta
+-brand-full-name = Mozilla Thunderbird Beta
+# This brand name can be used in messages where the product name needs to
+# remain unchanged across different versions (Daily, Beta, etc.).
+-brand-product-name = Thunderbird
+-vendor-short-name = Mozilla
+trademarkInfo = Mozilla Thunderbird og Thunderbird-logoer er varemarker som tilhører Mozilla.
