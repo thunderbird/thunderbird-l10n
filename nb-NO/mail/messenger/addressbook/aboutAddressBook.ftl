@@ -28,6 +28,10 @@ about-addressbook-confirm-delete-book-title = Slett adressebok
 
 ## Cards
 
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search =
+    .placeholder = Søk i { $name }
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
@@ -36,6 +40,8 @@ about-addressbook-confirm-delete-book-title = Slett adressebok
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Ingen tilgjengelige kontakter
+about-addressbook-placeholder-new-contact = Ny kontakt
 
 ## Details
 

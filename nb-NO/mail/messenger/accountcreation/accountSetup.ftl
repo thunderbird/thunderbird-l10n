@@ -168,3 +168,14 @@ account-setup-calendar-name-input =
 account-setup-calendar-color-label = Farge
 account-setup-calendar-refresh-label = Oppdater
 account-setup-calendar-refresh-manual = Manuelt
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
+account-setup-calendar-refresh-interval =
+    { $count ->
+        [one] Hvert minutt
+       *[other] Hvert { $count }. minutt
+    }
+account-setup-calendar-show-reminders = Vis påminnelser
+    .accesskey = V
+account-setup-calendar-offline-support = Frakoblet støtte
+    .accesskey = F
