@@ -219,7 +219,7 @@ account-setup-calendar-refresh-manual = Manuelt
 account-setup-calendar-refresh-interval =
     { $count ->
         [one] Kvart minutt
-       *[other] Kvart { $count } minutt
+       *[other] Kvart { $count }. minutt
     }
 account-setup-calendar-offline-support = Fråkopla støtte
     .accesskey = F
