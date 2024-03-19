@@ -16,7 +16,6 @@ about-addressbook-toolbar-new-list =
 ## Books
 
 all-address-books = Alle adressebøker
-
 about-addressbook-books-context-properties =
     .label = Egenskaper
 about-addressbook-books-context-synchronize =
@@ -25,7 +24,6 @@ about-addressbook-books-context-delete =
     .label = Slett
 about-addressbook-books-context-remove =
     .label = Fjern
-
 about-addressbook-confirm-delete-book-title = Slett adressebok
 
 ## Cards
@@ -34,16 +32,20 @@ about-addressbook-confirm-delete-book-title = Slett adressebok
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+
 ## Card list placeholder
 ## Shown when there are no cards in the list
+
 
 ## Details
 
 about-addressbook-begin-edit-contact-button = Rediger
+about-addressbook-delete-edit-contact-button = Slett
 about-addressbook-cancel-edit-contact-button = Avbryt
 about-addressbook-save-edit-contact-button = Lagre
 
 # Photo dialog
+
 
 # Keyboard shortcuts
 
