@@ -143,9 +143,15 @@ menu-openpgp =
 menu-smime =
     .label = S/MIME
     .accesskey = S
+menu-encrypt =
+    .label = Krypter
+    .accesskey = E
 menu-encrypt-subject =
     .label = Krypter emnet
     .accesskey = K
+menu-sign =
+    .label = Signer digitalt
+    .accesskey = i
 menu-manage-keys =
     .label = Nøkkelassistent
     .accesskey = N
@@ -159,6 +165,9 @@ key-notification-disable-encryption =
     .label = Ikke krypter
     .accesskey = k
     .tooltiptext = Skru av ende-til-ende-kryptering
+can-e2e-encrypt-button =
+    .label = Krypter
+    .accesskey = E
 
 ## Addressing Area
 
