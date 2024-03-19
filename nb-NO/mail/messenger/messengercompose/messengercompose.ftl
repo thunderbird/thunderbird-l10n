@@ -5,6 +5,9 @@
 
 ## Send Format
 
+compose-send-format-menu =
+    .label = Sendingsformat
+    .accesskey = f
 
 ## Addressing widget
 
@@ -62,6 +65,10 @@ menuitem-toggle-attachment-pane =
 toolbar-button-add-attachment =
     .label = Legg ved
     .tooltiptext = Legg ved et vedlegg ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
+add-attachment-notification-reminder2 =
+    .label = Legg til vedlegg …
+    .accesskey = L
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 menuitem-attach-files =
     .label = Fil(er) …
     .accesskey = F
@@ -70,6 +77,13 @@ context-menuitem-attach-files =
     .label = Legg ved fil(er) …
     .accesskey = L
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = Mitt vCard
+    .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = Min offentlige OpenPGP-nøkkel
+    .accesskey = n
 #   $count (Number) - the number of attachments in the attachment bucket
 attachment-bucket-count-value =
     { $count ->
@@ -111,6 +125,40 @@ button-return-receipt =
 
 ## Encryption
 
+encryption-menu =
+    .label = Sikkerhet
+    .accesskey = k
+encryption-toggle =
+    .label = Krypter
+    .tooltiptext = Bruk ende-til-ende-kryptering for denne meldingen
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = Vis eller endre OpenPGP-krypteringsinnstillinger
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = Vis eller endre S/MIME-krypteringsinnstillinger
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
+menu-encrypt-subject =
+    .label = Krypter emnet
+    .accesskey = K
+menu-manage-keys =
+    .label = Nøkkelassistent
+    .accesskey = N
+menu-view-certificates =
+    .label = Vis mottakeres sertifikater
+    .accesskey = V
+menu-open-key-manager =
+    .label = Nøkkelbehandler
+    .accesskey = N
+key-notification-disable-encryption =
+    .label = Ikke krypter
+    .accesskey = k
+    .tooltiptext = Skru av ende-til-ende-kryptering
 
 ## Addressing Area
 
@@ -131,6 +179,11 @@ show-to-row-button = Til
     .title = Vis Til-felt ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 cc-address-row-label =
     .value = Kopi
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = Kopi-felt
+    .accesskey = C
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -172,15 +225,25 @@ encrypted-bcc-ignore-button = Forstått
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Lastet opp til en ukjent Filelink-konto.
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Filelink-vedlegg
 
 # Template
 
+cloud-file-template-size = Størrelse:
+cloud-file-template-link = Lenke:
+cloud-file-template-expiry-date = Utløpsdato:
 
 # Messages
 
+cloud-file-attachment-error-title = Filelink-vedleggsfeil
 
 ## Link Preview
 

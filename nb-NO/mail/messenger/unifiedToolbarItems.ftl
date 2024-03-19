@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Fleksibelt mellomrom
+search-bar-label = Søk
 toolbar-write-message-label = Skriv
 toolbar-write-message =
     .title = Skriv ny melding
@@ -17,6 +18,8 @@ toolbar-edit-event-label = Rediger
 toolbar-edit-event =
     .title = Rediger valgte hendelser eller oppgaver
 toolbar-get-messages-label = Hent meldinger
+toolbar-get-messages =
+    .title = Hent nye meldinger for alle kontoer
 toolbar-reply-label = Svar
 toolbar-reply =
     .title = Svar til avsender
@@ -26,6 +29,9 @@ toolbar-reply-all =
 toolbar-reply-to-list-label = Svar til liste
 toolbar-reply-to-list =
     .title = Svar til e-postliste
+toolbar-redirect-label = Omdiriger
+toolbar-redirect =
+    .title = Omdiriger den valgte meldingen
 toolbar-archive-label = Arkiver
 toolbar-archive =
     .title = Arkiver valgt melding
@@ -48,8 +54,8 @@ toolbar-junk-label = Uønsket
 toolbar-junk =
     .title = Merk de valgte meldingene som uønsket e-post
 toolbar-delete-label = Slett
-toolbar-delete =
-    .title = Slett valgte meldinger eller mappe
+toolbar-delete-title =
+    .title = Slett de valgte meldingene
 toolbar-compact-label = Komprimer
 toolbar-compact =
     .title = Fjern slettede meldinger fra valgt mappe
@@ -88,6 +94,9 @@ toolbar-tasks =
 toolbar-print-label = Skriv ut
 toolbar-print =
     .title = Skriv ut denne meldingen
+toolbar-quick-filter-bar-label = Hurtigfilter
+toolbar-quick-filter-bar =
+    .title = Filtrer meldinger
 toolbar-synchronize-label = Synkroniser
 toolbar-synchronize =
     .title = Oppdater kalendre og synkroniser endringer
@@ -118,3 +127,10 @@ toolbar-stop =
 toolbar-throbber-label = Aktivitetsindikator
 toolbar-throbber =
     .title = Aktivitetsindikator
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Legg til lokal adressebok
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Legg til LDAP-adressebok

@@ -10,6 +10,23 @@ message-header-newsgroups-list-name = Temagrupper
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
 
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Få hjelp
+    .accesskey = F
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Avslutt abonnement …
+    .accesskey = A
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Abonner …
+    .accesskey = A
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Skriv
+    .accesskey = S
 
 ##
 
+message-ids-field-show-all = Vis alle

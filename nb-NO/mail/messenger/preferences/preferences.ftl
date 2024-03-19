@@ -196,6 +196,10 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Vis alltid rullefelt
     .accesskey = V
+auto-hide-tabbar-label =
+    .label = Skjul fanelinjen automatisk
+    .accesskey = S
+auto-hide-tabbar-description = Skjul fanelinjen når kun én fane er åpen
 system-integration-legend = Systemintegrasjon
 always-check-default =
     .label = Alltid kontroller om { -brand-short-name } er standard e-postklient ved oppstart
@@ -276,6 +280,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Tøm nå
     .accesskey = T
+clear-cache-shutdown-label =
+    .label = Tøm hurtigbufferen ved avslutning
+    .accesskey = s
 fonts-legend = Skrifttyper og farger
 default-font-label =
     .value = Standard skrifttype:
@@ -446,6 +453,7 @@ restore-html-label =
 default-format-label =
     .label = Bruk paragrafformat i stedet for brødtekst som standard
     .accesskey = p
+compose-send-format-title = Sendingsformat
 autocomplete-description = Ved adressering av meldinger, søk etter treff i:
 ab-label =
     .label = Lokale adressebøker
@@ -581,6 +589,8 @@ certificate-button =
 security-devices-button =
     .label = Sikkerhetsenheter…
     .accesskey = e
+account-settings = Kontoinnstillinger
+email-e2ee-automatism = Automatisk bruk av kryptering
 
 ## Chat Tab
 
@@ -650,6 +660,8 @@ chat-browse-sound-button =
 theme-label =
     .value = Tema:
     .accesskey = T
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = Bobler
 style-dark =
@@ -689,3 +701,10 @@ search-results-help-link = Trenger du hjelp? Gå til <a data-l10n-name="url">{ -
 
 ## Sync Tab
 
+show-synced-item-account = E-postkontoer
+show-synced-item-address = Adressebøker
+show-synced-item-calendar = Kalendere
+show-synced-item-identity = Identiteter
+show-synced-item-passwords = Passord
+show-synced-change = Endre …
+synced-acount-item-filters = Filtre

@@ -5,6 +5,13 @@
 
 ## Window controls
 
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip =
+    { $count ->
+        [one] 1 ulest melding
+       *[other] { $count } uleste meldinger
+    }
 about-rights-notification-text = { -brand-short-name } er programvare basert på fri og åpen kildekode, utviklet av et fellesskap med tusenvis av medlemmer rundt om i verden.
 
 ## Content tabs

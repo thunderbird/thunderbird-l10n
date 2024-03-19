@@ -3,10 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Table
+## Shortcuts
+## Variables:
+##  $key (String) - The shortcut key.
 
-tree-list-view-column-picker =
-    .title = Velg kolonner du vil vise
-tree-list-view-row-attach =
-    .alt = Vedleggsindikator
-    .title = Meldingen inneholder vedlegg
+shortcut-key = { $key }
+
+## Shortcut and label combined strings
+
