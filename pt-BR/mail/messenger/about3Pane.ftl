@@ -426,3 +426,5 @@ apply-current-view-to-folder-message = Aplicar a exibição da pasta atual a { $
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Aplicar a exibição da pasta atual a { $name } e seus filhos?
+threadpane-card-menu-button =
+    .title = Menu de mensagens
