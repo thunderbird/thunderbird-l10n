@@ -278,90 +278,165 @@ threadpane-column-label-sender =
     .label = Lähettäjä
 threadpane-cell-sender =
     .aria-label = Lähettäjä
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Lähettäjä
+    .title = { $title }
 threadpane-column-header-recipient = Vastaanottaja
     .title = Järjestä vastaanottajan mukaan
 threadpane-column-label-recipient =
     .label = Vastaanottaja
 threadpane-cell-recipient =
     .aria-label = Vastaanottaja
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Vastaanottaja
+    .title = { $title }
 threadpane-column-header-correspondents = Keskustelukumppanit
     .title = Järjestä keskustelukumppaneiden mukaan
 threadpane-column-label-correspondents =
     .label = Keskustelukumppanit
 threadpane-cell-correspondents =
     .aria-label = Keskustelukumppanit
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Keskustelukumppanit
+    .title = { $title }
 threadpane-column-header-subject = Aihe
     .title = Järjestä aiheen mukaan
 threadpane-column-label-subject =
     .label = Aihe
 threadpane-cell-subject =
     .aria-label = Aihe
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Aihe
+    .title = { $title }
 threadpane-column-header-date = Päiväys
     .title = Järjestä päiväyksen mukaan
 threadpane-column-label-date =
     .label = Päiväys
 threadpane-cell-date =
     .aria-label = Päiväys
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Päiväys
+    .title = { $title }
 threadpane-column-header-received = Vastaanotettu
     .title = Järjestä vastaanottopäivän mukaan
 threadpane-column-label-received =
     .label = Vastaanotettu
 threadpane-cell-received =
     .aria-label = Vastaanoton päiväys
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Vastaanoton päiväys
+    .title = { $title }
 threadpane-column-header-status = Tila
     .title = Järjestä tilan mukaan
 threadpane-column-label-status =
     .label = Tila
 threadpane-cell-status =
     .aria-label = Tila
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Tila
+    .title = { $title }
 threadpane-column-header-size = Koko
     .title = Järjestä koon mukaan
 threadpane-column-label-size =
     .label = Koko
 threadpane-cell-size =
     .aria-label = Koko
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Koko
+    .title = { $title }
 threadpane-column-header-tags = Tunnus
     .title = Järjestä tunnuksen mukaan
 threadpane-column-label-tags =
     .label = Tunnus
 threadpane-cell-tags =
     .aria-label = Tunnukset
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Tunnukset
+    .title = { $title }
 threadpane-column-header-account = Tili
     .title = Järjestä tilin mukaan
 threadpane-column-label-account =
     .label = Tili
 threadpane-cell-account =
     .aria-label = Tili
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Tili
+    .title = { $title }
 threadpane-column-header-priority = Tärkeysaste
     .title = Järjestä tärkeysasteen mukaan
 threadpane-column-label-priority =
     .label = Tärkeysaste
 threadpane-cell-priority =
     .aria-label = Tärkeysaste
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Tärkeysaste
+    .title = { $title }
 threadpane-column-header-unread = Lukematta
     .title = Viestiketjun lukematta olevien viestien määrä
 threadpane-column-label-unread =
     .label = Lukematta
 threadpane-cell-unread =
     .aria-label = Lukemattomien viestien määrä
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Lukemattomien viestien määrä
+    .title = { $title }
 threadpane-column-header-total = Yhteensä
     .title = Viestien määrä viestiketjussa
 threadpane-column-label-total =
     .label = Yhteensä
 threadpane-cell-total =
     .aria-label = Viestien kokonaismäärä
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Viestien kokonaismäärä
+    .title = { $title }
 threadpane-column-header-location = Sijainti
     .title = Järjestä sijainnin mukaan
 threadpane-column-label-location =
     .label = Sijainti
 threadpane-cell-location =
     .aria-label = Sijainti
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Sijainti
+    .title = { $title }
 threadpane-column-header-id = Saapumisjärjestys
     .title = Järjestä saapumisjärjestyksen mukaan
 threadpane-column-label-id =
     .label = Saapumisjärjestys
 threadpane-cell-id =
     .aria-label = Saapumisjärjestys
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Saapumisjärjestys
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Poista viesti
 threadpane-column-label-delete =
