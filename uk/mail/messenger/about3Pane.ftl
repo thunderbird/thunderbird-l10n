@@ -294,6 +294,11 @@ threadpane-column-label-recipient =
     .label = Отримувач
 threadpane-cell-recipient =
     .aria-label = Отримувач
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Отримувач
+    .title = { $title }
 threadpane-column-header-correspondents = Кореспонденти
     .title = Сортувати за кореспондентами
 threadpane-column-label-correspondents =
