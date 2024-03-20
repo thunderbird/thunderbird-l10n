@@ -298,90 +298,165 @@ threadpane-column-label-sender =
     .label = Oddi wrth
 threadpane-cell-sender =
     .aria-label = Oddi wrth
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Oddi wrth
+    .title = { $title }
 threadpane-column-header-recipient = Derbynnydd
     .title = Trefnu yn ôl derbyniwr
 threadpane-column-label-recipient =
     .label = Derbynnydd
 threadpane-cell-recipient =
     .aria-label = Derbynnydd
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Derbynnydd
+    .title = { $title }
 threadpane-column-header-correspondents = Cyfathrebwyr
     .title = Trefnu yn ôl cyfathrebwyr
 threadpane-column-label-correspondents =
     .label = Cyfathrebwyr
 threadpane-cell-correspondents =
     .aria-label = Cyfathrebwyr
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Cyfathrebwyr
+    .title = { $title }
 threadpane-column-header-subject = Pwnc
     .title = Trefnu yn ôl pwnc
 threadpane-column-label-subject =
     .label = Pwnc
 threadpane-cell-subject =
     .aria-label = Pwnc
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Pwnc
+    .title = { $title }
 threadpane-column-header-date = Dyddiad
     .title = Trefnu yn ôl dyddiad
 threadpane-column-label-date =
     .label = Dyddiad
 threadpane-cell-date =
     .aria-label = Dyddiad
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Dyddiad
+    .title = { $title }
 threadpane-column-header-received = Derbyniwyd
     .title = Trefnu yn ôl dyddiad derbyniwyd
 threadpane-column-label-received =
     .label = Derbyniwyd
 threadpane-cell-received =
     .aria-label = Dyddiad derbyn
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Dyddiad derbyn
+    .title = { $title }
 threadpane-column-header-status = Statws
     .title = Trefnu yn ôl statws
 threadpane-column-label-status =
     .label = Statws
 threadpane-cell-status =
     .aria-label = Statws
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Statws
+    .title = { $title }
 threadpane-column-header-size = Maint
     .title = Trefnu yn ôl maint
 threadpane-column-label-size =
     .label = Maint
 threadpane-cell-size =
     .aria-label = Maint
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Maint
+    .title = { $title }
 threadpane-column-header-tags = Tag
     .title = Trefnu yn ôl tagiau
 threadpane-column-label-tags =
     .label = Tag
 threadpane-cell-tags =
     .aria-label = Tagiau
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Tagiau
+    .title = { $title }
 threadpane-column-header-account = Cyfrif
     .title = Trefnu yn ôl cyfrif
 threadpane-column-label-account =
     .label = Cyfrif
 threadpane-cell-account =
     .aria-label = Cyfrif
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Cyfrif
+    .title = { $title }
 threadpane-column-header-priority = Blaenoriaeth
     .title = Trefnu yn ôl blaenoriaeth
 threadpane-column-label-priority =
     .label = Blaenoriaeth
 threadpane-cell-priority =
     .aria-label = Blaenoriaeth
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Blaenoriaeth
+    .title = { $title }
 threadpane-column-header-unread = Heb eu Darllen
     .title = Nifer y negeseuon heb eu darllen yn yr edafedd
 threadpane-column-label-unread =
     .label = Heb eu Darllen
 threadpane-cell-unread =
     .aria-label = Nifer y negeseuon heb eu darllen
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Nifer y negeseuon heb eu darllen
+    .title = { $title }
 threadpane-column-header-total = Cyfanswm
     .title = Cyfanswm y nifer o negeseuon yn yr edafedd
 threadpane-column-label-total =
     .label = Cyfanswm
 threadpane-cell-total =
     .aria-label = Cyfanswm nifer y negeseuon
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Cyfanswm nifer y negeseuon
+    .title = { $title }
 threadpane-column-header-location = Lleoliad
     .title = Trefnu yn ôl lleoliad
 threadpane-column-label-location =
     .label = Lleoliad
 threadpane-cell-location =
     .aria-label = Lleoliad
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Lleoliad
+    .title = { $title }
 threadpane-column-header-id = Trefn Derbyn
     .title = Trefnu yn ôl y drefn derbyniwyd
 threadpane-column-label-id =
     .label = Trefn Derbyn
 threadpane-cell-id =
     .aria-label = Derbyniwyd archeb
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Derbyniwyd archeb
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Dileu neges
 threadpane-column-label-delete =
