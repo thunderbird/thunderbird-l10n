@@ -271,90 +271,165 @@ threadpane-column-label-sender =
     .label = 從
 threadpane-cell-sender =
     .aria-label = 從
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = 從
+    .title = { $title }
 threadpane-column-header-recipient = 收件者
     .title = 依照收件者排序
 threadpane-column-label-recipient =
     .label = 收件者
 threadpane-cell-recipient =
     .aria-label = 收件者
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = 收件者
+    .title = { $title }
 threadpane-column-header-correspondents = 通訊者
     .title = 依照通訊者排序
 threadpane-column-label-correspondents =
     .label = 通訊者
 threadpane-cell-correspondents =
     .aria-label = 通訊者
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = 通訊者
+    .title = { $title }
 threadpane-column-header-subject = 主旨
     .title = 依照主旨排序
 threadpane-column-label-subject =
     .label = 主旨
 threadpane-cell-subject =
     .aria-label = 主旨
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = 主旨
+    .title = { $title }
 threadpane-column-header-date = 日期
     .title = 依照日期排序
 threadpane-column-label-date =
     .label = 日期
 threadpane-cell-date =
     .aria-label = 日期
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = 日期
+    .title = { $title }
 threadpane-column-header-received = 接收時間
     .title = 依照接收日期排序
 threadpane-column-label-received =
     .label = 接收時間
 threadpane-cell-received =
     .aria-label = 接收日期
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = 接收日期
+    .title = { $title }
 threadpane-column-header-status = 狀態
     .title = 依照狀態排序
 threadpane-column-label-status =
     .label = 狀態
 threadpane-cell-status =
     .aria-label = 狀態
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = 狀態
+    .title = { $title }
 threadpane-column-header-size = 大小
     .title = 依照大小排序
 threadpane-column-label-size =
     .label = 大小
 threadpane-cell-size =
     .aria-label = 大小
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = 大小
+    .title = { $title }
 threadpane-column-header-tags = 標籤
     .title = 依照標籤排序
 threadpane-column-label-tags =
     .label = 標籤
 threadpane-cell-tags =
     .aria-label = 標籤
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = 標籤
+    .title = { $title }
 threadpane-column-header-account = 帳號
     .title = 依照帳號排序
 threadpane-column-label-account =
     .label = 帳號
 threadpane-cell-account =
     .aria-label = 帳號
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = 帳號
+    .title = { $title }
 threadpane-column-header-priority = 重要性
     .title = 依照重要性排序
 threadpane-column-label-priority =
     .label = 重要性
 threadpane-cell-priority =
     .aria-label = 重要性
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = 重要性
+    .title = { $title }
 threadpane-column-header-unread = 未讀
     .title = 討論串中未讀訊息數量
 threadpane-column-label-unread =
     .label = 未讀
 threadpane-cell-unread =
     .aria-label = 未讀訊息數量
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = 未讀訊息數量
+    .title = { $title }
 threadpane-column-header-total = 全部
     .title = 討論串中所有訊息數量
 threadpane-column-label-total =
     .label = 全部
 threadpane-cell-total =
     .aria-label = 訊息總數
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = 訊息總數
+    .title = { $title }
 threadpane-column-header-location = 地點
     .title = 依照位置
 threadpane-column-label-location =
     .label = 地點
 threadpane-cell-location =
     .aria-label = 位置
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = 位置
+    .title = { $title }
 threadpane-column-header-id = 收件順序
     .title = 依照接收順序排序
 threadpane-column-label-id =
     .label = 收件順序
 threadpane-cell-id =
     .aria-label = 收件順序
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = 收件順序
+    .title = { $title }
 threadpane-column-header-delete =
     .title = 刪除訊息
 threadpane-column-label-delete =
