@@ -57,7 +57,7 @@ list-id-context-list-help =
     .accesskey = H
 # Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
 list-id-list-unsubscribe =
-    .label = Abonnement entfernen
+    .label = Abonnement entfernen…
     .accesskey = b
 # Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
 list-id-list-subscribe =
