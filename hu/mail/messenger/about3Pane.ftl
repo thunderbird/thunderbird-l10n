@@ -278,90 +278,165 @@ threadpane-column-label-sender =
     .label = Feladó
 threadpane-cell-sender =
     .aria-label = Ettől:
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Ettől:
+    .title = { $title }
 threadpane-column-header-recipient = Címzett
     .title = Rendezés címzett szerint
 threadpane-column-label-recipient =
     .label = Címzett
 threadpane-cell-recipient =
     .aria-label = Címzett
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Címzett
+    .title = { $title }
 threadpane-column-header-correspondents = Szerkesztők
     .title = Rendezés szerkesztők szerint
 threadpane-column-label-correspondents =
     .label = Szerkesztők
 threadpane-cell-correspondents =
     .aria-label = Szerkesztők
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Szerkesztők
+    .title = { $title }
 threadpane-column-header-subject = Tárgy
     .title = Rendezés tárgy szerint
 threadpane-column-label-subject =
     .label = Tárgy
 threadpane-cell-subject =
     .aria-label = Tárgy
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Tárgy
+    .title = { $title }
 threadpane-column-header-date = Dátum
     .title = Rendezés dátum szerint
 threadpane-column-label-date =
     .label = Dátum
 threadpane-cell-date =
     .aria-label = Dátum
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Dátum
+    .title = { $title }
 threadpane-column-header-received = Beérkezés
     .title = Rendezés beérkezés szerint
 threadpane-column-label-received =
     .label = Beérkezés
 threadpane-cell-received =
     .aria-label = Beérkezés dátuma
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Beérkezés dátuma
+    .title = { $title }
 threadpane-column-header-status = Állapot
     .title = Rendezés állapot szerint
 threadpane-column-label-status =
     .label = Állapot
 threadpane-cell-status =
     .aria-label = Állapot
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Állapot
+    .title = { $title }
 threadpane-column-header-size = Méret
     .title = Rendezés méret szerint
 threadpane-column-label-size =
     .label = Méret
 threadpane-cell-size =
     .aria-label = Méret
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Méret
+    .title = { $title }
 threadpane-column-header-tags = Címke
     .title = Rendezés címkék szerint
 threadpane-column-label-tags =
     .label = Címke
 threadpane-cell-tags =
     .aria-label = Címkék
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Címkék
+    .title = { $title }
 threadpane-column-header-account = Postafiók
     .title = Rendezés postafiók szerint
 threadpane-column-label-account =
     .label = Postafiók
 threadpane-cell-account =
     .aria-label = Fiók
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Fiók
+    .title = { $title }
 threadpane-column-header-priority = Sürgősség
     .title = Rendezés sürgősség szerint
 threadpane-column-label-priority =
     .label = Sürgősség
 threadpane-cell-priority =
     .aria-label = Prioritás
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Prioritás
+    .title = { $title }
 threadpane-column-header-unread = Olvasatlan
     .title = A témacsoport olvasatlan üzeneteinek száma
 threadpane-column-label-unread =
     .label = Olvasatlan
 threadpane-cell-unread =
     .aria-label = Üzenetek száma
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Üzenetek száma
+    .title = { $title }
 threadpane-column-header-total = Összesen
     .title = A témacsoport üzeneteinek száma
 threadpane-column-label-total =
     .label = Összesen
 threadpane-cell-total =
     .aria-label = Összes üzenet száma
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Összes üzenet száma
+    .title = { $title }
 threadpane-column-header-location = Hely
     .title = Rendezés hely szerint
 threadpane-column-label-location =
     .label = Hely
 threadpane-cell-location =
     .aria-label = Hely
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Hely
+    .title = { $title }
 threadpane-column-header-id = Érkezési sorrend
     .title = Rendezés beérkezés szerint
 threadpane-column-label-id =
     .label = Érkezési sorrend
 threadpane-cell-id =
     .aria-label = Érkezési sorrend
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Érkezési sorrend
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Üzenet törlése
 threadpane-column-label-delete =
