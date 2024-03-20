@@ -278,18 +278,33 @@ threadpane-column-label-sender =
     .label = Gönderen
 threadpane-cell-sender =
     .aria-label = Gönderen
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Gönderen
+    .title = { $title }
 threadpane-column-header-recipient = Alıcı
     .title = Alıcıya göre sırala
 threadpane-column-label-recipient =
     .label = Alıcı
 threadpane-cell-recipient =
     .aria-label = Alıcı
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Alıcı
+    .title = { $title }
 threadpane-column-header-correspondents = Yazanlar
     .title = Yazanlara göre sırala
 threadpane-column-label-correspondents =
     .label = Yazanlar
 threadpane-cell-correspondents =
     .aria-label = Yazanlar
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Yazanlar
+    .title = { $title }
 threadpane-column-header-subject = Konu
     .title = Konuya göre sırala
 threadpane-column-label-subject =
@@ -384,6 +399,11 @@ threadpane-column-label-unread =
     .label = Okunmadı
 threadpane-cell-unread =
     .aria-label = Okunmamış ileti sayısı
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Okunmamış ileti sayısı
+    .title = { $title }
 threadpane-column-header-total = Toplam
     .title = Dizideki iletilerin toplam sayısı
 threadpane-column-label-total =
