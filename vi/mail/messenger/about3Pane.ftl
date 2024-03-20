@@ -262,90 +262,165 @@ threadpane-column-label-sender =
     .label = Từ
 threadpane-cell-sender =
     .aria-label = Từ
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Từ
+    .title = { $title }
 threadpane-column-header-recipient = Người nhận
     .title = Sắp xếp theo người nhận
 threadpane-column-label-recipient =
     .label = Người nhận
 threadpane-cell-recipient =
     .aria-label = Người nhận
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Người nhận
+    .title = { $title }
 threadpane-column-header-correspondents = Người viết
     .title = Sắp xếp theo người viết
 threadpane-column-label-correspondents =
     .label = Người viết
 threadpane-cell-correspondents =
     .aria-label = Người viết
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Người viết
+    .title = { $title }
 threadpane-column-header-subject = Tiêu đề
     .title = Sắp xếp theo chủ đề
 threadpane-column-label-subject =
     .label = Tiêu đề
 threadpane-cell-subject =
     .aria-label = Tiêu đề
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Tiêu đề
+    .title = { $title }
 threadpane-column-header-date = Ngày
     .title = Sắp xếp theo ngày
 threadpane-column-label-date =
     .label = Ngày
 threadpane-cell-date =
     .aria-label = Ngày
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Ngày
+    .title = { $title }
 threadpane-column-header-received = Nhận được
     .title = Sắp xếp theo ngày nhận
 threadpane-column-label-received =
     .label = Nhận được
 threadpane-cell-received =
     .aria-label = Ngày nhận
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Ngày nhận
+    .title = { $title }
 threadpane-column-header-status = Trạng thái
     .title = Sắp xếp theo trạng thái
 threadpane-column-label-status =
     .label = Trạng thái
 threadpane-cell-status =
     .aria-label = Trạng thái
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Trạng thái
+    .title = { $title }
 threadpane-column-header-size = Dung lượng
     .title = Sắp xếp theo kích thước
 threadpane-column-label-size =
     .label = Dung lượng
 threadpane-cell-size =
     .aria-label = Kích thước
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Kích thước
+    .title = { $title }
 threadpane-column-header-tags = Nhãn
     .title = Sắp xếp theo nhãn
 threadpane-column-label-tags =
     .label = Nhãn
 threadpane-cell-tags =
     .aria-label = Nhãn
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Nhãn
+    .title = { $title }
 threadpane-column-header-account = Tài khoản
     .title = Sắp xếp theo tài khoản
 threadpane-column-label-account =
     .label = Tài khoản
 threadpane-cell-account =
     .aria-label = Tài khoản
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Tài khoản
+    .title = { $title }
 threadpane-column-header-priority = Ưu tiên
     .title = Sắp xếp theo mức độ ưu tiên
 threadpane-column-label-priority =
     .label = Ưu tiên
 threadpane-cell-priority =
     .aria-label = Ưu tiên
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Ưu tiên
+    .title = { $title }
 threadpane-column-header-unread = Chưa đọc
     .title = Số lượng tin nhắn chưa đọc trong chủ đề
 threadpane-column-label-unread =
     .label = Chưa đọc
 threadpane-cell-unread =
     .aria-label = Số lượng thư chưa đọc
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Số lượng thư chưa đọc
+    .title = { $title }
 threadpane-column-header-total = Tổng
     .title = Tổng số tin nhắn trong chủ đề
 threadpane-column-label-total =
     .label = Tổng
 threadpane-cell-total =
     .aria-label = Tổng số thư
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Tổng số thư
+    .title = { $title }
 threadpane-column-header-location = Địa chỉ
     .title = Sắp xếp theo địa chỉ
 threadpane-column-label-location =
     .label = Địa chỉ
 threadpane-cell-location =
     .aria-label = Địa chỉ
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Địa chỉ
+    .title = { $title }
 threadpane-column-header-id = Thứ tự nhận được
     .title = Sắp xếp theo thứ tự nhận được
 threadpane-column-label-id =
     .label = Thứ tự nhận được
 threadpane-cell-id =
     .aria-label = Đơn hàng đã nhận
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Đơn hàng đã nhận
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Xóa tin nhắn
 threadpane-column-label-delete =
