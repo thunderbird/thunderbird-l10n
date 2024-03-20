@@ -199,30 +199,55 @@ threadpane-column-label-sender =
     .label = Si
 threadpane-cell-sender =
     .aria-label = Seg
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Seg
+    .title = { $title }
 threadpane-column-header-recipient = Anermas
     .title = Asmizzwer s unarmas
 threadpane-column-label-recipient =
     .label = Anermas
 threadpane-cell-recipient =
     .aria-label = Anermas
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Anermas
+    .title = { $title }
 threadpane-column-header-correspondents = Inmeɣṛa
     .title = Asmizzwer s inmeɣṛa
 threadpane-column-label-correspondents =
     .label = Inmeɣṛa
 threadpane-cell-correspondents =
     .aria-label = Inmeɣṛa
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Inmeɣṛa
+    .title = { $title }
 threadpane-column-header-subject = Amgay
     .title = Asmizzwer s umgay
 threadpane-column-label-subject =
     .label = Amgay
 threadpane-cell-subject =
     .aria-label = Asentel
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Asentel
+    .title = { $title }
 threadpane-column-header-date = Azemz
     .title = Asmizzwer s wazemz
 threadpane-column-label-date =
     .label = Azemz
 threadpane-cell-date =
     .aria-label = Azemz
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Azemz
+    .title = { $title }
 threadpane-column-header-received = Iţwarmes
     .title = Asmizzwer s wazemz n urmas
 threadpane-column-label-received =
@@ -233,30 +258,55 @@ threadpane-column-label-status =
     .label = Addad
 threadpane-cell-status =
     .aria-label = Addad
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Addad
+    .title = { $title }
 threadpane-column-header-size = Teɣzi
     .title = Asmizzwer s teɣzi
 threadpane-column-label-size =
     .label = Teɣzi
 threadpane-cell-size =
     .aria-label = Teɣzi
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Teɣzi
+    .title = { $title }
 threadpane-column-header-tags = Tabzimt
     .title = Asmizzwer s tebzimin
 threadpane-column-label-tags =
     .label = Tabzimt
 threadpane-cell-tags =
     .aria-label = Tibzimin
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Tibzimin
+    .title = { $title }
 threadpane-column-header-account = Amiḍan
     .title = Smizzéwer s umiḍan
 threadpane-column-label-account =
     .label = Amiḍan
 threadpane-cell-account =
     .aria-label = Amiḍan
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Amiḍan
+    .title = { $title }
 threadpane-column-header-priority = Tazwart
     .title = Asmizzwer s tezwart
 threadpane-column-label-priority =
     .label = Tazwart
 threadpane-cell-priority =
     .aria-label = Tazwart
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Tazwart
+    .title = { $title }
 threadpane-column-header-unread = Ur ittwaɣṛi ara
     .title = Amḍan n yeznan ur nettwaɣri ara deg usqerdec
 threadpane-column-label-unread =
@@ -271,6 +321,11 @@ threadpane-column-label-location =
     .label = Tansa
 threadpane-cell-location =
     .aria-label = Adig
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Adig
+    .title = { $title }
 threadpane-column-header-id = Taladna tettwarmes
     .title = Asmizzwer s wazemz n urmas
 threadpane-column-label-id =
