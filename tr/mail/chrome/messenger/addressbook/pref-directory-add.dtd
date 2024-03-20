@@ -19,7 +19,7 @@
 <!ENTITY Advanced.tab                      "Gelişmiş">
 <!ENTITY portNumber.label                  "Port numarası: ">
 <!ENTITY portNumber.accesskey              "B">
-<!ENTITY searchFilter.label                "Arama süzgeci:">
+<!ENTITY searchFilter.label                "Arama süzgeci: ">
 <!ENTITY searchFilter.accesskey            "r">
 <!ENTITY scope.label                       "Kapsam: ">
 <!ENTITY scope.accesskey                   "p">

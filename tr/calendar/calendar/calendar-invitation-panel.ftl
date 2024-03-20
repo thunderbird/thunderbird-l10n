@@ -2,13 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } sizi davet etti:
 calendar-invitation-panel-status-new = Bu etkinliğe davet edildiniz.
 calendar-invitation-panel-status-processed = Bu etkinlik zaten takviminize eklendi.
 calendar-invitation-panel-status-updateminor = Bu ileti, bu etkinlik için bir güncelleme içeriyor.
-calendar-invitation-panel-status-updatemajor = Bu ileti, bu etkinlik için bir güncelleme içeriyor. Katılımınızı tekrar doğrulamalısınız.
+calendar-invitation-panel-status-updatemajor = Bu ileti, bu etkinlik için bir güncelleme içeriyor. Katılımınızı yeniden doğrulamalısınız.
 calendar-invitation-panel-status-cancelled = Bu ileti, bu etkinlik için bir iptal içeriyor.
 calendar-invitation-panel-status-cancelled-notfound = Bu ileti, takviminizde bulunmayan bir etkinliğin iptalini içeriyor.
 # Variables:
@@ -17,31 +14,19 @@ calendar-invitation-panel-intro-cancel = { $organizer } iptal etti:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Kaydet
 calendar-invitation-panel-view-button = Göster
 calendar-invitation-panel-update-button = Güncelle
 calendar-invitation-panel-delete-button = Sil
 calendar-invitation-panel-accept-button = Evet
 calendar-invitation-panel-decline-button = Hayır
 calendar-invitation-panel-tentative-button = Belki
-calendar-invitation-panel-reply-status = * Henüz karar vermediniz veya cevap vermediniz
 calendar-invitation-panel-more-button = Devamı
-calendar-invitation-panel-menu-item-save =
-    .label = Takvime kaydet
 calendar-invitation-panel-menu-item-save-copy =
     .label = Kopyasını kaydet
 calendar-invitation-panel-menu-item-toggle-changes =
     .label = Değişiklikleri göster
 calendar-invitation-panel-prop-title-when = Zaman:
 calendar-invitation-panel-prop-title-location = Konum:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.
