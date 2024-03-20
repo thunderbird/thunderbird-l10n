@@ -232,12 +232,22 @@ threadpane-column-label-sender =
     .label = Fra
 threadpane-cell-sender =
     .aria-label = Fra
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Fra
+    .title = { $title }
 threadpane-column-header-recipient = Mottaker
     .title = Sorter etter mottaker
 threadpane-column-label-recipient =
     .label = Mottaker
 threadpane-cell-recipient =
     .aria-label = Mottaker
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Mottaker
+    .title = { $title }
 threadpane-column-header-correspondents = Korrespondenter
     .title = Sorter etter korrespondenter
 threadpane-column-label-correspondents =
@@ -248,12 +258,22 @@ threadpane-column-label-subject =
     .label = Emne
 threadpane-cell-subject =
     .aria-label = Emne
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Emne
+    .title = { $title }
 threadpane-column-header-date = Dato
     .title = Sorter etter dato
 threadpane-column-label-date =
     .label = Dato
 threadpane-cell-date =
     .aria-label = Dato
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Dato
+    .title = { $title }
 threadpane-column-header-received = Mottatt
     .title = Sorter etter dato mottatt
 threadpane-column-label-received =
@@ -268,18 +288,33 @@ threadpane-column-label-size =
     .label = Størrelse
 threadpane-cell-size =
     .aria-label = Størrelse
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Størrelse
+    .title = { $title }
 threadpane-column-header-tags = Etikett
     .title = Sorter etter etikett
 threadpane-column-label-tags =
     .label = Etikett
 threadpane-cell-tags =
     .aria-label = Etiketter
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Etiketter
+    .title = { $title }
 threadpane-column-header-account = Konto
     .title = Sorter etter konto
 threadpane-column-label-account =
     .label = Konto
 threadpane-cell-account =
     .aria-label = Konto
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Konto
+    .title = { $title }
 threadpane-column-header-priority = Prioritet
     .title = Sorter etter prioritet
 threadpane-column-label-priority =
@@ -290,12 +325,22 @@ threadpane-column-label-unread =
     .label = Ulest
 threadpane-cell-unread =
     .aria-label = Antall uleste meldinger
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Antall uleste meldinger
+    .title = { $title }
 threadpane-column-header-total = Totalt
     .title = Totalt antall meldinger i tråden
 threadpane-column-label-total =
     .label = Totalt
 threadpane-cell-total =
     .aria-label = Totalt antall meldinger
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Totalt antall meldinger
+    .title = { $title }
 threadpane-column-header-location = Plassering
     .title = Sorter etter plassering
 threadpane-column-label-location =
