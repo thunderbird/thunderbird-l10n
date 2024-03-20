@@ -258,90 +258,165 @@ threadpane-column-label-sender =
     .label = จาก
 threadpane-cell-sender =
     .aria-label = จาก
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = จาก
+    .title = { $title }
 threadpane-column-header-recipient = ผู้รับ
     .title = เรียงตามผู้รับ
 threadpane-column-label-recipient =
     .label = ผู้รับ
 threadpane-cell-recipient =
     .aria-label = ผู้รับ
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = ผู้รับ
+    .title = { $title }
 threadpane-column-header-correspondents = ผู้สื่อสาร
     .title = เรียงตามผู้สื่อสาร
 threadpane-column-label-correspondents =
     .label = ผู้สื่อสาร
 threadpane-cell-correspondents =
     .aria-label = ผู้สื่อสาร
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = ผู้สื่อสาร
+    .title = { $title }
 threadpane-column-header-subject = หัวเรื่อง
     .title = เรียงตามหัวเรื่อง
 threadpane-column-label-subject =
     .label = หัวเรื่อง
 threadpane-cell-subject =
     .aria-label = หัวเรื่อง
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = หัวเรื่อง
+    .title = { $title }
 threadpane-column-header-date = วันที่
     .title = เรียงตามวันที่
 threadpane-column-label-date =
     .label = วันที่
 threadpane-cell-date =
     .aria-label = วันที่
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = วันที่
+    .title = { $title }
 threadpane-column-header-received = วันที่ได้รับ
     .title = เรียงตามวันที่ได้รับ
 threadpane-column-label-received =
     .label = วันที่ได้รับ
 threadpane-cell-received =
     .aria-label = วันที่ได้รับ
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = วันที่ได้รับ
+    .title = { $title }
 threadpane-column-header-status = สถานะ
     .title = เรียงตามสถานะ
 threadpane-column-label-status =
     .label = สถานะ
 threadpane-cell-status =
     .aria-label = สถานะ
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = สถานะ
+    .title = { $title }
 threadpane-column-header-size = ขนาด
     .title = เรียงตามขนาด
 threadpane-column-label-size =
     .label = ขนาด
 threadpane-cell-size =
     .aria-label = ขนาด
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = ขนาด
+    .title = { $title }
 threadpane-column-header-tags = ป้ายกำกับ
     .title = เรียงตามป้ายกำกับ
 threadpane-column-label-tags =
     .label = ป้ายกำกับ
 threadpane-cell-tags =
     .aria-label = ป้ายกำกับ
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = ป้ายกำกับ
+    .title = { $title }
 threadpane-column-header-account = บัญชี
     .title = เรียงตามบัญชี
 threadpane-column-label-account =
     .label = บัญชี
 threadpane-cell-account =
     .aria-label = บัญชี
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = บัญชี
+    .title = { $title }
 threadpane-column-header-priority = ความสำคัญ
     .title = เรียงตามความสำคัญ
 threadpane-column-label-priority =
     .label = ความสำคัญ
 threadpane-cell-priority =
     .aria-label = ความสำคัญ
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = ความสำคัญ
+    .title = { $title }
 threadpane-column-header-unread = ยังไม่ได้อ่าน
     .title = จำนวนข้อความที่ยังไม่ได้อ่านในเธรด
 threadpane-column-label-unread =
     .label = ยังไม่ได้อ่าน
 threadpane-cell-unread =
     .aria-label = จำนวนข้อความที่ยังไม่ได้อ่าน
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = จำนวนข้อความที่ยังไม่ได้อ่าน
+    .title = { $title }
 threadpane-column-header-total = รวมทั้งหมด
     .title = จำนวนข้อความทั้งหมดในเธรด
 threadpane-column-label-total =
     .label = รวมทั้งหมด
 threadpane-cell-total =
     .aria-label = จำนวนข้อความทั้งหมด
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = จำนวนข้อความทั้งหมด
+    .title = { $title }
 threadpane-column-header-location = ตำแหน่งที่ตั้ง
     .title = เรียงตามตำแหน่งที่ตั้ง
 threadpane-column-label-location =
     .label = ตำแหน่งที่ตั้ง
 threadpane-cell-location =
     .aria-label = ตำแหน่งที่ตั้ง
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = ตำแหน่งที่ตั้ง
+    .title = { $title }
 threadpane-column-header-id = ลำดับที่ได้รับ
     .title = เรียงตามลำดับที่ได้รับ
 threadpane-column-label-id =
     .label = ลำดับที่ได้รับ
 threadpane-cell-id =
     .aria-label = ลำดับที่ได้รับ
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = ลำดับที่ได้รับ
+    .title = { $title }
 threadpane-column-header-delete =
     .title = ลบข้อความ
 threadpane-column-label-delete =
