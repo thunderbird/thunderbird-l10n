@@ -283,90 +283,165 @@ threadpane-column-label-sender =
     .label = Nadawca
 threadpane-cell-sender =
     .aria-label = Nadawca
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Nadawca
+    .title = { $title }
 threadpane-column-header-recipient = Adresat
     .title = Sortowanie według adresata
 threadpane-column-label-recipient =
     .label = Adresat
 threadpane-cell-recipient =
     .aria-label = Adresat
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Adresat
+    .title = { $title }
 threadpane-column-header-correspondents = Korespondenci
     .title = Sortowanie według korespondentów
 threadpane-column-label-correspondents =
     .label = Korespondenci
 threadpane-cell-correspondents =
     .aria-label = Korespondenci
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Korespondenci
+    .title = { $title }
 threadpane-column-header-subject = Temat
     .title = Sortowanie według tematu
 threadpane-column-label-subject =
     .label = Temat
 threadpane-cell-subject =
     .aria-label = Temat
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Temat
+    .title = { $title }
 threadpane-column-header-date = Data
     .title = Sortowanie według daty
 threadpane-column-label-date =
     .label = Data
 threadpane-cell-date =
     .aria-label = Data
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Data
+    .title = { $title }
 threadpane-column-header-received = Data otrzymania
     .title = Sortowanie według daty otrzymania
 threadpane-column-label-received =
     .label = Data otrzymania
 threadpane-cell-received =
     .aria-label = Data otrzymania
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Data otrzymania
+    .title = { $title }
 threadpane-column-header-status = Stan
     .title = Sortowanie według stanu
 threadpane-column-label-status =
     .label = Stan
 threadpane-cell-status =
     .aria-label = Stan
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Stan
+    .title = { $title }
 threadpane-column-header-size = Rozmiar
     .title = Sortowanie według rozmiaru
 threadpane-column-label-size =
     .label = Rozmiar
 threadpane-cell-size =
     .aria-label = Rozmiar
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Rozmiar
+    .title = { $title }
 threadpane-column-header-tags = Etykieta
     .title = Sortowanie według etykiet
 threadpane-column-label-tags =
     .label = Etykieta
 threadpane-cell-tags =
     .aria-label = Etykiety
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Etykiety
+    .title = { $title }
 threadpane-column-header-account = Konto
     .title = Sortowanie według konta
 threadpane-column-label-account =
     .label = Konto
 threadpane-cell-account =
     .aria-label = Konto
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Konto
+    .title = { $title }
 threadpane-column-header-priority = Priorytet
     .title = Sortowanie według priorytetu
 threadpane-column-label-priority =
     .label = Priorytet
 threadpane-cell-priority =
     .aria-label = Priorytet
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Priorytet
+    .title = { $title }
 threadpane-column-header-unread = Nieprzeczytane
     .title = Liczba wszystkich nieprzeczytanych wiadomości w wątku
 threadpane-column-label-unread =
     .label = Nieprzeczytane
 threadpane-cell-unread =
     .aria-label = Liczba nieprzeczytanych wiadomości
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Liczba nieprzeczytanych wiadomości
+    .title = { $title }
 threadpane-column-header-total = Razem
     .title = Liczba wszystkich wiadomości w wątku
 threadpane-column-label-total =
     .label = Razem
 threadpane-cell-total =
     .aria-label = Całkowita liczba wiadomości
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Całkowita liczba wiadomości
+    .title = { $title }
 threadpane-column-header-location = Położenie
     .title = Sortowanie według adresu
 threadpane-column-label-location =
     .label = Położenie
 threadpane-cell-location =
     .aria-label = Położenie
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Położenie
+    .title = { $title }
 threadpane-column-header-id = Kolejność otrzymania
     .title = Sortowanie według kolejności otrzymania
 threadpane-column-label-id =
     .label = Kolejność otrzymania
 threadpane-cell-id =
     .aria-label = Kolejność otrzymania
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Kolejność otrzymania
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Usuń wiadomość
 threadpane-column-label-delete =
