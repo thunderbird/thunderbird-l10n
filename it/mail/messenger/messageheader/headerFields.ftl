@@ -53,8 +53,8 @@ message-header-list-archive-field = List-Archive<span data-l10n-name="field-sepa
 message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
-    .label = Ottieni assistenza
-    .accesskey = O
+    .label = Ricevi assistenza
+    .accesskey = v
 # Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
 list-id-list-unsubscribe =
     .label = Annulla iscrizione…
