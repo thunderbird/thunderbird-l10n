@@ -432,6 +432,11 @@ threadpane-column-label-id =
     .label = Ordem de receção
 threadpane-cell-id =
     .aria-label = Ordem de receção
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Ordem de receção
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Eliminar uma mensagem
 threadpane-column-label-delete =
