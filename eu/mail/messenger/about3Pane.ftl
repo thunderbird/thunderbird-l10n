@@ -278,90 +278,165 @@ threadpane-column-label-sender =
     .label = Nork
 threadpane-cell-sender =
     .aria-label = Nork
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Nork
+    .title = { $title }
 threadpane-column-header-recipient = Hartzailea
     .title = Ordenatu hartzailearen arabera
 threadpane-column-label-recipient =
     .label = Hartzailea
 threadpane-cell-recipient =
     .aria-label = Hartzailea
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Hartzailea
+    .title = { $title }
 threadpane-column-header-correspondents = Mezu-idazleak
     .title = Mezu-idazleak arabera ordenatua
 threadpane-column-label-correspondents =
     .label = Mezu-idazleak
 threadpane-cell-correspondents =
     .aria-label = Mezu-idazleak
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Mezu-idazleak
+    .title = { $title }
 threadpane-column-header-subject = Gaia
     .title = Ordenatu gaiaren arabera
 threadpane-column-label-subject =
     .label = Gaia
 threadpane-cell-subject =
     .aria-label = Gaia
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Gaia
+    .title = { $title }
 threadpane-column-header-date = Data
     .title = Ordenatu dataren arabera
 threadpane-column-label-date =
     .label = Data
 threadpane-cell-date =
     .aria-label = Data
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Data
+    .title = { $title }
 threadpane-column-header-received = Jasoa
     .title = Ordenatu jasotako dataren arabera
 threadpane-column-label-received =
     .label = Jasoa
 threadpane-cell-received =
     .aria-label = Jasotze data
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Jasotze data
+    .title = { $title }
 threadpane-column-header-status = Egoera
     .title = Ordenatu egoeraren arabera
 threadpane-column-label-status =
     .label = Egoera
 threadpane-cell-status =
     .aria-label = Egoera
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Egoera
+    .title = { $title }
 threadpane-column-header-size = Tamaina
     .title = Ordenatu tamainaren arabera
 threadpane-column-label-size =
     .label = Tamaina
 threadpane-cell-size =
     .aria-label = Tamaina
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Tamaina
+    .title = { $title }
 threadpane-column-header-tags = Etiketa
     .title = Ordenatu etiketen arabera
 threadpane-column-label-tags =
     .label = Etiketa
 threadpane-cell-tags =
     .aria-label = Etiketak
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Etiketak
+    .title = { $title }
 threadpane-column-header-account = Kontua
     .title = Ordenatu kontuaren arabera
 threadpane-column-label-account =
     .label = Kontua
 threadpane-cell-account =
     .aria-label = Kontua
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Kontua
+    .title = { $title }
 threadpane-column-header-priority = Lehentasuna
     .title = Ordenatu lehentasunaren arabera
 threadpane-column-label-priority =
     .label = Lehentasuna
 threadpane-cell-priority =
     .aria-label = Lehentasuna
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Lehentasuna
+    .title = { $title }
 threadpane-column-header-unread = Irakurri gabeak
     .title = Irakurri gabeko mezu kopurua harian
 threadpane-column-label-unread =
     .label = Irakurri gabeak
 threadpane-cell-unread =
     .aria-label = Irakurri gabeko mezu kopurua
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Irakurri gabeko mezu kopurua
+    .title = { $title }
 threadpane-column-header-total = Guztira
     .title = Mezu kopurua guztira harian
 threadpane-column-label-total =
     .label = Guztira
 threadpane-cell-total =
     .aria-label = Mezu kopurua guztira
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Mezu kopurua guztira
+    .title = { $title }
 threadpane-column-header-location = Kokalekua
     .title = Ordenatu kokalekuaren arabera
 threadpane-column-label-location =
     .label = Kokalekua
 threadpane-cell-location =
     .aria-label = Kokalekua
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Kokalekua
+    .title = { $title }
 threadpane-column-header-id = Jasotako ordena
     .title = Ordenatu jasotako ordenaren arabera
 threadpane-column-label-id =
     .label = Jasotako ordena
 threadpane-cell-id =
     .aria-label = Jasotako ordena
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Jasotako ordena
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Ezabatu mezua
 threadpane-column-label-delete =
