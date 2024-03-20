@@ -277,90 +277,165 @@ threadpane-column-label-sender =
     .label = Кімнен
 threadpane-cell-sender =
     .aria-label = Кімнен
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Кімнен
+    .title = { $title }
 threadpane-column-header-recipient = Қабылдаушысы
     .title = Алушы бойынша сұрыптау
 threadpane-column-label-recipient =
     .label = Қабылдаушысы
 threadpane-cell-recipient =
     .aria-label = Алушы
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Алушы
+    .title = { $title }
 threadpane-column-header-correspondents = Алушылар
     .title = Алушылар бойынша сұрыптау
 threadpane-column-label-correspondents =
     .label = Алушылар
 threadpane-cell-correspondents =
     .aria-label = Алушылар
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Алушылар
+    .title = { $title }
 threadpane-column-header-subject = Тақырыбы
     .title = Тақырыбы бойынша сұрыптау
 threadpane-column-label-subject =
     .label = Тақырыбы
 threadpane-cell-subject =
     .aria-label = Тақырыбы
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Тақырыбы
+    .title = { $title }
 threadpane-column-header-date = Күні
     .title = Күні бойынша сұрыптау
 threadpane-column-label-date =
     .label = Күні
 threadpane-cell-date =
     .aria-label = Күні
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Күні
+    .title = { $title }
 threadpane-column-header-received = Алынған
     .title = Алынған күні бойынша сұрыптау
 threadpane-column-label-received =
     .label = Алынған
 threadpane-cell-received =
     .aria-label = Алынған күні
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Алынған күні
+    .title = { $title }
 threadpane-column-header-status = Күйі
     .title = Қалып-күйі бойынша сұрыптау
 threadpane-column-label-status =
     .label = Күйі
 threadpane-cell-status =
     .aria-label = Қалып-күйі
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Қалып-күйі
+    .title = { $title }
 threadpane-column-header-size = Өлшемі
     .title = Өлшемі бойынша сұрыптау
 threadpane-column-label-size =
     .label = Өлшемі
 threadpane-cell-size =
     .aria-label = Өлшемі
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Өлшемі
+    .title = { $title }
 threadpane-column-header-tags = Белгі
     .title = Тегтер бойынша сұрыптау
 threadpane-column-label-tags =
     .label = Белгі
 threadpane-cell-tags =
     .aria-label = Тегтер
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Тегтер
+    .title = { $title }
 threadpane-column-header-account = Тіркелгі
     .title = Тіркелгі бойынша сұрыптау
 threadpane-column-label-account =
     .label = Тіркелгі
 threadpane-cell-account =
     .aria-label = Тіркелгі
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Тіркелгі
+    .title = { $title }
 threadpane-column-header-priority = Приоритеті
     .title = Приоритеті бойынша сұрыптау
 threadpane-column-label-priority =
     .label = Приоритеті
 threadpane-cell-priority =
     .aria-label = Приоритет
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Приоритет
+    .title = { $title }
 threadpane-column-header-unread = Оқылмаған
     .title = Ағындағы оқылмаған хабарламалар саны
 threadpane-column-label-unread =
     .label = Оқылмаған
 threadpane-cell-unread =
     .aria-label = Оқылмаған хабарламалар саны
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Оқылмаған хабарламалар саны
+    .title = { $title }
 threadpane-column-header-total = Жалпы
     .title = Ағындағы барлық хабарламалар саны
 threadpane-column-label-total =
     .label = Жалпы
 threadpane-cell-total =
     .aria-label = Хабарламаларды жалпы саны
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Хабарламаларды жалпы саны
+    .title = { $title }
 threadpane-column-header-location = Орналасуы
     .title = Орналасуы бойынша сұрыптау
 threadpane-column-label-location =
     .label = Орналасуы
 threadpane-cell-location =
     .aria-label = Орналасу
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Орналасу
+    .title = { $title }
 threadpane-column-header-id = Алынған реті
     .title = Алынған реті бойынша сұрыптау
 threadpane-column-label-id =
     .label = Алынған реті
 threadpane-cell-id =
     .aria-label = Алынған реті
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Алынған реті
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Хабарламаны өшіру
 threadpane-column-label-delete =
