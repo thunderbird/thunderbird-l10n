@@ -14,12 +14,22 @@ message-header-bcc-list-name = Κρυφή κοιν.
 message-header-newsgroups-list-name = Ομάδες συζήτησης
 message-header-followup-to-list-name = Σε συνέχεια του
 message-header-tags-list-name = Ετικέτες
+# List management header - RFC 2369.
+message-header-list-id = List-ID
+# List management header - RFC 2369.
 message-header-list-help = List-Help
+# List management header - RFC 2369.
 message-header-list-unsubscribe = List-Unsubscribe
+# List management header - RFC 2369.
 message-header-list-subscribe = List-Subscribe
+# List management header - RFC 2369.
 message-header-list-post = List-Post
+# List management header - RFC 2369.
 message-header-list-owner = List-Owner
+# List management header - RFC 2369.
 message-header-list-archive = List-Archive
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Archived-At
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -33,12 +43,22 @@ message-header-references-field = Αναφορές<span data-l10n-name="field-se
 message-header-message-id-field = ID μηνύματος<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Σε απάντηση του<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Ιστότοπος<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = List-Unsubscribe<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-separator">:</span>
 message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Λήψη βοήθειας
+    .accesskey = Λ
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Σύνταξη
+    .accesskey = Σ
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
