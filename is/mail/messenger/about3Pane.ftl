@@ -278,90 +278,165 @@ threadpane-column-label-sender =
     .label = Frá
 threadpane-cell-sender =
     .aria-label = Frá
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Frá
+    .title = { $title }
 threadpane-column-header-recipient = Viðtakandi
     .title = Raða eftir móttakanda
 threadpane-column-label-recipient =
     .label = Viðtakandi
 threadpane-cell-recipient =
     .aria-label = Viðtakandi
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Viðtakandi
+    .title = { $title }
 threadpane-column-header-correspondents = Þátttakendur
     .title = Raða eftir þátttakendum
 threadpane-column-label-correspondents =
     .label = Þátttakendur
 threadpane-cell-correspondents =
     .aria-label = Þátttakendur
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Þátttakendur
+    .title = { $title }
 threadpane-column-header-subject = Efni
     .title = Flokka eftir efnislínu
 threadpane-column-label-subject =
     .label = Efni
 threadpane-cell-subject =
     .aria-label = Viðfangsefni
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Viðfangsefni
+    .title = { $title }
 threadpane-column-header-date = Dagsetning
     .title = Raða eftir Dags
 threadpane-column-label-date =
     .label = Dagsetning
 threadpane-cell-date =
     .aria-label = Dagsetning
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Dagsetning
+    .title = { $title }
 threadpane-column-header-received = Móttekið
     .title = Raða eftir móttekinni dagsetningu
 threadpane-column-label-received =
     .label = Móttekið
 threadpane-cell-received =
     .aria-label = Dagsetning móttekið
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Dagsetning móttekið
+    .title = { $title }
 threadpane-column-header-status = Staða
     .title = Raða eftir stöðu
 threadpane-column-label-status =
     .label = Staða
 threadpane-cell-status =
     .aria-label = Staða
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Staða
+    .title = { $title }
 threadpane-column-header-size = Stærð
     .title = Raða eftir Stærð
 threadpane-column-label-size =
     .label = Stærð
 threadpane-cell-size =
     .aria-label = Stærð
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Stærð
+    .title = { $title }
 threadpane-column-header-tags = Merki
     .title = Raða eftir merkjum
 threadpane-column-label-tags =
     .label = Merki
 threadpane-cell-tags =
     .aria-label = Merki
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Merki
+    .title = { $title }
 threadpane-column-header-account = Reikningur
     .title = Raða eftir reikningi
 threadpane-column-label-account =
     .label = Reikningur
 threadpane-cell-account =
     .aria-label = Reikningur
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Reikningur
+    .title = { $title }
 threadpane-column-header-priority = Forgangur
     .title = Raða eftir forgangi
 threadpane-column-label-priority =
     .label = Forgangur
 threadpane-cell-priority =
     .aria-label = Forgangur
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Forgangur
+    .title = { $title }
 threadpane-column-header-unread = Ólesið
     .title = Fjöldi ólesinna pósta í umræðu
 threadpane-column-label-unread =
     .label = Ólesið
 threadpane-cell-unread =
     .aria-label = Fjöldi ólesinna skilaboða
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Fjöldi ólesinna skilaboða
+    .title = { $title }
 threadpane-column-header-total = Allt
     .title = Heildarfjöldi pósta í umræðu
 threadpane-column-label-total =
     .label = Allt
 threadpane-cell-total =
     .aria-label = Heildarfjöldi skilaboða
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Heildarfjöldi skilaboða
+    .title = { $title }
 threadpane-column-header-location = Staðsetning
     .title = Raða eftir staðsetningu
 threadpane-column-label-location =
     .label = Staðsetning
 threadpane-cell-location =
     .aria-label = Staðsetning
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Staðsetning
+    .title = { $title }
 threadpane-column-header-id = Í móttekinni röð
     .title = Raða eftir móttekinni röð
 threadpane-column-label-id =
     .label = Í móttekinni röð
 threadpane-cell-id =
     .aria-label = Í móttekinni röð
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Í móttekinni röð
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Eyða skilaboðum
 threadpane-column-label-delete =
