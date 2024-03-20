@@ -29,7 +29,7 @@ message-header-list-owner = List-Owner
 # List management header - RFC 2369.
 message-header-list-archive = List-Archive
 # Direct link to the archived form of an individual email message - RFC 5064.
-message-header-archived-at = Archivé-le
+message-header-archived-at = Archived-At
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
