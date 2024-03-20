@@ -287,90 +287,165 @@ threadpane-column-label-sender =
     .label = Od
 threadpane-cell-sender =
     .aria-label = Od
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Od
+    .title = { $title }
 threadpane-column-header-recipient = Příjemce
     .title = Seřadíte podle příjemce
 threadpane-column-label-recipient =
     .label = Příjemce
 threadpane-cell-recipient =
     .aria-label = Příjemce
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Příjemce
+    .title = { $title }
 threadpane-column-header-correspondents = Korespondenti
     .title = Seřadíte podle korespondentů
 threadpane-column-label-correspondents =
     .label = Korespondenti
 threadpane-cell-correspondents =
     .aria-label = Korespondenti
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Korespondenti
+    .title = { $title }
 threadpane-column-header-subject = Předmět
     .title = Seřadíte podle předmětu
 threadpane-column-label-subject =
     .label = Předmět
 threadpane-cell-subject =
     .aria-label = Předmět
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Předmět
+    .title = { $title }
 threadpane-column-header-date = Datum
     .title = Seřadíte podle data
 threadpane-column-label-date =
     .label = Datum
 threadpane-cell-date =
     .aria-label = Datum
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Datum
+    .title = { $title }
 threadpane-column-header-received = Doručeno
     .title = Seřadíte podle data doručení
 threadpane-column-label-received =
     .label = Doručeno
 threadpane-cell-received =
     .aria-label = Datum přijetí
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Datum přijetí
+    .title = { $title }
 threadpane-column-header-status = Stav
     .title = Seřadíte podle stavu
 threadpane-column-label-status =
     .label = Stav
 threadpane-cell-status =
     .aria-label = Stav
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Stav
+    .title = { $title }
 threadpane-column-header-size = Velikost
     .title = Seřadíte podle velikosti
 threadpane-column-label-size =
     .label = Velikost
 threadpane-cell-size =
     .aria-label = Velikost
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Velikost
+    .title = { $title }
 threadpane-column-header-tags = Štítek
     .title = Seřadíte podle štítků
 threadpane-column-label-tags =
     .label = Štítek
 threadpane-cell-tags =
     .aria-label = Štítky
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Štítky
+    .title = { $title }
 threadpane-column-header-account = Účet
     .title = Seřadíte podle účtu
 threadpane-column-label-account =
     .label = Účet
 threadpane-cell-account =
     .aria-label = Účet
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Účet
+    .title = { $title }
 threadpane-column-header-priority = Priorita
     .title = Seřadíte podle priority
 threadpane-column-label-priority =
     .label = Priorita
 threadpane-cell-priority =
     .aria-label = Priorita
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Priorita
+    .title = { $title }
 threadpane-column-header-unread = Nepřečteno
     .title = Seřadíte dle počtu nepřečtených zpráv ve vlákně
 threadpane-column-label-unread =
     .label = Nepřečteno
 threadpane-cell-unread =
     .aria-label = Počet nepřečtených zpráv
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Počet nepřečtených zpráv
+    .title = { $title }
 threadpane-column-header-total = Celkem
     .title = Seřadíte dle celkového počtu zpráv ve vlákně
 threadpane-column-label-total =
     .label = Celkem
 threadpane-cell-total =
     .aria-label = Celkový počet zpráv
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Celkový počet zpráv
+    .title = { $title }
 threadpane-column-header-location = Umístění
     .title = Seřadíte podle umístění
 threadpane-column-label-location =
     .label = Umístění
 threadpane-cell-location =
     .aria-label = Umístění
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Umístění
+    .title = { $title }
 threadpane-column-header-id = Pořadí přijetí
     .title = Seřadíte podle pořadí přijetí
 threadpane-column-label-id =
     .label = Pořadí přijetí
 threadpane-cell-id =
     .aria-label = Pořadí přijetí
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Pořadí přijetí
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Smazání zprávy
 threadpane-column-label-delete =
