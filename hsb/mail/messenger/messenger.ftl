@@ -150,8 +150,10 @@ menu-edit-unsubscribe-newsgroup =
 menu-edit-delete-messages =
     .label =
         { $count ->
-            [one] Powěsć zhašeć
-           *[other] Wubrane powěsće zhašeć
+            [one] { $count } powěsć zhašeć
+            [two] { $count } powěsći zhašeć
+            [few] { $count } powěsće zhašeć
+           *[other] { $count } wubrane powěsće zhašeć
         }
     .accesskey = h
 # Variables:
@@ -159,8 +161,10 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Powěsć wobnowić
-           *[other] Wubrane powěsće wobnowić
+            [one] { $count } powěsć wobnowić
+            [two] { $count } powěsći wobnowić
+            [few] { $count } powěsće wobnowić
+           *[other] { $count } wubrane powěsće wobnowić
         }
     .accesskey = b
 menu-edit-properties =
@@ -210,8 +214,10 @@ mail-context-delete-messages =
 mail-context-undelete-messages =
     .label =
         { $count ->
-            [one] Powěsć wobnowić
-           *[other] Wubrane powěsće wobnowić
+            [one] { $count } powěsć wobnowić
+            [two] { $count } powěsći wobnowić
+            [few] { $count } powěsće wobnowić
+           *[other] { $count } wubrane powěsće wobnowić
         }
 context-menu-decrypt-to-folder2 =
     .label = Zaklučowanu kopiju wutworić w
@@ -230,6 +236,9 @@ message-header-recipient-avatar =
     .alt = Profilowy wobraz { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Nastajenja hłowy powěsće
 message-header-customize-button-style =
@@ -401,7 +410,7 @@ quick-filter-bar-toggle =
     .label = Lajsta spěšneho filtra
     .accesskey = L
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
