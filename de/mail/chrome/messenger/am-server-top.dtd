@@ -13,7 +13,7 @@
 <!ENTITY port.label "Port:">
 <!ENTITY port.accesskey "P">
 <!ENTITY serverPortDefault.label "Standard:">
-<!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammer dependency
+<!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammar dependency
         For example, in Japanese cases:
                 biffStart.label "every"
                 biffEnd.label   "minutes for new messages Check"
@@ -85,5 +85,5 @@
 <!ENTITY accountSettingsDesc.label "Dies ist ein besonderes Konto, da keine Identitäten mit ihm verknüpft sind.">
 <!ENTITY storeType.label "Speichermethode:">
 <!ENTITY storeType.accesskey "S">
-<!ENTITY mboxStore2.label "Eine Datei pro Ordner (mbox)">
-<!ENTITY maildirStore.label "Eine Datei pro Nachricht (maildir)">
+<!ENTITY mboxStore2.label "Eine Datei je Ordner (mbox)">
+<!ENTITY maildirStore.label "Eine Datei je Nachricht (maildir)">
