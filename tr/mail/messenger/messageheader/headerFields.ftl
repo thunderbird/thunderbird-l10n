@@ -41,6 +41,7 @@ message-header-date-field = Tarih<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Kullanıcı istemcisi<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referanslar<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = İleti kimliği<span data-l10n-name="field-separator">:</span>
+message-header-in-reply-to-field = Yanıt olarak<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Web sitesi<span data-l10n-name="field-separator">:</span>
 message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
@@ -62,10 +63,18 @@ list-id-list-unsubscribe =
 list-id-list-subscribe =
     .label = Abone ol…
     .accesskey = o
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Yaz
+    .accesskey = Y
 # Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
 list-id-list-owner =
     .label = Yöneticiyle iletişime geç…
     .accesskey = Y
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Liste arşivleri
+    .accesskey = L
 # Direct link to the archived form of an individual email message. RFC 5064.
 list-id-archived-at =
     .label = İleti kalıcı bağlantısı
