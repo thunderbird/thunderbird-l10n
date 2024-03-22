@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = I
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Intrekkingscertificaat aanmaken en opslaan
+openpgp-key-man-gen-revocation =
+    .label = Intrekkingscertificaat opslaan als bestand
+    .accesskey = c
 openpgp-key-man-file-menu =
     .label = Bestand
     .accesskey = B
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Publieke sleutels naar klembord kopiëren
         }
     .accesskey = P
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Sleutels naar bestand exporteren
 openpgp-key-man-ctx-copy =
     .label = Kopiëren
     .accesskey = K
@@ -733,10 +734,6 @@ attachment-pgp-key =
     De bijlage ‘{ $name }’ die u probeert te openen lijkt een OpenPGP-sleutelbestand te zijn.
     Klik op ‘Importeren’ om de sleutels te importeren of op ‘Weergeven’ om de inhoud van het bestand in een browservenster te bekijken
 dlg-button-view = &Weergeven
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Ontsleuteld bericht (beschadigde PGP-e-mailindeling, waarschijnlijk veroorzaakt door een oude Exchange-server, is hersteld, daarom is het resultaat mogelijk niet perfect te lezen)
 
 ## Strings used in encryption.jsm
 

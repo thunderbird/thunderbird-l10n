@@ -501,3 +501,5 @@ apply-current-view-to-folder-message = De weergave van de huidige map toepassen 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = De weergave van de huidige map toepassen op { $name } en de submappen?
+threadpane-card-menu-button =
+    .title = Berichtenmenu
