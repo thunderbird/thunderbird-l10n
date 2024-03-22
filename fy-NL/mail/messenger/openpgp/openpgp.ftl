@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = Y
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Ynlûkingssertifikaat oanmeitsje en bewarje
+openpgp-key-man-gen-revocation =
+    .label = Ynlûkingssertifikaat bewarje as bestân
+    .accesskey = s
 openpgp-key-man-file-menu =
     .label = Bestân
     .accesskey = B
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Publike kaaien nei klamboerd kopiearje
         }
     .accesskey = P
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Kaaien nei bestân eksportearje
 openpgp-key-man-ctx-copy =
     .label = Kopiearje
     .accesskey = K
@@ -733,10 +734,6 @@ attachment-pgp-key =
     De bylage ‘{ $name }’ dy’t jo probearje te iepenjen liket in OpenPGP-kaaibestân te wêzen.
     Klik op ‘Ymportearje’ om de kaaien te ymportearjen of op ‘Werjaan’ om de ynhâld fan it bestân yn in browserfinster te besjen
 dlg-button-view = &Werjaan
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Untsifere berjocht (skansearre PGP-e-mailyndieling, wierskynlik feroarsake troch in âlde Exchange-server, is wersteld, dêrom is it resultaat mooglik net perfekt te lêzen)
 
 ## Strings used in encryption.jsm
 
