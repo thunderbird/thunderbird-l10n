@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = R
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Vytvoří a uloží revokační certifikát
+openpgp-key-man-gen-revocation =
+    .label = Uložit zneplatnění certifikátu do souboru
+    .accesskey = U
 openpgp-key-man-file-menu =
     .label = Soubor
     .accesskey = S
@@ -141,8 +144,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Kopírovat veřejné klíče do schránky
         }
     .accesskey = v
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Exportovat klíče do souboru
 openpgp-key-man-ctx-copy =
     .label = Kopírovat
     .accesskey = K
@@ -747,10 +748,6 @@ attachment-pgp-key =
     Zdá se, že otevíraná příloha „{ $name }“ je soubor s klíčem OpenPGP.
     Pokud chcete obsažené klíče importovat, klepněte na „Importovat“. Pro zobrazení v okně prohlížeče klepněte na „Zobrazit.“.
 dlg-button-view = &Zobrazit
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Dešifrovaná zpráva (obnovený poškozený formát e-mailu v PGP, což pravděpodobně zapříčinil starý server Exchange, takže výsledek nemusí být dokonalý)
 
 ## Strings used in encryption.jsm
 
