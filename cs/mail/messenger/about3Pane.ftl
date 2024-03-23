@@ -512,3 +512,5 @@ apply-current-view-to-folder-message = Použít zobrazení aktuální složky pr
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Použít zobrazení aktuální složky pro složku { $name } a její podsložky?
+threadpane-card-menu-button =
+    .title = Nabídka pro zprávu

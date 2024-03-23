@@ -617,27 +617,12 @@ third-party-never =
     .label = Nikdy
 third-party-visited =
     .label = Pouze navštívené
-keep-label =
-    .value = Ponechat do:
-    .accesskey = d
-keep-expire =
-    .label = konce doby platnosti
-keep-close =
-    .label =
-        { -brand-short-name.case-status ->
-            [with-cases] ukončení { -brand-short-name(case: "gen") }
-           *[no-cases] ukončení aplikace { -brand-short-name }
-        }
-keep-ask =
-    .label = vždy se zeptat
 cookies-button =
     .label = Správce cookies…
     .accesskey = S
 do-not-track-label =
     .label = Říci webovým stránkám pomocí signálu Do Not Track, že nechcete být sledováni
     .accesskey = n
-learn-button =
-    .label = Zjistit více
 dnt-learn-more-button =
     .value = Zjistit více
 passwords-description = { -brand-short-name } si může pamatovat vaše přihlašovací údaje pro jednotlivé účty, takže je nebudete muset znovu zadávat.
@@ -657,6 +642,9 @@ junk-description = Další nastavení nevyžádané pošty lze provést v dialog
 junk-label =
     .label = Pokud ručně označím zprávy jako nevyžádané:
     .accesskey = r
+junk-marked-label =
+    .label = Když jsou zprávy označeny jako nevyžádané:
+    .accesskey = K
 junk-move-label =
     .label = Přesunout je do složky „Nevyžádaná“
     .accesskey = n
@@ -666,6 +654,7 @@ junk-delete-label =
 junk-read-label =
     .label = Označit zprávy rozpoznané jako nevyžádaná pošta jako přečtené
     .accesskey = O
+junk-read-description = Označovat zprávy jako přečtené
 junk-log-label =
     .label = Povolit protokolování adaptivní nevyžádané pošty
     .accesskey = P
