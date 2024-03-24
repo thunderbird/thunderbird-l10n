@@ -507,3 +507,5 @@ apply-current-view-to-folder-message = Застосувати вигляд по�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Застосувати вигляд поточної теки до { $name } і вкладених в неї тек?
+threadpane-card-menu-button =
+    .title = Меню повідомлення

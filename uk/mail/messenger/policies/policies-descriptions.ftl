@@ -82,7 +82,7 @@ policy-PromptForDownloadLocation = Запитувати, де зберігати
 policy-Proxy = Налаштувати параметри проксі.
 policy-RequestedLocales = Встановити перелік запитуваних мов для програми у вказаному порядку.
 policy-SanitizeOnShutdown2 = Очищати дані навігації при виході з програми.
-policy-SearchEngines = Налаштувати засіб пошуку. Ця політика доступна лише у версії Extended Support Release (ESR).
+policy-SearchEngines = Налаштувати параметри пошукової системи. Ця політика доступна лише у версії Extended Support Release (ESR).
 policy-SearchSuggestEnabled = Увімкнути чи вимкнути пропозиції пошуку.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Встановити модулі PKCS #11.
