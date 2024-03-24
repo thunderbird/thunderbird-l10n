@@ -15,14 +15,14 @@
 <!ENTITY deleteButton.accesskey "S">
 <!ENTITY reorderTopButton "Üste taşı">
 <!ENTITY reorderTopButton.accessKey "Ü">
-<!ENTITY reorderTopButton.toolTip "Filtreyi diğerlerinden önce çalışacak şekilde yeniden düzenle">
+<!ENTITY reorderTopButton.toolTip "Süzgeci diğerlerinden önce çalışacak şekilde yeniden düzenle">
 <!ENTITY reorderUpButton.label "Yukarı taşı">
 <!ENTITY reorderUpButton.accesskey "Y">
 <!ENTITY reorderDownButton.label "Aşağı taşı">
 <!ENTITY reorderDownButton.accesskey "A">
 <!ENTITY reorderBottomButton "Alta taşı">
 <!ENTITY reorderBottomButton.accessKey "A">
-<!ENTITY reorderBottomButton.toolTip "Filtreyi diğerlerinden sonra çalışacak şekilde yeniden düzenle">
+<!ENTITY reorderBottomButton.toolTip "Süzgeci diğerlerinden sonra çalışacak şekilde yeniden düzenle">
 <!ENTITY filterHeader.label "Etkin süzgeçler aşağıdaki sıralamaya göre otomatik olarak çalıştırılır.">
 <!ENTITY filtersForPrefix.label "Süzülecek hesap:">
 <!ENTITY filtersForPrefix.accesskey "S">
@@ -36,6 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "i">
 <!ENTITY helpButton.label "Yardım">
 <!ENTITY helpButton.accesskey "Y">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Süzgeçleri isme göre ara…">
-

@@ -31,7 +31,7 @@
 <!ENTITY filterActionDesc.label "Bu eylemleri uygula:">
 <!ENTITY filterActionDesc.accesskey "u">
 
-<!ENTITY filterActionOrderWarning.label "Not: Filtre eylemleri farklı bir sırayla çalıştırılacaktır.">
+<!ENTITY filterActionOrderWarning.label "Not: Süzgeç eylemleri farklı bir sırayla çalıştırılacaktır.">
 <!ENTITY filterActionOrder.label "Çalıştırma sırasını gör">
 
 <!-- New Style Filter Rule Actions -->
