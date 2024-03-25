@@ -14,7 +14,7 @@
 <!ENTITY calendar.today.button.label          "Bugün">
 <!ENTITY calendar.tomorrow.button.label       "Yarın">
 
-<!ENTITY calendar.events.filter.all.label "Bütün etkinlikler">
+<!ENTITY calendar.events.filter.all.label "Tüm etkinlikler">
 <!ENTITY calendar.events.filter.today.label "Bugünkü etkinlikler">
 <!ENTITY calendar.events.filter.future.label "Gelecekteki tüm etkinlikler">
 <!ENTITY calendar.events.filter.current.label "Seçilmiş gün">
