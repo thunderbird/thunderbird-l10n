@@ -8,7 +8,7 @@
 <!ENTITY searchResultConversation.label "Arama sonucu">
 <!ENTITY chat.noConv.title             "Sohbetler burada görünecektir.">
 <!ENTITY chat.noConv.description       "Bir görüşme başlatmak için sol bölmedeki kişi listesini kullanın.">
-<!ENTITY chat.noPreviousConv.description       "&brandShortName; bu kişi kayıtlı geçmiş görüşmeye sahip değil.">
+<!ENTITY chat.noPreviousConv.description       "&brandShortName; bu kişi için kayıtlı geçmiş görüşmeye sahip değil.">
 <!ENTITY chat.noAccount.title             "Henüz bir sohbet hesabı kurmadınız.">
 <!ENTITY chat.noAccount.description       "&brandShortName; sohbet hesabınızı kurmanız için size yol gösterebilir.">
 <!ENTITY chat.accountWizard.button       "Başlayın">

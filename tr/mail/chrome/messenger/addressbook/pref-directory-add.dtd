@@ -23,7 +23,7 @@
 <!ENTITY searchFilter.accesskey            "r">
 <!ENTITY scope.label                       "Kapsam: ">
 <!ENTITY scope.accesskey                   "p">
-<!ENTITY scopeOneLevel.label               "Bir Düzey ">
+<!ENTITY scopeOneLevel.label               "Bir Düzey">
 <!ENTITY scopeOneLevel.accesskey           "B">
 <!ENTITY scopeSubtree.label                "Alt Ağaç">
 <!ENTITY scopeSubtree.accesskey            "A">
