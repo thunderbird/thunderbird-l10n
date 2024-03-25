@@ -14,3 +14,13 @@ openpgp-compose-key-status-open-details = Gerir chaves para o destinatário sele
 openpgp-recip-good = ok
 openpgp-recip-missing = nenhuma chave disponível
 openpgp-recip-none-accepted = nenhuma chave aceitada
+openpgp-compose-general-info-alias = O { -brand-short-name } normalmente requer que a chave pública do destinatário contenha uma ID de utilizador com um endereço de e-mail correspondente. Isto pode ser substituído usando regras de alias de destinatário OpenPGP.
+openpgp-compose-general-info-alias-learn-more = Saber mais
+# Variables:
+# $count (Number) - Number of alias keys for a recipient.
+openpgp-compose-alias-status-direct =
+    { $count ->
+        [one] mapeado para uma tecla de alias
+       *[other] mapeado para { $count } teclas de alias
+    }
+openpgp-compose-alias-status-error = tecla de alias inutilizável/indisponível

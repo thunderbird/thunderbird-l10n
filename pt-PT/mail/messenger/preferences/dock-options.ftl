@@ -2,6 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+dock-options-window-dialog2 =
+    .title = Opções do ícone da aplicação
+dock-options-dialog-title = Opções do ícone da aplicação
+dock-options-show-badge =
+    .label = Mostrar ícone da medalha
+    .accesskey = d
 bounce-system-dock-icon =
     .label = Animar o ícone da aplicação quando recebe uma nova mensagem
     .accesskey = i
@@ -14,3 +20,4 @@ count-unread-messages-radio =
 count-new-messages-radio =
     .label = N.º de novas mensagens
     .accesskey = n
+notification-settings-info2 = Pode desativar a medalha no painel de Notificação das Preferências do Sistema.

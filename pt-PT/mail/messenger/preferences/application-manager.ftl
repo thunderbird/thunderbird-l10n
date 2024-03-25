@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+app-manager-window-dialog2 =
+    .title = Detalhes da Aplicação
+app-manager-dialog-title = Detalhes da Aplicação
 remove-app-button =
     .label = Remover
     .accesskey = R
