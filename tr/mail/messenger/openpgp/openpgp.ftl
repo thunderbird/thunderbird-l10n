@@ -683,8 +683,8 @@ invalid-email = Hata: geçersiz e-posta adres(ler)i
 # Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
-    Açtığınız '{ $name }' eki bir OpenPGP anahtar dosyası gibi görünüyor.
-    Dosyanın içerdiği anahtarları içe aktarmak için 'İçe aktar'ı veya dosya içeriğini tarayıcı penceresinde görüntülemek için 'Görüntüle'yi tıklayın
+    Açtığınız ‘{ $name }’ eki bir OpenPGP anahtar dosyası gibi görünüyor.
+    Dosyanın içerdiği anahtarları içe aktarmak için ‘İçe aktar’ı veya dosya içeriğini tarayıcı penceresinde görüntülemek için ‘Görüntüle’yi tıklayın
 dlg-button-view = &Göster
 
 ## Strings used in encryption.jsm
