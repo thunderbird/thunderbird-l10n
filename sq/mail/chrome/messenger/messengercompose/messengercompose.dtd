@@ -213,7 +213,8 @@
 <!ENTITY fromAddr.accesskey "r">
 <!ENTITY replyAddr2.label "Përgjigj-Iu">
 <!ENTITY newsgroupsAddr2.label "Grup Lajmesh">
-<!ENTITY followupAddr2.label "Vazhdimi-Te">
+<!ENTITY followupAddr2.label "
+">
 <!ENTITY subject2.label "Subjekt">
 <!ENTITY subject.accesskey "S">
 <!ENTITY attachmentBucketCloseButton.tooltip "Fshiheni kuadratin e bashkëngjitjeve">
