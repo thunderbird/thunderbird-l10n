@@ -19,7 +19,7 @@
 <!ENTITY userAgentField4.label "Agjent përdoruesi ">
 <!ENTITY referencesField4.label "Referenca ">
 <!ENTITY messageIdField4.label "ID mesazhi ">
-<!ENTITY inReplyToField4.label "Në përgjigje të ">
+<!ENTITY inReplyToField4.label "Si përgjigje për">
 <!ENTITY originalWebsite4.label "Sajt ">
 
 <!ENTITY hdrArchiveButton1.label "Arkivoje">

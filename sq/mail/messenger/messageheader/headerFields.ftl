@@ -41,7 +41,7 @@ message-header-date-field = Datë<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Agjent përdoruesi<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referenca<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = ID Mesazhi<span data-l10n-name="field-separator">:</span>
-message-header-in-reply-to-field = Në përgjigje të<span data-l10n-name="field-separator">:</span>
+message-header-in-reply-to-field = Si përgjigje për<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Sajt<span data-l10n-name="field-separator">:</span>
 message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
