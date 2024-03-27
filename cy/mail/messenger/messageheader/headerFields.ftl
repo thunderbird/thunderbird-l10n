@@ -43,14 +43,14 @@ message-header-references-field = Cyfeiriadau<span data-l10n-name="field-separat
 message-header-message-id-field = ID Neges<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Wrth ateb i<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Gwefan<span data-l10n-name="field-separator">:</span>
-message-header-list-id-field = ID-rhestr<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = Rhestr-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = Rhestr-Cymorth<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = Rhestr-Dad-danysgrifio <span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = Rhestr-Tanysgrifio <span data-l10n-name="field-separator">:</span>
 message-header-list-post-field = Rhestr-E-bost<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Rhestr-Perchennog<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = Rhestr-Archif<span data-l10n-name="field-separator">:</span>
-message-header-archived-at-field = Wedi'i archifo-Yn<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Wedi'i archifo-At<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Derbyn Cymorth
@@ -58,7 +58,7 @@ list-id-context-list-help =
 # Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
 list-id-list-unsubscribe =
     .label = Dad-danysgrifio…
-    .accesskey = D
+    .accesskey = g
 # Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
 list-id-list-subscribe =
     .label = Tanysgrifio…
@@ -77,7 +77,7 @@ list-id-list-archive =
     .accesskey = R
 # Direct link to the archived form of an individual email message. RFC 5064.
 list-id-archived-at =
-    .label = Neges Permalink
+    .label = Dolen Barhaol Neges
     .accesskey = N
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
