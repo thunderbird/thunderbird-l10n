@@ -55,10 +55,26 @@ message-header-archived-at-field = Archived-At<span data-l10n-name="field-separa
 list-id-context-list-help =
     .label = Λήψη βοήθειας
     .accesskey = Λ
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Κατάργηση συνδρομής…
+    .accesskey = Κ
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Συνδρομή…
+    .accesskey = Σ
 # Describes (i.e. http or mailto URL) how to post to the mailing list.
 list-id-list-post =
     .label = Σύνταξη
     .accesskey = Σ
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Επικοινωνία με διαχειριστή…
+    .accesskey = Ε
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Μόνιμος σύνδεσμος μηνύματος
+    .accesskey = Μ
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.

@@ -4,5 +4,6 @@
 
 calendar-itip-identity-dialog-title = Θα πάτε στο πάρτι;
 calendar-itip-identity-warning = Δεν είστε ακόμη στη λίστα προσκεκλημένων.
+calendar-itip-identity-dialog-box-title = Απρόσκλητος επισκέπτης
 calendar-itip-identity-label = Απάντηση ως:
 calendar-itip-identity-label-none = Συσχέτιση εκδήλωσης με:

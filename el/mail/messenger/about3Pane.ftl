@@ -501,3 +501,5 @@ apply-current-view-to-folder-message = Εφαρμογή προβολής του 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Εφαρμογή προβολής του τρέχοντος φακέλου στο «{ $name }» και τα τέκνα του;
+threadpane-card-menu-button =
+    .title = Μενού μηνύματος
