@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = κ
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Δημιουργία και αποθήκευση πιστοποιητικού ανάκλησης
+openpgp-key-man-gen-revocation =
+    .label = Αποθήκευση πιστοποιητικού ανάκλησης σε αρχείο
+    .accesskey = π
 openpgp-key-man-file-menu =
     .label = Αρχείο
     .accesskey = Α
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Αντιγραφή δημόσιων κλειδιών στο πρόχειρο
         }
     .accesskey = δ
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Εξαγωγή κλειδιών σε αρχείο
 openpgp-key-man-ctx-copy =
     .label = Αντιγραφή
     .accesskey = Α
@@ -733,10 +734,6 @@ attachment-pgp-key =
     Το συνημμένο «{ $name }» που ανοίγετε φαίνεται να είναι ένα αρχείο κλειδιού OpenPGP.
     Κάντε κλικ στο «Εισαγωγή» για να εισαγάγετε τα περιεχόμενα κλειδιά ή στο «Προβολή» για να δείτε τα περιεχόμενα του αρχείου σε ένα παράθυρο του προγράμματος περιήγησης
 dlg-button-view = &Προβολή
-
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Αποκρυπτογραφημένο μήνυμα (αποκαταστάθηκε η κατεστραμμένη μορφή μηνύματος PGP που πιθανότατα προκλήθηκε από έναν παλιό διακομιστή Exchange, άρα το αποτέλεσμα μπορεί να μην είναι άριστο)
 
 ## Strings used in encryption.jsm
 
