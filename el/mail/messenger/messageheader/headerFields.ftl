@@ -71,6 +71,10 @@ list-id-list-post =
 list-id-list-owner =
     .label = Επικοινωνία με διαχειριστή…
     .accesskey = Ε
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Λίστα αρχείων
+    .accesskey = Λ
 # Direct link to the archived form of an individual email message. RFC 5064.
 list-id-archived-at =
     .label = Μόνιμος σύνδεσμος μηνύματος
