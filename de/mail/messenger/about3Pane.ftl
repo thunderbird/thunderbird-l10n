@@ -500,5 +500,20 @@ apply-current-view-to-folder-message = Ansicht des aktuellen Ordners für „{ $
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Ansicht des aktuellen Ordners für „{ $name }“ und dessen Unterordner übernehmen?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> ungelesen von <span data-l10n-name="threadpane-sort-header-total-count"><span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> Nachricht
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> ungelesen von <span data-l10n-name="threadpane-sort-header-total-count"><span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> Nachrichten
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> Nachricht
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> Nachrichten
+    }
 threadpane-card-menu-button =
     .title = Nachrichtenmenü
