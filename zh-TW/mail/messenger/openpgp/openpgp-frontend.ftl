@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = 驗證簽章
     .accesskey = V
 openpgp-has-sender-key = 此訊息聲稱包含寄件者的 OpenPGP 公鑰。
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = 警告: 此訊息中的 OpenPGP 新公鑰與您先前接受的 { $email } 公鑰不同。
 openpgp-import-sender-key =
     .label = 匯入…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = 請稍候…
 openpgp-has-nested-encrypted-parts = 此訊息包含其他加密過的部分。
 openpgp-show-encrypted-parts = 解密並顯示
+openpgp-has-nested-signed-parts = 此訊息可能有部分內容有經過數位簽署。
+openpgp-show-signed-parts = 開啟並顯示
 openpgp-cannot-decrypt-because-mdc = 這是一封使用了舊版並有安全性漏洞所加密的訊息。此訊息可能在傳輸過程中已遭竄改，內容已遭洩漏。為了防止風險，將不顯示內容。
 openpgp-cannot-decrypt-because-missing-key = 用來解開此訊息的私鑰不存在。
 openpgp-partially-signed = 此訊息當中只有一部分使用 OpenPGP 進行數位簽署。當您點擊驗證按鈕後，將隱藏未保護的部分，並顯示數位簽章狀態。

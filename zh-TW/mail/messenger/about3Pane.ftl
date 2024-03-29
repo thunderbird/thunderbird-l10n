@@ -493,5 +493,12 @@ apply-current-view-to-folder-message = 確定要將目前信件匣的畫面套�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = 確定要將目前信件匣的畫面套用到 { $name } 與其子信件匣嗎？
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread = <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> 封未讀郵件，共 <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> 封郵件
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header = 共 <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> 封郵件
 threadpane-card-menu-button =
     .title = 訊息選單
