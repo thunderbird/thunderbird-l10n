@@ -512,5 +512,14 @@ apply-current-view-to-folder-message = Použít zobrazení aktuální složky pr
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Použít zobrazení aktuální složky pro složku { $name } a její podsložky?
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span>  zpráva
+        [few] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> zprávy
+        [many] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span>  zpráv
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span>  zpráv
+    }
 threadpane-card-menu-button =
     .title = Nabídka pro zprávu
