@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Staðfesta undirritun
     .accesskey = f
 openpgp-has-sender-key = Þessi skilaboð segjast innihalda OpenPGP-dreifilykil sendandans.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Aðvörun: Nýi OpenPGP dreifilykillinn í þessum skilaboðum er frábrugðinn opinberu dreifilyklunum sem þú samþykktir áður fyrir { $email }.
 openpgp-import-sender-key =
     .label = Flytja inn…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Bíddu aðeins…
 openpgp-has-nested-encrypted-parts = Þessi skilaboð innihalda aukalega dulritaða hluta.
 openpgp-show-encrypted-parts = Afkóða og birta
+openpgp-has-nested-signed-parts = Sumir hlutar þessarar skilaboða kunna að vera stafrænt undirritaðir.
+openpgp-show-signed-parts = Opna og sýna
 openpgp-cannot-decrypt-because-mdc =
     Þetta er dulrituð skilaboð sem nota gamla og viðkvæma tækni.
     Þeim hefur mátt breyta á meðan á flutningi stóð, með það fyrir augum að stela innihaldi þeirra.
