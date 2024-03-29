@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Čakajte, prosím…
 openpgp-has-nested-encrypted-parts = Táto správa obsahuje ďalšie zašifrované časti.
 openpgp-show-encrypted-parts = Dešifrovať a zobraziť
+openpgp-has-nested-signed-parts = Niektoré časti tejto správy môžu byť digitálne podpísané.
+openpgp-show-signed-parts = Otvoriť a zobraziť
 openpgp-cannot-decrypt-because-mdc =
     Toto je šifrovaná správa, ktorá používa starý a zraniteľný mechanizmus.
     Počas prenosu mohla byť upravená so zámerom ukradnúť jej obsah.
