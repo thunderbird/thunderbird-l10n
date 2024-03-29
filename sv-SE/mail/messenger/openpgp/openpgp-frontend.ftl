@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Verifiera signatur
     .accesskey = V
 openpgp-has-sender-key = Det här meddelandet påstår sig innehålla avsändarens publika OpenPGP-nyckel.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Varning: Den nya publika OpenPGP-nyckeln i det här meddelandet skiljer sig från de publika nycklarna som du tidigare accepterade för { $email }.
 openpgp-import-sender-key =
     .label = Importera…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Var god vänta…
 openpgp-has-nested-encrypted-parts = Detta meddelande innehåller ytterligare krypterade delar.
 openpgp-show-encrypted-parts = Dekryptera och visa
+openpgp-has-nested-signed-parts = Vissa delar av detta meddelande kan vara digitalt signerat.
+openpgp-show-signed-parts = Öppna och visa
 openpgp-cannot-decrypt-because-mdc =
     Detta är ett krypterat meddelande som använder en gammal och sårbar mekanism.
     Det kunde ha ändrats under transporten, med avsikt att stjäla innehållet.
