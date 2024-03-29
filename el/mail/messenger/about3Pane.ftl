@@ -501,5 +501,20 @@ apply-current-view-to-folder-message = Εφαρμογή προβολής του 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Εφαρμογή προβολής του τρέχοντος φακέλου στο «{ $name }» και τα τέκνα του;
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> μη αναγνωσμένο από <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> μήνυμα
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> μη αναγνωσμένα από <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> μηνύματα
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> μήνυμα
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> μηνύματα
+    }
 threadpane-card-menu-button =
     .title = Μενού μηνύματος
