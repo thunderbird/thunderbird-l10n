@@ -501,5 +501,20 @@ apply-current-view-to-folder-message = Utilizzare la visualizzazione della carte
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Utilizzare la visualizzazione della cartella corrente per { $name } e sottocartelle?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> non letti di <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> messaggio
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> non letti di <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> messaggi
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] Messaggio <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span>
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> messaggi
+    }
 threadpane-card-menu-button =
     .title = Menu messaggi
