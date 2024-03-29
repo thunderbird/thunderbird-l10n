@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Gwirio Llofnod
     .accesskey = G
 openpgp-has-sender-key = Mae'r neges hon yn honni ei bod yn cynnwys allwedd gyhoeddus OpenPGP yr anfonwr.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Rhybudd: Mae'r allwedd gyhoeddus OpenPGP newydd yn y neges hon yn wahanol i'r allweddi cyhoeddus y gwnaethoch eu derbyn o'r blaen gan { $email }
 openpgp-import-sender-key =
     .label = Mewnforio…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Arhoswch…
 openpgp-has-nested-encrypted-parts = Mae'r neges hon yn cynnwys rhannau ychwanegol wedi'u hamgryptio.
 openpgp-show-encrypted-parts = Dadgryptio a Dangos
+openpgp-has-nested-signed-parts = Mae'n bosibl bod rhai rhannau o'r neges hon wedi'u llofnodi'n ddigidol.
+openpgp-show-signed-parts = Agor a Dangos
 openpgp-cannot-decrypt-because-mdc =
     Neges wedi'i hamgryptio yw hon sy'n defnyddio hen fecanwaith bregus.
     Gall fod wedi cael ei addasu wrth gael ei gludo, gyda'r bwriad o ddwyn ei gynnwys.

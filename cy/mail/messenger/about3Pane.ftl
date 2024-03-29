@@ -525,5 +525,28 @@ apply-current-view-to-folder-message = Gosod golwg y ffolder gyfredol i { $name 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Gosod golwg y ffolder gyfredol i { $name } a'i phlant?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [zero] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
+        [two] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
+        [few] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
+        [many] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> heb ei ddarllen o <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> neges
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [zero] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
+        [two] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
+        [few] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
+        [many] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> neges
+    }
 threadpane-card-menu-button =
     .title = Dewislen negeseuon
