@@ -63,6 +63,10 @@ list-id-list-subscribe =
 list-id-list-post =
     .label = Жазу
     .accesskey = Ж
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Әкімшіге хабарласу…
+    .accesskey = с
 # Describes (i.e. http or mailto URL) how to access archives for the mailing list.
 list-id-list-archive =
     .label = Хаттарды тарату тізімінің архивтері
