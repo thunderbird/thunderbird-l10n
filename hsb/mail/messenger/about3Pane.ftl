@@ -513,5 +513,24 @@ apply-current-view-to-folder-message = Napohlad aktualneho rjadowaka na { $name 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Napohlad aktualneho rjadowaka na { $name } a jeho dźěći nałožić?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>nječitana z <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsće
+        [two] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>nječitanej z <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsćow
+        [few] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>nječitane z <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsćow
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>nječitanych z <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsćow
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsć
+        [two] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsći
+        [few] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsće
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> powěsćow
+    }
 threadpane-card-menu-button =
     .title = Powěsćowy meni

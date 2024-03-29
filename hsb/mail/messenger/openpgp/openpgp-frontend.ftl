@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Signaturu přepruwować
     .accesskey = S
 openpgp-has-sender-key = Tuta powěsć twjerdźi, zo zjawny OpenPGP-kluč wotpósłowarja wobsahuje.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Warnowanje: Nowy zjawny OpenPGP-kluč w tutej powěsći so wot zjawnych klučow rozeznawa, kotrež sće do toho za { $email } akceptował.
 openpgp-import-sender-key =
     .label = Importować…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Prošu čakajće…
 openpgp-has-nested-encrypted-parts = Tuta powěsć přidatne zaklučowane dźěle wobsahuje.
 openpgp-show-encrypted-parts = Dešifrować a pokazać
+openpgp-has-nested-signed-parts = Někotre dźěle tuteje powěsće móža digitalnje signowane być.
+openpgp-show-signed-parts = Wočinić a pokazać
 openpgp-cannot-decrypt-because-mdc =
     To je zaklučowana powěsć, kotraž stary a napadliwy mechanizm wužiwa.
     Je so snano při přenošowanju změniła, z wotpohladom, jeje wobsah kradnyć.
