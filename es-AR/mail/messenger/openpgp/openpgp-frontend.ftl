@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Verificar firma
     .accesskey = V
 openpgp-has-sender-key = Este mensaje dice contener la clave pública OpenPGP del remitente.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Advertencia: La nueva clave pública OpenPGP en este mensaje difiere de las claves públicas previamente aceptadas para { $email }.
 openpgp-import-sender-key =
     .label = Importar…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Espere…
 openpgp-has-nested-encrypted-parts = Este mensaje incluye partes adicionales cortadas.
 openpgp-show-encrypted-parts = Descifrar y mostrar
+openpgp-has-nested-signed-parts = Algunas partes de este mensaje pueden estar firmadas digitalmente.
+openpgp-show-signed-parts = Abrir y mostrar
 openpgp-cannot-decrypt-because-mdc =
     Este es un mensaje cifrado que usa un mecanismo viejo y vulnerable.
     Se puede haber modificado en tránsito con la intención de robar su contenido.
