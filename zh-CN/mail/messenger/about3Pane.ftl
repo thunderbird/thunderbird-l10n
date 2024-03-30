@@ -477,5 +477,12 @@ apply-current-view-to-folder-message = 要将当前文件夹的视图应用到 {
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = 要将当前文件夹的视图应用于 { $name } 及其子文件夹吗？
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread = <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> 个未读/共 <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> 条消息
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header = <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> 条消息
 threadpane-card-menu-button =
     .title = 消息菜单
