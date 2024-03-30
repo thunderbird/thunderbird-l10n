@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Қолтаңбаны растау
     .accesskey = р
 openpgp-has-sender-key = Бұл хабарлама оның ішінде жіберушінің OpenPGP ашық кілті бар деп мәлімдейді.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Ескерту: Бұл хабарламадағы жаңа OpenPGP ашық кілті сіз бұрын { $email } үшін қабылдаған ашық кілттерден өзгеше.
 openpgp-import-sender-key =
     .label = Импорттау…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Күте тұрыңыз…
 openpgp-has-nested-encrypted-parts = Бұл хабарламада қосымша шифрленген бөліктер бар.
 openpgp-show-encrypted-parts = Дешифрлеу және көрсету
+openpgp-has-nested-signed-parts = Бұл хабарламаның кейбір бөліктеріне цифрлық қолтаңба қойылған болуы мүмкін.
+openpgp-show-signed-parts = Ашу және көрсету
 openpgp-cannot-decrypt-because-mdc =
     Бұл ескі және осал механизмді пайдаланатын шифрленген хабарлама.
     Оны тасымалдау кезінде мазмұнын ұрлау мақсатында өзгертілген болуы мүмкін.

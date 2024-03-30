@@ -500,5 +500,20 @@ apply-current-view-to-folder-message = Ағымдағы бума түрін { $n
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Ағымдағы бума түрін { $name } және оның ішкі бумалары үшін іске асыру керек пе?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> оқылмаған, барлығы <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> хабарлама
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> оқылмаған, барлығы <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> хабарлама
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> хабарлама
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> хабарлама
+    }
 threadpane-card-menu-button =
     .title = Хабарлама мәзірі
