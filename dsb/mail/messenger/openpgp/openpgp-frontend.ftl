@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Pšosym cakajśo…
 openpgp-has-nested-encrypted-parts = Toś ta powěsć pśidatne skoděrowane źěle wopśimujo.
 openpgp-show-encrypted-parts = Dešifrěrowaś a pokazaś
+openpgp-has-nested-signed-parts = Někotare źěle toś teje powěsći mógu digitalnje signěrowane byś.
+openpgp-show-signed-parts = Wócyniś a pokazaś
 openpgp-cannot-decrypt-because-mdc =
     To jo skoděrowana powěsć, kótaraž stary a napadojty mechanizm wužywa.
     Jo se snaź změniła pśi pśenosowanju, z wótglědom, jeje wopśimjeśe kšadnuś.
