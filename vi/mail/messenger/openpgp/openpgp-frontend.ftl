@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Vui lòng chờ…
 openpgp-has-nested-encrypted-parts = Thư này bao gồm các phần được mã hóa bổ sung.
 openpgp-show-encrypted-parts = Giải mã và hiển thị
+openpgp-has-nested-signed-parts = Một số phần của thư này có thể được ký điện tử.
+openpgp-show-signed-parts = Mở và hiển thị
 openpgp-cannot-decrypt-because-mdc =
     Đây là một thư được mã hóa sử dụng một cơ chế cũ và dễ bị tấn công.
     Nó có thể đã được sửa đổi khi đang chuyển, với ý định lấy cắp nội dung của nó.
