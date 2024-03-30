@@ -3,9 +3,9 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY WindowTitle.label              "Gelişmiş Özellik Düzenleyici">
-<!ENTITY AttName.label                  "Öznitelik:">
-<!ENTITY AttValue.label                 "Değer:">
-<!ENTITY PropertyName.label             "Özellik:">
+<!ENTITY AttName.label                  "Öznitelik: ">
+<!ENTITY AttValue.label                 "Değer: ">
+<!ENTITY PropertyName.label             "Özellik: ">
 <!ENTITY currentattributesfor.label     "Bunun için geçerli öznitelikler:">
 <!ENTITY tree.attributeHeader.label     "Öznitelik">
 <!ENTITY tree.propertyHeader.label      "Özellik">

@@ -26,4 +26,4 @@
 <!ENTITY backgroundImage.label "Arka Plan Resmi:">
 <!ENTITY backgroundImage.accessKey "k">
 <!ENTITY backgroundImage.tooltip "Bir resim dosyasını sayfanızda arka plan olarak kullanın">
-<!ENTITY backgroundImage.shortenedDataURI "Kısaltılmış veri URI'si (Kopyalarsanız panoya tam URI kopyalanacaktır)">
+<!ENTITY backgroundImage.shortenedDataURI "Kısaltılmış veri URI’si (Kopyalarsanız panoya tam URI kopyalanacaktır)">

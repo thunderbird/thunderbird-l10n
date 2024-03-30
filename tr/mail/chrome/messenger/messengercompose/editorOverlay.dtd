@@ -263,7 +263,7 @@
 
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Resim">
-<!ENTITY imageToolbarCmd.tooltip "Yeni bir resim ekle veya seçili görüntünün özelliklerini düzenle">
+<!ENTITY imageToolbarCmd.tooltip "Yeni bir resim ekle veya seçili resmin özelliklerini düzenle">
 <!ENTITY hruleToolbarCmd.label "Y. çizgi">
 <!ENTITY hruleToolbarCmd.tooltip "Yatay çizgi ekle veya seçili çizginin özelliklerini düzenle">
 <!ENTITY tableToolbarCmd.label "Tablo">

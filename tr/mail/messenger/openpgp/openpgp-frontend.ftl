@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Lütfen bekleyin…
 openpgp-has-nested-encrypted-parts = Bu ileti, şifrelenmiş ek kısımlar içeriyor.
 openpgp-show-encrypted-parts = Şifreyi çöz ve göster
+openpgp-has-nested-signed-parts = Bu iletinin bazı kısımları dijital olarak imzalanmış olabilir.
+openpgp-show-signed-parts = Aç ve göster
 openpgp-cannot-decrypt-because-mdc =
     Bu ileti, eski ve güvenlik açığı bulunan bir mekanizmayla şifrelenmiş.
     İletinin taşınması sırasında içeriğini çalmak amacıyla iletide değişiklik yapılmış olabilir.
