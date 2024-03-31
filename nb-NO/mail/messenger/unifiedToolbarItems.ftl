@@ -77,6 +77,7 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Merk
 toolbar-mark-as =
     .title = Merk meldinger
+toolbar-view-picker-label = Vis
 toolbar-address-book =
     .title = Åpne adresseboken
 toolbar-chat-label = Nettprat
@@ -127,6 +128,8 @@ toolbar-stop =
 toolbar-throbber-label = Aktivitetsindikator
 toolbar-throbber =
     .title = Aktivitetsindikator
+toolbar-create-contact-label = Ny kontakt
+toolbar-create-list-label = Ny liste
 
 ## New Address Book popup items
 

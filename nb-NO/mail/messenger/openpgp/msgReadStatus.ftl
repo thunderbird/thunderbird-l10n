@@ -44,6 +44,7 @@ openpgp-enc-key-id = Din dekrypteringsnøkkel-ID:  { $key }
 # $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Din dekrypteringsnøkkel-ID: { $key } (Undernøkkel-ID: { $subkey })
+openpgp-enc-none = Meldingen er ikke kryptert
 openpgp-enc-valid-label = Meldingen er kryptert
 openpgp-unknown-key-id = Ukjent nøkkel
 openpgp-other-enc-additional-key-ids = I tillegg ble meldingen kryptert til eierne av følgende nøkler:

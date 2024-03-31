@@ -5,6 +5,12 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Minimer
+messenger-window-maximize-button =
+    .tooltiptext = Maksimer
+messenger-window-close-button =
+    .tooltiptext = Lukk
 # Variables:
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
@@ -23,6 +29,10 @@ content-tab-security-broken-icon =
 
 # Back
 
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Tilbake
+    .accesskey = T
 
 # Forward
 
@@ -161,6 +171,9 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Omdiriger
+message-header-msg-flagged =
+    .title = Stjernemerket
+    .aria-label = Stjernemerket
 
 ## Message header cutomize panel
 
@@ -185,24 +198,33 @@ message-header-show-big-avatar =
 
 ## Add-on removal warning
 
+addon-removal-confirmation-button = Fjern
+caret-browsing-prompt-check-text = Ikke spør igjen.
 repair-text-encoding-button =
     .label = Reparer tekstkoding
     .tooltiptext = Gjett riktig tekstkoding fra meldingsinnhold
 
 ## no-reply handling
 
+no-reply-reply-anyway-button = Svar uansett
 
 ## error messages
 
 
 ## Spaces toolbar
 
+spaces-toolbar-button-calendar2 =
+    .title = Kalender
 spaces-toolbar-button-tasks2 =
     .title = Oppgaver
 spaces-toolbar-button-settings2 =
     .title = Innstillinger
 spaces-toolbar-button-hide =
     .title = Skjul hurtigknapp-verktøylinjen
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = Bytt til { $tabTitle }
 settings-context-open-settings-item2 =
     .label = Innstillinger
 settings-context-open-account-settings-item2 =
@@ -225,6 +247,8 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Tilpass …
+spaces-customize-background-color = Bakgrunnsfarge
+spaces-customize-icon-color = Knappefarge
 customize-panel-button-save = Ferdig
     .accesskey = F
 

@@ -5,6 +5,9 @@
 
 ## Header lists
 
+message-header-to-list-name = Til
+message-header-from-list-name = Fra
+message-header-sender-list-name = Avsender
 message-header-newsgroups-list-name = Temagrupper
 
 ## Other message headers.
@@ -29,4 +32,8 @@ list-id-list-post =
 
 ##
 
+message-header-address-not-in-address-book-icon2 =
+    .alt = Ikke i adresseboken
+message-header-field-show-more = Mer
+    .title = Vis alle mottakere
 message-ids-field-show-all = Vis alle

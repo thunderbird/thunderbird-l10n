@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Kalender
 category-calendar =
     .tooltiptext = Kalender
+pane-sync-title = Synkroniser
+category-sync =
+    .tooltiptext = Synkroniser
 general-language-and-appearance-header = Språk og utseende
 general-incoming-mail-header = Innkommende e-post
 general-files-and-attachment-header = Filer og vedlegg
@@ -461,6 +464,12 @@ default-format-label =
     .label = Bruk paragrafformat i stedet for brødtekst som standard
     .accesskey = p
 compose-send-format-title = Sendingsformat
+compose-send-automatic-option =
+    .label = Automatisk
+compose-send-html-option =
+    .label = Kun HTML
+compose-send-plain-option =
+    .label = Kun ren tekst
 autocomplete-description = Ved adressering av meldinger, søk etter treff i:
 ab-label =
     .label = Lokale adressebøker
@@ -708,6 +717,13 @@ search-results-help-link = Trenger du hjelp? Gå til <a data-l10n-name="url">{ -
 
 ## Sync Tab
 
+sync-pane-header = Synkroniser
+sync-pane-sign-in = Logg inn
+sync-pane-remove-account = Fjern konto
+sync-pane-edit-photo =
+    .title = Endre profilbilde
+sync-pane-manage-account = Behandle konto
+sync-pane-cancel = Avbryt
 show-synced-item-account = E-postkontoer
 show-synced-item-address = Adressebøker
 show-synced-item-calendar = Kalendere

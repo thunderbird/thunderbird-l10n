@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+colors-dialog-window2 =
+    .title = Farger
+colors-dialog-title = Farger
 colors-dialog-legend = Tekst og bakgrunn
 text-color-label =
     .value = Tekst:

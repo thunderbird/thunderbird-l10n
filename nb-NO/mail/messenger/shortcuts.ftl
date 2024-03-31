@@ -11,3 +11,8 @@ shortcut-key = { $key }
 
 ## Shortcut and label combined strings
 
+# Variables:
+#  $title (String): The title coming from the original element.
+#  $shortcut (String): The shortcut generated from the keystroke combination.
+button-shortcut-string =
+    .title = { $title } ({ $shortcut })

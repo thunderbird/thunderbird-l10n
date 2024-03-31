@@ -5,33 +5,27 @@
 otr-auth =
     .title = Bekreft kontaktens identitet
     .buttonlabelaccept = Bekreft
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Bekreft identiteten til { $name }
-
 # Variables:
 #   $own_name (String) - the user's own screen name
 auth-your-fp-value = Ditt fingeravtrykk, { $own_name }:
-
 # Variables:
 #   $their_name (String) - the screen name of a chat contact
 auth-their-fp-value = Fingeravtrykk for { $their_name }:
-
-auth-help = Bekrefting av en identiteten til en kontakt hjelper til med på å sikre at samtalen virkelig er privat, noe som gjør det veldig vanskelig for en tredjepart å avlytte eller manipulere samtalen.
-
 auth-yes =
     .label = Ja
-
 auth-no =
     .label = Nei
-
 auth-verified = Jeg har bekreftet at dette faktisk er det riktige fingeravtrykket.
-
+auth-manual-verification-label =
+    .label = { auth-manual-verification }
+auth-question-and-answer-label =
+    .label = { auth-question-and-answer }
+auth-shared-secret-label =
+    .label = { auth-shared-secret }
 auth-how = Hvordan vil du bekrefte identiteten til kontakten din?
-
 auth-question = Skriv inn et spørsmål:
-
 auth-answer = Skriv inn svaret (skill mellom små og store bokstaver)
-
 auth-secret = Skriv inn hemmeligheten:

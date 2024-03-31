@@ -12,9 +12,8 @@ view-fingerprint-button =
     .label = Behandle fingeravtrykk for kontakter
     .accesskey = f
 otr-settings-title = OTR-innstillinger
-
 otr-require-encryption-info =
     Når du krever ende-til-ende-kryptering, vil meldinger i en-til-en-samtaler
     ikke bli sendt med mindre de kan krypteres. Mottatte ikke-krypterte meldinger
     vises ikke som en del av den vanlige samtalen, og blir heller ikke logget.
-
+otr-not-yet-available = ikke tilgjengelig enda

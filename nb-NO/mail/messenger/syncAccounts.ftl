@@ -11,6 +11,7 @@
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Logge ut av kontoen?
 sync-signout-dialog-button = Logg ut
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.

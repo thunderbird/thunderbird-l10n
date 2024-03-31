@@ -8,6 +8,18 @@
 compose-send-format-menu =
     .label = Sendingsformat
     .accesskey = f
+compose-send-auto-menu-item =
+    .label = Automatisk
+    .accesskey = A
+compose-send-both-menu-item =
+    .label = Både HTML og ren tekst
+    .accesskey = B
+compose-send-html-menu-item =
+    .label = Kun HTML
+    .accesskey = H
+compose-send-plain-menu-item =
+    .label = Kun ren tekst
+    .accesskey = K
 
 ## Addressing widget
 
@@ -36,6 +48,9 @@ pill-tooltip-not-in-address-book = { $email } er ikke i adresseboken din
 pill-action-edit =
     .label = Rediger adresse
     .accesskey = e
+pill-action-select-all-pills =
+    .label = Velg alle adresser
+    .accesskey = V
 pill-action-move-to =
     .label = Flytt til Til-feltet
     .accesskey = t
@@ -219,6 +234,7 @@ show-bcc-row-button = Blindkopi
 many-public-recipients-bcc =
     .label = Bruk blindkopi i stedet
     .accesskey = B
+many-public-recipients-prompt-title = For mange offentlige mottakere
 many-public-recipients-prompt-cancel = Avbryt sending
 many-public-recipients-prompt-send = Send uansett
 
@@ -252,10 +268,12 @@ cloud-file-template-expiry-date = Utløpsdato:
 
 # Messages
 
+cloud-file-connection-error-title = Tilkoblingsfeil
 cloud-file-attachment-error-title = Filelink-vedleggsfeil
 
 ## Link Preview
 
+link-preview-yes-replace = Ja
 
 ## Dictionary selection popup
 
