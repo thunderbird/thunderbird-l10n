@@ -518,7 +518,7 @@ apply-current-view-to-folder-with-children-message = Použiť nastavenie zobraze
 threadpane-sort-header-unread =
     { $total ->
         [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> správa, <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> neprečítaná
-        [few] <span data-l10n-name="threadpane-sort-header-unread-count">{ $total }</span> správy, z toho neprečítané: <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>
+        [few] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> správy, z toho neprečítané: <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>
         [many] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> správ, z toho neprečítaných: <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>
        *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> správ, z toho neprečítaných: <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>
     }
