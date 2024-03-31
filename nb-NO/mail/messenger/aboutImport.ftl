@@ -10,6 +10,7 @@ export-page-title = Eksporter
 import-file = Importer fra en fil
 import-file-title = Velg en fil for å importere innholdet.
 import-address-book-title = Importer adressebokfil
+import-calendar-title = Importer kalenderfil
 export-profile = Eksporter
 
 ## Buttons
@@ -64,6 +65,8 @@ profile-source-named = Importer fra profil <strong>«{ $profileName }»</strong>
 profile-file-picker-directory = Velg en profilmappe
 profile-file-picker-archive = Velg en <strong>ZIP</strong>-fil
 profile-file-picker-archive-description = ZIP-filen må være mindre enn 2GB.
+items-pane-title2 = Velg hva du vil importere:
+items-pane-directory = Mappe:
 items-pane-profile-name = Profilnavn:
 items-pane-checkbox-accounts = Kontoer og innstillinger
 items-pane-checkbox-address-books = Adressebøker
@@ -79,18 +82,21 @@ addr-book-directories-pane-source = Kildefil:
 
 ## Import from calendar file steps
 
+calendar-items-loading = Laster inn elementer …
 calendar-select-all-items = Merk alle
 
 ## Import dialog
 
 progress-pane-finished-desc2 = Fullført.
 error-pane-title = Feil
+error-message-no-profile = Ingen profil funnet.
 
 ## <csv-field-map> element
 
 
 ## Export tab
 
+export-file-picker2 = Eksporter til en ZIP-fil
 
 ## Summary pane
 
@@ -101,3 +107,4 @@ footer-help = Trenger du hjelp?
 
 ## Step navigation on top of the wizard pages
 
+step-confirm = Bekreft

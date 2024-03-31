@@ -47,6 +47,14 @@ account-setup-exchange-info-icon =
 
 ## Action buttons
 
+account-setup-button-cancel = Avbryt
+    .accesskey = A
+account-setup-button-stop = Stopp
+    .accesskey = S
+account-setup-button-continue = Fortsett
+    .accesskey = F
+account-setup-button-done = Ferdig
+    .accesskey = d
 
 ## Notifications
 
@@ -80,6 +88,13 @@ account-setup-getting-started = Kom i gang
 
 ## Results area
 
+# Variables:
+#  $count (Number) - Number of available protocols.
+account-setup-results-area-title =
+    { $count ->
+        [one] Tilgjengelig konfigurasjon
+       *[other] Tilgjengelige konfigurasjoner
+    }
 account-setup-result-pop-description = Hold mappene og e-postmeldingene dine på datamaskinen din
 account-setup-incoming-title = Innkommende
 account-setup-outgoing-title = Utgående
@@ -121,9 +136,16 @@ account-setup-insecure-outgoing-title = Utgående innstillinger:
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> bruker ikke kryptering.
+account-setup-insecure-server-checkbox = Jeg forstår risikoen
+    .accesskey = J
+insecure-dialog-cancel-button = Endre innstillinger
+    .accesskey = s
+insecure-dialog-confirm-button = Bekreft
+    .accesskey = B
 
 ## Warning Exchange confirmation dialog
 
+exchange-dialog-cancel-button = Avbryt
 
 ## Dismiss account creation dialog
 
@@ -149,11 +171,14 @@ account-setup-address-book-ldap-button = Koble til en LDAP-adressebok
 account-setup-calendar-button = Koble til en ekstern kalender
 account-setup-linked-services-title = Koble til dine tilknyttede tjenester
 account-setup-linked-services-description = { -brand-short-name } oppdaget andre tjenester som er knyttet til e-postkontoen din.
+account-setup-button-finish = Ferdig
+    .accesskey = F
 account-setup-calendars-button = Kalendere
 account-setup-existing-address-book = Tilkoblet
     .title = Adresseboken er allerede tilkoblet
 account-setup-existing-calendar = Tilkoblet
     .title = Kalenderen er allerede tilkoblet
+account-setup-connect-all-calendars = Koble til alle kalendere
 
 ## Calendar synchronization dialog
 

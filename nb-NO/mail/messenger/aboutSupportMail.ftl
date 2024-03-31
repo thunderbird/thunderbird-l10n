@@ -14,7 +14,8 @@ accounts-conn-security = Tilkoblingssikkerhet
 accounts-auth-method = Autentiseringsmetode
 accounts-default = Standard?
 identity-name = Identitet
-
 send-via-email = Send via e-post
-
 app-basics-telemetry = Telemetri-data
+libs-table-heading-status = Status
+libs-rnp-status-ok = OK
+libs-otr-status-ok = OK

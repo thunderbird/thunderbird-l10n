@@ -215,6 +215,9 @@ threadpane-column-header-flagged =
     .title = Sorter etter stjerne
 threadpane-column-label-flagged =
     .label = Stjerne
+threadpane-cell-flagged =
+    .aria-label = Stjernemerket
+threadpane-flagged-cell-label = Stjernemerket
 threadpane-column-header-attachments =
     .title = Sorter etter vedlegg
 threadpane-column-label-attachments =
@@ -284,6 +287,13 @@ threadpane-column-header-status = Status
     .title = Sorter etter status
 threadpane-column-label-status =
     .label = Status
+threadpane-cell-status =
+    .aria-label = Status
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Status
+    .title = { $title }
 threadpane-column-header-size = Størrelse
     .title = Sorter etter størrelse
 threadpane-column-label-size =
@@ -321,6 +331,13 @@ threadpane-column-header-priority = Prioritet
     .title = Sorter etter prioritet
 threadpane-column-label-priority =
     .label = Prioritet
+threadpane-cell-priority =
+    .aria-label = Prioritet
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Prioritet
+    .title = { $title }
 threadpane-column-header-unread = Ulest
     .title = Antall uleste meldinger i tråden
 threadpane-column-label-unread =
@@ -357,6 +374,13 @@ threadpane-column-label-delete =
     .label = Slett
 threadpane-cell-delete =
     .aria-label = Slett
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } svar
+       *[other] { $count } svar
+    }
 
 ## Message state variations
 
@@ -378,3 +402,5 @@ apply-current-columns-to-folder-message = Bruk denne mappens kolonner på { $nam
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Bruk denne mappens kolonnner på { $name } og dens undermapper?
+threadpane-card-menu-button =
+    .title = Meldingsmeny

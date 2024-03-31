@@ -7,3 +7,7 @@ open-addons-sidebar-button = Tillegg og temaer
 account-action-add-newsgroup-account =
     .label = Legg til temagruppekonto …
     .accesskey = N
+edit-vcard-dialog-accept-button = Lagre
+    .accesskey = L
+edit-vcard-dialog-cancel-button = Avbryt
+    .accesskey = A

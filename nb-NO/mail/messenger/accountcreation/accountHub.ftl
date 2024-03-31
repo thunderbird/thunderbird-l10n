@@ -35,6 +35,10 @@ account-hub-ssl-label = Tilkoblingssikkerhet
 
 ## Incoming/Outgoing SSL Authentication options
 
+account-hub-ssl-autodetect-option =
+    .label = Oppdag automatisk
+account-hub-ssl-no-authentication-option =
+    .label = Ingen autentisering
 account-hub-ssl-encrypted-password-option =
     .label = Kryptert passord
 
@@ -42,5 +46,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Ingen
+account-hub-auth-no-authentication-option =
+    .label = Ingen autentisering
+account-hub-username-label = Brukernavn
 account-hub-notification-show-more = Vis mer
 account-hub-notification-show-less = Vis mindre
