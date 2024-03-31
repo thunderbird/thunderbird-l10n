@@ -513,6 +513,16 @@ apply-current-view-to-folder-message = Použiť nastavenie zobrazenia aktuálneh
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Použiť nastavenie zobrazenia aktuálneho priečinka aj na priečinok { $name } a jeho podpriečinky?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> správa, <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> neprečítaná
+        [few] <span data-l10n-name="threadpane-sort-header-unread-count">{ $total }</span> správy, z toho neprečítané: <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>
+        [many] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> správ, z toho neprečítaných: <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> správ, z toho neprečítaných: <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span>
+    }
+# Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header =
     { $total ->
