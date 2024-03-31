@@ -121,16 +121,42 @@ quick-filter-bar-gloda-upsell-line2 = Սեղմեք ‘Enter'՝ շարունակ�
 folder-pane-get-all-messages-menuitem =
     .label = Ստանալ բոլոր նոր նամակները
     .accesskey = G
+folder-pane-mode-context-button =
+    .title = Պանակի կերպի ընտրանքներ
 folder-pane-mode-context-toggle-compact-mode =
     .label = Հավաք տեսք
     .accesskey = Հ
+folder-pane-mode-move-up =
+    .label = Վեր
+folder-pane-mode-move-down =
+    .label = Վար
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 չընթերցված նամակ
+       *[other] { $count } չընթերցված նամակներ
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 ընդհանուր նամակ
+       *[other] { $count } ընդհանուր նամակներ
+    }
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Համատեղ նշել բոլոր հաղորդագրությունները
+threadpane-column-header-select-all =
+    .title = Ընտրեք բոլոր նամակները
+threadpane-column-header-deselect-all =
+    .title = Չընտրել ոչ մի նամակ
 threadpane-column-label-select =
     .label = Ընտրել Նամակներ
+threadpane-cell-select =
+    .aria-label = Ընտրել նամակ
 threadpane-column-label-thread =
     .label = Շղթան
 threadpane-column-header-flagged =

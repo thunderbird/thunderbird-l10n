@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-itip-identity-label = Պատասխանել որպես.
+calendar-itip-identity-label-none = Համակցել այս իրադարձությունը հետևյալի հետ՝
