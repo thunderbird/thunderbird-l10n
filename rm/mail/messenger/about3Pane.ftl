@@ -501,3 +501,5 @@ apply-current-view-to-folder-message = Utilisar la vista dad ordinaturs actuala 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Utilisar la vista dad ordinaturs actuala per { $name } e ses sutordinaturs?
+threadpane-card-menu-button =
+    .title = Menu dal messadi

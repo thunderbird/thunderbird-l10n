@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = r
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Generar e memorisar in certificat da revocaziun
+openpgp-key-man-gen-revocation =
+    .label = Memorisar il certificat da revocaziun en ina datoteca
+    .accesskey = c
 openpgp-key-man-file-menu =
     .label = Datoteca
     .accesskey = D
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Copiar las clavs publicas en l'archiv provisoric
         }
     .accesskey = p
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Exportar las clav en ina datoteca
 openpgp-key-man-ctx-copy =
     .label = Copiar
     .accesskey = C
@@ -390,6 +391,9 @@ window-locked = La fanestra da rediger è bloccada; spediziun annullada
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Interrut
 keyserver-error-unknown = Ina errur nunenconuschenta è succedida
 keyserver-error-server-error = Il server da clavs ha annunzià ina errur.
@@ -401,6 +405,9 @@ keyserver-error-unsupported = Il server da clavs na vegn betg sustegnì.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Tes purschider dad e-mail ha elavurà tia dumonda da transferir tia clav publica en il OpenPGP Web Key Directory.
     Conferma per plaschair per cumplettar la publicaziun da tia clav publica.
@@ -410,6 +417,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -418,6 +428,9 @@ converter-decrypt-body-failed =
     Vuls ti empruvar anc ina giada cun in'autra frasa-clav u sursiglir il messadi?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Ti stos tscherner in ordinatur da destinaziun.
 filter-decrypt-move-warn-experimental =
@@ -435,6 +448,9 @@ filter-warn-key-not-secret =
     Sche ti na possedas betg la clav secreta per «{ $desc }», na vegns ti betg pli a pudair leger ils e-mails.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Decriptar permanent (OpenPGP)
 filter-decrypt-copy-label = Crear ina copia decriptada (OpenPGP)
@@ -509,6 +525,12 @@ openpgp-export-secret-fail = <b>Impussibel dad exportar la clav secreta tscherni
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = La clav { $userId } (ID da clav { $keyId }) è vegnida revocada.
 key-ring-pub-key-expired = La clav { $userId } (ID da clav { $keyId }) è scadida.
 key-ring-no-secret-key = I para che ti n'hajas betg la clav secreta per { $userId } (ID da clav { $keyId }) en tes rintg da clavs; ti na pos betg utilisar la clav per signar.
@@ -521,10 +543,16 @@ key-ring-enc-sub-keys-expired = Tut las sutclavs da criptadi da la clav { $userI
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Foto
 user-att-photo = Attribut utilisader (maletg JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Questa clav è gia vegnida revocada.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -548,6 +576,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Importar
 delete-key-title = Stizzar la clav OpenPGP
 delete-external-key-title = Allontanar la clav externa GnuPG
@@ -557,6 +588,9 @@ delete-key-in-use-description = Impussibel da cuntinuar! La clav che ti has tsch
 revoke-key-in-use-description = Impussibel da cuntinuar! La clav che ti has tschernì per la revocaziun vegn actualmain utilisada da questa identitad. Tscherna in'autra clav u na tscherna nagina ed emprova anc ina giada.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -568,18 +602,30 @@ key-error-not-accepted-as-personal = Ti n'has betg confermà che la clav cun l'I
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = La funcziunalitad tschernida na stat betg da disposiziun en il modus offline. Ta connectescha cun l'internet ed emprova anc ina giada.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Nus n'avain betg chattà ina clav utilisabla che correspunda als criteris da tschertga inditgads.
 no-update-found = Ti has gia las clavs ch'èn vegnidas chattadas online.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
 fail-key-extract = Errur – il cumond d'extracziun da la clav n'è betg reussì
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Errur – recepziun da clav annullada da l'utilisader
 not-first-block = Errur – l'emprim bloc OpenPGP n'è betg in bloc da la clav publica
@@ -592,6 +638,9 @@ no-pgp-block = Errur – Chattà nagin bloc da datas OpenPGP armored valid
 confirm-permissive-import = L'import n'è betg reussi. La clav che ti emprovas dad importar è eventualmain donnegiada u ch'ella utilisescha attributs nunenconuschents. Vuls ti empruvar dad importar las parts correctas? Quai po avair per consequenza che las clavs importadas èn nuncumplettas e betg utilisablas.
 
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = nunenconuschenta
 key-valid-invalid = nunvalida
@@ -713,6 +762,9 @@ cannot-send-enc-because-no-own-key = Impussibel da trametter quest messadi sco m
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -734,15 +786,17 @@ attachment-pgp-key =
     Cliccar sin «Importar» per importar las clavs cuntegnidas u «Mussar» per mussar il cuntegn da la datoteca en ina fanestra dal navigatur
 dlg-button-view = &Mussar
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Messadi decriptà (restauraziun dad in format d'e-mail PGP donnegià, probablamain chaschunà dad in vegl Exchange server – il format n'è eventualmain betg cumplettamain legibel)
-
 ## Strings used in encryption.jsm
+
+
+## Strings used in encryption.sys.mjs
 
 not-required = Errur – nagin criptadi necessari
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Nagina foto disponibla
 # Variables:
@@ -761,6 +815,9 @@ repeat-suffix-singular = giada.
 repeat-suffix-plural = giadas.
 no-repeat = Quest avertiment na vegn betg pli mussà.
 dlg-keep-setting = Tegnair endament mia resposta e betg pli ma dumandar
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Serrar
 dlg-button-cancel = &Interrumper
@@ -771,6 +828,9 @@ enig-alert = Avertiment OpenPGP
 enig-info = Infurmaziun OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Reempruvar
 dlg-button-skip = &Sursiglir
