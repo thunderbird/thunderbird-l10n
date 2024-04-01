@@ -501,5 +501,20 @@ apply-current-view-to-folder-message = Käytetäänkö nykyisen kansion näkymä
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Asetetaanko nykyisen kansion näkymä kansioon { $name } ja sen alikansioille?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> lukematon <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> viestistä
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> lukematonta<span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> viestistä
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> viesti
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> viestiä
+    }
 threadpane-card-menu-button =
     .title = Viestivalikko
