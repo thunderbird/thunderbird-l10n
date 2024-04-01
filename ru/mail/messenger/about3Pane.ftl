@@ -507,5 +507,22 @@ apply-current-view-to-folder-message = Применить вид текущей 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Применить вид текущей папки к { $name } и вложенным в неё папкам?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочитанное из <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> сообщений
+        [few] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочитанных из <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> сообщений
+       *[many] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочитанных из <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> сообщений
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> сообщение
+        [few] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> сообщения
+       *[many] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> сообщений
+    }
 threadpane-card-menu-button =
     .title = Меню сообщений
