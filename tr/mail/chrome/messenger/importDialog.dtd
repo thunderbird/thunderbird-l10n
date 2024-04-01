@@ -27,7 +27,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY importTitle.label        "&brandShortName; İçe Aktarma Sihirbazı">
 <!ENTITY importShortDesc.label    "Diğer uygulamalardan iletileri, adres defterlerini, ayarları ve süzgeçleri içe aktar">
 
-<!ENTITY importDescription1.label "Bu sihirbaz; diğer e-posta programlarındaki ve sık kullanılan adres defteri biçimlerindeki posta iletilerini, adres defteri kayıtlarını, tercihleri ve/veya süzgeçleri &brandShortName; içine alacaktır.">
+<!ENTITY importDescription1.label "Bu sihirbaz, diğer e-posta programlarındaki ve sık kullanılan adres defteri biçimlerindeki posta iletilerini, adres defteri kayıtlarını, besleme aboneliklerini, tercihleri ve/veya süzgeçleri &brandShortName; uygulamasına aktaracaktır.">
 <!ENTITY importDescription2.label "İçe aktarılan kayıtlara daha sonra &brandShortName; içinden erişebileceksiniz.">
 
 <!ENTITY selectDescription.label  "İçe aktarmak istediğiniz dosya türünü seçin:">
