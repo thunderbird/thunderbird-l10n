@@ -129,6 +129,9 @@ appmenu-addons-and-themes =
 
 context-menu-redirect-msg =
     .label = Omdiriger
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Avbryt melding
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -144,6 +147,9 @@ other-action-redirect-msg =
     .label = Omdiriger
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Innstillingar for meldingshovud
 message-header-customize-button-style =
@@ -239,7 +245,7 @@ quick-filter-bar-toggle =
     .label = Filterverktøylinje
     .accesskey = F
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

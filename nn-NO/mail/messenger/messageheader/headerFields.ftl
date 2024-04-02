@@ -6,14 +6,14 @@
 ## Header lists
 
 message-header-to-list-name = Til
-
 message-header-from-list-name = Frå
-
 message-header-sender-list-name = Avsendar
-
 message-header-reply-to-list-name = Svar til
-
+message-header-cc-list-name = Kopi
+message-header-bcc-list-name = Blindkopi
 message-header-newsgroups-list-name = Nyheitsgrupper
+message-header-followup-to-list-name = Oppfølging
+message-header-tags-list-name = Etikettar
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -23,17 +23,12 @@ message-header-newsgroups-list-name = Nyheitsgrupper
 
 message-header-address-in-address-book-icon2 =
     .alt = I adresseboka
-
 message-header-address-not-in-address-book-icon2 =
     .alt = Ikkje i adresseboka
-
 message-header-address-not-in-address-book-button =
     .title = Lagre denne adressa i adresseboka
-
 message-header-address-in-address-book-button =
     .title = Rediger kontakt
-
 message-header-field-show-more = Meir
     .title = Vis alle mottakarar
-
 message-ids-field-show-all = Vis alle

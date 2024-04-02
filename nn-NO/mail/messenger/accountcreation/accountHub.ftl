@@ -26,3 +26,12 @@ account-hub-email-cancel-button = Avbryt
 account-hub-email-back-button = Tilbake
 account-hub-email-continue-button = Hald fram
 account-hub-email-confirm-button = Stadfest
+account-hub-hostname-label = Vertsnamn
+
+## Incoming/Outgoing SSL Authentication options
+
+
+## Incoming/Outgoing SSL options
+
+account-hub-notification-show-more = Vis meir
+account-hub-notification-show-less = Vis mindre
