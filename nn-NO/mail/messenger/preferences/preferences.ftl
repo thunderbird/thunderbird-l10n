@@ -199,6 +199,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Vis alltid rullefelt
     .accesskey = s
+window-layout-legend = Vindaugsoppsett
 system-integration-legend = Systemintegrasjon
 always-check-default =
     .label = Alltid kontroller om { -brand-short-name } er standard e-postklient ved oppstart
@@ -707,6 +708,8 @@ search-results-help-link = Treng du hjelp? Gå til <a data-l10n-name="url">{ -br
 
 ## Sync Tab
 
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Logg inn for å synkronisere…
 sync-pane-header = Synkronisering
 sync-pane-sign-in = Logg inn
 sync-pane-remove-account = Fjern kontoen

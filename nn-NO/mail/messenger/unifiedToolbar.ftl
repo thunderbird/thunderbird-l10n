@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Søk
+search-bar-item =
+    .label = Søk:
+search-bar-placeholder = Søk…
 
 ## Unified toolbar context menu
 
@@ -34,11 +39,18 @@ customize-space-tab-chat = Nettprat
     .title = Nettprat
 customize-space-tab-settings = Innstillingar
     .title = Innstillingar
+customize-change-appearance = Endre utsjånad…
 customize-button-style-label = Knappestil:
 customize-button-style-icons-beside-text-option = Ikon ved sida av teksten
 customize-button-style-icons-above-text-option = Ikon over tekst
 customize-button-style-icons-only-option = Berre ikon
 customize-button-style-text-only-option = Berre tekst
+customize-cancel = Avbryt
+customize-save = Lagre
+customize-spaces-tabs =
+    .aria-label = Mellomrom
+customize-main-toolbar-target =
+    .aria-label = Hovudvberktøylinje
 
 ## Unified toolbar customization palette context menu
 

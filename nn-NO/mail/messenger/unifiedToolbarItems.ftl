@@ -16,6 +16,8 @@ toolbar-unifinder-label = Finn hendingar
 toolbar-unifinder =
     .title = Slå søk i hendingar av eller på
 toolbar-folder-location-label = Mappeplassering
+toolbar-folder-location =
+    .title = Byt til mappe
 toolbar-edit-event-label = Rediger
 toolbar-edit-event =
     .title = Rediger vald hending eller oppgåve
@@ -75,6 +77,8 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Merk
 toolbar-mark-as =
     .title = Merk meldingar
+toolbar-view-picker-label = Vis
+toolbar-address-book-label = Adressebok
 toolbar-address-book =
     .title = Opne adresseboka
 toolbar-chat-label = Nettprat
@@ -89,6 +93,7 @@ toolbar-calendar =
 toolbar-tasks-label = Oppgåver
 toolbar-tasks =
     .title = Byt til oppgåvefana
+toolbar-mail-label = E-post
 toolbar-print-label = Skriv ut
 toolbar-print =
     .title = Skriv ut denne meldinga
@@ -125,3 +130,10 @@ toolbar-stop =
 toolbar-throbber-label = Aktivitetsindikator
 toolbar-throbber =
     .title = Aktivitetsindikator
+toolbar-create-contact-label = Ny kontakt
+toolbar-create-address-book-label = Ny adressebok
+toolbar-create-list-label = Ny liste
+toolbar-import-contacts-label = Importer
+
+## New Address Book popup items
+

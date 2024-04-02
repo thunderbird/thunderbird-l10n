@@ -4,6 +4,7 @@
 
 cookies-window-dialog2 =
     .title = Infokapslar
+cookies-dialog-title = Infokapslar
 window-close-key =
     .key = w
 window-focus-search-key =
