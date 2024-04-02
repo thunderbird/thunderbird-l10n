@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Handtekening verifiëren
     .accesskey = v
 openpgp-has-sender-key = Dit bericht beweert de publieke OpenPGP-sleutel van de afzender te bevatten.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Waarschuwing: de nieuwe publieke OpenPGP-sleutel in dit bericht verschilt van de publieke sleutels die u eerder voor { $email } hebt geaccepteerd.
 openpgp-import-sender-key =
     .label = Importeren…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Even geduld…
 openpgp-has-nested-encrypted-parts = Dit bericht bevat extra versleutelde delen.
 openpgp-show-encrypted-parts = Ontsleutelen en tonen
+openpgp-has-nested-signed-parts = Sommige delen van dit bericht zijn mogelijk digitaal ondertekend.
+openpgp-show-signed-parts = Openen en tonen
 openpgp-cannot-decrypt-because-mdc =
     Dit is een versleuteld bericht dat gebruik maakt van een oud en kwetsbaar mechanisme.
     Het kan tijdens de overdracht zijn gewijzigd met de bedoeling de inhoud te stelen.

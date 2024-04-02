@@ -501,5 +501,20 @@ apply-current-view-to-folder-message = De weergave van de huidige map toepassen 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = De weergave van de huidige map toepassen op { $name } en de submappen?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> ongelezen van <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> bericht
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> ongelezen van <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> berichten
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> bericht
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> berichten
+    }
 threadpane-card-menu-button =
     .title = Berichtenmenu
