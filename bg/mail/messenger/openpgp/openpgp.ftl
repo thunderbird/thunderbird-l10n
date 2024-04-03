@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = У
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Генериране и запазване на сертификат за анулиране
+openpgp-key-man-gen-revocation =
+    .label = Запазване на сертификата за анулиране във файл
+    .accesskey = а
 openpgp-key-man-file-menu =
     .label = Файл
     .accesskey = Ф
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Копиране на публични ключове в системния буфер
         }
     .accesskey = ч
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Изнасяне на ключовете във файл
 openpgp-key-man-ctx-copy =
     .label = Копиране
     .accesskey = К
@@ -390,6 +391,9 @@ window-locked = Прозорецът за ново съобщение е зак�
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Прекратено
 keyserver-error-unknown = Възникна неизвестна грешка
 keyserver-error-server-error = Ключовият сървър докладва за грешка.
@@ -401,6 +405,9 @@ keyserver-error-unsupported = Ключовият сървър не се подд
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Вашият доставчик на електронна поща обработи заявката ви за качване на вашия публичен ключ в уеб каталога на OpenPGP.
     Моля, потвърдете, за да завършите публикуването на вашия публичен ключ.
@@ -410,6 +417,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -418,6 +428,9 @@ converter-decrypt-body-failed =
     Искате ли да опитате отново с друга парола или искате да пропуснете съобщението?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Трябва да изберете целева папка.
 filter-decrypt-move-warn-experimental =
@@ -435,6 +448,9 @@ filter-warn-key-not-secret =
     Ако нямате секретния ключ за „{ $desc }“, вече няма да можете да четете имейлите.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Дешифроване за постоянно (OpenPGP)
 filter-decrypt-copy-label = Създаване на дешифровано копие (OpenPGP)
@@ -509,6 +525,12 @@ openpgp-export-secret-fail = <b>Невъзможност за изнасяне �
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Ключът { $userId } (ID на ключ { $keyId }) е отменен.
 key-ring-pub-key-expired = Ключът { $userId } (ID на ключ { $keyId }) е изтекъл.
 key-ring-no-secret-key = Изглежда нямате секретния ключ за { $userId } (идентификатор на ключ { $keyId }) във вашия ключодържател; не можете да използвате ключа за подписване.
@@ -521,10 +543,16 @@ key-ring-enc-sub-keys-expired = Всички подключове за шифр�
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Снимка
 user-att-photo = Потребителски атрибут (JPEG изображение)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Този ключ вече е отменен.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -548,6 +576,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Внасяне
 delete-key-title = Изтриване на OpenPGP ключ
 delete-external-key-title = Премахване на външен GnuPG ключ
@@ -557,6 +588,9 @@ delete-key-in-use-description = Не може да се продължи! Клю
 revoke-key-in-use-description = Не може да се продължи! Ключът, който сте избрали за анулиране, в момента се използва от тази самоличност. Изберете друг ключ или изберете нито един и опитайте отново.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -568,18 +602,30 @@ key-error-not-accepted-as-personal = Не сте потвърдили, че кл
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Функцията, която сте избрали, не е налична в офлайн режим. Моля, влезте онлайн и опитайте отново.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Не успяхме да намерим използваем ключ, отговарящ на посочените критерии за търсене.
 no-update-found = Вече имате ключовете, които бяха открити онлайн.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
 fail-key-extract = Грешка - командата за извличане на ключ е неуспешна
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Грешка - Получаването на ключ е отменено от потребителя
 not-first-block = Грешка - Първият OpenPGP блок не е с публичен ключ
@@ -592,6 +638,9 @@ no-pgp-block = Грешка - Не е намерен валиден OpenPGP бл
 confirm-permissive-import = Неуспешно внасяне. Ключът, който се опитвате да внесете, може да е повреден или да използва неизвестни атрибути. Искате ли да опитате да внесете  частите, които са правилни? Това може да доведе до внасяне на непълни и неизползваеми ключове.
 
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = неизвестен
 key-valid-invalid = Невалиден
@@ -713,6 +762,9 @@ cannot-send-enc-because-no-own-key = Това съобщение не може �
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -734,15 +786,17 @@ attachment-pgp-key =
     Щракнете върху „Внасяне“, за да внесете съдържащите се в него ключове, или върху „Преглед“, за да видите съдържанието на файла
 dlg-button-view = &Преглед
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Дешифровано съобщение (възстановен повреден PGP имейл формат, вероятно причинен от стар Exchange сървър. Резултатът може да не е идеален за четене)
-
 ## Strings used in encryption.jsm
+
+
+## Strings used in encryption.sys.mjs
 
 not-required = Грешка - не е необходимо шифроване
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Няма налична снимка
 # Variables:
@@ -761,6 +815,9 @@ repeat-suffix-singular = повече време.
 repeat-suffix-plural = повече пъти.
 no-repeat = Това предупреждение няма да се показва отново.
 dlg-keep-setting = Запомнете отговора ми и не ме питайте отново
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &Добре
 dlg-button-close = &Затваряне
 dlg-button-cancel = &Отказ
@@ -771,6 +828,9 @@ enig-alert = Сигнал за OpenPGP
 enig-info = Информация за OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Повторен опит
 dlg-button-skip = &Пропускане
