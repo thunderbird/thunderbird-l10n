@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Hantekening ferifiearje
     .accesskey = f
 openpgp-has-sender-key = Dit berjocht beweart de iepenbiere OpenPGP-kaai fan de ôfstjoerder te befetten.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Warskôging: de nije iepenbiere OpenPGP-kaai yn dit berjocht ferskilt fan de iepenbiere kaaien dy’t jo earder foar { $email } akseptearre hawwe.
 openpgp-import-sender-key =
     .label = Ymportearje…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Ien momint…
 openpgp-has-nested-encrypted-parts = Dit berjocht befettet ekstra fersifere ûnderdielen.
 openpgp-show-encrypted-parts = Untsiferje en toane
+openpgp-has-nested-signed-parts = Guon dielen fan dit berjocht binne mooglik digitaal ûndertekene.
+openpgp-show-signed-parts = Iepenje en toane
 openpgp-cannot-decrypt-because-mdc =
     Dit is in fersifere berjocht dat gebrûk makket fan in âld en kwetsber meganisme.
     It kin wylst de oerdracht wizige wêze mei de bedoeling de ynhâld te stellen.

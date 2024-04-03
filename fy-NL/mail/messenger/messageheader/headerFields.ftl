@@ -50,6 +50,7 @@ message-header-list-subscribe-field = List-Abonnearje<span data-l10n-name="field
 message-header-list-post-field = List-Berjocht<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = List-Eigner<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = List-Argyf<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Argivearre-Op<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Help krije
