@@ -26,4 +26,4 @@
 
 <!-- LOCALIZATION NOTE(glodaFacetView.results.message.openEmailAsList.tooltip):
      The tooltip to display when hovering over the openEmailAsList label. -->
-<!ENTITY glodaFacetView.openEmailAsList.tooltip "Vis alle e-postane i det aktive utvalet i ei ny fane">
+<!ENTITY glodaFacetView.openEmailAsList.tooltip "Vis alle e-postane i det verksame utvalet i ei ny fane">
