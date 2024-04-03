@@ -501,3 +501,20 @@ apply-current-view-to-folder-message = Прилагане на изгледа н
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Прилагане на изгледа на текущата папка към { $name } и подпапките ѝ?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочетено от <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> съобщение
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочетени от <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> съобщения
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> съобщение
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> съобщения
+    }
+threadpane-card-menu-button =
+    .title = Меню за съобщения
