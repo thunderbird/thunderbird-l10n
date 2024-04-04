@@ -187,6 +187,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = 標示為已讀
+    .tooltiptext = 標示為已讀
+context-menu-mark-unread =
+    .aria-label = 標示為未讀
+    .tooltiptext = 標示為未讀
+context-menu-mark-reply =
+    .aria-label = 回覆
+    .tooltiptext = 回覆
+context-menu-archive =
+    .aria-label = 備存
+    .tooltiptext = 備存
+context-menu-mark-junk =
+    .aria-label = 標示為垃圾信
+    .tooltiptext = 標示為垃圾信
+mail-context-menu-open =
+    .label = 開啟
+    .accesskey = O
+mail-context-menu-reply =
+    .label = 回覆
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = 轉寄並重新導向
+    .accesskey = F
+mail-context-menu-organize =
+    .label = 管理
+    .accesskey = g
+mail-context-menu-threads =
+    .label = 討論串
+    .accesskey = T
 context-menu-redirect-msg =
     .label = 重導
 # This menu item is for canceling an NNTP message
@@ -208,6 +238,22 @@ mail-context-undelete-messages =
             [one] 救回郵件
            *[other] 救回選擇的郵件
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+           *[other] 刪除選擇的郵件
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+           *[other] 救回選擇的郵件
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = 於…建立解密副本
     .accesskey = y
@@ -225,6 +271,9 @@ message-header-recipient-avatar =
     .alt = { $address } 的個人資料照片。
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = 訊息標題設定
 message-header-customize-button-style =
@@ -390,7 +439,7 @@ quick-filter-bar-toggle =
     .label = 快速篩選列
     .accesskey = Q
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
