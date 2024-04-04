@@ -504,17 +504,20 @@ apply-current-view-to-folder-with-children-message = ¿Aplicar la vista de la ca
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> no leídos de <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> mensaje
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> no leídos de <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> mensajes
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one] <span> 1 </span> no leído
+       *[other] <span> { $unread }</span> no leído
+    }{ " " }{ $total ->
+        [one] de <span> 1 </span>
+       *[other] de <span> { $total }</span> mensajes
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> mensaje
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> mensaje
+        [one] <span> 1 </span>
+       *[other] <span> { $total }</span> mensajes
     }
 threadpane-card-menu-button =
     .title = Menú de mensajes
