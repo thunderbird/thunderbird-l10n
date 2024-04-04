@@ -17,6 +17,7 @@ sync-verification-not-sent-body = We are unable to send a verification mail at t
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Sign out of account?
 sync-signout-dialog-body = Synced data will remain in your account.
 sync-signout-dialog-button = Sign out
 
