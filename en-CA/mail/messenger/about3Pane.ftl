@@ -116,6 +116,23 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filter these messages <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search =
+    .label = Filter messages:
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Filter messages… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Search everywhere
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Tag filtering mode
@@ -217,43 +234,76 @@ threadpane-column-header-deselect-all =
     .title = Deselect all messages
 threadpane-column-label-select =
     .label = Select Messages
+threadpane-cell-select =
+    .aria-label = Select message
 threadpane-column-header-thread =
     .title = Toggle message threads
 threadpane-column-label-thread =
     .label = Thread
+threadpane-cell-thread =
+    .aria-label = Thread status
 threadpane-column-header-flagged =
     .title = Sort by star
 threadpane-column-label-flagged =
     .label = Starred
+threadpane-cell-flagged =
+    .aria-label = Starred
 threadpane-flagged-cell-label = Starred
 threadpane-column-header-attachments =
     .title = Sort by attachments
 threadpane-column-label-attachments =
     .label = Attachments
+threadpane-cell-attachments =
+    .aria-label = Attachments
 threadpane-attachments-cell-label = Attachments
 threadpane-column-header-spam =
     .title = Sort by spam status
 threadpane-column-label-spam =
     .label = Spam
+threadpane-cell-spam =
+    .aria-label = Spam status
 threadpane-spam-cell-label = Spam
 threadpane-column-header-unread-button =
     .title = Sort by read status
 threadpane-column-label-unread-button =
     .label = Read status
+threadpane-cell-read-status =
+    .aria-label = Read status
 threadpane-read-cell-label = Read
 threadpane-unread-cell-label = Unread
 threadpane-column-header-sender = From
     .title = Sort by from
 threadpane-column-label-sender =
     .label = From
+threadpane-cell-sender =
+    .aria-label = From
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = From
+    .title = { $title }
 threadpane-column-header-recipient = Recipient
     .title = Sort by recipient
 threadpane-column-label-recipient =
     .label = Recipient
+threadpane-cell-recipient =
+    .aria-label = Recipient
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Recipient
+    .title = { $title }
 threadpane-column-header-correspondents = Correspondents
     .title = Sort by correspondents
 threadpane-column-label-correspondents =
     .label = Correspondents
+threadpane-cell-correspondents =
+    .aria-label = Correspondents
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Correspondents
+    .title = { $title }
 threadpane-column-header-subject = Subject
     .title = Sort by subject
 threadpane-column-label-subject =
