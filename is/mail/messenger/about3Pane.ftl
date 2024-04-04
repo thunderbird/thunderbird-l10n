@@ -504,17 +504,25 @@ apply-current-view-to-folder-with-children-message = Viltu nota sýn núverandi 
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> ólesið af <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> skilaboðum
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> ólesin af <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> skilaboðum
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>{ $unread }</span> ólesið af <span>{ $total }</span> skilaboðum
+               *[other] <span>{ $unread }</span> ólesið af <span>{ $total }</span> skilaboðum
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> ólesin af <span>{ $total }</span> skilaboðum
+               *[other] <span>{ $unread }</span> ólesin af <span>{ $total }</span> skilaboðum
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> skilaboð
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> skilaboð
+        [one] <span>1</span> skilaboð
+       *[other] <span>{ $total }</span> skilaboð
     }
 threadpane-card-menu-button =
     .title = Skilaboðavalmynd

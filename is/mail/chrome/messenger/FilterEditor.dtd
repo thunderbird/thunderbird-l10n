@@ -24,7 +24,7 @@
 <!ENTITY contextAfterCls.label "Sía eftir ruslpóstflokkun">
 <!ENTITY contextOutgoing.label "Eftir að sent er">
 <!ENTITY contextOutgoing.accesskey "s">
-<!ENTITY contextArchive.label "Setja í safn">
+<!ENTITY contextArchive.label "Setja í skjalageymslu">
 <!ENTITY contextArchive.accesskey "a">
 <!ENTITY contextPeriodic.accesskey "e">
 

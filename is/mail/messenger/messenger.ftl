@@ -188,6 +188,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Merkja sem lesið
+    .tooltiptext = Merkja sem lesið
+context-menu-mark-unread =
+    .aria-label = Merkja sem ólesið
+    .tooltiptext = Merkja sem ólesið
+context-menu-mark-reply =
+    .aria-label = Svara
+    .tooltiptext = Svara
+context-menu-archive =
+    .aria-label = Skjalageymsla
+    .tooltiptext = Skjalageymsla
+context-menu-mark-junk =
+    .aria-label = Merkja sem rusl
+    .tooltiptext = Merkja sem rusl
+mail-context-menu-open =
+    .label = Opna
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Svara
+    .accesskey = r
+mail-context-menu-forward-redirect =
+    .label = Áframsenda og endurbeina
+    .accesskey = f
+mail-context-menu-organize =
+    .label = Skipuleggja
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Umræður
+    .accesskey = m
 context-menu-redirect-msg =
     .label = Endurbeina
 # This menu item is for canceling an NNTP message
@@ -209,6 +239,24 @@ mail-context-undelete-messages =
             [one] Endurheimta póst
            *[other] Endurheimta valinn póst
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Eyða skilaboðum
+           *[other] Eyða völdum skilaboðum
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Afturkalla eyðingu á skilaboðum
+           *[other] Afturkalla eyðingu á völdum skilaboðum
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Búa til afkóðað afrit í
     .accesskey = B
@@ -226,6 +274,9 @@ message-header-recipient-avatar =
     .alt = Auðkennismynd af { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Stillingar á skilaboðahaus
 message-header-customize-button-style =
@@ -393,7 +444,7 @@ quick-filter-bar-toggle =
     .label = Flýtisíuslá
     .accesskey = F
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
