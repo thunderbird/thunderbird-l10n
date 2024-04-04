@@ -194,6 +194,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Jako přečitany markěrować
+    .tooltiptext = Jako přečitany markěrować
+context-menu-mark-unread =
+    .aria-label = Jako njepřečitany markěrować
+    .tooltiptext = Jako njepřečitany markěrować
+context-menu-mark-reply =
+    .aria-label = Wotmołwić
+    .tooltiptext = Wotmołwić
+context-menu-archive =
+    .aria-label = Archiwować
+    .tooltiptext = Archiwować
+context-menu-mark-junk =
+    .aria-label = Jako čapor markěrować
+    .tooltiptext = Jako čapor markěrować
+mail-context-menu-open =
+    .label = Wočinić
+    .accesskey = o
+mail-context-menu-reply =
+    .label = Wotmołwić
+    .accesskey = m
+mail-context-menu-forward-redirect =
+    .label = Dale posrědkować a přerjadować
+    .accesskey = D
+mail-context-menu-organize =
+    .label = Organizować
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Nitki
+    .accesskey = N
 context-menu-redirect-msg =
     .label = Hinak wodźić
 # This menu item is for canceling an NNTP message
@@ -219,6 +249,28 @@ mail-context-undelete-messages =
             [few] { $count } powěsće wobnowić
            *[other] { $count } wubrane powěsće wobnowić
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] { $count } wubranu powěsć zhašeć
+            [two] { $count } wubranej powěsći zhašeć
+            [few] { $count } wubrane powěsće zhašeć
+           *[other] { $count } wubranych powěsćow zhašeć
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] { $count } wubranu powěsć wobnowić
+            [two] { $count } wubranej powěsći wobnowić
+            [few] { $count } wubrane powěsće wobnowić
+           *[other] { $count } wubranych powěsćow wobnowić
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Zaklučowanu kopiju wutworić w
     .accesskey = k
