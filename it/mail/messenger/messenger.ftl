@@ -188,6 +188,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Segna come letto
+    .tooltiptext = Segna come letto
+context-menu-mark-unread =
+    .aria-label = Segna come non letto
+    .tooltiptext = Segna come non letto
+context-menu-mark-reply =
+    .aria-label = Rispondi
+    .tooltiptext = Rispondi
+context-menu-archive =
+    .aria-label = Archivia
+    .tooltiptext = Archivia
+context-menu-mark-junk =
+    .aria-label = Segna come posta indesiderata
+    .tooltiptext = Segna come posta indesiderata
+mail-context-menu-open =
+    .label = Apri
+    .accesskey = A
+mail-context-menu-reply =
+    .label = Rispondi
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = Inoltra e reindirizza
+    .accesskey = I
+mail-context-menu-organize =
+    .label = Organizza
+    .accesskey = O
+mail-context-menu-threads =
+    .label = Thread
+    .accesskey = T
 context-menu-redirect-msg =
     .label = Reindirizza
 # This menu item is for canceling an NNTP message
@@ -209,6 +239,24 @@ mail-context-undelete-messages =
             [one] Ripristina messaggio
            *[other] Ripristina messaggi selezionati
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Elimina messaggio
+           *[other] Elimina messaggi selezionati
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Ripristina messaggio
+           *[other] Ripristina messaggi selezionati
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Crea copia decrittata in
     .accesskey = d
@@ -226,6 +274,9 @@ message-header-recipient-avatar =
     .alt = Immagine del profilo per { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Impostazioni intestazione del messaggio
 message-header-customize-button-style =
@@ -393,7 +444,7 @@ quick-filter-bar-toggle =
     .label = Barra filtro veloce
     .accesskey = f
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
