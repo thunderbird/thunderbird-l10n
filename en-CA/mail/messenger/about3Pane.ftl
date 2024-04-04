@@ -515,3 +515,5 @@ threadpane-sort-header =
         [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> message
        *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> messages
     }
+threadpane-card-menu-button =
+    .title = Message menu

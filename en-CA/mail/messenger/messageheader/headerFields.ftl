@@ -6,45 +6,46 @@
 ## Header lists
 
 message-header-to-list-name = To
-
 message-header-from-list-name = From
-
 message-header-sender-list-name = Sender
-
 message-header-reply-to-list-name = Reply to
-
 message-header-cc-list-name = Cc
-
 message-header-bcc-list-name = Bcc
-
 message-header-newsgroups-list-name = Newsgroups
-
+message-header-followup-to-list-name = Followup to
 message-header-tags-list-name = Tags
+# List management header - RFC 2369.
+message-header-list-id = List-ID
+# List management header - RFC 2369.
+message-header-list-help = List-Help
+# List management header - RFC 2369.
+message-header-list-unsubscribe = List-Unsubscribe
+# List management header - RFC 2369.
+message-header-list-subscribe = List-Subscribe
+# List management header - RFC 2369.
+message-header-list-post = List-Post
+# List management header - RFC 2369.
+message-header-list-owner = List-Owner
+# List management header - RFC 2369.
+message-header-list-archive = List-Archive
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Archived-At
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
 
 message-header-author-field = Author<span data-l10n-name="field-separator">:</span>
-
 message-header-organization-field = Organization<span data-l10n-name="field-separator">:</span>
-
 message-header-subject-field = Subject<span data-l10n-name="field-separator">:</span>
-
-message-header-followup-to-field = Followup to<span data-l10n-name="field-separator">:</span>
-
-
 message-header-date-field = Date<span data-l10n-name="field-separator">:</span>
-
 message-header-user-agent-field = User agent<span data-l10n-name="field-separator">:</span>
-
 message-header-references-field = References<span data-l10n-name="field-separator">:</span>
-
 message-header-message-id-field = Message ID<span data-l10n-name="field-separator">:</span>
-
 message-header-in-reply-to-field = In reply to<span data-l10n-name="field-separator">:</span>
-
 message-header-website-field = Website<span data-l10n-name="field-separator">:</span>
-
+message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = List-Unsubscribe<span data-l10n-name="field-separator">:</span>
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
@@ -55,17 +56,12 @@ message-header-custom-field = { $fieldName }<span data-l10n-name="field-separato
 
 message-header-address-in-address-book-icon2 =
     .alt = In the Address Book
-
 message-header-address-not-in-address-book-icon2 =
     .alt = Not in the Address Book
-
 message-header-address-not-in-address-book-button =
     .title = Save this address in the Address Book
-
 message-header-address-in-address-book-button =
     .title = Edit contact
-
 message-header-field-show-more = More
     .title = Show all recipients
-
 message-ids-field-show-all = Show all
