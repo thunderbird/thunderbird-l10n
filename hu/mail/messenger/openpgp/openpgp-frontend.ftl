@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Aláírás ellenőrzése
     .accesskey = e
 openpgp-has-sender-key = Ez az üzenet állítja, hogy tartalmazza a feladó OpenPGP nyilvános kulcsát.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Figyelmeztetés: Az üzenetben szereplő új OpenPGP nyilvános kulcs eltér a(z) { $email } címhez előzőleg elfogadott nyilvános kulcsoktól.
 openpgp-import-sender-key =
     .label = Importálás…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Kis türelmet…
 openpgp-has-nested-encrypted-parts = Ez az üzenet további titkosított részeket tartalmaz.
 openpgp-show-encrypted-parts = Visszafejtés és megjelenítése
+openpgp-has-nested-signed-parts = Az üzenet egyes részei digitálisan aláírtak lehetnek.
+openpgp-show-signed-parts = Megnyitás és megjelenítés
 openpgp-cannot-decrypt-because-mdc =
     Ez egy titkosított üzenet, amely régi és sérülékeny mechanizmusokat használ.
     Az is lehet, hogy továbbítás során módosítva lett, a tartalma ellopása céljából.

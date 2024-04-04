@@ -501,5 +501,20 @@ apply-current-view-to-folder-message = Alkalmazza a jelenlegi mappa nézetét a(
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Alkalmazza az aktuális mappa nézetét a(z) { $name } mappára és a gyermekeire?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> olvasatlan / <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> üzenetből
+       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> olvasatlan / <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> üzenetből
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header =
+    { $total ->
+        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> üzenet
+       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> üzenet
+    }
 threadpane-card-menu-button =
     .title = Üzenet menü
