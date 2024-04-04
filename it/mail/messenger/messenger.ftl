@@ -216,8 +216,8 @@ mail-context-menu-organize =
     .label = Organizza
     .accesskey = O
 mail-context-menu-threads =
-    .label = Thread
-    .accesskey = T
+    .label = Discussioni
+    .accesskey = D
 context-menu-redirect-msg =
     .label = Reindirizza
 # This menu item is for canceling an NNTP message

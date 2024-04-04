@@ -506,11 +506,8 @@ apply-current-view-to-folder-with-children-message = Utilizzare la visualizzazio
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-unread-count =
     { $unread ->
-        [one] <span>1</span> non letti
-       *[other] <span>{ $unread }</span> non letti
-    }{ " " }{ $total ->
-        [one] di <span>1</span> messaggio
-       *[other] di <span>{ $total }</span> messaggi
+        [one] <span>1</span> messaggio non letto di <span>{ $total }</span>
+       *[other] <span>{ $unread }</span> messaggi non letti  di <span>{ $total }</span>
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
