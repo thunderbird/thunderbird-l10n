@@ -200,6 +200,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Marcio fel wedi ei Darllen
+    .tooltiptext = Marcio fel wedi ei Darllen
+context-menu-mark-unread =
+    .aria-label = Marcio fel Heb ei Darllen
+    .tooltiptext = Marcio fel Heb ei Darllen
+context-menu-mark-reply =
+    .aria-label = Ateb
+    .tooltiptext = Ateb
+context-menu-archive =
+    .aria-label = Archifo
+    .tooltiptext = Archifo
+context-menu-mark-junk =
+    .aria-label = Marciwch fel Sothach
+    .tooltiptext = Marciwch fel Sothach
+mail-context-menu-open =
+    .label = Agor
+    .accesskey = A
+mail-context-menu-reply =
+    .label = Ateb
+    .accesskey = A
+mail-context-menu-forward-redirect =
+    .label = Ymlaen ac Ailgyfeirio
+    .accesskey = Y
+mail-context-menu-organize =
+    .label = Trefnu
+    .accesskey = T
+mail-context-menu-threads =
+    .label = Edafedd
+    .accesskey = E
 context-menu-redirect-msg =
     .label = Ailgyfeirio
 # This menu item is for canceling an NNTP message
@@ -229,6 +259,32 @@ mail-context-undelete-messages =
             [many] Dad-ddileu'r Negeseuon Hyn
            *[other] Dad-ddileu'r Negeseuon Hyn
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [zero] Dileu'r Negeseuon Hyn
+            [one] Dileu Neges
+            [two] Dileu'r Negeseuon Hyn
+            [few] Dileu'r Negeseuon Hyn
+            [many] Dileu'r Negeseuon Hyn
+           *[other] Dileu'r Negeseuon Hyn
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [zero] Dad-ddileu'r Negeseuon Hyn
+            [one] Dad-ddileu Neges
+            [two] Dad-ddileu'r Negeseuon Hyn
+            [few] Dad-ddileu'r Negeseuon Hyn
+            [many] Dad-ddileu'r Negeseuon Hyn
+           *[other] Dad-ddileu'r Negeseuon Hyn
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Creu Copi Wedi'i Ddadgryptio Yn
     .accesskey = D
