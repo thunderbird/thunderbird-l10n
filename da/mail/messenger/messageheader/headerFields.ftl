@@ -14,6 +14,8 @@ message-header-bcc-list-name = Skjult kopi til (Bcc)
 message-header-newsgroups-list-name = Nyhedsgrupper
 message-header-followup-to-list-name = Opfølgning til
 message-header-tags-list-name = Mærkater
+# List management header - RFC 2369.
+message-header-list-id = Liste-ID
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
