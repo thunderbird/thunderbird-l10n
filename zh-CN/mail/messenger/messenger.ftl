@@ -187,6 +187,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-junk =
+    .aria-label = 标记为垃圾邮件
+    .tooltiptext = 标记为垃圾邮件
 context-menu-redirect-msg =
     .label = 重定向
 # This menu item is for canceling an NNTP message
