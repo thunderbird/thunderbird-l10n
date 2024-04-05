@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = T
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Generer & gem tilbagekaldelsescertifikat
+openpgp-key-man-gen-revocation =
+    .label = Gem tilbagekaldelsescertifikat til fil
+    .accesskey = c
 openpgp-key-man-file-menu =
     .label = Fil
     .accesskey = F
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Kopier offentlige nøgler til udklipsholderen
         }
     .accesskey = O
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Eksporter nøgler til fil
 openpgp-key-man-ctx-copy =
     .label = Kopier
     .accesskey = K
@@ -390,6 +391,9 @@ window-locked = Skrivevinduet er låst; afsendelse annulleret
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Afbrudt
 keyserver-error-unknown = Der opstod en ukendt fejl
 keyserver-error-server-error = Nøgleserveren rapporterede en fejl.
@@ -401,6 +405,9 @@ keyserver-error-unsupported = Nøgleserveren understøttes ikke.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Din mailudbyder behandlede din anmodning om at uploade din offentlige nøgle til OpenPGP Web Key Directory.
     Bekræft for at fuldføre udgivelsen af din offentlige nøgle.
@@ -410,6 +417,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -418,6 +428,9 @@ converter-decrypt-body-failed =
     Vil du prøve igen med et andet adgangsudtryk, eller vil du springe meddelelsen over?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Du skal vælge en destinationsmappe.
 filter-decrypt-move-warn-experimental =
@@ -435,6 +448,9 @@ filter-warn-key-not-secret =
     Hvis du ikke har den hemmelige nøgle til '{ $desc }', kan du ikke længere læse disse mails.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Dekrypter permanent (OpenPGP)
 filter-decrypt-copy-label = Opret dekrypteret kopi (OpenPGP)
@@ -509,6 +525,12 @@ openpgp-export-secret-fail = <b>Den valgte hemmelige nøgle kunne ikke eksporter
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Nøglen { $userId } (nøgle-id { $keyId }) er tilbagekaldt.
 key-ring-pub-key-expired = Nøglen { $userId } (nøgle-id { $keyId }) er udløbet.
 key-ring-no-secret-key = Det ser ikke ud til, at du har den hemmelige nøgle til { $userId } (nøgle-id { $keyId }) på din nøglering; du kan ikke bruge nøglen til signering.
@@ -521,10 +543,16 @@ key-ring-enc-sub-keys-expired = Alle krypteringsundernøgler på nøglen { $user
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Billede
 user-att-photo = Brugerattribut (JPEG-billede)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Denne nøgle er allerede blevet tilbagekaldt.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -548,6 +576,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Importer
 delete-key-title = Slet OpenPGP-nøgle
 delete-external-key-title = Fjern den eksterne GnuPG-nøgle
@@ -557,6 +588,9 @@ delete-key-in-use-description = Kan ikke fortsætte! Den nøgle, du vil slette, 
 revoke-key-in-use-description = Kan ikke fortsætte! Den nøgle, du vil tilbagekalde, bruges i øjeblikket af denne identitet. Vælg en anden nøgle, eller vælg ingen og prøv igen.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -568,18 +602,30 @@ key-error-not-accepted-as-personal = Du har ikke bekræftet, at nøglen med id'e
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Den valgte funktion er ikke tilgængelig i offline-tilstand. Gå online og prøv igen.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Vi kunne ikke finde nogen brugbar nøgle, der matchede de angivne søgekriterier.
 no-update-found = Du har allerede de nøgler, der blev fundet online.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
 fail-key-extract = Fejl - kommandoen til nøgleudtrækning mislykkedes
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Fejl - Nøglemodtagelse annulleret af brugeren
 not-first-block = Fejl - Første OpenPGP-blok ikke offentlig nøgleblok
@@ -592,6 +638,9 @@ no-pgp-block = Fejl - Ingen gyldig beskyttet OpenPGP-datablok fundet
 confirm-permissive-import = Import mislykkedes. Den nøgle, du prøver at importere, kan være beskadiget eller bruge ukendte attributter. Vil du prøve at importere de korrekte dele? Dette kan resultere i import af ufuldstændige og ubrugelige nøgler.
 
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = ukendt
 key-valid-invalid = ugyldig
@@ -713,6 +762,9 @@ cannot-send-enc-because-no-own-key = Kan ikke sende denne meddelelse krypteret, 
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -734,15 +786,17 @@ attachment-pgp-key =
     Klik på 'Importer' for at importere de indeholdte nøgler eller 'Vis' for at få vist filindholdet i et browservindue
 dlg-button-view = &Vis
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Dekrypteret meddelelse (gendannet ødelagt PGP-mailformat, sandsynligvis forårsaget af en gammel Exchange-server. Resultatet er derfor muligvis ikke er perfekt)
-
 ## Strings used in encryption.jsm
+
+
+## Strings used in encryption.sys.mjs
 
 not-required = Fejl - ingen kryptering påkrævet
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Intet billede tilgængeligt
 # Variables:
@@ -761,6 +815,9 @@ repeat-suffix-singular = gang mere.
 repeat-suffix-plural = gange mere.
 no-repeat = Denne advarsel vises ikke igen.
 dlg-keep-setting = Husk mit svar og spørg mig ikke igen
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Luk
 dlg-button-cancel = &Annuller
@@ -771,6 +828,9 @@ enig-alert = OpenPGP-advarsel
 enig-info = OpenPGP-oplysninger
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Forsøg igen
 dlg-button-skip = &Spring over
