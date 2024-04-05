@@ -282,7 +282,7 @@
 <!ENTITY calendar.tasks.view.calendarlist.label        "日历列表">
 <!ENTITY calendar.tasks.view.calendarlist.accesskey    "L">
 
-<!ENTITY calendar.tasks.view.filtertasks.label           "过滤任务">
+<!ENTITY calendar.tasks.view.filtertasks.label           "筛选任务">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey       "F">
 
 <!-- Calendar Alarm Dialog -->

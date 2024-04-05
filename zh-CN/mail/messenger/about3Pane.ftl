@@ -480,9 +480,9 @@ apply-current-view-to-folder-with-children-message = 要将当前文件夹的视
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread = <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> 个未读/共 <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> 条消息
+threadpane-sort-header-unread-count = <span>{ $unread }</span> 封未读邮件（共 <span>{ $total }</span> 封邮件）
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header = <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> 条消息
+threadpane-sort-header-count = <span>{ $total }</span> 封邮件
 threadpane-card-menu-button =
     .title = 消息菜单

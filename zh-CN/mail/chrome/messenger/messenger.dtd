@@ -341,7 +341,7 @@
 <!ENTITY forwardAsInline.accesskey "I">
 <!ENTITY forwardAsAttachmentCmd.label "附件">
 <!ENTITY forwardAsAttachmentCmd.accesskey "A">
-<!ENTITY editAsNewMsgCmd.label "作为新消息编辑">
+<!ENTITY editAsNewMsgCmd.label "作为新邮件编辑">
 <!ENTITY editAsNewMsgCmd.accesskey "E">
 <!ENTITY editAsNewMsgCmd.key "e">
 <!ENTITY editDraftMsgCmd.label "编辑草稿邮件">
@@ -713,7 +713,7 @@
 <!ENTITY contextOpenConversation.accesskey "n">
 <!ENTITY contextOpenContainingFolder.label "打开文件夹内的消息">
 <!ENTITY contextOpenContainingFolder.accesskey "n">
-<!ENTITY contextEditMsgAsNew.label "作为新消息编辑">
+<!ENTITY contextEditMsgAsNew.label "作为新邮件编辑">
 <!ENTITY contextEditMsgAsNew.accesskey "E">
 <!ENTITY contextEditDraftMsg.label "编辑草稿邮件">
 <!ENTITY contextEditTemplate.label "编辑模板">

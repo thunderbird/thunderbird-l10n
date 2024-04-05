@@ -187,9 +187,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = 标记为已读
+    .tooltiptext = 标记为已读
+context-menu-mark-unread =
+    .aria-label = 标记为未读
+    .tooltiptext = 标记为未读
+context-menu-mark-reply =
+    .aria-label = 回复
+    .tooltiptext = 回复
+context-menu-archive =
+    .aria-label = 归档
+    .tooltiptext = 归档
 context-menu-mark-junk =
     .aria-label = 标记为垃圾邮件
     .tooltiptext = 标记为垃圾邮件
+mail-context-menu-open =
+    .label = 打开
+    .accesskey = O
+mail-context-menu-reply =
+    .label = 回复
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = 转发与重定向
+    .accesskey = F
+mail-context-menu-organize =
+    .label = 整理
+    .accesskey = g
+mail-context-menu-threads =
+    .label = 话题
+    .accesskey = T
 context-menu-redirect-msg =
     .label = 重定向
 # This menu item is for canceling an NNTP message
@@ -210,6 +237,16 @@ mail-context-undelete-messages =
             [one] 恢复已删除的消息
            *[other] 恢复所选的消息
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label = 删除所选邮件
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label = 恢复所选邮件
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = 创建解密副本
     .accesskey = Y
