@@ -201,11 +201,11 @@ appmenu-addons-and-themes =
 ## Context menu
 
 context-menu-mark-read =
-    .aria-label = Marcio fel wedi ei Darllen
-    .tooltiptext = Marcio fel wedi ei Darllen
+    .aria-label = Marcio fel wedi eu Darllen
+    .tooltiptext = Marcio fel wedi eu Darllen
 context-menu-mark-unread =
-    .aria-label = Marcio fel Heb ei Darllen
-    .tooltiptext = Marcio fel Heb ei Darllen
+    .aria-label = Marcio fel Heb eu Darllen
+    .tooltiptext = Marcio fel Heb eu Darllen
 context-menu-mark-reply =
     .aria-label = Ateb
     .tooltiptext = Ateb
@@ -213,8 +213,8 @@ context-menu-archive =
     .aria-label = Archifo
     .tooltiptext = Archifo
 context-menu-mark-junk =
-    .aria-label = Marciwch fel Sothach
-    .tooltiptext = Marciwch fel Sothach
+    .aria-label = Marcio fel Sothach
+    .tooltiptext = Marcio fel Sothach
 mail-context-menu-open =
     .label = Agor
     .accesskey = A
@@ -222,7 +222,7 @@ mail-context-menu-reply =
     .label = Ateb
     .accesskey = A
 mail-context-menu-forward-redirect =
-    .label = Ymlaen ac Ailgyfeirio
+    .label = Anfon Ymlaen ac Ailgyfeirio
     .accesskey = Y
 mail-context-menu-organize =
     .label = Trefnu
@@ -265,7 +265,7 @@ mail-context-messages-delete =
     .label =
         { $count ->
             [zero] Dileu'r Negeseuon Hyn
-            [one] Dileu Neges
+            [one] Dileu'r Neges Hon
             [two] Dileu'r Negeseuon Hyn
             [few] Dileu'r Negeseuon Hyn
             [many] Dileu'r Negeseuon Hyn
@@ -278,7 +278,7 @@ mail-context-messages-undelete =
     .label =
         { $count ->
             [zero] Dad-ddileu'r Negeseuon Hyn
-            [one] Dad-ddileu Neges
+            [one] Dad-ddileu'r Neges Hon
             [two] Dad-ddileu'r Negeseuon Hyn
             [few] Dad-ddileu'r Negeseuon Hyn
             [many] Dad-ddileu'r Negeseuon Hyn

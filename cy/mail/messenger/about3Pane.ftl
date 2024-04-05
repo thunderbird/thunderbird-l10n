@@ -530,19 +530,60 @@ apply-current-view-to-folder-with-children-message = Gosod golwg y ffolder gyfre
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-unread-count =
     { $unread ->
-        [zero] <span>{ $unread }</span> heb ei ddarllen
-        [one] <span>1</span> heb ei ddarllen
-        [two] <span>{ $unread }</span> heb ei ddarllen
-        [few] <span>{ $unread }</span> heb ei ddarllen
-        [many] <span>{ $unread }</span> heb ei ddarllen
-       *[other] <span>{ $unread }</span> heb ei ddarllen
-    }{ " " }{ $total ->
-        [zero] o <span>{ $total }</span> neges
-        [one] o <span>1</span> neges
-        [two] o <span>{ $total }</span> neges
-        [few] o <span>{ $total }</span> neges
-        [many] o <span>{ $total }</span> neges
-       *[other] o <span>{ $total }</span> neges
+        [zero]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
+        [one]
+            { $total ->
+                [zero] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>1</span> heb ei ddarllen{ " " }o <span>1</span> neges
+                [two] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>1</span> heb ei ddarllen{ " " }o <span>{ $total }</span> neges
+            }
+        [two]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
+        [few]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
+        [many]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
+       *[other]
+            { $total ->
+                [zero] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [one] <span>{ $unread }</span> heb eu darllen{ " " }o <span>1</span> neges
+                [two] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [few] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+                [many] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+               *[other] <span>{ $unread }</span> heb eu darllen{ " " }o <span>{ $total }</span> neges
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
