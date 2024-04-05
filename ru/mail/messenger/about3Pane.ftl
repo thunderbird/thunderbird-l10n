@@ -510,19 +510,34 @@ apply-current-view-to-folder-with-children-message = Применить вид �
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочитанное из <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> сообщений
-        [few] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочитанных из <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> сообщений
-       *[many] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочитанных из <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> сообщений
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>{ $unread }</span> непрочитанное из <span>{ $total }</span> сообщения
+                [few] <span>{ $unread }</span> непрочитанное из <span>{ $total }</span> сообщений
+               *[many] <span>{ $unread }</span> непрочитанное из <span>{ $total }</span> сообщений
+            }
+        [few]
+            { $total ->
+                [one] <span>{ $unread }</span> непрочитанных из <span>{ $total }</span> сообщения
+                [few] <span>{ $unread }</span> непрочитанных из <span>{ $total }</span> сообщений
+               *[many] <span>{ $unread }</span> непрочитанных из <span>{ $total }</span> сообщений
+            }
+       *[many]
+            { $total ->
+                [one] <span>{ $unread }</span> непрочитанных из <span>{ $total }</span> сообщения
+                [few] <span>{ $unread }</span> непрочитанных из <span>{ $total }</span> сообщений
+               *[many] <span>{ $unread }</span> непрочитанных из <span>{ $total }</span> сообщений
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> сообщение
-        [few] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> сообщения
-       *[many] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> сообщений
+        [one] <span>1</span> сообщение
+        [few] <span>{ $total }</span> сообщения
+       *[many] <span>{ $total }</span> сообщений
     }
 threadpane-card-menu-button =
     .title = Меню сообщений

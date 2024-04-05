@@ -193,6 +193,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Отметить как прочитанное
+    .tooltiptext = Отметить как прочитанное
+context-menu-mark-unread =
+    .aria-label = Отметить как непрочитанное
+    .tooltiptext = Отметить как непрочитанное
+context-menu-mark-reply =
+    .aria-label = Ответить
+    .tooltiptext = Ответить
+context-menu-archive =
+    .aria-label = Архивировать
+    .tooltiptext = Архивировать
+context-menu-mark-junk =
+    .aria-label = Отметить как спам
+    .tooltiptext = Отметить как спам
+mail-context-menu-open =
+    .label = Открыть
+    .accesskey = Щ
+mail-context-menu-reply =
+    .label = Ответить
+    .accesskey = К
+mail-context-menu-forward-redirect =
+    .label = Переслать и перенаправить
+    .accesskey = А
+mail-context-menu-organize =
+    .label = Управление
+    .accesskey = п
+mail-context-menu-threads =
+    .label = Обсуждения
+    .accesskey = Е
 context-menu-redirect-msg =
     .label = Перенаправить
 # This menu item is for canceling an NNTP message
@@ -218,6 +248,26 @@ mail-context-undelete-messages =
             [many] Восстановить { $count } сообщений
            *[other] Восстановить выбранные сообщения
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Удалить сообщение
+            [few] Удалить выделенные сообщения
+           *[many] Удалить выделенные сообщения
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Восстановить сообщение
+            [few] Восстановить выбранные сообщения
+           *[many] Восстановить выбранные сообщения
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Создать расшифрованную копию в
     .accesskey = к
@@ -235,6 +285,9 @@ message-header-recipient-avatar =
     .alt = Фотография профиля { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Настройки заголовка сообщения
 message-header-customize-button-style =
@@ -404,7 +457,7 @@ quick-filter-bar-toggle =
     .label = Панель быстрого фильтра
     .accesskey = ы
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
