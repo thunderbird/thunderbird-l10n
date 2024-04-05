@@ -188,6 +188,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Markeren als gelezen
+    .tooltiptext = Markeren als gelezen
+context-menu-mark-unread =
+    .aria-label = Markeren als ongelezen
+    .tooltiptext = Markeren als ongelezen
+context-menu-mark-reply =
+    .aria-label = Antwoorden
+    .tooltiptext = Antwoorden
+context-menu-archive =
+    .aria-label = Archiveren
+    .tooltiptext = Archiveren
+context-menu-mark-junk =
+    .aria-label = Markeren als ongewenst
+    .tooltiptext = Markeren als ongewenst
+mail-context-menu-open =
+    .label = Openen
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Antwoorden
+    .accesskey = A
+mail-context-menu-forward-redirect =
+    .label = Doorsturen en omleiden
+    .accesskey = D
+mail-context-menu-organize =
+    .label = Ordenen
+    .accesskey = r
+mail-context-menu-threads =
+    .label = Conversaties
+    .accesskey = C
 context-menu-redirect-msg =
     .label = Omleiden
 # This menu item is for canceling an NNTP message
@@ -209,6 +239,24 @@ mail-context-undelete-messages =
             [one] Bericht verwijderen ongedaan maken
            *[other] Verwijderen van geselecteerde berichten ongedaan maken
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Bericht verwijderen
+           *[other] Geselecteerde berichten verwijderen
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Verwijderen van bericht ongedaan maken
+           *[other] Verwijderen van geselecteerde berichten ongedaan maken
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Ontcijferde kopie maken in
     .accesskey = c
@@ -226,6 +274,9 @@ message-header-recipient-avatar =
     .alt = Profielafbeelding van { $adres }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Instellingen berichtkop
 message-header-customize-button-style =
@@ -393,7 +444,7 @@ quick-filter-bar-toggle =
     .label = Snelfilterbalk
     .accesskey = S
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
