@@ -516,8 +516,8 @@ threadpane-sort-header-unread-count =
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
     { $total ->
-        [one] <span>1</span> messages
-       *[other] <span>{ $total }</span> messages
+        [one] <span>1</span> message
+       *[other] <span>{ $total }</span> messages
     }
 threadpane-card-menu-button =
     .title = Menu du message
