@@ -513,5 +513,14 @@ apply-current-view-to-folder-message = Uporabi pogled trenutne mape za { $name }
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Uporabi pogled trenutne mape za { $name } in njene podrejene?
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> sporočilo
+        [two] <span>{ $total }</span> sporočili
+        [few] <span>{ $total }</span> sporočila
+       *[other] <span>{ $total }</span> sporočil
+    }
 threadpane-card-menu-button =
     .title = Meni sporočila

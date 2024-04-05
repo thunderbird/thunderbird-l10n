@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Preveri veljavnost podpisa
     .accesskey = v
 openpgp-has-sender-key = To sporočilo naj bi vsebovalo pošiljateljev javni ključ OpenPGP.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Pozor: novi javni ključ OpenPGP v tem sporočilu se razlikuje od javnih ključev, ki ste jih doslej sprejemali za { $email }.
 openpgp-import-sender-key =
     .label = Uvozi …
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Počakajte trenutek …
 openpgp-has-nested-encrypted-parts = To sporočilo vsebuje dodatne šifrirane dele.
 openpgp-show-encrypted-parts = Dešifriraj in prikaži
+openpgp-has-nested-signed-parts = Nekateri deli tega sporočila so morda digitalno podpisani.
+openpgp-show-signed-parts = Odpri in pokaži
 openpgp-cannot-decrypt-because-mdc =
     To je šifrirano sporočilo, ki uporablja star in ranljiv mehanizem.
     Med potovanjem bi lahko bilo spremenjeno z namenom kraje njegove vsebine.
