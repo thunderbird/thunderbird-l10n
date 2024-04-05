@@ -194,6 +194,24 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Označi kot prebrano
+    .tooltiptext = Označi kot prebrano
+context-menu-mark-unread =
+    .aria-label = Označi kot neprebrano
+    .tooltiptext = Označi kot neprebrano
+context-menu-mark-reply =
+    .aria-label = Odgovori
+    .tooltiptext = Odgovori
+context-menu-archive =
+    .aria-label = Arhiviraj
+    .tooltiptext = Arhiviraj
+context-menu-mark-junk =
+    .aria-label = Označi kot neželeno
+    .tooltiptext = Označi kot neželeno
+mail-context-menu-open =
+    .label = Odpri
+    .accesskey = O
 context-menu-redirect-msg =
     .label = Preusmeri
 # This menu item is for canceling an NNTP message
@@ -236,6 +254,9 @@ message-header-recipient-avatar =
     .alt = Slika profila { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Nastavitve glav sporočil
 message-header-customize-button-style =
@@ -407,7 +428,7 @@ quick-filter-bar-toggle =
     .label = Vrstica hitrega filtra
     .accesskey = h
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = f
 
