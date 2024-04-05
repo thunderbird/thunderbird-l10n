@@ -191,6 +191,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Označiť ako prečítané
+    .tooltiptext = Označiť ako prečítané
+context-menu-mark-unread =
+    .aria-label = Označiť ako neprečítané
+    .tooltiptext = Označiť ako neprečítané
+context-menu-mark-reply =
+    .aria-label = Odpovedať
+    .tooltiptext = Odpovedať
+context-menu-archive =
+    .aria-label = Archivovať
+    .tooltiptext = Archivovať
+context-menu-mark-junk =
+    .aria-label = Označiť ako nevyžiadanú poštu
+    .tooltiptext = Označiť ako nevyžiadanú poštu
+mail-context-menu-open =
+    .label = Otvoriť
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Odpovedať
+    .accesskey = d
+mail-context-menu-forward-redirect =
+    .label = Preposlať a presmerovať
+    .accesskey = r
+mail-context-menu-organize =
+    .label = Usporiadať
+    .accesskey = U
+mail-context-menu-threads =
+    .label = Vlákna
+    .accesskey = V
 context-menu-redirect-msg =
     .label = Presmerovať
 # This menu item is for canceling an NNTP message
@@ -214,6 +244,28 @@ mail-context-undelete-messages =
             [few] Obnoviť označené správy
            *[other] Obnoviť označené správy
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Odstrániť správu
+            [few] Odstrániť označené správy
+            [many] Odstrániť označené správy
+           *[other] Odstrániť označené správy
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Obnoviť správu
+            [few] Obnoviť označené správy
+            [many] Obnoviť označené správy
+           *[other] Obnoviť označené správy
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Vytvoriť dešifrovanú kópiu
     .accesskey = f
