@@ -248,6 +248,15 @@ mail-context-messages-delete =
            *[other] Selektearre berjochten fuortsmite
         }
     .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Fuortsmiten fan berjocht ûngedien meitsje
+           *[other] Fuortsmiten fan selektearre berjochten ûngedien meitsje
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Untsifere kopy meitsje yn
     .accesskey = k
