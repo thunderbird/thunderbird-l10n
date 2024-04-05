@@ -443,6 +443,13 @@ threadpane-column-label-delete =
     .label = Slet
 threadpane-cell-delete =
     .aria-label = Slet
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } svar
+       *[other] { $count } svar
+    }
 
 ## Message state variations
 
@@ -494,3 +501,28 @@ apply-current-view-to-folder-message = Anvend den aktuelle mappes udseende på {
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Anvend den nuværende mappes udseende på { $name } og underliggende mapper?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> ulæst meddelelse ud af <span>1</span>
+               *[other] <span>1</span> ulæst meddelelse ud af<span>{ $total }</span>
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> ulæste meddelelser ud af<span>1</span>
+               *[other] <span>{ $unread }</span> ulæste meddelelser ud af <span>{ $total }</span>
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> meddelelse
+       *[other] <span>{ $total }</span> meddelelser
+    }
+threadpane-card-menu-button =
+    .title = Meddelelsesmenu
