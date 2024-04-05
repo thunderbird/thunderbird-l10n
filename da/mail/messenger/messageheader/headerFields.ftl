@@ -21,13 +21,40 @@ message-header-tags-list-name = Mærkater
 message-header-author-field = Skrevet af<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Organisation<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Emne<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Opfølgning til<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Dato<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Mailprogram<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referencer<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = Meddelelses-ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Som svar på<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Websted<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Få hjælp
+    .accesskey = h
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Afmeld abonnement
+    .accesskey = A
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Abonner…
+    .accesskey = b
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Skriv
+    .accesskey = S
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Kontakt administrator…
+    .accesskey = K
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Listearkiver
+    .accesskey = L
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Permalink til meddelelse
+    .accesskey = P
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
