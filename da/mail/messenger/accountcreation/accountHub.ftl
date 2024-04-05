@@ -75,8 +75,16 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Ingen
+account-hub-auth-no-authentication-option =
+    .label = Ingen godkendelse
 account-hub-auth-label = Godkendelsesmetode
 account-hub-username-label = Brugernavn
 account-hub-adding-account-title = Tilføjer konto
 account-hub-adding-account-subheader = Gentester kontoindstillinger
 account-hub-account-added-title = Konto tilføjet
+account-hub-lookup-email-configuration-title = Søger efter konfiguration
+account-hub-lookup-email-configuration-subheader = Prøver almindelige servernavne…
+account-hub-email-account-added-title = Kontoen blev oprettet
+account-hub-find-settings-failed = { -brand-full-name } kunne ikke finde indstillingerne for din mailkonto.
+account-hub-notification-show-more = Vis mere
+account-hub-notification-show-less = Vis færre

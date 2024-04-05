@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Vent venligst…
 openpgp-has-nested-encrypted-parts = Denne meddelelse indeholder yderigere krypterede dele.
 openpgp-show-encrypted-parts = Dekrypter og vis
+openpgp-has-nested-signed-parts = Nogle dele af denne meddelelse kan være digitalt signeret.
+openpgp-show-signed-parts = Åbn og vis
 openpgp-cannot-decrypt-because-mdc =
     Dette er en krypteret meddelelse, der benytter en gammel og sårbar mekanisme.
     Den kan være blevet ændret på vejen med henblik på at stjæle dens indhold.
