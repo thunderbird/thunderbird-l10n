@@ -187,6 +187,33 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Đánh dấu là đã đọc
+    .tooltiptext = Đánh dấu là đã đọc
+context-menu-mark-unread =
+    .aria-label = Đánh dấu là chưa đọc
+    .tooltiptext = Đánh dấu là chưa đọc
+context-menu-mark-reply =
+    .aria-label = Trả lời
+    .tooltiptext = Trả lời
+context-menu-archive =
+    .aria-label = Lưu trữ
+    .tooltiptext = Lưu trữ
+context-menu-mark-junk =
+    .aria-label = Đánh dấu là thư rác
+    .tooltiptext = Đánh dấu là thư rác
+mail-context-menu-open =
+    .label = Mở
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Trả lời
+    .accesskey = R
+mail-context-menu-organize =
+    .label = Quản lí
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Chủ đề
+    .accesskey = T
 context-menu-redirect-msg =
     .label = Chuyển hướng
 # This menu item is for canceling an NNTP message
@@ -207,6 +234,16 @@ mail-context-undelete-messages =
             [one] Không xóa thư
            *[other] Không xóa thư đã chọn
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label = Xóa thư đã chọn
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label = Không xóa thư đã chọn
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Tạo bản sao được giải mã trong
     .accesskey = y
