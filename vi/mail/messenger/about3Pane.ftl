@@ -484,9 +484,9 @@ apply-current-view-to-folder-with-children-message = Áp dụng chế độ xem 
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread = <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> chưa đọc trong tổng số <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> thư
+threadpane-sort-header-unread-count = <span>{ $unread }</span> chưa đọc trong tổng số <span>{ $total }</span> thư
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header = <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> thư
+threadpane-sort-header-count = <span>{ $total }</span> thư
 threadpane-card-menu-button =
     .title = Menu thư
