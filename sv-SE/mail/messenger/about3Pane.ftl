@@ -504,17 +504,25 @@ apply-current-view-to-folder-with-children-message = Vill du använda den aktuel
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> av <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> meddelande oläst
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> av <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> meddelanden olästa
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> oläst av <span>1</span> meddelande
+               *[other] <span>1</span> oläst av <span>{ $total }</span> meddelanden
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> olästa av <span>1</span> meddelande
+               *[other] <span>{ $unread }</span> olästa av <span>{ $total }</span> meddelanden
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> meddelande
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> meddelanden
+        [one] <span>1</span> meddelande
+       *[other] <span>{ $total }</span> meddelanden
     }
 threadpane-card-menu-button =
     .title = Meddelandemeny

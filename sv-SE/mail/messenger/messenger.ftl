@@ -200,6 +200,24 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arkivera
     .tooltiptext = Arkivera
+context-menu-mark-junk =
+    .aria-label = Markera som skräp
+    .tooltiptext = Markera som skräp
+mail-context-menu-open =
+    .label = Öppna
+    .accesskey = n
+mail-context-menu-reply =
+    .label = Svara
+    .accesskey = S
+mail-context-menu-forward-redirect =
+    .label = Vidarebefordra och omdirigera
+    .accesskey = V
+mail-context-menu-organize =
+    .label = Organisera
+    .accesskey = r
+mail-context-menu-threads =
+    .label = Trådar
+    .accesskey = T
 context-menu-redirect-msg =
     .label = Omdirigera
 # This menu item is for canceling an NNTP message
@@ -221,6 +239,24 @@ mail-context-undelete-messages =
             [one] Ångra borttagning av meddelande
            *[other] Ångra borttagning av valda meddelanden
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Ta bort meddelande
+           *[other] Ta bort valda meddelanden
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Ångra borttagning av meddelande
+           *[other] Ångra borttagning av valda meddelanden
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Skapa dekrypterad kopia i
     .accesskey = k
