@@ -504,17 +504,25 @@ apply-current-view-to-folder-with-children-message = De werjefte fan de aktuele 
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> net-lêzen fan <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> berjocht
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> net-lêzen fan <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> berjochten
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> net lêzen fan <span>{ $total }</span> berjocht
+               *[other] <span>1</span> net lêzen fan <span>{ $total }</span> berjochten
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> net lêzen fan <span>{ $total }</span> berjocht
+               *[other] <span>{ $unread }</span> net lêzen fan <span>{ $total }</span> berjochten
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> berjocht
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> berjochten
+        [one] <span>1</span> berjocht
+       *[other] <span>{ $total }</span> berjochten
     }
 threadpane-card-menu-button =
     .title = Berjochtemenu

@@ -188,6 +188,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Markearje as lêzen
+    .tooltiptext = Markearje as lêzen
+context-menu-mark-unread =
+    .aria-label = Markearje as net lêzen
+    .tooltiptext = Markearje as net lêzen
+context-menu-mark-reply =
+    .aria-label = Antwurden
+    .tooltiptext = Antwurden
+context-menu-archive =
+    .aria-label = Argivearje
+    .tooltiptext = Argivearje
+context-menu-mark-junk =
+    .aria-label = Markearje as net-winske
+    .tooltiptext = Markearje as net-winske
+mail-context-menu-open =
+    .label = Iepenje
+    .accesskey = I
+mail-context-menu-reply =
+    .label = Beäntwurdzje
+    .accesskey = B
+mail-context-menu-forward-redirect =
+    .label = Trochstjoere en omliede
+    .accesskey = T
+mail-context-menu-organize =
+    .label = Oarderje
+    .accesskey = O
+mail-context-menu-threads =
+    .label = Petearen
+    .accesskey = P
 context-menu-redirect-msg =
     .label = Omliede
 # This menu item is for canceling an NNTP message
@@ -209,6 +239,15 @@ mail-context-undelete-messages =
             [one] Berjocht fuortsmite ûngedien meitsje
            *[other] Fuortsmite selektearre berjochten ûngedien meitsje
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Berjochten fuortsmite
+           *[other] Selektearre berjochten fuortsmite
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
 context-menu-decrypt-to-folder2 =
     .label = Untsifere kopy meitsje yn
     .accesskey = k
@@ -226,6 +265,9 @@ message-header-recipient-avatar =
     .alt = Profylôfbylding fan { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Berjochtkopynstellingen
 message-header-customize-button-style =
@@ -393,7 +435,7 @@ quick-filter-bar-toggle =
     .label = Fluchfilterbalke
     .accesskey = F
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
