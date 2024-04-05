@@ -188,6 +188,18 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Markera som läst
+    .tooltiptext = Markera som läst
+context-menu-mark-unread =
+    .aria-label = Markera som oläst
+    .tooltiptext = Markera som oläst
+context-menu-mark-reply =
+    .aria-label = Svara
+    .tooltiptext = Svara
+context-menu-archive =
+    .aria-label = Arkivera
+    .tooltiptext = Arkivera
 context-menu-redirect-msg =
     .label = Omdirigera
 # This menu item is for canceling an NNTP message
@@ -226,6 +238,9 @@ message-header-recipient-avatar =
     .alt = Profilbild för { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Inställningar för meddelanderubrik
 message-header-customize-button-style =
@@ -393,7 +408,7 @@ quick-filter-bar-toggle =
     .label = Snabbfilterfält
     .accesskey = S
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
