@@ -58,38 +58,8 @@
 <!ENTITY calendar.today.button.tooltip          "转至今日" >
 <!ENTITY calendar.todaypane.button.tooltip      "显示今日窗格" >
 
-<!ENTITY calendar.day.button.tooltip            "切换到日视图" >
-<!ENTITY calendar.week.button.tooltip           "切换到周视图" >
-<!ENTITY calendar.month.button.tooltip          "切换到月视图" >
-<!ENTITY calendar.multiweek.button.tooltip      "切换到多周视图" >
-
-<!ENTITY calendar.nextday.label                 "后一天" >
-<!ENTITY calendar.prevday.label                 "前一天" >
-<!ENTITY calendar.nextday.accesskey             "x" >
-<!ENTITY calendar.prevday.accesskey             "s" >
-<!ENTITY calendar.nextweek.label                "后一周" >
-<!ENTITY calendar.prevweek.label                "前一周" >
-<!ENTITY calendar.nextweek.accesskey            "x" >
-<!ENTITY calendar.prevweek.accesskey            "s" >
-<!ENTITY calendar.nextmonth.label               "后一月" >
-<!ENTITY calendar.prevmonth.label               "前一月" >
-<!ENTITY calendar.nextmonth.accesskey           "x" >
-<!ENTITY calendar.prevmonth.accesskey           "s" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "下一日" >
-<!ENTITY calendar.navigation.prevday.tooltip    "上一日" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "下一周" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "上一周" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "下一月" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "上一月" >
-
 <!ENTITY calendar.newevent.button.label         "新建事件" >
 <!ENTITY calendar.newtask.button.label          "新建任务" >
-
-<!ENTITY calendar.day.button.label              "日" >
-<!ENTITY calendar.week.button.label             "周" >
-<!ENTITY calendar.month.button.label            "月" >
-<!ENTITY calendar.multiweek.button.label        "多周" >
 
 <!ENTITY calendar.onlyworkday.checkbox.label    "仅显示工作日" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
@@ -275,8 +245,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "R">
 <!ENTITY calendar.context.unsubscribeserver.label      "取消订阅日历…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
-<!ENTITY calendar.context.synccalendars.label          "同步日历">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "发布日历…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "导出日历…">
@@ -298,7 +266,7 @@
 <!ENTITY calendar.context.showall.label                "显示所有日历">
 <!ENTITY calendar.context.showall.accesskey            "A">
 
-<!ENTITY calendar.context.convertmenu.label              "转换到">
+<!ENTITY calendar.context.convertmenu.label              "转换为">
 <!ENTITY calendar.context.convertmenu.accesskey.mail     "n">
 <!ENTITY calendar.context.convertmenu.accesskey.calendar "v">
 <!ENTITY calendar.context.convertmenu.event.label        "事件…">
