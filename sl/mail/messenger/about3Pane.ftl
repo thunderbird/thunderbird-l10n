@@ -514,6 +514,40 @@ apply-current-view-to-folder-message = Uporabi pogled trenutne mape za { $name }
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Uporabi pogled trenutne mape za { $name } in njene podrejene?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] { "<span>1</span> neprebrano sporočilo od <span>1</span>" }
+                [two] { "<span>1</span> neprebrano sporočilo od <span>{ $total }</span>" }
+                [few] { "<span>1</span> neprebrano sporočilo od <span>{ $total }</span>" }
+               *[other] { "<span>1</span> neprebrano sporočilo od <span>{ $total }</span>" }
+            }
+        [two]
+            { $total ->
+                [one] { "<span>{ $unread }</span> neprebrani sporočili od <span>1</span>" }
+                [two] { "<span>{ $unread }</span> neprebrani sporočili od <span>{ $total }</span>" }
+                [few] { "<span>{ $unread }</span> neprebrani sporočili od <span>{ $total }</span>" }
+               *[other] { "<span>{ $unread }</span> neprebrani sporočili od <span>{ $total }</span>" }
+            }
+        [few]
+            { $total ->
+                [one] { "<span>{ $unread }</span> neprebrana sporočila od <span>1</span>" }
+                [two] { "<span>{ $unread }</span> neprebrana sporočila od <span>{ $total }</span>" }
+                [few] { "<span>{ $unread }</span> neprebrana sporočila od <span>{ $total }</span>" }
+               *[other] { "<span>{ $unread }</span> neprebrana sporočila od <span>{ $total }</span>" }
+            }
+       *[other]
+            { $total ->
+                [one] { "<span>{ $unread }</span> neprebranih sporočil od <span>1</span>" }
+                [two] { "<span>{ $unread }</span> neprebranih sporočil od <span>{ $total }</span>" }
+                [few] { "<span>{ $unread }</span> neprebranih sporočil od <span>{ $total }</span>" }
+               *[other] { "<span>{ $unread }</span> neprebranih sporočil od <span>{ $total }</span>" }
+            }
+    }
+# Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
     { $total ->
