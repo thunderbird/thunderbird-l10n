@@ -492,7 +492,7 @@
 <!ENTITY errorConsoleCmd.commandkey "j">
 
 <!-- Mail Toolbar -->
-<!ENTITY getMsgButton1.label "获取消息">
+<!ENTITY getMsgButton1.label "收取邮件">
 <!ENTITY newMsgButton.label "新建消息">
 <!ENTITY replyButton.label "回复">
 <!ENTITY replyAllButton.label "全部回复">
@@ -593,7 +593,7 @@
 <!ENTITY folderSizeColumn.label "大小">
 
 <!-- Folder Pane Context Menu -->
-<!ENTITY folderContextGetMessages.label "获取消息">
+<!ENTITY folderContextGetMessages.label "收取邮件">
 <!ENTITY folderContextGetMessages.accesskey "G">
 <!ENTITY folderContextMarkAllFoldersRead.label "标记所有文件夹为已读">
 <!ENTITY folderContextPauseAllUpdates.label "暂停所有更新">
