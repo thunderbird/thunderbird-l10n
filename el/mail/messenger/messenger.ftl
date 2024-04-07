@@ -188,6 +188,21 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-reply =
+    .aria-label = Απάντηση
+    .tooltiptext = Απάντηση
+mail-context-menu-open =
+    .label = Άνοιγμα
+    .accesskey = ν
+mail-context-menu-reply =
+    .label = Απάντηση
+    .accesskey = Α
+mail-context-menu-organize =
+    .label = Οργάνωση
+    .accesskey = Ο
+mail-context-menu-threads =
+    .label = Νήματα
+    .accesskey = Ν
 context-menu-redirect-msg =
     .label = Ανακατεύθυνση
 # This menu item is for canceling an NNTP message
@@ -209,6 +224,15 @@ mail-context-undelete-messages =
             [one] Αναίρεση διαγραφής μηνύματος
            *[other] Αναίρεση διαγραφής επιλεγμένων μηνυμάτων
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Διαγραφή μηνύματος
+           *[other] Διαγραφή επιλεγμένων μηνυμάτων
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
 context-menu-decrypt-to-folder2 =
     .label = Δημιουργία αποκρυπτογραφημένου αντιγράφου σε
     .accesskey = γ
@@ -226,6 +250,9 @@ message-header-recipient-avatar =
     .alt = Εικόνα προφίλ του { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Ρυθμίσεις κεφαλίδας μηνυμάτων
 message-header-customize-button-style =
@@ -393,7 +420,7 @@ quick-filter-bar-toggle =
     .label = Γραμμή γρήγορου φιλτραρίσματος
     .accesskey = γ
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
