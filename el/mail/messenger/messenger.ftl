@@ -188,15 +188,30 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Επισήμανση ως αναγνωσμένο
+    .tooltiptext = Επισήμανση ως αναγνωσμένο
+context-menu-mark-unread =
+    .aria-label = Επισήμανση ως μη αναγνωσμένο
+    .tooltiptext = Επισήμανση ως μη αναγνωσμένο
 context-menu-mark-reply =
     .aria-label = Απάντηση
     .tooltiptext = Απάντηση
+context-menu-archive =
+    .aria-label = Αρχειοθέτηση
+    .tooltiptext = Αρχειοθέτηση
+context-menu-mark-junk =
+    .aria-label = Επισήμανση ως ανεπιθύμητο
+    .tooltiptext = Επισήμανση ως ανεπιθύμητο
 mail-context-menu-open =
     .label = Άνοιγμα
     .accesskey = ν
 mail-context-menu-reply =
     .label = Απάντηση
     .accesskey = Α
+mail-context-menu-forward-redirect =
+    .label = Προώθηση και ανακατεύθυνση
+    .accesskey = Π
 mail-context-menu-organize =
     .label = Οργάνωση
     .accesskey = Ο
@@ -233,6 +248,15 @@ mail-context-messages-delete =
            *[other] Διαγραφή επιλεγμένων μηνυμάτων
         }
     .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Αναίρεση διαγραφής μηνύματος
+           *[other] Αναίρεση διαγραφής επιλεγμένων μηνυμάτων
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Δημιουργία αποκρυπτογραφημένου αντιγράφου σε
     .accesskey = γ
