@@ -514,6 +514,40 @@ apply-current-view-to-folder-message = Naglěd aktualnego zarědnika na { $name 
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Naglěd aktualnego zarědnika na { $name } a jogo źiśi nałožyś?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] { "<span>{ $unread }</span> njecytana z <span>{ $total } powěsći" }
+                [two] { "<span>{ $unread }</span> njecytana z <span>{ $total } powěsćowu" }
+                [few] { "<span>{ $unread }</span> njecytana z <span>{ $total } powěsćow" }
+               *[other] { "<span>{ $unread }</span> njecytana z <span>{ $total } powěsćow" }
+            }
+        [two]
+            { $total ->
+                [one] { "<span>{ $unread }</span> njecytanej z <span>{ $total } powěsći" }
+                [two] { "<span>{ $unread }</span> njecytanej z <span>{ $total } powěsćowu" }
+                [few] { "<span>{ $unread }</span> njecytanej z <span>{ $total } powěsćow" }
+               *[other] { "<span>{ $unread }</span> njecytanej z <span>{ $total } powěsćow" }
+            }
+        [few]
+            { $total ->
+                [one] { "<span>{ $unread }</span> njecytane z <span>{ $total } powěsći" }
+                [two] { "<span>{ $unread }</span> njecytane z <span>{ $total } powěsćowu" }
+                [few] { "<span>{ $unread }</span> njecytane z <span>{ $total } powěsćow" }
+               *[other] { "<span>{ $unread }</span> njecytane z <span>{ $total } powěsćow" }
+            }
+       *[other]
+            { $total ->
+                [one] { "<span>{ $unread }</span> njecytanych z <span>{ $total } powěsći" }
+                [two] { "<span>{ $unread }</span> njecytanych z <span>{ $total } powěsćowu" }
+                [few] { "<span>{ $unread }</span> njecytanch z <span>{ $total } powěsćow" }
+               *[other] { "<span>{ $unread }</span> njecytanych z <span>{ $total } powěsćow" }
+            }
+    }
+# Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
     { $total ->
