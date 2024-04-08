@@ -71,6 +71,10 @@ list-id-list-post =
 list-id-list-owner =
     .label = Kontakt administrator…
     .accesskey = K
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Vis arkiver
+    .accesskey = L
 # Direct link to the archived form of an individual email message. RFC 5064.
 list-id-archived-at =
     .label = Permalink til meddelelse
