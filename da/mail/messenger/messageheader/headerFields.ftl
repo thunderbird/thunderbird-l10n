@@ -15,7 +15,7 @@ message-header-newsgroups-list-name = Nyhedsgrupper
 message-header-followup-to-list-name = Opfølgning til
 message-header-tags-list-name = Mærkater
 # List management header - RFC 2369.
-message-header-list-id = Liste-ID
+message-header-list-id = List-ID
 # List management header - RFC 2369.
 message-header-list-help = List-Help
 # List management header - RFC 2369.
@@ -43,7 +43,7 @@ message-header-references-field = Referencer<span data-l10n-name="field-separato
 message-header-message-id-field = Meddelelses-ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Som svar på<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Websted<span data-l10n-name="field-separator">:</span>
-message-header-list-id-field = Liste-ID<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = List-Unsubscribe<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-separator">:</span>
