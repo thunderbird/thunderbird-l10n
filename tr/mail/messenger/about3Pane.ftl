@@ -502,19 +502,11 @@ apply-current-view-to-folder-message = Geçerli dizinin görünümü { $name } d
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Geçerli dizinin görünümü { $name } ve alt dizinlerine uygulansın mı?
 # Variables:
-# $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> iletiden <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> tanesi okunmamış
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> iletiden <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> tanesi okunmamış
-    }
-# Variables:
-# $total (Number) - Number of messages in thread.
-threadpane-sort-header =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> ileti
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> ileti
+        [one] <span>1</span> ileti
+       *[other] <span>{ $total }</span> ileti
     }
 threadpane-card-menu-button =
     .title = İleti menüsü

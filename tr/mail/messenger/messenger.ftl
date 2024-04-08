@@ -188,6 +188,33 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Okundu olarak işaretle
+    .tooltiptext = Okundu olarak işaretle
+context-menu-mark-unread =
+    .aria-label = Okunmadı olarak işaretle
+    .tooltiptext = Okunmadı olarak işaretle
+context-menu-mark-reply =
+    .aria-label = Yanıtla
+    .tooltiptext = Yanıtla
+context-menu-archive =
+    .aria-label = Arşivle
+    .tooltiptext = Arşivle
+context-menu-mark-junk =
+    .aria-label = Gereksiz olarak işaretle
+    .tooltiptext = Gereksiz olarak işaretle
+mail-context-menu-open =
+    .label = Aç
+    .accesskey = A
+mail-context-menu-reply =
+    .label = Yanıtla
+    .accesskey = Y
+mail-context-menu-forward-redirect =
+    .label = İlet ve yönlendir
+    .accesskey = l
+mail-context-menu-threads =
+    .label = Diziler
+    .accesskey = D
 context-menu-redirect-msg =
     .label = Yönlendir
 # This menu item is for canceling an NNTP message
@@ -209,6 +236,24 @@ mail-context-undelete-messages =
             [one] Silinen iletiyi geri al
            *[other] Seçilen silinmiş iletileri geri al
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] İletiyi sil
+           *[other] Seçilmiş iletileri sil
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Silinmiş iletiyi geri al
+           *[other] Seçilen silinmiş iletileri geri al
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Çözülmüş kopyasını oluştur
     .accesskey = y
@@ -226,6 +271,9 @@ message-header-recipient-avatar =
     .alt = { $address } profil fotoğrafı.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = İleti Başlığı Ayarları
 message-header-customize-button-style =
@@ -393,7 +441,7 @@ quick-filter-bar-toggle =
     .label = Hızlı süzgeç çubuğu
     .accesskey = H
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
