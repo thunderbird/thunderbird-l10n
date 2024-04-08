@@ -24,7 +24,7 @@
 <!ENTITY migrating.label                "Aşağıdaki öğeler şu anda içe aktarılıyor…">
 
 <!ENTITY selectProfile.title            "Kimlik Seç">
-<!ENTITY selectProfile.label            "Aşağıdaki kimliklerden veri alınabilir:">
+<!ENTITY selectProfile.label            "Aşağıdaki profillerden içe aktarma yapabilirsiniz:">
 
 <!ENTITY done.title                     "İçe Aktarma Tamamlandı">
 <!ENTITY done.label                     "Aşağıdaki öğeler başarılı bir şekilde içe aktarıldı:">

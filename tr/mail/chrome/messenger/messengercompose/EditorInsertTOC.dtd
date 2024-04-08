@@ -13,4 +13,4 @@
 <!ENTITY header5.label       "Düzey 5">
 <!ENTITY header6.label       "Düzey 6">
 <!ENTITY makeReadOnly.label  "İçindekiler bölümünü salt okunur yap">
-<!ENTITY orderedList.label   "İçindekiler'deki tüm maddeleri numaralandır">
+<!ENTITY orderedList.label   "İçindekiler bölümündeki tüm maddeleri numaralandır">

@@ -6,7 +6,7 @@
 <!ENTITY AttName.label                  "Öznitelik: ">
 <!ENTITY AttValue.label                 "Değer: ">
 <!ENTITY PropertyName.label             "Özellik: ">
-<!ENTITY currentattributesfor.label     "Bunun için geçerli öznitelikler:">
+<!ENTITY currentattributesfor.label     "Bunun için geçerli öznitelikler: ">
 <!ENTITY tree.attributeHeader.label     "Öznitelik">
 <!ENTITY tree.propertyHeader.label      "Özellik">
 <!ENTITY tree.valueHeader.label         "Değer">

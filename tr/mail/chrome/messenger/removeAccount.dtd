@@ -12,8 +12,8 @@
 <!ENTITY removeData.accesskey         "v">
 <!ENTITY removeDataChat.label         "Yazışma verilerini sil">
 <!ENTITY removeDataChat.accesskey     "a">
-<!ENTITY removeDataLocalAccount.desc  "Bu hesapla ilişkili tüm iletileri, klasörleri ve filtreleri yerel diskinizden kaldırır. Hâlâ sunucuda duran iletileriniz varsa bu işlem onları etkilemez. Yerel verileri arşivlemek veya ileride &brandShortName; yazılımında yeniden kullanmak istiyorsanız bu seçeneği seçmeyin.">
-<!ENTITY removeDataServerAccount.desc "Bu hesapla ilişkili tüm iletileri, klasörleri ve filtreleri yerel diskinizden kaldırır. İletileriniz ve klasörleriniz sunucuda tutulmaya devam eder.">
+<!ENTITY removeDataLocalAccount.desc  "Bu hesapla ilişkili tüm iletileri, klasörleri ve süzgeçleri yerel diskinizden kaldırır. Hâlâ sunucuda duran iletileriniz varsa bu işlem onları etkilemez. Yerel verileri arşivlemek veya ileride &brandShortName; yazılımında yeniden kullanmak istiyorsanız bu seçeneği seçmeyin.">
+<!ENTITY removeDataServerAccount.desc "Bu hesapla ilişkili tüm iletileri, klasörleri ve süzgeçleri yerel diskinizden kaldırır. İletileriniz ve klasörleriniz sunucuda tutulmaya devam eder.">
 <!ENTITY removeDataChatAccount.desc   "Bu hesapla ilişkili tüm yazışma kayıtlarını yerel diskinizden siler.">
 <!ENTITY showData.label               "Veri konumunu göster">
 <!ENTITY showData.accesskey           "k">
