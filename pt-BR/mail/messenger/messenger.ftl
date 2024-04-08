@@ -239,6 +239,24 @@ mail-context-undelete-messages =
             [one] Restaurar mensagem
            *[other] Restaurar mensagens selecionadas
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Excluir mensagem
+           *[other] Excluir mensagens selecionadas
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Restaurar mensagem
+           *[other] Restaurar mensagens selecionadas
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Criar cópia descriptografada em
     .accesskey = d
