@@ -74,7 +74,7 @@ list-id-list-owner =
 # Describes (i.e. http or mailto URL) how to access archives for the mailing list.
 list-id-list-archive =
     .label = Vis arkiver
-    .accesskey = L
+    .accesskey = V
 # Direct link to the archived form of an individual email message. RFC 5064.
 list-id-archived-at =
     .label = Permalink til meddelelse
