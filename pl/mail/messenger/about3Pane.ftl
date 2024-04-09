@@ -507,3 +507,37 @@ apply-current-view-to-folder-message = Czy zastosować ustawienia widoku obecneg
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Czy zastosować ustawienia widoku obecnego folderu do folderu { $name } i folderów w nim zawartych?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> nieprzeczytana z <span>1</span> wiadomości
+                [few] <span>1</span> nieprzeczytana z <span>{ $total }</span> wiadomości
+               *[many] <span>1</span> nieprzeczytana z <span>{ $total }</span> wiadomości
+            }
+        [few]
+            { $total ->
+                [one] <span>{ $unread }</span> nieprzeczytane z <span>1</span> wiadomości
+                [few] <span>{ $unread }</span> nieprzeczytane z <span>{ $total }</span> wiadomości
+               *[many] <span>{ $unread }</span> nieprzeczytane z <span>{ $total }</span> wiadomości
+            }
+       *[many]
+            { $total ->
+                [one] <span>{ $unread }</span> nieprzeczytanych z <span>1</span> wiadomości
+                [few] <span>{ $unread }</span> nieprzeczytanych z <span>{ $total }</span> wiadomości
+               *[many] <span>{ $unread }</span> nieprzeczytanych z <span>{ $total }</span> wiadomości
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> wiadomość
+        [few] <span>{ $total }</span> wiadomości
+       *[many] <span>{ $total }</span> wiadomości
+    }
+threadpane-card-menu-button =
+    .title = Menu wiadomości
