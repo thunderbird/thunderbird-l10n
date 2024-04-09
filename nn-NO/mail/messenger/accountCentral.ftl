@@ -40,7 +40,7 @@ import-paragraph2 = { -brand-short-name } lèt deg importere e-post, adressebøk
 import-label = Importer
     .aria-label = Importer data frå andre program
 about-paragraph = Thunderbird er den leiande plattformuavhengige e-post- og kalenderklienten basert på open kjeldekode, gratis for bedrifter og personleg bruk. Vi ønskjer at han skal halde seg sikker og verte endå betre. Ein donasjon vil tillate oss å tilsetje utviklarar, betale for infrastruktur, og å fortsetje med forbetringane.
-about-paragraph-consider-donation = <b>Thunderbird er finansiert av brukarar som deg! Om du likar Thunderbird, vurder å donere.</b> Den beste måten å sikre at Thunderbird framleis er tilgjengeleg er å <a data-l10n-name="donation-link">donere</a>.
+about-paragraph-consider-donation = <b>Thunderbird er finansiert av brukarar som deg! Om du likar Thunderbird, vurder å donere.</b> Den beste måten å sikre at Thunderbird framleis er tilgjengeleg, er å <a data-l10n-name="donation-link">gje ei pengegåve</a>.
 explore-link = Utforsk funksjonar
 support-link = Brukarstøtte
 involved-link = Engasjer deg
