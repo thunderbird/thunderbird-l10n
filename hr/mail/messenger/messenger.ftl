@@ -241,6 +241,26 @@ mail-context-undelete-messages =
             [one] Vrati obrisanu poruku
            *[other] Vrati odabrane poruke
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Obriši označene poruke
+            [few] Obriši označene poruke
+           *[other] Obriši označene poruke
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Vrati odabrane poruke
+            [few] Vrati odabrane poruke
+           *[other] Vrati odabrane poruke
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Stvori dekriptiranu kopiju u
     .accesskey = j
