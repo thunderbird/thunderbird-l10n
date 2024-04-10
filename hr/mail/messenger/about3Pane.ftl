@@ -507,3 +507,5 @@ apply-current-view-to-folder-message = Primjeni prikaz trenutne mape na { $name 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Primjeni prikaz trenutne mape na { $name } i podmape?
+threadpane-card-menu-button =
+    .title = Izbornik poruke
