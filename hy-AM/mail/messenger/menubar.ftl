@@ -18,8 +18,14 @@ menu-addons-and-themes =
 ## View
 
 
+## View / Folders
+
+
 ## View / Layout
 
+mail-uidensity-default =
+    .label = Սկզբնադիր
+    .accesskey = D
 
 ## File
 

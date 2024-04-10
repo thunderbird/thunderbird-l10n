@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Լռելյայն ինքնամեկնարկի գրացուցակ">
+<!ENTITY showAsDefault.label                            "Սկզբնադիր ինքնամեկնարկի գրացուցակ">
 <!ENTITY showAsDefault.accesskey                        "ի">
 
 <!-- Search Bar -->
@@ -12,6 +12,3 @@
 <!ENTITY Addrbook.label                                 "Հասցեագիրք">
 <!ENTITY GeneratedName.label                            "Անունը">
 <!ENTITY PrimaryEmail.label                             "Էլ-Փոստ">
-
-<!-- Card Summary Pane -->
-

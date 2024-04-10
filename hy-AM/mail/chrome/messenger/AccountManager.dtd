@@ -15,7 +15,7 @@
 <!ENTITY addIMAccountButton.accesskey "Ա">
 <!ENTITY addFeedAccountButton.label "Ավելացնել Սնման հաշիվ…">
 <!ENTITY addFeedAccountButton.accesskey "Ս">
-<!ENTITY setDefaultButton.label "Նշել որպես հիմնական">
+<!ENTITY setDefaultButton.label "Նշել որպես սկզբնադիր">
 <!ENTITY setDefaultButton.accesskey "D">
 <!ENTITY removeButton.label "Ջնջել">
 <!ENTITY removeButton.accesskey "R">

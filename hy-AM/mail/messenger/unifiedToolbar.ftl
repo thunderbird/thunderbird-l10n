@@ -22,6 +22,7 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-restore-default = Վերականգնել սկզբնադիրը
 customize-button-style-icons-beside-text-option = Պատկերակ գրույթի կողքին
 
 ## Unified toolbar customization palette context menu
