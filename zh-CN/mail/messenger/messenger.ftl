@@ -48,7 +48,7 @@ content-tab-menu-back-mac =
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = 转到下一页（{ $shortcut }）
+    .tooltiptext = 转到下一页 ({ $shortcut })
     .aria-label = 下一页
     .accesskey = F
 # This menuitem is only visible on macOS
