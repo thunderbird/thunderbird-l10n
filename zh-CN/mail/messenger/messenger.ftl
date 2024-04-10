@@ -35,7 +35,7 @@ content-tab-security-broken-icon =
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = 返回上一页（{ $shortcut }）
+    .tooltiptext = 返回上一页 ({ $shortcut })
     .aria-label = 返回
     .accesskey = B
 # This menuitem is only visible on macOS
