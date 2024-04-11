@@ -14,11 +14,17 @@ message-header-bcc-list-name = Ccn
 message-header-newsgroups-list-name = Gruppos de discussion
 message-header-followup-to-list-name = Facer sequer a
 message-header-tags-list-name = Etiquettas
+# List management header - RFC 2369.
 message-header-list-help = List-Help
+# List management header - RFC 2369.
 message-header-list-unsubscribe = List-Unsubscribe
+# List management header - RFC 2369.
 message-header-list-subscribe = List-Subscribe
+# List management header - RFC 2369.
 message-header-list-post = List-Post
+# List management header - RFC 2369.
 message-header-list-owner = List-Owner
+# List management header - RFC 2369.
 message-header-list-archive = List-Archive
 
 ## Other message headers.
@@ -39,6 +45,14 @@ message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-
 message-header-list-post-field = List-Post<span data-l10n-name="field-separator"> :</span>
 message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator"> :</span>
 message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Subscriber…
+    .accesskey = S
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Scriber
+    .accesskey = S
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.

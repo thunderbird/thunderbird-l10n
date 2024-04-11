@@ -188,6 +188,12 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-reply =
+    .aria-label = Responder
+    .tooltiptext = Responder
+context-menu-archive =
+    .aria-label = Archivo
+    .tooltiptext = Archivo
 context-menu-redirect-msg =
     .label = Re-diriger
 # This menu item is for canceling an NNTP message
@@ -226,6 +232,9 @@ message-header-recipient-avatar =
     .alt = Photo de profilo de { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Configurationes del titulo del message
 message-header-customize-button-style =
@@ -393,7 +402,7 @@ quick-filter-bar-toggle =
     .label = Barra de filtro rapide
     .accesskey = r
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
