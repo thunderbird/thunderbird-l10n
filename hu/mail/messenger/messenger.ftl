@@ -188,6 +188,36 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Megjelölés olvasottként
+    .tooltiptext = Megjelölés olvasottként
+context-menu-mark-unread =
+    .aria-label = Megjelölés olvasatlanként
+    .tooltiptext = Megjelölés olvasatlanként
+context-menu-mark-reply =
+    .aria-label = Válasz
+    .tooltiptext = Válasz
+context-menu-archive =
+    .aria-label = Archiválás
+    .tooltiptext = Archiválás
+context-menu-mark-junk =
+    .aria-label = Megjelölés levélszemétként
+    .tooltiptext = Megjelölés levélszemétként
+mail-context-menu-open =
+    .label = Megnyitás
+    .accesskey = M
+mail-context-menu-reply =
+    .label = Válasz
+    .accesskey = V
+mail-context-menu-forward-redirect =
+    .label = Továbbítás és átirányítás
+    .accesskey = o
+mail-context-menu-organize =
+    .label = Rendszerezés
+    .accesskey = R
+mail-context-menu-threads =
+    .label = Témacsoportok
+    .accesskey = T
 context-menu-redirect-msg =
     .label = Átirányítás
 # This menu item is for canceling an NNTP message
@@ -209,6 +239,24 @@ mail-context-undelete-messages =
             [one] Törölt üzenet visszaállítása
            *[other] Kijelölt üzenetek visszaállítása
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Üzenet törlése
+           *[other] Kijelölt üzenetek törlése
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Üzenetek visszaállítása
+           *[other] Kijelölt üzenetek visszaállítása
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Visszafejtett másolat létrehozása
     .accesskey = V
@@ -226,6 +274,9 @@ message-header-recipient-avatar =
     .alt = { $address } profilképe.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Üzenetfejléc beállításai
 message-header-customize-button-style =
@@ -393,7 +444,7 @@ quick-filter-bar-toggle =
     .label = Gyorsszűrő sáv
     .accesskey = G
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

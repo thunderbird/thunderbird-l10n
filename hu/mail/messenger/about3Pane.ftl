@@ -504,17 +504,25 @@ apply-current-view-to-folder-with-children-message = Alkalmazza az aktuális map
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> olvasatlan / <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> üzenetből
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> olvasatlan / <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> üzenetből
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> olvasatlan az <span>1</span> üzenetből
+               *[other] <span>1</span> olvasatlan az <span>{ $total }</span> üzenetből
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> olvasatlan az 1 üzenetből
+               *[other] <span>{ $unread }</span> olvasatlan az <span>{ $total }</span> üzenetből
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> üzenet
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> üzenet
+        [one] <span>1</span> üzenet
+       *[other] <span>{ $total }</span> üzenet
     }
 threadpane-card-menu-button =
     .title = Üzenet menü
