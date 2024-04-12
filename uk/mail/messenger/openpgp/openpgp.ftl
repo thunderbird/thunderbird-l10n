@@ -398,6 +398,9 @@ window-locked = Вікно написання заблоковано; надси
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Скасовано
 keyserver-error-unknown = Сталася невідома помилка
 keyserver-error-server-error = Сервер ключів повідомив про помилку.
@@ -409,6 +412,9 @@ keyserver-error-unsupported = Сервер ключів не підтримує�
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Ваш постачальник електронної пошти обробив ваш запит щодо вивантаження вашого відкритого ключа до каталогу
     мережних ключів OpenPGP. Підтвердьте, щоб вивантаження відкритого ключа.
@@ -418,6 +424,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -426,6 +435,9 @@ converter-decrypt-body-failed =
     Бажаєте спробувати з іншою парольною фразою чи хочете пропустити повідомлення?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Виберіть теку для збереження.
 filter-decrypt-move-warn-experimental =
@@ -443,6 +455,9 @@ filter-warn-key-not-secret =
     Якщо у вас немає таємного ключа для '{ $desc }', ви більше не зможете читати електронні листи.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Завжди розшифрувати (OpenPGP)
 filter-decrypt-copy-label = Створити розшифровану копію (OpenPGP)
@@ -517,6 +532,12 @@ openpgp-export-secret-fail = <b>Не вдається експортувати �
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Ключ { $userId } (ID ключа { $keyId }) відкликано.
 key-ring-pub-key-expired = Ключ { $userId } (ID ключа { $keyId }) втратив чинність.
 key-ring-no-secret-key = Схоже ви не маєте таємного ключа для { $userId } (ID ключа { $keyId }) серед ваших ключів; ви не можете скористатися ключем для підписання.
@@ -529,10 +550,16 @@ key-ring-enc-sub-keys-expired = Усі дочірні ключі { $userId } (ID
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Світлина
 user-att-photo = Атрибут користувача (зображення JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Цей ключ вже відкликано.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -556,6 +583,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Імпортувати
 delete-key-title = Видалити ключ OpenPGP
 delete-external-key-title = Вилучити зовнішній ключ GnuPG
@@ -565,6 +595,9 @@ delete-key-in-use-description = Неможливо продовжити! Клю�
 revoke-key-in-use-description = Неможливо продовжити! Ключ, який ви хочете відхилити, в цей час використовується цією особою. Виберіть інший ключ або виберіть "немає" та спробуйте ще раз.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -576,18 +609,30 @@ key-error-not-accepted-as-personal = Ви не підтвердили, що кл
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Вибрана вами функція недоступна в автономному режимі. Увімкніть з'єднання з Мережею та спробуйте знову.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Не вдалося знайти жодного використовуваного ключа, який би відповідав вказаним умовам пошуку.
 no-update-found = У вас уже є ключі, які були знайдені онлайн.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
 fail-key-extract = Помилка - не вдалося виконати команду розпакування ключа
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Помилка - користувач скасував надсилання ключа
 not-first-block = Помилка - перший блок OpenPGP не є блоком відкритого ключа
@@ -600,6 +645,9 @@ no-pgp-block = Помилка - не знайдено дійсного дода�
 confirm-permissive-import = Не вдалося імпортувати. Ключ, який ви намагаєтеся імпортувати, може бути пошкоджено або використовує невідомі атрибути. Бажаєте імпортувати правильні подробиці? Це може призвести до імпорту неповних та непридатних ключів.
 
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = невідомо
 key-valid-invalid = недійсний
@@ -721,6 +769,9 @@ cannot-send-enc-because-no-own-key = Не вдається надіслати ц
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -744,9 +795,15 @@ dlg-button-view = &Переглянути
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Помилка - не вимагається шифрування
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Немає світлини
 # Variables:
@@ -765,6 +822,9 @@ repeat-suffix-singular = раз.
 repeat-suffix-plural = разів.
 no-repeat = Це попередження більше не з'являтиметься.
 dlg-keep-setting = Запам’ятати моє рішення і більше не запитувати
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Закрити
 dlg-button-cancel = &Скасувати
@@ -775,6 +835,9 @@ enig-alert = Сповіщення OpenPGP
 enig-info = Відомості OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Повторити
 dlg-button-skip = &Пропустити
