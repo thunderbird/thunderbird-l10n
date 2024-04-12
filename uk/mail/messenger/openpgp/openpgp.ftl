@@ -98,16 +98,16 @@ openpgp-key-man-discover-prompt = Щоб дослідити ключі OpenPGP �
 openpgp-key-man-discover-progress = Пошук…
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
-openpgp-key-publish-ok = Відкритий ключ надіслано на «{ $keyserver }».
+openpgp-key-publish-ok = Відкритий ключ надіслано на "{ $keyserver }".
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
-openpgp-key-publish-fail = Не вдалося надіслати відкритий ключ на «{ $keyserver }».
+openpgp-key-publish-fail = Не вдалося надіслати відкритий ключ на "{ $keyserver }".
 openpgp-key-copy-key =
-    .label = Скопіюйте відкритий ключ
-    .accesskey = к
+    .label = Копіювати відкритий ключ
+    .accesskey = К
 openpgp-key-export-key =
-    .label = Експорт відкритого ключа до файлу
-    .accesskey = п
+    .label = Експортувати відкритий ключ у файл
+    .accesskey = Е
 openpgp-key-backup-key =
     .label = Резервне копіювання таємного ключа до файлу
     .accesskey = є
