@@ -15,19 +15,19 @@ message-header-newsgroups-list-name = Diskusné skupiny
 message-header-followup-to-list-name = Pokračovať na
 message-header-tags-list-name = Štítky
 # List management header - RFC 2369.
-message-header-list-id = List-ID
+message-header-list-id = Zoznam-identifikátor
 # List management header - RFC 2369.
-message-header-list-help = List-Help
+message-header-list-help = Zoznam-Pomoc
 # List management header - RFC 2369.
-message-header-list-unsubscribe = List-Unsubscribe
+message-header-list-unsubscribe = Zoznam-odhlásenie
 # List management header - RFC 2369.
-message-header-list-subscribe = List-Subscribe
+message-header-list-subscribe = Zoznam-odber
 # List management header - RFC 2369.
-message-header-list-post = List-Post
+message-header-list-post = Zoznam-Prispieť
 # List management header - RFC 2369.
-message-header-list-owner = List-Owner
+message-header-list-owner = Zoznam-vlastník
 # List management header - RFC 2369.
-message-header-list-archive = List-Archive
+message-header-list-archive = Zoznam-Archív
 # Direct link to the archived form of an individual email message - RFC 5064.
 message-header-archived-at = Archived-At
 
@@ -43,13 +43,13 @@ message-header-references-field = Referencie<span data-l10n-name="field-separato
 message-header-message-id-field = Identifikátor správy<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = V odpovedi na<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Webová stránka<span data-l10n-name="field-separator">:</span>
-message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
-message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
-message-header-list-unsubscribe-field = List-Unsubscribe<span data-l10n-name="field-separator">:</span>
-message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-separator">:</span>
-message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
-message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
-message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = Zoznam-identifikátor<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Zoznam-pomoc<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Zoznam-odhlásenie<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Zoznam-odber<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Zoznam-prispieť<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Zoznam-vlastník<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Zoznam-archív<span data-l10n-name="field-separator">:</span>
 message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
