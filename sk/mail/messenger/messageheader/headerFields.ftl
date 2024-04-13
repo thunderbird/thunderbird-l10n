@@ -40,7 +40,7 @@ message-header-subject-field = Predmet<span data-l10n-name="field-separator">:</
 message-header-date-field = Dátum<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Program<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Referencie<span data-l10n-name="field-separator">:</span>
-message-header-message-id-field = ID správy<span data-l10n-name="field-separator">:</span>
+message-header-message-id-field = Identifikátor správy<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = V odpovedi na<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Webová stránka<span data-l10n-name="field-separator">:</span>
 message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>

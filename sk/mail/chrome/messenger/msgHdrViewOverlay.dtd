@@ -18,9 +18,9 @@
 <!ENTITY dateField4.label "Dátum">
 <!ENTITY userAgentField4.label "Program">
 <!ENTITY referencesField4.label "Referencie">
-<!ENTITY messageIdField4.label "ID správy">
+<!ENTITY messageIdField4.label "Identifikátor správy">
 <!ENTITY inReplyToField4.label "V odpovedi na">
-<!ENTITY originalWebsite4.label "Webový server">
+<!ENTITY originalWebsite4.label "Webová stránka">
 
 <!ENTITY hdrArchiveButton1.label "Archivovať">
 <!ENTITY hdrArchiveButton1.tooltip "Archivovať túto správu">
@@ -106,9 +106,9 @@
 <!ENTITY copyLinkCmd.label        "Kopírovať adresu odkazu">
 <!ENTITY copyLinkCmd.accesskey    "K">
 
-<!ENTITY CopyMessageId.label "Kopírovať ID správy">
+<!ENTITY CopyMessageId.label "Kopírovať identifikátor správy">
 <!ENTITY CopyMessageId.accesskey "K">
 <!ENTITY OpenMessageForMsgId.label "Otvoriť správu pre ID">
 <!ENTITY OpenMessageForMsgId.accesskey "O">
-<!ENTITY OpenBrowserWithMsgId.label "Otvoriť prehliadač s ID správy">
+<!ENTITY OpenBrowserWithMsgId.label "Otvoriť prehliadač s identifikátorom správy">
 <!ENTITY OpenBrowserWithMsgId.accesskey "D">
