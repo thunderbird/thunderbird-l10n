@@ -8,7 +8,7 @@
 <!ENTITY serverName.accesskey "S">
 <!ENTITY serverDescription.label "Tanım:">
 <!ENTITY serverDescription.accesskey "m">
-<!ENTITY serverPort.label "İletişim noktası:">
+<!ENTITY serverPort.label "Port:">
 <!ENTITY serverPort.accesskey "o">
 <!ENTITY userName.label "Kullanıcı adı:">
 <!ENTITY userName.accesskey "d">

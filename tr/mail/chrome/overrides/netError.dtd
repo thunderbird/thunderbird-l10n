@@ -87,7 +87,12 @@
 <!ENTITY nssFailure2.longDesc2 "<ul> <li>Görüntülemeye çalıştığınız sayfa, alınan verilerin yetkinliği doğrulanamadığı için gösterilemiyor.</li> <li>Lütfen site sahipleriyle iletişime geçip onları bu sorundan haberdar edin.</li> </ul>">
 
 <!ENTITY nssBadCert.title "Güvenli bağlantı hatası">
-<!ENTITY nssBadCert.longDesc2 "<ul> <li>Sunucunun yapılandırmasıyla ilgili bir sorun olabilir veya birisi sunucuyu taklit etmeye çalışıyor olabilir.</li> <li>Daha önce bu sunucuya sorunsuz bağlandıysanız sorun geçici olabilir ve daha sonra yeniden bağlanmayı deneyebilirsiniz.</li> </ul>">
+<!ENTITY nssBadCert.longDesc2 "
+<ul>
+  <li>Sunucunun yapılandırmasıyla ilgili bir sorun olabilir veya birisi sunucuyu taklit etmeye çalışıyor olabilir.</li>
+  <li>Daha önce bu sunucuya sorunsuz bağlandıysanız sorun geçici olabilir ve daha sonra yeniden bağlanmayı deneyebilirsiniz.</li>
+</ul>
+">
 
 <!ENTITY sharedLongDesc "<ul> <li>Site geçici olarak kapalı veya çok meşgul olabilir. Biraz bekleyip yeniden deneyin.</li> <li>Hiçbir sayfayı açamıyorsanız bilgisayarınızın ağ bağlantısını kontrol edin.</li> <li>Bilgisayarınız veya ağınız güvenlik duvarı veya vekil sunucu tarafından korunuyorsa &brandShortName; uygulamasının Web’e erişim izni olduğundan emin olun.</li> </ul>">
 

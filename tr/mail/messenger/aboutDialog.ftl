@@ -25,7 +25,7 @@ update-restarting = Yeniden başlatılıyor…
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
 channel-description = Şu anda <span data-l10n-name="current-channel">{ $channel }</span> güncelleme kanalındasınız.
 warning-desc-version = { -brand-short-name } deneyseldir ve kararsız olabilir.
-warning-desc-telemetry = { -brand-short-name } uygulamasını iyileştirmek için { -vendor-short-name }'ya otomatik olarak performans, donanım, kullanım ve özelleştirmelerle ilgili bilgi gönderir.
+warning-desc-telemetry = { -brand-short-name } uygulamasını iyileştirmek için { -vendor-short-name }’ya otomatik olarak performans, donanım, kullanım ve özelleştirmelerle ilgili bilgi gönderir.
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 66.0.1

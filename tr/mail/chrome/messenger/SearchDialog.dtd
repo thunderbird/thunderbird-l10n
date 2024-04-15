@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- for SearchDialog.xul -->
 
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "İletileri burada ara:">
 <!ENTITY searchHeading.accesskey     "a">
 <!ENTITY searchSubfolders.label      "Alt dizinlerde ara">
@@ -11,7 +11,7 @@
 <!ENTITY searchOnServer.accesskey    "s">
 <!ENTITY resetButton.label           "Temizle">
 <!ENTITY resetButton.accesskey       "T">
-<!ENTITY openButton.label            "Aç ">
+<!ENTITY openButton.label            "Aç">
 <!ENTITY openButton.accesskey        "A">
 <!ENTITY deleteButton.label          "Sil">
 <!ENTITY deleteButton.accesskey      "S">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Sonuçlar">
 <!ENTITY moveButton.label            "Taşı">
 <!ENTITY moveButton.accesskey        "T">
-<!ENTITY closeCmd.key                "W"> 
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "Bu dizinde aç">
 <!ENTITY openInFolder.accesskey      "d">
 <!ENTITY saveAsVFButton.label        "Arama dizini olarak kaydet">
 <!ENTITY saveAsVFButton.accesskey    "A">
-<!-- for ABSearchDialog.xul -->
 
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "İçinde ara:">
 <!ENTITY abSearchHeading.accesskey   "a">
 <!ENTITY propertiesButton.label      "Özellikler">
@@ -35,7 +35,3 @@
 <!ENTITY deleteCardButton.label      "Sil">
 <!ENTITY deleteCardButton.accesskey  "S">
 <!ENTITY abSearchDialogTitle.label   "Gelişmiş Adres Defteri Araması">
-<!-- Thread Pane -->
-
-<!-- Thread Pane Tooltips -->
-
