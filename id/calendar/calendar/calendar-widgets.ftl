@@ -11,9 +11,43 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-enable-button = Aktifkan
+calendar-new-event-primary-button = Acara Baru
+calendar-new-task-primary-button = Tugas Baru
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Hari Sebelumnya
+    .accesskey = s
+calendar-nav-button-prev-tooltip-week =
+    .title = Minggu Sebelumnya
+    .accesskey = s
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Minggu Sebelumnya
+    .accesskey = s
+calendar-nav-button-prev-tooltip-month =
+    .title = Bulan Sebelumnya
+    .accesskey = s
+calendar-nav-button-prev-tooltip-year =
+    .title = Tahun Sebelumnya
+    .accesskey = s
+calendar-nav-button-next-tooltip-day =
+    .title = Hari Berikutnya
+    .accesskey = b
+calendar-nav-button-next-tooltip-week =
+    .title = Minggu Depan
+    .accesskey = d
+calendar-nav-button-next-tooltip-multiweek =
+    .title = Minggu Depan
+    .accesskey = d
+calendar-nav-button-next-tooltip-month =
+    .title = Bulan Depan
+    .accesskey = d
+calendar-nav-button-next-tooltip-year =
+    .title = Tahun Depan
+    .accesskey = d
+calendar-today-button-tooltip =
+    .title = Buka Hari Ini
 calendar-view-toggle-day = Hari
     .title = Pindah ke tampilan harian
 calendar-view-toggle-week = Minggu
