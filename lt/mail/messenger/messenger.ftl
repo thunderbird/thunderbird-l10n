@@ -69,9 +69,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktiškas vaizdas
     .accesskey = K
 
-## Menu
-
-
 ## File Menu
 
 
@@ -115,15 +112,12 @@ menu-edit-newsgroup-properties =
 
 appmenu-addons-and-themes =
     .label = Priedai ir grafiniai apvalkalai
-appmenu-help-enter-troubleshoot-mode =
-    .label = Trikčių šalinimo veiksena…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Išjungti trikčių šalinimo veikseną
-appmenu-help-more-troubleshooting-info =
-    .label = Daugiau informacijos apie trikčių šalinimą
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Persiųsti
+    .accesskey = P
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -137,6 +131,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
