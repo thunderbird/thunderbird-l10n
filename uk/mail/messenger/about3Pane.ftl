@@ -507,5 +507,37 @@ apply-current-view-to-folder-message = Застосувати вигляд по�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Застосувати вигляд поточної теки до { $name } і вкладених в неї тек?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] Не прочитано <span>1</span> з <span>1</span> повідомлення
+                [few] Не прочитано <span>1</span> з <span>{ $total }</span> повідомлень
+               *[many] Не прочитано <span>1</span> з <span>{ $total }</span> повідомлень
+            }
+        [few]
+            { $total ->
+                [one] Не прочитано <span>{ $unread }</span> з <span>1</span> повідомлення
+                [few] Не прочитано <span>{ $unread }</span> з <span>{ $total }</span> повідомлень
+               *[many] Не прочитано <span>{ $unread }</span> з <span>{ $total }</span> повідомлень
+            }
+       *[many]
+            { $total ->
+                [one] Не прочитано <span>{ $unread }</span> з <span>1</span> повідомлення
+                [few] Не прочитано <span>{ $unread }</span> з <span>{ $total }</span> повідомлень
+               *[many] Не прочитано <span>{ $unread }</span> з <span>{ $total }</span> повідомлень
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> повідомлення
+        [few] <span>{ $total }</span> повідомлення
+       *[many] <span>{ $total }</span> повідомлень
+    }
 threadpane-card-menu-button =
     .title = Меню повідомлення

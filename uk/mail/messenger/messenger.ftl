@@ -193,6 +193,27 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Позначити прочитаним
+    .tooltiptext = Позначити прочитаним
+context-menu-mark-unread =
+    .aria-label = Позначити непрочитаним
+    .tooltiptext = Позначити непрочитаним
+context-menu-mark-reply =
+    .aria-label = Відповісти
+    .tooltiptext = Відповісти
+context-menu-archive =
+    .aria-label = Архівувати
+    .tooltiptext = Архівувати
+mail-context-menu-open =
+    .label = Відкрити
+    .accesskey = В
+mail-context-menu-reply =
+    .label = Відповісти
+    .accesskey = і
+mail-context-menu-forward-redirect =
+    .label = Переслати та перенаправити
+    .accesskey = П
 mail-context-menu-forward-forward =
     .label = Переслати
     .accesskey = П
@@ -409,7 +430,7 @@ quick-filter-bar-toggle =
     .label = Панель швидкого фільтрування
     .accesskey = ф
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
