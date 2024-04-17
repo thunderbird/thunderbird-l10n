@@ -45,6 +45,14 @@ message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-
 message-header-list-post-field = List-Post<span data-l10n-name="field-separator"> :</span>
 message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator"> :</span>
 message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Haber adjuta
+    .accesskey = a
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Remover le subscription…
+    .accesskey = R
 # Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
 list-id-list-subscribe =
     .label = Subscriber…

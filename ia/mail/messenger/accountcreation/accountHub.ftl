@@ -82,6 +82,7 @@ account-hub-username-label = Nomine de usator
 account-hub-adding-account-title = Addente conto
 account-hub-adding-account-subheader = Nove test de parametros de configuration del conto
 account-hub-account-added-title = Conto addite
+account-hub-email-account-added-title = Conto addite con successo
 account-hub-find-settings-failed = { -brand-full-name } non ha potite trovar le parametros pro tu conto email
 account-hub-notification-show-more = Monstrar plus
 account-hub-notification-show-less = Monstrar minus

@@ -500,3 +500,5 @@ apply-current-view-to-folder-message = Applicar le vista del plica actual a { $n
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Applicar le vista del plica actual a { $name } e a su sub-plicas?
+threadpane-card-menu-button =
+    .title = Menu de message
