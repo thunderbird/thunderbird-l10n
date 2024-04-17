@@ -99,9 +99,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = C
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -155,17 +152,12 @@ appmenu-settings =
     .label = Ajustes
 appmenu-addons-and-themes =
     .label = Complementos y temas
-appmenu-help-enter-troubleshoot-mode =
-    .label = Modo de resolución de problemas…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Desactivar modo de resolución de problemas
-appmenu-help-more-troubleshooting-info =
-    .label = Más información sobre resolución de problemas
-appmenu-redirect-msg =
-    .label = Redirigir
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Reenviar
+    .accesskey = R
 context-menu-redirect-msg =
     .label = Redirigir
 # Variables:
@@ -176,9 +168,6 @@ mail-context-delete-messages =
             [one] Eliminar mensaje
            *[other] Eliminar mensajes seleccionados
         }
-context-menu-decrypt-to-folder =
-    .label = Copiar como descifrado a
-    .accesskey = y
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -201,6 +190,9 @@ message-header-recipient-avatar =
     .alt = Imagen de perfil de { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Ajustes del encabezado del mensaje
 message-header-customize-button-style =
@@ -264,10 +256,6 @@ no-reply-reply-anyway-button = Responder de todos modos
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = { $failures } de { $total } mensajes no pudieron ser descifrados y no fueron copiados.
 
 ## Spaces toolbar
 
