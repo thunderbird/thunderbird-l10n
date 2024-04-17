@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Зачекайте, будь ласка…
 openpgp-has-nested-encrypted-parts = Це повідомлення містить додаткові зашифровані частини.
 openpgp-show-encrypted-parts = Розшифрувати й показати
+openpgp-has-nested-signed-parts = Деякі частини цього повідомлення можуть мати цифровий підпис.
+openpgp-show-signed-parts = Відкрити й показати
 openpgp-cannot-decrypt-because-mdc =
     Це повідомлення захищено застарілим і вразливим механізмом.
     Його могли змінити під час доставлення для викрадення його вмісту.
