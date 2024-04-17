@@ -123,6 +123,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Проследи
+    .accesskey = р
 context-menu-redirect-msg =
     .label = Преусмери
 # Variables:
@@ -155,6 +158,9 @@ message-header-msg-flagged =
     .aria-label = Са звездицом
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Подешавања заглавља поруке
 message-header-customize-button-style =
