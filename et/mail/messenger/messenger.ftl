@@ -91,9 +91,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktne vaade
     .accesskey = v
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -147,17 +144,12 @@ appmenu-settings =
     .label = Sätted
 appmenu-addons-and-themes =
     .label = Lisad ja teemad
-appmenu-help-enter-troubleshoot-mode =
-    .label = Probleemide lahendamise režiim…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Lülita probleemide lahendamise režiim välja
-appmenu-help-more-troubleshooting-info =
-    .label = Rohkem probleemide lahendamise teavet
-appmenu-redirect-msg =
-    .label = Suuna ümber
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Edasta
+    .accesskey = d
 context-menu-redirect-msg =
     .label = Suuna ümber
 mail-context-delete-messages =
@@ -166,9 +158,6 @@ mail-context-delete-messages =
             [one] Kustuta kiri
            *[other] Kustuta valitud kirjad
         }
-context-menu-decrypt-to-folder =
-    .label = Kopeeri dekrüpteerituna asukohta
-    .accesskey = p
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -191,6 +180,9 @@ message-header-recipient-avatar =
     .alt = Kontakti { $address } profiilipilt.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Kirja päise sätted
 message-header-customize-button-style =
@@ -247,7 +239,6 @@ no-reply-reply-anyway-button = Vasta igal juhul
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } kirja { $total } kirjast polnud võimalik dekrüptida ja neid ei kopeeritud.
 
 ## Spaces toolbar
 
