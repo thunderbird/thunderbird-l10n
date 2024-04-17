@@ -191,6 +191,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Přeposlat
+    .accesskey = l
 context-menu-redirect-msg =
     .label = Přesměrovat
 # This menu item is for canceling an NNTP message
@@ -231,6 +234,9 @@ message-header-recipient-avatar =
     .alt = Profilový obrázek pro { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Nastavení záhlaví zpráv
 message-header-customize-button-style =
