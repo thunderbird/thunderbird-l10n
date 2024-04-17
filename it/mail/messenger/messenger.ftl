@@ -223,7 +223,7 @@ mail-context-menu-forward-inline =
 mail-context-menu-forward-as-attachment =
     .label =
         { $count ->
-            [one] come allegati
+            [one] Come allegati
            *[other] Come allegati
         }
     .accesskey = c
