@@ -142,6 +142,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Videresend
+    .accesskey = V
 context-menu-redirect-msg =
     .label = Omdiriger
 # This menu item is for canceling an NNTP message
