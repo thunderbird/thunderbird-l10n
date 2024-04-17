@@ -215,6 +215,18 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Doorsturen
     .accesskey = s
+mail-context-menu-forward-inline =
+    .label = Inline
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Als bijlage
+           *[other] Als bijlagen
+        }
+    .accesskey = b
 mail-context-menu-organize =
     .label = Ordenen
     .accesskey = r
