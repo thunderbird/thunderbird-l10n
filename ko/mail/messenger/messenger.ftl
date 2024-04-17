@@ -110,6 +110,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = 전달
+    .accesskey = F
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -123,6 +126,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
