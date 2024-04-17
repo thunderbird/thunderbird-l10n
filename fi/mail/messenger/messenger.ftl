@@ -188,6 +188,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Välitä
+    .accesskey = ä
 context-menu-redirect-msg =
     .label = Uudelleenohjaa
 # This menu item is for canceling an NNTP message
