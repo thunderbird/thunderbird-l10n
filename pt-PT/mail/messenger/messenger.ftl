@@ -114,6 +114,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Reencaminhar
+    .accesskey = e
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
