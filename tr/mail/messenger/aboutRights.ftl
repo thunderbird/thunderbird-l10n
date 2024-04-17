@@ -14,7 +14,7 @@ rights-intro-point-5-unbranded = Bu ürün web hizmetleriyle bağlantı kuruyors
 rights-intro-point-6 = Bazı video türlerini oynatabilmek için { -brand-short-name } üçüncü taraflara ait bazı içerik çözme modüllerini indirir.
 rights-webservices-header = { -brand-full-name } Web Tabanlı Bilgi Hizmetleri
 rights-webservices2 = { -brand-full-name } bu ikili { -brand-short-name } sürümünde kullanımınıza sunulan bazı özellikler için, aşağıdaki açıklanan koşullar kapsamında web tabanlı bilgi hizmetlerinden ("Hizmetler") yararlanır. Hizmetlerden birini veya birkaçını kullanmak istemiyorsanız veya aşağıdaki koşulları kabul etmiyorsanız ilgili özelliği ve Hizmet(ler)i devre dışı bırakabilirsiniz. Özellik veya Hizmetleri devre dışı bırakmanız için izleyebileceğiniz yönergeler <a data-l10n-name="mozilla-disable-service-link">burada</a> bulunabilir. Diğer özellikler ve Hizmetler uygulama ayarlarından devre dışı bırakılabilir.
-rights-locationawarebrowsing = <strong>Konuma Duyarlı Tarama: </strong>her zaman sizin isteğinizle çalışır. Sizin izniniz alınmadan asla konum bilgisi gönderilmez. Bu özelliği tamamen devre dışı bırakmak istiyorsanız şu adımlar izleyin:
+rights-locationawarebrowsing = <strong>Konuma Duyarlı Gezinti: </strong>Her zaman sizin isteğinizle çalışır. Sizin izniniz alınmadan asla konum bilgisi gönderilmez. Bu özelliği tamamen devre dışı bırakmak istiyorsanız şu adımları izleyin:
 rights-locationawarebrowsing-term-1 = Adres çubuğuna şunu yazın: <code>about:config</code>
 rights-locationawarebrowsing-term-2 = geo.enabled yazın
 rights-locationawarebrowsing-term-3 = geo.enabled tercihine çift tıklayın
