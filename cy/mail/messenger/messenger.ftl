@@ -227,6 +227,22 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Ymlaen
     .accesskey = Y
+mail-context-menu-forward-inline =
+    .label = Mewnlin
+    .accesskey = M
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [zero] Fel Ymlyniadau
+            [one] Fel Atodiad
+            [two] Fel Ymlyniadau
+            [few] Fel Ymlyniadau
+            [many] Fel Ymlyniadau
+           *[other] Fel Ymlyniadau
+        }
+    .accesskey = F
 mail-context-menu-organize =
     .label = Trefnu
     .accesskey = T
