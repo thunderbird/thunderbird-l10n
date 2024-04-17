@@ -33,9 +33,6 @@ show-tags-folders-label =
     .label = Merkers
     .accesskey = M
 
-## Menu
-
-
 ## File Menu
 
 
@@ -71,6 +68,9 @@ menu-edit-undelete-messages =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Aanstuur
+    .accesskey = A
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -84,6 +84,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
