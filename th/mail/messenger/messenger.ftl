@@ -141,6 +141,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = ส่งต่อ
+    .accesskey = ง
 context-menu-redirect-msg =
     .label = เปลี่ยนเส้นทาง
 # Variables:
