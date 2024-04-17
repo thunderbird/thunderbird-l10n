@@ -17,17 +17,17 @@ message-header-tags-list-name = Štítky
 # List management header - RFC 2369.
 message-header-list-id = Zoznam-identifikátor
 # List management header - RFC 2369.
-message-header-list-help = Zoznam-Pomoc
+message-header-list-help = Zoznam-pomoc
 # List management header - RFC 2369.
 message-header-list-unsubscribe = Zoznam-odhlásenie
 # List management header - RFC 2369.
 message-header-list-subscribe = Zoznam-odber
 # List management header - RFC 2369.
-message-header-list-post = Zoznam-Prispieť
+message-header-list-post = Zoznam-prispieť
 # List management header - RFC 2369.
 message-header-list-owner = Zoznam-vlastník
 # List management header - RFC 2369.
-message-header-list-archive = Zoznam-Archív
+message-header-list-archive = Zoznam-archív
 # Direct link to the archived form of an individual email message - RFC 5064.
 message-header-archived-at = Archived-At
 
