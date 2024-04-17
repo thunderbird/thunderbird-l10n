@@ -214,6 +214,17 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = 轉寄
     .accesskey = F
+mail-context-menu-forward-inline =
+    .label = 引入內文
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+           *[other] 以附件轉寄
+        }
+    .accesskey = A
 mail-context-menu-organize =
     .label = 管理
     .accesskey = g
