@@ -91,9 +91,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Timeẓri yessden
     .accesskey = T
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -147,17 +144,12 @@ appmenu-settings =
     .label = Iɣewwaren
 appmenu-addons-and-themes =
     .label = Izegrar d yisental
-appmenu-help-enter-troubleshoot-mode =
-    .label = Askar n usellek…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Sens askar n ferru n wuguren
-appmenu-help-more-troubleshooting-info =
-    .label = Ugar n talɣut n usellek
-appmenu-redirect-msg =
-    .label = Abeddel n uwelleh
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Ɣer zdat
+    .accesskey = z
 context-menu-redirect-msg =
     .label = Abeddel n uwelleh
 # Variables:
@@ -168,9 +160,6 @@ mail-context-delete-messages =
             [one] Kkes izen
            *[other] Kkes iznan yettwafernen
         }
-context-menu-decrypt-to-folder =
-    .label = Nqel am wakken yettuwgelhen ɣer
-    .accesskey = q
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -189,6 +178,9 @@ message-header-msg-flagged =
     .aria-label = Ɣur-s itri
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Iɣewwaren n uqerru n yizen
 message-header-customize-button-style =
@@ -239,10 +231,6 @@ no-reply-reply-anyway-button = Err akken ibɣu yili
 
 ## error messages
 
-# Variables:
-# $failures (Number) - Number of messages that could not be decrypted.
-# $total (Number) - Total number of messages that were attempted to be decrypted.
-decrypt-and-copy-failures = { $failures } n { $total } yiznan gguman ad asen-yettwakkes uwgelhen, ur ttwanɣalen ara.
 
 ## Spaces toolbar
 
