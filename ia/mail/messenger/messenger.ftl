@@ -194,6 +194,9 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archivo
     .tooltiptext = Archivo
+mail-context-menu-forward-forward =
+    .label = Inviar ultra
+    .accesskey = u
 context-menu-redirect-msg =
     .label = Re-diriger
 # This menu item is for canceling an NNTP message
