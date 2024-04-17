@@ -64,9 +64,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Dlúthamharc
     .accesskey = c
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -118,6 +115,9 @@ appmenu-settings =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Cuir Ar Aghaidh
+    .accesskey = C
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -131,6 +131,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-button-style-text =
     .label = Téacs
