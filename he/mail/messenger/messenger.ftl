@@ -65,9 +65,6 @@ show-tags-folders-label =
     .label = תווית
     .accesskey = ת
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -118,15 +115,12 @@ appmenu-settings =
     .label = הגדרות
 appmenu-addons-and-themes =
     .label = תוספות וערכות נושא
-appmenu-help-enter-troubleshoot-mode =
-    .label = מצב לפתרון בעיות…
-appmenu-help-exit-troubleshoot-mode =
-    .label = כיבוי מצב לפתרון בעיות
-appmenu-help-more-troubleshooting-info =
-    .label = מידע נוסף לפתרון בעיות
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = העבר
+    .accesskey = ע
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -140,6 +134,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
