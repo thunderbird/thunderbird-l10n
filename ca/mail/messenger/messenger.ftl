@@ -188,6 +188,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Reenvia
+    .accesskey = v
 context-menu-redirect-msg =
     .label = Redirigeix
 # This menu item is for canceling an NNTP message
