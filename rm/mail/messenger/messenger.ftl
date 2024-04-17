@@ -188,6 +188,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Renviar
+    .accesskey = F
 context-menu-redirect-msg =
     .label = Renviar
 # This menu item is for canceling an NNTP message
@@ -226,6 +229,9 @@ message-header-recipient-avatar =
     .alt = Maletg da profil per { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Parameters dal chau dal messadi
 message-header-customize-button-style =
