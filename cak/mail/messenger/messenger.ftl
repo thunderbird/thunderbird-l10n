@@ -66,9 +66,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Molk'ïy Tz'etoj
     .accesskey = M
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -119,15 +116,12 @@ appmenu-settings =
     .label = Taq nuk'ulem
 appmenu-addons-and-themes =
     .label = Taq Tz'aqat chuqa' taq Wachinel
-appmenu-help-enter-troubleshoot-mode =
-    .label = Kib'anikil taq K'ayewal…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Tichup ri Rub'anikil Kiwäch K'ayewal
-appmenu-help-more-troubleshooting-info =
-    .label = Ch'aqa' Etamab'äl richin yesol taq k'ayewal
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Jun chik
+    .accesskey = J
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -141,6 +135,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-button-style-default =
     .label = Taq wachib'äl chuqa' rucholajem tz'ib'
