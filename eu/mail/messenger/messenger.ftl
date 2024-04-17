@@ -188,6 +188,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Birbidali
+    .accesskey = B
 context-menu-redirect-msg =
     .label = Birbideratzea
 # This menu item is for canceling an NNTP message
