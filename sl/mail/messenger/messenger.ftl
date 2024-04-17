@@ -212,6 +212,9 @@ context-menu-mark-junk =
 mail-context-menu-open =
     .label = Odpri
     .accesskey = O
+mail-context-menu-forward-forward =
+    .label = Posreduj
+    .accesskey = P
 context-menu-redirect-msg =
     .label = Preusmeri
 # This menu item is for canceling an NNTP message
