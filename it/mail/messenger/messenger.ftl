@@ -215,6 +215,18 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Inoltra
     .accesskey = I
+mail-context-menu-forward-inline =
+    .label = In linea
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] come allegati
+           *[other] Come allegati
+        }
+    .accesskey = c
 mail-context-menu-organize =
     .label = Organizza
     .accesskey = O
