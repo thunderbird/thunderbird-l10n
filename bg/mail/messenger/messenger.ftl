@@ -188,6 +188,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Препращане
+    .accesskey = щ
 context-menu-redirect-msg =
     .label = Пренасочвания
 # This menu item is for canceling an NNTP message
