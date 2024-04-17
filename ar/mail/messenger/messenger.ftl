@@ -33,9 +33,6 @@ show-tags-folders-label =
     .label = الوسوم
     .accesskey = و
 
-## Menu
-
-
 ## File Menu
 
 
@@ -80,6 +77,9 @@ menu-edit-newsgroup-properties =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = إلى الأمام
+    .accesskey = م
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -93,6 +93,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
