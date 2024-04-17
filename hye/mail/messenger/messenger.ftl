@@ -91,9 +91,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -147,17 +144,12 @@ appmenu-settings =
     .label = Կարգաւորումներ
 appmenu-addons-and-themes =
     .label = Յաւելումներ եւ հիմնապատկերներ
-appmenu-help-enter-troubleshoot-mode =
-    .label = Խափանաշտկման ռեժիմ…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Անջատել խափանաշտկման ռեժիմը
-appmenu-help-more-troubleshooting-info =
-    .label = Խափանաշտկման աւելի շատ տուեալներ
-appmenu-redirect-msg =
-    .label = Վերայղում
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Փոխանցել
+    .accesskey = Փ
 context-menu-redirect-msg =
     .label = Վերայղում
 mail-context-delete-messages =
@@ -166,9 +158,6 @@ mail-context-delete-messages =
             [one] Ջնջել հաղորդագրութիւնը
            *[other] Ջնջել ընտրուած հաղորդագրութիւնները
         }
-context-menu-decrypt-to-folder =
-    .label = Պատճէնել, որպէս վերծանուած
-    .accesskey = ե
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -187,6 +176,9 @@ message-header-msg-flagged =
     .aria-label = Աստղանշուած
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Հաղորդագրութեան գլխագրի կարգաւորումներ
 message-header-customize-button-style =
@@ -233,7 +225,6 @@ no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures } { $total } հաղորդագրութիւններից հնարաւոր չէ վերծանել եւ պատճենուել
 
 ## Spaces toolbar
 
