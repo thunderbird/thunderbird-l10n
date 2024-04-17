@@ -217,6 +217,20 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Dalej pósrědniś
     .accesskey = l
+mail-context-menu-forward-inline =
+    .label = Zasajźony
+    .accesskey = Z
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Ako pśidank
+            [two] Ako pśidanka
+            [few] Ako pśidanki
+           *[other] Ako pśidanki
+        }
+    .accesskey = A
 mail-context-menu-organize =
     .label = Organizěrowaś
     .accesskey = O
