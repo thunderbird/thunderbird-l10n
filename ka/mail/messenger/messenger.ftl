@@ -91,9 +91,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = შემჭიდროებული ჩვენება
     .accesskey = ჭ
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -147,17 +144,12 @@ appmenu-settings =
     .label = პარამეტრები
 appmenu-addons-and-themes =
     .label = დანამატები და თემები
-appmenu-help-enter-troubleshoot-mode =
-    .label = ხარვეზის აღმოფხვრის რეჟიმი…
-appmenu-help-exit-troubleshoot-mode =
-    .label = ხარვეზის აღმოფხვრის რეჟიმის გამორთვა
-appmenu-help-more-troubleshooting-info =
-    .label = ხარვეზის აღმოფხვრის ვრცელი მონაცემები
-appmenu-redirect-msg =
-    .label = გადამისამართება
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = გადაგზავნა
+    .accesskey = დ
 context-menu-redirect-msg =
     .label = გადამისამართება
 mail-context-delete-messages =
@@ -166,9 +158,6 @@ mail-context-delete-messages =
             [one] წერილების წაშლა
            *[other] შერჩეული წერილების წაშლა
         }
-context-menu-decrypt-to-folder =
-    .label = ასლი გაშიფრული სახით
-    .accesskey = ფ
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -191,6 +180,9 @@ message-header-recipient-avatar =
     .alt = პროფილის გამოსახულება – { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = წერილის თავსართი პარამეტრები
 message-header-customize-button-style =
@@ -247,7 +239,6 @@ no-reply-reply-anyway-button = პასუხის მიწერა მა�
 
 ## error messages
 
-decrypt-and-copy-failures = { $failures }, ჯამში { $total } წერილიდან ვერ გაიშიფრა და მათი ასლი არ აღებულა.
 
 ## Spaces toolbar
 
