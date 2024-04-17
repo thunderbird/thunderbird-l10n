@@ -91,6 +91,9 @@ appmenu-settings =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Treuzkas
+    .accesskey = e
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Dilezel ar gemennadenn
