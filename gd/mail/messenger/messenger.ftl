@@ -131,9 +131,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Sealladh dùmhail
     .accesskey = S
 
-## Menu
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -190,17 +187,12 @@ appmenu-settings =
     .label = Roghainnean
 appmenu-addons-and-themes =
     .label = Tuilleadain ’s ùrlaran
-appmenu-help-enter-troubleshoot-mode =
-    .label = Am modh fuasgladh dhuilgheadasan…
-appmenu-help-exit-troubleshoot-mode =
-    .label = Cuir am modh fuasgladh dhuilgheadasan dheth
-appmenu-help-more-troubleshooting-info =
-    .label = Barrachd fiosrachaidh mu fhuasgladh air duilgheadasan
-appmenu-redirect-msg =
-    .label = Ath-stiùirich
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Air adhart
+    .accesskey = A
 context-menu-redirect-msg =
     .label = Ath-stiùirich
 # Variables:
@@ -213,9 +205,6 @@ mail-context-delete-messages =
             [few] Sguab na teachdaireachdan a thagh thu às
            *[other] Sguab na teachdaireachdan a thagh thu às
         }
-context-menu-decrypt-to-folder =
-    .label = Cuir lethbhreac dhe na chaidh a dhì-chrioptachadh gu
-    .accesskey = t
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -241,6 +230,9 @@ message-header-recipient-avatar =
     .alt = An dealbh pròifil aig { $address }.
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 message-header-customize-panel-title = Roghainnean bann-cinn na teachdaireachd
 message-header-customize-button-style =
