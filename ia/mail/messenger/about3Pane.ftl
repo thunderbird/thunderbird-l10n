@@ -500,5 +500,28 @@ apply-current-view-to-folder-message = Applicar le vista del plica actual a { $n
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Applicar le vista del plica actual a { $name } e a su sub-plicas?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> message non legite de <span>1</span>
+               *[other] <span>1</span> messages non legite de <span>{ $total }</span>
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> message non legite <span>1</span>
+               *[other] <span>{ $unread }</span> messages non legite <span>{ $total }</span>
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> message
+       *[other] <span>{ $total }</span> messages
+    }
 threadpane-card-menu-button =
     .title = Menu de message

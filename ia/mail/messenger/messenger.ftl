@@ -188,21 +188,45 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Marcar como legite
+    .tooltiptext = Marcar como legite
+context-menu-mark-unread =
+    .aria-label = Marcar como non legite
+    .tooltiptext = Marcar como non legite
 context-menu-mark-reply =
     .aria-label = Responder
     .tooltiptext = Responder
 context-menu-archive =
     .aria-label = Archivo
     .tooltiptext = Archivo
+context-menu-mark-junk =
+    .aria-label = Marcar como Immunditia
+    .tooltiptext = Marcar como Immunditia
 mail-context-menu-open =
     .label = Aperir
     .accesskey = A
 mail-context-menu-reply =
     .label = Responder
     .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = Inultrar e re-adressar
+    .accesskey = I
 mail-context-menu-forward-forward =
     .label = Inviar ultra
     .accesskey = u
+mail-context-menu-forward-inline =
+    .label = In linea
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Como annexo
+           *[other] Como annexos
+        }
+    .accesskey = C
 mail-context-menu-organize =
     .label = Organisar
     .accesskey = g
@@ -230,6 +254,24 @@ mail-context-undelete-messages =
             [one] Recuperar message
            *[other] Recuperar messages selecte
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Deler imagines
+           *[other] Deler imagines selecte
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Recuperar message
+           *[other] Recuperar messages selecte
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Crear copia decryptate in
     .accesskey = C

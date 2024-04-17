@@ -47,6 +47,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = r
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Genera e salva le certificato de revocation
+openpgp-key-man-gen-revocation =
+    .label = Salvar le certificato de revocation in file
+    .accesskey = c
 openpgp-key-man-file-menu =
     .label = File
     .accesskey = F
@@ -138,8 +141,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Copiar claves public al area de transferentia
         }
     .accesskey = C
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Exportar claves a file
 openpgp-key-man-ctx-copy =
     .label = Copiar
     .accesskey = C
@@ -390,6 +391,9 @@ window-locked = Le fenestra de composition es blocate; invio cancellate
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Abortate
 keyserver-error-unknown = Un error incognite occurreva
 keyserver-error-server-error = Le servitor-de-clave ha signalate un error.
@@ -401,6 +405,9 @@ keyserver-error-unsupported = Le servitor-de-claves non es disponibile.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Tu fornitor de e-mail ha processate tu requesta de incargar tu clave public al directorio web de claves OpenPGP.
     Per favor confirma pro concluder le publication de tu clave public.
@@ -410,6 +417,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -418,6 +428,9 @@ converter-decrypt-body-failed =
     Vole tu reprobar con un differente phrase contrasigno o saltar le message?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Tu debe eliger un dossier de destination.
 filter-decrypt-move-warn-experimental =
@@ -435,6 +448,9 @@ filter-warn-key-not-secret =
     Si tu non ha le secreto clave secrete pro '{ $desc }' tu non potera plus leger le emails.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Decryptar permanentemente (OpenPGP)
 filter-decrypt-copy-label = Crear copia decryptate (OpenPGP)
@@ -511,6 +527,12 @@ openpgp-export-secret-fail = <b>Impossibile exportar le clave secrete seligite!<
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Le clave { $userId } (ID clave { $keyId }) es revocate.
 key-ring-pub-key-expired = Le clave { $userId } (ID clave { $keyId }) es expirate.
 key-ring-no-secret-key = Tu non pare haber le clave secrete pro { $userId } (ID clave { $keyId }) sur tu anello de claves; tu non pote usa le clave pro signar.
@@ -523,10 +545,16 @@ key-ring-enc-sub-keys-expired = Tote le sub-claves cryptographic del clave { $us
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Photo
 user-att-photo = Attributo del usator (imagine JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Iste clave ha jam essite revocate.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -550,6 +578,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Importar
 delete-key-title = Deler clave OpenPGP
 delete-external-key-title = Remover le clave externe GnuPG
@@ -559,6 +590,9 @@ delete-key-in-use-description = Impossibile continuar! Le clave que tu ha seligi
 revoke-key-in-use-description = Impossibile continuar! Le clave que tu ha seligite pro revocation es actualmente usate per iste identitate. Elige un clave differente o nulle e reproba.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -570,18 +604,30 @@ key-error-not-accepted-as-personal = Tu non ha confirmate que le clave con ID '{
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Le function que tu ha seligite non es disponibile in modo sin connexion. Per favor va online e reproba.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Impossibile trovar ulle clave utile concordante le criterios de recerca specificate.
 no-update-found = Tu jam ha le claves discoperite online.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
 fail-key-extract = Error - Commando de extraction clave fallite
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Error - reception clave cancellate per le usator
 not-first-block = Error - Prime blocada de OpenPGP non es blocada de clave public
@@ -594,6 +640,9 @@ no-pgp-block = Error - Nulle valide bloco datos OpenPGP cuirassate trovate
 confirm-permissive-import = Importation fallite. Le clave que tu tenta importar pote esser corrumpite o usa attributos incognite. Vole tu tentar de importar le partes que es correcte? Isto pote comportar le importation de claves incomplete e inusabile.
 
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = incognite
 key-valid-invalid = non valide
@@ -717,6 +766,9 @@ cannot-send-enc-because-no-own-key = Impossibile firmar digitalmente iste messag
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -738,15 +790,17 @@ attachment-pgp-key =
     Clicca 'Importar' pro importar le claves continite o 'Vider' pro vider le contentos del file in un fenestra de navigator
 dlg-button-view = &Vider
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Message decryptate (restaurate formato de email PGP corrupte, probabilemente causate per un vetere servitor Exchange, de maniera que le resultato pote non esser perfecte a leger)
-
 ## Strings used in encryption.jsm
+
+
+## Strings used in encryption.sys.mjs
 
 not-required = Error - nulle cryptation requirite
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Nulle photos disponibile
 # Variables:
@@ -765,6 +819,9 @@ repeat-suffix-singular = altere vice.
 repeat-suffix-plural = altere vices.
 no-repeat = Iste aviso non sera plus monstrate.
 dlg-keep-setting = Rememora mi responsa e non demandar me de novo
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Clauder
 dlg-button-cancel = &Cancellar
@@ -775,6 +832,9 @@ enig-alert = Alerta OpenPGP
 enig-info = Information OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Retentar
 dlg-button-skip = &Saltar
