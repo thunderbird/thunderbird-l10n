@@ -35,9 +35,6 @@ show-tags-folders-label =
     .label = Меткі
     .accesskey = М
 
-## Menu
-
-
 ## File Menu
 
 
@@ -82,6 +79,9 @@ menu-edit-newsgroup-properties =
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Пераслаць
+    .accesskey = к
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -95,6 +95,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
