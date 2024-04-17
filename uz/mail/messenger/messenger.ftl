@@ -33,9 +33,6 @@ show-tags-folders-label =
     .label = Teglar
     .accesskey = T
 
-## Menu
-
-
 ## File Menu
 
 
@@ -77,11 +74,12 @@ menu-edit-newsgroup-properties =
 
 ## AppMenu
 
-appmenu-help-more-troubleshooting-info =
-    .label = Boshqa tuzatish maʼlumotlari
 
 ## Context menu
 
+mail-context-menu-forward-forward =
+    .label = Uzatish
+    .accesskey = U
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -95,6 +93,9 @@ mail-context-undelete-messages =
 
 
 ## Message header cutomize panel
+
+
+## Message header customize panel
 
 
 ## Action Button Context Menu
