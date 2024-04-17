@@ -215,6 +215,18 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Reenviar
     .accesskey = v
+mail-context-menu-forward-inline =
+    .label = Incorporado
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Como adjunto
+           *[other] Como adjuntos
+        }
+    .accesskey = C
 mail-context-menu-organize =
     .label = Organizar
     .accesskey = g
