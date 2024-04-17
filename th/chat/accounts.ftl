@@ -15,6 +15,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = ยังไม่มีบัญชีที่กำหนดค่า
+account-manager-no-account-description = คลิกที่ปุ่ม { new-account-label } เพื่อให้ { -brand-short-name } แนะนำกระบวนการกำหนดค่าให้กับคุณ
 account-auto-sign-on =
     .label = ลงชื่อเข้าเมื่อเริ่มการทำงาน
     .accesskey = ล
