@@ -191,6 +191,21 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Označit jako přečtené
+    .tooltiptext = Označit jako přečtené
+context-menu-mark-unread =
+    .aria-label = Označit jako nepřečtené
+    .tooltiptext = Označit jako nepřečtené
+context-menu-mark-reply =
+    .aria-label = Odpovědět
+    .tooltiptext = Odpovědět
+context-menu-archive =
+    .aria-label = Archivovat
+    .tooltiptext = Archivovat
+mail-context-menu-open =
+    .label = Otevřít
+    .accesskey = O
 mail-context-menu-forward-forward =
     .label = Přeposlat
     .accesskey = l
@@ -411,7 +426,7 @@ quick-filter-bar-toggle =
     .label = Lišta rychlého filtru
     .accesskey = r
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
