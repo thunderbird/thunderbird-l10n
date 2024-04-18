@@ -215,6 +215,18 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Áfram
     .accesskey = m
+mail-context-menu-forward-inline =
+    .label = Innfellt
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Sem viðhengi
+           *[other] Sem viðhengi
+        }
+    .accesskey = h
 mail-context-menu-organize =
     .label = Skipuleggja
     .accesskey = g
