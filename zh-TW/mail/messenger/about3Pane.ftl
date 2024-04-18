@@ -498,9 +498,10 @@ apply-current-view-to-folder-with-children-message = 確定要將目前信件匣
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-unread-count =
     { $unread ->
-       *[other] <span>{ $unread }</span> 未讀
-    }{ " " }{ $total ->
-       *[other] 共 <span>{ $total }</span> 封訊息。
+       *[other]
+            { $total ->
+               *[other] <span>{ $unread }</span> 封未讀訊息，共 <span>{ $total }</span> 封訊息
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.

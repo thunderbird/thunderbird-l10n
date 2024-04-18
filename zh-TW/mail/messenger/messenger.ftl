@@ -241,8 +241,8 @@ context-menu-cancel-msg =
 mail-context-delete-messages =
     .label =
         { $count ->
-            [one] 刪除訊息
-           *[other] 刪除選擇的訊息
+            [one] 刪除郵件
+           *[other] 刪除選擇的郵件
         }
 # Variables:
 # $count (Number) - Number of selected messages.
@@ -257,6 +257,7 @@ mail-context-undelete-messages =
 mail-context-messages-delete =
     .label =
         { $count ->
+            [one] 刪除郵件
            *[other] 刪除選擇的郵件
         }
     .tooltiptext = { mail-context-messages-delete.label }
