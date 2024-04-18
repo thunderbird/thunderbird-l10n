@@ -203,12 +203,41 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archivovat
     .tooltiptext = Archivovat
+context-menu-mark-junk =
+    .aria-label = Označit jako nevyžádanou
+    .tooltiptext = Označit jako nevyžádanou
 mail-context-menu-open =
     .label = Otevřít
     .accesskey = O
+mail-context-menu-reply =
+    .label = Odpovědět
+    .accesskey = O
+mail-context-menu-forward-redirect =
+    .label = Přeposlat a přesměrovat
+    .accesskey = P
 mail-context-menu-forward-forward =
     .label = Přeposlat
     .accesskey = l
+mail-context-menu-forward-inline =
+    .label = Jako vložené
+    .accesskey = v
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Jako přílohu
+            [few] Jako přílohy
+            [many] Jako přílohy
+           *[other] Jako přílohy
+        }
+    .accesskey = p
+mail-context-menu-organize =
+    .label = Uspořádat
+    .accesskey = U
+mail-context-menu-threads =
+    .label = Vlákna
+    .accesskey = V
 context-menu-redirect-msg =
     .label = Přesměrovat
 # This menu item is for canceling an NNTP message
@@ -232,6 +261,28 @@ mail-context-undelete-messages =
             [few] Obnovit vybrané smazané zprávy
            *[other] Obnovit vybrané smazané zprávy
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Smazat zprávu
+            [few] Smazat označené zprávy
+            [many] Smazat označené zprávy
+           *[other] Smazat označené zprávy
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Obnovit zprávu
+            [few] Obnovit označené zprávy
+            [many] Obnovit označené zprávy
+           *[other] Obnovit označené zprávy
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Vytvořit dešifrovanou kopii
     .accesskey = V

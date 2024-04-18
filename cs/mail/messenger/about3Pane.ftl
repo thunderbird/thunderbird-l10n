@@ -513,13 +513,47 @@ apply-current-view-to-folder-message = Použít zobrazení aktuální složky pr
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Použít zobrazení aktuální složky pro složku { $name } a její podsložky?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> zpráva, z toho <span>1</span> nepřečtená
+                [few] <span>{ $total }</span> zprávy, z toho <span>1</span> nepřečtená
+                [many] <span>{ $total }</span> zpráv, z toho <span>1</span> nepřečtená
+               *[other] <span>{ $total }</span> zpráv, z toho <span>1</span> nepřečtená
+            }
+        [few]
+            { $total ->
+                [one] <span>1</span> zpráva, z toho <span>{ $unread }</span> nepřečtené
+                [few] <span>{ $total }</span> zprávy, z toho <span>{ $unread }</span> nepřečtené
+                [many] <span>{ $total }</span> zpráv, z toho <span>{ $unread }</span> nepřečtené
+               *[other] <span>{ $total }</span> zpráv, z toho <span>{ $unread }</span> nepřečtené
+            }
+        [many]
+            { $total ->
+                [one] <span>1</span> zpráva, z toho <span>{ $unread }</span> nepřečtených
+                [few] <span>{ $total }</span> zprávy, z toho <span>{ $unread }</span> nepřečtených
+                [many] <span>{ $total }</span> zpráv, z toho <span>{ $unread }</span> nepřečtených
+               *[other] <span>{ $total }</span> zpráv, z toho <span>{ $unread }</span> nepřečtených
+            }
+       *[other]
+            { $total ->
+                [one] <span>1</span> zpráva, z toho <span>{ $unread }</span> nepřečtených
+                [few] <span>{ $total }</span> zprávy, z toho <span>{ $unread }</span> nepřečtených
+                [many] <span>{ $total }</span> zpráv, z toho <span>{ $unread }</span> nepřečtených
+               *[other] <span>{ $total }</span> zpráv, z toho <span>{ $unread }</span> nepřečtených
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span>  zpráva
-        [few] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> zprávy
-        [many] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span>  zpráv
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span>  zpráv
+        [one] <span>1</span> zpráva
+        [few] <span>{ $total }</span> zprávy
+        [many] <span>{ $total }</span> zpráv
+       *[other] <span>{ $total }</span> zpráv
     }
 threadpane-card-menu-button =
     .title = Nabídka pro zprávu
