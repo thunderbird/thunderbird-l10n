@@ -215,6 +215,18 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Vidarebefordra
     .accesskey = V
+mail-context-menu-forward-inline =
+    .label = Infogad
+    .accesskey = n
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Som bilaga
+           *[other] Som bilagor
+        }
+    .accesskey = b
 mail-context-menu-organize =
     .label = Organisera
     .accesskey = r
