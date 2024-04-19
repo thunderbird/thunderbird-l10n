@@ -220,6 +220,19 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Переслать
     .accesskey = П
+mail-context-menu-forward-inline =
+    .label = Внутри сообщения
+    .accesskey = Ш
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Как вложение
+            [few] Как вложения
+           *[many] Как вложения
+        }
+    .accesskey = Ф
 mail-context-menu-organize =
     .label = Управление
     .accesskey = п
