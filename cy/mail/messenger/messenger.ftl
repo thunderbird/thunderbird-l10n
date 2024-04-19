@@ -235,12 +235,12 @@ mail-context-menu-forward-inline =
 mail-context-menu-forward-as-attachment =
     .label =
         { $count ->
-            [zero] Fel Ymlyniadau
+            [zero] Fel Atodiadau
             [one] Fel Atodiad
-            [two] Fel Ymlyniadau
-            [few] Fel Ymlyniadau
-            [many] Fel Ymlyniadau
-           *[other] Fel Ymlyniadau
+            [two] Fel Atodiadau
+            [few] Fel Atodiadau
+            [many] Fel Atodiadau
+           *[other] Fel Atodiadau
         }
     .accesskey = F
 mail-context-menu-organize =

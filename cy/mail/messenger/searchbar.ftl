@@ -4,4 +4,4 @@
 
 search-bar-clear-button =
     .alt = Clirio
-    .title = Maes testun clir
+    .title = Clirio'r maes testun
