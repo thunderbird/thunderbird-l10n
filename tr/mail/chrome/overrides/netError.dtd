@@ -72,19 +72,39 @@
 ">
 
 <!ENTITY proxyConnectFailure.title "Vekil sunucu bağlantıları reddediyor">
-<!ENTITY proxyConnectFailure.longDesc "<ul> <li>Vekil sunucu ayarlarınızın doğru olup olmadığına bakın.</li> <li>Vekil sunucunun çalıştığından emin olmak için ağ yöneticinizden bilgi alabilirsiniz.</li> </ul>">
+<!ENTITY proxyConnectFailure.longDesc "
+<ul>
+  <li>Vekil sunucu ayarlarınızın doğru olup olmadığını kontrol edin.</li>
+  <li>Vekil sunucunun çalıştığından emin olmak için ağ yöneticinizden bilgi alabilirsiniz.</li>
+</ul>
+">
 
 <!ENTITY proxyResolveFailure.title "Vekil sunucu bulunamadı">
-<!ENTITY proxyResolveFailure.longDesc "<ul> <li>Vekil sunucu ayarlarınızın doğru olup olmadığına bakın.</li> <li>Bilgisayarınızın düzgün işleyen bir ağ bağlantısı olup olmadığına bakın.</li> <li>Bilgisayarınız veya ağınız güvenlik duvarı veya vekil sunucu tarafından korunuyorsa &brandShortName; uygulamasının Web’e erişim izni olduğundan emin olun.</li> </ul>">
+<!ENTITY proxyResolveFailure.longDesc "
+<ul>
+  <li>Vekil sunucu ayarlarınızın doğru olup olmadığını kontrol edin.</li>
+  <li>Bilgisayarınızın düzgün işleyen bir ağ bağlantısı olup olmadığını kontrol edin.</li>
+  <li>Bilgisayarınız veya ağınız güvenlik duvarı veya vekil sunucu tarafından korunuyorsa &brandShortName; uygulamasının Web’e erişim izni olduğundan emin olun.</li>
+</ul>
+">
 
 <!ENTITY redirectLoop.title "Sayfa doğru bir şekilde yönlendirilmiyor">
-<!ENTITY redirectLoop.longDesc "<ul> <li>Bu sorun bazen çerezlerin devre dışı bırakılmasından veya reddedilmesinden kaynaklabilir.</li> </ul>">
+<!ENTITY redirectLoop.longDesc "
+<ul>
+  <li>Bu sorun bazen çerezlerin devre dışı bırakılmasından veya reddedilmesinden kaynaklanabilir.</li>
+</ul>
+">
 
 <!ENTITY unknownSocketType.title "Beklenmeyen sunucu yanıtı">
 <!ENTITY unknownSocketType.longDesc "<ul> <li>Sisteminizde Kişisel Güvenlik Yöneticisi'nin kurulu olduğundan emin olun.</li> <li>Bu durum, standart dışı sunucu yapılandırmasından kaynaklanabilir.</li> </ul>">
 
 <!ENTITY nssFailure2.title "Güvenli bağlantı hatası">
-<!ENTITY nssFailure2.longDesc2 "<ul> <li>Görüntülemeye çalıştığınız sayfa, alınan verilerin yetkinliği doğrulanamadığı için gösterilemiyor.</li> <li>Lütfen site sahipleriyle iletişime geçip onları bu sorundan haberdar edin.</li> </ul>">
+<!ENTITY nssFailure2.longDesc2 "
+<ul>
+  <li>Görüntülemeye çalıştığınız sayfa, alınan verilerin yetkinliği doğrulanamadığı için gösterilemiyor.</li>
+  <li>Lütfen site sahipleriyle iletişime geçip onları bu sorundan haberdar edin.</li>
+</ul>
+">
 
 <!ENTITY nssBadCert.title "Güvenli bağlantı hatası">
 <!ENTITY nssBadCert.longDesc2 "
@@ -94,7 +114,13 @@
 </ul>
 ">
 
-<!ENTITY sharedLongDesc "<ul> <li>Site geçici olarak kapalı veya çok meşgul olabilir. Biraz bekleyip yeniden deneyin.</li> <li>Hiçbir sayfayı açamıyorsanız bilgisayarınızın ağ bağlantısını kontrol edin.</li> <li>Bilgisayarınız veya ağınız güvenlik duvarı veya vekil sunucu tarafından korunuyorsa &brandShortName; uygulamasının Web’e erişim izni olduğundan emin olun.</li> </ul>">
+<!ENTITY sharedLongDesc "
+<ul>
+  <li>Site geçici olarak kapalı veya çok meşgul olabilir. Biraz bekleyip yeniden deneyin.</li>
+  <li>Hiçbir sayfayı açamıyorsanız bilgisayarınızın ağ bağlantısını kontrol edin.</li>
+  <li>Bilgisayarınız veya ağınız güvenlik duvarı veya vekil sunucu tarafından korunuyorsa &brandShortName; uygulamasının Web’e erişim izni olduğundan emin olun.</li>
+</ul>
+">
 
 <!ENTITY cspBlocked.title "İçerik güvenliği ilkesi uyarınca engellendi">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; bu sayfanın bu şekilde yüklenmesini önledi, çünkü sayfanın buna izin vermeyen bir içerik güvenlik politikası var.</p>">
