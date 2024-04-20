@@ -215,6 +215,18 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Προώθηση
     .accesskey = θ
+mail-context-menu-forward-inline =
+    .label = Ενσωμάτωση
+    .accesskey = Ε
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Ως συνημμένο
+           *[other] Ως συνημμένα
+        }
+    .accesskey = Ω
 mail-context-menu-organize =
     .label = Οργάνωση
     .accesskey = Ο
