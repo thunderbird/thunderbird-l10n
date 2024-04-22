@@ -215,6 +215,18 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Továbbítás
     .accesskey = T
+mail-context-menu-forward-inline =
+    .label = Beágyazva
+    .accesskey = B
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Mellékletként
+           *[other] Mellékletenként
+        }
+    .accesskey = M
 mail-context-menu-organize =
     .label = Rendszerezés
     .accesskey = R
