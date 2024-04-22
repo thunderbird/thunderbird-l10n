@@ -214,6 +214,18 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Әрі қарай жіберу
     .accesskey = й
+mail-context-menu-forward-inline =
+    .label = Хат бетінде
+    .accesskey = т
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Салыным ретінде
+           *[other] Салынымдар ретінде
+        }
+    .accesskey = а
 mail-context-menu-organize =
     .label = Басқару
     .accesskey = р
