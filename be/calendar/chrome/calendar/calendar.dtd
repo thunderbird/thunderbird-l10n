@@ -32,13 +32,16 @@
 <!ENTITY calendar.unifinder.tree.title.label               "Назва">
 <!ENTITY calendar.unifinder.tree.title.tooltip2            "Сартаваць па назве">
 <!ENTITY calendar.unifinder.tree.startdate.label           "Пачатак">
+<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Сартаваць па даце пачатка">
 <!ENTITY calendar.unifinder.tree.duedate.label             "Тэрмін">
 <!ENTITY calendar.unifinder.tree.completeddate.label       "Выканана">
 <!ENTITY calendar.unifinder.tree.categories.label          "Катэгорыя">
 <!ENTITY calendar.unifinder.tree.categories.tooltip2       "Сартаваць па катэгорыі">
 <!ENTITY calendar.unifinder.tree.location.label            "Месца">
 <!ENTITY calendar.unifinder.tree.status.label              "Статус">
+<!ENTITY calendar.unifinder.tree.status.tooltip2           "Сартаваць па статусе">
 <!ENTITY calendar.unifinder.tree.calendarname.label        "Назва календара">
+<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Сартаваць па назве календара">
 <!ENTITY calendar.unifinder.close.tooltip                  "Закрыць пошук і спіс падзей">
 
 <!ENTITY calendar.today.button.tooltip          "Перайсці да сённяшніх падзей" >

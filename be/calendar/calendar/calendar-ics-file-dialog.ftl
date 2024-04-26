@@ -15,5 +15,17 @@ calendar-ics-file-dialog-items-loading-message =
     .value = Загрузка элементаў...
 calendar-ics-file-dialog-search-input =
     .placeholder = Фільтр элементаў…
+calendar-ics-file-dialog-sort-start-ascending =
+    .label = Сартаваць па даце пачатка (ад першай да апошняй)
+calendar-ics-file-dialog-sort-start-descending =
+    .label = Сартаваць па даце пачатка (ад апошняй да першай)
+# "A > Z" is used as a concise way to say "alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-ascending =
+    .label = Сартаваць у алфавітным парадку
+# "Z > A" is used as a concise way to say "reverse alphabetical order".
+# You may replace it with something appropriate to your language.
+calendar-ics-file-dialog-sort-title-descending =
+    .label = Сартаваць у адваротным алфавітным парадку
 calendar-ics-file-import-complete = Імпарт завершаны.
 calendar-ics-file-dialog-no-calendars = Няма календароў, у якія можна імпартаваць падзеі або задачы.
