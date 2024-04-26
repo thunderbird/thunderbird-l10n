@@ -174,12 +174,45 @@ folder-pane-header-context-toggle-new-message =
     .label = Паказваць «Новае паведамленне»
 folder-pane-header-context-hide =
     .label = Схаваць загаловак панэлі папак
+folder-pane-show-total-toggle =
+    .label = Паказваць агульную колькасць паведамленняў
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Паказваць памеры папак
+folder-pane-header-hide-local-folders =
+    .label = Схаваць лакальныя папкі
 folder-pane-mode-context-toggle-compact-mode =
-    .label = Шчыльная праява
-    .accesskey = Ш
+    .label = Кампактны выгляд
+    .accesskey = К
+folder-pane-mode-move-up =
+    .label = Угору
+folder-pane-mode-move-down =
+    .label = Уніз
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 непрачытанае паведамленне
+        [few] { $count } непрачытаныя паведамленні
+       *[many] { $count } непрачытаных паведамленняў
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Усяго 1 паведамленне
+        [few] Усяго { $count } паведамленні
+       *[many] Усяго { $count } паведамленняў
+    }
 
 ## Message thread pane
 
+threadpane-column-header-select =
+    .title = Пераключыць выбар усіх паведамленняў
+threadpane-column-header-select-all =
+    .title = Выбраць усе паведамленні
+threadpane-column-header-deselect-all =
+    .title = Скасаваць выбар усіх паведамленняў
 threadpane-column-label-thread =
     .label = Нізка
 threadpane-column-header-flagged =
