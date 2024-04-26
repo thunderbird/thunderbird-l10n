@@ -296,29 +296,71 @@ threadpane-cell-received-title =
     .aria-label = Дата атрымання
     .title = { $title }
 threadpane-column-header-status = Статус
-    .title = Размеркаваць па статусах
+    .title = Сартаваць па статусах
 threadpane-column-label-status =
     .label = Статус
+threadpane-cell-status =
+    .aria-label = Статус
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Статус
+    .title = { $title }
 threadpane-column-header-size = Памер
-    .title = Размеркаваць па памерах
+    .title = Сартаваць па памеры
 threadpane-column-label-size =
     .label = Памер
-threadpane-column-header-tags = Метка
-    .title = Размеркаваць па мецінах
+threadpane-cell-size =
+    .aria-label = Памер
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Памер
+    .title = { $title }
+threadpane-column-header-tags = Меткі
+    .title = Сартаваць па метках
 threadpane-column-label-tags =
-    .label = Метка
-threadpane-column-header-account = Рахунак
-    .title = Размеркаваць па рахунках
+    .label = Меткі
+threadpane-cell-tags =
+    .aria-label = Меткі
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Меткі
+    .title = { $title }
+threadpane-column-header-account = Уліковы запіс
+    .title = Сартаваць па ўліковых запісах
 threadpane-column-label-account =
-    .label = Рахунак
+    .label = Уліковы запіс
+threadpane-cell-account =
+    .aria-label = Уліковы запіс
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Уліковы запіс
+    .title = { $title }
 threadpane-column-header-priority = Прыярытэт
-    .title = Размеркаваць па прыярытэтах
+    .title = Сартаваць па прыярытэце
 threadpane-column-label-priority =
     .label = Прыярытэт
-threadpane-column-header-unread = Непрачытаных
-    .title = Колькасць непрачытаных лістоў у нізцы
+threadpane-cell-priority =
+    .aria-label = Прыярытэт
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Прыярытэт
+    .title = { $title }
+threadpane-column-header-unread = Не прачытана
+    .title = Колькасць непрачытаных паведамленняў у абмеркаванні
 threadpane-column-label-unread =
-    .label = Непрачытаных
+    .label = Не прачытана
+threadpane-cell-unread =
+    .aria-label = Колькасць непрачытаных паведамленняў
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Колькасць непрачытаных паведамленняў
+    .title = { $title }
 threadpane-column-header-total = Усяго
     .title = Агульная колькасць лістоў у нізцы
 threadpane-column-label-total =
