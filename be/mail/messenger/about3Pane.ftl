@@ -117,49 +117,63 @@ quick-filter-bar-search-shortcut =
         [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
        *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
     }
-# Tooltip of the Any-of/All-of tagging mode selector.
-quick-filter-bar-boolean-mode =
-    .title = Меціны рэжыму сітавання
-# The Any-of tagging mode.
-quick-filter-bar-boolean-mode-any =
-    .label = Якісьці з
-    .title = Мусіць адпавядаць прынамсі адзін з вылучаных крытэрыяў мецін
-# The All-of tagging mode.
-quick-filter-bar-boolean-mode-all =
-    .label = Усе з
-    .title = Усе вылучаныя крытэрыі мецін мусяць адпавядаць
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Фільтраваць паведамленні… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Шукаць усюды
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
 # filter box) with the list of tags when the tag filter is active, and the
 # tag sub-bar wants as much space as possible. (Overflow is handled by an
 # arrow scroll box.)
-quick-filter-bar-text-filter-explanation = Сітаваць лісты па:
+quick-filter-bar-text-filter-explanation = Фільтраваць паведамленні па:
 # The button label that toggles whether the text filter searches the message
 # sender for the string.
-quick-filter-bar-text-filter-sender = Адпраўнік
+quick-filter-bar-text-filter-sender = Адпраўніку
 # The button label that toggles whether the text filter searches the message
 # recipients (to, cc) for the string.
-quick-filter-bar-text-filter-recipients = Атрымальнікі
+quick-filter-bar-text-filter-recipients = Атрымальнікам
 # The button label that toggles whether the text filter searches the message
 # subject for the string.
-quick-filter-bar-text-filter-subject = Тэма
+quick-filter-bar-text-filter-subject = Тэме
 # The button label that toggles whether the text filter searches the message
 # body for the string.
-quick-filter-bar-text-filter-body = Цела
+quick-filter-bar-text-filter-body = Целу
 # The first line of the panel popup that tells the user we found no matches
 # but we can convert to a global search for them.
 quick-filter-bar-gloda-upsell-line1 = Працягнуць гэты пошук ва ўсіх папках
 # The second line of the panel popup that tells the user we found no matches.
 # Variables:
 # $text (String) - What the user has typed so far.
-quick-filter-bar-gloda-upsell-line2 = Націсніце ‘Enter’ зноў, каб працягнуць пошук у: { $text }
+quick-filter-bar-gloda-upsell-line2 = Націсніце «Enter» зноў, каб працягнуць пошук у: { $text }
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Атрымаць паведамленні
 folder-pane-get-all-messages-menuitem =
-    .label = Атрымаць усе новыя лісты
+    .label = Атрымаць усе новыя паведамленні
     .accesskey = А
+folder-pane-write-message-button = Новае паведамленне
+    .title = Стварыць новае паведамленне
+folder-pane-more-menu-button =
+    .title = Параметры панэлі папак
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Рэжымы папак
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Паказваць «Атрымаць паведамленні»
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Паказваць «Новае паведамленне»
+folder-pane-header-context-hide =
+    .label = Схаваць загаловак панэлі папак
 folder-pane-mode-context-toggle-compact-mode =
     .label = Шчыльная праява
     .accesskey = Ш
