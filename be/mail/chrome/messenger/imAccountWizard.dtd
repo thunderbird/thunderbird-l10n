@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY windowTitle.label            "Майстар стварэння уліковых запісаў чатаў">
+<!ENTITY windowTitle.label            "Майстар стварэння ўліковых запісаў чатаў">
 
 <!ENTITY accountProtocolTitle.label   "Сетка гутарак">
 <!ENTITY accountProtocolInfo.label    "Выберыце, калі ласка, сетку вашага рахунку гутарак.">

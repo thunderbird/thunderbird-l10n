@@ -4,7 +4,7 @@
 
 <!-- Entities for AccountWizard -->
 
-<!ENTITY windowTitle.label "Майстар стварэння уліковых запісаў">
+<!ENTITY windowTitle.label "Майстар стварэння ўліковых запісаў">
 
 <!-- Entities for Identity page -->
 
@@ -35,10 +35,10 @@
 
 <!-- Entities for Account name page -->
 
-<!ENTITY accnameTitle.label "Імя уліковага запісу">
+<!ENTITY accnameTitle.label "Імя ўліковага запісу">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Увядзіце пажаданую назву для спасылання на гэты рахунак (напрыклад: &quot;Праца&quot;, &quot;Хатні Рахунак&quot; ці &quot;Навіны&quot;).">
-<!ENTITY accnameLabel.label "Імя уліковага запісу:">
+<!ENTITY accnameLabel.label "Імя ўліковага запісу:">
 <!ENTITY accnameLabel.accesskey "Р">
 
 <!-- Entities for Done (Congratulations) page -->

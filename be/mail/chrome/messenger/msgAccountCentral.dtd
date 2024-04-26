@@ -21,6 +21,6 @@
 
 <!ENTITY advFeaturesSectionHdr.label  "Пашыраныя ўласцівасці">
 <!ENTITY searchMsgsLink.label         "Пошук лістоў">
-<!ENTITY filtersLink.label            "Кіраваць сітамі лістоў">
+<!ENTITY filtersLink.label            "Кіраванне фільтрамі паведамленняў">
 <!ENTITY junkSettings.label           "Наладжванні пошты-лухты">
 <!ENTITY offlineLink.label            "Па-за сеткавыя наладжванні">

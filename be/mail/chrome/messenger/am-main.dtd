@@ -5,7 +5,7 @@
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "Наладжванні рахунку">
-<!ENTITY accountName.label "Імя уліковага запісу:">
+<!ENTITY accountName.label "Імя ўліковага запісу:">
 <!ENTITY accountName.accesskey "Н">
 <!ENTITY identityTitle.label "Змоўчная адмета">
 <!ENTITY identityDesc.label "Кожны рахунак мае адмету, або звесткі, якія іншыя людзі бачаць, калі чытаюць вашы лісты.">
