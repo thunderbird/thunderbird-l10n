@@ -24,7 +24,7 @@
 <!ENTITY reorderBottomButton.accessKey "н">
 <!ENTITY reorderBottomButton.toolTip "Перамясціць сіта так, каб яно выконвалася апошнім">
 <!ENTITY filterHeader.label "Дазволеныя сіты выконваюцца самастойна ў наступным парадку.">
-<!ENTITY filtersForPrefix.label "Сіты для:">
+<!ENTITY filtersForPrefix.label "Фільтры для:">
 <!ENTITY filtersForPrefix.accesskey "С">
 <!ENTITY viewLogButton.label "Журнал фільтраў">
 <!ENTITY viewLogButton.accesskey "М">
