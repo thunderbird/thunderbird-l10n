@@ -48,6 +48,8 @@ quick-filter-bar-dropdown =
     .title = Меню хуткага фільтру
 quick-filter-bar-dropdown-unread =
     .label = Непрачытаныя
+quick-filter-bar-dropdown-starred =
+    .label = Пазначаныя
 quick-filter-bar-dropdown-inaddrbook =
     .label = Кантакт
 quick-filter-bar-dropdown-tags =
@@ -61,6 +63,13 @@ quick-filter-bar-unread =
 # The label for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread-label = Непрачытаныя
+# The tooltip for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred =
+    .title = Паказваць толькі пазначаныя паведамленні
+# The label for the filter button that causes us to filter results to only
+# include messages that have been starred/flagged.
+quick-filter-bar-starred-label = Пазначаныя
 # The tooltip for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.
@@ -84,6 +93,9 @@ quick-filter-bar-attachment =
 # The label for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment-label = Прымацаванне
+# The contents of the results box when there is a filter active but there
+# are no messages matching the filter.
+quick-filter-bar-no-results = Паведамленняў не знойдзена
 # This is used to populate the results box; it either displays the
 # number of messages found using this string, that there are no messages
 # (using quick-filter-bar-no-results), or the box is hidden.
@@ -232,22 +244,57 @@ threadpane-column-header-recipient = Атрымальнік
     .title = Сартаваць па атрымальніках
 threadpane-column-label-recipient =
     .label = Атрымальнік
-threadpane-column-header-correspondents = Карэспандэнты
-    .title = Сартаваць па карэспандэнтам
+threadpane-cell-recipient =
+    .aria-label = Атрымальнік
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Атрымальнік
+    .title = { $title }
+threadpane-column-header-correspondents = Адпраўшчыкі
+    .title = Сартаваць па адпраўшчыках
 threadpane-column-label-correspondents =
-    .label = Карэспандэнты
+    .label = Адпраўшчыкі
+threadpane-cell-correspondents =
+    .aria-label = Адпраўшчыкі
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Адпраўшчыкі
+    .title = { $title }
 threadpane-column-header-subject = Тэма
-    .title = Размеркаваць па тэмах
+    .title = Сартаваць па тэмах
 threadpane-column-label-subject =
     .label = Тэма
+threadpane-cell-subject =
+    .aria-label = Тэма
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Тэма
+    .title = { $title }
 threadpane-column-header-date = Дата
-    .title = Размеркаваць па датах
+    .title = Сартаваць па датах
 threadpane-column-label-date =
     .label = Дата
-threadpane-column-header-received = Атрыманы
-    .title = Размеркаваць па даце атрымання
+threadpane-cell-date =
+    .aria-label = Дата
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Дата
+    .title = { $title }
+threadpane-column-header-received = Атрымана
+    .title = Сартаваць па даце атрымання
 threadpane-column-label-received =
-    .label = Атрыманы
+    .label = Атрымана
+threadpane-cell-received =
+    .aria-label = Дата атрымання
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Дата атрымання
+    .title = { $title }
 threadpane-column-header-status = Статус
     .title = Размеркаваць па статусах
 threadpane-column-label-status =
