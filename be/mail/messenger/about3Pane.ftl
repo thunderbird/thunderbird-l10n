@@ -6,7 +6,7 @@
 ## Message List Header Bar
 
 quick-filter-button =
-    .title = Пераключыць панэль хуткага фільтра
+    .title = Пераключыць панэль хуткага фільтру
 quick-filter-button-label = Хуткі фільтр
 thread-pane-header-display-button =
     .title = Параметры адлюстравання спіса паведамленняў
@@ -30,6 +30,8 @@ thread-pane-header-context-table-view =
     .label = У выглядзе табліцы
 thread-pane-header-context-cards-view =
     .label = У выглядзе картак
+thread-pane-header-context-hide =
+    .label = Схаваць загаловак спіса паведамленняў
 
 ## Quick Filter Bar
 
@@ -39,47 +41,49 @@ thread-pane-header-context-cards-view =
 # folders or opens new tabs. (When inactive, only the state of the text
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
-    .title = Захоўваць ужытыя сіты пры змяненні папак
+    .title = Трымаць фільтры ўжытымі пры пераключэнні папак
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Меню хуткага фільтру
+quick-filter-bar-dropdown-unread =
+    .label = Непрачытаныя
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Кантакт
+quick-filter-bar-dropdown-tags =
+    .label = Меткі
+quick-filter-bar-dropdown-attachment =
+    .label = Прымацаванне
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
-    .title = Паказваць толькі непрачытаныя лісты
+    .title = Паказваць толькі непрачытаныя паведамленні
 # The label for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread-label = Непрачытаныя
 # The tooltip for the filter button that causes us to filter results to only
-# include messages that have been starred/flagged.
-quick-filter-bar-starred =
-    .title = Паказваць толькі лісты з зоркамі
-# The label for the filter button that causes us to filter results to only
-# include messages that have been starred/flagged.
-quick-filter-bar-starred-label = З зоркамі
-# The tooltip for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.
 quick-filter-bar-inaddrbook =
-    .title = Паказваць толькі лісты ад людзей, адрасы якіх у вашай адраснай кнізе
+    .title = Паказваць толькі паведамленні ад людзей з вашай адраснай кнігі
 # The label for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.
-quick-filter-bar-inaddrbook-label = Сувязь
+quick-filter-bar-inaddrbook-label = Кантакт
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
 quick-filter-bar-tags =
-    .title = Паказваць толькі лісты з мецінамі
+    .title = Паказваць толькі паведамленні з меткамі
 # The label for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
-quick-filter-bar-tags-label = Меціны
+quick-filter-bar-tags-label = Меткі
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment =
-    .title = Паказваць толькі лісты з далучэннямі
+    .title = Паказваць толькі лісты з прымацаваннямі
 # The label for the filter button that causes us to filter results to only
 # include messages with attachments.
-quick-filter-bar-attachment-label = Далучэнне
-# The contents of the results box when there is a filter active but there
-# are no messages matching the filter.
-quick-filter-bar-no-results = Няма вынікаў
+quick-filter-bar-attachment-label = Прымацаванне
 # This is used to populate the results box; it either displays the
 # number of messages found using this string, that there are no messages
 # (using quick-filter-bar-no-results), or the box is hidden.
@@ -87,9 +91,9 @@ quick-filter-bar-no-results = Няма вынікаў
 # $count (Number) - The number of messages that match selected filters.
 quick-filter-bar-results =
     { $count ->
-        [one] { $count } ліст
-        [few] { $count } лісты
-       *[many] { $count } лістоў
+        [one] { $count } паведамленне
+        [few] { $count } паведамленні
+       *[many] { $count } паведамленняў
     }
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
@@ -104,6 +108,15 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Фільтраваць гэтыя паведамленні <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search =
+    .label = Фільтраваць паведамленні:
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Меціны рэжыму сітавання

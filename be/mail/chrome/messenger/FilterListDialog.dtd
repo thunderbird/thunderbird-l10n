@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title "Фільтры паведамленняў">
-<!ENTITY nameColumn.label "Імя фільтра">
+<!ENTITY nameColumn.label "Імя фільтру">
 <!ENTITY activeColumn.label "Уключаны">
 <!ENTITY newButton.label "Новы…">
 <!ENTITY newButton.accesskey "Н">

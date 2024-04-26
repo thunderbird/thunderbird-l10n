@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title "Правілы фільтравання">
-<!ENTITY filterName.label "Імя фільтра:">
+<!ENTITY filterName.label "Імя фільтру:">
 
 <!ENTITY junk.label "Лухта">
 <!ENTITY notJunk.label "Не лухта">
@@ -49,7 +49,7 @@
 <!ENTITY ignoreThread.label "Ігнараваць нізку">
 <!ENTITY ignoreSubthread.label "Ігнараваць паднізку">
 <!ENTITY watchThread.label "Сачыць за нізкай">
-<!ENTITY stopExecution.label "Спыніць выкананне фільтра">
+<!ENTITY stopExecution.label "Спыніць выкананне фільтру">
 
 <!ENTITY addAction.tooltip "Дадаць новае дзеянне">
 <!ENTITY removeAction.tooltip "Выдаліць гэта дзеянне">
