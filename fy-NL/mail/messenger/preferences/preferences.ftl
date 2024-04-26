@@ -400,6 +400,7 @@ close-move-delete =
 display-name-label =
     .value = Werjeftenamme:
 address-display-legend = Berjochtelist
+address-display-description = Foarkarsopmaak foar adreswerjefte:
 address-display-full =
     .label = Folsleine namme en e-mailadres
     .accesskey = F
