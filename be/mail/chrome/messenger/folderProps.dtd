@@ -13,7 +13,7 @@
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "ў">
 
 <!ENTITY retention.label "Палітыка ўтрымання">
-<!ENTITY retentionUseAccount.label  "Ужываць наладжванні майго рахунку">
+<!ENTITY retentionUseAccount.label  "Выкарыстоўваць налады майго ўліковага запісу">
 <!ENTITY retentionUseAccount.accesskey "У">
 <!ENTITY daysOld.label "дзён">
 <!ENTITY message.label "апошніх лістоў">

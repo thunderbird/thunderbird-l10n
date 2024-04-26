@@ -4,39 +4,41 @@
 
 <!-- Entities for AccountWizard -->
 
-<!ENTITY windowTitle.label "Чараўнік Рахункаў">
-<!ENTITY accountWizard.size "width: 52em; height: 42em;">
-
-<!-- Entities for Account Type page -->
+<!ENTITY windowTitle.label "Майстар стварэння уліковых запісаў">
 
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Адмета">
 <!ENTITY identityDesc.label "Кожны рахунак мае адмету, або звесткі, якія вызначаюць вас для іншых, калі яны атрымліваюць вашы лісты.">
 
+<!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Увядзіце імя, якое вы хочаце бачыць у поле &quot;Ад&quot; вашых  выходных лістоў">
+<!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
+  1, do not translate two of "&quot;"
+  2, Use localized full name instead of "John Smith"
+-->
 <!ENTITY fullnameExample.label "(напрыклад: &quot;Юрась Братчык&quot;).">
 <!ENTITY fullnameLabel.label "Ваша імя:">
 <!ENTITY fullnameLabel.accesskey "В">
 
-<!ENTITY emailLabel.label "Адрас э-пошты:">
+<!ENTITY emailLabel.label "Адрас электроннай пошты:">
 <!ENTITY emailLabel.accesskey "Э">
 
 <!-- Entities for Incoming Server page -->
 
 <!ENTITY incomingTitle.label "Уваходны паслугач">
 <!ENTITY incomingUsername.label "Імя карыстальніка:">
+<!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Увядзіце назву вашага паслугача навінаў (NNTP) (напрыклад: &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Паслугач навінакупы:">
 <!ENTITY newsServerLabel.accesskey "н">
 
-<!-- Entities for Outgoing Server page -->
-
 <!-- Entities for Account name page -->
 
-<!ENTITY accnameTitle.label "Назва рахунку">
+<!ENTITY accnameTitle.label "Імя уліковага запісу">
+<!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Увядзіце пажаданую назву для спасылання на гэты рахунак (напрыклад: &quot;Праца&quot;, &quot;Хатні Рахунак&quot; ці &quot;Навіны&quot;).">
-<!ENTITY accnameLabel.label "Назва рахунку:">
+<!ENTITY accnameLabel.label "Імя уліковага запісу:">
 <!ENTITY accnameLabel.accesskey "Р">
 
 <!-- Entities for Done (Congratulations) page -->

@@ -5,13 +5,13 @@
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "Наладжванні рахунку">
-<!ENTITY accountName.label "Назва рахунку:">
+<!ENTITY accountName.label "Імя уліковага запісу:">
 <!ENTITY accountName.accesskey "Н">
 <!ENTITY identityTitle.label "Змоўчная адмета">
 <!ENTITY identityDesc.label "Кожны рахунак мае адмету, або звесткі, якія іншыя людзі бачаць, калі чытаюць вашы лісты.">
 <!ENTITY name.label "Ваша імя:">
 <!ENTITY name.accesskey "І">
-<!ENTITY email.label "Адрас э-пошты:">
+<!ENTITY email.label "Адрас электроннай пошты:">
 <!ENTITY email.accesskey "Э">
 <!ENTITY catchAll.label "Адказваць ад гэтай адметы, калі загалоўкі дастаўкі супадаюць:">
 <!ENTITY replyTo.label "Зваротны адрас:">
