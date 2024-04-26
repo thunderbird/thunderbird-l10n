@@ -26,7 +26,7 @@
 <!ENTITY filterHeader.label "Дазволеныя сіты выконваюцца самастойна ў наступным парадку.">
 <!ENTITY filtersForPrefix.label "Сіты для:">
 <!ENTITY filtersForPrefix.accesskey "С">
-<!ENTITY viewLogButton.label "Метрыка сіта">
+<!ENTITY viewLogButton.label "Журнал фільтраў">
 <!ENTITY viewLogButton.accesskey "М">
 <!ENTITY runFilters.label "Выканаць зараз">
 <!ENTITY runFilters.accesskey "В">

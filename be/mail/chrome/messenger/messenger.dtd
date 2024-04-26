@@ -81,20 +81,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Выдаліць ліст">
-<!ENTITY deleteMsgCmd.accesskey "д">
-<!ENTITY undeleteMsgCmd.label "Адмяніць выдаленне ліста">
-<!ENTITY undeleteMsgCmd.accesskey "ы">
-<!ENTITY deleteMsgsCmd.label "Выдаліць вылучаныя лісты">
-<!ENTITY deleteMsgsCmd.accesskey "д">
-<!ENTITY undeleteMsgsCmd.label "Адмяніць выдаленне вылучаных лістоў">
-<!ENTITY undeleteMsgsCmd.accesskey "ц">
-<!ENTITY deleteFolderCmd.label "Выдаліць папку">
-<!ENTITY deleteFolderCmd.accesskey "д">
-<!ENTITY unsubscribeNewsgroupCmd.label "Адпісацца">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "д">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Вылучыць">
 <!ENTITY selectMenu.accesskey "В">
 <!ENTITY all.label "Усе">
@@ -106,10 +92,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "з">
 <!ENTITY menuFavoriteFolder.label "Улюбёная папка">
 <!ENTITY menuFavoriteFolder.accesskey "л">
-<!ENTITY folderPropsCmd2.label "Уласцівасці">
-<!ENTITY folderPropsFolderCmd2.label "Уласцівасці папкі">
-<!ENTITY folderPropsNewsgroupCmd2.label "Уласцівасці навінакупы">
-<!ENTITY folderPropsCmd.accesskey "ц">
 <!ENTITY undoDeleteMsgCmd.label "Адмяніць выдаленне ліста">
 <!ENTITY redoDeleteMsgCmd.label "Вярнуць выдаленне ліста">
 <!ENTITY undoMoveMsgCmd.label "Адмяніць перамяшчэнне ліста">
@@ -141,8 +123,6 @@
 <!ENTITY messagePaneVertical.accesskey "В">
 <!ENTITY showFolderPaneCmd.label "Шыба папак">
 <!ENTITY showFolderPaneCmd.accesskey "п">
-<!ENTITY showFolderPaneColsCmd.label "Калонкі панэлі папак">
-<!ENTITY showFolderPaneColsCmd.accesskey "п">
 <!ENTITY showMessageCmd.label "Шыба лістоў">
 <!ENTITY showMessageCmd.accesskey "ш">
 
@@ -460,7 +440,7 @@
 <!ENTITY savedFiles.label "Захаваныя файлы">
 <!ENTITY savedFiles.accesskey "ф">
 <!ENTITY savedFiles.key "j">
-<!ENTITY filtersCmd2.label "Сіты лістоў">
+<!ENTITY filtersCmd2.label "Фільтры паведамленняў">
 <!ENTITY filtersCmd2.accesskey "С">
 <!ENTITY filtersApply.label "Ужыць сіты на папцы">
 <!ENTITY filtersApply.accesskey "У">
@@ -582,10 +562,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Новы ліст">
 <!ENTITY appmenuNewContactCmd.label "Сувязь з адраснай кнігі…">
-<!ENTITY appmenuEditMenu.label "Праўка">
 <!ENTITY appmenuToolbarLayout.label "Раскладка паліц…">
-<!ENTITY appmenuSelectThread.label "Вылучыць нізку">
-<!ENTITY appmenuSelectFlagged.label "Вылучыць пазначаныя зоркамі лісты">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Новая метка…">
@@ -881,10 +858,6 @@
 <!ENTITY copyImageAllCmd.accesskey "я">
 <!ENTITY copyEmailCmd.label "Капіяваць адрас э-пошты">
 <!ENTITY copyEmailCmd.accesskey "э">
-<!ENTITY stopCmd.label "Спыніць">
-<!ENTITY stopCmd.accesskey "С">
-<!ENTITY reloadCmd.label "Абнавіць">
-<!ENTITY reloadCmd.accesskey "А">
 <!ENTITY openInBrowser.label "Адкрыць у азіральніку">
 <!ENTITY openInBrowser.accesskey "А">
 <!ENTITY openLinkInBrowser.label "Адкрыць спасылку ў азіральніку">

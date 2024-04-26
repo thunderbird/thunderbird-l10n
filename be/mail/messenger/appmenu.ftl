@@ -29,6 +29,9 @@ appmenu-open-calendar =
 
 ## Tools
 
+appmenu-tools-message-filters =
+    .label = Фільтры паведамленняў
+    .accesskey = Ф
 
 ## Help
 
