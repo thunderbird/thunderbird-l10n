@@ -5,6 +5,31 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Пераключыць панэль хуткага фільтра
+quick-filter-button-label = Хуткі фільтр
+thread-pane-header-display-button =
+    .title = Параметры адлюстравання спіса паведамленняў
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } паведамленне
+        [few] { $count } паведамленні
+       *[many] { $count } паведамленняў
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } выбрана
+        [few] { $count } выбраны
+       *[many] { $count } выбрана
+    }
+thread-pane-header-context-table-view =
+    .label = У выглядзе табліцы
+thread-pane-header-context-cards-view =
+    .label = У выглядзе картак
 
 ## Quick Filter Bar
 
