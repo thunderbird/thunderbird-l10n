@@ -108,6 +108,7 @@ alarm-on-label =
     .label = Уключыць
 alarm-off-label =
     .label = Адключыць
+calendar-notifications-customize-label = Апавяшчэнні для кожнага асобнага календара можна наладзіць ў акне яго ўласцівасцяў.
 category-new-label = Новая катэгорыя
 category-edit-label = Рэдагаваць катэгорыю
 category-overwrite = Катэгорыя з гэтым імем ужо існуе. Ці жадаеце яе перазапісаць?
