@@ -26,12 +26,16 @@
 <!ENTITY sourcetabs.other.label  "Іншае">
 
 <!ENTITY buttons.create.label "Стварыць каляндар">
+<!ENTITY buttons.create.accesskey "С">
 
 <!ENTITY buttons.find.label "Знайсці календары">
+<!ENTITY buttons.find.accesskey "З">
 
 <!ENTITY buttons.back.label "Назад">
+<!ENTITY buttons.back.accesskey "Н">
 
 <!ENTITY buttons.subscribe.label "Падпісацца">
+<!ENTITY buttons.subscribe.accesskey "П">
 
 <!ENTITY calendartype.label "Тып календара:">
 <!ENTITY location.label "Размяшчэнне:">

@@ -81,6 +81,7 @@
 <!ENTITY calendar.task-details.priority.high.label   "Высокі">
 <!ENTITY calendar.task-details.status.label          "статус">
 <!ENTITY calendar.task-details.category.label        "катэгорыя">
+<!ENTITY calendar.task-details.attachments.label     "прымацаванні">
 
 <!ENTITY calendar.task.priority.button.tooltip  "Змяніць прыярытэт">
 
@@ -97,6 +98,7 @@
 <!ENTITY calendar.context.copyevent.label             "Капіяваць">
 <!ENTITY calendar.context.pasteevent.label            "Уставіць">
 
+<!ENTITY calendar.context.attendance.dontsend.label             "Не адпраўляць апавяшчэнне">
 
 <!ENTITY calendar.context.attendance.occ.accepted.label         "Прынята">
 
@@ -190,6 +192,7 @@
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
 <!ENTITY calendarproperties.refreshInterval.label          "Абнаўляць каляндар:">
 <!ENTITY calendarproperties.refreshInterval.manual.label   "Уручную">
+<!ENTITY calendarproperties.name.label                     "Назва:">
 <!ENTITY calendarproperties.readonly.label                 "Толькі для чытання">
 <!ENTITY calendarproperties.firealarms.label               "Паказваць напаміны">
 <!ENTITY calendarproperties.enabled2.label                 "Уключыць гэты каляндар">
