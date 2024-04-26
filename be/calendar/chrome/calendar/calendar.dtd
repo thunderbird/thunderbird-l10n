@@ -32,7 +32,7 @@
 <!ENTITY calendar.unifinder.tree.title.label               "Назва">
 <!ENTITY calendar.unifinder.tree.title.tooltip2            "Сартаваць па назве">
 <!ENTITY calendar.unifinder.tree.startdate.label           "Пачатак">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Сартаваць па даце пачатка">
+<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Сартаваць па даце пачатку">
 <!ENTITY calendar.unifinder.tree.duedate.label             "Тэрмін">
 <!ENTITY calendar.unifinder.tree.completeddate.label       "Выканана">
 <!ENTITY calendar.unifinder.tree.categories.label          "Катэгорыя">

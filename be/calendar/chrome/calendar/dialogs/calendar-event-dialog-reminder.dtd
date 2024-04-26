@@ -4,6 +4,7 @@
 
 <!ENTITY reminder.add.label                                "Дадаць">
 <!ENTITY reminder.remove.label                             "Выдаліць">
+<!ENTITY reminder.remove.accesskey                         "В">
 
 <!ENTITY reminder.action.label                             "Выберыце дзеянне для напаміну">
 

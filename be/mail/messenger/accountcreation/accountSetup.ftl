@@ -59,3 +59,5 @@ account-setup-calendar-name-input =
 account-setup-calendar-color-label = Колер
 account-setup-calendar-refresh-label = Абнаўляць
 account-setup-calendar-refresh-manual = Уручную
+account-setup-calendar-show-reminders = Паказваць напаміны
+    .accesskey = П

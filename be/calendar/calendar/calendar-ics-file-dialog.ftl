@@ -16,9 +16,9 @@ calendar-ics-file-dialog-items-loading-message =
 calendar-ics-file-dialog-search-input =
     .placeholder = Фільтр элементаў…
 calendar-ics-file-dialog-sort-start-ascending =
-    .label = Сартаваць па даце пачатка (ад першай да апошняй)
+    .label = Сартаваць па даце пачатку (ад першай да апошняй)
 calendar-ics-file-dialog-sort-start-descending =
-    .label = Сартаваць па даце пачатка (ад апошняй да першай)
+    .label = Сартаваць па даце пачатку (ад апошняй да першай)
 # "A > Z" is used as a concise way to say "alphabetical order".
 # You may replace it with something appropriate to your language.
 calendar-ics-file-dialog-sort-title-ascending =

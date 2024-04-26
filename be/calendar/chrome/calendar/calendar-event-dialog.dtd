@@ -88,6 +88,8 @@
 <!ENTITY  event.toolbar.saveandclose.tooltip              "Захаваць і закрыць">
 <!ENTITY  event.toolbar.delete.tooltip                    "Выдаліць">
 <!ENTITY  event.toolbar.attendees.tooltip                 "Запрасіць удзельнікаў">
+<!ENTITY  event.toolbar.attachments.tooltip               "Прымацаваць">
+<!ENTITY  event.toolbar.privacy.tooltip                   "Змяніць прыватнасць">
 <!ENTITY  event.toolbar.priority.tooltip                  "Змяніць прыярытэт">
 <!ENTITY  event.toolbar.status.tooltip                    "Змяніць статус">
 
@@ -142,6 +144,7 @@
 <!ENTITY event.repeat.daily.label                       "Штодзень">
 <!ENTITY event.repeat.weekly.label                      "Штотыдзень">
 <!ENTITY event.repeat.every.weekday.label               "Кожны працоўны дзень">
+<!ENTITY event.repeat.bi.weekly.label                   "Кожныя 2 тыдні">
 <!ENTITY event.repeat.monthly.label                     "Штомесяц">
 <!ENTITY event.repeat.yearly.label                      "Штогод">
 
@@ -152,7 +155,11 @@
 <!ENTITY event.recurrence.year.label                    "штогод" >
 
 <!ENTITY event.recurrence.pattern.every.label           "Кожны" >
+<!ENTITY repeat.units.days.both                         "дзень" >
+<!ENTITY event.recurrence.pattern.every.weekday.label   "Кожны працоўны дзень" >
 
+<!ENTITY event.recurrence.pattern.weekly.every.label    "Кожны" >
+<!ENTITY repeat.units.weeks.both                        "тыдзень" >
 
 <!ENTITY event.recurrence.pattern.monthly.every.label   "Кожны" >
 <!ENTITY repeat.units.months.both                       "месяц" >
@@ -173,6 +180,7 @@
 <!ENTITY event.recurrence.repeat.dayofmonth.label       "Дзень месяца">
 
 <!ENTITY event.recurrence.every.label                        "Кожны:" >
+<!ENTITY repeat.units.years.both                             "год" >
 <!ENTITY event.recurrence.pattern.yearly.every.month.label   "Кожны" >
 
 <!-- LOCALIZATON NOTE
@@ -229,12 +237,15 @@
 <!-- Attendees dialog -->
 <!ENTITY event.attendee.role.required           "Абавязковы ўдзельнік">
 <!ENTITY event.attendee.role.optional           "Неабавязковы ўдзельнік">
+<!ENTITY event.attendee.role.chair              "Арганізатар">
 <!ENTITY event.attendee.usertype.room           "Пакой">
 
 <!-- Timezone dialog -->
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.calendar.label        "Каляндар:">
+<!ENTITY read.only.event.start.label     "Дата пачатку:">
+<!ENTITY read.only.task.start.label      "Дата пачатку:">
 <!ENTITY read.only.category.label        "Катэгорыя:">
 <!ENTITY read.only.attachments.label     "Прымацаванні:">
 <!ENTITY read.only.attendees.label       "Удзельнікі">
