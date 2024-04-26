@@ -45,6 +45,7 @@ calendar-invitation-panel-partstat-tentative = { $count } магчыма
 # Variables:
 # $count (Number) - The total number of attendees.
 calendar-invitation-panel-partstat-total = { $count } удзельнікаў
+calendar-invitation-panel-prop-title-attachments = Прымацаванні:
 calendar-invitation-change-indicator-removed = Выдалена
 calendar-invitation-change-indicator-added = Новае
 calendar-invitation-change-indicator-modified = Зменена
