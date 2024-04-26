@@ -663,7 +663,7 @@
 <!ENTITY correspondentColumn2.tooltip "Сартаваць па карэспандэнтам">
 <!ENTITY subjectColumn2.tooltip "Размеркаваць па тэмах">
 <!ENTITY dateColumn2.tooltip "Размеркаваць па датам">
-<!ENTITY priorityColumn2.tooltip "Размеркаваць па прыярытэтам">
+<!ENTITY priorityColumn2.tooltip "Сартаваць па прыярытэце">
 <!ENTITY tagsColumn2.tooltip "Размеркаваць па мецінам">
 <!ENTITY accountColumn2.tooltip "Размеркаваць па рахункам">
 <!ENTITY statusColumn2.tooltip "Размеркаваць па статусам">
