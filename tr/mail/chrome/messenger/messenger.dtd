@@ -155,7 +155,7 @@
 <!ENTITY sortByReceivedCmd.label "Alınma tarihi">
 <!ENTITY sortByReceivedCmd.accesskey "A">
 <!ENTITY sortByStarCmd.label "Yıldız">
-<!ENTITY sortByStarCmd.accesskey "z">
+<!ENTITY sortByStarCmd.accesskey "Y">
 <!ENTITY sortByAttachmentsCmd.label "Ekler">
 <!ENTITY sortByAttachmentsCmd.accesskey "k">
 <!ENTITY sortByPriorityCmd.label "Öncelik">
@@ -187,7 +187,7 @@
 <!ENTITY sortThreaded.label "Dizili">
 <!ENTITY sortThreaded.accesskey "D">
 <!ENTITY sortUnthreaded.label "Dizisiz">
-<!ENTITY sortUnthreaded.accesskey "D">
+<!ENTITY sortUnthreaded.accesskey "i">
 <!ENTITY groupBySort.label "Sıralamaya göre grupla">
 <!ENTITY groupBySort.accesskey "g">
 <!ENTITY msgsMenu.label "İletiler">
@@ -354,7 +354,7 @@
 <!ENTITY createFilter.accesskey "s">
 <!ENTITY moveMsgToMenu.label "Taşı">
 <!ENTITY moveMsgToMenu.accesskey "T">
-<!ENTITY moveCopyMsgRecentMenu.label "Son kullanılan">
+<!ENTITY moveCopyMsgRecentMenu.label "Son kullanılanlar">
 <!ENTITY moveCopyMsgRecentMenu.accesskey "n">
 <!ENTITY copyMessageLocation.label "İleti konumunu kopyala">
 <!ENTITY copyMessageLocation.accesskey "i">
@@ -740,7 +740,7 @@
 <!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Taşı">
 <!ENTITY contextMoveMsgMenu.accesskey "T">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Son kullanılan">
+<!ENTITY contextMoveCopyMsgRecentMenu.label "Son kullanılanlar">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "k">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Sık kullanılanlar">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "S">
