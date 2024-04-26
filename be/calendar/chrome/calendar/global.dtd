@@ -15,12 +15,7 @@
 <!ENTITY month.11.name "Лістапад" >
 <!ENTITY month.12.name "Снежань" >
 
-<!ENTITY onemonthbackward.tooltip "Мінулы месяц" >
-<!ENTITY onemonthforward.tooltip "Наступны месяц" >
-<!ENTITY oneyearbackward.tooltip "Мінулы год" >
-<!ENTITY oneyearforward.tooltip "Наступны год" >
-
-<!ENTITY showToday.tooltip "Перайсці да сёння">
+<!ENTITY showToday.tooltip "Перайсці да сённяшніх падзей">
 <!ENTITY onedayforward.tooltip "Наступны дзень">
 <!ENTITY onedaybackward.tooltip "Мінулы дзень">
 <!ENTITY showselectedday.tooltip "Паказаць падзеі ў выбраны дзень">

@@ -69,7 +69,7 @@ toolbar-print =
 toolbar-delete-event-label = Выдаліць
 toolbar-go-to-today-label = Сёння
 toolbar-go-to-today =
-    .title = Перайсці да сёння
+    .title = Перайсці да сённяшніх падзей
 toolbar-go-back-label = Назад
 toolbar-go-back =
     .title = Перамясціцца да папярэдняга ліста
@@ -82,3 +82,6 @@ toolbar-stop =
 toolbar-throbber-label = Паказнік дзейнасці
 toolbar-throbber =
     .title = Паказнік дзейнасці
+
+## New Address Book popup items
+

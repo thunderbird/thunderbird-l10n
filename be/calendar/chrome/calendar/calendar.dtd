@@ -38,6 +38,7 @@
 <!ENTITY calendar.unifinder.tree.calendarname.label        "Назва календара">
 <!ENTITY calendar.unifinder.close.tooltip                  "Закрыць пошук і спіс падзей">
 
+<!ENTITY calendar.today.button.tooltip          "Перайсці да сённяшніх падзей" >
 
 <!ENTITY calendar.newevent.button.label         "Новая падзея" >
 <!ENTITY calendar.newtask.button.label          "Новая задача" >
