@@ -4,17 +4,27 @@
 
 close-button =
     .aria-label = Закрыць
+preferences-doc-title2 = Налады
 category-list =
     .aria-label = Катэгорыі
-pane-compose-title = Укладанне
+pane-general-title = Агульныя
+category-general =
+    .tooltiptext = { pane-general-title }
+pane-compose-title = Набор
 category-compose =
-    .tooltiptext = Укладанне
-pane-chat-title = Гутарка
+    .tooltiptext = Набор
+pane-privacy-title = Прыватнасць і бяспека
+category-privacy =
+    .tooltiptext = Прыватнасць і бяспека
+pane-chat-title = Чат
 category-chat =
-    .tooltiptext = Гутарка
+    .tooltiptext = Чат
 pane-calendar-title = Каляндар
 category-calendar =
     .tooltiptext = Каляндар
+pane-sync-title = Сінхранізацыя
+category-sync =
+    .tooltiptext = Сінхранізацыя
 
 ## OS Authentication dialog
 
@@ -345,15 +355,6 @@ third-party-never =
     .label = Ніколі
 third-party-visited =
     .label = З наведаных
-keep-label =
-    .value = Трымаць пакуль:
-    .accesskey = Т
-keep-expire =
-    .label = яны не састарэюць
-keep-close =
-    .label = Я не закрыю { -brand-short-name }
-keep-ask =
-    .label = пытаць мяне кожнага разу
 cookies-button =
     .label = Паказаць біркі…
     .accesskey = б
