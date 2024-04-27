@@ -239,6 +239,13 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = Прымацаванні
 threadpane-attachments-cell-label = Прымацаванні
+threadpane-column-header-spam =
+    .title = Сартаваць па статусе спаму
+threadpane-column-label-spam =
+    .label = Спам
+threadpane-cell-spam =
+    .aria-label = Статус спаму
+threadpane-spam-cell-label = Спам
 threadpane-read-cell-label = Прачытана
 threadpane-column-header-sender = Ад
     .title = Сартаваць па адпраўшчыках
@@ -400,6 +407,14 @@ threadpane-column-label-delete =
     .label = Выдаліць
 threadpane-cell-delete =
     .aria-label = Выдаліць
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } адказ
+        [few] { $count } адказы
+       *[many] { $count } адказаў
+    }
 
 ## Message state variations
 
@@ -410,8 +425,12 @@ threadpane-message-new =
 ## Apply columns confirmation dialog
 
 # Variables:
-#  $name (String): The name of the folder to apply to.
-apply-current-columns-to-folder-message = Ужыць гэтыя слупкі папак для { $name }?
-# Variables:
-#  $name (String): The name of the folder to apply to.
-apply-current-columns-to-folder-with-children-message = Ужыць гэтыя слупкі папак для { $name } і яе нашчадкаў?
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> паведамленне
+        [few] <span>{ $total }</span> паведамленні
+       *[many] <span>{ $total }</span> паведамленняў
+    }
+threadpane-card-menu-button =
+    .title = Меню паведамленняў
