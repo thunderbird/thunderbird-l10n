@@ -403,6 +403,9 @@ threadpane-cell-delete =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Індыкатар новага паведамлення
+    .title = Новае паведамленне
 apply-columns-to-menu =
     .label = Ужыць слупкі…
 apply-current-view-to-folder =
