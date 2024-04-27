@@ -137,6 +137,9 @@ quick-filter-bar-search-placeholder-with-key = Фільтраваць павед
 # launch a global search.
 quick-filter-bar-search-button =
     .alt = Шукаць усюды
+# Tooltip of the Any-of/All-of tagging mode selector.
+quick-filter-bar-boolean-mode =
+    .title = Рэжым фільтравання па меткам
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
