@@ -296,7 +296,7 @@
 <!ENTITY folderMenu.accesskey "а">
 <!ENTITY goRecentlyClosedTabs.label "Нядаўна зачыненыя ўстаўкі">
 <!ENTITY goRecentlyClosedTabs.accesskey "Н">
-<!ENTITY startPageCmd.label "Пачатковая старонка Пошты">
+<!ENTITY startPageCmd.label "Пачатковая старонка пошты">
 <!ENTITY startPageCmd.accesskey "П">
 
 <!-- Message Menu -->
