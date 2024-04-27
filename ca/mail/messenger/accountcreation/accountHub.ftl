@@ -41,14 +41,23 @@ account-hub-sync-button = Inicia la sessió al Sync…
 ## Email page
 
 account-hub-email-title = Configureu el vostre compte de correu
+account-hub-add-email-title = Afegiu el vostre compte
+account-hub-manually-configure-email-title = Configureu el compte
 account-hub-email-cancel-button = Cancel·la
 account-hub-email-stop-button = Atura
 account-hub-email-back-button = Enrere
+account-hub-email-retest-button = Torna a provar
+account-hub-email-finish-button = Finalitza
+account-hub-email-manually-configure-button = Configura manualment
 account-hub-email-continue-button = Continua
 account-hub-email-confirm-button = Confirma
 account-hub-incoming-server-legend = Servidor d'entrada
 account-hub-outgoing-server-legend = Servidor de sortida
 account-hub-protocol-label = Protocol
+account-hub-hostname-label = Nom de l'ordinador central
+account-hub-port-label = Port
+    .title = Definiu el número de port 0 per detectar-lo automàticament
+account-hub-auto-description = El { -brand-short-name } intentarà detectar automàticament els camps que es deixin en blanc.
 account-hub-ssl-label = Seguretat de la connexió
 
 ## Incoming/Outgoing SSL Authentication options
@@ -66,5 +75,8 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Cap
+account-hub-auth-no-authentication-option =
+    .label = Sense autenticació
 account-hub-auth-label = Mètode d'autenticació
 account-hub-username-label = Nom d'usuari
+account-hub-lookup-email-configuration-title = S'està cercant la configuració
