@@ -41,6 +41,7 @@ composition-addressing-header = Адрасацыя
 privacy-main-header = Прыватнасць
 privacy-passwords-header = Паролі
 privacy-junk-header = Спам
+collection-header = Збор і выкарыстанне даных { -brand-short-name }
 collection-health-report-telemetry-disabled-link = Даведацца больш
 collection-health-report-link = Даведацца больш
 collection-backlogged-crash-reports-link = Даведацца больш
