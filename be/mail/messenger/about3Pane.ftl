@@ -406,10 +406,6 @@ threadpane-cell-delete =
 threadpane-message-new =
     .alt = Індыкатар новага паведамлення
     .title = Новае паведамленне
-apply-current-view-to-folder =
-    .label = Папцы…
-apply-current-view-to-folder-children =
-    .label = Папка і яе нашчадкі…
 
 ## Apply columns confirmation dialog
 
