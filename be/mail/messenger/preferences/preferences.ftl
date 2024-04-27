@@ -26,7 +26,31 @@ pane-sync-title = Сінхранізацыя
 category-sync =
     .tooltiptext = Сінхранізацыя
 general-language-and-appearance-header = Мова і вонкавы выгляд
-general-incoming-mail-header = Уваходныя лісты
+general-incoming-mail-header = Уваходная пошта
+general-files-and-attachment-header = Файлы і прамацаванні
+general-tags-header = Меткі
+general-reading-and-display-header = Чытанне і адлюстраванне
+general-updates-header = Абнаўленні
+general-network-and-diskspace-header = Сетка і дыскавая прастора
+general-indexing-label = Індэксацыя
+composition-category-header = Набор
+composition-attachments-header = Прымацаванні
+composition-spelling-title = Правапіс
+compose-html-style-title = Стыль HTML
+composition-addressing-header = Адрасацыя
+privacy-main-header = Прыватнасць
+privacy-passwords-header = Паролі
+privacy-junk-header = Спам
+collection-health-report-telemetry-disabled-link = Даведацца больш
+collection-health-report-link = Даведацца больш
+collection-backlogged-crash-reports-link = Даведацца больш
+privacy-security-header = Бяспека
+privacy-scam-detection-title = Выяўленне махлярства
+privacy-anti-virus-title = Антывірус
+privacy-certificates-title = Сертыфікаты
+chat-pane-header = Чат
+chat-status-title = Статус
+chat-notifications-title = Апавяшчэнні
 
 ## OS Authentication dialog
 
