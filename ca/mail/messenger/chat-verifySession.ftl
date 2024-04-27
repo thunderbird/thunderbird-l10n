@@ -11,3 +11,4 @@ verify-dialog =
     .buttonaccesskeyaccept = C
     .buttonlabelextra2 = No coincideixen
     .buttonaccesskeyextra2 = N
+challenge-label = Verifica que la cadena que es mostra coincideixi amb la que es mostra a l'altre extrem.
