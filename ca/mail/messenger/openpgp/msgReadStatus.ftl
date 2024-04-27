@@ -41,9 +41,24 @@ openpgp-sig-uncertain-uid-mismatch = Aquest missatge conté una signatura digita
 openpgp-sig-uncertain-not-accepted = Aquest missatge conté una signatura digital, però encara no heu decidit si accepteu la clau del signant.
 openpgp-sig-invalid-rejected = Aquest missatge conté una signatura digital, però anteriorment vàreu decidir rebutjar la clau del signant.
 openpgp-sig-invalid-technical-problem = Aquest missatge conté una signatura digital, però s'hi ha detectat un error tècnic. O bé el missatge s'ha malmès, o bé algú l'ha modificat.
+openpgp-sig-invalid-date-mismatch = Aquest missatge conté una signatura digital, però la signatura no es va fer alhora que es va enviar el missatge de correu. Això podria ser un intent d'enganyar-vos amb contingut que prové d'un context incorrecte: p. ex., contingut escrit en un altre context temporal o destinat a algú altre.
 openpgp-sig-valid-unverified = Aquest missatge inclou una signatura digital vàlida d'una clau que ja heu acceptat. Això no obstant, encara no heu verificat que la clau realment sigui propietat del remitent.
 openpgp-sig-valid-verified = Aquest missatge inclou una signatura digital vàlida d'una clau verificada.
 openpgp-sig-valid-own-key = Aquest missatge inclou una signatura digital vàlida de la vostra clau personal.
+# Variables:
+# $key (String) - The ID of the OpenPGP key used to create the signature.
+openpgp-sig-key-id = ID de la clau del signant: { $key }
+# Variables:
+# $key (String) - The primary ID of the OpenPGP key used to create the signature.
+# $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
+openpgp-sig-key-id-with-subkey-id = ID de la clau del signant: { $key } (ID de la subclau: { $subkey })
+# Variables:
+# $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
+openpgp-enc-key-id = ID de la vostra clau de desxifratge: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
+openpgp-enc-key-with-subkey-id = ID de la vostra clau de desxifratge: { $key } (ID de la subclau: { $subkey })
 openpgp-enc-none = El missatge no està xifrat
 openpgp-enc-none-label = No s'ha xifrat aquest missatge abans d'enviar-lo. Qualsevol informació no xifrada enviada per Internet pot ser vista per terceres persones durant la transmissió.
 openpgp-enc-invalid-label = El missatge no es pot desxifrar
