@@ -284,21 +284,92 @@ addon-removal-confirmation-message = Voleu eliminar { $name } del { -brand-short
 caret-browsing-prompt-title = Navegació amb cursor
 caret-browsing-prompt-text = En prémer F7 s'activa o es desactiva la navegació amb cursor. Aquesta característica col·loca un cursor mòbil dins del contingut que us permet seleccionar text amb el teclat. Voleu activar-la?
 caret-browsing-prompt-check-text = No ho tornis a demanar.
+repair-text-encoding-button =
+    .label = Repara la codificació del text
+    .tooltiptext = Determina la codificació del text correcta a partir del contingut del missatge
 
 ## no-reply handling
 
+no-reply-title = No s'admet resposta
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
+no-reply-message = L'adreça de resposta ({ $email }) no sembla ser una adreça controlada. És probable que ningú llegeixi els missatges d'aquesta adreça.
+no-reply-reply-anyway-button = Respon igualment
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] No s'ha pogut desxifrar un de { $total } missatges i no s'ha copiat.
+       *[other] No s'han pogut desxifrar { $failures } de { $total } missatges i no s'han copiat.
+    }
 
 ## Spaces toolbar
 
+spaces-toolbar-button-mail2 =
+    .title = Correu
+spaces-toolbar-button-address-book2 =
+    .title = Llibreta d'adreces
+spaces-toolbar-button-calendar2 =
+    .title = Calendari
+spaces-toolbar-button-tasks2 =
+    .title = Tasques
+spaces-toolbar-button-chat2 =
+    .title = Xat
+spaces-toolbar-button-settings2 =
+    .title = Paràmetres
+spaces-context-new-tab-item =
+    .label = Obre en una pestanya nova
+spaces-context-new-window-item =
+    .label = Obre en una finestra nova
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = Canvia a { $tabName }
+settings-context-open-settings-item2 =
+    .label = Paràmetres
+settings-context-open-account-settings-item2 =
+    .label = Paràmetres del compte
+settings-context-open-addons-item2 =
+    .label = Complements i temes
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] Un missatge per llegir
+           *[other] { $count } missatges per llegir
+        }
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Personalitza…
+spaces-customize-background-color = Color de fons
+spaces-customize-icon-color = Color dels botons
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Color de fons del botó seleccionat
 
 ## Quick Filter Bar
 
