@@ -142,3 +142,24 @@ toolbar-stop =
 toolbar-throbber-label = Indicador d'activitat
 toolbar-throbber =
     .title = Indicador d'activitat
+toolbar-create-contact-label = Contacte nou
+toolbar-create-contact =
+    .title = Crea un contacte nou
+toolbar-create-address-book-label = Llibreta d'adreces nova
+toolbar-create-address-book =
+    .title = Crea una llibreta d'adreces nova
+toolbar-create-list-label = Llista nova
+toolbar-create-list =
+    .title = Crea una llista de correu nova
+toolbar-import-contacts-label = Importa
+toolbar-import-contacts =
+    .title = Importa contactes d'un fitxer
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Afegeix una llibreta d'adreces local
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Afegeix una llibreta d'adreces CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Afegeix una llibreta d'adreces LDAP
