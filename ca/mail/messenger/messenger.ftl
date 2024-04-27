@@ -250,6 +250,12 @@ message-header-show-sender-full-address-description = L'adreça electrònica es 
 message-header-show-recipient-avatar =
     .label = Mostra la imatge de perfil del remitent
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Imatge de perfil més gran
+    .accesskey = g
+message-header-hide-label-column =
+    .label = Amaga la columna d'etiquetes
+    .accesskey = i
 
 ## Action Button Context Menu
 
