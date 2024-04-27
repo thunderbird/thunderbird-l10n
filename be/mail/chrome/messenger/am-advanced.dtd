@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-advanced.xul -->
-
 <!-- extracted from am-advanced.xhtml -->
 
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
@@ -23,7 +21,7 @@
 
 <!ENTITY serverDetails.label "Падрабязнасці вылучанага сервера:">
 <!ENTITY serverDescription.label "Апісанне:">
-<!ENTITY serverName.label "Назва паслугача:">
+<!ENTITY serverName.label "Назва сервера: ">
 <!ENTITY serverPort.label "Порт:">
 <!ENTITY userName.label   "Імя карыстальніка:">
 <!ENTITY connectionSecurity.label "Бяспека злучэння:">

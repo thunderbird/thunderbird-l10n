@@ -4,9 +4,9 @@
 
 <!ENTITY messageStorage.label "Сховішча лістоў">
 <!ENTITY securitySettings.label "Наладжванні бяспекі">
-<!ENTITY serverSettings.label "Наладжванні паслугача">
-<!ENTITY serverType.label "Тып паслугача:">
-<!ENTITY serverName.label "Назва паслугача:">
+<!ENTITY serverSettings.label "Налады сервера">
+<!ENTITY serverType.label "Тып сервера:">
+<!ENTITY serverName.label "Назва сервера:">
 <!ENTITY serverName.accesskey "Н">
 <!ENTITY userName.label "Імя карыстальніка:">
 <!ENTITY userName.accesskey "і">
@@ -31,7 +31,7 @@
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "Метад апазнавання:">
 <!ENTITY authMethod.accesskey "з">
-<!ENTITY leaveOnServer.label "Пакідаць лісты на паслугачы">
+<!ENTITY leaveOnServer.label "Пакідаць паведамленні на серверы">
 <!ENTITY leaveOnServer.accesskey "п">
 <!ENTITY headersOnly.label "Атрымліваць толькі загалоўкі">
 <!ENTITY headersOnly.accesskey "т">
