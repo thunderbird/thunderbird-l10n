@@ -124,40 +124,31 @@ allow-description = Дазволіць { -brand-short-name }
 automatic-updates-label =
     .label = Усталёўваць абнаўленні аўтаматычна (рэкамендавана: узнімае бяспеку)
     .accesskey = С
-check-updates-label =
-    .label = Правяраць, ці існуюць абнаўленні, але я сам буду вырашаць, ці ўсталёўваць іх
-    .accesskey = П
 update-history-button =
     .label = Паказаць гісторыю абнаўленняў
     .accesskey = г
 use-service =
-    .label = Ужываць фонаваю службу для ўсталявання абналенняў
-    .accesskey = У
+    .label = Выкарыстоўваць фонавую службу для ўсталёўкі абналенняў
+    .accesskey = ф
 networking-legend = Злучэнне
-proxy-config-description = Наладзіць, як { -brand-short-name } мусіць злучацца з Інтэрнэтам
 network-settings-button =
-    .label = Наладжванні…
-    .accesskey = л
-offline-legend = Па-за сеткаю
-offline-settings = Наладзіць працу па-за сеткаю
+    .label = Налады…
+    .accesskey = Н
+offline-legend = Па-за сеткай
 offline-settings-button =
-    .label = Па-за сеткаю…
-    .accesskey = з
+    .label = Па-за сеткай…
+    .accesskey = й
 diskspace-legend = Месца на дыску
-offline-compact-folder =
-    .label = Ушчыльняць усе папкі, калі я захоўваю больш
-    .accesskey = ш
 compact-folder-size =
-    .value = МБ
+    .value = МБ усяго
 
 ## Note: The entities use-cache-before and use-cache-after appear on a single
 ## line in preferences as follows:
 ## use-cache-before [ textbox for cache size in MB ] use-cache-after
 
 use-cache-before =
-    .value = Ужываць да
-    .accesskey = У
-use-cache-after = МБ прасторы для запасніку
+    .value = Выкарыстоўваць да
+    .accesskey = ы
 
 ##
 
