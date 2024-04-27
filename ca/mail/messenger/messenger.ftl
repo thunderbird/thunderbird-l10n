@@ -370,6 +370,13 @@ spaces-customize-icon-color = Color dels botons
 # The background color used on the buttons of the spaces toolbar when they are
 # `current`, meaning the related space/tab is active and visible.
 spaces-customize-accent-background-color = Color de fons del botó seleccionat
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Color del botó seleccionat
+spaces-customize-button-restore = Valors per defecte
+    .accesskey = V
+customize-panel-button-save = Fet
+    .accesskey = F
 
 ## Quick Filter Bar
 
@@ -385,6 +392,7 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Oblida les frases de contrasenya de l'OpenPGP
 
 ## Quota panel.
 
