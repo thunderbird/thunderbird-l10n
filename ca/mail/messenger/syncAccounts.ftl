@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Ara mateix no es pot enviar un correu de verif
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Voleu tancar la sessió del compte?
 sync-signout-dialog-body = Les dades sincronitzades romandran en el vostre compte.
 sync-signout-dialog-button = Tanca la sessió
 
