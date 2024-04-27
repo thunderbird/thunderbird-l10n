@@ -256,6 +256,12 @@ message-header-show-big-avatar =
 message-header-hide-label-column =
     .label = Amaga la columna d'etiquetes
     .accesskey = i
+message-header-large-subject =
+    .label = Assumpte més gran
+    .accesskey = s
+message-header-all-headers =
+    .label = Mostra totes les capçaleres
+    .accesskey = a
 
 ## Action Button Context Menu
 
@@ -272,6 +278,9 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Voleu eliminar { $name }?
 addon-removal-confirmation-button = Elimina
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = Voleu eliminar { $name } del { -brand-short-name }, juntament amb la configuració i les dades associades?
 caret-browsing-prompt-title = Navegació amb cursor
 caret-browsing-prompt-text = En prémer F7 s'activa o es desactiva la navegació amb cursor. Aquesta característica col·loca un cursor mòbil dins del contingut que us permet seleccionar text amb el teclat. Voleu activar-la?
 caret-browsing-prompt-check-text = No ho tornis a demanar.
