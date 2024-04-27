@@ -103,37 +103,26 @@ autoscroll-label =
 smooth-scrolling-label =
     .label = Выкарыстоўваць плаўную прагортку
     .accesskey = п
+browsing-gtk-use-non-overlay-scrollbars =
+    .label = Заўсёды паказваць палосы прагорткі
+    .accesskey = З
 system-integration-legend = Узаемадзеянне з сістэмай
-always-check-default =
-    .label = Заўсёды правяраць пры запуску, ці з'яўляецца { -brand-short-name } змоўчным спажыўцом пошты
-    .accesskey = ў
 check-default-button =
     .label = Праверыць зараз…
-    .accesskey = з
-# Note: This is the search engine name for all the different platforms.
-# Platforms that don't support it should be left blank.
-search-engine-name =
-    { PLATFORM() ->
-        [macos] Spotlight
-        [windows] Пошук Windows
-       *[other] { "" }
-    }
+    .accesskey = ц
 search-integration-label =
-    .label = Дазволіць { search-engine-name } шукаць лісты
-    .accesskey = Д
+    .label = Дазволіць { search-engine-name } шукаць паведамленні
+    .accesskey = в
 config-editor-button =
-    .label = Рэдактар наладкі…
-    .accesskey = Р
-return-receipts-description = Вызначыць, як { -brand-short-name } апрацоўвае квіткі атрымання
-return-receipts-button =
-    .label = Квіткі атрымання…
-    .accesskey = К
+    .label = Рэдактар канфігурацыі…
+    .accesskey = ф
 update-app-legend = Абнаўленні { -brand-short-name }
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 68.0.1
 update-app-version = Версія { $version }
+allow-description = Дазволіць { -brand-short-name }
 automatic-updates-label =
-    .label = Самастойнае ўсталяванне абнаўленняў (раіцца: палепшаная бяспека)
+    .label = Усталёўваць абнаўленні аўтаматычна (рэкамендавана: узнімае бяспеку)
     .accesskey = С
 check-updates-label =
     .label = Правяраць, ці існуюць абнаўленні, але я сам буду вырашаць, ці ўсталёўваць іх
