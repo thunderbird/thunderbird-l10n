@@ -26,6 +26,7 @@ pane-sync-title = Сінхранізацыя
 category-sync =
     .tooltiptext = Сінхранізацыя
 general-language-and-appearance-header = Мова і вонкавы выгляд
+general-incoming-mail-header = Уваходныя лісты
 
 ## OS Authentication dialog
 
