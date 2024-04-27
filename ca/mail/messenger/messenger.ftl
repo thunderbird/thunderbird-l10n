@@ -246,6 +246,10 @@ message-header-button-style-icons =
 message-header-show-sender-full-address =
     .label = Mostra sempre l'adreça completa del remitent
     .accesskey = c
+message-header-show-sender-full-address-description = L'adreça electrònica es veurà sota el nom a mostrar.
+message-header-show-recipient-avatar =
+    .label = Mostra la imatge de perfil del remitent
+    .accesskey = p
 
 ## Action Button Context Menu
 
