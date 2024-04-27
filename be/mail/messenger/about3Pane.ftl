@@ -241,9 +241,16 @@ threadpane-cell-attachments =
 threadpane-attachments-cell-label = Прымацаванні
 threadpane-read-cell-label = Прачытана
 threadpane-column-header-sender = Ад
-    .title = Сартаваць па адпраўніках
+    .title = Сартаваць па адпраўшчыках
 threadpane-column-label-sender =
     .label = Ад
+threadpane-cell-sender =
+    .aria-label = Ад
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Ад
+    .title = { $title }
 threadpane-column-header-recipient = Атрымальнік
     .title = Сартаваць па атрымальніках
 threadpane-column-label-recipient =
@@ -369,14 +376,30 @@ threadpane-column-header-total = Усяго
     .title = Агульная колькасць лістоў у нізцы
 threadpane-column-label-total =
     .label = Усяго
-threadpane-column-header-location = Месцазнаходжанне
-    .title = Размеркаваць па месцазнаходжанні
-threadpane-column-label-location =
-    .label = Месцазнаходжанне
+threadpane-cell-total =
+    .aria-label = Агульная колькасць паведамленняў
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Агульная колькасць паведамленняў
+    .title = { $title }
 threadpane-column-header-id = Парадак атрымання
-    .title = Размеркаваць па парадку атрымання
+    .title = Сартаваць па парадку атрымання
 threadpane-column-label-id =
     .label = Парадак атрымання
+threadpane-cell-id =
+    .aria-label = Парадак атрымання
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Парадак атрымання
+    .title = { $title }
+threadpane-column-header-delete =
+    .title = Выдаліць паведамленне
+threadpane-column-label-delete =
+    .label = Выдаліць
+threadpane-cell-delete =
+    .aria-label = Выдаліць
 
 ## Message state variations
 
