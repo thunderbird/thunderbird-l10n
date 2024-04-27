@@ -25,6 +25,7 @@ category-calendar =
 pane-sync-title = Сінхранізацыя
 category-sync =
     .tooltiptext = Сінхранізацыя
+general-language-and-appearance-header = Мова і вонкавы выгляд
 
 ## OS Authentication dialog
 
