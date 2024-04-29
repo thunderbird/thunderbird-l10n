@@ -132,6 +132,9 @@ context-menu-mark-unread =
 context-menu-mark-reply =
     .aria-label = Одговори
     .tooltiptext = Одговор
+context-menu-mark-junk =
+    .aria-label = Означи као смеће
+    .tooltiptext = Означи као смеће
 mail-context-menu-open =
     .label = Отвори
     .accesskey = о
@@ -182,6 +185,16 @@ mail-context-undelete-messages =
             [one] Врати обрисану поруку
            *[other] Врати изабране обрисане поруке
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Обриши поруку
+            [few] Обриши изабране поруке
+           *[other] Обриши изабране поруке
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
 context-menu-decrypt-to-folder2 =
     .label = Направи дешифровану копију у
     .accesskey = д
