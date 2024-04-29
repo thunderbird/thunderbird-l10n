@@ -123,9 +123,46 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Означи као прочитано
+    .tooltiptext = Означи као прочитано
+context-menu-mark-unread =
+    .aria-label = Означи као непрочитано
+    .tooltiptext = Означи као непрочитано
+context-menu-mark-reply =
+    .aria-label = Одговори
+    .tooltiptext = Одговор
+mail-context-menu-open =
+    .label = Отвори
+    .accesskey = о
+mail-context-menu-reply =
+    .label = Одговори
+    .accesskey = г
+mail-context-menu-forward-redirect =
+    .label = Проследи и преусмери
+    .accesskey = л
 mail-context-menu-forward-forward =
     .label = Проследи
     .accesskey = р
+mail-context-menu-forward-inline =
+    .label = Унутар линије
+    .accesskey = и
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Као прилог
+            [few] Као прилоге
+           *[other] Као прилоге
+        }
+    .accesskey = е
+mail-context-menu-organize =
+    .label = Преуреди
+    .accesskey = д
+mail-context-menu-threads =
+    .label = Нити
+    .accesskey = т
 context-menu-redirect-msg =
     .label = Преусмери
 # Variables:
@@ -207,6 +244,8 @@ repair-text-encoding-button =
 
 ## no-reply handling
 
+no-reply-title = Одговор није подржан
+no-reply-reply-anyway-button = Ипак одговори
 
 ## error messages
 
@@ -229,6 +268,10 @@ spaces-toolbar-button-hide =
     .title = Сакриј просторну траку
 spaces-toolbar-button-show =
     .title = Прикажи просторну траку
+spaces-context-new-tab-item =
+    .label = Отвори у новом језичку
+spaces-context-new-window-item =
+    .label = Отвара у новом прозору
 settings-context-open-settings-item2 =
     .label = Подешавања
 settings-context-open-account-settings-item2 =
@@ -267,7 +310,7 @@ quick-filter-bar-toggle =
     .label = Трака брзог филтрирања
     .accesskey = б
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
