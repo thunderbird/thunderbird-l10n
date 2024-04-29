@@ -226,7 +226,7 @@ choose-folder-label =
             [macos] В
            *[other] А
         }
-display-tags-text = Меціны могуць ужывацца для размеркавання вашых лістоў па катэгорыям і надання ім прыярытэтаў.
+display-tags-text = Меткі можна выкарыстоўваць для катэгарызацыі і змянення прыярытэта вашых паведамленняў.
 new-tag-button =
     .label = Стварыць…
     .accesskey = С
@@ -236,6 +236,12 @@ edit-tag-button =
 delete-tag-button =
     .label = Выдаліць
     .accesskey = В
+auto-mark-as-read =
+    .label = Аўтаматычна пазначаць паведамленні як прачытаныя
+    .accesskey = А
+mark-read-no-delay =
+    .label = Неадкладна пасля паказу
+    .accesskey = Н
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
