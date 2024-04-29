@@ -94,12 +94,18 @@ mail-play-sound-label =
            *[other] Прайграваць гук
         }
     .accesskey = р
+mail-play-button =
+    .label = Прайграць
+    .accesskey = П
 animated-alert-label =
     .label = Паказваць абвестку
     .accesskey = к
 customize-alert-label =
     .label = Персаналізаваць…
     .accesskey = р
+mail-custom-sound-label =
+    .label = Выкарыстоўваць наступны гукавы файл
+    .accesskey = В
 mail-browse-sound-button =
     .label = Агляд…
     .accesskey = А
