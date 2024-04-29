@@ -226,9 +226,6 @@ choose-folder-label =
             [macos] В
            *[other] А
         }
-always-ask-label =
-    .label = Заўсёды пытаць мяне, дзе захоўваць файлы
-    .accesskey = ў
 display-tags-text = Меціны могуць ужывацца для размеркавання вашых лістоў па катэгорыям і надання ім прыярытэтаў.
 new-tag-button =
     .label = Стварыць…
