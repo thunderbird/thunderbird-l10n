@@ -87,6 +87,13 @@ remove-search-engine =
     .label = Выдаліць
     .accesskey = В
 new-message-arrival = Пры з'яўленні новых паведамленняў:
+mail-play-sound-label =
+    .label =
+        { PLATFORM() ->
+            [macos] Прайграваць наступны гукавы файл:
+           *[other] Прайграваць гук
+        }
+    .accesskey = р
 animated-alert-label =
     .label = Паказваць абвестку
     .accesskey = к
@@ -445,8 +452,8 @@ chat-system-sound-label =
     .label = Змоўчны сістэмны гук для новай пошты
     .accesskey = З
 chat-custom-sound-label =
-    .label = Карыстацца наступным файлам гуку
-    .accesskey = У
+    .label = Выкарыстоўваць наступны гукавы файл
+    .accesskey = ы
 chat-browse-sound-button =
     .label = Агляд…
     .accesskey = г
