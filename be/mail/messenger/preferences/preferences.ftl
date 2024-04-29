@@ -242,6 +242,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Неадкладна пасля паказу
     .accesskey = Н
+view-attachments-inline =
+    .label = Паказваць прымацаванні ў целе паведамлення
+    .accesskey = П
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -251,10 +254,10 @@ seconds-label = секунд
 ##
 
 open-msg-label =
-    .value = Адкрыць паведамленні ў:
+    .value = Адкрываць паведамленні ў:
 open-msg-tab =
-    .label = новай картцы
-    .accesskey = к
+    .label = новай укладцы
+    .accesskey = н
 open-msg-window =
     .label = новым акне
     .accesskey = н
@@ -265,23 +268,23 @@ open-msg-ex-window =
 ## Compose Tab
 
 forward-label =
-    .value = Накіроўваць лісты:
-    .accesskey = Н
+    .value = Перасылаць паведамленні:
+    .accesskey = е
 inline-label =
-    .label = Усярэдзіне
+    .label = У целе
 as-attachment-label =
-    .label = Як далучэнне
+    .label = Як прымацаванні
 extension-label =
-    .label = дадаць пашырэнне да назвы файла
+    .label = дадаваць пашырэнне да імя файла
     .accesskey = ф
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
 ## using (auto-save-label) and a number (auto-save-end).
 
 auto-save-label =
-    .label = Самазахаванне кожныя
-    .accesskey = з
-auto-save-end = хвілінаў
+    .label = Аўтазахоўваць кожныя
+    .accesskey = ў
+auto-save-end = хвілін
 
 ##
 
