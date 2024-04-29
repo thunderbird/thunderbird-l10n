@@ -570,9 +570,9 @@
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Ignorar aviso desta mensagem">
 <!ENTITY phishingOptionIgnore.accesskey "n">
-<!ENTITY phishingOptionSettings.label "Editar opções da detecção de fraudes…">
+<!ENTITY phishingOptionSettings.label "Editar opções de detecção de fraude…">
 <!ENTITY phishingOptionSettings.accesskey "d">
-<!ENTITY phishingOptionSettingsUnix.label "Editar preferências da detecção de fraudes…">
+<!ENTITY phishingOptionSettingsUnix.label "Editar preferências de detecção de fraude…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "p">
 
 <!-- AppMenu Popup -->
