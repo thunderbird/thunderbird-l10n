@@ -59,6 +59,7 @@ manage-messenger-languages-button =
     .accesskey = З
 confirm-messenger-language-change-description = Перазапусціце { -brand-short-name }, каб ужыць гэтыя змены
 confirm-messenger-language-change-button = Ужыць і перазапусціць
+update-in-progress-title = Выконваецца абнаўленне
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Працягнуць
@@ -80,6 +81,9 @@ general-legend = Пачатковая старонка { -brand-short-name }
 start-page-label =
     .label = Паказваць пачатковую старонку ў вобласці прагляда паведамленняў, калі { -brand-short-name } запускаецца
     .accesskey = П
+restore-default-label =
+    .label = Аднавіць прадвызначаныя значэнні
+    .accesskey = А
 default-search-engine = Прадвызначаная сістэма пошуку
 add-web-search-engine =
     .label = Дадаць…
@@ -520,6 +524,12 @@ search-preferences-input2 =
 ## Settings UI Search Results
 
 search-results-header = Вынікі пошуку
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] Выбачайце! Не атрымалася знайсці «<span data-l10n-name="query"></span>» у параметрах.
+       *[other] Выбачайце! Не атрымалася знайсці «<span data-l10n-name="query"></span>» у наладах.
+    }
 
 ## Sync Tab
 
