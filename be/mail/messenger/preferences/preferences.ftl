@@ -347,6 +347,9 @@ remove-cloud-account =
 ## Privacy Tab
 
 mail-content = Змесціва пошты
+remote-content-label =
+    .label = Дазволіць аддаленае змесціва ў паведамленнях
+    .accesskey = Д
 exceptions-button =
     .label = Выключэнні…
     .accesskey = ы
@@ -354,7 +357,7 @@ cookies-label =
     .label = Прымаць кукі з сайтаў
     .accesskey = П
 third-party-label =
-    .value = Прымаць кукі з старонніх сайтаў:
+    .value = Прымаць кукі са старонніх сайтаў:
     .accesskey = р
 third-party-always =
     .label = Заўсёды
