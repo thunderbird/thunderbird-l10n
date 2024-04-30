@@ -52,6 +52,7 @@ privacy-certificates-title = Сертыфікаты
 chat-pane-header = Чат
 chat-status-title = Статус
 chat-notifications-title = Апавяшчэнні
+chat-pane-styling-header = Стыль
 choose-messenger-language-description = Выберыце мовы, якія выкарыстоўваюцца пры адлюстраванні меню, паведамленняў і апавяшчэнняў ад { -brand-short-name }.
 manage-messenger-languages-button =
     .label = Задаць альтэрнатыўныя…
