@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = 關閉疑難排解模式
     .accesskey = O
-menu-help-more-troubleshooting-info =
-    .label = 更多疑難排解資訊
-    .accesskey = M
 menu-help-troubleshooting-info =
     .label = 疑難排解資訊
     .accesskey = I
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = 離開 { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = 緊密
     .accesskey = C
-mail-uidensity-normal =
-    .label = 標準
-    .accesskey = N
-mail-uidensity-touch =
-    .label = 觸控
-    .accesskey = T
 mail-uidensity-default =
     .label = 預設
     .accesskey = D
@@ -139,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = 電子郵件帳號…
+    .accesskey = E
 file-new-newsgroup-account =
     .label = 新聞群組帳號…
     .accesskey = N
