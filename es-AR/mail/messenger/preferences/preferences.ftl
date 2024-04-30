@@ -370,7 +370,7 @@ mark-read-no-delay =
     .label = Inmediatamente en pantalla
     .accesskey = I
 view-attachments-inline =
-    .label = Mirá los archivos adjuntos en linea
+    .label = Ver adjuntos integrados
     .accesskey = V
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
