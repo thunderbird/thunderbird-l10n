@@ -130,6 +130,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Llogari Email…
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Llogari Grupi Lajmesh…
     .accesskey = L

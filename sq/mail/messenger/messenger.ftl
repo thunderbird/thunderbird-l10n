@@ -188,9 +188,51 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Vëri Shenjë si të Lexuar
+    .tooltiptext = Vërini Shenjë si të Lexuar
+context-menu-mark-unread =
+    .aria-label = Vëri Shenjë si të Palexuar
+    .tooltiptext = Vërini Shenjë si të Palexuar
+context-menu-mark-reply =
+    .aria-label = Përgjigjuni
+    .tooltiptext = Përgjigjuni
+context-menu-archive =
+    .aria-label = Arkivoje
+    .tooltiptext = Arkivoje
+context-menu-mark-junk =
+    .aria-label = Vëri shenjë si i Pavlerë
+    .tooltiptext = Vërini shenjë si i Pavlerë
+mail-context-menu-open =
+    .label = Hape
+    .accesskey = H
+mail-context-menu-reply =
+    .label = Përgjigjuni
+    .accesskey = P
+mail-context-menu-forward-redirect =
+    .label = Përcille dhe Ridrejtoje
+    .accesskey = c
 mail-context-menu-forward-forward =
     .label = Përcille
     .accesskey = c
+mail-context-menu-forward-inline =
+    .label = Brendazi
+    .accesskey = B
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Si Bashkëngjitje
+           *[other] Si Bashkëngjitje
+        }
+    .accesskey = k
+mail-context-menu-organize =
+    .label = Sistemojini
+    .accesskey = S
+mail-context-menu-threads =
+    .label = Rrjedha
+    .accesskey = R
 context-menu-redirect-msg =
     .label = Ridrejtoje
 # This menu item is for canceling an NNTP message

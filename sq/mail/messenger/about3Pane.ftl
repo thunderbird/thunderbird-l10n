@@ -500,5 +500,12 @@ apply-current-view-to-folder-message = Të aplikohet pamja e dosjes së tanishme
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Të aplikohet pamja e dosjes së tanishme te { $name } dhe pjellat e saj?
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> mesazh
+       *[other] <span>{ $total }</span> mesazhe
+    }
 threadpane-card-menu-button =
     .title = Menu mesazhesh
