@@ -464,24 +464,39 @@ chat-browse-sound-button =
 theme-label =
     .value = Тэма:
     .accesskey = Т
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = Бурбалкі
 style-dark =
     .label = Цёмная
 style-paper =
-    .label = Лісты паперы
+    .label = Аркушы паперы
 style-simple =
     .label = Простая
 preview-label = Перадпрагляд:
-no-preview-label = Папярэдні прагляд недаступны
+no-preview-label = Перадпрагляд недаступны
 chat-variant-label =
     .value = Варыянт:
     .accesskey = В
 
 ## Settings UI Search Results
 
+search-results-header = Вынікі пошуку
 
 ## Sync Tab
 
+sync-pane-sync-now = Сінхранізаваць зараз
 show-synced-list-heading = Вы зараз сінхранізуеце:
+show-synced-learn-more = Даведацца больш…
+show-synced-item-account = Уліковыя запісы электроннай пошты
+show-synced-item-address = Адрасныя кнігі
 show-synced-item-calendar = Календары
+show-synced-item-identity = Ідэнтыфікацыйныя даныя
+show-synced-item-passwords = Паролі
+show-synced-change = Змяніць…
+synced-acount-item-server-config = Канфігурацыя сервера
+synced-acount-item-filters = Фільтры
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Сінхранізуйце свае ўліковыя запісы электроннай пошты, адрасныя кнігі, календары і ідэнтыфікацыйныя даныя на ўсіх вашых прыладах.
+sync-disconnected-turn-on-sync = Уключыць сінхранізацыю...
