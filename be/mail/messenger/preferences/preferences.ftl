@@ -479,6 +479,17 @@ no-preview-label = Перадпрагляд недаступны
 chat-variant-label =
     .value = Варыянт:
     .accesskey = В
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 15.4em
+    .placeholder = Знайсці ў наладах
 
 ## Settings UI Search Results
 
@@ -486,10 +497,17 @@ search-results-header = Вынікі пошуку
 
 ## Sync Tab
 
+sync-signedout-description = Сінхранізуйце свае ўліковыя запісы, адрасныя кнігі, календары, дадаткі і налады на ўсіх вашых прыладах.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Увайсці для сінхранізацыі…
+sync-pane-header = Сінхранізацыя
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = «{ $userEmail }» не пацверджаны.
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-signedin-login-failure = Калі ласка, увайдзіце для перападлучэння «{ $userEmail }»
-sync-pane-resend-verification = Адправіць пацвярджэнне зноў
+sync-pane-resend-verification = Адправіць запыт на пацвярджэнне зноў
 sync-pane-sign-in = Увайсці
 sync-pane-remove-account = Выдаліць уліковы запіс
 sync-pane-edit-photo =
