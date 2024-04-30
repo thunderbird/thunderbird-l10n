@@ -133,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Cyfrif E-bost…
+    .accesskey = C
 file-new-newsgroup-account =
     .label = Cyfrif Grŵp Newyddion…
     .accesskey = N
