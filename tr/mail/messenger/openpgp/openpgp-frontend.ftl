@@ -20,7 +20,7 @@ openpgp-ctx-verify-att =
 openpgp-has-sender-key = Bu ileti, gönderenin OpenPGP ortak anahtarını içerdiğini belirtiyor.
 # Variables:
 # $email (String) - Email address with the problematic public key.
-openpgp-be-careful-new-key = Uyarı: Bu iletideki yeni ortak genel anahtarı, daha önce { $email } için kabul ettiğiniz ortak anahtarlardan farklı.
+openpgp-be-careful-new-key = Uyarı: Bu iletideki yeni OpenPGP ortak anahtarı, daha önce { $email } için kabul ettiğiniz ortak anahtarlardan farklı.
 openpgp-import-sender-key =
     .label = İçe aktar…
 openpgp-search-keys-openpgp =

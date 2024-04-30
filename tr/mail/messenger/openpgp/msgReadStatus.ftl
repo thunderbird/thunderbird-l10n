@@ -10,7 +10,7 @@ message-header-show-security-info-key = S
 message-security-button =
     .title =
         { PLATFORM() ->
-            [macos] İleti güvenliğini göster (⌘ ⌥ { message-header-show-security-info-key })
+            [macos] İleti güvenliğini göster (⌃ ⌘ { message-header-show-security-info-key })
            *[other] İleti güvenliğini göster (Ctrl+Alt+{ message-header-show-security-info-key })
         }
 openpgp-view-signer-key =
@@ -59,7 +59,7 @@ openpgp-enc-key-id = Şifre çözme anahtarı kimliğiniz: { $key }
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Şifre çözme anahtarı kimliğiniz: { $key } (Alt anahtar kimliği: { $subkey })
 openpgp-enc-none = İleti şifrelenmemiş
-openpgp-enc-none-label = Bu ileti gönderilmeden önce şifrelenmedi. Internet üzerinden gönderilen şifrelenmemiş bilgiler başkaları tarafından görülebilir.
+openpgp-enc-none-label = Bu ileti gönderilmeden önce şifrelenmedi. İnternet üzerinden gönderilen şifrelenmemiş bilgiler başkaları tarafından görülebilir.
 openpgp-enc-invalid-label = İleti çözülemedi
 openpgp-enc-invalid = Bu ileti size gönderilmeden önce şifrelenmiş, fakat çözülemedi.
 openpgp-enc-clueless = Bu şifreli iletide bilinmeyen hatalar var.

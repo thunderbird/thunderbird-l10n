@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = { $identity } için Kişisel OpenPGP Anahtarı Ekle
-key-wizard-button =
-    .buttonlabelaccept = Devam et
-    .buttonlabelhelp = Geri dön
 key-wizard-dialog =
     .buttonlabelaccept = Devam et
     .buttonlabelextra1 = Geri dön
@@ -101,13 +98,11 @@ openpgp-import-key-list-amount-2 =
         [one] { -brand-short-name } içe aktarılabilecek 1 anahtar buldu.
        *[other] { -brand-short-name } içe aktarılabilecek { $count } anahtar buldu.
     }
-openpgp-import-key-list-description = Hangi anahtarların kişisel anahtarlarınınız olarak kullanılacağını onaylayın. Yalnızca kendi oluşturduğunuz ve kendi kimliğinizi gösteren anahtarları kişisel anahtar olarak kullanmalısınız. Bu seçeneği daha sonra Anahtar Özellikleri iletişim kutusundan değiştirebilirsiniz.
-openpgp-import-key-list-caption = Kişisel anahtar olarak işaretlenen anahtarlar Uçtan Uca Şifreleme bölümünde listelenir. Diğerlerine ise Anahtar Yöneticisi'nden ulaşabilirsiniz.
+openpgp-import-key-list-description = Hangi anahtarların kişisel anahtarlarınız olarak kullanılacağını onaylayın. Yalnızca kendi oluşturduğunuz ve kendi kimliğinizi gösteren anahtarları kişisel anahtar olarak kullanmalısınız. Bu seçeneği daha sonra Anahtar Özellikleri iletişim kutusundan değiştirebilirsiniz.
+openpgp-import-key-list-caption = Kişisel anahtar olarak işaretlenen anahtarlar Uçtan Uca Şifreleme bölümünde listelenir. Diğerlerine ise Anahtar Yöneticisi’nden ulaşabilirsiniz.
 openpgp-import-keep-passphrases =
     .label = İçe aktarılan gizli anahtarlar için parola korumasını sürdür
 openpgp-passphrase-prompt-title = Parola gerekli
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Lütfen şu anahtarın kilidini açmak için parolayı girin: { $key }
 openpgp-import-key-button =
     .label = İçe aktarılacak dosyayı seç…
     .accesskey = a
@@ -115,7 +110,7 @@ import-key-file = OpenPGP anahtar dosyasını içe aktar
 import-key-personal-checkbox =
     .label = Bu anahtarı kişisel anahtarım olarak kullan
 gnupg-file = GnuPG dosyaları
-import-error-file-size = <b>Hata!</b> 5 MB'den büyük dosyalar desteklenmez.
+import-error-file-size = <b>Hata!</b> 5 MB’den büyük dosyalar desteklenmez.
 #   $error (String) - the reported error from the failed key import method
 import-error-failed = <b>Hata! </b> Dosya içe aktarılamadı. { $error }
 #   $error (String) - the reported error from the failed key import method
@@ -132,7 +127,7 @@ openpgp-import-key-props =
 
 openpgp-external-key-title = Harici GnuPG anahtarı
 openpgp-external-key-description = Anahtar kimliğini girerek harici bir GnuPG anahtarını yapılandır
-openpgp-external-key-info = Buna ek olarak, Anahtar Yöneticisi üzerinden ilgili ortak anahtarı de içe aktarıp kabul etmelisiniz.
+openpgp-external-key-info = Buna ek olarak, Anahtar Yöneticisi üzerinden ilgili ortak anahtarı da içe aktarıp kabul etmelisiniz.
 openpgp-external-key-warning = <b>Yalnızca bir harici GnuPG anahtarı yapılandırabilirsiniz.</b> Önceki kaydınızın üzerine yazılacaktır.
 openpgp-save-external-button = Anahtar kimliğini kaydet
 openpgp-external-key-label = Gizli anahtar kimliği:

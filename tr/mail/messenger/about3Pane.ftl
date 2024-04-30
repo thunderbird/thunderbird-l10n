@@ -170,7 +170,7 @@ quick-filter-bar-gloda-upsell-line1 = Bu aramayı tüm dizinlerde sürdür
 # The second line of the panel popup that tells the user we found no matches.
 # Variables:
 # $text (String) - What the user has typed so far.
-quick-filter-bar-gloda-upsell-line2 = Şunu aramaya devam etmek için Enter'a yeniden basın: { $text }
+quick-filter-bar-gloda-upsell-line2 = Şunu aramaya devam etmek için Enter’a yeniden basın: { $text }
 
 ## Folder pane
 
