@@ -415,7 +415,11 @@ certificate-button =
 security-devices-button =
     .label = Прылады бяспекі…
     .accesskey = П
+email-e2ee-header = Скразное шыфраванне электроннай пошты
 account-settings = Налады ўліковага запісу
+email-e2ee-automatism = Аўтаматычнае выкарыстанне шыфравання
+email-e2ee-auto-on =
+    .label = Аўтаматычна ўключаць шыфраванне, калі гэта магчыма
 
 ## Chat Tab
 
@@ -455,6 +459,9 @@ chat-play-sound-label =
 chat-play-button =
     .label = Прайграць
     .accesskey = П
+chat-system-sound-label =
+    .label = Стандартны сістэмны гук для новай пошты
+    .accesskey = С
 chat-custom-sound-label =
     .label = Выкарыстоўваць наступны гукавы файл
     .accesskey = ы
