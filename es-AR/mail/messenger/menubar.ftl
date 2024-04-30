@@ -135,7 +135,7 @@ menu-spaces-toolbar-button =
 
 file-new-email-account =
     .label = Cuenta de correo electrónico…
-    .accesskey = C
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Cuenta de grupo de noticias…
     .accesskey = n
