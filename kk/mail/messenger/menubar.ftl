@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Мәселелерді шешу режимін сөндіру
     .accesskey = д
-menu-help-more-troubleshooting-info =
-    .label = Мәселелерді шешудің көбірек ақпараты
-    .accesskey = к
 menu-help-troubleshooting-info =
     .label = Мәселелерді шешу ақпараты
     .accesskey = т
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = { -brand-shorter-name } жұмысын аяқтау
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = ш
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Ықшам
     .accesskey = ш
-mail-uidensity-normal =
-    .label = Қалыпты
-    .accesskey = п
-mail-uidensity-touch =
-    .label = Тию
-    .accesskey = и
 mail-uidensity-default =
     .label = Бастапқы
     .accesskey = Б
@@ -139,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Эл. пошта тіркелгісі…
+    .accesskey = Э
 file-new-newsgroup-account =
     .label = Жаңалықтар топтары тіркелгісі…
     .accesskey = л
