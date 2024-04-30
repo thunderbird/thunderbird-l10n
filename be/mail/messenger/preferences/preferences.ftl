@@ -486,7 +486,14 @@ search-results-header = Вынікі пошуку
 
 ## Sync Tab
 
+sync-pane-device-name-title = Імя прылады
+sync-pane-change-device-name = Змяніць імя прылады
+sync-pane-cancel = Скасаваць
+sync-pane-save = Захаваць
+sync-pane-show-synced-header-on = Сінхранізацыя УКЛЮЧАНА
+sync-pane-show-synced-header-off = Сінхранізацыя ВЫКЛЮЧАНА
 sync-pane-sync-now = Сінхранізаваць зараз
+sync-panel-sync-now-syncing = Сінхранізацыя...
 show-synced-list-heading = Вы зараз сінхранізуеце:
 show-synced-learn-more = Даведацца больш…
 show-synced-item-account = Уліковыя запісы электроннай пошты
