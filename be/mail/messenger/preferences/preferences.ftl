@@ -486,6 +486,15 @@ search-results-header = Вынікі пошуку
 
 ## Sync Tab
 
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Калі ласка, увайдзіце для перападлучэння «{ $userEmail }»
+sync-pane-resend-verification = Адправіць пацвярджэнне зноў
+sync-pane-sign-in = Увайсці
+sync-pane-remove-account = Выдаліць уліковы запіс
+sync-pane-edit-photo =
+    .title = Змяніць аватар профілю
+sync-pane-manage-account = Кіраваць уліковым запісам
 sync-pane-sign-out = Выйсці…
 sync-pane-device-name-title = Імя прылады
 sync-pane-change-device-name = Змяніць імя прылады
