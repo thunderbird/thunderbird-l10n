@@ -133,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Account email…
+    .accesskey = A
 file-new-newsgroup-account =
     .label = Account gruppi di discussione…
     .accesskey = o
