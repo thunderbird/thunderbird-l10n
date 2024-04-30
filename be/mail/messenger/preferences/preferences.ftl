@@ -394,42 +394,34 @@ junk-read-auto-label =
     .label = Калі { -brand-short-name } вызначае, што яны з'яўляюцца спамам
     .accesskey = в
 junk-log-label =
-    .label = Дазволіць запіс метрыкі прыстасоўных сітаў лухты
-    .accesskey = м
+    .label = Уключыць вядзенне журнала працы адаптыўнага спам-фильтру
+    .accesskey = У
 junk-log-button =
-    .label = Паказаць метрыку
-    .accesskey = м
-reset-junk-button =
-    .label = Скінуць вывучаныя даныя
-    .accesskey = д
-phishing-description = { -brand-short-name } можа аналізаваць лісты на наяўнасць магчымых э-паштовых ашукаў, адшукваючы прыкметы распаўсюджаных спосабаў падману.
-phishing-label =
-    .label = Папярэджваць мяне, калі ліст, які я чытаю, падазраецца як э-паштовая ашука
+    .label = Паказаць журнал
     .accesskey = П
-antivirus-description = { -brand-short-name } можа палегчыць антывірусным праграмам аналіз уваходных паштовых лістоў да іх мясцовага захавання.
-antivirus-label =
-    .label = Дазволіць спажыўцам-антывірусам змяшчаць асобныя ўваходныя лісты ў карантын
-    .accesskey = а
-certificate-description = Калі паслугач патрабуе маё асабістае пасведчанне:
+reset-junk-button =
+    .label = Скінуць даныя навучання
+    .accesskey = С
+certificate-description = Калі сервер запытвае мой асабісты сертыфікат:
 certificate-auto =
-    .label = Выбраць адно самастойна
-    .accesskey = с
+    .label = Выбіраць яго аўтаматычна
+    .accesskey = а
 certificate-ask =
-    .label = Пытацца ў мяне кожны раз
-    .accesskey = р
-ocsp-label =
-    .label = Звяртацца да сервера OCSP за пацверджаннем дзейснасці сертыфікатаў
-    .accesskey = З
+    .label = Запытвацца ў мяне кожны раз
+    .accesskey = м
+certificate-button =
+    .label = Кіраванне сертыфікатамі…
+    .accesskey = К
+security-devices-button =
+    .label = Прылады бяспекі…
+    .accesskey = П
+account-settings = Налады ўліковага запісу
 
 ## Chat Tab
 
 startup-label =
-    .value = Пасля запуску { -brand-short-name }:
+    .value = Калі { -brand-short-name } запускаецца:
     .accesskey = з
-offline-label =
-    .label = Трымаць мае гутарковыя рахункі па-за сеткай
-auto-connect-label =
-    .label = Злучыцца з маімі гутарковымі рахункамі самастойна
 
 ## Note: idle-label is displayed first, then there's a field where the user
 ## can enter a number, and itemTime is displayed at the end of the line.
@@ -438,28 +430,31 @@ auto-connect-label =
 ## translate the whole sentence.
 
 idle-label =
-    .label = Паведаміць маім сябрам, што я бяздзейны пасля
-    .accesskey = в
-idle-time-label = хвілінаў бяздзейнасці
+    .label = Паведаміць мае кантакты пра маю бяздзейнасць праз
+    .accesskey = б
+idle-time-label = хвілін неактыўнасці
 
 ##
 
 away-message-label =
-    .label = і прызначыць статус "Зніклы" з гэтым паведамленнем:
-    .accesskey = ы
-send-typing-label =
-    .label = Дасылаць апавяшчэнне набору ў размовах
-    .accesskey = н
-notification-label = Калі прыбываюць паведамленні, накіраваныя вам:
+    .label = і задаць мне статус "Адышоў" з гэтым паведамленнем:
+    .accesskey = А
+notification-label = Калі прыбываюць накіраваныя вам паведамленні:
 show-notification-label =
-    .label = Паказаць апавяшчэнне
-    .accesskey = в
+    .label = Паказваць апавяшчэнне
+    .accesskey = а
+notification-all =
+    .label = з імем адпраўніка і перадпраглядам паведамлення
+notification-name =
+    .label = толькі з імем адпраўніка
+notification-empty =
+    .label = без усякай інфармацыі
 chat-play-sound-label =
-    .label = Прайграць гук
+    .label = Прайграваць гук
     .accesskey = г
 chat-play-button =
-    .label = Граць
-    .accesskey = Г
+    .label = Прайграць
+    .accesskey = П
 chat-system-sound-label =
     .label = Змоўчны сістэмны гук для новай пошты
     .accesskey = З
