@@ -486,6 +486,7 @@ search-results-header = Вынікі пошуку
 
 ## Sync Tab
 
+sync-pane-sign-out = Выйсці…
 sync-pane-device-name-title = Імя прылады
 sync-pane-change-device-name = Змяніць імя прылады
 sync-pane-cancel = Скасаваць
