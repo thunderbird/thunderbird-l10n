@@ -316,6 +316,14 @@ bg-color-label =
 restore-html-label =
     .label = Аднавіць прадвызначаныя значэнні
     .accesskey = д
+compose-send-automatic-option =
+    .label = Аўтаматычны
+compose-send-both-option =
+    .label = HTML і звычайны тэкст
+compose-send-html-option =
+    .label = Толькі HTML
+compose-send-plain-option =
+    .label = Толькі звычайны тэкст
 directories-none-label =
     .none = Няма
 edit-directories-label =
@@ -335,20 +343,13 @@ add-cloud-account =
 remove-cloud-account =
     .label = Выдаліць
     .accesskey = В
-cloud-account-description = Дадаць новую службу сховішчаў Filelink
 
 ## Privacy Tab
 
 mail-content = Змесціва пошты
-remote-content-label =
-    .label = Дазваляць адлеглае змесціва ў лістах
-    .accesskey = Д
 exceptions-button =
     .label = Выключэнні…
     .accesskey = ы
-remote-content-info =
-    .value = Даведацца пра заганы адасаблення адлеглага змесціва
-web-content = Сеціўнае змесціва
 cookies-label =
     .label = Набываць біркі з пляцовак
     .accesskey = Н
