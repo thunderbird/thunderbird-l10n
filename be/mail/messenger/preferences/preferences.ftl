@@ -425,6 +425,9 @@ junk-log-button =
 reset-junk-button =
     .label = Скінуць даныя навучання
     .accesskey = С
+antivirus-label =
+    .label = Дазволіць антывірусным кліентам змяшчаць у каранцін некаторыя уваходныя паведамленні
+    .accesskey = Д
 certificate-description = Калі сервер запытвае мой асабісты сертыфікат:
 certificate-auto =
     .label = Выбіраць яго аўтаматычна
@@ -440,9 +443,12 @@ security-devices-button =
     .accesskey = П
 email-e2ee-header = Скразное шыфраванне электроннай пошты
 account-settings = Налады ўліковага запісу
+email-e2ee-enable-info = Наладзьце ўліковыя запісы электроннай пошты і ідэнтыфікацыйныя даныя для скразнога шыфравання ў наладах уліковага запісу.
 email-e2ee-automatism = Аўтаматычнае выкарыстанне шыфравання
 email-e2ee-auto-on =
     .label = Аўтаматычна ўключаць шыфраванне, калі гэта магчыма
+email-e2ee-auto-off-notify =
+    .label = Паказваць апавяшчэнне кожны раз, калі шыфраванне адключаецца аўтаматычна
 
 ## Chat Tab
 
@@ -466,6 +472,9 @@ idle-time-label = хвілін неактыўнасці
 away-message-label =
     .label = і задаць мне статус "Адышоў" з гэтым паведамленнем:
     .accesskey = А
+send-typing-label =
+    .label = Адпраўляць апавяшчэнні аб друкаванні ў размовах
+    .accesskey = а
 notification-label = Калі прыбываюць накіраваныя вам паведамленні:
 show-notification-label =
     .label = Паказваць апавяшчэнне
