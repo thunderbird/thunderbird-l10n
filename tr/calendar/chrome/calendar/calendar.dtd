@@ -40,7 +40,7 @@
 <!ENTITY calendar.unifinder.tree.enddate.label             "Bitiş">
 <!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Bitiş tarihine göre sırala">
 <!ENTITY calendar.unifinder.tree.duedate.label             "Süre">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Vade tarihine göre sırala">
+<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Bitiş tarihine göre sırala">
 <!ENTITY calendar.unifinder.tree.completeddate.label       "Tamamlanmış">
 <!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Tamamlanma tarihine göre sırala">
 <!ENTITY calendar.unifinder.tree.categories.label          "Kategoriler">
@@ -110,7 +110,7 @@
 <!ENTITY calendar.task-details.repeat.label          "tekrarla">
 <!ENTITY calendar.task-details.attachments.label     "ekler">
 <!ENTITY calendar.task-details.start.label           "başlangıç tarihi">
-<!ENTITY calendar.task-details.due.label             "son tarih">
+<!ENTITY calendar.task-details.due.label             "bitiş tarihi">
 
 <!ENTITY calendar.task.category.button.tooltip  "Görevleri kategorilere ayır">
 <!ENTITY calendar.task.complete.button.tooltip  "Seçili görevleri tamamlanmış olarak işaretle">

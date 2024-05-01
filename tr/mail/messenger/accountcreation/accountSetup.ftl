@@ -144,7 +144,7 @@ account-setup-result-username-different = Gelen: { $incoming }, giden: { $outgoi
 ## Error messages
 
 # Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
-account-setup-credentials-incomplete = Kimlik doğrulama başarısız oldu. Girilen kimlik bilgileri yanlış veya oturum açmak için ayrı bir kullanıcı adı gerekiyor. Bu kullanıcı adı genellikle Windows etki alanı hesabınızdır. Etki alanı dahil olabilir veya olmayabilir. (Örn. aliatabakar veya AD\\aliatabakar)
+account-setup-credentials-incomplete = Kimlik doğrulama başarısız oldu. Girilen kimlik bilgileri yanlış veya oturum açmak için ayrı bir kullanıcı adı gerekiyor. Bu kullanıcı adı genellikle Windows etki alanı hesabınızdır. Etki alanı dahil olabilir veya olmayabilir. (Örn. ahmetyilmaz veya AD\\ahmetyilmaz)
 account-setup-credentials-wrong = Kimlik doğrulama başarısız oldu. Lütfen kullanıcı adını ve parolayı kontrol edin
 account-setup-find-settings-failed = { -brand-short-name }, e-posta hesabınızın ayarlarını bulamadı
 account-setup-exchange-config-unverifiable = Yapılandırma doğrulanamadı. Kullanıcı adınız ve parolanız doğruysa sunucu yöneticisi hesabınız için seçili yapılandırmayı devre dışı bırakmış olabilir. Başka bir protokol seçmeyi deneyin.

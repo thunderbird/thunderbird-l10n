@@ -392,7 +392,7 @@
 <!ENTITY read.only.event.start.label     "Başlangıç tarihi:">
 <!ENTITY read.only.task.start.label      "Başlangıç tarihi:">
 <!ENTITY read.only.event.end.label       "Bitiş tarihi:">
-<!ENTITY read.only.task.due.label        "Son tarih:">
+<!ENTITY read.only.task.due.label        "Bitiş tarihi:">
 <!ENTITY read.only.repeat.label          "Tekrarla:">
 <!ENTITY read.only.location.label        "Konum:">
 <!ENTITY read.only.category.label        "Kategori:">
