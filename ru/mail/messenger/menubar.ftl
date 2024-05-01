@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Отключить безопасный режим
     .accesskey = ю
-menu-help-more-troubleshooting-info =
-    .label = Информация для решения проблем
-    .accesskey = ш
 menu-help-troubleshooting-info =
     .label = Информация для решения проблем
     .accesskey = И
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Завершить { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Компактные
     .accesskey = м
-mail-uidensity-normal =
-    .label = Обычные
-    .accesskey = ы
-mail-uidensity-touch =
-    .label = Сенсорные
-    .accesskey = о
 mail-uidensity-default =
     .label = По умолчанию
     .accesskey = м
@@ -139,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Учётная запись эл. почты…
+    .accesskey = У
 file-new-newsgroup-account =
     .label = Учётная запись новостей…
     .accesskey = н
