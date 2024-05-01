@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Vypnúť režim riešenia problémov
     .accesskey = V
-menu-help-more-troubleshooting-info =
-    .label = Ďalšie informácie pre riešenie problémov
-    .accesskey = a
 menu-help-troubleshooting-info =
     .label = Informácie pre riešenie problémov
     .accesskey = I
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Ukončiť { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Kompaktné rozloženie
     .accesskey = K
-mail-uidensity-normal =
-    .label = Normálne rozloženie
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Pre dotykové zariadenia
-    .accesskey = P
 mail-uidensity-default =
     .label = Predvolené rozloženie
     .accesskey = P
@@ -139,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = E‑mailový účet…
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Účet diskusnej skupiny…
     .accesskey = d
