@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Disactivar le modo diagnostic
     .accesskey = D
-menu-help-more-troubleshooting-info =
-    .label = Altere informationes diagnostic
-    .accesskey = A
 menu-help-troubleshooting-info =
     .label = Informationes diagnostic
     .accesskey = I
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Quitar { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Compactar
     .accesskey = C
-mail-uidensity-normal =
-    .label = Normal
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Tactile
-    .accesskey = T
 mail-uidensity-default =
     .label = Predefinite
     .accesskey = P
@@ -139,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Conto email…
+    .accesskey = C
 file-new-newsgroup-account =
     .label = Conto de discussion…
     .accesskey = C
