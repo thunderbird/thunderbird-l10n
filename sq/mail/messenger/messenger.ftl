@@ -254,6 +254,24 @@ mail-context-undelete-messages =
             [one] Çfshije Mesazhin
            *[other] Çfshiji Mesazhet e Përzgjedhur
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Fshije Mesazhin
+           *[other] Fshi Mesazhet e Përzgjedhur
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Çfshije Mesazhin
+           *[other] Çfshiji Mesazhet e Përzgjedhur
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Krijo Kopje të Shfshehtëzuar Në
     .accesskey = f

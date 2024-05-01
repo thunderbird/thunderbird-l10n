@@ -501,6 +501,22 @@ apply-current-view-to-folder-message = Të aplikohet pamja e dosjes së tanishme
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Të aplikohet pamja e dosjes së tanishme te { $name } dhe pjellat e saj?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> i palexuar nga <span>1</span> mesazh gjithsej
+               *[other] <span>1</span> të palexuar nga <span>1</span> mesazhe gjithsej
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> i palexuar nga <span>1</span> mesazh gjithsej
+               *[other] <span>{ $unread }</span> të palexuar nga <span>1</span> mesazhe gjithsej
+            }
+    }
+# Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
     { $total ->

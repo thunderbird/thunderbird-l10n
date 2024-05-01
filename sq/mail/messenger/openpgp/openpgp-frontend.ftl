@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Verifikoni Nënshkrimin
     .accesskey = V
 openpgp-has-sender-key = Ky mesazh pretendon se përmban kyçin publik OpenPGP të dërguesit.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Kujdes: Kyçi i ri publik OpenPGP në këtë mesazh ndryshon nga kyçet publikë që keni pranuar më parë për { $email }.
 openpgp-import-sender-key =
     .label = Importoni…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Ju lutemi, pritni…
 openpgp-has-nested-encrypted-parts = Ky mesazh përfshin pjesë shtesë të fshehtëzuara.
 openpgp-show-encrypted-parts = Shfshehtëzoje dhe Shfaqe
+openpgp-has-nested-signed-parts = Disa pjesë të këtij mesazhi mundet të jenë të nënshkruara në mënyrë dixhitale.
+openpgp-show-signed-parts = Hape dhe Shfaqe
 openpgp-cannot-decrypt-because-mdc =
     Ky është një mesazh i fshehtëzuar që përdor  një mekanizëm të vjetër dhe të cenueshëm.
     Mund të ketë qenë ndryshuar gjatë shpërnguljes, me synimin e vjedhjes së lëndës së tij.
