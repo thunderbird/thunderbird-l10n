@@ -118,11 +118,14 @@
 <!ENTITY calendar.context.pasteevent.label            "Уставіць">
 <!ENTITY calendar.context.pasteevent.accesskey        "У">
 
+<!ENTITY calendar.context.attendance.send.label                 "Адправіць апавяшчэнне зараз">
 <!ENTITY calendar.context.attendance.dontsend.label             "Не адпраўляць апавяшчэнне">
 
 <!ENTITY calendar.context.attendance.occ.accepted.label         "Прынята">
+<!ENTITY calendar.context.attendance.occ.declined.label         "Адхілена">
 
 <!ENTITY calendar.context.attendance.all.accepted.label         "Прынята">
+<!ENTITY calendar.context.attendance.all.declined.label         "Адхілена">
 
 <!-- Task Context Menu -->
 <!ENTITY calendar.context.priority.label              "Прыярытэт">
@@ -130,6 +133,7 @@
 
 <!--=percent sign-->
 
+<!ENTITY calendar.context.markcompleted.label     "Пазначыць выкананай">
 
 
 <!ENTITY priority.level.low                 "Нізкі">
