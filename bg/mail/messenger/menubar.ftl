@@ -133,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Профил за поща
+    .accesskey = П
 file-new-newsgroup-account =
     .label = Профил в дискусионна група...
     .accesskey = г

@@ -188,9 +188,51 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Отбелязване като прочетено
+    .tooltiptext = Отбелязване като прочетено
+context-menu-mark-unread =
+    .aria-label = Отбелязване като непрочетено
+    .tooltiptext = Отбелязване като непрочетено
+context-menu-mark-reply =
+    .aria-label = Отговор
+    .tooltiptext = Отговор
+context-menu-archive =
+    .aria-label = Архивиране
+    .tooltiptext = Архивиране
+context-menu-mark-junk =
+    .aria-label = Отбелязване като нежелана поща
+    .tooltiptext = Отбелязване като нежелана поща
+mail-context-menu-open =
+    .label = Отваряне
+    .accesskey = О
+mail-context-menu-reply =
+    .label = Отговор
+    .accesskey = т
+mail-context-menu-forward-redirect =
+    .label = Препращане и пренасочване
+    .accesskey = щ
 mail-context-menu-forward-forward =
     .label = Препращане
     .accesskey = щ
+mail-context-menu-forward-inline =
+    .label = Вложено
+    .accesskey = В
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Като прикачен файл
+           *[other] Като прикачени файлове
+        }
+    .accesskey = п
+mail-context-menu-organize =
+    .label = Подреждане
+    .accesskey = П
+mail-context-menu-threads =
+    .label = Нишки
+    .accesskey = Н
 context-menu-redirect-msg =
     .label = Пренасочвания
 # This menu item is for canceling an NNTP message
@@ -212,6 +254,24 @@ mail-context-undelete-messages =
             [one] Възстановяване на изтрито писмо
            *[other] Възстановяване на изтритите писма
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Изтриване на избраното писмо
+           *[other] Изтриване на избраните писма
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Възстановяване на изтритото писмо
+           *[other] Възстановяване на изтритите писма
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Създаване на дешифровано копие в
     .accesskey = з
