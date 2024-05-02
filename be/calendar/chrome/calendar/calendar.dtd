@@ -27,14 +27,19 @@
    - This label and tooltip is used for the column with the checkbox in the
    - task tree view. -->
 <!ENTITY calendar.unifinder.tree.done.label                "Гатова">
+<!ENTITY calendar.unifinder.tree.done.tooltip2             "Сартаваць па гатоўнасці">
 <!ENTITY calendar.unifinder.tree.priority.label            "Прыярытэт">
 <!ENTITY calendar.unifinder.tree.priority.tooltip2         "Сартаваць па прыярытэце">
 <!ENTITY calendar.unifinder.tree.title.label               "Назва">
 <!ENTITY calendar.unifinder.tree.title.tooltip2            "Сартаваць па назве">
 <!ENTITY calendar.unifinder.tree.startdate.label           "Пачатак">
 <!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Сартаваць па даце пачатку">
+<!ENTITY calendar.unifinder.tree.enddate.label             "Канец">
+<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Сартаваць па даце канца">
 <!ENTITY calendar.unifinder.tree.duedate.label             "Тэрмін">
+<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Сартаваць па тэрміну">
 <!ENTITY calendar.unifinder.tree.completeddate.label       "Выканана">
+<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Сартаваць па даце выканання">
 <!ENTITY calendar.unifinder.tree.categories.label          "Катэгорыя">
 <!ENTITY calendar.unifinder.tree.categories.tooltip2       "Сартаваць па катэгорыі">
 <!ENTITY calendar.unifinder.tree.location.label            "Месца">
@@ -83,21 +88,35 @@
 <!ENTITY calendar.task-details.status.label          "статус">
 <!ENTITY calendar.task-details.category.label        "катэгорыя">
 <!ENTITY calendar.task-details.attachments.label     "прымацаванні">
+<!ENTITY calendar.task-details.start.label           "дата пачатку">
 
+<!ENTITY calendar.task.category.button.tooltip  "Вызначыць катэгорыі задач">
+<!ENTITY calendar.task.complete.button.tooltip  "Пазначыць выбраныя задачы выкананымі">
 <!ENTITY calendar.task.priority.button.tooltip  "Змяніць прыярытэт">
 
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Фільтр задач #1">
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Ctrl+Shift+K&gt;">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac    "&lt;&#x21E7;&#x2318;K&gt;">
 
 <!-- Context Menu -->
 <!ENTITY calendar.context.modifyorviewitem.label      "Адкрыць">
+<!ENTITY calendar.context.modifyorviewitem.accesskey  "А">
 <!ENTITY calendar.context.modifyorviewtask.label      "Адкрыць задачу…">
+<!ENTITY calendar.context.modifyorviewtask.accesskey  "д">
 <!ENTITY calendar.context.newevent.label              "Новая падзея…">
+<!ENTITY calendar.context.newevent.accesskey          "п">
 <!ENTITY calendar.context.newtodo.label               "Новая задача…">
+<!ENTITY calendar.context.newtodo.accesskey           "а">
 <!ENTITY calendar.context.deletetask.label            "Выдаліць задачу">
+<!ENTITY calendar.context.deletetask.accesskey        "В">
 <!ENTITY calendar.context.deleteevent.label           "Выдаліць падзею">
+<!ENTITY calendar.context.deleteevent.accesskey       "ы">
 <!ENTITY calendar.context.cutevent.label              "Выразаць">
+<!ENTITY calendar.context.cutevent.accesskey          "р">
 <!ENTITY calendar.context.copyevent.label             "Капіяваць">
+<!ENTITY calendar.context.copyevent.accesskey         "К">
 <!ENTITY calendar.context.pasteevent.label            "Уставіць">
+<!ENTITY calendar.context.pasteevent.accesskey        "У">
 
 <!ENTITY calendar.context.attendance.dontsend.label             "Не адпраўляць апавяшчэнне">
 
