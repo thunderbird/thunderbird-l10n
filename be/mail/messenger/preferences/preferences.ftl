@@ -209,7 +209,7 @@ compact-folder-size =
 use-cache-before =
     .value = Выкарыстоўваць да
     .accesskey = ы
-use-cache-after = МБ месца на дыску для кэша
+use-cache-after = МБ месца на дыску для кэшу
 
 ##
 
@@ -261,6 +261,8 @@ smaller-size-item =
 quoted-text-color =
     .label = Колер:
     .accesskey = К
+search-handler-table =
+    .placeholder = Фільтр па тыпам кантэнту і дзеянням
 action-column-header = Дзеянне
 save-to-label =
     .label = Захоўваць файлы ў
