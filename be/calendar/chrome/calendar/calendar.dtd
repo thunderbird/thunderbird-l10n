@@ -38,6 +38,7 @@
 <!ENTITY calendar.unifinder.tree.categories.label          "Катэгорыя">
 <!ENTITY calendar.unifinder.tree.categories.tooltip2       "Сартаваць па катэгорыі">
 <!ENTITY calendar.unifinder.tree.location.label            "Месца">
+<!ENTITY calendar.unifinder.tree.location.tooltip2         "Сартаваць па месцу">
 <!ENTITY calendar.unifinder.tree.status.label              "Статус">
 <!ENTITY calendar.unifinder.tree.status.tooltip2           "Сартаваць па статусе">
 <!ENTITY calendar.unifinder.tree.calendarname.label        "Назва календара">
