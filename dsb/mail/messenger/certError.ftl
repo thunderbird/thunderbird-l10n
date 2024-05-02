@@ -13,3 +13,6 @@ cert-error-expired = Certifikat za { $hostname } buźo płaśiwy až do { $not-a
 #   $hostname (string) - Hostname of the server with certificate error.
 #   $not-before (Date) - Certificate is not valid before this time.
 cert-error-not-yet-valid = Certifikat za { $hostname } njebuźo płaśiwy až do { $not-before }.
+# Variables:
+#   $hostname (string) - Hostname of the server with certificate error.
+cert-error-untrusted-default = Certifikat za { $hostname } z dowěry gódnego žrědła njepóchada.
