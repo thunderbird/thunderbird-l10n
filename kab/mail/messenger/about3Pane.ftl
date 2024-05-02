@@ -156,6 +156,9 @@ folder-pane-write-message-button = Izen imaynuten
     .title = Aru iznan imaynuten
 folder-pane-more-menu-button =
     .title = Tixtiṛiyin n ugalis n yikaramen
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Iskaren n ukaram
 folder-pane-mode-context-toggle-compact-mode =
     .label = Timeẓri yessden
     .accesskey = T
@@ -357,3 +360,5 @@ apply-current-columns-to-folder-message = Snes tigejdan ukaram amiran i { $name 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Snes tigejdan ukaram amiran i { $name } d warraw-is?
+threadpane-card-menu-button =
+    .title = Umuɣ n yiznan

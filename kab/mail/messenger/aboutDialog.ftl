@@ -5,6 +5,7 @@
 about-update-whats-new = Yella umaynut
 about-dialog-title = Ɣef { -brand-full-name }
 release-notes-link = Iwenniten n lqem
+update-internal-error = Tella-d tuccḍa tagensant i yesweḥlen asenqed n yileqman. Ad ten-tafeḍ deg <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Senqed ma llan ileqman
     .accesskey = S
 update-update-button = Ales asenker akken ad yettwalqem { -brand-shorter-name }
