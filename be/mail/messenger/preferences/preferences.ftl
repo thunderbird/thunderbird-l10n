@@ -297,7 +297,10 @@ view-attachments-inline =
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
 
-seconds-label = секунд
+mark-read-delay =
+    .label = Пасля паказу на працягу
+    .accesskey = п
+seconds-label = секунд(ы)
 
 ##
 
@@ -312,6 +315,9 @@ open-msg-window =
 open-msg-ex-window =
     .label = ужо існуючым акне
     .accesskey = і
+close-move-delete =
+    .label = Закрываць акно/укладку паведамлення пры яго перамяшчэнні або выдаленні
+    .accesskey = З
 
 ## Compose Tab
 
@@ -375,6 +381,12 @@ compose-send-html-option =
     .label = Толькі HTML
 compose-send-plain-option =
     .label = Толькі звычайны тэкставы
+ab-label =
+    .label = Лакальных адрасных кнігах
+    .accesskey = Л
+directories-label =
+    .label = Серверы каталогаў:
+    .accesskey = С
 directories-none-label =
     .none = Няма
 edit-directories-label =
