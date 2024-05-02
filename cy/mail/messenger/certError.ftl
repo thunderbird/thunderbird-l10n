@@ -4,7 +4,7 @@
 
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
-cert-error-domain-mismatch = Nid yw'r dystysgrif ar gyfer { $hostname } yn ddilys ar gyfer y gweinydd hwnnw. Gallai rhywun fod yn ceisio dynwared y gweinydd ac ni ddylech barhau.
+cert-error-domain-mismatch = Nid yw'r dystysgrif ar gyfer { $hostname } yn ddilys ar gyfer y gweinydd hwnnw. Gall rhywun fod yn ceisio dynwared y gweinydd, peidiwch â pharhau.
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
 #   $not-after (Date) - Certificate is not valid after this time.
@@ -12,7 +12,7 @@ cert-error-expired = Daeth y dystysgrif ar gyfer { $hostname } i ben ar { $not-a
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
 #   $not-before (Date) - Certificate is not valid before this time.
-cert-error-not-yet-valid = Ni fydd y dystysgrif ar gyfer { $hostname } yn ddilys tan { $not-before }.
+cert-error-not-yet-valid = Ni fydd tystysgrif { $hostname } yn ddilys tan { $not-before }.
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
-cert-error-untrusted-default = Nid yw'r dystysgrif ar gyfer { $hostname } yn dod o ffynhonnell ddibynadwy.
+cert-error-untrusted-default = Nid yw tystysgrif { $hostname } yn dod o ffynhonnell ddibynadwy.
