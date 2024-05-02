@@ -135,6 +135,9 @@ language-selector-legend = Мова
 allow-hw-accel =
     .label = Выкарыстоўваць апаратнае паскарэнне калі магчыма
     .accesskey = В
+store-type-label =
+    .value = Тып захоўвання паведамленняў для новых уліковых запісаў:
+    .accesskey = з
 scrolling-legend = Прагортка
 autoscroll-label =
     .label = Выкарыстоўваць аўтапрагортку
@@ -152,6 +155,7 @@ draw-in-titlebar-label =
 auto-hide-tabbar-label =
     .label = Аўтаматычна хаваць панэль укладак
     .accesskey = х
+auto-hide-tabbar-description = Хаваць паласу ўкладак, калі адкрыта толькі адна ўкладка
 system-integration-legend = Узаемадзеянне з сістэмай
 check-default-button =
     .label = Праверыць зараз…
@@ -185,8 +189,14 @@ offline-settings-button =
     .label = Па-за сеткай…
     .accesskey = й
 diskspace-legend = Месца на дыску
+offline-compact-folder =
+    .label = Сціскаць усе папкі, калі пры гэтым вызваліцца больш за
+    .accesskey = ц
+offline-compact-folder-automatically =
+    .label = Пытацца кожны раз перад сцісканнем
+    .accesskey = к
 compact-folder-size =
-    .value = МБ усяго
+    .value = МБ месца на дыску
 
 ## Note: The entities use-cache-before and use-cache-after appear on a single
 ## line in preferences as follows:
@@ -261,6 +271,9 @@ choose-folder-label =
             [macos] В
            *[other] А
         }
+always-ask-label =
+    .label = Заўсёды пытацца ў мяне, дзе захоўваць файлы
+    .accesskey = ф
 display-tags-text = Меткі можна выкарыстоўваць для катэгарызацыі і змянення прыярытэта вашых паведамленняў.
 new-tag-button =
     .label = Стварыць…
@@ -451,7 +464,7 @@ certificate-auto =
     .label = Выбіраць яго аўтаматычна
     .accesskey = а
 certificate-ask =
-    .label = Запытвацца ў мяне кожны раз
+    .label = Пытацца ў мяне кожны раз
     .accesskey = м
 certificate-button =
     .label = Кіраванне сертыфікатамі…
