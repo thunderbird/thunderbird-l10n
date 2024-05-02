@@ -504,17 +504,25 @@ apply-current-view-to-folder-with-children-message = Прилагане на и�
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header-unread =
-    { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочетено от <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> съобщение
-       *[other] <span data-l10n-name="threadpane-sort-header-unread-count">{ $unread }</span> непрочетени от <span data-l10n-name="threadpane-sort-header-total-count"> { $total }</span> съобщения
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> непрочетено съобщение от общо <span>1</span>
+               *[other] <span>1</span> непрочетено съобщение от общо <span>{ $total }</span>
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> непрочетено съобщение от общо <span>1</span>
+               *[other] <span>{ $unread }</span> непрочетени съобщения от общо<span>{ $total }</span>
+            }
     }
 # Variables:
 # $total (Number) - Number of messages in thread.
-threadpane-sort-header =
+threadpane-sort-header-count =
     { $total ->
-        [one] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> съобщение
-       *[other] <span data-l10n-name="threadpane-sort-header-total-count">{ $total }</span> съобщения
+        [one] <span>1</span> съобщение
+       *[other] <span>{ $total }</span> съобшения
     }
 threadpane-card-menu-button =
     .title = Меню за съобщения
