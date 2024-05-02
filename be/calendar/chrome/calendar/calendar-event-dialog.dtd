@@ -113,7 +113,7 @@
 <!ENTITY event.to.label                                   "Канец:" >
 <!ENTITY task.to.label                                    "Тэрмін:" >
 <!ENTITY task.status.label                                "Статус:" >
-<!ENTITY event.reminder.label                             "Напамін:" >
+<!ENTITY event.reminder.label                             "Напамінак:" >
 <!ENTITY event.description.label                          "Апісанне:" >
 <!ENTITY event.description.accesskey                      "е">
 <!ENTITY event.attachments.label                          "Прымацаванні:" >
@@ -123,7 +123,7 @@
 <!ENTITY event.attachments.popup.attachPage.label         "Прымацаваць вэб-старонку…" >
 <!ENTITY event.priority2.label                            "Прыярытэт:">
 
-<!ENTITY event.reminder.none.label                        "Без напаміну " >
+<!ENTITY event.reminder.none.label                        "Без напамінку " >
 <!ENTITY event.reminder.0minutes.before.label             "за 0 хвілін да" >
 <!ENTITY event.reminder.5minutes.before.label             "за 5 хвілін да" >
 <!ENTITY event.reminder.15minutes.before.label            "за 15 хвілін да" >

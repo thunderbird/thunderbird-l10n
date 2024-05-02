@@ -6,7 +6,7 @@
 <!ENTITY reminder.remove.label                             "Выдаліць">
 <!ENTITY reminder.remove.accesskey                         "В">
 
-<!ENTITY reminder.action.label                             "Выберыце дзеянне для напаміну">
+<!ENTITY reminder.action.label                             "Выберыце дзеянне для напамінку">
 
 <!ENTITY reminder.action.alert.label                       "Паказаць абвестку">
 <!ENTITY reminder.action.email.label                       "Адправіць электронны ліст">
