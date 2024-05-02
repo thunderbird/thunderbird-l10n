@@ -42,7 +42,11 @@ privacy-main-header = Прыватнасць
 privacy-passwords-header = Паролі
 privacy-junk-header = Спам
 collection-header = Збор і выкарыстанне даных { -brand-short-name }
+collection-privacy-notice = Апавяшчэнне аб прыватнасці
 collection-health-report-telemetry-disabled-link = Даведацца больш
+collection-health-report =
+    .label = Дазволіць { -brand-short-name } адпраўляць тэхнічныя даныя і даныя ўзаемадзеяння ў { -vendor-short-name }
+    .accesskey = Д
 collection-health-report-link = Даведацца больш
 collection-backlogged-crash-reports-link = Даведацца больш
 privacy-security-header = Бяспека
@@ -205,6 +209,7 @@ compact-folder-size =
 use-cache-before =
     .value = Выкарыстоўваць да
     .accesskey = ы
+use-cache-after = МБ месца на дыску для кэша
 
 ##
 
@@ -528,6 +533,17 @@ notification-name =
     .label = толькі з імем адпраўніка
 notification-empty =
     .label = без усякай інфармацыі
+notification-type-label =
+    .label =
+        { PLATFORM() ->
+            [macos] Мігаць на панэлі праграм
+           *[other] Мігаць на панэлі задач
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [macos] М
+           *[other] М
+        }
 chat-play-sound-label =
     .label = Прайграваць гук
     .accesskey = г
