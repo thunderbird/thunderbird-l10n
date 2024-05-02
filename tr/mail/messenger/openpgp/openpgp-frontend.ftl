@@ -44,7 +44,7 @@ openpgp-cannot-decrypt-because-mdc =
     Bu riski önlemek için ileti içeriği gösterilmemektedir.
 openpgp-cannot-decrypt-because-missing-key = Bu iletinin şifresini çözmek için gereken gizli anahtar mevcut değil.
 openpgp-partially-signed =
-    Bu iletinin yalnızca bir alt kümesi ile kullanılarak dijital olarak imzalanmış.
+    Bu iletinin yalnızca bir alt kümesi OpenPGP kullanılarak dijital olarak imzalanmış.
     Doğrula düğmesine tıklarsanız korunmayan parçalar gizlenir ve dijital imzanın durumu gösterilir.
 openpgp-partially-encrypted =
     Bu iletinin yalnızca bir alt kümesi OpenPGP ile şifrelenmiş.

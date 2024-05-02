@@ -23,7 +23,7 @@ policy-BlockAboutSupport = about:support sayfasına erişimi engelle.
 policy-CaptivePortal = Kısıtlama portalı desteğini aç veya kapat.
 policy-CertificatesDescription = Sertifika ekle veya yerleşik sertifikaları kullan.
 policy-Cookies = Web sitelerinin çerez yerleştirmesine izin ver veya engelle.
-policy-DisableBuiltinPDFViewer = Dahili { -brand-short-name } PDF göstericisi olan PDF.js’i devre dışı bırak.
+policy-DisableBuiltinPDFViewer = Dahili { -brand-short-name } PDF görüntüleyicisi olan PDF.js’i devre dışı bırak.
 policy-DisabledCiphers = Şifrelemeleri devre dışı bırak.
 policy-DefaultDownloadDirectory = Varsayılan indirme klasörünü ayarla.
 policy-DisableAppUpdate = { -brand-short-name } uygulamasının güncellenmesini engelle.
@@ -74,7 +74,7 @@ policy-OverrideFirstRunPage = İlk açılış sayfasını değiştir. İlk açı
 policy-OverridePostUpdatePage = Güncelleme sonrası “Yenilikler” sayfasını değiştir. Güncelleme sonrası sayfasını devre dışı bırakmak istiyorsanız bu ilkeyi boş olarak ayarlayabilirsiniz.
 policy-PasswordManagerEnabled = Parolaları parola yöneticisine kaydetmeyi aç.
 # PDF.js and PDF should not be translated
-policy-PDFjs = Dahili { -brand-short-name } PDF göstericisi olan PDF.js’i devre dışı bırak veya yapılandır.
+policy-PDFjs = Dahili { -brand-short-name } PDF görüntüleyicisi olan PDF.js’i devre dışı bırak veya yapılandır.
 policy-Permissions2 = Kamera, mikrofon, konum, bildirim ve otomatik oynatma izinlerini yapılandır.
 policy-Preferences = Bir tercihler alt kümesinin değerini ayarlayıp kilitle.
 policy-PrimaryPassword = Ana parola kullanılmasını zorunlu tut veya yasakla.

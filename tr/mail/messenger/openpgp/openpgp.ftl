@@ -391,6 +391,9 @@ window-locked = Oluşturma penceresi kilitli; gönderme iptal edildi
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Durduruldu
 keyserver-error-unknown = Bilinmeyen bir hata oluştu
 keyserver-error-server-error = Anahtar sunucusu bir hata bildirdi.
@@ -402,6 +405,9 @@ keyserver-error-unsupported = Anahtar sunucusu desteklenmiyor.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     E-posta sağlayıcınız ortak anahtarınızı OpenPGP web anahtarı dizinine yükleme isteğinizi işleme koydu.
     Lütfen ortak anahtarınızın yayımlanmasını tamamlamak için onaylayın.
@@ -412,7 +418,13 @@ wkd-message-body-process =
 ## Strings in persistentCrypto.jsm
 
 
+## Strings in persistentCrypto.sys.mjs
+
+
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Bir hedef klasör seçmelisiniz.
 filter-term-pgpencrypted-label = OpenPGP ile şifrelenmiş
@@ -422,6 +434,9 @@ filter-key-required = Bir alıcı anahtarı seçmelisiniz.
 filter-key-not-found = '{ $desc }' için şifreleme anahtarı bulunamadı.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Kalıcı olarak şifresini çöz (OpenPGP)
 filter-decrypt-copy-label = Şifresi çözülmüş bir kopya oluştur (OpenPGP)
@@ -487,6 +502,12 @@ openpgp-export-secret-fail = <b>Seçilen gizli anahtar dışa aktarılamadı.</b
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = { $userId } anahtarı (anahtar kimliği { $keyId }) iptal edildi.
 key-ring-pub-key-expired = { $userId } anahtarının (anahtar kimliği { $keyId }) süresi doldu.
 key-ring-no-secret-key = Anahtarlığınızda { $userId } (anahtar kimliği { $keyId }) için gizli anahtar yok. İmzalama için bu anahtarı kullanamazsınız.
@@ -499,10 +520,16 @@ key-ring-enc-sub-keys-expired = { $userId } anahtarının tüm şifreleme alt an
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Fotoğraf
 user-att-photo = Kullanıcı özniteliği (JPEG resmi)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Bu anahtar zaten iptal edilmiş.
 #   $keyId (String) - the id of the key being revoked
@@ -511,6 +538,9 @@ key-man-button-revoke-key = &Anahtarı iptal et
 openpgp-key-revoke-success = Anahtar başarıyla iptal edildi.
 
 ## Strings in keyRing.jsm & decryption.jsm
+
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &İçe aktar
 delete-key-title = OpenPGP anahtarını sil
@@ -522,6 +552,9 @@ revoke-key-in-use-description = Devam edilemiyor! İptal için seçtiğiniz anah
 
 ## Strings used in errorHandling.jsm
 
+
+## Strings used in errorHandling.sys.mjs
+
 # Variables:
 # $keySpec (String) - Email address.
 key-error-key-spec-not-found = ‘{ $keySpec }’ e-posta adresi, anahtarlığınızdaki bir anahtarla eşleştirilemez.
@@ -532,18 +565,30 @@ key-error-not-accepted-as-personal = '{ $keySpec }' kimliğine sahip anahtarın 
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Seçtiğiniz işlev çevrimdışı modda kullanılamaz. Lütfen çevrimiçi olun ve tekrar deneyin.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Belirtilen arama ölçütleriyle eşleşen kullanılabilir bir anahtar bulamadık.
 no-update-found = Çevrimiçi keşfedilmiş anahtarlara zaten sahipsiniz.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
 fail-key-extract = Hata - Anahtar çıkarma komutu başarısız oldu
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Hata - Anahtar alımı kullanıcı tarafından iptal edildi
 not-first-block = Hata - İlk OpenPGP bloku ortak anahtar bloku değil
@@ -556,6 +601,9 @@ no-pgp-block = Hata - Geçerli bir zırhlı OpenPGP veri bloku bulunamadı
 confirm-permissive-import = İçe aktarma başarısız oldu. İçe aktarmaya çalıştığınız anahtar bozuk veya bilinmeyen öznitelikler kullanıyor olabilir. Düzgün görünen kısımları içe aktarmayı denemek ister misiniz? Bu, eksik ve kullanılamaz anahtarların içe aktarılmasına neden olabilir.
 
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = bilinmiyor
 key-valid-invalid = geçersiz
@@ -666,6 +714,9 @@ cannot-send-enc-because-no-own-key = <{ $key }> anahtarı için uçtan uca şifr
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -689,14 +740,20 @@ dlg-button-view = &Göster
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Hata - şifreleme gerekmiyor
 
 ## Strings used in windows.jsm
 
+
+## Strings used in windows.sys.mjs
+
 no-photo-available = Fotoğraf yok
 # Variables:
 # $photo (String) - Path of the photo in the key.
-error-photo-path-not-readable = '{ $photo }' fotoğraf yolu okunamıyor
+error-photo-path-not-readable = ‘{ $photo }’ fotoğraf yolu okunamıyor
 debug-log-title = OpenPGP hata ayıklama günlüğü
 
 ## Strings used in dialog.jsm
@@ -710,6 +767,9 @@ repeat-suffix-singular = kere daha tekrarlanacak.
 repeat-suffix-plural = kere daha tekrarlanacak.
 no-repeat = Bu uyarı bir daha gösterilmeyecek.
 dlg-keep-setting = Yanıtımı hatırla ve bir daha sorma
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &Tamam
 dlg-button-close = &Kapat
 dlg-button-cancel = &Vazgeç
@@ -720,6 +780,9 @@ enig-alert = OpenPGP Uyarısı
 enig-info = OpenPGP Bilgilendirmesi
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Yeniden dene
 dlg-button-skip = &Geç
