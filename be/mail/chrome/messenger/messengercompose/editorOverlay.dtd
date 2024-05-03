@@ -17,7 +17,6 @@
 <!ENTITY insertLinkCmd2.label "Спасылку…">
 <!ENTITY insertLinkCmd2.accesskey "С">
 <!ENTITY insertLinkCmd2.key "K">
-<!ENTITY insertAnchorCmd.label "Іменаваны якар…">
 <!ENTITY insertAnchorCmd.accesskey "я">
 <!ENTITY insertImageCmd.label "Выява…">
 <!ENTITY insertImageCmd.accesskey "В">
