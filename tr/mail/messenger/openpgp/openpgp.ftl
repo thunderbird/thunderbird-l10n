@@ -548,7 +548,7 @@ delete-external-key-title = Harici GnuPG anahtarını çıkar
 delete-external-key-description = Bu harici GnuPG anahtar kimliğini kaldırmak istiyor musunuz?
 key-in-use-title = Şu anda kullanılan OpenPGP anahtarı
 delete-key-in-use-description = Devam edilemiyor! Silmek için seçtiğiniz anahtar şu anda bu kimlik tarafından kullanılıyor. Farklı bir anahtar seçip ya da hiçbirini seçip tekrar deneyin.
-revoke-key-in-use-description = Devam edilemiyor! İptal için seçtiğiniz anahtar şu anda bu kimlik tarafından kullanılıyor. Farklı bir anahtar seçip ya da hiçbirini seçip tekrar deneyin.
+revoke-key-in-use-description = Devam edilemiyor! İptal için seçtiğiniz anahtar şu anda bu kimlik tarafından kullanılıyor. Farklı bir anahtar seçip ya da hiçbirini seçip yeniden deneyin.
 
 ## Strings used in errorHandling.jsm
 
@@ -568,7 +568,7 @@ key-error-not-accepted-as-personal = '{ $keySpec }' kimliğine sahip anahtarın 
 
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
-need-online = Seçtiğiniz işlev çevrimdışı modda kullanılamaz. Lütfen çevrimiçi olun ve tekrar deneyin.
+need-online = Seçtiğiniz işlev çevrimdışı modda kullanılamaz. Lütfen çevrimiçi olup yeniden deneyin.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
@@ -646,7 +646,7 @@ expiry-too-short = Anahtarınız en az bir gün geçerli olmalıdır.
 expiry-too-long = Süresi 100 yıldan fazla olan bir anahtar oluşturamazsınız.
 # Variables:
 # $id (String) - Name and/or email address to generate keys for.
-key-confirm = '{ $id }' için ortak ve gizli anahtar oluşturulsun mu?
+key-confirm = ‘{ $id }’ için ortak ve gizli anahtar oluşturulsun mu?
 key-man-button-generate-key = Anahtar &oluştur
 key-abort = Anahtar üretimi iptal edilsin mi?
 key-man-button-generate-key-abort = Anahtar üretmeyi &iptal et
@@ -658,10 +658,10 @@ failed-decrypt = Hata - şifre çözme başarısız oldu
 fix-broken-exchange-msg-failed = Bu ileti onarılamadı.
 # Variables:
 # $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = '{ $attachment }' imza dosyası bir ekle eşleştirilemedi
+attachment-no-match-from-signature = ‘{ $attachment }’ imza dosyası bir ekle eşleştirilemedi
 # Variables:
 # $attachment (String) - File name of the attachment.
-attachment-no-match-to-signature = '{ $attachment }' eki ile imza dosyası eşleştirilemedi
+attachment-no-match-to-signature = ‘{ $attachment }’ eki ile imza dosyası eşleştirilemedi
 # Variables:
 # $attachment (String) - File name of the attachment
 signature-verified-ok = { $attachment } ekinin imzası başarıyla doğrulandı
@@ -685,13 +685,13 @@ send-aborted = Gönderme işlemi iptal edildi.
 key-not-trusted = ‘{ $key }’ anahtarı için güven yetersiz
 # Variables:
 # $key (String) - Key id.
-key-not-found = '{ $key }' anahtarı bulunamadı
+key-not-found = ‘{ $key }’ anahtarı bulunamadı
 # Variables:
 # $key (String) - Key id.
-key-revoked = '{ $key }' anahtarı iptal edildi
+key-revoked = ‘{ $key }’ anahtarı iptal edildi
 # Variables:
 # $key (String) - Key id.
-key-expired = '{ $key }' anahtarının süresi doldu
+key-expired = ‘{ $key }’ anahtarının süresi doldu
 msg-compose-internal-error = Dahili bir hata oluştu.
 keys-to-export = Eklenecek OpenPGP anahtarlarını seçin
 msg-compose-cannot-save-draft = Taslak kaydedilirken hata oluştu
