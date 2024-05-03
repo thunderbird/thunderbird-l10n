@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Tắt chế độ xử lý sự cố
     .accesskey = D
-menu-help-more-troubleshooting-info =
-    .label = Thông tin xử lý sự cố khác
-    .accesskey = M
 menu-help-troubleshooting-info =
     .label = Thông tin xử lý sự cố
     .accesskey = I
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Thoát { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Thu gọn
     .accesskey = C
-mail-uidensity-normal =
-    .label = Bình thường
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Chạm
-    .accesskey = T
 mail-uidensity-default =
     .label = Mặc định
     .accesskey = D
@@ -139,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Tài khoản email…
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Tài khoản nhóm tin…
     .accesskey = N
