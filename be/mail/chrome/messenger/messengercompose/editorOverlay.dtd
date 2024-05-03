@@ -8,13 +8,13 @@
 <!ENTITY pasteNoFormatting.label "Уставіць без фарматавання">
 <!ENTITY pasteNoFormatting.accesskey "б">
 <!ENTITY pasteNoFormatting.key "V">
-<!ENTITY pasteAsQuotationCmd.label "Уставіць як вытрымку">
+<!ENTITY pasteAsQuotationCmd.label "Уставіць як цытату">
 <!ENTITY pasteAsQuotationCmd.accesskey "в">
 
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Уставіць">
 <!ENTITY insertMenu.accesskey "У">
-<!ENTITY insertLinkCmd2.label "Спасылка…">
+<!ENTITY insertLinkCmd2.label "Спасылку…">
 <!ENTITY insertLinkCmd2.accesskey "С">
 <!ENTITY insertLinkCmd2.key "K">
 <!ENTITY insertAnchorCmd.label "Іменаваны якар…">
@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Уласцівасці табліцы…">
 <!ENTITY tableProperties.accesskey "ц">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Выява">
 <!ENTITY imageToolbarCmd.tooltip "Уставіць новую выяву або правіць уласцівасці выбранай">
 <!ENTITY hruleToolbarCmd.label "Г.рыска">
