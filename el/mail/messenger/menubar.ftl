@@ -133,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Λογαριασμός email…
+    .accesskey = e
 file-new-newsgroup-account =
     .label = Λογαριασμός ομάδας συζητήσεων…
     .accesskey = δ
