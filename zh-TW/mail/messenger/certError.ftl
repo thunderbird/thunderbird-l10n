@@ -4,15 +4,15 @@
 
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
-cert-error-domain-mismatch = { $hostname } 的憑證對該伺服器無效。有心人士可能正在嘗試偽裝成該伺服器不應繼續開啟。
+cert-error-domain-mismatch = { $hostname } 的憑證對該伺服器無效。有心人士可能正在嘗試偽裝成該伺服器，您不應繼續開啟該網站。
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
 #   $not-after (Date) - Certificate is not valid after this time.
-cert-error-expired = { $hostname } 的憑證已於 { $not-after }過期。
+cert-error-expired = { $hostname } 的憑證已於 { $not-after } 過期。
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
 #   $not-before (Date) - Certificate is not valid before this time.
-cert-error-not-yet-valid = { $hostname } 的憑證在 { $not-before } 之後才有效。
+cert-error-not-yet-valid = { $hostname } 的憑證在 { $not-before } 之後才生效。
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
-cert-error-untrusted-default = { $hostname } 的憑證不是來自可信任的來源。
+cert-error-untrusted-default = { $hostname } 的憑證不是來自受信任的來源。
