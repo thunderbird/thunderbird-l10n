@@ -7,6 +7,10 @@
 cert-error-domain-mismatch = El certificado para { $hostname } no es válido para ese servidor. Alguien podría estar intentando hacerse pasar por el servidor y no debería continuar.
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
+#   $not-after (Date) - Certificate is not valid after this time.
+cert-error-expired = El certificado para { $hostname } expiró el { $not-after }.
+# Variables:
+#   $hostname (string) - Hostname of the server with certificate error.
 #   $not-before (Date) - Certificate is not valid before this time.
 cert-error-not-yet-valid = El certificado para { $hostname } no será válido hasta { $not-before }.
 # Variables:
