@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Նշում է, որ դուք չեք ընդունի հակադարձումներ">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Ջնջել...">
 <!ENTITY  event.menu.item.delete.accesskey                "D">
-<!ENTITY  event.menu.item.page.setup.label                "Էջի կարգավորում">
-<!ENTITY  event.menu.item.page.setup.accesskey            "u">
-<!ENTITY  event.menu.item.print.label                     "Տպել">
-<!ENTITY  event.menu.item.print.accesskey                 "P">
 
 <!ENTITY  event.menu.edit.label                           "Խմբագրել">
 <!ENTITY  event.menu.edit.accesskey                       "E">
@@ -106,7 +99,7 @@
 <!ENTITY  event.menu.edit.cut.accesskey                   "t">
 <!ENTITY  event.menu.edit.copy.label                      "Պատճենել">
 <!ENTITY  event.menu.edit.copy.accesskey                  "C">
-<!ENTITY  event.menu.edit.paste.label                     "Տեղադրել">
+<!ENTITY  event.menu.edit.paste.label                     "Փակցնել">
 <!ENTITY  event.menu.edit.paste.accesskey                 "P">
 <!ENTITY  event.menu.edit.select.all.label                "Նշել բոլորը">
 <!ENTITY  event.menu.edit.select.all.accesskey            "A">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "E">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Կարգավորել…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "C">
-<!ENTITY  event.menu.view.showlink.label                  "Ցույց տալ կապակցված հղումը">
-<!ENTITY  event.menu.view.showlink.accesskey              "R">
 
 <!ENTITY  event.menu.options.label                            "Ընտրանքներ">
 <!ENTITY  event.menu.options.accesskey                        "O">
@@ -367,7 +358,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Ստեղծել" >
 <!ENTITY event.recurrence.appointments.label            "Հանդիպում(ներ)" >
 <!ENTITY event.repeat.until.label                       "Կրկնել մինչև" >
-<!ENTITY event.recurrence.preview.label                 "Նախադիտում">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Հրավիրեք մասնակիցների">

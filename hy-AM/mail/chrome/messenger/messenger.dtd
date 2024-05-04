@@ -87,18 +87,6 @@
 <!ENTITY printCmd.key "Տ">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Ջնջել նամակը">
-<!ENTITY deleteMsgCmd.accesskey "D">
-<!ENTITY undeleteMsgCmd.label "Ետարկել ջնջումը">
-<!ENTITY undeleteMsgCmd.accesskey "ր">
-<!ENTITY deleteMsgsCmd.label "Ջնջել ընտրված նամակները">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "Ետարկել ընտրված նամակները">
-<!ENTITY undeleteMsgsCmd.accesskey "ա">
-<!ENTITY deleteFolderCmd.label "Ջնջել">
-<!ENTITY deleteFolderCmd.accesskey "D">
-<!ENTITY unsubscribeNewsgroupCmd.label "Չբաժանորդագրվել">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
 <!ENTITY selectMenu.label "Ընտրել">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Բոլորը">
@@ -110,10 +98,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "Ա">
 <!ENTITY menuFavoriteFolder.label "Ընտրյալ թղթապանակ">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "Հատկություններ...">
-<!ENTITY folderPropsFolderCmd2.label "Թղթ. հատկությունները">
-<!ENTITY folderPropsNewsgroupCmd2.label "Լուրախմբերի հատկությունը">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Հետ՝ Ջնջել նամակը">
 <!ENTITY redoDeleteMsgCmd.label "Առաջ՝ Ջնջել նամակը">
 <!ENTITY undoMoveMsgCmd.label "Հետ՝ Տեղափոխ. նամակը">
@@ -145,8 +129,6 @@
 <!ENTITY messagePaneVertical.accesskey "Ո">
 <!ENTITY showFolderPaneCmd.label "Թղթապանակի պ-ը">
 <!ENTITY showFolderPaneCmd.accesskey "Թ">
-<!ENTITY showFolderPaneColsCmd.label "Թղթապանակի վահանակի սյուներ">
-<!ENTITY showFolderPaneColsCmd.accesskey "վ">
 <!ENTITY showMessageCmd.label "Նամակի վահանակ">
 <!ENTITY showMessageCmd.accesskey "Ն">
 
@@ -596,10 +578,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Նոր նամակ">
 <!ENTITY appmenuNewContactCmd.label "Հասցեագրքի Կոնտակտ...">
-<!ENTITY appmenuEditMenu.label "Խմբագրել">
 <!ENTITY appmenuToolbarLayout.label "Գործիքագոտու դասավորությունը...">
-<!ENTITY appmenuSelectThread.label "Ընտրել շղթան">
-<!ENTITY appmenuSelectFlagged.label "Նշել աստղով նամակները">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Նոր պիտակ...">
@@ -728,7 +707,7 @@
      cutCmd.accessKey which is defined in textcontext.dtd from toolkit. Right
      now, both menu items can't be visible at the same time, but should someone
      enable copy/paste of message, this key would probably need to be changed. -->
-<!ENTITY contextOpenNewTab.label "Նամակը բացել նոր ներդիրում">
+<!ENTITY contextOpenNewTab.label "Բացել նամակը նոր ներդիրում">
 <!ENTITY contextOpenNewTab.accesskey "ն">
 <!ENTITY contextOpenConversation.label "Բացել նամակը զրուցաշարով">
 <!ENTITY contextOpenConversation.accesskey "լ">
@@ -904,10 +883,6 @@
 <!ENTITY copyImageAllCmd.accesskey "I">
 <!ENTITY copyEmailCmd.label "Պատճենել էլ. փոստը">
 <!ENTITY copyEmailCmd.accesskey "է">
-<!ENTITY stopCmd.label "Կանգնեցնել">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Կրկնել">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Բացել դիտարկիչում">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Հղումը բացել դիտարկիչում">

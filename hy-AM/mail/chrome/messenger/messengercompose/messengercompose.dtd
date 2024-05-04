@@ -202,7 +202,7 @@
 <!ENTITY saveButton.tooltip "Պահպանել նամակը">
 <!ENTITY cutButton.tooltip              "Կտրել">
 <!ENTITY copyButton.tooltip             "Պատճենել">
-<!ENTITY pasteButton.tooltip            "Տեղադրել">
+<!ENTITY pasteButton.tooltip            "Փակցնել">
 <!ENTITY printButton.tooltip "Տպել այս նամակը">
 
 <!-- Headers -->
@@ -249,9 +249,9 @@
 <!ENTITY cut.accesskey "t">
 <!ENTITY copy.label "Պատճենել">
 <!ENTITY copy.accesskey "Պ">
-<!ENTITY paste.label "Տեղադրել">
+<!ENTITY paste.label "Փակցնել">
 <!ENTITY paste.accesskey "P">
-<!ENTITY pasteQuote.label "Տեղադրել որպես մեջբերում">
+<!ENTITY pasteQuote.label "Փակցնել որպես մեջբերում">
 <!ENTITY pasteQuote.accesskey "Q">
 
 <!-- Attachment Item and List Context Menus -->

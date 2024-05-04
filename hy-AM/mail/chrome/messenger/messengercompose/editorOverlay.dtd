@@ -5,10 +5,10 @@
 <!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
 
 <!-- Edit menu items -->
-<!ENTITY pasteNoFormatting.label "Տեղադրել առանց ձևավորման">
+<!ENTITY pasteNoFormatting.label "Փակցնել առանց ձևավորման">
 <!ENTITY pasteNoFormatting.accesskey "n">
 <!ENTITY pasteNoFormatting.key "V">
-<!ENTITY pasteAsQuotationCmd.label "Տեղադրել որպես մեջբերում">
+<!ENTITY pasteAsQuotationCmd.label "Փակցնել որպես մեջբերում">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
 
 <!-- Insert menu items -->
@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Աղյուսակի հատկությունները...">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Նկար">
 <!ENTITY imageToolbarCmd.tooltip "Ներմուծել նոր նկար կամ խմբագրել նկարի հատկությունները">
 <!ENTITY hruleToolbarCmd.label "H.Line">
