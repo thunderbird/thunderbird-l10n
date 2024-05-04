@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Vahvista allekirjoitus
     .accesskey = V
 openpgp-has-sender-key = Tämä viesti väittää sisältävän lähettäjän julkisen OpenPGP-avaimen.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Varoitus: Tässä viestissä oleva uusi julkinen OpenPGP-avain eroaa siitä julkisesta avaimesta, jonka aiemmin hyväksyit käyttäjälle { $email }.
 openpgp-import-sender-key =
     .label = Tuo…
@@ -34,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Odota hetki…
 openpgp-has-nested-encrypted-parts = Tämä viesti sisältää muita salattuja osia.
 openpgp-show-encrypted-parts = Pura salaus ja näytä
+openpgp-has-nested-signed-parts = Jotkin tämän viestin osat voivat olla digitaalisesti allekirjoitettuja.
+openpgp-show-signed-parts = Avaa ja näytä
 openpgp-cannot-decrypt-because-mdc =
     Tämä on salattu viesti, joka käyttää vanhaa ja haavoittuvaa mekanismia.
     Sitä on saatettu muuttaa välityksen aikana, aikeena varastaa viestin sisältö.

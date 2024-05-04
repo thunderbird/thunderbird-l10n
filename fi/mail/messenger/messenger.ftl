@@ -188,6 +188,15 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-reply =
+    .aria-label = Vastaa
+    .tooltiptext = Vastaa
+mail-context-menu-open =
+    .label = Avaa
+    .accesskey = A
+mail-context-menu-reply =
+    .label = Vastaa
+    .accesskey = V
 mail-context-menu-forward-forward =
     .label = Välitä
     .accesskey = ä
@@ -212,6 +221,15 @@ mail-context-undelete-messages =
             [one] Kumoa viestin poisto
            *[other] Kumoa valittujen viestien poisto
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Poista viesti
+           *[other] Poista valitut viestit
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
 context-menu-decrypt-to-folder2 =
     .label = Luo salauksesta purettu kopio kansioon
     .accesskey = r

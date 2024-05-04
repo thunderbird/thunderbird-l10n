@@ -133,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Sähköpostitili…
+    .accesskey = S
 file-new-newsgroup-account =
     .label = Keskusteluryhmätili…
     .accesskey = r
