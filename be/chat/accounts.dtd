@@ -14,7 +14,7 @@
 <!-- This should match account.commandkey in instantbird.dtd -->
 <!ENTITY accountManager.close.commandkey     "a">
 <!-- This title must be short, displayed with a big font size -->
-<!ENTITY accountManager.noAccount.title      "Няма акаўнтаў">
+<!ENTITY accountManager.noAccount.title      "Няма ўліковых запісаў">
 <!ENTITY accountManager.noAccount.description 'Націсніце на кнопку "&accountManager.newAccount.label;", каб дазволіць &brandShortName; паказваць падказкі падчас выканання працэсу канфігурацыі.'>
 <!ENTITY account.autoSignOn.label     "Уваход пры запуску">
 <!ENTITY account.autoSignOn.accesskey "У">
@@ -24,10 +24,10 @@
 <!ENTITY account.disconnect.accesskey "Р">
 <!ENTITY account.edit.label           "Уласцівасці">
 <!ENTITY account.edit.accesskey       "У">
-<!ENTITY account.cancelReconnection.label         "Скасаваць перазлучэнне">
+<!ENTITY account.cancelReconnection.label         "Скасаваць перападлучэнне">
 <!ENTITY account.cancelReconnection.accesskey     "С">
-<!ENTITY account.copyDebugLog.label     "Капіяваць журнал наладкі">
+<!ENTITY account.copyDebugLog.label     "Капіяваць журнал адладкі">
 <!ENTITY account.copyDebugLog.accesskey "к">
-<!ENTITY account.connecting           "Злучэнне…">
-<!ENTITY account.disconnecting        "Разлучэнне…">
-<!ENTITY account.disconnected         "Не злучана">
+<!ENTITY account.connecting           "Падлучэнне…">
+<!ENTITY account.disconnecting        "Адлучэнне…">
+<!ENTITY account.disconnected         "Не падлучаны">
