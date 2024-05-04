@@ -85,8 +85,8 @@
 <!ENTITY selectMenu.accesskey "В">
 <!ENTITY all.label "Усе">
 <!ENTITY all.accesskey "У">
-<!ENTITY selectThreadCmd.label "Нізка">
-<!ENTITY selectThreadCmd.accesskey "Н">
+<!ENTITY selectThreadCmd.label "Абмеркаванне">
+<!ENTITY selectThreadCmd.accesskey "А">
 <!ENTITY selectThreadCmd.key "a">
 <!ENTITY selectFlaggedCmd.label "Лісты з зоркамі">
 <!ENTITY selectFlaggedCmd.accesskey "з">
@@ -178,16 +178,11 @@
 <!ENTITY sortAscending.accesskey "У">
 <!ENTITY sortDescending.label "Сыходны">
 <!ENTITY sortDescending.accesskey "С">
-<!ENTITY sortThreaded.label "Нізкаваны">
-<!ENTITY sortThreaded.accesskey "Н">
-<!ENTITY sortUnthreaded.label "Ненізкаваны">
-<!ENTITY sortUnthreaded.accesskey "е">
 <!ENTITY groupBySort.label "Згрупаваныя размеркаваннем">
 <!ENTITY groupBySort.accesskey "г">
 <!ENTITY msgsMenu.label "Лісты">
 <!ENTITY msgsMenu.accesskey "ы">
-<!ENTITY threads.label "Ланцужкі">
-<!ENTITY threads.accesskey "з">
+<!ENTITY threads.label "Абмеркаванні">
 <!ENTITY allMsgsCmd.label "Усе">
 <!ENTITY allMsgsCmd.accesskey "У">
 <!ENTITY expandAllThreadsCmd.label "Разгарнуць усе ланцужкі">

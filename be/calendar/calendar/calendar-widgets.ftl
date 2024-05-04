@@ -11,6 +11,10 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Календары
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Каляндар { $calendarName } адключаны
 calendar-enable-button = Уключыць
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
@@ -61,11 +65,15 @@ calendar-view-toggle-day = Дзень
     .title = { "" }
 calendar-view-toggle-week = Тыдзень
     .title = { "" }
+calendar-view-toggle-multiweek = Тыдні
+    .title = { "" }
 calendar-view-toggle-month = Месяц
     .title = { "" }
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Параметры макета календара
 calendar-find-events-menu-option =
     .label = Панэль пошуку падзей
 calendar-hide-weekends-option =
