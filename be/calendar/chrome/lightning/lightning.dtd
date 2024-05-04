@@ -52,15 +52,28 @@
 <!ENTITY lightning.imipbar.btnDecline.label                                 "Адхіліць">
 <!ENTITY lightning.imipbar.btnDecline2.tooltiptext                          "Адхіліць запрашэнне на ўдзел у падзеі">
 <!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "Адхіліць усе">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext               "Адхіліць запрашэнне на ўдзел ва ўсіх падзеях у серыі">
+<!ENTITY lightning.imipbar.btnDeclineCounter.label                          "Адхіліць">
+<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext                    "Адхіліць сустрэчную прапанову">
 <!ENTITY lightning.imipbar.btnDelete.label                                  "Выдаліць">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Выдаліць з календара">
+<!ENTITY lightning.imipbar.btnDetails.label                                 "Падрабязнасці…">
+<!ENTITY lightning.imipbar.btnDoNotShowImipBar.label                        "Не паказваць мне гэтыя паведамленні">
 <!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Каляндар">
-<!ENTITY lightning.imipbar.btnReschedule.label                              "Перапланаваць">
-<!ENTITY lightning.imipbar.btnReschedule.tooltiptext                        "Перапланаваць падзею">
+<!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext                      "Перайсці на ўкладку календара">
+<!ENTITY lightning.imipbar.btnReschedule.label                              "Перазапланаваць">
+<!ENTITY lightning.imipbar.btnReschedule.tooltiptext                        "Перазапланаваць падзею">
 <!ENTITY lightning.imipbar.btnSaveCopy.label                                "Захаваць копію">
 <!ENTITY lightning.imipbar.btnUpdate.label                                  "Абнавіць">
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Абнавіць падзею ў календары">
+<!ENTITY lightning.imipbar.description                                      "Гэта паведамленне змяшчае запрашэнне на ўдзел у падзеі.">
 
+<!ENTITY lightning.imipbar.btnSend.label                                    "Адправіць адказ зараз">
+<!ENTITY lightning.imipbar.btnSend.tooltiptext                              "Адправіць адказ арганізатару">
+<!ENTITY lightning.imipbar.btnSendSeries.tooltiptext                        "Адправіць адказ па ўсёй серыі падзей арганізатару">
+<!ENTITY lightning.imipbar.btnDontSend.label                                "Не адпраўляць адказ">
+<!ENTITY lightning.imipbar.btnDontSend.tooltiptext                          "Змяніць ваш статус удзелу без адпраўкі адказу арганізатару">
+<!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Змяніць ваш статус удзелу ва ўсёй серыі падзей без адпраўкі адказу арганізатару">
 
 <!-- Lightning specific keybindings -->
 
