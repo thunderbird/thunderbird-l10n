@@ -32,6 +32,8 @@
 <!ENTITY calendar.unifinder.tree.priority.tooltip2         "Сартаваць па прыярытэце">
 <!ENTITY calendar.unifinder.tree.title.label               "Назва">
 <!ENTITY calendar.unifinder.tree.title.tooltip2            "Сартаваць па назве">
+<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#37; выканана">
+<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Сартаваць па &#37; выкананасці">
 <!ENTITY calendar.unifinder.tree.startdate.label           "Пачатак">
 <!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Сартаваць па даце пачатку">
 <!ENTITY calendar.unifinder.tree.enddate.label             "Канец">
@@ -135,6 +137,12 @@
 
 <!ENTITY calendar.context.markcompleted.label     "Пазначыць выкананай">
 
+<!ENTITY progress.level.0             "0&percnt; выканана">
+<!ENTITY progress.level.0.accesskey   "0">
+<!ENTITY progress.level.25            "25&percnt; выканана">
+<!ENTITY progress.level.25.accesskey  "2">
+<!ENTITY progress.level.50            "50&percnt; выканана">
+<!ENTITY progress.level.50.accesskey  "5">
 
 <!ENTITY priority.level.low                 "Нізкі">
 <!ENTITY priority.level.normal              "Звычайны">

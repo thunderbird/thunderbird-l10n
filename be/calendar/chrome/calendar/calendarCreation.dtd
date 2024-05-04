@@ -38,12 +38,13 @@
 <!ENTITY buttons.subscribe.accesskey "П">
 
 <!ENTITY calendartype.label "Тып календара:">
-<!ENTITY location.label "Размяшчэнне:">
+<!ENTITY location.label "Адрас:">
 <!ENTITY location.placeholder "URL або імя хоста сервера календара">
 
-<!ENTITY network.nocredentials.label "Для гэтага размяшчэння не патрабуюцца ўліковыя даныя">
+<!ENTITY network.nocredentials.label "Для гэтага адраса не патрабуюцца ўліковыя даныя">
 <!ENTITY network.loading.description "Калі ласка, дачакайцеся, пакуль знойдуцца вашы календары.">
-<!ENTITY network.notfound.description "Не атрымалася знайсці календары ў гэтым размяшчэнні. Калі ласка, праверце свае налады.">
+<!ENTITY network.notfound.description "Не атрымалася знайсці календары па гэтым адрасе. Калі ласка, праверце свае налады.">
 <!ENTITY network.authfail.description "Уліковыя даныя, якія вы ўвялі, не былі прыняты. Калі ласка, праверце вашы налады.">
 
 <!ENTITY network.subscribe.single.description "Калі ласка, выберыце календары, на якія жадаеце падпісацца.">
+<!ENTITY network.subscribe.multiple.description "Па гэтым адрасе даступныя календары некалькіх тыпаў. Калі ласка, выберыце тып календара, а потом пазначце календары, на якія вы жадаеце падпісацца.">
