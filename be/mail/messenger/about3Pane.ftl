@@ -441,6 +441,7 @@ threadpane-message-new =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Ужыць змены?
 # Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
