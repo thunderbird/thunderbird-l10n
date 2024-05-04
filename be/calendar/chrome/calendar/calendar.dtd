@@ -143,14 +143,24 @@
 <!ENTITY progress.level.25.accesskey  "2">
 <!ENTITY progress.level.50            "50&percnt; выканана">
 <!ENTITY progress.level.50.accesskey  "5">
+<!ENTITY progress.level.75            "75&percnt; выканана">
+<!ENTITY progress.level.75.accesskey  "7">
+<!ENTITY progress.level.100            "100&percnt; выканана">
+<!ENTITY progress.level.100.accesskey  "1">
 
 <!ENTITY priority.level.low                 "Нізкі">
+<!ENTITY priority.level.low.accesskey       "Н">
 <!ENTITY priority.level.normal              "Звычайны">
+<!ENTITY priority.level.normal.accesskey    "З">
 <!ENTITY priority.level.high                "Высокі">
+<!ENTITY priority.level.high.accesskey      "В">
 
 <!ENTITY calendar.context.postpone.1hour.label      "1 гадзіна">
+<!ENTITY calendar.context.postpone.1hour.accesskey  "г">
 <!ENTITY calendar.context.postpone.1day.label       "1 дзень">
+<!ENTITY calendar.context.postpone.1day.accesskey   "д">
 <!ENTITY calendar.context.postpone.1week.label      "1 тыдзень">
+<!ENTITY calendar.context.postpone.1week.accesskey  "т">
 
 
 <!-- Task View -->
@@ -159,6 +169,7 @@
 
 <!-- Server Context Menu -->
 <!ENTITY calendar.context.newserver.label              "Новы каляндар…">
+<!ENTITY calendar.context.newserver.accesskey          "Н">
 <!ENTITY calendar.context.findcalendar.label           "Знайсці каляндар…" >
 
 <!-- LOCALIZATION NOTE (calendar.context.removeserver.label): Removing the
@@ -222,11 +233,14 @@
 <!-- Calendar Properties -->
 <!ENTITY calendarproperties.color.label                    "Колер:">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
+<!ENTITY calendarproperties.format.label                   "Фармат:">
+<!ENTITY calendarproperties.location.label                 "Адрас:">
 <!ENTITY calendarproperties.refreshInterval.label          "Абнаўляць каляндар:">
 <!ENTITY calendarproperties.refreshInterval.manual.label   "Уручную">
 <!ENTITY calendarproperties.name.label                     "Назва:">
 <!ENTITY calendarproperties.readonly.label                 "Толькі для чытання">
 <!ENTITY calendarproperties.firealarms.label               "Паказваць напамінкі">
+<!ENTITY calendarproperties.cache3.label                   "Працаваць па-за сеткай">
 <!ENTITY calendarproperties.enabled2.label                 "Уключыць гэты каляндар">
 <!ENTITY calendarproperties.unsubscribe.label              "Адпісацца">
 
@@ -246,3 +260,5 @@
 <!-- Extract buttons in message header -->
 <!ENTITY calendar.extract.event.button         "Дадаць як падзею">
 <!ENTITY calendar.extract.task.button          "Дадаць як задачу">
+<!ENTITY calendar.extract.event.button.tooltip "Выцягнуць каляндарную інфармацыю з паведамлення і дадаць яе ў ваш каляндар як падзею">
+<!ENTITY calendar.extract.task.button.tooltip  "Выцягнуць каляндарную інфармацыю з паведамлення і дадаць яе ў ваш каляндар як задачу">

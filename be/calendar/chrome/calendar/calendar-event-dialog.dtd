@@ -132,8 +132,10 @@
 <!ENTITY event.reminder.2hours.before.label               "за 2 гадзіны да" >
 <!ENTITY event.reminder.12hours.before.label              "за 12 гадзін да" >
 <!ENTITY event.reminder.1day.before.label                 "за 1 дзень да" >
+<!ENTITY event.reminder.2days.before.label                "за 2 дні да" >
 <!ENTITY event.reminder.1week.before.label                "за 1 тыдзень да" >
 
+<!ENTITY event.reminder.multiple.label                    "Некалькі напамінкаў…" >
 
 <!ENTITY event.statusbarpanel.freebusy.label              "Час як:">
 <!ENTITY event.statusbarpanel.privacy.label               "Прыватнасць:">
@@ -238,6 +240,8 @@
 <!ENTITY event.attendee.role.required           "Абавязковы ўдзельнік">
 <!ENTITY event.attendee.role.optional           "Неабавязковы ўдзельнік">
 <!ENTITY event.attendee.role.chair              "Арганізатар">
+<!ENTITY event.attendee.usertype.group          "Група">
+<!ENTITY event.attendee.usertype.resource       "Рэсурс">
 <!ENTITY event.attendee.usertype.room           "Пакой">
 
 <!-- Timezone dialog -->
@@ -253,5 +257,6 @@
 
 <!-- Summary dialog -->
 <!ENTITY summary.dialog.saveclose.label         "Захаваць і закрыць">
+<!ENTITY summary.dialog.saveclose.tooltiptext   "Захаваць змены і закрыць акно без змянення статусу удзелу і адпраўкі адказу">
 <!ENTITY summary.dialog.accept.label            "Прыняць">
 <!ENTITY summary.dialog.accept.tooltiptext      "Прыняць запрашэнне">
