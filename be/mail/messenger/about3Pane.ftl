@@ -443,6 +443,30 @@ threadpane-message-new =
 
 apply-changes-to-folder-title = Ужыць змены?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> непрачытанае з <span>1</span> паведамлення
+                [few] <span>1</span> непрачытанае з <span>{ $total }</span> паведамленняў
+               *[many] <span>1</span> непрачытанае з <span>{ $total }</span> паведамленняў
+            }
+        [few]
+            { $total ->
+                [one] <span>{ $unread }</span> непрачытаныя з <span>1</span> паведамлення
+                [few] <span>{ $unread }</span> непрачытаныя з <span>{ $total }</span> паведамленняў
+               *[many] <span>{ $unread }</span> непрачытаныя з <span>{ $total }</span> паведамленняў
+            }
+       *[many]
+            { $total ->
+                [one] <span>{ $unread }</span> непрачытаных з <span>1</span> паведамлення
+                [few] <span>{ $unread }</span> непрачытаных з <span>{ $total }</span> паведамленняў
+               *[many] <span>{ $unread }</span> непрачытаных з <span>{ $total }</span> паведамленняў
+            }
+    }
+# Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
     { $total ->

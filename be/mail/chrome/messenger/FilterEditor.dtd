@@ -46,9 +46,9 @@
 <!ENTITY deleteMessage.label "Выдаліць ліст">
 <!ENTITY deleteFromPOP.label "Выдаліць з паслугача POP">
 <!ENTITY fetchFromPOP.label "Атрымаць з паслугача POP">
-<!ENTITY ignoreThread.label "Ігнараваць нізку">
-<!ENTITY ignoreSubthread.label "Ігнараваць паднізку">
-<!ENTITY watchThread.label "Сачыць за нізкай">
+<!ENTITY ignoreThread.label "Ігнараваць абмеркаванне">
+<!ENTITY ignoreSubthread.label "Ігнараваць галіну абмеркавання">
+<!ENTITY watchThread.label "Сачыць за абмеркаваннем">
 <!ENTITY stopExecution.label "Спыніць выкананне фільтру">
 
 <!ENTITY addAction.tooltip "Дадаць новае дзеянне">
