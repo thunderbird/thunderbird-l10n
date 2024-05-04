@@ -73,7 +73,7 @@
 <!ENTITY startExpandedCmd.accesskey    "ш">
 
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Адчыніць">
+<!ENTITY openAttachmentCmd.label    "Адкрыць">
 <!ENTITY openAttachmentCmd.accesskey    "А">
 <!ENTITY saveAsAttachmentCmd.label    "Захаваць як…">
 <!ENTITY saveAsAttachmentCmd.accesskey    "я">
@@ -81,7 +81,7 @@
 <!ENTITY detachAttachmentCmd.accesskey    "ц">
 <!ENTITY deleteAttachmentCmd.label    "Выдаліць">
 <!ENTITY deleteAttachmentCmd.accesskey    "д">
-<!ENTITY openAllAttachmentsCmd.label    "Адчыніць усе…">
+<!ENTITY openAllAttachmentsCmd.label    "Адкрыць усе…">
 <!ENTITY openAllAttachmentsCmd.accesskey    "А">
 <!ENTITY saveAllAttachmentsCmd.label    "Захаваць усе…">
 <!ENTITY saveAllAttachmentsCmd.accesskey    "З">
@@ -106,5 +106,4 @@
 <!ENTITY CopyMessageId.accesskey "К">
 <!ENTITY OpenMessageForMsgId.label "Адкрыць ліст з вызначальнікам:">
 <!ENTITY OpenMessageForMsgId.accesskey "А">
-<!ENTITY OpenBrowserWithMsgId.label "Адчыніць азіральнік з вызначальнікам-ліста">
 <!ENTITY OpenBrowserWithMsgId.accesskey "з">

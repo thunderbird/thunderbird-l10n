@@ -19,8 +19,8 @@
 <!ENTITY contextIncomingMail.accesskey "А">
 <!ENTITY contextManual.label "Ручным выкананні">
 <!ENTITY contextManual.accesskey "Р">
-<!ENTITY contextBeforeCls.label "Фільтраваць перад аналізам на смецце">
-<!ENTITY contextAfterCls.label "Фільтраваць пасля аналізу на смецце">
+<!ENTITY contextBeforeCls.label "Фільтраваць перад аналізам на спам">
+<!ENTITY contextAfterCls.label "Фільтраваць пасля аналізу на спам">
 <!ENTITY contextOutgoing.label "Пасля адпраўкі">
 <!ENTITY contextOutgoing.accesskey "П">
 <!ENTITY contextArchive.label "Архіваванне">

@@ -246,7 +246,7 @@
 <!ENTITY pasteQuote.accesskey "В">
 
 <!-- Attachment Item and List Context Menus -->
-<!ENTITY openAttachment.label "Адчыніць">
+<!ENTITY openAttachment.label "Адкрыць">
 <!ENTITY openAttachment.accesskey "А">
 <!ENTITY delete.label "Выдаліць">
 <!ENTITY delete.accesskey "д">

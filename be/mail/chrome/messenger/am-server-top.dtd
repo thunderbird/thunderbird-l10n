@@ -52,7 +52,7 @@
 <!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY expungeOnExit.label "Прыбраць (&quot;Знішчыць&quot;) папку Атрыманыя перад выхадам">
 <!ENTITY expungeOnExit.accesskey "П">
-<!ENTITY emptyTrashOnExit.label "Выкідаць смецце перад выхадам">
+<!ENTITY emptyTrashOnExit.label "Ачышчаць сметніцу перад выхадам">
 <!ENTITY emptyTrashOnExit.accesskey "ы">
 <!ENTITY loginAtStartup.label "Правяраць, ці ёсць новыя лісты, пасля запуску">
 <!ENTITY loginAtStartup.accesskey "у">

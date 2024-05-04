@@ -91,11 +91,6 @@
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "Немагчыма распазнаць адрас">
-<!ENTITY unknownProtocolFound.longDesc "
-<ul>
-  <li>Магчыма, вы павінны ўсталяваць іншую праграму, каб адчыніць гэты адрас.</li>
-</ul>
-">
 
 <!ENTITY proxyConnectFailure.title "Паслугач-пасярэднік адмовіўся злучацца">
 <!ENTITY proxyConnectFailure.longDesc "
@@ -156,6 +151,7 @@
 
 <!ENTITY cspBlocked.title "Заблакавана палітыкай абароны змесціва">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; адмовіў старонцы ў загрузцы такім спосабам, бо палітыка бяспекі змесціва гэтай старонкі забараняе гэта.</p>">
+
 
 <!ENTITY corruptedContentErrorv2.title "Памылка скажэння змесціва">
 

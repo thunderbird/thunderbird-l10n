@@ -62,7 +62,7 @@
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY compactFolders.label "Ушчыльніць папкі">
 <!ENTITY compactFolders.accesskey "п">
-<!ENTITY emptyTrashCmd.label "Выкінуць смецце">
+<!ENTITY emptyTrashCmd.label "Ачысціць сметніцу">
 <!ENTITY emptyTrashCmd.accesskey "ь">
 <!ENTITY offlineMenu.label "Па-за сеткай">
 <!ENTITY offlineMenu.accesskey "з">
@@ -401,16 +401,16 @@
 <!ENTITY markAsNotJunkCmd.key "j">
 <!ENTITY recalculateJunkScoreCmd.label "Выканаць кіроўцы поштай-лухтой">
 <!ENTITY recalculateJunkScoreCmd.accesskey "К">
-<!ENTITY openMessageWindowCmd.label "Адчыніць ліст">
+<!ENTITY openMessageWindowCmd.label "Адкрыць паведамленне">
 <!ENTITY openMessageWindowCmd.accesskey "А">
 <!ENTITY openMessageWindowCmd.key "o">
 <!ENTITY openAttachmentListCmd.label "Далучэнні">
 <!ENTITY openAttachmentListCmd.accesskey "Д">
 <!ENTITY openFeedMessage1.label "Падчас адкрыцця паведамленняў жывільніка">
 <!ENTITY openFeedMessage1.accesskey "а">
-<!ENTITY openFeedWebPage.label "Адчыніць на сеціўнай старонцы">
+<!ENTITY openFeedWebPage.label "Адкрыць на вэб-старонцы">
 <!ENTITY openFeedWebPage.accesskey "с">
-<!ENTITY openFeedSummary.label "Адчыніць як зводку">
+<!ENTITY openFeedSummary.label "Адкрыць як зводку">
 <!ENTITY openFeedSummary.accesskey "з">
 <!ENTITY openFeedWebPageInMP.label "Пераключэнне шыбы ліста: старонка Сеціва, зводка">
 <!ENTITY openFeedWebPageInMP.accesskey "к">
@@ -594,7 +594,7 @@
 <!ENTITY folderContextRemove.accesskey "д">
 <!ENTITY folderContextCompact.label "Ушчыльніць">
 <!ENTITY folderContextCompact.accesskey "У">
-<!ENTITY folderContextEmptyTrash.label "Выкінуць смецце">
+<!ENTITY folderContextEmptyTrash.label "Ачысціць сметніцу">
 <!ENTITY folderContextEmptyTrash.accesskey "ь">
 <!ENTITY folderContextEmptyJunk.label "Выкінуць лухту">
 <!ENTITY folderContextEmptyJunk.accesskey "л">
@@ -680,7 +680,7 @@
 
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Новае паведамленне па шаблоне">
-<!ENTITY contextOpenNewWindow.label "Адчыніць ліст у новым акне">
+<!ENTITY contextOpenNewWindow.label "Адкрыць паведамленне ў новым акне">
 <!ENTITY contextOpenNewWindow.accesskey "А">
 <!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with
      cutCmd.accessKey which is defined in textcontext.dtd from toolkit. Right
@@ -690,7 +690,6 @@
 <!ENTITY contextOpenNewTab.accesskey "у">
 <!ENTITY contextOpenConversation.label "Адкрыць ліст у гутарцы">
 <!ENTITY contextOpenConversation.accesskey "г">
-<!ENTITY contextOpenContainingFolder.label "Адчыніць ліст у змяшчальнай папцы">
 <!ENTITY contextOpenContainingFolder.accesskey "ч">
 <!ENTITY contextEditMsgAsNew.label "Правіць як новы ліст">
 <!ENTITY contextEditMsgAsNew.accesskey "П">
