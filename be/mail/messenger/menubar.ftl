@@ -53,9 +53,6 @@ menu-view-repair-text-encoding =
 mail-uidensity-label =
     .label = Шчыльнасць
     .accesskey = Ш
-mail-uidensity-compact =
-    .label = Ушчыльную
-    .accesskey = У
 
 ## File
 

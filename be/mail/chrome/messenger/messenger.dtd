@@ -60,7 +60,7 @@
 <!ENTITY renameFolder.label "Перайменаваць папку…">
 <!ENTITY renameFolder.accesskey "й">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Ушчыльніць папкі">
+<!ENTITY compactFolders.label "Сціснуць папкі">
 <!ENTITY compactFolders.accesskey "п">
 <!ENTITY emptyTrashCmd.label "Ачысціць сметніцу">
 <!ENTITY emptyTrashCmd.accesskey "ь">
@@ -507,7 +507,7 @@
 <!ENTITY mailViewsToolbarItem.title "Праявы пошты">
 <!ENTITY folderLocationToolbarItem.title "Месцазнаходжанне папкі">
 <!ENTITY tagButton.label "Метка">
-<!ENTITY compactButton.label "Ушчыльніць">
+<!ENTITY compactButton.label "Сціснуць">
 <!ENTITY appmenuButton.label "Меню прыстасаванняў">
 
 <!-- Mail Toolbar Tooltips-->
@@ -592,7 +592,7 @@
 <!ENTITY folderContextRename.accesskey "й">
 <!ENTITY folderContextRemove.label "Выдаліць">
 <!ENTITY folderContextRemove.accesskey "д">
-<!ENTITY folderContextCompact.label "Ушчыльніць">
+<!ENTITY folderContextCompact.label "Сціснуць">
 <!ENTITY folderContextCompact.accesskey "У">
 <!ENTITY folderContextEmptyTrash.label "Ачысціць сметніцу">
 <!ENTITY folderContextEmptyTrash.accesskey "ь">
