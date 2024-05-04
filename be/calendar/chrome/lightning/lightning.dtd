@@ -40,10 +40,18 @@
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 
 <!-- The notifications settings in the properties dialog -->
+<!ENTITY lightning.calendarproperties.notifications.label                   "Апавяшчэнні">
 
 <!-- iMIP Bar (meeting support) -->
+<!ENTITY lightning.imipbar.btnAccept.label                                  "Прыняць">
+<!ENTITY lightning.imipbar.btnAccept2.tooltiptext                           "Прыняць запрашэнне на ўдзел у падзеі">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences.label                       "Прыняць усе">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext                "Прыняць запрашэнне на ўдзел ва ўсіх падзеях у серыі">
 <!ENTITY lightning.imipbar.btnAdd.label                                     "Дадаць">
 <!ENTITY lightning.imipbar.btnAdd.tooltiptext                               "Дадаць падзею ў каляндар">
+<!ENTITY lightning.imipbar.btnDecline.label                                 "Адхіліць">
+<!ENTITY lightning.imipbar.btnDecline2.tooltiptext                          "Адхіліць запрашэнне на ўдзел у падзеі">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "Адхіліць усе">
 <!ENTITY lightning.imipbar.btnDelete.label                                  "Выдаліць">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Выдаліць з календара">
 <!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Каляндар">
