@@ -212,9 +212,35 @@ context-menu-mark-junk =
 mail-context-menu-open =
     .label = Odpri
     .accesskey = O
+mail-context-menu-reply =
+    .label = Odgovori
+    .accesskey = O
+mail-context-menu-forward-redirect =
+    .label = Posreduj ali preusmeri
+    .accesskey = P
 mail-context-menu-forward-forward =
     .label = Posreduj
     .accesskey = P
+mail-context-menu-forward-inline =
+    .label = V besedilu
+    .accesskey = V
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Kot priponko
+            [two] Kot priponki
+            [few] Kot priponke
+           *[other] Kot priponke
+        }
+    .accesskey = p
+mail-context-menu-organize =
+    .label = Organiziraj
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Niti
+    .accesskey = t
 context-menu-redirect-msg =
     .label = Preusmeri
 # This menu item is for canceling an NNTP message
@@ -240,6 +266,28 @@ mail-context-undelete-messages =
             [few] Razveljavi izbris izbranih sporočil
            *[other] Razveljavi izbris izbranih sporočil
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Izbriši sporočilo
+            [two] Izbriši izbrani sporočili
+            [few] Izbriši izbrana sporočila
+           *[other] Izbriši izbrana sporočila
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Razveljavi izbris sporočila
+            [two] Razveljavi izbris izbranih sporočil
+            [few] Razveljavi izbris izbranih sporočil
+           *[other] Razveljavi izbris izbranih sporočil
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Ustvari dešifrirano kopijo v
     .accesskey = š

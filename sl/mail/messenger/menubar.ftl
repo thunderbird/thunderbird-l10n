@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Izključi način za odpravljanje težav
     .accesskey = I
-menu-help-more-troubleshooting-info =
-    .label = Več podatkov za odpravljanje težav
-    .accesskey = V
 menu-help-troubleshooting-info =
     .label = Podatki za odpravljanje težav
     .accesskey = a
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Izhod iz { -brand-shorter-name(sklon: "rodilnik") }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = h
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Strnjeno
     .accesskey = S
-mail-uidensity-normal =
-    .label = Običajno
-    .accesskey = O
-mail-uidensity-touch =
-    .label = Dotik
-    .accesskey = D
 mail-uidensity-default =
     .label = Privzeto
     .accesskey = P
@@ -139,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = E-poštni račun …
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Račun za novičarsko skupino …
     .accesskey = č
