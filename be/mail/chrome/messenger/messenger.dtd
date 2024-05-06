@@ -410,76 +410,50 @@
 <!ENTITY priorityColumn2.tooltip "Сартаваць па прыярытэце">
 <!ENTITY tagsColumn2.tooltip "Сартаваць па метках">
 <!ENTITY accountColumn2.tooltip "Сартаваць па ўліковым запісам">
-<!ENTITY statusColumn2.tooltip "Размеркаваць па статусам">
-<!ENTITY sizeColumn2.tooltip "Размеркаваць па памерам">
-<!ENTITY junkStatusColumn2.tooltip "Размеркаваць па статусу лухты">
-<!ENTITY unreadColumn2.tooltip "Колькасць непрачытаных лістоў у нізцы">
-<!ENTITY totalColumn2.tooltip "Агульная колькасць лістоў у нізцы">
-<!ENTITY readColumn2.tooltip "Размеркаваць па статусу чытання">
-<!ENTITY receivedColumn2.tooltip "Размеркаваць па даце атрымання">
-<!ENTITY starredColumn2.tooltip "Размеркаваць па зоркам">
-<!ENTITY locationColumn2.tooltip "Размеркаваць па месцазнаходжанню">
-<!ENTITY idColumn2.tooltip "Размеркаваць па парадку атрымання">
-<!ENTITY attachmentColumn2.tooltip "Размеркаваць па далучэнням">
+<!ENTITY statusColumn2.tooltip "Сартаваць па статусе">
+<!ENTITY sizeColumn2.tooltip "Сартаваць па памеры">
+<!ENTITY junkStatusColumn2.tooltip "Сартаваць па статусу спаму">
+<!ENTITY unreadColumn2.tooltip "Колькасць непрачытаных паведамленняў у абмеркаванні">
+<!ENTITY totalColumn2.tooltip "Агульная колькасць паведамленняў у абмеркаванні">
+<!ENTITY readColumn2.tooltip "Сартаваць па статусе чытання">
+<!ENTITY receivedColumn2.tooltip "Сартаваць па даце атрымання">
+<!ENTITY starredColumn2.tooltip "Сартаваць па пазначанасці">
+<!ENTITY idColumn2.tooltip "Сартаваць па парадку атрымання">
+<!ENTITY attachmentColumn2.tooltip "Сартаваць па прымацаваннях">
+<!ENTITY deleteColumn.tooltip "Выдаліць паведамленне">
 
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Новае паведамленне па шаблоне">
 <!ENTITY contextOpenNewWindow.label "Адкрыць паведамленне ў новым акне">
-<!ENTITY contextOpenNewWindow.accesskey "А">
 <!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with
      cutCmd.accessKey which is defined in textcontext.dtd from toolkit. Right
      now, both menu items can't be visible at the same time, but should someone
      enable copy/paste of message, this key would probably need to be changed. -->
 <!ENTITY contextOpenNewTab.label "Адкрыць паведамленне на новай укладцы">
-<!ENTITY contextOpenNewTab.accesskey "у">
-<!ENTITY contextOpenConversation.label "Адкрыць ліст у гутарцы">
-<!ENTITY contextOpenConversation.accesskey "г">
-<!ENTITY contextOpenContainingFolder.accesskey "ч">
-<!ENTITY contextEditMsgAsNew.label "Правіць як новы ліст">
-<!ENTITY contextEditMsgAsNew.accesskey "П">
+<!ENTITY contextEditMsgAsNew.label "Рэдагаваць як новае паведамленне">
 <!ENTITY contextEditDraftMsg.label "Рэдагаваць чарнавік паведамлення">
-<!ENTITY contextArchive.label "Архіў">
-<!ENTITY contextArchive.accesskey "х">
+<!ENTITY contextEditTemplate.label "Рэдагаваць шаблон">
+<!ENTITY contextArchive.label "Архіваваць">
 <!ENTITY contextReplySender.label "Адказаць толькі адпраўніку">
-<!ENTITY contextReplySender.accesskey "А">
-<!ENTITY contextReplyNewsgroup2.label "Адказаць у навінакупе">
-<!ENTITY contextReplyNewsgroup2.accesskey "н">
 <!ENTITY contextReplyAll.label "Адказаць усім">
-<!ENTITY contextReplyAll.accesskey "У">
-<!ENTITY contextReplyList.label "Адказаць спісу">
-<!ENTITY contextReplyList.accesskey "с">
 <!ENTITY contextForward.label "Пераслаць">
-<!ENTITY contextForward.accesskey "к">
 <!ENTITY contextForwardAsMenu.label "Пераслаць як">
-<!ENTITY contextForwardAsMenu.accesskey "я">
-<!ENTITY contextForwardAsInline.label "Усярэдзіне">
-<!ENTITY contextForwardAsInline.accesskey "у">
-<!ENTITY contextForwardAsAttachmentItem.label "Далучэнне">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "Д">
-<!ENTITY contextMultiForwardAsAttachment.label "Пераслаць як далучэнні">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "л">
+<!ENTITY contextForwardAsInline.label "У целе паведамлення">
+<!ENTITY contextForwardAsAttachmentItem.label "Прымацаванне">
+<!ENTITY contextMultiForwardAsAttachment.label "Пераслаць як прымацаванні">
 <!ENTITY contextMoveMsgMenu.label "Перамясціць у">
-<!ENTITY contextMoveMsgMenu.accesskey "м">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Апошняя">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "А">
+<!ENTITY contextMoveCopyMsgRecentMenu.label "Нядаўнія">
+<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Абраныя">
 <!ENTITY contextCopyMsgMenu.label "Капіяваць у">
-<!ENTITY contextCopyMsgMenu.accesskey "К">
-<!ENTITY contextKillThreadMenu.label "Ігнараваць нізку">
-<!ENTITY contextKillSubthreadMenu.accesskey "д">
-<!ENTITY contextKillThreadMenu.accesskey "І">
-<!ENTITY contextKillSubthreadMenu.label "Ігнараваць паднізку">
-<!ENTITY contextWatchThreadMenu.label "Сачыць за нізкай">
+<!ENTITY contextKillThreadMenu.label "Ігнараваць абмеркаванне">
+<!ENTITY contextKillSubthreadMenu.label "Ігнараваць галіну абмеркавання">
+<!ENTITY contextWatchThreadMenu.label "Сачыць за абмеркаваннем">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
      Watch Thread. Localizers can pick a suitable key
   -->
-<!ENTITY contextWatchThreadMenu.accesskey "">
 <!ENTITY contextSaveAs.label "Захаваць як…">
-<!ENTITY contextSaveAs.accesskey "Я">
-<!ENTITY contextPrint.label "Друкаваць…">
-<!ENTITY contextPrint.accesskey "Д">
-<!ENTITY contextPrintPreview.label "Перадпрагляд друку">
-<!ENTITY contextPrintPreview.accesskey "п">
+<!ENTITY contextPrint.label "Надрукаваць…">
 
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
@@ -489,7 +463,6 @@
      folder(s). The sub-menu items indicate whether we want to apply it to just
      a folder or also its children.
   -->
-<!ENTITY columnPicker.applyTo.label "Ужыць слупкі…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
      the "columnPicker.applyTo.label" alongside
