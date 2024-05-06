@@ -7,41 +7,27 @@
 
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Папка…">
-<!ENTITY newFolderCmd.accesskey "П">
-<!ENTITY closeTabCmd2.label "Зачыніць устаўку">
-<!ENTITY closeTabCmd2.accesskey "ч">
-<!ENTITY closeOtherTabsCmd2.label "Зачыніць іншыя ўстаўкі">
-<!ENTITY closeOtherTabsCmd2.accesskey "і">
-<!ENTITY recentlyClosedTabsCmd.label "Нядаўна зачыненыя ўстаўкі">
-<!ENTITY recentlyClosedTabsCmd.accesskey "я">
+<!ENTITY closeTabCmd2.label "Закрыць укладку">
+<!ENTITY closeOtherTabsCmd2.label "Закрыць іншыя ўкладкі">
+<!ENTITY recentlyClosedTabsCmd.label "Нядаўна закрытыя ўкладкі">
 
-<!ENTITY undoCloseTabCmd.commandkey "я">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
      window.
      -->
 <!ENTITY moveToNewWindow.label "Перамясціць у новае акно">
-<!ENTITY moveToNewWindow.accesskey "н">
 <!ENTITY newVirtualFolderCmd.label "Захаваны пошук…">
-<!ENTITY newVirtualFolderCmd.accesskey "п">
-<!ENTITY newCreateEmailAccountCmd.label "Стварыць новы рахунак пошты…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "н">
-<!ENTITY newExistingEmailAccountCmd.label "Існы рахунак пошты…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "І">
-<!ENTITY newIMAccountCmd.label "Рахунак гутаркі…">
-<!ENTITY newIMAccountCmd.accesskey "г">
-<!ENTITY newFeedAccountCmd.label "Рахунак жывільніка…">
-<!ENTITY newFeedAccountCmd.accesskey "ж">
-<!ENTITY newIMContactCmd.label "Гутарковая сувязь…">
-<!ENTITY newIMContactCmd.accesskey "г">
+<!ENTITY newCreateEmailAccountCmd.label "Атрымаць новы ўліковы запіс пошты…">
+<!ENTITY newExistingEmailAccountCmd.label "Існуючы ўліковы запіс пошты…">
+<!ENTITY newIMAccountCmd.label "Уліковы запіс чата…">
+<!ENTITY newFeedAccountCmd.label "Уліковы запіс ленты навін…">
+<!ENTITY newIMContactCmd.label "Кантакт чата…">
 <!ENTITY  newMessageCmd.label "Паведамленне">
-<!ENTITY  newMessageCmd.accesskey "П">
-<!ENTITY openMessageFileCmd.label "Адкрыць захаваны ліст…">
-<!ENTITY openMessageFileCmd.accesskey "А">
+<!ENTITY  newContactCmd.label "Кантакт з адраснай кнігі…">
+<!ENTITY openMenuCmd.label "Адкрыць">
+<!ENTITY openMessageFileCmd.label "Адкрыць захаванае паведамленне…">
 <!ENTITY saveAsMenu.label "Захаваць як">
-<!ENTITY saveAsMenu.accesskey "Я">
-<!ENTITY saveAsFileCmd.key "s">
-<!ENTITY saveAsTemplateCmd.label "Узор">
+<!ENTITY saveAsTemplateCmd.label "Шаблон">
 <!ENTITY saveAsTemplateCmd.accesskey "У">
 <!ENTITY getNewMsgForCmd.label "Атрымаць новыя лісты для">
 <!ENTITY getNewMsgForCmd.accesskey "я">
