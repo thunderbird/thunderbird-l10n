@@ -245,37 +245,27 @@
 <!ENTITY filtersApplyToMessage.label "Ужыць фільтры для паведамлення">
 <!ENTITY runJunkControls.label "Запусціць спам-фільтры ў папцы">
 <!ENTITY deleteJunk.label "Выдаліць пазначаныя як спам паведамленні з папкі">
-<!ENTITY deleteJunk.accesskey "д">
 <!ENTITY importCmd.label "Імпарт…">
-<!ENTITY importCmd.accesskey "І">
+<!ENTITY exportCmd.label "Экспарт…">
 <!ENTITY clearRecentHistory.label "Ачысціць нядаўнюю гісторыю…">
-<!ENTITY clearRecentHistory.accesskey "ч">
-<!ENTITY accountManagerCmd2.label "Наладжванні рахунку">
-<!ENTITY accountManagerCmd2.accesskey "Н">
+<!ENTITY accountManagerCmd2.label "Налады ўліковага запісу">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
      on Unix systems
   -->
-<!ENTITY accountManagerCmdUnix2.accesskey "A">
 
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Інструменты распрацоўшчыка">
-<!ENTITY devtoolsMenu.accesskey "а">
-<!ENTITY devToolboxCmd.label "Панэль распрацоўшчыка">
-<!ENTITY devToolboxCmd.accesskey "П">
+<!ENTITY devToolboxCmd.label "Набор інструментаў распрацоўшчыка">
 <!ENTITY devToolboxCmd.commandkey "i">
 <!ENTITY debugAddonsCmd.label "Адладка дадаткаў">
-<!ENTITY debugAddonsCmd.accesskey "А">
 <!ENTITY errorConsoleCmd.label "Кансоль памылак">
-<!ENTITY errorConsoleCmd.accesskey "п">
 <!ENTITY errorConsoleCmd.commandkey "j">
 
 <!-- Mail Toolbar -->
-<!ENTITY getMsgButton1.label "Атрымаць лісты">
-<!ENTITY newMsgButton.label "Укласці">
+<!ENTITY getMsgButton1.label "Атрымаць паведамленні">
 <!ENTITY replyButton.label "Адказаць">
-<!ENTITY replyAllButton.label "Адк. усім">
-<!ENTITY replyListButton.label "Адказаць спісу">
+<!ENTITY replyAllButton.label "Адказаць усім">
 <!ENTITY forwardButton.label "Пераслаць">
 <!ENTITY fileButton.label "Файл">
 <!ENTITY archiveButton.label "Архіў">
