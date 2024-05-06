@@ -117,9 +117,7 @@
 <!ENTITY bodyMenu.label "Цела паведамлення як">
 <!ENTITY bodyAllowHTML.label "Зыходны HTML">
 <!ENTITY bodySanitized.label "Спрошчаны HTML">
-<!ENTITY bodyAsPlaintext.accesskey "Т">
-<!ENTITY bodyAllParts.label "Усе часткі цела">
-<!ENTITY bodyAllParts.accesskey "У">
+<!ENTITY bodyAsPlaintext.label "Звычайны тэкст">
 
 <!ENTITY bodyMenuFeed.label "Жывіць цела ліста як">
 <!ENTITY bodyMenuFeed.accesskey "я">
