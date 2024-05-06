@@ -552,21 +552,17 @@
 <!ENTITY copyImageAllCmd.label "Капіяваць выяву">
 <!ENTITY copyEmailCmd.label "Капіяваць адрас электроннай пошты">
 <!ENTITY openInBrowser.label "Адкрыць у браўзеры">
-<!ENTITY openInBrowser.accesskey "А">
-<!ENTITY openLinkInBrowser.label "Адкрыць спасылку ў азіральніку">
-<!ENTITY openLinkInBrowser.accesskey "А">
+<!ENTITY openLinkInBrowser.label "Адкрыць спасылку ў браўзеры">
 
 <!-- Statusbar -->
 <!ENTITY statusText.label "Гатова">
 
 <!-- Mac OS X Window Menu -->
-<!ENTITY minimizeWindow.label "Мінімізаваць">
-<!ENTITY minimizeWindow.key "m">
-<!ENTITY bringAllToFront.label "Выцягнуць усе наперад">
-<!ENTITY zoomWindow.label "Павялічыць">
+<!ENTITY minimizeWindow.label "Згарнуць">
+<!ENTITY zoomWindow.label "Змяніць маштаб">
 
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Перавагі">
+<!ENTITY preferencesCmdMac2.label       "Параметры">
 <!ENTITY preferencesCmdMac.commandkey   ",">
 <!ENTITY preferencesCmdMac.modifiers    "accel">
 <!ENTITY servicesMenuMac.label          "Службы">
@@ -579,8 +575,10 @@
 <!ENTITY showAllAppsCmdMac.label        "Паказаць усе">
 
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "Наладжванні значка прыстасавання…">
-<!ENTITY writeNewMessageDock.label      "Напісаць новы ліст">
+<!ENTITY dockOptions.label              "Параметры значка праграмы…">
+<!ENTITY writeNewMessageDock.label      "Напісаць новае паведамленне">
 <!ENTITY openAddressBookDock.label      "Адкрыць адрасную кнігу">
 
 <!-- Content tab Navigation buttons -->
+<!ENTITY browseBackButton.tooltip    "Перайсці да папярэдняй старонкі">
+<!ENTITY browseForwardButton.tooltip "Перайсці да наступнай старонкі">
