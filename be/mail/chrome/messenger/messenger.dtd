@@ -215,7 +215,7 @@
 <!ENTITY markAsJunkCmd.key "j">
 <!ENTITY markAsNotJunkCmd.label "Як не спам">
 <!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Запусціць спам-фільтр">
+<!ENTITY recalculateJunkScoreCmd.label "Запусціць спам-фільтры">
 <!ENTITY openMessageWindowCmd.label "Адкрыць паведамленне">
 <!ENTITY openAttachmentListCmd.label "Прымацаванні">
 <!ENTITY openFeedWebPage.label "Адкрыць на вэб-старонцы">
@@ -226,38 +226,25 @@
 <!ENTITY windowMenu.label "Акно">
 
 <!-- Tools Menu -->
-<!ENTITY tasksMenu.label "Прылады">
-<!ENTITY tasksMenu.accesskey "л">
-<!ENTITY messengerCmd.label "Пошта і Навінакупы">
-<!ENTITY messengerCmd.accesskey "П">
+<!ENTITY tasksMenu.label "Інструменты">
+<!ENTITY messengerCmd.label "Пошта і групы навін">
 <!ENTITY addressBookCmd.label "Адрасная кніга">
-<!ENTITY addressBookCmd.accesskey "а">
 <!ENTITY addressBookCmd.key "B">
-<!ENTITY addonNoPrefs.label "Не знойдзены налады дадатку.">
-<!ENTITY activitymanager.label "Кіраўнік дзейнасці">
-<!ENTITY activitymanager.accesskey "д">
-<!ENTITY imAccountsStatus.label "Статус гутаркі">
-<!ENTITY imAccountsStatus.accesskey "г">
+<!ENTITY addonNoPrefs.label "Налады дадаткаў не знойдзены.">
+<!ENTITY imAccountsStatus.label "Статус чата">
 <!ENTITY imStatus.available          "Даступны">
 <!ENTITY imStatus.unavailable        "Недаступны">
 <!ENTITY imStatus.offline            "Па-за сеткаю">
-<!ENTITY imStatus.showAccounts       "Паказаць рахункі…">
-<!ENTITY joinChatCmd.label "Далучыцца да гутакі…">
-<!ENTITY joinChatCmd.accesskey "Д">
+<!ENTITY imStatus.showAccounts       "Паказаць уліковыя запісы…">
+<!ENTITY joinChatCmd.label "Далучыцца да чата…">
 <!ENTITY savedFiles.label "Захаваныя файлы">
-<!ENTITY savedFiles.accesskey "ф">
 <!ENTITY savedFiles.key "j">
 <!ENTITY filtersCmd2.label "Фільтры паведамленняў">
-<!ENTITY filtersCmd2.accesskey "С">
-<!ENTITY filtersApply.label "Ужыць сіты на папцы">
-<!ENTITY filtersApply.accesskey "У">
-<!ENTITY filtersApplyToSelection.label "Выканаць сіты на вылучаных лістах">
-<!ENTITY filtersApplyToSelection.accesskey "в">
-<!ENTITY filtersApplyToMessage.label "Выканаць сіты на лісце">
-<!ENTITY filtersApplyToMessage.accesskey "л">
-<!ENTITY runJunkControls.label "Ужыць кіроўцаў паштовай лухтой у папцы ">
-<!ENTITY runJunkControls.accesskey "х">
-<!ENTITY deleteJunk.label "Выдаліць пошту, пазначаную як лухта, з папкі ">
+<!ENTITY filtersApply.label "Ужыць фільтры для папкі">
+<!ENTITY filtersApplyToSelection.label "Ужыць фільтры для вылучаных паведамленняў">
+<!ENTITY filtersApplyToMessage.label "Ужыць фільтры для паведамлення">
+<!ENTITY runJunkControls.label "Запусціць спам-фільтры ў папцы">
+<!ENTITY deleteJunk.label "Выдаліць пазначаныя як спам паведамленні з папкі">
 <!ENTITY deleteJunk.accesskey "д">
 <!ENTITY importCmd.label "Імпарт…">
 <!ENTITY importCmd.accesskey "І">
