@@ -109,24 +109,14 @@
 <!ENTITY collapseAllThreadsCmd.key "\">
 <!ENTITY unreadMsgsCmd.label "Непрачытаныя">
 <!ENTITY threadsWithUnreadCmd.label "Абмеркаванні з непрачытанымі">
-<!ENTITY watchedThreadsWithUnreadCmd.label "Ланцужкі пад наглядам з непрачытанымі">
-<!ENTITY watchedThreadsWithUnreadCmd.accesskey "г">
-<!ENTITY ignoredThreadsCmd.label "Ігнараваныя ланцужкі">
-<!ENTITY ignoredThreadsCmd.accesskey "І">
+<!ENTITY ignoredThreadsCmd.label "Ігнараваныя абмеркаванні">
 
 <!ENTITY headersMenu.label "Загалоўкі">
-<!ENTITY headersMenu.accesskey "З">
 <!ENTITY headersAllCmd.label "Усе">
-<!ENTITY headersAllCmd.accesskey "У">
 <!ENTITY headersNormalCmd.label "Звычайныя">
-<!ENTITY headersNormalCmd.accesskey "З">
-<!ENTITY bodyMenu.label "Цела ліста як">
-<!ENTITY bodyMenu.accesskey "Ц">
-<!ENTITY bodyAllowHTML.label "Першапачатковы HTML">
-<!ENTITY bodyAllowHTML.accesskey "H">
-<!ENTITY bodySanitized.label "Просты HTML">
-<!ENTITY bodySanitized.accesskey "П">
-<!ENTITY bodyAsPlaintext.label "Просты тэкст">
+<!ENTITY bodyMenu.label "Цела паведамлення як">
+<!ENTITY bodyAllowHTML.label "Зыходны HTML">
+<!ENTITY bodySanitized.label "Спрошчаны HTML">
 <!ENTITY bodyAsPlaintext.accesskey "Т">
 <!ENTITY bodyAllParts.label "Усе часткі цела">
 <!ENTITY bodyAllParts.accesskey "У">
