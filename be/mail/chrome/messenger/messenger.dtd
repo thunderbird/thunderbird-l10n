@@ -6,7 +6,7 @@
 <!ENTITY titleSeparator.label " - ">
 
 <!-- File Menu -->
-<!ENTITY newFolderCmd.label "Папка…">
+<!ENTITY newFolderCmd.label "Папку…">
 <!ENTITY closeTabCmd2.label "Закрыць укладку">
 <!ENTITY closeOtherTabsCmd2.label "Закрыць іншыя ўкладкі">
 <!ENTITY recentlyClosedTabsCmd.label "Нядаўна закрытыя ўкладкі">
@@ -28,40 +28,23 @@
 <!ENTITY openMessageFileCmd.label "Адкрыць захаванае паведамленне…">
 <!ENTITY saveAsMenu.label "Захаваць як">
 <!ENTITY saveAsTemplateCmd.label "Шаблон">
-<!ENTITY saveAsTemplateCmd.accesskey "У">
-<!ENTITY getNewMsgForCmd.label "Атрымаць новыя лісты для">
-<!ENTITY getNewMsgForCmd.accesskey "я">
-<!ENTITY getAllNewMsgCmdPopupMenu.label "Усе рахункі">
-<!ENTITY getAllNewMsgCmdPopupMenu.accesskey "У">
-<!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Гэтачасовы рахунак">
-<!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "Г">
+<!ENTITY getNewMsgForCmd.label "Атрымаць новыя паведамленні для">
+<!ENTITY getAllNewMsgCmdPopupMenu.label "Усіх уліковых запісаў">
+<!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Бягучага рахунку">
 <!ENTITY getNextNMsgCmd2.label "Атрымаць наступныя паведамленні з навінамі">
-<!ENTITY getNextNMsgCmd2.accesskey "т">
-<!ENTITY sendUnsentCmd.label "Даслаць неадпраўленыя лісты">
-<!ENTITY sendUnsentCmd.accesskey "ь">
+<!ENTITY sendUnsentCmd.label "Адправіць неадпраўленыя паведамленні">
 <!ENTITY subscribeCmd.label "Падпісацца…">
-<!ENTITY subscribeCmd.accesskey "п">
 <!ENTITY deleteFolder.label "Выдаліць папку">
-<!ENTITY deleteFolder.accesskey "д">
 <!ENTITY renameFolder.label "Перайменаваць папку…">
-<!ENTITY renameFolder.accesskey "й">
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY compactFolders.label "Сціснуць папкі">
-<!ENTITY compactFolders.accesskey "п">
 <!ENTITY emptyTrashCmd.label "Ачысціць сметніцу">
-<!ENTITY emptyTrashCmd.accesskey "ь">
-<!ENTITY offlineMenu.label "Па-за сеткай">
-<!ENTITY offlineMenu.accesskey "з">
+<!ENTITY offlineMenu.label "Праца па-за сеткай">
 <!ENTITY offlineGoOfflineCmd.label "Працаваць па-за сеткай">
-<!ENTITY offlineGoOfflineCmd.accesskey "П">
-<!ENTITY synchronizeOfflineCmd.label "Загрузіць і сінхранізаваць зараз…">
-<!ENTITY synchronizeOfflineCmd.accesskey "с">
-<!ENTITY settingsOfflineCmd2.label "Наладжванні працы па-за сеткаю">
-<!ENTITY settingsOfflineCmd2.accesskey "п">
-<!ENTITY downloadSelectedCmd.label "Атрымаць вылучаныя лісты">
-<!ENTITY downloadSelectedCmd.accesskey "л">
-<!ENTITY downloadStarredCmd.label "Атрымаць лісты з зоркамі">
-<!ENTITY downloadStarredCmd.accesskey "з">
+<!ENTITY synchronizeOfflineCmd.label "Загрузіць/сінхранізаваць зараз…">
+<!ENTITY settingsOfflineCmd2.label "Налады працы па-за сеткаю">
+<!ENTITY downloadSelectedCmd.label "Атрымаць вылучаныя паведамленні">
+<!ENTITY downloadStarredCmd.label "Атрымаць пазначаныя паведамленні">
 <!ENTITY printCmd.label "Друкаваць…">
 <!ENTITY printCmd.accesskey "Д">
 <!ENTITY printCmd.key "p">
