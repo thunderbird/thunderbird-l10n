@@ -176,7 +176,7 @@
       calendar is the general action of removing it, while deleting means to
       clear the data and unsubscribing means just taking it out of the calendar
       list. -->
-<!ENTITY calendar.context.removeserver.label           "Выдаліць каляндар…">
+<!ENTITY calendar.context.removeserver.label           "Прыбраць каляндар…">
 <!ENTITY calendar.context.unsubscribeserver.label      "Адпісацца ад календара…">
 <!ENTITY calendar.context.publish.label                "Апублікаваць каляндар…">
 <!ENTITY calendar.context.export.label                 "Экспартаваць каляндар…">

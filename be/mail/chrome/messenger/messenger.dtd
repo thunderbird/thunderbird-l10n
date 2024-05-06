@@ -311,38 +311,30 @@
 <!ENTITY chatButton.tooltip "Паказаць укладку чата">
 <!ENTITY tagButton.tooltip "Памеціць паведамленні">
 <!ENTITY compactButton.tooltip "Прыбраць выдаленыя паведамленні з выбранай папкі">
-<!ENTITY appmenuButton1.tooltip "Адлюстраваць меню &brandShortName; Menu">
+<!ENTITY appmenuButton1.tooltip "Паказаць меню &brandShortName;">
 
 <!-- Toolbar Button Popup -->
-<!ENTITY buttonMenuForwardAsInline.label "Пераслаць усярэдзіне">
-<!ENTITY buttonMenuForwardAsAttachment.label "Пераслаць як далучэнне">
+<!ENTITY buttonMenuForwardAsInline.label "Пераслаць у целе паведамлення">
+<!ENTITY buttonMenuForwardAsAttachment.label "Пераслаць як прымацаванне">
 
 <!-- Remote Content Button Popup -->
-<!ENTITY remoteContentOptionsAllowForMsg.label "Паказаць адлеглае змесціва ў гэтым лісце">
-<!ENTITY remoteContentOptionsAllowForMsg.accesskey "П">
-<!ENTITY editRemoteContentSettings.label "Праўка наладжванняў адлеглага змесціва…">
-<!ENTITY editRemoteContentSettings.accesskey "П">
-<!ENTITY editRemoteContentSettingsUnix.label "Праўка перавагаў адлеглага змесціва…">
-<!ENTITY editRemoteContentSettingsUnix.accesskey "П">
+<!ENTITY remoteContentOptionsAllowForMsg.label "Паказаць адлеглае змесціва ў гэтым паведамленні">
+<!ENTITY editRemoteContentSettings.label "Рэдагаваць налады адлеглага змесціва…">
+<!ENTITY editRemoteContentSettingsUnix.label "Рэдагаваць параметры адлеглага змесціва…">
 
 <!-- Phishing Button Popup -->
-<!ENTITY phishingOptionIgnore.label "Ігнараваць папярэджанне для гэтага ліста">
-<!ENTITY phishingOptionIgnore.accesskey "І">
-<!ENTITY phishingOptionSettings.label "Правіць наладжванні выяўлення ашукаў…">
-<!ENTITY phishingOptionSettings.accesskey "р">
-<!ENTITY phishingOptionSettingsUnix.label "Правіць перавагі выяўлення ашукаў…">
-<!ENTITY phishingOptionSettingsUnix.accesskey "р">
+<!ENTITY phishingOptionIgnore.label "Ігнараваць папярэджанне для гэтага паведамлення">
+<!ENTITY phishingOptionSettings.label "Рэдагаваць налады выяўлення махлярства…">
+<!ENTITY phishingOptionSettingsUnix.label "Рэдагаваць параметры выяўлення махлярства…">
 
 <!-- AppMenu Popup -->
-<!ENTITY appmenuNewMsgCmd.label "Новы ліст">
-<!ENTITY appmenuNewContactCmd.label "Сувязь з адраснай кнігі…">
-<!ENTITY appmenuToolbarLayout.label "Раскладка паліц…">
+<!ENTITY appmenuNewMsgCmd.label "Новае паведамленне">
+<!ENTITY appmenuNewContactCmd.label "Кантакт з адраснай кнігі…">
+<!ENTITY appmenuToolbarLayout.label "Макет панэлі інструментаў…">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Новая метка…">
-<!ENTITY addNewTag.accesskey "Н">
 <!ENTITY manageTags.label "Кіраваць меткамі…">
-<!ENTITY manageTags.accesskey "К">
 
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Імя">
@@ -351,72 +343,52 @@
 <!ENTITY folderSizeColumn.label "Памер">
 
 <!-- Folder Pane Context Menu -->
-<!ENTITY folderContextGetMessages.label "Атрымаць лісты">
-<!ENTITY folderContextGetMessages.accesskey "А">
-<!ENTITY folderContextPauseAllUpdates.label "Спыніць усе абнаўленні">
-<!ENTITY folderContextPauseUpdates.label "Спыніць абнаўленні">
-<!ENTITY folderContextPauseUpdates.accesskey "С">
+<!ENTITY folderContextGetMessages.label "Атрымаць паведамленні">
+<!ENTITY folderContextMarkAllFoldersRead.label "Пазначыць усе папкі прачытанымі">
+<!ENTITY folderContextPauseAllUpdates.label "Прыпыніць усе абнаўленні">
+<!ENTITY folderContextPauseUpdates.label "Прыпыніць абнаўленні">
 <!ENTITY folderContextOpenInNewWindow.label "Адкрыць у новым акне">
-<!ENTITY folderContextOpenInNewWindow.accesskey "А">
 <!ENTITY folderContextOpenNewTab.label "Адкрыць на новай укладцы">
-<!ENTITY folderContextOpenNewTab.accesskey "у">
 <!ENTITY folderContextNew.label "Новая падпапка…">
-<!ENTITY folderContextNew.accesskey "Н">
 <!ENTITY folderContextRename.label "Перайменаваць">
-<!ENTITY folderContextRename.accesskey "й">
 <!ENTITY folderContextRemove.label "Выдаліць">
-<!ENTITY folderContextRemove.accesskey "д">
 <!ENTITY folderContextCompact.label "Сціснуць">
-<!ENTITY folderContextCompact.accesskey "У">
 <!ENTITY folderContextEmptyTrash.label "Ачысціць сметніцу">
-<!ENTITY folderContextEmptyTrash.accesskey "ь">
-<!ENTITY folderContextEmptyJunk.label "Выкінуць лухту">
-<!ENTITY folderContextEmptyJunk.accesskey "л">
-<!ENTITY folderContextSendUnsentMessages.label "Даслаць неадпраўленыя лісты">
-<!ENTITY folderContextSendUnsentMessages.accesskey "ь">
+<!ENTITY folderContextEmptyJunk.label "Ачысціць спам">
+<!ENTITY folderContextSendUnsentMessages.label "Адправіць неадпраўленыя паведамленні">
 <!ENTITY folderContextUnsubscribe.label "Адпісацца">
-<!ENTITY folderContextUnsubscribe.accesskey "А">
-<!ENTITY folderContextMarkNewsgroupRead.label "Пазначыць навінакупу прачытанай">
-<!ENTITY folderContextMarkNewsgroupRead.accesskey "ь">
+<!ENTITY folderContextMarkNewsgroupRead.label "Пазначыць групу навін прачытанай">
 <!ENTITY folderContextMarkMailFolderRead.label "Пазначыць папку прачытанай">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "ь">
 <!ENTITY folderContextSubscribe.label "Падпісацца…">
-<!ENTITY folderContextSubscribe.accesskey "п">
-<!ENTITY folderContextSearchForMessages.label "Пошук лістоў…">
-<!ENTITY folderContextSearchForMessages.accesskey "ш">
+<!ENTITY folderContextSearchForMessages.label "Шукаць паведамленні…">
 <!ENTITY folderContextProperties2.label "Уласцівасці">
-<!ENTITY folderContextProperties2.accesskey "У">
-<!ENTITY folderContextFavoriteFolder.label "Улюбёная папка">
-<!ENTITY folderContextFavoriteFolder.accesskey "л">
-<!ENTITY folderContextSettings2.label "Наладжванні">
-<!ENTITY folderContextSettings2.accesskey "л">
+<!ENTITY folderContextFavoriteFolder.label "Абраная папка">
+<!ENTITY folderContextSettings2.label "Налады">
 
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label "Імя або адрас змяшчаюць:">
-<!ENTITY SearchNameOrEmail.accesskey "І">
+<!ENTITY SearchNameOrEmail.label "Імя або адрас электроннай пошты змяшчаюць:">
 
 <!-- Gloda Search Bar -->
-<!ENTITY glodaSearchBar.placeholder "Пошук лістоў…">
+<!ENTITY glodaSearchBar.placeholder "Шукаць паведамленні…">
 
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Тэма">
 <!ENTITY searchFromMenu.label "Ад">
-<!ENTITY searchSubjectOrFromMenu.label "Тэма або Ад">
-<!ENTITY searchRecipient.label "Да ці Са">
-<!ENTITY searchSubjectOrRecipientMenu.label "Тэма, Да ці СА">
-<!ENTITY searchMessageBody.label "Гэты ліст">
-<!ENTITY saveAsVirtualFolderMenu.label "Захаваць пошук як папку…">
+<!ENTITY searchSubjectOrFromMenu.label "Тэма або аўтар">
+<!ENTITY searchRecipient.label "Каму або копія">
+<!ENTITY searchSubjectOrRecipientMenu.label "Тэма, каму або копія">
+<!ENTITY searchMessageBody.label "Паведамленне цалкам">
+<!ENTITY saveAsVirtualFolderMenu.label "Захаваць вынікі пошуку як папку…">
 
 <!-- Thread Pane -->
-<!ENTITY threadColumn.label "Нізка">
+<!ENTITY selectColumn.label "Выберыце паведамленні">
+<!ENTITY threadColumn.label "Абмеркаванне">
 <!ENTITY fromColumn.label "Ад">
-<!ENTITY recipientColumn.label "Атрымальнік">
-<!ENTITY correspondentColumn.label "Карэспандэнты">
 <!ENTITY subjectColumn.label "Тэма">
 <!ENTITY dateColumn.label "Дата">
 <!ENTITY priorityColumn.label "Прыярытэт">
 <!ENTITY tagsColumn.label "Метка">
-<!ENTITY accountColumn.label "Рахунак">
+<!ENTITY accountColumn.label "Уліковы запіс">
 <!ENTITY statusColumn.label "Статус">
 <!ENTITY sizeColumn.label "Памер">
 <!ENTITY junkStatusColumn.label "Статус лухты">
