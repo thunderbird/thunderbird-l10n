@@ -137,102 +137,56 @@
 
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Перайсці">
-<!ENTITY nextMenu.label "Наступны">
-<!ENTITY nextMenu.accesskey "Н">
-<!ENTITY nextMsgCmd.label "Ліст">
-<!ENTITY nextMsgCmd.accesskey "л">
-<!ENTITY nextMsgCmd.key "f">
-<!ENTITY nextUnreadMsgCmd.label "Непрачытаны ліст">
-<!ENTITY nextUnreadMsgCmd.accesskey "Н">
-<!ENTITY nextUnreadMsgCmd.key "n">
-<!ENTITY nextStarredMsgCmd.label "Ліст з зоркаю">
-<!ENTITY nextStarredMsgCmd.accesskey "з">
-<!ENTITY nextUnreadThread.label "Непрачытаная нізка">
-<!ENTITY nextUnreadThread.accesskey "н">
-<!ENTITY nextUnreadThread.key "t">
-<!ENTITY prevMenu.label "Папярэдні">
-<!ENTITY prevMenu.accesskey "П">
-<!ENTITY prevMsgCmd.label "Ліст">
-<!ENTITY prevMsgCmd.accesskey "Л">
-<!ENTITY prevMsgCmd.key "b">
-<!ENTITY prevUnreadMsgCmd.label "Непрачытаны ліст">
-<!ENTITY prevUnreadMsgCmd.accesskey "Н">
-<!ENTITY prevUnreadMsgCmd.key "p">
+<!ENTITY nextMenu.label "Наступнае">
+<!ENTITY nextMsgCmd.label "Паведамленне">
+<!ENTITY nextUnreadMsgCmd.label "Непрачытанае паведамленне">
+<!ENTITY nextStarredMsgCmd.label "Пазначанае паведамленне">
+<!ENTITY nextUnreadThread.label "Непрачытанае абмеркаванне">
+<!ENTITY prevMenu.label "Папярэдняе">
+<!ENTITY prevMsgCmd.label "Паведамленне">
+<!ENTITY prevUnreadMsgCmd.label "Непрачытанае паведамленне">
 <!ENTITY goForwardCmd.label "Наперад">
-<!ENTITY goForwardCmd.accesskey "н">
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY goBackCmd.label "Назад">
-<!ENTITY goBackCmd.accesskey "Н">
 <!ENTITY goBackCmd.commandKey "[">
-<!ENTITY goChatCmd.label "Гутарка">
-<!ENTITY goChatCmd.accesskey "г">
-<!ENTITY prevStarredMsgCmd.label "Ліст з зоркаю">
-<!ENTITY prevStarredMsgCmd.accesskey "з">
+<!ENTITY goChatCmd.label "Чат">
+<!ENTITY prevStarredMsgCmd.label "Пазначанае паведамленне">
 <!ENTITY folderMenu.label "Папка">
-<!ENTITY folderMenu.accesskey "а">
-<!ENTITY goRecentlyClosedTabs.label "Нядаўна зачыненыя ўстаўкі">
-<!ENTITY goRecentlyClosedTabs.accesskey "Н">
+<!ENTITY goRecentlyClosedTabs.label "Нядаўна закрытыя ўкладкі">
 <!ENTITY startPageCmd.label "Пачатковая старонка пошты">
-<!ENTITY startPageCmd.accesskey "П">
 
 <!-- Message Menu -->
-<!ENTITY msgMenu.label "Ліст">
-<!ENTITY msgMenu.accesskey "л">
-<!ENTITY newMsgCmd.label "Новы ліст">
-<!ENTITY newMsgCmd.accesskey "Н">
-<!ENTITY newNewMsgCmd.label "Ліст">
-<!ENTITY newNewMsgCmd.accesskey "л">
-<!ENTITY archiveMsgCmd.label "У архіў">
-<!ENTITY archiveMsgCmd.accesskey "а">
-<!ENTITY archiveMsgCmd.key "a">
-<!ENTITY cancelNewsMsgCmd.label "Скасаваць ліст">
-<!ENTITY cancelNewsMsgCmd.accesskey "к">
+<!ENTITY msgMenu.label "Паведамленне">
+<!ENTITY newMsgCmd.label "Новае паведамленне">
+<!ENTITY newNewMsgCmd.label "Паведамленне">
+<!ENTITY archiveMsgCmd.label "Архіваваць">
+<!ENTITY cancelNewsMsgCmd.label "Скасаваць паведамленне">
 <!ENTITY replyMsgCmd.label "Адказаць">
-<!ENTITY replyMsgCmd.accesskey "А">
-<!ENTITY replyMsgCmd.key "r">
 <!ENTITY replySenderCmd.label "Адказаць толькі адпраўніку">
-<!ENTITY replySenderCmd.accesskey "А">
-<!ENTITY replyNewsgroupCmd2.label "Адказаць у навінакупе">
-<!ENTITY replyNewsgroupCmd2.accesskey "у">
 <!ENTITY replyToAllMsgCmd.label "Адказаць усім">
-<!ENTITY replyToAllMsgCmd.accesskey "з">
 <!ENTITY replyToAllMsgCmd.key "r">
-<!ENTITY replyToListMsgCmd.label "Адказаць спісу">
-<!ENTITY replyToListMsgCmd.accesskey "с">
 <!ENTITY replyToListMsgCmd.key "l">
 <!ENTITY forwardMsgCmd.label "Пераслаць">
-<!ENTITY forwardMsgCmd.accesskey "к">
 <!ENTITY forwardMsgCmd.key "l">
 <!ENTITY forwardAsMenu.label "Пераслаць як">
-<!ENTITY forwardAsMenu.accesskey "к">
-<!ENTITY forwardAsInline.label "Убудаванне">
-<!ENTITY forwardAsInline.accesskey "б">
-<!ENTITY forwardAsAttachmentCmd.label "Далучэнне">
-<!ENTITY forwardAsAttachmentCmd.accesskey "Д">
-<!ENTITY editAsNewMsgCmd.label "Правіць як новы ліст">
-<!ENTITY editAsNewMsgCmd.accesskey "П">
+<!ENTITY forwardAsInline.label "Частку паведамлення">
+<!ENTITY forwardAsAttachmentCmd.label "Прымацаванне">
+<!ENTITY editAsNewMsgCmd.label "Рэдагаваць як новае паведамленне">
 <!ENTITY editAsNewMsgCmd.key "e">
 <!ENTITY editDraftMsgCmd.label "Рэдагаваць чарнавік паведамлення">
-<!ENTITY editDraftMsgCmd.accesskey "ч">
+<!ENTITY editTemplateMsgCmd.label "Рэдагаваць шаблон">
 <!ENTITY newMsgFromTemplateCmd.label "Новае паведамленне па шаблоне">
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
-<!ENTITY createFilter.label "Стварыць сіта з ліста…">
-<!ENTITY createFilter.accesskey "с">
+<!ENTITY createFilter.label "Стварыць фільтр з паведамлення…">
 <!ENTITY moveMsgToMenu.label "Перамясціць у">
-<!ENTITY moveMsgToMenu.accesskey "м">
-<!ENTITY moveCopyMsgRecentMenu.label "Апошні">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "А">
-<!ENTITY copyMessageLocation.label "Капіяваць месцазнаходжанне ліста">
-<!ENTITY copyMessageLocation.accesskey "м">
+<!ENTITY moveCopyMsgRecentMenu.label "Нядаўнія">
+<!ENTITY copyMessageLocation.label "Капіяваць адрас паведамлення">
 <!ENTITY copyMsgToMenu.label "Капіяваць у">
-<!ENTITY copyMsgToMenu.accesskey "К">
-<!ENTITY moveToFolderAgain.label "Перамясціць ізноў">
-<!ENTITY moveToFolderAgain.accesskey "і">
+<!ENTITY moveToFolderAgain.label "Перамясціць зноў">
 <!ENTITY moveToFolderAgainCmd.key "m">
-<!ENTITY killThreadMenu.label "Ігнараваць нізку">
-<!ENTITY killThreadMenu.accesskey "І">
+<!ENTITY killThreadMenu.label "Ігнараваць абмеркаванне">
 <!ENTITY killThreadMenu.key "k">
-<!ENTITY killSubthreadMenu.label "Ігнараваць паднізку">
+<!ENTITY killSubthreadMenu.label "Ігнараваць галіну абмеркавання">
 <!ENTITY killSubthreadMenu.accesskey "п">
 <!ENTITY killSubthreadMenu.key "k">
 <!ENTITY watchThreadMenu.label "Сачыць за нізкай">
