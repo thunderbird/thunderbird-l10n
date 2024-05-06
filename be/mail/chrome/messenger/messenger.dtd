@@ -294,11 +294,9 @@
 <!ENTITY getAllNewMsgCmd.label "Атрымаць усе новыя паведамленні">
 <!ENTITY newMsgButton.tooltip "Стварыць новае паведамленне">
 <!ENTITY replyButton.tooltip "Адказаць на паведамленне">
-<!ENTITY replyAllButton.tooltip "Адказаць адпраўніку і ўсім атрымальнікам">
-<!ENTITY replyListButton.tooltip "Адказаць паштоваму спісу">
-<!ENTITY forwardButton.tooltip "Пераслаць вылучаны ліст">
-<!ENTITY forwardAsInline.tooltip "Пераслаць вылучаны ліст як убудаваны тэкст">
-<!ENTITY forwardAsAttachment.tooltip "Пераслаць вылучаны ліст як далучэнне">
+<!ENTITY forwardButton.tooltip "Пераслаць выбранае паведамленне">
+<!ENTITY forwardAsInline.tooltip "Пераслаць выбранае паведамленне ў целе паведамлення">
+<!ENTITY forwardAsAttachment.tooltip "Пераслаць выбранае паведамленне як прымацаванне">
 <!ENTITY fileButton.tooltip "Перамясціць вылучаны ліст">
 <!ENTITY archiveButton.tooltip "Заархівіраваць вылучаныя лісты">
 <!ENTITY nextButton.tooltip "Перамясціцца да наступнага непрачытанага ліста">
