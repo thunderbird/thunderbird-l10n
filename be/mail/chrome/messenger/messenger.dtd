@@ -105,13 +105,10 @@
 <!ENTITY allMsgsCmd.label "Усе">
 <!ENTITY expandAllThreadsCmd.label "Разгарнуць усе абмеркаванні">
 <!ENTITY expandAllThreadsCmd.key "*">
-<!ENTITY collapseAllThreadsCmd.label "Згарнуць усе ланцужкі">
-<!ENTITY collapseAllThreadsCmd.accesskey "З">
+<!ENTITY collapseAllThreadsCmd.label "Згарнуць усе абмеркаванні">
 <!ENTITY collapseAllThreadsCmd.key "\">
 <!ENTITY unreadMsgsCmd.label "Непрачытаныя">
-<!ENTITY unreadMsgsCmd.accesskey "Н">
-<!ENTITY threadsWithUnreadCmd.label "Ланцужкі з непрачытанымі">
-<!ENTITY threadsWithUnreadCmd.accesskey "е">
+<!ENTITY threadsWithUnreadCmd.label "Абмеркаванні з непрачытанымі">
 <!ENTITY watchedThreadsWithUnreadCmd.label "Ланцужкі пад наглядам з непрачытанымі">
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "г">
 <!ENTITY ignoredThreadsCmd.label "Ігнараваныя ланцужкі">
