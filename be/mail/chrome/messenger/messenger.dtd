@@ -215,20 +215,12 @@
 <!ENTITY markAsJunkCmd.key "j">
 <!ENTITY markAsNotJunkCmd.label "Як не спам">
 <!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Выканаць кіроўцы поштай-лухтой">
+<!ENTITY recalculateJunkScoreCmd.label "Запусціць спам-фільтр">
 <!ENTITY openMessageWindowCmd.label "Адкрыць паведамленне">
-<!ENTITY openMessageWindowCmd.accesskey "А">
-<!ENTITY openMessageWindowCmd.key "o">
-<!ENTITY openAttachmentListCmd.label "Далучэнні">
-<!ENTITY openAttachmentListCmd.accesskey "Д">
-<!ENTITY openFeedMessage1.label "Падчас адкрыцця паведамленняў жывільніка">
-<!ENTITY openFeedMessage1.accesskey "а">
+<!ENTITY openAttachmentListCmd.label "Прымацаванні">
 <!ENTITY openFeedWebPage.label "Адкрыць на вэб-старонцы">
-<!ENTITY openFeedWebPage.accesskey "с">
 <!ENTITY openFeedSummary.label "Адкрыць як зводку">
-<!ENTITY openFeedSummary.accesskey "з">
-<!ENTITY openFeedWebPageInMP.label "Пераключэнне шыбы ліста: старонка Сеціва, зводка">
-<!ENTITY openFeedWebPageInMP.accesskey "к">
+<!ENTITY openFeedWebPageInMP.label "Пераключыцца паміж вэб-старонкай і зводкай на панэлі паведамленняў">
 
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Акно">
