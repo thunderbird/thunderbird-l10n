@@ -58,14 +58,22 @@
 <!ENTITY getNextNMsgCmd2.label "Атрымаць наступныя паведамленні з навінамі">
 <!ENTITY getNextNMsgCmd2.accesskey "с">
 <!ENTITY sendUnsentCmd.label "Адправіць неадпраўленыя паведамленні">
+<!ENTITY sendUnsentCmd.accesskey "е">
 <!ENTITY subscribeCmd.label "Падпісацца…">
+<!ENTITY subscribeCmd.accesskey "ц">
 <!ENTITY deleteFolder.label "Выдаліць папку">
+<!ENTITY deleteFolder.accesskey "ь">
 <!ENTITY renameFolder.label "Перайменаваць папку…">
+<!ENTITY renameFolder.accesskey "р">
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY compactFolders.label "Сціснуць папкі">
+<!ENTITY compactFolders.accesskey "С">
 <!ENTITY emptyTrashCmd.label "Ачысціць сметніцу">
+<!ENTITY emptyTrashCmd.accesskey "ч">
 <!ENTITY offlineMenu.label "Праца па-за сеткай">
+<!ENTITY offlineMenu.accesskey "й">
 <!ENTITY offlineGoOfflineCmd.label "Працаваць па-за сеткай">
+<!ENTITY offlineGoOfflineCmd.accesskey "П">
 <!ENTITY synchronizeOfflineCmd.label "Загрузіць/сінхранізаваць зараз…">
 <!ENTITY settingsOfflineCmd2.label "Налады працы па-за сеткаю">
 <!ENTITY downloadSelectedCmd.label "Атрымаць вылучаныя паведамленні">
