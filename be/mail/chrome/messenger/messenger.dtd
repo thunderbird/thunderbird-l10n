@@ -267,40 +267,33 @@
 <!ENTITY replyButton.label "Адказаць">
 <!ENTITY replyAllButton.label "Адказаць усім">
 <!ENTITY forwardButton.label "Пераслаць">
-<!ENTITY fileButton.label "Файл">
-<!ENTITY archiveButton.label "Архіў">
-<!ENTITY openConversationButton.label "Размова">
-<!ENTITY nextButton.label "Наступны">
-<!ENTITY nextButtonToolbarItem.label "Наступны непрачытаны">
-<!ENTITY nextMsgButton.label "Наступны">
-<!ENTITY previousButton.label "Папярэдні">
-<!ENTITY previousButtonToolbarItem.label "Папярэдні непрачытаны">
-<!ENTITY previousMsgButton.label "Папярэдні">
+<!ENTITY archiveButton.label "Архіваваць">
+<!ENTITY nextButton.label "Наступнае">
+<!ENTITY nextButtonToolbarItem.label "Наступнае непрачытанае">
+<!ENTITY nextMsgButton.label "Наступнае">
+<!ENTITY previousButton.label "Папярэдняе">
+<!ENTITY previousButtonToolbarItem.label "Папярэдняе непрачытанае">
+<!ENTITY previousMsgButton.label "Папярэдняе">
 <!ENTITY backButton1.label "Назад">
 <!ENTITY goForwardButton1.label "Наперад">
 <!ENTITY deleteItem.title "Выдаліць">
 <!ENTITY markButton.label "Пазначыць">
-<!ENTITY printButton.label "Друкаваць">
+<!ENTITY printButton.label "Друк">
 <!ENTITY stopButton.label "Спыніць">
-<!ENTITY throbberItem.title "Паказнік дзейнасці">
-<!ENTITY junkItem.title "Лухта">
+<!ENTITY throbberItem.title "Індыкатар актыўнасці">
+<!ENTITY junkItem.title "Спам">
 <!ENTITY addressBookButton.label "Адрасная кніга">
-<!ENTITY chatButton.label "Гутарка">
-<!ENTITY glodaSearch.title "Агульны пошук">
+<!ENTITY chatButton.label "Чат">
 <!ENTITY searchItem.title "Хуткі пошук">
-<!ENTITY mailViewsToolbarItem.title "Праявы пошты">
-<!ENTITY folderLocationToolbarItem.title "Месцазнаходжанне папкі">
 <!ENTITY tagButton.label "Метка">
 <!ENTITY compactButton.label "Сціснуць">
-<!ENTITY appmenuButton.label "Меню прыстасаванняў">
 
 <!-- Mail Toolbar Tooltips-->
-<!ENTITY advancedButton.tooltip "Пашыраны пошук лістоў">
-<!ENTITY getMsgButton.tooltip "Атрымаць новыя лісты">
-<!ENTITY getAllNewMsgCmd.label "Атрымаць усе новыя лісты">
-<!ENTITY getAllNewMsgCmd.accesskey "А">
-<!ENTITY newMsgButton.tooltip "Стварыць новы ліст">
-<!ENTITY replyButton.tooltip "Адказаць на ліст">
+<!ENTITY advancedButton.tooltip "Пашыраны рэжым пошуку паведамленняў">
+<!ENTITY getMsgButton.tooltip "Атрымаць новыя паведамленні">
+<!ENTITY getAllNewMsgCmd.label "Атрымаць усе новыя паведамленні">
+<!ENTITY newMsgButton.tooltip "Стварыць новае паведамленне">
+<!ENTITY replyButton.tooltip "Адказаць на паведамленне">
 <!ENTITY replyAllButton.tooltip "Адказаць адпраўніку і ўсім атрымальнікам">
 <!ENTITY replyListButton.tooltip "Адказаць паштоваму спісу">
 <!ENTITY forwardButton.tooltip "Пераслаць вылучаны ліст">
