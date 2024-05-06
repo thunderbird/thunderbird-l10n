@@ -58,7 +58,7 @@ show-passwords =
 hide-passwords =
     .label = Parolaları gizle
     .accesskey = g
-logins-description-all = Aşağıdaki sağlayıcıların giriş bilgileri bilgisayarınızda kayıtlıdır
+logins-description-all = Aşağıdaki sağlayıcıların hesapları bilgisayarınızda kayıtlıdır
 logins-description-filtered = Aşağıdaki hesaplar arama ölçütünüzle uyuşuyor:
 remove-all =
     .label = Tümünü kaldır
@@ -66,8 +66,8 @@ remove-all =
 remove-all-shown =
     .label = Görünenlerin hepsini kaldır
     .accesskey = G
-remove-all-passwords-prompt = Bütün parolaları silmek istediğinizden emin misiniz?
-remove-all-passwords-title = Bütün parolaları sil
+remove-all-passwords-prompt = Tüm parolaları silmek istediğinizden emin misiniz?
+remove-all-passwords-title = Tüm parolaları sil
 no-master-password-prompt = Parolalarınızı göstermek istediğinizden emin misiniz?
 
 ## OS Authentication dialog

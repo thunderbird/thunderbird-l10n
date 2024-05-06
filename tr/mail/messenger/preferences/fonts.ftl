@@ -111,7 +111,7 @@ min-size-none =
 
 font-control-legend = Yazı tipi denetimi
 use-document-fonts-checkbox =
-    .label = İletilerin diğer yazıtiplerini kullanmasına izin ver
+    .label = İletilerin diğer yazı tiplerini kullanmasına izin ver
     .accesskey = a
 use-fixed-width-plain-checkbox =
     .label = Düz metin iletilerde sabit genişlikli yazı tipi kullan

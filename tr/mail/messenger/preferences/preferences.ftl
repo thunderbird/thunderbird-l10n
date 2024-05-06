@@ -125,7 +125,7 @@ remove-search-engine =
     .label = Kaldır
     .accesskey = r
 add-opensearch-provider-title = OpenSearch sağlayıcısı ekle
-add-opensearch-provider-text = Eklenecek OpenSearch sağlayıcının URL’sini girin. OpenSearch Açıklama dosyasının tam URL’sini veya sağlayıcının otomatik olarak keşfedilebileceği bir URL’yi kullanın.
+add-opensearch-provider-text = Eklenecek OpenSearch sağlayıcısının URL’sini girin. OpenSearch Açıklama dosyasının tam URL’sini veya sağlayıcının otomatik olarak keşfedilebileceği bir URL’yi kullanın.
 adding-opensearch-provider-failed-title = OpenSearch sağlayıcısı ekleme başarısız
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
@@ -152,7 +152,7 @@ change-dock-icon = Uygulama simgesi tercihlerini değiştir
 app-icon-options =
     .label = Uygulama simgesi seçenekleri…
     .accesskey = m
-notification-settings2 = Uyarıları ve varsayılan sesi Sistem Ayarları'ndaki Bildirim bölümünden kapatabilirsiniz.
+notification-settings2 = Uyarıları ve varsayılan sesi Sistem Ayarları’ndaki Bildirim bölümünden kapatabilirsiniz.
 animated-alert-label =
     .label = Uyarı göster
     .accesskey = U
@@ -576,7 +576,7 @@ primary-password-button =
     .accesskey = d
 forms-primary-pw-fips-title = Şu anda FIPS kipindesiniz. FIPS için boş olmayan bir ana parola gereklidir.
 forms-master-pw-fips-desc = Parola değiştirme başarısız
-junk-description = Varsayılan gereksiz e-posta ayarlarınızı yapılandırın. Hesaba özel gereksiz e-posta ayarlarını hesap ayarlarından yapılandırılabilirsiniz.
+junk-description = Varsayılan gereksiz e-posta ayarlarınızı yapılandırın. Hesaba özel gereksiz e-posta ayarlarını hesap ayarlarından yapılandırabilirsiniz.
 junk-label =
     .label = İletileri gereksiz olarak işaretlediğimde:
     .accesskey = l
@@ -584,7 +584,7 @@ junk-marked-label =
     .label = İletiler gereksiz olarak işaretlendiğinde
     .accesskey = z
 junk-move-label =
-    .label = Hesaba ait "Gereksiz" dizinine taşı
+    .label = Hesaba ait “Gereksiz” dizinine taşı
     .accesskey = t
 junk-delete-label =
     .label = İletileri sil
@@ -759,7 +759,7 @@ search-results-help-link = Yardım mı gerekiyor? <a data-l10n-name="url">{ -bra
 ## Sync Tab
 
 sync-signedout-caption = Web’inizi yanınızda taşıyın
-sync-signedout-description = Hesaplarınızı, adres defterlerinizi, takvimlerinizi, eklentilerinizi ve ayarlarınızı tüm cihazlarınız arasında senkronize edin.
+sync-signedout-description = Hesaplarınızı, adres defterlerinizi, takvimlerinizi, eklentilerinizi ve ayarlarınızı tüm cihazlarınız arasında eşitleyin.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Eşitlemek için giriş yap…
 sync-pane-header = Eşitle
@@ -795,5 +795,5 @@ show-synced-change = Değiştir…
 synced-acount-item-server-config = Sunucu yapılandırması
 synced-acount-item-filters = Süzgeçler
 synced-acount-item-keys = OpenPGP - S/MIME
-sync-disconnected-text = E-postalarınızı, adres defterlerinizi, takvimlerinizi ve kimliklerinizi tüm cihazlarınız arasında senkronize edin.
+sync-disconnected-text = E-postalarınızı, adres defterlerinizi, takvimlerinizi ve kimliklerinizi tüm cihazlarınız arasında eşitleyin.
 sync-disconnected-turn-on-sync = Eşitlemeyi aç…

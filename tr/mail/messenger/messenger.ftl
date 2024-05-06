@@ -215,6 +215,18 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = İlet
     .accesskey = e
+mail-context-menu-forward-inline =
+    .label = İleti içinde
+    .accesskey = l
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Ek olarak
+           *[other] Ek olarak
+        }
+    .accesskey = E
 mail-context-menu-threads =
     .label = Diziler
     .accesskey = D

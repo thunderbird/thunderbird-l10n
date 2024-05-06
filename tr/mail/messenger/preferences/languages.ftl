@@ -29,5 +29,5 @@ messenger-languages-select-language =
     .label = Eklenecek dili seçin…
     .placeholder = Eklenecek dili seçin…
 messenger-languages-installed-label = Yüklü diller
-messenger-languages-available-label = Kullanabilir diller
+messenger-languages-available-label = Kullanılabilir diller
 messenger-languages-error = { -brand-short-name } şu anda dillerinizi güncelleyemiyor. İnternet bağlantınızı kontrol edip yeniden deneyin.

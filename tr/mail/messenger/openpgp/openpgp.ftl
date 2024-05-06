@@ -82,7 +82,7 @@ openpgp-key-man-export-to-file =
     .label = Ortak anahtar(lar)ı dosyaya aktar
     .accesskey = O
 openpgp-key-man-send-keys =
-    .label = Ortak anahtarları e-postayla gönder
+    .label = Ortak anahtar(lar)ı e-postayla gönder
     .accesskey = e
 openpgp-key-man-backup-secret-keys =
     .label = Gizli anahtar(lar)ı dosyaya yedekle
@@ -431,7 +431,7 @@ filter-term-pgpencrypted-label = OpenPGP ile şifrelenmiş
 filter-key-required = Bir alıcı anahtarı seçmelisiniz.
 # Variables:
 # $desc (String) - Email address to look for a key of.
-filter-key-not-found = '{ $desc }' için şifreleme anahtarı bulunamadı.
+filter-key-not-found = ‘{ $desc }’ için şifreleme anahtarı bulunamadı.
 
 ## Strings filtersWrapper.jsm
 
@@ -547,7 +547,7 @@ delete-key-title = OpenPGP anahtarını sil
 delete-external-key-title = Harici GnuPG anahtarını çıkar
 delete-external-key-description = Bu harici GnuPG anahtar kimliğini kaldırmak istiyor musunuz?
 key-in-use-title = Şu anda kullanılan OpenPGP anahtarı
-delete-key-in-use-description = Devam edilemiyor! Silmek için seçtiğiniz anahtar şu anda bu kimlik tarafından kullanılıyor. Farklı bir anahtar seçip ya da hiçbirini seçip tekrar deneyin.
+delete-key-in-use-description = Devam edilemiyor! Silmek için seçtiğiniz anahtar şu anda bu kimlik tarafından kullanılıyor. Farklı bir anahtar seçip ya da hiçbirini seçip yeniden deneyin.
 revoke-key-in-use-description = Devam edilemiyor! İptal için seçtiğiniz anahtar şu anda bu kimlik tarafından kullanılıyor. Farklı bir anahtar seçip ya da hiçbirini seçip yeniden deneyin.
 
 ## Strings used in errorHandling.jsm
