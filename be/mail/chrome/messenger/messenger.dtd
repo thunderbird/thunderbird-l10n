@@ -119,45 +119,24 @@
 <!ENTITY bodySanitized.label "Спрошчаны HTML">
 <!ENTITY bodyAsPlaintext.label "Звычайны тэкст">
 
-<!ENTITY bodyMenuFeed.label "Жывіць цела ліста як">
-<!ENTITY bodyMenuFeed.accesskey "я">
-<!ENTITY viewFeedWebPage.label "Старонку Сеціва">
-<!ENTITY viewFeedWebPage.accesskey "С">
-<!ENTITY viewFeedSummary.label "Зводку">
-<!ENTITY viewFeedSummary.accesskey "З">
-<!ENTITY viewFeedSummaryFeedPropsPref.label "Змоўчны фармат">
-<!ENTITY viewFeedSummaryFeedPropsPref.accesskey "ф">
+<!ENTITY bodyMenuFeed.label "Цела паведамлення з ленты навін як">
+<!ENTITY viewFeedWebPage.label "Вэб-старонка">
+<!ENTITY viewFeedSummary.label "Зводка">
 
-<!ENTITY viewAttachmentsInlineCmd.label "Адлюстроўваць далучэнні ўсярэдзіне">
-<!ENTITY viewAttachmentsInlineCmd.accesskey "Ў">
+<!ENTITY viewAttachmentsInlineCmd.label "Паказваць прымацаванні ў целе памедамлення">
 
-<!ENTITY pageSourceCmd.label "Зыходнік ліста">
-<!ENTITY pageSourceCmd.accesskey "ы">
-<!ENTITY pageSourceCmd.key "u">
-<!ENTITY getNewMessagesCmd.key "y">
-<!ENTITY getAllNewMessagesCmd.key "Y">
 
 <!-- Search Menu -->
-<!ENTITY findMenu.label "Знайсці">
-<!ENTITY findMenu.accesskey "З">
-<!ENTITY findCmd.label "Знайсці ў гэтым лісце…">
-<!ENTITY findCmd.accesskey "З">
-<!ENTITY findCmd.key "f">
-<!ENTITY findAgainCmd.label "Знайсці зноў">
-<!ENTITY findAgainCmd.accesskey "ў">
-<!ENTITY findAgainCmd.key "g">
+<!ENTITY findMenu.label "Шукаць">
+<!ENTITY findCmd.label "Шукаць ў гэтым паведамленні…">
+<!ENTITY findAgainCmd.label "Шукаць далей">
 <!ENTITY findAgainCmd.key2 "VK_F3">
-<!ENTITY findPrevCmd.key "g">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-<!ENTITY searchMailCmd.label "Пошук лістоў…">
-<!ENTITY searchMailCmd.accesskey "П">
-<!ENTITY searchMailCmd.key "f">
+<!ENTITY searchMailCmd.label "Пошук паведамленняў…">
 <!ENTITY searchAddressesCmd.label "Пошук адрасоў…">
-<!ENTITY searchAddressesCmd.accesskey "ш">
 
 <!-- Go Menu -->
-<!ENTITY goMenu.label "Рух">
-<!ENTITY goMenu.accesskey "Р">
+<!ENTITY goMenu.label "Перайсці">
 <!ENTITY nextMenu.label "Наступны">
 <!ENTITY nextMenu.accesskey "Н">
 <!ENTITY nextMsgCmd.label "Ліст">
