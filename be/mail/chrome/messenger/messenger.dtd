@@ -391,27 +391,25 @@
 <!ENTITY accountColumn.label "Уліковы запіс">
 <!ENTITY statusColumn.label "Статус">
 <!ENTITY sizeColumn.label "Памер">
-<!ENTITY junkStatusColumn.label "Статус лухты">
-<!ENTITY unreadColumn.label "Непрачытаных">
+<!ENTITY junkStatusColumn.label "Статус спаму">
+<!ENTITY unreadColumn.label "Не прачытана">
 <!ENTITY totalColumn.label "Усяго">
-<!ENTITY readColumn.label "Прачытаных">
-<!ENTITY receivedColumn.label "Атрыманы">
-<!ENTITY starredColumn.label "З зоркаю">
-<!ENTITY locationColumn.label "Месцазнаходжанне">
+<!ENTITY readColumn.label "Прачытана">
+<!ENTITY receivedColumn.label "Атрымана">
+<!ENTITY starredColumn.label "Пазначана">
 <!ENTITY idColumn.label "Парадак атрымання">
-<!ENTITY attachmentColumn.label "Далучэнні">
+<!ENTITY attachmentColumn.label "Прымацаванні">
+<!ENTITY deleteColumn.label "Выдаліць">
 
 <!-- Thread Pane Tooltips -->
-<!ENTITY columnChooser2.tooltip "Вылучыць слупкі для адлюстравання">
-<!ENTITY threadColumn2.tooltip "Паказваць ланцужкі лістоў">
-<!ENTITY fromColumn2.tooltip "Размеркаваць па адпраўнікам">
-<!ENTITY recipientColumn2.tooltip "Размеркаваць па атрымальнікам">
-<!ENTITY correspondentColumn2.tooltip "Сартаваць па карэспандэнтам">
-<!ENTITY subjectColumn2.tooltip "Размеркаваць па тэмах">
-<!ENTITY dateColumn2.tooltip "Размеркаваць па датам">
+<!ENTITY columnChooser2.tooltip "Выбраць слупкі для адлюстравання">
+<!ENTITY selectColumn.tooltip "Пераключыць выбар усіх паведамленняў">
+<!ENTITY fromColumn2.tooltip "Сартаваць па аўтару">
+<!ENTITY subjectColumn2.tooltip "Сартаваць па тэме">
+<!ENTITY dateColumn2.tooltip "Сартаваць па даце">
 <!ENTITY priorityColumn2.tooltip "Сартаваць па прыярытэце">
-<!ENTITY tagsColumn2.tooltip "Размеркаваць па мецінам">
-<!ENTITY accountColumn2.tooltip "Размеркаваць па рахункам">
+<!ENTITY tagsColumn2.tooltip "Сартаваць па метках">
+<!ENTITY accountColumn2.tooltip "Сартаваць па ўліковым запісам">
 <!ENTITY statusColumn2.tooltip "Размеркаваць па статусам">
 <!ENTITY sizeColumn2.tooltip "Размеркаваць па памерам">
 <!ENTITY junkStatusColumn2.tooltip "Размеркаваць па статусу лухты">
