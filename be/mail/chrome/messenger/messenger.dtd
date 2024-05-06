@@ -297,21 +297,20 @@
 <!ENTITY forwardButton.tooltip "Пераслаць выбранае паведамленне">
 <!ENTITY forwardAsInline.tooltip "Пераслаць выбранае паведамленне ў целе паведамлення">
 <!ENTITY forwardAsAttachment.tooltip "Пераслаць выбранае паведамленне як прымацаванне">
-<!ENTITY fileButton.tooltip "Перамясціць вылучаны ліст">
-<!ENTITY archiveButton.tooltip "Заархівіраваць вылучаныя лісты">
-<!ENTITY nextButton.tooltip "Перамясціцца да наступнага непрачытанага ліста">
-<!ENTITY nextMsgButton.tooltip "Перайсці да наступнага ліста">
-<!ENTITY previousButton.tooltip "Перамясціцца да папярэдняга непрачытанага ліста">
-<!ENTITY previousMsgButton.tooltip "Перайсці да папаярэдняга ліста">
-<!ENTITY goForwardButton.tooltip "Перамясціцца да наступнага ліста">
-<!ENTITY goBackButton.tooltip "Перамясціцца да папярэдняга ліста">
-<!ENTITY markButton.tooltip "Пазначыць лісты">
-<!ENTITY printButton.tooltip "Надрукаваць гэты ліст">
-<!ENTITY stopButton.tooltip "Прыпыніць цяперашні перанос">
+<!ENTITY archiveButton.tooltip "Архіваваць вылучаныя паведамленні">
+<!ENTITY nextButton.tooltip "Перайсці да наступнага непрачытанага паведамлення">
+<!ENTITY nextMsgButton.tooltip "Перайсці да наступнага паведамлення">
+<!ENTITY previousButton.tooltip "Перайсці да папярэдняга непрачытанага паведамлення">
+<!ENTITY previousMsgButton.tooltip "Перайсці да папаярэдняга паведамлення">
+<!ENTITY goForwardButton.tooltip "Перайсці да наступнага паведамлення">
+<!ENTITY goBackButton.tooltip "Перайсці да папярэдняга паведамлення">
+<!ENTITY markButton.tooltip "Пазначыць паведамленні">
+<!ENTITY printButton.tooltip "Надрукаваць гэта паведамленне">
+<!ENTITY stopButton.tooltip "Спыніць бягучую перадачу даных">
 <!ENTITY addressBookButton.tooltip "Перайсці ў адрасную кнігу">
-<!ENTITY chatButton.tooltip "Паказаць устаўку гутаркі">
-<!ENTITY tagButton.tooltip "Меткі лістоў">
-<!ENTITY compactButton.tooltip "Прыняць выдаленыя лісты з вылучанай папкі">
+<!ENTITY chatButton.tooltip "Паказаць укладку чата">
+<!ENTITY tagButton.tooltip "Памеціць паведамленні">
+<!ENTITY compactButton.tooltip "Прыбраць выдаленыя паведамленні з выбранай папкі">
 <!ENTITY appmenuButton1.tooltip "Адлюстраваць меню &brandShortName; Menu">
 
 <!-- Toolbar Button Popup -->
