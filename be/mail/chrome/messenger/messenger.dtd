@@ -375,47 +375,72 @@
 <!ENTITY markAllReadCmd.label "Усё як прачытанае">
 <!ENTITY markAllReadCmd.accesskey "У">
 <!ENTITY markAllReadCmd.key "c">
+<!ENTITY markStarredCmd.label "Пазначаным">
+<!ENTITY markStarredCmd.accesskey "П">
 <!ENTITY markStarredCmd.key "S">
 <!ENTITY markAsJunkCmd.label "Як спам">
+<!ENTITY markAsJunkCmd.accesskey "с">
 <!ENTITY markAsJunkCmd.key "j">
 <!ENTITY markAsNotJunkCmd.label "Як не спам">
+<!ENTITY markAsNotJunkCmd.accesskey "м">
 <!ENTITY markAsNotJunkCmd.key "j">
 <!ENTITY recalculateJunkScoreCmd.label "Запусціць спам-фільтры">
+<!ENTITY recalculateJunkScoreCmd.accesskey "З">
 <!ENTITY openMessageWindowCmd.label "Адкрыць паведамленне">
+<!ENTITY openMessageWindowCmd.accesskey "А">
 <!ENTITY openMessageWindowCmd.key "o">
 <!ENTITY openInConversationCmd.label "Адкрыць у размове">
+<!ENTITY openInConversationCmd.accesskey "д">
 <!ENTITY openInConversationCmd.key "o">
 <!ENTITY openAttachmentListCmd.label "Прымацаванні">
+<!ENTITY openAttachmentListCmd.accesskey "П">
 <!ENTITY openFeedWebPage.label "Адкрыць на вэб-старонцы">
+<!ENTITY openFeedWebPage.accesskey "в">
 <!ENTITY openFeedSummary.label "Адкрыць як зводку">
+<!ENTITY openFeedSummary.accesskey "з">
 <!ENTITY openFeedWebPageInMP.label "Пераключыцца паміж вэб-старонкай і зводкай на панэлі паведамленняў">
+<!ENTITY openFeedWebPageInMP.accesskey "П">
 
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Акно">
 
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Інструменты">
+<!ENTITY tasksMenu.accesskey "І">
 <!ENTITY messengerCmd.label "Пошта і групы навін">
+<!ENTITY messengerCmd.accesskey "П">
 <!ENTITY addressBookCmd.label "Адрасная кніга">
+<!ENTITY addressBookCmd.accesskey "А">
 <!ENTITY addressBookCmd.key "B">
 <!ENTITY addonNoPrefs.label "Налады дадаткаў не знойдзены.">
 <!ENTITY imAccountsStatus.label "Статус чата">
+<!ENTITY imAccountsStatus.accesskey "С">
 <!ENTITY imStatus.available          "Даступны">
 <!ENTITY imStatus.unavailable        "Недаступны">
 <!ENTITY imStatus.offline            "Па-за сеткаю">
 <!ENTITY imStatus.showAccounts       "Паказаць уліковыя запісы…">
 <!ENTITY joinChatCmd.label "Далучыцца да чата…">
+<!ENTITY joinChatCmd.accesskey "Д">
 <!ENTITY savedFiles.label "Захаваныя файлы">
 <!ENTITY savedFiles.key "j">
 <!ENTITY filtersCmd2.label "Фільтры паведамленняў">
-<!ENTITY filtersApply.label "Ужыць фільтры для папкі">
-<!ENTITY filtersApplyToSelection.label "Ужыць фільтры для вылучаных паведамленняў">
-<!ENTITY filtersApplyToMessage.label "Ужыць фільтры для паведамлення">
+<!ENTITY filtersCmd2.accesskey "Ф">
+<!ENTITY filtersApply.label "Запусціць фільтры для папкі">
+<!ENTITY filtersApply.accesskey "п">
+<!ENTITY filtersApplyToSelection.label "Запусціць фільтры для вылучаных паведамленняў">
+<!ENTITY filtersApplyToSelection.accesskey "в">
+<!ENTITY filtersApplyToMessage.label "Запусціць фільтры для паведамлення">
+<!ENTITY filtersApplyToMessage.accesskey "п">
 <!ENTITY runJunkControls.label "Запусціць спам-фільтры ў папцы">
+<!ENTITY runJunkControls.accesskey "с">
 <!ENTITY deleteJunk.label "Выдаліць пазначаныя як спам паведамленні з папкі">
+<!ENTITY deleteJunk.accesskey "В">
 <!ENTITY importCmd.label "Імпарт…">
+<!ENTITY importCmd.accesskey "І">
 <!ENTITY exportCmd.label "Экспарт…">
+<!ENTITY exportCmd.accesskey "Э">
 <!ENTITY clearRecentHistory.label "Ачысціць нядаўнюю гісторыю…">
+<!ENTITY clearRecentHistory.accesskey "г">
 <!ENTITY accountManagerCmd2.label "Налады ўліковага запісу">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
@@ -462,6 +487,7 @@
 <!ENTITY advancedButton.tooltip "Пашыраны рэжым пошуку паведамленняў">
 <!ENTITY getMsgButton.tooltip "Атрымаць новыя паведамленні">
 <!ENTITY getAllNewMsgCmd.label "Атрымаць усе новыя паведамленні">
+<!ENTITY getAllNewMsgCmd.accesskey "А">
 <!ENTITY newMsgButton.tooltip "Стварыць новае паведамленне">
 <!ENTITY replyButton.tooltip "Адказаць на паведамленне">
 <!ENTITY forwardButton.tooltip "Пераслаць выбранае паведамленне">
@@ -490,13 +516,19 @@
 
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Паказаць адлеглае змесціва ў гэтым паведамленні">
+<!ENTITY remoteContentOptionsAllowForMsg.accesskey "П">
 <!ENTITY editRemoteContentSettings.label "Рэдагаваць налады адлеглага змесціва…">
+<!ENTITY editRemoteContentSettings.accesskey "з">
 <!ENTITY editRemoteContentSettingsUnix.label "Рэдагаваць параметры адлеглага змесціва…">
+<!ENTITY editRemoteContentSettingsUnix.accesskey "з">
 
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Ігнараваць папярэджанне для гэтага паведамлення">
+<!ENTITY phishingOptionIgnore.accesskey "І">
 <!ENTITY phishingOptionSettings.label "Рэдагаваць налады выяўлення махлярства…">
+<!ENTITY phishingOptionSettings.accesskey "м">
 <!ENTITY phishingOptionSettingsUnix.label "Рэдагаваць параметры выяўлення махлярства…">
+<!ENTITY phishingOptionSettingsUnix.accesskey "м">
 
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Новае паведамленне">
@@ -505,7 +537,9 @@
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Новая метка…">
+<!ENTITY addNewTag.accesskey "Н">
 <!ENTITY manageTags.label "Кіраваць меткамі…">
+<!ENTITY manageTags.accesskey "К">
 
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Імя">
@@ -515,24 +549,40 @@
 
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Атрымаць паведамленні">
+<!ENTITY folderContextGetMessages.accesskey "А">
 <!ENTITY folderContextMarkAllFoldersRead.label "Пазначыць усе папкі прачытанымі">
 <!ENTITY folderContextPauseAllUpdates.label "Прыпыніць усе абнаўленні">
 <!ENTITY folderContextPauseUpdates.label "Прыпыніць абнаўленні">
 <!ENTITY folderContextOpenInNewWindow.label "Адкрыць у новым акне">
+<!ENTITY folderContextOpenInNewWindow.accesskey "а">
 <!ENTITY folderContextOpenNewTab.label "Адкрыць на новай укладцы">
+<!ENTITY folderContextOpenNewTab.accesskey "у">
 <!ENTITY folderContextNew.label "Новая падпапка…">
+<!ENTITY folderContextNew.accesskey "Н">
 <!ENTITY folderContextRename.label "Перайменаваць">
+<!ENTITY folderContextRename.accesskey "П">
 <!ENTITY folderContextRemove.label "Выдаліць">
+<!ENTITY folderContextRemove.accesskey "В">
 <!ENTITY folderContextCompact.label "Сціснуць">
+<!ENTITY folderContextCompact.accesskey "С">
 <!ENTITY folderContextEmptyTrash.label "Ачысціць сметніцу">
+<!ENTITY folderContextEmptyTrash.accesskey "А">
 <!ENTITY folderContextEmptyJunk.label "Ачысціць спам">
+<!ENTITY folderContextEmptyJunk.accesskey "А">
 <!ENTITY folderContextSendUnsentMessages.label "Адправіць неадпраўленыя паведамленні">
+<!ENTITY folderContextSendUnsentMessages.accesskey "н">
 <!ENTITY folderContextUnsubscribe.label "Адпісацца">
+<!ENTITY folderContextUnsubscribe.accesskey "А">
 <!ENTITY folderContextMarkNewsgroupRead.label "Пазначыць групу навін прачытанай">
+<!ENTITY folderContextMarkNewsgroupRead.accesskey "П">
 <!ENTITY folderContextMarkMailFolderRead.label "Пазначыць папку прачытанай">
+<!ENTITY folderContextMarkMailFolderRead.accesskey "П">
 <!ENTITY folderContextSubscribe.label "Падпісацца…">
+<!ENTITY folderContextSubscribe.accesskey "д">
 <!ENTITY folderContextSearchForMessages.label "Шукаць паведамленні…">
+<!ENTITY folderContextSearchForMessages.accesskey "Ш">
 <!ENTITY folderContextProperties2.label "Уласцівасці">
+<!ENTITY folderContextProperties2.accesskey "У">
 <!ENTITY folderContextFavoriteFolder.label "Абраная папка">
 <!ENTITY folderContextSettings2.label "Налады">
 
