@@ -10,7 +10,7 @@ compact-dialog =
     .buttonaccesskeyaccept = C
     .buttonlabelcancel = 稍後再提醒我
     .buttonaccesskeycancel = R
-    .buttonlabelextra1 = 了解更多…
+    .buttonlabelextra1 = 更多資訊…
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

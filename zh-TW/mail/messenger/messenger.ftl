@@ -266,6 +266,7 @@ mail-context-messages-delete =
 mail-context-messages-undelete =
     .label =
         { $count ->
+            [one] 救回郵件
            *[other] 救回選擇的郵件
         }
     .tooltiptext = { mail-context-messages-undelete.label }
