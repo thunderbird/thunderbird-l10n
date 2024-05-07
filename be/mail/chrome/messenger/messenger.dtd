@@ -199,18 +199,30 @@
 <!ENTITY ignoredThreadsCmd.label "Ігнараваныя абмеркаванні">
 
 <!ENTITY headersMenu.label "Загалоўкі">
+<!ENTITY headersMenu.accesskey "З">
 <!ENTITY headersAllCmd.label "Усе">
+<!ENTITY headersAllCmd.accesskey "У">
 <!ENTITY headersNormalCmd.label "Звычайныя">
+<!ENTITY headersNormalCmd.accesskey "З">
 <!ENTITY bodyMenu.label "Цела паведамлення як">
+<!ENTITY bodyMenu.accesskey "Ц">
 <!ENTITY bodyAllowHTML.label "Зыходны HTML">
+<!ENTITY bodyAllowHTML.accesskey "З">
 <!ENTITY bodySanitized.label "Спрошчаны HTML">
+<!ENTITY bodySanitized.accesskey "С">
 <!ENTITY bodyAsPlaintext.label "Звычайны тэкст">
+<!ENTITY bodyAsPlaintext.accesskey "в">
 
-<!ENTITY bodyMenuFeed.label "Цела паведамлення з ленты навін як">
-<!ENTITY viewFeedWebPage.label "Вэб-старонка">
-<!ENTITY viewFeedSummary.label "Зводка">
+<!ENTITY bodyMenuFeed.label "Цела паведамлення з ленты навін">
+<!ENTITY viewFeedWebPage.label "Як вэб-старонка">
+<!ENTITY viewFeedWebPage.accesskey "В">
+<!ENTITY viewFeedSummary.label "Як зводка">
+<!ENTITY viewFeedSummary.accesskey "З">
+<!ENTITY viewFeedSummaryFeedPropsPref.label "У прадвызначаным фармаце">
+<!ENTITY viewFeedSummaryFeedPropsPref.accesskey "п">
 
 <!ENTITY viewAttachmentsInlineCmd.label "Паказваць прымацаванні ў целе памедамлення">
+<!ENTITY viewAttachmentsInlineCmd.accesskey "П">
 
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
@@ -218,9 +230,12 @@
 
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Шукаць">
-<!ENTITY findCmd.label "Шукаць ў гэтым паведамленні…">
+<!ENTITY findMenu.accesskey "Ш">
+<!ENTITY findCmd.label "Шукаць у гэтым паведамленні…">
+<!ENTITY findCmd.accesskey "у">
 <!ENTITY findCmd.key "f">
 <!ENTITY findAgainCmd.label "Шукаць далей">
+<!ENTITY findAgainCmd.accesskey "д">
 <!ENTITY findAgainCmd.key "g">
 <!ENTITY findAgainCmd.key2 "VK_F3">
 <!ENTITY findPrevCmd.key "g">
