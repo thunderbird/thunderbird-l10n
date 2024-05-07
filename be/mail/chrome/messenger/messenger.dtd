@@ -50,11 +50,13 @@
 <!ENTITY downloadSelectedCmd.label "Атрымаць вылучаныя паведамленні">
 <!ENTITY downloadStarredCmd.label "Атрымаць пазначаныя паведамленні">
 <!ENTITY printCmd.label "Друк…">
+<!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Вылучыць">
 <!ENTITY all.label "Усе">
 <!ENTITY selectThreadCmd.label "Абмеркаванне">
+<!ENTITY selectThreadCmd.key "a">
 <!ENTITY selectFlaggedCmd.label "Пазначаныя паведамленні">
 <!ENTITY menuFavoriteFolder.label "Абраная папка">
 <!ENTITY undoDeleteMsgCmd.label "Адрабіць выдаленне паведамлення">
@@ -130,6 +132,7 @@
 
 <!ENTITY viewAttachmentsInlineCmd.label "Паказваць прымацаванні ў целе памедамлення">
 
+<!ENTITY pageSourceCmd.key "u">
 
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Шукаць">
