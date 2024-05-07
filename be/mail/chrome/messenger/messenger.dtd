@@ -7,9 +7,13 @@
 
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Папку…">
+<!ENTITY newFolderCmd.accesskey "П">
 <!ENTITY closeTabCmd2.label "Закрыць укладку">
+<!ENTITY closeTabCmd2.accesskey "у">
 <!ENTITY closeOtherTabsCmd2.label "Закрыць іншыя ўкладкі">
+<!ENTITY closeOtherTabsCmd2.accesskey "і">
 <!ENTITY recentlyClosedTabsCmd.label "Нядаўна закрытыя ўкладкі">
+<!ENTITY recentlyClosedTabsCmd.accesskey "з">
 
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
@@ -19,33 +23,55 @@
 <!ENTITY moveToNewWindow.label "Перамясціць у новае акно">
 <!ENTITY moveToNewWindow.accesskey "П">
 <!ENTITY newCreateEmailAccountCmd.label "Атрымаць новы ўліковы запіс пошты…">
+<!ENTITY newCreateEmailAccountCmd.accesskey "н">
 <!ENTITY newExistingEmailAccountCmd.label "Існуючы ўліковы запіс пошты…">
+<!ENTITY newExistingEmailAccountCmd.accesskey "І">
 <!ENTITY newIMAccountCmd.label "Уліковы запіс чата…">
+<!ENTITY newIMAccountCmd.accesskey "ч">
 <!ENTITY newFeedAccountCmd.label "Уліковы запіс ленты навін…">
+<!ENTITY newFeedAccountCmd.accesskey "л">
 <!ENTITY newIMContactCmd.label "Кантакт чата…">
+<!ENTITY newIMContactCmd.accesskey "К">
 <!ENTITY  newMessageCmd2.key "N">
 <!ENTITY  newMessageCmd.key "M">
 <!ENTITY  newMessageCmd.label "Паведамленне">
+<!ENTITY  newMessageCmd.accesskey "П">
 <!ENTITY  newContactCmd.label "Кантакт з адраснай кнігі…">
+<!ENTITY  newContactCmd.accesskey "К">
 <!ENTITY openMenuCmd.label "Адкрыць">
+<!ENTITY openMenuCmd.accesskey "А">
 <!ENTITY openMessageFileCmd.label "Адкрыць захаванае паведамленне…">
+<!ENTITY openMessageFileCmd.accesskey "з">
 <!ENTITY saveAsMenu.label "Захаваць як">
+<!ENTITY saveAsMenu.accesskey "я">
 <!ENTITY saveAsFileCmd.key "s">
 <!ENTITY saveAsTemplateCmd.label "Шаблон">
+<!ENTITY saveAsTemplateCmd.accesskey "Ш">
 <!ENTITY getNewMsgForCmd.label "Атрымаць новыя паведамленні для">
+<!ENTITY getNewMsgForCmd.accesskey "н">
 <!ENTITY getAllNewMsgCmdPopupMenu.label "Усіх уліковых запісаў">
+<!ENTITY getAllNewMsgCmdPopupMenu.accesskey "У">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Бягучага ўліковага запісу">
+<!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "Б">
 <!ENTITY getNextNMsgCmd2.label "Атрымаць наступныя паведамленні з навінамі">
+<!ENTITY getNextNMsgCmd2.accesskey "н">
 <!ENTITY sendUnsentCmd.label "Адправіць неадпраўленыя паведамленні">
+<!ENTITY sendUnsentCmd.accesskey "н">
 <!ENTITY subscribeCmd.label "Падпісацца…">
+<!ENTITY subscribeCmd.accesskey "П">
 <!ENTITY deleteFolder.label "Выдаліць папку">
+<!ENTITY deleteFolder.accesskey "В">
 <!ENTITY renameFolder.label "Перайменаваць папку…">
+<!ENTITY renameFolder.accesskey "П">
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY compactFolders.label "Сціснуць папкі">
+<!ENTITY compactFolders.accesskey "С">
 <!ENTITY emptyTrashCmd.label "Ачысціць сметніцу">
+<!ENTITY emptyTrashCmd.accesskey "с">
 <!ENTITY offlineMenu.label "Праца па-за сеткай">
 <!ENTITY offlineGoOfflineCmd.label "Працаваць па-за сеткай">
-<!ENTITY synchronizeOfflineCmd.label "Загрузіць/сінхранізаваць зараз…">
+<!ENTITY synchronizeOfflineCmd.label "Спампаваць/сінхранізаваць зараз…">
+<!ENTITY synchronizeOfflineCmd.accesskey "С">
 <!ENTITY settingsOfflineCmd2.label "Налады працы па-за сеткаю">
 <!ENTITY downloadSelectedCmd.label "Атрымаць вылучаныя паведамленні">
 <!ENTITY downloadStarredCmd.label "Атрымаць пазначаныя паведамленні">
@@ -68,19 +94,28 @@
 <!ENTITY undoMarkAllCmd.label "Адрабіць пазначэнне ўсіх прачытанымі">
 <!ENTITY redoMarkAllCmd.label "Узнавіць пазначэнне ўсіх прачытанымі">
 <!ENTITY undoDefaultCmd.label "Адрабіць">
+<!ENTITY undoDefaultCmd.accesskey "р">
 <!ENTITY redoDefaultCmd.label "Узнавіць">
+<!ENTITY redoDefaultCmd.accesskey "н">
 
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Панэль меню">
+<!ENTITY menubarCmd.accesskey "м">
 <!ENTITY showMessengerToolbarCmd.label "Панэль інструментаў пошты">
+<!ENTITY showMessengerToolbarCmd.accesskey "і">
 <!ENTITY customizeToolbar.label "Персаналізаваць…">
 
 <!ENTITY messagePaneLayoutStyle.label "Макет">
 <!ENTITY messagePaneClassic.label "Класічны выгляд">
+<!ENTITY messagePaneClassic.accesskey "К">
 <!ENTITY messagePaneWide.label "Шырокі выгляд">
+<!ENTITY messagePaneWide.accesskey "Ш">
 <!ENTITY messagePaneVertical.label "Вертыкальны выгляд">
+<!ENTITY messagePaneVertical.accesskey "В">
 <!ENTITY showFolderPaneCmd.label "Панэль папак">
+<!ENTITY showFolderPaneCmd.accesskey "п">
 <!ENTITY showMessageCmd.label "Панэль паведамленняў">
+<!ENTITY showMessageCmd.accesskey "п">
 
 <!ENTITY folderView.label "Папкі">
 <!ENTITY unifiedFolders.label "Аб'яднаныя">
