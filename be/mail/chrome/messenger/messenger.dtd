@@ -7,13 +7,9 @@
 
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Папку…">
-<!ENTITY newFolderCmd.accesskey "П">
 <!ENTITY closeTabCmd2.label "Закрыць укладку">
-<!ENTITY closeTabCmd2.accesskey "З">
 <!ENTITY closeOtherTabsCmd2.label "Закрыць іншыя ўкладкі">
-<!ENTITY closeOtherTabsCmd2.accesskey "а">
 <!ENTITY recentlyClosedTabsCmd.label "Нядаўна закрытыя ўкладкі">
-<!ENTITY recentlyClosedTabsCmd.accesskey "Н">
 
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
@@ -22,58 +18,33 @@
      -->
 <!ENTITY moveToNewWindow.label "Перамясціць у новае акно">
 <!ENTITY moveToNewWindow.accesskey "П">
-<!ENTITY newVirtualFolderCmd.label "Захаваны пошук…">
-<!ENTITY newVirtualFolderCmd.accesskey "З">
 <!ENTITY newCreateEmailAccountCmd.label "Атрымаць новы ўліковы запіс пошты…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "н">
 <!ENTITY newExistingEmailAccountCmd.label "Існуючы ўліковы запіс пошты…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "п">
 <!ENTITY newIMAccountCmd.label "Уліковы запіс чата…">
-<!ENTITY newIMAccountCmd.accesskey "У">
 <!ENTITY newFeedAccountCmd.label "Уліковы запіс ленты навін…">
-<!ENTITY newFeedAccountCmd.accesskey "л">
 <!ENTITY newIMContactCmd.label "Кантакт чата…">
-<!ENTITY newIMContactCmd.accesskey "н">
 <!ENTITY  newMessageCmd2.key "N">
 <!ENTITY  newMessageCmd.key "M">
 <!ENTITY  newMessageCmd.label "Паведамленне">
-<!ENTITY  newMessageCmd.accesskey "в">
 <!ENTITY  newContactCmd.label "Кантакт з адраснай кнігі…">
-<!ENTITY  newContactCmd.accesskey "к">
 <!ENTITY openMenuCmd.label "Адкрыць">
-<!ENTITY openMenuCmd.accesskey "А">
 <!ENTITY openMessageFileCmd.label "Адкрыць захаванае паведамленне…">
-<!ENTITY openMessageFileCmd.accesskey "д">
 <!ENTITY saveAsMenu.label "Захаваць як">
-<!ENTITY saveAsMenu.accesskey "в">
 <!ENTITY saveAsFileCmd.key "s">
 <!ENTITY saveAsTemplateCmd.label "Шаблон">
-<!ENTITY saveAsTemplateCmd.accesskey "Ш">
 <!ENTITY getNewMsgForCmd.label "Атрымаць новыя паведамленні для">
-<!ENTITY getNewMsgForCmd.accesskey "о">
 <!ENTITY getAllNewMsgCmdPopupMenu.label "Усіх уліковых запісаў">
-<!ENTITY getAllNewMsgCmdPopupMenu.accesskey "і">
-<!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Бягучага рахунку">
-<!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "Б">
+<!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Бягучага ўліковага запісу">
 <!ENTITY getNextNMsgCmd2.label "Атрымаць наступныя паведамленні з навінамі">
-<!ENTITY getNextNMsgCmd2.accesskey "с">
 <!ENTITY sendUnsentCmd.label "Адправіць неадпраўленыя паведамленні">
-<!ENTITY sendUnsentCmd.accesskey "е">
 <!ENTITY subscribeCmd.label "Падпісацца…">
-<!ENTITY subscribeCmd.accesskey "ц">
 <!ENTITY deleteFolder.label "Выдаліць папку">
-<!ENTITY deleteFolder.accesskey "ь">
 <!ENTITY renameFolder.label "Перайменаваць папку…">
-<!ENTITY renameFolder.accesskey "р">
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY compactFolders.label "Сціснуць папкі">
-<!ENTITY compactFolders.accesskey "С">
 <!ENTITY emptyTrashCmd.label "Ачысціць сметніцу">
-<!ENTITY emptyTrashCmd.accesskey "ч">
 <!ENTITY offlineMenu.label "Праца па-за сеткай">
-<!ENTITY offlineMenu.accesskey "й">
 <!ENTITY offlineGoOfflineCmd.label "Працаваць па-за сеткай">
-<!ENTITY offlineGoOfflineCmd.accesskey "П">
 <!ENTITY synchronizeOfflineCmd.label "Загрузіць/сінхранізаваць зараз…">
 <!ENTITY settingsOfflineCmd2.label "Налады працы па-за сеткаю">
 <!ENTITY downloadSelectedCmd.label "Атрымаць вылучаныя паведамленні">
@@ -100,6 +71,7 @@
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Панэль меню">
 <!ENTITY showMessengerToolbarCmd.label "Панэль інструментаў пошты">
+<!ENTITY customizeToolbar.label "Персаналізаваць…">
 
 <!ENTITY messagePaneLayoutStyle.label "Макет">
 <!ENTITY messagePaneClassic.label "Класічны выгляд">
