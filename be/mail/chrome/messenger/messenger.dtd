@@ -145,9 +145,9 @@
 <!ENTITY findAgainCmd.key2 "VK_F3">
 <!ENTITY findPrevCmd.key "g">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-<!ENTITY searchMailCmd.label "Пошук паведамленняў…">
+<!ENTITY searchMailCmd.label "Шукаць паведамленні…">
 <!ENTITY searchMailCmd.key "f">
-<!ENTITY searchAddressesCmd.label "Пошук адрасоў…">
+<!ENTITY searchAddressesCmd.label "Шукаць адрасы…">
 
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Перайсці">
