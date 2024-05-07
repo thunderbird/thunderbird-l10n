@@ -133,26 +133,37 @@
 <!ENTITY viewAttachmentsInlineCmd.label "Паказваць прымацаванні ў целе памедамлення">
 
 <!ENTITY pageSourceCmd.key "u">
+<!ENTITY getNewMessagesCmd.key "y">
+<!ENTITY getAllNewMessagesCmd.key "Y">
 
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Шукаць">
 <!ENTITY findCmd.label "Шукаць ў гэтым паведамленні…">
+<!ENTITY findCmd.key "f">
 <!ENTITY findAgainCmd.label "Шукаць далей">
+<!ENTITY findAgainCmd.key "g">
 <!ENTITY findAgainCmd.key2 "VK_F3">
+<!ENTITY findPrevCmd.key "g">
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Пошук паведамленняў…">
+<!ENTITY searchMailCmd.key "f">
 <!ENTITY searchAddressesCmd.label "Пошук адрасоў…">
 
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Перайсці">
 <!ENTITY nextMenu.label "Наступнае">
 <!ENTITY nextMsgCmd.label "Паведамленне">
+<!ENTITY nextMsgCmd.key "f">
 <!ENTITY nextUnreadMsgCmd.label "Непрачытанае паведамленне">
+<!ENTITY nextUnreadMsgCmd.key "n">
 <!ENTITY nextStarredMsgCmd.label "Пазначанае паведамленне">
 <!ENTITY nextUnreadThread.label "Непрачытанае абмеркаванне">
+<!ENTITY nextUnreadThread.key "t">
 <!ENTITY prevMenu.label "Папярэдняе">
 <!ENTITY prevMsgCmd.label "Паведамленне">
+<!ENTITY prevMsgCmd.key "b">
 <!ENTITY prevUnreadMsgCmd.label "Непрачытанае паведамленне">
+<!ENTITY prevUnreadMsgCmd.key "p">
 <!ENTITY goForwardCmd.label "Наперад">
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY goBackCmd.label "Назад">
@@ -168,8 +179,10 @@
 <!ENTITY newMsgCmd.label "Новае паведамленне">
 <!ENTITY newNewMsgCmd.label "Паведамленне">
 <!ENTITY archiveMsgCmd.label "Архіваваць">
+<!ENTITY archiveMsgCmd.key "a">
 <!ENTITY cancelNewsMsgCmd.label "Скасаваць паведамленне">
 <!ENTITY replyMsgCmd.label "Адказаць">
+<!ENTITY replyMsgCmd.key "r">
 <!ENTITY replySenderCmd.label "Адказаць толькі адпраўніку">
 <!ENTITY replyToAllMsgCmd.label "Адказаць усім">
 <!ENTITY replyToAllMsgCmd.key "r">
@@ -225,6 +238,9 @@
 <!ENTITY markAsNotJunkCmd.key "j">
 <!ENTITY recalculateJunkScoreCmd.label "Запусціць спам-фільтры">
 <!ENTITY openMessageWindowCmd.label "Адкрыць паведамленне">
+<!ENTITY openMessageWindowCmd.key "o">
+<!ENTITY openInConversationCmd.label "Адкрыць у размове">
+<!ENTITY openInConversationCmd.key "o">
 <!ENTITY openAttachmentListCmd.label "Прымацаванні">
 <!ENTITY openFeedWebPage.label "Адкрыць на вэб-старонцы">
 <!ENTITY openFeedSummary.label "Адкрыць як зводку">
@@ -276,6 +292,7 @@
 <!ENTITY replyAllButton.label "Адказаць усім">
 <!ENTITY forwardButton.label "Пераслаць">
 <!ENTITY archiveButton.label "Архіваваць">
+<!ENTITY openConversationButton.label "Размова">
 <!ENTITY nextButton.label "Наступнае">
 <!ENTITY nextButtonToolbarItem.label "Наступнае непрачытанае">
 <!ENTITY nextMsgButton.label "Наступнае">
@@ -292,6 +309,7 @@
 <!ENTITY junkItem.title "Спам">
 <!ENTITY addressBookButton.label "Адрасная кніга">
 <!ENTITY chatButton.label "Чат">
+<!ENTITY glodaSearch.title "Глабальны пошук">
 <!ENTITY searchItem.title "Хуткі пошук">
 <!ENTITY tagButton.label "Метка">
 <!ENTITY compactButton.label "Сціснуць">
@@ -306,6 +324,7 @@
 <!ENTITY forwardAsInline.tooltip "Пераслаць выбранае паведамленне ў целе паведамлення">
 <!ENTITY forwardAsAttachment.tooltip "Пераслаць выбранае паведамленне як прымацаванне">
 <!ENTITY archiveButton.tooltip "Архіваваць вылучаныя паведамленні">
+<!ENTITY openMsgConversationButton.tooltip "Паказаць размову для вылучанага паведамлення">
 <!ENTITY nextButton.tooltip "Перайсці да наступнага непрачытанага паведамлення">
 <!ENTITY nextMsgButton.tooltip "Перайсці да наступнага паведамлення">
 <!ENTITY previousButton.tooltip "Перайсці да папярэдняга непрачытанага паведамлення">
@@ -471,6 +490,7 @@
      folder(s). The sub-menu items indicate whether we want to apply it to just
      a folder or also its children.
   -->
+<!ENTITY columnPicker.applyTo.label "Ужыць слупкі для…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
      the "columnPicker.applyTo.label" alongside
