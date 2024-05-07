@@ -21,13 +21,13 @@
      window.
      -->
 <!ENTITY moveToNewWindow.label "Перамясціць у новае акно">
-<!ENTITY moveToNewWindow.accesskey "е">
+<!ENTITY moveToNewWindow.accesskey "П">
 <!ENTITY newVirtualFolderCmd.label "Захаваны пошук…">
-<!ENTITY newVirtualFolderCmd.accesskey "х">
+<!ENTITY newVirtualFolderCmd.accesskey "З">
 <!ENTITY newCreateEmailAccountCmd.label "Атрымаць новы ўліковы запіс пошты…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "т">
+<!ENTITY newCreateEmailAccountCmd.accesskey "н">
 <!ENTITY newExistingEmailAccountCmd.label "Існуючы ўліковы запіс пошты…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "І">
+<!ENTITY newExistingEmailAccountCmd.accesskey "п">
 <!ENTITY newIMAccountCmd.label "Уліковы запіс чата…">
 <!ENTITY newIMAccountCmd.accesskey "У">
 <!ENTITY newFeedAccountCmd.label "Уліковы запіс ленты навін…">
