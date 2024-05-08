@@ -10,6 +10,7 @@
 ## Header
 
 account-hub-brand = { -brand-full-name }
+account-hub-title = Konto-hub
 
 ## Footer
 
@@ -19,6 +20,8 @@ account-hub-donate = Doner
 
 ## Initial setup page
 
+account-hub-chat-setup-button = Chatt
+    .title = Set opp ein chattekonto
 
 ## Email page
 

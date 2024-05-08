@@ -12,7 +12,7 @@
 <!ENTITY feedsSectionHdr.label        "RSS-kjelder">
 <!ENTITY subscribeFeeds.label         "Handter abonnement">
 
-<!ENTITY chat.label                   "Chat">
+<!ENTITY chat.label                   "Chatt">
 
 <!ENTITY accountsSectionHdr.label     "Kontoar">
 <!ENTITY subscribeImapFolders.label   "Behandle medlemskap i mapper">

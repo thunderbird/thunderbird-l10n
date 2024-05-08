@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY windowTitle.label            "Vegvisar for nettpratkonto">
+<!ENTITY windowTitle.label            "Vegvisar for chattekonto">
 
-<!ENTITY accountProtocolTitle.label   "Vel nettverk">
-<!ENTITY accountProtocolInfo.label    "Vel nettverket du vil kople til.">
+<!ENTITY accountProtocolTitle.label   "Vel chatte-nettverk">
+<!ENTITY accountProtocolInfo.label    "Vel chatte-nettverket du vil kople til.">
 <!ENTITY accountProtocolField.label   "Nettverk:">
 <!ENTITY accountProtocolGetMore.label "Hent fleire …">
 

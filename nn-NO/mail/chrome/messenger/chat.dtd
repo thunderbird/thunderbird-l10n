@@ -14,7 +14,7 @@
 <!ENTITY chat.accountWizard.button       "Kom i gang">
 <!ENTITY chat.noConnectedAccount.title             "Nettpratkontoane dine er no tilkopla.">
 <!ENTITY chat.noConnectedAccount.description       "Du kan kopla dei til frå «Nettpratstatus»-dialogen:">
-<!ENTITY chat.showAccountManager.button       "Vis nettpratstatus">
+<!ENTITY chat.showAccountManager.button       "Vis chattestatus">
 
 <!ENTITY chat.participants             "Deltakarar:">
 <!ENTITY chat.previousConversations    "Tidlegare samtalar:">
@@ -33,7 +33,7 @@
 <!ENTITY closeConversationButton.tooltip "Lat att samtale">
 
 <!ENTITY addBuddyButton.label          "Legg til ein kontakt">
-<!ENTITY joinChatButton.label          "Start nettprat">
+<!ENTITY joinChatButton.label          "Start chatt">
 <!ENTITY chatAccountsButton.label      "Vis kontoar">
 
 <!ENTITY status.available          "Tilgjengeleg">

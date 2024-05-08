@@ -180,6 +180,7 @@ threadpane-cell-attachments =
 threadpane-attachments-cell-label = Vedlegg
 threadpane-column-label-spam =
     .label = Spam
+threadpane-spam-cell-label = Spam
 threadpane-column-header-unread-button =
     .title = Sorter etter lesen-status
 threadpane-read-cell-label = Lesne

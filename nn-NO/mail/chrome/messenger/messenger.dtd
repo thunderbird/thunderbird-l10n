@@ -28,11 +28,11 @@
 <!ENTITY newCreateEmailAccountCmd.accesskey "L">
 <!ENTITY newExistingEmailAccountCmd.label "Eksisterande e-postkonto …">
 <!ENTITY newExistingEmailAccountCmd.accesskey "E">
-<!ENTITY newIMAccountCmd.label "Nettpratkonto …">
+<!ENTITY newIMAccountCmd.label "Chattekonto…">
 <!ENTITY newIMAccountCmd.accesskey "N">
 <!ENTITY newFeedAccountCmd.label "RSS-kanalkonto…">
 <!ENTITY newFeedAccountCmd.accesskey "a">
-<!ENTITY newIMContactCmd.label "Nettpratkontakt …">
+<!ENTITY newIMContactCmd.label "Chatte-kontakt…">
 <!ENTITY newIMContactCmd.accesskey "t">
 <!ENTITY  newMessageCmd2.key "N">
 <!ENTITY  newMessageCmd.key "M">
@@ -296,7 +296,7 @@
 <!ENTITY goBackCmd.label "Tilbake">
 <!ENTITY goBackCmd.accesskey "T">
 <!ENTITY goBackCmd.commandKey "[">
-<!ENTITY goChatCmd.label "Nettprat">
+<!ENTITY goChatCmd.label "Chatt">
 <!ENTITY goChatCmd.accesskey "e">
 <!ENTITY prevStarredMsgCmd.label "Melding med stjerne">
 <!ENTITY prevStarredMsgCmd.accesskey "M">
@@ -442,13 +442,13 @@
 <!ENTITY addonNoPrefs.label "Fann ingen innstillingar for tillegget.">
 <!ENTITY activitymanager.label "Aktivitetar">
 <!ENTITY activitymanager.accesskey "v">
-<!ENTITY imAccountsStatus.label "Nettpratstatus">
+<!ENTITY imAccountsStatus.label "Chattestatus">
 <!ENTITY imAccountsStatus.accesskey "N">
 <!ENTITY imStatus.available          "Tilgjengeleg">
 <!ENTITY imStatus.unavailable        "Utilgjengeleg">
 <!ENTITY imStatus.offline            "Fråkopla">
 <!ENTITY imStatus.showAccounts       "Vis kontoar …">
-<!ENTITY joinChatCmd.label "Opne nettprat …">
+<!ENTITY joinChatCmd.label "Kople til chatt…">
 <!ENTITY joinChatCmd.accesskey "O">
 <!ENTITY savedFiles.label "Lagra filer">
 <!ENTITY savedFiles.accesskey "L">
@@ -516,7 +516,7 @@
 <!ENTITY throbberItem.title "Aktivitetsindikator">
 <!ENTITY junkItem.title "Søppel">
 <!ENTITY addressBookButton.label "Adressebok">
-<!ENTITY chatButton.label "Nettprat">
+<!ENTITY chatButton.label "Chatt">
 <!ENTITY glodaSearch.title "Globalt søk">
 <!ENTITY searchItem.title "Snøggsøk">
 <!ENTITY mailViewsToolbarItem.title "Meldingsoversyn">
