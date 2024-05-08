@@ -30,7 +30,7 @@
 <!ENTITY incomingUsername.label "Імя карыстальніка:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Увядзіце назву вашага паслугача навінаў (NNTP) (напрыклад: &quot;news.example.net&quot;).">
-<!ENTITY newsServerLabel.label "Паслугач навінакупы:">
+<!ENTITY newsServerLabel.label "Сервер груп навін:">
 <!ENTITY newsServerLabel.accesskey "н">
 
 <!-- Entities for Account name page -->
