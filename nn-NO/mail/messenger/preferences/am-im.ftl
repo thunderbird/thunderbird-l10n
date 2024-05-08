@@ -6,6 +6,7 @@ account-settings-title = Autentiserings-innstillingar
 account-channel-title = Standardkanalar
 chat-autologin =
     .label = Registrering ved oppstart
+chat-encryption-generic = Generisk
 chat-encryption-label = Intern ende-til-ende kryptering
 chat-encryption-status = Krypteringsstatus
 chat-encryption-placeholder = Kryptering er ikkje initialisert.

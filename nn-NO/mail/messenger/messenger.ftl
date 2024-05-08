@@ -201,7 +201,7 @@ spaces-toolbar-button-calendar2 =
 spaces-toolbar-button-tasks2 =
     .title = Oppgåver
 spaces-toolbar-button-chat2 =
-    .title = Nettprat
+    .title = Chatt
 spaces-toolbar-button-settings2 =
     .title = Innstillingar
 # Variables:
@@ -231,6 +231,14 @@ spaces-pinned-button-menuitem-settings2 =
     .label = { spaces-toolbar-button-settings2.title }
 spaces-pinned-button-menuitem-show =
     .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] Ei ulesen melding
+           *[other] { $count } ulesne meldingar
+        }
 
 ## Spaces toolbar customize panel
 
