@@ -4,7 +4,7 @@
 
 troubleshoot-mode-window =
     .title = { -brand-short-name } sorun giderme modu
-    .style = width: 37em;
+    .style = width: 40em;
 troubleshoot-mode-dialog-title = { -brand-short-name } sorun giderme modu
 troubleshoot-mode-description = Sorunları tanılamak için { -brand-short-name } sorun giderme modunu kullanabilirsiniz. Eklentileriniz ve özelleştirmeleriniz geçici olarak devre dışı bırakılacaktır.
 troubleshoot-mode-description2 = Aşağıdaki değişikliklerden istediklerinizi kalıcı yapabilirsiniz:
