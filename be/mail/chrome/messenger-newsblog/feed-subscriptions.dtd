@@ -9,7 +9,7 @@
 <!ENTITY feedTitle.label             "Загаловак:">
 <!ENTITY feedTitle.accesskey         "г">
 
-<!ENTITY feedLocation.label          "URL жывільніка:">
+<!ENTITY feedLocation.label          "URL ленты навін:">
 <!ENTITY feedLocation.accesskey      "U">
 <!ENTITY feedLocation2.placeholder   "Увядзіце сапраўдны url канала">
 <!ENTITY locationValidate.label      "Праверыць">

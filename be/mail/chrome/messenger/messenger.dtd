@@ -24,8 +24,8 @@
 <!ENTITY moveToNewWindow.accesskey "П">
 <!ENTITY newCreateEmailAccountCmd.label "Атрымаць новы ўліковы запіс пошты…">
 <!ENTITY newCreateEmailAccountCmd.accesskey "н">
-<!ENTITY newExistingEmailAccountCmd.label "Існуючы ўліковы запіс пошты…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "І">
+<!ENTITY newExistingEmailAccountCmd.label "Дадаць існуючы ўліковы запіс пошты…">
+<!ENTITY newExistingEmailAccountCmd.accesskey "і">
 <!ENTITY newIMAccountCmd.label "Уліковы запіс чата…">
 <!ENTITY newIMAccountCmd.accesskey "ч">
 <!ENTITY newFeedAccountCmd.label "Уліковы запіс ленты навін…">
