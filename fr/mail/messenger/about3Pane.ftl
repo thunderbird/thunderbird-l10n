@@ -188,7 +188,7 @@ folder-pane-header-folder-modes =
     .label = Modes des dossiers
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
-    .label = Afficher « Relever les messages »
+    .label = Afficher « Relever les nouveaux messages »
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Afficher « Nouveau message »
@@ -198,7 +198,7 @@ folder-pane-show-total-toggle =
     .label = Afficher le nombre total de messages
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
-    .label = Afficher la taille du dossier
+    .label = Afficher la taille des dossiers
 folder-pane-header-hide-local-folders =
     .label = Masquer les dossiers locaux
 folder-pane-mode-context-button =
