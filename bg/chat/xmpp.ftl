@@ -33,6 +33,7 @@ connection-error-not-sending-password-in-clear = Сървърът поддърж
 connection-error-authentication-failure = Грешка при удостоверяване
 connection-error-not-authorized = Няма удостоверяване (дали сте въвели грешна парола?)
 connection-error-failed-to-get-a-resource = Грешка при взимане на ресурс
+connection-error-failed-max-resource-limit = Този профил е свързан към твърде много места едновременно.
 connection-error-failed-resource-not-valid = Ресурсът е невалиден.
 connection-error-xmpp-not-supported = Този сървър не поддържа XMPP
 # LOCALIZATION NOTE (conversation-error-not-delivered):
@@ -87,6 +88,9 @@ conversation-error-invalid-jid = { $jabberIdentifier } е неправилен j
 conversation-error-command-failed-not-in-room = Трябва да влезете в стаята отново, за да можете да използвате тази команда.
 #   $recipient (String) is the name of the recipient.
 conversation-error-resource-not-available = Трябва първи да кажете нещо, защото { $recipient } може да използва повече от един клиент.
+# LOCALIZATION NOTE (conversation-error-version-*):
+#   $recipient is the name of the recipient.
+conversation-error-version-unknown = Клиентът на { $recipient } не поддържа запитване за изданието на софтуера.
 # LOCALIZATION NOTE (tooltip-*):
 #   These are the titles of lines of information that will appear in
 #   the tooltip showing details about a contact or conversation.
