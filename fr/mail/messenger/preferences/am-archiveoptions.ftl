@@ -17,7 +17,7 @@ keep-folder-structure =
     .label = Conserver la structure existante des dossiers archivés
     .accesskey = C
 recreate-inbox =
-    .label = Refaire le dossier des boîtes de réception
+    .label = Recréer le dossier de la boîte de réception
     .accesskey = R
 archive-example-label = Exemple
 # This should match the default name for the "Archives" folder.

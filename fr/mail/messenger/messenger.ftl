@@ -223,10 +223,10 @@ mail-context-menu-forward-inline =
 mail-context-menu-forward-as-attachment =
     .label =
         { $count ->
-            [one] en pièces jointes
-           *[other] en pièces jointes
+            [one] En pièce jointe
+           *[other] En pièces jointes
         }
-    .accesskey = e
+    .accesskey = E
 mail-context-menu-organize =
     .label = Organiser
     .accesskey = O
