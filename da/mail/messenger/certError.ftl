@@ -13,3 +13,6 @@ cert-error-expired = Certifikatet for { $hostname } udløb den { $not-after }.
 #   $hostname (string) - Hostname of the server with certificate error.
 #   $not-before (Date) - Certificate is not valid before this time.
 cert-error-not-yet-valid = Certifikatet for { $hostname } er ikke gyldigt før { $not-before }.
+# Variables:
+#   $hostname (string) - Hostname of the server with certificate error.
+cert-error-untrusted-default = Certifikatet for { $hostname } stammer ikke fra en kilde, der er tillid til.
