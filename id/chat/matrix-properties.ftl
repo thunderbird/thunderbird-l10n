@@ -120,3 +120,9 @@ detail-moderator = Moderator: { $value }
 detail-alias = Alias: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = Akses Tamu: { $value }
+#    $user is the name of the user who accepted an invitation.
+message-accepted-invite = { $user } menerima undangan.
+#    $user is the name of the user who has left the room.
+message-left = { $user } telah meninggalkan ruangan.
+message-action-report = Laporkan Pesan
+message-action-cancel = Batalkan Pesan
