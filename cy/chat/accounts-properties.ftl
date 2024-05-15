@@ -7,3 +7,4 @@
 password-prompt-title = Cyfrinair { $accountName }
 # $accountName (String): is replaced with the name of the account
 password-prompt-text = Rhowch eich cyfrinair ar gyfer { $accountName } er mwyn cysylltu ag ef.
+password-prompt-save-checkbox = Defnyddiwch y Rheolwr Cyfrineiriau i gofio'r cyfrinair.
