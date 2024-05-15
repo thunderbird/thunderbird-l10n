@@ -2,10 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = ID Matrix
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Pśistupny token składowaś
+options-device-display-name = Zwobraznjeńske mě rěda
+options-homeserver = { "" }
+options-backup-passphrase = Gronidłowy wuraz klucowego zawěsćenja
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Kryptografiske funkcije: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Pótajmny składowak: { $status }
+# $status (String) a status
+options-encryption-key-backup = Zawěsćenje koděrowańskego kluca: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Kśicne signěrowanje: { $status }
+options-encryption-status-ok = w pórěźe
+options-encryption-status-not-ok = nic gótowy
+options-encryption-need-backup-passphrase = Pšosym zapódajśo gronidłowy wuraz klucowego zawěsćenja w protokolowych nastajenjach.
+options-encryption-set-up-secret-storage = Aby pótajmny składowak konfigurěrował, wužywajśo drugi klient a zapódajśo pón generěrowany gronidłowy wuraz klucowego zawěsćenja w rejtariku „Powšykne “.
+options-encryption-set-up-backup-and-cross-signing = Aby zawěsćenja koděrowańskego kluca a kśicne signěrowanje aktiwěrował, zapódajśo swój gronidłowy wuraz klucowego zawěsćenja w rejtariku „Powšykne“ abo wobkšuśćo identitu jadnogo z pósejźenjow dołojce.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +46,7 @@ connection-request-access = Awtentifikacija se kóńcy
 connection-error-no-supported-flow = Serwer kompatibelny pśizjewjański běh njepóbitujo.
 connection-error-auth-cancelled = Sćo awtorizaciski proces pśetergnuł.
 connection-error-session-ended = Pósejźenje jo se wótzjawiło.
+connection-error-server-not-found = Serwer Matrix njedajo se za pódane konto Matrix identificěrowaś.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -147,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: Do pódanego ruma zastupiś.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } jo wugnał { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } jo wugnał { $userBanned }. Pśicyna: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } jo akceptěrował pśepšosenje za { $userWhoSent }
@@ -177,9 +208,17 @@ message-unbanned = { $user } jo wótpórał wugnaśe { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } jo wuchyśił { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } jo wuchyśił { $userGotKicked }. Pśicyna: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } jo anulěrował pśepšosenje { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } jo anulěrował pśepšosenje { $userInvitationWithdrawn }. Pśicyna: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } jo wótwónoźeł mě ruma.
 #    $user is the name of the user who changed the room name.
@@ -219,3 +258,29 @@ message-alias-removed = { $user } jo wótwónoźeł { $addresses } ako alternati
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } jo wótwónoźeł { $removedAddresses }ł a jo pśidał { $addedAddresses } ako adresu za toś ten rum.
+message-space-not-supported = Toś ten rum jo městno, kótarež se njepódpěra.
+message-encryption-start = Powěsći w toś tej konwersaciji su něnto skoděrowane kóńc do kóńca.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } co { $userReceiving } pśeglědowaś.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } jo anulěrował wobkšuśenje ze slědujuceje pśicyny: { $reason }
+message-verification-done = Pśeglědanje jo dokóńcone.
+message-decryption-error = Wopśimjeśe toś teje powěsći njedajo se dešifrěrowaś. Aby koděrowańske kluce ze swójich drugich rědow pominał, kliknišo z pšaweju tastu na powěsć.
+message-decrypting = Dešifrěrujo se…
+message-redacted = Powěsć jo se pśeźěłała.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } jo reagěrował na { $userThatSentMessage } z { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Kluce znowego pominaś
+message-action-redact = Pśeźěłaś
+message-action-report = Powěsć k wěsći daś
+message-action-retry = Znowego słaś
+message-action-cancel = Powěsć anulěrowaś
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Pśi słanju wašeje powěsći „{ $message }“ jo zmólka nastała.
