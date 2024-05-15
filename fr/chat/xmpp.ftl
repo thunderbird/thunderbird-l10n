@@ -101,6 +101,7 @@ tooltip-status-no-resource = Statut
 tooltip-subscription = Abonnement
 tooltip-full-name = Nom complet
 tooltip-nickname = Pseudo
+tooltip-email = Adresse e-mail
 tooltip-birthday = Anniversaire
 tooltip-user-name = Nom d’utilisateur
 tooltip-title = Titre
