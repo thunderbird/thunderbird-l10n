@@ -136,11 +136,15 @@ command-visibility = { $commandName } [&lt;visibility&gt;]: Đặt khả năng h
 # $commandName is the command name
 command-guest = { $commandName } &lt;quyền truy cập của khách&gt; &lt;khả năng hiển thị lịch sử&gt;: Đặt quyền truy cập và hiển thị lịch sử của phòng hiện tại cho người dùng khách. Nhập hai giá trị số nguyên, giá trị đầu tiên cho quyền truy cập của khách (không cho phép: 0 và cho phép: 1) và giá trị thứ hai cho khả năng hiển thị lịch sử (ẩn: 0 và hiện: 1). Yêu cầu có quyền thay đổi chế độ hiển thị lịch sử.
 # $commandName is the command name
+command-roomname = { $commandName } &lt;tên&gt;: Đặt tên phòng. Yêu cầu quyền để thay đổi tên của phòng.
+# $commandName is the command name
 command-detail = { $commandName }: Hiển thị thông tin chi tiết của phòng.
 # $commandName is the command name
 command-addalias = { $commandName } &lt;alias&gt;: Tạo một bí danh cho phòng. Bí danh phòng mong đợi của biểu mẫu '#localname:domain'. Yêu cầu có quyền tạo bí danh.
 # $commandName is the command name
 command-removealias = { $commandName } &lt;alias&gt;: Xóa bí danh cho phòng. Bí danh phòng mong đợi của biểu mẫu '#localname:domain'. Yêu cầu có quyền xóa bí danh.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;newVersion&gt;: Nâng cấp phòng lên một phiên bản nhất định. Yêu cầu quyền để nâng cấp phòng.
 # $commandName is the command name
 command-me = { $commandName } &lt;action&gt;: Thực hiện một hành động.
 # $commandName is the command name
@@ -192,6 +196,9 @@ message-kicked = { $user } đã đuổi { $userGotKicked }.
 message-kicked-with-reason = { $user } đã đuổi { $userGotKicked }. Lý do: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+message-withdrew-invite = { $user } đã rút lại lời mời với { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 #    $reason is the reason the invite was withdrawn.
 message-withdrew-invite-with-reason = { $user } đã rút lại lời mời của { $userInvitationWithdrawn }. Lý do: { $reason }
 #    $user is the name of the user who has removed the room name.
@@ -230,6 +237,7 @@ message-alias-removed = { $user } đã xóa { $addresses } khỏi địa chỉ t
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } đã xóa { $removedAddresses } và thêm { $addedAddresses } làm địa chỉ cho phòng này.
 message-space-not-supported = Phòng này là một không gian, không được hỗ trợ.
+message-encryption-start = Tin nhắn trong cuộc hội thoại này hiện đã được mã hóa đầu cuối.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.
 message-verification-request2 = { $user } muốn xác minh { $userReceiving }.
