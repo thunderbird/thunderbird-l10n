@@ -24,6 +24,7 @@ connection-error-reset-by-peer = Lidhje e rinisur nga bashkëbiseduesi
 connection-error-timed-out = Lidhjes i mbaroi koha
 connection-error-received-unexpected-data = U morën të dhëna që nuk priteshin
 connection-error-incorrect-response = U mor përgjigje e pasaktë
+connection-error-start-tls-required = Shërbyesi lyp fshehtëzim, por ju e keni çaktivizuar
 connection-error-start-tls-not-supported = Shërbyesi nuk mbulon fshehtëzime, por sipas formësimit tuaj ky kërkohet medoemos
 connection-error-failed-to-start-tls = S’u arrit të fillohet fshehtëzimi
 connection-error-no-auth-mec = Shërbyesi nuk ka ofruar mekanizëm mirëfilltësimi
@@ -251,6 +252,10 @@ options-domain = Përkatësi
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk s’mulohet më, për shkak të çaktivizimit nga Google të kanalit të vet XMPP.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
@@ -271,8 +276,12 @@ command-kick = { $commandName } &lt;nofkë&gt;[&lt;mesazh&gt;]: Hiqni dikë nga 
 # $commandName (String): command name
 command-invite = { $commandName } &lt;jid&gt;[&lt;mesazh&gt;]: Ftoni një përdorues të vijë te dhoma e tanishme, me një mesazh po deshët.
 # $commandName (String): command name
+command-inviteto = { $commandName } &lt;jid dhome&gt;[&lt;fjalëkalim&gt;]: Ftojeni partnerin e bisedës tuaj të vijë në një dhomë, tok me fjalëkalimin e tij, në u dashtë.
+# $commandName (String): command name
 command-me = { $commandName } &lt;veprim për t’u kryer&gt;: Kryeni një veprim.
 # $commandName (String): command name
 command-nick = { $commandName } &lt;nofkë e re&gt;: Ndryshoni nofkën tuaj.
 # $commandName (String): command name
 command-msg = { $commandName } &lt;nofkë&gt; &lt;mesazh&gt;: Dërgojini një pjesëmarrësi në dhomë një mesazh privat.
+# $commandName (String): command name
+command-version = { $commandName }: Kërkoni hollësi rreth klientit që përdor partneri juaj në bisedë.
