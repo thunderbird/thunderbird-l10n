@@ -248,6 +248,19 @@ options-connection-security-allow-unencrypted-auth = 平文のパスワード送
 options-connect-server = サーバー名
 options-connect-port = ポート番号
 options-domain = ドメイン名
+# LOCALIZATION NOTE (*-protocol-name)
+#  This name is used whenever the name of the protocol is shown.
+gtalk-protocol-name = Google Talk
+odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google の XMPP ゲートウェイ無効化により Google Talk はサポートされません。
+# LOCALIZATION NOTE (odnoklassniki-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Odnoklassniki account.
+odnoklassniki-username-hint = プロファイル ID
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name
