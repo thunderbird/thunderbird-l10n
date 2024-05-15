@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Eksistěrujucu zarědnikowu strukturu archiwěrowanych powěsćow wobchowaś
     .accesskey = E
+recreate-inbox =
+    .label = Zarědnik postowego dochada znowego napóraś
+    .accesskey = Z
 archive-example-label = Pśikład
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Postowy dochad
+child-folder-name =
+    .label = Pódzarědnik postowego dochada
+sibling-folder-name =
+    .label = Pśiswójźbny postowego dochada
