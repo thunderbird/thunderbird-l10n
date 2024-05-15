@@ -39,6 +39,11 @@ ctcp-version = { $username } está usando "{ $version }"
 #   $username is the nickname of the user whose time was requested.
 #   $timeResponse is the time response.
 ctcp-time = El tiempo para { $username } es { $timeResponse }.
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-action = { $commandName } &lt;acción a ejecutar&gt;: Ejecutar una acción.
 # $commandName is the command name
 command-ban = { $commandName } &lt;nick!user@host&gt;: Prohibir a los usuarios que coincidan con el patrón dado.
 # $commandName is the command name
@@ -65,6 +70,8 @@ command-mode-user2 = { $commandName } &lt;nick&gt; [(+|-)&lt;mode&gt;]: Get, set
 command-mode-channel2 = { $commandName } [&lt;canal&gt;] [(+|-)&lt;nuevo modo&gt; [&lt;parámetro&gt;][,&lt;parámetro&gt;]*]: Obtener, establecer o cambiar un modo de canal.
 # $commandName is the command name
 command-msg = { $commandName } &lt;nick&gt; &lt;message&gt;: Enviar un mensaje privado a un usuario (a diferencia de un canal).
+# $commandName is the command name
+command-nick = { $commandName } &lt;nuevo apodo&gt;: Cambiar el apodo.
 # $commandName is the command name
 command-nickserv = { $commandName } &lt;comando&gt;: Envía un comando a NickServ.
 # $commandName is the command name
@@ -173,6 +180,8 @@ error-no-channel = No hay canal: { $name }.
 error-too-many-channels = No puede unirse a { $name }; se unió a demasiados canales.
 #    $name is your new nick, $details is the kill message from the server.
 error-nick-collision = Ese apodo ya en uso, cambiando el apodo a { $name } [{ $details }].
+#    $name is the nickname or channel name that isn't available.
+error-erroneous-nickname = { $name } no es un apodo permitido.
 error-banned = You are banned from this server.
 error-banned-soon = You will soon be banned from this server.
 error-mode-wrong-user = No puede cambar modos para otros usuarios.
@@ -220,6 +229,8 @@ tooltip-connected-from = Conectado desde
 tooltip-registered = Registrado
 tooltip-registered-as = Registrado como
 tooltip-secure = Usando una conexión segura
+# The away message of the user
+tooltip-away = Ausente
 tooltip-irc-op = Operador de IRC
 tooltip-bot = Bot
 tooltip-last-activity = Última actividad
