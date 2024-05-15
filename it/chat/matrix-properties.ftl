@@ -13,12 +13,25 @@ matrix-username-hint = ID Matrix
 options-save-token = Salva il token di accesso
 options-device-display-name = Nome visualizzato del dispositivo
 options-homeserver = Server
+options-backup-passphrase = Passphrase della chiave di backup
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Funzioni crittografiche: { $status }
 # $status (String) a status
 options-encryption-secret-storage = Archiviazione segreti: { $status }
 # $status (String) a status
 options-encryption-key-backup = Backup della chiave crittografica: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Firma incrociata: { $status }
+options-encryption-status-ok = OK
+options-encryption-status-not-ok = non pronto
+options-encryption-need-backup-passphrase = Inserisci la passphrase della chiave di backup nelle opzioni del protocollo.
 options-encryption-set-up-secret-storage = Per configurare l’archiviazione di segreti, utilizza un altro client e successivamente inserisci nella scheda “Generale” la passphrase della chiave di backup generata.
 options-encryption-set-up-backup-and-cross-signing = Per attivare i backup della chiave crittografica e la firma incrociata, inserisci la passphrase della chiave di backup nella scheda “Generale” o verifica l’identità di una delle sessioni seguenti.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -234,6 +247,7 @@ message-alias-removed = { $user } ha rimosso { $addresses } come indirizzo alter
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } ha rimosso { $removedAddresses } e ha aggiunto { $addedAddresses } come indirizzo per questa stanza.
 message-space-not-supported = Questa stanza è uno spazio e gli spazi non sono supportati.
+message-encryption-start = I messaggi in questa conversazione sono ora protetti da crittografia end-to-end.
 message-decryption-error = Impossibile decrittare il contenuto di questo messaggio. Per richiedere le chiavi crittografiche da un altro dei tuoi dispositivi, fai clic con il tasto destro del mouse su questo messaggio.
 message-redacted = Il messaggio è stato rimosso.
 message-action-redact = Rimuovi
