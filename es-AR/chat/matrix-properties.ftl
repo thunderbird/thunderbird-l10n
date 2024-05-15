@@ -2,11 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Guardar token de acceso
 options-device-display-name = Nombre para mostrar del dispositivo
+options-homeserver = Servidor
 options-backup-passphrase = Contraseña de la copia de seguridad de la clave
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
@@ -40,6 +46,7 @@ connection-request-access = Finalizando autenticación
 connection-error-no-supported-flow = El servidor no ofrece ningún flujo de inicio de sesión compatible.
 connection-error-auth-cancelled = Canceló el proceso de autorización.
 connection-error-session-ended = Se cerró la sesión.
+connection-error-server-not-found = No se pudo identificar el servidor de Matrix para la cuenta de Matrix dada.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
