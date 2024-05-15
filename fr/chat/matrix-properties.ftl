@@ -2,11 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Identifiant Matrix
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Enregistrer le jeton d’accès
 options-device-display-name = Nom d’affichage de l’appareil
+options-homeserver = Serveur
+options-encryption-set-up-secret-storage = Pour configurer le stockage secret, veuillez utiliser un autre client, puis saisissez la phrase secrète de la clé de sauvegarde générée dans l’onglet « Général ».
+options-encryption-set-up-backup-and-cross-signing = Pour activer les sauvegardes et la signature croisée de la clé de chiffrement, saisissez la phrase secrète de votre clé de sauvegarde dans l’onglet « Général » ou vérifiez l’identité de l’une des sessions ci-dessous.
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -21,6 +29,7 @@ connection-request-access = Finalisation de l’authentification
 connection-error-no-supported-flow = Le serveur n’offre pas de flux de connexion compatible.
 connection-error-auth-cancelled = Vous avez annulé le processus d’autorisation.
 connection-error-session-ended = La session a été déconnectée.
+connection-error-server-not-found = Impossible d’identifier le serveur Matrix pour le compte Matrix donné.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -221,3 +230,4 @@ message-alias-removed = { $user } a supprimé { $addresses } comme adresse alter
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } a supprimé { $removedAddresses } et ajouté { $addedAddresses } comme adresse pour ce salon.
 message-space-not-supported = Ce salon est un espace, ce qui n’est pas pris en charge.
+message-encryption-start = Les messages de cette conversation sont désormais chiffrés de bout en bout.
