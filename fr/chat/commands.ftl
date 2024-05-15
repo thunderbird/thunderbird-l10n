@@ -20,6 +20,7 @@ help-help-string = help &lt;name&gt; : affiche un message d’aide à propos de
 #  $status (String): is replaced with the localized version of that status type (one of the 5 strings below).
 status-command = { $command } &lt;message de staut&gt; : Adopter le statut « { $status } » avec un message de statut facultatif.
 back-key-key = disponible
+away-key-key = absent·e
 busy-key-key = pas disponible
 dnd-key-key = ne pas déranger
 offline-key-key = hors ligne
