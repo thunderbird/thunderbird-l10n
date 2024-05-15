@@ -62,9 +62,16 @@ tooltip-display-name = Ցուցադրուող անուն
 # $timespan (String) is the timespan elapsed since the last activity.
 tooltip-timespan = { $timespan } առաջ
 tooltip-last-active = Վերջին գործողութիւնը
+# LOCALIZATION NOTE (power-level-*):
+#    These are the string representations of different standard power levels and strings.
+#    $powerLevelName (String) are one of the power levels, Default/Moderator/Admin/Restricted/Custom.
+#    $powerLevelName (String) is the power level name
+#    $powerLevelNumber (String) is the power level number
+power-level-default = Սկզբնադիր
 power-level-moderator = Համակարգող
 power-level-admin = Գործավար
 power-level-restricted = Սահմանափակուած
+power-level-custom = Ընտրովի
 #    $powerLevelName is the power level name
 #    $powerLevelNumber is the power level number
 power-level-detailed = { $powerLevelName } ({ $powerLevelNumber })
@@ -260,9 +267,20 @@ message-verification-request2 = { $user }֊ը ցանկանում է հաստատ
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user }-ը չեղարկել է հաստատումը պատճառաբանելով. { $reason }
 message-verification-done = Ստուգումն աւարտուած է։
+message-decryption-error = Չյաջողուեց վերծանել այս հաղորդագրութեան բովանդակութիւնը: Ձեր մեւս սարքերից գաղտնագրման բանալիներ պահանջելու համար սեխմէք մկնիկի աջ սեղմակը այս հաղորդագրութեան վրայ:
 message-decrypting = Վերծանում․․․
+message-redacted = Հաղորդագրութիւնը խմբագրուել է:
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
 #    $reaction is the content (typically an emoji) of the reaction.
 message-reaction = { $userThatReacted }-ն արձագանքեց { $userThatSentMessage }-ին { $reaction }-ով:
+#    Label in the message context menu
+message-action-request-key = Կրկին պահանջել բանալիներ
+message-action-redact = Խմբագրել
+message-action-report = Հաշուետու հաղորդագրութիւն
+message-action-retry = Կրկին ուղարկել
 message-action-cancel = Չեղարկել հաղորդագրութիւնը
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Հաղորդագրութեան { $message } ուղարկման ժամանակ սխալ է տեղի ունեցել։
