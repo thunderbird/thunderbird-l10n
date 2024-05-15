@@ -146,6 +146,8 @@ message-already-in-channel = { $nick } es jam in { $conversationName }.
 message-summoned = { $nick } ha essite convocate.
 #    $nick (String) is the nickname of the user whose WHOIS information follows this message.
 message-whois = Information WHOIS de { $nick }:
+#    $nick (String) is the nickname of the (offline) user whose WHOWAS information follows this message.
+message-whowas = { $nick } es foras de linea. Information WHOWAS de { $nick }:
 #    $description is the entry description (from tooltip-*), $value is its value.
 message-whois-entry =     { $description } : { $value }
 #    $nick is the nickname that is not known to the server.
@@ -156,7 +158,13 @@ message-channel-key-added = { $nick } ha cambiate le contrasigno del canal a { $
 #    $nick is the nickname of the user who changed the mode
 message-channel-key-removed = { $nick } ha removite le contrasigno del canal.
 #    $place This will be followed by a list of ban masks.
+message-ban-masks = Le usatores connectite ab le locos sequente es bannite de { $place }:
+#    $place This will be followed by a list of ban masks.
 message-no-ban-masks = Il non ha ulle locos bannite pro { $place }.
+# $locationMatches Location matches; $nick Nickname of user
+message-ban-mask-added = Le usatores connectite ab locos correspondente a { $locationMatches } ha essite bannite per { $nick }.
+# $locationMatches Location matches; $nick Nickname of user
+message-ban-mask-removed = Le usatores connectite ab locos correspondente a { $locationMatches } non es plus bannite per { $nick }.
 # $source is the nickname of the user or the server that was pinged.
 # $delay is the delay (in milliseconds).
 message-ping =
@@ -213,6 +221,11 @@ error-unknown-mode = '{ $mode }' non es un modo de usator valide sur iste servit
 #    from a whois response.
 #    The human readable ("realname") description of the user.
 tooltip-realname = Nomine
+tooltip-server = Connectite a
+#    The username and hostname that the user connects from (usually based on the
+#    reverse DNS of the user's IP, but often mangled by the server to
+#    protect users).
+tooltip-connected-from = Connectite ab
 tooltip-registered = Registrate
 tooltip-registered-as = Registrate como
 tooltip-secure = Connexion secur
