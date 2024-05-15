@@ -7,3 +7,4 @@
 password-prompt-title = { $accountName } parolası
 # $accountName (String): is replaced with the name of the account
 password-prompt-text = Bağlanmak için lütfen { $accountName } parolanızı girin.
+password-prompt-save-checkbox = Bu parolayı hatırlamak için parola yöneticisini kullan.
