@@ -126,6 +126,8 @@ detail-moderator = 중재자: { $value }
 detail-alias = 별칭: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = 비회원 접근: { $value }
+# This is a heading, followed by the power-level-* strings
+detail-power = 권한 수준:
 # LOCALIZATION NOTE (command-*):
 #   These are the help messages for each command, the $commandName is the command name
 #   Each command first gives the parameter it accepts and then a description of
