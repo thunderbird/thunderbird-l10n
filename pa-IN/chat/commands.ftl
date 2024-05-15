@@ -19,3 +19,8 @@ help-help-string = help &lt;name&gt;: show the help message for the &lt;name&gt;
 #  $command (String): is replaced with a status command name (one of "back-key-key", "away-key-key", "busy-key-key", "dnd-key-key", or "offline-key-key").
 #  $status (String): is replaced with the localized version of that status type (one of the 5 strings below).
 status-command = { $command } &lt;status message&gt;: set the status to { $status } with an optional status message.
+back-key-key = ਮੌਜੂਦ
+away-key-key = ਦੂਰ
+busy-key-key = ਨਾ-ਮੌਜੂਦ
+dnd-key-key = ਨਾ-ਮੌਜੂਦ
+offline-key-key = ਆਫ਼ਲਾਈਨ
