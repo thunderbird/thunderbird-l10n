@@ -62,9 +62,13 @@ command-mode-user2 = { $commandName } &lt;псевдонім&gt; [(+|-)&lt;ре�
 # $commandName is the command name
 command-mode-channel2 = { $commandName } [&lt;канал&gt;] [(+|-)&lt;новий режим&gt; [&lt;параметр&gt;][,&lt;параметр&gt;]*]: Отримати, встановити або зняти режим каналу.
 # $commandName is the command name
+command-msg = { $commandName } &lt;псевдонім&gt; &lt;повідомлення&gt;: Надіслати особисте повідомлення користувачеві (на відміну від каналу).
+# $commandName is the command name
 command-nick = { $commandName } &lt;новий псевдонім&gt;: Змінити свій псевдонім.
 # $commandName is the command name
 command-nickserv = { $commandName } &lt;команда&gt;: Надіслати команду до NickServ.
+# $commandName is the command name
+command-notice = { $commandName } &lt;ціль&gt; &lt;повідомлення&gt;: Надіслати сповіщення користувачеві або на канал.
 # $commandName is the command name
 command-op = { $commandName } &lt;псевдонім1&gt;[,&lt;псевдонім2&gt;]*: Дати комусь статус оператора каналу. Для цього ви маєте бути оператором каналу.
 # $commandName is the command name
@@ -75,6 +79,8 @@ command-part = { $commandName } [повідомлення]: Покинути п�
 command-ping = { $commandName } [&lt;псевдонім&gt;]: Запитує, який лаг має користувач (або сервер, якщо користувач не вказаний).
 # $commandName is the command name
 command-quit = { $commandName } &lt;повідомлення&gt;: Від'єднатись від сервера, із необов'язковим повідомленням.
+# $commandName is the command name
+command-quote = { $commandName } &lt;команда&gt;: Надіслати на сервер сиру команду.
 # $commandName is the command name
 command-time = { $commandName }: Показує поточний локальний час на сервері IRC.
 # $commandName is the command name
