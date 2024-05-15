@@ -13,8 +13,25 @@ matrix-username-hint = Identifiant Matrix
 options-save-token = Enregistrer le jeton d’accès
 options-device-display-name = Nom d’affichage de l’appareil
 options-homeserver = Serveur
+options-backup-passphrase = Phrase de passe pour la sauvegarde de la clé
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Fonctions cryptographiques : { $status }
+# $status (String) a status
+options-encryption-secret-storage = Stockage secret : { $status }
+# $status (String) a status
+options-encryption-key-backup = Sauvegarde de la clé de chiffrement : { $status }
+# $status (String) a status
+options-encryption-cross-signing = Signature croisée : { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = pas prêt
+options-encryption-need-backup-passphrase = Veuillez entrer votre phrase de passe pour la clé de sauvegarde dans les options de protocole.
 options-encryption-set-up-secret-storage = Pour configurer le stockage secret, veuillez utiliser un autre client, puis saisissez la phrase secrète de la clé de sauvegarde générée dans l’onglet « Général ».
 options-encryption-set-up-backup-and-cross-signing = Pour activer les sauvegardes et la signature croisée de la clé de chiffrement, saisissez la phrase secrète de votre clé de sauvegarde dans l’onglet « Général » ou vérifiez l’identité de l’une des sessions ci-dessous.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
