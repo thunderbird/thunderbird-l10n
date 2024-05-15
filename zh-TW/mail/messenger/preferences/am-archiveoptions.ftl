@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = 為備存郵件保留目前資料夾結構
     .accesskey = K
+recreate-inbox =
+    .label = 重新建立收件匣
+    .accesskey = R
 archive-example-label = 範例
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = 收件匣
+child-folder-name =
+    .label = 收件匣的子信件匣
+sibling-folder-name =
+    .label = 與收件匣同一層

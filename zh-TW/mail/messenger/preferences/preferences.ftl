@@ -571,6 +571,9 @@ primary-password-description = 主控密碼可以保護您的密碼，但在每�
 primary-password-label =
     .label = 使用主控密碼
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = 需要裝置登入才能填寫與管理密碼
 primary-password-button =
     .label = 變更主控密碼…
     .accesskey = C

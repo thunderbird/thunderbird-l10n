@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = 儲存的登入資訊
-saved-logins-title = 儲存的登入資訊
 window-close =
     .key = w
+saved-logins-title = 儲存的登入資訊
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = 確認您的身分以顯示儲存的網站密�
 password-os-auth-dialog-message-macosx = 顯示儲存的網站密碼
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] 更改密碼選項
+       *[other] { -brand-short-name } 正嘗試更改密碼選項，請使用您的裝置登入後允許此動作。
+    }
