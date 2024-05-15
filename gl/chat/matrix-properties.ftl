@@ -25,6 +25,7 @@ options-encryption-secret-storage = Almacenamento segredo: { $status }
 options-encryption-key-backup = Copia de seguranza da chave de cifraxe: { $status }
 # $status (String) a status
 options-encryption-cross-signing = Sinatura cruzada: { $status }
+options-encryption-status-ok = aceptar
 options-encryption-status-not-ok = non está preparado
 options-encryption-need-backup-passphrase = Introduza o contrasinal da copia de seguranza da chave nas opcións do protocolo.
 options-encryption-set-up-secret-storage = Para configurar o almacenamento segredo, use outro cliente e despois insira o contrasinal da copia de seguranza da chave xerado na lapela «Xeral».
