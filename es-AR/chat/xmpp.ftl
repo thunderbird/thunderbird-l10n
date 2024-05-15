@@ -21,6 +21,7 @@ connection-error-invalid-username = Nombre de usuario inválido (el nombre de us
 connection-error-failed-to-create-a-socket = Error al crear un socket (¿Está desconectado?)
 connection-error-server-closed-connection = El servidor cerró la conexión
 connection-error-reset-by-peer = Connection reset by peer
+connection-error-timed-out = La conexión tardó demasiado tiempo
 connection-error-received-unexpected-data = Se recibieron datos inesperados
 connection-error-incorrect-response = Se recibió una respuesta incorrecta
 connection-error-start-tls-required = El servidor requiere cifrado pero está deshabilitado
@@ -54,6 +55,7 @@ conversation-error-creation-failed-not-allowed = Acceso restringido: No tiene pe
 #   is not found.
 #   $mucName is the name of MUC room.
 conversation-error-join-failed-remote-server-not-found = No se pudo unir al salón { $mucName } porque el servidor en el que está el salón no pudo ser alcanzado.
+conversation-error-change-topic-failed-not-authorized = No está autorizado a establecer el tema de este salón.
 #   This is displayed in a conversation as an error message when the user sends
 #   a message to a room that he is not in.
 #   $mucName is the name of MUC room.
@@ -98,6 +100,7 @@ tooltip-status = Estado ({ $resourceIdentifier })
 tooltip-status-no-resource = Estado
 tooltip-subscription = Suscripción
 tooltip-full-name = Nombre completo
+tooltip-nickname = Apodo
 tooltip-email = Correo electrónico
 tooltip-birthday = Cumpleaños
 tooltip-user-name = Nombre de usuario
