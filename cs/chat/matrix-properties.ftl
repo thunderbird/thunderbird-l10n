@@ -280,3 +280,7 @@ message-action-redact = Redigovat
 message-action-report = Nahlásit zprávu
 message-action-retry = Znovu odeslat
 message-action-cancel = Zrušit zprávu
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Při odesílání vaší zprávy „{ $message }“ došlo k chybě.
