@@ -219,3 +219,4 @@ message-alias-removed = { $user } removed { $addresses } as alternative address 
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } removed { $removedAddresses } and added { $addedAddresses } as address for this room.
+message-space-not-supported = This room is a space, which is not supported.
