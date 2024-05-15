@@ -226,6 +226,7 @@ tooltip-server = Свързан към
 tooltip-connected-from = Свързан чрез
 tooltip-registered = Регистриран
 tooltip-registered-as = Регистриран като
+tooltip-secure = Шифрована връзка
 # The away message of the user
 tooltip-away = Далеч
 tooltip-irc-op = Оператор
