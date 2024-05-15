@@ -2,10 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = アクセストークンを格納
+options-device-display-name = 端末の表示名
+options-homeserver = サーバー
+options-backup-passphrase = バックアップ鍵のパスフレーズ
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = 暗号化関数: { $status }
+# $status (String) a status
+options-encryption-secret-storage = 秘密ストレージ: { $status }
+# $status (String) a status
+options-encryption-key-backup = 暗号化鍵のバックアップ: { $status }
+# $status (String) a status
+options-encryption-cross-signing = クロス署名: { $status }
+options-encryption-status-ok = OK
+options-encryption-status-not-ok = 準備中
+options-encryption-need-backup-passphrase = プロトコルオプションにバックアップ鍵のパスフレーズを入力してください。
+options-encryption-set-up-secret-storage = 秘密ストレージをセットアップするには、別のクライアントを使用した後、生成されたバックアップ鍵のパスフレーズを "一般" タブに入力してください。
+options-encryption-set-up-backup-and-cross-signing = 暗号化鍵のバックアップとクロス署名を有効にするには、バックアップ鍵のパスフレーズを "一般" タブに入力するか、以下のいずれかのセッション ID を検証してください。
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +46,7 @@ connection-request-access = 認証を完了しています
 connection-error-no-supported-flow = サーバーが提供するログインフローと互換性がありません
 connection-error-auth-cancelled = 認証処理をキャンセルしました。
 connection-error-session-ended = セッションがログアウトされました。
+connection-error-server-not-found = 与えられた Matrix アカウントの Matrix サーバーを識別できませんでした。
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -147,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: &lt;roomId&gt; に指定した�
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } が { $userBanned } を立ち入り禁止にしました。
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } が { $userBanned } を立ち入り禁止にしました。理由: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } が { $userWhoSent } からの招待を受け入れました。
@@ -177,9 +208,17 @@ message-unbanned = { $user } が { $userUnbanned } の立ち入り禁止を解�
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } が { $userGotKicked } を追い出しました。
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } が { $userGotKicked } を追い出しました。理由: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } が { $userInvitationWithdrawn } の招待を取り下げました。
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } が { $userInvitationWithdrawn } の招待を取り下げました。理由: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } が部屋名を削除しました。
 #    $user is the name of the user who changed the room name.
@@ -219,3 +258,29 @@ message-alias-removed = { $user } がこの部屋の別名アドレス { $addres
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } がこの部屋の別名アドレス { $removedAddresses } を削除し、{ $addedAddresses } を追加しました。
+message-space-not-supported = このルームはサポートされていないスペースです。
+message-encryption-start = この会話のメッセージはエンドツーエンド暗号化されます。
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } が { $userReceiving } の検証を求めています。
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } が次の理由により検証をキャンセルしました: { $reason }
+message-verification-done = 検証が完了しました。
+message-decryption-error = このメッセージのコンテンツを復号できませんでした。他の端末から暗号鍵を要求するには、このメッセージを右クリックしてください。
+message-decrypting = 復号しています...
+message-redacted = メッセージが編集されました。
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } が { $userThatSentMessage } に { $reaction } のリアクションをしました。
+#    Label in the message context menu
+message-action-request-key = 鍵を再要求
+message-action-redact = 編集
+message-action-report = メッセージを報告
+message-action-retry = 送信を再試行
+message-action-cancel = メッセージをキャンセル
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = メッセージの送信中にエラーが発生しました: "{ $message }"
