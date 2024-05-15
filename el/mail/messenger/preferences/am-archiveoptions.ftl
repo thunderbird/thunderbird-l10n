@@ -3,12 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 archive-options-title = Επιλογές αρχειοθέτησης
+archive-granularity-prefix-label = Κατά την αρχειοθέτηση μηνυμάτων, να τοποθετούνται:
+archive-flat =
+    .label = Σε έναν μόνο φάκελο
+    .accesskey = μ
 archive-yearly =
     .label = Σε ετήσιους φακέλους αρχειοθέτησης
     .accesskey = σ
 archive-monthly =
     .label = Σε μηνιαίους φακέλους αρχειοθέτησης
     .accesskey = η
+keep-folder-structure =
+    .label = Διατήρηση δομής φακέλου αρχειοθετημένων μηνυμάτων
+    .accesskey = Δ
 archive-example-label = Παράδειγμα
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
