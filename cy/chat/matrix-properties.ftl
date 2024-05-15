@@ -2,10 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = ID Matrix
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Cadw tocyn mynediad
+options-device-display-name = Enw dangos dyfais
+options-homeserver = Gweinydd
+options-backup-passphrase = Allwedd Wrth Gefn Cyfrinymadrodd
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Swyddogaethau Cryptograffig: { $status }.
+# $status (String) a status
+options-encryption-secret-storage = Storfa Gudd: { $status }.
+# $status (String) a status
+options-encryption-key-backup = Copi wrth Gefn Allwedd Amgryptio: { $status }.
+# $status (String) a status
+options-encryption-cross-signing = Traws-lofnodi: { $status }.
+options-encryption-status-ok = iawn
+options-encryption-status-not-ok = ddim yn barod
+options-encryption-need-backup-passphrase = Rhowch eich cyfrinymadrodd eich allwedd wrth gefn yn newisiadau'r protocol.
+options-encryption-set-up-secret-storage = I osod y storfa gudd, defnyddiwch rhaglen arall ac wedi hynny rhowch gyfrinymadrodd yr allwedd wrth gefn gafodd ei gynhyrchu yn y tab "Cyffredinol".
+options-encryption-set-up-backup-and-cross-signing = I weithredu copïau wrth gefn yr allweddi amgryptio a chroes-arwyddo, rhowch gyfrinymadrodd eich allwedd wrth gefn yn y tab "Cyffredinol" neu gwiriwch hunaniaeth un o'r sesiynau isod.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +46,7 @@ connection-request-access = Yn cwblhau'r dilysu
 connection-error-no-supported-flow = Nid yw'r gweinydd yn cynnig llif mewngofnodi cydnaws.
 connection-error-auth-cancelled = Rydych wedi diddymu'r broses dilysu.
 connection-error-session-ended = Mae'r sesiwn wedi'i hallgofnodi.
+connection-error-server-not-found = Methu adnabod gweinydd Matrix y cyfrif Matrix hwn.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -27,6 +54,11 @@ connection-error-session-ended = Mae'r sesiwn wedi'i hallgofnodi.
 #   character of the string should be used as the access key for this
 #   field.
 chat-room-field-room = _Ystafell
+# LOCALIZATION NOTE (tooltip-*):
+#    These are the descriptions given in a tooltip with information received
+#    from the "User" object.
+# The human readable name of the user.
+tooltip-display-name = Enw dangos
 # $timespan (String) is the timespan elapsed since the last activity.
 tooltip-timespan = { $timespan } yn ôl
 tooltip-last-active = Gweithgaredd diwethaf
@@ -142,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: Ymunwch â'r ystafell benodol.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = Gwaharddodd { $user } { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = Gwaharddodd { $user } { $userBanned } . Rheswm: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = Derbyniodd { $user } y gwahoddiad gan { $userWhoSent }.
@@ -172,9 +208,17 @@ message-unbanned = Ail wahoddodd { $user } { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = Ciciodd { $user } { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = Ciciodd { $user } { $userGotKicked }. Rheswm: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = Tynnodd { $user } wahoddiad { $userInvitationWithdrawn } yn ôl.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = Tynnodd { $user } wahoddiad { $userInvitationWithdrawn } yn ôl. Rheswm: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = Tynnodd { $user } enw'r ystafell.
 #    $user is the name of the user who changed the room name.
@@ -214,3 +258,29 @@ message-alias-removed = Tynnodd { $user } { $addresses }S fel cyfeiriad amgen ar
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = Tynnodd { $user } { $removedAddresses } ac ychwanegu { $addedAddresses } fel cyfeiriad yr ystafell hon.
+message-space-not-supported = Mae'r ystafell hon yn ofod, nad yw'n cael ei gynnal.
+message-encryption-start = Mae negeseuon yn y sgwrs hon bellach wedi'u hamgryptio o'r dechrau i'r diwedd.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = Mae { $user } eisiau gwirio { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = Diddymodd { $user } y gwiriad oherwydd: { $reason }
+message-verification-done = Gwirio wedi'i gwblhau.
+message-decryption-error = Wedi methu â dadgryptio cynnwys y neges hon. I ofyn am allweddi amgryptio o'ch dyfeisiau eraill, de-gliciwch y neges hon.
+message-decrypting = Wrthi'n dadgryptio...
+message-redacted = Neges wedi'i guddolygu.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = Ymatebodd { $userThatReacted } i { $userThatSentMessage } gyda { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Gofyn eto am Allweddi
+message-action-redact = Cuddolygu
+message-action-report = Adrodd am Neges
+message-action-retry = Ceisiwch Anfon Eto
+message-action-cancel = Diddymu Neges
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Digwyddodd gwall wrth anfon eich neges "{ $message }".
