@@ -52,3 +52,4 @@ power-level-detailed = { $powerLevelName } ({ $powerLevelNumber })
 #    $value will typically be strings with the actual values.
 # $value Example placeholder: "Foo bar"
 detail-name = Anv: { $value }
+message-action-cancel = Dilezel ar gemennadenn
