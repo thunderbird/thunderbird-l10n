@@ -19,3 +19,8 @@ help-help-string = help &lt;name&gt;: sýna hjálparskilaboð fyrir &lt;name&gt;
 #  $command (String): is replaced with a status command name (one of "back-key-key", "away-key-key", "busy-key-key", "dnd-key-key", or "offline-key-key").
 #  $status (String): is replaced with the localized version of that status type (one of the 5 strings below).
 status-command = { $command } &lt;status skilaboð&gt;: setur stöðu á { $status } með valkvæmum skilaboðum.
+back-key-key = tiltæk/ur
+away-key-key = fjarverandi
+busy-key-key = upptekin/n
+dnd-key-key = upptekin/n
+offline-key-key = aftengd/ur
