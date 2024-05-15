@@ -14,6 +14,11 @@ options-save-token = Gem adgangs-token
 options-device-display-name = Enhedens viste navn
 options-homeserver = Server
 options-backup-passphrase = Adgangsudtryk til nøglesikkerhedskopi
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Kryptografiske funktioner: { $status }
 # $status (String) a status
 options-encryption-secret-storage = Hemmeligt lager: { $status }
 # $status (String) a status
