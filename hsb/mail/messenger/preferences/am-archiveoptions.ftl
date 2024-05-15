@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Eksistowacu strukturu rjadowakow archiwowanych powěsćow
     .accesskey = E
+recreate-inbox =
+    .label = Rjadowak dochadneje e-mejle znowa załožić
+    .accesskey = R
 archive-example-label = Přikład
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,5 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Póstowy dochad
+child-folder-name =
+    .label = Podrjadowak dochadneje e-mejle
