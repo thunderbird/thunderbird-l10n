@@ -25,6 +25,7 @@ options-encryption-secret-storage = Таємне сховище: { $status }
 options-encryption-key-backup = Резервне копіювання ключа шифрування: { $status }
 # $status (String) a status
 options-encryption-cross-signing = Перехресне підписування: { $status }
+options-encryption-status-ok = OK
 options-encryption-status-not-ok = не готово
 options-encryption-need-backup-passphrase = Введіть парольну фразу ключа резервного копіювання в параметри протоколу.
 options-encryption-set-up-secret-storage = Щоб налаштувати таємне сховище, скористайтесь іншим клієнтом, а потім введіть парольну фразу згенерованого ключа резервного копіювання на вкладці "Загальне".
@@ -53,6 +54,11 @@ connection-error-server-not-found = Не вдалося ідентифікува
 #   character of the string should be used as the access key for this
 #   field.
 chat-room-field-room = _Кімната
+# LOCALIZATION NOTE (tooltip-*):
+#    These are the descriptions given in a tooltip with information received
+#    from the "User" object.
+# The human readable name of the user.
+tooltip-display-name = Ім'я для показу
 # $timespan (String) is the timespan elapsed since the last activity.
 tooltip-timespan = { $timespan } тому
 tooltip-last-active = Остання активність
@@ -122,6 +128,11 @@ detail-alias = Альтернативна назва: { $value }
 detail-guest = Гостьовий доступ: { $value }
 # This is a heading, followed by the power-level-* strings
 detail-power = Рівні влади:
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-ban = { $commandName } &lt;userId&gt; [&lt;причина&gt;]: Заблокувати користувацький userId з кімнати з необов'язковим повідомленням про причину. Потрібен дозвіл блокувати користувачів.
 # $commandName is the command name
 command-invite = { $commandName } &lt;userId&gt;: Запросити користувача до кімнати.
 # $commandName is the command name
@@ -140,6 +151,8 @@ command-topic = { $commandName } &lt;тема&gt;: Визначити тему �
 command-unban = { $commandName } &lt;userId&gt;: Розблокувати користувача, якому заборонено відвідувати кімнату. Потрібен дозвіл блокувати користувачів.
 # $commandName is the command name
 command-visibility = { $commandName } [&lt;видимість&gt;]: Визначити видимість поточної кімнати в каталозі кімнат поточного домашнього сервера. Введіть ціле значення, Приватна: 0 і загальнодоступна: 1. Типово буде Приватна (0), якщо аргумент не вказано. Потрібен дозвіл змінювати видимість кімнати.
+# $commandName is the command name
+command-guest = { $commandName } &lt;гостьовий доступ&gt; &lt;видимість історії&gt;: Визначити доступ та видимість історії поточної кімнати для запрошених користувачів. Введіть два цілі числові значення: перше для гостьового доступу (заборонено: 0 та дозволено: 1), а друге – для видимості історії (не видима: 0 та видима: 1). Потрібен дозвіл змінювати видимість історії.
 # $commandName is the command name
 command-roomname = { $commandName } &lt;назва&gt;: Визначити назву кімнати. Потрібен дозвіл змінювати назву кімнати.
 # $commandName is the command name
@@ -246,6 +259,7 @@ message-alias-removed = { $user } вилучає { $addresses } як альте�
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } вилучає { $removedAddresses } та додає { $addedAddresses } як адресу для цієї кімнати.
 message-space-not-supported = Ця кімната є не підтримуваним простором.
+message-encryption-start = Повідомлення в цій розмові тепер наскрізно зашифровані.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.
 message-verification-request2 = { $user } хоче звірити { $userReceiving }.
