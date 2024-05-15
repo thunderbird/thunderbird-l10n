@@ -6,6 +6,7 @@
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Enregistrer le jeton d’accès
+options-device-display-name = Nom d’affichage de l’appareil
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -219,3 +220,4 @@ message-alias-removed = { $user } a supprimé { $addresses } comme adresse alter
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } a supprimé { $removedAddresses } et ajouté { $addedAddresses } comme adresse pour ce salon.
+message-space-not-supported = Ce salon est un espace, ce qui n’est pas pris en charge.
