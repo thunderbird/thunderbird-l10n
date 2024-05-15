@@ -8,6 +8,7 @@ unavailable-status-type = No disponible
 offline-status-type = No conectado
 invisible-status-type = Invisible
 idle-status-type = Ocioso
+mobile-status-type = Teléfono celular
 # LOCALIZATION NOTE (unknown-status-type):
 # the status of a buddy is unknown when it's in the list of a disconnected account
 unknown-status-type = Desconocido
