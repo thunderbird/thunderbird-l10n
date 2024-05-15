@@ -6,6 +6,7 @@
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Захаваць тоўкэн доступа
+options-device-display-name = Бачная назва прылады
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -56,6 +57,8 @@ power-level-invite-user = Запрасіць карыстальнікаў: { $po
 power-level-kick-users = Прагнаць карыстальнікаў: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-ban = Забаніць карыстальнікаў: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-room-avatar = Змяніць аватарку пакоя: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-main-address = Змяніць галоўны адрас гэтага пакоя: { $powerLevelName }
 #    $powerLevelName is the power level name
