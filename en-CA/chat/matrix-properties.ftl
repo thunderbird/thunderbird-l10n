@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+options-device-display-name = Device display name
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -215,3 +216,4 @@ message-alias-removed = { $user } removed { $addresses } as alternative address 
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } removed { $removedAddresses } and added { $addedAddresses } as address for this room.
+message-space-not-supported = This room is a space, which is not supported.
