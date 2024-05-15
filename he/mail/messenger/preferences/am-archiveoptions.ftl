@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 archive-options-title = אפשרויות ארכיון
+archive-granularity-prefix-label = כאשר מעבירים הודעות לארכיון, יש למקם אותן בתוך:
 archive-flat =
     .label = תיקייה בודדת
     .accesskey = ב
