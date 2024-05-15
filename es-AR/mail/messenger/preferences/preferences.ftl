@@ -571,6 +571,9 @@ primary-password-description = Una contraseña maestra protege todas sus contras
 primary-password-label =
     .label = Usar una contraseña maestra
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Requerir inicio de sesión en el dispositivo para completar y administrar contraseñas
 primary-password-button =
     .label = Cambiar la contraseña maestra…
     .accesskey = C

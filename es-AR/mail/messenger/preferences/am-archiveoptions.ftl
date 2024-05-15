@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Mantener la estructura de carpetas existente para los mensajes archivados
     .accesskey = e
+recreate-inbox =
+    .label = Recrear la bandeja de entrada
+    .accesskey = R
 archive-example-label = Ejemplo
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Bandeja de entrada
+child-folder-name =
+    .label = Subcarpeta de la bandeja de entrada
+sibling-folder-name =
+    .label = Hermano de la bandeja de entrada
