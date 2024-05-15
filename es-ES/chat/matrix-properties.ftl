@@ -11,7 +11,9 @@ matrix-username-hint = Matrix ID
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Guardar el token de acceso
+options-device-display-name = Nombre para mostrar del dispositivo
 options-homeserver = Servidor
+options-backup-passphrase = Contraseña de la copia de seguridad de la clave
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
 #   storage, shown in the account manager. $status (String) is one of the statuses and the
@@ -20,9 +22,13 @@ options-encryption-enabled = Funciones criptográficas: { $status }
 # $status (String) a status
 options-encryption-secret-storage = Almacenamiento secreto: { $status }
 # $status (String) a status
+options-encryption-key-backup = Copia de seguridad de la clave de cifrado: { $status }
+# $status (String) a status
 options-encryption-cross-signing = Firma cruzada: { $status }
 options-encryption-status-ok = ok
 options-encryption-status-not-ok = no está listo
+options-encryption-need-backup-passphrase = Introduce la frase de contraseña de tu clave de respaldo en las opciones de protocolo.
+options-encryption-set-up-secret-storage = Para configurar el almacenamiento secreto, utilice otro cliente y luego introduzca la frase de contraseña de la clave de respaldo generada en la pestaña "General".
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -98,3 +104,37 @@ detail-alias = Alias: { $value }
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } ha bloqueado a { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } bloqueó a { $userBanned }. Razón: { $reason }
+#    $user is the name of the user who accepted the invitation.
+#    $userWhoSent is the name of the user who sent the invitation.
+message-accepted-invite-for = { $user } aceptó la invitación para { $userWhoSent }.
+#    $user is the name of the user who accepted an invitation.
+message-accepted-invite = { $user } aceptó una invitación.
+#    $user is the name of the user who invited.
+#    $userWhoGotInvited is the name of the user who got invited.
+message-invited = { $user } invitó a { $userWhoGotInvited }.
+#    $user is the name of the user who changed their display name.
+#    $oldDisplayName is the old display name.
+#    $newDisplayName is the new display name.
+message-display-name-changed = { $user } cambió su nombre mostrado de { $oldDisplayName } a { $newDisplayName }.
+#    $user is the name of the user who has joined the room.
+message-joined = { $user } se ha unido a la sala.
+#    $user is the name of the user who has rejected the invitation.
+message-rejected-invite = { $user } ha rechazado la invitación.
+#    $user is the name of the user who has left the room.
+message-left = { $user } ha abandonado la sala.
+message-verification-done = Verificación completada.
+message-redacted = El mensaje fue redactado.
+#    Label in the message context menu
+message-action-request-key = Volver a solicitar claves
+message-action-redact = Redactar
+message-action-report = Reportar mensaje
+message-action-retry = Reintentar envío
+message-action-cancel = Cancelar mensaje
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Ha ocurrido un error mientras se enviaba su mensaje "{ $message }".
