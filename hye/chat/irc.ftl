@@ -30,6 +30,8 @@ ctcp-version = { $username }-ն աւգտագործում է «{ $version }»:
 #   $username is the nickname of the user whose time was requested.
 #   $timeResponse is the time response.
 ctcp-time = { $username }-ի համար ժամանակը { $timeResponse } է։
+#    $kickMessage is the kick message
+message-kicked-reason = : { $kickMessage }
 #    $partMessage is the part message supplied by the user.
 message-parted-reason = : { $partMessage }
 #    $nick is the user's nick
@@ -64,3 +66,21 @@ message-no-ban-masks = { $place }-ի համար արգելուած վայրեր 
 message-ban-mask-added = { $nick }-ն արգելափակել է աւգտատէրերին, որոնք միացել են { $locationMatches }֊ին համապատասխանող վայրերից։
 # $locationMatches Location matches; $nick Nickname of user
 message-ban-mask-removed = { $nick }-ն այսուհետեւ չեն արգելափակում աւգտատէրերին, որոնք միացել են { $locationMatches }֊ին համապատասխանող վայրերից։
+#    $name is the nickname or channel name that isn't available.
+error-no-such-nick = { $name }-ը առցանց չէ:
+# LOCALIZATION NOTE (tooltip-*):
+#    These are the descriptions given in a tooltip with information received
+#    from a whois response.
+#    The human readable ("realname") description of the user.
+tooltip-realname = Անուն
+tooltip-registered = Գրանցուած է
+tooltip-secure = Աւգտագործելով անվտանգ կապակցում
+# $timespan is the timespan elapsed since the last activity.
+tooltip-timespan = { $timespan } առաջ
+#    $serverName is the server name, $serverInformation is some generic server information (usually a
+#    location or the date the user was last seen).
+tooltip-server-value = { $serverName } ({ $serverInformation })
+# LOCALIZATION NOTE (yes-key-key, no-key-key):
+#  These are used to turn true/false values into a yes-key-key/no-key-key response.
+yes-key-key = Այո
+no-key-key = Ոչ
