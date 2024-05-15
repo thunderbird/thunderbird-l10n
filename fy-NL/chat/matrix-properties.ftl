@@ -2,10 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix-ID
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Tagongstoken bewarje
+options-device-display-name = Skermnamme fan apparaat
+options-homeserver = Server
+options-backup-passphrase = Wachtwurdsin foar kaaireservekopy
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Kryptografyske funksjes: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Geheime opslach: { $status }
+# $status (String) a status
+options-encryption-key-backup = Fersiferingskaaireservekopy : { $status }
+# $status (String) a status
+options-encryption-cross-signing = Krúslingse ûndertekening: { $status }
+options-encryption-status-ok = OK
+options-encryption-status-not-ok = Net klear
+options-encryption-need-backup-passphrase = Fier jo wachtwurdsin foar de kaaireservekopy yn de protokolopsjes yn.
+options-encryption-set-up-secret-storage = Gebrûk om geheime opslach yn te stellen in oare client en fier efterôf de oanmakke wachtwurdsin foar de kaaireservekopy yn yn it ljepblêd ‘Algemien’.
+options-encryption-set-up-backup-and-cross-signing = Fier om fersiferingskaaireservekopyën en krúslingse ûndertekening te aktivearjen jo wachtwurdsin foar de kaaireservekopy yn yn it ljepblêd ‘Algemien’ of ferifiearje de identiteit yn ien fan de ûndersteande sesjes.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +46,7 @@ connection-request-access = Foltôgjen fan autentikaasje
 connection-error-no-supported-flow = Server biedt gjin kompatibele oanmeldstream.
 connection-error-auth-cancelled = Jo hawwe it autorisaasjeproses annulearre.
 connection-error-session-ended = De sesje is ôfmeld.
+connection-error-server-not-found = Kin de Matrix-server foar de opjûne Matrix-account net identifisearje.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -147,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: dielnimme oan de opjûne romte.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } hat { $userBanned } ferbannen.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } hat { $userBanned } ferbanne. Reden: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } hat de útnûging foar { $userWhoSent } akseptearre.
@@ -177,9 +208,17 @@ message-unbanned = { $user } hat de ban fan { $userUnbanned } ûngedien makke.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } hat { $userGotKicked } fuortsmiten.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } hat { $userGotKicked } fuortsmiten. Reden: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } hat de útnûging fan { $userInvitationWithdrawn } ynlutsen.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } hat de útnûging fan { $userInvitationWithdrawn } weromlutsen. Reden: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } hat de namme fan de romte fuortsmiten.
 #    $user is the name of the user who changed the room name.
@@ -219,3 +258,29 @@ message-alias-removed = { $user } hat { $addresses } as alternatyf adres foar di
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } hat { $removedAddresses } fuortsmiten en { $addedAddresses } tafoege as adres foar dizze romte.
+message-space-not-supported = Dizze keamer is in romte, dy’t net stipe wurdt.
+message-encryption-start = Berjochten yn dit petear binne no end-to-end-fersifere.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } wol { $userReceiving } ferifiearje.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } hat de ferifikaasje annulearre mei de reden: { $reason }
+message-verification-done = Ferifikaasje foltôge.
+message-decryption-error = Koe de ynhâld fan dit berjocht net ûntsiferje. Klik mei jo rjochtermûsknop op dit berjocht, om fersiferingskaaien fan jo oare apparaten oan te freegjen.
+message-decrypting = Untsiferje…
+message-redacted = Berjocht is bewurke.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } hat reagearre op { $userThatSentMessage } mei { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Kaaien opnij opfreegje
+message-action-redact = Redigearje
+message-action-report = Berjocht rapportearje
+message-action-retry = Opnij probearje te ferstjoeren
+message-action-cancel = Berjocht annulearje
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Der is in flater bard by it ferstjoeren fan jo berjocht ‘{ $message }’.
