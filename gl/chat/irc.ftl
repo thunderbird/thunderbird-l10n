@@ -45,6 +45,8 @@ ctcp-time = O tempo para { $username } é { $timeResponse }.
 #   the command.
 command-action = { $commandName } &lt;acción a realizar&gt;: Realiza unha acción.
 # $commandName is the command name
+command-ban = { $commandName } &lt;nick!user@host&gt;: Prohibir o acceso dos usuarios que coincidan co padrón dado.
+# $commandName is the command name
 command-ctcp = { $commandName } &lt;alcume&gt; &lt;mensaxe&gt;: Envía unha mensaxe CTCP ao alcume.
 # $commandName is the command name
 command-chanserv = { $commandName } &lt;orde&gt;: Envía unha orde a ChanServ.
