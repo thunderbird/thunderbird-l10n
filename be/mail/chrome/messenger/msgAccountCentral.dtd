@@ -14,7 +14,7 @@
 
 <!ENTITY chat.label                   "Гутарка">
 
-<!ENTITY accountsSectionHdr.label     "Рахункі">
+<!ENTITY accountsSectionHdr.label     "Уліковыя запісы">
 <!ENTITY subscribeImapFolders.label   "Кіраваць падпіскамі на папкі">
 <!ENTITY settingsLink.label           "Праглядзець наладжванні гэтага рахунку">
 <!ENTITY setupNewAcct.label           "Наладзіць уліковы запіс:">

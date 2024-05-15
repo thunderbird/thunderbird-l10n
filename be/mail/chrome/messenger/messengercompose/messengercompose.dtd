@@ -172,7 +172,7 @@
 <!ENTITY addressBookCmd.label "Адрасная кніга">
 <!ENTITY addressBookCmd.accesskey "а">
 <!ENTITY addressBookCmd.key "B">
-<!ENTITY accountManagerCmd2.label "Наладжванні рахунку">
+<!ENTITY accountManagerCmd2.label "Налады ўліковага запісу">
 <!ENTITY accountManagerCmd2.accesskey "Н">
 <!ENTITY accountManagerCmdUnix2.accesskey "Н">
 

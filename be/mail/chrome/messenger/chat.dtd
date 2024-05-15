@@ -12,7 +12,7 @@
 <!ENTITY chat.noAccount.title             "Вы пакуль не наладзілі рахунак гутаркі.">
 <!ENTITY chat.noAccount.description       "Дазволіць &brandShortName; настаўляць вас падчас наладжвання вашага гутарковага рахунку.">
 <!ENTITY chat.accountWizard.button       "Пачаць">
-<!ENTITY chat.noConnectedAccount.title             "Вашы гутарковыя рахункі не злучаны.">
+<!ENTITY chat.noConnectedAccount.title             "Вашы ўліковыя запісы чатаў не падлучаны.">
 <!ENTITY chat.noConnectedAccount.description       "Вы можаце злучыцца з імі ў дыялогу 'Статус гутаркі':">
 <!ENTITY chat.showAccountManager.button       "Паказаць статус гутаркі">
 
