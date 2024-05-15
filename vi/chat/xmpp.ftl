@@ -20,15 +20,19 @@ connection-srv-lookup = Đang tìm kiếm bản ghi SRV
 connection-error-invalid-username = Tên người dùng không hợp lệ (tên người dùng của bạn phải chứa ký tự '@')
 connection-error-failed-to-create-a-socket = Không thể tạo được socket (Bạn có đang ngoại tuyến không?)
 connection-error-server-closed-connection = Máy chủ đã ngắt kết nối
+connection-error-reset-by-peer = Kết nối đã thiết lập lại bởi ngang hàng
 connection-error-timed-out = Đã hết thời gian kết nối
+connection-error-received-unexpected-data = Đã nhận dữ liệu không mong muốn
 connection-error-incorrect-response = Đã nhận được phản hồi sai
 connection-error-start-tls-required = Máy chủ cần mã hóa nhưng mà bạn đã tắt
 connection-error-start-tls-not-supported = Máy chủ không hỗ trợ mã hóa nhưng mà cấu hình của bạn yêu cầu nó
 connection-error-failed-to-start-tls = Không thể khởi tạo mã hóa
 connection-error-no-auth-mec = Máy chủ không cung cấp cơ chế xác thực
 connection-error-no-compatible-auth-mec = Không có cơ chế xác thực nào do máy chủ cung cấp được hỗ trợ
+connection-error-not-sending-password-in-clear = Máy chủ chỉ hỗ trợ xác thực bằng cách gửi mật khẩu trong văn bản thô
 connection-error-authentication-failure = Lỗi xác thực
 connection-error-not-authorized = Chưa được uỷ quyền (Sai mật khẩu?)
+connection-error-failed-to-get-a-resource = Không thể lấy được tài nguyên
 connection-error-failed-max-resource-limit = Tài khoản này được kết nối từ quá nhiều nơi cùng một lúc.
 connection-error-failed-resource-not-valid = Nguồn không hợp lệ.
 connection-error-xmpp-not-supported = Máy chủ này không hỗ trợ XMPP
@@ -77,6 +81,10 @@ conversation-error-change-nick-failed-conflict = Không thể đổi tên gọi 
 #   $nick is a nick that cannot be set
 conversation-error-change-nick-failed-not-acceptable = Không thể đổi biệt danh của bạn thành { $nick } vì biệt danh này bị khóa trong phòng này.
 conversation-error-invite-failed-forbidden = Bạn không có quyền để mời người dùng vào phòng này.
+#   $jabberIdentifier (String) is the jid of user that is invited.
+conversation-error-failed-jid-not-found = Không thể tiếp cận { $jabberIdentifier }.
+#   $jabberIdentifier (String) is the jid that is invalid.
+conversation-error-invalid-jid = { $jabberIdentifier } là jid không hợp lệ (số nhận dạng Jabber phải có dạng user@domain).
 conversation-error-command-failed-not-in-room = Bạn phải tham gia lại phòng để có thể sử dụng lệnh này.
 #   $recipient (String) is the name of the recipient.
 conversation-error-resource-not-available = Bạn cần nói chuyện trước, vì { $recipient } có thể kết nối với nhiều hơn một máy khách.
@@ -180,16 +188,44 @@ conversation-message-banned-you-actor = { $actorNick } đã cấm bạn vào ph�
 #   $actorNick (String) is the person who is banning.
 #   $reason (String) is the reason.
 conversation-message-banned-you-actor-reason = { $actorNick } đã cấm bạn vào phòng: { $reason }
+# LOCALIZATION NOTE (conversation-message-kicked-*):
+#   These are displayed as a system message when a participant is kicked from
+#   a room.
+#   $affectedNick (String) is the participant that is kicked.
+conversation-message-kicked = { $affectedNick } đã bị đuổi ra khỏi phòng.
 #   $affectedNick (String) is the participant that is kicked.
 #   $reason (String) is the reason.
 conversation-message-kicked-reason = { $affectedNick } đã bị kick khỏi phòng: { $reason }
 #   $actorNick (String) is the person who is kicking.
 #   $affectedNick (String) is the participant that is kicked.
 conversation-message-kicked-actor = { $actorNick } đã đuổi { $affectedNick } khỏi phòng.
+#   $actorNick (String) is the person who is kicking.
+#   $affectedNick (String) is the participant that is kicked.
+#   $reason (String) is the reason.
+conversation-message-kicked-actor-reason = { $actorNick } đã đuổi { $affectedNick } khỏi phòng: { $reason }
+conversation-message-kicked-you = Bạn đã bị đuổi ra khỏi phòng.
 #   $reason (String) is the reason.
 conversation-message-kicked-you-reason = Bạn đã bị đuổi khỏi phòng: { $reason }
 #   $actorNick (String) is the person who is kicking.
 conversation-message-kicked-you-actor = { $actorNick } đã đuổi bạn khỏi phòng.
+#   $actorNick (String) is the person who is kicking.
+#   $reason (String) is the reason.
+conversation-message-kicked-you-actor-reason = { $actorNick } đã đuổi bạn khỏi phòng: { $reason }
+# LOCALIZATION NOTE (conversation-message-removed-non-member-*):
+#   These are displayed as a system message when a participant is removed from
+#   a room because the room has been changed to members-only.
+#   $affectedNick is the participant that is removed.
+conversation-message-removed-non-member = { $affectedNick } đã bị xóa khỏi phòng vì cấu hình của nó đã được thay đổi thành chỉ dành cho hội viên.
+#   $affectedNick (String): is the participant that is removed.
+#   $actorNick (String): is the person who changed the room configuration.
+conversation-message-removed-non-member-actor = { $affectedNick } đã bị đuổi ra khỏi phòng vì { $actorNick } đã thay đổi thành chỉ dành cho thành viên.
+conversation-message-removed-non-member-you = Bạn đã bị đuổi ra khỏi phòng vì cấu hình của phòng đã được thay đổi thành chỉ dành cho thành viên.
+#   $actorNick (String) is the person who changed the room configuration.
+conversation-message-removed-non-member-you-actor = Bạn đã bị đuổi ra khỏi phòng vì { $actorNick } đã thay đổi phòng thành chỉ dành cho thành viên.
+# LOCALIZATION NOTE (conversation.message-muc-shutdown):
+#   These are displayed as a system message when a participant is removed from
+#   a room because of a system shutdown.
+conversation-message-muc-shutdown = Bạn đã bị đuổi ra khỏi phòng do hệ thống ngừng hoạt động.
 # LOCALIZATION NOTE (conversation-message-version*):
 #   $user (String): is the name of the user whose version was requested.
 #   $clientName (String): is the client name response from the client.
@@ -226,6 +262,22 @@ odnoklassniki-username-hint = ID Hồ sơ
 # $commandName (String): command name
 command-join3 = { $commandName } [&lt;room&gt;[@&lt;server&gt;][/&lt;nick&gt;]] [&lt;password&gt;]: Tham gia một phòng, tùy chọn cung cấp máy chủ hoặc biệt hiệu hoặc mật khẩu phòng.
 # $commandName (String): command name
+command-part2 = { $commandName } [&lt;tin nhắn&gt;]: Rời khỏi phòng hiện tại và để lại tin nhắn.
+# $commandName (String): command name
+command-topic = { $commandName } [&lt;chủ đề mới&gt;]: Đặt chủ đề cho căn phòng này.
+# $commandName (String): command name
+command-ban = { $commandName } &lt;biệt danh&gt;[&lt;tin nhắn&gt;]: Cấm ai đó vào phòng. Bạn phải là quản trị viên phòng để làm điều này.
+# $commandName (String): command name
+command-kick = { $commandName } &lt;biệt danh&gt;[&lt;tin nhắn&gt;]: Xóa ai đó khỏi phòng. Bạn phải là người kiểm duyệt phòng để làm điều này.
+# $commandName (String): command name
+command-invite = { $commandName } &lt;jid&gt;[&lt;tin nhắn&gt;]: Mời người dùng tham gia phòng hiện tại bằng một tin nhắn tùy chọn.
+# $commandName (String): command name
+command-inviteto = { $commandName } &lt;phòng jid&gt;[&lt;mật khẩu&gt;]: Mời đối tác trò chuyện của bạn tham gia một phòng, cùng với mật khẩu của phòng đó nếu được yêu cầu.
+# $commandName (String): command name
+command-me = { $commandName } &lt;hành động thực hiện&gt;: Thực hiện một hành động.
+# $commandName (String): command name
 command-nick = { $commandName } &lt;new nickname&gt;: Thay đổi nickname của bạn.
 # $commandName (String): command name
 command-msg = { $commandName } &lt;nick&gt; &lt;message&gt;: Gửi một tin nhắn riêng tới một thành viên trong phòng.
+# $commandName (String): command name
+command-version = { $commandName }: Yêu cầu thông tin về khách hàng mà đối tác trò chuyện của bạn đang sử dụng.
