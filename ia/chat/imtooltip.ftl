@@ -5,4 +5,5 @@
 buddy-username = Nomine de usator
 buddy-account = Conto
 contact-tags = Tags
+encryption-tag = Stato de cryptation
 message-status = Message cifrate
