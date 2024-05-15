@@ -274,6 +274,8 @@ message-redacted = Message effacé.
 message-action-request-key = Redemander les clés
 message-action-redact = Effacer
 message-action-report = Signaler le message
+message-action-retry = Réessayer l’envoi
+message-action-cancel = Annuler le message
 # LOCALIZATION NOTE (error-*)
 #    These are strings shown as system messages when an action the user took fails.
 #    $message is the message.
