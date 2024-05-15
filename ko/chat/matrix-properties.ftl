@@ -149,6 +149,8 @@ command-leave = { $commandName }: 현재 방을 나갑니다.
 command-topic = { $commandName } &lt;topic&gt;: 채팅방의 주제를 설정합니다. 주제를 변경하려면 권한이 필요합니다.
 # $commandName is the command name
 command-unban = { $commandName } &lt;userId&gt;: 방에서 차단된 사용자를 차단 해제합니다. 사용자를 차단하려면 권한이 필요합니다.
+# $commandName is the command name
+command-visibility = { $commandName } [&lt;visibility&gt;]: 현재 홈 서버의 방 디렉토리에서 현재 채팅방의 공개 여부를 설정합니다. 정수값을 입력합니다. 비공개: 0, 공개: 1. 설정되지 않으면 기본값은 비공개 (0) 입니다. 방의 공개 여부를 변경하려면 권한이 필요합니다.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
