@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Az archivált üzenetek mappastruktúrájának megtartása
     .accesskey = A
+recreate-inbox =
+    .label = Beérkezett üzenetek mappa újbóli létrehozása
+    .accesskey = r
 archive-example-label = Példa
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
