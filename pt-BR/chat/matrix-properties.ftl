@@ -260,6 +260,12 @@ message-alias-removed = { $user } removeu { $addresses } como endereço alternat
 message-alias-removed-and-added = { $user } removeu { $removedAddresses } e adicionou { $addedAddresses } como endereço desta sala.
 message-space-not-supported = Esta sala é uma área, que não é suportada.
 message-encryption-start = As mensagens nesta conversa agora são criptografadas de ponta a ponta.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } quer verificar { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } cancelou a verificação com o motivo: { $reason }
 message-verification-done = Verificação concluída.
 message-decryption-error = Não foi possível descriptografar o conteúdo desta mensagem. Para solicitar chaves de criptografia de seus outros dispositivos, clique com o botão direito nesta mensagem.
 message-decrypting = Descriptografando…
