@@ -13,6 +13,18 @@ matrix-username-hint = Matrix kimliği
 options-save-token = Erişim jetonunu sakla
 options-device-display-name = Cihazın görünen adı
 options-homeserver = Sunucu
+options-backup-passphrase = Anahtar yedeği parolası
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Şifreleme işlevleri: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Gizli depolama: { $status }
+# $status (String) a status
+options-encryption-key-backup = Şifreleme anahtarı yedeği: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Çapraz imzalama: { $status }
 options-encryption-status-ok = tamam
 options-encryption-status-not-ok = hazır değil
 options-encryption-need-backup-passphrase = Lütfen protokol seçeneklerine yedek anahtar parolanızı girin.
@@ -128,6 +140,8 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;sebep&gt;]: userId kullanıc
 # $commandName is the command name
 command-nick = { $commandName } &lt;görünen_ad&gt;: Görünen adınızı değiştirir.
 # $commandName is the command name
+command-deop = { $commandName } &lt;userId&gt;: Kullanıcının güç seviyesini 0’a (Kullanıcı) döndürür. Üyenin güç seviyelerini değiştirme iznine sahip olmalısınız. Kendiniz dışındaki yöneticilerde çalışmaz.
+# $commandName is the command name
 command-leave = { $commandName }: Mevcut odadan ayrıl.
 # $commandName is the command name
 command-topic = { $commandName } &lt;konu&gt;: Odanın konusunu belirler. Odanın konusunu değiştirmek için izin gerekir.
@@ -240,13 +254,23 @@ message-alias-removed = { $user }, bu odadan { $addresses } alternatif adresini 
 message-alias-removed-and-added = { $user }, bu odadan { $removedAddresses } adresini kaldırıp yerine { $addedAddresses } adresini ekledi.
 message-space-not-supported = Bu oda desteklenmeyen bir alandır.
 message-encryption-start = Bu yazışmadaki mesajlar artık uçtan uca şifreleniyor.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user }, { $userReceiving } kullanıcısını doğrulamak istiyor.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user }, doğrulamayı şu nedenle iptal etti: { $reason }
 message-verification-done = Doğrulama tamamlandı.
 message-decryption-error = Bu iletinin içeriğinin şifresi çözülemedi. Şifreleme anahtarlarını diğer cihazlarınızdan istemek için bu iletiye sağ tıklayın.
+message-decrypting = Şifre çözülüyor...
 message-redacted = İleti gizlendi.
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
 #    $reaction is the content (typically an emoji) of the reaction.
 message-reaction = { $userThatReacted }, { $userThatSentMessage } kullanıcısına { $reaction } ile tepki verdi.
+#    Label in the message context menu
+message-action-request-key = Anahtarları yeniden iste
+message-action-redact = Gizle
 message-action-report = Mesajı raporla
 message-action-retry = Göndermeyi yeniden dene
 message-action-cancel = Mesajı iptal et
