@@ -2,10 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = ID no Matriz
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Armazenar token de acesso
+options-device-display-name = Nome de exibição do dispositivo
+options-homeserver = Servidor
+options-backup-passphrase = Senha da chave de backup
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Funções de criptografia: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Armazenamento secreto: { $status }
+# $status (String) a status
+options-encryption-key-backup = Chave de criptografia de backup: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Assinatura cruzada: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = não está pronto
+options-encryption-need-backup-passphrase = Digite a senha da chave de backup nas opções de protocolo.
+options-encryption-set-up-secret-storage = Para configurar um armazenamento secreto, use outro cliente e depois digite na aba "Geral" a senha da chave de backup gerada.
+options-encryption-set-up-backup-and-cross-signing = Para ativar backups com chave de criptografia e assinatura cruzada, digite a senha da chave de backup na aba "Geral" ou valide a identidade de uma das sessões abaixo.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +46,7 @@ connection-request-access = Concluindo autenticação
 connection-error-no-supported-flow = O servidor não oferece fluxo compatível de acesso à conta.
 connection-error-auth-cancelled = Você cancelou o processo de autorização.
 connection-error-session-ended = A sessão foi terminada.
+connection-error-server-not-found = Não foi possível identificar o servidor Matrix da conta Matrix fornecida.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -147,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: Entra na sala indicada.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } baniu { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } baniu { $userBanned }. Motivo: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } aceitou o convite de { $userWhoSent }.
@@ -177,9 +208,17 @@ message-unbanned = { $user } removeu o banimento de { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } expulsou { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } expulsou { $userGotKicked }. Motivo: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } recusou o convite de { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } retirou o convite de { $userInvitationWithdrawn }. Motivo: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } removeu o nome da sala.
 #    $user is the name of the user who changed the room name.
@@ -219,3 +258,23 @@ message-alias-removed = { $user } removeu { $addresses } como endereço alternat
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } removeu { $removedAddresses } e adicionou { $addedAddresses } como endereço desta sala.
+message-space-not-supported = Esta sala é uma área, que não é suportada.
+message-encryption-start = As mensagens nesta conversa agora são criptografadas de ponta a ponta.
+message-verification-done = Verificação concluída.
+message-decryption-error = Não foi possível descriptografar o conteúdo desta mensagem. Para solicitar chaves de criptografia de seus outros dispositivos, clique com o botão direito nesta mensagem.
+message-decrypting = Descriptografando…
+message-redacted = Mensagem removida
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reagiu a { $userThatSentMessage } com { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Solicitar chaves novamente
+message-action-redact = Remover
+message-action-report = Denunciar mensagem
+message-action-retry = Tentar enviar novamente
+message-action-cancel = Cancelar mensagem
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Houve um erro ao enviar sua mensagem"{ $message }".
