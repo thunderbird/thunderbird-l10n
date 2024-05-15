@@ -2,6 +2,25 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
+options-device-display-name = Anv trevnad da skrammañ
+options-homeserver = Dafariad
+options-encryption-status-ok = mat
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
+# LOCALIZATION NOTE (connection-*):
+#   These will be displayed in the account manager in order to show the progress
+#   of the connection.
+#   (These will be displayed in account.connection.progress from
+#    accounts.properties, which adds … at the end, so do not include
+#    periods at the end of these messages.)
+connection-request-auth = O c’hortoz hoc’h aotre
+connection-request-access = O peurechuiñ an dilesa
+connection-error-auth-cancelled = Nullet hoc’h eus an argerzh dilesa.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
