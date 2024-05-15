@@ -2,13 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY pref.ldap.window.title "Паслугачы дырэкторыяў LDAP">
-<!ENTITY directories.label "Паслугач дырэкторыяў LDAP:">
-<!ENTITY directoriesText.label "Выбраць паслугач дырэкторыяў LDAP:">
+<!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
+<!ENTITY pref.ldap.window.title    "Серверы каталогаў LDAP">
+<!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
+<!ENTITY directories.label         "Сервер каталогаў LDAP:">
+<!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
+<!ENTITY directoriesText.label     "Выберыце сервер каталогаў LDAP:">
 <!ENTITY directoriesText.accesskey "В">
-<!ENTITY addDirectory.label "Дадаць">
-<!ENTITY addDirectory.accesskey "а">
-<!ENTITY editDirectory.label "Праўка">
-<!ENTITY editDirectory.accesskey "П">
-<!ENTITY deleteDirectory.label "Выдаліць">
+<!ENTITY addDirectory.label        "Дадаць">
+<!ENTITY addDirectory.accesskey    "а">
+<!ENTITY editDirectory.label       "Праўка">
+<!ENTITY editDirectory.accesskey   "П">
+<!ENTITY deleteDirectory.label     "Выдаліць">
 <!ENTITY deleteDirectory.accesskey "д">

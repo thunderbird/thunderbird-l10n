@@ -38,9 +38,9 @@
 <!ENTITY manageIdentities.accesskey "а">
 
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Выходны паслугач (SMTP):">
+<!ENTITY smtpName.label "Выходны сервер (SMTP):">
 <!ENTITY smtpName.accesskey "В">
-<!ENTITY smtpDefaultServer.label "Ужываць змоўчны паслугач">
+<!ENTITY smtpDefaultServer.label "Выкарыстоўваць прадвызначаны сервер">
 
 <!ENTITY smtpServerEdit.label "Рэдагаваць сервер SMTP…">
 <!ENTITY smtpServerEdit.accesskey "P">
