@@ -567,6 +567,9 @@ primary-password-description = Ett huvudlösenord skyddar alla dina lösenord, m
 primary-password-label =
     .label = Använd ett huvudlösenord
     .accesskey = A
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Kräv enhetsinloggning för att fylla i och hantera lösenord
 primary-password-button =
     .label = Ändra huvudlösenord…
     .accesskey = n
