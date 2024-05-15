@@ -209,6 +209,7 @@ error-not-channel-op = { $name } kanalında operatör değilsiniz.
 error-not-channel-owner = { $name } kanalının sahibi değilsiniz.
 #    $name is the channel name.
 error-wrong-key = { $name } kanalına girilemedi. Geçersiz kanal parolası girildi.
+error-send-message-failed = Son iletiniz gönderilirken bir hata oluştu. Bağlantı yeniden kurulduktan sonra yeniden deneyin.
 #    $name is the channel the user tried to join, $details is the channel
 #    he was forwarded to.
 error-channel-forward = { $name } kanalına katılamazsınız. { $details } kanalına yönlendirildiniz.
