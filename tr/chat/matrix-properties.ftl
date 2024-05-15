@@ -2,10 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix kimliği
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Erişim jetonunu sakla
+options-device-display-name = Cihazın görünen adı
+options-homeserver = Sunucu
+options-encryption-status-ok = tamam
+options-encryption-status-not-ok = hazır değil
+options-encryption-need-backup-passphrase = Lütfen protokol seçeneklerine yedek anahtar parolanızı girin.
+options-encryption-set-up-secret-storage = Gizli depolamayı ayarlamak için lütfen başka bir istemci kullanın ve ardından "Genel" sekmesinde oluşturulan yedek anahtar parolasını girin.
+options-encryption-set-up-backup-and-cross-signing = Şifreleme anahtarı yedeklemelerini ve çapraz imzalamayı etkinleştirmek için "Genel" sekmesinde yedek anahtar parolanızı girin veya aşağıdaki oturumlardan birinin kimliğini doğrulayın.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +34,7 @@ connection-request-access = Kimlik doğrulama tamamlanıyor
 connection-error-no-supported-flow = Sunucu, uyumlu bir giriş akışı sunmuyor.
 connection-error-auth-cancelled = Kimlik doğrulama sürecini iptal ettiniz.
 connection-error-session-ended = Oturum kapatıldı.
+connection-error-server-not-found = Belirtilen Matrix hesabı için Matrix sunucusu tanımlanamadı.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -101,8 +116,15 @@ detail-alias = Takma ad: { $value }
 detail-guest = Konuk erişimi: { $value }
 # This is a heading, followed by the power-level-* strings
 detail-power = Güç seviyeleri:
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-ban = { $commandName } &lt;userId&gt; [&lt;sebep&gt;]: userId kullanıcı kimliğine sahip kullanıcıyı isteğe bağlı bir sebep mesajıyla odadan yasaklayın. Kullanıcıları yasaklamak için izin gereklidir.
 # $commandName is the command name
 command-invite = { $commandName } &lt;userId&gt;: Kullanıcıyı odaya davet eder.
+# $commandName is the command name
+command-kick = { $commandName } &lt;userId&gt; [&lt;sebep&gt;]: userId kullanıcı kimliğine sahip kullanıcıyı isteğe bağlı bir sebep mesajıyla odadan atın. Kullanıcıları atmak için izin gereklidir.
 # $commandName is the command name
 command-nick = { $commandName } &lt;görünen_ad&gt;: Görünen adınızı değiştirir.
 # $commandName is the command name
@@ -110,9 +132,32 @@ command-leave = { $commandName }: Mevcut odadan ayrıl.
 # $commandName is the command name
 command-topic = { $commandName } &lt;konu&gt;: Odanın konusunu belirler. Odanın konusunu değiştirmek için izin gerekir.
 # $commandName is the command name
+command-unban = { $commandName } &lt;userId&gt;: Odadan yasaklanan bir kullanıcının yasağını kaldırır. Kullanıcıları yasaklamak için izin gereklidir.
+# $commandName is the command name
+command-roomname = { $commandName } &lt;ad&gt;: Odanın adını belirler. Odanın adını değiştirmek için izin gerekir.
+# $commandName is the command name
 command-detail = { $commandName }: Odanın ayrıntılarını görüntüle.
 # $commandName is the command name
+command-addalias = { $commandName } &lt;takmaad&gt;: Oda için bir takma ad oluşturur. Oda adı '#localname:domain' biçiminde olmalıdır. Takma ad eklemek için izin gereklidir.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;takmaad&gt;: Odanın takma adını kaldırır. Oda adı '#localname:domain' biçiminde olmalıdır. Takma adları kaldırmak için izin gereklidir.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;newVersion&gt;: Odayı belirtilen sürüme yükseltin. Odayı yükseltmek için izin gereklidir.
+# $commandName is the command name
+command-me = { $commandName } &lt;eylem&gt;: Bir eylem gerçekleştir.
+# $commandName is the command name
+command-msg = { $commandName } &lt;userId&gt; &lt;ileti&gt;: Belirtilen kullanıcıya doğrudan ileti gönder.
+# $commandName is the command name
 command-join = { $commandName } &lt;roomId&gt;: Belirtilen odaya katıl.
+# LOCALIZATION NOTE (message-*):
+#    These are shown as system messages in the conversation.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+message-banned = { $user }, { $userBanned } kullanıcısını engelledi.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user }, { $userBanned } kullanıcısını engelledi. Sebep: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } kullanıcısı, { $userWhoSent } kullanıcısının davetini kabul etti.
@@ -143,15 +188,69 @@ message-unbanned = { $user } kullanıcısı { $userUnbanned } kullanıcısının
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } kullanıcısı { $userGotKicked } kullanıcısını attı.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user }, { $userGotKicked } kullanıcısını attı. Sebep: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user }, { $userInvitationWithdrawn } kullanıcısının davetini geri çekti.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user }, { $userInvitationWithdrawn } kullanıcısının davetini geri çekti. Sebep: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } oda adını kaldırdı.
 #    $user is the name of the user who changed the room name.
 #    $newRoomName is the new room name.
 message-room-name-changed = { $user } odanın adını { $newRoomName } olarak değiştirdi.
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user }, güç seviyesini { $powerLevelChanges } olarak değiştirdi.
+#    $user is the name of the target user whose power level has been changed.
+#    $oldPowerLevel is the old power level.
+#    $newPowerLevel is the new power level.
+message-power-level-from-to = { $user }, güç seviyesini { $oldPowerLevel } seviyesinden { $newPowerLevel } seviyesine değiştirdi
 #    $user is the name of the user who has allowed guests to join the room.
 message-guest-allowed = { $user } konukların odaya katılmasına izin verdi.
 #    $user is the name of the user who has prevented guests to join the room.
 message-guest-prevented = { $user } konukların odaya katılmasını engelledi.
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = { $user } gelecekteki oda geçmişini herkese görünür hale getirdi.
+#    $user is the name of the user who has made future room history visible to all room members.
+message-history-shared = { $user } gelecekteki oda geçmişini tüm oda üyelerine görünür hale getirdi.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = { $user }, gelecekteki oda geçmişini tüm oda üyelerine davet edildikleri andan itibaren görünür hale getirdi.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user }, gelecekteki oda geçmişini tüm oda üyelerine katıldıkları andan itibaren görünür hale getirdi.
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user }, odanın { $oldAddress } olan ana adresini { $newAddress } olarak ayarladı.
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user }, bu odaya { $addresses } alternatif adresini ekledi.
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user }, bu odadan { $addresses } alternatif adresini kaldırdı.
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = { $user }, bu odadan { $removedAddresses } adresini kaldırıp yerine { $addedAddresses } adresini ekledi.
+message-space-not-supported = Bu oda desteklenmeyen bir alandır.
+message-encryption-start = Bu yazışmadaki mesajlar artık uçtan uca şifreleniyor.
+message-verification-done = Doğrulama tamamlandı.
+message-decryption-error = Bu iletinin içeriğinin şifresi çözülemedi. Şifreleme anahtarlarını diğer cihazlarınızdan istemek için bu iletiye sağ tıklayın.
+message-redacted = İleti gizlendi.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted }, { $userThatSentMessage } kullanıcısına { $reaction } ile tepki verdi.
+message-action-report = Mesajı raporla
+message-action-retry = Göndermeyi yeniden dene
+message-action-cancel = Mesajı iptal et
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = "{ $message }" iletiniz gönderilirken bir hata oluştu.
