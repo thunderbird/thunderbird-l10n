@@ -259,6 +259,7 @@ message-alias-removed = Uživatel { $user } odebral následující alternativní
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = Uživatel { $user } změnil adresy této místnosti. Přidáno: { $removedAddresses }. Odebráno: { $addedAddresses }.
 message-space-not-supported = Tato místnost není podporovaná.
+message-encryption-start = Zprávy v této konverzaci jsou nyní zašifrovány prostřednictvím koncového šifrování.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.
 message-verification-request2 = Uživatel { $user } chce ověřit uživatele { $userReceiving }.
