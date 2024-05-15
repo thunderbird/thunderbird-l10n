@@ -13,6 +13,18 @@ matrix-username-hint = Identificador Matrix
 options-save-token = Garda o código («token») de acceso
 options-device-display-name = Nome a amosar para o dispositivo
 options-homeserver = Servidor
+options-backup-passphrase = Contrasinal da copia de seguranza da chave
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Funcións criptográficas: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Almacenamento segredo: { $status }
+# $status (String) a status
+options-encryption-key-backup = Copia de seguranza da chave de cifraxe: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Sinatura cruzada: { $status }
 options-encryption-status-not-ok = non está preparado
 options-encryption-need-backup-passphrase = Introduza o contrasinal da copia de seguranza da chave nas opcións do protocolo.
 options-encryption-set-up-secret-storage = Para configurar o almacenamento segredo, use outro cliente e despois insira o contrasinal da copia de seguranza da chave xerado na lapela «Xeral».
