@@ -174,6 +174,10 @@ command-join = { $commandName } &lt;identyfikator pokoju&gt;: dołącza do podan
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = Użytkownik { $user } wykluczył użytkownika { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = Użytkownik { $user } wykluczył użytkownika { $userBanned }. Powód: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = Użytkownik { $user } przyjął zaproszenie użytkownika { $userWhoSent }.
@@ -204,9 +208,17 @@ message-unbanned = Użytkownik { $user } cofnął wykluczenie użytkownika { $us
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = Użytkownik { $user } wyrzucił użytkownika { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = Użytkownik { $user } wyrzucił użytkownika { $userGotKicked }. Powód: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } odwołał zaproszenie użytkownika { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } odwołał zaproszenie użytkownika { $userInvitationWithdrawn }. Powód: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = Użytkownik { $user } usunął nazwę pokoju.
 #    $user is the name of the user who changed the room name.
