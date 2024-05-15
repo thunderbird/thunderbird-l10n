@@ -5,6 +5,7 @@
 available-status-type = Tengdur
 away-status-type = Upptekinn
 unavailable-status-type = Ótengdur
+offline-status-type = Ónettengt
 invisible-status-type = Ósýnilegur
 idle-status-type = Aðgerðalaus
 mobile-status-type = Farsími
