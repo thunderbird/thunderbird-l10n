@@ -571,6 +571,9 @@ primary-password-description = Glavno geslo varuje vsa vaša gesla, vendar ga mo
 primary-password-label =
     .label = Uporabi glavno geslo
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Zahtevaj prijavo v napravi za izpolnjevanje in upravljanje gesel
 primary-password-button =
     .label = Spremeni glavno geslo …
     .accesskey = S

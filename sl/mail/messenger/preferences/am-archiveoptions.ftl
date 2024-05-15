@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Obdrži obstoječo strukturo map z arhiviranimi sporočili
     .accesskey = O
+recreate-inbox =
+    .label = Ponovno ustvari mapo Prejeto
+    .accesskey = r
 archive-example-label = Primer
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
