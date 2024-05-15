@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Mewngofnodion wedi eu Cadw
-saved-logins-title = Mewngofnodion wedi eu Cadw
 window-close =
     .key = w
+saved-logins-title = Mewngofnodion wedi eu Cadw
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Gwiriwch eich hunaniaeth i ddatgelu'r cyfrinei
 password-os-auth-dialog-message-macosx = datgelu'r cyfrineiriau sydd wedi'u cadw
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] newid y gosodiadau ar gyfer cyfrineiriau
+       *[other] Mae { -brand-short-name } yn ceisio newid y gosodiadau ar gyfer cyfrineiriau. Defnyddiwch fewngofnodi eich dyfais i ganiatáu hyn.
+    }

@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Cadw strwythur cyfredol ffolderi negeseuon archifwyd
     .accesskey = s
+recreate-inbox =
+    .label = Ail-greu ffolder mewnflwch
+    .accesskey = A
 archive-example-label = Esiampl
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Derbyn
+child-folder-name =
+    .label = Is-ffolder y Blwch Derbyn
+sibling-folder-name =
+    .label = brawd neu chwaer o'r Blwch Derbyn
