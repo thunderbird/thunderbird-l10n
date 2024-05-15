@@ -27,6 +27,10 @@ options-encryption-key-backup = Còpia de seguretat de la clau de xifratge: { $s
 options-encryption-cross-signing = Signatura creuada: { $status }
 options-encryption-status-ok = correcte
 options-encryption-status-not-ok = no està llest
+options-encryption-need-backup-passphrase = Introduïu la contrasenya de la clau de còpia de seguretat a les opcions del protocol.
+options-encryption-set-up-secret-storage = Per a configurar l'emmagatzematge secret, utilitzeu un altre client i després introduïu la contrasenya de la clau de còpia de seguretat generada a la pestanya «General».
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -34,7 +38,14 @@ options-encryption-status-not-ok = no està llest
 #    accounts.properties, which adds … at the end, so do not include
 #    periods at the end of these messages.)
 connection-request-auth = S'està esperant la vostra autorització
+connection-request-access = S'està finalitzant l'autenticació
+# LOCALIZATION NOTE (connection-error-*):
+#   These will show in the account manager if an error occurs during the
+#   connection attempt.
+connection-error-no-supported-flow = El servidor no ofereix cap flux d'inici de sessió compatible.
 connection-error-auth-cancelled = Heu cancel·lat el procés d’autorització.
+connection-error-session-ended = S'ha tancat la sessió.
+connection-error-server-not-found = No s'ha pogut identificar el servidor de Matrix per al compte de Matrix indicat.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -195,3 +206,7 @@ message-history-anyone = { $user } ha fet que l’historial futur de la sala sig
 #    $user is the name of the user who has made future room history visible to all room members.
 message-history-shared = { $user } ha fet que l’historial futur de la sala sigui visible per a tots els membres.
 message-encryption-start = Ara els missatges d'aquesta conversa són xifrats d'extrem a extrem.
+message-verification-done = La verificació ha acabat.
+message-decrypting = S'està desxifrant…
+message-redacted = El missatge s'ha editat.
+message-action-redact = Edita
