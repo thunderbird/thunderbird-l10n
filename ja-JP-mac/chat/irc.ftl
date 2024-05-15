@@ -2,6 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (irc-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring an IRC account.
+irc-username-hint = ニックネーム
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if the account is
 #   disconnected because of an error.
@@ -11,6 +16,10 @@ connection-error-time-out = 接続がタイムアウトしました
 connection-error-invalid-username = ユーザー名 { $username } は許可されていません
 connection-error-invalid-password = サーバーパスワードが正しくありません
 connection-error-password-required = パスワードが必要です
+# LOCALIZATION NOTE (join-chat-*):
+#   These show up on the join chat menu. An underscore is for the access key.
+join-chat-channel = チャンネル(_C)
+join-chat-password = パスワード(_P)
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
