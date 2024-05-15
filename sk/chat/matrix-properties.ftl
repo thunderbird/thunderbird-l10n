@@ -2,10 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Uložiť prístupový token
+options-device-display-name = Zobrazovaný názov zariadenia
+options-homeserver = Server
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Kryptografické funkcie: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Tajné úložisko: { $status }
+# $status (String) a status
+options-encryption-key-backup = Záloha šifrovacieho kľúča: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Krížové podpisovanie: { $status }
+options-encryption-status-ok = OK
+options-encryption-status-not-ok = nepripravené
+options-encryption-need-backup-passphrase = Do možností protokolu zadajte prístupovú frázu záložného kľúča.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +43,7 @@ connection-request-access = Dokončuje sa overenie
 connection-error-no-supported-flow = Server neponúka žiadny kompatibilný spôsob prihlásenia.
 connection-error-auth-cancelled = Proces overenia bol zrušený.
 connection-error-session-ended = Relácia bola odhlásená.
+connection-error-server-not-found = Nepodarilo sa identifikovať server Matrix pre daný účet Matrix.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -143,6 +167,10 @@ command-join = { $commandName } &lt;ID_miestnosti&gt;: vstúpi do danej miestnos
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } udeľuje ban používateľovi { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } udeľuje ban používateľovi { $userBanned }. Dôvod: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } prijíma pozvánku od { $userWhoSent }.
@@ -173,9 +201,17 @@ message-unbanned = { $user } ruší ban pre používateľa { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } vyhadzuje používateľa { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } vyhadzuje používateľa { $userGotKicked }. Dôvod: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } sťahuje pozvánku pre { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } sťahuje pozvánku pre { $userInvitationWithdrawn }. Dôvod: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } odstraňuje názov miestnosti.
 #    $user is the name of the user who changed the room name.
@@ -215,3 +251,25 @@ message-alias-removed = { $user } odstraňuje { $addresses } ako alternatívnu a
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } odstraňuje { $removedAddresses } a pridáva { $addedAddresses } ako adresu tejto miestnosti.
+message-space-not-supported = Táto miestnosť nie je podporovaná.
+message-encryption-start = Správy v tejto konverzácii sú teraz obojsmerne šifrované.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } chce overiť identitu kontaktu { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = Kontakt { $user } zrušil overenie, dôvod: { $reason }
+message-verification-done = Overenie dokončené.
+message-decryption-error = Nepodarilo sa dešifrovať obsah tejto správy. Ak chcete požiadať o šifrovacie kľúče z iných zariadení, kliknite pravým tlačidlom myši na túto správu.
+message-decrypting = Dešifruje sa…
+message-redacted = Správa bola zredigovaná.
+#    Label in the message context menu
+message-action-request-key = Znova vyžiadať kľúče
+message-action-redact = Redigovať
+message-action-report = Nahlásiť správu
+message-action-retry = Opakovať odoslanie
+message-action-cancel = Zrušiť správu
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Počas odosielania správy "{ $message }" sa vyskytla chyba.
