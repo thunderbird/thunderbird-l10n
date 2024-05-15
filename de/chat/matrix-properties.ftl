@@ -27,6 +27,7 @@ options-encryption-key-backup = Sicherungskopie des Schlüssels für Verschlüss
 options-encryption-cross-signing = Über-Kreuz-Autorisierung: { $status }
 options-encryption-status-ok = ok
 options-encryption-status-not-ok = nicht bereit
+options-encryption-need-backup-passphrase = Bitte geben Sie Ihre Passphrase für die Sicherungskopie des Schlüssels in den Protokolloptionen ein.
 options-encryption-set-up-secret-storage = Richten Sie den geheimen Speicher ein, indem Sie ein anderes Gerät verwenden und anschließend das erzeugte Passwort für die Sicherungskopie des Schlüssels im Tab "Allgemein" eingeben.
 options-encryption-set-up-backup-and-cross-signing = Um Sicherungskopien des Schlüssels für die Verschlüsselung und Über-Kreuz-Autorisierung zu aktivieren, geben Sie das erzeugte Passwort für die Sicherungskopie des Schlüssels im Tab "Allgemein" ein oder bestätigen Sie die Identität einer der unten aufgeführten Sitzungen.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
@@ -45,6 +46,7 @@ connection-request-access = Autorisierung wird abgeschlossen
 connection-error-no-supported-flow = Der Server bietet keine kompatible Anmeldungsmethode an.
 connection-error-auth-cancelled = Der Autorisierungsprozess wurde durch Sie abgebrochen.
 connection-error-session-ended = Sitzung wurde abgemeldet
+connection-error-server-not-found = Matrix-Server für das genannte Matrix-Konto konnte nicht identifiziert werden.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
