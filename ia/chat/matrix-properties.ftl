@@ -140,9 +140,29 @@ command-kick = { $commandName } &lt;IDdelUsator&gt; [&lt;motivo&gt;]: Ejectar le
 # $commandName is the command name
 command-nick = { $commandName } &lt;nove_nomine&gt;: cambiar tu pseudonymo.
 # $commandName is the command name
+command-op = { $commandName } &lt;userId&gt; [&lt;nivello de potentia&gt;]: defini le nivello de potentia del usator. Insere un valor de numero integre, Usator: 0, Moderator: 50 e Administrator: 100. Le valor predefinite es 50 si nulle argumento es fornite. Require permission pro cambiar le nivellos de potentia del membros. Non functiona pro administratores altere que tu mesme.
+# $commandName is the command name
+command-deop = { $commandName } &lt;userId&gt;: reinitialisa le usator a nivello de potentia 0 (Usator). Require permission pro cambiar le nivellos de potentia del membros. Non functiona pro administratores altere que tu mesme.
+# $commandName is the command name
 command-leave = { $commandName }: Lassar le actual sala.
 # $commandName is the command name
+command-topic = { $commandName } &lt;topic&gt;: Defini le subjecto pro le sala. Require permissiones pro cambiar le subjecto del sala.
+# $commandName is the command name
+command-unban = { $commandName } &lt;userId&gt;: Disbloca un usator qui es bannite del sala. Require le permission de bannir usatores.
+# $commandName is the command name
+command-visibility = { $commandName } [&lt;visibility&gt;]: Defini le visibilitate del sala actual in le directorio del Servitor principal actual. Insere un valor de numero integre, Private: 0 e Public: 1. Le valor predefinite es Private (0) si nulle argumento es fornite. Require le permission de cambiar le visibilitate del sala.
+# $commandName is the command name
+command-guest = { $commandName } &lt;guest access&gt; &lt;history visibiilty&gt;: Defini le accesso e visibilitate del historia del sala actual pro invitatos. Insere duo numeros integre, le primo pro le accesso de invitato (non permittite: 0 e permittite: 1) e le secunde pro le visibilitate del historia (non visibile: 0 e visibile: 1). Require le permission de cambiar le visibilitate del historia.
+# $commandName is the command name
+command-roomname = { $commandName } &lt;name&gt;: Defini le nomine pro le sala. Require le permission de cambiar le nomine del sala.
+# $commandName is the command name
 command-detail = { $commandName }: Monstra detalios del sala.
+# $commandName is the command name
+command-addalias = { $commandName } &lt;alias&gt;: Crea un alias pro le sala. Es expectate un alias de sala del forma '#nominelocal:dominio'. Require le permission de adder aliases.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;alias&gt;: Remove le alias pro le sala. Es expectate un alias de sala del forma '#nominelocal:dominio'. Require le permission de remover aliases.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;newVersion&gt;: Promove le sala al version date. Require le permission de promover le sala.
 # $commandName is the command name
 command-me = { $commandName } &lt;action&gt; : exeque un action.
 # $commandName is the command name
@@ -250,6 +270,10 @@ message-verification-done = Verification completate
 message-decryption-error = Impossibile decifrar le contentos de iste message. Pro demandar le claves de cryptographia de tu altere apparatos, clicca dextre isto message.
 message-decrypting = Decryptante...
 message-redacted = Le message era redigite.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } ha reagite a { $userThatSentMessage } con { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Demandar le claves
 message-action-redact = Rediger
