@@ -29,6 +29,7 @@ connection-error-failed-to-start-tls = Failed to start encryption
 connection-error-no-auth-mec = No authentication mechanism offered by the server
 connection-error-no-compatible-auth-mec = None of the authentication mechanisms offered by the server are supported
 connection-error-not-sending-password-in-clear = The server only supports authentication by sending the password in cleartext
+connection-error-authentication-failure = ਪਰਮਾਣਿਤਾ ਅਸਫ਼ਲ
 connection-error-not-authorized = Not authorized (Did you enter the wrong password?)
 connection-error-failed-to-get-a-resource = Failed to get a resource
 # LOCALIZATION NOTE (conversation-error-not-delivered):
@@ -36,6 +37,14 @@ connection-error-failed-to-get-a-resource = Failed to get a resource
 #   the user has sent wasn't delivered.
 #   $message is replaced by the text of the message that wasn't delivered.
 conversation-error-not-delivered = This message could not be delivered: { $message }
+# LOCALIZATION NOTE (tooltip-*):
+#   These are the titles of lines of information that will appear in
+#   the tooltip showing details about a contact or conversation.
+# LOCALIZATION NOTE (tooltip-status):
+#   $resourceIdentifier (String) will be replaced by the XMPP resource identifier
+tooltip-status = ਸਥਿਤੀ ({ $resourceIdentifier })
+tooltip-status-no-resource = ਸਥਿਤੀ
+tooltip-subscription = ਮੈਂਬਰੀ
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for XMPP accounts.
@@ -43,6 +52,7 @@ conversation-error-not-delivered = This message could not be delivered: { $messa
 #   character of the string should be used as the access key for this
 #   field.
 chat-room-field-room = _Room
+chat-room-field-server = ਸਰਵਰ(_S)
 chat-room-field-nick = _Nick
 chat-room-field-password = _Password
 # LOCALIZATION NOTE (options-*):
