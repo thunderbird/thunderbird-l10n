@@ -105,6 +105,12 @@ command-whois2 = { $commandName } [&lt;nick&gt;]: Thu thập thông tin về m�
 #    $nick is the nick and $nickAndHost is the nick and host of the user who joined.
 message-join = { $nick } [{ $nickAndHost }] đã vào phòng.
 message-rejoined = Bạn đã gia nhập lại phòng.
+#    $nick is the nick of who kicked you.
+#    $messageKickedReason is message-kicked-reason, if a kick message was given.
+message-kicked-you = Bạn đã bị đuổi ra khỏi phòng bởi { $nick }{ $messageKickedReason }.
+#    $kickedNick is the nick that is kicked, $kickerNick the nick of the person who kicked
+#    $kickedNick. $messageKickedReason is message-kicked-reason, if a kick message was given.
+message-kicked = { $kickedNick } đã bị đuổi ra khỏi phòng bởi { $kickerNick }{ $messageKickedReason }.
 #    $kickMessage is the kick message
 message-kicked-reason = : { $kickMessage }
 #    $mode is the new mode, $targetUser  is the nickname of the user whose mode
