@@ -14,11 +14,16 @@ connection-authenticating = შესვლა
 connection-getting-resource = მასალების მიღება
 connection-downloading-roster = ხალხის სიის ჩამოტვირთვა
 connection-srv-lookup = SRV ჩანაწერის მოძიება
+# LOCALIZATION NOTE (connection-error-*)
+#   These will show in the account manager if an error occurs during the
+#   connection attempt.
+connection-error-invalid-username = მონაწილის უმართებულო სახელი (სახელი უნდა შეიცავდეს სიმბოლოს '@')
 connection-error-failed-to-create-a-socket = ვერ ხერხდება ბუდის შექმნა (ნამდვილად კავშირის რეჟიმში ხართ?)
 connection-error-server-closed-connection = სერვერმა კავშირი დახურა
 connection-error-reset-by-peer = კავშირი განულდა კვანძზე
 connection-error-timed-out = კავშირის დრო ამოიწურა
 connection-error-received-unexpected-data = მიღებულია გაუთვალისწინებელი მონაცემები
+connection-error-incorrect-response = მიღებულია უმართებულო პასუხი
 connection-error-start-tls-required = სერვერი მოითხოვს დაშიფვრას, მაგრამ თქვენ იგი ამორთული გაქვთ
 connection-error-start-tls-not-supported = სერვერისთვის დაშიფვრა მიუღებელია, თუმცა თქვენი კონფიგურაცია ამას მოითხოვს
 connection-error-failed-to-start-tls = ვერ ხერხდება დაშიფვრის დაწყება
@@ -64,6 +69,8 @@ conversation-error-send-failed-as-recipient-not-inroom = შეტყობი�
 #   These are displayed in a conversation as a system error message.
 conversation-error-remote-server-not-found = მიმღების სერვერთან დაკავშირება ვერ ხერხდება.
 conversation-error-unknown-send-error = წარმოიქმნა უცნობი შეცდომა, ამ წერილის გაგზავნისას.
+#   $nick is the name of the message recipient.
+conversation-error-send-service-unavailable = ამჟამად შეტყობინებების { $nick }-ისთვის გაგზავნა შეუძლებელია.
 #   $nick is the nick of participant that is not in room.
 conversation-error-nick-not-in-room = { $nick } არ იმყოფება ოთახში.
 conversation-error-ban-command-anonymous-room = ანონიმური ოთახების მონაწილეებზე შეზღუდვის დადება არ შეგიძლიათ. სანაცვლოდ სცადეთ /kick.
@@ -78,6 +85,7 @@ conversation-error-invite-failed-forbidden = თქვენ არ გაქვ
 conversation-error-failed-jid-not-found = დაკავშირება ვერ მოხერხდა: { $jabberIdentifier }
 #   $jabberIdentifier (String) is the jid that is invalid.
 conversation-error-invalid-jid = { $jabberIdentifier } არის არამართებული jid (Jabber ვინაობის განმსაზღვრელი უნდა იყოს შემდეგნაირი: user@domain).
+conversation-error-command-failed-not-in-room = ამ ბრძანების გამოსაყენებლად ხელახლა უნდა მიუერთდეთ ოთახს.
 #   $recipient (String) is the name of the recipient.
 conversation-error-resource-not-available = საუბარი თქვენ უნდა წამოიწყოთ, ვინაიდან { $recipient } შესაძლოა ერთზე მეტ კლიენტთან იყოს დაკავშირებული.
 # LOCALIZATION NOTE (conversation-error-version-*):
@@ -244,6 +252,10 @@ options-domain = დომენი
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk აღარაა მხარდაჭერილი, რადგან Google-მა დახურა თავისი XMPP-კავშირი.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
