@@ -4,4 +4,5 @@
 
 buddy-username = Потребителско име
 contact-tags = Етикети
+encryption-tag = Състояние на шифроването
 message-status = Писмото е шифровано
