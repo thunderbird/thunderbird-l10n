@@ -12,6 +12,7 @@ connection-initializing-stream = Frumstilli straum
 connection-initializing-encryption = Frumstilli dulritun
 connection-authenticating = Sannvottar
 connection-getting-resource = Næ í viðföng
+connection-downloading-roster = Sæki tengiliðalista
 connection-srv-lookup = Fletti upp SRV færslu
 # LOCALIZATION NOTE (connection-error-*)
 #   These will show in the account manager if an error occurs during the
@@ -107,6 +108,14 @@ tooltip-title = Titill
 tooltip-organization = Fyrirtæki/Stofnun
 tooltip-locality = Bær
 tooltip-country = Land
+tooltip-telephone = Símanúmer
+# LOCALIZATION NOTE (chat-room-field-*):
+#   These are the name of fields displayed in the 'Join Chat' dialog
+#   for XMPP accounts.
+#   The _ character won't be displayed; it indicates the next
+#   character of the string should be used as the access key for this
+#   field.
+chat-room-field-room = _Rás
 chat-room-field-server = _Netþjónn
 chat-room-field-nick = _Gælunafn
 chat-room-field-password = _Lykilorð
@@ -243,6 +252,15 @@ options-domain = Lén
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk er ekki lengur stutt þar sem Google slökkti á XMPP-gáttinni sinni.
+# LOCALIZATION NOTE (odnoklassniki-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Odnoklassniki account.
+odnoklassniki-username-hint = Auðkenni notanda
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name
