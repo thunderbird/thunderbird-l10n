@@ -126,6 +126,11 @@ detail-moderator = 중재자: { $value }
 detail-alias = 별칭: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = 비회원 접근: { $value }
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-ban = { $commandName } &lt;userId&gt; [&lt;원인&gt;]: 원인을 나타내는 메시지를 포함하거나 포함하지 않고 방에서 userId를 가진 사용자를 차단합니다. 사용자를 차단하려면 권한이 필요합니다.
 # $commandName is the command name
 command-invite = { $commandName } &lt;userId&gt;: 사용자를 방에 초대합니다.
 # $commandName is the command name
@@ -136,3 +141,27 @@ command-leave = { $commandName }: 현재 방을 나갑니다.
 command-topic = { $commandName } &lt;topic&gt;: 채팅방의 주제를 설정합니다. 주제를 변경하려면 권한이 필요합니다.
 # $commandName is the command name
 command-unban = { $commandName } &lt;userId&gt;: 방에서 차단된 사용자를 차단 해제합니다. 사용자를 차단하려면 권한이 필요합니다.
+# LOCALIZATION NOTE (message-*):
+#    These are shown as system messages in the conversation.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+message-banned = { $user }님이 { $userBanned }님을 차단하였습니다.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user }님이 { $userBanned }님을 차단하였습니다. 이유: { $reason }
+#    $user is the name of the user who accepted the invitation.
+#    $userWhoSent is the name of the user who sent the invitation.
+message-accepted-invite-for = { $user }님이 { $userWhoSent }님의 초대를 수락하였습니다.
+#    $user is the name of the user who accepted an invitation.
+message-accepted-invite = { $user }님이 초대를 수락하였습니다.
+#    $user is the name of the user who invited.
+#    $userWhoGotInvited is the name of the user who got invited.
+message-invited = { $user }님이 { $userWhoGotInvited }님을 초대하였습니다.
+message-action-report = 메시지 신고
+message-action-retry = 발송 재시도
+message-action-cancel = 메시지 취소
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = "{ $message }" 메시지를 발송 하는 중에 문제가 생겼습니다.
