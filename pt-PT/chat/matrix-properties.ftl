@@ -13,6 +13,12 @@ matrix-username-hint = ID do Matrix
 options-save-token = Guardar código de acesso
 options-device-display-name = Nome de apresentação do dispositivo
 options-homeserver = Servidor
+# $status (String) a status
+options-encryption-cross-signing = Início de Sessão Cruzado: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = não está pronto
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -155,6 +161,10 @@ command-join = { $commandName } &lt;idDaSala&gt;: Acede à sala indicada.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } baniu { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } baniu { $userBanned }. Motivo: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } aceitou o convite para { $userWhoSent }.
@@ -228,3 +238,17 @@ message-alias-removed = { $user } removeu { $addresses } como endereço alternat
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } removeu { $removedAddresses } e adicionou { $addedAddresses } como endereço para esta sala.
 message-space-not-supported = Esta sala é um espaço, o que não é suportado.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } deseja verificar { $userReceiving }.
+message-verification-done = Verificação completada.
+message-decrypting = A desencriptar…
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reagiu a { $userThatSentMessage } com { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Re-solicitar Chaves
+message-action-report = Reportar Mensagem
+message-action-retry = Repetir o Envio
+message-action-cancel = Cancelar mensagem
