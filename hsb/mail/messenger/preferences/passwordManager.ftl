@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Składowane přizjewjenja
-saved-logins-title = Składowane přizjewjenja
 window-close =
     .key = w
+saved-logins-title = Składowane přizjewjenja
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Přepruwujće swoju identitu, zo byšće skła
 password-os-auth-dialog-message-macosx = składowane hesła pokazać
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] nastajenja za hesła změnić
+       *[other] { -brand-short-name } pospytuje, nastajenja za hesła změnić. Wužiwajće swoje gratowe přizjewjenje, zo byšće to dowolił.
+    }
