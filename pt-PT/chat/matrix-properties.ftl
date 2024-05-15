@@ -206,9 +206,17 @@ message-unbanned = { $user } deixou de banir { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } expulsou { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } expulsou { $userGotKicked }. Motivo: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } retirou o convite de { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } retirou o convite de { $userInvitationWithdrawn }. Motivo: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } removeu o nome da sala.
 #    $user is the name of the user who changed the room name.
@@ -249,10 +257,15 @@ message-alias-removed = { $user } removeu { $addresses } como endereço alternat
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } removeu { $removedAddresses } e adicionou { $addedAddresses } como endereço para esta sala.
 message-space-not-supported = Esta sala é um espaço, o que não é suportado.
+message-encryption-start = As mensagens nesta conversa são agora encriptadas de ponta a ponta.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.
 message-verification-request2 = { $user } deseja verificar { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } cancelou a verificação pelo motivo: { $reason }
 message-verification-done = Verificação completada.
+message-decryption-error = Não foi possível desencriptar o conteúdo desta mensagem. Para solicitar chaves de encriptação dos seus outros dispositivos, clique nesta mensagem com o botão direito do rato.
 message-decrypting = A desencriptar…
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
@@ -263,3 +276,7 @@ message-action-request-key = Re-solicitar Chaves
 message-action-report = Reportar Mensagem
 message-action-retry = Repetir o Envio
 message-action-cancel = Cancelar mensagem
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Ocorreu um erro ao enviar a sua mensagem "{ $message }".
