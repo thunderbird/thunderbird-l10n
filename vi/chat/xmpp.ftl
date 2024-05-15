@@ -177,6 +177,9 @@ conversation-message-banned-you = Bạn đã bị cấm vào phòng.
 conversation-message-banned-you-reason = Bạn đã bị cấm vào phòng: { $reason }
 #   $actorNick (String) is the person who is banning.
 conversation-message-banned-you-actor = { $actorNick } đã cấm bạn vào phòng.
+#   $actorNick (String) is the person who is banning.
+#   $reason (String) is the reason.
+conversation-message-banned-you-actor-reason = { $actorNick } đã cấm bạn vào phòng: { $reason }
 #   $affectedNick (String) is the participant that is kicked.
 #   $reason (String) is the reason.
 conversation-message-kicked-reason = { $affectedNick } đã bị kick khỏi phòng: { $reason }
@@ -218,3 +221,11 @@ odnoklassniki-protocol-name = Odnoklassniki
 #  string defined in imAccounts.properties when the user is
 #  configuring a Odnoklassniki account.
 odnoklassniki-username-hint = ID Hồ sơ
+# LOCALIZATION NOTE (command-*):
+#  These are the help messages for each command.
+# $commandName (String): command name
+command-join3 = { $commandName } [&lt;room&gt;[@&lt;server&gt;][/&lt;nick&gt;]] [&lt;password&gt;]: Tham gia một phòng, tùy chọn cung cấp máy chủ hoặc biệt hiệu hoặc mật khẩu phòng.
+# $commandName (String): command name
+command-nick = { $commandName } &lt;new nickname&gt;: Thay đổi nickname của bạn.
+# $commandName (String): command name
+command-msg = { $commandName } &lt;nick&gt; &lt;message&gt;: Gửi một tin nhắn riêng tới một thành viên trong phòng.
