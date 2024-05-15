@@ -248,6 +248,7 @@ message-alias-removed = { $user } ha rimosso { $addresses } come indirizzo alter
 message-alias-removed-and-added = { $user } ha rimosso { $removedAddresses } e ha aggiunto { $addedAddresses } come indirizzo per questa stanza.
 message-space-not-supported = Questa stanza è uno spazio e gli spazi non sono supportati.
 message-encryption-start = I messaggi in questa conversazione sono ora protetti da crittografia end-to-end.
+message-verification-done = Verifica completata
 message-decryption-error = Impossibile decrittare il contenuto di questo messaggio. Per richiedere le chiavi crittografiche da un altro dei tuoi dispositivi, fai clic con il tasto destro del mouse su questo messaggio.
 message-redacted = Il messaggio è stato rimosso.
 message-action-redact = Rimuovi
