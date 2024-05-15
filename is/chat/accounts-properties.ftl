@@ -5,4 +5,6 @@
 # LOCALIZATION NOTE (password-prompt-title, password-prompt-text):
 # $accountName (String): is replaced with the name of the account
 password-prompt-title = Lykilorð fyrir { $accountName }
+# $accountName (String): is replaced with the name of the account
+password-prompt-text = Settu inn lykilorðið fyrir { $accountName } til að geta tengst.
 password-prompt-save-checkbox = Nota lykilorðageymslu til að muna þetta lykilorð.
