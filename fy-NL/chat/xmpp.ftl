@@ -80,6 +80,7 @@ conversation-error-ban-kick-command-conflict = Sorry, jo kinne josels net út de
 conversation-error-change-nick-failed-conflict = Koe jo bynamme net yn { $nick } wizigje, omdat dizze bynamme al yn gebrûk is.
 #   $nick is a nick that cannot be set
 conversation-error-change-nick-failed-not-acceptable = Koe jo bynamme net yn { $nick } wizigje, omdat bynammen yn dizze romte beskoattele binne.
+conversation-error-invite-failed-forbidden = Jo hawwe net de fereaske rjochten om brûkers út te nûgjen om yn dizze romte te kommen.
 #   $jabberIdentifier (String) is the jid of user that is invited.
 conversation-error-failed-jid-not-found = Koe { $jabberIdentifier } net berykje.
 #   $jabberIdentifier (String) is the jid that is invalid.
@@ -251,6 +252,10 @@ options-domain = Domein
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk wurdt net langer stipe, omdat Facebook harren XMPP-gateway útskeakele hat.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
@@ -278,3 +283,5 @@ command-me = { $commandName } &lt;út te fieren aksje&gt;: in bepaalde aksje út
 command-nick = { $commandName } &lt;nije bynamme&gt;: Wizigje jo bynamme.
 # $commandName (String): command name
 command-msg = { $commandName } &lt;bynamme&gt; &lt;berjocht&gt;: Stjoer in priveeberjocht nei in dielnimmer yn de romte.
+# $commandName (String): command name
+command-version = { $commandName }: ynformaasje opfreegje oer de client dy’t jo petearpartner brûkt.
