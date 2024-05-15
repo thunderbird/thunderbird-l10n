@@ -15,7 +15,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Ingen eksisterende konto
-account-manager-no-account-description = Klik på knappen { new-account-label } for at starte kontoguiden.
+account-manager-no-account-description = Klik på knappen { new-account-label } for at lade { -brand-short-name } guide dig gennem processen med at konfigurere en.
 account-auto-sign-on =
     .label = Opret forbindelse ved start
     .accesskey = s

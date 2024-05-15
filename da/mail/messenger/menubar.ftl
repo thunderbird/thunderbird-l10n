@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Slå fejlsøgnings-tilstand fra
     .accesskey = S
-menu-help-more-troubleshooting-info =
-    .label = Mere teknisk information
-    .accesskey = t
 menu-help-troubleshooting-info =
     .label = Teknisk information
     .accesskey = T
@@ -68,6 +65,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Afslut { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -121,12 +121,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Kompakt
     .accesskey = K
-mail-uidensity-normal =
-    .label = Normal
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Touch
-    .accesskey = T
 mail-uidensity-default =
     .label = Standard
     .accesskey = S
@@ -139,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Mailkonto…
+    .accesskey = a
 file-new-newsgroup-account =
     .label = Nyhedsgruppekonto…
     .accesskey = y
