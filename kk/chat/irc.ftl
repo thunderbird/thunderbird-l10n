@@ -191,6 +191,8 @@ error-no-such-nick = { $name } желіде емес.
 error-was-no-such-nick = Ондай ник аты жоқ: { $name }
 #    $name is the nickname or channel name that isn't available.
 error-no-such-channel = Арна жоқ: { $name }.
+#    $name is the nickname or channel name that isn't available.
+error-unavailable = { $name } уақытша қолжетімсіз.
 #    $name is the channel name.
 error-channel-banned = Сізге { $name } ішіне кіруге тыйым салынған.
 #    $name is the channel name.
