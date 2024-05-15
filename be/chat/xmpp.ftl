@@ -19,11 +19,17 @@ connection-srv-lookup = Пошук запісу SRV
 #   connection attempt.
 connection-error-invalid-username = Няспраўнае імя карыстальніка (ваша імя карыстальніка не можа змяшчаць знак '@')
 connection-error-failed-to-create-a-socket = Няўлача стварэння сокета (Вы па-за сеткай?)
+connection-error-server-closed-connection = Сервер закрыў злучэнне
 connection-error-reset-by-peer = Злучэнне скінута роўняй
 connection-error-timed-out = Злучэнне па-за часам
 connection-error-received-unexpected-data = Атрыманы нечаканыя здаткі
 connection-error-incorrect-response = Атрыманы няправільны адказ
+connection-error-start-tls-required = Сервер патрабуе шыфраванне, але вы адключылі яго
+connection-error-start-tls-not-supported = Сервер не падтрымлівае шыфраванне, але вашы налады патрабуюць яго
 connection-error-failed-to-start-tls = Няўдача шыфравання
+connection-error-no-auth-mec = Сервер не прапанаваў ніякага механізму аўтэнтыфікацыі
+connection-error-no-compatible-auth-mec = Ніводзін з прапанаваных серверам механізмаў аўтэнтыфікацыі не падтрымліваецца
+connection-error-not-sending-password-in-clear = Сервер падтрымлівае аўтэнтыфікацыю толькі праз адпраўку пароля звычайным тэкстам
 connection-error-authentication-failure = Няўдача апазнавання
 connection-error-not-authorized = Не ўпаўнаважаны (Вы не ўвялі памылковы пароль?)
 connection-error-failed-to-get-a-resource = Няўдача атрымання сродку
@@ -110,6 +116,7 @@ tooltip-telephone = Нумар тэлефона
 #   character of the string should be used as the access key for this
 #   field.
 chat-room-field-room = _Пакой
+chat-room-field-server = _Сервер
 chat-room-field-nick = _Мянушка
 chat-room-field-password = _Пароль
 # LOCALIZATION NOTE (conversation-muc-*):
@@ -238,6 +245,7 @@ options-connection-security = Бяспека злучэння
 options-connection-security-require-encryption = Патрабуе шыфраванне
 options-connection-security-opportunistic-tls = Ужываць шыфраванне, калі яно даступнае
 options-connection-security-allow-unencrypted-auth = Дазволіць дасыланне простатэкставага пароля
+options-connect-server = Сервер
 options-connect-port = Порт
 options-domain = Дамен
 # LOCALIZATION NOTE (*-protocol-name)
