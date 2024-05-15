@@ -45,6 +45,8 @@ ctcp-time = De tiid by { $username } is { $timeResponse }.
 #   the command.
 command-action = { $commandName } &lt;út te fieren aksje&gt;: in bepaalde aksje útfiere.
 # $commandName is the command name
+command-ban = { $commandName } &lt;nick!user@host&gt;: Ban de brûkers dy’t oerienkomme mei it opjûne patroan.
+# $commandName is the command name
 command-ctcp = { $commandName } &lt;bynamme&gt; &lt;berjocht&gt;: stjoert in ctcp-berjocht oan it kontakt.
 # $commandName is the command name
 command-chanserv = { $commandName } &lt;opdracht&gt;: in opdracht nei chanserv stjoere.
@@ -159,6 +161,10 @@ message-channel-key-removed = { $nick } hat it wachtwurd fuortsmiten.
 message-ban-masks = Brûkers ferbûn fia de folgjende lokaasjes binne ferbannen fan { $place }:
 #    $place This will be followed by a list of ban masks.
 message-no-ban-masks = Der binne gjin blokkearre lokaasjes foar { $place }.
+# $locationMatches Location matches; $nick Nickname of user
+message-ban-mask-added = Brûkers ferbûn fia lokaasjes dy’t oerienkomme mei { $locationMatches } binne ferbannen troch { $nick }.
+# $locationMatches Location matches; $nick Nickname of user
+message-ban-mask-removed = Brûkers ferbûn fia lokaasjes dy’t oerienkomme mei { $locationMatches } binne net mear ferbannen troch { $nick }.
 # $source is the nickname of the user or the server that was pinged.
 # $delay is the delay (in milliseconds).
 message-ping =
