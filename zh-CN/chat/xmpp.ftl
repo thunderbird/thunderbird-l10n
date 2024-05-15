@@ -74,6 +74,7 @@ conversation-error-send-service-unavailable = 目前无法发送消息至 { $nic
 #   $nick is the nick of participant that is not in room.
 conversation-error-nick-not-in-room = { $nick } 不在此聊天室内。
 conversation-error-ban-command-anonymous-room = 您不能封禁匿名聊天室的参与者。尝试 /kick 代替。
+conversation-error-ban-kick-command-not-allowed = 您不需要权限即可踢走此聊天室中的成员。
 conversation-error-ban-kick-command-conflict = 抱歉，您不能移除聊天室内的自己。
 #   $nick is the nick of participant that is not in room.
 conversation-error-change-nick-failed-conflict = 无法更改您的昵称到 { $nick }，此昵称已被占用。
@@ -191,6 +192,24 @@ conversation-message-banned-you-actor-reason = { $actorNick } 已在此聊天室
 #   a room.
 #   $affectedNick (String) is the participant that is kicked.
 conversation-message-kicked = { $affectedNick } 已被此聊天室移出。
+#   $affectedNick (String) is the participant that is kicked.
+#   $reason (String) is the reason.
+conversation-message-kicked-reason = { $affectedNick } 已被踢出聊天室：{ $reason }
+#   $actorNick (String) is the person who is kicking.
+#   $affectedNick (String) is the participant that is kicked.
+conversation-message-kicked-actor = { $actorNick } 已将 { $affectedNick } 踢出聊天室。
+#   $actorNick (String) is the person who is kicking.
+#   $affectedNick (String) is the participant that is kicked.
+#   $reason (String) is the reason.
+conversation-message-kicked-actor-reason = { $actorNick } 已将 { $affectedNick } 踢出聊天室：{ $reason }
+conversation-message-kicked-you = 您已被踢出聊天室。
+#   $reason (String) is the reason.
+conversation-message-kicked-you-reason = 您已被踢出聊天室：{ $reason }
+#   $actorNick (String) is the person who is kicking.
+conversation-message-kicked-you-actor = { $actorNick } 已将您踢出聊天室。
+#   $actorNick (String) is the person who is kicking.
+#   $reason (String) is the reason.
+conversation-message-kicked-you-actor-reason = { $actorNick } 已将您踢出聊天室：{ $reason }
 # LOCALIZATION NOTE (conversation-message-removed-non-member-*):
 #   These are displayed as a system message when a participant is removed from
 #   a room because the room has been changed to members-only.
@@ -247,6 +266,8 @@ command-part2 = { $commandName } [&lt;message&gt;]: 使用可选的消息离开�
 command-topic = { $commandName } [&lt;new topic&gt;]: 设置此聊天室的主题。
 # $commandName (String): command name
 command-ban = { $commandName } &lt;昵称&gt;[&lt;消息&gt;]：封禁聊天室中的某人。您必须是聊天室的管理员才能执行。
+# $commandName (String): command name
+command-kick = { $commandName } &lt;昵称&gt;[&lt;消息&gt;]：踢走聊天室中的某人。您必须是聊天室的主持人才能执行。
 # $commandName (String): command name
 command-invite = { $commandName } &lt;jid&gt;[&lt;message&gt;]：邀请用户加入当前聊天室并留下消息。
 # $commandName (String): command name
