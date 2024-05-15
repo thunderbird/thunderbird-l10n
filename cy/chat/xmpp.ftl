@@ -109,6 +109,13 @@ tooltip-organization = Corff
 tooltip-locality = Lleolad
 tooltip-country = Gwlad
 tooltip-telephone = Rhif ffôn
+# LOCALIZATION NOTE (chat-room-field-*):
+#   These are the name of fields displayed in the 'Join Chat' dialog
+#   for XMPP accounts.
+#   The _ character won't be displayed; it indicates the next
+#   character of the string should be used as the access key for this
+#   field.
+chat-room-field-room = _Ystafell
 chat-room-field-server = _Server
 chat-room-field-nick = _Nick
 chat-room-field-password = _Password
@@ -245,6 +252,10 @@ options-domain = Parth
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Nid yw Google Talk yn cael ei gefnogi bellach oherwydd bod Google wedi analluogi eu porth XMPP.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
