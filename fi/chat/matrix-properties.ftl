@@ -207,6 +207,9 @@ message-history-anyone = { $user } teki huoneen tulevan historian näkyväksi ka
 message-history-shared = { $user } teki huoneen tulevan historian näkyväksi kaikille huoneen jäsenille.
 message-space-not-supported = Tämä huone on tila, joka ei ole tuettu.
 message-encryption-start = Tämän keskustelun viestit on nyt salattu päästä päähän.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } haluaa vahvistaa { $userReceiving }:n.
 #    $user is the name of the user who cancelled the verification request.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } perui vahvistuksen syystä: { $reason }
