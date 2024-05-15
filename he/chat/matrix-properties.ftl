@@ -7,7 +7,21 @@
 #  string defined in imAccounts.properties when the user is
 #  configuring a Matrix account.
 matrix-username-hint = מזהה Matrix
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = אסימון גישה לאחסון
+options-device-display-name = שם התצוגה של המכשיר
 options-homeserver = שרת
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = פונקציות קריפטוגרפיות: { $status }
+# $status (String) a status
+options-encryption-secret-storage = אחסון סודות: { $status }
+# $status (String) a status
+options-encryption-cross-signing = חתימה צולבת: { $status }
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -81,3 +95,6 @@ detail-moderator = מפקח: { $value }
 detail-alias = כינוי: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = גישה לאורחים: { $value }
+message-verification-done = האימות הושלם.
+message-decrypting = מתבצע פענוח…
+message-action-report = דיווח על הודעה
