@@ -85,6 +85,7 @@ conversation-error-invite-failed-forbidden = Bu odaya kullanıcı davet etmek i�
 conversation-error-failed-jid-not-found = { $jabberIdentifier } kullanıcısı ulaşılamadı.
 #   $jabberIdentifier (String) is the jid that is invalid.
 conversation-error-invalid-jid = { $jabberIdentifier } geçersiz bir Jabber kimliği (JID) (Jabber kimlikleri kullanıcı-adı@alan-adı biçiminde olmalı).
+conversation-error-command-failed-not-in-room = Bu komutu kullanabilmek için odaya yeniden girmelisiniz.
 #   $recipient (String) is the name of the recipient.
 conversation-error-resource-not-available = { $recipient } kullanıcısının birden fazla istemciyle bağlanabilmesi için önce konuşmalısınız.
 # LOCALIZATION NOTE (conversation-error-version-*):
