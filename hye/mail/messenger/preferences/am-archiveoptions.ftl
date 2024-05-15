@@ -4,6 +4,19 @@
 
 archive-options-title = Արխիւի ընտրանքներ
 archive-granularity-prefix-label = Նամակները արխիւացնելիս, դնել դրանք՝
+archive-flat =
+    .label = Թղթապանակ
+    .accesskey = s
+archive-yearly =
+    .label = Տարեկան արխիւացուած թղթապանակներ
+    .accesskey = Y
+archive-monthly =
+    .label = Ամսեկան արխիւացուած թղթապանակներ
+    .accesskey = M
+keep-folder-structure =
+    .label = Պահել արխիւացուած նամակների թղթապանակի կառուցուածքը
+    .accesskey = K
+archive-example-label = Աւրինակ
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Արխիւներ
