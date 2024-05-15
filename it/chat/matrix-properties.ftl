@@ -13,6 +13,12 @@ matrix-username-hint = ID Matrix
 options-save-token = Salva il token di accesso
 options-device-display-name = Nome visualizzato del dispositivo
 options-homeserver = Server
+# $status (String) a status
+options-encryption-secret-storage = Archiviazione segreti: { $status }
+# $status (String) a status
+options-encryption-key-backup = Backup della chiave crittografica: { $status }
+options-encryption-set-up-secret-storage = Per configurare l’archiviazione di segreti, utilizza un altro client e successivamente inserisci nella scheda “Generale” la passphrase della chiave di backup generata.
+options-encryption-set-up-backup-and-cross-signing = Per attivare i backup della chiave crittografica e la firma incrociata, inserisci la passphrase della chiave di backup nella scheda “Generale” o verifica l’identità di una delle sessioni seguenti.
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -227,5 +233,13 @@ message-alias-removed = { $user } ha rimosso { $addresses } come indirizzo alter
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } ha rimosso { $removedAddresses } e ha aggiunto { $addedAddresses } come indirizzo per questa stanza.
+message-space-not-supported = Questa stanza è uno spazio e gli spazi non sono supportati.
+message-decryption-error = Impossibile decrittare il contenuto di questo messaggio. Per richiedere le chiavi crittografiche da un altro dei tuoi dispositivi, fai clic con il tasto destro del mouse su questo messaggio.
+message-redacted = Il messaggio è stato rimosso.
+message-action-redact = Rimuovi
 message-action-retry = Riprova a inviare
 message-action-cancel = Annulla messaggio
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Si è verificato un errore durante l’invio del messaggio “{ $message }”.
