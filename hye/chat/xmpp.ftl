@@ -35,6 +35,10 @@ conversation-message-version = { $user } ֊ը աւգտագործում է «{ $c
 #   $clientVersion (String): is the client version response from the client.
 #   $systemResponse (String): is the operating system(OS) response from the client.
 conversation-message-version-with-os = { $user } -ն աւգտագործում է «{ $clientName } { $clientVersion }» { $systemResponse } -ում:
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-resource = Աղբեւրը
 options-connection-security-require-encryption = Պահանջուում է ծածկագրում։
 options-domain = Տիրոյթ
 # LOCALIZATION NOTE (*-protocol-name)
