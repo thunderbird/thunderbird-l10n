@@ -201,4 +201,6 @@ message-reaction = { $userThatReacted } reagerte på { $userThatSentMessage } me
 #    Label in the message context menu
 message-action-request-key = Be om nøklar på nytt
 message-action-redact = Rediger
+message-action-report = Rapporter melding
 message-action-retry = Prøv å sende på nytt
+message-action-cancel = Avbryt melding
