@@ -35,6 +35,7 @@ connection-error-not-authorized = Kimlik doğrulanamadı (Parolayı yanlış mı
 connection-error-failed-to-get-a-resource = Kaynak alınamadı
 connection-error-failed-max-resource-limit = Bu hesaba aynı anda çok fazla yerden bağlanılmış.
 connection-error-failed-resource-not-valid = Kaynak geçersiz.
+connection-error-xmpp-not-supported = Bu sunucu XMPP’yi desteklemiyor
 # LOCALIZATION NOTE (conversation-error-not-delivered):
 #   This is displayed in a conversation as an error message when a message
 #   the user has sent wasn't delivered.
@@ -48,6 +49,7 @@ conversation-error-join-failed = Katılınamadı: { $mucName }
 #   banned from a room.
 #   $mucName is the name of the MUC room.
 conversation-error-join-forbidden = { $mucName } odasında yasaklı olduğunuz için odaya giremediniz.
+conversation-error-join-failed-not-authorized = Kayıt gerekli: Bu odaya girmek için yetkiniz yok.
 conversation-error-creation-failed-not-allowed = Erişim engellendi: Oda oluşturmanıza izin verilmiyor.
 #   This is displayed in a conversation as an error message when remote server
 #   is not found.
@@ -249,6 +251,10 @@ options-domain = Alan adı
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google, XMPP geçidini kapattığı için Google Talk artık desteklenmemektedir.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
