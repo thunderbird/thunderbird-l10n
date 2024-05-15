@@ -6,6 +6,21 @@
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Lagra åtkomsttoken
+options-device-display-name = Visningsnamn för enhet
+options-backup-passphrase = Lösenfras för nyckelbackup
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Kryptografiska funktioner: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Hemlig lagring: { $status }
+# $status (String) a status
+options-encryption-key-backup = Kryptering för nyckelbackup: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Korssignering: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = inte redo
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -219,3 +234,12 @@ message-alias-removed = { $user } tog bort { $addresses } som alternativ adress 
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } tog bort { $removedAddresses } och lade till { $addedAddresses } som adress för detta rum.
+message-space-not-supported = Detta rum är ett utrymme som inte stöds.
+message-encryption-start = Meddelanden i denna konversation är nu end-to-end krypterade.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } vill verifiera { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } avbröt verifieringen med anledningen: { $reason }
+message-verification-done = Verifieringen har slutförts.
