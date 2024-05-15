@@ -25,6 +25,7 @@ options-encryption-secret-storage = Biltegi sekretua: { $status }
 options-encryption-key-backup = Zifratze gako segurtasun kopia: { $status }
 # $status (String) a status
 options-encryption-cross-signing = Sinatze gurutzatua: { $status }
+options-encryption-status-ok = ados
 options-encryption-status-not-ok = ez dago prest
 options-encryption-need-backup-passphrase = Sartu mesedez zure segurtasun kopiako pasa-esaldia protokoloen aukeretan.
 options-encryption-set-up-secret-storage = Biltegi sekretua ezartzeko, mesedez erabili beste bezero bat eta ondoren sartu sortutako gako pasa-esaldia "Orokorra" fitxan.
