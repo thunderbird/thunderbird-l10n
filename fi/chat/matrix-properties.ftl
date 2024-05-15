@@ -2,10 +2,22 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix-tunniste
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Tallenna käyttöoikeuspoletti
+options-device-display-name = Laitteen näyttönimi
+options-homeserver = Palvelin
+# $status (String) a status
+options-encryption-key-backup = Salausavaimen varmuuskopio: { $status }
+options-encryption-status-not-ok = ei valmis
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -131,3 +143,14 @@ message-guest-prevented = { $user } on estänyt vieraita liittymästä huoneesee
 message-history-anyone = { $user } teki huoneen tulevan historian näkyväksi kaikille.
 #    $user is the name of the user who has made future room history visible to all room members.
 message-history-shared = { $user } teki huoneen tulevan historian näkyväksi kaikille huoneen jäsenille.
+message-space-not-supported = Tämä huone on tila, joka ei ole tuettu.
+message-encryption-start = Tämän keskustelun viestit on nyt salattu päästä päähän.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } perui vahvistuksen syystä: { $reason }
+message-verification-done = Vahvistus suoritettu.
+message-decrypting = Puretaan salausta...
+#    Label in the message context menu
+message-action-request-key = Pyydä avaimet uudelleen
+message-action-retry = Yritä lähettää uudelleen
+message-action-cancel = Peruuta viesti
