@@ -242,6 +242,7 @@ conversation-message-version-with-os = { $user } gebruikt ‘{ $clientName } { $
 options-resource = Bron
 options-priority = Prioriteit
 options-connection-security = Verbindingsbeveiliging
+options-connection-security-require-encryption = Versleuteling vereisen
 options-connection-security-opportunistic-tls = Versleuteling gebruiken wanneer beschikbaar
 options-connection-security-allow-unencrypted-auth = Onversleuteld verzenden van wachtwoord toestaan
 options-connect-server = Server
@@ -251,6 +252,10 @@ options-domain = Domein
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk wordt niet meer ondersteund, omdat Google haar XMPP-gateway heeft uitgeschakeld.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
