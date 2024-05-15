@@ -25,6 +25,7 @@ connection-error-timed-out = A conexão atingiu o tempo limite
 connection-error-received-unexpected-data = Recebidos dados inesperados
 connection-error-incorrect-response = Recebida uma resposta incorreta
 connection-error-start-tls-required = O servidor requer criptografia, mas você a desativou
+connection-error-start-tls-not-supported = O servidor não oferece suporte a criptografia, mas sua configuração exige
 connection-error-failed-to-start-tls = Falha ao iniciar criptografia
 connection-error-no-auth-mec = Nenhum método de autenticação oferecido pelo servidor
 connection-error-no-compatible-auth-mec = Nenhum dos mecanismos de autenticação oferecidos pelo servidor são suportados
@@ -34,6 +35,7 @@ connection-error-not-authorized = Não autorizado (Você inseriu a senha errada?
 connection-error-failed-to-get-a-resource = Falha ao receber um recurso
 connection-error-failed-max-resource-limit = Esta conta está conectada a partir de muitos lugares ao mesmo tempo.
 connection-error-failed-resource-not-valid = O recurso não é válido.
+connection-error-xmpp-not-supported = Este servidor não oferece suporte a XMPP
 # LOCALIZATION NOTE (conversation-error-not-delivered):
 #   This is displayed in a conversation as an error message when a message
 #   the user has sent wasn't delivered.
@@ -84,6 +86,11 @@ conversation-error-failed-jid-not-found = Não foi possível alcançar { $jabber
 #   $jabberIdentifier (String) is the jid that is invalid.
 conversation-error-invalid-jid = { $jabberIdentifier } é um jid inválido (identificadores Jabber devem ter a forma de usuário@domínio).
 conversation-error-command-failed-not-in-room = Você tem que voltar para a sala para poder usar este comando.
+#   $recipient (String) is the name of the recipient.
+conversation-error-resource-not-available = Você deve falar primeiro, pois { $recipient } pode estar conectado a mais de um cliente.
+# LOCALIZATION NOTE (conversation-error-version-*):
+#   $recipient is the name of the recipient.
+conversation-error-version-unknown = O cliente de { $recipient } não oferece suporte a consulta da versão de software.
 # LOCALIZATION NOTE (tooltip-*):
 #   These are the titles of lines of information that will appear in
 #   the tooltip showing details about a contact or conversation.
@@ -245,6 +252,10 @@ options-domain = Domínio
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Não há mais suporte ao Google Talk porque o Google desativou seu gateway XMPP.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
