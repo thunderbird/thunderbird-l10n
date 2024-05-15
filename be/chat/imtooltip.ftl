@@ -5,3 +5,4 @@
 buddy-username = Імя карыстальніка
 buddy-account = Уліковы запіс
 contact-tags = Тэгі
+message-status = Паведамленне зашыфравана
