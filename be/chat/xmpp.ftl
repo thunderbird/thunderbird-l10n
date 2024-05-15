@@ -102,6 +102,7 @@ tooltip-title = Пасада
 tooltip-organization = Установа
 tooltip-locality = Месцазнаходжанне
 tooltip-country = Краіна
+tooltip-telephone = Нумар тэлефона
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for XMPP accounts.
