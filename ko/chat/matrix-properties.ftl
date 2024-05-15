@@ -136,7 +136,13 @@ command-ban = { $commandName } &lt;userId&gt; [&lt;원인&gt;]: 원인을 나타
 # $commandName is the command name
 command-invite = { $commandName } &lt;userId&gt;: 사용자를 방에 초대합니다.
 # $commandName is the command name
+command-kick = { $commandName } &lt;아이디&gt; [&lt;사유&gt;]: 선택적인 사유 메시지와 함께 방에서 해당 아이디의 사용자를 내보냅니다. 사용자를 내보내기 위해서는 권한이 필요합니다.
+# $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: 닉네임을 변경합니다.
+# $commandName is the command name
+command-op = { $commandName } &lt;아이디&gt; [&lt;권한 수준&gt;]: 사용자의 권한 수준을 설정합니다. 정수 값을 입력하되, 일반 사용자: 0과 의장: 50, 관리자: 100으로 설정합니다. 입력이 없을 경우 기본값은 50입니다. 구성원의 권한 수준 변경을 위해 권한이 필요합니다. 본인이 아닌 관리자의 권한 수준은 설정할 수 없습니다.
+# $commandName is the command name
+command-deop = { $commandName } &lt;아이디&gt;: 사용자 권한 수준을 0 (사용자)으로 초기화합니다. 구성원의 권한 수준을 변경하기 위해 권한이 필요합니다. 본인이 아닌 관리자의 권한 수준은 설정할 수 없습니다.
 # $commandName is the command name
 command-leave = { $commandName }: 현재 방을 나갑니다.
 # $commandName is the command name
