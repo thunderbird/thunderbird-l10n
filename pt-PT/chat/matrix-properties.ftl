@@ -28,6 +28,8 @@ options-encryption-cross-signing = Início de Sessão Cruzado: { $status }
 options-encryption-status-ok = ok
 options-encryption-status-not-ok = não está pronto
 options-encryption-need-backup-passphrase = Por favor insira a senha da chave da cópia de segurança nas opções do protocolo.
+options-encryption-set-up-secret-storage = Para configurar o armazenamento secreto, utilize outro cliente e depois insira a senha da chave de cópia de segurança gerada no separador "Geral".
+options-encryption-set-up-backup-and-cross-signing = Para ativar as cópias de segurança da chave de encriptação e assinatura cruzada, insira a sua senha da chave de cópia de segurança no separador "Geral" ou verifique a identidade de uma das sessões abaixo.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -267,12 +269,14 @@ message-verification-cancel2 = { $user } cancelou a verificação pelo motivo: {
 message-verification-done = Verificação completada.
 message-decryption-error = Não foi possível desencriptar o conteúdo desta mensagem. Para solicitar chaves de encriptação dos seus outros dispositivos, clique nesta mensagem com o botão direito do rato.
 message-decrypting = A desencriptar…
+message-redacted = A mensagem foi expurgada.
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
 #    $reaction is the content (typically an emoji) of the reaction.
 message-reaction = { $userThatReacted } reagiu a { $userThatSentMessage } com { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Re-solicitar Chaves
+message-action-redact = Expurgar
 message-action-report = Reportar Mensagem
 message-action-retry = Repetir o Envio
 message-action-cancel = Cancelar mensagem
