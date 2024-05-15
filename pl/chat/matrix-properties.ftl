@@ -2,6 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Identyfikator Matrix
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = Przechowuj token dostępu
+options-device-display-name = Wyświetlana nazwa urządzenia
+options-homeserver = Serwer
+options-backup-passphrase = Hasło kopii zapasowej klucza
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Funkcje kryptograficzne: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Tajna pamięć: { $status }
+# $status (String) a status
+options-encryption-key-backup = Kopia zapasowa klucza szyfrowania: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Podpisywanie krzyżowe: { $status }
+options-encryption-status-ok = OK
+options-encryption-status-not-ok = niegotowe
+options-encryption-need-backup-passphrase = Wprowadź hasło kopii zapasowej klucza w opcjach protokołu.
+options-encryption-set-up-secret-storage = Aby skonfigurować tajną pamięć, użyj innego klienta, a następnie wprowadź utworzone hasło kopii zapasowej klucza w karcie „Ogólne”.
+options-encryption-set-up-backup-and-cross-signing = Aby aktywować kopie zapasowe kluczy szyfrowania i podpisywanie krzyżowe, wprowadź hasło kopii zapasowej klucza w karcie „Ogólne” lub zweryfikuj tożsamość jednej z poniższych sesji.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -16,6 +46,7 @@ connection-request-access = Kończenie uwierzytelniania
 connection-error-no-supported-flow = Serwer nie oferuje zgodnej metody logowania.
 connection-error-auth-cancelled = Anulowano proces upoważniania.
 connection-error-session-ended = Sesja została wylogowana.
+connection-error-server-not-found = Nie można zidentyfikować serwera Matrix dla podanego konta Matrix.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -215,3 +246,29 @@ message-alias-removed = Użytkownik { $user } usunął { $addresses } jako alter
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = Użytkownik { $user } usunął { $removedAddresses } i dodał { $addedAddresses } jako adres tego pokoju.
+message-space-not-supported = Ten pokój jest przestrzenią, co nie jest obsługiwane.
+message-encryption-start = Wiadomości w tej rozmowie są teraz zaszyfrowane.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = Użytkownik { $user } chce zweryfikować użytkownika { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = Użytkownik { $user } anulował weryfikację z powodu: { $reason }
+message-verification-done = Ukończono weryfikację.
+message-decryption-error = Nie może odszyfrować treści tej wiadomości. Aby zażądać kluczy szyfrowania z innych urządzeń, kliknij tę wiadomość prawym przyciskiem.
+message-decrypting = Odszyfrowywanie…
+message-redacted = Wiadomość została usunięta.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = Użytkownik { $userThatReacted } zareagował na wiadomość użytkownika { $userThatSentMessage } za pomocą { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Ponowne zażądaj kluczy
+message-action-redact = Usuń
+message-action-report = Zgłoś wiadomość
+message-action-retry = Spróbuj wysłać ponownie
+message-action-cancel = Wycofaj wiadomość
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Wystąpił błąd podczas wysyłania wiadomości „{ $message }”.
