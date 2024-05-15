@@ -26,6 +26,22 @@ status-changed-from-unknown = { $displayName } е { $statusType }.
 #  $statusType is the new status type (a value from status.ftl).
 #  $statusText is the status text (eg. "I'm currently away from the computer").
 status-changed-from-unknown-with-status-text = { $displayName } е { $statusType }: { $statusText }.
+# LOCALIZATION NOTE (status-known[-with-status-text]):
+# special case of the previous 2 strings for when an account has just
+# been reconnected, so the status is now known. These 2 strings should not
+# mislead the user into thinking the person's status has just changed.
+#  $displayName is the display name of the contact.
+#  $statusType is the new status type (a value from status.ftl).
+status-known = Профилът ви е отново свързан ({ $displayName } е { $statusType }).
+#  $displayName is the display name of the contact.
+#  $statusType is the new status type (a value from status.ftl).
+#  $statusText is the status text (eg. "I'm currently away from the computer").
+status-known-with-status-text = Профилът ви е отново свързан ({ $displayName } е { $statusType }: { $statusText }).
+# LOCALIZATION NOTE (status-unknown):
+#  $displayName is the display name of the contact.
+status-unknown = Профилът е изключен (състоянието на { $displayName } вече не е известно).
+account-disconnected = Профилът е изключен.
+account-reconnected = Профилът е отново свързан.
 # LOCALIZATION NOTE (auto-reply):
 #  $message is replaced by the text of a message that was sent as an automatic reply.
 auto-reply = Автоматичен отговор – { $message }
