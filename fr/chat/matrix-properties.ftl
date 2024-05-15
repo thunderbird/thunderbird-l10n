@@ -248,3 +248,10 @@ message-alias-removed = { $user } a supprimé { $addresses } comme adresse alter
 message-alias-removed-and-added = { $user } a supprimé { $removedAddresses } et ajouté { $addedAddresses } comme adresse pour ce salon.
 message-space-not-supported = Ce salon est un espace, ce qui n’est pas pris en charge.
 message-encryption-start = Les messages de cette conversation sont désormais chiffrés de bout en bout.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } veut vérifier { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } a annulé la vérification avec la raison : { $reason }
+message-verification-done = Vérification terminée.
