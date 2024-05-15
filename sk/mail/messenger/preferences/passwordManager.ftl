@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Uložené prihlasovacie údaje
-saved-logins-title = Uložené prihlasovacie údaje
 window-close =
     .key = w
+saved-logins-title = Uložené prihlasovacie údaje
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Pre zobrazenie uložených hesiel najprv overt
 password-os-auth-dialog-message-macosx = zobraziť uložené heslá
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] zmeniť nastavenie pre heslá.
+       *[other] { -brand-short-name } sa pokúša zmeniť nastavenie pre heslá. Ak to chcete povoliť, použite heslo k účtu na svojom zariadení.
+    }

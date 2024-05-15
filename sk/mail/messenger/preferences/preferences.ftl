@@ -571,6 +571,9 @@ primary-password-description = Hlavné heslo slúži na ochranu všetkých vaši
 primary-password-label =
     .label = Používať hlavné heslo
     .accesskey = u
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Vyžadovať heslo k účtu na zariadení na vyplnenie a správu hesiel
 primary-password-button =
     .label = Zmeniť hlavné heslo…
     .accesskey = Z
