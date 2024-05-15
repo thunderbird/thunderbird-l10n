@@ -97,6 +97,8 @@ command-umode = { $commandName } (+|-)&lt;ny modus&gt;: Sett eller fjern ein bru
 # $commandName is the command name
 command-version = { $commandName } &lt;kallenamn&gt;: Spøretter kva for klientversjon ein brukar har.
 # $commandName is the command name
+command-voice = { $commandName } &lt;kallenamn1&gt;[,&lt;kallenamn2&gt;]*: Gje kanal-voicestatus til nokon. Du må vere kanaloperatør for å gjere dette.
+# $commandName is the command name
 command-whois2 = { $commandName } [&lt;nick&gt;]: Hent info om ein brukar.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
