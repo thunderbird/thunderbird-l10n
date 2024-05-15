@@ -2,10 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = 儲存存取 token
+options-device-display-name = 裝置顯示名稱
+options-homeserver = 伺服器
+options-backup-passphrase = 備份金鑰密語
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = 加密函數: { $status }
+# $status (String) a status
+options-encryption-secret-storage = 私密資料儲存空間: { $status }
+# $status (String) a status
+options-encryption-key-backup = 加密金鑰備份: { $status }
+# $status (String) a status
+options-encryption-cross-signing = 交互簽署: { $status }
+options-encryption-status-ok = 確定
+options-encryption-status-not-ok = 未就緒
+options-encryption-need-backup-passphrase = 請到通訊協定選項中輸入備份金鑰密語。
+options-encryption-set-up-secret-storage = 要設定私密資料儲存空間，請使用另一套客戶端登入並在該客戶端輸入於「一般」分頁產生的備份金鑰密語。
+options-encryption-set-up-backup-and-cross-signing = 請輸入您在「一般」分頁設定的備份金鑰密語或驗證下列任一個使用階段身分，即可開啟加密金鑰備份以及交互簽署功能。
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +46,7 @@ connection-request-access = 正在完成認證
 connection-error-no-supported-flow = 伺服器無法提供相容的登入流程。
 connection-error-auth-cancelled = 您取消了授權動作。
 connection-error-session-ended = 使用階段已結束。
+connection-error-server-not-found = 找不到提供的 Matrix 帳號所在的 Matrix 伺服器。
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -147,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: 加入指定的聊天室。
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } 已封鎖 { $userBanned }。
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } 已封鎖 { $userBanned }。原因: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } 接受了來自 { $userWhoSent } 的邀請。
@@ -177,9 +208,17 @@ message-unbanned = { $user } 已解除封鎖 { $userUnbanned }。
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } 已踢走 { $userGotKicked }。
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } 已踢走 { $userGotKicked }。原因: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } 取消了 { $userInvitationWithdrawn } 的邀請函。
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } 取消了 { $userInvitationWithdrawn } 的邀請函。原因: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } 已移除聊天室名稱。
 #    $user is the name of the user who changed the room name.
@@ -219,3 +258,29 @@ message-alias-removed = { $user } 已將 { $addresses } 從此聊天室的備用
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } 已移除 { $removedAddresses }，並加入 { $addedAddresses } 作為此聊天室的備用地址。
+message-space-not-supported = 這個房間是一個空間，不受支援。
+message-encryption-start = 現在起，此對話中的訊息將進行端到端加密。
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } 想要驗證 { $userReceiving } 的身分。
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } 由於下列原因，取消了身分驗證請求: { $reason }
+message-verification-done = 確認完成。
+message-decryption-error = 無法解密此訊息內容，若要向您的其他裝置請求加解密金鑰，請對此訊息點右鍵。
+message-decrypting = 解密中…
+message-redacted = 訊息已遭刪減。
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } 對 { $userThatSentMessage } 作出 { $reaction } 的反應。
+#    Label in the message context menu
+message-action-request-key = 重新請求金鑰
+message-action-redact = 刪減
+message-action-report = 回報訊息
+message-action-retry = 重試寄信
+message-action-cancel = 取消郵件
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = 寄出您的訊息「{ $message }」時發生錯誤。
