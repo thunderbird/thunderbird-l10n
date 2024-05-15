@@ -40,6 +40,8 @@ ctcp-version = { $username } משתמש ב־"{ $version }"
 #   $timeResponse is the time response.
 ctcp-time = השעה אצל { $username } היא { $timeResponse }.
 # $commandName is the command name
+command-time = ‏{ $commandName }: הצגת הזמן המקומי נוכחי בשרת ה־IRC.
+# $commandName is the command name
 command-whois2 = { $commandName } [&lt;nick&gt;]: קבלת מידע על משתמש.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
@@ -83,6 +85,8 @@ message-invited = { $nick } הוזמן בהצלחה לערוץ { $conversationNa
 #    $nick is the nickname of the invited user, $conversationName is the conversation name
 #    they were invited to but are already in
 message-already-in-channel = { $nick } כבר בתוך { $conversationName }.
+#    $nick is the nickname of the user who was summoned.
+message-summoned = נשלח זימון אל { $nick }.
 #    $nick (String) is the nickname of the user whose WHOIS information follows this message.
 message-whois = פרטי WHOIS עבור { $nick }:
 #    $description is the entry description (from tooltip-*), $value is its value.
@@ -111,6 +115,8 @@ error-mode-wrong-user = אין באפשרותך לשנות מצבים של מש�
 error-was-no-such-nick = אין כזה כינוי: { $name }
 #    $name is the nickname or channel name that isn't available.
 error-no-such-channel = אין כזה ערוץ: { $name }.
+#    $name is the nickname or channel name that isn't available.
+error-unavailable = { $name } זמנית אינו זמין.
 #    $name is the channel name.
 error-channel-banned = גישתך לערוץ { $name } נחסמה.
 #    $name is the channel name.
