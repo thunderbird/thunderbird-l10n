@@ -212,6 +212,9 @@ error-not-channel-owner = Njejsće wobsedźer kanala { $name }.
 #    $name is the channel name.
 error-wrong-key = Do { $name } njeda so zastupić, njepłaćiwe kanalowe hesło.
 error-send-message-failed = Při słanju wašeje poslednjeje powěsće je zmylk wustupił. Prošu spytajće hišće raz, hdyž zwisk je so wobnowił.
+#    $name is the channel the user tried to join, $details is the channel
+#    he was forwarded to.
+error-channel-forward = Snano nochceće so { $name } přidružić, a budźeće so awtomatisce do { $details } hinak wodźić.
 #    $mode is the mode that the user tried to set but was not recognized
 #    by the server as a valid mode.
 error-unknown-mode = '{ $mode }' płaćiwy wužiwarski modus na tutym serwerje njeje.
