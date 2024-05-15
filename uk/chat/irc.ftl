@@ -7,6 +7,13 @@
 #  string defined in imAccounts.properties when the user is
 #  configuring an IRC account.
 irc-username-hint = псевдонім
+# LOCALIZATION NOTE (connection-error-*):
+#   These will show in the account manager if the account is
+#   disconnected because of an error.
+connection-error-lost = Втрачено з'єднання з сервером
+connection-error-time-out = Час очікування з'єднання завершився
+# $username (String) username
+connection-error-invalid-username = { $username } не дозволене ім'я користувача
 connection-error-invalid-password = Неправильний пароль сервера
 connection-error-password-required = Потрібен пароль
 # LOCALIZATION NOTE (join-chat-*):
@@ -158,6 +165,14 @@ message-no-ban-masks = Немає забанених місць для { $place 
 message-ban-mask-added = Користувачі, під'єднані з місць { $locationMatches } були забанені з { $nick }.
 # $locationMatches Location matches; $nick Nickname of user
 message-ban-mask-removed = Користувачі, під'єднані з місць { $locationMatches } більше не забанені з { $nick }.
+# $source is the nickname of the user or the server that was pinged.
+# $delay is the delay (in milliseconds).
+message-ping =
+    { $delay ->
+        [one] Час відповіді від { $source } – { $delay } мілісекунда.
+        [few] Час відповіді від { $source } – { $delay } мілісекунди.
+       *[many] Час відповіді від { $source } – { $delay } мілісекунд.
+    }
 # LOCALIZATION NOTE (error-*):
 # These are shown as error messages in the conversation or server tab.
 # $name is the channel name.
