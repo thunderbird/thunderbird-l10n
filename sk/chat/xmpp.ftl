@@ -101,6 +101,7 @@ tooltip-status-no-resource = Stav
 tooltip-subscription = Odber
 tooltip-full-name = Celé meno
 tooltip-nickname = Prezývka
+tooltip-email = E‑mail
 tooltip-birthday = Narodeniny
 tooltip-user-name = Používateľské meno
 tooltip-title = Titul
@@ -251,6 +252,10 @@ options-domain = Doména
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk už nie je podporovaný, nakoľko došlo k ukončeniu prístupu cez protokol XMPP zo strany spoločnosti Google.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
