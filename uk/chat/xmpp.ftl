@@ -61,6 +61,13 @@ conversation-error-change-topic-failed-not-authorized = Ви не маєте д�
 #   $mucName is the name of MUC room.
 #   $message is the text of the message that wasn't delivered.
 conversation-error-send-failed-as-not-inroom = Повідомлення не може бути надіслане до { $mucName }, тому що ви більше не знаходитесь в кімнаті: { $message }
+#   This is displayed in a conversation as an error message when the user sends
+#   a message to a room that the recipient is not in.
+#   $jabberIdentifier is the jid of the recipient.
+#   $message is the text of the message that wasn't delivered.
+conversation-error-send-failed-as-recipient-not-inroom = Не вдалося надіслати повідомлення для { $jabberIdentifier }, оскільки отримувача більше немає в кімнаті: { $message }
+#   These are displayed in a conversation as a system error message.
+conversation-error-remote-server-not-found = Неможливо зв'язатися з сервером отримувача.
 conversation-error-unknown-send-error = Під час надсилання цього повідомлення сталася невідома помилка.
 #   $nick is the name of the message recipient.
 conversation-error-send-service-unavailable = Наразі неможливо надсилати повідомлення до { $nick }.
@@ -237,6 +244,7 @@ options-priority = Пріоритет
 options-connection-security = Захист з'єднання
 options-connection-security-require-encryption = Вимагати шифрування
 options-connection-security-opportunistic-tls = Використовувати шифрування при наявності
+options-connection-security-allow-unencrypted-auth = Дозволити надсилання незашифрованого пароля
 options-connect-server = Сервер
 options-connect-port = Порт
 options-domain = Домен
