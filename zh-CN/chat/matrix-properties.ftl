@@ -25,6 +25,7 @@ options-encryption-secret-storage = 私密存储空间：{ $status }
 options-encryption-key-backup = 加密密钥备份：{ $status }
 # $status (String) a status
 options-encryption-cross-signing = 交叉签名：{ $status }
+options-encryption-status-ok = 就绪
 options-encryption-status-not-ok = 未就绪
 options-encryption-need-backup-passphrase = 请到协议选项中输入备份密钥密语。
 options-encryption-set-up-secret-storage = 要设置私密数据存储空间，请登录另一客户端并在该客户端输入在“常规”标签页生成的备份密钥密语。
@@ -268,12 +269,14 @@ message-verification-cancel2 = { $user } 已取消身份验证请求，原因：
 message-verification-done = 验证完成。
 message-decryption-error = 无法解密此消息内容。若要从您的其他设备请求加解密密钥，请右键点击此消息。
 message-decrypting = 正在解密...
+message-redacted = 消息已撤回。
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
 #    $reaction is the content (typically an emoji) of the reaction.
 message-reaction = { $userThatReacted } 回应 { $userThatSentMessage } - { $reaction }。
 #    Label in the message context menu
 message-action-request-key = 重新请求密钥
+message-action-redact = 撤回
 message-action-report = 举报消息
 message-action-retry = 重试发送
 message-action-cancel = 撤销消息
