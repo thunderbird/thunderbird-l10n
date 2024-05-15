@@ -267,7 +267,20 @@ message-verification-request2 = { $user } wants to verify { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } cancelled the verification with the reason: { $reason }
 message-verification-done = Verification completed.
+message-decryption-error = Could not decrypt the contents of this message. To request encryption keys from your other devices, right click this message.
+message-decrypting = Decrypting…
+message-redacted = Message was redacted.
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
 #    $reaction is the content (typically an emoji) of the reaction.
 message-reaction = { $userThatReacted } reacted to { $userThatSentMessage } with { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Re-request Keys
+message-action-redact = Redact
+message-action-report = Report Message
+message-action-retry = Retry Sending
+message-action-cancel = Cancel Message
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = An error occurred while sending your message "{ $message }".
