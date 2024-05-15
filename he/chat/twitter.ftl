@@ -5,3 +5,4 @@
 # LOCALIZATION NOTE (twitter-protocol-name)
 #  This name is used whenever the name of the protocol is shown.
 twitter-protocol-name = Twitter
+twitter-disabled = השימוש ב־Twitter אינו נתמך עוד כיוון ש־Twitter השביתו את פרוטוקול הזרמת המדיה שלהם.
