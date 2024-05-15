@@ -2,11 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix-ID
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Lagra åtkomsttoken
 options-device-display-name = Visningsnamn för enhet
+options-homeserver = Server
 options-backup-passphrase = Lösenfras för nyckelbackup
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
@@ -21,6 +27,11 @@ options-encryption-key-backup = Kryptering för nyckelbackup: { $status }
 options-encryption-cross-signing = Korssignering: { $status }
 options-encryption-status-ok = ok
 options-encryption-status-not-ok = inte redo
+options-encryption-need-backup-passphrase = Ange lösenfrasen för din backupnyckel i protokollalternativen.
+options-encryption-set-up-secret-storage = För att konfigurera hemlig lagring, använd en annan klient och ange sedan den genererade lösenfrasen för backupnyckeln i fliken "Allmänt".
+options-encryption-set-up-backup-and-cross-signing = För att aktivera säkerhetskopieringar av krypteringsnycklar och korssignering anger du lösenfrasen för backupnyckeln i fliken "Allmänt" eller verifierar identiteten för en av sessionerna nedan.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -35,6 +46,7 @@ connection-request-access = Slutför autentisering
 connection-error-no-supported-flow = Servern erbjuder inget kompatibelt inloggningsflöde.
 connection-error-auth-cancelled = Du avbröt auktoriseringsprocessen.
 connection-error-session-ended = Sessionen loggades ut.
+connection-error-server-not-found = Det gick inte att identifiera Matrix-servern för det givna Matrix-kontot.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -162,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: Gå med i det givna rummet.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } stängde av { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } stängde av { $userBanned }. Orsak: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } accepterade inbjudan för { $userWhoSent }.
@@ -192,9 +208,17 @@ message-unbanned = { $user } avblockerade { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } sparkade ut { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } sparkade ut { $userGotKicked }. Orsak: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } drog tillbaka inbjudan från { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } drog tillbaka inbjudan från { $userInvitationWithdrawn }. Orsak: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } tog bort rumsnamnet.
 #    $user is the name of the user who changed the room name.
@@ -243,3 +267,20 @@ message-verification-request2 = { $user } vill verifiera { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } avbröt verifieringen med anledningen: { $reason }
 message-verification-done = Verifieringen har slutförts.
+message-decryption-error = Det gick inte att dekryptera innehållet i detta meddelande. För att begära krypteringsnycklar från dina andra enheter, högerklicka på det här meddelandet.
+message-decrypting = Dekrypterar...
+message-redacted = Meddelandet redigerats.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reagerade på { $userThatSentMessage } med { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Begär nycklar på nytt
+message-action-redact = Redigera
+message-action-report = Rapportera meddelande
+message-action-retry = Försök att skicka igen
+message-action-cancel = Avbryt meddelande
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Ett fel uppstod när ditt meddelande "{ $message }" skickades.
