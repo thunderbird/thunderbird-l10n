@@ -2,7 +2,30 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = Guardar token de acceso
 options-device-display-name = Nombre para mostrar del dispositivo
+options-homeserver = Servidor
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Funciones criptográficas: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Almacenamiento secreto: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Firma cruzada: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = no está listo
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -198,6 +221,33 @@ message-guest-prevented = { $user } ha evitado que los invitados se unan a la sa
 message-history-anyone = { $user } hizo que el historial futuro de la sala sea visible para cualquiera.
 #    $user is the name of the user who has made future room history visible to all room members.
 message-history-shared = { $user } hizo que el historial futuro de la sala sea visible para todos los miembros de la sala.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = { $user } hizo que el historial futuro de la sala sea visible para todos los miembros de la sala desde el momento en que son invitados.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user } hizo que el historial futuro de la sala sea visible para todos los miembros de la sala desde el momento en que se unieron.
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user } estableció la dirección principal para esta sala de { $oldAddress } a { $newAddress }.
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user } agregó { $addresses } como dirección alternativa  para esta sala.
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user } eliminó { $addresses } como dirección alternativa para esta sala.
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = { $user } eliminó { $removedAddresses } y agregó { $addedAddresses } como dirección para esta sala.
+message-space-not-supported = Esta sala es un espacio que no está soportado.
+message-encryption-start = Los mensajes en esta conversación ahora están cifrados de extremo a extremo.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } quiere verificar { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } canceló la verificación por la razón: { $reason }
+message-verification-done = Verificación completada.
 message-decryption-error = No se pudo descifrar el contenido de este mensaje. Para solicitar claves de cifrado de tus otros dispositivos, haz clic con el botón derecho en este mensaje.
 message-decrypting = Descifrando...
 message-redacted = El mensaje fue redactado.
