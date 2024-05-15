@@ -73,6 +73,7 @@ conversation-error-unknown-send-error = Une erreur inconnue s’est produite lor
 conversation-error-send-service-unavailable = L’envoi de messages à { $nick } est impossible pour le moment.
 #   $nick is the nick of participant that is not in room.
 conversation-error-nick-not-in-room = { $nick } ne se trouve pas dans le canal.
+conversation-error-ban-command-anonymous-room = Vous ne pouvez pas bannir de participants dans des canaux anonymes. Essayez /kick à la place.
 conversation-error-ban-kick-command-not-allowed = Vous ne disposez pas des privilèges nécessaires pour éjecter ce participant du canal.
 conversation-error-ban-kick-command-conflict = Vous ne pouvez pas vous éjecter vous-même du canal.
 #   $nick is the nick of participant that is not in room.
