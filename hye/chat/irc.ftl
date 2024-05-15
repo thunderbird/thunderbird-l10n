@@ -205,14 +205,19 @@ error-not-channel-op = Դուք ալիքի գործարկու չէք { $name }֊
 error-not-channel-owner = Դուք { $name }֊ի կապուղու տնաւրինողը չեք։
 #    $name is the channel name.
 error-wrong-key = Հնարաւոր չէ միանալ { $name }, կապուղու գաղտնաբառը սխալ է։
+error-send-message-failed = Վերջին հաղորդագրութիւնն ուղարկելիս սխալ առաջացաւ: Կրկին փորձէք համացանցի կարգաւորումից անմիջապէս յետոյ։
 #    $name is the channel the user tried to join, $details is the channel
 #    he was forwarded to.
 error-channel-forward = Կարող եք չմիանալ { $name }-ին եւ միանգամից վերատեղափոխուել { $details }:
+#    $mode is the mode that the user tried to set but was not recognized
+#    by the server as a valid mode.
+error-unknown-mode = «{ $mode }»-ը աւգտուողի վաւեր կարգաւիճակ չէ այս սպասարկիչում:
 # LOCALIZATION NOTE (tooltip-*):
 #    These are the descriptions given in a tooltip with information received
 #    from a whois response.
 #    The human readable ("realname") description of the user.
 tooltip-realname = Անուն
+tooltip-server = Կապակցուած է՝
 tooltip-registered = Գրանցուած է
 tooltip-registered-as = Գրանցուած է որպէս՝
 tooltip-secure = Աւգտագործելով անվտանգ կապակցում
