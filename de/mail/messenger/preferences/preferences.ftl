@@ -571,6 +571,9 @@ primary-password-description = Ein Hauptpasswort schützt alle Ihre Passwörter,
 primary-password-label =
     .label = Hauptpasswort verwenden
     .accesskey = v
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Anmeldung am Gerät zum Ausfüllen und Verwalten von Passwörtern verlangen
 primary-password-button =
     .label = Hauptpasswort ändern…
     .accesskey = H

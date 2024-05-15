@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Ordnerstruktur des Kontos im Archiv erhalten
     .accesskey = O
+recreate-inbox =
+    .label = Posteingangsordner wiederherstellen
+    .accesskey = P
 archive-example-label = Beispiel
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Posteingang
+child-folder-name =
+    .label = Unterordner des Posteingangs
+sibling-folder-name =
+    .label = Geschwister des Posteingangs
