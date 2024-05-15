@@ -9,6 +9,7 @@
 #    accounts.properties, which adds … at the end, so do not include
 #    periods at the end of these messages.)
 connection-initializing-stream = Inizializzazione flusso
+connection-initializing-encryption = Inizializzazione crittografia
 connection-authenticating = Autenticazione
 connection-getting-resource = Ottenimento risorse
 connection-downloading-roster = Scaricamento lista contatti
@@ -25,6 +26,7 @@ connection-error-received-unexpected-data = Ricevuti dei dati non attesi
 connection-error-incorrect-response = Ricevuta risposta non corretta
 connection-error-start-tls-required = Il server richiede un collegamento protetto ma è stato disattivato nelle impostazioni
 connection-error-start-tls-not-supported = Il server non consente un collegamento sicuro ma nelle impostazioni si è scelto di usarlo
+connection-error-failed-to-start-tls = Avvio crittografia non riuscito
 connection-error-no-auth-mec = Nessun meccanismo di autenticazione offerto dal server
 connection-error-no-compatible-auth-mec = Nessuno dei meccanismi di autenticazione offerti dal server è supportato
 connection-error-not-sending-password-in-clear = Il server supporta solo l'autenticazione tramite l'invio della password in chiaro
@@ -240,6 +242,8 @@ conversation-message-version-with-os = { $user } usa "{ $clientName } { $clientV
 options-resource = Risorsa
 options-priority = Priorità
 options-connection-security = Sicurezza della connessione
+options-connection-security-require-encryption = Crittografia obbligatoria
+options-connection-security-opportunistic-tls = Utilizza crittografia se disponibile
 options-connection-security-allow-unencrypted-auth = Consentire l'invio della password in chiaro
 options-connect-server = Server
 options-connect-port = Porta
