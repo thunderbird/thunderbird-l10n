@@ -19,6 +19,7 @@ help-help-string = help &lt;名称&gt;: 显示命令 &lt;命令名称&gt; 的帮
 #  $command (String): is replaced with a status command name (one of "back-key-key", "away-key-key", "busy-key-key", "dnd-key-key", or "offline-key-key").
 #  $status (String): is replaced with the localized version of that status type (one of the 5 strings below).
 status-command = { $command } &lt;状态信息&gt;: 用一个可选的状态信息将状态设置为 { $status } 。
+back-key-key = 空闲
 away-key-key = 离开
 busy-key-key = 忙碌
 dnd-key-key = 忙碌
