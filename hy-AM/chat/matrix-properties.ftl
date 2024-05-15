@@ -21,6 +21,13 @@ options-encryption-status-ok = լավ
 options-encryption-status-not-ok = պատրաստ չէ
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
+# LOCALIZATION NOTE (connection-*):
+#   These will be displayed in the account manager in order to show the progress
+#   of the connection.
+#   (These will be displayed in account.connection.progress from
+#    accounts.properties, which adds … at the end, so do not include
+#    periods at the end of these messages.)
+connection-request-auth = Սպասում է ձեր թույլտվությանը
 connection-request-access = Իսկորոշման ավարտ
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
@@ -63,6 +70,8 @@ message-accepted-invite = { $user }-ն ընդունել է հրավերը:
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user }-ը հրավիրել է { $userWhoGotInvited }-ին:
 message-decrypting = Վերծանում…
+#    Label in the message context menu
+message-action-request-key = Կրկին պահանջել բանալիներ
 message-action-report = Ուղարկել նամակ
 message-action-retry = Կրկին փորձեք ուղարկել
 message-action-cancel = Չեղարկել նամակը
