@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 archive-options-title = Opções de arquivamento
+archive-granularity-prefix-label = Ao arquivar mensagens, colocar em:
 archive-flat =
     .label = Uma única pasta
     .accesskey = U
