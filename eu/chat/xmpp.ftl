@@ -45,6 +45,10 @@ conversation-error-not-delivered = Mezu hau ezin da entregatu: { $message }
 #   fails.
 #   $mucName is the name of the MUC.
 conversation-error-join-failed = Ezin da sartu: { $mucName }
+#   This is displayed in a conversation as an error message when the user is
+#   banned from a room.
+#   $mucName is the name of the MUC room.
+conversation-error-join-forbidden = Ezin izan da { $mucName } elkartu gela honetan kanporatua zaudelako.
 conversation-error-join-failed-not-authorized = Erregistratu behar duzu: Ez daukazu gela honetara elkartzeko baimenik.
 conversation-error-creation-failed-not-allowed = Sarbide mugatua: Zuk ez daukazu gelak sortzeko baimenik.
 #   This is displayed in a conversation as an error message when remote server
@@ -161,6 +165,29 @@ conversation-message-invitation-declined = { $invitee }(e)k zure gonbidapena baz
 #   $invitee (String) is the invitee that declined the invitation.
 #   $declineMessage (String) is the decline message supplied by the invitee.
 conversation-message-invitation-declined-reason = { $invitee }(e)k zure gonbidapen hau baztertu du: { $declineMessage }
+# LOCALIZATION NOTE (conversation-message-banned-*):
+#   These are displayed as a system message when a participant is banned from
+#   a room.
+#   $affectedNick (String) is the participant that is banned.
+conversation-message-banned = { $affectedNick } gelatik kanporatu da.
+#   $affectedNick (String) is the participant that is banned.
+#   $reason (String) is the reason.
+conversation-message-banned-reason = { $affectedNick } kanporatua izan da { $reason } gelan
+#   $actorNick (String) is the person who is banning.
+#   $affectedNick (String) is the participant that is banned.
+conversation-message-banned-actor = { $actorNick }k { $affectedNick } gelatik kanporatu du.
+#   $actorNick (String) is the person who is banning.
+#   $affectedNick (String) is the participant that is banned.
+#   $reason (String) is the reason.
+conversation-message-banned-actor-reason = { $actorNick }k { $affectedNick } kanporatu du { $reason } gelan
+conversation-message-banned-you = Gelan kanporatua izan zara.
+#   $reason (String) is the reason.
+conversation-message-banned-you-reason = { $reason } gelan kanporatua izan zara
+#   $actorNick (String) is the person who is banning.
+conversation-message-banned-you-actor = { $actorNick } kanporatu dute gelan.
+#   $actorNick (String) is the person who is banning.
+#   $reason (String) is the reason.
+conversation-message-banned-you-actor-reason = { $actorNick } kanporatu dute { $reason } gelan
 # LOCALIZATION NOTE (conversation-message-kicked-*):
 #   These are displayed as a system message when a participant is kicked from
 #   a room.
@@ -225,6 +252,10 @@ options-domain = Domeinua
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk txata ez dago jada erabilgarri, Googlek XMPP aterabidea desgaitu dutelako.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
