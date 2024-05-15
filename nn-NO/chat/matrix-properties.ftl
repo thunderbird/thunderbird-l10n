@@ -13,8 +13,21 @@ matrix-username-hint = Matrix-ID
 options-save-token = Lagre tilgangssymbol
 options-device-display-name = Visingsnamn for eining
 options-homeserver = Server
+options-backup-passphrase = Passordfrase for nøkkelsikkerheitskopiering
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Kryptografiske funksjonar: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Hemmeleg lagring: { $status }
+# $status (String) a status
+options-encryption-key-backup = Sikkerheitskopiering av krypteringsnøkkel: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Krysssignering: { $status }
 options-encryption-status-ok = OK
 options-encryption-status-not-ok = ikkje klar
+options-encryption-need-backup-passphrase = Skriv inn passordfrasen for backupnøkkelen i protokollinnstillingeane.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -140,7 +153,52 @@ message-left = { $user } har forlate rommet.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } sparka ut { $userGotKicked }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } trekte tilbake innbydinga frå { $userInvitationWithdrawn }. Årsak: { $reason }
+#    $user is the name of the user who has removed the room name.
+message-room-name-remove = { $user } fjerna namnet på rommet.
+#    $user is the name of the user who changed the room name.
+#    $newRoomName is the new room name.
+message-room-name-changed = { $user } endra namnet på rommet til { $newRoomName }.
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user } endra nivået for { $powerLevelChanges }.
 #    $user is the name of the target user whose power level has been changed.
 #    $oldPowerLevel is the old power level.
 #    $newPowerLevel is the new power level.
 message-power-level-from-to = { $user } frå { $oldPowerLevel } til { $newPowerLevel }
+#    $user is the name of the user who has allowed guests to join the room.
+message-guest-allowed = { $user } har tillate gjestar å vere med i rommet.
+#    $user is the name of the user who has prevented guests to join the room.
+message-guest-prevented = { $user } har hindra gjestar i å vere med i rommet.
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = { $user } har gjort framtidig romhistorikk synleg for alle.
+#    $user is the name of the user who has made future room history visible to all room members.
+message-history-shared = { $user } har gjort framtidig romhistorikk synleg for alle rommedlemmar.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = { $user } har gjort framtidig romhistorikk synleg for alle rommedlemmar, frå tidspunktet dei vert inviterte.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user } har gjort framtidig romhistorikk synleg for alle rommedlemmar, frå tidspunktet dei vart med.
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user } endra hovudadressa for dette rommet frå { $oldAddress } til { $newAddress }.
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user } la til { $addresses } som alternativ adresse  for dette rommet.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } ønskjer å stadfeste { $userReceiving }.
+message-decrypting = Dekrypterer...
+message-redacted = Meldinga vart redigert.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reagerte på { $userThatSentMessage } med { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Be om nøklar på nytt
+message-action-redact = Rediger
+message-action-retry = Prøv å sende på nytt
