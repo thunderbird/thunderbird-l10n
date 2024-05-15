@@ -2,9 +2,31 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix-id
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = Gem adgangs-token
 options-device-display-name = Enhedens viste navn
+options-homeserver = Server
+options-backup-passphrase = Adgangsudtryk til nøglesikkerhedskopi
+# $status (String) a status
+options-encryption-secret-storage = Hemmeligt lager: { $status }
 # $status (String) a status
 options-encryption-key-backup = Sikkerhedskopi af krypteringsnøgle: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Krydssignering: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = ikke klar
+options-encryption-need-backup-passphrase = Indtast adgangsudtryk til din nøglesikkerhedskopi i protokolindstillingerne.
+options-encryption-set-up-secret-storage = For at opsætte et hemmeligt lager, skal du bruge en anden klient og derefter indtaste det genererede adgangsudtryk til nøglesikkerhedskopien på fanebladet "Generelt".
+options-encryption-set-up-backup-and-cross-signing = For at aktivere sikkerhedskopiering af krypteringsnøgler og krydssignering, skal du indtaste adgangsudtrykket til nøglesikkerhedskopien på fanebladet "Generelt" eller bekræfte identiteten af en af sessionerne nedenfor.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -19,6 +41,7 @@ connection-request-access = Afslutter godkendelse
 connection-error-no-supported-flow = Serveren tilbyder intet kompatibelt login-flow.
 connection-error-auth-cancelled = Du afbrød godkendelsesprocessen.
 connection-error-session-ended = Sessionen blev logget ud.
+connection-error-server-not-found = Kunne ikke identificere Matrix-serveren for den angivne Matrix-konto.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -146,6 +169,10 @@ command-join = { $commandName } &lt;roomId&gt;: Deltag i det angivne rum.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } blokerede { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } blokerede { $userBanned }. Årsag: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } accepterede invitationen for { $userWhoSent }.
@@ -176,9 +203,17 @@ message-unbanned = { $user } afblokerede { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } smed { $userGotKicked } ud.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } smed { $userGotKicked } ud. Årsag: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } trak invitationen til { $userInvitationWithdrawn } tilbage.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } trak invitationen til { $userInvitationWithdrawn } tilbage. Årsag: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } fjernede rummets navn.
 #    $user is the name of the user who changed the room name.
@@ -218,7 +253,17 @@ message-alias-removed = { $user } fjernede { $addresses } som alternativ adresse
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } fjernede { $removedAddresses } og tilføjede { $addedAddresses } som adresse for dette rum.
+message-space-not-supported = Dette rum er et space, som ikke understøttes.
+message-encryption-start = Meddelelser i denne samtale er nu end to end-krypterede.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } ønsker at bekræfte { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } annullerede bekræftelsen med årsagen: { $reason }
+message-verification-done = Bekræftelse afsluttet.
 message-decryption-error = Kunne ikke dekryptere indholdet af denne meddelelse. Højreklik på meddelelsen for at hente krypteringsnøgler fra dine andre enheder.
+message-decrypting = Dekrypterer...
 message-redacted = Meddelelsen er blevet redigeret.
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
@@ -230,3 +275,7 @@ message-action-redact = Rediger
 message-action-report = Rapporter meddelelse
 message-action-retry = Forsøg afsendelse igen
 message-action-cancel = Annuller meddelelse
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Der opstod en fejl ved afsendelse af meddelelsen "{ $message }".
