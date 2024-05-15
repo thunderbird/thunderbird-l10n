@@ -10,6 +10,7 @@
 #    periods at the end of these messages.)
 connection-initializing-stream = Հոսքի սկզբնաւորում
 connection-initializing-encryption = Ծածկագրման սկզբնաւորում
+connection-authenticating = Նոյնականացում
 connection-getting-resource = Աղբեւրի ստացում
 connection-downloading-roster = Կապորդների ցանկի բեռնում
 connection-srv-lookup = Փնտրում է SRV գրառումը
