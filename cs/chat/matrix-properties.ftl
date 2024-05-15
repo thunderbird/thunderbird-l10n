@@ -2,11 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Uložit přístupový token
 options-device-display-name = Zobrazovaný název zařízení
+options-homeserver = Server
 options-backup-passphrase = Heslo zálohy klíče
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
@@ -40,6 +46,7 @@ connection-request-access = Dokončování ověření
 connection-error-no-supported-flow = Server nenabízí žádný kompatibilní způsob přihlášení.
 connection-error-auth-cancelled = Zrušili jste proces ověření.
 connection-error-session-ended = Relace byla odhlášena.
+connection-error-server-not-found = Pro daný účet nebyl nalezen Matrix server.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
