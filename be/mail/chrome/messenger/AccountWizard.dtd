@@ -26,10 +26,10 @@
 
 <!-- Entities for Incoming Server page -->
 
-<!ENTITY incomingTitle.label "Уваходны паслугач">
+<!ENTITY incomingTitle.label "Інфармацыя пра уваходны сервер">
 <!ENTITY incomingUsername.label "Імя карыстальніка:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-<!ENTITY newsServerNameDesc.label "Увядзіце назву вашага паслугача навінаў (NNTP) (напрыклад: &quot;news.example.net&quot;).">
+<!ENTITY newsServerNameDesc.label "Увядзіце імя вашага сервера навін (NNTP) (напрыклад: «news.example.net»).">
 <!ENTITY newsServerLabel.label "Сервер груп навін:">
 <!ENTITY newsServerLabel.accesskey "н">
 
@@ -45,6 +45,6 @@
 
 <!ENTITY completionTitle.label "Віншаванні!">
 <!ENTITY completionText.label "Упэўніцеся, калі ласка, ці звесткі ўнізе правільныя.">
-<!ENTITY newsServerNamePrefix.label "Назва паслугача навінаў (NNTP):">
+<!ENTITY newsServerNamePrefix.label "Імя сервера навін (NNTP):">
 <!ENTITY clickFinish.label "Пстрыкніце Скончыць, каб захаваць вашы наладжванні і выйсці з Чараўніка Рахункаў.">
 <!ENTITY clickFinish.labelMac "Пстрыкніце Гатова, каб захаваць вашы наладжванні і выйсці з Чараўніка Рахункаў.">

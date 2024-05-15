@@ -4,7 +4,7 @@
 
 <!-- extracted from am-main.xhtml -->
 
-<!ENTITY accountTitle.label "Наладжванні рахунку">
+<!ENTITY accountTitle.label "Налады ўліковага запісу">
 <!ENTITY accountName.label "Імя ўліковага запісу:">
 <!ENTITY accountName.accesskey "Н">
 <!ENTITY identityTitle.label "Змоўчная адмета">
