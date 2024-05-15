@@ -13,6 +13,7 @@ matrix-username-hint = Matrix ID
 options-save-token = Guardar token de acceso
 options-device-display-name = Nombre para mostrar del dispositivo
 options-homeserver = Servidor
+options-backup-passphrase = Frase de contraseña de la copia de seguridad de la clave
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
 #   storage, shown in the account manager. $status (String) is one of the statuses and the
@@ -21,9 +22,14 @@ options-encryption-enabled = Funciones criptográficas: { $status }
 # $status (String) a status
 options-encryption-secret-storage = Almacenamiento secreto: { $status }
 # $status (String) a status
+options-encryption-key-backup = Copia de seguridad de la clave de cifrado: { $status }
+# $status (String) a status
 options-encryption-cross-signing = Firma cruzada: { $status }
 options-encryption-status-ok = ok
 options-encryption-status-not-ok = no está listo
+options-encryption-need-backup-passphrase = Por favor, introduce tu contraseña de clave de respaldo en las opciones de protocolo.
+options-encryption-set-up-secret-storage = Para configurar el almacenamiento secreto, utiliza otro cliente y luego ingresa la frase de contraseña de la clave de respaldo generada en la pestaña "General".
+options-encryption-set-up-backup-and-cross-signing = Para activar las copias de seguridad de claves de cifrado y la firma cruzada, escribe tu contraseña de clave de respaldo en la pestaña "General" o comprueba la identidad de una de las siguientes sesiones.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -40,6 +46,7 @@ connection-request-access = Finalizando autenticación
 connection-error-no-supported-flow = El servidor no ofrece ningún flujo de inicio de sesión compatible.
 connection-error-auth-cancelled = Has cancelado el proceso de autorización.
 connection-error-session-ended = La sesión se ha cerrado.
+connection-error-server-not-found = No se pudo identificar el servidor Matrix para la cuenta Matrix dada.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -167,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: Unirse a la sala dada.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } bloqueó a { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } prohibido { $userBanned }. Motivo: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } aceptó la invitación para { $userWhoSent }.
@@ -197,9 +208,17 @@ message-unbanned = { $user } desbloqueó a { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } expulsó a { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } expulsado { $userGotKicked }. Motivo: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } retiró la invitación de { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } retiro la invitación de { $userInvitationWithdrawn }. Motivo: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } eliminó el nombre de la sala.
 #    $user is the name of the user who changed the room name.
