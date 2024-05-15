@@ -45,6 +45,8 @@ ctcp-time = Koha për { $username } është { $timeResponse }.
 #   the command.
 command-action = { $commandName } &lt;veprim për t’u kryer&gt;: Kryeni një veprim.
 # $commandName is the command name
+command-ban = { $commandName } &lt;nick!user@host&gt;: Dëboni përdorues që kanë përkim me rregullsinë e dhënë.
+# $commandName is the command name
 command-ctcp = { $commandName } &lt;nofkë&gt; &lt;mesazh&gt;: I dërgon nofkës një mesazh CTCP.
 # $commandName is the command name
 command-chanserv = { $commandName } &lt;urdhër&gt;: i dërgon një udhër ChanServ-it.
@@ -96,6 +98,8 @@ command-umode = { $commandName } (+|-)&lt;mënyrë e re&gt;: Vërini ose hiqini 
 command-version = { $commandName } &lt;nofkë&gt;: Kërko versionin e klientit të një përdoruesi.
 # $commandName is the command name
 command-voice = { $commandName } &lt;nofkë1&gt;[,&lt;nofkë2&gt;]*: Jepini dikujt gjendjen si i zëshëm në kanal. Për ta bërë këtë, lypset të jeni vetë operator kanali.
+# $commandName is the command name
+command-whois2 = { $commandName } [&lt;nofkë&gt;]: Merrni hollësi mbi një përdorues.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $nick is the nick and $nickAndHost is the nick and host of the user who joined.
@@ -140,6 +144,10 @@ message-invited = { $nick } u ftua me sukses te { $conversationName }.
 message-already-in-channel = { $nick } gjendet tashmë te { $conversationName }.
 #    $nick is the nickname of the user who was summoned.
 message-summoned = { $nick } u thirr.
+#    $nick (String) is the nickname of the user whose WHOIS information follows this message.
+message-whois = Hollësi WHOIS për { $nick }:
+#    $nick (String) is the nickname of the (offline) user whose WHOWAS information follows this message.
+message-whowas = { $nick } s’është në linjë. Hollësi WHOWAS për { $nick }:
 #    $description is the entry description (from tooltip-*), $value is its value.
 message-whois-entry =     { $description }: { $value }
 #    $nick is the nickname that is not known to the server.
@@ -153,6 +161,10 @@ message-channel-key-removed = { $nick } ia hoqi fjalëkalimin kanalit.
 message-ban-masks = Përdoruesit e lidhur nga vendet vijuese janë të përzënë nga { $place }:
 #    $place This will be followed by a list of ban masks.
 message-no-ban-masks = Nuk ka vende të ndaluara për { $place }.
+# $locationMatches Location matches; $nick Nickname of user
+message-ban-mask-added = Përdoruesit e lidhur nga vendet që kanë përkim me { $locationMatches } janë përzënë nga { $nick }.
+# $locationMatches Location matches; $nick Nickname of user
+message-ban-mask-removed = Përdoruesit e lidhur nga vendet që kanë përkim me { $locationMatches } s’janë më të përzënë nga { $nick }.
 # $source is the nickname of the user or the server that was pinged.
 # $delay is the delay (in milliseconds).
 message-ping =
@@ -198,6 +210,9 @@ error-not-channel-owner = Nuk jeni i zoti i kanalit { $name }.
 #    $name is the channel name.
 error-wrong-key = S’mund të hyni te { $name }, fjalëkalim i pavlefshëm kanali.
 error-send-message-failed = Ndodhi një gabim gjatë dërgimit të mesazhit tuaj të fundit. Ju lutemi, riprovoni sapo të jetë rivendosur lidhja.
+#    $name is the channel the user tried to join, $details is the channel
+#    he was forwarded to.
+error-channel-forward = Mund të mos hyni dot te { $name } dhe u ridrejtuat automatikisht te { $details }.
 #    $mode is the mode that the user tried to set but was not recognized
 #    by the server as a valid mode.
 error-unknown-mode = '{ $mode }' në këtë shërbyes s’është mënyrë e vlefshme përdoruesi.
