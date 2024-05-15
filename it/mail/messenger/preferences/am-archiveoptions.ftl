@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Mantenere la struttura delle cartelle esistente per messaggi archiviati
     .accesskey = M
+recreate-inbox =
+    .label = Ricrea la cartella della posta in arrivo
+    .accesskey = R
 archive-example-label = Esempio
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Posta in arrivo
+child-folder-name =
+    .label = Sottocartella di Posta in arrivo
+sibling-folder-name =
+    .label = Sorella di Inbox

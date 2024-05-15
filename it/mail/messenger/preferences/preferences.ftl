@@ -571,6 +571,9 @@ primary-password-description = È possibile impostare una password principale pe
 primary-password-label =
     .label = Utilizza una password principale
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Richiedi l’accesso al dispositivo per compilare e gestire le password
 primary-password-button =
     .label = Cambia la password principale…
     .accesskey = m
