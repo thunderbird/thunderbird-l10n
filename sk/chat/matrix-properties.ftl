@@ -13,6 +13,7 @@ matrix-username-hint = Matrix ID
 options-save-token = Uložiť prístupový token
 options-device-display-name = Zobrazovaný názov zariadenia
 options-homeserver = Server
+options-backup-passphrase = Prístupová fráza pre zálohu kľúča
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
 #   storage, shown in the account manager. $status (String) is one of the statuses and the
@@ -27,6 +28,8 @@ options-encryption-cross-signing = Krížové podpisovanie: { $status }
 options-encryption-status-ok = OK
 options-encryption-status-not-ok = nepripravené
 options-encryption-need-backup-passphrase = Do možností protokolu zadajte prístupovú frázu záložného kľúča.
+options-encryption-set-up-secret-storage = Na nastavenie tajného úložiska použite iného klienta a potom zadajte vygenerovanú prístupovú frázu záložného kľúča na kartu "Všeobecné".
+options-encryption-set-up-backup-and-cross-signing = Ak chcete aktivovať zálohovanie šifrovacích kľúčov a krížové podpisovanie, zadajte prístupové heslo záložného kľúča na karte "Všeobecné" alebo overte identitu jednej z nižšie uvedených relácií.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -155,6 +158,10 @@ command-roomname = { $commandName } &lt;názov&gt;: nastaví názov miestnosti. 
 # $commandName is the command name
 command-detail = { $commandName }: zobrazí podrobnosti o miestnosti.
 # $commandName is the command name
+command-addalias = { $commandName } &lt;alias&gt;: vytvorí alias pre miestnosť. Očakáva sa alias v tvare '#lokálny_názov:doména'. Vyžaduje oprávnenie na nastavenie aliasu.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;alias&gt;: odstráni alias pre miestnosť. Očakáva sa alias miestnosti v tvare '#lokálny_názov:doména'. Vyžaduje oprávnenie na odstránenie aliasu.
+# $commandName is the command name
 command-upgraderoom = { $commandName } &lt;nová_verzia&gt;: inovuje miestnosť na danú verziu. Vyžaduje oprávnenie na aktualizáciu miestnosti.
 # $commandName is the command name
 command-me = { $commandName } &lt;akcia&gt;: vykoná akciu.
@@ -263,6 +270,10 @@ message-verification-done = Overenie dokončené.
 message-decryption-error = Nepodarilo sa dešifrovať obsah tejto správy. Ak chcete požiadať o šifrovacie kľúče z iných zariadení, kliknite pravým tlačidlom myši na túto správu.
 message-decrypting = Dešifruje sa…
 message-redacted = Správa bola zredigovaná.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reaguje na používateľa { $userThatSentMessage } textom { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Znova vyžiadať kľúče
 message-action-redact = Redigovať
