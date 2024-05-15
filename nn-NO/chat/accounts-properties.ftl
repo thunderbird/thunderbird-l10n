@@ -7,3 +7,4 @@
 password-prompt-title = Passord for { $accountName }
 # $accountName (String): is replaced with the name of the account
 password-prompt-text = Skriv inn passordet til { $accountName } for å kople til.
+password-prompt-save-checkbox = Bruk Passordhandsaming for å hugse dette passordet.
