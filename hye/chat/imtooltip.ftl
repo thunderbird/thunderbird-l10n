@@ -3,5 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 buddy-username = Աւգտանուն
+buddy-account = Հաշիւ
 contact-tags = Պիտակներ
+encryption-tag = Գաղտնագրման կարգավիճակ
 message-status = Հաղորդագրութիւնը գաղտնագրուած է
