@@ -254,6 +254,7 @@ message-alias-removed = { $user } je odstranil/-a pomožne naslove te sobe: { $a
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } je spremenil/-a naslov te sobe. Odstranjeno: { $removedAddresses }, dodano: { $addedAddresses }.
+message-space-not-supported = Ta soba je prostor, ki pa ni podprt.
 message-encryption-start = Sporočila v tem pogovoru so zdaj šifrirana od konca do konca.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.
