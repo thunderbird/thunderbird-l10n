@@ -2,6 +2,34 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = ID Matrix-i
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = Depozito token hyrjeje
+options-device-display-name = Emër pajisjeje për shfaqje
+options-homeserver = Shërbyes
+options-backup-passphrase = Frazëkalim Kopjeruajtjeje Kyçesh
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Funksione Kriptogarafikë: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Depozitë e Fshehtë: { $status }
+# $status (String) a status
+options-encryption-key-backup = Kopjeruajtje Kyçesh Fshehtëzimi: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = jo gati
+options-encryption-need-backup-passphrase = Ju lutemi, jepni te mundësitë e protokollit frazëkalimin tuaj të kopjeruajtes së kyçeve.
+options-encryption-set-up-secret-storage = Që të ujdisni depozitë të fshehtë, ju lutemi, përdorni një tjetër klient dhe më pas jepeni frazëkalimin e prodhuar për kopjeruajte kyçesh te skeda “Të përgjithshme”.
+options-encryption-set-up-backup-and-cross-signing = Që të aktivizohen kopjeruajtje kyçesh fshehtëzimi dhe “cross signing”, jepni frazëkalimin tuaj të kopjeruajtjes së kyçeve te skeda “Të përgjithshme”, ose verifikoni identitetin e njërit nga sesioneve më poshtë.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -16,6 +44,7 @@ connection-request-access = Po përfundohet mirëfilltësimi
 connection-error-no-supported-flow = Shërbyesi s’ofron rrjedhë të përputhshme hyrjesh.
 connection-error-auth-cancelled = E anuluat procesin e autorizimit.
 connection-error-session-ended = U dol nga sesioni.
+connection-error-server-not-found = S’u identifikua dot shërbyesi Matrix për llogarinë e dhënë Matrix.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -143,6 +172,10 @@ command-join = { $commandName } &lt;IDdhome&gt;: Hyni në dhomën e dhënë.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } dëboi { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } u dëbua { $userBanned }. Arsye: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } pranoi ftesën nga { $userWhoSent }.
@@ -173,9 +206,17 @@ message-unbanned = { $user } hoqi dëbimin për { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } përzuri { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } u përzu { $userGotKicked }. Arsye: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } shfuqizoi ftesën për { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } tërhoqi mbrapsht ftesën për { $userInvitationWithdrawn }. Arsye: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } hoqi emrin e dhomës.
 #    $user is the name of the user who changed the room name.
@@ -215,3 +256,29 @@ message-alias-removed = { $user } hoqi { $addresses } si adresë alternative pë
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } hoqi { $removedAddresses } dhe shtoi { $addedAddresses } si adresë për këtë dhomë.
+message-space-not-supported = Kjo dhomë është një hapësirë, çka nuk mbulohet.
+message-encryption-start = Mesazhet në këtë bisedë tani janë të fshehtëzuar skaj-më-skaj.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } dëshiron të verifikojë { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } anuloi verifikimin me arsyen: { $reason }
+message-verification-done = Verifikimi u plotësua.
+message-decryption-error = S’u shfshehtëzua dot lënda e këtij mesazhi. Që të kërkohen kyçe fshehtëzimi prej pajisjeve tuaja të tjera, djathtasklikoni mbi këtë mesazh.
+message-decrypting = Po shfshehtëzohet…
+message-redacted = Mesazhi u redaktua.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reagoi ndaj { $userThatSentMessage } me { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Rikërko Kyçe
+message-action-redact = Redaktoje
+message-action-report = Raportojeni Mesazhin
+message-action-retry = Riprovo Dërgimin
+message-action-cancel = Anuloje Mesazhin
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Ndodhi një gabim teksa dërgohej mesazhi juaj “{ $message }”.
