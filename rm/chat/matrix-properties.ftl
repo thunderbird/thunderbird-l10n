@@ -2,10 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = ID Matrix
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Memorisar il token d'access
+options-device-display-name = Num per mussar da l'apparat
+options-homeserver = Server
+options-backup-passphrase = Frasa-clav per la copia da segirezza da la clav
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Funcziuns criptograficas: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Arcun secret: { $status }
+# $status (String) a status
+options-encryption-key-backup = Copia da segirezza da la clav da criptadi: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Signatura encruschada: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = betg pront
+options-encryption-need-backup-passphrase = Endatescha per plaschair tia frasa-clav per la copia da segirezza da la clav en las opziuns dal protocol.
+options-encryption-set-up-secret-storage = Per endrizzar in arcun secret, per plaschair utilisar in auter client e silsuenter endatar la frasa-clav per la copia da segirezza da la clav generada en il tab «General».
+options-encryption-set-up-backup-and-cross-signing = Per activar copias da segirezza da la clav da criptadi e la signatura encruschada, endatescha tia frasa-clav per la copia da segirezza da la clav en il tab «General» u verifitgescha l'identitad dad ina da las sesidas sutvart.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +46,7 @@ connection-request-access = Terminar l'autentificaziun
 connection-error-no-supported-flow = Il server na porscha nagin process d'annunzia cumpatibel.
 connection-error-auth-cancelled = Ti has interrut il process d'autorisaziun.
 connection-error-session-ended = La sesida è vegnida deconnectada.
+connection-error-server-not-found = Impussibel dad identifitgar il server Matrix per il conto Matrix inditgà.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -147,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: Entrar en la stanza inditgada.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } ha bandischà { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } ha bandischà { $userBanned }. Motiv: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } ha acceptà l'invitaziun da { $userWhoSent }.
@@ -177,9 +208,17 @@ message-unbanned = { $user } ha annullà la bandischun da { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } ha exclus { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } ha exclus { $userGotKicked }. Motiv: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } ha retratg l'invitaziun da { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } ha retratg l'invitaziun da { $userInvitationWithdrawn }. Motiv: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } ha allontanà il num da la stanza.
 #    $user is the name of the user who changed the room name.
@@ -219,3 +258,29 @@ message-alias-removed = { $user } ha allontanà { $addresses } sco adressa alter
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } ha allontanà { $removedAddresses } ed agiuntà { $addedAddresses } sco adressa per questa stanza.
+message-space-not-supported = Questa stanza è in spazi, e spazis na vegnan betg sustegnids.
+message-encryption-start = Ils messadis en questa conversaziun èn ussa criptads da fin a fin.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } vul verifitgar { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } ha annullà la verificaziun per il motiv: { $reason }
+message-verification-done = Verificaziun cumplettada.
+message-decryption-error = I n'è betg reussì da decriptar ils cuntegns da quest messadi. Per dumandar clavs da criptadi da tes auters apparats, clicca cun la tasta dretga da la mieur sin quest messadi.
+message-decrypting = Decriptar…
+message-redacted = Il messadi è vegnì edità.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } ha reagì sin { $userThatSentMessage } cun { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Redumandar las clavs
+message-action-redact = Editar
+message-action-report = Rapportar il messadi
+message-action-retry = Reempruvar da trametter
+message-action-cancel = Annullar il messadi
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Ina errur è succedida durant trametter tes messadi «{ $message }».
