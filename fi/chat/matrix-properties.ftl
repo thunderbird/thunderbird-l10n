@@ -65,11 +65,15 @@ power-level-default-role = Oletusrooli: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-invite-user = Kutsu käyttäjiä: { $powerLevelName }
 #    $powerLevelName is the power level name
+power-level-kick-users = Estä käyttäjät: { $powerLevelName }
+#    $powerLevelName is the power level name
 power-level-ban = Estä käyttäjät: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-room-avatar = Vaihda huoneen kuva: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-main-address = Vaihda huoneen pääosoite: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-history = Muutoshistorian näkyvyys: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-room-name = Vaihda huoneen nimi: { $powerLevelName }
 #    $powerLevelName is the power level name
@@ -80,6 +84,8 @@ power-level-server-acl = Lähetä m.room.server_acl-tapahtumia: { $powerLevelNam
 power-level-upgrade-room = Päivitä huone: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-remove = Poista viestit: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-events-default = Tapahtumien oletus: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-state-default = Vaihda asetus: { $powerLevelName }
 #    $powerLevelName is the power level name
@@ -101,20 +107,70 @@ detail-room-id = Huoneen tunnus: { $value }
 detail-admin = Ylläpitäjä: { $value }
 # $value are all moderators. Example: "@lorem:mozilla.org, @ipsum:mozilla.org"
 detail-moderator = Valvoja: { $value }
+# $value Example placeholder: "#thunderbird:matrix.org"
+detail-alias = Alias: { $value }
+# $value Example placeholder: "can_join"
+detail-guest = Vieraiden käyttöoikeus: { $value }
+# This is a heading, followed by the power-level-* strings
+detail-power = Tehotasot:
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-ban = { $commandName } &lt; userId &gt; [&lt; syy &gt;]: Estä käyttäjä käyttäjätunnuksella userId huoneesta valinnaisella syy-sanomalla. Vaatii oikeuden kieltää käyttäjät.
+# $commandName is the command name
+command-invite = { $commandName } &lt;userId&gt;: Kutsu käyttäjä huoneeseen.
+# $commandName is the command name
+command-kick = { $commandName } &lt;userId&gt; [&lt; reason &gt;]: Estä käyttäjä userId huoneesta valinnaisella syy-sanomalla. Vaatii luvan estää käyttäjiä.
+# $commandName is the command name
+command-nick = { $commandName } &lt;display_name&gt;: Muuta näyttönimesi.
+# $commandName is the command name
+command-op = { $commandName } &lt;userId&gt; [&lt;power level&gt;]: Määritä käyttäjän tehotaso. Syötä kokonaisluku, Käyttäjä: 0, Moderaattori: 50 ja Järjestelmänvalvoja: 100. Ilman arvoa oletus on 50. Vaatii luvan jäsenen tehotason muuttamiseen. Ei toimi muilla järjestelmänvalvojilla kuin sinä.
+# $commandName is the command name
+command-deop = { $commandName } &lt;userId&gt;: Palauta käyttäjä tehotasolle 0 (Käyttäjä). Vaatii luvan jäsenen tehotason muuttamiseen. Ei toimi muilla järjestelmänvalvojilla kuin sinä.
 # $commandName is the command name
 command-leave = { $commandName }: Poistu nykyisestä huoneesta.
 # $commandName is the command name
+command-topic = { $commandName } &lt;topic&gt;: Aseta huoneen aihe. Vaatii käyttöoikeuden huoneen aiheen muuttamiseen.
+# $commandName is the command name
+command-unban = { $commandName } &lt;userId&gt;: Poista esto käyttäjältä, joka on estetty huoneesta. Vaatii oikeudet estää käyttäjiä.
+# $commandName is the command name
+command-visibility = { $commandName } [&lt;visibility&gt;]: Aseta nykyisen huoneen näkyvyys kotipalvelimen huonehakemistossa. Syötä kokonaisluku, Yksityinen: 0, ja Julkinen : 1. Oletuksena on Yksityinen (0) jos arvoa ei anneta. Vaatii luvan muutta huoneen näkyvyyttä.
+# $commandName is the command name
+command-guest = { $commandName } &lt;guest access&gt; &lt;history visibility&gt;: Aseta nykyisen huoneen vierailijoiden käyttöoikeus ja historian näkyvyys. Syötä kaksi kokonaislukua, ensimmäinen vierailijoiden käyttöoikeudelle (ei sallittu: 0 ja sallittu: 1) ja toinen historian näkyvyydelle (piilossa: 0 ja näkyvillä: 1). Vaatii oikeudet muuttaa historian näkyvyyttä.
+# $commandName is the command name
+command-roomname = { $commandName } &lt;name&gt;: Aseta huoneen nimi. Vaatii oikeudet muuttaa huoneen nimi.
+# $commandName is the command name
 command-detail = { $commandName }: Näytä huoneen tiedot.
+# $commandName is the command name
+command-addalias = { $commandName } &lt;alias&gt;: Luo huoneelle alias. Alias pitää olla muodossa '#localname:domain'. Vaatii oikeudet muuttaa aliaksia.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;alias&gt;: Poista huoneen alias. Alias pitää olla muodossa '#localname:domain'. Vaatii oikeudet poistaa alias.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;newVersion&gt;: Päivitä huone tarjottuun versiooon. Vaatii oikeudet päivittää huone.
+# $commandName is the command name
+command-me = { $commandName } &lt;action&gt;: Suorita toiminto.
+# $commandName is the command name
+command-msg = { $commandName } &lt;userId&gt; &lt;message&gt;: Lähetä valitulle käyttäjälle suora viesti.
+# $commandName is the command name
+command-join = { $commandName } &lt;roomId&gt;: Liity valittuun huoneeseen.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } antoi porttikiellon käyttäjälle { $userBanned }.
+#    $user is the name of the user who accepted the invitation.
+#    $userWhoSent is the name of the user who sent the invitation.
+message-accepted-invite-for = { $user } hyväksyi kutsun käyttäjälle { $userWhoSent }.
 #    $user is the name of the user who accepted an invitation.
 message-accepted-invite = { $user } hyväksyi kutsun.
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user } kutsui käyttäjän { $userWhoGotInvited }.
+#    $user is the name of the user who changed their display name.
+#    $oldDisplayName is the old display name.
+#    $newDisplayName is the new display name.
+message-display-name-changed = { $user } muutti näyttönimensä { $oldDisplayName } näyttönimeksi { $newDisplayName }.
 #    $user is the name of the user who set their display name.
 #    $changedName is the newly set display name.
 message-display-name-set = { $user } asetti näyttönimekseen { $changedName }.
@@ -130,6 +186,12 @@ message-left = { $user } poistui huoneesta.
 #    $user is the name of the user who unbanned.
 #    $userUnbanned is the name of the user who got unbanned.
 message-unbanned = { $user } poisti käyttäjän { $userUnbanned } porttikiellon.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+message-kicked = { $user } esti käyttäjän { $userGotKicked }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+message-withdrew-invite = { $user } peruutti käyttäjän { $userInvitationWithdrawn } kutsun.
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } poisti huoneen nimen.
 #    $user is the name of the user who changed the room name.
