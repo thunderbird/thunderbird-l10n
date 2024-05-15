@@ -20,7 +20,7 @@ help-help-string = help &lt;name&gt;: zobrazí správu pomocníka pre príkaz &l
 #  $status (String): is replaced with the localized version of that status type (one of the 5 strings below).
 status-command = { $command } &lt;stavová správa&gt;: nastaví stav na { $status } s voliteľnou stavovou správou.
 back-key-key = prítomný
-away-key-key = preč
-busy-key-key = neprítomný
-dnd-key-key = neprítomný
+away-key-key = neprítomný
+busy-key-key = nedostupný
+dnd-key-key = nedostupný
 offline-key-key = offline
