@@ -13,6 +13,25 @@ matrix-username-hint = Matrix ID
 options-save-token = Store access token
 options-device-display-name = Device display name
 options-homeserver = Server
+options-backup-passphrase = Key Backup Passphrase
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Cryptographic Functions: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Secret Storage: { $status }
+# $status (String) a status
+options-encryption-key-backup = Encryption Key Backup: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Cross Signing: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = not ready
+options-encryption-need-backup-passphrase = Please enter your backup key passphrase in the protocol options.
+options-encryption-set-up-secret-storage = To set up secret storage, please use another client and afterward enter the generated backup key passphrase in the "General" tab.
+options-encryption-set-up-backup-and-cross-signing = To activate encryption key backups and cross signing, enter your backup key passphrase in the "General" tab or verify the identity of one of the sessions below.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
