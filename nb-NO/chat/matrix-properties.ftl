@@ -85,6 +85,8 @@ power-level-room-avatar = Endre romavatar: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-main-address = Endre hovedadresse for rommet: { $powerLevelName }
 #    $powerLevelName is the power level name
+power-level-room-name = Endre romnavn: { $powerLevelName }
+#    $powerLevelName is the power level name
 power-level-change-permissions = Endre tillatelser: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-server-acl = Send m.room.server_acl-hendelser: { $powerLevelName }
@@ -92,6 +94,8 @@ power-level-server-acl = Send m.room.server_acl-hendelser: { $powerLevelName }
 power-level-upgrade-room = Oppgrader rommet: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-remove = Fjern meldinger: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-events-default = Standardhendelser: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-state-default = Endre innstilling: { $powerLevelName }
 #    $powerLevelName is the power level name
@@ -115,6 +119,8 @@ detail-moderator = Moderator: { $value }
 detail-alias = Alias: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = Gjestetilgang: { $value }
+# $commandName is the command name
+command-detail = { $commandName }: Vis detaljene for rommet.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
@@ -128,6 +134,16 @@ message-accepted-invite = { $user } aksepterte en invitasjon.
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user } inviterte { $userWhoGotInvited }.
+#    $user is the name of the user who changed their display name.
+#    $oldDisplayName is the old display name.
+#    $newDisplayName is the new display name.
+message-display-name-changed = { $user } endret visningsnavnet sitt fra { $oldDisplayName } til { $newDisplayName }.
+#    $user is the name of the user who set their display name.
+#    $changedName is the newly set display name.
+message-display-name-set = { $user } endret visningsnavnet sitt til { $changedName }.
+#    $user is the name of the user who removed their display name.
+#    $nameRemoved is the old display name which has been removed.
+message-display-name-remove = { $user } fjernet visningnavnet { $nameRemoved }.
 #    $user is the name of the user who has joined the room.
 message-joined = { $user } har blitt med i rommet.
 #    $user is the name of the user who has rejected the invitation.
@@ -146,8 +162,18 @@ message-kicked-with-reason = { $user } sparket ut { $userGotKicked }. Årsak: { 
 message-withdrew-invite = { $user } trakk tilbake { $userInvitationWithdrawn } sin invitasjon.
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } fjernet rommets navn.
+#    $user is the name of the user who changed the room name.
+#    $newRoomName is the new room name.
+message-room-name-changed = { $user } endret navnet på rommet til { $newRoomName }.
 #    $user is the name of the target user whose power level has been changed.
 #    $oldPowerLevel is the old power level.
 #    $newPowerLevel is the new power level.
 message-power-level-from-to = { $user } fra { $oldPowerLevel } til { $newPowerLevel }
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } vil verifisere { $userReceiving }.
 message-verification-done = Verifisering fullført.
+message-decrypting = Dekrypterer…
+message-action-redact = Rediger
+message-action-report = Rapporter melding
+message-action-cancel = Avbryt melding
