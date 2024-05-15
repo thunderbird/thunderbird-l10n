@@ -174,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: entra nella stanza specificata.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } ha escluso { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } ha escluso { $userBanned }. Motivo: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } ha accettato l’invito di { $userWhoSent }.
@@ -204,9 +208,17 @@ message-unbanned = { $user } ha annullato l’esclusione di { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } ha escluso { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } ha espulso { $userGotKicked }. Motivo: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } ha ritirato l’invito di { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } ha ritirato l’invito di { $userInvitationWithdrawn }. Motivo: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } ha rimosso il nome della stanza.
 #    $user is the name of the user who changed the room name.
@@ -248,10 +260,24 @@ message-alias-removed = { $user } ha rimosso { $addresses } come indirizzo alter
 message-alias-removed-and-added = { $user } ha rimosso { $removedAddresses } e ha aggiunto { $addedAddresses } come indirizzo per questa stanza.
 message-space-not-supported = Questa stanza è uno spazio e gli spazi non sono supportati.
 message-encryption-start = I messaggi in questa conversazione sono ora protetti da crittografia end-to-end.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } vuole verificare { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } ha annullato la richiesta di verifica con la motivazione: { $reason }
 message-verification-done = Verifica completata
 message-decryption-error = Impossibile decrittare il contenuto di questo messaggio. Per richiedere le chiavi crittografiche da un altro dei tuoi dispositivi, fai clic con il tasto destro del mouse su questo messaggio.
+message-decrypting = Decrittazione in corso…
 message-redacted = Il messaggio è stato rimosso.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } ha reagito a { $userThatSentMessage } con { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Richiedi nuovamente le chiavi
 message-action-redact = Rimuovi
+message-action-report = Segnala messaggio
 message-action-retry = Riprova a inviare
 message-action-cancel = Annulla messaggio
 # LOCALIZATION NOTE (error-*)
