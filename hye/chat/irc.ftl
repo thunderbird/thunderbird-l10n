@@ -214,6 +214,7 @@ error-channel-forward = Կարող եք չմիանալ { $name }-ին եւ մի�
 #    The human readable ("realname") description of the user.
 tooltip-realname = Անուն
 tooltip-registered = Գրանցուած է
+tooltip-registered-as = Գրանցուած է որպէս՝
 tooltip-secure = Աւգտագործելով անվտանգ կապակցում
 # The away message of the user
 tooltip-away = Տեղում չէ
