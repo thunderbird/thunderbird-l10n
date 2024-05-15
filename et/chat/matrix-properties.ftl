@@ -267,3 +267,20 @@ message-verification-request2 = { $user } soovib verifitseerida kasutaja { $user
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } tühistas verifitseerimise järgneva põhjusega: { $reason }
 message-verification-done = Verifitseerimine lõpetati.
+message-decryption-error = Selle sõnumi sisu polnud võimalik krüptida. Oma teiste seadmete krüptimisvõtmete hankimiseks paremklõpsa sellel sõnumil.
+message-decrypting = Dekrüptimine...
+message-redacted = Sõnumit muudeti.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reageeris kasutajale { $userThatSentMessage } sisuga { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Küsi võtmeid uuesti
+message-action-redact = Muuda
+message-action-report = Raporteeri sõnumist
+message-action-retry = Proovi uuesti saata
+message-action-cancel = Tühista sõnum
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Sõnumi "{ $message }" saatmisel esines viga.
