@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Conserver la structure existante des dossiers archivés
     .accesskey = C
+recreate-inbox =
+    .label = Refaire le dossier des boîtes de réception
+    .accesskey = R
 archive-example-label = Exemple
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Courrier entrant
+child-folder-name =
+    .label = Sous-dossier de la boîte de réception
+sibling-folder-name =
+    .label = Soeur de la boîte de réception

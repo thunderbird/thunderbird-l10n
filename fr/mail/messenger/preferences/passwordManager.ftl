@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Identifiants enregistrés
-saved-logins-title = Identifiants enregistrés
 window-close =
     .key = w
+saved-logins-title = Identifiants enregistrés
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Confirmez votre identité pour révéler les m
 password-os-auth-dialog-message-macosx = révéler les mots de passe enregistrés
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] modifier les paramètres des mots de passe
+       *[other] { -brand-short-name } tente de modifier les paramètres des mots de passe. Connectez-vous à l’aide de votre appareil pour autoriser cette action.
+    }

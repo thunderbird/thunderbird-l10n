@@ -571,6 +571,9 @@ primary-password-description = Un mot de passe principal protège tous vos mots 
 primary-password-label =
     .label = Utiliser un mot de passe principal
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Exiger la connexion de l’appareil pour renseigner et gérer les mots de passe
 primary-password-button =
     .label = Changer le mot de passe principal ...
     .accesskey = C
