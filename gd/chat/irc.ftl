@@ -157,6 +157,14 @@ message-unknown-nick = 'S e far-ainm neo-aithnichte a tha ann an: { $nick }.
 message-channel-key-added = Dh'atharraich { $nick } facal-faire an t-seanail agus 's e { $newPassword } a tha ann a-nis.
 #    $nick is the nickname of the user who changed the mode
 message-channel-key-removed = Thug { $nick } air falbh facal-faire an t-seanail.
+#    $place This will be followed by a list of ban masks.
+message-ban-masks = Tha cleachdaichean a rinn ceangal o na h-àitichean a leanas air an toirmeasg à { $place }:
+#    $place This will be followed by a list of ban masks.
+message-no-ban-masks = Cha deach { $place } a thoirmeasg à àite sam bith.
+# $locationMatches Location matches; $nick Nickname of user
+message-ban-mask-added = Chaidh cleachdaichean a rinn ceangal o àitichean a mhaidicheas { $locationMatches } a thoirmeasg le { $nick }.
+# $locationMatches Location matches; $nick Nickname of user
+message-ban-mask-removed = Chan eil cleachdaichean a rinn ceangal o àitichean a mhaidsicheas { $nick } air an toirmeasg à { $locationMatches } tuilleadh.
 # $source is the nickname of the user or the server that was pinged.
 # $delay is the delay (in milliseconds).
 message-ping =
