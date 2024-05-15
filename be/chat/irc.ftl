@@ -20,6 +20,10 @@ connection-error-password-required = Патрабуецца пароль
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Канал
 join-chat-password = _Пароль
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-server = Сервер
 options-port = Порт
 options-ssl = Ужываць SSL
 options-encoding = Набор знакаў
