@@ -2,7 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = Store access token
 options-device-display-name = Device display name
+options-homeserver = Server
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -17,6 +27,7 @@ connection-request-access = Finalizing authentication
 connection-error-no-supported-flow = Server offers no compatible login flow.
 connection-error-auth-cancelled = You cancelled the authorization process.
 connection-error-session-ended = Session was logged out.
+connection-error-server-not-found = Could not identify the Matrix server for the given Matrix account.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -144,6 +155,10 @@ command-join = { $commandName } &lt;roomId&gt;: Join the given room.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } banned { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } banned { $userBanned }. Reason: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } accepted the invitation for { $userWhoSent }.
@@ -174,9 +189,17 @@ message-unbanned = { $user } unbanned { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } kicked { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } kicked { $userGotKicked }. Reason: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } withdrew { $userInvitationWithdrawn }'s invitation.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } withdrew { $userInvitationWithdrawn }'s invitation. Reason: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } removed the room name.
 #    $user is the name of the user who changed the room name.
@@ -217,3 +240,15 @@ message-alias-removed = { $user } removed { $addresses } as alternative address 
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } removed { $removedAddresses } and added { $addedAddresses } as address for this room.
 message-space-not-supported = This room is a space, which is not supported.
+message-encryption-start = Messages in this conversation are now end-to-end encrypted.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } wants to verify { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } cancelled the verification with the reason: { $reason }
+message-verification-done = Verification completed.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reacted to { $userThatSentMessage } with { $reaction }.
