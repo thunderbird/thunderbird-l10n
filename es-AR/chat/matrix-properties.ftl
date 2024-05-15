@@ -6,6 +6,26 @@
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Guardar token de acceso
+options-device-display-name = Nombre para mostrar del dispositivo
+options-backup-passphrase = Contraseña de la copia de seguridad de la clave
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Funciones criptográficas: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Almacenamiento secreto: { $status }
+# $status (String) a status
+options-encryption-key-backup = Copia de seguridad de la clave de cifrado: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Firma cruzada: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = no listo
+options-encryption-need-backup-passphrase = Ingrese la frase de contraseña de su clave de respaldo en las opciones de protocolo.
+options-encryption-set-up-secret-storage = Para configurar el almacenamiento secreto, use otro cliente y luego ingrese la frase de contraseña de la clave de respaldo generada en la pestaña "General".
+options-encryption-set-up-backup-and-cross-signing = Para activar las copias de seguridad de la clave de cifrado y la firma cruzada, ingrese su frase de contraseña de la clave de respaldo en la pestaña "General" o verifique la identidad de una de las sesiones a continuación.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -147,6 +167,10 @@ command-join = { $commandName } &lt;roomId&gt;: Unirse a la sala dada.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } bloqueó a { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } bloqueó a { $userBanned }. Razón: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } aceptó la invitación para { $userWhoSent }.
@@ -177,9 +201,17 @@ message-unbanned = { $user } desbloqueó a { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } expulsó a { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } expulsó a { $userGotKicked }. Razón: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } retiró la invitación de { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } retiró la invitación de { $userInvitationWithdrawn }. Razón: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } eliminó el nombre del salón.
 #    $user is the name of the user who changed the room name.
@@ -217,3 +249,29 @@ message-alias-removed = { $user } eliminó { $addresses } como dirección altern
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } eliminó { $removedAddresses } y agregó { $addedAddresses } como dirección para este salón.
+message-space-not-supported = Este salón es un espacio que no es soportado.
+message-encryption-start = Los mensajes en esta conversación ahora están cifrados de extremo a extremo.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } quiere verificar a { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } canceló la verificación por la razón: { $reason }
+message-verification-done = Verificación completa.
+message-decryption-error = No se pudo descifrar el contenido de este mensaje. Para solicitar claves de cifrado de sus otros dispositivos, haga clic derecho en este mensaje.
+message-decrypting = Descifrando…
+message-redacted = El mensaje fue modificado.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reaccionó a { $userThatSentMessage } con { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Volver a solicitar claves
+message-action-redact = Editar
+message-action-report = Informar mensaje
+message-action-retry = Reintentar envío
+message-action-cancel = Cancelar mensaje
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Se produjo un error al enviar el mensaje "{ $message }".
