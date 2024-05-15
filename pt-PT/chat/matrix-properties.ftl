@@ -2,6 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = ID do Matrix
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = Guardar código de acesso
+options-device-display-name = Nome de apresentação do dispositivo
+options-homeserver = Servidor
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -16,6 +27,7 @@ connection-request-access = A finalizar a autenticação
 connection-error-no-supported-flow = O servidor não oferece fluxo compatível de autenticação.
 connection-error-auth-cancelled = Cancelou o processo de autorização.
 connection-error-session-ended = A sessão foi terminada.
+connection-error-server-not-found = Não foi possível identificar o servidor Matrix para a conta Matrix fornecida.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -215,3 +227,4 @@ message-alias-removed = { $user } removeu { $addresses } como endereço alternat
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } removeu { $removedAddresses } e adicionou { $addedAddresses } como endereço para esta sala.
+message-space-not-supported = Esta sala é um espaço, o que não é suportado.
