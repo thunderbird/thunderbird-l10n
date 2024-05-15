@@ -126,3 +126,13 @@ detail-moderator = 중재자: { $value }
 detail-alias = 별칭: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = 비회원 접근: { $value }
+# $commandName is the command name
+command-invite = { $commandName } &lt;userId&gt;: 사용자를 방에 초대합니다.
+# $commandName is the command name
+command-nick = { $commandName } &lt;display_name&gt;: 닉네임을 변경합니다.
+# $commandName is the command name
+command-leave = { $commandName }: 현재 방을 나갑니다.
+# $commandName is the command name
+command-topic = { $commandName } &lt;topic&gt;: 채팅방의 주제를 설정합니다. 주제를 변경하려면 권한이 필요합니다.
+# $commandName is the command name
+command-unban = { $commandName } &lt;userId&gt;: 방에서 차단된 사용자를 차단 해제합니다. 사용자를 차단하려면 권한이 필요합니다.
