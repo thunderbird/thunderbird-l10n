@@ -2,6 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
+options-homeserver = Ruk'u'x samaj
+options-encryption-status-ok = ütz
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -49,3 +58,7 @@ power-level-state-default = Kejal taq nuk'ulem: { $powerLevelName }
 detail-name = B'i'aj: { $value }
 # $value Example placeholder: "#thunderbird:mozilla.org"
 detail-room-id = RoomID: { $value }
+# $value are all admin users. Example: "@foo:example.com, @bar:example.com"
+detail-admin = Nuk'samajel: { $value }
+# $value are all moderators. Example: "@lorem:mozilla.org, @ipsum:mozilla.org"
+detail-moderator = Ch'a'onel: { $value }
