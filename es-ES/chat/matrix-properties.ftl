@@ -29,6 +29,7 @@ options-encryption-status-ok = ok
 options-encryption-status-not-ok = no está listo
 options-encryption-need-backup-passphrase = Introduce la frase de contraseña de tu clave de respaldo en las opciones de protocolo.
 options-encryption-set-up-secret-storage = Para configurar el almacenamiento secreto, utilice otro cliente y luego introduzca la frase de contraseña de la clave de respaldo generada en la pestaña "General".
+options-encryption-set-up-backup-and-cross-signing = Para activar las copias de seguridad de la clave de cifrado y la firma cruzada, introduzca su frase de contraseña de la clave de respaldo en la pestaña "General" o verifique la identidad de una de las sesiones a continuación.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -39,7 +40,13 @@ options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 #    periods at the end of these messages.)
 connection-request-auth = Esperando su autorización
 connection-request-access = Finalizando autentificación
+# LOCALIZATION NOTE (connection-error-*):
+#   These will show in the account manager if an error occurs during the
+#   connection attempt.
+connection-error-no-supported-flow = El servidor no ofrece ningún flujo de inicio de sesión compatible.
 connection-error-auth-cancelled = Ha cancelado el proceso de autorización.
+connection-error-session-ended = La sesión se ha cerrado.
+connection-error-server-not-found = No se ha podido identificar el servidor Matrix para la cuenta Matrix indicada.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -79,9 +86,27 @@ power-level-ban = Bloquear usuarios: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-room-avatar = Cambiar avatar de sala: { $powerLevelName }
 #    $powerLevelName is the power level name
+power-level-main-address = Cambiar dirección principal de la sala: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-history = Cambiar la visibilidad del historial: { $powerLevelName }
+#    $powerLevelName is the power level name
 power-level-room-name = Cambiar nombre de la sala: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-change-permissions = Cambiar permisos: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-server-acl = Enviar eventos m.room.server_acl: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-upgrade-room = Actualizar la sala: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-remove = Eliminar mensajes: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-events-default = Eventos predeterminados: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-state-default = Cambiar la configuración: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-encryption = Activar el cifrado de la sala: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-topic = Establecer el tema de la sala: { $powerLevelName }
 # LOCALIZATION NOTE (detail-*):
 #    These are the string representations of different matrix properties.
 #    $value will typically be strings with the actual values.
@@ -99,6 +124,51 @@ detail-admin = Administrador: { $value }
 detail-moderator = Moderador: { $value }
 # $value Example placeholder: "#thunderbird:matrix.org"
 detail-alias = Alias: { $value }
+# $value Example placeholder: "can_join"
+detail-guest = Acceso de invitado: { $value }
+# This is a heading, followed by the power-level-* strings
+detail-power = Niveles de poder:
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-ban = { $commandName } &lt;userId&gt; [&lt;motivo&gt;]: Excluir de la sala al usuario con el userId con un mensaje opcional de motivo. Requiere permiso para prohibir usuarios.
+# $commandName is the command name
+command-invite = { $commandName } &lt;userId&gt;: Invitar usuario a la sala.
+# $commandName is the command name
+command-kick = { $commandName } & lt;userId &gt; [&lt;motivo& gt;]: Echar al usuario con el userId de la sala con un mensaje de motivo opcional. Requiere permiso para echar a usuarios.
+# $commandName is the command name
+command-nick = { $commandName } &lt;nombre_para_mostrar&gt;: Cambiar su nombre para mostrar.
+# $commandName is the command name
+command-op = { $commandName } &lt;userId&gt; [&lt;nivel de poder&gt;]: Define el nivel de poder del usuario. Escribir un valor entero, Usuario: 0, Moderador: 50 y Administrador: 100. El valor predeterminado será de 50 si no se indica. Requiere permiso para cambiar los niveles de poder de los miembros. No funciona en administradores que no sean usted mismo.
+# $commandName is the command name
+command-deop = { $commandName } &lt;userId&gt;: Restablecer el usuario al nivel de poder 0 (Usuario). Requiere permiso para cambiar los niveles de poder de los miembros. No funciona en otros administradores que no sea usted mismo.
+# $commandName is the command name
+command-leave = { $commandName }: Salir de la sala actual.
+# $commandName is the command name
+command-topic = { $commandName } &lt;topic&gt;: Establecer el tema de la sala. Requiere permisos para cambiar el tema de la sala.
+# $commandName is the command name
+command-unban = { $commandName } &lt;userId&gt;: Eliminar la prohibición a un usuario que está prohibido en la sala. Requiere permiso para prohibir usuarios.
+# $commandName is the command name
+command-visibility = { $commandName } [&lt;visibility&gt;]: Establece la visibilidad de la sala actual en el directorio actual del servidor de inicio. Escribir un valor entero, Privado: 0 y Público: 1. El valor predeterminado, será privado (0) si no se proporciona ningún argumento. Requiere permiso para cambiar la visibilidad de la sala.
+# $commandName is the command name
+command-guest = { $commandName } &lt;acceso invitado&gt; &lt;visibilidad de historial&gt;: Establecer el acceso y la visibilidad del historial de la sala actual para los usuarios invitados. Introducir dos valores enteros, el primero para el acceso de los invitados (no permitido: 0 y permitido: 1) y el segundo para la visibilidad del historial (no visible: 0 y visible: 1). Requiere permiso para cambiar la visibilidad del historial.
+# $commandName is the command name
+command-roomname = { $commandName } &lt;nombre&gt;: Establecer el nombre de la sala. Requiere permisos para cambiar el nombre de la sala.
+# $commandName is the command name
+command-detail = { $commandName }: Mostrar los detalles de la sala.
+# $commandName is the command name
+command-addalias = { $commandName } &lt;alias&gt;: Crear un alias para la sala. Se esperaba un alias de la sala de la forma '#localname:domain'. Requiere permiso para añadir alias.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;alias&gt;: Eliminar el alias de la sala. Se esperaba un alias de la sala de la forma '#localname:domain'. Requiere permiso para eliminar alias.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;newVersion&gt;: Actualizar la sala a determinada versión. Requiere permiso para actualizar la sala.
+# $commandName is the command name
+command-me = { $commandName } &lt;acción a ejecutar&gt;: Realizar una acción.
+# $commandName is the command name
+command-msg = { $commandName } &lt;userId&gt; &lt;mensaje&gt;: Enviar un mensaje directo al usuario dado.
+# $commandName is the command name
+command-join = { $commandName } &lt;roomId&gt;: Unirse a la sala dada.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
@@ -120,13 +190,85 @@ message-invited = { $user } invitó a { $userWhoGotInvited }.
 #    $oldDisplayName is the old display name.
 #    $newDisplayName is the new display name.
 message-display-name-changed = { $user } cambió su nombre mostrado de { $oldDisplayName } a { $newDisplayName }.
+#    $user is the name of the user who set their display name.
+#    $changedName is the newly set display name.
+message-display-name-set = { $user } estableció su nombre a mostrar a { $changedName }.
+#    $user is the name of the user who removed their display name.
+#    $nameRemoved is the old display name which has been removed.
+message-display-name-remove = { $user } eliminó su nombre a mostrar { $nameRemoved }.
 #    $user is the name of the user who has joined the room.
 message-joined = { $user } se ha unido a la sala.
 #    $user is the name of the user who has rejected the invitation.
 message-rejected-invite = { $user } ha rechazado la invitación.
 #    $user is the name of the user who has left the room.
 message-left = { $user } ha abandonado la sala.
+#    $user is the name of the user who unbanned.
+#    $userUnbanned is the name of the user who got unbanned.
+message-unbanned = { $user } desbloqueó a { $userUnbanned }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+message-kicked = { $user } expulsó a { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } expulsado { $userGotKicked }. Motivo: { $reason }
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+message-withdrew-invite = { $user } retiró la invitación de { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } retiró la invitación de { $userInvitationWithdrawn }. Motivo: { $reason }
+#    $user is the name of the user who has removed the room name.
+message-room-name-remove = { $user } eliminó el nombre de la sala.
+#    $user is the name of the user who changed the room name.
+#    $newRoomName is the new room name.
+message-room-name-changed = { $user } cambió el nombre de la sala a { $newRoomName }.
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user } cambió el nivel de poder de { $powerLevelChanges }.
+#    $user is the name of the target user whose power level has been changed.
+#    $oldPowerLevel is the old power level.
+#    $newPowerLevel is the new power level.
+message-power-level-from-to = { $user } de { $oldPowerLevel } a { $newPowerLevel }
+#    $user is the name of the user who has allowed guests to join the room.
+message-guest-allowed = { $user } ha permitido que los invitados se unan a la sala.
+#    $user is the name of the user who has prevented guests to join the room.
+message-guest-prevented = { $user } ha evitado que invitados se unieran a la sala.
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = { $user } hizo que el historial futuro de la sala sea visible para cualquiera.
+#    $user is the name of the user who has made future room history visible to all room members.
+message-history-shared = { $user } hizo que el historial futuro de la sala sea visible para todos los miembros de la sala.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = { $user } hizo que el historial futuro de la sala sea visible para todos los miembros de la sala desde el momento en que sean invitados.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user } hizo que el historial futuro de la sala sea visible para todos los miembros de la sala desde el momento en que se unieron.
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user } estableció la dirección principal para esta sala de { $oldAddress } a { $newAddress }.
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user } añadió { $addresses } como dirección alternativa  para esta sala.
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user } eliminó { $addresses } como dirección alternativa para esta sala.
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = { $user } eliminó { $removedAddresses } y añadió { $addedAddresses } como dirección para esta sala.
+message-space-not-supported = Esta sala es un espacio, lo que no está soportado.
+message-encryption-start = Los mensajes en esta conversación ahora están cifrados de extremo a extremo.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } quiere verificar a { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } canceló la verificación por la razón: { $reason }
 message-verification-done = Verificación completada.
+message-decryption-error = No se pudo descifrar el contenido de este mensaje. Para solicitar claves de cifrado de sus otros dispositivos, haga clic en este mensaje con el botón derecho.
+message-decrypting = Descifrando...
 message-redacted = El mensaje fue redactado.
 #    Label in the message context menu
 message-action-request-key = Volver a solicitar claves
