@@ -18,7 +18,7 @@ keep-folder-structure =
     .accesskey = Z
 recreate-inbox =
     .label = Znovu vytvoriť priečinok Doručená pošta
-    .accesskey = Z
+    .accesskey = D
 archive-example-label = Príklad
 # This should match the default name for the "Archives" folder.
 archive-folder-name =

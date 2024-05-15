@@ -231,7 +231,7 @@ tooltip-registered = Registrovaný
 tooltip-registered-as = Registrovaný ako
 tooltip-secure = Používa zabezpečené pripojenie
 # The away message of the user
-tooltip-away = Preč
+tooltip-away = Som preč
 tooltip-irc-op = Operátor kanála IRC
 tooltip-bot = Bot
 tooltip-last-activity = Doba nečinnosti
