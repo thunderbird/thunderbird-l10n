@@ -65,6 +65,8 @@ command-list = { $commandName }: Exibe uma lista das salas de conversa na rede. 
 # $commandName is the command name
 command-memoserv = { $commandName } &lt;comando&gt;: envia um comando para MemoServ.
 # $commandName is the command name
+command-mode-user2 = { $commandName } &lt;apelido&gt; [(+|-)&lt;modo&gt;]: Obtém, define ou remove um modo de usuário.
+# $commandName is the command name
 command-mode-channel2 = { $commandName } [&lt;channel&gt;] [(+|-)&lt;new mode&gt; [&lt;parameter&gt;][,&lt;parameter&gt;]*]: Verifica, define ou remove modo do Canal.
 # $commandName is the command name
 command-msg = { $commandName } &lt;apelido&gt; &lt;mensagem&gt;: envia uma mensagem privada ao usuário (em vez de para um canal).
@@ -90,6 +92,8 @@ command-quote = { $commandName } &lt;comando&gt;: envia um comando sem processam
 command-time = { $commandName }: exibe a hora local do servidor IRC.
 # $commandName is the command name
 command-topic = { $commandName } [&lt;novo tópico&gt;]: define o tópico deste canal.
+# $commandName is the command name
+command-umode = { $commandName } (+|-)&lt;novo modo&gt;: Define ou remove um modo de usuário.
 # $commandName is the command name
 command-version = { $commandName } &lt;apelido&gt;: solicita a versão do cliente de um usuário.
 # $commandName is the command name
