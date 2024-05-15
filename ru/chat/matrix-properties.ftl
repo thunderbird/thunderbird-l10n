@@ -2,10 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Токен доступа к хранилищу
+options-device-display-name = Отображаемое имя устройства
+options-homeserver = Сервер
+options-backup-passphrase = Парольная фраза для резервного копирования ключа
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Криптографические функции: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Секретное хранилище: { $status }
+# $status (String) a status
+options-encryption-key-backup = Резервная копия ключа шифрования: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Перекрёстная подпись: { $status }
+options-encryption-status-ok = Ok
+options-encryption-status-not-ok = не готово
+options-encryption-need-backup-passphrase = Введите парольную фразу резервного ключа в параметрах протокола.
+options-encryption-set-up-secret-storage = Чтобы настроить секретное хранилище, используйте другой клиент, а затем введите сгенерированную парольную фразу резервного ключа на вкладке «Общие».
+options-encryption-set-up-backup-and-cross-signing = Чтобы активировать резервные копии ключей шифрования и перекрестную подпись, введите парольную фразу резервного ключа на вкладке «Общие» или подтвердите подлинность одного из сеансов ниже.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +46,7 @@ connection-request-access = Завершение аутентификации
 connection-error-no-supported-flow = Сервер не предлагает совместимого потока для входа.
 connection-error-auth-cancelled = Вы прервали процесс авторизации.
 connection-error-session-ended = Сессия была отключена.
+connection-error-server-not-found = Не удалось идентифицировать сервер Matrix для данной учётной записи Matrix.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -147,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: Присоединиться к 
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } забанил(а) { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } забанил(а) { $userBanned }. Причина: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } принял(а) приглашение { $userWhoSent }.
@@ -177,9 +208,17 @@ message-unbanned = { $user } разбанил(а) { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } изгнал(а) { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } изгнал(а) { $userGotKicked }. Причина: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } отозвал(а) приглашение { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } отозвал(а) приглашение { $userInvitationWithdrawn }. Причина: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } удалил(а) название комнаты.
 #    $user is the name of the user who changed the room name.
@@ -219,3 +258,29 @@ message-alias-removed = { $user } удалил(а) { $addresses } из альт�
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } удалил(а) { $removedAddresses } и добавил(а) { $addedAddresses } в адреса этой комнаты.
+message-space-not-supported = Эта комната является неподдерживаемым пространством.
+message-encryption-start = Сообщения в этом разговоре теперь защищены сквозным шифрованием.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } хочет проверить { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } отменил проверку по причине: { $reason }
+message-verification-done = Проверка завершена.
+message-decryption-error = Не удалось расшифровать содержимое этого сообщения. Чтобы запросить ключи шифрования с других ваших устройств, щёлкните по этому сообщению правой кнопкой мыши.
+message-decrypting = Расшифровка...
+message-redacted = Сообщение было отредактировано.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } отреагировал на { $userThatSentMessage } отправив { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Повторно запросить ключи
+message-action-redact = Редактировать
+message-action-report = Сообщить о сообщении
+message-action-retry = Повторить отправку
+message-action-cancel = Отменить сообщение
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Произошла ошибка при отправке вашего сообщения «{ $message }».
