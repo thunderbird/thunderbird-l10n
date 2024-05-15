@@ -6,6 +6,26 @@
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Uložit přístupový token
+options-device-display-name = Zobrazovaný název zařízení
+options-backup-passphrase = Heslo zálohy klíče
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Kryptografické funkce: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Tajné úložiště: { $status }
+# $status (String) a status
+options-encryption-key-backup = Záloha šifrovacího klíče: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Křízový podpis: { $status }
+options-encryption-status-ok = ok
+options-encryption-status-not-ok = není připraveno
+options-encryption-need-backup-passphrase = Zadejte prosím v nastavení protokolu heslo pro zálohu svého bezpečnostního klíče.
+options-encryption-set-up-secret-storage = Pro nastavení zabezpečeného úložiště prosím použijte jiného klienta a následně zadejte heslo pro zálohu vygenerovaného bezpečnostního klíče v panelu „Obecné“.
+options-encryption-set-up-backup-and-cross-signing = Pro zapnutí zálohování šifrovacích klíčů a křížových podpisů zadejte heslo pro zálohu svého záložního bezpečnostního klíče v panelu „Obecné“, nebo ověřte svou identitu z některé z relací uvedených níže.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -147,6 +167,10 @@ command-join = { $commandName } &lt;roomId&gt;: Vstoupí do uvedené místnosti.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = Uživatel { $user } vykopl uživatele { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = Uživatel { $user } vykázal uživatele { $userBanned }. Důvod: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = Uživatel { $user } přijal pozvání pro { $userWhoSent }.
@@ -177,9 +201,17 @@ message-unbanned = Uživatel { $user } zrušil vykázání uživatele { $userUnb
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = Uživatel { $user } vykopl uživatele { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = Uživatel { $user } vykopl uživatele { $userGotKicked }. Důvod: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = Uživatel { $user } zrušil pozvání pro { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = Uživatel { $user } zrušil pozvání pro { $userInvitationWithdrawn }. Důvod: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = Uživatel { $user } smazal název místnosti.
 #    $user is the name of the user who changed the room name.
@@ -219,3 +251,24 @@ message-alias-removed = Uživatel { $user } odebral následující alternativní
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = Uživatel { $user } změnil adresy této místnosti. Přidáno: { $removedAddresses }. Odebráno: { $addedAddresses }.
+message-space-not-supported = Tato místnost není podporovaná.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = Uživatel { $user } chce ověřit uživatele { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = Uživatel { $user } zrušil požadavek na ověření z důvodu: { $reason }
+message-verification-done = Ověření dokončeno.
+message-decryption-error = Obsah této zprávy se nepodařilo dešifrovat. Pro opětovné vyžádání šifrovacích klíčů z ostatních zařízení klepněte pravým tlačítkem na tuto zprávu.
+message-decrypting = Probíhá dešifrování…
+message-redacted = Zpráva byla redigována.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = Uživatel { $userThatReacted } reagoval na uživatele { $userThatSentMessage }: { $reaction }
+#    Label in the message context menu
+message-action-request-key = Znovu vyžádat klíče
+message-action-redact = Redigovat
+message-action-report = Nahlásit zprávu
+message-action-retry = Znovu odeslat
+message-action-cancel = Zrušit zprávu
