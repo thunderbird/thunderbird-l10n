@@ -571,6 +571,9 @@ primary-password-description = Басты пароль сіздің барлық
 primary-password-label =
     .label = Басты парольді қолдану
     .accesskey = ы
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Парольдерді толтыру және басқару үшін құрылғыға кіруді талап ету
 primary-password-button =
     .label = Басты парольді өзгерту…
     .accesskey = з

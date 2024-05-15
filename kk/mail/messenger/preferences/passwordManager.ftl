@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Сақталған логиндер
-saved-logins-title = Сақталған логиндер
 window-close =
     .key = w
+saved-logins-title = Сақталған логиндер
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Сақталған парольдерді қа
 password-os-auth-dialog-message-macosx = сақталған парольдерді қарау
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] парольдер үшін баптауларды өзгерту
+       *[other] { -brand-short-name } парольдер параметрлерін өзгертуге әрекеттенуде. Бұған рұқсат беру үшін құрылғыңызға кіруді пайдаланыңыз.
+    }
