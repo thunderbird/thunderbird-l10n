@@ -7,6 +7,10 @@
 #  string defined in imAccounts.properties when the user is
 #  configuring a Matrix account.
 matrix-username-hint = Matrix ID
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = Token za pristup trgovini
 options-device-display-name = Naziv za prikaz uređaja
 options-homeserver = Poslužitelj
 options-backup-passphrase = Lozinka sigurnosne kopije ključa
@@ -14,6 +18,14 @@ options-encryption-status-ok = u redu
 options-encryption-status-not-ok = nije spremno
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
+# LOCALIZATION NOTE (connection-*):
+#   These will be displayed in the account manager in order to show the progress
+#   of the connection.
+#   (These will be displayed in account.connection.progress from
+#    accounts.properties, which adds … at the end, so do not include
+#    periods at the end of these messages.)
+connection-request-auth = Čeka se vaša autorizacija
+connection-request-access = Završavanje autorizacije
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if an error occurs during the
 #   connection attempt.
