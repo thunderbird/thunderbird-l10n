@@ -21,5 +21,6 @@ help-help-string = help &lt;mjeno&gt;: zdźělenku pomocy za přikaz &lt;mjeno&g
 status-command = { $command } &lt;statusowa zdźělenka&gt;: staja status na { $status } z opcionalnej statusowej zdźělenku.
 back-key-key = steji k dispoziciji
 away-key-key = njepřitomny
+busy-key-key = nic k dispoziciji
 dnd-key-key = prošu njemylić
 offline-key-key = offline
