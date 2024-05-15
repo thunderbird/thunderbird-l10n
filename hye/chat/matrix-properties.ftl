@@ -81,6 +81,8 @@ power-level-room-avatar = Փոխել զրուցարանի տեսանկարը` { 
 #    $powerLevelName is the power level name
 power-level-main-address = Փոխել զրուցարանի հիմնական հասցէն. { $powerLevelName }
 #    $powerLevelName is the power level name
+power-level-history = Փոխել պատմութեան տեսանելիութիւնը՝ { $powerLevelName }
+#    $powerLevelName is the power level name
 power-level-room-name = Փոխել զրուցարանի անուանումը՝ { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-change-permissions = Փոխել թոյղտուութիւնները. { $powerLevelName }
@@ -113,6 +115,8 @@ detail-room-id = RoomID ՝ { $value }
 detail-admin = Գործավար ՝ { $value }
 # $value are all moderators. Example: "@lorem:mozilla.org, @ipsum:mozilla.org"
 detail-moderator = Համակարգող․ { $value }
+# $value Example placeholder: "#thunderbird:matrix.org"
+detail-alias = Փոխանուն ՝ { $value }
 # $value Example placeholder: "can_join"
 detail-guest = Հեւրերի հասանելիութիւն՝ { $value }
 # This is a heading, followed by the power-level-* strings
