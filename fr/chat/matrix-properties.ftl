@@ -174,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt; : rejoint le salon donné.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } a banni { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } a banni { $userBanned }. Raison : { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } a accepté l’invitation de { $userWhoSent }.
@@ -204,9 +208,17 @@ message-unbanned = { $user } a levé le bannissement de { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } a expulsé { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } a expulsé { $userGotKicked }. Raison : { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } a retiré l’invitation de { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } a retiré l’invitation de { $userInvitationWithdrawn }. Raison : { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } a supprimé le nom du salon.
 #    $user is the name of the user who changed the room name.
@@ -255,3 +267,14 @@ message-verification-request2 = { $user } veut vérifier { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } a annulé la vérification avec la raison : { $reason }
 message-verification-done = Vérification terminée.
+message-decryption-error = Impossible de déchiffrer le contenu de ce message. Pour demander des clés de chiffrement à partir de vos autres appareils, faites un clic droit sur ce message.
+message-decrypting = Déchiffrement…
+message-redacted = Message effacé.
+#    Label in the message context menu
+message-action-request-key = Redemander les clés
+message-action-redact = Effacer
+message-action-report = Signaler le message
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Une erreur s’est produite lors de l’envoi de votre message « { $message } ».
