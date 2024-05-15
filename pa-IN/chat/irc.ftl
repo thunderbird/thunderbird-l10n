@@ -6,6 +6,17 @@
 #   These will show in the account manager if the account is
 #   disconnected because of an error.
 connection-error-lost = Lost connection with server
+connection-error-time-out = ਕਨੈਕਸ਼ਨ ਲਈ ਸਮਾਂ ਸਮਾਪਤ
+# LOCALIZATION NOTE (join-chat-*):
+#   These show up on the join chat menu. An underscore is for the access key.
+join-chat-channel = ਚੈਨਲ(_C)
+join-chat-password = ਪਾਸਵਰਡ(_P)
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-server = ਸਰਵਰ
+options-port = ਪੋਰਟ
+options-ssl = SSL ਵਰਤੋਂ
 options-encoding = Character Set
 options-quit-message = Quit message
 options-part-message = Part message
@@ -143,6 +154,8 @@ error-banned = You are banned from this server.
 error-banned-soon = You will soon be banned from this server.
 error-mode-wrong-user = You cannot change modes for other users.
 #    $name is the nickname or channel name that isn't available.
+error-no-such-nick = { $name } ਆਨਲਾਈਨ ਨਹੀਂ ਹੈ।
+#    $name is the nickname or channel name that isn't available.
 error-was-no-such-nick = There was no nickname: { $name }
 #    $name is the nickname or channel name that isn't available.
 error-no-such-channel = There is no channel: { $name }.
@@ -154,8 +167,27 @@ error-non-unique-target = { $name } is not a unique user@host or shortname or yo
 error-not-channel-op = You are not a channel operator on { $name }.
 #    $name is the channel name.
 error-wrong-key = Cannot join { $name }, invalid channel password.
+# LOCALIZATION NOTE (tooltip-*):
+#    These are the descriptions given in a tooltip with information received
+#    from a whois response.
+#    The human readable ("realname") description of the user.
+tooltip-realname = ਨਾਂ
+tooltip-server = ਇਸ ਨਾਲ ਕਨੈਕਟ ਹੈ
+#    The username and hostname that the user connects from (usually based on the
+#    reverse DNS of the user's IP, but often mangled by the server to
+#    protect users).
+tooltip-connected-from = ਇਸ ਤੋਂ ਕਨੈਕਟ ਹੈ
+tooltip-registered = ਰਜਿਸਟਰ ਹੈ
+tooltip-registered-as = ਇਸ ਵਜੋਂ ਰਜਿਸਟਰ ਹੈ
+tooltip-secure = ਸੁਰੱਖਿਅਤ ਕਨੈਕਸ਼ਨ ਵਰਤ ਕੇ
+# The away message of the user
+tooltip-away = ਦੂਰ
 tooltip-irc-op = IRC Operator
 tooltip-channels = Currently on
 #    $serverName is the server name, $serverInformation is some generic server information (usually a
 #    location or the date the user was last seen).
 tooltip-server-value = { $serverName } ({ $serverInformation })
+# LOCALIZATION NOTE (yes-key-key, no-key-key):
+#  These are used to turn true/false values into a yes-key-key/no-key-key response.
+yes-key-key = ਹਾਂ
+no-key-key = ਨਹੀਂ
