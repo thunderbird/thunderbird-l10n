@@ -193,9 +193,16 @@ conversation-message-banned-you-actor-reason = Forbannet hoc'h bet eus ar saloñ
 #   a room.
 #   $affectedNick (String) is the participant that is kicked.
 conversation-message-kicked = Skarzhet eo bet { $affectedNick } eus ar saloñs.
+#   $affectedNick (String) is the participant that is kicked.
+#   $reason (String) is the reason.
+conversation-message-kicked-reason = Skarzhet eo bet { $affectedNick } eus ar saloñs: { $reason }
 #   $actorNick (String) is the person who is kicking.
 #   $affectedNick (String) is the participant that is kicked.
 conversation-message-kicked-actor = Skarzhet eo bet { $affectedNick } eus ar saloñs gant { $actorNick }.
+#   $actorNick (String) is the person who is kicking.
+#   $affectedNick (String) is the participant that is kicked.
+#   $reason (String) is the reason.
+conversation-message-kicked-actor-reason = Skarzhet eo bet { $affectedNick } eus ar saloñs gant { $actorNick }: { $reason }
 conversation-message-kicked-you = Skarzhet oc'h bet eus ar saloñs.
 #   $reason (String) is the reason.
 conversation-message-kicked-you-reason = Skarzhet oc'h bet eus ar saloñs : { $reason }
