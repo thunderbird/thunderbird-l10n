@@ -227,6 +227,8 @@ message-power-level-changed = { $user } cambió el nivel de poder de { $powerLev
 message-power-level-from-to = { $user } de { $oldPowerLevel } a { $newPowerLevel }
 #    $user is the name of the user who has allowed guests to join the room.
 message-guest-allowed = { $user } ha permitido que los invitados se unan al salón.
+#    $user is the name of the user who has prevented guests to join the room.
+message-guest-prevented = { $user } ha evitado que los invitados se unan al salón.
 #    $user is the name of the user who has made future room history visible to anyone.
 message-history-anyone = { $user } hizo que el historial futuro del salón sea visible para cualquiera.
 #    $user is the name of the user who has made future room history visible to all room members.
