@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Архивтелген хабарламалардың бар болып тұрған бумалар құрылысын сақтау
     .accesskey = т
+recreate-inbox =
+    .label = Кіріс бумасын қайта жасау
+    .accesskey = й
 archive-example-label = Мысалы
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Кіріс
+child-folder-name =
+    .label = Кіріс бумасының ішкі бумасы
+sibling-folder-name =
+    .label = Кіріс бумасының бауыры
