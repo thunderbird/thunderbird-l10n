@@ -131,6 +131,10 @@ error-not-channel-op = אין לך הרשאות הפעלה על הערוץ { $na
 error-not-channel-owner = אין לך בעלות על הערוץ { $name }.
 #    $name is the channel name.
 error-wrong-key = לא ניתן להצטרף אל { $name }, ססמת הערוץ שגויה.
+error-send-message-failed = אירעה שגיאה בעת שליחת ההודעה האחרונה שלך. נא לנסות שוב לאחר חידוש החיבור.
+#    $name is the channel the user tried to join, $details is the channel
+#    he was forwarded to.
+error-channel-forward = אין לך אפשרות להצטרף אל { $name } והופנית אוטומטית אל { $details }.
 #    $mode is the mode that the user tried to set but was not recognized
 #    by the server as a valid mode.
 error-unknown-mode = ‚{ $mode }’ אינו מצב משתמש תקני בשרת הזה.
@@ -144,6 +148,8 @@ tooltip-server = מחובר אל
 #    reverse DNS of the user's IP, but often mangled by the server to
 #    protect users).
 tooltip-connected-from = מחובר מהכתובת
+tooltip-registered = רשום
+tooltip-registered-as = רשום בתור
 tooltip-secure = שימוש בחיבור מוצפן
 # The away message of the user
 tooltip-away = מרוחק
