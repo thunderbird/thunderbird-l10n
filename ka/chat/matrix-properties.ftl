@@ -2,6 +2,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Matrix ID
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = საცავთან წვდომის საცნობი
+options-device-display-name = მოწყობილობის გამოსაჩენი სახელი
+options-homeserver = სერვერი
+options-backup-passphrase = გასაღების სამარქაფო პაროლი
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = კრიპტოგრაფიული ფუნქციები: { $status }
+# $status (String) a status
+options-encryption-secret-storage = საიდუმლო საცავი: { $status }
+# $status (String) a status
+options-encryption-key-backup = დაშიფვრის გასაღების დამარქაფება: { $status }
+# $status (String) a status
+options-encryption-cross-signing = ჯვარედინი ხელმოწერა: { $status }
+options-encryption-status-ok = კარგი
+options-encryption-status-not-ok = არაა მზად
+options-encryption-need-backup-passphrase = გთხოვთ, შეიყვანოთ სამარქაფო გასაღების პაროლი ოქმის პარამეტრებში.
+options-encryption-set-up-secret-storage = საიდუმლო საცავის გასამართად, გთხოვთ, გამოიყენოთ სხვა კლიენტი და შემდეგ შეიყვანოთ წარმოქმნილი სამარქაფო გასაღების პაროლი „ძირითად“ ჩანართში.
+options-encryption-set-up-backup-and-cross-signing = დაშიფვრის გასაღებების დამარქაფებისა და ჯვარედინი ხელმოწერის ასამოქმედებლად, შეიყვანეთ სამარქაფო გასაღების პაროლი „ძირითად“ ჩანართში ან დაამოწმეთ ვინაობა რომელიმე სეანსზე, ქვემოთ.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -16,6 +46,7 @@ connection-request-access = შესვლის დასრულება
 connection-error-no-supported-flow = სერვერის მიერ, არაა შემოთავაზებული ანგარიშზე შესვლის თავსებადი მსვლელობა.
 connection-error-auth-cancelled = თქვენ გააუქმეთ შესვლა.
 connection-error-session-ended = სეანსი დაიხურა.
+connection-error-server-not-found = ვერ დასტურდება Matrix-სერვერი მოცემული Matrix-ანგარიშისთვის.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -143,6 +174,10 @@ command-join = { $commandName } &lt;roomId&gt;: მოცემულ ოთა�
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } მომხმარებელმა შეზღუდა { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } შეზღუდა მომხმარებელმა { $userBanned }. მიზეზი: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } დათანხმდა მოწვევას მომხმარებლისგან { $userWhoSent }.
@@ -173,9 +208,17 @@ message-unbanned = { $user } მომხმარებელმა დაუ�
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } მომხმარებელმა გააძევა { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } გააძევა მომხმარებელმა { $userGotKicked }. მიზეზი: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } მომხმარებელმა ჩამოართვა { $userInvitationWithdrawn } მომხმარებელს მოწვევა.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } მომხმარებელმა უაყრო { $userInvitationWithdrawn }-ს მოწვევა. მიზეზი: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } მომხმარებელმა წაშალა ოთახის სახელი.
 #    $user is the name of the user who changed the room name.
@@ -215,3 +258,29 @@ message-alias-removed = { $user } მომხმარებელმა, დ�
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } მომხმარებელმა, დამატებითი მისამართი { $removedAddresses } მოაცილა და დააყენა { $addedAddresses }, ამ ოთახისთვის.
+message-space-not-supported = ეს ოთახი არის სივრცე, რომელიც არ არის მხარდაჭერილი.
+message-encryption-start = ამ მიმოწერაში შეტყობინებები, ახლა უკვე გამჭოლად დაშიფრულია.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user }-ს სურს დაამოწმოს { $userReceiving } მომხმარებელმა.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } აუქმებს დამოწმებას მიზეზით: { $reason }
+message-verification-done = დამოწმება დასრულებულია.
+message-decryption-error = ამ შეტყობინების შინაარსის გაშიფვრა ვერ მოხერხდა. დაშიფვრის გასაღებების სხვა მოწყობილობიდან მოთხოვნისთვის, დაწკაპეთ ამ წერილზე მარჯვენა ღილაკით.
+message-decrypting = გაშიფვრა...
+message-redacted = წერილი ჩასწორდა.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } გამოეხმაურა { $reaction }-ით { $userThatSentMessage }-ს.
+#    Label in the message context menu
+message-action-request-key = გასაღებების ხელახლა მოთხოვნა
+message-action-redact = ჩასწორება
+message-action-report = მოხსენება
+message-action-retry = ხელახლა გაგზავნა
+message-action-cancel = წერილის გაუქმება
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = წარმოიქმნა შეცდომა, როცა იგზავნებოდა თქვენი წერილი „{ $message }“.
