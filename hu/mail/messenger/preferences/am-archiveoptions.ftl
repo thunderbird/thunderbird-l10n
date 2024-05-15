@@ -26,3 +26,5 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Beérkezett üzenetek
+child-folder-name =
+    .label = Beérkezett üzenetek mappa almappája
