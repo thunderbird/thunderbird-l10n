@@ -102,6 +102,7 @@ tooltip-subscription = Síntiús
 tooltip-full-name = Ainm Iomlán
 tooltip-nickname = Leasainm
 tooltip-email = Seoladh Ríomhphoist
+tooltip-birthday = Lá breithe
 tooltip-user-name = Ainm úsáideora
 tooltip-title = Teideal
 tooltip-organization = Eagras
