@@ -567,6 +567,9 @@ primary-password-description = Ο κύριος κωδικός πρόσβασης
 primary-password-label =
     .label = Χρήση κύριου κωδικού πρόσβασης
     .accesskey = Χ
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Απαίτηση σύνδεσης μέσω συσκευής για συμπλήρωση και διαχείριση κωδικών πρόσβασης
 primary-password-button =
     .label = Αλλαγή κύριου κωδικού πρόσβασης…
     .accesskey = Α

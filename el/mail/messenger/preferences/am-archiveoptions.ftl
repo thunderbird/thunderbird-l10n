@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Διατήρηση δομής φακέλου αρχειοθετημένων μηνυμάτων
     .accesskey = Δ
+recreate-inbox =
+    .label = Επαναδημιουργία φακέλου εισερχομένων
+    .accesskey = Ε
 archive-example-label = Παράδειγμα
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Εισερχόμενα
+child-folder-name =
+    .label = Υποφάκελος εισερχομένων
+sibling-folder-name =
+    .label = Συγγενικός φάκελος εισερχομένων

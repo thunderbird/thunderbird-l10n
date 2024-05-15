@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Αποθηκευμένες συνδέσεις
-saved-logins-title = Αποθηκευμένες συνδέσεις
 window-close =
     .key = w
+saved-logins-title = Αποθηκευμένες συνδέσεις
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Επαληθεύστε την ταυτότητ
 password-os-auth-dialog-message-macosx = αποκαλύψει τους αποθηκευμένους κωδικούς πρόσβασης
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] αλλάξει τις ρυθμίσεις κωδικών πρόσβασης
+       *[other] Το { -brand-short-name } προσπαθεί να αλλάξει τις ρυθμίσεις των κωδικών πρόσβασης. Χρησιμοποιήστε τη σύνδεση μέσω της συσκευής σας για να το επιτρέψετε.
+    }
