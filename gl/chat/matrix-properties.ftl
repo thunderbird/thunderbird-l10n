@@ -2,10 +2,23 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Identificador Matrix
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-save-token = Garda o código («token») de acceso
+options-device-display-name = Nome a amosar para o dispositivo
+options-homeserver = Servidor
+options-encryption-status-not-ok = non está preparado
+options-encryption-need-backup-passphrase = Introduza o contrasinal da copia de seguranza da chave nas opcións do protocolo.
+options-encryption-set-up-secret-storage = Para configurar o almacenamento segredo, use outro cliente e despois insira o contrasinal da copia de seguranza da chave xerado na lapela «Xeral».
+options-encryption-set-up-backup-and-cross-signing = Para activar as copias de seguranza das chaves de cifrado e a sinatura cruzada, introduza o contrasinal da súa chave de seguranza na lapela «Xeral» ou verifique a identidade dunha das seguintes sesións.
+# $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
+options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -20,6 +33,7 @@ connection-request-access = Finalizando a autenticación
 connection-error-no-supported-flow = O servidor non fornece ningún fluxo de identificación compatíbel.
 connection-error-auth-cancelled = Cancelou o proceso de autorización.
 connection-error-session-ended = A sesión foi rematada.
+connection-error-server-not-found = Non se puido identificar o servidor Matrix a partir da conta Matrix fornecida.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -142,6 +156,15 @@ command-me = { $commandName } &lt;acción&gt;: Realizar unha acción.
 command-msg = { $commandName } &lt;userId&gt; &lt;mensaxe&gt;: Enviar unha mensaxe a un usuario dado.
 # $commandName is the command name
 command-join = { $commandName } &lt;roomId&gt;: Entrar na sala dada.
+# LOCALIZATION NOTE (message-*):
+#    These are shown as system messages in the conversation.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+message-banned = { $user } bloqueou a { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } bloqueou a { $userBanned }. Motivo: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } aceptou o convite para { $userWhoSent }.
@@ -162,6 +185,8 @@ message-display-name-set = { $user } estabeleceu o seu nome a exhibir a { $chang
 message-display-name-remove = { $user } retirou o seu nome a exhibir { $nameRemoved }.
 #    $user is the name of the user who has joined the room.
 message-joined = { $user } entrou na sala.
+#    $user is the name of the user who has rejected the invitation.
+message-rejected-invite = { $user } rexeitou o convite.
 #    $user is the name of the user who has left the room.
 message-left = { $user } abandonou a sala.
 #    $user is the name of the user who unbanned.
@@ -170,9 +195,17 @@ message-unbanned = { $user } retirou a prohibición de { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } expulsou { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } expulsou a { $userGotKicked }. Motivo: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } retirou o convite de { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } retirou o convite de { $userInvitationWithdrawn }. Motivo: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } retirou o nome da sala.
 #    $user is the name of the user who changed the room name.
@@ -212,3 +245,29 @@ message-alias-removed = { $user } retirou { $addresses } como enderezo alternati
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } retirou { $removedAddresses } e engadiu { $addedAddresses } como enderezo para esta sala.
+message-space-not-supported = Esta sala é un espazo que non se admite.
+message-encryption-start = Agora as mensaxes desta conversa están cifradas de extremo a extremo.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } quere verificar a { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } cancelou a verificación polo motivo: { $reason }
+message-verification-done = Completouse a verificación.
+message-decryption-error = Non se puideron descifrar os contidos desta mensaxe. Prema co botón dereito do rato nesta mensaxe para buscar as chaves de cifrado noutros dispositivos.
+message-decrypting = Descifrando…
+message-redacted = A mensaxe foi expurgada.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reaccionou a { $userThatSentMessage } con { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Solicitar as chaves novamente
+message-action-redact = Expurgar
+message-action-report = Denunciar a mensaxe
+message-action-retry = Tentar enviar novamente
+message-action-cancel = Cancelar a mensaxe
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Produciuse un erro ao enviar a súa mensaxe «{ $message }».
