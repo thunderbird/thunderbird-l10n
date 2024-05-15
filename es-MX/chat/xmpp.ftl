@@ -14,6 +14,11 @@ connection-authenticating = Autenticando
 connection-getting-resource = Obteniendo recurso
 connection-downloading-roster = Descargando lista de contactos
 connection-srv-lookup = Revisando registro SRV
+# LOCALIZATION NOTE (connection-error-*)
+#   These will show in the account manager if an error occurs during the
+#   connection attempt.
+connection-error-invalid-username = Nombre de usuario no válido (tu nombre de usuario debe contener un caracter '@')
+connection-error-failed-to-create-a-socket = Error al crear el socket (¿Estás fuera de línea?)
 connection-error-server-closed-connection = El servidor cerró la conexión
 connection-error-reset-by-peer = Conexión reiniciada por el peer
 connection-error-timed-out = La conexión expiró
@@ -247,6 +252,10 @@ options-domain = Dominio
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk ya no es compatible debido a que Google deshabilitó su puerta de enlace XMPP.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
