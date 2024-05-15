@@ -2,8 +2,21 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# LOCALIZATION NOTE (matrix-username-hint):
+#  This is displayed inside the accountUsernameInfoWithDescription
+#  string defined in imAccounts.properties when the user is
+#  configuring a Matrix account.
+matrix-username-hint = Մատրիցայի ID
+# LOCALIZATION NOTE (options-*):
+#   These are the protocol specific options shown in the account manager and
+#   account wizard windows.
+options-save-token = Խանութ մուտք գործելու կտրոն
 options-device-display-name = Սարքի ցուցադրման անունը
 options-homeserver = Սպասարկիչ
+# $status (String) a status
+options-encryption-secret-storage = Գաղտնի պահեստ. { $status }
+# $status (String) a status
+options-encryption-cross-signing = Խաչաձեւ ստորագրութիւն․ { $status }
 options-encryption-status-ok = լավ
 options-encryption-status-not-ok = պատրաստ չէ
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
