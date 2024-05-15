@@ -165,6 +165,14 @@ message-no-ban-masks = { $place } nav aizliegtu vietu.
 message-ban-mask-added = { $nick } ir aizliedzis lietotājus ar { $locationMatches } atbilstošām pieslēgumu vietām.
 # $locationMatches Location matches; $nick Nickname of user
 message-ban-mask-removed = { $nick } ir atcēlis aizliegumu lietotājiem ar { $locationMatches } atbilstošām pieslēgumu vietām.
+# $source is the nickname of the user or the server that was pinged.
+# $delay is the delay (in milliseconds).
+message-ping =
+    { $delay ->
+        [zero] Ping atbilde no { $source } pēc { $delay } milisekundes.
+        [one] Ping atbilde no { $source } pēc { $delay } milisekundēm.
+       *[other] Ping atbilde no { $source } pēc { $delay } milisekundēm.
+    }
 # LOCALIZATION NOTE (error-*):
 # These are shown as error messages in the conversation or server tab.
 # $name is the channel name.
