@@ -159,6 +159,12 @@ conversation-message-parted = { $participant } saíu da sala.
 #   $participant is the participant that is leaving.
 #   $message is the part message supplied by the participant.
 conversation-message-parted-reason = { $participant } saíu da sala: { $message }
+# LOCALIZATION NOTE (conversation-message-invitation-declined*):
+#   $invitee (String) is the invitee that declined the invitation.
+conversation-message-invitation-declined = { $invitee } declinou o seu convite.
+#   $invitee (String) is the invitee that declined the invitation.
+#   $declineMessage (String) is the decline message supplied by the invitee.
+conversation-message-invitation-declined-reason = { $invitee } declinou o seu convite: { $declineMessage }
 # LOCALIZATION NOTE (conversation-message-banned-*):
 #   These are displayed as a system message when a participant is banned from
 #   a room.
@@ -246,6 +252,10 @@ options-domain = Dominio
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk xa non é compatible porque Google desactiva a súa pasarela XMPP.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
