@@ -270,6 +270,10 @@ message-verification-done = Verificación completada.
 message-decryption-error = No se pudo descifrar el contenido de este mensaje. Para solicitar claves de cifrado de tus otros dispositivos, haz clic con el botón derecho en este mensaje.
 message-decrypting = Descifrando...
 message-redacted = El mensaje fue redactado.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reaccionó a { $userThatSentMessage } con { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Volver a solicitar claves
 message-action-redact = Redactar
