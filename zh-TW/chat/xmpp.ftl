@@ -252,6 +252,10 @@ options-domain = 網域
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = 由於 Google 停用了 XMPP 閘道，將不再支援 Google Talk。
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
