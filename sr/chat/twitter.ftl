@@ -5,3 +5,4 @@
 # LOCALIZATION NOTE (twitter-protocol-name)
 #  This name is used whenever the name of the protocol is shown.
 twitter-protocol-name = Twitter
+twitter-disabled = Twitter више није подржан зато што је онемогућио свој протокол за стримовање.
