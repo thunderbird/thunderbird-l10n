@@ -28,3 +28,5 @@ inbox-folder-name =
     .label = Póstowy dochad
 child-folder-name =
     .label = Podrjadowak dochadneje e-mejle
+sibling-folder-name =
+    .label = Přiwuzny dochadneje e-mejle

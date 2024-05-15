@@ -571,6 +571,9 @@ primary-password-description = Hłowne hesło škita wšě waše hesła, ale dyr
 primary-password-label =
     .label = Hłowne hesło wužiwać
     .accesskey = H
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Gratowe přizjewjenje za wupjelnjenje a rjadowanje hesłow žadać
 primary-password-button =
     .label = Hłowne hesło změnić…
     .accesskey = z
