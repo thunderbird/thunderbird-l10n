@@ -17,6 +17,9 @@ keep-folder-structure =
     .label = Viðhalda möppuskipan í skjalageymslu
     .accesskey = k
 archive-example-label = Dæmi
+# This should match the default name for the "Archives" folder.
+archive-folder-name =
+    .label = Skjalageymslur
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Innhólf
