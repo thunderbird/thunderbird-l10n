@@ -94,9 +94,13 @@ power-level-room-name = Ubah nama ruang: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-change-permissions = Ubah izin: { $powerLevelName }
 #    $powerLevelName is the power level name
+power-level-server-acl = Kirim acara m.room.server_acl: { $powerLevelName }
+#    $powerLevelName is the power level name
 power-level-upgrade-room = Tingkatkan ruang: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-remove = Hapus pesan: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-events-default = Baku acara: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-state-default = Ubah pengaturan: { $powerLevelName }
 #    $powerLevelName is the power level name
@@ -112,6 +116,8 @@ detail-name = Nama: { $value }
 detail-topic = Topik: { $value }
 # $value Example placeholder: "5"
 detail-version = Versi Ruang: { $value }
+# $value Example placeholder: "#thunderbird:mozilla.org"
+detail-room-id = RoomID: { $value }
 # $value are all admin users. Example: "@foo:example.com, @bar:example.com"
 detail-admin = Admin: { $value }
 # $value are all moderators. Example: "@lorem:mozilla.org, @ipsum:mozilla.org"
@@ -120,6 +126,8 @@ detail-moderator = Moderator: { $value }
 detail-alias = Alias: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = Akses Tamu: { $value }
+# This is a heading, followed by the power-level-* strings
+detail-power = Tingkat Daya:
 #    $user is the name of the user who accepted an invitation.
 message-accepted-invite = { $user } menerima undangan.
 #    $user is the name of the user who has left the room.
