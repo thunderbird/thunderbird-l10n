@@ -12,6 +12,7 @@ commands-key =
 no-command = Немає команди '{ $command }'.
 #  $command (String): is the command name the user typed.
 no-help-key = Вибачте, для команди '{ $command }' довідкового повідомлення немає!
+say-help-string = say &lt;повідомлення&gt;: надіслати повідомлення без обробки команд.
 raw-help-string = raw &lt;повідомлення&gt;: надіслати повідомлення без екранування HTML одиниць.
 help-help-string = help &lt;назва&gt;: показати довідкове повідомлення для команди &lt;назва&gt;, або, якщо параметр не зазначено, список можливих команд.
 # LOCALIZATION NOTE (status-command):
