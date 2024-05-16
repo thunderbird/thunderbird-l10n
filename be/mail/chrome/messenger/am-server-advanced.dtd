@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY serverAdvanced.label "Пашыраныя наладжванні рахунку">
+<!ENTITY serverAdvanced.label "Пашыраныя налады ўліковага запісу">
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 <!ENTITY serverDirectory.label "Дырэкторыя паслугача IMAP:">
 <!ENTITY serverDirectory.accesskey "Д">
@@ -22,10 +22,10 @@
 <!ENTITY otherUsersNamespace.accesskey "І">
 <!ENTITY overrideNamespaces.label "Дазволіць паслугачу адхіляць гэтыя назвапрасторы">
 <!ENTITY overrideNamespaces.accesskey "Д">
-<!ENTITY pop3DeferringDesc.label "Пры сцягванні пошты з гэтага сервера ўліковага запісу змяшчаць новыя паведамленні ў папку:" >
+<!ENTITY pop3DeferringDesc.label "Пры сцягванні пошты з гэтага сервера ўліковага запісу змяшчаць новыя паведамленні ў папку:">
 <!ENTITY accountInbox.label '"Уваходныя" для гэтага ўліковага запісу'>
 <!ENTITY accountInbox.accesskey "а">
-<!ENTITY deferToServer.label "Папка Атрыманыя іншага рахунку">
+<!ENTITY deferToServer.label "«Уваходныя» для іншага ўліковага запісу">
 <!ENTITY deferToServer.accesskey "і">
 <!ENTITY deferGetNewMail.label "Уключаць гэты паслугач падчас атрымання новай пошты">
 <!ENTITY deferGetNewMail.accesskey "У">

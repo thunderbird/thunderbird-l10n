@@ -32,16 +32,16 @@ status-changed-from-unknown-with-status-text = { $displayName } - { $statusType 
 # mislead the user into thinking the person's status has just changed.
 #  $displayName is the display name of the contact.
 #  $statusType is the new status type (a value from status.ftl).
-status-known = Ваш рахунак злучаны зноў ({ $displayName } - { $statusType }).
+status-known = Ваш уліковы запіс зноў падлучаны ({ $displayName } — { $statusType }).
 #  $displayName is the display name of the contact.
 #  $statusType is the new status type (a value from status.ftl).
 #  $statusText is the status text (eg. "I'm currently away from the computer").
-status-known-with-status-text = Ваш рахунак злучаны зноў ({ $displayName } - { $statusType }: { $statusText }).
+status-known-with-status-text = Ваш уліковы запіс зноў падлучаны ({ $displayName } — { $statusType }: { $statusText }).
 # LOCALIZATION NOTE (status-unknown):
 #  $displayName is the display name of the contact.
-status-unknown = Ваш рахунак разлучаны (статус { $displayName } больш невядомы).
-account-disconnected = Ваш рахунак разлучаны.
-account-reconnected = Ваш рахунак злучаны зноў.
+status-unknown = Ваш уліковы запіс адлучаны (статус { $displayName } цяпер невядомы).
+account-disconnected = Ваш уліковы запіс адлучаны.
+account-reconnected = Ваш уліковы запіс зноў падлучаны.
 # LOCALIZATION NOTE (auto-reply):
 #  $message is replaced by the text of a message that was sent as an automatic reply.
 auto-reply = Самастойны адказ - { $message }

@@ -7,7 +7,7 @@
 <!ENTITY accountManagerTitle.label "Налады ўліковага запісу">
 <!ENTITY  accountManagerCloseButton.label "Закрыць">
 
-<!ENTITY accountActionsButton.label "Дзеянні рахункаў">
+<!ENTITY accountActionsButton.label "Дзеянні з уліковым запісам">
 <!ENTITY accountActionsButton.accesskey "р">
 <!ENTITY addMailAccountButton.label "Дадаць уліковы запіс пошты…">
 <!ENTITY addMailAccountButton.accesskey "Д">
