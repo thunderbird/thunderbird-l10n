@@ -571,6 +571,9 @@ primary-password-description = Az elsődleges jelszó az összes jelszót védi.
 primary-password-label =
     .label = Elsődleges jelszó használata
     .accesskey = E
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Az eszköz által biztosított bejelentkezés megkövetelése a jelszavak kitöltéséhez és kezeléséhez
 primary-password-button =
     .label = Elsődleges jelszó megváltoztatása…
     .accesskey = m
