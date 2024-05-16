@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Arşivlenmiş iletilerin mevcut klasör yapısını koru
     .accesskey = m
+recreate-inbox =
+    .label = Gelen kutusu dizinini yeniden oluştur
+    .accesskey = G
 archive-example-label = Örnek
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,5 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Gelen
+child-folder-name =
+    .label = Gelen kutusu alt dizini

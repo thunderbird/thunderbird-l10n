@@ -571,6 +571,9 @@ primary-password-description = Ana parola bütün parolalarınızı korur. Her o
 primary-password-label =
     .label = Ana parola kullan
     .accesskey = k
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Parolaları doldurmak ve yönetmek için cihazdan giriş yapmayı zorunlu tut
 primary-password-button =
     .label = Ana parolayı değiştir…
     .accesskey = d
