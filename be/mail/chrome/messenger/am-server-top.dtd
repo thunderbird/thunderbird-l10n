@@ -79,7 +79,7 @@
 <!ENTITY browseNewsrc.accesskey "г">
 
 <!ENTITY accountTitle.label "Налады ўліковага запісу">
-<!ENTITY accountSettingsDesc.label "Гэта адмысловы рахунак.  Няма адметаў, злучаных з ім.">
+<!ENTITY accountSettingsDesc.label "Гэта асаблівы ўліковы запіс.  З ім не звязаны ніякія ідэнтыфікацыйныя даныя.">
 <!ENTITY storeType.label "Тып захоўвання паведамленняў:">
 <!ENTITY storeType.accesskey "Т">
 <!ENTITY mboxStore2.label "Адзін файл на папку (mbox)">

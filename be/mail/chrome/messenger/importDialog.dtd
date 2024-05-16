@@ -31,7 +31,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY importDescription2.label "Як толькі яны будуць імпартаваны, вы будзеце здольны зварочвацца да іх у &brandShortName;.">
 
 <!ENTITY selectDescription.label  "Выберыце, калі ласка, тып файла, які вы хочаце імпартаваць:">
-<!ENTITY selectDescriptionB.label "Вылучыце, калі ласка, існы рахунак або стварыце новы:">
+<!ENTITY selectDescriptionB.label "Калі ласка, выберыце існуючы або стварыце новы ўліковы запіс:">
 <!ENTITY selectDescription.accesskey "В">
 <!ENTITY acctName.label           "Назва:">
 <!ENTITY acctName.accesskey       "Н">

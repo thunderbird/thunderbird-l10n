@@ -5,8 +5,8 @@
 
 <!ENTITY migrationWizard.title          "Чараўнік імпарту">
 
-<!ENTITY importFromWin.label            "Імпартаваць наладжванні, наладжванні рахункаў, адрасную кнігу, сіты і іншыя здаткі з:">
-<!ENTITY importFromNonWin.label         "Імпартаваць перавагі, наладжванні рахункаў, адрасную кнігу, сіты і іншыя здаткі з:">
+<!ENTITY importFromWin.label            "Імпартаваць параметры, налады ўліковага запісу, адрасную кнігу, фільтры і іншыя даныя з:">
+<!ENTITY importFromNonWin.label         "Імпартаваць параметры, налады ўліковага запісу, адрасную кнігу, фільтры і іншыя даныя з:">
 <!ENTITY importSourceNotFound.label     "Не знойдзена праграма для імпарту дадзеных.">
 
 <!ENTITY importFromNothing.label        "Не імпартаваць нічога">

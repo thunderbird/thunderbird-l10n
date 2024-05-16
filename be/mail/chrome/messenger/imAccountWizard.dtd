@@ -10,7 +10,7 @@
 <!ENTITY accountProtocolGetMore.label "Болей…">
 
 <!ENTITY accountUsernameTitle.label   "Імя карыстальніка">
-<!ENTITY accountUsernameDuplicate.label "Гэты рахунак ужо наладжаны!">
+<!ENTITY accountUsernameDuplicate.label "Гэты ўліковы запіс ужо сканфігураваны!">
 
 <!ENTITY accountPasswordTitle.label   "Пароль">
 <!ENTITY accountPasswordInfo.label    "Увядзіце, калі ласка, ваш пароль у скрынку ніжэй.">
@@ -29,4 +29,4 @@
 
 <!ENTITY accountSummaryTitle.label   "Зводка">
 <!ENTITY accountSummaryInfo.label    "Зводка звестак, уведзенных вамі, адлюстроўваюцца ніжэй. Праверце іх, калі ласка, перад стварэннем рахунку.">
-<!ENTITY accountSummary.connectNow.label "Злучыцца з рахункам зараз.">
+<!ENTITY accountSummary.connectNow.label "Падлучыць гэты ўліковы запіс.">
