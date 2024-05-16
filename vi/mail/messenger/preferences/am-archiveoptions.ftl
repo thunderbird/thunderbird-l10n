@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Giữ cấu trúc thư mục lưu trữ hiệu tại
     .accesskey = G
+recreate-inbox =
+    .label = Tạo lại thư mục hộp thư đến
+    .accesskey = R
 archive-example-label = Ví dụ
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,5 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Hộp thư
+child-folder-name =
+    .label = Thư mục con của hộp thư đến

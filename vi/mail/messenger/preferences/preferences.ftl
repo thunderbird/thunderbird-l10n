@@ -571,6 +571,9 @@ primary-password-description = Mật khẩu chính bảo vệ tất cả mật k
 primary-password-label =
     .label = Sử dụng mật khẩu chính
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Yêu cầu thiết bị đăng nhập để điền và quản lý mật khẩu
 primary-password-button =
     .label = Thay đổi mật khẩu chính…
     .accesskey = C
