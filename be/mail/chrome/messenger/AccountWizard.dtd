@@ -46,5 +46,5 @@
 <!ENTITY completionTitle.label "Віншаванні!">
 <!ENTITY completionText.label "Упэўніцеся, калі ласка, ці звесткі ўнізе правільныя.">
 <!ENTITY newsServerNamePrefix.label "Імя сервера навін (NNTP):">
-<!ENTITY clickFinish.label "Пстрыкніце Скончыць, каб захаваць вашы наладжванні і выйсці з Чараўніка Рахункаў.">
-<!ENTITY clickFinish.labelMac "Пстрыкніце Гатова, каб захаваць вашы наладжванні і выйсці з Чараўніка Рахункаў.">
+<!ENTITY clickFinish.label "Націсніце «Гатова», каб захаваць гэтыя налады і выйсці з майстра ўліковых запісаў.">
+<!ENTITY clickFinish.labelMac "Націсніце «Гатова», каб захаваць гэтыя налады і выйсці з майстра ўліковых запісаў.">

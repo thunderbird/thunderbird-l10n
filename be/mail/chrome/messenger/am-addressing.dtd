@@ -8,7 +8,7 @@
 <!ENTITY addressingGroupTitle.label "Адрасаванне">
 <!ENTITY addressingText.label      "Калі шукаюцца адрасы:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
-<!ENTITY useGlobal.label           "Ужываць мае агульныя перавагі паслугача LDAP для гэтага рахунку">
+<!ENTITY useGlobal.label           "Выкарыстоўваць мае глабальныя параметры LDAP-сервера для гэтага ўліковага запісу">
 <!ENTITY useGlobal.accesskey       "У">
 <!ENTITY editDirectories.label     "Рэдагаваць дырэкторыі…">
 <!ENTITY editDirectories.accesskey "Р">

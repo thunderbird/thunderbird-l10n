@@ -8,7 +8,7 @@
 <!ENTITY accountName.label "Імя ўліковага запісу:">
 <!ENTITY accountName.accesskey "Н">
 <!ENTITY identityTitle.label "Змоўчная адмета">
-<!ENTITY identityDesc.label "Кожны рахунак мае адмету, або звесткі, якія іншыя людзі бачаць, калі чытаюць вашы лісты.">
+<!ENTITY identityDesc.label "Кожны ўліковы запіс мае ідэнтыфікацыйныя даныя. Гэта інфармацыя, якую бачаць іншыя людзі пры чытанні вашых паведамленняў.">
 <!ENTITY name.label "Ваша імя:">
 <!ENTITY name.accesskey "І">
 <!ENTITY email.label "Адрас электроннай пошты:">
