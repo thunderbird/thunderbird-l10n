@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY viewLog.title "Журнал фільтраў">
-<!ENTITY viewLogInfo.text "Метрыка сітаў збірае звесткі аб дзейнасці сітаў ў гэтым рахунку. Скарыстайце скрынку адзнакі ўнізе, каб дазволіць метрыку.">
+<!ENTITY viewLogInfo.text "У журнал фільтраў запісваюцца звесткі пра фільтры, якія былі запушчаны для гэтага ўліковага запісу. Птушка ніжэй уключае вядзенне гэтага журнала.">
 <!ENTITY clearLog.label "Ачысціць журнал">
 <!ENTITY clearLog.accesskey "ч">
 <!ENTITY enableLog.label "Уключыць журнал фільтраў">
