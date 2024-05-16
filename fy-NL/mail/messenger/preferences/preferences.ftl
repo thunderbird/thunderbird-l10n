@@ -571,6 +571,9 @@ primary-password-description = In haadwachtwurd befeiliget al jo wachtwurden, ma
 primary-password-label =
     .label = In haadwachtwurd brûke
     .accesskey = h
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Apparaatoanmelding foar ynfoljen en behearen fan wachtwurden fereaskje
 primary-password-button =
     .label = Haadwachtwurd wizigje…
     .accesskey = w
