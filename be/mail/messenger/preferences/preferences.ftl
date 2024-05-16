@@ -532,6 +532,10 @@ email-e2ee-auto-off-notify =
 startup-label =
     .value = Калі { -brand-short-name } запускаецца:
     .accesskey = з
+offline-label =
+    .label = Не падлучаць мае ўліковыя запісы чатаў.
+auto-connect-label =
+    .label = Падлучаць мае ўліковыя запісы чатаў аўтаматычна
 
 ## Note: idle-label is displayed first, then there's a field where the user
 ## can enter a number, and itemTime is displayed at the end of the line.
