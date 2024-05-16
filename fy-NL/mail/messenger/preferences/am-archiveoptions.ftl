@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Bewarje de besteande mapstruktuer fan de argivearre berjochten
     .accesskey = b
+recreate-inbox =
+    .label = Map Postfek YN opnij oanmeitsje
+    .accesskey = n
 archive-example-label = Foarbyld
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Postfek YN
+child-folder-name =
+    .label = Submap fan Postfek YN
+sibling-folder-name =
+    .label = Map op gelike nivo as Postfek YN
