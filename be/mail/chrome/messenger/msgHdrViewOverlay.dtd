@@ -35,7 +35,7 @@
 <!ENTITY hdrFollowupButton1.tooltip "Даслаць водгук у навінакупу">
 <!ENTITY hdrForwardButton1.label "Пераслаць">
 <!ENTITY hdrForwardButton1.tooltip "Пераслаць гэты ліст">
-<!ENTITY hdrJunkButton1.label "Лухта">
+<!ENTITY hdrJunkButton1.label "Спам">
 <!ENTITY hdrJunkButton1.tooltip "Пазначыць гэты ліст як лухту">
 <!ENTITY hdrTrashButton1.label "Выдаліць">
 <!ENTITY hdrTrashButton1.tooltip "Выдаліць ліст">
