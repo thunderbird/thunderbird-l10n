@@ -571,6 +571,9 @@ primary-password-description = Основной пароль защищает в
 primary-password-label =
     .label = Использовать основной пароль
     .accesskey = п
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Требовать вход на устройстве для заполнения и управления паролями
 primary-password-button =
     .label = Сменить основной пароль…
     .accesskey = м

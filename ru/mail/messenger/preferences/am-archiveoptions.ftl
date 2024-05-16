@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Сохранять существующую структуру папок для архивированных сообщений
     .accesskey = р
+recreate-inbox =
+    .label = Пересоздать папку «Входящие»
+    .accesskey = К
 archive-example-label = Пример
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Входящие
+child-folder-name =
+    .label = Вложенная папка «Входящие»
+sibling-folder-name =
+    .label = Дочерняя от «Входящие»
