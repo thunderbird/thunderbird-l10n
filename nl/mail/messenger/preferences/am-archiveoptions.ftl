@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Bestaande mapstructuur van gearchiveerde berichten behouden
     .accesskey = B
+recreate-inbox =
+    .label = Map Postvak IN opnieuw aanmaken
+    .accesskey = n
 archive-example-label = Voorbeeld
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Postvak IN
+child-folder-name =
+    .label = Submap van Postvak IN
+sibling-folder-name =
+    .label = Map op gelijk niveau als Postvak IN
