@@ -5,7 +5,7 @@
 <!ENTITY windowTitle.label            "Майстар стварэння ўліковых запісаў чатаў">
 
 <!ENTITY accountProtocolTitle.label   "Сетка гутарак">
-<!ENTITY accountProtocolInfo.label    "Выберыце, калі ласка, сетку вашага рахунку гутарак.">
+<!ENTITY accountProtocolInfo.label    "Калі ласка, выберыце сетку для вашага ўліковага запісу чата.">
 <!ENTITY accountProtocolField.label   "Сетка:">
 <!ENTITY accountProtocolGetMore.label "Болей…">
 

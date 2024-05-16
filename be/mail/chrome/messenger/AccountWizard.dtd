@@ -9,7 +9,7 @@
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Адмета">
-<!ENTITY identityDesc.label "Кожны рахунак мае адмету, або звесткі, якія вызначаюць вас для іншых, калі яны атрымліваюць вашы лісты.">
+<!ENTITY identityDesc.label "Кожны ўліковы запіс мае ідэнтыфікацыйныя даныя. Гэта інфармацыя, якая прадстаўляе вас у паведамленнях, якія вы адпраўляеце.">
 
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Увядзіце імя, якое вы хочаце бачыць у поле &quot;Ад&quot; вашых  выходных лістоў">

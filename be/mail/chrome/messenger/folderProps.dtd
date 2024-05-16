@@ -30,7 +30,7 @@
 <!ENTITY retentionApplyToFlagged.accesskey "ў">
 
 <!ENTITY folderSynchronizationTab.label          "Сінхранізацыя">
-<!ENTITY folderCheckForNewMessages2.label         "Калі атрымліваюцца лісты для гэтага рахунку, заўсёды правяраць гэтую папку">
+<!ENTITY folderCheckForNewMessages2.label         "Заўсёды правяраць гэту папку пры атрыманні новых паведамленняў для гэтага ўліковага запісу">
 <!ENTITY folderCheckForNewMessages2.accesskey     "п">
 
 <!ENTITY offlineFolder.check.label               "Вылучыць гэтую папку для карыстання па-за сеткай">
