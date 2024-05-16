@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Mentett bejelentkezések
-saved-logins-title = Mentett bejelentkezések
 window-close =
     .key = w
+saved-logins-title = Mentett bejelentkezések
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Igazolja személyazonosságát a mentett jelsz
 password-os-auth-dialog-message-macosx = felfedje a mentett jelszavakat
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] módosítani a jelszavak beállításait
+       *[other] A { -brand-short-name } megpróbálja módosítani a jelszavak beállításait. Ennek engedélyezéséhez jelentkezzen be az eszközére.
+    }

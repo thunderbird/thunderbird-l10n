@@ -28,3 +28,5 @@ inbox-folder-name =
     .label = Beérkezett üzenetek
 child-folder-name =
     .label = Beérkezett üzenetek mappa almappája
+sibling-folder-name =
+    .label = Beérkezett üzenetek mappa testvére
