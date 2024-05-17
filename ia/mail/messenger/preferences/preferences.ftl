@@ -571,6 +571,9 @@ primary-password-description = Un Contrasigno primari protege tote tu contrasign
 primary-password-label =
     .label = Usar un contrasigno primari
     .accesskey = p
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Requirer accesso al apparato pro compilar e gerer le contrasignos
 primary-password-button =
     .label = Modificar le contrasigno primari…
     .accesskey = M
