@@ -65,7 +65,7 @@ confirm-messenger-language-change-description = Перазапусціце { -br
 confirm-messenger-language-change-button = Ужыць і перазапусціць
 update-setting-write-failure-title = Памылка пры захаванні параметраў абнаўлення
 update-in-progress-title = Выконваецца абнаўленне
-update-in-progress-ok-button = &Скасаваць
+update-in-progress-ok-button = &Адхіліць
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Працягнуць
