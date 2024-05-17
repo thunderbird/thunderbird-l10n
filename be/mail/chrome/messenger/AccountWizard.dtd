@@ -37,7 +37,7 @@
 
 <!ENTITY accnameTitle.label "Імя ўліковага запісу">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
-<!ENTITY accnameDesc.label "Увядзіце пажаданую назву для спасылання на гэты рахунак (напрыклад: &quot;Праца&quot;, &quot;Хатні Рахунак&quot; ці &quot;Навіны&quot;).">
+<!ENTITY accnameDesc.label "Увядзіце назву, па якой вы будзеце спасылацца на гэты ўліковы запіс (напрыклад, «Працоўны», «Хатні», «Навінавы»).">
 <!ENTITY accnameLabel.label "Імя ўліковага запісу:">
 <!ENTITY accnameLabel.accesskey "Р">
 
