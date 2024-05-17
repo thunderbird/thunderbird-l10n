@@ -571,6 +571,9 @@ primary-password-description = Głowne gronidło šćita wšykne waše gronidła
 primary-password-label =
     .label = Głowne gronidło wužywaś
     .accesskey = G
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Rědowe pśizjawjenje za wupołnjenje a zastojanje gronidłow pominaś
 primary-password-button =
     .label = Głowne gronidło změniś…
     .accesskey = z
