@@ -29,4 +29,4 @@ inbox-folder-name =
 child-folder-name =
     .label = Subcarpeta de la bandeja de entrada
 sibling-folder-name =
-    .label = Hermano de la bandeja de entrada
+    .label = Hermana de la bandeja de entrada

@@ -85,6 +85,6 @@ password-os-auth-dialog-caption = { -brand-full-name }
 # This message can be seen when attempting to disable osauth in about:preferences.
 password-os-auth-change-dialog-message =
     { PLATFORM() ->
-        [macos] cambiar la configuración de las contraseñas
-       *[other] { -brand-short-name } está intentando cambiar la configuración de las contraseñas. Usa el inicio de sesión de tu dispositivo para permitir esto.
+        [macos] cambiar la configuración de contraseñas
+       *[other] { -brand-short-name } está intentando cambiar la configuración de contraseñas. Use el inicio de sesión del dispositivo para permitir esto.
     }
