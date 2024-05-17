@@ -12,7 +12,7 @@ vcard-displayname-placeholder =
 # Type selection
 
 vcard-entry-type-label = Typ
-vcard-entry-type-home = Startowy bok
+vcard-entry-type-home = Priwatny
 vcard-entry-type-work = Słužbny telefon
 vcard-entry-type-none = Žeden
 vcard-entry-type-custom = Swójski

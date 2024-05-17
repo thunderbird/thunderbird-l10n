@@ -82,40 +82,12 @@ about-addressbook-sort-email-ascending =
     .label = Pó e-mailowej adresy sortěrowaś (A > Z)
 about-addressbook-sort-email-descending =
     .label = Pó e-mailowej adresy sortěrowaś (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Do horicontalnego wugótowanja pśešaltowaś
-about-addressbook-vertical-layout =
-    .label = Do wertikalnego wugótowanja pśešaltowaś
 about-addressbook-table-layout =
     .label = Tabelowe wugótowanje
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Mě
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = E-mailowe adrese
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Telefonowe numery
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Adrese
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Titel
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Wótźělenje
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organizacija
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Adresnik
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Mě
     .title = Pó mjenju sortěrowaś
 about-addressbook-column-label-generatedname2 =
@@ -187,17 +159,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Kontakty wótwónoźeś
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Cośo napšawdu { $name } z { $list } wótwónoźeś?
-        [two] Cośo napšawdu toś tej { $count } kontakta z { $list } wótwónoźeś?
-        [few] Cośo napšawdu toś te { $count } kontakty z { $list } wótwónoźeś?
-       *[other] Cośo napšawdu toś te { $count } kontaktow z { $list } wótwónoźeś?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Cośo napšawdu { $name } z { $list } wótwónoźeś?
@@ -219,16 +180,6 @@ about-addressbook-confirm-delete-contacts-title =
         [two] Kontakta wulašowaś
         [few] Kontakty wulašowaś
        *[other] Kontakty wulašowaś
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Cośo napšawdu kontakt { $name } wulašowaś?
-        [two] Cośo napšawdu toś tej { $count } kontakta wulašowaś?
-        [few] Cośo napšawdu toś te { $count } kontakty wulašowaś?
-       *[other] Cośo napšawdu toś te { $count } kontaktow wulašowaś?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -254,15 +205,6 @@ about-addressbook-placeholder-no-search-results = Žedne kontakty namakane
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = Licba wubranych kontaktow a lisćinow: { $count }
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = Licba wubranych kontaktow: { $count }
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = Licba wubranych lisćinow: { $count }
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
@@ -311,7 +253,7 @@ about-addressbook-details-impp-header = Pósrědnjanje powěsćow ned
 about-addressbook-details-websites-header = Websedła
 about-addressbook-details-other-info-header = Druge informacije
 about-addressbook-entry-type-work = Słužbny telefon
-about-addressbook-entry-type-home = Startowy bok
+about-addressbook-entry-type-home = Priwatny
 about-addressbook-entry-type-fax = Faks
 # Or "Mobile"
 about-addressbook-entry-type-cell = Mobilny telefon
