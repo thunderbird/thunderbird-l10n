@@ -13,7 +13,7 @@
 <!ENTITY connectionFailure.title "Bağlanılamadı">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY deniedPortAccess.title "Bu adres kısıtlıdır">
+<!ENTITY deniedPortAccess.title "Bu adrese erişim kısıtlanmış">
 <!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "Sunucu bulunamadı">
@@ -96,7 +96,12 @@
 ">
 
 <!ENTITY unknownSocketType.title "Beklenmeyen sunucu yanıtı">
-<!ENTITY unknownSocketType.longDesc "<ul> <li>Sisteminizde Kişisel Güvenlik Yöneticisi'nin kurulu olduğundan emin olun.</li> <li>Bu durum, standart dışı sunucu yapılandırmasından kaynaklanabilir.</li> </ul>">
+<!ENTITY unknownSocketType.longDesc "
+<ul>
+  <li>Sisteminizde Personal Security Manager’ın kurulu olduğundan emin olun.</li>
+  <li>Bu durum, standart dışı sunucu yapılandırmasından kaynaklanabilir.</li>
+</ul>
+">
 
 <!ENTITY nssFailure2.title "Güvenli bağlantı hatası">
 <!ENTITY nssFailure2.longDesc2 "

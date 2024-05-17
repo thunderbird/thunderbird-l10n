@@ -14,7 +14,7 @@ msgevent-connection-ended = { $name } sizinle olan şifrelenmiş bağlantısın�
 #   $name (String) - the screen name of a chat contact person
 msgevent-setup-error = { $name } ile özel görüşme ayarlanırken bir hata oluştu.
 # Do not translate 'OTR' (name of an encryption protocol)
-msgevent-msg-reflected = Kendi OTR mesajlarınızı alıyorsunuz. Ya kendinizle konuşmaya çalışıyorsunuz ya da birileri mesajlarınızı size geri yansıtıyor.
+msgevent-msg-reflected = Kendi OTR iletilerinizi alıyorsunuz. Ya kendinizle konuşmaya çalışıyorsunuz ya da birileri iletilerinizi size geri yansıtıyor.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 msgevent-msg-resent = { $name } kişisine son ileti yeniden gönderildi.
