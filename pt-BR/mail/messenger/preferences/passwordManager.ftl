@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Contas salvas
-saved-logins-title = Contas salvas
 window-close =
     .key = w
+saved-logins-title = Contas salvas
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Confirme sua identidade para revelar as senhas
 password-os-auth-dialog-message-macosx = revelar as senhas salvas
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] alterar configurações de senhas
+       *[other] O { -brand-short-name } está tentando alterar configurações de senhas. Use a autenticação do dispositivo para permitir.
+    }
