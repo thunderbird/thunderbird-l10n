@@ -10,6 +10,8 @@ about-addressbook-toolbar-new-list =
 
 ## Books
 
+about-addressbook-books-context-synchronize =
+    .label = Сінхранізаваць
 
 ## Cards
 
