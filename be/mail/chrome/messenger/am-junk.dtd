@@ -2,12 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY junkSettings.label "Наладжванні лухты">
+<!ENTITY junkSettings.label "Налады спам-фільтраў">
 <!ENTITY trainingDescription.label "Калі дазволіце, вы спачатку мусіце натрэнаваць &brandShortName; вызначаць пошту-лухту з дапамогаю кнопкі Лухта на паліцы інструментаў для пазначэння лістоў лухтою ці не. Вы мусіце пазначаць і лісты-лухту, і не. Пасля гэтага &brandShortName; будзе здольны вызначаць лухту самастойна.">
 <!ENTITY level.label "Дазволіць прыстасоўныя кіроўцы поштай-лухтой для гэтага рахунку">
 <!ENTITY level.accesskey "Д">
 
-<!ENTITY move.label "Перамяшчаць новыя лісты-лухту ў:">
+<!ENTITY move.label "Перамяшчаць новыя паведамленні, вызначаныя як спам, у:">
 <!ENTITY move.accesskey "П">
 <!ENTITY junkFolderOn.label "папку &quot;Лухта&quot; у:">
 <!ENTITY junkFolderOn.accesskey "Л">
