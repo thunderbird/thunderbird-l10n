@@ -12,7 +12,7 @@ vcard-displayname-placeholder =
 # Type selection
 
 vcard-entry-type-label = Typ
-vcard-entry-type-home = Startowa strona
+vcard-entry-type-home = Priwatny
 vcard-entry-type-work = Słužbny
 vcard-entry-type-none = Žadyn
 vcard-entry-type-custom = Swójski

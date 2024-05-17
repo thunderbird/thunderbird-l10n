@@ -253,7 +253,7 @@ about-addressbook-details-impp-header = Hnydomne posrědkowanje powěsćow
 about-addressbook-details-websites-header = Websydła
 about-addressbook-details-other-info-header = Druhe informacije
 about-addressbook-entry-type-work = Słužbny
-about-addressbook-entry-type-home = Startowa strona
+about-addressbook-entry-type-home = Priwatny
 about-addressbook-entry-type-fax = Faks
 # Or "Mobile"
 about-addressbook-entry-type-cell = Mobilny telefon
