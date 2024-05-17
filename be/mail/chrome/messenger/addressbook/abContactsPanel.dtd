@@ -17,7 +17,7 @@
 <!ENTITY addressbookPicker.accesskey        "к">
 <!ENTITY searchContacts.label               "Пошук кантактаў:">
 <!ENTITY searchContacts.accesskey           "н">
-<!ENTITY SearchNameOrEmail.label            "Імя або э-пошта">
+<!ENTITY SearchNameOrEmail.label            "Імя або электронная пошта">
 
 <!ENTITY addtoToFieldMenu.label             "Дадаць да поля Да">
 <!ENTITY addtoToFieldMenu.accesskey         "Д">

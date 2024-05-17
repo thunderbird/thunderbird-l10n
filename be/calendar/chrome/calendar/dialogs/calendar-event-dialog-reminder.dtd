@@ -3,6 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY reminder.add.label                                "Дадаць">
+<!ENTITY reminder.add.accesskey                            "Д">
 <!ENTITY reminder.remove.label                             "Выдаліць">
 <!ENTITY reminder.remove.accesskey                         "В">
 
