@@ -5,11 +5,11 @@
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 msgevent-encryption-required-part1 = { $name } kişisine şifrelenmemiş bir ileti göndermeye çalıştınız. İlke gereği, şifrelenmemiş iletilere izin verilmiyor.
-msgevent-encryption-required-part2 = Özel bir görüşme başlatılmaya çalışılıyor. Özel görüşme başladığında mesajınız yeniden gönderilecektir.
+msgevent-encryption-required-part2 = Özel bir görüşme başlatılmaya çalışılıyor. Özel görüşme başladığında iletiniz yeniden gönderilecektir.
 msgevent-encryption-error = İletiniz şifrelenirken bir hata oluştu. İleti gönderilmedi.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-msgevent-connection-ended = { $name } sizinle olan şifrelenmiş bağlantısını kapattı. Yanlışlıkla şifrelememiş mesaj göndermenizi önlemek için mesajınız gönderilmedi. Lütfen şifrelenmiş görüşmeyi sonlandırın veya yeniden başlatın.
+msgevent-connection-ended = { $name } sizinle olan şifrelenmiş bağlantısını kapattı. Yanlışlıkla şifrelememiş ileti göndermenizi önlemek için iletiniz gönderilmedi. Lütfen şifrelenmiş görüşmeyi sonlandırın veya yeniden başlatın.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 msgevent-setup-error = { $name } ile özel görüşme ayarlanırken bir hata oluştu.

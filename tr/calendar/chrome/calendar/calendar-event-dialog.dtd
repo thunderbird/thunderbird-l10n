@@ -170,7 +170,7 @@
 <!ENTITY  event.toolbar.privacy.tooltip                   "Gizliliği değiştir">
 <!ENTITY  event.toolbar.priority.tooltip                  "Önceliği değiştir">
 <!ENTITY  event.toolbar.status.tooltip                    "Durumu değiştir">
-<!ENTITY  event.toolbar.freebusy.tooltip                  "Boşta/meşgul zamanını değiştir">
+<!ENTITY  event.toolbar.freebusy.tooltip                  "Serbest/meşgul zamanını değiştir">
 
 <!-- Counter box -->
 <!-- LOCALIZATON NOTE(counter.button.*)

@@ -25,7 +25,7 @@ policy-CertificatesDescription = Sertifika ekle veya yerleşik sertifikaları ku
 policy-Cookies = Web sitelerinin çerez yerleştirmesine izin ver veya engelle.
 policy-DisableBuiltinPDFViewer = Dahili { -brand-short-name } PDF görüntüleyicisi olan PDF.js’i devre dışı bırak.
 policy-DisabledCiphers = Şifrelemeleri devre dışı bırak.
-policy-DefaultDownloadDirectory = Varsayılan indirme klasörünü ayarla.
+policy-DefaultDownloadDirectory = Varsayılan indirme dizinini ayarla.
 policy-DisableAppUpdate = { -brand-short-name } uygulamasının güncellenmesini engelle.
 policy-DisableDefaultClientAgent = Varsayılan istemci agent’ının herhangi bir işlem yapmasını önle. Yalnızca Windows için geçerlidir. Diğer platformlarda agent yoktur.
 policy-DisableDeveloperTools = Geliştirici araçlarına erişimi engelle.
@@ -42,7 +42,7 @@ policy-DisableTelemetry = Telemetri’yi kapat.
 policy-DisplayMenuBar = Varsayılan olarak menü çubuğunu göster.
 policy-DNSOverHTTPS = HTTPS üzerinden DNS’i yapılandır.
 policy-DontCheckDefaultClient = Başlangıçta varsayılan istemci kontrolünü devre dışı bırak.
-policy-DownloadDirectory = İndirme klasörünü ayarla ve kilitle.
+policy-DownloadDirectory = İndirme dizinini ayarla ve kilitle.
 # “lock” means that the user won’t be able to change this setting
 policy-EnableTrackingProtection = İçerik engellemeyi etkinleştir veya devre dışı bırak ve isteğe bağlı olarak kilitle.
 # “lock” means that the user won’t be able to change this setting
