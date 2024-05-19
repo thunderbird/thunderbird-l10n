@@ -229,10 +229,10 @@ mail-context-menu-forward-inline =
 mail-context-menu-forward-as-attachment =
     .label =
         { $count ->
-            [one] Jako $count přiwěšk
-            [two] Jako $count přiwěškaj
-            [few] Jako $count přiwěški
-           *[other] Jako $count přiwěškow
+            [one] Jako { $count } přiwěšk
+            [two] Jako { $count } přiwěškaj
+            [few] Jako { $count } přiwěški
+           *[other] Jako { $count } přiwěškow
         }
     .accesskey = J
 mail-context-menu-organize =

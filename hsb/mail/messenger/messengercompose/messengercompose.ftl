@@ -126,10 +126,10 @@ attachment-area-hide =
 
 drop-file-label-attachment =
     { $count ->
-        [one] Jako přiwěšk přidać
-        [two] Jako přiwěškaj přidać
-        [few] Jako přiwěški přidać
-       *[other] Jako přiwěški přidać
+        [one] Jako { $count } přiwěšk přidać
+        [two] Jako { $count } přiwěškaj přidać
+        [few] Jako { $count } přiwěški přidać
+       *[other] Jako { $count } přiwěškow přidać
     }
 drop-file-label-inline =
     { $count ->
@@ -194,10 +194,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Zrjadowak klučow
     .accesskey = Z
-openpgp-key-issue-notification-one = Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za { $addr } wužaduje
-openpgp-key-issue-notification-many = Zaklučowanje kónc do kónca sej rozrisanje klučowych problemow za někotrych přijimarjow wužaduje ({ $count }).
-smime-cert-issue-notification-one = Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za { $addr } wužaduje
-smime-cert-issue-notification-many = Zaklučowanje kónc do kónca sej rozrisanje certifikatowych problemow za někotrych přijimarjow wužaduje ({ $count })
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -289,14 +285,6 @@ show-bcc-row-button = Schowana kopija
     .title = Polo Schowana kopija pokazać ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Druhe adresowe pola, kotrež so maja pokazać
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Waša powěsć ma zjawneho přijimarja. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
-        [two] { $count } přijimarjej budźetaj w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
-        [few] { $count } přijimarjo budu w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
-       *[other] { $count } přijimarjow budźe w polomaj Komu a Kopija adresu druhich widźeć. Wužiwajće město toho polo Schowana kopija, zo byšće tomu zadźěwał, zo so přijimarjo přeradźuja.
-    }
 public-recipients-notice-single = Waša powěsć ma zjawneho přijimarja. Móžeće wobeńć, zo so přijimar wotkrywa, hdyž město toho schowanu kopiju wužiwaće.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
