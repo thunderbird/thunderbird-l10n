@@ -126,10 +126,10 @@ attachment-area-hide =
 
 drop-file-label-attachment =
     { $count ->
-        [one] Ako pśidank pśidaś
-        [two] Ako pśidanka pśidaś
-        [few] Ako pśidanki pśidaś
-       *[other] Ako pśidanki pśidaś
+        [one] Ako { $count } pśidank pśidaś
+        [two] Ako { $count } pśidanka pśidaś
+        [few] Ako { $count } pśidanki pśidaś
+       *[other] Ako { $count } pśidanki pśidaś
     }
 drop-file-label-inline =
     { $count ->
@@ -194,10 +194,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Zastojnik klucow
     .accesskey = Z
-openpgp-key-issue-notification-one = Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za { $addr } pomina
-openpgp-key-issue-notification-many = Koděrowanje kóńc do kóńca se rozwězanje klucowych problemow za někotare dostawarje pomina ({ $count }).
-smime-cert-issue-notification-one = Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za { $addr } pomina.
-smime-cert-issue-notification-many = Koděrowanje kóńc do kóńca se rozwězanje certifikatowych problemow za někotare dostawarje pomina ({ $count }).
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -289,14 +285,6 @@ show-bcc-row-button = Schowana kopija
     .title = Pólo Schowana kopija pokazaś ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Druge adresowe póla, kótarež se maju pokazaś
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Waša powěsć ma zjawnego dostawarja. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
-        [two] { $count } dostawarja w póloma Komu a Kopija buźotej adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje wótekšywaju.
-        [few] { $count } dostawarje w póloma Komu a Kopija budu adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje wótekšywaju.
-       *[other] { $count } dostawarjow w póloma Komu a Kopija buźo adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje wótekšywaju.
-    }
 public-recipients-notice-single = Waša powěsć ma zjawnego dostawarja. Móžośo  se togo wobinuś, až se dostawaŕ pśeraźijo, gaž město togo schowanu kopiju wužywaśo.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
