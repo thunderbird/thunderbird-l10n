@@ -567,6 +567,9 @@ primary-password-description = Una contraseña principal protege todas sus contr
 primary-password-label =
     .label = Usar una contraseña principal
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Requerir inicio de sesión en el dispositivo para introducir y administrar contraseñas
 primary-password-button =
     .label = Cambiar contraseña principal…
     .accesskey = C
