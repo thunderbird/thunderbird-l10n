@@ -6,24 +6,22 @@
 
 <!ENTITY accountTitle.label "Налады ўліковага запісу">
 <!ENTITY accountName.label "Імя ўліковага запісу:">
-<!ENTITY accountName.accesskey "Н">
-<!ENTITY identityTitle.label "Змоўчная адмета">
+<!ENTITY accountName.accesskey "І">
+<!ENTITY identityTitle.label "Стандартныя ідэнтыфікацыйныя даныя">
 <!ENTITY identityDesc.label "Кожны ўліковы запіс мае ідэнтыфікацыйныя даныя. Гэта інфармацыя, якую бачаць іншыя людзі пры чытанні вашых паведамленняў.">
 <!ENTITY name.label "Ваша імя:">
-<!ENTITY name.accesskey "І">
+<!ENTITY name.accesskey "В">
 <!ENTITY email.label "Адрас электроннай пошты:">
-<!ENTITY email.accesskey "Э">
-<!ENTITY catchAll.label "Адказваць ад гэтай адметы, калі загалоўкі дастаўкі супадаюць:">
-<!ENTITY replyTo.label "Зваротны адрас:">
-<!ENTITY replyTo.accesskey "З">
-<!ENTITY replyTo.placeholder "Атрымальнікі будуць адказваць на гэты адрас">
-<!ENTITY organization.label "Установа:">
-<!ENTITY organization.accesskey "У">
+<!ENTITY email.accesskey "А">
+<!ENTITY replyTo.label "Адрас для адказу:">
+<!ENTITY replyTo.accesskey "д">
+<!ENTITY organization.label "Арганізацыя:">
+<!ENTITY organization.accesskey "р">
 <!ENTITY signatureText.label "Тэкст подпісу:">
-<!ENTITY signatureText.accesskey "п">
-<!ENTITY signatureHtml.label "Ужываць HTML (напрыклад: &lt;b&gt;bold&lt;/b&gt;)">
-<!ENTITY signatureHtml.accesskey "ж">
-<!ENTITY signatureFile.label "Ужываць замест подпіс з файла (тэкст, HTML або выява):">
+<!ENTITY signatureText.accesskey "Т">
+<!ENTITY signatureHtml.label "Выкарыстоўваць HTML (напрыклад, &lt;b&gt;тэкст тоўстым шрыфтам&lt;/b&gt;)">
+<!ENTITY signatureHtml.accesskey "ы">
+<!ENTITY signatureFile.label "Або прымацоўваць подпіс з файла (тэкст, HTML або выява):">
 <!ENTITY signatureFile.accesskey "ф">
 <!ENTITY edit.label "Рэдагаваць…">
 <!ENTITY choose.label "Выбраць…">
