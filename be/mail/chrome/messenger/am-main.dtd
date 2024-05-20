@@ -17,15 +17,15 @@
 <!ENTITY replyTo.accesskey "д">
 <!ENTITY organization.label "Арганізацыя:">
 <!ENTITY organization.accesskey "р">
-<!ENTITY signatureText.label "Тэкст подпісу:">
+<!ENTITY signatureText.label "Выкарыстоўваць наступны тэкст у якасці подпісу:">
 <!ENTITY signatureText.accesskey "Т">
 <!ENTITY signatureHtml.label "Выкарыстоўваць HTML (напрыклад, &lt;b&gt;тэкст тоўстым шрыфтам&lt;/b&gt;)">
 <!ENTITY signatureHtml.accesskey "ы">
 <!ENTITY signatureFile.label "Або прымацоўваць подпіс з файла (тэкст, HTML або выява):">
-<!ENTITY signatureFile.accesskey "ф">
+<!ENTITY signatureFile.accesskey "п">
 <!ENTITY edit.label "Рэдагаваць…">
 <!ENTITY choose.label "Выбраць…">
-<!ENTITY choose.accesskey "В">
+<!ENTITY choose.accesskey "б">
 <!ENTITY editVCard.label "Рэдагаваць картку…">
 <!ENTITY editVCard.accesskey "К">
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
