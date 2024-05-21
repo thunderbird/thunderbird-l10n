@@ -100,7 +100,7 @@
     паслугач-пасярэднік працуе.</li>
 </ul>">
 
-<!ENTITY proxyResolveFailure.title "Немагчыма знайсці паслугач-пасярэднік">
+<!ENTITY proxyResolveFailure.title "Не атрымалася знайсці проксі-сервер">
 <!ENTITY proxyResolveFailure.longDesc "
 <ul>
   <li>Упэўніцеся, што наладжванні пасярэдніка правільныя.</li>

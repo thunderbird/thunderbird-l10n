@@ -117,7 +117,7 @@ tooltip-telephone = Нумар тэлефона
 #   field.
 chat-room-field-room = _Пакой
 chat-room-field-server = _Сервер
-chat-room-field-nick = _Мянушка
+chat-room-field-nick = _Псеўданім
 chat-room-field-password = _Пароль
 # LOCALIZATION NOTE (conversation-muc-*):
 #   These are displayed as a system message when a chatroom invitation is

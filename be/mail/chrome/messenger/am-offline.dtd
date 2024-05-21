@@ -2,8 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY doNotDownloadPop3Movemail.label "Каб захаваць дыскавую прастору, не загружаць:">
-<!ENTITY doNotDownloadNntp.label "Каб захаваць дыскавую прастору, не загружаць для карыстання па-за сеткаю:">
+<!ENTITY doNotDownloadPop3Movemail.label "Каб зберагчы дыскавую прастору, не спампоўваць:">
+<!ENTITY doNotDownloadNntp.label "Каб зберагчы дыскавую прастору, не спампоўваць для працы па-за сеткай:">
 <!ENTITY doNotDownloadImap.label "Каб захаваць дыскавую прастору, сцягванне лістоў з паслугача і ўтрымліванне мясцовых падвояў для пазасеткавага карыстання можа быць абмежавана па ўзросту або памеру.">
 <!ENTITY allFoldersOffline2.label "Захоўваць лісты з ўсіх папак для гэтага ўліковага запісу на гэтым кампутары">
 <!ENTITY allFoldersOffline2.accesskey "о">

@@ -5,7 +5,7 @@
 <!ENTITY accountWindow.title           "Уласцівасці ўліковага запісу">
 <!ENTITY accountWindow.width           "300">
 <!ENTITY account.general               "Асноўныя">
-<!ENTITY account.advanced              "Пашыраныя налады">
+<!ENTITY account.advanced              "Пашыраныя параметры">
 <!ENTITY account.name                  "Імя карыстальніка:">
 <!ENTITY account.password              "Пароль:">
 <!ENTITY account.alias                 "Псеўданім:">

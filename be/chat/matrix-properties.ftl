@@ -97,7 +97,7 @@ detail-admin = Адмін: { $value }
 # $value are all moderators. Example: "@lorem:mozilla.org, @ipsum:mozilla.org"
 detail-moderator = Мадэратар: { $value }
 # $value Example placeholder: "#thunderbird:matrix.org"
-detail-alias = Мянушка: { $value }
+detail-alias = Псеўданім: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = Гасцявы доступ: { $value }
 # This is a heading, followed by the power-level-* strings
