@@ -21,3 +21,4 @@ flatpak-desktop-generic-name = Паштовы кліент
 flatpak-desktop-action-compose = Напісаць новае паведамленне
 flatpak-desktop-action-addressbook = Адкрыць адрасную кнігу
 flatpak-desktop-action-calendar = Адкрыць каляндар
+flatpak-desktop-action-keymanager = Адкрыць менеджар ключоў OpenPGP
