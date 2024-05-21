@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Viðhalda möppuskipan í skjalageymslu
     .accesskey = k
+recreate-inbox =
+    .label = Endurgera pósthólfsmöppu
+    .accesskey = r
 archive-example-label = Dæmi
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Innhólf
+child-folder-name =
+    .label = Undirmappa í innhólfi
+sibling-folder-name =
+    .label = Hliðarmappa við innhólf

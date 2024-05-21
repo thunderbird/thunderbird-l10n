@@ -571,6 +571,9 @@ primary-password-description = Aðallykilorð verndar öll lykilorðin þín, en
 primary-password-label =
     .label = Nota aðallykilorð
     .accesskey = o
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Krefjast innskráningar tækis til að fylla út og sýsla með lykilorð
 primary-password-button =
     .label = Breyta aðallykilorði…
     .accesskey = B

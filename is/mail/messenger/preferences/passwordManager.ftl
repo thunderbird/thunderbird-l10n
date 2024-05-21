@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Vistaðar innskráningar
-saved-logins-title = Vistaðar innskráningar
 window-close =
     .key = w
+saved-logins-title = Vistaðar innskráningar
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Staðfestu auðkenni þitt til að birta vistu
 password-os-auth-dialog-message-macosx = birta vistuð lykilorð
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] breyttu stillingum lykilorða
+       *[other] { -brand-short-name } er að reyna að breyta stillingum lykilorða. Notaðu innskráningu tækisins til að leyfa þetta.
+    }
