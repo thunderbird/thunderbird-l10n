@@ -70,7 +70,7 @@
 <!ENTITY lightning.imipbar.btnDoNotShowImipBar.label                        "Non mostrare questi messaggi">
 <!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Calendario">
 <!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext                      "Vai alla scheda del calendario">
-<!ENTITY lightning.imipbar.btnMore.label                                    "Di più">
+<!ENTITY lightning.imipbar.btnMore.label                                    "Altro">
 <!ENTITY lightning.imipbar.btnMore.tooltiptext                              "Fare clic per visualizzare più opzioni">
 <!ENTITY lightning.imipbar.btnReconfirm2.label                              "Riconferma">
 <!ENTITY lightning.imipbar.btnReconfirm.tooltiptext                         "Invia una riconferma all’organizzatore">
@@ -94,8 +94,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Cambia lo stato di partecipazione per la serie senza inviare una risposta all’organizzatore">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
