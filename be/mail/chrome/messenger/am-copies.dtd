@@ -2,14 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-copies.xul -->
-
 <!-- extracted from am-copies.xhtml -->
 
 <!ENTITY copyAndFolderTitle.label "Копіі і папкі">
-<!ENTITY sendingPrefix.label "Калі дасылаюцца лісты, самастойна:">
-<!ENTITY fccMailFolder.label "Змясціць копію ў:">
-<!ENTITY fccMailFolder.accesskey "З">
+<!ENTITY sendingPrefix.label "Падчас адпраўкі паведамленняў аўтаматычна: ">
+<!ENTITY fccMailFolder.label "Размяшчаць копію ў:">
+<!ENTITY fccMailFolder.accesskey "Р">
 <!ENTITY fccReplyFollowsParent.label "Змяшчаць адказы ў папку ліста, на які даецца адказ">
 <!ENTITY fccReplyFollowsParent.accesskey "а">
 <!-- LOCALIZATION NOTE (ccAddress.label): do not translate "Cc" in below line -->

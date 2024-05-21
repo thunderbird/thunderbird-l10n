@@ -40,11 +40,13 @@
 
   &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
 -->
+<!ENTITY allAutosync.label               "Сінхранізаваць усе паведамленні, нягледзячы на іх узрост">
+<!ENTITY allAutosync.accesskey           "С">
 <!ENTITY ageAutosyncBefore.label         "Сінхранізаваць нядаўнія">
 <!ENTITY ageAutosync.accesskey           "і">
 <!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Дзён">
-<!ENTITY weekAgeInterval.label           "Тыдняў">
-<!ENTITY monthAgeInterval.label          "Месяцаў">
-<!ENTITY yearAgeInterval.label           "Гадоў">
+<!ENTITY dayAgeInterval.label            "дзён">
+<!ENTITY weekAgeInterval.label           "тыдняў">
+<!ENTITY monthAgeInterval.label          "месяцаў">
+<!ENTITY yearAgeInterval.label           "гадоў">
 <!ENTITY ageAutosyncAfter.label          "">
