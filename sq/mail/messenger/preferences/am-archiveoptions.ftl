@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Ruaje strukturën e dosjeve për mesazhet e arkivuara
     .accesskey = R
+recreate-inbox =
+    .label = Rikrijo dosje të marrësh
+    .accesskey = R
 archive-example-label = Shembull
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,5 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Të marrë
+child-folder-name =
+    .label = Nëndosje Të Marrësh

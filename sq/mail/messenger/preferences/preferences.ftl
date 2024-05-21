@@ -571,6 +571,9 @@ primary-password-description = Një Fjalëkalim i Përgjithshëm i mbron tërë 
 primary-password-label =
     .label = Përdorni një Fjalëkalim të Përgjithshëm
     .accesskey = P
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Kërko bërje hyrjeje në pajisje, për të plotësuar dhe administruar fjalëkalime
 primary-password-button =
     .label = Ndryshoni Fjalëkalimin e Përgjithshëm…
     .accesskey = N
