@@ -9,20 +9,16 @@
 <!ENTITY allFoldersOffline2.accesskey "Т">
 <!ENTITY offlineNotDownload.label "Паведамленні памерам больш за">
 <!ENTITY offlineNotDownload.accesskey "П">
-<!ENTITY autosyncNotDownload.label "Не сцягваць лісты, большыя чым">
-<!ENTITY autosyncNotDownload.accesskey "л">
+<!ENTITY autosyncNotDownload.label "Не спампоўваць паведамленні памерам больш за">
+<!ENTITY autosyncNotDownload.accesskey "Н">
 <!ENTITY kb.label "КБ">
 <!ENTITY daysOld.label "дзён">
-<!ENTITY message.label "апошніх лістоў">
-<!ENTITY nntpNotDownloadRead.label "Прачытаныя лісты">
-<!ENTITY nntpNotDownloadRead.accesskey "ч">
-<!ENTITY nntpDownloadMsg.label "Лісты, якім болей, чым">
-<!ENTITY nntpDownloadMsg.accesskey "б">
-<!ENTITY retentionCleanup.label "Каб вызваліць месца на дыску, старыя лісты можна выдаліць назаўсёды.">
-<!ENTITY retentionCleanupImap.label "Каб вызваліць месца на дыску, старыя лісты можна выдаліць назаўсёды, разам мясцовыя копіі і іх першакрыніцы на адлеглым паслугачы.">
-<!ENTITY retentionCleanupPop.label "Каб вызваліць месца на дыску, старыя лісты можна выдаліць назаўсёды, разам з іх першакрыніцамі на адлеглым паслугачы.">
-<!ENTITY retentionKeepMsg.label "Выдаліць лісты, якім больш за">
-<!ENTITY retentionKeepMsg.accesskey "з">
+<!ENTITY message.label "паведамленняў">
+<!ENTITY retentionCleanup.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам.">
+<!ENTITY retentionCleanupImap.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы як лакальныя копіі, так і арыгіналы на аддаленым серверы.">
+<!ENTITY retentionCleanupPop.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы арыгіналы на аддаленым серверы.">
+<!ENTITY retentionKeepMsg.label "Выдаляць паведамленні старэй за">
+<!ENTITY retentionKeepMsg.accesskey "В">
 <!ENTITY retentionKeepAll.label "Не выдаляць ніякіх лістоў">
 <!ENTITY retentionKeepAll.accesskey "н">
 <!ENTITY retentionKeepRecent.label "Выдаліць усе, акрамя самых апошніх">
