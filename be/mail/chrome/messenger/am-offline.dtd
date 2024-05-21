@@ -5,10 +5,10 @@
 <!ENTITY doNotDownloadPop3Movemail.label "Каб зберагчы дыскавую прастору, не спампоўваць:">
 <!ENTITY doNotDownloadNntp.label "Каб зберагчы дыскавую прастору, не спампоўваць для працы па-за сеткай:">
 <!ENTITY doNotDownloadImap.label "Каб зберагчы дыскавую прастору, спампоўка паведамленняў з сервера і трыманне лакальных копій для працы па-за сеткай можа быць абмежавана па іх ўзросце або памеры.">
-<!ENTITY allFoldersOffline2.label "Захоўваць лісты з ўсіх папак для гэтага ўліковага запісу на гэтым кампутары">
-<!ENTITY allFoldersOffline2.accesskey "о">
-<!ENTITY offlineNotDownload.label "Лісты, большыя чым">
-<!ENTITY offlineNotDownload.accesskey "б">
+<!ENTITY allFoldersOffline2.label "Трымаць паведамленні з ўсіх папак для гэтага ўліковага запісу на гэтым камп'ютары">
+<!ENTITY allFoldersOffline2.accesskey "Т">
+<!ENTITY offlineNotDownload.label "Паведамленні памерам больш за">
+<!ENTITY offlineNotDownload.accesskey "П">
 <!ENTITY autosyncNotDownload.label "Не сцягваць лісты, большыя чым">
 <!ENTITY autosyncNotDownload.accesskey "л">
 <!ENTITY kb.label "КБ">
