@@ -4,8 +4,8 @@
 
 <!-- extracted from am-archiveoptions.xhtml -->
 
-<!ENTITY dialogTitle.label "Наладжванні архівацыі">
-<!ENTITY archiveGranularityPrefix.label "Пасля архівацыі змяшчаць лісты ў:">
+<!ENTITY dialogTitle.label "Параметры архівавання">
+<!ENTITY archiveGranularityPrefix.label "Размяшчаць архіваваныя паведамленні ў:">
 <!ENTITY archiveFlat.label "асобную папку">
 <!ENTITY archiveFlat.accesskey "а">
 <!ENTITY archiveYearly.label "гадавыя архіўныя папкі">

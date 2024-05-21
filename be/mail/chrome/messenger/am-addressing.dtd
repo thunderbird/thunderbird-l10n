@@ -4,7 +4,6 @@
 
 <!-- extracted from am-addressing.xhtml -->
 
-<!ENTITY addressing.label          "Укладанне і адрасаванне">
 <!ENTITY addressingGroupTitle.label "Адрасаванне">
 <!ENTITY addressingText.label      "Калі шукаюцца адрасы:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
