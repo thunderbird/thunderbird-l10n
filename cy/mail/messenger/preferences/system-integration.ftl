@@ -27,7 +27,7 @@ checkbox-calendar-label =
 # Platforms that don't support it should be left blank.
 system-search-engine-name =
     { PLATFORM() ->
-        [macos] Sbotolau
+        [macos] Spotlight
         [windows] Chwilio Ffenestri
        *[other] { "" }
     }

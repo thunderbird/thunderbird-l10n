@@ -199,7 +199,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Dango bariau sgrolio bob tro
     .accesskey = D
-window-layout-legend = Cynllun Ffenestr
+window-layout-legend = Cynllun Ffenestri
 draw-in-titlebar-label =
     .label = Cuddio bar teitl ffenestr y system
     .accesskey = C
@@ -219,7 +219,7 @@ check-default-button =
 search-engine-name =
     { PLATFORM() ->
         [macos] Sbotolau
-        [windows] Chwilio Ffenestri
+        [windows] Chwilio Windows
        *[other] { "" }
     }
 search-integration-label =
