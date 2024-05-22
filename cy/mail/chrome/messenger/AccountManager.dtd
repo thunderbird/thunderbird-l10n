@@ -4,7 +4,7 @@
 
 <!-- extracted from AccountManager.xhtml -->
 
-<!ENTITY accountManagerTitle.label "Gosodiadau Cyfrif">
+<!ENTITY accountManagerTitle.label "Gosodiadau Cyfrifon">
 <!ENTITY  accountManagerCloseButton.label "Cau">
 
 <!ENTITY accountActionsButton.label "Gweithredoedd Cyfrif">

@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY serverAdvanced.label "Gosodiadau Cyfrif Uwch">
+<!ENTITY serverAdvanced.label "Gosodiadau Cyfrifon Uwch">
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 <!ENTITY serverDirectory.label "Cyfeiriadur gweinydd IMAP:">
 <!ENTITY serverDirectory.accesskey "g">
@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "D">
 <!ENTITY overrideNamespaces.label "Caniatáu i'r gweinydd i wrth-wneud y bylchau enw">
 <!ENTITY overrideNamespaces.accesskey "C">
-<!ENTITY pop3DeferringDesc.label "Wrth lwytho e-bost i lawr o weinydd y cyfrif, defnyddiwch y ffolder ganlynol i gadw'r negeseuon newydd:" >
+<!ENTITY pop3DeferringDesc.label "Wrth lwytho e-bost i lawr o weinydd y cyfrif, defnyddiwch y ffolder ganlynol i gadw'r negeseuon newydd:">
 <!ENTITY accountInbox.label "Blwch Derbyn y cyfrif hwn">
 <!ENTITY accountInbox.accesskey "c">
 <!ENTITY deferToServer.label "Blwch Derbyn cyfrif gwahanol">
