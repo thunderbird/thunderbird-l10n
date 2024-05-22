@@ -573,7 +573,7 @@ primary-password-label =
     .accesskey = D
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
-    .label = Angen mewngofnodi dyfais i lenwi a rheoli cyfrineiriau
+    .label = Gofyn am fewngofnodi dyfais i lenwi a rheoli cyfrineiriau
 primary-password-button =
     .label = Newid y Prif Gyfrinair…
     .accesskey = N
