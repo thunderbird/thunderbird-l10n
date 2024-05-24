@@ -275,4 +275,5 @@
 <!ENTITY summary.dialog.saveclose.tooltiptext   "Захаваць змены і закрыць акно без змянення статусу удзелу і адпраўкі адказу">
 <!ENTITY summary.dialog.accept.label            "Прыняць">
 <!ENTITY summary.dialog.accept.tooltiptext      "Прыняць запрашэнне">
+<!ENTITY summary.dialog.dontsend.label          "Не адпраўляць адказ">
 <!ENTITY summary.dialog.send.label              "Адправіць адказ зараз">
