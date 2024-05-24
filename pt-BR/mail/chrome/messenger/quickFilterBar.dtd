@@ -7,7 +7,7 @@
      whether the quick filter bar is visible.
      -->
 <!ENTITY quickFilterBar.toggleBarVisibility.menu.label
-         "Barra de filtragem">
+         "Barra de filtro rápido">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.toggleBarVisibility.menu.accesskey):
      The access key for the "View... Toolbars..." menu item label that controls
