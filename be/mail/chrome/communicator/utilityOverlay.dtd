@@ -24,8 +24,8 @@
 <!ENTITY viewMenu.accesskey        "В">
 <!ENTITY viewToolbarsMenu.label        "Панэлі інструментаў">
 <!ENTITY viewToolbarsMenu.accesskey      "П">
-<!ENTITY showTaskbarCmd.label          "Паліца з статусам">
-<!ENTITY showTaskbarCmd.accesskey        "с">
+<!ENTITY showTaskbarCmd.label          "Панэль статусу">
+<!ENTITY showTaskbarCmd.accesskey        "а">
 
 <!ENTITY closeCmd.label      "Закрыць">
 <!ENTITY closeCmd.key      "W">
