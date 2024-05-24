@@ -4,6 +4,14 @@
 
 account-central-title = Вітаем у { -brand-full-name }
 account-settings = Налады ўліковага запісу
+#   $accounts (Number) - the number of configured accounts
+setup-title =
+    { $accounts ->
+        [0] Выберыце, што трэба наладзіць
+        [one] Наладзіць іншы ўліковы запіс
+        [few] Наладзіць іншыя ўліковыя запісы
+       *[many] Наладзіць іншыя ўліковыя запісы
+    }
 about-title = Пра { -brand-full-name }
 resources-title = Рэсурсы
 release-notes =
