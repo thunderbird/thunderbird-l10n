@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Zachovat stávající strukturu složek
     .accesskey = Z
+recreate-inbox =
+    .label = Znovu vytvořit složku Doručená pošta
+    .accesskey = Z
 archive-example-label = Příklad
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Doručená pošta
+child-folder-name =
+    .label = Podsložka v Doručené poště
+sibling-folder-name =
+    .label = Sourozenec složky Doručená pošta
