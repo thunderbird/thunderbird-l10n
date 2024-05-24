@@ -23,6 +23,16 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Паказвае, што вы не прымаеце сустрэчныя прапановы">
 
 <!-- Keyboard Shortcuts -->
+<!ENTITY event.dialog.new.message.key2            "N">
+<!ENTITY event.dialog.close.key                   "W">
+<!ENTITY event.dialog.save.key                    "S">
+<!ENTITY event.dialog.saveandclose.key            "L">
+<!ENTITY event.dialog.undo.key                    "Z">
+<!ENTITY event.dialog.redo.key                    "Y">
+<!ENTITY event.dialog.cut.key                     "X">
+<!ENTITY event.dialog.copy.key                    "C">
+<!ENTITY event.dialog.paste.key                   "V">
+<!ENTITY event.dialog.select.all.key              "A">
 
 <!-- Menubar -->
 <!ENTITY  event.menu.item.new.label                       "Стварыць">
@@ -57,12 +67,15 @@
 <!ENTITY  event.menu.edit.paste.label                     "Уставіць">
 <!ENTITY  event.menu.edit.select.all.label                "Вылучыць усё">
 
+<!ENTITY  event.menu.view.label                           "Выгляд">
+<!ENTITY  event.menu.view.toolbars.label                  "Панэлі інструментаў">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Персаналізаваць…">
 
 <!ENTITY  event.menu.options.label                            "Параметры">
 <!ENTITY  event.menu.options.attendees.label                  "Запрасіць удзельнікаў…">
 <!ENTITY  event.menu.options.timezone2.label                  "Паказваць часавыя поясы">
 <!ENTITY  event.menu.options.priority2.label                  "Прыярытэт">
+<!ENTITY  event.menu.options.priority.notspecified.label      "Не вызначаны">
 <!ENTITY  event.menu.options.priority.low.label               "Нізкі">
 <!ENTITY  event.menu.options.priority.normal.label            "Звычайны">
 <!ENTITY  event.menu.options.priority.high.label              "Высокі">
@@ -71,6 +84,8 @@
 <!ENTITY  event.menu.options.privacy.confidential.label       "Паказваць толькі час і дату">
 <!ENTITY  event.menu.options.privacy.private.label            "Прыватная падзея">
 <!ENTITY  event.menu.options.show.time.label                  "Паказваць час як">
+<!ENTITY  event.menu.options.show.time.busy.label             "Заняты">
+<!ENTITY  event.menu.options.show.time.free.label             "Вольны">
 
 <!ENTITY event.invite.attendees.label                     "Запрасіць удзельнікаў…">
 <!ENTITY event.email.attendees.label                      "Скласці электронны ліст для ўсіх удзельнікаў…">
