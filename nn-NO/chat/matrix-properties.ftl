@@ -192,6 +192,7 @@ message-alias-added = { $user } la til { $addresses } som alternativ adresse  fo
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.
 message-verification-request2 = { $user } ønskjer å stadfeste { $userReceiving }.
+message-verification-done = Stadfesting fullført.
 message-decrypting = Dekrypterer...
 message-redacted = Meldinga vart redigert.
 #    $userThatReacted is the username of the user that reacted.

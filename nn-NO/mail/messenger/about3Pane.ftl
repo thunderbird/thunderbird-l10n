@@ -15,6 +15,8 @@ thread-pane-folder-message-count =
     }
 thread-pane-header-context-table-view =
     .label = Tabellvising
+thread-pane-header-context-cards-view =
+    .label = Kortvising
 
 ## Quick Filter Bar
 
@@ -25,6 +27,10 @@ thread-pane-header-context-table-view =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Behald filtra ved byte av mappe
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Snøggfiltermeny
 quick-filter-bar-dropdown-unread =
     .label = Ulesne
 quick-filter-bar-dropdown-starred =
@@ -98,6 +104,23 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filtrer desse meldingane <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search =
+    .label = Filtrer meldingar:
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Filtrer meldingar… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Søk overalt
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Taggfiltreringsmodus
@@ -148,6 +171,19 @@ folder-pane-write-message-button = Ny melding
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Mappemodus
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Vis «Hent meldingar»
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Vis «Ny melding»
+folder-pane-show-total-toggle =
+    .label = Vis totalt antal meldingar
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Vis mappestorleik
+folder-pane-header-hide-local-folders =
+    .label = Skjul lokale mapper
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktvising
     .accesskey = K
@@ -155,6 +191,13 @@ folder-pane-mode-move-up =
     .label = Flytt opp
 folder-pane-mode-move-down =
     .label = Flytt ned
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 ulesen melding
+       *[other] { $count } ulesne meldingar
+    }
 
 ## Message thread pane
 
@@ -162,8 +205,12 @@ threadpane-column-header-select =
     .title = Skift vel alle meldingane
 threadpane-column-label-select =
     .label = Vel meldingar
+threadpane-cell-select =
+    .aria-label = Vel melding
 threadpane-column-label-thread =
     .label = Tråd
+threadpane-cell-thread =
+    .aria-label = Trådstatus
 threadpane-column-header-flagged =
     .title = Sorter etter: Stjerne
 threadpane-column-label-flagged =
@@ -178,11 +225,17 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = Vedlegg
 threadpane-attachments-cell-label = Vedlegg
+threadpane-column-header-spam =
+    .title = Sorter etter søppelpoststatus
 threadpane-column-label-spam =
     .label = Spam
 threadpane-spam-cell-label = Spam
 threadpane-column-header-unread-button =
     .title = Sorter etter lesen-status
+threadpane-column-label-unread-button =
+    .label = Lesestatus
+threadpane-cell-read-status =
+    .aria-label = Lesestatus
 threadpane-read-cell-label = Lesne
 threadpane-unread-cell-label = Ulesne
 threadpane-column-header-sender = Frå
@@ -321,6 +374,13 @@ threadpane-column-header-total = Totalt
     .title = Totalt tal på meldingar i tråden
 threadpane-column-label-total =
     .label = Totalt
+threadpane-cell-total =
+    .aria-label = Totalt antal meldingar
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Totalt antal meldingar
+    .title = { $title }
 threadpane-column-header-location = Plassering
     .title = Sorter etter: Plassering
 threadpane-column-label-location =
@@ -342,6 +402,13 @@ threadpane-column-label-delete =
     .label = Slett
 threadpane-cell-delete =
     .aria-label = Slett
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } svar
+       *[other] { $count } svar
+    }
 
 ## Message state variations
 
