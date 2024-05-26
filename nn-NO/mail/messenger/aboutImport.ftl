@@ -34,11 +34,17 @@ source-thunderbird-description = Importer innstillingar, filter, meldingar og an
 source-seamonkey = Importer frå ein { app-name-seamonkey }-installasjon
 source-seamonkey-description = Importer innstillingar, filter, meldingar og andre data frå ein { app-name-seamonkey }-profil.
 source-outlook = Importer frå { app-name-outlook }
+source-outlook-description = Importer kontoar, adressebøker og meldingar frå { app-name-outlook }.
 source-becky = Importer frå { app-name-becky }
+source-becky-description = Importer adressebøker og meldingar frå { app-name-becky }.
+source-apple-mail = Importer frå { app-name-apple-mail }
+source-apple-mail-description = Importer meldingar frå { app-name-apple-mail }.
 source-file2 = Importer frå ei fil
+source-file-description = Vel ei fil for å importere adressebøker, kalendrar, eller ein profilsikkerheitskopi (ZIP-fil).
 
 ## Import from file selections
 
+file-profile2 = Importer profilsikkerheitskopi
 file-calendar = Importer kalendrar
 file-addressbook = Importer adressebøker
 
@@ -101,6 +107,8 @@ summary-pane-start = Start Import
 ## Footer area
 
 footer-help = Treng du hjelp?
+footer-import-documentation = Dokumentasjon om import
+footer-export-documentation = Dokumentasjon om eksport
 footer-support-forum = Brukarstøtteforum
 
 ## Step navigation on top of the wizard pages

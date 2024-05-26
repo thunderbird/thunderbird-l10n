@@ -412,6 +412,9 @@ threadpane-replies =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indikator for ny melding
+    .title = Ny melding
 threadpane-message-redirected =
     .alt = Indikator for omdirigert melding
     .title = Melding omdirigert
@@ -445,3 +448,5 @@ apply-current-columns-to-folder-with-children-message = Bruk kolonnane åt denne
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-message = Bruk gjeldande mappevising på { $name }?
+threadpane-card-menu-button =
+    .title = Meldingsmeny
