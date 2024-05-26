@@ -651,7 +651,7 @@
 <!ENTITY saveAsVirtualFolderMenu.label "Uložiť hľadanie ako priečinok…">
 
 <!-- Thread Pane -->
-<!ENTITY selectColumn.label "Označte správy">
+<!ENTITY selectColumn.label "Výber správy">
 <!ENTITY threadColumn.label "Vlákno">
 <!ENTITY fromColumn.label "Od">
 <!ENTITY recipientColumn.label "Adresát">
