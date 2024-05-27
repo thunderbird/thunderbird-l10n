@@ -183,6 +183,6 @@ task-alarm-time-label =
 calendar-notifications-customize-label = Her takvimin özellikler penceresinden o takvimin bildirimlerini özelleştirebilirsiniz.
 category-new-label = Yeni kategori
 category-edit-label = Kategori düzenle
-category-overwrite-title = Uyarı: Çift isim
+category-overwrite-title = Uyarı: Çift ad
 category-overwrite = Aynı isimde kategori önceden mevcut. Üstüne yazmak ister misiniz?
 category-blank-warning = Bir kategori adı girmelisiniz.
