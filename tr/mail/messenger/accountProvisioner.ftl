@@ -16,7 +16,7 @@ account-provisioner-domain-description = Thunderbird, size özel bir alan adı s
 ## Forms
 
 account-provisioner-mail-input =
-    .placeholder = Adınız, rumuzunuz veya diğer arama terimleriniz
+    .placeholder = Adınız, takma adınız veya diğer arama terimleriniz
 account-provisioner-domain-input =
     .placeholder = Adınız, rumuzunuz veya diğer arama terimleriniz
 account-provisioner-search-button = Ara

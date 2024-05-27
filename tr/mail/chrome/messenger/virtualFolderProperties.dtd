@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY virtualFolderProperties.title "Yeni Kayıtlı Arama Dizini">
-<!ENTITY name.label                 "İsim:">
+<!ENTITY name.label                 "Ad:">
 <!ENTITY name.accesskey             "s">
 <!ENTITY description.label          "Buranın alt dizini olarak oluştur:">
 <!ENTITY description.accesskey      "d">

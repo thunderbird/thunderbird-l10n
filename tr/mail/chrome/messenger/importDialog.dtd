@@ -33,7 +33,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY selectDescription.label  "İçe aktarmak istediğiniz dosya türünü seçin:">
 <!ENTITY selectDescriptionB.label "Lütfen mevcut bir hesap seçin veya yeni bir hesap oluşturun:">
 <!ENTITY selectDescription.accesskey "a">
-<!ENTITY acctName.label           "İsim:">
+<!ENTITY acctName.label           "Ad:">
 <!ENTITY acctName.accesskey       "s">
 <!ENTITY noModulesFound.label     "Verilerin aktarılabileceği bir uygulama veya dosya bulunamadı.">
 
