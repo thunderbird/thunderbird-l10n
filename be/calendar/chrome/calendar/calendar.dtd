@@ -120,6 +120,8 @@
 <!ENTITY calendar.context.pasteevent.label            "Уставіць">
 <!ENTITY calendar.context.pasteevent.accesskey        "У">
 
+<!ENTITY calendar.context.attendance.occurrence.label           "Гэту падзею ў серыі">
+<!ENTITY calendar.context.attendance.all2.label                 "Усе падзеі ў серыі">
 <!ENTITY calendar.context.attendance.send.label                 "Адправіць апавяшчэнне зараз">
 <!ENTITY calendar.context.attendance.dontsend.label             "Не адпраўляць апавяшчэнне">
 
@@ -171,6 +173,7 @@
 <!ENTITY calendar.context.newserver.label              "Новы каляндар…">
 <!ENTITY calendar.context.newserver.accesskey          "Н">
 <!ENTITY calendar.context.findcalendar.label           "Знайсці каляндар…" >
+<!ENTITY calendar.context.deleteserver2.label          "Выдаліць каляндар…">
 
 <!-- LOCALIZATION NOTE (calendar.context.removeserver.label): Removing the
       calendar is the general action of removing it, while deleting means to
@@ -204,6 +207,7 @@
 
 <!-- Calendar Alarm Dialog -->
 
+<!ENTITY calendar.alarm.location.label              "Месца:" >
 <!ENTITY calendar.alarm.details.label               "Падрабязнасці…" >
 
 <!ENTITY calendar.alarm.snoozefor.label             "Адкласці на" >
@@ -250,6 +254,7 @@
 <!ENTITY calendar.publish.close.button      "Закрыць">
 
 <!-- Select Calendar Dialog -->
+<!ENTITY calendar.select.dialog.title    "Выберыце каляндар">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Падрабязнасці…">
