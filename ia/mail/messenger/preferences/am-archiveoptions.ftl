@@ -28,3 +28,5 @@ inbox-folder-name =
     .label = Cassa de entrata
 child-folder-name =
     .label = Sub-plica de ingresso
+sibling-folder-name =
+    .label = Cassa de entrata fratre
