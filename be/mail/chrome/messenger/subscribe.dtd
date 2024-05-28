@@ -2,20 +2,20 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY subscribeDialog.title        "Падпіска">
+<!ENTITY subscribeDialog.title        "Падпісацца">
 <!ENTITY subscribeButton.label        "Падпісацца">
 <!ENTITY subscribeButton.accesskey    "П">
 <!ENTITY unsubscribeButton.label      "Адпісацца">
 <!ENTITY unsubscribeButton.accesskey  "А">
-<!ENTITY newGroupsTab.label           "Новыя купы">
+<!ENTITY newGroupsTab.label           "Новыя групы">
 <!ENTITY newGroupsTab.accesskey       "Н">
-<!ENTITY refreshButton.label          "Паднавіць">
-<!ENTITY refreshButton.accesskey      "н">
+<!ENTITY refreshButton.label          "Абнавіць">
+<!ENTITY refreshButton.accesskey      "б">
 <!ENTITY stopButton.label             "Спыніць">
 <!ENTITY stopButton.accesskey         "С">
 <!ENTITY server.label                 "Уліковы запіс:">
-<!ENTITY server.accesskey             "Р">
-<!ENTITY subscribedHeader.label       "Падпіска">
+<!ENTITY server.accesskey             "У">
+<!ENTITY subscribedHeader.label       "Падпісацца">
 <!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Паказваць элементы, якія змяшчаюць:">
