@@ -21,6 +21,20 @@ e2e-csr-button =
 e2e-csr-select-title = CSR-algoritmus
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = Wubjeŕśo mjazy RSA (dopórucony) abo ECC ako swój kryptografiski algoritmus za nowy certifikat S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Wubjeŕśo pominanu kryptografisku móc (malsnjejša z niskimi licbami abo lěpša z wušymi licbami) za nowy certifikat S/MIME), abo wobchowajśo standardne nastajenje.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Nowy pótajmny kluc { $type } { $strength } buźo se w nastajenjach { -brand-short-name } generěrowaś. Toś ten proces móžo chylku traś a nachylu zawinowaś, až wótegrono njedojźo; pšosym wóstańś sćerpliwy za toś ten kšac. CSR-dataja, kótaraž jo se składła ako { $file }, se mjaztym napórajo.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = E-mailowu adresu ({ $email }) do CSR zapśimjeś (dopórucone)
+# $file A filename
+e2e-csr-success = CSR jo se wuspěšnje składł do { $file }
+# $file A filename
+e2e-csr-failure = CSR njedajo se do { $file } składowaś
 e2e-signing-description = Digitalna signatura dostawarjam zmóžnja, pśeglědowaś, až powěsć jo se wót was pósłała, a lěc jeje wopśimjeśe njejo se změniło. Skoděrowane powěsći se pśecej pó standarźe signěruju.
 e2e-sign-message =
     .label = Njeskoděrowane powěsći signěrowaś
@@ -529,6 +543,7 @@ key-man-button-export-pub-key = Jano &zjawne kluce eksportěrowaś
 key-man-button-refresh-all = Wšykne kluce &aktualizěrowaś
 key-man-loading-keys = Kluce se zacytuju, pšosym cakajśo…
 ascii-armor-file = ASCII Armored Files (*.asc)
+text-file = Tekstowe dataje (*.txt)
 no-key-selected = Wy měł nanejmjenjej jaden kluc wubraś, aby wubranu operaciju wuwjadł
 export-to-file = Zjawny kluc do dataje eksportěrowaś
 export-keypair-to-file = Pótajmny a zjawny kluc do dataje eksportěrowaś
@@ -673,6 +688,9 @@ confirm-permissive-import = Import njejo se raźił. Kluc, kótaryž wopytujośo
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Někotare importěrowane pótajmne kluce njepódprětu funkciju póbituju. Jolic taki kluc ako swój wósobinski kluc wužywaśo, mógu korespondenty wam mejlki abo zjawne kluce w inkompatibelnych formatach słaś. To importěrowane pótajmne kluce ze slědujucymi palcowymi wótśišćami nastupa: { $fingerprints }.
 help-button = Pomoc
 
 ## Strings used in trust.sys.mjs
