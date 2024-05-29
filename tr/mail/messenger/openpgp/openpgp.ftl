@@ -412,7 +412,7 @@ wkd-message-body-req =
     E-posta sağlayıcınız ortak anahtarınızı OpenPGP web anahtarı dizinine yükleme isteğinizi işleme koydu.
     Lütfen ortak anahtarınızın yayımlanmasını tamamlamak için onaylayın.
 wkd-message-body-process =
-    Bu, ortak anahtarınızı OpenPGP Web Anahtar Dizini'ne yüklemek için otomatik işlemeyle ilgili bir e-postadır.
+    Bu, ortak anahtarınızı OpenPGP web anahtar dizinine yüklemek için otomatik işlemeyle ilgili bir e-postadır.
     Şu anda herhangi bir işlem yapmanız gerekmiyor.
 
 ## Strings in persistentCrypto.jsm
