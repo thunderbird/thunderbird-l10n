@@ -3,12 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY windowTitle.label "Ператварэнне ў табліцу">
-<!ENTITY instructions1.label "Укладальнік стварае новы шэраг табліцы для кожнага параграфу вылучэння.">
-<!ENTITY instructions2.label "Выбраць знак для раздзялення вылучэння ў слупкі:">
-<!ENTITY commaRadio.label "Коска">
-<!ENTITY spaceRadio.label "Прагал">
-<!ENTITY otherRadio.label "Іншы знак:">
-<!ENTITY deleteCharCheck.label "Выдаліць знак раздзяляльніка">
-<!ENTITY collapseSpaces.label "Ігнараваць дадатковыя прагалы">
-<!ENTITY collapseSpaces.tooltip "Ператварыць сумежныя прагалы ў адзін раздзяляльнік">
+<!-- Window title -->
+<!ENTITY windowTitle.label "Пераўтварыць у табліцу">
+<!ENTITY commaRadio.label      "Коска">
+<!ENTITY spaceRadio.label      "Прабел">
+<!ENTITY otherRadio.label      "Іншы сімвал:">
+<!ENTITY deleteCharCheck.label "Выдаліць сімвал раздзяляльніка">
+<!ENTITY collapseSpaces.label  "Ігнараваць лішнія прабелы">
