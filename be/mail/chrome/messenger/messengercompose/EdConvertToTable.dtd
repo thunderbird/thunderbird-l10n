@@ -10,3 +10,4 @@
 <!ENTITY otherRadio.label      "Іншы сімвал:">
 <!ENTITY deleteCharCheck.label "Выдаліць сімвал раздзяляльніка">
 <!ENTITY collapseSpaces.label  "Ігнараваць лішнія прабелы">
+<!ENTITY collapseSpaces.tooltip "Пераўтварыць сумежныя прабелы ў адзін раздзяляльнік">

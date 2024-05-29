@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY AdvancedEditButton.label "Пашыраная праўка…">
+<!ENTITY AdvancedEditButton.label "Пашыранае рэдагаванне…">
 <!ENTITY AdvancedEditButton.accessKey "П">
 <!ENTITY AdvancedEditButton.tooltip "Дадаць або змяніць атрыбуты HTML, атрыбуты стылю, ці JavaScript">
 <!ENTITY chooseFileButton.label "Выбраць файл...">
@@ -13,5 +13,6 @@
 <!ENTITY makeUrlRelative.accessKey "а">
 <!ENTITY makeUrlRelative.tooltip "Выбар паміж адноснага ці безумоўнага URL. Вы мусіце захаваць старонку перад выбарам.">
 
+<!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Увядзіце адрас вэб-старонкі, лакальнага файла або вылучыце якар або загаловак з імем з кантэкстнага меню поля:">
 <!ENTITY LinkURLEditField2.accessKey "в">
