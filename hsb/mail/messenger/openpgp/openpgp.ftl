@@ -4,6 +4,10 @@
 
 e2e-intro-description = Zo byšće zaklučowane abo digitalnje signowane powěsće pósłał, dyrbiće zaklučowansku technologiju konfigurować, pak OpenPGP pak S/MIME.
 e2e-intro-description-more = Wubjerće swój wosobinski kluč, zo byšće wužiwanje OpenPGP zmóžnił, abo wosobinski certifikat, zo byšće wužiwanje S/MIME zmóžnił. Za wosobinski kluč abo certifikat maće wotpowědny tajny kluč.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Zo byšće nowy wosobinski certifikat S/MIME dóstał, generěrujće naprašowanje signowanja certifikata (CSR) a zapodajće jo pola certifikowanišća (CA)
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Wubjerće lokalny zapis a datajowe mjeno za swoju CSR-dataju a wotmołwće na slědowace prašenja za nastajenja algoritmusa a sylnosće.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = CSR generěrować
 # A label for a button that proceeds to the next step
