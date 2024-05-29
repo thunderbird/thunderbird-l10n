@@ -16,6 +16,7 @@ accounts-default = Predvolený?
 identity-name = Identita
 send-via-email = Odoslať ako e‑mailovú správu
 app-basics-telemetry = Údaje telemetrie
+app-basics-glean = Údaje Glean
 app-basics-cache-use = Využitie vyrovnávacej pamäte
 mail-libs-title = Knižnice
 libs-table-heading-library = Knižnica
