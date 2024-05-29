@@ -19,6 +19,10 @@ e2e-csr-button =
     .label = CSR-dataju generěrować a składować…
 # Do not translate: CSR
 e2e-csr-select-title = CSR-algoritmus
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Wubjerće mjez RSA (doporučeny) abo ECC jako swój kryptografiski algoritmus za nowy certifikat S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Wubjerće požadanu kryptografisku sylnosć (spěšniša z niskimi ličbami abo lěpša z wyšimi ličbami) za nowy certifikat S/MIME), abo wobchowajće standardne nastajenje.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = E-mejlowu adresu ({ $email }) do CSR zapřijeć (doporučene)
