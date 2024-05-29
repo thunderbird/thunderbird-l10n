@@ -82,76 +82,93 @@ about-addressbook-sort-email-ascending =
     .label = 依照電子郵件地址排序（升冪）
 about-addressbook-sort-email-descending =
     .label = 依照電子郵件地址排序（降冪）
-about-addressbook-horizontal-layout =
-    .label = 切換為水平版面配置
-about-addressbook-vertical-layout =
-    .label = 切換為垂直版面配置
 about-addressbook-table-layout =
     .label = 表格顯示
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = 姓名
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = 電子郵件地址
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = 電話號碼
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = 地址
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = 頭銜
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = 部門
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = 公司
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = 通訊錄
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = 名稱
     .title = 依照名稱排序
 about-addressbook-column-label-generatedname2 =
     .label = 名稱
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = 名稱
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = 電子郵件地址
     .title = 依照電子郵件地址排序
 about-addressbook-column-label-emailaddresses2 =
     .label = 電子郵件地址
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = 電子郵件地址
+    .title = { $title }
 about-addressbook-column-header-nickname2 = 暱稱
     .title = 依照暱稱排序
 about-addressbook-column-label-nickname2 =
     .label = 暱稱
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = 暱稱
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = 電話號碼
     .title = 依照電話號碼排序
 about-addressbook-column-label-phonenumbers2 =
     .label = 電話號碼
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = 電話號碼
+    .title = { $title }
 about-addressbook-column-header-addresses2 = 地址
     .title = 依照地址排序
 about-addressbook-column-label-addresses2 =
     .label = 地址
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = 地址
+    .title = { $title }
 about-addressbook-column-header-title2 = 標題
     .title = 依照標題排序
 about-addressbook-column-label-title2 =
     .label = 標題
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = 標題
+    .title = { $title }
 about-addressbook-column-header-department2 = 部門
     .title = 依照部門排序
 about-addressbook-column-label-department2 =
     .label = 部門
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = 部門
+    .title = { $title }
 about-addressbook-column-header-organization2 = 公司
     .title = 依照公司名稱排序
 about-addressbook-column-label-organization2 =
     .label = 公司
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = 公司
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = 通訊錄
     .title = 依照通訊錄排序
 about-addressbook-column-label-addrbook2 =
     .label = 通訊錄
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = 通訊錄
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = 寫信
 about-addressbook-confirm-delete-mixed-title = 刪除通訊錄與群組
@@ -179,15 +196,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] 移除聯絡人
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] 您確定要從 { $list } 刪除聯絡人 { $name } 嗎？
-       *[other] 您確定要從 { $list } 清單刪除 { $count } 位聯絡人嗎？
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = 您確定要從 { $list } 清單刪除 { $name } 嗎？
@@ -203,14 +211,6 @@ about-addressbook-confirm-remove-contacts-multi =
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
        *[other] 刪除聯絡人
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] 您確定要刪除聯絡人 { $name } 嗎？
-       *[other] 您確定要刪除下列 { $count } 位聯絡人嗎？
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -233,15 +233,6 @@ about-addressbook-placeholder-no-search-results = 找不到聯絡人
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } 個選擇的聯絡人與清單
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } 位選擇的聯絡人
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } 個選擇的清單
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =

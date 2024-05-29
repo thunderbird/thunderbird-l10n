@@ -4,6 +4,37 @@
 
 e2e-intro-description = 若要傳送加密訊息，或經數位簽署過的訊息，必須先設定 OpenPGP 或 S/MIME 的任一種加密方式。
 e2e-intro-description-more = 請選擇您要用於 OpenPGP 的個人金鑰，或用於 S/MIME 的個人憑證。不論是個人金鑰或憑證您都會有對應的私鑰。
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = 若要取得新的個人 S/MIME 憑證請產生憑證簽署請求CSR提交給憑證機構CA。
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = 為您的 CSR 檔案選擇本機目錄與檔名請回答下列問題來設定演算法與強度。
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = 產生 CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = 繼續
+# A label for a button that goes back one step
+e2e-csr-back = 上一頁
+# Do not translate: CSR
+e2e-csr-button =
+    .label = 產生 CSR 檔案並另存為…
+# Do not translate: CSR
+e2e-csr-select-title = CSR 演算法
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = 選擇 RSA建議或 ECC 作為新 S/MIME 憑證的加密演算法。
+# Do not translate: S/MIME
+e2e-csr-select-strength = 請選擇您想要獲得新 S/MIME 憑證的加密強度(數字越小速度越快、安全性越好)或保留預設值。
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = 將會於 { -brand-short-name } 的設定產生新的 { $type } { $strong } 私鑰。這個過程可能需要一點時間造成您暫時無法回應在這步驟中請保持耐心。同時將建立另存為 { $file } 的憑證簽署請求CSR檔案。
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = 在 CSR 中包含電子郵件地址{ $email }推薦
+# $file A filename
+e2e-csr-success = 已成功將 CSR 儲存到 { $file }
+# $file A filename
+e2e-csr-failure = 無法將 CSR 儲存到檔案 { $file }
 e2e-signing-description = 數位簽章讓收件者可以確認訊息是由您寄出的，並且內容未遭竄改。加密訊息預設將開啟數位簽署。
 e2e-sign-message =
     .label = 簽署未加密訊息
@@ -382,6 +413,9 @@ window-locked = 信件撰寫視窗已鎖定，取消傳送
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = 已中斷
 keyserver-error-unknown = 發生了未知的錯誤
 keyserver-error-server-error = 金鑰伺服器回覆錯誤。
@@ -393,16 +427,25 @@ keyserver-error-unsupported = 不支援此金鑰伺服器。
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req = 您的電子郵件服務供應商處理了您要將公鑰上傳到 OpenPGP 網頁金鑰目錄的請求。請確認公鑰的公布過程是否已經完成。
 wkd-message-body-process = 這是一封關於自動將公鑰上傳到 OpenPGP 網頁金鑰目錄的郵件。您暫時還不必做任何事。
 
 ## Strings in persistentCrypto.jsm
+
+
+## Strings in persistentCrypto.sys.mjs
 
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed = 無法解密主旨為 { $subject } 的訊息。您想要使用不同密語再試一次，或是跳過此訊息？
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = 您必須指定目的資料夾。
 filter-decrypt-move-warn-experimental = 警告: 過濾器動作「永久解密」可能會毀損訊息。我們強烈建議您先試用「建立解密副本」過濾器，小心測試結果，只在確認都沒問題的情況才使用此過濾器。
@@ -416,6 +459,9 @@ filter-key-not-found = 找不到「{ $desc }」的加密金鑰。
 filter-warn-key-not-secret = 警告: 過濾器動作「使用金鑰加密」會取代收件者。若您沒有「{ $desc }」的私鑰，將無法閱讀郵件。
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = 永久解密（OpenPGP）
 filter-decrypt-copy-label = 建立解密副本（OpenPGP）
@@ -452,6 +498,7 @@ key-man-button-export-pub-key = 只匯出公鑰 (&P)
 key-man-button-refresh-all = 重新整理所有金鑰 (&R)
 key-man-loading-keys = 正在載入金鑰，請稍候…
 ascii-armor-file = ASCII 格式檔案（*.asc）
+text-file = 純文字檔案*.txt
 no-key-selected = 需要選擇至少一把金鑰，才能進行指定的操作
 export-to-file = 將公鑰匯出成檔案
 export-keypair-to-file = 將公鑰與私鑰匯出成檔案
@@ -479,6 +526,12 @@ openpgp-export-secret-fail = <b>無法匯出選擇的私鑰！</b>
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = 金鑰 { $userId }（金鑰 ID { $keyId }）已撤銷。
 key-ring-pub-key-expired = 金鑰 { $userId }（金鑰 ID { $keyId }）已過期。
 key-ring-no-secret-key = 您的鑰匙圈當中似乎沒有 { $userId }（金鑰 ID { $keyId }）的私鑰。無法使用該金鑰進行簽署。
@@ -491,10 +544,16 @@ key-ring-enc-sub-keys-expired = 金鑰 { $userId }（金鑰 ID { $keyId }）的�
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = 相片
 user-att-photo = 使用者屬性（JPEG 圖片）
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = 這把金鑰已被撤銷。
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -509,6 +568,9 @@ after-revoke-info = 此金鑰已被撤銷。請使用電子郵件再次分享公
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = 匯入 (&I)
 delete-key-title = 刪除 OpenPGP 金鑰
 delete-external-key-title = 移除外部 GnuPG 金鑰
@@ -518,6 +580,9 @@ delete-key-in-use-description = 無法繼續！您選擇要刪除的金鑰目前
 revoke-key-in-use-description = 無法繼續！您選擇要撤銷的金鑰目前正由此身分使用中。請選擇其他金鑰或取消選擇並再試一次。
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -529,18 +594,33 @@ key-error-not-accepted-as-personal = 您並未確認 ID 為「{ $keySpec }」的
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = 您選擇的功能無法於離線模式使用。請先上線然後再試一次。
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = 找不到任何符合搜尋條件的可用金鑰。
 no-update-found = 您已經擁有在網路上找到的金鑰。
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = 錯誤 - 金鑰抽取指令執行失敗
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = 錯誤 - 使用者取消接收金鑰
 not-first-block = 錯誤 - 第一組 OpenPGP 區塊不是公鑰區塊
@@ -553,6 +633,13 @@ no-pgp-block = 錯誤 - 找不到有效的 armored 格式 OpenPGP 資料區塊
 confirm-permissive-import = 匯入失敗。您嘗試匯入的金鑰可能已經毀損或使用了未知的屬性。您想要嘗試匯入當中正確的部分嗎？可能會匯入不完整且無法使用的金鑰。
 
 ## Strings used in trust.jsm
+
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = 某些匯入的私鑰公開了不支援的功能。若您使用此金鑰作為個人金鑰可能會有通訊者寄給您電子郵件或寄送不相容格式的公鑰。這會影響具有下列指紋的匯入私鑰: { $fingerprints }。
+help-button = 說明
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = 未知
 key-valid-invalid = 無效
@@ -661,6 +748,9 @@ cannot-send-enc-because-no-own-key = 由於您還沒有設定 <{ $key }> 的端�
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple = 要匯入下列金鑰嗎？{ $key }
@@ -680,9 +770,15 @@ dlg-button-view = 檢視 (&V)
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = 錯誤 - 並未要求加密
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = 沒有可用的相片
 # Variables:
@@ -701,6 +797,9 @@ repeat-suffix-singular = 次。
 repeat-suffix-plural = 次。
 no-repeat = 將不再顯示此警示。
 dlg-keep-setting = 記住我的答案，不要再問我
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = 確定 (&O)
 dlg-button-close = 關閉 (&C)
 dlg-button-cancel = 取消 (&C)
@@ -711,6 +810,9 @@ enig-alert = OpenPGP 警示
 enig-info = OpenPGP 資訊
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = 重試 (&R)
 dlg-button-skip = 略過 (&S)
