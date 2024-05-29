@@ -27,7 +27,7 @@ e2e-csr-select-strength = Scegli il livello di crittografia desiderato (più vel
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
 # Do not translate: CSR
-e2e-csr-summary = Una nuova chiave segreta { $type } { $strength } verrà generata nelle impostazioni di { -brand-short-name }. Questo processo potrebbe richiedere del tempo e causare una temporanea mancata risposta; si prega di mantenere la pazienza durante questo passaggio. Nel frattempo verrà creato il file Certificate Signing Request (CSR), salvato come { $file }.
+e2e-csr-summary = Una nuova chiave segreta { $type } { $strength } verrà generata nelle impostazioni di { -brand-short-name }. Questo processo richiede qualche istante e il programma potrebbe temporaneamente smettere di rispondere; mantenere la pazienza durante questo passaggio. Nel frattempo verrà creato il file Certificate Signing Request (CSR), salvato come { $file }.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Includi indirizzo email ({ $email }) in CSR (consigliato)
@@ -675,8 +675,8 @@ confirm-permissive-import = Importazione non riuscita. La chiave che si sta tent
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
-imported-secret-with-unsupported-features = Alcune delle chiavi segrete importate segnalano una funzione non supportata. Se utilizzi tale chiave come chiave personale, i corrispondenti potrebbero inviarti email o chiavi pubbliche in un formato incompatibile. Questo ha effetto sulle chiavi segrete importate con le seguenti impronte digitali: { $fingerprints }.
-help-button = Aiuto
+imported-secret-with-unsupported-features = Alcune delle chiavi segrete importate pubblicizzano una funzione non supportata. Se utilizzi tale chiave come chiave personale, i corrispondenti potrebbero inviarti email o chiavi pubbliche in un formato incompatibile. Questo ha effetto sulle chiavi segrete importate con le seguenti impronte digitali: { $fingerprints }.
+help-button = Assistenza
 
 ## Strings used in trust.sys.mjs
 

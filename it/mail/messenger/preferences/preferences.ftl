@@ -573,7 +573,7 @@ primary-password-label =
     .accesskey = U
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
-    .label = Richiedi l’accesso al dispositivo per compilare e gestire le password
+    .label = Richiedi conferma dell’accesso al dispositivo per compilare automaticamente e gestire le password
 primary-password-button =
     .label = Cambia la password principale…
     .accesskey = m

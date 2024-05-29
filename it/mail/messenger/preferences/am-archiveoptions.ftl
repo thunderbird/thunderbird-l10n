@@ -29,4 +29,4 @@ inbox-folder-name =
 child-folder-name =
     .label = Sottocartella di Posta in arrivo
 sibling-folder-name =
-    .label = Sorella di Inbox
+    .label = Stesso livello di Posta in arrivo
