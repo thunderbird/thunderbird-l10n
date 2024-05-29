@@ -4,6 +4,37 @@
 
 e2e-intro-description = Abyste mohli odesílat zašifrované nebo elektronicky podepsané zprávy, musíte nastavit technologii šifrování, buď OpenPGP nebo S/MIME.
 e2e-intro-description-more = Chcete-li používat OpenPGP, vyberte svůj osobní klíč, chcete-li používat S/MIME, vyberte svůj osobní certifikát. Pro osobní klíč nebo certifikát vlastníte odpovídající tajný klíč.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Chcete-li získat nový osobní certifikát S/MIME, vygenerujte žádost o podpis certifikátu (CSR) a odešlete ji certifikační autoritě.
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Vyberte místní adresář a název souboru CSR a odpovězte na následující otázky týkající se nastavení algoritmu a síly.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Generování CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Pokračovat
+# A label for a button that goes back one step
+e2e-csr-back = Zpět
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Vygenerovat a uložit soubor CSR jako…
+# Do not translate: CSR
+e2e-csr-select-title = Algoritmus CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Jako kryptografický algoritmus pro nový certifikát S/MIME si vyberte mezi RSA (doporučeno) a ECC.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Zvolte požadovanou kryptografickou sílu (rychlejší s nižšími čísly nebo lepší zabezpečení s vyššími čísly) pro nový certifikát S/MIME nebo ponechte výchozí nastavení.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Nový tajný klíč { $type } { $strength } bude vygenerován v nastavení { -brand-short-name(case: "gen") }. Tento proces může nějakou dobu trvat a způsobit dočasnou nefunkčnost; buďte prosím během tohoto kroku trpěliví. Mezitím bude vytvořen soubor žádosti o podepsání certifikátu (CSR), uložený jako { $soubor }.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Zahrnout e-mailovou adresu ({ $email }) do CSR (doporučeno)
+# $file A filename
+e2e-csr-success = Žádost o podpis certifikátu (CSR) byla úspěšně uložena do souboru { $file }
+# $file A filename
+e2e-csr-failure = Žádost o podpis certifikátu (CSR) se nepodařilo uložit do souboru { $file }
 e2e-signing-description = Elektronický podpis umožňuje příjemcům ověřit, že jste zprávu poslali vy a že nebyl její obsah změněn. Šifrované zprávy jsou ve výchozím stavu vždy podepsané.
 e2e-sign-message =
     .label = Podepisovat nešifrované zprávy
@@ -407,6 +438,9 @@ window-locked = Okno psaní zprávy je uzamčeno; odesílání bylo zrušeno
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Přerušeno
 keyserver-error-unknown = Došlo k neznámé chybě
 keyserver-error-server-error = Server klíčů ohlásil chybu.
@@ -418,6 +452,9 @@ keyserver-error-unsupported = Tento server klíčů není podporován.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Váš poskytovatel e-mailu zpracoval váš požadavek na nahrání vašeho veřejného klíče do webového adresáře klíčů OpenPGP.
     Potvrďte prosím publikování svého veřejného klíče.
@@ -427,6 +464,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -434,6 +474,9 @@ converter-decrypt-body-failed =
     Chcete to zkusit s jinou přístupovou frází nebo chcete zprávu přeskočit?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Musíte vybrat cílovou složku.
 filter-decrypt-move-warn-experimental =
@@ -451,6 +494,9 @@ filter-warn-key-not-secret =
     Pokud nemáte tajný klíč pro '{ $desc }', nebudete už moci e-maily číst.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Dešifrovat nastálo (OpenPGP)
 filter-decrypt-copy-label = Vytvořit dešifrovanou kopii (OpenPGP)
@@ -497,6 +543,7 @@ key-man-button-export-pub-key = Exportovat pouze &veřejné klíče
 key-man-button-refresh-all = &Obnovit všechny klíče
 key-man-loading-keys = Načítání klíčů, čekejte prosím…
 ascii-armor-file = Soubory ve formátu ASCII (*.asc)
+text-file = Textové soubory (*.txt)
 no-key-selected = K provedení operace byste měli vybrat alespoň jeden klíč
 export-to-file = Exportovat veřejný klíč do souboru
 export-keypair-to-file = Exportovat tajný a veřejný klíč do souboru
@@ -524,6 +571,12 @@ openpgp-export-secret-fail = <b>Vybraný tajný klíč nelze vyexportovat!</b>
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Klíč { $userId } (ID klíče { $keyId }) je zneplatněn.
 key-ring-pub-key-expired = Platnost klíče { $userId } (ID klíče { $keyId }) vypršela.
 key-ring-no-secret-key = Zdá se, že pro { $userId } (ID klíče { $keyId }) nemáte v klíčence tajný klíč, a nemůžete ho tedy používat k podepisování.
@@ -536,10 +589,16 @@ key-ring-enc-sub-keys-expired = Platnost všech šifrovacích podklíčů klíč
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Fotografie
 user-att-photo = Atribut uživatele (obrázek JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Tento klíč už byl zneplatněn.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -563,6 +622,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Importovat
 delete-key-title = Odstranit klíč OpenPGP
 delete-external-key-title = Odebrat externí klíč GnuPG
@@ -572,6 +634,9 @@ delete-key-in-use-description = Nelze pokračovat, protože klíč vybraný k od
 revoke-key-in-use-description = Nelze pokračovat, protože klíč vybraný k zneplatnění je aktuálně používán touto identitou. Vyberte jiný nebo žádný klíč a zkuste to znovu.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -583,18 +648,33 @@ key-error-not-accepted-as-personal = Nepotvrdili jste, že je klíč s ID '{ $ke
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Vybraná funkce není dostupná v režimu offline. Přejděte prosím do režimu online a zkuste to znovu.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Nenašli jsme žádný použitelný klíč odpovídající zadaným kritériím.
 no-update-found = Klíče objevené online už máte.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Chyba: Extrahování klíče selhalo
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Chyba: Příjem klíče zrušen uživatelem
 not-first-block = Chyba: První blok OpenPGP není blokem veřejného klíče
@@ -607,6 +687,13 @@ no-pgp-block = Chyba: Nenalezen platný blok dat OpenPGP
 confirm-permissive-import = Import se nezdařil. Klíč, který se pokoušíte naimportovat, může být poškozený, nebo používá neznámé atributy. Chcete se pokusit naimportovat jeho korektní části? To může mít za následek import neúplných a nepoužitelných klíčů.
 
 ## Strings used in trust.jsm
+
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Některé z importovaných tajných klíčů propagují nepodporovanou funkci. Pokud takový klíč použijete jako svůj osobní klíč, mohou vám korespondenti posílat e-maily nebo veřejné klíče v nekompatibilním formátu. To se týká importovaných tajných klíčů s následujícími otisky prstů: { $fingerprints }.
+help-button = Nápověda
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = není známo
 key-valid-invalid = vadný
@@ -728,6 +815,9 @@ cannot-send-enc-because-no-own-key = Tuto zprávu nelze odeslat zašifrovaně, p
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -751,9 +841,15 @@ dlg-button-view = &Zobrazit
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Chyba: Šifrování není vyžadováno
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Fotografie není k dispozici
 # Variables:
@@ -777,6 +873,9 @@ repeat-suffix-singular = { "" }
 repeat-suffix-plural = { "" }
 no-repeat = Toto upozornění se už nezobrazí.
 dlg-keep-setting = Pamatovat si odpověď a už se neptat
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Zavřít
 dlg-button-cancel = &Zrušit
@@ -787,6 +886,9 @@ enig-alert = Upozornění - OpenPGP
 enig-info = Informace - OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Opakovat
 dlg-button-skip = &Přeskočit
