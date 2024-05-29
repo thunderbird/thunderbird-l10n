@@ -16,6 +16,7 @@ accounts-default = Privzeto?
 identity-name = Identiteta
 send-via-email = Pošlji po e-pošti
 app-basics-telemetry = Telemetrija
+app-basics-glean = Podatki Gleana
 app-basics-cache-use = Uporaba predpomnilnika
 mail-libs-title = Knjižnice
 libs-table-heading-library = Knjižnica
