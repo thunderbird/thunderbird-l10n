@@ -136,9 +136,13 @@
 <!ENTITY  event.menu.options.show.time.free.accesskey         "В">
 
 <!ENTITY event.invite.attendees.label                     "Запрасіць удзельнікаў…">
+<!ENTITY event.invite.attendees.accesskey                 "п">
 <!ENTITY event.email.attendees.label                      "Скласці электронны ліст для ўсіх удзельнікаў…">
+<!ENTITY event.email.attendees.accesskey                  "э">
 <!ENTITY event.remove.attendees.label2                    "Выдаліць усіх удзельнікаў">
+<!ENTITY event.remove.attendees.accesskey                 "у">
 <!ENTITY event.remove.attendee.label                      "Выдаліць удзельніка">
+<!ENTITY event.remove.attendee.accesskey                  "д">
 
 <!-- Toolbar -->
 <!ENTITY  event.toolbar.save.label2                       "Захаваць">
@@ -166,25 +170,44 @@
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Назва:" >
+<!ENTITY event.title.textbox.accesskey                    "Н">
 <!ENTITY event.location.label                             "Месца:" >
+<!ENTITY event.location.accesskey                         "М">
 <!ENTITY event.categories.label                           "Катэгорыя:">
+<!ENTITY event.categories.accesskey                       "К">
 <!ENTITY event.categories.textbox.label                   "Дадаць новую катэгорыю" >
 <!ENTITY event.calendar.label                             "Каляндар:" >
+<!ENTITY event.calendar.accesskey                         "К">
 <!ENTITY event.attendees.label                            "Удзельнікі:" >
+<!ENTITY event.attendees.accesskey                        "У">
 <!ENTITY event.from.label                                 "Пачатак:" >
+<!ENTITY event.from.accesskey                             "П">
 <!ENTITY task.from.label                                  "Пачатак:" >
+<!ENTITY task.from.accesskey                              "П">
 <!ENTITY event.to.label                                   "Канец:" >
+<!ENTITY event.to.accesskey                               "К">
 <!ENTITY task.to.label                                    "Тэрмін:" >
+<!ENTITY task.to.accesskey                                "Т">
 <!ENTITY task.status.label                                "Статус:" >
+<!ENTITY task.status.accesskey                            "С">
 <!ENTITY event.reminder.label                             "Напамінак:" >
+<!ENTITY event.reminder.accesskey                         "п">
 <!ENTITY event.description.label                          "Апісанне:" >
+<!ENTITY event.description.accesskey                      "с">
 <!ENTITY event.attachments.label                          "Прымацаванні:" >
+<!ENTITY event.attachments.accesskey                      "р" >
 <!ENTITY event.attachments.menubutton.label               "Прымацаваць">
+<!ENTITY event.attachments.menubutton.accesskey           "ы">
 <!ENTITY event.attachments.url.label                      "Вэб-старонку…">
+<!ENTITY event.attachments.url.accesskey                  "В">
 <!ENTITY event.attachments.popup.remove.label             "Адмацаваць" >
+<!ENTITY event.attachments.popup.remove.accesskey         "д" >
 <!ENTITY event.attachments.popup.open.label               "Адкрыць" >
+<!ENTITY event.attachments.popup.open.accesskey           "А" >
 <!ENTITY event.attachments.popup.removeAll.label          "Адмацаваць усё" >
+<!ENTITY event.attachments.popup.removeAll.accesskey      "м" >
 <!ENTITY event.attachments.popup.attachPage.label         "Прымацаваць вэб-старонку…" >
+<!ENTITY event.attachments.popup.attachPage.accesskey     "ц" >
 <!ENTITY event.priority2.label                            "Прыярытэт:">
 
 <!ENTITY event.reminder.none.label                        "Без напамінку " >
@@ -307,6 +330,7 @@
 <!ENTITY event.organizer.label                  "Арганізатар">
 <!ENTITY event.freebusy.legend.free             "Вольны" >
 <!ENTITY event.freebusy.legend.busy             "Заняты" >
+<!ENTITY event.freebusy.legend.busy_tentative   "Пад пытаннем" >
 <!ENTITY event.freebusy.legend.unknown          "Няма звестак" >
 <!ENTITY event.attendee.role.required           "Абавязковы ўдзельнік">
 <!ENTITY event.attendee.role.optional           "Неабавязковы ўдзельнік">
@@ -319,6 +343,7 @@
 <!ENTITY event.attendee.usertype.unknown        "Невядома">
 
 <!-- Timezone dialog -->
+<!ENTITY event.timezone.custom.label     "Больш часавых паясоў…">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.title.label           "Назва:">
@@ -339,6 +364,8 @@
 <!ENTITY summary.dialog.saveclose.tooltiptext   "Захаваць змены і закрыць акно без змянення статусу удзелу і адпраўкі адказу">
 <!ENTITY summary.dialog.accept.label            "Прыняць">
 <!ENTITY summary.dialog.accept.tooltiptext      "Прыняць запрашэнне">
+<!ENTITY summary.dialog.tentative.label         "Пад пытаннем">
+<!ENTITY summary.dialog.tentative.tooltiptext   "Папярэдне прыняць запрашэнне">
 <!ENTITY summary.dialog.decline.label           "Адхіліць">
 <!ENTITY summary.dialog.decline.tooltiptext     "Адхіліць запрашэнне">
 <!ENTITY summary.dialog.dontsend.label          "Не адпраўляць адказ">
