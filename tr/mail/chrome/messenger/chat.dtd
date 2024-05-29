@@ -11,7 +11,7 @@
 <!ENTITY chat.noPreviousConv.description       "&brandShortName; bu kişi için kayıtlı geçmiş görüşmeye sahip değil.">
 <!ENTITY chat.noAccount.title             "Henüz bir sohbet hesabı kurmadınız.">
 <!ENTITY chat.noAccount.description       "&brandShortName; sohbet hesabınızı kurmanız için size yol gösterebilir.">
-<!ENTITY chat.accountWizard.button       "Başlayın">
+<!ENTITY chat.accountWizard.button       "Başla">
 <!ENTITY chat.noConnectedAccount.title             "Sohbet hesaplarınıza bağlanılmadı.">
 <!ENTITY chat.noConnectedAccount.description       "'Sohbet durumu' penceresinden bağlanabilirsiniz:">
 <!ENTITY chat.showAccountManager.button       "Sohbet durumunu göster">

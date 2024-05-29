@@ -4,5 +4,5 @@
 
 <!ENTITY options.title "Geliştirici Araçları Seçenekleri">
 <!ENTITY options.status.label "Durum:">
-<!ENTITY options.port.label "Bağlantı Noktası:">
+<!ENTITY options.port.label "Port:">
 <!ENTITY options.forcelocal.label "Diğer bilgisayarlardan bağlantılara izin ver">

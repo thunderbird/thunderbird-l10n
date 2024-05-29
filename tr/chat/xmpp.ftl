@@ -246,7 +246,7 @@ options-connection-security-require-encryption = Şifreleme iste
 options-connection-security-opportunistic-tls = Mümkünse şifreleme kullan
 options-connection-security-allow-unencrypted-auth = Parolanın şifrelenmeden gönderilmesine izin ver
 options-connect-server = Sunucu
-options-connect-port = Bağlantı noktası (Port)
+options-connect-port = Port
 options-domain = Alan adı
 # LOCALIZATION NOTE (*-protocol-name)
 #  This name is used whenever the name of the protocol is shown.

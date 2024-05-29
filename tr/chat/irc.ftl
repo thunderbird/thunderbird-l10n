@@ -24,9 +24,9 @@ join-chat-password = _Parola
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-server = Sunucu
-options-port = Bağlantı noktası (Port)
+options-port = Port
 options-ssl = SSL kullan
-options-encoding = Karakter Kümesi
+options-encoding = Karakter kümesi
 options-quit-message = Çıkış iletisi
 options-part-message = Ayrılma iletisi
 options-show-server-tab = Sunucu iletilerini göster
