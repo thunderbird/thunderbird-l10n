@@ -4,6 +4,12 @@
 
 e2e-intro-description = Για να στείλετε κρυπτογραφημένα ή ψηφιακά υπογεγραμμένα μηνύματα, πρέπει να ρυθμίσετε μια τεχνολογία κρυπτογράφησης, είτε OpenPGP είτε S/MIME.
 e2e-intro-description-more = Επιλέξτε το προσωπικό σας κλειδί για να ενεργοποιήσετε τη χρήση του OpenPGP ή το προσωπικό σας πιστοποιητικό για να ενεργοποιήσετε τη χρήση του S/MIME. Για ένα προσωπικό κλειδί ή πιστοποιητικό έχετε και το αντίστοιχο μυστικό κλειδί.
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Συνέχεια
+# A label for a button that goes back one step
+e2e-csr-back = Πίσω
+# Do not translate: CSR
+e2e-csr-select-title = Αλγόριθμος CSR
 e2e-signing-description = Μια ψηφιακή υπογραφή επιτρέπει στους παραλήπτες να επαληθεύσουν ότι το μήνυμα εστάλη από εσάς και ότι το περιεχόμενό του δεν έχει αλλάξει. Τα κρυπτογραφημένα μηνύματα υπογράφονται πάντα από προεπιλογή.
 e2e-sign-message =
     .label = Υπογραφή μη κρυπτογραφημένων μηνυμάτων
@@ -391,6 +397,9 @@ window-locked = Το παράθυρο σύνθεσης είναι κλειδωμ
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Ακυρώθηκε
 keyserver-error-unknown = Προέκυψε άγνωστο σφάλμα
 keyserver-error-server-error = Ο διακομιστής κλειδιών ανέφερε σφάλμα.
@@ -402,6 +411,9 @@ keyserver-error-unsupported = Ο διακομιστής κλειδιών δεν 
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Ο πάροχος ηλεκτρονικού ταχυδρομείου σας επεξεργάστηκε το αίτημά σας για τη μεταφόρτωση του δημόσιου κλειδιού σας στον κατάλογο κλειδιών ιστού OpenPGP.
     Παρακαλώ κάντε επιβεβαίωση για να ολοκληρώσετε τη δημοσίευση του δημόσιου κλειδιού σας.
@@ -411,6 +423,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -419,6 +434,9 @@ converter-decrypt-body-failed =
     Θέλετε να δοκιμάσετε με διαφορετική φράση πρόσβασης ή να παραλείψετε το μήνυμα;
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Πρέπει να επιλέξετε έναν φάκελο προορισμού.
 filter-decrypt-move-warn-experimental =
@@ -436,6 +454,9 @@ filter-warn-key-not-secret =
     Εάν δεν έχετε το μυστικό κλειδί για το «{ $desc }», δεν θα μπορείτε πλέον να διαβάζετε τα email.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Οριστική αποκρυπτογράφηση (OpenPGP)
 filter-decrypt-copy-label = Δημιουργία αποκρυπτογραφημένου αντιγράφου (OpenPGP)
@@ -510,6 +531,12 @@ openpgp-export-secret-fail = <b>Δεν είναι δυνατή η εξαγωγή
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Το κλειδί { $userId } (ID κλειδιού { $keyId }) έχει ανακληθεί.
 key-ring-pub-key-expired = Το κλειδί { $userId } (ID κλειδιού { $keyId }) έχει λήξει.
 key-ring-no-secret-key = Φαίνεται ότι δεν έχετε το μυστικό κλειδί για το { $userId } (ID κλειδιού { $keyId }) στην κλειδοθήκη σας· δεν μπορείτε να χρησιμοποιήσετε το κλειδί για υπογραφή.
@@ -522,10 +549,16 @@ key-ring-enc-sub-keys-expired = Όλα τα υποκλειδιά κρυπτογ�
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Φωτογραφία
 user-att-photo = Χαρακτηριστικό χρήστη (εικόνα JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Αυτό το κλειδί έχει ήδη ανακληθεί.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -549,6 +582,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Εισαγωγή
 delete-key-title = Διαγραφή κλειδιού OpenPGP
 delete-external-key-title = Αφαίρεση εξωτερικού κλειδιού GnuPG
@@ -558,6 +594,9 @@ delete-key-in-use-description = Δεν είναι δυνατή η συνέχει
 revoke-key-in-use-description = Δεν είναι δυνατή η συνέχεια! Το κλειδί που επιλέξατε για ανάκληση χρησιμοποιείται αυτήν τη στιγμή από αυτήν την ταυτότητα. Επιλέξτε ένα άλλο κλειδί ή μην επιλέξετε κανένα και δοκιμάστε ξανά.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -569,18 +608,33 @@ key-error-not-accepted-as-personal = Δεν έχετε επιβεβαιώσει 
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Η λειτουργία που έχετε επιλέξει δεν είναι διαθέσιμη σε λειτουργία εκτός σύνδεσης. Συνδεθείτε στο διαδίκτυο και δοκιμάστε ξανά.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Δεν ήταν δυνατή η εύρεση χρησιμοποιήσιμων κλειδιών που να ταιριάζουν με τα κριτήρια αναζήτησης.
 no-update-found = Έχετε ήδη τα κλειδιά που ανακαλύφθηκαν στο διαδίκτυο.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Σφάλμα - Η εντολή εξαγωγής κλειδιού απέτυχε
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Σφάλμα - Η λήψη του κλειδιού ακυρώθηκε από τον χρήστη
 not-first-block = Σφάλμα - Το πρώτο τμήμα OpenPGP δεν αποτελεί τμήμα δημόσιου κλειδιού
@@ -593,6 +647,9 @@ no-pgp-block = Σφάλμα - Δεν βρέθηκε έγκυρο μπλοκ δε
 confirm-permissive-import = Η εισαγωγή απέτυχε. Το κλειδί που προσπαθείτε να εισαγάγετε ενδέχεται να είναι κατεστραμμένο ή να χρησιμοποιεί άγνωστες ιδιότητες. Θέλετε να προσπαθήσετε να εισαγάγετε τα τμήματα που είναι σωστά; Αυτό μπορεί να έχει ως αποτέλεσμα την εισαγωγή ημιτελών και μη χρησιμοποιήσιμων κλειδιών.
 
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = άγνωστο
 key-valid-invalid = μη έγκυρο
@@ -714,6 +771,9 @@ cannot-send-enc-because-no-own-key = Δεν είναι δυνατή η αποσ�
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -737,9 +797,15 @@ dlg-button-view = &Προβολή
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Σφάλμα - δεν απαιτείται κρυπτογράφηση
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Καμία διαθέσιμη φωτογραφία
 # Variables:
@@ -758,6 +824,9 @@ repeat-suffix-singular = ακόμη φορά.
 repeat-suffix-plural = ακόμη φορές.
 no-repeat = Αυτή η ειδοποίηση δεν θα εμφανιστεί ξανά.
 dlg-keep-setting = Αποθήκευση απάντησης και να μη γίνει ξανά ερώτηση
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Κλείσιμο
 dlg-button-cancel = &Ακύρωση
@@ -768,6 +837,9 @@ enig-alert = Ειδοποίηση OpenPGP
 enig-info = Πληροφορίες OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Επανάληψη
 dlg-button-skip = &Παράλειψη
