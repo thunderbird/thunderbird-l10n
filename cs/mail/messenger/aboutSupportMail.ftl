@@ -16,6 +16,7 @@ accounts-default = Výchozí?
 identity-name = Identita
 send-via-email = Odeslat emailem
 app-basics-telemetry = Telemetrická data
+app-basics-glean = Údaje Glean
 app-basics-cache-use = Užití mezipaměti
 mail-libs-title = Knihovny
 libs-table-heading-library = Knihovna
