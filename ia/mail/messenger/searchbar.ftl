@@ -5,3 +5,6 @@
 search-bar-clear-button =
     .alt = Vacuar
     .title = Vacuar campo de texto
+search-bar-search-button =
+    .alt = Cercar
+    .title = Cercar

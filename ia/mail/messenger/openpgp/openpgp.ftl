@@ -4,6 +4,14 @@
 
 e2e-intro-description = Pro inviar messages cifrate o signate digitalmente, tu debe configurar un technologia de cryptographia OpenPGP o S/MIME.
 e2e-intro-description-more = Elige tu clave personal pro activar le uso de OpenPGP o tu certificato personal pro activar le uso de S/MIME. Pro un clave personal o un certificato tu debe haber le correspondente clave secrete.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Generar CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Continuar
+# A label for a button that goes back one step
+e2e-csr-back = Retro
+# Do not translate: CSR
+e2e-csr-select-title = Algorithmo CSR
 e2e-signing-description = Un signatura digital permitte al destinatarios de verificar que tu es le ver expeditor del message e que le contento non ha essite alterate. Per configuration predefinite, le messages cryptate es sempre signate.
 e2e-sign-message =
     .label = Signar messages non cryptate
@@ -500,6 +508,7 @@ key-man-button-export-pub-key = Exportar solo claves &public
 key-man-button-refresh-all = &Refrescar tote le claves
 key-man-loading-keys = Cargamento claves, attende…
 ascii-armor-file = Files ASCII Armored (*.asc)
+text-file = File de texto (*.txt)
 no-key-selected = Tu debe eliger al minus un clave pro exequer le seligite operation
 export-to-file = Exportar un clave public a file
 export-keypair-to-file = Exportar clave secrete e public a file
@@ -622,6 +631,9 @@ no-update-found = Tu jam ha le claves discoperite online.
 
 ## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
 
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Error - Commando de extraction clave fallite
 
 ## Strings used in keyRing.jsm
@@ -641,6 +653,7 @@ confirm-permissive-import = Importation fallite. Le clave que tu tenta importar 
 
 ## Strings used in trust.jsm
 
+help-button = Adjuta
 
 ## Strings used in trust.sys.mjs
 

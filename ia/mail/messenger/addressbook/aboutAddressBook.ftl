@@ -164,6 +164,11 @@ about-addressbook-column-header-addrbook2 = Libro del adresses
     .title = Ordina per libro del adresses
 about-addressbook-column-label-addrbook2 =
     .label = Libro del adresses
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Libro del adresses
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Scriber
 about-addressbook-confirm-delete-mixed-title = Deler contactos e listas
