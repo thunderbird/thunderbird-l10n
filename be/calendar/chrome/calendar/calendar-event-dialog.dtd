@@ -5,11 +5,21 @@
 <!ENTITY event.title.label                  "Рэдагаваць элемент" >
 
 
+<!ENTITY newevent.from.label                "З" >
+<!ENTITY newevent.to.label                  "Да" >
 
 <!ENTITY newevent.status.label                    "Статус" >
+<!ENTITY newevent.status.accesskey                "С" >
+<!ENTITY newevent.eventStatus.none.label          "Не вызначана" >
+<!ENTITY newevent.eventStatus.none.accesskey      "Н" >
+<!ENTITY newevent.todoStatus.none.label           "Не вызначана" >
 <!ENTITY newevent.eventStatus.cancelled.label     "Скасавана" >
+<!ENTITY newevent.eventStatus.cancelled.accesskey "С" >
 <!ENTITY newevent.todoStatus.cancelled.label      "Скасавана" >
+<!ENTITY newevent.status.tentative.label          "Пад пытаннем" >
+<!ENTITY newevent.status.tentative.accesskey      "а" >
 <!ENTITY newevent.status.confirmed.label          "Пацверджана" >
+<!ENTITY newevent.status.confirmed.accesskey      "П" >
 
 <!-- The following entity is for New Task dialog only -->
 
@@ -18,8 +28,11 @@
    - These three labels are displayed side by side in the event dialog, make sure
    - they still fit in. -->
 <!ENTITY event.attendees.notify.label                "Апавясціць удзельнікаў">
+<!ENTITY event.attendees.notify.accesskey            "п">
 <!ENTITY event.attendees.notifyundisclosed.label     "Асобнае запрашэнне для кожнага ўдзельніка">
+<!ENTITY event.attendees.notifyundisclosed.accesskey "о">
 <!ENTITY event.attendees.disallowcounter.label       "Забараніць сустрэчныя прапановы">
+<!ENTITY event.attendees.disallowcounter.accesskey   "б">
 <!ENTITY event.attendees.disallowcounter.tooltip     "Паказвае, што вы не прымаеце сустрэчныя прапановы">
 
 <!-- Keyboard Shortcuts -->
@@ -38,10 +51,15 @@
 <!ENTITY  event.menu.item.new.label                       "Стварыць">
 <!ENTITY  event.menu.item.new.accesskey                   "С">
 <!ENTITY  event.menu.item.new.event.label                 "Падзея">
+<!ENTITY  event.menu.item.new.event.accesskey             "П">
 <!ENTITY  event.menu.item.new.task.label                  "Задача">
+<!ENTITY  event.menu.item.new.task.accesskey              "З">
 <!ENTITY  event.menu.item.new.message.label               "Паведамленне">
+<!ENTITY  event.menu.item.new.message.accesskey           "а">
 <!ENTITY  event.menu.item.new.contact.label               "Кантакт з адраснай кнігі">
+<!ENTITY  event.menu.item.new.contact.accesskey           "К">
 <!ENTITY  event.menu.item.close.label                     "Закрыць">
+<!ENTITY  event.menu.item.close.accesskey                 "л">
 
 <!-- LOCALIZATION NOTE
    - event.menu.item.save.accesskey is used for the "Save" menu item
@@ -49,6 +67,8 @@
    - event.menu.item.save.tab.accesskey is used for the "Save" menu item
    - when editing events/tasks in a tab. -->
 <!ENTITY  event.menu.item.save.label                      "Захаваць">
+<!ENTITY  event.menu.item.save.accesskey                  "х">
+<!ENTITY  event.menu.item.save.tab.accesskey              "в">
 
 <!-- LOCALIZATION NOTE
     - event.menu.item.saveandclose.accesskey is used for "Save and Close"
@@ -56,28 +76,44 @@
     - event.menu.item.saveandclose.tab.accesskey is used for "Save and Close"
     - when editing events/tasks in a tab. -->
 <!ENTITY  event.menu.item.saveandclose.label              "Захаваць і закрыць">
+<!ENTITY  event.menu.item.saveandclose.accesskey          "ц">
+<!ENTITY  event.menu.item.saveandclose.tab.accesskey      "ь">
 
 <!ENTITY  event.menu.item.delete.label                    "Выдаліць…">
+<!ENTITY  event.menu.item.delete.accesskey                "В">
 
 <!ENTITY  event.menu.edit.label                           "Рэдагаваць">
+<!ENTITY  event.menu.edit.accesskey                       "Р">
 <!ENTITY  event.menu.edit.undo.label                      "Адрабіць">
+<!ENTITY  event.menu.edit.undo.accesskey                  "А">
 <!ENTITY  event.menu.edit.redo.label                      "Узнавіць">
+<!ENTITY  event.menu.edit.redo.accesskey                  "У">
 <!ENTITY  event.menu.edit.cut.label                       "Выразаць">
+<!ENTITY  event.menu.edit.cut.accesskey                   "ы">
 <!ENTITY  event.menu.edit.copy.label                      "Капіяваць">
 <!ENTITY  event.menu.edit.copy.accesskey                  "К">
 <!ENTITY  event.menu.edit.paste.label                     "Уставіць">
-<!ENTITY  event.menu.edit.paste.accesskey                 "У">
+<!ENTITY  event.menu.edit.paste.accesskey                 "с">
 <!ENTITY  event.menu.edit.select.all.label                "Вылучыць усё">
+<!ENTITY  event.menu.edit.select.all.accesskey            "л">
 
 <!ENTITY  event.menu.view.label                           "Выгляд">
+<!ENTITY  event.menu.view.accesskey                       "г">
 <!ENTITY  event.menu.view.toolbars.label                  "Панэлі інструментаў">
+<!ENTITY  event.menu.view.toolbars.accesskey              "н">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Персаналізаваць…">
+<!ENTITY  event.menu.view.toolbars.customize.accesskey    "е">
 
 <!ENTITY  event.menu.options.label                            "Параметры">
+<!ENTITY  event.menu.options.accesskey                        "П">
 <!ENTITY  event.menu.options.attendees.label                  "Запрасіць удзельнікаў…">
+<!ENTITY  event.menu.options.attendees.accesskey              "З">
 <!ENTITY  event.menu.options.timezone2.label                  "Паказваць часавыя поясы">
+<!ENTITY  event.menu.options.timezone2.accesskey              "ч">
 <!ENTITY  event.menu.options.priority2.label                  "Прыярытэт">
+<!ENTITY  event.menu.options.priority2.accesskey              "я">
 <!ENTITY  event.menu.options.priority.notspecified.label      "Не вызначаны">
+<!ENTITY  event.menu.options.priority.notspecified.accesskey  "е">
 <!ENTITY  event.menu.options.priority.low.label               "Нізкі">
 <!ENTITY  event.menu.options.priority.low.accesskey           "Н">
 <!ENTITY  event.menu.options.priority.normal.label            "Звычайны">
@@ -85,12 +121,19 @@
 <!ENTITY  event.menu.options.priority.high.label              "Высокі">
 <!ENTITY  event.menu.options.priority.high.accesskey          "В">
 <!ENTITY  event.menu.options.privacy.label                    "Прыватнасць">
+<!ENTITY  event.menu.options.privacy.accesskey                "т">
 <!ENTITY  event.menu.options.privacy.public.label             "Публічная падзея">
+<!ENTITY  event.menu.options.privacy.public.accesskey         "у">
 <!ENTITY  event.menu.options.privacy.confidential.label       "Паказваць толькі час і дату">
+<!ENTITY  event.menu.options.privacy.confidential.accesskey   "о">
 <!ENTITY  event.menu.options.privacy.private.label            "Прыватная падзея">
+<!ENTITY  event.menu.options.privacy.private.accesskey        "ы">
 <!ENTITY  event.menu.options.show.time.label                  "Паказваць час як">
+<!ENTITY  event.menu.options.show.time.accesskey              "ч">
 <!ENTITY  event.menu.options.show.time.busy.label             "Заняты">
+<!ENTITY  event.menu.options.show.time.busy.accesskey         "З">
 <!ENTITY  event.menu.options.show.time.free.label             "Вольны">
+<!ENTITY  event.menu.options.show.time.free.accesskey         "В">
 
 <!ENTITY event.invite.attendees.label                     "Запрасіць удзельнікаў…">
 <!ENTITY event.email.attendees.label                      "Скласці электронны ліст для ўсіх удзельнікаў…">

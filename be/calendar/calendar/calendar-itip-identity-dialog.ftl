@@ -3,5 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-itip-identity-warning = Вы яшчэ не ў спісе гасцей.
+calendar-itip-identity-dialog-box-title = Няпрошаны госць
+calendar-itip-identity-warning-body = Адрас электроннай пошты, звязаны з календаром, у які вы імпартуеце гэта запрашэнне, не уключаны ў спіс гасцей.
 calendar-itip-identity-label = Адказаць як:
 calendar-itip-identity-label-none = Звязаць гэту падзею з:
