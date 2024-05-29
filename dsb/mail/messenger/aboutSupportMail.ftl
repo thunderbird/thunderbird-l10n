@@ -16,6 +16,7 @@ accounts-default = Standard?
 identity-name = Identita
 send-via-email = Pśez e-mail pósłaś
 app-basics-telemetry = Telemetrijne daty
+app-basics-glean = Daty Glean
 app-basics-cache-use = Wužyśe pufrowaka
 mail-libs-title = Biblioteki
 libs-table-heading-library = Biblioteka
