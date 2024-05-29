@@ -4,6 +4,37 @@
 
 e2e-intro-description = Um verschlüsselte oder digital signierte Nachrichten zu versenden, müssen Sie eine Verschlüsselungstechnologie einrichten, entweder OpenPGP oder S/MIME.
 e2e-intro-description-more = Wählen Sie Ihren persönlichen Schlüssel für die Verwendung von OpenPGP oder Ihr persönliches Zertifikat für S/MIME. Bei einem persönlichen Schlüssel oder persönlichen Zertifikat sind Sie Eigentümer des entsprechenden geheimen Schlüssels.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Um ein neues persönliches S/MIME-Zertifikat zu erhalten, erzeugen Sie eine Zertifikatsunterzeichnungsanfrage (CSR) und übermitteln Sie diese an eine Zertifizierungsstelle (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Wählen Sie einen lokalen Ordner und einen Dateinamen für Ihre CSR-Datei und beantworten Sie die folgenden Fragen, um Algorithmus und Stärke einzustellen.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = CSR erzeugen
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Weiter
+# A label for a button that goes back one step
+e2e-csr-back = Zurück
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Eine CSR-Datei erzeugen und speichern unter…
+# Do not translate: CSR
+e2e-csr-select-title = CSR-Algorithmus
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿Wählen Sie zwischen RSA (empfohlen) oder ECC als kryptografischen Algorithmus für das neue S/MIME-Zertifikat.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Wählen Sie die gewünschte Verschlüsselungsstärke (schneller mit niedrigeren Nummern oder bessere Sicherheit mit höheren Nummern) für das neue S/MIME-Zertifikat oder behalten Sie die Standardeinstellung bei.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = In den Einstellungen von { -brand-short-name } wird ein neuer Geheimschlüssel { $type } { $strong } erzeugt. Dieser Prozess kann einige Zeit in Anspruch nehmen und zu vorübergehendem Nichtreagieren führen; Bitte haben Sie während dieses Schritts etwas Geduld. Die CSR-Datei („Zertifikatssunterzeichnungsanfrage“) wird als { $file } gespeichert und währenddessen erstellt.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = E-Mail-Adresse ({ $email }) in die CSR einschließen (empfohlen)
+# $file A filename
+e2e-csr-success = Die CSR wurde erfolgreich in { $file } gespeichert
+# $file A filename
+e2e-csr-failure = Die CSR konnte nicht in der Datei { $file } gespeichert werden
 e2e-signing-description = Mit einer digitalen Signatur können Empfänger überprüfen, ob die Nachricht von Ihnen gesendet und ihr Inhalt nicht verändert wurde. Verschlüsselte Nachrichten sind standardmäßig immer signiert.
 e2e-sign-message =
     .label = Unverschlüsselte Nachrichten digital signieren
@@ -391,6 +422,9 @@ window-locked = Das Verfassen-Fenster ist gesperrt, der Sende-Vorgang wurde abge
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Abgebrochen
 keyserver-error-unknown = Ein unbekannter Fehler trat auf.
 keyserver-error-server-error = Der Schlüsselserver meldete einen Fehler.
@@ -402,6 +436,9 @@ keyserver-error-unsupported = Der Schlüsselserver wird nicht unterstützt.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Ihr E-Mail-Anbieter hat Ihre Anfrage zum Hochladen Ihres öffentlichen Schlüssels in das OpenPGP-Web-Key-Verzeichnis verarbeitet.
     Bitte überprüfen Sie, dass Ihr öffentlicher Schlüssel veröffentlicht wurde.
@@ -411,6 +448,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -419,6 +459,9 @@ converter-decrypt-body-failed =
     konnte nicht entschlüsselt werden. Wollen Sie es mit einem anderen Passwort erneut versuchen oder die Nachricht überspringen?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Sie müssen einen Zielordner wählen.
 filter-decrypt-move-warn-experimental =
@@ -436,6 +479,9 @@ filter-warn-key-not-secret =
     Falls Sie den geheimen Schlüssel für „{ $desc }“ nicht besitzen, können Sie die E-Mails nicht mehr lesen.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Dauerhaft entschlüsseln (OpenPGP)
 filter-decrypt-copy-label = Entschlüsselte Kopie erstellen (OpenPGP)
@@ -485,6 +531,7 @@ key-man-button-export-pub-key = Nur öff&entliche Schlüssel exportieren
 key-man-button-refresh-all = Alle Schlüssel &neu laden
 key-man-loading-keys = Schlüssel werden geladen, bitte warten…
 ascii-armor-file = ASCII-Armored-Dateien (*.asc)
+text-file = Textdateien (*.txt)
 no-key-selected = Es muss mindestens ein Schlüssel ausgewählt werden, um die gewählte Aktion ausführen zu können.
 export-to-file = Öffentlichen Schlüssel in Datei exportieren
 export-keypair-to-file = Geheimen und öffentlichen Schlüssel in Datei exportieren
@@ -512,6 +559,12 @@ openpgp-export-secret-fail = <b>Ausgewählter öffentlicher Schlüssel konnte ni
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Der Schlüssel { $userId } (Schlüssel-ID { $keyId }) wurde widerrufen.
 key-ring-pub-key-expired = Der Schlüssel { $userId } (Schlüssel-ID { $keyId }) ist abgelaufen.
 key-ring-no-secret-key = Sie haben anscheinend nicht den geheimen Schlüssel für { $userId } (Schlüssel-ID { $keyId }) in Ihrem Schlüsselbund und können ihn daher nicht zum Signieren verwenden.
@@ -524,10 +577,16 @@ key-ring-enc-sub-keys-expired = Alle Unterschlüssel für Verschlüsselung in { 
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Foto
 user-att-photo = Benutzerattribut (JPEG-Attribut)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Dieser Schlüssel wurde bereits widerrufen.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -551,6 +610,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = I&mportieren
 delete-key-title = OpenPGP-Schlüssel löschen
 delete-external-key-title = Externen GnuPG-Schlüssel entfernen
@@ -560,6 +622,9 @@ delete-key-in-use-description = Fortfahren nicht möglich! Der zum Löschen ausg
 revoke-key-in-use-description = Fortfahren nicht möglich! Der für den Widerruf ausgewählte Schlüssel wird derzeit von dieser Identität verwendet. Wählen Sie einen anderen oder keinen Schlüssel und versuchen Sie es erneut.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -571,18 +636,33 @@ key-error-not-accepted-as-personal = Sie haben nicht bestätigt, dass der Schlü
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Die gewählte Funktion ist nicht im Offline-Modus verfügbar. Bitte gehen Sie online und versuchen Sie es erneut.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Es wurde kein Schlüssel gefunden, welcher den Suchkriterien entspricht.
 no-update-found = Die online gefundenen Schlüssel besitzen Sie bereits.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Fehler - Schlüsselextraktion fehlgeschlagen
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Fehler - Schlüsselempfang durch Benutzer abgebrochen
 not-first-block = Fehler - Erster OpenPGP-Block ist kein öffentlicher Schlüsselblock
@@ -595,6 +675,13 @@ no-pgp-block = Fehler - Keinen gültigen armored-OpenPGP Datenblock gefunden
 confirm-permissive-import = Fehler beim Import. Der zu importierende Schlüssel könnte beschädigt sein oder unbekannte Attribute verwenden. Sollen die korrekten Teile des Schlüssels importiert werden? Dies kann zum Import unvollständiger oder unbrauchbarer Schlüssel führen.
 
 ## Strings used in trust.jsm
+
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Einige der importierten Geheimschlüssel machen eine nicht unterstützte Funktion bekannt. Wenn Sie einen solchen Schlüssel als Ihren persönlichen Schlüssel verwenden, können Ihnen Korrespondenten E-Mails oder öffentliche Schlüssel in einem inkompatiblen Format zusenden. Dies betrifft importierte Geheimschlüssel mit den folgenden Fingerprints: { $fingerprints }.
+help-button = Hilfe
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = unbekannt
 key-valid-invalid = ungültig
@@ -716,6 +803,9 @@ cannot-send-enc-because-no-own-key = Die Nachricht kann nicht verschlüsselt ges
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -739,9 +829,15 @@ dlg-button-view = &Anzeigen
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Fehler - keine Verschlüsselung benötigt
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Kein Foto verfügbar
 # Variables:
@@ -760,6 +856,9 @@ repeat-suffix-singular = Mal wiederholt.
 repeat-suffix-plural = Mal wiederholt.
 no-repeat = Dieser Alarm wird in Zukunft nicht mehr angezeigt.
 dlg-keep-setting = Antwort merken und in Zukunft nicht mehr nachfragen
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = S&chließen
 dlg-button-cancel = A&bbrechen
@@ -770,6 +869,9 @@ enig-alert = OpenPGP-Alarm
 enig-info = OpenPGP-Information
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Wiederholen
 dlg-button-skip = Ü&berspringen
