@@ -391,6 +391,9 @@ window-locked = Skrivfönstret är låst; skicka avbruten
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Avbruten
 keyserver-error-unknown = Ett okänt fel uppstod
 keyserver-error-server-error = Nyckelservern rapporterade ett fel.
@@ -402,6 +405,9 @@ keyserver-error-unsupported = Nyckelservern stöds inte.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Din e-postleverantör behandlade din begäran om att ladda upp din publika nyckel till OpenPGP Web Key Directory.
     Bekräfta för att slutföra publiceringen av din publika nyckel.
@@ -411,6 +417,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -419,6 +428,9 @@ converter-decrypt-body-failed =
     Vill du försöka igen med en annan lösenfras eller vill du hoppa över meddelandet?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Du måste välja en målmapp.
 filter-decrypt-move-warn-experimental =
@@ -436,6 +448,9 @@ filter-warn-key-not-secret =
     Om du inte har den hemliga nyckeln för '{ $desc }' kommer du inte längre att kunna läsa e-postmeddelandena.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Dekryptera permanent (OpenPGP)
 filter-decrypt-copy-label = Skapa dekrypterad kopia (OpenPGP)
@@ -510,6 +525,12 @@ openpgp-export-secret-fail = <b>Det går inte att exportera den valda hemliga ny
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Nyckeln { $userId } (nyckel-ID { $keyId }) har återkallats.
 key-ring-pub-key-expired = Nyckeln { $userId } (nyckel-ID { $keyId }) har upphört.
 key-ring-no-secret-key = Du verkar inte ha den hemliga nyckeln för { $userId } (nyckel-ID { $keyId }) på din nyckelring; du kan inte använda nyckeln för att signera.
@@ -522,10 +543,16 @@ key-ring-enc-sub-keys-expired = Alla krypteringsundernycklar för nyckel { $user
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Foto
 user-att-photo = Användarattribut (JPEG-bild)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Denna nyckel har redan återkallats.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -549,6 +576,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Importera
 delete-key-title = Ta bort OpenPGP-nyckel
 delete-external-key-title = Ta bort den externa GnuPG-nyckeln
@@ -558,6 +588,9 @@ delete-key-in-use-description = Det går inte att fortsätta! Den nyckel som du 
 revoke-key-in-use-description = Det går inte att fortsätta! Den nyckel du valt för återkallelse används för närvarande av denna identitet. Välj en annan nyckel eller välj ingen och försök igen.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -569,18 +602,33 @@ key-error-not-accepted-as-personal = Du har inte bekräftat att nyckeln med ID '
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Funktionen du har valt är inte tillgänglig i offline-läge. Gå online och försök igen.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Vi kunde inte hitta någon användbar nyckel som matchade de angivna sökkriterierna.
 no-update-found = Du har redan nycklarna som upptäcktes online.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Fel - nyckelutvinning misslyckades
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Fel - nyckelmottagning avbruten av användaren
 not-first-block = Fel - första OpenPGP-blocket inte blocket för en publik nyckel
@@ -593,6 +641,10 @@ no-pgp-block = Fel - inget giltigt, armerat OpenPGP-datablock hittades
 confirm-permissive-import = Importen misslyckades. Nyckeln du försöker importera kan vara skadad eller använda okända attribut. Vill du försöka importera de korrekta delarna? Detta kan resultera i import av ofullständiga och oanvändbara nycklar.
 
 ## Strings used in trust.jsm
+
+help-button = Hjälp
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = okänd
 key-valid-invalid = ogiltig
@@ -714,6 +766,9 @@ cannot-send-enc-because-no-own-key = Det går inte att skicka det här meddeland
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -737,9 +792,15 @@ dlg-button-view = &Visa
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Fel - ingen kryptering krävs
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Inget foto tillgängligt
 # Variables:
@@ -758,6 +819,9 @@ repeat-suffix-singular = gång till.
 repeat-suffix-plural = gånger till.
 no-repeat = Denna varning visas inte igen.
 dlg-keep-setting = Kom ihåg mitt svar och fråga mig inte igen
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Stäng
 dlg-button-cancel = &Avbryt
@@ -768,6 +832,9 @@ enig-alert = OpenPGP Varning
 enig-info = OpenPGP Information
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Försök igen
 dlg-button-skip = &Hoppa över
