@@ -4,6 +4,37 @@
 
 e2e-intro-description = För att skicka krypterade eller digitalt signerade meddelanden måste du konfigurera en krypteringsteknik, antingen OpenPGP eller S/MIME.
 e2e-intro-description-more = Välj din personliga nyckel för att aktivera användning av OpenPGP eller ditt personliga certifikat för att aktivera användning av S/MIME. För en personlig nyckel eller certifikat äger du motsvarande hemlig nyckel.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = För att erhålla ett nytt personligt S/MIME-certifikat, skapa en certifikatsigneringsbegäran (CSR) och skicka den till en certifikatutfärdare (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Välj en lokal katalog och filnamn för din CSR-fil och svara på följande frågor för att ställa in algoritm och styrka.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Skapa CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Fortsätt
+# A label for a button that goes back one step
+e2e-csr-back = Tillbaka
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Skapa och spara en CSR-fil som…
+# Do not translate: CSR
+e2e-csr-select-title = CSR-algoritm
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Välj mellan RSA (rekommenderas) eller ECC som din kryptografiska algoritm för det nya S/MIME-certifikatet.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Välj önskad kryptografisk styrka (snabbare med färre nummer eller bättre säkerhet med högre nummer) för det nya S/MIME-certifikatet eller behåll standardinställningen.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = En ny { $type } { $strong } hemlig nyckel kommer att genereras i inställningarna för { -brand-short-name }. Den här processen kan ta lite tid och tillfälligt sluta svara. Ha tålamod under detta steg. Filen CSR (Certificate Signing Request), sparad som { $file }, kommer att skapas under tiden.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Inkludera e-postadress ({ $email }) i CSR (rekommenderas)
+# $file A filename
+e2e-csr-success = CSR har sparats till { $file }
+# $file A filename
+e2e-csr-failure = Det gick inte att spara CSR till fil { $file }
 e2e-signing-description = En digital signatur låter mottagarna verifiera att meddelandet skickades av dig och att dess innehåll inte har ändrats. Krypterade meddelanden signeras alltid som standard.
 e2e-sign-message =
     .label = Signera okrypterade meddelanden
@@ -498,6 +529,7 @@ key-man-button-export-pub-key = Exportera endast &publika nycklar
 key-man-button-refresh-all = &Uppdatera alla nycklar
 key-man-loading-keys = Laddar nycklar, vänta…
 ascii-armor-file = ASCII armerade filer (*.asc)
+text-file = Textfiler (*.txt)
 no-key-selected = Du bör välja minst en nyckel för att utföra den valda åtgärden
 export-to-file = Exportera publik nyckel till fil
 export-keypair-to-file = Exportera hemlig och publik nyckel till fil
@@ -642,6 +674,9 @@ confirm-permissive-import = Importen misslyckades. Nyckeln du försöker importe
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Vissa av de importerade hemliga nycklarna annonserar en funktion som inte stöds. Om du använder en sådan nyckel som din personliga nyckel kan korrespondenter skicka dig e-postmeddelanden eller publika nycklar i ett inkompatibelt format. Detta påverkar importerade hemliga nycklar med följande fingeravtryck: { $fingerprints }.
 help-button = Hjälp
 
 ## Strings used in trust.sys.mjs
