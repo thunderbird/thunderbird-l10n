@@ -28,7 +28,7 @@
 <!ENTITY newExistingEmailAccountCmd.accesskey "і">
 <!ENTITY newIMAccountCmd.label "Уліковы запіс чата…">
 <!ENTITY newIMAccountCmd.accesskey "ч">
-<!ENTITY newFeedAccountCmd.label "Уліковы запіс ленты навін…">
+<!ENTITY newFeedAccountCmd.label "Уліковы запіс стужкі навін…">
 <!ENTITY newFeedAccountCmd.accesskey "л">
 <!ENTITY newIMContactCmd.label "Кантакт чата…">
 <!ENTITY newIMContactCmd.accesskey "К">
@@ -213,7 +213,7 @@
 <!ENTITY bodyAsPlaintext.label "Звычайны тэкст">
 <!ENTITY bodyAsPlaintext.accesskey "в">
 
-<!ENTITY bodyMenuFeed.label "Цела паведамлення з ленты навін">
+<!ENTITY bodyMenuFeed.label "Цела паведамлення са стужкі навін">
 <!ENTITY viewFeedWebPage.label "Як вэб-старонка">
 <!ENTITY viewFeedWebPage.accesskey "В">
 <!ENTITY viewFeedSummary.label "Як зводка">

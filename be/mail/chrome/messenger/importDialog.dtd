@@ -15,7 +15,7 @@ LOCALIZATION NOTE : Do not translate any of the occurrences of the word
 <!ENTITY importAll.accesskey      "ё">
 <!ENTITY importMail.label         "Пошту">
 <!ENTITY importMail.accesskey     "П">
-<!ENTITY importFeeds.label        "Падпіскі на ленты навін">
+<!ENTITY importFeeds.label        "Падпіскі на стужкі навін">
 <!ENTITY importFeeds.accesskey    "ж">
 <!ENTITY importAddressbook.label  "Адрасныя кнігі">
 <!ENTITY importAddressbook.accesskey "А">
