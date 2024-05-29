@@ -16,6 +16,7 @@ accounts-default = Rhagosodiad?
 identity-name = hunaniaeth
 send-via-email = Anfon drwy e-bost
 app-basics-telemetry = Data Telemetreg
+app-basics-glean = Casglu Data
 app-basics-cache-use = Defnydd Storfan
 mail-libs-title = Llyfrgelloedd
 libs-table-heading-library = Llyfrgell

@@ -4,6 +4,37 @@
 
 e2e-intro-description = I anfon negeseuon wedi'u hamgryptio neu wedi'u llofnodi'n ddigidol, mae angen i chi ffurfweddu technoleg amgryptio, naill ai OpenPGP neu S / MIME.
 e2e-intro-description-more = Dewiswch eich allwedd bersonol i alluogi defnyddio OpenPGP, neu'ch tystysgrif bersonol i alluogi defnyddio S/MIME. Ar gyfer allwedd neu dystysgrif bersonol chi sy'n berchen ar yr allwedd gyfrinachol gyfatebol.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = I gael tystysgrif S/MIME bersonol newydd, cynhyrchwch Gais Arwyddo Tystysgrif (CSR) a'i gyflwyno i Awdurdod Tystysgrif (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Dewiswch gyfeiriadur lleol ac enw ffeil ar gyfer eich ffeil CSR, ac atebwch y cwestiynau canlynol ar gyfer gosod algorithm a chryfder.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Cynhyrchu CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Parhau
+# A label for a button that goes back one step
+e2e-csr-back = Nôl
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Cynhyrchu ac arbed ffeil CSR fel…
+# Do not translate: CSR
+e2e-csr-select-title = Algorithm CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Dewiswch rhwng RSA (argymhellir) neu ECC fel eich algorithm cryptograffig ar gyfer y dystysgrif S/MIME newydd.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Dewiswch eich cryfder cryptograffig dymunol (yn gyflymach gyda niferoedd is neu well diogelwch gyda niferoedd uwch) ar gyfer y dystysgrif S/MIME newydd, neu cadwch y gosodiad diofyn.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Bydd allwedd gyfrinachol { $type } { $strength } newydd yn cael ei chynhyrchu yng ngosodiadau { -brand-short-name }. Gall y broses hon gymryd peth amser ac achosi anymateb dros dro; arhoswch yn amyneddgar yn ystod y cam hwn. Bydd y ffeil Cais Llofnodi Tystysgrif (CSR), sy'n cael ei chadw fel { $file }, yn cael ei chreu yn y cyfamser.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Cynnwys cyfeiriad e-bost ( { $email } ) yn CSR (argymhellir)
+# $file A filename
+e2e-csr-success = Llwyddwyd i gadw'r CSR yn { $file }
+# $file A filename
+e2e-csr-failure = Methu cadw'r CSR i ffeil { $file }
 e2e-signing-description = Mae llofnod digidol yn caniatáu i dderbynwyr wirio bod y neges wedi'i hanfon gennych chi ac nad yw'r cynnwys wedi'i newid. Mae negeseuon amgryptiedig wedi eu llofnodi drwy ragosodiad.
 e2e-sign-message =
     .label = Llofnodi negeseuon heb eu hamgryptio
@@ -419,6 +450,9 @@ window-locked = Mae'r ffenestr gyfansoddi wedi'i chloi; anfon wedi'i ddiddymu
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Ataliwyd
 keyserver-error-unknown = Digwyddodd gwall anhysbys
 keyserver-error-server-error = Adroddodd y gweinydd allweddi wall.
@@ -430,6 +464,9 @@ keyserver-error-unsupported = Nid yw'r gweinydd allweddi'n cael ei gynnal
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Prosesodd eich darparwr e-bost eich cais i lwytho'ch allwedd gyhoeddus i fyny i Gyfeiriadur Allwedd Gwe OpenPGP.
     Cadarnhewch i gwblhau cyhoeddi eich allwedd gyhoeddus.
@@ -439,6 +476,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -447,6 +487,9 @@ converter-decrypt-body-failed =
     Ydych chi am geisio eto gyda chyfrinair gwahanol neu a ydych chi am hepgor y neges?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Rhaid dewis ffolder targed.
 filter-decrypt-move-warn-experimental =
@@ -464,6 +507,9 @@ filter-warn-key-not-secret =
     Os nad oes gennych yr allwedd gyfrinachol ar gyfer '{ $desc }' fyddwch chi ddim yn gallu darllen yr e-byst bellach.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Dadgryptio yn barhaol (OpenPGP)
 filter-decrypt-copy-label = Creu Copi wedi'i ddadgryptio (OpenPGP)
@@ -511,6 +557,7 @@ key-man-button-export-pub-key = Allforion Allweddi &Cyhoeddus yn Unig
 key-man-button-refresh-all = Adnewyddu &Pob Allwedd
 key-man-loading-keys = Llwytho allweddi, arhoswch...
 ascii-armor-file = Ffeiliau Arfogaeth ASCII (* .asc)
+text-file = Ffeiliau Testun (*.txt)
 no-key-selected = Dylech ddewis o leiaf un allwedd er mwyn cyflawni'r weithred hon
 export-to-file = Allforio Allwedd Gyhoeddus i Ffeil
 export-keypair-to-file = Allforio Allwedd Gyfrinachol a Chyhoeddus i Ffeil
@@ -538,6 +585,12 @@ openpgp-export-secret-fail = <b>Methu allforio'r allwedd gyfrinachol a ddewiswyd
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Mae'r allwedd { $userId } (ID allwedd { $keyId }) wedi'i dirymu.
 key-ring-pub-key-expired = Mae'r allwedd { $userId } (ID allwedd { $keyId }) wedi dod i ben.
 key-ring-no-secret-key = Nid yw'n ymddangos bod gennych yr allwedd gyfrinachol ar gyfer { $userId } (ID allwedd { $keyId }) ar eich cylch allweddi; nid oes modd i chi ddefnyddio'r allwedd ar gyfer llofnodi.
@@ -550,10 +603,16 @@ key-ring-enc-sub-keys-expired = Mae pob is-allwedd amgryptio allwedd { $userId }
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Llun
 user-att-photo = Priodoledd defnyddiwr (delwedd JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Mae'r allwedd hon eisoes wedi'i dirymu.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -577,6 +636,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Mewnforio
 delete-key-title = Dileu Allwedd OpenPGP
 delete-external-key-title = Tynnwch yr Allwedd GnuPG Allanol
@@ -586,6 +648,9 @@ delete-key-in-use-description = Methu parhau! Mae'r allwedd rydych wedi'i dewis 
 revoke-key-in-use-description = Methu parhau! Mae'r allwedd rydych wedi'i dewis i'w dileu yn cael ei defnyddio ar hyn o bryd gan yr hunaniaeth hon. Dewiswch allwedd wahanol, neu dewiswch ddim, a cheisiwch eto.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -597,18 +662,33 @@ key-error-not-accepted-as-personal = Nid ydych wedi cadarnhau mai'r allwedd gyda
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Nid yw'r swyddogaeth rydych chi wedi'i dewis ar gael yn y modd all-lein. Ewch ar-lein a rhoi cynnig arall arni.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Nid oeddwn yn gallu canfod unrhyw allwedd sy'n cyfateb i'r meini prawf chwilio penodol yna.
 no-update-found = Mae gennych eisoes yr allweddi a ddarganfuwyd ar-lein.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Gwall - methodd y gorchymyn echdynnu allwedd
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Gwall - Allwedd yn cael ei ddiddymu gan y defnyddiwr
 not-first-block = Gwall - Y bloc OpenPGP cyntaf nid bloc allwedd gyhoeddus
@@ -621,6 +701,13 @@ no-pgp-block = Gwall - Heb ddarganfod bloc data arfogaeth dilys OpenPGP
 confirm-permissive-import = Methodd y mewnforio. Efallai bod yr allwedd rydych chi'n ceisio ei fewnforio yn llygredig neu'n defnyddio priodoleddau anhysbys. Hoffech chi geisio mewnforio'r rhannau sy'n gywir? Gall hyn arwain at fewnforio allweddi anghyflawn ac nad oes modd eu defnyddio.
 
 ## Strings used in trust.jsm
+
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Mae rhai o'r allweddi cyfrinachol a fewnforiwyd yn hysbysebu nodwedd nad yw'n cael ei chynnal. Os ydych chi'n defnyddio allwedd o'r fath â'ch allwedd bersonol, gall gohebwyr anfon e-byst neu allweddi cyhoeddus atoch mewn fformat anghydnaws. Mae hyn yn effeithio ar allweddi cyfrinachol a fewnforiwyd gyda'r olion bysedd canlynol: { $fingerprints }.
+help-button = Cymorth
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = anhysbys
 key-valid-invalid = annilys
@@ -742,6 +829,9 @@ cannot-send-enc-because-no-own-key = Methu anfon y neges hon wedi'i hamgryptio, 
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -765,9 +855,15 @@ dlg-button-view = &Golwg
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Gwall - nid oes angen amgryptio
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Dim Llun ar gael
 # Variables:
@@ -786,6 +882,9 @@ repeat-suffix-singular = rhagor o amser.
 repeat-suffix-plural = rhagor o amser.
 no-repeat = Ni fydd y rhybudd hwn yn cael ei ddangos eto.
 dlg-keep-setting = Cofiwch fy ateb a pheidiwch â gofyn imi eto
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &IAWN
 dlg-button-close = &Cau
 dlg-button-cancel = &Diddymu
@@ -796,6 +895,9 @@ enig-alert = Rhybudd OpenPGP
 enig-info = Manylion OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Ceisio eto
 dlg-button-skip = &Hepgor

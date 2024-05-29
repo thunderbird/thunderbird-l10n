@@ -92,38 +92,83 @@ about-addressbook-column-header-generatedname2 = Enw
     .title = Trefnu yn ôl enwau
 about-addressbook-column-label-generatedname2 =
     .label = Enw
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Enw
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Cyfeiriadau E-bost
     .title = Trefnu yn ôl cyfeiriadau e-byst
 about-addressbook-column-label-emailaddresses2 =
     .label = Cyfeiriadau E-bost
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Cyfeiriadau E-bost
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Llysenw
     .title = Trefnu yn ôl llysenwau
 about-addressbook-column-label-nickname2 =
     .label = Llysenw
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Llysenw
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Rhifau Ffôn
     .title = Trefnu yn ôl rhifau ffôn
 about-addressbook-column-label-phonenumbers2 =
     .label = Rhifau Ffôn
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Rhifau Ffôn
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Cyfeiriadau
     .title = Trefnu yn ôl cyfeiriadau
 about-addressbook-column-label-addresses2 =
     .label = Cyfeiriadau
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Cyfeiriadau
+    .title = { $title }
 about-addressbook-column-header-title2 = Teitl
     .title = Trefnu yn ôl teitl
 about-addressbook-column-label-title2 =
     .label = Teitl
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Teitl
+    .title = { $title }
 about-addressbook-column-header-department2 = Adran
     .title = Trefnu yn ôl adrannau
 about-addressbook-column-label-department2 =
     .label = Adran
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Adran
+    .title = { $title }
 about-addressbook-column-header-organization2 = Corff
     .title = Trefnu yn ôl cyrff
 about-addressbook-column-label-organization2 =
     .label = Corff
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Corff
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Llyfr Cyfeiriadau
     .title = Trefnu yn ôl llyfrau cyfeiriadau
 about-addressbook-column-label-addrbook2 =
     .label = Llyfr Cyfeiriadau
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Llyfr Cyfeiriadau
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Ysgrifennu
 about-addressbook-confirm-delete-mixed-title = Dileu Cysylltiadau a Rhestrau
