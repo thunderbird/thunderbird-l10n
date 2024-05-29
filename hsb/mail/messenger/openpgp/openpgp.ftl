@@ -27,7 +27,7 @@ e2e-csr-select-strength = Wubjerće požadanu kryptografisku sylnosć (spěšni�
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
 # Do not translate: CSR
-e2e-csr-summary = Nowy tajny kluč { $type } { $strength } budźe so w nastajenjach { -brand-short-name } generěrować. Tutón proces móže chwilku trać a na chwilu zawinować, zo wotmołwa njedóńdźe; prošu wostańće sćerpliwy za tutón krik. CSR-dataja, kotraž je so jako { $file } składowała, so mjeztym wutwori.
+e2e-csr-summary = Nowy tajny kluč { $type } { $strength } budźe so w nastajenjach { -brand-short-name } generěrować. Tutón proces móže chwilku trać a na chwilu zawinować, zo wotmołwa njedóńdźe; prošu wostańće sćerpliwy za tutón krok. CSR-dataja, kotraž je so jako { $file } składowała, so mjeztym wutwori.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = E-mejlowu adresu ({ $email }) do CSR zapřijeć (doporučene)
