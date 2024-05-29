@@ -23,6 +23,11 @@ e2e-csr-select-title = CSR-algoritmus
 e2e-csr-select-alg = Wubjerće mjez RSA (doporučeny) abo ECC jako swój kryptografiski algoritmus za nowy certifikat S/MIME.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Wubjerće požadanu kryptografisku sylnosć (spěšniša z niskimi ličbami abo lěpša z wyšimi ličbami) za nowy certifikat S/MIME), abo wobchowajće standardne nastajenje.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Nowy tajny kluč { $type } { $strength } budźe so w nastajenjach { -brand-short-name } generěrować. Tutón proces móže chwilku trać a na chwilu zawinować, zo wotmołwa njedóńdźe; prošu wostańće sćerpliwy za tutón krik. CSR-dataja, kotraž je so jako { $file } składowała, so mjeztym wutwori.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = E-mejlowu adresu ({ $email }) do CSR zapřijeć (doporučene)
@@ -683,6 +688,9 @@ confirm-permissive-import = Import je so nimokulił. Kluč, kotryž pospytujeće
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Někotre importowane tajne kluče njepodpěranu funkciju poskićeja. Jeli tajki kluč jako swój wosobinski kluč wužiwaće, móža dopisowarjo wam mejlki abo zjawne kluče w inkompatibelnych formatach słać. To importowane tajne kluče ze slědowacymi porstowymi wotćišćemi nastupa: { $fingerprints }.
 help-button = Pomoc
 
 ## Strings used in trust.sys.mjs
