@@ -6,7 +6,7 @@
 <!ENTITY lastPickedColor.label "Апошні выбраны колер">
 <!ENTITY lastPickedColor.accessKey "А">
 <!ENTITY chooseColor1.label "Выберыце колер:">
-<!ENTITY setColorExample.label "(напрыклад: &quot;#0000ff&quot; або &quot;blue&quot;):">
+<!ENTITY setColorExample.label "(напрыклад, «#0000ff» або «blue»):">
 <!ENTITY default.label "Змоўчны">
 <!ENTITY default.accessKey "З">
 <!ENTITY palette.label "Палітра:">
