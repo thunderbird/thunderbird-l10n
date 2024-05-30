@@ -27,7 +27,7 @@ e2e-csr-select-strength = 請選擇您的新 S/MIME 憑證的加密強度（數�
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
 # Do not translate: CSR
-e2e-csr-summary = 將會於 { -brand-short-name } 的設定產生新的 { $type } { $strong } 私鑰。這個過程可能需要一點時間造成您暫時無法回應在這步驟中請保持耐心。同時將建立另存為 { $file } 的憑證簽署請求CSR檔案。
+e2e-csr-summary = 將會於 { -brand-short-name } 的設定產生新的 { $type } { $strength } 私鑰。這個過程可能需要一點時間，並且程式會暫時無法回應，請請保持耐心稍等此步驟完成。同時，將建立憑證簽署請求（CSR）檔案，並儲存於 { $file }。
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = 在 CSR 中包含電子郵件地址（{ $email }）（推薦）
@@ -636,7 +636,7 @@ confirm-permissive-import = 匯入失敗。您嘗試匯入的金鑰可能已經�
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
-imported-secret-with-unsupported-features = 某些匯入的私鑰公開了不支援的功能。若您使用此金鑰作為個人金鑰可能會有通訊者寄給您電子郵件或寄送不相容格式的公鑰。這會影響具有下列指紋的匯入私鑰: { $fingerprints }。
+imported-secret-with-unsupported-features = 某些匯入的私鑰宣告了不支援的功能。若您使用此金鑰作為個人金鑰，其他人可能會寄送不相容格式的電子郵件或公鑰給您。受影響的已匯入私鑰指紋如下：{ $fingerprints }。
 help-button = 說明
 
 ## Strings used in trust.sys.mjs
