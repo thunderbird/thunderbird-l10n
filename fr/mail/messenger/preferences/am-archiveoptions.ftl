@@ -28,5 +28,3 @@ inbox-folder-name =
     .label = Courrier entrant
 child-folder-name =
     .label = Sous-dossier de la boîte de réception
-sibling-folder-name =
-    .label = Soeur de la boîte de réception
