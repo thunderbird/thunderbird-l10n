@@ -5,9 +5,9 @@
 e2e-intro-description = Para enviar mensajes cifrados o firmados digitalmente, debe configurar una tecnología de cifrado, ya sea OpenPGP o S/MIME.
 e2e-intro-description-more = Seleccione su clave personal para habilitar el uso de OpenPGP o su certificado personal para habilitar el uso de S/MIME. Para una clave personal o certificado usted posee la clave secreta correspondiente.
 # Do not translate: S/MIME, CSR, CA
-e2e-csr-intro = Para obtener un nuevo certificado S / MIME personal, genera una solicitud de firma de certificado (CSR) y envíala a una autoridad de certificación (CA).
+e2e-csr-intro = Para obtener un nuevo certificado S/MIME personal, hay que generar una solicitud de firma de certificado (CSR) y enviarla a una autoridad de certificación (CA).
 # Do not translate: S/MIME, CSR
-e2e-csr-intro-info = Seleccione un directorio local y un nombre de archivo para su archivo CSR, y responda las siguientes preguntas para configurar el algoritmo y la intensidad.
+e2e-csr-intro-info = Seleccione un directorio local y un nombre de archivo para el archivo CSR, y responda las siguientes preguntas para configurar el algoritmo y la fortaleza.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Generar CSR
 # A label for a button that proceeds to the next step
@@ -20,9 +20,9 @@ e2e-csr-button =
 # Do not translate: CSR
 e2e-csr-select-title = Algoritmo de CSR
 # Do not translate: RSA, ECC, S/MIME
-e2e-csr-select-alg = Elija entre RSA (recomendado) o ECC como su algoritmo criptográfico para el nuevo certificado S / MIME.
+e2e-csr-select-alg = Elija entre RSA (recomendado) o ECC como el algoritmo criptográfico para el nuevo certificado S/MIME.
 # Do not translate: S/MIME
-e2e-csr-select-strength = Elija la fortaleza criptográfica deseada (más rápida con números más bajos o mejor seguridad con números más altos) para el nuevo certificado S / MIME o mantenga la configuración predeterminada.
+e2e-csr-select-strength = Elija la fortaleza criptográfica deseada (más rápida con números más bajos o mejor seguridad con números más altos) para el nuevo certificado S/MIME o mantenga la configuración predeterminada.
 # $type is a cryptographic algorithm like RSA or ECC
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
@@ -529,7 +529,7 @@ key-man-button-export-pub-key = Exportar solo las &claves públicas
 key-man-button-refresh-all = &Actualizar todas las claves
 key-man-loading-keys = Cargando claves, espere…
 ascii-armor-file = Archivos blindados ASCII (* .asc)
-text-file = Archivos de texto (* .txt)
+text-file = Archivos de texto (*.txt)
 no-key-selected = Debe seleccionar al menos una tecla para realizar la operación seleccionada
 export-to-file = Exportar clave pública a un archivo
 export-keypair-to-file = Exportar clave pública y secreta al archivo
