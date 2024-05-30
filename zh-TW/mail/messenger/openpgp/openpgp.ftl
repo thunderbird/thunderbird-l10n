@@ -5,9 +5,9 @@
 e2e-intro-description = 若要傳送加密訊息，或經數位簽署過的訊息，必須先設定 OpenPGP 或 S/MIME 的任一種加密方式。
 e2e-intro-description-more = 請選擇您要用於 OpenPGP 的個人金鑰，或用於 S/MIME 的個人憑證。不論是個人金鑰或憑證您都會有對應的私鑰。
 # Do not translate: S/MIME, CSR, CA
-e2e-csr-intro = 若要取得新的個人 S/MIME 憑證請產生憑證簽署請求CSR提交給憑證機構CA。
+e2e-csr-intro = 若要取得新的個人 S/MIME 憑證，請產生憑證簽署請求（CSR），並提交給憑證機構（CA）。
 # Do not translate: S/MIME, CSR
-e2e-csr-intro-info = 為您的 CSR 檔案選擇本機目錄與檔名請回答下列問題來設定演算法與強度。
+e2e-csr-intro-info = 請為您的 CSR 檔案選擇本機資料夾與檔名請，並回答下列問題來指定要使用的演算法與加密強度。
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = 產生 CSR
 # A label for a button that proceeds to the next step
@@ -20,9 +20,9 @@ e2e-csr-button =
 # Do not translate: CSR
 e2e-csr-select-title = CSR 演算法
 # Do not translate: RSA, ECC, S/MIME
-e2e-csr-select-alg = 選擇 RSA建議或 ECC 作為新 S/MIME 憑證的加密演算法。
+e2e-csr-select-alg = 選擇 RSA（建議）或 ECC 作為新的 S/MIME 憑證的加密演算法。
 # Do not translate: S/MIME
-e2e-csr-select-strength = 請選擇您想要獲得新 S/MIME 憑證的加密強度(數字越小速度越快、安全性越好)或保留預設值。
+e2e-csr-select-strength = 請選擇您的新 S/MIME 憑證的加密強度（數字越小速度越快；數字越大越安全）或維持使用預設值。
 # $type is a cryptographic algorithm like RSA or ECC
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
@@ -30,11 +30,11 @@ e2e-csr-select-strength = 請選擇您想要獲得新 S/MIME 憑證的加密強�
 e2e-csr-summary = 將會於 { -brand-short-name } 的設定產生新的 { $type } { $strong } 私鑰。這個過程可能需要一點時間造成您暫時無法回應在這步驟中請保持耐心。同時將建立另存為 { $file } 的憑證簽署請求CSR檔案。
 # $email An email address
 # Do not translate: CSR
-e2e-csr-include-email = 在 CSR 中包含電子郵件地址{ $email }推薦
+e2e-csr-include-email = 在 CSR 中包含電子郵件地址（{ $email }）（推薦）
 # $file A filename
 e2e-csr-success = 已成功將 CSR 儲存到 { $file }
 # $file A filename
-e2e-csr-failure = 無法將 CSR 儲存到檔案 { $file }
+e2e-csr-failure = 無法將 CSR 儲存為檔案 { $file }
 e2e-signing-description = 數位簽章讓收件者可以確認訊息是由您寄出的，並且內容未遭竄改。加密訊息預設將開啟數位簽署。
 e2e-sign-message =
     .label = 簽署未加密訊息
@@ -498,7 +498,7 @@ key-man-button-export-pub-key = 只匯出公鑰 (&P)
 key-man-button-refresh-all = 重新整理所有金鑰 (&R)
 key-man-loading-keys = 正在載入金鑰，請稍候…
 ascii-armor-file = ASCII 格式檔案（*.asc）
-text-file = 純文字檔案*.txt
+text-file = 純文字檔案（*.txt）
 no-key-selected = 需要選擇至少一把金鑰，才能進行指定的操作
 export-to-file = 將公鑰匯出成檔案
 export-keypair-to-file = 將公鑰與私鑰匯出成檔案

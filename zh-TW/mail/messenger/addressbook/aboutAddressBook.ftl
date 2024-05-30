@@ -95,7 +95,7 @@ about-addressbook-column-label-generatedname2 =
 # Variables:
 # $title (String) - Contact name for tooltip.
 about-addressbook-cell-generatedname2 =
-    .aria-label = 名稱
+    .aria-label = 姓名
     .title = { $title }
 about-addressbook-column-header-emailaddresses2 = 電子郵件地址
     .title = 依照電子郵件地址排序
@@ -140,7 +140,7 @@ about-addressbook-column-label-title2 =
 # Variables:
 # $title (String) - Contact job title for tooltip.
 about-addressbook-cell-title2 =
-    .aria-label = 標題
+    .aria-label = 頭銜
     .title = { $title }
 about-addressbook-column-header-department2 = 部門
     .title = 依照部門排序
