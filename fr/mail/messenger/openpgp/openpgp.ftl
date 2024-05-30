@@ -6,8 +6,10 @@ e2e-intro-description = Pour envoyer des messages chiffrés ou signés numériqu
 e2e-intro-description-more = Sélectionnez votre clé personnelle pour utiliser OpenPGP, ou votre certificat personnel pour utiliser S/MIME. Vous devez posséder la clé secrète associée à la clé personnelle ou au certificat personnel.
 # Do not translate: S/MIME, CSR, CA
 e2e-csr-intro = Pour obtenir un nouveau certificat S/MIME personnel, générez une requête de signature de certificat (CSR) et soumettez-la à une autorité de certification (AC).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Sélectionnez un répertoire local et un nom de fichier pour votre fichier CSR, puis répondez aux questions suivantes pour définir la force de l’algorithme.
 # A title for a dialog. Do not translate "CSR".
-e2e-csr-title = Générer une CSR
+e2e-csr-title = Générer un CSR
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Continuer
 # A label for a button that goes back one step
@@ -15,13 +17,24 @@ e2e-csr-back = Retour
 # Do not translate: CSR
 e2e-csr-button =
     .label = Générer et enregistrer un fichier CSR sous…
+# Do not translate: CSR
+e2e-csr-select-title = Algorithme CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Choisissez entre RSA (recommandé) ou ECC comme algorithme cryptographique pour le nouveau certificat S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Choisissez la force du chiffrement souhaité (plus rapide avec de plus petits nombres ou plus sûr avec de plus grands nombres) pour le nouveau certificat S/MIME ou conservez le paramètre par défaut.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Une nouvelle clé secrète { $type } { $strength } sera générée dans les paramètres de { -brand-short-name }. Ce processus peut prendre un certain temps et provoquer une absence temporaire de réponse. Veuillez patienter pendant cette étape. Le fichier CSR (Certificate Signing Request), enregistré sous le nom { $file }, sera créé pendant ce temps.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Inclure l’adresse e-mail ({ $email }) dans le CSR (recommandé)
 # $file A filename
-e2e-csr-success = La CSR a été enregistrée avec succès dans { $file }
+e2e-csr-success = Le CSR a été enregistré dans { $file }
 # $file A filename
-e2e-csr-failure = Impossible d’enregistrer la CSR dans le fichier { $file }
+e2e-csr-failure = Impossible d’enregistrer le CSR dans le fichier { $file }
 e2e-signing-description = Une signature numérique permet aux destinataires de vérifier que le message a bien été envoyé par vous et que son contenu n’a pas été modifié. Les messages chiffrés sont toujours signés par défaut.
 e2e-sign-message =
     .label = Signer les messages non chiffrés
@@ -660,6 +673,9 @@ confirm-permissive-import = Échec de l’importation. La clé que vous essayez 
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Certaines clés secrètes importées signalent une fonctionnalité non prise en charge. Si vous utilisez une telle clé comme clé personnelle, vos correspondants peuvent vous envoyer des e-mails ou des clés publiques dans un format incompatible. Cela affecte les clés secrètes importées avec les empreintes suivantes : { $fingerprints }.
 help-button = Aide
 
 ## Strings used in trust.sys.mjs
