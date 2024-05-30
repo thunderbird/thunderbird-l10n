@@ -23,6 +23,18 @@ e2e-csr-select-title = CSR алгоритмі
 e2e-csr-select-alg = ﻿﻿Жаңа S/MIME сертификаты үшін криптографиялық алгоритм ретінде RSA (ұсынылады) немесе ECC арасында таңдаңыз.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Жаңа S/MIME сертификаты үшін қажетті криптографиялық күшті таңдаңыз (төмен сандармен жылдамырақ немесе жоғарырақ сандармен жақсырақ қауіпсіздік) немесе бастапқы параметрлерді қалдырыңыз.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Жаңа { $type }{ $strength } құпия кілті { -brand-short-name } параметрлерінде генерацияланады. Бұл әрекет біраз уақыт алуы және уақытша жауап бермеуді тудыруы мүмкін; осы қадамда сабырлы болыңыз. { $file } ретінде сақталған сертификатқа қол қоюға сұрау (CSR) файлы осы арада жасалады.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = CSR ішіне электрондық пошта адресін ({ $email }) қосу (ұсынылады)
+# $file A filename
+e2e-csr-success = CSR { $file } файлына сәтті сақталды.
+# $file A filename
+e2e-csr-failure = CSR { $file } файлына сақтау мүмкін емес
 e2e-signing-description = Цифрлық қолтаңба алушыларға хабарламаны сіз жібергеніңізді және оның мазмұны өзгермегенін тексеруге мүмкіндік береді. Шифрленген хабарламаларға әрқашан үнсіз келісім бойынша қолтаңба қойылады.
 e2e-sign-message =
     .label = Шифрленбеген хабарламаларға қолтаңба қою
@@ -516,6 +528,7 @@ key-man-button-export-pub-key = Тек а&шық кілттерді экспор
 key-man-button-refresh-all = &Барлық кілттерді жаңарту
 key-man-loading-keys = Кілттер жүктелуде, күте тұрыңыз…
 ascii-armor-file = ASCII қорғалған файлдары (*.asc)
+text-file = Мәтіндік файлдар (*.txt)
 no-key-selected = Таңдалған әрекетті орындау үшін кем дегенде бір кілтті таңдау керек
 export-to-file = Ашық кілтті файлға экспорттау
 export-keypair-to-file = Жеке және ашық кілтті файлға экспорттау
@@ -660,6 +673,9 @@ confirm-permissive-import = Импорттау сәтсіз аяқталды. С
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Кейбір импортталған құпия кілттер қолдау көрсетілмейтін мүмкіндікті жарнамалайды. Егер сіз осындай кілтті жеке кілт ретінде пайдалансаңыз, корреспонденттер сізге сәйкес келмейтін пішімдегі электрондық хаттарды немесе ашық кілттерді жіберуі мүмкін. Бұл келесі саусақ іздері бар импортталған құпия кілттерге әсер етеді: { $fingerprints }.
 help-button = Көмек
 
 ## Strings used in trust.sys.mjs
