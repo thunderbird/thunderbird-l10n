@@ -6,6 +6,8 @@ e2e-intro-description = Om fersifere of digitaal ûndertekene berjochten te fers
 e2e-intro-description-more = Selektearje jo persoanlike kaai om it gebrûk fan OpenPGP mooglik te meitsjen, of jo persoanlike sertifikaat om it gebrûk fan S/MIME mooglik te meitsjen. Foar in persoanlike kaai of sertifikaat besitte jo de byhearrende geheime kaai.
 # Do not translate: S/MIME, CSR, CA
 e2e-csr-intro = Meitsje, om in nij persoanlik S/MIME-sertifikaat te krijen, in Certificate Signing Request (CSR) oan en tsjinje dit yn by in sertifikaatautoriteit (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Selektearje in lokale map en bestânsnamme foar jo CSR-bestân, en beäntwurdzje de folgjende fragen foar it ynstellen fan algoritme en sterkte.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = CSR oanmeitsje
 # A label for a button that proceeds to the next step
@@ -19,6 +21,13 @@ e2e-csr-button =
 e2e-csr-select-title = CSR-algoritme
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = ﻿Kies tusken RSA (oanrekommandearre) of ECC as jo kryptografyske algoritme foar it nije S/MIME-sertifikaat.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Kies de winske kryptografyske sterkte (flugger mei legere getallen of bettere befeiliging mei hegere getallen) foar it nije S/MIME-sertifikaat, of behâld de standertynstelling.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Der wurdt in nije geheime kaai ({ $type } { $stringth }) oanmakke yn de ynstellingen fan { -brand-short-name }. Dit proses kin in skoftke duorje en tydlik net-reagearje feroarsaakje; haw geduld wylst dizze stap. It Certificate Signing Request (CSR)-bestân, bewarre as { $file }, wurdt ûndertusken makke.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = E-mailadres ({ $email }) opnimme yn CSR (oanrekommandearre)
