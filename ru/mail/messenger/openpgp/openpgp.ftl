@@ -23,6 +23,18 @@ e2e-csr-select-title = Алгоритм CSR
 e2e-csr-select-alg = ﻿﻿﻿﻿Выберите RSA (рекомендуется) или ECC в качестве криптоалгоритма для нового S/MIME-сертификата.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Выберите желаемую криптостойкость (быстрее с меньшими числами или выше безопасность с более высоким числами) для нового S/MIME-сертификата или оставьте параметр по умолчанию.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Новый секретный ключ { $type } { $strength } будет сгенерирован в настройках { -brand-short-name }. Этот процесс может занять некоторое время и вызвать временное зависание; пожалуйста, будьте терпеливы на этом шаге. Тем временем будет создан файл запроса на подпись сертификата (CSR), сохранённый как { $file }.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Включить адрес электронной почты ({ $email }) в CSR (рекомендуется)
+# $file A filename
+e2e-csr-success = CSR был успешно сохранён в { $file }
+# $file A filename
+e2e-csr-failure = Не удалось сохранить CSR в файл { $file }
 e2e-signing-description = Цифровая подпись позволяет получателям удостовериться, что сообщение было отправлено именно вами, и что его содержимое не было изменено. Зашифрованные сообщения всегда подписаны по умолчанию.
 e2e-sign-message =
     .label = Подписывать незашифрованные сообщения
@@ -524,6 +536,7 @@ key-man-button-export-pub-key = Экспорт только &открытых к
 key-man-button-refresh-all = &Обновить все ключи
 key-man-loading-keys = Загрузка ключей, пожалуйста, подождите…
 ascii-armor-file = Защищённые файлы ASCII (*.asc)
+text-file = Текстовые файлы (*.txt)
 no-key-selected = Вы должны выбрать хотя бы один ключ, чтобы выполнить выбранную операцию
 export-to-file = Экспорт открытого ключа в файл
 export-keypair-to-file = Экспорт секретного и открытого ключа в файл
@@ -668,6 +681,10 @@ confirm-permissive-import = Импорт не удался. Ключ, котор
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Некоторые из импортированных секретных ключей объявляют о неподдерживаемой функции. Если вы используете такой ключ в качестве своего личного ключа, корреспонденты могут отправлять вам электронные письма или открытые ключи в несовместимом формате. Это повлияет на импортированные секретные ключи со следующими отпечатками: { $fingerprints }.
+help-button = Справка
 
 ## Strings used in trust.sys.mjs
 
