@@ -6,7 +6,7 @@
 <!ENTITY wizard.label             "Стварыць новы каляндар" >
 <!ENTITY wizard.description       "Размясціце ваш каляндар" >
 
-<!ENTITY initialpage.description    "Вы можаце трымаць ваш каляндар на вашым камп'ютары або на серверы, каб мець да яго аддалены доступ ці падзяліцца ім са сваімі сябрамі або калегамі." >
+<!ENTITY initialpage.description    "Вы можаце захоўваць новы каляндар на вашым камп'ютары або на серверы, каб мець да яго аддалены доступ ці падзяліцца ім са сваімі сябрамі або калегамі." >
 <!ENTITY initialpage.computer.label  "На камп'ютары">
 <!ENTITY initialpage.network.label  "У сетцы">
 
