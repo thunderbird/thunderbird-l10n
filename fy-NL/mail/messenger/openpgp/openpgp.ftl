@@ -4,6 +4,8 @@
 
 e2e-intro-description = Om fersifere of digitaal ûndertekene berjochten te ferstjoeren, moatte jo in fersiferingstechnology ynstelle, itsij OpenPGP of S/MIME.
 e2e-intro-description-more = Selektearje jo persoanlike kaai om it gebrûk fan OpenPGP mooglik te meitsjen, of jo persoanlike sertifikaat om it gebrûk fan S/MIME mooglik te meitsjen. Foar in persoanlike kaai of sertifikaat besitte jo de byhearrende geheime kaai.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Meitsje, om in nij persoanlik S/MIME-sertifikaat te krijen, in Certificate Signing Request (CSR) oan en tsjinje dit yn by in sertifikaatautoriteit (CA).
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = CSR oanmeitsje
 # A label for a button that proceeds to the next step
@@ -22,6 +24,8 @@ e2e-csr-select-alg = ﻿Kies tusken RSA (oanrekommandearre) of ECC as jo kryptog
 e2e-csr-include-email = E-mailadres ({ $email }) opnimme yn CSR (oanrekommandearre)
 # $file A filename
 e2e-csr-success = De CSR is mei sukses bewarre nei { $file }
+# $file A filename
+e2e-csr-failure = Kin de CSR net nei bestân { $file } bewarje
 e2e-signing-description = Mei in digitale hantekening kinne ûntfangers kontrolearje oft it berjocht troch jo ferstjoerd is en oft de ynhâld net wizige is. Fersifere berjochten wurde altyd standert ûndertekene.
 e2e-sign-message =
     .label = Unfersifere berjochten ûndertekenje
@@ -516,6 +520,7 @@ key-man-button-export-pub-key = Allinnich &iepenbiere kaaien eksportearje
 key-man-button-refresh-all = Alle kaaien &fernije
 key-man-loading-keys = Kaaien wurde laden, in amerijke…
 ascii-armor-file = ASCII-armored-bestannen (*.asc)
+text-file = Tekstbestannen (*.txt)
 no-key-selected = Jo moatte op syn minst ien kaai selektearje om de selektearre bewurking út te fieren
 export-to-file = Iepenbiere kaai nei bestân eksportearje
 export-keypair-to-file = Geheime en iepenbiere kaai nei bestân eksportearje
@@ -660,6 +665,9 @@ confirm-permissive-import = Ymportearjen mislearre. De kaai dy’t jo probearje 
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Guon ymportearre geheime kaaien jouwe in net-stipe funksje oan. As jo sa’n kaai brûke as jo persoanlike kaai, kinne kontakten jo e-mailberjochten of iepenbiere kaaien yn in ynkompatibele opmaak stjoere. Dit hat ynfloed op ymportearre geheime kaaien mei de folgjende fingerprints: { $fingerprints }.
 help-button = Help
 
 ## Strings used in trust.sys.mjs
