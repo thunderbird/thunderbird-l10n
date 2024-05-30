@@ -15,15 +15,6 @@ e2e-csr-back = Retour
 # Do not translate: CSR
 e2e-csr-button =
     .label = Générer et enregistrer un fichier CSR sous…
-# Do not translate: RSA, ECC, S/MIME
-e2e-csr-select-alg = Choisir entre RSA (recommandé) ou ECC comme algorithme cryptographique pour le nouveau certificat S/MIME.
-# Do not translate: S/MIME
-e2e-csr-select-strength = Choisissez le niveau de chiffrement souhaité (plus rapide avec des nombres faibles, ou plus de sécurité avec des nombres élevés) pour le nouveau certificat S/MIME, ou conservez le paramètre par défaut.
-# $type is a cryptographic algorithm like RSA or ECC
-# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
-# $file A filename
-# Do not translate: CSR
-e2e-csr-summary = Une nouvelle clé secrète { $type } { $strength } sera générée dans les paramètres de { -brand-short-name }. Ce processus peut prendre un certain temps et provoquer une absence de réponse temporaire. merci de patienter pendant cette étape. Le fichier CSR (Certificate Signing Request), enregistré sous le nom { $file }, sera créé entre-temps.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Inclure l’adresse e-mail ({ $email }) dans le CSR (recommandé)
