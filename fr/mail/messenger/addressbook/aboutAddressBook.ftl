@@ -113,7 +113,7 @@ about-addressbook-column-label-nickname2 =
 # Variables:
 # $title (String) - Contact nickname for tooltip.
 about-addressbook-cell-nickname2 =
-    .aria-label = Surnom
+    .aria-label = Pseudo
     .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Numéros de téléphone
     .title = Trier par numéros de téléphone
@@ -140,7 +140,7 @@ about-addressbook-column-label-title2 =
 # Variables:
 # $title (String) - Contact job title for tooltip.
 about-addressbook-cell-title2 =
-    .aria-label = Titre
+    .aria-label = Fonction
     .title = { $title }
 about-addressbook-column-header-department2 = Service
     .title = Trier par service

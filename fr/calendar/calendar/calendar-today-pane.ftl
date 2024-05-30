@@ -9,4 +9,4 @@ calendar-today-pane-show-tasks-only =
 calendar-today-pane-show-events-only =
     .tooltiptext = Afficher les évènements
 calendar-today-pane-close-button =
-    .tooltiptext = Masquer le panneau Aujourd’hui
+    .tooltiptext = Masquer le panneau « Aujourd’hui »
