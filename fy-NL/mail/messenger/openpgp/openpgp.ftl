@@ -4,6 +4,24 @@
 
 e2e-intro-description = Om fersifere of digitaal ûndertekene berjochten te ferstjoeren, moatte jo in fersiferingstechnology ynstelle, itsij OpenPGP of S/MIME.
 e2e-intro-description-more = Selektearje jo persoanlike kaai om it gebrûk fan OpenPGP mooglik te meitsjen, of jo persoanlike sertifikaat om it gebrûk fan S/MIME mooglik te meitsjen. Foar in persoanlike kaai of sertifikaat besitte jo de byhearrende geheime kaai.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = CSR oanmeitsje
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Trochgean
+# A label for a button that goes back one step
+e2e-csr-back = Tebek
+# Do not translate: CSR
+e2e-csr-button =
+    .label = In CSR-bestân oanmeitsje en bewarje as…
+# Do not translate: CSR
+e2e-csr-select-title = CSR-algoritme
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿Kies tusken RSA (oanrekommandearre) of ECC as jo kryptografyske algoritme foar it nije S/MIME-sertifikaat.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = E-mailadres ({ $email }) opnimme yn CSR (oanrekommandearre)
+# $file A filename
+e2e-csr-success = De CSR is mei sukses bewarre nei { $file }
 e2e-signing-description = Mei in digitale hantekening kinne ûntfangers kontrolearje oft it berjocht troch jo ferstjoerd is en oft de ynhâld net wizige is. Fersifere berjochten wurde altyd standert ûndertekene.
 e2e-sign-message =
     .label = Unfersifere berjochten ûndertekenje
@@ -391,6 +409,9 @@ window-locked = It opstelfinster is beskoattele; ferstjoeren annulearre
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Ofbrutsen
 keyserver-error-unknown = Der is in ûnbekende flater bard
 keyserver-error-server-error = De kaaiserver hat in flater meld.
@@ -402,6 +423,9 @@ keyserver-error-unsupported = De kaaiserver wurdt net stipe.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Jo e-mailprovider hat jo fersyk om jo iepenbiere kaai op te laden nei de OpenPGP Web Key Directory ferwurke.
     Stjoer in befêstiging om de publikaasje fan jo iepenbiere kaai te foltôgjen.
@@ -411,6 +435,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -419,6 +446,9 @@ converter-decrypt-body-failed =
     Wolle jo it opnij probearje mei in oare wachtwurdsin of wolle jo it berjocht oerslaan?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Jo moatte in doelmap selektearje.
 filter-decrypt-move-warn-experimental =
@@ -436,6 +466,9 @@ filter-warn-key-not-secret =
     As jo de geheime kaai foar ‘{ $desc }’ net hawwe, kinne jo de e-mailberjochten net mear lêze.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Permanint ûntsiferje (OpenPGP)
 filter-decrypt-copy-label = Untsifere kopy meitsje (OpenPGP)
@@ -510,6 +543,12 @@ openpgp-export-secret-fail = <b>Kin de selektearre geheime kaai net eksportearje
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = De kaai { $userId } (sleutel-ID { $keyId }) is ynlutsen.
 key-ring-pub-key-expired = De kaai { $userId } (sleutel-ID { $keyId }) is ferfallen.
 key-ring-no-secret-key = It liket oft jo de geheime kaai foar { $userId } (key ID { $keyId }) net oan jo kaaihinger hawwe; jo kinne de kaai net brûke om te ûndertekenjen.
@@ -522,10 +561,16 @@ key-ring-enc-sub-keys-expired = Alle fersiferingssubkaaien fan kaai { $userId } 
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Foto
 user-att-photo = Brûkerskenmerk (JPEG-ôfbylding)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Dizze kaai is al ynlutsen.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -549,6 +594,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Ymportearje
 delete-key-title = OpenPGP-kaai fuortsmite
 delete-external-key-title = De eksterne GnuPG-kaai fuortsmite
@@ -558,6 +606,9 @@ delete-key-in-use-description = Kin net trochgean! De kaai dy’t jo selektearre
 revoke-key-in-use-description = Kin net trochgean! De kaai dy’t jo selektearre hawwe foar yn te lûken wurdt op dit stuit brûkt troch dizze identiteit. Selektearje in oare kaai of selektearje der gjin en probearje it opnij.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -569,18 +620,33 @@ key-error-not-accepted-as-personal = Jo hawwe net befêstige dat de kaai mei ID 
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = De selektearre funksje is net beskikber yn de offlinemodus. Gean online en probearje it opnij.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Wy kinne gjin brûkbere kaai fine dy’t oerienkomt mei de opjûne sykkritearia.
 no-update-found = Jo hawwe al de kaaien dy’t online fûn binne.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Flater – kaaiekstraksjeopdracht mislearre
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Flater – kaaiûntfangst annulearre troch brûker
 not-first-block = Flater – earste OpenPGP-blok is gjin publyk kaaiblok
@@ -593,6 +659,10 @@ no-pgp-block = Flater – gjin jildich armored OpenPGP-gegevensblok fûn
 confirm-permissive-import = Ymportearjen mislearre. De kaai dy’t jo probearje te ymportearjen, is mooglik skansearre of brûkt ûnbekende attributen. Wolle jo probearje de krekte dielen te ymportearjen? Dit kin der ta liede dat net folslein en net brûkbere kaaien ymportearre wurde.
 
 ## Strings used in trust.jsm
+
+help-button = Help
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = ûnbekend
 key-valid-invalid = ûnjildich
@@ -714,6 +784,9 @@ cannot-send-enc-because-no-own-key = Kin dit berjocht net fersifere fersjoere, o
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -737,9 +810,15 @@ dlg-button-view = &Werjaan
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Flater – gjin fersifering fereaske
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Gjin foto beskikber
 # Variables:
@@ -758,6 +837,9 @@ repeat-suffix-singular = kear.
 repeat-suffix-plural = kear.
 no-repeat = Dizze warskôging wurdt net mear toand.
 dlg-keep-setting = Myn antwurd ûnthâlde en it my net noch in kear freegje
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Slute
 dlg-button-cancel = &Annulearje
@@ -768,6 +850,9 @@ enig-alert = OpenPGP-warskôging
 enig-info = OpenPGP-ynformaasje
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Opnij probearje
 dlg-button-skip = Oer&slaan
