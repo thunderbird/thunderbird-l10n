@@ -23,6 +23,11 @@ e2e-csr-select-title = Algoritmo de CSR
 e2e-csr-select-alg = Elija entre RSA (recomendado) o ECC como su algoritmo criptográfico para el nuevo certificado S / MIME.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Elija la fortaleza criptográfica deseada (más rápida con números más bajos o mejor seguridad con números más altos) para el nuevo certificado S / MIME o mantenga la configuración predeterminada.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Se generará una nueva clave secreta de { $type } { $strength } en la configuración de { -brand-short-name }. Este proceso puede llevar algún tiempo y provocar que no responda temporalmente; tenga paciencia durante este paso. Mientras tanto, se creará el archivo de solicitud de firma de certificado (CSR), guardado como { $file }.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Incluir dirección de correo electrónico ({ $email }) en el CSR (recomendado)
