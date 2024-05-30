@@ -92,38 +92,83 @@ about-addressbook-column-header-generatedname2 = Имя
     .title = Упорядочивать по имени
 about-addressbook-column-label-generatedname2 =
     .label = Имя
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Имя
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Адреса электронной почты
     .title = Упорядочивать по адресам электронной почты
 about-addressbook-column-label-emailaddresses2 =
     .label = Адреса электронной почты
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Электронная почта
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Прозвище
     .title = Упорядочивать по прозвищам
 about-addressbook-column-label-nickname2 =
     .label = Прозвище
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Псевдоним
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Номера телефонов
     .title = Упорядочивать по номерам телефонов
 about-addressbook-column-label-phonenumbers2 =
     .label = Номера телефонов
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Номера телефонов
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Адреса
     .title = Упорядочивать по адресам
 about-addressbook-column-label-addresses2 =
     .label = Адреса
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Адреса
+    .title = { $title }
 about-addressbook-column-header-title2 = Заголовок
     .title = Упорядочивать по заголовкам
 about-addressbook-column-label-title2 =
     .label = Заголовок
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Должность
+    .title = { $title }
 about-addressbook-column-header-department2 = Отдел
     .title = Упорядочивать по отделам
 about-addressbook-column-label-department2 =
     .label = Отдел
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Отдел
+    .title = { $title }
 about-addressbook-column-header-organization2 = Организация
     .title = Упорядочивать по организациям
 about-addressbook-column-label-organization2 =
     .label = Организация
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Организация
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Адресная книга
     .title = Упорядочивать по адресным книгам
 about-addressbook-column-label-addrbook2 =
     .label = Адресная книга
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Адресная книга
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Написать
 about-addressbook-confirm-delete-mixed-title = Удаление контактов и списков

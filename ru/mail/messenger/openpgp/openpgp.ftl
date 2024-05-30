@@ -4,6 +4,25 @@
 
 e2e-intro-description = Чтобы отправлять зашифрованные сообщения или сообщения с цифровой подписью, вам необходимо настроить технологию шифрования, например, OpenPGP или S/MIME.
 e2e-intro-description-more = Выберите свой личный ключ, чтобы включить использование OpenPGP, или свой личный сертификат, чтобы разрешить использование S/MIME. Для личного ключа или сертификата у вас должен быть соответствующий секретный ключ.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Чтобы получить новый личный S/MIME-сертификат, сгенерируйте запрос на подпись сертификата (CSR) и отправьте его в центр сертификации (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Выберите локальный каталог и имя файла для вашего CSR-файла, а также ответьте на следующие вопросы, чтобы установить алгоритм и силу стойкости.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Сгенерировать CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Продолжить
+# A label for a button that goes back one step
+e2e-csr-back = Назад
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Создать и сохранить CSR-файл как…
+# Do not translate: CSR
+e2e-csr-select-title = Алгоритм CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿﻿﻿﻿Выберите RSA (рекомендуется) или ECC в качестве криптоалгоритма для нового S/MIME-сертификата.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Выберите желаемую криптостойкость (быстрее с меньшими числами или выше безопасность с более высоким числами) для нового S/MIME-сертификата или оставьте параметр по умолчанию.
 e2e-signing-description = Цифровая подпись позволяет получателям удостовериться, что сообщение было отправлено именно вами, и что его содержимое не было изменено. Зашифрованные сообщения всегда подписаны по умолчанию.
 e2e-sign-message =
     .label = Подписывать незашифрованные сообщения
@@ -398,6 +417,9 @@ window-locked = Окно составления сообщения заблок�
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Прервано
 keyserver-error-unknown = Произошла неизвестная ошибка
 keyserver-error-server-error = Сервер ключей сообщил об ошибке.
@@ -409,6 +431,9 @@ keyserver-error-unsupported = Сервер ключей не поддержив�
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Ваш провайдер электронной почты обработал ваш запрос на выгрузку вашего открытого ключа в каталог веб-ключей OpenPGP.
     Пожалуйста, подтвердите, чтобы завершить публикацию вашего открытого ключа.
@@ -418,6 +443,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -426,6 +454,9 @@ converter-decrypt-body-failed =
     Вы хотите повторить попытку с другой парольной фразой или пропустить сообщение?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Вы должны выбрать целевую папку.
 filter-decrypt-move-warn-experimental =
@@ -443,6 +474,9 @@ filter-warn-key-not-secret =
     Если у вас нет секретного ключа для '{ $desc }', вы больше не сможете читать электронные письма.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Всегда расшифровывать (OpenPGP)
 filter-decrypt-copy-label = Создать расшифрованную копию (OpenPGP)
@@ -517,6 +551,12 @@ openpgp-export-secret-fail = <b>Не удалось экспортировать
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Ключ { $userId } (идентификатор ключа { $keyId }) отозван.
 key-ring-pub-key-expired = Срок действия ключа { $userId } (идентификатор ключа { $keyId }) истёк.
 key-ring-no-secret-key = У вас, судя по всему, нет секретного ключа для { $userId } (идентификатор ключа { $keyId }) в вашей связке ключей; вы не сможете использовать ключ для подписи.
@@ -529,10 +569,16 @@ key-ring-enc-sub-keys-expired = Срок действия всех подклю�
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Фото
 user-att-photo = Атрибут пользователя (изображение JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Этот ключ уже был отозван.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -556,6 +602,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Импортировать
 delete-key-title = Удалить ключ OpenPGP
 delete-external-key-title = Удалить внешний ключ GnuPG
@@ -565,6 +614,9 @@ delete-key-in-use-description = Операция не удалась! Выбра
 revoke-key-in-use-description = Операция не удалась! Выбранный вами ключ отозвать нельзя, так как в настоящее время он используется этой учётной записью. Выберите другой ключ или не выбирайте ключей и попробуйте снова.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -576,18 +628,33 @@ key-error-not-accepted-as-personal = Вы не подтвердили, что к
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Выбранная вами функция недоступна в автономном режиме. Пожалуйста, подключитесь к Интернету и попробуйте снова.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Мы не смогли найти пригодный для использования ключ, соответствующий заданным критериям поиска.
 no-update-found = У вас уже есть ключи, которые были обнаружены онлайн.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Ошибка — Команда извлечения ключа не выполнена
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Ошибка — Получение ключа отменено пользователем
 not-first-block = Ошибка — Первый блок OpenPGP не является блоком открытого ключа
@@ -600,6 +667,9 @@ no-pgp-block = Ошибка — Не найден действительный �
 confirm-permissive-import = Импорт не удался. Ключ, который вы пытаетесь импортировать, может быть повреждён или использовать неизвестные атрибуты. Вы хотите попытаться импортировать корректные части? Это может привести к импорту неполных ключей или ключей, которые невозможно использовать.
 
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = неизвестный
 key-valid-invalid = недействительный
@@ -721,6 +791,9 @@ cannot-send-enc-because-no-own-key = Не удалось отправить эт
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -744,9 +817,15 @@ dlg-button-view = &Просмотр
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Ошибка — Шифрование не требуется
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Нет доступного фото
 # Variables:
@@ -765,6 +844,9 @@ repeat-suffix-singular = раз.
 repeat-suffix-plural = раз(а).
 no-repeat = Это предупреждение больше не будет отображаться.
 dlg-keep-setting = Запомнить мой ответ и не спрашивать меня снова
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &ОК
 dlg-button-close = &Закрыть
 dlg-button-cancel = &Отмена
@@ -775,6 +857,9 @@ enig-alert = Предупреждение OpenPGP
 enig-info = Информация OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Повторить
 dlg-button-skip = Пропуст&ить
