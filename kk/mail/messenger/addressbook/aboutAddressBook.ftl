@@ -128,22 +128,47 @@ about-addressbook-column-header-addresses2 = Адрестер
     .title = Адрестер бойынша сұрыптау
 about-addressbook-column-label-addresses2 =
     .label = Адрестер
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Адрестер
+    .title = { $title }
 about-addressbook-column-header-title2 = Лауазымы
     .title = Лауазымы бойынша сұрыптау
 about-addressbook-column-label-title2 =
     .label = Лауазымы
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Лауазымы
+    .title = { $title }
 about-addressbook-column-header-department2 = Бөлім
     .title = Бөлім бойынша сұрыптау
 about-addressbook-column-label-department2 =
     .label = Бөлім
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Бөлім
+    .title = { $title }
 about-addressbook-column-header-organization2 = Ұйым
     .title = Ұйым бойынша сұрыптау
 about-addressbook-column-label-organization2 =
     .label = Ұйым
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Ұйым
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Адрестік кітапша
     .title = Адрестік кітапша бойынша сұрыптау
 about-addressbook-column-label-addrbook2 =
     .label = Адрестік кітапша
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Адрестік кітапша
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Жазу
 about-addressbook-confirm-delete-mixed-title = Контакттар және тізімдерді өшіру
