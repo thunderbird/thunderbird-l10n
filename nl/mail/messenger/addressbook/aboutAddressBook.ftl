@@ -82,76 +82,93 @@ about-addressbook-sort-email-ascending =
     .label = Sorteren op e-mailadres (A > Z)
 about-addressbook-sort-email-descending =
     .label = Sorteren op e-mailadres (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Overschakelen naar horizontale opmaak
-about-addressbook-vertical-layout =
-    .label = Overschakelen naar verticale opmaak
 about-addressbook-table-layout =
     .label = Tabelopmaak
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Naam
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = E-mailadressen
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Telefoonnummers
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Adressen
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Titel
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Afdeling
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organisatie
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Adresboek
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Naam
     .title = Sorteren op naam
 about-addressbook-column-label-generatedname2 =
     .label = Naam
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Naam
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = E-mailadressen
     .title = Sorteren op e-mailadressen
 about-addressbook-column-label-emailaddresses2 =
     .label = E-mailadressen
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = E-mailadressen
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Schermnaam
     .title = Sorteren op schermnaam
 about-addressbook-column-label-nickname2 =
     .label = Schermnaam
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Schermnaam
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Telefoonnummers
     .title = Sorteren op telefoonnummers
 about-addressbook-column-label-phonenumbers2 =
     .label = Telefoonnummers
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Telefoonnummers
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Adressen
     .title = Sorteren op adressen
 about-addressbook-column-label-addresses2 =
     .label = Adressen
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adressen
+    .title = { $title }
 about-addressbook-column-header-title2 = Titel
     .title = Sorteren op titel
 about-addressbook-column-label-title2 =
     .label = Titel
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Titel
+    .title = { $title }
 about-addressbook-column-header-department2 = Afdeling
     .title = Sorteren op afdeling
 about-addressbook-column-label-department2 =
     .label = Afdeling
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Afdeling
+    .title = { $title }
 about-addressbook-column-header-organization2 = Organisatie
     .title = Sorteren op organisatie
 about-addressbook-column-label-organization2 =
     .label = Organisatie
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organisatie
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Adresboek
     .title = Sorteren op adresboek
 about-addressbook-column-label-addrbook2 =
     .label = Adresboek
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Adresboek
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Opstellen
 about-addressbook-confirm-delete-mixed-title = Contacten en lijsten verwijderen
@@ -181,15 +198,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Contacten verwijderen
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Weet u zeker dat u { $name } uit { $list } wilt verwijderen?
-       *[other] Weet u zeker dat u deze { $count } contacten uit { $list } wilt verwijderen?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Weet u zeker dat u { $name } uit { $list } wilt verwijderen?
@@ -207,14 +215,6 @@ about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Contact verwijderen
        *[other] Contacten verwijderen
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Weet u zeker dat u het contact { $name } wilt verwijderen?
-       *[other] Weet u zeker dat u deze { $count } contacten wilt verwijderen?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -238,15 +238,6 @@ about-addressbook-placeholder-no-search-results = Geen contacten gevonden
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } geselecteerde contacten en lijsten
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } geselecteerde contacten
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } geselecteerde lijsten
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =

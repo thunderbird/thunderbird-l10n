@@ -16,6 +16,7 @@ accounts-default = Standaard?
 identity-name = Identiteit
 send-via-email = Verzenden via e-mail
 app-basics-telemetry = Telemetry-gegevens
+app-basics-glean = Gegevens verzamelen
 app-basics-cache-use = Buffergebruik
 mail-libs-title = Bibliotheken
 libs-table-heading-library = Bibliotheek
