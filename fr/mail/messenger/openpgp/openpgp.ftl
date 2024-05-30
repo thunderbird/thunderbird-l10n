@@ -6,8 +6,6 @@ e2e-intro-description = Pour envoyer des messages chiffrés ou signés numériqu
 e2e-intro-description-more = Sélectionnez votre clé personnelle pour utiliser OpenPGP, ou votre certificat personnel pour utiliser S/MIME. Vous devez posséder la clé secrète associée à la clé personnelle ou au certificat personnel.
 # Do not translate: S/MIME, CSR, CA
 e2e-csr-intro = Pour obtenir un nouveau certificat S/MIME personnel, générez une requête de signature de certificat (CSR) et soumettez-la à une autorité de certification (AC).
-# Do not translate: S/MIME, CSR
-e2e-csr-intro-info = Sélectionnez un répertoire local et un nom de fichier pour votre fichier CSR, et répondez aux questions suivantes pour définir la force et la force de l’algorithme.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Générer une CSR
 # A label for a button that proceeds to the next step
@@ -17,8 +15,6 @@ e2e-csr-back = Retour
 # Do not translate: CSR
 e2e-csr-button =
     .label = Générer et enregistrer un fichier CSR sous…
-# Do not translate: CSR
-e2e-csr-select-title = Algorithme RSE
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = Choisir entre RSA (recommandé) ou ECC comme algorithme cryptographique pour le nouveau certificat S/MIME.
 # Do not translate: S/MIME
