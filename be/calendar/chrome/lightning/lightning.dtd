@@ -69,6 +69,8 @@
 <!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext                      "Перайсці на ўкладку календара">
 <!ENTITY lightning.imipbar.btnMore.label                                    "Больш">
 <!ENTITY lightning.imipbar.btnMore.tooltiptext                              "Націсніце, каб убачыць больш параметраў">
+<!ENTITY lightning.imipbar.btnReconfirm2.label                              "Пацвердзіць зноў">
+<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext                         "Адправіць паўторнае пацвярджэнне арганізатару">
 <!ENTITY lightning.imipbar.btnReschedule.label                              "Перазапланаваць">
 <!ENTITY lightning.imipbar.btnReschedule.tooltiptext                        "Перазапланаваць падзею">
 <!ENTITY lightning.imipbar.btnSaveCopy.label                                "Захаваць копію">
@@ -88,6 +90,7 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Змяніць ваш статус удзелу ва ўсёй серыі падзей без адпраўкі адказу арганізатару">
 
 <!-- Lightning specific keybindings -->
+<!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
 <!-- Account Central page -->
