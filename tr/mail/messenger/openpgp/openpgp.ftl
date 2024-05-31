@@ -4,6 +4,23 @@
 
 e2e-intro-description = Şifrelenmiş veya dijital olarak imzalanmış iletiler göndermek için OpenPGP veya S/MIME gibi bir şifreleme teknolojisini yapılandırmanız gerekir.
 e2e-intro-description-more = OpenPGP kullanımını etkinleştirmek için kişisel anahtarınızı veya S/MIME kullanımını etkinleştirmek için kişisel sertifikanızı seçin. Kişisel anahtar veya sertifikanın gizli anahtarına da sahip olmalısınız.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = CSR oluştur
+# A label for a button that proceeds to the next step
+e2e-csr-continue = İleri
+# A label for a button that goes back one step
+e2e-csr-back = Geri
+# Do not translate: CSR
+e2e-csr-button =
+    .label = CSR dosyası oluştur ve kaydet…
+# Do not translate: CSR
+e2e-csr-select-title = CSR algoritması
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿﻿Yeni S/MIME sertifikası için şifreleme algoritmanız olarak RSA (önerilen) veya ECC arasından seçim yapın.
+# $file A filename
+e2e-csr-success = CSR, { $file } dosyasına başarıyla kaydedildi
+# $file A filename
+e2e-csr-failure = CSR, { $file } dosyasına kaydedilemedi
 e2e-signing-description = Dijital imza sayesinde alıcılar iletinin sizin tarafınızdan gönderildiğini ve içeriğinin değiştirilmediğini doğrulayabilir. Şifrelenmiş iletiler varsayılan olarak her zaman imzalanır.
 e2e-sign-message =
     .label = Şifrelenmemiş iletileri imzala
@@ -475,6 +492,7 @@ key-man-button-export-pub-key = Yalnızca &ortak anahtarları dışa aktar
 key-man-button-refresh-all = &Tüm anahtarları yenile
 key-man-loading-keys = Anahtarlar yükleniyor, lütfen bekleyin…
 ascii-armor-file = ASCII korumalı dosyalar (*.asc)
+text-file = Metin dosyaları (*.txt)
 no-key-selected = Seçilen işlemi gerçekleştirmek için en az bir anahtar seçmelisiniz
 export-to-file = Ortak anahtarı dosyaya aktar
 export-keypair-to-file = Gizli ve ortak anahtarı dosyaya aktar
@@ -583,6 +601,9 @@ no-update-found = Çevrimiçi keşfedilmiş anahtarlara zaten sahipsiniz.
 
 ## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
 
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Hata - Anahtar çıkarma komutu başarısız oldu
 
 ## Strings used in keyRing.jsm
@@ -602,6 +623,7 @@ confirm-permissive-import = İçe aktarma başarısız oldu. İçe aktarmaya ça
 
 ## Strings used in trust.jsm
 
+help-button = Yardım
 
 ## Strings used in trust.sys.mjs
 
