@@ -19,6 +19,8 @@
 <!ENTITY lightning.menupopup.new.calendar.accesskey "К">
 
 <!-- Open menu popup in File menu -->
+<!ENTITY lightning.menupopup.open.calendar.label      "Файл календара…">
+<!ENTITY lightning.menupopup.open.calendar.accesskey  "Ф">
 
 <!-- View Menu -->
 <!ENTITY lightning.menu.view.calendar.label            "Каляндар">
@@ -28,12 +30,14 @@
 
 <!-- Events and Tasks menu -->
 <!ENTITY lightning.menu.eventtask.label                "Падзеі і задачы">
+<!ENTITY lightning.menu.eventtask.accesskey            "е">
 
 <!-- properties dialog, calendar creation wizard -->
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.email.label,
      lightning.calendarproperties.forceEmailScheduling.label)
      These strings are used in the calendar wizard and the calendar properties dialog, but are only
      displayed when setting/using a caldav calendar -->
+<!ENTITY lightning.calendarproperties.email.label                           "Электронная пошта:">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
@@ -41,6 +45,7 @@
 
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label                   "Апавяшчэнні">
+<!ENTITY lightning.calendarproperties.globalNotifications.label             "Глабальныя перавагі апавяшчэнняў…">
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label                                  "Прыняць">
@@ -58,12 +63,19 @@
 <!ENTITY lightning.imipbar.btnDelete.label                                  "Выдаліць">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Выдаліць з календара">
 <!ENTITY lightning.imipbar.btnDetails.label                                 "Падрабязнасці…">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Паказаць падрабязнасці падзеі">
 <!ENTITY lightning.imipbar.btnDoNotShowImipBar.label                        "Не паказваць мне гэтыя паведамленні">
 <!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Каляндар">
 <!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext                      "Перайсці на ўкладку календара">
+<!ENTITY lightning.imipbar.btnMore.label                                    "Больш">
+<!ENTITY lightning.imipbar.btnMore.tooltiptext                              "Націсніце, каб убачыць больш параметраў">
 <!ENTITY lightning.imipbar.btnReschedule.label                              "Перазапланаваць">
 <!ENTITY lightning.imipbar.btnReschedule.tooltiptext                        "Перазапланаваць падзею">
 <!ENTITY lightning.imipbar.btnSaveCopy.label                                "Захаваць копію">
+<!ENTITY lightning.imipbar.btnTentative.label                               "Папярэдне прыняць">
+<!ENTITY lightning.imipbar.btnTentative2.tooltiptext                        "Папярэдне прыняць запрашэнне на падзею">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences.label                    "Папярэдне прыняць усе">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext             "Папярэдне прыняць запрашэнні на ўсе падзеі ў серыі">
 <!ENTITY lightning.imipbar.btnUpdate.label                                  "Абнавіць">
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Абнавіць падзею ў календары">
 <!ENTITY lightning.imipbar.description                                      "Гэта паведамленне змяшчае запрашэнне на падзею.">
@@ -76,6 +88,7 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Змяніць ваш статус удзелу ва ўсёй серыі падзей без адпраўкі адказу арганізатару">
 
 <!-- Lightning specific keybindings -->
+<!ENTITY lightning.keys.todo.new "D">
 
 <!-- Account Central page -->
 <!ENTITY lightning.acctCentral.newCalendar.label "Стварыць новы календар">

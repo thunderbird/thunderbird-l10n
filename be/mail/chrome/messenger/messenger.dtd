@@ -784,7 +784,7 @@
 <!ENTITY zoomWindow.label "Змяніць маштаб">
 
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Параметры">
+<!ENTITY preferencesCmdMac2.label       "Перавагі">
 <!ENTITY preferencesCmdMac.commandkey   ",">
 <!ENTITY preferencesCmdMac.modifiers    "accel">
 <!ENTITY servicesMenuMac.label          "Службы">
