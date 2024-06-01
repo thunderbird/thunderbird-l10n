@@ -12,6 +12,8 @@ e2e-csr-continue = Continuar
 e2e-csr-back = Retro
 # Do not translate: CSR
 e2e-csr-select-title = Algorithmo CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Seliger inter RSA (recommendate) o ECC como tu algorithmo cryptographic pro le nove certificato S/MIME.
 e2e-signing-description = Un signatura digital permitte al destinatarios de verificar que tu es le ver expeditor del message e que le contento non ha essite alterate. Per configuration predefinite, le messages cryptate es sempre signate.
 e2e-sign-message =
     .label = Signar messages non cryptate
