@@ -37,16 +37,16 @@
 <!ENTITY moveMessage.label "Перамясціць паведамленне ў">
 <!ENTITY copyMessage.label "Капіяваць паведамленне ў">
 <!ENTITY forwardTo.label "Перанакіраваць паведамленне ў">
-<!ENTITY replyWithTemplate.label "Адказаць паводле ўзору">
+<!ENTITY replyWithTemplate.label "Адказаць па шаблоне">
 <!ENTITY markMessageRead.label "Пазначыць прачытаным">
 <!ENTITY markMessageUnread.label "Пазначыць непрачытаным">
-<!ENTITY markMessageStarred.label "Дадаць зорку">
-<!ENTITY setPriority.label "Прызначыць прыярытэт">
-<!ENTITY addTag.label "Дадаць метку да ліста">
-<!ENTITY setJunkScore.label "Усталяваць статус лухты">
-<!ENTITY deleteMessage.label "Выдаліць ліст">
-<!ENTITY deleteFromPOP.label "Выдаліць з паслугача POP">
-<!ENTITY fetchFromPOP.label "Атрымаць з паслугача POP">
+<!ENTITY markMessageStarred.label "Пазначыць">
+<!ENTITY setPriority.label "Змяніць прыярытэт на">
+<!ENTITY addTag.label "Памеціць">
+<!ENTITY setJunkScore.label "Пазначыць як спам">
+<!ENTITY deleteMessage.label "Выдаліць паведамленне">
+<!ENTITY deleteFromPOP.label "Выдаліць з POP-сервера">
+<!ENTITY fetchFromPOP.label "Загрузіць з POP-сервера">
 <!ENTITY ignoreThread.label "Ігнараваць абмеркаванне">
 <!ENTITY ignoreSubthread.label "Ігнараваць галіну абмеркавання">
 <!ENTITY watchThread.label "Сачыць за абмеркаваннем">
