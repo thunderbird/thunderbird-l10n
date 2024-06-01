@@ -16,6 +16,7 @@ accounts-default = Mặc định?
 identity-name = Danh tính
 send-via-email = Gửi qua email
 app-basics-telemetry = Dữ liệu từ xa
+app-basics-glean = Dữ liệu Glean
 app-basics-cache-use = Sử dụng bộ nhớ đệm
 mail-libs-title = Thư viện
 libs-table-heading-library = Thư viện

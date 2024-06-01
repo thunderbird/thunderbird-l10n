@@ -126,6 +126,10 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Đuổi ngườ
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: Thay đổi tên hiển thị của bạn.
 # $commandName is the command name
+command-op = { $commandName } &lt;userId&gt; [&lt;power level&gt;]: Xác định mức quyền hạn của người dùng. Nhập một giá trị số nguyên, Người dùng: 0, Người kiểm duyệt: 50 và Quản trị viên: 100. Mặc định sẽ là 50 nếu không có tham số nào được cung cấp. Yêu cầu quyền thay đổi mức quyền hạn của thành viên. Không hoạt động trên các quản trị viên khác ngoài chính bạn.
+# $commandName is the command name
+command-deop = { $commandName } &lt;userId&gt;: Đặt lại người dùng về mức quyền hạn 0 (Người dùng). Yêu cầu quyền thay đổi mức quyền hạn của thành viên. Không hoạt động trên các quản trị viên khác ngoài chính bạn.
+# $commandName is the command name
 command-leave = { $commandName }: Rời khỏi phòng hiện tại.
 # $commandName is the command name
 command-topic = { $commandName } &lt;topic&gt;: Đặt chủ đề cho phòng. Yêu cầu có quyền thay đổi chủ đề của phòng.
@@ -206,6 +210,10 @@ message-room-name-remove = { $user } đã xóa tên phòng.
 #    $user is the name of the user who changed the room name.
 #    $newRoomName is the new room name.
 message-room-name-changed = { $user } đã đổi tên phòng thành { $newRoomName }.
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user } đã thay đổi mức quyền hạn của { $powerLevelChanges }.
 #    $user is the name of the target user whose power level has been changed.
 #    $oldPowerLevel is the old power level.
 #    $newPowerLevel is the new power level.
