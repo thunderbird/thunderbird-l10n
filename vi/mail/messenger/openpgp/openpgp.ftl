@@ -4,6 +4,35 @@
 
 e2e-intro-description = Để gửi thư được mã hóa hoặc được ký điện tử, bạn cần định cấu hình công nghệ mã hóa, OpenPGP hoặc S/MIME.
 e2e-intro-description-more = Chọn khóa cá nhân của bạn để cho phép sử dụng OpenPGP hoặc chứng chỉ cá nhân của bạn để cho phép sử dụng S/MIME. Đối với khóa cá nhân hoặc chứng chỉ, bạn sở hữu khóa bí mật tương ứng.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Để có được chứng chỉ S/MIME cá nhân mới, hãy tạo Certificate Signing Request (CSR) và gửi nó cho nhà cung cấp chứng thực số (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Chọn thư mục cục bộ và tên tập tin cho CSR của bạn, và trả lời các câu hỏi sau để đặt thuật toán và độ mạnh.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Tạo CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Tiếp tục
+# A label for a button that goes back one step
+e2e-csr-back = Quay lại
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Tạo và lưu tập tin CSR thành…
+# Do not translate: CSR
+e2e-csr-select-title = Thuật thoán CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿﻿Chọn giữa RSA (được đề xuất) hoặc ECC làm thuật toán mã hóa của bạn cho chứng chỉ S/MIME mới.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Một khóa bí mật mới { $type } { $strength } sẽ được tạo ra trong cài đặt { -brand-short-name }. Quá trình này có thể mất một chút thời gian và gây ra tình trạng không phản hồi tạm thời; hãy kiên nhẫn trong bước này. Tập tin Certificate Signing Request (CSR), được lưu thành { $file }, sẽ được tạo ra trong thời gian chờ đợi.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Bao gồm địa chỉ email ({ $email }) trong CSR (được đề xuất)
+# $file A filename
+e2e-csr-success = CSR đã được lưu thành công vào { $file }
+# $file A filename
+e2e-csr-failure = Không thể lưu CSR vào tập tin { $file }
 e2e-signing-description = Chữ ký điện tử cho phép người nhận xác minh rằng thư đã được bạn gửi và nội dung của nó không bị thay đổi. Các thư được mã hóa luôn được ký theo mặc định.
 e2e-sign-message =
     .label = Ký các thư không được mã hóa
@@ -135,8 +164,6 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Sao chép khóa công khai vào khay nhớ tạm
         }
     .accesskey = P
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Xuất khóa sang tập tin
 openpgp-key-man-ctx-copy =
     .label = Sao chép
     .accesskey = C
@@ -371,11 +398,17 @@ window-locked = Cửa sổ soạn thảo bị khóa; đã hủy gửi
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Đã hủy
 keyserver-error-unknown = Đã có lỗi xảy ra
 keyserver-error-import-error = Không thể nhập khóa đã tải xuống.
 
 ## Strings in mimeWkdHandler.jsm
+
+
+## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
     Nhà cung cấp dịch vụ email của bạn đã xử lý yêu cầu tải khóa công khai của bạn lên Thư mục khóa web OpenPGP.
@@ -386,6 +419,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -394,6 +430,9 @@ converter-decrypt-body-failed =
     Bạn muốn thử lại bằng một cụm mật khẩu khác hay bạn muốn bỏ qua tin nhắn?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Bạn phải chọn một thư mục đích.
 filter-decrypt-move-warn-experimental =
@@ -411,6 +450,9 @@ filter-warn-key-not-secret =
     Nếu bạn không có khóa bí mật cho ‘{ $desc }’, bạn sẽ không thể đọc email được nữa.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Giải mã vĩnh viễn (OpenPGP)
 filter-decrypt-copy-label = Tạo bản sao được giải mã (OpenPGP)
@@ -481,6 +523,12 @@ openpgp-export-secret-fail = <b>Không thể xuất khóa bí mật đã chọn!
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Khóa { $userId } (ID khóa { $keyId }) đã bị thu hồi.
 key-ring-pub-key-expired = Khóa { $userId } (ID khóa { $keyId }) đã hết hạn.
 key-ring-no-secret-key = Dường như bạn không có khóa bí mật cho { $userId } (ID khóa { $keyId }) trên khóa của mình; bạn không thể sử dụng khóa để ký.
@@ -491,10 +539,16 @@ key-ring-enc-sub-keys-expired = Tất cả các khóa mã hóa con của khóa {
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Hình ảnh
 user-att-photo = Thuộc tính người dùng (hình ảnh JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Khóa này đã bị thu hồi trước đó.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -514,6 +568,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = Nhập (&I)
 delete-key-title = Xóa khóa OpenPGP
 key-in-use-title = Khóa OpenPGP hiện đang được sử dụng
@@ -522,14 +579,23 @@ revoke-key-in-use-description = Không thể tiếp tục! Chìa khóa bạn đ�
 
 ## Strings used in errorHandling.jsm
 
+
+## Strings used in errorHandling.sys.mjs
+
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Bạn chưa xác nhận rằng khóa có ID ‘{ $keySpec }’ là khóa cá nhân của bạn.
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Chức năng bạn đã chọn không khả dụng ở chế độ ngoại tuyến. Vui lòng truy cập trực tuyến và thử lại.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Chúng tôi không thể tìm thấy bất kỳ khóa có thể sử dụng nào phù hợp với tiêu chí tìm kiếm được chỉ định.
 no-update-found = Bạn đã có các khóa được phát hiện trực tuyến.
@@ -537,7 +603,16 @@ no-update-found = Bạn đã có các khóa được phát hiện trực tuyến
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
+
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 import-key-confirm = Nhập (các) khóa công khai được nhúng trong thư?
 fail-key-import = Lỗi - nhập khóa không thành công
@@ -547,6 +622,9 @@ file-write-failed = Không thể ghi vào tập tin { $output }
 confirm-permissive-import = Nhập không thành công. Khóa bạn đang cố gắng nhập có thể bị hỏng hoặc sử dụng các thuộc tính không xác định. Bạn có muốn cố gắng nhập các bộ phận chính xác không? Điều này có thể dẫn đến việc nhập các khóa không đầy đủ và không sử dụng được.
 
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = không rõ
 key-valid-invalid = không hợp lệ
@@ -662,6 +740,9 @@ cannot-send-enc-because-no-own-key = Không thể gửi thư đã mã hóa này 
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -683,15 +764,17 @@ attachment-pgp-key =
     Nhấp vào 'Nhập' để nhập các khóa có trong hoặc 'Xem' để xem nội dung tập tin trong cửa sổ trình duyệt
 dlg-button-view = &Xem
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-decrypted-msg-with-format-error = Thư đã được giải mã (đã khôi phục định dạng email PGP bị hỏng có thể do máy chủ Exchange cũ gây ra, do đó, kết quả có thể không hoàn hảo để đọc)
-
 ## Strings used in encryption.jsm
+
+
+## Strings used in encryption.sys.mjs
 
 not-required = Lỗi - không cần mã hóa
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Không có sẵn ảnh
 # Variables:
@@ -710,6 +793,9 @@ repeat-suffix-singular = lần nữa.
 repeat-suffix-plural = lần nữa.
 no-repeat = Cảnh báo này sẽ không được hiển thị lại.
 dlg-keep-setting = Nhớ câu trả lời của tôi và không hỏi lại tôi
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = Đóng (&C)
 dlg-button-cancel = &Hủy bỏ
@@ -720,6 +806,9 @@ enig-alert = Cảnh báo OpenPGP
 enig-info = Thông tin OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Thử lại
 dlg-button-skip = &Bỏ qua
