@@ -272,7 +272,7 @@ command-topic = { $commandName } [&lt;chủ đề mới&gt;]: Đặt chủ đề
 # $commandName (String): command name
 command-ban = { $commandName } &lt;biệt danh&gt;[&lt;tin nhắn&gt;]: Cấm ai đó vào phòng. Bạn phải là quản trị viên phòng để làm điều này.
 # $commandName (String): command name
-command-kick = { $commandName } &lt;biệt danh&gt;[&lt;tin nhắn&gt;]: Xóa ai đó khỏi phòng. Bạn phải là người kiểm duyệt phòng để làm điều này.
+command-kick = { $commandName } &lt;nick&gt;[&lt;message&gt;]: Xóa ai đó khỏi phòng. Bạn phải là người kiểm duyệt phòng để làm điều này.
 # $commandName (String): command name
 command-invite = { $commandName } &lt;jid&gt;[&lt;tin nhắn&gt;]: Mời người dùng tham gia phòng hiện tại bằng một tin nhắn tùy chọn.
 # $commandName (String): command name
