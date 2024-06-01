@@ -38,14 +38,16 @@
      These strings are used in the calendar wizard and the calendar properties dialog, but are only
      displayed when setting/using a caldav calendar -->
 <!ENTITY lightning.calendarproperties.email.label                           "Электронная пошта:">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label            "Аддаваць перавагу планаванню з дапамогай электроннай пошты з боку кліента">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Гэты параметр даступны толькі ў выпадку, калі сервер займаецца планаваннем. Яго уключэнне дазволіць вярнуцца да стандартнага планавання з дапамогай электроннай пошты.">
 
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label                   "Апавяшчэнні">
-<!ENTITY lightning.calendarproperties.globalNotifications.label             "Глабальныя перавагі апавяшчэнняў…">
+<!ENTITY lightning.calendarproperties.globalNotifications.label             "Глабальныя перавагі па апавяшчэнням…">
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label                                  "Прыняць">
