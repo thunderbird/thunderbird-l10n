@@ -38,12 +38,13 @@
      These strings are used in the calendar wizard and the calendar properties dialog, but are only
      displayed when setting/using a caldav calendar -->
 <!ENTITY lightning.calendarproperties.email.label                           "Электронная пошта:">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.label            "Аддаваць перавагу планаванню з дапамогай электроннай пошты з боку кліента">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label            "Аддаваць перавагу планаванню шляхам адпраўкі электроннай пошты з запрашэннямі з боку кліента">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Гэты параметр даступны толькі ў выпадку, калі сервер займаецца планаваннем. Яго уключэнне дазволіць вярнуцца да стандартнага планавання з дапамогай электроннай пошты.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Цяпер вы можаце ўключыць гэты параметр толькі пасля наладжвання гэтага календара ў дыялогавым акне яго ўласцівасцяў і ў выпадку, калі сервер календара самастойна займаецца адпраўкай электроннай пошты з запрашэннямі.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Гэты параметр даступны толькі ў выпадку, калі сервер самастойна займаецца адпраўкай электроннай пошты з запрашэннямі. Яго ўключэнне дазволіць вярнуцца да планавання шляхам адпраўкі электроннай пошты з запрашэннямі з боку кліента.">
 
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label                   "Апавяшчэнні">
@@ -76,6 +77,7 @@
 <!ENTITY lightning.imipbar.btnReschedule.label                              "Перазапланаваць">
 <!ENTITY lightning.imipbar.btnReschedule.tooltiptext                        "Перазапланаваць падзею">
 <!ENTITY lightning.imipbar.btnSaveCopy.label                                "Захаваць копію">
+<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext                          "Захаваць копію гэтай падзеі ў каляндар незалежна ад адпраўкі адказу арганізатару. Спіс удзельнікаў будзе ачышчаны.">
 <!ENTITY lightning.imipbar.btnTentative.label                               "Папярэдне прыняць">
 <!ENTITY lightning.imipbar.btnTentative2.tooltiptext                        "Папярэдне прыняць запрашэнне на падзею">
 <!ENTITY lightning.imipbar.btnTentativeRecurrences.label                    "Папярэдне прыняць усе">
