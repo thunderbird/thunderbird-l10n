@@ -21,6 +21,8 @@ e2e-csr-button =
 e2e-csr-select-title = Thuật thoán CSR
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = ﻿﻿Chọn giữa RSA (được đề xuất) hoặc ECC làm thuật toán mã hóa của bạn cho chứng chỉ S/MIME mới.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Chọn độ mạnh mong muốn của cryptographic của bạn (nhanh hơn với số thấp hơn hoặc bảo mật tốt hơn với số cao hơn) cho chứng chỉ S/MIME mới, hoặc giữ cài đặt mặc định.
 # $type is a cryptographic algorithm like RSA or ECC
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
@@ -498,6 +500,7 @@ key-man-button-export-sec-key = Xuất &khóa bí mật
 key-man-button-export-pub-key = Chỉ xuất khóa &công khai
 key-man-button-refresh-all = &Làm mới tất cả các khóa
 key-man-loading-keys = Đang tải khóa, vui lòng đợi…
+text-file = Tập tin văn bản (*.txt)
 no-key-selected = Bạn nên chọn ít nhất một khóa để thực hiện thao tác đã chọn
 export-to-file = Xuất khóa công khai vào tập tin
 export-keypair-to-file = Xuất khóa bí mật và khóa công khai thành tập tin
@@ -623,6 +626,10 @@ confirm-permissive-import = Nhập không thành công. Khóa bạn đang cố g
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Một số khóa bí mật đã nhập có một vài tính năng không được hỗ trợ. Nếu bạn sử dụng khóa đó làm khóa cá nhân của mình, những người khác có thể gửi cho bạn email hoặc khóa công khai ở định dạng không tương thích. Điều này ảnh hưởng đến các khóa bí mật đã nhập có dấu vân tay sau: { $fingerprints }.
+help-button = Trợ giúp
 
 ## Strings used in trust.sys.mjs
 
