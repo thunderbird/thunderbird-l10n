@@ -4,6 +4,7 @@
 
 <!ENTITY window.title "Правілы фільтравання">
 <!ENTITY filterName.label "Імя фільтру:">
+<!ENTITY filterName.accesskey "м">
 
 <!ENTITY junk.label "Спам">
 <!ENTITY notJunk.label "Не спам">
@@ -15,27 +16,27 @@
 <!ENTITY highestPriorityCmd.label "Найвышэйшы">
 
 <!ENTITY contextDesc.label "Ужываць фільтр пры:">
-<!ENTITY contextIncomingMail.label "Атрыманне новай пошты:">
+<!ENTITY contextIncomingMail.label "Атрыманні новай пошты:">
 <!ENTITY contextIncomingMail.accesskey "А">
-<!ENTITY contextManual.label "Ручным выкананні">
+<!ENTITY contextManual.label "Ручным запусканні">
 <!ENTITY contextManual.accesskey "Р">
 <!ENTITY contextBeforeCls.label "Фільтраваць перад аналізам на спам">
 <!ENTITY contextAfterCls.label "Фільтраваць пасля аналізу на спам">
 <!ENTITY contextOutgoing.label "Пасля адпраўкі">
 <!ENTITY contextOutgoing.accesskey "П">
-<!ENTITY contextArchive.label "Архіваванне">
+<!ENTITY contextArchive.label "Архіваванні">
 <!ENTITY contextArchive.accesskey "А">
 
-<!ENTITY filterActionDesc.label "Выканаць гэтыя дзеянні:">
+<!ENTITY filterActionDesc.label "Выконваць гэтыя дзеянні:">
 <!ENTITY filterActionDesc.accesskey "В">
 
-<!ENTITY filterActionOrderWarning.label "Заўвага: дзеянні сіта будуць выконвацца ў адрозным парадку.">
-<!ENTITY filterActionOrder.label "Пабачыць парадак выканання">
+<!ENTITY filterActionOrderWarning.label "Заўвага: дзеянні фільтру будуць выконвацца ў іншым парадку.">
+<!ENTITY filterActionOrder.label "Праглядзець парадак выканання">
 
 <!-- New Style Filter Rule Actions -->
-<!ENTITY moveMessage.label "Рухаць ліст у">
-<!ENTITY copyMessage.label "Капіяваць ліст у">
-<!ENTITY forwardTo.label "Пераслаць ліст да">
+<!ENTITY moveMessage.label "Перамясціць паведамленне ў">
+<!ENTITY copyMessage.label "Капіяваць паведамленне ў">
+<!ENTITY forwardTo.label "Перанакіраваць паведамленне ў">
 <!ENTITY replyWithTemplate.label "Адказаць паводле ўзору">
 <!ENTITY markMessageRead.label "Пазначыць прачытаным">
 <!ENTITY markMessageUnread.label "Пазначыць непрачытаным">
