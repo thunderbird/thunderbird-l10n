@@ -155,6 +155,11 @@ about-addressbook-column-header-organization2 = 组织
     .title = 按组织排序
 about-addressbook-column-label-organization2 =
     .label = 组织
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = 工作单位
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = 通讯录
     .title = 按通讯录排序
 about-addressbook-column-label-addrbook2 =
