@@ -21,6 +21,20 @@ e2e-csr-button =
 e2e-csr-select-title = Algoritmo CSR
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = Elija entre RSA (recomendado) o ECC como algoritmo criptográfico para el nuevo certificado S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Elija la intensidad de cifrado deseada (más rápida con números más bajos o más segura con números más altos) para el nuevo certificado S/MIME o mantenga la configuración predeterminada.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Se generará una nueva clave secreta { $type } { $strength } en la configuración de { -brand-short-name }. Este proceso puede llevar algún tiempo y causar una falta temporal de respuesta; tenga paciencia durante este paso. Mientras tanto, se creará el archivo de solicitud de firma de certificado (CSR), guardado como { $file }.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Incluir la dirección de correo electrónico ({ $email }) en el CSR (recomendado)
+# $file A filename
+e2e-csr-success = El CSR se guardó correctamente en { $file }
+# $file A filename
+e2e-csr-failure = No se ha podido guardar el CSR en el archivo { $file }
 e2e-signing-description = Una firma digital permite a los destinatarios verificar que el mensaje fue enviado por usted y que su contenido no ha sido cambiado. Los mensajes cifrados siempre se firman de manera predeterminada.
 e2e-sign-message =
     .label = Firmar mensajes sin cifrar
@@ -515,6 +529,7 @@ key-man-button-export-pub-key = Exportar solo claves públicas
 key-man-button-refresh-all = &Actualizar todas las claves
 key-man-loading-keys = Cargando claves, espere ...
 ascii-armor-file = Archivos blindados ASCII (*.asc)
+text-file = Archivos de texto (*.txt)
 no-key-selected = Debe seleccionar al menos una tecla para realizar la operación seleccionada
 export-to-file = Exportar clave pública a un archivo
 export-keypair-to-file = Exportar clave secreta y pública a un archivo
@@ -659,6 +674,10 @@ confirm-permissive-import = La importación falló. La clave que está intentand
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Algunas de las claves secretas importadas indican una funcionalidad no compatible. Si utiliza una clave de este tipo como su clave personal, es posible que sus corresponsales le envíen correos electrónicos o claves públicas en un formato incompatible. Esto afecta a las claves secretas importadas con las siguientes huellas digitales: { $fingerprints }.
+help-button = Ayuda
 
 ## Strings used in trust.sys.mjs
 
