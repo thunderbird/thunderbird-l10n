@@ -96,22 +96,47 @@ about-addressbook-column-header-emailaddresses2 = E-posta adresleri
     .title = E-posta adreslerine göre sırala
 about-addressbook-column-label-emailaddresses2 =
     .label = E-posta adresleri
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = E-posta adresleri
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Takma ad
     .title = Takma ada göre sırala
 about-addressbook-column-label-nickname2 =
     .label = Takma ad
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Takma ad
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Telefon numaraları
     .title = Telefon numaralarına göre sırala
 about-addressbook-column-label-phonenumbers2 =
     .label = Telefon numaraları
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Telefon numaraları
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Adresler
     .title = Adrese göre sırala
 about-addressbook-column-label-addresses2 =
     .label = Adresler
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adresler
+    .title = { $title }
 about-addressbook-column-header-title2 = Unvan
     .title = Unvana göre sırala
 about-addressbook-column-label-title2 =
     .label = Unvan
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Unvan
+    .title = { $title }
 about-addressbook-column-header-department2 = Departman
     .title = Departmana göre sırala
 about-addressbook-column-label-department2 =

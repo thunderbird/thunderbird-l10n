@@ -17,6 +17,9 @@ e2e-csr-button =
 e2e-csr-select-title = CSR algoritması
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = ﻿﻿Yeni S/MIME sertifikası için şifreleme algoritmanız olarak RSA (önerilen) veya ECC arasından seçim yapın.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = E-posta adresini ({ $email }) CSR içine dahil et (önerilir)
 # $file A filename
 e2e-csr-success = CSR, { $file } dosyasına başarıyla kaydedildi
 # $file A filename

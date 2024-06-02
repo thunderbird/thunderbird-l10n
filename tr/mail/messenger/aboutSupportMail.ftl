@@ -16,6 +16,7 @@ accounts-default = Varsayılan mı?
 identity-name = Kimlik
 send-via-email = E-posta ile gönder
 app-basics-telemetry = Telemetri verileri
+app-basics-glean = Glean verileri
 app-basics-cache-use = Önbellek kullanımı
 mail-libs-title = Kitaplıklar
 libs-table-heading-library = Kitaplık
