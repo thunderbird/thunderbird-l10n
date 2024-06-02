@@ -140,7 +140,7 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: &lt;userId&gt; 
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: 自分の表示名を &lt;display_name&gt; に変更します。
 # $commandName is the command name
-command-op = { $commandName } &lt;userId&gt; [&lt;power level&gt;]: &lt;userId&gt; のユーザーの権限レベルを設定します。&lt;power level&gt; には整数値を指定します (ユーザー: 0、モデレーター: 50、管理者: 100)。値を指定しない場合のデフォルト値は 50 になります。メンバーの権限レベルを変更する権限が必要です。自分以外の管理者に対して実行することはできません。
+command-op = { $commandName } &lt;userId&gt; [&lt;power level&gt;]: &lt;userId&gt; のユーザーの権限レベルを設定します。&lt;power level&gt; には整数値を指定します (ユーザー: 0、モデレーター: 50、管理者: 100)。値を指定しない場合のデフォルトは 50 になります。メンバーの権限レベルを変更する権限が必要です。自分以外の管理者に対して実行することはできません。
 # $commandName is the command name
 command-deop = { $commandName } &lt;userId&gt;: &lt;userId&gt; のユーザーの権限レベルを 0 (ユーザー) にリセットします。メンバーの権限レベルを変更する権限が必要です。自分以外の管理者に対して実行することはできません。
 # $commandName is the command name
@@ -150,7 +150,7 @@ command-topic = { $commandName } &lt;topic&gt;: 部屋のトピックを &lt;top
 # $commandName is the command name
 command-unban = { $commandName } &lt;userId&gt;: &lt;userId&gt; のユーザーの立ち入り禁止を解除します。ユーザーを立ち入り禁止にする権限が必要です。
 # $commandName is the command name
-command-visibility = { $commandName } [&lt;visibility&gt;]: 現在のホームサーバーの部屋ディレクトリーにおける部屋の可視属性を設定します。&lt;visibility&gt; には整数値を指定します (非公開: 0、公開: 1)。値を指定しない場合のデフォルト値は非公開 (0) になります。部屋の表示属性を変更する権限が必要です。
+command-visibility = { $commandName } [&lt;visibility&gt;]: 現在のホームサーバーの部屋ディレクトリーにおける部屋の可視属性を設定します。&lt;visibility&gt; には整数値を指定します (非公開: 0、公開: 1)。値を指定しない場合のデフォルトは非公開 (0) になります。部屋の表示属性を変更する権限が必要です。
 # $commandName is the command name
 command-guest = { $commandName } &lt;guest access&gt; &lt;history visibility&gt;: ゲストユーザーについて、現在の部屋へのアクセス許可と履歴の表示を設定します。2 個の整数値のうち、1 番目の &lt;guest access&gt; はゲストアクセス (不許可: 0、許可: 1)、2 番目の &lt;history visibility&gt; は履歴の表示 (不可視: 0、可視:1) を指定します。履歴の表示を変更する権限が必要です。
 # $commandName is the command name

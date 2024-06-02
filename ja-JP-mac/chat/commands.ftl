@@ -18,7 +18,7 @@ help-help-string = help &lt;コマンド名&gt;: &lt;コマンド名&gt; コマ�
 # LOCALIZATION NOTE (status-command):
 #  $command (String): is replaced with a status command name (one of "back-key-key", "away-key-key", "busy-key-key", "dnd-key-key", or "offline-key-key").
 #  $status (String): is replaced with the localized version of that status type (one of the 5 strings below).
-status-command = { $command } &lt;状態メッセージ&gt;: 現在の状態を “{ $status }” にセットし、任意の状態メッセージを送信します。
+status-command = { $command } &lt;状態メッセージ&gt;: 現在の状態を [{ $status }] にセットし、任意の状態メッセージを送信します。
 back-key-key = 在席中
 away-key-key = 離席中
 busy-key-key = 取り込み中
