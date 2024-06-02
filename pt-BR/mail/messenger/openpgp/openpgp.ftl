@@ -4,6 +4,10 @@
 
 e2e-intro-description = Para enviar mensagens criptografadas ou assinadas digitalmente, você precisa configurar uma tecnologia de criptografia, pode ser OpenPGP ou S/MIME.
 e2e-intro-description-more = Selecione sua chave pessoal para ativar o uso de OpenPGP, ou seu certificado pessoal para ativar o uso de S/MIME. Para uma chave pessoal ou certificado, você tem a chave secreta correspondente.
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Avançar
+# A label for a button that goes back one step
+e2e-csr-back = Voltar
 e2e-signing-description = Uma assinatura digital permite que os destinatários verifiquem se a mensagem foi enviada por você e o conteúdo não foi alterado. Mensagens criptografadas por padrão são sempre assinadas.
 e2e-sign-message =
     .label = Assinar mensagens não criptografadas
@@ -391,6 +395,9 @@ window-locked = A janela de edição está bloqueada; envio cancelado
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Interrompido
 keyserver-error-unknown = Ocorreu um erro desconhecido
 keyserver-error-server-error = O servidor de chaves relatou um erro.
@@ -402,6 +409,9 @@ keyserver-error-unsupported = O servidor de chaves não é suportado.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Seu provedor de email processou sua solicitação de enviar sua chave pública para o OpenPGP Web Key Directory.
     Confirme para concluir a publicação de sua chave pública.
@@ -411,6 +421,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -419,6 +432,9 @@ converter-decrypt-body-failed =
     Quer tentar novamente com outra senha, ou quer ignorar a mensagem?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Você deve selecionar uma pasta destino.
 filter-decrypt-move-warn-experimental =
@@ -436,6 +452,9 @@ filter-warn-key-not-secret =
     Se você não tiver a chave secreta de '{ $desc }', não poderá mais ler os emails.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Descriptografar permanentemente (OpenPGP)
 filter-decrypt-copy-label = Criar cópia descriptografada (OpenPGP)
@@ -483,6 +502,7 @@ key-man-button-export-pub-key = Exportar só chaves &públicas
 key-man-button-refresh-all = &Atualizar todas as chaves
 key-man-loading-keys = Carregando chaves, aguarde…
 ascii-armor-file = Arquivos ASCII blindados (*.asc)
+text-file = Arquivos de texto (*.txt)
 no-key-selected = Você deve selecionar pelo menos uma chave para executar a operação selecionada
 export-to-file = Exportar chave pública para arquivo
 export-keypair-to-file = Exportar chaves secretas e públicas para arquivo
@@ -510,6 +530,12 @@ openpgp-export-secret-fail = <b>Não foi possível exportar a chave secreta sele
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = A chave { $userId } (ID da chave { $keyId }) foi revogada.
 key-ring-pub-key-expired = A chave { $userId } (ID da chave { $keyId }) está vencida.
 key-ring-no-secret-key = Parece que você não tem a chave secreta de { $userId } (ID da chave { $keyId }) em seu chaveiro. Você não pode usar a chave para assinar.
@@ -522,10 +548,16 @@ key-ring-enc-sub-keys-expired = Todas as subchaves de criptografia da chave { $u
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Foto
 user-att-photo = Atributo do usuário (imagem JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Esta chave já foi revogada.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -549,6 +581,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Importar
 delete-key-title = Excluir chave OpenPGP
 delete-external-key-title = Remover a chave GnuPG externa
@@ -558,6 +593,9 @@ delete-key-in-use-description = Não foi possível prosseguir! A chave que você
 revoke-key-in-use-description = Não foi possível prosseguir! A chave que você selecionou para ser revogada está sendo usada no momento por esta identidade. Selecione outra chave ou não selecione nenhuma e tente novamente.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -569,18 +607,33 @@ key-error-not-accepted-as-personal = Você não confirmou se a chave com ID '{ $
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = A função que você selecionou não está disponível no modo offline. Fique online e tente novamente.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Não foi possível encontrar nenhuma chave usável que corresponda aos critérios de pesquisa especificados.
 no-update-found = Você já tem as chaves que foram descobertas online.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Erro - Falha no comando de extração de chave
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Erro - Recebimento de chave cancelado pelo usuário
 not-first-block = Erro - Primeiro bloco OpenPGP não é bloco de chave pública
@@ -593,6 +646,10 @@ no-pgp-block = Erro - Não foi encontrado nenhum bloco blindado válido de dados
 confirm-permissive-import = Falha na importação. A chave que você está tentando importar pode estar corrompida ou usar atributos desconhecidos. Quer tentar importar as partes que estão corretas? Isso pode resultar na importação de chaves incompletas e inutilizáveis.
 
 ## Strings used in trust.jsm
+
+help-button = Ajuda
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = desconhecida
 key-valid-invalid = inválida
@@ -714,6 +771,9 @@ cannot-send-enc-because-no-own-key = Não é possível enviar esta mensagem crip
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -737,9 +797,15 @@ dlg-button-view = E&xibir
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Erro - nenhuma criptografia necessária
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Nenhuma foto disponível
 # Variables:
@@ -758,6 +824,9 @@ repeat-suffix-singular = vez mais.
 repeat-suffix-plural = vezes mais.
 no-repeat = Este alerta não será exibido novamente.
 dlg-keep-setting = Lembrar minha resposta e não perguntar novamente
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Fechar
 dlg-button-cancel = &Cancelar
@@ -768,6 +837,9 @@ enig-alert = Alerta OpenPGP
 enig-info = Informação OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Tentar novamente
 dlg-button-skip = &Ignorar
