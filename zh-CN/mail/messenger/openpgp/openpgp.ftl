@@ -23,6 +23,11 @@ e2e-csr-select-title = CSR 算法
 e2e-csr-select-alg = 选择 RSA（推荐）或 ECC 作为您新 S/MIME 证书的加密算法。
 # Do not translate: S/MIME
 e2e-csr-select-strength = 选择您新 S/MIME 证书的加密强度（数字越小速度越快，数字越大越安全）或保持默认值。
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = 新的 { $type } { $strength } 密钥将在 { -brand-short-name } 的设置中生成。该过程可能需要一些时间，并造成程序短暂无响应，请耐心等待此步骤完成。证书签名请求（CSR）文件也将同时创建并另存为 { $file }。
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = 在 CSR 中包含电子邮件地址 { $email }（推荐）
