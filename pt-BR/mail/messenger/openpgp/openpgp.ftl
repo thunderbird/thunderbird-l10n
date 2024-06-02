@@ -4,10 +4,25 @@
 
 e2e-intro-description = Para enviar mensagens criptografadas ou assinadas digitalmente, você precisa configurar uma tecnologia de criptografia, pode ser OpenPGP ou S/MIME.
 e2e-intro-description-more = Selecione sua chave pessoal para ativar o uso de OpenPGP, ou seu certificado pessoal para ativar o uso de S/MIME. Para uma chave pessoal ou certificado, você tem a chave secreta correspondente.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Para obter um novo certificado S/MIME pessoal, gere uma requisição de assinatura de certificado (CSR) e envie para uma autoridade certificadora (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Selecione um diretório local e um nome de arquivo para seu arquivo CSR e responda as seguintes perguntas para definir o algoritmo e a força.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Gerar CSR
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Avançar
 # A label for a button that goes back one step
 e2e-csr-back = Voltar
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Gerar e salvar um arquivo CSR como…
+# Do not translate: CSR
+e2e-csr-select-title = Algoritmo CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿﻿Escolha RSA (recomendado) ou ECC como algoritmo de criptografia do novo certificado S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Escolha a força criptográfica desejada (mais rápido com números menores ou melhor segurança com números maiores) do novo certificado S/MIME, ou mantenha a configuração padrão.
 e2e-signing-description = Uma assinatura digital permite que os destinatários verifiquem se a mensagem foi enviada por você e o conteúdo não foi alterado. Mensagens criptografadas por padrão são sempre assinadas.
 e2e-sign-message =
     .label = Assinar mensagens não criptografadas
