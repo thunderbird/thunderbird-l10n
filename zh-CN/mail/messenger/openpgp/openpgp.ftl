@@ -12,6 +12,8 @@ e2e-csr-intro-info = 请为您的 CSR 文件选择本地目录和文件名，并
 e2e-csr-title = 生成 CSR
 # A label for a button that proceeds to the next step
 e2e-csr-continue = 继续
+# A label for a button that goes back one step
+e2e-csr-back = 后退
 # Do not translate: CSR
 e2e-csr-button =
     .label = 生成 CSR 文件并另存为…
@@ -627,6 +629,9 @@ confirm-permissive-import = 导入失败。您试图导入的密钥可能已损�
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = 某些导入的密钥声明了一项不支持的功能。若您将其作为私钥，其他人可能会向您发送格式不兼容的电子邮件或公钥。受影响的已导入密钥指纹如下：{ $fingerprints }。
 help-button = 帮助
 
 ## Strings used in trust.sys.mjs
