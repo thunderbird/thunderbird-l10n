@@ -100,6 +100,11 @@ about-addressbook-column-header-nickname2 = 昵称
     .title = 按昵称排序
 about-addressbook-column-label-nickname2 =
     .label = 昵称
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = 昵称
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = 电话号码
     .title = 按电话号码排序
 about-addressbook-column-label-phonenumbers2 =
@@ -116,6 +121,11 @@ about-addressbook-column-header-department2 = 部门
     .title = 按部门排序
 about-addressbook-column-label-department2 =
     .label = 部门
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = 部门
+    .title = { $title }
 about-addressbook-column-header-organization2 = 组织
     .title = 按组织排序
 about-addressbook-column-label-organization2 =
