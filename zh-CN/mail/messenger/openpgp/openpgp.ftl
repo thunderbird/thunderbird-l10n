@@ -4,6 +4,10 @@
 
 e2e-intro-description = 若要发送经加密或数字签名的消息，需配置 OpenPGP 或 S/MIME 加密技术。
 e2e-intro-description-more = 请选择您要用于 OpenPGP 的个人密钥，或用于 S/MIME 的个人证书。无论是个人密钥或是证书，您都会有对应的私钥。
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = 若要获取新的个人 S/MIME 证书，请生成一份证书签名请求（CSR），并向证书授权机构（CA）提交。
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = 请为您的 CSR 文件选择本地目录和文件名，并回答以下问题以设置算法和强度。
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = 生成 CSR
 # A label for a button that proceeds to the next step
@@ -15,6 +19,15 @@ e2e-csr-button =
 e2e-csr-select-title = CSR 算法
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = 选择 RSA（推荐）或 ECC 作为您新 S/MIME 证书的加密算法。
+# Do not translate: S/MIME
+e2e-csr-select-strength = 选择您新 S/MIME 证书的加密强度（数字越小速度越快，数字越大越安全）或保持默认值。
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = 在 CSR 中包含电子邮件地址 { $email }（推荐）
+# $file A filename
+e2e-csr-success = 已成功将 CSR 保存到 { $file }
+# $file A filename
+e2e-csr-failure = 无法将 CSR 保存为文件 { $file }
 e2e-signing-description = 数字签名可让收件人确认消息是您本人发送的，且内容未经窜改。加密消息默认启用数字签名。
 e2e-sign-message =
     .label = 签名未加密消息
@@ -478,6 +491,7 @@ key-man-button-export-pub-key = 只导出公钥(&P)
 key-man-button-refresh-all = 刷新所有密钥(&R)
 key-man-loading-keys = 正在加载密钥，请稍候...
 ascii-armor-file = ASCII 格式文件（*.asc）
+text-file = 文本文件（*.txt）
 no-key-selected = 您需至少选择一个密钥，才能执行所选操作
 export-to-file = 将公钥导出为文件
 export-keypair-to-file = 将私钥和公钥导出为文件
