@@ -101,6 +101,11 @@ about-addressbook-column-header-emailaddresses2 = 电子邮件地址
     .title = 按电子邮件地址排序
 about-addressbook-column-label-emailaddresses2 =
     .label = 电子邮件地址
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = 邮箱地址
+    .title = { $title }
 about-addressbook-column-header-nickname2 = 昵称
     .title = 按昵称排序
 about-addressbook-column-label-nickname2 =
@@ -114,6 +119,11 @@ about-addressbook-column-header-phonenumbers2 = 电话号码
     .title = 按电话号码排序
 about-addressbook-column-label-phonenumbers2 =
     .label = 电话号码
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = 手机号码
+    .title = { $title }
 about-addressbook-column-header-addresses2 = 地址
     .title = 按地址排序
 about-addressbook-column-label-addresses2 =
