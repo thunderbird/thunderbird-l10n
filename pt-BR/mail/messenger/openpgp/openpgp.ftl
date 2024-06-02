@@ -23,6 +23,18 @@ e2e-csr-select-title = Algoritmo CSR
 e2e-csr-select-alg = ﻿﻿Escolha RSA (recomendado) ou ECC como algoritmo de criptografia do novo certificado S/MIME.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Escolha a força criptográfica desejada (mais rápido com números menores ou melhor segurança com números maiores) do novo certificado S/MIME, ou mantenha a configuração padrão.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Uma nova chave secreta { $type } { $strongth } será gerada nas configurações do { -brand-short-name }. Este processo pode demorar um pouco e fazer o aplicativa ficar temporariamente congelado, seja paciente durante esta etapa. Enquanto isso, será criado o arquivo de requisição de assinatura de certificado (CSR), salvo como { $file }.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Incluir endereço de email ({ $email }) no CSR (recomendado)
+# $file A filename
+e2e-csr-success = CSR salvo com sucesso em { $file }
+# $file A filename
+e2e-csr-failure = Não foi possível salvar o CSR no arquivo { $file }
 e2e-signing-description = Uma assinatura digital permite que os destinatários verifiquem se a mensagem foi enviada por você e o conteúdo não foi alterado. Mensagens criptografadas por padrão são sempre assinadas.
 e2e-sign-message =
     .label = Assinar mensagens não criptografadas
