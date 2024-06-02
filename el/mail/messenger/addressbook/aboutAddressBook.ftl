@@ -92,10 +92,20 @@ about-addressbook-column-header-generatedname2 = Όνομα
     .title = Ταξινόμηση κατά όνομα
 about-addressbook-column-label-generatedname2 =
     .label = Όνομα
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Όνομα
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Διευθύνσεις email
     .title = Ταξινόμηση κατά διευθύνσεις email
 about-addressbook-column-label-emailaddresses2 =
     .label = Διευθύνσεις email
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Διευθύνσεις email
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Ψευδώνυμο
     .title = Ταξινόμηση κατά ψευδώνυμο
 about-addressbook-column-label-nickname2 =

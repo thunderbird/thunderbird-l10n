@@ -4,12 +4,21 @@
 
 e2e-intro-description = Για να στείλετε κρυπτογραφημένα ή ψηφιακά υπογεγραμμένα μηνύματα, πρέπει να ρυθμίσετε μια τεχνολογία κρυπτογράφησης, είτε OpenPGP είτε S/MIME.
 e2e-intro-description-more = Επιλέξτε το προσωπικό σας κλειδί για να ενεργοποιήσετε τη χρήση του OpenPGP ή το προσωπικό σας πιστοποιητικό για να ενεργοποιήσετε τη χρήση του S/MIME. Για ένα προσωπικό κλειδί ή πιστοποιητικό έχετε και το αντίστοιχο μυστικό κλειδί.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Δημιουργία CSR
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Συνέχεια
 # A label for a button that goes back one step
 e2e-csr-back = Πίσω
 # Do not translate: CSR
+e2e-csr-button =
+    .label = Δημιουργία και αποθήκευση αρχείου CSR ως…
+# Do not translate: CSR
 e2e-csr-select-title = Αλγόριθμος CSR
+# $file A filename
+e2e-csr-success = Το CSR αποθηκεύτηκε επιτυχώς στο «{ $file }»
+# $file A filename
+e2e-csr-failure = Δεν ήταν δυνατή η αποθήκευση του CSR στο αρχείο «{ $file }»
 e2e-signing-description = Μια ψηφιακή υπογραφή επιτρέπει στους παραλήπτες να επαληθεύσουν ότι το μήνυμα εστάλη από εσάς και ότι το περιεχόμενό του δεν έχει αλλάξει. Τα κρυπτογραφημένα μηνύματα υπογράφονται πάντα από προεπιλογή.
 e2e-sign-message =
     .label = Υπογραφή μη κρυπτογραφημένων μηνυμάτων
@@ -504,6 +513,7 @@ key-man-button-export-pub-key = Εξαγωγή μόνο &δημόσιων κλε
 key-man-button-refresh-all = &Ανανέωση όλων των κλειδιών
 key-man-loading-keys = Φόρτωση κλειδιών, παρακαλώ περιμένετε…
 ascii-armor-file = Θωρακισμένα αρχεία ASCII (*.asc)
+text-file = Αρχεία κειμένου (*.txt)
 no-key-selected = Πρέπει να επιλέξετε τουλάχιστον ένα πλήκτρο για να εκτελέσετε την επιλεγμένη λειτουργία
 export-to-file = Εξαγωγή δημόσιου κλειδιού σε αρχείο
 export-keypair-to-file = Εξαγωγή μυστικού και δημόσιου κλειδιού σε αρχείο
@@ -648,6 +658,7 @@ confirm-permissive-import = Η εισαγωγή απέτυχε. Το κλειδ�
 
 ## Strings used in trust.jsm
 
+help-button = Βοήθεια
 
 ## Strings used in trust.sys.mjs
 
