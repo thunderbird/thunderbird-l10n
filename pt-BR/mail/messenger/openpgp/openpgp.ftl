@@ -674,6 +674,9 @@ confirm-permissive-import = Falha na importação. A chave que você está tenta
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Algumas chaves secretas importadas informam um recurso não suportado. Se você usar uma dessas chaves como chave pessoal, os correspondentes podem enviar para você emails ou chaves públicas em formato incompatível. Isto afeta chaves secretas importadas com as seguintes impressões digitais: { $fingerprints }.
 help-button = Ajuda
 
 ## Strings used in trust.sys.mjs
