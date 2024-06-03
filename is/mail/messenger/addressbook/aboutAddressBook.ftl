@@ -82,76 +82,93 @@ about-addressbook-sort-email-ascending =
     .label = Raða eftir tölvupóstfangi (A > Ö)
 about-addressbook-sort-email-descending =
     .label = Raða eftir tölvupóstfangi (Ö > A)
-about-addressbook-horizontal-layout =
-    .label = Skipta yfir í lárétta framsetningu
-about-addressbook-vertical-layout =
-    .label = Skipta yfir í lóðrétta framsetningu
 about-addressbook-table-layout =
     .label = Frametning töflu
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Nafn
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Tölvupóstfang
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Símanúmer
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Heimilisföng
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Titill
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Deild
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Fyrirtæki/Stofnun
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Nafnaskrá
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Nafn
     .title = Raða eftir nafni
 about-addressbook-column-label-generatedname2 =
     .label = Nafn
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Nafn
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Tölvupóstfang
     .title = Raða eftir tölvupóstfangi
 about-addressbook-column-label-emailaddresses2 =
     .label = Tölvupóstfang
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Tölvupóstföng
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Gælunafn
     .title = Raða eftir gælunafni
 about-addressbook-column-label-nickname2 =
     .label = Gælunafn
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Gælunafn
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Símanúmer
     .title = Raða eftir símanúmeri
 about-addressbook-column-label-phonenumbers2 =
     .label = Símanúmer
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Símanúmer
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Heimilisföng
     .title = Raða eftir heimilisföngum
 about-addressbook-column-label-addresses2 =
     .label = Heimilisföng
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Heimilisföng
+    .title = { $title }
 about-addressbook-column-header-title2 = Titill
     .title = Raða eftir titli
 about-addressbook-column-label-title2 =
     .label = Titill
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Titill
+    .title = { $title }
 about-addressbook-column-header-department2 = Deild
     .title = Raða eftir deildum
 about-addressbook-column-label-department2 =
     .label = Deild
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Deild
+    .title = { $title }
 about-addressbook-column-header-organization2 = Fyrirtæki/Stofnun
     .title = Raða eftir stofnun/fyrirtæki
 about-addressbook-column-label-organization2 =
     .label = Fyrirtæki/Stofnun
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Fyrirtæki/Stofnun
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Nafnaskrá
     .title = Raða eftir nafnaskrá
 about-addressbook-column-label-addrbook2 =
     .label = Nafnaskrá
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Nafnaskrá
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Skrifa
 about-addressbook-confirm-delete-mixed-title = Eyða tengiliðum og listum
@@ -181,15 +198,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Fjarlægja tengiliði
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Ertu viss um að þú viljir eyða { $name } úr { $list }?
-       *[other] Ertu viss um að þú viljir eyða þessum { $count } tengiliðum úr { $list }?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Ertu viss um að þú viljir fjarlægja { $name } úr { $list }?
@@ -207,14 +215,6 @@ about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Eyða tengilið
        *[other] Eyða tengiliðum
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Ertu viss um að þú viljir eyða tengiliðnum { $name }?
-       *[other] Ertu viss um að þú viljir eyða þessum { $count } tengiliðum?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -238,15 +238,6 @@ about-addressbook-placeholder-no-search-results = Engir tengiliðir fundust
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } valdir tengiliðir og listar
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } valdir tengiliðir
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } valdir listar
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =

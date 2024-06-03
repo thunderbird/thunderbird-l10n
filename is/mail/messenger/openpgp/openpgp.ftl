@@ -4,6 +4,10 @@
 
 e2e-intro-description = Til að senda dulrituð eða stafrænt undirrituð skilaboð þarftu að setja upp og stilla dulritunartækni, annað hvort OpenPGP eða S/MIME.
 e2e-intro-description-more = Veldu persónulega lykilinn þinn til að virkja notkun OpenPGP, eða persónulega skilríkið þitt til að virkja notkun S/MIME. Fyrir persónulegan dreifilykil eða skilríki átt þú að eiga samsvarandi leynilegan einkalykil.
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Halda áfram
+# A label for a button that goes back one step
+e2e-csr-back = Til baka
 e2e-signing-description = Stafræn undirritun gerir viðtakendum kleift að staðfesta að skilaboðin hafi verið send af þér og að efni þeirra hafi ekki verið breytt. Dulrituð skilaboð eru sjálfgefið alltaf undirrituð.
 e2e-sign-message =
     .label = Undirrita ódulrituð skilaboð
@@ -391,6 +395,9 @@ window-locked = Skrifgluggi er læstur; hætt við sendingu
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Hætt við
 keyserver-error-unknown = Óþekkt villa kom upp
 keyserver-error-server-error = Lyklaþjónninn tilkynnti villu.
@@ -402,6 +409,9 @@ keyserver-error-unsupported = Lyklaþjónninn er ekki studdur.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Tölvupóstveitan þín afgreiddi beiðni þína um að senda opinbera dreifilykilinn þinn inn í OpenPGP veflyklaskrána.
     Staðfestu til að ganga frá opinberri birtingu dreifilykilsins.
@@ -411,6 +421,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -419,6 +432,9 @@ converter-decrypt-body-failed =
     Viltu reyna aftur með öðru aðgangsorði eða vilt þú sleppa skilaboðunum?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Þú verður að velja úttaksmöppu.
 filter-decrypt-move-warn-experimental =
@@ -436,6 +452,9 @@ filter-warn-key-not-secret =
     Ef þú ert ekki með leynilykilinn fyrir ‘{ $desc }’ muntu ekki lengur geta lesið tölvupóstana.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Afkóða varanlega (OpenPGP)
 filter-decrypt-copy-label = Búa til afkóðað afrit (OpenPGP)
@@ -483,6 +502,7 @@ key-man-button-export-pub-key = Flytja einungis út &dreifilykla
 key-man-button-refresh-all = Endu&rlesa alla lykla
 key-man-loading-keys = Hleð inn lyklum, bíddu aðeins...
 ascii-armor-file = ASCII Armored skrár (*.asc)
+text-file = Textaskrár (*.txt)
 no-key-selected = Þú ættir að velja að minnsta kosti einn lykil til að framkvæma valda aðgerð
 export-to-file = Flytja dreifilykil út í skrá
 export-keypair-to-file = Flytja einka- og dreifilykla út í skrá
@@ -510,6 +530,12 @@ openpgp-export-secret-fail = <b>Ekki tókst að flytja út valinn einkalykil!</b
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Lykillinn { $userId } (auðkenni { $keyId }) er afturkallaður.
 key-ring-pub-key-expired = Lykillinn { $userId } (auðkenni { $keyId }) er útrunninn.
 key-ring-no-secret-key = Þú virðist ekki vera með leynilykilinn fyrir { $userId } (auðkenni { $keyId }) í lyklasafninu; þú getur ekki notað lykilinn til undirritunar.
@@ -522,10 +548,16 @@ key-ring-enc-sub-keys-expired = Allir dulritunar-undirlyklar lykilsins { $userId
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Ljósmynd
 user-att-photo = Eigindi notanda (JPEG-mynd)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Þessi lykill hefur þegar verið afturkallaður.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -549,6 +581,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = Flytja &inn
 delete-key-title = Eyða OpenPGP-lykli
 delete-external-key-title = Fjarlægja utanaðkomandi GnuPG-lykil
@@ -558,6 +593,9 @@ delete-key-in-use-description = Ekki hægt að halda áfram! Lykillinn sem þú 
 revoke-key-in-use-description = Ekki hægt að halda áfram! Lykillinn sem þú valdir til afturköllunar er notað af þessu auðkenni. Veldu annan lykil eða engan, og reyndu aftur.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -569,18 +607,33 @@ key-error-not-accepted-as-personal = Þú hefur ekki staðfest að lykillinn me�
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Aðgerðin sem þú hefur valið er ekki tiltæk án nettengingar. Tengstu við internetið og reyndu aftur.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Við fundum engan nothæfan lykil sem samsvaraði uppgefnum leitarskilyrðum.
 no-update-found = Þú ert nú þegar með lyklana sem fundust á netinu.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Villa - Skipun um útdrátt lykils mistókst
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Villa - Notandi hætti við móttöku lykils
 not-first-block = Villa - Fyrsta OpenPGP-blokkin er ekki dreifilyklablokk
@@ -593,6 +646,10 @@ no-pgp-block = Villa - Engin gild varin OpenPGP-gagnablokk fannst
 confirm-permissive-import = Innflutningur mistókst. Lykillinn sem þú ert að reyna að flytja inn gæti verið skemmdur eða notað óþekkt eigindi. Viltu reyna að flytja inn þá hluta sem eru réttir? Þetta gæti leitt til innflutnings á ófullgerðum og ónothæfum lyklum.
 
 ## Strings used in trust.jsm
+
+help-button = Hjálp
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = óþekktur
 key-valid-invalid = ógildur
@@ -714,6 +771,9 @@ cannot-send-enc-because-no-own-key = Ekki er hægt að senda þessi skilaboð du
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -737,9 +797,15 @@ dlg-button-view = &Skoða
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Villa - engrar dulritunar krafist
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Engin mynd tiltæk
 # Variables:
@@ -758,6 +824,9 @@ repeat-suffix-singular = sinni til viðbótar.
 repeat-suffix-plural = sinnum til viðbótar.
 no-repeat = Þessi aðvörun verður ekki birt aftur.
 dlg-keep-setting = Muna svarið mitt og ekki spyrja mig aftur
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = Í la&gi
 dlg-button-close = &Loka
 dlg-button-cancel = &Hætta við
@@ -768,6 +837,9 @@ enig-alert = OpenPGP aðvörun
 enig-info = OpenPGP upplýsingar
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Reyna aftur
 dlg-button-skip = &Sleppa
