@@ -4,6 +4,12 @@
 
 e2e-intro-description = Që të dërgoni mesazhe të fshehtëzuar ose të nënshkruar në mënyrë dixhitale, ju duhet të formësoni një teknologji fshehtëzimi, OpenPGP ose S/MIME.
 e2e-intro-description-more = Që të aktivizohet përdorimi i OpenGPG-së, përzgjidhni kyçin tuaj personal, ose dëshminë tuaj personale që të aktivizohet përdorimi i S/MIME-s. Për një kyç apo dëshmi personale, zotëroni kyçin përkatës të fshehtë.
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Vazhdo
+# A label for a button that goes back one step
+e2e-csr-back = Mbrapsht
+# $file A filename
+e2e-csr-failure = S’u ruajt dot CSR te kartela { $file }
 e2e-signing-description = Një nënshkrim dixhital u lejon marrësve të verifikojnë se mesazhi qe dërguar nga ju dhe se lënda e tij s’është ndryshuar. Si parazgjedhje, mesazhet e fshehtëzuar janë përherë të nënshkruar.
 e2e-sign-message =
     .label = Nënshkruani mesazhe të pafshehtëzuar
@@ -391,6 +397,9 @@ window-locked = Dritarja e hartimeve është e kyçur; dërgimi u anulua
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = U ndërpre
 keyserver-error-unknown = Ndodhi një gabim i panjohur
 keyserver-error-server-error = Shërbyesi i kyçeve raportoi një gabim.
@@ -402,6 +411,9 @@ keyserver-error-unsupported = Shërbyesi i kyçeve nuk mbulohet.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Furnizuesi i email-it tuaj e përpunoi kërkesën tuaj për ngarkim të kyçit tuaj publik te Drejtoria Web e Kyçeve OpenPGP.
     Ju lutemi, ripohojeni që të plotësohet publikimi i kyçit tuaj publik.
@@ -411,6 +423,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -419,6 +434,9 @@ converter-decrypt-body-failed =
     Doni të riprovohet me një frazëkalim tjetër apo doni të anashkalohet mesazhi?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Duhet të përzgjidhni një dosje objektiv.
 filter-decrypt-move-warn-experimental =
@@ -436,6 +454,9 @@ filter-warn-key-not-secret =
     Nëse s’keni kyçin e fshehtë për '{ $desc }', s’do të jeni më në gjendje të lexoni email-et.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Shfshehtëzoje përgjithnjë (OpenPGP)
 filter-decrypt-copy-label = Krijo Kopje të shfshehtëzuar (OpenPGP)
@@ -484,6 +505,7 @@ key-man-button-export-pub-key = Eksporto Vetëm Kyçe &Publikë
 key-man-button-refresh-all = &Rifresko Krejt Kyçet
 key-man-loading-keys = Po ngarkohen kyçe, ju lutemi, prisni…
 ascii-armor-file = Kartela ASCII të Blinduara (*.asc)
+text-file = Kartela Teks (*.txt)
 no-key-selected = Që të mund të kryhet veprimi i përzgjedhur, duhet të përzgjidhni të paktën një kyç
 export-to-file = Eksporto Kyç Publik Në Kartelë
 export-keypair-to-file = Eksporto Kyç të Fshehtë dhe Publik Në Kartelë
@@ -511,6 +533,12 @@ openpgp-export-secret-fail = <b>S’arrihet të eksportohet kyçi i fshehtë i p
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Kyçi { $userId } (ID kyçi { $keyId }) është i shfuqizuar.
 key-ring-pub-key-expired = Kyçi { $userId } (ID kyçi { $keyId }) ka skaduar.
 key-ring-no-secret-key = S’duket se keni kyçin e fshehtë për { $userId } (ID kyçi { $keyId }) në vargun tuaj të kyçeve; kyçin s’mund ta përdorni për nënshkrime.
@@ -523,10 +551,16 @@ key-ring-enc-sub-keys-expired = Kanë skaduar krejt nënkyçet e fshehtëzimit t
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Foto
 user-att-photo = Atribut përdoruesi (figurë JPEG)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Ky kyç është shfuqizuar tashmë.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -550,6 +584,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Importo
 delete-key-title = Fshi Kyç OpenPGP
 delete-external-key-title = Hiq Kyçin e jashtëm GnuPG
@@ -559,6 +596,9 @@ delete-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët 
 revoke-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët për shfuqizim është aktualisht në përdorim nga ky identitet. Përzgjidhni një kyç tjetër, ose mos përzgjidhni ndonjë dhe riprovoni.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -570,18 +610,33 @@ key-error-not-accepted-as-personal = S’keni ripohuar se kyçi me ID-në '{ $ke
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Funksioni që keni përzgjedhur s’mund të përdoret nën mënyrën jo i lidhur. Ju lutemi, lidhuni në internet dhe riprovoni.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = S’gjetëm dot ndonjë kyç të përdorshëm me përputhje me kriterin e dhënë të kërkimit.
 no-update-found = Keni tashmë kyçet që u zbuluan në internet.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Gabim - urdhri për përftim kyçi dështoi
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Gabim - Marrja e kyçit u anulua nga përdoruesi
 not-first-block = Gabim - Blloku i parë OpenPGP s’është bllok kyçi publik
@@ -594,6 +649,10 @@ no-pgp-block = Gabim - S’u gjet bllok i vlefshëm të dhënash OpenPGP të kor
 confirm-permissive-import = Importi dështoi. Kyçi që po provoni të importoni mund të jetë i komprometuar ose përdor atribute të panjohur. Do të donit të provohej të importoheshin pjesët që janë të sakta? Kjo mund të sjellë importim kyçesh jo të plotë dhe të papërdorshëm.
 
 ## Strings used in trust.jsm
+
+help-button = Ndihmë
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = i panjohur
 key-valid-invalid = i pavlefshëm
@@ -715,6 +774,9 @@ cannot-send-enc-because-no-own-key = S’mund të dërgohet i fshehtëzuar ky me
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -738,9 +800,15 @@ dlg-button-view = &Shiheni
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Gabimi - s’lyp fshehtëzim
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = S’ka Foto
 # Variables:
@@ -759,6 +827,9 @@ repeat-suffix-singular = herë tjetër
 repeat-suffix-plural = herë të tjera
 no-repeat = Ky sinjalizim s’do të shfaqet më.
 dlg-keep-setting = Mba mend përgjigjen time dhe mos pyet më
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Mbylle
 dlg-button-cancel = &Anuloje
@@ -769,6 +840,9 @@ enig-alert = Sinjalizim OpenPGP
 enig-info = Hollësi OpenPGP
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Riprovo
 dlg-button-skip = &Anashkaloje

@@ -92,38 +92,83 @@ about-addressbook-column-header-generatedname2 = Emrash
     .title = Renditi sipas emrash
 about-addressbook-column-label-generatedname2 =
     .label = Emrash
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Emër
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Adresa Email
     .title = Renditi sipas adresash email
 about-addressbook-column-label-emailaddresses2 =
     .label = Adresash Email
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Adresa Email
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Nofkash
     .title = Renditi sipas nofkash
 about-addressbook-column-label-nickname2 =
     .label = Nofkash
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Nofkë
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Numrash Telefonash
     .title = Renditi sipas numrash telefoni
 about-addressbook-column-label-phonenumbers2 =
     .label = Numrash Telefonash
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Numra Telefonash
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Adresash
     .title = Renditi sipas adresash
 about-addressbook-column-label-addresses2 =
     .label = Adresash
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adresa
+    .title = { $title }
 about-addressbook-column-header-title2 = Titull
     .title = Renditi sipas titujsh
 about-addressbook-column-label-title2 =
     .label = Titujsh
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Titull
+    .title = { $title }
 about-addressbook-column-header-department2 = Degësh
     .title = Renditi sipas degësh
 about-addressbook-column-label-department2 =
     .label = Degësh
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Degë
+    .title = { $title }
 about-addressbook-column-header-organization2 = Entesh
     .title = Renditi sipas entesh
 about-addressbook-column-label-organization2 =
     .label = Entesh
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Ent
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Librash Adresash
     .title = Renditi sipas librash adresash
 about-addressbook-column-label-addrbook2 =
     .label = Libras Adresash
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Libër Adresash
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Shkruani
 about-addressbook-confirm-delete-mixed-title = Fshini Kontakte dhe Lista
