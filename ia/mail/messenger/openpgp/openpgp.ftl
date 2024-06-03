@@ -676,6 +676,9 @@ confirm-permissive-import = Importation fallite. Le clave que tu tenta importar 
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Alcun del claves secrete importate clama un function non supportate. Si tu usa tal claves como tu clave personal, le correspondentes pote inviar te emails o claves public in un formato incompatibile. Isto affice le claves secrete con le sequente importate dactylogrammas: { $fingerprints }.
 help-button = Adjuta
 
 ## Strings used in trust.sys.mjs
