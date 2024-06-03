@@ -4,6 +4,10 @@
 
 e2e-intro-description = Pro inviar messages cifrate o signate digitalmente, tu debe configurar un technologia de cryptographia OpenPGP o S/MIME.
 e2e-intro-description-more = Elige tu clave personal pro activar le uso de OpenPGP o tu certificato personal pro activar le uso de S/MIME. Pro un clave personal o un certificato tu debe haber le correspondente clave secrete.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Pro obtener un nove certificato S/MIMAR personal, genera un Requesta de firma de certificato (RFC) e invia lo a un Autoritate de certification (AC).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Elige un directorio e nomine de file local pro tu file RFC, e responde al questiones sequente pro configurar algorithmo e fortia.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Generar CSR
 # A label for a button that proceeds to the next step
@@ -11,9 +15,26 @@ e2e-csr-continue = Continuar
 # A label for a button that goes back one step
 e2e-csr-back = Retro
 # Do not translate: CSR
+e2e-csr-button =
+    .label = Generar e salvar un file RFC como…
+# Do not translate: CSR
 e2e-csr-select-title = Algorithmo CSR
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = Seliger inter RSA (recommendate) o ECC como tu algorithmo cryptographic pro le nove certificato S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Elige tu fortia cryptographic desirate (plus veloce con minor numeros o securitate melior con numeros major) pro le nove certificato S/MIMAR, o mantene le parametro predefinite.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Un nove clave secrete { $type } { $strength } sera generate in le parametros de { -brand-short-name }. Iste processo pote prender alcun tempore e causar temporari absentia de responsa; sia patiente durante iste passo. Le file de Requesta de firma de certificato (RFC), salvate como { $file }, sera create intertanto.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Includer le adresse email ({ $email }) in CSR (recommendate)
+# $file A filename
+e2e-csr-success = Le CSR era salvate con successo in { $file }
+# $file A filename
+e2e-csr-failure = Impossibile salvar le CSR in le file { $file }
 e2e-signing-description = Un signatura digital permitte al destinatarios de verificar que tu es le ver expeditor del message e que le contento non ha essite alterate. Per configuration predefinite, le messages cryptate es sempre signate.
 e2e-sign-message =
     .label = Signar messages non cryptate
