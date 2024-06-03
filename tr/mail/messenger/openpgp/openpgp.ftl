@@ -4,6 +4,10 @@
 
 e2e-intro-description = Şifrelenmiş veya dijital olarak imzalanmış iletiler göndermek için OpenPGP veya S/MIME gibi bir şifreleme teknolojisini yapılandırmanız gerekir.
 e2e-intro-description-more = OpenPGP kullanımını etkinleştirmek için kişisel anahtarınızı veya S/MIME kullanımını etkinleştirmek için kişisel sertifikanızı seçin. Kişisel anahtar veya sertifikanın gizli anahtarına da sahip olmalısınız.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Yeni bir kişisel S/MIME sertifikası almak için sertifika imzalama isteği (CSR) oluşturup sertifika makamına (CA) gönderin.
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = CSR dosyanız için bir yerel dizin ve dosya adı seçin. Algoritma ve güç ayarlarıyla ilgili aşağıdaki soruları yanıtlayın.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = CSR oluştur
 # A label for a button that proceeds to the next step

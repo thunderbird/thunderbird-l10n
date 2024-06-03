@@ -149,6 +149,11 @@ about-addressbook-column-header-addrbook2 = Adres defteri
     .title = Adres defterine göre sırala
 about-addressbook-column-label-addrbook2 =
     .label = Adres defteri
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Adres defteri
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Yaz
 about-addressbook-confirm-delete-mixed-title = Kişileri ve listeleri sil
