@@ -6,7 +6,7 @@
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 <!ENTITY serverDirectory.label "IMAP sunucu dizini:">
 <!ENTITY serverDirectory.accesskey "d">
-<!ENTITY usingSubscription.label "Yalnızca abone olunan klasörleri göster">
+<!ENTITY usingSubscription.label "Yalnızca abone olduğum klasörleri göster">
 <!ENTITY usingSubscription.accesskey "e">
 <!ENTITY dualUseFolders.label "Sunucu, alt klasör ve ileti içeren klasörleri destekliyor">
 <!ENTITY dualUseFolders.accesskey "S">
