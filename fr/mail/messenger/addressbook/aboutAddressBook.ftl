@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Rechercher dans { $name }
 about-addressbook-search-all =
     .placeholder = Rechercher dans tous les carnets d’adresses
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Rechercher dans { $name }
+    .placeholder = Rechercher dans { $name }…
+about-addressbook-search-all2 =
+    .label = Rechercher dans tous les carnets d’adresses
+    .placeholder = Rechercher dans tous les carnets d’adresses…
 about-addressbook-sort-button2 =
     .title = Options d’affichage de la liste
 about-addressbook-name-format-display =
