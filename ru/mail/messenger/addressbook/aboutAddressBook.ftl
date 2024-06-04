@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Поиск в { $name }
 about-addressbook-search-all =
     .placeholder = Поиск во всех адресных книгах
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Поиск { $name }
+    .placeholder = Поиск { $name }…
+about-addressbook-search-all2 =
+    .label = Поиск во всех адресных книгах
+    .placeholder = Поиск во всех адресных книгах…
 about-addressbook-sort-button2 =
     .title = Варианты отображения списка
 about-addressbook-name-format-display =

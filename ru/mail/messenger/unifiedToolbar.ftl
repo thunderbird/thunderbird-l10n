@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Поиск
 search-bar-item =
     .label = Поиск:
+search-bar-item2 =
+    .label = Поиск
 search-bar-placeholder = Поиск…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Сохранить
 customize-unsaved-changes = Несохранённые изменения в других местах
 customize-search-bar =
     .label = Кнопки панели поиска…
+customize-search-bar2 =
+    .label = Кнопки панели поиска
+    .placeholder = Кнопки панели поиска…
 customize-spaces-tabs =
     .aria-label = Места
 customize-main-toolbar-target =
