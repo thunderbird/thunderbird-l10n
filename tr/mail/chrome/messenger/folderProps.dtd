@@ -5,11 +5,11 @@
 <!ENTITY folderProps.windowtitle.label           "Özellikler">
 
 <!ENTITY generalInfo.label                       "Genel bilgiler">
-<!ENTITY folderRebuildSummaryFileTip2.label      "Özet dosyası indeksini yeniden oluştur">
-<!ENTITY folderRebuildSummaryFile2.label         "Dizini onar">
+<!ENTITY folderRebuildSummaryFileTip2.label      "Özet dosyası dizinini yeniden oluştur">
+<!ENTITY folderRebuildSummaryFile2.label         "Klasörü onar">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "r">
-<!ENTITY folderRebuildSummaryFile.explanation    "Bazen dizin indeks dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Dizini onarmak bu sorunları çözebilir.">
-<!ENTITY folderIncludeInGlobalSearch.label       "Bu dizindeki iletileri global arama sonuçlarına dahil et">
+<!ENTITY folderRebuildSummaryFile.explanation    "Bazen dizin dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Klasörü onarmak bu sorunları çözebilir.">
+<!ENTITY folderIncludeInGlobalSearch.label       "Bu klasördeki iletileri global arama sonuçlarına dahil et">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "o">
 
 <!ENTITY retention.label "Kayıt ilkeleri">
@@ -30,10 +30,10 @@
 <!ENTITY retentionApplyToFlagged.accesskey "Y">
 
 <!ENTITY folderSynchronizationTab.label          "Eşitleme">
-<!ENTITY folderCheckForNewMessages2.label         "Bu hesap için yeni ileti alırken her zaman bu dizini denetle">
+<!ENTITY folderCheckForNewMessages2.label         "Bu hesap için yeni ileti alırken her zaman bu klasörü denetle">
 <!ENTITY folderCheckForNewMessages2.accesskey     "y">
 
-<!ENTITY offlineFolder.check.label               "Bu dizini çevrimdışı kullanım için seç">
+<!ENTITY offlineFolder.check.label               "Bu klasörü çevrimdışı kullanım için seç">
 <!ENTITY offlineFolder.check.accesskey           "v">
 <!ENTITY offlineFolder.button.label              "Şimdi indir">
 <!ENTITY offlineFolder.button.accesskey          "d">

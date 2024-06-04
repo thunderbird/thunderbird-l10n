@@ -15,7 +15,7 @@
 <!ENTITY leaveIt.label                "Gelen kutumda bırak">
 <!ENTITY leaveIt.accesskey            "G">
 <!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent' according to Netscape glossary -->
-<!ENTITY moveToSent.label             "&quot;Gönderilen&quot; dizinine taşı">
+<!ENTITY moveToSent.label             "&quot;Gönderilen&quot; klasörüne taşı">
 <!ENTITY moveToSent.accesskey         "n">
 <!ENTITY requestMDN.label             "Alındı onayı isteği aldığımda:">
 <!ENTITY returnSome.label             "Bazı iletilerde alındı onayına izin ver">

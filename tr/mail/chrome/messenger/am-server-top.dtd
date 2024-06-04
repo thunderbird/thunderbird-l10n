@@ -43,7 +43,7 @@
 <!ENTITY downloadOnBiff.label "Yeni e-postaları otomatik indir">
 <!ENTITY downloadOnBiff.accesskey "p">
 <!ENTITY deleteMessagePrefix.label "Bir iletiyi sildiğimde:">
-<!ENTITY modelMoveToTrash.label "Bu dizine taşı:">
+<!ENTITY modelMoveToTrash.label "Bu klasöre taşı:">
 <!ENTITY modelMoveToTrash.accesskey "e">
 <!ENTITY modelMarkDeleted.label "Yalnızca silinmiş olarak işaretle">
 <!ENTITY modelMarkDeleted.accesskey "o">
@@ -68,14 +68,14 @@
 <!ENTITY alwaysAuthenticate.accesskey "u">
 <!ENTITY newsrcFilePath1.label "News.rc dosyası:">
 <!ENTITY newsrcPicker1.label "News.rc dosyasını seçin">
-<!ENTITY abbreviate.label "Haber grubu isimlerini posta dizini bölmesinde göster:">
+<!ENTITY abbreviate.label "Haber grubu isimlerini posta klasörü bölmesinde göster:">
 <!ENTITY abbreviateOn.label "Tam adlar (örnek: 'netscape.public.mozilla.mail-news')">
 <!ENTITY abbreviateOff.label "Kısa adlar (örnek: 'n.p.m.mail-news')">
 <!ENTITY advancedButton.label "Gelişmiş…">
 <!ENTITY advancedButton.accesskey "G">
 <!ENTITY serverDefaultCharset2.label "Varsayılan metin kodlaması:">
 <!ENTITY localPath1.label "Yerel dizin:">
-<!ENTITY localFolderPicker.label "Yerel dizin seçin">
+<!ENTITY localFolderPicker.label "Yerel klasör seçin">
 <!ENTITY browseFolder.label "Gözat…">
 <!ENTITY browseFolder.accesskey "a">
 <!ENTITY browseNewsrc.label "Gözat…">

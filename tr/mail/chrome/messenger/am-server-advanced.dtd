@@ -6,9 +6,9 @@
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 <!ENTITY serverDirectory.label "IMAP sunucu dizini:">
 <!ENTITY serverDirectory.accesskey "d">
-<!ENTITY usingSubscription.label "Yalnızca abone olunan dizinleri göster">
+<!ENTITY usingSubscription.label "Yalnızca abone olunan klasörleri göster">
 <!ENTITY usingSubscription.accesskey "e">
-<!ENTITY dualUseFolders.label "Sunucu, alt dizin ve ileti içeren dizinleri destekliyor">
+<!ENTITY dualUseFolders.label "Sunucu, alt klasör ve ileti içeren klasörleri destekliyor">
 <!ENTITY dualUseFolders.accesskey "S">
 <!ENTITY maximumConnectionsNumber.label "Önbelleğe alınacak bağlantı sayısı üst sınırı">
 <!ENTITY maximumConnectionsNumber.accesskey "n">
@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "i">
 <!ENTITY overrideNamespaces.label "Sunucunun bu isim uzaylarının üstüne yazmasına izin ver">
 <!ENTITY overrideNamespaces.accesskey "u">
-<!ENTITY pop3DeferringDesc.label "Bu hesabın sunucusundan e-posta indirirken yeni iletileri depolamak için şu dizini kullan:">
+<!ENTITY pop3DeferringDesc.label "Bu hesabın sunucusundan e-posta indirirken yeni iletileri depolamak için şu klasörü kullan:">
 <!ENTITY accountInbox.label "Bu hesabın gelen kutusu">
 <!ENTITY accountInbox.accesskey "s">
 <!ENTITY deferToServer.label "Farklı bir hesabın gelen kutusu">

@@ -9,7 +9,7 @@
 
 <!ENTITY move.label "Yeni gereksiz iletileri buraya taşı:">
 <!ENTITY move.accesskey "Y">
-<!ENTITY junkFolderOn.label "&quot;Gereksiz&quot; dizini:">
+<!ENTITY junkFolderOn.label "&quot;Gereksiz&quot; klasörü:">
 <!ENTITY junkFolderOn.accesskey "i">
 <!ENTITY otherFolder.label "Diğer:">
 <!ENTITY otherFolder.accesskey "D">

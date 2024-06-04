@@ -32,7 +32,7 @@
 <!ENTITY runFilters.accesskey "a">
 <!ENTITY stopFilters.label "Durdur">
 <!ENTITY stopFilters.accesskey "D">
-<!ENTITY folderPickerPrefix.label "Seçili süzgeçleri bu dizinde uygula:">
+<!ENTITY folderPickerPrefix.label "Seçili süzgeçleri bu klasörde uygula:">
 <!ENTITY folderPickerPrefix.accesskey "i">
 <!ENTITY helpButton.label "Yardım">
 <!ENTITY helpButton.accesskey "Y">
