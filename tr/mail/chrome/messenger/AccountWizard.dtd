@@ -9,7 +9,7 @@
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Kimlik">
-<!ENTITY identityDesc.label "Her hesabın bir kimliği vardır. Postanızı alan kişi sizi bu kimlikteki bilgilerden tanır.">
+<!ENTITY identityDesc.label "Her hesabın bir kimliği vardır. İletilerinizi alan kişiler sizi bu kimlikteki bilgilerden tanır.">
 
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Giden iletilerinizin &quot;Gönderen&quot; kısmında görünmesini istediğiniz adı girin">
@@ -29,7 +29,7 @@
 <!ENTITY incomingTitle.label "Gelen Sunucu Bilgisi">
 <!ENTITY incomingUsername.label "Kullanıcı Adı:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-<!ENTITY newsServerNameDesc.label "Haber sunucunuzun (NNTP) adını girin. (örnek: &quot;news.ornekadres.net&quot;)">
+<!ENTITY newsServerNameDesc.label "Haber sunucunuzun (NNTP) adını girin. (örnek: &quot;news.example.net&quot;)">
 <!ENTITY newsServerLabel.label "Haber Grubu Sunucusu:">
 <!ENTITY newsServerLabel.accesskey "H">
 

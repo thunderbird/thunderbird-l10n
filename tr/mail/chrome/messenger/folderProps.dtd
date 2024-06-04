@@ -56,7 +56,7 @@
 <!ENTITY privileges.button.accesskey             "h">
 <!ENTITY permissionsDesc.label                   "Aşağıdaki izinlere sahipsiniz:">
 <!ENTITY folderOtherUsers.label                  "Bu klasöre erişimi olan diğerleri:">
-<!ENTITY folderType.label                        "Dizin türü:">
+<!ENTITY folderType.label                        "Klasör türü:">
 
 <!ENTITY folderQuotaTab.label                    "Kota">
 <!ENTITY folderQuotaUsage.label                  "Kullanım:">
