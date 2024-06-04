@@ -8,7 +8,7 @@
 <!ENTITY folderRebuildSummaryFileTip2.label      "Özet dosyası dizinini yeniden oluştur">
 <!ENTITY folderRebuildSummaryFile2.label         "Klasörü onar">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "r">
-<!ENTITY folderRebuildSummaryFile.explanation    "Bazen dizin dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Klasörü onarmak bu sorunları çözebilir.">
+<!ENTITY folderRebuildSummaryFile.explanation    "Bazen klasörün dizin dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Klasörü onarmak bu sorunları çözebilir.">
 <!ENTITY folderIncludeInGlobalSearch.label       "Bu klasördeki iletileri global arama sonuçlarına dahil et">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "o">
 

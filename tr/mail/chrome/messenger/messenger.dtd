@@ -6,8 +6,8 @@
 <!ENTITY titleSeparator.label " - ">
 
 <!-- File Menu -->
-<!ENTITY newFolderCmd.label "Dizin…">
-<!ENTITY newFolderCmd.accesskey "D">
+<!ENTITY newFolderCmd.label "Klasör…">
+<!ENTITY newFolderCmd.accesskey "K">
 <!ENTITY closeTabCmd2.label "Sekmeyi kapat">
 <!ENTITY closeTabCmd2.accesskey "S">
 <!ENTITY closeOtherTabsCmd2.label "Diğer sekmeleri kapat">
@@ -23,7 +23,7 @@
 <!ENTITY moveToNewWindow.label "Yeni pencereye taşı">
 <!ENTITY moveToNewWindow.accesskey "n">
 <!ENTITY newVirtualFolderCmd.label "Kayıtlı arama…">
-<!ENTITY newVirtualFolderCmd.accesskey "y">
+<!ENTITY newVirtualFolderCmd.accesskey "a">
 <!ENTITY newCreateEmailAccountCmd.label "Yeni e-posta hesabı al…">
 <!ENTITY newCreateEmailAccountCmd.accesskey "Y">
 <!ENTITY newExistingEmailAccountCmd.label "Mevcut e-posta hesabı…">
@@ -61,13 +61,13 @@
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Abone ol…">
 <!ENTITY subscribeCmd.accesskey "A">
-<!ENTITY deleteFolder.label "Dizini sil">
-<!ENTITY deleteFolder.accesskey "i">
-<!ENTITY renameFolder.label "Dizinin adını değiştir…">
-<!ENTITY renameFolder.accesskey "i">
+<!ENTITY deleteFolder.label "Klasörü sil">
+<!ENTITY deleteFolder.accesskey "ö">
+<!ENTITY renameFolder.label "Klasörü yeniden adlandır…">
+<!ENTITY renameFolder.accesskey "e">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Dizinleri sıkıştır">
-<!ENTITY compactFolders.accesskey "D">
+<!ENTITY compactFolders.label "Klasörleri sıkıştır">
+<!ENTITY compactFolders.accesskey "a">
 <!ENTITY emptyTrashCmd.label "Çöpü boşalt">
 <!ENTITY emptyTrashCmd.accesskey "p">
 <!ENTITY offlineMenu.label "Çevrimdışı">
@@ -96,7 +96,7 @@
 <!ENTITY selectThreadCmd.key "a">
 <!ENTITY selectFlaggedCmd.label "Yıldızlı iletiler">
 <!ENTITY selectFlaggedCmd.accesskey "l">
-<!ENTITY menuFavoriteFolder.label "Dizini favorilere ekle">
+<!ENTITY menuFavoriteFolder.label "Klasörü favorilere ekle">
 <!ENTITY menuFavoriteFolder.accesskey "e">
 <!ENTITY undoDeleteMsgCmd.label "Silinen iletiyi geri al">
 <!ENTITY redoDeleteMsgCmd.label "İletiyi tekrar sil">
