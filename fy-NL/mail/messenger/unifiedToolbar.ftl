@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Sykje
 search-bar-item =
     .label = Sykje:
+search-bar-item2 =
+    .label = Sykje
 search-bar-placeholder = Sykje…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Bewarje
 customize-unsaved-changes = Net-bewarre wizigingen yn oare funksjes
 customize-search-bar =
     .label = Sykbalkknoppen…
+customize-search-bar2 =
+    .label = Sykbalkknoppen
+    .placeholder = Sykbalkknoppen…
 customize-spaces-tabs =
     .aria-label = Funksjes
 customize-main-toolbar-target =

@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = { $name } trochsykje
 about-addressbook-search-all =
     .placeholder = Alle adresboeken trochsykje
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = { $name } trochsykje
+    .placeholder = { $name } trochsykje…
+about-addressbook-search-all2 =
+    .label = Alle adresboeken trochsykje
+    .placeholder = Alle adresboeken trochsykje…
 about-addressbook-sort-button2 =
     .title = Werjefteopsjes toane
 about-addressbook-name-format-display =
