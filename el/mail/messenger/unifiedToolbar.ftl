@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Αναζήτηση
 search-bar-item =
     .label = Αναζήτηση:
+search-bar-item2 =
+    .label = Αναζήτηση
 search-bar-placeholder = Αναζήτηση…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Αποθήκευση
 customize-unsaved-changes = Μη αποθηκευμένες αλλαγές σε άλλους χώρους
 customize-search-bar =
     .label = Κουμπιά γραμμής εργαλείων αναζήτησης…
+customize-search-bar2 =
+    .label = Κουμπιά γραμμής εργαλείων αναζήτησης
+    .placeholder = Κουμπιά γραμμής εργαλείων αναζήτησης…
 customize-spaces-tabs =
     .aria-label = Χώροι
 customize-main-toolbar-target =
