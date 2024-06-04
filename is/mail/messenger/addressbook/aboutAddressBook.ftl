@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Leita í { $name }
 about-addressbook-search-all =
     .placeholder = Leita í öllum nafnaskrám
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Leita í { $name }
+    .placeholder = Leita í { $name }…
+about-addressbook-search-all2 =
+    .label = Leita í öllum nafnaskrám
+    .placeholder = Leita í öllum nafnaskrám…
 about-addressbook-sort-button2 =
     .title = Valkostir birtingar lista
 about-addressbook-name-format-display =

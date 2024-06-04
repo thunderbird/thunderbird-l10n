@@ -119,6 +119,8 @@ quick-filter-bar-textbox =
     .placeholder = Sía póst <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = Sía skilaboð:
+quick-filter-bar-search2 =
+    .label = Sía skilaboð
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
