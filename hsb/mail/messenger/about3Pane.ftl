@@ -125,6 +125,8 @@ quick-filter-bar-textbox =
     .placeholder = Tute powěsće filtrować <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = Powěsće filtrować:
+quick-filter-bar-search2 =
+    .label = Powěsće filtrować
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =

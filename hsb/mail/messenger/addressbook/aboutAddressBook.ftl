@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = { $name } přepytać
 about-addressbook-search-all =
     .placeholder = Wšě adresniki přepytać
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = { $name } přepytać
+    .placeholder = { $name } přepytać…
+about-addressbook-search-all2 =
+    .label = Wšě adresniki přepytać
+    .placeholder = Wšě adresniki přepytać…
 about-addressbook-sort-button2 =
     .title = Pokazowanske nastajenja nalistować
 about-addressbook-name-format-display =
