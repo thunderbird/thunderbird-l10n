@@ -184,5 +184,5 @@ calendar-notifications-customize-label = Her takvimin özellikler penceresinden 
 category-new-label = Yeni kategori
 category-edit-label = Kategori düzenle
 category-overwrite-title = Uyarı: Çift ad
-category-overwrite = Aynı isimde kategori önceden mevcut. Üstüne yazmak ister misiniz?
+category-overwrite = Aynı adlı bir kategori önceden mevcut. Üstüne yazmak ister misiniz?
 category-blank-warning = Bir kategori adı girmelisiniz.
