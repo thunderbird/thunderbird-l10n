@@ -4,10 +4,28 @@
 
 e2e-intro-description = Til að senda dulrituð eða stafrænt undirrituð skilaboð þarftu að setja upp og stilla dulritunartækni, annað hvort OpenPGP eða S/MIME.
 e2e-intro-description-more = Veldu persónulega lykilinn þinn til að virkja notkun OpenPGP, eða persónulega skilríkið þitt til að virkja notkun S/MIME. Fyrir persónulegan dreifilykil eða skilríki átt þú að eiga samsvarandi leynilegan einkalykil.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Til að verða þér úti um nýtt persónulegt S/MIME-skilríki, skaltu útbúa undirritunarbeiðni skilríkis (Certificate Signing Request - CSR) og senda inn á vottunarstöð skilríkja (Certificate Authority - CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Veldu staðbundna möppu og skráarheiti fyrir CSR-skrána þína og svaraðu eftirfarandi spurningum til að stilla reiknirit og styrk.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Útbúa CSR
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Halda áfram
 # A label for a button that goes back one step
 e2e-csr-back = Til baka
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Útbúa og vista CSR-skrá sem...
+# Do not translate: CSR
+e2e-csr-select-title = CSR-reiknirit
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Veldu á milli RSA (mælt með því) eða ECC sem dulritunarreiknirit fyrir nýja S/MIME-skilríkið.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Hafa tölvupóstfang ({ $email }) með í CSR (ráðlagt)
+# $file A filename
+e2e-csr-success = Tókst að vista CSR í { $file }
 e2e-signing-description = Stafræn undirritun gerir viðtakendum kleift að staðfesta að skilaboðin hafi verið send af þér og að efni þeirra hafi ekki verið breytt. Dulrituð skilaboð eru sjálfgefið alltaf undirrituð.
 e2e-sign-message =
     .label = Undirrita ódulrituð skilaboð
