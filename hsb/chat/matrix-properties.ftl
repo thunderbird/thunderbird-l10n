@@ -269,14 +269,14 @@ message-verification-cancel2 = { $user } je wobkrućenje ze slědowaceje přiči
 message-verification-done = Přepruwowanje je dokónčene.
 message-decryption-error = Wobsah tuteje powěsće njeda so dešifrować. Zo byšće zaklučowanske kluče ze swojich druhich gratow požadał, klikńće z prawej tastu na powěsć.
 message-decrypting = Dešifruje so…
-message-redacted = Powěsć je so předźěłała.
+message-redacted = Powěsć je so znjespóznajomniła.
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
 #    $reaction is the content (typically an emoji) of the reaction.
 message-reaction = { $userThatReacted } je na { $userThatSentMessage } z { $reaction } reagował.
 #    Label in the message context menu
 message-action-request-key = Kluče znowa požadać
-message-action-redact = Předźěłać
+message-action-redact = Znjespóznajomnić
 message-action-report = Powěsć zdźělić
 message-action-retry = Znowa słać
 message-action-cancel = Powěsć přetorhnyć
