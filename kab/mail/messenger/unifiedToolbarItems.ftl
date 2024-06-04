@@ -17,6 +17,8 @@ toolbar-unifinder-label = Aff-d tidyanin
 toolbar-unifinder =
     .title = Snefli/Fneẓ agalis n unadu ɣef tedyanin
 toolbar-folder-location-label = Tansa n ukaram
+toolbar-folder-location =
+    .title = Uɣal ɣer ufaylu
 toolbar-edit-event-label = Ẓreg
 toolbar-edit-event =
     .title = Ẓreg tadyant neɣ tawuri yettwafernen
@@ -55,8 +57,6 @@ toolbar-junk-label = Aspam
 toolbar-junk =
     .title = Creḍ iznan yettwafernen d ispamen
 toolbar-delete-label = Kkes
-toolbar-delete =
-    .title = Kkes iznan neɣ ikaramen yettwafernen
 toolbar-delete-title =
     .title = Kkes iznan yettwafernen
 toolbar-undelete-label = Sefsex tukksa
@@ -134,3 +134,14 @@ toolbar-stop =
 toolbar-throbber-label = anamal n wermud
 toolbar-throbber =
     .title = anamal n wermud
+toolbar-create-contact-label = Anermis amaynut
+toolbar-create-address-book-label = Imedlis n tensa amaynut
+toolbar-create-list-label = Tabdart tamaynut
+toolbar-import-contacts-label = Kter
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Rnu imedlis n tensa CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Rnu imedlis n tensa LDAP
