@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Sök i { $name }
 about-addressbook-search-all =
     .placeholder = Sök i alla adressböcker
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Sök i { $name }
+    .placeholder = Sök i { $name }…
+about-addressbook-search-all2 =
+    .label = Sök i alla adressböcker
+    .placeholder = Sök i alla adressböcker…
 about-addressbook-sort-button2 =
     .title = Lista visningsalternativ
 about-addressbook-name-format-display =
