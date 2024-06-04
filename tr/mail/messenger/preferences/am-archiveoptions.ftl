@@ -25,6 +25,6 @@ archive-folder-name =
     .label = Arşivler
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
-    .label = Gelen
+    .label = Gelen Kutusu
 child-folder-name =
-    .label = Gelen kutusu alt dizini
+    .label = Gelen kutusu alt klasörü

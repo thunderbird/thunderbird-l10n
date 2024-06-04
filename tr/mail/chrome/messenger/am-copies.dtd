@@ -21,7 +21,7 @@
 <!ENTITY saveMessageDlg.label "İletiler kaydedildiğinde onay penceresini göster">
 <!ENTITY saveMessageDlg.accesskey "s">
 <!-- LOCALIZATION NOTE (sentFolderOn.label): OK to translate this, bug #57440 -->
-<!ENTITY sentFolderOn.label "&quot;Giden&quot; klasörü:">
+<!ENTITY sentFolderOn.label "&quot;Gönderilmiş&quot; klasörü:">
 <!ENTITY sentFolderOn.accesskey "e">
 <!ENTITY sentInOtherFolder.label "Diğer:">
 <!ENTITY sentInOtherFolder.accesskey "D">

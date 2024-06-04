@@ -181,7 +181,7 @@ account-setup-advanced-setup-button = Gelişmiş yapılandırma
 
 account-setup-insecure-title = Uyarı!
 account-setup-insecure-incoming-title = Gelen posta ayarları:
-account-setup-insecure-outgoing-title = Giden posta ayarları:
+account-setup-insecure-outgoing-title = Giden e-posta ayarları:
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> sunucusu şifreleme kullanmıyor.
