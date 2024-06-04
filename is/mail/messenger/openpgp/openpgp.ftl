@@ -21,11 +21,20 @@ e2e-csr-button =
 e2e-csr-select-title = CSR-reiknirit
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = Veldu á milli RSA (mælt með því) eða ECC sem dulritunarreiknirit fyrir nýja S/MIME-skilríkið.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Veldu æskilegan dulritunarstyrk (hraðara með lægri tölum eða betra öryggi með hærri tölum) fyrir nýja S/MIME-skilríkið, eða haltu sjálfgefnum stillingum.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Nýr { $type } { $strength } leynilykill verður búinn til í stillingum { -brand-short-name }. Þetta ferli getur tekið nokkurn tíma og valdið tímabundnu aðgerðaleysi; sýndu þolinmæði meðan á þessu skrefi stendur. Skráin með undirskriftarbeiðni skilríkis (CSR), vistuð sem { $file }, verður útbúin á meðan.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Hafa tölvupóstfang ({ $email }) með í CSR (ráðlagt)
 # $file A filename
 e2e-csr-success = Tókst að vista CSR í { $file }
+# $file A filename
+e2e-csr-failure = Tókst ekki að vista CSR í skrána { $file }
 e2e-signing-description = Stafræn undirritun gerir viðtakendum kleift að staðfesta að skilaboðin hafi verið send af þér og að efni þeirra hafi ekki verið breytt. Dulrituð skilaboð eru sjálfgefið alltaf undirrituð.
 e2e-sign-message =
     .label = Undirrita ódulrituð skilaboð
@@ -665,6 +674,9 @@ confirm-permissive-import = Innflutningur mistókst. Lykillinn sem þú ert að 
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Sumir af innfluttu leynilyklunum auglýsa óstudda eiginleika. Ef þú notar slíkan lykil sem þinn persónulega lykil, gætu bréfritarar sent þér tölvupóst eða opinbera lykla á ósamrýmanlegu sniði. Þetta hefur áhrif á innflutta leynilykla með eftirfarandi fingraförum: { $fingerprints }.
 help-button = Hjálp
 
 ## Strings used in trust.sys.mjs
