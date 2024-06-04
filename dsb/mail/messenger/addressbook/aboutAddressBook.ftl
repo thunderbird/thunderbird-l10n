@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = { $name } pśepytaś
 about-addressbook-search-all =
     .placeholder = Wšykne adresniki pśepytaś
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = { $name } pśepytaś
+    .placeholder = { $name } pśepytaś…
+about-addressbook-search-all2 =
+    .label = Wšykne adresniki pśepytaś
+    .placeholder = Wšykne adresniki pśepytaś…
 about-addressbook-sort-button2 =
     .title = Pokazowańske nastajenja nalicyś
 about-addressbook-name-format-display =

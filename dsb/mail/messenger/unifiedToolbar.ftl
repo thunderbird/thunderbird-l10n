@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Pytaś
 search-bar-item =
     .label = Pytaś:
+search-bar-item2 =
+    .label = Pytaś
 search-bar-placeholder = Pytaś…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Składowaś
 customize-unsaved-changes = Njeskłaźone změny w drugich rumach
 customize-search-bar =
     .label = Tłocaški symbolowej rědki pytaś…
+customize-search-bar2 =
+    .label = Tłocaški symbolowej rědki pytaś
+    .placeholder = Tłocaški symbolowej rědki pytaś…
 customize-spaces-tabs =
     .aria-label = Rumy
 customize-main-toolbar-target =
