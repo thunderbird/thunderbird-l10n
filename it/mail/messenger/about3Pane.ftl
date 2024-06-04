@@ -119,6 +119,8 @@ quick-filter-bar-textbox =
     .placeholder = Filtra questi messaggi <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = Filtra messaggi:
+quick-filter-bar-search2 =
+    .label = Filtra messaggi
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =

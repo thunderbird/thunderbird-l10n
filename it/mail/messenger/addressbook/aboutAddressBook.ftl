@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Cerca in { $name }
 about-addressbook-search-all =
     .placeholder = Cerca in tutte le rubriche
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Cerca in { $name }
+    .placeholder = Cerca in { $name }…
+about-addressbook-search-all2 =
+    .label = Cerca in tutte le rubriche
+    .placeholder = Cerca in tutte le rubriche…
 about-addressbook-sort-button2 =
     .title = Opzioni visualizzazione lista
 about-addressbook-name-format-display =
