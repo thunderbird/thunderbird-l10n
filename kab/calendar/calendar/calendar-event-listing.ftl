@@ -63,3 +63,5 @@ calendar-event-listing-interval-next-31-days =
     .label = Tidyanin di 31 n wussan d-iteddun
 calendar-event-listing-interval-selected-day =
     .label = Ass amiran yettawafernen
+calendar-event-listing-interval-today =
+    .label = Tidyanin n wass

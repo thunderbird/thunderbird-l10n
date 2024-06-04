@@ -20,6 +20,11 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Ur sirig ara
     .accesskey = R
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Mmel asmel ideg tcakkeḍ
+    .accesskey = M
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
@@ -29,6 +34,7 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-message = Taɣellist n unekcum-a ur yettwaḍman ara. Ur ttkemmil ara alamma tḍemneḍ asmel-a.
 
 ##
 
@@ -44,6 +50,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) yesweḥl-it unedbal-ik n unagraw.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Anedbal-ik·im n unagraw ur yeǧǧi ara asmel-a ad isebded aseɣẓan ɣef uselkim-inek.
+addon-install-full-screen-blocked = Asebeddi n yizegrar ur yettwasireg ara deg uskar n ugdil aččuṛan neɣ uqbel anekcum ɣur-s.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } ittwarna ɣer { -brand-short-name }
@@ -53,6 +60,12 @@ webext-perms-update-menu-item = { $addonName } yesra tisirag-nniḍen
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Kkes { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Kkes { $name } seg { -brand-shorter-name }?
 addon-removal-button = Kkes
 addon-removal-abuse-report-checkbox = Mmel asiɣzef-a i { -vendor-short-name }
 # Variables:
