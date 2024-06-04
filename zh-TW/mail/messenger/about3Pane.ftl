@@ -113,6 +113,8 @@ quick-filter-bar-textbox =
     .placeholder = 過濾這些訊息 <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = 過濾訊息：
+quick-filter-bar-search2 =
+    .label = 篩選訊息
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =

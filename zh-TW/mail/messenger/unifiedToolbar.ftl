@@ -12,6 +12,8 @@ search-bar-button =
     .alt = 搜尋
 search-bar-item =
     .label = 搜尋:
+search-bar-item2 =
+    .label = 搜尋
 search-bar-placeholder = 搜尋…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = 儲存
 customize-unsaved-changes = 其他空間中未儲存的變更
 customize-search-bar =
     .label = 搜尋工具列按鈕…
+customize-search-bar2 =
+    .label = 搜尋工具列按鈕
+    .placeholder = 搜尋工具列按鈕…
 customize-spaces-tabs =
     .aria-label = 按鈕空間
 customize-main-toolbar-target =
