@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = { $name } doorzoeken
 about-addressbook-search-all =
     .placeholder = Alle adresboeken doorzoeken
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = { $name } doorzoeken
+    .placeholder = { $name } doorzoeken…
+about-addressbook-search-all2 =
+    .label = Alle adresboeken doorzoeken
+    .placeholder = Alle adresboeken doorzoeken…
 about-addressbook-sort-button2 =
     .title = Weergaveopties vermelden
 about-addressbook-name-format-display =
