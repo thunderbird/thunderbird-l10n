@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Hľadať
 search-bar-item =
     .label = Hľadať:
+search-bar-item2 =
+    .label = Hľadať
 search-bar-placeholder = Hľadať…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Uložiť
 customize-unsaved-changes = Neuložené zmeny pre iné karty
 customize-search-bar =
     .label = Hľadať tlačidlá pre panel nástrojov…
+customize-search-bar2 =
+    .label = Hľadať tlačidlá pre panel nástrojov
+    .placeholder = Hľadať tlačidlá pre panel nástrojov…
 customize-spaces-tabs =
     .aria-label = Miesta
 customize-main-toolbar-target =

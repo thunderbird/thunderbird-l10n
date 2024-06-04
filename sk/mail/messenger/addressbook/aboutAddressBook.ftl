@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Hľadať v adresári { $name }
 about-addressbook-search-all =
     .placeholder = Hľadať vo všetkých adresároch
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Hľadať v adresári { $name }
+    .placeholder = Hľadať v adresári { $name }…
+about-addressbook-search-all2 =
+    .label = Hľadať vo všetkých adresároch
+    .placeholder = Hľadať vo všetkých adresároch…
 about-addressbook-sort-button2 =
     .title = Možnosti zobrazenia zoznamu
 about-addressbook-name-format-display =
