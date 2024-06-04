@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = { $name } іздеу
 about-addressbook-search-all =
     .placeholder = Барлық адрестік кітапшаларынан іздеу
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = { $name } іздеу
+    .placeholder = { $name } іздеу…
+about-addressbook-search-all2 =
+    .label = Барлық адрестік кітапшаларынан іздеу
+    .placeholder = Барлық адрестік кітапшаларынан іздеу…
 about-addressbook-sort-button2 =
     .title = Тізімді көрсету баптаулары
 about-addressbook-name-format-display =
