@@ -63,6 +63,9 @@ about-addressbook-search =
     .placeholder = Nadi { $name }
 about-addressbook-search-all =
     .placeholder = Nadi akk imedlisen n tansiwin
+about-addressbook-search-all2 =
+    .label = Nadi akk imedlisen n tansiwin
+    .placeholder = Nadi akk imedlisen n tansiwin
 about-addressbook-name-format-display =
     .label = Isem n uskan
 about-addressbook-name-format-firstlast =
@@ -81,66 +84,87 @@ about-addressbook-sort-email-descending =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Isem
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Tansiwin n yimayl
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Uṭṭunen n tiliɣri
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Tansiwin
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Azwel
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Agezdu
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Takebbanit
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Anedlis n tansiwin
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Isem
     .title = Smizwer s yisem
 about-addressbook-column-label-generatedname2 =
     .label = Isem
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Isem
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Tansiwin n yimayl
     .title = Smizwer s tansiwin n yimayl
 about-addressbook-column-label-emailaddresses2 =
     .label = Tansiwin n yimayl
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Tansiwin n yimayl
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Meferisem
     .title = Smizwer s mefferisem
 about-addressbook-column-label-nickname2 =
     .label = Meferisem
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Meffer isem
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Uṭṭunen n tiliɣri
     .title = Smizwer s wuṭṭunen n tiliɣri
 about-addressbook-column-label-phonenumbers2 =
     .label = Uṭṭunen n tiliɣri
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Uṭṭunen n tiliɣri
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Tansiwin
     .title = Smizwer stansiwin
 about-addressbook-column-label-addresses2 =
     .label = Tansiwin
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Tansiwin
+    .title = { $title }
 about-addressbook-column-header-title2 = Azwel
     .title = Smizwer s uzwel
 about-addressbook-column-label-title2 =
     .label = Azwel
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Azwel
+    .title = { $title }
 about-addressbook-column-header-department2 = Agezdu
     .title = Smizwer s ugezdu
 about-addressbook-column-label-department2 =
     .label = Agezdu
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Agezdu
+    .title = { $title }
 about-addressbook-column-header-organization2 = Takebbanit
     .title = Smizwer s tkebbaniyin
 about-addressbook-column-label-organization2 =
     .label = Takebbanit
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Takebbanit
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Imedlis n tansa
     .title = Smizwer s umedlis n tansa
 about-addressbook-column-label-addrbook2 =
     .label = Imedlis n tensa
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Imedlis n tensa
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Aru
 about-addressbook-confirm-delete-mixed-title = Kkes inermisen akked tebdarin
@@ -170,28 +194,11 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Kkes inermisen
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] D tidet tebɣiḍ ad tekkseḍ { $name } seg { $list }?
-       *[other] D tidet tebɣiḍ ad tekkseḍ { $count }-a n yinermisen-a seg { $list }?
-    }
-# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Kkes anermis
        *[other] Kkes inermisen
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] D tidet tebɣiḍ ad tekkseḍ anermis -a{ $name }?
-       *[other] D tidet tebɣiḍ ad tekkseḍ { $name }-a n tebdarin ?
     }
 
 ## Card list placeholder

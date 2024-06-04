@@ -59,6 +59,9 @@ appmenu-create-task =
 
 appmenu-view-panel-title =
     .title = Sken
+appmenu-view-panel =
+    .label = Sken
+    .accesskey = S
 appmenu-font-size-value = Teɣzi n tsefsit
 appmenu-mail-uidensity-value = Taneẓẓi
 appmenu-uidensity-compact =
@@ -86,11 +89,29 @@ appmenu-tools-import =
 appmenu-tools-export =
     .label = Sifeḍ
     .accesskey = S
+appmenu-tools-message-search =
+    .label = Nadi iznan
+    .accesskey = N
+appmenu-tools-message-filters =
+    .label = Izen d imzizdigen
+    .accesskey = I
+appmenu-tools-download-manager =
+    .label = Amsefrak n usader
+    .accesskey = A
+appmenu-tools-activity-manager =
+    .label = Amsefrak n urmud
+    .accesskey = A
+appmenu-tools-dev-tools =
+    .label = Ifecka n tneflit
+    .accesskey = I
 
 ## Help
 
 appmenu-help-panel-title =
     .title = Tallalt
+appmenu-help-get-help =
+    .label = Awi tallelt
+    .accesskey = T
 
 ## Application Update
 
