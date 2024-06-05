@@ -23,6 +23,11 @@ e2e-csr-select-title = Αλγόριθμος CSR
 e2e-csr-select-alg = Επιλέξτε μεταξύ RSA (προτείνεται) και ECC για τον κρυπτογραφικό αλγόριθμο του καινούριου πιστοποιητικού S/MIME σας.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Επιλέξτε την επιθυμητή κρυπτογραφική ισχύ (πιο γρήγορο με μικρότερους αριθμούς ή πιο ασφαλές με μεγαλύτερους αριθμούς) για το νέο πιστοποιητικό S/MIME ή διατηρήστε την προεπιλεγμένη ρύθμιση.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Ένα νέο μυστικό κλειδί τύπου { $type }, με ισχύ { $strength }, θα δημιουργηθεί στις ρυθμίσεις του { -brand-short-name }. Παρακαλώ περιμένετε, καθώς αυτή η διαδικασία ενδέχεται να διαρκέσει αρκετή ώρα και να εμποδίσει προσωρινά την κανονική λειτουργία του προγράμματος. Στο μεταξύ, θα δημιουργηθεί το αρχείο αιτήματος υπογραφής πιστοποιητικού (CSR), που θα αποθηκευτεί ως «{ $file }».
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Συμπερίληψη διεύθυνσης email ({ $email }) στο CSR (προτείνεται)
@@ -669,6 +674,9 @@ confirm-permissive-import = Η εισαγωγή απέτυχε. Το κλειδ�
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Μερικά από τα μυστικά κλειδιά που εισήχθησαν διαφημίζουν μια μη υποστηριζόμενη λειτουργία. Αν χρησιμοποιήσετε ένα τέτοιο κλειδί ως το προσωπικό σας, οι συνομιλητές σας ενδέχεται να σας στείλουν email ή δημόσια κλειδιά σε μη συμβατή μορφή. Αυτό επηρεάζει τα μυστικά κλειδιά που εισήχθησαν με τα εξής αποτυπώματα: { $fingerprints }.
 help-button = Βοήθεια
 
 ## Strings used in trust.sys.mjs
