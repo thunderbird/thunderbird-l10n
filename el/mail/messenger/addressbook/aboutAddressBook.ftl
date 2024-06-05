@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Αναζήτηση σε { $name }
 about-addressbook-search-all =
     .placeholder = Αναζήτηση σε όλα τα ευρετήρια
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Αναζήτηση «{ $name }»
+    .placeholder = Αναζήτηση «{ $name }»…
+about-addressbook-search-all2 =
+    .label = Αναζήτηση σε όλα τα ευρετήρια
+    .placeholder = Αναζήτηση σε όλα τα ευρετήρια…
 about-addressbook-sort-button2 =
     .title = Επιλογές εμφάνισης λίστας
 about-addressbook-name-format-display =
