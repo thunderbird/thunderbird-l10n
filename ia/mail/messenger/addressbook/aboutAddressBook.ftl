@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Cercar in { $name }
 about-addressbook-search-all =
     .placeholder = Cercar in tote le libros del adresses
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Cercar in { $name }
+    .placeholder = Cercar in { $name }…
+about-addressbook-search-all2 =
+    .label = Cercar in tote le libros del adresses
+    .placeholder = Cercar in tote le libros del adresses…
 about-addressbook-sort-button2 =
     .title = Optiones de monstra de lista
 about-addressbook-name-format-display =
