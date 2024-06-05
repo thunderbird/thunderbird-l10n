@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Search
 search-bar-item =
     .label = Search:
+search-bar-item2 =
+    .label = Search
 search-bar-placeholder = Search…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Save
 customize-unsaved-changes = Unsaved changes in other spaces
 customize-search-bar =
     .label = Search toolbar buttons…
+customize-search-bar2 =
+    .label = Search toolbar buttons
+    .placeholder = Search toolbar buttons…
 customize-spaces-tabs =
     .aria-label = Spaces
 customize-main-toolbar-target =
