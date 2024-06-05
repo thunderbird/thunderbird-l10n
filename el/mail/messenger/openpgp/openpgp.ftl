@@ -4,6 +4,10 @@
 
 e2e-intro-description = Για να στείλετε κρυπτογραφημένα ή ψηφιακά υπογεγραμμένα μηνύματα, πρέπει να ρυθμίσετε μια τεχνολογία κρυπτογράφησης, είτε OpenPGP είτε S/MIME.
 e2e-intro-description-more = Επιλέξτε το προσωπικό σας κλειδί για να ενεργοποιήσετε τη χρήση του OpenPGP ή το προσωπικό σας πιστοποιητικό για να ενεργοποιήσετε τη χρήση του S/MIME. Για ένα προσωπικό κλειδί ή πιστοποιητικό έχετε και το αντίστοιχο μυστικό κλειδί.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Για να αποκτήσετε ένα νέο προσωπικό πιστοποιητικό S/MIME, δημιουργήστε ένα αίτημα υπογραφής πιστοποιητικού (CSR) και υποβάλετέ το σε μια αρχή πιστοποίησης (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Επιλέξτε έναν τοπικό κατάλογο και όνομα αρχείου για το αρχείο CSR και απαντήστε στις παρακάτω ερωτήσεις για να ρυθμίσετε τον αλγόριθμο και την ισχύ.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Δημιουργία CSR
 # A label for a button that proceeds to the next step
@@ -15,6 +19,13 @@ e2e-csr-button =
     .label = Δημιουργία και αποθήκευση αρχείου CSR ως…
 # Do not translate: CSR
 e2e-csr-select-title = Αλγόριθμος CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Επιλέξτε μεταξύ RSA (προτείνεται) και ECC για τον κρυπτογραφικό αλγόριθμο του καινούριου πιστοποιητικού S/MIME σας.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Επιλέξτε την επιθυμητή κρυπτογραφική ισχύ (πιο γρήγορο με μικρότερους αριθμούς ή πιο ασφαλές με μεγαλύτερους αριθμούς) για το νέο πιστοποιητικό S/MIME ή διατηρήστε την προεπιλεγμένη ρύθμιση.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Συμπερίληψη διεύθυνσης email ({ $email }) στο CSR (προτείνεται)
 # $file A filename
 e2e-csr-success = Το CSR αποθηκεύτηκε επιτυχώς στο «{ $file }»
 # $file A filename
