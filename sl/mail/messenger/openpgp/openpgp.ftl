@@ -4,6 +4,8 @@
 
 e2e-intro-description = Za pošiljanje šifriranih ali digitalno podpisanih sporočil morate nastaviti tehnologijo šifriranja, bodisi OpenPGP bodisi S/MIME.
 e2e-intro-description-more = Izberite si osebni ključ za omogočitev uporabe OpenPGP ali osebno digitalno potrdilo za omogočitev uporabe S/MIME. Za osebni ključ ali digitalno potrdilo imate ustrezen skrivni ključ.
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Izberite mapo in ime za datoteko CSR ter odgovorite na naslednja vprašanja za nastavitev algoritma in moči.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Ustvari CSR
 # A label for a button that proceeds to the next step
@@ -15,6 +17,9 @@ e2e-csr-button =
     .label = Ustvari in shrani datoteko CSR kot …
 # Do not translate: CSR
 e2e-csr-select-title = Algoritem CSR
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = V CSR vključi e-poštni naslov ({ $email }) (priporočeno)
 # $file A filename
 e2e-csr-success = CSR je bil uspešno shranjen v { $file }
 # $file A filename
@@ -518,6 +523,7 @@ key-man-button-export-pub-key = Izvozi samo &javne ključe
 key-man-button-refresh-all = &Osveži vse ključe
 key-man-loading-keys = Nalaganje ključev, počakajte …
 ascii-armor-file = Oklopne datoteke ASCII (*.asc)
+text-file = Besedilne datoteke (*.txt)
 no-key-selected = Za izvedbo izbranega dejanja izberite vsaj en ključ
 export-to-file = Izvozi javni ključ v datoteko
 export-keypair-to-file = Izvozi skrivni in javni ključ v datoteko
@@ -556,7 +562,9 @@ key-ring-pub-key-expired = Ključu { $userId } (ID ključa { $keyId }) je pretek
 key-ring-pub-key-not-for-signing = Ključa { $userId } (ID ključa { $keyId }) ni mogoče uporabiti za podpisovanje.
 key-ring-pub-key-not-for-encryption = Ključa { $userId } (ID ključa { $keyId }) ni mogoče uporabiti za šifriranje.
 key-ring-sign-sub-keys-revoked = Vsi podpisovalski podključi ključa { $userId } (ID ključa { $keyId }) so preklicani.
+key-ring-sign-sub-keys-expired = Vsem podpisovalskim podključem ključa { $userId } (ID ključa { $keyId }) je potekla veljavnost.
 key-ring-enc-sub-keys-revoked = Vsi šifrirni podključi ključa { $userId } (ID ključa { $keyId }) so preklicani.
+key-ring-enc-sub-keys-expired = Vsem šifrirnim podključem ključa { $userId } (ID ključa { $keyId }) je potekla veljavnost.
 
 ## Strings in gnupg-keylist.jsm
 
@@ -644,6 +652,7 @@ confirm-permissive-import = Uvoz ni uspel. Ključ, ki ga poskušate uvoziti, je 
 
 ## Strings used in trust.jsm
 
+help-button = Pomoč
 
 ## Strings used in trust.sys.mjs
 
