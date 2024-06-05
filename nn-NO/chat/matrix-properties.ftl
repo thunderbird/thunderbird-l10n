@@ -144,6 +144,12 @@ message-invited = { $user } bydde inn { $userWhoGotInvited }.
 #    $oldDisplayName is the old display name.
 #    $newDisplayName is the new display name.
 message-display-name-changed = { $user } endra visingsnamnet sitt frå { $oldDisplayName } til { $newDisplayName }.
+#    $user is the name of the user who set their display name.
+#    $changedName is the newly set display name.
+message-display-name-set = { $user } endra visnigsnamnet sitt til { $changedName }.
+#    $user is the name of the user who removed their display name.
+#    $nameRemoved is the old display name which has been removed.
+message-display-name-remove = { $user } fjerna visningnamnet { $nameRemoved }.
 #    $user is the name of the user who has joined the room.
 message-joined = { $user } har kome inn i rommet.
 #    $user is the name of the user who has rejected the invitation.
@@ -153,6 +159,13 @@ message-left = { $user } har forlate rommet.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } sparka ut { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } sparka ut { $userGotKicked }. Årsak: { $reason }
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+message-withdrew-invite = { $user } trekte tilbake { $userInvitationWithdrawn } sin invitasjon.
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 #    $reason is the reason the invite was withdrawn.
