@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Chwilio
 search-bar-item =
     .label = Chwilio:
+search-bar-item2 =
+    .label = Chwilio
 search-bar-placeholder = Chwilio…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Cadw
 customize-unsaved-changes = Newidiadau heb eu cadw mewn mannau eraill
 customize-search-bar =
     .label = Chwilio am fotymau'r bar offer…
+customize-search-bar2 =
+    .label = Chwilio botymau'r bar offer
+    .placeholder = Chwilio botymau'r bar offer
 customize-spaces-tabs =
     .aria-label = Mannau
 customize-main-toolbar-target =

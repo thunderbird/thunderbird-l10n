@@ -16,25 +16,25 @@ e2e-csr-continue = Parhau
 e2e-csr-back = Nôl
 # Do not translate: CSR
 e2e-csr-button =
-    .label = Cynhyrchu ac arbed ffeil CSR fel…
+    .label = Cynhyrchu a chadw ffeil CSR fel…
 # Do not translate: CSR
 e2e-csr-select-title = Algorithm CSR
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = Dewiswch rhwng RSA (argymhellir) neu ECC fel eich algorithm cryptograffig ar gyfer y dystysgrif S/MIME newydd.
 # Do not translate: S/MIME
-e2e-csr-select-strength = Dewiswch eich cryfder cryptograffig dymunol (yn gyflymach gyda niferoedd is neu well diogelwch gyda niferoedd uwch) ar gyfer y dystysgrif S/MIME newydd, neu cadwch y gosodiad diofyn.
+e2e-csr-select-strength = Dewiswch eich cryfder cryptograffig dymunol (yn gyflymach gyda niferoedd is neu well diogelwch gyda niferoedd uwch) ar gyfer y dystysgrif S/MIME newydd, neu cadwch y gosodiad rhagosodedig.
 # $type is a cryptographic algorithm like RSA or ECC
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
 # Do not translate: CSR
-e2e-csr-summary = Bydd allwedd gyfrinachol { $type } { $strength } newydd yn cael ei chynhyrchu yng ngosodiadau { -brand-short-name }. Gall y broses hon gymryd peth amser ac achosi anymateb dros dro; arhoswch yn amyneddgar yn ystod y cam hwn. Bydd y ffeil Cais Llofnodi Tystysgrif (CSR), sy'n cael ei chadw fel { $file }, yn cael ei chreu yn y cyfamser.
+e2e-csr-summary = Bydd allwedd gyfrinachol { $type } { $strength } newydd yn cael ei chynhyrchu yng ngosodiadau { -brand-short-name }. Gall y broses hon gymryd peth amser ac achosi anymatebedd dros dro; byddwch amyneddgar yn ystod y cam hwn. Bydd y ffeil Cais Llofnodi Tystysgrif (CSR), sy'n cael ei chadw fel { $file }, yn cael ei chreu yn y cyfamser.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Cynnwys cyfeiriad e-bost ( { $email } ) yn CSR (argymhellir)
 # $file A filename
 e2e-csr-success = Llwyddwyd i gadw'r CSR yn { $file }
 # $file A filename
-e2e-csr-failure = Methu cadw'r CSR i ffeil { $file }
+e2e-csr-failure = Wedi methu â chadw'r CSR i ffeil { $file }
 e2e-signing-description = Mae llofnod digidol yn caniatáu i dderbynwyr wirio bod y neges wedi'i hanfon gennych chi ac nad yw'r cynnwys wedi'i newid. Mae negeseuon amgryptiedig wedi eu llofnodi drwy ragosodiad.
 e2e-sign-message =
     .label = Llofnodi negeseuon heb eu hamgryptio

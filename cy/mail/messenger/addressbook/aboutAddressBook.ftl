@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Chwilio { $name }
 about-addressbook-search-all =
     .placeholder = Chwilio'r holl lyfrau cyfeiriadau
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Chwilio { $name }
+    .placeholder = Chwilio { $name }…
+about-addressbook-search-all2 =
+    .label = Chwilio'r holl lyfrau cyfeiriadau
+    .placeholder = Chwilio'r holl lyfrau cyfeiriadau
 about-addressbook-sort-button2 =
     .title = Rhestru dewisiadau dangos
 about-addressbook-name-format-display =
