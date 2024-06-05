@@ -704,7 +704,7 @@ confirm-permissive-import = Methodd y mewnforio. Efallai bod yr allwedd rydych c
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
-imported-secret-with-unsupported-features = Mae rhai o'r allweddi cyfrinachol a fewnforiwyd yn hysbysebu nodwedd nad yw'n cael ei chynnal. Os ydych chi'n defnyddio allwedd o'r fath â'ch allwedd bersonol, gall gohebwyr anfon e-byst neu allweddi cyhoeddus atoch mewn fformat anghydnaws. Mae hyn yn effeithio ar allweddi cyfrinachol a fewnforiwyd gyda'r olion bysedd canlynol: { $fingerprints }.
+imported-secret-with-unsupported-features = Mae rhai o'r allweddi cyfrinachol a fewnforiwyd yn hysbysebu nodwedd nad yw'n cael ei chynnal. Os ydych chi'n defnyddio allwedd o'r fath fel eich allwedd bersonol, gall gohebwyr anfon e-byst neu allweddi cyhoeddus atoch mewn fformat anghydnaws. Mae hyn yn effeithio ar allweddi cyfrinachol a fewnforiwyd gyda'r bysbrintiau canlynol: { $fingerprints }.
 help-button = Cymorth
 
 ## Strings used in trust.sys.mjs
