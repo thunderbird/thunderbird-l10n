@@ -16,6 +16,7 @@ connection-error-time-out = Байланыс уақыты біткен
 connection-error-invalid-username = { $username } - рұқсат етілген пайдаланушы аты емес
 connection-error-invalid-password = Сервер паролі қате
 connection-error-password-required = Пароль керек
+connection-error-invalid-user-password = Жарамсыз пароль
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = Ар_на
