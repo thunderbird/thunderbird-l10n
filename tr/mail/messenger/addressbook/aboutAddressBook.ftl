@@ -149,10 +149,20 @@ about-addressbook-column-header-department2 = Departman
     .title = Departmana göre sırala
 about-addressbook-column-label-department2 =
     .label = Departman
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Departman
+    .title = { $title }
 about-addressbook-column-header-organization2 = Şirket
     .title = Şirkete göre sırala
 about-addressbook-column-label-organization2 =
     .label = Şirket
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Şirket
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Adres defteri
     .title = Adres defterine göre sırala
 about-addressbook-column-label-addrbook2 =

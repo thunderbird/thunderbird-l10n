@@ -17,7 +17,7 @@
 <!ENTITY insertLinkCmd2.label "Bağlantı…">
 <!ENTITY insertLinkCmd2.accesskey "l">
 <!ENTITY insertLinkCmd2.key "K">
-<!ENTITY insertAnchorCmd.label "İsimlendirilmiş çıpa…">
+<!ENTITY insertAnchorCmd.label "Adlandırılmış çıpa…">
 <!ENTITY insertAnchorCmd.accesskey "a">
 <!ENTITY insertImageCmd.label "Resim…">
 <!ENTITY insertImageCmd.accesskey "R">
@@ -126,7 +126,7 @@
 
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
-<!ENTITY formatRemoveNamedAnchors.label "İsimlendirilen çıpaları kaldır">
+<!ENTITY formatRemoveNamedAnchors.label "Adlandırılmış çıpaları kaldır">
 <!ENTITY formatRemoveNamedAnchors.accesskey "d">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
 
@@ -271,7 +271,7 @@
 <!ENTITY linkToolbarCmd.label "Bağlantı">
 <!ENTITY linkToolbarCmd.tooltip "Yeni bağlantı ekle veya seçili bağlantının özelliklerini düzenle">
 <!ENTITY anchorToolbarCmd.label "Çıpa">
-<!ENTITY anchorToolbarCmd.tooltip "Yeni bir isimli çıpa ekle veya seçili çıpanın özelliklerini düzenle">
+<!ENTITY anchorToolbarCmd.tooltip "Yeni bir adlandırılmış çıpa ekle veya seçili çıpanın özelliklerini düzenle">
 <!ENTITY TextColorButton.tooltip "Metin rengini seç">
 <!ENTITY BackgroundColorButton.tooltip "Arka plan rengini seç">
 

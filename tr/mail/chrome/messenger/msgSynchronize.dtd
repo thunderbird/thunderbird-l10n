@@ -6,7 +6,7 @@
 
 <!ENTITY MsgSynchronize.label "İletileri indir ve eşitle">
 <!ENTITY MsgSelect.label "Çevrimdışı kullanılacak öğeler">
-<!ENTITY MsgSyncDesc.label "Posta dizinlerini veya haber gruplarını çevrimdışı kullanımı için seçtiyseniz, onları şimdi indirebilir ve/veya eşitleyebilirsiniz. Aksi hâlde, &quot;Seç&quot; düğmesini tıklayarak posta dizinlerini ve haber gruplarını çevrimdışı kullanım için seçebilirsiniz.">
+<!ENTITY MsgSyncDesc.label "Posta klasörlerini veya haber gruplarını çevrimdışı kullanımı için seçtiyseniz onları şimdi indirebilir ve/veya eşitleyebilirsiniz. Aksi halde &quot;Seç&quot; düğmesini tıklayarak posta klasörlerini ve haber gruplarını çevrimdışı kullanım için seçebilirsiniz.">
 <!ENTITY MsgSyncDirections.label "Aşağıdakileri indir ve/veya eşitle:">
 <!ENTITY syncTypeMail.label "Posta iletileri">
 <!ENTITY syncTypeMail.accesskey "e">
@@ -18,6 +18,6 @@
 <!ENTITY workOffline.accesskey "a">
 <!ENTITY selectButton.label "Seç…">
 <!ENTITY selectButton.accesskey "e">
-<!ENTITY MsgSelectDesc.label "Çevrimdışı kullanılacak posta dizinlerini ve haber gruplarını seçin.">
+<!ENTITY MsgSelectDesc.label "Çevrimdışı kullanılacak posta klasörlerini ve haber gruplarını seçin.">
 <!ENTITY MsgSelectInd.label "İndir">
 <!ENTITY MsgSelectItems.label "Klasörler ve haber grupları">

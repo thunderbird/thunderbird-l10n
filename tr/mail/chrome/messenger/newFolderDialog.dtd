@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY newFolderDialog.title      "Yeni Dizin">
-<!ENTITY name.label                 "Dizin adı:">
+<!ENTITY newFolderDialog.title      "Yeni Klasör">
+<!ENTITY name.label                 "Klasör adı:">
 <!ENTITY name.accesskey             "D">
 <!ENTITY description.label          "Aşağıdaki klasörün alt klasörü olarak oluştur:">
 <!ENTITY description.accesskey      "k">

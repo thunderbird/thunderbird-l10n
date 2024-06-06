@@ -2,8 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY windowTitle.label "İsimlendirilmiş Çıpa Özellikleri">
+<!ENTITY windowTitle.label "Adlandırılmış çıpa özellikleri">
 <!ENTITY anchorNameEditField.label "Çıpa adı:">
 <!ENTITY anchorNameEditField.accessKey "p">
-<!ENTITY nameInput.tooltip "Bu isimlendirilmiş çıpa (hedef) için benzersiz bir isim girin">
-
+<!ENTITY nameInput.tooltip "Bu adlandırılmış çıpa (hedef) için benzersiz bir ad girin">

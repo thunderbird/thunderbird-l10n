@@ -16,7 +16,7 @@
 <!ENTITY importFromOutlook.label        "Outlook">
 <!ENTITY importFromOutlook.accesskey    "O">
 
-<!ENTITY importSource.title             "Ayarları ve Posta Dizinlerini İçe Aktar">
+<!ENTITY importSource.title             "Ayarları ve Posta Klasörlerini İçe Aktar">
 <!ENTITY importItems.title              "İçe Aktarılacak Öğeler">
 <!ENTITY importItems.label              "İçe aktarılacak öğeleri seçin:">
 
