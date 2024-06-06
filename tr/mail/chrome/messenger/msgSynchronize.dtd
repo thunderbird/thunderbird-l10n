@@ -20,4 +20,4 @@
 <!ENTITY selectButton.accesskey "e">
 <!ENTITY MsgSelectDesc.label "Çevrimdışı kullanılacak posta dizinlerini ve haber gruplarını seçin.">
 <!ENTITY MsgSelectInd.label "İndir">
-<!ENTITY MsgSelectItems.label "Dizinler ve haber grupları">
+<!ENTITY MsgSelectItems.label "Klasörler ve haber grupları">

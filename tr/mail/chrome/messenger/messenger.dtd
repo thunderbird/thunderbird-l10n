@@ -127,12 +127,12 @@
 <!ENTITY messagePaneWide.accesskey "n">
 <!ENTITY messagePaneVertical.label "Dikey görünüm">
 <!ENTITY messagePaneVertical.accesskey "k">
-<!ENTITY showFolderPaneCmd.label "Dizin bölmesi">
+<!ENTITY showFolderPaneCmd.label "Klasör bölmesi">
 <!ENTITY showFolderPaneCmd.accesskey "D">
 <!ENTITY showMessageCmd.label "İleti bölmesi">
 <!ENTITY showMessageCmd.accesskey "B">
 
-<!ENTITY folderView.label "Dizinler">
+<!ENTITY folderView.label "Klasörler">
 <!ENTITY folderView.accesskey "D">
 <!ENTITY unifiedFolders.label "Birleşik">
 <!ENTITY unifiedFolders.accesskey "B">
@@ -300,7 +300,7 @@
 <!ENTITY goChatCmd.accesskey "b">
 <!ENTITY prevStarredMsgCmd.label "Yıldızlı ileti">
 <!ENTITY prevStarredMsgCmd.accesskey "d">
-<!ENTITY folderMenu.label "Dizin">
+<!ENTITY folderMenu.label "Klasör">
 <!ENTITY folderMenu.accesskey "D">
 <!ENTITY goRecentlyClosedTabs.label "Yeni kapatılan sekmeler">
 <!ENTITY goRecentlyClosedTabs.accesskey "r">
@@ -648,7 +648,7 @@
 <!ENTITY searchRecipient.label "Kime veya Cc">
 <!ENTITY searchSubjectOrRecipientMenu.label "Konu, kime veya Cc">
 <!ENTITY searchMessageBody.label "Tüm ileti">
-<!ENTITY saveAsVirtualFolderMenu.label "Aramayı dizin olarak kaydet…">
+<!ENTITY saveAsVirtualFolderMenu.label "Aramayı klasör olarak kaydet…">
 
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "İletileri seç">
@@ -857,7 +857,7 @@
 <!ENTITY SendMessageTo.accesskey "o">
 <!ENTITY CopyEmailAddress.label "E-posta adresini kopyala">
 <!ENTITY CopyEmailAddress.accesskey "k">
-<!ENTITY CopyNameAndEmailAddress.label "İsmi ve e-posta adresini kopyala">
+<!ENTITY CopyNameAndEmailAddress.label "Adı ve e-posta adresini kopyala">
 <!ENTITY CopyNameAndEmailAddress.accesskey "m">
 <!ENTITY CopyNewsgroupName.label "Haber grubu adını kopyala">
 <!ENTITY CopyNewsgroupName.accesskey "b">

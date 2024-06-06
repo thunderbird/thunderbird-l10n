@@ -6,11 +6,11 @@
 <!ENTITY newFolderDialog.title      "Yeni Dizin">
 <!ENTITY name.label                 "Dizin adı:">
 <!ENTITY name.accesskey             "D">
-<!ENTITY description.label          "Aşağıdaki dizinin alt dizini olarak oluştur:">
+<!ENTITY description.label          "Aşağıdaki klasörün alt klasörü olarak oluştur:">
 <!ENTITY description.accesskey      "k">
-<!ENTITY folderRestriction1.label   "Bu sunucu dizinleri iki özel türle sınırlandırıyor.">
-<!ENTITY folderRestriction2.label   "Yeni dizin aşağıdakileri içerebilir:">
-<!ENTITY foldersOnly.label          "Yalnızca dizinler">
+<!ENTITY folderRestriction1.label   "Bu sunucu klasörleri iki özel türle sınırlandırıyor.">
+<!ENTITY folderRestriction2.label   "Yeni klasör aşağıdakileri içerebilir:">
+<!ENTITY foldersOnly.label          "Yalnızca klasörler">
 <!ENTITY messagesOnly.label         "Yalnızca iletiler">
-<!ENTITY accept.label               "Dizin oluştur">
+<!ENTITY accept.label               "Klasör oluştur">
 <!ENTITY accept.accesskey           "o">

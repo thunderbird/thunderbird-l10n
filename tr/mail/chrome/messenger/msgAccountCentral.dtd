@@ -15,7 +15,7 @@
 <!ENTITY chat.label                   "Sohbet">
 
 <!ENTITY accountsSectionHdr.label     "Hesaplar">
-<!ENTITY subscribeImapFolders.label   "Dizin aboneliklerini yönet">
+<!ENTITY subscribeImapFolders.label   "Klasör aboneliklerini yönet">
 <!ENTITY settingsLink.label           "Bu hesabın ayarlarını görüntüle">
 <!ENTITY setupNewAcct.label           "Hesap ekle:">
 
