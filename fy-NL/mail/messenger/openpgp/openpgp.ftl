@@ -351,7 +351,7 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Jo aktuele konfiguraasje brûkt kaai-ID <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
-openpgp-selection-status-error = Jo aktuele konfiguraasje brûkt de kaai <b>{ $key }</b>, dy’t ferfallen is.
+openpgp-selection-status-error = Jo aktuele konfiguraasje brûkt de kaai <b>{ $key }</b>, dy’t ferrûn is.
 openpgp-add-key-button =
     .label = Kaai tafoegje…
     .accesskey = f
@@ -564,14 +564,14 @@ openpgp-export-secret-fail = <b>Kin de selektearre geheime kaai net eksportearje
 ## $keyId (String) - Key id for the key entry.
 
 key-ring-pub-key-revoked = De kaai { $userId } (sleutel-ID { $keyId }) is ynlutsen.
-key-ring-pub-key-expired = De kaai { $userId } (sleutel-ID { $keyId }) is ferfallen.
+key-ring-pub-key-expired = De kaai { $userId } (sleutel-ID { $keyId }) is ferrûn.
 key-ring-no-secret-key = It liket oft jo de geheime kaai foar { $userId } (key ID { $keyId }) net oan jo kaaihinger hawwe; jo kinne de kaai net brûke om te ûndertekenjen.
 key-ring-pub-key-not-for-signing = De kaai { $userId } (kaai-ID { $keyId }) kin net brûkt wurde foar ûndertekening.
 key-ring-pub-key-not-for-encryption = De kaai { $userId } (kaai-ID { $keyId }) kin net brûkt wurde foar fersifering.
 key-ring-sign-sub-keys-revoked = Alle ûndertekeningssubkaaien fan kaai { $userId } (kaai-ID { $keyId }) binne ynlutsen.
-key-ring-sign-sub-keys-expired = Alle ûndertekeningssubkaaien fan kaai { $userId } (kaai-ID { $keyId }) binne ferfallen.
+key-ring-sign-sub-keys-expired = Alle ûndertekeningssubkaaien fan kaai { $userId } (kaai-ID { $keyId }) binne ferrûn.
 key-ring-enc-sub-keys-revoked = Alle fersiferingssubkaaien fan kaai { $userId } (kaai-ID { $keyId }) binne ynlutsen.
-key-ring-enc-sub-keys-expired = Alle fersiferingssubkaaien fan kaai { $userId } (kaai-ID { $keyId }) binne ferfallen.
+key-ring-enc-sub-keys-expired = Alle fersiferingssubkaaien fan kaai { $userId } (kaai-ID { $keyId }) binne ferrûn.
 
 ## Strings in gnupg-keylist.jsm
 
@@ -767,7 +767,7 @@ key-not-found = Kaai ‘{ $key }’ net fûn
 key-revoked = Kaai ‘{ $key }’ ynlutsen
 # Variables:
 # $key (String) - Key id.
-key-expired = Kaai ‘{ $key }’ is ferfallen
+key-expired = Kaai ‘{ $key }’ is ferrûn
 msg-compose-internal-error = Der is in ynterne flater bard.
 keys-to-export = Selektearje yn te foegjen OpenPGP-kaaien
 msg-compose-partially-encrypted-inlinePGP =

@@ -16,6 +16,7 @@ connection-error-time-out = Wachttiid foar ferbining ferstrutsen
 connection-error-invalid-username = { $username } is gjin tastiene brûkersnamme
 connection-error-invalid-password = Unjildich serverwachtwurd
 connection-error-password-required = Wachtwurd fereaske
+connection-error-invalid-user-password = Unjildich wachtwurd
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanaal
