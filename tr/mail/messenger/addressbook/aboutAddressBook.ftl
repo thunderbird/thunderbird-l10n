@@ -100,6 +100,11 @@ about-addressbook-column-header-generatedname2 = Ad
     .title = Ada göre sırala
 about-addressbook-column-label-generatedname2 =
     .label = Ad
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Adı
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = E-posta adresleri
     .title = E-posta adreslerine göre sırala
 about-addressbook-column-label-emailaddresses2 =
