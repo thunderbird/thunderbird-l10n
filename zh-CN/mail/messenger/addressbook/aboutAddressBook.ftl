@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = 搜索 { $name }
 about-addressbook-search-all =
     .placeholder = 搜索所有通讯录
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = 搜索 { $name }
+    .placeholder = 搜索 { $name }…
+about-addressbook-search-all2 =
+    .label = 搜索全部通讯录
+    .placeholder = 搜索全部通讯录…
 about-addressbook-sort-button2 =
     .title = 列表显示选项
 about-addressbook-name-format-display =
