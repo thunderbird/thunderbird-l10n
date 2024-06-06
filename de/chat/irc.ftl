@@ -16,6 +16,7 @@ connection-error-time-out = Verbindung unterbrochen, keine Antwort
 connection-error-invalid-username = { $username } ist kein erlaubter Benutzername
 connection-error-invalid-password = Ungültiges Server-Passwort
 connection-error-password-required = Passwort erforderlich
+connection-error-invalid-user-password = Falsches Passwort
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Raum
