@@ -16,6 +16,7 @@ connection-error-time-out = 連線逾時
 connection-error-invalid-username = { $username } 是不被允許使用的使用者名稱
 connection-error-invalid-password = 伺服器密碼無效
 connection-error-password-required = 需要密碼
+connection-error-invalid-user-password = 密碼無效
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = 頻道（_C）
