@@ -16,6 +16,7 @@ connection-error-time-out = Wachttijd voor verbinding verstreken
 connection-error-invalid-username = { $username } is geen toegestane gebruikersnaam
 connection-error-invalid-password = Ongeldig serverwachtwoord
 connection-error-password-required = Wachtwoord vereist
+connection-error-invalid-user-password = Ongeldig wachtwoord
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanaal
