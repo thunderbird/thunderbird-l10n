@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 compact-dialog-window-title =
-    .title = Dizinleri sıkıştır
-compact-folders-dialog-title = Dizinleri sıkıştır
+    .title = Klasörleri sıkıştır
+compact-folders-dialog-title = Klasörleri sıkıştır
 compact-dialog =
     .buttonlabelaccept = Şimdi sıkıştır
     .buttonaccesskeyaccept = s

@@ -95,8 +95,8 @@ menu-view-repair-text-encoding =
 ## View / Folders
 
 menu-view-folders-toggle-header =
-    .label = Dizin bölmesi başlığı
-    .accesskey = D
+    .label = Klasör bölmesi başlığı
+    .accesskey = K
 
 ## View / Layout
 

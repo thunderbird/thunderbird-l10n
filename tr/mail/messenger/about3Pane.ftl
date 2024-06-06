@@ -204,7 +204,7 @@ folder-pane-header-toggle-folder-size =
 folder-pane-header-hide-local-folders =
     .label = Yerel klasörleri gizle
 folder-pane-mode-context-button =
-    .title = Dizin modu seçenekleri
+    .title = Klasör modu seçenekleri
 folder-pane-mode-context-toggle-compact-mode =
     .label = Yoğun görünüm
     .accesskey = Y
@@ -484,25 +484,25 @@ apply-columns-to-menu =
 apply-current-view-to-menu =
     .label = Geçerli görünümü uygula…
 apply-current-view-to-folder =
-    .label = Dizin…
+    .label = Klasör…
 apply-current-view-to-folder-children =
-    .label = Dizin ve alt dizinlerine…
+    .label = Klasör ve alt klasörlerine…
 
 ## Apply columns confirmation dialog
 
 apply-changes-to-folder-title = Değişiklikler uygulansın mı?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-columns-to-folder-message = Geçerli dizinin sütunları { $name } dizinine uygulansın mı?
+apply-current-columns-to-folder-message = Geçerli klasörün sütunları { $name } klasörüne uygulansın mı?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-columns-to-folder-with-children-message = Geçerli dizinin sütunları { $name } ve alt dizinlerine uygulansın mı?
+apply-current-columns-to-folder-with-children-message = Geçerli klasörün sütunları { $name } ve alt klasörlerine uygulansın mı?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-view-to-folder-message = Geçerli dizinin görünümü { $name } dizinine uygulansın mı?
+apply-current-view-to-folder-message = Geçerli klasörün görünümü { $name } klasörüne uygulansın mı?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-view-to-folder-with-children-message = Geçerli dizinin görünümü { $name } ve alt dizinlerine uygulansın mı?
+apply-current-view-to-folder-with-children-message = Geçerli klasörün görünümü { $name } ve alt klasörlerine uygulansın mı?
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.

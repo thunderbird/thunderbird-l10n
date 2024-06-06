@@ -4,12 +4,10 @@
 
 apply-current-view-to-menu =
     .label = Geçerli görünümü uygula…
-
 threadpane-apply-changes-prompt-title = Değişiklikler uygulansın mı?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-threadpane-apply-changes-prompt-no-children-text = Geçerli dizinin görünümü { $name } dizinine uygulansın mı?
+threadpane-apply-changes-prompt-no-children-text = Geçerli klasörün görünümü { $name } klasörüne uygulansın mı?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-threadpane-apply-changes-prompt-with-children-text = Geçerli dizinin görünümü { $name } ve alt dizinlerine uygulansın mı?
-
+threadpane-apply-changes-prompt-with-children-text = Geçerli klasörün görünümü { $name } ve alt klasörlerine uygulansın mı?

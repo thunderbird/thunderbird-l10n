@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = { $name } defterinde ara
 about-addressbook-search-all =
     .placeholder = Tüm adres defterlerinde ara
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = { $name } defterinde ara
+    .placeholder = { $name } defterinde ara…
+about-addressbook-search-all2 =
+    .label = Tüm adres defterlerinde ara
+    .placeholder = Tüm adres defterlerinde ara…
 about-addressbook-sort-button2 =
     .title = Görüntüleme seçeneklerini listele
 about-addressbook-name-format-display =

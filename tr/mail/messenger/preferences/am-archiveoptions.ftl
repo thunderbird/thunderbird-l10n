@@ -17,7 +17,7 @@ keep-folder-structure =
     .label = Arşivlenmiş iletilerin mevcut klasör yapısını koru
     .accesskey = m
 recreate-inbox =
-    .label = Gelen kutusu dizinini yeniden oluştur
+    .label = Gelen kutusu klasörünü yeniden oluştur
     .accesskey = G
 archive-example-label = Örnek
 # This should match the default name for the "Archives" folder.
