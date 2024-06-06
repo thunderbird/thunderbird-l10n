@@ -16,6 +16,7 @@ connection-error-time-out = Tilraun til að tengjast féll á tíma
 connection-error-invalid-username = { $username } er ekki leyfilegt notandanafn
 connection-error-invalid-password = Ógilt lykilorð á netþjóni
 connection-error-password-required = Lykilorðs krafist
+connection-error-invalid-user-password = Ógilt lykilorð
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = Spjall_rás
