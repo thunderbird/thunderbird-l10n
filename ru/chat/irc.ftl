@@ -16,6 +16,7 @@ connection-error-time-out = Время ожидания соединения и�
 connection-error-invalid-username = Имя пользователя { $username } является недопустимым
 connection-error-invalid-password = Неверный пароль на сервер
 connection-error-password-required = Требуется пароль
+connection-error-invalid-user-password = Неверный пароль
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Канал
