@@ -96,11 +96,11 @@ redirect-msg-button =
 ## Folder Pane
 
 folder-pane-toolbar =
-    .toolbarname = Dizin bölmesi araç çubuğu
-    .accesskey = D
+    .toolbarname = Klasör bölmesi araç çubuğu
+    .accesskey = K
 folder-pane-toolbar-options-button =
-    .tooltiptext = Dizin bölmesi seçenekleri
-folder-pane-header-label = Dizinler
+    .tooltiptext = Klasör bölmesi seçenekleri
+folder-pane-header-label = Klasörler
 
 ## Folder Toolbar Header Popup
 
@@ -108,19 +108,19 @@ folder-toolbar-hide-toolbar-toolbarbutton =
     .label = Araç çubuğunu gizle
     .accesskey = u
 show-all-folders-label =
-    .label = Tüm dizinler
+    .label = Tüm klasörler
     .accesskey = m
 show-unread-folders-label =
-    .label = Okunmamış dizinler
+    .label = Okunmamış klasörler
     .accesskey = O
 show-favorite-folders-label =
-    .label = Favori dizinler
+    .label = Favori klasörler
     .accesskey = F
 show-smart-folders-label =
-    .label = Birleşik dizinler
+    .label = Birleşik klasörler
     .accesskey = B
 show-recent-folders-label =
-    .label = Son kullanılan dizinler
+    .label = Son kullanılan klasörler
     .accesskey = S
 show-tags-folders-label =
     .label = Etiketler
@@ -138,7 +138,7 @@ menu-file-save-as-file =
 ## Edit Menu
 
 menu-edit-delete-folder =
-    .label = Dizini sil
+    .label = Klasörü sil
     .accesskey = i
 menu-edit-unsubscribe-newsgroup =
     .label = Haber grubu aboneliğinden ayrıl
@@ -165,7 +165,7 @@ menu-edit-properties =
     .label = Özellikler
     .accesskey = Ö
 menu-edit-folder-properties =
-    .label = Dizin özellikleri
+    .label = Klasör özellikleri
     .accesskey = Ö
 menu-edit-newsgroup-properties =
     .label = Haber grubu özellikleri

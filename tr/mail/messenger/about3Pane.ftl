@@ -39,7 +39,7 @@ thread-pane-header-context-hide =
 # folders or opens new tabs. (When inactive, only the state of the text
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
-    .title = Dizin değişince süzgeçleri uygulamayı sürdür
+    .title = Klasör değişince süzgeçleri uygulamayı sürdür
 # The tooltip for the filter button that replaces the quick filter buttons with
 # a dropdown menu.
 quick-filter-bar-dropdown =
@@ -119,6 +119,8 @@ quick-filter-bar-textbox =
     .placeholder = Bu iletileri süz <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = İletileri süz:
+quick-filter-bar-search2 =
+    .label = İletileri süz
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -166,7 +168,7 @@ quick-filter-bar-text-filter-subject = Konu
 quick-filter-bar-text-filter-body = Gövde
 # The first line of the panel popup that tells the user we found no matches
 # but we can convert to a global search for them.
-quick-filter-bar-gloda-upsell-line1 = Bu aramayı tüm dizinlerde sürdür
+quick-filter-bar-gloda-upsell-line1 = Bu aramayı tüm klasörlerde sürdür
 # The second line of the panel popup that tells the user we found no matches.
 # Variables:
 # $text (String) - What the user has typed so far.
@@ -182,10 +184,10 @@ folder-pane-get-all-messages-menuitem =
 folder-pane-write-message-button = Yeni ileti
     .title = Yeni bir ileti oluştur
 folder-pane-more-menu-button =
-    .title = Dizin bölmesi seçenekleri
+    .title = Klasör bölmesi seçenekleri
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
-    .label = Dizin modları
+    .label = Klasör modları
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
     .label = “İletileri al” düğmesini göster
@@ -193,12 +195,12 @@ folder-pane-header-context-toggle-get-messages =
 folder-pane-header-context-toggle-new-message =
     .label = “Yeni ileti” düğmesini göster
 folder-pane-header-context-hide =
-    .label = Dizin bölmesi başlığını gizle
+    .label = Klasör bölmesi başlığını gizle
 folder-pane-show-total-toggle =
     .label = Toplam ileti sayısını göster
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
-    .label = Dizin boyutunu göster
+    .label = Klasör boyutunu göster
 folder-pane-header-hide-local-folders =
     .label = Yerel klasörleri gizle
 folder-pane-mode-context-button =

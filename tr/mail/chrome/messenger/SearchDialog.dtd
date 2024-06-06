@@ -5,7 +5,7 @@
 <!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "İletileri burada ara:">
 <!ENTITY searchHeading.accesskey     "a">
-<!ENTITY searchSubfolders.label      "Alt dizinlerde ara">
+<!ENTITY searchSubfolders.label      "Alt klasörlerde ara">
 <!ENTITY searchSubfolders.accesskey  "A">
 <!ENTITY searchOnServer.label        "Aramayı sunucuda çalıştır">
 <!ENTITY searchOnServer.accesskey    "s">
@@ -20,9 +20,9 @@
 <!ENTITY moveButton.label            "Taşı">
 <!ENTITY moveButton.accesskey        "T">
 <!ENTITY closeCmd.key                "W">
-<!ENTITY openInFolder.label          "Bu dizinde aç">
+<!ENTITY openInFolder.label          "Bu klasörde aç">
 <!ENTITY openInFolder.accesskey      "d">
-<!ENTITY saveAsVFButton.label        "Arama dizini olarak kaydet">
+<!ENTITY saveAsVFButton.label        "Arama klasörü olarak kaydet">
 <!ENTITY saveAsVFButton.accesskey    "A">
 
 <!-- for abSearchDialog.xhtml -->

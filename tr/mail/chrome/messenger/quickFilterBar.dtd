@@ -38,7 +38,7 @@
      filters are propagated between folder changes and when opening new tabs.)
      -->
 <!ENTITY quickFilterBar.sticky.tooltip
-         "Dizin değişince süzgeçleri uygulamayı sürdür">
+         "Klasör değişince süzgeçleri uygulamayı sürdür">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.unread.label):
      The label for the filter button that causes us to filter results to only
@@ -259,7 +259,7 @@
      but we can convert to a global search for them.
      -->
 <!ENTITY quickFilterBar.glodaUpsell.continueSearch
-         "Bu aramayı tüm dizinlerde sürdür">
+         "Bu aramayı tüm klasörlerde sürdür">
 
 <!-- LOCALIZATION NOTE (quickFilterBar.glodaUpsell.pressEnterAndCurrent):
      The second line of the panel popup that tells the user we found no matches.
