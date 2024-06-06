@@ -268,7 +268,7 @@ offline-compact-folder-automatically =
     .label = Sıkıştırmadan önce her seferinde sor
     .accesskey = o
 compact-folder-size =
-    .value = MB kazanılabileceği zaman tüm dizinleri sıkıştır
+    .value = MB kazanılabileceği zaman tüm klasörleri sıkıştır
 
 ## Note: The entities use-cache-before and use-cache-after appear on a single
 ## line in preferences as follows:

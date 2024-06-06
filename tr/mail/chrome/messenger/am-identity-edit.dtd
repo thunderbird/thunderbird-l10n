@@ -4,7 +4,7 @@
 
 <!ENTITY settingsTab.label       "Ayarlar">
 <!ENTITY copiesFoldersTab.label "Kopyalar ve klasörler">
-<!ENTITY addressingTab.label    "Kompozisyon ve adresler">
+<!ENTITY addressingTab.label    "Düzenleme ve adresler">
 
 <!ENTITY publicData.label        "Kamuya açık veri">
 <!ENTITY privateData.label       "Özel veri">

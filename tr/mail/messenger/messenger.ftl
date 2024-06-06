@@ -227,6 +227,9 @@ mail-context-menu-forward-as-attachment =
            *[other] Ek olarak
         }
     .accesskey = E
+mail-context-menu-organize =
+    .label = Organize et
+    .accesskey = O
 mail-context-menu-threads =
     .label = Diziler
     .accesskey = D

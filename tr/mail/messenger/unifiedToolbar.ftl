@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Arama
 search-bar-item =
     .label = Ara:
+search-bar-item2 =
+    .label = Arama
 search-bar-placeholder = Ara…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key

@@ -68,7 +68,7 @@
 <!ENTITY alwaysAuthenticate.accesskey "u">
 <!ENTITY newsrcFilePath1.label "News.rc dosyası:">
 <!ENTITY newsrcPicker1.label "News.rc dosyasını seçin">
-<!ENTITY abbreviate.label "Haber grubu isimlerini posta klasörü bölmesinde göster:">
+<!ENTITY abbreviate.label "Haber grubu adlarını posta klasörü bölmesinde göster:">
 <!ENTITY abbreviateOn.label "Tam adlar (örnek: 'netscape.public.mozilla.mail-news')">
 <!ENTITY abbreviateOff.label "Kısa adlar (örnek: 'n.p.m.mail-news')">
 <!ENTITY advancedButton.label "Gelişmiş…">
