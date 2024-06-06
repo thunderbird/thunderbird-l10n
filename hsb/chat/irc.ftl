@@ -16,6 +16,7 @@ connection-error-time-out = Časowe překročenje
 connection-error-invalid-username = { $username } dowolene wužiwarske mjeno njeje
 connection-error-invalid-password = Njepłaćiwe serwerowe hesło
 connection-error-password-required = Hesło trěbne
+connection-error-invalid-user-password = Njepłaćiwe hesło
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _kanal
