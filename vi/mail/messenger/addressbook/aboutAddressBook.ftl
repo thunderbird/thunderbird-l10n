@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Tìm kiếm { $name }
 about-addressbook-search-all =
     .placeholder = Tìm kiếm tất cả các sổ địa chỉ
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Tìm kiếm { $name }
+    .placeholder = Tìm kiếm { $name }…
+about-addressbook-search-all2 =
+    .label = Tìm kiếm tất cả sổ địa chỉ
+    .placeholder = Tìm kiếm tất cả sổ địa chỉ…
 about-addressbook-sort-button2 =
     .title = Tùy chọn hiển thị liệt kê
 about-addressbook-name-format-display =
