@@ -60,6 +60,8 @@ toolbar-delete-label = Kkes
 toolbar-delete-title =
     .title = Kkes iznan yettwafernen
 toolbar-undelete-label = Sefsex tukksa
+toolbar-undelete =
+    .title = Ur ittekkes ara iznan yettwafernen
 toolbar-compact-label = Ssed
 toolbar-compact =
     .title = Kkes iznan ittwaksen seg ukaram ifernen
@@ -135,12 +137,20 @@ toolbar-throbber-label = anamal n wermud
 toolbar-throbber =
     .title = anamal n wermud
 toolbar-create-contact-label = Anermis amaynut
+toolbar-create-contact =
+    .title = Rnu anermis amaynut
 toolbar-create-address-book-label = Imedlis n tensa amaynut
 toolbar-create-list-label = Tabdart tamaynut
+toolbar-create-list =
+    .title = Rnu tabdart n yimaylen imaynuten
 toolbar-import-contacts-label = Kter
+toolbar-import-contacts =
+    .title = Kter inermisen seg ufaylu
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Rnu amedlis n tensa adigan
 toolbar-new-address-book-popup-add-carddav-address-book =
     .label = Rnu imedlis n tensa CardDAV
 toolbar-new-address-book-popup-add-ldap-address-book =
