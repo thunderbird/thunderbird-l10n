@@ -5,7 +5,7 @@
 calendar-today-pane-show-events-and-tasks =
     .tooltiptext = Monstrar eventos e activitates
 calendar-today-pane-show-tasks-only =
-    .tooltiptext = Monstrar schedas
+    .tooltiptext = Monstrar cargas
 calendar-today-pane-show-events-only =
     .tooltiptext = Monstrar eventos
 calendar-today-pane-close-button =

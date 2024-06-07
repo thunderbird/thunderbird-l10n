@@ -4,7 +4,7 @@
 
 new-account-label = Nove conto
 # Instant messaging account status window for Thunderbird
-accounts-window-title = Stato del messages instantanee
+accounts-window-title = Stato del messageria instantanee
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = N
