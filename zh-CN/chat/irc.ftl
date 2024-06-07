@@ -16,6 +16,7 @@ connection-error-time-out = 连接超时
 connection-error-invalid-username = { $username } 是不允许使用的昵称。
 connection-error-invalid-password = 无效的服务器密码
 connection-error-password-required = 需要密码
+connection-error-invalid-user-password = 密码无效
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = 频道
