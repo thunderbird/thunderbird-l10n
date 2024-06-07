@@ -16,6 +16,7 @@ connection-error-time-out = Connexion expirate
 connection-error-invalid-username = { $username } non es un nomine de usator permittite
 connection-error-invalid-password = Contrasigno de servitor non valide
 connection-error-password-required = Contrasigno requirite
+connection-error-invalid-user-password = Contrasigno non valide
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Canal
