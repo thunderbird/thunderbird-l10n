@@ -17,6 +17,7 @@ sync-verification-not-sent-body = Ur nezmir ara anazen imayl n usenqed akka tura
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = Ffeɣ seg umiḍan?
 sync-signout-dialog-body = Isefkan yemtawin ad qqimen deg umiḍan-ik·m.
 sync-signout-dialog-button = Ffeɣ
 
