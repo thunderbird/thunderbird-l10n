@@ -560,3 +560,19 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Powěsćowy meni
+message-list-placeholder-no-messages = Žedna powěsć namakana
+message-list-placeholder-multiple-folders = Někotare zarědniki wubrane
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] { $count } zarědnik ako pśecytany markěrowaś
+            [two] { $count } zarědnika ako pśecytanej markěrowaś
+            [few] { $count } zarědniku ako pśecytane markěrowaś
+           *[other] { $count } zarědnikow ako pśecytane markěrowaś
+        }
+    .accesskey = z
