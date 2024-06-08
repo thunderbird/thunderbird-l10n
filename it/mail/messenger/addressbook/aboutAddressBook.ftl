@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Nuova lista
 about-addressbook-toolbar-import =
     .label = Importa
+books-pane-create-contact-button = Nuovo contatto
+    .title = Crea un nuovo contatto
+books-pane-create-book-button =
+    .title = Crea una nuova rubrica
+books-pane-create-list-button =
+    .title = Crea una nuova lista di distribuzione
 
 ## Books
 
