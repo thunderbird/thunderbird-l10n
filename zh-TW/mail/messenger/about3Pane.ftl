@@ -513,3 +513,16 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = 訊息選單
+message-list-placeholder-no-messages = 找不到郵件
+message-list-placeholder-multiple-folders = 選擇了多個資料夾
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+           *[other] 標記資料夾為已讀
+        }
+    .accesskey = k

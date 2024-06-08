@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = 新增群組名單
 about-addressbook-toolbar-import =
     .label = 匯入
+books-pane-create-contact-button = 新連絡人
+    .title = 建立新聯絡人
+books-pane-create-book-button =
+    .title = 建立新通訊錄
+books-pane-create-list-button =
+    .title = 建立新郵件群組
 
 ## Books
 
