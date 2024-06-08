@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Najít ve složce { $name }
 about-addressbook-search-all =
     .placeholder = Prohledat všechny složky kontaktů
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Vyhledat { $name }
+    .placeholder = Najít { $name }…
+about-addressbook-search-all2 =
+    .label = Prohledat všechny složky kontaktů
+    .placeholder = Najít ve všech složkách kontaktů…
 about-addressbook-sort-button2 =
     .title = Zobrazení seznamu
 about-addressbook-name-format-display =
