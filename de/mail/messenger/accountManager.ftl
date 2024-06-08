@@ -12,3 +12,6 @@ edit-vcard-dialog-accept-button = Speichern
     .accesskey = S
 edit-vcard-dialog-cancel-button = Abbrechen
     .accesskey = b
+account-manager-server-default-icon =
+    .title = Standardkonto
+    .alt = Sternsymbol

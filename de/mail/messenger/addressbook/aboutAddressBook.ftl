@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Neue Verteilerliste
 about-addressbook-toolbar-import =
     .label = Importieren
+books-pane-create-contact-button = Neuer Kontakt
+    .title = Neuen Kontakt anlegen
+books-pane-create-book-button =
+    .title = Neues Adressbuch anlegen
+books-pane-create-list-button =
+    .title = Neue Mailingliste anlegen
 
 ## Books
 
