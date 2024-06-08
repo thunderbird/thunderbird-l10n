@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Rhestr Newydd
 about-addressbook-toolbar-import =
     .label = Mewnforio
+books-pane-create-contact-button = Cysylltiad Newydd
+    .title = Creu cyswllt newydd
+books-pane-create-book-button =
+    .title = Creu llyfr cyfeiriadau newydd
+books-pane-create-list-button =
+    .title = Creu rhestr e-bostio newydd
 
 ## Books
 

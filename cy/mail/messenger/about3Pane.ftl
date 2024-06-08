@@ -600,3 +600,21 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Dewislen negeseuon
+message-list-placeholder-no-messages = Heb ganfod neges
+message-list-placeholder-multiple-folders = Ffolderi lluosog wedi'u dewis
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [zero] Darllen Ffolderi Marcio
+            [one] Marcio Ffolder Wedi'i Ddarllen
+            [two] Darllen Ffolderi Marcio
+            [few] Darllen Ffolderi Marcio
+            [many] Darllen Ffolderi Marcio
+           *[other] Darllen Ffolderi Marcio
+        }
+    .accesskey = D

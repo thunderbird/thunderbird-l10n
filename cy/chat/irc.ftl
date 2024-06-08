@@ -16,6 +16,7 @@ connection-error-time-out = Cysylltiad wedi dod i ben
 connection-error-invalid-username = Nid yw { $username } yn lysenw sy'n cael ei ganiatáu
 connection-error-invalid-password = Cyfrinair gweinydd annilys
 connection-error-password-required = Mae angen cyfrinair
+connection-error-invalid-user-password = Cyfrinair annilys
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Channel
