@@ -529,7 +529,7 @@ threadpane-sort-header-count =
 threadpane-card-menu-button =
     .title = Menú de mensajes
 message-list-placeholder-no-messages = No se encontró ningún mensaje
-message-list-placeholder-multiple-folders = Varias carpetas seleccionadas
+message-list-placeholder-multiple-folders = Se seleccionaron varias carpetas
 
 ## Folder pane context menu
 
@@ -538,7 +538,7 @@ message-list-placeholder-multiple-folders = Varias carpetas seleccionadas
 folder-pane-context-mark-folder-read =
     .label =
         { $count ->
-            [one] Marcar carpeta como leída
-           *[other] Marcar carpetas como leídas
+            [one] Marcar la carpeta como leída
+           *[other] Marcar las carpetas como leídas
         }
-    .accesskey = M
+    .accesskey = k

@@ -5,4 +5,4 @@
 account-settings-color-label = Color:
     .accesskey = C
 account-settings-reset-color-button =
-    .title = Restablecer color
+    .title = Restablecer el color

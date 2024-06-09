@@ -13,5 +13,5 @@ edit-vcard-dialog-accept-button = Guardar
 edit-vcard-dialog-cancel-button = Cancelar
     .accesskey = C
 account-manager-server-default-icon =
-    .title = Cuenta predeterminada
+    .title = Fuente predeterminada
     .alt = Icono estrella
