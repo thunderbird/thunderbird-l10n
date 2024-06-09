@@ -119,6 +119,8 @@ quick-filter-bar-textbox =
     .placeholder = Suodata nämä viestit <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = Suodata viestejä:
+quick-filter-bar-search2 =
+    .label = Suodata viestejä
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -526,3 +528,8 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Viestivalikko
+message-list-placeholder-no-messages = Viestiä ei löytynyt
+message-list-placeholder-multiple-folders = Useita kansioita valittu
+
+## Folder pane context menu
+

@@ -2,9 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-search-bar-clear-button =
-    .alt = Tyhjennä
-    .title = Tyhjennä tekstikenttä
-search-bar-search-button =
-    .alt = Etsi
-    .title = Etsi
+account-settings-color-label = Väri:
+    .accesskey = V
+account-settings-reset-color-button =
+    .title = Palauta väri

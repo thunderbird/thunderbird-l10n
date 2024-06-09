@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Säilytä nykyinen arkistointikansioiden rakenne
     .accesskey = S
+recreate-inbox =
+    .label = Luo Saapuneet-kansio uudelleen
+    .accesskey = L
 archive-example-label = Esimerkki
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,5 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Saapuneet
+child-folder-name =
+    .label = Saapuneet-kansion alikansio

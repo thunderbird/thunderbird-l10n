@@ -16,6 +16,7 @@ connection-error-time-out = Yhteys aikakatkaistiin
 connection-error-invalid-username = { $username } ei ole sallittu käyttäjätunnus
 connection-error-invalid-password = Virheellinen palvelinsalasana
 connection-error-password-required = Salasana vaaditaan
+connection-error-invalid-user-password = Virheellinen salasana
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanava
