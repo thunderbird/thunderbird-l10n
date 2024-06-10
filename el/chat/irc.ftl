@@ -16,6 +16,7 @@ connection-error-time-out = Το χρονικό όριο σύνδεσης έλη
 connection-error-invalid-username = Το «{ $username }» δεν είναι επιτρεπτό όνομα χρήστη
 connection-error-invalid-password = Μη έγκυρος κωδικός πρόσβασης διακομιστή
 connection-error-password-required = Απαιτείται κωδικός πρόσβασης
+connection-error-invalid-user-password = Μη έγκυρος κωδικός πρόσβασης
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Κανάλι

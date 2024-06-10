@@ -528,3 +528,17 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Μενού μηνύματος
+message-list-placeholder-no-messages = Δεν βρέθηκε μήνυμα
+message-list-placeholder-multiple-folders = Επιλέχθηκαν πολλαπλοί φάκελοι
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Επισήμανση φακέλου ως αναγνωσμένου
+           *[other] Επισήμανση φακέλων ως αναγνωσμένων
+        }
+    .accesskey = σ

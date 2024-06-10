@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Νέα λίστα
 about-addressbook-toolbar-import =
     .label = Εισαγωγή
+books-pane-create-contact-button = Νέα επαφή
+    .title = Δημιουργία νέας επαφής
+books-pane-create-book-button =
+    .title = Δημιουργία νέου ευρετηρίου
+books-pane-create-list-button =
+    .title = Δημιουργία νέας λίστας αλληλογραφίας
 
 ## Books
 
