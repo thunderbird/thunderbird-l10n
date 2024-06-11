@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Ny lista
 about-addressbook-toolbar-import =
     .label = Importera
+books-pane-create-contact-button = Ny kontakt
+    .title = Skapa en ny kontakt
+books-pane-create-book-button =
+    .title = Skapa en ny adressbok
+books-pane-create-list-button =
+    .title = Skapa en ny e-postlista
 
 ## Books
 

@@ -528,3 +528,17 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Meddelandemeny
+message-list-placeholder-no-messages = Inget meddelande hittades
+message-list-placeholder-multiple-folders = Flera mappar markerade
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Markera mapp som läst
+           *[other] Markera mappar som lästa
+        }
+    .accesskey = M
