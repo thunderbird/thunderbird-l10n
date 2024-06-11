@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Nieuwe lijst
 about-addressbook-toolbar-import =
     .label = Importeren
+books-pane-create-contact-button = Nieuw contact
+    .title = Een nieuw contact aanmaken
+books-pane-create-book-button =
+    .title = Een nieuw adresboek aanmaken
+books-pane-create-list-button =
+    .title = Een nieuwe e-maillijst aanmaken
 
 ## Books
 
