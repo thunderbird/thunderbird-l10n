@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Nowy adresnik załožyś
 books-pane-create-list-button =
     .title = Nowu rozpósłańsku lisćinu załožyś
+books-pane-import-button = Importěrowaś
+    .title = Adresniki importěrowaś
 
 ## Books
 
