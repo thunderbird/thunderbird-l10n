@@ -16,6 +16,7 @@ connection-error-time-out = Bağlantı zaman aşımına uğradı
 connection-error-invalid-username = { $username } izin verilen bir kullanıcı adı değil
 connection-error-invalid-password = Geçersiz sunucu parolası
 connection-error-password-required = Parola gerekli
+connection-error-invalid-user-password = Geçersiz parola
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanal

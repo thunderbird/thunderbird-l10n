@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Yeni liste
 about-addressbook-toolbar-import =
     .label = İçe aktar
+books-pane-create-contact-button = Yeni kişi
+    .title = Yeni kişi oluştur
+books-pane-create-book-button =
+    .title = Yeni adres defteri oluştur
+books-pane-create-list-button =
+    .title = Yeni e-posta listesi oluştur
 
 ## Books
 

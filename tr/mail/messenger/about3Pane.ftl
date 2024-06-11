@@ -528,3 +528,17 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = İleti menüsü
+message-list-placeholder-no-messages = İleti bulunamadı
+message-list-placeholder-multiple-folders = Birden çok klasör seçildi
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Klasörü okundu olarak işaretle
+           *[other] Klasörleri okundu olarak işaretle
+        }
+    .accesskey = K
