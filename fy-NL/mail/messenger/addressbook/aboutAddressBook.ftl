@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Nije list
 about-addressbook-toolbar-import =
     .label = Ymportearje
+books-pane-create-contact-button = Nij kontakt
+    .title = In nij kontakt oanmeitsje
+books-pane-create-book-button =
+    .title = In nij adresboek oanmeitsje
+books-pane-create-list-button =
+    .title = In nije e-maillist oanmeitsje
 
 ## Books
 

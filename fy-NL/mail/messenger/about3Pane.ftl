@@ -528,3 +528,17 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Berjochtemenu
+message-list-placeholder-no-messages = Gjin berjocht fûn
+message-list-placeholder-multiple-folders = Meardere mappen selektearre
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Map as lêzen markearje
+           *[other] Mappen as lêzen markearje
+        }
+    .accesskey = k
