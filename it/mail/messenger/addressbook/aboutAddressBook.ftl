@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Crea una nuova rubrica
 books-pane-create-list-button =
     .title = Crea una nuova lista di distribuzione
+books-pane-import-button = Importa
+    .title = Importa rubriche
 
 ## Books
 
