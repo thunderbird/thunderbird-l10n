@@ -107,6 +107,8 @@ quick-filter-bar-textbox =
     .placeholder = Lọc các tin nhắn này <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = Lọc thư:
+quick-filter-bar-search2 =
+    .label = Lọc thư
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -490,3 +492,13 @@ threadpane-sort-header-unread-count = <span>{ $unread }</span> chưa đọc tron
 threadpane-sort-header-count = <span>{ $total }</span> thư
 threadpane-card-menu-button =
     .title = Menu thư
+message-list-placeholder-no-messages = Không tìm thấy thư nào
+message-list-placeholder-multiple-folders = Đã chọn nhiều thư mục
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label = Đánh dấu thư mục là đã đọc
+    .accesskey = k

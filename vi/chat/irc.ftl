@@ -16,6 +16,7 @@ connection-error-time-out = Đã hết thời gian kết nối
 connection-error-invalid-username = { $username } không được chấp nhận là tên đăng nhập
 connection-error-invalid-password = Mật khẩu máy chủ không đúng
 connection-error-password-required = Yêu cầu mật khẩu
+connection-error-invalid-user-password = Mật khẩu không hợp lệ
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kênh

@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Danh sách mới
 about-addressbook-toolbar-import =
     .label = Nhập
+books-pane-create-contact-button = Liên hệ mới
+    .title = Tạo một liên hệ mới
+books-pane-create-book-button =
+    .title = Tạo một sổ địa chỉ mới
+books-pane-create-list-button =
+    .title = Tạo một danh sách gửi thư mới
 
 ## Books
 
