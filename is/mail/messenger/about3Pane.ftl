@@ -528,3 +528,17 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Skilaboðavalmynd
+message-list-placeholder-no-messages = Engin skilaboð fundust
+message-list-placeholder-multiple-folders = Margar möppur valdar
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Merkja möppu sem lesna
+           *[other] Merkja möppur sem lesnar
+        }
+    .accesskey = k

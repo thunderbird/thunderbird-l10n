@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Nýr listi
 about-addressbook-toolbar-import =
     .label = Flytja inn
+books-pane-create-contact-button = Nýr tengiliður
+    .title = Búa til nýjan tengilið
+books-pane-create-book-button =
+    .title = Búa til nýja nafnaskrá
+books-pane-create-list-button =
+    .title = Búa til nýjan póstlista
 
 ## Books
 
