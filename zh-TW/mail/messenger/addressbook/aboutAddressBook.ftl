@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = 建立新通訊錄
 books-pane-create-list-button =
     .title = 建立新郵件群組
+books-pane-import-button = 匯入
+    .title = 匯入通訊錄
 
 ## Books
 
