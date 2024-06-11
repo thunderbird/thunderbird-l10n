@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Vytvoriť nový adresár
 books-pane-create-list-button =
     .title = Vytvoriť nový rozosielací zoznam
+books-pane-import-button = Importovať
+    .title = Importovať adresáre
 
 ## Books
 
