@@ -559,3 +559,19 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Ponuka pre správu
+message-list-placeholder-no-messages = Nenašla sa žiadna správa
+message-list-placeholder-multiple-folders = Označených viacero priečinkov
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Označiť priečinok ako prečítaný
+            [few] Označiť priečinky ako prečítané
+            [many] Označiť priečinky ako prečítané
+           *[other] Označiť priečinky ako prečítané
+        }
+    .accesskey = O

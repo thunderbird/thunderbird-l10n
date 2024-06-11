@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Nový zoznam
 about-addressbook-toolbar-import =
     .label = Importovať
+books-pane-create-contact-button = Nový kontakt
+    .title = Vytvoriť nový kontakt
+books-pane-create-book-button =
+    .title = Vytvoriť nový adresár
+books-pane-create-list-button =
+    .title = Vytvoriť nový rozosielací zoznam
 
 ## Books
 
