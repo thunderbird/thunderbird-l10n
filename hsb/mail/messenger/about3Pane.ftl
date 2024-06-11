@@ -560,3 +560,19 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Powěsćowy meni
+message-list-placeholder-no-messages = Žana powěsć namakana
+message-list-placeholder-multiple-folders = Wjacore rjadowaki wubrane
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] { $count } rjadowak jako přečitany markěrować
+            [two] { $count } rjadowakaj jako přečitanej markěrować
+            [few] { $count } rjadowaki jako přečitane markěrować
+           *[other] { $count } rjadowakow jako přečitane markěrować
+        }
+    .accesskey = r

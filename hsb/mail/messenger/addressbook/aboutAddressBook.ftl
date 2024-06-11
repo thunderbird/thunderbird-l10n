@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Nowa lisćina
 about-addressbook-toolbar-import =
     .label = Importować
+books-pane-create-contact-button = Nowy kontakt
+    .title = Nowy kontakt wutworić
+books-pane-create-book-button =
+    .title = Nowy adresnik załožić
+books-pane-create-list-button =
+    .title = Nowu rozesyłansku lisćinu załožić
 
 ## Books
 
