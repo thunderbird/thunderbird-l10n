@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Skapa en ny adressbok
 books-pane-create-list-button =
     .title = Skapa en ny e-postlista
+books-pane-import-button = Importera
+    .title = Importera adressböcker
 
 ## Books
 
