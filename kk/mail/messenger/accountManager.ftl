@@ -12,3 +12,6 @@ edit-vcard-dialog-accept-button = Сақтау
     .accesskey = С
 edit-vcard-dialog-cancel-button = Бас тарту
     .accesskey = т
+account-manager-server-default-icon =
+    .title = Бастапқы тіркелгі
+    .alt = Жұлдызша таңбашасы

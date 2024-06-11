@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Жаңа тізім
 about-addressbook-toolbar-import =
     .label = Импорттау
+books-pane-create-contact-button = Жаңа контакт
+    .title = Жаңа контактты жасау
+books-pane-create-book-button =
+    .title = Жаңа адрестік кітапшаны жасау
+books-pane-create-list-button =
+    .title = Жаңа хат тарату тізімін жасау
 
 ## Books
 
