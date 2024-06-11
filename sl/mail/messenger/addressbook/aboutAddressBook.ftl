@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Nov seznam
 about-addressbook-toolbar-import =
     .label = Uvozi
+books-pane-create-contact-button = Nov stik
+    .title = Ustvari nov stik
+books-pane-create-book-button =
+    .title = Ustvari nov imenik
+books-pane-create-list-button =
+    .title = Ustvari nov poštni seznam
 
 ## Books
 
