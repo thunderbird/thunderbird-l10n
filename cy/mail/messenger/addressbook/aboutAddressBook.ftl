@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Creu llyfr cyfeiriadau newydd
 books-pane-create-list-button =
     .title = Creu rhestr e-bostio newydd
+books-pane-import-button = Mewnforio
+    .title = Mewnforio llyfrau cyfeiriadau
 
 ## Books
 
