@@ -527,3 +527,17 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Menu de message
+message-list-placeholder-no-messages = Nulle message trovate
+message-list-placeholder-multiple-folders = Selection multiple de plicas
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Marcar plica como legite
+           *[other] Marcar plicas como legite
+        }
+    .accesskey = l
