@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Жаңа адрестік кітапшаны жасау
 books-pane-create-list-button =
     .title = Жаңа хат тарату тізімін жасау
+books-pane-import-button = Импорттау
+    .title = Адрестік кітапшаларды импорттау
 
 ## Books
 
