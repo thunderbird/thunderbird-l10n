@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Neues Adressbuch anlegen
 books-pane-create-list-button =
     .title = Neue Mailingliste anlegen
+books-pane-import-button = Importieren
+    .title = Adressbücher importieren
 
 ## Books
 
