@@ -4,5 +4,6 @@
 
 calendar-itip-identity-dialog-title = Ikkje innbydd?
 calendar-itip-identity-warning = Du er ikkje med på gjestelista enno.
+calendar-itip-identity-dialog-box-title = Ubedd gjest
 calendar-itip-identity-label = Svar som:
 calendar-itip-identity-label-none = Knyt denne hendinga til:

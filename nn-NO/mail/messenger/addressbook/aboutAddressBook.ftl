@@ -18,6 +18,12 @@ about-addressbook-toolbar-new-list =
     .label = Ny liste
 about-addressbook-toolbar-import =
     .label = Importer
+books-pane-create-contact-button = Ny kontakt
+    .title = Opprett ein ny kontakt
+books-pane-create-book-button =
+    .title = Opprett ei ny adressebok
+books-pane-create-list-button =
+    .title = Opprett ei ny e-postliste
 
 ## Books
 
@@ -59,6 +65,14 @@ about-addressbook-search =
     .placeholder = Søk i { $name }
 about-addressbook-search-all =
     .placeholder = Søk i alle adressebøkene
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Søk i { $name }
+    .placeholder = Søk i { $name }…
+about-addressbook-search-all2 =
+    .label = Søk i alle adressebøker
+    .placeholder = Søk i alle adressebøker…
 about-addressbook-sort-button2 =
     .title = Vis liste over visingsvala
 about-addressbook-name-format-display =
@@ -75,42 +89,19 @@ about-addressbook-sort-email-ascending =
     .label = Sorter etter e-postadresse (A > Å)
 about-addressbook-sort-email-descending =
     .label = Sorter etter e-postadresse (Å > A)
-about-addressbook-horizontal-layout =
-    .label = Byt til horisontal utsjånad
-about-addressbook-vertical-layout =
-    .label = Byt til vertikal utsjånad
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Namn
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = E-postadresser
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Telefonnummer
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Adresser
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Tittel
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Avdeling
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organisasjon
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Adressebok
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Namn
     .title = Sorter etter namn
 about-addressbook-column-label-generatedname2 =
     .label = Namn
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Namn
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = E-postadresser
     .title = Sorter etter e-postadresser
 about-addressbook-column-label-emailaddresses2 =
@@ -131,10 +122,29 @@ about-addressbook-column-header-title2 = Tittel
     .title = Sorter etter tittel
 about-addressbook-column-label-title2 =
     .label = Tittel
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Avdeling
+    .title = { $title }
 about-addressbook-column-header-organization2 = Organisasjon
     .title = Sorter etter organisasjon
+about-addressbook-column-label-organization2 =
+    .label = Organisasjon
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organisasjon
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Adressebok
     .title = Sorter etter adressebok
+about-addressbook-column-label-addrbook2 =
+    .label = Adressebok
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Adressebok
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Skriv til
 about-addressbook-confirm-delete-mixed-title = Slett kontaktar og lister
@@ -164,28 +174,11 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Fjern kontaktar
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Er du sikker på at du vil fjerne { $name } frå { $list }?
-       *[other] Er du sikker på at du vil fjerne { $count } kontaktar frå { $list }?
-    }
-# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Slett kontakt
        *[other] Slett kontaktar
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Er du sikker på at du vil slette kontakten { $name }?
-       *[other] Er du sikker på at du vil slette { $count } kontaktar?
     }
 
 ## Card list placeholder

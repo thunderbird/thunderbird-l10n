@@ -19,6 +19,7 @@ auth-yes =
 auth-no =
     .label = Nei
 auth-verified = Eg har stadfesta at dette er det rette fingeravtrykket.
+auth-manual-verification = Manuell fingeravtrykk-stadfesting
 auth-question-and-answer = Spørsmål og svar
 auth-shared-secret = Delt løyndom
 auth-manual-verification-label =

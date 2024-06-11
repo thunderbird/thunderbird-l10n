@@ -5,12 +5,27 @@
 
 ## Send Format
 
+compose-send-format-menu =
+    .label = Sendingsformat
+    .accesskey = f
 compose-send-auto-menu-item =
     .label = Automatisk
     .accesskey = A
+compose-send-both-menu-item =
+    .label = Både HTML og rein tekst
+    .accesskey = B
+compose-send-html-menu-item =
+    .label = Berre HTML
+    .accesskey = e
+compose-send-plain-menu-item =
+    .label = Berre rein tekst
+    .accesskey = r
 
 ## Addressing widget
 
+#   $type (String) - the type of the addressing row
+remove-address-row-button =
+    .title = Fjern { $type }-feltet
 #   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label =
@@ -33,6 +48,9 @@ pill-tooltip-not-in-address-book = { $email } er ikkje i adresseboka di
 pill-action-edit =
     .label = Rediger adresse
     .accesskey = e
+pill-action-select-all-pills =
+    .label = Vel alle adresser
+    .accesskey = V
 pill-action-move-to =
     .label = Flytt til Til-feltet
     .accesskey = t
@@ -42,6 +60,9 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Flytt til Blindkopi-feltet
     .accesskey = B
+pill-action-expand-list =
+    .label = Utvid liste
+    .accesskey = U
 
 ## Attachment widget
 
@@ -59,6 +80,10 @@ menuitem-toggle-attachment-pane =
 toolbar-button-add-attachment =
     .label = Legg ved
     .tooltiptext = Legg ved eit vedlegg ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
+add-attachment-notification-reminder2 =
+    .label = Legg til vedlegg…
+    .accesskey = L
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 menuitem-attach-files =
     .label = Fil(er)…
     .accesskey = F
@@ -67,6 +92,23 @@ context-menuitem-attach-files =
     .label = Legg ved fil(er)…
     .accesskey = L
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = Mitt vCard
+    .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = Min offentlige OpenPGP-nøkkel
+    .accesskey = n
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } vedlegg
+       *[other] { $count } Attachments
+    }
+attachment-area-show =
+    .title = Vis vedleggspanelet ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Gøym vedleggspanelet ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
@@ -104,6 +146,21 @@ encryption-options-openpgp =
 encryption-options-smime =
     .label = S/MIME
     .tooltiptext = Vis eller endre krypteringsinnstillingar for S/MIME
+menu-encrypt-subject =
+    .label = Krypter emnet
+    .accesskey = K
+menu-sign =
+    .label = Signer digitalt
+    .accesskey = i
+menu-manage-keys =
+    .label = Nøkkelassistent
+    .accesskey = N
+menu-view-certificates =
+    .label = Vis sertifikata til mottakaren
+    .accesskey = V
+menu-open-key-manager =
+    .label = Nøkkelhandsamar
+    .accesskey = N
 
 ## Addressing Area
 
@@ -160,6 +217,7 @@ many-public-recipients-prompt-send = Send likevel
 
 ## Notifications
 
+encrypted-bcc-ignore-button = Forstått
 
 ## Editing
 
@@ -193,6 +251,7 @@ cloud-file-template-download-limit = Nedlastingsgrense:
 
 # Messages
 
+cloud-file-connection-error-title = Tilkoplingsfeil
 
 ## Link Preview
 

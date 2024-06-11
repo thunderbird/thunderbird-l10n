@@ -16,6 +16,7 @@ connection-error-time-out = Tilkoplinga fekk tidsavbrot
 connection-error-invalid-username = { $username } kan ikkje nyttast som brukarnamn
 connection-error-invalid-password = Ugyldig tenarpassord
 connection-error-password-required = Skriv inn passord
+connection-error-invalid-user-password = Ugyldig passord
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanal

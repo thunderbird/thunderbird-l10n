@@ -450,3 +450,7 @@ apply-current-columns-to-folder-with-children-message = Bruk kolonnane åt denne
 apply-current-view-to-folder-message = Bruk gjeldande mappevising på { $name }?
 threadpane-card-menu-button =
     .title = Meldingsmeny
+message-list-placeholder-no-messages = Fann ingen meldingar
+
+## Folder pane context menu
+

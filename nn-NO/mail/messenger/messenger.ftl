@@ -130,6 +130,9 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = Vidaresend
     .accesskey = V
+mail-context-menu-threads =
+    .label = Trådar
+    .accesskey = T
 context-menu-redirect-msg =
     .label = Omdiriger
 # This menu item is for canceling an NNTP message
@@ -148,6 +151,9 @@ mail-context-undelete-messages =
 
 other-action-redirect-msg =
     .label = Omdiriger
+message-header-msg-flagged =
+    .title = Med stjerne
+    .aria-label = Med stjerne
 
 ## Message header cutomize panel
 
@@ -180,6 +186,8 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Fjerne { $name }?
 addon-removal-confirmation-button = Fjern
+caret-browsing-prompt-title = Nettlesing med markør
+caret-browsing-prompt-check-text = Ikkje spør meg fleire gongar.
 repair-text-encoding-button =
     .label = Reparer tekstkoding
     .tooltiptext = Gjett rett tekst frå meldingsinnhald
@@ -204,6 +212,8 @@ spaces-toolbar-button-chat2 =
     .title = Chatt
 spaces-toolbar-button-settings2 =
     .title = Innstillingar
+spaces-context-new-tab-item =
+    .label = Opne i ny fane
 # Variables:
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =

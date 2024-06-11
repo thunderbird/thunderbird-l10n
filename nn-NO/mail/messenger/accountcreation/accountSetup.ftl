@@ -76,6 +76,7 @@ account-setup-success-password = Passordet er OK
 account-setup-success-addon = Utvidinga vart installert
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Fann konfigurasjonen i Mozillas ISP-database.
+account-setup-success-settings-isp = Oppsett funne hos e-postleverandøren.
 
 ## Illustrations
 
@@ -200,6 +201,7 @@ account-setup-existing-address-book = Tilkopla
     .title = Adresseboka er allereie tilkopla
 account-setup-existing-calendar = Tilkopla
     .title = Kalender allereie tilkopla
+account-setup-connect-all-calendars = Kople til alle kalendrar
 
 ## Calendar synchronization dialog
 

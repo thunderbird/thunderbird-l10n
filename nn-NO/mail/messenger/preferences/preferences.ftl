@@ -598,6 +598,7 @@ certificate-button =
 security-devices-button =
     .label = Tryggingseiningar…
     .accesskey = e
+account-settings = Kontoinnstillingar
 
 ## Chat Tab
 
@@ -711,6 +712,7 @@ search-results-help-link = Treng du hjelp? Gå til <a data-l10n-name="url">{ -br
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Logg inn for å synkronisere…
 sync-pane-header = Synkronisering
+sync-pane-resend-verification = Send stadfesting på nytt
 sync-pane-sign-in = Logg inn
 sync-pane-remove-account = Fjern kontoen
 sync-pane-edit-photo =
@@ -728,3 +730,10 @@ sync-panel-sync-now-syncing = Synkroniserer…
 show-synced-list-heading = Du synkroniserer for tida desse elementa:
 show-synced-learn-more = Les meir…
 show-synced-item-account = E-postkontoar
+show-synced-item-address = Adressebøker
+show-synced-item-calendar = Kalendrar
+show-synced-item-identity = Identitetar
+show-synced-item-passwords = Passord
+show-synced-change = Endre…
+synced-acount-item-filters = Filter
+synced-acount-item-keys = OpenPGP - S/MIME

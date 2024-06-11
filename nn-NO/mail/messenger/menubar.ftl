@@ -124,6 +124,9 @@ mail-uidensity-relaxed =
 
 ## File
 
+file-new-email-account =
+    .label = E-postkonto…
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Nyheitsgruppekonto
     .accesskey = k

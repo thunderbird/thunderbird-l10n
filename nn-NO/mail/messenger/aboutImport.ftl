@@ -58,6 +58,7 @@ profiles-pane-title-becky = Importer data frå { app-name-becky }.
 profiles-pane-title-apple-mail = Importer meldingar frå { app-name-apple-mail }.
 profile-source = Importer frå profil
 profile-file-picker-directory = Vel ei profilmappe
+items-pane-directory = Mappe:
 items-pane-profile-name = Profilnamn:
 items-pane-checkbox-accounts = Konto og innstillingar
 items-pane-checkbox-address-books = Adressebøker
