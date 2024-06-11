@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Crear una nueva libreta de direcciones
 books-pane-create-list-button =
     .title = Crear una nueva lista de correo
+books-pane-import-button = Importar
+    .title = Importar libretas de direcciones
 
 ## Books
 
