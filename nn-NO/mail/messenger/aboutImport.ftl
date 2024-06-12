@@ -47,17 +47,28 @@ source-file-description = Vel ei fil for å importere adressebøker, kalendrar, 
 file-profile2 = Importer profilsikkerheitskopi
 file-calendar = Importer kalendrar
 file-addressbook = Importer adressebøker
+file-addressbook-description = Vel ei fil som inneheld eksporterte adressebøker og kontaktar
 
 ## Import from app profile steps
 
+from-app-thunderbird = Importer frå ein { app-name-thunderbird }-profil
+from-app-seamonkey = Importer frå ein { app-name-seamonkey }-profil
 from-app-outlook = Importer frå { app-name-outlook }
 from-app-becky = Importer frå { app-name-becky }
 from-app-apple-mail = Importer frå { app-name-apple-mail }
+profiles-pane-title-thunderbird = Importer innstillingar og data frå ein { app-name-thunderbird }-profil.
+profiles-pane-title-seamonkey = Importer innstillingar og data frå ein { app-name-seamonkey }-profil.
 profiles-pane-title-outlook = Importer data frå { app-name-outlook }.
 profiles-pane-title-becky = Importer data frå { app-name-becky }.
 profiles-pane-title-apple-mail = Importer meldingar frå { app-name-apple-mail }.
 profile-source = Importer frå profil
+# $profileName (string) - name of the profile
+profile-source-named = Importer frå profilen <strong>«{ $profileName }»</strong>
 profile-file-picker-directory = Vel ei profilmappe
+profile-file-picker-archive = Vel ei <strong>ZIP</strong>-fil
+profile-file-picker-archive-description = ZIP-fila må vere mindre enn 2GB.
+profile-file-picker-archive-title = Vel ei ZIP-fil (mindre enn 2 GB)
+items-pane-title2 = Vel kva du vil importere:
 items-pane-directory = Mappe:
 items-pane-profile-name = Profilnamn:
 items-pane-checkbox-accounts = Konto og innstillingar
@@ -80,19 +91,29 @@ addr-book-directories-pane-source = Kjeldefil:
 calendar-items-loading = Lastar inn element…
 calendar-items-filter-input =
     .placeholder = Filtrer element…
+calendar-items-filter-input2 =
+    .label = Filtrer element
+    .placeholder = Filtrer element…
 calendar-select-all-items = Merk alle
 calendar-deselect-all-items = Merk ingen
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = Ein ny kalender med namn "{ $targetCalendar }" vert oppretta.
 
 ## Import dialog
 
 # $progressPercent (string) - percent formatted progress (for example "10%")
 progress-pane-importing2 = Importerer… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Eksporterer… { $progressPercent }
 progress-pane-finished-desc2 = Fullført
 error-pane-title = Feil
+error-message-no-profile = Fann ingen profil.
 
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = Første rad inneheld feltnamn
 csv-source-field = Kjeldefelt
+csv-target-field = Adressebokfelt
 
 ## Export tab
 
