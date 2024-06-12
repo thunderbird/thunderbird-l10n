@@ -143,12 +143,24 @@ button-return-receipt =
 encryption-menu =
     .label = Sikkerheit
     .accesskey = S
+encryption-toggle =
+    .label = Krypter
+    .tooltiptext = Bruk ende-til-ende-kryptering for denne meldinga
 encryption-options-openpgp =
     .label = OpenPGP
     .tooltiptext = Vis eller endre krypteringsinnstillingar forOpenPGP
 encryption-options-smime =
     .label = S/MIME
     .tooltiptext = Vis eller endre krypteringsinnstillingar for S/MIME
+signing-toggle =
+    .label = Signer
+    .tooltiptext = Bruk digital signering for denne meldinga
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
 menu-encrypt =
     .label = Krypter
     .accesskey = K
@@ -167,6 +179,10 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Nøkkelhandsamar
     .accesskey = N
+key-notification-disable-encryption =
+    .label = Ikkje krypter
+    .accesskey = k
+    .tooltiptext = Skru av ende-til-ende-kryptering
 
 ## Addressing Area
 
@@ -218,6 +234,7 @@ show-bcc-row-button = Blindkopi
 many-public-recipients-bcc =
     .label = Bruk blindkopi i staden
     .accesskey = B
+many-public-recipients-prompt-title = For mange offentlege mottakarar
 many-public-recipients-prompt-cancel = Avbryt sending
 many-public-recipients-prompt-send = Send likevel
 
@@ -233,6 +250,9 @@ encrypted-bcc-ignore-button = Forstått
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Lasta opp til ein ukjend Filelink-konto.
 
 # Placeholder file
 
