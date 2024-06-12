@@ -223,6 +223,7 @@ repair-text-encoding-button =
 
 ## no-reply handling
 
+no-reply-reply-anyway-button = Svar likevel
 
 ## error messages
 
