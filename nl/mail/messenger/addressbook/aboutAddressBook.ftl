@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Een nieuw adresboek aanmaken
 books-pane-create-list-button =
     .title = Een nieuwe e-maillijst aanmaken
+books-pane-import-button = Importeren
+    .title = Adresboeken importeren
 
 ## Books
 
