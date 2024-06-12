@@ -13,10 +13,21 @@ messenger-window-restore-down-button =
     .tooltiptext = Gjenopprett ned
 messenger-window-close-button =
     .tooltiptext = Lat att
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip =
+    { $count ->
+        [one] 1 ulesen melding
+       *[other] { $count } ulesne meldingar
+    }
 about-rights-notification-text = { -brand-short-name } er fri programvare basert på open kjeldekode, bygd av eit fellesskap av tusentals personar over heile verda.
 
 ## Content tabs
 
+content-tab-security-high-icon =
+    .alt = Tilkoplinga er trygg
+content-tab-security-broken-icon =
+    .alt = Tilkoplinga er ikkje trygg
 
 # Back
 
@@ -61,15 +72,30 @@ folder-pane-header-label = Mapper
 
 ## Folder Toolbar Header Popup
 
+folder-toolbar-hide-toolbar-toolbarbutton =
+    .label = Gøym verktøylinje
+    .accesskey = G
 show-all-folders-label =
     .label = Alle mapper
     .accesskey = A
+show-unread-folders-label =
+    .label = Ulesne mapper
+    .accesskey = U
+show-favorite-folders-label =
+    .label = Favorittmapper
+    .accesskey = F
+show-smart-folders-label =
+    .label = Samlemapper
+    .accesskey = S
 show-recent-folders-label =
     .label = Sist brukte mapper
     .accesskey = r
 show-tags-folders-label =
     .label = Merkelapp
     .accesskey = M
+folder-toolbar-toggle-folder-compact-view =
+    .label = Kompakt vising
+    .accesskey = K
 
 ## File Menu
 
@@ -170,6 +196,9 @@ message-header-button-style-text =
     .label = Tekst
 message-header-button-style-icons =
     .label = Ikon
+message-header-show-big-avatar =
+    .label = Større profilbilde
+    .accesskey = S
 
 ## Action Button Context Menu
 

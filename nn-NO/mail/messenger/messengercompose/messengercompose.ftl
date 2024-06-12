@@ -256,6 +256,9 @@ cloud-file-unknown-account-tooltip = Lasta opp til ein ukjend Filelink-konto.
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Filelink-vedlegg
 
 # Template
 
@@ -273,11 +276,13 @@ cloud-file-service-provider-footer-single = Les meir om { $link }.
 cloud-file-template-service-name = Filelink-teneste:
 cloud-file-template-size = Storleik:
 cloud-file-template-link = Lenke
+cloud-file-template-expiry-date = Utløpsdato:
 cloud-file-template-download-limit = Nedlastingsgrense:
 
 # Messages
 
 cloud-file-connection-error-title = Tilkoplingsfeil
+cloud-file-attachment-error-title = Filelink-vedleggsfeil
 
 ## Link Preview
 
