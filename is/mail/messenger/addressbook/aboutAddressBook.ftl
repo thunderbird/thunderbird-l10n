@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Búa til nýja nafnaskrá
 books-pane-create-list-button =
     .title = Búa til nýjan póstlista
+books-pane-import-button = Flytja inn
+    .title = Flytja inn nafnaskrár
 
 ## Books
 
