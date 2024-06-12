@@ -24,12 +24,18 @@ books-pane-create-book-button =
     .title = Opprett ei ny adressebok
 books-pane-create-list-button =
     .title = Opprett ei ny e-postliste
+books-pane-import-button = Importer
+    .title = Importer adressebøker
 
 ## Books
 
 all-address-books-row =
     .title = Alle adressebøker
 all-address-books = Alle adressebøkene
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = Totalt antal kontaktar i { $name }: { $count }
 about-addressbook-books-context-properties =
     .label = Eigenskapar
 about-addressbook-books-context-edit-list =
@@ -106,22 +112,51 @@ about-addressbook-column-header-emailaddresses2 = E-postadresser
     .title = Sorter etter e-postadresser
 about-addressbook-column-label-emailaddresses2 =
     .label = E-postadresser
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = E-postadresser
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Kallenamn
     .title = Sorter etter kallenamn
 about-addressbook-column-label-nickname2 =
     .label = Kallenamn
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Kallenamn
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Telefonnummer
     .title = Sorter etter telefonnummer
 about-addressbook-column-label-phonenumbers2 =
     .label = Telefonnummer
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Telefonnummer
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Adresser
     .title = Sorter etter adresser
 about-addressbook-column-label-addresses2 =
     .label = Adresser
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adresser
+    .title = { $title }
 about-addressbook-column-header-title2 = Tittel
     .title = Sorter etter tittel
 about-addressbook-column-label-title2 =
     .label = Tittel
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Tittel
+    .title = { $title }
+about-addressbook-column-header-department2 = Avdeling
+    .title = Sorter etter avdeling
+about-addressbook-column-label-department2 =
+    .label = Avdeling
 # Variables:
 # $title (String) - Contact department for tooltip.
 about-addressbook-cell-department2 =

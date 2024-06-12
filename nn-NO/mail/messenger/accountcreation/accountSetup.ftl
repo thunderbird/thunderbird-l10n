@@ -174,10 +174,13 @@ exit-dialog-cancel-button = Hald fram med konfigurasjonen
 
 ## Alert dialogs
 
+account-setup-confirm-advanced-title = Stadfest avansert oppsett
+account-setup-confirm-advanced-description = Denne dialogruta vil late seg att og ein konto med dei aktuelle innstillingane vil bli oppretta, sjølv om innstillingane er feil. Vil du fortsetje?
 
 ## Addon installation section
 
 account-setup-addon-install-title = Installer
+account-setup-addon-install-intro = Eit tredjepartstillegg kan gje deg tilgang til e-postkontoen din på denne serveren:
 
 ## Success view
 
@@ -223,5 +226,7 @@ account-setup-calendar-refresh-interval =
         [one] Kvart minutt
        *[other] Kvart { $count }. minutt
     }
+account-setup-calendar-show-reminders = Vis påminningar
+    .accesskey = V
 account-setup-calendar-offline-support = Fråkopla støtte
     .accesskey = F

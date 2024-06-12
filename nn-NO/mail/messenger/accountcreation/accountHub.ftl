@@ -58,5 +58,6 @@ account-hub-auth-no-authentication-option =
     .label = Inga autentisering
 account-hub-auth-label = Autentiseringsmåte
 account-hub-username-label = Brukarnamn
+account-hub-email-account-added-title = Konto er lagt til
 account-hub-notification-show-more = Vis meir
 account-hub-notification-show-less = Vis mindre

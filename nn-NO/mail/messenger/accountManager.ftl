@@ -12,3 +12,6 @@ edit-vcard-dialog-accept-button = Lagre
     .accesskey = L
 edit-vcard-dialog-cancel-button = Avbryt
     .accesskey = A
+account-manager-server-default-icon =
+    .title = Standardkonto
+    .alt = Stjerneikon
