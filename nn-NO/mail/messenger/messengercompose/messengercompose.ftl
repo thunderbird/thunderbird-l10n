@@ -140,12 +140,18 @@ button-return-receipt =
 
 ## Encryption
 
+encryption-menu =
+    .label = Sikkerheit
+    .accesskey = S
 encryption-options-openpgp =
     .label = OpenPGP
     .tooltiptext = Vis eller endre krypteringsinnstillingar forOpenPGP
 encryption-options-smime =
     .label = S/MIME
     .tooltiptext = Vis eller endre krypteringsinnstillingar for S/MIME
+menu-encrypt =
+    .label = Krypter
+    .accesskey = K
 menu-encrypt-subject =
     .label = Krypter emnet
     .accesskey = K

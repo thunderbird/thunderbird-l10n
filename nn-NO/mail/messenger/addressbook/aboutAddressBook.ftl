@@ -227,6 +227,8 @@ about-addressbook-placeholder-no-search-results = Ingen kontaktar funne
 
 ## Details
 
+about-addressbook-details-edit-photo =
+    .title = Rediger kontaktfoto
 about-addressbook-new-contact-header = Ny kontakt
 about-addressbook-prefer-display-name = Føretrekk visingsnamn i staden for namnet i meldingshovudet
 about-addressbook-write-action-button = Skriv til
