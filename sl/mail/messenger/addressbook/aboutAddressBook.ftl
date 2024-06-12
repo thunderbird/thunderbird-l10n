@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Ustvari nov imenik
 books-pane-create-list-button =
     .title = Ustvari nov poštni seznam
+books-pane-import-button = Uvozi
+    .title = Uvozi imenike
 
 ## Books
 
