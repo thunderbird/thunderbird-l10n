@@ -16,3 +16,6 @@ edit-vcard-dialog-accept-button = Uložit
     .accesskey = U
 edit-vcard-dialog-cancel-button = Zrušit
     .accesskey = Z
+account-manager-server-default-icon =
+    .title = Výchozí účet
+    .alt = Ikona hvězdy

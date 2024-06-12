@@ -559,3 +559,19 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Nabídka pro zprávu
+message-list-placeholder-no-messages = Nenalezena žádná zpráva
+message-list-placeholder-multiple-folders = Vybráno více složek
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Označit složku jako přečtenou
+            [few] Označit složky jako přečtené
+            [many] Označit složky jako přečtené
+           *[other] Označit složky jako přečtené
+        }
+    .accesskey = k

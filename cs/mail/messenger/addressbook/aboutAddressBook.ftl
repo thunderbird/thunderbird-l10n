@@ -18,6 +18,14 @@ about-addressbook-toolbar-new-list =
     .label = Nová skupina
 about-addressbook-toolbar-import =
     .label = Importovat
+books-pane-create-contact-button = Nový kontakt
+    .title = Vytvoří nový kontakt
+books-pane-create-book-button =
+    .title = Vytvoření nové složky kontaktů
+books-pane-create-list-button =
+    .title = Vytvořit novou skupinu
+books-pane-import-button = Import
+    .title = Importuje složku kontaktů
 
 ## Books
 
