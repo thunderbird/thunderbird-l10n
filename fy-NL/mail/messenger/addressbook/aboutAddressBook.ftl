@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = In nij adresboek oanmeitsje
 books-pane-create-list-button =
     .title = In nije e-maillist oanmeitsje
+books-pane-import-button = Ymportearje
+    .title = Adresboeken ymportearje
 
 ## Books
 
