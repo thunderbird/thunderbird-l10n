@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Создать новую адресную книгу
 books-pane-create-list-button =
     .title = Создать новый список рассылки
+books-pane-import-button = Импорт
+    .title = Импорт адресной книги
 
 ## Books
 
