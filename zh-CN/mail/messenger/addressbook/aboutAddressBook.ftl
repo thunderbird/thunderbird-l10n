@@ -18,6 +18,14 @@ about-addressbook-toolbar-new-list =
     .label = 新建列表
 about-addressbook-toolbar-import =
     .label = 导入
+books-pane-create-contact-button = 新建联系人
+    .title = 新建联系人
+books-pane-create-book-button =
+    .title = 新建通讯录
+books-pane-create-list-button =
+    .title = 新建邮件列表
+books-pane-import-button = 导入
+    .title = 导入通讯录
 
 ## Books
 
