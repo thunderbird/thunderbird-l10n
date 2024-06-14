@@ -4,6 +4,37 @@
 
 e2e-intro-description = Per trametter messadis criptads u signads a moda digitala, stos ti configurar ina tecnologia da criptadi, u OpenPGP u S/MIME.
 e2e-intro-description-more = Tscherna tia clav persunala per pudair utilisar OpenPGP u tes certificat persunal per utilisar S/MIME. Ti stos avair la clav secreta associada cun la clav persunala u il certificat persunal.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Per retschaiver in nov certificat persunal S/MIME, generescha ina dumonda da signar il certificat (CSR) e la trametta ad in’autoritad da certificaziun (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Tscherna in ordinatur local ed in num per tia datoteca CSR, respunda lura las suandantas dumondas per definir l’algoritmus e la fermezza.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Generar ina CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Cuntinuar
+# A label for a button that goes back one step
+e2e-csr-back = Enavos
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Generar e memorisar ina datoteca CSR sut…
+# Do not translate: CSR
+e2e-csr-select-title = Algoritmus CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿﻿Tscherna tranter RSA (recumandà) u ECC sco algoritmus criptografic per il nov certificat S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Tscherna tia fermezza da criptadi giavischada (pli svelt cun dumbers pli bass u dapli segirezza cun dumbers pli gronds) per il nov certificat S/MIME, u cuntinuescha cun il parameter predefinì.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Ina nova clav secreta { $type } { $strength } vegn a vegnir generada en ils parameters da { -brand-short-name }. Quest process po durar in amen e po avair per consequenza ch’il program na respunda betg per in mument; hajas per plaschair pazienza durant quest pass. La datoteca CSR (Certificate Signing Request), memorisada sut il num { $file }, vegn creada en il fratemp.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Includer l’adressa dad e-mail ({ $email }) en la CSR (recumandà)
+# $file A filename
+e2e-csr-success = La CSR è vegnida memorisada cun success en { $file }
+# $file A filename
+e2e-csr-failure = I n’è betg reussì da memorisar la CSR en la datoteca { $file }
 e2e-signing-description = Ina suttascripziun digitala pussibilitescha als destinaturs da verifitgar ch'il messadi è vegnì tramess da tai e ch'il cuntegn n'è betg vegnì midà. Messadis criptads èn adina suttascrits tenor configuraziun predefinida.
 e2e-sign-message =
     .label = Suttascriver messadis betg criptads
@@ -498,6 +529,7 @@ key-man-button-export-pub-key = Exportar mo las clavs &publicas
 key-man-button-refresh-all = &Actualisar tut las clavs
 key-man-loading-keys = Chargiar las clavs, p.pl. spetgar…
 ascii-armor-file = Datotecas ASCII Armored (*.asc)
+text-file = Datotecas da text (*.txt)
 no-key-selected = Ti stos selecziunar almain ina clav per exequir l'operaziun tschernida
 export-to-file = Exportar la clav publica en ina datoteca
 export-keypair-to-file = Exportar la clav secreta e la clav publica en ina datoteca
@@ -620,6 +652,9 @@ no-update-found = Ti has gia las clavs ch'èn vegnidas chattadas online.
 
 ## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
 
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Errur – il cumond d'extracziun da la clav n'è betg reussì
 
 ## Strings used in keyRing.jsm
@@ -639,6 +674,10 @@ confirm-permissive-import = L'import n'è betg reussi. La clav che ti emprovas d
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Intginas da las clavs secretas importadas propageschan ina funcziun betg sustegnida. Sche ti utiliseschas ina tala clav sco tia clav persunala, ta tramettan correspundents eventualmain e-mails u clavs publicas en in format incumpatibel. Quai pertutga clavs secretas importadas cun las suandantas improntas: { $fingerprints }.
+help-button = Agid
 
 ## Strings used in trust.sys.mjs
 

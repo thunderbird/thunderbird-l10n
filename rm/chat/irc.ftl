@@ -16,6 +16,7 @@ connection-error-time-out = La connexiun è scrudada
 connection-error-invalid-username = { $username } n'è betg in num d'utilisader lubì
 connection-error-invalid-password = Pled-clav dal server nunvalid
 connection-error-password-required = Pled-clav necessari
+connection-error-invalid-user-password = Pled-clav nunvalid
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Chanal

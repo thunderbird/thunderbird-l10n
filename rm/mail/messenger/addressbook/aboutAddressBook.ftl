@@ -18,6 +18,14 @@ about-addressbook-toolbar-new-list =
     .label = Nova glista
 about-addressbook-toolbar-import =
     .label = Importar
+books-pane-create-contact-button = Nov contact
+    .title = Crear in nov contact
+books-pane-create-book-button =
+    .title = Crear in nov cudeschet d’adressas
+books-pane-create-list-button =
+    .title = Crear ina nova glista dad e-mail
+books-pane-import-button = Importar
+    .title = Importar cudeschets d’adressas
 
 ## Books
 
@@ -66,6 +74,14 @@ about-addressbook-search =
     .placeholder = Tschertgar { $name }
 about-addressbook-search-all =
     .placeholder = Tschertgar en tut ils cudeschets d'adressas
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Tschertgar en { $name }
+    .placeholder = Tschertgar en { $name }…
+about-addressbook-search-all2 =
+    .label = Tschertgar en tut ils cudeschets d’adressas
+    .placeholder = Tschertgar en tut ils cudeschets d’adressas…
 about-addressbook-sort-button2 =
     .title = Opziuns da vista da la glista
 about-addressbook-name-format-display =
@@ -82,76 +98,93 @@ about-addressbook-sort-email-ascending =
     .label = Zavrar tenor l'adressa d'e-mail (A > Z)
 about-addressbook-sort-email-descending =
     .label = Zavrar tenor l'adressa d'e-mail (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Midar al layout orizontal
-about-addressbook-vertical-layout =
-    .label = Midar al layout vertical
 about-addressbook-table-layout =
     .label = Layout da la tabella
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Num
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Adressas dad e-mail
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Numers da telefon
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Adressas
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Titel
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Partiziun
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organisaziun
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Cudeschet d'adressas
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Num
     .title = Zavrar tenor num
 about-addressbook-column-label-generatedname2 =
     .label = Num
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Num
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Adressas dad e-mail
     .title = Zavrar tenor las adressas dad e-mail
 about-addressbook-column-label-emailaddresses2 =
     .label = Adressas dad e-mail
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Adressas dad e-mail
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Surnum
     .title = Zavrar tenor surnum
 about-addressbook-column-label-nickname2 =
     .label = Surnum
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Surnum
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Numers da telefon
     .title = Zavrar tenor numers da telefon
 about-addressbook-column-label-phonenumbers2 =
     .label = Numers da telefon
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Numers da telefon
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Adressas
     .title = Zavrar tenor adressas
 about-addressbook-column-label-addresses2 =
     .label = Adressas
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adressas
+    .title = { $title }
 about-addressbook-column-header-title2 = Titel
     .title = Zavrar tenor titel
 about-addressbook-column-label-title2 =
     .label = Titel
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Titel
+    .title = { $title }
 about-addressbook-column-header-department2 = Partiziun
     .title = Zavrar tenor partiziun
 about-addressbook-column-label-department2 =
     .label = Partiziun
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Partiziun
+    .title = { $title }
 about-addressbook-column-header-organization2 = Organisaziun
     .title = Zavrar tenor organisaziun
 about-addressbook-column-label-organization2 =
     .label = Organisaziun
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organisaziun
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Cudeschet d'adressas
     .title = Zavrar tenor cudeschet d'adressas
 about-addressbook-column-label-addrbook2 =
     .label = Cudeschet d'adressas
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Cudeschet d’adressas
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Scriver
 about-addressbook-confirm-delete-mixed-title = Stizzar contacts e glistas
@@ -181,15 +214,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Allontanar ils contacts
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Vuls ti propi allontanar { $name } da la glista { $list }?
-       *[other] Vuls ti propi allontanar quests { $count } contacts da la glista { $list }?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Vuls ti propi allontanar { $name } da { $list }?
@@ -207,14 +231,6 @@ about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Stizzar il contact
        *[other] Stizzar ils contacts
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Vuls ti propi stizzar il contact { $name }?
-       *[other] Vuls ti propi stizzar quests { $count } contacts?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -238,15 +254,6 @@ about-addressbook-placeholder-no-search-results = Na chattà nagins contacts
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } contacts (e glistas) tschernids
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } contacts tschernids
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } glistas tschernidas
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =

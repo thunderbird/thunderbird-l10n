@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Tschertgar
 search-bar-item =
     .label = Tschertgar:
+search-bar-item2 =
+    .label = Tschertgar
 search-bar-placeholder = Tschertgar…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Memorisar
 customize-unsaved-changes = Modificaziuns betg memorisadas en auters spazis
 customize-search-bar =
     .label = Tschertgar en ils buttuns da la trav d'utensils…
+customize-search-bar2 =
+    .label = Tschertgar en ils buttuns da la trav d’utensils
+    .placeholder = Tschertgar en ils buttuns da la trav d’utensils…
 customize-spaces-tabs =
     .aria-label = Spazis
 customize-main-toolbar-target =

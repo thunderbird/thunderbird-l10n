@@ -188,9 +188,51 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Marcar sco legì
+    .tooltiptext = Marcar sco legì
+context-menu-mark-unread =
+    .aria-label = Marcar sco nunlegì
+    .tooltiptext = Marcar sco nunlegì
+context-menu-mark-reply =
+    .aria-label = Respunder
+    .tooltiptext = Respunder
+context-menu-archive =
+    .aria-label = Archivar
+    .tooltiptext = Archivar
+context-menu-mark-junk =
+    .aria-label = Marcar sco nungiavischà
+    .tooltiptext = Marcar sco nungiavischà
+mail-context-menu-open =
+    .label = Avrir
+    .accesskey = A
+mail-context-menu-reply =
+    .label = Respunder
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = Renviar e transmetter
+    .accesskey = T
 mail-context-menu-forward-forward =
     .label = Renviar
     .accesskey = F
+mail-context-menu-forward-inline =
+    .label = Integrà
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Sco agiunta
+           *[other] Sco agiuntas
+        }
+    .accesskey = a
+mail-context-menu-organize =
+    .label = Organisar
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Discussiuns
+    .accesskey = D
 context-menu-redirect-msg =
     .label = Renviar
 # This menu item is for canceling an NNTP message
@@ -212,6 +254,24 @@ mail-context-undelete-messages =
             [one] Restaurar il messadi
            *[other] Restaurar ils messadis marcads
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Stizzar il messadi
+           *[other] Stizzar ils messadis tschernids
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Restaurar il messadi
+           *[other] Restaurar ils messadis tschernids
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Crear ina copia decriptada en
     .accesskey = d
@@ -399,7 +459,7 @@ quick-filter-bar-toggle =
     .label = Trav per filtrar svelt
     .accesskey = s
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Infurmaziuns d'annunzia memorisadas
-saved-logins-title = Infurmaziuns d'annunzia memorisadas
 window-close =
     .key = w
+saved-logins-title = Infurmaziuns d'annunzia memorisadas
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Verifitgescha tia identitad per laschar mussar
 password-os-auth-dialog-message-macosx = mussar ils pleds-clav memorisads
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] midar ils parameters per pleds-clav
+       *[other] { -brand-short-name } emprova da midar ils parameters per pleds-clav. Cun l’annunzia da l’apparat pos ti permetter quai.
+    }

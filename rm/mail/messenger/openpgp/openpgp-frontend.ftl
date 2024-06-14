@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Spetgar per plaschair...
 openpgp-has-nested-encrypted-parts = Quest messadi includa parts supplementaras criptadas.
 openpgp-show-encrypted-parts = Decriptar e mussar
+openpgp-has-nested-signed-parts = Tschertas parts da quest messadi èn eventualmain signadas digitalmain.
+openpgp-show-signed-parts = Avrir e mussar
 openpgp-cannot-decrypt-because-mdc =
     Quai è in messadi criptà che utilisescha in mecanissem vegl e vulnerabel.
     I n'è betg exclus ch'el è vegnì modifitgà durant la transmissiun, cun l'intenziun dad engular ses cuntegn.
