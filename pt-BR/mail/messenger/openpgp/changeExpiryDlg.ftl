@@ -15,6 +15,12 @@ select-key-prompt = Tecla para alterar:
 info-explanation-2 = Para usar esta chave por mais tempo, altere a data de validade e compartilhe novamente a chave pública com quem você conversa.
 usage-label = Uso:
 algorithm-label = Algoritmo:
+created-label = Data de criação:
 expire-no-change-label = Não alterar a data de validade
 expire-in-time-label = A chave expirará em:
 expire-never-expire-label = A chave nunca irá expirar
+partial-label-expired = expirada
+partial-label-never-expires = nunca expira
+# Variables:
+# $date (String) - Date the key is expiring on.
+partial-label-expires = expira em: { $date }
