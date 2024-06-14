@@ -56,7 +56,7 @@
 <!ENTITY calendar.unifinder.close.tooltip                  "Az eseménykereső és az eseménylista bezárása">
 
 <!ENTITY calendar.today.button.tooltip          "Ugrás a mai napra" >
-<!ENTITY calendar.todaypane.button.tooltip      "A Ma panel megjelenítése" >
+<!ENTITY calendar.todaypane.button.tooltip      "Ma ablaktábla megjelenítése" >
 
 <!ENTITY calendar.newevent.button.label         "Új esemény" >
 <!ENTITY calendar.newtask.button.label          "Új feladat" >
@@ -139,7 +139,7 @@
 <!ENTITY calendar.context.copyevent.accesskey         "M">
 <!ENTITY calendar.context.pasteevent.label            "Beillesztés">
 <!ENTITY calendar.context.pasteevent.accesskey        "B">
-<!ENTITY calendar.context.button.label                "Ma panel">
+<!ENTITY calendar.context.button.label                "Ma ablaktábla">
 <!ENTITY calendar.context.button.accesskey            "M">
 
 <!ENTITY calendar.context.attendance.menu.label                 "Részvétel">

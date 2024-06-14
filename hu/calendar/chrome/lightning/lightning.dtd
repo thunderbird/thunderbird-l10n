@@ -94,8 +94,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "A részvételi állapot megváltoztatása a teljes sorozatra a szervezőnek küldött válasz nélkül">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 
@@ -109,6 +107,6 @@
 <!ENTITY todaypane.showMiniday.accesskey  "n">
 <!ENTITY todaypane.showNone.label "Nincs megjelenítés">
 <!ENTITY todaypane.showNone.accesskey "i">
-<!ENTITY todaypane.showTodayPane.label "A Ma panel megjelenítése">
+<!ENTITY todaypane.showTodayPane.label "Ma ablaktábla megjelenítése">
 <!ENTITY todaypane.showTodayPane.accesskey "p">
-<!ENTITY todaypane.statusButton.label "Ma panel">
+<!ENTITY todaypane.statusButton.label "Ma ablaktábla">
