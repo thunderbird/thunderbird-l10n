@@ -4,6 +4,37 @@
 
 e2e-intro-description = Titkosított vagy digitálisan aláírt üzenetek küldéséhez be kell állítania egy titkosítási technológiát, az OpenPGP-t vagy az S/MIME-ot.
 e2e-intro-description-more = Válassza ki a személyes kulcsát az OpenPGP használatának engedélyezéséhez, vagy a személyes tanúsítványát az S/MIME használatához. Személyes kulcs vagy tanúsítvány esetén Ön a titkos kulcs tulajdonosa.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Új személyes S/MIME tanúsítvány beszerzéséhez hozzon létre egy tanúsítvány-aláírási kérést (CSR), és küldje el egy hitelesítésszolgáltatónak (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Válasszon egy helyi könyvtárat és fájlnevet a CSR-fájlhoz, és válaszoljon a következő kérdésekre az algoritmus és az erősség beállításával kapcsolatosan.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = CSR előállítása
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Folytatás
+# A label for a button that goes back one step
+e2e-csr-back = Vissza
+# Do not translate: CSR
+e2e-csr-button =
+    .label = CSR-fájl létrehozása és mentése másként…
+# Do not translate: CSR
+e2e-csr-select-title = CSR algoritmus
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿Válasszon az RSA (ajánlott) vagy az ECC kriptográfiai algoritmus közül az új S/MIME tanúsítványhoz.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Válassza ki a kívánt titkosítási erősséget (gyorsabb, alacsonyabb számokkal, vagy jobb biztonság, magasabb számokkal) az új S/MIME tanúsítványhoz, vagy tartsa meg az alapértelmezett beállítást.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Egy új { $type } { $strength } titkos kulcs lesz előállítva a { -brand-short-name } beállításaiban. Ez a folyamat eltarthat egy ideig, és ideiglenesen azt okozhatja, hogy a gép nem válaszol; legyen türelmes a lépés során. Közben létre fog jönni a(z) { $file } néven mentett tanúsítvány-aláíráskérési (CSR) fájl.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Az e-mail-cím ({ $email }) szerepeltetése a CSR-ben (ajánlott)
+# $file A filename
+e2e-csr-success = A CSR sikeresen elmentve ide: { $file }
+# $file A filename
+e2e-csr-failure = A CSR nem menthető a(z) { $file } fájlba
 e2e-signing-description = A digitális aláírás lehetővé teszi a címzetteknek, hogy ellenőrizzék, hogy az üzenetet Ön küldte, és hogy a tartalom nem változott-e meg. A titkosított üzenetek alapértelmezetten mindig alá vannak írva.
 e2e-sign-message =
     .label = Titkosítatlan üzenetek aláírása
@@ -391,6 +422,9 @@ window-locked = Az írási ablak zárolva van; küldés megszakítva
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Megszakítva
 keyserver-error-unknown = Ismeretlen hiba történt
 keyserver-error-server-error = A kulcskiszolgáló hibát jelentett.
@@ -402,6 +436,9 @@ keyserver-error-unsupported = A kulcskiszolgáló nem támogatott.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Az e-mail szolgáltatója feldolgozta a nyilvános kulcs feltöltésére vonatkozó kérését az OpenPGP webes kulcstárba.
     Erősítse meg, hogy befejezze a nyilvános kulcs közzétételét.
@@ -411,6 +448,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -419,6 +459,9 @@ converter-decrypt-body-failed =
     Újrapróbálkozik egy másik jelszóval, vagy ki akarja hagyni az üzenetet?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Ki kell választania a célmappát.
 filter-decrypt-move-warn-experimental =
@@ -436,6 +479,9 @@ filter-warn-key-not-secret =
     Ha nincs meg a titkos kulcs ehhez: „{ $desc }”, akkor többé nem fogja tudni elolvasni az e-maileket.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Végleges visszafejtés (OpenPGP)
 filter-decrypt-copy-label = Visszafejtett másolat létrehozása (OpenPGP)
@@ -483,6 +529,7 @@ key-man-button-export-pub-key = Csak a &nyilvános kulcsok exportálása
 key-man-button-refresh-all = Az összes kulcs f&rissítése
 key-man-loading-keys = Kulcsok betöltése, kis türelmet…
 ascii-armor-file = ASCII páncélozott fájlok (*.asc)
+text-file = Szövegfájlok (*.txt)
 no-key-selected = Legalább egy kulcsot ki kell választania a kiválasztott művelet végrehajtásához
 export-to-file = Nyilvános kulcs exportálása fájlba
 export-keypair-to-file = Titkos és nyilvános kulcs exportálása fájlba
@@ -510,6 +557,12 @@ openpgp-export-secret-fail = <b>A kiválasztott titkos kulcs nem exportálható!
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = A(z) { $userId } kulcsot (kulcsazonosító: { $keyId }) visszavonták.
 key-ring-pub-key-expired = A(z) { $userId } kulcs (kulcsazonosító: { $keyId }) lejárt.
 key-ring-no-secret-key = Úgy tűnik, hogy nem rendelkezik a(z) { $userId } kulccsal (kulcsazonosító: { $keyId }) a kulcstartójában: nem használhatja a kulcsot aláíráshoz.
@@ -522,10 +575,16 @@ key-ring-enc-sub-keys-expired = A(z) { $userId } kulcs (kulcsazonosító: { $key
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Fénykép
 user-att-photo = Felhasználói attribútum (JPEG-kép)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Ezt a kulcsot már visszavonták.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -549,6 +608,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Importálás
 delete-key-title = OpenPGP-kulcs törlése
 delete-external-key-title = Külső GnuPG-kulcs eltávolítása
@@ -558,6 +620,9 @@ delete-key-in-use-description = Nem lehet folytatni. A törlésre kiválasztott 
 revoke-key-in-use-description = Nem lehet folytatni. A visszavonásra kiválasztott kulcsot jelenleg ez a személyazonosság használja. Válasszon egy másik kulcsot, vagy szüntesse meg a kiválasztást, és próbálja újra.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -569,18 +634,33 @@ key-error-not-accepted-as-personal = Nem erősítette meg, hogy a(z) „{ $keySp
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = A kiválasztott funkció offline módban nem érhető el. Kapcsolódjon és próbálja újra.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Nem található olyan használható kulcs, amely megfelelne a keresési feltételeknek.
 no-update-found = Már megvannak az online felfedezett kulcsok.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Hiba – a kulcskinyerési parancs sikertelen
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Hiba – a felhasználó megszakította a kulcs fogadását
 not-first-block = Hiba – az első OpenPGP blokk nem nyilvános kulcs blokk
@@ -593,6 +673,13 @@ no-pgp-block = Hiba – nem található érvényes páncélozott OpenPGP-adatblo
 confirm-permissive-import = Az importálás sikertelen. Lehet, hogy az importálandó kulcs sérült vagy ismeretlen attribútumokat használ. Megpróbálja a helyes részek importálását? Ez hiányos és használhatatlan kulcsokat eredményezhet.
 
 ## Strings used in trust.jsm
+
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Az importált titkos kulcsok egy része nem támogatott funkciót hirdet. Ha ilyen kulcsot használ személyes kulcsként, akkor előfordulhat, hogy a levelezőpartnerei nem kompatibilis formátumú e-maileket vagy nyilvános kulcsokat küldhetnek Önnek. Ez a következő ujjlenyomatokkal rendelkező importált titkos kulcsokra van hatással: { $fingerprints }.
+help-button = Súgó
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = ismeretlen
 key-valid-invalid = érvénytelen
@@ -714,6 +801,9 @@ cannot-send-enc-because-no-own-key = Nem küldheti el titkosítva ezt az üzenet
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -737,9 +827,15 @@ dlg-button-view = &Nézet
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Hiba – titkosítás nem szükséges
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Nincs elérhető fénykép
 # Variables:
@@ -758,6 +854,9 @@ repeat-suffix-singular = alkalommal meg lesz ismételve.
 repeat-suffix-plural = alkalommal meg lesz ismételve.
 no-repeat = Ez a figyelmeztetés nem jelenik meg újra.
 dlg-keep-setting = Jegyezze meg a válaszomat, és ne kérdezze meg újra
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &Rendben
 dlg-button-close = &Bezárás
 dlg-button-cancel = &Mégse
@@ -768,6 +867,9 @@ enig-alert = OpenPGP figyelmeztetés
 enig-info = OpenPGP információ
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = Új&ra
 dlg-button-skip = &Kihagyás
