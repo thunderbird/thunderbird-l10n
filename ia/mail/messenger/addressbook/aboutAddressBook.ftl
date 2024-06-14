@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Crear un nove libro de adresses
 books-pane-create-list-button =
     .title = Crear un nove  lista de diffusion
+books-pane-import-button = Importar
+    .title = Importa libros de adresses
 
 ## Books
 
