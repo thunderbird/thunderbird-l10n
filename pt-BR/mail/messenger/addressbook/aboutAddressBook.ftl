@@ -18,6 +18,14 @@ about-addressbook-toolbar-new-list =
     .label = Nova lista
 about-addressbook-toolbar-import =
     .label = Importar
+books-pane-create-contact-button = Novo contato
+    .title = Criar novo contato
+books-pane-create-book-button =
+    .title = Criar novo catálogo de endereços
+books-pane-create-list-button =
+    .title = Criar nova lista de emails
+books-pane-import-button = Importar
+    .title = Importar catálogos de endereços
 
 ## Books
 
@@ -66,6 +74,14 @@ about-addressbook-search =
     .placeholder = Pesquisar { $name }
 about-addressbook-search-all =
     .placeholder = Pesquisar em todos os catálogos de endereços
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Pesquisar em { $name }
+    .placeholder = Pesquisar em { $name }…
+about-addressbook-search-all2 =
+    .label = Pesquisar em todos os catálogos de endereços
+    .placeholder = Pesquisar em todos os catálogos de endereços…
 about-addressbook-sort-button2 =
     .title = Opções da lista de exibição
 about-addressbook-name-format-display =
