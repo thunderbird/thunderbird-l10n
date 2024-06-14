@@ -16,6 +16,7 @@ accounts-default = Alapértelmezett?
 identity-name = Felhasználó
 send-via-email = Küldés e-mailben
 app-basics-telemetry = Telemetriai adatok
+app-basics-glean = Glean adatok
 app-basics-cache-use = Gyorsítótár használata
 mail-libs-title = Programkönyvtárak
 libs-table-heading-library = Programkönyvtár

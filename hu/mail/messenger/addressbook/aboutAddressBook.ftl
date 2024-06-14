@@ -18,6 +18,14 @@ about-addressbook-toolbar-new-list =
     .label = Új lista
 about-addressbook-toolbar-import =
     .label = Importálás
+books-pane-create-contact-button = Új névjegy
+    .title = Új névjegy létrehozása
+books-pane-create-book-button =
+    .title = Új címjegyzék létrehozása
+books-pane-create-list-button =
+    .title = Új levelezőlista létrehozása
+books-pane-import-button = Importálás
+    .title = Címjegyzékek importálása
 
 ## Books
 
@@ -66,6 +74,14 @@ about-addressbook-search =
     .placeholder = Keresés ebben: { $name }
 about-addressbook-search-all =
     .placeholder = Keresés az összes címjegyzékben
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = { $name } keresése
+    .placeholder = { $name } keresése…
+about-addressbook-search-all2 =
+    .label = Keresés az összes címjegyzékben
+    .placeholder = Keresés az összes címjegyzékben…
 about-addressbook-sort-button2 =
     .title = Megjelenítési lehetőségek felsorolása
 about-addressbook-name-format-display =
@@ -82,76 +98,93 @@ about-addressbook-sort-email-ascending =
     .label = Rendezés e-mail-cím szerint (A > Z)
 about-addressbook-sort-email-descending =
     .label = Rendezés e-mail-cím szerint (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Váltás vízszintes elrendezésre
-about-addressbook-vertical-layout =
-    .label = Váltás függőleges elrendezésre
 about-addressbook-table-layout =
     .label = Táblázat elrendezése
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Név
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = E-mail-címek
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Telefonszámok
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Címek
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Cím
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Részleg
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Szervezet
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Címjegyzék
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Név
     .title = Rendezés név szerint
 about-addressbook-column-label-generatedname2 =
     .label = Név
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Név
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = E-mail-címek
     .title = Rendezés e-mail-címek szerint
 about-addressbook-column-label-emailaddresses2 =
     .label = E-mail-címek
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = E-mail-címek
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Becenév
     .title = Rendezés becenév alapján
 about-addressbook-column-label-nickname2 =
     .label = Becenév
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Becenév
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Telefonszámok
     .title = Rendezés telefonszámok alapján
 about-addressbook-column-label-phonenumbers2 =
     .label = Telefonszámok
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Telefonszámok
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Címek
     .title = Rendezés címek szerint
 about-addressbook-column-label-addresses2 =
     .label = Címek
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Címek
+    .title = { $title }
 about-addressbook-column-header-title2 = Cím
     .title = Rendezés cím szerint
 about-addressbook-column-label-title2 =
     .label = Cím
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Cím
+    .title = { $title }
 about-addressbook-column-header-department2 = Részleg
     .title = Rendezés részleg szerint
 about-addressbook-column-label-department2 =
     .label = Részleg
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Részleg
+    .title = { $title }
 about-addressbook-column-header-organization2 = Szervezet
     .title = Rendezés szervezet szerint
 about-addressbook-column-label-organization2 =
     .label = Szervezet
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Szervezet
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Címjegyzék
     .title = Rendezés címjegyzék szerint
 about-addressbook-column-label-addrbook2 =
     .label = Címjegyzék
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Címjegyzék
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Írás
 about-addressbook-confirm-delete-mixed-title = Névjegyek és listák törlése
@@ -181,15 +214,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Névjegyek eltávolítása
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Biztos, hogy eltávolítja a(z) { $name } névjegyet a(z) { $list } listáról?
-       *[other] Biztos, hogy eltávolítja ezt a(z) { $count } névjegyet a(z) { $list } listáról?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Biztos, hogy eltávolítja a(z) { $name } névjegyet a(z) { $list } listáról?
@@ -207,14 +231,6 @@ about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Névjegy törlése
        *[other] Névjegyek törlése
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Biztos, hogy törli a(z) { $name } névjegyet?
-       *[other] Biztos, hogy törli ezt a(z) { $count } listát?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -238,15 +254,6 @@ about-addressbook-placeholder-no-search-results = Nem találhatók névjegyek
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } kiválasztott névjegy és lista
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } kiválasztott névjegy
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } kiválasztott lista
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =

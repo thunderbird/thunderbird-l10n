@@ -119,6 +119,8 @@ quick-filter-bar-textbox =
     .placeholder = Ezen üzenetek szűrése… <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = Üzenetek szűrése:
+quick-filter-bar-search2 =
+    .label = Üzenetek szűrése
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -526,3 +528,17 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Üzenet menü
+message-list-placeholder-no-messages = Nem található üzenet
+message-list-placeholder-multiple-folders = Több mappa kijelölve
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Mappa megjelölése olvasottként
+           *[other] Mappák megjelölése olvasottként
+        }
+    .accesskey = j

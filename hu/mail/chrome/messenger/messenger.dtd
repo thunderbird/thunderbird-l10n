@@ -129,7 +129,7 @@
 <!ENTITY messagePaneVertical.accesskey "F">
 <!ENTITY showFolderPaneCmd.label "Mappa ablaktábla">
 <!ENTITY showFolderPaneCmd.accesskey "M">
-<!ENTITY showMessageCmd.label "Üzenetablak">
+<!ENTITY showMessageCmd.label "Üzenet ablaktáblája">
 <!ENTITY showMessageCmd.accesskey "z">
 
 <!ENTITY folderView.label "Mappák">

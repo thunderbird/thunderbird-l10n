@@ -16,6 +16,7 @@ connection-error-time-out = A kapcsolat időtúllépés miatt megszakadt.
 connection-error-invalid-username = { $username } becenév nem engedélyezett
 connection-error-invalid-password = Érvénytelen kiszolgálójelszó
 connection-error-password-required = Jelszó szükséges
+connection-error-invalid-user-password = Érvénytelen jelszó
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Csatorna

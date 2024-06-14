@@ -69,7 +69,7 @@
 <!ENTITY otherActionsPrint1.accesskey "N">
 
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Melléklet panel megjelenítése induláskor">
+<!ENTITY startExpandedCmd.label    "Melléklet ablaktábla megjelenítése induláskor">
 <!ENTITY startExpandedCmd.accesskey    "p">
 
 <!-- Attachment context menu items -->

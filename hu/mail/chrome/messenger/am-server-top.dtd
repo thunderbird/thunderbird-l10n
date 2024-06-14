@@ -68,7 +68,7 @@
 <!ENTITY alwaysAuthenticate.accesskey "H">
 <!ENTITY newsrcFilePath1.label "News.rc-fájl:">
 <!ENTITY newsrcPicker1.label "Válasszon News.rc-fájlt">
-<!ENTITY abbreviate.label "Hírcsoportnevek megjelenítése a Levelezőmappák panelen:">
+<!ENTITY abbreviate.label "Hírcsoportnevek megjelenítése a Levelezőmappák ablaktáblán:">
 <!ENTITY abbreviateOn.label "Teljes névvel (például, 'netscape.public.mozilla.mail-news')">
 <!ENTITY abbreviateOff.label "Rövidített névvel (például, 'n.p.m.mail-news')">
 <!ENTITY advancedButton.label "Speciális…">
