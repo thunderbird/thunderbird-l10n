@@ -133,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Conta de correio eletrónico…
+    .accesskey = C
 file-new-newsgroup-account =
     .label = Conta de grupo de notícias…
     .accesskey = N
