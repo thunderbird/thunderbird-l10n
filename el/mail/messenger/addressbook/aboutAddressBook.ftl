@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Δημιουργία νέου ευρετηρίου
 books-pane-create-list-button =
     .title = Δημιουργία νέας λίστας αλληλογραφίας
+books-pane-import-button = Εισαγωγή
+    .title = Εισαγωγή βιβλίων διευθύνσεων
 
 ## Books
 
