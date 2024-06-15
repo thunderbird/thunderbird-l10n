@@ -49,11 +49,11 @@ list-id-context-list-help =
     .accesskey = A
 # Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
 list-id-list-unsubscribe =
-    .label = Cancelar Subscrição
+    .label = Cancelar Subscrição…
     .accesskey = u
 # Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
 list-id-list-subscribe =
-    .label = Subscrever...
+    .label = Subscrever…
     .accesskey = S
 # Describes (i.e. http or mailto URL) how to post to the mailing list.
 list-id-list-post =

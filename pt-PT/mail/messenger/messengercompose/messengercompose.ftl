@@ -85,7 +85,7 @@ toolbar-button-add-attachment =
     .label = Anexar
     .tooltiptext = Adicionar um anexo ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
-    .label = Adicionar Anexo...
+    .label = Adicionar Anexo…
     .accesskey = A
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 menuitem-attach-files =
@@ -96,6 +96,24 @@ context-menuitem-attach-files =
     .label = Anexar ficheiro(s)...
     .accesskey = F
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = Meu vCard
+    .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = Minha Chave Pública OpenPGP
+    .accesskey = v
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } anexo
+        [one] { $count } anexo
+       *[other] { $count } anexos
+    }
+attachment-area-show =
+    .title = Mostrar o painel de anexos ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Ocultar o painel de anexos ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
@@ -127,9 +145,68 @@ button-return-receipt =
 
 ## Encryption
 
+encryption-menu =
+    .label = Segurança
+    .accesskey = g
+encryption-toggle =
+    .label = Encriptar
+    .tooltiptext = Utilizar a encriptação ponta a ponta para esta mensagem
+key-notification-disable-encryption =
+    .label = Não encriptar
+    .accesskey = c
+    .tooltiptext = Desativar a encriptação ponto a ponto
+key-notification-resolve =
+    .label = Resolver…
+    .accesskey = R
+    .tooltiptext = Abra o Assistente de Chaves OpenPGP
+can-e2e-encrypt-button =
+    .label = Encriptar
+    .accesskey = E
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = Para
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .label = Campo Para
+    .accesskey = P
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = Para
+    .accesskey = P
+#   $key (String) - the shortcut key for this field
+show-to-row-button = Para
+    .title = Mostrar campo Para ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+cc-address-row-label =
+    .value = Cc
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = Campo Cc
+    .accesskey = C
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Cc
+    .accesskey = C
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Cc
+    .title = Mostar campo Cc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+bcc-address-row-label =
+    .value = Bcc
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .label = Campo Bcc
+    .accesskey = B
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = Bcc
+    .accesskey = B
 many-public-recipients-bcc =
     .label = Utilize o Bcc
     .accesskey = B
