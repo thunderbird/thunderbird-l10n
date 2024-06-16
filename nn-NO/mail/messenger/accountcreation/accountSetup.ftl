@@ -156,6 +156,9 @@ account-setup-insecure-outgoing-title = Utgåande innstillingar:
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> brukar ikkje kryptering.
+account-setup-warning-cleartext-details = Usikre e-posttenarar brukar ikkje kryptering for å verne passord og privat informasjon. Ved å kople til denne tenaren kan du avsløre passordet ditt eller privat informasjon.
+account-setup-insecure-server-checkbox = Eg forstår risikoen
+    .accesskey = E
 insecure-dialog-cancel-button = Endre innstillingar
     .accesskey = n
 insecure-dialog-confirm-button = Stadfest
@@ -174,6 +177,8 @@ exit-dialog-cancel-button = Hald fram med konfigurasjonen
 
 ## Alert dialogs
 
+account-setup-creation-error-title = Klarte ikkje å opprette konto
+account-setup-error-server-exists = Innkomande tenar finst allereie.
 account-setup-confirm-advanced-title = Stadfest avansert oppsett
 account-setup-confirm-advanced-description = Denne dialogruta vil late seg att og ein konto med dei aktuelle innstillingane vil bli oppretta, sjølv om innstillingane er feil. Vil du fortsetje?
 
