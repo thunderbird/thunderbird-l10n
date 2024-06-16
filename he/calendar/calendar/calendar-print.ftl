@@ -13,4 +13,5 @@ calendar-print-filter-completedtasks = משימות שהושלמו
 calendar-print-filter-taskswithnoduedate = משימות ללא תאריך יעד
 calendar-print-range-from = מ־
 calendar-print-range-to = עד
+calendar-print-back-button = חזרה
 calendar-print-next-button = הבא

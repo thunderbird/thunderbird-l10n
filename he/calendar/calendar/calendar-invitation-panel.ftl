@@ -10,6 +10,9 @@ calendar-invitation-panel-status-cancelled-notfound = ההודעה הזאת מכ
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = ביטול מצד { $organizer }:
+# Variables:
+# $summary (String) - A short summary or title of the event.
+calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-update-button = עדכון
 calendar-invitation-panel-delete-button = מחיקה
 calendar-invitation-panel-accept-button = כן
@@ -22,6 +25,10 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = הצגת השינויים
 calendar-invitation-panel-prop-title-when = מועד:
 calendar-invitation-panel-prop-title-location = מקום:
+# Example: Friday, September 16, 2022
+# Variables:
+# $startDate (String) - The date (without time) the event starts on.
+calendar-invitation-interval-all-day = { $startDate }
 calendar-invitation-panel-prop-title-recurrence = חזרתיות:
 calendar-invitation-panel-prop-title-attendees = משתתפים:
 calendar-invitation-panel-prop-title-description = תיאור:
