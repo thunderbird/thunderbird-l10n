@@ -5,6 +5,14 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Minimizar
+messenger-window-maximize-button =
+    .tooltiptext = Maximizar
+messenger-window-restore-down-button =
+    .tooltiptext = Restaurar para Baixo
+messenger-window-close-button =
+    .tooltiptext = Fechar
 # Variables:
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
@@ -16,21 +24,71 @@ about-rights-notification-text = O { -brand-short-name } é um software livre e 
 
 ## Content tabs
 
+content-tab-page-loading-icon =
+    .alt = A página está a carregar
+content-tab-security-high-icon =
+    .alt = A ligação é segura
+content-tab-security-broken-icon =
+    .alt = A ligação não é segura
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Retroceder uma página ({ $shortcut })
+    .aria-label = Anterior
+    .accesskey = A
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Anterior
+    .accesskey = A
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Avançar uma página ({ $shortcut })
+    .aria-label = Avançar
+    .accesskey = v
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Avançar
+    .accesskey = v
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Recarregar página
+    .aria-label = Recarregar
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Recarregar página
+    .label = Recarregar
+    .accesskey = R
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Parar carregamento da página
+    .aria-label = Parar
+    .accesskey = r
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Parar carregamento da página
+    .label = Parar
+    .accesskey = r
 
 ## Toolbar
 
+addons-and-themes-toolbarbutton =
+    .label = Extras e Temas
+    .tooltiptext = Gerir os seus extras
+quick-filter-toolbarbutton =
+    .label = Filtro Rápido
+    .tooltiptext = Filtrar mensagens
 redirect-msg-button =
     .label = Redirecionar
     .tooltiptext = Redirecionar mensagem selecionada
@@ -300,14 +358,81 @@ spaces-toolbar-element =
     .aria-description = Barra de ferramentas vertical para alternar entre diferentes espaços. Utilize as teclas direcionais para navegar pelos botões disponíveis.
 spaces-toolbar-button-mail2 =
     .title = Correio
+spaces-toolbar-button-address-book2 =
+    .title = Livro de Endereços
 spaces-toolbar-button-calendar2 =
     .title = Calendário
+spaces-toolbar-button-tasks2 =
+    .title = Tarefas
+spaces-toolbar-button-chat2 =
+    .title = Conversação
+spaces-toolbar-button-overflow =
+    .title = Mais espaços…
+spaces-toolbar-button-settings2 =
+    .title = Definições
+spaces-toolbar-button-hide =
+    .title = Ocultar Barra de Ferramentas de Espaços
+spaces-toolbar-button-show =
+    .title = Mostrar Barra de Ferramentas de Espaços
+spaces-context-new-tab-item =
+    .label = Abrir num novo separador
+spaces-context-new-window-item =
+    .label = Abrir numa nova janela
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = Mudar para { $tabName }
+settings-context-open-settings-item2 =
+    .label = Definições
+settings-context-open-account-settings-item2 =
+    .label = Definições de Conta
+settings-context-open-addons-item2 =
+    .label = Extras e Temas
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Menu de Espaços
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] Uma mensagem não lida
+           *[other] { $count } mensagens não lidas
+        }
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Personalizar…
+spaces-customize-panel-title = Definições da Barra de Ferramentas de Espaços
+spaces-customize-background-color = Cor de fundo
+spaces-customize-icon-color = Cor do botão
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Cor de fundo do botão selecionada
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Cor do botão selecionada
+spaces-customize-button-restore = Restaurar Predefinições
+    .accesskey = R
+customize-panel-button-save = Concluído
+    .accesskey = C
 
 ## Quick Filter Bar
 
@@ -323,6 +448,13 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Esquecer as frases-passe do OpenPGP
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% utilizado
+    .title = Quota de IMAP: { $usage } utilizado de total { $limit }

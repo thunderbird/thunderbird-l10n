@@ -207,15 +207,23 @@ show-bcc-row-main-menuitem =
 show-bcc-row-extra-menuitem =
     .label = Bcc
     .accesskey = B
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = Bcc
+    .title = Mostrar campo Bcc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = Outros campos de endereços a mostrar
 many-public-recipients-bcc =
     .label = Utilize o Bcc
     .accesskey = B
 many-public-recipients-ignore =
     .label = Manter os destinatários públicos
     .accesskey = p
+many-public-recipients-prompt-cancel = Cancelar Envio
+many-public-recipients-prompt-send = Mesmo Assim, Enviar
 
 ## Notifications
 
+encrypted-bcc-ignore-button = Compreendi
 
 ## Editing
 
@@ -231,12 +239,48 @@ many-public-recipients-ignore =
 
 # Template
 
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = Ligação protegida por palavra-passe
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Serviço Filelink:
+cloud-file-template-size = Tamanho:
+cloud-file-template-link = Ligação:
+cloud-file-template-password-protected-link = Ligação protegida por palavra-passe:
+cloud-file-template-expiry-date = Data de expiração:
+cloud-file-template-download-limit = Limite de transferência:
 
 # Messages
 
+cloud-file-connection-error-title = Erro de Ligação
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = O envio de { $filename } para { $provider } falhou
+cloud-file-rename-error-title = Erro ao Renomear
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Ocorreu um problema ao renomear { $filename } em { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = A renomeação de { $filename } em { $provider } falhou
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = O { $provider } não suporta a renomeação de ficheiros já enviados.
 
 ## Link Preview
 
+link-preview-yes-replace = Sim
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Adicionar Dicionários…
+    .accesskey = A
