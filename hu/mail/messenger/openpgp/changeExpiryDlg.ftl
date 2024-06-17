@@ -9,6 +9,8 @@ info-will-expire = Ez a kulcs jelenleg úgy van konfigurálva, hogy { $date } na
 info-already-expired = Ez a kulcs már lejárt.
 info-does-not-expire = Ez a kulcs jelenleg úgy van konfigurálva, hogy soha ne járjon le.
 info-explanation-1 = <b>Egy kulcs lejárta után</b> az már nem használható titkosításhoz vagy digitális aláíráshoz.
+# Do not translate: OpenPGP
+info-explanation-1-complex = Ez az OpenPGP-kulcs egy elsődleges kulcsból, és legalább egy <b>eltérő lejárati idejű</b> alkulcsból áll.
 select-key-prompt = Módosítandó kulcs:
 info-explanation-2 = Hogy hosszabb ideig használja ezt a kulcsot, módosítsa a lejárati dátumát, majd ossza meg újra a nyilvános kulcsot a beszélgetőpartnerekkel!
 usage-label = Használat:

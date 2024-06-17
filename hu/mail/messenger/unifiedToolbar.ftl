@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Keresés
 search-bar-item =
     .label = Keresés:
+search-bar-item2 =
+    .label = Keresés
 search-bar-placeholder = Keresés…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Mentés
 customize-unsaved-changes = Nem mentett módosítások más helyeken
 customize-search-bar =
     .label = Keresési eszköztár gombjai…
+customize-search-bar2 =
+    .label = Keresési eszköztár gombjai
+    .placeholder = Keresési eszköztár gombjai…
 customize-spaces-tabs =
     .aria-label = Helyek
 customize-main-toolbar-target =
