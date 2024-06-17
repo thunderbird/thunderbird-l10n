@@ -2,16 +2,17 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY windowTitle.label "Устаўка табліцы">
+<!-- Window title -->
+<!ENTITY windowTitle.label "Уставіць табліцу">
 
 <!ENTITY size.label "Памер">
-<!ENTITY numRowsEditField.label "Шэрагі:">
-<!ENTITY numRowsEditField.accessKey "р">
-<!ENTITY numColumnsEditField.label "Слупкі:">
+<!ENTITY numRowsEditField.label "Радкоў:">
+<!ENTITY numRowsEditField.accessKey "Р">
+<!ENTITY numColumnsEditField.label "Слупкоў:">
 <!ENTITY numColumnsEditField.accessKey "С">
 <!ENTITY widthEditField.label "Шырыня:">
 <!ENTITY widthEditField.accessKey "Ш">
-<!ENTITY borderEditField.label "Мяжа:">
-<!ENTITY borderEditField.accessKey "М">
+<!ENTITY borderEditField.label "Рамка:">
+<!ENTITY borderEditField.accessKey "Р">
 <!ENTITY borderEditField.tooltip "Набярыце лік для мяжы табліцы, ці набярыце нуль (0) для табліцы без межаў">
 <!ENTITY pixels.label "пікселяў">
