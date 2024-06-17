@@ -2,11 +2,14 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY windowTitle.label "Устаўка HTML">
-<!ENTITY sourceEditField.label "Увядзіце меціны HTML і тэкст:">
-<!ENTITY example.label "Прыклад:">
+<!-- Window title -->
+<!ENTITY windowTitle.label "Уставіць HTML">
+<!ENTITY sourceEditField.label "Увядзіце зыходны код HTML:">
+<!ENTITY example.label "Прыклад: ">
+<!-- LOCALIZATION NOTE (exampleOpenTag.label): DONT_TRANSLATE: they are text for HTML tagnames: "<i>" and "</i>" -->
 <!ENTITY exampleOpenTag.label "&lt;i&gt;">
+<!-- LOCALIZATION NOTE (exampleCloseTag.label): DONT_TRANSLATE: they are text for HTML tagnames: "<i>" and "</i>" -->
 <!ENTITY exampleCloseTag.label "&lt;/i&gt;">
-<!ENTITY exampleText.label "Прывітанне, Свет!">
+<!ENTITY exampleText.label "Прывітанне, свет!">
 <!ENTITY insertButton.label "Уставіць">
 <!ENTITY insertButton.accesskey "У">

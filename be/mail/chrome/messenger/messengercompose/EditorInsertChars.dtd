@@ -10,10 +10,10 @@
 <!ENTITY letter.accessKey "Л">
 <!ENTITY character.label "Сімвал:">
 <!ENTITY character.accessKey "С">
-<!ENTITY accentUpper.label "Вялікія з націскам">
-<!ENTITY accentLower.label "Малыя з націскам">
+<!ENTITY accentUpper.label "Вялікія з дыякрытычнымі знакамі">
+<!ENTITY accentLower.label "Малыя з дыякрытычнымі знакамі">
 <!ENTITY otherUpper.label "Іншыя вялікія">
 <!ENTITY otherLower.label "Іншыя малыя">
 <!ENTITY commonSymbols.label "Агульныя сімвалы">
 <!ENTITY insertButton.label "Уставіць">
-<!ENTITY closeButton.label "Зачыніць">
+<!ENTITY closeButton.label "Закрыць">

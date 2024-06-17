@@ -2,15 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY windowTitle.label "Устаўка Math">
+<!-- Window title -->
+<!ENTITY windowTitle.label "Уставіць матэматычны выраз">
 
-<!ENTITY sourceEditField.label "Увесці зыходны код LaTeX:">
+<!ENTITY sourceEditField.label "Увядзіце зыходны код LaTeX:">
 
-<!ENTITY options.label "Наладжванні">
-<!ENTITY optionInline.label "Убудаваны рэжым">
-<!ENTITY optionInline.accesskey "б">
-<!ENTITY optionDisplay.label "Адлюстроўны рэжым">
-<!ENTITY optionDisplay.accesskey "А">
+<!ENTITY options.label "Параметры">
+<!ENTITY optionInline.label "Рэжым убудавання">
+<!ENTITY optionInline.accesskey "у">
+<!ENTITY optionDisplay.label "Рэжым адлюстравання">
+<!ENTITY optionDisplay.accesskey "а">
 <!ENTITY optionLTR.label "Кірунак злева направа">
 <!ENTITY optionLTR.accesskey "л">
 <!ENTITY optionRTL.label "Кірунак справа налева">
