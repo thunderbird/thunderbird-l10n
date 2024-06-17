@@ -3,9 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY windowTitle.label "Уласцівасці гарызантальнай рыскі">
+<!-- Window title -->
+<!ENTITY windowTitle.label "Уласцівасці гарызантальнага раздзяляльніка">
 
-<!ENTITY dimensionsBox.label "Вымярэнні">
+<!ENTITY dimensionsBox.label "Памеры">
 <!ENTITY heightEditField.label "Вышыня">
 <!ENTITY heightEditField.accessKey "В">
 <!ENTITY widthEditField.label "Шырыня:">
