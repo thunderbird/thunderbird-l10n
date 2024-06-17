@@ -14,5 +14,5 @@
 <!ENTITY widthEditField.accessKey "Ш">
 <!ENTITY borderEditField.label "Рамка:">
 <!ENTITY borderEditField.accessKey "Р">
-<!ENTITY borderEditField.tooltip "Набярыце лік для мяжы табліцы, ці набярыце нуль (0) для табліцы без межаў">
+<!ENTITY borderEditField.tooltip "Увядзіце шырыню рамкі табліцы або нуль (0), каб зрабіць рамку нябачнай">
 <!ENTITY pixels.label "пікселяў">

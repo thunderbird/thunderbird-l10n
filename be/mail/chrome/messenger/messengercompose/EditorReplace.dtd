@@ -2,16 +2,14 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from EdReplace.xul -->
-
 <!-- extracted from EdReplace.xhtml -->
 
 <!ENTITY replaceDialog.title "Знайсці і замяніць">
 <!ENTITY findField.label "Знайсці тэкст:">
 <!ENTITY findField.accesskey "н">
-<!ENTITY replaceField.label "Замяніць (чым):">
+<!ENTITY replaceField.label "Замяніць на:">
 <!ENTITY replaceField.accesskey "м">
-<!ENTITY caseSensitiveCheckbox.label "Адрозніваць вялікія/малыя літары">
+<!ENTITY caseSensitiveCheckbox.label "Улічваць рэгістр">
 <!ENTITY caseSensitiveCheckbox.accesskey "р">
 <!ENTITY wrapCheckbox.label "Вакол">
 <!ENTITY wrapCheckbox.accesskey "В">

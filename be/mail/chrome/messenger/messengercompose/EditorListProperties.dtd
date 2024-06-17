@@ -3,17 +3,18 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
+<!-- Window title -->
 <!ENTITY windowTitle.label "Уласцівасці спіса">
 
 <!ENTITY ListType.label "Тып спіса">
-<!ENTITY bulletStyle.label "Маркаваны стыль:">
-<!ENTITY startingNumber.label "Пачаць з:">
-<!ENTITY startingNumber.accessKey "з">
-<!ENTITY none.value "Няма">
-<!ENTITY bulletList.value "Маркаваны спіс (Ненумараваны)">
-<!ENTITY numberList.value "Пранумараваны спіс">
+<!ENTITY bulletStyle.label "Стыль маркіраванага спіса:">
+<!ENTITY startingNumber.label "Пачынаць з:">
+<!ENTITY startingNumber.accessKey "П">
+<!ENTITY none.value "Нічога">
+<!ENTITY bulletList.value "Маркіраваны (ненумараваны) спіс">
+<!ENTITY numberList.value "Нумараваны спіс">
 <!ENTITY definitionList.value "Спіс азначэнняў">
 <!ENTITY changeEntireListRadio.label "Змяніць увесь спіс">
 <!ENTITY changeEntireListRadio.accessKey "у">
-<!ENTITY changeSelectedRadio.label "Змяніць толькі вылучаныя адзінкі">
-<!ENTITY changeSelectedRadio.accessKey "а">
+<!ENTITY changeSelectedRadio.label "Змяніць толькі выбраныя элементы">
+<!ENTITY changeSelectedRadio.accessKey "в">
