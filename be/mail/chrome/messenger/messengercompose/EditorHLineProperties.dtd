@@ -15,13 +15,13 @@
 <!ENTITY alignmentBox.label "Выраўноўванне">
 <!ENTITY leftRadio.label "Улева">
 <!ENTITY leftRadio.accessKey "л">
-<!ENTITY centerRadio.label "Пасярэдзіне">
-<!ENTITY centerRadio.accessKey "с">
-<!ENTITY rightRadio.label "Направа">
+<!ENTITY centerRadio.label "Па цэнтры">
+<!ENTITY centerRadio.accessKey "ц">
+<!ENTITY rightRadio.label "Управа">
 <!ENTITY rightRadio.accessKey "п">
 
-<!ENTITY threeDShading.label "3-М зацяненне">
-<!ENTITY threeDShading.accessKey "ц">
-<!ENTITY saveSettings.label "Ужываць як змоўчную">
-<!ENTITY saveSettings.accessKey "З">
-<!ENTITY saveSettings.tooltip "Захаваць гэтыя наладжванні для ўстаўкі новых гарызантальных рысак">
+<!ENTITY threeDShading.label "3D-зацяненне">
+<!ENTITY threeDShading.accessKey "з">
+<!ENTITY saveSettings.label "Зрабіць налады стандартнымі">
+<!ENTITY saveSettings.accessKey "с">
+<!ENTITY saveSettings.tooltip "Захаваць гэтыя налады, каб выкарыстоўваць іх пры ўстаўцы новых гарызантальных раздзяляльнікаў">

@@ -3,12 +3,13 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY windowTitle.label "Устаўка знака">
+<!-- Window title -->
+<!ENTITY windowTitle.label "Уставіць сімвал">
 <!ENTITY category.label "Катэгорыя">
 <!ENTITY letter.label "Літара:">
 <!ENTITY letter.accessKey "Л">
-<!ENTITY character.label "Знак:">
-<!ENTITY character.accessKey "З">
+<!ENTITY character.label "Сімвал:">
+<!ENTITY character.accessKey "С">
 <!ENTITY accentUpper.label "Вялікія з націскам">
 <!ENTITY accentLower.label "Малыя з націскам">
 <!ENTITY otherUpper.label "Іншыя вялікія">
