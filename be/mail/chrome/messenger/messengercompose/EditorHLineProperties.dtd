@@ -7,7 +7,7 @@
 <!ENTITY windowTitle.label "Уласцівасці гарызантальнага раздзяляльніка">
 
 <!ENTITY dimensionsBox.label "Памеры">
-<!ENTITY heightEditField.label "Вышыня">
+<!ENTITY heightEditField.label "Вышыня:">
 <!ENTITY heightEditField.accessKey "В">
 <!ENTITY widthEditField.label "Шырыня:">
 <!ENTITY widthEditField.accessKey "Ш">
