@@ -11,7 +11,7 @@
 <!ENTITY replaceField.accesskey "м">
 <!ENTITY caseSensitiveCheckbox.label "Улічваць рэгістр">
 <!ENTITY caseSensitiveCheckbox.accesskey "р">
-<!ENTITY wrapCheckbox.label "Вакол">
+<!ENTITY wrapCheckbox.label "З пачатку старонкі">
 <!ENTITY wrapCheckbox.accesskey "В">
 <!ENTITY backwardsCheckbox.label "Шукаць назад">
 <!ENTITY backwardsCheckbox.accesskey "н">
