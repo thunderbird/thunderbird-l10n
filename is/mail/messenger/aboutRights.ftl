@@ -26,7 +26,7 @@ rights-webservices2 =
     Aðrar stillingar og þjónustur er hægt að gera óvirkar í valkostum.
 rights-locationawarebrowsing = <strong>Staðsetningarvöfrun: </strong>er alltaf valkvæmt.  Engar staðsetningarupplýsingar eru sendar án þíns leyfis.  Ef þú vilt taka þennan eiginlega alveg út, geturðu fylgt eftir þessum skrefum:
 rights-locationawarebrowsing-term-1 = Í netfangaslá, sláðu inn <code>about:config</code>
-rights-locationawarebrowsing-term-2 = Sláðu inn geo.enabled
+rights-locationawarebrowsing-term-2 = Settu inn geo.enabled
 rights-locationawarebrowsing-term-3 = Tvísmelltu á geo.enabled stillinguna
 rights-locationawarebrowsing-term-4 = Staðsetningarvöfrun er núna óvirk
 rights-webservices-unbranded = Hér ætti að vera yfirlit yfir þær vefþjónustur sem eru innifaldar í vörunni, með leiðbeiningum um hvernig á að gera þær óvirkar, ef það á við.
