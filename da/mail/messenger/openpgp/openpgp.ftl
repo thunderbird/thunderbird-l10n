@@ -19,6 +19,13 @@ e2e-csr-select-title = CSR-algoritme
 e2e-csr-select-alg = Vælg enten RSA (anbefales) eller ECC som den kryptografiske algoritme til det nye S/MIME-certifikat.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Vælg den ønskede kryptografiske styrke (hurtigere ved lavere værdier og større sikkerhed ved højere værdier) til det nye S/MIME-certifikat, eller behold standardindstillingen.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Inkluder mailadressen  ({ $email }) i CSR-filen (anbefales)
+# $file A filename
+e2e-csr-success = CSR-filen blev gemt som { $file }
+# $file A filename
+e2e-csr-failure = Kunne ikke gemme CSR-filen { $file }
 e2e-signing-description = Med en digital signatur kan modtagere af en meddelelse kontrollere, at meddelelsen kommer fra dig, og at dens indhold ikke er blevet ændret. Krypterede meddelelser er altid signeret.
 e2e-sign-message =
     .label = Signer ukrypterede meddelelser
