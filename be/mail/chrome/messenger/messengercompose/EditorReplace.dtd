@@ -8,20 +8,20 @@
 <!ENTITY findField.label "Знайсці тэкст:">
 <!ENTITY findField.accesskey "н">
 <!ENTITY replaceField.label "Замяніць на:">
-<!ENTITY replaceField.accesskey "м">
+<!ENTITY replaceField.accesskey "а">
 <!ENTITY caseSensitiveCheckbox.label "Улічваць рэгістр">
-<!ENTITY caseSensitiveCheckbox.accesskey "р">
+<!ENTITY caseSensitiveCheckbox.accesskey "л">
 <!ENTITY wrapCheckbox.label "З пачатку старонкі">
-<!ENTITY wrapCheckbox.accesskey "В">
-<!ENTITY backwardsCheckbox.label "Шукаць назад">
-<!ENTITY backwardsCheckbox.accesskey "н">
-<!ENTITY findNextButton.label "Знайсці наступны">
+<!ENTITY wrapCheckbox.accesskey "п">
+<!ENTITY backwardsCheckbox.label "Пошук у адваротным кірунку">
+<!ENTITY backwardsCheckbox.accesskey "о">
+<!ENTITY findNextButton.label "Знайсці далей">
 <!ENTITY findNextButton.accesskey "З">
 <!ENTITY replaceButton.label "Замяніць">
 <!ENTITY replaceButton.accesskey "я">
 <!ENTITY replaceAndFindButton.label "Замяніць і знайсці">
 <!ENTITY replaceAndFindButton.accesskey "і">
-<!ENTITY replaceAllButton.label "Замяніць усе">
+<!ENTITY replaceAllButton.label "Замяніць усё">
 <!ENTITY replaceAllButton.accesskey "У">
 <!ENTITY closeButton.label "Закрыць">
 <!ENTITY closeButton.accesskey "З">
