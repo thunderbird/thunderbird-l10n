@@ -123,26 +123,56 @@ about-addressbook-column-header-phonenumbers2 = Telefonnumre
     .title = Sorter efter telefonnumre
 about-addressbook-column-label-phonenumbers2 =
     .label = Telefonnumre
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Telefonnumre
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Adresser
     .title = Sorter efter adresser
 about-addressbook-column-label-addresses2 =
     .label = Adresser
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adresser
+    .title = { $title }
 about-addressbook-column-header-title2 = Titel
     .title = Sorter efter titel
 about-addressbook-column-label-title2 =
     .label = Titel
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Titel
+    .title = { $title }
 about-addressbook-column-header-department2 = Afdeling
     .title = Sorter efter afdeling
 about-addressbook-column-label-department2 =
     .label = Afdeling
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Afdeling
+    .title = { $title }
 about-addressbook-column-header-organization2 = Organisation
     .title = Sorter efter organisation
 about-addressbook-column-label-organization2 =
     .label = Organisation
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organisation
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Adressebog
     .title = Sorter efter adressebog
 about-addressbook-column-label-addrbook2 =
     .label = Adressebog
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Adressebog
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Skriv
 about-addressbook-confirm-delete-mixed-title = Slet kontakter og lister
