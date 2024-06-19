@@ -4,6 +4,21 @@
 
 e2e-intro-description = For at sende krypterede eller digitalt signerede meddelelser, skal du konfigurere en krypteringsteknologi, enten OpenPGP eller S/MIME.
 e2e-intro-description-more = Vælg din personlige nøgle for at aktivere brugen af OpenPGP, eller dit personlige certifikat for at aktivere brugen af S/MIME. Du ejer selv den tilsvarende hemmelige nøgle til en personlig nøgle eller et certifikat.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Generer CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Fortsæt
+# A label for a button that goes back one step
+e2e-csr-back = Tilbage
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Generer og gem CSR-fil som...
+# Do not translate: CSR
+e2e-csr-select-title = CSR-algoritme
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Vælg enten RSA (anbefales) eller ECC som den kryptografiske algoritme til det nye S/MIME-certifikat.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Vælg den ønskede kryptografiske styrke (hurtigere ved lavere værdier og større sikkerhed ved højere værdier) til det nye S/MIME-certifikat, eller behold standardindstillingen.
 e2e-signing-description = Med en digital signatur kan modtagere af en meddelelse kontrollere, at meddelelsen kommer fra dig, og at dens indhold ikke er blevet ændret. Krypterede meddelelser er altid signeret.
 e2e-sign-message =
     .label = Signer ukrypterede meddelelser
@@ -619,6 +634,9 @@ no-update-found = Du har allerede de nøgler, der blev fundet online.
 
 
 ## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Fejl - kommandoen til nøgleudtrækning mislykkedes
 
