@@ -16,12 +16,12 @@
 <!ENTITY backwardsCheckbox.label "Пошук у адваротным кірунку">
 <!ENTITY backwardsCheckbox.accesskey "о">
 <!ENTITY findNextButton.label "Знайсці далей">
-<!ENTITY findNextButton.accesskey "З">
+<!ENTITY findNextButton.accesskey "й">
 <!ENTITY replaceButton.label "Замяніць">
-<!ENTITY replaceButton.accesskey "я">
+<!ENTITY replaceButton.accesskey "м">
 <!ENTITY replaceAndFindButton.label "Замяніць і знайсці">
-<!ENTITY replaceAndFindButton.accesskey "і">
+<!ENTITY replaceAndFindButton.accesskey "я">
 <!ENTITY replaceAllButton.label "Замяніць усё">
-<!ENTITY replaceAllButton.accesskey "У">
+<!ENTITY replaceAllButton.accesskey "і">
 <!ENTITY closeButton.label "Закрыць">
 <!ENTITY closeButton.accesskey "З">
