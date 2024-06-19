@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Bevar arkiverede meddelelsers eksisterende mappestruktur
     .accesskey = B
+recreate-inbox =
+    .label = Genskab Indbakke-mappe
+    .accesskey = G
 archive-example-label = Eksempel
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Indbakke
+child-folder-name =
+    .label = Undermappe til Indbakke
+sibling-folder-name =
+    .label = Søskende til Indbakke
