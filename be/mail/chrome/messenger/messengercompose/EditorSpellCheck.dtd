@@ -6,7 +6,7 @@
 <!ENTITY windowTitle.label "Праверка правапісу">
 
 <!ENTITY misspelledWord.label "Слова з памылкамі:">
-<!ENTITY wordEditField.label "Замяніць (чым):">
+<!ENTITY wordEditField.label "Замяніць на:">
 <!ENTITY wordEditField.accessKey "я">
 <!ENTITY checkwordButton.label "Праверыць слова">
 <!ENTITY checkwordButton.accessKey "л">
@@ -32,7 +32,7 @@
 <!ENTITY recheckButton2.accessKey "П">
 <!ENTITY closeButton.label "Зачыніць">
 <!ENTITY closeButton.accessKey "ч">
-<!ENTITY sendButton.label "Даслаць">
-<!ENTITY sendButton.accessKey "Д">
+<!ENTITY sendButton.label "Адправіць">
+<!ENTITY sendButton.accessKey "д">
 <!ENTITY languagePopup.label "Мова:">
 <!ENTITY languagePopup.accessKey "М">
