@@ -568,6 +568,9 @@ primary-password-description = Hovedadgangskoden beskytter alle dine adgangskode
 primary-password-label =
     .label = Brug hovedadgangskode
     .accesskey = u
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Kræv login på enhed for at udfylde og håndtere adgangskoder
 primary-password-button =
     .label = Skift hovedadgangskode…
     .accesskey = S
