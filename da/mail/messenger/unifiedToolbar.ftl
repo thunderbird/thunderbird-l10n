@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Søg
 search-bar-item =
     .label = Søg:
+search-bar-item2 =
+    .label = Søg
 search-bar-placeholder = Søg…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key

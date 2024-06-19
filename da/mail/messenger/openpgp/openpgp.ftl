@@ -4,6 +4,8 @@
 
 e2e-intro-description = For at sende krypterede eller digitalt signerede meddelelser, skal du konfigurere en krypteringsteknologi, enten OpenPGP eller S/MIME.
 e2e-intro-description-more = Vælg din personlige nøgle for at aktivere brugen af OpenPGP, eller dit personlige certifikat for at aktivere brugen af S/MIME. Du ejer selv den tilsvarende hemmelige nøgle til en personlig nøgle eller et certifikat.
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Vælg en lokal mappe og filnavn til din CRS-fil og svar på de følgende spørgsmål for at indstille algoritme og styrke.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Generer CSR
 # A label for a button that proceeds to the next step
@@ -520,6 +522,7 @@ key-man-button-export-pub-key = Eksporter kun &offentlige nøgler
 key-man-button-refresh-all = &Opdater alle nøgler
 key-man-loading-keys = Indlæser nøgler, vent venligst...
 ascii-armor-file = ASCII Armored-filer (*.asc)
+text-file = Tekstfiler (*.txt)
 no-key-selected = Du skal vælge mindst én nøgle for at udføre den valgte handling
 export-to-file = Eksporter offentlig nøgle til fil
 export-keypair-to-file = Eksporter hemmelig og offentlig nøgle til fil
@@ -664,6 +667,7 @@ confirm-permissive-import = Import mislykkedes. Den nøgle, du prøver at import
 
 ## Strings used in trust.jsm
 
+help-button = Hjælp
 
 ## Strings used in trust.sys.mjs
 
