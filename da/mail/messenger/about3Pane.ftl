@@ -533,3 +533,12 @@ message-list-placeholder-multiple-folders = Flere mapper valgt
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Marker mappe som læst
+           *[other] Marker mapper som læst
+        }
+    .accesskey = k
