@@ -240,6 +240,56 @@ cal-dav-redirect-title = ¿Actualizar ubicación para el calendario { $name }?
 # $name name of calendar
 cal-dav-redirect-text = Los pedidos para { $name } están siendo redireccionados a una nueva ubicación. ¿Desea cambiar la ubicación al nuevo valor?
 cal-dav-redirect-disable-calendar = Deshabilitar calendario
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = America/Argentina/Buenos_Aires, America/New_York, America/Chicago, America/Denver, America/Phoenix, America/Los_Angeles, America/Anchorage, America/Adak, Pacific/Honolulu, America/Puerto_Rico, America/Halifax, America/Mexico_City, America/Sao_Paulo, Europe/London, Europe/Paris, Asia/Singapore, Asia/Tokyo, Africa/Lagos, Africa/Johannesburg, Africa/Nairobi, Australia/Brisbane, Australia/Sydney, Pacific/Auckland
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Advertencia: El huso horario del sistema operativo "{ $timezone }"
+    no coincide con el huso horario interno ZoneInfo "{ $zoneInfoTimezoneId }".
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -268,6 +318,13 @@ warning-using-guessedtz =
     { $timezone } (UTC{ $offset }).
     { $detail1 }
     { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Este huso horario ZoneInfo casi coincide con el huso horario del sistema operativo.
+    Para esta regla, las próximas transiciones entre horario de verano y horario estándar
+    difieren a lo sumo una semana de las transiciones del sistema operativo.
+    Puede haber discrepancias en los datos, como un día de inicio diferente,
+    una regla diferente o aproximación para una regla de calendario no gregoriano.
 tz-seems-to-matchos = Este huso horario ZoneInfo parece coincidir con el huso horario del sistema operativo este año.
 # LOCALIZATION NOTE (tz-fromos):
 # used for a display of a chosen timezone
@@ -275,6 +332,10 @@ tz-seems-to-matchos = Este huso horario ZoneInfo parece coincidir con el huso ho
 tz-fromos =
     Este huso horario ZoneInfo fue elegido basándose en el identificador de huso horario de su
     sistema operativo "{ $timezone }".
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Este huso horario ZoneInfo fue elegido basándose en la coincidencia del huso horario de su
+    sistema operativo con husos horarios para usuarios de internet usando Español de Argentina.
 tz-from-known-timezones =
     Este huso horario ZoneInfo fue elegido basándose en el huso horario de su
     sistema operativo con husos horarios conocidos en orden alfabético de id.
@@ -415,6 +476,17 @@ single-calendar-week = SC: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = SsC: { $startIndex }-{ $endIndex }
     .title = Semanas calendario { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = S { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
