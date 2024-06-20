@@ -642,6 +642,15 @@ delete-item =
 delete-event =
     .label = Izbriši dogodek
     .accesskey = b
+# $count count
+calendar-properties-every-minute =
+    .label =
+        { $count ->
+            [one] Vsako minuto
+            [two] Vsaki { $count } minuti
+            [few] Vsake { $count } minute
+           *[other] Vsakih { $count } minut
+        }
 # LOCALIZATION NOTE (extract-using)
 # Used in message header
 #    $languageName will be replaced with language name from languageNames.properties
