@@ -297,6 +297,10 @@ warning-os-tz-no-match =
 # mapping from windows to ZoneInfo timezone ids does).
 # $timezone OS timezone id
 skipping-os-timezone = Hopper over operativsystem tidssone «{ $timezone }».
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Hopper over lokal tidssone «{ $timezone }».
 # Testing note: "No match" timezones include Bucharest on W2k.
 # Brazil timezones may be "No match" (change every year, so often out of date,
 # and changes are often more than a week different).
@@ -472,6 +476,17 @@ single-calendar-week = U: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = U: { $startIndex }-{ $endIndex }
     .title = Kalenderuker { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = U { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
