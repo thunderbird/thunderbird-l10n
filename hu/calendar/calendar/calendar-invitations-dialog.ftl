@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Jelenleg elutasított
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Jelenleg el nem döntett
+allday-event = Egész napos esemény
+recurrent-event =
+    .value = Ismétlődő esemény
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Hely: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Szervező: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Résztvevő: { $attendeeProperty }
+calendar-invitations-none = Nincs
