@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Momenteel geweigerd
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Momenteel niet besloten
+allday-event = De hele dag
+recurrent-event =
+    .value = Herhalende gebeurtenis
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Locatie: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organisator: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Genodigde: { $attendeeProperty }
+calendar-invitations-none = Geen
