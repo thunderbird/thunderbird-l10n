@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Aktualisht e hedhur poshtë
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Aktualisht pa vendosur
+allday-event = Veprimtari gjithë ditën
+recurrent-event =
+    .value = Veprimtari ripërsëritëse
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Vendndodhje: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organizator: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Pjesëmarrës: { $attendeeProperty }
+calendar-invitations-none = Asnjë
