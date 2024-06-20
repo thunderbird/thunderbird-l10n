@@ -268,6 +268,56 @@ cal-dav-redirect-disable-calendar = Naptár letiltása
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
 likely-timezone = Europe/Budapest
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Figyelmeztetés: Az operációs rendszer „{ $timezone }” időzónája
+    már nem egyezik a(z) „{ $zoneInfoTimezoneId }” ZoneInfo időzónával.
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Az operációs rendszer „{ $timezone }” időzónájának kihagyása.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = A területi beállításból származó „{ $timezone }” időzóna kihagyása.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Figyelmeztetés: „lebegő” időzóna használata.
+    Egyetlen ZoneInfo-időzónaadat sem egyezett meg az operációs rendszer időzónaadatával.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Figyelmeztetés:  Tippelt időzóna használata:
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
 # Testing note: "Almost match" timezones include Cairo on W2k.
 tz-almost-matches-os-differ-at-mostaweek =
     Ez a ZoneInfo-időzóna majdnem egyezik az operációs rendszer időzónájával.
@@ -426,6 +476,17 @@ single-calendar-week = Hét: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Hét: { $startIndex }-{ $endIndex }
     .title = Naptári hetek { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = { $number }. hét
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
