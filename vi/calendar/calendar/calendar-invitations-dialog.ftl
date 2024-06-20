@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Hiện tại đã từ chối
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Hiện tại chưa được quyết định
+allday-event = Sự kiện cả ngày
+recurrent-event =
+    .value = Sự kiện lặp lại
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Địa chỉ: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Đơn vị tổ chức: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Người tham dự: { $attendeeProperty }
+calendar-invitations-none = Không có
