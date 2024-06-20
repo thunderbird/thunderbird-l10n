@@ -10,6 +10,12 @@ reminder-title-at-start-event = Um leið og atburðurinn byrjar
 reminder-title-at-start-task = Um leið og verkefnið byrjar
 reminder-title-at-end-event = Um leið og atburðurinn endar
 reminder-title-at-end-task = Um leið og verkefnið endar
+# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
+# This string is not seen in the UI, it is read by screen readers when the user
+# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
+# $unit  =  any of unit*
+reminder-snooze-ok-a11y =
+    .aria-label = Setja áminningu fyrir { $unit } í blund
 reminder-custom-origin-begin-before-event = áður en atburðurinn byrjar
 reminder-custom-origin-begin-after-event = eftir að atburðurinn byrjar
 reminder-custom-origin-end-before-event = áður en atburðurinn endar
@@ -46,3 +52,12 @@ reminder-error-max-count-reached-task =
         [one] Valið dagatal er takmarkað við { $count } áminningu fyrir hvert verkefni.
        *[other] Valið dagatal er takmarkað við { $count } áminningar fyrir hvert verkefni.
     }
+# LOCALIZATION NOTE (reminder-readonly-notification)
+# This notification will be presented in the alarm dialog if reminders for not
+# writable items/calendars are displayed.
+# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+reminder-readonly-notification = Ekki er í augnablikinu hægt að blunda áminningar fyrir skrifvarin dagatöl, heldur aðeins hunsa - hnappurinn '{ $label }' mun aðeins blunda áminningar fyrir skrifanleg dagatöl.
+# LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
+# This tooltip is only displayed, if the button is disabled
+reminder-disabled-snooze-button-tooltip =
+    .tooltiptext = Blundur áminninga er ekki studdur fyrir skrifvarin dagatöl
