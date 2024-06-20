@@ -332,6 +332,10 @@ tz-seems-to-matchos = This ZoneInfo timezone seems to match the operating system
 tz-fromos =
     This ZoneInfo timezone was chosen based on the operating system timezone
     identifier "{ $timezone }".
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    This ZoneInfo timezone was chosen based on matching the operating system
+    timezone with likely timezones for internet users using US English.
 tz-from-known-timezones =
     This ZoneInfo timezone was chosen based on matching the operating system
     timezone with known timezones in alphabetical order of timezone id.
@@ -472,6 +476,17 @@ single-calendar-week = CW: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = CWs: { $startIndex }-{ $endIndex }
     .title = Calendar Weeks { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = W { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
