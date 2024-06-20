@@ -97,6 +97,10 @@ unable-to-read = Nelze číst ze souboru:
 unable-to-write = Nelze zapisovat do souboru: { $filePath }
 default-file-name = udalosti-kalendare
 html-title = Mozilla Kalendář
+# LOCALIZATION NOTE (timezone-error):
+# used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
+#    $filePath will be replaced with the path to a file
+timezone-error = Při čtení kalendáře { $filePath } bylo nalezeno neznámé či nedefinované časové pásmo.
 # LOCALIZATION NOTE (duplicate-error):
 #    $count will be replaced with number of duplicate items
 #    $filePath will be replaced with a file path pointing to a calendar
@@ -107,6 +111,11 @@ duplicate-error =
     }
 # $location unknown calendar location
 unable-to-create-provider = Při zpracování kalendáře umístěného na { $location } došlo k chybě. Kalendář bude proto nedostupný.
+# Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
+# $timezone timezone name, $title item title, $datetime date-time
+unknown-timezone-in-item = Neznámé časové pásmo „{ $timezone }“ v „{ $title }“. Zpracováno jako plovoucí časové písmo: { $datetime }
+timezone-errors-alert-title = Chybné časové pásmo
+timezone-errors-see-console = Neznámé časové pásmo je zpracováno jako plovoucí místní časové pásmo. Více v chybové konzoli.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Odebrat kalendář
 remove-calendar-button-delete = Smazat kalendář
@@ -231,6 +240,105 @@ cal-dav-redirect-title = Aktualizovat umístění pro kalendář { $name }?
 # $name name of calendar
 cal-dav-redirect-text = Požadavky pro { $name } byly přesměrovány do nového umístění. Chcete změnit umístění následující hodnoty?
 cal-dav-redirect-disable-calendar = Zakázat kalendář
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = Europe/Prague
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Upozornění: Časová zóna „{ $timezone }“ operačního systému
+    neodpovídá nastavené časové zóně „{ $zoneInfoTimezoneId }“.
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Neznámá časová zóna operačního systému „{ $timezone }“.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Neznámá časová zóna aplikace „{ $timezone }“.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Upozornění: Nastavena "plovoucí" časová zóna.
+    Žádná z časových zón aplikace neodpovídá časové zóně operačního systému.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Upozornění: Nastavena odhadovaná časová zóna
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Nastavená časová zóna téměř odpovídá časové zóně operačního systému.
+    V tomto případě, se může datum přechodu mezi letním a standardním časem
+    lišit o jeden týden na rozdíl od operačního systému.
+    Může rovněž docházet k různým odchylkám v datech jako rozdílné datum začátku,
+    nebo aproximace pro ne-gregoriánské kalendáře.
+tz-seems-to-matchos = Nastavená časová zóna se tento rok shoduje s časovou zónou operačního systému.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    Časová zóna aplikace byla nastavena na základě identifikátoru „{ $timezone }“
+    časové zóny operačního sytému.
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Časová zóna aplikace byla nastavena na základě souhlasu časové zóny operačního sytému
+    a časové zóny pro české uživatele.
+tz-from-known-timezones =
+    Časová zóna aplikace byla nastavena na základě souhlasu časové zóny operačního sytému
+    a známých časových zón v abecedním pořadí dle jejich id.
 # Print Layout
 tasks-with-no-due-date = Úkoly bez termínu
 # Providers
@@ -370,6 +478,17 @@ single-calendar-week = t. { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = t. { $startIndex }-{ $endIndex }
     .title = týden { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = t. { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
