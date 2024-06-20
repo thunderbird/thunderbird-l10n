@@ -7,6 +7,7 @@ new-event =
     .placeholder = Nýr atburður
 # Titles for the event/task dialog
 new-event-dialog = Nýr atburður
+edit-event-dialog = Breyta atburði
 new-task-dialog = Nýtt verkefni
 edit-task-dialog = Breyta verkefni
 # Do you want to save changes?
@@ -21,14 +22,74 @@ warning-until-date-before-start = Eftir dagsetning er á undan upphafsdagsetning
 home-calendar-name = Heima
 # The name given to a calendar if an opened calendar has an empty filename
 untitled-calendar-name = Ónefnt dagatal
+# Event status: Tentative, Confirmed, Cancelled
+# ToDo task status: NeedsAction, InProcess, Completed, Cancelled
+status-tentative = Með fyrirvara
+status-confirmed = Samþykkt
 event-status-cancelled = Hætt við
+todo-status-cancelled = Hætt við
+status-needs-action = Þarfnast samþykkis
+status-in-process = Í gangi
+status-completed = Lokið
 # Task priority, these should match the priority.level.* labels in calendar.dtd
 high-priority = Hátt
 normal-priority = Venjulegur
 low-priority = Lágt
 import-prompt = Í hvaða dagatal viltu flytja inn þessa atburði?
 export-prompt = Hvaða dagatal viltu flytja út?
+paste-prompt = Inn í hvert skrifanlegra dagatala þinna vilt þú líma?
 publish-prompt = Hvaða dagatal viltu gefa út?
+# LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
+# others also a meeting invitation - this is used as a affix in
+# paste-notify-about
+paste-event-also = Límingin þín inniheldur fund
+# LOCALIZATION NOTE (paste-events-also): The users pasting operation includes among
+# others also several meeting invitations  - this is used as a affix in
+# paste-notify-about
+paste-events-also = Líming þín inniheldur fundi
+# LOCALIZATION NOTE (paste-task-also): The users pasting operation includes among
+# others also an assigned task - this is used as a affix in paste-notify-about
+paste-task-also = Límingin þín inniheldur úthlutað verkefni
+# LOCALIZATION NOTE (paste-tasks-also): The users pasting operation include among
+# others also several assigned tasks - this is used as a affix in
+# paste-notify-about
+paste-tasks-also = Límingin þín inniheldur úthlutuð verkefni
+# LOCALIZATION NOTE (paste-items-also): The users pasting operation includes among
+# others also assigned task(s) and meeting invitation(s) - this is used as a affix
+# in paste-notify-about
+paste-items-also = Límingin þín inniheldur fundi og úthlutuð verkefni
+# LOCALIZATION NOTE (paste-event-only): The users is pasting a meeting -
+# this is used as a affix in paste-notify-about
+paste-event-only = Þú ert að líma fund
+# LOCALIZATION NOTE (paste-events-only): The users is pasting several meetings -
+# this is used as a affix in paste-notify-about
+paste-events-only = Þú ert að líma fundi
+# LOCALIZATION NOTE (paste-event-only): The users is pasting an assigned task -
+# this is used as a affix in paste-notify-about
+paste-task-only = Þú ert að líma úthlutað verkefni
+# LOCALIZATION NOTE (paste-events-only): The users is pasting several assigned
+# tasks - this is used as a affix in paste-notify-about
+paste-tasks-only = Þú ert að líma úthlutuð verkefni
+# LOCALIZATION NOTE (paste-events-only): The users is pasting assigned task(s) and
+# meeting(s) - this is used as a affix in paste-notify-about
+paste-items-only = Þú ert að líma fundi og úthlutuð verkefni
+# LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
+# or assigned task
+# $pasteItem - pasteEvent* or pasteTask*
+paste-notify-about = { $pasteItem } - viltu senda uppfærslu til allra sem taka þátt?
+# LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
+# of the pasted item has attendees
+paste-and-notify-label = Líma og senda núna
+# LOCALIZATION NOTE (paste-dont-notify-label): button label used in calendar prompt
+# of the pasted item has attendees
+paste-dont-notify-label = Líma án þess að senda
+# LOCALIZATION NOTE (import-items-failed):
+#    $count will be replaced with number of failed items
+#    $error will be replaced with last error code / error string
+import-items-failed = Ekki tókst að flytja inn { $count } atriði. Síðasta villa var: { $error }
+# LOCALIZATION NOTE (no-items-in-calendar-file2):
+#    $filePath will be replaced with file path
+no-items-in-calendar-file2 = Ekki er hægt að flytja inn úr { $filePath }. Það eru engin innflutningshæf atriði í þessari skrá.
 # spaces needed at the end of the following lines
 event-description = Lýsing:
 unable-to-read = Get ekki lesið frá skrá:
@@ -40,11 +101,21 @@ html-title = Mozilla Dagatal
 # used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
 #    $filePath will be replaced with the path to a file
 timezone-error = Óþekkt tímabelti fannst við lestur { $filePath }.
+# LOCALIZATION NOTE (duplicate-error):
+#    $count will be replaced with number of duplicate items
+#    $filePath will be replaced with a file path pointing to a calendar
+duplicate-error =
+    { $count ->
+        [one] { $count } atriði voru hunsuð þar sem þau eru bæði til í dagatalinu sem á að setja í og { $filePath }.
+       *[other] { $count } atriði voru hunsuð þar sem þau eru bæði til í dagatalinu sem á að setja í og { $filePath }.
+    }
 # $location unknown calendar location
 unable-to-create-provider = Villa kom upp við að undirbúa dagatal { $location } fyrir notkun. Það mun ekki verða aðgengilegt.
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
 unknown-timezone-in-item = Óþekkt tímabelti "{ $timezone }" í "{ $title }".  Meðhöndlað sem 'fljótandi' staðbundið tímabelti í staðinn: { $datetime }
+timezone-errors-alert-title = Villur í tímabelti
+timezone-errors-see-console = Sjá villuglugga: Óþekkt tímabelti eru meðhöndluð sem 'fljótandi' staðbundin tímabelti.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Fjarlægja dagatal
 remove-calendar-button-delete = Eyða dagatali
@@ -67,6 +138,13 @@ week-title-label =
     .aria-label = Vika { $title }
 calendar-none =
     .label = Engin
+# Error strings
+# @name UID_NOT_FOUND
+# @loc none
+# LOCALIZATION NOTE (too-new-schema-error-text):
+#    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
+#    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
+too-new-schema-error-text = Dagatalsgögnin þín eru ekki samhæf við þessa útgáfu af { $hostApplication }. Dagatalsgögnin á reikningnum þínum voru uppfærð með nýrri útgáfu af { $hostApplication }. Búið hefur verið til öryggisafrit af gagnaskránni, sem heitir "{ $fileName }". Heldur áfram með nýstofnaða gagnaskrá.
 # List of events or todos (unifinder)
 event-untitled = Ónefnt
 # Tooltips of events or todos
@@ -85,6 +163,7 @@ tooltip-organizer = Fundarstjóri:
 # task/todo fields
 # start date time, due date time, task priority number, completed date time
 tooltip-start = Byrjar:
+tooltip-due = Lokadagur:
 tooltip-priority = Mikilvægi:
 tooltip-percent = % Lokið:
 tooltip-completed = Lokið:
@@ -128,6 +207,7 @@ still-read-only-error = Upp kom villa við að lesa dagatal: { $name }.
 utf8-decode-error = Upp kom villa við að lesa iCalendar (ics) skrá sem UTF-8. Athugið hvort skráin er ekki örugglega að nota UF-8 stafasettið.
 ics-malformed-error = Lestur á iCalendar (ics) skrá mistókst. Athugaðu hvort skráin er ekki á réttu iCalendar (ics) skráarformi.
 item-modified-on-server-title = Atriði var breytt á netþjóninum
+item-modified-on-server = Þessu atriði var nýlega breytt á netþjóninum.
 modify-will-lose-data = Ef þú sendir þessar breytingar þú muntu yfirskrifa breytingarnar á netþjóninum.
 delete-will-lose-data = Ef þú eyðir þessu atriði þá muntu missa breytingar sem voru gerðar á netþjóninum.
 calendar-conflicts-dialog =
@@ -140,6 +220,8 @@ proceed-delete =
 dav-not-dav = Gögnin á { $name } eru ekki DAV samhæft eða eru ekki til staðar
 # $name calendar name
 dav-dav-not-cal-dav = Gögnin á { $name } eru DAV samhæfð en eru samt ekki CalDAV dagatal
+item-put-error = Upp kom villa við að geyma atriðið á netþjóninum.
+item-delete-error = Upp kom villa við að eyða atriðinu af netþjóninum.
 cal-dav-request-error = Villa kom upp þegar fundarboð var sent.
 cal-dav-response-error = Villa kom upp þegar sent var svar.
 # $statusCode status code
@@ -215,12 +297,27 @@ warning-os-tz-no-match =
 # mapping from windows to ZoneInfo timezone ids does).
 # $timezone OS timezone id
 skipping-os-timezone = Sleppi tímabelti stýrikerfis '{ $timezone }'.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Sleppi tímabelti staðfærslu '{ $timezone }'.
 # Testing note: "No match" timezones include Bucharest on W2k.
 # Brazil timezones may be "No match" (change every year, so often out of date,
 # and changes are often more than a week different).
 warning-using-floating-tz-no-match =
     Aðvörun: Er að nota "fljótandi" tímabelti.
     Engin tímabelti pössuðu við tímabelti stýrikerfis.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Aðvörun:  Er að nota ágiskað tímabelti
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
 # Testing note: "Almost match" timezones include Cairo on W2k.
 tz-almost-matches-os-differ-at-mostaweek =
     Þetta tímabelti passar næstum því við tímabelti stýrikerfis.
@@ -229,6 +326,12 @@ tz-almost-matches-os-differ-at-mostaweek =
     Það gæti verið ósamræmi í gögnunum, til dæmis breytilegur byrjunartími,
     eða breytingar, nálganir á reglum á dagatölum sem eru ekki gregorískar.
 tz-seems-to-matchos = Þetta tímabelti virðist passa við tímabelti stýrikerfis þetta árið.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    Þetta tímabelti var valið með því að athuga tímabelti stýrikerfis
+    Auðkenni "{ $timezone }".
 # Localization note (tz-from-locale): Substitute name of your locale language.
 tz-from-locale =
     Þetta tímabelti var valið með því að athuga tímabelti stýrikerfis
@@ -236,6 +339,8 @@ tz-from-locale =
 tz-from-known-timezones =
     Þetta tímabelti var valið með því að athuga tímabelti stýrikerfis
     með þeim tímabeltum sem eru þekkt í stafrófsröð af kenni tímabeltis.
+# Print Layout
+tasks-with-no-due-date = Verkefni með enga lokadagsetningu
 # Providers
 cal-dav-name = CalDAV
 composite-name = Samsettur
@@ -298,6 +403,12 @@ alarm-yesterday-at = Í gær kl { $datetime }
 # description set, or an EMAIL alarm that doesn't have a summary set.
 alarm-default-description = Sjálfgefin Mozilla lýsing
 alarm-default-summary = Sjálfgefin Mozilla yfirlit
+# $count number of months
+alarm-snooze-limit-exceeded =
+    { $count ->
+        [one] Þú getur ekki sett áminningu í blund í meira en { $count } mánuð.
+       *[other] Þú getur ekki sett áminningu í blund í meira en { $count } mánuði.
+    }
 task-details-status-needs-action = Þarfnast samþykkis
 # LOCALIZATION NOTE (task-details-status-in-progress):
 # used for a display of how much of a task is completed ' Complete'
@@ -323,6 +434,13 @@ error-code = Villunúmer: { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = Lýsing: { $errorDescription }
+# LOCALIZATION NOTE (error-writing):
+# used for an message like 'An error occurred when writing to the calendar Home!'
+#    $name will be replaced with the name of a calendar
+error-writing2 = Villa kom upp þegar skrifað var í dagatalið { $name }! Skoðaðu frekari upplýsingar hér fyrir neðan.
+# LOCALIZATION NOTE (error-writing-details):
+# This will be displayed in the detail section of the error dialog
+error-writing-details = Ef þú sérð þessi skilaboð eftir að hafa blundað eða hafnað áminningu í dagatali sem þú vilt ekki bæta við eða breyta atburðum fyrir, geturðu merkt þetta dagatal sem skrifvarið til að forðast slíkt í framtíðinni. Til að gera það ferðu í eiginleika dagatalsins með því að hægrismella á þetta dagatal á listanum í dagatals- eða verkefnasýninni.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
@@ -358,6 +476,17 @@ single-calendar-week = V: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = V: { $startIndex }-{ $endIndex }
     .title = Vikur { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = V { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
@@ -472,6 +601,10 @@ datetime-interval-on-same-day = { $startDate } { $startTime } – { $endTime }
 #    $endDate will be replaced with the date of the end date
 #    $endTime will be replaced with the time of the end date
 datetime-interval-on-several-days = { $startDate } { $startTime } – { $endDate } { $endTime }
+# LOCALIZATION NOTE (datetime-interval-task-without-date):
+# used for task without start and due date
+# (showed only in exported calendar in Html format)
+datetime-interval-task-without-date = engin byrjunar eða lokadagsetning
 # LOCALIZATION NOTE (datetime-interval-task-without-due-date):
 # used for intervals in task with only start date
 # displayed form is 'start date 5 Jan 2006 13:00'
@@ -563,5 +696,12 @@ hide-calendar-label =
 # $name calendar name
 show-only-calendar =
     .label = Sýna aðeins { $name }
+# LOCALIZATION NOTE (modify-conflict-*)
+# Used by the event dialog to resolve item modification conflicts.
+modify-conflict-prompt-title = Árekstur vegna breytinga á atriði
+modify-conflict-prompt-message = Atriðinu sem var verið að breyta í glugganum hefur verið breytt síðan það var opnað.
 modify-conflict-prompt-button1 = Yfirskrifa breytingar
 modify-conflict-prompt-button2 = Hætta við breytingar
+# Accessible description of a grid calendar with no selected date
+minimonth-no-selected-date =
+    .aria-label = Engin dagsetning valin
