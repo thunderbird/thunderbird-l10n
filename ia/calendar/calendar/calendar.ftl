@@ -378,8 +378,8 @@ calendar-last2 = ultime
 # $count reminder count
 alarm-window-title-label =
     { $count ->
-        [one] { $count } Memento
-       *[other] { $count } Mementos
+        [one] { $count } rememoration
+       *[other] { $count } rememorationes
     }
 # LOCALIZATION NOTE (alarm-starts):
 # used for a display the start of an alarm like 'Starts:  Thu 2 Oct 2008 13:21'
@@ -441,7 +441,7 @@ error-description = Description: { $errorDescription }
 error-writing2 = Un error occurreva al scriptura al calendario { $name }! Per favor vide infra pro altere informationes.
 # LOCALIZATION NOTE (error-writing-details):
 # This will be displayed in the detail section of the error dialog
-error-writing-details = Si tu vide iste message post le prorogation o le clausura de un memento e isto es pro un agenda pro le qual tu non vole adder o rediger eventos, tu pote marcar iste agenda como sol lectura pro evitar simile experientia in futuro. Pro facer assi, procura al agenda proprietates per cliccar dextre sur iste agenda, in le lista del agenda o in le vista del activitates.
+error-writing-details = Si tu vide iste message post haber postponite o claudite un rememoration e isto es pro un agenda pro le qual tu non vole adder o modificar eventos, tu pote marcar iste agenda como in lectura sol pro evitar un tal experientia in futuro. Pro facer assi, visita le proprietates del agenda cliccante a dextra sur iste agenda in le lista in le vista de agendas o activitates.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar

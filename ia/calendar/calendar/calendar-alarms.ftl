@@ -60,4 +60,4 @@ reminder-readonly-notification = Le rememorationes pro agendas in lectura sol ac
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled
 reminder-disabled-snooze-button-tooltip =
-    .tooltiptext = Le prorogation de un memento non es supportate pro agendas solo in lectura
+    .tooltiptext = Non es possibile postponer un rememoration de un agenda in lectura sol
