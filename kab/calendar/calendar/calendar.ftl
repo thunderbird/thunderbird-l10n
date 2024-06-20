@@ -297,6 +297,27 @@ warning-os-tz-no-match =
 # mapping from windows to ZoneInfo timezone ids does).
 # $timezone OS timezone id
 skipping-os-timezone = Teǧǧiḍ aseqdec n iẓdi usrig n unagraw '{ $timezone }'.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Teǧǧiḍ aseqdec n yiẓdi usrig adigan '{ $timezone }'.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Ɣur-k•m: Aseqdec n yiẓdi usrig "floating"
+    Ulac isefka n yiẓdi usrig ZoneInfo icudden ɣer yisefka n yiẓdi usrig n unagraw.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Ɣur-k•m:  Aseqdec n yiẓdi usrig i d-yettusumren
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
 # Testing note: "Almost match" timezones include Cairo on W2k.
 tz-almost-matches-os-differ-at-mostaweek =
     Iẓdi-agi usrig ZoneInfo timezone yeqṛeb ɣer iẓdi usrig n unagraw.
@@ -305,6 +326,17 @@ tz-almost-matches-os-differ-at-mostaweek =
     There may be discrepancies in the data, such as differing start date,
     or differing rule, or approximation for non-Gregorian-calendar rule.
 tz-seems-to-matchos = Iẓdi-agi usrig ZoneInfo yettban dakken am iẓdi usrig n unagraw aseggass-agi.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    Iẓdi agi usrig ZoneInfo yettwafren akken yella usulay "{ $timezone }" n yiẓdi usrig n unagraw
+    n wammud "{ $timezone }".
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Izḍi-a usrig ZoneInfo yettwafen-d almend n umṣada gar
+    yizḍi usrig n unagraw akked wid ideg llan tuget
+    n yiseqdacen iqbayliyen.
 tz-from-known-timezones =
     Iẓdi agi usrig ZoneInfo yettwafren akken yella yeẓdi usrig n unagraw n wammud
     akked iẓdiyen usrigen yettwasnen s usmizzwer n ugemmay n isulayen n yeẓdi usrid..
@@ -445,6 +477,17 @@ single-calendar-week = Dduṛt: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Dduṛtat: { $startIndex }-{ $endIndex }
     .title = Tafada n ledwaṛ { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = Imal. { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
