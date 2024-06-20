@@ -357,6 +357,7 @@ html-task-completed = { $task } (cwblhawyd)
 # Categories
 add-category = Ychwanegu Categori
 multiple-categories = Categorïau Lluosog
+no-categories = Dim
 calendar-today = Heddiw
 calendar-tomorrow = Yfory
 yesterday = Ddoe
