@@ -16,6 +16,7 @@ accounts-default = Som standard?
 identity-name = Identitet
 send-via-email = Send som mail
 app-basics-telemetry = Telemetry-data
+app-basics-glean = Glean-data
 app-basics-cache-use = Cachelager-forbrug
 mail-libs-title = Biblioteker
 libs-table-heading-library = Bibliotek

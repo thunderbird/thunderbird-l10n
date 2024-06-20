@@ -4,6 +4,8 @@
 
 e2e-intro-description = For at sende krypterede eller digitalt signerede meddelelser, skal du konfigurere en krypteringsteknologi, enten OpenPGP eller S/MIME.
 e2e-intro-description-more = Vælg din personlige nøgle for at aktivere brugen af OpenPGP, eller dit personlige certifikat for at aktivere brugen af S/MIME. Du ejer selv den tilsvarende hemmelige nøgle til en personlig nøgle eller et certifikat.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = For at få et nyt, personligt S/MIME-certifikat, skal du generere en Certificate Signing Request (CSR) og sende den til en certifikatautoritet (CA).
 # Do not translate: S/MIME, CSR
 e2e-csr-intro-info = Vælg en lokal mappe og filnavn til din CRS-fil og svar på de følgende spørgsmål for at indstille algoritme og styrke.
 # A title for a dialog. Do not translate "CSR".
@@ -21,6 +23,11 @@ e2e-csr-select-title = CSR-algoritme
 e2e-csr-select-alg = Vælg enten RSA (anbefales) eller ECC som den kryptografiske algoritme til det nye S/MIME-certifikat.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Vælg den ønskede kryptografiske styrke (hurtigere ved lavere værdier og større sikkerhed ved højere værdier) til det nye S/MIME-certifikat, eller behold standardindstillingen.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = En ny { $type }-{ $strength } hemmelig nøgle bliver genereret i { -brand-short-name }s indstillinger. Dette kan tage noget tid og gøre, at systemet midlertidigt holder op med at svare; hav tålmodighed under denne proces - i mellemtiden bliver Certificate Signing Request (CSR)-filen oprettet og gemt med navnet { $file }.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Inkluder mailadressen  ({ $email }) i CSR-filen (anbefales)
@@ -667,6 +674,9 @@ confirm-permissive-import = Import mislykkedes. Den nøgle, du prøver at import
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Nogle af de importerede hemmelige nøgler tilbyder en ikke-understøttet funktion. Hvis du benytter en sådan nøgle som din personlige nøgle, kan afsendere sende dig mails eller offentlige nøgler i et inkompatibelt format. Det gælder for de importerede nøgler med følgende fingeraftryk: { $fingerprints }.
 help-button = Hjælp
 
 ## Strings used in trust.sys.mjs

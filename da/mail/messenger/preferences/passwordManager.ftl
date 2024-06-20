@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Gemte logins
-saved-logins-title = Gemte logins
 window-close =
     .key = w
+saved-logins-title = Gemte logins
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Bekræft din identitet for at vise de gemte ad
 password-os-auth-dialog-message-macosx = vise de gemte adgangskoder
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] ændre indstillingerne for adgangskoder
+       *[other] { -brand-short-name } forsøger at ændre indstillingerne for adgangskoder. Brug login på din enhed for at tillade dette.
+    }

@@ -16,6 +16,7 @@ connection-error-time-out = Forbindelsens tidsfrist udløb
 connection-error-invalid-username = { $username } er ikke tilladt som brugernavn
 connection-error-invalid-password = Ugyldig adgangskode til serveren
 connection-error-password-required = Adgangskode påkrævet
+connection-error-invalid-user-password = Ugyldig adgangskode
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanal

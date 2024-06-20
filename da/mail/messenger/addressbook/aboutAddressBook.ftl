@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Opret ny adressebog
 books-pane-create-list-button =
     .title = Opret ny mailingliste
+books-pane-import-button = Importer
+    .title = Importer adressebøger
 
 ## Books
 
@@ -111,14 +113,24 @@ about-addressbook-column-label-generatedname2 =
 about-addressbook-cell-generatedname2 =
     .aria-label = Navn
     .title = { $title }
-about-addressbook-column-header-emailaddresses2 = Mailadresse
-    .title = Sorter efter mailadresse
+about-addressbook-column-header-emailaddresses2 = Mailadresser
+    .title = Sorter efter mailadresser
 about-addressbook-column-label-emailaddresses2 =
     .label = Mailadresser
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Mailadresser
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Alias
     .title = Sorter efter alias
 about-addressbook-column-label-nickname2 =
     .label = Alias
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Alias
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Telefonnumre
     .title = Sorter efter telefonnumre
 about-addressbook-column-label-phonenumbers2 =
