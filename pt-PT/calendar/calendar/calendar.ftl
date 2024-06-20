@@ -188,6 +188,14 @@ http-put-error =
 other-put-error =
     Ocorreu um erro ao publicar o ficheiro do calendário.
     Código de estado: 0x{ $statusCode }
+# LOCALIZATION NOTE (read-only-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+read-only-mode = Ocorreu um erro ao ler os dados do calendário: { $name }. Foi colocado no modo só de leitura, uma vez que as alterações a este calendário poderão resultar na perda de dados.  Pode alterar esta definição escolhendo 'Editar calendário'.
+# LOCALIZATION NOTE (disabled-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+disabled-mode = Ocorreu um erro ao ler os dados do calendário: { $name }. Este foi desativado até que seja seguro utilizá-lo.
 # LOCALIZATION NOTE (minor-error):
 # used for an message like 'There has been an error reading data for calendar: Home. However this...'
 #    $name will be replaced with the name of a calendar
