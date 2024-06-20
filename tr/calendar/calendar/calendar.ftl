@@ -15,6 +15,8 @@ ask-save-title-event = Etkinliği kaydet
 ask-save-title-task = Görevi kaydet
 ask-save-message-event = Etkinlik kaydedilmedi. Şimdi kaydetmek ister misiniz?
 ask-save-message-task = Görev kaydedilmedi. Şimdi kaydetmek ister misiniz?
+# Event Dialog Warnings
+warning-end-before-start = Girdiğiniz bitiş tarihi başlangıç tarihinden erkendir
 warning-until-date-before-start = Bitiş tarihi başlangıç tarihinden erken
 # The name of the calendar provided with the application by default
 home-calendar-name = Ana takvim
@@ -26,6 +28,7 @@ status-tentative = Kesin değil
 status-confirmed = Onaylandı
 event-status-cancelled = İptal edildi
 todo-status-cancelled = İptal edildi
+status-needs-action = İşlem gerekli
 status-in-process = Devam ediyor
 status-completed = Tamamlandı
 # Task priority, these should match the priority.level.* labels in calendar.dtd
@@ -35,6 +38,7 @@ low-priority = Düşük
 import-prompt = Hangi takvimin öğelerini içe aktarmak istiyorsunuz?
 export-prompt = Hangi takvimden dışa aktarmak istiyorsunuz?
 paste-prompt = Yazılabilir takvimlerinizden hangisine yapıştırmak istiyorsunuz?
+publish-prompt = Hangi takvimi yayımlamak istiyorsunuz?
 # LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
 # others also a meeting invitation - this is used as a affix in
 # paste-notify-about
@@ -88,15 +92,30 @@ import-items-failed = { $count } öğenin içe aktarımı başarısız. Alınan 
 no-items-in-calendar-file2 = { $filePath } konumundan içe aktarılamıyor. Bu dosyada içe aktarılabilecek öğe yok.
 # spaces needed at the end of the following lines
 event-description = Açıklama:
+unable-to-read = Dosyadan okunamıyor:
+# $filePath
+unable-to-write = Dosyaya yazılamıyor: { $filePath }
 default-file-name = MozillaCalEvents
 html-title = Mozilla Takvimi
 # LOCALIZATION NOTE (timezone-error):
 # used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
 #    $filePath will be replaced with the path to a file
 timezone-error = { $filePath } okunurken bilinmeyen ve tanımsız bir saat dilimi tespit edildi.
+# LOCALIZATION NOTE (duplicate-error):
+#    $count will be replaced with number of duplicate items
+#    $filePath will be replaced with a file path pointing to a calendar
+duplicate-error =
+    { $count ->
+        [one] { $count } öğe hem hedef takvimde hem de { $filePath } yolunda mevcut olduğu için görmezden gelindi.
+       *[other] { $count } öğe hem hedef takvimde hem de { $filePath } yolunda mevcut olduğu için görmezden gelindi.
+    }
 # $location unknown calendar location
 unable-to-create-provider = { $location } adresindeki takvimin kullanımı esnasında bir hata meydana geldi. Bu takvim kullanılmayacak.
+# Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
+# $timezone timezone name, $title item title, $datetime date-time
+unknown-timezone-in-item = "{ $title }" içinde bilinmeyen saat dilimi: "{ $timezone }".  'Sabit' yerel saat dilimi olarak işlendi: { $datetime }
 timezone-errors-alert-title = Saat Dilimi Hataları
+timezone-errors-see-console = Hata konsoluna bakın: Bilinmeyen saat dilimleri 'sabit' yerel saat dilimi olarak işleme alınır.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Takvimi Kaldır
 remove-calendar-button-delete = Takvimi Sil
@@ -109,6 +128,10 @@ remove-calendar-message-delete-or-unsubscribe = "{ $name }" takvimini kaldırmak
 # deleting is the only option.
 # $name:  The name of a calendar
 remove-calendar-message-delete = "{ $name }" takvimini kalıcı olarak silmek istiyor musunuz?
+# LOCALIZATION NOTE (remove-calendar-message-unsubscribe): Shown for calendar
+# where unsubscribing is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-unsubscribe = "{ $name }" takviminin aboneliğinden çıkmak istiyor musunuz?
 # $title title
 week-title = Hafta { $title }
 week-title-label =
@@ -141,6 +164,7 @@ tooltip-organizer = Düzenleyen:
 # start date time, due date time, task priority number, completed date time
 tooltip-start = Başlangıç:
 tooltip-due = Bitiş:
+tooltip-priority = Öncelik:
 tooltip-percent = Tamamlanma yüzdesi:
 tooltip-completed = Tamamlanma:
 # File commands and dialogs
@@ -156,17 +180,36 @@ filter-ics = iCalendar ({ $wildmat })
 filter-html = Web sayfası ({ $wildmat })
 # Remote calendar errors
 generic-error-title = Bir hata oluştu
+# $statusCode $statusCodeInfo status code info
+http-put-error =
+    Takvim yayımlanması başarısız oldu.
+    Durum kodu: { $statusCode }: { $statusCodeInfo }
+# $statusCode status code
+other-put-error =
+    Takvim dosyasının yayımlanması başarısız oldu.
+    Durum kodu: 0x{ $statusCode }
+# LOCALIZATION NOTE (read-only-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+read-only-mode = { $name } takvimi için veri okunurken bir hata oluştu. Bu takvimde yapılacak değişiklikler muhtemelen veri kaybına yol açacağı için takvim salt okunur moda getirildi. "Takvimi düzenle"yi seçerek bu ayarı değiştirebilirsiniz.
 # LOCALIZATION NOTE (disabled-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
 disabled-mode = Takvim verileri okunurken bir hata oluştu: { $name }. Kullanımı güvenli hale gelene kadar takvim devre dışı bırakıldı.
+# LOCALIZATION NOTE (minor-error):
+# used for an message like 'There has been an error reading data for calendar: Home. However this...'
+#    $name will be replaced with the name of a calendar
+minor-error = Takvim verileri okunurken bir hata oluştu: { $name }.  Ancak bu hatanın küçük olduğunu düşünüyoruz, o yüzden program devam etmeye çalışacak.
 # LOCALIZATION NOTE (still-read-only-error):
 # used for an message like 'There has been an error reading data for calendar: Home.'
 #    $name will be replaced with the name of a calendar
 still-read-only-error = Takvim verileri okunurken bir hata oluştu: { $name }.
+utf8-decode-error = iCalendar (ics) dosyası UTF-8 olarak çözülürken bir hata oluştu. Semboller ve aksanlı harfler de dahil olmak üzere dosyanın UTF-8 karakter kodlamasıyla kodlandığından emin olun.
 ics-malformed-error = iCalendar (ics) dosyasının işlenmesi başarısız oldu. Dosyanın iCalendar (ics) dosya söz dizimine uyumlu olduğundan emin olun.
 item-modified-on-server-title = Sunucudaki öğe değişti
+item-modified-on-server = Bu öğe yakın zamanda sunucu üzerinde değiştirilmiştir.
 modify-will-lose-data = Değişikliklerinizi gönderirseniz sunucuda yapılan değişikliklerin üzerine yazılacaktır.
+delete-will-lose-data = Bu öğeyi silmeniz, sunucuda yapılan değişikliklerin kaybolmasına yol açacaktır.
 calendar-conflicts-dialog =
     .buttonlabelcancel = Değişikliklerimden vazgeç ve yeniden yükle
 proceed-modify =
@@ -178,6 +221,8 @@ dav-not-dav = { $name } kaynağı DAV koleksiyonu değil veya kullanılabilir de
 # $name calendar name
 dav-dav-not-cal-dav = { $name } kaynağı bir DAV koleksiyonu ama CalDAV takvimi değil
 item-put-error = Ögeyi sunucuda depolamada bir hata oluştu.
+item-delete-error = Öğe sunucudan silinirken bir hata oluştu.
+cal-dav-request-error = Davetiye gönderilirken bir hata oluştu.
 cal-dav-response-error = Yanıt gönderilirken bir hata oluştu.
 # $statusCode status code
 cal-dav-request-status-code = Durum Kodu: { $statusCode }
@@ -187,6 +232,8 @@ cal-dav-request-status-code-string-403 = Kullanıcı bu istekte bulunmak için g
 cal-dav-request-status-code-string-404 = Kaynak bulunamadı.
 cal-dav-request-status-code-string-409 = Kaynak çakışması.
 cal-dav-request-status-code-string-412 = Ön koşul başarısız oldu.
+cal-dav-request-status-code-string-500 = İç sunucu hatası.
+cal-dav-request-status-code-string-502 = Hatalı ağ geçidi (vekil sunucu yapılandırması?).
 cal-dav-request-status-code-string-503 = İç sunucu hatası (Geçici sunucu kesintisi?).
 # $name name of calendar
 cal-dav-redirect-title = { $name } takviminin konumu güncellensin mi?
@@ -221,6 +268,28 @@ cal-dav-redirect-disable-calendar = Takvimi devre dışı bırak
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
 likely-timezone = Europe/Istanbul
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Uyarı: İşletim sisteminin saat dilimi "{ $timezone }"
+    dahili ZoneInfo saat dilimi "{ $zoneInfoTimezoneId }" ile artık eşleşmiyor.
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -249,6 +318,13 @@ warning-using-guessedtz =
     { $timezone } (UTC{ $offset }).
     { $detail1 }
     { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Bu bölge bilgisi saat dilimi, işletim sisteminizin saat dilimiyle neredeyse eşleşiyor.
+    Bu kural için, gün ışığı ve standart saat arasındaki geçişler
+    işletim sisteminin saat dilimi geçişlerinden en fazla bir hafta farklı olacaktır.
+    Verilerde farklı başlangıç tarihi, farklı kural gibi tutarsızlıklar
+    veya Miladi olmayan takvimler için hesaplama sorunları olabilir.
 tz-seems-to-matchos = Bu bölge bilgisi saat dilimi, işletim sisteminizin bu yılki saat dilimiyle eşleşiyor gibi görünüyor.
 # LOCALIZATION NOTE (tz-fromos):
 # used for a display of a chosen timezone
@@ -286,6 +362,7 @@ calendar-tomorrow = Yarın
 yesterday = Dün
 # Today pane
 events-only = Etkinlikler
+events-and-tasks = Etkinlikler ve görevler
 tasks-only = Görevler
 short-calendar-week = Hafta
 calendar-go = Git
@@ -357,6 +434,9 @@ error-description = Açıklama: { $errorDescription }
 # used for an message like 'An error occurred when writing to the calendar Home!'
 #    $name will be replaced with the name of a calendar
 error-writing2 = { $name } adlı takvime yazılırken bir hata oluştu! Daha fazla bilgi için aşağıya bakın.
+# LOCALIZATION NOTE (error-writing-details):
+# This will be displayed in the detail section of the error dialog
+error-writing-details = Bir anımsatıcıyı erteledikten veya görmezden geldikten sonra bu mesajı görüyorsanız ve bu takvime etkinlik eklemek veya düzenlemek istemiyorsanız, ileride böyle bir şeyin yaşanmaması için bu takvimi salt okunur olarak işaretleyebilirsiniz. Bunu yapmak için, takvim veya görev görünümündeyken listedeki takvime sağ tıklayarak takvim özelliklerine girin.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
@@ -392,6 +472,17 @@ single-calendar-week = Hafta: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Hafta: { $startIndex }-{ $endIndex }
     .title = Takvim haftaları { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = { $number }. H
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
