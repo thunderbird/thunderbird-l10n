@@ -37,6 +37,7 @@ normal-priority = רגילה
 low-priority = נמוכה
 import-prompt = לתוך איזה לוח שנה ברצונך לייבא פריטים אלו?
 export-prompt = מאיזה לוח שנה ברצונך לייצא?
+paste-prompt = לאיזה מבין לוחות השנה שלך שניתן לערוך ברצונך להדביק?
 publish-prompt = איזה לוח שנה ברצונך לפרסם?
 # LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
 # others also a meeting invitation - this is used as a affix in
@@ -53,6 +54,10 @@ paste-task-also = ההדבקה שלך כוללת משימה מוקצית
 # others also several assigned tasks - this is used as a affix in
 # paste-notify-about
 paste-tasks-also = ההדבקה שלך כוללת משימות מוקצות
+# LOCALIZATION NOTE (paste-items-also): The users pasting operation includes among
+# others also assigned task(s) and meeting invitation(s) - this is used as a affix
+# in paste-notify-about
+paste-items-also = ההדבקה שלך כוללת פגישות ומשימות מוקצות
 # LOCALIZATION NOTE (paste-event-only): The users is pasting a meeting -
 # this is used as a affix in paste-notify-about
 paste-event-only = בהדבקה זו מופיעה פגישה
@@ -65,6 +70,13 @@ paste-task-only = בהדבקה זו מופיעה משימה מוקצית
 # LOCALIZATION NOTE (paste-events-only): The users is pasting several assigned
 # tasks - this is used as a affix in paste-notify-about
 paste-tasks-only = בהדבקה זו מופיעות משימות מוקצות
+# LOCALIZATION NOTE (paste-events-only): The users is pasting assigned task(s) and
+# meeting(s) - this is used as a affix in paste-notify-about
+paste-items-only = בהדבקה זו מופיעות פגישות ומשימות מוקצות
+# LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
+# or assigned task
+# $pasteItem - pasteEvent* or pasteTask*
+paste-notify-about = { $pasteItem } - לשלוח עדכון לכל המעורבים?
 # LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
 paste-and-notify-label = הדבקה ושליחה כעת
@@ -105,6 +117,18 @@ timezone-errors-see-console = יש לעיין במסוף השגיאות: אזו�
 remove-calendar-title = הסרת לוח שנה
 remove-calendar-button-delete = מחיקת לוח שנה
 remove-calendar-button-unsubscribe = ביטול המינוי
+# LOCALIZATION NOTE (remove-calendar-message-delete-or-unsubscribe): Shown for
+# calendar where both deleting and unsubscribing is possible.
+# $name:  The name of a calendar
+remove-calendar-message-delete-or-unsubscribe = להסיר את לוח השנה „{ $name }”? ביטול המינוי יסיר את לוח השנה מהרשימה, מחיקה תסיר גם את הנתונים שלו לצמיתות.
+# LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
+# deleting is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-delete = למחוק לצמיתות את לוח השנה „{ $name }”?
+# LOCALIZATION NOTE (remove-calendar-message-unsubscribe): Shown for calendar
+# where unsubscribing is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-unsubscribe = לבטל את המינוי ללוח השנה „{ $name }”?
 # $title title
 week-title = שבוע { $title }
 week-title-label =
@@ -201,6 +225,10 @@ cal-dav-request-status-code-string-412 = תנאי הקדם נכשל.
 cal-dav-request-status-code-string-500 = שגיאת שרת פנימית.
 cal-dav-request-status-code-string-502 = שער גישה שגוי (תצורת השרת המתווך?).
 cal-dav-request-status-code-string-503 = שגיאת שרת פנימית (השרת אינו פעיל באופן זמני?).
+# $name name of calendar
+cal-dav-redirect-title = לעדכן את המיקום עבור לוח השנה { $name }?
+# $name name of calendar
+cal-dav-redirect-text = הבקשות עבור { $name } מופנות למיקום חדש. לשנות את המיקום לערך הבא?
 cal-dav-redirect-disable-calendar = נטרול לוח שנה
 # LOCALIZATION NOTE (likely-timezone):
 #   Translators, please put the most likely timezone(s) where the people using
@@ -365,6 +393,12 @@ alarm-yesterday-at = אתמול ב־{ $datetime }
 # description set, or an EMAIL alarm that doesn't have a summary set.
 alarm-default-description = תיאור ברירת מחדל של Mozilla
 alarm-default-summary = תקציר ברירת מחדל של Mozilla
+# $count number of months
+alarm-snooze-limit-exceeded =
+    { $count ->
+        [one] לא ניתן לשים שעון מעורר במצב נודניק למשך יותר מחודש.
+       *[other] לא ניתן לשים שעון מעורר במצב נודניק למשך יותר מ־{ $count } חודשים.
+    }
 task-details-status-needs-action = נדרשת פעולה
 # LOCALIZATION NOTE (task-details-status-in-progress):
 # used for a display of how much of a task is completed ' Complete'
@@ -390,6 +424,10 @@ error-code = קוד שגיאה: { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = יעד: { $errorDescription }
+# LOCALIZATION NOTE (error-writing):
+# used for an message like 'An error occurred when writing to the calendar Home!'
+#    $name will be replaced with the name of a calendar
+error-writing2 = אירעה שגיאה בעת כתיבה ללוח השנה { $name }! נא לעיין להלן לקבלת פרטים נוספים.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
@@ -622,6 +660,7 @@ show-only-calendar =
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = התנגשות בשינוי פריט
+modify-conflict-prompt-message = הפריט שנמצא בעריכה בתיבת הדו־שיח השתנה מאז שנפתח.
 modify-conflict-prompt-button1 = שכתוב על השינויים האחרים
 modify-conflict-prompt-button2 = התעלמות משינויים אלה
 # Accessible description of a grid calendar with no selected date
