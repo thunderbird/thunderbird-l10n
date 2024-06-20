@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Actualment s'ha declinat
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Actualment indecís
+allday-event = Cita de tot el dia
+recurrent-event =
+    .value = Cita repetitiva
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Ubicació: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organitzador: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Assistent: { $attendeeProperty }
+calendar-invitations-none = Cap
