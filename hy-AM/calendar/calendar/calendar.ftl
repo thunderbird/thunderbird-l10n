@@ -390,6 +390,12 @@ alarm-tomorrow-at = Վաղը { $datetime }֊ին
 # used for a display the date-time of an alarm like 'Yesterday at Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time
 alarm-yesterday-at = Երեկ { $datetime }֊ին
+# Alarm interface strings
+# LOCALIZATION NOTE: These strings do not get displayed. They are only visible
+# when exporting an item with i.e a DISPLAY alarm, that doesn't have a
+# description set, or an EMAIL alarm that doesn't have a summary set.
+alarm-default-description = Սկզբնադիր Mozilla Նկարագրություն
+alarm-default-summary = Սկզբնադիր Mozilla ամփոփում
 # $count number of months
 alarm-snooze-limit-exceeded =
     { $count ->
@@ -463,6 +469,17 @@ single-calendar-week = CW․ { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = CW-ներ. { $startIndex }֊{ $endIndex }
     .title = Օրացույցային շաբաթներ { $startIndex }֊{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = W { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
