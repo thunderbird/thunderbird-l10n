@@ -13,6 +13,8 @@ edit-task-dialog = Embann an drevell
 # Do you want to save changes?
 ask-save-title-event = Enrollañ an darvoud
 ask-save-title-task = Enrollañ an drevell
+ask-save-message-event = N'eo ket bet enrollet an darvoud. Ha c'hoant ho peus da enrollañ anezhañ ?
+ask-save-message-task = N’eo ket bet enrollet an drevell. C’hoant ho peus da enrollañ anezhi?
 # Event Dialog Warnings
 warning-end-before-start = An devezh dibenn enanket ganeoc'h a zo a-raok an devezh deraouiñ
 warning-until-date-before-start = An devezh dibenn a zo a-raok an devezh deraouiñ
@@ -33,11 +35,16 @@ status-completed = Klokaet
 high-priority = Uhel
 normal-priority = Reizh
 low-priority = Izel
+import-prompt = E peseurt deiziataer ho peus c’hoant da enporzhiañ an elfennoù-mañ?
+export-prompt = Diouzh peseurt deiziataer ho peus c’hoant da ezporzhiañ?
 publish-prompt = Peseurt deiziataer ho peus c'hoant da vrudañ ?
 # LOCALIZATION NOTE (import-items-failed):
 #    $count will be replaced with number of failed items
 #    $error will be replaced with last error code / error string
 import-items-failed = Fazi e ur enporzhiañ { $count } elfenn. Ar fazi diwezhañ a oa : { $error }
+# spaces needed at the end of the following lines
+event-description = Deskrivadur:
+unable-to-read = N’haller ket lenn diouzh ar restr:
 # $filePath
 unable-to-write = N'haller ket skrivañ d'ar restr : { $filePath }
 default-file-name = MozillaCalEvents
@@ -85,10 +92,24 @@ calendar-none =
     .label = Netra
 # List of events or todos (unifinder)
 event-untitled = Hep titl
+# Tooltips of events or todos
+tooltip-title = Titl:
+tooltip-location = Lec’hiadur:
+# event date, usually an interval, such as
+#  Date: 7:00--8:00 Thu 9 Oct 2011
+#  Date: Thu 9 Oct 2000 -- Fri 10 Oct 2000
+tooltip-date = Deiziad:
+# event calendar name
+tooltip-cal-name = Anv an deiziataer:
+# event status: tentative, confirmed, cancelled
+tooltip-status = Stad:
+# event organizer
+tooltip-organizer = Aozer:
 # task/todo fields
 # start date time, due date time, task priority number, completed date time
 tooltip-start = Deraouiñ :
 tooltip-due = Dleet :
+tooltip-priority = Tevet:
 tooltip-percent = % echu:
 tooltip-completed = Klokaet
 # File commands and dialogs
@@ -343,6 +364,17 @@ single-calendar-week = SD : { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Soù.D. { $startIndex }-{ $endIndex }
     .title = Sizhunioù an deiziataer { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = S { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
