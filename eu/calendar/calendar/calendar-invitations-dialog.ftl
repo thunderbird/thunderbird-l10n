@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Une honetan baztertua
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Une honetan erabaki gabe
+allday-event = Egun osoko gertaera
+recurrent-event =
+    .value = Errepikatuko den gertaera
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Kokapena: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Antolatzailea: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Partaideak: { $attendeeProperty }
+calendar-invitations-none = Bat ere ez
