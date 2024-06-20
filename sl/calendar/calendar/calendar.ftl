@@ -136,6 +136,8 @@ remove-calendar-message-unsubscribe = Ali se želite odjaviti od koledarja "{ $n
 week-title = { $title }. teden
 week-title-label =
     .aria-label = { $title }. teden
+calendar-none =
+    .label = brez
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -266,6 +268,28 @@ cal-dav-redirect-disable-calendar = Onemogoči koledar
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
 likely-timezone = Europe/Ljubljana
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Opozorilo: Časovni pas operacijskega sistema "{ $timezone }"
+    se ne ujema več z notranjim časovnim pasom ZoneInfo "{ $zoneInfoTimezoneId }".
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -277,6 +301,12 @@ skipping-os-timezone = Preskakovanje časovnega pasu operacijskega sistema '{ $t
 # Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
 # $timezone likely timezone id
 skipping-locale-timezone = Preskakovanje krajevnega časovnega pasu '{ $timezone }'.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Opozorilo: Uporaba plavajočega časovnega pasu.
+    Noben časovni pas ZoneInfo se ne ujema s časovnim sistemom operacijskega sistema.
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
 #    [rfc2445 summer daylight saving shift rules for timezone]
@@ -450,6 +480,17 @@ single-calendar-week = TK: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = TK: { $startIndex }-{ $endIndex }
     .title = Tedni koledarja { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = T { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
