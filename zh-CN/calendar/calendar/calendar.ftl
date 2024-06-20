@@ -435,6 +435,7 @@ tooltip-calendar-disabled =
 tooltip-calendar-read-only =
     .title = 日历 { $name } 为只读
 task-edit-instructions = 点此添加新任务
+task-edit-instructions-readonly = 请选择一个可写入的日历
 task-edit-instructions-capability = 请选择一个支持任务的日历
 event-details-start-date = 开始：
 event-details-end-date = 结束：
