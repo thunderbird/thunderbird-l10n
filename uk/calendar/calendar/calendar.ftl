@@ -18,6 +18,8 @@ ask-save-message-task = Завдання не було збережено. Хо�
 # Event Dialog Warnings
 warning-end-before-start = Введена дата закінчення раніше дати початку
 warning-until-date-before-start = Кінцева дата відбувається раніше початкової дати
+# The name of the calendar provided with the application by default
+home-calendar-name = Особистий
 # The name given to a calendar if an opened calendar has an empty filename
 untitled-calendar-name = Календар без назви
 # Event status: Tentative, Confirmed, Cancelled
@@ -190,6 +192,10 @@ other-put-error =
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
 read-only-mode = Сталась помилка зчитування даних календаря: { $name }. Для календаря встановлено режим "Тільки для читання". Спроба його змінити може призвести до втрати даних. Якщо ви бажаєте змінити цей режим, будь ласка, оберіть елемент "Змінити календар".
+# LOCALIZATION NOTE (disabled-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+disabled-mode = Сталася помилка читання даних календаря: { $name }. Його було вимкнено, доки не з'явиться можливість безпечного використання.
 # LOCALIZATION NOTE (minor-error):
 # used for an message like 'There has been an error reading data for calendar: Home. However this...'
 #    $name will be replaced with the name of a calendar
@@ -339,6 +345,7 @@ tasks-with-no-due-date = Завдання, не обмежені у часі
 cal-dav-name = CalDAV
 composite-name = Composite
 ics-name-key = iCalendar (ICS)
+memory-name = Тимчасовий (пам'ять)
 storage-name = Місцевий (SQLite)
 # Used in created html code for export
 html-prefix-title = Назва
@@ -447,6 +454,8 @@ tooltip-calendar-disabled =
 tooltip-calendar-read-only =
     .title = Календар { $name } тільки для читання
 task-edit-instructions = Клацніть тут, щоб додати нове завдання
+task-edit-instructions-readonly = Оберіть календар із можливістю запису
+task-edit-instructions-capability = Оберіть календар із підтримкою завдань
 event-details-start-date = Початок:
 event-details-end-date = Кінець:
 # LOCALIZATION NOTE (datetime-with-timezone):
