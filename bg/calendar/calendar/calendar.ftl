@@ -35,8 +35,61 @@ status-completed = Завършено
 high-priority = Висок
 normal-priority = Нормален
 low-priority = Нисък
+import-prompt = Към кой календар искате да внесете тези елементи?
+export-prompt = От кой календар искате да изнесете?
 paste-prompt = В кой от текущо достъпните календари бихте желали да поставяте?
 publish-prompt = Кой календар искате да публикувате?
+# LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
+# others also a meeting invitation - this is used as a affix in
+# paste-notify-about
+paste-event-also = Вашето поставяне включва среща
+# LOCALIZATION NOTE (paste-events-also): The users pasting operation includes among
+# others also several meeting invitations  - this is used as a affix in
+# paste-notify-about
+paste-events-also = Вашето поставяне включва срещи
+# LOCALIZATION NOTE (paste-task-also): The users pasting operation includes among
+# others also an assigned task - this is used as a affix in paste-notify-about
+paste-task-also = Вашето поставяне включва възложена задача
+# LOCALIZATION NOTE (paste-tasks-also): The users pasting operation include among
+# others also several assigned tasks - this is used as a affix in
+# paste-notify-about
+paste-tasks-also = Вашето поставяне включва възложени задачи
+# LOCALIZATION NOTE (paste-items-also): The users pasting operation includes among
+# others also assigned task(s) and meeting invitation(s) - this is used as a affix
+# in paste-notify-about
+paste-items-also = Вашето поставяне включва срещи и възложени задачи
+# LOCALIZATION NOTE (paste-event-only): The users is pasting a meeting -
+# this is used as a affix in paste-notify-about
+paste-event-only = Поставяте среща
+# LOCALIZATION NOTE (paste-events-only): The users is pasting several meetings -
+# this is used as a affix in paste-notify-about
+paste-events-only = Поставяте срещи
+# LOCALIZATION NOTE (paste-event-only): The users is pasting an assigned task -
+# this is used as a affix in paste-notify-about
+paste-task-only = Поставяте възложена задача
+# LOCALIZATION NOTE (paste-events-only): The users is pasting several assigned
+# tasks - this is used as a affix in paste-notify-about
+paste-tasks-only = Поставяте възложени задачи
+# LOCALIZATION NOTE (paste-events-only): The users is pasting assigned task(s) and
+# meeting(s) - this is used as a affix in paste-notify-about
+paste-items-only = Поставяте срещи и възложени задачи
+# LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
+# or assigned task
+# $pasteItem - pasteEvent* or pasteTask*
+paste-notify-about = { $pasteItem } - искате ли да изпратите актуализация до всички участващи?
+# LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
+# of the pasted item has attendees
+paste-and-notify-label = Поставете и изпратете сега
+# LOCALIZATION NOTE (paste-dont-notify-label): button label used in calendar prompt
+# of the pasted item has attendees
+paste-dont-notify-label = Поставяне без изпращане
+# LOCALIZATION NOTE (import-items-failed):
+#    $count will be replaced with number of failed items
+#    $error will be replaced with last error code / error string
+import-items-failed = Неуспешно внасяне на { $count } елементи. Последната грешка е: { $error }
+# LOCALIZATION NOTE (no-items-in-calendar-file2):
+#    $filePath will be replaced with file path
+no-items-in-calendar-file2 = Не може да се внесе от { $filePath }. В този файл няма елементи за внасяне.
 # spaces needed at the end of the following lines
 event-description = Описание:
 unable-to-read = Неуспешно четене от файл:
@@ -85,6 +138,13 @@ week-title-label =
     .aria-label = Седмица { $title }
 calendar-none =
     .label = Никой
+# Error strings
+# @name UID_NOT_FOUND
+# @loc none
+# LOCALIZATION NOTE (too-new-schema-error-text):
+#    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
+#    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
+too-new-schema-error-text = Вашите данни от календара не са съвместими с това издание на на { $hostApplication }. Данните от календара във вашия профил бяха актуализирани от по-ново издание на { $hostApplication }. Беше създадено резервно копие на файла с данни с име "{ $fileName }". Продължаване с новосъздадения файл с данни.
 # List of events or todos (unifinder)
 event-untitled = Неозаглавен
 # Tooltips of events or todos
@@ -110,6 +170,8 @@ tooltip-completed = Завършено:
 # File commands and dialogs
 calendar-new = Нов
 calendar-open = Отваряне
+filepicker-title-import = Внасяне
+filepicker-title-export = Изнасяне
 # Filters for export/import/open file picker.  $wildmat will be replaced with
 # wildmat used to filter files by extension, such as (*.html; *.htm).
 filter-ics = iCalendar ({ $wildmat })
@@ -414,6 +476,17 @@ single-calendar-week = КС: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = КС: { $startIndex }-{ $endIndex }
     .title = Календарни седмици { $startIndex }–{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = КС { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
