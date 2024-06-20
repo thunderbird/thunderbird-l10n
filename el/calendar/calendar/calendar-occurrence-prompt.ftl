@@ -2,12 +2,28 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+header-isrepeating-event =
+    .label = είναι επαναλαμβανόμενη εκδήλωση
+header-isrepeating-task =
+    .label = είναι επαναλαμβανόμενη εργασία
+header-containsrepeating-event =
+    .label = περιέχει επαναλαμβανόμενες εκδηλώσεις
 header-containsrepeating-task =
     .label = περιέχει επαναλαμβανόμενες εργασίες
 header-containsrepeating-mixed =
     .label = περιέχει επαναλαμβανόμενα στοιχεία διαφορετικού τύπου
+windowtitle-event-copy = Αντιγραφή επαναλαμβανόμενης εκδήλωσης
+windowtitle-task-copy = Αντιγραφή επαναλαμβανόμενης εργασίας
+windowtitle-mixed-copy = Αντιγραφή επαναλαμβανόμενων στοιχείων
+windowtitle-event-cut = Αποκοπή επαναλαμβανόμενης εκδήλωσης
+windowtitle-task-cut = Αποκοπή επαναλαμβανόμενης εργασίας
+windowtitle-mixed-cut = Αποκοπή επαναλαμβανόμενων στοιχείων
+windowtitle-event-delete = Διαγραφή επαναλαμβανόμενης εκδήλωσης
 windowtitle-task-delete = Διαγραφή επαναλαμβανόμενης εργασίας
+windowtitle-mixed-delete = Διαγραφή επαναλαμβανόμενων στοιχείων
+windowtitle-event-edit = Επεξεργασία επαναλαμβανόμενης εκδήλωσης
 windowtitle-task-edit = Επεξεργασία επαναλαμβανόμενης εργασίας
+windowtitle-mixed-edit = Επεξεργασία επαναλαμβανόμενων στοιχείων
 windowtitle-multipleitems =
     .value = Επιλεγμένα στοιχεία
 buttons-single-occurrence-copy =
