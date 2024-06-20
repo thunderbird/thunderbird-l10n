@@ -301,6 +301,12 @@ skipping-os-timezone = Pomijanie strefy czasowej systemu operacyjnego „{ $time
 # Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
 # $timezone likely timezone id
 skipping-locale-timezone = Pomijanie lokalnej strefy czasowej „{ $timezone }”.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Uwaga: używana jest „pływająca” strefa czasowa.
+    W bazie danych ZoneInfo nie ma strefy czasowej pokrywającej się ze strefą czasową systemu operacyjnego.
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
 #    [rfc2445 summer daylight saving shift rules for timezone]
@@ -319,6 +325,7 @@ tz-almost-matches-os-differ-at-mostaweek =
     wyniesie nie więcej niż tydzień w stosunku do czasu przejść strefy czasowej systemu operacyjnego.
     Mogą pojawić się rozbieżności w danych, takie jak różnice w dacie rozpoczęcia,
     różnice w regułach lub przybliżenie w przypadku reguł w niegregoriańskich kalendarzach.
+tz-seems-to-matchos = W tym roku ta strefa czasowa ZoneInfo wydaje się pokrywać ze strefą czasową systemu operacyjnego.
 # LOCALIZATION NOTE (tz-fromos):
 # used for a display of a chosen timezone
 #    $timezone will be replaced with the name of a timezone
