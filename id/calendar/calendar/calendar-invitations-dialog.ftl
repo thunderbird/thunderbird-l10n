@@ -4,3 +4,16 @@
 
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Saat ini belum memutuskan
+allday-event = Acara seharian
+recurrent-event =
+    .value = Acara berulang
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Lokasi: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Penyelenggara: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Peserta: { $attendeeProperty }
+calendar-invitations-none = Tidak ada
