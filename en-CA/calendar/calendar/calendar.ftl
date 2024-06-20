@@ -111,6 +111,9 @@ duplicate-error =
     }
 # $location unknown calendar location
 unable-to-create-provider = An error was encountered preparing the calendar located at { $location } for use. It will not be available.
+# Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
+# $timezone timezone name, $title item title, $datetime date-time
+unknown-timezone-in-item = Unknown timezone "{ $timezone }" in "{ $title }". Treated as 'floating' local timezone instead: { $datetime }
 timezone-errors-alert-title = Timezone Errors
 timezone-errors-see-console = See Error Console: Unknown timezones are treated as the ‘floating’ local timezone.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
@@ -185,10 +188,18 @@ http-put-error =
 other-put-error =
     Publishing the calendar file failed.
     Status code: 0x{ $statusCode }
+# LOCALIZATION NOTE (read-only-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+read-only-mode = There has been an error reading data for calendar: { $name }. It has been placed in read-only mode, since changes to this calendar will likely result in data-loss. You may change this setting by choosing 'Edit Calendar'.
 # LOCALIZATION NOTE (disabled-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
 disabled-mode = There has been an error reading data for calendar: { $name }. It has been disabled until it is safe to use it.
+# LOCALIZATION NOTE (minor-error):
+# used for an message like 'There has been an error reading data for calendar: Home. However this...'
+#    $name will be replaced with the name of a calendar
+minor-error = There has been an error reading data for calendar: { $name }. However, this error is believed to be minor, so the program will attempt to continue.
 # LOCALIZATION NOTE (still-read-only-error):
 # used for an message like 'There has been an error reading data for calendar: Home.'
 #    $name will be replaced with the name of a calendar
