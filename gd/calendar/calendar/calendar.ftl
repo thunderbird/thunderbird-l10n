@@ -240,6 +240,56 @@ cal-dav-redirect-title = A bheil thu airson ionad a' mhìosachain { $name } ùra
 # $name name of calendar
 cal-dav-redirect-text = Chan eil iarrtasan airson { $name } 'gan ath-stiùireadh gun ionad ùr. A bheil thu airson an luach a leanas a chur an àite an ionaid?
 cal-dav-redirect-disable-calendar = Cuir am mìosachan à comas
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = Europe/London, America/Halifax, Australia/Sydney, Pacific/Auckland
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Rabhadh: Chan eil roinn-tìde an t-siostaim-obrachaidh “{ $timezone }”
+    a’ freagairt ris an roinn-tìde ZoneInfo “{ $zoneInfoTimezoneId }” tuilleadh.
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -247,6 +297,16 @@ cal-dav-redirect-disable-calendar = Cuir am mìosachan à comas
 # mapping from windows to ZoneInfo timezone ids does).
 # $timezone OS timezone id
 skipping-os-timezone = A' gearradh leum thairis air roinn-tìde an t-siostaim-obrachaidh '{ $timezone }'.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = A’ gearradh leum thairis air roinn-tìde an sgeama ionadail “{ $timezone }”.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Rabhadh: A’ cleachdadh roinn-tìde “air fleod”.
+    Cha do fhreagair dàta roinn-tìde ZoneInfo sam bith ri dàta roinn-tìde an t-siostaim-obrachaidh.
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
 #    [rfc2445 summer daylight saving shift rules for timezone]
@@ -258,6 +318,14 @@ warning-using-guessedtz =
     { $timezone } (UTC{ $offset }).
     { $detail1 }
     { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Tha an toinn-tìde ZoneInfo seo cha mhòr co-ionnann ri roinn-tìde an t-siostaim-obrachaidh agad.
+    Air sgàth sin, bidh diofar seachdain, air a’ char as motha, eadar
+    amannan samhraidh is geamhraidh an coimeas ri amannan an t-siostaim-obrachaidh.
+    Faodaidh gum bi diofar san dàta a thaobh làithean tòiseachaidh no riaghailtean eadar-dhealaichte,
+    no tuairmse, airson riaghailtean ann am mìosachain neo-Ghriogarach.
+tz-seems-to-matchos = Tha coltas gu bheil an roinn-tìde ZoneInfo seo a’ freagairt ri roinn-tìde an t-siostaim-obrachaidh agad am bliadhna-sa.
 # LOCALIZATION NOTE (tz-fromos):
 # used for a display of a chosen timezone
 #    $timezone will be replaced with the name of a timezone
