@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Op dit stuit wegere
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Op dit stuit net besletten
+allday-event = De hiele dei
+recurrent-event =
+    .value = Werheljend barren
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Lokaasje: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organisator: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Dielnimmer: { $attendeeProperty }
+calendar-invitations-none = Gjin
