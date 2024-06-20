@@ -2,6 +2,76 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+ask-save-message-event = ਸਮਾਗਮ ਨੂੰ ਸੰਭਾਲਿਆ ਨਹੀਂ ਗਿਆ ਹੈ। ਕੀ ਤੁਸੀਂ ਸਮਾਗਮ ਨੂੰ ਸੰਭਾਲਣਾ ਚਾਹੋਗੇ?
+ask-save-message-task = ਕਾਰਜ ਨੂੰ ਸੰਭਾਲਿਆ ਨਹੀਂ ਗਿਆ ਹੈ। ਕੀ ਤੁਸੀਂ ਕਾਰਜ ਨੂੰ ਸੰਭਾਲਣਾ ਚਾਹੋਗੇ?
+# Event Dialog Warnings
+warning-end-before-start = ਖਤਮ ਹੋਣ ਦੀ ਜਿਹੜੀ ਮਿਤੀ ਤੁਸੀਂ ਭਰੀ ਹੈ, ਉਹ ਸ਼ੁਰੂ ਹੋਣ ਦੀ ਮਿਤੀ ਤੋੰ ਪਹਿਲਾਂ ਦੀ ਹੈ
+warning-until-date-before-start = ਸ਼ੁਰੂ ਕਰਨ ਦੀ ਮਿਤੀ, ਤੱਕ ਦੀ ਮਿਤੀ ਤੋਂ ਪਹਿਲਾਂ ਹੁੰਦੀ ਹੈ
+# The name of the calendar provided with the application by default
+home-calendar-name = ਮੁੱਖ ਸਫ਼ਾ
+# The name given to a calendar if an opened calendar has an empty filename
+untitled-calendar-name = ਬਿਨਾਂ ਸਿਰਲੇਖ ਕੈਲੰਡਰ
+# Event status: Tentative, Confirmed, Cancelled
+# ToDo task status: NeedsAction, InProcess, Completed, Cancelled
+status-tentative = ਆਰਜ਼ੀ
+status-confirmed = ਪੱਕਾ
+event-status-cancelled = ਰੱਦ ਕੀਤਾ
+todo-status-cancelled = ਰੱਦ ਕੀਤਾ
+status-needs-action = ਕਾਰਵਾਈ ਲੋੜੀਂਦੀ ਹੈ
+status-in-process = ਕਾਰਵਾਈ ਚੱਲ ਰਹੀ ਹੈ
+status-completed = ਪੂਰਾ ਹੋਇਆ
+# Task priority, these should match the priority.level.* labels in calendar.dtd
+high-priority = ਜਿਆਦਾ
+normal-priority = ਆਮ
+low-priority = ਘੱਟ
+import-prompt = ਇਹਨਾਂ ਚੀਜਾਂ ਨੂੰ ਤੁਸੀਂ ਕਿਹੜੇ ਕੈਲੰਡਰ ਵਿੱਚ ਜੋੜਨਾ ਚਾਹੋਗੇ?
+export-prompt = ਕਿਹੜੇ ਕੈਲੰਡਰ ਵਿੱਚੋਂ ਭੇਜਣਾ ਚਾਹੋਗੇ?
+paste-prompt = ਤੁਹਾਡੇ ਮੌਜੂਦਾ ਲਿਖਣਯੋਗ ਕੈਲੰਡਰਾਂ ਵਿੱਚੋਂ ਕਿਹੜੇ ਵਿੱਚ ਤੁਸੀਂ ਪੇਸਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
+publish-prompt = ਤੁਸੀਂ ਕਿਹੜਾ ਕੈਲੰਡਰ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
+# LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
+# others also a meeting invitation - this is used as a affix in
+# paste-notify-about
+paste-event-also = ਤੁਹਾਡੀ ਪੇਸਟਿੰਗ ਵਿੱਚ ਇੱਕ ਬੈਠਕ ਸ਼ਾਮਿਲ ਹੈ
+# LOCALIZATION NOTE (paste-events-also): The users pasting operation includes among
+# others also several meeting invitations  - this is used as a affix in
+# paste-notify-about
+paste-events-also = ਤੁਹਾਡੀ ਪੇਸਟਿੰਗ ਵਿੱਚ ਬੈਠਕਾਂ ਸ਼ਾਮਲ ਹਨ
+# LOCALIZATION NOTE (paste-task-also): The users pasting operation includes among
+# others also an assigned task - this is used as a affix in paste-notify-about
+paste-task-also = ਤੁਹਾਡੀ ਪੇਸਟਿੰਗ ਵਿੱਚ ਇੱਕ ਸੌਂਪਿਆ ਹੋਇਆ ਕੰਮ ਸ਼ਾਮਲ ਹੈ
+# LOCALIZATION NOTE (paste-tasks-also): The users pasting operation include among
+# others also several assigned tasks - this is used as a affix in
+# paste-notify-about
+paste-tasks-also = ਤੁਹਾਡੀ ਪੇਸਟਿੰਗ ਵਿੱਚ ਸੌਂਪੇ ਹੋਏ ਕਾਰਜ ਸ਼ਾਮਲ ਹਨ
+# LOCALIZATION NOTE (paste-items-also): The users pasting operation includes among
+# others also assigned task(s) and meeting invitation(s) - this is used as a affix
+# in paste-notify-about
+paste-items-also = ਤੁਹਾਡੀ ਪੇਸਟਿੰਗ ਵਿੱਚ ਬੈਠਕਾਂ ਅਤੇ ਸੌਂਪੇ ਹੋਏ ਕੰਮ ਸ਼ਾਮਲ ਹਨ
+# LOCALIZATION NOTE (paste-event-only): The users is pasting a meeting -
+# this is used as a affix in paste-notify-about
+paste-event-only = ਤੁਸੀਂ ਕੋਈ ਬੈਠਕ ਪੇਸਟ ਕਰ ਰਹੇ ਹੋ
+# LOCALIZATION NOTE (paste-events-only): The users is pasting several meetings -
+# this is used as a affix in paste-notify-about
+paste-events-only = ਤੁਸੀਂ ਕਈ ਬੈਠਕਾਂ ਪੇਸਟ ਕਰ ਰਹੇ ਹੋ
+# LOCALIZATION NOTE (paste-event-only): The users is pasting an assigned task -
+# this is used as a affix in paste-notify-about
+paste-task-only = ਤੁਸੀਂ ਇੱਕ ਸੌਂਪੇ ਹੋਏ ਕੰਮ ਨੂੰ ਪੇਸਟ ਕਰ ਰਹੇ ਹੋ
+# LOCALIZATION NOTE (paste-events-only): The users is pasting several assigned
+# tasks - this is used as a affix in paste-notify-about
+paste-tasks-only = ਤੁਸੀਂ ਸੌਂਪੇ ਹੋਏ ਕੰਮਾਂ ਨੂੰ ਪੇਸਟ ਕਰ ਰਹੇ ਹੋ
+# LOCALIZATION NOTE (paste-events-only): The users is pasting assigned task(s) and
+# meeting(s) - this is used as a affix in paste-notify-about
+paste-items-only = ਤੁਸੀਂ ਬੈਠਕਾਂ ਅਤੇ ਸੌਂਪੇ ਹੋਏ ਕਾਰਜਾਂ ਨੂੰ ਪੇਸਟ ਕਰ ਰਹੇ ਹੋ
+# LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
+# or assigned task
+# $pasteItem - pasteEvent* or pasteTask*
+paste-notify-about = { $pasteItem } - ਕੀ ਤੁਸੀਂ ਇਸ ਵਿੱਚ ਸ਼ਾਮਲ ਹਰ ਕਿਸੇ ਨੂੰ ਇੱਕ ਅਪਡੇਟ ਭੇਜਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+# LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
+# of the pasted item has attendees
+paste-and-notify-label = ਹੁਣੇ ਪੇਸਟ ਕਰੋ ਅਤੇ ਭੇਜੋ
+# LOCALIZATION NOTE (paste-dont-notify-label): button label used in calendar prompt
+# of the pasted item has attendees
+paste-dont-notify-label = ਬਿਨਾਂ ਭੇਜੇ ਪੇਸਟ ਕਰੋ
 # LOCALIZATION NOTE (import-items-failed):
 #    $count will be replaced with number of failed items
 #    $error will be replaced with last error code / error string
@@ -29,9 +99,47 @@ unable-to-create-provider = An error was encountered preparing the calendar loca
 unknown-timezone-in-item = Unknown timezone "{ $timezone }" in "{ $title }".  Treated as 'floating' local timezone instead: { $datetime }
 timezone-errors-alert-title = Timezone Errors
 timezone-errors-see-console = See Error Console: Unknown timezones are treated as the 'floating' local timezone.
+# $title title
+week-title = ਹਫਤਾ { $title }
+week-title-label =
+    .aria-label = ਹਫਤਾ { $title }
+calendar-none =
+    .label = ਕੋਈ ਨਹੀਂ
+# List of events or todos (unifinder)
+event-untitled = ਬਿਨਾਂ ਸਿਰਲੇਖ
+# Tooltips of events or todos
+tooltip-title = ਸਿਰਲੇਖ:
+tooltip-location = ਟਿਕਾਣਾ:
+# event date, usually an interval, such as
+#  Date: 7:00--8:00 Thu 9 Oct 2011
+#  Date: Thu 9 Oct 2000 -- Fri 10 Oct 2000
+tooltip-date = ਮਿਤੀ:
+# event calendar name
+tooltip-cal-name = ਕੈਲੰਡਰ ਦਾ ਨਾਂਅ:
+# event status: tentative, confirmed, cancelled
+tooltip-status = ਹਲਾਤ:
+# event organizer
+tooltip-organizer = ਪ੍ਰਬੰਧਕ:
+# task/todo fields
+# start date time, due date time, task priority number, completed date time
+tooltip-start = ਸ਼ੁਰੂਆਤ:
+tooltip-due = ਬਕਾਇਆ:
+tooltip-priority = ਤਰਜੀਹ:
+tooltip-percent = % ਪੂਰਾ:
+tooltip-completed = ਪੂਰਾ ਹੋਇਆ:
+# File commands and dialogs
+calendar-new = ਨਵਾਂ
+calendar-open = ਖੋਲ੍ਹੋ
+filepicker-title-import = ਲੈ ਕੇ ਆਓ
+filepicker-title-export = ਭੇਜੋ
 # Filters for export/import/open file picker.  $wildmat will be replaced with
 # wildmat used to filter files by extension, such as (*.html; *.htm).
 filter-ics = iCalendar ({ $wildmat })
+# Filters for export/import/open file picker.  $wildmat will be replaced with
+# wildmat used to filter files by extension, such as (*.html; *.htm).
+filter-html = ਵੈੱਬ ਵਰਕਾ ({ $wildmat })
+# Remote calendar errors
+generic-error-title = ਕੋਈ ਗਲਤੀ ਹੋਈ ਹੈ
 # $statusCode $statusCodeInfo status code info
 http-put-error =
     Publishing the calendar file failed.
@@ -58,6 +166,7 @@ minor-error = There has been an error reading data for calendar: { $name }.  How
 still-read-only-error = There has been an error reading data for calendar: { $name }.
 utf8-decode-error = An error occured while decoding an iCalendar (ics) file as UTF-8. Check that the file, including symbols and accented letters, is encoded using the UTF-8 character encoding.
 ics-malformed-error = Parsing an iCalendar (ics) file failed. Check that the file conforms to iCalendar (ics) file syntax.
+item-modified-on-server-title = ਸਰਵਰ ਤੇ ਨਗ ਬਦਲ ਗਿਆ
 item-modified-on-server = This item has recently been changed on the server.
 modify-will-lose-data = Submitting your changes will overwrite the changes made on the server.
 delete-will-lose-data = Deleting this item will cause loss of the changes made on the server.
@@ -189,11 +298,83 @@ tasks-with-no-due-date = Tasks with no due date
 cal-dav-name = CalDAV
 composite-name = Composite
 ics-name-key = iCalendar (ICS)
+memory-name = ਆਰਜੀ (ਮੈਮਰੀ)
+storage-name = ਸਥਾਨਕ (SQLite)
+# Used in created html code for export
+html-prefix-title = ਸਿਰਲੇਖ
+html-prefix-when = ਕਦੋਂ/ਜਦੋਂ
+html-prefix-location = ਟਿਕਾਣਾ
+html-prefix-description = ਬਿਓਰਾ
 # $task task
 html-task-completed = { $task } (completed)
 # Categories
 add-category = Add Category
 multiple-categories = Multiple Categories
+calendar-today = ਅੱਜ
+calendar-tomorrow = ਭਲਕੇ
+yesterday = ਕੱਲ੍ਹ
+# Today pane
+events-only = ਸਮਾਗਮ
+events-and-tasks = ਸਮਾਗਮ ਅਤੇ ਕਾਰਜ
+tasks-only = ਕਾਰਜ
+short-calendar-week = ਕੈਲੰ. ਹਫ.
+calendar-go = ਜਾਓ
+# Some languages have different conjugations of 'next' and 'last'.  If yours
+# does not, simply repeat the value.  This will be used with day names, as in
+# 'next Sunday'.
+calendar-next1 = ਅਗਲਾ
+calendar-next2 = ਅਗਲਾ
+calendar-last1 = ਪਿਛਲਾ
+calendar-last2 = ਪਿਛਲਾ
+# Alarm Dialog
+# $count reminder count
+alarm-window-title-label =
+    { $count ->
+        [one] { $count } ਯਾਦ
+       *[other] { $count } ਯਾਦਾਂ
+    }
+# LOCALIZATION NOTE (alarm-starts):
+# used for a display the start of an alarm like 'Starts:  Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with a date-time
+alarm-starts =
+    .value = ਸ਼ੁਰੂਆਤ: { $datetime }
+# LOCALIZATION NOTE (alarm-today-at):
+# used for a display the date-time of an alarm like 'Today at Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with a date-time
+alarm-today-at = ਅੱਜ { $datetime } ਵਜੇ
+# LOCALIZATION NOTE (alarm-tomorrow-at):
+# used for a display the date-time of an alarm like 'Tomorrow at Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with a date-time
+alarm-tomorrow-at = ਭਲਕੇ { $datetime } ਵਜੇ
+# LOCALIZATION NOTE (alarm-yesterday-at):
+# used for a display the date-time of an alarm like 'Yesterday at Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with a date-time
+alarm-yesterday-at = ਕੱਲ੍ਹ { $datetime } ਵਜੇ
+# Alarm interface strings
+# LOCALIZATION NOTE: These strings do not get displayed. They are only visible
+# when exporting an item with i.e a DISPLAY alarm, that doesn't have a
+# description set, or an EMAIL alarm that doesn't have a summary set.
+alarm-default-description = ਮੂਲ ਮੌਜ਼ੀਲਾ ਬਿਓਰਾ
+alarm-default-summary = ਮੂਲ ਮੌਜ਼ੀਲਾ ਸਾਰ
+task-details-status-needs-action = ਕਾਰਵਾਈ ਲੋੜੀਂਦੀ ਹੈ
+# LOCALIZATION NOTE (task-details-status-in-progress):
+# used for a display of how much of a task is completed ' Complete'
+#    $percent will be replaced with the number of percentage completed
+task-details-status-in-progress = { $percent }% ਪੂਰਾ
+task-details-status-completed = ਪੂਰਾ ਹੋਇਆ
+# LOCALIZATION NOTE (task-details-status-completed-on):
+# used for a display of completion date like 'Completed on Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with the completion date-time of the task
+task-details-status-completed-on = { $datetime } 'ਤੇ ਪੂਰਾ ਹੋਇਆ
+task-details-status-cancelled = ਰੱਦ ਕੀਤਾ
+getting-calendar-info-common =
+    .label = ਕੈਲੰਡਰ ਜਾਂਚੇ ਜਾ ਰਹੇ ਹਨ…
+# LOCALIZATION NOTE (getting-calendar-info-detail):
+# used for a progress-display of processed like 'Checking Calendar 5 of 10'
+#    $index will be replaced with the index of the currently processed calendar
+#    $total will be replaced with the total numbers of calendars
+getting-calendar-info-detail =
+    .label = { $total } ਵਿੱਚੋਂ { $index } ਕੈਲੰਡਰ ਜਾਂਚਿਆ ਜਾ ਰਿਹਾ
 # LOCALIZATION NOTE (error-code):
 #    $errorCode will be replaced with the number of an error code
 error-code = Error code: { $errorCode }
