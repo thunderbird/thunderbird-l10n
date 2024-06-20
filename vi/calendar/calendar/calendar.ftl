@@ -2,6 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Default name for new events
+new-event =
+    .placeholder = Sự kiện mới
+# Titles for the event/task dialog
+new-event-dialog = Sự kiện mới
+edit-event-dialog = Chỉnh sửa sự kiện
+new-task-dialog = Tác vụ mới
+edit-task-dialog = Chỉnh sửa tác vụ
+# Do you want to save changes?
+ask-save-title-event = Lưu sự kiện
+ask-save-title-task = Lưu tác vụ
 ask-save-message-event = Sự kiện chưa được lưu. Bạn có muốn lưu sự kiện không?
 ask-save-message-task = Tác vụ chưa được lưu. Bạn có muốn lưu tác vụ không?
 # Event Dialog Warnings
@@ -9,6 +20,8 @@ warning-end-before-start = Ngày kết thúc bạn nhập đã xảy ra trước
 warning-until-date-before-start = Ngày kết thúc đã đến trước ngày bắt đầu
 # The name of the calendar provided with the application by default
 home-calendar-name = Chính
+# The name given to a calendar if an opened calendar has an empty filename
+untitled-calendar-name = Lịch không có tiêu đề
 # Event status: Tentative, Confirmed, Cancelled
 # ToDo task status: NeedsAction, InProcess, Completed, Cancelled
 status-tentative = Phân vân
@@ -82,6 +95,7 @@ event-description = Mô tả:
 unable-to-read = Không thể đọc từ tập tin:
 # $filePath
 unable-to-write = Không thể ghi vào tập tin: { $filePath }
+default-file-name = MozillaCalEvents
 html-title = Mozilla Lịch
 # LOCALIZATION NOTE (timezone-error):
 # used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
@@ -100,6 +114,7 @@ unable-to-create-provider = Một lỗi đã xảy ra khi đang chuẩn bị dù
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
 unknown-timezone-in-item = Không biết múi giờ "{ $timezone }" trong "{ $title }".  Sẽ coi như là múi giờ địa phương 'trôi nổi': { $datetime }
+timezone-errors-alert-title = Lỗi múi giờ
 timezone-errors-see-console = Hãy xem Bảng kiểm soát Lỗi: Các múi giờ không được biết tới sẽ được coi như là múi giờ địa phương 'trôi nổi'.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Xóa lịch
@@ -139,6 +154,8 @@ tooltip-location = Địa chỉ:
 #  Date: 7:00--8:00 Thu 9 Oct 2011
 #  Date: Thu 9 Oct 2000 -- Fri 10 Oct 2000
 tooltip-date = Ngày tháng:
+# event calendar name
+tooltip-cal-name = Tên lịch:
 # event status: tentative, confirmed, cancelled
 tooltip-status = Trạng thái:
 # event organizer
@@ -273,6 +290,23 @@ likely-timezone = Asia/Ho_Chi_Minh
 warning-os-tz-no-match =
     Cảnh báo: Múi giờ hệ điều hành "{ $timezone }"
     không còn phù hợp với múi giờ ZoneInfo nội bộ "{ $zoneInfoTimezoneId }".
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Bỏ qua múi giờ hệ điều hành '{ $timezone }'.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Bỏ qua múi giờ địa phương '{ $timezone }'.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Cảnh báo: Đang dùng múi giờ "float".
+    Không có dữ liệu múi giờ ZoneInfo phù hợp với dữ liệu múi giờ hệ điều hành.
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
 #    [rfc2445 summer daylight saving shift rules for timezone]
@@ -284,6 +318,13 @@ warning-using-guessedtz =
     { $timezone } (UTC{ $offset }).
     { $detail1 }
     { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Múi giờ ZoneInfo này có vẻ phù hợp với múi giờ hệ điều hành.
+    Đối với quy luật này, các lần đổi giờ tiếp theo từ giờ mùa hè sang giờ chuẩn
+    sẽ lệch ít nhất một tuần so với lần đổi giờ của hệ điều hành.
+    Có thể dữ liệu sẽ không nhất quán, ví dụ sẽ khác ngày bắt đầu,
+    hoặc khác về quy luật, hoặc mức xấp xỉ cho các quy luật của những bộ lịch không thuộc hệ thống lịch Gregory.
 tz-seems-to-matchos = Múi giờ ZoneInfo này có vẻ phù hợp với múi giờ hệ điều hành trong năm nay.
 # LOCALIZATION NOTE (tz-fromos):
 # used for a display of a chosen timezone
@@ -295,6 +336,9 @@ tz-fromos =
 tz-from-locale =
     Múi giờ ZoneInfo này được chọn dựa trên việc phù hợp múi giờ hệ điều hành
     với múi giờ cho người dùng internet sử dụng tiếng Việt.
+tz-from-known-timezones =
+    Múi giờ ZoneInfo này được chọn dựa trên việc phù hợp múi giờ hệ điều hành
+    với các múi giờ theo thứ tự bảng chữ cái của id múi giờ.
 # Print Layout
 tasks-with-no-due-date = Tác vụ không có ngày đến hạn
 # Providers
@@ -424,6 +468,17 @@ single-calendar-week = Tuần: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Tuần: { $startIndex }–{ $endIndex }
     .title = Tuần { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = T { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
