@@ -276,6 +276,13 @@ tz-almost-matches-os-differ-at-mostaweek =
     diferem, no máximo, uma semana das transições do sistema operativo.
     Poderão existir discrepâncias nos dados, tais como diferenças na data inicial,
     ou regra, ou aproximação a uma regra de calendário não gregoriano.
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Este fuso horário ZoneInfo foi escolhido com base no fuso horário do sistema operativo
+    baseado nos fusos horários para utilizadores de Internet que utilizam Inglês Americano.
+tz-from-known-timezones =
+    Este fuso horário ZoneInfo foi escolhido tendo como base o fuso horário do sistema
+    e fusos horários conhecidos ordenados por ordem alfabética do respetivo identificador.
 # Print Layout
 tasks-with-no-due-date = Tarefas sem data de fim
 # Providers
@@ -413,6 +420,17 @@ single-calendar-week = CS: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = SC: { $startIndex }-{ $endIndex }
     .title = Semanas de calendário { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = S { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
