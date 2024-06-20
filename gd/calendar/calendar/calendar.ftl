@@ -207,6 +207,7 @@ still-read-only-error = Thachair mearachd rè leughadh an dàta airson a' mhìos
 utf8-decode-error = Thachair mearachd fhad 's a bha faidhle iCalendar (ics) a dhì-chòdachadh 'na UTF-8. Cuir sùil air an fhaidhle, gu h-àraid comharran is litrichean le stràcan, gus dèanamh cinnteach gu bheil e sa chòdachadh UTF-8.
 ics-malformed-error = Dh'fhàillig parsadh faidhle iCalendar (ics). Dèan cinnteach gu bheil am faidhle a' leantainn co-chàradh faidhle iCalendar (ics).
 item-modified-on-server-title = Dh'atharraich nì air an fhrithealaiche
+item-modified-on-server = Chaidh an nì seo atharrachadh air an fhrithealaiche o chionn goirid.
 modify-will-lose-data = Ma chuireas tu ann na dh'atharraich thu, thèid a sgrìobhadh thairis air na dh'atharraich air an fhrithealaiche.
 delete-will-lose-data = Ma sguabas tu às an nì seo, thèid na dh'atharraich air an fhrithealaiche air chall.
 calendar-conflicts-dialog =
@@ -411,6 +412,17 @@ single-calendar-week = { $index } seachdain na bl.
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Seachdainean { $startIndex }-{ $endIndex } na bl.
     .title = Seachdainean { $startIndex }-{ $endIndex } na bliadhna
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = S { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
