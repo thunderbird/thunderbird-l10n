@@ -10,6 +10,12 @@ reminder-title-at-start-event = Nel momento in cui l’evento inizia
 reminder-title-at-start-task = Nel momento in cui l’attività inizia
 reminder-title-at-end-event = Nel momento in cui l’evento finisce
 reminder-title-at-end-task = Nel momento in cui l’attività finisce
+# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
+# This string is not seen in the UI, it is read by screen readers when the user
+# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
+# $unit  =  any of unit*
+reminder-snooze-ok-a11y =
+    .aria-label = Posponi promemoria per { $unit }
 reminder-custom-origin-begin-before-event = prima dell’inizio dell’evento
 reminder-custom-origin-begin-after-event = dopo l’inizio dell’evento
 reminder-custom-origin-end-before-event = prima della fine dell’evento
@@ -46,6 +52,11 @@ reminder-error-max-count-reached-task =
         [one] Il calendario selezionato ha una limitazione di { $count } promemoria per attività.
        *[other] Il calendario selezionato ha una limitazione di { $count } promemoria per attività.
     }
+# LOCALIZATION NOTE (reminder-readonly-notification)
+# This notification will be presented in the alarm dialog if reminders for not
+# writable items/calendars are displayed.
+# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+reminder-readonly-notification = Al momento non è possibile posporre i promemoria per i calendari in sola lettura ma solo eliminarli. Il pulsante “{ $label }” pospone i promemoria solo per i calendari scrivibili.
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled
 reminder-disabled-snooze-button-tooltip =
