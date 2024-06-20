@@ -240,6 +240,34 @@ cal-dav-redirect-title = Diweddaru'r lleoliad ar gyfer calendr { $name }?
 # $name name of calendar
 cal-dav-redirect-text = Mae'r ceisiadau am { $name } yn cael eu hailgyfeirio i leoliad newydd. Hoffech chi newid y lleoliad i'r gwerth canlynol?
 cal-dav-redirect-disable-calendar = Analluogi'r Calendr
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = America/Efrog Newydd, America/Chicago, America/Denver, America/Phoenix, America/Los_Angeles, America/Anchorage, America/Adak, Y Môr Tawel/Honolulu, America/Puerto_Rico, America/Halifax, America/Dinas_Mecsico, America/Argentina/Buenos_Aires, America/Sao_Paulo, Ewrop/Llundain, Ewrop/Paris, Asia/Singapore, Asia/Tokyo, Affrica/Lagos, Affrica/Johannesburg, Affrica/Nairobi, Awstralia/Brisbane, Awstralia/Sydney, Y Môr Tawel/Auckland
 # Guessed Timezone errors and warnings.
 # Testing note:
 # * remove preference for calendar.timezone.default in userprofile/prefs.js
@@ -262,6 +290,34 @@ cal-dav-redirect-disable-calendar = Analluogi'r Calendr
 warning-os-tz-no-match =
     Rhybudd: Nid yw cylch amser y system weithredu "{ $timezone }"
     yn cydfynd bellach â'r cylch amser ZoneInfo mewnol "{ $zoneInfoTimezoneId }".
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Yn hepgor cylch amser y System Weithredu '{ $timezone }'.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Yn hepgor cylch amser y locale '{ $timezone }'.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Rhybudd: Yn defnyddio cylch amser "amhendant".
+    Nid oes data cylch amser ZoneInfo ar gael sy'n cyd-fynd â data cylch amser y system weithredu.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Rhybudd:  Wedi dyfalu'r cylch amser
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
 # Testing note: "Almost match" timezones include Cairo on W2k.
 tz-almost-matches-os-differ-at-mostaweek =
     Mae'r cylch amser ZoneInfo bron yn cyd-fynd â chylch amser y system weithredu.
@@ -283,6 +339,8 @@ tz-from-locale =
 tz-from-known-timezones =
     Mae'r cylch amser ZoneInfo yma wedi ei ddewis drwy gymharu cylch amser y system
     weithredu gyda'r cylchoedd amser sydd â chylchoedd amser yn ôl trefn yr wyddor.
+# Print Layout
+tasks-with-no-due-date = Tasgau heb ddyddiad cwblhau
 # Providers
 cal-dav-name = CalDAV
 composite-name = Cyfansawdd
@@ -300,6 +358,7 @@ html-task-completed = { $task } (cwblhawyd)
 add-category = Ychwanegu Categori
 multiple-categories = Categorïau Lluosog
 calendar-today = Heddiw
+calendar-tomorrow = Yfory
 yesterday = Ddoe
 # Today pane
 events-only = Digwyddiadau
@@ -422,6 +481,17 @@ single-calendar-week = WC: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = WC: { $startIndex }-{ $endIndex }
     .title = Wythnos Calendr: { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = W { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
