@@ -6,6 +6,18 @@
 # $unit  =  unit, $reminderCustomOrigin  =  reminderCustomOrigin
 # Example: "3 minutes" "before the task starts"
 reminder-custom-title = { $unit } { $reminderCustomOrigin }
+reminder-title-at-start-event = Nel momento in cui l’evento inizia
+reminder-title-at-start-task = Nel momento in cui l’attività inizia
+reminder-title-at-end-event = Nel momento in cui l’evento finisce
+reminder-title-at-end-task = Nel momento in cui l’attività finisce
+reminder-custom-origin-begin-before-event = prima dell’inizio dell’evento
+reminder-custom-origin-begin-after-event = dopo l’inizio dell’evento
+reminder-custom-origin-end-before-event = prima della fine dell’evento
+reminder-custom-origin-end-after-event = dopo la fine dell’evento
+reminder-custom-origin-begin-before-task = prima dell’inizio dell’attività
+reminder-custom-origin-begin-after-task = dopo l’inizio dell’attività
+reminder-custom-origin-end-before-task = prima della fine dell’attività
+reminder-custom-origin-end-after-task = dopo la fine dell’attività
 reminder-custom-origin-begin-before-event-dom =
     .label = { reminder-custom-origin-begin-before-event }
 reminder-custom-origin-begin-after-event-dom =
