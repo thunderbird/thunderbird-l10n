@@ -12,7 +12,9 @@ new-task-dialog = Ny oppgåve
 edit-task-dialog = Rediger oppgåve
 # Do you want to save changes?
 ask-save-title-event = Lagra hendinga
+ask-save-title-task = Lagre oppgåve
 ask-save-message-event = Hendinga er ikkje lagra. Vil du lagra hendinga?
+ask-save-message-task = Oppgåva er ikkje lagra. Vil du lagre oppgåva?
 # Event Dialog Warnings
 warning-end-before-start = Sluttdatoen du skreiv inn er før start-datoen
 warning-until-date-before-start = Til-datoen er før startdatoen
@@ -167,6 +169,7 @@ tooltip-percent = % fullført:
 tooltip-completed = Fullført:
 # File commands and dialogs
 calendar-new = Ny
+calendar-open = Opne
 filepicker-title-import = Importer
 filepicker-title-export = Eksporter
 # Filters for export/import/open file picker.  $wildmat will be replaced with
@@ -294,6 +297,10 @@ warning-os-tz-no-match =
 # mapping from windows to ZoneInfo timezone ids does).
 # $timezone OS timezone id
 skipping-os-timezone = Hoppar over tidssona til operativsystemet («{ $timezone }»).
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Hoppar over lokal tidssone '{ $timezone }'.
 # Testing note: "No match" timezones include Bucharest on W2k.
 # Brazil timezones may be "No match" (change every year, so often out of date,
 # and changes are often more than a week different).
