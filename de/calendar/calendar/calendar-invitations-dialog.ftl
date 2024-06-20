@@ -17,4 +17,7 @@ calendar-invitations-location =
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Organisator: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Teilnehmende: { $attendeeProperty }
 calendar-invitations-none = keine
