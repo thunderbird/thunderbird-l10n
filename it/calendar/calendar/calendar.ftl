@@ -13,6 +13,8 @@ edit-task-dialog = Modifica attività
 # Do you want to save changes?
 ask-save-title-event = Salva evento
 ask-save-title-task = Salva attività
+ask-save-message-event = L’evento non è stato salvato. Salvare l’evento?
+ask-save-message-task = L’attività non è stata salvata. Salvare l’attività?
 # Event Dialog Warnings
 warning-end-before-start = La data di fine inserita è anteriore alla data di inizio
 warning-until-date-before-start = La data di fine è anteriore alla data di inizio
@@ -26,6 +28,7 @@ status-tentative = Da confermare
 status-confirmed = Confermato
 event-status-cancelled = Cancellato
 todo-status-cancelled = Cancellata
+status-needs-action = Richiede un’azione
 status-in-process = In corso
 status-completed = Completata
 # Task priority, these should match the priority.level.* labels in calendar.dtd
@@ -44,6 +47,9 @@ paste-event-also = Il contenuto incollato contiene un incontro
 # others also several meeting invitations  - this is used as a affix in
 # paste-notify-about
 paste-events-also = Il contenuto incollato contiene degli incontri
+# LOCALIZATION NOTE (paste-task-also): The users pasting operation includes among
+# others also an assigned task - this is used as a affix in paste-notify-about
+paste-task-also = Il contenuto incollato contiene un’attività assegnata
 # LOCALIZATION NOTE (paste-tasks-also): The users pasting operation include among
 # others also several assigned tasks - this is used as a affix in
 # paste-notify-about
@@ -58,6 +64,9 @@ paste-event-only = Si sta incollando un incontro
 # LOCALIZATION NOTE (paste-events-only): The users is pasting several meetings -
 # this is used as a affix in paste-notify-about
 paste-events-only = Si stanno incollando degli incontri
+# LOCALIZATION NOTE (paste-event-only): The users is pasting an assigned task -
+# this is used as a affix in paste-notify-about
+paste-task-only = Si sta incollando un’attività assegnata
 # LOCALIZATION NOTE (paste-events-only): The users is pasting several assigned
 # tasks - this is used as a affix in paste-notify-about
 paste-tasks-only = Si stanno incollando delle attività assegnate
@@ -74,6 +83,10 @@ paste-and-notify-label = Incolla e invia ora
 # LOCALIZATION NOTE (paste-dont-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
 paste-dont-notify-label = Incolla senza inviare
+# LOCALIZATION NOTE (import-items-failed):
+#    $count will be replaced with number of failed items
+#    $error will be replaced with last error code / error string
+import-items-failed = Fallita l’importazione di { $count } elementi. L’ultimo errore è stato { $error }
 # LOCALIZATION NOTE (no-items-in-calendar-file2):
 #    $filePath will be replaced with file path
 no-items-in-calendar-file2 = Impossibile importare da { $filePath }. Non ci sono elementi importabili in questo file.
@@ -96,17 +109,42 @@ duplicate-error =
         [one] { $count } elemento(i) sono stati ignorati perché esistono sia nel calendario di destinazione che nel calendario { $filePath }.
        *[other] { $count } elemento(i) sono stati ignorati perché esistono sia nel calendario di destinazione che nel calendario { $filePath }.
     }
+# $location unknown calendar location
+unable-to-create-provider = È stato riscontrato un errore nel preparare per l’uso il calendario situato in { $location }. Non sarà disponibile per l’uso.
+# Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
+# $timezone timezone name, $title item title, $datetime date-time
+unknown-timezone-in-item = Fuso orario “{ $timezone }” sconosciuto in “{ $title }”.  Trattato invece come fuso orario locale “fluttuante”: { $datetime }
 timezone-errors-alert-title = Errori fuso orario
+timezone-errors-see-console = Vedere la console degli errori: i fusi orari sconosciuti vengono trattati come fuso orario locale “fluttuante“.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Rimuovi calendario (conserva i dati)
 remove-calendar-button-delete = Elimina calendario
 remove-calendar-button-unsubscribe = Rimuovi sottoscrizione
+# LOCALIZATION NOTE (remove-calendar-message-delete-or-unsubscribe): Shown for
+# calendar where both deleting and unsubscribing is possible.
+# $name:  The name of a calendar
+remove-calendar-message-delete-or-unsubscribe = Rimuovere il calendario “{ $name }”? Se si rimuove la sottoscrizione si cancellerà il calendario dalla lista, l’eliminazione cancellerà anche tutti i dati contenuti nel calendario.
+# LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
+# deleting is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-delete = Eliminare permanentemente il calendario “{ $name }”?
+# LOCALIZATION NOTE (remove-calendar-message-unsubscribe): Shown for calendar
+# where unsubscribing is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-unsubscribe = Rimuovere la sottoscrizione dal calendario “{ $name }”?
 # $title title
 week-title = Settimana { $title }
 week-title-label =
     .aria-label = Settimana { $title }
 calendar-none =
     .label = Nessuna
+# Error strings
+# @name UID_NOT_FOUND
+# @loc none
+# LOCALIZATION NOTE (too-new-schema-error-text):
+#    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
+#    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
+too-new-schema-error-text = I dati del calendario non sono compatibili con questa versione di { $hostApplication }. I dati del calendario del proprio profilo sono stati aggiornati da una versione più recente di { $hostApplication }. È stato creato un backup del file dei dati, chiamato “{ $fileName }”. Procedo con un nuovo file di dati.
 # List of events or todos (unifinder)
 event-untitled = Senza nome
 # Tooltips of events or todos
@@ -150,6 +188,10 @@ http-put-error =
 other-put-error =
     Pubblicazione del file di calendario fallita.
     Codice di stato: 0x{ $statusCode }
+# LOCALIZATION NOTE (read-only-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+read-only-mode = Si è verificato un errore durante la lettura dei dati dal calendario: { $name }. È stato impostato in modalità di sola lettura, dato che per ogni cambiamento in questo calendario si potrebbe verificare una perdita di dati.  È possibile cambiare queste impostazioni selezionando “Modifica calendario”.
 # LOCALIZATION NOTE (disabled-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
@@ -166,6 +208,8 @@ utf8-decode-error = Si è verificato un errore durante la decodifica di un file 
 ics-malformed-error = Analisi di un file iCalendar (ics) fallita. Controllare che il file sia conforme alla sintassi iCalendar (ics).
 item-modified-on-server-title = Elemento cambiato sul server
 item-modified-on-server = Questo elemento è stato recentemente cambiato sul server.
+modify-will-lose-data = L’invio delle proprie modifiche sovrascriverà le modifiche fatte sul server.
+delete-will-lose-data = L’eliminazione di questo elemento causerà la perdita delle modifiche fatte sul server.
 calendar-conflicts-dialog =
     .buttonlabelcancel = Annulla le mie modifiche e ricarica
 proceed-modify =
@@ -177,10 +221,14 @@ dav-not-dav = La risorsa a { $name } non è una collezione DAV oppure non è dis
 # $name calendar name
 dav-dav-not-cal-dav = La risorsa a { $name } è una collezione DAV ma non un calendario CalDAV
 item-put-error = Si è verificato un errore durante il salvataggio di un elemento sul server.
+item-delete-error = Si è verificato un errore durante l’eliminazione di un elemento dal server.
+cal-dav-request-error = Si è verificato un errore durante l’invio dell’invito.
+cal-dav-response-error = Si è verificato un errore durante l’invio della risposta.
 # $statusCode status code
 cal-dav-request-status-code = Codice di stato: { $statusCode }
 cal-dav-request-status-code-string-generic = La richiesta non può essere processata.
 cal-dav-request-status-code-string-400 = La richiesta contiene della sintassi sbagliata e non può essere processata.
+cal-dav-request-status-code-string-403 = L’utente non possiede i permessi necessari per effettuare la richiesta.
 cal-dav-request-status-code-string-404 = Risorsa non trovata.
 cal-dav-request-status-code-string-409 = Conflitto di risorsa.
 cal-dav-request-status-code-string-412 = Requisito indispensabile non soddisfatto.
@@ -355,6 +403,7 @@ alarm-yesterday-at = Ieri alle { $datetime }
 # description set, or an EMAIL alarm that doesn't have a summary set.
 alarm-default-description = Descrizione personalizzata Mozilla
 alarm-default-summary = Sommario predefinito Mozilla
+task-details-status-needs-action = Richiede un’azione
 # LOCALIZATION NOTE (task-details-status-in-progress):
 # used for a display of how much of a task is completed ' Complete'
 #    $percent will be replaced with the number of percentage completed
@@ -564,6 +613,11 @@ datetime-interval-task-without-due-date = data di inizio { $date }, { $time }
 #    $date will be replaced with the date of the due date
 #    $time will be replaced with the time of the due date
 datetime-interval-task-without-start-date = data di scadenza { $date } { $time }
+# LOCALIZATION NOTE (drag-label-tasks-with-only-entry-date
+#                    drag-label-tasks-with-only-due-date)
+# Labels that appear while dragging a task with only
+# entry date OR due date
+drag-label-tasks-with-only-entry-date = Ora d’inizio
 drag-label-tasks-with-only-due-date = Scade alle
 delete-task =
     .label = Elimina attività
@@ -636,6 +690,10 @@ hide-calendar-label =
 # $name calendar name
 show-only-calendar =
     .label = Mostra solo { $name }
+# LOCALIZATION NOTE (modify-conflict-*)
+# Used by the event dialog to resolve item modification conflicts.
+modify-conflict-prompt-title = Conflitto di modifica dell’elemento
+modify-conflict-prompt-message = L’elemento che si sta modificando in questa finestra è stato modificato dopo la sua apertura.
 modify-conflict-prompt-button1 = Sovrascrivi le altre modifiche
 modify-conflict-prompt-button2 = Annulla queste modifiche
 # Accessible description of a grid calendar with no selected date
