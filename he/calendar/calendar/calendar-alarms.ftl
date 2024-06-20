@@ -52,3 +52,7 @@ reminder-error-max-count-reached-task =
         [one] בלוח השנה הנבחר קיימת מגבלה של תזכורת { $count } לכל משימה.
        *[other] בלוח השנה הנבחר קיימת מגבלה של { $count } תזכורות למשימה.
     }
+# LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
+# This tooltip is only displayed, if the button is disabled
+reminder-disabled-snooze-button-tooltip =
+    .tooltiptext = השהיית תזכורת למצב נודניק אינה נתמכת בלוחות שנה לקריאה בלבד
