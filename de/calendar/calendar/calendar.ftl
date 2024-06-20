@@ -92,6 +92,9 @@ import-items-failed = { $count } Einträge konnten nicht importiert werden. Die 
 no-items-in-calendar-file2 = Import aus { $filePath } nicht möglich. Es gibt keine importierbaren Einträge in der Datei.
 # spaces needed at the end of the following lines
 event-description = Beschreibung:
+unable-to-read = Datei kann nicht gelesen werden:
+# $filePath
+unable-to-write = Datei kann nicht geschrieben werden: { $filePath }
 default-file-name = MozillaCalEvents
 html-title = Mozilla Kalender
 # LOCALIZATION NOTE (timezone-error):
@@ -201,6 +204,7 @@ minor-error = Fehler beim Lesen von Daten für Kalender: { $name }. Allerdings i
 # used for an message like 'There has been an error reading data for calendar: Home.'
 #    $name will be replaced with the name of a calendar
 still-read-only-error = Fehler beim Lesen von Daten für Kalender: { $name }.
+utf8-decode-error = Beim Dekodieren einer iCalendar (ics)-Datei als UTF-8 ist ein Fehler aufgetreten. Prüfen Sie, ob die Datei, einschließlich Symbolen und akzentuierten Buchstaben, mit der Zeichenkodierung UTF-8 kodiert ist.
 ics-malformed-error = Einlesen einer iCalendar(ics)-Datei fehlgeschlagen. Überprüfen Sie, dass die Datei mit der iCalendar(ics)-Dateisyntax übereinstimmt.
 item-modified-on-server-title = Eintrag wurde auf dem Server geändert
 item-modified-on-server = Dieser Eintrag wurde kürzlich auf dem Server geändert.
@@ -286,6 +290,17 @@ likely-timezone = Europe/Berlin, Europe/Zurich, Europe/Vienna, Europe/Luxembourg
 warning-os-tz-no-match =
     Die Zeitzone des Betriebssystems "{ $timezone }"
     stimmt nicht mehr mit der Zeitzone "{ $zoneInfoTimezoneId }" überein.
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Die im Betriebssystem eingestellte Zeitzone „{ $timezone }“ wird ignoriert.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Die lokale Zeitzone „{ $timezone }“ wird ignoriert.
 # Testing note: "No match" timezones include Bucharest on W2k.
 # Brazil timezones may be "No match" (change every year, so often out of date,
 # and changes are often more than a week different).
@@ -321,6 +336,10 @@ tz-fromos =
 tz-from-locale =
     Diese Zeitzone wurde aus für deutschsprachige Nutzer wahrscheinlichen Zeitzonen ausgewählt,
     die mit der für das Betriebssystem eingestellten Zeitzone übereinstimmen.
+tz-from-known-timezones =
+    Diese ZoneInfo-Zeitzone wurde anhand der Übereinstimmung der Zeitzone des
+    Betriebssystems mit bekannten Zeitzonen in alphabetischer Reihenfolge
+    der Zeitzonen-ID ausgewählt.
 # Print Layout
 tasks-with-no-due-date = Aufgaben ohne Fälligkeitsdatum
 # Providers
@@ -402,6 +421,8 @@ task-details-status-completed = Abgeschlossen
 #    $datetime will be replaced with the completion date-time of the task
 task-details-status-completed-on = Abgeschlossen am { $datetime }
 task-details-status-cancelled = Abgebrochen
+getting-calendar-info-common =
+    .label = Kalender wird überprüft…
 # LOCALIZATION NOTE (getting-calendar-info-detail):
 # used for a progress-display of processed like 'Checking Calendar 5 of 10'
 #    $index will be replaced with the index of the currently processed calendar
