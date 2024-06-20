@@ -38,6 +38,7 @@ low-priority = Niedrig
 import-prompt = In welchen Kalender wollen Sie diese Einträge importieren?
 export-prompt = Aus welchem Kalender wollen Sie exportieren?
 paste-prompt = In welchen nicht schreibgeschützten Kalender soll eingefügt werden?
+publish-prompt = Welchen Kalender wollen Sie veröffentlichen?
 # LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
 # others also a meeting invitation - this is used as a affix in
 # paste-notify-about
@@ -176,6 +177,14 @@ filter-ics = iCalendar ({ $wildmat })
 filter-html = Webseite ({ $wildmat })
 # Remote calendar errors
 generic-error-title = Ein Fehler ist aufgetreten.
+# $statusCode $statusCodeInfo status code info
+http-put-error =
+    Veröffentlichen der Kalenderdatei fehlgeschlagen.
+    Statuscode: { $statusCode }: { $statusCodeInfo }
+# $statusCode status code
+other-put-error =
+    Veröffentlichen der Kalenderdatei fehlgeschlagen.
+    Statuscode: 0x{ $statusCode }
 # LOCALIZATION NOTE (read-only-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
@@ -572,6 +581,10 @@ datetime-interval-on-same-day = { $startDate }, { $startTime } – { $endTime }
 #    $endDate will be replaced with the date of the end date
 #    $endTime will be replaced with the time of the end date
 datetime-interval-on-several-days = { $startDate }, { $startTime } – { $endDate }, { $endTime }
+# LOCALIZATION NOTE (datetime-interval-task-without-date):
+# used for task without start and due date
+# (showed only in exported calendar in Html format)
+datetime-interval-task-without-date = kein Start oder Fälligkeitsdatum
 # LOCALIZATION NOTE (datetime-interval-task-without-due-date):
 # used for intervals in task with only start date
 # displayed form is 'start date 5 Jan 2006 13:00'
