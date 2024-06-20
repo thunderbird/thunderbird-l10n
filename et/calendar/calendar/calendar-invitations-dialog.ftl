@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Hetkel keeldutud
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Hetkel otsustamata
+allday-event = Kogu päeva kestev sündmus
+recurrent-event =
+    .value = Korduv sündmus
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Asukoht: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Korraldaja: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Osaleja: { $attendeeProperty }
+calendar-invitations-none = Puudub
