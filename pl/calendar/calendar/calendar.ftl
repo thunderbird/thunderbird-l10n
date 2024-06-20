@@ -26,11 +26,14 @@ untitled-calendar-name = Kalendarz bez nazwy
 # ToDo task status: NeedsAction, InProcess, Completed, Cancelled
 status-tentative = Wstępnie zaakceptowane
 status-confirmed = Potwierdzone
+event-status-cancelled = Odwołane
+todo-status-cancelled = Odwołane
 status-needs-action = Do wykonania
 status-in-process = Trwa
 status-completed = Ukończone
 # Task priority, these should match the priority.level.* labels in calendar.dtd
 high-priority = Wysoki
+normal-priority = Zwykły
 low-priority = Niski
 import-prompt = Do którego kalendarza chcesz zaimportować te elementy?
 export-prompt = Z którego kalendarza chcesz eksportować?
@@ -70,6 +73,10 @@ paste-tasks-only = Wklejane są przydzielone zadania
 # LOCALIZATION NOTE (paste-events-only): The users is pasting assigned task(s) and
 # meeting(s) - this is used as a affix in paste-notify-about
 paste-items-only = Wklejane są spotkania i przydzielone zadania
+# LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
+# or assigned task
+# $pasteItem - pasteEvent* or pasteTask*
+paste-notify-about = { $pasteItem } – czy chcesz wysłać aktualizację do wszystkich uczestników?
 # LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
 paste-and-notify-label = Wklej i wyślij teraz
@@ -217,6 +224,8 @@ item-put-error = Wystąpił błąd podczas zapisywania pozycji na serwerze.
 item-delete-error = Wystąpił błąd podczas usuwania pozycji z serwera.
 cal-dav-request-error = Wystąpił błąd podczas wysyłania zaproszenia.
 cal-dav-response-error = Wystąpił błąd podczas wysyłania odpowiedzi.
+# $statusCode status code
+cal-dav-request-status-code = Kod stanu: { $statusCode }
 cal-dav-request-status-code-string-generic = Zapytanie nie może być przetworzone.
 cal-dav-request-status-code-string-400 = Zapytanie ma nieprawidłową składnię i nie może być przetworzone.
 cal-dav-request-status-code-string-403 = Użytkownik nie ma wymaganych uprawnień, by można było wykonać zapytanie.
@@ -408,6 +417,7 @@ task-details-status-completed = Ukończone
 # used for a display of completion date like 'Completed on Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with the completion date-time of the task
 task-details-status-completed-on = Ukończone { $datetime }
+task-details-status-cancelled = Odwołane
 getting-calendar-info-common =
     .label = Sprawdzanie kalendarzy…
 # LOCALIZATION NOTE (getting-calendar-info-detail):
@@ -464,6 +474,17 @@ single-calendar-week = Tydz.: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Tyg.: { $startIndex }-{ $endIndex }
     .title = Tygodnie { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = { $number }. tydz.
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
