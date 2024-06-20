@@ -8,6 +8,9 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Έχει απορριφθεί
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Δεν έχει αποφασιστεί ακόμα
+allday-event = Ολοήμερη εκδήλωση
+recurrent-event =
+    .value = Επαναλαμβανόμενη εκδήλωση
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Τοποθεσία: { $locationProperty }
