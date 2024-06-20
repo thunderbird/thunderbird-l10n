@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = 当前已拒绝
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = 当前未决定
+allday-event = 全天事件
+recurrent-event =
+    .value = 重复事件
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = 位置：{ $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = 组织者：{ $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = 参与者：{ $attendeeProperty }
+calendar-invitations-none = 无
