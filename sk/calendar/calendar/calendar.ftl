@@ -138,6 +138,13 @@ week-title-label =
     .aria-label = { $title }. týždeň
 calendar-none =
     .label = Žiadny
+# Error strings
+# @name UID_NOT_FOUND
+# @loc none
+# LOCALIZATION NOTE (too-new-schema-error-text):
+#    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
+#    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
+too-new-schema-error-text = Vaše údaje kalendára nie sú kompatibilné s touto verziou aplikácie { $hostApplication }. Údaje kalendára vo vašom profile boli aktualizované novšou verziou aplikácie { $hostApplication }. Vytvorili sme zálohu údajov s názvom "{ $fileName }". Aplikácia bude pokračovať s novovytvoreným súborom údajov.
 # List of events or todos (unifinder)
 event-untitled = Bez názvu
 # Tooltips of events or todos
@@ -283,6 +290,17 @@ likely-timezone = Europe/Bratislava
 warning-os-tz-no-match =
     Upozornenie: časové pásmo operačného systému ("{ $timezone }")
     nezodpovedá internému časovému pásmu ZoneInfo ("{ $zoneInfoTimezoneId }").
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Vynecháva sa časové pásmo operačného systému ('{ $timezone }').
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Vynecháva sa časové pásmo miestneho nastavenia ('{ $timezone }').
 # Testing note: "No match" timezones include Bucharest on W2k.
 # Brazil timezones may be "No match" (change every year, so often out of date,
 # and changes are often more than a week different).
@@ -445,6 +463,21 @@ event-details-end-date = Koniec:
 #    $datetime will be replaced with the completion date-time
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
+# LOCALIZATION NOTE (single-long-calendar-week):
+# used for display of calendar weeks in short form like 'Calendar Week 43'
+#    $index will be replaced with the index of the week
+single-long-calendar-week = Kalendárny týždeň: { $index }
+# LOCALIZATION NOTE (single-calendar-week):
+# used for display of calendar weeks in short form like 'CW 43'
+#    $index will be replaced with the index of the week
+single-calendar-week = Týž. { $index }
+    .title = Kalendárny týždeň: { $index }
+# LOCALIZATION NOTE (several-calendar-weeks):
+# used for display of calendar weeks in short form like 'CWs 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-calendar-weeks = Týž. { $startIndex }-{ $endIndex }
+    .title = Kalendárne týždne: { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (multiweek-view-week):
 # Used for displaying the week number in the first day box of every week
 # in multiweek and month views.
@@ -652,6 +685,26 @@ unit-weeks =
         [few] { $count } týždne
        *[other] { $count } týždňov
     }
+# LOCALIZATION NOTE (show-calendar)
+# Used in calendar list context menu
+#    $name will be replaced with the calendar name
+# uses the access key calendar.context.togglevisible.accesskey
+# $name calendar name
+show-calendar = Zobraziť kalendár { $name }
+# $name calendar name
+hide-calendar = Skryť kalendár { $name }
+hide-calendar-title =
+    .title = Zobraziť kalendár { $name }
+show-calendar-title =
+    .title = Skryť kalendár { $name }
+show-calendar-label =
+    .label = Zobraziť kalendár { $name }
+hide-calendar-label =
+    .label = Skryť kalendár { $name }
+# uses the access key calendar.context.showonly.accesskey
+# $name calendar name
+show-only-calendar =
+    .label = Zobraziť iba kalendár { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Konflikt pri úprave položky
