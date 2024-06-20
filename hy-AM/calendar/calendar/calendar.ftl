@@ -77,6 +77,12 @@ paste-items-only = Դուք ներածում եք հանդիպումներ և ա
 # or assigned task
 # $pasteItem - pasteEvent* or pasteTask*
 paste-notify-about = { $pasteItem } - ցանկանու՞մ եք ուղարկել թարմեցում բոլոր ներգրավվածներին։
+# LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
+# of the pasted item has attendees
+paste-and-notify-label = Փակցնել և ուղարկել հիմա
+# LOCALIZATION NOTE (paste-dont-notify-label): button label used in calendar prompt
+# of the pasted item has attendees
+paste-dont-notify-label = Փակցնել առանց ուղարկելու
 # LOCALIZATION NOTE (import-items-failed):
 #    $count will be replaced with number of failed items
 #    $error will be replaced with last error code / error string
