@@ -192,6 +192,34 @@ cal-dav-redirect-title = Aggiornare la posizione per il calendario { $name }?
 # $name name of calendar
 cal-dav-redirect-text = Le richieste per { $name } vengono dirottate verso una nuova posizione. Cambiare la posizione coi valori seguenti?
 cal-dav-redirect-disable-calendar = Disattiva calendario
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = Europe/Rome
 # Guessed Timezone errors and warnings.
 # Testing note:
 # * remove preference for calendar.timezone.default in userprofile/prefs.js
@@ -214,6 +242,23 @@ cal-dav-redirect-disable-calendar = Disattiva calendario
 warning-os-tz-no-match =
     Attenzione: il fuso orario “{ $timezone }” del sistema operativo
     non corrisponde più al fuso orario ZoneInfo interno “{ $zoneInfoTimezoneId }”.
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Fuso orario del sistema operativo “{ $timezone }” ignorato.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Fuso orario locale “{ $timezone }” ignorato.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Attenzione: si sta utilizzando un fuso orario “floating”.
+    Nessun fuso orario ZoneInfo corrisponde al fuso orario del sistema operativo.
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
 #    [rfc2445 summer daylight saving shift rules for timezone]
@@ -239,6 +284,10 @@ tz-seems-to-matchos = Questo fuso orario ZoneInfo sembra corrispondere al fuso o
 tz-fromos =
     Questo fuso orario ZoneInfo è stato scelto in base alla corrispondenza col fuso orario del sistema operativo
     con identificativo “{ $timezone }”.
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Questo fuso orario ZoneInfo è stato scelto in base alla corrispondenza col fuso orario
+    del sistema operativo con fusi orari probabili per utenti internet che utilizzano l’italiano.
 tz-from-known-timezones =
     Questo fuso orario ZoneInfo è stato scelto in base alla corrispondenza col fuso orario
     del sistema operativo con fusi orari conosciuti in ordine o alfabetico o di id.
