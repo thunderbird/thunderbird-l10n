@@ -357,6 +357,7 @@ html-task-completed = { $task } (completate)
 # Categories
 add-category = Adder categoria
 multiple-categories = Categorias multiple
+no-categories = Necun
 calendar-today = Hodie
 calendar-tomorrow = Deman
 yesterday = Heri

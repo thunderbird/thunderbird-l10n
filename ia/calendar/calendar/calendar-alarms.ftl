@@ -7,23 +7,23 @@
 # Example: "3 minutes" "before the task starts"
 reminder-custom-title = { $unit } { $reminderCustomOrigin }
 reminder-title-at-start-event = Al momento de initio del evento
-reminder-title-at-start-task = Al momento de initio del activitates
+reminder-title-at-start-task = Al momento de initio del activitate
 reminder-title-at-end-event = Al momento de fin del evento
-reminder-title-at-end-task = Al momento de fin del activitates
+reminder-title-at-end-task = Al momento de fin del activitate
 # LOCALIZATION NOTE (reminder-snooze-ok-a11y)
 # This string is not seen in the UI, it is read by screen readers when the user
 # focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
 # $unit  =  any of unit*
 reminder-snooze-ok-a11y =
-    .aria-label = Differer le memento pro { $unit }
-reminder-custom-origin-begin-before-event = ante que le evento initia
-reminder-custom-origin-begin-after-event = post que le evento initia
-reminder-custom-origin-end-before-event = ante que le evento fini
-reminder-custom-origin-end-after-event = post que le evento fini
-reminder-custom-origin-begin-before-task = ante que le activitate initia
-reminder-custom-origin-begin-after-task = post que le activitate initia
-reminder-custom-origin-end-before-task = ante que le activitate fini
-reminder-custom-origin-end-after-task = post que le activitate fini
+    .aria-label = Postponer le rememoration pro { $unit }
+reminder-custom-origin-begin-before-event = ante le initio del evento
+reminder-custom-origin-begin-after-event = post le initio del evento
+reminder-custom-origin-end-before-event = ante le fin del evento
+reminder-custom-origin-end-after-event = post le fin del evento
+reminder-custom-origin-begin-before-task = ante le initio del activitate
+reminder-custom-origin-begin-after-task = post le initio del activitate
+reminder-custom-origin-end-before-task = ante le fin del activitate
+reminder-custom-origin-end-after-task = post le fin del activitate
 reminder-custom-origin-begin-before-event-dom =
     .label = { reminder-custom-origin-begin-before-event }
 reminder-custom-origin-begin-after-event-dom =
@@ -43,20 +43,20 @@ reminder-custom-origin-end-after-task-dom =
 # $count max count
 reminder-error-max-count-reached-event =
     { $count ->
-        [one] Le agenda seligite ha limite de { $count } memento pro evento.
-       *[other] Le agenda seligite ha limite de { $count } mementos pro evento.
+        [one] Le agenda seligite ha un limite de { $count } rememoration per evento.
+       *[other] Le agenda seligite ha un limite de { $count } rememorationes per evento.
     }
 # $count max count
 reminder-error-max-count-reached-task =
     { $count ->
-        [one] Le agenda seligite ha limite de { $count } memento pro activitate.
-       *[other] Le agenda seligite ha limite de { $count } mementos pro activitate.
+        [one] Le agenda seligite ha un limite de { $count } rememoration per activitate.
+       *[other] Le agenda seligite ha un limite de { $count } rememorationes per activitate.
     }
 # LOCALIZATION NOTE (reminder-readonly-notification)
 # This notification will be presented in the alarm dialog if reminders for not
 # writable items/calendars are displayed.
 # $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
-reminder-readonly-notification = Le mementos pro agendas solo in lectura actualmente non pote ser differite ma solo dimittite - le button '{ $label }' differera solo mementos pro le agendas scribibile.
+reminder-readonly-notification = Le rememorationes pro agendas in lectura sol actualmente non pote esser postponite ma solmente dimittite. Le button '{ $label }' postponera solmente le rememorationes pro le agendas modificabile.
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled
 reminder-disabled-snooze-button-tooltip =
