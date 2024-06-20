@@ -37,7 +37,46 @@ normal-priority = Normal
 low-priority = Baixa
 import-prompt = En que calendario quere importar estes elementos?
 export-prompt = De que calendario quere exportar?
+paste-prompt = En cal dos calendarios modificábeis actuais desexa pegalo?
 publish-prompt = Que calendario quere publicar?
+# LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
+# others also a meeting invitation - this is used as a affix in
+# paste-notify-about
+paste-event-also = O pegado inclúe unha xuntanza
+# LOCALIZATION NOTE (paste-events-also): The users pasting operation includes among
+# others also several meeting invitations  - this is used as a affix in
+# paste-notify-about
+paste-events-also = O pegado inclúe xuntanzas
+# LOCALIZATION NOTE (paste-task-also): The users pasting operation includes among
+# others also an assigned task - this is used as a affix in paste-notify-about
+paste-task-also = O pegado inclúe unha tarefa atribuída
+# LOCALIZATION NOTE (paste-tasks-also): The users pasting operation include among
+# others also several assigned tasks - this is used as a affix in
+# paste-notify-about
+paste-tasks-also = O pegado inclúe tarefas atribuídas
+# LOCALIZATION NOTE (paste-items-also): The users pasting operation includes among
+# others also assigned task(s) and meeting invitation(s) - this is used as a affix
+# in paste-notify-about
+paste-items-also = O pegado inclúe xuntanzas e tarefas atribuídas
+# LOCALIZATION NOTE (paste-event-only): The users is pasting a meeting -
+# this is used as a affix in paste-notify-about
+paste-event-only = Está pegando unha xuntanza
+# LOCALIZATION NOTE (paste-events-only): The users is pasting several meetings -
+# this is used as a affix in paste-notify-about
+paste-events-only = Está pegando xuntanzas
+# LOCALIZATION NOTE (paste-event-only): The users is pasting an assigned task -
+# this is used as a affix in paste-notify-about
+paste-task-only = Está pegando unha tarefa atribuída
+# LOCALIZATION NOTE (paste-events-only): The users is pasting several assigned
+# tasks - this is used as a affix in paste-notify-about
+paste-tasks-only = Está pegando tarefas atribuídas
+# LOCALIZATION NOTE (paste-events-only): The users is pasting assigned task(s) and
+# meeting(s) - this is used as a affix in paste-notify-about
+paste-items-only = Está pegando xuntanzas e tarefas atribuídas
+# LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
+# or assigned task
+# $pasteItem - pasteEvent* or pasteTask*
+paste-notify-about = { $pasteItem } - desexa enviar unha actualización a todas as persoas implicadas?
 # LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
 paste-and-notify-label = Pegar e enviar agora
@@ -48,6 +87,9 @@ paste-dont-notify-label = Pegar sen enviar
 #    $count will be replaced with number of failed items
 #    $error will be replaced with last error code / error string
 import-items-failed = Produciuse un fallo ao importar { $count } elementos. O último erro foi: { $error }
+# LOCALIZATION NOTE (no-items-in-calendar-file2):
+#    $filePath will be replaced with file path
+no-items-in-calendar-file2 = Non pode importar desde { $filePath }. Neste ficheiro non hai ningún elemento que se poida importar.
 # spaces needed at the end of the following lines
 event-description = Descrición:
 unable-to-read = Foi imposíbel ler do ficheiro:
@@ -96,6 +138,13 @@ week-title-label =
     .aria-label = Semana { $title }
 calendar-none =
     .label = Ningunha
+# Error strings
+# @name UID_NOT_FOUND
+# @loc none
+# LOCALIZATION NOTE (too-new-schema-error-text):
+#    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
+#    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
+too-new-schema-error-text = Os datos do seu calendario non son compatíbeis con esta versión de { $hostApplication }. Actualizáronse os datos do calendario do seu perfil por unha versión máis recente de { $hostApplication }. Creouse un ficheiro de copia de seguranza, chamado "{ $fileName }". Continuando co ficheiro de datos de máis recente creación.
 # List of events or todos (unifinder)
 event-untitled = Sen título
 # Tooltips of events or todos
@@ -173,6 +222,7 @@ dav-not-dav = O recurso en { $name }, ou non é unha colección DAV ou non está
 dav-dav-not-cal-dav = O recurso en { $name } é unha colección DAV pero non é un calendario CalDAV
 item-put-error = Produciuse un erro ao almacenar o elemento no servidor.
 item-delete-error = Produciuse un erro ao eliminar o elemento do servidor.
+cal-dav-request-error = Produciuse un erro ao enviar o convite.
 cal-dav-response-error = Produciuse un erro ao enviar a resposta.
 # $statusCode status code
 cal-dav-request-status-code = Código de estado: { $statusCode }
@@ -356,6 +406,12 @@ alarm-yesterday-at = Onte ás { $datetime }
 # description set, or an EMAIL alarm that doesn't have a summary set.
 alarm-default-description = Descrición predeterminada de Mozilla
 alarm-default-summary = Resumo predeterminado de Mozilla
+# $count number of months
+alarm-snooze-limit-exceeded =
+    { $count ->
+        [one] Non pode aprazar unha alarma por máis { $count } mes.
+       *[other] Non pode aprazar unha alarma por máis de { $count } meses.
+    }
 task-details-status-needs-action = Precisa dunha acción
 # LOCALIZATION NOTE (task-details-status-in-progress):
 # used for a display of how much of a task is completed ' Complete'
@@ -381,6 +437,13 @@ error-code = Código de erro: { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = Descrición: { $errorDescription }
+# LOCALIZATION NOTE (error-writing):
+# used for an message like 'An error occurred when writing to the calendar Home!'
+#    $name will be replaced with the name of a calendar
+error-writing2 = Produciuse un erro escribindo no calendario { $name }! Obteña máis información a continuación.
+# LOCALIZATION NOTE (error-writing-details):
+# This will be displayed in the detail section of the error dialog
+error-writing-details = Se vostede está vendo esta mensaxe despois de aprazar ou desbotar un recordatorio e isto é para un calendario no que non desexa engadir ou modificar eventos, pode marcar este calendario como de só lectura para evitar tales experiencias no futuro. Para facer isto, vaia ás propiedades do calendario facendo clic dereito neste calendario na lista na vista de calendarios ou tarefas.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
@@ -416,6 +479,17 @@ single-calendar-week = SC: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Sem: { $startIndex }-{ $endIndex }
     .title = Semanas do calendario { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = Sem. { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
@@ -631,3 +705,6 @@ modify-conflict-prompt-title = Conflito na modificación do elemento
 modify-conflict-prompt-message = O elemento que se está a editar no diálogo foi modificado dende que se abriu.
 modify-conflict-prompt-button1 = Sobrescribir os outros cambios
 modify-conflict-prompt-button2 = Descartar estes cambios
+# Accessible description of a grid calendar with no selected date
+minimonth-no-selected-date =
+    .aria-label = Non hai ningunha data seleccionada
