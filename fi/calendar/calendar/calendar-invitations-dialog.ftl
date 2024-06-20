@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Tällä hetkellä hylätty
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Ei vielä päätetty
+allday-event = Koko päivän tapahtuma
+recurrent-event =
+    .value = Toistuva tapahtuma
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Sijainti: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Järjestäjä: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Osallistuja: { $attendeeProperty }
+calendar-invitations-none = Ei mitään
