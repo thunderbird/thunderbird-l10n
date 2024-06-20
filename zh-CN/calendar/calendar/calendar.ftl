@@ -240,6 +240,96 @@ cal-dav-redirect-title = 更新日历 { $name } 的位置？
 # $name name of calendar
 cal-dav-redirect-text = { $name } 的请求将被重定向至新的位置，您想要将地址更改为下列值吗？
 cal-dav-redirect-disable-calendar = 禁用日历
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = Asia/Chongqing, Asia/Shanghai, Asia/Urumqi, Asia/Hong_Kong, Asia/Macao, Asia/Taipei, Asia/Singapore, Asia/Tokyo, Asia/Seoul, America/Los_Angeles, America/New_York, America/Toronto, Europe/London, Australia/Sydney
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match = 警告：操作系统时区“{ $timezone }”与内部 ZoneInfo 时区“{ $zoneInfoTimezoneId }”不匹配。
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = 忽略操作系统时区“{ $timezone }”。
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = 忽略本地时区“{ $timezone }”。
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    警告：使用“动态”时区。
+    没有匹配操作系统时区数据的 ZoneInfo 时区数据。
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    警告: 使用猜测的时区
+    { $timezone }（UTC{ $offset }）。
+    { $detail1 }
+    { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    此 ZoneInfo 时区比较匹配操作系统的时区。
+    按此规则，下次夏令时与标准时间的转换
+    与操作系统时区转换相差最多可达一周。
+    届时数据可能存在矛盾，例如不同的开始日期、不同的规则，或非标准公历估算规则。
+tz-seems-to-matchos = 此 ZoneInfo 时区与今年操作系统时区似乎是匹配的。
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos = 此 ZoneInfo 时区的选择，基于操作系统时区的标识符“{ $timezone }”。
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale = 此 ZoneInfo 时区的选择，基于操作系统时区和简体中文互联网用户可能时区的匹配。
+tz-from-known-timezones = 此 ZoneInfo 时区的选择，基于操作系统时区和按字母顺序的时区代码中已知时区的匹配。
 # Print Layout
 tasks-with-no-due-date = 未指定完成日期的任务
 # Providers
@@ -367,6 +457,17 @@ single-calendar-week = CW: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = CWs: { $startIndex }-{ $endIndex }
     .title = 日历周 { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = 第 { $number } 周
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
