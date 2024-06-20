@@ -2,12 +2,22 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Default name for new events
+new-event =
+    .placeholder = Νέα εκδήλωση
+# Titles for the event/task dialog
+new-event-dialog = Νέα εκδήλωση
+edit-event-dialog = Επεξεργασία εκδήλωσης
 new-task-dialog = Νέα εργασία
 edit-task-dialog = Επεξεργασία εργασίας
+# Do you want to save changes?
+ask-save-title-event = Αποθήκευση εκδήλωσης
 ask-save-title-task = Αποθήκευση εργασίας
+ask-save-message-event = Η εκδήλωση δεν έχει αποθηκευτεί. Θέλετε να την αποθηκεύσετε;
 ask-save-message-task = Η εργασία δεν έχει αποθηκευτεί. Θέλετε να αποθηκεύσετε την εργασία;
 # Event Dialog Warnings
 warning-end-before-start = Η ημερομηνία λήξης που ορίσατε προηγείται της ημερομηνίας έναρξης
+warning-until-date-before-start = Η ημερομηνία λήξης δεν μπορεί να είναι πριν από την ημερομηνία έναρξης
 # The name of the calendar provided with the application by default
 home-calendar-name = Προσωπικό
 # The name given to a calendar if an opened calendar has an empty filename
@@ -101,12 +111,23 @@ duplicate-error =
     }
 # $location unknown calendar location
 unable-to-create-provider = Παρουσιάστηκε σφάλμα κατά την προετοιμασία για χρήση του ημερολογίου που βρίσκεται στο { $location }. Δεν θα είναι διαθέσιμο.
+# Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
+# $timezone timezone name, $title item title, $datetime date-time
+unknown-timezone-in-item = Άγνωστη ζώνη ώρας «{ $timezone }» στο «{ $title }». Αντιμετωπίζεται ως «ρευστή» τοπική ζώνη ώρας: { $datetime }
 timezone-errors-alert-title = Σφάλματα ζώνης ώρας
 timezone-errors-see-console = Βλ. κονσόλα σφαλμάτων: Οι άγνωστες ζώνες ώρας αντιμετωπίζονται ως «ρευστή» τοπική ζώνη ώρας.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Κατάργηση ημερολογίου
 remove-calendar-button-delete = Διαγραφή ημερολογίου
 remove-calendar-button-unsubscribe = Κατάργηση εγγραφής
+# LOCALIZATION NOTE (remove-calendar-message-delete-or-unsubscribe): Shown for
+# calendar where both deleting and unsubscribing is possible.
+# $name:  The name of a calendar
+remove-calendar-message-delete-or-unsubscribe = Θέλετε να αφαιρέσετε το ημερολόγιο «{ $name }»; Η κατάργηση θα αφαιρέσει το ημερολόγιο από τη λίστα, καθώς και τα δεδομένα του.
+# LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
+# deleting is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-delete = Θέλετε να διαγράψετε οριστικά το ημερολόγιο "{ $name }";
 # LOCALIZATION NOTE (remove-calendar-message-unsubscribe): Shown for calendar
 # where unsubscribing is the only option.
 # $name:  The name of a calendar
@@ -117,6 +138,13 @@ week-title-label =
     .aria-label = Εβδομάδα { $title }
 calendar-none =
     .label = Κανένα
+# Error strings
+# @name UID_NOT_FOUND
+# @loc none
+# LOCALIZATION NOTE (too-new-schema-error-text):
+#    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
+#    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
+too-new-schema-error-text = Τα δεδομένα ημερολογίου σας δεν είναι συμβατά με αυτήν την έκδοση του { $hostApplication }. Τα δεδομένα ημερολογίου στο προφίλ σας ενημερώθηκαν με μια νεότερη έκδοση του { $hostApplication }. Δημιουργήθηκε ένα αντίγραφο ασφαλείας του αρχείου δεδομένων, με όνομα «{ $fileName }». Η διαδικασία θα συνεχίσει με ένα νέο αρχείο δεδομένων.
 # List of events or todos (unifinder)
 event-untitled = Χωρίς τίτλο
 # Tooltips of events or todos
@@ -160,6 +188,10 @@ http-put-error =
 other-put-error =
     Η δημοσίευση του αρχείου ημερολογίου απέτυχε.
     Κωδικός σφάλματος: 0x{ $statusCode }
+# LOCALIZATION NOTE (read-only-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+read-only-mode = Προέκυψε σφάλμα κατά την ανάγνωση δεδομένων για το ημερολόγιο: { $name }. Έχει τεθεί σε λειτουργία μόνο για ανάγνωση, καθώς αλλαγές σε αυτό το ημερολόγιο θα μπορούσαν να οδηγήσουν σε απώλεια δεδομένων. Μπορείτε να αλλάξετε αυτήν τη ρύθμιση επιλέγοντας «Επεξεργασία ημερολογίου».
 # LOCALIZATION NOTE (disabled-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
@@ -208,6 +240,67 @@ cal-dav-redirect-title = Ενημέρωση της τοποθεσίας για �
 # $name name of calendar
 cal-dav-redirect-text = Τα αιτήματα για { $name } ανακατευθύνονται σε μια νέα τοποθεσία. Θα θέλατε να αλλάξετε την τοποθεσία με την ακόλουθη τιμή;
 cal-dav-redirect-disable-calendar = Απενεργοποίηση ημερολογίου
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = Europe/Athens
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Προειδοποίηση: Η ζώνη ώρας «{ $timezone }» του λειτουργικού συστήματος
+    δεν ταιριάζει πλέον με την εσωτερική ζώνη ώρας «{ $zoneInfoTimezoneId }» του ZoneInfo.
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Παράκαμψη ζώνης ώρας λειτουργικού συστήματος «{ $timezone }».
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Παράκαμψη ζώνης ώρας τοπικών ρυθμίσεων «{ $timezone }».
 # Testing note: "No match" timezones include Bucharest on W2k.
 # Brazil timezones may be "No match" (change every year, so often out of date,
 # and changes are often more than a week different).
@@ -267,7 +360,11 @@ multiple-categories = Πολλαπλές κατηγορίες
 calendar-today = Σήμερα
 calendar-tomorrow = Αύριο
 yesterday = Χθες
+# Today pane
+events-only = Εκδηλώσεις
+events-and-tasks = Εκδηλώσεις και εργασίες
 tasks-only = Εργασίες
+short-calendar-week = Εβδ.
 calendar-go = Μετάβαση
 # Some languages have different conjugations of 'next' and 'last'.  If yours
 # does not, simply repeat the value.  This will be used with day names, as in
@@ -341,6 +438,9 @@ error-description = Περιγραφή: { $errorDescription }
 # used for an message like 'An error occurred when writing to the calendar Home!'
 #    $name will be replaced with the name of a calendar
 error-writing2 = Συνέβη ένα σφάλμα κατά την εγγραφή στο ημερολόγιο { $name }! Δείτε παρακάτω για περισσότερες πληροφορίες.
+# LOCALIZATION NOTE (error-writing-details):
+# This will be displayed in the detail section of the error dialog
+error-writing-details = Αν βλέπετε το μήνυμα μετά την αναστολή ή την απόρριψη μιας υπενθύμισης και αυτό είναι ένα ημερολόγιο για το οποίο δεν επιθυμείτε να προσθέτετε ή τροποποιείτε εκδηλώσεις, μπορείτε να το ορίσετε ως ημερολόγιο μόνο για ανάγνωση ώστε να αποφύγετε στο μέλλον παρόμοια εμπειρία. Για να το κάνετε αυτό, μεταβείτε στις ιδιότητες του ημερολογίου με δεξί κλικ στο ημερολόγιο στη λίστα ημερολογίων ή στην προβολή εργασιών.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
@@ -352,6 +452,8 @@ tooltip-calendar-disabled =
 tooltip-calendar-read-only =
     .title = Το ημερολόγιο { $name } είναι μόνο για ανάγνωση
 task-edit-instructions = Κάντε κλικ εδώ για προσθήκη νέας εργασίας
+task-edit-instructions-readonly = Παρακαλώ επιλέξτε ένα εγγράψιμο ημερολόγιο
+task-edit-instructions-capability = Παρακαλώ επιλέξτε ένα ημερολόγιο που να υποστηρίζει εργασίες
 event-details-start-date = Έναρξη:
 event-details-end-date = Λήξη:
 # LOCALIZATION NOTE (datetime-with-timezone):
@@ -363,6 +465,28 @@ datetime-with-timezone = { $datetime }, { $timezone }
 # used for display of calendar weeks in short form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = Ημερολογιακή εβδομάδα: { $index }
+# LOCALIZATION NOTE (single-calendar-week):
+# used for display of calendar weeks in short form like 'CW 43'
+#    $index will be replaced with the index of the week
+single-calendar-week = Εβδ.: { $index }
+    .title = Ημερολογιακή εβδομάδα: { $index }
+# LOCALIZATION NOTE (several-calendar-weeks):
+# used for display of calendar weeks in short form like 'CWs 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-calendar-weeks = Εβδ.: { $startIndex }-{ $endIndex }
+    .title = Ημερολογιακές εβδομάδες: { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = Ε { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
@@ -507,6 +631,9 @@ delete-task =
 delete-item =
     .label = Διαγραφή
     .accesskey = Δ
+delete-event =
+    .label = Διαγραφή εκδήλωσης
+    .accesskey = Δ
 # $count count
 calendar-properties-every-minute =
     .label =
@@ -549,6 +676,26 @@ unit-weeks =
         [one] { $count } εβδομάδα
        *[other] { $count } εβδομάδες
     }
+# LOCALIZATION NOTE (show-calendar)
+# Used in calendar list context menu
+#    $name will be replaced with the calendar name
+# uses the access key calendar.context.togglevisible.accesskey
+# $name calendar name
+show-calendar = Εμφάνιση του «{ $name }»
+# $name calendar name
+hide-calendar = Απόκρυψη του «{ $name }»
+hide-calendar-title =
+    .title = Εμφάνιση του «{ $name }»
+show-calendar-title =
+    .title = Απόκρυψη του «{ $name }»
+show-calendar-label =
+    .label = Εμφάνιση του «{ $name }»
+hide-calendar-label =
+    .label = Απόκρυψη του «{ $name }»
+# uses the access key calendar.context.showonly.accesskey
+# $name calendar name
+show-only-calendar =
+    .label = Εμφάνιση μόνο του «{ $name }»
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Σύγκρουση επεξεργασιών στοιχείου
