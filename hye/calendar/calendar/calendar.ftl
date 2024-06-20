@@ -20,13 +20,24 @@ warning-end-before-start = Ձեր մուտքագրած աւարտի ամսաթի
 warning-until-date-before-start = Ցուցադրել վերջնաժամկետը, մեկնարկի ամսաթուից առաջ
 # The name of the calendar provided with the application by default
 home-calendar-name = Տուն
+# The name given to a calendar if an opened calendar has an empty filename
+untitled-calendar-name = Անանուն աւրացոյց
 # Event status: Tentative, Confirmed, Cancelled
 # ToDo task status: NeedsAction, InProcess, Completed, Cancelled
 status-tentative = Նախնական
+status-confirmed = Հաստատուած
+event-status-cancelled = Չեղարկուած
 todo-status-cancelled = Չեղարկուած
 status-needs-action = Անհրաժեշտ են գործողութիւններ
+status-in-process = Ընթացքում է
+status-completed = Կատարուած է
+# Task priority, these should match the priority.level.* labels in calendar.dtd
+high-priority = Բարձր
+normal-priority = Միջին
+low-priority = Ցածր
 import-prompt = Ո՞ր աւրացոյցում էք ցանկանում աւելացնել տարրերը։
 export-prompt = Ո՞ր աւրացոյցից էք ցանկանում արտածել։
+publish-prompt = Ո՞ր աւրացոյցն էք ուզում հրապարակել։
 # LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
 paste-and-notify-label = Տեղադրել եւ ուղարկել հիմա
