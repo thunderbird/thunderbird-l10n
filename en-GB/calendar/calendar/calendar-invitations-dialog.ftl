@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Currently declined
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Currently undecided
+allday-event = All day event
+recurrent-event =
+    .value = Repeating event
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Location: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organiser: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Attendee: { $attendeeProperty }
+calendar-invitations-none = None
