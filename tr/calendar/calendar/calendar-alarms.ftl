@@ -6,7 +6,9 @@
 # $unit  =  unit, $reminderCustomOrigin  =  reminderCustomOrigin
 # Example: "3 minutes" "before the task starts"
 reminder-custom-title = { $unit } { $reminderCustomOrigin }
+reminder-title-at-start-event = Etkinliğin başladığı an
 reminder-title-at-start-task = Görevin başladığı an
+reminder-title-at-end-event = Etkinliğin bittiği an
 reminder-title-at-end-task = Görevin bittiği an
 # LOCALIZATION NOTE (reminder-snooze-ok-a11y)
 # This string is not seen in the UI, it is read by screen readers when the user
@@ -50,6 +52,11 @@ reminder-error-max-count-reached-task =
         [one] Seçili takvimde görev başına { $count } anımsatıcı sınırı var.
        *[other] Seçili takvimde görev başına { $count } anımsatıcı sınırı var.
     }
+# LOCALIZATION NOTE (reminder-readonly-notification)
+# This notification will be presented in the alarm dialog if reminders for not
+# writable items/calendars are displayed.
+# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+reminder-readonly-notification = Salt okunur takvimler için anımsatıcılar şu anda ertelenemez, yalnızca görmezden gelinebilir: '{ $label }' düğmesi yalnızca yazılabilir takvimlerdeki anımsatıcıları erteler.
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled
 reminder-disabled-snooze-button-tooltip =
