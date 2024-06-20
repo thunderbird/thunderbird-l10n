@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = For tida avvist
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = For tida ubestemt
+allday-event = Heildagshending
+recurrent-event =
+    .value = Repeterande hending
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Plass: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organisator: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Deltakarar: { $attendeeProperty }
+calendar-invitations-none = Ingen
