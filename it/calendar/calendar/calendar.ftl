@@ -403,6 +403,12 @@ alarm-yesterday-at = Ieri alle { $datetime }
 # description set, or an EMAIL alarm that doesn't have a summary set.
 alarm-default-description = Descrizione personalizzata Mozilla
 alarm-default-summary = Sommario predefinito Mozilla
+# $count number of months
+alarm-snooze-limit-exceeded =
+    { $count ->
+        [one] Non è possibile posporre un allarme per più di { $count } mese.
+       *[other] Non è possibile posporre un allarme per più di { $count } mesi.
+    }
 task-details-status-needs-action = Richiede un’azione
 # LOCALIZATION NOTE (task-details-status-in-progress):
 # used for a display of how much of a task is completed ' Complete'
