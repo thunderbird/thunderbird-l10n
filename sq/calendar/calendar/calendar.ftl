@@ -268,6 +268,28 @@ cal-dav-redirect-disable-calendar = Çaktivizoje Kalendarin
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
 likely-timezone = Europe/Tirane, Europe/Pristina, Europe/Skopje, Europe/Athens, Europe/Rome, Europe/Berlin, Europe/Zurich, Europe/London, Europe/Paris, Europe/Podgorica, Europe/Sarajevo, Europe/Vienna, Europe/Zagreb, America/Toronto, America/Montreal, America/Vancouver, America/New_York, America/Chicago, America/Phoenix, America/Los_Angeles
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Kujdes: Zona kohore e sistemit operativ “{ $timezone }”
+    s’përkon më me zonën e brendshme kohore ZoneInfo “{ $zoneInfoTimezoneId }”.
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -279,6 +301,23 @@ skipping-os-timezone = Po anashkalohet zona kohore e Sistemit Operativ '{ $timez
 # Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
 # $timezone likely timezone id
 skipping-locale-timezone = Po anashkalohet zona kohore vendore '{ $timezone }'.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Kujdes: Po përdoret zonë kohore “pezull”.
+    Të dhënat e zonës kohore ZoneInfo s’u përputhën me të dhënat e zonës kohore të sistemit operativ.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Kujdes:  Po përdoret zonë kohore e hamendësuar
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
 # Testing note: "Almost match" timezones include Cairo on W2k.
 tz-almost-matches-os-differ-at-mostaweek =
     Kjo zonë kohore ZoneInfo thuajse përputhet me zonën kohore të sistemit
@@ -294,6 +333,10 @@ tz-seems-to-matchos = Kjo zonë kohore ZoneInfo duket se përputhet me zonën ko
 tz-fromos =
     Kjo zonë kohore ZoneInfo qe zgjedhur bazuar në identifikuesin "{ $timezone }"
     të zonës kohore të sistemit operativ.
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Kjo zonë kohore ZoneInfo qe zgjedhur bazuar në përputhjen e zonës kohore të sistemit
+    operativ me zona kohore kandidate për përdorues interneti që përdorin gjuhën shqipe.
 tz-from-known-timezones =
     Kjo zonë kohore ZoneInfo qe zgjedhur bazuar në përputhjen e zonës kohore të sistemit
     operativ me zona të njohura kohore, sipas rendit alfabetik të id-së së zonës kohore.
@@ -396,6 +439,9 @@ error-description = Përshkrim: { $errorDescription }
 # used for an message like 'An error occurred when writing to the calendar Home!'
 #    $name will be replaced with the name of a calendar
 error-writing2 = Ndodhi një gabim teksa shkruhej te kalendari { $name }! Ju lutemi, për më tepër hollësi, shihni më poshtë.
+# LOCALIZATION NOTE (error-writing-details):
+# This will be displayed in the detail section of the error dialog
+error-writing-details = Nëse e shihni këtë mesazh pasi të keni vënë në dremitje, ose hedhur tej një kujtues dhe kjo ndodh për një kalendar për të cilin s’doni të shtoni apo përpunoni veprimtari, këtij kalendari mund t’i vini shenjë si vetëm për lexim, që të shmangni raste të tillë në të ardhshmen. Për ta bërë këtë, kaloni te vetitë e kalendarit, duke djathtasklikuar mbi këtë kalendar te lista mbi pamje kalendar ose punë.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
@@ -431,6 +477,17 @@ single-calendar-week = JK: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = JKs: { $startIndex }-{ $endIndex }
     .title = Javët Kalendarike { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = J { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
