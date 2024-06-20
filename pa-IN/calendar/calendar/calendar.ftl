@@ -378,6 +378,9 @@ getting-calendar-info-detail =
 # LOCALIZATION NOTE (error-code):
 #    $errorCode will be replaced with the number of an error code
 error-code = Error code: { $errorCode }
+# LOCALIZATION NOTE (error-description):
+#    $errorDescription will be replaced with the description of an error
+error-description = ਬਿਓਰਾ: { $errorDescription }
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
@@ -391,11 +394,44 @@ tooltip-calendar-read-only =
 task-edit-instructions = Click here to add a new task
 task-edit-instructions-readonly = Please select a writable calendar
 task-edit-instructions-capability = Please select a calendar that supports tasks
+event-details-start-date = ਸ਼ੁਰੂਆਤ:
+event-details-end-date = ਖ਼ਤਮ:
 # LOCALIZATION NOTE (datetime-with-timezone):
 # used for a display of a date-time with timezone 'Thu 2 Oct 2008 13:21', Europe/Paris
 #    $datetime will be replaced with the completion date-time
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
+# LOCALIZATION NOTE (single-long-calendar-week):
+# used for display of calendar weeks in short form like 'Calendar Week 43'
+#    $index will be replaced with the index of the week
+single-long-calendar-week = ਕੈਲੰਡਰ ਹਫ਼ਤਾ: { $index }
+# LOCALIZATION NOTE (single-calendar-week):
+# used for display of calendar weeks in short form like 'CW 43'
+#    $index will be replaced with the index of the week
+single-calendar-week = CW: { $index }
+    .title = ਕੈਲੰਡਰ ਹਫ਼ਤਾ: { $index }
+# LOCALIZATION NOTE (several-calendar-weeks):
+# used for display of calendar weeks in short form like 'CWs 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-calendar-weeks = CWs: { $startIndex }-{ $endIndex }
+    .title = ਕੈਲੰਡਰ ਹਫ਼ਤੇ { $startIndex }-{ $endIndex }
+# Task tree, "Due In" column.
+# LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
+# forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
+# $count count
+due-in-days =
+    { $count ->
+        [one] { $count } ਦਿਨ
+       *[other] { $count } ਦਿਨ
+    }
+# $count count
+due-in-hours =
+    { $count ->
+        [one] { $count } ਘੰਟਾ
+       *[other] { $count } ਘੰਟੇ
+    }
+due-in-less-than-one-hour = < 1 ਘੰਟਾ
 # LOCALIZATION NOTE (month-in-year):
 # used for display of Month-dates like 'December 2008'
 #    $month will be replaced with name of the month
