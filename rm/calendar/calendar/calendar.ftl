@@ -35,6 +35,7 @@ status-completed = Cumplettà
 high-priority = Aut
 normal-priority = Normal
 low-priority = Bass
+import-prompt = En tge chalender vuls ti importar quests elements?
 export-prompt = Tgenin chalender vuls ti publitgar?
 paste-prompt = En tge chalender actualmain modifitgabel vuls ti encollar?
 publish-prompt = Tgenin chalender vuls ti publitgar?
@@ -267,6 +268,45 @@ cal-dav-redirect-disable-calendar = Deactivar il chalender
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
 likely-timezone = America/New_York, America/Chicago, America/Denver, America/Phoenix, America/Los_Angeles, America/Anchorage, America/Adak, Pacific/Honolulu, America/Puerto_Rico, America/Halifax, America/Citad_da_Mexico, America/Argentina/Buenos_Aires, America/Sao_Paulo, Europa/Londra, Europa/Paris, Asia/Singapur, Asia/Tokyo, Africa/Lagos, Africa/Johannesburg, Africa/Nairobi, Australia/Brisbane, Australia/Sydney, Pacific/Auckland
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Attenziun: La zona d'urari «{ $timezone }» dal sistem operativ
+    na correspunda betg pli a la zona d'urari interna ZoneInfo «{ $zoneInfoTimezoneId }».
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Ignorar la zona d'urari «{ $timezone }» dal sistem operativ.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = La zona d'urari locala «{ $timezone }» vegn ignorada.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Attenziun: La zona d'urari «flottanta» vegn utilisada.
+    Naginas datas da zona d'urari ZoneInfo na correspundan a las datas da zona d'urari dal sistem operativ.
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
 #    [rfc2445 summer daylight saving shift rules for timezone]
@@ -286,6 +326,19 @@ tz-almost-matches-os-differ-at-mostaweek =
     I po dar sbagls en las datas, p.ex. datas d'entschatta divergentas,
     reglas differentas u approximaziuns a reglas per chalenders betg-gregorians.
 tz-seems-to-matchos = Questa zona d'urari ZoneInfo para da correspunder quest onn a la zona d'urari dal sistem operativ.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    Questa zona d'urari ZoneInfo è vegnida tschernida sin basa da l'identificatur da
+    la zona d'urari «{ $timezone }» dal sistem operativ.
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Questa zona d'urari ZoneInfo è vegnida tschernida cun cumparegliar la zona d'urari dal sistem operativ
+    cun las zonas d'urari frequentas dad utilisaders da l'internet che dovran rumantsch.
+tz-from-known-timezones =
+    Questa zona d'urari ZoneInfo è vegnida tschernida cun cumparegliar la zona d'urari dal sistem operativ
+    cun zonas d'urari enconuschentas, zavradas en urden alfabetic tenor l'identificatur da la zona d'urari.
 # Print Layout
 tasks-with-no-due-date = Incumbensas senza data da scadenza
 # Providers
@@ -423,6 +476,17 @@ single-calendar-week = Emn: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Emns: { $startIndex }-{ $endIndex }
     .title = Emnas { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = Emna { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
