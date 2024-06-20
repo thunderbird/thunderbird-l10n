@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Tuchwilu wotpokazany
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Tuchwilu njerozsudźeny
+allday-event = Cyłodnjowski podawk
+recurrent-event =
+    .value = Wospjetowaćy so podawk
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Městno: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organizator: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Wobdźělnik: { $attendeeProperty }
+calendar-invitations-none = Žadyn
