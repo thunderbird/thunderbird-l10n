@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Ներկայումս մերժուած է
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Ներկայումս անորոշ
+allday-event = Ամբողջ աւրուայ իրադարձութիւն
+recurrent-event =
+    .value = Կրկնուող իրադարձութիւն
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Տեղը՝ { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Կազմակերպիչ՝ { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Մասնակից՝ { $attendeeProperty }
+calendar-invitations-none = Չկայ
