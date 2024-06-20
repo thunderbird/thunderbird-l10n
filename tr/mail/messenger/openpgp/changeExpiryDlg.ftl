@@ -17,3 +17,8 @@ created-label = Oluşturma:
 expire-no-change-label = Son kullanma tarihini değiştirme
 expire-in-time-label = Anahtarın süresi belli bir süre sonra dolsun:
 expire-never-expire-label = Anahtarın süresi asla dolmasın
+partial-label-expired = süresi doldu
+partial-label-never-expires = asla süresi dolmaz
+# Variables:
+# $date (String) - Date the key is expiring on.
+partial-label-expires = son geçerlilik tarihi: { $date }

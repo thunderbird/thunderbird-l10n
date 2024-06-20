@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Yeni adres defteri oluştur
 books-pane-create-list-button =
     .title = Yeni e-posta listesi oluştur
+books-pane-import-button = İçe aktar
+    .title = Adres defterlerini içe aktar
 
 ## Books
 
