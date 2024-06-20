@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Sem stendur hafnað
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Sem stendur óákveðið
+allday-event = Heilsdagsatburður
+recurrent-event =
+    .value = Endurtekinn atburður
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Staðsetning: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Skipuleggjandi: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Þátttakandi: { $attendeeProperty }
+calendar-invitations-none = Enginn
