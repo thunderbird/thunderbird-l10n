@@ -8,3 +8,13 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Έχει απορριφθεί
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Δεν έχει αποφασιστεί ακόμα
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Τοποθεσία: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Διοργανωτής: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Συμμετέχων: { $attendeeProperty }
+calendar-invitations-none = Κανένας
