@@ -54,6 +54,11 @@ reminder-error-max-count-reached-task =
         [few] Wybrany kalendarz ma ograniczenie { $count } przypomnień na zadanie.
        *[many] Wybrany kalendarz ma ograniczenie { $count } przypomnień na zadanie.
     }
+# LOCALIZATION NOTE (reminder-readonly-notification)
+# This notification will be presented in the alarm dialog if reminders for not
+# writable items/calendars are displayed.
+# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+reminder-readonly-notification = Przypomnienia dla kalendarzy tylko do odczytu obecnie nie mogą być odkładane, a tylko odrzucane – przycisk „{ $label }” odłoży przypomnienia tylko dla zapisywalnych kalendarzy.
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled
 reminder-disabled-snooze-button-tooltip =
