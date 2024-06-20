@@ -52,3 +52,12 @@ reminder-error-max-count-reached-task =
         [one] Таңдалған күнтізбенің бір тапсырмаға { $count } еске салу шектеуі бар.
        *[other] Таңдалған күнтізбенің бір тапсырмаға { $count } еске салу шектеуі бар.
     }
+# LOCALIZATION NOTE (reminder-readonly-notification)
+# This notification will be presented in the alarm dialog if reminders for not
+# writable items/calendars are displayed.
+# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+reminder-readonly-notification = Тек оқу үшін қолжетімді күнтізбелер үшін еске салуларды кейінге қалдыру мүмкін емес, оларды тек тайдыруға болады - '{ $label }' батырмасы тек жазу үшін қолжетімді күнтізбелер үшін еске салуларды кейінге қалдырады.
+# LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
+# This tooltip is only displayed, if the button is disabled
+reminder-disabled-snooze-button-tooltip =
+    .tooltiptext = Тек оқу үшін қолжетімді күнтізбелерде еске салуларды кейінге қалдыруға қолдау жоқ
