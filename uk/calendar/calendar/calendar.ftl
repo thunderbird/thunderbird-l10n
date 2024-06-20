@@ -262,10 +262,77 @@ cal-dav-redirect-disable-calendar = Вимкнути календар
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
 likely-timezone = Європа/Київ
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Попередження: часовий пояс«{ $timezone }» операційної системи
+    більше не збігається з часовим поясом «{ $zoneInfoTimezoneId }» ZoneInfo.
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Ігнорується часовий пояс«{ $timezone }» операційної системи.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Ігнорується місцевий часовий пояс «{ $timezone }».
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Попередження: використовується «плавучий» часовий пояс.
+    Відсутні дані часових поясів ZoneInfo, які б відповідали даним часового поясу операційної системи.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Попередження: використовується припущений часовий пояс
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Цей часовий пояс ZoneInfo майже відповідає часовому поясу операційної системи.
+    Для цього правила такі переходи між літнім та зимовим часом
+    відрізнятимуться щонайбільше на тиждень від переходів часового пояса операційної системи.
+    У даних можуть бути розбіжності, такі, як різниця у даті початку,
+    різні правила, або наближення для правила не Григоріанського календаря.
+tz-seems-to-matchos = Ймовірно цей часовий пояс ZoneInfo відповідає системному часовому поясу цього року.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    Цей часовий пояс ZoneInfo обраний на основі ідентифікатора «{ $timezone }»
+    часового пояса операційної системи.
 # Localization note (tz-from-locale): Substitute name of your locale language.
 tz-from-locale =
     Цей часовий пояс ZoneInfo вибраний на основі відповідності часового пояса операційної
     системи зі схожими часовими поясами для інтернет-користувачів, які використовують українську.
+tz-from-known-timezones =
+    Цей часовий пояс ZoneInfo вибраний на основі відповідності часового пояса операційної
+    системи з відомими часовими поясами в абетковому списку ідентифікаторів часових поясів.
 # Print Layout
 tasks-with-no-due-date = Завдання, не обмежені у часі
 # Providers
@@ -402,6 +469,17 @@ single-calendar-week = Тжд: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Тжд: { $startIndex }-{ $endIndex }
     .title = Тижні { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = Т { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
@@ -604,10 +682,16 @@ unit-weeks =
 # uses the access key calendar.context.togglevisible.accesskey
 # $name calendar name
 show-calendar = Показати { $name }
+# $name calendar name
+hide-calendar = Сховати { $name }
 hide-calendar-title =
     .title = Показати { $name }
+show-calendar-title =
+    .title = Сховати { $name }
 show-calendar-label =
     .label = Показати { $name }
+hide-calendar-label =
+    .label = Сховати { $name }
 # uses the access key calendar.context.showonly.accesskey
 # $name calendar name
 show-only-calendar =
