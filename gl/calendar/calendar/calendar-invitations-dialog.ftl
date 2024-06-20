@@ -14,3 +14,10 @@ recurrent-event =
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Localización: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organizador: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Participante: { $attendeeProperty }
+calendar-invitations-none = Ningún
