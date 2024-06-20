@@ -10,6 +10,12 @@ reminder-title-at-start-event = Momento en que comeza o evento
 reminder-title-at-start-task = Momento en que comeza a tarefa
 reminder-title-at-end-event = Momento no que remata o evento
 reminder-title-at-end-task = Momento no que remata a tarefa
+# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
+# This string is not seen in the UI, it is read by screen readers when the user
+# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
+# $unit  =  any of unit*
+reminder-snooze-ok-a11y =
+    .aria-label = Aprazar o recordatorio durante { $unit }
 reminder-custom-origin-begin-before-event = antes de que comece o evento
 reminder-custom-origin-begin-after-event = despois de que comece o evento
 reminder-custom-origin-end-before-event = antes de que remate o evento
@@ -46,3 +52,12 @@ reminder-error-max-count-reached-task =
         [one] O calendario seleccionado ten unha limitación de { $count } recordatorio por tarefa.
        *[other] O calendario seleccionado ten unha limitación de { $count } recordatorios por tarefa.
     }
+# LOCALIZATION NOTE (reminder-readonly-notification)
+# This notification will be presented in the alarm dialog if reminders for not
+# writable items/calendars are displayed.
+# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+reminder-readonly-notification = Actualmente, os recordatorios nos calendarios de só lectura non poden ser aprazados senón desbotados, o botón «{ $label }» aprazará os recordatorios unicamente dos calendarios modificábeis.
+# LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
+# This tooltip is only displayed, if the button is disabled
+reminder-disabled-snooze-button-tooltip =
+    .tooltiptext = No se permite aprazar un recordatorio nos calendarios de só lectura
