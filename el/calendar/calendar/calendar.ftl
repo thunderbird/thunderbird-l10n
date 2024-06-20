@@ -357,6 +357,7 @@ html-task-completed = { $task } (ολοκληρωμένη)
 # Categories
 add-category = Προσθήκη κατηγορίας
 multiple-categories = Πολλαπλές κατηγορίες
+no-categories = Καμία
 calendar-today = Σήμερα
 calendar-tomorrow = Αύριο
 yesterday = Χθες
