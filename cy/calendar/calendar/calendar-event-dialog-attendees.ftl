@@ -4,6 +4,8 @@
 
 event-attendee-role-required =
     .title = Mynychwr Angenrheidiol
+event-attendee-role-optional =
+    .title = Mynychwr Dewisol
 event-attendee-role-nonparticipant =
     .title = Nid Cyfrannogwr
 event-attendee-role-chair =
