@@ -192,6 +192,39 @@ cal-dav-redirect-title = Aggiornare la posizione per il calendario { $name }?
 # $name name of calendar
 cal-dav-redirect-text = Le richieste per { $name } vengono dirottate verso una nuova posizione. Cambiare la posizione coi valori seguenti?
 cal-dav-redirect-disable-calendar = Disattiva calendario
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Attenzione: il fuso orario “{ $timezone }” del sistema operativo
+    non corrisponde più al fuso orario ZoneInfo interno “{ $zoneInfoTimezoneId }”.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Attenzione: si sta utilizzando il fuso orario presunto
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
 # Testing note: "Almost match" timezones include Cairo on W2k.
 tz-almost-matches-os-differ-at-mostaweek =
     Questo fuso orario ZoneInfo corrisponde quasi al fuso orario del sistema operativo.
@@ -199,6 +232,13 @@ tz-almost-matches-os-differ-at-mostaweek =
     differiranno al massimo di una settimana dalle transizioni del fuso orario del sistema operativo.
     Potrebbero esserci discrepanze nella data, come una differente data di inizio,
     o regole differenti, o approssimazioni per le regole di calendari non gregoriani.
+tz-seems-to-matchos = Questo fuso orario ZoneInfo sembra corrispondere al fuso orario del sistema operativo per quest’anno.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    Questo fuso orario ZoneInfo è stato scelto in base alla corrispondenza col fuso orario del sistema operativo
+    con identificativo “{ $timezone }”.
 tz-from-known-timezones =
     Questo fuso orario ZoneInfo è stato scelto in base alla corrispondenza col fuso orario
     del sistema operativo con fusi orari conosciuti in ordine o alfabetico o di id.
