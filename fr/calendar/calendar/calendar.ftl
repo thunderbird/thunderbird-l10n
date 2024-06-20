@@ -332,6 +332,11 @@ tz-seems-to-matchos = Ce fuseau horaire ZoneInfo semble correspondre au fuseau h
 tz-fromos =
     Ce fuseau horaire ZoneInfo a été choisi selon l’identifiant du
     fuseau horaire du système « { $timezone } ».
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Ce fuseau horaire ZoneInfo a été choisi sur la base d’une correspondance entre
+    le fuseau horaire du système et ceux où se trouvent la plupart
+    des internautes francophones.
 tz-from-known-timezones =
     Ce fuseau horaire ZoneInfo a été choisi sur la base d’une correspondance
     entre le fuseau horaire du système et des fuseaux horaires
