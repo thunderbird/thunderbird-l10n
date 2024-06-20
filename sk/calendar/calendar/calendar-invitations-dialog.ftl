@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Aktuálne odmietnutá
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Aktuálne bez rozhodnutia
+allday-event = Celodenná udalosť
+recurrent-event =
+    .value = Opakovaná udalosť
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Adresa: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organizátor: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Účastník: { $attendeeProperty }
+calendar-invitations-none = Žiadny
