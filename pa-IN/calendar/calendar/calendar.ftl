@@ -2,6 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Default name for new events
+new-event =
+    .placeholder = ਨਵਾਂ ਈਵੈਂਟ
+# Titles for the event/task dialog
+new-event-dialog = ਨਵਾਂ ਈਵੈਂਟ
+edit-event-dialog = ਈਵੈਂਟ ਸੋਧੋ
+new-task-dialog = ਨਵਾਂ ਟਾਸਕ
+edit-task-dialog = ਟਾਸਕ ਸੋਧੋ
+# Do you want to save changes?
+ask-save-title-event = ਈਵੈਂਟ ਸੰਭਾਲੋ
+ask-save-title-task = ਟਾਸਕ ਸੰਭਾਲੋ
 ask-save-message-event = ਸਮਾਗਮ ਨੂੰ ਸੰਭਾਲਿਆ ਨਹੀਂ ਗਿਆ ਹੈ। ਕੀ ਤੁਸੀਂ ਸਮਾਗਮ ਨੂੰ ਸੰਭਾਲਣਾ ਚਾਹੋਗੇ?
 ask-save-message-task = ਕਾਰਜ ਨੂੰ ਸੰਭਾਲਿਆ ਨਹੀਂ ਗਿਆ ਹੈ। ਕੀ ਤੁਸੀਂ ਕਾਰਜ ਨੂੰ ਸੰਭਾਲਣਾ ਚਾਹੋਗੇ?
 # Event Dialog Warnings
@@ -76,10 +87,13 @@ paste-dont-notify-label = ਬਿਨਾਂ ਭੇਜੇ ਪੇਸਟ ਕਰੋ
 #    $count will be replaced with number of failed items
 #    $error will be replaced with last error code / error string
 import-items-failed = { $count } items failed to import. The last error was: { $error }
+# spaces needed at the end of the following lines
+event-description = ਵਰਣਨ:
 unable-to-read = Unable to read from file:
 # $filePath
 unable-to-write = Unable to write to file: { $filePath }
 default-file-name = MozillaCalEvents
+html-title = Mozilla ਕੈਲੰਡਰ
 # LOCALIZATION NOTE (timezone-error):
 # used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
 #    $filePath will be replaced with the path to a file
@@ -174,6 +188,8 @@ calendar-conflicts-dialog =
     .buttonlabelcancel = Discard my changes and reload
 proceed-modify =
     .label = Submit my changes anyway
+proceed-delete =
+    .label = ਕਿਵੇਂ ਵੀ ਹਟਾਓ
 # $name calendar name
 dav-not-dav = The resource at { $name } is either not a DAV collection or not available
 # $name calendar name
@@ -492,6 +508,12 @@ datetime-interval-task-without-start-date = due date { $date } { $time }
 # entry date OR due date
 drag-label-tasks-with-only-entry-date = Starting time
 drag-label-tasks-with-only-due-date = Due at
+delete-task =
+    .label = ਟਾਸਕ ਹਟਾਓ
+    .accesskey = l
+delete-item =
+    .label = ਹਟਾਓ
+    .accesskey = l
 delete-event =
     .label = Delete Event
     .accesskey = l
@@ -502,3 +524,32 @@ calendar-properties-every-minute =
             [one] Every minute
            *[other] Every { $count } minutes
         }
+# LOCALIZATION NOTE (extract-using)
+# Used in message header
+#    $languageName will be replaced with language name from languageNames.properties
+extract-using = { $languageName } ਦੀ ਵਰਤੋਂ
+# LOCALIZATION NOTE (extract-using-region)
+# Used in message header
+#    $languageName will be replaced with language name from languageNames.properties
+#    $region will be replaced with region like US in en-US
+extract-using-region = { $languageName } ({ $region }) ਦੀ ਵਰਤੋਂ
+# LOCALIZATION NOTE (unit)
+# Used to determine the correct plural form of a unit
+# $count count
+unit-minutes =
+    { $count ->
+        [one] { $count } ਮਿੰਟ
+       *[other] { $count } ਮਿੰਟ
+    }
+# $count count
+unit-hours =
+    { $count ->
+        [one] { $count } ਘੰਟਾ
+       *[other] { $count } ਘੰਟੇ
+    }
+# $count count
+unit-days =
+    { $count ->
+        [one] { $count } ਦਿਨ
+       *[other] { $count } ਦਿਨ
+    }
