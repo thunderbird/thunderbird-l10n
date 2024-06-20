@@ -193,6 +193,34 @@ cal-dav-redirect-title = { $name } takviminin konumu güncellensin mi?
 # $name name of calendar
 cal-dav-redirect-text = { $name } ile ilgili istekler yeni bir konuma yönlendiriliyor. Konumu aşağıdaki gibi değiştirmek ister misiniz?
 cal-dav-redirect-disable-calendar = Takvimi devre dışı bırak
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = Europe/Istanbul
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -339,6 +367,7 @@ tooltip-calendar-disabled =
 #    $name will be replaced with the name of a calendar
 tooltip-calendar-read-only =
     .title = { $name } takvimi salt okunur
+task-edit-instructions = Yeni görev ekle
 task-edit-instructions-readonly = Lütfen yazılabilir bir takvim seçin
 task-edit-instructions-capability = Lütfen görevleri destekleyen bir takvim seçin
 event-details-start-date = Başlangıç:
@@ -558,10 +587,23 @@ unit-weeks =
 # uses the access key calendar.context.togglevisible.accesskey
 # $name calendar name
 show-calendar = { $name } takvimini göster
+# $name calendar name
+hide-calendar = { $name } takvimini gizle
 hide-calendar-title =
     .title = { $name } takvimini göster
+show-calendar-title =
+    .title = { $name } takvimini gizle
 show-calendar-label =
     .label = { $name } takvimini göster
+hide-calendar-label =
+    .label = { $name } takvimini gizle
+# uses the access key calendar.context.showonly.accesskey
+# $name calendar name
+show-only-calendar =
+    .label = Yalnız { $name } takvimini göster
+# LOCALIZATION NOTE (modify-conflict-*)
+# Used by the event dialog to resolve item modification conflicts.
+modify-conflict-prompt-title = Kayıt Düzenleme Çakışması
 modify-conflict-prompt-message = Pencerede düzenlenen öğe açıldıktan sonra değiştirilmiş.
 modify-conflict-prompt-button1 = Diğer değişikliklerin üzerine yaz
 modify-conflict-prompt-button2 = Bu değişiklikleri göz ardı et
