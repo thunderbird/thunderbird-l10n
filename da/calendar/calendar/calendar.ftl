@@ -268,6 +268,28 @@ cal-dav-redirect-disable-calendar = Deaktiver kalender
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
 likely-timezone = Europe/Copenhagen
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Advarsel: Styresystemets tidszone "{ $timezone }"
+    svarer ikke længere til ZoneInfos tidszone "{ $zoneInfoTimezoneId }".
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -296,6 +318,27 @@ warning-using-guessedtz =
     { $timezone } (UTC{ $offset }).
     { $detail1 }
     { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Denne tidszone fra ZoneInfo svarer næsten til styresystemets tidszone.
+    Tidszonens skift mellem sommertid og standardtid afviger
+    maksimalt en uge fra styresystemets tidszoneangivelser.
+    Der kan være forskel i dataene, fx forskellig startdato,
+    forskellige regler eller små forskelle for ikke-gregorianske regler.
+tz-seems-to-matchos = Denne tidszone fra ZoneInfo svarer tilsyneladende til styresystemets tidszone for dette år.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    Denne tidszone fra ZoneInfo blev valgt baseret på styresystemets tidszone-
+    oplysninger "{ $timezone }".
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Denne tidszone fra ZoneInfo blev valgt baseret på overensstemmelse mellem styresystemets
+    tidszone og sandsynlige tidszoner for internetbrugere, er benytter US English som sprog.
+tz-from-known-timezones =
+    Denne tidszone fra ZoneInfo blev valgt baseret på overensstemmelse mellem styresystemets
+    tidszone og den alfabetiske orden i tidszone-id'er.
 # Print Layout
 tasks-with-no-due-date = Opgaver uden sluttid
 # Providers
@@ -433,6 +476,17 @@ single-calendar-week = Uge: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = Uger { $startIndex }-{ $endIndex }
     .title = Kalenderuger { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = U { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
