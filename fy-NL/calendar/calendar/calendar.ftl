@@ -15,6 +15,8 @@ ask-save-title-event = Barren bewarje
 ask-save-title-task = Taak bewarje
 ask-save-message-event = Barren is net bewarre. Wolle jo it barren bewarje?
 ask-save-message-task = Taak is net bewarre. Wolle jo de taak bewarje?
+# Event Dialog Warnings
+warning-end-before-start = De eindatum dy’t jo ynfierd hawwe leit foar de startdatum
 warning-until-date-before-start = De oant-datum leit foar de startdatum
 # The name of the calendar provided with the application by default
 home-calendar-name = Algemien
@@ -107,6 +109,8 @@ duplicate-error =
         [one] { $count } item(s) negearre omdat se sawol yn de doelaginda as yn { $filePath } bestean.
        *[other] { $count } item(s) negearre omdat se sawol yn de doelaginda as yn { $filePath } bestean.
     }
+# $location unknown calendar location
+unable-to-create-provider = Der is in flater bard by de tarieding fan it gebrûk fan de aginda dy’t sich ophâld op { $location }. Dizze sil net beskikber wêze.
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
 unknown-timezone-in-item = Unbekende tiidsône ‘{ $timezone }’ yn ‘{ $title }’.  Behannele as 'sweefjende' lokale tiidsône yn stee fan: { $datetime }
@@ -184,6 +188,10 @@ http-put-error =
 other-put-error =
     Publisearjen fan it agindabestân is mislearre.
     Steatkoade: 0x{ $statusCode }
+# LOCALIZATION NOTE (read-only-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+read-only-mode = Der is in flater bard by it lêzen fan gegevens foar aginda: { $name }. Dizze is yn allinnich-lêzenmodus pleatst, omdat wiziging oars wierskynlik ferlern gean sille. Jo kinne dizze ynstelling wizigje troch ‘Aginda bewurkje’ te kiezen.
 # LOCALIZATION NOTE (disabled-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
@@ -232,6 +240,34 @@ cal-dav-redirect-title = Lokaasje foar aginda { $name } bywurkje?
 # $name name of calendar
 cal-dav-redirect-text = De oanfragen foar { $name } wurde omlaad nei in nije lokaasje. Wolle jo de lokaasje wizigje nei de folgjende wearde?
 cal-dav-redirect-disable-calendar = Aginda útskeakelje
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = Europa/Amsterdam
 # Guessed Timezone errors and warnings.
 # Testing note:
 # * remove preference for calendar.timezone.default in userprofile/prefs.js
@@ -265,6 +301,13 @@ skipping-os-timezone = Tiidsône ‘{ $timezone }’ fan bestjoeringssysteem wur
 # Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
 # $timezone likely timezone id
 skipping-locale-timezone = Lokale tiidsône ‘{ $timezone }’ wurdt negearre.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Warskôging: ‘sweefjende’ tiidsône wurdt brûkt.
+    Gjin ZoneInfo-tiidsônegegevens fûn dy’t oerienkomme mei de
+    tiidsônegegevens fan it bestjoeringssysteem.
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
 #    [rfc2445 summer daylight saving shift rules for timezone]
@@ -291,6 +334,11 @@ tz-seems-to-matchos = Dizze ZoneInfo-tiidsône liket dit jier oerien te kommen m
 tz-fromos =
     Dizze ZoneInfo-tiidsône wie keazen op basis fan de tiidsônefariabele
     ‘{ $timezone }’ fan it bestjoeringssysteem.
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Dizze ZoneInfo-tiidsône wie keazen op basis fan de oerienkomst tusken
+    tiidsône fan it bestjoeringssysteem en wierskynlike tiidsônen foar
+    ynternetbrûkers dy’t Frysk brûke.
 tz-from-known-timezones =
     Dizze ZoneInfo-tiidsône wie keazen op basis fan de oerienkomst tusken
     tiidsône fan it bestjoeringssysteem en bekende tiidsônen yn alfabetyske
@@ -408,6 +456,8 @@ tooltip-calendar-disabled =
 tooltip-calendar-read-only =
     .title = De aginda { $name } is allinnich-lêze
 task-edit-instructions = Klik hjir om in nije taak ta te foegjen
+task-edit-instructions-readonly = Selektearje in aginda dy’t skriuwber is
+task-edit-instructions-capability = Selektearje in aginda dy’t taken stipet
 event-details-start-date = Begjin:
 event-details-end-date = Ein:
 # LOCALIZATION NOTE (datetime-with-timezone):
@@ -430,6 +480,17 @@ single-calendar-week = KW: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = KW: { $startIndex }-{ $endIndex }
     .title = Kalinderwiken { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = W { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
