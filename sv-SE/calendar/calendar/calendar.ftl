@@ -240,6 +240,105 @@ cal-dav-redirect-title = Uppdatera plats för kalender { $name }?
 # $name name of calendar
 cal-dav-redirect-text = Begäran för { $name } omdirigeras till en ny plats. Vill du ändra platsen till följande värde?
 cal-dav-redirect-disable-calendar = Inaktivera kalender
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = America/New_York, America/Chicago, America/Denver, America/Phoenix, America/Los_Angeles, America/Anchorage, America/Adak, Pacific/Honolulu, America/Puerto_Rico, America/Halifax, America/Mexico_City, America/Argentina/Buenos_Aires, Amerika/Sao_Paulo, Europa/London, Europa/Paris, Asien/Singapore, Asien/Tokyo, Afrika/Lagos, Afrika/Johannesburg, Afrika/Nairobi, Australien/Brisbane, Australien/Sydney, Stilla havet/Auckland
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Varning: Operativsystemets tidszon "{ $timezone }"
+    matchar inte längre den interna ZoneInfo-tidszonen "{ $zoneInfoTimezoneId }".
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Hoppa över operativsystemets tidszon '{ $timezone }'.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Hoppar över lokal tidszon '{ $timezone }'.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Varning: Använder "flytande" tidszon.
+    Inga ZoneInfo-tidszondata matchade operativsystemets tidszondata.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Varning: Använder estimerad tidszon
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Denna ZoneInfo-tidzon matchar nästan operativsystemets tidszon.
+    Vid nästa övergång mellan sommartid och standardtid kommer det att
+    skilja upp till en vecka jämfört mot operativsystemets tidszon.
+    Detta kan orsaka avvikelser i data såsom skillnader i startdatum,
+    avvikande regler eller approximering av regler för icke-gregoriansk kalender.
+tz-seems-to-matchos = Denna ZoneInfo-tidszon verkar matcha operativsystemets tidszon detta år.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    Denna ZoneInfo-tidszon valdes baserat på operativsystemets tidszon
+    identifierare "{ $timezone }".
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Denna ZoneInfo-tidszon valdes baserat på att matcha operativsystemets
+    tidszon med troliga tidszoner för internetanvändare som använder amerikansk engelska.
+tz-from-known-timezones =
+    Denna ZoneInfo-tidszon valdes baserat på att matcha operativsystemets
+    tidszon med kända tidszoner i alfabetisk ordning efter tidszons-id.
 # Print Layout
 tasks-with-no-due-date = Uppgifter utan slutdatum
 # Providers
@@ -352,6 +451,7 @@ tooltip-calendar-disabled =
 #    $name will be replaced with the name of a calendar
 tooltip-calendar-read-only =
     .title = Kalender { $name } är skrivskyddad
+task-edit-instructions = Klicka här för att lägga till en ny uppgift
 task-edit-instructions-readonly = Vänligen välj en skrivbar kalender
 task-edit-instructions-capability = Vänligen välj en kalender som stödjer uppgifter
 event-details-start-date = Start:
