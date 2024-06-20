@@ -115,6 +115,7 @@ unable-to-create-provider = შეცდომა კალენდრის �
 # $timezone timezone name, $title item title, $datetime date-time
 unknown-timezone-in-item = უცნობი დროის სარტყელი "{ $timezone }", "{ $title }"-ში.  განიხილება, როგორც 'მცურავი' ადგილობრივი დროის სარტყელი: { $datetime }
 timezone-errors-alert-title = დროის სარტყელთან დაკავშირებული შეცდომები
+timezone-errors-see-console = იხილეთ შეცდომების გამომტანი: უცნობი დროის სარტყლები განიხილება, როგორც 'მცურავი' ადგილობრივი სარტყელი.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = კალენდრის მოცილება…
 remove-calendar-button-delete = კალენდრის წაშლა…
@@ -267,6 +268,45 @@ cal-dav-redirect-disable-calendar = კალენდრის ამორთ�
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
 likely-timezone = Asia/Tbilisi
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    გაფრთხილება: საოპერაციო სისტემის დროის სარტყელი „{ $timezone }“
+    აღარ ემთხვევა შიდა ZoneInfo-სარტყელს „{ $zoneInfoTimezoneId }“.
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = საოპერაციო სისტემის დროის სარტყლის უგულებელყოფა – „{ $timezone }“.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = ადგილობრივი დროის სარტყლის უგულებელყოფა – „{ $timezone }“.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    გაფრთხილება: გამოიყენება „მცურავი“ დროის სარტყელი.
+    საოპერაციო სისტემის დროის სარტყლის მონაცემები ZoneInfo-ს მონაცემებს არ ემთხვევა.
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
 #    [rfc2445 summer daylight saving shift rules for timezone]
@@ -278,6 +318,27 @@ warning-using-guessedtz =
     { $timezone } (UTC{ $offset }).
     { $detail1 }
     { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    ეს ZoneInfo-სარტყელი თითქმის ემთხვევა საოპერაციო სისტემისას.
+    ამ წესის მიხედვით, ზაფხულის დროზე შემდეგი გადასვლის თარიღი არაუმეტეს
+    ერთი კვირით განსხვავდება საოპერაციო სისტემაში გათვალისწინებული გადასვლის დროისგან.
+    შესაძლოა, მონაცემები წინააღმდეგობრიობას შეიცავდეს, მაგალითად, განსხვავებას დაწყების თარიღებს შორის
+    ან გამოთვლებს არაგრიგორიანული კალენდრებისთვის.
+tz-seems-to-matchos = როგორც ჩანს, ეს ZoneInfo-სარტყელი ემთხვევა საოპერაციო სისტემის დროის სარტყელს ამ წელიწადს.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    ეს ZoneInfo-სარტყელი შეირჩა საოპერაციო სისტემის დროის სარტყლის
+    ამოსაცნობი ნომრის მიხედვით – „{ $timezone }“.
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    ეს ZoneInfo=სარტყელი შეირჩა საოპერაციო სისტემის იმ დროის სარტყლის
+    მიხედვით, რომელსაც უმეტესად იყენებენ ქართულენოვანი მომხმარებლები.
+tz-from-known-timezones =
+    ეს ZoneInfo-სარტყელი შეირჩა საოპერაციო სისტემის დროის სარტყლის
+    შესაბამისად, ანბანურად დალაგებული, ცნობილი დროის სარტყლის მონაცემებზე დაყრდნობით.
 # Print Layout
 tasks-with-no-due-date = უვადო დავალებები
 # Providers
@@ -373,6 +434,10 @@ error-code = Error code: { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = აღწერილობა: { $errorDescription }
+# LOCALIZATION NOTE (error-writing):
+# used for an message like 'An error occurred when writing to the calendar Home!'
+#    $name will be replaced with the name of a calendar
+error-writing2 = შეცდომა, { $name } კალენდარში ჩაწერისას! ვრცლად შეგიძლიათ იხილოთ ქვემოთ.
 # LOCALIZATION NOTE (error-writing-details):
 # This will be displayed in the detail section of the error dialog
 error-writing-details = თუ ამ შეტყობინებას ნახავთ შეხსენების გადადების, ან გამოტოვების შემდეგ იმ კალენდარზე, რომელზეც არ გსურთ ღონისძიებების დამატება, ან ჩასწორება, შეგიძლიათ კალენდარი გადაიყვანოთ მხოლოდ წასაკითხ რეჟიმში. ამისთვის, გადადით პარამეტრებში, კალენდარზე მარჯვენა წკაპით, ან დავალების ხედიდან.
@@ -411,6 +476,17 @@ single-calendar-week = კკ: { $index }
 #    $endIndex will be replaced with the index of the end-week
 several-calendar-weeks = კკ: { $startIndex }-{ $endIndex }
     .title = კალენდარული კვირები { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = { $number } კვ
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
