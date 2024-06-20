@@ -486,3 +486,17 @@ apply-current-view-to-folder-message = Применити приказ трен�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Применити тренутни приказ фасцикле на { $name } и потомке?
+message-list-placeholder-no-messages = Нема пронађених порука
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Означи фасциклу као прочитану
+            [few] Означи фасцикле као прочитане
+           *[other] Означи фасцикли као прочитане
+        }
+    .accesskey = ф
