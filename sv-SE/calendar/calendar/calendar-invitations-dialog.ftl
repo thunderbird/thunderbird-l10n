@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = För närvarande avböjd
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = För närvarande obestämd
+allday-event = Heldagshändelse
+recurrent-event =
+    .value = Återkommande händelse
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Plats: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Organisatör: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Deltagare: { $attendeeProperty }
+calendar-invitations-none = Ingen
