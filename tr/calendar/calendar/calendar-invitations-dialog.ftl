@@ -8,3 +8,16 @@ calendar-invitation-current-participation-status-icon-declined =
     .alt = Şimdilik reddedildi
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Şimdilik kararsız
+allday-event = Tam günlük etkinlik
+recurrent-event =
+    .value = Tekrarlanan etkinlik
+# $locationProperty is the location of the event
+calendar-invitations-location =
+    .value = Konum: { $locationProperty }
+# $organizerProperty is the organizer of the event
+organizer =
+    .value = Düzenleyen: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Katılımcı: { $attendeeProperty }
+calendar-invitations-none = Hiçbiri
