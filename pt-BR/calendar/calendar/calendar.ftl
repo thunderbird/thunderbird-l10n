@@ -13,6 +13,8 @@ edit-task-dialog = Editar tarefa
 # Do you want to save changes?
 ask-save-title-event = Salvar evento
 ask-save-title-task = Salvar tarefa
+ask-save-message-event = O evento não foi salvo. Quer salvar agora?
+ask-save-message-task = A tarefa não foi salva. Quer salvar agora?
 # Event Dialog Warnings
 warning-end-before-start = A data de término que você digitou ocorre antes da data de início
 warning-until-date-before-start = A data de término ocorre antes da data de início
@@ -71,6 +73,10 @@ paste-tasks-only = Você fixou tarefas atribuídas
 # LOCALIZATION NOTE (paste-events-only): The users is pasting assigned task(s) and
 # meeting(s) - this is used as a affix in paste-notify-about
 paste-items-only = Você fixou reuniões e tarefas atribuídas
+# LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
+# or assigned task
+# $pasteItem - pasteEvent* or pasteTask*
+paste-notify-about = { $pasteItem } - quer enviar uma atualização para todos os envolvidos?
 # LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
 paste-and-notify-label = Colar e enviar agora
@@ -114,10 +120,24 @@ timezone-errors-see-console = Veja console de erros: fusos desconhecidos tratado
 remove-calendar-title = Remover agenda
 remove-calendar-button-delete = Excluir agenda
 remove-calendar-button-unsubscribe = Cancelar inscrição
+# LOCALIZATION NOTE (remove-calendar-message-delete-or-unsubscribe): Shown for
+# calendar where both deleting and unsubscribing is possible.
+# $name:  The name of a calendar
+remove-calendar-message-delete-or-unsubscribe = Quer remover a agenda "{ $name }"? Cancelando a inscrição, a agenda será removida da lista. Se excluir, seus dados são apagados permanentemente.
+# LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
+# deleting is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-delete = Quer excluir permanentemente a agenda "{ $name }"?
+# LOCALIZATION NOTE (remove-calendar-message-unsubscribe): Shown for calendar
+# where unsubscribing is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-unsubscribe = Quer cancelar a inscrição na agenda "{ $name }"?
 # $title title
 week-title = Semana { $title }
 week-title-label =
     .aria-label = Semana { $title }
+calendar-none =
+    .label = Nenhum
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -248,6 +268,77 @@ cal-dav-redirect-disable-calendar = Desativar agenda
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
 likely-timezone = America/Sao_Paulo, America/Manaus, America/Rio_Branco, America/Noronha
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Aviso: O fuso horário do sistema operacional "{ $timezone }"
+    não corresponde mais ao fuso horário interno "{ $zoneInfoTimezoneId }" do ZoneInfo.
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Ignorando o fuso horário '{ $timezone }' do sistema operacional.
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Ignorando o fuso horário local '{ $timezone }'.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Aviso: Usando fuso horário "flutuante".
+    Nenhum dado de fuso horário do ZoneInfo corresponde ao do sistema operacional.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Aviso: Usando fuso horário estimado
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Este fuso horário do ZoneInfo quase corresponde ao do sistema operacional.
+    Nesta regra, as próximas transições entre horário normal e de verão
+    diferem no máximo uma semana das transições de fuso horário do sistema operacional.
+    Pode haver discrepâncias nos dados, como data inicial diferente,
+    regra diferente, ou aproximação em regra de calendário não gregoriano.
+tz-seems-to-matchos = Este fuso horário do ZoneInfo parece corresponder ao do sistema operacional neste ano.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos =
+    Este fuso horário do ZoneInfo foi selecionado com base no identificador
+    "{ $timezone }" do fuso horário do sistema operacional.
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Este fuso horário do ZoneInfo foi selecionado com base na correspondência do fuso do sistema operacional
+    com fusos horários prováveis de usuários de internet que usam português do Brasil.
+tz-from-known-timezones =
+    Este fuso horário do ZoneInfo foi selecionado com base na correspondência do
+    fuso horário do sistema operacional com os fusos horários conhecidos em ordem alfabética de identificador de fuso horário.
 # Print Layout
 tasks-with-no-due-date = Tarefas sem data de vencimento
 # Providers
@@ -347,6 +438,9 @@ error-description = Descrição: { $errorDescription }
 # used for an message like 'An error occurred when writing to the calendar Home!'
 #    $name will be replaced with the name of a calendar
 error-writing2 = Ocorreu um erro ao escrever na agenda { $name }! Veja mais informações abaixo.
+# LOCALIZATION NOTE (error-writing-details):
+# This will be displayed in the detail section of the error dialog
+error-writing-details = Se está vendo esta mensagem após silenciar ou dispensar um lembrete de uma agenda em que você não quer adicionar ou editar eventos, pode marcar a agenda como somente-leitura para evitar que a mensagem volte a aparecer. Para fazer isso, acesse as propriedades da agenda clicando com o botão direito na agenda na lista, na exibição de agenda ou de tarefas.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
@@ -376,6 +470,23 @@ single-long-calendar-week = Semana: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = Sem: { $index }
     .title = Semana: { $index }
+# LOCALIZATION NOTE (several-calendar-weeks):
+# used for display of calendar weeks in short form like 'CWs 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-calendar-weeks = Semanas: { $startIndex }-{ $endIndex }
+    .title = Semanas { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = sem. { $number }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
