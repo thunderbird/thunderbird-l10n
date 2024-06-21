@@ -106,8 +106,8 @@ timezone-error = Во время чтения { $filePath } был найден 
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] Несколько ({ $count }) элементов были пропущены, так как они существуют и в { $filePath } и в календаре, в который был произведён импорт.
-       *[other] Несколько ({ $count }) элементов были пропущены, так как они существуют и в { $filePath } и в календаре, в который был произведён импорт.
+        [one] { $count } элемент был пропущен, так как он существует и в { $filePath } и в календаре, в который был произведён импорт.
+       *[other] { $count } элементов были пропущены, так как они существуют и в { $filePath }, и в календаре, в который был произведён импорт.
     }
 # $location unknown calendar location
 unable-to-create-provider = Произошла ошибка при подготовке к использованию календаря расположенного в { $location }. Календарь будет недоступен.
@@ -357,6 +357,7 @@ html-task-completed = { $task } (завершено)
 # Categories
 add-category = Добавить категорию
 multiple-categories = Множественные категории
+no-categories = Нет
 calendar-today = Сегодня
 calendar-tomorrow = Завтра
 yesterday = Вчера
