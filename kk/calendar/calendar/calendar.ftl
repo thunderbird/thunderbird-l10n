@@ -360,6 +360,7 @@ html-task-completed = { $task } (аяқталған)
 # Categories
 add-category = Санатты қосу
 multiple-categories = Бірнеше санаттар
+no-categories = Ешнәрсе
 calendar-today = Бүгін
 calendar-tomorrow = Ертең
 yesterday = Кеше
