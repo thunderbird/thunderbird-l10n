@@ -30,15 +30,22 @@ account-hub-chat-setup-button = Chatt
     .title = Set opp ein chattekonto
 account-hub-newsgroup-setup-button = Nyheitsgruppe
     .title = Set opp ein nyheitsgruppekonto
+account-hub-import-setup-button = Importer
+    .title = Importer ei sikkerheitskopiert fil
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Logg inn for å synkronisere…
 
 ## Email page
 
+account-hub-email-title = Set opp ein e-postkonto
 account-hub-add-email-title = Legg til kontoen din
+account-hub-manually-configure-email-title = Set opp ein kontokonfigurasjon
 account-hub-email-cancel-button = Avbryt
 account-hub-email-stop-button = Stopp
 account-hub-email-back-button = Tilbake
 account-hub-email-retest-button = Test på nytt
 account-hub-email-finish-button = Fullfør
+account-hub-email-manually-configure-button = Set opp manuelt
 account-hub-email-continue-button = Hald fram
 account-hub-email-confirm-button = Stadfest
 account-hub-incoming-server-legend = Innkomande server
@@ -66,6 +73,8 @@ account-hub-auth-no-authentication-option =
     .label = Inga autentisering
 account-hub-auth-label = Autentiseringsmåte
 account-hub-username-label = Brukarnamn
+account-hub-adding-account-title = Legg til konto
+account-hub-lookup-email-configuration-title = Slår opp konfigurasjonen
 account-hub-email-account-added-title = Konto er lagt til
 account-hub-notification-show-more = Vis meir
 account-hub-notification-show-less = Vis mindre
