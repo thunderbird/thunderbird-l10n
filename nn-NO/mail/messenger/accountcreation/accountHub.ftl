@@ -20,8 +20,16 @@ account-hub-donate = Doner
 
 ## Initial setup page
 
+account-hub-email-setup-button = E-postkonto
+    .title = Set opp ein e-postkonto
+account-hub-calendar-setup-button = Kalender
+    .title = Set opp ein lokal- eller fjernkalender
+account-hub-address-book-setup-button = Adressebok
+    .title = Set opp ei lokal- eller fjernadressebok
 account-hub-chat-setup-button = Chatt
     .title = Set opp ein chattekonto
+account-hub-newsgroup-setup-button = Nyheitsgruppe
+    .title = Set opp ein nyheitsgruppekonto
 
 ## Email page
 
