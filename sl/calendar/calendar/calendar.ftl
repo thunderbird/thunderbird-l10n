@@ -357,6 +357,7 @@ html-task-completed = { $task } (dokončano)
 # Categories
 add-category = Dodaj kategorijo
 multiple-categories = Večkratne kategorije
+no-categories = Brez
 calendar-today = Danes
 calendar-tomorrow = Jutri
 yesterday = Včeraj
