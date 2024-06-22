@@ -90,7 +90,7 @@ conversation-error-command-failed-not-in-room = Bu komutu kullanabilmek için od
 conversation-error-resource-not-available = { $recipient } kullanıcısının birden fazla istemciyle bağlanabilmesi için önce konuşmalısınız.
 # LOCALIZATION NOTE (conversation-error-version-*):
 #   $recipient is the name of the recipient.
-conversation-error-version-unknown = { $recipient } alıcısının istemcisi yazılım sürümünün öğrenilmesini desteklemiyor.
+conversation-error-version-unknown = { $recipient } alıcısının istemcisi yazılım sürümünün sorgulanmasını desteklemiyor.
 # LOCALIZATION NOTE (tooltip-*):
 #   These are the titles of lines of information that will appear in
 #   the tooltip showing details about a contact or conversation.
@@ -135,7 +135,7 @@ conversation-muc-invitation-with-reason2 = { $inviter } sizi { $room } odasına 
 conversation-muc-invitation-with-reason2-password = { $inviter } sizi { $room } odasına { $password } parolasını kullanarak katılmaya davet etti: { $reason }
 #   $inviter is the inviter.
 #   $room is the room.
-conversation-muc-invitation-without-reason = { $inviter } sizi { $room } görüşmesine davet etti.
+conversation-muc-invitation-without-reason = { $inviter } sizi { $room } odasına davet etti
 #   $inviter is the inviter.
 #   $room is the room.
 #   $password is the password of the room.

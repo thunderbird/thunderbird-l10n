@@ -142,7 +142,7 @@ message-invite-received = { $nick } sizi { $conversationName } görüşmesine da
 message-invited = { $nick } başarıyla { $conversationName } görüşmesine davet edildi.
 #    $nick is the nickname of the invited user, $conversationName is the conversation name
 #    they were invited to but are already in
-message-already-in-channel = { $nick } zaten burada: { $conversationName }.
+message-already-in-channel = { $nick } zaten { $conversationName } görüşmesinde.
 #    $nick is the nickname of the user who was summoned.
 message-summoned = { $nick } çağrıldı.
 #    $nick (String) is the nickname of the user whose WHOIS information follows this message.
@@ -203,7 +203,7 @@ error-channel-full = { $name } kanalı dolu.
 #    $name is the channel name.
 error-invite-only = { $name } kanalına katılmak için davet edilmelisiniz.
 #    $name is the channel name.
-error-non-unique-target = { $name } benzersiz bir kullanıcı@host veya kısa isim değil veya bir seferde çok fazla kanala katılmayı denediniz.
+error-non-unique-target = { $name } benzersiz bir kullanıcı@host veya kısa ad değil ya da bir seferde çok fazla kanala katılmayı denediniz.
 #    $name is the channel name.
 error-not-channel-op = { $name } kanalında operatör değilsiniz.
 #    $name is the channel name.
