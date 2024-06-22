@@ -4,15 +4,15 @@
 
 <!-- LOCALIZATION NOTE (newsError.title): The title of the news error page.
      Not generally visible. -->
-<!ENTITY newsError.title "Yazıyı yükleme sorunu">
+<!ENTITY newsError.title "Haber Yükleme Sorunu">
 
 <!-- LOCALIZATION NOTE (articleNotFound.title): The main heading for the news
      error page. -->
-<!ENTITY articleNotFound.title "Yazı bulunamadı">
+<!ENTITY articleNotFound.title "Haber bulunamadı">
 
 <!-- LOCALIZATION NOTE (articleNotFound.desc): A longer description for the news
      error page. -->
-<!ENTITY articleNotFound.desc "Haber grubu sunucusu yazıyı bulamadığını bildiriyor.">
+<!ENTITY articleNotFound.desc "Haber grubu sunucusu haberi bulamadığını bildiriyor.">
 
 <!-- LOCALIZATION NOTE (serverResponded.title): A string preceding the text
      response from the newsgroup server describing the error. -->
@@ -20,12 +20,12 @@
 
 <!-- LOCALIZATION NOTE (articleExpired.title): A string explaining that the
      article may have expired. -->
-<!ENTITY articleExpired.title "Yazının geçerlilik süresi dolmuş olabilir mi?">
+<!ENTITY articleExpired.title "Haberin geçerlilik süresi dolmuş olabilir mi?">
 
 <!-- LOCALIZATION NOTE (trySearching.title): A string preceding the message's
      ID. -->
-<!ENTITY trySearching.title "Yazıyı aramayı dene:">
+<!ENTITY trySearching.title "Haberi aramayı deneyin:">
 
 <!-- LOCALIZATION NOTE (removeExpiredArticles.title): The label for the button
      to remove all expired articles from the newsgroup. -->
-<!ENTITY removeExpiredArticles.title "Süresi dolan tüm yazıları kaldır">
+<!ENTITY removeExpiredArticles.title "Süresi dolan tüm haberleri kaldır">

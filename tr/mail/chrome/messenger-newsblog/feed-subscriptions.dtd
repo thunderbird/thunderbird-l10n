@@ -19,7 +19,7 @@
 <!ENTITY feedFolder.accesskey        "d">
 
 <!-- Account Settings and Subscription Dialog -->
-<!ENTITY biffStart.label             "Yeni yazıları kontrol etme sıklığı: ">
+<!ENTITY biffStart.label             "Yeni haberleri denetleme sıklığı: ">
 <!ENTITY biffStart.accesskey         "k">
 <!ENTITY biffMinutes.label           "dakika">
 <!ENTITY biffMinutes.accesskey       "d">
