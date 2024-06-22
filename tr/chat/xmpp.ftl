@@ -100,7 +100,7 @@ tooltip-status = Durum ({ $resourceIdentifier })
 tooltip-status-no-resource = Durum
 tooltip-subscription = Abonelik
 tooltip-full-name = Tam İsim
-tooltip-nickname = Takma Ad
+tooltip-nickname = Takma ad
 tooltip-email = E-posta
 tooltip-birthday = Doğum Günü
 tooltip-user-name = Kullanıcı Adı
@@ -117,7 +117,7 @@ tooltip-telephone = Telefon numarası
 #   field.
 chat-room-field-room = _Oda
 chat-room-field-server = _Sunucu
-chat-room-field-nick = _Rumuz
+chat-room-field-nick = _Takma ad
 chat-room-field-password = _Parola
 # LOCALIZATION NOTE (conversation-muc-*):
 #   These are displayed as a system message when a chatroom invitation is
