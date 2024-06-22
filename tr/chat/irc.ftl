@@ -6,7 +6,7 @@
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
 #  configuring an IRC account.
-irc-username-hint = rumuz
+irc-username-hint = takma ad
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if the account is
 #   disconnected because of an error.
@@ -122,7 +122,7 @@ message-channelmode = Kanal kipi "{ $mode }" { $user } tarafından ayarlandı.
 #    $mode is the user's mode.
 message-yourmode = Kipiniz { $mode }.
 #    Could not change the nickname. $nick is the user's nick.
-message-nick-fail = İstenen rumuz kullanılamıyor. Rumuzunuz hâlâ { $nick }.
+message-nick-fail = İstenen takma ad kullanılamıyor. Takma adınız hâlâ { $nick }.
 #    $messagePartedReason (String) The parameter is the message-parted-reason, if a part message is given.
 message-parted-you = Odadan ayrıldınız (Part{ $messagePartedReason }).
 #    $messagePartedReason (String) The parameter is the message-parted-reason, if a part message is given.
@@ -152,7 +152,7 @@ message-whowas = { $nick } çevrimdışı. { $nick } kullanıcısının WHOWAS b
 #    $description is the entry description (from tooltip-*), $value is its value.
 message-whois-entry =     { $description }: { $value }
 #    $nick is the nickname that is not known to the server.
-message-unknown-nick = { $nick } bilinmeyen bir rumuz.
+message-unknown-nick = { $nick } bilinmeyen bir takma ad.
 #    $nick is the nickname of the user who changed the mode and $newPassword is the new
 #    channel key (password).
 message-channel-key-added = { $nick } kanal parolasını { $newPassword } olarak değiştirdi.
@@ -180,16 +180,16 @@ error-no-channel = { $name } adında bir kanal yok.
 #    $name is the channel name.
 error-too-many-channels = { $name } kanalına katılamazsınız. Çok fazla kanala katıldınız.
 #    $name is your new nick, $details is the kill message from the server.
-error-nick-collision = Rumuz kullanımda. Rumuzunuz { $name } olarak değiştirildi. [{ $details }]
+error-nick-collision = Bu takma ad kullanımda. Takma adınız { $name } olarak değiştirildi. [{ $details }]
 #    $name is the nickname or channel name that isn't available.
-error-erroneous-nickname = { $name } izin verilen bir rumuz değil.
+error-erroneous-nickname = { $name } izin verilen bir takma ad değil.
 error-banned = Bu sunucuya girmeniz yasaklandı.
 error-banned-soon = Yakında bu sunucuya girişiniz yasaklanacak.
 error-mode-wrong-user = Diğer kullanıcıların kiplerini değiştiremezsiniz.
 #    $name is the nickname or channel name that isn't available.
 error-no-such-nick = { $name } çevrimiçi değil.
 #    $name is the nickname or channel name that isn't available.
-error-was-no-such-nick = Böyle bir rumuz yok: { $name }
+error-was-no-such-nick = Böyle bir takma ad yok: { $name }
 #    $name is the nickname or channel name that isn't available.
 error-no-such-channel = { $name } adında bir kanal yok.
 #    $name is the nickname or channel name that isn't available.

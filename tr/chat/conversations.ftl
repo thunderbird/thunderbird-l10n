@@ -69,7 +69,7 @@ nick-set-key = { $oldNick } adlı kullanıcının adı artık { $newNick }.
 # LOCALIZATION NOTE (nick-set-you):
 #   This is displayed as a system message when your nickname is changed.
 #   $newNick is your new nick.
-nick-set-you = Rumuzunuz artık { $newNick }.
+nick-set-you = Takma adınız artık { $newNick }.
 # LOCALIZATION NOTE (messenger-conversations-selections-ellipsis):
 #  ellipsis is used when copying a part of a message to show that the message was cut
 messenger-conversations-selections-ellipsis = […]
