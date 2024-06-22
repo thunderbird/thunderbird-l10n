@@ -49,6 +49,7 @@
 <!ENTITY button.importOPML.accesskey "k">
 <!ENTITY button.exportOPML.label     "Dışa aktar">
 <!ENTITY button.exportOPML.accesskey "t">
+<!ENTITY button.exportOPML.tooltip   "Beslemeleri klasör yapısıyla dışa aktar; Beslemeleri liste olarak dışa aktarmak için ctrl+tıklayın veya ctrl+enter'a basın">
 
 <!ENTITY cmd.close.commandKey        "w">
 <!ENTITY button.close.label          "Kapat">

@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Kayıtlı hesaplar
-saved-logins-title = Kayıtlı hesaplar
 window-close =
     .key = w
+saved-logins-title = Kayıtlı hesaplar
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Kayıtlı parolaları görmek için kimliğini
 password-os-auth-dialog-message-macosx = kayıtlı parolaları gösterme
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] parola ayarlarını değiştirme
+       *[other] { -brand-short-name } parola ayarlarını değiştirmeye çalışıyor. Buna izin vermek için cihazınızdan giriş yapın.
+    }

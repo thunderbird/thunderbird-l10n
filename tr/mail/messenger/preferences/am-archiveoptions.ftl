@@ -27,4 +27,6 @@ archive-folder-name =
 inbox-folder-name =
     .label = Gelen Kutusu
 child-folder-name =
-    .label = Gelen kutusu alt klasörü
+    .label = Gelen Kutusu Alt Klasörü
+sibling-folder-name =
+    .label = Gelen Kutusu Kardeşi
