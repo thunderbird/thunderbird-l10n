@@ -5,7 +5,7 @@
 # LOCALIZATION NOTE (target-changed):
 #  $targetName is the new conversation title (display name of the new target),
 #  $targetProtocol is the protocol name used for the new target.
-target-changed = Görüşme { $targetName } adıyla { $targetProtocol } üzerinden devam edecek.
+target-changed = Yazışma { $targetName } adıyla { $targetProtocol } üzerinden devam edecek.
 # LOCALIZATION NOTE (status-changed):
 #  $displayName is the display name of the contact.
 #  $statusType is the new status type (a value from status.ftl).

@@ -3,17 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 state-label = Şifreleme durumu:
-
-start-text = Şifrelenmiş görüşme başlat
-
+start-text = Şifrelenmiş yazışma başlat
 start-label =
     .label = { start-text }
-
 start-tooltip =
     .tooltiptext = { start-text }
-
 end-label =
-    .label = Şifrelenmiş görüşmeyi bitir
-
+    .label = Şifrelenmiş yazışmayı bitir
 auth-label =
     .label = Kişinin kimliğini doğrula

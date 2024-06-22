@@ -8,7 +8,7 @@ chat-autologin =
     .label = Başlangıçta oturum aç
 chat-encryption-generic = Genel
 chat-encryption-log =
-    .label = Görüşme günlüklerine uçtan uca şifrelemeli iletileri dahil et
+    .label = Yazışma günlüklerine uçtan uca şifrelenmiş iletileri dahil et
 chat-encryption-label = Yerel uçtan uca şifreleme
 # Variables:
 # $protocol (String) - Name of the chat protocol. Example: Matrix

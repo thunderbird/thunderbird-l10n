@@ -22,7 +22,7 @@
 <!ENTITY accountAdvanced.newMailNotification.label   "Yeni posta gelince haber ver">
 <!ENTITY accountAliasGroupbox.caption "Yerel takma ad">
 <!ENTITY accountAliasField.label      "Takma ad:">
-<!ENTITY accountAliasInfo.label       "Bu, yalnızca siz konuşurken görüşmeleriniz sırasında görünecektir. Karşı taraf görmeyecektir.">
+<!ENTITY accountAliasInfo.label       "Bu, yalnızca siz konuşurken yazışmalarınız sırasında görünecektir. Karşı taraf görmeyecektir.">
 <!ENTITY accountProxySettings.caption "Vekil Sunucu Ayarları">
 <!ENTITY accountProxySettings.change.label     "Değiştir…">
 <!ENTITY accountProxySettings.change.accessKey "D">

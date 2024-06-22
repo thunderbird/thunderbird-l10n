@@ -136,13 +136,13 @@ message-quit = { $nick } odadan çıktı (Quit{ $quitMessage }).
 message-quit2 = : { $nick }
 #    $nick is the nickname of the user that invited us, $conversationName is the conversation
 #    name.
-message-invite-received = { $nick } sizi { $conversationName } görüşmesine davet etti.
+message-invite-received = { $nick } sizi { $conversationName } yazışmasına davet etti.
 #    $nick is the nickname of the invited user, $conversationName is the conversation name
 #    they were invited to.
-message-invited = { $nick } başarıyla { $conversationName } görüşmesine davet edildi.
+message-invited = { $nick } başarıyla { $conversationName } yazışmasına davet edildi.
 #    $nick is the nickname of the invited user, $conversationName is the conversation name
 #    they were invited to but are already in
-message-already-in-channel = { $nick } zaten { $conversationName } görüşmesinde.
+message-already-in-channel = { $nick } zaten { $conversationName } yazışmasında.
 #    $nick is the nickname of the user who was summoned.
 message-summoned = { $nick } çağrıldı.
 #    $nick (String) is the nickname of the user whose WHOIS information follows this message.

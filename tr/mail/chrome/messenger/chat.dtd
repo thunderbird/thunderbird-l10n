@@ -7,8 +7,8 @@
 <!ENTITY conversationsHeader.label     "Sohbetler">
 <!ENTITY searchResultConversation.label "Arama sonucu">
 <!ENTITY chat.noConv.title             "Sohbetler burada görünecektir.">
-<!ENTITY chat.noConv.description       "Bir görüşme başlatmak için sol bölmedeki kişi listesini kullanın.">
-<!ENTITY chat.noPreviousConv.description       "&brandShortName; bu kişi için kayıtlı geçmiş görüşmeye sahip değil.">
+<!ENTITY chat.noConv.description       "Bir yazışma başlatmak için sol bölmedeki kişi listesini kullanın.">
+<!ENTITY chat.noPreviousConv.description       "&brandShortName; bu kişi için kayıtlı geçmiş yazışmaya sahip değil.">
 <!ENTITY chat.noAccount.title             "Henüz bir sohbet hesabı kurmadınız.">
 <!ENTITY chat.noAccount.description       "&brandShortName; sohbet hesabınızı kurmanız için size yol gösterebilir.">
 <!ENTITY chat.accountWizard.button       "Başla">
@@ -17,7 +17,7 @@
 <!ENTITY chat.showAccountManager.button       "Sohbet durumunu göster">
 
 <!ENTITY chat.participants             "Katılımcılar:">
-<!ENTITY chat.previousConversations    "Önceki görüşmeler:">
+<!ENTITY chat.previousConversations    "Önceki yazışmalar:">
 <!ENTITY chat.ongoingConversation      "Süren sohbet">
 
 <!ENTITY openConversationCmd.label     "Sohbet başlat">

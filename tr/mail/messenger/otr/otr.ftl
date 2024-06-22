@@ -5,14 +5,14 @@
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 msgevent-encryption-required-part1 = { $name } kişisine şifrelenmemiş bir ileti göndermeye çalıştınız. İlke gereği, şifrelenmemiş iletilere izin verilmiyor.
-msgevent-encryption-required-part2 = Özel bir görüşme başlatılmaya çalışılıyor. Özel görüşme başladığında iletiniz yeniden gönderilecektir.
+msgevent-encryption-required-part2 = Özel yazışma başlatılmaya çalışılıyor. Özel yazışma başladığında iletiniz yeniden gönderilecektir.
 msgevent-encryption-error = İletiniz şifrelenirken bir hata oluştu. İleti gönderilmedi.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-msgevent-connection-ended = { $name } sizinle olan şifrelenmiş bağlantısını kapattı. Yanlışlıkla şifrelememiş ileti göndermenizi önlemek için iletiniz gönderilmedi. Lütfen şifrelenmiş görüşmeyi sonlandırın veya yeniden başlatın.
+msgevent-connection-ended = { $name } sizinle olan şifrelenmiş bağlantısını kapattı. Yanlışlıkla şifrelememiş ileti göndermenizi önlemek için iletiniz gönderilmedi. Lütfen şifrelenmiş yazışmayı sonlandırın veya yeniden başlatın.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-msgevent-setup-error = { $name } ile özel görüşme ayarlanırken bir hata oluştu.
+msgevent-setup-error = { $name } ile özel yazışma ayarlanırken bir hata oluştu.
 # Do not translate 'OTR' (name of an encryption protocol)
 msgevent-msg-reflected = Kendi OTR iletilerinizi alıyorsunuz. Ya kendinizle konuşmaya çalışıyorsunuz ya da birileri iletilerinizi size geri yansıtıyor.
 # Variables:
@@ -36,7 +36,7 @@ msgevent-log-heartbeat-rcvd = { $name } kişisinden heartbeat alındı.
 #   $name (String) - the screen name of a chat contact person
 msgevent-log-heartbeat-sent = { $name } kişisine heartbeat gönderildi.
 # Do not translate 'OTR' (name of an encryption protocol)
-msgevent-rcvdmsg-general-err = OTR kullanarak görüşmenizi korumaya çalışırken beklenmeyen bir hata oluştu.
+msgevent-rcvdmsg-general-err = OTR kullanarak yazışmanızı korumaya çalışırken beklenmeyen bir hata oluştu.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 #   $msg (string) - the message that was received.
@@ -50,13 +50,13 @@ msgevent-rcvdmsg-unrecognized = { $name } kişisinden tanınmayan bir OTR iletis
 msgevent-rcvdmsg-for-other-instance = { $name }, farklı bir oturuma yönelik bir ileti gönderdi. Birden çok kez oturum açtıysanız iletiyi başka bir oturum almış olabilir.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-context-gone-secure-private = { $name } kişisiyle gizli görüşme başladı.
+context-gone-secure-private = { $name } ile gizli yazışma başladı.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-context-gone-secure-unverified = { $name } kişisiyle, şifrelenmiş ancak doğrulanmamış görüşme başlatıldı.
+context-gone-secure-unverified = { $name } ile şifrelenmiş ancak doğrulanmamış yazışma başlatıldı.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-context-still-secure = { $name } kişisiyle şifrelenmiş görüşme başarıyla yenilendi.
+context-still-secure = { $name } ile şifrelenmiş yazışma başarıyla yenilendi.
 error-enc = İleti şifrelenirken bir hata oluştu.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
@@ -66,9 +66,9 @@ error-malformed = Hatalı oluşturulmuş bir veri iletisi gönderdiniz.
 resent = [yeniden gönderildi]
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-tlv-disconnected = { $name } sizinle şifrelenmiş görüşmeyi sonlandırdı. Siz de aynısını yapmalısınız.
+tlv-disconnected = { $name } sizinle şifrelenmiş yazışmayı sonlandırdı. Siz de aynısını yapmalısınız.
 # Do not translate "Off-the-Record" and "OTR" which is the name of an encryption protocol
 # Make sure that this string does NOT contain any numbers, e.g. like "3".
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-query-msg = { $name } kayıt dışı (OTR) bir şifrelenmiş görüşme yapmak istiyor. Ancak bunu destekleyecek bir eklentiniz yok. Daha fazla bilgi için https://en.wikipedia.org/wiki/Off-the-Record_Messaging adresine bakabilirsiniz.
+query-msg = { $name } kayıt dışı (OTR) bir şifrelenmiş yazışma yapmak istiyor, ancak bunu destekleyecek bir eklentiniz yok. Daha fazla bilgi için https://en.wikipedia.org/wiki/Off-the-Record_Messaging adresine bakabilirsiniz.
