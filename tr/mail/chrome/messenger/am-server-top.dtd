@@ -52,7 +52,7 @@
 <!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY expungeOnExit.label "Çıkarken gelen kutusunu temizle (&quot;sil&quot;)">
 <!ENTITY expungeOnExit.accesskey "t">
-<!ENTITY emptyTrashOnExit.label "Çıkarken Çöp’ü boşalt">
+<!ENTITY emptyTrashOnExit.label "Çıkarken çöp kutusunu boşalt">
 <!ENTITY emptyTrashOnExit.accesskey "k">
 <!ENTITY loginAtStartup.label "Başlangıçta yeni iletileri kontrol et">
 <!ENTITY loginAtStartup.accesskey "B">
