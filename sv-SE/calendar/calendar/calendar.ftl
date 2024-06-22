@@ -357,6 +357,7 @@ html-task-completed = { $task } (färdigt)
 # Categories
 add-category = Lägg till kategori
 multiple-categories = Flera kategorier
+no-categories = Ingen
 calendar-today = Idag
 calendar-tomorrow = I morgon
 yesterday = Igår
