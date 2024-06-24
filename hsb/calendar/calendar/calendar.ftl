@@ -106,7 +106,9 @@ timezone-error = Njeznate a njedefinowane časowe pasmo je so při čitanju { $f
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] { $count } zapiskow je so ignorowało, dokelž w cilowej protyce kaž tež w { $filePath } eksistuje.
+        [one] { $count } zapisk je so ignorowao, dokelž w cilowej protyce kaž tež w { $filePath } eksistuje.
+        [two] { $count } zapiskaj stej so ignorowałoj, dokelž w cilowej protyce kaž tež w { $filePath } eksistujetej.
+        [few] { $count } zapiski su so ignorowali, dokelž w cilowej protyce kaž tež w { $filePath } eksistuja.
        *[other] { $count } zapiskow je so ignorowało, dokelž w cilowej protyce kaž tež w { $filePath } eksistuje.
     }
 # $location unknown calendar location
