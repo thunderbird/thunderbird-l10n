@@ -4,6 +4,37 @@
 
 e2e-intro-description = Salattujen tai digitaalisesti allekirjoitettujen viestien lähettämistä varten on määritettävä joko OpenPGP- tai S/MIME-salaustekniikka.
 e2e-intro-description-more = Ota OpenPGP käyttöösi valitsemalla henkilökohtainen avaimesi, tai S/MIME valitsemalla henkilökohtainen varmenteesi. Henkilökohtaista avainta tai varmennetta varten sinulla on vastaava oma salainen avain.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Jos haluat hankkia uuden henkilökohtaisen S/MIME-varmenteen, luo varmenteen allekirjoituspyyntö (CSR) ja lähetä se varmenteen myöntäjälle (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Valitse CSR-tiedostollesi paikallinen hakemisto ja tiedostonimi ja vastaa seuraaviin kysymyksiin algoritmin ja vahvuuden määrittämiseksi.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Luo CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Jatka
+# A label for a button that goes back one step
+e2e-csr-back = Takaisin
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Luo ja tallenna CSR-tiedosto nimellä…
+# Do not translate: CSR
+e2e-csr-select-title = CSR-algoritmi
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿﻿ Valitse uuden S/MIME-varmenteen salausalgoritmiksi RSA (suositus) tai ECC.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Valitse uudelle S/MIME-varmenteelle haluamasi salauksen vahvuus (nopeammin pienemmillä luvuilla tai parempi suojaus suuremmilla luvuilla) tai säilytä oletusasetus.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Uusi salainen avain, tyyppiä { $type } { $strength }, luodaan { -brand-short-name }in asetuksissa. Tämä toimenpide voi kestää jonkin aikaa ja aiheuttaa tilapäisen reagoimattomuuden; ole kärsivällinen tämän vaiheen aikana. Varmenteen allekirjoituspyynnön (CSR) tiedosto, joka tallennetaan nimellä { $file }, luodaan sillä välin.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Sisällytä sähköpostiosoite ({ $email }) CSR:ään (suositus)
+# $file A filename
+e2e-csr-success = CSR tallennettiin tiedostoon { $file }
+# $file A filename
+e2e-csr-failure = CSR:tä ei voitu tallentaa tiedostoon { $file }
 e2e-signing-description = Digitaalinen allekirjoitus varmistaa vastaanottajille, että viesti on sinun lähettämä ja että viestin sisältöä ei ole muutettu. Salatut viestit allekirjoitetaan aina oletuksena.
 e2e-sign-message =
     .label = Allekirjoita salaamattomat viestit
@@ -391,6 +422,9 @@ window-locked = Kirjoitusikkuna on lukittu; lähetys peruutettu
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Keskeytetty
 keyserver-error-unknown = Tapahtui tuntematon virhe
 keyserver-error-server-error = Avainpalvelin ilmoitti virheestä.
@@ -402,6 +436,9 @@ keyserver-error-unsupported = Avainpalvelin ei ole tuettu.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Sähköpostipalveluntarjoajasi käsitteli pyyntösi julkisen avaimesi lähettämiseksi OpenPGP-verkkoavainhakemistoon.
     Vahvista julkisen avaimesi julkaiseminen.
@@ -411,6 +448,9 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
+
+## Strings in persistentCrypto.sys.mjs
+
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
@@ -419,6 +459,9 @@ converter-decrypt-body-failed =
     Haluatko yrittää uudelleen toisella tunnuslauseella, vai haluatko ohittaa viestin?
 
 ## Strings filters.jsm
+
+
+## Strings filters.sys.mjs
 
 filter-folder-required = Kohdekansio on valittava.
 filter-decrypt-move-warn-experimental =
@@ -436,6 +479,9 @@ filter-warn-key-not-secret =
     Jos sinulla ei ole salaista avainta kohteisiin '{ $desc }', et pysty enää lukea sähköpostiviestejä.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Pura salaus pysyvästi (OpenPGP)
 filter-decrypt-copy-label = Luo salauksesta purettu kopio (OpenPGP)
@@ -483,6 +529,7 @@ key-man-button-export-pub-key = Vie vain &julkiset avaimet
 key-man-button-refresh-all = &Päivitä kaikki avaimet
 key-man-loading-keys = Ladataan avaimia, odota hetki…
 ascii-armor-file = ASCII-panssaroidut tiedostot (*.asc)
+text-file = Tekstitiedostot (*.txt)
 no-key-selected = Valitse vähintään yksi avain suorittaaksesi valitun toimenpiteen
 export-to-file = Vie julkinen avain tiedostoon
 export-keypair-to-file = Vie salainen ja julkinen avain tiedostoon
@@ -510,6 +557,12 @@ openpgp-export-secret-fail = <b>Valitun salaisen avaimen vienti ei onnistunut!</
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Avain { $userId } (avaimen tunniste { $keyId }) on kumottu.
 key-ring-pub-key-expired = Avain { $userId } (avaimen tunniste { $keyId }) on vanhentunut.
 key-ring-no-secret-key = Sinulla ei vaikuta olevan salaista avainta käyttäjälle { $userId } (avaimen tunniste { $keyId }) avainnipussasi; et voi käyttää avainta allekirjoitukseen.
@@ -522,10 +575,16 @@ key-ring-enc-sub-keys-expired = Kaikki avaimen { $userId } (avaimen tunniste { $
 
 ## Strings in gnupg-keylist.jsm
 
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Kuva
 user-att-photo = Käyttäjän ominaisuus (JPEG-kuva)
 
 ## Strings in key.jsm
+
+
+## Strings in key.sys.mjs
 
 already-revoked = Tämä avain on jo kumottu.
 #   $identity (String) - the id and associated user identity of the key being revoked
@@ -549,6 +608,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Tuo
 delete-key-title = Poista OpenPGP-avain
 delete-external-key-title = Poista ulkoinen GnuPG-avain
@@ -558,6 +620,9 @@ delete-key-in-use-description = Ei voi jatkaa! Poistettavaksi valitsemasi avain 
 revoke-key-in-use-description = Ei voi jatkaa! Kumottavaksi valitsemasi avain on parhaillaan tämän identiteetin käytössä. Valitse eri avain, tai älä valitse mitään avainta, ja yritä uudelleen.
 
 ## Strings used in errorHandling.jsm
+
+
+## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
@@ -569,18 +634,33 @@ key-error-not-accepted-as-personal = Et ole vahvistanut, että avain tunnisteell
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Valitsemasi toiminto ei ole käytettävissä yhteydettömässä tilassa. Yhdistä verkkoon ja yritä uudelleen.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Hakuehtoja vastaavia avaimia ei löytynyt.
 no-update-found = Sinulla on jo avaimet, jotka löydettiin verkosta.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
+
+## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Virhe - avaimen purkamiskomento epäonnistui
 
 ## Strings used in keyRing.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-cancel = Virhe - Avaimen vastaanotto peruttu käyttäjän toimesta
 not-first-block = Virhe - Ensimmäinen OpenPGP-lohko ei ole julkisen avaimen lohko
@@ -593,6 +673,10 @@ no-pgp-block = Virhe - Kelvollista panssaroitua OpenPGP-datalohkoa ei löytynyt
 confirm-permissive-import = Tuonti epäonnistui. Avain, jota yritit tuoda, saattaa olla rikkoutunut tai se se saattaa käyttää tuntemattomia ominaisuuksia. Haluatko yrittää tuoda kelvolliset osat avaimesta? Tämä saattaa johtaa epätäydellisten ja käyttökelvottomien avainten tuontiin.
 
 ## Strings used in trust.jsm
+
+help-button = Ohje
+
+## Strings used in trust.sys.mjs
 
 key-valid-unknown = tuntematon
 key-valid-invalid = virheellinen
@@ -714,6 +798,9 @@ cannot-send-enc-because-no-own-key = Tätä viestiä ei voi lähettää salattun
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
@@ -737,9 +824,15 @@ dlg-button-view = &Näytä
 
 ## Strings used in encryption.jsm
 
+
+## Strings used in encryption.sys.mjs
+
 not-required = Virhe - salausta ei vaadita
 
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 no-photo-available = Ei kuvaa saatavilla
 # Variables:
@@ -758,6 +851,9 @@ repeat-suffix-singular = kerran.
 repeat-suffix-plural = kertaa.
 no-repeat = Tätä hälytystä ei näytetä uudelleen.
 dlg-keep-setting = Muista vastaukseni, älä kysy uudestaan
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = &Sulje
 dlg-button-cancel = &Peruuta
@@ -768,6 +864,9 @@ enig-alert = OpenPGP-hälytys
 enig-info = OpenPGP-tiedot
 
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 dlg-button-retry = &Yritä uudelleen
 dlg-button-skip = &Ohita
