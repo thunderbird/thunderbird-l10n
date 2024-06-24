@@ -24,6 +24,8 @@ books-pane-create-book-button =
     .title = Tạo một sổ địa chỉ mới
 books-pane-create-list-button =
     .title = Tạo một danh sách gửi thư mới
+books-pane-import-button = Nhập
+    .title = Nhập sổ địa chỉ
 
 ## Books
 

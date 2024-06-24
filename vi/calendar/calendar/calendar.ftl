@@ -357,6 +357,7 @@ html-task-completed = { $task } (hoàn tất)
 # Categories
 add-category = Thêm Phân Mục
 multiple-categories = Nhiều danh mục
+no-categories = Không có
 calendar-today = Hôm nay
 calendar-tomorrow = Ngày mai
 yesterday = Hôm qua
