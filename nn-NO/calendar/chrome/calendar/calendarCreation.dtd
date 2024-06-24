@@ -6,7 +6,7 @@
 <!ENTITY wizard.label             "Lag ein ny kalender" >
 <!ENTITY wizard.description       "Lokaliser kalenderen" >
 
-<!ENTITY initialpage.description    "Kalenderen kan anten lagrast lokalt, eller på ein tenar slik at han er tilgjengeleg for andre." >
+<!ENTITY initialpage.description    "Kalenderen kan anten lagrast lokalt, eller på ein sørvar slik at han er tilgjengeleg for andre." >
 <!ENTITY initialpage.computer.label  "På datamaskina mi">
 <!ENTITY initialpage.network.label  "På nettverket">
 
@@ -40,7 +40,7 @@
 
 <!ENTITY calendartype.label "Kalendertype:">
 <!ENTITY location.label "Adresse:">
-<!ENTITY location.placeholder "URL eller vertsnamn på kalenderserveren">
+<!ENTITY location.placeholder "URL eller vertsnamn på kalendersørvaren">
 
 <!ENTITY network.nocredentials.label "Denne adressa krev ikkje innlogging">
 <!ENTITY network.loading.description "Vent medan kalendrane dine blir oppdaga.">

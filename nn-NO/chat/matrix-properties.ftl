@@ -12,7 +12,7 @@ matrix-username-hint = Matrix-ID
 #   account wizard windows.
 options-save-token = Lagre tilgangssymbol
 options-device-display-name = Visingsnamn for eining
-options-homeserver = Server
+options-homeserver = Sørvar
 options-backup-passphrase = Passordfrase for nøkkelsikkerheitskopiering
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
@@ -41,7 +41,7 @@ connection-request-access = Fullfører godkjenning
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if an error occurs during the
 #   connection attempt.
-connection-error-no-supported-flow = Server tilbyr ingen kompatibel innloggingsflyt.
+connection-error-no-supported-flow = Sørvaren tilbyr ingen kompatibel innloggingsflyt.
 connection-error-auth-cancelled = Du avbraut godkjenningsprosessen.
 connection-error-session-ended = Økta vart logga ut.
 # LOCALIZATION NOTE (chat-room-field-*):

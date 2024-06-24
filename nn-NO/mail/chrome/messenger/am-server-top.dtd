@@ -4,9 +4,9 @@
 
 <!ENTITY messageStorage.label "Meldingslagring">
 <!ENTITY securitySettings.label "Tryggingsinnstillingar">
-<!ENTITY serverSettings.label "Tenarinnstillingar">
-<!ENTITY serverType.label "Tenartype:">
-<!ENTITY serverName.label "Tenarnamn:">
+<!ENTITY serverSettings.label "Sørvarinnstillingar">
+<!ENTITY serverType.label "Sørvartype:">
+<!ENTITY serverName.label "Sørvarnamn:">
 <!ENTITY serverName.accesskey "n">
 <!ENTITY userName.label "Brukarnamn:">
 <!ENTITY userName.accesskey "B">
@@ -21,7 +21,7 @@
 <!ENTITY biffStart.label "Sjå etter nye meldingar kvart ">
 <!ENTITY biffStart.accesskey "r">
 <!ENTITY biffEnd.label "minutt">
-<!ENTITY useIdleNotifications.label "Tillat umiddelbare tenarvarsel når nye meldingar vert mottekne">
+<!ENTITY useIdleNotifications.label "Tillat beinveges sørvarvarsel når nye meldingar vert mottekne">
 <!ENTITY useIdleNotifications.accesskey "T">
 <!ENTITY connectionSecurity.label "Tilkoplingssikkerheit:">
 <!ENTITY connectionSecurity.accesskey "T">
@@ -31,7 +31,7 @@
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "Autentiseringsmetode:">
 <!ENTITY authMethod.accesskey "i">
-<!ENTITY leaveOnServer.label "Lat meldingar liggje på tenaren">
+<!ENTITY leaveOnServer.label "Lat meldingar liggje på sørvaren">
 <!ENTITY leaveOnServer.accesskey "m">
 <!ENTITY headersOnly.label "Hent berre meldingshovuda">
 <!ENTITY headersOnly.accesskey "e">
@@ -64,7 +64,7 @@
 <!ENTITY maxMessagesStart.accesskey "S">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
 <!ENTITY maxMessagesEnd.label "meldingar">
-<!ENTITY alwaysAuthenticate.label "Alltid spør etter autentisering ved tilkopling til denne tenaren">
+<!ENTITY alwaysAuthenticate.label "Alltid spør etter autentisering ved tilkopling til denne sørvaren">
 <!ENTITY alwaysAuthenticate.accesskey "A">
 <!ENTITY newsrcFilePath1.label "News.rc-fil:">
 <!ENTITY newsrcPicker1.label "Vel News.rc-fil">

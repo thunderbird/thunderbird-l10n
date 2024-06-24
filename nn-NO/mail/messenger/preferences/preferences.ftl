@@ -735,5 +735,6 @@ show-synced-item-calendar = Kalendrar
 show-synced-item-identity = Identitetar
 show-synced-item-passwords = Passord
 show-synced-change = Endre…
+synced-acount-item-server-config = Sørvarkonfigurasjon
 synced-acount-item-filters = Filter
 synced-acount-item-keys = OpenPGP - S/MIME

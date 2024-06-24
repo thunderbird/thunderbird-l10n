@@ -4,7 +4,7 @@
 
 <!ENTITY doNotDownloadPop3Movemail.label "For å spare diskplass, ikkje last ned:">
 <!ENTITY doNotDownloadNntp.label "For å spare diskplass, ikkje last ned for fråkopla bruk:">
-<!ENTITY doNotDownloadImap.label "For å spare diskplass kan nedlasting av meldingar frå tenaren og oppbevaring av lokale kopiar for fråkopla bruk avgrensast til ein bestemt alder eller storleik.">
+<!ENTITY doNotDownloadImap.label "For å spare diskplass kan nedlasting av meldingar frå sørvaren og oppbevaring av lokale kopiar for fråkopla bruk avgrensast til ein bestemt alder eller storleik.">
 <!ENTITY allFoldersOffline2.label "Behald meldingar i alle mapper for denne kontoen, på denne datamaskina">
 <!ENTITY allFoldersOffline2.accesskey "a">
 <!ENTITY allFoldersOfflineNote.label "Merk: Om du endrar dette, påverkar det alle mapper i denne kontoen. For å stille inn einskildmapper, bruk Avansert…-knappen.">
@@ -20,8 +20,8 @@
 <!ENTITY nntpDownloadMsg.label "Meldingar meir enn">
 <!ENTITY nntpDownloadMsg.accesskey "M">
 <!ENTITY retentionCleanup.label "For å spara diskplass kan gamle meldingar verta permanent sletta">
-<!ENTITY retentionCleanupImap.label "For å spara diskplass, kan gamle meldingar verta permanent sletta, både lokale kopiar og originalar på ekstern tenar.">
-<!ENTITY retentionCleanupPop.label "For å byggja opp diskplass, kan gamle meldingar verta permanent sletta, både lokale kopiar og originalar på ekstern tenar.">
+<!ENTITY retentionCleanupImap.label "For å spare diskplass, kan gamle meldingar verte permanent sletta, både lokale kopiar og originalar på ekstern sørvar.">
+<!ENTITY retentionCleanupPop.label "For å byggje opp diskplass, kan gamle meldingar verte permanent sletta, både lokale kopiar og originalar på ekstern sørvar.">
 <!ENTITY retentionKeepMsg.label "Slett meldingar eldre enn">
 <!ENTITY retentionKeepMsg.accesskey "e">
 <!ENTITY retentionKeepAll.label "Ikkje slett meldingar">

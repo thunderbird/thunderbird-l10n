@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-main.xul -->
-
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "Kontoinnstillingar">
@@ -41,9 +39,9 @@
 <!ENTITY manageIdentities.accesskey "H">
 
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Utgåande tenar (SMTP):">
+<!ENTITY smtpName.label "Utgåande sørvar (SMTP):">
 <!ENTITY smtpName.accesskey "U">
-<!ENTITY smtpDefaultServer.label "Bruk standardtenar">
+<!ENTITY smtpDefaultServer.label "Bruk standardsørvar">
 
-<!ENTITY smtpServerEdit.label "Rediger SMTP-server…">
+<!ENTITY smtpServerEdit.label "Rediger SMTP-sørvar…">
 <!ENTITY smtpServerEdit.accesskey "P">

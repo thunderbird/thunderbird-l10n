@@ -2,24 +2,20 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xul -->
-
 <!-- extracted from am-addressing.xhtml -->
 
 <!ENTITY addressing.label          "Utforming og adressering">
 <!ENTITY addressingGroupTitle.label "Adressering">
 <!ENTITY addressingText.label      "Ved adresseoppslag:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
-<!ENTITY useGlobal.label           "Bruk globale LDAP-tenarinnstillingar for denne kontoen.">
+<!ENTITY useGlobal.label           "Bruk globale LDAP-sørvarnnstillingar for denne kontoen">
 <!ENTITY useGlobal.accesskey       "u">
 <!ENTITY editDirectories.label     "Rediger mapper …">
 <!ENTITY editDirectories.accesskey "R">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label         "Bruk ein annan LDAP-tenar:">
+<!ENTITY directories.label         "Bruk ein annan LDAP-sørvar:">
 <!ENTITY directories.accesskey     "B">
 <!ENTITY directoriesNone.label     "Ingen">
-
-<!-- am-addressing.xul -->
 
 <!-- am-addressing.xhtml -->
 

@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Kontovegvisar">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -29,14 +26,12 @@
 
 <!-- Entities for Incoming Server page -->
 
-<!ENTITY incomingTitle.label "Info om innkomande tenar">
+<!ENTITY incomingTitle.label "Info om innkomande sørvar">
 <!ENTITY incomingUsername.label "Brukarnamn:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-<!ENTITY newsServerNameDesc.label "Skriv inn namnet på nyheitsgruppetenaren din (NNTP-tenar, til dømes «nyheiter.eksempel.no»).">
-<!ENTITY newsServerLabel.label "Nyheitsgruppetenar:">
+<!ENTITY newsServerNameDesc.label "Skriv inn namnet på nyheitsgruppesørvaren din (NNTP-sørvar, til dømes «nyhende.eksempel.no»).">
+<!ENTITY newsServerLabel.label "Nyhendegruppesørvar:">
 <!ENTITY newsServerLabel.accesskey "N">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 
@@ -50,6 +45,6 @@
 
 <!ENTITY completionTitle.label "Gratulerer!">
 <!ENTITY completionText.label "Kontroller at informasjonen nedanfor er rett.">
-<!ENTITY newsServerNamePrefix.label "Nyheitsgruppetenar (NNTP):">
+<!ENTITY newsServerNamePrefix.label "Nyhendegruppesørvarnamn (NNTP):">
 <!ENTITY clickFinish.label "Trykk Fullfør for å lagre innstillingane og late att konto-vegvisaren.">
 <!ENTITY clickFinish.labelMac "Trykk Fullfør for å lagre innstillingane og late att konto-vegvisaren.">

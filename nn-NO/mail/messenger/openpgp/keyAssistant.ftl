@@ -16,6 +16,7 @@ openpgp-key-assistant-key-source =
         [one] Kjelder
        *[other] Kjelder
     }
+openpgp-key-assistant-key-collected-keyserver = nøkkelsørvar
 
 ## Discovery section
 
