@@ -361,6 +361,7 @@ html-task-completed = { $task } (voltooid)
 # Categories
 add-category = Categorie toevoegen
 multiple-categories = Meerdere categorieën
+no-categories = Geen
 calendar-today = Vandaag
 calendar-tomorrow = Morgen
 yesterday = Gisteren
