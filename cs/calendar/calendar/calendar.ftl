@@ -106,8 +106,9 @@ timezone-error = Při čtení kalendáře { $filePath } bylo nalezeno neznámé 
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] Některé položky ({ $count }) byly ignorovány, protože existují jak v cílovém kalendáři tak v { $filePath }.
-       *[other] Některé položky ({ $count }) byly ignorovány, protože existují jak v cílovém kalendáři tak v { $filePath }.
+        [one] Jedna položka byly ignorována, protože existuje v cílovém kalendáři i v { $filePath }.
+        [few] { $count } položek bylo ignorováno, protože existují v cílovém kalendáři i v { $filePath }.
+       *[other] { $count } položek bylo ignorováno, protože existují v cílovém kalendáři i v { $filePath }.
     }
 # $location unknown calendar location
 unable-to-create-provider = Při zpracování kalendáře umístěného na { $location } došlo k chybě. Kalendář bude proto nedostupný.
@@ -357,6 +358,7 @@ html-task-completed = { $task } (dokončeno)
 # Categories
 add-category = Přidat kategorii
 multiple-categories = Více kategorií
+no-categories = Žádná
 calendar-today = Dnes
 calendar-tomorrow = Zítra
 yesterday = Včera
