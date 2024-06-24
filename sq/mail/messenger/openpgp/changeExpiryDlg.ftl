@@ -9,6 +9,8 @@ info-will-expire = Ky kyç aktualisht është i formësuar të skadojë më { $d
 info-already-expired = Ky kyç ka skaduar tashmë.
 info-does-not-expire = Ky kyç aktualisht është i formësuar të mos skadojë kurrë.
 info-explanation-1 = <b>Pasi skadon një kyç</b>, s’është më e mundur të përdoret për fshehtëzim apo nënshkrim dixhital.
+# Do not translate: OpenPGP
+info-explanation-1-complex = Ky kyç OpenPGP përbëhet nga një kyç parësor dhe të paktën një nënkyç <b>me data skadimi të ndryshme</b>.
 select-key-prompt = Kyç për ndryshim:
 info-explanation-2 = Për ta përdorur këtë kyç për një periudhë më të gjatë, ndryshoni datën e tij të skadimit dhe mandej ndajeni sërish kyçin publik me partnerët e bisedës tuaj.
 usage-label = Përdorim:

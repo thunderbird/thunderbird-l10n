@@ -4,10 +4,22 @@
 
 e2e-intro-description = Që të dërgoni mesazhe të fshehtëzuar ose të nënshkruar në mënyrë dixhitale, ju duhet të formësoni një teknologji fshehtëzimi, OpenPGP ose S/MIME.
 e2e-intro-description-more = Që të aktivizohet përdorimi i OpenGPG-së, përzgjidhni kyçin tuaj personal, ose dëshminë tuaj personale që të aktivizohet përdorimi i S/MIME-s. Për një kyç apo dëshmi personale, zotëroni kyçin përkatës të fshehtë.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Prodho CSR
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Vazhdo
 # A label for a button that goes back one step
 e2e-csr-back = Mbrapsht
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Prodhoni dhe ruajeni një kartelë CSR si…
+# Do not translate: CSR
+e2e-csr-select-title = Algoritëm CSR
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Përfshi në CSR adresë email ({ $email }) (e rekomanduar)
+# $file A filename
+e2e-csr-success = CSR-ja u ruajt me sukses te { $file }
 # $file A filename
 e2e-csr-failure = S’u ruajt dot CSR te kartela { $file }
 e2e-signing-description = Një nënshkrim dixhital u lejon marrësve të verifikojnë se mesazhi qe dërguar nga ju dhe se lënda e tij s’është ndryshuar. Si parazgjedhje, mesazhet e fshehtëzuar janë përherë të nënshkruar.
