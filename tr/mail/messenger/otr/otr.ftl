@@ -9,7 +9,7 @@ msgevent-encryption-required-part2 = Özel yazışma başlatılmaya çalışıl�
 msgevent-encryption-error = İletiniz şifrelenirken bir hata oluştu. İleti gönderilmedi.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-msgevent-connection-ended = { $name } sizinle olan şifrelenmiş bağlantısını kapattı. Yanlışlıkla şifrelememiş ileti göndermenizi önlemek için iletiniz gönderilmedi. Lütfen şifrelenmiş yazışmayı sonlandırın veya yeniden başlatın.
+msgevent-connection-ended = { $name } sizinle olan şifrelenmiş bağlantısını kapattı. Yanlışlıkla şifrelenmemiş ileti göndermenizi önlemek için iletiniz gönderilmedi. Lütfen şifrelenmiş yazışmayı sonlandırın veya yeniden başlatın.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 msgevent-setup-error = { $name } ile özel yazışma ayarlanırken bir hata oluştu.

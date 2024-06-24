@@ -264,7 +264,7 @@ odnoklassniki-username-hint = Profil kimliği
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name
-command-join3 = { $commandName } [&lt;room&gt;[@&lt;server&gt;][/&lt;nick&gt;]] [&lt;password&gt;]: İsterseniz başka bir sunucu, rumuz veya oda parolası girerek bir odaya girin.
+command-join3 = { $commandName } [&lt;oda&gt;[@&lt;sunucu&gt;][/&lt;takma ad&gt;]] [&lt;parola&gt;]: Bir odaya girer. İsteğe bağlı olarak başka bir sunucu, takma ad veya oda parolası belirtebilirsiniz.
 # $commandName (String): command name
 command-part2 = { $commandName } [&lt;message&gt;]: İsterseniz bir mesaj bırakarak mevcut odadan ayrılın.
 # $commandName (String): command name
@@ -280,7 +280,7 @@ command-inviteto = { $commandName } &lt;room jid&gt;[&lt;password&gt;]: Sohbet o
 # $commandName (String): command name
 command-me = { $commandName } &lt;action to perform&gt;: Bir hareketi yerine getirin.
 # $commandName (String): command name
-command-nick = { $commandName } &lt;yeni rumuz&gt;: Rumuzunuzu değiştirir.
+command-nick = { $commandName } &lt;yeni takma ad&gt;: Takma adınızı değiştirir.
 # $commandName (String): command name
 command-msg = { $commandName } &lt;nick&gt; &lt;message&gt;: Odadaki bir katılımcıya özel ileti gönderin.
 # $commandName (String): command name

@@ -48,19 +48,19 @@ command-action = { $commandName } &lt;uygulanacak eylem&gt;: Bir eylem gerçekle
 # $commandName is the command name
 command-ban = { $commandName } &lt;nick!user@host&gt;: Bu örneğe uyan kullanıcıları yasakla.
 # $commandName is the command name
-command-ctcp = { $commandName } &lt;rumuz&gt; &lt;mesaj&gt;: Rumuza bir CTCP iletisi gönderir.
+command-ctcp = { $commandName } &lt;takma ad&gt; &lt;mesaj&gt;: Takma ada bir CTCP iletisi gönderir.
 # $commandName is the command name
 command-chanserv = { $commandName } &lt;komut&gt;: ChanServ'e bir komut gönder.
 # $commandName is the command name
-command-deop = { $commandName } &lt;rumuz1&gt;[,&lt;rumuz2&gt;]*: Birisinin kanal operatörü durumunu kaldırır. Bunu yapmak için kanal operatörü olmalısınız.
+command-deop = { $commandName } &lt;takma ad1&gt;[,&lt;takma ad2&gt;]*: Birisinin kanal operatörü durumunu kaldırır. Bunu yapmak için kanal operatörü olmalısınız.
 # $commandName is the command name
-command-devoice = { $commandName } &lt;rumuz1&gt;[,&lt;rumuz2&gt;]*: Birisinin kanal ses durumunu kaldırarak kanal moderasyonlu (+m) ise konuşmalarını engeller. Bunu yapmak için kanal operatörü olmalısınız.
+command-devoice = { $commandName } &lt;takma ad1&gt;[,&lt;takma ad2&gt;]*: Birisinin kanal ses durumunu kaldırarak kanal moderasyonlu (+m) ise konuşmalarını engeller. Bunu yapmak için kanal operatörü olmalısınız.
 # $commandName is the command name
-command-invite2 = { $commandName } &lt;rumuz&gt;[ &lt;rumuz&gt;]* [&lt;kanal&gt;]: Bir veya daha fazla kişiyi bulunduğunuz veya belirttiğiniz kanala davet edin.
+command-invite2 = { $commandName } &lt;takma ad&gt;[ &lt;takma ad&gt;]* [&lt;kanal&gt;]: Bir veya daha fazla kişiyi bulunduğunuz veya belirttiğiniz kanala davet eder.
 # $commandName is the command name
 command-join = { $commandName } &lt;oda1&gt;[ &lt;anahtar1&gt;][,&lt;oda2&gt;[ &lt;anahtar2&gt;]]*: Bir veya daha fazla kanal girin; gerekirse her birine bir kanal anahtarı sağlayın.
 # $commandName is the command name
-command-kick = { $commandName } &lt;rumuz&gt; [&lt;ileti&gt;]: Birisini kanaldan çıkar. Bunu yapmak için kanal operatörü olmalısınız.
+command-kick = { $commandName } &lt;takma ad&gt; [&lt;ileti&gt;]: Birisini kanaldan çıkar. Bunu yapmak için kanal operatörü olmalısınız.
 # $commandName is the command name
 command-list = { $commandName }: Ağdaki sohbet odalarının listesini gösterir. Uyarı: Bazı sunucular bunu yaptığınızda bağlantınızı kesebilir.
 # $commandName is the command name
@@ -70,21 +70,21 @@ command-mode-user2 = { $commandName } &lt;nick&gt; [(+|-)&lt;mode&gt;]: Kullanı
 # $commandName is the command name
 command-mode-channel2 = { $commandName } [&lt;channel&gt;] [(+|-)&lt;yeni mod&gt; [&lt;parameter&gt;][,&lt;parameter&gt;]*]: Kanalın modunu öğren, ayarla veya ayarı değiştir.
 # $commandName is the command name
-command-msg = { $commandName } &lt;rumuz&gt; &lt;ileti&gt;: Bir kullanıcıya özel ileti gönder. (Odaya değil.)
+command-msg = { $commandName } &lt;takma ad&gt; &lt;ileti&gt;: Bir kullanıcıya özel ileti gönderir. (Odaya değil.)
 # $commandName is the command name
-command-nick = { $commandName } &lt;yeni rumuz&gt;: Rumuzunuzu değiştirir.
+command-nick = { $commandName } &lt;yeni takma ad&gt;: Takma adınızı değiştirir.
 # $commandName is the command name
 command-nickserv = { $commandName } &lt;komut&gt;: NickServ'e komut gönderir.
 # $commandName is the command name
 command-notice = { $commandName } &lt;hedef&gt; &lt;ileti&gt;: Bir kullanıcıya veya kanala bildirim gönderir.
 # $commandName is the command name
-command-op = { $commandName } &lt;rumuz1&gt;[,&lt;rumuz2&gt;]*: Birisine kanal operatörü yetkisi verir. Bunu yapmak için kanal operatörü olmalısınız.
+command-op = { $commandName } &lt;takma ad1&gt;[,&lt;takma ad2&gt;]*: Birisine kanal operatörü yetkisi verir. Bunu yapmak için kanal operatörü olmalısınız.
 # $commandName is the command name
 command-operserv = { $commandName } &lt;komut&gt;: OperServ'e komut gönderir.
 # $commandName is the command name
 command-part = { $commandName } [ileti]: İsteğe bağlı bir iletiyle mevcut kanaldan ayrıl.
 # $commandName is the command name
-command-ping = { $commandName } [&lt;rumuz&gt;]: Kullanıcının (belirtilmediyse sunucunun) ne kadar gecikmesi olduğunun öğren.
+command-ping = { $commandName } [&lt;takma ad&gt;]: Kullanıcının (veya kullanıcı belirtilmediyse sunucunun) ne kadar gecikmesi olduğunu sorgular.
 # $commandName is the command name
 command-quit = { $commandName } &lt;ileti&gt;: İsteğe bağlı bir iletiyle sunucudan ayrıl.
 # $commandName is the command name
@@ -96,11 +96,11 @@ command-topic = { $commandName } [&lt;yeni konu&gt;]: Bu kanalın konusunu ayarl
 # $commandName is the command name
 command-umode = { $commandName } (+|-)&lt;yeni kip&gt;: Kullanıcı kipini ayarlar.
 # $commandName is the command name
-command-version = { $commandName } &lt;rumuz&gt;: Kullanıcının istemci sürümünü talep eder.
+command-version = { $commandName } &lt;takma ad&gt;: Kullanıcının istemci sürümünü talep eder.
 # $commandName is the command name
-command-voice = { $commandName } &lt;rumuz1&gt;[,&lt;rumuz2&gt;]*: Birisine kanal operatörü yetkisi verir. Bunu yapmak için kanal operatörü olmalısınız.
+command-voice = { $commandName } &lt;takma ad1&gt;[,&lt;takma ad2&gt;]*: Birisine kanal operatörü yetkisi verir. Bunu yapmak için kanal operatörü olmalısınız.
 # $commandName is the command name
-command-whois2 = { $commandName } [&lt;rumuz&gt;]: Bir kullanıcı hakkında bilgi alın.
+command-whois2 = { $commandName } [&lt;rumuz&gt;]: Bir kullanıcı hakkında bilgi verir.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $nick is the nick and $nickAndHost is the nick and host of the user who joined.
