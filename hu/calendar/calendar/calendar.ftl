@@ -357,6 +357,7 @@ html-task-completed = { $task } (kész)
 # Categories
 add-category = Kategória hozzáadása
 multiple-categories = Több kategória
+no-categories = Nincs
 calendar-today = Ma
 calendar-tomorrow = Holnap
 yesterday = Tegnap
