@@ -150,8 +150,10 @@ menu-edit-unsubscribe-newsgroup =
 menu-edit-delete-messages =
     .label =
         { $count ->
-            [one] Powěsć lašowaś
-           *[other] Wubrane powěsći lašowaś
+            [one] { $count } powěsć lašowaś
+            [two] { $count } wubranej powěsći lašowaś
+            [few] { $count } wubrane powěsći lašowaś
+           *[other] { $count } wubranych powěsćow lašowaś
         }
     .accesskey = l
 # Variables:
@@ -159,8 +161,10 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Powěsć wótnowiś
-           *[other] Wubrane powěsći wótnowiś
+            [one] { $count } powěsć wótnowiś
+            [two] { $count } wubranej powěsći wótnowiś
+            [few] { $count } wubrane powěsći wótnowiś
+           *[other] { $count } wubranych powěsćow wótnowiś
         }
     .accesskey = o
 menu-edit-properties =
@@ -257,8 +261,10 @@ mail-context-delete-messages =
 mail-context-undelete-messages =
     .label =
         { $count ->
-            [one] Powěsć wótnowiś
-           *[other] Wubrane powěsći wótnowiś
+            [one] { $count } powěsć wótnowiś
+            [two] { $count } wubranej powěsći wótnowiś
+            [few] { $count } wubrane powěsći wótnowiś
+           *[other] { $count } wubranych powěsćow wótnowiś
         }
 # Variables:
 # $count (Number) - Number of selected messages.
