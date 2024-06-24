@@ -18,6 +18,14 @@ about-addressbook-toolbar-new-list =
     .label = Listë e Re
 about-addressbook-toolbar-import =
     .label = Importo
+books-pane-create-contact-button = Kontakt i Ri
+    .title = Krijoni një kontakt të ri
+books-pane-create-book-button =
+    .title = Krijoni libër të ri adresash
+books-pane-create-list-button =
+    .title = Krijoni një listë të re postimesh
+books-pane-import-button = Importo
+    .title = Importoni libra adresash
 
 ## Books
 
@@ -66,6 +74,11 @@ about-addressbook-search =
     .placeholder = Kërko për { $name }
 about-addressbook-search-all =
     .placeholder = Kërko në krejt librat e adresave
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Kërko te { $name }
+    .placeholder = Kërkoni te { $name }…
 about-addressbook-sort-button2 =
     .title = Mundësi shfaqjeje liste
 about-addressbook-name-format-display =

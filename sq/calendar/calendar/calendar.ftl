@@ -358,6 +358,7 @@ html-task-completed = { $task } (përmbushur)
 # Categories
 add-category = Shtoni Kategori
 multiple-categories = kategori të Shumëfishta
+no-categories = Asnjë
 calendar-today = Sot
 calendar-tomorrow = Nesër
 yesterday = Dje

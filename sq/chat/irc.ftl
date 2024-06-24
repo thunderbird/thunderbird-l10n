@@ -16,6 +16,7 @@ connection-error-time-out = Lidhjes i mbaroi koha
 connection-error-invalid-username = { $username } nuk është emër i lejuar përdoruesi
 connection-error-invalid-password = Fjalëkalim i pavlefshëm shërbyesi
 connection-error-password-required = Lypset fjalëkalim
+connection-error-invalid-user-password = Fjalëkalim i pavlefshëm
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanal

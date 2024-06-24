@@ -16,6 +16,7 @@ accounts-default = Parazgjedhje?
 identity-name = Identitet
 send-via-email = Dërgoje përmes email-i
 app-basics-telemetry = Të dhëna Telemetry-e
+app-basics-glean = Të dhëna Glean
 app-basics-cache-use = Përdorim Fshehtine
 mail-libs-title = Biblioteka
 libs-table-heading-library = Bibliotekë

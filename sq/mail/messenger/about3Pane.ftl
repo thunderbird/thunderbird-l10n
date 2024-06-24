@@ -118,6 +118,8 @@ quick-filter-bar-textbox =
     .placeholder = Filtrojini këto mesazhe <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search =
     .label = Filtroni mesazhe:
+quick-filter-bar-search2 =
+    .label = Filtroni mesazhe
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -525,3 +527,17 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Menu mesazhesh
+message-list-placeholder-no-messages = S’u gjet mesazh
+message-list-placeholder-multiple-folders = Janë përzgjedhur shumë dosje
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Vëri Shenjë Dosjese Si të Lexuar
+           *[other] Vëru Shenjë Dosjeve Si të Lexuara
+        }
+    .accesskey = V

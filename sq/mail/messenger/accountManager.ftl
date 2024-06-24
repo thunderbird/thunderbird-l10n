@@ -12,3 +12,6 @@ edit-vcard-dialog-accept-button = Ruaje
     .accesskey = R
 edit-vcard-dialog-cancel-button = Anuloje
     .accesskey = A
+account-manager-server-default-icon =
+    .title = Llogari parazgjedhje
+    .alt = Ikonë yll
