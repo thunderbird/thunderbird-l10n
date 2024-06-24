@@ -106,7 +106,9 @@ timezone-error = Njeznata a njedefiněrowana casowa cona jo se pśi cytanju { $f
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] { $count } zapiskow jo se ignorěrowało, dokulaž eksistěruju ako w celowem kalenderu tak teke w { $filePath }.
+        [one] { $count } zapiskow jo se ignorěrowało, dokulaž eksistěrujo ako w celowem kalenderu tak teke w { $filePath }.
+        [two] { $count } zapiska stej se ignorěrowałej, dokulaž eksistěrujotej ako w celowem kalenderu tak teke w { $filePath }.
+        [few] { $count } zapiski si se ignorěrowali, dokulaž eksistěruju ako w celowem kalenderu tak teke w { $filePath }.
        *[other] { $count } zapiskow jo se ignorěrowało, dokulaž eksistěruju ako w celowem kalenderu tak teke w { $filePath }.
     }
 # $location unknown calendar location
