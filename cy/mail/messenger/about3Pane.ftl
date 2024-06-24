@@ -610,11 +610,11 @@ message-list-placeholder-multiple-folders = Ffolderi lluosog wedi'u dewis
 folder-pane-context-mark-folder-read =
     .label =
         { $count ->
-            [zero] Darllen Ffolderi Marcio
+            [zero] Marcio Ffolder Wedi'u Darllen
             [one] Marcio Ffolder Wedi'i Ddarllen
-            [two] Darllen Ffolderi Marcio
-            [few] Darllen Ffolderi Marcio
-            [many] Darllen Ffolderi Marcio
-           *[other] Darllen Ffolderi Marcio
+            [two] Marcio Ffolder Wedi'u Darllen
+            [few] Marcio Ffolder Wedi'u Darllen
+            [many] Marcio Ffolder Wedi'u Darllen
+           *[other] Marcio Ffolder Wedi'u Darllen
         }
-    .accesskey = D
+    .accesskey = M

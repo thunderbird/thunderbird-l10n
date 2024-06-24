@@ -13,5 +13,5 @@ edit-vcard-dialog-accept-button = Cadw
 edit-vcard-dialog-cancel-button = Diddymu
     .accesskey = D
 account-manager-server-default-icon =
-    .title = Cyfrif diofyn
+    .title = Cyfrif rhagosodedig
     .alt = Eicon seren

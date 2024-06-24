@@ -10,7 +10,7 @@ info-already-expired = Mae'r allwedd hon eisoes wedi dod i ben.
 info-does-not-expire = Mae'r allwedd hon wedi'i ffurfweddu i beidio byth â dod i ben.
 info-explanation-1 = <b>Ar ôl i allwedd ddod i ben</b>, nid yw bellach yn bosibl ei defnyddio ar gyfer amgryptio neu arwyddo digidol.
 # Do not translate: OpenPGP
-info-explanation-1-complex = Mae'r allwedd OpenPGP hon yn cynnwys allwedd gynradd ac o leiaf un iskey <b>gyda dyddiadau dod i ben gwahanol</b>.
+info-explanation-1-complex = Mae'r allwedd OpenPGP hon yn cynnwys allwedd gynradd ac o leiaf un isallwedd <b>gyda dyddiadau dod i ben gwahanol</b>.
 select-key-prompt = Allwedd i newid:
 info-explanation-2 = I ddefnyddio'r allwedd hon am gyfnod hirach, newidiwch ei dyddiad dod i ben, ac yna rhannwch yr allwedd gyhoeddus gyda'ch partneriaid sgwrsio eto.
 usage-label = Defnydd:
