@@ -361,6 +361,7 @@ html-task-completed = { $task } (dien)
 # Categories
 add-category = Kategory tafoegje
 multiple-categories = Mear kategoryën
+no-categories = Gjin
 calendar-today = Hjoed
 calendar-tomorrow = Moarn
 yesterday = Juster
