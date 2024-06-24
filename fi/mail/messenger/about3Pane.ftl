@@ -533,3 +533,12 @@ message-list-placeholder-multiple-folders = Useita kansioita valittu
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Merkitse kansio luetuksi
+           *[other] Merkitse kansiot luetuksi
+        }
+    .accesskey = k

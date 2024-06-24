@@ -357,6 +357,7 @@ html-task-completed = { $task } (suoritettu)
 # Categories
 add-category = Lisää tapahtumatyyppi
 multiple-categories = Useita tapahtumatyyppejä
+no-categories = Ei mitään
 calendar-today = Tänään
 calendar-tomorrow = Huomenna
 yesterday = Eilen
