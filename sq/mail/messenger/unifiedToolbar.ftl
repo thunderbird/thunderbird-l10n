@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Kërko
 search-bar-item =
     .label = Kërko:
+search-bar-item2 =
+    .label = Kërko
 search-bar-placeholder = Kërkoni…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Ruaje
 customize-unsaved-changes = Ndryshime të paruajtura në hapësira të tjera
 customize-search-bar =
     .label = Butona paneli kërkimesh…
+customize-search-bar2 =
+    .label = Butona paneli kërkimesh
+    .placeholder = Butona paneli kërkimesh…
 customize-spaces-tabs =
     .aria-label = Hapësira
 customize-main-toolbar-target =
