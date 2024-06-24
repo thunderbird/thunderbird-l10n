@@ -16,6 +16,7 @@ connection-error-time-out = Կապի հաստատման ժամանակը սպա�
 connection-error-invalid-username = { $username }-ը ընդունելի մականուն չէ
 connection-error-invalid-password = Սպասարկիչի գաղտնաբառը սխալ է
 connection-error-password-required = Պահանջվում է գաղտնաբառ
+connection-error-invalid-user-password = Անվավեր գաղտնաբառ
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Channel
