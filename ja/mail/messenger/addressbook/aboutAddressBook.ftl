@@ -18,6 +18,14 @@ about-addressbook-toolbar-new-list =
     .label = 新しいアドレスリスト
 about-addressbook-toolbar-import =
     .label = インポート
+books-pane-create-contact-button = 新しい連絡先
+    .title = 新しい連絡先を作成します
+books-pane-create-book-button =
+    .title = 新しいアドレス帳を作成します
+books-pane-create-list-button =
+    .title = 新しいアドレスリストを作成します
+books-pane-import-button = インポート
+    .title = アドレス帳をインポートします
 
 ## Books
 
@@ -66,6 +74,14 @@ about-addressbook-search =
     .placeholder = { $name } を検索
 about-addressbook-search-all =
     .placeholder = すべてのアドレス帳を検索
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = { $name } を検索
+    .placeholder = { $name } を検索...
+about-addressbook-search-all2 =
+    .label = すべてのアドレス帳を検索
+    .placeholder = すべてのアドレス帳を検索...
 about-addressbook-sort-button2 =
     .title = リスト表示のオプションです
 about-addressbook-name-format-display =

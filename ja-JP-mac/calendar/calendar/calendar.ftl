@@ -271,6 +271,7 @@ cal-dav-redirect-disable-calendar = カレンダーを無効化
 #   Australia/Brisbane likelier than Antarctica/DumontDUrville
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
+# (^m^) 日本語を公用語として定めている地域を追加する (現在はパラオ共和国アンガウル州のみ)
 likely-timezone = Asia/Tokyo, Pacific/Palau
 # Guessed Timezone errors and warnings.
 # Testing note:
@@ -353,6 +354,7 @@ html-task-completed = { $task } (完了)
 # Categories
 add-category = カテゴリーを追加
 multiple-categories = 複数のカテゴリー
+no-categories = なし
 calendar-today = 今日
 calendar-tomorrow = 明日
 yesterday = 昨日
@@ -428,7 +430,7 @@ error-description = 詳細: { $errorDescription }
 error-writing2 = カレンダー { $name } への書き込み中にエラーが発生しました。詳細は以下をご覧ください。
 # LOCALIZATION NOTE (error-writing-details):
 # This will be displayed in the detail section of the error dialog
-error-writing-details = 予定の追加や編集を行わないカレンダーでアラームの再通知後または停止後にこのメッセージが表示された場合は、問題を避けるため、このカレンダーを読み込み専用にしてください。カレンダーリストまたは ToDo ビューでこのカレンダーを右クリックし、カレンダーの“情報を見る”から変更できます。
+error-writing-details = 予定の追加や編集を行わないカレンダーでアラームの再通知後または停止後にこのメッセージが表示された場合は、問題を避けるため、このカレンダーを読み込み専用にしてください。カレンダーリストまたは ToDo ビューでこのカレンダーを右クリックし、カレンダーの “情報を見る” から変更できます。
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
@@ -440,6 +442,7 @@ tooltip-calendar-disabled =
 tooltip-calendar-read-only =
     .title = カレンダー { $name } は読み込み専用です
 task-edit-instructions = 新規 ToDo を追加
+# (^a^) Readonly だけでなく無効な場合にも表示される
 task-edit-instructions-readonly = このカレンダーには書き込めません
 task-edit-instructions-capability = このカレンダーでは ToDo を使用できません
 event-details-start-date = 開始日時:
