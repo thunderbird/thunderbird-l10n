@@ -106,8 +106,10 @@ timezone-error = Pri branju { $filePath } je bil najden neznan in nedoločen ča
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] { $count } elementov je bilo prezrtih, saj obstajajo tako v ciljnem koledarju kot v { $filePath }.
-       *[other] { $count } elementov je bilo prezrtih, saj obstajajo tako v ciljnem koledarju kot v { $filePath }.
+        [one] { "{ $count } element je bil prezrt, saj obstaja tako v ciljnem koledarju kot v { $filePath }." }
+        [two] { "{ $count } elementa sta bila prezrta, saj obstajata tako v ciljnem koledarju kot v { $filePath }." }
+        [few] { "{ $count } elementi so bili prezrti, saj obstajajo tako v ciljnem koledarju kot v { $filePath }." }
+       *[other] { "{ $count } elementov je bilo prezrtih, saj obstajajo tako v ciljnem koledarju kot v { $filePath }." }
     }
 # $location unknown calendar location
 unable-to-create-provider = Pri pripravi koledarja na naslovu { $location } je prišlo do napake. Zato ne bo na voljo.
