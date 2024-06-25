@@ -3,3 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-recurrence-preview-label = Pratinjau
+calendar-recurrence-next = Bulan Depan
+calendar-recurrence-previous = Bulan Sebelumnya
+calendar-recurrence-today = Hari Ini

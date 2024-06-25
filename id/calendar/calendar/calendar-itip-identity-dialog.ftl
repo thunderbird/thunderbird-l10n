@@ -4,4 +4,5 @@
 
 calendar-itip-identity-warning = Anda belum ada dalam daftar tamu.
 calendar-itip-identity-dialog-box-title = Tamu tak diundang
+calendar-itip-identity-label = Tanggapi sebagai:
 calendar-itip-identity-label-none = Kaitkan acara ini dengan:

@@ -4,6 +4,12 @@
 
 calendar-print-layout-label = Tata Letak
 calendar-print-layout-list = Daftar
+calendar-print-layout-month-grid = Kisi Bulanan
+calendar-print-layout-week-planner = Perencana Mingguan
+calendar-print-filter-label = Yang akan Dicetak
+calendar-print-filter-events = Acara
+calendar-print-filter-tasks = Tugas
+calendar-print-filter-completedtasks = Tugas yang selesai
 calendar-print-filter-taskswithnoduedate = Tugas tanpa tenggat waktu
 calendar-print-range-from = Dari
 calendar-print-range-to = Ke
