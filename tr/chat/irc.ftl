@@ -100,7 +100,7 @@ command-version = { $commandName } &lt;takma ad&gt;: Kullanıcının istemci sü
 # $commandName is the command name
 command-voice = { $commandName } &lt;takma ad1&gt;[,&lt;takma ad2&gt;]*: Birisine kanal operatörü yetkisi verir. Bunu yapmak için kanal operatörü olmalısınız.
 # $commandName is the command name
-command-whois2 = { $commandName } [&lt;rumuz&gt;]: Bir kullanıcı hakkında bilgi verir.
+command-whois2 = { $commandName } [&lt;takma ad&gt;]: Bir kullanıcı hakkında bilgi verir.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $nick is the nick and $nickAndHost is the nick and host of the user who joined.
