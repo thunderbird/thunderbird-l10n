@@ -348,6 +348,7 @@ html-task-completed = { $task } (已完成)
 # Categories
 add-category = 添加类别
 multiple-categories = 多重分类
+no-categories = 无
 calendar-today = 今天
 calendar-tomorrow = 明天
 yesterday = 昨天
