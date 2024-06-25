@@ -106,8 +106,9 @@ timezone-error = Pri čítaní súboru { $filePath } bolo nájdené neznáme ned
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] Niekoľko položiek (celkom { $count }) bolo ignorovaných, pretože existujú v cieľovom kalendári a aj v kalendári { $filePath }.
-       *[other] Niekoľko položiek (celkom { $count }) bolo ignorovaných, pretože existujú v cieľovom kalendári a aj v kalendári { $filePath }.
+        [one] Bola ignorovaná { $count } položka, pretože táto existuje v cieľovom kalendári aj v kalendári { $filePath }.
+        [few] Boli ignorované { $count } položky, pretože tieto existujú v cieľovom kalendári aj v kalendári { $filePath }.
+       *[other] Bolo ignorovaných { $count } položiek, pretože tieto existujú v cieľovom kalendári aj v kalendári { $filePath }.
     }
 # $location unknown calendar location
 unable-to-create-provider = Pri príprave kalendára umiestneného na { $location } na použitie sa vyskytla chyba. Dostupný nebude.
@@ -410,7 +411,7 @@ alarm-snooze-limit-exceeded =
     { $count ->
         [one] Budík nemôžete odložiť o viac ako { $count } mesiac.
         [few] Budík nemôžete odložiť o viac ako { $count } mesiace.
-       *[other] Budík nemôžete odložiť o viac ako { $count } mesiace.
+       *[other] Budík nemôžete odložiť o viac ako { $count } mesiacov.
     }
 task-details-status-needs-action = Vyžaduje akciu
 # LOCALIZATION NOTE (task-details-status-in-progress):
