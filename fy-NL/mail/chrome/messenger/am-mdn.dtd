@@ -12,7 +12,7 @@
 <!ENTITY requestReceipt.label         "Altyd in lêsbefêstiging freegje by it ferstjoeren fan berjochten">
 <!ENTITY requestReceipt.accesskey     "t">
 <!ENTITY receiptArrive.label          "As in lêsbefêstiging oankomt:">
-<!ENTITY leaveIt.label                "Dy yn myn Postfek YN stean litte">
+<!ENTITY leaveIt.label                "Dizze yn myn Postfek YN stean litte">
 <!ENTITY leaveIt.accesskey            "l">
 <!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent' according to Netscape glossary -->
 <!ENTITY moveToSent.label             "Dy nei myn map &quot;Ferstjoerd&quot; ferpleatse">
