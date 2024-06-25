@@ -4,6 +4,10 @@
 
 e2e-intro-description = Që të dërgoni mesazhe të fshehtëzuar ose të nënshkruar në mënyrë dixhitale, ju duhet të formësoni një teknologji fshehtëzimi, OpenPGP ose S/MIME.
 e2e-intro-description-more = Që të aktivizohet përdorimi i OpenGPG-së, përzgjidhni kyçin tuaj personal, ose dëshminë tuaj personale që të aktivizohet përdorimi i S/MIME-s. Për një kyç apo dëshmi personale, zotëroni kyçin përkatës të fshehtë.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Që të merrni një dëshmi të re personale S/MIME, krijoni një Kërkesë Nënshkrimi Dëshmie (CSR) dhe parashtrojeni te një Autoritet Dëshmish (AD).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Përzgjidhni një drejtori vendore dhe emër kartele për kartelën tuaj CSR dhe përgjigjuni pyetjeve vijuese lidhur me caktimin e algoritmit dhe fortësisë.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Prodho CSR
 # A label for a button that proceeds to the next step
@@ -15,6 +19,10 @@ e2e-csr-button =
     .label = Prodhoni dhe ruajeni një kartelë CSR si…
 # Do not translate: CSR
 e2e-csr-select-title = Algoritëm CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Zgjidhni mes RSA (e rekomanduar), ose ECC, si algoritmi juaj kriptografik, për dëshminë e re S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Zgjidhni fortësinë kriptografike që dëshironi (më shpejt, me numra më të vegjël, ose më tepër siguri me numra më të mëdhenj) për dëshminë tuaj të re S/MIME, ose mbani ujdisjen parazgjedhje.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Përfshi në CSR adresë email ({ $email }) (e rekomanduar)

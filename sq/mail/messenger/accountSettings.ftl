@@ -4,3 +4,5 @@
 
 account-settings-color-label = Ngjyrë:
     .accesskey = N
+account-settings-reset-color-button =
+    .title = Ktheje ngjyrën te parazgjedhja
