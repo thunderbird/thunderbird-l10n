@@ -23,6 +23,11 @@ e2e-csr-select-title = Algoritëm CSR
 e2e-csr-select-alg = Zgjidhni mes RSA (e rekomanduar), ose ECC, si algoritmi juaj kriptografik, për dëshminë e re S/MIME.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Zgjidhni fortësinë kriptografike që dëshironi (më shpejt, me numra më të vegjël, ose më tepër siguri me numra më të mëdhenj) për dëshminë tuaj të re S/MIME, ose mbani ujdisjen parazgjedhje.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Te rregullimet e { -brand-short-name }-it do të prodhohet një kyç i ri i fshehtë { $type } { $strength }. Ky proces mund të dojë pak kohë dhe mund të shkaktojë mungesë të përkohshme reagimi nga kompjuteri; ju lutemi, bëni durim gjatë këtij hapi. Ndërkohë do të krijohet kartela Kërkesë Nënshkrimi Dëshmish (CSR), e ruajtur si { $file }.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Përfshi në CSR adresë email ({ $email }) (e rekomanduar)
@@ -670,6 +675,9 @@ confirm-permissive-import = Importi dështoi. Kyçi që po provoni të importoni
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Disa nga kyçet e fshehtë të importuar kanë një veçori që s’mbulohet. Nëse përdorni një ky të tillë si kyçin tuaj personal, korrespondentët mund t’ju dërgojnë email-e, ose kyçe publikë në një format që s’përkon. Kjo prek kyçet e fshehtë të importuar me shenja vijuese gishtash: { $fingerprints }.
 help-button = Ndihmë
 
 ## Strings used in trust.sys.mjs
