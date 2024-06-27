@@ -17,7 +17,7 @@ ask-save-message-event = 事件还未保存，您想保存吗？
 ask-save-message-task = 任务还未保存，您想保存吗？
 # Event Dialog Warnings
 warning-end-before-start = 您输入的结束日期早于开始日期
-warning-until-date-before-start = 截止日期在开始日期之前
+warning-until-date-before-start = 结束日期早于开始日期
 # The name of the calendar provided with the application by default
 home-calendar-name = 主日历
 # The name given to a calendar if an opened calendar has an empty filename
