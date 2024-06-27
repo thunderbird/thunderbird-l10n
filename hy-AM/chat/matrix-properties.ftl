@@ -64,6 +64,20 @@ power-level-default-role = Կանխադրված դերը՝ { $powerLevelName }
 #    $value will typically be strings with the actual values.
 # $value Example placeholder: "Foo bar"
 detail-name = Անուն. { $value }
+# $value Example placeholder: "5"
+detail-version = Սենյակի տարբերակը՝ { $value }
+# $value Example placeholder: "#thunderbird:mozilla.org"
+detail-room-id = Սենյակի ID՝ { $value }
+# $value are all admin users. Example: "@foo:example.com, @bar:example.com"
+detail-admin = Վարիչ՝ { $value }
+# $value are all moderators. Example: "@lorem:mozilla.org, @ipsum:mozilla.org"
+detail-moderator = Մոդերատոր՝ { $value }
+# $value Example placeholder: "#thunderbird:matrix.org"
+detail-alias = Փոխանուն՝ { $value }
+# $value Example placeholder: "can_join"
+detail-guest = Հյուրերի մուտք՝ { $value }
+# This is a heading, followed by the power-level-* strings
+detail-power = Հզորության մակարդակներ՝
 #    $user is the name of the user who accepted an invitation.
 message-accepted-invite = { $user }-ն ընդունել է հրավերը:
 #    $user is the name of the user who invited.
