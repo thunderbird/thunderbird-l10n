@@ -357,6 +357,7 @@ html-task-completed = { $task } (cumplettà)
 # Categories
 add-category = Agiuntar ina categoria
 multiple-categories = Pliras categorias
+no-categories = Nagina
 calendar-today = Oz
 calendar-tomorrow = Damaun
 yesterday = Ier
