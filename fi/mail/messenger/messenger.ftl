@@ -188,9 +188,21 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Merkitse luetuksi
+    .tooltiptext = Merkitse luetuksi
+context-menu-mark-unread =
+    .aria-label = Merkitse lukemattomaksi
+    .tooltiptext = Merkitse lukemattomaksi
 context-menu-mark-reply =
     .aria-label = Vastaa
     .tooltiptext = Vastaa
+context-menu-archive =
+    .aria-label = Arkistoi
+    .tooltiptext = Arkistoi
+context-menu-mark-junk =
+    .aria-label = Merkitse roskapostiksi
+    .tooltiptext = Merkitse roskapostiksi
 mail-context-menu-open =
     .label = Avaa
     .accesskey = A
@@ -200,6 +212,21 @@ mail-context-menu-reply =
 mail-context-menu-forward-forward =
     .label = Välitä
     .accesskey = ä
+mail-context-menu-forward-inline =
+    .label = Viestiin sisällytettynä
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Liitteenä
+           *[other] Liitteinä
+        }
+    .accesskey = L
+mail-context-menu-organize =
+    .label = Järjestä
+    .accesskey = J
 context-menu-redirect-msg =
     .label = Uudelleenohjaa
 # This menu item is for canceling an NNTP message
