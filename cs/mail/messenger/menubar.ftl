@@ -26,6 +26,13 @@ menu-help-get-help =
 menu-help-explore-features =
     .label = Prozkoumejte všechny funkce
     .accesskey = P
+menu-help-get-release-help =
+    .label =
+        { -brand-short-name.case-status ->
+            [with-cases] Získat pomoc s { -brand-short-name(case: "ins") }
+           *[no-cases] Získat pomoc s aplikací { -brand-short-name }
+        }
+    .accesskey = p
 menu-help-shortcuts =
     .label = Klávesové zkratky
     .accesskey = K
