@@ -153,6 +153,12 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-reply =
+    .aria-label = Svar
+    .tooltiptext = Svar
+context-menu-archive =
+    .aria-label = Arkiver
+    .tooltiptext = Arkiver
 mail-context-menu-forward-forward =
     .label = Vidaresend
     .accesskey = V
