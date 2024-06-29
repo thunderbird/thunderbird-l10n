@@ -159,9 +159,36 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arkiver
     .tooltiptext = Arkiver
+context-menu-mark-junk =
+    .aria-label = Merk som søppel
+    .tooltiptext = Merk som søppel
+mail-context-menu-open =
+    .label = Opne
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Svar
+    .accesskey = S
+mail-context-menu-forward-redirect =
+    .label = Vidaresend og omdiriger
+    .accesskey = V
 mail-context-menu-forward-forward =
     .label = Vidaresend
     .accesskey = V
+mail-context-menu-forward-inline =
+    .label = Innebygd
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Som vedlegg
+           *[other] Som vedlegg
+        }
+    .accesskey = S
+mail-context-menu-organize =
+    .label = Organiser
+    .accesskey = O
 mail-context-menu-threads =
     .label = Trådar
     .accesskey = T
@@ -172,12 +199,41 @@ context-menu-cancel-msg =
     .label = Avbryt melding
 # Variables:
 # $count (Number) - Number of selected messages.
+mail-context-delete-messages =
+    .label =
+        { $count ->
+            [one] Slett melding
+           *[other] Slett valde meldingar
+        }
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
     .label =
         { $count ->
             [one] Angre sletting av melding
            *[other] Angre valde meldingar
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Slett melding
+           *[other] Slett valde meldingar
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Angre sletting av melding
+           *[other] Angre sletting av valde meldingar
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
+context-menu-decrypt-to-folder2 =
+    .label = Lag dekryptert kopi i
+    .accesskey = a
 
 ## Message header pane
 
@@ -186,6 +242,10 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Med stjerne
     .aria-label = Med stjerne
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = Profilbilde for { $address }.
 
 ## Message header cutomize panel
 
@@ -202,6 +262,9 @@ message-header-button-style-text =
     .label = Tekst
 message-header-button-style-icons =
     .label = Ikon
+message-header-show-sender-full-address =
+    .label = Vis alltid fullstendig adresse til avsendar
+    .accesskey = V
 message-header-show-big-avatar =
     .label = Større profilbilde
     .accesskey = S

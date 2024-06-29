@@ -8,3 +8,9 @@
 tree-list-view-column-picker =
     .title = Vel kolonner du vil vise
 tree-list-view-row-watched-thread = Tråden vert overvaka
+tree-list-view-row-spam =
+    .alt = Spamstatus-ikon
+    .title = Meldingar merkte som spam
+tree-list-view-row-not-spam =
+    .alt = Spamstatus-ikon
+    .title = Meldingar ikkje merkte som spam
