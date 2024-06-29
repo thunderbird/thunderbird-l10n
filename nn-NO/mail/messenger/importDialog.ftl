@@ -18,3 +18,4 @@ zip-file-too-big-title = Zip-fila er for stor
 zip-file-too-big-message = Den valde zip-fila er større enn 2GB. Pakk henne ut først, importer så frå den utpakka fila i staden.
 wizardpage-failed =
     .label = Mislykka import
+wizardpage-failed-message = Uventa mislykka import, meir informasjon kan vere tilgjengeleg i feilkonsollen.
