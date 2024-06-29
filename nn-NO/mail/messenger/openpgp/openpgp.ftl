@@ -4,6 +4,18 @@
 
 e2e-intro-description = For å sende krypterte eller digitalt signerte meldingar, må du konfigurere ein krypteringsteknologi, anten OpenPGP eller S/MIME.
 e2e-intro-description-more = Vel den personlege nøkkelen din for å slå på OpenPGP, eller det personlege sertifikatet ditt for å slå på S/MIME. For ein personlig nøkkel eller eit sertifikat eig du den tilsvarande hemmelege nøkkelen.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Generer CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Hald fram
+# A label for a button that goes back one step
+e2e-csr-back = Tilbake
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Generer og lagre ei CSR-fil som…
+e2e-sign-message =
+    .label = Signer ukrypterte meldingar
+    .accesskey = u
 e2e-advanced-section = Avanserte innstillingar
 e2e-encrypt-drafts =
     .label = Lagre utkast til meldingar i kryptert format

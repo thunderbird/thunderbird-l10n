@@ -313,6 +313,8 @@ spaces-toolbar-button-settings2 =
     .title = Innstillingar
 spaces-context-new-tab-item =
     .label = Opne i ny fane
+spaces-context-new-window-item =
+    .label = Opne i nytt vindauge
 # Variables:
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
@@ -354,6 +356,7 @@ chat-button-unread-messages = { $count }
 menuitem-customize-label =
     .label = Tilpass…
 spaces-customize-background-color = Bakgrunnsfarge
+spaces-customize-icon-color = Knappefarge
 customize-panel-button-save = Ferdig
     .accesskey = F
 
