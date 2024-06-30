@@ -571,6 +571,9 @@ primary-password-description = Hasło główne chroni wszystkie hasła użytkown
 primary-password-label =
     .label = Używaj hasła głównego
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Wymagaj zalogowania się na urządzeniu, aby wypełniać hasła i zarządzać nimi
 primary-password-button =
     .label = Zmień hasło główne…
     .accesskey = h
