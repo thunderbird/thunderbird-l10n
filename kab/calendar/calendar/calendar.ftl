@@ -358,6 +358,7 @@ html-task-completed = { $task } (immed)
 # Categories
 add-category = Rnu taggayt
 multiple-categories = Deqs n taggayin
+no-categories = Ula yiwen
 calendar-today = Ass-a
 calendar-tomorrow = Azekka
 yesterday = Iḍelli

@@ -16,6 +16,7 @@ connection-error-time-out = Akud n tuqqna yezri
 connection-error-invalid-username = { $username } mačči d isem ameɣtu
 connection-error-invalid-password = Awal uffir n uqeddac d arameɣtu
 connection-error-password-required = Awal uffir yesra
+connection-error-invalid-user-password = Awal n uεeddi d arameɣtu
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Abadu

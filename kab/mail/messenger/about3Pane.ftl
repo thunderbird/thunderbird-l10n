@@ -197,6 +197,8 @@ threadpane-column-header-select-all =
     .title = Fren akk iznan
 threadpane-column-label-select =
     .label = Fren iznan
+threadpane-cell-select =
+    .aria-label = Fren izen
 threadpane-column-label-thread =
     .label = Akala afessas
 threadpane-column-header-flagged =
@@ -215,6 +217,8 @@ threadpane-cell-attachments =
 threadpane-attachments-cell-label = Ticeqqufin yeddan
 threadpane-column-label-spam =
     .label = Aspam
+threadpane-cell-spam =
+    .aria-label = Addad n uspam
 threadpane-spam-cell-label = Aspam
 threadpane-column-label-unread-button =
     .label = Addad n tɣuri
@@ -423,3 +427,6 @@ apply-current-columns-to-folder-message = Snes tigejdan ukaram amiran i { $name 
 apply-current-columns-to-folder-with-children-message = Snes tigejdan ukaram amiran i { $name } d warraw-is?
 threadpane-card-menu-button =
     .title = Umuɣ n yiznan
+
+## Folder pane context menu
+
