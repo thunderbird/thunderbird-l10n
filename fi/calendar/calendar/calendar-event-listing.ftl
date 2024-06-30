@@ -47,7 +47,7 @@ calendar-event-listing-column-time-until-due =
     .tooltiptext = Lajittele sen mukaan milloin tehtävän tulee olla valmis
 calendar-event-listing-column-title =
     .label = Otsikko
-    .tooltiptext = Lajittele otsikon mukaan
+    .tooltiptext = Järjestä otsikon mukaan
 
 ## Interval dropdown options
 
