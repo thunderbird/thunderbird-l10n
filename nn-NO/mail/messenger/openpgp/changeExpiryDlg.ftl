@@ -9,8 +9,12 @@ info-will-expire = Denne nøkkelen er konfigurert til å gå ut den { $date }.
 info-already-expired = Denne nøkkelen har allereie gått ut.
 info-does-not-expire = Denne nøkkelen er for tida konfigurert til aldri å gå ut.
 info-explanation-1 = <b>Når ein nøkkel sluttar å gjelde</b> er det ikkje lenger råd å bruke han for kryptering eller digital signering.
+# Do not translate: OpenPGP
+info-explanation-1-complex = Denne OpenPGP-nøkkelen består av ein primærnøkkel og minst ein undernøkkel <b>med ulike utløpsdatoar</b>.
+select-key-prompt = Nøkkel som skal endrast:
 info-explanation-2 = Om du vil bruke denne nøkkelen over lenger tid, endrar du datoen for når han går ut, og deler så den offentlege nøkkelen med samtalepartnarane dine igjen.
 usage-label = Bruk:
+algorithm-label = Algoritme:
 created-label = Oppretta:
 expire-no-change-label = Ikkje endre går ut-dato
 expire-in-time-label = Nøkkelen går ut om:
