@@ -44,6 +44,7 @@ connection-request-access = Fullfører godkjenning
 connection-error-no-supported-flow = Sørvaren tilbyr ingen kompatibel innloggingsflyt.
 connection-error-auth-cancelled = Du avbraut godkjenningsprosessen.
 connection-error-session-ended = Økta vart logga ut.
+connection-error-server-not-found = Klarte ikkje å identifiere Matrix-sørvaren for den spesifiserte Matrix-kontoen.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.

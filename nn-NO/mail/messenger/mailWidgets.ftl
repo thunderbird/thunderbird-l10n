@@ -8,3 +8,6 @@ threadpane-apply-changes-prompt-title = Bruke endringane no?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 threadpane-apply-changes-prompt-no-children-text = Bruk gjeldande mappevising på { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+threadpane-apply-changes-prompt-with-children-text = Bruke gjeldande mappe på { $name } og underliggande mapper?
