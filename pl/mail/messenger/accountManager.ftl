@@ -12,3 +12,6 @@ edit-vcard-dialog-accept-button = Zapisz
     .accesskey = Z
 edit-vcard-dialog-cancel-button = Anuluj
     .accesskey = A
+account-manager-server-default-icon =
+    .title = Domyślne konto
+    .alt = Ikona gwiazdki
