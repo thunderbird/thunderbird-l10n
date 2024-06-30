@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Ẓreg akk timeḍriwin
     .accesskey = a
+description-context-menu-copy-link-text =
+    .label = Nɣel aḍris n useɣwen
