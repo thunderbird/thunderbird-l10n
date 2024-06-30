@@ -15,6 +15,7 @@ openpgp-key-assistant-recipients-issue-description =
         [one] Salaamista varten sinun on hankittava ja hyväksyttävä käytettävä avain yhdelle vastaanottajalle. <a data-l10n-name="openpgp-link">Lisätietoja…</a>
        *[other] Salaamista varten sinun on hankittava ja hyväksyttävä käytettävät avaimet { $count } vastaanottajalle. <a data-l10n-name="openpgp-link">Lisätietoja…</a>
     }
+openpgp-key-assistant-info-alias = { -brand-short-name } edellyttää yleensä, että vastaanottajan julkinen avain sisältää käyttäjätunnisteen (ID) ja vastaavan sähköpostiosoitteen. Tämä voidaan ohittaa käyttämällä OpenPGP:n vastaanottajan aliassääntöjä. <a data-l10n-name="openpgp-link">Lisätietoja…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-description =

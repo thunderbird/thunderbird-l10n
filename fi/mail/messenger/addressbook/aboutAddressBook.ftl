@@ -18,6 +18,8 @@ about-addressbook-toolbar-new-list =
     .label = Uusi lista
 about-addressbook-toolbar-import =
     .label = Tuo
+books-pane-create-contact-button = Uusi yhteyshenkilö
+    .title = Luo uusi yhteyshenkilö
 books-pane-create-book-button =
     .title = Luo uusi osoitekirja
 books-pane-create-list-button =
@@ -72,6 +74,14 @@ about-addressbook-search =
     .placeholder = Hae osoitekirjasta { $name }
 about-addressbook-search-all =
     .placeholder = Hae kaikista osoitekirjoista
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Hae osoitekirjasta { $name }
+    .placeholder = Hae osoitekirjasta { $name }…
+about-addressbook-search-all2 =
+    .label = Hae kaikista osoitekirjoista
+    .placeholder = Hae kaikista osoitekirjoista…
 about-addressbook-sort-button2 =
     .title = Listanäkymän valinnat
 about-addressbook-name-format-display =
@@ -139,6 +149,15 @@ about-addressbook-column-label-addresses2 =
 about-addressbook-cell-addresses2 =
     .aria-label = Osoitteet
     .title = { $title }
+about-addressbook-column-header-title2 = Työnimike
+    .title = Järjestä työnimikkeen mukaan
+about-addressbook-column-label-title2 =
+    .label = Työnimike
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Työnimike
+    .title = { $title }
 about-addressbook-column-header-department2 = Osasto
     .title = Järjestä osaston mukaan
 about-addressbook-column-label-department2 =
@@ -198,6 +217,14 @@ about-addressbook-confirm-remove-contacts-title =
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Haluatko varmasti poistaa { $name } listasta { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Haluatko varmasti poistaa { $count } yhteyshenkilön listalta { $list }?
+       *[other] Haluatko varmasti poistaa nämä { $count } yhteyshenkilöä listalta { $list }?
+    }
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
