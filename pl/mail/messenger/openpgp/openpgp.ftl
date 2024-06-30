@@ -536,6 +536,7 @@ key-man-button-export-pub-key = E&ksportuj tylko klucze publiczne
 key-man-button-refresh-all = &Odśwież wszystkie klucze
 key-man-loading-keys = Wczytywanie kluczy, proszę czekać…
 ascii-armor-file = Pliki zakodowanego ASCII (*.asc)
+text-file = Pliki tekstowe (*.txt)
 no-key-selected = Aby wykonać wybrane działanie, należy wybrać co najmniej jeden klucz
 export-to-file = Eksportuj klucz publiczny do pliku
 export-keypair-to-file = Eksportuj tajny i publiczny klucz do pliku
@@ -680,6 +681,10 @@ confirm-permissive-import = Zaimportowanie się nie powiodło. Importowany klucz
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Część zaimportowanych tajnych kluczy ogłasza nieobsługiwaną funkcję. Jeśli użyjesz takiego klucza jako klucza osobistego, rozmówcy mogą wysyłać Ci wiadomości lub klucze publiczne w niezgodnym formacie. Dotyczy to importowanych tajnych kluczy z następującymi odciskami: { $fingerprints }.
+help-button = Pomoc
 
 ## Strings used in trust.sys.mjs
 
