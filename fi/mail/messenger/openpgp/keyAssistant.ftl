@@ -10,6 +10,13 @@ openpgp-key-assistant-rogue-warning = Vältä väärennetyn avaimen hyväksymist
 openpgp-key-assistant-recipients-issue-header = Ei voi salata
 # Variables:
 # $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-issue-description =
+    { $count ->
+        [one] Salaamista varten sinun on hankittava ja hyväksyttävä käytettävä avain yhdelle vastaanottajalle. <a data-l10n-name="openpgp-link">Lisätietoja…</a>
+       *[other] Salaamista varten sinun on hankittava ja hyväksyttävä käytettävät avaimet { $count } vastaanottajalle. <a data-l10n-name="openpgp-link">Lisätietoja…</a>
+    }
+# Variables:
+# $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-description =
     { $count ->
         [one] Sinulla on jo yhden vastaanottajan käyttökelpoinen ja hyväksytty avain.
