@@ -171,7 +171,7 @@ csv-target-field = Campo del libro de adresses
 ## Export tab
 
 export-profile-title = Exportar contos, messages, libros de adresses e parametros a in un file ZIP.
-export-profile-description = Si tu actual profilo es major de 2GB, nos te suggere de reservar lo tu mesme.
+export-profile-description = Si tu profilo actual es major de 2GB, nos te suggere de facer un copia de securitate de illo tu mesme.
 export-open-profile-folder = Aperir le plica del profilo
 export-file-picker2 = Exportar a in un file ZIP
 export-brand-name = { -brand-product-name }
