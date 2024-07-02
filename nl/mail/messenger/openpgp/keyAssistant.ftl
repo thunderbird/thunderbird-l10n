@@ -120,4 +120,4 @@ openpgp-key-assistant-disable-button = Versleuteling uitschakelen
 openpgp-key-assistant-confirm-button = Versleuteld verzenden
 # Variables:
 # $date (String) - The key creation date.
-openpgp-key-assistant-key-created = gemaakt op { $datum }
+openpgp-key-assistant-key-created = gemaakt op { $date }
