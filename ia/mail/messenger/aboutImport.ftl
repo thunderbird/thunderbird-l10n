@@ -87,7 +87,7 @@ profiles-pane-title-apple-mail = Importar messages ab { app-name-apple-mail }.
 profile-source = Importar ab un profilo
 # $profileName (string) - name of the profile
 profile-source-named = Importar ab le profilo <strong>"{ $profileName }"</strong>
-profile-file-picker-directory = Elige un plica de profilo
+profile-file-picker-directory = Elige un dossier de profilo
 profile-file-picker-archive = Elige un file <strong>ZIP</strong>
 profile-file-picker-archive-description = Le file ZIP debe esser minor de 2GB.
 profile-file-picker-archive-title = Elige un file ZIP (minor de 2GB)
@@ -153,8 +153,8 @@ progress-pane-importing2 = Importation de… { $progressPercent }
 progress-pane-exporting2 = Exportante… { $progressPercent }
 progress-pane-finished-desc2 = Complete.
 error-pane-title = Error
-error-message-zip-file-too-big2 = Le file zip seligite, es major de 2GB. In vice abstrahe lo antea primo, postea importa lo ab le plicas extrahite.
-error-message-extract-zip-file-failed2 = Impossibile extraher le file zip. In vice extrahe lo manualmente, pois importa lo ab le plica extrahite.
+error-message-zip-file-too-big2 = Le file ZIP seligite es plus grande de 2GB. Per favor extrahe le contento primo, alora face le importation desde le dossier extrahite.
+error-message-extract-zip-file-failed2 = Le extraction del contento del file ZIP ha fallite. Per favor extrahe lo manualmente, alora face le importation desde le dossier extrahite.
 error-message-failed = Le importation falleva inspectatemente, Altere informationes pote esser disponibile in le Consola de error.
 error-failed-to-parse-ics-file = Elemento non importabile trovate in le file.
 error-export-failed = Le exportation falleva inspectatemente, altere informationes pote esser disponibile in le Consola de error.
@@ -172,7 +172,7 @@ csv-target-field = Campo del libro de adresses
 
 export-profile-title = Exportar contos, messages, libros de adresses e parametros a in un file ZIP.
 export-profile-description = Si tu profilo actual es major de 2GB, nos te suggere de facer un copia de securitate de illo tu mesme.
-export-open-profile-folder = Aperir le plica del profilo
+export-open-profile-folder = Aperir le dossier del profilo
 export-file-picker2 = Exportar a in un file ZIP
 export-brand-name = { -brand-product-name }
 

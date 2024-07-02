@@ -183,10 +183,10 @@ folder-pane-get-all-messages-menuitem =
 folder-pane-write-message-button = Nove message
     .title = Compone un message nove
 folder-pane-more-menu-button =
-    .title = Optiones del pannello de plica
+    .title = Optiones del pannello de dossiers
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
-    .label = Modos plica
+    .label = Modos de dossiers
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
     .label = Monstrar “Obtener messages”
@@ -194,16 +194,16 @@ folder-pane-header-context-toggle-get-messages =
 folder-pane-header-context-toggle-new-message =
     .label = Monstrar “Nove message”
 folder-pane-header-context-hide =
-    .label = Celar le titulo de pannello de plica
+    .label = Celar le titulo del pannello de dossiers
 folder-pane-show-total-toggle =
     .label = Monstrar le computo total de messages
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
-    .label = Monstrar dimension del plica
+    .label = Monstrar le grandor de dossiers
 folder-pane-header-hide-local-folders =
-    .label = Celar le plicas local
+    .label = Celar le dossiers local
 folder-pane-mode-context-button =
-    .title = Optiones de modo del plicas
+    .title = Optiones de modo del dossier
 folder-pane-mode-context-toggle-compact-mode =
     .label = Visualisation compacte
     .accesskey = c
@@ -498,10 +498,10 @@ apply-current-columns-to-folder-message = Applicar le columnas del dossier actua
 apply-current-columns-to-folder-with-children-message = Applicar le columnas del dossier actual a { $name } e su subdossiers?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-view-to-folder-message = Applicar le vista del plica actual a { $name }?
+apply-current-view-to-folder-message = Applicar le vista del dossier actual a { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-view-to-folder-with-children-message = Applicar le vista del plica actual a { $name } e a su sub-plicas?
+apply-current-view-to-folder-with-children-message = Applicar le vista del dossier actual a { $name } e a su subdossiers?
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
@@ -528,7 +528,7 @@ threadpane-sort-header-count =
 threadpane-card-menu-button =
     .title = Menu de message
 message-list-placeholder-no-messages = Nulle message trovate
-message-list-placeholder-multiple-folders = Selection multiple de plicas
+message-list-placeholder-multiple-folders = Plure dossiers seligite
 
 ## Folder pane context menu
 
@@ -537,7 +537,7 @@ message-list-placeholder-multiple-folders = Selection multiple de plicas
 folder-pane-context-mark-folder-read =
     .label =
         { $count ->
-            [one] Marcar plica como legite
-           *[other] Marcar plicas como legite
+            [one] Marcar dossier como legite
+           *[other] Marcar dossiers como legite
         }
-    .accesskey = l
+    .accesskey = c
