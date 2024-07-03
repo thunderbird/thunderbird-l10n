@@ -33,6 +33,12 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Gå tilbake ei side ({ $shortcut })
+    .aria-label = Tilbake
+    .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Tilbake
@@ -40,6 +46,12 @@ content-tab-menu-back-mac =
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Gå fram ei side ({ $shortcut })
+    .aria-label = Fram
+    .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Fram
@@ -47,9 +59,27 @@ content-tab-menu-forward-mac =
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Oppdater sida
+    .aria-label = Oppdater
+    .accesskey = O
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Oppdater sida
+    .label = Oppdater
+    .accesskey = O
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Stopp sidelasting
+    .aria-label = Stopp
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Stopp sidelasting
+    .label = Stopp
+    .accesskey = S
 
 ## Toolbar
 
@@ -110,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Slett mappe
     .accesskey = S
+menu-edit-unsubscribe-newsgroup =
+    .label = Avslutt abonnement på nyhendegruppe
+    .accesskey = A
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -155,6 +188,12 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Merk som lesen
+    .tooltiptext = Merk som lesen
+context-menu-mark-unread =
+    .aria-label = Merk som ulesen
+    .tooltiptext = Merk som ulesen
 context-menu-mark-reply =
     .aria-label = Svar
     .tooltiptext = Svar
