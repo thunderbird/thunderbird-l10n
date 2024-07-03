@@ -10,7 +10,18 @@ calendar-add-notification-button =
 
 ## Side panel
 
+calendar-list-header = Kalender
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } kalender telah disenyapkan
 calendar-enable-button = Aktifkan
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } pilihan kalender
+calendar-import-new-calendar = Kalender Baru…
+    .title = Buat atau langganan kalender baru
 calendar-new-event-primary-button = Acara Baru
 calendar-new-task-primary-button = Tugas Baru
 
