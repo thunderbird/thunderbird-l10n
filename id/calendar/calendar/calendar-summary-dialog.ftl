@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = Sunting seluruh kejadian
     .accesskey = a
+description-context-menu-copy-link-text =
+    .label = Salin Teks Tautan
