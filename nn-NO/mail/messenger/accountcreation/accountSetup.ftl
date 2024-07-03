@@ -201,6 +201,7 @@ account-setup-linked-services-description = { -brand-short-name } oppdaga andre 
 account-setup-no-linked-description = Konfigurer andre tenester for å få mest mogleg ut av { -brand-short-name }-opplevinga di.
 account-setup-button-finish = Fullfør
     .accesskey = F
+account-setup-looking-up-address-books = Søkjer etter adressebøker…
 account-setup-looking-up-calendars = Søkjer etter kalendrar…
 account-setup-address-books-button = Adressebøker
 account-setup-calendars-button = Kalendrar
@@ -210,6 +211,7 @@ account-setup-existing-address-book = Tilkopla
 account-setup-existing-calendar = Tilkopla
     .title = Kalender allereie tilkopla
 account-setup-connect-all-calendars = Kople til alle kalendrar
+account-setup-connect-all-address-books = Kople til alle adressebøker
 
 ## Calendar synchronization dialog
 
@@ -231,6 +233,8 @@ account-setup-calendar-refresh-interval =
         [one] Kvart minutt
        *[other] Kvart { $count }. minutt
     }
+account-setup-calendar-read-only = Skriveverna
+    .accesskey = S
 account-setup-calendar-show-reminders = Vis påminningar
     .accesskey = V
 account-setup-calendar-offline-support = Fråkopla støtte
