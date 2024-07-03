@@ -16,6 +16,13 @@ e2e-csr-button =
 e2e-sign-message =
     .label = Signer ukrypterte meldingar
     .accesskey = u
+e2e-disable-enc =
+    .label = Deaktiver kryptering for nye meldingar
+    .accesskey = D
+e2e-enable-enc =
+    .label = Aktiver kryptering for nye meldingar
+    .accesskey = A
+e2e-enable-description = Du kan deaktivere kryptering for individuelle meldingar
 e2e-advanced-section = Avanserte innstillingar
 e2e-encrypt-drafts =
     .label = Lagre utkast til meldingar i kryptert format
@@ -255,7 +262,16 @@ openpgp-personal-no-label =
     .label = Nei, ikkje bruk han som den personlege nøkkelen min.
 openpgp-personal-yes-label =
     .label = Ja, behandle denne nøkkelen som ein personeig nøkkel.
+openpgp-passphrase-status-unprotected = Ubeskytta
+openpgp-passphrase-status-primary-password = Beskytta av hovudpassordet for { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Beskytta av ei passordfrase
+openpgp-passphrase-instruction-unprotected = Vel ei passordfrasse for å beskytte denne nøkkelen
+openpgp-passphrase-instruction-primary-password = Alternativt beskytt denne nøkkelen med ei separat passordfrase
 openpgp-passphrase-unlock = Lås opp
+openpgp-passphrase-new = Ny passordfrase
+openpgp-passphrase-new-repeat = Stadfest ny passordfrase
+openpgp-passphrase-set = Vel passordfrase
+openpgp-passphrase-change = Endre passordfrase
 openpgp-copy-cmd-label =
     .label = Kopier
 
@@ -431,6 +447,7 @@ key-man-button-export-pub-key = Eksporter berre &offentlege nøklar
 key-man-button-refresh-all = &Oppdater alle nøklane
 key-man-loading-keys = Lastar inn nøklar, vent litt…
 ascii-armor-file = ASCII armerte filer (* .asc)
+text-file = Tekstfiler (*.txt)
 no-key-selected = Du bør velje minst ein nøkkel for å utføre den valde handlinga
 export-to-file = Eksporter offentleg nøkkel til fil
 export-keypair-to-file = Eksporter hemmeleg og offentleg nøkkel til fil
@@ -573,6 +590,7 @@ confirm-permissive-import = Mislykka import. Nøkkelen du prøver å importere k
 
 ## Strings used in trust.jsm
 
+help-button = Hjelp
 
 ## Strings used in trust.sys.mjs
 

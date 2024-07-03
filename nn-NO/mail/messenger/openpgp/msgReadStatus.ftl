@@ -37,6 +37,8 @@ openpgp-enc-key-id = Dekrypteringsnøkkel-ID-en din:  { $key }
 # $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Dekrypteringsnøkkel-ID-en din: { $key } (Undernøkkel-ID: { $subkey })
+openpgp-enc-none = Meldinga er ikkje kryptert
+openpgp-enc-none-label = Meldinga vart ikkje kryptert før ho vart send. Informasjon som vert send over Internett utan kryptering, kan verte sett av andre under overføringa.
 openpgp-enc-invalid-label = Klarte ikkje å dekryptere meldinga
 openpgp-enc-invalid = Meldinga vart kryptert før ho vart sendt til deg, men ho kan ikkje dekrypterast.
 openpgp-enc-clueless = Det er nokre problem med denne krypterte meldinga.
@@ -44,8 +46,18 @@ openpgp-enc-valid-label = Meldinga er kryptert
 openpgp-unknown-key-id = Ukjend nøkkel
 openpgp-other-enc-additional-key-ids = I tillegg vart meldinga kryptert til eigarane av følgjande nøklar:
 openpgp-other-enc-all-key-ids = Meldinga vart kryptert til eigarane av følgjande nøklar:
+openpgp-message-header-encrypted-ok-icon =
+    .alt = Vellykka dekryptering
+openpgp-message-header-encrypted-notok-icon =
+    .alt = Mislykka dekryptering
 openpgp-message-header-signed-ok-icon =
     .alt = God signatur
 # Mismatch icon is used for notok state as well
 openpgp-message-header-signed-mismatch-icon =
     .alt = Dårleg signatur
+openpgp-message-header-signed-unknown-icon =
+    .alt = Ukjend signaturstatus
+openpgp-message-header-signed-verified-icon =
+    .alt = Bekrefta signatur
+openpgp-message-header-signed-unverified-icon =
+    .alt = Ubekrefta signatur
