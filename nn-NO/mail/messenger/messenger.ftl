@@ -24,6 +24,8 @@ about-rights-notification-text = { -brand-short-name } er fri programvare basert
 
 ## Content tabs
 
+content-tab-page-loading-icon =
+    .alt = Sida vert lasta inn
 content-tab-security-high-icon =
     .alt = Tilkoplinga er trygg
 content-tab-security-broken-icon =

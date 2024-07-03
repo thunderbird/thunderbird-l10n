@@ -209,6 +209,10 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Fjern kontaktar
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Er du sikker på at du vil fjerne { $name } frå { $list }?
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->

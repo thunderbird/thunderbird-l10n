@@ -183,6 +183,13 @@ key-notification-disable-encryption =
     .label = Ikkje krypter
     .accesskey = k
     .tooltiptext = Skru av ende-til-ende-kryptering
+key-notification-resolve =
+    .label = Løys…
+    .accesskey = L
+    .tooltiptext = Opne nykelassistenten for OpenPGP
+can-e2e-encrypt-button =
+    .label = Krypter
+    .accesskey = K
 
 ## Addressing Area
 
@@ -282,6 +289,7 @@ cloud-file-template-download-limit = Nedlastingsgrense:
 # Messages
 
 cloud-file-connection-error-title = Tilkoplingsfeil
+cloud-file-rename-error-title = Mislykka namnebyte
 cloud-file-attachment-error-title = Filelink-vedleggsfeil
 
 ## Link Preview
@@ -290,3 +298,6 @@ link-preview-yes-replace = Ja
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Legg til ordlister
+    .accesskey = L
