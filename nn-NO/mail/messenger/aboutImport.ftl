@@ -105,6 +105,8 @@ calendar-items-filter-input2 =
 calendar-select-all-items = Merk alle
 calendar-deselect-all-items = Merk ingen
 calendar-target-title = Vel kvar dei valde objekta skal importerast til.
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = Opprett ein ny kalender som heiter <strong>«{ $targetCalendar }»</strong>
 # $targetCalendar (string) - name of the calendar that will be created
 calendar-summary-description = Ein ny kalender med namn "{ $targetCalendar }" vert oppretta.
 
