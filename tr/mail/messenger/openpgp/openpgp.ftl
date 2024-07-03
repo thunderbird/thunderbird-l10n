@@ -444,6 +444,12 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.sys.mjs
 
+# Variables:
+# $subject (String) - Subject of the message.
+converter-decrypt-body-failed =
+    { $subject } konulu iletinin şifresi
+    çözülemedi.
+    Farklı bir parolayla yeniden denemek mi yoksa iletiyi geçmek mi istiyorsunuz?
 
 ## Strings filters.jsm
 
@@ -734,6 +740,7 @@ sending-news =
     Şifrelenmiş gönderme işlemi iptal edildi.
     Alıcılar arasında haber grubu alıcıları olduğu için bu ileti şifrelenemez. Lütfen iletiyi şifrelemeden tekrar gönderin.
 save-attachment-header = Şifresi çözülmüş eki kaydet
+possibly-pgp-mime = Büyük olasılıkla PGP/MIME şifreli veya imzalı ileti. Doğrulamak için ‘Şifreyi çöz/Doğrula’ işlevini kullanın
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = <{ $key }> için uçtan uca şifrelemeyi henüz yapılandırmadığınız için bu iletiyi dijital olarak imzalayamazsınız
