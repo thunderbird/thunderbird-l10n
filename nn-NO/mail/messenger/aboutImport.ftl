@@ -85,9 +85,17 @@ addr-book-mab-file = Mork-databasefil (.mab)
 addr-book-file-picker = Vel ei adressebokfil
 addr-book-csv-field-map-title = Matche feltnamn
 addr-book-directories-pane-source = Kjeldefil:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Opprett ei ny mappe som heiter <strong>"{ $addressBookName }"</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Importer valde data til «{ $addressBookName }»-directory
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = Ei ny adressebok som heiter «{ $addressBookName }» vil bli oppretta.
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = Vel iCalendar-fila (.ics) som du vil importere.
+calendar-items-title = Vel element som skal importerast.
 calendar-items-loading = Lastar inn element…
 calendar-items-filter-input =
     .placeholder = Filtrer element…
@@ -96,6 +104,7 @@ calendar-items-filter-input2 =
     .placeholder = Filtrer element…
 calendar-select-all-items = Merk alle
 calendar-deselect-all-items = Merk ingen
+calendar-target-title = Vel kvar dei valde objekta skal importerast til.
 # $targetCalendar (string) - name of the calendar that will be created
 calendar-summary-description = Ein ny kalender med namn "{ $targetCalendar }" vert oppretta.
 
