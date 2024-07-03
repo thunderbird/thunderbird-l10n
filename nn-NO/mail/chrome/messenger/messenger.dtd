@@ -63,7 +63,7 @@
 <!ENTITY subscribeCmd.accesskey "M">
 <!ENTITY deleteFolder.label "Slett mappe">
 <!ENTITY deleteFolder.accesskey "S">
-<!ENTITY renameFolder.label "Endra mappenamn …">
+<!ENTITY renameFolder.label "Endre mappenamn…">
 <!ENTITY renameFolder.accesskey "E">
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY compactFolders.label "Komprimer mapper">
