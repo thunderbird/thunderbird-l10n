@@ -200,6 +200,9 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = Vis alltid rullefelt
     .accesskey = s
 window-layout-legend = Vindaugsoppsett
+auto-hide-tabbar-label =
+    .label = Gøym fanelinja automatisk
+    .accesskey = G
 system-integration-legend = Systemintegrasjon
 always-check-default =
     .label = Alltid kontroller om { -brand-short-name } er standard e-postklient ved oppstart
@@ -570,6 +573,9 @@ junk-description = Vel standard-innstilling for uønskt e-post. Konto-spesifikke
 junk-label =
     .label = Når eg merkar meldingar som uønskte:
     .accesskey = N
+junk-marked-label =
+    .label = Når meldingar er markerte som uønskte
+    .accesskey = N
 junk-move-label =
     .label = Flytt dei til «Uønskt»-mappa på kontoen
     .accesskey = F
@@ -733,12 +739,16 @@ search-results-help-link = Treng du hjelp? Gå til <a data-l10n-name="url">{ -br
 
 ## Sync Tab
 
+sync-signedout-caption = Ta med deg nettet
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Logg inn for å synkronisere…
 sync-pane-header = Synkronisering
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = { $userEmail } er ikkje stadfesta.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Logg inn for å kople til på nytt «{ $userEmail }»
 sync-pane-resend-verification = Send stadfesting på nytt
 sync-pane-sign-in = Logg inn
 sync-pane-remove-account = Fjern kontoen
