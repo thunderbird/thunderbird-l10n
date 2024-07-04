@@ -200,6 +200,9 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = Vis alltid rullefelt
     .accesskey = s
 window-layout-legend = Vindaugsoppsett
+draw-in-titlebar-label =
+    .label = Gøym tittellinja til systemvindauget
+    .accesskey = G
 auto-hide-tabbar-label =
     .label = Gøym fanelinja automatisk
     .accesskey = G
@@ -283,6 +286,9 @@ smart-cache-label =
     .accesskey = s
 clear-cache-button =
     .label = Tøm no
+    .accesskey = T
+clear-cache-shutdown-label =
+    .label = Tøm snøgglageret ved avslutting
     .accesskey = T
 fonts-legend = Skrifttypar og fargar
 default-font-label =
@@ -750,6 +756,7 @@ search-results-help-link = Treng du hjelp? Gå til <a data-l10n-name="url">{ -br
 ## Sync Tab
 
 sync-signedout-caption = Ta med deg nettet
+sync-signedout-description = Synkroniser kontoane dine, adressebøker, kalendrar, tillegg og innstillingar på alle einingane dine.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Logg inn for å synkronisere…
 sync-pane-header = Synkronisering
