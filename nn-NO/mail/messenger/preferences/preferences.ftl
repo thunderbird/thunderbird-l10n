@@ -359,6 +359,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Med ein gong dei er viste
     .accesskey = M
+view-attachments-inline =
+    .label = Vis vedlegg som ein del av meldinga
+    .accesskey = V
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -577,6 +580,12 @@ junk-read-label =
     .label = Merk uønskte søppelmeldingar som lesne
     .accesskey = M
 junk-read-description = Merk meldingar som lesne
+junk-read-manual-label =
+    .label = Når meldingane manuelt er markerte som uønskt
+    .accesskey = N
+junk-read-auto-label =
+    .label = Når { -brand-short-name } avgjer at dei er uønskte
+    .accesskey = N
 junk-log-label =
     .label = Slå på logging for adaptiv filter for uønskt e-post
     .accesskey = l
@@ -727,6 +736,9 @@ search-results-help-link = Treng du hjelp? Gå til <a data-l10n-name="url">{ -br
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Logg inn for å synkronisere…
 sync-pane-header = Synkronisering
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = { $userEmail } er ikkje stadfesta.
 sync-pane-resend-verification = Send stadfesting på nytt
 sync-pane-sign-in = Logg inn
 sync-pane-remove-account = Fjern kontoen
@@ -753,3 +765,4 @@ show-synced-change = Endre…
 synced-acount-item-server-config = Sørvarkonfigurasjon
 synced-acount-item-filters = Filter
 synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-turn-on-sync = Slå på synkronisering…
