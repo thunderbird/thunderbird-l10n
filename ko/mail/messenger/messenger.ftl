@@ -5,6 +5,8 @@
 
 ## Window controls
 
+messenger-window-close-button =
+    .tooltiptext = 닫기
 about-rights-notification-text = { -brand-short-name }은 전 세계 수천 명의 커뮤니티에서 만든 무료 오픈 소스 소프트웨어입니다.
 
 ## Content tabs
@@ -165,7 +167,7 @@ quick-filter-bar-toggle =
     .label = 빠른 필터 기능
     .accesskey = Q
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
