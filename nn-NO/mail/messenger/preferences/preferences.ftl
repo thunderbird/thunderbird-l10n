@@ -203,6 +203,7 @@ window-layout-legend = Vindaugsoppsett
 auto-hide-tabbar-label =
     .label = Gøym fanelinja automatisk
     .accesskey = G
+auto-hide-tabbar-description = Gøym fanelinja når berre ei fane er open
 system-integration-legend = Systemintegrasjon
 always-check-default =
     .label = Alltid kontroller om { -brand-short-name } er standard e-postklient ved oppstart
@@ -564,6 +565,9 @@ primary-password-description = Du kan bruke eit hovudpassord for å beskytte all
 primary-password-label =
     .label = Bruk eit hovudpassord
     .accesskey = B
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Krev einingsinnlogging for å fylle ut og behandle passord
 primary-password-button =
     .label = Endre hovudpassord…
     .accesskey = E
@@ -629,6 +633,12 @@ email-e2ee-header = Ende-til-ende-kryptering for e-post
 account-settings = Kontoinnstillingar
 email-e2ee-enable-info = Still inn e-postkonton og identitetar for ende-til-ende-kryptering i kontoinstillingar.
 email-e2ee-automatism = Automatisk bruk av kryptering
+email-e2ee-auto-on =
+    .label = Slå automatisk på kryptering når det er muleg
+email-e2ee-auto-off =
+    .label = Slå av kryptering automatisk når mottakarar vert endra, og kryptering ikkje lenger er muleg.
+email-e2ee-auto-off-notify =
+    .label = Vis ei melding når kryptering automatisk er slått av
 
 ## Chat Tab
 
