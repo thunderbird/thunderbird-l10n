@@ -18,6 +18,14 @@ about-addressbook-toolbar-new-list =
     .label = Tabdart tamaynut
 about-addressbook-toolbar-import =
     .label = Kter
+books-pane-create-contact-button = Anermis amaynut
+    .title = Rnu anermis amaynut
+books-pane-create-book-button =
+    .title = Rnu tansa n umedlis tamaynut
+books-pane-create-list-button =
+    .title = Rnu tabdart n yimaylen imaynuten
+books-pane-import-button = Kter
+    .title = Kter idlisen n tansiwin
 
 ## Books
 
@@ -63,6 +71,11 @@ about-addressbook-search =
     .placeholder = Nadi { $name }
 about-addressbook-search-all =
     .placeholder = Nadi akk imedlisen n tansiwin
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Nadi { $name }
+    .placeholder = Nadi { $name }…
 about-addressbook-search-all2 =
     .label = Nadi akk imedlisen n tansiwin
     .placeholder = Nadi akk imedlisen n tansiwin
@@ -192,6 +205,14 @@ about-addressbook-confirm-remove-contacts-title =
     { $count ->
         [one] Kkes anermis
        *[other] Kkes inermisen
+    }
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] D tidet tebɣiḍ ad tekkseḍ { $count }-a n unermis-a seg { $list }?
+       *[other] D tidet tebɣiḍ ad tekkseḍ { $count }-a n yinermisen-a seg { $list }?
     }
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
