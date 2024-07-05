@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Rnu, beddel isem neɣ kkes ikaramen n umiḍan-ik n yimayl
 webext-perms-description-accountsIdentities = Rnu, beddel isem neɣ kkes tmagiyin n umiḍan-ik n yimayl
 webext-perms-description-accountsRead = Wali imiḍanen-ik·im n yimayl, timagiyin-nsen d yikaramen-nsen
@@ -20,3 +27,4 @@ webext-perms-description-messagesMove = Nɣel neɣ senkez iznan-ik·im n yimayl 
 webext-perms-description-messagesDelete = Kkes i lebda iznan-ik·im n yimayl
 webext-perms-description-messagesRead = Ɣer iznan n yimayl-ik sakin creḍ-iten
 webext-perms-description-messagesTags = Rnu, beddel, kkes tiberninin n yizen
+webext-perms-description-messagesTagsList = Bder-d tibzimin n yiznan
