@@ -519,23 +519,12 @@ third-party-never =
     .label = Werǧin
 third-party-visited =
     .label = Seg iseɣwan yettwarzan
-keep-label =
-    .value = Ḥrez arma:
-    .accesskey = Ḥ
-keep-expire =
-    .label = ad mten
-keep-close =
-    .label = Ad medleɣ  { -brand-short-name }
-keep-ask =
-    .label = suter-iyi-d yal tikelt
 cookies-button =
     .label = Sken
     .accesskey = S
 do-not-track-label =
     .label = Ad yazen tamuli “ur sfu$yul ara” γer ismal web akken ad gzun d akken ur tebγiḍ ara asfuγel
     .accesskey = n
-learn-button =
-    .label = Issin ugar
 dnt-learn-more-button =
     .value = Issin ugar
 passwords-description = { -brand-short-name } yezmer ad yecfu ɣef awalen uffiren n imiḍan-inek imeṛṛa.
@@ -711,9 +700,32 @@ sync-signedout-caption = Awi web-inek yid-k
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Qqen ɣer Sync…
 sync-pane-header = Sync
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” ur ittusenqed ara.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Ma ulac aɣilif sesteb akken ad tkecmeḍ “{ $userEmail }”
+sync-pane-resend-verification = Ales tuzna n usentem
+sync-pane-sign-in = Kcem
+sync-pane-remove-account = Kkes amiḍan
+sync-pane-edit-photo =
+    .title = Snifel tugna n umaɣnu
+sync-pane-manage-account = Sefrek amiḍan
+sync-pane-sign-out = Ffeɣ…
+sync-pane-device-name-title = Isem n wallal
+sync-pane-change-device-name = Snifel isem n yibenk
 sync-pane-cancel = Sefsex
 sync-pane-save = Sekles
+sync-pane-show-synced-header-on = Amtawi yermed
+sync-pane-show-synced-header-off = Amtawi yensa
 sync-pane-sync-now = Mtawi tura
 sync-panel-sync-now-syncing = Amtawi…
 show-synced-list-heading = Iferdisen-a mtawin akka tura:
 show-synced-learn-more = Issin ugar…
+show-synced-item-account = Imiḍanen n yimayl
+show-synced-item-address = Imedlisen n tensa
+show-synced-item-calendar = Iwitayen
+show-synced-item-identity = Timagin
+show-synced-item-passwords = Awalen uffiren
+show-synced-change = Snifel...
