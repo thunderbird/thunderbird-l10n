@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Nadi
 search-bar-item =
     .label = Nadi:
+search-bar-item2 =
+    .label = Nadi
 search-bar-placeholder = Nadi…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -48,6 +50,7 @@ customize-space-tab-chat = Adiwenni usrid
     .title = Adiwenni usrid
 customize-space-tab-settings = Iɣewwaren
     .title = Iɣewwaren
+customize-restore-default = Err-d amezwer
 customize-button-style-label = Talɣa n tqeffalt:
 customize-button-style-icons-beside-text-option = Tigiiniyin n daw uḍris
 customize-button-style-text-only-option = Aḍris kan
