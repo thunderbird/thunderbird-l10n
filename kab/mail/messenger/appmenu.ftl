@@ -7,8 +7,17 @@
 
 appmenu-sync-panel-title =
     .title = Mtawi
+appmenu-signin-panel =
+    .label = Qqen ɣer Sync
+    .accesskey = q
+appmenu-sync-manage =
+    .value = Sefrek amiḍan
+    .accesskey = S
 appmenu-sync-account =
     .value = example@example.com
+appmenu-sync-now =
+    .label = Mtawi tura
+    .accesskey = T
 appmenu-sync-settings =
     .label = Iγewwaṛen n umtawi
     .accesskey = M
@@ -23,12 +32,21 @@ appmenu-new-account-panel-title =
 appmenu-new-account-panel =
     .label = Amiḍan amaynut
     .accesskey = A
+appmenu-new-email-account =
+    .label = Imayl
+    .accesskey = I
 appmenu-new-calendar =
     .label = Awitay
     .accesskey = A
 appmenu-new-chat-account =
     .label = Adiwenni
     .accesskey = w
+appmenu-new-feed =
+    .label = Asuddem
+    .accesskey = A
+appmenu-new-newsgroup =
+    .label = Agraw amaynut
+    .accesskey = A
 
 ## New Account / Address Book
 
@@ -51,9 +69,18 @@ appmenu-create-event =
 appmenu-create-task =
     .label = Tawuri
     .accesskey = T
+appmenu-create-contact =
+    .label = Anermis
+    .accesskey = A
 
 ## Open
 
+appmenu-open-message =
+    .label = Izen…
+    .accesskey = I
+appmenu-open-calendar =
+    .label = Awitay…
+    .accesskey = A
 
 ## View / Layout
 
@@ -112,6 +139,28 @@ appmenu-help-panel-title =
 appmenu-help-get-help =
     .label = Awi tallelt
     .accesskey = T
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Askar n usellek…
+    .accesskey = A
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Sens askar n ferru n wuguren
+    .accesskey = S
+appmenu-help-troubleshooting-info =
+    .label = Talɣut n usellek
+    .accesskey = T
+appmenu-help-about-product =
+    .label = Ɣef { -brand-short-name }
+    .accesskey = Ɣ
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = Asader n lqem { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Yella lqem — sader tura
+appmenuitem-banner-update-manual =
+    .label = Yella lqem — sader tura
+appmenuitem-banner-update-unsupported =
+    .label = D awezɣi ad yettuleqqem — anagraw ur yemṣada ara
+appmenuitem-banner-update-restart =
+    .label = Yella lqem — ales asenker tura
