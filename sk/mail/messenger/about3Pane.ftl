@@ -122,10 +122,10 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filtrovať tieto správy <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Filtrovať správy:
 quick-filter-bar-search2 =
     .label = Filtrovať správy
+quick-filter-bar-searching =
+    .title = Hľadá sa…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
