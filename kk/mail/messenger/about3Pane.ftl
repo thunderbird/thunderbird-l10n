@@ -116,10 +116,10 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Бұл хабарламаларды сүзгілеу <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Хабарламаларды сүзгілеу:
 quick-filter-bar-search2 =
     .label = Хабарламаларды сүзгілеу
+quick-filter-bar-searching =
+    .title = Іздеу…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
