@@ -117,10 +117,10 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filtrar quests messadis <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Filtrar ils messadis:
 quick-filter-bar-search2 =
     .label = Filtrar ils messadis
+quick-filter-bar-searching =
+    .title = Tschertgar…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
