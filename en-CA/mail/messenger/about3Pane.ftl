@@ -116,8 +116,10 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filter these messages <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Filter messages:
+quick-filter-bar-search2 =
+    .label = Filter messages
+quick-filter-bar-searching =
+    .title = Searching…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -525,3 +527,17 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Message menu
+message-list-placeholder-no-messages = No message found
+message-list-placeholder-multiple-folders = Multiple folders selected
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Mark Folder Read
+           *[other] Mark Folders Read
+        }
+    .accesskey = k
