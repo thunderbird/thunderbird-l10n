@@ -8,6 +8,8 @@ about-addressbook-title = Llyfr Cyfeiriadau
 
 about-addressbook-toolbar-new-address-book =
     .label = Llyfr Cyfeiriadau Newydd
+about-addressbook-toolbar-add-address-book =
+    .label = Ychwanegu Llyfr Cyfeiriadau Lleol
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Ychwanegu Llyfr Cyfeiriadau CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
