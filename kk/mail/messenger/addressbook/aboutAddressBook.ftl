@@ -8,6 +8,8 @@ about-addressbook-title = Адрестік кітапша
 
 about-addressbook-toolbar-new-address-book =
     .label = Жаңа адрестік кітапша
+about-addressbook-toolbar-add-address-book =
+    .label = Жергілікті адрестік кітапшаны қосу
 about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV адрестік кітапшасын қосу
 about-addressbook-toolbar-add-ldap-address-book =
