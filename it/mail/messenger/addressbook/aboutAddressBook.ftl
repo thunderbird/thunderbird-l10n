@@ -8,6 +8,8 @@ about-addressbook-title = Rubrica
 
 about-addressbook-toolbar-new-address-book =
     .label = Nuova rubrica
+about-addressbook-toolbar-add-address-book =
+    .label = Aggiungi rubrica locale
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Aggiungi rubrica CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
