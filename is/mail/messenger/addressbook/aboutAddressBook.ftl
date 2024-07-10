@@ -8,6 +8,8 @@ about-addressbook-title = Nafnaskrá
 
 about-addressbook-toolbar-new-address-book =
     .label = Ný nafnaskrá
+about-addressbook-toolbar-add-address-book =
+    .label = Bæta við staðbundinni nafnaskrá
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Bæta við CardDAV-nafnaskrá
 about-addressbook-toolbar-add-ldap-address-book =
