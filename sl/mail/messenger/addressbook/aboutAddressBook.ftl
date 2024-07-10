@@ -8,6 +8,8 @@ about-addressbook-title = Imenik
 
 about-addressbook-toolbar-new-address-book =
     .label = Nov imenik
+about-addressbook-toolbar-add-address-book =
+    .label = Dodaj krajevni imenik
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Dodaj imenik CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
