@@ -8,6 +8,8 @@ about-addressbook-title = 通讯录
 
 about-addressbook-toolbar-new-address-book =
     .label = 新建通讯录
+about-addressbook-toolbar-add-address-book =
+    .label = 添加本地通讯录
 about-addressbook-toolbar-add-carddav-address-book =
     .label = 添加 CardDAV 通讯录
 about-addressbook-toolbar-add-ldap-address-book =
