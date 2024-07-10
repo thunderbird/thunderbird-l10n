@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Запазени регистрации
-saved-logins-title = Запазени регистрации
 window-close =
     .key = п
+saved-logins-title = Запазени регистрации
 focus-search-primary-shortcut =
     .key = н
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Потвърдете самоличностт�
 password-os-auth-dialog-message-macosx = показва запазените пароли
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] промяна на настройките на паролите
+       *[other] { -brand-short-name } се опитва да промени настройките на паролите. Използвайте вашето устройство за вписване, за да разрешите това.
+    }

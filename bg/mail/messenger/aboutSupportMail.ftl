@@ -16,6 +16,7 @@ accounts-default = По подразбиране?
 identity-name = Идентичност
 send-via-email = Изпращане чрез е-поща
 app-basics-telemetry = Данни за Телеметрията
+app-basics-glean = Glean данни
 app-basics-cache-use = Използване на кеша
 mail-libs-title = Библиотеки
 libs-table-heading-library = Библиотека
