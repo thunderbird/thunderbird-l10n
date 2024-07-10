@@ -8,6 +8,8 @@ about-addressbook-title = Carnet d’adresses
 
 about-addressbook-toolbar-new-address-book =
     .label = Nouveau carnet d’adresses
+about-addressbook-toolbar-add-address-book =
+    .label = Ajouter un carnet d’adresses local
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Ajouter un carnet d’adresses CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
