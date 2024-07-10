@@ -8,6 +8,8 @@ about-addressbook-title = Adresnik
 
 about-addressbook-toolbar-new-address-book =
     .label = Nowy adresnik
+about-addressbook-toolbar-add-address-book =
+    .label = Lokalny adresnik přidać
 about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV-adresnik přidać
 about-addressbook-toolbar-add-ldap-address-book =
