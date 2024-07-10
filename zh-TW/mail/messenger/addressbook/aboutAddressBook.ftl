@@ -8,6 +8,8 @@ about-addressbook-title = 通訊錄
 
 about-addressbook-toolbar-new-address-book =
     .label = 新增通訊錄
+about-addressbook-toolbar-add-address-book =
+    .label = 新增本機通訊錄
 about-addressbook-toolbar-add-carddav-address-book =
     .label = 新增 CardDAV 通訊錄
 about-addressbook-toolbar-add-ldap-address-book =
