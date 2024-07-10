@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Запазване съществуващата структура от папки при архивиране
     .accesskey = З
+recreate-inbox =
+    .label = Създаване  отново на нова входяща кутия
+    .accesskey = щ
 archive-example-label = Пример
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Входяща кутия
+child-folder-name =
+    .label = Подпапка на входяща кутия
+sibling-folder-name =
+    .label = Дъщерна папка на входящата кутия

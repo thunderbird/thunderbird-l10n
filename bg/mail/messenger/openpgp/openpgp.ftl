@@ -4,6 +4,25 @@
 
 e2e-intro-description = За да изпращате шифровани или цифрово подписани съобщения, трябва да конфигурирате технология за шифроване като OpenPGP или S/MIME.
 e2e-intro-description-more = Изберете вашия личен ключ, за да включите използването на OpenPGP, или вашия личен сертификат, за да включите  използването на S/MIME. За личен ключ или сертификат вие притежавате съответния таен ключ.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = За да получите нов личен S/MIME сертификат, генерирайте заявка за подписване на сертификат (CSR) и я изпратете на удостоверител на сертификати (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Изберете локална директория и име на вашия CSR файл и отговорете на следните въпроси за настройка на алгоритъм и сила.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Генериране на CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Продължаване
+# A label for a button that goes back one step
+e2e-csr-back = Назад
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Създаване и запазване на CSR файл като…
+# Do not translate: CSR
+e2e-csr-select-title = CSR алгоритъм
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿Изберете между RSA (препоръчително) или ECC като ваш криптографски алгоритъм за новия S/MIME сертификат.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Изберете желаната от вас криптографска сила (по-бърза с по-ниски числа или по-добра сигурност с по-големи числа) за новия S/MIME сертификат или запазете настройката по подразбиране.
 e2e-signing-description = Цифровият подпис позволява на получателите да потвърдят, че съобщението е изпратено от вас и съдържанието му не е променено. Шифрованите съобщения винаги се подписват по подразбиране.
 e2e-sign-message =
     .label = Подписване на нешифровани съобщения
@@ -619,6 +638,9 @@ no-update-found = Вече имате ключовете, които бяха о
 
 
 ## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
+
+
+## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Грешка - командата за извличане на ключ е неуспешна
 

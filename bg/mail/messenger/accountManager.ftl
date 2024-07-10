@@ -12,3 +12,6 @@ edit-vcard-dialog-accept-button = Запазване
     .accesskey = З
 edit-vcard-dialog-cancel-button = Прекъсване
     .accesskey = П
+account-manager-server-default-icon =
+    .title = Профил по подразбиране
+    .alt = Звезда

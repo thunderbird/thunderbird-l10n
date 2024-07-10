@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Търсене
 search-bar-item =
     .label = Търсене:
+search-bar-item2 =
+    .label = Търсене
 search-bar-placeholder = Търсене…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Запазване
 customize-unsaved-changes = Незапазени промени в други пространства
 customize-search-bar =
     .label = Бутони на лентата с инструменти за търсене...
+customize-search-bar2 =
+    .label = Бутони на лентата с инструменти за търсене
+    .placeholder = Бутони на лентата с инструменти за търсене…
 customize-spaces-tabs =
     .aria-label = Пространства
 customize-main-toolbar-target =

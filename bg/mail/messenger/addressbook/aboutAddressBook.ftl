@@ -18,6 +18,14 @@ about-addressbook-toolbar-new-list =
     .label = Нов списък
 about-addressbook-toolbar-import =
     .label = Внасяне
+books-pane-create-contact-button = Нов контакт
+    .title = Създаване на нов контакт
+books-pane-create-book-button =
+    .title = Създаване на нов адресник
+books-pane-create-list-button =
+    .title = Създаване на нов пощенски списък
+books-pane-import-button = Внасяне
+    .title = Внасяне на адресници
 
 ## Books
 
@@ -66,6 +74,14 @@ about-addressbook-search =
     .placeholder = Търсене { $name }
 about-addressbook-search-all =
     .placeholder = Търсене във всички адресници
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Търсене  на { $name }
+    .placeholder = Търсене  на { $name }…
+about-addressbook-search-all2 =
+    .label = Търсене във всички адресници
+    .placeholder = Търсене във всички адресници…
 about-addressbook-sort-button2 =
     .title = Опции за показване на списък
 about-addressbook-name-format-display =
@@ -92,38 +108,83 @@ about-addressbook-column-header-generatedname2 = Име
     .title = Сортиране по име
 about-addressbook-column-label-generatedname2 =
     .label = Име
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Име
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Имейл адрес
     .title = Сортиране по имейл адрес
 about-addressbook-column-label-emailaddresses2 =
     .label = Имейл адрес
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Имейл адреси
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Псевдоним
     .title = Сортиране по псвевдоним
 about-addressbook-column-label-nickname2 =
     .label = Псевдоним
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Псевдоним
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Телефонен номер
     .title = Сортиране по телефонен номер
 about-addressbook-column-label-phonenumbers2 =
     .label = Телефонен номер
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Телефонни номера
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Адреси
     .title = Сотриране по адреси
 about-addressbook-column-label-addresses2 =
     .label = Адреси
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Адреси
+    .title = { $title }
 about-addressbook-column-header-title2 = Длъжност
     .title = Сортиране по длъжност
 about-addressbook-column-label-title2 =
     .label = Длъжност
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Титла
+    .title = { $title }
 about-addressbook-column-header-department2 = Отдел
     .title = Сортиране по отдел
 about-addressbook-column-label-department2 =
     .label = Отдел
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Отдел
+    .title = { $title }
 about-addressbook-column-header-organization2 = Организация
     .title = Сортиране по организация
 about-addressbook-column-label-organization2 =
     .label = Организация
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Организация
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Име на адресник
     .title = Сортиране по име на адресника
 about-addressbook-column-label-addrbook2 =
     .label = Име на адресник
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Адресник
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Писане
 about-addressbook-confirm-delete-mixed-title = Изтриване на контакти и списъци
