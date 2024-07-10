@@ -8,6 +8,8 @@ about-addressbook-title = Ευρετήριο
 
 about-addressbook-toolbar-new-address-book =
     .label = Νέο ευρετήριο
+about-addressbook-toolbar-add-address-book =
+    .label = Προσθήκη τοπικού ευρετηρίου
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Προσθήκη ευρετηρίου CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
