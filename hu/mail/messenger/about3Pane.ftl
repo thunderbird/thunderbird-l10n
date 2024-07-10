@@ -117,10 +117,10 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Ezen üzenetek szűrése… <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Üzenetek szűrése:
 quick-filter-bar-search2 =
     .label = Üzenetek szűrése
+quick-filter-bar-searching =
+    .title = Keresés…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =

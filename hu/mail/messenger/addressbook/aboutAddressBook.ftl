@@ -8,6 +8,8 @@ about-addressbook-title = Címjegyzék
 
 about-addressbook-toolbar-new-address-book =
     .label = Új címjegyzék
+about-addressbook-toolbar-add-address-book =
+    .label = Helyi címjegyzék hozzáadása
 about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV-címjegyzék hozzáadása
 about-addressbook-toolbar-add-ldap-address-book =
