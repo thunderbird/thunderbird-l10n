@@ -132,7 +132,7 @@ quick-filter-bar-textbox =
 quick-filter-bar-search2 =
     .label = Hidlo negeseuon
 quick-filter-bar-searching =
-    .title = Chwilio…
+    .title = Wrthi'n chwilio…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
