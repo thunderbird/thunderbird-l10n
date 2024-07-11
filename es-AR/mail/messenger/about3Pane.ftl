@@ -541,4 +541,4 @@ folder-pane-context-mark-folder-read =
             [one] Marcar la carpeta como leída
            *[other] Marcar las carpetas como leídas
         }
-    .accesskey = k
+    .accesskey = c
