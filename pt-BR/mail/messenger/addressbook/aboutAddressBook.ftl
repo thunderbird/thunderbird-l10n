@@ -8,6 +8,8 @@ about-addressbook-title = Catálogo de endereços
 
 about-addressbook-toolbar-new-address-book =
     .label = Novo catálogo de endereços
+about-addressbook-toolbar-add-address-book =
+    .label = Adicionar catálogo de endereços local
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Adicionar catálogo de endereços CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
