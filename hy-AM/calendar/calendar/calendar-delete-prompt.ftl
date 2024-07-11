@@ -24,6 +24,11 @@ calendar-delete-task-prompt-title =
 ## Variables:
 ## $count (Number) - Number of items selected for deletion.
 
+calendar-delete-item-prompt-title =
+    { $count ->
+        [one] Ջնջել տարրը
+       *[other] Ջնջել տարրերը
+    }
 
 ##
 

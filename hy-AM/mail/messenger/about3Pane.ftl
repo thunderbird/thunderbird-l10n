@@ -5,6 +5,24 @@
 
 ## Message List Header Bar
 
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } ուղերձ
+       *[other] { $count } ուղերձներ
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } ընտրված
+       *[other] { $count } ընտրված
+    }
+thread-pane-header-context-table-view =
+    .label = Աղյուսակի տեսք
+thread-pane-header-context-hide =
+    .label = Թաքցնել հաղորդագրությունների ցանկի վերնագիրը
 
 ## Quick Filter Bar
 
@@ -15,6 +33,20 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Պահել զտիչները՝ թղթապանակներին անցնելիս
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Արագ զտիչի ցանկ
+quick-filter-bar-dropdown-unread =
+    .label = Չընթերցված
+quick-filter-bar-dropdown-starred =
+    .label = Աստղով
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Կոնտակտ
+quick-filter-bar-dropdown-tags =
+    .label = Պիտակներ
+quick-filter-bar-dropdown-attachment =
+    .label = Կցորդ
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -78,6 +110,25 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Զտել նամակները՝ <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search2 =
+    .label = Զտել նամակները
+quick-filter-bar-searching =
+    .title = Որոնում…
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Զտել նամակները՝ { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Որոնել ամենուր
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Tag filtering mode
@@ -118,9 +169,15 @@ quick-filter-bar-gloda-upsell-line2 = Սեղմեք ‘Enter'՝ շարունակ�
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Ստանալ նամակները
 folder-pane-get-all-messages-menuitem =
     .label = Ստանալ բոլոր նոր նամակները
     .accesskey = G
+folder-pane-write-message-button = Նոր նամակ
+    .title = Գրել նոր նամակ
+folder-pane-more-menu-button =
+    .title = Պանակի փեղկի ընտրանքներ
 folder-pane-mode-context-button =
     .title = Պանակի կերպի ընտրանքներ
 folder-pane-mode-context-toggle-compact-mode =
@@ -167,28 +224,68 @@ threadpane-column-header-attachments =
     .title = Տեսակավորել ըստ՝ կցորդների
 threadpane-column-label-attachments =
     .label = Կցորդներ
+threadpane-column-label-spam =
+    .label = Սպամ
+threadpane-cell-spam =
+    .aria-label = Սպամի կարգավիճակ
+threadpane-spam-cell-label = Սպամ
 threadpane-column-label-unread-button =
     .label = Կարդալ կարգավիճակը
 threadpane-column-header-sender = Ումից
     .title = Տեսակավորել ըստ՝ ումից
 threadpane-column-label-sender =
     .label = Ումից
+threadpane-cell-sender =
+    .aria-label = Ումից
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Ումից
+    .title = { $title }
 threadpane-column-header-recipient = Ստացողը
     .title = Տեսակավորել ըստ՝ ստացողի
 threadpane-column-label-recipient =
     .label = Ստացողը
+threadpane-cell-recipient =
+    .aria-label = Ստացող
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Ստացող
+    .title = { $title }
 threadpane-column-header-correspondents = Բաժանորդ
     .title = Տեսակավորել ըստ՝ բաժանորդի
 threadpane-column-label-correspondents =
     .label = Բաժանորդ
+threadpane-cell-correspondents =
+    .aria-label = Բաժանորդներ
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Բաժանորդներ
+    .title = { $title }
 threadpane-column-header-subject = Վերնագիր
     .title = Տեսակավորել ըստ՝ վերնագրի
 threadpane-column-label-subject =
     .label = Վերնագիր
+threadpane-cell-subject =
+    .aria-label = Վերնագիր
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Վերնագիր
+    .title = { $title }
 threadpane-column-header-date = Ամսաթիվ
     .title = Տեսակավորել ըստ՝ ամսաթվի
 threadpane-column-label-date =
     .label = Ամսաթիվ
+threadpane-cell-date =
+    .aria-label = Ամսաթիվ
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Ամսաթիվ
+    .title = { $title }
 threadpane-column-header-received = Ստացված
     .title = Տեսակավորել ըստ՝ ստանալու ամսաթվի
 threadpane-column-label-received =
@@ -233,6 +330,13 @@ threadpane-column-header-delete =
     .title = Ջնջել նամակը
 threadpane-column-label-delete =
     .label = Ջնջել
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } պատասխան
+       *[other] { $count } պատասխան
+    }
 
 ## Message state variations
 
@@ -251,3 +355,6 @@ apply-current-columns-to-folder-message = Կիրառե՞լ ընթացիկ թղթ
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին և մնացածին։
+
+## Folder pane context menu
+
