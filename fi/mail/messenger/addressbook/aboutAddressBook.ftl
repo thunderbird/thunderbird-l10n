@@ -8,6 +8,8 @@ about-addressbook-title = Osoitekirja
 
 about-addressbook-toolbar-new-address-book =
     .label = Uusi osoitekirja
+about-addressbook-toolbar-add-address-book =
+    .label = Lisää paikallinen osoitekirja
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Lisää CardDAV-osoitekirja
 about-addressbook-toolbar-add-ldap-address-book =
