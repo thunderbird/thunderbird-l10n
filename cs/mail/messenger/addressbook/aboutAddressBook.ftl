@@ -8,6 +8,8 @@ about-addressbook-title = Kontakty
 
 about-addressbook-toolbar-new-address-book =
     .label = Nová složka
+about-addressbook-toolbar-add-address-book =
+    .label = Přidat místní složku kontaktů
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Přidat složku kontaktů CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
