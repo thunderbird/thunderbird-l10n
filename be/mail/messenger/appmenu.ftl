@@ -7,6 +7,9 @@
 
 appmenu-sync-panel-title =
     .title = Сінхранізаваць
+appmenu-sync-manage =
+    .value = Кіраваць уліковым запісам
+    .accesskey = К
 appmenu-sync-account =
     .value = example@example.com
 appmenu-sync-now =
