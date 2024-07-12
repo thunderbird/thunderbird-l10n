@@ -8,6 +8,8 @@ about-addressbook-title = Adresboek
 
 about-addressbook-toolbar-new-address-book =
     .label = Nij adresboek
+about-addressbook-toolbar-add-address-book =
+    .label = Lokaal adresboek tafoegje
 about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV-adresboek tafoegje
 about-addressbook-toolbar-add-ldap-address-book =
