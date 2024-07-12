@@ -10,7 +10,7 @@
 <!ENTITY requestReceipt.label         "Заўсёды патрабаваць квіток атрымання, калі дасылаюцца лісты">
 <!ENTITY requestReceipt.accesskey     "К">
 <!ENTITY receiptArrive.label          "Калі прыбывае квіток:">
-<!ENTITY leaveIt.label                "Пакінуць яго ў маёй папцы Атрыманыя">
+<!ENTITY leaveIt.label                "Пакінуць яго ў маёй папцы «Уваходныя»">
 <!ENTITY leaveIt.accesskey            "і">
 <!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent' according to Netscape glossary -->
 <!ENTITY moveToSent.label             "Змясціць яго ў маю папку &quot;Дасланыя&quot;">

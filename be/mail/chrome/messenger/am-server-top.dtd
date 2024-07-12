@@ -50,7 +50,6 @@
 <!ENTITY modelDeleteImmediately.label "Выдаліць яго неадкладна">
 <!ENTITY modelDeleteImmediately.accesskey "н">
 <!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
-<!ENTITY expungeOnExit.label "Прыбраць (&quot;Знішчыць&quot;) папку Атрыманыя перад выхадам">
 <!ENTITY expungeOnExit.accesskey "П">
 <!ENTITY emptyTrashOnExit.label "Ачышчаць сметніцу перад выхадам">
 <!ENTITY emptyTrashOnExit.accesskey "ы">
