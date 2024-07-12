@@ -7,17 +7,28 @@
 
 appmenu-sync-panel-title =
     .title = Сінхранізаваць
+appmenu-sync-account =
+    .value = example@example.com
+appmenu-sync-now =
+    .label = Сінхранізаваць зараз
+    .accesskey = С
+appmenu-sync-settings =
+    .label = Налады сінхранізацыі
+    .accesskey = Н
+appmenu-sync-sign-out =
+    .label = Выйсці…
+    .accesskey = В
 
 ## New Account
 
 appmenu-new-account-panel-title =
-    .title = Стварыць уліковы запіс
+    .title = Новы ўліковы запіс
 appmenu-new-account-panel =
-    .label = Стварыць уліковы запіс
-    .accesskey = С
+    .label = Новы ўліковы запіс
+    .accesskey = Н
 appmenu-create-new-mail-account =
-    .label = Атрымаць новы адрас электроннай пошты
-    .accesskey = А
+    .label = Новы адрас электроннай пошты
+    .accesskey = Н
 appmenu-new-mail-account =
     .label = Існуючы адрас электроннай пошты
     .accesskey = І
@@ -92,6 +103,12 @@ appmenu-open-calendar =
 
 appmenu-view-panel-title =
     .title = Выгляд
+appmenu-view-panel =
+    .label = Выгляд
+    .accesskey = В
+appmenuitem-toggle-thread-pane-header =
+    .label = Загалоўкі спіса паведамленняў
+appmenu-font-size-value = Памер шрыфту
 appmenu-mail-uidensity-value = Шчыльнасць
 appmenu-uidensity-compact =
     .tooltiptext = Кампактная
@@ -106,12 +123,29 @@ appmenuitem-font-size-reduce =
 
 ## Tools
 
+appmenu-tools-import =
+    .label = Імпартаваць
+    .accesskey = І
+appmenu-tools-export =
+    .label = Экспартаваць
+    .accesskey = Э
+appmenu-tools-message-search =
+    .label = Шукаць паведамленні
+    .accesskey = Ш
 appmenu-tools-message-filters =
     .label = Фільтры паведамленняў
     .accesskey = Ф
+appmenu-tools-dev-tools =
+    .label = Прылады распрацоўшчыка
+    .accesskey = П
 
 ## Help
 
+appmenu-help-panel-title =
+    .title = Даведка
+appmenu-help-about-product =
+    .label = Пра { -brand-short-name }
+    .accesskey = П
 
 ## Application Update
 
