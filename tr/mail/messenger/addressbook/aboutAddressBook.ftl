@@ -8,6 +8,8 @@ about-addressbook-title = Adres Defteri
 
 about-addressbook-toolbar-new-address-book =
     .label = Yeni adres defteri
+about-addressbook-toolbar-add-address-book =
+    .label = Yerel adres defteri ekle
 about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV adres defteri ekle
 about-addressbook-toolbar-add-ldap-address-book =
