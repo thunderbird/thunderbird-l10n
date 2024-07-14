@@ -8,6 +8,8 @@ about-addressbook-title = Sổ địa chỉ
 
 about-addressbook-toolbar-new-address-book =
     .label = Sổ địa chỉ mới
+about-addressbook-toolbar-add-address-book =
+    .label = Thêm sổ địa chỉ cục bộ
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Thêm sổ địa chỉ CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
