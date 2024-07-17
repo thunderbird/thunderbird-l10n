@@ -52,6 +52,9 @@ folder-pane-header-label = Папкі
 
 ## Folder Toolbar Header Popup
 
+show-all-folders-label =
+    .label = Усе папкі
+    .accesskey = У
 show-tags-folders-label =
     .label = Меткі
     .accesskey = М
