@@ -182,8 +182,22 @@ menu-open-key-manager =
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Awgelhen seg yixef ɣer yixef yesra ferru n wuguren n tsarut i { $addr }.
 # Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Awgelhen seg yixef ɣer yixef yesra ferru n wuguren n tsarut i { $count } uɣerwiḍ.
+       *[other] Awgelhen seg yixef ɣer yixef yesra ferru n wuguren n tsarut i { $count } yiɣerwiḍen.
+    }
+# Variables:
 # $addr (String) - mail address with certificate issues.
 smime-cert-issue-notification-single = Awgelhen seg yixef ɣer yixef yesra ferru n wuguren n uselkin i { $addr }
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Awgelhen seg yixef ɣer yixef yesra ferru n wuguren n aelkin i { $count } uɣerwiḍ.
+       *[other] Awgelhen seg yixef ɣer yixef yesra ferru n wuguren n aelkin i { $count } yiɣerwiḍen.
+    }
 key-notification-disable-encryption =
     .label = Ur ttuwgelhin ara
     .accesskey = U
@@ -347,8 +361,12 @@ cloud-file-account-error = Yecceḍ uleqqem n umedday n Filelink { $filename }, 
 
 ## Link Preview
 
+link-preview-title = Taskant n useɣwen
 link-preview-replace-now = Rnu taskant n useɣwen i useɣwen-a?
 link-preview-yes-replace = Ih
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Rnu imawalen...
+    .accesskey = R

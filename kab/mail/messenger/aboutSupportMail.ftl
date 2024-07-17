@@ -24,3 +24,4 @@ libs-table-heading-loaded-version = Lqem ittuseqdacen
 libs-table-heading-path = Abrid
 libs-table-heading-status = Addad
 libs-rnp-status-ok = IH
+libs-otr-status-ok = IH

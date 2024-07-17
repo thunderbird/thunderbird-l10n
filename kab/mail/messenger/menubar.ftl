@@ -41,12 +41,27 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Sens askar n ferru n wuguren
     .accesskey = S
-menu-help-more-troubleshooting-info =
-    .label = Ugar n talɣut n usellek
-    .accesskey = U
+menu-help-about-product =
+    .label = Ɣef { -brand-short-name }
+    .accesskey = Ɣ
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Ffeɣ
+           *[other] Ffeɣ
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] F
+           *[other] F
+        }
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Anef { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -73,23 +88,32 @@ menu-view-repair-text-encoding =
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = Ffer aqerru n ugalis n yifuyla
+    .accesskey = F
 
 ## View / Layout
 
 menu-font-size-label =
     .label = Teɣzi n tsefsit
     .accesskey = e
+menuitem-font-size-enlarge =
+    .label = Semɣer teɣzi n tsefsit
+    .accesskey = S
+menuitem-font-size-reduce =
+    .label = Senqes seg teɣzi n tsefsit
+    .accesskey = S
+menuitem-font-size-reset =
+    .label = Wennez teɣzi n tsefsit
+    .accesskey = W
 mail-uidensity-label =
     .label = Taneẓẓi
     .accesskey = T
 mail-uidensity-compact =
     .label = Ussid
     .accesskey = U
-mail-uidensity-normal =
-    .label = Amagnu
-    .accesskey = A
-mail-uidensity-touch =
-    .label = Amennal
+mail-uidensity-default =
+    .label = Amezwer
     .accesskey = A
 menu-spaces-toolbar-button =
     .label = Afeggag n yifecka n tallunin
@@ -97,6 +121,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Amiḍan n yimayl…
+    .accesskey = A
 file-new-newsgroup-account =
     .label = Amiḍan n isallen n ugraw…
     .accesskey = l

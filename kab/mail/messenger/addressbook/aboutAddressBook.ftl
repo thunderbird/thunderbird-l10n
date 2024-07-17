@@ -8,6 +8,8 @@ about-addressbook-title = Imedlis n tensa
 
 about-addressbook-toolbar-new-address-book =
     .label = Imedlis n tensa amaynut
+about-addressbook-toolbar-add-address-book =
+    .label = Rnu amedlis n tensa adigan
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Rnu imedlis n tensa CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
@@ -220,6 +222,13 @@ about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Kkes anermis
        *[other] Kkes inermisen
+    }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] D tidet tebɣiḍ ad tekkseḍ { $name } n unermis-a?
+       *[other] D tidet tebɣiḍ ad tekkseḍ { $name } n yinermisen-a?
     }
 
 ## Card list placeholder

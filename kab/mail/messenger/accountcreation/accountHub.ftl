@@ -63,6 +63,7 @@ account-hub-auth-no-authentication-option =
 account-hub-auth-label = Tarrayt n usesteb
 account-hub-username-label = Isem n useqdac
 account-hub-adding-account-title = Timerna n umiḍan
+account-hub-lookup-email-configuration-title = Anadi n twila
 account-hub-find-settings-failed = { -brand-full-name } ur yessaweḍ ara ad d-yaf iɣewwaṛen i umiḍan-inek n tirawt.
 account-hub-notification-show-more = Sken ugar
 account-hub-notification-show-less = Sken drus
