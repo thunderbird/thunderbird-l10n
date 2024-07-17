@@ -8,6 +8,8 @@ about-addressbook-title = アドレス帳
 
 about-addressbook-toolbar-new-address-book =
     .label = 新しいアドレス帳
+about-addressbook-toolbar-add-address-book =
+    .label = ローカルアドレス帳を追加
 about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV アドレス帳を追加
 about-addressbook-toolbar-add-ldap-address-book =
