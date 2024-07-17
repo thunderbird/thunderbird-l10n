@@ -5,11 +5,25 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Згарнуць
+messenger-window-maximize-button =
+    .tooltiptext = Разгарнуць
 messenger-window-close-button =
     .tooltiptext = Закрыць
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip =
+    { $count ->
+        [one] 1 непрачытанае паведамленне
+        [few] { $count } непрачытаныя паведамленні
+       *[many] { $count } непрачытаных паведамленняў
+    }
 
 ## Content tabs
 
+content-tab-page-loading-icon =
+    .alt = Старонка загружаецца
 
 # Back
 
@@ -25,18 +39,31 @@ messenger-window-close-button =
 
 ## Toolbar
 
+addons-and-themes-toolbarbutton =
+    .label = Дадаткі і тэмы
+    .tooltiptext = Кіраваць вашымі дадаткамі
+quick-filter-toolbarbutton =
+    .label = Хуткі фільтр
+    .tooltiptext = Фільтраваць паведамленні
 
 ## Folder Pane
 
+folder-pane-header-label = Папкі
 
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Меткі
     .accesskey = М
+folder-toolbar-toggle-folder-compact-view =
+    .label = Кампактны выгляд
+    .accesskey = К
 
 ## File Menu
 
+menu-file-save-as-file =
+    .label = Файл…
+    .accesskey = Ф
 
 ## Edit Menu
 
@@ -76,12 +103,20 @@ menu-edit-newsgroup-properties =
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = Файл…
 
 ## Context menu
 
+mail-context-menu-open =
+    .label = Адкрыць
+    .accesskey = А
 mail-context-menu-forward-forward =
     .label = Пераслаць
     .accesskey = к
+mail-context-menu-threads =
+    .label = Абмеркаванні
+    .accesskey = А
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -128,10 +163,10 @@ spaces-toolbar-button-calendar2 =
 # The label to display for the "View... Toolbars..." menu item that controls
 # whether the quick filter bar is visible.
 quick-filter-bar-toggle =
-    .label = Паліца хуткага сіта
+    .label = Панэль хуткага фільтру
     .accesskey = х
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
