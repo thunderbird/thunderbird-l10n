@@ -5,6 +5,7 @@
 
 ## Encryption status
 
+openpgp-key-assistant-recipients-issue-header = Yegguma ad yettwawgelhen
 openpgp-key-assistant-info-alias = { -brand-short-name } yettusra s wudem amagnu belli tasarut tazayazt n uɣerwaḍ deg-s asulay n useqdac s tansa n yimayl yemṣadan. Aya yezmer ad yettusemselsi s useqdec n yilugan n meffer isem n uɣerwaḍ OpenPGP. <a data-l10n-name="openpgp-link">Issin ugar…</a>
 
 ## Resolve section

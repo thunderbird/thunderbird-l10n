@@ -33,9 +33,29 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Uɣal ɣer deffir s yiwen usebter ({ $shortcut })
+    .aria-label = Uɣal
+    .accesskey = U
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Uɣal ɣer deffir
+    .accesskey = U
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Aẓ ɣer zdat s yiwen usebter ({ $shortcut })
+    .aria-label = Welleh
+    .accesskey = W
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Welleh
+    .accesskey = W
 
 # Reload
 
@@ -147,6 +167,24 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Creḍ amzun yettwaɣṛa
+    .tooltiptext = Creḍ amzun ttwaɣṛan
+context-menu-mark-unread =
+    .aria-label = Creḍ-it amzun ur yettwaɣra ara
+    .tooltiptext = Creḍ-it amzun ur ttwaɣran ara
+context-menu-mark-reply =
+    .aria-label = Err
+    .tooltiptext = Err
+context-menu-archive =
+    .aria-label = Aɣbaṛ
+    .tooltiptext = Aɣbaṛ
+mail-context-menu-open =
+    .label = Ldi
+    .accesskey = L
+mail-context-menu-reply =
+    .label = Err
+    .accesskey = E
 mail-context-menu-forward-forward =
     .label = Ɣer zdat
     .accesskey = z
@@ -231,6 +269,14 @@ no-reply-reply-anyway-button = Err akken ibɣu yili
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } n { $total } yizen yegguma ad as-yettwakkes uwgelhen, ur yettwanɣel ara.
+       *[other] { $failures } n { $total } yiznan gguman ad asen-yettwakkes uwgelhen, ur ttwanɣalen ara.
+    }
 
 ## Spaces toolbar
 
@@ -320,7 +366,7 @@ quick-filter-bar-toggle =
     .label = Afeggag n imzideg arurad
     .accesskey = f
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
