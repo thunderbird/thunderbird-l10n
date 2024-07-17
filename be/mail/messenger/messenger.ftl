@@ -45,6 +45,9 @@ addons-and-themes-toolbarbutton =
 quick-filter-toolbarbutton =
     .label = Хуткі фільтр
     .tooltiptext = Фільтраваць паведамленні
+redirect-msg-button =
+    .label = Перанакіраваць
+    .tooltiptext = Перанакіраваць выбранае паведамленне
 
 ## Folder Pane
 
@@ -55,6 +58,12 @@ folder-pane-header-label = Папкі
 show-all-folders-label =
     .label = Усе папкі
     .accesskey = У
+show-unread-folders-label =
+    .label = Непрачытаныя папкі
+    .accesskey = Н
+show-recent-folders-label =
+    .label = Нядаўнія папкі
+    .accesskey = я
 show-tags-folders-label =
     .label = Меткі
     .accesskey = М
@@ -73,6 +82,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Выдаліць папку
     .accesskey = д
+menu-edit-unsubscribe-newsgroup =
+    .label = Адпісацца ад групы навін
+    .accesskey = А
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -103,23 +115,47 @@ menu-edit-newsgroup-properties =
 
 ## Message Menu
 
+redirect-msg-menuitem =
+    .label = Перанакіраваць
+    .accesskey = П
 
 ## AppMenu
 
 appmenu-save-as-file =
     .label = Файл…
+appmenu-settings =
+    .label = Налады
+appmenu-addons-and-themes =
+    .label = Дадаткі і тэмы
 
 ## Context menu
 
+context-menu-mark-reply =
+    .aria-label = Адказаць
+    .tooltiptext = Адказаць
+context-menu-archive =
+    .aria-label = Архіваваць
+    .tooltiptext = Архіваваць
 mail-context-menu-open =
     .label = Адкрыць
     .accesskey = А
+mail-context-menu-reply =
+    .label = Адказаць
+    .accesskey = А
+mail-context-menu-forward-redirect =
+    .label = Пераслаць і перанакіраваць
+    .accesskey = П
 mail-context-menu-forward-forward =
     .label = Пераслаць
     .accesskey = к
 mail-context-menu-threads =
     .label = Абмеркаванні
     .accesskey = А
+context-menu-redirect-msg =
+    .label = Перанакіраваць
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Скасаваць паведамленне
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
@@ -131,6 +167,11 @@ mail-context-undelete-messages =
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = Перанакіраваць
+message-header-msg-flagged =
+    .title = Пазначаныя
+    .aria-label = Пазначаныя
 
 ## Message header cutomize panel
 
@@ -152,14 +193,28 @@ mail-context-undelete-messages =
 
 ## Spaces toolbar
 
+spaces-toolbar-button-mail2 =
+    .title = Пошта
+spaces-toolbar-button-address-book2 =
+    .title = Адрасная кніга
 spaces-toolbar-button-calendar2 =
     .title = Каляндар
+spaces-toolbar-button-tasks2 =
+    .title = Задачы
+spaces-toolbar-button-chat2 =
+    .title = Чат
+settings-context-open-account-settings-item2 =
+    .label = Налады ўліковага запісу
+settings-context-open-addons-item2 =
+    .label = Дадаткі і тэмы
 
 ## Spaces toolbar pinned tab menupopup
 
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Персаналізаваць…
 
 ## Quick Filter Bar
 
