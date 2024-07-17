@@ -12,6 +12,8 @@ calendar-add-notification-button =
 
 calendar-list-header = Iwitayen
 calendar-enable-button = Rmed
+calendar-import-new-calendar = Awitay amaynut…
+    .title = Rnu neɣ multeɣ ɣer uwitay amaynut
 calendar-refresh-calendars =
     .title = Sal-id tikkelt niḍen akk iwitayen u mtawi isnifal
 calendar-new-event-primary-button = Rnu tadyant

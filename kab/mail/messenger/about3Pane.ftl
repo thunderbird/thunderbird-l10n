@@ -102,8 +102,6 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Zizdeg iznan agis <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Sizdeg iznan:
 quick-filter-bar-search2 =
     .label = Sizdeg iznan
 # Keyboard shortcut for the text search box.
@@ -188,6 +186,13 @@ folder-pane-mode-move-up =
     .label = Ali
 folder-pane-mode-move-down =
     .label = Ader
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] { $count } n yizen ur nettwaɣra ara
+       *[other] { $count } n yiznan ur nettwaɣra ara
+    }
 
 ## Message thread pane
 
