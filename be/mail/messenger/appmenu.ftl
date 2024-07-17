@@ -152,3 +152,9 @@ appmenu-help-about-product =
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = Спампоўваецца абнаўленне { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Даступна абнаўленне — спампаваць зараз
+appmenuitem-banner-update-manual =
+    .label = Даступна абнаўленне — спампаваць зараз
