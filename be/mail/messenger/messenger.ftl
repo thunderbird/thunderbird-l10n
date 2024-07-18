@@ -31,6 +31,12 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Вярнуцца на адну старонку назад
+    .aria-label = Назад
+    .accesskey = з
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Назад
@@ -160,12 +166,21 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Пазначыць прачытаным
+    .tooltiptext = Пазначыць прачытаным
+context-menu-mark-unread =
+    .aria-label = Пазначыць непрачытаным
+    .tooltiptext = Пазначыць непрачытаным
 context-menu-mark-reply =
     .aria-label = Адказаць
     .tooltiptext = Адказаць
 context-menu-archive =
     .aria-label = Архіваваць
     .tooltiptext = Архіваваць
+context-menu-mark-junk =
+    .aria-label = Пазначыць як спам
+    .tooltiptext = Пазначыць як спам
 mail-context-menu-open =
     .label = Адкрыць
     .accesskey = А
@@ -178,6 +193,19 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Пераслаць
     .accesskey = к
+mail-context-menu-forward-inline =
+    .label = У целе паведамлення
+    .accesskey = ц
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Як прымацаванне
+            [few] Як прымацаванні
+           *[many] Як прымацаванні
+        }
+    .accesskey = п
 mail-context-menu-threads =
     .label = Абмеркаванні
     .accesskey = А
@@ -188,12 +216,44 @@ context-menu-cancel-msg =
     .label = Скасаваць паведамленне
 # Variables:
 # $count (Number) - Number of selected messages.
+mail-context-delete-messages =
+    .label =
+        { $count ->
+            [one] Выдаліць паведамленне
+            [few] Выдаліць выбраныя паведамленні
+           *[many] Выдаліць выбраныя паведамленні
+        }
+# Variables:
+# $count (Number) - Number of selected messages.
 mail-context-undelete-messages =
     .label =
         { $count ->
             [one] Адмяніць выдаленне ліста
            *[other] Адмяніць выдаленне вылучаных лістоў
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Выдаліць паведамленне
+            [few] Выдаліць выбраныя паведамленні
+           *[many] Выдаліць выбраныя паведамленні
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Аднавіць паведамленне
+            [few] Аднавіць выбраныя паведамленні
+           *[many] Аднавіць выбраныя паведамленні
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
+context-menu-decrypt-to-folder2 =
+    .label = Стварыць расшыфраваную копію ў
+    .accesskey = р
 
 ## Message header pane
 
@@ -211,9 +271,16 @@ message-header-msg-flagged =
 
 ## Action Button Context Menu
 
+toolbar-context-menu-remove-extension =
+    .label = Выдаліць пашырэнне
+    .accesskey = В
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Выдаліць { $name }?
+addon-removal-confirmation-button = Выдаліць
 
 ## no-reply handling
 
