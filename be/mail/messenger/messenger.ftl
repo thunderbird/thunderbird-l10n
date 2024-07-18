@@ -106,6 +106,12 @@ show-all-folders-label =
 show-unread-folders-label =
     .label = Непрачытаныя папкі
     .accesskey = Н
+show-favorite-folders-label =
+    .label = Абраныя папкі
+    .accesskey = А
+show-smart-folders-label =
+    .label = Аб'яднаныя папкі
+    .accesskey = б
 show-recent-folders-label =
     .label = Нядаўнія папкі
     .accesskey = я
@@ -277,6 +283,9 @@ message-header-msg-flagged =
 
 ## Message header customize panel
 
+message-header-all-headers =
+    .label = Паказаць усе загалоўкі
+    .accesskey = з
 
 ## Action Button Context Menu
 
