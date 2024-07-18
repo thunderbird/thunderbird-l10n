@@ -34,7 +34,7 @@ content-tab-security-broken-icon =
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Вярнуцца на адну старонку назад
+    .tooltiptext = Вярнуцца на адну старонку назад ({ $shortcut })
     .aria-label = Назад
     .accesskey = з
 # This menuitem is only visible on macOS
@@ -44,6 +44,12 @@ content-tab-menu-back-mac =
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Перайсці на адну старонку наперад ({ $shortcut })
+    .aria-label = Наперад
+    .accesskey = п
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Наперад
