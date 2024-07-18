@@ -31,15 +31,41 @@ content-tab-security-broken-icon =
 
 # Back
 
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Назад
+    .accesskey = з
 
 # Forward
 
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Наперад
+    .accesskey = п
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Перазагрузіць старонку
+    .aria-label = Перазагрузіць
+    .accesskey = П
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Перазагрузіць старонку
+    .label = Перазагрузіць
+    .accesskey = П
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Спыніць загрузку старонкі
+    .aria-label = Спыніць
+    .accesskey = С
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Спыніць загрузку старонкі
+    .label = Спыніць
+    .accesskey = С
 
 ## Toolbar
 
