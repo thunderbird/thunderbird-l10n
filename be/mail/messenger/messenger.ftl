@@ -24,6 +24,10 @@ unread-messages-os-tooltip =
 
 content-tab-page-loading-icon =
     .alt = Старонка загружаецца
+content-tab-security-high-icon =
+    .alt = Злучэнне абаронена
+content-tab-security-broken-icon =
+    .alt = Злучэнне не абаронена
 
 # Back
 
