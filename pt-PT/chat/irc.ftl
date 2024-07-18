@@ -16,6 +16,7 @@ connection-error-time-out = A ligação expirou
 connection-error-invalid-username = { $username } não é um nome de utilizador permitido
 connection-error-invalid-password = Palavra-passe inválida
 connection-error-password-required = Requer palavra-passe
+connection-error-invalid-user-password = Palavra-passe inválida
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Canal

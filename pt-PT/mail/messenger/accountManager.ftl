@@ -12,3 +12,6 @@ edit-vcard-dialog-accept-button = Guardar
     .accesskey = G
 edit-vcard-dialog-cancel-button = Cancelar
     .accesskey = C
+account-manager-server-default-icon =
+    .title = Conta pré-definida
+    .alt = Ícone de estrela

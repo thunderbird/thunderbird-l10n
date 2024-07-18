@@ -117,8 +117,10 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filtrar estas mensagens <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Filtrar mensagens:
+quick-filter-bar-search2 =
+    .label = Filtrar mensagens
+quick-filter-bar-searching =
+    .title = A pesquisar…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -501,8 +503,33 @@ apply-current-view-to-folder-message = Aplicar a vista da pasta atual a { $name 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Aplicar a vista da pasta atual a { $name } e respetivas sub-pastas?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> mensagem não lida de <span>1</span>
+               *[other] <span>1</span> mensagem não lida de <span>{ $total }</span>
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> mensagens não lidas de <span>1</span>
+               *[other] <span>{ $unread }</span> mensagens não lidas de <span>{ $total }</span>
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> mensagens
+       *[other] <span>{ $total }</span> mensagens
+    }
 threadpane-card-menu-button =
     .title = Menu de mensagens
+message-list-placeholder-no-messages = Nenhuma mensagem encontrada
+message-list-placeholder-multiple-folders = Múltiplas pastas selecionadas
 
 ## Folder pane context menu
 
