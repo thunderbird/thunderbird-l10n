@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+toolbar-context-menu-menu-bar =
+    .toolbarname = Панэль меню
+    .accesskey = П
 
 ## Tools Menu
 
@@ -23,6 +26,9 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Выключыць рэжым вырашэння праблем
     .accesskey = В
+menu-help-about-product =
+    .label = Пра { -brand-short-name }
+    .accesskey = П
 
 ## Mail Toolbar
 
@@ -50,6 +56,21 @@ menu-view-repair-text-encoding =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Загаловак спіса паведамленняў
+    .accesskey = З
+menu-font-size-label =
+    .label = Памер шрыфту
+    .accesskey = ш
+menuitem-font-size-enlarge =
+    .label = Павялічыць памер шрыфту
+    .accesskey = в
+menuitem-font-size-reduce =
+    .label = Паменшыць памер шрыфту
+    .accesskey = м
+menuitem-font-size-reset =
+    .label = Скінуць памер шрыфту
+    .accesskey = С
 mail-uidensity-label =
     .label = Шчыльнасць
     .accesskey = Ш
@@ -65,3 +86,9 @@ mail-uidensity-relaxed =
 
 ## File
 
+file-new-email-account =
+    .label = Уліковы запіс электроннай пошты…
+    .accesskey = э
+file-new-newsgroup-account =
+    .label = Уліковы запіс групы навін…
+    .accesskey = г
