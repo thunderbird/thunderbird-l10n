@@ -97,6 +97,9 @@ folder-pane-header-label = Папкі
 
 ## Folder Toolbar Header Popup
 
+folder-toolbar-hide-toolbar-toolbarbutton =
+    .label = Схаваць панэль інструментаў
+    .accesskey = С
 show-all-folders-label =
     .label = Усе папкі
     .accesskey = У
@@ -287,6 +290,7 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Выдаліць { $name }?
 addon-removal-confirmation-button = Выдаліць
+caret-browsing-prompt-check-text = Не запытваць мяне зноў.
 
 ## no-reply handling
 
@@ -308,6 +312,14 @@ spaces-toolbar-button-chat2 =
     .title = Чат
 spaces-toolbar-button-settings2 =
     .title = Налады
+spaces-context-new-tab-item =
+    .label = Адкрыць на новай укладцы
+spaces-context-new-window-item =
+    .label = Адкрыць у новым акне
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = Пераключыцца на { $tabName }
 settings-context-open-settings-item2 =
     .label = Налады
 settings-context-open-account-settings-item2 =
@@ -317,6 +329,29 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] Адно непрачытанае паведамленне
+            [few] { $count } непрачытаныя паведамленні
+           *[many] { $count } непрачытаных паведамленняў
+        }
 
 ## Spaces toolbar customize panel
 
