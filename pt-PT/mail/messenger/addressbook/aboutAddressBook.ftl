@@ -20,6 +20,14 @@ about-addressbook-toolbar-new-list =
     .label = Nova lista
 about-addressbook-toolbar-import =
     .label = Importar
+books-pane-create-contact-button = Novo Contacto
+    .title = Criar um novo contacto
+books-pane-create-book-button =
+    .title = Criar um novo livro de endereços
+books-pane-create-list-button =
+    .title = Criar uma nova lista de correio
+books-pane-import-button = Importar
+    .title = Importar livros de endereços
 
 ## Books
 
@@ -68,6 +76,14 @@ about-addressbook-search =
     .placeholder = Pesquisar { $name }
 about-addressbook-search-all =
     .placeholder = Pesquisar todos os livros de endereços
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Pesquisar { $name }
+    .placeholder = Pesquisar { $name }…
+about-addressbook-search-all2 =
+    .label = Pesquisar todos os livros de endereços
+    .placeholder = Pesquisar todos os livros de endereços…
 about-addressbook-sort-button2 =
     .title = Listar opções de apresentação
 about-addressbook-name-format-display =
@@ -94,38 +110,83 @@ about-addressbook-column-header-generatedname2 = Nome
     .title = Ordenar pelo nome
 about-addressbook-column-label-generatedname2 =
     .label = Nome
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Nome
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Endereços de e-mail
     .title = Ordenar por endereço de e-mail
 about-addressbook-column-label-emailaddresses2 =
     .label = Endereços de e-mail
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Endereços de e-mail
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Pseudónimo
     .title = Ordenar por pseudónimo
 about-addressbook-column-label-nickname2 =
     .label = Pseudónimo
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Pseudónimo
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Números de telefone
     .title = Ordenar por números de telefone
 about-addressbook-column-label-phonenumbers2 =
     .label = Números de Telefone
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Números de telefone
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Moradas
     .title = Ordenar por moradas
 about-addressbook-column-label-addresses2 =
     .label = Moradas
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Endereços
+    .title = { $title }
 about-addressbook-column-header-title2 = Cargo
     .title = Ordenar pelo cargo
 about-addressbook-column-label-title2 =
     .label = Cargo
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Título
+    .title = { $title }
 about-addressbook-column-header-department2 = Departamento
     .title = Ordenar por departamento
 about-addressbook-column-label-department2 =
     .label = Departamento
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Departamento
+    .title = { $title }
 about-addressbook-column-header-organization2 = Organização
     .title = Ordenar por organização
 about-addressbook-column-label-organization2 =
     .label = Organização
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organização
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Livro de endereços
     .title = Ordenar por livro de endereços
 about-addressbook-column-label-addrbook2 =
     .label = Livro de endereços
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Livro de endereços
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Escrever
 about-addressbook-confirm-delete-mixed-title = Apagar contactos e listas

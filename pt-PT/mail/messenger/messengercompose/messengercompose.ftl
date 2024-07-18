@@ -151,6 +151,31 @@ encryption-menu =
 encryption-toggle =
     .label = Encriptar
     .tooltiptext = Utilizar a encriptação ponta a ponta para esta mensagem
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = Ver ou alterar as definições de encriptação OpenPGP
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = Ver ou alterar as definições de encriptação S/MIME
+signing-toggle =
+    .label = Assinar
+    .tooltiptext = Usar assinatura digital para esta mensagem
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
+menu-encrypt =
+    .label = Encriptar
+    .accesskey = E
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Não está configurado para enviar mensagens encriptadas ponto-a-ponto de { $addr }.
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = A encriptação ponto a ponto requer a resolução de problemas de certificados para { $addr }.
 key-notification-disable-encryption =
     .label = Não encriptar
     .accesskey = c
@@ -159,6 +184,8 @@ key-notification-resolve =
     .label = Resolver…
     .accesskey = R
     .tooltiptext = Abra o Assistente de Chaves OpenPGP
+can-encrypt-smime-notification = A encriptação ponto a ponto S/MIME é possível.
+can-encrypt-openpgp-notification = A encriptação OpenPGP ponto a ponto é possível.
 can-e2e-encrypt-button =
     .label = Encriptar
     .accesskey = E
@@ -212,6 +239,7 @@ show-bcc-row-button = Bcc
     .title = Mostrar campo Bcc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Outros campos de endereços a mostrar
+public-recipients-notice-single = A sua mensagem tem um destinatário público. Pode evitar a divulgação do destinatário usando Bcc.
 many-public-recipients-bcc =
     .label = Utilize o Bcc
     .accesskey = B

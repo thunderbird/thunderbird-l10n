@@ -345,6 +345,9 @@ caret-browsing-prompt-check-text = Não voltar a perguntar.
 ## no-reply handling
 
 no-reply-title = Responder Não Suportado
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
+no-reply-message = O endereço de resposta ({ $email }) não parece ser um endereço monitorizado. As mensagens para este endereço provavelmente não serão lidas por ninguém.
 no-reply-reply-anyway-button = Mesmo Assim, Responder
 
 ## error messages
