@@ -86,6 +86,7 @@ addr-book-sqlite-file = SQLite-databasefil (.sqlite)
 addr-book-mab-file = Mork-databasefil (.mab)
 addr-book-file-picker = Vel ei adressebokfil
 addr-book-csv-field-map-title = Matche feltnamn
+addr-book-directories-title = Vel kvar valde data skal importerast til
 addr-book-directories-pane-source = Kjeldefil:
 # $addressBookName (string) - name of the new address book that would be created.
 addr-book-import-into-new-directory2 = Opprett ei ny mappe som heiter <strong>"{ $addressBookName }"</strong>
@@ -109,6 +110,13 @@ calendar-deselect-all-items = Merk ingen
 calendar-target-title = Vel kvar dei valde objekta skal importerast til.
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = Opprett ein ny kalender som heiter <strong>«{ $targetCalendar }»</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+        [one] Importer eitt element til «{ $targetCalendar }»-kalenderen
+       *[other] Importer { $itemCount } element til «{ $targetCalendar }»-kalenderen
+    }
 # $targetCalendar (string) - name of the calendar that will be created
 calendar-summary-description = Ein ny kalender med namn "{ $targetCalendar }" vert oppretta.
 
@@ -120,6 +128,7 @@ progress-pane-importing2 = Importerer… { $progressPercent }
 progress-pane-exporting2 = Eksporterer… { $progressPercent }
 progress-pane-finished-desc2 = Fullført
 error-pane-title = Feil
+error-failed-to-parse-ics-file = Ingen importerbare element funne i fila.
 error-message-no-profile = Fann ingen profil.
 
 ## <csv-field-map> element
@@ -138,6 +147,7 @@ export-brand-name = { -brand-product-name }
 
 summary-pane-title = Data som skal importerast
 summary-pane-start = Start Import
+summary-pane-start-over = Start importverktøyet på nytt
 
 ## Footer area
 
