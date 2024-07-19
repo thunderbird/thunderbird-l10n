@@ -79,9 +79,12 @@ items-pane-checkbox-accounts = Konto og innstillingar
 items-pane-checkbox-address-books = Adressebøker
 items-pane-checkbox-calendars = Kalendrar
 items-pane-checkbox-mail-messages = E-postmeldingar
+items-pane-override = Eksisterande data vert ikkje overskrivne.
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Vel filformatet som inneheld adressebokdataa dine.
+addr-book-csv-file = Komma- eller tabulatordelt fil (.csv, .tsv)
 addr-book-ldif-file = LDIF-fil (.ldif)
 addr-book-vcard-file = vCard-fil (.vcf, .vcard)
 addr-book-sqlite-file = SQLite-databasefil (.sqlite)
