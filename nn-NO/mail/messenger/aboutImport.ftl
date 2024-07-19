@@ -128,6 +128,7 @@ progress-pane-importing2 = Importerer… { $progressPercent }
 progress-pane-exporting2 = Eksporterer… { $progressPercent }
 progress-pane-finished-desc2 = Fullført
 error-pane-title = Feil
+error-message-zip-file-too-big2 = Den valde ZIP-fila er større enn 2GB. Pakk ut fila først, importer så frå den utpakka mappa i staden.
 error-failed-to-parse-ics-file = Ingen importerbare element funne i fila.
 error-message-no-profile = Fann ingen profil.
 
@@ -139,6 +140,8 @@ csv-target-field = Adressebokfelt
 
 ## Export tab
 
+export-profile-title = Eksporter kontoar, meldingar, adressebøker og innstillingar til ei ZIP-fil.
+export-profile-description = Om den gjeldande profilen din er større enn 2 GB føreslår vi att du sikkerheitskopierer han sjølv.
 export-open-profile-folder = Opne profilmappe
 export-file-picker2 = Eksporter til ei zip-fil
 export-brand-name = { -brand-product-name }
@@ -147,6 +150,7 @@ export-brand-name = { -brand-product-name }
 
 summary-pane-title = Data som skal importerast
 summary-pane-start = Start Import
+summary-pane-warning = { -brand-product-name } må startast om når importen er fullført.
 summary-pane-start-over = Start importverktøyet på nytt
 
 ## Footer area
