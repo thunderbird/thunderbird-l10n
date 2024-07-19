@@ -8,6 +8,8 @@ export-page-title = Eksporter
 ## Header
 
 import-start = Importverkty
+import-start-title = Importinnstillingar eller data frå ein app eller ei fil.
+import-start-description = Vel kjelda du vil importere frå. Du vil seinare bli beden om å velje kva for data som ska importerast.
 import-from-app = Importer frå applikasjon
 import-file = Importer frå ei fil
 import-file-title = Vel ei fil for[ importere innhaldet.
