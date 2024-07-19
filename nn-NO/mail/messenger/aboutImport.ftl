@@ -13,6 +13,7 @@ import-start-description = Vel kjelda du vil importere frå. Du vil seinare bli 
 import-from-app = Importer frå applikasjon
 import-file = Importer frå ei fil
 import-file-title = Vel ei fil for[ importere innhaldet.
+import-file-description = Vel å importere ein tidlegare sikkerheitskopiert profil, adressebøker eller kalendrar.
 import-address-book-title = Importer adressebokfil
 import-calendar-title = Importer kalenderfil
 export-profile = Eksporter
@@ -47,6 +48,7 @@ source-file-description = Vel ei fil for å importere adressebøker, kalendrar, 
 ## Import from file selections
 
 file-profile2 = Importer profilsikkerheitskopi
+file-profile-description = Vel ein tidlegare sikkerheitskopiert Thunderbird-profil (.zip)
 file-calendar = Importer kalendrar
 file-addressbook = Importer adressebøker
 file-addressbook-description = Vel ei fil som inneheld eksporterte adressebøker og kontaktar
