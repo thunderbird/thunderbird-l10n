@@ -639,12 +639,18 @@ email-e2ee-header = Ende-til-ende-kryptering for e-post
 account-settings = Kontoinnstillingar
 email-e2ee-enable-info = Still inn e-postkonton og identitetar for ende-til-ende-kryptering i kontoinstillingar.
 email-e2ee-automatism = Automatisk bruk av kryptering
+email-e2ee-automatism-pre =
+    { -brand-short-name } kan hjelpe til ved å automatisk aktivere eller inaktivere kryptering når du skriv ei e-postmelding.
+    Automatisk aktivering/deaktivering er basert på tilgangen på gyldige og aksepterte korrespondentnøklar eller sertifikat.
 email-e2ee-auto-on =
     .label = Slå automatisk på kryptering når det er muleg
 email-e2ee-auto-off =
     .label = Slå av kryptering automatisk når mottakarar vert endra, og kryptering ikkje lenger er muleg.
 email-e2ee-auto-off-notify =
     .label = Vis ei melding når kryptering automatisk er slått av
+email-e2ee-automatism-post =
+    Automatiske avgjerder kan tilsidesettast ved å manuelt aktivere eller deaktivere kryptering når du skriv ei melding.
+    Merk: kryptering vert alltid automatisk aktivert når du svarar på ei kryptert melding.
 
 ## Chat Tab
 
