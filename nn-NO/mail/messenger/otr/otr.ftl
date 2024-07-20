@@ -58,6 +58,9 @@ context-gone-secure-unverified = Kryptert, men ikkje-stadfesta samtale med { $na
 #   $name (String) - the screen name of a chat contact person
 context-still-secure = Oppdaterte den krypterte samtalen med { $name }.
 error-enc = Ein feil oppstod under kryptering av meldinga.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+error-not-priv = Du sende krypterte data til { $name }, som ikkje venta det.
 error-unreadable = Du sende ei uleseleg kryptert melding.
 error-malformed = Du sende ei feilformattert datamelding.
 resent = [sendt på nytt]
