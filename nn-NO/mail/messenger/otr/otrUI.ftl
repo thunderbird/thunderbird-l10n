@@ -7,11 +7,14 @@ refresh-label = Oppdater den krypterte samtalen
 auth-label = Stadfest identiteten til kontakten din
 reauth-label = Stadfest identiteten til kontakten din ein gong til
 auth-cancel = Avbryt
+auth-cancel-access-key = A
 auth-error = Det oppstod ein feil under stadfestinga av identiteten til kontakten din.
 auth-success = Stadfesting av identiteten til kontakten din er ferdig.
+auth-success-them = Kontakten din har stadfesta identiteten din. Du vil kanskje identifisere identiteten deira òg, ved å stille ditt eige spørsmål.
 auth-fail = Klarte ikkje å identifisere identiteten til kontakten din.
 auth-waiting = Ventar på at kontakten din skal fullføre stadfestinga…
 finger-verify = Stadfest
+finger-verify-access-key = B
 finger-ignore = Ignorer
 finger-ignore-access-key = I
 # Do not translate 'OTR' (name of an encryption protocol)
@@ -36,9 +39,11 @@ state-generic-not-private = Denne samtalen er ikkje privat.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-unverified = Denne samtalen er krypteret, men ikkje privat, då { $name }s identitet enno ikkje er stadfesta.
+state-generic-unverified = Gjeldande samtale er kryptert, men ikkje privat, sidan nokre identitetar enno ikkje er verifiserte.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-private = Identiteten for { $name } er stadfesta. Denne samtalen er kryptert privat.
+state-generic-private = Gjeldande samtale er kryptert og privat.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-finished = { $name } har avslutta kryptert samtale med deg; du bør gjere det same.
