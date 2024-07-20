@@ -408,7 +408,7 @@ alarm-default-summary = Sumario de Mozilla predeterminado
 alarm-snooze-limit-exceeded =
     { $count ->
         [one] No se puede posponer una alarma por más de { $count } mes.
-       *[other] No se puede posponer una alarma por más de { $count }meses.
+       *[other] No se puede posponer una alarma por más de { $count } meses.
     }
 task-details-status-needs-action = Necesita acción
 # LOCALIZATION NOTE (task-details-status-in-progress):
