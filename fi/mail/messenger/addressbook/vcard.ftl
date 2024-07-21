@@ -73,8 +73,10 @@ vcard-tz-add = Lisää aikavyöhyke
 vcard-impp2-header = Pikaviestintä
 vcard-impp-add = Lisää pikaviestitili
 vcard-impp-label = Pikaviestitili
+vcard-impp-select = Yhteyskäytäntö
 vcard-impp-option-other = Muu
 vcard-impp-input-label = URI
+vcard-impp-input-title = URI pikaviestintää varten
 
 # BDAY and ANNIVERSARY vCard field
 
@@ -103,15 +105,20 @@ vcard-adr-country = Maa
 # NOTE vCard field
 
 vcard-note-header = Huomautuksia
+vcard-note-add = Lisää huomautus
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
 vcard-org-header = Organisaation ominaisuudet
 vcard-org-add = Lisää organisaation ominaisuuksia
+vcard-org-title = Tehtävänimike
 vcard-org-title-input =
     .title = Asema tai tehtävä
     .placeholder = Tehtävänimike
 vcard-org-role = Rooli
+vcard-org-role-input =
+    .title = Tehtävä tai rooli tietyssä tilanteessa
+    .placeholder = Rooli projektissa
 vcard-org-org = Organisaatio
 vcard-org-org-input =
     .title = Organisaatioyksikön nimi
