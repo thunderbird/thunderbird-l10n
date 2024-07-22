@@ -3,33 +3,34 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!--LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
-<!ENTITY msgComposeWindow.title "Укладанне: (без тэмы)">
+<!ENTITY msgComposeWindow.title "Стварэнне паведамлення: (без тэмы)">
 
 <!-- File Menu -->
 <!ENTITY fileMenu.label "Файл">
-<!ENTITY fileMenu.accesskey "ф">
-<!ENTITY newMenu.label "Новы">
-<!ENTITY newMenu.accesskey "н">
-<!ENTITY newMessage.label "Ліст">
+<!ENTITY fileMenu.accesskey "Ф">
+<!ENTITY newMenu.label "Стварыць">
+<!ENTITY newMenu.accesskey "С">
+<!ENTITY newMessage.label "Паведамленне">
+<!ENTITY newMessage.accesskey "П">
 <!ENTITY newMessageCmd2.key "N">
-<!ENTITY newContact.label "Сувязь з адраснай кнігі…">
-<!ENTITY newContact.accesskey "С">
-<!ENTITY attachMenu.label "Далучыць">
-<!ENTITY attachMenu.accesskey "л">
+<!ENTITY newContact.label "Кантакт з адраснай кнігі…">
+<!ENTITY newContact.accesskey "К">
+<!ENTITY attachMenu.label "Прымацаваць">
+<!ENTITY attachMenu.accesskey "П">
 <!ENTITY attachCloudCmd.label "Filelink">
 <!ENTITY attachCloudCmd.accesskey "i">
-<!ENTITY attachPageCmd.label "Старонку Сеціва…">
-<!ENTITY attachPageCmd.accesskey "С">
-<!ENTITY remindLater.label "Напомніць мне пазней">
-<!ENTITY remindLater.accesskey "п">
-<!ENTITY closeCmd.label "Зачыніць">
+<!ENTITY attachPageCmd.label "Вэб-старонку…">
+<!ENTITY attachPageCmd.accesskey "В">
+<!ENTITY remindLater.label "Нагадаць пазней">
+<!ENTITY remindLater.accesskey "Н">
+<!ENTITY closeCmd.label "Закрыць">
 <!ENTITY closeCmd.key "W">
-<!ENTITY closeCmd.accesskey "ч">
+<!ENTITY closeCmd.accesskey "З">
 <!ENTITY saveCmd.label "Захаваць">
 <!ENTITY saveCmd.key "S">
 <!ENTITY saveCmd.accesskey "З">
 <!ENTITY saveAsCmd.label "Захаваць як">
-<!ENTITY saveAsCmd.accesskey "Я">
+<!ENTITY saveAsCmd.accesskey "а">
 <!ENTITY saveAsFileCmd.label "Файл…">
 <!ENTITY saveAsFileCmd.accesskey "Ф">
 <!ENTITY saveAsDraftCmd.label "Чарнавік">
@@ -52,9 +53,9 @@
 <!ENTITY undoCmd.label "Адмяніць">
 <!ENTITY undoCmd.key "Z">
 <!ENTITY undoCmd.accesskey "А">
-<!ENTITY redoCmd.label "Вярнуць">
+<!ENTITY redoCmd.label "Узнавіць">
 <!ENTITY redoCmd.key "Y">
-<!ENTITY redoCmd.accesskey "В">
+<!ENTITY redoCmd.accesskey "У">
 <!ENTITY cutCmd.key "X">
 <!ENTITY copyCmd.key "C">
 <!ENTITY pasteCmd.key "V">
@@ -166,7 +167,7 @@
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Прылады">
 <!ENTITY tasksMenu.accesskey "л">
-<!ENTITY messengerCmd.label "Пошта і Навінакупы">
+<!ENTITY messengerCmd.label "Пошта і групы навін">
 <!ENTITY messengerCmd.accesskey "П">
 <!ENTITY messengerCmd.commandkey "1">
 <!ENTITY addressBookCmd.label "Адрасная кніга">
@@ -266,7 +267,7 @@
 <!ENTITY cancelUpload.accesskey "к">
 <!ENTITY convertRegularAttachment.label "Звычайнае далучэнне">
 <!ENTITY convertRegularAttachment.accesskey "д">
-<!ENTITY attachPage.label "Далучыць старонку Сеціва…">
+<!ENTITY attachPage.label "Прымацаваць вэб-старонку…">
 <!ENTITY attachPage.accesskey "с">
 
 <!-- Attachment Pane Header Bar Context Menu -->

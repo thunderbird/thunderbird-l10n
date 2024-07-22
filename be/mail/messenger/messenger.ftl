@@ -19,6 +19,7 @@ unread-messages-os-tooltip =
         [few] { $count } непрачытаныя паведамленні
        *[many] { $count } непрачытаных паведамленняў
     }
+about-rights-notification-text = { -brand-short-name } — гэта бясплатнае праграмнае забяспечанне з адкрытым зыходным кодам, якое створана супольнасцю з тысяч людзей з усяго сусвету.
 
 ## Content tabs
 
@@ -141,19 +142,21 @@ menu-edit-unsubscribe-newsgroup =
 menu-edit-delete-messages =
     .label =
         { $count ->
-            [one] Выдаліць ліст
-           *[other] Выдаліць вылучаныя лісты
+            [one] Выдаліць выбранае паведамленне
+            [few] Выдаліць выбраныя паведамленні
+           *[many] Выдаліць выбраныя паведамленні
         }
-    .accesskey = д
+    .accesskey = В
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Адмяніць выдаленне ліста
-           *[other] Адмяніць выдаленне вылучаных лістоў
+            [one] Скасаваць выдаленне выбранага паведамлення
+            [few] Скасаваць выдаленне выбраных паведамленняў
+           *[many] Скасаваць выдаленне выбраных паведамленняў
         }
-    .accesskey = ы
+    .accesskey = С
 menu-edit-properties =
     .label = Уласцівасці
     .accesskey = ц
@@ -243,8 +246,9 @@ mail-context-delete-messages =
 mail-context-undelete-messages =
     .label =
         { $count ->
-            [one] Адмяніць выдаленне ліста
-           *[other] Адмяніць выдаленне вылучаных лістоў
+            [one] Скасаваць выдаленне паведамлення
+            [few] Скасаваць выдаленне выбраных паведамленняў
+           *[many] Скасаваць выдаленне выбраных паведамленняў
         }
 # Variables:
 # $count (Number) - Number of selected messages.
@@ -303,6 +307,9 @@ message-header-all-headers =
 
 ## Action Button Context Menu
 
+toolbar-context-menu-manage-extension =
+    .label = Кіраваць пашырэннем
+    .accesskey = К
 toolbar-context-menu-remove-extension =
     .label = Выдаліць пашырэнне
     .accesskey = В
@@ -317,6 +324,8 @@ caret-browsing-prompt-check-text = Не запытваць мяне зноў.
 
 ## no-reply handling
 
+no-reply-title = Адказ не падтрымліваецца
+no-reply-reply-anyway-button = Усё роўна адказаць
 
 ## error messages
 
@@ -380,6 +389,9 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Персаналізаваць…
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Выбраны колер кнопкі
 
 ## Quick Filter Bar
 
