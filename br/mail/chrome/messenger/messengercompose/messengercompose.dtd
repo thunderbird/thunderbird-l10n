@@ -208,7 +208,9 @@
 <!-- Headers -->
 <!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
     Subject: rows. It should be larger than the largest Header label  -->
+<!ENTITY fromAddr2.label "A-berzh">
 <!ENTITY fromAddr.accesskey "b">
+<!ENTITY subject2.label "Danvez">
 <!ENTITY subject.accesskey "D">
 <!ENTITY attachmentBucketCloseButton.tooltip "Kuzhat penel ar c'henstagadurioù">
 

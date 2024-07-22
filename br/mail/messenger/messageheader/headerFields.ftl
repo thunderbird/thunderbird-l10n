@@ -5,6 +5,7 @@
 
 ## Header lists
 
+message-header-from-list-name = A-berzh
 message-header-tags-list-name = Merkoù
 
 ## Other message headers.

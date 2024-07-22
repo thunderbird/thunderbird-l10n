@@ -162,6 +162,8 @@ threadpane-column-header-sender = Kaser
     .title = Rummañ dre gaser
 threadpane-column-label-sender =
     .label = Kaser
+threadpane-cell-sender =
+    .aria-label = A-berzh
 threadpane-column-header-recipient = Degemerer
     .title = Rummañ dre zegemerer
 threadpane-column-label-recipient =
@@ -174,6 +176,8 @@ threadpane-column-header-subject = Danvez
     .title = Rummañ dre zanvez
 threadpane-column-label-subject =
     .label = Danvez
+threadpane-cell-subject =
+    .aria-label = Danvez
 threadpane-column-header-date = Deiziad
     .title = Rummañ dre zeiziad
 threadpane-column-label-date =
@@ -236,3 +240,6 @@ apply-current-columns-to-folder-message = Arloañ bannoù an teuliad bremanel da
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Arloañ bannoù an teuliad bremanel da { $name } ha d'an isteuliadoù?
+
+## Folder pane context menu
+
