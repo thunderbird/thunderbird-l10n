@@ -277,12 +277,26 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Пазначаныя
     .aria-label = Пазначаныя
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = Аватар профілю { $address }.
 
 ## Message header cutomize panel
 
 
 ## Message header customize panel
 
+message-header-customize-panel-title = Налады загалоўка паведамленняў
+message-header-customize-button-style =
+    .value = Стыль кнопак
+    .accesskey = С
+message-header-button-style-default =
+    .label = Значкі і тэкст
+message-header-button-style-text =
+    .label = Тэкст
+message-header-button-style-icons =
+    .label = Значкі
 message-header-all-headers =
     .label = Паказаць усе загалоўкі
     .accesskey = з
