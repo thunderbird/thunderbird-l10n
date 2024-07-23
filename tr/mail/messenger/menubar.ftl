@@ -68,6 +68,12 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = { -brand-shorter-name } uygulamasından çık
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] { -brand-full-name } uygulamasından çık
+           *[other] { -brand-full-name } uygulamasından çık
+        }
 # Localization note: Do not translate unless your locale's keyboard layout
 # does not include this key, as it determines the keyboard shortcut for
 # shutting down the application.
