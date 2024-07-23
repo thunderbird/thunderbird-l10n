@@ -8,6 +8,8 @@ about-addressbook-title = Adressbok
 
 about-addressbook-toolbar-new-address-book =
     .label = Ny adressbok
+about-addressbook-toolbar-add-address-book =
+    .label = Lägg till lokal adressbok
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Lägg till CardDAV-adressbok
 about-addressbook-toolbar-add-ldap-address-book =

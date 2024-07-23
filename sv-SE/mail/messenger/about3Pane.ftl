@@ -117,10 +117,10 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filtrera dessa meddelanden <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Filtrera meddelanden:
 quick-filter-bar-search2 =
     .label = Filtrera meddelanden
+quick-filter-bar-searching =
+    .title = Söker…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
