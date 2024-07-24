@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 event-attendee-role-required =
-    .title = Trěbny wobźělnik
+    .title = Trjebny wobźělnik
 event-attendee-role-optional =
     .title = Móžny wobźělnik
 event-attendee-role-nonparticipant =

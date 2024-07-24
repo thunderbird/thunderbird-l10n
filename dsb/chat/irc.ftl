@@ -15,7 +15,7 @@ connection-error-time-out = Casowe pśekšocenje
 # $username (String) username
 connection-error-invalid-username = { $username } njejo dowólone wužywaŕske mě
 connection-error-invalid-password = Njepłaśiwe serwerowe gronidło
-connection-error-password-required = Gronidło trěbne
+connection-error-password-required = Gronidło trjebne
 connection-error-invalid-user-password = Njepłaśiwe gronidło
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
@@ -58,7 +58,7 @@ command-devoice = { $commandName } &lt;pśimě1&gt;[,&lt;pśimě2&gt;]*: Někomu
 # $commandName is the command name
 command-invite2 = { $commandName } &lt;nick&gt;[ &lt;nick&gt;]* [&lt;channel&gt;]: Pśepšosćo jadno pśimě abo někotare pśimjenja do aktualnego kanala abo do pódanego kanala.
 # $commandName is the command name
-command-join = { $commandName } &lt;rum1&gt;[ &lt;gronidło1&gt;][,&lt;rum2&gt;[ &lt;gronidło2&gt;]]*: Do jadnogo kanala abo do někotarych kanalow stupić, z tym až kanalowe gronidło se wužywa, jolic trěbne.
+command-join = { $commandName } &lt;rum1&gt;[ &lt;gronidło1&gt;][,&lt;rum2&gt;[ &lt;gronidło2&gt;]]*: Do jadnogo kanala abo do někotarych kanalow stupić, z tym až kanalowe gronidło se wužywa, jolic trjebne.
 # $commandName is the command name
 command-kick = { $commandName } &lt;pśimě&gt; [&lt;powěsć&gt;]: Někogo z kanala wótpóraś. Musyśo kanalowy operator byś, aby to cynił.
 # $commandName is the command name

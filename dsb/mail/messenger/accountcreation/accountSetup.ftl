@@ -146,7 +146,7 @@ account-setup-result-username-different = Dochadny: { $incoming }, wuchadny: { $
 ## Error messages
 
 # Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
-account-setup-credentials-incomplete = Awtentifikacija njejo se raźiła. Pak zapódane pśizjawjeńske daty su wopacne pak pśidatne wužywaŕske mě jo trěbne za pśizjawjenje. Toś to wužywaŕske mě jo zwětšego pśizjawjenje Windowsoweje domeny z domenu abo bźez domeny (na pśikład jananjeznata abo AD\\jananjeznata).
+account-setup-credentials-incomplete = Awtentifikacija njejo se raźiła. Pak zapódane pśizjawjeńske daty su wopacne pak pśidatne wužywaŕske mě jo trjebne za pśizjawjenje. Toś to wužywaŕske mě jo zwětšego pśizjawjenje Windowsoweje domeny z domenu abo bźez domeny (na pśikład jananjeznata abo AD\\jananjeznata).
 account-setup-credentials-wrong = Awtentifikacija njejo se raźiła. Pšosym pśeglědajśo wužywaŕske mě a gronidło
 account-setup-find-settings-failed = { -brand-short-name } njejo mógał nastajenja za wašo e-mailowe konto namakaś.
 account-setup-exchange-config-unverifiable = Konfiguracija njedajo se pśeglědowaś. Jolic wašo wužywaŕske mě a wašo gronidło stej korektnej, jo nejskerjej serwerowy adminsitrator wubranu konfiguraciju za wašo konto znjemóžnił. Wubjeŕśo drugi protokol.

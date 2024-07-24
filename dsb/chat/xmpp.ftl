@@ -49,7 +49,7 @@ conversation-error-join-failed = Pśistup njejo móžny: { $mucName }
 #   banned from a room.
 #   $mucName is the name of the MUC room.
 conversation-error-join-forbidden = Njamóžośo do { $mucName } stupiś, dokulaž sćo z toś togo ruma wugnany.
-conversation-error-join-failed-not-authorized = Registrěrowanje trěbne: Njamaśo pšawo do toś togo ruma stupiś.
+conversation-error-join-failed-not-authorized = Registrěrowanje trjebne: Njamaśo pšawo do toś togo ruma stupiś.
 conversation-error-creation-failed-not-allowed = Pśistup wobgranicowany: Njesmějośo rumy załožyś.
 #   This is displayed in a conversation as an error message when remote server
 #   is not found.
@@ -74,13 +74,13 @@ conversation-error-send-service-unavailable = Njejo tuchylu móžno, { $nick } p
 #   $nick is the nick of participant that is not in room.
 conversation-error-nick-not-in-room = { $nick } njejo w rumje.
 conversation-error-ban-command-anonymous-room = Njamóžośo wobźělniki z anonymnych rumow wugnaś. Wopytajśo /kick město togo.
-conversation-error-ban-kick-command-not-allowed = Njamaśo trěbne priwilegije, aby toś togo wobźělnika z ruma wótpórał.
+conversation-error-ban-kick-command-not-allowed = Njamaśo trjebne priwilegije, aby toś togo wobźělnika z ruma wótpórał.
 conversation-error-ban-kick-command-conflict = Jo nam luto, ale njamóžośo se samego z ruma wótpóraś.
 #   $nick is the nick of participant that is not in room.
 conversation-error-change-nick-failed-conflict = Wašo pśimě njedajo se do { $nick } změniś, dokulaž toś to pśimě se južo wužywa.
 #   $nick is a nick that cannot be set
 conversation-error-change-nick-failed-not-acceptable = Wašo pśimě njedajo se do { $nick } změniś, dokulaž pśimjenja su w toś tom rumje zastajone.
-conversation-error-invite-failed-forbidden = Njamaśo trěbne priwilegije, aby wužywarje do toś togo ruma pśepšosył.
+conversation-error-invite-failed-forbidden = Njamaśo trjebne priwilegije, aby wužywarje do toś togo ruma pśepšosył.
 #   $jabberIdentifier (String) is the jid of user that is invited.
 conversation-error-failed-jid-not-found = { $jabberIdentifier } njedajo se dostaś.
 #   $jabberIdentifier (String) is the jid that is invalid.
