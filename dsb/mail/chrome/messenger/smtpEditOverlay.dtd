@@ -10,7 +10,7 @@
 <!ENTITY serverDescription.accesskey "W">
 <!ENTITY serverPort.label "Port:">
 <!ENTITY serverPort.accesskey "P">
-<!ENTITY userName.label "Wužywarske mě:">
+<!ENTITY userName.label "Wužywaŕske mě:">
 <!ENTITY userName.accesskey "u">
 <!ENTITY connectionSecurity.label "Zwiskowa wěstota:">
 <!ENTITY connectionSecurity.accesskey "Z">
