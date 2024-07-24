@@ -8,7 +8,7 @@
 <!ENTITY serverType.label "Serwerowy typ:">
 <!ENTITY serverName.label "Serwerowe mě:">
 <!ENTITY serverName.accesskey "S">
-<!ENTITY userName.label "Wužywarske mě:">
+<!ENTITY userName.label "Wužywaŕske mě:">
 <!ENTITY userName.accesskey "m">
 <!ENTITY port.label "Port:">
 <!ENTITY port.accesskey "P">

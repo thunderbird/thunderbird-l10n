@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Kontowy asistent">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -30,13 +27,11 @@
 <!-- Entities for Incoming Server page -->
 
 <!ENTITY incomingTitle.label "Informacije wó dochadnem serwerje">
-<!ENTITY incomingUsername.label "Wužywarske mě:">
+<!ENTITY incomingUsername.label "Wužywaŕske mě:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Zapódajśo mě swójogo serwera za diskusijne kupki (NNTP) (na pśikład &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Serwer diskusijnego serwera:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

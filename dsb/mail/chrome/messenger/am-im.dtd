@@ -6,7 +6,7 @@
 <!ENTITY accountWindow.width           "300">
 <!ENTITY account.general               "Powšykne">
 <!ENTITY account.advanced              "Rozšyrjone nastajenja">
-<!ENTITY account.name                  "Wužywarske mě:">
+<!ENTITY account.name                  "Wužywaŕske mě:">
 <!ENTITY account.password              "Gronidło:">
 <!ENTITY account.alias                 "Alias:">
 <!ENTITY account.newMailNotification   "Wó nowej e-mailu informěrowaś">

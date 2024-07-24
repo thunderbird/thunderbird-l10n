@@ -13,7 +13,7 @@ irc-username-hint = pśimě
 connection-error-lost = Zwisk ze serwerom jo se zgubił
 connection-error-time-out = Casowe pśekšocenje
 # $username (String) username
-connection-error-invalid-username = { $username } njejo dowólone wužywarske mě
+connection-error-invalid-username = { $username } njejo dowólone wužywaŕske mě
 connection-error-invalid-password = Njepłaśiwe serwerowe gronidło
 connection-error-password-required = Gronidło trěbne
 connection-error-invalid-user-password = Njepłaśiwe gronidło
@@ -66,7 +66,7 @@ command-list = { $commandName }: Lisćinu chatowych rumow w seśi pokazaś. Glě
 # $commandName is the command name
 command-memoserv = { $commandName } &lt;pśikaz&gt;: Pśikaz na MemoServ pósłaś.
 # $commandName is the command name
-command-mode-user2 = { $commandName } &lt;pśimě&gt; [(+|-)&lt;modus&gt;]: Wužywarski modus wobstaraś, zašaltowaś abo wušaltowaś.
+command-mode-user2 = { $commandName } &lt;pśimě&gt; [(+|-)&lt;modus&gt;]: Wužywaŕski modus wobstaraś, zašaltowaś abo wušaltowaś.
 # $commandName is the command name
 command-mode-channel2 = { $commandName } [&lt;kanal&gt;] [(+|-)&lt;nowy modus&gt; [&lt;parameter&gt;][,&lt;parameter&gt;]*]: Kanalowy modus wobstaraś, zašaltowaś abo wušaltowaś.
 # $commandName is the command name
@@ -94,9 +94,9 @@ command-time = { $commandName }: zwobraznjujo aktualny městny cas na IRC-serwer
 # $commandName is the command name
 command-topic = { $commandName } [&lt;nowa tema&gt;]: Temu kanala nastajiś.
 # $commandName is the command name
-command-umode = { $commandName } (+|-)&lt;nowy modus&gt;: Wužywarski modus stajiś abo wótpóraś.
+command-umode = { $commandName } (+|-)&lt;nowy modus&gt;: Wužywaŕski modus stajiś abo wótpóraś.
 # $commandName is the command name
-command-version = { $commandName } &lt;pśimě&gt;: Wersiju wužywarskego klienta pominaś.
+command-version = { $commandName } &lt;pśimě&gt;: Wersiju wužywaŕskego klienta pominaś.
 # $commandName is the command name
 command-voice = { $commandName } &lt;pśimě1&gt;[,&lt;pśimě2&gt;]*: Někomu status powědanja kanala daś. Musyśo kanalowy operator byś, aby to cynił.
 # $commandName is the command name
@@ -218,7 +218,7 @@ error-send-message-failed = Pśi słanju wašeje slědneje powěsći jo zmólka 
 error-channel-forward = Snaź njocośo se { $name } pśizamknuś, a buźośo se awtomatiski do { $details } dalej pósrědnjaś.
 #    $mode is the mode that the user tried to set but was not recognized
 #    by the server as a valid mode.
-error-unknown-mode = '{ $mode }' njejo płaśiwy wužywarski modus na toś tom serwerje.
+error-unknown-mode = '{ $mode }' njejo płaśiwy wužywaŕski modus na toś tom serwerje.
 # LOCALIZATION NOTE (tooltip-*):
 #    These are the descriptions given in a tooltip with information received
 #    from a whois response.

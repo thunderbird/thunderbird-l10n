@@ -17,7 +17,7 @@ connection-srv-lookup = Za SRV-zapisom glědaś
 # LOCALIZATION NOTE (connection-error-*)
 #   These will show in the account manager if an error occurs during the
 #   connection attempt.
-connection-error-invalid-username = Njepłaśiwe wužywarske mě (wašo wužywarske mě by měło znamuško '@' wopśimowaś)
+connection-error-invalid-username = Njepłaśiwe wužywaŕske mě (wašo wužywaŕske mě by měło znamuško '@' wopśimowaś)
 connection-error-failed-to-create-a-socket = Soket njedajo se napóraś (Sćo wy offline?)
 connection-error-server-closed-connection = Serwer jo zwisk źělił
 connection-error-reset-by-peer = Zwisk jo se wót wobźělnika źělił
@@ -103,7 +103,7 @@ tooltip-full-name = Dopołne mě
 tooltip-nickname = Pśimě
 tooltip-email = E-mailowa adresa
 tooltip-birthday = Narodny źeń
-tooltip-user-name = Wužywarske mě
+tooltip-user-name = Wužywaŕske mě
 tooltip-title = Titel
 tooltip-organization = Organizacija
 tooltip-locality = Městnosć
