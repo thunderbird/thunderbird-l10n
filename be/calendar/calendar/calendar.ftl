@@ -93,14 +93,6 @@ html-title = Mozilla Calendar
 # used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
 #    $filePath will be replaced with the path to a file
 timezone-error = Невядомы або невызначаны часавы пояс быў знойдзены пры чытанні { $filePath }.
-# LOCALIZATION NOTE (duplicate-error):
-#    $count will be replaced with number of duplicate items
-#    $filePath will be replaced with a file path pointing to a calendar
-duplicate-error =
-    { $count ->
-        [one] Некалькі ({ $count }) элементаў былі праігнараваны, таму што яны адначасова існуюць у календары прызначэння і ў { $filePath }.
-       *[other] Некалькі ({ $count }) элементаў былі праігнараваны, таму што яны адначасова існуюць у календары прызначэння і ў { $filePath }.
-    }
 # $location unknown calendar location
 unable-to-create-provider = Адбылася памылка пры падрыхтоўцы календара, размешчанага ў { $location }. Ён будзе недаступны.
 timezone-errors-alert-title = Памылкі часавога пояса
@@ -169,6 +161,7 @@ filter-html = Вэб-старонка ({ $wildmat })
 # Remote calendar errors
 generic-error-title = Адбылася памылка
 item-modified-on-server-title = Элемент змяніўся на серверы
+item-modified-on-server = Гэты элемент нядаўна змяніўся на серверы.
 modify-will-lose-data = Адпраўка вашых зменаў перазапіша ўжо зробленыя на серверы змены.
 delete-will-lose-data = Выдаленне гэтага элемента прывядзе да страты ўжо зробленых на серверы зменаў.
 calendar-conflicts-dialog =
@@ -179,12 +172,16 @@ proceed-delete =
     .label = Усё роўна выдаліць
 # $name calendar name
 dav-not-dav = Рэсурс на { $name } не з'яўляецца DAV-калекцыяй або недаступны
-item-delete-error = Адбылася памылка пры выдаленні элемента на серверы.
-cal-dav-request-error = Адбылася памылка пры адпраўцы запрашэння.
-cal-dav-response-error = Адбылася памылка пры адпраўцы адказу.
+# $name calendar name
+dav-dav-not-cal-dav = Рэсурс на { $name } з'яўляецца DAV-калекцыяй, але не з'яўляецца календаром CalDAV
+item-delete-error = Узнікла памылка пры выдаленні элемента на серверы.
+cal-dav-request-error = Узнікла памылка пры адпраўцы запрашэння.
+cal-dav-response-error = Узнікла памылка пры адпраўцы адказу.
 # $statusCode status code
 cal-dav-request-status-code = Код статусу: { $statusCode }
+cal-dav-request-status-code-string-generic = Запыт не можа быць апрацаваны.
 cal-dav-request-status-code-string-404 = Рэсурс не знойдзены.
+cal-dav-request-status-code-string-409 = Канфлікт рэсурсаў.
 cal-dav-request-status-code-string-500 = Унутраная памылка сервера.
 cal-dav-redirect-disable-calendar = Адключыць каляндар
 # Print Layout
