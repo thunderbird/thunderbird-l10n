@@ -174,6 +174,7 @@ proceed-delete =
 dav-not-dav = Рэсурс на { $name } не з'яўляецца DAV-калекцыяй або недаступны
 # $name calendar name
 dav-dav-not-cal-dav = Рэсурс на { $name } з'яўляецца DAV-калекцыяй, але не з'яўляецца календаром CalDAV
+item-put-error = Узнікла памылка пры захаванні элемента на серверы.
 item-delete-error = Узнікла памылка пры выдаленні элемента на серверы.
 cal-dav-request-error = Узнікла памылка пры адпраўцы запрашэння.
 cal-dav-response-error = Узнікла памылка пры адпраўцы адказу.
