@@ -29,5 +29,22 @@ calendar-ics-file-dialog-sort-title-descending =
     .label = Сартаваць у адваротным алфавітным парадку
 calendar-ics-file-dialog-progress-message = Імпартаванне…
 calendar-ics-file-import-success = Імпартавана паспяхова!
+calendar-ics-file-import-error = Узнікла памылка, імпартаванне не ўдалося.
 calendar-ics-file-import-complete = Імпарт завершаны.
+# Variables:
+# $duplicatesCount (Number) - Number of items already existing in the target calendar.
+calendar-ics-file-import-duplicates =
+    { $duplicatesCount ->
+        [one] Адзін элемент быў праігнараваны, таму што ён ужо існуе ў календары прызначэння.
+        [few] { $duplicatesCount } элементы былі праігнараваны, таму што яны ўжо існуюць у календары прызначэння.
+       *[many] { $duplicatesCount } элементаў былі праігнараваны, таму што яны ўжо існуюць у календары прызначэння.
+    }
+# Variables:
+# $errorsCount (Number) - Number of errors while importing ics file.
+calendar-ics-file-import-errors =
+    { $errorsCount ->
+        [one] Не ўдалося імпартаваць адзін элемент. Паглядзіце падрабязнасці ў Кансолі памылак.
+        [few] Не ўдалося імпартаваць { $errorsCount } элементы. Паглядзіце падрабязнасці ў Кансолі памылак.
+       *[many] Не ўдалося імпартаваць { $errorsCount } элементаў. Паглядзіце падрабязнасці ў Кансолі памылак.
+    }
 calendar-ics-file-dialog-no-calendars = Няма календароў, у якія можна імпартаваць падзеі або задачы.
