@@ -27,5 +27,7 @@ calendar-ics-file-dialog-sort-title-ascending =
 # You may replace it with something appropriate to your language.
 calendar-ics-file-dialog-sort-title-descending =
     .label = Сартаваць у адваротным алфавітным парадку
+calendar-ics-file-dialog-progress-message = Імпартаванне…
+calendar-ics-file-import-success = Імпартавана паспяхова!
 calendar-ics-file-import-complete = Імпарт завершаны.
 calendar-ics-file-dialog-no-calendars = Няма календароў, у якія можна імпартаваць падзеі або задачы.
