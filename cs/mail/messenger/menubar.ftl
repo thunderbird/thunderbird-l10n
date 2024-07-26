@@ -68,6 +68,12 @@ menu-quit-mac =
             [with-cases] Ukončit { -brand-shorter-name(case: "acc") }
            *[no-cases] Ukončit aplikaci { -brand-shorter-name }
         }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Ukončit { -brand-full-name }
+           *[other] Ukončit { -brand-full-name }
+        }
 # Localization note: Do not translate unless your locale's keyboard layout
 # does not include this key, as it determines the keyboard shortcut for
 # shutting down the application.
