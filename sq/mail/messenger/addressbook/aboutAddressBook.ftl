@@ -8,6 +8,8 @@ about-addressbook-title = Libër Adresash
 
 about-addressbook-toolbar-new-address-book =
     .label = Libër i Ri Adresash
+about-addressbook-toolbar-add-address-book =
+    .label = Shtoni Libër Vendor Adresash
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Shtoni Libër Adresash CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
