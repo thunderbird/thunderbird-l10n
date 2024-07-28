@@ -68,6 +68,12 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Izhod iz { -brand-shorter-name(sklon: "rodilnik") }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Izhod iz { -brand-full-name(sklon: "rodilnik") }
+           *[other] Izhod iz { -brand-full-name(sklon: "rodilnik") }
+        }
 # Localization note: Do not translate unless your locale's keyboard layout
 # does not include this key, as it determines the keyboard shortcut for
 # shutting down the application.

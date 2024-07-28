@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Shranjene prijave
-saved-logins-title = Shranjene prijave
 window-close =
     .key = w
+saved-logins-title = Shranjene prijave
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Potrdite svojo identiteto za prikaz shranjenih
 password-os-auth-dialog-message-macosx = pokaži shranjena gesla
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] spremeniti nastavitve gesel
+       *[other] { -brand-short-name } poskuša spremeniti nastavitve gesel. Da to dovolite, vnesite prijavne podatke svoje naprave.
+    }
