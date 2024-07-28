@@ -18,7 +18,7 @@
 <!ENTITY accountPasswordManager.label "A palavra-passe aqui introduzida será guardada no gestor de palavras-passe. Deixe esta caixa vazia se quiser que seja pedida a sua palavra-passe sempre que se ligar a esta conta.">
 
 <!ENTITY accountAdvancedTitle.label   "Opções avançadas">
-<!ENTITY accountAdvancedInfo.label    "Se quiser, pode ignorar esta etapa.">
+<!ENTITY accountAdvancedInfo.label    "Se quiser ignore este passo.">
 <!ENTITY accountAdvanced.newMailNotification.label   "Notificar ao receber mensagens">
 <!ENTITY accountAliasGroupbox.caption "Alcunha local">
 <!ENTITY accountAliasField.label      "Alcuha:">
