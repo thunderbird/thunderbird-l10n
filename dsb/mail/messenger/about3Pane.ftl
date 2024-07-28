@@ -570,7 +570,7 @@ message-list-placeholder-multiple-folders = Někotare zarědniki wubrane
 folder-pane-context-mark-folder-read =
     .label =
         { $count ->
-            [one] { $count } zarědnik ako pśecytany markěrowaś
+            [one] Zarědnik ako pśecytany markěrowaś
             [two] { $count } zarědnika ako pśecytanej markěrowaś
             [few] { $count } zarědniku ako pśecytane markěrowaś
            *[other] { $count } zarědnikow ako pśecytane markěrowaś
