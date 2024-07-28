@@ -570,7 +570,7 @@ message-list-placeholder-multiple-folders = Wjacore rjadowaki wubrane
 folder-pane-context-mark-folder-read =
     .label =
         { $count ->
-            [one] { $count } rjadowak jako přečitany markěrować
+            [one] Rjadowak jako přečitany markěrować
             [two] { $count } rjadowakaj jako přečitanej markěrować
             [few] { $count } rjadowaki jako přečitane markěrować
            *[other] { $count } rjadowakow jako přečitane markěrować
