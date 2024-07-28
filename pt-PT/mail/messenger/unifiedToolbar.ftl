@@ -23,8 +23,18 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = Correio
+    .title = Correio
+customize-space-tab-addressbook = Livro de Endereços
+    .title = Livro de Endereços
 customize-space-tab-calendar = Calendário
     .title = Calendário
+customize-space-tab-tasks = Tarefas
+    .title = Tarefas
+customize-space-tab-chat = Conversas
+    .title = Conversas
+customize-space-tab-settings = Definições
+    .title = Definições
 customize-button-style-label = Estilo dos botões:
 customize-button-style-icons-beside-text-option = Ícones ao lado do texto
 customize-button-style-icons-above-text-option = Ícones acima do texto

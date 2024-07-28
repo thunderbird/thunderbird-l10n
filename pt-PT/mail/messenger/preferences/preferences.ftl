@@ -183,6 +183,14 @@ autoscroll-label =
 smooth-scrolling-label =
     .label = Utilizar deslocação suave
     .accesskey = u
+window-layout-legend = Disposição da Janela
+draw-in-titlebar-label =
+    .label = Ocultar a barra de título da janela do sistema
+    .accesskey = O
+auto-hide-tabbar-label =
+    .label = Ocultar automaticamente a barra de separadores
+    .accesskey = a
+auto-hide-tabbar-description = Ocultar a barra de separadores apenas quando um separador está aberto
 system-integration-legend = Integração no sistema
 always-check-default =
     .label = Verificar sempre se o { -brand-short-name } é o cliente de correio predefinido na inicialização
@@ -240,6 +248,9 @@ diskspace-legend = Espaço em disco
 offline-compact-folder =
     .label = Compactar todas as pastas se puder libertar pelo menos
     .accesskey = a
+offline-compact-folder-automatically =
+    .label = Perguntar sempre antes de compactar
+    .accesskey = c
 compact-folder-size =
     .value = MB no total
 
@@ -260,6 +271,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Limpar agora
     .accesskey = L
+clear-cache-shutdown-label =
+    .label = Limpar cache ao desligar
+    .accesskey = c
 fonts-legend = Tipos de letra
 default-font-label =
     .value = Letra pré-definida:
@@ -304,6 +318,8 @@ quoted-text-color =
     .accesskey = C
 search-handler-table =
     .placeholder = Filtrar tipo de ações e de conteúdo
+type-column-header = Tipo de Conteúdo
+action-column-header = Ação
 save-to-label =
     .label = Guardar ficheiros em
     .accesskey = s
@@ -337,6 +353,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Ao exibir
     .accesskey = o
+view-attachments-inline =
+    .label = Ver anexos no corpo da mensagem
+    .accesskey = V
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -560,6 +579,7 @@ certificate-button =
 security-devices-button =
     .label = Dispositivos de segurança…
     .accesskey = D
+account-settings = Definições da Conta
 
 ## Chat Tab
 
@@ -643,10 +663,27 @@ no-preview-description = Este tema não é válido ou está atualmente indispon�
 chat-variant-label =
     .value = Variante:
     .accesskey = V
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 15.4em
+    .placeholder = Encontrar nas Definições
 
 ## Settings UI Search Results
 
 search-results-header = Resultados da pesquisa
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] Desculpa! Não há resultados em Opções para “<span data-l10n-name="query"></span>”.
+       *[other] Desculpa! Não há resultados em Definições para  “<span data-l10n-name="query"></span>”.
+    }
 search-results-help-link = Precisa de ajuda? Visite o <a data-l10n-name="url">Apoio do { -brand-short-name }</a>
 
 ## Sync Tab
@@ -655,4 +692,5 @@ sync-signedout-description = Sincronize as suas contas, livros de endereço, cal
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-signedin-login-failure = Por favor, inicie a sessão para reassociar “{ $userEmail }”
+show-synced-item-address = Livros de Endereços
 show-synced-item-calendar = Calendários

@@ -48,8 +48,6 @@ toolbar-junk-label = Spam
 toolbar-junk =
     .title = Marcas as mensagens selecionadas como spam
 toolbar-delete-label = Eliminar
-toolbar-delete =
-    .title = Eliminar as mensagens ou pastas selecionadas
 toolbar-compact-label = Compactar
 toolbar-compact =
     .title = Remover mensagens apagadas da pasta selecionada
@@ -71,6 +69,7 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Marcar
 toolbar-mark-as =
     .title = Marcar mensagens
+toolbar-address-book-label = Livro de Endereços
 toolbar-address-book =
     .title = Ir para o livro de endereços
 toolbar-chat-label = Chat
@@ -82,6 +81,7 @@ toolbar-calendar =
 toolbar-tasks-label = Tarefas
 toolbar-tasks =
     .title = Muda para o separador de tarefas
+toolbar-mail-label = Correio
 toolbar-print-label = Imprimir
 toolbar-print =
     .title = Imprimir esta mensagem
@@ -115,3 +115,7 @@ toolbar-stop =
 toolbar-throbber-label = Indicador de atividade
 toolbar-throbber =
     .title = Indicador de atividade
+toolbar-create-address-book-label = Novo Livro de Endereços
+
+## New Address Book popup items
+
