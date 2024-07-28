@@ -11,7 +11,7 @@ calendar-event-listing-column-calendar-name =
     .label = Nombre de calendario
     .tooltiptext = Ordenar por nombre de calendario
 calendar-event-listing-column-category =
-    .label = Categoria
+    .label = Categoría
     .tooltiptext = Ordenar por categoría
 # This label and tooltip is used for the column with the checkbox in the task
 # tree view, which indicates whether a task has been marked as completed.
@@ -61,5 +61,11 @@ calendar-event-listing-interval-next-14-days =
     .label = Eventos en los siguientes 14 días
 calendar-event-listing-interval-next-31-days =
     .label = Eventos en los siguientes 31 días
+calendar-event-listing-interval-next-6-months =
+    .label = Eventos en los próximos 6 meses
+calendar-event-listing-interval-next-12-months =
+    .label = Eventos en los próximos 12 meses
 calendar-event-listing-interval-selected-day =
     .label = Día seleccionado actualmente
+calendar-event-listing-interval-today =
+    .label = Eventos de hoy

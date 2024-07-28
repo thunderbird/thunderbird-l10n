@@ -33,6 +33,10 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = ¿Mantener filtros aplicados al cambiar de carpetas?
+quick-filter-bar-dropdown-tags =
+    .label = Etiquetas
+quick-filter-bar-dropdown-attachment =
+    .label = Adjunto
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -185,6 +189,8 @@ threadpane-column-header-attachments =
     .title = Ordenar por adjuntos
 threadpane-column-label-attachments =
     .label = Adjuntos
+threadpane-cell-attachments =
+    .aria-label = Adjuntos
 threadpane-attachments-cell-label = Adjuntos
 threadpane-column-header-spam =
     .title = Ordenar por estado de mensaje no deseado
@@ -298,3 +304,6 @@ apply-current-view-to-folder-message = ¿Aplicar la vista de la carpeta actual a
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = ¿Aplicar la vista de la carpeta actual a { $name } y sus elementos secundarios?
+
+## Folder pane context menu
+

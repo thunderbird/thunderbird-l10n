@@ -19,17 +19,6 @@ account-hub-release-notes = Notas de la versión
 account-hub-support = Soporte
 account-hub-donate = Donar
 
-## Start page
-
-account-hub-email-button = Configurar una cuenta de correo electrónico
-account-hub-new-email-button = Obtener una nueva dirección de correo electrónico
-account-hub-calendar-button = Configurar el calendario
-account-hub-address-book-button = Configurar la libreta de direcciones
-account-hub-chat-button = Configurar el chat
-account-hub-feed-button = Configurar fuente RSS
-account-hub-newsgroup-button = Configurar grupo de noticias
-account-hub-import-button = Importar perfil
-
 ## Initial setup page
 
 account-hub-email-setup-button = Cuenta de correo electrónico
@@ -53,6 +42,26 @@ account-hub-sync-button = Iniciar sesión en Sync…
 
 account-hub-email-title = Configura tu cuenta de correo electrónico
 account-hub-email-cancel-button = Cancelar
+account-hub-email-stop-button = Detener
 account-hub-email-back-button = Atrás
+account-hub-email-finish-button = Finalizar
+account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
 account-hub-email-confirm-button = Confirmar
+account-hub-protocol-label = Protocolo
+account-hub-hostname-label = Nombre del servidor
+account-hub-port-label = Puerto
+    .title = Establecer el número de puerto en 0 para la detección automática
+
+## Incoming/Outgoing SSL Authentication options
+
+
+## Incoming/Outgoing SSL options
+
+account-hub-ssl-noencryption-option =
+    .label = Ninguno
+account-hub-auth-label = Método de autenticación
+account-hub-username-label = Nombre de usuario
+account-hub-adding-account-title = Agregando cuenta
+account-hub-notification-show-more = Mostrar más
+account-hub-notification-show-less = Mostrar menos
