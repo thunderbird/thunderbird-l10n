@@ -86,7 +86,12 @@ paste-dont-notify-label = Wklej bez wysyłania
 # LOCALIZATION NOTE (import-items-failed):
 #    $count will be replaced with number of failed items
 #    $error will be replaced with last error code / error string
-import-items-failed = Import { $count } elementów się nie powiódł. Ostatni błąd: { $error }
+import-items-failed =
+    { $count ->
+        [one] Import { $count } elementu się nie powiódł. Ostatni błąd: { $error }
+        [few] Import { $count } elementów się nie powiódł. Ostatni błąd: { $error }
+       *[many] Import { $count } elementów się nie powiódł. Ostatni błąd: { $error }
+    }
 # LOCALIZATION NOTE (no-items-in-calendar-file2):
 #    $filePath will be replaced with file path
 no-items-in-calendar-file2 = Nie można zaimportować z pliku { $filePath }. Brak elementów możliwych do zaimportowania.
@@ -106,8 +111,9 @@ timezone-error = Podczas odczytu { $filePath } znaleziono nieznaną i niezdefin
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] Niektóre elementy zostały zignorowane, ponieważ istnieją zarówno w docelowym kalendarzu, jak i w { $filePath }. Liczba zignorowanych elementów: { $count }.
-       *[other] Niektóre elementy zostały zignorowane, ponieważ istnieją zarówno w docelowym kalendarzu, jak i w { $filePath }. Liczba zignorowanych elementów: { $count }.
+        [one] { $count } element został zignorowany, ponieważ istnieje zarówno w docelowym kalendarzu, jak i w { $filePath }.
+        [few] { $count } elementy zostały zignorowane, ponieważ istnieją zarówno w docelowym kalendarzu, jak i w { $filePath }.
+       *[many] { $count } elementów zostało zignorowanych, ponieważ istnieją zarówno w docelowym kalendarzu, jak i w { $filePath }.
     }
 # $location unknown calendar location
 unable-to-create-provider = Wystąpił błąd podczas przygotowywania do użycia kalendarza umieszczonego pod adresem { $location }. Kalendarz będzie niedostępny.

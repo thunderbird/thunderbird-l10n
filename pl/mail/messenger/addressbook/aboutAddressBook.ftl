@@ -8,6 +8,8 @@ about-addressbook-title = Książka adresowa
 
 about-addressbook-toolbar-new-address-book =
     .label = Nowa książka adresowa
+about-addressbook-toolbar-add-address-book =
+    .label = Dodaj lokalną książkę adresową
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Dodaj książkę adresową CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
