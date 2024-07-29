@@ -11,7 +11,15 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Kalendere
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Alarmer for kalenderen { $calendarName } har blitt dempet
 calendar-enable-button = Aktiver
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Kalenderinnstillinger for { $calendarName }
 calendar-import-new-calendar = Ny kalender…
     .title = Opprett eller abonner på en ny kalender
 calendar-refresh-calendars =
