@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Conserva l'estructura de carpetes existent dels missatges arxivats
     .accesskey = C
+recreate-inbox =
+    .label = Recrea la carpeta de la safata d'entrada
+    .accesskey = R
 archive-example-label = Exemple
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Safata d'entrada
+child-folder-name =
+    .label = Subcarpeta de la safata d'entrada
+sibling-folder-name =
+    .label = Al mateix nivell que la safata d'entrada
