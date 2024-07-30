@@ -205,8 +205,15 @@ message-guest-prevented = { $user } ha impedit que els convidats s’uneixin a l
 message-history-anyone = { $user } ha fet que l’historial futur de la sala sigui visible per a tothom.
 #    $user is the name of the user who has made future room history visible to all room members.
 message-history-shared = { $user } ha fet que l’historial futur de la sala sigui visible per a tots els membres.
+message-space-not-supported = Aquesta sala és un espai, que no és compatible.
 message-encryption-start = Ara els missatges d'aquesta conversa són xifrats d'extrem a extrem.
 message-verification-done = La verificació ha acabat.
 message-decrypting = S'està desxifrant…
 message-redacted = El missatge s'ha editat.
 message-action-redact = Edita
+message-action-retry = Torna a provar d'enviar
+message-action-cancel = Cancel·la el missatge
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = S'ha produït un error en enviar el missatge «{ $message }».

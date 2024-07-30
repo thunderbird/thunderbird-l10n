@@ -8,6 +8,8 @@ about-addressbook-title = Llibreta d'adreces
 
 about-addressbook-toolbar-new-address-book =
     .label = Llibreta d'adreces nova
+about-addressbook-toolbar-add-address-book =
+    .label = Afegeix una llibreta d'adreces local
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Afegeix una llibreta d'adreces CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
@@ -18,6 +20,14 @@ about-addressbook-toolbar-new-list =
     .label = Llista nova
 about-addressbook-toolbar-import =
     .label = Importa
+books-pane-create-contact-button = Contacte nou
+    .title = Crea un contacte nou
+books-pane-create-book-button =
+    .title = Crea una llibreta d'adreces nova
+books-pane-create-list-button =
+    .title = Crea una llista de correu nova
+books-pane-import-button = Importa
+    .title = Importa llibretes d'adreces
 
 ## Books
 
@@ -66,6 +76,14 @@ about-addressbook-search =
     .placeholder = Cerca en { $name }
 about-addressbook-search-all =
     .placeholder = Cerca en totes les llibretes d'adreces
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Cerca en { $name }
+    .placeholder = Cerca en { $name }…
+about-addressbook-search-all2 =
+    .label = Cerca en totes les llibretes d'adreces
+    .placeholder = Cerca en totes les llibretes d'adreces…
 about-addressbook-sort-button2 =
     .title = Opcions de visualització de la llista
 about-addressbook-name-format-display =
@@ -92,38 +110,83 @@ about-addressbook-column-header-generatedname2 = Nom
     .title = Ordena per nom
 about-addressbook-column-label-generatedname2 =
     .label = Nom
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Nom
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Adreces electròniques
     .title = Ordena per adreces electròniques
 about-addressbook-column-label-emailaddresses2 =
     .label = Adreces electròniques
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Adreces electròniques
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Sobrenom
     .title = Ordena per sobrenom
 about-addressbook-column-label-nickname2 =
     .label = Sobrenom
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Sobrenom
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Números de telèfon
     .title = Ordena per números de telèfon
 about-addressbook-column-label-phonenumbers2 =
     .label = Números de telèfon
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Números de telèfon
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Adreces
     .title = Ordena per adreces
 about-addressbook-column-label-addresses2 =
     .label = Adreces
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adreces
+    .title = { $title }
 about-addressbook-column-header-title2 = Títol
     .title = Ordena per títol
 about-addressbook-column-label-title2 =
     .label = Títol
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Títol
+    .title = { $title }
 about-addressbook-column-header-department2 = Departament
     .title = Ordena per departament
 about-addressbook-column-label-department2 =
     .label = Departament
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Departament
+    .title = { $title }
 about-addressbook-column-header-organization2 = Organització
     .title = Ordena per organització
 about-addressbook-column-label-organization2 =
     .label = Organització
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organització
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Llibreta d'adreces
     .title = Ordena per llibreta d'adreces
 about-addressbook-column-label-addrbook2 =
     .label = Llibreta d'adreces
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Llibreta d'adreces
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Redacta
 about-addressbook-confirm-delete-mixed-title = Suprimeix contactes i llistes
