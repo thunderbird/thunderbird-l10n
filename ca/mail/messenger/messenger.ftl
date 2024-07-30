@@ -188,9 +188,51 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Marca com a llegit
+    .tooltiptext = Marca com a llegit
+context-menu-mark-unread =
+    .aria-label = Marca com a no llegit
+    .tooltiptext = Marca com a no llegit
+context-menu-mark-reply =
+    .aria-label = Respon
+    .tooltiptext = Respon
+context-menu-archive =
+    .aria-label = Arxiva
+    .tooltiptext = Arxiva
+context-menu-mark-junk =
+    .aria-label = Marca com a brossa
+    .tooltiptext = Marca com a brossa
+mail-context-menu-open =
+    .label = Obre
+    .accesskey = b
+mail-context-menu-reply =
+    .label = Respon
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = Reenvia i redirigeix
+    .accesskey = v
 mail-context-menu-forward-forward =
     .label = Reenvia
     .accesskey = v
+mail-context-menu-forward-inline =
+    .label = Insereix
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Com a adjunció
+           *[other] Com a adjuncions
+        }
+    .accesskey = d
+mail-context-menu-organize =
+    .label = Organitza
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Converses
+    .accesskey = n
 context-menu-redirect-msg =
     .label = Redirigeix
 # This menu item is for canceling an NNTP message
@@ -212,6 +254,15 @@ mail-context-undelete-messages =
             [one] Recupera el missatge esborrat
            *[other] Recupera els missatges esborrats seleccionats
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Suprimeix el missatge
+           *[other] Suprimeix els missatges seleccionats
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
 context-menu-decrypt-to-folder2 =
     .label = Crea una còpia desxifrada a
     .accesskey = d
