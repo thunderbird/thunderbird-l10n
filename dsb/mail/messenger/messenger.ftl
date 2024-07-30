@@ -410,7 +410,7 @@ spaces-toolbar-button-hide =
 spaces-toolbar-button-show =
     .title = Rědku źělnych programow pokazaś
 spaces-context-new-tab-item =
-    .label = W nowem rejtarku wócyniś
+    .label = W nowem rejtariku wócyniś
 spaces-context-new-window-item =
     .label = W nowem woknje wócyniś
 # Variables:
