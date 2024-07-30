@@ -360,6 +360,7 @@ html-task-completed = { $task } (acabada)
 # Categories
 add-category = Afegeix una categoria
 multiple-categories = Múltiples categories
+no-categories = Cap
 calendar-today = Avui
 calendar-tomorrow = Demà
 yesterday = Ahir
