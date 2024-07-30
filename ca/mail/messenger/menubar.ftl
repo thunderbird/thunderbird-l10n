@@ -26,6 +26,9 @@ menu-help-get-help =
 menu-help-explore-features =
     .label = Exploreu les funcions
     .accesskey = f
+menu-help-get-release-help =
+    .label = Obteniu ajuda sobre el { -brand-short-name }
+    .accesskey = j
 menu-help-shortcuts =
     .label = Dreceres de teclat
     .accesskey = t
@@ -65,6 +68,15 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Surt del { -brand-shorter-name }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Surt del { -brand-full-name }
+           *[other] Surt del { -brand-full-name }
+        }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -130,6 +142,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Compte de correu…
+    .accesskey = C
 file-new-newsgroup-account =
     .label = Compte de grups de discussió…
     .accesskey = g

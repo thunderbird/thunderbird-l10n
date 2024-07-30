@@ -117,8 +117,10 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filtra aquests missatges <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Filtra els missatges:
+quick-filter-bar-search2 =
+    .label = Filtra els missatges
+quick-filter-bar-searching =
+    .title = S'està cercant…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -430,12 +432,26 @@ threadpane-column-header-id = Ordre de recepció
     .title = Ordena per ordre de recepció
 threadpane-column-label-id =
     .label = Ordre de recepció
+threadpane-cell-id =
+    .aria-label = Ordre de recepció
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Ordre de recepció
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Suprimeix un missatge
 threadpane-column-label-delete =
     .label = Suprimeix
 threadpane-cell-delete =
     .aria-label = Suprimeix
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } resposta
+       *[other] { $count } respostes
+    }
 
 ## Message state variations
 
@@ -487,3 +503,6 @@ apply-current-view-to-folder-message = Voleu aplicar la vista de la carpeta actu
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Voleu aplicar la vista de la carpeta actual a { $name } i a les seves subcarpetes?
+
+## Folder pane context menu
+
