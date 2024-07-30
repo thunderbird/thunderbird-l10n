@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Inicis de sessió desats
-saved-logins-title = Inicis de sessió desats
 window-close =
     .key = w
+saved-logins-title = Inicis de sessió desats
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Verifiqueu la vostra identitat per mostrar les
 password-os-auth-dialog-message-macosx = mostrar les contrasenyes desades
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] canviar els paràmetres de les contrasenyes
+       *[other] { -brand-short-name } està provant de canviar els paràmetres de les contrasenyes. Inicieu la sessió en el dispositiu per a permetre-ho.
+    }
