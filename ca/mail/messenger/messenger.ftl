@@ -263,6 +263,15 @@ mail-context-messages-delete =
            *[other] Suprimeix els missatges seleccionats
         }
     .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Recupera el missatge esborrat
+           *[other] Recupera els missatges esborrats seleccionats
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Crea una còpia desxifrada a
     .accesskey = d
@@ -360,6 +369,10 @@ decrypt-and-copy-failures-multiple =
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Barra d'eines d'espais
+    .aria-label = Barra d'eines d'espais
+    .aria-description = Barra d'eines vertical per a canviar entre espais diferents. Useu les fletxes del teclat per a navegar entre els botons disponibles.
 spaces-toolbar-button-mail2 =
     .title = Correu
 spaces-toolbar-button-address-book2 =
@@ -370,8 +383,14 @@ spaces-toolbar-button-tasks2 =
     .title = Tasques
 spaces-toolbar-button-chat2 =
     .title = Xat
+spaces-toolbar-button-overflow =
+    .title = Més espais…
 spaces-toolbar-button-settings2 =
     .title = Paràmetres
+spaces-toolbar-button-hide =
+    .title = Amaga la barra d'eines d'espais
+spaces-toolbar-button-show =
+    .title = Mostra la barra d'eines d'espais
 spaces-context-new-tab-item =
     .label = Obre en una pestanya nova
 spaces-context-new-window-item =
@@ -389,6 +408,8 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Menú d'espais
 spaces-pinned-button-menuitem-mail2 =
     .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =
@@ -416,6 +437,7 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Personalitza…
+spaces-customize-panel-title = Paràmetres de la barra d'eines d'espais
 spaces-customize-background-color = Color de fons
 spaces-customize-icon-color = Color dels botons
 # The background color used on the buttons of the spaces toolbar when they are

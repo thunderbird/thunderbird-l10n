@@ -31,6 +31,13 @@ radio-keygen-protect-primary-pass =
 radio-keygen-passphrase-protection =
     .label = Protegeix amb una frase de contrasenya:
 openpgp-passphrase-repeat = Confirma la frase de contrasenya:
+openpgp-keygen-dismiss =
+    .label = Cancel·la
+openpgp-keygen-cancel =
+    .label = Cancel·la el procés…
+openpgp-keygen-import-complete =
+    .label = Tanca
+    .accesskey = T
 
 ## Import Key section
 
