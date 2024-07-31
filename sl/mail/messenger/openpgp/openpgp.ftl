@@ -629,9 +629,6 @@ no-update-found = Ključe, ki so bili odkriti na spletu, že imate.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Napaka – ukaz za ekstrakcijo ključa je spodletel
@@ -676,6 +673,7 @@ file-to-big-to-import = Ta datoteka je prevelika. Ne uvažajte velikega števila
 
 ## Strings used in enigmailKeygen.js
 
+save-revoke-cert-as = Ustvari in shrani potrdilo za preklic
 gen-going = Ustvarjanje ključev že poteka!
 keygen-missing-user-name = Za izbrani račun/identiteto ni določenega imena. Izpolnite polje "Vaše ime" v nastavitvah računa.
 expiry-too-short = Ključ mora biti veljaven vsaj en dan.
