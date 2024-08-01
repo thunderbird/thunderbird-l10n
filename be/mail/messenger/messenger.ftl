@@ -301,6 +301,15 @@ message-header-button-style-text =
     .label = Тэкст
 message-header-button-style-icons =
     .label = Значкі
+message-header-show-sender-full-address =
+    .label = Заўсёды паказваць поўны адрас адпраўніка
+    .accesskey = З
+message-header-show-recipient-avatar =
+    .label = Паказваць аватар профілю адпраўніка
+    .accesskey = П
+message-header-show-big-avatar =
+    .label = Павялічаны аватар профілю
+    .accesskey = П
 message-header-all-headers =
     .label = Паказаць усе загалоўкі
     .accesskey = з
@@ -320,6 +329,9 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Выдаліць { $name }?
 addon-removal-confirmation-button = Выдаліць
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = Выдаліць { $name }, яго канфігурацыю і даныя з { -brand-short-name }?
 caret-browsing-prompt-check-text = Не запытваць мяне зноў.
 
 ## no-reply handling
