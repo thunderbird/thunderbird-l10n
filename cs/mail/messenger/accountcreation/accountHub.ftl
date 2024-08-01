@@ -81,7 +81,6 @@ account-hub-auth-label = Způsob autentizace
 account-hub-username-label = Uživatelské jméno
 account-hub-adding-account-title = Přidání účtu
 account-hub-adding-account-subheader = Opětovné otestování nastavení konfigurace účtu
-account-hub-account-added-title = Účet přidán
 account-hub-lookup-email-configuration-title = Vyhledává se konfigurace
 account-hub-lookup-email-configuration-subheader = Zkouší se běžné názvy serverů…
 account-hub-email-account-added-title = Účet byl úspěšně přidán
@@ -92,3 +91,7 @@ account-hub-find-settings-failed =
     }
 account-hub-notification-show-more = Zobrazit více
 account-hub-notification-show-less = Zobrazit méně
+account-hub-email-setup-header = Přidat vaši e-mailovou adresu
+account-hub-email-setup-incoming = Nastavení příchozího serveru
+account-hub-email-setup-outgoing = Nastavení odchozího serveru
+account-hub-email-config-found = Vyberte si typ poštovního účtu
