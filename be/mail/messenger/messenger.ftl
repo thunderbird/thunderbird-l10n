@@ -224,6 +224,9 @@ mail-context-menu-forward-as-attachment =
            *[many] Як прымацаванні
         }
     .accesskey = п
+mail-context-menu-organize =
+    .label = Упарадкаваць
+    .accesskey = У
 mail-context-menu-threads =
     .label = Абмеркаванні
     .accesskey = А
@@ -310,6 +313,9 @@ message-header-show-recipient-avatar =
 message-header-show-big-avatar =
     .label = Павялічаны аватар профілю
     .accesskey = П
+message-header-large-subject =
+    .label = Павялічаная тэма
+    .accesskey = П
 message-header-all-headers =
     .label = Паказаць усе загалоўкі
     .accesskey = з
@@ -333,6 +339,9 @@ addon-removal-confirmation-button = Выдаліць
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Выдаліць { $name }, яго канфігурацыю і даныя з { -brand-short-name }?
 caret-browsing-prompt-check-text = Не запытваць мяне зноў.
+repair-text-encoding-button =
+    .label = Паправіць кадзіроўку тэксту
+    .tooltiptext = Вызначыць правільную кадзіроўку тэксту па змесце паведамлення
 
 ## no-reply handling
 
