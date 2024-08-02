@@ -92,5 +92,6 @@ account-hub-email-setup-incoming = Parametros de servitor in arrivata
 account-hub-email-setup-outgoing = Parametros de servitor in exito
 account-hub-email-config-found = Selige tu typo de conto email
 account-hub-email-enter-password = Insere le contrasigno de tu conto email
+account-hub-email-sync-accounts = Synchronisa tu agendas e libros de adresses
 account-hub-test-configuration = Testar
 account-hub-add-new-email = Adder un altere email
