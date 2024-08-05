@@ -93,3 +93,5 @@ account-hub-email-setup-outgoing = Configurações do servidor de envio
 account-hub-email-config-found = Escolha o tipo de conta de email
 account-hub-email-enter-password = Digite a senha da sua conta de email
 account-hub-email-sync-accounts = Sincronizar suas agendas e catálogos de endereços
+account-hub-test-configuration = Testar
+account-hub-add-new-email = Adicionar outro email
