@@ -94,6 +94,7 @@ week-6-label =
 previous-weeks-label =
     .value = Паказваць папярэдніх тыдняў:
     .accesskey = п
+todaypane-legend = Панэль мерапрыемстваў
 event-task-legend = Падзеі і задачы
 default-length-label =
     .value = Стандартная працягласць падзей і задач:
