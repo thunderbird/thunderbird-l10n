@@ -165,7 +165,7 @@
 <!ENTITY fileHereMenu.label "Пакласці тут">
 
 <!-- Tools Menu -->
-<!ENTITY tasksMenu.label "Прылады">
+<!ENTITY tasksMenu.label "Інструменты">
 <!ENTITY tasksMenu.accesskey "л">
 <!ENTITY messengerCmd.label "Пошта і групы навін">
 <!ENTITY messengerCmd.accesskey "П">

@@ -449,6 +449,7 @@
 
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Інструменты распрацоўшчыка">
+<!ENTITY devtoolsMenu.accesskey "р">
 <!ENTITY devToolboxCmd.label "Набор інструментаў распрацоўшчыка">
 <!ENTITY devToolboxCmd.commandkey "i">
 <!ENTITY debugAddonsCmd.label "Адладка дадаткаў">
