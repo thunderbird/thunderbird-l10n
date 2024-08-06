@@ -650,9 +650,6 @@ no-update-found = Sinulla on jo avaimet, jotka löydettiin verkosta.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Virhe - avaimen purkamiskomento epäonnistui
@@ -674,6 +671,9 @@ confirm-permissive-import = Tuonti epäonnistui. Avain, jota yritit tuoda, saatt
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Jotkin tuoduista salaisista avaimista mainostavat ominaisuutta, jota ei tueta. Jos käytät tällaista avainta henkilökohtaisena avaimenasi, yhteydenpidon osapuolet voivat lähettää sinulle sähköpostia tai julkisia avaimia yhteensopimattomassa muodossa. Tämä vaikuttaa tuotuihin salaisiin avaimiin, joissa on seuraavat sormenjäljet: { $fingerprints }.
 help-button = Ohje
 
 ## Strings used in trust.sys.mjs
