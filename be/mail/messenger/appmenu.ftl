@@ -126,6 +126,11 @@ appmenuitem-font-size-reduce =
 
 ## Tools
 
+appmenu-tools-panel-title =
+    .title = Інструменты
+appmenu-tools-panel =
+    .label = Інструменты
+    .accesskey = І
 appmenu-tools-import =
     .label = Імпартаваць
     .accesskey = І
@@ -145,8 +150,8 @@ appmenu-tools-activity-manager =
     .label = Менеджар актыўнасцяў
     .accesskey = а
 appmenu-tools-dev-tools =
-    .label = Прылады распрацоўшчыка
-    .accesskey = П
+    .label = Інструменты распрацоўшчыка
+    .accesskey = І
 
 ## Help
 

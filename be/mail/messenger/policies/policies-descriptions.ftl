@@ -21,6 +21,7 @@ policy-BlockAboutConfig = Заблакаваць доступ да старон�
 policy-BlockAboutProfiles = Заблакаваць доступ да старонкі about:profiles.
 policy-BlockAboutSupport = Заблакаваць доступ да старонкі about:support.
 policy-CaptivePortal = Уключае або выключае падтрымку партала перахаплення.
+policy-DisableDeveloperTools = Блакаваць доступ да інструментаў распрацоўшчыка.
 
 ## Do not translate "SameSite", it's the name of a cookie attribute.
 
