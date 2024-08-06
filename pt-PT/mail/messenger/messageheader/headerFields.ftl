@@ -43,6 +43,7 @@ message-header-references-field = Referências <span data-l10n-name="field-separ
 message-header-message-id-field = ID da mensagem<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Em resposta a<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Website<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = Lista-ID<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Obter Ajuda

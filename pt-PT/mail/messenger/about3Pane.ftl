@@ -533,3 +533,12 @@ message-list-placeholder-multiple-folders = Múltiplas pastas selecionadas
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Marcar pasta como lida
+           *[other] Marcar todas as pastas como lidas
+        }
+    .accesskey = c
