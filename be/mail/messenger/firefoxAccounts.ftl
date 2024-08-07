@@ -17,6 +17,7 @@ fxa-verification-sent-title = Пацвярджэнне адпраўлена
 # $userEmail (String) - Email address of user's Firefox Account.
 fxa-verification-sent-body = Спасылка для пацвярджэння адпраўлена на { $userEmail }.
 fxa-verification-not-sent-title = Немагчыма адправіць пацвярджэнне
+fxa-verification-not-sent-body = Мы не можам адправіць ліст з пацвярджэннем, калі ласка, паспрабуйце пазней.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
