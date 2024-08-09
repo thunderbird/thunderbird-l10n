@@ -5,7 +5,7 @@
 <!ENTITY serverAdvanced.label "Разширени настройки">
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 <!ENTITY serverDirectory.label "Папка на сървър за IMAP:">
-<!ENTITY serverDirectory.accesskey "Д">
+<!ENTITY serverDirectory.accesskey "с">
 <!ENTITY usingSubscription.label "Показване само на абонираните папки">
 <!ENTITY usingSubscription.accesskey "П">
 <!ENTITY dualUseFolders.label "Сървъра поддържа папки, които съдържат подпапки и писма">

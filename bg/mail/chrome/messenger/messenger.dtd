@@ -29,7 +29,7 @@
 <!ENTITY newExistingEmailAccountCmd.label "Профил за съществуваща поща…">
 <!ENTITY newExistingEmailAccountCmd.accesskey "С">
 <!ENTITY newIMAccountCmd.label "Профил за разговори…">
-<!ENTITY newIMAccountCmd.accesskey "С">
+<!ENTITY newIMAccountCmd.accesskey "р">
 <!ENTITY newFeedAccountCmd.label "Профил за емисии…">
 <!ENTITY newFeedAccountCmd.accesskey "е">
 <!ENTITY newIMContactCmd.label "Контакт за разговор…">
@@ -468,7 +468,7 @@
 <!ENTITY importCmd.label "Внасяне…">
 <!ENTITY importCmd.accesskey "я">
 <!ENTITY exportCmd.label "Изнасяне…">
-<!ENTITY exportCmd.accesskey "x">
+<!ENTITY exportCmd.accesskey "и">
 <!ENTITY clearRecentHistory.label "Изчистване на скорошна история…">
 <!ENTITY clearRecentHistory.accesskey "и">
 <!ENTITY accountManagerCmd2.label "Настройки на регистрация">

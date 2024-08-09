@@ -41,6 +41,6 @@
 <!ENTITY certPicker.info  "Сертификат:">
 <!ENTITY certPicker.detailsLabel "Подробности за избрания сертификат:">
 
-<!ENTITY openpgpKey.message "Персонален ключ за шифроване и за цифрово подписване:">
+<!ENTITY openpgpKey.message "Личен ключ за шифроване и цифров подпис:">
 <!ENTITY openpgpKey.button "Задаване на личен ключ…">
-<!ENTITY openpgpKey.accesskey "о">
+<!ENTITY openpgpKey.accesskey "л">
