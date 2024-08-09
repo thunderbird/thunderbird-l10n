@@ -10,10 +10,10 @@
 <!ENTITY event.new.task.accesskey               "з">
 
 <!ENTITY calendar.import.label                  "Внасяне…">
-<!ENTITY calendar.import.accesskey              "И">
+<!ENTITY calendar.import.accesskey              "В">
 
 <!ENTITY calendar.export.label                  "Изнасяне…">
-<!ENTITY calendar.export.accesskey              "Е">
+<!ENTITY calendar.export.accesskey              "И">
 
 <!ENTITY calendar.publish.label                 "Публикуване…">
 <!ENTITY calendar.publish.accesskey             "б">
