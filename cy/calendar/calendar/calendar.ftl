@@ -662,9 +662,8 @@ extract-using = Defnyddio { $languageName }
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = Defnyddio { $languageName } ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [zero] { $count } munud
@@ -674,14 +673,20 @@ unit-minutes =
         [many] { $count } munud
        *[other] { $count } munud
     }
-# $count count
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [zero] { $count } awr
         [one] { $count } awr
        *[other] { $count } awr
     }
-# $count count
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [zero] Dim dyddiau
@@ -691,13 +696,74 @@ unit-days =
         [many] { $count } diwrnod
        *[other] { $count } diwrnod
     }
-# $count count
+event-duration-menuitem-count-days =
+    .label = { unit-days }
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
         [zero] { $count } wythnos
         [one] { $count } wythnos
        *[other] { $count } wythnos
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [zero] munud
+            [one] munud
+            [two] munud
+            [few] munud
+            [many] munud
+           *[other] munud
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [zero] awr
+            [one] awr
+            [two] awr
+            [few] awr
+            [many] awr
+           *[other] awr
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [zero] diwrnod
+            [one] diwrnod
+            [two] diwrnod
+            [few] diwrnod
+            [many] diwrnod
+           *[other] diwrnod
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [zero] wythnosau
+            [one] wythnos
+            [two] wythnosau
+            [few] wythnosau
+            [many] wythnosau
+           *[other] wythnosau
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
