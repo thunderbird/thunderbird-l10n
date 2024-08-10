@@ -719,6 +719,42 @@ event-duration-menuitem-minutes =
         }
 event-duration-label-minutes =
     .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] góźina
+            [two] góźinje
+            [few] góźiny
+           *[other] góźinow
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] źeń
+            [two] dnja
+            [few] dny
+           *[other] dnjow
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] tyźeń
+            [two] tyźenja
+            [few] tyźenje
+           *[other] tyźenjow
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
