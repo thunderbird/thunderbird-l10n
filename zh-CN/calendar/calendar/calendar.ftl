@@ -622,16 +622,50 @@ extract-using = 使用 { $languageName }
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = 正在使用 { $languageName } ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes = { $count } 分钟
-# $count count
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours = { $count } 小时
-# $count count
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days = { $count } 天
-# $count count
+event-duration-menuitem-count-days =
+    .label = { unit-days }
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks = { $count } 周
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label = 分钟
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label = 小时
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label = 天
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label = 周
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
