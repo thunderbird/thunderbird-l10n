@@ -713,7 +713,7 @@ event-duration-menuitem-count-weeks =
 event-duration-menuitem-minutes =
     .label =
         { $count ->
-            [zero] munud
+            [zero] munudau
             [one] munud
             [two] munud
             [few] munud
@@ -727,7 +727,7 @@ event-duration-label-minutes =
 event-duration-menuitem-hours =
     .label =
         { $count ->
-            [zero] awr
+            [zero] oriau
             [one] awr
             [two] awr
             [few] awr
@@ -741,7 +741,7 @@ event-duration-label-hours =
 event-duration-menuitem-days =
     .label =
         { $count ->
-            [zero] diwrnod
+            [zero] diwrnodau
             [one] diwrnod
             [two] diwrnod
             [few] diwrnod
@@ -757,10 +757,10 @@ event-duration-menuitem-weeks =
         { $count ->
             [zero] wythnosau
             [one] wythnos
-            [two] wythnosau
-            [few] wythnosau
-            [many] wythnosau
-           *[other] wythnosau
+            [two] wythnos
+            [few] wythnos
+            [many] wythnos
+           *[other] wythnos
         }
 event-duration-label-weeks =
     .value = { event-duration-menuitem-weeks.label }
