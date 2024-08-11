@@ -733,6 +733,18 @@ event-duration-menuitem-days =
         }
 event-duration-label-days =
     .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] týždeň
+            [few] týždne
+            [many] týždňov
+           *[other] týždňov
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
