@@ -138,7 +138,7 @@ mail-play-sound-label =
     .label =
         { PLATFORM() ->
             [macos] Chwarae'r ffeil sain ganlynol:
-           *[other] Canu nodyn
+           *[other] Canu sain
         }
     .accesskey =
         { PLATFORM() ->
