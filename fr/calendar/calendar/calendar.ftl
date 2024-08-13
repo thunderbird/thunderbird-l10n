@@ -712,7 +712,7 @@ event-duration-label-hours =
 event-duration-menuitem-days =
     .label =
         { $count ->
-            [one] jours
+            [one] jour
            *[other] jours
         }
 event-duration-label-days =
