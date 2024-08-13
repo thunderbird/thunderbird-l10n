@@ -205,7 +205,7 @@ appmenu-help-about-product =
 ## Application Update
 
 appmenuitem-banner-update-downloading =
-    .label = Llwytho diweddariad { -brand-shorter-name } i lawr
+    .label = Wrthi'n llwytho diweddariad { -brand-shorter-name } i lawr
 appmenuitem-banner-update-available =
     .label = Mae diweddariad ar gael — llwytho i lawr nawr
 appmenuitem-banner-update-manual =

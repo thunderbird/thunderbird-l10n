@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Be sy'n Newydd
-aboutDialog-title =
-    .title = Ynghylch { -brand-full-name }
 about-dialog-title = Ynghylch { -brand-full-name }
 release-notes-link = Nodiadau ryddhau
 update-internal-error = Methu gwirio am ddiweddariadau oherwydd gwall mewnol. Diweddariadau ar gael yn <a data-l10n-name="manual-link">
@@ -13,9 +11,9 @@ update-check-for-updates-button = Gwirio am Ddiweddariadau
 update-update-button = Ailgychwyn i ddiweddaru { -brand-shorter-name }
     .accesskey = A
 update-checking-for-updates = Gwirio am ddiweddariadau…
-update-downloading-message = Llwytho'r diweddariad i lawr - <span data-l10n-name="download-status"></span>
+update-downloading-message = Wrthi'n llwytho'r diweddariad i lawr - <span data-l10n-name="download-status"></span>
 update-applying = Gosod y diweddariad…
-update-downloading = <img data-l10n-name="icon"/>Llwytho'r diweddariad i lawr - <span data-l10n-name="download-status"></hspan>
+update-downloading = <img data-l10n-name="icon"/>Wrthi'n llwytho'r diweddariad i lawr - <span data-l10n-name="download-status"></hspan>
 update-failed = Methodd y diweddaru. <a data-l10n-name="failed-link">Llwytho'r fersiwn diweddaraf i lawr</a>
 update-admin-disabled = Mae'r diweddariad wedi'i analluogi gan eich gweinyddwr
 update-no-updates-found = Mae { -brand-short-name } yn gyfredol
@@ -40,22 +38,6 @@ aboutDialog-version = { $version } ({ $bits }-did)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-did)
 aboutdialog-update-checking-failed = Wedi methu â gwirio am ddiweddariadau.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    Mae { -vendor-short-name }</a>
-     yn <a data-l10n-name="community-exp-credits-link">
-    gymuned fyd-eang</a>
-     sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
-community-2 =
-    Cynlluniwyd { -brand-short-name } gan <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , a <a data-l10n-name="community-credits-link">
-    chymuned fyd-eang</a>
-     sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
-about-helpus =
-    Hoffech chi helpu? <a data-l10n-name="helpus-donate-link">
-    Gwnewch gyfraniad</a> or <a data-l10n-name="helpus-get-involved-link">
-    beth am ymuno â ni!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">Mae { -vendor-short-name }</a> yn <a data-l10n-name="community-exp-credits-link">gymuned fyd-eang</a> sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
 community-desc = Cynlluniwyd { -brand-short-name } gan <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, a <a data-l10n-name="community-credits-link">chymuned fyd-eang</a> sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
 about-donation = Hoffech chi helpu? <a data-l10n-name="helpus-donate-link">Gwnewch gyfraniad</a> or <a data-l10n-name="helpus-get-involved-link">beth am ymuno â ni!</a>
