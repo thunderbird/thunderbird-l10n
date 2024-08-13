@@ -12,7 +12,7 @@ connection-initializing-stream = Cychwyn llif
 connection-initializing-encryption = Cychwyn amgryptio
 connection-authenticating = Dilysu
 connection-getting-resource = Derbyn adnoddau
-connection-downloading-roster = Llwytho rhestr cyswllt i lawr
+connection-downloading-roster = Wrthi'n llwytho'r rhestr cyswllt i lawr
 connection-srv-lookup = Archwilio'r cofnod SRV
 # LOCALIZATION NOTE (connection-error-*)
 #   These will show in the account manager if an error occurs during the
