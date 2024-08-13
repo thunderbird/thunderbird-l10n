@@ -9,14 +9,14 @@
 <!ENTITY unsubscribeButton.accesskey  "в">
 <!ENTITY newGroupsTab.label           "Нови групи">
 <!ENTITY newGroupsTab.accesskey       "Н">
-<!ENTITY refreshButton.label          "Опресняване">
+<!ENTITY refreshButton.label          "Презареждане">
 <!ENTITY refreshButton.accesskey      "О">
 <!ENTITY stopButton.label             "Стоп">
 <!ENTITY stopButton.accesskey         "С">
 <!ENTITY server.label                 "Регистрация:">
 <!ENTITY server.accesskey             "Р">
 <!ENTITY subscribedHeader.label       "Абониране">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Показване на елементи, съдържащи:">
 <!ENTITY namefield.accesskey          "П">

@@ -56,7 +56,7 @@ context-gone-secure-private = Започна личен разговор с { $n
 context-gone-secure-unverified = Започна шифрован, но непроверен разговор с { $name }.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-context-still-secure = Успешно опресняване на шифрования разговор с { $name }.
+context-still-secure = Успешно презареждане на шифрования разговор с { $name }.
 error-enc = Възникна грешка при шифроването на съобщението.
 # Variables:
 #   $name (String) - the screen name of a chat contact person

@@ -24,7 +24,7 @@ buddycontextmenu-label = Добавяне на OTR пръстов отпечат
 alert-start = Опит за започване на шифрован разговор с { $name }.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-alert-refresh = Опит за опресняване на шифрования разговор с { $name }.
+alert-refresh = Опит за презареждане на шифрования разговор с { $name }.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 alert-gone-insecure = Шифрованият разговор с { $name } приключи.

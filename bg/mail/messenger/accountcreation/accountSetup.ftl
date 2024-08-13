@@ -275,7 +275,7 @@ account-setup-calendar-name-label = Име
 account-setup-calendar-name-input =
     .placeholder = Моят календар
 account-setup-calendar-color-label = Цвят
-account-setup-calendar-refresh-label = Опресняване
+account-setup-calendar-refresh-label = Презареждане
 account-setup-calendar-refresh-manual = Ръчно
 # Variables:
 # $count (Number) - Number of minutes in the calendar refresh interval.
