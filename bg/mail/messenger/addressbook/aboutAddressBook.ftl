@@ -8,6 +8,8 @@ about-addressbook-title = Адресник
 
 about-addressbook-toolbar-new-address-book =
     .label = Нов адресник
+about-addressbook-toolbar-add-address-book =
+    .label = Добавяне на местен адресник
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Добавяне на CardDAV адресник
 about-addressbook-toolbar-add-ldap-address-book =
