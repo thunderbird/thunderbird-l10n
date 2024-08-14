@@ -113,7 +113,7 @@ duplicate-error =
 unable-to-create-provider = Намерена е грешка при свързване с календара, намиращ се на { $location }. Той няма да бъде зареден.
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
-unknown-timezone-in-item = Непозната часова зона „{ $timezone }“ в „{ $title }“. Ще бъде използвана локалната часова зона вместо това: { $datetime }
+unknown-timezone-in-item = Непознат часови пояс „{ $timezone }“ в „{ $title }“. Вместо него ще бъде използван местния часови пояс: { $datetime }
 timezone-errors-alert-title = Грешки при часовата зона
 timezone-errors-see-console = Погледнете Конзолата за грешки: Непознатите часови зони ще бъдат третирани като локални часови зони.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
@@ -300,13 +300,13 @@ skipping-os-timezone = Пропускане на часовата зона на 
 # "Skipping locale timezone 'America/New_Yawk'."
 # Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
 # $timezone likely timezone id
-skipping-locale-timezone = Пропускане на локалната часова зона „{ $timezone }“.
+skipping-locale-timezone = Пропускане на местния часови пояс „{ $timezone }“.
 # Testing note: "No match" timezones include Bucharest on W2k.
 # Brazil timezones may be "No match" (change every year, so often out of date,
 # and changes are often more than a week different).
 warning-using-floating-tz-no-match =
-    Внимание: Използване на „плаваща“ часова зона.
-    Не е намерено съвпадение в ZoneInfo часовата зона на операционната система.
+    Внимание: Използване на „плаващ“ часови пояс.
+    За часовия пояс на операционната система няма съвпадение в информацията от ZoneInfo.
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
 #    [rfc2445 summer daylight saving shift rules for timezone]
@@ -314,7 +314,7 @@ warning-using-floating-tz-no-match =
 #  This ZoneInfo timezone was chosen based on ... "
 # $timezone $offset $detail1 $detail2
 warning-using-guessedtz =
-    Внимание: Използване на предполагаема часова зона
+    Внимание: Използване на предполагаем часови пояс
     { $timezone } (UTC{ $offset }).
     { $detail1 }
     { $detail2 }

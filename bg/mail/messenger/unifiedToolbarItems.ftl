@@ -158,7 +158,7 @@ toolbar-import-contacts =
 ## New Address Book popup items
 
 toolbar-new-address-book-popup-add-js-address-book =
-    .label = Добавете не местен адресник
+    .label = Добавяне на местен адресник
 toolbar-new-address-book-popup-add-carddav-address-book =
     .label = Добавяне на CardDAV адресник
 toolbar-new-address-book-popup-add-ldap-address-book =
