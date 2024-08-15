@@ -651,32 +651,82 @@ extract-using = { $languageName } használata
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = { $languageName } használata ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [one] { $count } perc
        *[other] { $count } perc
     }
-# $count count
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [one] { $count } óra
        *[other] { $count } óra
     }
-# $count count
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [one] { $count } nap
        *[other] { $count } nap
     }
-# $count count
+event-duration-menuitem-count-days =
+    .label = { unit-days }
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
         [one] { $count } hét
        *[other] { $count } hét
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] perc
+           *[other] perc
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] óra
+           *[other] óra
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] nap
+           *[other] nap
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] hét
+           *[other] hét
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
