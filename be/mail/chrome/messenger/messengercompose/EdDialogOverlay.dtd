@@ -6,14 +6,12 @@
 <!ENTITY AdvancedEditButton.accessKey "П">
 <!ENTITY AdvancedEditButton.tooltip "Дадаць або змяніць атрыбуты HTML, атрыбуты стылю ці JavaScript">
 <!ENTITY chooseFileButton.label "Выбраць файл...">
-<!ENTITY chooseFileButton.accessKey "ф">
+<!ENTITY chooseFileButton.accessKey "В">
 <!ENTITY chooseFileLinkButton.label "Выбраць файл...">
-<!ENTITY chooseFileLinkButton.accessKey "ы">
+<!ENTITY chooseFileLinkButton.accessKey "В">
 
-<!ENTITY makeUrlRelative.label "URL адносны да месцазнаходжання старонкі">
-<!ENTITY makeUrlRelative.accessKey "а">
-<!ENTITY makeUrlRelative.tooltip "Выбар паміж адноснага ці безумоўнага URL. Вы мусіце захаваць старонку перад выбарам.">
+<!ENTITY makeUrlRelative.label "Адносны URL">
+<!ENTITY makeUrlRelative.accessKey "А">
+<!ENTITY makeUrlRelative.tooltip "Змяніць адносны URL на абсалютны і наадварот. Перад гэтым дзеяннем вам спачатку трэба захаваць старонку.">
 
 <!-- Shared by Link and Image dialogs -->
-<!ENTITY LinkURLEditField2.label "Увядзіце адрас вэб-старонкі, лакальнага файла або вылучыце якар або загаловак з імем з кантэкстнага меню поля:">
-<!ENTITY LinkURLEditField2.accessKey "в">
