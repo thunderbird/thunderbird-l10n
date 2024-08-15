@@ -5,6 +5,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Пераўтварыць у табліцу">
+<!ENTITY instructions2.label   "Выберыце сімвал, які будзе выкарыстоўвацца для падзелу вылучанага на слупкі:">
 <!ENTITY commaRadio.label      "Коска">
 <!ENTITY spaceRadio.label      "Прабел">
 <!ENTITY otherRadio.label      "Іншы сімвал:">
