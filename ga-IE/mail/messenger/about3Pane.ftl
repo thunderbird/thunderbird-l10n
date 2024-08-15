@@ -5,6 +5,20 @@
 
 ## Message List Header Bar
 
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } Teachtaireacht
+        [two] { $count } Theachtaireacht
+        [few] { $count } Theachtaireacht
+        [many] { $count } dTeachtaireacht
+       *[other] { $count } Teachtaireacht
+    }
+thread-pane-header-context-table-view =
+    .label = Amharc Tábla
+thread-pane-header-context-cards-view =
+    .label = Amharc Cártaí
 
 ## Quick Filter Bar
 
@@ -15,13 +29,15 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Fág scagairí i bhfeidhm agus an fillteán á athrú
+quick-filter-bar-dropdown-unread =
+    .label = Neamhléite
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
-    .title = Taispeáin teachtaireachtaí gan léamh amháin
+    .title = Taispeáin teachtaireachtaí neamhléite amháin
 # The label for the filter button that causes us to filter results to only
 # include unread messages.
-quick-filter-bar-unread-label = Gan Léamh
+quick-filter-bar-unread-label = Neamhléite
 # The tooltip for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred =
@@ -81,6 +97,8 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Scag na teachtaireachtaí seo <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-search2 =
+    .label = Scag teachtaireachtaí
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Mód scagtha
@@ -219,3 +237,6 @@ apply-current-columns-to-folder-message = An bhfuil fonn ort colúin an fhillte�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = An bhfuil fonn ort colúin an fhillteáin reatha a chur i bhfeidhm ar { $name } agus an t-ábhar atá ann?
+
+## Folder pane context menu
+
