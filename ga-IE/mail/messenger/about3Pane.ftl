@@ -5,6 +5,7 @@
 
 ## Message List Header Bar
 
+quick-filter-button-label = Mearscagaire
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -99,6 +100,10 @@ quick-filter-bar-textbox =
     .placeholder = Scag na teachtaireachtaí seo <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Scag teachtaireachtaí
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Scag teachtaireachtaí… { quick-filter-bar-search-shortcut }
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Mód scagtha
@@ -142,6 +147,8 @@ quick-filter-bar-gloda-upsell-line2 = Brúigh ‘Enter’ arís chun dul ar agha
 folder-pane-get-all-messages-menuitem =
     .label = Faigh Gach Teachtaireacht Nua
     .accesskey = g
+folder-pane-write-message-button = Teachtaireacht Nua
+    .title = Cum teachtaireacht nua
 folder-pane-mode-context-toggle-compact-mode =
     .label = Dlúthamharc
     .accesskey = D
@@ -174,6 +181,8 @@ threadpane-column-header-subject = Ábhar
     .title = Sórtáil de réir ábhair
 threadpane-column-label-subject =
     .label = Ábhar
+threadpane-cell-subject =
+    .aria-label = Ábhar
 threadpane-column-header-date = Dáta
     .title = Sórtáil de réir dáta
 threadpane-column-label-date =
