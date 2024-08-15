@@ -27,7 +27,7 @@ menu-help-explore-features =
     .label = Scopri le funzionalità
     .accesskey = f
 menu-help-get-release-help =
-    .label = Rttieni assistenza per { -brand-short-name }
+    .label = Ricevi assistenza per { -brand-short-name }
     .accesskey = R
 menu-help-shortcuts =
     .label = Scorciatoie da tastiera
@@ -55,16 +55,8 @@ menu-help-about-product =
     .accesskey = m
 # These menu-quit strings are only used on Windows and Linux.
 menu-quit =
-    .label =
-        { PLATFORM() ->
-            [windows] Esci
-           *[other] Esci
-        }
-    .accesskey =
-        { PLATFORM() ->
-            [windows] E
-           *[other] E
-        }
+    .label = Esci
+    .accesskey = E
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Esci da { -brand-shorter-name }

@@ -149,7 +149,7 @@ menu-edit-delete-messages =
     .label =
         { $count ->
             [one] Elimina messaggio
-           *[other] Elimina messaggi selezionati
+           *[other] Elimina i messaggi selezionati
         }
     .accesskey = E
 # Variables:
@@ -260,7 +260,7 @@ mail-context-messages-delete =
     .label =
         { $count ->
             [one] Elimina messaggio
-           *[other] Elimina messaggi selezionati
+           *[other] Elimina i messaggi selezionati
         }
     .tooltiptext = { mail-context-messages-delete.label }
 # Variables:

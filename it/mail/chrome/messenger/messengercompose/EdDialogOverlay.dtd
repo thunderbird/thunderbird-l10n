@@ -4,14 +4,16 @@
 
 <!ENTITY AdvancedEditButton.label "Composizione avanzata…">
 <!ENTITY AdvancedEditButton.accessKey "v">
-<!ENTITY AdvancedEditButton.tooltip "Aggiunge o modifica attributi, stili HTML ed eventi JavaScript per questo oggetto.">
+<!ENTITY AdvancedEditButton.tooltip "Aggiunge o modifica attributi HTML, stili e JavaScript">
 <!ENTITY chooseFileButton.label "Scegli file…">
 <!ENTITY chooseFileButton.accessKey "f">
 <!ENTITY chooseFileLinkButton.label "Scegli file…">
 <!ENTITY chooseFileLinkButton.accessKey "f">
+
 <!ENTITY makeUrlRelative.label "L’URL è relativo all’indirizzo della pagina">
 <!ENTITY makeUrlRelative.accessKey "L">
 <!ENTITY makeUrlRelative.tooltip "Cambia tra URL relativo e assoluto. È necessario che la pagina sia stata salvata.">
 
+<!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Inserire un indirizzo web, un file locale, oppure selezionare un’ancora con nome o un’intestazione dal menu contestuale del campo:">
 <!ENTITY LinkURLEditField2.accessKey "w">
