@@ -60,6 +60,25 @@ context-menuitem-attach-files =
     .label = Прымацаваць файл(ы)…
     .accesskey = П
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = Мая vCard
+    .accesskey = М
+context-menuitem-attach-openpgp-key =
+    .label = Мой публічны ключ OpenPGP
+    .accesskey = о
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } прымацаванне
+        [one] { $count } прымацаванне
+        [few] { $count } прымацаванні
+       *[many] { $count } прымацаванняў
+    }
+attachment-area-show =
+    .title = Паказаць панэль прымацаванняў ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Схаваць панэль прымацаванняў ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
@@ -79,9 +98,20 @@ drop-file-label-inline =
 
 ## Reorder Attachment Panel
 
+move-attachment-first-panel-button =
+    .label = Перамясціць у пачатак
+move-attachment-left-panel-button =
+    .label = Перамясціць улева
+move-attachment-right-panel-button =
+    .label = Перамясціць управа
+move-attachment-last-panel-button =
+    .label = Перамясціць у канец
 
 ## Encryption
 
+encryption-menu =
+    .label = Бяспека
+    .accesskey = Б
 
 ## Addressing Area
 
@@ -103,9 +133,16 @@ drop-file-label-inline =
 
 # Template
 
+cloud-file-template-download-limit = Абмежаванне на спампаванне:
 
 # Messages
 
+cloud-file-connection-error-title = Памылка злучэння
+cloud-file-rename-error-title = Памылка перайменавання
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Узнікла памылка пры перайменаванні { $filename } на { $provider }.
 
 ## Link Preview
 

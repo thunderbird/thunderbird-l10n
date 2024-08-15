@@ -31,3 +31,9 @@ chat-buddy-identity-status-unverified = Не пацверджана
 # Variables:
 #   $conversation (String) - Name of the conversation the user is invited to.
 chat-conv-invite-label = Вас запрасілі ў чат { $conversation }
+chat-conv-invite-accept =
+    .label = Прыняць
+    .accesskey = П
+chat-conv-invite-deny =
+    .label = Адхіліць
+    .accesskey = А
