@@ -134,6 +134,9 @@ encryption-menu =
 encryption-toggle =
     .label = Зашыфраваць
     .tooltiptext = Ужыць скразное шыфраванне для гэтага паведамлення
+menu-sign =
+    .label = Падпісаць лічбавым подпісам
+    .accesskey = П
 menu-view-certificates =
     .label = Праглядзець сертыфікаты атрымальнікаў
     .accesskey = П
@@ -164,9 +167,14 @@ bcc-address-row-label =
 show-bcc-row-extra-menuitem =
     .label = Схаваная копія
     .accesskey = С
+many-public-recipients-prompt-title = Занадта шмат публічных атрымальнікаў
+many-public-recipients-prompt-cancel = Скасаваць адпраўку
+many-public-recipients-prompt-send = Усё роўна адправіць
 
 ## Notifications
 
+encrypted-bcc-ignore-button = Зразумела
+auto-disable-e2ee-warning = Скразное шыфраванне для гэтага паведамлення было аўтаматычна адключана.
 
 ## Editing
 
@@ -176,6 +184,9 @@ show-bcc-row-extra-menuitem =
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Запампавана ў невядомы ўліковы запіс Filelink.
 
 # Placeholder file
 
@@ -215,6 +226,7 @@ cloud-file-account-error-title = Памылка ўліковага запісу 
 ## Link Preview
 
 link-preview-title = Перадпрагляд спасылкі
+link-preview-description = { -brand-short-name } можа дадаваць убудаваны перадпрагляд пры ўстаўцы спасылкі.
 link-preview-autoadd = Аўтаматычна дадаваць перадпрагляд спасылак, калі гэта магчыма
 link-preview-replace-now = Дадаць перадпрагляд для гэтай спасылкі?
 link-preview-yes-replace = Так
