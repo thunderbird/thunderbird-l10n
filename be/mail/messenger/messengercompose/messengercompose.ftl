@@ -47,9 +47,19 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Перамясціць у Схаваная копія
     .accesskey = С
+pill-action-expand-list =
+    .label = Разгарнуць спіс
+    .accesskey = Р
 
 ## Attachment widget
 
+ctrl-cmd-shift-pretty-prefix =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘{ " " }
+       *[other] Ctrl+Shift+
+    }
+trigger-attachment-picker-key = A
+toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
     .label = Панэль прымацаванняў
     .accesskey = П
@@ -124,6 +134,9 @@ encryption-menu =
 encryption-toggle =
     .label = Зашыфраваць
     .tooltiptext = Ужыць скразное шыфраванне для гэтага паведамлення
+menu-view-certificates =
+    .label = Праглядзець сертыфікаты атрымальнікаў
+    .accesskey = П
 menu-open-key-manager =
     .label = Менеджар ключоў
     .accesskey = М
@@ -171,11 +184,19 @@ show-bcc-row-extra-menuitem =
 
 cloud-file-template-size = Памер:
 cloud-file-template-link = Спасылка:
+cloud-file-template-password-protected-link = Спасылка, абароненая паролем:
 cloud-file-template-download-limit = Абмежаванне на спампаванне:
 
 # Messages
 
 cloud-file-connection-error-title = Памылка злучэння
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = { -brand-short-name } па-за сеткай. Не атрымалася злучыцца з { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = Не атрымалася запампаваць { $filename } на { $provider }
 cloud-file-rename-error-title = Памылка перайменавання
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -194,6 +215,8 @@ cloud-file-account-error-title = Памылка ўліковага запісу 
 ## Link Preview
 
 link-preview-title = Перадпрагляд спасылкі
+link-preview-autoadd = Аўтаматычна дадаваць перадпрагляд спасылак, калі гэта магчыма
+link-preview-replace-now = Дадаць перадпрагляд для гэтай спасылкі?
 link-preview-yes-replace = Так
 
 ## Dictionary selection popup
