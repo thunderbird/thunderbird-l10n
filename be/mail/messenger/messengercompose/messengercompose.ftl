@@ -38,6 +38,15 @@ pill-action-select-all-sibling-pills =
 pill-action-select-all-pills =
     .label = Выбраць усе адрасы
     .accesskey = ы
+pill-action-move-to =
+    .label = Перамясціць у Каму
+    .accesskey = К
+pill-action-move-cc =
+    .label = Перамясціць у Копія
+    .accesskey = о
+pill-action-move-bcc =
+    .label = Перамясціць у Схаваная копія
+    .accesskey = С
 
 ## Attachment widget
 
@@ -115,9 +124,33 @@ encryption-menu =
 encryption-toggle =
     .label = Зашыфраваць
     .tooltiptext = Ужыць скразное шыфраванне для гэтага паведамлення
+menu-open-key-manager =
+    .label = Менеджар ключоў
+    .accesskey = М
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = Каму
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = Каму
+    .accesskey = К
+cc-address-row-label =
+    .value = Копія
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Копія
+    .accesskey = о
+bcc-address-row-label =
+    .value = Схаваная копія
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = Схаваная копія
+    .accesskey = С
 
 ## Notifications
 
