@@ -112,6 +112,9 @@ move-attachment-last-panel-button =
 encryption-menu =
     .label = Бяспека
     .accesskey = Б
+encryption-toggle =
+    .label = Зашыфраваць
+    .tooltiptext = Ужыць скразное шыфраванне для гэтага паведамлення
 
 ## Addressing Area
 
@@ -133,6 +136,8 @@ encryption-menu =
 
 # Template
 
+cloud-file-template-size = Памер:
+cloud-file-template-link = Спасылка:
 cloud-file-template-download-limit = Абмежаванне на спампаванне:
 
 # Messages
@@ -143,9 +148,19 @@ cloud-file-rename-error-title = Памылка перайменавання
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error = Узнікла памылка пры перайменаванні { $filename } на { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = Не атрымалася перайменаваць { $filename } на { $provider }
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } не падтрымлівае перайменаванне ўжо запампаваных файлаў.
+cloud-file-attachment-error-title = Памылка прымацавання Filelink
+cloud-file-account-error-title = Памылка ўліковага запісу Filelink
 
 ## Link Preview
 
+link-preview-title = Перадпрагляд спасылкі
 link-preview-yes-replace = Так
 
 ## Dictionary selection popup
