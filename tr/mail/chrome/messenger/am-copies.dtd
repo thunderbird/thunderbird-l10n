@@ -32,9 +32,9 @@
 <!ENTITY archiveHierarchyButton.label "Arşivleme seçenekleri...">
 <!ENTITY archiveHierarchyButton.accesskey "A">
 <!ENTITY archivesFolderOn.label "&quot;Arşiv&quot; klasörü:">
-<!ENTITY archivesFolderOn.accesskey "d">
+<!ENTITY archivesFolderOn.accesskey "v">
 <!ENTITY archiveInOtherFolder.label "Diğer:">
-<!ENTITY archiveInOtherFolder.accesskey "D">
+<!ENTITY archiveInOtherFolder.accesskey "i">
 <!ENTITY specialFolders.label "Taslaklar ve şablonlar">
 <!ENTITY keepDrafts2.label "Taslak iletilerin tutulacağı yer:">
 <!-- LOCALIZATION NOTE (draftsFolderOn.label): OK to translate this, bug #57440 -->
