@@ -44,9 +44,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Искључи режим за решавање проблема
     .accesskey = у
-menu-help-more-troubleshooting-info =
-    .label = Више података за решавање проблема
-    .accesskey = м
 menu-help-troubleshooting-info =
     .label = Подаци за решавање проблема
     .accesskey = з
@@ -68,6 +65,15 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Изађи из програма { -brand-shorter-name }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Изађи из { -brand-full-name }
+           *[other] Затвори { -brand-full-name }
+        }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -121,12 +127,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Сажета
     .accesskey = т
-mail-uidensity-normal =
-    .label = Обична
-    .accesskey = б
-mail-uidensity-touch =
-    .label = Додирна
-    .accesskey = д
 mail-uidensity-default =
     .label = Подразумевано
     .accesskey = д
