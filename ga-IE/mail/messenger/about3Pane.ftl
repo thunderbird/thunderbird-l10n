@@ -34,6 +34,8 @@ thread-pane-header-context-table-view =
     .label = Amharc Tábla
 thread-pane-header-context-cards-view =
     .label = Amharc Cártaí
+thread-pane-header-context-hide =
+    .label = Folaigh Ceanntásc an Liosta Theachtaireachtaí
 
 ## Quick Filter Bar
 
@@ -44,19 +46,31 @@ thread-pane-header-context-cards-view =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Fág scagairí i bhfeidhm agus an fillteán á athrú
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Roghchlár an bharra mearscagaire
 quick-filter-bar-dropdown-unread =
     .label = Neamhléite
+quick-filter-bar-dropdown-starred =
+    .label = Marcáilte
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Teagmhálaí
+quick-filter-bar-dropdown-tags =
+    .label = Clibeanna
+quick-filter-bar-dropdown-attachment =
+    .label = Iatán
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
-    .title = Taispeáin teachtaireachtaí neamhléite amháin
+    .title = Ná taispeáin ach teachtaireachtaí neamhléite
 # The label for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread-label = Neamhléite
 # The tooltip for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred =
-    .title = Taispeáin teachtaireachtaí marcáilte amháin
+    .title = Ná taispeáin ach teachtaireachtaí marcáilte
 # The label for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred-label = Marcáilte
@@ -68,7 +82,7 @@ quick-filter-bar-inaddrbook =
 # The label for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.
-quick-filter-bar-inaddrbook-label = Teagmháil
+quick-filter-bar-inaddrbook-label = Teagmhálaí
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
 quick-filter-bar-tags =
@@ -114,10 +128,23 @@ quick-filter-bar-textbox =
     .placeholder = Scag na teachtaireachtaí seo <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Scag teachtaireachtaí
+quick-filter-bar-searching =
+    .title = Ag cuardach…
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
 # This is the empty text for the text search box.
 # The goal is to convey to the user that typing in the box will filter the
 # messages and that there is a hotkey they can press to get to the box faster.
 quick-filter-bar-search-placeholder-with-key = Scag teachtaireachtaí… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Cuardaigh in ngach áit
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Mód scagtha
