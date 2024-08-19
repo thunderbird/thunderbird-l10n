@@ -147,7 +147,7 @@ quick-filter-bar-search-button =
     .alt = Cuardaigh in ngach áit
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
-    .title = Mód scagtha
+    .title = Mód scagtha na clibeanna
 # The Any-of tagging mode.
 quick-filter-bar-boolean-mode-any =
     .label = Aon cheann acu
@@ -185,6 +185,8 @@ quick-filter-bar-gloda-upsell-line2 = Brúigh ‘Enter’ arís chun dul ar agha
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Faigh Teachtaireachtaí
 folder-pane-get-all-messages-menuitem =
     .label = Faigh Gach Teachtaireacht Nua
     .accesskey = g
@@ -218,28 +220,68 @@ threadpane-column-header-correspondents = Comhfhreagraithe
     .title = Sórtáil de réir comhfhreagraithe
 threadpane-column-label-correspondents =
     .label = Comhfhreagraithe
+threadpane-cell-correspondents =
+    .aria-label = Comhfhreagraithe
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Comhfhreagraithe
+    .title = { $title }
 threadpane-column-header-subject = Ábhar
     .title = Sórtáil de réir ábhair
 threadpane-column-label-subject =
     .label = Ábhar
 threadpane-cell-subject =
     .aria-label = Ábhar
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Ábhar
+    .title = { $title }
 threadpane-column-header-date = Dáta
     .title = Sórtáil de réir dáta
 threadpane-column-label-date =
     .label = Dáta
+threadpane-cell-date =
+    .aria-label = Dáta
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Dáta
+    .title = { $title }
 threadpane-column-header-received = Faighte
     .title = Sórtáil de réir dáta faighte
 threadpane-column-label-received =
     .label = Faighte
+threadpane-cell-received =
+    .aria-label = Dáta faighte
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Dáta faighte
+    .title = { $title }
 threadpane-column-header-status = Stádas
     .title = Sórtáil de réir stádais
 threadpane-column-label-status =
     .label = Stádas
+threadpane-cell-status =
+    .aria-label = Stádas
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Stádas
+    .title = { $title }
 threadpane-column-header-size = Méid
     .title = Sórtáil de réir méide
 threadpane-column-label-size =
     .label = Méid
+threadpane-cell-size =
+    .aria-label = Méid
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Méid
+    .title = { $title }
 threadpane-column-header-tags = Clib
     .title = Sórtáil de réir clibeanna
 threadpane-column-label-tags =
