@@ -5,7 +5,11 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Scoránaigh an Barra Mearscagairí
 quick-filter-button-label = Mearscagaire
+thread-pane-header-display-button =
+    .title = Roghanna taispeána an liosta theachtaireachtaí
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -15,6 +19,16 @@ thread-pane-folder-message-count =
         [few] { $count } Theachtaireacht
         [many] { $count } dTeachtaireacht
        *[other] { $count } Teachtaireacht
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } Roghnaithe
+        [two] { $count } Roghnaithe
+        [few] { $count } Roghnaithe
+        [many] { $count } Roghnaithe
+       *[other] { $count } Roghnaithe
     }
 thread-pane-header-context-table-view =
     .label = Amharc Tábla
