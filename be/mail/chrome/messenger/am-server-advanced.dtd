@@ -4,7 +4,7 @@
 
 <!ENTITY serverAdvanced.label "Пашыраныя налады ўліковага запісу">
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
-<!ENTITY serverDirectory.label "Дырэкторыя паслугача IMAP:">
+<!ENTITY serverDirectory.label "Каталог IMAP-сервера:">
 <!ENTITY serverDirectory.accesskey "Д">
 <!ENTITY usingSubscription.label "Паказваць толькі падпісаныя папкі">
 <!ENTITY usingSubscription.accesskey "ц">
