@@ -7,7 +7,7 @@
 <!ENTITY searchHeading.accesskey     "ў">
 <!ENTITY searchSubfolders.label      "Пошук у падпапках">
 <!ENTITY searchSubfolders.accesskey  "о">
-<!ENTITY searchOnServer.label        "Выканаць пошук на паслугачы">
+<!ENTITY searchOnServer.label        "Запусціць пошук на серверы">
 <!ENTITY searchOnServer.accesskey    "ы">
 <!ENTITY resetButton.label           "Ачысціць">
 <!ENTITY resetButton.accesskey       "ч">

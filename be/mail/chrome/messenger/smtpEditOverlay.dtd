@@ -4,7 +4,7 @@
 
 <!ENTITY settings.caption "Наладжванні">
 <!ENTITY security.caption "Бяспека і апазнаванне">
-<!ENTITY serverName.label "Назва паслугача:">
+<!ENTITY serverName.label "Імя сервера:">
 <!ENTITY serverName.accesskey "Н">
 <!ENTITY serverDescription.label "Апісанне:">
 <!ENTITY serverDescription.accesskey "А">
