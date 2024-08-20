@@ -20,7 +20,7 @@
 <!ENTITY publicNamespace.accesskey "у">
 <!ENTITY otherUsersNamespace.label "Іншыя карыстальнікі:">
 <!ENTITY otherUsersNamespace.accesskey "І">
-<!ENTITY overrideNamespaces.label "Дазволіць паслугачу адхіляць гэтыя назвапрасторы">
+<!ENTITY overrideNamespaces.label "Дазволіць серверу перавызначаць гэтыя прасторы імёнаў">
 <!ENTITY overrideNamespaces.accesskey "Д">
 <!ENTITY pop3DeferringDesc.label "Пры сцягванні пошты з гэтага сервера ўліковага запісу змяшчаць новыя паведамленні ў папку:">
 <!ENTITY accountInbox.label '"Уваходныя" для гэтага ўліковага запісу'>
