@@ -18,8 +18,8 @@
 <!ENTITY daysOld.label "дзён">
 <!ENTITY message.label "апошніх лістоў">
 <!ENTITY retentionCleanup.label "Каб вызваліць месца на дыску, старыя лісты можна выдаліць назаўсёды.">
-<!ENTITY retentionCleanupImap.label "Каб вызваліць месца на дыску, старыя лісты можна выдаліць назаўсёды, разам мясцовыя копіі і іх першакрыніцы на адлеглым паслугачы.">
-<!ENTITY retentionCleanupPop.label "Каб вызваліць месца на дыску, старыя лісты можна выдаліць назаўсёды, разам з іх першакрыніцамі на адлеглым паслугачы.">
+<!ENTITY retentionCleanupImap.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы як лакальныя копіі, так і арыгіналы на аддаленым серверы.">
+<!ENTITY retentionCleanupPop.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы арыгіналы на аддаленым серверы.">
 <!ENTITY retentionDeleteMsg.label "Выдаліць лісты, якім больш за">
 <!ENTITY retentionDeleteMsg.accesskey "В">
 <!ENTITY retentionKeepAll.label "Не выдаляць ніякіх лістоў">
