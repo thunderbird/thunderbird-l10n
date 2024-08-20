@@ -8,7 +8,7 @@
 <!ENTITY serverDirectory.accesskey "Д">
 <!ENTITY usingSubscription.label "Паказваць толькі падпісаныя папкі">
 <!ENTITY usingSubscription.accesskey "ц">
-<!ENTITY dualUseFolders.label "Паслугач падтрымлівае папкі, якія змяшчаюць падпапкі і лісты">
+<!ENTITY dualUseFolders.label "Сервер падтрымлівае папкі, якія змяшчаюць падпапкі і паведамленні">
 <!ENTITY dualUseFolders.accesskey "п">
 <!ENTITY maximumConnectionsNumber.label "Найбольшы лік злучэнняў паслугача з запаснікам">
 <!ENTITY maximumConnectionsNumber.accesskey "а">
