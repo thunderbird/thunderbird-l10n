@@ -183,10 +183,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestionnaire de clés
     .accesskey = G
-openpgp-key-issue-notification-one = Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de clé pour { $addr }
-openpgp-key-issue-notification-many = Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de clés pour { $count } destinataires.
-smime-cert-issue-notification-one = Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de certificat pour { $addr }
-smime-cert-issue-notification-many = Pour utiliser le chiffrement de bout en bout vous devez résoudre les problèmes de certificat pour { $count } destinataires.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -274,12 +270,6 @@ show-bcc-row-button = Copie cachée à
     .title = Afficher le champ Copie cachée à ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Autres champs d’adressage à afficher
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Votre message a un destinataire public. Vous pouvez éviter de révéler les destinataires en utilisant plutôt « Copie cachée à ».
-       *[other] Les { $count } destinataires en « Pour » et « Copie à » verront les adresses des autres. Vous pouvez éviter de révéler les destinataires en utilisant plutôt « Copie cachée à ».
-    }
 public-recipients-notice-single = Votre message a un destinataire public. Vous pouvez éviter de divulguer le destinataire en utilisant plutôt « Copie cachée à ».
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -421,3 +411,5 @@ link-preview-yes-replace = Oui
 spell-add-dictionaries =
     .label = Ajouter des dictionnaires…
     .accesskey = A
+subject-encription-icon =
+    .title = Le sujet ne sera pas chiffré
