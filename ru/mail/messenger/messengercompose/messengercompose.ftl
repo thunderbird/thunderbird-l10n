@@ -188,10 +188,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Менеджер ключей
     .accesskey = ж
-openpgp-key-issue-notification-one = Для сквозного шифрования нужно решить проблему с ключом для { $addr }
-openpgp-key-issue-notification-many = Для сквозного шифрования нужно решить проблемы с ключами для { $count } получателей.
-smime-cert-issue-notification-one = Для сквозного шифрования нужно решить проблему с сертификатом для { $addr }.
-smime-cert-issue-notification-many = Для сквозного шифрования нужно решить проблемы с сертификатами для { $count } получателей.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -281,13 +277,6 @@ show-bcc-row-button = Скрытая копия
     .title = Показать поле «Скрытая копия» ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Другие отображаемые поля для адреса
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] В вашем сообщении есть публичный адресат. Вы можете избежать раскрытия адресата, используя вместо этого «Скрытую копию».
-        [few] { $count } адресата в полях «Кому» и «Копия» увидят адреса друг друга. Вы можете избежать раскрытия адресатов, используя вместо этого «Скрытую копию».
-       *[many] { $count } адресатов в полях «Кому» и «Копия» увидят адреса друг друга. Вы можете избежать раскрытия адресатов, используя вместо этого «Скрытую копию».
-    }
 public-recipients-notice-single = У вашего сообщения есть видимый другим получатель. Вы можете избежать раскрытия получателя, используя вместо этого скрытую копию.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -432,3 +421,5 @@ link-preview-yes-replace = Да
 spell-add-dictionaries =
     .label = Добавить словари…
     .accesskey = л
+subject-encription-icon =
+    .title = Тема не будет зашифрована
