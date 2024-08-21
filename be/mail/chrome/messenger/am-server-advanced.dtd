@@ -10,7 +10,7 @@
 <!ENTITY usingSubscription.accesskey "ц">
 <!ENTITY dualUseFolders.label "Сервер падтрымлівае папкі, якія змяшчаюць падпапкі і паведамленні">
 <!ENTITY dualUseFolders.accesskey "п">
-<!ENTITY maximumConnectionsNumber.label "Найбольшы лік злучэнняў паслугача з запаснікам">
+<!ENTITY maximumConnectionsNumber.label "Максімальная колькасць серверных злучэнняў, якія трэба кэшыраваць">
 <!ENTITY maximumConnectionsNumber.accesskey "а">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
 <!ENTITY namespaceDesc.label "Гэтыя перавагі вызначаюць прасторы імёнаў на вашым IMAP-серверы">
@@ -27,5 +27,5 @@
 <!ENTITY accountInbox.accesskey "а">
 <!ENTITY deferToServer.label "«Уваходныя» для іншага ўліковага запісу">
 <!ENTITY deferToServer.accesskey "і">
-<!ENTITY deferGetNewMail.label "Уключаць гэты паслугач падчас атрымання новай пошты">
+<!ENTITY deferGetNewMail.label "Пры атрыманні новай пошты спампоўваць яе таксама з гэтага сервера">
 <!ENTITY deferGetNewMail.accesskey "У">
