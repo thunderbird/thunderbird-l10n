@@ -13,7 +13,7 @@
 <!ENTITY maximumConnectionsNumber.label "Найбольшы лік злучэнняў паслугача з запаснікам">
 <!ENTITY maximumConnectionsNumber.accesskey "а">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
-<!ENTITY namespaceDesc.label "Гэтыя перавагі вызначаюць назвапрасторы на вашым паслугачы IMAP">
+<!ENTITY namespaceDesc.label "Гэтыя перавагі вызначаюць прасторы імёнаў на вашым IMAP-серверы">
 <!ENTITY personalNamespace.label "Асабістая назвапрастора:">
 <!ENTITY personalNamespace.accesskey "А">
 <!ENTITY publicNamespace.label "Публічныя (супольныя):">
