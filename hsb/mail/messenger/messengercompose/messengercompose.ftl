@@ -432,3 +432,5 @@ link-preview-yes-replace = Haj
 spell-add-dictionaries =
     .label = Słowniki přidać…
     .accesskey = S
+subject-encription-icon =
+    .title = Tema njebudźe so zaklučować
