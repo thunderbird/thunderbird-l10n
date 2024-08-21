@@ -180,10 +180,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = 密钥管理器
     .accesskey = M
-openpgp-key-issue-notification-one = 端到端加密功能需解决 { $addr } 的密钥问题。
-openpgp-key-issue-notification-many = 端到端加密功能需解决 { $count } 位收件人的密钥问题。
-smime-cert-issue-notification-one = 端到端加密功能需解决 { $addr } 的证书问题。
-smime-cert-issue-notification-many = 端到端加密功能需解决 { $count } 位收件人的证书问题。
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -263,11 +259,6 @@ show-bcc-row-button = 密送
     .title = 显示密送栏（{ ctrl-cmd-shift-pretty-prefix }{ $key }）
 extra-address-rows-menu-button =
     .title = 显示其他收件人相关栏
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-       *[other] “收件人（To）”与“抄送（Cc）”共有 { $count } 位，他们可以看到彼此的邮箱地址。您可以改用“密送”来避免泄露收件人信息。
-    }
 public-recipients-notice-single = 您的消息的收件人公开可见。改用密送可避免泄露收件人。
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -404,3 +395,5 @@ link-preview-yes-replace = 好的
 spell-add-dictionaries =
     .label = 添加字典…
     .accesskey = A
+subject-encription-icon =
+    .title = 主题将不会被加密
