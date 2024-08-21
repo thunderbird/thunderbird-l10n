@@ -172,6 +172,8 @@ exchange-dialog-cancel-button = Avbryt
 ## Dismiss account creation dialog
 
 exit-dialog-title = Ingen e-postkonto konfigurert
+account-setup-no-account-checkbox = Bruk { -brand-short-name } utan ein e-postkonto
+    .accesskey = B
 exit-dialog-cancel-button = Hald fram med konfigurasjonen
     .accesskey = H
 
