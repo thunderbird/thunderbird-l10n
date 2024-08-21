@@ -5,7 +5,7 @@
 <!-- extracted from am-advanced.xhtml -->
 
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
-<!ENTITY smtpServer.label "Налады выходнага сервера (SMTP)">
+<!ENTITY smtpServer.label "Налады сервера выходнай пошты (SMTP)">
 
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 
