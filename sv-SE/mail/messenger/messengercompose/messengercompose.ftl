@@ -183,10 +183,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Nyckelhanterare
     .accesskey = N
-openpgp-key-issue-notification-one = End-to-end kryptering kräver att man löser nyckelproblem för { $addr }
-openpgp-key-issue-notification-many = End-to-end kryptering kräver att nyckelproblem löses för { $count } mottagare.
-smime-cert-issue-notification-one = End-to-end kryptering kräver att certifikatproblem löses för { $addr }.
-smime-cert-issue-notification-many = End-to-end kryptering kräver att certifikatproblem löses för { $count } mottagare.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -274,12 +270,6 @@ show-bcc-row-button = Dold kopia
     .title = Visa fältet dold kopia ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Andra adresseringsfält att visa
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Ditt meddelande har en offentlig mottagare. Du kan undvika att avslöja mottagare genom att använda Dold kopia istället.
-       *[other] { $count } mottagare i fältet Till och Kopia kan se varandras adresser. Du kan undvika att avslöja mottagare genom att använda Dold kopia istället.
-    }
 public-recipients-notice-single = Ditt meddelande har en offentlig mottagare. Du kan undvika att avslöja mottagaren genom att använda Dold kopia istället.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -421,3 +411,5 @@ link-preview-yes-replace = Ja
 spell-add-dictionaries =
     .label = Lägg till ordlistor…
     .accesskey = L
+subject-encription-icon =
+    .title = Ämne kommer inte att krypteras
