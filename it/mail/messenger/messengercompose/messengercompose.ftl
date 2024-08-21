@@ -183,10 +183,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestore chiavi
     .accesskey = G
-openpgp-key-issue-notification-one = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con la chiave per { $addr }
-openpgp-key-issue-notification-many = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con la chiave per { $count } destinatari.
-smime-cert-issue-notification-one = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con il certificato per { $addr }
-smime-cert-issue-notification-many = Per utilizzare la crittografia end-to-end è necessario risolvere i problemi con il certificato per { $count } destinatari.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -274,12 +270,6 @@ show-bcc-row-button = Ccn
     .title = Mostra il campo Ccn ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Altri campi destinatario da mostrare
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Il tuo messaggio ha un destinatario pubblico. Puoi evitare di mostrare gli indirizzi dei destinatari utilizzando Ccn.
-       *[other] I { $count } destinatari inseriti nei campi A e Cc possono vedere i rispettivi indirizzi. Puoi evitare di mostrare gli indirizzi dei destinatari utilizzando Ccn.
-    }
 public-recipients-notice-single = Il tuo messaggio ha un destinatario pubblico. È possibile evitare di rivelare il destinatario utilizzando Ccn.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -421,3 +411,5 @@ link-preview-yes-replace = Sì
 spell-add-dictionaries =
     .label = Aggiungi dizionari…
     .accesskey = z
+subject-encription-icon =
+    .title = L’oggetto non verrà crittato
