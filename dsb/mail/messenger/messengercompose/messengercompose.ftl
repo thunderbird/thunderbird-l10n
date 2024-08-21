@@ -432,3 +432,5 @@ link-preview-yes-replace = Jo
 spell-add-dictionaries =
     .label = Słowniki pśidaś…
     .accesskey = S
+subject-encription-icon =
+    .title = Tema njebuźo se koděrowaś
