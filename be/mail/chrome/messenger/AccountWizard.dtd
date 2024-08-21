@@ -26,7 +26,7 @@
 
 <!-- Entities for Incoming Server page -->
 
-<!ENTITY incomingTitle.label "Інфармацыя пра уваходны сервер">
+<!ENTITY incomingTitle.label "Інфармацыя пра сервер уваходнай пошты">
 <!ENTITY incomingUsername.label "Імя карыстальніка:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Увядзіце імя вашага сервера навін (NNTP) (напрыклад: «news.example.net»).">
