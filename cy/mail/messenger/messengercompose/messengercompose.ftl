@@ -452,3 +452,5 @@ link-preview-yes-replace = Iawn
 spell-add-dictionaries =
     .label = Ychwanegu Geiriaduron…
     .accesskey = Y
+subject-encription-icon =
+    .title = Ni fydd y pwnc yn cael ei amgryptio
