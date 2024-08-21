@@ -180,10 +180,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = 金鑰管理員
     .accesskey = M
-openpgp-key-issue-notification-one = 需要解決 { $addr } 的金鑰問題，才可使用端到端加密功能。
-openpgp-key-issue-notification-many = 需要解決 { $count } 位收件者的金鑰問題，才可使用端到端加密功能。
-smime-cert-issue-notification-one = 需要解決 { $addr } 的憑證問題，才可使用端到端加密功能。
-smime-cert-issue-notification-many = 需要解決 { $count } 位收件者的憑證問題，才可使用端到端加密功能。
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -269,12 +265,6 @@ show-bcc-row-button = 密件副本
     .title = 顯示「密件副本」欄位（{ ctrl-cmd-shift-pretty-prefix }{ $key }）
 extra-address-rows-menu-button =
     .title = 其他要顯示的地址欄位
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] 您的訊息當中有公開的收件者，可以改用「密件副本」來避免揭露收件者資訊。
-       *[other] 「給」與「副本」收件者共有 { $count } 位，都可看到彼此的收件信箱。您可以改用「密件副本」來避免揭露收件者資訊。
-    }
 public-recipients-notice-single = 您的郵件有公開收件者，可以改用「密件副本」來避免揭露收件者資訊。
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -414,3 +404,5 @@ link-preview-yes-replace = 好的
 spell-add-dictionaries =
     .label = 新增字典…
     .accesskey = A
+subject-encription-icon =
+    .title = 將不會加密主旨
