@@ -9,4 +9,4 @@ account-settings-reset-color-button =
 delete-account-button =
     .label = 刪除
 default-account-button =
-    .label = 設為預設軟體
+    .label = 設為預設帳號
