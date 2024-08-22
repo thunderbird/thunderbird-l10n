@@ -181,10 +181,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Кілттер басқарушысы
     .accesskey = б
-openpgp-key-issue-notification-one = Өтпелі шифрлеу үшін { $addr } үшін кілт мәселелерін шешу керек
-openpgp-key-issue-notification-many = Өтпелі шифрлеу үшін { $count } алушы үшін кілт мәселелерін шешу керек.
-smime-cert-issue-notification-one = Өтпелі шифрлеу үшін { $addr } үшін сертификат мәселелерін шешу керек.
-smime-cert-issue-notification-many = Өтпелі шифрлеу үшін { $count } алушы үшін сертификат мәселелерін шешу керек.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -272,12 +268,6 @@ show-bcc-row-button = Жасырын көшірме
     .title = "Жасырын көшірме" өрісін көрсету ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Көрсетілетін басқа адрес өрістері
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Сіздің хабарламаңызда жария хат алушы бар. Алушыларды ашып көрсетуден сақтану үшін, орнына "Жасырын көшірме" қолдануға болады.
-       *[other] "Кімге" және "Көшірме" өрістеріндегі { $count } хат алушы бір-бірінің адрестерін көретін болады. Алушыларды ашып көрсетуден сақтану үшін, орнына "Жасырын көшірме" қолдануға болады.
-    }
 public-recipients-notice-single = Сіздің хабарламаңызда бапсқаларға көрінетін алушы бар. Оның орнына Жасырын көшірме пайдалану арқылы алушыны жарияламауға болады.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -418,3 +408,5 @@ link-preview-yes-replace = Иә
 spell-add-dictionaries =
     .label = Сөздіктерді қосу…
     .accesskey = С
+subject-encription-icon =
+    .title = Тақырып шифрленбейтін болады
