@@ -7,6 +7,7 @@ open-addons-sidebar-button = Қосымшалар және темалар
 account-action-add-newsgroup-account =
     .label = Жаңалықтар топтары тіркелгісін қосу…
     .accesskey = л
+account-tree-create-account-button = Жаңа тіркелгі
 server-change-restart-required = Сервер атауын немесе пайдаланушы атын өзгертуді іске асыру үшін қайта іске қосу қажет.
 edit-vcard-dialog-accept-button = Сақтау
     .accesskey = С
