@@ -408,3 +408,5 @@ link-preview-yes-replace = Ναι
 spell-add-dictionaries =
     .label = Προσθήκη λεξικών…
     .accesskey = Π
+subject-encription-icon =
+    .title = Το θέμα δεν θα κρυπτογραφηθεί
