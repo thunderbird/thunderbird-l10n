@@ -9,4 +9,4 @@ account-settings-reset-color-button =
 delete-account-button =
     .label = Borrar
 default-account-button =
-    .label = Hacer predeterminado
+    .label = Hacer predeterminada
