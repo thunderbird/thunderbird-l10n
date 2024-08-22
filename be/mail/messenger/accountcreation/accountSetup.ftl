@@ -63,6 +63,7 @@ account-setup-step3-image =
     .title = Канфігурацыя знойдзена
 account-setup-step5-image =
     .title = Уліковы запіс створаны
+account-setup-privacy-footnote2 = Вашы ўліковыя даныя будуць захоўвацца лакальна на вашым камп'ютары.
 
 ## Results area
 
@@ -86,6 +87,7 @@ account-setup-outgoing-server-legend = Сервер выходнай пошты
 
 ## Incoming/Outgoing SSL Authentication options
 
+ssl-no-authentication-option = Без аўтэнтыфікацыі
 ssl-encrypted-password-option = Зашыфраваны пароль
 
 ## Incoming/Outgoing SSL options
@@ -120,6 +122,7 @@ account-setup-no-account-checkbox = Выкарыстоўваць { -brand-short-
 ## Alert dialogs
 
 account-setup-creation-error-title = Памылка стварэння ўліковага запісу
+account-setup-error-server-exists = Сервер уваходнай пошты ўжо існуе.
 
 ## Addon installation section
 
@@ -133,6 +136,8 @@ account-setup-dictionaries-button = Спампаваць слоўнікі
 account-setup-address-book-carddav-button = Падлучыцца да адраснай кнігі CardDAV
 account-setup-address-book-ldap-button = Падлучыцца да адраснай кнігі LDAP
 account-setup-calendar-button = Падлучыцца да аддаленага календара
+account-setup-looking-up-address-books = Пошук адрасных кніг…
+account-setup-looking-up-calendars = Пошук календароў…
 account-setup-address-books-button = Адрасныя кнігі
 account-setup-calendars-button = Календары
 account-setup-connect-link = Падлучыць
