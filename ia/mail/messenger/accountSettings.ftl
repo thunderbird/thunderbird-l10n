@@ -6,3 +6,7 @@ account-settings-color-label = Color:
     .accesskey = C
 account-settings-reset-color-button =
     .title = Reinitialisar le color
+delete-account-button =
+    .label = Deler
+default-account-button =
+    .label = Stabilir como predeterminate
