@@ -27,6 +27,9 @@ account-setup-email-input =
     .placeholder = yakub.kolas@example.com
 account-setup-email-info-icon =
     .title = Ваш існуючы адрас электроннай пошты
+account-setup-password-label = Пароль
+    .accesskey = П
+    .title = Неабавязковы, будзе выкарыстаны толькі для праверкі імя карыстальніка
 account-provisioner-button = Атрымаць новы адрас электроннай пошты
     .accesskey = А
 account-setup-password-toggle-hide =
@@ -49,6 +52,8 @@ account-setup-button-stop = Спыніць
 
 account-setup-looking-up-settings = Пошук канфігурацыі…
 account-setup-looking-up-settings-guess = Пошук канфігурацыі: спроба выкарыстаць тыповыя імёны сервераў…
+account-setup-checking-password = Праверка пароля…
+account-setup-success-addon = Дадатак паспяхова усталяваны
 
 ## Illustrations
 
@@ -77,6 +82,7 @@ account-setup-incoming-server-legend = Сервер уваходнай пошт�
 account-setup-protocol-label = Пратакол:
 account-setup-port-label = Порт:
     .title = Задайце 0 для аўтаматычнага выяўлення
+account-setup-outgoing-server-legend = Сервер выходнай пошты
 
 ## Incoming/Outgoing SSL Authentication options
 
@@ -120,11 +126,27 @@ account-setup-creation-error-title = Памылка стварэння ўлік�
 
 ## Success view
 
+account-setup-settings-button = Налады ўліковага запісу
+account-setup-encryption-button = Скразное шыфраванне
+account-setup-signature-button = Дадаць подпіс
+account-setup-dictionaries-button = Спампаваць слоўнікі
+account-setup-address-book-carddav-button = Падлучыцца да адраснай кнігі CardDAV
+account-setup-address-book-ldap-button = Падлучыцца да адраснай кнігі LDAP
+account-setup-calendar-button = Падлучыцца да аддаленага календара
 account-setup-address-books-button = Адрасныя кнігі
 account-setup-calendars-button = Календары
+account-setup-connect-link = Падлучыць
+account-setup-connect-all-calendars = Падлучыць усе календары
+account-setup-connect-all-address-books = Падлучыць усе адрасныя кнігі
 
 ## Calendar synchronization dialog
 
+calendar-dialog-title = Падлучыць каляндар
+calendar-dialog-cancel-button = Скасаваць
+    .accesskey = С
+calendar-dialog-confirm-button = Падлучыць
+    .accesskey = П
+account-setup-calendar-name-label = Назва
 account-setup-calendar-name-input =
     .placeholder = Мой каляндар
 account-setup-calendar-color-label = Колер
