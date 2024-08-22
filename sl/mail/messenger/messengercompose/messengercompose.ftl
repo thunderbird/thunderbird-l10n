@@ -193,10 +193,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Upravitelj ključev
     .accesskey = U
-openpgp-key-issue-notification-one = Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključem za { $addr }
-openpgp-key-issue-notification-many = Za uporabo šifriranja od konca do konca je treba razrešiti težave s ključi za { $count } prejemnikov.
-smime-cert-issue-notification-one = Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $addr }
-smime-cert-issue-notification-many = Za uporabo šifriranja od konca do konca je treba razrešiti težave z digitalnim potrdilom za { $count } prejemnikov.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -288,14 +284,6 @@ show-bcc-row-button = Skp
     .title = Prikaži polje Skp ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Druga polja za naslavljanje, ki naj bodo prikazana
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Sporočilo ima javnega prejemnika.  Prejemnike lahko prikrijete tako, da uporabite polje Skp.
-        [two] Prejemnika v poljih Za in Kp bosta videla naslove drug drugega. Prejemnike lahko prikrijete tako, da uporabite polje Skp.
-        [few] { $count } prejemniki v poljih Za in Kp bodo videli naslove drug drugega. Prejemnike lahko prikrijete tako, da uporabite polje Skp.
-       *[other] { $count } prejemnikov v poljih Za in Kp bo videlo naslove drug drugega. Prejemnike lahko prikrijete tako, da uporabite polje Skp.
-    }
 public-recipients-notice-single = Sporočilo ima javnega prejemnika. Razkritju prejemnika se lahko izognete z uporabo polja Skp.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -443,3 +431,5 @@ link-preview-yes-replace = Da
 spell-add-dictionaries =
     .label = Dodaj slovarje …
     .accesskey = D
+subject-encription-icon =
+    .title = Zadeva ne bo šifrirana
