@@ -184,10 +184,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Stýring dulritunarlykla
     .accesskey = k
-openpgp-key-issue-notification-one = Enda-í-enda dulritun krefst þess að leyst séu vandamál með dulritunarlykla fyrir { $addr }
-openpgp-key-issue-notification-many = Enda-í-enda dulritun krefst þess að leyst séu vandamál með dulritunarlykla fyrir { $count } viðtakendur.
-smime-cert-issue-notification-one = Enda-í-enda dulritun krefst þess að leyst séu vandamál með skilríki fyrir { $addr }
-smime-cert-issue-notification-many = Enda-í-enda dulritun krefst þess að leyst séu vandamál með skilríki fyrir { $count } viðtakendur.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -275,12 +271,6 @@ show-bcc-row-button = Falið afrit
     .title = Birta Falið afrit-reit ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Aðrir póstfangsreitir til að birta
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Skilaboðin þín eru með opinberan viðtakanda. Þú getur forðast að gefa upp viðtakendur með því að nota 'Falið afrit' í staðinn.
-       *[other] { $count } viðtakendur í 'Til' og 'Afrit' munu sjá heimilisfang hvers annars. Þú getur forðast að gefa upp viðtakendur með því að nota 'Falið afrit' í staðinn.
-    }
 public-recipients-notice-single = Skilaboðin þín eru með opinberum viðtakanda. Þú getur forðast að gefa upp viðtakandann með því að nota falið afrit (BCC) í staðinn.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -422,3 +412,5 @@ link-preview-yes-replace = Já
 spell-add-dictionaries =
     .label = Bæta við orðasöfnum…
     .accesskey = a
+subject-encription-icon =
+    .title = Viðfangsefni verður ekki dulkóðað
