@@ -33,11 +33,15 @@ account-setup-password-toggle-hide =
     .title = Схаваць пароль
 account-setup-remember-password = Запомніць пароль
     .accesskey = З
+account-setup-exchange-label = Ваш лагін
+    .accesskey = В
 
 ## Action buttons
 
 account-setup-button-cancel = Скасаваць
     .accesskey = С
+account-setup-button-manual-config = Наладзіць уручную
+    .accesskey = Н
 account-setup-button-stop = Спыніць
     .accesskey = С
 
@@ -69,26 +73,47 @@ account-setup-result-outgoing-existing = Выкарыстоўваць існую
 
 ## Manual configuration area
 
+account-setup-incoming-server-legend = Сервер уваходнай пошты
+account-setup-protocol-label = Пратакол:
 account-setup-port-label = Порт:
     .title = Задайце 0 для аўтаматычнага выяўлення
 
 ## Incoming/Outgoing SSL Authentication options
 
+ssl-encrypted-password-option = Зашыфраваны пароль
 
 ## Incoming/Outgoing SSL options
 
+ssl-noencryption-option = Няма
+account-setup-auth-label = Спосаб аўтэнтыфікацыі:
+account-setup-username-label = Імя карыстальніка:
 
 ## Warning insecure server dialog
 
+account-setup-insecure-title = Увага!
+# Variables:
+#  $server (String): The name of the hostname of the server the user was trying to connect to.
+account-setup-warning-cleartext = <b>{ $server }</b> не выкарыстоўвае шыфраванне.
+account-setup-insecure-server-checkbox = Я разумею рызыкі
+    .accesskey = Я
+insecure-dialog-cancel-button = Змяніць налады
+    .accesskey = З
+insecure-dialog-confirm-button = Пацвердзіць
+    .accesskey = П
 
 ## Warning Exchange confirmation dialog
 
+exchange-dialog-confirm-button = Увайсці
+exchange-dialog-cancel-button = Скасаваць
 
 ## Dismiss account creation dialog
 
+account-setup-no-account-checkbox = Выкарыстоўваць { -brand-short-name } без уліковага запісу электроннай пошты
+    .accesskey = В
 
 ## Alert dialogs
 
+account-setup-creation-error-title = Памылка стварэння ўліковага запісу
 
 ## Addon installation section
 
