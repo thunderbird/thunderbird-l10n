@@ -3,13 +3,13 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Subscription Dialog -->
-<!ENTITY feedSubscriptions.label     "RSS-abonnement">
-<!ENTITY learnMore.label             "Les meir om RSS-kjelder">
+<!ENTITY feedSubscriptions.label     "Abonnement på nyheitskjelder">
+<!ENTITY learnMore.label             "Les meir om nyheitskjelder">
 
 <!ENTITY feedTitle.label             "Tittel:">
 <!ENTITY feedTitle.accesskey         "T">
 
-<!ENTITY feedLocation.label          "Kjelde-URL:">
+<!ENTITY feedLocation.label          "Nyheitskjelde-URL:">
 <!ENTITY feedLocation.accesskey      "K">
 <!ENTITY feedLocation2.placeholder   "Skriv inn ein gyldig kjelde-url">
 <!ENTITY locationValidate.label      "Valider">
