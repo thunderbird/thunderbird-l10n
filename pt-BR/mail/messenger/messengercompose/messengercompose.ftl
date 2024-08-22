@@ -183,10 +183,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gerenciador de chaves
     .accesskey = G
-openpgp-key-issue-notification-one = A criptografia de ponta a ponta requer a resolução de problemas de chave de { $addr }
-openpgp-key-issue-notification-many = A criptografia de ponta a ponta requer a resolução de problemas de chave de { $count } destinatários.
-smime-cert-issue-notification-one = A criptografia de ponta a ponta requer a resolução de problemas de certificado de { $addr }.
-smime-cert-issue-notification-many = A criptografia de ponta a ponta requer a resolução de problemas de certificado de { $count } destinatários.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -274,12 +270,6 @@ show-bcc-row-button = Cco
     .title = Exibir campo Cco ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Outros campos de endereçamento a exibir
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Sua mensagem tem um destinatário público. Você pode evitar revelar destinatários usando Cco em vez de Para ou Cc.
-       *[other] Os { $count } destinatários em Para e Cc irão ver os endereços uns dos outros. Você pode evitar revelar destinatários usando Cco.
-    }
 public-recipients-notice-single = Sua mensagem tem um destinatário público. Você pode evitar revelar o destinatário usando Cco.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -421,3 +411,5 @@ link-preview-yes-replace = Sim
 spell-add-dictionaries =
     .label = Adicionar dicionários…
     .accesskey = A
+subject-encription-icon =
+    .title = O assunto não será criptografado
