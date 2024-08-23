@@ -184,20 +184,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Správce klíčů
     .accesskey = k
-openpgp-key-issue-notification-one = Pro použití koncového šifrování nejprve odstraňte chyby klíče pro { $addr }
-openpgp-key-issue-notification-many =
-    { $count ->
-        [one] Pro použití koncového šifrování nejprve odstraňte chyby klíče pro jednoho příjemce.
-        [few] Pro použití koncového šifrování nejprve odstraňte chyby klíčů pro { $count } příjemce.
-       *[other] Pro použití koncového šifrování nejprve odstraňte chyby klíčů pro { $count } příjemců.
-    }
-smime-cert-issue-notification-one = Pro použití koncového šifrování nejprve odstraňte chyby certifikátu pro { $addr }
-smime-cert-issue-notification-many =
-    { $count ->
-        [one] Pro použití koncového šifrování nejprve odstraňte chyby certifikátu pro jednoho příjemce.
-        [few] Pro použití koncového šifrování nejprve odstraňte chyby certifikátů pro { $count } příjemce.
-       *[other] Pro použití koncového šifrování nejprve odstraňte chyby certifikátů pro { $count } příjemců.
-    }
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -289,13 +275,6 @@ show-bcc-row-button = Skrytá kopie
     .title = Zobrazit pole Skrytá kopie ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Další pole adresátů k zobrazení
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Příjemce této zprávy je uvedený veřejně. Pokud se tomu chcete vyhnout, použijte pole Skrytá kopie.
-        [few] Celkem { $count } adresáti v polích Komu a Kopie navzájem uvidí své adresy. Pokud se tomu chcete vyhnout, použijte pole Skrytá kopie.
-       *[other] Celkem { $count } adresátů v polích Komu a Kopie navzájem uvidí své adresy. Pokud se tomu chcete vyhnout, použijte pole Skrytá kopie.
-    }
 public-recipients-notice-single = Vaše zpráva má veřejného příjemce. Můžete zabránit prozrazení příjemce tak, že použijete skrytou kopii.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -441,3 +420,5 @@ link-preview-yes-replace = Ano
 spell-add-dictionaries =
     .label = Přidat slovník…
     .accesskey = a
+subject-encription-icon =
+    .title = Předmět nebude zašifrován
