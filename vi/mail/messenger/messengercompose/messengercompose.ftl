@@ -172,10 +172,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Quản lý khóa
     .accesskey = M
-openpgp-key-issue-notification-one = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề của khóa đối với { $addr }
-openpgp-key-issue-notification-many = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề của khóa đối với { $count } người nhận.
-smime-cert-issue-notification-one = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề về chứng chỉ đối với { $addr }.
-smime-cert-issue-notification-many = Mã hóa end-to-end yêu cầu giải quyết các vấn đề về chứng chỉ đối với { $count } người nhận.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -255,11 +251,6 @@ show-bcc-row-button = Bcc
     .title = Hiện trường Bcc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Các trường địa chỉ khác để hiển thị
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-       *[other] { $count } người nhận trong Đến và Cc sẽ thấy địa chỉ của nhau. Thay vào đó, bạn có thể tránh tiết lộ người nhận bằng cách sử dụng Bcc.
-    }
 public-recipients-notice-single = Thư của bạn có người nhận công khai. Thay vào đó, bạn có thể tránh tiết lộ người nhận bằng cách sử dụng Bcc.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -395,3 +386,5 @@ link-preview-yes-replace = Đồng ý
 spell-add-dictionaries =
     .label = Thêm từ điển…
     .accesskey = A
+subject-encription-icon =
+    .title = Chủ đề sẽ không được mã hoá
