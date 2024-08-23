@@ -19,6 +19,8 @@ account-setup-name-label = Ваша поўнае імя
 # Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
 account-setup-name-input =
     .placeholder = Якуб Колас
+account-setup-name-info-icon =
+    .title = Ваша імя, як яно адлюстроўваецца ў іншых
 account-setup-name-warning-icon =
     .title = Калі ласка, увядзіце ваша імя
 account-setup-email-label = Адрас электроннай пошты
@@ -27,17 +29,27 @@ account-setup-email-input =
     .placeholder = yakub.kolas@example.com
 account-setup-email-info-icon =
     .title = Ваш існуючы адрас электроннай пошты
+account-setup-email-warning-icon =
+    .title = Няправільны адрас электроннай пошты
 account-setup-password-label = Пароль
     .accesskey = П
     .title = Неабавязковы, будзе выкарыстаны толькі для праверкі імя карыстальніка
 account-provisioner-button = Атрымаць новы адрас электроннай пошты
     .accesskey = А
+account-setup-password-toggle-show =
+    .title = Паказваць пароль адкрытым тэкстам
 account-setup-password-toggle-hide =
     .title = Схаваць пароль
 account-setup-remember-password = Запомніць пароль
     .accesskey = З
 account-setup-exchange-label = Ваш лагін
     .accesskey = В
+#   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
+account-setup-exchange-input =
+    .placeholder = ДАМЕН\лагін
+#   Domain refers to the Windows domain in ActiveDirectory. We mean the user's login in Windows at the local corporate network.
+account-setup-exchange-info-icon =
+    .title = Даменны лагін
 
 ## Action buttons
 
