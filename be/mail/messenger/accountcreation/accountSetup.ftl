@@ -68,6 +68,11 @@ account-setup-looking-up-settings = Пошук канфігурацыі…
 account-setup-looking-up-settings-guess = Пошук канфігурацыі: спроба выкарыстаць тыповыя імёны сервераў…
 account-setup-checking-password = Праверка пароля…
 account-setup-success-addon = Дадатак паспяхова усталяваны
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-success-settings-db = Знойдзена канфігурацыя ў базе даных ISP Mozilla.
+account-setup-success-settings-isp = Знойдзена канфігурацыя ў пастаўшчыка паслуг электроннай пошты.
+# Note: Microsoft Exchange is a product name.
+account-setup-success-settings-exchange = Знойдзена канфігурацыя для сервера Microsoft Exchange.
 
 ## Illustrations
 
@@ -75,6 +80,8 @@ account-setup-step2-image =
     .title = Загрузка…
 account-setup-step3-image =
     .title = Канфігурацыя знойдзена
+account-setup-step4-image =
+    .title = Памылка злучэння
 account-setup-step5-image =
     .title = Уліковы запіс створаны
 account-setup-privacy-footnote2 = Вашы ўліковыя даныя будуць захоўвацца лакальна на вашым камп'ютары.
