@@ -9,7 +9,7 @@
 <!ENTITY unsubscribeButton.accesskey  "D">
 <!ENTITY newGroupsTab.label           "Nhóm Mới">
 <!ENTITY newGroupsTab.accesskey       "N">
-<!ENTITY refreshButton.label          "Làm tươi">
+<!ENTITY refreshButton.label          "Làm mới">
 <!ENTITY refreshButton.accesskey      "L">
 <!ENTITY stopButton.label             "Dừng">
 <!ENTITY stopButton.accesskey         "D">
