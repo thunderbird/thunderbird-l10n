@@ -47,6 +47,8 @@ account-setup-button-manual-config = Наладзіць уручную
     .accesskey = Н
 account-setup-button-stop = Спыніць
     .accesskey = С
+account-setup-button-continue = Працягнуць
+    .accesskey = П
 
 ## Notifications
 
@@ -64,6 +66,8 @@ account-setup-step3-image =
 account-setup-step5-image =
     .title = Уліковы запіс створаны
 account-setup-privacy-footnote2 = Вашы ўліковыя даныя будуць захоўвацца лакальна на вашым камп'ютары.
+account-setup-forum-help = Форум падтрымкі
+account-setup-privacy-help = Палітыка прыватнасці
 
 ## Results area
 
@@ -118,6 +122,8 @@ exchange-dialog-cancel-button = Скасаваць
 
 account-setup-no-account-checkbox = Выкарыстоўваць { -brand-short-name } без уліковага запісу электроннай пошты
     .accesskey = В
+exit-dialog-cancel-button = Працягнуць наладжванне
+    .accesskey = П
 
 ## Alert dialogs
 
@@ -126,6 +132,7 @@ account-setup-error-server-exists = Сервер уваходнай пошты �
 
 ## Addon installation section
 
+account-setup-addon-install-title = Усталяваць
 
 ## Success view
 
