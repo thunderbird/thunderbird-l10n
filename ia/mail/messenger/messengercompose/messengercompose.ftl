@@ -183,10 +183,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestor de claves
     .accesskey = G
-openpgp-key-issue-notification-one = Le cryptation de extremo a extremo require resolver problemas de clave pro { $addr }.
-openpgp-key-issue-notification-many = Le cryptation de extremo a extremo require resolver problemas de clave pro { $count } destinatarios.
-smime-cert-issue-notification-one = Le cryptation de extremo a extremo require resolver problemas de certificato pro { $addr }.
-smime-cert-issue-notification-many = Le cryptation de extremo a extremo require resolver problemas de certificato pro { $count } destinatarios.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -274,12 +270,6 @@ show-bcc-row-button = Ccn
     .title = Mostrar campo Ccn ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Altere campos adresse a monstrar
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Tu message ha un destinatario public. Tu in vice pote impedir de revelar le destinatarios  per Ccn.
-       *[other] Le { $count } destinatarios in A e Cc videra le un le adresse del altere. Tu in vice pote impedir de revelar le destinatarios per Ccn.
-    }
 public-recipients-notice-single = Tu message ha un destinatario public. Tu pote evitar revelar le destinatario per utilisar le Bcc in vice.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -421,3 +411,5 @@ link-preview-yes-replace = Si
 spell-add-dictionaries =
     .label = Adder dictionarios…
     .accesskey = A
+subject-encription-icon =
+    .title = Le subjecto non sera cryptate
