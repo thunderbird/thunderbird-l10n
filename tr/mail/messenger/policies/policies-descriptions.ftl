@@ -72,7 +72,7 @@ policy-OfferToSaveLogins = { -brand-short-name } uygulamasının kullanıcı ad�
 policy-OfferToSaveLoginsDefault = { -brand-short-name } yazılımının kullanıcı adı ve parolaları kaydetmeyi önermesi için varsayılan değeri ayarla. true veya false olarak ayarlanabilir.
 policy-OverrideFirstRunPage = İlk açılış sayfasını değiştir. İlk açılış sayfasını devre dışı bırakmak istiyorsanız bu ilkeyi boş olarak ayarlayın.
 policy-OverridePostUpdatePage = Güncelleme sonrası “Yenilikler” sayfasını değiştir. Güncelleme sonrası sayfasını devre dışı bırakmak istiyorsanız bu ilkeyi boş olarak ayarlayabilirsiniz.
-policy-PasswordManagerEnabled = Parolaları parola yöneticisine kaydetmeyi aç.
+policy-PasswordManagerEnabled = Parolaları parola yöneticisine kaydetmeyi etkinleştir.
 # PDF.js and PDF should not be translated
 policy-PDFjs = Dahili { -brand-short-name } PDF görüntüleyicisi olan PDF.js’i devre dışı bırak veya yapılandır.
 policy-Permissions2 = Kamera, mikrofon, konum, bildirim ve otomatik oynatma izinlerini yapılandır.

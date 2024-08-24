@@ -184,10 +184,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Anahtar yöneticisi
     .accesskey = n
-openpgp-key-issue-notification-one = Uçtan uca şifreleme için { $addr } anahtar sorunlarını çözmeniz gerekiyor
-openpgp-key-issue-notification-many = Uçtan uca şifreleme için { $count } alıcının anahtar sorunlarını çözmeniz gerekiyor.
-smime-cert-issue-notification-one = Uçtan uca şifreleme için { $addr } sertifika sorunlarını çözmeniz gerekiyor.
-smime-cert-issue-notification-many = Uçtan uca şifreleme için { $count } alıcının sertifika sorunlarını çözmeniz gerekiyor.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -275,12 +271,6 @@ show-bcc-row-button = Bcc
     .title = Bcc alanını göster ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Gösterilecek diğer adres alanları
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] İletinizin görünür bir alıcısı var. Bunun yerine Bcc’yi kullanarak alıcıların açığa çıkmasını önleyebilirsiniz.
-       *[other] Kime ve Cc alanlarındaki { $count } alıcı birbirlerinin adresini görebilecek. Bunun yerine Bcc kullanarak alıcıları göstermekten kaçınabilirsiniz.
-    }
 public-recipients-notice-single = İletinizin herkese açık bir alıcısı var. Bunun yerine Bcc’yi kullanarak alıcıyı herkesin görmesini önleyebilirsiniz.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -422,3 +412,5 @@ link-preview-yes-replace = Evet
 spell-add-dictionaries =
     .label = Sözlük ekle…
     .accesskey = S
+subject-encription-icon =
+    .title = Konu şifrelenmez

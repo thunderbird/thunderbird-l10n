@@ -2,4 +2,4 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-remember-password-checkbox-label = Bu parolayı hatırlamak için parola yöneticisi kullan.
+remember-password-checkbox-label = Bu parolayı hatırlamak için parola yöneticisini kullan.
