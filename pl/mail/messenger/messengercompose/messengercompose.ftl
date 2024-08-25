@@ -189,20 +189,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Menedżer kluczy
     .accesskey = d
-openpgp-key-issue-notification-one = Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $addr }
-openpgp-key-issue-notification-many =
-    { $count ->
-        [one] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $count } odbiorcy.
-        [few] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $count } odbiorców.
-       *[many] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z kluczami dla { $count } odbiorców.
-    }
-smime-cert-issue-notification-one = Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $addr }.
-smime-cert-issue-notification-many =
-    { $count ->
-        [one] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $count } odbiorcy.
-        [few] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $count } odbiorców.
-       *[many] Szyfrowanie typu „end-to-end” wymaga rozwiązania problemów z certyfikatami dla { $count } odbiorców.
-    }
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -292,13 +278,6 @@ show-bcc-row-button = Ukryta kopia
     .title = Pokaż pole „Ukryta kopia” ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Pozostałe pola adresowania
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Wiadomość ma publicznego odbiorcę. Można uniknąć ujawniania odbiorców, używając zamiast tego pola Ukryta kopia.
-        [few] { $count } odbiorców w polach Do i Kopia będzie widzieć swoje adresy. Można uniknąć ujawniania odbiorców, używając zamiast tego pola Ukryta kopia.
-       *[many] { $count } odbiorców w polach Do i Kopia będzie widzieć swoje adresy. Można uniknąć ujawniania odbiorców, używając zamiast tego pola Ukryta kopia.
-    }
 public-recipients-notice-single = Wiadomość ma publicznego odbiorcę. Można uniknąć ujawniania odbiorcy, używając zamiast tego pola Ukryta kopia.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -443,3 +422,5 @@ link-preview-yes-replace = Tak
 spell-add-dictionaries =
     .label = Dodaj słowniki…
     .accesskey = D
+subject-encription-icon =
+    .title = Temat nie zostanie zaszyfrowany
