@@ -59,6 +59,8 @@ account-setup-button-manual-config = Наладзіць уручную
     .accesskey = Н
 account-setup-button-stop = Спыніць
     .accesskey = С
+account-setup-button-retest = Пратэсціраваць яшчэ раз
+    .accesskey = П
 account-setup-button-continue = Працягнуць
     .accesskey = П
 
@@ -67,6 +69,7 @@ account-setup-button-continue = Працягнуць
 account-setup-looking-up-settings = Пошук канфігурацыі…
 account-setup-looking-up-settings-guess = Пошук канфігурацыі: спроба выкарыстаць тыповыя імёны сервераў…
 account-setup-checking-password = Праверка пароля…
+account-setup-installing-addon = Спампаванне і ўсталёўка дадатка…
 account-setup-success-addon = Дадатак паспяхова усталяваны
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Знойдзена канфігурацыя ў базе даных ISP Mozilla.
@@ -85,6 +88,7 @@ account-setup-step4-image =
 account-setup-step5-image =
     .title = Уліковы запіс створаны
 account-setup-privacy-footnote2 = Вашы ўліковыя даныя будуць захоўвацца лакальна на вашым камп'ютары.
+account-setup-documentation-help = Дакументацыя па ўсталёўцы
 account-setup-forum-help = Форум падтрымкі
 account-setup-privacy-help = Палітыка прыватнасці
 
@@ -118,6 +122,7 @@ account-setup-incoming-server-legend = Сервер уваходнай пошт�
 account-setup-protocol-label = Пратакол:
 account-setup-port-label = Порт:
     .title = Задайце 0 для аўтаматычнага выяўлення
+account-setup-ssl-label = Абарона злучэння:
 account-setup-outgoing-server-legend = Сервер выходнай пошты
 
 ## Incoming/Outgoing SSL Authentication options
