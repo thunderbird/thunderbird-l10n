@@ -90,6 +90,16 @@ account-setup-privacy-help = Палітыка прыватнасці
 
 ## Results area
 
+# Variables:
+#  $count (Number) - Number of available protocols.
+account-setup-results-area-title =
+    { $count ->
+        [one] Даступная канфігурацыя
+        [few] Даступныя канфігурацыі
+       *[many] Даступныя канфігурацыі
+    }
+account-setup-result-imap-description = Сінхранізаваць вашы папкі і электронную пошту з вашым серверам
+account-setup-result-pop-description = Трымаць вашы папкі і электронную пошту на вашым камп'ютары
 account-setup-username-title = Імя карыстальніка
 account-setup-exchange-title = Сервер
 account-setup-result-no-encryption = Без шыфравання
@@ -99,9 +109,11 @@ account-setup-result-outgoing-existing = Выкарыстоўваць існую
 
 ## Error messages
 
+account-setup-credentials-wrong = Не атрымалася аўтэнтыфікавацца. Калі ласка, праверце імя карыстальніка і пароль
 
 ## Manual configuration area
 
+account-setup-manual-config-title = Ручная канфігурацыя
 account-setup-incoming-server-legend = Сервер уваходнай пошты
 account-setup-protocol-label = Пратакол:
 account-setup-port-label = Порт:
