@@ -425,3 +425,5 @@ link-preview-yes-replace = Áno
 spell-add-dictionaries =
     .label = Pridať slovníky…
     .accesskey = P
+subject-encription-icon =
+    .title = Predmet nebude zašifrovaný
