@@ -110,6 +110,10 @@ attachment-area-show =
     .title = Näytä liitepaneeli ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 attachment-area-hide =
     .title = Piilota liitepaneeli ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
 drop-file-label-attachment =
     { $count ->
         [one] Lisää liitteenä
@@ -176,10 +180,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Avainhallinta
     .accesskey = H
-openpgp-key-issue-notification-one = Päästä päähän -salaus edellyttää avainongelmien ratkaisemista vastaanottajan { $addr } osalta
-openpgp-key-issue-notification-many = Päästä päähän -salaus edellyttää { $count } vastaanottajan avainongelmien ratkaisemista.
-smime-cert-issue-notification-one = Päästä päähän -salaus edellyttää varmenneongelmien ratkaisemista vastaanottajan { $addr } osalta
-smime-cert-issue-notification-many = Päästä päähän -salaus edellyttää { $count } vastaanottajan varmenneongelmien ratkaisemista.
 key-notification-disable-encryption =
     .label = Älä salaa
     .accesskey = D
@@ -243,12 +243,6 @@ show-bcc-row-button = Piilokopio
     .title = Näytä piilokopiokenttä ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Muut näytettävät osoitekentät
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Viestilläsi on julkinen vastaanottaja. Voit välttää vastaanottajien paljastamisen käyttämällä sen sijaan piilokopiota.
-       *[other] Vastaanottaja- ja kopio-kenttien { $count } vastaanottajaa näkevät toistensa osoitteet. Voit välttää vastaanottajien paljastamisen käyttämällä sen sijaan piilokopiota.
-    }
 many-public-recipients-bcc =
     .label = Käytä sen sijaan piilokopiota (Bcc)
     .accesskey = K
@@ -292,6 +286,8 @@ compose-tool-button-remove-text-styling =
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
 cloud-file-count-header =
     { $count ->
         [one] Olen linkittänyt { $count } tiedoston tähän sähköpostiin:
@@ -319,19 +315,24 @@ cloud-file-template-download-limit = Latausraja:
 
 # Messages
 
-# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error-title = Yhteysvirhe
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = { -brand-short-name } on offline-tilassa. Ei voitu muodostaa yhteyttä palveluun { $provider }.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was uploaded and caused the error
 cloud-file-upload-error-with-custom-message-title = { $tiedostonimen } lähettäminen palveluun { $provider } epäonnistui
+cloud-file-rename-error-title = Uudelleennimeämisvirhe
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
-cloud-file-rename-error-title = Uudelleennimeämisvirhe
 cloud-file-rename-error = Tiedoston { $filename } uudelleennimeämisessä { $provider }-palvelussa oli ongelma.
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = Tiedoston { $filename } uudelleennimeäminen palvelussa { $provider } epäonnistui
+# Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } ei tue jo ladattujen tiedostojen uudelleennimeämistä.
 
@@ -348,3 +349,5 @@ link-preview-yes-replace = Kyllä
 spell-add-dictionaries =
     .label = Lisää sanastoja…
     .accesskey = A
+subject-encription-icon =
+    .title = Aihetta ei salata
