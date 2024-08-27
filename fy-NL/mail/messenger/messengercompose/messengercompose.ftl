@@ -184,10 +184,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Kaaibehearder
     .accesskey = h
-openpgp-key-issue-notification-one = End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $addr }
-openpgp-key-issue-notification-many = End-to-end-fersifering fereasket it oplossen fan kaaiproblemen foar { $count } ûntfangers.
-smime-cert-issue-notification-one = End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $addr }
-smime-cert-issue-notification-many = End-to-end-fersifering fereasket it oplossen fan sertifikaatproblemen foar { $count } ûntfangers.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -275,12 +271,6 @@ show-bcc-row-button = Bcc
     .title = Bcc-fjild toane ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Oare te toanen adresfjilden
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Jo berjocht hat in iepenbiere ûntfanger. Jo kinne foarkomme dat ûntfangers toand wurde troch yn stee hjirfan Bcc te brûken.
-       *[other] De { $count } ûntfangers yn Oan en Cc sille de adressen fan de oaren sjen. Jo kinne foarkomme dat ûntfangers toand wurde troch yn stee hjirfan Bcc te brûken.
-    }
 public-recipients-notice-single = Jo berjocht hat in iepenbiere ûntfanger. Jo kinne foarkomme dat de ûntfanger bekend makke wurdt troch yn stee derfan Bcc te brûken.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -422,3 +412,5 @@ link-preview-yes-replace = Ja
 spell-add-dictionaries =
     .label = Wurdboeken tafoegje…
     .accesskey = t
+subject-encription-icon =
+    .title = Underwerp wurdt net fersifere
