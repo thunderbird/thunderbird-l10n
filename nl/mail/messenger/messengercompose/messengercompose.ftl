@@ -184,10 +184,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Sleutelbeheerder
     .accesskey = h
-openpgp-key-issue-notification-one = End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $addr }
-openpgp-key-issue-notification-many = End-to-end-versleuteling vereist het oplossen van sleutelproblemen voor { $count } ontvangers.
-smime-cert-issue-notification-one = End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $addr }.
-smime-cert-issue-notification-many = End-to-end-versleuteling vereist het oplossen van certificaatproblemen voor { $count } ontvangers.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -275,12 +271,6 @@ show-bcc-row-button = Bcc
     .title = Bcc-veld tonen ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Andere te tonen adresvelden
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Uw bericht heeft een openbare ontvanger. U kunt voorkomen dat ontvangers worden onthuld door in plaats hiervan Bcc te gebruiken.
-       *[other] De { $count } ontvangers in Aan en Cc zullen elkaars adres zien. U kunt voorkomen dat ontvangers worden onthuld door in plaats hiervan Bcc te gebruiken.
-    }
 public-recipients-notice-single = Uw bericht heeft een openbare ontvanger. U kunt voorkomen dat de ontvanger bekend wordt gemaakt door in plaats daarvan Bcc te gebruiken.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -422,3 +412,5 @@ link-preview-yes-replace = Ja
 spell-add-dictionaries =
     .label = Woordenboeken toevoegen…
     .accesskey = t
+subject-encription-icon =
+    .title = Onderwerp wordt niet versleuteld
