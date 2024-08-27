@@ -412,3 +412,5 @@ link-preview-yes-replace = Po
 spell-add-dictionaries =
     .label = Shtoni Fjalorë…
     .accesskey = F
+subject-encription-icon =
+    .title = Subjekti s’do të fshehtëzohet
