@@ -64,6 +64,8 @@ account-setup-button-retest = Пратэсціраваць яшчэ раз
     .accesskey = П
 account-setup-button-continue = Працягнуць
     .accesskey = П
+account-setup-button-done = Гатова
+    .accesskey = Г
 
 ## Notifications
 
@@ -89,6 +91,8 @@ account-setup-step4-image =
 account-setup-step5-image =
     .title = Уліковы запіс створаны
 account-setup-privacy-footnote2 = Вашы ўліковыя даныя будуць захоўвацца лакальна на вашым камп'ютары.
+account-setup-selection-help = Не ведаеце, што выбраць?
+account-setup-selection-error = Патрэбна дапамога?
 account-setup-documentation-help = Дакументацыя па ўсталёўцы
 account-setup-forum-help = Форум падтрымкі
 account-setup-privacy-help = Палітыка прыватнасці
