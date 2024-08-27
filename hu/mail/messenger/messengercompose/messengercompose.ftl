@@ -410,3 +410,5 @@ link-preview-yes-replace = Igen
 spell-add-dictionaries =
     .label = Szótárak hozzáadása…
     .accesskey = a
+subject-encription-icon =
+    .title = A tárgy nem lesz titkosítva
