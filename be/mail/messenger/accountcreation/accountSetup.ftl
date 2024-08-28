@@ -128,11 +128,13 @@ account-setup-incoming-server-legend = Сервер уваходнай пошт�
 account-setup-protocol-label = Пратакол:
 account-setup-port-label = Порт:
     .title = Задайце 0 для аўтаматычнага выяўлення
+account-setup-auto-description = { -brand-short-name } паспрабуе аўтаматычна вызначыць значэнні палёў, якія пакінуты пустымі.
 account-setup-ssl-label = Абарона злучэння:
 account-setup-outgoing-server-legend = Сервер выходнай пошты
 
 ## Incoming/Outgoing SSL Authentication options
 
+ssl-autodetect-option = Аўтавызначэнне
 ssl-no-authentication-option = Без аўтэнтыфікацыі
 ssl-encrypted-password-option = Зашыфраваны пароль
 
@@ -141,10 +143,14 @@ ssl-encrypted-password-option = Зашыфраваны пароль
 ssl-noencryption-option = Няма
 account-setup-auth-label = Спосаб аўтэнтыфікацыі:
 account-setup-username-label = Імя карыстальніка:
+account-setup-advanced-setup-button = Пашыраная канфігурацыя
+    .accesskey = П
 
 ## Warning insecure server dialog
 
 account-setup-insecure-title = Увага!
+account-setup-insecure-incoming-title = Налады ўваходнай пошты:
+account-setup-insecure-outgoing-title = Налады выходнай пошты:
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> не выкарыстоўвае шыфраванне.
