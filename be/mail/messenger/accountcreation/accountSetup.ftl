@@ -119,6 +119,7 @@ account-setup-result-outgoing-existing = Выкарыстоўваць існую
 ## Error messages
 
 account-setup-credentials-wrong = Не атрымалася аўтэнтыфікавацца. Калі ласка, праверце імя карыстальніка і пароль
+account-setup-find-settings-failed = У { -brand-short-name } не атрымалася знайсці налады для вашага ўліковага запісу электроннай пошты
 
 ## Manual configuration area
 
