@@ -220,6 +220,8 @@ account-setup-calendars-button = Календары
 account-setup-connect-link = Падлучыць
 account-setup-existing-address-book = Падлучана
     .title = Адрасная кніга ўжо падлучана
+account-setup-existing-calendar = Падлучаны
+    .title = Каляндар ўжо падлучаны
 account-setup-connect-all-calendars = Падлучыць усе календары
 account-setup-connect-all-address-books = Падлучыць усе адрасныя кнігі
 
