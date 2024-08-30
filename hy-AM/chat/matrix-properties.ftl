@@ -59,6 +59,8 @@ power-level-custom = Հարմարեցված
 power-level-detailed = { $powerLevelName } ({ $powerLevelNumber })
 #    $powerLevelName is the power level name
 power-level-default-role = Կանխադրված դերը՝ { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-room-name = Փոխել սենյակի անունը՝ { $powerLevelName }
 # LOCALIZATION NOTE (detail-*):
 #    These are the string representations of different matrix properties.
 #    $value will typically be strings with the actual values.

@@ -5,6 +5,9 @@
 
 ## Message List Header Bar
 
+quick-filter-button-label = Արագ զտիչ
+thread-pane-header-display-button =
+    .title = Հաղորդագրությունների ցանկի ցուցադրման ընտրանքներ
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -21,6 +24,8 @@ thread-pane-folder-selected-count =
     }
 thread-pane-header-context-table-view =
     .label = Աղյուսակի տեսք
+thread-pane-header-context-cards-view =
+    .label = Քարտերի տեսք
 thread-pane-header-context-hide =
     .label = Թաքցնել հաղորդագրությունների ցանկի վերնագիրը
 
@@ -220,10 +225,16 @@ threadpane-column-header-flagged =
     .title = Տեսակավորել ըստ՝ աստղի
 threadpane-column-label-flagged =
     .label = Աստղով
+threadpane-cell-flagged =
+    .aria-label = Աստղով
+threadpane-flagged-cell-label = Աստղով
 threadpane-column-header-attachments =
     .title = Տեսակավորել ըստ՝ կցորդների
 threadpane-column-label-attachments =
     .label = Կցորդներ
+threadpane-cell-attachments =
+    .aria-label = Կցորդներ
+threadpane-attachments-cell-label = Կցորդներ
 threadpane-column-label-spam =
     .label = Սպամ
 threadpane-cell-spam =
