@@ -4,6 +4,8 @@
 
 e2e-intro-description = Para enviar mensaxes cifradas ou asinadas dixitalmente, cómpre configurar unha tecnoloxía de cifrado, pode ser OpenPGP ou S/MIME.
 e2e-intro-description-more = Seleccione a súa chave persoal para activar o uso de OpenPGP ou o seu certificado persoal para activar o uso de S/MIME. Debe posuír a correspondente chave secreta da chave persoal ou do certificado.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Para obter un novo certificado S/MIME persoal, xera unha solicitude de sinatura de certificado (CSR) e envíaa a unha autoridade de certificación (CA).
 e2e-signing-description = Unha sinatura dixital permite aos destinatarios verificar que a mensaxe foi enviada por vostede e que non se modificou o seu contido. As mensaxes cifradas sempre están asinadas por defecto.
 e2e-sign-message =
     .label = Asinar as mensaxes sen cifrar
