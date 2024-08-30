@@ -107,7 +107,7 @@ openpgp-key-man-import-from-clipbrd =
     .label = Kulcsok importálása a vágólapról
     .accesskey = i
 openpgp-key-man-import-from-url =
-    .label = Kulcsok importálása URL-ből
+    .label = Kulcsok importálása webcímről
     .accesskey = U
 openpgp-key-man-export-to-file =
     .label = Nyilvános kulcsok exportálása fájlba
@@ -501,7 +501,7 @@ import-info-no-keys = Nem lett kulcs importálva.
 ## Strings in enigmailKeyManager.js
 
 import-from-clip = Szeretne kulcsokat importálni a vágólapról?
-import-from-url = Nyilvános kulcsok letöltése erről az URL-ről:
+import-from-url = Nyilvános kulcsok letöltése erről a webcímről:
 copy-to-clipbrd-failed = A kiválasztott kulcsok nem másolhatók a vágólapra.
 copy-to-clipbrd-ok = Kulcsok a vágólapra másolva
 # Variables:
@@ -648,9 +648,6 @@ no-key-found2 = Nem található olyan használható kulcs, amely megfelelne a ke
 no-update-found = Már megvannak az online felfedezett kulcsok.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
 
 
 ## Strings used in keyRing.sys.mjs

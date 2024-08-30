@@ -334,7 +334,7 @@
 
 <!-- Calendar Publish Dialog -->
 <!ENTITY calendar.publish.dialog.title              "Naptár közzététele">
-<!ENTITY calendar.publish.url.label                 "Közzétételi hely (URL)">
+<!ENTITY calendar.publish.url.label                 "Közzétételi webcím">
 <!ENTITY calendar.publish.publish.button      "Közzététel">
 <!ENTITY calendar.publish.close.button      "Bezárás">
 

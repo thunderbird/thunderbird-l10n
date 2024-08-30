@@ -125,7 +125,7 @@ remove-search-engine =
     .label = Eltávolítás
     .accesskey = E
 add-opensearch-provider-title = OpenSearch szolgáltató hozzáadása
-add-opensearch-provider-text = Adja meg a hozzáadandó OpenSearch szolgáltató URL-jét. Használja az OpenSearch leírófájl közvetlen URL-jét, vagy adjon meg URL-t, ahonnan automatikusan felderíthető.
+add-opensearch-provider-text = Adja meg a hozzáadandó OpenSearch szolgáltató webcímét. Használja az OpenSearch leírófájl közvetlen webcímét, vagy adjon meg olyan webcímet, ahonnan automatikusan felderíthető.
 adding-opensearch-provider-failed-title = Az OpenSearch szolgáltató hozzáadása sikertelen
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.

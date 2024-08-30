@@ -861,11 +861,11 @@
 <!ENTITY CopyNameAndEmailAddress.accesskey "N">
 <!ENTITY CopyNewsgroupName.label "Hírcsoportnév másolása">
 <!ENTITY CopyNewsgroupName.accesskey "H">
-<!ENTITY CopyNewsgroupURL.label "Hírcsoport URL másolása">
-<!ENTITY CopyNewsgroupURL.accesskey "U">
+<!ENTITY CopyNewsgroupURL.label "Hírcsoport webcímének másolása">
+<!ENTITY CopyNewsgroupURL.accesskey "w">
 <!ENTITY CreateFilterFrom.label "Szűrő létrehozása…">
 <!ENTITY CreateFilterFrom.accesskey "S">
-<!ENTITY reportPhishingURL.label "E-mail csalás jelentése">
+<!ENTITY reportPhishingURL.label "E-mailes csalás jelentése">
 <!ENTITY reportPhishingURL.accesskey "c">
 
 <!-- Spell checker context menu items -->

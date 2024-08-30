@@ -40,7 +40,7 @@
 
 <!ENTITY calendartype.label "Naptár típusa:">
 <!ENTITY location.label "Hely:">
-<!ENTITY location.placeholder "A naptár-kiszolgáló URL-e vagy gépneve">
+<!ENTITY location.placeholder "A naptár-kiszolgáló webcíme vagy gépneve">
 
 <!ENTITY network.nocredentials.label "Ez a hely nem igényel hitelesítő adatokat">
 <!ENTITY network.loading.description "Várjon amíg a naptárai felfedezésre kerülnek.">

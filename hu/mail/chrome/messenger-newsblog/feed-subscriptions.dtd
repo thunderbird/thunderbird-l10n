@@ -9,11 +9,11 @@
 <!ENTITY feedTitle.label             "Cím:">
 <!ENTITY feedTitle.accesskey         "C">
 
-<!ENTITY feedLocation.label          "Hírforrás URL:">
+<!ENTITY feedLocation.label          "Hírforrás webcíme:">
 <!ENTITY feedLocation.accesskey      "H">
-<!ENTITY feedLocation2.placeholder   "Adjon meg érvényes hírforrást">
+<!ENTITY feedLocation2.placeholder   "Adjon meg érvényes hírforráscímet">
 <!ENTITY locationValidate.label      "Ellenőrzés">
-<!ENTITY validateText.label          "Ellenőrzés és érvényes URL lekérése.">
+<!ENTITY validateText.label          "Ellenőrzés és érvényes webcím letöltése.">
 
 <!ENTITY feedFolder.label            "Letöltött cikkek tárolása:">
 <!ENTITY feedFolder.accesskey        "L">
