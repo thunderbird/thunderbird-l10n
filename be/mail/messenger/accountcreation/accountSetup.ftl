@@ -73,21 +73,26 @@ account-setup-looking-up-settings = Пошук канфігурацыі…
 account-setup-looking-up-settings-guess = Пошук канфігурацыі: спроба выкарыстаць тыповыя імёны сервераў…
 account-setup-looking-up-settings-half-manual = Пошук канфігурацыі: праверка сервера…
 account-setup-looking-up-disk = Пошук канфігурацыі: усталяванне { -brand-short-name }…
-account-setup-looking-up-isp = Пошук канфігурацыі: пастаўшчык паслуг электроннай пошты
+account-setup-looking-up-isp = Пошук канфігурацыі: пастаўшчык паслуг электроннай пошты…
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-looking-up-db = Пошук канфігурацыі: база даных Mozilla ISP…
 account-setup-looking-up-mx = Пошук канфігурацыі: дамен уваходнай пошты…
+account-setup-looking-up-exchange = Пошук канфігурацыі: сервер Exchange…
 account-setup-checking-password = Праверка пароля…
 account-setup-installing-addon = Спампаванне і ўсталёўка дадатка…
+account-setup-success-half-manual = Наступныя налады былі знойдзены падчас праверкі дадзенага сервера:
 account-setup-success-addon = Дадатак паспяхова усталяваны
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Знойдзена канфігурацыя ў базе даных ISP Mozilla.
+account-setup-success-settings-disk = Знойдзена канфігурацыя ў усталёўцы { -brand-short-name }.
 account-setup-success-settings-isp = Знойдзена канфігурацыя ў пастаўшчыка паслуг электроннай пошты.
 # Note: Microsoft Exchange is a product name.
 account-setup-success-settings-exchange = Знойдзена канфігурацыя для сервера Microsoft Exchange.
 
 ## Illustrations
 
+account-setup-step1-image =
+    .title = Пачатковае наладжванне
 account-setup-step2-image =
     .title = Загрузка…
 account-setup-step3-image =
@@ -99,6 +104,7 @@ account-setup-step5-image =
 account-setup-privacy-footnote2 = Вашы ўліковыя даныя будуць захоўвацца лакальна на вашым камп'ютары.
 account-setup-selection-help = Не ведаеце, што выбраць?
 account-setup-selection-error = Патрэбна дапамога?
+account-setup-success-help = Не ведаеце, што рабіць далей?
 account-setup-documentation-help = Дакументацыя па ўсталёўцы
 account-setup-forum-help = Форум падтрымкі
 account-setup-privacy-help = Палітыка прыватнасці
@@ -118,12 +124,18 @@ account-setup-result-imap-description = Сінхранізуйце вашы па
 account-setup-result-pop-description = Трымайце вашы папкі і электронную пошту на вашым камп'ютары
 # Note: Exchange, Office365 are the name of products.
 account-setup-result-exchange2-description = Выкарыстоўвайце сервер Microsoft Exchange або воблачныя службы Office365
+account-setup-incoming-title = Сервер уваходнай пошты
+account-setup-outgoing-title = Сервер выходнай пошты
 account-setup-username-title = Імя карыстальніка
 account-setup-exchange-title = Сервер
 account-setup-result-no-encryption = Без шыфравання
 account-setup-result-ssl = SSL/TLS
 account-setup-result-starttls = STARTTLS
 account-setup-result-outgoing-existing = Выкарыстоўваць існуючы сервер выходнай пошты (SMTP)
+# Variables:
+#  $incoming (String): The email/username used to log into the incoming server
+#  $outgoing (String): The email/username used to log into the outgoing server
+account-setup-result-username-different = Сервер уваходнай пошты: { $incoming }, сервер выходнай пошты: { $outgoing }
 
 ## Error messages
 
@@ -145,6 +157,7 @@ account-setup-outgoing-server-legend = Сервер выходнай пошты
 
 ssl-autodetect-option = Аўтавызначэнне
 ssl-no-authentication-option = Без аўтэнтыфікацыі
+ssl-cleartext-password-option = Звычайны пароль
 ssl-encrypted-password-option = Зашыфраваны пароль
 
 ## Incoming/Outgoing SSL options
@@ -205,6 +218,8 @@ account-setup-looking-up-calendars = Пошук календароў…
 account-setup-address-books-button = Адрасныя кнігі
 account-setup-calendars-button = Календары
 account-setup-connect-link = Падлучыць
+account-setup-existing-address-book = Падлучана
+    .title = Адрасная кніга ўжо падлучана
 account-setup-connect-all-calendars = Падлучыць усе календары
 account-setup-connect-all-address-books = Падлучыць усе адрасныя кнігі
 
