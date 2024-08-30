@@ -71,6 +71,12 @@ account-setup-button-done = Гатова
 
 account-setup-looking-up-settings = Пошук канфігурацыі…
 account-setup-looking-up-settings-guess = Пошук канфігурацыі: спроба выкарыстаць тыповыя імёны сервераў…
+account-setup-looking-up-settings-half-manual = Пошук канфігурацыі: праверка сервера…
+account-setup-looking-up-disk = Пошук канфігурацыі: усталяванне { -brand-short-name }…
+account-setup-looking-up-isp = Пошук канфігурацыі: пастаўшчык паслуг электроннай пошты
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-looking-up-db = Пошук канфігурацыі: база даных Mozilla ISP…
+account-setup-looking-up-mx = Пошук канфігурацыі: дамен уваходнай пошты…
 account-setup-checking-password = Праверка пароля…
 account-setup-installing-addon = Спампаванне і ўсталёўка дадатка…
 account-setup-success-addon = Дадатак паспяхова усталяваны
@@ -96,6 +102,7 @@ account-setup-selection-error = Патрэбна дапамога?
 account-setup-documentation-help = Дакументацыя па ўсталёўцы
 account-setup-forum-help = Форум падтрымкі
 account-setup-privacy-help = Палітыка прыватнасці
+account-setup-getting-started = Пачатак працы
 
 ## Results area
 
@@ -107,8 +114,10 @@ account-setup-results-area-title =
         [few] Даступныя канфігурацыі
        *[many] Даступныя канфігурацыі
     }
-account-setup-result-imap-description = Сінхранізаваць вашы папкі і электронную пошту з вашым серверам
-account-setup-result-pop-description = Трымаць вашы папкі і электронную пошту на вашым камп'ютары
+account-setup-result-imap-description = Сінхранізуйце вашы папкі і электронную пошту з вашым серверам
+account-setup-result-pop-description = Трымайце вашы папкі і электронную пошту на вашым камп'ютары
+# Note: Exchange, Office365 are the name of products.
+account-setup-result-exchange2-description = Выкарыстоўвайце сервер Microsoft Exchange або воблачныя службы Office365
 account-setup-username-title = Імя карыстальніка
 account-setup-exchange-title = Сервер
 account-setup-result-no-encryption = Без шыфравання
