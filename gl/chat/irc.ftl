@@ -16,6 +16,7 @@ connection-error-time-out = Tempo de espera da conexión esgotado
 connection-error-invalid-username = Non se permite o nome de usuario { $username }.
 connection-error-invalid-password = Contrasinal do servidor incorrecto
 connection-error-password-required = Requiriuse o contrasinal
+connection-error-invalid-user-password = Contrasinal non válido
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Canle

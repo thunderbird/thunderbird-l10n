@@ -188,9 +188,51 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Marcar como lido
+    .tooltiptext = Marcar como lido
+context-menu-mark-unread =
+    .aria-label = Marcar como non lido
+    .tooltiptext = Marcar como non lido
+context-menu-mark-reply =
+    .aria-label = Responder
+    .tooltiptext = Responder
+context-menu-archive =
+    .aria-label = Arquivar
+    .tooltiptext = Arquivar
+context-menu-mark-junk =
+    .aria-label = Marcar como lixo
+    .tooltiptext = Marcar como lixo
+mail-context-menu-open =
+    .label = Abrir
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Responder
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = Reenviar e redirixir
+    .accesskey = F
 mail-context-menu-forward-forward =
     .label = Reenviar
     .accesskey = r
+mail-context-menu-forward-inline =
+    .label = Inserida
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Como adxunto
+           *[other] Como adxuntos
+        }
+    .accesskey = A
+mail-context-menu-organize =
+    .label = Organizar
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Fíos
+    .accesskey = T
 context-menu-redirect-msg =
     .label = Redirixir
 # This menu item is for canceling an NNTP message
@@ -212,6 +254,24 @@ mail-context-undelete-messages =
             [one] Restaurar mensaxe
            *[other] Restaurar as mensaxes seleccionadas
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Eliminar a mensaxe
+           *[other] Eliminar as mensaxes seleccionadas
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Restaurar a mensaxe
+           *[other] Restaurar as mensaxes seleccionadas
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Crear unha copia descifrada en
     .accesskey = C
@@ -399,7 +459,7 @@ quick-filter-bar-toggle =
     .label = Barra de filtro rápido
     .accesskey = B
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
