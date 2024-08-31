@@ -16,6 +16,7 @@ connection-error-time-out = S'ha esgotat el temps d'espera de la connexió
 connection-error-invalid-username = «{ $username }» no és un nom d'usuari permès.
 connection-error-invalid-password = La contrasenya del servidor no és vàlida
 connection-error-password-required = Es requereix una contrasenya
+connection-error-invalid-user-password = Contrasenya incorrecta
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Canal
