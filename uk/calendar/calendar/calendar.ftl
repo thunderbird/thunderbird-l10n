@@ -101,14 +101,6 @@ html-title = Mozilla Calendar
 # used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
 #    $filePath will be replaced with the path to a file
 timezone-error = Під час зчитування { $filePath } знайдено невідомий і невизначений часовий пояс.
-# LOCALIZATION NOTE (duplicate-error):
-#    $count will be replaced with number of duplicate items
-#    $filePath will be replaced with a file path pointing to a calendar
-duplicate-error =
-    { $count ->
-        [one] { $count } елемент(ів) проігноровано, бо вони існують і у кінцевому календарі і у { $filePath }.
-       *[other] { $count } елемент(ів) проігноровано, бо вони існують і у кінцевому календарі і у { $filePath }.
-    }
 # $location unknown calendar location
 unable-to-create-provider = При підготовці календаря з { $location } для використання виникла помилка. Він буде недоступний.
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
@@ -655,30 +647,32 @@ extract-using = Використання { $languageName }
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = Використання { $languageName } ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [one] { $count } хвилина
         [few] { $count } хвилини
        *[many] { $count } хвилин
     }
-# $count count
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [one] { $count } година
         [few] { $count } години
        *[many] { $count } годин
     }
-# $count count
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [one] { $count } день
         [few] { $count } дні
        *[many] { $count } днів
     }
-# $count count
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
         [one] { $count } тиждень
