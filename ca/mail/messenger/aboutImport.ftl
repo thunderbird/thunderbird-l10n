@@ -66,8 +66,13 @@ profiles-pane-title-seamonkey = Importa els paràmetres i les dades d'un perfil 
 profiles-pane-title-outlook = Importa les dades de l'{ app-name-outlook }.
 profiles-pane-title-becky = Importa les dades del { app-name-becky }.
 profiles-pane-title-apple-mail = Importa els missatges de l'{ app-name-apple-mail }.
+profile-source = Importa d'un perfil
+# $profileName (string) - name of the profile
+profile-source-named = Importa del perfil <strong>«{ $profileName }»</strong>
 profile-file-picker-directory = Trieu una carpeta de perfil
 profile-file-picker-archive = Trieu un fitxer <strong>zip</strong>
+profile-file-picker-archive-description = El fitxer ZIP ha de tenir una mida inferior a 2 GB.
+profile-file-picker-archive-title = Trieu un fitxer ZIP (menys de 2 GB)
 items-pane-title2 = Trieu què voleu importar:
 items-pane-directory = Directori:
 items-pane-profile-name = Nom del perfil:
