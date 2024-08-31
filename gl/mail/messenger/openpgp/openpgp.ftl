@@ -6,6 +6,24 @@ e2e-intro-description = Para enviar mensaxes cifradas ou asinadas dixitalmente, 
 e2e-intro-description-more = Seleccione a súa chave persoal para activar o uso de OpenPGP ou o seu certificado persoal para activar o uso de S/MIME. Debe posuír a correspondente chave secreta da chave persoal ou do certificado.
 # Do not translate: S/MIME, CSR, CA
 e2e-csr-intro = Para obter un novo certificado S/MIME persoal, xera unha solicitude de sinatura de certificado (CSR) e envíaa a unha autoridade de certificación (CA).
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Xerar RSE
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Continuar
+# A label for a button that goes back one step
+e2e-csr-back = Atrás
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Xerar e gardar un ficheiro CSR como...
+# Do not translate: CSR
+e2e-csr-select-title = Algoritmo de RSE
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Incluír o enderezo de correo electrónico ({ $email }) en CSR (recomendado)
+# $file A filename
+e2e-csr-success = O CSR gardouse correctamente en { $file }
+# $file A filename
+e2e-csr-failure = Non se puido gardar o CSR no ficheiro { $file }
 e2e-signing-description = Unha sinatura dixital permite aos destinatarios verificar que a mensaxe foi enviada por vostede e que non se modificou o seu contido. As mensaxes cifradas sempre están asinadas por defecto.
 e2e-sign-message =
     .label = Asinar as mensaxes sen cifrar
@@ -500,6 +518,7 @@ key-man-button-export-pub-key = Exportar só as chaves &públicas
 key-man-button-refresh-all = &Actualizar todas as chaves
 key-man-loading-keys = Cargando as chaves, agarde…
 ascii-armor-file = Ficheiros ASCII blindados (*.asc)
+text-file = Ficheiros de texto (*.txt)
 no-key-selected = Debería seleccionar polo menos unha chave para realizar a operación seleccionada
 export-to-file = Exportar a chave pública a un ficheiro
 export-keypair-to-file = Exportar a chave pública e chave secreta a un ficheiro
@@ -641,6 +660,7 @@ confirm-permissive-import = Fallou a importación. A chave que tenta importar po
 
 ## Strings used in trust.jsm
 
+help-button = Axuda
 
 ## Strings used in trust.sys.mjs
 
