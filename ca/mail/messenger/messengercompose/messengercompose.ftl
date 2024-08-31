@@ -411,3 +411,5 @@ link-preview-yes-replace = Sí
 spell-add-dictionaries =
     .label = Afegeix diccionaris…
     .accesskey = A
+subject-encription-icon =
+    .title = L'assumpte no es xifrarà

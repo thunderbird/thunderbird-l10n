@@ -16,6 +16,7 @@ accounts-default = Per defecte?
 identity-name = Identitat
 send-via-email = Envia per correu electrònic
 app-basics-telemetry = Dades de telemesura
+app-basics-glean = Dades de Glean
 app-basics-cache-use = Ús de la memòria cau
 mail-libs-title = Biblioteques
 libs-table-heading-library = Biblioteca
