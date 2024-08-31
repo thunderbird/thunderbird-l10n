@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Identificacións gardadas
-saved-logins-title = Identificacións gardadas
 window-close =
     .key = w
+saved-logins-title = Identificacións gardadas
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Verifique a súa identidade para revelar os co
 password-os-auth-dialog-message-macosx = revelar os contrasinais gardados
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] cambiar a configuración dos contrasinais
+       *[other] { -brand-short-name } está tentando cambiar a configuración dos contrasinais. Use o seu dispositivo para iniciar sesión para permitir isto.
+    }

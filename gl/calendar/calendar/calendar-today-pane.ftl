@@ -8,3 +8,5 @@ calendar-today-pane-show-tasks-only =
     .tooltiptext = Mostrar tarefas
 calendar-today-pane-show-events-only =
     .tooltiptext = Mostrar eventos
+calendar-today-pane-close-button =
+    .tooltiptext = Ocultar o panel de hoxe

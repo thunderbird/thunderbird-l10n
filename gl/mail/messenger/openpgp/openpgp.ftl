@@ -6,6 +6,8 @@ e2e-intro-description = Para enviar mensaxes cifradas ou asinadas dixitalmente, 
 e2e-intro-description-more = Seleccione a súa chave persoal para activar o uso de OpenPGP ou o seu certificado persoal para activar o uso de S/MIME. Debe posuír a correspondente chave secreta da chave persoal ou do certificado.
 # Do not translate: S/MIME, CSR, CA
 e2e-csr-intro = Para obter un novo certificado S/MIME persoal, xera unha solicitude de sinatura de certificado (CSR) e envíaa a unha autoridade de certificación (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Seleccione un directorio local e un nome de ficheiro para o seu ficheiro CSR e responda ás seguintes preguntas para configurar o algoritmo e a forza.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Xerar RSE
 # A label for a button that proceeds to the next step
@@ -17,6 +19,15 @@ e2e-csr-button =
     .label = Xerar e gardar un ficheiro CSR como...
 # Do not translate: CSR
 e2e-csr-select-title = Algoritmo de RSE
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Escolla entre RSA (recomendado) ou ECC como o seu algoritmo criptográfico para o novo certificado S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Escolla a súa forza criptográfica desexada (máis rápido con números máis baixos ou mellor seguridade con números máis altos) para o novo certificado S/MIME ou manteña a configuración predeterminada.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Xerarase unha nova chave secreta { $type } { $strength } na configuración de { -brand-short-name }. Este proceso pode levar algún tempo e provocar unha falta de resposta temporal; teña paciencia durante este paso. Mentres tanto, crearase o ficheiro de solicitude de sinatura de certificado (CSR), gardado como { $file }.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Incluír o enderezo de correo electrónico ({ $email }) en CSR (recomendado)
@@ -660,6 +671,9 @@ confirm-permissive-import = Fallou a importación. A chave que tenta importar po
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Algunhas das claves secretas importadas anuncian unha función non compatible. Se utiliza unha chave como a súa clave persoal, os correspondentes poden enviarlle correos electrónicos ou claves públicas nun formato incompatible. Isto afecta ás claves secretas importadas coas seguintes pegadas dixitais: { $fingerprints }.
 help-button = Axuda
 
 ## Strings used in trust.sys.mjs

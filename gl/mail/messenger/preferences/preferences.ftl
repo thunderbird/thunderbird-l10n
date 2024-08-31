@@ -571,6 +571,9 @@ primary-password-description = Un contrasinal principal protexe todos os seus co
 primary-password-label =
     .label = Usar un contrasinal principal
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Requirir o inicio de sesión no dispositivo para introducir e xestionar os contrasinais
 primary-password-button =
     .label = Cambiar o contrasinal principal...
     .accesskey = C

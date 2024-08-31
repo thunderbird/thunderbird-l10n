@@ -16,6 +16,7 @@ accounts-default = Predeterminado?
 identity-name = Identidade
 send-via-email = Enviar por correo electrónico
 app-basics-telemetry = Datos de telemetría
+app-basics-glean = Datos Glean
 app-basics-cache-use = Uso da memoria tobo
 mail-libs-title = Bibliotecas
 libs-table-heading-library = Biblioteca
