@@ -183,10 +183,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Administraziun da clavs
     .accesskey = m
-openpgp-key-issue-notification-one = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun la clav per { $addr }
-openpgp-key-issue-notification-many = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun la clav per { $count } destinaturs.
-smime-cert-issue-notification-one = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun il certificat per { $addr }.
-smime-cert-issue-notification-many = Per utilisar il criptadi da fin a fin èsi necessari da schliar ils problems cun il certificat per { $count } destinaturs.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -274,12 +270,6 @@ show-bcc-row-button = Bcc
     .title = Mussar il champ Bcc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Auters champs d'adressaziun da mussar
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Tes messadi ha in destinatur public. Ti pos evitar che destinaturs vegnian revelads cun utilisar il champ Bcc.
-       *[other] Ils { $count } destinaturs en ils champs A e Cc pon vesair l'adressa in da l'auter. Ti pos evitar che destinaturs vegnian revelads cun utilisar il champ Bcc.
-    }
 public-recipients-notice-single = Tes messadi ha in destinatur public. Igl è pussaivel dad evitar ch'il destinatur è visibel cun utilisar Bcc.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -421,3 +411,5 @@ link-preview-yes-replace = Gea
 spell-add-dictionaries =
     .label = Agiuntar dicziunaris…
     .accesskey = A
+subject-encription-icon =
+    .title = L’object na vegn betg criptà
