@@ -120,8 +120,10 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Фільтрувати ці повідомлення <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Фільтрувати повідомлення:
+quick-filter-bar-search2 =
+    .label = Фільтр повідомлень
+quick-filter-bar-searching =
+    .title = Пошук…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -541,3 +543,7 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Меню повідомлення
+message-list-placeholder-no-messages = Повідомлення не знайдено
+
+## Folder pane context menu
+

@@ -349,6 +349,7 @@ html-task-completed = { $task } (завершено)
 # Categories
 add-category = Додати категорію
 multiple-categories = Декілька категорій
+no-categories = Немає
 calendar-today = Сьогодні
 calendar-tomorrow = Завтра
 yesterday = Учора
@@ -655,6 +656,8 @@ unit-minutes =
         [few] { $count } хвилини
        *[many] { $count } хвилин
     }
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
 # Variables:
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
@@ -663,6 +666,8 @@ unit-hours =
         [few] { $count } години
        *[many] { $count } годин
     }
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
@@ -671,6 +676,8 @@ unit-days =
         [few] { $count } дні
        *[many] { $count } днів
     }
+event-duration-menuitem-count-days =
+    .label = { unit-days }
 # Variables:
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
@@ -679,6 +686,52 @@ unit-weeks =
         [few] { $count } тижні
        *[many] { $count } тижнів
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] хвилина
+            [few] хвилини
+           *[many] хвилин
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] година
+            [few] години
+           *[many] годин
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] день
+            [few] дні
+           *[many] днів
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] тиждень
+            [few] тижні
+           *[many] тижнів
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
