@@ -12,6 +12,8 @@ search-bar-button =
     .alt = Пошук
 search-bar-item =
     .label = Пошук:
+search-bar-item2 =
+    .label = Пошук
 search-bar-placeholder = Пошук…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -60,6 +62,9 @@ customize-save = Зберегти
 customize-unsaved-changes = Незбережені зміни в інших місцях
 customize-search-bar =
     .label = Шукати кнопки панелі інструментів…
+customize-search-bar2 =
+    .label = Кнопки панелі пошуку
+    .placeholder = Кнопки панелі пошуку…
 customize-spaces-tabs =
     .aria-label = Місця
 customize-main-toolbar-target =
