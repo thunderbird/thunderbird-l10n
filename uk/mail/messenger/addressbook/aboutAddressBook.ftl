@@ -8,6 +8,8 @@ about-addressbook-title = Адресна книга
 
 about-addressbook-toolbar-new-address-book =
     .label = Нова адресна книга
+about-addressbook-toolbar-add-address-book =
+    .label = Додати локальну адресну книгу
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Додати адресну книгу CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
@@ -18,6 +20,14 @@ about-addressbook-toolbar-new-list =
     .label = Створити список
 about-addressbook-toolbar-import =
     .label = Імпорт
+books-pane-create-contact-button = Новий контакт
+    .title = Створити новий контакт
+books-pane-create-book-button =
+    .title = Створити нову адресну книгу
+books-pane-create-list-button =
+    .title = Створити новий список розсилки
+books-pane-import-button = Імпорт
+    .title = Імпортувати адресну книгу
 
 ## Books
 
@@ -66,6 +76,14 @@ about-addressbook-search =
     .placeholder = Пошук { $name }
 about-addressbook-search-all =
     .placeholder = Пошук у всіх адресних книгах
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Пошук { $name }
+    .placeholder = Пошук { $name }…
+about-addressbook-search-all2 =
+    .label = Пошук у всіх адресних книгах
+    .placeholder = Пошук у всіх адресних книгах…
 about-addressbook-sort-button2 =
     .title = Перелік параметрів показу
 about-addressbook-name-format-display =
@@ -82,52 +100,39 @@ about-addressbook-sort-email-ascending =
     .label = Впорядкувати за адресою електронної пошти (А > Я)
 about-addressbook-sort-email-descending =
     .label = Впорядкувати за адресою електронної пошти (Я > А)
-about-addressbook-horizontal-layout =
-    .label = Перейти до альбомного подання
-about-addressbook-vertical-layout =
-    .label = Перейти до портретного подання
 about-addressbook-table-layout =
     .label = Макет таблиці
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Ім'я
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Адреси електронної пошти
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Номери телефону
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Адреси
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Посада
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Відділ
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Організація
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Адресна книга
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Ім'я
     .title = Впорядкувати за іменем
 about-addressbook-column-label-generatedname2 =
     .label = Ім'я
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Назва
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Адреси електронної пошти
     .title = Впорядкувати за адресами електронної пошти
 about-addressbook-column-label-emailaddresses2 =
     .label = Адреси електронної пошти
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Електронна пошта
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Псевдонім
     .title = Впорядкувати за псевдонімом
 about-addressbook-column-label-nickname2 =
     .label = Псевдонім
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Псевдонім
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Номери телефону
     .title = Впорядкувати за номерами телефону
 about-addressbook-column-label-phonenumbers2 =
@@ -136,6 +141,11 @@ about-addressbook-column-header-addresses2 = Адреси
     .title = Впорядкувати за адресами
 about-addressbook-column-label-addresses2 =
     .label = Адреси
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Адреси
+    .title = { $title }
 about-addressbook-column-header-title2 = Посада
     .title = Впорядкувати за посадою
 about-addressbook-column-label-title2 =
@@ -144,14 +154,29 @@ about-addressbook-column-header-department2 = Відділ
     .title = Впорядкувати за відділом
 about-addressbook-column-label-department2 =
     .label = Відділ
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Відділ
+    .title = { $title }
 about-addressbook-column-header-organization2 = Організація
     .title = Впорядкувати за організацією
 about-addressbook-column-label-organization2 =
     .label = Організація
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Організація
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Адресна книга
     .title = Впорядкувати за адресною книгою
 about-addressbook-column-label-addrbook2 =
     .label = Адресна книга
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Адресна книга
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Записати
 about-addressbook-confirm-delete-mixed-title = Видалити контакти та списки
@@ -184,16 +209,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[many] Вилучити контакти
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Ви впевнені, що хочете вилучити { $name } з { $list }?
-        [few] Ви впевнені, що хочете вилучити ці { $count } контакти з { $list }?
-       *[many] Ви впевнені, що хочете вилучити ці { $count } контактів з { $list }?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Ви справді хочете вилучити { $name } з { $list }?
@@ -213,15 +228,6 @@ about-addressbook-confirm-delete-contacts-title =
         [one] Видалити контакт
         [few] Видалити контакти
        *[many] Видалити контакти
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Ви впевнені, що хочете видалити контакт { $name }?
-        [few] Ви впевнені, що хочете видалити ці { $count } контакти?
-       *[many] Ви впевнені, що хочете видалити ці { $count } контактів?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -246,15 +252,6 @@ about-addressbook-placeholder-no-search-results = Контактів не зна
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = Вибрано { $count } контактів і списків
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = Вибрано { $count } контактів
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = Вибрано { $count } списків
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
