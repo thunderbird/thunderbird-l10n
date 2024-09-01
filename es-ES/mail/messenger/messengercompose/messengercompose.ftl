@@ -184,10 +184,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestor de claves
     .accesskey = G
-openpgp-key-issue-notification-one = El cifrado de extremo a extremo requiere resolver problemas con la clave de { $addr }
-openpgp-key-issue-notification-many = El cifrado de extremo a extremo requiere resolver problemas con las claves de { $count } destinatarios.
-smime-cert-issue-notification-one = El cifrado de extremo a extremo requiere resolver problemas con los certificados de { $addr }.
-smime-cert-issue-notification-many = El cifrado de extremo a extremo requiere resolver problemas con los certificados de { $count } destinatarios.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -275,12 +271,6 @@ show-bcc-row-button = Cco
     .title = Mostrar el campo Cco ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Otros campos de dirección a mostrar
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Su mensaje tiene un destinatario público. Puede evitar revelar los destinatarios utilizando Cco en su lugar.
-       *[other] Los { $count } destinatarios en Para y Cc verán las direcciones de los demás. Puede evitar revelar los destinatarios utilizando Cco en su lugar.
-    }
 public-recipients-notice-single = El mensaje tiene un destinatario público. Puede evitar revelar el destinatario usando Cco en su lugar.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -422,3 +412,5 @@ link-preview-yes-replace = Sí
 spell-add-dictionaries =
     .label = Añadir diccionarios…
     .accesskey = A
+subject-encription-icon =
+    .title = El asunto no se cifrará

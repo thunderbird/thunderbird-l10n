@@ -8,6 +8,8 @@ about-addressbook-title = Libreta de direcciones
 
 about-addressbook-toolbar-new-address-book =
     .label = Nueva libreta de direcciones
+about-addressbook-toolbar-add-address-book =
+    .label = Añadir libreta de direcciones local
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Añadir libreta de direcciones CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
