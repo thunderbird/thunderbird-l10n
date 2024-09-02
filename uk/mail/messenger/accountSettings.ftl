@@ -4,3 +4,7 @@
 
 account-settings-color-label = Колір:
     .accesskey = К
+delete-account-button =
+    .label = Видалити
+default-account-button =
+    .label = Встановити типовим
