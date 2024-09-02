@@ -141,6 +141,7 @@ account-setup-result-username-different = Сервер уваходнай пош
 
 account-setup-credentials-wrong = Не атрымалася аўтэнтыфікавацца. Калі ласка, праверце імя карыстальніка і пароль
 account-setup-find-settings-failed = У { -brand-short-name } не атрымалася знайсці налады для вашага ўліковага запісу электроннай пошты
+account-setup-provisioner-error = Узнікла памылка падчас наладжвання вашага новага ўліковага запісу ў { -brand-short-name }. Калі ласка, паспрабуйце ўручную наладзіць ваш уліковы запіс з вашымі ўліковымі данымі.
 
 ## Manual configuration area
 
