@@ -137,6 +137,11 @@ about-addressbook-column-header-phonenumbers2 = Номери телефону
     .title = Впорядкувати за номерами телефону
 about-addressbook-column-label-phonenumbers2 =
     .label = Номери телефону
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Номери телефону
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Адреси
     .title = Впорядкувати за адресами
 about-addressbook-column-label-addresses2 =
@@ -150,6 +155,11 @@ about-addressbook-column-header-title2 = Посада
     .title = Впорядкувати за посадою
 about-addressbook-column-label-title2 =
     .label = Посада
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Заголовок
+    .title = { $title }
 about-addressbook-column-header-department2 = Відділ
     .title = Впорядкувати за відділом
 about-addressbook-column-label-department2 =

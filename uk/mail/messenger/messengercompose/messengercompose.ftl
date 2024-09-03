@@ -422,3 +422,5 @@ link-preview-yes-replace = Так
 spell-add-dictionaries =
     .label = Додати словники…
     .accesskey = о
+subject-encription-icon =
+    .title = Тема не буде зашифрована
