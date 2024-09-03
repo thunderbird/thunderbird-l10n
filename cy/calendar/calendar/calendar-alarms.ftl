@@ -43,7 +43,7 @@ reminder-custom-origin-end-after-task-dom =
 # $count max count
 reminder-error-max-count-reached-event =
     { $count ->
-        [zero] Mae gan y calendr gyfyngiad o { $count } rhybudd i bob digwyddiad.
+        [zero] Mae gan y calendr gyfyngiad o { $count } rhybuddion i bob digwyddiad.
         [one] Mae gan y calendr gyfyngiad o { $count } rhybudd i bob digwyddiad.
        *[other] Mae gan y calendr gyfyngiad o { $count } rhybudd i bob digwyddiad.
     }
