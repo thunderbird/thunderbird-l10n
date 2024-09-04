@@ -210,10 +210,13 @@ exit-dialog-confirm-button = Выйсці з наладжвання
 
 account-setup-creation-error-title = Памылка стварэння ўліковага запісу
 account-setup-error-server-exists = Сервер уваходнай пошты ўжо існуе.
+account-setup-confirm-advanced-title = Пацвердзіць пашыраную канфігурацыю
+account-setup-confirm-advanced-description = Гэта дыялогавае акно будзе закрыта, і будзе створаны ўліковы запіс з бягучымі наладамі, нават калі яны няправільныя. Вы ўпэўнены, што жадаеце працягнуць?
 
 ## Addon installation section
 
 account-setup-addon-install-title = Усталяваць
+account-setup-addon-no-protocol = На жаль, гэты паштовы сервер не падтрымлівае адкрытыя пратаколы. { account-setup-addon-install-intro }
 
 ## Success view
 
@@ -242,6 +245,8 @@ account-setup-found-calendars-description =
         [few] { -brand-short-name } знайшоў { $count } календары, звязаныя з вашым уліковым запісам электроннай пошты.
        *[many] { -brand-short-name } знайшоў { $count } календароў, звязаных з вашым уліковым запісам электроннай пошты.
     }
+account-setup-button-finish = Скончыць
+    .accesskey = С
 account-setup-looking-up-address-books = Пошук адрасных кніг…
 account-setup-looking-up-calendars = Пошук календароў…
 account-setup-address-books-button = Адрасныя кнігі
