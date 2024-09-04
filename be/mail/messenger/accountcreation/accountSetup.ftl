@@ -81,6 +81,7 @@ account-setup-looking-up-exchange = Пошук канфігурацыі: сер�
 account-setup-checking-password = Праверка пароля…
 account-setup-installing-addon = Спампаванне і ўсталёўка дадатка…
 account-setup-success-half-manual = Наступныя налады былі знойдзены падчас праверкі дадзенага сервера:
+account-setup-success-password = Пароль правільны
 account-setup-success-addon = Дадатак паспяхова усталяваны
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Знойдзена канфігурацыя ў базе даных ISP Mozilla.
