@@ -544,6 +544,17 @@ threadpane-sort-header-count =
 threadpane-card-menu-button =
     .title = Меню повідомлення
 message-list-placeholder-no-messages = Повідомлення не знайдено
+message-list-placeholder-multiple-folders = Вибрано кілька тек
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Позначити теку прочитаною
+            [few] Позначити теки прочитаними
+           *[many] Позначити теки прочитаними
+        }
+    .accesskey = П
