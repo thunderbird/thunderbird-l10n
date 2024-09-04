@@ -179,6 +179,7 @@ account-setup-insecure-outgoing-title = Налады выходнай пошты
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> не выкарыстоўвае шыфраванне.
+account-setup-warning-cleartext-details = Небяспечныя паштовыя серверы не ўжываюць шыфраванне, каб абараніць вашы паролі і асабістыя звесткі. Пры злучэнні з гэтым серверам, вы можаце раскрыць ваш пароль і асабістыя звесткі.
 account-setup-insecure-server-checkbox = Я разумею рызыкі
     .accesskey = Я
 insecure-dialog-cancel-button = Змяніць налады
