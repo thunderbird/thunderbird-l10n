@@ -101,6 +101,15 @@ html-title = Mozilla Calendar
 # used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
 #    $filePath will be replaced with the path to a file
 timezone-error = Під час зчитування { $filePath } знайдено невідомий і невизначений часовий пояс.
+# LOCALIZATION NOTE (duplicate-error):
+#    $count will be replaced with number of duplicate items
+#    $filePath will be replaced with a file path pointing to a calendar
+duplicate-error =
+    { $count ->
+        [one] { $count } елемент проігноровано, оскільки він існує в календарі призначення та в { $filePath }.
+        [few] { $count } елементи проігноровано, оскільки вони існують у календарі призначення та в { $filePath }.
+       *[many] { $count } елементів проігноровано, оскільки вони існують у календарі призначення та в { $filePath }.
+    }
 # $location unknown calendar location
 unable-to-create-provider = При підготовці календаря з { $location } для використання виникла помилка. Він буде недоступний.
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00

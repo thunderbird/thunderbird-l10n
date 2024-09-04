@@ -25,3 +25,6 @@ edit-vcard-dialog-accept-button = Зберегти
     .accesskey = З
 edit-vcard-dialog-cancel-button = Скасувати
     .accesskey = С
+account-manager-server-default-icon =
+    .title = Типовий обліковий запис
+    .alt = Піктограма зірочка
