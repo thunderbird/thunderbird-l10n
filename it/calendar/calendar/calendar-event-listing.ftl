@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Eventi nel passato
 calendar-event-listing-interval-calendar-month =
     .label = Eventi in questo mese
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Eventi nei prossimi 6 mesi
 calendar-event-listing-interval-next-12-months =
     .label = Eventi nei prossimi 12 mesi
+calendar-event-listing-interval-all =
+    .label = Tutti gli eventi
 calendar-event-listing-interval-selected-day =
     .label = Giorno selezionato
 calendar-event-listing-interval-today =
