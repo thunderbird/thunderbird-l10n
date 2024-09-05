@@ -52,7 +52,7 @@ calendar-event-listing-column-title =
 ## Interval dropdown options
 
 calendar-event-listing-interval-past =
-    .label = 過去的大事
+    .label = 過去的事件
 calendar-event-listing-interval-calendar-month =
     .label = 本月事件
 calendar-event-listing-interval-current-view =
