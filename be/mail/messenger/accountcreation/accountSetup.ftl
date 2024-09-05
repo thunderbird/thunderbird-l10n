@@ -185,6 +185,7 @@ account-setup-warning-cleartext = <b>{ $server }</b> не выкарыстоўв
 account-setup-warning-cleartext-details = Небяспечныя паштовыя серверы не ўжываюць шыфраванне, каб абараніць вашы паролі і асабістыя звесткі. Пры злучэнні з гэтым серверам, вы можаце раскрыць ваш пароль і асабістыя звесткі.
 account-setup-insecure-server-checkbox = Я разумею рызыкі
     .accesskey = Я
+account-setup-insecure-description = { -brand-short-name } можа дазволіць вам атрымліваць вашу пошту з дапамогай прадстаўленай канфігурацыі. Аднак вам трэба звярнуцца да вашага сістэмнага адміністратара або пастаўшчыка паслуг электроннай пошты наконт гэтых неналежных злучэнняў. Каб даведацца больш, глядзіце <a data-l10n-name="thunderbird-faq-link">Thunderbird FAQ</a>.
 insecure-dialog-cancel-button = Змяніць налады
     .accesskey = З
 insecure-dialog-confirm-button = Пацвердзіць
