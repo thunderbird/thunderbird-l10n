@@ -140,6 +140,8 @@ account-setup-result-username-different = Сервер уваходнай пош
 
 ## Error messages
 
+# Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
+account-setup-credentials-incomplete = Не атрымалася аўтэнтыфікавацца. Магчыма, уведзены няправільныя ўліковыя даныя, альбо для ўвахода ў сістэму трэба асобнае імя карыстальніка. Звычайна гэта ваш даменны лагін Windows, з імем дамена або без яго (напрыклад, янкакупала або AD\\янкакупала)
 account-setup-credentials-wrong = Не атрымалася аўтэнтыфікавацца. Калі ласка, праверце імя карыстальніка і пароль
 account-setup-find-settings-failed = У { -brand-short-name } не атрымалася знайсці налады для вашага ўліковага запісу электроннай пошты
 account-setup-exchange-config-unverifiable = Канфігурацыя не можа быць праверана. Калі вашы імя карыстальніка і пароль правільныя, імаверна, што адміністратар сервера адключыў выбраную канфігурацыю для вашага ўліковага запісу. Паспрабуйце выбраць іншы пратакол.
