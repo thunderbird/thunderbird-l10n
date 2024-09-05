@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Události v minulosti
 calendar-event-listing-interval-calendar-month =
     .label = Události tohoto kalendářního měsíce
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Události v příštích 6 měsících
 calendar-event-listing-interval-next-12-months =
     .label = Události v příštích 12 měsících
+calendar-event-listing-interval-all =
+    .label = Všechny události
 calendar-event-listing-interval-selected-day =
     .label = Právě vybraný den
 calendar-event-listing-interval-today =
