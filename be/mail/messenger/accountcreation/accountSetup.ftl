@@ -7,7 +7,7 @@ account-setup-tab-title = Наладжванне ўліковага запісу
 ## Header
 
 account-setup-title = Наладзьце свой існуючы адрас электроннай пошты
-account-setup-description = Каб выкарыстоўваць ваш існуючы адрас элетроннай пошты, увядзіце вашы ўліковыя даныя.
+account-setup-description = Каб выкарыстоўваць свой існуючы адрас элетроннай пошты, увядзіце вашы ўліковыя даныя.
 account-setup-secondary-description = { -brand-product-name } аўтаматычна выканае пошук працуючай і рэкамендаванай канфігурацыі сервера.
 account-setup-success-title = Уліковы запіс паспяхова створаны
 account-setup-success-description = Цяпер вы можаце выкарыстоўваць гэты ўліковы запіс у { -brand-short-name }.
@@ -72,15 +72,16 @@ account-setup-button-done = Гатова
 account-setup-looking-up-settings = Пошук канфігурацыі…
 account-setup-looking-up-settings-guess = Пошук канфігурацыі: спроба выкарыстаць тыповыя імёны сервераў…
 account-setup-looking-up-settings-half-manual = Пошук канфігурацыі: праверка сервера…
-account-setup-looking-up-disk = Пошук канфігурацыі: усталяванне { -brand-short-name }…
+account-setup-looking-up-disk = Пошук канфігурацыі: усталёўка { -brand-short-name }…
 account-setup-looking-up-isp = Пошук канфігурацыі: пастаўшчык паслуг электроннай пошты…
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-looking-up-db = Пошук канфігурацыі: база даных Mozilla ISP…
 account-setup-looking-up-mx = Пошук канфігурацыі: дамен уваходнай пошты…
 account-setup-looking-up-exchange = Пошук канфігурацыі: сервер Exchange…
 account-setup-checking-password = Праверка пароля…
-account-setup-installing-addon = Спампаванне і ўсталёўка дадатка…
+account-setup-installing-addon = Спампоўванне і ўсталёўка дадатка…
 account-setup-success-half-manual = Наступныя налады былі знойдзены падчас праверкі дадзенага сервера:
+account-setup-success-guess = Знойдзена канфігурацыя шляхам праверкі тыповых імяў сервераў.
 account-setup-success-guess-offline = Вы па-за сеткай. Мы паспрабавалі выканаць наладжванне аўтаматычна, але вам усё роўна трэба завершыць яго ўручную.
 account-setup-success-password = Пароль правільны
 account-setup-success-addon = Дадатак паспяхова усталяваны
@@ -221,6 +222,7 @@ account-setup-confirm-advanced-description = Гэта дыялогавае ак�
 ## Addon installation section
 
 account-setup-addon-install-title = Усталяваць
+account-setup-addon-install-intro = Вы можаце атрымаць доступ да ўліковага запісу электроннай пошты на гэтым серверы з дапамогай старонняга дадатка:
 account-setup-addon-no-protocol = На жаль, гэты паштовы сервер не падтрымлівае адкрытыя пратаколы. { account-setup-addon-install-intro }
 
 ## Success view
@@ -234,6 +236,7 @@ account-setup-address-book-ldap-button = Падлучыцца да адрасн�
 account-setup-calendar-button = Падлучыцца да аддаленага календара
 account-setup-linked-services-title = Падлучыць службы, звязаныя з вашым уліковым запісам
 account-setup-linked-services-description = { -brand-short-name } знайшоў іншыя службы, звязаныя з вашым уліковым запісам электроннай пошты.
+account-setup-no-linked-description = Наладзьце іншыя службы, каб атрымаць максімум ад выкарыстання { -brand-short-name }.
 # Variables:
 # $count (Number) - The number of address books found during autoconfig.
 account-setup-found-address-books-description =
