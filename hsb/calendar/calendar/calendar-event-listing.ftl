@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Podawki w zańdźenosći
 calendar-event-listing-interval-calendar-month =
     .label = Podawki w tutym protykowym měsacu
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Podawki přichodnych 6 měsacow
 calendar-event-listing-interval-next-12-months =
     .label = Podawki přichodnych 12 měsacow
+calendar-event-listing-interval-all =
+    .label = Wšě podawki
 calendar-event-listing-interval-selected-day =
     .label = Tuchwilu wubrany dźeń
 calendar-event-listing-interval-today =

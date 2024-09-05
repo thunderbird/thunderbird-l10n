@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 select-all-calendars = Wšě wubrać
+select-none-calendars = Žadyn njewubrać
