@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Бұрыңғы оқиғалар
 calendar-event-listing-interval-calendar-month =
     .label = Бұл күнтізбелік айдағы оқиғалар
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Келесі 6 айдағы оқиғалар
 calendar-event-listing-interval-next-12-months =
     .label = Келесі 12 айдағы оқиғалар
+calendar-event-listing-interval-all =
+    .label = Барлық оқиғалар
 calendar-event-listing-interval-selected-day =
     .label = Ағымдағы таңдалған күн
 calendar-event-listing-interval-today =
