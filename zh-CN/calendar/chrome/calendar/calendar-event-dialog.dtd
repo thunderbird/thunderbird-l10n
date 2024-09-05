@@ -242,8 +242,8 @@
 <!ENTITY event.reminder.30minutes.before.label            "30 分钟之前" >
 <!ENTITY event.reminder.1hour.before.label                "1 小时之前" >
 <!ENTITY event.reminder.2hours.before.label               "2 小时之前" >
-<!ENTITY event.reminder.12hours.before.label              "12小时之前" >
-<!ENTITY event.reminder.1day.before.label                 "1 天前" >
+<!ENTITY event.reminder.12hours.before.label              "12 小时之前" >
+<!ENTITY event.reminder.1day.before.label                 "1 天之前" >
 <!ENTITY event.reminder.2days.before.label                "2 天之前" >
 <!ENTITY event.reminder.1week.before.label                "1 周之前" >
 <!ENTITY event.reminder.custom.label                      "定制…" >
