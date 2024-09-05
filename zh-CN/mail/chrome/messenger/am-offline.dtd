@@ -12,7 +12,7 @@
 <!ENTITY offlineNotDownload.accesskey "M">
 <!ENTITY autosyncNotDownload.label "不下载大小超过">
 <!ENTITY autosyncNotDownload.accesskey "m">
-<!ENTITY kb.label "千字节的消息">
+<!ENTITY kb.label "KB 的消息">
 <!ENTITY daysOld.label "天前的消息">
 <!ENTITY message.label "条消息">
 <!ENTITY nntpNotDownloadRead.label "已读">
