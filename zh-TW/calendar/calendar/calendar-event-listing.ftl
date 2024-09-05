@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = 過去的大事
 calendar-event-listing-interval-calendar-month =
     .label = 本月事件
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = 未來 6 個月內的事件
 calendar-event-listing-interval-next-12-months =
     .label = 未來 12 個月內的事件
+calendar-event-listing-interval-all =
+    .label = 所有事件
 calendar-event-listing-interval-selected-day =
     .label = 選取日期的事件
 calendar-event-listing-interval-today =
