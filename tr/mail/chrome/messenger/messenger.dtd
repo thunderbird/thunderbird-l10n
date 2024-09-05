@@ -133,7 +133,7 @@
 <!ENTITY showMessageCmd.accesskey "B">
 
 <!ENTITY folderView.label "Klasörler">
-<!ENTITY folderView.accesskey "D">
+<!ENTITY folderView.accesskey "K">
 <!ENTITY unifiedFolders.label "Birleşik">
 <!ENTITY unifiedFolders.accesskey "B">
 <!ENTITY allFolders.label "Tümü">
@@ -238,7 +238,7 @@
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "b">
 
 <!ENTITY viewAttachmentsInlineCmd.label "Ekleri gövde içinde göster">
-<!ENTITY viewAttachmentsInlineCmd.accesskey "k">
+<!ENTITY viewAttachmentsInlineCmd.accesskey "E">
 
 <!ENTITY pageSourceCmd.label "İleti kaynağı">
 <!ENTITY pageSourceCmd.accesskey "l">
