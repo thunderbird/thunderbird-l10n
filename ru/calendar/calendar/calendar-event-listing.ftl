@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = События в прошлом
 calendar-event-listing-interval-calendar-month =
     .label = События на этот месяц
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = События на следующие 6 месяцев
 calendar-event-listing-interval-next-12-months =
     .label = События на следующие 12 месяцев
+calendar-event-listing-interval-all =
+    .label = Все события
 calendar-event-listing-interval-selected-day =
     .label = События на выбранный день
 calendar-event-listing-interval-today =
