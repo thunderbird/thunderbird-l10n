@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Digwyddiadau yn y Gorffennol
 calendar-event-listing-interval-calendar-month =
     .label = Digwyddiadau yn ystod y Mis Calendr yma
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Digwyddiadau yn Ystod y 6 Mis Nesaf
 calendar-event-listing-interval-next-12-months =
     .label = Digwyddiadau yn Ystod y 12 Mis Nesaf
+calendar-event-listing-interval-all =
+    .label = Pob Digwyddiad
 calendar-event-listing-interval-selected-day =
     .label = Diwrnod wedi'i Ddewis Cyfredol
 calendar-event-listing-interval-today =
