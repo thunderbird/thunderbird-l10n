@@ -124,11 +124,11 @@
 <!ENTITY messagePaneClassic.label "Klasik görünüm">
 <!ENTITY messagePaneClassic.accesskey "K">
 <!ENTITY messagePaneWide.label "Geniş görünüm">
-<!ENTITY messagePaneWide.accesskey "n">
+<!ENTITY messagePaneWide.accesskey "G">
 <!ENTITY messagePaneVertical.label "Dikey görünüm">
 <!ENTITY messagePaneVertical.accesskey "k">
 <!ENTITY showFolderPaneCmd.label "Klasör bölmesi">
-<!ENTITY showFolderPaneCmd.accesskey "D">
+<!ENTITY showFolderPaneCmd.accesskey "s">
 <!ENTITY showMessageCmd.label "İleti bölmesi">
 <!ENTITY showMessageCmd.accesskey "B">
 
@@ -207,7 +207,7 @@
 <!ENTITY threadsWithUnreadCmd.label "Okunmamış içeren diziler">
 <!ENTITY threadsWithUnreadCmd.accesskey "m">
 <!ENTITY watchedThreadsWithUnreadCmd.label "Okunmamış içeren izlenen diziler">
-<!ENTITY watchedThreadsWithUnreadCmd.accesskey "O">
+<!ENTITY watchedThreadsWithUnreadCmd.accesskey "z">
 <!ENTITY ignoredThreadsCmd.label "Göz ardı edilen diziler">
 <!ENTITY ignoredThreadsCmd.accesskey "l">
 

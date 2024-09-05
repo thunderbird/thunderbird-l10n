@@ -111,7 +111,7 @@ menu-view-folders-toggle-header =
 
 menu-view-toggle-thread-pane-header =
     .label = İleti listesi başlığı
-    .accesskey = b
+    .accesskey = e
 menu-font-size-label =
     .label = Yazı tipi boyutu
     .accesskey = o
