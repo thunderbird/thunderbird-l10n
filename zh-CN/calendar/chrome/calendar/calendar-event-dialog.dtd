@@ -202,11 +202,11 @@
 <!ENTITY event.alldayevent.accesskey                      "d">
 <!ENTITY event.from.label                                 "开始" >
 <!ENTITY event.from.accesskey                             "S">
-<!ENTITY task.from.label                                  "开始" >
+<!ENTITY task.from.label                                  "开始:" >
 <!ENTITY task.from.accesskey                              "S">
 <!ENTITY event.to.label                                   "结束" >
 <!ENTITY event.to.accesskey                               "n">
-<!ENTITY task.to.label                                    "截止日期" >
+<!ENTITY task.to.label                                    "截止日期:" >
 <!ENTITY task.to.accesskey                                "u">
 <!ENTITY task.status.label                                "状态" >
 <!ENTITY task.status.accesskey                            "a">
