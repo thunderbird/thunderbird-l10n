@@ -50,7 +50,7 @@
 <!-- Edit Menu -->
 <!ENTITY editMenu.label "Праўка">
 <!ENTITY editMenu.accesskey "П">
-<!ENTITY undoCmd.label "Адмяніць">
+<!ENTITY undoCmd.label "Адрабіць">
 <!ENTITY undoCmd.key "Z">
 <!ENTITY undoCmd.accesskey "А">
 <!ENTITY redoCmd.label "Узнавіць">
@@ -235,7 +235,7 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "І">
 <!ENTITY spellCheckAddToDictionary.label "Дадаць у слоўнік">
 <!ENTITY spellCheckAddToDictionary.accesskey "с">
-<!ENTITY undo.label "Адмяніць">
+<!ENTITY undo.label "Адрабіць">
 <!ENTITY undo.accesskey "м">
 <!ENTITY cut.label "Выразаць">
 <!ENTITY cut.accesskey "р">
@@ -265,29 +265,32 @@
 <!ENTITY convertCloud.accesskey "т">
 <!ENTITY cancelUpload.label "Скасаваць зацягванне">
 <!ENTITY cancelUpload.accesskey "к">
-<!ENTITY convertRegularAttachment.label "Звычайнае далучэнне">
-<!ENTITY convertRegularAttachment.accesskey "д">
+<!ENTITY convertRegularAttachment.label "Звычайнае прымацаванне">
+<!ENTITY convertRegularAttachment.accesskey "п">
 <!ENTITY attachPage.label "Прымацаваць вэб-старонку…">
-<!ENTITY attachPage.accesskey "с">
+<!ENTITY attachPage.accesskey "в">
 
 <!-- Attachment Pane Header Bar Context Menu -->
 <!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
      Should use the same wording as startExpandedCmd.label
      in msgHdrViewOverlay.dtd. -->
+<!ENTITY initiallyShowAttachmentPane.label "Спачатку паказваць панэль прымацаванняў">
+<!ENTITY initiallyShowAttachmentPane.accesskey "С">
 
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Дадаць слоўнікі…">
 <!ENTITY spellAddDictionaries.accesskey "Д">
 
 <!-- Title for the address picker panel -->
-<!ENTITY addressesSidebarTitle.label "Сувязі">
+<!ENTITY addressesSidebarTitle.label "Кантакты">
 
 <!-- Identity popup customize menuitem -->
-<!ENTITY customizeFromAddress.label "Наладзіць адрас адпраўніка…">
-<!ENTITY customizeFromAddress.accesskey "Н">
+<!ENTITY customizeFromAddress.label "Персаналізаваць адрас адпраўніка…">
+<!ENTITY customizeFromAddress.accesskey "П">
 
 <!-- Accessibility name for the document -->
+<!ENTITY aria.message.bodyName "Цела паведамлення">
 
 <!-- Status Bar -->
 <!ENTITY languageStatusButton.tooltip "Мова праверкі правапісу">
-<!ENTITY encodingStatusPanel.tooltip "Кадаванне тэксту">
+<!ENTITY encodingStatusPanel.tooltip "Кадзіроўка тэксту">
