@@ -409,3 +409,5 @@ link-preview-yes-replace = Yes
 spell-add-dictionaries =
     .label = Add Dictionaries…
     .accesskey = A
+subject-encription-icon =
+    .title = Subject will not be encrypted
