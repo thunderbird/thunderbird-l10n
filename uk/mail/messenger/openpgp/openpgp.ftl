@@ -6,12 +6,25 @@ e2e-intro-description = Щоб надсилати захищені або під
 e2e-intro-description-more = Виберіть свій особистий ключ, щоб дозволити використання OpenPGP, або ваш особистий сертифікат, щоб дозволити використання S/MIME. Для особистого ключа або сертифіката ви отримаєте відповідний секретний ключ.
 # Do not translate: S/MIME, CSR, CA
 e2e-csr-intro = Щоб отримати новий персональний сертифікат S/MIME, створіть запит на підписання сертифіката (CSR) і надішліть його до центру сертифікації (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Виберіть локальний каталог і назву для файлу CSR і дайте відповіді на запитання щодо встановлення алгоритму та надійності.
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Продовжити
 # A label for a button that goes back one step
 e2e-csr-back = Назад
 # Do not translate: CSR
+e2e-csr-button =
+    .label = Згенерувати і зберегти файл CSR як…
+# Do not translate: CSR
 e2e-csr-select-title = Алгоритм CSR
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Новий секретний ключ { $type } { $strength } буде згенеровано в налаштуваннях { -brand-short-name }. Цей процес може тривати деякий час і призвести до тимчасового припинення роботи; Просимо проявити терплячість під час цієї дії. Тим часом буде створено файл запиту на підписання сертифіката (CSR), збереженого як { $file }.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Включити електронну адресу ({ $email }) у CSR (рекомендовано)
 # $file A filename
 e2e-csr-success = CSR успішно збережено в { $file }
 # $file A filename
