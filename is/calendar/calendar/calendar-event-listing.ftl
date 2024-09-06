@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Atburðir í fortíðinni
 calendar-event-listing-interval-calendar-month =
     .label = Atburðir í þessum mánuði
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Atburðir næstu 7 mánuði
 calendar-event-listing-interval-next-12-months =
     .label = Atburðir næstu 12 mánuði
+calendar-event-listing-interval-all =
+    .label = Allir atburðir
 calendar-event-listing-interval-selected-day =
     .label = Núverandi valinn dagur
 calendar-event-listing-interval-today =
