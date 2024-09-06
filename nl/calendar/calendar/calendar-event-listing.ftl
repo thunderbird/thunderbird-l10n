@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Gebeurtenissen in het verleden
 calendar-event-listing-interval-calendar-month =
     .label = Gebeurtenissen in deze kalendermaand
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Gebeurtenissen in de komende 6 maanden
 calendar-event-listing-interval-next-12-months =
     .label = Gebeurtenissen in de komende 12 maanden
+calendar-event-listing-interval-all =
+    .label = Alle gebeurtenissen
 calendar-event-listing-interval-selected-day =
     .label = Momenteel geselecteerde dag
 calendar-event-listing-interval-today =
