@@ -11,7 +11,7 @@
 
 <!ENTITY editMenu.label          "Праўка">
 <!ENTITY editMenu.accesskey        "П">
-<!ENTITY undoCmd.label            "Адмяніць">
+<!ENTITY undoCmd.label            "Адрабіць">
 <!ENTITY undoCmd.accesskey          "А">
 <!ENTITY redoCmd.label            "Узнавіць">
 <!ENTITY redoCmd.accesskey          "У">
