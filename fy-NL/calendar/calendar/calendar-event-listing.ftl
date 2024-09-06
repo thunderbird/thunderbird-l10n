@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Barrens yn it ferline
 calendar-event-listing-interval-calendar-month =
     .label = Barrens yn dizze kalindermoanne
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Barrens yn de kommende 6 moannen
 calendar-event-listing-interval-next-12-months =
     .label = Barrens yn de kommende 12 moannen
+calendar-event-listing-interval-all =
+    .label = Alle barrens
 calendar-event-listing-interval-selected-day =
     .label = No selektearre dei
 calendar-event-listing-interval-today =
