@@ -257,14 +257,16 @@
 <!ENTITY renameAttachment.accesskey "З">
 <!ENTITY reorderAttachments.label "Перапарадкаваць укладанні…">
 <!ENTITY reorderAttachments.accesskey "а">
+<!ENTITY removeAllAttachments.label "Выдаліць усе прымацаванні">
+<!ENTITY removeAllAttachments.accesskey "В">
 <!ENTITY selectAll.label "Вылучыць усё">
-<!ENTITY selectAll.accesskey "У">
+<!ENTITY selectAll.accesskey "ы">
 <!ENTITY attachCloud.label "Filelink…">
 <!ENTITY attachCloud.accesskey "i">
 <!ENTITY convertCloud.label "Ператварыць у…">
 <!ENTITY convertCloud.accesskey "т">
-<!ENTITY cancelUpload.label "Скасаваць зацягванне">
-<!ENTITY cancelUpload.accesskey "к">
+<!ENTITY cancelUpload.label "Скасаваць запампоўванне">
+<!ENTITY cancelUpload.accesskey "С">
 <!ENTITY convertRegularAttachment.label "Звычайнае прымацаванне">
 <!ENTITY convertRegularAttachment.accesskey "п">
 <!ENTITY attachPage.label "Прымацаваць вэб-старонку…">
