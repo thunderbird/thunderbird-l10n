@@ -47,7 +47,7 @@
 <!ENTITY modelMoveToTrash.accesskey "y">
 <!ENTITY modelMarkDeleted.label "Marcio fel ei fod wedi'i ddileu">
 <!ENTITY modelMarkDeleted.accesskey "M">
-<!ENTITY modelDeleteImmediately.label "Diddymu'n syth">
+<!ENTITY modelDeleteImmediately.label "Ei dynnu'n syth">
 <!ENTITY modelDeleteImmediately.accesskey "i">
 <!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY expungeOnExit.label "Glanhau&apos;r (&quot;Expunge&quot;) Blwch Derbyn wrth Adael">

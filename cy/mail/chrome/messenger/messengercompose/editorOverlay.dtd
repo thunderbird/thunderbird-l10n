@@ -282,8 +282,8 @@
 <!ENTITY boldToolbarCmd.tooltip "Trwm">
 <!ENTITY italicToolbarCmd.tooltip "Italig">
 <!ENTITY underlineToolbarCmd.tooltip "Tanlinellu">
-<!ENTITY bulletListToolbarCmd.tooltip "Gosod neu ddiddymu rhestr bwledi">
-<!ENTITY numberListToolbarCmd.tooltip "Gosod neu ddiddymu rhestr rhifedig">
+<!ENTITY bulletListToolbarCmd.tooltip "Gosod neu dynnu rhestr bwledi">
+<!ENTITY numberListToolbarCmd.tooltip "Gosod neu dynnu rhestr rhifedig">
 <!ENTITY outdentToolbarCmd.tooltip "Alloliad testun (symud i'r chwith)">
 <!ENTITY indentToolbarCmd.tooltip "Mewnoliad testun (symud i'r dde)">
 <!ENTITY AlignPopupButton.tooltip "Dewis aliniad testun">
