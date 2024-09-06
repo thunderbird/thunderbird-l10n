@@ -3,4 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 select-all-calendars = Seleziona tutto
-select-none-calendars = Selezionare nessuno
+select-none-calendars = Seleziona nessuno
