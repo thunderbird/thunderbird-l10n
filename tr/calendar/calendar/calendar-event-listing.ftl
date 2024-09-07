@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Geçmiş etkinlikler
 calendar-event-listing-interval-calendar-month =
     .label = Bu takvim ayındaki etkinlikler
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = 6 ay içindeki etkinlikler
 calendar-event-listing-interval-next-12-months =
     .label = 12 ay içindeki etkinlikler
+calendar-event-listing-interval-all =
+    .label = Tüm etkinlikler
 calendar-event-listing-interval-selected-day =
     .label = Seçilmiş gün
 calendar-event-listing-interval-today =
