@@ -47,11 +47,11 @@
 -->
 <!ENTITY allAutosync.label               "同步所有消息至本地，忽略消息的时间">
 <!ENTITY allAutosync.accesskey           "c">
-<!ENTITY ageAutosyncBefore.label         "同步此时段消息">
+<!ENTITY ageAutosyncBefore.label         "同步过去此时段内消息">
 <!ENTITY ageAutosync.accesskey           "z">
 <!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "天内">
-<!ENTITY weekAgeInterval.label           "周内">
-<!ENTITY monthAgeInterval.label          "个月内">
-<!ENTITY yearAgeInterval.label           "年内">
+<!ENTITY dayAgeInterval.label            "天">
+<!ENTITY weekAgeInterval.label           "周">
+<!ENTITY monthAgeInterval.label          "个月">
+<!ENTITY yearAgeInterval.label           "年">
 <!ENTITY ageAutosyncAfter.label          "">
