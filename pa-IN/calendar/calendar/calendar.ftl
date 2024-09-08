@@ -206,9 +206,9 @@ cal-dav-request-status-code-string-403 = The user lacks the required permission 
 cal-dav-request-status-code-string-404 = Resource not found.
 cal-dav-request-status-code-string-409 = Resource conflict.
 cal-dav-request-status-code-string-412 = Precondition failed.
-cal-dav-request-status-code-string-500 = Internal server error.
-cal-dav-request-status-code-string-502 = Bad gateway (Proxy configuration?).
-cal-dav-request-status-code-string-503 = Internal server error (Temporary server outage?).
+cal-dav-request-status-code-string-500 = ਅੰਦਰੂਨੀ ਸਰਵਰ ਗਲਤੀ।
+cal-dav-request-status-code-string-502 = ਖ਼ਰਾਬ ਗੇਟਵੇਅ (ਪਰਾਕਸੀ ਸੰਰਚਨਾ?)।
+cal-dav-request-status-code-string-503 = ਅੰਦਰੂਨੀ ਸਰਵਰ ਗਲਤੀ (ਆਰਜ਼ੀ ਸਰਵਰ ਆਉਟੇਜ਼)।
 # LOCALIZATION NOTE (likely-timezone):
 #   Translators, please put the most likely timezone(s) where the people using
 #   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
@@ -324,8 +324,8 @@ html-prefix-description = ਬਿਓਰਾ
 # $task task
 html-task-completed = { $task } (completed)
 # Categories
-add-category = Add Category
-multiple-categories = Multiple Categories
+add-category = ਕੈਟਾਗਰੀ ਜੋੜੋ
+multiple-categories = ਕਈ ਕੈਟਾਗਰੀਆਂ
 calendar-today = ਅੱਜ
 calendar-tomorrow = ਭਲਕੇ
 yesterday = ਕੱਲ੍ਹ
@@ -393,7 +393,7 @@ getting-calendar-info-detail =
     .label = { $total } ਵਿੱਚੋਂ { $index } ਕੈਲੰਡਰ ਜਾਂਚਿਆ ਜਾ ਰਿਹਾ
 # LOCALIZATION NOTE (error-code):
 #    $errorCode will be replaced with the number of an error code
-error-code = Error code: { $errorCode }
+error-code = ਗਲਤੀ ਕੋਡ: { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = ਬਿਓਰਾ: { $errorDescription }
@@ -533,21 +533,22 @@ extract-using = { $languageName } ਦੀ ਵਰਤੋਂ
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = { $languageName } ({ $region }) ਦੀ ਵਰਤੋਂ
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [one] { $count } ਮਿੰਟ
        *[other] { $count } ਮਿੰਟ
     }
-# $count count
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [one] { $count } ਘੰਟਾ
        *[other] { $count } ਘੰਟੇ
     }
-# $count count
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [one] { $count } ਦਿਨ

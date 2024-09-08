@@ -36,9 +36,9 @@
 <!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#37; ਪੂਰਾ">
 <!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "">
 <!ENTITY calendar.unifinder.tree.startdate.label           "ਸ਼ੁਰੂ">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Sort by start date">
+<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "ਸ਼ੁਰੂ ਤਾਰੀਖ ਰਾਹੀਂ ਲੜੀਬੱਧ">
 <!ENTITY calendar.unifinder.tree.enddate.label             "ਆਖਰੀ">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Sort by end date">
+<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "ਅੰਤ ਤਾਰੀਖ ਰਾਹੀਂ ਲੜੀਬੱਧ">
 <!ENTITY calendar.unifinder.tree.duedate.label             "Due">
 <!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Sort by due date">
 <!ENTITY calendar.unifinder.tree.completeddate.label       "ਪੂਰਾ">
@@ -63,12 +63,12 @@
 
 <!ENTITY calendar.onlyworkday.checkbox.label    "ਹਫ਼ਤੇ ਦੇ ਕੰਮਕਾਜੀ ਦਿਨ ਹੀ" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
-<!ENTITY calendar.displaytodos.checkbox.label   "Tasks in View" >
+<!ENTITY calendar.displaytodos.checkbox.label   "ਝਲਕ ਵਿੱਚ ਕੰਮ" >
 <!ENTITY calendar.displaytodos.checkbox.accesskey "k" >
-<!ENTITY calendar.completedtasks.checkbox.label     "Show completed Tasks" >
+<!ENTITY calendar.completedtasks.checkbox.label     "ਪੂਰੇ ਹੋਏ ਕੰਮ ਦਿਖਾਓ" >
 <!ENTITY calendar.completedtasks.checkbox.accesskey "c" >
 
-<!ENTITY calendar.orientation.label "Rotate View" >
+<!ENTITY calendar.orientation.label "ਝਲਕ ਨੂੰ ਘੁੰਮਾਓ" >
 <!ENTITY calendar.orientation.accesskey "o" >
 
 <!ENTITY calendar.search.options.searchfor " contain">
