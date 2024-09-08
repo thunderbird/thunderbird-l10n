@@ -4,5 +4,6 @@
 
 calendar-itip-identity-dialog-title = ปาร์ตี้ล่มงั้นเหรอ?
 calendar-itip-identity-warning = คุณยังไม่ได้อยู่ในรายชื่อแขก
+calendar-itip-identity-dialog-box-title = แขกที่ไม่ได้รับเชิญ
 calendar-itip-identity-label = ตอบกลับในชื่อ:
 calendar-itip-identity-label-none = เชื่อมโยงเหตุการณ์นี้เข้ากับ:
