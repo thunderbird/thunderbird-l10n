@@ -52,7 +52,7 @@ calendar-event-listing-column-title =
 ## Interval dropdown options
 
 calendar-event-listing-interval-past =
-    .label = Évènements dans le passé
+    .label = Évènements passés
 calendar-event-listing-interval-calendar-month =
     .label = Évènements du mois en cours
 calendar-event-listing-interval-current-view =
