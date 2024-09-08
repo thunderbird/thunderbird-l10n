@@ -116,11 +116,11 @@
 <!ENTITY  event.menu.options.priority2.accesskey              "y">
 <!ENTITY  event.menu.options.priority.notspecified.label      "Not specified">
 <!ENTITY  event.menu.options.priority.notspecified.accesskey  "o">
-<!ENTITY  event.menu.options.priority.low.label               "Low">
+<!ENTITY  event.menu.options.priority.low.label               "ਘੱਟ">
 <!ENTITY  event.menu.options.priority.low.accesskey           "L">
-<!ENTITY  event.menu.options.priority.normal.label            "Normal">
+<!ENTITY  event.menu.options.priority.normal.label            "ਸਧਾਰਨ">
 <!ENTITY  event.menu.options.priority.normal.accesskey        "N">
-<!ENTITY  event.menu.options.priority.high.label              "High">
+<!ENTITY  event.menu.options.priority.high.label              "ਵੱਧ">
 <!ENTITY  event.menu.options.priority.high.accesskey          "H">
 <!ENTITY  event.menu.options.privacy.label                    "ਪਰਦੇਦਾਰੀ">
 <!ENTITY  event.menu.options.privacy.accesskey                "P">
@@ -166,7 +166,7 @@
    - illustrates how it might look like: https://bugzilla.mozilla.org/attachment.cgi?id=8810121 -->
 
 <!-- Main page -->
-<!ENTITY event.title.textbox.label                        "Title:" >
+<!ENTITY event.title.textbox.label                        "ਟਾਈਟਲ:" >
 <!ENTITY event.title.textbox.accesskey                    "I">
 <!ENTITY event.location.label                             "ਟਿਕਾਣਾ:" >
 <!ENTITY event.location.accesskey                         "L">
@@ -230,7 +230,7 @@
 <!ENTITY event.reminder.multiple.label                    "Multiple Reminders…" >
 
 <!ENTITY event.statusbarpanel.freebusy.label              "Time as:">
-<!ENTITY event.statusbarpanel.privacy.label               "Privacy:">
+<!ENTITY event.statusbarpanel.privacy.label               "ਪਰਦੇਦਾਰੀ:">
 
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label                         "Edit Recurrence">
@@ -354,7 +354,7 @@
 <!ENTITY event.attendee.role.chair              "Chair">
 <!ENTITY event.attendee.role.nonparticipant     "Non Participant">
 <!ENTITY event.attendee.usertype.individual     "Individual">
-<!ENTITY event.attendee.usertype.group          "Group">
+<!ENTITY event.attendee.usertype.group          "ਗਰੁੱਪ">
 <!ENTITY event.attendee.usertype.resource       "ਸਰੋਤ">
 <!ENTITY event.attendee.usertype.room           "ਕਮਰਾ">
 
@@ -364,7 +364,7 @@
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "ਆਮ">
-<!ENTITY read.only.title.label           "Title:">
+<!ENTITY read.only.title.label           "ਟਾਈਟਲ:">
 <!ENTITY read.only.event.start.label     "Start Date:">
 <!ENTITY read.only.task.start.label      "Start Date:">
 <!ENTITY read.only.event.end.label       "End Date:">

@@ -71,7 +71,7 @@
 <!ENTITY calendar.orientation.label "ਝਲਕ ਨੂੰ ਘੁੰਮਾਓ" >
 <!ENTITY calendar.orientation.accesskey "o" >
 
-<!ENTITY calendar.search.options.searchfor " contain">
+<!ENTITY calendar.search.options.searchfor "ਰੱਖਦਾ ਹੈ">
 
 <!ENTITY calendar.list.header.label                 "ਕੈਲੰਡਰ">
 
@@ -86,7 +86,7 @@
 <!ENTITY calendar.task.filter.notstarted.accesskey  "a">
 <!ENTITY calendar.task.filter.overdue.label         "ਸਮਾਂ ਲੰਘਾ ਚੁੱਕੇ ਟਾਸਕ">
 <!ENTITY calendar.task.filter.overdue.accesskey     "O">
-<!ENTITY calendar.task.filter.completed.label       "Completed Tasks">
+<!ENTITY calendar.task.filter.completed.label       "ਪੂਰੇ ਹੋਏ ਕੰਮ">
 <!ENTITY calendar.task.filter.completed.accesskey   "C">
 <!ENTITY calendar.task.filter.open.label            "Incomplete Tasks">
 <!ENTITY calendar.task.filter.open.accesskey        "m">
@@ -99,8 +99,8 @@
 <!ENTITY calendar.task.filter.current.label         "ਮੌਜੂਦਾ ਕੰਮ">
 <!ENTITY calendar.task.filter.current.accesskey     "u">
 
-<!ENTITY calendar.task-details.title.label           "title">
-<!ENTITY calendar.task-details.organizer.label       "from">
+<!ENTITY calendar.task-details.title.label           "ਟਾਈਟਲ">
+<!ENTITY calendar.task-details.organizer.label       "ਵਲੋਂ">
 <!ENTITY calendar.task-details.priority.label        "ਤਰਜੀਹ">
 <!ENTITY calendar.task-details.priority.low.label    "ਘੱਟ">
 <!ENTITY calendar.task-details.priority.normal.label "ਸਧਾਰਨ">
@@ -122,11 +122,11 @@
 <!-- Context Menu -->
 <!ENTITY calendar.context.modifyorviewitem.label      "ਖੋਲ੍ਹੋ">
 <!ENTITY calendar.context.modifyorviewitem.accesskey  "O">
-<!ENTITY calendar.context.modifyorviewtask.label      "Open Task…">
+<!ENTITY calendar.context.modifyorviewtask.label      "…ਕੰਮ ਨੂੰ ਖੋਲ੍ਹੋ">
 <!ENTITY calendar.context.modifyorviewtask.accesskey  "O">
-<!ENTITY calendar.context.newevent.label              "New Event…">
+<!ENTITY calendar.context.newevent.label              "…ਨਵਾਂ ਈਵੈਂਟ">
 <!ENTITY calendar.context.newevent.accesskey          "N">
-<!ENTITY calendar.context.newtodo.label               "New Task…">
+<!ENTITY calendar.context.newtodo.label               "…ਨਵਾਂ ਕੰਮ">
 <!ENTITY calendar.context.newtodo.accesskey           "k">
 <!ENTITY calendar.context.deletetask.label            "ਕੰਮ ਹਟਾਓ">
 <!ENTITY calendar.context.deletetask.accesskey        "l">
@@ -173,11 +173,11 @@
 
 <!ENTITY priority.level.none                "Not specified">
 <!ENTITY priority.level.none.accesskey      "s">
-<!ENTITY priority.level.low                 "Low">
+<!ENTITY priority.level.low                 "ਘੱਟ">
 <!ENTITY priority.level.low.accesskey       "L">
-<!ENTITY priority.level.normal              "Normal">
+<!ENTITY priority.level.normal              "ਸਧਾਰਨ">
 <!ENTITY priority.level.normal.accesskey    "N">
-<!ENTITY priority.level.high                "High">
+<!ENTITY priority.level.high                "ਵੱਧ">
 <!ENTITY priority.level.high.accesskey      "H">
 
 <!ENTITY calendar.context.postpone.1hour.label      "1 ਘੰਟਾ">
@@ -198,7 +198,7 @@
 <!-- Server Context Menu -->
 <!ENTITY calendar.context.newserver.label              "ਨਵਾਂ ਕੈਲੰਡਰ…">
 <!ENTITY calendar.context.newserver.accesskey          "N">
-<!ENTITY calendar.context.findcalendar.label           "Find Calendar…" >
+<!ENTITY calendar.context.findcalendar.label           "ਕੈਲੰਡਰ ਲੱਭੋ…" >
 <!ENTITY calendar.context.findcalendar.accesskey       "F" >
 
 <!-- LOCALIZATION NOTE (calendar.context.removeserver.label): Removing the
@@ -274,7 +274,7 @@
 <!ENTITY calendarproperties.color.label                    "ਰੰਗ:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.format.label                   "Format:">
+<!ENTITY calendarproperties.format.label                   "ਫਾਰਮੈਟ:">
 <!ENTITY calendarproperties.location.label                 "ਟਿਕਾਣਾ:">
 <!ENTITY calendarproperties.refreshInterval.label          "ਕੈਲੰਡਰ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ:">
 <!ENTITY calendarproperties.refreshInterval.manual.label   "ਖੁਦ">
@@ -283,7 +283,7 @@
 <!ENTITY calendarproperties.firealarms.label               "ਰੀਮਾਈਂਡਰ ਵੇਖਾਓ">
 <!ENTITY calendarproperties.cache3.label                   "ਆਫ਼ਲਾਈਨ ਸਹਿਯੋਗ">
 <!ENTITY calendarproperties.forceDisabled.label            "The provider for this calendar could not be found. This often happens if you have disabled or uninstalled certain addons.">
-<!ENTITY calendarproperties.unsubscribe.label              "Unsubscribe">
+<!ENTITY calendarproperties.unsubscribe.label              "ਮੈਂਬਰੀ ਹਟਾਓ">
 <!ENTITY calendarproperties.unsubscribe.accesskey          "U">
 
 <!-- Calendar Publish Dialog -->

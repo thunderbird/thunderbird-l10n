@@ -4,7 +4,7 @@
 -->
 
 <!-- Calendar Invitations Dialog -->
-<!ENTITY calendar.invitations.dialog.invitations.text                   "Invitations">
+<!ENTITY calendar.invitations.dialog.invitations.text                   "ਸੱਦੇ">
 <!ENTITY calendar.invitations.dialog.statusmessage.updating.text        "Updating list of invitations.">
 <!ENTITY calendar.invitations.dialog.statusmessage.noinvitations.text   "No unconfirmed invitations found.">
 
