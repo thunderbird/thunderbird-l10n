@@ -5,20 +5,18 @@
 system-integration-title =
     .title = Узаемадзеянне з сістэмай
 system-integration-dialog-title = Узаемадзеянне з сістэмай
-system-integration-dialog =
-    .buttonlabelaccept = Прызначыць змоўчным
-    .buttonlabelcancel = Прапусціць узаемадзеянне
-    .buttonlabelcancel2 = Скасаваць
-default-client-intro = Ужываць { -brand-short-name } як змоўчны спажывец:
-unset-default-tooltip = Немагчыма адмяніць прызначэнне { -brand-short-name } змоўным спажыўцом у { -brand-short-name }. Каб зрабіць іншае прыстасаванне змоўчным, вы мусіце скарыстацца яго дыялогам 'Прызначэнне змоўчным'.
+default-client-intro = Выкарыстоўваць { -brand-short-name } як прадвызначаны кліент для:
 checkbox-email-label =
-    .label = Э-пошты
+    .label = Электроннай пошты
     .tooltiptext = { unset-default-tooltip }
 checkbox-newsgroups-label =
-    .label = Навінакупаў
+    .label = Груп навін
     .tooltiptext = { unset-default-tooltip }
 checkbox-feeds-label =
-    .label = Жывільнікаў
+    .label = Стужак навін
+    .tooltiptext = { unset-default-tooltip }
+checkbox-calendar-label =
+    .label = Календароў
     .tooltiptext = { unset-default-tooltip }
 # Note: This is the search engine name for all the different platforms.
 # Platforms that don't support it should be left blank.
@@ -29,8 +27,8 @@ system-search-engine-name =
        *[other] { "" }
     }
 system-search-integration-label =
-    .label = Дазволіць { system-search-engine-name } шукаць лісты
-    .accesskey = ш
+    .label = Дазволіць { system-search-engine-name } шукаць у паведамленнях
+    .accesskey = Д
 check-on-startup-label =
-    .label = Заўсёды рабіць гэтую праверку падчас запуску { -brand-short-name }
-    .accesskey = ў
+    .label = Правяраць гэта пры кожным запуску { -brand-short-name }
+    .accesskey = П
