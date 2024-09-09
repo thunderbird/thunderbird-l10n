@@ -533,7 +533,7 @@ startup-label =
     .value = Калі { -brand-short-name } запускаецца:
     .accesskey = з
 offline-label =
-    .label = Не падлучаць мае ўліковыя запісы чатаў.
+    .label = Не падлучаць мае ўліковыя запісы чатаў
 auto-connect-label =
     .label = Падлучаць мае ўліковыя запісы чатаў аўтаматычна
 
