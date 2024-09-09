@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Події в минулому
 calendar-event-listing-interval-calendar-month =
     .label = Події цього календарного місяця
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Події наступних 6 місяців
 calendar-event-listing-interval-next-12-months =
     .label = Події наступних 12 місяців
+calendar-event-listing-interval-all =
+    .label = Усі події
 calendar-event-listing-interval-selected-day =
     .label = Події обраного дня
 calendar-event-listing-interval-today =

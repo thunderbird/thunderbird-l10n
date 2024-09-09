@@ -8,6 +8,8 @@ e2e-intro-description-more = Виберіть свій особистий клю
 e2e-csr-intro = Щоб отримати новий персональний сертифікат S/MIME, створіть запит на підписання сертифіката (CSR) і надішліть його до центру сертифікації (CA).
 # Do not translate: S/MIME, CSR
 e2e-csr-intro-info = Виберіть локальний каталог і назву для файлу CSR і дайте відповіді на запитання щодо встановлення алгоритму та надійності.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Згенерувати CSR
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Продовжити
 # A label for a button that goes back one step
@@ -17,6 +19,10 @@ e2e-csr-button =
     .label = Згенерувати і зберегти файл CSR як…
 # Do not translate: CSR
 e2e-csr-select-title = Алгоритм CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Оберіть RSA (рекомендовано) або ECC як криптографічний алгоритм для нового сертифіката S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Оберіть бажану криптографічну стійкість (менші числа для швидкості; більші числа для кращого захисту) для нового сертифіката S/MIME або залиште типові налаштування.
 # $type is a cryptographic algorithm like RSA or ECC
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
