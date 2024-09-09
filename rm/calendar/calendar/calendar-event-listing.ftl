@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Eveniments passads
 calendar-event-listing-interval-calendar-month =
     .label = Eveniments da quest mais da chalender
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Eveniments dals proxims 6 mais
 calendar-event-listing-interval-next-12-months =
     .label = Eveniments dals proxims 12 mais
+calendar-event-listing-interval-all =
+    .label = Tut ils eveniments
 calendar-event-listing-interval-selected-day =
     .label = Il di tschernì actualmain
 calendar-event-listing-interval-today =
