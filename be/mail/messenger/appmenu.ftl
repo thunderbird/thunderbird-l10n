@@ -123,6 +123,11 @@ appmenuitem-font-size-enlarge =
     .tooltiptext = Павялічыць памер шрыфту
 appmenuitem-font-size-reduce =
     .tooltiptext = Паменшыць памер шрыфту
+# Variables:
+# $size (String) - The current font size.
+appmenuitem-font-size-reset =
+    .label = { $size } пікселяў
+    .tooltiptext = Скінуць памер шрыфту
 
 ## Tools
 
