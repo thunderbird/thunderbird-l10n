@@ -3,4 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 select-all-calendars = Dewis popeth
-select-none-calendars = Dewiswch dim
+select-none-calendars = Dewis dim
