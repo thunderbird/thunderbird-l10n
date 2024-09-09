@@ -120,8 +120,6 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Фільтраваць гэтыя паведамленні <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Фільтраваць паведамленні:
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -476,3 +474,16 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Меню паведамленняў
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Пазначыць папку прачытанай
+            [few] Пазначыць папкі прачытанымі
+           *[many] Пазначыць папкі прачытанымі
+        }
+    .accesskey = П
