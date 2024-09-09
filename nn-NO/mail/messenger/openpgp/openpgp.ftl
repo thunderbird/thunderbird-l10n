@@ -35,7 +35,7 @@ openpgp-key-id-label =
     .label = Nøkkel-ID
 openpgp-cannot-change-expiry = Dette er ein nøkkel med ein kompleks struktur, det er ikkje støtte for å endre går ut-datoen.
 openpgp-key-man-title =
-    .title = OpenPGP-nøkkelhandterar
+    .title = OpenPGP-nøkkelhandsamar
 openpgp-key-man-dialog-title = OpenPGP-nøkkelhandterar
 openpgp-key-man-generate =
     .label = Nytt nøkkelpar
@@ -564,9 +564,6 @@ need-online = Funksjonen du har valt er ikkje tilgjengeleg i fråkopla modus. Ko
 
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
 
 
 ## Strings used in keyRing.sys.mjs
