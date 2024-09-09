@@ -437,7 +437,7 @@ remove-cloud-account =
 
 mail-content = Змесціва пошты
 remote-content-label =
-    .label = Дазволіць аддаленае змесціва ў паведамленнях
+    .label = Дазволіць адлеглае змесціва ў паведамленнях
     .accesskey = Д
 exceptions-button =
     .label = Выключэнні…
