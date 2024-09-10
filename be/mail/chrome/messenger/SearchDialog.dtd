@@ -10,12 +10,12 @@
 <!ENTITY searchOnServer.label        "Запусціць пошук на серверы">
 <!ENTITY searchOnServer.accesskey    "З">
 <!ENTITY resetButton.label           "Ачысціць">
-<!ENTITY resetButton.accesskey       "А">
+<!ENTITY resetButton.accesskey       "ч">
 <!ENTITY openButton.label            "Адкрыць">
 <!ENTITY openButton.accesskey        "А">
 <!ENTITY deleteButton.label          "Выдаліць">
 <!ENTITY deleteButton.accesskey      "д">
-<!ENTITY searchDialogTitle.label     "Пошук лістоў">
+<!ENTITY searchDialogTitle.label     "Шукаць паведамленні">
 <!ENTITY results.label               "Вынікі">
 <!ENTITY moveButton.label            "Перамясціць у">
 <!ENTITY moveButton.accesskey        "у">
@@ -30,8 +30,8 @@
 <!ENTITY abSearchHeading.accesskey   "Ш">
 <!ENTITY propertiesButton.label      "Уласцівасці">
 <!ENTITY propertiesButton.accesskey  "л">
-<!ENTITY composeButton.label         "Укласці">
-<!ENTITY composeButton.accesskey     "У">
+<!ENTITY composeButton.label         "Стварыць">
+<!ENTITY composeButton.accesskey     "С">
 <!ENTITY deleteCardButton.label      "Выдаліць">
 <!ENTITY deleteCardButton.accesskey  "д">
-<!ENTITY abSearchDialogTitle.label   "Удасканалены пошук у адраснай кнізе">
+<!ENTITY abSearchDialogTitle.label   "Пашыраны рэжым пошуку ў адраснай кнізе">

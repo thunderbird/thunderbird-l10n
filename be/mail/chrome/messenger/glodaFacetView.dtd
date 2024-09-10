@@ -13,7 +13,7 @@
 
 <!-- LOCALIZATION NOTE (glodaFacetView.empty.label): Label that appears when
      there are no results that match the search query. -->
-<!ENTITY glodaFacetView.empty.label "Няма лістоў, якія адпавядаюць вашаму пошуку">
+<!ENTITY glodaFacetView.empty.label "Няма паведамленняў, якія адпавядаюць вашаму пошукаваму запыту">
 
 <!-- LOCALIZATION NOTE (glodaFacetView.pageMore.label): Label at the bottom
      of the results list to show more hits. -->
