@@ -13,6 +13,9 @@ e2e-csr-back = Tilbake
 # Do not translate: CSR
 e2e-csr-button =
     .label = Generer og lagre ei CSR-fil som…
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Inkluder e-postadressa ({ $email }) i CSR (tilrådd)
 e2e-sign-message =
     .label = Signer ukrypterte meldingar
     .accesskey = u
