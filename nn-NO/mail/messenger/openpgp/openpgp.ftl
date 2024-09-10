@@ -4,6 +4,8 @@
 
 e2e-intro-description = For å sende krypterte eller digitalt signerte meldingar, må du konfigurere ein krypteringsteknologi, anten OpenPGP eller S/MIME.
 e2e-intro-description-more = Vel den personlege nøkkelen din for å slå på OpenPGP, eller det personlege sertifikatet ditt for å slå på S/MIME. For ein personlig nøkkel eller eit sertifikat eig du den tilsvarande hemmelege nøkkelen.
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Vel ei lokal mappe og filnamn for CSR-fila di, og svar på følgjande spørsmål for innstilling av algoritme og styrke.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Generer CSR
 # A label for a button that proceeds to the next step
@@ -13,9 +15,16 @@ e2e-csr-back = Tilbake
 # Do not translate: CSR
 e2e-csr-button =
     .label = Generer og lagre ei CSR-fil som…
+# Do not translate: CSR
+e2e-csr-select-title = CSR-algoritme
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Vel mellom RSA (tilrådd) eller ECC som din kryptografiske algoritme for det nye S/MIME-sertifikatet.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Inkluder e-postadressa ({ $email }) i CSR (tilrådd)
+# $file A filename
+e2e-csr-failure = Klarte ikkje å lagre CSR til fila { $file }
+e2e-signing-description = Ein digital signatur lèt mottakarar stadfeste at meldinga vart send av deg og at innhaldet ikkje vart endra. Krypterte meldingar er alltid signerte som standard.
 e2e-sign-message =
     .label = Signer ukrypterte meldingar
     .accesskey = u
