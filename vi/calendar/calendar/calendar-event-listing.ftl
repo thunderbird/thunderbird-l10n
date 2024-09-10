@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Sự kiện trong quá khứ
 calendar-event-listing-interval-calendar-month =
     .label = Sự kiện trong tháng này
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Sự kiện trong 6 tháng tiếp theo
 calendar-event-listing-interval-next-12-months =
     .label = Sự kiện trong 12 tháng tiếp theo
+calendar-event-listing-interval-all =
+    .label = Tất cả sự kiện
 calendar-event-listing-interval-selected-day =
     .label = Ngày được chọn
 calendar-event-listing-interval-today =
