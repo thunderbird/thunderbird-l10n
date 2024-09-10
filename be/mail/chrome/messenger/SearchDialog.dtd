@@ -3,14 +3,14 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- for SearchDialog.xhtml -->
-<!ENTITY searchHeading.label         "Шукаць лісты ў:">
-<!ENTITY searchHeading.accesskey     "ў">
-<!ENTITY searchSubfolders.label      "Пошук у падпапках">
-<!ENTITY searchSubfolders.accesskey  "о">
+<!ENTITY searchHeading.label         "Шукаць паведамленні ў:">
+<!ENTITY searchHeading.accesskey     "Ш">
+<!ENTITY searchSubfolders.label      "Шукаць у падпапках">
+<!ENTITY searchSubfolders.accesskey  "у">
 <!ENTITY searchOnServer.label        "Запусціць пошук на серверы">
-<!ENTITY searchOnServer.accesskey    "ы">
+<!ENTITY searchOnServer.accesskey    "З">
 <!ENTITY resetButton.label           "Ачысціць">
-<!ENTITY resetButton.accesskey       "ч">
+<!ENTITY resetButton.accesskey       "А">
 <!ENTITY openButton.label            "Адкрыць">
 <!ENTITY openButton.accesskey        "А">
 <!ENTITY deleteButton.label          "Выдаліць">
