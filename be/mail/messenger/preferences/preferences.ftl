@@ -43,6 +43,7 @@ privacy-passwords-header = Паролі
 privacy-junk-header = Спам
 collection-header = Збор і выкарыстанне даных { -brand-short-name }
 collection-privacy-notice = Апавяшчэнне аб прыватнасці
+collection-health-report-telemetry-disabled = Вы больш не дазваляеце { -vendor-short-name } збіраць тэхнічныя даныя і даныя ўзаемадзеяння. Усе пазбіраныя даныя будуць выдалены на працягу 30 дзён.
 collection-health-report-telemetry-disabled-link = Даведацца больш
 collection-health-report =
     .label = Дазволіць { -brand-short-name } адпраўляць тэхнічныя даныя і даныя ўзаемадзеяння ў { -vendor-short-name }
@@ -107,6 +108,11 @@ add-web-search-engine =
 remove-search-engine =
     .label = Выдаліць
     .accesskey = В
+add-opensearch-provider-title = Дадаць пастаўшчыка паслуг OpenSearch
+adding-opensearch-provider-failed-title = Не атрымалася дадаць пастаўшчыка паслуг OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
+adding-opensearch-provider-failed-text = Не атрымалася дадаць пастаўшчыка паслуг OpenSearch для { $url }.
 new-message-arrival = Пры з'яўленні новых паведамленняў:
 mail-play-sound-label =
     .label =
