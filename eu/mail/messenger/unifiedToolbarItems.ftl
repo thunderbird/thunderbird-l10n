@@ -149,9 +149,17 @@ toolbar-create-address-book-label = Helbide-liburu berria
 toolbar-create-address-book =
     .title = Sortu helbide-liburu berria
 toolbar-create-list-label = Zerrenda berria
+toolbar-create-list =
+    .title = Sortu posta-zerrenda berria
 toolbar-import-contacts-label = Inportatu
 toolbar-import-contacts =
     .title = Inportatu kontaktuak fitxategitik…
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Gehitu helbide-liburu lokala
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Gehitu CardDAV helbide-liburua
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Gehitu LDAP helbide-liburua
