@@ -191,6 +191,21 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = Birbidali
     .accesskey = B
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Eranskin gisa
+           *[other] Eranskin gisa
+        }
+    .accesskey = E
+mail-context-menu-organize =
+    .label = Antolatu
+    .accesskey = A
+mail-context-menu-threads =
+    .label = Hariak
+    .accesskey = H
 context-menu-redirect-msg =
     .label = Birbideratzea
 # This menu item is for canceling an NNTP message
@@ -212,6 +227,24 @@ mail-context-undelete-messages =
             [one] Desezabatu mezua
            *[other] Desezabatu hautatutako mezuak
         }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Ezabatu hautatutako mezua
+           *[other] Ezabatu hautatutako mezuak
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Desezabatu hautatutako mezua
+           *[other] Desezabatu hautatutako mezuak
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 
 ## Message header pane
 

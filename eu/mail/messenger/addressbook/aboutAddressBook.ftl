@@ -8,6 +8,8 @@ about-addressbook-title = Helbide-liburua
 
 about-addressbook-toolbar-new-address-book =
     .label = Helbide-liburu berria
+about-addressbook-toolbar-add-address-book =
+    .label = Gehitu helbide-liburu lokala
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Gehitu CardDAV helbide-liburua
 about-addressbook-toolbar-add-ldap-address-book =
@@ -18,6 +20,14 @@ about-addressbook-toolbar-new-list =
     .label = Zerrenda berria
 about-addressbook-toolbar-import =
     .label = Inportatu
+books-pane-create-contact-button = Kontaktu berria
+    .title = Sortu kontaktu berria
+books-pane-create-book-button =
+    .title = Sortu helbide-liburu berria
+books-pane-create-list-button =
+    .title = Sortu posta-zerrenda berria
+books-pane-import-button = Inportatu
+    .title = Inportatu helbide-liburua
 
 ## Books
 
