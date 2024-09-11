@@ -75,6 +75,8 @@ open-addons-sidebar-button = Дадаткі і тэмы
 ## OS Authentication dialog
 
 # This message can be seen by trying to add a Primary Password.
+primary-password-os-auth-dialog-message-win = Каб стварыць майстар-пароль, увядзіце вашы ўліковыя даныя Windows. Гэта дапаможа трымаць вашы ўліковыя запісы ў бяспецы.
+# This message can be seen by trying to add a Primary Password.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
