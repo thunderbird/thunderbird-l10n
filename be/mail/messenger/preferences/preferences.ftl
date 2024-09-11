@@ -408,6 +408,9 @@ font-label =
 font-size-label =
     .value = Памер:
     .accesskey = м
+default-colors-label =
+    .label = Выкарыстоўваць прадвызначаныя колеры чытача
+    .accesskey = В
 font-color-label =
     .value = Колер тэксту:
     .accesskey = т
@@ -441,6 +444,12 @@ directories-none-label =
 edit-directories-label =
     .label = Рэдагаваць каталогі…
     .accesskey = Р
+email-picker-label =
+    .label = Аўтаматычна дадаваць адрасы электроннай пошты з выходных лістоў у адрасную кнігу:
+    .accesskey = А
+default-directory-label =
+    .value = Пачатковы каталог пры адкрыцці акна адраснай кнігі:
+    .accesskey = П
 default-last-label =
     .none = Апошні выкарыстаны каталог
 attachment-options-label =
@@ -455,6 +464,8 @@ add-cloud-account =
 remove-cloud-account =
     .label = Выдаліць
     .accesskey = В
+find-cloud-providers =
+    .value = Знайсці больш дастаўнікаў паслуг…
 
 ## Privacy Tab
 
