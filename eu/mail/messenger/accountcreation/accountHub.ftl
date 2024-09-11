@@ -75,8 +75,14 @@ account-hub-ssl-encrypted-password-option =
 
 account-hub-ssl-noencryption-option =
     .label = Bat ere ez
+account-hub-auth-no-authentication-option =
+    .label = Autentifikaziorik ez
 account-hub-auth-label = Autentifikazio-metodoa
 account-hub-username-label = Erabiltzaile-izena
 account-hub-adding-account-title = Kontua gehitzen
 account-hub-adding-account-subheader = Kontuaren konfigurazio ezarpenak birprobatzen
-account-hub-account-added-title = Kontua gehitua
+account-hub-lookup-email-configuration-title = Konfigurazioa balioztatzen
+account-hub-email-account-added-title = Kontua ondo gehitu da
+account-hub-notification-show-more = Gehiago erakutsi
+account-hub-notification-show-less = Gutxiago erakutsi
+account-hub-email-setup-header = Gehitu zure helbide elektronikoa

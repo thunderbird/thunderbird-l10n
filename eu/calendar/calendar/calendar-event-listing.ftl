@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Iraganeko gertaerak
 calendar-event-listing-interval-calendar-month =
     .label = Egutegi-hilabete honetako gertaerak
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Hurrengo 6 hiletako gertaerak
 calendar-event-listing-interval-next-12-months =
     .label = Hurrengo 12 hiletako gertaerak
+calendar-event-listing-interval-all =
+    .label = Gertaera guztiak
 calendar-event-listing-interval-selected-day =
     .label = Hautaturiko eguna
 calendar-event-listing-interval-today =

@@ -66,6 +66,14 @@ about-addressbook-search =
     .placeholder = Bilatu { $name }
 about-addressbook-search-all =
     .placeholder = Bilatu helbide-liburu guztiak
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Bilatu { $name }
+    .placeholder = Bilatu { $name }…
+about-addressbook-search-all2 =
+    .label = Bilatu helbide-liburu guztiak
+    .placeholder = Bilatu helbide-liburu guztiak…
 about-addressbook-sort-button2 =
     .title = Zerrendatu bistaratzeko aukerak
 about-addressbook-name-format-display =
@@ -92,34 +100,74 @@ about-addressbook-column-header-generatedname2 = Izena
     .title = Izenez ordenatu
 about-addressbook-column-label-generatedname2 =
     .label = Izena
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Izena
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Helbide elektronikoak
     .title = Helbidearen arabera ordenatu
 about-addressbook-column-label-emailaddresses2 =
     .label = Helbide elektronikoak
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Helbide elektronikoak
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Goitizena
     .title = Goitizenaren arabera ordenatu
 about-addressbook-column-label-nickname2 =
     .label = Goitizena
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Goitizena
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Telefono zenbakiak
     .title = Telefono zenbakiz ordenatu
 about-addressbook-column-label-phonenumbers2 =
     .label = Telefono zenbakiak
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Telefono zenbakiak
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Helbideak
     .title = Helbidearen arabera ordenatu
 about-addressbook-column-label-addresses2 =
     .label = Helbideak
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Helbideak
+    .title = { $title }
 about-addressbook-column-header-title2 = Titulua
     .title = Tituluaren arabera ordenatu
 about-addressbook-column-label-title2 =
     .label = Titulua
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Izenburua
+    .title = { $title }
 about-addressbook-column-header-department2 = Saila
     .title = Sailaren arabera ordenatu
 about-addressbook-column-label-department2 =
     .label = Saila
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Saila
+    .title = { $title }
 about-addressbook-column-header-organization2 = Erakundea
     .title = Erakundearen arabera ordenatu
 about-addressbook-column-label-organization2 =
     .label = Erakundea
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Erakundea
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Helbide-liburua
     .title = Helbide-liburuaren arabera ordenatu
 about-addressbook-column-label-addrbook2 =
