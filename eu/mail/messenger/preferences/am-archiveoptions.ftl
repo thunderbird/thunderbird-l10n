@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Mantendu artxibatutako mezuen karpeten uneko egitura
     .accesskey = M
+recreate-inbox =
+    .label = Sarrerako karpeta birsortu
+    .accesskey = S
 archive-example-label = Adibidea
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,5 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Sarrera-ontzia
+child-folder-name =
+    .label = Azpikarpeta sarrera-ontzian
