@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Múltbeli események
 calendar-event-listing-interval-calendar-month =
     .label = Események ebben a naptári hónapban
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Események a következő 6 hónapban
 calendar-event-listing-interval-next-12-months =
     .label = Események a következő 12 hónapban
+calendar-event-listing-interval-all =
+    .label = Összes esemény
 calendar-event-listing-interval-selected-day =
     .label = A most kiválasztott nap
 calendar-event-listing-interval-today =
