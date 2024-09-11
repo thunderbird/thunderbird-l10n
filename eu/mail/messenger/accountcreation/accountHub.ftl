@@ -86,3 +86,5 @@ account-hub-email-account-added-title = Kontua ondo gehitu da
 account-hub-notification-show-more = Gehiago erakutsi
 account-hub-notification-show-less = Gutxiago erakutsi
 account-hub-email-setup-header = Gehitu zure helbide elektronikoa
+account-hub-test-configuration = Probatu
+account-hub-add-new-email = Gehitu beste posta elektroniko bat

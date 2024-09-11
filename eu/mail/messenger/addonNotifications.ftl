@@ -34,6 +34,7 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Gune hau zure MIDI (Musical Instrument Digital Interface) gailuetarako sarbidea eskatzen ari da. Gehigarri bat instalatuz gai daiteke gailuetarako sarbidea.
 site-permission-install-first-prompt-midi-message = Sarbide hau ez dago bermatua segurua denik. Jarraitu bakarrik gunean konfiantza baduzu.
 
 ##

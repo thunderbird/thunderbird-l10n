@@ -503,6 +503,13 @@ apply-current-view-to-folder-message = Aplikatu uneko karpeten ikuspegia { $name
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Aplikatu uneko karpeten ikuspegia { $name }(e)ri eta bere umeetan?
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> mezu
+       *[other] <span>{ $total }</span> mezu
+    }
 threadpane-card-menu-button =
     .title = Mezu menua
 message-list-placeholder-no-messages = Ez da mezua aurkitu

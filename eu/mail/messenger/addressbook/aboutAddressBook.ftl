@@ -172,6 +172,11 @@ about-addressbook-column-header-addrbook2 = Helbide-liburua
     .title = Helbide-liburuaren arabera ordenatu
 about-addressbook-column-label-addrbook2 =
     .label = Helbide-liburua
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Helbide-liburua
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Idatzi
 about-addressbook-confirm-delete-mixed-title = Ezabatu kontaktuak eta posta-zerrendak

@@ -26,6 +26,9 @@ menu-help-get-help =
 menu-help-explore-features =
     .label = Eginbideak esploratu
     .accesskey = E
+menu-help-get-release-help =
+    .label = Lortu { -brand-short-name } laguntza
+    .accesskey = L
 menu-help-shortcuts =
     .label = Teklatuaren lasterbideak
     .accesskey = k
@@ -44,9 +47,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Desaktibatu arazoak konpontzeko modua
     .accesskey = D
-menu-help-more-troubleshooting-info =
-    .label = Arazoak konpontzeko informazio gehiago
-    .accesskey = i
 menu-help-troubleshooting-info =
     .label = Arazoak konpontzeko informazioa…
     .accesskey = i
@@ -68,6 +68,15 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Irten { -brand-shorter-name }(e)tik
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Irten { -brand-full-name }
+           *[other] Irten { -brand-full-name }
+        }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = I
 
@@ -121,12 +130,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Trinkoa
     .accesskey = T
-mail-uidensity-normal =
-    .label = Arrunta
-    .accesskey = A
-mail-uidensity-touch =
-    .label = Ukipena
-    .accesskey = U
 mail-uidensity-default =
     .label = Lehenetsia
     .accesskey = L
@@ -139,6 +142,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Posta elektroniko kontua
+    .accesskey = P
 file-new-newsgroup-account =
     .label = Berri-talde kontua…
     .accesskey = B

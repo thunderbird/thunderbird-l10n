@@ -6,6 +6,7 @@ cookies-window-dialog2 =
     .title = Cookieak
 window-close-key =
     .key = w
+cookies-dialog-title = Cookieak
 window-focus-search-key =
     .key = f
 window-focus-search-alt-key =

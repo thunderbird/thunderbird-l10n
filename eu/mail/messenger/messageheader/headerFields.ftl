@@ -27,6 +27,22 @@ message-header-references-field = Erreferentziak<span data-l10n-name="field-sepa
 message-header-message-id-field = Mezuaren ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Honi erantzunez<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Webgunea<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Laguntza lortu
+    .accesskey = L
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Kendu harpidetza…
+    .accesskey = K
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Harpidetu…
+    .accesskey = H
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Idatzi
+    .accesskey = I
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
