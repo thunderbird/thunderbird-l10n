@@ -73,7 +73,7 @@ account-setup-looking-up-settings = Пошук канфігурацыі…
 account-setup-looking-up-settings-guess = Пошук канфігурацыі: спроба выкарыстаць тыповыя імёны сервераў…
 account-setup-looking-up-settings-half-manual = Пошук канфігурацыі: праверка сервера…
 account-setup-looking-up-disk = Пошук канфігурацыі: усталёўка { -brand-short-name }…
-account-setup-looking-up-isp = Пошук канфігурацыі: пастаўшчык паслуг электроннай пошты…
+account-setup-looking-up-isp = Пошук канфігурацыі: дастаўнік паслуг электроннай пошты…
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-looking-up-db = Пошук канфігурацыі: база даных Mozilla ISP…
 account-setup-looking-up-mx = Пошук канфігурацыі: дамен уваходнай пошты…
@@ -88,7 +88,7 @@ account-setup-success-addon = Дадатак паспяхова усталява
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Знойдзена канфігурацыя ў базе даных ISP Mozilla.
 account-setup-success-settings-disk = Знойдзена канфігурацыя ў усталёўцы { -brand-short-name }.
-account-setup-success-settings-isp = Знойдзена канфігурацыя ў пастаўшчыка паслуг электроннай пошты.
+account-setup-success-settings-isp = Знойдзена канфігурацыя ў дастаўніка паслуг электроннай пошты.
 # Note: Microsoft Exchange is a product name.
 account-setup-success-settings-exchange = Знойдзена канфігурацыя для сервера Microsoft Exchange.
 
@@ -187,7 +187,7 @@ account-setup-warning-cleartext = <b>{ $server }</b> не выкарыстоўв
 account-setup-warning-cleartext-details = Небяспечныя паштовыя серверы не ўжываюць шыфраванне, каб абараніць вашы паролі і асабістыя звесткі. Пры злучэнні з гэтым серверам, вы можаце раскрыць ваш пароль і асабістыя звесткі.
 account-setup-insecure-server-checkbox = Я разумею рызыкі
     .accesskey = Я
-account-setup-insecure-description = { -brand-short-name } можа дазволіць вам атрымліваць вашу пошту з дапамогай прадстаўленай канфігурацыі. Аднак вам трэба звярнуцца да вашага сістэмнага адміністратара або пастаўшчыка паслуг электроннай пошты наконт гэтых неналежных злучэнняў. Каб даведацца больш, глядзіце <a data-l10n-name="thunderbird-faq-link">Thunderbird FAQ</a>.
+account-setup-insecure-description = { -brand-short-name } можа дазволіць вам атрымліваць вашу пошту з дапамогай прадстаўленай канфігурацыі. Аднак вам трэба звярнуцца да вашага сістэмнага адміністратара або дастаўніка паслуг электроннай пошты наконт гэтых неналежных злучэнняў. Каб даведацца больш, глядзіце <a data-l10n-name="thunderbird-faq-link">Thunderbird FAQ</a>.
 insecure-dialog-cancel-button = Змяніць налады
     .accesskey = З
 insecure-dialog-confirm-button = Пацвердзіць

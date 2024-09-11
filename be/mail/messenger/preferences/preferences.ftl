@@ -108,11 +108,11 @@ add-web-search-engine =
 remove-search-engine =
     .label = Выдаліць
     .accesskey = В
-add-opensearch-provider-title = Дадаць пастаўшчыка паслуг OpenSearch
-adding-opensearch-provider-failed-title = Не атрымалася дадаць пастаўшчыка паслуг OpenSearch
+add-opensearch-provider-title = Дадаць дастаўніка паслуг OpenSearch
+adding-opensearch-provider-failed-title = Не атрымалася дадаць дастаўніка паслуг OpenSearch
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
-adding-opensearch-provider-failed-text = Не атрымалася дадаць пастаўшчыка паслуг OpenSearch для { $url }.
+adding-opensearch-provider-failed-text = Не атрымалася дадаць дастаўніка паслуг OpenSearch для { $url }.
 new-message-arrival = Пры з'яўленні новых паведамленняў:
 mail-play-sound-label =
     .label =
