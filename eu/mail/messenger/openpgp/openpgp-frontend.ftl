@@ -36,6 +36,7 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Itxaron mesedez…
 openpgp-has-nested-encrypted-parts = Mezu honek zifratutako atal gehigarriak ditu
 openpgp-show-encrypted-parts = Deszifratu eta erakutsi
+openpgp-show-signed-parts = Ireki eta erakutsi
 openpgp-cannot-decrypt-because-mdc =
     Babesik gabeko mekanismo zahar bat darabilen zifratutako mezu bat da hau.
     Bere edukia lapurtzeko asmoz, bere ibilbidean aldatua izan ahal da.

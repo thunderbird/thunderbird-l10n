@@ -28,6 +28,10 @@ openpgp-invalid-sig = Sinadura digital baliogabea
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Sinadura digital baliogabea - { $date } datan sinatua
+openpgp-bad-date-sig = Sinadura data ez dator bat
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Sinadura data ez dator bat - sinadura data { $date }
 openpgp-good-sig = Sinadura digital ona
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
