@@ -109,6 +109,7 @@ remove-search-engine =
     .label = Выдаліць
     .accesskey = В
 add-opensearch-provider-title = Дадаць дастаўніка паслуг OpenSearch
+add-opensearch-provider-text = Каб дадаць дастаўніка паслуг OpenSearch, увядзіце яго URL. Выкарыстоўвайце альбо прамы URL файла апісання OpenSearch, альбо URL, па якому гэты файл можа быць аўтаматычна выяўлены.
 adding-opensearch-provider-failed-title = Не атрымалася дадаць дастаўніка паслуг OpenSearch
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
@@ -345,7 +346,10 @@ open-msg-ex-window =
 close-move-delete =
     .label = Закрываць акно/укладку паведамлення пры яго перамяшчэнні або выдаленні
     .accesskey = З
+display-name-label =
+    .value = Бачнае імя:
 address-display-legend = Спіс паведамленняў
+address-display-description = Пераважны фармат адлюстравання адрасоў:
 address-display-full =
     .label = Поўнае імя і адрас электроннай пошты
     .accesskey = П
@@ -355,6 +359,9 @@ address-display-email =
 address-display-name =
     .label = Толькі імя
     .accesskey = і
+condensed-addresses-label =
+    .label = Паказваць толькі бачнае імя для людзей, якія знаходзяцца ў маёй адраснай кнізе
+    .accesskey = П
 
 ## Compose Tab
 
