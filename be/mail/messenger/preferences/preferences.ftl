@@ -476,6 +476,7 @@ remote-content-label =
 exceptions-button =
     .label = Выключэнні…
     .accesskey = ы
+web-content = Змесціва вэб-сайтаў
 cookies-label =
     .label = Прымаць кукі з сайтаў
     .accesskey = П
