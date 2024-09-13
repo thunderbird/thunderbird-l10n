@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Veprimtari në të Kaluarën
 calendar-event-listing-interval-calendar-month =
     .label = Veprimtaritë në këtë Muaj Kalendarik
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,8 @@ calendar-event-listing-interval-next-6-months =
     .label = Veprimtari në 6 Muajt e Ardhshëm
 calendar-event-listing-interval-next-12-months =
     .label = Veprimtari në 12 Muajt e Ardhshëm
+calendar-event-listing-interval-all =
+    .label = Krejt Veprimtaritë
 calendar-event-listing-interval-selected-day =
     .label = Ditën e Përzgjedhur Tani
 calendar-event-listing-interval-today =
