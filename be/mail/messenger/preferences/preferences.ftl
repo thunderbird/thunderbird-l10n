@@ -210,6 +210,7 @@ network-settings-button =
     .label = Налады…
     .accesskey = Н
 offline-legend = Па-за сеткай
+offline-settings = Наладзіць працу па-за сеткаю
 offline-settings-button =
     .label = Па-за сеткай…
     .accesskey = й
