@@ -120,8 +120,6 @@ quick-filter-bar-textbox-shortcut =
 # box faster.
 quick-filter-bar-textbox =
     .placeholder = Filtriraj ove poruke <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Filtriranje poruka:
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -507,5 +505,32 @@ apply-current-view-to-folder-message = Primjeni prikaz trenutne mape na { $name 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Primjeni prikaz trenutne mape na { $name } i podmape?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>{ $unread }</span> poruka od <span>{ $total }</span> nepročitana
+                [few] <span>{ $unread }</span> poruke od <span>{ $total }</span> poruka nepročitane
+               *[other] <span>{ $unread }</span> poruka od <span>{ $total }</span> poruka nepročitano
+            }
+        [few]
+            { $total ->
+                [one] <span>{ $unread }</span> poruka od <span>{ $total }</span> nepročitana
+                [few] <span>{ $unread }</span> poruke od <span>{ $total }</span> poruka nepročitane
+               *[other] <span>{ $unread }</span> poruka od <span>{ $total }</span> poruka nepročitano
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> poruka od <span>{ $total }</span> nepročitana
+                [few] <span>{ $unread }</span> poruke od <span>{ $total }</span> poruka nepročitane
+               *[other] <span>{ $unread }</span> poruka od <span>{ $total }</span> poruka nepročitano
+            }
+    }
 threadpane-card-menu-button =
     .title = Izbornik poruke
+
+## Folder pane context menu
+
