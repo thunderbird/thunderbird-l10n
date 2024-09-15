@@ -52,7 +52,7 @@
 <!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY expungeOnExit.label "Стискати теку «Вхідні» при виході">
 <!ENTITY expungeOnExit.accesskey "т">
-<!ENTITY emptyTrashOnExit.label "Очищувати «Кошик» при виході">
+<!ENTITY emptyTrashOnExit.label "Очищати смітник під час виходу">
 <!ENTITY emptyTrashOnExit.accesskey "ч">
 <!ENTITY loginAtStartup.label "Перевіряти повідомлення під час запуску">
 <!ENTITY loginAtStartup.accesskey "в">
