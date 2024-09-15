@@ -43,7 +43,7 @@
 <!ENTITY downloadOnBiff.label "Автоматично завантажувати нові повідомлення">
 <!ENTITY downloadOnBiff.accesskey "о">
 <!ENTITY deleteMessagePrefix.label "Під час видалення повідомлення:">
-<!ENTITY modelMoveToTrash.label "Перемістити його в теку «Кошик»">
+<!ENTITY modelMoveToTrash.label "Перемістити в теку:">
 <!ENTITY modelMoveToTrash.accesskey "К">
 <!ENTITY modelMarkDeleted.label "Позначити його для вилучення">
 <!ENTITY modelMarkDeleted.accesskey "у">
