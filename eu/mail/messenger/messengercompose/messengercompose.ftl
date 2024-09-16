@@ -185,6 +185,10 @@ menu-open-key-manager =
     .label = Gako kudeatzailea
     .accesskey = k
 # Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Ez zaude konfiguratua { $addr }(e)tik mezu zifratuak bidaltzeko.
+# Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Muturretik muturrerako zifratzeak { $addr }(e)n gako arazoak konpontzea eskatzen du.
 # Variables:
@@ -267,6 +271,7 @@ show-bcc-row-button = Bcc
     .title = Erakutsi Bcc eremua ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Beste helbide eremuak erakusteko
+public-recipients-notice-single = Zure mezuak hartzaile publiko bat du. Hartzailea ezagutaraztea saihestu dezakezu Bcc erabilita.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
 public-recipients-notice-multi =

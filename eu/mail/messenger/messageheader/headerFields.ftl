@@ -14,6 +14,8 @@ message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = Berri-taldeak
 message-header-followup-to-list-name = Jarraipena honi
 message-header-tags-list-name = Etiketak
+# List management header - RFC 2369.
+message-header-list-id = List-ID
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -43,6 +45,18 @@ list-id-list-subscribe =
 list-id-list-post =
     .label = Idatzi
     .accesskey = I
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Jarri harremanetan administratzailearekin…
+    .accesskey = a
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Zerrendako fitxategiak
+    .accesskey = f
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Mezuaaren esteka iraunkorra
+    .accesskey = i
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
