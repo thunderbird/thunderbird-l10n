@@ -603,7 +603,7 @@
 <!ENTITY folderContextOpenInNewWindow.accesskey "N">
 <!ENTITY folderContextOpenNewTab.label "Agor mewn Tab Newydd">
 <!ENTITY folderContextOpenNewTab.accesskey "T">
-<!ENTITY folderContextNew.label "Is ffolder Newydd…">
+<!ENTITY folderContextNew.label "Is Ffolder Newydd…">
 <!ENTITY folderContextNew.accesskey "I">
 <!ENTITY folderContextRename.label "Ailenwi">
 <!ENTITY folderContextRename.accesskey "A">
