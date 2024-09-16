@@ -24,6 +24,7 @@ webext-perms-description-compose-save = Gorde posta elektroniko konposatuak zirr
 webext-perms-description-experiment = Osoa eduki, mugarik gabeko sarrera { -brand-short-name }-(e)ra eta zure ordenagailura
 webext-perms-description-messagesImport = Inportatu mezuak Thunderbirdera
 webext-perms-description-messagesModify = Irakurri eta aldatu zure posta elektronikoak erakusten zaizkizun eran
+webext-perms-description-messagesModifyPermanent = Aldatu betirako zure mezuen iturria (goiburuak, gorputza eta eranskinak barne)
 webext-perms-description-messagesMove = Kopiatu edo mugitu zure posta mezuak (hauek zakarrontzi karpetara mugitzea barne)
 webext-perms-description-messagesDelete = Betirako ezabatu zure posta mezuak
 webext-perms-description-messagesRead = Irakurri zure posta elektroniko mezuak eta horiek markatu edo etiketatu
