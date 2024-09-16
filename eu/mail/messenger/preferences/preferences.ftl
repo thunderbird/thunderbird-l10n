@@ -639,8 +639,15 @@ email-e2ee-header = Muturretik muturrerako zifratzea posta elektronikoan
 account-settings = Kontu-ezarpenak
 email-e2ee-enable-info = Konfiguratu posta elektronikoko kontuak eta identitateak Muturretik-Muturrerako zifraketarako, kontuaren ezarpenetan.
 email-e2ee-automatism = Zifratzearen erabilera automatikoa
+email-e2ee-automatism-pre =
+    { -brand-short-name } lagun dezake zifratzea automatikoki gaituz edo desgaituz mezu elektroniko bat idazten duzun bitartean.
+    Gaitu/desgaitu automatikoki korrespontsalen gako edo ziurtagiri baliozko eta onartuen erabilgarritasunean oinarritzen da.
 email-e2ee-auto-on =
     .label = Gaitu automatikoki zifratzea posible denean
+email-e2ee-auto-off =
+    .label = Desgaitu automatikoki zifratzea hartzaileak aldatzen direnean eta zifratzea posible ez denean
+email-e2ee-auto-off-notify =
+    .label = Erakutsi jakinarazpen bat zifratzea automatikoki desgaitzen den bakoitzean
 
 ## Chat Tab
 
