@@ -412,3 +412,5 @@ link-preview-yes-replace = Bai
 spell-add-dictionaries =
     .label = Gehitu hiztegiak…
     .accesskey = h
+subject-encription-icon =
+    .title = Gaia ez da zifratuko

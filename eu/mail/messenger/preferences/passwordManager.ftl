@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Gordetako saio-hasierak
-saved-logins-title = Gordetako saio-hasierak
 window-close =
     .key = i
+saved-logins-title = Gordetako saio-hasierak
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Egiaztatu zure identitatea gordetako pasahitza
 password-os-auth-dialog-message-macosx = agerrarazi gordetako pasahitza
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] aldatu pasahitzen ezarpenak
+       *[other] { -brand-short-name }pasahitzen ezarpenak aldatzen saiatzen ari da. Hasi saioa zure gailuan hau ahalbidetzeko.
+    }

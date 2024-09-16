@@ -637,6 +637,7 @@ security-devices-button =
     .accesskey = S
 email-e2ee-header = Muturretik muturrerako zifratzea posta elektronikoan
 account-settings = Kontu-ezarpenak
+email-e2ee-enable-info = Konfiguratu posta elektronikoko kontuak eta identitateak Muturretik-Muturrerako zifraketarako, kontuaren ezarpenetan.
 email-e2ee-automatism = Zifratzearen erabilera automatikoa
 email-e2ee-auto-on =
     .label = Gaitu automatikoki zifratzea posible denean

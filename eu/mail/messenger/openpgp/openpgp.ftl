@@ -499,6 +499,7 @@ key-man-button-export-pub-key = Esportatu gako &publikoak bakarrik
 key-man-button-refresh-all = &Freskatu gako guztiak
 key-man-loading-keys = Gakoak kargatzen, mesedez itxaron…
 ascii-armor-file = ASCII egitura fitxategiak (*.asc)
+text-file = Testu fitxategiak (*.txt)
 no-key-selected = Gutxienez gako bat aukeratu beharko zenuke aukeratutako eragiketa egiteko
 export-to-file = Esportatu gako publikoa fitxategira
 export-keypair-to-file = Esportatu gako publiko eta pribatua fitxategira

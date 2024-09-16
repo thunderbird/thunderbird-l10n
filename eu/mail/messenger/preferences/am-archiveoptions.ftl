@@ -28,3 +28,5 @@ inbox-folder-name =
     .label = Sarrera-ontzia
 child-folder-name =
     .label = Azpikarpeta sarrera-ontzian
+sibling-folder-name =
+    .label = Sarrera-ontziaren birkia

@@ -272,6 +272,9 @@ mail-context-messages-undelete =
            *[other] Desezabatu hautatutako mezuak
         }
     .tooltiptext = { mail-context-messages-undelete.label }
+context-menu-decrypt-to-folder2 =
+    .label = Sortu deszifratutako kopia
+    .accesskey = k
 
 ## Message header pane
 
