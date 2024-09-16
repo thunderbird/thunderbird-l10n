@@ -16,6 +16,7 @@ connection-error-time-out = Konexioa denboraz kanpo
 connection-error-invalid-username = { $username } erabiltzaile-izena ez da baimentzen
 connection-error-invalid-password = Zerbitzari pasahitz baliogabea
 connection-error-password-required = Pasahitza behar da
+connection-error-invalid-user-password = Pasahitz baliogabea
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanala

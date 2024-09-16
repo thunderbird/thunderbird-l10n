@@ -504,6 +504,22 @@ apply-current-view-to-folder-message = Aplikatu uneko karpeten ikuspegia { $name
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Aplikatu uneko karpeten ikuspegia { $name }(e)ri eta bere umeetan?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] Mezu <span>1</span> irakurtzeke mezu <span>1</span>etik
+               *[other] Mezu <span>1</span> irakurtzeke <span>{ $total }</span> mezutik
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> mezu irakurtzeke mezu <span>1</span>etik
+               *[other] <span>{ $unread }</span> mezu irakurtzeke <span>{ $total }</span> mezutik
+            }
+    }
+# Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
     { $total ->
