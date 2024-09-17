@@ -37,6 +37,17 @@ aboutDialog-version = { $version } ({ $bits }-Bit)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-Bit)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Suche nach Updates fehlgeschlagen.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> ist eine <a data-l10n-name="community-exp-credits-link">globale Community</a>, die daran arbeitet, dass das Internet frei, öffentlich und für jeden zugänglich bleibt.
 community-desc = { -brand-short-name } wird entwickelt und gestaltet von <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, einer <a data-l10n-name="community-credits-link">globalen Community</a>, die daran arbeitet, dass das Internet frei, öffentlich und für jeden zugänglich bleibt.
