@@ -37,6 +37,17 @@ aboutDialog-version = { $version } ({ $bits } bites)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bites)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Nem sikerült a frissítések keresése.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> egy <a data-l10n-name="community-exp-credits-link">nemzetközi közösség</a>, amely a nyílt, nyilvános és mindenki számára elérhető internetért dolgozik.
 community-desc = A { -brand-short-name }öt a <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> tervezte, egy <a data-l10n-name="community-credits-link">nemzetközi közösség</a>, amely a nyílt, nyilvános és mindenki számára elérhető internetért dolgozik.
