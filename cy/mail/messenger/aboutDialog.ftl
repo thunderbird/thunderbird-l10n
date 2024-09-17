@@ -37,6 +37,17 @@ aboutDialog-version = { $version } ({ $bits }-did)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-did)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Wedi methu â gwirio am ddiweddariadau.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">Mae { -vendor-short-name }</a> yn <a data-l10n-name="community-exp-credits-link">gymuned fyd-eang</a> sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
 community-desc = Cynlluniwyd { -brand-short-name } gan <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, a <a data-l10n-name="community-credits-link">chymuned fyd-eang</a> sy'n cydweithio i gadw'r We yn agored, cyhoeddus ac ar gael i bawb.
