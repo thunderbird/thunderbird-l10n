@@ -412,3 +412,5 @@ link-preview-yes-replace = Да
 spell-add-dictionaries =
     .label = Добавяне на речници…
     .accesskey = р
+subject-encription-icon =
+    .title = Темата няма да бъде шифрована
