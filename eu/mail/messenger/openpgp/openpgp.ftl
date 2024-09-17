@@ -17,6 +17,8 @@ e2e-csr-button =
     .label = Sortu eta gorde CSR fitxategia honela…
 # Do not translate: CSR
 e2e-csr-select-title = CSR Algoritmoa
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Aukeratu RSA (gomendatua) edo ECC artean zure algoritmoa kriptografiatzeko S/MIME ziurtagiri berrirako.
 e2e-signing-description =
     Sinadura digitalak hartzaileak mezuak zuk bidalitakoa dela egiaztatzea ahalbidetzen du eta bere edukia ez dela aldatu.
     Zifratutako mezuak beti daude lehenetsita sinatuak.
@@ -40,6 +42,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Gorde mezuen zirriborroak formatu zifratuan
     .accesskey = z
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Bidali OpenPGP gako publikoa(k) posta elektronikoko goiburuetan Autocrypt-ekin bateragarri izateko
+    .accesskey = g
 openpgp-key-created-label =
     .label = Sortuta
 openpgp-key-expiry-label =
@@ -58,6 +64,9 @@ openpgp-key-man-gen-revoke =
     .accesskey = U
 openpgp-key-man-ctx-gen-revoke-label =
     .label = Ukatze ziurtagiria sortu eta gorde
+openpgp-key-man-gen-revocation =
+    .label = Gorde ezeztapen ziurtagiria fitxategian
+    .accesskey = e
 openpgp-key-man-file-menu =
     .label = Fitxategia
     .accesskey = F
@@ -301,6 +310,8 @@ openpgp-passphrase-status-unprotected = Babes-gabea
 openpgp-passphrase-status-primary-password = Babestua { -brand-short-name }-en pasahitz nagusiarekin
 openpgp-passphrase-status-user-passphrase = Pasaesaldiaz babestua
 openpgp-passphrase-instruction-unprotected = Ezarri pasaesaldia giltza hau babesteko
+openpgp-passphrase-instruction-primary-password = Bestela, babestu gako hau pasaesaldi bereizi batekin
+openpgp-passphrase-instruction-user-passphrase = Desblokeatu gako hau babesa aldatzeko.
 openpgp-passphrase-unlock = Desblokeatu
 openpgp-passphrase-unlocked = Gakoa behar bezala desblokeatu da.
 openpgp-remove-protection = Kendu pasaesaldi babesa

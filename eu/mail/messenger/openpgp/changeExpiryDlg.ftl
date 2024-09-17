@@ -9,6 +9,8 @@ info-will-expire = Orain gakoa ondorengo datan iraungitzeko konfiguratu da: { $d
 info-already-expired = Gakoa iraungia dago.
 info-does-not-expire = Gakoa ez dadin iraungi konfiguratu da.
 info-explanation-1 = <b>Gakoa iraungi ondoren</b>, ez da posible izango erabiltzea zifratzeko edo digitalki sinatzeko.
+# Do not translate: OpenPGP
+info-explanation-1-complex = OpenPGP gako honek gako nagusi batek eta gutxienez <b>iraungitze-data desberdinak dituen</b> azpigako batek osatzen dute.
 select-key-prompt = Aldatzeko gakoa:
 info-explanation-2 = Gakoa hau epe luzeagoan erabiltzeko, aldatu bere iraungitze data,eta orduan banatu gako publikoa zure elkarrizketatuekin berriro.
 usage-label = Erabilera:
