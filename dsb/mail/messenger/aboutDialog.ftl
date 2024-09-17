@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Nowe funkcije a změny
-aboutDialog-title =
-    .title = Wó { -brand-full-name }
 about-dialog-title = Wó { -brand-full-name }
 release-notes-link = Wersijowe informacije
 update-internal-error = Interneje zmólki dla njejo móžno za aktualizacijami pytaś. Aktualizacije su na <a data-l10n-name="manual-link"/> k dispoziciji
@@ -39,23 +37,18 @@ aboutDialog-version = { $version } ({ $bits }-bitowy)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bitow)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Pytanje za aktualizacijami njejo se raźiło.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     jo <a data-l10n-name="community-exp-credits-link">
-    globalne zgromaźeństwo,</a>
-     kótarež gromaźe źěła, aby web wótwórjony, zjawny a za wšych pśistupny wobchowało.
-community-2 =
-    { -brand-short-name } jo se wuwił wót <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , <a data-l10n-name="community-credits-link">
-    globalne zgromaźeństwo,</a>
-     kótarež gromaźe źěła, aby web wótwórjony, zjawny a za wšych pśistupny wobchowało.
-about-helpus =
-    Cośo pomagaś? <a data-l10n-name="helpus-donate-link">
-    Pósćiś</a> or <a data-l10n-name="helpus-get-involved-link">
-    cyńśo sobu!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> jo <a data-l10n-name="community-exp-credits-link">globalne zgromaźeństwo,</a> kótarež gromaźe źěła, aby web wótwórjony, zjawny a za wšych pśistupny wobchowało.
 community-desc = { -brand-short-name } jo se wuwił wót <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">globalne zgromaźeństwo,</a> kótarež gromaźe źěła, aby web wótwórjony, zjawny a za wšych pśistupny wobchowało.
 about-donation = Cośo pomagaś? <a data-l10n-name="helpus-donate-link">Pósćiś</a> or <a data-l10n-name="helpus-get-involved-link">cyńśo sobu!</a>
