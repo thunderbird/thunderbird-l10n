@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = 有什麼新鮮事
-aboutDialog-title =
-    .title = 關於 { -brand-full-name }
 about-dialog-title = 關於 { -brand-full-name }
 release-notes-link = 發行公告
 update-internal-error = 發生內部錯誤，無法檢查更新。可到下列網址下載 <a data-l10n-name="manual-link"/>
@@ -39,23 +37,18 @@ aboutDialog-version = { $version }（{ $bits } 位元）
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version }（{ $isodate }）（{ $bits } 位元）
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version }（{ $arch }）
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version }（{ $isodate }) ({ $arch }）
 aboutdialog-update-checking-failed = 更新檢查失敗。
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-    是一個<a data-l10n-name="community-exp-credits-link">
-    全球性社群</a>
-    。我們一起努力讓網路保持開放，任誰都可隨意使用。
-community-2 =
-    { -brand-short-name } 是由 <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-     所開發的產品。Mozilla 是個 <a data-l10n-name="community-credits-link">
-    全球性社群</a>
-    。我們一起努力讓網路保持開放，任誰都可隨意使用。
-about-helpus =
-    想幫忙嗎？<a data-l10n-name="helpus-donate-link">
-    捐款給我們</a> or <a data-l10n-name="helpus-get-involved-link">
-    出力參與！</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a>是一個<a data-l10n-name="community-exp-credits-link">全球性社群</a>。我們一起努力讓網路保持開放，任誰都可隨意使用。
 community-desc = { -brand-short-name } 是由 <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> 所開發的產品。Mozilla 是個 <a data-l10n-name="community-credits-link">全球性社群</a>。我們一起努力讓網路保持開放，任誰都可隨意使用。
 about-donation = 想幫忙嗎？<a data-l10n-name="helpus-donate-link">捐款給我們</a> or <a data-l10n-name="helpus-get-involved-link">出力參與！</a>
