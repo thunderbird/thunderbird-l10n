@@ -475,7 +475,7 @@ single-calendar-week = Sett: { $index }
 # used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
 #    $endIndex will be replaced with the index of the end-week
-several-long-calendar-weeks = Settimane di calendario { $startIndex }-{ $endIndex }
+several-long-calendar-weeks = Settimane del calendario { $startIndex }–{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
