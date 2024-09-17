@@ -646,6 +646,9 @@ confirm-permissive-import = Inportazioak huts egin du. Inportatzea saiatzen ari 
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Inportatutako gako sekretu batzuek onartzen ez duten funtzio bat iragartzen dute. Gako hori zure gako pertsonal gisa erabiltzen baduzu, mezu-idazleek mezu elektronikoak edo gako publikoak bidal diezazkizukete bateraezina den formatu batean. Honek hatz-marka hauek dituzten inportatutako gako sekretuei eragiten die:{ $fingerprints }.
 help-button = Laguntza
 
 ## Strings used in trust.sys.mjs

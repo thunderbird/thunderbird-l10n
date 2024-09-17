@@ -648,6 +648,9 @@ email-e2ee-auto-off =
     .label = Desgaitu automatikoki zifratzea hartzaileak aldatzen direnean eta zifratzea posible ez denean
 email-e2ee-auto-off-notify =
     .label = Erakutsi jakinarazpen bat zifratzea automatikoki desgaitzen den bakoitzean
+email-e2ee-automatism-post =
+    Erabaki automatikoak baliogabetu daitezke mezu bat idazterakoan zifratzea eskuz gaituz edo desgaituz.
+    oharra: Zifratzea automatikoki gaituta dago beti zifratutako mezu bati erantzutean.
 
 ## Chat Tab
 

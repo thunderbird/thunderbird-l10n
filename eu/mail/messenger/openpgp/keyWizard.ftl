@@ -100,6 +100,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Berretsi zein gako tratatu behar diren gako pertsonal bezala. Zuk zeuk sortutako gakoak eta zure identitatea erakusten duten gakoak erabili beharko zenituzke gako pertsonal bezala. Gerora aukera hau aldatu dezakezu gakoen propietate elkarrizketa-leihoan.
 openpgp-import-key-list-caption = Gako pertsonal bezala markatutako gakoak muturretik-muturrera zifratutako sekzioan zerrendatuko dira. Besteak eskuragarri egongo dira gako kudeatzailearen barnean.
+openpgp-import-keep-passphrases =
+    .label = Mantendu pasaesaldien babesa inportatutako gako sekretuetarako
 openpgp-passphrase-prompt-title = Pasa-esaldia behar da
 openpgp-import-key-button =
     .label = Aukeratu fitxategia inportatzeko…
