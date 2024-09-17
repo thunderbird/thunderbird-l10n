@@ -4,6 +4,8 @@
 
 e2e-intro-description = Zifratutako edo digitalki sinatutako mezuak bidaltzeko, zifratze teknologia konfiguratu behar duzu, edo OpenPGP edo S/MIME.
 e2e-intro-description-more = Aukeratu zure gako pertsonala OpenPGP erabilera gaitzeko, edo ziurtagiri pertsonala S/MIME erabilera gaitzeko. Gako pertsonalaren edo ziurtagiri dagokion gako sekretua izan behar duzu.
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Hautatu tokiko direktorio eta fitxategi-izen bat zure CSR fitxategirako, eta erantzun galdera hauei algoritmoa eta indarra ezartzeko honako.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Sortu CSR
 # A label for a button that proceeds to the next step
