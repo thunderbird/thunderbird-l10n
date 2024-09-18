@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Що нового
-aboutDialog-title =
-    .title = Про { -brand-full-name }
 about-dialog-title = Про { -brand-full-name }
 release-notes-link = Інформація про випуск
 update-internal-error = Не вдалося перевірити наявність оновлень через внутрішню помилку. Оновлення доступні за посиланням <a data-l10n-name="manual-link"/>
@@ -39,23 +37,18 @@ aboutDialog-version = { $version } ({ $bits }-розрядний)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-розрядний)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Не вдалося перевірити наявність оновлень.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     є <a data-l10n-name="community-exp-credits-link">
-    всесвітня спільнота</a>
-    , яка працює над тим, щоб інтернет залишався відкритим, громадським та доступним для всіх.
-community-2 =
-    { -brand-short-name } було розроблено в <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-     — <a data-l10n-name="community-credits-link">
-    глобальній спільноті</a>
-    , яка працює над тим, щоб інтернет залишався відкритим, громадським та доступним для всіх.
-about-helpus =
-    Бажаєте допомогти? <a data-l10n-name="helpus-donate-link">
-    Зробіть внесок</a> or <a data-l10n-name="helpus-get-involved-link">
-    долучайтеся</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> є <a data-l10n-name="community-exp-credits-link">всесвітня спільнота</a>, яка працює над тим, щоб інтернет залишався відкритим, громадським та доступним для всіх.
 community-desc = { -brand-short-name } було розроблено в <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> — <a data-l10n-name="community-credits-link">глобальній спільноті</a>, яка працює над тим, щоб інтернет залишався відкритим, громадським та доступним для всіх.
 about-donation = Бажаєте допомогти? <a data-l10n-name="helpus-donate-link">Зробіть внесок</a> or <a data-l10n-name="helpus-get-involved-link">долучайтеся</a>
