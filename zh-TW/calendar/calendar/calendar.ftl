@@ -458,7 +458,7 @@ single-calendar-week = 週數: { $index }
 # used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
 #    $endIndex will be replaced with the index of the end-week
-several-long-calendar-weeks = 週數範圍 { $startIndex }-{ $endIndex }
+several-long-calendar-weeks = 第 { $startIndex }-{ $endIndex } 週
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
