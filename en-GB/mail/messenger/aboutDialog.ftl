@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = What’s New
-aboutDialog-title =
-    .title = About { -brand-full-name }
 about-dialog-title = About { -brand-full-name }
 release-notes-link = Release notes
 update-internal-error = Unable to check for updates due to internal error. Updates available at <a data-l10n-name="manual-link"/>
@@ -39,23 +37,18 @@ aboutDialog-version = { $version } ({ $bits }-bit)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Failed to check for updates.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     is a <a data-l10n-name="community-exp-credits-link">
-    global community</a>
-     working together to keep the Web open, public and accessible to all.
-community-2 =
-    { -brand-short-name } is designed by <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , a <a data-l10n-name="community-credits-link">
-    global community</a>
-     working together to keep the Web open, public and accessible to all.
-about-helpus =
-    Want to help? <a data-l10n-name="helpus-donate-link">
-    Make a donation</a> or <a data-l10n-name="helpus-get-involved-link">
-    get involved!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> is a <a data-l10n-name="community-exp-credits-link">global community</a> working together to keep the Web open, public and accessible to all.
 community-desc = { -brand-short-name } is designed by <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, a <a data-l10n-name="community-credits-link">global community</a> working together to keep the Web open, public and accessible to all.
 about-donation = Want to help? <a data-l10n-name="helpus-donate-link">Make a donation</a> or <a data-l10n-name="helpus-get-involved-link">get involved!</a>
