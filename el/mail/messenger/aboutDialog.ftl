@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Τι νέο υπάρχει
-aboutDialog-title =
-    .title = Σχετικά με το { -brand-full-name }
 about-dialog-title = Σχετικά με το { -brand-full-name }
 release-notes-link = Σημειώσεις έκδοσης
 update-internal-error = Δεν είναι δυνατός ο έλεγχος για ενημερώσεις λόγω εσωτερικού σφάλματος. Οι ενημερώσεις διατίθενται στο <a data-l10n-name="manual-link"/>
@@ -39,23 +37,18 @@ aboutDialog-version = { $version } ({ $bits }-bit)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Ο έλεγχος για ενημερώσεις απέτυχε.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    Η { -vendor-short-name }</a>
-     είναι μια <a data-l10n-name="community-exp-credits-link">
-    παγκόσμια κοινότητα</a>
-     που συνεργάζεται για να διατηρήσει το διαδίκτυο ανοικτό, δημόσιο και προσβάσιμο σε όλους.
-community-2 =
-    Το { -brand-short-name } έχει σχεδιαστεί από τη <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , μια <a data-l10n-name="community-credits-link">
-    παγκόσμια κοινότητα</a>
-     που συνεργάζεται για να διατηρήσει το διαδίκτυο ανοικτό, δημόσιο και προσβάσιμο σε όλους.
-about-helpus =
-    Θέλετε να βοηθήσετε; <a data-l10n-name="helpus-donate-link">
-    Κάντε μια δωρεά</a> or <a data-l10n-name="helpus-get-involved-link">
-    συνεισφέρετε!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">Η { -vendor-short-name }</a> είναι μια <a data-l10n-name="community-exp-credits-link">παγκόσμια κοινότητα</a> που συνεργάζεται για να διατηρήσει το διαδίκτυο ανοικτό, δημόσιο και προσβάσιμο σε όλους.
 community-desc = Το { -brand-short-name } έχει σχεδιαστεί από τη <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, μια <a data-l10n-name="community-credits-link">παγκόσμια κοινότητα</a> που συνεργάζεται για να διατηρήσει το διαδίκτυο ανοικτό, δημόσιο και προσβάσιμο σε όλους.
 about-donation = Θέλετε να βοηθήσετε; <a data-l10n-name="helpus-donate-link">Κάντε μια δωρεά</a> or <a data-l10n-name="helpus-get-involved-link">συνεισφέρετε!</a>
