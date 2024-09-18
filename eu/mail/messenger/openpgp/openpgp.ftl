@@ -4,6 +4,8 @@
 
 e2e-intro-description = Zifratutako edo digitalki sinatutako mezuak bidaltzeko, zifratze teknologia konfiguratu behar duzu, edo OpenPGP edo S/MIME.
 e2e-intro-description-more = Aukeratu zure gako pertsonala OpenPGP erabilera gaitzeko, edo ziurtagiri pertsonala S/MIME erabilera gaitzeko. Gako pertsonalaren edo ziurtagiri dagokion gako sekretua izan behar duzu.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = S/MIME ziurtagiri pertsonal berria lortzeko, sortu ziurtagiria sinatzeko eskaera (CSR) eta bidali Autoritate Ziurtagiri bati (CA).
 # Do not translate: S/MIME, CSR
 e2e-csr-intro-info = Hautatu tokiko direktorio eta fitxategi-izen bat zure CSR fitxategirako, eta erantzun galdera hauei algoritmoa eta indarra ezartzeko honako.
 # A title for a dialog. Do not translate "CSR".
@@ -19,6 +21,8 @@ e2e-csr-button =
 e2e-csr-select-title = CSR Algoritmoa
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = Aukeratu RSA (gomendatua) edo ECC artean zure algoritmoa kriptografiatzeko S/MIME ziurtagiri berrirako.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Aukeratu nahi duzun indar kriptografikoa (bizkorragoa zenbaki baxuekin edo segurtasun hobea zenbaki altuagoekin) S/MIME ziurtagiri berrirako, edo mantendu ezarpen lehenetsia.
 e2e-signing-description =
     Sinadura digitalak hartzaileak mezuak zuk bidalitakoa dela egiaztatzea ahalbidetzen du eta bere edukia ez dela aldatu.
     Zifratutako mezuak beti daude lehenetsita sinatuak.
