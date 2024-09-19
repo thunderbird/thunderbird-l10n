@@ -11,10 +11,10 @@ dateformat-label =
     .accesskey = F
 #   $date (String) - the formatted example date
 dateformat-long =
-    .label = Long : { $date }
+    .label = Long : { $date }
 #   $date (String) - the formatted example date
 dateformat-short =
-    .label = Court : { $date }
+    .label = Court : { $date }
 use-system-timezone-radio-button =
     .label = Utiliser le fuseau horaire du système
 set-timezone-manually-radio-button =
@@ -138,10 +138,6 @@ edit-intab-label =
 prompt-delete-label =
     .label = Demander avant de supprimer des évènements et des tâches.
     .accesskey = D
-accessibility-legend = Accessibilité
-accessibility-colors-label =
-    .label = Optimiser les couleurs pour l’accessibilité
-    .accesskey = O
 reminder-legend = Quand survient une alarme :
 reminder-play-checkbox =
     .label = Jouer un son

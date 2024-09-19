@@ -362,7 +362,7 @@ cloud-file-tooltip-password-protected-link = Lien protégé par mot de passe
 #                  (Download Limit: 6)
 cloud-file-template-service-name = Service Filelink :
 cloud-file-template-size = Taille :
-cloud-file-template-link = Lien :
+cloud-file-template-link = Lien :
 cloud-file-template-password-protected-link = Lien protégé par mot de passe :
 cloud-file-template-expiry-date = Date d’expiration :
 cloud-file-template-download-limit = Limite de téléchargement :
