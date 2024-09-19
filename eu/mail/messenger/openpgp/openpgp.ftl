@@ -694,6 +694,17 @@ import-key-file = Inportatu OpenPGP gako fitxategia
 import-rev-file = Inportatu OpenPGP ukapen fitxategia
 gnupg-file = GnuPG fitxategiak
 import-keys-failed = Huts egin du gakoak inportatzeak
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Sartu pasaesaldia IDarekin gako sekretua desblokeatzeko { $key }, sorrera data { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Sartu pasaesaldia IDarekin gako sekretua desblokeatzeko { $subkey }, gako honen azpigakoa { $key }, sorrera data { $date }, { $username_and_email }
 file-to-big-to-import = Fitxategi hau handiegia da. Mesedez ez inportatu gako multzo handiak batera.
 
 ## Strings used in enigmailKeygen.js
