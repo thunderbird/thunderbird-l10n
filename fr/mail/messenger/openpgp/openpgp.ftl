@@ -132,7 +132,7 @@ openpgp-key-man-discover-progress = Recherche…
 openpgp-key-publish-ok = Clé publique envoyée à « { $keyserver } ».
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
-openpgp-key-publish-fail = Échec de l'envoi de votre clé publique à « { $keyserver } ».
+openpgp-key-publish-fail = Échec de l’envoi de votre clé publique à « { $keyserver } ».
 openpgp-key-copy-key =
     .label = Copier la clé publique
     .accesskey = C
@@ -647,9 +647,6 @@ no-key-found2 = Nous n’avons trouvé aucune clé utilisable correspondant aux 
 no-update-found = Vous disposez déjà des clés découvertes en ligne.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
 
 
 ## Strings used in keyRing.sys.mjs
