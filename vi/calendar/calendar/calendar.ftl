@@ -455,7 +455,7 @@ event-details-end-date = Kết thúc:
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
-# used for display of calendar weeks in short form like 'Calendar Week 43'
+# used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = Tuần: { $index }
 # LOCALIZATION NOTE (single-calendar-week):
@@ -463,6 +463,11 @@ single-long-calendar-week = Tuần: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = Tuần: { $index }
     .title = Tuần: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Lịch tuần { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
