@@ -140,7 +140,7 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;raison&gt;] : expulser l’
 # $commandName is the command name
 command-nick = { $commandName } &lt;nouveau_nom&gt; : change votre nom d’affichage.
 # $commandName is the command name
-command-op = { $commandName } &lt;userId&gt ; [&lt;niveau&gt;] : définit le niveau d’autorisation de l’utilisateur. Saisissez une valeur entière, avec les niveaux Utilisateur : 0, Modérateur : 50 et Admin : 100. La valeur par défaut sera de 50 si aucun argument n’est fourni. Nécessite l’autorisation de changer les niveaux de pouvoir des membres. Ne fonctionne pas sur les administrateurs autres que vous-même.
+command-op = { $commandName } &lt;userId&gt; [&lt;niveau&gt;] : définit le niveau d’autorisation de l’utilisateur. Saisissez une valeur entière, avec les niveaux Utilisateur : 0, Modérateur : 50 et Admin : 100. La valeur par défaut sera de 50 si aucun argument n’est fourni. Nécessite l’autorisation de changer les niveaux de pouvoir des membres. Ne fonctionne pas sur les administrateurs autres que vous-même.
 # $commandName is the command name
 command-deop = { $commandName } &lt;userId&gt; : réinitialise le niveau de l’utilisateur à 0 (Utilisateur). Nécessite l’autorisation de changer les niveaux de pouvoir des membres. Ne fonctionne pas sur les administrateurs autres que vous-même.
 # $commandName is the command name
