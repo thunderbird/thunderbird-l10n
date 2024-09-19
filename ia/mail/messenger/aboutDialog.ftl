@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Novas
-aboutDialog-title =
-    .title = A proposito de { -brand-full-name }
 about-dialog-title = A proposito de { -brand-full-name }
 release-notes-link = Notas pro iste revision
 update-internal-error = Impossibile verificar le presentia de actualisationes a causa de un error interne. Actualisationes disponibile a <a data-l10n-name="manual-link"/>
@@ -39,23 +37,18 @@ aboutDialog-version = { $version } ({ $bits }-bit)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Falta a verificar actualisationes
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     es un <a data-l10n-name="community-exp-credits-link">
-    communitate mundial</a>
-     qui travalia unite pro mantener le Web aperite, public e accessibile a totes.
-community-2 =
-    { -brand-short-name } es designate per <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , un <a data-l10n-name="community-credits-link">
-    communitate mundial</a>
-     qui travalia unite pro mantener le Web aperite, public e accessibile a totes.
-about-helpus =
-    Vole adjutar?<a data-l10n-name="helpus-donate-link">
-    Face un donation</a> or <a data-l10n-name="helpus-get-involved-link">
-    participa!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> es un <a data-l10n-name="community-exp-credits-link">communitate mundial</a> qui travalia unite pro mantener le Web aperite, public e accessibile a totes.
 community-desc = { -brand-short-name } es designate per <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, un <a data-l10n-name="community-credits-link">communitate mundial</a> qui travalia unite pro mantener le Web aperite, public e accessibile a totes.
 about-donation = Vole adjutar?<a data-l10n-name="helpus-donate-link">Face un donation</a> or <a data-l10n-name="helpus-get-involved-link">participa!</a>
