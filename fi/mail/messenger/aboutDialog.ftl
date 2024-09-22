@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Mitä uutta
-aboutDialog-title =
-    .title = Tietoja { -brand-full-name }ista
 about-dialog-title = Tietoja { -brand-full-name }ista
 release-notes-link = Julkaisutiedot
 update-internal-error = Päivityksiä ei voi tarkistaa sisäisen virheen vuoksi. Päivitykset ovat saatavilla osoitteessa <a data-l10n-name="manual-link"/>
@@ -39,23 +37,18 @@ aboutDialog-version = { $version } ({ $bits }-bittinen)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bittinen)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Päivitysten tarkistaminen epäonnistui.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     on <a data-l10n-name="community-exp-credits-link">
-    kansainvälinen yhteisö</a>
-    , joka pyrkii kehittämään Internetiä avoimeksi, julkiseksi ja kaikkien rajoituksitta käytettävissä olevaksi.
-community-2 =
-    { -brand-short-name }in on kehittänyt <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , <a data-l10n-name="community-credits-link">
-    kansainvälinen yhteisö</a>
-    , joka pyrkii kehittämään Internetiä avoimeksi, julkiseksi ja kaikkien rajoituksitta käytettävissä olevaksi.
-about-helpus =
-    Haluatko auttaa? <a data-l10n-name="helpus-donate-link">
-    Tee lahjoitus</a> or <a data-l10n-name="helpus-get-involved-link">
-    liity joukkoon!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> on <a data-l10n-name="community-exp-credits-link">kansainvälinen yhteisö</a>, joka pyrkii kehittämään Internetiä avoimeksi, julkiseksi ja kaikkien rajoituksitta käytettävissä olevaksi.
 community-desc = { -brand-short-name }in on kehittänyt <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">kansainvälinen yhteisö</a>, joka pyrkii kehittämään Internetiä avoimeksi, julkiseksi ja kaikkien rajoituksitta käytettävissä olevaksi.
 about-donation = Haluatko auttaa? <a data-l10n-name="helpus-donate-link">Tee lahjoitus</a> or <a data-l10n-name="helpus-get-involved-link">liity joukkoon!</a>
