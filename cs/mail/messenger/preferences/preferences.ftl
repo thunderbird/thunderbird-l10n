@@ -646,7 +646,7 @@ primary-password-label =
     .accesskey = P
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
-    .label = Vyžadovat heslo k účtu na zařízení na vyplnění a správu hesel
+    .label = K vyplňování a správě hesel vyžadovat přihlášení se do zařízení
 primary-password-button =
     .label = Změnit hlavní heslo…
     .accesskey = m
