@@ -23,6 +23,11 @@ e2e-csr-select-title = CSR Algoritmoa
 e2e-csr-select-alg = Aukeratu RSA (gomendatua) edo ECC artean zure algoritmoa kriptografiatzeko S/MIME ziurtagiri berrirako.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Aukeratu nahi duzun indar kriptografikoa (bizkorragoa zenbaki baxuekin edo segurtasun hobea zenbaki altuagoekin) S/MIME ziurtagiri berrirako, edo mantendu ezarpen lehenetsia.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = { $type }{ $strength } gako sekretua sortuko da { -brand-short-name } ezarpenetan. Prozesu honek denbora pixka bat har dezake eta aldi baterako erantzunik eza eragin; pazientzia izan urrats honetan. Batera sortuko den CSR fitxategia honela { $file } gordeko da.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Sartu helbide elektronikoa ({ $email }) CSRn (gomendatua)
