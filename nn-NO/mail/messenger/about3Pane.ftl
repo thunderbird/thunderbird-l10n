@@ -460,3 +460,12 @@ message-list-placeholder-no-messages = Fann ingen meldingar
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Merk mappe som lesen
+           *[other] Merk mappe som lesen
+        }
+    .accesskey = M
