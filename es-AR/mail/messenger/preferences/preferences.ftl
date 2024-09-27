@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Ver solamente el nombre a mostrar para personas en mi libreta de direcciones
     .accesskey = S
+table-layout-legend = Vista de tabla
+table-layout-horizontal-scroll-label =
+    .label = Permitir desplazamiento horizontal
+    .accesskey = P
 
 ## Compose Tab
 
