@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = mostra solo il nome visualizzato per le persone nella rubrica
     .accesskey = m
+table-layout-legend = Vista tabella
+table-layout-horizontal-scroll-label =
+    .label = Consenti scorrimento orizzontale
+    .accesskey = C
 
 ## Compose Tab
 
