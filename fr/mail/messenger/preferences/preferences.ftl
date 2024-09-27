@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = N’afficher que le nom pour les personnes se trouvant dans le carnet d’adresses
     .accesskey = N
+table-layout-legend = Vue tableau
+table-layout-horizontal-scroll-label =
+    .label = Autoriser le défilement horizontal
+    .accesskey = A
 
 ## Compose Tab
 
