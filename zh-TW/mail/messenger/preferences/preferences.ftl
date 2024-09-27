@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = 顯示通訊錄裡設定的名字
     .accesskey = S
+table-layout-legend = 表格檢視
+table-layout-horizontal-scroll-label =
+    .label = 允許水平捲動
+    .accesskey = h
 
 ## Compose Tab
 
