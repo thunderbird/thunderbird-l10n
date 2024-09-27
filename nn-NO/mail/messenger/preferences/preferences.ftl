@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Vis berre visings-namnet for personar i adresseboka
     .accesskey = V
+table-layout-legend = Tabellvising
+table-layout-horizontal-scroll-label =
+    .label = Tillat horisontal rulling
+    .accesskey = T
 
 ## Compose Tab
 
