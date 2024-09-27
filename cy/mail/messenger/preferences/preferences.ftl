@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Dangos dim ond enw dangos unigolion yn fy llyfr cyfeiriadau
     .accesskey = D
+table-layout-legend = Golwg Tabl
+table-layout-horizontal-scroll-label =
+    .label = Caniatáu sgrolio llorweddol
+    .accesskey = C
 
 ## Compose Tab
 
