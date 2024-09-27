@@ -409,6 +409,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Προβολή μόνο του εμφανιζόμενου ονόματος για άτομα του ευρετηρίου μου
     .accesskey = ε
+table-layout-legend = Προβολή πίνακα
+table-layout-horizontal-scroll-label =
+    .label = Να επιτρέπεται η οριζόντια κύλιση
+    .accesskey = π
 
 ## Compose Tab
 
