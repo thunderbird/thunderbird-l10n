@@ -185,12 +185,12 @@ mbox-store-label =
     .label = Fil per mapp (mbox)
 maildir-store-label =
     .label = Fil per meddelande (maildir)
-scrolling-legend = Scrollning
+scrolling-legend = Rullning
 autoscroll-label =
-    .label = Använd automatisk scrollning
+    .label = Använd automatisk rullning
     .accesskey = u
 smooth-scrolling-label =
-    .label = Använd mjuk scrollning
+    .label = Använd mjuk rullning
     .accesskey = m
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Visa alltid rullningslister
@@ -409,6 +409,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Visa endast kortnamn för personer som finns i adressboken
     .accesskey = V
+table-layout-legend = Tabellvy
+table-layout-horizontal-scroll-label =
+    .label = Tillåt vågrät rullning
+    .accesskey = v
 
 ## Compose Tab
 
