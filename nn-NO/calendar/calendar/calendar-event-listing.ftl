@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Tidlegare hendingar
 calendar-event-listing-interval-calendar-month =
     .label = Hendingar denne kalendermånaden
 calendar-event-listing-interval-current-view =
