@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Jano zwobraznjeńske mě za luźe w adresniku pokazaś
     .accesskey = J
+table-layout-legend = Tabelowy naglěd
+table-layout-horizontal-scroll-label =
+    .label = Horicontalne kulanje dowóliś
+    .accesskey = H
 
 ## Compose Tab
 
