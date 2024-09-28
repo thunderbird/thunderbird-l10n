@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Show only display name for people in my address book
     .accesskey = S
+table-layout-legend = Table View
+table-layout-horizontal-scroll-label =
+    .label = Allow horizontal scroll
+    .accesskey = h
 
 ## Compose Tab
 
