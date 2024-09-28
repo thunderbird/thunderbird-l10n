@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Për persona në librin tim të adresave shfaq vetëm emër ekrani
     .accesskey = P
+table-layout-legend = Parje Si Tabelë
+table-layout-horizontal-scroll-label =
+    .label = Lejo rrëshqitje horizontale
+    .accesskey = L
 
 ## Compose Tab
 
