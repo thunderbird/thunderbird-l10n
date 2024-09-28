@@ -416,7 +416,7 @@ condensed-addresses-label =
 table-layout-legend = Vista tabella
 table-layout-horizontal-scroll-label =
     .label = Consenti scorrimento orizzontale
-    .accesskey = C
+    .accesskey = z
 
 ## Compose Tab
 
