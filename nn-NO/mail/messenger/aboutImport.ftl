@@ -50,6 +50,7 @@ source-file-description = Vel ei fil for å importere adressebøker, kalendrar, 
 file-profile2 = Importer profilsikkerheitskopi
 file-profile-description = Vel ein tidlegare sikkerheitskopiert Thunderbird-profil (.zip)
 file-calendar = Importer kalendrar
+file-calendar-description = Vel ei fil som inneheld eksporterte kalendrar eller hendingar (.ics)
 file-addressbook = Importer adressebøker
 file-addressbook-description = Vel ei fil som inneheld eksporterte adressebøker og kontaktar
 
