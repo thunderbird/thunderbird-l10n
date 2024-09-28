@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Показывать только имя для людей, находящихся в моей адресной книге
     .accesskey = к
+table-layout-legend = Табличный вид
+table-layout-horizontal-scroll-label =
+    .label = Разрешить горизонтальную прокрутку
+    .accesskey = р
 
 ## Compose Tab
 
