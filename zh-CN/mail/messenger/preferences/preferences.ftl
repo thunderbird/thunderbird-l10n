@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = 只显示我的通讯录中的显示名称
     .accesskey = S
+table-layout-legend = 表格视图
+table-layout-horizontal-scroll-label =
+    .label = 允许水平滚动
+    .accesskey = h
 
 ## Compose Tab
 
