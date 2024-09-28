@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Bei bekannten Kontakten nur den Anzeigenamen zeigen
     .accesskey = B
+table-layout-legend = Tabellenansicht
+table-layout-horizontal-scroll-label =
+    .label = Horizontalen Bildlauf erlauben
+    .accesskey = H
 
 ## Compose Tab
 
