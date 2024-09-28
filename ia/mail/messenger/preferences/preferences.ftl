@@ -413,6 +413,7 @@ address-display-name =
 condensed-addresses-label =
     .label = Monstrar solo nomine a monstrar pro personas in mi libro del adresses
     .accesskey = M
+table-layout-legend = Vista de tabella
 
 ## Compose Tab
 
