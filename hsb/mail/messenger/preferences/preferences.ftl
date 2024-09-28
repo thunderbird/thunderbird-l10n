@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Jenož zwobraznjenske mjeno za ludźi w adresniku pokazać
     .accesskey = J
+table-layout-legend = Tabelowy napohlad
+table-layout-horizontal-scroll-label =
+    .label = Horicontalne kulenje dowolić
+    .accesskey = H
 
 ## Compose Tab
 
