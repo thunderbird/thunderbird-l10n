@@ -5,6 +5,8 @@
 
 ## Table
 
+tree-list-view-row-delete =
+    .title = Slett gjeldande rad
 tree-list-view-column-picker =
     .title = Vel kolonner du vil vise
 tree-list-view-row-watched-thread = Tråden vert overvaka

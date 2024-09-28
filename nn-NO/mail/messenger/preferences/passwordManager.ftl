@@ -4,9 +4,9 @@
 
 saved-logins =
     .title = Lagra innloggingar
-saved-logins-title = Lagra innloggingar
 window-close =
     .key = w
+saved-logins-title = Lagra innloggingar
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +81,10 @@ password-os-auth-dialog-message = Stadfest identiteten din for å vise dei lagra
 password-os-auth-dialog-message-macosx = vis dei lagra passorda
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] endre innstillingar for passord
+       *[other] { -brand-short-name } prøver å endre innstillingane for passord. Bruk pålogginga i eininga for å tillate dette.
+    }
