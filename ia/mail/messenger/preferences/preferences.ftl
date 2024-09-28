@@ -414,6 +414,9 @@ condensed-addresses-label =
     .label = Monstrar solo nomine a monstrar pro personas in mi libro del adresses
     .accesskey = M
 table-layout-legend = Vista de tabella
+table-layout-horizontal-scroll-label =
+    .label = Consentir rolamento horizontal
+    .accesskey = h
 
 ## Compose Tab
 
