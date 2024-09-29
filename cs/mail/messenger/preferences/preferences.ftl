@@ -486,6 +486,10 @@ address-display-name =
 condensed-addresses-label =
     .label = U lidí z mých kontaktů zobrazovat pouze jméno
     .accesskey = U
+table-layout-legend = Zobrazení tabulky
+table-layout-horizontal-scroll-label =
+    .label = Povolit vodorovné posouvání
+    .accesskey = p
 
 ## Compose Tab
 
