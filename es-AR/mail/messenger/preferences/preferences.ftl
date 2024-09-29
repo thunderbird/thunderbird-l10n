@@ -416,7 +416,7 @@ condensed-addresses-label =
 table-layout-legend = Vista de tabla
 table-layout-horizontal-scroll-label =
     .label = Permitir desplazamiento horizontal
-    .accesskey = P
+    .accesskey = z
 
 ## Compose Tab
 
