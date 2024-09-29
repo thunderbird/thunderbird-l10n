@@ -413,6 +413,7 @@ address-display-name =
 condensed-addresses-label =
     .label = Адрестік кітапшамдағы адамдар үшін тек атын көрсету
     .accesskey = с
+table-layout-legend = Кесте ретінде
 
 ## Compose Tab
 
