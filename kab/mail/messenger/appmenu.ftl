@@ -97,6 +97,8 @@ appmenu-uidensity-default =
     .tooltiptext = Amezwer
 appmenuitem-font-size-enlarge =
     .tooltiptext = Semɣer teɣzi n tsefsit
+appmenuitem-font-size-reduce =
+    .tooltiptext = Senqes seg teɣzi n tsefsit
 # Variables:
 # $size (String) - The current font size.
 appmenuitem-font-size-reset =
@@ -138,6 +140,9 @@ appmenu-help-panel-title =
     .title = Tallalt
 appmenu-help-get-help =
     .label = Awi tallelt
+    .accesskey = T
+appmenu-help-explore-features =
+    .label = Snirem timahilin
     .accesskey = T
 appmenu-help-enter-troubleshoot-mode2 =
     .label = Askar n usellek…

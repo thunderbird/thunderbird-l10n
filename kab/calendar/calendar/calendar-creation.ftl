@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 select-all-calendars = Fren akk
+select-none-calendars = Fren ugar
