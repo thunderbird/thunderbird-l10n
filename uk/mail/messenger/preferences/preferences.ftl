@@ -409,6 +409,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Показуване ім'я для людей з адресної книги
     .accesskey = м
+table-layout-legend = Подання таблицею
+table-layout-horizontal-scroll-label =
+    .label = Дозволити горизонтальне прокручування
+    .accesskey = г
 
 ## Compose Tab
 
