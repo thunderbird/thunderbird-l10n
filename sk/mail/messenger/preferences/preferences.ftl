@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Zobrazovať mená len pre adresy uložené v osobných adresároch
     .accesskey = Z
+table-layout-legend = Zobrazenie tabuľky
+table-layout-horizontal-scroll-label =
+    .label = Povoliť vodorovné posúvanie
+    .accesskey = v
 
 ## Compose Tab
 
