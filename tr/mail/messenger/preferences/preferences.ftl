@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Adres defterimdeki kişilerin yalnızca görünen adlarını göster
     .accesskey = d
+table-layout-legend = Tablo görünümü
+table-layout-horizontal-scroll-label =
+    .label = Yatay kaydırmaya izin ver
+    .accesskey = Y
 
 ## Compose Tab
 
