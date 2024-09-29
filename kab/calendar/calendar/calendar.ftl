@@ -464,7 +464,7 @@ event-details-end-date = Tagara:
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
-# used for display of calendar weeks in short form like 'Calendar Week 43'
+# used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = Tafad1 n ddurt: { $index }
 # LOCALIZATION NOTE (single-calendar-week):
@@ -652,32 +652,44 @@ extract-using = Aqeddec { $languageName }
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = Aqeddec { $languageName } ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [one] { $count } tasedat
        *[other] { $count } tesdatin
     }
-# $count count
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [one] { $count } n usrag
        *[other] { $count } n isragen
     }
-# $count count
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [one] { $count } ass
        *[other] { $count } ussan
     }
-# $count count
+event-duration-menuitem-count-days =
+    .label = { unit-days }
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
         [one] { $count } ddurt
        *[other] { $count } ledwaṛ
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
