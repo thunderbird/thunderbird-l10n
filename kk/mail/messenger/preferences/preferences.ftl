@@ -414,6 +414,9 @@ condensed-addresses-label =
     .label = Адрестік кітапшамдағы адамдар үшін тек атын көрсету
     .accesskey = с
 table-layout-legend = Кесте ретінде
+table-layout-horizontal-scroll-label =
+    .label = Горизонталды айналдыруды рұқсат ету
+    .accesskey = Г
 
 ## Compose Tab
 
