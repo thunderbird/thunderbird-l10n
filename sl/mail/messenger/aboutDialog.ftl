@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Novosti
-aboutDialog-title =
-    .title = O { -brand-full-name(sklon: "mestnik") }
 about-dialog-title = O { -brand-full-name(sklon: "mestnik") }
 release-notes-link = Opombe ob izdaji
 update-internal-error = Iskanje posodobitev ni uspelo zaradi notranje napake. Posodobitve so na voljo na <a data-l10n-name="manual-link"/>
@@ -39,23 +37,18 @@ aboutDialog-version = { $version } ({ $bits }-bitni)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bitni)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Iskanje posodobitev ni uspelo.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     je <a data-l10n-name="community-exp-credits-link">
-    globalna skupnost,</a>
-     ki si prizadeva, da bi splet ostal odprt, javen in dostopen vsem.
-community-2 =
-    { -brand-short-name } razvija <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , <a data-l10n-name="community-credits-link">
-    globalna skupnost,</a>
-     ki si prizadeva, da bi splet ostal odprt, javen in dostopen vsem.
-about-helpus =
-    Želite pomagati? <a data-l10n-name="helpus-donate-link">
-    Donirajte</a> or <a data-l10n-name="helpus-get-involved-link">
-    se nam pridružite!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> je <a data-l10n-name="community-exp-credits-link">globalna skupnost,</a> ki si prizadeva, da bi splet ostal odprt, javen in dostopen vsem.
 community-desc = { -brand-short-name } razvija <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">globalna skupnost,</a> ki si prizadeva, da bi splet ostal odprt, javen in dostopen vsem.
 about-donation = Želite pomagati? <a data-l10n-name="helpus-donate-link">Donirajte</a> or <a data-l10n-name="helpus-get-involved-link">se nam pridružite!</a>

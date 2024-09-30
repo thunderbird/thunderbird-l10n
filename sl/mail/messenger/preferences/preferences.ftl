@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Za osebe v mojem imeniku prikaži le prikazano ime
     .accesskey = a
+table-layout-legend = Pogled razpredelnice
+table-layout-horizontal-scroll-label =
+    .label = Dovoli vodoravno drsenje
+    .accesskey = v
 
 ## Compose Tab
 
