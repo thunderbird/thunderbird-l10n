@@ -411,6 +411,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Aко хората са в моя адресник, се показват само имената им
     .accesskey = х
+table-layout-legend = Изглед във форма на таблица
+table-layout-horizontal-scroll-label =
+    .label = Хоризонтално прелистване
+    .accesskey = х
 
 ## Compose Tab
 
