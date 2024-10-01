@@ -413,6 +413,12 @@ table-layout-legend = Tabellvy
 table-layout-horizontal-scroll-label =
     .label = Tillåt vågrät rullning
     .accesskey = v
+conversation-view-legend = Konversationsvy
+conversation-view-checkbox-label =
+    .label = Aktivera konversationsvy
+    .accesskey = k
+conversation-view-checkbox-description = Experimentell funktion baserad på Gloda, använd den på egen risk
+label-experiment = Experimentell
 
 ## Compose Tab
 
