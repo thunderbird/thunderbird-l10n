@@ -417,6 +417,12 @@ table-layout-legend = Table View
 table-layout-horizontal-scroll-label =
     .label = Allow horizontal scroll
     .accesskey = h
+conversation-view-legend = Conversation view
+conversation-view-checkbox-label =
+    .label = Enable conversation view
+    .accesskey = c
+conversation-view-checkbox-description = Experimental feature based on Gloda, use it at your own risk
+label-experiment = Experimental
 
 ## Compose Tab
 
