@@ -417,6 +417,7 @@ table-layout-legend = Табличный вид
 table-layout-horizontal-scroll-label =
     .label = Разрешить горизонтальную прокрутку
     .accesskey = р
+label-experiment = Экспериментальная
 
 ## Compose Tab
 
