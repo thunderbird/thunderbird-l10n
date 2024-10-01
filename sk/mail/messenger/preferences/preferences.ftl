@@ -417,6 +417,12 @@ table-layout-legend = Zobrazenie tabuľky
 table-layout-horizontal-scroll-label =
     .label = Povoliť vodorovné posúvanie
     .accesskey = v
+conversation-view-legend = Zobrazenie Konverzácie
+conversation-view-checkbox-label =
+    .label = Povoliť zobrazenie Konverzácie
+    .accesskey = K
+conversation-view-checkbox-description = Experimentálna funkcia založená na Gloda, používajte ju na vlastné riziko
+label-experiment = Experimentálne
 
 ## Compose Tab
 
