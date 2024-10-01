@@ -417,6 +417,12 @@ table-layout-legend = Vue tableau
 table-layout-horizontal-scroll-label =
     .label = Permettre le défilement horizontal
     .accesskey = h
+conversation-view-legend = Mode conversation
+conversation-view-checkbox-label =
+    .label = Activer le mode conversation
+    .accesskey = A
+conversation-view-checkbox-description = Fonctionnalité expérimentale basée sur Gloda, utilisez-la à vos risques et périls
+label-experiment = Expérimental
 
 ## Compose Tab
 
