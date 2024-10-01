@@ -417,6 +417,12 @@ table-layout-legend = Vista de tabla
 table-layout-horizontal-scroll-label =
     .label = Permitir desplazamiento horizontal
     .accesskey = z
+conversation-view-legend = Vista de conversación
+conversation-view-checkbox-label =
+    .label = Habilitar vista de conversación
+    .accesskey = H
+conversation-view-checkbox-description = Función experimental basada en Gloda, úsala bajo tu propio riesgo
+label-experiment = Experimental
 
 ## Compose Tab
 
