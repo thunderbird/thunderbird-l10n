@@ -416,11 +416,11 @@ condensed-addresses-label =
 table-layout-legend = Golwg Tabl
 table-layout-horizontal-scroll-label =
     .label = Caniatáu sgrolio llorweddol
-    .accesskey = C
-conversation-view-legend = Golygfa sgwrs
+    .accesskey = l
+conversation-view-legend = Golwg sgwrsio
 conversation-view-checkbox-label =
     .label = Galluogi golwg sgwrs
-    .accesskey = G
+    .accesskey = s
 conversation-view-checkbox-description = Nodwedd arbrofol yn seiliedig ar Gloda, defnyddiwch hi ar eich menter eich hun
 label-experiment = Arbrofol
 
