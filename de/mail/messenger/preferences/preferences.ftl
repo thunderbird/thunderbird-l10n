@@ -417,6 +417,12 @@ table-layout-legend = Tabellenansicht
 table-layout-horizontal-scroll-label =
     .label = Horizontalen Bildlauf erlauben
     .accesskey = H
+conversation-view-legend = Themenansicht
+conversation-view-checkbox-label =
+    .label = Themenansicht aktivieren
+    .accesskey = T
+conversation-view-checkbox-description = Diese experimentelle Funktion basiert auf Gloda, Nutzung auf eigene Gefahr
+label-experiment = Experimentell
 
 ## Compose Tab
 
