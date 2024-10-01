@@ -417,6 +417,12 @@ table-layout-legend = Tabelowy napohlad
 table-layout-horizontal-scroll-label =
     .label = Horicontalne kulenje dowolić
     .accesskey = H
+conversation-view-legend = Rozmołwny napohlad
+conversation-view-checkbox-label =
+    .label = Rozmołwny napohlad zmóžnić
+    .accesskey = R
+conversation-view-checkbox-description = Eksperimentelna funkcija, kotraž na Gloda bazuje, wužiwajće ju na swoje riziko
+label-experiment = Eksperimentelne
 
 ## Compose Tab
 
