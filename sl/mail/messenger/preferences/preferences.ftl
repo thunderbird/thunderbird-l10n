@@ -417,6 +417,12 @@ table-layout-legend = Pogled razpredelnice
 table-layout-horizontal-scroll-label =
     .label = Dovoli vodoravno drsenje
     .accesskey = v
+conversation-view-legend = Pogled pogovora
+conversation-view-checkbox-label =
+    .label = Omogoči pogled pogovora
+    .accesskey = p
+conversation-view-checkbox-description = Poskusna možnost, ki temelji na Glodi. Uporabljajte jo na lastno odgovornost
+label-experiment = Poskusno
 
 ## Compose Tab
 
