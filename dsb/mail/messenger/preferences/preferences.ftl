@@ -417,6 +417,12 @@ table-layout-legend = Tabelowy naglěd
 table-layout-horizontal-scroll-label =
     .label = Horicontalne kulanje dowóliś
     .accesskey = H
+conversation-view-legend = Rozgronowy naglěd
+conversation-view-checkbox-label =
+    .label = Rozgronowy naglěd zmóžniś
+    .accesskey = R
+conversation-view-checkbox-description = Eksperimentelna funkcija, kótaraž na Gloda bazěrujo, wužywajśo ju na swójo riziko
+label-experiment = Eksperimentelne
 
 ## Compose Tab
 
