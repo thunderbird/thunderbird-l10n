@@ -417,6 +417,12 @@ table-layout-legend = Golwg Tabl
 table-layout-horizontal-scroll-label =
     .label = Caniatáu sgrolio llorweddol
     .accesskey = C
+conversation-view-legend = Golygfa sgwrs
+conversation-view-checkbox-label =
+    .label = Galluogi golwg sgwrs
+    .accesskey = G
+conversation-view-checkbox-description = Nodwedd arbrofol yn seiliedig ar Gloda, defnyddiwch hi ar eich menter eich hun
+label-experiment = Arbrofol
 
 ## Compose Tab
 
