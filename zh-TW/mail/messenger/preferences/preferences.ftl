@@ -417,6 +417,12 @@ table-layout-legend = 表格檢視
 table-layout-horizontal-scroll-label =
     .label = 允許水平捲動
     .accesskey = h
+conversation-view-legend = 對話畫面
+conversation-view-checkbox-label =
+    .label = 開啟對話畫面
+    .accesskey = c
+conversation-view-checkbox-description = 基於 Gloda 的實驗性功能，使用風險請自行承擔
+label-experiment = 實驗中
 
 ## Compose Tab
 
