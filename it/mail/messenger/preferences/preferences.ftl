@@ -417,6 +417,12 @@ table-layout-legend = Vista tabella
 table-layout-horizontal-scroll-label =
     .label = Consenti scorrimento orizzontale
     .accesskey = z
+conversation-view-legend = Vista conversazione
+conversation-view-checkbox-label =
+    .label = Attiva vista conversazione
+    .accesskey = A
+conversation-view-checkbox-description = Funzionalità sperimentale basata su Gloda, utilizzala a tuo rischio
+label-experiment = Sperimentale
 
 ## Compose Tab
 
