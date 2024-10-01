@@ -417,6 +417,11 @@ table-layout-legend = Табличный вид
 table-layout-horizontal-scroll-label =
     .label = Разрешить горизонтальную прокрутку
     .accesskey = р
+conversation-view-legend = Просмотр разговоров
+conversation-view-checkbox-label =
+    .label = Включить просмотр разговоров
+    .accesskey = с
+conversation-view-checkbox-description = Экспериментальная функция, основанная на Gloda, используйте её на свой риск
 label-experiment = Экспериментальная
 
 ## Compose Tab
