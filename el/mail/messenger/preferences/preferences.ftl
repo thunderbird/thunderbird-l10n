@@ -413,6 +413,12 @@ table-layout-legend = Προβολή πίνακα
 table-layout-horizontal-scroll-label =
     .label = Να επιτρέπεται η οριζόντια κύλιση
     .accesskey = π
+conversation-view-legend = Προβολή συνομιλίας
+conversation-view-checkbox-label =
+    .label = Ενεργοποίηση προβολής συνομιλίας
+    .accesskey = ρ
+conversation-view-checkbox-description = Πειραματική λειτουργία βασισμένη στο Gloda, χρησιμοποιήστε τη με δική σας ευθύνη
+label-experiment = Πειραματικό
 
 ## Compose Tab
 
