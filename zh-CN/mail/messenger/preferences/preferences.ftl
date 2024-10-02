@@ -417,6 +417,12 @@ table-layout-legend = 表格视图
 table-layout-horizontal-scroll-label =
     .label = 允许水平滚动
     .accesskey = h
+conversation-view-legend = 会话视图
+conversation-view-checkbox-label =
+    .label = 启用会话视图
+    .accesskey = c
+conversation-view-checkbox-description = 此实验功能基于 Gloda 运作，使用时由您自担风险
+label-experiment = 实验功能
 
 ## Compose Tab
 
