@@ -413,6 +413,16 @@ address-display-name =
 condensed-addresses-label =
     .label = Fan minsken yn myn adresboek allinnich werjeftenamme toane
     .accesskey = m
+table-layout-legend = Tabelwerjefte
+table-layout-horizontal-scroll-label =
+    .label = Horizontaal skowe tastean
+    .accesskey = H
+conversation-view-legend = Petearwerjefte
+conversation-view-checkbox-label =
+    .label = Petearwerjefte ynskeakelje
+    .accesskey = P
+conversation-view-checkbox-description = Eksperimintele funksje basearre op Gloda, brûk it op eigen risiko
+label-experiment = Eksperiminteel
 
 ## Compose Tab
 
