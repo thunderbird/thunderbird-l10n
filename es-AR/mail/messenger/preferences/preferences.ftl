@@ -420,8 +420,8 @@ table-layout-horizontal-scroll-label =
 conversation-view-legend = Vista de conversación
 conversation-view-checkbox-label =
     .label = Habilitar vista de conversación
-    .accesskey = H
-conversation-view-checkbox-description = Función experimental basada en Gloda, úsala bajo tu propio riesgo
+    .accesskey = c
+conversation-view-checkbox-description = Función experimental basada en Gloda, úsela bajo su propio riesgo
 label-experiment = Experimental
 
 ## Compose Tab
