@@ -413,6 +413,16 @@ address-display-name =
 condensed-addresses-label =
     .label = Csak a név megjelenítése a címjegyzékben szereplő személyeknél
     .accesskey = C
+table-layout-legend = Táblázat nézet
+table-layout-horizontal-scroll-label =
+    .label = Vízszintes görgetés engedélyezése
+    .accesskey = V
+conversation-view-legend = Beszélgetési nézet
+conversation-view-checkbox-label =
+    .label = Beszélgetési nézet engedélyezése
+    .accesskey = B
+conversation-view-checkbox-description = Glodára épülő kísérleti funkció, saját felelősségre használja
+label-experiment = Kísérleti
 
 ## Compose Tab
 
