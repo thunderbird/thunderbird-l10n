@@ -425,6 +425,16 @@ address-display-name =
 condensed-addresses-label =
     .label = Van personen in mijn adresboek alleen weergavenaam tonen
     .accesskey = V
+table-layout-legend = Tabelweergave
+table-layout-horizontal-scroll-label =
+    .label = Horizontaal scrollen toestaan
+    .accesskey = H
+conversation-view-legend = Conversatieweergave
+conversation-view-checkbox-label =
+    .label = Conversatieweergave inschakelen
+    .accesskey = C
+conversation-view-checkbox-description = Experimentele functie gebaseerd op Gloda, gebruik op eigen risico
+label-experiment = Experimenteel
 
 ## Compose Tab
 
