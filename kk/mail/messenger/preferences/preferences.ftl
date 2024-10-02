@@ -417,6 +417,12 @@ table-layout-legend = Кесте ретінде
 table-layout-horizontal-scroll-label =
     .label = Горизонталды айналдыруды рұқсат ету
     .accesskey = Г
+conversation-view-legend = Сөйлесу режимі
+conversation-view-checkbox-label =
+    .label = Сөйлесу режимін іске қосу
+    .accesskey = е
+conversation-view-checkbox-description = Gloda негізіндегі эксперименттік мүмкіндік, оны өз тәуекеліңізге пайдаланыңыз
+label-experiment = Эксперименттік
 
 ## Compose Tab
 
