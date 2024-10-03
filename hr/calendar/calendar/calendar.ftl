@@ -706,9 +706,9 @@ event-duration-menuitem-count-weeks =
 event-duration-menuitem-minutes =
     .label =
         { $count ->
-            [one] $count minuta
-            [few] $count minute
-           *[other] $count minuta
+            [one] { $count } minuta
+            [few] { $count } minute
+           *[other] { $count } minuta
         }
 event-duration-label-minutes =
     .value = { event-duration-menuitem-minutes.label }
@@ -717,9 +717,9 @@ event-duration-label-minutes =
 event-duration-menuitem-hours =
     .label =
         { $count ->
-            [one] $count sat
-            [few] $count sata
-           *[other] $count sati
+            [one] { $count } sat
+            [few] { $count } sata
+           *[other] { $count } sati
         }
 event-duration-label-hours =
     .value = { event-duration-menuitem-hours.label }
