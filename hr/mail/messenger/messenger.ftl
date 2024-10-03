@@ -149,9 +149,9 @@ menu-edit-unsubscribe-newsgroup =
 menu-edit-delete-messages =
     .label =
         { $count ->
-            [one] Obriši $count poruku
-            [few] Obriši $count poruke
-           *[other] Obriši $count poruka
+            [one] Obriši { $count } poruku
+            [few] Obriši { $count } poruke
+           *[other] Obriši { $count } poruka
         }
     .accesskey = O
 # Variables:
@@ -159,9 +159,9 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Vrati $count odabranu poruku
-            [few] Vrati $count odabrane poruke
-           *[other] Vrati $count odabranih poruka
+            [one] Vrati { $count } odabranu poruku
+            [few] Vrati { $count } odabrane poruke
+           *[other] Vrati { $count } odabranih poruka
         }
     .accesskey = d
 menu-edit-properties =

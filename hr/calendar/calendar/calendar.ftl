@@ -728,9 +728,9 @@ event-duration-label-hours =
 event-duration-menuitem-days =
     .label =
         { $count ->
-            [one] $count dan
-            [few] $count dana
-           *[other] $count dana
+            [one] { $count } dan
+            [few] { $count } dana
+           *[other] { $count } dana
         }
 event-duration-label-days =
     .value = { event-duration-menuitem-days.label }
@@ -739,9 +739,9 @@ event-duration-label-days =
 event-duration-menuitem-weeks =
     .label =
         { $count ->
-            [one] $count tjedan
-            [few] $count tjedna
-           *[other] $count tjedana
+            [one] { $count } tjedan
+            [few] { $count } tjedna
+           *[other] { $count } tjedana
         }
 event-duration-label-weeks =
     .value = { event-duration-menuitem-weeks.label }

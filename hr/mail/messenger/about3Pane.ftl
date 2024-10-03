@@ -553,8 +553,8 @@ message-list-placeholder-multiple-folders = Odabrano više mapa
 folder-pane-context-mark-folder-read =
     .label =
         { $count ->
-            [one] Označi $count mapu pročitanom
-            [few] Označi $count mape pročitanim
-           *[other] Označi $count mapa pročitanim
+            [one] Označi { $count } mapu pročitanom
+            [few] Označi { $count } mape pročitanim
+           *[other] Označi { $count } mapa pročitanim
         }
     .accesskey = p
