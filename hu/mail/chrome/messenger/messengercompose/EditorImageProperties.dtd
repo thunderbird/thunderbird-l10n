@@ -17,10 +17,10 @@
 <!ENTITY title.label "Buboréksúgó:">
 <!ENTITY title.accessKey "B">
 <!ENTITY title.tooltip "A HTML 'title' attribútuma, amely buboréksúgóként jelenik meg">
-<!ENTITY altText.label "Magyarázó szöveg:">
+<!ENTITY altText.label "Alternatív szöveg:">
 <!ENTITY altText.accessKey "M">
 <!ENTITY altTextEditField.tooltip "A beírt szöveg megjelenik a kép helyén">
-<!ENTITY noAltText.label "Nincs magyarázó szöveg">
+<!ENTITY noAltText.label "Nincs alternatív szöveg">
 <!ENTITY noAltText.accessKey "N">
 
 <!ENTITY previewBox.label "Kép előnézete">
