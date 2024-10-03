@@ -226,9 +226,9 @@ mail-context-menu-forward-inline =
 mail-context-menu-forward-as-attachment =
     .label =
         { $count ->
-            [one] Kao { $count } privitak
-            [few] Kao { $count } privitka
-           *[other] Kao { $count } privitaka
+            [one] Kao privitak
+            [few] Kao privitke
+           *[other] Kao privitke
         }
     .accesskey = a
 mail-context-menu-organize =
