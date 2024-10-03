@@ -417,6 +417,12 @@ table-layout-legend = Parje Si Tabelë
 table-layout-horizontal-scroll-label =
     .label = Lejo rrëshqitje horizontale
     .accesskey = L
+conversation-view-legend = Pamje bisedë
+conversation-view-checkbox-label =
+    .label = Aktivizo pamjen bisedë
+    .accesskey = A
+conversation-view-checkbox-description = Veçori eksperimentale e bazuar në Gloda, qari dhe zarari i juaji
+label-experiment = Eksperimentale
 
 ## Compose Tab
 
