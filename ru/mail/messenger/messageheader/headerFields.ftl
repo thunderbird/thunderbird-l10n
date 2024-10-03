@@ -15,7 +15,7 @@ message-header-newsgroups-list-name = Группы новостей
 message-header-followup-to-list-name = Ответ в группу новостей
 message-header-tags-list-name = Метки
 # List management header - RFC 2369.
-message-header-list-id = Рассылка-Идентификатор
+message-header-list-id = Идентификатор рассылки
 # List management header - RFC 2369.
 message-header-list-help = Рассылка-Справка
 # List management header - RFC 2369.
@@ -43,7 +43,7 @@ message-header-references-field = Ссылки<span data-l10n-name="field-separa
 message-header-message-id-field = Идентификатор сообщения<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = В ответ на<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Веб-сайт<span data-l10n-name="field-separator">:</span>
-message-header-list-id-field = Рассылка-Идентификатор<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = Идентификатор рассылки<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = Рассылка-Справка<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = Рассылка-Отписаться<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = Рассылка-Подписаться<span data-l10n-name="field-separator">:</span>
