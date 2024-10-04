@@ -689,7 +689,7 @@
 <!ENTITY statusColumn2.tooltip "Nach Status sortieren">
 <!ENTITY sizeColumn2.tooltip "Nach Größe sortieren">
 <!ENTITY junkStatusColumn2.tooltip "Nach Junk-Status sortieren">
-<!ENTITY unreadColumn2.tooltip "Anzahl der ungelesenen Nachrichten im Thema">
+<!ENTITY unreadColumn2.tooltip "Anzahl ungelesener Nachrichten im Thema">
 <!ENTITY totalColumn2.tooltip "Gesamtzahl der Nachrichten im Thema">
 <!ENTITY readColumn2.tooltip "Nach Gelesen / Ungelesen sortieren">
 <!ENTITY receivedColumn2.tooltip "Nach Empfangsdatum sortieren">
