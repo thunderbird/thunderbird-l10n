@@ -421,7 +421,7 @@ conversation-view-legend = Mode conversation
 conversation-view-checkbox-label =
     .label = Activer le mode conversation
     .accesskey = A
-conversation-view-checkbox-description = Fonctionnalité expérimentale basée sur Gloda, utilisez-la à vos risques et périls
+conversation-view-checkbox-description = Fonctionnalité expérimentale basée sur Gloda, son utilisation comporte des risques
 label-experiment = Expérimental
 
 ## Compose Tab
