@@ -413,6 +413,16 @@ address-display-name =
 condensed-addresses-label =
     .label = Sýna aðeins birtingarnafn fyrir tengiliði í nafnaskránni
     .accesskey = S
+table-layout-legend = Töflusýn
+table-layout-horizontal-scroll-label =
+    .label = Leyfa lárétt skrun
+    .accesskey = l
+conversation-view-legend = Samtalsyfirlit
+conversation-view-checkbox-label =
+    .label = Virkja samtalsyfirlit
+    .accesskey = k
+conversation-view-checkbox-description = Tilraunaeiginleiki byggður á Gloda, notaðu þetta á eigin ábyrgð
+label-experiment = Á tilraunastigi
 
 ## Compose Tab
 
