@@ -415,6 +415,12 @@ table-layout-legend = Изглед във форма на таблица
 table-layout-horizontal-scroll-label =
     .label = Хоризонтално прелистване
     .accesskey = х
+conversation-view-legend = Изглед на разговор
+conversation-view-checkbox-label =
+    .label = Изглед на разговор
+    .accesskey = р
+conversation-view-checkbox-description = Експериментална възможност, на основата на Gloda, използвайте на своя отговорност
+label-experiment = Експериментално
 
 ## Compose Tab
 
