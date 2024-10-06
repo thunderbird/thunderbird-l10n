@@ -3,16 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-finger-title = Aiemmin nähdyt OTR-sormenjäljet
-
 finger-intro = OTR-avaimen sormenjäljet aikaisemmista salatuista keskusteluista.
-
+finger-screen-name =
+    .label = Yhteystieto
 finger-verified =
     .label = Varmistuksen tila
 finger-fingerprint =
     .label = Sormenjälki
-
 finger-remove =
     .label = Poista valitut
-
 finger-remove-all =
     .label = Poista kaikki

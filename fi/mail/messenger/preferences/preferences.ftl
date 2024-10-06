@@ -406,6 +406,15 @@ address-display-name =
 condensed-addresses-label =
     .label = Näytä osoitekirjassa olevien nimet ilman sähköpostiosoitetta
     .accesskey = N
+table-layout-horizontal-scroll-label =
+    .label = Salli vaakasuuntainen vieritys
+    .accesskey = v
+conversation-view-legend = Keskustelunäkymä
+conversation-view-checkbox-label =
+    .label = Ota keskustelunäkymä käyttöön
+    .accesskey = k
+conversation-view-checkbox-description = Glodaan perustuva kokeellinen ominaisuus, käytä omalla vastuullasi
+label-experiment = Kokeellinen
 
 ## Compose Tab
 
