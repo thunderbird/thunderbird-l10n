@@ -34,5 +34,10 @@ no-master-password-prompt = Ha sur oc'h ho peus c'hoant da ziskouez ho kerioù-t
 
 # This message can be seen by trying to show or copy the passwords.
 password-os-auth-dialog-message = Gwiriit ho identelezh a-benn diskouez ar c'herioù-tremen enrollet.
+# This message can be seen by trying to show or copy the passwords.
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to "
+# and includes subtitle of "Enter password for the user "xxx" to allow this." These
+# notes are only valid for English. Please test in your locale.
+password-os-auth-dialog-message-macosx = diskouez ar gerioù-tremen enrollet
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }

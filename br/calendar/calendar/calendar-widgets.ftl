@@ -12,6 +12,21 @@ calendar-new-task-primary-button = Trevell nevez
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = Devezh kent
+    .accesskey = z
+calendar-nav-button-prev-tooltip-week =
+    .title = Sizhun kent
+    .accesskey = s
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = Sizhun kent
+    .accesskey = s
+calendar-nav-button-prev-tooltip-month =
+    .title = Miz kent
+    .accesskey = z
+calendar-nav-button-prev-tooltip-year =
+    .title = Bloaz kent
+    .accesskey = z
 calendar-view-toggle-day = Devezh
     .title = Tremen d'ar gwel devezh
 calendar-view-toggle-week = Sizhun

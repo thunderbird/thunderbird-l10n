@@ -194,6 +194,7 @@ spaces-pinned-button-menuitem-show =
 menuitem-customize-label =
     .label = Personelaat…
 spaces-customize-background-color = Liv an drekleur
+spaces-customize-icon-color = Liv ar boutonoù
 customize-panel-button-save = Graet
     .accesskey = G
 

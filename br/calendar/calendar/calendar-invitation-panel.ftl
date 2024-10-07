@@ -81,5 +81,6 @@ calendar-invitation-panel-partstat-declined = { $count } ket
 # $count (Number) - The number of attendees with the "TENTATIVE" participation status.
 calendar-invitation-panel-partstat-tentative = { $count } marteze
 calendar-invitation-panel-prop-title-attachments = Kenstagadurioù:
+calendar-invitation-change-indicator-removed = Dilamet
 calendar-invitation-change-indicator-added = Nevez
 calendar-invitation-change-indicator-modified = Hizivaet
