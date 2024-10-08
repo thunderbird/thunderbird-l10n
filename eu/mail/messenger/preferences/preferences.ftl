@@ -413,6 +413,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Erakutsi nire helbide-liburuko pertsonen bistarazte-izena bakarrik
     .accesskey = p
+table-layout-legend = Taula ikuspegia
+table-layout-horizontal-scroll-label =
+    .label = Baimendu korrirtze horizontala
+    .accesskey = h
 
 ## Compose Tab
 
