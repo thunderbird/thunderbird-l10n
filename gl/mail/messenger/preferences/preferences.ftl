@@ -413,6 +413,16 @@ address-display-name =
 condensed-addresses-label =
     .label = Mostrar só o nome das persoas da miña axenda de enderezos
     .accesskey = s
+table-layout-legend = Vista de táboa
+table-layout-horizontal-scroll-label =
+    .label = Permitir desprazamento horizontal
+    .accesskey = h
+conversation-view-legend = Vista de conversa
+conversation-view-checkbox-label =
+    .label = Activar a vista de conversa
+    .accesskey = c
+conversation-view-checkbox-description = Función experimental baseada en Gloda, úsea baixo o seu propio risco
+label-experiment = Experimental
 
 ## Compose Tab
 
