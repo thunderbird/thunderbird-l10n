@@ -413,6 +413,12 @@ table-layout-legend = Подання таблицею
 table-layout-horizontal-scroll-label =
     .label = Дозволити горизонтальне прокручування
     .accesskey = г
+conversation-view-legend = Режим розмов
+conversation-view-checkbox-label =
+    .label = Увімкнути режим розмов
+    .accesskey = к
+conversation-view-checkbox-description = Експериментальна функція на основі Gloda. Використовуйте на власний ризик.
+label-experiment = Експериментальне
 
 ## Compose Tab
 
