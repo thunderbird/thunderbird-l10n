@@ -413,6 +413,16 @@ address-display-name =
 condensed-addresses-label =
     .label = Chỉ hiển thị tên cho những người trong sổ địa chỉ của tôi
     .accesskey = S
+table-layout-legend = Chế độ xem bảng
+table-layout-horizontal-scroll-label =
+    .label = Cho phép cuộn ngang
+    .accesskey = h
+conversation-view-legend = Chế độ xem hội thoại
+conversation-view-checkbox-label =
+    .label = Bật chế độ xem hội thoại
+    .accesskey = c
+conversation-view-checkbox-description = Tính năng thử nghiệm dựa trên Gloda, bạn tự chịu rủi ro khi sử dụng
+label-experiment = Thử nghiệm
 
 ## Compose Tab
 
