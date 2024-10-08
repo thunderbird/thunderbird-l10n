@@ -417,6 +417,12 @@ table-layout-legend = Taula ikuspegia
 table-layout-horizontal-scroll-label =
     .label = Baimendu korrirtze horizontala
     .accesskey = h
+conversation-view-legend = Elkarrizketa ikuspegia
+conversation-view-checkbox-label =
+    .label = Gaitu elkarrizketa ikuspegia
+    .accesskey = e
+conversation-view-checkbox-description = Glodan oinarritutako funtzio esperimentala, zure arriskupean
+label-experiment = Esperimentala
 
 ## Compose Tab
 
