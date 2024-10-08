@@ -418,6 +418,10 @@ table-layout-horizontal-scroll-label =
     .label = Yatay kaydırmaya izin ver
     .accesskey = Y
 conversation-view-legend = Yazışma görünümü
+conversation-view-checkbox-label =
+    .label = Yazışma görünümünü etkinleştir
+    .accesskey = z
+conversation-view-checkbox-description = Gloda’ya dayalı deneysel özellik. Kullanmak sizin sorumluluğunuzdadır.
 label-experiment = Deneysel
 
 ## Compose Tab
