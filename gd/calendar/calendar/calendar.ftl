@@ -357,6 +357,7 @@ html-task-completed = { $task } (crìochnaichte)
 # Categories
 add-category = Cuir ris roinn-seòrsa
 multiple-categories = Iomadh roinn-seòrsa
+no-categories = Chan eil gin
 calendar-today = An-diugh
 calendar-tomorrow = A-màireach
 yesterday = An-dè
@@ -466,7 +467,7 @@ event-details-end-date = Àm-crìochnachaidh:
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
-# used for display of calendar weeks in short form like 'Calendar Week 43'
+# used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = Seachdain na bliadhna: { $index }
 # LOCALIZATION NOTE (single-calendar-week):
@@ -474,6 +475,11 @@ single-long-calendar-week = Seachdain na bliadhna: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = { $index } seachdain na bl.
     .title = Seachdain na bliadhna: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Seachdainean a’ mhìosachain { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -660,9 +666,8 @@ extract-using = A' cleachdadh { $languageName }
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = A' cleachdadh { $languageName } ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [one] { $count } mhionaid
@@ -670,7 +675,10 @@ unit-minutes =
         [few] { $count } mionaidean
        *[other] { $count } mionaid
     }
-# $count count
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [one] { $count } uair a thìde
@@ -678,7 +686,10 @@ unit-hours =
         [few] { $count } uairean a thìde
        *[other] { $count } uair a thìde
     }
-# $count count
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [one] { $count } latha
@@ -686,7 +697,10 @@ unit-days =
         [few] { $count } làithean
        *[other] { $count } latha
     }
-# $count count
+event-duration-menuitem-count-days =
+    .label = { unit-days }
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
         [one] { $count } seachdain
@@ -694,6 +708,56 @@ unit-weeks =
         [few] { $count } seachdainean
        *[other] { $count } seachdain
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] mhionaid
+            [two] mhionaid
+            [few] mionaidean
+           *[other] mionaid
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] uair a thìde
+            [two] uair a thìde
+            [few] uairean a thìde
+           *[other] uair a thìde
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] latha
+            [two] latha
+            [few] làithean
+           *[other] latha
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] seachdain
+            [two] sheachdain
+            [few] seachdainean
+           *[other] seachdain
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name

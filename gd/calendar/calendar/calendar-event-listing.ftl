@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Tachartasan san àm a dh’fhalbh
 calendar-event-listing-interval-calendar-month =
     .label = Tachartasan sa mhìos mhìosachain seo
 calendar-event-listing-interval-current-view =
@@ -61,5 +63,13 @@ calendar-event-listing-interval-next-14-days =
     .label = Tachartasan sa chola-deug seo tighinn
 calendar-event-listing-interval-next-31-days =
     .label = Tachartasan san 31 latha seo tighinn
+calendar-event-listing-interval-next-6-months =
+    .label = Tachartasan sna 6 mìosan seo tighinn
+calendar-event-listing-interval-next-12-months =
+    .label = Tachartasan san 12 mhìos seo tighinn
+calendar-event-listing-interval-all =
+    .label = Gach tachartas
 calendar-event-listing-interval-selected-day =
     .label = An latha a thagh thu
+calendar-event-listing-interval-today =
+    .label = Tachartasan an-diugh

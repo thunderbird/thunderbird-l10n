@@ -147,15 +147,6 @@ menu-edit-unsubscribe-newsgroup =
     .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
-menu-edit-delete-messages =
-    .label =
-        { $count ->
-            [one] Sguab às an teachdaireachd
-           *[other] Sguab às na teachdaireachdan a thagh thu
-        }
-    .accesskey = d
-# Variables:
-# $count (Number) - Number of selected messages.
 menu-edit-undelete-messages =
     .label =
         { $count ->
@@ -394,7 +385,7 @@ quick-filter-bar-toggle =
     .label = Bàr-criathraidh luath
     .accesskey = B
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 
