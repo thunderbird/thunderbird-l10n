@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Dodatki in teme
     .accesskey = D
+menu-export-for-mobile =
+    .label = Izvozi za mobilno napravo …
+    .accesskey = z
 
 ## Help Menu
 
