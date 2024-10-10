@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sync
 category-sync =
     .tooltiptext = Sync
+pane-qr-export-title = Exportar pro apparatos mobile
+category-qr-export =
+    .tooltiptext = Exportar pro apparatos mobile
 general-language-and-appearance-header = Lingua e apparentia
 general-incoming-mail-header = Messages entrante
 general-files-and-attachment-header = Files e annexos
@@ -810,3 +813,32 @@ synced-acount-item-filters = Filtros
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synchronisa tu contos email, libros de adresses, agendas e identitates inter tote tu apparatos.
 sync-disconnected-turn-on-sync = Activar synchronisation…
+
+## Mobile QR Export Pane
+
+qr-export-select-accounts = Eliger qual contos exportar:
+qr-export-accounts-legend = Contos email
+qr-export-select-all-accounts = Seliger toto
+qr-export-security-legend = Securitate
+qr-export-include-passwords = Includer tote le contrasignos del contos
+qr-export-start-export = Exportar
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } de { $count } codice QR
+       *[other] { $step } de { $count } codices QR
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Scander codice QR con { -brand-product-name } sur tu apparato mobile.
+       *[other] Scander codices QR con { -brand-product-name } sur tu apparato mobile.
+    }
+qr-export-scan-step1 = Aperi { -brand-product-name } sur tu apparato mobile.
+qr-export-scan-step2 = Ir a parametros
+qr-export-back = Retro
+qr-export-next = Sequente
+qr-export-done = Facite
