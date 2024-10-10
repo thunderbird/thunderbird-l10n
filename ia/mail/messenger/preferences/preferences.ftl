@@ -816,6 +816,7 @@ sync-disconnected-turn-on-sync = Activar synchronisation…
 
 ## Mobile QR Export Pane
 
+qr-export-create = Crea un codice QR pro exportar tu contos
 qr-export-select-accounts = Eliger qual contos exportar:
 qr-export-accounts-legend = Contos email
 qr-export-select-all-accounts = Seliger toto
@@ -842,3 +843,22 @@ qr-export-scan-step2 = Ir a parametros
 qr-export-back = Retro
 qr-export-next = Sequente
 qr-export-done = Facite
+qr-export-summary-description = Contos exportate. Continua sur tu apparato mobile.
+qr-export-summary-title = Summario de exportation:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } codice QR generate
+       *[other] { $count } codices QR generate
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } conto exportate:
+       *[other] { $count } contos exportate:
+    }
+qr-export-summary-passwords-included = Contrasignos includite
+qr-export-summary-passwords-excluded = Contrasignos excludite
+qr-export-more-accounts = Exportar plus de contos
