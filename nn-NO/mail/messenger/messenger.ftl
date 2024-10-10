@@ -281,8 +281,8 @@ context-menu-decrypt-to-folder2 =
 other-action-redirect-msg =
     .label = Omdiriger
 message-header-msg-flagged =
-    .title = Med stjerne
-    .aria-label = Med stjerne
+    .title = Stjernemarkert
+    .aria-label = Stjernemarkert
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =

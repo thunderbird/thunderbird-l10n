@@ -34,7 +34,7 @@ quick-filter-bar-dropdown =
 quick-filter-bar-dropdown-unread =
     .label = Ulesne
 quick-filter-bar-dropdown-starred =
-    .label = Med stjerne
+    .label = Stjernemarkert
 quick-filter-bar-dropdown-inaddrbook =
     .label = Kontakt
 quick-filter-bar-dropdown-tags =
@@ -51,10 +51,10 @@ quick-filter-bar-unread-label = Ulesne
 # The tooltip for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred =
-    .title = Vis berre meldingar med stjerne
+    .title = Vis berre stjernemarkerte meldingar
 # The label for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
-quick-filter-bar-starred-label = Med stjerne
+quick-filter-bar-starred-label = Stjernemarkerte
 # The tooltip for the filter button that causes us to filter results to only
 # include messages from contacts in one of the user's non-remote address
 # books.
@@ -218,10 +218,10 @@ threadpane-cell-thread =
 threadpane-column-header-flagged =
     .title = Sorter etter: Stjerne
 threadpane-column-label-flagged =
-    .label = Stjerne
+    .label = Stjernemarkert
 threadpane-cell-flagged =
-    .aria-label = Med stjerne
-threadpane-flagged-cell-label = Med stjerne
+    .aria-label = Stjernemarkert
+threadpane-flagged-cell-label = Stjernemarkert
 threadpane-column-header-attachments =
     .title = Sorter etter: Vedlegg
 threadpane-column-label-attachments =
