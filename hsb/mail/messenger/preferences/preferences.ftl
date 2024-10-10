@@ -813,12 +813,35 @@ sync-disconnected-turn-on-sync = Synchronizaciju zmóžnić…
 
 ## Mobile QR Export Pane
 
+qr-export-select-accounts = Wubjerće konta, kotrež so maja eksportować:
 qr-export-accounts-legend = E-mejlowe konta
 qr-export-select-all-accounts = Wšě wubrać
 qr-export-security-legend = Wěstota
+qr-export-include-passwords = Wšě kontowe hesła zapřijeć
 qr-export-start-export = Eksportować
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } z { $count } koda QR
+        [two] { $step } z { $count } kodow QR
+        [few] { $step } z { $count } kodow QR
+       *[other] { $step } z { $count } kodow QR
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Skenujće kod QR z { -brand-product-name } na swojim mobilnym graće
+        [two] Skenujće kodaj QR z { -brand-product-name } na swojim mobilnym graće
+        [few] Skenujće kody QR z { -brand-product-name } na swojim mobilnym graće
+       *[other] Skenujće kody QR z { -brand-product-name } na swojim mobilnym graće
+    }
 qr-export-scan-step1 = Wočińće { -brand-product-name } na swojim mobilnym graće
 qr-export-scan-step2 = K nastajenjam
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Wubjerće <strong>importowe nastajenja</strong>
 qr-export-back = Wróćo
 qr-export-next = Dale
 qr-export-done = Hotowo
