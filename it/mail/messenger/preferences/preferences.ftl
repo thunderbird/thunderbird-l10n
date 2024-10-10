@@ -25,9 +25,9 @@ category-calendar =
 pane-sync-title = Sincronizzazione
 category-sync =
     .tooltiptext = Sincronizzazione
-pane-qr-export-title = Esporta per dispositivi mobili
+pane-qr-export-title = Esporta per app mobile
 category-qr-export =
-    .tooltiptext = Esporta per dispositivi mobili
+    .tooltiptext = Esporta per app mobile
 general-language-and-appearance-header = Lingua e aspetto
 general-incoming-mail-header = Posta in arrivo
 general-files-and-attachment-header = File e allegati
@@ -828,11 +828,7 @@ qr-export-start-export = Esporta
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 # $step (Number) - Current step number of the QR code displayed.
-qr-export-scan-progress =
-    { $count ->
-        [one] Codice QR di { $step } di { $count }
-       *[other] { $step } di { $count } codici QR
-    }
+qr-export-scan-progress = Codice QR — { $step } di { $count }
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 qr-export-scan-description =
@@ -845,7 +841,7 @@ qr-export-scan-step2 = Vai alle impostazioni
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Seleziona <strong>Importa impostazioni</strong>
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
-qr-export-scan-step4-revision = Tocca <strong>Scansiona codice QR</strong> e tieni il telefono sopra questo codice
+qr-export-scan-step4-revision = Tocca <strong>Scansiona codice QR</strong> e posiziona il telefono sopra questo codice
 qr-export-back = Indietro
 qr-export-next = Avanti
 qr-export-done = Fatto
@@ -862,7 +858,7 @@ qr-export-summary-qr-count =
 # $count (Number) - Number of accounts included in the export.
 qr-export-summary-accounts =
     { $count ->
-        [one] { $count } account esportati:
+        [one] { $count } account esportato:
        *[other] { $count } account esportati:
     }
 qr-export-summary-passwords-included = Password incluse
