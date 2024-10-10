@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sincronizzazione
 category-sync =
     .tooltiptext = Sincronizzazione
+pane-qr-export-title = Esporta per dispositivi mobili
+category-qr-export =
+    .tooltiptext = Esporta per dispositivi mobili
 general-language-and-appearance-header = Lingua e aspetto
 general-incoming-mail-header = Posta in arrivo
 general-files-and-attachment-header = File e allegati
@@ -806,3 +809,62 @@ synced-acount-item-filters = Filtri
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronizza account di posta elettronica, rubriche, calendari e identità attraverso tutti i tuoi dispositivi.
 sync-disconnected-turn-on-sync = Attiva sincronizzazione…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Esporta account su { -brand-product-name } Mobile
+qr-export-description = Trasferisci rapidamente le impostazioni del tuo account dal desktop al dispositivo mobile generando un codice QR. Seleziona gli account da includere, decidi se vuoi trasferire la password e scansiona il codice con il tuo dispositivo mobile. Veloce, sicuro e semplice.
+qr-export-get-app = Non hai ancora { -brand-product-name } per dispositivi mobili? <a data-l10n-name="app-link">Scaricalo su Google Play</a>
+qr-export-create = Crea un codice QR per esportare i tuoi account
+qr-export-select-accounts = Seleziona gli account da esportare:
+qr-export-no-accounts = Non vedi tutti i tuoi account? Alcuni account potrebbero essere disattivati in quanto non supportati da { -brand-product-name } per Android. <a data-l10n-name="account-support-link">Supporto</a>
+qr-export-accounts-legend = Account di posta elettronica
+qr-export-select-all-accounts = Seleziona tutto
+qr-export-security-legend = Sicurezza
+qr-export-include-passwords = Includi tutte le password degli account
+qr-export-security-hint = Scansionando i seguenti codici QR, le impostazioni del tuo account, inclusi email e password, verranno trasferite in modo sicuro. Non raccogliamo, conserviamo o condividiamo nessuno di questi dati durante il processo. Il trasferimento avviene direttamente tra i tuoi dispositivi.
+qr-export-security-warning = Per motivi di sicurezza, assicurati di essere in un ambiente riservato e scansiona i codici QR solo da fonti attendibili.
+qr-export-start-export = Esporta
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] Codice QR di { $step } di { $count }
+       *[other] { $step } di { $count } codici QR
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Scansiona il codice QR con { -brand-product-name } sul tuo dispositivo mobile
+       *[other] Scansiona i codici QR con { -brand-product-name } sul tuo dispositivo mobile
+    }
+qr-export-scan-step1 = Apri { -brand-product-name } sul tuo dispositivo mobile
+qr-export-scan-step2 = Vai alle impostazioni
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Seleziona <strong>Importa impostazioni</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Tocca <strong>Scansiona codice QR</strong> e tieni il telefono sopra questo codice
+qr-export-back = Indietro
+qr-export-next = Avanti
+qr-export-done = Fatto
+qr-export-summary-description = Account esportati. Continua sul tuo dispositivo mobile.
+qr-export-summary-title = Riepilogo esportazione:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } codice QR generato
+       *[other] { $count } codici QR generati
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } account esportati:
+       *[other] { $count } account esportati:
+    }
+qr-export-summary-passwords-included = Password incluse
+qr-export-summary-passwords-excluded = Password escluse
+qr-export-more-accounts = Esporta altri account
