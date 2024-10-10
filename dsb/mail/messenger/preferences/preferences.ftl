@@ -819,3 +819,50 @@ sync-disconnected-turn-on-sync = Synchronizaciju zmóžniś…
 qr-export-pane-header = Konta do mobilnego { -brand-product-name } eksportěrowaś
 qr-export-get-app = Njamaśo hyšći { -brand-product-name } na mobilnem rěźe? <a data-l10n-name="app-link">Wobstarajśo se jen na Google Play</a>
 qr-export-create = Napórajśo kod QR, aby swóje konta eksportěrował
+qr-export-select-accounts = Wubjeŕśo konta, kótarež se maju eksportěrowaś:
+qr-export-no-accounts = Njewiźiśo wšykne konta? Někotare konta su snaź znjemóžnjone, dokulaž se wót { -brand-product-name } za Android njepódpěraju. <a data-l10n-name="account-support-link">Pódpěra</a>
+qr-export-accounts-legend = E-mailowe konta
+qr-export-select-all-accounts = Wšykne wubraś
+qr-export-security-legend = Wěstota
+qr-export-include-passwords = Wšykne kontowe gronidła zapśimjeś
+qr-export-security-warning = Pšosym zawěsććo za swóju wěstotu, až sćo w priwatnej wokolinje a scannujśo jano kody QR z dowěry gódnych žrědłow.
+qr-export-start-export = Eksportěrowaś
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } z { $count } koda QR
+        [two] { $step } z { $count } kodowu QR
+        [few] { $step } z { $count } kodow QR
+       *[other] { $step } z { $count } kodow QR
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Scannujśo kod QR z { -brand-product-name } na swójom mobilnem reźe
+        [two] Scannujśo koda QR z { -brand-product-name } na swójom mobilnem reźe
+        [few] Scannujśo kody QR z { -brand-product-name } na swójom mobilnem reźe
+       *[other] Scannujśo kody QR z { -brand-product-name } na swójom mobilnem reźe
+    }
+qr-export-scan-step1 = Wócyńśo { -brand-product-name } na swójom mobilnem rěźe
+qr-export-scan-step2 = K nastajenjam
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Wubjeŕśo <strong>importowe nastajenja</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Pótusniśo <strong>Kod QR scannowaś</strong> a źaržćo swój telefon nad toś ten kod
+qr-export-back = Slědk
+qr-export-next = Dalej
+qr-export-done = Gótowe
+qr-export-summary-description = Konto su eksportěrowane. Dalej na wašom mobilnem rěźe.
+qr-export-summary-title = Eksportowe zespominanje:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } kod QR jo se generěrował
+        [two] { $count } koda QR stej se generěrowałej
+        [few] { $count } kody QR su se generěrowali
+       *[other] { $count } kodow QR jo se generěrowało
+    }
