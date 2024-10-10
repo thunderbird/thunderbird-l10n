@@ -816,6 +816,7 @@ sync-disconnected-turn-on-sync = Activar synchronisation…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Exporta contos a { -brand-product-name } Mobile
 qr-export-create = Crea un codice QR pro exportar tu contos
 qr-export-select-accounts = Eliger qual contos exportar:
 qr-export-accounts-legend = Contos email
