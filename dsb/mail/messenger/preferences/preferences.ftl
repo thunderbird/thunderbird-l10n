@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Synchronizacija
 category-sync =
     .tooltiptext = Synchronizacija
+pane-qr-export-title = Eksport za mobilny rěd
+category-qr-export =
+    .tooltiptext = Eksport za mobilny rěd
 general-language-and-appearance-header = Rěc a wuglěd
 general-incoming-mail-header = Dochadajuce mejlki
 general-files-and-attachment-header = Dataje a pśidanki
@@ -810,3 +813,9 @@ synced-acount-item-filters = Filtry
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synchronizěrujśo swóje e-mailowe konta, adresniki, kalendarje a identity mjazy wšymi wašymi rědami.
 sync-disconnected-turn-on-sync = Synchronizaciju zmóžniś…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Konta do mobilnego { -brand-product-name } eksportěrowaś
+qr-export-get-app = Njamaśo hyšći { -brand-product-name } na mobilnem rěźe? <a data-l10n-name="app-link">Wobstarajśo se jen na Google Play</a>
+qr-export-create = Napórajśo kod QR, aby swóje konta eksportěrował

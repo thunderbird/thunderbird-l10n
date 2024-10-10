@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Dodanki a drastwy
     .accesskey = D
+menu-export-for-mobile =
+    .label = Eksport za mobilny rěd…
+    .accesskey = E
 
 ## Help Menu
 
