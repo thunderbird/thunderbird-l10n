@@ -147,6 +147,15 @@ menu-edit-unsubscribe-newsgroup =
     .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
+menu-edit-delete-messages =
+    .label =
+        { $count ->
+            [one] Sguab às an teachdaireachd
+           *[other] Sguab às na teachdaireachdan a thagh thu
+        }
+    .accesskey = d
+# Variables:
+# $count (Number) - Number of selected messages.
 menu-edit-undelete-messages =
     .label =
         { $count ->
