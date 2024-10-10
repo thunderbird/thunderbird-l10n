@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Ychwanegion a Themâu
     .accesskey = Y
+menu-export-for-mobile =
+    .label = Allforio ar gyfer Symudol…
+    .accesskey = A
 
 ## Help Menu
 
