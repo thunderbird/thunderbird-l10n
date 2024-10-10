@@ -812,8 +812,12 @@ sync-disconnected-turn-on-sync = Ενεργοποίηση συγχρονισμο
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Εξαγωγή λογαριασμών στο { -brand-product-name } για κινητές συσκευές
+qr-export-description = Μεταφέρετε γρήγορα τις ρυθμίσεις του λογαριασμού σας από τον υπολογιστή στην κινητή σας συσκευή με έναν κωδικό QR. Επιλέξτε ποιους λογαριασμούς θα συμπεριλάβετε, αποφασίστε αν θέλετε να μεταφέρετε τους κωδικούς πρόσβασής σας και σαρώστε τον κωδικό με την κινητή σας συσκευή. Γρήγορα, εύκολα και με ασφάλεια.
+qr-export-get-app = Ακόμα να κάνετε λήψη του { -brand-product-name } στην κινητή σας συσκευή; <a data-l10n-name="app-link">Αποκτήστε το στο Google Play</a>
 qr-export-create = Δημιουργήστε έναν κωδικό QR για να εξαγάγετε τους λογαριασμούς σας
 qr-export-select-accounts = Επιλέξτε λογαριασμούς προς εξαγωγή:
+qr-export-no-accounts = Δεν βλέπετε όλους τους λογαριασμούς σας; Ορισμένοι λογαριασμοί ενδέχεται να έχουν απενεργοποιηθεί επειδή δεν υποστηρίζονται από το { -brand-product-name } για Android. <a data-l10n-name="account-support-link">Υποστήριξη</a>
 qr-export-accounts-legend = Λογαριασμοί email
 qr-export-select-all-accounts = Επιλογή όλων
 qr-export-security-legend = Ασφάλεια
