@@ -810,3 +810,18 @@ synced-acount-item-filters = Filtry
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synchronizujće swoje e-mejlowe konta, adresniki, protyki a identity mjez wšěmi wašimi gratami.
 sync-disconnected-turn-on-sync = Synchronizaciju zmóžnić…
+
+## Mobile QR Export Pane
+
+qr-export-accounts-legend = E-mejlowe konta
+qr-export-select-all-accounts = Wšě wubrać
+qr-export-security-legend = Wěstota
+qr-export-start-export = Eksportować
+qr-export-scan-step1 = Wočińće { -brand-product-name } na swojim mobilnym graće
+qr-export-scan-step2 = K nastajenjam
+qr-export-back = Wróćo
+qr-export-next = Dale
+qr-export-done = Hotowo
+qr-export-summary-passwords-included = Hesła zapřijate
+qr-export-summary-passwords-excluded = Hesła wuzamknjene
+qr-export-more-accounts = Dalše konta eksportować
