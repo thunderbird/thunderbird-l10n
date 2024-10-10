@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Přidatki a drasty
     .accesskey = P
+menu-export-for-mobile =
+    .label = Eksport za mobilny grat…
+    .accesskey = E
 
 ## Help Menu
 

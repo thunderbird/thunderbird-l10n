@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sync
 category-sync =
     .tooltiptext = Sync
+pane-qr-export-title = Eksport za mobilny grat
+category-qr-export =
+    .tooltiptext = Eksport za mobilny grat
 general-language-and-appearance-header = Rěč a zwonkowne
 general-incoming-mail-header = Dochadźace mejlki
 general-files-and-attachment-header = Dataje a přiwěški
@@ -813,6 +816,9 @@ sync-disconnected-turn-on-sync = Synchronizaciju zmóžnić…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Konta do mobilneho { -brand-product-name } eksportować
+qr-export-get-app = Nimaće hišće { -brand-product-name } na mobilnym graće? <a data-l10n-name="app-link">Wobstarajće sej jón na Google Play</a>
+qr-export-create = Wutworće kod QR, zo byšće swoje konta eksportował
 qr-export-select-accounts = Wubjerće konta, kotrež so maja eksportować:
 qr-export-accounts-legend = E-mejlowe konta
 qr-export-select-all-accounts = Wšě wubrać
@@ -842,9 +848,31 @@ qr-export-scan-step1 = Wočińće { -brand-product-name } na swojim mobilnym gra
 qr-export-scan-step2 = K nastajenjam
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Wubjerće <strong>importowe nastajenja</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Podótkńće so <strong>Kod QR skenować</strong> a dźeržće swój telefon nad tutón kod
 qr-export-back = Wróćo
 qr-export-next = Dale
 qr-export-done = Hotowo
+qr-export-summary-description = Konto su eksportowane. Dale na wašim mobilnym graće.
+qr-export-summary-title = Eksportowe zjeće:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } kod QR je so generěrował
+        [two] { $count } kodaj QR stej so generěrowałoj
+        [few] { $count } kody QR su so generěrowali
+       *[other] { $count } kodow QR je so generěrowało
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } konto je so eksportowało:
+        [two] { $count } konće stej so eksportowałoj:
+        [few] { $count } konta su so eksportowali:
+       *[other] { $count } kontow je so eksportowało:
+    }
 qr-export-summary-passwords-included = Hesła zapřijate
 qr-export-summary-passwords-excluded = Hesła wuzamknjene
 qr-export-more-accounts = Dalše konta eksportować
