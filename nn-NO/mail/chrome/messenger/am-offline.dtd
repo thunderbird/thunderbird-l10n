@@ -28,7 +28,7 @@
 <!ENTITY retentionKeepAll.accesskey "I">
 <!ENTITY retentionKeepRecent.label "Slett alle unntatt dei siste">
 <!ENTITY retentionKeepRecent.accesskey "S">
-<!ENTITY retentionApplyToFlagged.label "Alltid ta vare på meldingar merkte med stjerne">
+<!ENTITY retentionApplyToFlagged.label "Ta alltid vare på stjernemarkerte meldingar">
 <!ENTITY retentionApplyToFlagged.accesskey "d">
 <!ENTITY nntpRemoveMsgBody.label "Fjern brødtekst frå meldingar meir enn">
 <!ENTITY nntpRemoveMsgBody.accesskey "F">

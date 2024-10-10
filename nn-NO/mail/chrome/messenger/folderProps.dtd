@@ -26,7 +26,7 @@
 <!ENTITY retentionKeepAll.accesskey "I">
 <!ENTITY retentionKeepRecent.label "Slett alle unntatt dei aller siste">
 <!ENTITY retentionKeepRecent.accesskey "S">
-<!ENTITY retentionApplyToFlagged.label "Ta alltid vare på meldingar merkte med stjerne">
+<!ENTITY retentionApplyToFlagged.label "Ta alltid vare på stjernemarkerte meldingar">
 <!ENTITY retentionApplyToFlagged.accesskey "d">
 
 <!ENTITY folderSynchronizationTab.label          "Synkronisering">

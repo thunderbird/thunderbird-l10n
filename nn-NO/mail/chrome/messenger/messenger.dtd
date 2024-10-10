@@ -80,7 +80,7 @@
 <!ENTITY settingsOfflineCmd2.accesskey "F">
 <!ENTITY downloadSelectedCmd.label "Last ned valde meldingar">
 <!ENTITY downloadSelectedCmd.accesskey "n">
-<!ENTITY downloadStarredCmd.label "Last ned meldingar merkte med stjerne">
+<!ENTITY downloadStarredCmd.label "Last ned stjernemarkerte meldingar">
 <!ENTITY downloadStarredCmd.accesskey "L">
 <!ENTITY printCmd.label "Skriv ut…">
 <!ENTITY printCmd.accesskey "u">
@@ -94,7 +94,7 @@
 <!ENTITY selectThreadCmd.label "Tråd">
 <!ENTITY selectThreadCmd.accesskey "T">
 <!ENTITY selectThreadCmd.key "a">
-<!ENTITY selectFlaggedCmd.label "Meldingar med stjerne">
+<!ENTITY selectFlaggedCmd.label "Stjernemarkerte meldingar">
 <!ENTITY selectFlaggedCmd.accesskey "e">
 <!ENTITY menuFavoriteFolder.label "Favorittmappe">
 <!ENTITY menuFavoriteFolder.accesskey "F">
@@ -277,7 +277,7 @@
 <!ENTITY nextUnreadMsgCmd.label "Ulesen melding">
 <!ENTITY nextUnreadMsgCmd.accesskey "U">
 <!ENTITY nextUnreadMsgCmd.key "n">
-<!ENTITY nextStarredMsgCmd.label "Melding med stjerne">
+<!ENTITY nextStarredMsgCmd.label "Stjernemarkert melding">
 <!ENTITY nextStarredMsgCmd.accesskey "M">
 <!ENTITY nextUnreadThread.label "Ulesen tråd">
 <!ENTITY nextUnreadThread.accesskey "t">
@@ -298,7 +298,7 @@
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goChatCmd.label "Chatt">
 <!ENTITY goChatCmd.accesskey "e">
-<!ENTITY prevStarredMsgCmd.label "Melding med stjerne">
+<!ENTITY prevStarredMsgCmd.label "Stjernemarkert melding">
 <!ENTITY prevStarredMsgCmd.accesskey "M">
 <!ENTITY folderMenu.label "Mappe">
 <!ENTITY folderMenu.accesskey "M">
@@ -668,7 +668,7 @@
 <!ENTITY totalColumn.label "Totalt">
 <!ENTITY readColumn.label "Lesen">
 <!ENTITY receivedColumn.label "Motteke">
-<!ENTITY starredColumn.label "Stjerne">
+<!ENTITY starredColumn.label "Stjernemarkert">
 <!ENTITY locationColumn.label "Plassering">
 <!ENTITY idColumn.label "Motteke-rekkjefølgje">
 <!ENTITY attachmentColumn.label "Vedlegg">
