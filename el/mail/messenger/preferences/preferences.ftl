@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Συγχρονισμός
 category-sync =
     .tooltiptext = Συγχρονισμός
+pane-qr-export-title = Εξαγωγή για κινητές συσκευές
+category-qr-export =
+    .tooltiptext = Εξαγωγή για κινητές συσκευές
 general-language-and-appearance-header = Γλώσσα και εμφάνιση
 general-incoming-mail-header = Εισερχόμενα email
 general-files-and-attachment-header = Αρχεία και συνημμένα
@@ -806,3 +809,47 @@ synced-acount-item-filters = Φίλτρα
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Συγχρονισμός των λογαριασμών email, των ευρετηρίων, των ημερολογίων και των ταυτοτήτων σε όλες τις συσκευές σας.
 sync-disconnected-turn-on-sync = Ενεργοποίηση συγχρονισμού…
+
+## Mobile QR Export Pane
+
+qr-export-create = Δημιουργήστε έναν κωδικό QR για να εξαγάγετε τους λογαριασμούς σας
+qr-export-select-accounts = Επιλέξτε λογαριασμούς προς εξαγωγή:
+qr-export-accounts-legend = Λογαριασμοί email
+qr-export-select-all-accounts = Επιλογή όλων
+qr-export-security-legend = Ασφάλεια
+qr-export-include-passwords = Συμπερίληψη όλων των κωδικών πρόσβασης λογαριασμών
+qr-export-start-export = Εξαγωγή
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } από { $count } κωδικό QR
+       *[other] { $step } από { $count } κωδικούς QR
+    }
+qr-export-scan-step1 = Ανοίξτε το { -brand-product-name } στην κινητή σας συσκευή
+qr-export-scan-step2 = Μεταβείτε στις ρυθμίσεις
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Επιλέξτε <strong>Εισαγωγή ρυθμίσεων</strong>
+qr-export-back = Πίσω
+qr-export-next = Επόμενο
+qr-export-done = Τέλος
+qr-export-summary-description = Έγινε εξαγωγή των λογαριασμών. Συνεχίστε στην κινητή σας συσκευή.
+qr-export-summary-title = Περίληψη εξαγωγής:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] Δημιουργήθηκε { $count } κωδικός QR
+       *[other] Δημιουργήθηκαν { $count } κωδικοί QR
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] Εξήχθη { $count } λογαριασμός:
+       *[other] Εξήχθησαν { $count } λογαριασμοί:
+    }
+qr-export-summary-passwords-included = Περιλαμβάνονται οι κωδικοί πρόσβασης
+qr-export-summary-passwords-excluded = Εξαιρούνται οι κωδικοί πρόσβασης
+qr-export-more-accounts = Εξαγωγή περισσότερων λογαριασμών

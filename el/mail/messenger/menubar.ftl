@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Πρόσθετα και θέματα
     .accesskey = ρ
+menu-export-for-mobile =
+    .label = Εξαγωγή για κινητές συσκευές…
+    .accesskey = γ
 
 ## Help Menu
 
