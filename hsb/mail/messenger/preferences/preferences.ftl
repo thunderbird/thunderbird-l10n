@@ -820,10 +820,12 @@ qr-export-pane-header = Konta do mobilneho { -brand-product-name } eksportować
 qr-export-get-app = Nimaće hišće { -brand-product-name } na mobilnym graće? <a data-l10n-name="app-link">Wobstarajće sej jón na Google Play</a>
 qr-export-create = Wutworće kod QR, zo byšće swoje konta eksportował
 qr-export-select-accounts = Wubjerće konta, kotrež so maja eksportować:
+qr-export-no-accounts = Njewidźiće wšě konta? Někotre konta su snano znjemóžnjene, dokelž so wot { -brand-product-name } za Android njepodpěruja. <a data-l10n-name="account-support-link">Podpěra</a>
 qr-export-accounts-legend = E-mejlowe konta
 qr-export-select-all-accounts = Wšě wubrać
 qr-export-security-legend = Wěstota
 qr-export-include-passwords = Wšě kontowe hesła zapřijeć
+qr-export-security-warning = Prošu zawěsćće za swoju wěstotu, zo sće w priwatnej wokolinje a skenujće jenož kody QR z dowěry hódnych žórłow.
 qr-export-start-export = Eksportować
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
