@@ -866,3 +866,15 @@ qr-export-summary-qr-count =
         [few] { $count } kody QR su se generěrowali
        *[other] { $count } kodow QR jo se generěrowało
     }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } konto jo se eksportěrowało:
+        [two] { $count } konśe stej se eksportěrowałej:
+        [few] { $count } konta su se eksportěrowali:
+       *[other] { $count } kontow jo se eksportěrowało:
+    }
+qr-export-summary-passwords-included = Gronidła zapśimjone
+qr-export-summary-passwords-excluded = Gronidła wuzamknjone
+qr-export-more-accounts = Dalšne konta eksportěrowaś
