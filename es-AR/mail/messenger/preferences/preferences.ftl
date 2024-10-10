@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sincronizar
 category-sync =
     .tooltiptext = Sincronizar
+pane-qr-export-title = Exportar para dispositivos móviles
+category-qr-export =
+    .tooltiptext = Exportar para dispositivos móviles
 general-language-and-appearance-header = Idioma y apariencia
 general-incoming-mail-header = Correos electrónicos entrantes
 general-files-and-attachment-header = Archivos y adjuntos
@@ -806,3 +809,54 @@ synced-acount-item-filters = Filtros
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronice cuentas de correo electrónico, libretas de direcciones, calendarios e identidades en todos sus dispositivos.
 sync-disconnected-turn-on-sync = Habilitar sincronización…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Exportar cuentas a { -brand-product-name } móvil
+qr-export-description = Transfiere rápidamente la configuración de tu cuenta desde el escritorio al dispositivo móvil generando un código QR. Selecciona qué cuentas incluir, decide si quieres transferir tu contraseña y escanea el código con tu dispositivo móvil. Rápido, seguro y sencillo.
+qr-export-get-app = ¿Todavía no tenés { -brand-product-name } en dispositivos móviles? <a data-l10n-name="app-link"> Obtenerlo en Google Play </a>
+qr-export-create = Crea un código QR para exportar tus cuentas
+qr-export-select-accounts = Seleccione qué cuentas exportar:
+qr-export-no-accounts = ¿No ves todas tus cuentas? Algunas cuentas pueden estar deshabilitadas porque no son compatibles con { -brand-product-name } para Android. <a data-l10n-name="account-support-link"> Ayuda </a>
+qr-export-accounts-legend = Cuentas de correo
+qr-export-select-all-accounts = Seleccionar todo
+qr-export-security-legend = Seguridad
+qr-export-include-passwords = Incluir todas las contraseñas de las cuentas
+qr-export-security-hint = Al escanear los siguientes códigos QR, la configuración de tu cuenta, incluyendo tu correo electrónico y contraseña, se transferirá de forma segura. No recopilamos, almacenamos ni compartimos ninguno de estos datos durante el proceso. La transferencia se produce directamente entre tus dispositivos.
+qr-export-security-warning = Por tu seguridad, asegúrate de estar en un entorno privado y escanear solo códigos QR de fuentes confiables.
+qr-export-start-export = Exportar
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Escanee el código QR con { -brand-product-name } en su dispositivo móvil
+       *[other] Escanee códigos QR con { -brand-product-name } en su dispositivo móvil
+    }
+qr-export-scan-step1 = Abrir { -brand-product-name } en tu dispositivo móvil
+qr-export-scan-step2 = Ir a Ajustes
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Selecciona <strong> Importar configuración </strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Toca <strong> Escanear código QR </strong> y coloca tu teléfono sobre este código
+qr-export-back = Atrás
+qr-export-next = Siguiente
+qr-export-done = Listo
+qr-export-summary-description = Cuentas exportadas. Continúa en tu dispositivo móvil.
+qr-export-summary-title = Exportar resumen:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } código QR generado
+       *[other] { $count } códigos QR generados
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } cuenta exportada:
+       *[other] { $count } cuentas exportadas:
+    }
+qr-export-summary-passwords-included = Contraseñas incluidas
+qr-export-summary-passwords-excluded = Contraseñas excluidas
+qr-export-more-accounts = Exportar más cuentas
