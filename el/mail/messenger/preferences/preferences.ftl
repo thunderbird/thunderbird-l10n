@@ -822,6 +822,8 @@ qr-export-accounts-legend = Λογαριασμοί email
 qr-export-select-all-accounts = Επιλογή όλων
 qr-export-security-legend = Ασφάλεια
 qr-export-include-passwords = Συμπερίληψη όλων των κωδικών πρόσβασης λογαριασμών
+qr-export-security-hint = Σαρώνοντας τους ακόλουθους κωδικούς QR, οι ρυθμίσεις του λογαριασμού σας — μαζί με το email και τον κωδικό πρόσβασής σας — θα μεταφερθούν με ασφάλεια. Δεν συλλέγουμε, δεν αποθηκεύουμε και δεν κοινοποιούμε αυτά τα δεδομένα κατά τη διάρκεια αυτής της διαδικασίας. Η μεταφορά γίνεται απευθείας μεταξύ των συσκευών σας.
+qr-export-security-warning = Για την ασφάλειά σας, βεβαιωθείτε ότι βρίσκεστε σε έναν ιδιωτικό χώρο και σαρώστε μόνο τους κωδικούς QR που προέρχονται από αξιόπιστες πηγές.
 qr-export-start-export = Εξαγωγή
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
@@ -831,10 +833,19 @@ qr-export-scan-progress =
         [one] { $step } από { $count } κωδικό QR
        *[other] { $step } από { $count } κωδικούς QR
     }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Σαρώστε τον κωδικό QR με το { -brand-product-name } στην κινητή σας συσκευή
+       *[other] Σαρώστε τους κωδικούς QR με το { -brand-product-name } στην κινητή σας συσκευή
+    }
 qr-export-scan-step1 = Ανοίξτε το { -brand-product-name } στην κινητή σας συσκευή
 qr-export-scan-step2 = Μεταβείτε στις ρυθμίσεις
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Επιλέξτε <strong>Εισαγωγή ρυθμίσεων</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Πατήστε <strong>Σάρωση κωδικού QR</strong> και στρέψτε το τηλέφωνό σας σε αυτόν τον κωδικό
 qr-export-back = Πίσω
 qr-export-next = Επόμενο
 qr-export-done = Τέλος
