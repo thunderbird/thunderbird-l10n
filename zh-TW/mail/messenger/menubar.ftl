@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = 附加元件與佈景主題
     .accesskey = A
+menu-export-for-mobile =
+    .label = 匯出至行動版…
+    .accesskey = p
 
 ## Help Menu
 

@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sync
 category-sync =
     .tooltiptext = Sync
+pane-qr-export-title = 匯出至行動版
+category-qr-export =
+    .tooltiptext = 匯出至行動版
 general-language-and-appearance-header = 語言與外觀
 general-incoming-mail-header = 收到的郵件
 general-files-and-attachment-header = 檔案與附件
@@ -806,3 +809,58 @@ synced-acount-item-filters = 篩選器
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = 在您所有裝置間同步電子郵件帳號、通訊錄、行事曆、與身份設定資料。
 sync-disconnected-turn-on-sync = 開啟同步…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = 將帳號匯出至 { -brand-product-name } 行動版
+qr-export-description = 透過產生 QR Code 快速將您的帳號設定從桌面版轉移到行動版。選擇要包含的帳號確認您是否可以轉移密碼然後使用行動裝置掃描 QR Code。快速、安全、簡單。
+qr-export-get-app = 還沒有 { -brand-product-name } 行動版嗎<a data-l10n-name="app-link">到 Google Play 下載</a>
+qr-export-create = 建立 QR Code 來匯出您的帳號
+qr-export-select-accounts = 選擇要匯出的帳號:
+qr-export-no-accounts = 沒有看到您的所有帳號嗎某些帳號可能因不受 { -brand-product-name } for Android 支援而已被停用。 <a data-l10n-name="account-support-link">技術支援</a>
+qr-export-accounts-legend = 電子郵件帳號
+qr-export-select-all-accounts = 全選
+qr-export-security-legend = 安全性
+qr-export-include-passwords = 包含所有帳號密碼
+qr-export-security-hint = 掃描下列 QR Code即可安全地轉移您的電子郵件地址、密碼等帳號設定。在此過程中我們不會收集、儲存或分享任何此類資料。在您的不同裝置間直接傳輸資料。
+qr-export-security-warning = 為了您的安全請確認您處於隱私瀏覽模式並且只掃描來源可信任的 QR Code。
+qr-export-start-export = 匯出
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+       *[other] 第 { $step } 筆共 { $count } 組 QR 碼
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+       *[other] 在行動裝置使用 { -brand-product-name } 掃描 QR Code
+    }
+qr-export-scan-step1 = 於您的行動裝置開啟 { -brand-product-name }
+qr-export-scan-step2 = 開啟設定
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = 選擇<strong>匯入設定</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = 點擊<strong>掃描 QR Code</strong>並且掃描這組 QR Code
+qr-export-back = 上一頁
+qr-export-next = 下一步
+qr-export-done = 完成
+qr-export-summary-description = 已匯出帳號。在您的行動裝置上繼續。
+qr-export-summary-title = 匯出摘要:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+       *[other] 已產生 { $count } 組 QR Code
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+       *[other] 已匯出 { $count } 個帳號:
+    }
+qr-export-summary-passwords-included = 包含密碼
+qr-export-summary-passwords-excluded = 已排除密碼
+qr-export-more-accounts = 匯出更多帳號
