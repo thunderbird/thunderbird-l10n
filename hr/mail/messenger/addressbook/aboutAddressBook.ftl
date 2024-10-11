@@ -18,6 +18,8 @@ about-addressbook-toolbar-new-list =
     .label = Novi popis
 about-addressbook-toolbar-import =
     .label = Uvoz
+books-pane-import-button = Uvezi
+    .title = Uvezi adresare
 
 ## Books
 
@@ -66,6 +68,14 @@ about-addressbook-search =
     .placeholder = Pretraži { $name }
 about-addressbook-search-all =
     .placeholder = Pretraži sve adresare
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Pretraži { $name }
+    .placeholder = Pretraži { $name } …
+about-addressbook-search-all2 =
+    .label = Pretraži sve adresare
+    .placeholder = Pretraži sve adresare …
 about-addressbook-sort-button2 =
     .title = Prikaži mogućnosti prikaza
 about-addressbook-name-format-display =
@@ -82,76 +92,93 @@ about-addressbook-sort-email-ascending =
     .label = Poredaj po adresi e-pošte (A > Z)
 about-addressbook-sort-email-descending =
     .label = Poredaj po adresi e-pošte (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Prebacite se na vodoravni raspored
-about-addressbook-vertical-layout =
-    .label = Prebacite se na okomiti raspored
 about-addressbook-table-layout =
     .label = Izgled tablice
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Naziv
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Adrese e-pošte
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Brojevi telefona
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Adrese
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Naslov
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Odjel
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organizacija
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Adresar
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Ime
     .title = Sortiraj prema imenu
 about-addressbook-column-label-generatedname2 =
     .label = Ime
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Ime
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = Adrese e-pošte
     .title = Sortiraj prema adresi e-pošte
 about-addressbook-column-label-emailaddresses2 =
     .label = Adrese e-pošte
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = E-mail adrese
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Nadimak
     .title = Sortiraj prema nadimku
 about-addressbook-column-label-nickname2 =
     .label = Nadimak
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Nadimak
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Brojevi telefona
     .title = Sortiraj prema brojevima telefona
 about-addressbook-column-label-phonenumbers2 =
     .label = Brojevi telefona
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Telefonski brojevi
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Adrese
     .title = Sortiraj prema adresama
 about-addressbook-column-label-addresses2 =
     .label = Adrese
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adrese
+    .title = { $title }
 about-addressbook-column-header-title2 = Naslov
     .title = Sortiraj prema naslovu
 about-addressbook-column-label-title2 =
     .label = Naslov
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Funkcija
+    .title = { $title }
 about-addressbook-column-header-department2 = Odjel
     .title = Sortiraj prema odjelu
 about-addressbook-column-label-department2 =
     .label = Odjel
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Odjel
+    .title = { $title }
 about-addressbook-column-header-organization2 = Organizacija
     .title = Sortiraj prema organizaciji
 about-addressbook-column-label-organization2 =
     .label = Organizacija
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organizacija
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Adresar
     .title = Sortiraj prema adresaru
 about-addressbook-column-label-addrbook2 =
     .label = Adresar
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Adresar
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Piši
 about-addressbook-confirm-delete-mixed-title = Obriši kontakte i popise
@@ -184,16 +211,6 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Ukloni { $count } kontakata
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Jeste li sigurni da želite ukloniti { $count } kontakt s { $list }?
-        [few] Jeste li sigurni da želite ukloniti { $count } kontakta s { $list }?
-       *[other] Jeste li sigurni da želite ukloniti { $count } kontakata s { $list }?
-    }
-# Variables:
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Jeste li sigurni da želite obrisati { $name } iz { $list }?
@@ -213,15 +230,6 @@ about-addressbook-confirm-delete-contacts-title =
         [one] Obriši { $count } kontakt
         [few] Obriši { $count } kontakta
        *[other] Obriši { $count } kontakata
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Jeste li sigurni da želite obrisati { $count } kontakt?
-        [few] Jeste li sigurni da želite obrisati { $count } kontakta?
-       *[other] Jeste li sigurni da želite obrisati { $count } kontakata?
     }
 # Variables:
 # $name (String) - The name of the contact to be deleted.
@@ -246,15 +254,6 @@ about-addressbook-placeholder-no-search-results = Nema pronađenih kontakata
 
 ## Details
 
-# Variables:
-# $count (Number) - The number of selected items (will never be fewer than two)
-about-addressbook-selection-mixed-header = { $count } odabranih kontakata i popisa
-# Variables:
-# $count (Number) - The number of selected contacts
-about-addressbook-selection-contacts-header = { $count } odabranih kontakata
-# Variables:
-# $count (Number) - The number of selected lists
-about-addressbook-selection-lists-header = { $count } odabranih popisa
 # Variables:
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =

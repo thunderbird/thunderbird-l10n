@@ -92,3 +92,24 @@ power-level-state-default = Promijeni postavku: { $powerLevelName }
 power-level-encryption = Aktiviraj šifriranje sobe: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-topic = Postavi temu sobe: { $powerLevelName }
+# LOCALIZATION NOTE (detail-*):
+#    These are the string representations of different matrix properties.
+#    $value will typically be strings with the actual values.
+# $value Example placeholder: "Foo bar"
+detail-name = Ime: { $value }
+# $value Example placeholder: "My first room"
+detail-topic = Tema: { $value }
+# $value Example placeholder: "5"
+detail-version = Verzija sobe: { $value }
+# $value Example placeholder: "#thunderbird:mozilla.org"
+detail-room-id = ID sobe: { $value }
+# $value are all admin users. Example: "@foo:example.com, @bar:example.com"
+detail-admin = Administrator: { $value }
+# $value are all moderators. Example: "@lorem:mozilla.org, @ipsum:mozilla.org"
+detail-moderator = Moderator: { $value }
+# $value Example placeholder: "#thunderbird:matrix.org"
+detail-alias = Alias: { $value }
+# $value Example placeholder: "can_join"
+detail-guest = Pristup za goste: { $value }
+# This is a heading, followed by the power-level-* strings
+detail-power = Razine dopuštenja:
