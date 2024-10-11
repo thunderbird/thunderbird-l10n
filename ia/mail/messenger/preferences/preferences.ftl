@@ -823,6 +823,7 @@ qr-export-accounts-legend = Contos email
 qr-export-select-all-accounts = Seliger toto
 qr-export-security-legend = Securitate
 qr-export-include-passwords = Includer tote le contrasignos del contos
+qr-export-security-warning = Pro tu securitate, assecura te de star in un ambiente private e scander solo codices QR de fontes fidabile.
 qr-export-start-export = Exportar
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
