@@ -815,16 +815,24 @@ sync-disconnected-turn-on-sync = Habilitar sincronización…
 qr-export-pane-header = Exportar cuentas a { -brand-product-name } móvil
 qr-export-description = Transfiera rápidamente la configuración de la cuenta desde el escritorio al dispositivo móvil generando un código QR. Seleccione qué cuentas incluir, decida si quiere transferir su contraseña y escanee el código con su dispositivo móvil. Rápido, seguro y sencillo.
 qr-export-get-app = ¿Todavía no tiene { -brand-product-name } en dispositivos móviles? <a data-l10n-name="app-link">Consígalo en Google Play</a>
-qr-export-create = Crea un código QR para exportar tus cuentas
+qr-export-create = Crear un código QR para exportar cuentas
 qr-export-select-accounts = Seleccione qué cuentas exportar:
-qr-export-no-accounts = ¿No ves todas tus cuentas? Algunas cuentas pueden estar deshabilitadas porque no son compatibles con { -brand-product-name } para Android. <a data-l10n-name="account-support-link"> Ayuda </a>
+qr-export-no-accounts = ¿No ve todas sus cuentas? Algunas cuentas pueden estar deshabilitadas porque no son compatibles con { -brand-product-name } para Android. <a data-l10n-name="account-support-link">Ayuda</a>
 qr-export-accounts-legend = Cuentas de correo
 qr-export-select-all-accounts = Seleccionar todo
 qr-export-security-legend = Seguridad
 qr-export-include-passwords = Incluir todas las contraseñas de las cuentas
-qr-export-security-hint = Al escanear los siguientes códigos QR, la configuración de tu cuenta, incluyendo tu correo electrónico y contraseña, se transferirá de forma segura. No recopilamos, almacenamos ni compartimos ninguno de estos datos durante el proceso. La transferencia se produce directamente entre tus dispositivos.
-qr-export-security-warning = Por tu seguridad, asegúrate de estar en un entorno privado y escanear solo códigos QR de fuentes confiables.
+qr-export-security-hint = Al escanear los siguientes códigos QR, la configuración de la cuenta, incluyendo correo electrónico y contraseña, se transferirá de forma segura. No recopilamos, almacenamos ni compartimos ninguno de estos datos durante el proceso. La transferencia se produce directamente entre sus dispositivos.
+qr-export-security-warning = Por su seguridad, asegúrese de estar en un entorno privado y escanear solo códigos QR de fuentes confiables.
 qr-export-start-export = Exportar
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } de { $count } código QR
+       *[other] { $step } de { $count } códigos QR
+    }
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 qr-export-scan-description =
@@ -832,16 +840,16 @@ qr-export-scan-description =
         [one] Escanee el código QR con { -brand-product-name } en su dispositivo móvil
        *[other] Escanee códigos QR con { -brand-product-name } en su dispositivo móvil
     }
-qr-export-scan-step1 = Abrir { -brand-product-name } en tu dispositivo móvil
+qr-export-scan-step1 = Abrir { -brand-product-name } en el dispositivo móvil
 qr-export-scan-step2 = Ir a Ajustes
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
-qr-export-scan-step3 = Selecciona <strong> Importar configuración </strong>
+qr-export-scan-step3 = Seleccione <strong>Importar configuración</strong>
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
-qr-export-scan-step4-revision = Toca <strong> Escanear código QR </strong> y coloca tu teléfono sobre este código
+qr-export-scan-step4-revision = Toque <strong>Escanear código QR</strong> y coloque su teléfono sobre este código
 qr-export-back = Atrás
 qr-export-next = Siguiente
 qr-export-done = Listo
-qr-export-summary-description = Cuentas exportadas. Continúa en tu dispositivo móvil.
+qr-export-summary-description = Cuentas exportadas. Continúe en su dispositivo móvil.
 qr-export-summary-title = Exportar resumen:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
