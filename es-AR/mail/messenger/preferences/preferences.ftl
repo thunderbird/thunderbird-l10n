@@ -813,8 +813,8 @@ sync-disconnected-turn-on-sync = Habilitar sincronización…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Exportar cuentas a { -brand-product-name } móvil
-qr-export-description = Transfiere rápidamente la configuración de tu cuenta desde el escritorio al dispositivo móvil generando un código QR. Selecciona qué cuentas incluir, decide si quieres transferir tu contraseña y escanea el código con tu dispositivo móvil. Rápido, seguro y sencillo.
-qr-export-get-app = ¿Todavía no tenés { -brand-product-name } en dispositivos móviles? <a data-l10n-name="app-link"> Obtenerlo en Google Play </a>
+qr-export-description = Transfiera rápidamente la configuración de la cuenta desde el escritorio al dispositivo móvil generando un código QR. Seleccione qué cuentas incluir, decida si quiere transferir su contraseña y escanee el código con su dispositivo móvil. Rápido, seguro y sencillo.
+qr-export-get-app = ¿Todavía no tiene { -brand-product-name } en dispositivos móviles? <a data-l10n-name="app-link">Consígalo en Google Play</a>
 qr-export-create = Crea un código QR para exportar tus cuentas
 qr-export-select-accounts = Seleccione qué cuentas exportar:
 qr-export-no-accounts = ¿No ves todas tus cuentas? Algunas cuentas pueden estar deshabilitadas porque no son compatibles con { -brand-product-name } para Android. <a data-l10n-name="account-support-link"> Ayuda </a>
