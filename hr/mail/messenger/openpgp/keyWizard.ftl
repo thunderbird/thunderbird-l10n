@@ -23,6 +23,26 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Generiraj OpenPGP ključ
+openpgp-keygen-secret-protection = Zaštita tajnog ključa
+radio-keygen-no-protection =
+    .label = Nezaštićeno
+radio-keygen-protect-primary-pass =
+    .label = Zaštiti s primarnom lozinkom
+radio-keygen-passphrase-protection =
+    .label = Zaštiti s lozinkom:
+openpgp-passphrase-repeat = Potvrdi lozinku:
+radio-keygen-expiry =
+    .label = Ključ isteče za
+    .accesskey = e
+radio-keygen-no-expiry =
+    .label = Ključ ne isteče
+    .accesskey = n
+openpgp-keygen-days-label =
+    .label = dana
+openpgp-keygen-months-label =
+    .label = mjeseca
+openpgp-keygen-years-label =
+    .label = godina
 openpgp-keygen-advanced-title = Napredne postavke
 
 ## Import Key section
