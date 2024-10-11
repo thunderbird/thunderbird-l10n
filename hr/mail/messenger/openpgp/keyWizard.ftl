@@ -5,23 +5,17 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Dodaj osobni OpenPGP ključ za { $identity }
-
-key-wizard-button =
+key-wizard-dialog =
     .buttonlabelaccept = Nastavi
-    .buttonlabelhelp = Idi nazad
-
+    .buttonlabelextra1 = Idi natrag
 key-wizard-warning = <b>Ukoliko imate postojeći osobni ključ</b> za ovu adresu e-pošte, trebate ga uvesti. U suprotnom nećete imati pristup svojim arhivama kriptiranih poruka e-pošte, niti ćete moći pročitati kriptirane dolazne poruke e-pošte od osoba koje još uvijek koriste postojeći ključ.
-
 key-wizard-learn-more = Saznajte više
-
 radio-create-key =
     .label = Stvori novi OpenPGP ključ
     .accesskey = O
-
 radio-import-key =
     .label = Uvezi postojeći OpenPGP ključ
     .accesskey = i
-
 radio-gnupg-key =
     .label = Koristi svoj vanjski ključ kroz GnuPG (npr. sa smart kartica)
     .accesskey = u
@@ -29,7 +23,6 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Generiraj OpenPGP ključ
-
 openpgp-keygen-advanced-title = Napredne postavke
 
 ## Import Key section

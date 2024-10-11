@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Dodaci i teme
     .accesskey = a
+menu-export-for-mobile =
+    .label = Izvoz za mobilne uređaje …
+    .accesskey = I
 
 ## Help Menu
 
@@ -26,6 +29,9 @@ menu-help-get-help =
 menu-help-explore-features =
     .label = Istraži mogućnosti
     .accesskey = m
+menu-help-get-release-help =
+    .label = Zatraži pomoć s aplikacijom { -brand-short-name }
+    .accesskey = Z
 menu-help-shortcuts =
     .label = Tipkovnički prečaci
     .accesskey = k
@@ -44,9 +50,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Isključi način rada za rješavanje problema
     .accesskey = o
-menu-help-more-troubleshooting-info =
-    .label = Više informacija za rješavanje problema
-    .accesskey = m
 menu-help-troubleshooting-info =
     .label = Rješavanje problema
     .accesskey = R
@@ -68,6 +71,15 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Zatvori { -brand-shorter-name }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Zatvori { -brand-full-name }
+           *[other] Zatvori { -brand-full-name }
+        }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Z
 
@@ -121,12 +133,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Kompaktno
     .accesskey = K
-mail-uidensity-normal =
-    .label = Normalno
-    .accesskey = N
-mail-uidensity-touch =
-    .label = Za dodir
-    .accesskey = Z
 mail-uidensity-default =
     .label = Zadano
     .accesskey = d
@@ -139,6 +145,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = E-mail račun …
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Račun interesnih grupa…
     .accesskey = n
