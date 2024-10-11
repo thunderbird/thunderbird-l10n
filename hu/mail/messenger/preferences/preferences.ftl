@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sync
 category-sync =
     .tooltiptext = Sync
+pane-qr-export-title = Exportálás mobilra
+category-qr-export =
+    .tooltiptext = Exportálás mobilra
 general-language-and-appearance-header = Nyelv és megjelenés
 general-incoming-mail-header = Bejövő levelek
 general-files-and-attachment-header = Fájlok és mellékletek
@@ -810,3 +813,31 @@ synced-acount-item-filters = Szűrők
 synced-acount-item-keys = OpenPGP – S/MIME
 sync-disconnected-text = Szinkronizálja e-mail-fiókjait, címjegyzékeit, naptárait és személyazonosságait minden eszközén.
 sync-disconnected-turn-on-sync = Szinkronizálás bekapcsolása…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Fiókok exportálása a mobilos { -brand-product-name }be
+qr-export-description = Gyorsan vigye át fiókbeállításait az asztali gépéről mobilra egy QR-kód előállításával. Válassza ki a figyelembe veendő fiókokat, döntse el, hogy át akarja-e küldeni a jelszavát, és olvassa le a kódot a mobileszközével. Gyors, biztonságos és egyszerű.
+qr-export-get-app = Nincs még { -brand-product-name } a mobilján? <a data-l10n-name="app-link">Szerezze be a Google Playen</a>
+qr-export-create = Hozzon létre egy QR-kódot a fiókjai exportálásához
+qr-export-select-accounts = Válassza ki az exportálandó fiókokat:
+qr-export-no-accounts = Nem látja az összes fiókját? Előfordulhat, hogy egyes fiókok le lettek tiltva, mert az androidos { -brand-product-name } nem támogatja őket. <a data-l10n-name="account-support-link">Támogatás</a>
+qr-export-accounts-legend = Levelezőfiókok
+qr-export-select-all-accounts = Összes kijelölése
+qr-export-security-legend = Biztonság
+qr-export-include-passwords = Tartalmazza az összes fiókjelszót
+qr-export-security-hint = A következő QR-kódok beolvasásával a fiókbeállítások – beleértve az e-mail-címét és a jelszavát – biztonságosan át lesznek víve. A folyamat során nem gyűjtjük, tároljuk és osztjuk meg ezeket az adatokat. Az átvitel közvetlenül az eszközei között történik.
+qr-export-security-warning = A biztonsága érdekében győződjön meg arról, hogy privát környezetben van, és csak megbízható forrásokból származó QR-kódokat olvas le.
+qr-export-start-export = Exportálás
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step }. / { $count } QR-kód
+       *[other] { $step }. / { $count } QR-kód
+    }
+qr-export-scan-step1 = Nyissa meg a { -brand-product-name }öt a mobileszközén
+qr-export-scan-step2 = Ugorjon a beállításokhoz
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Válassza a <strong>Beállítások importálása</strong> lehetőséget

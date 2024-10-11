@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Kiegészítők és témák
     .accesskey = K
+menu-export-for-mobile =
+    .label = Exportálás mobilra…
+    .accesskey = p
 
 ## Help Menu
 
