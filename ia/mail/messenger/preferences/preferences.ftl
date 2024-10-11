@@ -841,6 +841,8 @@ qr-export-scan-description =
     }
 qr-export-scan-step1 = Aperi { -brand-product-name } sur tu apparato mobile.
 qr-export-scan-step2 = Ir a parametros
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Tocca <strong>Scander codice QR </strong> e mantene tu telephono super iste codice
 qr-export-back = Retro
 qr-export-next = Sequente
 qr-export-done = Facite
