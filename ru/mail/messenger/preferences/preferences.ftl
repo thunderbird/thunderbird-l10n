@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Синхронизация
 category-sync =
     .tooltiptext = Синхронизация
+pane-qr-export-title = Экспорт для мобильного
+category-qr-export =
+    .tooltiptext = Экспорт для мобильного
 general-language-and-appearance-header = Язык и внешний вид
 general-incoming-mail-header = Входящие сообщения
 general-files-and-attachment-header = Файлы и вложения
@@ -810,3 +813,11 @@ synced-acount-item-filters = Фильтры
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Синхронизируйте свои учётные записи электронной почты, адресные книги, календари и личности на всех своих устройствах.
 sync-disconnected-turn-on-sync = Включить Cинхронизацию…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Экспорт учётных записей в { -brand-product-name } для мобильных устройств
+qr-export-description = Быстро перенесите настройки своего аккаунта с ПК на мобильное устройство, сгенерировав QR-код. Выберите, какие учётные записи включить, решите, хотите ли вы передать свой пароль, и отсканируйте код мобильным устройством. Быстро, безопасно и просто.
+qr-export-get-app = У вас ещё нет { -brand-product-name } на мобильных устройствах? <a data-l10n-name="app-link">Загрузите в Google Play</a>
+qr-export-create = Создайте QR-код для экспорта ваших учётных записей
+qr-export-select-accounts = Выберите учётные записи для экспорта:
