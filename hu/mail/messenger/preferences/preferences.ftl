@@ -841,3 +841,27 @@ qr-export-scan-step1 = Nyissa meg a { -brand-product-name }öt a mobileszközén
 qr-export-scan-step2 = Ugorjon a beállításokhoz
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Válassza a <strong>Beállítások importálása</strong> lehetőséget
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Koppintson a <strong>QR-kód leolvasása</strong> lehetőségre, és tartsa telefonját a kód felé
+qr-export-back = Vissza
+qr-export-next = Tovább
+qr-export-done = Kész
+qr-export-summary-description = A fiókok exportálva lettek. Folytassa a mobileszközén.
+qr-export-summary-title = Exportálási összefoglaló:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-kód előállítva
+       *[other] { $count } QR-kód előállítva
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } fiók exportálva:
+       *[other] { $count } fiók exportálva:
+    }
+qr-export-summary-passwords-included = Tartalmazza a jelszavakat
+qr-export-summary-passwords-excluded = Nem tartalmaz jelszavakat
+qr-export-more-accounts = További fiókok exportálása
