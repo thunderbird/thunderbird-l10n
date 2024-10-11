@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sync
 category-sync =
     .tooltiptext = Sync
+pane-qr-export-title = Auf Mobilgerät exportieren
+category-qr-export =
+    .tooltiptext = Auf Mobilgerät exportieren
 general-language-and-appearance-header = Sprache & Erscheinungsbild
 general-incoming-mail-header = Eingehende E-Mail-Nachrichten
 general-files-and-attachment-header = Dateien & Anhänge
@@ -810,3 +813,62 @@ synced-acount-item-filters = Filter
 synced-acount-item-keys = OpenPGP – S/MIME
 sync-disconnected-text = Synchronisieren Sie Ihre E-Mail-Konten, Adressbücher, Kalender und Identitäten über alle Ihre Geräte hinweg.
 sync-disconnected-turn-on-sync = Synchronisierung einschalten…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Konten nach { -brand-product-name } Mobile exportieren
+qr-export-description = Übertragen Sie Ihre Kontoeinstellungen schnell vom Desktop auf Ihr Mobilgerät, indem Sie einen QR-Code erzeugen. Wählen Sie aus, welche Konten eingeschlossen werden sollen, entscheiden Sie, ob Sie Ihr Passwort übertragen möchten und scannen Sie den Code mit Ihrem Mobilgerät. Schnell, sicher und einfach.
+qr-export-get-app = Sie haben { -brand-product-name } noch nicht Ihrem Mobilgerät? <a data-l10n-name="app-link"> Sie erhalten ihn bei Google Play</a>
+qr-export-create = Erstellen Sie einen QR-Code, um Ihre Konten zu exportieren
+qr-export-select-accounts = Wählen Sie, welche Konten exportiert werden sollen:
+qr-export-no-accounts = Sehen Sie nicht alle Ihre Konten? Einige Konten sind möglicherweise deaktiviert, weil sie von { -brand-product-name } für Android nicht unterstützt werden. <a data-l10n-name="account-support-link">Hilfe</a>
+qr-export-accounts-legend = E-Mail-Konten
+qr-export-select-all-accounts = Alle auswählen
+qr-export-security-legend = Sicherheit
+qr-export-include-passwords = Passwörter aller Konten einschließen
+qr-export-security-hint = Wenn Sie die folgenden QR-Codes scannen, werden Ihre Kontoeinstellungen – einschließlich Ihrer E-Mail-Adresse und Ihres Passworts – sicher übertragen. Wir sammeln, speichern, oder teilen diese Daten während des Prozesses nicht. Die Übertragung erfolgt direkt zwischen Ihren Geräten.
+qr-export-security-warning = Stellen Sie zu Ihrer Sicherheit bitte sicher, dass Sie sich in einer privaten Umgebung befinden und scannen Sie nur QR-Codes aus vertrauenswürdigen Quellen.
+qr-export-start-export = Exportieren
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } von { $count } QR-Code
+       *[other] { $step } von { $count } QR-Codes
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Scannen Sie den QR-Code mit { -brand-product-name } auf ihrem Mobilgerät
+       *[other] Scannen Sie die QR-Codes mit { -brand-product-name } auf ihrem Mobilgerät
+    }
+qr-export-scan-step1 = Öffnen Sie { -brand-product-name } auf Ihrem Mobilgerät.
+qr-export-scan-step2 = Öffnen Sie die Einstellungen
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Wählen Sie <strong>Einstellungen importieren</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Tippen Sie auf <strong>QR-Code scannen</strong> und halten Sie Ihr Telefon über diesen Code
+qr-export-back = Zurück
+qr-export-next = Weiter
+qr-export-done = Fertig
+qr-export-summary-description = Konten exportiert. Machen Sie auf Ihrem Mobilgerät weiter.
+qr-export-summary-title = Export-Zusammenfassung
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-Code erzeugt
+       *[other] { $count } QR-Codes erzeugt
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } Konto exportiert:
+       *[other] { $count } Konten exportiert:
+    }
+qr-export-summary-passwords-included = Mit Passwörtern
+qr-export-summary-passwords-excluded = Ohne Passwörter
+qr-export-more-accounts = Weitere Konten exportieren
