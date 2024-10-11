@@ -821,3 +821,58 @@ qr-export-description = Быстро перенесите настройки с�
 qr-export-get-app = У вас ещё нет { -brand-product-name } на мобильных устройствах? <a data-l10n-name="app-link">Загрузите в Google Play</a>
 qr-export-create = Создайте QR-код для экспорта ваших учётных записей
 qr-export-select-accounts = Выберите учётные записи для экспорта:
+qr-export-no-accounts = Не видите все ваши учётные записи? Некоторые учётные записи могут быть отключены, поскольку они не поддерживаются { -brand-product-name } для Android. <a data-l10n-name="account-support-link">Поддержка</a>
+qr-export-accounts-legend = Учётные записи электронной почты
+qr-export-select-all-accounts = Выбрать все
+qr-export-security-legend = Защита
+qr-export-include-passwords = Включить пароли всех учётных записей
+qr-export-security-hint = При сканировании следующих QR-кодов параметры вашей учётной записи, включая ваш адрес электронной почты и пароль, будут безопасно перенесены. Мы не собираем, не храним и не передаем какие-либо из этих данных в процессе работы. Передача происходит напрямую между вашими устройствами.
+qr-export-security-warning = В целях вашей безопасности, пожалуйста, убедитесь, что вы находитесь в приватном режиме, и сканируйте QR-коды только из надёжных источников.
+qr-export-start-export = Экспорт
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } из { $count } QR-кода
+        [few] { $step } из { $count } QR-кодов
+       *[many] { $step } из { $count } QR-кодов
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Сканируйте QR-код с помощью { -brand-product-name } на вашем мобильном устройстве
+        [few] Сканируйте QR-коды с помощью { -brand-product-name } на вашем мобильном устройстве
+       *[many] Сканируйте QR-коды с помощью { -brand-product-name } на вашем мобильном устройстве
+    }
+qr-export-scan-step1 = Откройте { -brand-product-name } на своем мобильном устройстве
+qr-export-scan-step2 = Перейти в настройки
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Выберите <strong>Настройки импорта</strong>.
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Нажмите <strong>Сканировать QR-код</strong> и держите телефон над этим кодом
+qr-export-back = Назад
+qr-export-next = Далее
+qr-export-done = Готово
+qr-export-summary-description = Учётные записи экспортированы. Продолжите на вашем мобильном устройстве.
+qr-export-summary-title = Сводка экспорта:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] Сгенерировано { $count } QR-код
+        [few] Сгенерировано { $count } QR-кода
+       *[many] Сгенерировано { $count } QR-кодов
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] Экспортирован { $count } аккаунт:
+        [few] Экспортировано { $count } аккаунта:
+       *[many] Экспортировано { $count } аккаунтов:
+    }
+qr-export-summary-passwords-included = Включая пароли
+qr-export-summary-passwords-excluded = Исключая пароли
+qr-export-more-accounts = Экспортировать другие учётные записи
