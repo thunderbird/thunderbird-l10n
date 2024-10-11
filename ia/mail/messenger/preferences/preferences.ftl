@@ -817,8 +817,10 @@ sync-disconnected-turn-on-sync = Activar synchronisation…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Exporta contos a { -brand-product-name } Mobile
+qr-export-get-app = Non ha tu { -brand-product-name } pro apparatos mobile? <a data-l10n-name="app-link">Discarga lo ab Google Play</a>
 qr-export-create = Crea un codice QR pro exportar tu contos
 qr-export-select-accounts = Eliger qual contos exportar:
+qr-export-no-accounts = Non vide tu tote i tu contos? Alcunos poterea esser disactivate perque non supportate per { -brand-product-name } pro Android. <a data-l10n-name="account-support-link">Supporto</a>
 qr-export-accounts-legend = Contos email
 qr-export-select-all-accounts = Seliger toto
 qr-export-security-legend = Securitate
@@ -842,6 +844,8 @@ qr-export-scan-description =
     }
 qr-export-scan-step1 = Aperi { -brand-product-name } sur tu apparato mobile.
 qr-export-scan-step2 = Ir a parametros
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Selige <strong>Importar parametros</strong>
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
 qr-export-scan-step4-revision = Tocca <strong>Scander codice QR </strong> e mantene tu telephono super iste codice
 qr-export-back = Retro
