@@ -817,6 +817,7 @@ sync-disconnected-turn-on-sync = Synchronizaciju zmóžnić…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Konta do mobilneho { -brand-product-name } eksportować
+qr-export-description = Generěrujće kod QR, zo byšće swoje kontowe nastajenja spěšnje wot desktopa do mobilneho grata přenošował. Wubjerće, kotre konta maja so zapřijeć, rozsudźće, hač chceće  swoje hesło přenošować a skenujće kod ze swojim mobilnym gratom. Spěšny, wěsty a lochki.
 qr-export-get-app = Nimaće hišće { -brand-product-name } na mobilnym graće? <a data-l10n-name="app-link">Wobstarajće sej jón na Google Play</a>
 qr-export-create = Wutworće kod QR, zo byšće swoje konta eksportował
 qr-export-select-accounts = Wubjerće konta, kotrež so maja eksportować:
@@ -825,6 +826,7 @@ qr-export-accounts-legend = E-mejlowe konta
 qr-export-select-all-accounts = Wšě wubrać
 qr-export-security-legend = Wěstota
 qr-export-include-passwords = Wšě kontowe hesła zapřijeć
+qr-export-security-hint = Hdyž slědowace kody QR skenujeće, so waše kontowe nastajenja – mjez nimi waša e-mejlowa adresa a waše hesło – wěsće přenošuja. Njehromadźimy, njeskładujemy abo njedźělimy tute daty za proces. Přenošowanje so direktnje mjez wašimi gratami stawa.
 qr-export-security-warning = Prošu zawěsćće za swoju wěstotu, zo sće w priwatnej wokolinje a skenujće jenož kody QR z dowěry hódnych žórłow.
 qr-export-start-export = Eksportować
 # Variables:
