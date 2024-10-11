@@ -68,3 +68,27 @@ power-level-invite-user = Pozovi korisnike: { $powerLevelName }
 power-level-kick-users = Izbaci korisnike: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-ban = Zabrani korisnike: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-room-avatar = Promijeni avatar sobe: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-main-address = Promijeni glavnu adresu za sobu: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-history = Promijeni vidljivost povijesti: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-room-name = Promijeni ime sobe: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-change-permissions = Promijeni dozvole: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-server-acl = Pošalji m.room.server_acl događaje: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-upgrade-room = Nadogradi sobu: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-remove = Ukloni poruke: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-events-default = Standard za događaje: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-state-default = Promijeni postavku: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-encryption = Aktiviraj šifriranje sobe: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-topic = Postavi temu sobe: { $powerLevelName }
