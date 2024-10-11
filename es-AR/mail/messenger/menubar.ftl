@@ -16,7 +16,7 @@ menu-addons-and-themes =
     .accesskey = a
 menu-export-for-mobile =
     .label = Exportar para dispositivos móviles…
-    .accesskey = E
+    .accesskey = p
 
 ## Help Menu
 
