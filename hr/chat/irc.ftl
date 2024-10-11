@@ -16,6 +16,7 @@ connection-error-time-out = Istekla veza s poslužiteljem
 connection-error-invalid-username = { $username } nije dozvoljeno korisničko ime
 connection-error-invalid-password = Netočna lozinka poslužitelja
 connection-error-password-required = Potrebna je lozinka
+connection-error-invalid-user-password = Neispravna lozinka
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanal
