@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Đồng bộ hóa
 category-sync =
     .tooltiptext = Đồng bộ hóa
+pane-qr-export-title = Xuất cho di động
+category-qr-export =
+    .tooltiptext = Xuất cho di động
 general-language-and-appearance-header = Ngôn ngữ & giao diện
 general-incoming-mail-header = Thư đến:
 general-files-and-attachment-header = Tập tin & đính kèm
@@ -810,3 +813,46 @@ synced-acount-item-filters = Bộ lọc
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Đồng bộ hóa tài khoản email, sổ địa chỉ, lịch và danh tính trên tất cả các thiết bị của bạn.
 sync-disconnected-turn-on-sync = Bật Đồng bộ hóa…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Xuất tài khoản sang { -brand-product-name } di động
+qr-export-description = Nhanh chóng chuyển cài đặt tài khoản của bạn từ máy tính để bàn sang thiết bị di động bằng cách tạo mã QR. Chọn những tài khoản sẽ bao gồm, quyết định xem bạn có muốn chuyển mật khẩu của mình hay không và quét mã bằng thiết bị di động của bạn. Nhanh chóng, an toàn và đơn giản.
+qr-export-get-app = Chưa có { -brand-product-name } trên di động? <a data-l10n-name="app-link">Tải nó trên Google Play</a>
+qr-export-create = Tạo một mã QR để xuất tài khoản của bạn
+qr-export-select-accounts = Chọn tài khoản để xuất:
+qr-export-no-accounts = Không thấy tất cả tài khoản của bạn? Một số tài khoản có thể bị vô hiệu hóa vì chúng không được hỗ trợ bởi { -brand-product-name } trên Android. <a data-l10n-name="account-support-link">Hỗ trợ</a>
+qr-export-accounts-legend = Tài khoản email
+qr-export-select-all-accounts = Chọn tất cả
+qr-export-security-legend = Bảo mật
+qr-export-include-passwords = Bao gồm tất cả mật khẩu tài khoản
+qr-export-security-hint = Bằng cách quét các mã QR sau, cài đặt tài khoản của bạn—bao gồm email và mật khẩu của bạn—sẽ được di chuyển một cách an toàn. Chúng tôi không thu thập, lưu trữ hoặc chia sẻ bất kỳ dữ liệu nào trong quá trình này. Việc chuyển giao xảy ra trực tiếp giữa các thiết bị của bạn.
+qr-export-security-warning = Để bảo mật cho bạn, vui lòng đảm bảo bạn đang ở chế độ riêng tư và chỉ quét mã QR từ các nguồn đáng tin cậy.
+qr-export-start-export = Xuất
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress = { $step } trong số { $count } mã QR
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description = Quét mã QR bằng { -brand-product-name } trên thiết bị di động của bạn
+qr-export-scan-step1 = Mở { -brand-product-name } trên thiết bị di động của bạn
+qr-export-scan-step2 = Đi đến cài đặt
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Chọn <strong>Nhập cài đặt</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Nhấn <strong>Quét mã QR</strong> và giữ camera của điện thoại của bạn vào mã này
+qr-export-back = Quay lại
+qr-export-next = Tiếp
+qr-export-done = Xong
+qr-export-summary-description = Đã xuất tài khoản. Tiếp tục trên thiết bị di động của bạn.
+qr-export-summary-title = Tóm tắt xuất:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count = { $count } mã QR đã được tạo
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts = { $count } tài khoản đã xuất:
+qr-export-summary-passwords-included = Đã bao gồm mật khẩu
+qr-export-summary-passwords-excluded = Đã loại trừ mật khẩu
+qr-export-more-accounts = Xuất tài khoản khác

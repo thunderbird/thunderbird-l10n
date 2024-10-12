@@ -15,7 +15,7 @@ menu-addons-and-themes =
     .label = Tiện ích mở rộng và chủ đề
     .accesskey = A
 menu-export-for-mobile =
-    .label = Xuất nội dung cho di động…
+    .label = Xuất cho di động…
     .accesskey = p
 
 ## Help Menu
