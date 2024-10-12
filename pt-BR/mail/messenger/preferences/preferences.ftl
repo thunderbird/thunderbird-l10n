@@ -816,3 +816,21 @@ sync-disconnected-turn-on-sync = Ativar sincronização…
 
 qr-export-pane-header = Exportar contas para o { -brand-product-name } de dispositivos móveis
 qr-export-description = Transfira rapidamente suas configurações de contas do computador para dispositivo móvel, gerando um código QR. Selecione quais contas incluir, decida se quer transferir senhas e capture o código com seu dispositivo móvel. Rápido, seguro e simples.
+qr-export-get-app = Ainda não tem o { -brand-product-name } no celular? <a data-l10n-name="app-link"Instale>Instale pelo Google Play</a>
+qr-export-create = Crie um código QR para exportar suas contas
+qr-export-select-accounts = Selecione quais contas exportar:
+qr-export-no-accounts = Não aparecem todas as suas contas? Algumas contas podem estar desativadas porque não há suporte para elas no { -brand-product-name } de Android. <a data-l10n-name="account-support-link">Suporte</a>
+qr-export-accounts-legend = Contas de email
+qr-export-select-all-accounts = Selecionar tudo
+qr-export-security-legend = Segurança
+qr-export-include-passwords = Incluir senhas de todas as contas
+qr-export-security-warning = Para sua segurança, assegure estar em um ambiente reservado e só capture códigos QR de fontes confiáveis.
+qr-export-start-export = Exportar
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } de { $count } código QR
+       *[other] { $step } de { $count } códigos QR
+    }
