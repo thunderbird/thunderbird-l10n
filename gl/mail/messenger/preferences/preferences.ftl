@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sincronización
 category-sync =
     .tooltiptext = Sincronización
+pane-qr-export-title = Exportar para móbil
+category-qr-export =
+    .tooltiptext = Exportar para móbil
 general-language-and-appearance-header = Idioma e aparencia
 general-incoming-mail-header = Correos entrantes
 general-files-and-attachment-header = Ficheiros e anexos
@@ -810,3 +813,7 @@ synced-acount-item-filters = Filtros
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronice as súas contas de correo electrónico, axendas de enderezos, calendarios e identidades en todos os seus dispositivos.
 sync-disconnected-turn-on-sync = Activar a sincronización ...
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Exporta contas a { -brand-product-name } móbil

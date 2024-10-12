@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Complementos e temas
     .accesskey = a
+menu-export-for-mobile =
+    .label = Exportar para móbil…
+    .accesskey = p
 
 ## Help Menu
 
