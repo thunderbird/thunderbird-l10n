@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sync
 category-sync =
     .tooltiptext = Sinkronizatu
+pane-qr-export-title = Esportatu mugikorrera
+category-qr-export =
+    .tooltiptext = Esportatu mugikorrera
 general-language-and-appearance-header = Hizkuntza eta itxura
 general-incoming-mail-header = Sarrerako postak
 general-files-and-attachment-header = Fitxategi eta eranskinak
@@ -810,3 +813,7 @@ synced-acount-item-filters = Iragazkiak
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sinkronizatu zure posta elektroniko kontuak, helbide liburuak, egutegiak eta identitateak zure gailu guztietan.
 sync-disconnected-turn-on-sync = Gaitu sinkronizazioa…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Esportatu kontuak { -brand-product-name } mugikorrera

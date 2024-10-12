@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Gehigarriak eta itxurak
     .accesskey = G
+menu-export-for-mobile =
+    .label = Esportatu mugikorrera…
+    .accesskey = p
 
 ## Help Menu
 
