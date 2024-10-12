@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Synchronisatie
 category-sync =
     .tooltiptext = Synchronisatie
+pane-qr-export-title = Exporteren voor Mobiel
+category-qr-export =
+    .tooltiptext = Exporteren voor Mobiel
 general-language-and-appearance-header = Taal & Vormgeving
 general-incoming-mail-header = Inkomende berichten
 general-files-and-attachment-header = Bestanden & Bijlagen
@@ -822,3 +825,62 @@ synced-acount-item-filters = Filters
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synchroniseer uw e-mailaccounts, adresboeken, agenda’s en identiteiten op al uw apparaten.
 sync-disconnected-turn-on-sync = Synchronisatie inschakelen…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Accounts exporteren naar { -brand-product-name } Mobiel
+qr-export-description = Zet snel uw accountinstellingen over van desktop naar mobiel door een QR-code aan te maken. Selecteer welke accounts u wilt opnemen, beslis of u uw wachtwoord wilt overzetten en scan de code met uw mobiele apparaat. Snel, veilig en eenvoudig.
+qr-export-get-app = Hebt u { -brand-product-name } nog niet op mobiel? <a data-l10n-name="app-link">Downloaden via Google Play</a>
+qr-export-create = Een QR-code aanmaken om uw accounts te exporteren
+qr-export-select-accounts = Selecteer de te exporteren accounts:
+qr-export-no-accounts = Ziet u niet al uw accounts? Sommige accounts zijn mogelijk uitgeschakeld, omdat ze niet door { -brand-product-name } voor Android worden ondersteund. <a data-l10n-name="account-support-link">Ondersteuning</a>
+qr-export-accounts-legend = E-mailaccounts
+qr-export-select-all-accounts = Alles selecteren
+qr-export-security-legend = Beveiliging
+qr-export-include-passwords = Alle accountwachtwoorden opnemen
+qr-export-security-hint = Door de volgende QR-codes te scannen, worden uw accountinstellingen – waaronder uw e-mailadres en wachtwoord – veilig overgezet. Tijdens het proces verzamelen, bewaren of delen we deze gegevens niet. De overdracht vindt rechtstreeks tussen uw apparaten plaats.
+qr-export-security-warning = Zorg er voor uw veiligheid voor dat u zich in een privéomgeving bevindt en scan alleen QR-codes van vertrouwde bronnen.
+qr-export-start-export = Exporteren
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } van { $count } QR-code
+       *[other] { $step } van { $count } QR-codes
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Scan de QR-code met { -brand-product-name } op uw mobiele apparaat
+       *[other] Scan de QR-codes met { -brand-product-name } op uw mobiele apparaat
+    }
+qr-export-scan-step1 = Open { -brand-product-name } op uw mobiele apparaat
+qr-export-scan-step2 = Naar Instellingen
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Selecteer <strong>Instellingen importeren</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Tik op <strong>QR-code scannen</strong> en houd uw telefoon boven deze code
+qr-export-back = Terug
+qr-export-next = Volgende
+qr-export-done = Gereed
+qr-export-summary-description = Accounts geëxporteerd. Ga verder op uw mobiele apparaat.
+qr-export-summary-title = Exportsamenvatting:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-code aangemaakt
+       *[other] { $count } QR-codes aangemaakt
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } account geëxporteerd:
+       *[other] { $count } accounts geëxporteerd:
+    }
+qr-export-summary-passwords-included = Wachtwoorden inbegrepen
+qr-export-summary-passwords-excluded = Wachtwoorden niet inbegrepen
+qr-export-more-accounts = Meer accounts exporteren
