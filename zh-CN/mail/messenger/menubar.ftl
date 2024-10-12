@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = 扩展和主题
     .accesskey = A
+menu-export-for-mobile =
+    .label = 导出到移动设备…
+    .accesskey = p
 
 ## Help Menu
 

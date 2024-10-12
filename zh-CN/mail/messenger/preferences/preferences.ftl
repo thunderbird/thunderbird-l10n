@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = 同步
 category-sync =
     .tooltiptext = 同步
+pane-qr-export-title = 导出到移动设备
+category-qr-export =
+    .tooltiptext = 导出到移动设备
 general-language-and-appearance-header = 语言与外观
 general-incoming-mail-header = 接收邮件
 general-files-and-attachment-header = 文件与附件
@@ -812,3 +815,33 @@ synced-acount-item-filters = 过滤器
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = 在您所有设备中同步您的电子邮件账户、通讯录、日历和身份。
 sync-disconnected-turn-on-sync = 开启同步...
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = 导出账户到 { -brand-product-name } 移动版
+qr-export-description = 通过生成二维码，将账户设置从桌面设备快速传输到移动设备。只需选择要传输的账户、决定是否一并传输密码，然后用移动设备扫码即可。快速、安全、简易。
+qr-export-get-app = 移动设备上未安装 { -brand-product-name }？<a data-l10n-name="app-link">前往 Google Play 下载</a>
+qr-export-create = 创建二维码以导出账户
+qr-export-select-accounts = 选择要导出的账户：
+qr-export-no-accounts = 有账户未显示在此？相关账户可能未受 Android 版 { -brand-product-name } 支持，因此无法选择。<a data-l10n-name="account-support-link">技术支持</a>
+qr-export-accounts-legend = 邮箱账号
+qr-export-select-all-accounts = 全选
+qr-export-security-legend = 安全性
+qr-export-include-passwords = 一并传输所有账户的密码
+qr-export-security-hint = 扫描接下来出现的二维码后，您的账户设置（包括邮箱和密码）将被安全传输。在此过程中，我们不会收集、存储、共享此数据中的任何部分。传输过程在您的设备间直接进行。
+qr-export-security-warning = 为安全起见，请确认您所处环境私密，并仅扫描来源可信的二维码。
+qr-export-start-export = 导出
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress = 第 { $step }/{ $count } 个二维码
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description = 在移动设备上用 { -brand-product-name } 扫码
+qr-export-scan-step1 = 在移动设备上打开 { -brand-product-name }
+qr-export-scan-step2 = 前往设置
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = 选择<strong>导入设置</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = 点按<strong>扫描二维码</strong>，将手机对准此二维码
+qr-export-back = 上一步
