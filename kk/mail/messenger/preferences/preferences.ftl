@@ -814,3 +814,8 @@ sync-disconnected-turn-on-sync = Синхрондауды іске қосу…
 ## Mobile QR Export Pane
 
 qr-export-accounts-legend = Эл. пошта тіркелгілері
+qr-export-select-all-accounts = Барлығын таңдау
+qr-export-security-legend = Қауіпсіздік
+qr-export-back = Артқа
+qr-export-next = Келесі
+qr-export-done = Дайын
