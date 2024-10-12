@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sincronização
 category-sync =
     .tooltiptext = Sincronização
+pane-qr-export-title = Exportar para dispositivo móvel
+category-qr-export =
+    .tooltiptext = Exportar para dispositivo móvel
 general-language-and-appearance-header = Idioma e aparência
 general-incoming-mail-header = Recebimento de emails
 general-files-and-attachment-header = Arquivos e anexos
@@ -808,3 +811,8 @@ synced-acount-item-filters = Filtros
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronize suas contas de email, catálogos de endereços, agendas e identidades em todos os seus dispositivos.
 sync-disconnected-turn-on-sync = Ativar sincronização…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Exportar contas para o { -brand-product-name } de dispositivos móveis
+qr-export-description = Transfira rapidamente suas configurações de contas do computador para dispositivo móvel, gerando um código QR. Selecione quais contas incluir, decida se quer transferir senhas e capture o código com seu dispositivo móvel. Rápido, seguro e simples.
