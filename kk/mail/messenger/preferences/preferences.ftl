@@ -810,3 +810,7 @@ synced-acount-item-filters = Сүзгілер
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Эл. пошта тіркелгілері, адрестік кітапшалар, күнтізбелер және жеке мәліметтерді барлық құрылғыларыңыз арасында синхрондаңыз.
 sync-disconnected-turn-on-sync = Синхрондауды іске қосу…
+
+## Mobile QR Export Pane
+
+qr-export-accounts-legend = Эл. пошта тіркелгілері
