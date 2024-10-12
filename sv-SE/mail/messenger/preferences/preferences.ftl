@@ -821,3 +821,50 @@ qr-export-no-accounts = Ser du inte alla dina konton? Vissa konton kan inaktiver
 qr-export-accounts-legend = E-postkonton
 qr-export-select-all-accounts = Markera alla
 qr-export-security-legend = Säkerhet
+qr-export-include-passwords = Inkludera lösenorden för alla konton
+qr-export-security-hint = Genom att skanna följande QR-koder kommer dina kontoinställningar—inklusive din e-post och lösenord—att överföras säkert. Vi samlar inte in, lagrar eller delar inte någon av dessa uppgifter under processen. Överföringen sker direkt mellan dina enheter.
+qr-export-security-warning = För din säkerhet, se till att du är i en privat miljö och endast skanna QR-koder från betrodda källor.
+qr-export-start-export = Exportera
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } av { $count } QR-kod
+       *[other] { $step } av { $count } QR-koder
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Skanna QR-kod med { -brand-product-name } på din mobila enhet
+       *[other] Skanna QR-koder med { -brand-product-name } på din mobila enhet
+    }
+qr-export-scan-step1 = Öppna { -brand-product-name } på din mobila enhet
+qr-export-scan-step2 = Gå till Inställningar
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Välj <strong>Importera inställningar</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Tryck på <strong>Skanna QR-kod</strong> och håll telefonen ovanför den här koden
+qr-export-back = Tillbaka
+qr-export-next = Nästa
+qr-export-done = Klar
+qr-export-summary-description = Konton exporterade. Fortsätt på din mobila enhet.
+qr-export-summary-title = Exportöversikt:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-kod har genererats
+       *[other] { $count } QR-koder har genererats
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } konto exporterat:
+       *[other] { $count } konton exporterade:
+    }
+qr-export-summary-passwords-included = Lösenord medföljer
+qr-export-summary-passwords-excluded = Lösenord exkluderas
+qr-export-more-accounts = Exportera fler konton
