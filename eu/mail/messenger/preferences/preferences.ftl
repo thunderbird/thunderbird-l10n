@@ -817,3 +817,7 @@ sync-disconnected-turn-on-sync = Gaitu sinkronizazioa…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Esportatu kontuak { -brand-product-name } mugikorrera
+qr-export-accounts-legend = Posta elektroniko kontuak
+qr-export-select-all-accounts = Hautatu dena
+qr-export-security-legend = Segurtasuna
+qr-export-start-export = Esportatu
