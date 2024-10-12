@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Synkronisera
 category-sync =
     .tooltiptext = Synkronisera
+pane-qr-export-title = Exportera för mobil
+category-qr-export =
+    .tooltiptext = Exportera för mobil
 general-language-and-appearance-header = Språk & utseende
 general-incoming-mail-header = Inkommande e-post
 general-files-and-attachment-header = Filer & bilagor
@@ -806,3 +809,15 @@ synced-acount-item-filters = Filter
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synkronisera dina e-postkonton, adressböcker, kalendrar och identiteter på alla dina enheter.
 sync-disconnected-turn-on-sync = Aktivera synkronisering…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Exportera konton till { -brand-product-name } mobil
+qr-export-description = Överför snabbt dina kontoinställningar från dator till mobil genom att generera en QR-kod. Välj vilka konton som ska inkluderas, bestäm om du vill överföra ditt lösenord och skanna koden med din mobila enhet. Snabbt, säkert och enkelt.
+qr-export-get-app = Har du inte { -brand-product-name } på mobilen än? <a data-l10n-name="app-link">Hämta den på Google Play</a>
+qr-export-create = Skapa en QR-kod för att exportera dina konton
+qr-export-select-accounts = Välj vilka konton som ska exporteras:
+qr-export-no-accounts = Ser du inte alla dina konton? Vissa konton kan inaktiveras eftersom de inte stöds av { -brand-product-name } för Android. <a data-l10n-name="account-support-link">Support</a>
+qr-export-accounts-legend = E-postkonton
+qr-export-select-all-accounts = Markera alla
+qr-export-security-legend = Säkerhet

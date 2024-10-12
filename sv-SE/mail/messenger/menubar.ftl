@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Tillägg och teman
     .accesskey = T
+menu-export-for-mobile =
+    .label = Exportera för mobil…
+    .accesskey = p
 
 ## Help Menu
 
