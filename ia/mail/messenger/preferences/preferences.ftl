@@ -817,6 +817,7 @@ sync-disconnected-turn-on-sync = Activar synchronisation…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Exporta contos a { -brand-product-name } Mobile
+qr-export-description = Rapidemente transfere tu parametros ab tu conto de scriptorio a mobile generante un codice QR. Selige qual contos includer, decide si tu desira transferer tu contrasigno, e scande le codice con tu apparato mobile. Veloce, secur, e simple.
 qr-export-get-app = Non ha tu { -brand-product-name } pro apparatos mobile? <a data-l10n-name="app-link">Discarga lo ab Google Play</a>
 qr-export-create = Crea un codice QR pro exportar tu contos
 qr-export-select-accounts = Eliger qual contos exportar:
@@ -825,6 +826,7 @@ qr-export-accounts-legend = Contos email
 qr-export-select-all-accounts = Seliger toto
 qr-export-security-legend = Securitate
 qr-export-include-passwords = Includer tote le contrasignos del contos
+qr-export-security-hint = Scandente le sequente codices QR, le parametros de tu conto, includite tu email e contrasigno, sera transferite con securitate. Nos non collige, immagazina o comparti alcuno de iste datos durante le processo. Le transferentia occurre directemente inter tu apparatos.
 qr-export-security-warning = Pro tu securitate, assecura te de star in un ambiente private e scander solo codices QR de fontes fidabile.
 qr-export-start-export = Exportar
 # Variables:
