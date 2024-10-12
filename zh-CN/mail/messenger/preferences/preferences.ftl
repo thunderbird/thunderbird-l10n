@@ -845,3 +845,16 @@ qr-export-scan-step3 = 选择<strong>导入设置</strong>
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
 qr-export-scan-step4-revision = 点按<strong>扫描二维码</strong>，将手机对准此二维码
 qr-export-back = 上一步
+qr-export-next = 下一步
+qr-export-done = 完成
+qr-export-summary-description = 已导出账户，现可在移动设备上继续操作。
+qr-export-summary-title = 导出摘要：
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count = 已生成 { $count } 个二维码
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts = 已导出 { $count } 个账户：
+qr-export-summary-passwords-included = 密码已包含在内
+qr-export-summary-passwords-excluded = 密码未包含在内
+qr-export-more-accounts = 导出更多账户
