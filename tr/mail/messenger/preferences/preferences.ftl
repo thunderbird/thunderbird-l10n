@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Eşitle
 category-sync =
     .tooltiptext = Eşitle
+pane-qr-export-title = Mobil cihazlar için dışa aktar
+category-qr-export =
+    .tooltiptext = Mobil cihazlar için dışa aktar
 general-language-and-appearance-header = Dil ve Görünüm
 general-incoming-mail-header = Gelen E-postalar
 general-files-and-attachment-header = Dosyalar ve Ekler
@@ -810,3 +813,14 @@ synced-acount-item-filters = Süzgeçler
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = E-postalarınızı, adres defterlerinizi, takvimlerinizi ve kimliklerinizi tüm cihazlarınız arasında eşitleyin.
 sync-disconnected-turn-on-sync = Eşitlemeyi aç…
+
+## Mobile QR Export Pane
+
+qr-export-accounts-legend = E-posta hesapları
+qr-export-select-all-accounts = Tümünü seç
+qr-export-security-legend = Güvenlik
+qr-export-start-export = Dışa aktar
+qr-export-scan-step2 = Ayarlara git
+qr-export-back = Geri
+qr-export-next = İleri
+qr-export-done = Tamam
