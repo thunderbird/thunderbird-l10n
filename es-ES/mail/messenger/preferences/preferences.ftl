@@ -413,6 +413,12 @@ table-layout-legend = Vista de tabla
 table-layout-horizontal-scroll-label =
     .label = Permitir desplazamiento horizontal
     .accesskey = h
+conversation-view-legend = Vista de conversación
+conversation-view-checkbox-label =
+    .label = Activar la vista de conversación
+    .accesskey = c
+conversation-view-checkbox-description = Función experimental basada en Gloda. Utilícela bajo su propia responsabilidad.
+label-experiment = Experimental
 
 ## Compose Tab
 
@@ -800,3 +806,6 @@ synced-acount-item-filters = Filtros
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronice sus cuentas de correo electrónico, libretas de direcciones, calendarios e identidades en todos sus dispositivos.
 sync-disconnected-turn-on-sync = Activar la sincronización…
+
+## Mobile QR Export Pane
+
