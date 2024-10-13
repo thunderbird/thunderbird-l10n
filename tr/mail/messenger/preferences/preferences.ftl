@@ -816,6 +816,8 @@ sync-disconnected-turn-on-sync = Eşitlemeyi aç…
 
 ## Mobile QR Export Pane
 
+qr-export-get-app = Mobil cihazınızda henüz { -brand-product-name } yok mu? <a data-l10n-name="app-link">Google Play’den indirin</a>
+qr-export-create = Hesaplarınızı dışa aktarmak için QR kodu oluşturun
 qr-export-accounts-legend = E-posta hesapları
 qr-export-select-all-accounts = Tümünü seç
 qr-export-security-legend = Güvenlik
