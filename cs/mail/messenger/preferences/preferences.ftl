@@ -25,6 +25,7 @@ category-calendar =
 pane-sync-title = Synchronizace
 category-sync =
     .tooltiptext = Synchronizace
+pane-qr-export-title = Export pro mobilní zařízení
 general-language-and-appearance-header = Zobrazení a jazyk stránek
 general-incoming-mail-header = Příchozí pošta
 general-files-and-attachment-header = Soubory a přílohy
@@ -881,3 +882,6 @@ synced-acount-item-filters = Filtry
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synchronizujte své e-mailové účty, kontakty, kalendáře, doplňky a identity ve všech svých zařízeních.
 sync-disconnected-turn-on-sync = Zapnout synchronizaci…
+
+## Mobile QR Export Pane
+
