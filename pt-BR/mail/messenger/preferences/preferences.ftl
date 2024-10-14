@@ -824,6 +824,7 @@ qr-export-accounts-legend = Contas de email
 qr-export-select-all-accounts = Selecionar tudo
 qr-export-security-legend = Segurança
 qr-export-include-passwords = Incluir senhas de todas as contas
+qr-export-security-hint = Ao capturar os seguintes códigos QR, suas configurações de contas, incluindo email e senha, são transferidas com segurança. Não coletamos, armazenamos ou compartilhamos nenhum desses dados durante o processo. A transferência é feita diretamente entre seus dispositivos.
 qr-export-security-warning = Para sua segurança, assegure estar em um ambiente reservado e só capture códigos QR de fontes confiáveis.
 qr-export-start-export = Exportar
 # Variables:
@@ -834,3 +835,11 @@ qr-export-scan-progress =
         [one] { $step } de { $count } código QR
        *[other] { $step } de { $count } códigos QR
     }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Capture o código QR com o { -brand-product-name } em seu dispositivo móvel
+       *[other] Capture códigos QR com o { -brand-product-name } em seu dispositivo móvel
+    }
+qr-export-scan-step1 = Abra o { -brand-product-name } no dispositivo móvel
