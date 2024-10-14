@@ -26,6 +26,8 @@ pane-sync-title = Synchronizace
 category-sync =
     .tooltiptext = Synchronizace
 pane-qr-export-title = Export pro mobilní zařízení
+category-qr-export =
+    .tooltiptext = Export pro mobilní zařízení
 general-language-and-appearance-header = Zobrazení a jazyk stránek
 general-incoming-mail-header = Příchozí pošta
 general-files-and-attachment-header = Soubory a přílohy
@@ -885,3 +887,4 @@ sync-disconnected-turn-on-sync = Zapnout synchronizaci…
 
 ## Mobile QR Export Pane
 
+qr-export-select-all-accounts = Vybrat vše
