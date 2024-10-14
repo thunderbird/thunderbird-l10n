@@ -868,3 +868,15 @@ qr-export-summary-qr-count =
         [many] Bolo vygenerovaných { $count } QR kódov
        *[other] Bolo vygenerovaných { $count } QR kódov
     }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } exportovaný účet:
+        [few] { $count } exportované účty:
+        [many] { $count } exportovaných účtov:
+       *[other] { $count } exportovaných účtov:
+    }
+qr-export-summary-passwords-included = Vrátane hesiel
+qr-export-summary-passwords-excluded = Heslá nie sú súčasťou
+qr-export-more-accounts = Exportovať ďalšie účty
