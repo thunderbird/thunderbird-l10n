@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Синхронізація
 category-sync =
     .tooltiptext = Синхронізація
+pane-qr-export-title = Експорт для мобільного пристрою
+category-qr-export =
+    .tooltiptext = Експорт для мобільного пристрою
 general-language-and-appearance-header = Мова та зовнішній вигляд
 general-incoming-mail-header = Вхідна пошта
 general-files-and-attachment-header = Файли та вкладення
@@ -806,3 +809,61 @@ synced-acount-item-filters = Фільтри
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Синхронізуйте свої облікові записи електронної пошти, адресні книги, календарі та особисті дані на всіх пристроях.
 sync-disconnected-turn-on-sync = Увімкнути синхронізацію…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Експорт облікових записів у { -brand-product-name } для мобільних пристроїв
+qr-export-get-app = Ще не маєте { -brand-product-name } на мобільному? <a data-l10n-name="app-link">Завантажте його з Google Play</a>
+qr-export-create = Створити QR-код, щоб експортувати свої облікові записи
+qr-export-select-accounts = Виберіть облікові записи для експорту:
+qr-export-no-accounts = Не бачите всіх своїх облікових записів? Деякі облікові записи можуть бути вимкнені, оскільки вони не підтримуються { -brand-product-name } для Android. <a data-l10n-name="account-support-link">Підтримка</a>
+qr-export-accounts-legend = Облікові записи електронної пошти
+qr-export-select-all-accounts = Вибрати все
+qr-export-security-legend = Безпека
+qr-export-include-passwords = Включити паролі всіх облікових записів
+qr-export-security-hint = Сканувавши наведені нижче QR-коди, налаштування вашого облікового запису, включно з адресою електронної пошти та паролем, буде безпечно передано. Ми не збираємо, не зберігаємо та не передаємо ці дані під час процесу. Передавання відбувається безпосередньо між вашими пристроями.
+qr-export-security-warning = Для вашої безпеки переконайтеся, що ви перебуваєте в приватній обстановці та скануєте QR-коди лише з надійних джерел.
+qr-export-start-export = Експорт
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } із { $count } QR-код
+        [few] { $step } із { $count } QR-кодів
+       *[many] { $step } із { $count } QR-кодів
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Скануйте QR-код за допомогою { -brand-product-name } на своєму мобільному пристрої
+        [few] Скануйте QR-коди за допомогою { -brand-product-name } на своєму мобільному пристрої
+       *[many] Скануйте QR-коди за допомогою { -brand-product-name } на своєму мобільному пристрої
+    }
+qr-export-scan-step1 = Відкрийте { -brand-product-name } на своєму мобільному пристрої.
+qr-export-scan-step2 = Перейдіть до налаштувань
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Виберіть <strong>Налаштування імпорту</strong>
+qr-export-back = Назад
+qr-export-next = Далі
+qr-export-done = Готово
+qr-export-summary-description = Облікові записи експортовано. Продовжте на своєму мобільному пристрої.
+qr-export-summary-title = Підсумок експорту:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] Згенеровано { $count } QR-код
+        [few] Згенеровано { $count } QR-коди
+       *[many] Згенеровано { $count } QR-кодів
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] Експортовано { $count } обліковий запис:
+        [few] Експортовано { $count } облікові записи:
+       *[many] Експортовано { $count } облікових записів:
+    }
+qr-export-more-accounts = Експортувати інші облікові записи
