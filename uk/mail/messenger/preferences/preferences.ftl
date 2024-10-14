@@ -813,6 +813,7 @@ sync-disconnected-turn-on-sync = Увімкнути синхронізацію�
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Експорт облікових записів у { -brand-product-name } для мобільних пристроїв
+qr-export-description = Швидко перенесіть налаштування облікового запису з комп'ютера на мобільний, згенерувавши QR-код. Виберіть, які облікові записи включити, вирішіть, чи бажаєте ви передати свій пароль, і скануйте код за допомогою мобільного пристрою. Швидко, безпечно та просто.
 qr-export-get-app = Ще не маєте { -brand-product-name } на мобільному? <a data-l10n-name="app-link">Завантажте його з Google Play</a>
 qr-export-create = Створити QR-код, щоб експортувати свої облікові записи
 qr-export-select-accounts = Виберіть облікові записи для експорту:
@@ -845,6 +846,8 @@ qr-export-scan-step1 = Відкрийте { -brand-product-name } на своє�
 qr-export-scan-step2 = Перейдіть до налаштувань
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Виберіть <strong>Налаштування імпорту</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Торкніться <strong>Сканувати QR-код</strong> і наведіть камеру на цей код
 qr-export-back = Назад
 qr-export-next = Далі
 qr-export-done = Готово
@@ -866,4 +869,6 @@ qr-export-summary-accounts =
         [few] Експортовано { $count } облікові записи:
        *[many] Експортовано { $count } облікових записів:
     }
+qr-export-summary-passwords-included = Включно з паролями
+qr-export-summary-passwords-excluded = За винятком паролів
 qr-export-more-accounts = Експортувати інші облікові записи
