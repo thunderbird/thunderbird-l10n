@@ -843,3 +843,30 @@ qr-export-scan-description =
        *[other] Capture códigos QR com o { -brand-product-name } em seu dispositivo móvel
     }
 qr-export-scan-step1 = Abra o { -brand-product-name } no dispositivo móvel
+qr-export-scan-step2 = Acesse as configurações
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Selecione <strongImportar>Importar configurações</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Toque em <strong>Capturar código QR</strong> e aponte a câmera para este código
+qr-export-back = Voltar
+qr-export-next = Avançar
+qr-export-done = Concluído
+qr-export-summary-description = Contas exportadas. Continue no dispositivo móvel.
+qr-export-summary-title = Resumo da exportação:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } código QR gerado
+       *[other] { $count } códigos QR gerados
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } conta exportada:
+       *[other] { $count } contas exportadas:
+    }
+qr-export-summary-passwords-included = Senhas incluídas
+qr-export-summary-passwords-excluded = Senhas não incluídas
+qr-export-more-accounts = Exportar mais contas
