@@ -806,12 +806,18 @@ sync-disconnected-turn-on-sync = Ota synkronointi käyttöön…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Vie tilit { -brand-product-name }in mobiilisovellukseen
+qr-export-description = Siirrä tilisi asetukset nopeasti tietokoneelta mobiililaitteelle luomalla QR-koodi. Valitse sisällytettävät tilit, päätä, haluatko siirtää salasanasi ja skannaa koodi mobiililaitteellasi. Nopeaa, turvallista ja yksinkertaista.
+qr-export-get-app = Eikö sinulla ole vielä { -brand-product-name }ia mobiililaitteella? <a data-l10n-name="app-link">Hanki se Google Playsta</a>
 qr-export-create = Luo QR-koodi tilien viemistä varten
 qr-export-select-accounts = Valitse vietävät tilit:
+qr-export-no-accounts = Etkö näe kaikkia tilejäsi? Jotkin tilit on mahdollisesti poistettu käytöstä, koska { -brand-product-name }in Android-versio ei tue niitä. <a data-l10n-name="account-support-link">Tuki</a>
 qr-export-accounts-legend = Sähköpostitilit
 qr-export-select-all-accounts = Valitse kaikki
 qr-export-security-legend = Turvallisuus
 qr-export-include-passwords = Sisällytä kaikkien tilien salasanat
+qr-export-security-hint = Kun skannaat seuraavat QR-koodit, tilisi asetukset, mukaan lukien sähköpostiosoitteesi ja salasanasi, siirretään turvallisesti. Emme kerää, tallenna tai jaa näitä tietoja toimenpiteen aikana. Siirto tapahtuu suoraan laitteidesi välillä.
+qr-export-security-warning = Varmista turvallisuutesi vuoksi, että olet yksityisessä ympäristössä ja skannaa vain luotetuista lähteistä peräisin olevia QR-koodeja.
 qr-export-start-export = Vie
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
@@ -821,6 +827,14 @@ qr-export-scan-progress =
         [one] { $step }/{ $count } QR-koodi
        *[other] { $step }/{ $count } QR-koodia
     }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Skannaa QR-koodi { -brand-product-name }in mobiilisovelluksella
+       *[other] Skannaa QR-koodit { -brand-product-name }in mobiilisovelluksella
+    }
+qr-export-scan-step1 = Avaa { -brand-product-name } mobiililaitteellasi
 qr-export-scan-step2 = Siirry asetuksiin
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Valitse <strong>Tuo asetukset</strong>
