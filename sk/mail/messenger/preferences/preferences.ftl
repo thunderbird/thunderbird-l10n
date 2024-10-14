@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Synchronizácia
 category-sync =
     .tooltiptext = Synchronizácia
+pane-qr-export-title = Export pre mobilné zariadenie
+category-qr-export =
+    .tooltiptext = Exportovať pre mobilné zariadenie
 general-language-and-appearance-header = Jazyk a vzhľad stránok
 general-incoming-mail-header = Doručená pošta
 general-files-and-attachment-header = Súbory a prílohy
@@ -810,3 +813,58 @@ synced-acount-item-filters = Filtre
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synchronizujte svoje e‑mailové účty, adresáre, kalendáre a identity na všetkých svojich zariadeniach.
 sync-disconnected-turn-on-sync = Zapnúť synchronizáciu…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Export účtov do { -brand-product-name(case: "gen") } pre mobilné zariadenia
+qr-export-description = Rýchlo preneste nastavenia účtu z počítača do mobilného zariadenia vygenerovaním QR kódu. Vyberte, ktoré účty chcete zahrnúť, rozhodnite sa, či chcete preniesť svoje heslo, a naskenujte kód pomocou mobilného zariadenia. Rýchle, bezpečné a jednoduché.
+qr-export-get-app = Ešte nemáte { -brand-product-name } v mobile? <a data-l10n-name="app-link">Získate ho v službe Google Play</a>
+qr-export-create = Vytvorte si QR kód na export vašich účtov
+qr-export-select-accounts = Vyberte, ktoré účty chcete exportovať:
+qr-export-no-accounts = Nevidíte všetky svoje účty? Niektoré účty môžu byť deaktivované, pretože ich { -brand-product-name } pre Android nepodporuje. <a data-l10n-name="account-support-link">Podpora</a>
+qr-export-accounts-legend = E‑mailové účty
+qr-export-select-all-accounts = Vybrať všetky
+qr-export-security-legend = Bezpečnosť
+qr-export-include-passwords = Zahrnúť heslá všetkých účtov
+qr-export-security-hint = Naskenovaním nasledujúcich QR kódov sa nastavenia vášho účtu – vrátane vášho e‑mailu a hesla – prenesú bezpečne. Počas procesu nezhromažďujeme, neukladáme ani nezdieľame žiadne z týchto údajov. Prenos prebieha priamo medzi vašimi zariadeniami.
+qr-export-security-warning = Pre vašu bezpečnosť sa uistite, že ste v súkromnom prostredí a skenujte QR kódy iba z dôveryhodných zdrojov.
+qr-export-start-export = Exportovať
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } z { $count } QR kódu
+        [few] { $step } z { $count } QR kódov
+        [many] { $step } z { $count } QR kódov
+       *[other] { $step } z { $count } QR kódov
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Naskenujte QR kód pomocou { -brand-product-name(case: "gen") } na svojom mobilnom zariadení
+        [few] Naskenujte QR kódy pomocou { -brand-product-name(case: "gen") } na svojom mobilnom zariadení
+        [many] Naskenujte QR kódy pomocou { -brand-product-name(case: "gen") } na svojom mobilnom zariadení
+       *[other] Naskenujte QR kódy pomocou { -brand-product-name(case: "gen") } na svojom mobilnom zariadení
+    }
+qr-export-scan-step1 = Otvorte { -brand-product-name } na svojom mobilnom zariadení
+qr-export-scan-step2 = Prejdite do nastavení
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Vyberte možnosť <strong>Importovať nastavenia</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Ťuknite na položku <strong>Naskenovať QR kód</strong> a podržte telefón nad týmto kódom
+qr-export-back = Naspäť
+qr-export-next = Ďalej
+qr-export-done = Hotovo
+qr-export-summary-description = Účty boli exportované. Pokračujte na svojom mobilnom zariadení.
+qr-export-summary-title = Súhrn exportu:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] Bol vygenerovaný { $count } QR kód
+        [few] Boli vygenerované { $count } QR kódy
+        [many] Bolo vygenerovaných { $count } QR kódov
+       *[other] Bolo vygenerovaných { $count } QR kódov
+    }

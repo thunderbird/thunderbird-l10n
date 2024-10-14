@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Doplnky a témy
     .accesskey = D
+menu-export-for-mobile =
+    .label = Exportovať pre mobilné zariadenie
+    .accesskey = m
 
 ## Help Menu
 
