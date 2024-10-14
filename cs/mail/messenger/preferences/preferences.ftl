@@ -888,3 +888,52 @@ sync-disconnected-turn-on-sync = Zapnout synchronizaci…
 ## Mobile QR Export Pane
 
 qr-export-select-all-accounts = Vybrat vše
+qr-export-security-legend = Zabezpečení
+qr-export-include-passwords = Zahrnout hesla všech účtů
+qr-export-start-export = Exportovat
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } z { $count } QR kódu
+        [few] { $step } ze { $count } QR kódů
+        [many] { $step } z { $count } QR kódů
+       *[other] { $step } z { $count } QR kódů
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Naskenujte QR kód v aplikaci { -brand-product-name } na svém mobilním zařízení
+        [few] Naskenujte QR kódy v aplikaci { -brand-product-name } na svém mobilním zařízení
+        [many] Naskenujte QR kódy v aplikaci { -brand-product-name } na svém mobilním zařízení
+       *[other] Naskenujte QR kódy v aplikaci { -brand-product-name } na svém mobilním zařízení
+    }
+qr-export-scan-step2 = Přejít do nastavení
+qr-export-back = Zpět
+qr-export-next = Další
+qr-export-done = Hotovo
+qr-export-summary-description = Účty byly exportovány. Pokračujte na svém mobilním zařízení.
+qr-export-summary-title = Souhrn exportu:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] Vygenerován { $count } QR kód
+        [few] Vygenerovány { $count } QR kódy
+        [many] Vygenerováno { $count } QR kódů
+       *[other] Vygenerováno { $count } QR kódů
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] Exportován { $count } účet:
+        [few] Exportovány { $count } účty:
+        [many] Exportováno { $count } účtů:
+       *[other] Exportováno { $count } účtů:
+    }
+qr-export-summary-passwords-included = Včetně hesel
+qr-export-summary-passwords-excluded = Hesla vynechána
+qr-export-more-accounts = Exportovat více účtů
