@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Lisäosat ja teemat
     .accesskey = L
+menu-export-for-mobile =
+    .label = Vie mobiililaitteelle…
+    .accesskey = i
 
 ## Help Menu
 

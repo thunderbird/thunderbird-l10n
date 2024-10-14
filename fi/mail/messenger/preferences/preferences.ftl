@@ -22,6 +22,9 @@ category-chat =
 pane-calendar-title = Kalenteri
 category-calendar =
     .tooltiptext = Kalenteri
+pane-qr-export-title = Vie mobiililaitteelle
+category-qr-export =
+    .tooltiptext = Vie mobiililaitteelle
 general-language-and-appearance-header = Kieli ja ulkoasu
 general-incoming-mail-header = Saapuva sähköposti
 general-files-and-attachment-header = Tiedostot ja liitteet
@@ -800,3 +803,48 @@ synced-acount-item-filters = Suodattimet
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synkronoi sähköpostitilisi, osoitekirjasi, kalenterisi ja henkilöllisyytesi kaikilla laitteillasi.
 sync-disconnected-turn-on-sync = Ota synkronointi käyttöön…
+
+## Mobile QR Export Pane
+
+qr-export-create = Luo QR-koodi tilien viemistä varten
+qr-export-select-accounts = Valitse vietävät tilit:
+qr-export-accounts-legend = Sähköpostitilit
+qr-export-select-all-accounts = Valitse kaikki
+qr-export-security-legend = Turvallisuus
+qr-export-include-passwords = Sisällytä kaikkien tilien salasanat
+qr-export-start-export = Vie
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step }/{ $count } QR-koodi
+       *[other] { $step }/{ $count } QR-koodia
+    }
+qr-export-scan-step2 = Siirry asetuksiin
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Valitse <strong>Tuo asetukset</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Napauta <strong>Skannaa QR-koodi</strong> ja pidä puhelintasi tämän koodin päällä
+qr-export-back = Edellinen
+qr-export-next = Seuraava
+qr-export-done = Valmis
+qr-export-summary-description = Tilit viety. Jatka mobiililaitteellasi.
+qr-export-summary-title = Viennin yhteenveto:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-koodi luotu
+       *[other] { $count } QR-koodia luotu
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } tili viety:
+       *[other] { $count } tiliä viety:
+    }
+qr-export-summary-passwords-included = Salasanat mukana
+qr-export-summary-passwords-excluded = Salasanat eivät mukana
+qr-export-more-accounts = Vie lisää tilejä
