@@ -818,11 +818,39 @@ sync-disconnected-turn-on-sync = Eşitlemeyi aç…
 
 qr-export-get-app = Mobil cihazınızda henüz { -brand-product-name } yok mu? <a data-l10n-name="app-link">Google Play’den indirin</a>
 qr-export-create = Hesaplarınızı dışa aktarmak için QR kodu oluşturun
+qr-export-select-accounts = Dışa aktarılacak hesapları seçin:
 qr-export-accounts-legend = E-posta hesapları
 qr-export-select-all-accounts = Tümünü seç
 qr-export-security-legend = Güvenlik
+qr-export-include-passwords = Tüm hesap parolalarını dahil et
 qr-export-start-export = Dışa aktar
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Mobil cihazınızda { -brand-product-name } uygulamasıyla QR kodunu okutun
+       *[other] Mobil cihazınızda { -brand-product-name } uygulamasıyla QR kodlarını okutun
+    }
+qr-export-scan-step1 = Mobil cihazınızda { -brand-product-name } uygulamasını açın
 qr-export-scan-step2 = Ayarlara git
 qr-export-back = Geri
 qr-export-next = İleri
 qr-export-done = Tamam
+qr-export-summary-description = Hesaplar dışa aktarıldı. Mobil cihazınızdan devam edin.
+qr-export-summary-title = Dışa aktarım özeti:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR kodu oluşturuldu
+       *[other] { $count } QR kodu oluşturuldu
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } hesap dışa aktarıldı:
+       *[other] { $count } hesap dışa aktarıldı:
+    }
+qr-export-summary-passwords-included = Parolalar dahil edildi
+qr-export-summary-passwords-excluded = Parolalar hariç tutuldu
