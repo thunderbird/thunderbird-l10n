@@ -810,3 +810,16 @@ synced-acount-item-filters = Filtri
 synced-acount-item-keys = OpenPGP – S/MIME
 sync-disconnected-text = Sinhronizirajte e-poštne račune, imenike, koledarje, gesla in identitete vseh svojih naprav.
 sync-disconnected-turn-on-sync = Vklopi sinhronizacijo …
+
+## Mobile QR Export Pane
+
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } od { $count } QR kode
+        [two] { $step } od { $count } QR kod
+        [few] { $step } od { $count } QR kod
+       *[other] { $step } od { $count } QR kod
+    }
