@@ -818,8 +818,8 @@ sync-disconnected-turn-on-sync = Vklopi sinhronizacijo …
 # $step (Number) - Current step number of the QR code displayed.
 qr-export-scan-progress =
     { $count ->
-        [one] { $step } od { $count } QR kode
-        [two] { $step } od { $count } QR kod
-        [few] { $step } od { $count } QR kod
-       *[other] { $step } od { $count } QR kod
+        [one] { $step } od { $count } QR-kode
+        [two] { $step } od { $count } QR-kod
+        [few] { $step } od { $count } QR-kod
+       *[other] { $step } od { $count } QR-kod
     }
