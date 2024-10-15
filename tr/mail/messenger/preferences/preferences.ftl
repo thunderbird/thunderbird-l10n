@@ -827,6 +827,14 @@ qr-export-include-passwords = Tüm hesap parolalarını dahil et
 qr-export-start-export = Dışa aktar
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step }/{ $count } QR kodu
+       *[other] { $step }/{ $count } QR kodu
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
 qr-export-scan-description =
     { $count ->
         [one] Mobil cihazınızda { -brand-product-name } uygulamasıyla QR kodunu okutun
