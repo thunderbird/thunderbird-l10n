@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Eklentiler ve temalar
     .accesskey = E
+menu-export-for-mobile =
+    .label = Mobil cihazlar için dışa aktar…
+    .accesskey = M
 
 ## Help Menu
 

@@ -816,6 +816,7 @@ sync-disconnected-turn-on-sync = Eşitlemeyi aç…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Hesapları { -brand-product-name } Mobil’e aktar
 qr-export-get-app = Mobil cihazınızda henüz { -brand-product-name } yok mu? <a data-l10n-name="app-link">Google Play’den indirin</a>
 qr-export-create = Hesaplarınızı dışa aktarmak için QR kodu oluşturun
 qr-export-select-accounts = Dışa aktarılacak hesapları seçin:
@@ -833,6 +834,8 @@ qr-export-scan-description =
     }
 qr-export-scan-step1 = Mobil cihazınızda { -brand-product-name } uygulamasını açın
 qr-export-scan-step2 = Ayarlara git
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = <strong>QR kodu okut</strong>’a dokunup telefonunuza bu kodu okutun
 qr-export-back = Geri
 qr-export-next = İleri
 qr-export-done = Tamam
@@ -854,3 +857,4 @@ qr-export-summary-accounts =
     }
 qr-export-summary-passwords-included = Parolalar dahil edildi
 qr-export-summary-passwords-excluded = Parolalar hariç tutuldu
+qr-export-more-accounts = Daha fazla hesabı dışa aktar
