@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Als Junk markieren
     .tooltiptext = Als Junk markieren
+context-menu-mark-not-junk =
+    .aria-label = Als „Kein Junk“ markieren
+    .tooltiptext = Als „Kein Junk“ markieren
 mail-context-menu-open =
     .label = Öffnen
     .accesskey = Ö
@@ -238,22 +241,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Nachricht verwerfen
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Nachricht löschen
-           *[other] Ausgewählte Nachrichten löschen
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Löschen der Nachricht aufheben
-           *[other] Löschen der gewählten Nachrichten aufheben
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
