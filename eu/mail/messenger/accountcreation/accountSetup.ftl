@@ -7,10 +7,8 @@ account-setup-tab-title = Kontuaren konfigurazioa
 ## Header
 
 account-setup-title = Ezarri badaukazun posta elektroniko helbide bat
-account-setup-description =
-    Zure unekoposta elektroniko helbidea erabiltzeko idatzi zure kredentzialak. <br/>
-    { -brand-product-name } automatikoki bilatuko du badabiltzan eta gomendatutako zerbitzari konfigurazioa.
-account-setup-secondary-description = { -brand-product-name } automatikoki bilatuko du badabilen eta gomendatzen den zerbitzari konfigurazioa.
+account-setup-description = Zure uneko posta elektroniko helbidea erabiltzeko idatzi zure kredentzialak.
+account-setup-secondary-description = { -brand-product-name } automatikoki bilatuko du badabilen eta gomendatuta dagoen zerbitzari konfigurazioa.
 account-setup-success-title = Kontua ondo sortu da!
 account-setup-success-description = Orain zuk { -brand-short-name } kontua erabil dezakezu.
 account-setup-success-secondary-description = Esperientzia hobetu dezakezu harremandutako zerbitzuak konektatuz eta konfigurazio aurreratuen ezarpenekin.
