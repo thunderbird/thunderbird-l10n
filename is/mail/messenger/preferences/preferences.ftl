@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Samstiling
 category-sync =
     .tooltiptext = Samstiling
+pane-qr-export-title = Útflutningur fyrir farsíma
+category-qr-export =
+    .tooltiptext = Útflutningur fyrir farsíma
 general-language-and-appearance-header = Tungumál og útlit
 general-incoming-mail-header = Póstur sem berst
 general-files-and-attachment-header = Skrár og viðhengi
@@ -813,6 +816,11 @@ sync-disconnected-turn-on-sync = Kveikja á samstillingu…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Flytja út reikninga í { -brand-product-name } á farsíma
+qr-export-get-app = Ertu ekki enn með { -brand-product-name } í farsímanum? <a data-l10n-name="app-link">Sæktu það á Google Play</a>
+qr-export-create = Búðu til QR-kóða til að flytja út reikningana þína
+qr-export-select-accounts = Veldu hvaða reikninga á að flytja út:
+qr-export-no-accounts = Sérðu ekki alla reikningana þína? Sumir reikningar gætu verið óvirkir vegna þess að þeir eru ekki studdir af { -brand-product-name } fyrir Android. <a data-l10n-name="account-support-link">Aðstoð</a>
 qr-export-accounts-legend = Tölvupóstsreikningar
 qr-export-select-all-accounts = Velja allt
 qr-export-security-legend = Öryggi

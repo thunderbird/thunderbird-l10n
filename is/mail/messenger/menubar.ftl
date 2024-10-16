@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Viðbætur og þemu
     .accesskey = V
+menu-export-for-mobile =
+    .label = Útflutningur fyrir farsíma…
+    .accesskey = F
 
 ## Help Menu
 
