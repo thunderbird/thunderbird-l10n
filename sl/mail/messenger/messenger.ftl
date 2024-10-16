@@ -209,6 +209,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Označi kot neželeno
     .tooltiptext = Označi kot neželeno
+context-menu-mark-not-junk =
+    .aria-label = Označi kot želeno
+    .tooltiptext = Označi, da sporočilo ni neželeno
 mail-context-menu-open =
     .label = Odpri
     .accesskey = O
@@ -246,26 +249,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Prekliči sporočilo
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Izbriši sporočilo
-            [two] Izbriši izbrani sporočili
-            [few] Izbriši izbrana sporočila
-           *[other] Izbriši izbrana sporočila
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Razveljavi izbris sporočila
-            [two] Razveljavi izbris izbranih sporočil
-            [few] Razveljavi izbris izbranih sporočil
-           *[other] Razveljavi izbris izbranih sporočil
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
