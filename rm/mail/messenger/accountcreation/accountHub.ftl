@@ -40,7 +40,6 @@ account-hub-sync-button = S'annunziar en Sync…
 
 ## Email page
 
-account-hub-email-title = Endrizzar tes conto dad e-mail
 account-hub-add-email-title = Agiuntescha tes conto
 account-hub-manually-configure-email-title = Endrizzar la configuraziun dal conto
 account-hub-email-cancel-button = Interrumper
@@ -79,6 +78,8 @@ account-hub-auth-no-authentication-option =
     .label = Nagina autentificaziun
 account-hub-auth-label = Metoda d'autentificaziun
 account-hub-username-label = Num d'utilisader
+account-hub-name-label = Num cumplet
+    .accesskey = N
 account-hub-adding-account-title = Agiuntar il conto
 account-hub-adding-account-subheader = Retestar ils parameters da la configuraziun dal conto
 account-hub-lookup-email-configuration-title = Tschertgar la configuraziun

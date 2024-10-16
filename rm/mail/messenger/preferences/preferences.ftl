@@ -397,8 +397,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Serrar la fanestra da messadis/il tab sch'il messadi vegn spustà u stizzà
     .accesskey = S
-display-name-label =
-    .value = Num mussà:
 address-display-legend = Glista da messadis
 address-display-description = Format preferì per mussar adressas:
 address-display-full =
@@ -413,6 +411,16 @@ address-display-name =
 condensed-addresses-label =
     .label = Mo mussar il 'Num per mussar' per persunas en mes cudeschet d'adressas
     .accesskey = M
+table-layout-legend = Vista da tabella
+table-layout-horizontal-scroll-label =
+    .label = Permetter la defilada orizontala
+    .accesskey = o
+conversation-view-legend = Vista da conversaziun
+conversation-view-checkbox-label =
+    .label = Activar la vista da conversaziun
+    .accesskey = c
+conversation-view-checkbox-description = Funcziun experimentala che sa basa sin Gloda. Utilisaziun sin atgna ristga.
+label-experiment = Experimental
 
 ## Compose Tab
 
@@ -580,9 +588,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Ti es actualmain en il modus FIPS. FIPS pretenda in pled-clav universal (betg vid).
 forms-master-pw-fips-desc = I n'è betg reussì da midar il pled-clav
 junk-description = Las suandantas configuraziuns areguard e-mails nungiavischads valan per tut ils contos. En la configuraziun dals contos pon ins definir supplementarmain configuraziuns specificas per mintga conto.
-junk-label =
-    .label = Sche messadis vegnan marcads manualmain sco nungiavischads:
-    .accesskey = m
 junk-marked-label =
     .label = Sche messadis èn marcads sco nungiavischads:
     .accesskey = n
@@ -592,9 +597,6 @@ junk-move-label =
 junk-delete-label =
     .label = Stizzar quests messadis
     .accesskey = D
-junk-read-label =
-    .label = Marcar ils messadis nungiavischads sco legids
-    .accesskey = l
 junk-read-description = Marcar ils messadis sco legids
 junk-read-manual-label =
     .label = Sch’els vegnan marcads manualmain sco nungiavischads
@@ -800,3 +802,6 @@ synced-acount-item-filters = Filters
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronisescha tes contos dad e-mail, cudeschets d'adressas, chalenders e tias identitads sin tut tes apparats.
 sync-disconnected-turn-on-sync = Activar la sincronisaziun…
+
+## Mobile QR Export Pane
+
