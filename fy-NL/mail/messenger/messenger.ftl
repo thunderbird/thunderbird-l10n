@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Markearje as net-winske
     .tooltiptext = Markearje as net-winske
+context-menu-mark-not-junk =
+    .aria-label = Markearje as net net-winske
+    .tooltiptext = Markearje as net net-winske
 mail-context-menu-open =
     .label = Iepenje
     .accesskey = I
@@ -238,22 +241,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Berjocht annulearje
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Berjocht fuortsmite
-           *[other] Selektearre berjochten fuortsmite
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Berjocht fuortsmite ûngedien meitsje
-           *[other] Fuortsmite selektearre berjochten ûngedien meitsje
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =

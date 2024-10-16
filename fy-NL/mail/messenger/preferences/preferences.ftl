@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Syngronisearje
 category-sync =
     .tooltiptext = Syngronisearje
+pane-qr-export-title = Eksportearje foar mobyl
+category-qr-export =
+    .tooltiptext = Eksportearje foar mobyl
 general-language-and-appearance-header = Taal en Foarmjouwing
 general-incoming-mail-header = Ynkommende e-mailberjochten:
 general-files-and-attachment-header = Bestannen en Bylagen
@@ -397,8 +400,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Slút berjochtskerm/ljepblêd nei ferpleatsen of fuortsmiten
     .accesskey = S
-display-name-label =
-    .value = Werjeftenamme:
 address-display-legend = Berjochtelist
 address-display-description = Foarkarsopmaak foar adreswerjefte:
 address-display-full =
@@ -590,9 +591,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Jo binne no yn FIPS-modus. FIPS fereasket dat it haadwachtwurd net leech is.
 forms-master-pw-fips-desc = Wachtwurdwiziging mislearre
 junk-description = Stel jo standertynstellingen foar net-winske-berjochtedeteksje yn. Accountspesifike ynstellingen kinne konfigurearre wurde yn Accountynstellingen.
-junk-label =
-    .label = Wannear ik berjochten markearje as net-winske:
-    .accesskey = W
 junk-marked-label =
     .label = Wannear berjochten as net-winske markearre wurde:
     .accesskey = W
@@ -602,9 +600,6 @@ junk-move-label =
 junk-delete-label =
     .label = se fuortsmite
     .accesskey = t
-junk-read-label =
-    .label = Berjochten dy’t detektearre binne as net-winske, markearje as lêzen
-    .accesskey = k
 junk-read-description = Berjochten markearje as lêzen
 junk-read-manual-label =
     .label = Wannear hânmjittich markearre as net-winske
@@ -810,3 +805,18 @@ synced-acount-item-filters = Filters
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Syngronisearje jo e-mailaccounts, adresboeken, aginda’s en identiteiten op al jo apparaten.
 sync-disconnected-turn-on-sync = Syngronisaasje ynskeakelje…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Accounts eksportearje nei { -brand-product-name } Mobyl
+qr-export-description = Set fluch jo accountynstellingen oer fan desktop nei mobyl troch in QR-koade oan te meitsjen. Selektearje hokker accounts jo opnimme wolle, beslis oft jo jo wachtwurd oersette wolle en scan de koade mei jo mobile apparaat. Fluch, feilich en ienfâldich.
+qr-export-get-app = Hawwe jo { -brand-product-name } noch net op mobyl? <a data-l10n-name="app-link">Download fia Google Play</a>
+qr-export-create = In QR-koade oanmeitsje om jo accounts te eksportearjen
+qr-export-select-accounts = Selektearje de te eksportearjen accounts:
+qr-export-no-accounts = Sjogge jo net al jo accounts? Guon accounts binne mooglik útskeakele, omdat se net troch { -brand-product-name } foar Android stipe wurde. <a data-l10n-name="account-support-link">Stipe</a>
+qr-export-accounts-legend = E-mailaccounts
+qr-export-select-all-accounts = Alles selektearje
+qr-export-security-legend = Befeiliging
+qr-export-include-passwords = Alle accountwachtwurden opnimme
+qr-export-oauth-warning = Guon fan jo accounts brûke in autentikaasjemetoade dy’t mooglik opnij autentikaasje fereaskje op jo mobile apparaat. Jo moatte mooglik wylst dit proses jo wachtwurden opnij ynfiere.
+qr-export-security-hint = Troch de folgjende QR-koaden te scannen, wurde jo accountynstellingen – ynklusyf jo e-mailadres en wachtwurd – feilich oerset. Wy sammelje, bewarje of diele gjin fan dizze gegevens wylst it proses. De oerdracht bart streekrjocht tusken jo apparaten.

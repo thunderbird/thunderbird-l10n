@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Add-ons en tema’s
     .accesskey = A
+menu-export-for-mobile =
+    .label = Eksportearje foar mobyl…
+    .accesskey = p
 
 ## Help Menu
 
@@ -23,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Help krije
     .accesskey = H
-menu-help-explore-features =
-    .label = Funksjes ferkenne
-    .accesskey = F
 menu-help-get-release-help =
     .label = Help krije by { -brand-short-name }
     .accesskey = H
