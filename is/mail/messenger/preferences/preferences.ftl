@@ -810,3 +810,53 @@ synced-acount-item-filters = Síur
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Samstilltu tölvupóstreikningana þína, nafnaskrár, dagatöl og auðkenni á öllum tækjunum þínum.
 sync-disconnected-turn-on-sync = Kveikja á samstillingu…
+
+## Mobile QR Export Pane
+
+qr-export-accounts-legend = Tölvupóstsreikningar
+qr-export-select-all-accounts = Velja allt
+qr-export-security-legend = Öryggi
+qr-export-include-passwords = Hafa með öll lykilorð reikninga
+qr-export-start-export = Flytja út
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } af { $count } QR-kóða
+       *[other] { $step } af { $count } QR-kóðum
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Skannaðu QR-kóðann með { -brand-product-name } á farsímanum þínum
+       *[other] Skannaðu QR-kóðana með { -brand-product-name } á farsímanum þínum
+    }
+qr-export-scan-step1 = Opnaðu { -brand-product-name } á farsímanum þínum
+qr-export-scan-step2 = Farðu í stillingar
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Veldu <strong>Flytja inn stillingar</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Ýttu á <strong>Skanna QR-kóða</strong> og haltu símanum yfir þessum kóða
+qr-export-back = Til baka
+qr-export-next = Næsta
+qr-export-done = Lokið
+qr-export-summary-description = Reikningar fluttir út. Haltu áfram á farsímanum þínum.
+qr-export-summary-title = Samantekt útflutnings:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-kóði búinn til
+       *[other] { $count } QR-kóðar búnir til
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } reikningur fluttur út:
+       *[other] { $count } reikningar fluttir út:
+    }
+qr-export-summary-passwords-included = Lykilorð fylgja með
+qr-export-summary-passwords-excluded = Lykilorð ekki með
