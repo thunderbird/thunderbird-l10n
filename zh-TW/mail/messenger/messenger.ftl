@@ -202,6 +202,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = 標示為垃圾信
     .tooltiptext = 標示為垃圾信
+context-menu-mark-not-junk =
+    .aria-label = 標示為非垃圾信
+    .tooltiptext = 標示為非垃圾信
 mail-context-menu-open =
     .label = 開啟
     .accesskey = O
@@ -236,22 +239,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = 取消郵件
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] 刪除郵件
-           *[other] 刪除選擇的郵件
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] 救回郵件
-           *[other] 救回選擇的郵件
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
