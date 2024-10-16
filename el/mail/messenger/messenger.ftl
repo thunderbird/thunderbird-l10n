@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Επισήμανση ως ανεπιθύμητο
     .tooltiptext = Επισήμανση ως ανεπιθύμητο
+context-menu-mark-not-junk =
+    .aria-label = Επισήμανση ως επιθύμητο
+    .tooltiptext = Επισήμανση ως επιθύμητο
 mail-context-menu-open =
     .label = Άνοιγμα
     .accesskey = ν
@@ -238,22 +241,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Ακύρωση μηνύματος
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Διαγραφή μηνύματος
-           *[other] Διαγραφή επιλεγμένων μηνυμάτων
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Αναίρεση διαγραφής μηνύματος
-           *[other] Αναίρεση διαγραφής επιλεγμένων μηνυμάτων
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
