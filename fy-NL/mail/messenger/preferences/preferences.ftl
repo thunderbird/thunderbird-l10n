@@ -820,3 +820,48 @@ qr-export-security-legend = Befeiliging
 qr-export-include-passwords = Alle accountwachtwurden opnimme
 qr-export-oauth-warning = Guon fan jo accounts brûke in autentikaasjemetoade dy’t mooglik opnij autentikaasje fereaskje op jo mobile apparaat. Jo moatte mooglik wylst dit proses jo wachtwurden opnij ynfiere.
 qr-export-security-hint = Troch de folgjende QR-koaden te scannen, wurde jo accountynstellingen – ynklusyf jo e-mailadres en wachtwurd – feilich oerset. Wy sammelje, bewarje of diele gjin fan dizze gegevens wylst it proses. De oerdracht bart streekrjocht tusken jo apparaten.
+qr-export-security-warning = Soargje der foar jo feilichheid foar dat jo yn in priveeomjouwing binne en scan allinnich QR-koaden fan fertroude boarnen.
+qr-export-start-export = Eksportearje
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } fan { $count } QR-koade
+       *[other] { $step } fan { $count } QR-koaden
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Scan de QR-koade mei { -brand-product-name } op jo mobile apparaat
+       *[other] Scan de QR-koaden mei { -brand-product-name } op jo mobile apparaat
+    }
+qr-export-scan-step1 = Iepenje { -brand-product-name } op jo mobile apparaat
+qr-export-scan-step2 = Nei Ynstellingen
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Selektearje <strong>Ynstellingen ymportearje</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Tik op <strong>QR-koade scanne</strong> en hâld jo telefoan boppe dizze koade
+qr-export-back = Tebek
+qr-export-next = Folgjende
+qr-export-done = Dien
+qr-export-summary-description = Accounts eksportearre. Gean troch op jo mobile apparaat.
+qr-export-summary-title = Eksportgearfetting:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-koade oanmakke
+       *[other] { $count } QR-koaden oanmakke
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } account eksportearre:
+       *[other] { $count } accounts eksportearre:
+    }
+qr-export-summary-passwords-included = Wachtwurden ynbegrepen
+qr-export-summary-passwords-excluded = Wachtwurden net ynbegrepen
+qr-export-more-accounts = Mear accounts eksportearje
