@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Gereksiz olarak işaretle
     .tooltiptext = Gereksiz olarak işaretle
+context-menu-mark-not-junk =
+    .aria-label = Gereksiz değil olarak işaretle
+    .tooltiptext = Gereksiz değil olarak işaretle
 mail-context-menu-open =
     .label = Aç
     .accesskey = A
@@ -238,22 +241,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = İletiyi iptal et
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] İletiyi sil
-           *[other] Seçilmiş iletileri sil
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Silinen iletiyi geri al
-           *[other] Seçilen silinmiş iletileri geri al
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
