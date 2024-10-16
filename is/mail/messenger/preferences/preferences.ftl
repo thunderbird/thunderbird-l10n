@@ -817,6 +817,7 @@ sync-disconnected-turn-on-sync = Kveikja á samstillingu…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Flytja út reikninga í { -brand-product-name } á farsíma
+qr-export-description = Flyttu reikningsstillingarnar þínar fljótt úr vinnutölvu yfir í farsíma með því að búa til QR-kóða. Veldu hvaða reikninga þú vilt hafa með, ákveddu hvort þú viljir flytja lykilorðið þitt og skannaðu kóðann með farsímanum þínum. Hratt, öruggt og einfalt.
 qr-export-get-app = Ertu ekki enn með { -brand-product-name } í farsímanum? <a data-l10n-name="app-link">Sæktu það á Google Play</a>
 qr-export-create = Búðu til QR-kóða til að flytja út reikningana þína
 qr-export-select-accounts = Veldu hvaða reikninga á að flytja út:
@@ -825,6 +826,8 @@ qr-export-accounts-legend = Tölvupóstsreikningar
 qr-export-select-all-accounts = Velja allt
 qr-export-security-legend = Öryggi
 qr-export-include-passwords = Hafa með öll lykilorð reikninga
+qr-export-security-hint = Með því að skanna eftirfarandi QR-kóða verða stillingar reikningsins þíns – þar á meðal netfangið þitt og lykilorð – fluttar á öruggan hátt. Við söfnum ekki, geymum eða deilum neinum af þessum gögnum meðan á ferlinu stendur. Flutningurinn á sér stað beint á milli tækjanna þinna.
+qr-export-security-warning = Til öryggis skaltu ganga úr skugga um að þú hafir gott næði og skannaðu einungis QR-kóða frá aðilum sem þú treystir.
 qr-export-start-export = Flytja út
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
@@ -868,3 +871,4 @@ qr-export-summary-accounts =
     }
 qr-export-summary-passwords-included = Lykilorð fylgja með
 qr-export-summary-passwords-excluded = Lykilorð ekki með
+qr-export-more-accounts = Flytja út fleiri reikninga
