@@ -209,6 +209,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Ako cajk markěrowaś
     .tooltiptext = Ako cajk markěrowaś
+context-menu-mark-not-junk =
+    .aria-label = Ako njecajk markěrowaś
+    .tooltiptext = Ako njecajk markěrowaś
 mail-context-menu-open =
     .label = Wócyniś
     .accesskey = c
@@ -246,26 +249,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Powěsć anulěrowaś
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Powěsć lašowaś
-            [two] Wubranej powěsći lašowaś
-            [few] Wubrane powěsći lašowaś
-           *[other] Wubrane powěsći lašowaś
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] { $count } powěsć wótnowiś
-            [two] { $count } wubranej powěsći wótnowiś
-            [few] { $count } wubrane powěsći wótnowiś
-           *[other] { $count } wubranych powěsćow wótnowiś
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
