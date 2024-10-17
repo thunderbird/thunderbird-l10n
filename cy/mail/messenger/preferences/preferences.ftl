@@ -814,6 +814,7 @@ qr-export-accounts-legend = Cyfrifon e-bost
 qr-export-select-all-accounts = Dewis popeth
 qr-export-security-legend = Diogelwch
 qr-export-include-passwords = Cynnwys gyfrineiriau pob cyfrif
+qr-export-oauth-warning = Mae rhai o'ch cyfrifon yn defnyddio dull dilysu a allai fod angen ei ail-ddilysu ar eich dyfais symudol. Efallai y bydd angen i chi roi'ch cyfrineiriau eto yn ystod y broses hon.
 qr-export-security-hint = Trwy sganio'r codau QR canlynol, bydd gosodiadau eich cyfrif - gan gynnwys eich e-bost a'ch cyfrinair - yn cael eu trosglwyddo'n ddiogel. Nid ydym yn casglu, storio, nac yn rhannu unrhyw ran o'r data hwn yn ystod y broses. Mae'r trosglwyddiad yn digwydd yn uniongyrchol rhwng eich dyfeisiau.
 qr-export-security-warning = Er mwyn eich diogelwch, gwnewch yn siŵr eich bod mewn man preifat a dim ond yn sganio codau QR o ffynonellau dibynadwy.
 qr-export-start-export = Allforio

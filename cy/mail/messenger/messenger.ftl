@@ -215,6 +215,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Marcio fel Sbam
     .tooltiptext = Marcio fel Sbam
+context-menu-mark-not-junk =
+    .aria-label = Marcio fel nid Sothach
+    .tooltiptext = Marcio fel nid Sothach
 mail-context-menu-open =
     .label = Agor
     .accesskey = A
@@ -254,30 +257,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Diddymu Neges
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [zero] Dim Negeseuon i'w Dileu
-            [one] Dileu Neges
-            [two] Dileu'r Negeseuon Hyn
-            [few] Dileu'r Negeseuon Hyn
-            [many] Dileu'r Negeseuon Hyn
-           *[other] Dileu'r Negeseuon Hyn
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [zero] Does Dim Negeseuon i'w Dileu
-            [one] Dad-ddileu Neges
-            [two] Dad-ddileu'r Negeseuon Hyn
-            [few] Dad-ddileu'r Negeseuon Hyn
-            [many] Dad-ddileu'r Negeseuon Hyn
-           *[other] Dad-ddileu'r Negeseuon Hyn
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
