@@ -808,6 +808,7 @@ qr-export-accounts-legend = Sähköpostitilit
 qr-export-select-all-accounts = Valitse kaikki
 qr-export-security-legend = Turvallisuus
 qr-export-include-passwords = Sisällytä kaikkien tilien salasanat
+qr-export-oauth-warning = Jotkin tilisi käyttävät todennusmenetelmää, joka saattaa vaatia uudelleentodennuksen mobiililaitteellasi. Saatat joutua syöttämään salasanasi uudelleen tämän prosessin aikana.
 qr-export-security-hint = Kun skannaat seuraavat QR-koodit, tilisi asetukset, mukaan lukien sähköpostiosoitteesi ja salasanasi, siirretään turvallisesti. Emme kerää, tallenna tai jaa näitä tietoja toimenpiteen aikana. Siirto tapahtuu suoraan laitteidesi välillä.
 qr-export-security-warning = Varmista turvallisuutesi vuoksi, että olet yksityisessä ympäristössä ja skannaa vain luotetuista lähteistä peräisin olevia QR-koodeja.
 qr-export-start-export = Vie
