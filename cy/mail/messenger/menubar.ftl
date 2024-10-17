@@ -16,7 +16,7 @@ menu-addons-and-themes =
     .accesskey = Y
 menu-export-for-mobile =
     .label = Allforio ar gyfer Symudol…
-    .accesskey = A
+    .accesskey = S
 
 ## Help Menu
 
@@ -26,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Derbyn Cymorth
     .accesskey = D
-menu-help-explore-features =
-    .label = Edrych ar y Nodweddion
-    .accesskey = E
 menu-help-get-release-help =
     .label = Cael Cymorth gyda { -brand-short-name }
     .accesskey = C

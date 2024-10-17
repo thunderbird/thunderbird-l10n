@@ -400,8 +400,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Cau ffenestr/tab neges wrth symud neu ddileu
     .accesskey = C
-display-name-label =
-    .value = Enw dangos:
 address-display-legend = Rhestr Negeseuon
 address-display-description = Fformat dangos y cyfeiriad gorau:
 address-display-full =
@@ -593,9 +591,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Rydych ym modd FIPS. Mae FIPS angen Prif Gyfrinair nad yw'n wag.
 forms-master-pw-fips-desc = Methodd Newid eich Cyfrinair
 junk-description = Yma gallwch osod eich gosodiadau sbam rhagosodedig. Mae modd ffurfweddu gosodiadau penodol ar gyfer sbam yn y Gosodiadau Cyfrif.
-junk-label =
-    .label = Pan fyddai'n marcio negeseuon fel sbam:
-    .accesskey = P
 junk-marked-label =
     .label = Pan fydd negeseuon wedi'u marcio fel sbam:
     .accesskey = P
@@ -605,9 +600,6 @@ junk-move-label =
 junk-delete-label =
     .label = Eu dileu
     .accesskey = d
-junk-read-label =
-    .label = Marcio negeseuon Sbam fel rhai wedi'u darllen
-    .accesskey = a
 junk-read-description = Marcio negeseuon fel wedi'u darllen
 junk-read-manual-label =
     .label = Pan wedi'i farcio â llaw fel sbam
@@ -814,7 +806,7 @@ sync-disconnected-turn-on-sync = Cychwyn Cydweddu…
 
 qr-export-pane-header = Allforio cyfrifon i { -brand-product-name } Symudol
 qr-export-description = Trosglwyddwch eich gosodiadau cyfrif yn gyflym o'r bwrdd gwaith i ffôn symudol trwy gynhyrchu cod QR. Dewiswch pa gyfrifon i'w cynnwys, penderfynwch a ydych am drosglwyddo'ch cyfrinair, a sganiwch y cod gyda'ch dyfais symudol. Cyflym, diogel a syml.
-qr-export-get-app = Nid oes gennych { -brand-product-name } ar ffôn symudol eto? <a data-l10n-name="app-link">Ewch ar Google Play</a>
+qr-export-get-app = Heb { -brand-product-name } ar eich ffôn symudol eto? <a data-l10n-name="app-link">Ewch ar Google Play i'w gael</a>
 qr-export-create = Creu cod QR i allforio eich cyfrifon
 qr-export-select-accounts = Dewiswch pa gyfrifon i'w hallforio:
 qr-export-no-accounts = Ddim yn gweld eich holl gyfrifon? Mae'n bosib y bydd rhai cyfrifon yn cael eu hanalluogi oherwydd nad ydyn nhw'n cael eu cefnogi gan { -brand-product-name } ar gyfer Android. <a data-l10n-name="account-support-link">Cymorth</a>
