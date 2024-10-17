@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 select-all-calendars = Merk alle
+select-none-calendars = Marker ingen
