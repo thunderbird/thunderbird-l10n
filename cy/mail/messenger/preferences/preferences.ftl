@@ -807,15 +807,15 @@ sync-disconnected-turn-on-sync = Cychwyn Cydweddu…
 qr-export-pane-header = Allforio cyfrifon i { -brand-product-name } Symudol
 qr-export-description = Trosglwyddwch eich gosodiadau cyfrif yn gyflym o'r bwrdd gwaith i ffôn symudol trwy gynhyrchu cod QR. Dewiswch pa gyfrifon i'w cynnwys, penderfynwch a ydych am drosglwyddo'ch cyfrinair, a sganiwch y cod gyda'ch dyfais symudol. Cyflym, diogel a syml.
 qr-export-get-app = Heb { -brand-product-name } ar eich ffôn symudol eto? <a data-l10n-name="app-link">Ewch ar Google Play i'w gael</a>
-qr-export-create = Creu cod QR i allforio eich cyfrifon
+qr-export-create = Crëwch god QR i allforio eich cyfrifon
 qr-export-select-accounts = Dewiswch pa gyfrifon i'w hallforio:
-qr-export-no-accounts = Ddim yn gweld eich holl gyfrifon? Mae'n bosib y bydd rhai cyfrifon yn cael eu hanalluogi oherwydd nad ydyn nhw'n cael eu cefnogi gan { -brand-product-name } ar gyfer Android. <a data-l10n-name="account-support-link">Cymorth</a>
+qr-export-no-accounts = Ddim yn gweld eich holl gyfrifon? Mae'n bosib y bydd rhai cyfrifon yn cael eu hanalluogi oherwydd nad ydyn nhw'n cael eu cefnogi gan { -brand-product-name } Android. <a data-l10n-name="account-support-link">Cymorth</a>
 qr-export-accounts-legend = Cyfrifon e-bost
 qr-export-select-all-accounts = Dewis popeth
 qr-export-security-legend = Diogelwch
-qr-export-include-passwords = Cynhwyswch gyfrineiriau pob cyfrif
+qr-export-include-passwords = Cynnwys gyfrineiriau pob cyfrif
 qr-export-security-hint = Trwy sganio'r codau QR canlynol, bydd gosodiadau eich cyfrif - gan gynnwys eich e-bost a'ch cyfrinair - yn cael eu trosglwyddo'n ddiogel. Nid ydym yn casglu, storio, nac yn rhannu unrhyw ran o'r data hwn yn ystod y broses. Mae'r trosglwyddiad yn digwydd yn uniongyrchol rhwng eich dyfeisiau.
-qr-export-security-warning = Er eich diogelwch, sicrhewch eich bod mewn gosodiad preifat a dim ond yn sganio codau QR o ffynonellau dibynadwy.
+qr-export-security-warning = Er mwyn eich diogelwch, gwnewch yn siŵr eich bod mewn man preifat a dim ond yn sganio codau QR o ffynonellau dibynadwy.
 qr-export-start-export = Allforio
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
@@ -824,10 +824,10 @@ qr-export-scan-progress =
     { $count ->
         [zero] { $step } o { $count } codau QR
         [one] { $step } o { $count } cod QR
-        [two] { $step } o { $count } codau QR
-        [few] { $step } o { $count } codau QR
-        [many] { $step } o { $count } codau QR
-       *[other] { $step } o { $count } codau QR
+        [two] { $step } o { $count } cod QR
+        [few] { $step } o { $count } cod QR
+        [many] { $step } o { $count } cod QR
+       *[other] { $step } o { $count } cod QR
     }
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
@@ -841,7 +841,7 @@ qr-export-scan-description =
        *[other] Sganiwch godau QR gyda { -brand-product-name } ar eich dyfais symudol
     }
 qr-export-scan-step1 = Agorwch { -brand-product-name } ar eich dyfais symudol
-qr-export-scan-step2 = Mynd i’r gosodiadau
+qr-export-scan-step2 = Ewch i’r gosodiadau
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Dewiswch <strong>Mewnforio gosodiadau</strong>
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
@@ -849,30 +849,30 @@ qr-export-scan-step4-revision = Tapiwch <strong>Sganiwch y cod QR</strong> a dal
 qr-export-back = Nôl
 qr-export-next = Nesaf
 qr-export-done = Gorffen
-qr-export-summary-description = Cyfrifon wedi'u hallforio. Parhewch ar eich dyfais symudol.
+qr-export-summary-description = Cyfrifon wedi'u hallforio. Ewch ymlaen ar eich dyfais symudol.
 qr-export-summary-title = Crynodeb allforio:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
 qr-export-summary-qr-count =
     { $count ->
-        [zero] { $count } Cod QR wedi'i gynhyrchu
-        [one] { $count } Cod QR wedi'i gynhyrchu
-        [two] { $count } Cod QR wedi'i gynhyrchu
-        [few] { $count } Cod QR wedi'i gynhyrchu
-        [many] { $count } Cod QR wedi'i gynhyrchu
-       *[other] { $count } Cod QR wedi'i gynhyrchu
+        [zero] { $count } codau QR wedi'u cynhyrchu
+        [one] { $count } cod QR wedi'i gynhyrchu
+        [two] { $count } god QR wedi'u cynhyrchu
+        [few] { $count } cod QR wedi'u cynhyrchu
+        [many] { $count } cod QR wedi'u cynhyrchu
+       *[other] { $count } cod QR wedi'u cynhyrchu
     }
 # Variables:
 # $count (Number) - Number of accounts included in the export.
 qr-export-summary-accounts =
     { $count ->
-        [zero] { $count } chyfrif wedi'u hallforio:
+        [zero] { $count } cyfrifon wedi'u hallforio:
         [one] { $count } cyfrif wedi'i allforio:
-        [two] { $count } chyfrif wedi'u hallforio:
-        [few] { $count } chyfrif wedi'u hallforio:
+        [two] { $count } gyfrif wedi'u hallforio:
+        [few] { $count } cyfrif wedi'u hallforio:
         [many] { $count } chyfrif wedi'u hallforio:
-       *[other] { $count } chyfrif wedi'u hallforio:
+       *[other] { $count } cyfrif wedi'u hallforio:
     }
 qr-export-summary-passwords-included = Cyfrineiriau wedi'u cynnwys
 qr-export-summary-passwords-excluded = Cyfrineiriau wedi'u heithrio
-qr-export-more-accounts = Allforio mwy o gyfrifon
+qr-export-more-accounts = Allforio rhagor o gyfrifon
