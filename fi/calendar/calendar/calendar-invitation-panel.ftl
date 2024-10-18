@@ -27,6 +27,19 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Näytä muutokset
 calendar-invitation-panel-prop-title-when = Aika:
 calendar-invitation-panel-prop-title-location = Sijainti:
+# Example: Friday, September 16, 2022
+# Variables:
+# $startDate (String) - The date (without time) the event starts on.
+calendar-invitation-interval-all-day = { $startDate }
+# Example: September 16, 2022 – September 16, 2023
+# Variables:
+# $startMonth (String) - The month the interval starts.
+# $startDay   (String) - The day of the month the interval starts.
+# $startYear  (String) - The year the interval starts.
+# $endMonth   (String) - The month the interval ends.
+# $endDay     (String) - The day of the month the interval ends.
+# $endYear    (String) - The year the interval ends.
+calendar-invitation-interval-all-day-between-years = { $startDay }. { $startMonth }ta { $startYear } - { $endDay }. { $endMonth }ta { $endYear }
 calendar-invitation-panel-prop-title-recurrence = Toistuu:
 calendar-invitation-panel-prop-title-attendees = Osallistujat:
 calendar-invitation-panel-prop-title-description = Kuvaus:
