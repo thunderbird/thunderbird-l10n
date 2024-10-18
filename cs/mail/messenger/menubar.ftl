@@ -15,7 +15,7 @@ menu-addons-and-themes =
     .label = Doplňky a vzhledy
     .accesskey = a
 menu-export-for-mobile =
-    .label = Export pro mobilní zařízení…
+    .label = Exportovat pro mobilní zařízení…
     .accesskey = E
 
 ## Help Menu
@@ -26,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Získat pomoc
     .accesskey = Z
-menu-help-explore-features =
-    .label = Prozkoumejte všechny funkce
-    .accesskey = P
 menu-help-get-release-help =
     .label =
         { -brand-short-name.case-status ->

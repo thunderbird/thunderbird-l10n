@@ -25,9 +25,9 @@ category-calendar =
 pane-sync-title = Synchronizace
 category-sync =
     .tooltiptext = Synchronizace
-pane-qr-export-title = Export pro mobilní zařízení
+pane-qr-export-title = Exportovat pro mobilní zařízení
 category-qr-export =
-    .tooltiptext = Export pro mobilní zařízení
+    .tooltiptext = Exportovat pro mobilní zařízení
 general-language-and-appearance-header = Zobrazení a jazyk stránek
 general-incoming-mail-header = Příchozí pošta
 general-files-and-attachment-header = Soubory a přílohy
@@ -473,8 +473,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Při přesunutí nebo smazání zprávy zavřít panel/okno
     .accesskey = s
-display-name-label =
-    .value = Zobrazované jméno:
 address-display-legend = Seznam zpráv
 address-display-description = Preferovaný formát zobrazení adresy:
 address-display-full =
@@ -493,6 +491,7 @@ table-layout-legend = Zobrazení tabulky
 table-layout-horizontal-scroll-label =
     .label = Povolit vodorovné posouvání
     .accesskey = p
+label-experiment = Experimentální
 
 ## Compose Tab
 
@@ -660,9 +659,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Momentálně jste v režimu FIPS, který vyžaduje neprázdné hlavní heslo.
 forms-master-pw-fips-desc = Neúspěšná změna hesla
 junk-description = Další nastavení nevyžádané pošty lze provést v dialogu Nastavení účtu.
-junk-label =
-    .label = Pokud ručně označím zprávy jako nevyžádané:
-    .accesskey = r
 junk-marked-label =
     .label = Když jsou zprávy označeny jako nevyžádané:
     .accesskey = K
@@ -672,9 +668,6 @@ junk-move-label =
 junk-delete-label =
     .label = Smazat
     .accesskey = S
-junk-read-label =
-    .label = Označit zprávy rozpoznané jako nevyžádaná pošta jako přečtené
-    .accesskey = O
 junk-read-description = Označovat zprávy jako přečtené
 junk-read-manual-label =
     .label = Při ručním označení jako nevyžádané
@@ -887,9 +880,13 @@ sync-disconnected-turn-on-sync = Zapnout synchronizaci…
 
 ## Mobile QR Export Pane
 
+qr-export-get-app = Ještě nemáte { -brand-product-name } v mobilu? <a data-l10n-name="app-link">Stáhněte si ji z Google Play</a>
+qr-export-select-accounts = Vyberte, které účty chcete exportovat:
+qr-export-accounts-legend = E-mailové účty
 qr-export-select-all-accounts = Vybrat vše
 qr-export-security-legend = Zabezpečení
 qr-export-include-passwords = Zahrnout hesla všech účtů
+qr-export-security-warning = V zájmu své bezpečnosti se ujistěte, že jste v soukromí, a skenujte pouze QR kódy z důvěryhodných zdrojů.
 qr-export-start-export = Exportovat
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
