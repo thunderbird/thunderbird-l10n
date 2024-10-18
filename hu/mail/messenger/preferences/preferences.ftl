@@ -400,8 +400,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Üzenetablak/-lap bezárása áthelyezéskor vagy törléskor
     .accesskey = z
-display-name-label =
-    .value = Megjelenítendő név:
 address-display-legend = Üzenetlista
 address-display-description = Előnyben részesített címmegjelenítési formátum:
 address-display-full =
@@ -593,9 +591,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Jelenleg FIPS-módban van. A FIPS-hez nem üres elsődleges jelszó szükséges.
 forms-master-pw-fips-desc = Sikertelen jelszóváltoztatás
 junk-description = Az alapértelmezett levélszemét-kezelés beállítása. A postafiókra jellemző levélszemét-kezelés beállításait a Postafiókok beállításai alatt végezheti el.
-junk-label =
-    .label = A levélszemét kézi megjelölésekor:
-    .accesskey = k
 junk-marked-label =
     .label = Mikor lesznek az üzenetek levélszemétként megjelölve:
     .accesskey = l
@@ -605,9 +600,6 @@ junk-move-label =
 junk-delete-label =
     .label = Törlés
     .accesskey = T
-junk-read-label =
-    .label = A szemétként megjelölt levelek megjelölése olvasottként
-    .accesskey = o
 junk-read-description = Üzenetek olvasottnak jelölése
 junk-read-manual-label =
     .label = Kézi levélszemétnek jelölés esetén
@@ -836,6 +828,13 @@ qr-export-scan-progress =
     { $count ->
         [one] { $step }. / { $count } QR-kód
        *[other] { $step }. / { $count } QR-kód
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Olvassa le a QR-kódot a { -brand-product-name }del a mobileszközén
+       *[other] Olvassa le a QR-kódot a { -brand-product-name }del a mobileszközén
     }
 qr-export-scan-step1 = Nyissa meg a { -brand-product-name }öt a mobileszközén
 qr-export-scan-step2 = Ugorjon a beállításokhoz
