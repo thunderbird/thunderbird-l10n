@@ -107,19 +107,6 @@ quick-filter-bar-results =
         [few] { $count } poruke
        *[other] { $count } poruka
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Filtriraj ove poruke <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Filtriranje poruka
 quick-filter-bar-searching =
@@ -283,8 +270,6 @@ threadpane-column-header-sender = Šalje
     .title = Sortiraj prema pošiljatelju
 threadpane-column-label-sender =
     .label = Šalje
-threadpane-cell-sender =
-    .aria-label = Šalje
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -294,8 +279,6 @@ threadpane-column-header-recipient = Primatelj
     .title = Sortiraj prema primatelju
 threadpane-column-label-recipient =
     .label = Primatelj
-threadpane-cell-recipient =
-    .aria-label = Primatelj
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -305,8 +288,6 @@ threadpane-column-header-correspondents = Dopisnici
     .title = Sortiraj prema dopisnicima
 threadpane-column-label-correspondents =
     .label = Dopisnici
-threadpane-cell-correspondents =
-    .aria-label = Dopisnici
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -316,8 +297,6 @@ threadpane-column-header-subject = Naslov
     .title = Sortiraj prema naslovu
 threadpane-column-label-subject =
     .label = Naslov
-threadpane-cell-subject =
-    .aria-label = Naslov
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -327,8 +306,6 @@ threadpane-column-header-date = Datum
     .title = Sortiraj prema datumu
 threadpane-column-label-date =
     .label = Datum
-threadpane-cell-date =
-    .aria-label = Datum
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -338,8 +315,6 @@ threadpane-column-header-received = Primljeno
     .title = Sortiraj prema datumu primitka
 threadpane-column-label-received =
     .label = Primljeno
-threadpane-cell-received =
-    .aria-label = Datum primitka
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -349,8 +324,6 @@ threadpane-column-header-status = Status
     .title = Sortiraj prema statusu
 threadpane-column-label-status =
     .label = Status
-threadpane-cell-status =
-    .aria-label = Status
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -360,8 +333,6 @@ threadpane-column-header-size = Veličina
     .title = Sortiraj prema veličini
 threadpane-column-label-size =
     .label = Veličina
-threadpane-cell-size =
-    .aria-label = Veličina
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -371,8 +342,6 @@ threadpane-column-header-tags = Oznaka
     .title = Sortiraj prema oznakama
 threadpane-column-label-tags =
     .label = Oznaka
-threadpane-cell-tags =
-    .aria-label = Oznake
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -382,8 +351,6 @@ threadpane-column-header-account = Račun
     .title = Sortiraj prema računu
 threadpane-column-label-account =
     .label = Račun
-threadpane-cell-account =
-    .aria-label = Račun
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -393,8 +360,6 @@ threadpane-column-header-priority = Prioritet
     .title = Sortiraj po prioritetu
 threadpane-column-label-priority =
     .label = Prioritet
-threadpane-cell-priority =
-    .aria-label = Prioritet
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -404,8 +369,6 @@ threadpane-column-header-unread = Nepročitano
     .title = Broj nepročitanih poruka u temi
 threadpane-column-label-unread =
     .label = Nepročitano
-threadpane-cell-unread =
-    .aria-label = Broj nepročitanih poruka
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -415,8 +378,6 @@ threadpane-column-header-total = Ukupno
     .title = Ukupan broj poruka u temi
 threadpane-column-label-total =
     .label = Ukupno
-threadpane-cell-total =
-    .aria-label = Ukupan broj poruka
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -426,8 +387,6 @@ threadpane-column-header-location = Lokacija
     .title = Sortiraj prema lokaciji
 threadpane-column-label-location =
     .label = Lokacija
-threadpane-cell-location =
-    .aria-label = Lokacija
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -437,8 +396,6 @@ threadpane-column-header-id = Redoslijed primanja
     .title = Sortiraj prema redosljedu primanja
 threadpane-column-label-id =
     .label = Redoslijed primanja
-threadpane-cell-id =
-    .aria-label = Redoslijed primanja
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =
@@ -516,21 +473,21 @@ threadpane-sort-header-unread-count =
     { $unread ->
         [one]
             { $total ->
-                [one] <span>{ $unread }</span> poruka od <span>{ $total }</span> nepročitana
-                [few] <span>{ $unread }</span> poruke od <span>{ $total }</span> poruka nepročitane
-               *[other] <span>{ $unread }</span> poruka od <span>{ $total }</span> poruka nepročitano
+                [one] Poruka nepročitano: <span>{ $unread }</span> od <span>{ $total }</span>
+                [few] Poruka nepročitano: <span>{ $unread }</span> od <span>{ $total }</span>
+               *[other] Poruka nepročitano: <span>{ $unread }</span> od <span>{ $total }</span>
             }
         [few]
             { $total ->
-                [one] <span>{ $unread }</span> poruka od <span>{ $total }</span> nepročitana
-                [few] <span>{ $unread }</span> poruke od <span>{ $total }</span> poruka nepročitane
-               *[other] <span>{ $unread }</span> poruka od <span>{ $total }</span> poruka nepročitano
+                [one] Poruka nepročitano: <span>{ $unread }</span> od <span>{ $total }</span>
+                [few] Poruka nepročitano: <span>{ $unread }</span> od <span>{ $total }</span>
+               *[other] Poruka nepročitano: <span>{ $unread }</span> od <span>{ $total }</span>
             }
        *[other]
             { $total ->
-                [one] <span>{ $unread }</span> poruka od <span>{ $total }</span> nepročitana
-                [few] <span>{ $unread }</span> poruke od <span>{ $total }</span> poruka nepročitane
-               *[other] <span>{ $unread }</span> poruka od <span>{ $total }</span> poruka nepročitano
+                [one] Poruka nepročitano: <span>{ $unread }</span> od <span>{ $total }</span>
+                [few] Poruka nepročitano: <span>{ $unread }</span> od <span>{ $total }</span>
+               *[other] Poruka nepročitano: <span>{ $unread }</span> od <span>{ $total }</span>
             }
     }
 # Variables:
