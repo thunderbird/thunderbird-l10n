@@ -25,9 +25,9 @@ category-calendar =
 pane-sync-title = Synchronizácia
 category-sync =
     .tooltiptext = Synchronizácia
-pane-qr-export-title = Export pre mobilné zariadenie
+pane-qr-export-title = Export pre mobilné zariadenia
 category-qr-export =
-    .tooltiptext = Exportovať pre mobilné zariadenie
+    .tooltiptext = Exportovať pre mobilné zariadenia
 general-language-and-appearance-header = Jazyk a vzhľad stránok
 general-incoming-mail-header = Doručená pošta
 general-files-and-attachment-header = Súbory a prílohy
@@ -400,8 +400,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Pri odstraňovaní alebo presunutí správy zatvoriť jej okno/kartu
     .accesskey = d
-display-name-label =
-    .value = Zobrazované meno:
 address-display-legend = Zoznam správ
 address-display-description = Preferovaný formát zobrazenia adresy:
 address-display-full =
@@ -593,9 +591,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Momentálne sa používa režim FIPS. Režim FIPS vyžaduje nastavenie hlavného hesla.
 forms-master-pw-fips-desc = Zmena hesla zlyhala
 junk-description = Ak chcete zmeniť špecifické nastavenia nevyžiadanej pošty svojho účtu, prejdite do jeho nastavenia.
-junk-label =
-    .label = Keď manuálne označím správy ako nevyžiadané:
-    .accesskey = K
 junk-marked-label =
     .label = Keď sú správy označené ako nevyžiadané:
     .accesskey = K
@@ -605,9 +600,6 @@ junk-move-label =
 junk-delete-label =
     .label = Odstrániť ich
     .accesskey = d
-junk-read-label =
-    .label = Označiť správy identifikované ako nevyžiadané za prečítané
-    .accesskey = O
 junk-read-description = Označiť správy ako prečítané
 junk-read-manual-label =
     .label = Keď sú manuálne označené ako nevyžiadané
@@ -834,10 +826,10 @@ qr-export-start-export = Exportovať
 # $step (Number) - Current step number of the QR code displayed.
 qr-export-scan-progress =
     { $count ->
-        [one] { $step } z { $count } QR kódu
-        [few] { $step } z { $count } QR kódov
-        [many] { $step } z { $count } QR kódov
-       *[other] { $step } z { $count } QR kódov
+        [one] QR kód { $step } z { $count }
+        [few] QR kód { $step } z { $count }
+        [many] QR kód { $step } z { $count }
+       *[other] QR kód { $step } z { $count }
     }
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
