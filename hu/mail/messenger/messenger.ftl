@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Megjelölés levélszemétként
     .tooltiptext = Megjelölés levélszemétként
+context-menu-mark-not-junk =
+    .aria-label = Megjelölés nem levélszemétként
+    .tooltiptext = Megjelölés nem levélszemétként
 mail-context-menu-open =
     .label = Megnyitás
     .accesskey = M
@@ -238,22 +241,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Üzenet érvénytelenítése
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Üzenet törlése
-           *[other] Kijelölt üzenetek törlése
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Törölt üzenet visszaállítása
-           *[other] Kijelölt üzenetek visszaállítása
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
