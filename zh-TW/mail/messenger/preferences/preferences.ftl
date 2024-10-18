@@ -815,7 +815,7 @@ qr-export-select-all-accounts = 選擇全部
 qr-export-security-legend = 安全性
 qr-export-include-passwords = 包含所有帳號的密碼
 qr-export-oauth-warning = 您的某些帳號使用的認證方式，在行動裝置使用時可能需要重新驗證。在此過程中您可能需要再次輸入密碼。
-qr-export-security-hint = 掃描下列 QR Code，即可安全地轉移電子郵件地址、密碼等帳號設定。在此過程中我們不會收集、儲存或分享任何此類資料。資料僅在您的裝置間直接移轉。
+qr-export-security-hint = 掃描接下來出現的 QR Code，即可安全地轉移電子郵件地址、密碼等帳號設定。在此過程中我們不會收集、儲存或分享任何此類資料。資料僅在您的裝置間直接移轉。
 qr-export-security-warning = 為了資料安全，請確保您處於家中、公司等私人場所再進行掃描，並且只掃描產生自可信任裝置的 QR Code。
 qr-export-start-export = 匯出
 # Variables:
