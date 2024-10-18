@@ -2,6 +2,30 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-invitation-panel-status-new = Sinut on kutsuttu tähän tapahtumaan.
+calendar-invitation-panel-status-processed = Tämä tapahtuma on jo lisätty kalenteriisi.
+calendar-invitation-panel-status-updateminor = Tämä viesti sisältää päivityksen tähän tapahtumaan.
+calendar-invitation-panel-status-updatemajor = Tämä viesti sisältää päivityksen tähän tapahtumaan. Sinun tulee vahvistaa osallistumisesi uudelleen.
+calendar-invitation-panel-status-cancelled = Tämä viesti sisältää tämän tapahtuman peruutuksen.
+calendar-invitation-panel-status-cancelled-notfound = Tämä viesti sisältää peruutuksen tapahtumalle, jota ei löydy kalenteristasi.
+# Variables:
+# $organizer (String) - The participant that cancelled the invitation.
+calendar-invitation-panel-intro-cancel = { $organizer } perui:
+# Variables:
+# $summary (String) - A short summary or title of the event.
+calendar-invitation-panel-title = { $summary }
+calendar-invitation-panel-view-button = Näytä
+calendar-invitation-panel-update-button = Päivitä
+calendar-invitation-panel-delete-button = Poista
+calendar-invitation-panel-accept-button = Kyllä
+calendar-invitation-panel-decline-button = Ei
+calendar-invitation-panel-tentative-button = Ehkä
+calendar-invitation-panel-more-button = Lisää
+calendar-invitation-panel-menu-item-save-copy =
+    .label = Tallenna kopio
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Näytä muutokset
+calendar-invitation-panel-prop-title-when = Aika:
 calendar-invitation-panel-prop-title-location = Sijainti:
 calendar-invitation-panel-prop-title-recurrence = Toistuu:
 calendar-invitation-panel-prop-title-attendees = Osallistujat:
