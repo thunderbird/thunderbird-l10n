@@ -818,6 +818,7 @@ qr-export-accounts-legend = E‑mailové účty
 qr-export-select-all-accounts = Vybrať všetky
 qr-export-security-legend = Bezpečnosť
 qr-export-include-passwords = Zahrnúť heslá všetkých účtov
+qr-export-oauth-warning = Niektoré z vašich účtov používajú metódu overenia, ktorá môže vyžadovať opätovné overenie na vašom mobilnom zariadení. Počas tohto procesu možno budete musieť znova zadať svoje heslá.
 qr-export-security-hint = Naskenovaním nasledujúcich QR kódov sa nastavenia vášho účtu – vrátane vášho e‑mailu a hesla – prenesú bezpečne. Počas procesu nezhromažďujeme, neukladáme ani nezdieľame žiadne z týchto údajov. Prenos prebieha priamo medzi vašimi zariadeniami.
 qr-export-security-warning = Pre vašu bezpečnosť sa uistite, že ste v súkromnom prostredí a skenujte QR kódy iba z dôveryhodných zdrojov.
 qr-export-start-export = Exportovať

@@ -7,7 +7,7 @@
 <!ENTITY level.label "Povoliť rozpoznávanie nevyžiadanej pošty pre tento účet">
 <!ENTITY level.accesskey "v">
 
-<!ENTITY move.label "Správy rozpoznané ako nevyžiadané (SPAM) automaticky presúvať do:">
+<!ENTITY move.label "Správy rozpoznané ako nevyžiadané automaticky presúvať do:">
 <!ENTITY move.accesskey "m">
 <!ENTITY junkFolderOn.label "priečinok &quot;SPAM&quot; v účte:">
 <!ENTITY junkFolderOn.accesskey "r">
