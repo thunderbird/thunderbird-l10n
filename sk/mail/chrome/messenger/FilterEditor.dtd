@@ -6,8 +6,8 @@
 <!ENTITY filterName.label "Názov filtra:">
 <!ENTITY filterName.accesskey "N">
 
-<!ENTITY junk.label "Spam">
-<!ENTITY notJunk.label "Nie Spam">
+<!ENTITY junk.label "Nevyžiadaná">
+<!ENTITY notJunk.label "Nie je nevyžiadaná">
 
 <!ENTITY lowestPriorityCmd.label "Najnižšia">
 <!ENTITY lowPriorityCmd.label "Nízka">
@@ -44,7 +44,7 @@
 <!ENTITY markMessageStarred.label "Pridať hviezdičku">
 <!ENTITY setPriority.label "Zmeniť prioritu na">
 <!ENTITY addTag.label "Priradiť správe štítok">
-<!ENTITY setJunkScore.label "Nastaviť druh správy na">
+<!ENTITY setJunkScore.label "Nastaviť stav správy na">
 <!ENTITY deleteMessage.label "Odstrániť správu">
 <!ENTITY deleteFromPOP.label "Odstrániť zo servera POP">
 <!ENTITY fetchFromPOP.label "Stiahnuť telo správy zo servera POP">

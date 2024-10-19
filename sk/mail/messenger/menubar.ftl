@@ -26,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Získať pomoc
     .accesskey = Z
-menu-help-explore-features =
-    .label = Spoznajte funkcie
-    .accesskey = S
 menu-help-get-release-help =
     .label = Získať pomoc s { -brand-short-name(case: "ins") }
     .accesskey = m
@@ -86,11 +83,11 @@ quit-app-shortcut =
 ## Mail Toolbar
 
 toolbar-junk-button =
-    .label = Spam
-    .tooltiptext = Označiť vybrané správy ako nevyžiadané (SPAM)
+    .label = Nevyžiadaná
+    .tooltiptext = Označiť vybrané správy ako nevyžiadané
 toolbar-not-junk-button =
-    .label = Nie Spam
-    .tooltiptext = Označiť vybrané správy ako nie nevyžiadané (SPAM)
+    .label = Nie je nevyžiadaná
+    .tooltiptext = Označiť vybrané správy ako nie nevyžiadané
 toolbar-delete-button =
     .label = Odstrániť
     .tooltiptext = Odstrániť vybrané správy alebo priečinok

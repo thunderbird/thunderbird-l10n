@@ -3,13 +3,13 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY junkSettings.label "Nevyžiadaná pošta">
-<!ENTITY trainingDescription.label "Ak je táto funkcia povolená, musíte najskôr &brandShortName; naučiť nevyžiadanú poštu identifikovať. Pomocou tlačidla Spam na paneli s nástrojmi označte doručené správy ako normálne alebo ako nevyžiadané. Následne bude &brandShortName; automaticky vedieť označiť nevyžiadanú poštu.">
+<!ENTITY trainingDescription.label "Ak je táto funkcia povolená, musíte najskôr &brandShortName; naučiť nevyžiadanú poštu identifikovať. Pomocou tlačidla Nevyžiadaná na paneli s nástrojmi označte doručené správy ako normálne alebo ako nevyžiadané. Následne bude &brandShortName; automaticky vedieť označiť nevyžiadanú poštu.">
 <!ENTITY level.label "Povoliť rozpoznávanie nevyžiadanej pošty pre tento účet">
 <!ENTITY level.accesskey "v">
 
 <!ENTITY move.label "Správy rozpoznané ako nevyžiadané automaticky presúvať do:">
 <!ENTITY move.accesskey "m">
-<!ENTITY junkFolderOn.label "priečinok &quot;SPAM&quot; v účte:">
+<!ENTITY junkFolderOn.label "priečinok &quot;Nevyžiadaná pošta&quot; v účte:">
 <!ENTITY junkFolderOn.accesskey "r">
 <!ENTITY otherFolder.label "inde:">
 <!ENTITY otherFolder.accesskey "i">
@@ -21,7 +21,7 @@
 <!ENTITY whitelistHeader.accesskey "e">
 
 <!ENTITY ispHeadersWarning.label "Ak je táto voľba zapnutá, &brandShortName; bude automaticky považovať správy označené touto externou kontrolou ako nevyžiadané.">
-<!ENTITY ispHeaders.label "Dôverovať príznaku nevyžiadanej pošty (SPAM) od: ">
+<!ENTITY ispHeaders.label "Dôverovať príznaku nevyžiadanej pošty od: ">
 <!ENTITY ispHeaders.accesskey "D">
 
 <!ENTITY junkClassification.label "Rozpoznávanie nevyžiadanej pošty">
