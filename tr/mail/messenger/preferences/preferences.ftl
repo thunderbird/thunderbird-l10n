@@ -809,13 +809,18 @@ sync-disconnected-turn-on-sync = Eşitlemeyi aç…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Hesapları { -brand-product-name } Mobil’e aktar
+qr-export-description = QR kodu oluşturarak hesap ayarlarınızı bilgisayardan telefona hızlıca aktarabilirsiniz. Ekleyeceğinizi hesapları seçin, parolanızı aktarmak isteyip istemediğinize karar verin ve kodu mobil cihazınızla okutun. Hızlı, güvenli ve basit.
 qr-export-get-app = Mobil cihazınızda henüz { -brand-product-name } yok mu? <a data-l10n-name="app-link">Google Play’den indirin</a>
 qr-export-create = Hesaplarınızı dışa aktarmak için QR kodu oluşturun
 qr-export-select-accounts = Dışa aktarılacak hesapları seçin:
+qr-export-no-accounts = Tüm hesaplarınızı göremiyor musunuz? Android için { -brand-product-name } tarafından desteklenmeyen hesaplarınız devre dışı bırakılmış olabilir. <a data-l10n-name="account-support-link">Destek alın</a>
 qr-export-accounts-legend = E-posta hesapları
 qr-export-select-all-accounts = Tümünü seç
 qr-export-security-legend = Güvenlik
 qr-export-include-passwords = Tüm hesap parolalarını dahil et
+qr-export-oauth-warning = Bazı hesaplarınız, mobil cihazınızda yeniden doğrulama gerektirebilecek bir kimlik doğrulama yöntemi kullanıyor. Bu işlem sırasında parolalarınızı tekrar girmeniz gerekebilir.
+qr-export-security-hint = Aşağıdaki QR kodlarını okuttuğunuzda hesap ayarlarınız (e-posta adresiniz ve parolanız dahil) güvenli bir şekilde aktarılacaktır. İşlem sırasında bu verilerin hiçbirini toplamıyor, depolamıyor ve paylaşmıyoruz. Aktarım doğrudan cihazlarınız arasında gerçekleşecektir.
+qr-export-security-warning = Güvenliğiniz için lütfen bu işlemi topluluk içindeyken yapmayın ve sadece güvenilir kaynaklara ait QR kodlarını okutun.
 qr-export-start-export = Dışa aktar
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
