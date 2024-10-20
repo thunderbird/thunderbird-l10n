@@ -888,6 +888,7 @@ sync-disconnected-turn-on-sync = Zapnout synchronizaci…
 qr-export-pane-header = Exportovat účty do aplikace { -brand-product-name } pro mobily
 qr-export-description = Rychle přeneste nastavení účtu z počítače do mobilu vygenerováním QR kódu. Vyberte, které účty chcete zahrnout, rozhodněte, zda chcete přenést heslo, a naskenujte kód pomocí mobilního zařízení. Rychlé, bezpečné a jednoduché.
 qr-export-get-app = Ještě nemáte { -brand-product-name } v mobilu? <a data-l10n-name="app-link">Stáhněte si ji z Google Play</a>
+qr-export-create = Vytvoření QR kódu pro export účtů
 qr-export-select-accounts = Vyberte, které účty chcete exportovat:
 qr-export-accounts-legend = E-mailové účty
 qr-export-select-all-accounts = Vybrat vše
