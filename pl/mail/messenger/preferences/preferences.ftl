@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Synchronizacja
 category-sync =
     .tooltiptext = Synchronizacja
+pane-qr-export-title = Eksportuj do wersji na telefon
+category-qr-export =
+    .tooltiptext = Eksportuj do wersji na telefon
 general-language-and-appearance-header = Język i wygląd
 general-incoming-mail-header = Poczta przychodząca
 general-files-and-attachment-header = Pliki i załączniki
@@ -397,8 +400,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Zamykanie okna/karty wiadomości przy przenoszeniu lub usuwaniu
     .accesskey = Z
-display-name-label =
-    .value = Wyświetlana nazwa:
 address-display-legend = Lista wiadomości
 address-display-description = Preferowany format wyświetlania adresu:
 address-display-full =
@@ -413,6 +414,15 @@ address-display-name =
 condensed-addresses-label =
     .label = Pokazywanie tylko nazw kontaktów dla nadawców z książki adresowej
     .accesskey = P
+table-layout-legend = Widok tabeli
+table-layout-horizontal-scroll-label =
+    .label = Zezwalaj na przewijanie poziome
+    .accesskey = p
+conversation-view-legend = Widok rozmowy
+conversation-view-checkbox-label =
+    .label = Widok rozmowy
+    .accesskey = r
+conversation-view-checkbox-description = Funkcja eksperymentalna na podstawie systemu indeksowania Gloda, korzystaj z niej na własną odpowiedzialność.
 
 ## Compose Tab
 
@@ -580,9 +590,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Program pracuje obecnie w trybie FIPS. Tryb FIPS wymaga niepustego hasła głównego.
 forms-master-pw-fips-desc = Zmiana hasła się nie powiodła.
 junk-description = W tym miejscu można zmienić domyślne ustawienia filtru niechcianej poczty. Aby zmienić ustawienia niechcianej poczty dotyczące konkretnego konta, należy przejść do Konfiguracji kont.
-junk-label =
-    .label = W przypadku ręcznego oznaczenia wiadomości jako niechcianej:
-    .accesskey = W
 junk-marked-label =
     .label = W przypadku oznaczenia wiadomości jako niechcianej:
     .accesskey = W
@@ -592,9 +599,6 @@ junk-move-label =
 junk-delete-label =
     .label = usuwaj wiadomości
     .accesskey = u
-junk-read-label =
-    .label = Oznaczaj wiadomości uznane za niechciane jako przeczytane
-    .accesskey = z
 junk-read-description = Oznacz wiadomości jako przeczytane
 junk-read-manual-label =
     .label = W przypadku ręcznego oznaczenia jako niechciane
@@ -800,3 +804,6 @@ synced-acount-item-filters = Filtry
 synced-acount-item-keys = OpenPGP – S/MIME
 sync-disconnected-text = Synchronizuj konta pocztowe, książki adresowe, kalendarze i tożsamości między wszystkimi swoimi urządzeniami.
 sync-disconnected-turn-on-sync = Włącz synchronizację…
+
+## Mobile QR Export Pane
+
