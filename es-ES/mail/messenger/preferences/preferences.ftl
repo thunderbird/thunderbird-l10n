@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sincronizar
 category-sync =
     .tooltiptext = Sincronizar
+pane-qr-export-title = Exportar para dispositivos móviles
+category-qr-export =
+    .tooltiptext = Exportar para dispositivos móviles
 general-language-and-appearance-header = Idioma y apariencia
 general-incoming-mail-header = Mensajes entrantes
 general-files-and-attachment-header = Archivos y adjuntos
@@ -393,8 +396,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Cerrar ventana/pestaña del mensaje al moverlo o eliminarlo
     .accesskey = C
-display-name-label =
-    .value = Nombre mostrado:
 address-display-legend = Lista de mensajes
 address-display-description = Formato preferido para mostrar la dirección:
 address-display-full =
@@ -586,9 +587,6 @@ primary-password-button =
 forms-primary-pw-fips-title = En este momento está en modo FIPS. FIPS exige una contraseña principal no vacía.
 forms-master-pw-fips-desc = Cambio de contraseña fallido
 junk-description = Establezca su configuración predeterminada para el correo no deseado. La configuración específica de cada cuenta puede realizarse en Configuración de las cuentas.
-junk-label =
-    .label = Cuando marco los mensajes como no deseados:
-    .accesskey = C
 junk-marked-label =
     .label = Cuando los mensajes se marcan como basura:
     .accesskey = b
@@ -598,9 +596,6 @@ junk-move-label =
 junk-delete-label =
     .label = Eliminarlos
     .accesskey = E
-junk-read-label =
-    .label = Marcar como leídos los mensajes calificados como no deseados
-    .accesskey = M
 junk-read-description = Marcar mensajes como leídos
 junk-read-manual-label =
     .label = Cuando se marcan manualmente como basura
@@ -809,3 +804,59 @@ sync-disconnected-turn-on-sync = Activar la sincronización…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Exportar cuentas a { -brand-product-name } para dispositivos móviles
+qr-export-description = Transfiera rápidamente la configuración de su cuenta desde el escritorio al dispositivo móvil generando un código QR. Seleccione qué cuentas incluir, decida si quiere transferir su contraseña y escanee el código con su dispositivo móvil. Rápido, seguro y sencillo.
+qr-export-get-app = ¿Todavía no tiene { -brand-product-name } en su dispositivo móvil? <a data-l10n-name="app-link">Consígalo en Google Play</a>
+qr-export-create = Crear un código QR para exportar sus cuentas
+qr-export-select-accounts = Seleccione las cuentas que quiere exportar:
+qr-export-no-accounts = ¿No ve todas sus cuentas? Algunas cuentas pueden estar desactivadas porque no son compatibles con { -brand-product-name } para Android. <a data-l10n-name="account-support-link">Ayuda</a>
+qr-export-accounts-legend = Cuentas de correo electrónico
+qr-export-select-all-accounts = Seleccionar todo
+qr-export-security-legend = Seguridad
+qr-export-include-passwords = Incluir todas las contraseñas de las cuentas
+qr-export-security-hint = Al escanear los siguientes códigos QR, se transferirá de manera segura la configuración de la cuenta, incluyendo la dirección de correo electrónico y la contraseña. No recopilamos, almacenamos ni compartimos ninguno de estos datos durante el proceso. La transferencia se produce directamente entre sus dispositivos.
+qr-export-security-warning = Por su seguridad, asegúrese de estar en un entorno privado y escanear sólo códigos QR de fuentes confiables.
+qr-export-start-export = Exportar
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } de { $count } código QR
+       *[other] { $step } de { $count } códigos QR
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Escanear código QR con { -brand-product-name } en su dispositivo móvil
+       *[other] Escanear códigos QR con { -brand-product-name } en su dispositivo móvil
+    }
+qr-export-scan-step1 = Abrir { -brand-product-name } en su dispositivo móvil
+qr-export-scan-step2 = Ir a ajustes
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Seleccione <strong>Importar ajustes</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Pulse <strong>Escanear el código QR</strong> y mantenga su teléfono sobre este código
+qr-export-back = Atrás
+qr-export-next = Siguiente
+qr-export-done = Finalizar
+qr-export-summary-description = Cuentas exportadas. Continúe en su dispositivo móvil.
+qr-export-summary-title = Exportar resumen:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } código QR generado
+       *[other] { $count } códigos QR generados
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } cuenta exportada:
+       *[other] { $count } cuentas exportadas:
+    }
+qr-export-summary-passwords-included = Contraseñas exportadas
+qr-export-summary-passwords-excluded = Contraseñas no exportadas
+qr-export-more-accounts = Exportar más cuentas

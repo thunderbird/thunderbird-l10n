@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Complementos y temas
     .accesskey = a
+menu-export-for-mobile =
+    .label = Exportar para dispositivos móviles…
+    .accesskey = p
 
 ## Help Menu
 
@@ -23,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Obtener ayuda
     .accesskey = a
-menu-help-explore-features =
-    .label = Explorar características
-    .accesskey = E
 menu-help-get-release-help =
     .label = Obtener ayuda con { -brand-short-name }
     .accesskey = O
