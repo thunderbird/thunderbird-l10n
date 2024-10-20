@@ -890,10 +890,13 @@ qr-export-description = Rychle přeneste nastavení účtu z počítače do mobi
 qr-export-get-app = Ještě nemáte { -brand-product-name } v mobilu? <a data-l10n-name="app-link">Stáhněte si ji z Google Play</a>
 qr-export-create = Vytvoření QR kódu pro export účtů
 qr-export-select-accounts = Vyberte, které účty chcete exportovat:
+qr-export-no-accounts = Nevidíte všechny své účty? Některé účty mohou být zakázány, protože je { -brand-product-name } pro Android nepodporuje. <a data-l10n-name="account-support-link">Podpora</a>
 qr-export-accounts-legend = E-mailové účty
 qr-export-select-all-accounts = Vybrat vše
 qr-export-security-legend = Zabezpečení
 qr-export-include-passwords = Zahrnout hesla všech účtů
+qr-export-oauth-warning = Některé vaše účty používají metodu ověřování, která může vyžadovat opětovné ověření na vašem mobilním zařízení. Během tohoto procesu může být nutné znovu zadat hesla.
+qr-export-security-hint = Naskenováním následujících QR kódů se bezpečně přenesou nastavení vašeho účtu včetně e-mailu a hesla. Během tohoto procesu neshromažďujeme, neukládáme ani nesdílíme žádné z těchto údajů. Přenos probíhá přímo mezi vašimi zařízeními.
 qr-export-security-warning = V zájmu své bezpečnosti se ujistěte, že jste v soukromí, a skenujte pouze QR kódy z důvěryhodných zdrojů.
 qr-export-start-export = Exportovat
 # Variables:
@@ -915,7 +918,12 @@ qr-export-scan-description =
         [many] Naskenujte QR kódy v aplikaci { -brand-product-name } na svém mobilním zařízení
        *[other] Naskenujte QR kódy v aplikaci { -brand-product-name } na svém mobilním zařízení
     }
+qr-export-scan-step1 = Otevřete aplikaci { -brand-product-name } na svém mobilním zařízení
 qr-export-scan-step2 = Přejít do nastavení
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Vyberte možnost <strong>Importovat nastavení</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Klepněte na <strong>Naskenovat QR kód</strong> a podržte telefon nad tímto kódem.
 qr-export-back = Zpět
 qr-export-next = Další
 qr-export-done = Hotovo
