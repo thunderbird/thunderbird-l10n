@@ -110,8 +110,8 @@ vcard-note-add = Dodaj notatkę
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
-vcard-org-header = Właściwości organizacyjne
-vcard-org-add = Dodaj właściwości organizacyjne
+vcard-org-header = Właściwości firmy/organizacji
+vcard-org-add = Dodaj właściwości firmy/organizacji
 vcard-org-title = Tytuł
 vcard-org-title-input =
     .title = Stanowisko
