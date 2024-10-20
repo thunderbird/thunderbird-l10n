@@ -423,6 +423,7 @@ conversation-view-checkbox-label =
     .label = Widok rozmowy
     .accesskey = r
 conversation-view-checkbox-description = Funkcja eksperymentalna na podstawie systemu indeksowania Gloda, korzystaj z niej na własną odpowiedzialność.
+label-experiment = Eksperymentalne
 
 ## Compose Tab
 
@@ -807,3 +808,14 @@ sync-disconnected-turn-on-sync = Włącz synchronizację…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Eksportuj konta do { -brand-product-name(case: "gen") } na telefon
+qr-export-description = Szybko przenoś ustawienia kont z komputera na telefon za pomocą wygenerowanego kodu QR. Wybierz konta, zdecyduj o przeniesieniu hasła i zeskanuj kod za pomocą telefonu. Szybko, prosto i bezpiecznie.
+qr-export-get-app = Nie masz jeszcze { -brand-product-name(case: "gen") } na telefon? <a data-l10n-name="app-link">Pobierz go z Google Play</a>
+qr-export-create = Utwórz kod QR, aby wyeksportować konta
+qr-export-select-accounts = Wybierz konta do wyeksportowania:
+qr-export-no-accounts = Nie widzisz wszystkich kont? Część z nich może być wyłączona, ponieważ nie są obsługiwane przez { -brand-product-name(case: "acc") } na Androida. <a data-l10n-name="account-support-link">Pomoc programu</a>
+qr-export-accounts-legend = Konta pocztowe
+qr-export-select-all-accounts = Wybierz wszystkie
+qr-export-security-legend = Bezpieczeństwo
+qr-export-include-passwords = W tym wszystkie hasła do kont
+qr-export-oauth-warning = Część kont używa metody uwierzytelniania, która może wymagać ponownego uwierzytelnienia na telefonie. Podczas tego procesu może być konieczne ponowne wpisanie haseł.
