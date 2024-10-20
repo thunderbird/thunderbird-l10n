@@ -491,6 +491,11 @@ table-layout-legend = Zobrazení tabulky
 table-layout-horizontal-scroll-label =
     .label = Povolit vodorovné posouvání
     .accesskey = p
+conversation-view-legend = Zobrazení Konverzace
+conversation-view-checkbox-label =
+    .label = Povolit zobrazení Konverzace
+    .accesskey = k
+conversation-view-checkbox-description = Experimentální funkce založená na Gloda, používejte ji na vlastní nebezpečí
 label-experiment = Experimentální
 
 ## Compose Tab
@@ -880,6 +885,8 @@ sync-disconnected-turn-on-sync = Zapnout synchronizaci…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Exportovat účty do aplikace { -brand-product-name } pro mobily
+qr-export-description = Rychle přeneste nastavení účtu z počítače do mobilu vygenerováním QR kódu. Vyberte, které účty chcete zahrnout, rozhodněte, zda chcete přenést heslo, a naskenujte kód pomocí mobilního zařízení. Rychlé, bezpečné a jednoduché.
 qr-export-get-app = Ještě nemáte { -brand-product-name } v mobilu? <a data-l10n-name="app-link">Stáhněte si ji z Google Play</a>
 qr-export-select-accounts = Vyberte, které účty chcete exportovat:
 qr-export-accounts-legend = E-mailové účty
