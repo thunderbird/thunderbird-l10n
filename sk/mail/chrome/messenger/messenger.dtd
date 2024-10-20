@@ -399,10 +399,10 @@
 <!ENTITY markStarredCmd.label "Pridať hviezdičku">
 <!ENTITY markStarredCmd.accesskey "h">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Je nevyžiadaná">
+<!ENTITY markAsJunkCmd.label "Správa je nevyžiadaná">
 <!ENTITY markAsJunkCmd.accesskey "r">
 <!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Nie je nevyžiadaná">
+<!ENTITY markAsNotJunkCmd.label "Správa nie je nevyžiadaná">
 <!ENTITY markAsNotJunkCmd.accesskey "n">
 <!ENTITY markAsNotJunkCmd.key "j">
 <!ENTITY recalculateJunkScoreCmd.label "Spustiť rozpoznávanie nevyžiadanej pošty">
