@@ -819,3 +819,52 @@ qr-export-select-all-accounts = Wybierz wszystkie
 qr-export-security-legend = Bezpieczeństwo
 qr-export-include-passwords = W tym wszystkie hasła do kont
 qr-export-oauth-warning = Część kont używa metody uwierzytelniania, która może wymagać ponownego uwierzytelnienia na telefonie. Podczas tego procesu może być konieczne ponowne wpisanie haseł.
+qr-export-security-hint = Po zeskanowaniu poniższych kodów QR ustawienia kont — w tym adresy e-mail i hasła — zostaną bezpiecznie przesłane. Nie zbieramy, nie przechowujemy ani nie udostępniamy żadnych z tych danych w trakcie procesu. Przesyłanie odbywa się bezpośrednio między urządzeniami użytkownika.
+qr-export-security-warning = Ze względów bezpieczeństwa upewnij się, że robisz to w prywatnym otoczeniu i skanujesz kody QR wyłącznie ze sprawdzonych źródeł.
+qr-export-start-export = Eksportuj
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } z { $count } kodu QR
+        [few] { $step } z { $count } kodów QR
+       *[many] { $step } z { $count } kodów QR
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Zeskanuj kod QR za pomocą { -brand-product-name(case: "gen") } na telefonie
+       *[other] Zeskanuj kody QR za pomocą { -brand-product-name(case: "gen") } na telefonie
+    }
+qr-export-scan-step1 = Otwórz { -brand-product-name(case: "acc") } na telefonie
+qr-export-scan-step2 = Przejdź do ustawień
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Wybierz <strong>Importuj ustawienia</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Stuknij <strong>Zeskanuj kod QR</strong> i przyłóż telefon do tego kodu
+qr-export-back = Wstecz
+qr-export-next = Dalej
+qr-export-done = Gotowe
+qr-export-summary-description = Wyeksportowano konta. Kontynuuj na telefonie.
+qr-export-summary-title = Podsumowanie eksportowania:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] Wygenerowano { $count } kod QR
+        [few] Wygenerowano { $count } kody QR
+       *[many] Wygenerowano { $count } kodów QR
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] Wyeksportowano { $count } konto:
+        [few] Wyeksportowano { $count } konta:
+       *[many] Wyeksportowano { $count } kont:
+    }
+qr-export-summary-passwords-included = W tym hasła
+qr-export-summary-passwords-excluded = Bez haseł
+qr-export-more-accounts = Eksportuj więcej kont
