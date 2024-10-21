@@ -40,7 +40,6 @@ account-hub-sync-button = Iniciar sessão para sincronizar…
 
 ## Email page
 
-account-hub-email-title = Configurar a sua conta de e-mail
 account-hub-add-email-title = Adicionar a sua conta
 account-hub-manually-configure-email-title = Definir configuração da conta
 account-hub-email-cancel-button = Cancelar
@@ -79,6 +78,8 @@ account-hub-auth-no-authentication-option =
     .label = Sem Autenticação
 account-hub-auth-label = Método de autenticação
 account-hub-username-label = Nome de utilizador
+account-hub-name-label = Nome completo
+    .accesskey = N
 account-hub-adding-account-title = Adicionar conta
 account-hub-adding-account-subheader = A testar novamente as definições de configuração da conta
 account-hub-lookup-email-configuration-title = A procurar por configuração
