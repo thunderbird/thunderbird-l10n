@@ -348,7 +348,7 @@ repair-text-encoding-button =
 no-reply-title = Відповідь не підтримується
 # Variables:
 # $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
-no-reply-message = Схоже що не відбувається спостереження за адресою відповіді ({ $email }). Швидше за все ніхто не прочитає повідомлення за цією адресою.
+no-reply-message = Схоже, що адреса відповіді { $email } не перевіряється. Повідомлення, надіслані на цю адресу, швидше за все ніхто не прочитає.
 no-reply-reply-anyway-button = Все одно відровісти
 
 ## error messages
