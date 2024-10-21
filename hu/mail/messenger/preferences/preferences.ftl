@@ -818,6 +818,7 @@ qr-export-accounts-legend = Levelezőfiókok
 qr-export-select-all-accounts = Összes kijelölése
 qr-export-security-legend = Biztonság
 qr-export-include-passwords = Tartalmazza az összes fiókjelszót
+qr-export-oauth-warning = Egyes fiókok olyan hitelesítési módszert használnak, amely újrahitelesítést igényelhet a mobileszközén. Lehet, hogy újra meg kell adnia a jelszavait a folyamat során.
 qr-export-security-hint = A következő QR-kódok beolvasásával a fiókbeállítások – beleértve az e-mail-címét és a jelszavát – biztonságosan át lesznek víve. A folyamat során nem gyűjtjük, tároljuk és osztjuk meg ezeket az adatokat. Az átvitel közvetlenül az eszközei között történik.
 qr-export-security-warning = A biztonsága érdekében győződjön meg arról, hogy privát környezetben van, és csak megbízható forrásokból származó QR-kódokat olvas le.
 qr-export-start-export = Exportálás
