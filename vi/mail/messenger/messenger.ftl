@@ -202,6 +202,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Đánh dấu là thư rác
     .tooltiptext = Đánh dấu là thư rác
+context-menu-mark-not-junk =
+    .aria-label = Đánh dấu không phải thư rác
+    .tooltiptext = Đánh dấu không phải thư rác
 mail-context-menu-open =
     .label = Mở
     .accesskey = O
@@ -230,21 +233,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Hủy thư
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-           *[other] Xóa các thư đã chọn
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Không xóa thư
-           *[other] Không xóa thư đã chọn
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
