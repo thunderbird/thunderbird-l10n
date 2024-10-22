@@ -6,3 +6,9 @@ calendar-recurrence-preview-label = Visão prévia
 calendar-recurrence-next = Próximo mês
 calendar-recurrence-previous = Mês anterior
 calendar-recurrence-today = Hoje
+# LOCALIZATION NOTE (event-recurrence-monthly-last-day-label):
+# Edit dialog recurrence -> Monthly Recurrence pattern -> Monthly daypicker
+# The label on the monthly daypicker's last button that allows to select
+# the last day of the month inside a BYMONTHDAY rule.
+event-recurrence-monthly-last-day-label =
+    .label = Último dia
