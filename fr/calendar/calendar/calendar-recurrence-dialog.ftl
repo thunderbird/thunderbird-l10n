@@ -6,6 +6,13 @@ calendar-recurrence-preview-label = Aperçu
 calendar-recurrence-next = Mois suivant
 calendar-recurrence-previous = Mois précédent
 calendar-recurrence-today = Aujourd’hui
+# Recurrence Dialog Widget Order
+# LOCALIZATION NOTE (monthly-order): Don't translate, Make sure there are no extra
+# words in this property, just variables. You can change the order of below params
+# Edit recurrence window -> Recurrence pattern -> Repeat monthly
+# $ordinal - ordinal with article, $day - weekday
+# e.g. "the First Saturday"
+monthly-order = { $ordinal } { $day }
 # LOCALIZATION NOTE (yearly-order-day): Don't translate, Make sure there are no extra
 # words in this property, just variables. If you don't need $article in your locale
 # please put this on the third place.
