@@ -6,3 +6,30 @@ calendar-recurrence-preview-label = แสดงตัวอย่าง
 calendar-recurrence-next = เดือนหน้า
 calendar-recurrence-previous = เดือนที่แล้ว
 calendar-recurrence-today = วันนี้
+# Recurrence Dialog Widget Order
+# LOCALIZATION NOTE (monthly-order): Don't translate, Make sure there are no extra
+# words in this property, just variables. You can change the order of below params
+# Edit recurrence window -> Recurrence pattern -> Repeat monthly
+# $ordinal - ordinal with article, $day - weekday
+# e.g. "the First Saturday"
+monthly-order = { $day } { $ordinal }
+# LOCALIZATION NOTE (yearly-order-day): Don't translate, Make sure there are no extra
+# words in this property, just variables. If you don't need $article in your locale
+# please put this on the third place.
+# Edit recurrence window -> Recurrence pattern -> Repeat yearly
+# $day - day of month, $article - of, $month - month
+# e.g. "6 [of] September"
+yearly-order-day = { $day } { $article } { $month }
+# LOCALIZATION NOTE (yearly-order-day): Don't translate, Make sure there are no extra
+# words in this property, just variables. If you don't need $article in your locale
+# please put this on the third place.
+# Edit recurrence window -> Recurrence pattern -> Repeat yearly
+# $ordinal - ordinal with article, $day - weekday, $article  - of, $month - month
+# e.g. "the First Saturday of September"
+yearly-order-ordinal = { $day } { $ordinal } { $article } { $month }
+# LOCALIZATION NOTE (event-recurrence-monthly-last-day-label):
+# Edit dialog recurrence -> Monthly Recurrence pattern -> Monthly daypicker
+# The label on the monthly daypicker's last button that allows to select
+# the last day of the month inside a BYMONTHDAY rule.
+event-recurrence-monthly-last-day-label =
+    .label = วันสุดท้าย
