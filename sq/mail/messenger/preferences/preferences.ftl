@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Njëkohësim
 category-sync =
     .tooltiptext = Njëkohësim
+pane-qr-export-title = Eksportoji për Celular
+category-qr-export =
+    .tooltiptext = Eksportojini për Celular
 general-language-and-appearance-header = Gjuhë & Dukje
 general-incoming-mail-header = Email-e Ardhëse
 general-files-and-attachment-header = Kartela & Bashkëngjitje
@@ -805,6 +808,24 @@ sync-disconnected-turn-on-sync = Aktivizoni Njëkohësimin…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Eksportoni llogari për { -brand-product-name } për Celular
+qr-export-get-app = S’e keni ende { -brand-product-name } në celular? <a data-l10n-name="app-link">Merreni që nga Google Play</a>
+qr-export-create = Krijoni një kod QR për të eksportuar llogaritë tuaja
+qr-export-select-accounts = Përzgjidhni cilat llogari të eksportohen:
+qr-export-accounts-legend = Llogari email
+qr-export-select-all-accounts = Përzgjidhi krejt
+qr-export-security-legend = Siguri
+qr-export-include-passwords = Përfshi krejt fjalëkalimet e llogarive
+qr-export-start-export = Eksportim
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } nga { $count } kod QR gjithsej
+       *[other] { $step } nga { $count } kode QR gjithsej
+    }
+qr-export-scan-step2 = Shko te rregullimet
 qr-export-back = Mbrapsht
 qr-export-next = Pasuesi
 qr-export-done = U bë

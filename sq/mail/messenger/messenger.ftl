@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Vëri shenjë si i Pavlerë
     .tooltiptext = Vërini shenjë si i Pavlerë
+context-menu-mark-not-junk =
+    .aria-label = Vëri shenjë si jo i Pavlerë
+    .tooltiptext = Vërini shenjë si jo i Pavlerë
 mail-context-menu-open =
     .label = Hape
     .accesskey = H
@@ -238,22 +241,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Anuloje Mesazhin
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Fshije mesazhin
-           *[other] Fshi mesazhet e përzgjedhur
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Çfshije Mesazhin
-           *[other] Çfshiji Mesazhet e Përzgjedhur
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
