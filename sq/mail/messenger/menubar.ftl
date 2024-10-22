@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Shtesa dhe Tema
     .accesskey = S
+menu-export-for-mobile =
+    .label = Eksportojini për Celular…
+    .accesskey = C
 
 ## Help Menu
 
@@ -23,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Merrni ndihmë
     .accesskey = N
-menu-help-explore-features =
-    .label = Eksploroni Veçori
-    .accesskey = E
 menu-help-get-release-help =
     .label = Merrni Ndihmë për { -brand-short-name }
     .accesskey = R

@@ -397,8 +397,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Me lëvizjen ose fshirjen mbylle dritaren /skedën e mesazhit
     .accesskey = m
-display-name-label =
-    .value = Emër në ekran:
 address-display-legend = Listë Mesazhesh
 address-display-description = Format i parapëlqyer shfaqjeje adresash:
 address-display-full =
@@ -590,9 +588,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Gjendeni nën mënyrën FIPS. FIPS lyp një Fjalëkalim të Përgjithshëm jo të zbrazët.
 forms-master-pw-fips-desc = Ndryshimi i Fjalëkalimit Dështoi
 junk-description = Caktoni rregullimet tuaja parazgjedhje për postën e pavlerë. Rregullimet për postë të pavlerë, sipas llogarish të veçanta, mund të formësohen te Rregullime Llogarish.
-junk-label =
-    .label = Kur shënoj mesazhe si të pavlera:
-    .accesskey = K
 junk-marked-label =
     .label = Kur mesazheve u vihet shenjë si hedhurinë:
     .accesskey = K
@@ -602,9 +597,6 @@ junk-move-label =
 junk-delete-label =
     .label = Fshiji
     .accesskey = F
-junk-read-label =
-    .label = Mesazhet, për të cilat është përcaktuar se janë Të pavlera, shënoji si të lexuar
-    .accesskey = M
 junk-read-description = Vëru shenjë mesazheve si të lexuar
 junk-read-manual-label =
     .label = Kur u vihet shenjë dorazi si hedhurinë
@@ -810,3 +802,28 @@ synced-acount-item-filters = Filtra
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Njëkohësoni llogaritë tuaja email, libra adresash, kalendarë dhe identitete nëpër krejt pajisjet tuaja.
 sync-disconnected-turn-on-sync = Aktivizoni Njëkohësimin…
+
+## Mobile QR Export Pane
+
+qr-export-back = Mbrapsht
+qr-export-next = Pasuesi
+qr-export-done = U bë
+qr-export-summary-description = Llogaritë u eksportuan. Vazhdoni te pajisja juaj celulare.
+qr-export-summary-title = Përmbledhje eksportimi:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] U prodhua { $count } kod QR
+       *[other] U prodhuan { $count } kode QR
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] U eksportua { $count } llogari:
+       *[other] U eksportuan { $count } llogari:
+    }
+qr-export-summary-passwords-included = Me përfshirje fjalëkalimesh
+qr-export-summary-passwords-excluded = Pa përfshirë fjalëkalime
+qr-export-more-accounts = Eksportoni më tepër llogari
