@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Markatu zabor gisa
     .tooltiptext = Markatu zabor gisa
+context-menu-mark-not-junk =
+    .aria-label = Markatu ez dela zaborra
+    .tooltiptext = Markatu ez dela zaborra
 mail-context-menu-open =
     .label = Ireki
     .accesskey = I
@@ -238,22 +241,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Utzi mezua
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Ezabatu mezua
-           *[other] Ezabatu hautatutako mezuak
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Desezabatu mezua
-           *[other] Desezabatu hautatutako mezuak
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
