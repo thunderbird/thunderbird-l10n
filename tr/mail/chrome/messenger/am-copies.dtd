@@ -27,7 +27,7 @@
 <!ENTITY sentInOtherFolder.accesskey "D">
 <!-- LOCALIZATION NOTE (archivesFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY archivesTitle.label "İleti arşivleri">
-<!ENTITY keepArchives.label "İleti arşivlerinin tutulacağı yer:">
+<!ENTITY keepArchives.label "İleti arşivlerini burada tut:">
 <!ENTITY keepArchives.accesskey "r">
 <!ENTITY archiveHierarchyButton.label "Arşivleme seçenekleri...">
 <!ENTITY archiveHierarchyButton.accesskey "A">
@@ -36,13 +36,13 @@
 <!ENTITY archiveInOtherFolder.label "Diğer:">
 <!ENTITY archiveInOtherFolder.accesskey "i">
 <!ENTITY specialFolders.label "Taslaklar ve şablonlar">
-<!ENTITY keepDrafts2.label "Taslak iletilerin tutulacağı yer:">
+<!ENTITY keepDrafts2.label "Taslak iletileri burada tut:">
 <!-- LOCALIZATION NOTE (draftsFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY draftsFolderOn.label "&quot;Taslaklar&quot; klasörü:">
 <!ENTITY draftsFolderOn.accesskey "T">
 <!ENTITY draftInOtherFolder.label "Diğer:">
 <!ENTITY draftInOtherFolder.accesskey "D">
-<!ENTITY keepTemplates.label "İleti şablonlarının tutulacağı yer:">
+<!ENTITY keepTemplates.label "İleti şablonlarını burada tut:">
 <!-- LOCALIZATION NOTE (templatesFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY templatesFolderOn.label "&quot;Şablonlar&quot; klasörü:">
 <!ENTITY templatesFolderOn.accesskey "o">
