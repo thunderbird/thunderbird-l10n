@@ -397,8 +397,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Жылжыту немесе өшіру кезінде хабарлама терезесін/бетін жабу
     .accesskey = ж
-display-name-label =
-    .value = Көрсетілетін аты:
 address-display-legend = Хабарламалар тізімі
 address-display-description = Адресті көрсетудің таңдаулы пішімі:
 address-display-full =
@@ -590,9 +588,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Сіз FIPS-ке сәйкестеу режимінде жұмыс істеп отырсыз. Бұл режим бос емес басты парольді талап етеді.
 forms-master-pw-fips-desc = Парольді өзгерту сәтсіз аяқталды
 junk-description = Бастапқы спам баптауларын орнатыңыз. Тіркелгілердің спам баптаулары Тіркелгі баптауларында өзгертуге болады.
-junk-label =
-    .label = Мен хабарламаларды қоқыс ретінде белгілеген кезде:
-    .accesskey = з
 junk-marked-label =
     .label = Хабарлама спам ретінде белгіленген кезде:
     .accesskey = к
@@ -602,9 +597,6 @@ junk-move-label =
 junk-delete-label =
     .label = Оларды өшіру
     .accesskey = ш
-junk-read-label =
-    .label = Қоқыс ретінде анықталған хабарламаларды оқылған ретінде белгілеу
-    .accesskey = б
 junk-read-description = Хабарламаларды оқылған ретінде белгілеу
 junk-read-manual-label =
     .label = Спам ретінде қолмен белгіленген кезде
@@ -813,6 +805,7 @@ sync-disconnected-turn-on-sync = Синхрондауды іске қосу…
 
 ## Mobile QR Export Pane
 
+qr-export-create = Тіркелгілеріңізді экспорттау үшін QR кодын жасау
 qr-export-accounts-legend = Эл. пошта тіркелгілері
 qr-export-select-all-accounts = Барлығын таңдау
 qr-export-security-legend = Қауіпсіздік
