@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Marcar sco nungiavischà
     .tooltiptext = Marcar sco nungiavischà
+context-menu-mark-not-junk =
+    .aria-label = Marcar sco betg nungiavischà
+    .tooltiptext = Marcar sco betg nungiavischà
 mail-context-menu-open =
     .label = Avrir
     .accesskey = A
@@ -238,22 +241,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Sbittar il messadi
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Stizzar il messadi
-           *[other] Stizzar ils messadis tschernids
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Restaurar il messadi
-           *[other] Restaurar ils messadis marcads
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =

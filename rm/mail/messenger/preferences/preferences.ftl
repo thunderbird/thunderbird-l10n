@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sync
 category-sync =
     .tooltiptext = Sync
+pane-qr-export-title = Exportar per in apparat mobil
+category-qr-export =
+    .tooltiptext = Exportar per in apparat mobil
 general-language-and-appearance-header = Lingua & apparientscha
 general-incoming-mail-header = E-mails che entran
 general-files-and-attachment-header = Datotecas & agiuntas
@@ -805,3 +808,60 @@ sync-disconnected-turn-on-sync = Activar la sincronisaziun…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Exportar ils contos en { -brand-product-name } Mobile
+qr-export-description = Transferescha sveltamain ils parameters da tes conto dal computer desktop sin l’apparat mobil cun generar in code QR. Tscherna tge contos includer, decida sche ti vuls transferir tes pled-clav e scannescha il code cun tes apparat mobil. Svelt, segir e simpel.
+qr-export-get-app = N’has ti anc betg { -brand-product-name } sin tes apparat mobil? <a data-l10n-name="app-link">Va per l’app en Google Play</a>
+qr-export-create = Creescha in code QR per exportar tes contos
+qr-export-select-accounts = Tscherna ils contos per exportar:
+qr-export-no-accounts = Na vesas ti betg tut tes contos? Tscherts contos èn eventualmain deactivads perquai ch’els na vegnan betg sustegnids da { -brand-product-name } per Android. <a data-l10n-name="account-support-link">Agid</a>
+qr-export-accounts-legend = Contos dad e-mail
+qr-export-select-all-accounts = Selecziunar tut
+qr-export-security-legend = Segirezza
+qr-export-include-passwords = Includer ils pleds-clav da tut ils contos
+qr-export-oauth-warning = Tscherts da tes contos utiliseschan ina metoda d’autentificaziun che pretenda eventualmain che ti t’autentifitgeschias danovamain sin tes apparat mobil. Ti stos probablamain endatar anc ina giada tes pleds-clav durant quest process.
+qr-export-security-hint = Cun scannar ils suandants codes QR vegnan tes parameters dal conto – inclus tia adressa dad e-mail ed il pled-clav – transferids a moda segira. Nus ni rimnain ni memorisain ni arcunain questas datas durant il process. Il transfer succeda directamain tranter tes apparats.
+qr-export-security-warning = Per tia segirezza, t’atschertescha che ti ta chattas en in conturn privat e scannescha mo codes QR da funtaunas fidadas.
+qr-export-start-export = Exportar
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } dad { $count } code QR
+       *[other] { $step } da { $count } codes QR
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Scannescha il code QR cun { -brand-product-name } sin tes apparat mobil
+       *[other] Scannescha ils codes QR cun { -brand-product-name } sin tes apparat mobil
+    }
+qr-export-scan-step1 = Avra { -brand-product-name } sin tes apparat mobil
+qr-export-scan-step2 = Acceda als parameters
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Tscherna <strong>Importar parameters</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Smatga sin <strong>Scannar in code QR</strong> e tegna tes telefonin sur quest code
+qr-export-back = Enavos
+qr-export-next = Enavant
+qr-export-done = Finì
+qr-export-summary-description = Exportà ils contos. Cuntinuescha sin tes apparat mobil.
+qr-export-summary-title = Resumaziun da l’export:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] Generà { $count } code QR
+       *[other] Generà { $count } codes QR
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] Exportà { $count } conto:
+       *[other] Exportà { $count } contos:
+    }
+qr-export-summary-passwords-included = Cun pleds-clav
+qr-export-summary-passwords-excluded = Senza pleds-clav
+qr-export-more-accounts = Exportar ulteriurs contos

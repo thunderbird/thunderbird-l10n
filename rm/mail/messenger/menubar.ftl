@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Supplements e designs
     .accesskey = S
+menu-export-for-mobile =
+    .label = Exportar per in apparat mobil…
+    .accesskey = p
 
 ## Help Menu
 
@@ -23,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Ir per agid
     .accesskey = p
-menu-help-explore-features =
-    .label = Scuvrir las funcziuns
-    .accesskey = f
 menu-help-get-release-help =
     .label = Retschaiver agid per { -brand-short-name }
     .accesskey = R
