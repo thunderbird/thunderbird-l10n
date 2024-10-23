@@ -202,6 +202,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Спам ретінде белгілеу
     .tooltiptext = Спам ретінде белгілеу
+context-menu-mark-not-junk =
+    .aria-label = Спам емес ретінде белгілеу
+    .tooltiptext = Спам емес ретінде белгілеу
 mail-context-menu-open =
     .label = Ашу
     .accesskey = А
@@ -237,21 +240,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Хабарламаны болдырмау
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-           *[other] Таңдалған хабарламаларды өшіру
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Хабарламаны өшіруді болдырмау
-           *[other] Таңдалған хабарламалар өшіруін болдырмау
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =

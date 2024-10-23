@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Синхрондау
 category-sync =
     .tooltiptext = Синхрондау
+pane-qr-export-title = Мобильді үшін экспорттау
+category-qr-export =
+    .tooltiptext = Мобильді үшін экспорттау
 general-language-and-appearance-header = Тіл және сыртқы түрі
 general-incoming-mail-header = Кіріс хабарламалар
 general-files-and-attachment-header = Файлдар және салынымдар
@@ -805,10 +808,32 @@ sync-disconnected-turn-on-sync = Синхрондауды іске қосу…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Тіркелгілерді мобильді { -brand-product-name } қолданбасына экспорттау
+qr-export-description = QR кодын жасау арқылы тіркелгі параметрлерін жұмыс үстелінен мобильді құрылғыға жылдам тасымалдаңыз. Тасымалданатын тіркелгілерді таңдап, парольді тасымалдағыңыз келетін-келмейтінін шешіңіз және мобильді құрылғыңызбен кодты сканерлеңіз. Жылдам, қауіпсіз және қарапайым.
+qr-export-get-app = Мобильді құрылғыңызда әлі { -brand-product-name } жоқ па? <a data-l10n-name="app-link">Оны Google Play ішінен жүктеп алыңыз</a>
 qr-export-create = Тіркелгілеріңізді экспорттау үшін QR кодын жасау
+qr-export-select-accounts = Экспортталатын тіркелгілерді таңдаңыз:
 qr-export-accounts-legend = Эл. пошта тіркелгілері
 qr-export-select-all-accounts = Барлығын таңдау
 qr-export-security-legend = Қауіпсіздік
+qr-export-start-export = Экспорттау
 qr-export-back = Артқа
 qr-export-next = Келесі
 qr-export-done = Дайын
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR код генерацияланды
+       *[other] { $count } QR код генерацияланды
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } тіркелгі экспортталды:
+       *[other] { $count } тіркелгі экспортталды:
+    }
+qr-export-summary-passwords-included = Парольдермен қоса
+qr-export-summary-passwords-excluded = Парольдерсіз
+qr-export-more-accounts = Көбірек тіркелгілерді экспорттау

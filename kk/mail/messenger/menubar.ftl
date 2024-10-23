@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Қосымшалар және темалар
     .accesskey = е
+menu-export-for-mobile =
+    .label = Мобильді үшін экспорттау…
+    .accesskey = п
 
 ## Help Menu
 
@@ -23,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Көмек алу
     .accesskey = л
-menu-help-explore-features =
-    .label = Мүмкіндіктерді зерттеу
-    .accesskey = М
 menu-help-get-release-help =
     .label = { -brand-short-name } бойынша көмек алу
     .accesskey = н
