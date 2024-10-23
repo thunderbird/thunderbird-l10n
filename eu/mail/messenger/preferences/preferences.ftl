@@ -813,7 +813,55 @@ qr-export-description = Bizkor transferitu zure kontuaren ezarpenak mahaigaineti
 qr-export-get-app = Ez duzu { -brand-product-name } mugikorrean oraindik? <a data-l10n-name="app-link">Lortu Google Playen</a>
 qr-export-create = Sortu QR kode bat zure kontuak esportatzeko
 qr-export-select-accounts = Hautatu zein kontu esportatu nahi dituzun:
+qr-export-no-accounts = Ez dituzu zure kontu guztiak ikusten? Baliteke kontu batzuk desgaituta egotea Androidek { -brand-product-name } onartzen ez duelako. <a data-l10n-name="account-support-link">Laguntza</a>
 qr-export-accounts-legend = Posta elektroniko kontuak
 qr-export-select-all-accounts = Hautatu dena
 qr-export-security-legend = Segurtasuna
+qr-export-include-passwords = Sartu kontu guztien pasahitzak
+qr-export-oauth-warning = Zure kontuetako batzuek autentifikazio-metodo bat erabiltzen dute, eta baliteke zure gailu mugikorrean berriro autentifikazioa behar izatea. Baliteke zure pasahitzak berriro sartu behar izatea prozesu honetan zehar.
+qr-export-security-hint = Ondoko QR kodeak eskaneatzen dituzunean, zure kontuaren ezarpenak  —zure posta elektronikoa eta pasahitza barne— modu seguruan transferituko dira. Prozesuan zehar ez dugu datu horiek biltzen, gordetzen edo partekatzen. Transferentzia zuzenean zure gailuen artean gertatzen da.
+qr-export-security-warning = Zure segurtasunerako, ziurtatu ezarpen pribatu batean zaudela eta iturri fidagarrietako QR kodeak soilik eskaneatu.
 qr-export-start-export = Esportatu
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $count } QR kodetik { $step }
+       *[other] { $count } QR kodetik { $step }
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Eskaneatu QR kodea { -brand-product-name }rekin zure gailu mugikorrean
+       *[other] Eskaneatu QR kodeak { -brand-product-name }rekin zure gailu mugikorrean
+    }
+qr-export-scan-step1 = Ireki { -brand-product-name } zure gailu mugikorrean
+qr-export-scan-step2 = Joan ezarpenetara
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Hautatu <strong>Ezarpenak inportatu</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Sakatu <strong>Eskaneatu QR kodea</strong> eta eutsi telefonoa kode honen gainean
+qr-export-back = Atzera
+qr-export-next = Hurrengoa
+qr-export-done = Eginda
+qr-export-summary-description = Kontuak esportatuta. Jarraitu zure gailu mugikorrean.
+qr-export-summary-title = Esportazioaren laburpena:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR kodea sortua
+       *[other] { $count } QR kodeak sortuta
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] Kontu { $count } esportatuta:
+       *[other] { $count } kontu esportatua:
+    }
+qr-export-summary-passwords-included = Pasahitzak barne
+qr-export-summary-passwords-excluded = Pasahitzak baztertuta
+qr-export-more-accounts = Esportatu kontu gehiago
