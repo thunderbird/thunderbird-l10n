@@ -816,7 +816,7 @@ qr-export-get-app = 移动设备上未安装 { -brand-product-name }？<a data-l
 qr-export-create = 创建二维码以导出账户
 qr-export-select-accounts = 选择要导出的账户：
 qr-export-no-accounts = 有账户未显示在此？相关账户可能未受 Android 版 { -brand-product-name } 支持，因此无法选择。<a data-l10n-name="account-support-link">技术支持</a>
-qr-export-accounts-legend = 邮箱账号
+qr-export-accounts-legend = 邮箱账户
 qr-export-select-all-accounts = 全选
 qr-export-security-legend = 安全性
 qr-export-include-passwords = 一并传输所有账户的密码
