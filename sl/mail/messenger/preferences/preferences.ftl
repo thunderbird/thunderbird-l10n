@@ -831,6 +831,10 @@ qr-export-scan-progress =
     }
 qr-export-scan-step1 = Odprite { -brand-product-name(sklon: "tozilnik") } na svoji mobilni napravi
 qr-export-scan-step2 = Pojdi v nastavitve
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Izberite <strong>Uvozi nastavitve</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Tapnite <strong>Skeniraj kodo QR</strong> in pridržite telefon nad to kodo
 qr-export-back = Nazaj
 qr-export-next = Naprej
 qr-export-done = Končano
@@ -845,3 +849,15 @@ qr-export-summary-qr-count =
         [few] { $count } ustvarjene kode QR
        *[other] { $count } ustvarjenih kod QR
     }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } izvožen račun:
+        [two] { $count } izvožena računa:
+        [few] { $count } izvoženi računi:
+       *[other] { $count } izvoženih računov:
+    }
+qr-export-summary-passwords-included = Vključno z gesli
+qr-export-summary-passwords-excluded = Izvzemši gesla
+qr-export-more-accounts = Izvozi več računov
