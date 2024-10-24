@@ -28,17 +28,16 @@ button-finish = Fak
 app-name-thunderbird = Thunderbird
 app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook
-app-name-becky = Becky! Internet Mail
 app-name-apple-mail = Apple Mail
 source-seamonkey = Kter seg usbeddi { app-name-seamonkey }
 source-outlook = Kter seg { app-name-outlook }
-source-becky = Kter seg { app-name-becky }
 source-apple-mail = Kter seg { app-name-apple-mail }
 source-apple-mail-description = Kter iznanseg{ app-name-apple-mail }.
 source-file2 = Kter-d seg ufaylu
 
 ## Import from file selections
 
+file-profile2 = Kter amaɣnu i yettwaḥerzen
 file-calendar = Kter iwitayen
 file-addressbook = Kter imedlisen n tansiwin
 
@@ -47,12 +46,10 @@ file-addressbook = Kter imedlisen n tansiwin
 from-app-thunderbird = Kter seg umaɣnu { app-name-thunderbird }
 from-app-seamonkey = Kter seg umaɣnu { app-name-seamonkey }
 from-app-outlook = Kter seg { app-name-outlook }
-from-app-becky = Kter seg { app-name-becky }
 from-app-apple-mail = Kter seg { app-name-apple-mail }
 profiles-pane-title-thunderbird = Kter iɣewwaren d yisefka seg umaɣnu { app-name-thunderbird }.
 profiles-pane-title-seamonkey = Kter iɣewwaren d yisefka seg umaɣnu { app-name-seamonkey }.
 profiles-pane-title-outlook = Kter isefka seg { app-name-outlook }.
-profiles-pane-title-becky = Kter isefka seg { app-name-becky }
 profiles-pane-title-apple-mail = Kter iznan seg { app-name-apple-mail }
 profile-source = Kter-d seg umaɣnu
 # $profileName (string) - name of the profile
@@ -79,17 +76,23 @@ addr-book-mab-file = Afaylu n taffa n yisefka s umasal Mork (.mab)
 addr-book-file-picker = Fren afaylu n yimedlis n tensa
 addr-book-csv-field-map-title = Semṣadi gar yismawen n wurti
 addr-book-csv-field-map-desc = Fren urtiyen n umedlis n tansiwin yemṣaddan d wurtiyen iɣbual. Kkes aṛcam i wurtiyen ur tebɣiḍ ara ad d-tketreḍ.
+addr-book-directories-title = Fren aniɣer ara d-tketreḍ isefka i yettwafernen
 addr-book-directories-pane-source = Afaylu aɣbalu:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Rnu akaram amaynut s yisem <strong>"{ $addressBookName }"</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Fren isefka i yettwafernen deg ukaram "{ $addressBookName }"
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = Adlis n tansiwin amaynut s yisem "{ $addressBookName }" ad yettwarnu.
 
 ## Import from calendar file steps
 
 import-from-calendar-file-desc = Fren afaylu iCalendar (.ics) i tebɣiḍ ad d-tketreḍ.
 calendar-items-title = Fren iferdisen ara yettwaktaren.
 calendar-items-loading = Asali n yiferdisen...
-calendar-items-filter-input =
-    .placeholder = Iferdisen n imsizdig…
 calendar-select-all-items = Fren akk
 calendar-deselect-all-items = Kkes akk afran
+calendar-target-title = Fren aniɣer ara d-tketreḍ iferdisen i yettwafernen
 
 ## Import dialog
 

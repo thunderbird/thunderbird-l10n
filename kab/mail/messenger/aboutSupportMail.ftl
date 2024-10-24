@@ -16,6 +16,7 @@ accounts-default = Amezwer?
 identity-name = Tamagit
 send-via-email = Azen s yimayl
 app-basics-telemetry = Isefka n tilisɣelt
+app-basics-glean = Glean Data
 app-basics-cache-use = Aseqdec n tkatut
 mail-libs-title = Timkerḍiyin
 libs-table-heading-library = Tamkarḍit

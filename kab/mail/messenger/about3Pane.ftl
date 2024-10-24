@@ -29,6 +29,10 @@ thread-pane-header-context-cards-view =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Eǧǧ imzizdigen ttwasensen ticki tettbeddiled gar ikaramen
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Umuɣ imsizdeg arurad
 quick-filter-bar-dropdown-unread =
     .label = Ur ittwaɣṛi ara
 quick-filter-bar-dropdown-starred =
@@ -89,21 +93,10 @@ quick-filter-bar-results =
         [one] { $count } izen
        *[other] { $count } iznan
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Zizdeg iznan agis <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Sizdeg iznan
+quick-filter-bar-searching =
+    .title = Anadi…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -111,6 +104,10 @@ quick-filter-bar-search-shortcut =
         [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
        *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
     }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Sizdeg iznan… { quick-filter-bar-search-shortcut }
 # Label of the search button in the quick filter bar text box. Clicking it will
 # launch a global search.
 quick-filter-bar-search-button =
@@ -167,11 +164,16 @@ folder-pane-more-menu-button =
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Iskaren n ukaram
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Sken “Kkes-d iznan”
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Sken “Izen amaynut”
 folder-pane-header-context-hide =
     .label = Ffer aqerru n ugalis n yifuyla
+folder-pane-show-total-toggle =
+    .label = Sken amḍan asemday n yiznan
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Sken teɣzi n ufaylu
@@ -193,6 +195,13 @@ folder-pane-unread-aria-label =
         [one] { $count } n yizen ur nettwaɣra ara
        *[other] { $count } n yiznan ur nettwaɣra ara
     }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 usemday n yizen
+       *[other] { $count } asemday n yiznan
+    }
 
 ## Message thread pane
 
@@ -200,6 +209,8 @@ threadpane-column-header-select =
     .title = Fren/kkes afran n yiznan
 threadpane-column-header-select-all =
     .title = Fren akk iznan
+threadpane-column-header-deselect-all =
+    .title = Kkes afran i meṛṛa iznan
 threadpane-column-label-select =
     .label = Fren iznan
 threadpane-cell-select =
@@ -220,6 +231,8 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = Ticeqqufin yeddan
 threadpane-attachments-cell-label = Ticeqqufin yeddan
+threadpane-column-header-spam =
+    .title = Smizwer s waddad n uspam
 threadpane-column-label-spam =
     .label = Aspam
 threadpane-cell-spam =
@@ -235,8 +248,6 @@ threadpane-column-header-sender = Si
     .title = Asmizzwer s Si
 threadpane-column-label-sender =
     .label = Si
-threadpane-cell-sender =
-    .aria-label = Seg
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -246,8 +257,6 @@ threadpane-column-header-recipient = Anermas
     .title = Asmizzwer s unarmas
 threadpane-column-label-recipient =
     .label = Anermas
-threadpane-cell-recipient =
-    .aria-label = Anermas
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -257,8 +266,6 @@ threadpane-column-header-correspondents = Inmeɣṛa
     .title = Asmizzwer s inmeɣṛa
 threadpane-column-label-correspondents =
     .label = Inmeɣṛa
-threadpane-cell-correspondents =
-    .aria-label = Inmeɣṛa
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -268,8 +275,6 @@ threadpane-column-header-subject = Amgay
     .title = Asmizzwer s umgay
 threadpane-column-label-subject =
     .label = Amgay
-threadpane-cell-subject =
-    .aria-label = Asentel
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -279,8 +284,6 @@ threadpane-column-header-date = Azemz
     .title = Asmizzwer s wazemz
 threadpane-column-label-date =
     .label = Azemz
-threadpane-cell-date =
-    .aria-label = Azemz
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -290,8 +293,6 @@ threadpane-column-header-received = Iţwarmes
     .title = Asmizzwer s wazemz n urmas
 threadpane-column-label-received =
     .label = Iţwarmes
-threadpane-cell-received =
-    .aria-label = Azemz n tuṭṭfa
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -301,8 +302,6 @@ threadpane-column-header-status = Addad
     .title = Asmizzwer s waddad
 threadpane-column-label-status =
     .label = Addad
-threadpane-cell-status =
-    .aria-label = Addad
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -312,8 +311,6 @@ threadpane-column-header-size = Teɣzi
     .title = Asmizzwer s teɣzi
 threadpane-column-label-size =
     .label = Teɣzi
-threadpane-cell-size =
-    .aria-label = Teɣzi
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -323,8 +320,6 @@ threadpane-column-header-tags = Tabzimt
     .title = Asmizzwer s tebzimin
 threadpane-column-label-tags =
     .label = Tabzimt
-threadpane-cell-tags =
-    .aria-label = Tibzimin
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -334,8 +329,6 @@ threadpane-column-header-account = Amiḍan
     .title = Smizzéwer s umiḍan
 threadpane-column-label-account =
     .label = Amiḍan
-threadpane-cell-account =
-    .aria-label = Amiḍan
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -345,8 +338,6 @@ threadpane-column-header-priority = Tazwart
     .title = Asmizzwer s tezwart
 threadpane-column-label-priority =
     .label = Tazwart
-threadpane-cell-priority =
-    .aria-label = Tazwart
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -356,8 +347,6 @@ threadpane-column-header-unread = Ur ittwaɣṛi ara
     .title = Amḍan n yeznan ur nettwaɣri ara deg usqerdec
 threadpane-column-label-unread =
     .label = Ur ittwaɣṛi ara
-threadpane-cell-unread =
-    .aria-label = Amḍan n yiznan ur yettwaɣran ara
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -367,8 +356,6 @@ threadpane-column-header-total = Asemday
     .title = Amḍan n yeznan deg usqerdec
 threadpane-column-label-total =
     .label = Asemday
-threadpane-cell-total =
-    .aria-label = Amḍan asemday n yiznan
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -378,8 +365,6 @@ threadpane-column-header-location = Tansa
     .title = Asmizzwer s wadig
 threadpane-column-label-location =
     .label = Tansa
-threadpane-cell-location =
-    .aria-label = Adig
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -389,8 +374,6 @@ threadpane-column-header-id = Taladna tettwarmes
     .title = Asmizzwer s wazemz n urmas
 threadpane-column-label-id =
     .label = Taladna tettwarmes
-threadpane-cell-id =
-    .aria-label = Amizwer s tuṭṭfa
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =
@@ -430,6 +413,16 @@ apply-current-columns-to-folder-message = Snes tigejdan ukaram amiran i { $name 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Snes tigejdan ukaram amiran i { $name } d warraw-is?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Snes taskant n ukaram amiran i { $name } d warraw-is?
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> yizen
+       *[other] <span>{ $total }</span> yiznan
+    }
 threadpane-card-menu-button =
     .title = Umuɣ n yiznan
 
