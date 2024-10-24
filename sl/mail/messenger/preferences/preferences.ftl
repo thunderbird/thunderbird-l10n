@@ -813,6 +813,12 @@ qr-export-get-app = Še nimate { -brand-product-name(sklon: "rodilnik") } za mob
 qr-export-create = Ustvarite kodo QR za izvoz računov
 qr-export-select-accounts = Izberite, katere račune želite izvoziti:
 qr-export-no-accounts = Niso prikazani vsi računi? Nekateri računi so lahko onemogočeni, ker jih { -brand-product-name } za Android ne podpira. <a data-l10n-name="account-support-link">Podpora</a>
+qr-export-accounts-legend = E-poštni računi
+qr-export-select-all-accounts = Izberi vse
+qr-export-security-legend = Varnost
+qr-export-include-passwords = Vključi vsa gesla računov
+qr-export-oauth-warning = Nekateri izmed računov uporabljajo metodo overjanja, ki bo morda zahtevala ponovno overitev na mobilni napravi. Pri tem boste morda morali znova vnesti gesla.
+qr-export-start-export = Izvozi
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 # $step (Number) - Current step number of the QR code displayed.
@@ -822,4 +828,20 @@ qr-export-scan-progress =
         [two] { $step } od { $count } QR-kod
         [few] { $step } od { $count } QR-kod
        *[other] { $step } od { $count } QR-kod
+    }
+qr-export-scan-step1 = Odprite { -brand-product-name(sklon: "tozilnik") } na svoji mobilni napravi
+qr-export-scan-step2 = Pojdi v nastavitve
+qr-export-back = Nazaj
+qr-export-next = Naprej
+qr-export-done = Končano
+qr-export-summary-description = Računi so izvoženi. Nadaljujte na mobilni napravi.
+qr-export-summary-title = Povzetek izvoza:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } ustvarjena koda QR
+        [two] { $count } ustvarjeni kodi QR
+        [few] { $count } ustvarjene kode QR
+       *[other] { $count } ustvarjenih kod QR
     }
