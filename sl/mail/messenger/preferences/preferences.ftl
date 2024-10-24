@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sinhronizacija
 category-sync =
     .tooltiptext = Sinhronizacija
+pane-qr-export-title = Izvozi za mobilno napravo
+category-qr-export =
+    .tooltiptext = Izvozi za mobilno napravo
 general-language-and-appearance-header = Jezik in videz
 general-incoming-mail-header = Dohodna pošta
 general-files-and-attachment-header = Datoteke in priponke
@@ -397,8 +400,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Zapri okno/zavihek s sporočilom ob premikanju ali brisanju
     .accesskey = Z
-display-name-label =
-    .value = Prikazno ime:
 address-display-legend = Seznam sporočil
 address-display-description = Prednostna oblika prikaza naslova:
 address-display-full =
@@ -590,9 +591,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Trenutno ste v načinu FIPS. FIPS zahteva glavno geslo, ki ni prazno.
 forms-master-pw-fips-desc = Sprememba gesla neuspešna
 junk-description = Nastavite svoje privzete nastavitve za neželeno pošto. Nastavitve neželene pošte za posamezni račun lahko prilagodite v nastavitvah računa.
-junk-label =
-    .label = Ko označim sporočila kot neželena:
-    .accesskey = M
 junk-marked-label =
     .label = Ko so sporočila označena kot neželena:
     .accesskey = K
@@ -602,9 +600,6 @@ junk-move-label =
 junk-delete-label =
     .label = jih izbriši
     .accesskey = b
-junk-read-label =
-    .label = Označi neželena sporočila kot prebrana
-    .accesskey = O
 junk-read-description = Označi jih kot prebrana:
 junk-read-manual-label =
     .label = ko jih ročno označite kot neželena
@@ -813,6 +808,11 @@ sync-disconnected-turn-on-sync = Vklopi sinhronizacijo …
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Izvozi račune v { -brand-product-name } za mobilne naprave
+qr-export-get-app = Še nimate { -brand-product-name(sklon: "rodilnik") } za mobilne naprave? <a data-l10n-name="app-link">Prenesite ga iz trgovine Google Play</a>
+qr-export-create = Ustvarite kodo QR za izvoz računov
+qr-export-select-accounts = Izberite, katere račune želite izvoziti:
+qr-export-no-accounts = Niso prikazani vsi računi? Nekateri računi so lahko onemogočeni, ker jih { -brand-product-name } za Android ne podpira. <a data-l10n-name="account-support-link">Podpora</a>
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 # $step (Number) - Current step number of the QR code displayed.
