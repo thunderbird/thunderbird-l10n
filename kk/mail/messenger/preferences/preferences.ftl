@@ -817,9 +817,11 @@ qr-export-accounts-legend = Эл. пошта тіркелгілері
 qr-export-select-all-accounts = Барлығын таңдау
 qr-export-security-legend = Қауіпсіздік
 qr-export-start-export = Экспорттау
+qr-export-scan-step2 = Баптауларға өту
 qr-export-back = Артқа
 qr-export-next = Келесі
 qr-export-done = Дайын
+qr-export-summary-title = Экспорттаудың есептемесі:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
 qr-export-summary-qr-count =
