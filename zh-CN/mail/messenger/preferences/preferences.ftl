@@ -424,6 +424,10 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = 此实验功能基于 Gloda 运作，使用时由您自担风险
 label-experiment = 实验功能
+dark-reader-legend = 阅读器颜色
+dark-reader-checkbox-label =
+    .label = 适应深邃主题
+    .accesskey = d
 
 ## Compose Tab
 
