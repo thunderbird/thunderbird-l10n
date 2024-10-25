@@ -424,6 +424,10 @@ conversation-view-checkbox-label =
     .accesskey = R
 conversation-view-checkbox-description = Eksperimentelna funkcija, kotraž na Gloda bazuje, wužiwajće ju na swoje riziko
 label-experiment = Eksperimentelne
+dark-reader-legend = Barby čitaka
+dark-reader-checkbox-label =
+    .label = Ćmowej drasće přiměrić
+    .accesskey = m
 
 ## Compose Tab
 

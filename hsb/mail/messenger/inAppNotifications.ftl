@@ -4,3 +4,11 @@
 
 in-app-notification-close-image =
     .alt = Začinić
+# This is the label of the key typically used to generate the javascript
+# key code "KeyJ"
+-in-app-notification-accesskey = j
+in-app-notification-instructions =
+    { PLATFORM() ->
+        [macos] Tłóčće ⌥+Umsch+{ -in-app-notification-accesskey }, zo byšće k zdźělence skočił
+       *[other] Tłóčće Alt+Umsch+{ -in-app-notification-accesskey }, zo byšće k zdźělence skočił
+    }
