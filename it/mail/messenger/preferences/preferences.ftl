@@ -428,7 +428,7 @@ dark-reader-legend = Colori del lettore
 dark-reader-checkbox-label =
     .label = Adatta al tema scuro
     .accesskey = A
-dark-reader-checkbox-description = Funzionalità sperimentale per far sì che il pannello dei messaggi segua temi scuri
+dark-reader-checkbox-description = Funzionalità sperimentale per consentire al pannello dei messaggi di adattarsi ai temi scuri
 
 ## Compose Tab
 
