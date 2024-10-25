@@ -813,14 +813,40 @@ qr-export-description = QR кодын жасау арқылы тіркелгі �
 qr-export-get-app = Мобильді құрылғыңызда әлі { -brand-product-name } жоқ па? <a data-l10n-name="app-link">Оны Google Play ішінен жүктеп алыңыз</a>
 qr-export-create = Тіркелгілеріңізді экспорттау үшін QR кодын жасау
 qr-export-select-accounts = Экспортталатын тіркелгілерді таңдаңыз:
+qr-export-no-accounts = Тіркелгілеріңіздің барлығын бірдей көрмейсіз бе? Кейбір тіркелгілер Android үшін { -brand-product-name } қолдау көрсетпейтіндіктен сөндірілген болуы мүмкін. <a data-l10n-name="account-support-link">Қолдау</a>
 qr-export-accounts-legend = Эл. пошта тіркелгілері
 qr-export-select-all-accounts = Барлығын таңдау
 qr-export-security-legend = Қауіпсіздік
+qr-export-include-passwords = Барлық тіркелгілер парольдерін қосу
+qr-export-oauth-warning = Кейбір тіркелгілеріңіз мобильді құрылғыда қайта аутентификацияны қажет етуі мүмкін аутентификация әдісін пайдаланады. Бұл процесс барысында парольдерді қайта енгізу қажет болуы мүмкін.
+qr-export-security-hint = Келесі QR кодтарын сканерлеу арқылы тіркелгі параметрлері, соның ішінде электрондық пошта мен пароль — қауіпсіз тасымалданады. Біз процесс барысында бұл деректердің ешқайсысын жинамаймыз, сақтамаймыз немесе бөліспейміз. Тасымалдау құрылғылар арасында тікелей жүреді.
+qr-export-security-warning = Қауіпсіздік үшін жеке режимде екеніңізге көз жеткізіңіз және тек сенімді көздерден алынған QR кодтарын сканерлеңіз.
 qr-export-start-export = Экспорттау
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step }/{ $count } QR коды
+       *[other] { $step }/{ $count } QR коды
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Мобильді құрылғыда { -brand-product-name } арқылы QR кодын сканерлеңіз
+       *[other] Мобильді құрылғыда { -brand-product-name } арқылы QR кодтарын сканерлеңіз
+    }
+qr-export-scan-step1 = Мобильді құрылғыңызда { -brand-product-name } ашыңыз
 qr-export-scan-step2 = Баптауларға өту
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = <strong>Импорттау баптаулары</strong> таңдаңыз
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = <strong>QR кодын сканерлеу</strong> басып, телефонды осы кодтың үстінде ұстаңыз
 qr-export-back = Артқа
 qr-export-next = Келесі
 qr-export-done = Дайын
+qr-export-summary-description = Тіркелгілер экспортталды. Мобильді құрылғыда жалғастырыңыз.
 qr-export-summary-title = Экспорттаудың есептемесі:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
