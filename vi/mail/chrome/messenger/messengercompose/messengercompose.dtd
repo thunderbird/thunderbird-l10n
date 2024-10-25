@@ -188,7 +188,7 @@
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Gửi">
 <!ENTITY quoteButton.label "Trích dẫn">
-<!ENTITY addressButton.label "Danh bạ">
+<!ENTITY addressButton.label "Liên hệ">
 <!ENTITY spellingButton.label "Chính tả">
 <!ENTITY saveButton.label "Lưu">
 <!ENTITY printButton.label "In">
@@ -291,7 +291,7 @@
 <!ENTITY spellAddDictionaries.accesskey "A">
 
 <!-- Title for the address picker panel -->
-<!ENTITY addressesSidebarTitle.label "Danh bạ">
+<!ENTITY addressesSidebarTitle.label "Liên hệ">
 
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label "Tùy chỉnh từ địa chỉ…">
