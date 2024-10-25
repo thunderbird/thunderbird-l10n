@@ -424,6 +424,11 @@ conversation-view-checkbox-label =
     .accesskey = s
 conversation-view-checkbox-description = Nodwedd arbrofol yn seiliedig ar Gloda, defnyddiwch hi ar eich menter eich hun
 label-experiment = Arbrofol
+dark-reader-legend = Lliwiau darllenydd
+dark-reader-checkbox-label =
+    .label = Addasu i thema dywyll
+    .accesskey = A
+dark-reader-checkbox-description = Nodwedd arbrofol i wneud i'r cwarel neges ddilyn themâu tywyll
 
 ## Compose Tab
 
