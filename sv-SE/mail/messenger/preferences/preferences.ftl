@@ -420,6 +420,11 @@ conversation-view-checkbox-label =
     .accesskey = k
 conversation-view-checkbox-description = Experimentell funktion baserad på Gloda, använd den på egen risk
 label-experiment = Experimentell
+dark-reader-legend = Läsarens färger
+dark-reader-checkbox-label =
+    .label = Anpassa till mörkt tema
+    .accesskey = m
+dark-reader-checkbox-description = Experimentell funktion för att få meddelandepanelen att följa mörkt tema
 
 ## Compose Tab
 
