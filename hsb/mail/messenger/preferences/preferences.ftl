@@ -428,6 +428,7 @@ dark-reader-legend = Barby čitaka
 dark-reader-checkbox-label =
     .label = Ćmowej drasće přiměrić
     .accesskey = m
+dark-reader-checkbox-description = Eksperimentelna funkcija, zo by so wobłuk powěsćow ćmowym drastam přiměrił
 
 ## Compose Tab
 
