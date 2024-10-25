@@ -424,6 +424,11 @@ conversation-view-checkbox-label =
     .accesskey = с
 conversation-view-checkbox-description = Экспериментальная функция, основанная на Gloda, используйте её на свой риск
 label-experiment = Экспериментальная
+dark-reader-legend = Цвета панели чтения
+dark-reader-checkbox-label =
+    .label = Адаптировать к тёмной теме
+    .accesskey = в
+dark-reader-checkbox-description = Экспериментальная функция, позволяющая панели сообщений следовать тёмным темам
 
 ## Compose Tab
 
@@ -471,7 +476,7 @@ font-size-label =
     .value = Размер:
     .accesskey = е
 default-colors-label =
-    .label = Использовать цвета пользователя по умолчанию
+    .label = Использовать цвета по умолчанию для панели чтения
     .accesskey = ь
 font-color-label =
     .value = Цвет текста:
