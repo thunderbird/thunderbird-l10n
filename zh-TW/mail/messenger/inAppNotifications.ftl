@@ -9,6 +9,6 @@ in-app-notification-close-image =
 -in-app-notification-accesskey = j
 in-app-notification-instructions =
     { PLATFORM() ->
-        [macos] 按 ⌥+Shift+{ -in-app-notification-accesskey } 跳到通知
-       *[other] 按下 Alt+Shift+{ -in-app-notification-accesskey } 即可跳到通知欄位
+        [macos] 按下 ⌥+Shift+{ -in-app-notification-accesskey } 即可跳到通知
+       *[other] 按下 Alt+Shift+{ -in-app-notification-accesskey } 即可跳到通知
     }
