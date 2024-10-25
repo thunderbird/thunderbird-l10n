@@ -424,6 +424,11 @@ conversation-view-checkbox-label =
     .accesskey = T
 conversation-view-checkbox-description = Diese experimentelle Funktion basiert auf Gloda, Nutzung auf eigene Gefahr
 label-experiment = Experimentell
+dark-reader-legend = Leser-Farben
+dark-reader-checkbox-label =
+    .label = An dunkles Theme anpassen
+    .accesskey = d
+dark-reader-checkbox-description = Experimentelle Funktion, damit sich der Nachrichtenbereich an dunklen Themes orientiert
 
 ## Compose Tab
 
