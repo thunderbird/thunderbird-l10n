@@ -424,6 +424,11 @@ conversation-view-checkbox-label =
     .accesskey = B
 conversation-view-checkbox-description = Glodára épülő kísérleti funkció, saját felelősségre használja
 label-experiment = Kísérleti
+dark-reader-legend = Olvasó színei
+dark-reader-checkbox-label =
+    .label = Alkalmazkodás a sötét témához
+    .accesskey = s
+dark-reader-checkbox-description = Kísérleti funkció, hogy az üzenetablak kövesse a sötét témákat
 
 ## Compose Tab
 
