@@ -424,6 +424,11 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = Experimental feature based on Gloda, use it at your own risk
 label-experiment = Experimental
+dark-reader-legend = Reader colours
+dark-reader-checkbox-label =
+    .label = Adapt to dark theme
+    .accesskey = d
+dark-reader-checkbox-description = Experimental feature to make the message pane follow dark themes
 
 ## Compose Tab
 
