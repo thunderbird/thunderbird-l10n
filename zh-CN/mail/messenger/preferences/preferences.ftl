@@ -428,6 +428,7 @@ dark-reader-legend = 阅读器颜色
 dark-reader-checkbox-label =
     .label = 适应深邃主题
     .accesskey = d
+dark-reader-checkbox-description = 实验功能，使邮件窗格依照深邃主题显示
 
 ## Compose Tab
 
