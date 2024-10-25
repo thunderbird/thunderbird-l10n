@@ -424,6 +424,11 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = 基於 Gloda 的實驗性功能，使用風險請自行承擔
 label-experiment = 實驗中
+dark-reader-legend = 閱讀器色彩
+dark-reader-checkbox-label =
+    .label = 適應暗色佈景
+    .accesskey = d
+dark-reader-checkbox-description = 實驗性功能讓您可讓訊息窗格依照暗色主題顯示
 
 ## Compose Tab
 
