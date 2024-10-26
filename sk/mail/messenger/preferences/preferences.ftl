@@ -428,6 +428,7 @@ dark-reader-legend = Farby čítačky
 dark-reader-checkbox-label =
     .label = Prispôsobiť sa tmavému motívu
     .accesskey = t
+dark-reader-checkbox-description = Experimentálna funkcia, vďaka ktorej bude panel správ nasledovať tmavé motívy
 
 ## Compose Tab
 
