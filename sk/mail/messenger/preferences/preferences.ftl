@@ -424,6 +424,10 @@ conversation-view-checkbox-label =
     .accesskey = K
 conversation-view-checkbox-description = Experimentálna funkcia založená na Gloda, používajte ju na vlastné riziko
 label-experiment = Experimentálne
+dark-reader-legend = Farby čítačky
+dark-reader-checkbox-label =
+    .label = Prispôsobiť sa tmavému motívu
+    .accesskey = t
 
 ## Compose Tab
 
