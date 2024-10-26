@@ -818,6 +818,7 @@ qr-export-select-all-accounts = Izberi vse
 qr-export-security-legend = Varnost
 qr-export-include-passwords = Vključi vsa gesla računov
 qr-export-oauth-warning = Nekateri izmed računov uporabljajo metodo overjanja, ki bo morda zahtevala ponovno overitev na mobilni napravi. Pri tem boste morda morali znova vnesti gesla.
+qr-export-security-warning = Za lastno varnost se prepričajte, da ste v zasebnem okolju, in skenirajte samo kode QR iz zaupanja vrednih virov.
 qr-export-start-export = Izvozi
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
