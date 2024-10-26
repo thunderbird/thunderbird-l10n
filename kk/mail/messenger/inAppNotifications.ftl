@@ -4,3 +4,11 @@
 
 in-app-notification-close-image =
     .alt = Жабу
+# This is the label of the key typically used to generate the javascript
+# key code "KeyJ"
+-in-app-notification-accesskey = j
+in-app-notification-instructions =
+    { PLATFORM() ->
+        [macos] Хабарламаға өту үшін ⌥+Shift+{ -in-app-notification-accesskey } басыңыз
+       *[other] Хабарламаға өту үшін Alt+Shift+{ -in-app-notification-accesskey } басыңыз
+    }
