@@ -427,8 +427,8 @@ label-experiment = Experimental
 dark-reader-legend = Colores del lector
 dark-reader-checkbox-label =
     .label = Adaptarse al tema oscuro
-    .accesskey = A
-dark-reader-checkbox-description = Función experimental para hacer que el panel de mensajes siga temas oscuros
+    .accesskey = d
+dark-reader-checkbox-description = Función experimental para hacer que la vista de mensajes siga temas oscuros
 
 ## Compose Tab
 
