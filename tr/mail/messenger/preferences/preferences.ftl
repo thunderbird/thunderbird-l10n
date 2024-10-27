@@ -424,6 +424,10 @@ conversation-view-checkbox-label =
     .accesskey = z
 conversation-view-checkbox-description = Gloda’ya dayalı deneysel özellik. Kullanmak sizin sorumluluğunuzdadır.
 label-experiment = Deneysel
+dark-reader-legend = Okuyucu renkleri
+dark-reader-checkbox-label =
+    .label = Koyu temaya uyum sağla
+    .accesskey = K
 
 ## Compose Tab
 
@@ -809,7 +813,7 @@ sync-disconnected-turn-on-sync = Eşitlemeyi aç…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Hesapları { -brand-product-name } Mobil’e aktar
-qr-export-description = QR kodu oluşturarak hesap ayarlarınızı bilgisayardan telefona hızlıca aktarabilirsiniz. Ekleyeceğinizi hesapları seçin, parolanızı aktarmak isteyip istemediğinize karar verin ve kodu mobil cihazınızla okutun. Hızlı, güvenli ve basit.
+qr-export-description = QR kodu oluşturarak hesap ayarlarınızı bilgisayardan telefona hızlıca aktarabilirsiniz. Ekleyeceğiniz hesapları seçin, parolanızı aktarmak isteyip istemediğinize karar verin ve kodu mobil cihazınızla okutun. Hızlı, güvenli ve basit.
 qr-export-get-app = Mobil cihazınızda henüz { -brand-product-name } yok mu? <a data-l10n-name="app-link">Google Play’den indirin</a>
 qr-export-create = Hesaplarınızı dışa aktarmak için QR kodu oluşturun
 qr-export-select-accounts = Dışa aktarılacak hesapları seçin:
