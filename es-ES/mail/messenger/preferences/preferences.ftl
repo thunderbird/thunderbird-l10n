@@ -420,6 +420,11 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = Función experimental basada en Gloda. Utilícela bajo su propia responsabilidad.
 label-experiment = Experimental
+dark-reader-legend = Colores del lector
+dark-reader-checkbox-label =
+    .label = Adaptar al tema oscuro
+    .accesskey = o
+dark-reader-checkbox-description = Funcionalidad experimental para que el panel de mensajes se adapte a los temas oscuros
 
 ## Compose Tab
 
@@ -814,6 +819,7 @@ qr-export-accounts-legend = Cuentas de correo electrónico
 qr-export-select-all-accounts = Seleccionar todo
 qr-export-security-legend = Seguridad
 qr-export-include-passwords = Incluir todas las contraseñas de las cuentas
+qr-export-oauth-warning = Algunas de sus cuentas usan un método de autentificación que podría necesitar que se vuelva a autentificar en su dispositivo móvil. Es posible que tenga que introducir sus contraseñas nuevamente durante este proceso.
 qr-export-security-hint = Al escanear los siguientes códigos QR, se transferirá de manera segura la configuración de la cuenta, incluyendo la dirección de correo electrónico y la contraseña. No recopilamos, almacenamos ni compartimos ninguno de estos datos durante el proceso. La transferencia se produce directamente entre sus dispositivos.
 qr-export-security-warning = Por su seguridad, asegúrese de estar en un entorno privado y escanear sólo códigos QR de fuentes confiables.
 qr-export-start-export = Exportar
