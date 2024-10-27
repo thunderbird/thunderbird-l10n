@@ -424,6 +424,10 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = Recurso experimental baseado no Gloda, use por sua conta e risco
 label-experiment = Experimental
+dark-reader-checkbox-label =
+    .label = Adaptar ao tema escuro
+    .accesskey = d
+dark-reader-checkbox-description = Recurso experimental para fazer o painel de mensagens se adaptar a temas escuros
 
 ## Compose Tab
 
