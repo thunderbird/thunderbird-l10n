@@ -4,3 +4,6 @@
 
 in-app-notification-close-image =
     .alt = Κλείσιμο
+# This is the label of the key typically used to generate the javascript
+# key code "KeyJ"
+-in-app-notification-accesskey = j
