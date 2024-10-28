@@ -424,6 +424,11 @@ conversation-view-checkbox-label =
     .accesskey = P
 conversation-view-checkbox-description = Eksperimintele funksje basearre op Gloda, brûk it op eigen risiko
 label-experiment = Eksperiminteel
+dark-reader-legend = Lêzerkleuren
+dark-reader-checkbox-label =
+    .label = Oanpasse oan tsjuster tema
+    .accesskey = t
+dark-reader-checkbox-description = Eksperimintele funksje om it berjochtepaniel donkere tema’s folgje te litten
 
 ## Compose Tab
 
