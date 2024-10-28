@@ -420,6 +420,11 @@ conversation-view-checkbox-label =
     .accesskey = к
 conversation-view-checkbox-description = Експериментальна функція на основі Gloda. Використовуйте на власний ризик.
 label-experiment = Експериментальне
+dark-reader-legend = Кольори читача
+dark-reader-checkbox-label =
+    .label = Адаптувати до темної теми
+    .accesskey = о
+dark-reader-checkbox-description = Експериментальна функція, завдяки якій панель повідомлень відповідає темним темам
 
 ## Compose Tab
 
