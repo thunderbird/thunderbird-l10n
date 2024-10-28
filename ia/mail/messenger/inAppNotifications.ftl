@@ -9,6 +9,6 @@ in-app-notification-close-image =
 -in-app-notification-accesskey = j
 in-app-notification-instructions =
     { PLATFORM() ->
-        [macos] Pulsa Alt+Majusc.+{ -in-app-notification-accesskey } pro ir al notification
-       *[other] Pulsa Alt+Majusc.+{ -in-app-notification-accesskey } pro ir al notification
+        [macos] Pressar Alt+Majusc+{ -in-app-notification-accesskey } pro ir al notification
+       *[other] Pressar Alt+Majusc+{ -in-app-notification-accesskey } pro ir al notification
     }
