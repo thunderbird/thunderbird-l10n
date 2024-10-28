@@ -424,6 +424,10 @@ conversation-view-checkbox-label =
     .accesskey = e
 conversation-view-checkbox-description = Glodan oinarritutako funtzio esperimentala, zure arriskupean
 label-experiment = Esperimentala
+dark-reader-checkbox-label =
+    .label = Egokitu gai ilunera
+    .accesskey = i
+dark-reader-checkbox-description = Ezaugarri esperimentala mezuen panelak gai ilunaz jarraitzeko
 
 ## Compose Tab
 
