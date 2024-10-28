@@ -428,6 +428,7 @@ dark-reader-legend = Colores del lector
 dark-reader-checkbox-label =
     .label = Adaptar al thema obscur
     .accesskey = d
+dark-reader-checkbox-description = Functionalitate experimental proque le pannello de messages seque le themas obscur
 
 ## Compose Tab
 
