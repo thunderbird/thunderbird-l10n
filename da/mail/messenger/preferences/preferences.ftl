@@ -394,8 +394,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Luk meddelelsesvinduet/-fanen ved flytning eller sletning
     .accesskey = L
-display-name-label =
-    .value = Vist navn:
 address-display-legend = Meddelelsesliste
 address-display-description = Foretrukken adressevisning:
 address-display-full =
@@ -410,6 +408,7 @@ address-display-name =
 condensed-addresses-label =
     .label = Vis kun "Vis som"-feltet for personer i min adressebog
     .accesskey = p
+table-layout-legend = Tabelvisning
 
 ## Compose Tab
 
@@ -577,9 +576,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Du er i FIPS-tilstand. FIPS kræver at hovedadgangskoden er sat.
 forms-master-pw-fips-desc = Ændring af adgangskode mislykkedes
 junk-description = Du kan redigere kontospecifikke spam-indstillinger i vinduet Kontoindstillinger.
-junk-label =
-    .label = Når du markerer meddelelsen som spam:
-    .accesskey = å
 junk-marked-label =
     .label = Når meddelelser er markeret som spam:
     .accesskey = N
@@ -589,9 +585,6 @@ junk-move-label =
 junk-delete-label =
     .label = Slet dem
     .accesskey = S
-junk-read-label =
-    .label = Marker spam-meddelelser som læste
-    .accesskey = M
 junk-read-description = Marker meddelelse som læst
 junk-read-manual-label =
     .label = Når meddelelser er markeret som spam manuelt
@@ -797,3 +790,6 @@ synced-acount-item-filters = Filtre
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synkroniser dine mailkonti, adressebøger, kalendere og identiteter på tværs af alle dine enheder.
 sync-disconnected-turn-on-sync = Slå synkronisering til...
+
+## Mobile QR Export Pane
+

@@ -40,7 +40,6 @@ account-hub-sync-button = Log ind på Sync…
 
 ## Email page
 
-account-hub-email-title = Opsæt din mailkonto
 account-hub-add-email-title = Tilføj din konto
 account-hub-manually-configure-email-title = Indstillinger for ny konto
 account-hub-email-cancel-button = Annuller
@@ -81,10 +80,17 @@ account-hub-auth-label = Godkendelsesmetode
 account-hub-username-label = Brugernavn
 account-hub-adding-account-title = Tilføjer konto
 account-hub-adding-account-subheader = Gentester kontoindstillinger
-account-hub-account-added-title = Konto tilføjet
 account-hub-lookup-email-configuration-title = Søger efter konfiguration
 account-hub-lookup-email-configuration-subheader = Prøver almindelige servernavne…
 account-hub-email-account-added-title = Kontoen blev oprettet
 account-hub-find-settings-failed = { -brand-full-name } kunne ikke finde indstillingerne for din mailkonto.
 account-hub-notification-show-more = Vis mere
 account-hub-notification-show-less = Vis færre
+account-hub-email-setup-header = Tilføj din mailadresse
+account-hub-email-setup-incoming = Indgående serverindstillinger
+account-hub-email-setup-outgoing = Udgående serverindstillinger
+account-hub-email-config-found = Vælg din mailkontotype
+account-hub-email-enter-password = Indtast adgangskoden til din mailkonto
+account-hub-email-sync-accounts = Synkroniser dine kalendere og adressebøger
+account-hub-test-configuration = Test
+account-hub-add-new-email = Tilføj endnu en mailadresse

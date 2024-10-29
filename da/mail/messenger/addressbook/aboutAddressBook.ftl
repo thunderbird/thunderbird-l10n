@@ -8,16 +8,12 @@ about-addressbook-title = Adressebog
 
 about-addressbook-toolbar-new-address-book =
     .label = Ny adressebog
+about-addressbook-toolbar-add-address-book =
+    .label = Tilføj lokal adressebog
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Tilføj CardDAV-adressebog
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Tilføj LDAP-adressebog
-about-addressbook-toolbar-new-contact =
-    .label = Ny kontakt
-about-addressbook-toolbar-new-list =
-    .label = Ny mailingliste
-about-addressbook-toolbar-import =
-    .label = Importer
 books-pane-create-contact-button = Ny kontakt
     .title = Opret en ny kontakt
 books-pane-create-book-button =
@@ -68,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Er du sikker på, at du vil fjern
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Søg i { $name }
-about-addressbook-search-all =
-    .placeholder = Søg i alle adressebøger
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -278,7 +268,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Rediger kontaktbillede
 about-addressbook-new-contact-header = Ny kontakt
-about-addressbook-prefer-display-name = Foretræk visningsnavn frem for navnet i meddelelses-headeren
 about-addressbook-write-action-button = Skriv
 about-addressbook-event-action-button = Begivenhed
 about-addressbook-search-action-button = Søg

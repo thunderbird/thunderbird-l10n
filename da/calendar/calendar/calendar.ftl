@@ -463,7 +463,7 @@ event-details-end-date = Slut:
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
-# used for display of calendar weeks in short form like 'Calendar Week 43'
+# used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = Kalenderuge: { $index }
 # LOCALIZATION NOTE (single-calendar-week):
@@ -471,6 +471,11 @@ single-long-calendar-week = Kalenderuge: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = Uge: { $index }
     .title = Kalenderuge: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Kalenderuger { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -504,13 +509,6 @@ due-in-hours =
        *[other] { $count } timer
     }
 due-in-less-than-one-hour = < 1 time
-# LOCALIZATION NOTE (month-in-year):
-# used for display of Month-dates like 'December 2008'
-#    $month will be replaced with name of the month
-#    $year will be replaced with the year
-month-in-year = { $month } { $year }
-month-in-year-label =
-    .aria-label = { $month } { $year }
 # LOCALIZATION NOTE (month-in-year-month-format):
 # If your language requires a different declension, change this to
 # one of the values specified in dateFormat.properties.
@@ -651,32 +649,82 @@ extract-using = Meddelelsen er på { $languageName }
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = Meddelelsen er på { $languageName } ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [one] { $count } minut
        *[other] { $count } minutter
     }
-# $count count
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [one] { $count } time
        *[other] { $count } timer
     }
-# $count count
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [one] { $count } dag
        *[other] { $count } dage
     }
-# $count count
+event-duration-menuitem-count-days =
+    .label = { unit-days }
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
         [one] { $count } uge
        *[other] { $count } uger
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] minut
+           *[other] minutter
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] time
+           *[other] timer
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] dag
+           *[other] dage
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] uge
+           *[other] uger
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name

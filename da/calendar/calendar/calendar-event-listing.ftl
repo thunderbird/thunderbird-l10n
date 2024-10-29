@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Tidligere begivenheder
 calendar-event-listing-interval-calendar-month =
     .label = Begivenheder for denne kalendermåned
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,10 @@ calendar-event-listing-interval-next-6-months =
     .label = Begivenheder de næste 6 måneder
 calendar-event-listing-interval-next-12-months =
     .label = Begivenheder de næste 12 måneder
+calendar-event-listing-interval-future =
+    .label = Alle fremtidige begivenheder
+calendar-event-listing-interval-all =
+    .label = Alle begivenheder
 calendar-event-listing-interval-selected-day =
     .label = Aktuel markeret dag
 calendar-event-listing-interval-today =

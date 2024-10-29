@@ -183,10 +183,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Nøgleadministration
     .accesskey = N
-openpgp-key-issue-notification-one = End-to-end-kryptering kræver, at du løser nøgleproblemer for { $addr }
-openpgp-key-issue-notification-many = End-to-end-kryptering kræver, at du løser nøgleproblemer for { $count } modtagere.
-smime-cert-issue-notification-one = End-to-end-kryptering kræver, at du løser certifikatproblemer for { $addr }.
-smime-cert-issue-notification-many = End-to-end-kryptering kræver, at du løser certifikatproblemer for { $count } modtagere.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -274,12 +270,6 @@ show-bcc-row-button = Skjult kopi til (Bcc)
     .title = Vis feltet Skjult kopi til ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Andre adressefelter, der skal vises
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Din meddelelse har en offentlig modtager. Du kan undgå at afsløre modtagere ved at bruge Skjult kopi til (BCC) i stedet.
-       *[other] De { $count } modtagere i Til og Kopi til (CC)  kan se hinandens adresse. Du kan undgå at afsløre modtagere ved at bruge Skjult kopi til (BCC) i stedet.
-    }
 public-recipients-notice-single = En af modtagerne af din meddelelse kan ses af andre. Du kan undgå at afsløre modtageren ved at benytte Skjult kopi til (Bcc) i stedet.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -421,3 +411,5 @@ link-preview-yes-replace = Ja
 spell-add-dictionaries =
     .label = Tilføj ordbøger…
     .accesskey = T
+subject-encription-icon =
+    .title = Emnelinjen vil ikke blive krypteret

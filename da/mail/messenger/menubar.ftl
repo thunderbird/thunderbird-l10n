@@ -23,9 +23,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Få hjælp
     .accesskey = h
-menu-help-explore-features =
-    .label = Udforsk funktioner
-    .accesskey = r
 menu-help-get-release-help =
     .label = Få hjælp til { -brand-short-name }
     .accesskey = R
@@ -68,6 +65,12 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Afslut { -brand-shorter-name }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Afslut { -brand-full-name }
+           *[other] Afslut { -brand-full-name }
+        }
 # Localization note: Do not translate unless your locale's keyboard layout
 # does not include this key, as it determines the keyboard shortcut for
 # shutting down the application.
