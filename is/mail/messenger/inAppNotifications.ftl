@@ -7,3 +7,8 @@ in-app-notification-close-image =
 # This is the label of the key typically used to generate the javascript
 # key code "KeyJ"
 -in-app-notification-accesskey = j
+in-app-notification-instructions =
+    { PLATFORM() ->
+        [macos] Ýttu á ⌥+Shift+{ -in-app-notification-accesskey } til að fara í tilkynningu
+       *[other] Ýttu á Alt+Shift+{ -in-app-notification-accesskey } til að fara í tilkynningu
+    }
