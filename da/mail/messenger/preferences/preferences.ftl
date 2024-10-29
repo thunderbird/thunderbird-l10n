@@ -409,6 +409,15 @@ condensed-addresses-label =
     .label = Vis kun "Vis som"-feltet for personer i min adressebog
     .accesskey = p
 table-layout-legend = Tabelvisning
+conversation-view-legend = Samtalevisning
+conversation-view-checkbox-label =
+    .label = Slå samtalevisning til
+    .accesskey = s
+conversation-view-checkbox-description = Eksperimentel funktion baseret på Gloda, bruges på eget ansvar
+label-experiment = Eksperimentel
+dark-reader-checkbox-label =
+    .label = Tilpas til mørkt tema
+    .accesskey = m
 
 ## Compose Tab
 
