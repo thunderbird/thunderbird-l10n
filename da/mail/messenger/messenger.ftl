@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Marker som spam
     .tooltiptext = Marker som spam
+context-menu-mark-not-junk =
+    .aria-label = Marker som ikke-spam
+    .tooltiptext = Marker som ikke-spam
 mail-context-menu-open =
     .label = Åbn
     .accesskey = å
@@ -238,22 +241,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Annuller meddelelsen
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Slet meddelelse
-           *[other] Slet de valgte meddelelser
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Gendan meddelelsen
-           *[other] Fortryd sletning af valgte meddelelser
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
