@@ -802,3 +802,34 @@ sync-disconnected-turn-on-sync = Slå synkronisering til...
 
 ## Mobile QR Export Pane
 
+qr-export-accounts-legend = Mailkonti
+qr-export-select-all-accounts = Vælg alle
+qr-export-security-legend = Sikkerhed
+qr-export-include-passwords = Medtag adgangskoder til alle konti
+qr-export-start-export = Eksporter
+qr-export-scan-step2 = Gå til indstillinger
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Vælg  <strong>Importer indstillinger</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Tryk på <strong>Skan QR-kode</strong> og hold telefonen over denne kode
+qr-export-back = Tilbage
+qr-export-next = Næste
+qr-export-done = Færdig
+qr-export-summary-title = Eksportoversigt:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-kode genereret
+       *[other] { $count } QR-koder genereret
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } konto eksporteret:
+       *[other] { $count } konti eksporteret:
+    }
+qr-export-summary-passwords-included = Adgangskoder medaget
+qr-export-summary-passwords-excluded = Adgangskoder ikke medtaget
+qr-export-more-accounts = Eksporter flere konti
