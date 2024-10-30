@@ -428,6 +428,7 @@ dark-reader-legend = Okuyucu renkleri
 dark-reader-checkbox-label =
     .label = Koyu temaya uyum sağla
     .accesskey = K
+dark-reader-checkbox-description = İleti bölmesinin koyu temalara adapte olmasını sağlayan deneysel özellik
 
 ## Compose Tab
 
