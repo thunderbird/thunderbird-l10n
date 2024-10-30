@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Synkronisering
 category-sync =
     .tooltiptext = Synkronisering
+pane-qr-export-title = Eksporter til Mobile
+category-qr-export =
+    .tooltiptext = Eksporter til Mobile
 general-language-and-appearance-header = Sprog og udseende
 general-incoming-mail-header = Indgående meddelelser
 general-files-and-attachment-header = Filer og vedhæftninger
@@ -409,15 +412,20 @@ condensed-addresses-label =
     .label = Vis kun "Vis som"-feltet for personer i min adressebog
     .accesskey = p
 table-layout-legend = Tabelvisning
+table-layout-horizontal-scroll-label =
+    .label = Tillad vandret scrolling
+    .accesskey = v
 conversation-view-legend = Samtalevisning
 conversation-view-checkbox-label =
     .label = Slå samtalevisning til
     .accesskey = s
 conversation-view-checkbox-description = Eksperimentel funktion baseret på Gloda, bruges på eget ansvar
 label-experiment = Eksperimentel
+dark-reader-legend = Læser-farver
 dark-reader-checkbox-label =
     .label = Tilpas til mørkt tema
     .accesskey = m
+dark-reader-checkbox-description = Eksperimentel funktion, der får meddelelsesruden til at følge mørke temaer
 
 ## Compose Tab
 
@@ -803,6 +811,8 @@ sync-disconnected-turn-on-sync = Slå synkronisering til...
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Eksporter konti til { -brand-product-name } Mobile
+qr-export-description = Overfør nemt dine kontoindstillinger fra din computer til din mobilenhed ved hjælp af en QR-kode. Vælg hvilke konti, der skal overføres og om du vil overføre din adgangskode, og skan derefter QR-koden med din mobilenhed. Hurtigt, sikkert og nemt.
+qr-export-get-app = Har du ikke { -brand-product-name } på din mobilenhed endnu? <a data-l10n-name="app-link">Hent den på Google Play</a>
 qr-export-create = Lav en QR-kode for at eksportere dine konti
 qr-export-select-accounts = Vælg hvilke konti der skal eksporteres:
 qr-export-no-accounts = Kan du ikke se alle dine konti? Visse konti kan være udeladt, da de ikke understøttes af { -brand-product-name } til Android. <a data-l10n-name="account-support-link">Support</a>
@@ -814,6 +824,14 @@ qr-export-oauth-warning = Nogle af dine konti bruger en godkendelsesmetode, der 
 qr-export-security-hint = Ved at skanne følgende QR-koder vil dine kontoindstillinger – inklusive din mailadresse og adgangskode – blive overført sikkert. Vi indsamler, gemmer eller deler ikke nogen af disse data under processen. Overførslen sker direkte mellem dine enheder.
 qr-export-security-warning = For at øge sikkerheden, skal du sørge for, at du er i private omgivelser og kun skanne QR-koder fra kilder, du stoler på.
 qr-export-start-export = Eksporter
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } af { $count } QR-kode
+       *[other] { $step } af { $count } QR-koder
+    }
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 qr-export-scan-description =
