@@ -420,6 +420,11 @@ conversation-view-checkbox-label =
     .accesskey = ρ
 conversation-view-checkbox-description = Πειραματική λειτουργία βασισμένη στο Gloda, χρησιμοποιήστε τη με δική σας ευθύνη
 label-experiment = Πειραματικό
+dark-reader-legend = Χρώματα ανάγνωσης
+dark-reader-checkbox-label =
+    .label = Προσαρμογή στο σκουρόχρωμο θέμα
+    .accesskey = ρ
+dark-reader-checkbox-description = Πειραματική λειτουργία που προσαρμόζει την περιοχή μηνυμάτων στα σκουρόχρωμα θέματα
 
 ## Compose Tab
 
