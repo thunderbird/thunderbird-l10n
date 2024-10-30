@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Tillegg og tema
     .accesskey = T
+menu-export-for-mobile =
+    .label = Eksporter til mobil…
+    .accesskey = E
 
 ## Help Menu
 
@@ -23,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Få hjelp
     .accesskey = F
-menu-help-explore-features =
-    .label = Utforsk funksjonar
-    .accesskey = U
 menu-help-get-release-help =
     .label = Få hjelp med { -brand-short-name }
     .accesskey = F
