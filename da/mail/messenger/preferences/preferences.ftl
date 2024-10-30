@@ -802,11 +802,26 @@ sync-disconnected-turn-on-sync = Slå synkronisering til...
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Eksporter konti til { -brand-product-name } Mobile
+qr-export-create = Lav en QR-kode for at eksportere dine konti
+qr-export-select-accounts = Vælg hvilke konti der skal eksporteres:
+qr-export-no-accounts = Kan du ikke se alle dine konti? Visse konti kan være udeladt, da de ikke understøttes af { -brand-product-name } til Android. <a data-l10n-name="account-support-link">Support</a>
 qr-export-accounts-legend = Mailkonti
 qr-export-select-all-accounts = Vælg alle
 qr-export-security-legend = Sikkerhed
 qr-export-include-passwords = Medtag adgangskoder til alle konti
+qr-export-oauth-warning = Nogle af dine konti bruger en godkendelsesmetode, der muligvis kræver gengodkendelse på din mobilenhed. Du skal måske indtaste dine adgangskoder igen under denne proces.
+qr-export-security-hint = Ved at skanne følgende QR-koder vil dine kontoindstillinger – inklusive din mailadresse og adgangskode – blive overført sikkert. Vi indsamler, gemmer eller deler ikke nogen af disse data under processen. Overførslen sker direkte mellem dine enheder.
+qr-export-security-warning = For at øge sikkerheden, skal du sørge for, at du er i private omgivelser og kun skanne QR-koder fra kilder, du stoler på.
 qr-export-start-export = Eksporter
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Skan QR-kode med { -brand-product-name } på din mobilenhed
+       *[other] Skan QR-koder med { -brand-product-name } på din mobilenhed
+    }
+qr-export-scan-step1 = Åbn { -brand-product-name } på din mobilenhed
 qr-export-scan-step2 = Gå til indstillinger
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Vælg  <strong>Importer indstillinger</strong>
@@ -815,6 +830,7 @@ qr-export-scan-step4-revision = Tryk på <strong>Skan QR-kode</strong> og hold t
 qr-export-back = Tilbage
 qr-export-next = Næste
 qr-export-done = Færdig
+qr-export-summary-description = Konti eksporteret. Fortsæt på din mobilenhed.
 qr-export-summary-title = Eksportoversigt:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
