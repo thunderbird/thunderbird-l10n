@@ -803,6 +803,12 @@ sync-disconnected-turn-on-sync = Slå på synkronisering…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Eksporter kontoar til { -brand-product-name } mobil
+qr-export-description = Overfør kontoinnstillingane dine raskt frå datamaskin til mobil ved å generere ein QR-kode. Vel kva kontoar som skal inkluderast, avgjer om du vil overføre passordet ditt, og skann koden med mobileininga di. Rask, sikkert og enkelt.
 qr-export-get-app = Har du ikkje { -brand-product-name } på mobilen din enno? <a data-l10n-name="app-link">Last han ned frå Google Play</a>
 qr-export-create = Lag ein QR-kode for å eksportere kontoane dine
 qr-export-select-accounts = Vel kva for konto du vil eksportere:
+qr-export-accounts-legend = E-postkontoar
+qr-export-start-export = Eksporter
+qr-export-back = Tilbake
+qr-export-next = Neste
+qr-export-done = Ferdig
