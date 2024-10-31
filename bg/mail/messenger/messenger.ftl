@@ -240,22 +240,6 @@ context-menu-cancel-msg =
     .label = Отказ на съобщението
 # Variables:
 # $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Изтриване на писмо
-           *[other] Изтриване на избраните писма
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Възстановяване на изтрито писмо
-           *[other] Възстановяване на изтритите писма
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
 mail-context-messages-delete =
     .label =
         { $count ->
@@ -394,7 +378,7 @@ spaces-toolbar-button-show =
 spaces-context-new-tab-item =
     .label = Отваряне в нов раздел
 spaces-context-new-window-item =
-    .label = Отваряне на нов прозорец
+    .label = Отваряне на прозорец
 # Variables:
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
