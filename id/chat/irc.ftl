@@ -16,6 +16,7 @@ connection-error-time-out = Tenggang waktu sambungan habis
 connection-error-invalid-username = { $username } bukan nama pengguna yang diizinkan
 connection-error-invalid-password = Sandi server tidak valid
 connection-error-password-required = Sandi dibutuhkan
+connection-error-invalid-user-password = Kata sandi tidak valid
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kamar

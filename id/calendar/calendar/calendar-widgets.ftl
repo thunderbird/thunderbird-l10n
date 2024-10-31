@@ -74,6 +74,14 @@ calendar-view-toggle-month = Bulan
 
 calendar-control-bar-menu-button =
     .title = Opsi tata letak kalender
+calendar-find-events-menu-option =
+    .label = Temukan Panel Acara
+calendar-hide-weekends-option =
+    .label = Hanya hari kerja
+calendar-define-workweek-option =
+    .label = Tentukan hari kerja
+calendar-show-tasks-calendar-option =
+    .label = Tampilkan tugas di kalender
 
 ## Calendar Context Menu
 

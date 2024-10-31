@@ -132,5 +132,31 @@ detail-power = Tingkat Daya:
 message-accepted-invite = { $user } menerima undangan.
 #    $user is the name of the user who has left the room.
 message-left = { $user } telah meninggalkan ruangan.
+#    $user is the name of the user who has made future room history visible to all room members.
+message-history-shared = { $user } membuat riwayat ruang mendatang dapat dilihat oleh semua anggota ruang.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = { $user } membuat riwayat ruang mendatang terlihat oleh semua anggota ruang, sejak mereka diundang.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user } membuat riwayat ruang masa depan terlihat oleh semua anggota ruang, sejak mereka bergabung.
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user } menyetel alamat utama untuk ruangan ini dari { $oldAddress } menjadi { $newAddress }.
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user } menambahkan { $addresses } sebagai alamat alternatif untuk ruangan ini.
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user } menghapus { $addresses } sebagai alamat alternatif untuk ruangan ini.
+message-verification-done = Verifikasi selesai.
+message-decryption-error = Tidak dapat mendekripsi isi pesan ini. Untuk meminta kunci enkripsi dari perangkat Anda yang lain, klik kanan pesan ini.
+message-decrypting = Mendekripsi...
+#    Label in the message context menu
+message-action-request-key = Minta Ulang Kunci
 message-action-report = Laporkan Pesan
+message-action-retry = Coba Kirim Lagi
 message-action-cancel = Batalkan Pesan
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Terjadi kesalahan saat mengirim pesan Anda “{ $message }”.

@@ -15,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Pendek: { $date }
+use-system-timezone-radio-button =
+    .label = Gunakan zona waktu sistem
+set-timezone-manually-radio-button =
+    .label = Atur zona waktu secara manual
 timezone-label =
     .value = Zona Waktu:
 weekstart-label =
@@ -101,12 +105,9 @@ previous-weeks-label =
     .value = Minggu sebelumnya untuk ditampilkan:
     .accesskey = s
 todaypane-legend = Panel Hari Ini
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = Bagian Mendatang menunjukkan:
-    .accesskey = U
+agenda-days =
+    .value = Agenda menunjukkan:
+    .accesskey = g
 event-task-legend = Acara dan Tugas
 default-length-label =
     .value = Acara Standar dan Panjang Tugas:
@@ -137,10 +138,6 @@ edit-intab-label =
 prompt-delete-label =
     .label = Konfirmasi sebelum menghapus acara dan tugas.
     .accesskey = K
-accessibility-legend = Aksesibilitas
-accessibility-colors-label =
-    .label = Optimalkan warna untuk aksesibilitas
-    .accesskey = w
 reminder-legend = Setelah alarm mati:
 reminder-play-checkbox =
     .label = Mainkan suara
