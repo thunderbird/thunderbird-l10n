@@ -418,6 +418,15 @@ table-layout-legend = Tabellvising
 table-layout-horizontal-scroll-label =
     .label = Tillat horisontal rulling
     .accesskey = T
+conversation-view-legend = Samtalevising
+conversation-view-checkbox-label =
+    .label = Aktiver samtalevising
+    .accesskey = k
+conversation-view-checkbox-description = Eksperimentell funksjon basert på Gloda, bruk han på eige ansvar
+label-experiment = Eksperimentell
+dark-reader-checkbox-label =
+    .label = Tilpass til mørkt tema
+    .accesskey = m
 
 ## Compose Tab
 
@@ -808,7 +817,18 @@ qr-export-get-app = Har du ikkje { -brand-product-name } på mobilen din enno? <
 qr-export-create = Lag ein QR-kode for å eksportere kontoane dine
 qr-export-select-accounts = Vel kva for konto du vil eksportere:
 qr-export-accounts-legend = E-postkontoar
+qr-export-select-all-accounts = Marker alle
+qr-export-security-legend = Sikkerheit
+qr-export-include-passwords = Inkluder alle kontopassord
 qr-export-start-export = Eksporter
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } av { $count } QR-kode
+       *[other] { $step } av { $count } QR-kodar
+    }
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 qr-export-scan-description =
@@ -843,3 +863,4 @@ qr-export-summary-accounts =
     }
 qr-export-summary-passwords-included = Passord inkludert
 qr-export-summary-passwords-excluded = Passord eksludert
+qr-export-more-accounts = Eksporter fleire kontoar
