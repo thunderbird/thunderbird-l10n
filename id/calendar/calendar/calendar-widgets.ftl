@@ -22,6 +22,8 @@ calendar-list-item-context-button =
     .title = { $calendarName } pilihan kalender
 calendar-import-new-calendar = Kalender Baru…
     .title = Buat atau langganan kalender baru
+calendar-refresh-calendars =
+    .title = Muat ulang semua kalender dan sinkronkan perubahan
 calendar-new-event-primary-button = Acara Baru
 calendar-new-task-primary-button = Tugas Baru
 
@@ -70,6 +72,8 @@ calendar-view-toggle-month = Bulan
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Opsi tata letak kalender
 
 ## Calendar Context Menu
 

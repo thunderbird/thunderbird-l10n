@@ -6,6 +6,8 @@ calendar-invitation-panel-status-new = Anda telah diundang ke acara ini.
 calendar-invitation-panel-status-processed = Acara ini telah ditambahkan ke kalender Anda.
 calendar-invitation-panel-status-updateminor = Pesan ini berisi pembaruan untuk acara ini.
 calendar-invitation-panel-status-updatemajor = Pesan ini berisi pembaruan untuk acara ini. Anda harus mengonfirmasi ulang kehadiran Anda.
+calendar-invitation-panel-status-cancelled = Pesan ini berisi pembatalan untuk acara ini.
+calendar-invitation-panel-status-cancelled-notfound = Pesan ini memuat pembatalan acara yang tidak ada di kalender Anda.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } telah membatalkan:
