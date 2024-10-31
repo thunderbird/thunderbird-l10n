@@ -15,7 +15,7 @@ menu-addons-and-themes =
     .label = Modules complémentaires et thèmes
     .accesskey = e
 menu-export-for-mobile =
-    .label = Exporter une version mobile…
+    .label = Exporter pour l’application mobile…
     .accesskey = E
 
 ## Help Menu
@@ -26,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Obtenir de l’aide
     .accesskey = O
-menu-help-explore-features =
-    .label = Découvrir les fonctionnalités
-    .accesskey = D
 menu-help-get-release-help =
     .label = Obtenir de l’aide pour { -brand-short-name }
     .accesskey = O

@@ -25,9 +25,9 @@ category-calendar =
 pane-sync-title = Synchronisation
 category-sync =
     .tooltiptext = Synchronisation
-pane-qr-export-title = Exporter pour mobile
+pane-qr-export-title = Exporter pour l’application mobile
 category-qr-export =
-    .tooltiptext = Exporter pour mobile
+    .tooltiptext = Exporter pour l’application mobile
 general-language-and-appearance-header = Langue et apparence
 general-incoming-mail-header = Courrier entrant
 general-files-and-attachment-header = Fichiers et pièces jointes
@@ -426,9 +426,9 @@ conversation-view-checkbox-description = Fonctionnalité expérimentale basée s
 label-experiment = Expérimental
 dark-reader-legend = Couleurs du lecteur
 dark-reader-checkbox-label =
-    .label = S’adapter aux thèmes sombres
+    .label = Adapter aux thèmes sombres
     .accesskey = S
-dark-reader-checkbox-description = Fonctionnalité expérimentale pour que le panneau de message suive des thèmes sombres
+dark-reader-checkbox-description = Fonctionnalité expérimentale pour que le panneau de message s’adapte aux thèmes sombres
 
 ## Compose Tab
 
@@ -811,7 +811,7 @@ sync-disconnected-turn-on-sync = Activer la synchronisation…
 
 ## Mobile QR Export Pane
 
-qr-export-pane-header = Exporter les comptes vers { -brand-product-name } mobile
+qr-export-pane-header = Exporter les comptes vers { -brand-product-name } Mobile
 qr-export-description = Transférez rapidement les paramètres de votre compte de l’ordinateur à l’appareil mobile en générant un code QR. Sélectionnez les comptes à inclure, décidez si vous souhaitez transférer votre mot de passe et scannez le code avec votre appareil mobile. Rapide, sûr et simple.
 qr-export-get-app = Vous n’avez pas encore { -brand-product-name } sur mobile ? <a data-l10n-name="app-link">Disponible sur Google Play</a>
 qr-export-create = Créez un code QR pour exporter vos comptes
