@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Acara di Masa Lalu
 calendar-event-listing-interval-calendar-month =
     .label = Acara dalam Bulan Kalender ini
 calendar-event-listing-interval-current-view =
@@ -61,5 +63,15 @@ calendar-event-listing-interval-next-14-days =
     .label = Acara dalam 14 Hari ke Depan
 calendar-event-listing-interval-next-31-days =
     .label = Acara dalam 31 Hari ke Depan
+calendar-event-listing-interval-next-6-months =
+    .label = Acara dalam 6 Bulan ke Depan
+calendar-event-listing-interval-next-12-months =
+    .label = Acara dalam 12 Bulan ke Depan
+calendar-event-listing-interval-future =
+    .label = Semua Acara Mendatang
+calendar-event-listing-interval-all =
+    .label = Semua Acara
 calendar-event-listing-interval-selected-day =
     .label = Hari yang Sedang Dipilih
+calendar-event-listing-interval-today =
+    .label = Acara Hari Ini
