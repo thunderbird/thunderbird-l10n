@@ -61,19 +61,6 @@ quick-filter-bar-no-results = Tidak ada hasil
 # Variables:
 # $count (Number) - The number of messages that match selected filters.
 quick-filter-bar-results = { $count } pesan
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Saring pesan-pesan ini <{ quick-filter-bar-textbox-shortcut }>
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Mode penyaringan tag
@@ -117,26 +104,87 @@ quick-filter-bar-gloda-upsell-line2 = Tekan tombol ‘Enter’ sekali lagi untuk
 folder-pane-get-all-messages-menuitem =
     .label = Ambil Semua Pesan Baru
     .accesskey = A
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Mode Folder
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Tampilkan “Ambil Pesan”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Tampilkan “Pesan Baru”
+folder-pane-header-context-hide =
+    .label = Sembunyikan Header Panel Folder
+folder-pane-show-total-toggle =
+    .label = Tampilkan Cacah Pesan Total
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Tampilkan Ukuran Folder
+folder-pane-header-hide-local-folders =
+    .label = Sembunyikan Folder Lokal
+folder-pane-mode-context-button =
+    .title = Opsi mode folder
 folder-pane-mode-context-toggle-compact-mode =
     .label = Tampilan Ringkas
     .accesskey = C
+folder-pane-mode-move-up =
+    .label = Naikkan
+folder-pane-mode-move-down =
+    .label = Turunkan
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label = { $count } pesan belum dibaca
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label = { $count } total pesan
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Alihkan pilih semua pesan
+threadpane-column-header-select-all =
+    .title = Pilih semua pesan
+threadpane-column-header-deselect-all =
+    .title = Batal pilih semua pesan
 threadpane-column-label-select =
     .label = Pilih Pesan
+threadpane-cell-select =
+    .aria-label = Pilih pesan
+threadpane-column-header-thread =
+    .title = Jungkitkan utas pesan
 threadpane-column-label-thread =
     .label = Utas
+threadpane-cell-thread =
+    .aria-label = Status utas
 threadpane-column-header-flagged =
     .title = Urut berdasarkan bintang
 threadpane-column-label-flagged =
     .label = Bintang
+threadpane-cell-flagged =
+    .aria-label = Berbintang
+threadpane-flagged-cell-label = Berbintang
 threadpane-column-header-attachments =
     .title = Urut berdasarkan lampiran
 threadpane-column-label-attachments =
     .label = Lampiran
+threadpane-cell-attachments =
+    .aria-label = Lampiran
+threadpane-attachments-cell-label = Lampiran
+threadpane-column-header-spam =
+    .title = Urut berdasarkan status spam
+threadpane-column-label-spam =
+    .label = Spam
+threadpane-cell-spam =
+    .aria-label = Status spam
+threadpane-spam-cell-label = Spam
+threadpane-column-header-unread-button =
+    .title = Urut berdasarkan status baca
+threadpane-column-label-unread-button =
+    .label = Status baca
+threadpane-cell-read-status =
+    .aria-label = Status baca
+threadpane-read-cell-label = Baca
+threadpane-unread-cell-label = Belum Dibaca
 threadpane-column-header-sender = Dari
     .title = Urutkan berdasarkan dari
 threadpane-column-label-sender =
@@ -219,3 +267,6 @@ apply-current-columns-to-folder-message = Terapkan setelan kolom folder ini untu
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Terapkan setelan kolom folder ini untuk { $name } dan folder di bawahnya?
+
+## Folder pane context menu
+
