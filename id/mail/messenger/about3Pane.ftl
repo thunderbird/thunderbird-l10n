@@ -15,6 +15,16 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Terapkan pesan ketika berganti folder?
+quick-filter-bar-dropdown-unread =
+    .label = Belum Dibaca
+quick-filter-bar-dropdown-starred =
+    .label = Berbintang
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontak
+quick-filter-bar-dropdown-tags =
+    .label = Tag
+quick-filter-bar-dropdown-attachment =
+    .label = Lampiran
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -189,69 +199,155 @@ threadpane-column-header-sender = Dari
     .title = Urutkan berdasarkan dari
 threadpane-column-label-sender =
     .label = Dari
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Dari
+    .title = { $title }
 threadpane-column-header-recipient = Penerima
     .title = Urut berdasarkan penerima
 threadpane-column-label-recipient =
     .label = Penerima
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Penerima
+    .title = { $title }
 threadpane-column-header-correspondents = Koresponden
     .title = Urut berdasarkan koresponden
 threadpane-column-label-correspondents =
     .label = Koresponden
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Koresponden
+    .title = { $title }
 threadpane-column-header-subject = Subjek
     .title = Urut berdasarkan subjek
 threadpane-column-label-subject =
     .label = Subjek
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Subjek
+    .title = { $title }
 threadpane-column-header-date = Tanggal
     .title = Urut berdasarkan tanggal
 threadpane-column-label-date =
     .label = Tanggal
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Tanggal
+    .title = { $title }
 threadpane-column-header-received = Diterima
     .title = Urut berdasarkan tanggal diterima
 threadpane-column-label-received =
     .label = Diterima
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Tanggal diterima
+    .title = { $title }
 threadpane-column-header-status = Status
     .title = Urut berdasarkan status
 threadpane-column-label-status =
     .label = Status
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Status
+    .title = { $title }
 threadpane-column-header-size = Ukuran
     .title = Urut berdasarkan ukuran
 threadpane-column-label-size =
     .label = Ukuran
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Ukuran
+    .title = { $title }
 threadpane-column-header-tags = Tag
     .title = Urut berdasarkan tag
 threadpane-column-label-tags =
     .label = Tag
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Tag
+    .title = { $title }
 threadpane-column-header-account = Akun
     .title = Urut berdasarkan akun
 threadpane-column-label-account =
     .label = Akun
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Akun
+    .title = { $title }
 threadpane-column-header-priority = Prioritas
     .title = Urut berdasarkan prioritas
 threadpane-column-label-priority =
     .label = Prioritas
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Prioritas
+    .title = { $title }
 threadpane-column-header-unread = Belum Dibaca
     .title = Jumlah pesan yang belum dibaca di utas
 threadpane-column-label-unread =
     .label = Belum Dibaca
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Cacah pesan yang belum dibaca
+    .title = { $title }
 threadpane-column-header-total = Total
     .title = Jumlah total pesan dalam utas
 threadpane-column-label-total =
     .label = Total
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Cacah total pesan
+    .title = { $title }
 threadpane-column-header-location = Lokasi
     .title = Urut berdasarkan lokasi
 threadpane-column-label-location =
     .label = Lokasi
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Lokasi
+    .title = { $title }
 threadpane-column-header-id = Urutan Diterima
     .title = Urutkan berdasarkan pesanan diterima
 threadpane-column-label-id =
     .label = Urutan Diterima
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Pesanan diterima
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Hapus sebuah pesan
 threadpane-column-label-delete =
     .label = Hapus
+threadpane-cell-delete =
+    .aria-label = Hapus
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies = { $count } balasan
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indikator pesan baru
+    .title = Pesan baru
+threadpane-message-replied =
+    .alt = Indikator dibalas
+    .title = Pesan dibalas
 apply-columns-to-menu =
     .label = Terapkan setelan kolom untuk…
 apply-current-view-to-folder =

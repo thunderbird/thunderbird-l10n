@@ -14,7 +14,12 @@ accounts-conn-security = Keamanan sambungan
 accounts-auth-method = Metode otentikasi
 accounts-default = Baku?
 identity-name = Identitas
-
 send-via-email = Kirim lewat email
-
 app-basics-telemetry = Data Telemetri
+mail-libs-title = Pustaka
+libs-table-heading-library = Pustaka
+libs-table-heading-expected-version = Versi minimum yang diharapkan
+libs-table-heading-loaded-version = Versi yang digunakan
+libs-table-heading-path = Path
+libs-table-heading-status = Status
+libs-rnp-status-ok = OK
