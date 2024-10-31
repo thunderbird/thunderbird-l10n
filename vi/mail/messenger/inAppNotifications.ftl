@@ -4,3 +4,11 @@
 
 in-app-notification-close-image =
     .alt = Đóng
+# This is the label of the key typically used to generate the javascript
+# key code "KeyJ"
+-in-app-notification-accesskey = j
+in-app-notification-instructions =
+    { PLATFORM() ->
+        [macos] Nhấn ⌥+Shift+{ -in-app-notification-accesskey } để chuyển đến thông báo
+       *[other] Nhấn Alt+Shift+{ -in-app-notification-accesskey } để chuyển đến thông báo
+    }

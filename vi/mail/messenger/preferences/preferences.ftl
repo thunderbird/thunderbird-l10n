@@ -424,6 +424,11 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = Tính năng thử nghiệm dựa trên Gloda, bạn tự chịu rủi ro khi sử dụng
 label-experiment = Thử nghiệm
+dark-reader-legend = Màu trình đọc
+dark-reader-checkbox-label =
+    .label = Thích ứng với chủ đề tối
+    .accesskey = d
+dark-reader-checkbox-description = Tính năng thử nghiệm giúp ngăn đọc thư thích ứng với chủ đề tối
 
 ## Compose Tab
 
