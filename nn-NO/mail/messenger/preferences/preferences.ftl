@@ -809,6 +809,37 @@ qr-export-create = Lag ein QR-kode for å eksportere kontoane dine
 qr-export-select-accounts = Vel kva for konto du vil eksportere:
 qr-export-accounts-legend = E-postkontoar
 qr-export-start-export = Eksporter
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Skann QR-koden med { -brand-product-name } på mobileininga di
+       *[other] Skann QR-kodar med { -brand-product-name } på mobileininga di
+    }
+qr-export-scan-step1 = Opne { -brand-product-name } på mobileininga di
+qr-export-scan-step2 = Gå til Innstillingar
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Vel <strong>Importer innstillingar</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Trykk på <strong>Skann QR-kode</strong> og hald telefonen over denne koden
 qr-export-back = Tilbake
 qr-export-next = Neste
 qr-export-done = Ferdig
+qr-export-summary-description = Kontoar er eksporterte. Hald fram på mobileininga di.
+qr-export-summary-title = Eksportsamandrag:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-kode generert
+       *[other] { $count } QR-kodar genererte
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } konto eksportert:
+       *[other] { $count } kontoar eksporterte:
+    }
+qr-export-summary-passwords-included = Passord inkludert
+qr-export-summary-passwords-excluded = Passord eksludert
