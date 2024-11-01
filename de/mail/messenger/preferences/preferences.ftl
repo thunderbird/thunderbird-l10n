@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = An dunkles Theme anpassen
     .accesskey = d
 dark-reader-checkbox-description = Experimentelle Funktion, damit sich der Nachrichtenbereich an dunklen Themes orientiert
+account-hub-legend = Kontenverwaltung
+account-hub-checkbox-label =
+    .label = Konten in der neuen Kontenverwaltung erstellen
+    .accesskey = K
+account-hub-checkbox-description = Experimentelle Vorgehensweise bei der Erstellung eines neuen E-Mail-Kontos
 
 ## Compose Tab
 
