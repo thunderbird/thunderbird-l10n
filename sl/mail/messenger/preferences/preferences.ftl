@@ -424,6 +424,12 @@ conversation-view-checkbox-label =
     .accesskey = p
 conversation-view-checkbox-description = Poskusna možnost, ki temelji na Glodi. Uporabljajte jo na lastno odgovornost
 label-experiment = Poskusno
+dark-reader-legend = Barve bralnika
+dark-reader-checkbox-label =
+    .label = Prilagodi temni temi
+    .accesskey = d
+dark-reader-checkbox-description = Poskusna možnost, s katero se podokno sporočil prilagodi nastavljenim temnim temam
+account-hub-legend = Središče za račune
 
 ## Compose Tab
 
