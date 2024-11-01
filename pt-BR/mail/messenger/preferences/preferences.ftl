@@ -429,6 +429,7 @@ dark-reader-checkbox-label =
     .label = Adaptar ao tema escuro
     .accesskey = d
 dark-reader-checkbox-description = Recurso experimental para fazer o painel de mensagens se adaptar a temas escuros
+account-hub-legend = Central de contas
 
 ## Compose Tab
 
