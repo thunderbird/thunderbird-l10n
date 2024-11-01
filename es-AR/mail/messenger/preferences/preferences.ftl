@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Adaptarse al tema oscuro
     .accesskey = d
 dark-reader-checkbox-description = Función experimental para hacer que la vista de mensajes siga temas oscuros
+account-hub-legend = Centro de cuentas
+account-hub-checkbox-label =
+    .label = Crear cuentas en el nuevo centro de cuentas
+    .accesskey = C
+account-hub-checkbox-description = Flujo experimental de creación de cuentas de correo
 
 ## Compose Tab
 
