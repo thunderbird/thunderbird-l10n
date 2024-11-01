@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Śamnej drastwje pśiměriś
     .accesskey = m
 dark-reader-checkbox-description = Eksperimentelna funkcija, aby se wobceŕk powěsćow śamnym drastwam pśiměrił
+account-hub-legend = Kontowy centrum
+account-hub-checkbox-label =
+    .label = Konta w nowem kontowem centrumje załožyś
+    .accesskey = c
+account-hub-checkbox-description = Eksperimentelny wótběg załoženja nowego e-mailowego konta
 
 ## Compose Tab
 
