@@ -431,9 +431,9 @@ dark-reader-checkbox-label =
 dark-reader-checkbox-description = Tính năng thử nghiệm giúp ngăn đọc thư thích ứng với chủ đề tối
 account-hub-legend = Trung tâm tài khoản
 account-hub-checkbox-label =
-    .label = Tạo tài khoản trong trung tâm tài khoản mới
+    .label = Thêm tài khoản trong trung tâm tài khoản mới
     .accesskey = C
-account-hub-checkbox-description = Luồng thử nghiệm tạo tài khoản thư mới
+account-hub-checkbox-description = Thử nghiệm giao diện thêm tài khoản thư mới
 
 ## Compose Tab
 
