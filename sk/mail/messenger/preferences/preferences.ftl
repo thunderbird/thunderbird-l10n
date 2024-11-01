@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Prispôsobiť sa tmavému motívu
     .accesskey = t
 dark-reader-checkbox-description = Experimentálna funkcia, vďaka ktorej bude panel správ nasledovať tmavé motívy
+account-hub-legend = Centrum účtov
+account-hub-checkbox-label =
+    .label = Účty vytvárať v novom centre účtov
+    .accesskey = c
+account-hub-checkbox-description = Experimentálny postup vytvorenia nového poštového účtu
 
 ## Compose Tab
 
