@@ -425,6 +425,11 @@ dark-reader-checkbox-label =
     .label = Anpassa till mörkt tema
     .accesskey = m
 dark-reader-checkbox-description = Experimentell funktion för att få meddelandepanelen att följa mörkt tema
+account-hub-legend = Kontonav
+account-hub-checkbox-label =
+    .label = Skapa konton i nya kontonavet
+    .accesskey = S
+account-hub-checkbox-description = Experimentellt flöde för att skapa nya e-postkonton
 
 ## Compose Tab
 
