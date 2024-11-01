@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Adapter aux thèmes sombres
     .accesskey = S
 dark-reader-checkbox-description = Fonctionnalité expérimentale pour que le panneau de message s’adapte aux thèmes sombres
+account-hub-legend = Centre de comptes
+account-hub-checkbox-label =
+    .label = Créez des comptes dans le nouveau Centre de comptes
+    .accesskey = C
+account-hub-checkbox-description = Flux expérimental de création de compte courrier
 
 ## Compose Tab
 
