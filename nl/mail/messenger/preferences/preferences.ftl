@@ -445,6 +445,7 @@ account-hub-legend = Accounthub
 account-hub-checkbox-label =
     .label = Maak accounts aan in de nieuwe Accounthub
     .accesskey = M
+account-hub-checkbox-description = Experimentele accountcreatieflow voor nieuwe e-mailadressen
 
 ## Compose Tab
 
