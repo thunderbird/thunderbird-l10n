@@ -500,6 +500,7 @@ label-experiment = Experimentální
 dark-reader-checkbox-label =
     .label = Přizpůsobit tmavému vzhledu
     .accesskey = d
+account-hub-legend = Centrum účtů
 
 ## Compose Tab
 
