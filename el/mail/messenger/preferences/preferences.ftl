@@ -425,6 +425,11 @@ dark-reader-checkbox-label =
     .label = Προσαρμογή στο σκουρόχρωμο θέμα
     .accesskey = ρ
 dark-reader-checkbox-description = Πειραματική λειτουργία που προσαρμόζει την περιοχή μηνυμάτων στα σκουρόχρωμα θέματα
+account-hub-legend = Κέντρο λογαριασμών
+account-hub-checkbox-label =
+    .label = Δημιουργία λογαριασμών στο νέο κέντρο λογαριασμών
+    .accesskey = C
+account-hub-checkbox-description = Πειραματική διαδικασία δημιουργίας νέων λογαριασμών email
 
 ## Compose Tab
 
