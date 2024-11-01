@@ -429,9 +429,9 @@ dark-reader-checkbox-label =
     .label = Adatta al tema scuro
     .accesskey = A
 dark-reader-checkbox-description = Funzionalità sperimentale per consentire al pannello dei messaggi di adattarsi ai temi scuri
-account-hub-legend = Hub degli account
+account-hub-legend = Centro account
 account-hub-checkbox-label =
-    .label = Crea account nel nuovo Account Hub
+    .label = Crea account nel nuovo Centro account
     .accesskey = C
 account-hub-checkbox-description = Flusso sperimentale per la creazione di un nuovo account di posta
 
