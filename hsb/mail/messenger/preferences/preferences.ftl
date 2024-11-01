@@ -429,6 +429,10 @@ dark-reader-checkbox-label =
     .label = Ćmowej drasće přiměrić
     .accesskey = m
 dark-reader-checkbox-description = Eksperimentelna funkcija, zo by so wobłuk powěsćow ćmowym drastam přiměrił
+account-hub-legend = Kontowy centrum
+account-hub-checkbox-label =
+    .label = Konta w nowym kontowym centrumje załožić
+    .accesskey = c
 
 ## Compose Tab
 
