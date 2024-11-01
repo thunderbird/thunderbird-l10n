@@ -441,6 +441,10 @@ dark-reader-checkbox-label =
     .label = Aanpassen aan donker thema
     .accesskey = d
 dark-reader-checkbox-description = Experimentele functie om het berichtenpaneel donkere thema’s te laten volgen
+account-hub-legend = Accounthub
+account-hub-checkbox-label =
+    .label = Maak accounts aan in de nieuwe Accounthub
+    .accesskey = M
 
 ## Compose Tab
 
