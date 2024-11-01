@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = 適應暗色佈景主題
     .accesskey = d
 dark-reader-checkbox-description = 讓訊息窗格可依照暗色佈景主題顯示的實驗性功能
+account-hub-legend = 帳號中心
+account-hub-checkbox-label =
+    .label = 到新版帳號中心註冊帳號
+    .accesskey = C
+account-hub-checkbox-description = 實驗性新郵件帳號建立流程
 
 ## Compose Tab
 
