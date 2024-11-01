@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Addasu i thema dywyll
     .accesskey = A
 dark-reader-checkbox-description = Nodwedd arbrofol i wneud i'r cwarel neges ddilyn themâu tywyll
+account-hub-legend = Canolbwynt y cyfrif
+account-hub-checkbox-label =
+    .label = Creu cyfrifon yn yr Hyb Cyfrifon newydd
+    .accesskey = C
+account-hub-checkbox-description = Llif creu cyfrif post newydd arbrofol
 
 ## Compose Tab
 
