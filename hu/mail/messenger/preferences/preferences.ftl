@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Alkalmazkodás a sötét témához
     .accesskey = s
 dark-reader-checkbox-description = Kísérleti funkció, hogy az üzenetablak kövesse a sötét témákat
+account-hub-legend = Fiókközpont
+account-hub-checkbox-label =
+    .label = Fiókok létrehozása az új fiókközpontban
+    .accesskey = l
+account-hub-checkbox-description = Kísérleti postafiók-létrehozási folyamat
 
 ## Compose Tab
 
