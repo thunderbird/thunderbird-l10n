@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Адаптировать к тёмной теме
     .accesskey = в
 dark-reader-checkbox-description = Экспериментальная функция, позволяющая панели сообщений следовать тёмным темам
+account-hub-legend = Центр учётных записей
+account-hub-checkbox-label =
+    .label = Создавайте аккаунты в новом Центре учётных записей
+    .accesskey = С
+account-hub-checkbox-description = Экспериментальный процесс создания новой учетной записи электронной почты
 
 ## Compose Tab
 
