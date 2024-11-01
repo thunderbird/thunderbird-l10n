@@ -433,6 +433,7 @@ account-hub-legend = Kontowy centrum
 account-hub-checkbox-label =
     .label = Konta w nowym kontowym centrumje załožić
     .accesskey = c
+account-hub-checkbox-description = Eksperimentelny wotběh załoženja noweho e-mejloweho konta
 
 ## Compose Tab
 
