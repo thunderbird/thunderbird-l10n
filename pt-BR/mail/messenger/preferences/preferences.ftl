@@ -430,6 +430,10 @@ dark-reader-checkbox-label =
     .accesskey = d
 dark-reader-checkbox-description = Recurso experimental para fazer o painel de mensagens se adaptar a temas escuros
 account-hub-legend = Central de contas
+account-hub-checkbox-label =
+    .label = Crie contas na nova central de contas
+    .accesskey = C
+account-hub-checkbox-description = Fluxo experimental de criação de novas contas de email
 
 ## Compose Tab
 
