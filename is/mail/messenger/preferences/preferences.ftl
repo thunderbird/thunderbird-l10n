@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Aðlaga dökku þema
     .accesskey = d
 dark-reader-checkbox-description = Tilraunaeiginleiki til að láta skilaboðagluggann fylgja dökkum þemum
+account-hub-legend = Reikningamiðstöð
+account-hub-checkbox-label =
+    .label = Búðu til reikninga í nýju reikningamiðstöðinni
+    .accesskey = B
+account-hub-checkbox-description = Tilraunaflæði til að búa til nýja póstreikninga
 
 ## Compose Tab
 
