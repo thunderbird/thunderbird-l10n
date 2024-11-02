@@ -430,6 +430,10 @@ dark-reader-checkbox-label =
     .accesskey = д
 dark-reader-checkbox-description = Хабарламалар панелін қараңғы темаға сай болатындай эксперименттік мүмкіндік
 account-hub-legend = Тіркелгілер орталығы
+account-hub-checkbox-label =
+    .label = Жаңа Тіркелгілер орталығында тіркелгілерді жасау
+    .accesskey = с
+account-hub-checkbox-description = Пошта тіркелгілерін жасаудың жаңа, эксперименттік үрдісі
 
 ## Compose Tab
 
