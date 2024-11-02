@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Adaptar al thema obscur
     .accesskey = d
 dark-reader-checkbox-description = Functionalitate experimental proque le pannello de messages seque le themas obscur
+account-hub-legend = Centro de contos
+account-hub-checkbox-label =
+    .label = Crear contos in le nove Centro de contos
+    .accesskey = c
+account-hub-checkbox-description = Fluxo experimental pro le creation de un nove conto de posta
 
 ## Compose Tab
 
