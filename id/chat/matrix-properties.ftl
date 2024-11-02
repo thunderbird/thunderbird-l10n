@@ -128,10 +128,77 @@ detail-alias = Alias: { $value }
 detail-guest = Akses Tamu: { $value }
 # This is a heading, followed by the power-level-* strings
 detail-power = Tingkat Daya:
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-ban = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Blokir pengguna dengan userId dari ruangan dengan pesan alasan opsional. Memerlukan izin untuk mencekal pengguna.
+# $commandName is the command name
+command-invite = { $commandName } &lt;userId&gt;: Undang pengguna ke ruangan.
+# $commandName is the command name
+command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Keluarkan pengguna dengan userId dari ruangan dengan pesan alasan opsional. Memerlukan izin untuk menendang pengguna.
+# $commandName is the command name
+command-nick = { $commandName } &lt;display_name&gt;: Ubah nama tampilan Anda.
+# $commandName is the command name
+command-op = { $commandName } &lt;userId&gt; [&lt;tingkat kekuatan&gt;]: Menentukan tingkat kekuatan pengguna. Masukkan nilai integer, Pengguna: 0, Moderator: 50 dan Admin: 100. Nilai bakunya adalah 50 jika tidak ada argumen yang diberikan. Memerlukan izin untuk mengubah tingkat kekuatan anggota. Tidak berfungsi pada admin selain Anda sendiri.
+# $commandName is the command name
+command-leave = { $commandName }: Tinggalkan ruangan saat ini.
+# $commandName is the command name
+command-topic = { $commandName } &lt;topic&gt;: Mengatur topik ruangan. Memerlukan izin untuk mengubah topik ruangan.
+# $commandName is the command name
+command-unban = { $commandName } &lt;userId&gt;: Membatalkan pemblokiran pengguna yang diblokir dari ruangan. Memerlukan izin untuk mencekal pengguna.
+# $commandName is the command name
+command-roomname = { $commandName } &lt;name&gt;: Menyetel nama ruangan. Memerlukan izin untuk mengubah nama ruangan.
+# $commandName is the command name
+command-detail = { $commandName }: Menampilkan detail ruangan.
+# $commandName is the command name
+command-addalias = { $commandName } &lt;alias&gt;: Buat alias untuk ruangan. Alias ruang yang diharapkan dalam bentuk '#localname:domain'. Memerlukan izin untuk menambahkan alias.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;alias&gt;: Hapus alias untuk ruangan. Alias ruang yang diharapkan dalam bentuk '#localname:domain'. Memerlukan izin untuk menghapus alias.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;newVersion&gt;: Tingkatkan ruang ke versi tertentu. Memerlukan izin untuk meningkatkan versi ruangan.
+# $commandName is the command name
+command-me = { $commandName } &lt;aksi&gt;: Melakukan aksi.
+# $commandName is the command name
+command-msg = { $commandName } &lt;userId&gt; &lt;pesan&gt;: Mengirim pesan langsung ke pengguna tertentu.
+# $commandName is the command name
+command-join = { $commandName } &lt;roomId&gt;: Bergabung dengan ruangan yang ditentukan.
+#    $user is the name of the user who accepted the invitation.
+#    $userWhoSent is the name of the user who sent the invitation.
+message-accepted-invite-for = { $user } menerima undangan untuk { $userWhoSent }.
 #    $user is the name of the user who accepted an invitation.
 message-accepted-invite = { $user } menerima undangan.
+#    $user is the name of the user who invited.
+#    $userWhoGotInvited is the name of the user who got invited.
+message-invited = { $user } mengundang { $userWhoGotInvited }.
+#    $user is the name of the user who set their display name.
+#    $changedName is the newly set display name.
+message-display-name-set = { $user } menyetel nama tampilan mereka menjadi { $changedName }.
+#    $user is the name of the user who removed their display name.
+#    $nameRemoved is the old display name which has been removed.
+message-display-name-remove = { $user } menghapus nama tampilan mereka { $nameRemoved }.
+#    $user is the name of the user who has joined the room.
+message-joined = { $user } telah bergabung ke ruangan.
+#    $user is the name of the user who has rejected the invitation.
+message-rejected-invite = { $user } telah menolak undangan.
 #    $user is the name of the user who has left the room.
 message-left = { $user } telah meninggalkan ruangan.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+message-kicked = { $user } menendang { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } menendang { $userGotKicked }. Alasan: { $reason }
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+message-withdrew-invite = { $user } menarik undangan { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } menarik undangan { $userInvitationWithdrawn }. Alasan: { $reason }
+#    $user is the name of the user who has removed the room name.
+message-room-name-remove = { $user } menghapus nama ruangan.
 #    $user is the name of the user who has made future room history visible to all room members.
 message-history-shared = { $user } membuat riwayat ruang mendatang dapat dilihat oleh semua anggota ruang.
 #    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
