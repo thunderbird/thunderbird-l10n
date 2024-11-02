@@ -429,6 +429,7 @@ dark-reader-checkbox-label =
     .label = Қараңғы темаға бейімдеу
     .accesskey = д
 dark-reader-checkbox-description = Хабарламалар панелін қараңғы темаға сай болатындай эксперименттік мүмкіндік
+account-hub-legend = Тіркелгілер орталығы
 
 ## Compose Tab
 
