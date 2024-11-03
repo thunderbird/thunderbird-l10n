@@ -429,6 +429,11 @@ dark-reader-checkbox-label =
     .label = Adapt to dark theme
     .accesskey = d
 dark-reader-checkbox-description = Experimental feature to make the message pane follow dark themes
+account-hub-legend = Account hub
+account-hub-checkbox-label =
+    .label = Create accounts in the new Account Hub
+    .accesskey = C
+account-hub-checkbox-description = Experimental new mail account creation flow
 
 ## Compose Tab
 
