@@ -171,6 +171,10 @@ message-accepted-invite = { $user } menerima undangan.
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user } mengundang { $userWhoGotInvited }.
+#    $user is the name of the user who changed their display name.
+#    $oldDisplayName is the old display name.
+#    $newDisplayName is the new display name.
+message-display-name-changed = { $user } mengubah nama tampilan mereka dari { $oldDisplayName } menjadi { $newDisplayName }.
 #    $user is the name of the user who set their display name.
 #    $changedName is the newly set display name.
 message-display-name-set = { $user } menyetel nama tampilan mereka menjadi { $changedName }.
@@ -183,6 +187,9 @@ message-joined = { $user } telah bergabung ke ruangan.
 message-rejected-invite = { $user } telah menolak undangan.
 #    $user is the name of the user who has left the room.
 message-left = { $user } telah meninggalkan ruangan.
+#    $user is the name of the user who unbanned.
+#    $userUnbanned is the name of the user who got unbanned.
+message-unbanned = { $user } membatalkan pencekalan { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } menendang { $userGotKicked }.
@@ -199,6 +206,9 @@ message-withdrew-invite = { $user } menarik undangan { $userInvitationWithdrawn 
 message-withdrew-invite-with-reason = { $user } menarik undangan { $userInvitationWithdrawn }. Alasan: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } menghapus nama ruangan.
+#    $user is the name of the user who changed the room name.
+#    $newRoomName is the new room name.
+message-room-name-changed = { $user } mengubah nama ruangan menjadi { $newRoomName }.
 #    $user is the name of the user who has made future room history visible to all room members.
 message-history-shared = { $user } membuat riwayat ruang mendatang dapat dilihat oleh semua anggota ruang.
 #    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
