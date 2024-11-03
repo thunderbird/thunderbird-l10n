@@ -2,9 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
+import-page-title = Impor
+export-page-title = Ekspor
 
 ## Header
 
+import-start = Alat Impor
+import-start-title = Impor pengaturan atau data dari aplikasi atau berkas.
 
 ## Buttons
 

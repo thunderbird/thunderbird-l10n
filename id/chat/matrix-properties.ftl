@@ -209,6 +209,16 @@ message-room-name-remove = { $user } menghapus nama ruangan.
 #    $user is the name of the user who changed the room name.
 #    $newRoomName is the new room name.
 message-room-name-changed = { $user } mengubah nama ruangan menjadi { $newRoomName }.
+#    $user is the name of the target user whose power level has been changed.
+#    $oldPowerLevel is the old power level.
+#    $newPowerLevel is the new power level.
+message-power-level-from-to = { $user } dari { $oldPowerLevel } ke { $newPowerLevel }
+#    $user is the name of the user who has allowed guests to join the room.
+message-guest-allowed = { $user } telah mengizinkan tamu untuk bergabung ke ruangan.
+#    $user is the name of the user who has prevented guests to join the room.
+message-guest-prevented = { $user } telah mencegah tamu bergabung ke ruangan.
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = { $user } membuat riwayat ruang di masa mendatang dapat dilihat oleh siapa saja.
 #    $user is the name of the user who has made future room history visible to all room members.
 message-history-shared = { $user } membuat riwayat ruang mendatang dapat dilihat oleh semua anggota ruang.
 #    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
@@ -225,6 +235,17 @@ message-alias-added = { $user } menambahkan { $addresses } sebagai alamat altern
 #    $user is the name of the user who removed the address.
 #    $addresses is a comma delimited list of removed addresses.
 message-alias-removed = { $user } menghapus { $addresses } sebagai alamat alternatif untuk ruangan ini.
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = { $user } menghapus { $removedAddresses } dan menambahkan { $addedAddresses } sebagai alamat untuk ruangan ini.
+message-encryption-start = Pesan dalam percakapan ini sekarang dienkripsi ujung-ke-ujung.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } ingin memverifikasi { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } membatalkan verifikasi dengan alasan: { $reason }
 message-verification-done = Verifikasi selesai.
 message-decryption-error = Tidak dapat mendekripsi isi pesan ini. Untuk meminta kunci enkripsi dari perangkat Anda yang lain, klik kanan pesan ini.
 message-decrypting = Mendekripsi...

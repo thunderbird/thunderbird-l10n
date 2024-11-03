@@ -11,6 +11,7 @@
 <!ENTITY newMenu.label "Baru">
 <!ENTITY newMenu.accesskey "B">
 <!ENTITY newMessage.label "Pesan">
+<!ENTITY newMessage.accesskey "B">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Kenalan dari Buku Alamat…">
 <!ENTITY newContact.accesskey "K">

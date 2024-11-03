@@ -5,6 +5,17 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Jungkitkan Bilah Filter Cepat
+quick-filter-button-label = Filter Cepat
+thread-pane-header-display-button =
+    .title = Opsi tampilan daftar pesan
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count = { $count } Pesan
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count = { $count } Dipilih
 
 ## Quick Filter Bar
 

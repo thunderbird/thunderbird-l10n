@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "J">
 <!ENTITY newVirtualFolderCmd.label "Pencarian Tersimpan…">
 <!ENTITY newVirtualFolderCmd.accesskey "c">
-<!ENTITY newCreateEmailAccountCmd.label "Dapatkan Akun Email Baru…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "B">
-<!ENTITY newExistingEmailAccountCmd.label "Akun Email yang Sudah Ada…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Akun Ngobrol…">
 <!ENTITY newIMAccountCmd.accesskey "N">
 <!ENTITY newFeedAccountCmd.label "Akun Umpan...">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Hapus Pesan">
-<!ENTITY deleteMsgCmd.accesskey "H">
-<!ENTITY undeleteMsgCmd.label "kembalikan Pesan">
-<!ENTITY undeleteMsgCmd.accesskey "k">
-<!ENTITY deleteMsgsCmd.label "Hapus Pesan Terpilih">
-<!ENTITY deleteMsgsCmd.accesskey "H">
-<!ENTITY undeleteMsgsCmd.label "Kembalikan Pesan yang Dipilih">
-<!ENTITY undeleteMsgsCmd.accesskey "K">
-<!ENTITY deleteFolderCmd.label "Hapus Folder">
-<!ENTITY deleteFolderCmd.accesskey "u">
-<!ENTITY unsubscribeNewsgroupCmd.label "Berhenti Langganan">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
 <!ENTITY selectMenu.label "Pilih">
 <!ENTITY selectMenu.accesskey "P">
 <!ENTITY all.label "Semua">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "s">
 <!ENTITY menuFavoriteFolder.label "Folder Favorit">
 <!ENTITY menuFavoriteFolder.accesskey "a">
-<!ENTITY folderPropsCmd2.label "Keterangan:">
-<!ENTITY folderPropsFolderCmd2.label "Properti Folder">
-<!ENTITY folderPropsNewsgroupCmd2.label "Properti Newsgroup">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Batal Menghapus Pesan">
 <!ENTITY redoDeleteMsgCmd.label "Ulangi Menghapus Pesan">
 <!ENTITY undoMoveMsgCmd.label "Batalkan Memindah Pesan">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "T">
 <!ENTITY showFolderPaneCmd.label "Panel Folder">
 <!ENTITY showFolderPaneCmd.accesskey "F">
-<!ENTITY showFolderPaneColsCmd.label "Kolom Panel Folder">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "Panel Pesan">
 <!ENTITY showMessageCmd.accesskey "P">
 
@@ -485,6 +463,8 @@
 <!ENTITY deleteJunk.accesskey "l">
 <!ENTITY importCmd.label "Impor…">
 <!ENTITY importCmd.accesskey "I">
+<!ENTITY exportCmd.label "Ekspor…">
+<!ENTITY exportCmd.accesskey "k">
 <!ENTITY clearRecentHistory.label "Bersihkan Riwayat Terakhir…">
 <!ENTITY clearRecentHistory.accesskey "H">
 <!ENTITY accountManagerCmd2.label "Pengaturan Akun">
@@ -594,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Pesan Baru">
 <!ENTITY appmenuNewContactCmd.label "Kontak Buku Alamat...">
-<!ENTITY appmenuEditMenu.label "Sunting">
 <!ENTITY appmenuToolbarLayout.label "Tata Letak Bilah Alat...">
-<!ENTITY appmenuSelectThread.label "Pilih Utas">
-<!ENTITY appmenuSelectFlagged.label "Pilih Pesan Berbintang">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Tag baru…">
@@ -640,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "B">
 <!ENTITY folderContextMarkNewsgroupRead.label "Tandai Newsgroup Sudah Dibaca">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "b">
-<!ENTITY folderContextMarkMailFolderRead.label "Tandai Folder Sudah Dibaca">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "b">
 <!ENTITY folderContextSubscribe.label "Berlangganan…">
 <!ENTITY folderContextSubscribe.accesskey "B">
 <!ENTITY folderContextSearchForMessages.label "Cari Pesan…">
@@ -691,7 +666,6 @@
 <!ENTITY locationColumn.label "Lokasi">
 <!ENTITY idColumn.label "Urutan Diterima">
 <!ENTITY attachmentColumn.label "Lampiran">
-
 <!ENTITY deleteColumn.label "Hapus">
 
 <!-- Thread Pane Tooltips -->
@@ -717,7 +691,6 @@
 <!ENTITY locationColumn2.tooltip "Urut berdasarkan lokasi">
 <!ENTITY idColumn2.tooltip "Urutkan berdasarkan pesanan diterima">
 <!ENTITY attachmentColumn2.tooltip "Urut berdasarkan lampiran">
-
 <!ENTITY deleteColumn.tooltip "Hapus sebuah pesan">
 
 <!-- Thread Pane Context Menu -->
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Balas ke Daftar">
 <!ENTITY contextReplyList.accesskey "D">
-<!ENTITY contextForward.label "Teruskan">
-<!ENTITY contextForward.accesskey "T">
-<!ENTITY contextForwardAsMenu.label "Teruskan Sebagai">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "Sebaris">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Lampiran">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Teruskan sebagai Lampiran">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Pindahkan Ke">
 <!ENTITY contextMoveMsgMenu.accesskey "P">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Terbaru">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "G">
 <!ENTITY copyEmailCmd.label "Salin Alamat Email">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Stop">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Muat Ulang">
-<!ENTITY reloadCmd.accesskey "M">
 <!ENTITY openInBrowser.label "Buka di Peramban">
 <!ENTITY openInBrowser.accesskey "P">
 <!ENTITY openLinkInBrowser.label "Buka Tautan di Peramban">
