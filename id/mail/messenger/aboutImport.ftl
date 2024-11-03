@@ -9,15 +9,32 @@ export-page-title = Ekspor
 
 import-start = Alat Impor
 import-start-title = Impor pengaturan atau data dari aplikasi atau berkas.
+import-start-description = Pilih sumber yang ingin Anda impor. Nanti Anda akan diminta untuk memilih data mana yang perlu diimpor.
+import-from-app = Impor dari Aplikasi
+import-file = Impor dari berkas
+import-file-title = Pilih berkas untuk diimpor isinya.
+import-file-description = Pilih untuk mengimpor profil, buku alamat, atau kalender yang telah dicadangkan sebelumnya.
+import-address-book-title = Impor berkas Buku Alamat
+import-calendar-title = Impor berkas Kalender
+export-profile = Ekspor
 
 ## Buttons
 
+button-back = Mundur
+button-continue = Lanjutkan
+button-export = Ekspor
+button-finish = Selesai
 
 ## Import from app steps
 
+app-name-thunderbird = Thunderbird
 app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook
 app-name-apple-mail = Apple Mail
+source-thunderbird = Impor dari pemasangan { app-name-thunderbird } lainnya
+source-thunderbird-description = Impor setelan, filter, pesan, dan data lainnya dari profil { app-name-thunderbird }.
+source-seamonkey = Impor dari pemasangan { app-name-seamonkey }
+source-seamonkey-description = Impor setelan, filter, pesan, dan data lainnya dari profil { app-name-seamonkey }.
 
 ## Import from file selections
 
