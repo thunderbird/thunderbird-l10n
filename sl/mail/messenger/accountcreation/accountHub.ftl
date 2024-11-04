@@ -109,3 +109,7 @@ account-hub-add-new-email = Dodaj drug e-poštni naslov
 account-hub-result-imap-description = E-pošta in mape naj se sinhronizirajo s strežnikom
 account-hub-result-pop-description = E-pošta in mape naj bodo shranjene na računalniku
 account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Sinhroniziraj mape in e-pošto z uporabo spletnih storitev Microsoft Exchange
+account-hub-result-ews-text = Strežnik
+account-hub-result-recommended-label = Priporočeno
+account-hub-edit-configuration = Uredi nastavitve
