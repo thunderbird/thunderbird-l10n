@@ -109,6 +109,7 @@ account-hub-add-new-email = Dalšu e-mejlowu adresu přidać
 account-hub-result-imap-description = Dźeržće swoje rjadowaki a e-mejle na swojim serwerje synchrone
 account-hub-result-pop-description = Wobchowajće swoje rjadowaki a e-mejle na swojim ličaku
 account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Wužiwajće Microsoft Exchange Web Services, zo byšće swoje rjadowaki a mejlki synchronizował
 account-hub-result-ews-text = Serwer
 account-hub-result-recommended-label = Doporučeny
 account-hub-edit-configuration = Konfiguraciju wobdźěłać
