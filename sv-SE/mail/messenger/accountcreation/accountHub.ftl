@@ -109,6 +109,7 @@ account-hub-add-new-email = Lägg till ytterligare en e-postadress
 account-hub-result-imap-description = Håll dina mappar och e-postmeddelanden synkroniserade på din server
 account-hub-result-pop-description = Behåll dina mappar och e-postmeddelanden på din dator
 account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Använd Microsoft Exchange webbtjänster för att synkronisera dina mappar och e-postmeddelanden
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Rekommenderad
 account-hub-edit-configuration = Redigera konfiguration
