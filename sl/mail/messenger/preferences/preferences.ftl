@@ -430,6 +430,10 @@ dark-reader-checkbox-label =
     .accesskey = d
 dark-reader-checkbox-description = Poskusna možnost, s katero se podokno sporočil prilagodi nastavljenim temnim temam
 account-hub-legend = Središče za račune
+account-hub-checkbox-label =
+    .label = Ustvarjanje računov v novem središču za račune
+    .accesskey = č
+account-hub-checkbox-description = Poskusni nov postopek ustvarjanja novih računov za e-pošto
 
 ## Compose Tab
 
