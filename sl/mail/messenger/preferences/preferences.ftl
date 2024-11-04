@@ -819,6 +819,7 @@ sync-disconnected-turn-on-sync = Vklopi sinhronizacijo …
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Izvozi račune v { -brand-product-name } za mobilne naprave
+qr-export-description = S pomočjo kode QR hitro prenesite nastavitve računa z računalnika na mobilno napravo. Izberite, katere račune želite vključiti, odločite se, ali želite prenesti tudi geslo, in z mobilno napravo preberite kodo. Hitro, varno in preprosto.
 qr-export-get-app = Še nimate { -brand-product-name(sklon: "rodilnik") } za mobilne naprave? <a data-l10n-name="app-link">Prenesite ga iz trgovine Google Play</a>
 qr-export-create = Ustvarite kodo QR za izvoz računov
 qr-export-select-accounts = Izberite, katere račune želite izvoziti:
@@ -828,6 +829,7 @@ qr-export-select-all-accounts = Izberi vse
 qr-export-security-legend = Varnost
 qr-export-include-passwords = Vključi vsa gesla računov
 qr-export-oauth-warning = Nekateri izmed računov uporabljajo metodo overjanja, ki bo morda zahtevala ponovno overitev na mobilni napravi. Pri tem boste morda morali znova vnesti gesla.
+qr-export-security-hint = Ob skeniranju naslednjih kod QR se bodo nastavitve računa – vključno z e-pošto in geslom – varno prenesle z ene naprave na drugo. Med postopkom se nobeni podatki ne zbirajo, shranjujejo ali delijo z drugimi. Prenos poteka neposredno med vašima napravama.
 qr-export-security-warning = Za lastno varnost se prepričajte, da ste v zasebnem okolju, in skenirajte samo kode QR iz zaupanja vrednih virov.
 qr-export-start-export = Izvozi
 # Variables:
@@ -839,6 +841,15 @@ qr-export-scan-progress =
         [two] { $step } od { $count } QR-kod
         [few] { $step } od { $count } QR-kod
        *[other] { $step } od { $count } QR-kod
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Skenirajte kodo QR s { -brand-product-name(sklon: "orodnik") } na mobilni napravi
+        [two] Skenirajte kodi QR s { -brand-product-name(sklon: "orodnik") } na mobilni napravi
+        [few] Skenirajte kode QR s { -brand-product-name(sklon: "orodnik") } na mobilni napravi
+       *[other] Skenirajte kode QR s { -brand-product-name(sklon: "orodnik") } na mobilni napravi
     }
 qr-export-scan-step1 = Odprite { -brand-product-name(sklon: "tozilnik") } na svoji mobilni napravi
 qr-export-scan-step2 = Pojdi v nastavitve
