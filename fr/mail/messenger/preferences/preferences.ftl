@@ -842,7 +842,7 @@ qr-export-scan-progress =
 # $count (Number) - Total number of QR codes to step through.
 qr-export-scan-description =
     { $count ->
-        [one] Scannez un code QR avec { -brand-product-name } sur votre appareil mobile
+        [one] Scannez le code QR avec { -brand-product-name } sur votre appareil mobile
        *[other] Scannez les codes QR avec { -brand-product-name } sur votre appareil mobile
     }
 qr-export-scan-step1 = Ouvrir { -brand-product-name } sur votre appareil mobile
@@ -854,7 +854,7 @@ qr-export-scan-step4-revision = Appuyez sur <strong>Scanner le code QR</strong> 
 qr-export-back = Retour
 qr-export-next = Suivant
 qr-export-done = Terminé
-qr-export-summary-description = Comptes exportés. Continuer sur votre appareil mobile.
+qr-export-summary-description = Comptes exportés. Continuez sur votre appareil mobile.
 qr-export-summary-title = Résumé de l’exportation :
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
@@ -867,7 +867,7 @@ qr-export-summary-qr-count =
 # $count (Number) - Number of accounts included in the export.
 qr-export-summary-accounts =
     { $count ->
-        [one] { $count } comptes exportés :
+        [one] { $count } compte exporté :
        *[other] { $count } comptes exportés :
     }
 qr-export-summary-passwords-included = Mots de passe inclus
