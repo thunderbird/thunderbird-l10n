@@ -40,7 +40,6 @@ account-hub-sync-button = 登录以同步…
 
 ## Email page
 
-account-hub-email-title = 设置您的电子邮件账户
 account-hub-add-email-title = 添加您的账户
 account-hub-manually-configure-email-title = 设置账户配置
 account-hub-email-cancel-button = 取消
