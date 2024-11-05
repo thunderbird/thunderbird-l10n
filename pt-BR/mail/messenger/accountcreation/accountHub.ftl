@@ -106,3 +106,6 @@ account-hub-email-enter-password = Digite a senha da sua conta de email
 account-hub-email-sync-accounts = Sincronizar suas agendas e catálogos de endereços
 account-hub-test-configuration = Testar
 account-hub-add-new-email = Adicionar outro email
+account-hub-result-imap-description = Manter seus emails e pastas sincronizados no servidor
+account-hub-result-pop-description = Manter seus emails e pastas neste computador
+account-hub-result-ews-shortname = Exchange
