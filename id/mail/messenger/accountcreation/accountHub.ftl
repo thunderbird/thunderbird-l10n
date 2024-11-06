@@ -15,6 +15,12 @@
 
 ## Initial setup page
 
+account-hub-email-setup-button = Akun Surel
+    .title = Menyiapkan suatu akun surel
+account-hub-calendar-setup-button = Kalender
+    .title = Menyiapkan suatu kalender lokal atau jarak jauh
+account-hub-address-book-setup-button = Buku Alamat
+    .title = Menyiapkan suatu buku alamat lokal atau jarak jauh
 
 ## Email page
 

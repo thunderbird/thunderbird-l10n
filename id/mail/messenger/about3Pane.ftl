@@ -368,8 +368,25 @@ threadpane-message-replied =
 threadpane-message-redirected =
     .alt = Indikator dialihkan
     .title = Pesan dialihkan
+threadpane-message-forwarded =
+    .alt = Indikator diteruskan
+    .title = Pesan diteruskan
+threadpane-message-replied-forwarded =
+    .alt = Indikator dijawab dan diteruskan
+    .title = Pesan dijawab dan diteruskan
+threadpane-message-replied-redirected =
+    .alt = Indikator dijawab dan dialihkan
+    .title = Pesan dijawab dan dialihkan
+threadpane-message-forwarded-redirected =
+    .alt = Indikator diteruskan dan dialihkan
+    .title = Pesan diteruskan dan dialihkan
+threadpane-message-replied-forwarded-redirected =
+    .alt = Indikator dijawab, diteruskan, dan dialihkan
+    .title = Pesan dijawab, diteruskan, dan dialihkan
 apply-columns-to-menu =
     .label = Terapkan setelan kolom untuk…
+apply-current-view-to-menu =
+    .label = Terapkan tampilan saat ini ke…
 apply-current-view-to-folder =
     .label = Folder…
 apply-current-view-to-folder-children =
@@ -377,12 +394,35 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Terapkan Perubahan?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Terapkan setelan kolom folder ini untuk { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Terapkan setelan kolom folder ini untuk { $name } dan folder di bawahnya?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Terapkan tampilan folder saat ini ke { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Terapkan tampilan folder saat ini ke { $name } dan turunannya?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count = <span>{ $unread }</span> belum dibaca dari <span>{ $total }</span> pesan
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count = <span>{ $total }</span> pesan
+threadpane-card-menu-button =
+    .title = Menu pesan
+message-list-placeholder-no-messages = Tidak ada pesan ditemukan
+message-list-placeholder-multiple-folders = Beberapa folder dipilih
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label = Tandai Folder Sudah Dibaca
+    .accesskey = d

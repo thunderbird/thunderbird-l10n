@@ -35,33 +35,53 @@ source-thunderbird = Impor dari pemasangan { app-name-thunderbird } lainnya
 source-thunderbird-description = Impor setelan, filter, pesan, dan data lainnya dari profil { app-name-thunderbird }.
 source-seamonkey = Impor dari pemasangan { app-name-seamonkey }
 source-seamonkey-description = Impor setelan, filter, pesan, dan data lainnya dari profil { app-name-seamonkey }.
+source-outlook = Impor dari { app-name-outlook }
+source-outlook-description = Impor akun, buku alamat, dan pesan dari { app-name-outlook }.
+source-apple-mail = Impor dari { app-name-apple-mail }
+source-apple-mail-description = Impor pesan dari { app-name-apple-mail }.
 
 ## Import from file selections
 
 
 ## Import from app profile steps
 
+profile-file-picker-archive = Pilih berkas <strong>ZIP</strong>
+profile-file-picker-archive-description = Berkas ZIP harus kurang dari 2 GB.
+profile-file-picker-archive-title = Pilih berkas ZIP (kurang dari 2 GB)
+items-pane-title2 = Pilih yang akan diimpor:
 items-pane-directory = Direktori:
 items-pane-profile-name = Nama profil:
 items-pane-checkbox-accounts = Akun dan Pengaturan
 items-pane-checkbox-address-books = Buku Alamat
 items-pane-checkbox-calendars = Kalender
 items-pane-checkbox-mail-messages = Pesan Surel
+items-pane-override = Data yang ada atau identik tidak akan ditimpa.
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Pilih format berkas yang berisi data Buku Alamat Anda.
+addr-book-csv-file = Berkas yang dipisahkan koma atau tab (.csv, .tsv)
 addr-book-ldif-file = Berkas LDIF (.ldif)
 addr-book-vcard-file = Berkas vCard (.vcf, .vcard)
 addr-book-sqlite-file = Berkas basis data SQLite (.sqlite)
 addr-book-mab-file = Berkas basis data Mork (.mab)
 addr-book-file-picker = Pilih berkas buku alamat
 addr-book-csv-field-map-title = Cocok nama bidang
+addr-book-csv-field-map-desc = Pilih bidang buku alamat yang sesuai dengan bidang sumber. Hapus centang pada bidang yang tidak ingin Anda impor.
+addr-book-directories-title = Pilih ke mana akan mengimpor data yang dipilih
+addr-book-directories-pane-source = Berkas sumber:
 
 ## Import from calendar file steps
 
+calendar-select-all-items = Pilih semua
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = Mengimpor… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Mengekspor… { $progressPercent }
+progress-pane-finished-desc2 = Selesai.
 error-pane-title = Galat
 error-message-no-profile = Tidak ada profil ditemukan.
 
@@ -77,6 +97,7 @@ csv-target-field = Bidang buku alamat
 
 export-open-profile-folder = Buka folder profil
 export-file-picker2 = Ekspor ke berkas ZIP
+export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
@@ -94,3 +115,6 @@ footer-support-forum = Forum dukungan
 ## Step navigation on top of the wizard pages
 
 step-confirm = Konfirmasi
+# Variables:
+# $number (number) - step number
+step-count = { $number }
