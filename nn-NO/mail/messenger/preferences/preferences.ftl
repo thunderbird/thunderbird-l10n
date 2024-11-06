@@ -820,6 +820,8 @@ qr-export-accounts-legend = E-postkontoar
 qr-export-select-all-accounts = Marker alle
 qr-export-security-legend = Sikkerheit
 qr-export-include-passwords = Inkluder alle kontopassord
+qr-export-security-hint = Ved å skanne følgjande QR-kodar vil kontoinnstillingane dine – inkludert e-post og passord – blir overført sikkert. Vi samlar ikkje inn, lagrar eller deler nokon av desse dataa under prosessen. Overføringa skjer direkte mellom einingane dine.
+qr-export-security-warning = For eiga sikkerheit, sørg for at du er i ein privat setting og berre skann QR-kodar frå pålitelege kjelder.
 qr-export-start-export = Eksporter
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
