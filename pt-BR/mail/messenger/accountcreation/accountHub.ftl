@@ -109,3 +109,6 @@ account-hub-add-new-email = Adicionar outro email
 account-hub-result-imap-description = Manter seus emails e pastas sincronizados no servidor
 account-hub-result-pop-description = Manter seus emails e pastas neste computador
 account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-text = Servidor
+account-hub-result-recommended-label = Recomendado
+account-hub-edit-configuration = Editar configuração
