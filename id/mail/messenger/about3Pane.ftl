@@ -122,9 +122,15 @@ quick-filter-bar-gloda-upsell-line2 = Tekan tombol ‘Enter’ sekali lagi untuk
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Ambil Pesan
 folder-pane-get-all-messages-menuitem =
     .label = Ambil Semua Pesan Baru
     .accesskey = A
+folder-pane-write-message-button = Pesan Baru
+    .title = Susun suatu pesan baru
+folder-pane-more-menu-button =
+    .title = Opsi panel folder
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Mode Folder
@@ -359,6 +365,9 @@ threadpane-message-new =
 threadpane-message-replied =
     .alt = Indikator dibalas
     .title = Pesan dibalas
+threadpane-message-redirected =
+    .alt = Indikator dialihkan
+    .title = Pesan dialihkan
 apply-columns-to-menu =
     .label = Terapkan setelan kolom untuk…
 apply-current-view-to-folder =
