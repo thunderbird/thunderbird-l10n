@@ -21,9 +21,20 @@ account-hub-calendar-setup-button = Kalender
     .title = Menyiapkan suatu kalender lokal atau jarak jauh
 account-hub-address-book-setup-button = Buku Alamat
     .title = Menyiapkan suatu buku alamat lokal atau jarak jauh
+account-hub-chat-setup-button = Obrolan
+    .title = Menyiapkan suatu akun obrolan
+account-hub-feed-setup-button = Asupan RSS
+    .title = Menyiapkan suatu akun asupan RSS
+account-hub-newsgroup-setup-button = Newsgroup
+    .title = Menyiapkan suatu akun newsgroup
+account-hub-import-setup-button = Impor
+    .title = Impor suatu profil yang dicadangkan
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Masuk untuk Sinkronisasi…
 
 ## Email page
 
+account-hub-add-email-title = Tambahkan Akun Anda
 account-hub-email-cancel-button = Batal
 account-hub-email-stop-button = Berhenti
 account-hub-email-back-button = Mundur
@@ -34,8 +45,18 @@ account-hub-email-continue-button = Lanjutkan
 account-hub-email-confirm-button = Konfirmasi
 account-hub-incoming-server-legend = Server masuk
 account-hub-outgoing-server-legend = Server keluar
+account-hub-result-incoming-server-legend = Server masuk
+    .title = Server masuk
+account-hub-result-outgoing-server-legend = Server keluar
+    .title = Server keluar
 account-hub-protocol-label = Protokol
 account-hub-hostname-label = Nama host
+account-hub-result-hostname-label = Nama host
+    .title = Nama host
+account-hub-result-authentication-label = Otentikasi
+    .title = Otentikasi
+account-hub-port-label = Port
+    .title = Atur nomor port ke 0 untuk deteksi otomatis
 
 ## Incoming/Outgoing SSL Authentication options
 
