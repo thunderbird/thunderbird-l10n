@@ -497,6 +497,7 @@ conversation-view-checkbox-label =
     .accesskey = k
 conversation-view-checkbox-description = Experimentální funkce založená na Gloda, používejte ji na vlastní nebezpečí
 label-experiment = Experimentální
+dark-reader-legend = Barvy těla zprávy
 dark-reader-checkbox-label =
     .label = Přizpůsobit tmavému vzhledu
     .accesskey = d
