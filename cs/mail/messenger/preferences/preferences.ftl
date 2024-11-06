@@ -497,10 +497,11 @@ conversation-view-checkbox-label =
     .accesskey = k
 conversation-view-checkbox-description = Experimentální funkce založená na Gloda, používejte ji na vlastní nebezpečí
 label-experiment = Experimentální
-dark-reader-legend = Barvy těla zprávy
+dark-reader-legend = Barvy podokna zprávy
 dark-reader-checkbox-label =
-    .label = Přizpůsobit tmavému vzhledu
+    .label = Přizpůsobit se tmavému vzhledu
     .accesskey = d
+dark-reader-checkbox-description = Experimentální funkce, díky které bude podokno zpráv respektovat tmavý motiv.
 account-hub-legend = Centrum účtů
 
 ## Compose Tab
