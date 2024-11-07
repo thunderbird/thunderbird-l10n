@@ -431,7 +431,7 @@ dark-reader-checkbox-label =
 dark-reader-checkbox-description = Fonctionnalité expérimentale pour que le panneau de message s’adapte aux thèmes sombres
 account-hub-legend = Centre de comptes
 account-hub-checkbox-label =
-    .label = Créez des comptes dans le nouveau Centre de comptes
+    .label = Créer des comptes depuis le nouveau Centre de comptes
     .accesskey = C
 account-hub-checkbox-description = Flux expérimental de création de compte courrier
 
@@ -817,10 +817,10 @@ sync-disconnected-turn-on-sync = Activer la synchronisation…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Exporter les comptes vers { -brand-product-name } Mobile
-qr-export-description = Transférez rapidement les paramètres de votre compte de l’ordinateur à l’appareil mobile en générant un code QR. Sélectionnez les comptes à inclure, décidez si vous souhaitez transférer votre mot de passe et scannez le code avec votre appareil mobile. Rapide, sûr et simple.
-qr-export-get-app = Vous n’avez pas encore { -brand-product-name } sur mobile ? <a data-l10n-name="app-link">Disponible sur Google Play</a>
+qr-export-description = Transférez rapidement les paramètres de votre compte de l’ordinateur à un appareil mobile en générant un code QR. Sélectionnez les comptes à inclure, décidez si vous souhaitez transférer votre mot de passe et scannez le code avec votre appareil mobile. C’est rapide, sûr et simple.
+qr-export-get-app = Vous n’avez pas encore { -brand-product-name } sur mobile ? <a data-l10n-name="app-link">Installez-le depuis Google Play</a>
 qr-export-create = Créer un code QR pour exporter vos comptes
-qr-export-select-accounts = Sélectionner les comptes à exporter :
+qr-export-select-accounts = Sélectionnez les comptes à exporter :
 qr-export-no-accounts = Vous ne voyez pas tous vos comptes ? Certains comptes peuvent être désactivés car ils ne sont pas pris en charge par { -brand-product-name } pour Android. <a data-l10n-name="account-support-link">Assistance</a>
 qr-export-accounts-legend = Comptes de messagerie
 qr-export-select-all-accounts = Tout sélectionner
@@ -833,11 +833,7 @@ qr-export-start-export = Exporter
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 # $step (Number) - Current step number of the QR code displayed.
-qr-export-scan-progress =
-    { $count ->
-        [one] Code QR { $step } sur { $count }
-       *[other] { $step } sur { $count } codes QR
-    }
+qr-export-scan-progress = Code QR { $step } sur { $count }
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 qr-export-scan-description =
