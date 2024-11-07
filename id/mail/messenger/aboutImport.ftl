@@ -101,7 +101,15 @@ addr-book-summary-description = Buku alamat baru bernama "{ $addressBookName }" 
 
 import-from-calendar-file-desc = Pilih berkas iCalendar (.ics) yang ingin Anda impor.
 calendar-items-title = Pilih item mana yang akan diimpor.
+calendar-items-loading = Memuat item…
+calendar-items-filter-input2 =
+    .label = Saring item
+    .placeholder = Saring item…
 calendar-select-all-items = Pilih semua
+calendar-deselect-all-items = Batalkan semua pilihan
+calendar-target-title = Pilih tempat untuk mengimpor item yang dipilih.
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = Buat kalender baru bernama <strong>"{ $targetCalendar }"</strong>
 
 ## Import dialog
 
@@ -111,6 +119,11 @@ progress-pane-importing2 = Mengimpor… { $progressPercent }
 progress-pane-exporting2 = Mengekspor… { $progressPercent }
 progress-pane-finished-desc2 = Selesai.
 error-pane-title = Galat
+error-message-zip-file-too-big2 = Berkas ZIP yang dipilih berukuran lebih dari 2 GB. Silakan ekstrak terlebih dahulu, lalu impor dari folder yang diekstrak sebagai pengganti.
+error-message-extract-zip-file-failed2 = Gagal mengekstrak berkas ZIP. Silakan ekstrak secara manual, lalu impor dari folder yang diekstrak sebagai pengganti.
+error-message-failed = Impor gagal tak terduga, informasi lebih lanjut mungkin tersedia di Konsol Kesalahan.
+error-failed-to-parse-ics-file = Tidak ada item yang dapat diimpor ditemukan dalam berkas.
+error-export-failed = Ekspor gagal tak terduga, informasi lebih lanjut mungkin tersedia di Konsol Kesalahan.
 error-message-no-profile = Tidak ada profil ditemukan.
 
 ## <csv-field-map> element
@@ -123,6 +136,7 @@ csv-target-field = Bidang buku alamat
 
 ## Export tab
 
+export-profile-title = Ekspor akun, pesan, buku alamat, dan pengaturan ke berkas ZIP.
 export-open-profile-folder = Buka folder profil
 export-file-picker2 = Ekspor ke berkas ZIP
 export-brand-name = { -brand-product-name }

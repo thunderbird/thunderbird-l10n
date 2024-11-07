@@ -249,6 +249,11 @@ message-verification-cancel2 = { $user } membatalkan verifikasi dengan alasan: {
 message-verification-done = Verifikasi selesai.
 message-decryption-error = Tidak dapat mendekripsi isi pesan ini. Untuk meminta kunci enkripsi dari perangkat Anda yang lain, klik kanan pesan ini.
 message-decrypting = Mendekripsi...
+message-redacted = Pesan disensor.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } berreaksi terhadap { $userThatSentMessage } dengan { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Minta Ulang Kunci
 message-action-redact = Sensor

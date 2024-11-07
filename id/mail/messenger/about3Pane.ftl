@@ -16,6 +16,12 @@ thread-pane-folder-message-count = { $count } Pesan
 # Variables:
 # $count (Number) - The number of messages currently selected.
 thread-pane-folder-selected-count = { $count } Dipilih
+thread-pane-header-context-table-view =
+    .label = Tampilan Tabel
+thread-pane-header-context-cards-view =
+    .label = Tampilan Kartu
+thread-pane-header-context-hide =
+    .label = Sembunyikan Tajuk Daftar Pesan
 
 ## Quick Filter Bar
 
@@ -26,6 +32,10 @@ thread-pane-folder-selected-count = { $count } Dipilih
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Terapkan pesan ketika berganti folder?
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Menu filter cepat
 quick-filter-bar-dropdown-unread =
     .label = Belum Dibaca
 quick-filter-bar-dropdown-starred =
