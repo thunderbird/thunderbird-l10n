@@ -39,12 +39,25 @@ source-outlook = Impor dari { app-name-outlook }
 source-outlook-description = Impor akun, buku alamat, dan pesan dari { app-name-outlook }.
 source-apple-mail = Impor dari { app-name-apple-mail }
 source-apple-mail-description = Impor pesan dari { app-name-apple-mail }.
+source-file2 = Impor dari berkas
+source-file-description = Pilih berkas untuk mengimpor buku alamat, kalender, atau cadangan profil (berkas ZIP).
 
 ## Import from file selections
 
+file-profile2 = Impor Profil Cadangan
+file-profile-description = Pilih profil Thunderbird yang dicadangkan sebelumnya (.zip)
+file-calendar = Impor Kalender
+file-calendar-description = Pilih berkas yang berisi Kalender atau Acara (.ics) yang diekspor
+file-addressbook = Impor Buku Alamat
+file-addressbook-description = Pilih berkas yang berisi Buku Alamat dan Kontak yang diekspor
 
 ## Import from app profile steps
 
+from-app-thunderbird = Impor dari profil { app-name-thunderbird }
+from-app-seamonkey = Impor dari profil { app-name-seamonkey }
+from-app-outlook = Impor dari { app-name-outlook }
+from-app-apple-mail = Impor dari { app-name-apple-mail }
+profiles-pane-title-thunderbird = Impor Pengaturan dan Data dari profil { app-name-thunderbird }.
 profile-file-picker-archive = Pilih berkas <strong>ZIP</strong>
 profile-file-picker-archive-description = Berkas ZIP harus kurang dari 2 GB.
 profile-file-picker-archive-title = Pilih berkas ZIP (kurang dari 2 GB)
