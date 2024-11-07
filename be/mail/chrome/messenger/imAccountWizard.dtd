@@ -2,31 +2,27 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY windowTitle.label            "Майстар стварэння ўліковых запісаў чатаў">
+<!ENTITY windowTitle.label            "Майстар стварэння ўліковага запісу чата">
 
-<!ENTITY accountProtocolTitle.label   "Сетка гутарак">
-<!ENTITY accountProtocolInfo.label    "Калі ласка, выберыце сетку для вашага ўліковага запісу чата.">
-<!ENTITY accountProtocolField.label   "Сетка:">
-<!ENTITY accountProtocolGetMore.label "Болей…">
+<!ENTITY accountProtocolTitle.label   "Пратакол чата">
+<!ENTITY accountProtocolInfo.label    "Калі ласка, выберыце пратакол для вашага ўліковага запісу чата.">
+<!ENTITY accountProtocolField.label   "Пратакол:">
+<!ENTITY accountProtocolGetMore.label "Атрымаць больш…">
 
 <!ENTITY accountUsernameTitle.label   "Імя карыстальніка">
 <!ENTITY accountUsernameDuplicate.label "Гэты ўліковы запіс ужо сканфігураваны!">
 
 <!ENTITY accountPasswordTitle.label   "Пароль">
-<!ENTITY accountPasswordInfo.label    "Увядзіце, калі ласка, ваш пароль у скрынку ніжэй.">
+<!ENTITY accountPasswordInfo.label    "Калі ласка, увядзіце ваш пароль у тэкставае поле ніжэй.">
 <!ENTITY accountPasswordField.label   "Пароль:">
-<!ENTITY accountPasswordManager.label "Уведзены вамі пароль будзе захованы кіраўніком пароляў. Пакіньце скрынку пустой, калі вы хочаце ўводзіць пароль кожны раз падчас злучэння з гэтым рахункам.">
+<!ENTITY accountPasswordManager.label "Уведзены вамі пароль будзе захаваны ў Менеджары пароляў. Калі вы жадаеце, каб у вас запытвалі пароль пры кожным падлучэнні гэтага ўліковага запісу, пакіньце тэкставае поле пустым.">
 
-<!ENTITY accountAdvancedTitle.label   "Пашыраныя наладжванні">
-<!ENTITY accountAdvancedInfo.label    "Вы можаце прапусціць гэты крок, калі хочаце.">
+<!ENTITY accountAdvancedTitle.label   "Пашыраныя параметры">
 <!ENTITY accountAdvanced.newMailNotification.label   "Паведамляць пра новую пошту">
 <!ENTITY accountAliasGroupbox.caption "Лакальны псеўданім">
 <!ENTITY accountAliasField.label      "Псеўданім:">
-<!ENTITY accountAliasInfo.label       "Будзе адлюстроўвацца толькі ў вашых гутарках, вашы сураўмоўнікі не пабачаць яе.">
 <!ENTITY accountProxySettings.caption "Налады проксі">
 <!ENTITY accountProxySettings.change.label     "Змяніць…">
 <!ENTITY accountProxySettings.change.accessKey "З">
 
-<!ENTITY accountSummaryTitle.label   "Зводка">
-<!ENTITY accountSummaryInfo.label    "Зводка звестак, уведзенных вамі, адлюстроўваюцца ніжэй. Праверце іх, калі ласка, перад стварэннем рахунку.">
 <!ENTITY accountSummary.connectNow.label "Падлучыць гэты ўліковы запіс.">
