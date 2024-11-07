@@ -15,7 +15,7 @@
 <!ENTITY deleteButton.accesskey "д">
 <!ENTITY reorderTopButton "Угору">
 <!ENTITY reorderTopButton.accessKey "г">
-<!ENTITY reorderTopButton.toolTip "Перамясціць сіта так, каб яно выконвалася першым">
+<!ENTITY reorderTopButton.toolTip "Перамясціць фільтр так, каб ён выконваўся перад усімі астатнімі">
 <!ENTITY reorderUpButton.label "Рухаць угору">
 <!ENTITY reorderUpButton.accesskey "г">
 <!ENTITY reorderDownButton.label "Рухаць уніз">
