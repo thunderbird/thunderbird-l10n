@@ -8,12 +8,37 @@
 
 ## Form fields
 
+account-setup-password-toggle-show =
+    .title = Tampilkan kata sandi dalam teks polos
+account-setup-password-toggle-hide =
+    .title = Sembunyikan sandi
+account-setup-remember-password = Ingat sandi
+    .accesskey = I
+account-setup-exchange-label = Login Anda
+    .accesskey = L
+#   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
+account-setup-exchange-input =
+    .placeholder = DOMAIN_ANDA\nama_pengguna_anda
+#   Domain refers to the Windows domain in ActiveDirectory. We mean the user's login in Windows at the local corporate network.
+account-setup-exchange-info-icon =
+    .title = Log masuk domain
 
 ## Action buttons
 
+account-setup-button-cancel = Batal
+    .accesskey = a
+account-setup-button-manual-config = Konfigurasikan secara manual...
+    .accesskey = m
+account-setup-button-stop = Hentikan
+    .accesskey = H
+account-setup-button-continue = Lanjutkan
+    .accesskey = L
+account-setup-button-done = Selesai
+    .accesskey = S
 
 ## Notifications
 
+account-setup-looking-up-settings = Mencari konfigurasi...
 
 ## Illustrations
 
