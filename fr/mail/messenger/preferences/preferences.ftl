@@ -819,16 +819,16 @@ sync-disconnected-turn-on-sync = Activer la synchronisation…
 qr-export-pane-header = Exporter les comptes vers { -brand-product-name } Mobile
 qr-export-description = Transférez rapidement les paramètres de votre compte de l’ordinateur à l’appareil mobile en générant un code QR. Sélectionnez les comptes à inclure, décidez si vous souhaitez transférer votre mot de passe et scannez le code avec votre appareil mobile. Rapide, sûr et simple.
 qr-export-get-app = Vous n’avez pas encore { -brand-product-name } sur mobile ? <a data-l10n-name="app-link">Disponible sur Google Play</a>
-qr-export-create = Créez un code QR pour exporter vos comptes
+qr-export-create = Créer un code QR pour exporter vos comptes
 qr-export-select-accounts = Sélectionner les comptes à exporter :
 qr-export-no-accounts = Vous ne voyez pas tous vos comptes ? Certains comptes peuvent être désactivés car ils ne sont pas pris en charge par { -brand-product-name } pour Android. <a data-l10n-name="account-support-link">Assistance</a>
-qr-export-accounts-legend = comptes de messagerie
+qr-export-accounts-legend = Comptes de messagerie
 qr-export-select-all-accounts = Tout sélectionner
 qr-export-security-legend = Sécurité
 qr-export-include-passwords = Inclure tous les mots de passe des comptes
-qr-export-oauth-warning = Certains de vos comptes utilisent une méthode d’authentification qui peut exiger une réauthentification sur votre appareil mobile. Vous devrez peut-être saisir à nouveau vos mots de passe au cours de ce processus.
-qr-export-security-hint = En scannant les codes QR suivants, les paramètres de votre compte, y compris votre adresse électronique et votre mot de passe, seront transférés de manière sécurisée. Nous ne collectons, stockons ou partageons aucune de ces données au cours du processus. Le transfert s’effectue directement entre vos appareils.
-qr-export-security-warning = Pour votre sécurité, veuillez vous assurer que vous êtes dans un environnement privé et ne scanner que des codes QR provenant de sources dignes de confiance.
+qr-export-oauth-warning = Certains de vos comptes utilisent une méthode d’authentification qui peut exiger une nouvelle authentification sur votre appareil mobile. Vous devrez peut-être saisir à nouveau vos mots de passe au cours de ce processus.
+qr-export-security-hint = En scannant les codes QR suivants, les paramètres de votre compte, y compris votre adresse e-mail et votre mot de passe, sont transférés de manière sécurisée. Nous ne collectons, stockons ou partageons aucune de ces données au cours du processus. Le transfert s’effectue directement entre vos appareils.
+qr-export-security-warning = Pour votre sécurité, assurez-vous que vous vous trouvez dans un environnement privé et ne scannez que des codes QR provenant de sources dignes de confiance.
 qr-export-start-export = Exporter
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
