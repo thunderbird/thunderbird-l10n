@@ -23,7 +23,7 @@
 <!ENTITY reorderBottomButton "Уніз">
 <!ENTITY reorderBottomButton.accessKey "н">
 <!ENTITY reorderBottomButton.toolTip "Перамясціць фільтр так, каб ён выконваўся пасля ўсіх астатніх">
-<!ENTITY filterHeader.label "Дазволеныя сіты выконваюцца самастойна ў наступным парадку.">
+<!ENTITY filterHeader.label "Уключаныя фільтры выконваюцца аўтаматычна ў паказаным ніжэй парадку.">
 <!ENTITY filtersForPrefix.label "Фільтры для:">
 <!ENTITY filtersForPrefix.accesskey "С">
 <!ENTITY viewLogButton.label "Журнал фільтраў">
