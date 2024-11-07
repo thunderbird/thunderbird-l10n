@@ -7,3 +7,5 @@
 
 tree-list-view-column-picker =
     .title = Вылучыць слупкі для адлюстравання
+tree-list-view-row-thread-button =
+    .title = Гэта паведамленне з абмеркавання

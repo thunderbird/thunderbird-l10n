@@ -14,26 +14,26 @@
 <!ENTITY deleteButton.label "Выдаліць">
 <!ENTITY deleteButton.accesskey "д">
 <!ENTITY reorderTopButton "Угору">
-<!ENTITY reorderTopButton.accessKey "г">
+<!ENTITY reorderTopButton.accessKey "У">
 <!ENTITY reorderTopButton.toolTip "Перамясціць фільтр так, каб ён выконваўся перад усімі астатнімі">
 <!ENTITY reorderUpButton.label "Рухаць угору">
-<!ENTITY reorderUpButton.accesskey "г">
+<!ENTITY reorderUpButton.accesskey "Р">
 <!ENTITY reorderDownButton.label "Рухаць уніз">
-<!ENTITY reorderDownButton.accesskey "н">
+<!ENTITY reorderDownButton.accesskey "х">
 <!ENTITY reorderBottomButton "Уніз">
 <!ENTITY reorderBottomButton.accessKey "н">
 <!ENTITY reorderBottomButton.toolTip "Перамясціць фільтр так, каб ён выконваўся пасля ўсіх астатніх">
 <!ENTITY filterHeader.label "Уключаныя фільтры выконваюцца аўтаматычна ў паказаным ніжэй парадку.">
 <!ENTITY filtersForPrefix.label "Фільтры для:">
-<!ENTITY filtersForPrefix.accesskey "С">
+<!ENTITY filtersForPrefix.accesskey "Ф">
 <!ENTITY viewLogButton.label "Журнал фільтраў">
-<!ENTITY viewLogButton.accesskey "М">
+<!ENTITY viewLogButton.accesskey "Ж">
 <!ENTITY runFilters.label "Выканаць зараз">
 <!ENTITY runFilters.accesskey "В">
 <!ENTITY stopFilters.label "Спыніць">
 <!ENTITY stopFilters.accesskey "С">
-<!ENTITY folderPickerPrefix.label "Выканаць вылучаныя сіты на:">
-<!ENTITY folderPickerPrefix.accesskey "і">
+<!ENTITY folderPickerPrefix.label "Выканаць выбраны(я) фільтр(ы) ў папцы:">
+<!ENTITY folderPickerPrefix.accesskey "ы">
 <!ENTITY helpButton.label "Даведка">
 <!ENTITY helpButton.accesskey "Д">
 <!ENTITY closeCmd.key "W">
