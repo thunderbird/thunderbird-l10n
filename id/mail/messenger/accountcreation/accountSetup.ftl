@@ -88,6 +88,20 @@ account-setup-getting-started = Memulai
 #  $count (Number) - Number of available protocols.
 account-setup-results-area-title = Konfigurasi yang tersedia
 account-setup-result-imap-description = Tetap sinkronkan folder dan surel di server Anda
+# Note: Exchange, Office365 are the name of products.
+account-setup-result-exchange2-description = Gunakan server Microsoft Exchange atau layanan awan Office365
+account-setup-incoming-title = Masuk
+account-setup-outgoing-title = Keluar
+account-setup-username-title = Nama pengguna
+account-setup-exchange-title = Server
+account-setup-result-no-encryption = Tanpa Enkripsi
+account-setup-result-ssl = SSL/TLS
+account-setup-result-starttls = STARTTLS
+account-setup-result-outgoing-existing = Gunakan server SMTP keluar yang ada
+# Variables:
+#  $incoming (String): The email/username used to log into the incoming server
+#  $outgoing (String): The email/username used to log into the outgoing server
+account-setup-result-username-different = Masuk: { $incoming }, Keluar: { $outgoing }
 
 ## Error messages
 
