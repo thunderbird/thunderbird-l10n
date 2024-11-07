@@ -429,6 +429,7 @@ dark-reader-checkbox-label =
     .label = 适应深邃主题
     .accesskey = d
 dark-reader-checkbox-description = 实验功能，使邮件窗格配色跟随深邃主题
+account-hub-legend = 账户中心
 account-hub-checkbox-label =
     .label = 通过新版账户中心创建账户
     .accesskey = C
