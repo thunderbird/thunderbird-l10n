@@ -58,6 +58,13 @@ from-app-seamonkey = Impor dari profil { app-name-seamonkey }
 from-app-outlook = Impor dari { app-name-outlook }
 from-app-apple-mail = Impor dari { app-name-apple-mail }
 profiles-pane-title-thunderbird = Impor Pengaturan dan Data dari profil { app-name-thunderbird }.
+profiles-pane-title-seamonkey = Impor Pengaturan dan Data dari profil { app-name-seamonkey }.
+profiles-pane-title-outlook = Impor Data dari { app-name-outlook }
+profiles-pane-title-apple-mail = Impor Pesan dari { app-name-apple-mail }.
+profile-source = Impor dari profil
+# $profileName (string) - name of the profile
+profile-source-named = Impor dari profil <strong>"{ $profileName }"</strong>
+profile-file-picker-directory = Pilih folder profil
 profile-file-picker-archive = Pilih berkas <strong>ZIP</strong>
 profile-file-picker-archive-description = Berkas ZIP harus kurang dari 2 GB.
 profile-file-picker-archive-title = Pilih berkas ZIP (kurang dari 2 GB)
@@ -83,9 +90,17 @@ addr-book-csv-field-map-title = Cocok nama bidang
 addr-book-csv-field-map-desc = Pilih bidang buku alamat yang sesuai dengan bidang sumber. Hapus centang pada bidang yang tidak ingin Anda impor.
 addr-book-directories-title = Pilih ke mana akan mengimpor data yang dipilih
 addr-book-directories-pane-source = Berkas sumber:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Buat direktori baru bernama <strong>"{ $addressBookName }"</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Impor data yang dipilih ke dalam direktori "{ $addressBookName }"
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = Buku alamat baru bernama "{ $addressBookName }" akan dibuat.
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = Pilih berkas iCalendar (.ics) yang ingin Anda impor.
+calendar-items-title = Pilih item mana yang akan diimpor.
 calendar-select-all-items = Pilih semua
 
 ## Import dialog

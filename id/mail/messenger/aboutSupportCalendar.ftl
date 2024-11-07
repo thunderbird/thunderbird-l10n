@@ -23,3 +23,7 @@ calendars-table-capabilities-alarms-maxcount = Maks Alarm Per Acara
 calendars-table-capabilities-attachments-supported = Lampiran Didukung
 calendars-table-capabilities-categories-maxcount = Kategori Maks
 calendars-table-capabilities-priority-supported = Prioritas Didukung
+calendars-table-capabilities-tasks-supported = Tugas yang Didukung
+calendars-table-capabilities-timezones-floating-supported = Waktu Lokal Didukung
+calendars-table-capabilities-timezones-utc-supported = UTC/GMT Didukung
+calendars-table-capabilities-autoschedule-supported = Penjadwalan Otomatis Didukung

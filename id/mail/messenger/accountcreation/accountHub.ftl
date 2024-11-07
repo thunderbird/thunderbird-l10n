@@ -9,9 +9,14 @@
 
 ## Header
 
+account-hub-brand = { -brand-full-name }
+account-hub-welcome-line = Selamat datang di <span data-l10n-name="brand-name">{ -brand-full-name }</span>
 
 ## Footer
 
+account-hub-release-notes = Catatan rilis
+account-hub-support = Dukungan
+account-hub-donate = Donasi
 
 ## Initial setup page
 
@@ -35,6 +40,7 @@ account-hub-sync-button = Masuk untuk Sinkronisasi…
 ## Email page
 
 account-hub-add-email-title = Tambahkan Akun Anda
+account-hub-manually-configure-email-title = Siapkan Konfigurasi Akun
 account-hub-email-cancel-button = Batal
 account-hub-email-stop-button = Berhenti
 account-hub-email-back-button = Mundur
@@ -57,6 +63,8 @@ account-hub-result-authentication-label = Otentikasi
     .title = Otentikasi
 account-hub-port-label = Port
     .title = Atur nomor port ke 0 untuk deteksi otomatis
+account-hub-auto-description = { -brand-short-name } akan mencoba mendeteksi secara otomatis bidang yang dibiarkan kosong.
+account-hub-ssl-label = Keamanan sambungan
 
 ## Incoming/Outgoing SSL Authentication options
 
