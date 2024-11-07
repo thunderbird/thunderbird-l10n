@@ -107,6 +107,7 @@ account-hub-email-sync-accounts = 同步日历和通讯录
 account-hub-test-configuration = 测试
 account-hub-add-new-email = 添加其他邮箱
 account-hub-result-imap-description = 保持文件夹和邮件在服务器上同步
+account-hub-result-pop-description = 将文件夹和邮件保存于计算机
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = 使用 Microsoft Exchange Web 服务同步文件夹和邮件
 account-hub-result-ews-text = 服务器
