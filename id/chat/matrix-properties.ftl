@@ -251,6 +251,7 @@ message-decryption-error = Tidak dapat mendekripsi isi pesan ini. Untuk meminta 
 message-decrypting = Mendekripsi...
 #    Label in the message context menu
 message-action-request-key = Minta Ulang Kunci
+message-action-redact = Sensor
 message-action-report = Laporkan Pesan
 message-action-retry = Coba Kirim Lagi
 message-action-cancel = Batalkan Pesan
