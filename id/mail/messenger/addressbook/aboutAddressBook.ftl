@@ -187,6 +187,8 @@ about-addressbook-unsaved-changes-prompt-title = Perubahan Belum Tersimpan
 
 # Photo dialog
 
+about-addressbook-photo-cancel = Batal
+about-addressbook-photo-save = Simpan
 
 # Keyboard shortcuts
 
