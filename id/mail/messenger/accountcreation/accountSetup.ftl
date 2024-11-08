@@ -2,12 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+account-setup-tab-title = Penyiapan Akun
 
 ## Header
 
+account-setup-title = Siapkan Akun Surel yang Sudah Ada
+account-setup-description = Untuk menggunakan alamat surel Anda saat ini, isi kredensial Anda.
+account-setup-success-title = Akun berhasil dibuat
 
 ## Form fields
 
+account-setup-name-label = Nama lengkap Anda
+    .accesskey = N
+account-setup-name-info-icon =
+    .title = Nama Anda, untuk ditampilkan
+account-setup-name-warning-icon =
+    .title = Masukkan nama Anda
+account-setup-email-label = Alamat surel
+    .accesskey = e
+account-setup-email-input =
+    .placeholder = alamat.surel@perusahaan.id
+account-setup-email-info-icon =
+    .title = Alamat surel yang ada
+account-setup-email-warning-icon =
+    .title = Alamat surel tidak valid
+account-setup-password-label = Kata sandi
+    .accesskey = K
+    .title = Opsional, hanya akan dipakai untuk memvalidasi nama pengguna
 account-setup-password-toggle-show =
     .title = Tampilkan kata sandi dalam teks polos
 account-setup-password-toggle-hide =
@@ -31,6 +52,8 @@ account-setup-button-manual-config = Konfigurasikan secara manual...
     .accesskey = m
 account-setup-button-stop = Hentikan
     .accesskey = H
+account-setup-button-retest = Uji ulang
+    .accesskey = U
 account-setup-button-continue = Lanjutkan
     .accesskey = L
 account-setup-button-done = Selesai
@@ -108,6 +131,12 @@ account-setup-result-username-different = Masuk: { $incoming }, Keluar: { $outgo
 
 ## Manual configuration area
 
+account-setup-manual-config-title = Konfigurasi manual
+account-setup-incoming-server-legend = Server masuk
+account-setup-protocol-label = Protokol:
+account-setup-hostname-label = Nama host:
+account-setup-port-label = Port:
+    .title = Atur nomor port ke 0 untuk deteksi otomatis
 account-setup-auto-description = { -brand-short-name } akan mencoba mendeteksi secara otomatis bidang yang dibiarkan kosong.
 account-setup-ssl-label = Keamanan sambungan:
 account-setup-outgoing-server-legend = Server keluar
