@@ -78,10 +78,70 @@ about-addressbook-sort-name-ascending =
     .label = Urut berdasarkan nama  (A > Z)
 about-addressbook-sort-name-descending =
     .label = Urut berdasarkan nama  (Z > A)
+about-addressbook-sort-email-ascending =
+    .label = Urut berdasarkan alamat surel (A > Z)
+about-addressbook-sort-email-descending =
+    .label = Urut berdasarkan alamat surel (Z > A)
+about-addressbook-table-layout =
+    .label = Tata letak tabel
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-generatedname2 = Nama
+    .title = Urut berdasarkan nama
+about-addressbook-column-label-generatedname2 =
+    .label = Nama
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Nama
+    .title = { $title }
+about-addressbook-column-header-emailaddresses2 = Alamat Surel
+    .title = Urut berdasarkan alamat surel
+about-addressbook-column-label-emailaddresses2 =
+    .label = Alamat Surel
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Alamat Surel
+    .title = { $title }
+about-addressbook-column-header-nickname2 = Nama panggilan
+    .title = Urut berdasarkan nama panggilan
+about-addressbook-column-label-nickname2 =
+    .label = Nama panggilan
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Nama panggilan
+    .title = { $title }
+about-addressbook-column-header-phonenumbers2 = Nomor Telepon
+    .title = Urut berdasarkan nomor telepon
+about-addressbook-column-label-phonenumbers2 =
+    .label = Nomor Telepon
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Nomor Telepon
+    .title = { $title }
+about-addressbook-column-header-addresses2 = Alamat
+    .title = Urut berdasarkan alamat
+about-addressbook-column-label-addresses2 =
+    .label = Alamat
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Alamat
+    .title = { $title }
+about-addressbook-column-header-title2 = Judul
+    .title = Urut berdasarkan judul
+about-addressbook-column-label-title2 =
+    .label = Judul
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Judul
+    .title = { $title }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -89,6 +149,41 @@ about-addressbook-sort-name-descending =
 
 ## Details
 
+about-addressbook-new-contact-header = Kontak Baru
+about-addressbook-write-action-button = Tulis
+about-addressbook-event-action-button = Acara
+about-addressbook-search-action-button = Cari
+about-addressbook-new-list-action-button = Daftar Baru
+about-addressbook-begin-edit-contact-button = Sunting
+about-addressbook-delete-edit-contact-button = Hapus
+about-addressbook-cancel-edit-contact-button = Batal
+about-addressbook-save-edit-contact-button = Simpan
+about-addressbook-add-contact-to = Tambahkan ke:
+about-addressbook-details-email-addresses-header = Alamat Surel
+about-addressbook-details-phone-numbers-header = Nomor Telepon
+about-addressbook-details-addresses-header = Alamat
+about-addressbook-details-notes-header = Catatan
+about-addressbook-details-impp-header = Pesan Instan
+about-addressbook-details-websites-header = Situs Web
+about-addressbook-details-other-info-header = Informasi Lainnya
+about-addressbook-entry-type-work = Kantor
+about-addressbook-entry-type-home = Rumah
+about-addressbook-entry-type-fax = Faks
+# Or "Mobile"
+about-addressbook-entry-type-cell = Seluler
+about-addressbook-entry-type-pager = Penyeranta
+about-addressbook-entry-name-birthday = Tanggal Lahir
+about-addressbook-entry-name-anniversary = Hari Jadi
+about-addressbook-entry-name-title = Judul
+about-addressbook-entry-name-role = Peran
+about-addressbook-entry-name-organization = Organisasi
+about-addressbook-entry-name-website = Situs Web
+about-addressbook-entry-name-time-zone = Zona Waktu
+about-addressbook-entry-name-custom1 = Ubahan 1
+about-addressbook-entry-name-custom2 = Ubahan 2
+about-addressbook-entry-name-custom3 = Ubahan 3
+about-addressbook-entry-name-custom4 = Ubahan 4
+about-addressbook-unsaved-changes-prompt-title = Perubahan Belum Tersimpan
 
 # Photo dialog
 
