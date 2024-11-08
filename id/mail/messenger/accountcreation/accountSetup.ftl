@@ -108,15 +108,28 @@ account-setup-result-username-different = Masuk: { $incoming }, Keluar: { $outgo
 
 ## Manual configuration area
 
+account-setup-auto-description = { -brand-short-name } akan mencoba mendeteksi secara otomatis bidang yang dibiarkan kosong.
+account-setup-ssl-label = Keamanan sambungan:
+account-setup-outgoing-server-legend = Server keluar
 
 ## Incoming/Outgoing SSL Authentication options
 
+ssl-autodetect-option = Deteksi otomatis
+ssl-no-authentication-option = Tanpa otentikasi
+ssl-cleartext-password-option = Sandi biasa
+ssl-encrypted-password-option = Sandi terenkripsi
 
 ## Incoming/Outgoing SSL options
 
+ssl-noencryption-option = Nihil
+account-setup-auth-label = Metode otentikasi:
+account-setup-username-label = Nama pengguna:
+account-setup-advanced-setup-button = Konfigurasi lanjut
+    .accesskey = a
 
 ## Warning insecure server dialog
 
+account-setup-insecure-title = Peringatan!
 
 ## Warning Exchange confirmation dialog
 

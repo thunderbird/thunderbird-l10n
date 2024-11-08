@@ -5,6 +5,7 @@
 about-update-whats-new = Apa yang Baru
 about-dialog-title = Tentang { -brand-full-name }
 release-notes-link = Catatan rilis
+update-internal-error = Tidak dapat memeriksa pembaruan karena kesalahan internal. Pembaruan tersedia di <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Periksa Versi Baru
     .accesskey = C
 update-update-button = Mulai ulang untuk memutakhirkan { -brand-shorter-name }

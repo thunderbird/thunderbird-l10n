@@ -11,6 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Selamat datang di <span data-l10n-name="brand-name">{ -brand-full-name }</span>
+account-hub-title = Pusat Akun
 
 ## Footer
 
@@ -68,7 +69,39 @@ account-hub-ssl-label = Keamanan sambungan
 
 ## Incoming/Outgoing SSL Authentication options
 
+account-hub-ssl-autodetect-option =
+    .label = Deteksi otomatis
+account-hub-ssl-no-authentication-option =
+    .label = Tanpa otentikasi
+account-hub-ssl-cleartext-password-option =
+    .label = Sandi biasa
+account-hub-ssl-encrypted-password-option =
+    .label = Sandi terenkripsi
 
 ## Incoming/Outgoing SSL options
 
+account-hub-ssl-noencryption-option =
+    .label = Nihil
+account-hub-auth-no-authentication-option =
+    .label = Tanpa Otentikasi
+account-hub-auth-label = Metode autentikasi
+account-hub-username-label = Nama pengguna
+account-hub-result-username-label = Nama pengguna
+    .title = Nama pengguna
+account-hub-name-label = Nama lengkap
+    .accesskey = N
+account-hub-adding-account-title = Menambah Akun
+account-hub-adding-account-subheader = Menguji ulang pengaturan konfigurasi akun
+account-hub-lookup-email-configuration-title = Mencari konfigurasi
+account-hub-lookup-email-configuration-subheader = Mencoba nama server umum…
+account-hub-email-account-added-title = Akun sukses ditambahkan
+account-hub-find-settings-failed = { -brand-full-name } gagal menemukan pengaturan untuk akun surel Anda.
+account-hub-notification-show-more = Tampilkan lebih banyak
+account-hub-notification-show-less = Tampilkan lebih sedikit
+account-hub-email-setup-header = Tambahkan alamat surel Anda
+account-hub-email-setup-incoming = Pengaturan server masuk
+account-hub-email-setup-outgoing = Pengaturan server keluar
+account-hub-email-config-found = Pilih jenis akun surel Anda
+account-hub-email-enter-password = Masukkan kata sandi akun surel Anda
+account-hub-email-sync-accounts = Sinkronkan kalender dan buku alamat Anda
 account-hub-test-configuration = Uji

@@ -110,6 +110,11 @@ calendar-deselect-all-items = Batalkan semua pilihan
 calendar-target-title = Pilih tempat untuk mengimpor item yang dipilih.
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = Buat kalender baru bernama <strong>"{ $targetCalendar }"</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title = Impor { $itemCount } item ke dalam kalender "{ $targetCalendar }"
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = Kalender baru bernama "{ $targetCalendar }" akan dibuat.
 
 ## Import dialog
 
@@ -137,6 +142,7 @@ csv-target-field = Bidang buku alamat
 ## Export tab
 
 export-profile-title = Ekspor akun, pesan, buku alamat, dan pengaturan ke berkas ZIP.
+export-profile-description = Jika profil Anda saat ini lebih besar dari 2GB, kami sarankan Anda mencadangkannya sendiri.
 export-open-profile-folder = Buka folder profil
 export-file-picker2 = Ekspor ke berkas ZIP
 export-brand-name = { -brand-product-name }
@@ -145,6 +151,7 @@ export-brand-name = { -brand-product-name }
 
 summary-pane-title = Data yang akan diimpor
 summary-pane-start = Mulai Impor
+summary-pane-warning = { -brand-product-name } perlu dimulai ulang saat pengimporan selesai.
 summary-pane-start-over = Mulai Ulang Alat Impor
 
 ## Footer area
@@ -156,6 +163,8 @@ footer-support-forum = Forum dukungan
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = Langkah impor
 step-confirm = Konfirmasi
 # Variables:
 # $number (number) - step number
