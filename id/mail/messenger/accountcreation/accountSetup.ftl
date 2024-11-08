@@ -130,6 +130,14 @@ account-setup-advanced-setup-button = Konfigurasi lanjut
 ## Warning insecure server dialog
 
 account-setup-insecure-title = Peringatan!
+account-setup-insecure-incoming-title = Pengaturan masuk:
+account-setup-insecure-outgoing-title = Pengaturan keluar:
+# Variables:
+#  $server (String): The name of the hostname of the server the user was trying to connect to.
+account-setup-warning-cleartext = <b>{ $server }</b> tidak menggunakan enkripsi.
+account-setup-warning-cleartext-details = Server surel yang tidak aman tidak menggunakan enkripsi untuk melindungi kerahasiaan sandi dan informasi pribadi Anda. Dengan tersambung ke server ini kerahasiaan sandi dan informasi pribadi tidak akan terjamin.
+account-setup-insecure-server-checkbox = Saya memahami risikonya.
+    .accesskey = o
 
 ## Warning Exchange confirmation dialog
 
