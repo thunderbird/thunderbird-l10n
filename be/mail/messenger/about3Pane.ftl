@@ -107,19 +107,8 @@ quick-filter-bar-results =
         [few] { $count } паведамленні
        *[many] { $count } паведамленняў
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Фільтраваць гэтыя паведамленні <{ quick-filter-bar-textbox-shortcut }>
+quick-filter-bar-searching =
+    .title = Пошук…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -194,6 +183,8 @@ folder-pane-header-toggle-folder-size =
     .label = Паказваць памеры папак
 folder-pane-header-hide-local-folders =
     .label = Схаваць лакальныя папкі
+folder-pane-mode-context-button =
+    .title = Параметры рэжымаў папак
 folder-pane-mode-context-toggle-compact-mode =
     .label = Кампактны выгляд
     .accesskey = К
@@ -262,12 +253,11 @@ threadpane-column-label-unread-button =
 threadpane-cell-read-status =
     .aria-label = Статус чытання
 threadpane-read-cell-label = Прачытана
+threadpane-unread-cell-label = Непрачытана
 threadpane-column-header-sender = Ад
     .title = Сартаваць па адпраўніках
 threadpane-column-label-sender =
     .label = Ад
-threadpane-cell-sender =
-    .aria-label = Ад
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -277,8 +267,6 @@ threadpane-column-header-recipient = Атрымальнік
     .title = Сартаваць па атрымальніках
 threadpane-column-label-recipient =
     .label = Атрымальнік
-threadpane-cell-recipient =
-    .aria-label = Атрымальнік
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -288,8 +276,6 @@ threadpane-column-header-correspondents = Адпраўнікі
     .title = Сартаваць па адпраўніках
 threadpane-column-label-correspondents =
     .label = Адпраўнікі
-threadpane-cell-correspondents =
-    .aria-label = Адпраўнікі
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -299,8 +285,6 @@ threadpane-column-header-subject = Тэма
     .title = Сартаваць па тэмах
 threadpane-column-label-subject =
     .label = Тэма
-threadpane-cell-subject =
-    .aria-label = Тэма
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -310,8 +294,6 @@ threadpane-column-header-date = Дата
     .title = Сартаваць па датах
 threadpane-column-label-date =
     .label = Дата
-threadpane-cell-date =
-    .aria-label = Дата
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -321,8 +303,6 @@ threadpane-column-header-received = Атрымана
     .title = Сартаваць па даце атрымання
 threadpane-column-label-received =
     .label = Атрымана
-threadpane-cell-received =
-    .aria-label = Дата атрымання
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -332,8 +312,6 @@ threadpane-column-header-status = Статус
     .title = Сартаваць па статусах
 threadpane-column-label-status =
     .label = Статус
-threadpane-cell-status =
-    .aria-label = Статус
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -343,8 +321,6 @@ threadpane-column-header-size = Памер
     .title = Сартаваць па памеры
 threadpane-column-label-size =
     .label = Памер
-threadpane-cell-size =
-    .aria-label = Памер
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -354,8 +330,6 @@ threadpane-column-header-tags = Меткі
     .title = Сартаваць па метках
 threadpane-column-label-tags =
     .label = Меткі
-threadpane-cell-tags =
-    .aria-label = Меткі
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -365,8 +339,6 @@ threadpane-column-header-account = Уліковы запіс
     .title = Сартаваць па ўліковых запісах
 threadpane-column-label-account =
     .label = Уліковы запіс
-threadpane-cell-account =
-    .aria-label = Уліковы запіс
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -376,8 +348,6 @@ threadpane-column-header-priority = Прыярытэт
     .title = Сартаваць па прыярытэце
 threadpane-column-label-priority =
     .label = Прыярытэт
-threadpane-cell-priority =
-    .aria-label = Прыярытэт
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -387,8 +357,6 @@ threadpane-column-header-unread = Не прачытана
     .title = Колькасць непрачытаных паведамленняў у абмеркаванні
 threadpane-column-label-unread =
     .label = Не прачытана
-threadpane-cell-unread =
-    .aria-label = Колькасць непрачытаных паведамленняў
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -398,8 +366,6 @@ threadpane-column-header-total = Усяго
     .title = Агульная колькасць лістоў у нізцы
 threadpane-column-label-total =
     .label = Усяго
-threadpane-cell-total =
-    .aria-label = Агульная колькасць паведамленняў
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -409,8 +375,6 @@ threadpane-column-header-id = Парадак атрымання
     .title = Сартаваць па парадку атрымання
 threadpane-column-label-id =
     .label = Парадак атрымання
-threadpane-cell-id =
-    .aria-label = Парадак атрымання
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =
@@ -474,6 +438,8 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Меню паведамленняў
+message-list-placeholder-no-messages = Паведамленняў не знойдзена
+message-list-placeholder-multiple-folders = Выбраны некалькі папак
 
 ## Folder pane context menu
 
