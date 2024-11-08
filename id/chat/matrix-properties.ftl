@@ -148,6 +148,10 @@ command-topic = { $commandName } &lt;topic&gt;: Mengatur topik ruangan. Memerluk
 # $commandName is the command name
 command-unban = { $commandName } &lt;userId&gt;: Membatalkan pemblokiran pengguna yang diblokir dari ruangan. Memerlukan izin untuk mencekal pengguna.
 # $commandName is the command name
+command-visibility = { $commandName } [&lt;visibilitas&gt;]: Mengatur visibilitas ruangan saat ini di direktori ruangan Server Home saat ini. Masukkan nilai integer, Privat: 0 dan Publik: 1. Nilai baku adalah Privat (0) jika tidak ada argumen yang diberikan. Memerlukan izin untuk mengubah visibilitas ruangan.
+# $commandName is the command name
+command-guest = { $commandName } &lt;akses tamu&gt; &lt;visibilitas riwayat&gt;: Mengatur akses dan visibilitas riwayat ruangan saat ini untuk pengguna tamu. Masukkan dua nilai integer, yang pertama untuk akses tamu (tidak diizinkan: 0 dan diizinkan: 1) dan yang kedua untuk visibilitas riwayat (tidak terlihat: 0 dan terlihat: 1). Memerlukan izin untuk mengubah keterlihatan riwayat.
+# $commandName is the command name
 command-roomname = { $commandName } &lt;name&gt;: Menyetel nama ruangan. Memerlukan izin untuk mengubah nama ruangan.
 # $commandName is the command name
 command-detail = { $commandName }: Menampilkan detail ruangan.
@@ -163,6 +167,15 @@ command-me = { $commandName } &lt;aksi&gt;: Melakukan aksi.
 command-msg = { $commandName } &lt;userId&gt; &lt;pesan&gt;: Mengirim pesan langsung ke pengguna tertentu.
 # $commandName is the command name
 command-join = { $commandName } &lt;roomId&gt;: Bergabung dengan ruangan yang ditentukan.
+# LOCALIZATION NOTE (message-*):
+#    These are shown as system messages in the conversation.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+message-banned = { $user } mencekal { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } mencekal { $userBanned }. Alasan: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } menerima undangan untuk { $userWhoSent }.
@@ -209,6 +222,10 @@ message-room-name-remove = { $user } menghapus nama ruangan.
 #    $user is the name of the user who changed the room name.
 #    $newRoomName is the new room name.
 message-room-name-changed = { $user } mengubah nama ruangan menjadi { $newRoomName }.
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user } mengubah tingkat kekuatan { $powerLevelChanges }.
 #    $user is the name of the target user whose power level has been changed.
 #    $oldPowerLevel is the old power level.
 #    $newPowerLevel is the new power level.
