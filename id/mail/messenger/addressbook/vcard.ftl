@@ -19,6 +19,8 @@ vcard-entry-type-custom = Ubahan
 
 # N vCard field
 
+vcard-name-header = Nama
+vcard-n-prefix = Prefiks
 
 # Nickname
 

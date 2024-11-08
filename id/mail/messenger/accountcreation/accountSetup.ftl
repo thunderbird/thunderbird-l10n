@@ -8,7 +8,10 @@ account-setup-tab-title = Penyiapan Akun
 
 account-setup-title = Siapkan Akun Surel yang Sudah Ada
 account-setup-description = Untuk menggunakan alamat surel Anda saat ini, isi kredensial Anda.
+account-setup-secondary-description = { -brand-product-name } akan secara otomatis mencari konfigurasi server yang berfungsi dan direkomendasikan.
 account-setup-success-title = Akun berhasil dibuat
+account-setup-success-description = Anda sekarang dapat menggunakan akun ini dengan { -brand-short-name }.
+account-setup-success-secondary-description = Anda dapat meningkatkan pengalaman dengan menghubungkan layanan terkait dan mengonfigurasi pengaturan akun lanjutan.
 
 ## Form fields
 
@@ -111,6 +114,7 @@ account-setup-getting-started = Memulai
 #  $count (Number) - Number of available protocols.
 account-setup-results-area-title = Konfigurasi yang tersedia
 account-setup-result-imap-description = Tetap sinkronkan folder dan surel di server Anda
+account-setup-result-pop-description = Simpan folder dan surel Anda di komputer Anda
 # Note: Exchange, Office365 are the name of products.
 account-setup-result-exchange2-description = Gunakan server Microsoft Exchange atau layanan awan Office365
 account-setup-incoming-title = Masuk
@@ -128,6 +132,11 @@ account-setup-result-username-different = Masuk: { $incoming }, Keluar: { $outgo
 
 ## Error messages
 
+# Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
+account-setup-credentials-incomplete = Otentikasi gagal. Mungkin kredensial yang dimasukkan salah atau nama pengguna yang terpisah diperlukan untuk masuk. Nama pengguna ini biasanya untuk masuk domain Windows Anda dengan atau tanpa domain (misalnya, janedoe atau AD\\janedoe).
+account-setup-credentials-wrong = Otentikasi gagal. Silakan periksa nama pengguna dan sandi.
+account-setup-find-settings-failed = { -brand-short-name } gagal menemukan pengaturan untuk akun surel Anda
+account-setup-exchange-config-unverifiable = Konfigurasi tidak dapat diverifikasi. Jika nama pengguna dan sandi Anda benar, mungkin administrator server telah menonaktifkan konfigurasi yang dipilih untuk akun Anda. Coba pilih protokol lain.
 
 ## Manual configuration area
 
@@ -167,6 +176,7 @@ account-setup-warning-cleartext = <b>{ $server }</b> tidak menggunakan enkripsi.
 account-setup-warning-cleartext-details = Server surel yang tidak aman tidak menggunakan enkripsi untuk melindungi kerahasiaan sandi dan informasi pribadi Anda. Dengan tersambung ke server ini kerahasiaan sandi dan informasi pribadi tidak akan terjamin.
 account-setup-insecure-server-checkbox = Saya memahami risikonya.
     .accesskey = o
+account-setup-insecure-description = { -brand-short-name } memungkinkan Anda mengakses surel menggunakan konfigurasi yang disediakan. Namun, Anda harus menghubungi administrator atau penyedia surel Anda mengenai koneksi yang tidak benar ini. Lihat <a data-l10n-name="thunderbird-faq-link">FAQ Thunderbird</a> untuk informasi lebih lanjut.
 insecure-dialog-cancel-button = Ubah Pengaturan
     .accesskey = U
 insecure-dialog-confirm-button = Konfirmasi
@@ -174,12 +184,18 @@ insecure-dialog-confirm-button = Konfirmasi
 
 ## Warning Exchange confirmation dialog
 
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+exchange-dialog-question = { -brand-short-name } menemukan informasi pengaturan akun Anda di { $domain }. Apakah Anda ingin melanjutkan dan mengirimkan kredensial Anda?
 exchange-dialog-confirm-button = Log masuk
 exchange-dialog-cancel-button = Batal
 
 ## Dismiss account creation dialog
 
 exit-dialog-title = Tidak Ada Akun Surel yang Dikonfigurasi
+exit-dialog-description = Yakin ingin membatalkan proses penyiapan? { -brand-short-name } masih dapat digunakan tanpa akun surel, tetapi banyak fitur tidak akan tersedia.
+account-setup-no-account-checkbox = Gunakan { -brand-short-name } tanpa akun surel
+    .accesskey = u
 exit-dialog-cancel-button = Lanjutkan Penyiapan
     .accesskey = L
 exit-dialog-confirm-button = Keluar dari Penyiapan
@@ -196,6 +212,7 @@ account-setup-confirm-advanced-description = Dialog ini akan ditutup dan akun de
 
 account-setup-addon-install-title = Pasang
 account-setup-addon-install-intro = Pengaya pihak ketiga dapat memungkinkan Anda mengakses akun surel Anda di server ini:
+account-setup-addon-no-protocol = Sayangnya, server surel ini tidak mendukung protokol terbuka. { account-setup-addon-install-intro }
 
 ## Success view
 
@@ -206,10 +223,42 @@ account-setup-dictionaries-button = Unduh kamus
 account-setup-address-book-carddav-button = Sambungkan ke buku alamat CardDAV
 account-setup-address-book-ldap-button = Sambungkan ke buku alamat LDAP
 account-setup-calendar-button = Sambungkan ke kalender jarak jauh
+account-setup-linked-services-title = Hubungkan layanan tertaut Anda
+account-setup-linked-services-description = { -brand-short-name } mendeteksi layanan lain yang ditautkan ke akun surel Anda.
+account-setup-no-linked-description = Siapkan layanan lain untuk memaksimalkan pengalaman { -brand-short-name } Anda.
 account-setup-button-finish = Selesai
     .accesskey = S
 account-setup-looking-up-address-books = Mencari buku alamat…
 account-setup-looking-up-calendars = Mencari kalender…
+account-setup-address-books-button = Buku Alamat
+account-setup-calendars-button = Kalender
+account-setup-connect-link = Sambungkan
+account-setup-existing-address-book = Tersambung
+    .title = Buku alamat sudah tersambung
+account-setup-existing-calendar = Tersambung
+    .title = Kalender sudah tersambung
+account-setup-connect-all-calendars = Hubungkan semua kalender
+account-setup-connect-all-address-books = Hubungkan semua buku alamat
 
 ## Calendar synchronization dialog
 
+calendar-dialog-title = Hubungkan kalender
+calendar-dialog-cancel-button = Batal
+    .accesskey = B
+calendar-dialog-confirm-button = Sambungkan
+    .accesskey = n
+account-setup-calendar-name-label = Nama
+account-setup-calendar-name-input =
+    .placeholder = Kalender saya
+account-setup-calendar-color-label = Warna
+account-setup-calendar-refresh-label = Segarkan
+account-setup-calendar-refresh-manual = Secara manual
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
+account-setup-calendar-refresh-interval = Setiap { $count } menit
+account-setup-calendar-read-only = Hanya baca
+    .accesskey = b
+account-setup-calendar-show-reminders = Tampilkan pengingat
+    .accesskey = p
+account-setup-calendar-offline-support = Dukungan luring
+    .accesskey = u

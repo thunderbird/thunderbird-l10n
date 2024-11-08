@@ -146,9 +146,24 @@ about-addressbook-cell-title2 =
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-new-contact = Kontak Baru
+about-addressbook-placeholder-search-only = Buku alamat ini menampilkan kontak hanya setelah pencarian
+about-addressbook-placeholder-searching = Mencari…
+about-addressbook-placeholder-no-search-results = Tidak ada kontak ditemukan
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 = { $count } entri buku alamat yang dipilih
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 = { $count } kontak terpilih
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 = { $count } daftar terpilih
+about-addressbook-details-edit-photo =
+    .title = Sunting foto kontak
 about-addressbook-new-contact-header = Kontak Baru
 about-addressbook-write-action-button = Tulis
 about-addressbook-event-action-button = Acara
