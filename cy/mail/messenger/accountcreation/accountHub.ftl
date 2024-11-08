@@ -113,3 +113,7 @@ account-hub-result-ews-description = Defnyddiwch Microsoft Exchange Web Services
 account-hub-result-ews-text = Gweinydd
 account-hub-result-recommended-label = Cymeradwy
 account-hub-edit-configuration = Golygu ffurfweddiad
+account-hub-config-success = Canfuwyd y ffurfweddiad yn Mozilla ISPDB
+account-hub-password-info = Bydd eich manylion adnabod yn cael eu storio'n lleol ar eich cyfrifiadur yn unig
+account-hub-sync-success = Daeth Thunderbird o hyd i rai gwasanaethau cysylltiedig
+account-hub-email-added-success = Cyfrif e-bost wedi'i gysylltu'n llwyddiannus
