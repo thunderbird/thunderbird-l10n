@@ -113,3 +113,7 @@ account-hub-result-ews-description = Utilizza i servizi web di Microsoft Exchang
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Consigliate
 account-hub-edit-configuration = Modifica configurazione
+account-hub-config-success = Configurazione trovata in Mozilla ISPDB
+account-hub-password-info = Le tue credenziali verranno memorizzate solo localmente sul tuo computer
+account-hub-sync-success = Thunderbird ha rilevato alcuni servizi connessi
+account-hub-email-added-success = L’account email è stato connesso correttamente
