@@ -142,6 +142,36 @@ about-addressbook-column-label-title2 =
 about-addressbook-cell-title2 =
     .aria-label = Judul
     .title = { $title }
+about-addressbook-column-header-department2 = Departemen
+    .title = Urut berdasarkan departemen
+about-addressbook-column-label-department2 =
+    .label = Departemen
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Departmen
+    .title = { $title }
+about-addressbook-column-header-organization2 = Organisasi
+    .title = Urut berdasarkan organisasi
+about-addressbook-column-label-organization2 =
+    .label = Organisasi
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organisasi
+    .title = { $title }
+about-addressbook-column-header-addrbook2 = Buku Alamat
+    .title = Urut berdasarkan buku alamat
+about-addressbook-column-label-addrbook2 =
+    .label = Buku Alamat
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Buku Alamat
+    .title = { $title }
+about-addressbook-cards-context-write =
+    .label = Tulis
+about-addressbook-confirm-delete-mixed-title = Hapus Kontak dan Milis
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
