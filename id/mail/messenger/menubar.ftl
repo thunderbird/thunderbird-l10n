@@ -23,21 +23,101 @@ menu-export-for-mobile =
 menu-help-help-title =
     .label = Bantuan
     .accesskey = B
+menu-help-get-help =
+    .label = Dapatkan Bantuan
+    .accesskey = B
+menu-help-get-release-help =
+    .label = Dapatkan Bantuan terkait { -brand-short-name }
+    .accesskey = r
+menu-help-shortcuts =
+    .label = Pintasan Papan Ketik
+    .accesskey = K
+menu-help-get-involved =
+    .label = Ikut Terlibat
+    .accesskey = T
+menu-help-donation =
+    .label = Berdonasi
+    .accesskey = d
 menu-help-troubleshooting-info =
     .label = Informasi Pemecahan Masalah
     .accesskey = { "" }
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Keluar
+           *[other] Keluar
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] K
+           *[other] K
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = Keluar dari { -brand-shorter-name }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Keluar dari { -brand-full-name }
+           *[other] Keluar dari { -brand-full-name }
+        }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
+quit-app-shortcut =
+    .key = K
 
 ## Mail Toolbar
 
+toolbar-junk-button =
+    .label = Sampah
+    .tooltiptext = Tandai pesan yang dipilih sebagai sampah
+toolbar-not-junk-button =
+    .label = Bukan Sampah
+    .tooltiptext = Tandai pesan yang dipilih sebagai bukan sampah
+toolbar-delete-button =
+    .label = Hapus
+    .tooltiptext = Hapus pesan atau folder yang dipilih
+toolbar-undelete-button =
+    .label = Kembalikan
+    .tooltiptext = Batalkan penghapusan pesan yang dipilih
 
 ## View
 
+menu-view-repair-text-encoding =
+    .label = Perbaiki Pengodean Teks
+    .accesskey = k
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = Kepala Panel Folder
+    .accesskey = F
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Kepala Daftar Pesan
+    .accesskey = n
+menu-font-size-label =
+    .label = Ukuran Fonta
+    .accesskey = o
+menuitem-font-size-enlarge =
+    .label = Perbesar Ukuran Fonta
+    .accesskey = b
+menuitem-font-size-reduce =
+    .label = Kurangi Ukuran Fonta
+    .accesskey = u
+mail-uidensity-compact =
+    .label = Ringkas
+    .accesskey = R
+mail-uidensity-default =
+    .label = Baku
+    .accesskey = B
+mail-uidensity-relaxed =
+    .label = Santai
+    .accesskey = S
 
 ## File
 
