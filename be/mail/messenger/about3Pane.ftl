@@ -107,6 +107,8 @@ quick-filter-bar-results =
         [few] { $count } паведамленні
        *[many] { $count } паведамленняў
     }
+quick-filter-bar-search2 =
+    .label = Фільтраваць паведамленні
 quick-filter-bar-searching =
     .title = Пошук…
 # Keyboard shortcut for the text search box.
@@ -221,6 +223,8 @@ threadpane-column-label-select =
     .label = Выберыце паведамленні
 threadpane-cell-select =
     .aria-label = Выберыце паведамленне
+threadpane-column-header-thread =
+    .title = Пераключыць прагляд паведамленняў па абмеркаванням
 threadpane-column-label-thread =
     .label = Абмеркаванне
 threadpane-cell-thread =
@@ -371,6 +375,15 @@ threadpane-column-label-total =
 threadpane-cell-total-title =
     .aria-label = Агульная колькасць паведамленняў
     .title = { $title }
+threadpane-column-header-location = Месца
+    .title = Сартаваць па месцы
+threadpane-column-label-location =
+    .label = Месца
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Месца
+    .title = { $title }
 threadpane-column-header-id = Парадак атрымання
     .title = Сартаваць па парадку атрымання
 threadpane-column-label-id =
@@ -400,10 +413,39 @@ threadpane-replies =
 threadpane-message-new =
     .alt = Індыкатар новага паведамлення
     .title = Новае паведамленне
+threadpane-message-replied =
+    .alt = Індыкатар адказу
+    .title = Паведамленне мае адказ
+threadpane-message-redirected =
+    .alt = Індыкатар перанакіравання
+    .title = Паведамленне перанакірована
+threadpane-message-forwarded =
+    .alt = Індыкатар перасылання
+    .title = Паведамленне пераслана
+apply-columns-to-menu =
+    .label = Ужыць набор слупкоў для…
+apply-current-view-to-menu =
+    .label = Ужыць бягучы выгляд для…
+apply-current-view-to-folder =
+    .label = Папкі…
+apply-current-view-to-folder-children =
+    .label = Папкі і яе падпапак…
 
 ## Apply columns confirmation dialog
 
 apply-changes-to-folder-title = Ужыць змены?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-message = Ужыць набор слупкоў бягучай папкі для { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-columns-to-folder-with-children-message = Ужыць набор слупкоў бягучай папкі для { $name } і яе падпапак?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Ужыць выгляд бягучай папкі для { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Ужыць выгляд бягучай папкі для { $name } і яе падпапак?
 # Variables:
 # $unread (Number) - Number of unread messages in thread.
 # $total (Number) - Number of messages in thread.
