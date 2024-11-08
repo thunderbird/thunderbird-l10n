@@ -21,24 +21,62 @@ vcard-entry-type-custom = Ubahan
 
 vcard-name-header = Nama
 vcard-n-prefix = Prefiks
+vcard-n-add-prefix =
+    .title = Tambahkan prefiks
+vcard-n-firstname = Nama depan
+vcard-n-add-firstname =
+    .title = Tambahkan nama depan
+vcard-n-middlename = Nama tengah
+vcard-n-add-middlename =
+    .title = Tambahkan nama tengah
+vcard-n-lastname = Nama keluarga
+vcard-n-add-lastname =
+    .title = Tambahkan nama keluarga
+vcard-n-suffix = Sufiks
+vcard-n-add-suffix =
+    .title = Tambahkan akhiran
 
 # Nickname
 
+vcard-nickname = Nama panggilan
 
 # Email vCard field
 
+vcard-email-header = Alamat Surel
+vcard-email-add = Tambahkan alamat surel
+vcard-email-label = Alamat surel
+vcard-primary-email-label = Baku
 
 # URL vCard field
 
+vcard-url-header = Situs Web
+vcard-url-add = Tambahkan situs web
+vcard-url-label = Situs web
 
 # Tel vCard field
 
+vcard-tel-header = Nomor Telepon
+vcard-tel-add = Tambahkan nomor telepon
+vcard-tel-label = Nomor telepon
+# Or "Mobile"
+vcard-entry-type-cell = Seluler
+vcard-entry-type-fax = Faks
+vcard-entry-type-pager = Penyeranta
 
 # TZ vCard field
 
+vcard-tz-header = Zona Waktu
+vcard-tz-add = Tambahkan zona waktu
 
 # IMPP vCard field
 
+vcard-impp2-header = Pesan Instan
+vcard-impp-add = Tambahkan akun obrolan
+vcard-impp-label = Akun obrolan
+vcard-impp-select = Protokol
+vcard-impp-option-other = Lainnya
+vcard-impp-input-label = URI
+vcard-impp-input-title = URI untuk pesan instan
 
 # BDAY and ANNIVERSARY vCard field
 
