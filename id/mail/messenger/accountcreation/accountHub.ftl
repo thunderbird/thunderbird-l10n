@@ -105,3 +105,4 @@ account-hub-email-config-found = Pilih jenis akun surel Anda
 account-hub-email-enter-password = Masukkan kata sandi akun surel Anda
 account-hub-email-sync-accounts = Sinkronkan kalender dan buku alamat Anda
 account-hub-test-configuration = Uji
+account-hub-result-ews-text = Server

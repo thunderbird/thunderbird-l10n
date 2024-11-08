@@ -138,21 +138,49 @@ account-setup-warning-cleartext = <b>{ $server }</b> tidak menggunakan enkripsi.
 account-setup-warning-cleartext-details = Server surel yang tidak aman tidak menggunakan enkripsi untuk melindungi kerahasiaan sandi dan informasi pribadi Anda. Dengan tersambung ke server ini kerahasiaan sandi dan informasi pribadi tidak akan terjamin.
 account-setup-insecure-server-checkbox = Saya memahami risikonya.
     .accesskey = o
+insecure-dialog-cancel-button = Ubah Pengaturan
+    .accesskey = U
+insecure-dialog-confirm-button = Konfirmasi
+    .accesskey = K
 
 ## Warning Exchange confirmation dialog
 
+exchange-dialog-confirm-button = Log masuk
+exchange-dialog-cancel-button = Batal
 
 ## Dismiss account creation dialog
 
+exit-dialog-title = Tidak Ada Akun Surel yang Dikonfigurasi
+exit-dialog-cancel-button = Lanjutkan Penyiapan
+    .accesskey = L
+exit-dialog-confirm-button = Keluar dari Penyiapan
+    .accesskey = e
 
 ## Alert dialogs
 
+account-setup-creation-error-title = Kesalahan Saat Membuat Akun
+account-setup-error-server-exists = Server masuk sudah ada.
+account-setup-confirm-advanced-title = Konfirmasi Konfigurasi Lanjutan
+account-setup-confirm-advanced-description = Dialog ini akan ditutup dan akun dengan pengaturan saat ini akan dibuat, bahkan jika konfigurasi salah. Apakah Anda ingin melanjutkan?
 
 ## Addon installation section
 
+account-setup-addon-install-title = Pasang
+account-setup-addon-install-intro = Pengaya pihak ketiga dapat memungkinkan Anda mengakses akun surel Anda di server ini:
 
 ## Success view
 
+account-setup-settings-button = Pengaturan akun
+account-setup-encryption-button = Enkripsi ujung-ke-ujung
+account-setup-signature-button = Tambahkan tanda tangan
+account-setup-dictionaries-button = Unduh kamus
+account-setup-address-book-carddav-button = Sambungkan ke buku alamat CardDAV
+account-setup-address-book-ldap-button = Sambungkan ke buku alamat LDAP
+account-setup-calendar-button = Sambungkan ke kalender jarak jauh
+account-setup-button-finish = Selesai
+    .accesskey = S
+account-setup-looking-up-address-books = Mencari buku alamat…
+account-setup-looking-up-calendars = Mencari kalender…
 
 ## Calendar synchronization dialog
 

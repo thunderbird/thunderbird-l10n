@@ -51,6 +51,7 @@ webext-perms-update-menu-item = { $addonName } memerlukan izin baru
 
 ## Add-on removal warning
 
+addon-removal-abuse-report-checkbox = Laporkan ekstensi ini ke { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying = Mengunduh dan memverifikasi { $addonCount } pengaya…
@@ -80,6 +81,7 @@ addon-install-error-incorrect-hash = Pengaya tidak dapat dipasang karena tidak c
 addon-install-error-corrupt-file = Pengaya yang diunduh dari situs ini tidak dapat dipasang karena rusak.
 addon-install-error-file-access = { $addonName } tidak dapat dipasang karena { -brand-short-name } tidak dapat mengubah berkas yang dibutuhkan.
 addon-install-error-not-signed = { -brand-short-name } telah mencegah situs ini untuk untuk memasang pengaya yang belum diverifikasi.
+addon-install-error-invalid-domain = Pengaya { $addonName } tidak bisa dipasang dari lokasi ini.
 addon-local-install-error-network-failure = Pengaya ini tidak dapat dipasang karena ada kesalahan pada sistem berkas.
 addon-local-install-error-incorrect-hash = Pengaya ini tidak dapat dipasang karena tidak cocok dengan pengaya yang diharapkan { -brand-short-name }.
 addon-local-install-error-corrupt-file = Pengaya ini tidak dapat dipasang karena tampaknya berkasnya rusak.
