@@ -113,3 +113,7 @@ account-hub-result-ews-description = 使用 Microsoft Exchange Web Services 同�
 account-hub-result-ews-text = 伺服器
 account-hub-result-recommended-label = 推薦
 account-hub-edit-configuration = 編輯設定
+account-hub-config-success = 於 Mozilla ISPDB 找到設定
+account-hub-password-info = 您的登入資訊只會儲存在您的本機電腦上
+account-hub-sync-success = Thunderbird 找到一些已連結的服務
+account-hub-email-added-success = 成功連線至電子郵件帳號
