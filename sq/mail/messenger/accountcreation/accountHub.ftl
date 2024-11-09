@@ -109,6 +109,7 @@ account-hub-add-new-email = Shtoni një email tjetër
 account-hub-result-imap-description = Mbajini dosjet dhe email-et tuaj të njëkohësuar në shërbyesin tuaj
 account-hub-result-pop-description = Mbajini dosjet dhe email-et në kompjuterin tuaj
 account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Përdorni Microsoft Exchange Web Services që të njëkohësoni dosjet dhe email-et tuaja
 account-hub-result-ews-text = Shërbyes
 account-hub-result-recommended-label = E rekomanduar
 account-hub-edit-configuration = Përpunoni formësimin
