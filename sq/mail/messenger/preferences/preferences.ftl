@@ -424,6 +424,16 @@ conversation-view-checkbox-label =
     .accesskey = A
 conversation-view-checkbox-description = Veçori eksperimentale e bazuar në Gloda, qari dhe zarari i juaji
 label-experiment = Eksperimentale
+dark-reader-legend = Ngjyra lexuesi
+dark-reader-checkbox-label =
+    .label = Përshtatja temës së errët
+    .accesskey = ë
+dark-reader-checkbox-description = Veçori eksperimentale për ta bërë kuadratin e mesazheve të ndjekë tema të errëta
+account-hub-legend = Qendër llogarish
+account-hub-checkbox-label =
+    .label = Krijoni llogari te Qendra e re e Llogarive
+    .accesskey = K
+account-hub-checkbox-description = Rrjedhë e re eksperimentale për krijim llogarish email
 
 ## Compose Tab
 
@@ -816,6 +826,7 @@ qr-export-accounts-legend = Llogari email
 qr-export-select-all-accounts = Përzgjidhi krejt
 qr-export-security-legend = Siguri
 qr-export-include-passwords = Përfshi krejt fjalëkalimet e llogarive
+qr-export-security-warning = Për sigurinë tuaj, ju lutemi, sigurohuni se gjendeni në një mjedis privat dhe skanoni kode QR vetë, prej burimesh të besuar.
 qr-export-start-export = Eksportim
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
@@ -825,7 +836,19 @@ qr-export-scan-progress =
         [one] { $step } nga { $count } kod QR gjithsej
        *[other] { $step } nga { $count } kode QR gjithsej
     }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Skanoni kod QR me { -brand-product-name }-in në pajisjen tuaj celulare
+       *[other] Skanoni kode QR me { -brand-product-name }-in në pajisjen tuaj celulare
+    }
+qr-export-scan-step1 = Hapeni { -brand-product-name }-in në pajisjen tuaj celulare
 qr-export-scan-step2 = Shko te rregullimet
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Përzgjidhni <strong>Importoni rregullime</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Prekni <strong>Skanoni kod QR</strong> dhe mbajeni telefonin tuaj mbi këtë kod
 qr-export-back = Mbrapsht
 qr-export-next = Pasuesi
 qr-export-done = U bë
