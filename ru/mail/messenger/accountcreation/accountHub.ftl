@@ -113,3 +113,7 @@ account-hub-result-ews-description = Использовать веб-служб�
 account-hub-result-ews-text = Сервер
 account-hub-result-recommended-label = Рекомендуется
 account-hub-edit-configuration = Изменить конфигурацию
+account-hub-config-success = Конфигурация найдена в Mozilla ISPDB
+account-hub-password-info = Ваши учётные данные будут храниться только локально на вашем компьютере
+account-hub-sync-success = Thunderbird обнаружил некоторые подключённые службы
+account-hub-email-added-success = Учётная запись электронной почты успешно подключена
