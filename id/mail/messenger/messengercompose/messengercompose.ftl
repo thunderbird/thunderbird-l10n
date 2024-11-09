@@ -5,9 +5,27 @@
 
 ## Send Format
 
+compose-send-format-menu =
+    .label = Format Pengiriman
+    .accesskey = F
+compose-send-auto-menu-item =
+    .label = Otomatis
+    .accesskey = a
+compose-send-both-menu-item =
+    .label = Baik HTML maupun Teks Polos
+    .accesskey = B
+compose-send-html-menu-item =
+    .label = Hanya HTML
+    .accesskey = H
+compose-send-plain-menu-item =
+    .label = Hanya Teks Polos
+    .accesskey = P
 
 ## Addressing widget
 
+#   $type (String) - the type of the addressing row
+remove-address-row-button =
+    .title = Hapus bidang { $type }
 #   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label =
@@ -20,6 +38,10 @@ pill-aria-label =
     { $count ->
        *[other] { $email }, 1 dari { $count }: tekan Enter untuk mengedit, Delete untuk menghapus.
     }
+#   $email (String) - the email address
+pill-tooltip-invalid-address = { $email } bukan alamat surel yang valid
+#   $email (String) - the email address
+pill-tooltip-not-in-address-book = { $email } tidak ada dalam buku alamat Anda
 pill-action-edit =
     .label = Edit Alamat
     .accesskey = E

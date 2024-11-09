@@ -11,3 +11,4 @@ verify-dialog =
     .buttonaccesskeyaccept = M
     .buttonlabelextra2 = Mereka tidak cocok
     .buttonaccesskeyextra2 = d
+challenge-label = Pastikan string yang ditampilkan cocok dengan tampilan di ujung lainnya.

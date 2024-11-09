@@ -9,6 +9,8 @@ message-header-to-list-name = Kepada
 message-header-from-list-name = Dari
 message-header-sender-list-name = Pengirim
 message-header-reply-to-list-name = Balas ke
+message-header-cc-list-name = Cc
+message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = Newsgroup
 message-header-followup-to-list-name = Tindak lanjut ke
 message-header-tags-list-name = Tag
@@ -73,3 +75,8 @@ list-id-archived-at =
 
 ##
 
+message-header-address-in-address-book-button =
+    .title = Sunting kontak
+message-header-field-show-more = Lebih banyak
+    .title = Tampilkan semua penerima
+message-ids-field-show-all = Tampilkan semua

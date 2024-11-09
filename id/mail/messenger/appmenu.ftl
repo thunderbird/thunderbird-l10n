@@ -5,9 +5,51 @@
 
 ## Sync
 
+appmenu-sync-panel-title =
+    .title = Selaraskan
+appmenu-signin-panel =
+    .label = Masuk untuk Sinkronisasi
+    .accesskey = i
+appmenu-sync-sync =
+    .value = Sinkronisasi Akun
+    .accesskey = A
+appmenu-sync-manage =
+    .value = Kelola Akun
+    .accesskey = n
+appmenu-sync-account =
+    .value = nama_akun@domain.server.com
+appmenu-sync-now =
+    .label = Sinkronkan Sekarang
+    .accesskey = n
+appmenu-sync-settings =
+    .label = Pengaturan Sinkronisasi
+    .accesskey = S
+appmenu-sync-sign-out =
+    .label = Keluar…
+    .accesskey = K
 
 ## New Account
 
+appmenu-new-account-panel-title =
+    .title = Akun Baru
+appmenu-new-account-panel =
+    .label = Akun Baru
+    .accesskey = n
+appmenu-new-email-account =
+    .label = Surel
+    .accesskey = e
+appmenu-new-calendar =
+    .label = Kalender
+    .accesskey = K
+appmenu-new-chat-account =
+    .label = Obrolan
+    .accesskey = O
+appmenu-new-feed =
+    .label = Asupan
+    .accesskey = p
+appmenu-new-newsgroup =
+    .label = Newsgroup
+    .accesskey = N
 
 ## New Account / Address Book
 

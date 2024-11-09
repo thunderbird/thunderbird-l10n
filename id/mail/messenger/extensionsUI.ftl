@@ -3,3 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 webext-experiment-warning = Pengaya berbahaya dapat mencuri informasi pribadi Anda atau membahayakan komputer Anda. Pasang pengaya ini hanya jika Anda mempercayai sumbernya.
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } telah ditambahkan.

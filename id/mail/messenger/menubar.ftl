@@ -121,3 +121,9 @@ mail-uidensity-relaxed =
 
 ## File
 
+file-new-email-account =
+    .label = Akun Surel…
+    .accesskey = e
+file-new-newsgroup-account =
+    .label = Akun Newsgroup…
+    .accesskey = N
