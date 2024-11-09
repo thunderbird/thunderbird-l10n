@@ -113,3 +113,7 @@ account-hub-result-ews-description = Бумалар мен электронды�
 account-hub-result-ews-text = Сервер
 account-hub-result-recommended-label = Ұсынылатын
 account-hub-edit-configuration = Баптауларды түзету
+account-hub-config-success = Конфигурация Mozilla ISPDB ішінен табылды
+account-hub-password-info = Тіркелгі деректеріңіз тек компьютеріңізде жергілікті түрде сақталады
+account-hub-sync-success = Thunderbird кейбір байланысқан қызметтерді тапты
+account-hub-email-added-success = Электрондық пошта тіркелгісі сәтті байланыстырылды
