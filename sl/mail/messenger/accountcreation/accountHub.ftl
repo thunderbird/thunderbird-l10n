@@ -113,3 +113,6 @@ account-hub-result-ews-description = Sinhroniziraj mape in e-pošto z uporabo sp
 account-hub-result-ews-text = Strežnik
 account-hub-result-recommended-label = Priporočeno
 account-hub-edit-configuration = Uredi nastavitve
+account-hub-password-info = Poverilnice bodo shranjene izključno na vašem računalniku
+account-hub-sync-success = Thunderbird je odkril nekaj povezanih storitev
+account-hub-email-added-success = E-poštni račun uspešno povezan
