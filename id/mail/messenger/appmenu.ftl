@@ -22,18 +22,55 @@ appmenu-new-addressbook =
 appmenu-new-carddav =
     .label = Buku Alamat vCard
     .accesskey = C
+appmenu-new-ldap =
+    .label = Buku Alamat LDAP
+    .accesskey = L
 
 ## Create
 
+appmenu-create-panel-title =
+    .title = Buat
+appmenu-create-panel =
+    .label = Buat
+    .accesskey = B
+appmenu-create-message =
+    .label = Pesan
+    .accesskey = n
+appmenu-create-event =
+    .label = Acara
+    .accesskey = A
+appmenu-create-task =
+    .label = Tugas
+    .accesskey = T
+appmenu-create-contact =
+    .label = Kontak
+    .accesskey = K
 
 ## Open
 
+appmenu-open-file-panel =
+    .label = Buka dari Berkas
+    .accesskey = a
+appmenu-open-file-panel-title =
+    .title = Buka dari Berkas
+appmenu-open-message =
+    .label = Pesan…
+    .accesskey = P
+appmenu-open-calendar =
+    .label = Kalender…
+    .accesskey = K
 
 ## View / Layout
 
+appmenu-view-panel-title =
+    .title = Tampilan
+appmenu-view-panel =
+    .label = Tampilan
+    .accesskey = T
 appmenuitem-toggle-thread-pane-header =
     .label = Tajuk Daftar Pesan
 appmenu-font-size-value = Ukuran Fonta
+appmenu-mail-uidensity-value = Densitas
 appmenu-uidensity-compact =
     .tooltiptext = Ringkas
 appmenu-uidensity-default =

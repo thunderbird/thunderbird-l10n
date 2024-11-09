@@ -23,3 +23,9 @@ chat-buddy-identity-status-unverified = Belum terverifikasi
 
 ## Conversation invite notification box
 
+chat-conv-invite-accept =
+    .label = Terima
+    .accesskey = a
+chat-conv-invite-deny =
+    .label = Tolak
+    .accesskey = T
