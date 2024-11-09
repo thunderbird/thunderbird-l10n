@@ -172,6 +172,23 @@ about-addressbook-cell-addrbook2 =
 about-addressbook-cards-context-write =
     .label = Tulis
 about-addressbook-confirm-delete-mixed-title = Hapus Kontak dan Milis
+# Variables:
+# $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
+about-addressbook-confirm-delete-mixed = Yakin ingin menghapus { $count } kontak dan daftar ini?
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+about-addressbook-confirm-delete-lists-title = Hapus Daftar
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+# $name (String) - The name of the list to be deleted, if $count is 1.
+about-addressbook-confirm-delete-lists = Yakin ingin menghapus { $count } daftar ini?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+about-addressbook-confirm-remove-contacts-title = Hapus Kontak
+# Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Yakin ingin menghapus { $name } dari { $list }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
