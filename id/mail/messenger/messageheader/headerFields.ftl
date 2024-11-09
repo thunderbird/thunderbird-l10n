@@ -32,6 +32,44 @@ message-header-archived-at = Diarsipkan-Di
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
 
+message-header-author-field = Penulis<span data-l10n-name="field-separator">:</span>
+message-header-organization-field = Organisasi<span data-l10n-name="field-separator">:</span>
+message-header-subject-field = Subjek<span data-l10n-name="field-separator">:</span>
+message-header-date-field = Tanggal<span data-l10n-name="field-separator">:</span>
+message-header-user-agent-field = User agent<span data-l10n-name="field-separator">:</span>
+message-header-references-field = Referensi<span data-l10n-name="field-separator">:</span>
+message-header-message-id-field = ID Pesan<span data-l10n-name="field-separator">:</span>
+message-header-in-reply-to-field = Balasan atas<span data-l10n-name="field-separator">:</span>
+message-header-website-field = Situs web<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = ID-Milis<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Dapatkan Bantuan
+    .accesskey = B
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Berhenti berlangganan…
+    .accesskey = B
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Berlangganan…
+    .accesskey = e
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Tulis
+    .accesskey = T
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Hubungi Administrator…
+    .accesskey = H
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Arsip Milis
+    .accesskey = A
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Tautan Permanen Pesan
+    .accesskey = P
 
 ##
 

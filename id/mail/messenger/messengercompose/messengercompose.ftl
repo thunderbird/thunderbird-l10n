@@ -105,6 +105,13 @@ to-address-row-label =
 show-to-row-extra-menuitem =
     .label = Kepada
     .accesskey = K
+bcc-address-row-label =
+    .value = Bcc
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = Bcc
+    .accesskey = B
 many-public-recipients-prompt-cancel = Batalkan Pengiriman
 many-public-recipients-prompt-send = Tetap Kirim
 
@@ -138,6 +145,10 @@ cloud-file-rename-error-title = Galat Ganti Nama
 
 ## Link Preview
 
+link-preview-yes-replace = Ya
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Tambah Kamus…
+    .accesskey = a
