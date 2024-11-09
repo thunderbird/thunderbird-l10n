@@ -819,13 +819,17 @@ sync-disconnected-turn-on-sync = Aktivizoni Njëkohësimin…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Eksportoni llogari për { -brand-product-name } për Celular
+qr-export-description = Shpërngulni shpejt e shpejt rregullimet e llogarisë tuaj nga desktop në celular, duke prodhuar një kod QR. Përzgjidhni cilat llogari të përfshihen, vendosni nëse doni të shpërngulni fjalëkalimin tuaj dhe skanojeni kodin me pajisjen tuaj celulare. E shpejtë, e siguruar dhe e thjeshtë.
 qr-export-get-app = S’e keni ende { -brand-product-name } në celular? <a data-l10n-name="app-link">Merreni që nga Google Play</a>
 qr-export-create = Krijoni një kod QR për të eksportuar llogaritë tuaja
 qr-export-select-accounts = Përzgjidhni cilat llogari të eksportohen:
+qr-export-no-accounts = S’i shihni krejt llogaritë tuaja? Disa llogari mund të jenë çaktivizuar, ngaqë nuk mbulohen nga { -brand-product-name } për Android. <a data-l10n-name="account-support-link">Asistencë</a>
 qr-export-accounts-legend = Llogari email
 qr-export-select-all-accounts = Përzgjidhi krejt
 qr-export-security-legend = Siguri
 qr-export-include-passwords = Përfshi krejt fjalëkalimet e llogarive
+qr-export-oauth-warning = Disa nga llogaritë tuaja përdorin një metodë mirëfilltësimi që mund të lypë rimirëfilltësim në pajisjen tuaj celulare. Gjatë këtij procesi mund t’ju duhet të rijepni fjalëkalimin tuaj.
+qr-export-security-hint = Duke skanuar kodet vijues QR, rregullimet e llogarive tuaja—përfshi email-in dhe fjalëkalimin tuaj—do të shpërngulen në mënyrë të parrezik. Gjatë procesit nuk grumbullojmë, depozitojmë apo ndajmë me të tjerët këto të dhëna. Shpërngulja ndodh drejtpërdrejt mes pajisjeve tuaja.
 qr-export-security-warning = Për sigurinë tuaj, ju lutemi, sigurohuni se gjendeni në një mjedis privat dhe skanoni kode QR vetë, prej burimesh të besuar.
 qr-export-start-export = Eksportim
 # Variables:
