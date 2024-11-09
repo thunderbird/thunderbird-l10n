@@ -189,10 +189,24 @@ about-addressbook-confirm-remove-contacts-title = Hapus Kontak
 # $name (String) - The name of the contact to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Yakin ingin menghapus { $name } dari { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi = Yakin ingin menghapus { $count } kontak ini dari { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title = Hapus Kontak
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Yakin ingin menghapus kontak { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi = Yakin ingin menghapus { $count } kontak ini?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Tidak ada kontak yang tersedia
 about-addressbook-placeholder-new-contact = Kontak Baru
 about-addressbook-placeholder-search-only = Buku alamat ini menampilkan kontak hanya setelah pencarian
 about-addressbook-placeholder-searching = Mencari…
@@ -246,11 +260,18 @@ about-addressbook-entry-name-custom2 = Ubahan 2
 about-addressbook-entry-name-custom3 = Ubahan 3
 about-addressbook-entry-name-custom4 = Ubahan 4
 about-addressbook-unsaved-changes-prompt-title = Perubahan Belum Tersimpan
+about-addressbook-unsaved-changes-prompt = Apakah Anda ingin menyimpan perubahan Anda sebelum meninggalkan tampilan sunting?
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = Jatuhkan atau tempel foto di sini, atau klik untuk memilih berkas.
+about-addressbook-photo-drop-loading = Memuat foto…
+about-addressbook-photo-drop-error = Gagal memuat foto.
+about-addressbook-photo-filepicker-title = Pilih berkas gambar
+about-addressbook-photo-discard = Buang foto yang ada
 about-addressbook-photo-cancel = Batal
 about-addressbook-photo-save = Simpan
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = B

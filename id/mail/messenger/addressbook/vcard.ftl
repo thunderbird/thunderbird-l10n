@@ -80,9 +80,20 @@ vcard-impp-input-title = URI untuk pesan instan
 
 # BDAY and ANNIVERSARY vCard field
 
+vcard-bday-anniversary-header = Tanggal Spesial
+vcard-bday-anniversary-add = Tambahkan tanggal spesial
+vcard-bday-label = Tanggal Lahir
+vcard-anniversary-label = Hari Jadi
+vcard-date-day = Tanggal
+vcard-date-month = Bulan
+vcard-date-year = Tahun
 
 # ADR vCard field
 
+vcard-adr-header = Alamat
+vcard-adr-add = Tambahkan alamat
+vcard-adr-label = Alamat
+vcard-adr-delivery-label = Label pengiriman
 # Or "Locality"
 vcard-adr-locality = Kota
 # Or "Region"

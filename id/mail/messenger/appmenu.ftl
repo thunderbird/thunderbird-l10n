@@ -11,6 +11,17 @@
 
 ## New Account / Address Book
 
+appmenu-newab-panel-title =
+    .title = Buku Alamat Baru
+appmenu-newab-panel =
+    .label = Buku Alamat Baru
+    .accesskey = A
+appmenu-new-addressbook =
+    .label = Buku Alamat Lokal
+    .accesskey = A
+appmenu-new-carddav =
+    .label = Buku Alamat vCard
+    .accesskey = C
 
 ## Create
 
