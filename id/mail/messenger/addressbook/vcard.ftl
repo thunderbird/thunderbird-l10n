@@ -94,6 +94,7 @@ vcard-adr-header = Alamat
 vcard-adr-add = Tambahkan alamat
 vcard-adr-label = Alamat
 vcard-adr-delivery-label = Label pengiriman
+vcard-adr-street = Jalan
 # Or "Locality"
 vcard-adr-locality = Kota
 # Or "Region"
