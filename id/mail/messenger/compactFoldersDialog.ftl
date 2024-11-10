@@ -13,3 +13,6 @@ compact-dialog =
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.
 compact-dialog-message = { -brand-short-name } perlu melakukan pemeliharaan berkas secara teratur untuk meningkatkan kinerja folder surel Anda. Ini akan memulihkan { $data } ruang disk tanpa mengubah pesan Anda. Untuk membiarkan { -brand-short-name } melakukan ini secara otomatis di masa mendatang tanpa bertanya, centang kotak di bawah ini sebelum memilih '{ compact-dialog.buttonlabelaccept }'.
+compact-dialog-never-ask-checkbox =
+    .label = Ringkas folder secara otomatis di masa mendatang
+    .accesskey = a
