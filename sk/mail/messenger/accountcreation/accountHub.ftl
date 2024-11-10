@@ -113,3 +113,7 @@ account-hub-result-ews-description = Na synchronizáciu priečinkov a e‑mailov
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Odporúčané
 account-hub-edit-configuration = Upraviť konfiguráciu
+account-hub-config-success = Konfigurácia bola nájdená v databáze Mozilla ISPDB
+account-hub-password-info = Vaše prihlasovacie údaje budú uložené iba lokálne vo vašom počítači
+account-hub-sync-success = Thunderbird našiel nejaké pripojené služby
+account-hub-email-added-success = E‑mailový účet bol úspešne pripojený
