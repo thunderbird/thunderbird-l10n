@@ -113,3 +113,7 @@ account-hub-result-ews-description = Anv채nd Microsoft Exchange webbtj채nster f�
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Rekommenderad
 account-hub-edit-configuration = Redigera konfiguration
+account-hub-config-success = Konfigurationen hittades i Mozilla ISPDB
+account-hub-password-info = Dina autentiseringsuppgifter kommer endast att lagras lokalt p책 din dator
+account-hub-sync-success = Thunderbird hittade n책gra anslutna tj채nster
+account-hub-email-added-success = E-postkontot har anslutits
