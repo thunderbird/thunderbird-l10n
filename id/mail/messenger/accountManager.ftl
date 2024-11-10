@@ -4,6 +4,9 @@
 
 open-preferences-sidebar-button2 = Pengaturan { -brand-short-name }
 open-addons-sidebar-button = Pengaya dan Tema
+account-action-add-newsgroup-account =
+    .label = Tambahkan Akun Newsgroup…
+    .accesskey = N
 account-tree-create-account-button = Akun Baru
 account-tree-add-mail-account =
     .label = Akun Surel
@@ -17,6 +20,7 @@ account-tree-add-feed-account =
 account-tree-add-newsgroup-account =
     .label = Akun Newsgroup…
     .accesskey = N
+server-change-restart-required = Mulai ulang diperlukan untuk menerapkan perubahan nama server atau nama pengguna.
 edit-vcard-dialog-accept-button = Simpan
     .accesskey = S
 edit-vcard-dialog-cancel-button = Batal

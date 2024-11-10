@@ -15,6 +15,9 @@ carddav-location-label =
 carddav-location =
     .default-placeholder = URL atau nama host dari server buku alamat
 carddav-loading = Mencari konfigurasi…
+# Variables:
+# $url (String) - CardDAV endpoint hostname. For example "example.com".
+carddav-known-incompatible = { $url } diketahui tidak kompatibel dengan { -brand-short-name }.
 carddav-connection-error = Gagal  tersambung.
 carddav-none-found = Tidak ditemukan buku alamat untuk ditambahkan ke akun yang ditentukan.
 carddav-already-added = Semua buku alamat untuk akun yang ditentukan telah ditambahkan.

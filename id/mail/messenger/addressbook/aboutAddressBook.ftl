@@ -32,6 +32,9 @@ all-address-books = Semua Buku Alamat
 # $name (String) - The name of the selected book/list.
 # $count (Number) - The number of contacts in the selected book/list.
 about-addressbook-card-count = Total kontak di { $name }: { $count }
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Total kontak di semua buku alamat: { $count }
 about-addressbook-books-context-properties =
     .label = Properti
 about-addressbook-books-context-edit-list =
@@ -51,6 +54,9 @@ about-addressbook-books-context-remove =
 about-addressbook-books-context-startup-default =
     .label = Direktori awal mula baku
 about-addressbook-confirm-delete-book-title = Hapus Buku Alamat
+# Variables:
+# $name (String) - Name of the address book to be deleted.
+about-addressbook-confirm-delete-book = Yakin ingin menghapus { $name } dan semua kontaknya?
 about-addressbook-confirm-remove-remote-book-title = Singkirkan Buku Alamat
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
