@@ -429,6 +429,7 @@ account-hub-legend = Центр облікових записів
 account-hub-checkbox-label =
     .label = Створити облікові записи в новому центрі облікових записів
     .accesskey = з
+account-hub-checkbox-description = Експериментальна функція створення нового облікового запису електронної пошти
 
 ## Compose Tab
 
