@@ -40,7 +40,6 @@ account-hub-sync-button = Iniciar sesión en Sync…
 
 ## Email page
 
-account-hub-email-title = Configure su cuenta de correo electrónico
 account-hub-add-email-title = Añada su cuenta
 account-hub-manually-configure-email-title = Configuración de la cuenta
 account-hub-email-cancel-button = Cancelar
@@ -53,8 +52,16 @@ account-hub-email-continue-button = Continuar
 account-hub-email-confirm-button = Confirmar
 account-hub-incoming-server-legend = Servidor de entrada
 account-hub-outgoing-server-legend = Servidor de salida
+account-hub-result-incoming-server-legend = Servidor de entrada
+    .title = Servidor de entrada
+account-hub-result-outgoing-server-legend = Servidor de salida
+    .title = Servidor de salida
 account-hub-protocol-label = Protocolo
 account-hub-hostname-label = Nombre del servidor
+account-hub-result-hostname-label = Nombre del servidor
+    .title = Nombre del servidor
+account-hub-result-authentication-label = Autentificación
+    .title = Autentificación
 account-hub-port-label = Puerto
     .title = Establezca el número de puerto en 0 para la detección automática
 account-hub-auto-description = { -brand-short-name } intentará detectar automáticamente los campos que se dejen en blanco.
@@ -79,6 +86,8 @@ account-hub-auth-no-authentication-option =
     .label = Sin autentificación
 account-hub-auth-label = Método de autentificación
 account-hub-username-label = Nombre de usuario
+account-hub-result-username-label = Nombre de usuario
+    .title = Nombre de usuario
 account-hub-name-label = Nombre completo
     .accesskey = N
 account-hub-adding-account-title = Añadiendo cuenta
