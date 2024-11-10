@@ -9,6 +9,8 @@ info-will-expire = Kunci ini saat ini dikonfigurasi untuk kedaluwarsa pada { $da
 info-already-expired = Kunci ini telah kedaluwarsa.
 info-does-not-expire = Kunci ini saat ini dikonfigurasi agar tidak pernah kedaluwarsa.
 info-explanation-1 = <b>Setelah kunci kedaluwarsa</b>, tidak mungkin lagi menggunakannya untuk enkripsi atau penandatanganan digital.
+# Do not translate: OpenPGP
+info-explanation-1-complex = Kunci OpenPGP ini terdiri dari kunci utama dan setidaknya satu sub kunci <b>dengan tanggal kedaluwarsa yang berbeda</b>.
 info-explanation-2 = Untuk menggunakan kunci ini untuk jangka waktu yang lebih lama, ubah tanggal kedaluwarsanya, lalu bagikan kunci publik tersebut dengan mitra percakapan Anda lagi.
 usage-label = Penggunaan:
 algorithm-label = Algoritma:
