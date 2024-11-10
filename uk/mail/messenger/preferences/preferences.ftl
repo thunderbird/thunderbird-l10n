@@ -425,6 +425,10 @@ dark-reader-checkbox-label =
     .label = Адаптувати до темної теми
     .accesskey = о
 dark-reader-checkbox-description = Експериментальна функція, завдяки якій панель повідомлень відповідає темним темам
+account-hub-legend = Центр облікових записів
+account-hub-checkbox-label =
+    .label = Створити облікові записи в новому центрі облікових записів
+    .accesskey = з
 
 ## Compose Tab
 
