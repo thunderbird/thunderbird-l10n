@@ -4,6 +4,43 @@
 
 e2e-intro-description = Untuk mengirim pesan terenkripsi atau bertanda tangan digital, Anda perlu mengkonfigurasi teknologi enkripsi, baik OpenPGP maupun S/MIME.
 e2e-intro-description-more = Pilih kunci pribadi Anda untuk mengaktifkan penggunaan OpenPGP, atau sertifikat pribadi Anda untuk mengaktifkan penggunaan S/MIME. Untuk kunci pribadi atau sertifikat, Anda memiliki kunci rahasia yang sesuai.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Untuk mendapatkan sertifikat S/MIME pribadi baru, buat Certificate Signing Request (CSR) dan kirimkan ke Certificate Authority (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Pilih direktori lokal dan nama berkas untuk berkas CSR Anda, dan jawab pertanyaan berikut untuk pengaturan algoritme dan kekuatan.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Buat CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Lanjutkan
+# A label for a button that goes back one step
+e2e-csr-back = Mundur
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Buat dan simpan berkas CSR sebagai…
+# Do not translate: CSR
+e2e-csr-select-title = Algoritma CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Pilih antara RSA (disarankan) atau ECC sebagai algoritme kriptografi Anda untuk sertifikat S/MIME yang baru.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Pilih kekuatan kriptografi yang Anda inginkan (lebih cepat dengan angka yang lebih rendah atau keamanan yang lebih baik dengan angka yang lebih tinggi) untuk sertifikat S/MIME baru, atau pertahankan pengaturan default.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Sertakan alamat surel ({ $email }) di CSR (disarankan)
+# $file A filename
+e2e-csr-success = CSR berhasil disimpan ke { $file }
+# $file A filename
+e2e-csr-failure = Tidak bisa menyimpan CSR ke berkas { $file }
+e2e-signing-description = Tanda tangan digital memungkinkan penerima untuk memverifikasi bahwa pesan dikirim oleh Anda dan isinya tidak diubah. Pesan terenkripsi selalu ditandatangani secara baku.
+e2e-sign-message =
+    .label = Tandatangani pesan yang tidak dienkripsi
+    .accesskey = T
+e2e-disable-enc =
+    .label = Nonaktifkan enkripsi untuk pesan baru
+    .accesskey = N
+e2e-enable-enc =
+    .label = Aktifkan enkripsi untuk pesan baru
+    .accesskey = A
+e2e-enable-description = Anda akan dapat menonaktifkan enkripsi untuk pesan individual.
 e2e-advanced-section = Pengaturan tingkat lanjut
 e2e-attach-key =
     .label = Lampirkan kunci publik saya saat menambahkan tanda tangan digital OpenPGP
@@ -14,13 +51,16 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = Simpan pesan draf dalam format terenkripsi
     .accesskey = r
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Kirim kunci publik OpenPGP di header surel untuk kompatibilitas dengan Autocrypt
+    .accesskey = t
+openpgp-key-created-label =
+    .label = Dibuat
 openpgp-key-expiry-label =
     .label = Kedaluwarsa
 openpgp-key-id-label =
     .label = ID Kunci
-openpgp-cannot-change-expiry = Ini adalah kunci dengan struktur yang kompleks, mengubah tanggal kedaluwarsa tidak didukung.
-openpgp-key-man-title =
-    .title = Manajer Kunci OpenPGP
 openpgp-key-man-dialog-title = Manajer Kunci OpenPGP
 openpgp-key-man-generate =
     .label = Pasangan Kunci Baru
@@ -28,8 +68,9 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Sertifikat Pencabutan
     .accesskey = R
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Hasilkan & Simpan Sertifikat Pencabutan
+openpgp-key-man-gen-revocation =
+    .label = Simpan Sertifikat Pencabutan Ke Berkas
+    .accesskey = c
 openpgp-key-man-file-menu =
     .label = File
     .accesskey = F
@@ -70,6 +111,9 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Temukan Kunci Daring
     .accesskey = D
+openpgp-key-man-publish-cmd =
+    .label = Terbitkan
+    .accesskey = T
 openpgp-key-man-discover-prompt = Untuk menemukan kunci OpenPGP secara daring, pada server kunci atau menggunakan protokol WKD, masukkan salah satu alamat surel atau ID kunci.
 openpgp-key-man-discover-progress = Mencari…
 openpgp-key-copy-key =
@@ -84,41 +128,51 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Kirim Kunci Publik Lewat Surel
     .accesskey = S
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
            *[other] Salin ID Kunci ke Papan Klip
         }
     .accesskey = k
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
            *[other] Salin Sidik Jari Ke Papan Klip
         }
     .accesskey = S
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
            *[other] Salin Kunci Publik Ke Papan Klip
         }
     .accesskey = P
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Ekspor Kunci Ke File
 openpgp-key-man-ctx-copy =
     .label = Salin
     .accesskey = S
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
            *[other] Sidik Jari
         }
     .accesskey = S
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
            *[other] ID Kunci
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -249,9 +303,9 @@ openpgp-radio-none-desc = Jangan gunakan OpenPGP untuk identitas ini.
 openpgp-radio-key-not-usable = Kunci ini tidak dapat digunakan sebagai kunci pribadi, karena kunci rahasia hilang!
 openpgp-radio-key-not-accepted = Untuk menggunakan kunci ini Anda harus menyetujuinya sebagai kunci pribadi!
 openpgp-radio-key-not-found = Kunci ini tidak ditemukan! Jika ingin menggunakannya, Anda harus mengimpornya ke { -brand-short-name }.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Kedaluwarsa pada: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Kedaluwarsa pada: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = Kunci akan kedaluwarsa dalam waktu kurang dari 6 bulan
@@ -273,7 +327,6 @@ key-external-label = Kunci GnuPG Eksternal
 
 ## Strings in keyDetailsDlg.xhtml
 
-# Strings in keyDetailsDlg.xhtml
 key-type-public = kunci publik
 key-type-primary = kunci utama
 key-type-subkey = subkunci
@@ -284,6 +337,8 @@ key-usage-sign = Tandatangan
 key-usage-certify = Sertifikasi
 key-usage-authentication = Otentikasi
 key-does-not-expire = Kunci tidak kedaluwarsa
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Kunci kedaluwarsa pada { $keyExpiry }
 key-expired-simple = Kunci sudah kedaluwarsa
 key-revoked-simple = Kunci sudah dicabut
@@ -291,13 +346,16 @@ key-do-you-accept = Apakah Anda menerima kunci ini untuk memverifikasi tanda tan
 
 ## Strings enigmailMsgComposeOverlay.js
 
-# Strings enigmailMsgComposeOverlay.js
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Tidak dapat mengirim pesan, karena ada masalah dengan kunci pribadi Anda. { $problem }
 window-locked = Jendela tulis terkunci; pengiriman dibatalkan
 
 ## Strings in keyserver.jsm
 
-# Strings in keyserver.jsm
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Dibatalkan
 keyserver-error-unknown = Terjadi masalah yang tidak diketahui
 keyserver-error-server-error = Server kunci melaporkan kesalahan.
@@ -309,7 +367,9 @@ keyserver-error-unsupported = Server kunci tidak didukung.
 
 ## Strings in mimeWkdHandler.jsm
 
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Penyedia surel Anda telah memproses permintaan Anda untuk mengunggah kunci publik Anda ke OpenPGP Web Key Directory.
     Harap konfirmasi untuk menyelesaikan penerbitan kunci publik Anda.
@@ -319,7 +379,11 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.sys.mjs
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Tidak dapat mendekripsi pesan dengan subjek
     { $subject }.
@@ -327,30 +391,35 @@ converter-decrypt-body-failed =
 
 ## Strings filters.jsm
 
-# Strings filters.jsm
+
+## Strings filters.sys.mjs
+
 filter-folder-required = Anda harus memilih folder target.
 filter-decrypt-move-warn-experimental =
     Peringatan - tindakan filter "Dekripsi secara permanen" dapat menyebabkan pesan rusak.
     Kami sangat menganjurkan agar Anda terlebih dahulu mencoba filter "Buat Salinan yang didekripsi", uji hasilnya dengan cermat, dan hanya mulai gunakan filter ini setelah Anda puas dengan hasilnya.
 filter-term-pgpencrypted-label = Dienkripsi OpenPGP
 filter-key-required = Anda harus memilih kunci penerima.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Tidak dapat menemukan kunci enkripsi untuk '{ $desc }'.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Peringatan - tindakan filter "Enkripsi ke kunci" menggantikan penerima.
     Jika Anda tidak memiliki kunci rahasia untuk '{ $desc }' Anda tidak dapat lagi membaca surel itu.
 
 ## Strings filtersWrapper.jsm
 
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.sys.mjs
+
 filter-decrypt-move-label = Dekripsi secara permanen (OpenPGP)
 filter-decrypt-copy-label = Buat Salinan yang didekripsi (OpenPGP)
 filter-encrypt-label = Enkripsi ke kunci (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-# Strings in enigmailKeyImportInfo.js
-import-info-title =
-    .title = Sukses! Kunci diimpor
 import-info-dialog-title = Sukses! Kunci diimpor
 import-info-bits = Bit
 import-info-created = Dibuat
@@ -360,11 +429,12 @@ import-info-no-keys = Tidak ada kunci yang diimpor.
 
 ## Strings in enigmailKeyManager.js
 
-# Strings in enigmailKeyManager.js
 import-from-clip = Apakah Anda ingin mengimpor beberapa kunci dari papan klip?
 import-from-url = Unduh kunci publik dari URL ini:
 copy-to-clipbrd-failed = Tidak dapat menyalin kunci yang dipilih ke papan klip.
 copy-to-clipbrd-ok = Kunci disalin ke papan klip
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     PERINGATAN: Anda akan menghapus kunci rahasia!
     
@@ -376,6 +446,8 @@ delete-mix =
     PERINGATAN: Anda akan menghapus kunci rahasia!
     Jika Anda menghapus kunci rahasia, Anda tidak lagi dapat mendekripsi pesan apa pun yang dienkripsi untuk kunci itu.
     Anda yakin ingin menghapus KEDUANYA, kunci rahasia dan publik yang dipilih?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Apakah Anda ingin menghapus kunci publik
     '{ $userId }'?
@@ -396,6 +468,8 @@ default-pub-key-filename = Kunci-publik-yang-diekspor
 default-pub-sec-key-filename = Cadangan-kunci-rahasia
 refresh-key-warn = Peringatan: tergantung pada banyaknya kunci dan kecepatan koneksi, menyegarkan semua kunci bisa menjadi proses yang cukup lama!
 preview-failed = Tidak dapat membaca file kunci publik.
+# Variables:
+# $reason (String) - Error description.
 general-error = Kesalahan: { $reason }
 dlg-button-delete = &Hapus
 
@@ -411,7 +485,12 @@ openpgp-export-secret-fail = <b>Tidak dapat mengekspor kunci rahasia yang dipili
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
-# Strings in keyObj.jsm
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Kunci { $userId } (ID kunci { $keyId }) dicabut.
 key-ring-pub-key-expired = Kunci { $userId } (ID kunci { $keyId }) telah kedaluwarsa.
 key-ring-no-secret-key = Anda tampaknya tidak memiliki kunci rahasia untuk { $userId } (ID kunci { $keyId }) pada keyring Anda; Anda tidak dapat menggunakan kunci untuk menandatangani.
@@ -424,13 +503,17 @@ key-ring-enc-sub-keys-expired = Semua subkunci enkripsi dari kunci { $userId } (
 
 ## Strings in gnupg-keylist.jsm
 
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Foto
 user-att-photo = Atribut pengguna (gambar JPEG)
 
 ## Strings in key.jsm
 
-# Strings in key.jsm
+
+## Strings in key.sys.mjs
+
 already-revoked = Kunci ini sudah dicabut.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -453,7 +536,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Impor
 delete-key-title = Hapus Kunci OpenPGP
 delete-external-key-title = Buamg Kunci GnuPG Eksternal
@@ -464,38 +549,57 @@ revoke-key-in-use-description = Tidak dapat melanjutkan! Kunci yang Anda pilih u
 
 ## Strings used in errorHandling.jsm
 
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.sys.mjs
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = Alamat surel '{ $keySpec }' tidak bisa dicocokkan dengan kunci di keyring Anda.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = ID kunci yang dikonfigurasi '{ $keySpec }' tidak dapat ditemukan di keyring Anda.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Anda belum mengonfirmasi bahwa kunci dengan ID '{ $keySpec }' adalah kunci pribadi Anda.
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Fungsi yang Anda pilih tidak tersedia dalam mode luring. Pergilah daring dan coba lagi.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
 
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
+
+
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Kesalahan - perintah ekstraksi kunci gagal
 
 ## Strings used in keyRing.jsm
 
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.sys.mjs
+
 fail-cancel = Kesalahan - Penerimaan kunci dibatalkan oleh pengguna
 not-first-block = Kesalahan - Blok OpenPGP pertama bukan blok kunci publik
 import-key-confirm = Impor kunci publik yang disematkan dalam pesan?
 fail-key-import = Kesalahan - impor kunci gagal
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Gagal menulis ke berkas  { $output }
 no-pgp-block = Kesalahan - Tidak ditemukan blok data OpenPGP terbungkus yang valid
 confirm-permissive-import = Impor gagal. Kunci yang Anda coba impor mungkin rusak atau menggunakan atribut yang tidak diketahui. Apakah Anda ingin mencoba mengimpor bagian yang benar? Ini mungkin mengakibatkan impor kunci yang tidak lengkap dan tidak dapat digunakan.
 
 ## Strings used in trust.jsm
 
-# Strings used in trust.jsm
+
+## Strings used in trust.sys.mjs
+
 key-valid-unknown = tidak dikenal
 key-valid-invalid = tidak valid
 key-valid-disabled = dinonaktifkan
@@ -509,7 +613,6 @@ key-trust-group = (grup)
 
 ## Strings used in commonWorkflows.js
 
-# Strings used in commonWorkflows.js
 import-key-file = Impor Berkas Kunci OpenPGP
 import-rev-file = Impor Berkas Pencabutan OpenPGP
 gnupg-file = Berkas GnuPG
@@ -518,7 +621,6 @@ file-to-big-to-import = File ini terlalu besar. Harap jangan mengimpor banyak ku
 
 ## Strings used in enigmailKeygen.js
 
-# Strings used in enigmailKeygen.js
 save-revoke-cert-as = Buat & Simpan Sertifikat Pencabutan
 revoke-cert-ok = Sertifikat pencabutan telah berhasil dibuat. Anda dapat menggunakannya untuk membuat kunci publik Anda tidak valid, mis. seandainya Anda kehilangan kunci rahasia Anda.
 revoke-cert-failed = Sertifikat pencabutan tidak dapat dibuat.
@@ -526,6 +628,8 @@ gen-going = Pembuatan kunci sedang berlangsung!
 keygen-missing-user-name = Tidak ada nama yang ditentukan untuk akun/identitas yang dipilih. Harap masukkan nilai di bidang "Nama Anda" di pengaturan akun.
 expiry-too-short = Kunci Anda harus valid setidaknya untuk satu hari.
 expiry-too-long = Anda tidak dapat membuat kunci yang kedaluwarsanya lebih dari 100 tahun.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Hasilkan kunci publik dan rahasia untuk '{ $id }'?
 key-man-button-generate-key = &Hasilkan Kunci
 key-abort = Batalkan pembuatan kunci?
@@ -536,9 +640,17 @@ key-man-button-generate-key-continue = Lanjutkan Pembuatan Kun&ci
 
 failed-decrypt = Kesalahan - dekripsi gagal
 fix-broken-exchange-msg-failed = Tidak berhasil memperbaiki pesan.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Tidak dapat mencocokkan file tanda tangan '{ $attachment }' dengan lampiran
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Tidak dapat mencocokkan lampiran '{ $attachment }' dengan file tanda tangan
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = Tanda tangan untuk lampiran { $attachment } berhasil diverifikasi
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = Tanda tangan untuk lampiran { $attachment } tidak dapat diverifikasi
 decrypt-ok-no-sig =
     Peringatan
@@ -548,14 +660,21 @@ enig-content-note = *Lampiran pesan ini belum ditandatangani atau dienkripsi*
 
 ## Strings used in enigmailMsgComposeOverlay.js
 
-# Strings used in enigmailMsgComposeOverlay.js
 msg-compose-button-send = Kirim Pe&san
 msg-compose-details-button-label = Rincian...
 msg-compose-details-button-access-key = R
 send-aborted = Operasi pengiriman dibatalkan.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Tidak cukup kepercayaan untuk kunci '{ $key }'
+# Variables:
+# $key (String) - Key id.
 key-not-found = Kunci '{ $key }' tidak ditemukan
+# Variables:
+# $key (String) - Key id.
 key-revoked = Kunci '{ $key }' dicabut
+# Variables:
+# $key (String) - Key id.
 key-expired = Kunci '{ $key }' kedaluwarsa
 msg-compose-internal-error = Kesalahan internal telah terjadi.
 keys-to-export = Pilih Kunci OpenPGP untuk Disisipkan
@@ -567,79 +686,83 @@ msg-compose-partially-encrypted-short = Waspadai kebocoran informasi sensitif - 
 quoted-printable-warn =
     Anda telah mengaktifkan pengkodean 'quote-printable' untuk mengirim pesan. Hal ini dapat mengakibatkan kesalahan dekripsi dan/atau verifikasi pesan Anda.
     Apakah Anda ingin mematikan pengiriman pesan yang 'quote-printable' sekarang?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Anda telah menyetel pelipatan baris ke { $width } karakter. Untuk enkripsi dan/atau penandatanganan yang benar, nilai ini harus minimal 68.
     Apakah Anda ingin mengubah pelipatan baris menjadi 68 karakter sekarang?
-sending-news =
-    Operasi pengiriman terenkripsi dibatalkan.
-    Pesan ini tidak dapat dienkripsi karena ada penerima newsgroup. Harap kirim ulang pesan tanpa enkripsi.
-send-to-news-warning =
-    Peringatan: Anda akan mengirim surel terenkripsi ke newsgroup.
-    Hal ini tidak disarankan karena hanya masuk akal jika semua anggota grup dapat mendekripsi pesan, yaitu pesan perlu dienkripsi dengan kunci semua peserta grup. Harap kirim pesan ini hanya jika Anda tahu persis apa yang Anda lakukan.
-    Lanjutkan?
 save-attachment-header = Simpan lampiran yang didekripsi
-possibly-pgp-mime = Mungkin pesan yang dienkripsi atau ditandatangani PGP/MIME; gunakan fungsi 'Dekripsi/Verifikasi' untuk memverifikasi
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Tidak dapat menandatangani pesan ini secara digital, karena Anda belum mengonfigurasi enkripsi ujung-ke-ujung untuk <{ $key }>
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Tidak dapat mengirim pesan ini dengan enkripsi, karena Anda belum mengonfigurasi enkripsi ujung-ke-ujung untuk <{ $key }>
 
 ## Strings used in decryption.jsm
 
-# Strings used in decryption.jsm
+
+## Strings used in decryption.sys.mjs
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Impor kunci berikut?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = Impor { $name } ({ $id })?
 cant-import = Terjadi kesalahan saat mengimpor kunci publik
 unverified-reply = Bagian pesan yang diberi indentasi (balasan) mungkin telah diubah
 key-in-message-body = Sebuah kunci ditemukan di badan pesan. Klik 'Impor Kunci' untuk mengimpor kunci
 sig-mismatch = Kesalahan - Tanda tangan tidak cocok
 invalid-email = Kesalahan - alamat surel tidak valid
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Lampiran '{ $name }' yang Anda buka tampaknya seperti berkas kunci OpenPGP.
     Klik 'Impor' untuk mengimpor kunci yang ada atau 'Lihat' untuk melihat konten berkas di jendela peramban
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-# Strings used in enigmailMsgHdrViewOverlay.js
-decrypted-msg-with-format-error = Pesan yang didekripsi (format surel PGP rusak yang dipulihkan mungkin disebabkan oleh server Exchange lama, sehingga hasilnya mungkin tidak sempurna untuk dibaca)
-
 ## Strings used in encryption.jsm
 
-# Strings used in encryption.jsm
+
+## Strings used in encryption.sys.mjs
+
 not-required = Kesalahan - tidak diperlukan enkripsi
 
 ## Strings used in windows.jsm
 
-# Strings used in windows.jsm
+
+## Strings used in windows.sys.mjs
+
 no-photo-available = Tidak ada Foto tersedia
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Path foto '{ $photo }' tidak dapat dibaca
 debug-log-title = Log Debug OpenPGP
 
 ## Strings used in dialog.jsm
 
-# Strings used in dialog.jsm
-repeat-prefix = Lansiran ini akan berulang { $count }
-repeat-suffix-singular = kali lagi.
-repeat-suffix-plural = kali lagi.
-no-repeat = Lansiran ini tidak akan ditampilkan lagi.
-dlg-keep-setting = Ingat jawaban saya dan jangan tanya saya lagi
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &OK
 dlg-button-close = T&utup
 dlg-button-cancel = &Batal
 dlg-no-prompt = Jangan tampilkan dialog ini lagi.
 enig-prompt = Sapaan PromptPGP
 enig-confirm = Konfirmasi OpenPGP
-enig-alert = Lansiran OpenPGP
-enig-info = Informasi OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.sys.mjs
+
 dlg-button-retry = &Coba Lagi
 dlg-button-skip = &Lewati
 
 ## Strings used in enigmailMsgBox.js
 
-# Strings used in enigmailMsgBox.js
 enig-alert-title =
     .title = Lansiran OpenPGP

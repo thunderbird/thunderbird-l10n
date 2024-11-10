@@ -53,3 +53,4 @@ openpgp-partially-encrypted =
 openpgp-reminder-partial-display = Pengingat: Pesan yang ditampilkan di bawah ini hanya sebagian dari pesan asli.
 openpgp-partial-verify-button = Verifikasi
 openpgp-partial-decrypt-button = Dekripsi
+openpgp-unexpected-key-for-you = Peringatan: Pesan ini mengandung kunci OpenPGP yang tidak dikenal yang merujuk ke salah satu alamat surel Anda sendiri. Jika ini bukan salah satu kunci Anda sendiri, ini bisa menjadi upaya untuk mengelabui koresponden lain.
