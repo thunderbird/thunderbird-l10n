@@ -113,3 +113,7 @@ account-hub-result-ews-description = Notaðu Microsoft Exchange vefþjónustur t
 account-hub-result-ews-text = Netþjónn
 account-hub-result-recommended-label = Mælt með
 account-hub-edit-configuration = Breyta uppsetningu
+account-hub-config-success = Uppsetning fannst í ISP-gagnagrunni Mozilla.
+account-hub-password-info = Auðkennin þín verða einungis geymd inni á tölvunni þinni
+account-hub-sync-success = Thunderbird fann nokkrar tengdar þjónustur
+account-hub-email-added-success = Tókst að tengja póstreikning
