@@ -251,15 +251,40 @@ message-header-customize-button-style =
 
 ## Add-on removal warning
 
+caret-browsing-prompt-check-text = Jangan tanya lagi.
+repair-text-encoding-button =
+    .label = Perbaiki Pengodean Teks
+    .tooltiptext = Tebak pengodean teks yang benar dari konten pesan
 
 ## no-reply handling
 
+no-reply-title = Balasan Tidak Didukung
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
+no-reply-message = Alamat balasan ({ $email }) tampaknya bukan alamat yang dipantau. Pesan ke alamat ini kemungkinan tidak akan dibaca oleh siapa pun.
+no-reply-reply-anyway-button = Tetap Balas
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple = { $failures } dari { $total } pesan tidak dapat didekripsi dan tidak disalin.
 
 ## Spaces toolbar
 
+spaces-toolbar-button-mail2 =
+    .title = Surat
+spaces-toolbar-button-address-book2 =
+    .title = Buku Alamat
+spaces-toolbar-button-calendar2 =
+    .title = Kalender
+spaces-toolbar-button-tasks2 =
+    .title = Tugas
+spaces-toolbar-button-chat2 =
+    .title = Obrolan
+spaces-toolbar-button-overflow =
+    .title = Ruang lain...
 spaces-toolbar-button-settings2 =
     .title = Pengaturan
 spaces-context-new-tab-item =
@@ -293,9 +318,27 @@ spaces-pinned-button-menuitem-settings2 =
     .label = { spaces-toolbar-button-settings2.title }
 spaces-pinned-button-menuitem-show =
     .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title = { $count } pesan belum dibaca
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Sesuaikan…
+spaces-customize-background-color = Warna latar
+spaces-customize-icon-color = Warna tombol
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Warna latar tombol yang dipilih
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Warna tombol yang dipilih
+spaces-customize-button-restore = Pulihkan Bawaan
+    .accesskey = B
+customize-panel-button-save = Selesai
+    .accesskey = S
 
 ## Quick Filter Bar
 
@@ -311,6 +354,7 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Lupakan frasa sandi OpenPGP
 
 ## Quota panel.
 

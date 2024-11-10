@@ -236,21 +236,84 @@ encrypted-bcc-ignore-button = Dipahami
 
 # Placeholder file
 
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = Berkas { $filename } dilampirkan sebagai Tautan Berkas. Itu dapat diunduh dari tautan di bawah ini.
 
 # Template
 
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
+cloud-file-count-header = Saya telah menautkan { $count } berkas ke surel ini:
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = Pelajari lebih lanjut tentang { $link }.
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = Pelajari lebih lanjut tentang { $firstLinks } dan { $lastLink }.
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = Tautan yang dilindungi kata sandi
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Layanan Tautan Berkas:
 cloud-file-template-size = Ukuran:
 cloud-file-template-link = Tautan:
+cloud-file-template-password-protected-link = Tautan Dilindungi Sandi:
 cloud-file-template-expiry-date = Tanggal Kedaluwarsa:
 cloud-file-template-download-limit = Batas Unduh:
 
 # Messages
 
 cloud-file-connection-error-title = Galat Koneksi
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = { -brand-short-name } sedang luring. Tidak dapat tersambung ke { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = Gagal Mengunggah { $filename } ke { $provider }
 cloud-file-rename-error-title = Galat Ganti Nama
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Terjadi masalah saat mengganti nama { $filename } pada { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = Gagal Mengganti Nama { $filename } pada { $provider }
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } tidak mendukung penggantian nama berkas yang sudah diunggah.
+cloud-file-attachment-error-title = Kesalahan Lampiran Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Gagal memperbarui lampiran Filelink { $filename }, karena berkas lokalnya telah dipindahkan atau dihapus.
+cloud-file-account-error-title = Kesalahan Akun Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Gagal memperbarui lampiran Filelink { $filename }, karena akun Filelink-nya telah dihapus.
 
 ## Link Preview
 
+link-preview-title = Pratinjau Tautan
+link-preview-description = { -brand-short-name } dapat menambahkan pratinjau tersemat saat menempelkan tautan.
+link-preview-autoadd = Tambahkan pratinjau tautan secara otomatis jika memungkinkan
+link-preview-replace-now = Tambahkan Pratinjau Tautan untuk tautan ini?
 link-preview-yes-replace = Ya
 
 ## Dictionary selection popup
@@ -258,3 +321,5 @@ link-preview-yes-replace = Ya
 spell-add-dictionaries =
     .label = Tambah Kamus…
     .accesskey = a
+subject-encription-icon =
+    .title = Subjek tidak akan dienkripsi

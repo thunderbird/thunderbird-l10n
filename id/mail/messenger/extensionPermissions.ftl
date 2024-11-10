@@ -29,3 +29,6 @@ webext-perms-description-messagesMove = Menyalin atau memindahkan pesan surel An
 webext-perms-description-messagesDelete = Menghapus pesan surel Anda secara permanen
 webext-perms-description-messagesRead2 = Membaca pesan surel Anda
 webext-perms-description-messagesUpdate = Mengubah properti dan tag pesan surel Anda
+webext-perms-description-messagesTags = Membuat, mengubah, dan menghapus tag pesan
+webext-perms-description-messagesTagsList = Mencantumkan daftar tag pesan
+webext-perms-description-sensitiveDataUpload = Mentransfer data pengguna yang sensitif (jika akses telah diberikan) ke server jarak jauh untuk diproses lebih lanjut
