@@ -4,7 +4,7 @@
 
 rights-title = Mbi të Drejtat Tuaja
 rights-intro =
-    { -brand-full-name } është software i lirë dhe me burim të hapur, krijuar nga një bashkësi
+    { -brand-full-name } është software i lirë dhe me burim të hapët, krijuar nga një bashkësi
     disamijëshe anembanë botës. Ka pak gjëra që do të duhej
     t'i dinit:
 rights-intro-point-1 = { -brand-short-name }-i ju jepet sipas kushteve të <a data-l10n-name="mozilla-public-license-link">Licencës Publike Mozilla</a>. Kjo do të thotë që { -brand-short-name }-in mund ta përdorni, kopjoni dhe tua shpërndani të tjerëve. Jeni gjithashtu të lirë ta ndryshoni kodin burim të { -brand-short-name }-it në përputhje me nevojat tuaja. Licenca Publike Mozilla ju jep po ashtu të drejtën të shpërndani versionet tuaj të ndryshuar.
