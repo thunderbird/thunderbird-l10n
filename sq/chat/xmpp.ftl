@@ -90,7 +90,7 @@ conversation-error-command-failed-not-in-room = Duhet të rihyni në dhomë që 
 conversation-error-resource-not-available = I pari duhet të flisni ju, pasi { $recipient } mund të jetë i lidhur me më shumë se një klient.
 # LOCALIZATION NOTE (conversation-error-version-*):
 #   $recipient is the name of the recipient.
-conversation-error-version-unknown = Klienti i { $recipient } nuk mbulon kërkesa për version software të vet.
+conversation-error-version-unknown = Klienti i { $recipient } s’mbulon kërkesa për version <em>software</em> të vet.
 # LOCALIZATION NOTE (tooltip-*):
 #   These are the titles of lines of information that will appear in
 #   the tooltip showing details about a contact or conversation.
