@@ -126,6 +126,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Hapus Folder
     .accesskey = u
+menu-edit-unsubscribe-newsgroup =
+    .label = Berhenti berlangganan Newsgroup
+    .accesskey = B
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -209,15 +212,39 @@ mail-context-menu-threads =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Batalkan Pesan
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label = Hapus Pesan Terpilih
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label = Batalkan Hapus Pesan yang Dipilih
+    .tooltiptext = { mail-context-messages-undelete.label }
+context-menu-decrypt-to-folder2 =
+    .label = Buat Salinan Terdekripsi Dalam
+    .accesskey = i
 
 ## Message header pane
 
+message-header-msg-flagged =
+    .title = Dibintangi
+    .aria-label = Dibintangi
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = Gambar profil { $address }.
 
 ## Message header cutomize panel
 
 
 ## Message header customize panel
 
+message-header-customize-panel-title = Pengaturan Header Pesan
+message-header-customize-button-style =
+    .value = Gaya tombol
+    .accesskey = b
 
 ## Action Button Context Menu
 
