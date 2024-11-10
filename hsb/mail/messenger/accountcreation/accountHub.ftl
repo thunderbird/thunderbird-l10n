@@ -113,3 +113,7 @@ account-hub-result-ews-description = Wužiwajće Microsoft Exchange Web Services
 account-hub-result-ews-text = Serwer
 account-hub-result-recommended-label = Doporučeny
 account-hub-edit-configuration = Konfiguraciju wobdźěłać
+account-hub-config-success = Konfiguracija je so w Mozilla ISPDB namakała
+account-hub-password-info = Waše přizjewjenske daty budu so jenož lokalnje na wašim ličaku składować
+account-hub-sync-success = Thunderbird je někotre zwjazane słužby namakał
+account-hub-email-added-success = E-mejlowe konto je so wuspěšnje zwjazało
