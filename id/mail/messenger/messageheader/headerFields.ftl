@@ -75,6 +75,12 @@ list-id-archived-at =
 
 ##
 
+message-header-address-in-address-book-icon2 =
+    .alt = Di Buku Alamat
+message-header-address-not-in-address-book-icon2 =
+    .alt = Tidak ada di Buku Alamat
+message-header-address-not-in-address-book-button =
+    .title = Simpan alamat ini di Buku Alamat
 message-header-address-in-address-book-button =
     .title = Sunting kontak
 message-header-field-show-more = Lebih banyak

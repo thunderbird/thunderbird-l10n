@@ -45,6 +45,13 @@ pill-tooltip-not-in-address-book = { $email } tidak ada dalam buku alamat Anda
 pill-action-edit =
     .label = Edit Alamat
     .accesskey = E
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = Pilih Semua Alamat di { $type }
+    .accesskey = A
+pill-action-select-all-pills =
+    .label = Pilih Semua Alamat
+    .accesskey = S
 pill-action-move-to =
     .label = Pindahkan ke Kepada
     .accesskey = k
@@ -54,6 +61,9 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Pindahkan ke BCC
     .accesskey = B
+pill-action-expand-list =
+    .label = Bentangkan Daftar
+    .accesskey = e
 
 ## Attachment widget
 
@@ -62,13 +72,61 @@ ctrl-cmd-shift-pretty-prefix =
         [macos] ⇧ ⌘{ " " }
        *[other] Ctrl+Shift+
     }
+trigger-attachment-picker-key = L
+toggle-attachment-pane-key = M
+menuitem-toggle-attachment-pane =
+    .label = Panel Lampiran
+    .accesskey = m
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { toggle-attachment-pane-key }
+toolbar-button-add-attachment =
+    .label = Lampirkan
+    .tooltiptext = Tambahkan Lampiran ({ ctrl-cmd-shift-pretty-prefix } { trigger-attachment-picker-key })
+add-attachment-notification-reminder2 =
+    .label = Tambahkan Lampiran…
+    .accesskey = a
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+menuitem-attach-files =
+    .label = Berkas…
+    .accesskey = B
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { trigger-attachment-picker-key }
+context-menuitem-attach-files =
+    .label = Lampirkan Berkas…
+    .accesskey = B
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = vCard saya
+    .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = Kunci Publik OpenPGP Saya
+    .accesskey = K
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } Lampiran
+       *[other] { $count } Lampiran
+    }
+attachment-area-show =
+    .title = Tampilkan panel lampiran ({ ctrl-cmd-shift-pretty-prefix } { toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Sembunyikan panel lampiran ({ ctrl-cmd-shift-pretty-prefix } { toggle-attachment-pane-key })
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
 
+drop-file-label-attachment = Tambahkan sebagai lampiran
+drop-file-label-inline = Sisipkan ke baris
 
 ## Reorder Attachment Panel
 
+move-attachment-first-panel-button =
+    .label = Pindahkan Pertama
+move-attachment-left-panel-button =
+    .label = Pindah ke Kiri
+move-attachment-right-panel-button =
+    .label = Pindahkan ke Kanan
+move-attachment-last-panel-button =
+    .label = Pindahkan Terakhir
 button-return-receipt =
     .label = Tanda Terima
     .tooltiptext = Minta tanda terima untuk pesan ini
@@ -114,6 +172,32 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Manajer Kunci
     .accesskey = M
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Anda tidak menyiapkan untuk mengirim pesan terenkripsi ujung ke ujung dari { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Enkripsi ujung-ke-ujung memerlukan penyelesaian masalah utama untuk { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi = Enkripsi ujung-ke-ujung memerlukan penyelesaian masalah utama untuk { $count } penerima.
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Enkripsi ujung-ke-ujung memerlukan penyelesaian masalah sertifikat untuk { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi = Enkripsi ujung-ke-ujung memerlukan penyelesaian masalah sertifikat untuk { $count } penerima.
+key-notification-disable-encryption =
+    .label = Jangan Enkripsi
+    .accesskey = J
+    .tooltiptext = Nonaktifkan enkripsi ujung ke ujung
+key-notification-resolve =
+    .label = Selesaikan…
+    .accesskey = S
+    .tooltiptext = Buka Asisten Kunci OpenPGP
+can-encrypt-smime-notification = Enkripsi ujung-ke-ujung S/MIME dimungkinkan.
+can-encrypt-openpgp-notification = Enkripsi ujung-ke-ujung OpenPGP dimungkinkan.
 can-e2e-encrypt-button =
     .label = Enkripsikan
     .accesskey = E

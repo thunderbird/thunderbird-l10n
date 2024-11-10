@@ -81,12 +81,39 @@ quick-filter-toolbarbutton =
 
 ## Folder Pane
 
+folder-pane-toolbar =
+    .toolbarname = Bilah Alat Panel Folder
+    .accesskey = F
+folder-pane-toolbar-options-button =
+    .tooltiptext = Opsi Panel Folder
+folder-pane-header-label = Folder
 
 ## Folder Toolbar Header Popup
 
+folder-toolbar-hide-toolbar-toolbarbutton =
+    .label = Sembunyikan Bilah Alat
+    .accesskey = h
+show-all-folders-label =
+    .label = Semua Folder
+    .accesskey = a
+show-unread-folders-label =
+    .label = Folder Belum Dibaca
+    .accesskey = m
+show-favorite-folders-label =
+    .label = Folder Favorit
+    .accesskey = F
+show-smart-folders-label =
+    .label = Folder Gabungan
+    .accesskey = u
+show-recent-folders-label =
+    .label = Folder Terkini
+    .accesskey = r
 show-tags-folders-label =
     .label = Tag
     .accesskey = T
+folder-toolbar-toggle-folder-compact-view =
+    .label = Tampilan Ringkas
+    .accesskey = k
 
 ## File Menu
 
