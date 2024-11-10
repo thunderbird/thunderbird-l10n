@@ -114,13 +114,13 @@ addon-confirm-install-some-unsigned-message =
 ##   $addonName (String): the add-on name.
 
 addon-install-error-network-failure = Додаток не може бути завантажений через збій з'єднання.
-addon-install-error-incorrect-hash = Додаток не може бути встановлений, тому що він не відповідає додатку, очікуваному { -brand-short-name }.
+addon-install-error-incorrect-hash = Додаток не можна встановити, тому що він не відповідає додатку, очікуваному { -brand-short-name }.
 addon-install-error-corrupt-file = Додаток, завантажений з цього сайту, не може бути встановлений, тому що він виглядає пошкодженим.
 addon-install-error-file-access = { $addonName } не вдалося встановити, тому що { -brand-short-name } не може змінити необхідний файл.
 addon-install-error-not-signed = { -brand-short-name } заблокував встановлення неперевіреного додатка з цього сайту.
 addon-install-error-invalid-domain = Неможливо встановити додаток { $addonName } звідси.
 addon-local-install-error-network-failure = Цей додаток не може бути встановлений через помилку файлової системи.
-addon-local-install-error-incorrect-hash = Цей додаток не може бути встановлений, тому що він не відповідає додатку, очікуваному { -brand-short-name }.
+addon-local-install-error-incorrect-hash = Цей додаток не можна встановити, тому що він не відповідає додатку, очікуваному { -brand-short-name }.
 addon-local-install-error-corrupt-file = Цей додаток не може бути встановлений, тому що він виглядає пошкодженим.
 addon-local-install-error-file-access = { $addonName } не вдалося встановити, тому що { -brand-short-name } не може змінити необхідний файл.
 addon-local-install-error-not-signed = Цей додаток не може бути встановлений, тому що він не був перевірений.
