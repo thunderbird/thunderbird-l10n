@@ -40,7 +40,6 @@ account-hub-sync-button = Inicia la sessió al Sync…
 
 ## Email page
 
-account-hub-email-title = Configureu el vostre compte de correu
 account-hub-add-email-title = Afegiu el vostre compte
 account-hub-manually-configure-email-title = Configureu el compte
 account-hub-email-cancel-button = Cancel·la
@@ -79,9 +78,10 @@ account-hub-auth-no-authentication-option =
     .label = Sense autenticació
 account-hub-auth-label = Mètode d'autenticació
 account-hub-username-label = Nom d'usuari
+account-hub-name-label = Nom complet
+    .accesskey = n
 account-hub-adding-account-title = S'està afegint el compte
 account-hub-adding-account-subheader = S'estan tornant a comprovar els paràmetres del compte
-account-hub-account-added-title = S'ha afegit el compte
 account-hub-lookup-email-configuration-title = S'està cercant la configuració
 account-hub-lookup-email-configuration-subheader = S'estan provant els noms de servidor habituals…
 account-hub-email-account-added-title = El compte s'ha afegit correctament

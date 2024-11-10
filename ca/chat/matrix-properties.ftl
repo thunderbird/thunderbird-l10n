@@ -207,9 +207,19 @@ message-history-anyone = { $user } ha fet que l’historial futur de la sala sig
 message-history-shared = { $user } ha fet que l’historial futur de la sala sigui visible per a tots els membres.
 message-space-not-supported = Aquesta sala és un espai, que no és compatible.
 message-encryption-start = Ara els missatges d'aquesta conversa són xifrats d'extrem a extrem.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } vol verificar { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } ha cancel·lat la verificació amb el motiu: { $reason }
 message-verification-done = La verificació ha acabat.
 message-decrypting = S'està desxifrant…
 message-redacted = El missatge s'ha editat.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } ha reaccionat a { $userThatSentMessage } amb { $reaction }.
 message-action-redact = Edita
 message-action-retry = Torna a provar d'enviar
 message-action-cancel = Cancel·la el missatge

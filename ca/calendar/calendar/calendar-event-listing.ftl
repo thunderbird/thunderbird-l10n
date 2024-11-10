@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Cites en el passat
 calendar-event-listing-interval-calendar-month =
     .label = Cites d'aquest mes del calendari
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,10 @@ calendar-event-listing-interval-next-6-months =
     .label = Cites dels pròxims 6 mesos
 calendar-event-listing-interval-next-12-months =
     .label = Cites dels pròxims 12 mesos
+calendar-event-listing-interval-future =
+    .label = Totes les cites futures
+calendar-event-listing-interval-all =
+    .label = Totes les cites
 calendar-event-listing-interval-selected-day =
     .label = Dia seleccionat actualment
 calendar-event-listing-interval-today =
