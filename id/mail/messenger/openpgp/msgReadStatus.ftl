@@ -19,7 +19,11 @@ openpgp-view-your-encryption-key =
     .label = Lihat kunci dekripsi Anda
 openpgp-openpgp = OpenPGP
 openpgp-no-sig = Tidak Ada Tanda Tangan Digital
+openpgp-no-sig-info = Pesan ini tidak menyertakan tanda tangan digital pengirim. Tidak adanya tanda tangan digital berarti bahwa pesan tersebut mungkin dikirim oleh seseorang yang berpura-pura memiliki alamat surel ini. Mungkin juga pesan telah diubah saat transit melalui jaringan.
 openpgp-uncertain-sig = Tanda Tangan Digital Tidak Pasti
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-uncertain-sig-with-date = Tanda Tangan Digital Tidak Pasti - Ditandatangani pada { $date }
 openpgp-invalid-sig = Tanda Tangan Digital Tidak Valid
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Pesan ini berisi tanda tangan digital, teta
 openpgp-sig-uncertain-not-accepted = Pesan ini berisi tanda tangan digital, tetapi Anda belum memutuskan apakah kunci penanda tangan dapat Anda terima.
 openpgp-sig-invalid-rejected = Pesan ini berisi tanda tangan digital, tetapi Anda sebelumnya telah memutuskan untuk menolak kunci penanda tangan.
 openpgp-sig-invalid-technical-problem = Pesan ini berisi tanda tangan digital, tetapi kesalahan teknis terdeteksi. Bisa jadi pesan tersebut telah rusak, atau pesan tersebut telah diubah oleh orang lain.
+openpgp-sig-invalid-date-mismatch = Pesan ini berisi tanda tangan digital, tetapi tanda tangan tidak dibuat pada saat yang sama dengan saat pesan surel dikirim. Ini bisa menjadi upaya untuk menipu Anda dengan konten dari konteks yang salah: mis. konten yang ditulis dalam konteks waktu lain atau dimaksudkan untuk orang lain.
 openpgp-sig-valid-unverified = Pesan ini menyertakan tanda tangan digital yang valid dari kunci yang sudah Anda terima. Namun, Anda belum memverifikasi bahwa kunci tersebut benar-benar dimiliki oleh pengirim.
 openpgp-sig-valid-verified = Pesan ini menyertakan tanda tangan digital yang valid dari kunci terverifikasi.
 openpgp-sig-valid-own-key = Pesan ini menyertakan tanda tangan digital yang valid dari kunci pribadi Anda.

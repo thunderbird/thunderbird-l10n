@@ -253,11 +253,23 @@ message-header-button-style-icons =
     .label = Ikon
 message-header-show-sender-full-address =
     .label = Selalu tampilkan alamat lengkap pengirim
-    .accesskey = p
+    .accesskey = l
 message-header-show-sender-full-address-description = Alamat surel akan ditampilkan di bawah nama tampilan.
 message-header-show-recipient-avatar =
     .label = Tampilkan gambar profil pengirim
     .accesskey = p
+message-header-show-big-avatar =
+    .label = Gambar profil lebih besar
+    .accesskey = G
+message-header-hide-label-column =
+    .label = Sembunyikan kolom label
+    .accesskey = l
+message-header-large-subject =
+    .label = Subjek besar
+    .accesskey = S
+message-header-all-headers =
+    .label = Tampilkan semua header
+    .accesskey = a
 
 ## Action Button Context Menu
 

@@ -23,6 +23,11 @@ e2e-csr-select-title = Algoritma CSR
 e2e-csr-select-alg = Pilih antara RSA (disarankan) atau ECC sebagai algoritme kriptografi Anda untuk sertifikat S/MIME yang baru.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Pilih kekuatan kriptografi yang Anda inginkan (lebih cepat dengan angka yang lebih rendah atau keamanan yang lebih baik dengan angka yang lebih tinggi) untuk sertifikat S/MIME baru, atau pertahankan pengaturan default.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Kunci rahasia { $type } { $strength } baru akan dibuat di pengaturan { -brand-short-name }. Proses ini mungkin memakan waktu dan menyebabkan tidak merespons sementara; harap tetap bersabar selama langkah ini. Berkas Certificate Signing Request (CSR), disimpan sebagai { $file }, sambil akan dibuat.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Sertakan alamat surel ({ $email }) di CSR (disarankan)
@@ -114,8 +119,15 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Terbitkan
     .accesskey = T
+openpgp-key-publish = Terbitkan
 openpgp-key-man-discover-prompt = Untuk menemukan kunci OpenPGP secara daring, pada server kunci atau menggunakan protokol WKD, masukkan salah satu alamat surel atau ID kunci.
 openpgp-key-man-discover-progress = Mencari…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Kunci publik dikirim ke "{ $keyserver }".
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Gagal mengirim kunci publik Anda ke "{ $keyserver }".
 openpgp-key-copy-key =
     .label = Salin Kunci Publik
     .accesskey = C
@@ -187,6 +199,11 @@ openpgp-key-man-reload =
 openpgp-key-man-change-expiry =
     .label = Ubah Tanggal Kedaluwarsa
     .accesskey = e
+openpgp-key-man-refresh-online =
+    .label = Segarkan Daring
+    .accesskey = r
+openpgp-key-man-ignored-ids =
+    .label = Alamat surel
 openpgp-key-man-del-key =
     .label = Hapus Kunci
     .accesskey = H
@@ -232,17 +249,27 @@ openpgp-key-man-select-all-key =
     .key = A
 openpgp-key-man-key-details-key =
     .key = I
+openpgp-key-details-doc-title = Properti Kunci
 openpgp-key-details-signatures-tab =
     .label = Sertifikasi
 openpgp-key-details-structure-tab =
     .label = Struktur
 openpgp-key-details-uid-certified-col =
     .label = ID Pengguna / Disertifikasi oleh
+openpgp-key-details-key-id-label = ID Kunci
+openpgp-key-details-user-id3-label = Pemilik Kunci yang Diklaim
 openpgp-key-details-id-label =
     .label = ID
 openpgp-key-details-key-type-label = Tipe
 openpgp-key-details-key-part-label =
     .label = Bagian kunci
+openpgp-key-details-attr-ignored = Peringatan: Kunci ini mungkin tidak berfungsi seperti yang diharapkan, karena beberapa propertinya tidak aman dan mungkin diabaikan.
+openpgp-key-details-attr-upgrade-sec = Anda harus meningkatkan properti yang tidak aman.
+openpgp-key-details-attr-upgrade-pub = Anda mesti meminta pemilik kunci ini untuk meningkatkan properti yang tidak aman.
+openpgp-key-details-upgrade-unsafe =
+    .label = Tingkatkan Properti Tidak Aman
+    .accesskey = P
+openpgp-key-details-upgrade-ok = Kunci berhasil ditingkatkan. Anda harus membagikan kunci publik yang ditingkatkan dengan koresponden Anda.
 openpgp-key-details-algorithm-label =
     .label = Algoritme
 openpgp-key-details-size-label =
@@ -256,6 +283,7 @@ openpgp-key-details-expiry-header = Kedaluwarsa
 openpgp-key-details-usage-label =
     .label = Penggunaan
 openpgp-key-details-fingerprint-label = Sidik Jari
+openpgp-key-details-legend-secret-missing = Untuk kunci yang ditandai dengan (!) kunci rahasia tidak tersedia.
 openpgp-key-details-sel-action =
     .label = Pilih aksi ...
     .accesskey = s
@@ -278,6 +306,8 @@ openpgp-personal-no-label =
     .label = Tidak, jangan gunakan sebagai kunci pribadi saya.
 openpgp-personal-yes-label =
     .label = Ya, perlakukan kunci ini sebagai kunci pribadi.
+openpgp-passphrase-protection =
+    .label = Perlindungan Frasa Sandi
 openpgp-copy-cmd-label =
     .label = Salin
 
