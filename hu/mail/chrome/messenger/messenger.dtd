@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "t">
 <!ENTITY newVirtualFolderCmd.label "Mentett keresés…">
 <!ENTITY newVirtualFolderCmd.accesskey "k">
-<!ENTITY newCreateEmailAccountCmd.label "Új postafiók létrehozása…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "o">
-<!ENTITY newExistingEmailAccountCmd.label "Meglévő postafiók…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "a">
 <!ENTITY newIMAccountCmd.label "Csevegőfiók…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Hírforrásfiók…">
@@ -45,7 +41,7 @@
 <!ENTITY openMessageFileCmd.label "Mentett üzenet megnyitása…">
 <!ENTITY openMessageFileCmd.accesskey "e">
 <!ENTITY saveAsMenu.label "Mentés másként">
-<!ENTITY saveAsMenu.accesskey "M">
+<!ENTITY saveAsMenu.accesskey "e">
 <!ENTITY saveAsFileCmd.key "s">
 <!ENTITY saveAsTemplateCmd.label "Sablon">
 <!ENTITY saveAsTemplateCmd.accesskey "S">
@@ -97,7 +93,7 @@
 <!ENTITY selectFlaggedCmd.label "Csillagozott üzenetek">
 <!ENTITY selectFlaggedCmd.accesskey "C">
 <!ENTITY menuFavoriteFolder.label "Kedvencek mappa">
-<!ENTITY menuFavoriteFolder.accesskey "K">
+<!ENTITY menuFavoriteFolder.accesskey "d">
 <!ENTITY undoDeleteMsgCmd.label "Üzenettörlés visszavonása">
 <!ENTITY redoDeleteMsgCmd.label "Üzenettörlés visszaállítása">
 <!ENTITY undoMoveMsgCmd.label "Üzenetáthelyezés visszavonása">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "L">
 <!ENTITY folderContextMarkNewsgroupRead.label "Hírcsoport jelölése olvasottként">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "H">
-<!ENTITY folderContextMarkMailFolderRead.label "Mappa jelölése olvasottként">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "M">
 <!ENTITY folderContextSubscribe.label "Feliratkozás…">
 <!ENTITY folderContextSubscribe.accesskey "F">
 <!ENTITY folderContextSearchForMessages.label "Üzenetek keresése…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "d">
 <!ENTITY contextReplyList.label "Válasz a listára">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Továbbítás">
-<!ENTITY contextForward.accesskey "T">
-<!ENTITY contextForwardAsMenu.label "Továbbítás módja">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "Beágyazva">
-<!ENTITY contextForwardAsInline.accesskey "v">
-<!ENTITY contextForwardAsAttachmentItem.label "Melléklet">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "M">
-<!ENTITY contextMultiForwardAsAttachment.label "Továbbítás mellékletként">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "T">
 <!ENTITY contextMoveMsgMenu.label "Áthelyezés">
 <!ENTITY contextMoveMsgMenu.accesskey "h">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nemrég használt">
