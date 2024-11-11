@@ -503,6 +503,10 @@ dark-reader-checkbox-label =
     .accesskey = d
 dark-reader-checkbox-description = Experimentální funkce, díky které bude podokno zpráv respektovat tmavý motiv.
 account-hub-legend = Centrum účtů
+account-hub-checkbox-label =
+    .label = Účty vytvářet v novém centru účtů
+    .accesskey = t
+account-hub-checkbox-description = Experimentální vytváření nových poštovních účtů
 
 ## Compose Tab
 
