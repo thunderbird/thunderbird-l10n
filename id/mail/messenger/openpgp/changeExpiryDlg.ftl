@@ -11,6 +11,7 @@ info-does-not-expire = Kunci ini saat ini dikonfigurasi agar tidak pernah kedalu
 info-explanation-1 = <b>Setelah kunci kedaluwarsa</b>, tidak mungkin lagi menggunakannya untuk enkripsi atau penandatanganan digital.
 # Do not translate: OpenPGP
 info-explanation-1-complex = Kunci OpenPGP ini terdiri dari kunci utama dan setidaknya satu sub kunci <b>dengan tanggal kedaluwarsa yang berbeda</b>.
+select-key-prompt = Kunci yang akan diubah:
 info-explanation-2 = Untuk menggunakan kunci ini untuk jangka waktu yang lebih lama, ubah tanggal kedaluwarsanya, lalu bagikan kunci publik tersebut dengan mitra percakapan Anda lagi.
 usage-label = Penggunaan:
 algorithm-label = Algoritma:

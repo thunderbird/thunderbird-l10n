@@ -248,9 +248,22 @@ message-header-customize-button-style =
 
 ## Action Button Context Menu
 
+toolbar-context-menu-manage-extension =
+    .label = Kelola Ekstensi
+    .accesskey = E
+toolbar-context-menu-remove-extension =
+    .label = Hapus Ekstensi
+    .accesskey = p
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Hapus { $name }?
+addon-removal-confirmation-button = Hapus
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = Hapus { $name } maupun konfigurasi dan datanya dari { -brand-short-name }?
 caret-browsing-prompt-check-text = Jangan tanya lagi.
 repair-text-encoding-button =
     .label = Perbaiki Pengodean Teks

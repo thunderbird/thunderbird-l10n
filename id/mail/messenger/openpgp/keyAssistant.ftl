@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 openpgp-key-assistant-title = Asisten Kunci OpenPGP
+openpgp-key-assistant-rogue-warning = Hindari menerima kunci palsu. Untuk memastikan Anda telah mendapatkan kunci yang tepat, Anda harus memverifikasinya. <a data-l10n-name="openpgp-link">Pelajari lebih lanjut…</a>
 
 ## Encryption status
 
