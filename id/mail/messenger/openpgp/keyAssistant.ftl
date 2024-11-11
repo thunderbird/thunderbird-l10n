@@ -8,6 +8,9 @@ openpgp-key-assistant-rogue-warning = Hindari menerima kunci palsu. Untuk memast
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = Tidak Bisa Mengenkripsi
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-issue-description = Untuk mengenkripsi, Anda harus mendapatkan dan menyetujui kunci yang dapat digunakan bagi { $count } penerima. <a data-l10n-name="openpgp-link">Pelajari lebih lanjut…</a>
 
 ## Resolve section
 
