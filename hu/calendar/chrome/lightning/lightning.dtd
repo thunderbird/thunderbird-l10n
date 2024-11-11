@@ -30,7 +30,7 @@
 
 <!-- Events and Tasks menu -->
 <!ENTITY lightning.menu.eventtask.label                "Események és feladatok">
-<!ENTITY lightning.menu.eventtask.accesskey            "E">
+<!ENTITY lightning.menu.eventtask.accesskey            "m">
 
 <!-- properties dialog, calendar creation wizard -->
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.email.label,
