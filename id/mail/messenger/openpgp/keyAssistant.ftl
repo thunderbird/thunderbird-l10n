@@ -11,9 +11,27 @@ openpgp-key-assistant-recipients-issue-header = Tidak Bisa Mengenkripsi
 # Variables:
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-issue-description = Untuk mengenkripsi, Anda harus mendapatkan dan menyetujui kunci yang dapat digunakan bagi { $count } penerima. <a data-l10n-name="openpgp-link">Pelajari lebih lanjut…</a>
+openpgp-key-assistant-info-alias = { -brand-short-name } biasanya mengharuskan kunci publik penerima berisi ID pengguna dengan alamat surel yang cocok. Ini dapat ditimpa dengan menggunakan aturan alias penerima OpenPGP. <a data-l10n-name="openpgp-link">Pelajari lebih lanjut…</a>
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-description = Anda telah memiliki kunci yang dapat digunakan dan disetujui untuk { $count } penerima.
+openpgp-key-assistant-recipients-description-no-issues = Pesan ini dapat dienkripsi. Anda memiliki kunci yang dapat digunakan dan disetujui untuk semua penerima.
 
 ## Resolve section
 
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+# $numKeys (Number) - The number of keys.
+openpgp-key-assistant-resolve-title = { -brand-short-name } menemukan kunci berikut untuk { $recipient }.
+openpgp-key-assistant-valid-description = Pilih kunci yang ingin Anda setujui
+# Variables:
+# $numKeys (Number) - The number of available keys.
+openpgp-key-assistant-invalid-title = Kunci berikut tidak dapat digunakan, kecuali Anda mendapatkan pembaruan.
+openpgp-key-assistant-no-key-available = Tidak ada kunci yang tersedia.
+openpgp-key-assistant-multiple-keys = Beberapa kunci tersedia.
+# Variables:
+# $count (Number) - The number of unaccepted keys.
+openpgp-key-assistant-key-unaccepted = Beberapa kunci tersedia, tetapi belum ada yang disetujui.
 # Variables:
 # $date (String) - The expiration date of the key.
 openpgp-key-assistant-key-accepted-expired = Kunci yang diterima telah kedaluwarsa pada { $date }.
@@ -40,9 +58,21 @@ openpgp-key-assistant-key-collected-gnupg = Cincin kunci GnuPG
 openpgp-key-assistant-keys-has-collected = Beberapa kunci ditemukan, tetapi belum ada yang diterima.
 openpgp-key-assistant-key-rejected = Kunci ini telah ditolak sebelumnya.
 openpgp-key-assistant-key-accepted-other = Kunci ini sebelumnya telah diterima untuk alamat surel yang berbeda.
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+openpgp-key-assistant-resolve-discover-info = Temukan kunci tambahan atau yang diperbarui untuk { $recipient } secara daring, atau impor mereka dari berkas.
 
 ## Discovery section
 
+openpgp-key-assistant-discover-title = Pencarian daring sedang berlangsung.
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-discover-keys = Mencari kunci untuk { $recipient }…
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    Pemutakhiran ditemukan untuk salah satu kunci yang disetujui sebelumnya untuk { $recipient }.
+    Sekarang dapat digunakan karena tidak lagi kedaluwarsa.
 
 ## Dialog buttons
 
