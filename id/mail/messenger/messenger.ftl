@@ -245,6 +245,19 @@ message-header-customize-panel-title = Pengaturan Header Pesan
 message-header-customize-button-style =
     .value = Gaya tombol
     .accesskey = b
+message-header-button-style-default =
+    .label = Ikon dan teks
+message-header-button-style-text =
+    .label = Teks
+message-header-button-style-icons =
+    .label = Ikon
+message-header-show-sender-full-address =
+    .label = Selalu tampilkan alamat lengkap pengirim
+    .accesskey = p
+message-header-show-sender-full-address-description = Alamat surel akan ditampilkan di bawah nama tampilan.
+message-header-show-recipient-avatar =
+    .label = Tampilkan gambar profil pengirim
+    .accesskey = p
 
 ## Action Button Context Menu
 
