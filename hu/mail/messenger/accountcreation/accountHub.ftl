@@ -113,3 +113,7 @@ account-hub-result-ews-description = A Microsoft Exchange webszolgáltatások ha
 account-hub-result-ews-text = Kiszolgáló
 account-hub-result-recommended-label = Ajánlott
 account-hub-edit-configuration = Beállítások szerkesztése
+account-hub-config-success = A konfiguráció megtalálva a Mozilla ISPDB-ben
+account-hub-password-info = A hitelesítő adatok csak helyben lesznek tárolva a számítógépen
+account-hub-sync-success = A Thunderbird néhány kapcsolódó szolgáltatást talált
+account-hub-email-added-success = Az e-mail-fiók sikeresen csatlakoztatva
