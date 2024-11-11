@@ -113,3 +113,7 @@ account-hub-result-ews-description = Use serviços web do Microsoft Exchange par
 account-hub-result-ews-text = Servidor
 account-hub-result-recommended-label = Recomendado
 account-hub-edit-configuration = Editar configuração
+account-hub-config-success = Configuração encontrada na base de dados de configuração automática (Mozilla ISPDB)
+account-hub-password-info = Suas credenciais só são armazenadas localmente neste computador
+account-hub-sync-success = O Thunderbird encontrou alguns serviços conectados
+account-hub-email-added-success = Conta de email conectada com sucesso
