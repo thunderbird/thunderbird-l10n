@@ -249,6 +249,7 @@ openpgp-key-man-select-all-key =
     .key = A
 openpgp-key-man-key-details-key =
     .key = I
+openpgp-ign-addr-intro = Anda menerima penggunaan kunci ini untuk alamat surel terpilih berikut:
 openpgp-key-details-doc-title = Properti Kunci
 openpgp-key-details-signatures-tab =
     .label = Sertifikasi
@@ -308,11 +309,27 @@ openpgp-personal-yes-label =
     .label = Ya, perlakukan kunci ini sebagai kunci pribadi.
 openpgp-passphrase-protection =
     .label = Perlindungan Frasa Sandi
+openpgp-passphrase-status-unprotected = Tidak Terlindungi
+openpgp-passphrase-status-primary-password = Dilindungi oleh Sandi Utama { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Dilindungi oleh frasa sandi
+openpgp-passphrase-instruction-unprotected = Setel frasa sandi untuk melindungi kunci ini
+openpgp-passphrase-instruction-primary-password = Atau lindungi kunci ini dengan frasa sandi terpisah
+openpgp-passphrase-instruction-user-passphrase = Buka kunci ini untuk mengubah perlindungannya.
+openpgp-passphrase-unlock = Buka kunci
+openpgp-passphrase-unlocked = Kunci berhasil dibuka.
+openpgp-remove-protection = Hapus perlindungan frasa sandi
+openpgp-use-primary-password = Hapus frasa sandi dan lindungi dengan Sandi Utama
+openpgp-passphrase-new = Frasa sandi baru
+openpgp-passphrase-new-repeat = Konfirmasikan frasa sandi baru
+openpgp-passphrase-set = Setel frasa sandi
+openpgp-passphrase-change = Ubah frasa sandi
 openpgp-copy-cmd-label =
     .label = Salin
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = { -brand-short-name } tidak memiliki kunci OpenPGP pribadi untuk <b>{ $identity }</b>
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Konfigurasi Anda saat ini menggunakan ID kunci <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key

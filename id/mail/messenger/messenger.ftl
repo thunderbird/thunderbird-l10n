@@ -15,6 +15,8 @@ about-rights-notification-text = { -brand-short-name } adalah perangkat lunak be
 
 ## Content tabs
 
+content-tab-page-loading-icon =
+    .alt = Laman sedang memuat
 content-tab-security-high-icon =
     .alt = Sambungan aman
 content-tab-security-broken-icon =
@@ -78,6 +80,9 @@ addons-and-themes-toolbarbutton =
 quick-filter-toolbarbutton =
     .label = Saring Cepat
     .tooltiptext = Saring pesan
+redirect-msg-button =
+    .label = Alihkan
+    .tooltiptext = Alihkan pesan yang dipilih
 
 ## Folder Pane
 
@@ -159,6 +164,9 @@ menu-edit-newsgroup-properties =
 
 ## Message Menu
 
+redirect-msg-menuitem =
+    .label = Alihkan
+    .accesskey = A
 
 ## AppMenu
 
@@ -195,6 +203,9 @@ mail-context-menu-open =
 mail-context-menu-reply =
     .label = Balas
     .accesskey = B
+mail-context-menu-forward-redirect =
+    .label = Teruskan dan Arahkan Ulang
+    .accesskey = T
 mail-context-menu-forward-forward =
     .label = Teruskan
     .accesskey = T
@@ -209,6 +220,8 @@ mail-context-menu-organize =
 mail-context-menu-threads =
     .label = Utas
     .accesskey = t
+context-menu-redirect-msg =
+    .label = Alihkan
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Batalkan Pesan
@@ -228,6 +241,8 @@ context-menu-decrypt-to-folder2 =
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = Alihkan
 message-header-msg-flagged =
     .title = Dibintangi
     .aria-label = Dibintangi
