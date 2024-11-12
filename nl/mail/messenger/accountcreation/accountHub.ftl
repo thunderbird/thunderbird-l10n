@@ -113,3 +113,7 @@ account-hub-result-ews-description = Microsoft Exchange Web Services gebruiken o
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Aanbevolen
 account-hub-edit-configuration = Configuratie bewerken
+account-hub-config-success = Configuratie gevonden in de Mozilla-ISPDB
+account-hub-password-info = Uw aanmeldgegevens worden alleen lokaal op uw computer opgeslagen
+account-hub-sync-success = Thunderbird heeft enkele verbonden services gevonden
+account-hub-email-added-success = E-mailaccount met succes verbonden
