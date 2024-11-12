@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+dock-options-dialog-title = Opsi ikon aplikasi
 bounce-system-dock-icon =
     .label = Animasikan ikon aplikasi saat pesan baru tiba
     .accesskey = i

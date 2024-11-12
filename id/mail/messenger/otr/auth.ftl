@@ -29,6 +29,7 @@ auth-question-and-answer-label =
     .label = { auth-question-and-answer }
 auth-shared-secret-label =
     .label = { auth-shared-secret }
+auth-manual-instruction = Hubungi mitra percakapan yang Anda maksud melalui beberapa kanal terotentikasi lainnya, seperti surel yang ditandatangani OpenPGP atau melalui telepon. Anda harus saling memberi tahu sidik jari Anda. (Sidik jari adalah checksum yang mengidentifikasi kunci enkripsi.) Jika sidik jari cocok, Anda harus menunjukkan dalam dialog di bawah ini bahwa Anda telah memverifikasi sidik jari.
 auth-how = Bagaimana Anda ingin memverifikasi identitas kontak Anda?
 auth-question = Ajukan pertanyaan:
 auth-answer = Masukkan jawabannya (peka huruf besar kecil):

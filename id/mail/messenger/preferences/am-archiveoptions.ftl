@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Gunakan struktur folder yang ada untuk pesan yang diarsipkan
     .accesskey = k
+recreate-inbox =
+    .label = Buat ulang folder kotak masuk
+    .accesskey = r
 archive-example-label = Contoh
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,5 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Kotak Masuk
+child-folder-name =
+    .label = Sub Folder Kotak Masuk

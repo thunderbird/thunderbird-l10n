@@ -2,11 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-saved-logins =
-    .title = Info Masuk Tersimpan
 saved-logins-title = Info Masuk Tersimpan
-window-close =
-    .key = w
 copy-provider-url-cmd =
     .label = Salin URL
     .accesskey = y
@@ -45,6 +41,9 @@ remove =
 import =
     .label = Impor…
     .accesskey = I
+password-close-button =
+    .label = Tutup
+    .accesskey = T
 show-passwords =
     .label = Tampilkan Sandi
     .accesskey = P

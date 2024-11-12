@@ -14,6 +14,14 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = Masukkan URL pilihan Anda untuk menetapkan DNS lewat HTTPS
 connection-dns-over-https-custom-label = Ubahsuai
+connection-dialog-title = Pengaturan Sambungan
+disable-extension-button = Nonaktifkan Ekstensi
+# Variables:
+#   $name (String) - The extension that is controlling the proxy settings.
+#
+# The extension-icon is the extension's icon, or a fallback image. It should be
+# purely decoration for the actual extension name, with alt="".
+proxy-settings-controlled-by-extension = Ekstensi, <img data-l10n-name="extension-icon" alt="" /> { $name }, mengendalikan bagaimana { -brand-short-name } terhubung ke Internet.
 connection-proxy-legend = Atur Proxy untuk Mengakses Internet
 proxy-type-no =
     .label = Tanpa proxy
@@ -64,6 +72,8 @@ no-proxy-label =
     .value = Tidak Perlu Proxy untuk:
     .accesskey = x
 no-proxy-example = Contoh: .mozilla.org, .net.id, 192.168.1.0/24
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-noproxy-localhost-desc-2 = Koneksi ke localhost, 127.0.0.1/8, dan ::1 tidak pernah diproksi.
 proxy-password-prompt =
     .label = Jangan tanyakan otentikasi jika sandinya disimpan
     .accesskey = i

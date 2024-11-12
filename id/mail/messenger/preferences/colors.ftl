@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+colors-dialog-title = Warna
 colors-dialog-legend = Teks dan Latar Belakang
 text-color-label =
     .value = Teks:
@@ -19,9 +20,9 @@ link-color-label =
 visited-link-color-label =
     .value = Tautan yang Pernah Dikunjungi:
     .accesskey = V
-underline-link-checkbox =
-    .label = Garis bawahi tautan
-    .accesskey = U
+always-underline-links =
+    .label = Selalu garis bawahi tautan
+    .accesskey = u
 override-color-label =
     .value = Ganti warna yang ditentukan oleh konten dengan pilihan saya di atas:
     .accesskey = O

@@ -16,6 +16,7 @@ languages-customize-select-language =
 languages-customize-add =
     .label = Tambah
     .accesskey = A
+messenger-languages-dialog-title = Pengaturan Bahasa { -brand-short-name }
 messenger-languages-description = { -brand-short-name } akan menampilkan bahasa pertama Anda sebagai bahasa baku dan akan menampilkan bahasa alternatif jika diperlukan sesuai urutan daftar.
 messenger-languages-search = Cari bahasa lain…
 messenger-languages-searching =
