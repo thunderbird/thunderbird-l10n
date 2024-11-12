@@ -113,3 +113,7 @@ account-hub-result-ews-description = 使用 Microsoft Exchange Web 服务同步�
 account-hub-result-ews-text = 服务器
 account-hub-result-recommended-label = 推荐
 account-hub-edit-configuration = 编辑配置
+account-hub-config-success = 在 Mozilla ISPDB 中找到的配置
+account-hub-password-info = 您的登录凭据只会存储在您的计算机本地
+account-hub-sync-success = Thunderbird 找到一些已连接的服务
+account-hub-email-added-success = 邮箱账户连接成功
