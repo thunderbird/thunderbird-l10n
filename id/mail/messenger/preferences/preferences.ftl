@@ -310,6 +310,8 @@ quoted-text-color =
     .accesskey = o
 search-handler-table =
     .placeholder = Filter tipe dan tindakan konten
+type-column-header = Tipe Isi
+action-column-header = Aksi
 save-to-label =
     .label = Simpan berkas di
     .accesskey = S
@@ -368,9 +370,24 @@ open-msg-ex-window =
 close-move-delete =
     .label = Tutup jendela/tab pesan saat memindahkan atau menghapus
     .accesskey = T
+address-display-legend = Daftar Pesan
+address-display-description = Format tampilan alamat pilihan:
+address-display-full =
+    .label = Nama lengkap dan alamat surel
+    .accesskey = p
+address-display-email =
+    .label = Hanya surel
+    .accesskey = e
+address-display-name =
+    .label = Hanya nama
+    .accesskey = n
 condensed-addresses-label =
     .label = Hanya tampilkan nama tampilan untuk orang yang ada pada buku alamat saya.
     .accesskey = p
+table-layout-legend = Tampilan Tabel
+table-layout-horizontal-scroll-label =
+    .label = Izinkan pengguliran horizontal
+    .accesskey = h
 
 ## Compose Tab
 
