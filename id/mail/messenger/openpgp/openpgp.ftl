@@ -330,6 +330,9 @@ openpgp-copy-cmd-label =
 
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-no-key = { -brand-short-name } tidak memiliki kunci OpenPGP pribadi untuk <b>{ $identity }</b>
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys = { -brand-short-name } menemukan { $count } kunci pribadi OpenPGP yang terkait dengan <b>{ $identity }</b>
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Konfigurasi Anda saat ini menggunakan ID kunci <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
@@ -358,6 +361,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = Kunci akan kedaluwarsa dalam waktu kurang dari 6 bulan
 openpgp-key-has-expired-icon =
     .title = Kunci kedaluwarsa
+openpgp-suggest-publishing-key = Menerbitkan kunci publik pada server kunci memungkinkan orang lain untuk menemukannya.
 openpgp-key-expand-section =
     .tooltiptext = Informasi lebih lanjut
 openpgp-key-revoke-title = Cabut Kunci
@@ -390,6 +394,9 @@ key-expired-date = Kunci kedaluwarsa pada { $keyExpiry }
 key-expired-simple = Kunci sudah kedaluwarsa
 key-revoked-simple = Kunci sudah dicabut
 key-do-you-accept = Apakah Anda menerima kunci ini untuk memverifikasi tanda tangan digital dan untuk mengenkripsi pesan?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Verifikasi sidik jari kunci menggunakan saluran komunikasi aman selain surel untuk memastikan bahwa itu benar-benar kunci { $addr }.
 
 ## Strings enigmailMsgComposeOverlay.js
 
@@ -505,6 +512,7 @@ key-man-button-export-pub-key = Ekspor Kunci &Publik Saja
 key-man-button-refresh-all = Sega&rkan Semua Kunci
 key-man-loading-keys = Memuat kunci, harap tunggu…
 ascii-armor-file = File Dilapis ASCII (*.asc)
+text-file = Berkas Teks (*.txt)
 no-key-selected = Anda harus memilih setidaknya satu kunci untuk melakukan operasi yang dipilih
 export-to-file = Ekspor Kunci Publik Ke File
 export-keypair-to-file = Ekspor Kunci Rahasia dan Publik Ke File
@@ -619,6 +627,8 @@ need-online = Fungsi yang Anda pilih tidak tersedia dalam mode luring. Pergilah 
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
+no-key-found2 = Kami tidak dapat menemukan kunci yang dapat digunakan yang cocok dengan kriteria pencarian yang ditentukan.
+no-update-found = Anda sudah memiliki kunci yang ditemukan secara daring.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
@@ -644,6 +654,10 @@ confirm-permissive-import = Impor gagal. Kunci yang Anda coba impor mungkin rusa
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Beberapa kunci rahasia yang diimpor mengiklankan fitur yang tidak didukung. Jika Anda menggunakan kunci seperti kunci pribadi Anda, koresponden dapat mengirimi Anda surel atau kunci publik dalam format yang tidak kompatibel. Ini memengaruhi kunci rahasia yang diimpor dengan sidik jari berikut: { $fingerprints }.
+help-button = Bantuan
 
 ## Strings used in trust.sys.mjs
 
@@ -664,6 +678,17 @@ import-key-file = Impor Berkas Kunci OpenPGP
 import-rev-file = Impor Berkas Pencabutan OpenPGP
 gnupg-file = Berkas GnuPG
 import-keys-failed = Pengimporan kunci gagal
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Masukkan frasa sandi untuk membuka kunci rahasia dengan ID { $key }, dibuat { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Masukkan frasa sandi untuk membuka kunci rahasia dengan ID { $subkey }, yang merupakan sub kunci dari ID kunci { $key }, dibuat { $date }, { $username_and_email }
 file-to-big-to-import = File ini terlalu besar. Harap jangan mengimpor banyak kunci sekaligus.
 
 ## Strings used in enigmailKeygen.js
@@ -770,6 +795,7 @@ invalid-email = Kesalahan - alamat surel tidak valid
 attachment-pgp-key =
     Lampiran '{ $name }' yang Anda buka tampaknya seperti berkas kunci OpenPGP.
     Klik 'Impor' untuk mengimpor kunci yang ada atau 'Lihat' untuk melihat konten berkas di jendela peramban
+dlg-button-view = &Lihat
 
 ## Strings used in encryption.jsm
 
