@@ -35,12 +35,15 @@ state-generic-not-private = Percakapan saat ini tidak bersifat pribadi.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-unverified = Percakapan saat ini dienkripsi tetapi tidak pribadi, karena identitas { $name } belum diverifikasi.
+state-generic-unverified = Percakapan saat ini dienkripsi tetapi tidak pribadi, karena beberapa identitas belum diverifikasi.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-private = Identitas { $name } telah diverifikasi. Percakapan saat ini dienkripsi dan bersifat pribadi.
+state-generic-private = Percakapan saat ini dienkripsi dan pribadi.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-finished = { $name } telah mengakhiri percakapan terenkripsi mereka dengan Anda; Anda harus melakukan hal yang sama.
+state-not-private-label = Tidak Aman
 state-unverified-label = Belum Diverifikasi
 state-private-label = Pribadi
 state-finished-label = Selesai
