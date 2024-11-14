@@ -23,10 +23,15 @@ alert-start = Mencoba memulai percakapan terenkripsi dengan { $name }.
 alert-refresh = Mencoba memuat ulang percakapan terenkripsi dengan { $name }.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
+alert-gone-insecure = Percakapan terenkripsi dengan { $name } berakhir.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
 finger-unseen = Identitas { $name } belum diverifikasi. Menguping sekedarnya saja tidak mungkin, tetapi dengan sedikit usaha seseorang dapat mendengarkan. Cegah pengawasan dengan memverifikasi identitas kontak ini.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 finger-seen = { $name } menghubungi Anda dari komputer yang tidak dikenal. Menguping sekedarnya saja tidak mungkin, tetapi dengan sedikit usaha seseorang dapat mendengarkan. Cegah pengawasan dengan memverifikasi identitas kontak ini.
+state-not-private = Percakapan saat ini tidak bersifat pribadi.
+state-generic-not-private = Percakapan saat ini tidak bersifat pribadi.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-unverified = Percakapan saat ini dienkripsi tetapi tidak pribadi, karena identitas { $name } belum diverifikasi.
