@@ -113,3 +113,6 @@ account-hub-result-ews-description = Usae Microsoft Exchange Web Services pro sy
 account-hub-result-ews-text = Servitor
 account-hub-result-recommended-label = Recommendate
 account-hub-edit-configuration = Modificar configuration
+account-hub-config-success = Configuration trovate in Mozilla ISPDB
+account-hub-password-info = Tu credentiales sera reservate solo localmente su tu computator
+account-hub-email-added-success = Conto email connexe con successo
