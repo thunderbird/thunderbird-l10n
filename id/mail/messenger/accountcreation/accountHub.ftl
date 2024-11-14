@@ -113,3 +113,4 @@ account-hub-result-ews-description = Gunakan Microsoft Exchange Web Services unt
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Disarankan
 account-hub-edit-configuration = Edit konfigurasi
+account-hub-config-success = Konfigurasi ditemukan di ISPDB Mozilla

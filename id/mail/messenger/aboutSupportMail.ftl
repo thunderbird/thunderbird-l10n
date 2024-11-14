@@ -16,6 +16,7 @@ accounts-default = Baku?
 identity-name = Identitas
 send-via-email = Kirim lewat email
 app-basics-telemetry = Data Telemetri
+app-basics-glean = Pungut Data
 app-basics-cache-use = Penggunaan Singgahan
 mail-libs-title = Pustaka
 libs-table-heading-library = Pustaka

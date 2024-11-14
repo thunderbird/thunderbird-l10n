@@ -142,6 +142,8 @@ command-nick = { $commandName } &lt;display_name&gt;: Ubah nama tampilan Anda.
 # $commandName is the command name
 command-op = { $commandName } &lt;userId&gt; [&lt;tingkat kekuatan&gt;]: Menentukan tingkat kekuatan pengguna. Masukkan nilai integer, Pengguna: 0, Moderator: 50 dan Admin: 100. Nilai bakunya adalah 50 jika tidak ada argumen yang diberikan. Memerlukan izin untuk mengubah tingkat kekuatan anggota. Tidak berfungsi pada admin selain Anda sendiri.
 # $commandName is the command name
+command-deop = { $commandName } &lt;userId&gt;: Setel ulang pengguna ke tingkat 0 (Pengguna). Memerlukan izin untuk mengubah tingkat anggota. Tidak berfungsi pada admin selain Anda sendiri.
+# $commandName is the command name
 command-leave = { $commandName }: Tinggalkan ruangan saat ini.
 # $commandName is the command name
 command-topic = { $commandName } &lt;topic&gt;: Mengatur topik ruangan. Memerlukan izin untuk mengubah topik ruangan.
@@ -256,6 +258,7 @@ message-alias-removed = { $user } menghapus { $addresses } sebagai alamat altern
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } menghapus { $removedAddresses } dan menambahkan { $addedAddresses } sebagai alamat untuk ruangan ini.
+message-space-not-supported = Kamar ini adalah suatu space, yang tidak didukung.
 message-encryption-start = Pesan dalam percakapan ini sekarang dienkripsi ujung-ke-ujung.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.

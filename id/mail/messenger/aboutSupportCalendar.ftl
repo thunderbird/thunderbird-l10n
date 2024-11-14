@@ -12,6 +12,7 @@ calendars-table-username = Nama pengguna
 calendars-table-uri = URI
 calendars-table-refreshinterval = Interval Penyegaran
 calendars-table-readonly = Hanya-baca
+calendars-table-suppressalarms = Redam Alarm
 calendars-table-cache-enabled = Singgahan Difungsikan
 calendars-table-imip-identity = Identitas iMIP
 calendars-table-imip-identity-disabled = iMIP Dinonaktifkan
