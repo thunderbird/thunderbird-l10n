@@ -206,18 +206,64 @@ can-e2e-encrypt-button =
 
 to-address-row-label =
     .value = Kepada
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .label = Bidang Kepada
+    .accesskey = K
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
     .label = Kepada
     .accesskey = K
+#   $key (String) - the shortcut key for this field
+show-to-row-button = Kepada
+    .title = Tampilkan Bidang Kepada ({ ctrl-cmd-shift-pretty-prefix } { $key })
+cc-address-row-label =
+    .value = Cc
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = Bidang Cc
+    .accesskey = C
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { $key }
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Cc
+    .accesskey = C
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Cc
+    .title = Tampilkan Bidang Cc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 bcc-address-row-label =
     .value = Bcc
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .label = Bidang Bcc
+    .accesskey = B
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
     .label = Bcc
     .accesskey = B
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = Bcc
+    .title = Tampilkan Bidang Bcc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = Bidang pengalamatan lainnya untuk ditampilkan
+public-recipients-notice-single = Pesan Anda memiliki penerima yang publik. Anda dapat menghindari pengungkapan penerima dengan menggunakan Bcc.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi = { $count } penerima di To dan Cc akan melihat alamat masing-masing. Anda dapat menghindari pengungkapan penerima dengan menggunakan Bcc.
+many-public-recipients-bcc =
+    .label = Gunakan Bcc Sebagai Pengganti
+    .accesskey = u
+many-public-recipients-ignore =
+    .label = Tetap Publikasikan Penerima
+    .accesskey = k
+many-public-recipients-prompt-title = Terlalu Banyak Penerima Publik
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg = Pesan Anda memiliki { $count } penerima publik, yang akan dapat melihat alamat satu sama lain. Ini mungkin masalah privasi. Anda dapat menghindari pengungkapan penerima dengan memindahkan penerima dari Kepada/Cc ke Bcc.
 many-public-recipients-prompt-cancel = Batalkan Pengiriman
 many-public-recipients-prompt-send = Tetap Kirim
 

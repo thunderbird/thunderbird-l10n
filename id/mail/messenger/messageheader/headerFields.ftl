@@ -44,6 +44,13 @@ message-header-message-id-field = ID Pesan<span data-l10n-name="field-separator"
 message-header-in-reply-to-field = Balasan atas<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Situs web<span data-l10n-name="field-separator">:</span>
 message-header-list-id-field = ID-Milis<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = List-Unsubscribe<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Dapatkan Bantuan
@@ -72,6 +79,11 @@ list-id-list-archive =
 list-id-archived-at =
     .label = Tautan Permanen Pesan
     .accesskey = P
+# An additional email header field that the user has chosen to display. Unlike
+# the other headers, the name of this header is not expected to be localised
+# because it is generated from the raw field name found in the email header.
+#   $fieldName (String) - The field name.
+message-header-custom-field = { $fieldName }<span data-l10n-name="field-separator">:</span>
 
 ##
 

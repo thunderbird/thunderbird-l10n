@@ -17,6 +17,9 @@ account-setup-success-secondary-description = Anda dapat meningkatkan pengalaman
 
 account-setup-name-label = Nama lengkap Anda
     .accesskey = N
+# Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
+account-setup-name-input =
+    .placeholder = Si Anu
 account-setup-name-info-icon =
     .title = Nama Anda, untuk ditampilkan
 account-setup-name-warning-icon =
@@ -226,6 +229,12 @@ account-setup-calendar-button = Sambungkan ke kalender jarak jauh
 account-setup-linked-services-title = Hubungkan layanan tertaut Anda
 account-setup-linked-services-description = { -brand-short-name } mendeteksi layanan lain yang ditautkan ke akun surel Anda.
 account-setup-no-linked-description = Siapkan layanan lain untuk memaksimalkan pengalaman { -brand-short-name } Anda.
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description = { -brand-short-name } menemukan { $count } buku alamat yang ditautkan ke akun surel Anda.
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description = { -brand-short-name } menemukan { $count } kalender yang ditautkan ke akun surel Anda.
 account-setup-button-finish = Selesai
     .accesskey = S
 account-setup-looking-up-address-books = Mencari buku alamat…

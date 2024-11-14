@@ -114,3 +114,6 @@ account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Disarankan
 account-hub-edit-configuration = Edit konfigurasi
 account-hub-config-success = Konfigurasi ditemukan di ISPDB Mozilla
+account-hub-password-info = Kredensial Anda hanya akan disimpan secara lokal di komputer Anda
+account-hub-sync-success = Thunderbird menemukan beberapa layanan terhubung
+account-hub-email-added-success = Akun surel berhasil tersambung
