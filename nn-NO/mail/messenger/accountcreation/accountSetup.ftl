@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Passord
     .accesskey = P
     .title = Valfritt, vil berre brukast for å validere brukarnamnet
-account-provisioner-button = Få ei ny e-postadresse
-    .accesskey = F
 account-setup-password-toggle-show =
     .title = Vis passordet i klartekt
 account-setup-password-toggle-hide =
@@ -68,7 +66,7 @@ account-setup-button-done = Ferdig
 ## Notifications
 
 account-setup-looking-up-settings = Undersøkjer konfigurasjonen…
-account-setup-looking-up-settings-guess = Undsersøker konfigurasjonen: Prøver vanlege tenarnamn…
+account-setup-looking-up-settings-guess = Undersøkjer konfigurasjonen: Prøver vanlege tenarnamn…
 account-setup-checking-password = Kontrollerer passord…
 account-setup-installing-addon = Lastar ned og installerer utviding…
 account-setup-success-guess-offline = Du er i fråkopla modus. Vi har gjetta nokre av innstillingane, men du må sjølv registrere dei rette innstillingane.
