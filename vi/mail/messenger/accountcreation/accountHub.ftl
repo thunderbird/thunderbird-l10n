@@ -113,3 +113,7 @@ account-hub-result-ews-description = Sử dụng Microsoft Exchange Web Services
 account-hub-result-ews-text = Máy chủ
 account-hub-result-recommended-label = Được đề xuất
 account-hub-edit-configuration = Sửa cấu hình
+account-hub-config-success = Cấu hình được tìm thấy trong Mozilla ISPDB
+account-hub-password-info = Thông tin đăng nhập của bạn sẽ chỉ được lưu trữ cục bộ trên máy tính của bạn
+account-hub-sync-success = Thunderbird tìm thấy một số dịch vụ được kết nối
+account-hub-email-added-success = Tài khoản email được kết nối thành công
