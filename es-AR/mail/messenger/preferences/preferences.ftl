@@ -433,7 +433,7 @@ account-hub-legend = Centro de cuentas
 account-hub-checkbox-label =
     .label = Crear cuentas en el nuevo centro de cuentas
     .accesskey = C
-account-hub-checkbox-description = Flujo experimental de creación de cuentas de correo
+account-hub-checkbox-description = Flujo de creación de cuentas de correo (experimental)
 
 ## Compose Tab
 
