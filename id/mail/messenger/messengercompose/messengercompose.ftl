@@ -276,6 +276,8 @@ encrypted-bcc-ignore-button = Dipahami
 
 # Tools
 
+compose-tool-button-remove-text-styling =
+    .tooltiptext = Hapus Gaya Teks
 
 ## Filelink
 

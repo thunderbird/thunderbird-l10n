@@ -11,6 +11,9 @@ messenger-window-maximize-button =
     .tooltiptext = Maksimalkan
 messenger-window-close-button =
     .tooltiptext = Tutup
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip = { $count } pesan belum dibaca
 about-rights-notification-text = { -brand-short-name } adalah perangkat lunak bebas dengan sumber terbuka, dibangun oleh ribuan komunitas dari seluruh penjuru dunia.
 
 ## Content tabs

@@ -12,6 +12,7 @@
 
 policy-3rdparty = Tetapkan kebijakan yang dapat diakses WebExtensions melalui chrome.storage.managed.
 policy-AppAutoUpdate = Mengaktifkan atau menonaktifkan pembaruan aplikasi otomatis.
+policy-AppUpdatePin = Cegah { -brand-short-name } agar tidak diperbarui di luar versi yang ditentukan.
 policy-AppUpdateURL = Tetapkan URL pemutakhiran aplikasi khusus
 policy-Authentication = Konfigurasikan otentikasi terintegrasi untuk situs web yang mendukungnya.
 policy-BlockAboutAddons = Blokir akses ke Pengelola Pengaya (about:addons).

@@ -9,6 +9,7 @@ reauth-label = Verifikasikan kembali identitas kontak Anda
 auth-cancel = Batal
 auth-error = Terjadi kesalahan saat memverifikasi identitas kontak Anda.
 auth-success = Memverifikasi identitas kontak Anda berhasil diselesaikan.
+auth-success-them = Kontak Anda telah berhasil memverifikasi identitas Anda. Anda mungkin ingin memverifikasi identitas mereka juga dengan mengajukan pertanyaan Anda sendiri.
 auth-fail = Gagal memverifikasi identitas kontak Anda.
 auth-waiting = Menunggu kontak menyelesaikan verifikasi...
 finger-verify = Verifikasi

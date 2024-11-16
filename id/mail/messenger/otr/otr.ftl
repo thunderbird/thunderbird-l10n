@@ -2,17 +2,49 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-malformed = Anda menerima pesan data cacat dari { $name }.
+# A Heartbeat is a technical message used to keep a connection alive.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-log-heartbeat-rcvd = Heartbeat diterima dari { $name }.
+# A Heartbeat is a technical message used to keep a connection alive.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-log-heartbeat-sent = Heartbeat dikirim ke { $name }.
+# Do not translate 'OTR' (name of an encryption protocol)
+msgevent-rcvdmsg-general-err = Terjadi kesalahan tak terduga saat mencoba melindungi percakapan Anda menggunakan OTR.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+#   $msg (string) - the message that was received.
+msgevent-rcvdmsg-unencrypted = Pesan berikut yang diterima dari { $name } tidak dienkripsi: { $msg }
+# Do not translate 'OTR' (name of an encryption protocol)
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-unrecognized = Anda menerima pesan OTR yang tidak dikenal dari { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-for-other-instance = { $name } telah mengirim pesan yang ditujukan untuk sesi lain. Jika Anda masuk beberapa kali, sesi lain mungkin telah menerima pesan.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+context-gone-secure-private = Pembicaraan pribadi dengan { $name } dimulai.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+context-gone-secure-unverified = Percakapan terenkripsi, tetapi tidak terverifikasi dengan { $name } dimulai.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+context-still-secure = Berhasil menyegarkan percakapan terenkripsi dengan { $name }.
 error-enc = Galat terjadi saat mengenkripsi pesan.
-
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+error-not-priv = Anda mengirim data terenkripsi ke { $name }, yang tidak mengharapkannya.
 error-unreadable = Anda mengirimkan pesan terenkripsi yang tidak dapat dibaca.
 error-malformed = Anda mengirim pesan data yang cacat.
-
 resent = [dikirim ulang]
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 tlv-disconnected = { $name } telah mengakhiri percakapan terenkripsi mereka dengan Anda; Anda harus melakukan hal yang sama.
-
 # Do not translate "Off-the-Record" and "OTR" which is the name of an encryption protocol
 # Make sure that this string does NOT contain any numbers, e.g. like "3".
 # Variables:
