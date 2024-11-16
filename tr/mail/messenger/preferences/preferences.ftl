@@ -430,6 +430,9 @@ dark-reader-checkbox-label =
     .accesskey = K
 dark-reader-checkbox-description = İleti bölmesinin koyu temalara adapte olmasını sağlayan deneysel özellik
 account-hub-legend = Hesap merkezi
+account-hub-checkbox-label =
+    .label = Hesapları yeni Hesap Merkezi’nde oluştur
+    .accesskey = H
 account-hub-checkbox-description = Deneysel yeni e-posta hesabı oluşturma akışı
 
 ## Compose Tab
