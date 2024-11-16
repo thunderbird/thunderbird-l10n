@@ -15,6 +15,7 @@ policy-AppAutoUpdate = Mengaktifkan atau menonaktifkan pembaruan aplikasi otomat
 policy-AppUpdatePin = Cegah { -brand-short-name } agar tidak diperbarui di luar versi yang ditentukan.
 policy-AppUpdateURL = Tetapkan URL pemutakhiran aplikasi khusus
 policy-Authentication = Konfigurasikan otentikasi terintegrasi untuk situs web yang mendukungnya.
+policy-BackgroundAppUpdate2 = Aktifkan atau nonaktifkan pemutakhir latar belakang.
 policy-BlockAboutAddons = Blokir akses ke Pengelola Pengaya (about:addons).
 policy-BlockAboutConfig = Blokir akses ke laman about:config.
 policy-BlockAboutProfiles = Blokir akses ke laman about:profiles.
