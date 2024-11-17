@@ -7,9 +7,7 @@ account-setup-tab-title = Настройка учётной записи
 ## Header
 
 account-setup-title = Настройка имеющейся у вас учётной записи электронной почты
-account-setup-description =
-    Чтобы использовать текущий адрес электронной почты, введите свои учетные данные. <br/>
-    { -brand-product-name } автоматически выполнит поиск рабочей и рекомендованной конфигурации сервера.
+account-setup-description = Чтобы использовать текущий адрес электронной почты, введите свои учетные данные.
 account-setup-secondary-description = { -brand-product-name } автоматически выполнит поиск рабочей и рекомендованной конфигурации сервера.
 account-setup-success-title = Учётная запись успешно создана
 account-setup-success-description = Теперь вы можете использовать эту учётную запись в { -brand-short-name }.
@@ -37,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Пароль
     .accesskey = а
     .title = Необязательно, будет использоваться только для проверки имени пользователя
-account-provisioner-button = Получить новый адрес электронной почты
-    .accesskey = ч
 account-setup-password-toggle-show =
     .title = Показать пароль открытым текстом
 account-setup-password-toggle-hide =
@@ -149,7 +145,6 @@ account-setup-credentials-incomplete = Ошибка аутентификации
 account-setup-credentials-wrong = Ошибка аутентификации. Пожалуйста, проверьте имя пользователя и пароль
 account-setup-find-settings-failed = { -brand-short-name } не удалось найти настройки для вашей учетной записи почты
 account-setup-exchange-config-unverifiable = Конфигурация не может быть проверена. Если ваше имя пользователя и пароль верны, вероятно, администратор сервера отключил выбранную конфигурацию для вашей учетной записи. Попробуйте выбрать другой протокол.
-account-setup-provisioner-error = При настройке новой учётной записи в { -brand-short-name } произошла ошибка. Пожалуйста, попробуйте вручную настроить учётную запись с вашими учётными данными.
 
 ## Manual configuration area
 
