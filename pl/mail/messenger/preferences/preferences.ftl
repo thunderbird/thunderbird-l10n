@@ -424,6 +424,16 @@ conversation-view-checkbox-label =
     .accesskey = r
 conversation-view-checkbox-description = Funkcja eksperymentalna na podstawie systemu indeksowania Gloda, korzystaj z niej na własną odpowiedzialność
 label-experiment = Eksperymentalne
+dark-reader-legend = Kolory czytelnika
+dark-reader-checkbox-label =
+    .label = Dostosuj do ciemnego motywu
+    .accesskey = c
+dark-reader-checkbox-description = Eksperymentalna funkcja dostosowująca panel wiadomości do ciemnych motywów
+account-hub-legend = Centrum kont
+account-hub-checkbox-label =
+    .label = Twórz konta w nowym centrum kont
+    .accesskey = T
+account-hub-checkbox-description = Eksperymentalna metoda tworzenia nowego konta pocztowego
 
 ## Compose Tab
 
