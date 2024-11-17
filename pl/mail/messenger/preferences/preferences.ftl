@@ -422,7 +422,7 @@ conversation-view-legend = Widok rozmowy
 conversation-view-checkbox-label =
     .label = Widok rozmowy
     .accesskey = r
-conversation-view-checkbox-description = Funkcja eksperymentalna na podstawie systemu indeksowania Gloda, korzystaj z niej na własną odpowiedzialność.
+conversation-view-checkbox-description = Funkcja eksperymentalna na podstawie systemu indeksowania Gloda, korzystaj z niej na własną odpowiedzialność
 label-experiment = Eksperymentalne
 
 ## Compose Tab
