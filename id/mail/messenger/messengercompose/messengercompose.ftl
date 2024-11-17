@@ -269,7 +269,12 @@ many-public-recipients-prompt-send = Tetap Kirim
 
 ## Notifications
 
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = Identitas unik yang cocok dengan alamat Dari tidak ditemukan. Pesan akan dikirim menggunakan bidang Dari saat ini dan pengaturan dari identitas { $identity }.
+encrypted-bcc-warning = Saat mengirim pesan terenkripsi, penerima di Bcc tidak sepenuhnya disembunyikan. Semua penerima mungkin dapat mengidentifikasi mereka.
 encrypted-bcc-ignore-button = Dipahami
+auto-disable-e2ee-warning = Enkripsi ujung-ke-ujung untuk pesan ini secara otomatis dinonaktifkan.
 
 ## Editing
 
@@ -281,9 +286,15 @@ compose-tool-button-remove-text-styling =
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Diunggah ke akun Filelink yang tidak dikenal.
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Lampiran Filelink
 # A text describing that the file was attached as a Filelink and can be downloaded
 # from the link shown below.
 # $filename - name of the file

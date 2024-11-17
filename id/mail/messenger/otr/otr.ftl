@@ -4,6 +4,28 @@
 
 # Variables:
 #   $name (String) - the screen name of a chat contact person
+msgevent-encryption-required-part1 = Anda mencoba mengirim pesan yang tidak dienkripsi ke { $name }. Sebagai kebijakan, pesan yang tidak dienkripsi tidak diperbolehkan.
+msgevent-encryption-required-part2 = Mencoba memulai percakapan pribadi. Pesan Anda akan dikirim ulang saat percakapan pribadi dimulai.
+msgevent-encryption-error = Terjadi kesalahan saat mengenkripsi pesan Anda. Pesan tidak terkirim.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-connection-ended = { $name } telah menutup koneksi terenkripsi mereka untuk Anda. Untuk menghindari bahwa Anda secara tidak sengaja mengirim pesan tanpa enkripsi, pesan Anda tidak terkirim. Harap akhiri percakapan terenkripsi Anda, atau mulai kembali.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-setup-error = Terjadi kesalahan saat menyiapkan percakapan pribadi dengan { $name }.
+# Do not translate 'OTR' (name of an encryption protocol)
+msgevent-msg-reflected = Anda menerima pesan OTR Anda sendiri. Anda mencoba berbicara dengan diri sendiri, atau seseorang memantulkan pesan Anda kembali kepada Anda.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-msg-resent = Pesan terakhir ke { $name } dikirim ulang.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-not-private = Pesan terenkripsi yang diterima dari { $name } tidak dapat dibaca, karena Anda saat ini tidak berkomunikasi secara pribadi.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-unreadable = Anda menerima pesan terenkripsi yang tidak dapat dibaca dari { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
 msgevent-rcvdmsg-malformed = Anda menerima pesan data cacat dari { $name }.
 # A Heartbeat is a technical message used to keep a connection alive.
 # Variables:
