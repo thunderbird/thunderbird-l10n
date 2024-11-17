@@ -14,7 +14,12 @@ accounts-conn-security = 연결 보안
 accounts-auth-method = 인증 방법
 accounts-default = 기본값?
 identity-name = 아이디
-
 send-via-email = 이메일로 보내기
-
 app-basics-telemetry = 원격 측정 데이터
+app-basics-glean = Glean 데이터
+app-basics-cache-use = 캐시 사용
+mail-libs-title = 라이브러리
+libs-table-heading-library = 라이브러리
+libs-table-heading-expected-version = 요구되는 최소 버전
+libs-table-heading-loaded-version = 사용 중인 버전
+libs-table-heading-path = 경로

@@ -5,10 +5,23 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = 빠른 필터 바 토글
+quick-filter-button-label = 빠른 필터
+thread-pane-header-display-button =
+    .title = 메시지 목록 표시 옵션
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count = { $count }개의 메시지
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count = { $count }개 선택됨
 thread-pane-header-context-table-view =
     .label = 테이블 보기
 thread-pane-header-context-cards-view =
     .label = 카드 보기
+thread-pane-header-context-hide =
+    .label = 메시지 목록 헤더 숨기기
 
 ## Quick Filter Bar
 
@@ -19,6 +32,20 @@ thread-pane-header-context-cards-view =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = 폴더를 변경할 때 적용한 필터 유지
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = 빠른 필터 메뉴
+quick-filter-bar-dropdown-unread =
+    .label = 읽지 않음
+quick-filter-bar-dropdown-starred =
+    .label = 별표
+quick-filter-bar-dropdown-inaddrbook =
+    .label = 연락처
+quick-filter-bar-dropdown-tags =
+    .label = 태그
+quick-filter-bar-dropdown-attachment =
+    .label = 첨부 파일
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -65,19 +92,25 @@ quick-filter-bar-no-results = 결과 없음
 # Variables:
 # $count (Number) - The number of messages that match selected filters.
 quick-filter-bar-results = 모두 { $count }개 메시지
+quick-filter-bar-search2 =
+    .label = 메시지 필터
+quick-filter-bar-searching =
+    .title = 검색 중…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
+quick-filter-bar-search-shortcut =
     { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
     }
 # This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = <{ quick-filter-bar-textbox-shortcut }> 메시지 필터
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = 메시지 필터… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = 모든 곳에서 검색
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = 태그 필터링 모드
@@ -118,9 +151,24 @@ quick-filter-bar-gloda-upsell-line2 = 검색을 다시 하려면 ‘Enter'키를
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = 메시지 받기
 folder-pane-get-all-messages-menuitem =
     .label = 새 메시지 모두 받기
     .accesskey = G
+folder-pane-write-message-button = 새 메시지
+    .title = 새 메시지 작성
+folder-pane-more-menu-button =
+    .title = 폴더 창 옵션
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = 폴더 모드
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = “메시지 받기” 표시
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = “새 메시지” 표시
 folder-pane-mode-context-toggle-compact-mode =
     .label = 간단히 보기
     .accesskey = C
@@ -239,3 +287,6 @@ apply-current-columns-to-folder-message = 현재 폴더 항목을 { $name }에 �
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = 현재 폴더 항목을 { $name }와 이하 항목에 적용하시겠습니까?
+
+## Folder pane context menu
+

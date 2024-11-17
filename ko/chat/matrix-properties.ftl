@@ -168,6 +168,25 @@ message-accepted-invite = { $user }님이 초대를 수락하였습니다.
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user }님이 { $userWhoGotInvited }님을 초대하였습니다.
+message-space-not-supported = 이 방은 지원되지 않는 공간입니다.
+message-encryption-start = 이 대화의 메시지는 이제 종단 간 암호화됩니다.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } 님이 { $userReceiving } 님을 확인하려고 합니다.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } 님이 다음 이유로 인증을 취소했습니다: { $reason }
+message-verification-done = 인증이 완료되었습니다.
+message-decryption-error = 이 메시지의 내용을 복호화할 수 없습니다. 다른 장치로부터 암호화 키를 요청하려면, 이 메시지를 마우스 오른쪽 단추로 클릭하십시오.
+message-decrypting = 복호화 중…
+message-redacted = 메시지가 수정되었습니다.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } 님이 { $userThatSentMessage } 님에게 { $reaction }로 반응했습니다.
+#    Label in the message context menu
+message-action-request-key = 키 재요청
+message-action-redact = 수정
 message-action-report = 메시지 신고
 message-action-retry = 발송 재시도
 message-action-cancel = 메시지 취소
