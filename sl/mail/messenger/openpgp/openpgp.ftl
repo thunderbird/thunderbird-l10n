@@ -17,6 +17,10 @@ e2e-csr-button =
     .label = Ustvari in shrani datoteko CSR kot …
 # Do not translate: CSR
 e2e-csr-select-title = Algoritem CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Izberite, ali naj novo potrdilo S/MIME uporablja kriptografski algoritem RSA (priporočeno) ali ECC.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Izberite želeno kriptografsko moč (hitrejše z nižjimi števili ali varnejše z višjimi) novega potrdila S/MIME ali pa obdržite privzeto nastavitev.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = V CSR vključi e-poštni naslov ({ $email }) (priporočeno)
@@ -55,9 +59,6 @@ openpgp-key-expiry-label =
     .label = Datum preteka
 openpgp-key-id-label =
     .label = ID ključa
-openpgp-cannot-change-expiry = To je ključ z zapleteno strukturo; spreminjanje njegovega datuma preteka ni podprto.
-openpgp-key-man-title =
-    .title = Upravitelj ključev OpenPGP
 openpgp-key-man-dialog-title = Upravitelj ključev OpenPGP
 openpgp-key-man-generate =
     .label = Nov par ključev
@@ -481,8 +482,6 @@ filter-encrypt-label = Šifriraj v ključ (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Ključi so uspešno uvoženi!
 import-info-dialog-title = Ključi so uspešno uvoženi!
 import-info-bits = Bitov
 import-info-created = Ustvarjen
@@ -741,15 +740,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Prelom vrstic imate nastavljen na { $width } znakov. Za pravilno šifriranje in/ali podpisovanje mora biti vsaj 68.
     Ali želite zdaj spremeniti prelom vrstic na 68 znakov?
-sending-news =
-    Šifrirano pošiljanje je prekinjeno.
-    Tega sporočila ni mogoče šifrirati, ker so med prejemniki tudi novičarske skupine. Pošljite sporočilo brez šifriranja.
-send-to-news-warning =
-    Opozorilo: novičarski skupini pošiljate šifrirano sporočilo.
-    To je odsvetovano, ker je smiselno le, če lahko sporočilo dešifrirajo vsi člani skupine, torej bi moralo biti šifrirano s ključi vseh članov. To sporočilo pošljite samo, če natančno veste, kaj počnete.
-    Želite nadaljevati?
 save-attachment-header = Shrani dešifrirano priponko
-possibly-pgp-mime = Morebiti šifrirano ali podpisano s PGP/MIME; preverite s funkcijo 'Dešifriraj/Preveri'
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Tega sporočila ni mogoče digitalno podpisati, ker še niste nastavili šifriranja od konca do konca za <{ $key }>
@@ -803,15 +794,6 @@ debug-log-title = Dnevnik razhroščevanja OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = To opozorilo se bo ponovilo še { $count }-
-repeat-suffix-singular = krat.
-repeat-suffix-plural = krat.
-no-repeat = To opozorilo ne bo več prikazano.
-dlg-keep-setting = Zapomni si moj odgovor in me ne vprašaj več
 
 ## Strings used in dialog.sys.mjs
 
@@ -821,8 +803,6 @@ dlg-button-cancel = Prekliči
 dlg-no-prompt = Tega pogovornega okna ne prikazuj več
 enig-prompt = Poziv OpenPGP
 enig-confirm = Potrditev OpenPGP
-enig-alert = Opozorilo OpenPGP
-enig-info = Informacija OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 
