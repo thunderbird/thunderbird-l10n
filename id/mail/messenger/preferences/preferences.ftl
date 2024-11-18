@@ -744,8 +744,11 @@ synced-acount-item-keys = OpenPGP - S/MIME
 
 ## Mobile QR Export Pane
 
+qr-export-accounts-legend = Akun surel
+qr-export-select-all-accounts = Pilih semua
 qr-export-security-legend = Keamanan
 qr-export-include-passwords = Sertakan semua kata sandi akun
+qr-export-oauth-warning = Beberapa akun Anda menggunakan metode autentikasi yang mungkin memerlukan autentikasi ulang pada perangkat seluler Anda. Anda mungkin perlu memasukkan sandi Anda lagi selama proses ini.
 qr-export-start-export = Ekspor
 qr-export-scan-step2 = Buka pengaturan
 qr-export-back = Mundur
