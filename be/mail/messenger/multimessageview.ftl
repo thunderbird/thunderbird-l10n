@@ -3,12 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 multi-message-window-title =
-    .title = Зводка ліста
-selected-messages-label =
-    .label = Вылучаныя лісты
+    .title = Звесткі пра паведамленне
 multi-message-archive-button =
-    .label = Архіў
-    .tooltiptext = Архіў
+    .label = Архіваваць
+    .tooltiptext = Архіваваць
 multi-message-delete-button =
     .label = Выдаліць
     .tooltiptext = Выдаліць
