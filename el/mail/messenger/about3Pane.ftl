@@ -104,19 +104,6 @@ quick-filter-bar-results =
         [one] { $count } μήνυμα
        *[other] { $count } μηνύματα
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Φιλτράρισμα μηνυμάτων <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Φιλτράρισμα μηνυμάτων
 quick-filter-bar-searching =
@@ -278,8 +265,6 @@ threadpane-column-header-sender = Από
     .title = Ταξινόμηση κατά αποστολέα
 threadpane-column-label-sender =
     .label = Από
-threadpane-cell-sender =
-    .aria-label = Από
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -289,8 +274,6 @@ threadpane-column-header-recipient = Παραλήπτης
     .title = Ταξινόμηση κατά παραλήπτη
 threadpane-column-label-recipient =
     .label = Παραλήπτης
-threadpane-cell-recipient =
-    .aria-label = Παραλήπτης
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -300,8 +283,6 @@ threadpane-column-header-correspondents = Επιστολογράφοι
     .title = Ταξινόμηση κατά επιστολογράφους
 threadpane-column-label-correspondents =
     .label = Επιστολογράφοι
-threadpane-cell-correspondents =
-    .aria-label = Επιστολογράφοι
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -311,8 +292,6 @@ threadpane-column-header-subject = Θέμα
     .title = Ταξινόμηση κατά θέμα
 threadpane-column-label-subject =
     .label = Θέμα
-threadpane-cell-subject =
-    .aria-label = Θέμα
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -322,8 +301,6 @@ threadpane-column-header-date = Ημερομηνία
     .title = Ταξινόμηση κατά ημερομηνία
 threadpane-column-label-date =
     .label = Ημερομηνία
-threadpane-cell-date =
-    .aria-label = Ημερομηνία
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -333,8 +310,6 @@ threadpane-column-header-received = Ληφθέντα
     .title = Ταξινόμηση κατά ημερομηνία παραλαβής
 threadpane-column-label-received =
     .label = Ληφθέντα
-threadpane-cell-received =
-    .aria-label = Ημερομηνία παραλαβής
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -344,8 +319,6 @@ threadpane-column-header-status = Κατάσταση
     .title = Ταξινόμηση κατά κατάσταση
 threadpane-column-label-status =
     .label = Κατάσταση
-threadpane-cell-status =
-    .aria-label = Κατάσταση
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -355,8 +328,6 @@ threadpane-column-header-size = Μέγεθος
     .title = Ταξινόμηση κατά μέγεθος
 threadpane-column-label-size =
     .label = Μέγεθος
-threadpane-cell-size =
-    .aria-label = Μέγεθος
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -366,8 +337,6 @@ threadpane-column-header-tags = Ετικέτα
     .title = Ταξινόμηση κατά ετικέτα
 threadpane-column-label-tags =
     .label = Ετικέτα
-threadpane-cell-tags =
-    .aria-label = Ετικέτες
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -377,8 +346,6 @@ threadpane-column-header-account = Λογαριασμός
     .title = Ταξινόμηση κατά λογαριασμό
 threadpane-column-label-account =
     .label = Λογαριασμός
-threadpane-cell-account =
-    .aria-label = Λογαριασμός
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -388,8 +355,6 @@ threadpane-column-header-priority = Προτεραιότητα
     .title = Ταξινόμηση κατά προτεραιότητα
 threadpane-column-label-priority =
     .label = Προτεραιότητα
-threadpane-cell-priority =
-    .aria-label = Προτεραιότητα
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -399,8 +364,6 @@ threadpane-column-header-unread = Μη αναγνωσμένα
     .title = Αριθμός μη αναγνωσμένων μηνυμάτων στο νήμα
 threadpane-column-label-unread =
     .label = Μη αναγνωσμένα
-threadpane-cell-unread =
-    .aria-label = Αριθμός μη αναγνωσμένων μηνυμάτων
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -410,8 +373,6 @@ threadpane-column-header-total = Σύνολο
     .title = Συνολικός αριθμός μηνυμάτων στο νήμα
 threadpane-column-label-total =
     .label = Σύνολο
-threadpane-cell-total =
-    .aria-label = Συνολικός αριθμός μηνυμάτων
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -421,8 +382,6 @@ threadpane-column-header-location = Τοποθεσία
     .title = Ταξινόμηση κατά τοποθεσία
 threadpane-column-label-location =
     .label = Τοποθεσία
-threadpane-cell-location =
-    .aria-label = Τοποθεσία
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -432,8 +391,6 @@ threadpane-column-header-id = Σειρά παραλαβής
     .title = Ταξινόμηση κατά σειρά παραλαβής
 threadpane-column-label-id =
     .label = Σειρά παραλαβής
-threadpane-cell-id =
-    .aria-label = Σειρά παραλαβής
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =
@@ -490,7 +447,7 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
-apply-changes-to-folder-title = Εφαρμογή των αλλαγών;
+apply-changes-to-folder-title = Εφαρμογή αλλαγών;
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Εφαρμογή στηλών τρέχοντος φακέλου στο «{ $name }»;
