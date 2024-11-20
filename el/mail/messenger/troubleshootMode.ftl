@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = Λειτουργία επίλυσης προβλημάτων του { -brand-short-name }
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = Λειτουργία επίλυσης προβλημάτων του { -brand-short-name }
 troubleshoot-mode-description = Χρησιμοποιήστε τη λειτουργία επίλυσης προβλημάτων του { -brand-short-name } για τη διάγνωση ζητημάτων. Τα πρόσθετα και οι προσαρμογές σας θα απενεργοποιηθούν προσωρινά.
 troubleshoot-mode-description2 = Μπορείτε να οριστικοποιήσετε κάποιες ή όλες τις αλλαγές:
@@ -24,10 +21,10 @@ troubleshoot-mode-quit =
     .label =
         { PLATFORM() ->
             [windows] Έξοδος
-           *[other] Κλείσιμο
+           *[other] Τερματισμός
         }
     .accesskey =
         { PLATFORM() ->
             [windows] ξ
-           *[other] Κ
+           *[other] Τ
         }
