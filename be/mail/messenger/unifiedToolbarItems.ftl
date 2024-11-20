@@ -79,6 +79,9 @@ toolbar-calendar-label = Каляндар
 toolbar-print-label = Друкаваць
 toolbar-print =
     .title = Надрукаваць гэты ліст
+toolbar-quick-filter-bar-label = Хуткі фільтр
+toolbar-quick-filter-bar =
+    .title = Фільтраваць паведамленні
 toolbar-synchronize-label = Сінхранізаваць
 toolbar-synchronize =
     .title = Перазагрузіць календары і сінхранізаваць змены
@@ -91,6 +94,9 @@ toolbar-go-to-today =
 toolbar-new-event-label = Падзея
 toolbar-new-event =
     .title = Стварыць новую падзею
+toolbar-new-task-label = Задача
+toolbar-new-task =
+    .title = Стварыць новую задачу
 toolbar-go-back-label = Назад
 toolbar-go-back =
     .title = Перамясціцца да папярэдняга ліста
@@ -103,6 +109,12 @@ toolbar-stop =
 toolbar-throbber-label = Індыкатар актыўнасці
 toolbar-throbber =
     .title = Індыкатар актыўнасці
+toolbar-create-contact-label = Новы кантакт
+toolbar-create-contact =
+    .title = Стварыць новы кантакт
+toolbar-create-address-book-label = Новая адрасная кніга
+toolbar-create-address-book =
+    .title = Стварыце новую адрасную кнігу
 
 ## New Address Book popup items
 
