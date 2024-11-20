@@ -5,8 +5,6 @@
 
 ## Toolbar
 
-about-addressbook-toolbar-new-list =
-    .label = Новы спіс
 
 ## Books
 
@@ -26,6 +24,7 @@ about-addressbook-books-context-synchronize =
 
 ## Details
 
+about-addressbook-event-action-button = Падзея
 about-addressbook-new-list-action-button = Новы спіс
 
 # Photo dialog
