@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Κωδικός πρόσβασης
     .accesskey = Κ
     .title = Προαιρετικό, θα χρησιμοποιηθεί μόνο για την επαλήθευση του ονόματος χρήστη
-account-provisioner-button = Απόκτηση νέας διεύθυνσης email
-    .accesskey = Α
 account-setup-password-toggle-show =
     .title = Εμφάνιση κωδικού πρόσβασης σε κείμενο
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = Η ταυτοποίηση απέτυχε.
 account-setup-credentials-wrong = Η ταυτοποίηση απέτυχε. Παρακαλώ ελέγξτε το όνομα χρήστη και τον κωδικό πρόσβασης
 account-setup-find-settings-failed = Το { -brand-short-name } απέτυχε να εντοπίσει τις ρυθμίσεις του λογαριασμού ηλεκτρονικής αλληλογραφίας σας
 account-setup-exchange-config-unverifiable = Δεν ήταν δυνατή η επαλήθευση των ρυθμίσεων παραμέτρων. Αν το όνομα χρήστη και ο κωδικός πρόσβασής σας είναι σωστά, ο διαχειριστής του διακομιστή ενδέχεται να έχει απενεργοποιήσει τις επιλεγμένες ρυθμίσεις παραμέτρων για τον λογαριασμό σας. Δοκιμάστε να επιλέξετε άλλο πρωτόκολλο.
-account-setup-provisioner-error = Προέκυψε σφάλμα κατά τη ρύθμιση του νέου σας λογαριασμού στο { -brand-short-name }. Παρακαλώ δοκιμάστε να τον ρυθμίσετε χειροκίνητα με τα διαπιστευτήριά σας.
 
 ## Manual configuration area
 
@@ -156,7 +153,7 @@ account-setup-protocol-label = Πρωτόκολλο:
 account-setup-hostname-label = Όνομα υπολογιστή:
 account-setup-port-label = Θύρα:
     .title = Ορίστε τον αριθμό θύρας σε 0 για αυτόματη ανίχνευση
-account-setup-auto-description = Το { -brand-short-name } θα προσπαθήσει να εντοπίσει αυτόματα τα πεδία που παραμένουν κενά.
+account-setup-auto-description = Το { -brand-short-name } θα προσπαθήσει να εντοπίσει αυτόματα τα κενά πεδία.
 account-setup-ssl-label = Ασφάλεια σύνδεσης:
 account-setup-outgoing-server-legend = Διακομιστής εξερχομένων
 

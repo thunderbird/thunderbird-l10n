@@ -66,7 +66,7 @@ error-malformed = Μεταδώσατε ένα μήνυμα δεδομένων μ
 resent = [απεστάλη ξανά]
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-tlv-disconnected = Ο/Η { $name } έληξε την κρυπτογραφημένη συνομιλία μαζί σας· πρέπει να κάνετε το ίδιο.
+tlv-disconnected = Ο/Η { $name } τερμάτισε την κρυπτογραφημένη συνομιλία μαζί σας· πρέπει να κάνετε το ίδιο.
 # Do not translate "Off-the-Record" and "OTR" which is the name of an encryption protocol
 # Make sure that this string does NOT contain any numbers, e.g. like "3".
 # Variables:

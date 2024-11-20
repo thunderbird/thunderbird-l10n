@@ -323,7 +323,7 @@ toolbar-context-menu-remove-extension =
 
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
-addon-removal-title = Αφαίρεση του { $name };
+addon-removal-title = Αφαίρεση του «{ $name }»;
 addon-removal-confirmation-button = Αφαίρεση
 # Variables:
 #  $name (String): The name of the add-on that will be removed.

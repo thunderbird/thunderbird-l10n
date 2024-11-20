@@ -217,7 +217,7 @@ check-default-button =
 # Platforms that don't support it should be left blank.
 search-engine-name =
     { PLATFORM() ->
-        [macos] Spotlight
+        [macos] Αναζήτηση Spotlight
         [windows] Αναζήτηση των Windows
        *[other] { "" }
     }

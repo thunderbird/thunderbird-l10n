@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Λήξη
 openpgp-key-id-label =
     .label = ID κλειδιού
-openpgp-cannot-change-expiry = Αυτό το κλειδί έχει περίπλοκη δομή και η αλλαγή της ημερομηνίας λήξης του δεν υποστηρίζεται.
-openpgp-key-man-title =
-    .title = Διαχείριση κλειδιών OpenPGP
 openpgp-key-man-dialog-title = Διαχείριση κλειδιών OpenPGP
 openpgp-key-man-generate =
     .label = Νέο ζεύγος κλειδιών
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Πιστοποιητικό ανάκλησης
     .accesskey = κ
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Δημιουργία και αποθήκευση πιστοποιητικού ανάκλησης
 openpgp-key-man-gen-revocation =
     .label = Αποθήκευση πιστοποιητικού ανάκλησης σε αρχείο
     .accesskey = π
@@ -489,8 +484,6 @@ filter-encrypt-label = Κρυπτογράφηση με κλειδί (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Επιτυχία! Έγινε εισαγωγή κλειδιών
 import-info-dialog-title = Επιτυχία! Έγινε εισαγωγή κλειδιών
 import-info-bits = Bits
 import-info-created = Δημιουργήθηκε
@@ -650,9 +643,6 @@ no-update-found = Έχετε ήδη τα κλειδιά που ανακαλύφ�
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Σφάλμα - Η εντολή εξαγωγής κλειδιού απέτυχε
@@ -719,7 +709,7 @@ revoke-cert-failed = Δεν ήταν δυνατή η δημιουργία του
 gen-going = Η δημιουργία κλειδιού είναι ήδη σε εξέλιξη!
 keygen-missing-user-name = Δεν έχει καθοριστεί όνομα για τον επιλεγμένο λογαριασμό/ταυτότητα. Παρακαλώ εισαγάγετε μια τιμή στο πεδίο «Το όνομά σας» στις ρυθμίσεις του λογαριασμού.
 expiry-too-short = Το κλειδί σας πρέπει να είναι έγκυρο για τουλάχιστον μία ημέρα.
-expiry-too-long = Δεν μπορείτε να δημιουργήσετε ένα κλειδί που λήγει σε περισσότερα από 100 χρόνια.
+expiry-too-long = Δεν μπορείτε να δημιουργήσετε ένα κλειδί που λήγει σε περισσότερα από 100 έτη.
 # Variables:
 # $id (String) - Name and/or email address to generate keys for.
 key-confirm = Δημιουργία δημόσιου και ιδιωτικού κλειδιού για το «{ $id }»;
@@ -783,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Έχετε ορίσει την αναδίπλωση γραμμής στους { $width } χαρακτήρες. Για σωστή κρυπτογράφηση ή/και υπογραφή, αυτή η τιμή πρέπει να είναι τουλάχιστον 68.
     Θέλετε να αλλάξετε τώρα την αναδίπλωση γραμμής στους 68 χαρακτήρες;
-sending-news =
-    Η κρυπτογραφημένη αποστολή ακυρώθηκε.
-    Δεν είναι δυνατή η κρυπτογράφηση αυτού του μηνύματος, επειδή υπάρχουν παραλήπτες ομάδας συζητήσεων. Παρακαλώ στείλτε ξανά το μήνυμα χωρίς κρυπτογράφηση.
-send-to-news-warning =
-    Προειδοποίηση: πρόκειται να στείλετε ένα κρυπτογραφημένο μήνυμα σε μια ομάδα συζητήσεων.
-    Αυτή η ενέργεια έχει νόημα μόνο εάν όλα τα μέλη της ομάδας μπορούν να αποκρυπτογραφήσουν το μήνυμα, δηλαδή το μήνυμα πρέπει να κρυπτογραφηθεί με τα κλειδιά όλων των συμμετεχόντων. Παρακαλώ στείλτε αυτό το μήνυμα μόνο εάν γνωρίζετε ακριβώς τι κάνετε.
-    Θέλετε να συνεχίσετε;
 save-attachment-header = Αποθήκευση αποκρυπτογραφημένου συνημμένου
-possibly-pgp-mime = Μήνυμα με πιθανή κρυπτογράφηση PGP/MIME ή υπογραφή· χρησιμοποιήστε τη λειτουργία «Αποκρυπτογράφηση/Επαλήθευση» για επιβεβαίωση
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Δεν είναι δυνατή η ψηφιακή υπογραφή αυτού του μηνύματος, επειδή δεν έχετε ρυθμίσει ακόμα τη διατερματική κρυπτογράφηση για το <{ $key }>
@@ -845,15 +827,6 @@ debug-log-title = Αρχείο ελέγχου σφαλμάτων OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Αυτή η ειδοποίηση θα επαναληφθεί { $count }
-repeat-suffix-singular = ακόμη φορά.
-repeat-suffix-plural = ακόμη φορές.
-no-repeat = Αυτή η ειδοποίηση δεν θα εμφανιστεί ξανά.
-dlg-keep-setting = Αποθήκευση απάντησης και να μη γίνει ξανά ερώτηση
 
 ## Strings used in dialog.sys.mjs
 
@@ -863,8 +836,6 @@ dlg-button-cancel = &Ακύρωση
 dlg-no-prompt = Να μην εμφανιστεί αυτός ο διάλογος ξανά
 enig-prompt = Προτροπή OpenPGP
 enig-confirm = Επιβεβαίωση OpenPGP
-enig-alert = Ειδοποίηση OpenPGP
-enig-info = Πληροφορίες OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 
