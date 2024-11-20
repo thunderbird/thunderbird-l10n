@@ -27,7 +27,7 @@
 <!ENTITY contextArchive.label "Архіваванні">
 <!ENTITY contextArchive.accesskey "А">
 
-<!ENTITY filterActionDesc.label "Выконваць гэтыя дзеянні:">
+<!ENTITY filterActionDesc.label "Выканаць гэтыя дзеянні:">
 <!ENTITY filterActionDesc.accesskey "В">
 
 <!ENTITY filterActionOrderWarning.label "Заўвага: дзеянні фільтру будуць выконвацца ў іншым парадку.">
