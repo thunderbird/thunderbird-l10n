@@ -189,6 +189,17 @@ autoscroll-label =
 smooth-scrolling-label =
     .label = Gunakan pengguliran mulus
     .accesskey = m
+browsing-gtk-use-non-overlay-scrollbars =
+    .label = Selalu tampilkan bilah gulir
+    .accesskey = b
+window-layout-legend = Tata Letak Jendela
+draw-in-titlebar-label =
+    .label = Sembunyikan bilah judul jendela sistem
+    .accesskey = h
+auto-hide-tabbar-label =
+    .label = Otomatis sembunyikan bilah tab
+    .accesskey = a
+auto-hide-tabbar-description = Sembunyikan bilah tab saat hanya satu tab yang terbuka
 system-integration-legend = Integrasi dengan Sistem
 always-check-default =
     .label = Periksa apakah { -brand-short-name } adalah pembaca email default ketika memulai
@@ -246,6 +257,9 @@ diskspace-legend = Ruang Disk
 offline-compact-folder =
     .label = Padatkan semua folder saat akan disimpan
     .accesskey = a
+offline-compact-folder-automatically =
+    .label = Tanyakan setiap saat sebelum memadatkan
+    .accesskey = b
 compact-folder-size =
     .value = Total MB
 
@@ -756,5 +770,12 @@ qr-export-next = Selanjutnya
 qr-export-done = Selesai
 qr-export-summary-description = Akun diekspor. Lanjutkan di perangkat seluler Anda.
 qr-export-summary-title = Ringkasan ekspor:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count = { $count } kode QR dihasilkan
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts = { $count } akun diekspor:
 qr-export-summary-passwords-included = Termasuk kata sandi
+qr-export-summary-passwords-excluded = Sandi dikecualikan
 qr-export-more-accounts = Ekspor lebih banyak akun
