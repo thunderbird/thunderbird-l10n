@@ -6,6 +6,7 @@
 
 <!ENTITY MsgSynchronize.label "Спампаваць і сінхранізаваць паведамленні">
 <!ENTITY MsgSelect.label "Элементы для карыстання па-за сеткай">
+<!ENTITY MsgSyncDesc.label "Калі вы ўжо выбралі паштовыя папкі і групы навін, якімі жадаеце карыстацца па-за сеткай, вы можаце спампаваць і/або сінхранізаваць іх зараз. Іначай націсніце кнопку «Выбраць», каб выбраць паштовыя папкі і групы навін, якімі вы жадаеце карыстацца па-за сеткай.">
 <!ENTITY MsgSyncDirections.label "Спампаваць і/або сінхранізаваць наступныя:">
 <!ENTITY syncTypeMail.label "Паштовыя паведамленні">
 <!ENTITY syncTypeMail.accesskey "П">
@@ -18,5 +19,5 @@
 <!ENTITY selectButton.label "Выбраць…">
 <!ENTITY selectButton.accesskey "В">
 <!ENTITY MsgSelectDesc.label "Выберыце паштовыя папкі і групы навін, якімі вы жадаеце карыстацца па-за сеткай.">
-<!ENTITY MsgSelectInd.label "Загрузка">
-<!ENTITY MsgSelectItems.label "Папкі і навінакупы">
+<!ENTITY MsgSelectInd.label "Спампаваць">
+<!ENTITY MsgSelectItems.label "Папкі і групы навін">
