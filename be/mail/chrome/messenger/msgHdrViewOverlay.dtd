@@ -2,28 +2,27 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY toField4.label "Да">
+<!ENTITY toField4.label "Каму">
 <!ENTITY fromField4.label "Ад">
 <!ENTITY senderField4.label "Адпраўнік">
 <!ENTITY author.label "Аўтар">
-<!ENTITY organizationField4.label "Установа">
-<!ENTITY replyToField4.label "Адказ-Да">
+<!ENTITY organizationField4.label "Арганізацыя">
+<!ENTITY replyToField4.label "Зваротны адрас">
 
 <!ENTITY subjectField4.label "Тэма">
-<!ENTITY ccField4.label "СА">
-<!ENTITY bccField4.label "Сса">
-<!ENTITY newsgroupsField4.label "Навінакупы">
-<!ENTITY followupToField4.label "Водгук-Да">
-<!ENTITY tagsHdr4.label "Меціны">
+<!ENTITY ccField4.label "Копія">
+<!ENTITY bccField4.label "Схаваная копія">
+<!ENTITY newsgroupsField4.label "Групы навін">
+<!ENTITY followupToField4.label "Адказ у групу навін">
+<!ENTITY tagsHdr4.label "Меткі">
 <!ENTITY dateField4.label "Дата">
-<!ENTITY userAgentField4.label "Дзеяч карыстальніка">
 <!ENTITY referencesField4.label "Спасылкі">
-<!ENTITY messageIdField4.label "Вызначальнік-Ліста">
+<!ENTITY messageIdField4.label "ID паведамлення">
 <!ENTITY inReplyToField4.label "У адказ на">
-<!ENTITY originalWebsite4.label "Пляцоўка Сеціва">
+<!ENTITY originalWebsite4.label "Вэб-сайт">
 
-<!ENTITY hdrArchiveButton1.label "У архіў">
-<!ENTITY hdrArchiveButton1.tooltip "Архіваваць гэты ліст">
+<!ENTITY hdrArchiveButton1.label "Архіваваць">
+<!ENTITY hdrArchiveButton1.tooltip "Архіваваць гэта паведамленне">
 <!ENTITY hdrSmartReplyButton1.label "Кемны адказ">
 <!ENTITY hdrReplyButton1.label "Адказаць">
 <!ENTITY hdrReplyButton2.tooltip "Адказаць дасылальніку гэтага ліста">
