@@ -348,8 +348,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Закрываць акно/укладку паведамлення пры яго перамяшчэнні або выдаленні
     .accesskey = З
-display-name-label =
-    .value = Бачнае імя:
 address-display-legend = Спіс паведамленняў
 address-display-description = Пераважны фармат адлюстравання адрасоў:
 address-display-full =
@@ -500,7 +498,7 @@ passwords-description = { -brand-short-name } можа запамінаць па
 passwords-button =
     .label = Захаваныя паролі…
     .accesskey = З
-primary-password-description = Майстар-пароль бароніць усе вашы паролі, але вы павінны ўводзіць яго адзін раз для кожнага сеанса.
+primary-password-description = Майстар-пароль бароніць усе вашы паролі, але вы павінны ўводзіць яго кожны раз пры пачатку новага сеанса.
 primary-password-label =
     .label = Выкарыстоўваць майстар-пароль
     .accesskey = м
@@ -508,9 +506,6 @@ primary-password-button =
     .label = Змяніць майстар-пароль…
     .accesskey = З
 forms-master-pw-fips-desc = Не атрымалася змяніць пароль
-junk-label =
-    .label = Калі я пазначаю паведамленні як спам:
-    .accesskey = я
 junk-marked-label =
     .label = Калі паведамленні пазначаны як спам:
     .accesskey = п
@@ -520,9 +515,6 @@ junk-move-label =
 junk-delete-label =
     .label = Выдаляць іх
     .accesskey = В
-junk-read-label =
-    .label = Пазначаць вызначаныя як спам паведамленні прачытанымі
-    .accesskey = з
 junk-read-description = Пазначыць паведамленні прачытанымі
 junk-read-manual-label =
     .label = Калі пазначана як спам уручную
@@ -588,7 +580,7 @@ idle-time-label = хвілін неактыўнасці
 ##
 
 away-message-label =
-    .label = і задаць мне статус "Адышоў" з гэтым паведамленнем:
+    .label = і задаць мне статус «Адышоў» з гэтым паведамленнем:
     .accesskey = А
 send-typing-label =
     .label = Адпраўляць апавяшчэнні аб друкаванні ў размовах
@@ -709,3 +701,6 @@ synced-acount-item-filters = Фільтры
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Сінхранізуйце свае ўліковыя запісы электроннай пошты, адрасныя кнігі, календары і ідэнтыфікацыйныя даныя на ўсіх вашых прыладах.
 sync-disconnected-turn-on-sync = Уключыць сінхранізацыю...
+
+## Mobile QR Export Pane
+
