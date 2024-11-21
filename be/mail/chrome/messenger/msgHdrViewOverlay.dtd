@@ -46,52 +46,38 @@
 <!ENTITY otherActionsOpenInNewWindow1.label "Адкрыць у новым акне">
 <!ENTITY otherActionsOpenInNewTab1.label "Адкрыць на новай укладцы">
 <!ENTITY markAsReadMenuItem1.label "Пазначыць прачытаным">
-<!ENTITY markAsReadMenuItem1.accesskey "ч">
 <!ENTITY markAsUnreadMenuItem1.label "Пазначыць непрачытаным">
-<!ENTITY markAsUnreadMenuItem1.accesskey "н">
 <!ENTITY saveAsMenuItem1.label "Захаваць як…">
-<!ENTITY saveAsMenuItem1.accesskey "я">
 <!ENTITY viewSourceMenuItem1.label "Праглядзець зыходнік">
-<!ENTITY viewSourceMenuItem1.accesskey "з">
 <!ENTITY otherActionsPrint1.label "Друкаваць…">
 <!ENTITY otherActionsPrint1.accesskey "Д">
 
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Адразу паказваць шыбу далучэнняў">
-<!ENTITY startExpandedCmd.accesskey    "ш">
+<!ENTITY startExpandedCmd.label    "Спачатку паказваць панэль прымацаванняў">
 
 <!-- Attachment context menu items -->
 <!ENTITY openAttachmentCmd.label    "Адкрыць">
 <!ENTITY openAttachmentCmd.accesskey    "А">
 <!ENTITY saveAsAttachmentCmd.label    "Захаваць як…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "я">
 <!ENTITY detachAttachmentCmd.label    "Адлучыць…">
-<!ENTITY detachAttachmentCmd.accesskey    "ц">
 <!ENTITY deleteAttachmentCmd.label    "Выдаліць">
-<!ENTITY deleteAttachmentCmd.accesskey    "д">
 <!ENTITY openAllAttachmentsCmd.label    "Адкрыць усе…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "А">
 <!ENTITY saveAllAttachmentsCmd.label    "Захаваць усе…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "З">
 <!ENTITY detachAllAttachmentsCmd.label    "Адлучыць усе…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "А">
 <!ENTITY deleteAllAttachmentsCmd.label    "Выдаліць усе…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "В">
 
-<!ENTITY openAttachment.tooltip "Адкрыць далучаны файл">
+<!ENTITY openAttachment.tooltip "Адкрыць прымацаваны файл">
 
+<!ENTITY detachedAttachmentFolder.show.label        "Адкрыць папку з файлам">
+<!ENTITY detachedAttachmentFolder.showMac.label     "Паказаць у Finder">
 
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "Захаваць">
-<!ENTITY saveAttachmentButton1.tooltip     "Захаваць далучаны файл">
+<!ENTITY saveAttachmentButton1.tooltip     "Захаваць прымацаваны файл">
 <!ENTITY saveAllAttachmentsButton1.label   "Захаваць усе">
-<!ENTITY saveAllAttachmentsButton1.tooltip "Захаваць усе далучаныя файлы">
+<!ENTITY saveAllAttachmentsButton1.tooltip "Захаваць усе прымацаваныя файлы">
 
-<!ENTITY copyLinkCmd.label        "Капіяваць месцазнаходжанне спасылкі">
-<!ENTITY copyLinkCmd.accesskey    "К">
 
-<!ENTITY CopyMessageId.label "Капіяваць вызначальнік-ліста:">
-<!ENTITY CopyMessageId.accesskey "К">
-<!ENTITY OpenMessageForMsgId.label "Адкрыць ліст з вызначальнікам:">
-<!ENTITY OpenMessageForMsgId.accesskey "А">
-<!ENTITY OpenBrowserWithMsgId.accesskey "з">
+<!ENTITY CopyMessageId.label "Капіяваць ID паведамлення">
+<!ENTITY OpenMessageForMsgId.label "Адкрыць паведамленне па ID">
+<!ENTITY OpenBrowserWithMsgId.label "Адкрыць у браўзеры паведамленне па ID">
