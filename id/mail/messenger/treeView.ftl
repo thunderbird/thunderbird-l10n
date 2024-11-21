@@ -7,3 +7,18 @@
 
 tree-list-view-column-picker =
     .title = Pilih kolom yang ditampilkan
+tree-list-view-row-ignored-thread = Utas diabaikan
+tree-list-view-row-ignored-thread-button =
+    .title = Pesan berulir ini diabaikan
+tree-list-view-row-ignored-subthread = Sub-utas diabaikan
+tree-list-view-row-ignored-subthread-button =
+    .title = Sub-utas ini diabaikan
+tree-list-view-row-watched-thread = Utas dipantau
+tree-list-view-row-watched-thread-button =
+    .title = Pesan berutas ini dipantau
+tree-list-view-row-flagged =
+    .alt = Indikator pesan berbintang
+    .title = Pesan dibintangi
+tree-list-view-row-flag =
+    .alt = Indikator pesan berbintang
+    .title = Pesan tidak dibintangi
