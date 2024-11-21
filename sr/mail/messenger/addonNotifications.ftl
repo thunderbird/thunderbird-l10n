@@ -104,8 +104,9 @@ addon-confirm-install-unsigned-message =
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
 addon-confirm-install-some-unsigned-message =
     { $addonCount ->
-        [few] Опрез:Ова страница жели да инсталира { $addonCount } додатка у { -brand-short-name }, неки нису проверени. Наставите на сопствену одговорност.
-       *[other] Опрез:Ова страница жели да инсталира { $addonCount } додатака у { -brand-short-name }, неки нису проверени. Наставите на сопствену одговорност.
+        [one] Опрез: Ова страница жели да инсталира { $addonCount } додатак у { -brand-short-name }, који није проверен. Наставите на сопствену одговорност.
+        [few] Опрез: Ова страница жели да инсталира { $addonCount } додатка у { -brand-short-name }, од којих неки нису проверени. Наставите на сопствену одговорнот.
+       *[other] Опрез: Ова страница жели да инсталира { $addonCount } додатака у { -brand-short-name }, од којих неки нису проверени. Наставите на сопствену одговорност.
     }
 
 ## Add-on install errors

@@ -106,7 +106,8 @@ timezone-error = Непозната и недефинсана временска
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] { $count } ставки је занемарено јер постоје у одредишном календару и у { $filePath }.
+        [one] { $count } ставка је занемарена јер постоји у одредишном календару и у { $filePath }.
+        [few] { $count } ставки је занемарено јер постоје у одредишном календару и у { $filePath }.
        *[other] { $count } ставки је занемарено јер постоје у одредишном календару и у { $filePath }.
     }
 # $location unknown calendar location
@@ -464,7 +465,7 @@ event-details-end-date = Крај:
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
-# used for display of calendar weeks in short form like 'Calendar Week 43'
+# used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = Календарска недеља: { $index }
 # LOCALIZATION NOTE (single-calendar-week):
@@ -507,13 +508,6 @@ due-in-hours =
        *[other] { $count } сати
     }
 due-in-less-than-one-hour = мање од једног сата
-# LOCALIZATION NOTE (month-in-year):
-# used for display of Month-dates like 'December 2008'
-#    $month will be replaced with name of the month
-#    $year will be replaced with the year
-month-in-year = { $month } { $year }
-month-in-year-label =
-    .aria-label = { $month } { $year }
 # LOCALIZATION NOTE (month-in-year-month-format):
 # If your language requires a different declension, change this to
 # one of the values specified in dateFormat.properties.
@@ -655,30 +649,32 @@ extract-using = Користи се { $languageName }
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = Користи се { $languageName } ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [one] { $count } минут
         [few] { $count } минута
        *[other] { $count } минута
     }
-# $count count
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [one] { $count } сат
         [few] { $count } сати
        *[other] { $count } сати
     }
-# $count count
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [one] { $count } дан
         [few] { $count } дана
        *[other] { $count } дана
     }
-# $count count
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
         [one] { $count } недеља

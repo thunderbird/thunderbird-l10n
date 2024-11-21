@@ -84,6 +84,7 @@ menu-edit-delete-messages =
     .label =
         { $count ->
             [one] Обриши поруку
+            [few] Обриши поруке
            *[other] Обриши изабране поруке
         }
     .accesskey = О
@@ -93,6 +94,7 @@ menu-edit-undelete-messages =
     .label =
         { $count ->
             [one] Врати обрисану поруку
+            [few] Врати обрисане поруке
            *[other] Врати изабране обрисане поруке
         }
     .accesskey = т
@@ -168,23 +170,6 @@ mail-context-menu-threads =
     .accesskey = т
 context-menu-redirect-msg =
     .label = Преусмери
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Обриши изабрану поруку
-            [few] Обриши изабране поруке
-           *[other] Обриши изабране поруке
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Врати обрисану поруку
-           *[other] Врати изабране обрисане поруке
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
