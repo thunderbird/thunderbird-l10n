@@ -758,13 +758,29 @@ synced-acount-item-keys = OpenPGP - S/MIME
 
 ## Mobile QR Export Pane
 
+qr-export-select-accounts = Pilih akun mana yang akan diekspor:
+qr-export-no-accounts = Tidak melihat semua akun Anda? Beberapa akun mungkin dinonaktifkan karena tidak didukung oleh { -brand-product-name } untuk Android. <a data-l10n-name="account-support-link">Dukungan</a>
 qr-export-accounts-legend = Akun surel
 qr-export-select-all-accounts = Pilih semua
 qr-export-security-legend = Keamanan
 qr-export-include-passwords = Sertakan semua kata sandi akun
 qr-export-oauth-warning = Beberapa akun Anda menggunakan metode autentikasi yang mungkin memerlukan autentikasi ulang pada perangkat seluler Anda. Anda mungkin perlu memasukkan sandi Anda lagi selama proses ini.
+qr-export-security-hint = Dengan memindai kode QR berikut, pengaturan akun Anda—termasuk surel dan kata sandi Anda—akan ditransfer dengan aman. Kami tidak mengumpulkan, menyimpan, atau membagikan data ini selama proses berlangsung. Transfer terjadi langsung antar perangkat Anda.
+qr-export-security-warning = Demi keamanan Anda, pastikan Anda berada dalam pengaturan pribadi dan hanya memindai kode QR dari sumber terpercaya.
 qr-export-start-export = Ekspor
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress = { $step } dari { $count } kode QR
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description = Pindai kode QR dengan { -brand-product-name } di perangkat seluler Anda
+qr-export-scan-step1 = Buka { -brand-product-name } di perangkat seluler Anda
 qr-export-scan-step2 = Buka pengaturan
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Pilih <strong>Impor pengaturan</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Ketuk <strong>Pindai kode QR</strong> dan arahkan ponsel Anda di atas kode ini
 qr-export-back = Mundur
 qr-export-next = Selanjutnya
 qr-export-done = Selesai
