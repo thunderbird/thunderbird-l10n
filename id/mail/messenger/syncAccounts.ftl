@@ -24,3 +24,5 @@ sync-signout-dialog-button = Keluar
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
 sync-disconnect-dialog-title = Putuskan?
+sync-disconnect-dialog-body = { -brand-product-name } akan berhenti menyinkronkan tetapi tidak akan menghapus data Anda di perangkat ini.
+sync-disconnect-dialog-button = Putuskan

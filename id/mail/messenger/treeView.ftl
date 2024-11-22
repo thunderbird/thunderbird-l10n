@@ -5,6 +5,12 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Kotak centang untuk beralih memilih baris saat ini
+    .title = Pilih baris saat ini
+tree-list-view-row-deselect =
+    .alt = Kotak centang untuk beralih memilih baris saat ini
+    .title = Batal pilih baris saat ini
 tree-list-view-column-picker =
     .title = Pilih kolom yang ditampilkan
 tree-list-view-row-ignored-thread = Utas diabaikan
