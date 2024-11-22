@@ -4,19 +4,19 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-<!ENTITY viewPicker.label "Праява:">
+<!ENTITY viewPicker.label "Выгляд:">
 <!ENTITY viewPicker.accesskey "я">
 <!ENTITY viewAll.label "Усе">
 <!ENTITY viewAll.accesskey "У">
 <!ENTITY viewUnread.label "Непрачытаныя">
 <!ENTITY viewUnread.accesskey "Н">
-<!ENTITY viewNotDeleted.label "Не выдаленыя">
+<!ENTITY viewNotDeleted.label "Невыдаленыя">
 <!ENTITY viewNotDeleted.accesskey "д">
 <!ENTITY viewTags.label "Меткі">
 <!ENTITY viewTags.accesskey "М">
-<!ENTITY viewCustomViews.label "Карыстальніцкія праявы">
-<!ENTITY viewCustomViews.accesskey "п">
-<!ENTITY viewVirtualFolder.label "Захаваць праяву як папку…">
+<!ENTITY viewCustomViews.label "Карыстальніцкія выгляды">
+<!ENTITY viewCustomViews.accesskey "в">
+<!ENTITY viewVirtualFolder.label "Захаваць выгляд як папку…">
 <!ENTITY viewVirtualFolder.accesskey "З">
-<!ENTITY viewCustomizeView.label "Наладзіць…">
-<!ENTITY viewCustomizeView.accesskey "Н">
+<!ENTITY viewCustomizeView.label "Персаналізаваць…">
+<!ENTITY viewCustomizeView.accesskey "П">

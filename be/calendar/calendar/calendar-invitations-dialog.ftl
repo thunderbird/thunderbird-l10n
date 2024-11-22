@@ -10,7 +10,7 @@ calendar-invitation-current-participation-status-icon-needs-action =
     .alt = У цяперашні час не вырашана
 allday-event = Падзея на ўвесь дзень
 recurrent-event =
-    .value = Падзея, якая паўтараецца
+    .value = Серыя падзей
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Месца: { $locationProperty }
