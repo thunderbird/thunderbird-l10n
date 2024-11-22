@@ -2,9 +2,4 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-allday-event=Падзея на ўвесь дзень
-recurrent-event=Серыя падзей
-location=Месца: %S
-organizer=Арганізатар: %S
-attendee=Удзельнік: %S
-none=Няма
+remember-password-checkbox-label = Выкарыстаць Менеджар пароляў, каб запомніць гэты пароль.
