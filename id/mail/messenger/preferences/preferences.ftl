@@ -636,6 +636,11 @@ security-devices-button =
 email-e2ee-header = Enkripsi Ujung-Ke-Ujung Surel
 account-settings = Pengaturan Akun
 email-e2ee-enable-info = Siapkan akun surel dan identitas untuk Enkripsi Ujung-Ke-Ujung di Pengaturan Akun.
+email-e2ee-automatism-pre =
+    { -brand-short-name } dapat membantu dengan mengaktifkan atau menonaktifkan enkripsi secara otomatis saat menulis surel.
+    Pengaktifan/penonaktifan otomatis didasarkan pada ketersediaan kunci atau sertifikat koresponden yang valid dan diterima.
+email-e2ee-auto-on =
+    .label = Aktifkan enkripsi secara otomatis jika memungkinkan
 
 ## Chat Tab
 
