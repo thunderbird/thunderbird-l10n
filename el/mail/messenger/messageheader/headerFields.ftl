@@ -38,7 +38,7 @@ message-header-author-field = Συντάκτης<span data-l10n-name="field-sepa
 message-header-organization-field = Οργανισμός<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Θέμα<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Ημερομηνία<span data-l10n-name="field-separator">:</span>
-message-header-user-agent-field = Πρόγραμμα πελάτη<span data-l10n-name="field-separator">:</span>
+message-header-user-agent-field = Πράκτορας χρήστη<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Αναφορές<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = ID μηνύματος<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Σε απάντηση του<span data-l10n-name="field-separator">:</span>
