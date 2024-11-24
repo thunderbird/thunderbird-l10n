@@ -58,18 +58,21 @@ customize-button-style-text-only-option = 텍스트만
 customize-cancel = 취소
 customize-save = 저장
 customize-unsaved-changes = 다른 스페이스에 저장되지 않은 변경 사항
+customize-search-bar2 =
+    .label = 검색 도구 모음 버튼
+    .placeholder = 검색 도구 모음 버튼…
 customize-spaces-tabs =
     .aria-label = 스페이스
 customize-main-toolbar-target =
-    .aria-label = 메인 도구모음
+    .aria-label = 기본 도구 모음
 customize-palette-generic-title = 모든 스페이스에서 사용 가능
-customize-palette-mail-specific-title = 메일 스페이스에만 사용 가능
+customize-palette-mail-specific-title = 메일 공간에만 사용 가능
 customize-palette-addressbook-specific-title = 주소록 스페이스에서만 사용 가능
-customize-palette-calendar-specific-title = 캘린더 스페이스에서만 사용 가능
-customize-palette-tasks-specific-title = 작업 스페이스에서만 사용 가능
-customize-palette-chat-specific-title = 채팅 스페이스에서만 사용 가능
-customize-palette-settings-specific-title = 설정 스페이스에서만 사용 가능
-customize-palette-extension-specific-title = 이 스페이스에서만 사용 가능
+customize-palette-calendar-specific-title = 캘린더 공간에서만 사용 가능
+customize-palette-tasks-specific-title = 작업 공간에서만 사용 가능
+customize-palette-chat-specific-title = 채팅 공간에서만 사용 가능
+customize-palette-settings-specific-title = 설정 공간에서만 사용 가능
+customize-palette-extension-specific-title = 이 공간에서만 사용 가능
 
 ## Unified toolbar customization palette context menu
 
