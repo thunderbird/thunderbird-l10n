@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Rnu imedlis n tensa CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Rnu imedlis n tensa LDAP
-about-addressbook-toolbar-new-contact =
-    .label = Anermis amaynut
-about-addressbook-toolbar-new-list =
-    .label = Tabdart tamaynut
-about-addressbook-toolbar-import =
-    .label = Kter
 books-pane-create-contact-button = Anermis amaynut
     .title = Rnu anermis amaynut
 books-pane-create-book-button =
@@ -69,12 +63,6 @@ about-addressbook-confirm-remove-remote-book = D tidet tebɣiḍ ad tekkseḍ { 
 
 # Variables:
 # $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Nadi { $name }
-about-addressbook-search-all =
-    .placeholder = Nadi akk imedlisen n tansiwin
-# Variables:
-# $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
     .label = Nadi { $name }
     .placeholder = Nadi { $name }…
@@ -95,6 +83,8 @@ about-addressbook-sort-email-ascending =
     .label = Smizwer s tansa n yimayl (A > Z)
 about-addressbook-sort-email-descending =
     .label = Smizwer s tansa n yimayl (Z > A)
+about-addressbook-table-layout =
+    .label = Tanevruft n tfelwit
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
@@ -209,6 +199,10 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Kkes inermisen
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = D tidet tebɣiḍ ad tekkseḍ { $name } seg { $list }?
+# Variables:
 # $count (Number) - The number of contacts to be removed.
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-multi =
@@ -243,7 +237,6 @@ about-addressbook-placeholder-no-search-results = Ulac inermisen yettwafen
 ## Details
 
 about-addressbook-new-contact-header = Anermis amaynut
-about-addressbook-prefer-display-name = Smenyaf askan n yisem ɣef uqerru n yizen
 about-addressbook-write-action-button = Aru
 about-addressbook-event-action-button = Tadyant
 about-addressbook-search-action-button = Nadi
