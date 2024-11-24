@@ -16,6 +16,7 @@ connection-error-time-out = 접속이 타임 아웃 했습니다.
 connection-error-invalid-username = { $username }은(는) 허용된 사용자 이름이 아닙니다.
 connection-error-invalid-password = 잘못된 서버 비밀번호
 connection-error-password-required = 비밀번호 필수
+connection-error-invalid-user-password = 비밀번호 오류
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = 채널(_C)

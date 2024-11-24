@@ -328,9 +328,7 @@ tz-seems-to-matchos = 현재 지역 시간대는 운영 체제의 것과 올해�
 # LOCALIZATION NOTE (tz-fromos):
 # used for a display of a chosen timezone
 #    $timezone will be replaced with the name of a timezone
-tz-fromos =
-    현재 지역 시간대는 운영 체제의 것을 기반으로 설정합니다.
-    * "{ $timezone }".
+tz-fromos = 현재 지역 시간대는 운영 체제의 것을 기반으로 설정합니다.
 # Localization note (tz-from-locale): Substitute name of your locale language.
 tz-from-locale =
     현재 지역 시간대는 한국어권 사용자를 위해서
@@ -356,6 +354,7 @@ html-task-completed = { $task } (완료됨)
 # Categories
 add-category = 분류 추가
 multiple-categories = 다중 분류
+no-categories = 없음
 calendar-today = 오늘
 calendar-tomorrow = 내일
 yesterday = 어제
@@ -453,7 +452,7 @@ event-details-end-date = 종료:
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
-# used for display of calendar weeks in short form like 'Calendar Week 43'
+# used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = { $index } 주 캘린더
 # LOCALIZATION NOTE (single-calendar-week):
@@ -486,13 +485,6 @@ due-in-days = { $count }일
 # $count count
 due-in-hours = { $count }시간
 due-in-less-than-one-hour = < 1시간
-# LOCALIZATION NOTE (month-in-year):
-# used for display of Month-dates like 'December 2008'
-#    $month will be replaced with name of the month
-#    $year will be replaced with the year
-month-in-year = { $year }년 { $month }
-month-in-year-label =
-    .aria-label = { $year }년 { $month }
 # LOCALIZATION NOTE (month-in-year-month-format):
 # If your language requires a different declension, change this to
 # one of the values specified in dateFormat.properties.
@@ -629,16 +621,34 @@ extract-using = { $languageName } 사용
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = { $languageName } ({ $region }) 사용
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes = { $count } minute
-# $count count
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours = { $count } hour
-# $count count
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days = { $count } day
-# $count count
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks = { $count } day
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label = 분
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label = 시간
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label = 일
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label = 주
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name

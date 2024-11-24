@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = 과거의 이벤트
 calendar-event-listing-interval-calendar-month =
     .label = 현재 캘린더달의 이벤트
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,10 @@ calendar-event-listing-interval-next-6-months =
     .label = 다음 6개월간의 이벤트
 calendar-event-listing-interval-next-12-months =
     .label = 다음 12개월간의 이벤트
+calendar-event-listing-interval-future =
+    .label = 이후의 모든 이벤트
+calendar-event-listing-interval-all =
+    .label = 모든 이벤트
 calendar-event-listing-interval-selected-day =
     .label = 선택한 일자의 이벤트
 calendar-event-listing-interval-today =
