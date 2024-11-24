@@ -796,9 +796,14 @@ synced-acount-item-server-config = Konfigurasi server
 synced-acount-item-filters = Penyaring
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sinkronkan akun surel, buku alamat, kalender, dan identitas Anda di semua perangkat Anda.
+sync-disconnected-turn-on-sync = Aktifkan Sinkronisasi…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Ekspor akun ke { -brand-product-name } Mobile
+qr-export-description = Dengan cepat mentransfer pengaturan akun Anda dari desktop ke ponsel dengan membuat kode QR. Pilih akun mana yang akan disertakan, putuskan apakah Anda ingin mentransfer kata sandi Anda, dan pindai kode dengan perangkat seluler Anda. Cepat, aman, dan sederhana.
+qr-export-get-app = Belum memiliki { -brand-product-name } di perangkat seluler? <a data-l10n-name="app-link">Dapatkan di Google Play</a>
+qr-export-create = Buat kode QR untuk mengekspor akun Anda
 qr-export-select-accounts = Pilih akun mana yang akan diekspor:
 qr-export-no-accounts = Tidak melihat semua akun Anda? Beberapa akun mungkin dinonaktifkan karena tidak didukung oleh { -brand-product-name } untuk Android. <a data-l10n-name="account-support-link">Dukungan</a>
 qr-export-accounts-legend = Akun surel
