@@ -10,8 +10,8 @@
 
 search-bar-button =
     .alt = 검색
-search-bar-item =
-    .label = 검색:
+search-bar-item2 =
+    .label = 검색
 search-bar-placeholder = 검색…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -58,8 +58,6 @@ customize-button-style-text-only-option = 텍스트만
 customize-cancel = 취소
 customize-save = 저장
 customize-unsaved-changes = 다른 스페이스에 저장되지 않은 변경 사항
-customize-search-bar =
-    .label = 툴바 버튼 검색…
 customize-spaces-tabs =
     .aria-label = 스페이스
 customize-main-toolbar-target =
