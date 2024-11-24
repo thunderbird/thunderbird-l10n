@@ -115,4 +115,5 @@ account-hub-result-recommended-label = Recommendate
 account-hub-edit-configuration = Modificar configuration
 account-hub-config-success = Configuration trovate in Mozilla ISPDB
 account-hub-password-info = Tu credentiales sera reservate solo localmente su tu computator
+account-hub-sync-success = Thunderbird discoperiva alcun servicios connexe
 account-hub-email-added-success = Conto email connexe con successo
