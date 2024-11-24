@@ -2,11 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-saved-logins =
-    .title = 저장된 로그인
 saved-logins-title = 저장된 로그인
-window-close =
-    .key = w
 focus-search-primary-shortcut =
     .key = f
 focus-search-alt-shortcut =
@@ -81,3 +77,10 @@ password-os-auth-dialog-message = 저장된 비밀번호를 보려면 자격 증
 password-os-auth-dialog-message-macosx = 저장된 비밀번호 표시
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] 비밀번호 설정 변경
+       *[other] { -brand-short-name }에서 암호 설정을 변경하려고 합니다. 장치 로그인을 사용하여 이를 허용하세요.
+    }
