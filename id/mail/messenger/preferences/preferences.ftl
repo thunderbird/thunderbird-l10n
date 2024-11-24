@@ -641,6 +641,13 @@ email-e2ee-automatism-pre =
     Pengaktifan/penonaktifan otomatis didasarkan pada ketersediaan kunci atau sertifikat koresponden yang valid dan diterima.
 email-e2ee-auto-on =
     .label = Aktifkan enkripsi secara otomatis jika memungkinkan
+email-e2ee-auto-off =
+    .label = Nonaktifkan enkripsi secara otomatis ketika penerima berubah dan enkripsi tidak lagi dimungkinkan
+email-e2ee-auto-off-notify =
+    .label = Tampilkan pemberitahuan ketika enkripsi dinonaktifkan secara otomatis
+email-e2ee-automatism-post =
+    Keputusan otomatis dapat ditimpa dengan mengaktifkan atau menonaktifkan enkripsi secara manual saat menulis pesan.
+    Catatan: enkripsi selalu diaktifkan secara otomatis saat membalas pesan terenkripsi.
 
 ## Chat Tab
 
@@ -726,14 +733,42 @@ no-preview-description = Tema ini tidak valid atau saat ini tidak tersedia (peng
 chat-variant-label =
     .value = Varian:
     .accesskey = V
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 15.4em
+    .placeholder = Cari di Setelan
 
 ## Settings UI Search Results
 
 search-results-header = Hasil Pencarian
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] Maaf! Tidak ada hasil di Opsi untuk “<span data-l10n-name="query"></span>”.
+       *[other] Maaf! Tidak ada hasil di Pengaturan untuk “<span data-l10n-name="query"></span>”.
+    }
 search-results-help-link = Perlu bantuan? Kunjungi <a data-l10n-name="url"> { -brand-short-name } Dukungan</a>
 
 ## Sync Tab
 
+sync-signedout-caption = Bawalah Web Bersama Anda
+sync-signedout-description = Sinkronkan akun, buku alamat, kalender, pengaya, dan pengaturan Anda di semua perangkat Anda.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Masuk untuk Sinkronisasi…
+sync-pane-header = Sinkronkan
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” tidak terverifikasi.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Silakan masuk untuk menyambungkan kembali “{ $userEmail }”
 sync-pane-resend-verification = Kirim ulang verifikasi
 sync-pane-sign-in = Masuk
 sync-pane-remove-account = Hapus akun
@@ -760,6 +795,7 @@ show-synced-change = Ubah…
 synced-acount-item-server-config = Konfigurasi server
 synced-acount-item-filters = Penyaring
 synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Sinkronkan akun surel, buku alamat, kalender, dan identitas Anda di semua perangkat Anda.
 
 ## Mobile QR Export Pane
 
