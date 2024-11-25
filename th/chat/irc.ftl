@@ -43,7 +43,7 @@ ctcp-time = เวลาสำหรับ { $username } คือ { $timeRespon
 #   These are the help messages for each command, the $commandName is the command name
 #   Each command first gives the parameter it accepts and then a description of
 #   the command.
-command-action = { $commandName } &lt;การกระทำที่ต้องการดำเนินการ&gt;: ดำเนินการการกระทำ
+command-action = { $commandName } &lt;การกระทำที่ต้องการ&gt;: ปฏิบัติตามคำสั่งที่ระบุ
 # $commandName is the command name
 command-ban = { $commandName } &lt;nick!user@host&gt;: ห้ามผู้ใช้ที่ตรงกับรูปแบบที่กำหนด
 # $commandName is the command name

@@ -278,7 +278,7 @@ command-invite = { $commandName } &lt;jid&gt;[&lt;message&gt;]: เชิญผ�
 # $commandName (String): command name
 command-inviteto = { $commandName } &lt;room jid&gt;[&lt;password&gt;]: เชิญคู่สนทนาของคุณให้เข้าร่วมห้องพร้อมด้วยรหัสผ่านหากจำเป็น
 # $commandName (String): command name
-command-me = { $commandName } &lt;การกระทำที่ต้องการดำเนินการ&gt;: ดำเนินการการกระทำ
+command-me = { $commandName } &lt;การกระทำที่ต้องการ&gt;: ปฏิบัติตามคำสั่งที่ระบุ
 # $commandName (String): command name
 command-nick = { $commandName } &lt;new nickname&gt;: เปลี่ยนชื่อเล่นของคุณ
 # $commandName (String): command name

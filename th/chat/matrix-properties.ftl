@@ -123,38 +123,38 @@ detail-admin = ผู้ดูแล: { $value }
 # $value are all moderators. Example: "@lorem:mozilla.org, @ipsum:mozilla.org"
 detail-moderator = ผู้ควบคุม: { $value }
 # $value Example placeholder: "#thunderbird:matrix.org"
-detail-alias = นามแฝง: { $value }
+detail-alias = ชื่อเล่น: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = สิทธิเข้าถึงสำหรับแขก: { $value }
 # This is a heading, followed by the power-level-* strings
-detail-power = ระดับพลังงาน:
+detail-power = ระดับการควบคุม:
 # LOCALIZATION NOTE (command-*):
 #   These are the help messages for each command, the $commandName is the command name
 #   Each command first gives the parameter it accepts and then a description of
 #   the command.
-command-ban = { $commandName } &lt;userId&gt; [&lt;เหตุผล&gt;]: แบนผู้ใช้ที่มี userId จากห้องด้วยข้อความระบุเหตุผลที่เป็นตัวเลือก โดยจะต้องอาศัยสิทธิอนุญาตในการแบนผู้ใช้
+command-ban = { $commandName } &lt;userId&gt; [&lt;เหตุผล&gt;]: แบนผู้ใช้ที่มี userId จากห้องด้วยข้อความระบุเหตุผลที่เป็นตัวเลือก โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการแบนผู้ใช้
 # $commandName is the command name
 command-invite = { $commandName } &lt;userId&gt;: เชิญผู้ใช้ให้เข้าร่วมห้อง
 # $commandName is the command name
-command-kick = { $commandName } &lt;userId&gt; [&lt;เหตุผล&gt;]: เตะผู้ใช้ที่มี userId ออกจากห้องด้วยข้อความระบุเหตุผลที่เป็นตัวเลือก โดยจะต้องอาศัยสิทธิอนุญาตในการเตะผู้ใช้
+command-kick = { $commandName } &lt;userId&gt; [&lt;เหตุผล&gt;]: เตะผู้ใช้ที่มี userId ออกจากห้องด้วยข้อความระบุเหตุผลที่เป็นตัวเลือก โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเตะผู้ใช้ออก
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: เปลี่ยนชื่อแสดงผลของคุณ
 # $commandName is the command name
-command-op = { $commandName } &lt;userId&gt; [&lt;ระดับอำนาจ&gt;]: กำหนดระดับอำนาจของผู้ใช้ ป้อนค่าจำนวนเต็ม ซึ่งแต่ละค่าได้แก่ ผู้ใช้: 0, ผู้ควบคุม: 50 และผู้ดูแล: 100 โดยค่าเริ่มต้นจะเป็น 50 หากไม่ได้กำหนดอาร์กิวเมนต์ใด โดยจะต้องอาศัยสิทธิอนุญาตในการเปลี่ยนระดับอำนาจของสมาชิก และจะไม่มีผลกับผู้ดูแลคนอื่นที่ไม่ใช่ตัวคุณเอง
+command-op = { $commandName } &lt;userId&gt; [&lt;ระดับการควบคุม&gt;]: กำหนดระดับการควบคุมของผู้ใช้ ป้อนค่าจำนวนเต็ม ซึ่งแต่ละค่าได้แก่ ผู้ใช้: 0, ผู้ควบคุม: 50 และผู้ดูแล: 100 โดยค่าเริ่มต้นจะเป็น 50 หากไม่ได้กำหนดอาร์กิวเมนต์ใด โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเปลี่ยนระดับการควบคุมของสมาชิก และจะไม่มีผลกับผู้ดูแลคนอื่นที่ไม่ใช่ตัวคุณเอง
 # $commandName is the command name
-command-deop = { $commandName } &lt;userId&gt;: กำหนดระดับอำนาจของผู้ใช้ใหม่เป็นระดับ 0 (ผู้ใช้) โดยจะต้องอาศัยสิทธิอนุญาตในการเปลี่ยนระดับอำนาจของสมาชิก และจะไม่มีผลกับผู้ดูแลคนอื่นที่ไม่ใช่ตัวคุณเอง
+command-deop = { $commandName } &lt;userId&gt;: กำหนดระดับการควบคุมของผู้ใช้ใหม่เป็นระดับ 0 (ผู้ใช้) โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเปลี่ยนระดับการควบคุมของสมาชิก และจะไม่มีผลกับผู้ดูแลคนอื่นที่ไม่ใช่ตัวคุณเอง
 # $commandName is the command name
 command-leave = { $commandName }: ออกจากห้องปัจจุบัน
 # $commandName is the command name
-command-topic = { $commandName } &lt;หัวข้อ&gt;: กำหนดหัวข้อให้กับห้อง โดยจะต้องอาศัยสิทธิอนุญาตในการเปลี่ยนหัวข้อห้อง
+command-topic = { $commandName } &lt;หัวข้อ&gt;: กำหนดหัวข้อให้กับห้อง โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเปลี่ยนหัวข้อห้อง
 # $commandName is the command name
-command-unban = { $commandName } &lt;userId&gt;: ปลดแบนผู้ใช้ที่ถูกแบนจากห้อง โดยจะต้องอาศัยสิทธิอนุญาตในการปลดแบนผู้ใช้
+command-unban = { $commandName } &lt;userId&gt;: เลิกแบนผู้ใช้ที่ถูกแบนจากห้อง โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเลิกแบนผู้ใช้
 # $commandName is the command name
-command-visibility = { $commandName } [&lt;การมองเห็น&gt;]: กำหนดการมองเห็นของห้องปัจจุบันในไดเรกทอรีห้องของ Home Server ปัจจุบัน โดยป้อนค่าจำนวนเต็ม ได้แก่ ส่วนตัว: 0 และสาธารณะ: 1 โดยค่าเริ่มต้นจะเป็นส่วนตัว (0) หากไม่ได้ระบุอาร์กิวเมนต์ใด โดยจะต้องอาศัยสิทธิอนุญาตในการเปลี่ยนการมองเห็นห้อง
+command-visibility = { $commandName } [&lt;การมองเห็น&gt;]: กำหนดการมองเห็นของห้องปัจจุบันในไดเรกทอรีห้องของ Home Server ปัจจุบัน โดยป้อนค่าจำนวนเต็ม ได้แก่ ส่วนตัว: 0 และสาธารณะ: 1 โดยค่าเริ่มต้นจะเป็นส่วนตัว (0) หากไม่ได้ระบุอาร์กิวเมนต์ใด โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเปลี่ยนการมองเห็นห้อง
 # $commandName is the command name
 command-guest = { $commandName } &lt;สิทธิเข้าถึงสำหรับผู้มาเยือน&gt; &lt;การมองเห็นประวัติ&gt;: ตั้งค่าสิทธิ์เข้าถึง และการมองเห็นประวัติของห้องปัจจุบัน สำหรับผู้ใช้ที่เป็นผู้มาเยือน ป้อนค่าจำนวนเต็มสองค่า ค่าแรกสำหรับสิทธิ์เข้าถึงสำหรับผู้มาเยือน (ไม่อนุญาต: 0 และอนุญาต: 1) และค่าที่สองสำหรับการมองเห็นประวัติ (ไม่สามารถมองเห็นได้: 0 และมองเห็นได้: 1) โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเปลี่ยนแปลงการมองเห็นประวัติ
 # $commandName is the command name
-command-roomname = { $commandName } &lt;ชื่อห้อง&gt;: ตั้งชื่อให้กับห้อง โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเปลี่ยนแปลงชื่อห้อง
+command-roomname = { $commandName } &lt;ชื่อห้อง&gt;: ตั้งชื่อให้กับห้อง โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเปลี่ยนชื่อห้อง
 # $commandName is the command name
 command-detail = { $commandName }: แสดงรายละเอียดของห้อง
 # $commandName is the command name
@@ -204,7 +204,7 @@ message-rejected-invite = { $user } ปฎิเสธคำเชิญ
 message-left = { $user } ออกจากห้องแล้ว
 #    $user is the name of the user who unbanned.
 #    $userUnbanned is the name of the user who got unbanned.
-message-unbanned = { $user } ยกเลิกการแบน { $userUnbanned } แล้ว
+message-unbanned = { $user } เลิกแบน { $userUnbanned } แล้ว
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } เตะ { $userGotKicked } ออกจากห้อง

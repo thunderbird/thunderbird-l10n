@@ -20,8 +20,8 @@
 <!ENTITY accountAdvancedTitle.label   "ตัวเลือกขั้นสูง">
 <!ENTITY accountAdvancedInfo.label    "คุณสามารถข้ามขั้นตอนนี้ได้หากคุณต้องการ">
 <!ENTITY accountAdvanced.newMailNotification.label   "แจ้งเตือนเมื่อมีจดหมายใหม่">
-<!ENTITY accountAliasGroupbox.caption "นามแฝงภายใน">
-<!ENTITY accountAliasField.label      "นามแฝง:">
+<!ENTITY accountAliasGroupbox.caption "ชื่อเล่นเฉพาะที่">
+<!ENTITY accountAliasField.label      "ชื่อเล่น:">
 <!ENTITY accountAliasInfo.label       "สิ่งนี้จะปรากฏในการสนทนาของคุณเมื่อคุณพูดคุย ผู้ติดต่อระยะไกลจะไม่เห็น">
 <!ENTITY accountProxySettings.caption "การตั้งค่าพร็อกซี">
 <!ENTITY accountProxySettings.change.label     "เปลี่ยน…">
