@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sync
 category-sync =
     .tooltiptext = Sync
+pane-qr-export-title = Export for Mobile
+category-qr-export =
+    .tooltiptext = Export for Mobile
 general-language-and-appearance-header = Language & Appearance
 general-incoming-mail-header = Incoming Mails
 general-files-and-attachment-header = Files & Attachments
@@ -411,6 +414,26 @@ address-display-name =
 condensed-addresses-label =
     .label = Show only display name for people in my address book
     .accesskey = S
+table-layout-legend = Table View
+table-layout-horizontal-scroll-label =
+    .label = Allow horizontal scroll
+    .accesskey = h
+conversation-view-legend = Conversation view
+conversation-view-checkbox-label =
+    .label = Enable conversation view
+    .accesskey = c
+conversation-view-checkbox-description = Experimental feature based on Gloda, use it at your own risk
+label-experiment = Experimental
+dark-reader-legend = Reader colours
+dark-reader-checkbox-label =
+    .label = Adapt to dark theme
+    .accesskey = d
+dark-reader-checkbox-description = Experimental feature to make the message pane follow dark themes
+account-hub-legend = Account hub
+account-hub-checkbox-label =
+    .label = Create accounts in the new Account Hub
+    .accesskey = C
+account-hub-checkbox-description = Experimental new mail account creation flow
 
 ## Compose Tab
 
@@ -795,5 +818,60 @@ sync-disconnected-turn-on-sync = Turn on Syncing…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Export accounts to { -brand-product-name } Mobile
+qr-export-description = Quickly transfer your account settings from desktop to mobile by generating a QR code. Select which accounts to include, decide if you want to transfer your password, and scan the code with your mobile device. Fast, secure, and simple.
+qr-export-get-app = Don’t have { -brand-product-name } on mobile yet? <a data-l10n-name="app-link">Get it on Google Play</a>
+qr-export-create = Create a QR code to export your accounts
+qr-export-select-accounts = Select which accounts to export:
+qr-export-no-accounts = Not seeing all your accounts? Some accounts may be disabled because they are not supported by { -brand-product-name } for Android. <a data-l10n-name="account-support-link">Support</a>
+qr-export-accounts-legend = Email accounts
+qr-export-select-all-accounts = Select all
+qr-export-security-legend = Security
+qr-export-include-passwords = Include all accounts passwords
+qr-export-oauth-warning = Some of your accounts use an authentication method that may require re-authentication on your mobile device. You may need to enter your passwords again during this process.
+qr-export-security-hint = By scanning the following QR codes, your account settings—including your email and password—will be transferred securely. We do not collect, store, or share any of this data during the process. The transfer occurs directly between your devices.
+qr-export-security-warning = For your security, please ensure you are in a private setting and only scan QR codes from trusted sources.
+qr-export-start-export = Export
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } of { $count } QR code
+       *[other] { $step } of { $count } QR codes
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Scan QR code with { -brand-product-name } on your mobile device
+       *[other] Scan QR codes with { -brand-product-name } on your mobile device
+    }
+qr-export-scan-step1 = Open { -brand-product-name } on your mobile device
+qr-export-scan-step2 = Go to settings
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Select <strong>Import settings</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Tap <strong>Scan QR code</strong> and hold your phone over this code
+qr-export-back = Back
+qr-export-next = Next
+qr-export-done = Done
+qr-export-summary-description = Accounts exported. Continue on your mobile device.
+qr-export-summary-title = Export summary:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR code generated
+       *[other] { $count } QR codes generated
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } account exported:
+       *[other] { $count } accounts exported:
+    }
+qr-export-summary-passwords-included = Passwords included
 qr-export-summary-passwords-excluded = Passwords excluded
 qr-export-more-accounts = Export more accounts
