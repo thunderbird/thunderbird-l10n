@@ -224,6 +224,51 @@ message-room-name-remove = { $user } ได้ลบชื่อห้องแ�
 #    $user is the name of the user who changed the room name.
 #    $newRoomName is the new room name.
 message-room-name-changed = { $user } ได้เปลี่ยนชื่อห้องเป็น { $newRoomName }
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user } ได้เปลี่ยนระดับการควบคุม { $powerLevelChanges }
+#    $user is the name of the target user whose power level has been changed.
+#    $oldPowerLevel is the old power level.
+#    $newPowerLevel is the new power level.
+message-power-level-from-to = เปลี่ยนระดับการควบคุมของ { $user } จาก { $oldPowerLevel } เป็น { $newPowerLevel }
+#    $user is the name of the user who has allowed guests to join the room.
+message-guest-allowed = { $user } ได้อนุญาตให้ผู้มาเยือนเข้าร่วมห้องได้
+#    $user is the name of the user who has prevented guests to join the room.
+message-guest-prevented = { $user } ได้สั่งห้ามผู้มาเยือนไม่ให้เข้าร่วมห้องได้
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = { $user } ได้ทำให้ทุกคนสามารถเห็นประวัติของห้องได้ในครั้งหน้า
+#    $user is the name of the user who has made future room history visible to all room members.
+message-history-shared = { $user } ได้ทำให้สมาชิกของทุกห้องสามารถเห็นประวัติของห้องได้ในครั้งหน้า
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = { $user } ได้ทำให้สมาชิกห้องทุกคนสามารถดูประวัติของห้องได้หลังจากได้รับเชิญเข้าห้อง
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user } ได้ทำให้สมาชิกห้องทุกคนสามารถดูประวัติห้องได้หลังจากเข้าห้องแล้ว
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user } ได้ตั้งค่าที่อยู่หลักของห้องนี้จากเดิม { $oldAddress } เปลี่ยนไปเป็น { $newAddress }
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user } ได้เพิ่ม { $addresses } เป็นที่อยู่สำรองสำหรับห้องนี้
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user } ได้ลบ { $addresses } ออกจากที่อยู่สำรองสำหรับห้องนี้
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = { $user } ได้ลบ { $removedAddresses } ออก แล้วเพิ่มที่อยู่ใหม่ { $addedAddresses } เป็นที่อยู่ของห้องนี้
+message-space-not-supported = ห้องนี้เป็นห้องว่าง และไม่ได้รับการดูแลใดๆ
+message-encryption-start = ข้อความในการสนทนานี้ ถูกเข้ารหัสแบบต้นทางถึงปลายทางแล้ว
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } ต้องการคำยืนยันจาก { $userReceiving }
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } ยกเลิกการยืนยันเนื่องจาก: { $reason }
+message-verification-done = การยืนยันตัวตนสมบูรณ์แล้ว
+message-decryption-error = ไม่สามารถถอดรหัสลับเนื้อหาของข้อความนี้ได้ หากคุณต้องการขอคีย์เข้ารหัสลับจากอุปกรณ์อื่น ให้คลิกขวาที่ข้อความนี้
+message-decrypting = กำลังถอดรหัสลับ…
 message-action-report = รายงานข้อความ
 message-action-retry = ลองส่งใหม่
 message-action-cancel = ยกเลิกข้อความ
