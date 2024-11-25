@@ -151,6 +151,24 @@ command-topic = { $commandName } &lt;หัวข้อ&gt;: กำหนดห�
 command-unban = { $commandName } &lt;userId&gt;: ปลดแบนผู้ใช้ที่ถูกแบนจากห้อง โดยจะต้องอาศัยสิทธิอนุญาตในการปลดแบนผู้ใช้
 # $commandName is the command name
 command-visibility = { $commandName } [&lt;การมองเห็น&gt;]: กำหนดการมองเห็นของห้องปัจจุบันในไดเรกทอรีห้องของ Home Server ปัจจุบัน โดยป้อนค่าจำนวนเต็ม ได้แก่ ส่วนตัว: 0 และสาธารณะ: 1 โดยค่าเริ่มต้นจะเป็นส่วนตัว (0) หากไม่ได้ระบุอาร์กิวเมนต์ใด โดยจะต้องอาศัยสิทธิอนุญาตในการเปลี่ยนการมองเห็นห้อง
+# $commandName is the command name
+command-guest = { $commandName } &lt;สิทธิเข้าถึงสำหรับผู้มาเยือน&gt; &lt;การมองเห็นประวัติ&gt;: ตั้งค่าสิทธิ์เข้าถึง และการมองเห็นประวัติของห้องปัจจุบัน สำหรับผู้ใช้ที่เป็นผู้มาเยือน ป้อนค่าจำนวนเต็มสองค่า ค่าแรกสำหรับสิทธิ์เข้าถึงสำหรับผู้มาเยือน (ไม่อนุญาต: 0 และอนุญาต: 1) และค่าที่สองสำหรับการมองเห็นประวัติ (ไม่สามารถมองเห็นได้: 0 และมองเห็นได้: 1) โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเปลี่ยนแปลงการมองเห็นประวัติ
+# $commandName is the command name
+command-roomname = { $commandName } &lt;ชื่อห้อง&gt;: ตั้งชื่อให้กับห้อง โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการเปลี่ยนแปลงชื่อห้อง
+# $commandName is the command name
+command-detail = { $commandName }: แสดงรายละเอียดของห้อง
+# $commandName is the command name
+command-addalias = { $commandName } &lt;ชื่อเล่น&gt;: ตั้งชื่อเล่นให้กับห้อง ชื่อเล่นที่ตั้งต้องเป็นรูปแบบ ‘#localname:domain’ และผู้ใช้คำสั่งต้องมีสิทธิ์ในการเพิ่มชื่อเล่น
+# $commandName is the command name
+command-removealias = { $commandName } &lt;ชื่อเล่น&gt;: ลบชื่อเล่นของห้อง ชื่อเล่นที่ตั้งต้องเป็นรูปแบบ ‘#localname:domain’ และผู้ใช้คำสั่งต้องมีสิทธิ์ในการลบชื่อเล่น
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;รุ่นใหม่&gt;: อัปเกรดห้องเป็นรุ่นที่กำหนด โดยผู้ใช้คำสั่งต้องมีสิทธิ์ในการอัปเกรดห้อง
+# $commandName is the command name
+command-me = { $commandName } &lt;การกระทำ&gt;: ปฏิบัติตามคำสั่งที่ระบุ
+# $commandName is the command name
+command-msg = { $commandName } &lt;userId&gt; &lt;ข้อความ&gt;: ส่งข้อความถึงผู้ใช้ที่ระบุ
+# $commandName is the command name
+command-join = { $commandName } &lt;roomId&gt;: เข้าร่วมห้องที่ระบุ
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
@@ -168,6 +186,44 @@ message-accepted-invite = { $user } ยอมรับคำเชิญแล�
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user } เชิญ { $userWhoGotInvited } แล้ว
+#    $user is the name of the user who changed their display name.
+#    $oldDisplayName is the old display name.
+#    $newDisplayName is the new display name.
+message-display-name-changed = { $user } ได้เปลี่ยนชื่อที่แสดงจาก { $oldDisplayName } เป็น { $newDisplayName }.
+#    $user is the name of the user who set their display name.
+#    $changedName is the newly set display name.
+message-display-name-set = { $user } ตั้งชื่อที่แสดงเป็น { $changedName }
+#    $user is the name of the user who removed their display name.
+#    $nameRemoved is the old display name which has been removed.
+message-display-name-remove = { $user } ลบชื่อที่แสดง { $nameRemoved } ออก
+#    $user is the name of the user who has joined the room.
+message-joined = { $user } เข้าร่วมห้องแล้ว
+#    $user is the name of the user who has rejected the invitation.
+message-rejected-invite = { $user } ปฎิเสธคำเชิญ
+#    $user is the name of the user who has left the room.
+message-left = { $user } ออกจากห้องแล้ว
+#    $user is the name of the user who unbanned.
+#    $userUnbanned is the name of the user who got unbanned.
+message-unbanned = { $user } ยกเลิกการแบน { $userUnbanned } แล้ว
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+message-kicked = { $user } เตะ { $userGotKicked } ออกจากห้อง
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } เตะ { $userGotKicked } ออกจากห้องเนื่องจาก: { $reason }
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+message-withdrew-invite = { $user } ยกเลิกการเชิญ { $userInvitationWithdrawn } แล้ว
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } ยกเลิกการเชิญ { $userInvitationWithdrawn } เนื่องจาก: { $reason }
+#    $user is the name of the user who has removed the room name.
+message-room-name-remove = { $user } ได้ลบชื่อห้องแล้ว
+#    $user is the name of the user who changed the room name.
+#    $newRoomName is the new room name.
+message-room-name-changed = { $user } ได้เปลี่ยนชื่อห้องเป็น { $newRoomName }
 message-action-report = รายงานข้อความ
 message-action-retry = ลองส่งใหม่
 message-action-cancel = ยกเลิกข้อความ
