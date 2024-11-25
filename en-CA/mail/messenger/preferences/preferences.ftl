@@ -397,8 +397,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Close message window/tab on move or delete
     .accesskey = C
-display-name-label =
-    .value = Display name:
 address-display-legend = Message List
 address-display-description = Preferred address display format:
 address-display-full =
@@ -580,9 +578,6 @@ primary-password-button =
 forms-primary-pw-fips-title = You are currently in FIPS mode. FIPS requires a non-empty Primary Password.
 forms-master-pw-fips-desc = Password Change Failed
 junk-description = Set your default junk mail settings. Account-specific junk mail settings can be configured in Account Settings.
-junk-label =
-    .label = When I mark messages as junk:
-    .accesskey = W
 junk-marked-label =
     .label = When messages are marked as junk:
     .accesskey = W
@@ -592,9 +587,6 @@ junk-move-label =
 junk-delete-label =
     .label = Delete them
     .accesskey = D
-junk-read-label =
-    .label = Mark messages determined to be Junk as read
-    .accesskey = M
 junk-read-description = Mark messages as read
 junk-read-manual-label =
     .label = When manually marked as junk
@@ -800,3 +792,8 @@ synced-acount-item-filters = Filters
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Synchronize your email accounts, address books, calendars, and identities across all your devices.
 sync-disconnected-turn-on-sync = Turn on Syncing…
+
+## Mobile QR Export Pane
+
+qr-export-summary-passwords-excluded = Passwords excluded
+qr-export-more-accounts = Export more accounts
