@@ -269,6 +269,14 @@ message-verification-cancel2 = { $user } ยกเลิกการยืนย
 message-verification-done = การยืนยันตัวตนสมบูรณ์แล้ว
 message-decryption-error = ไม่สามารถถอดรหัสลับเนื้อหาของข้อความนี้ได้ หากคุณต้องการขอคีย์เข้ารหัสลับจากอุปกรณ์อื่น ให้คลิกขวาที่ข้อความนี้
 message-decrypting = กำลังถอดรหัสลับ…
+message-redacted = ข้อความถูกปิดทับ
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } ได้ตอบกลับ { $userThatSentMessage } ด้วย { $reaction }
+#    Label in the message context menu
+message-action-request-key = ขอคีย์ใหม่อีกครั้ง
+message-action-redact = ปิดทับ
 message-action-report = รายงานข้อความ
 message-action-retry = ลองส่งใหม่
 message-action-cancel = ยกเลิกข้อความ
