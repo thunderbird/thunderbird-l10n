@@ -117,3 +117,4 @@ account-hub-config-success = Einstellungen wurden in der Mozilla-ISPD gefunden.
 account-hub-password-info = Ihre Zugangsdaten werden nur lokal auf Ihrem Computer gespeichert.
 account-hub-sync-success = Thunderbird hat verbundene Dienste gefunden
 account-hub-email-added-success = E-Mail-Konto erfolgreich verbunden
+account-hub-config-test-success = Gültige Konfigurationseinstellungen
