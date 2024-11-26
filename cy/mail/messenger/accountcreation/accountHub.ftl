@@ -117,3 +117,4 @@ account-hub-config-success = Canfuwyd y ffurfweddiad yn Mozilla ISPDB
 account-hub-password-info = Bydd eich manylion yn cael eu cadw'n lleol dim ond ar eich cyfrifiadur chi
 account-hub-sync-success = Mae Thunderbird wedi canfod rhai gwasanaethau cysylltiedig
 account-hub-email-added-success = Cyfrif e-bost wedi'i gysylltu'n llwyddiannus
+account-hub-config-test-success = Gosodiadau cyfluniad yn ddilys
