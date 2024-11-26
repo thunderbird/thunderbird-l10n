@@ -5,9 +5,14 @@
 
 # Display Name
 
+vcard-displayname = 표시 이름
+vcard-displayname-placeholder =
+    .placeholder = { vcard-displayname }
 
 # Type selection
 
+vcard-entry-type-label = 유형
+vcard-entry-type-home = 홈
 vcard-entry-type-work = 직장
 vcard-entry-type-none = 없음
 vcard-entry-type-custom = 사용자 지정
@@ -27,6 +32,9 @@ vcard-n-add-middlename =
 vcard-n-lastname = 성
 vcard-n-add-lastname =
     .title = 성 추가
+vcard-n-suffix = 접미사
+vcard-n-add-suffix =
+    .title = 접미사 추가
 
 # Nickname
 
@@ -62,6 +70,7 @@ vcard-tz-add = 시간대 추가
 
 # IMPP vCard field
 
+vcard-impp2-header = 메신저
 vcard-impp-add = 채팅 계정 추가
 vcard-impp-label = 채팅 계정
 vcard-impp-select = 프로토콜
@@ -104,12 +113,26 @@ vcard-note-add = 메모 추가
 vcard-org-header = 조직 속성
 vcard-org-add = 조직 속성 추가
 vcard-org-title = 제목
+vcard-org-title-input =
+    .title = 직책 또는 직업
+    .placeholder = 직함
 vcard-org-role = 역할
+vcard-org-role-input =
+    .title = 특정 상황에서 수행하는 역할이나 기능
+    .placeholder = 프로젝트내 역할
 vcard-org-org = 조직
+vcard-org-org-input =
+    .title = 조직 이름
+    .placeholder = 회사 이름
 vcard-org-org-unit = 부서
+vcard-org-org-unit-input =
+    .title = 조직 구성 단위 이름
+    .placeholder = 부서
 
 # Custom properties
 
+vcard-custom-header = 사용자 지정 속성
+vcard-custom-add = 사용자 지정 속성 추가
 vcard-remove-button-title =
     .title = 삭제
 vcard-remove-button = 삭제
