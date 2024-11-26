@@ -117,3 +117,4 @@ account-hub-config-success = Konfiguracija je so w Mozilla ISPDB namakała
 account-hub-password-info = Waše přizjewjenske daty budu so jenož lokalnje na wašim ličaku składować
 account-hub-sync-success = Thunderbird je někotre zwjazane słužby namakał
 account-hub-email-added-success = E-mejlowe konto je so wuspěšnje zwjazało
+account-hub-config-test-success = Konfiguraciske nastajenja płaćiwe
