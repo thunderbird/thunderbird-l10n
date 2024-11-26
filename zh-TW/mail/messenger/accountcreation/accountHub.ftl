@@ -117,3 +117,4 @@ account-hub-config-success = 從 Mozilla ISPDB 找到的設定
 account-hub-password-info = 您的登入資訊只會儲存在本機電腦上
 account-hub-sync-success = Thunderbird 找到一些連結的服務
 account-hub-email-added-success = 成功連線至電子郵件帳號
+account-hub-config-test-success = 設定值有效
