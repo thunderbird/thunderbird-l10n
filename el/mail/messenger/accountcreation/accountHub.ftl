@@ -117,3 +117,4 @@ account-hub-config-success = Βρέθηκαν ρυθμίσεις στη Mozilla 
 account-hub-password-info = Τα διαπιστευτήριά σας θα αποθηκευτούν μόνο τοπικά, στον υπολογιστή σας
 account-hub-sync-success = Το Thunderbird βρήκε μερικές συνδεδεμένες υπηρεσίες
 account-hub-email-added-success = Επιτυχής σύνδεση λογαριασμού email
+account-hub-config-test-success = Έγκυρες ρυθμίσεις παραμέτρων
