@@ -2,7 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-app-manager-dialog-title = 애플리케이션 상세 정보
-remove-app-button =
+account-settings-color-label = 색상:
+    .accesskey = C
+account-settings-reset-color-button =
+    .title = 색상 초기화
+delete-account-button =
     .label = 삭제
-    .accesskey = R
+default-account-button =
+    .label = 기본값으로 설정

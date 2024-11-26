@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = 색상
 colors-dialog-title = 색상
 colors-dialog-legend = 글자와 배경
 text-color-label =
@@ -22,9 +20,9 @@ link-color-label =
 visited-link-color-label =
     .value = 방문한 링크:
     .accesskey = v
-underline-link-checkbox =
-    .label = 링크에 밑줄
-    .accesskey = u
+always-underline-links =
+    .label = 항상 링크에 밑줄
+    .accesskey = U
 override-color-label =
     .value = 지정한 색상 덮어쓰기:
     .accesskey = O

@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+dock-options-dialog-title = 앱 아이콘 옵션
+dock-options-show-badge =
+    .label = 배지 아이콘 표시
+    .accesskey = b
 bounce-system-dock-icon =
     .label = 새 메시지가 도착하면 튀어오르기
     .accesskey = i
@@ -14,3 +18,4 @@ count-unread-messages-radio =
 count-new-messages-radio =
     .label = 새 메시지 개수
     .accesskey = n
+notification-settings-info2 = 시스템 설정의 알림 창에서 배지 표시를 끌 수 있습니다.

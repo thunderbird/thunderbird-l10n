@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = 보관된 메시지 폴더 구조 유지
     .accesskey = K
+recreate-inbox =
+    .label = 받은 편지함 폴더 다시 만들기
+    .accesskey = R
 archive-example-label = 예제
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = 받은 편지함
+child-folder-name =
+    .label = 받은 편지함 하위 폴더
+sibling-folder-name =
+    .label = 받은 편지함 형제 폴더

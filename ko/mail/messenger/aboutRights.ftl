@@ -13,6 +13,13 @@ rights-intro-point-5 = { -brand-short-name }는 몇 가지 웹 사이트 서비�
 rights-intro-point-5-unbranded = 이 제품이 웹 서비스를 지원하지 않으면 당 서비스의 서비스 조건은 링크에서 찾을 수 있습니다.<a data-l10n-name="mozilla-website-services-link">자세히</a> 보기
 rights-intro-point-6 = 특정 형식의 동영상 재생을 위해 { -brand-short-name }는 특정 제 삼자 콘텐츠 해석 모듈을 다운받습니다.
 rights-webservices-header = { -brand-full-name } 웹 기반 정보 서비스
+rights-webservices2 =
+    { -brand-full-name }는 { -brand-short-name } 바이너리 버전에서 사용할 수 있는
+    일부 기능 제공하기 위해 아래에 설명된 약관에 따라 웹 기반 정보 서비스(이하 "서비스")를
+    사용합니다. 하나 또는 그 이상의 서비스를 이용하고 싶지 않거나 아래의 약관에 동의하지 않는다면
+    기능이나 서비스를 비활성화할 수 있습니다. 특정 기능이나 서비스 비활성화 방법에 대한 설명은
+    <a data-l10n-name="mozilla-disable-service-link">여기</a>에서 볼 수 있습니다.
+    다른 기능과 서비스도 애플리케이션 설정에서 비활성화할 수 있습니다.
 rights-locationawarebrowsing = <strong>위치 정보 서비스: </strong>이 기능은 항상 여러분에게 확인을 합니다. 허가 없이 어떠한 위치 정보도 웹 서비스로 전송되지 않습니다. 하지만 이 기능 중단을 원하시면 아래의 절차를 이용하세요:
 rights-locationawarebrowsing-term-1 = 주소 표시 줄에 about:config 입력 <code>검색항목에 geo.enabled 입력</code>
 rights-locationawarebrowsing-term-2 = geo.enabled 항목을 더블 클릭

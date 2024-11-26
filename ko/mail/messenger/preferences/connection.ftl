@@ -14,6 +14,14 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = HTTPS를 통한 DNS를 해결하는 선호하는 URL을 입력
 connection-dns-over-https-custom-label = 사용자 정의
+connection-dialog-title = 연결 설정
+disable-extension-button = 확장 기능 비활성화
+# Variables:
+#   $name (String) - The extension that is controlling the proxy settings.
+#
+# The extension-icon is the extension's icon, or a fallback image. It should be
+# purely decoration for the actual extension name, with alt="".
+proxy-settings-controlled-by-extension = <img data-l10n-name="extension-icon" alt="" /> { $name } 확장 기능이 { -brand-short-name }가 인터넷에 연결하는 방식을 제어합니다.
 connection-proxy-legend = 프록시 설정
 proxy-type-no =
     .label = 프록시 사용 안함
@@ -64,6 +72,8 @@ no-proxy-label =
     .value = 프록시 사용 안 함:
     .accesskey = n
 no-proxy-example = 예: .mozilla.or.kr, .net.nz 192.168.1.0/24
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-noproxy-localhost-desc-2 = localhost와 127.0.0.1/8, ::1에 대한 연결은 프록시를 사용하지 않습니다.
 proxy-password-prompt =
     .label = 비밀번호가 저장되어 있으면 인증시 묻지 않기
     .accesskey = i
