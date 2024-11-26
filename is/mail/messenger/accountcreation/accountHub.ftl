@@ -117,3 +117,4 @@ account-hub-config-success = Uppsetning fannst í ISP-gagnagrunni Mozilla.
 account-hub-password-info = Auðkennin þín verða einungis geymd inni á tölvunni þinni
 account-hub-sync-success = Thunderbird fann nokkrar tengdar þjónustur
 account-hub-email-added-success = Tókst að tengja póstreikning
+account-hub-config-test-success = Grunnstillingar eru gildar
