@@ -117,3 +117,4 @@ account-hub-config-success = Configuration trouvée dans la base de données des
 account-hub-password-info = Vos informations d’identification ne sont conservées que localement, sur votre ordinateur
 account-hub-sync-success = Thunderbird a détecté des services connectés
 account-hub-email-added-success = Le compte de messagerie a été connecté
+account-hub-config-test-success = Paramètres de configuration valides
