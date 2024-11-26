@@ -117,3 +117,4 @@ account-hub-config-success = Konfigurationen hittades i Mozilla ISPDB
 account-hub-password-info = Dina autentiseringsuppgifter kommer endast att lagras lokalt på din dator
 account-hub-sync-success = Thunderbird hittade några anslutna tjänster
 account-hub-email-added-success = E-postkontot har anslutits
+account-hub-config-test-success = Giltiga konfigurationsinställningar
