@@ -117,3 +117,4 @@ account-hub-config-success = Nastavitve so bile najdene v Mozillini podatkovni z
 account-hub-password-info = Poverilnice bodo shranjene izključno na vašem računalniku
 account-hub-sync-success = Thunderbird je odkril nekaj povezanih storitev
 account-hub-email-added-success = E-poštni račun uspešno povezan
+account-hub-config-test-success = Nastavitve so veljavne
