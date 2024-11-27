@@ -117,3 +117,4 @@ account-hub-config-success = Конфигурация найдена в Mozilla 
 account-hub-password-info = Ваши учётные данные будут храниться только локально на вашем компьютере
 account-hub-sync-success = Thunderbird обнаружил некоторые подключённые службы
 account-hub-email-added-success = Учётная запись электронной почты успешно подключена
+account-hub-config-test-success = Параметры конфигурации действительны
