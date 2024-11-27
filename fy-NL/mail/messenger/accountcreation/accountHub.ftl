@@ -117,3 +117,4 @@ account-hub-config-success = Konfiguraasje fûn yn de Mozilla-ISPDB
 account-hub-password-info = Jo oanmeldgegevens wurde allinnich lokaal op jo kompjûter bewarre
 account-hub-sync-success = Thunderbird hat inkelde ferbûne services fûn
 account-hub-email-added-success = E-mailaccount mei sukses ferbûn
+account-hub-config-test-success = Konfiguraasje-ynstellingen jildich
