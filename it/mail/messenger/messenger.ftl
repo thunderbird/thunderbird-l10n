@@ -10,7 +10,7 @@ messenger-window-minimize-button =
 messenger-window-maximize-button =
     .tooltiptext = Ingrandisci
 messenger-window-restore-down-button =
-    .tooltiptext = Ripristina in basso
+    .tooltiptext = Ripristina dimensioni
 messenger-window-close-button =
     .tooltiptext = Chiudi
 # Variables:
