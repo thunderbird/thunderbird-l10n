@@ -117,3 +117,4 @@ account-hub-config-success = Конфигурация Mozilla ISPDB ішінен
 account-hub-password-info = Тіркелгі деректеріңіз тек компьютеріңізде жергілікті түрде сақталады
 account-hub-sync-success = Thunderbird кейбір байланысқан қызметтерді тапты
 account-hub-email-added-success = Электрондық пошта тіркелгісі сәтті байланыстырылды
+account-hub-config-test-success = Конфигурация параметрлері жарамды
