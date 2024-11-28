@@ -117,3 +117,4 @@ account-hub-config-success = Mozilla İSS veritabanında yapılandırma bulundu
 account-hub-password-info = Hesap bilgileriniz yalnızca yerel olarak bilgisayarınızda depolanır
 account-hub-sync-success = Thunderbird bazı bağlı servisler buldu
 account-hub-email-added-success = E-posta hesabı başarıyla bağlandı
+account-hub-config-test-success = Yapılandırma ayarları geçerli
