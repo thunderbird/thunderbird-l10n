@@ -400,8 +400,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Pechar xanela/lapela da mensaxe ao movela ou eliminala
     .accesskey = c
-display-name-label =
-    .value = Nome a amosar:
 address-display-legend = Lista de mensaxes
 address-display-description = Formato preferido para mostrar o enderezo:
 address-display-full =
@@ -426,6 +424,16 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = Función experimental baseada en Gloda, úsea baixo o seu propio risco
 label-experiment = Experimental
+dark-reader-legend = Cores do lector
+dark-reader-checkbox-label =
+    .label = Adaptar ao tema escuro
+    .accesskey = d
+dark-reader-checkbox-description = Función experimental para facer que o panel de mensaxes siga temas escuros
+account-hub-legend = Centro de contas
+account-hub-checkbox-label =
+    .label = Crear contas no novo Centro de contas
+    .accesskey = C
+account-hub-checkbox-description = Procedemento experimental para crear unha nova conta de correo electrónico
 
 ## Compose Tab
 
@@ -593,9 +601,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Actualmente está en modo FIPS. O modo FIPS require un contrasinal principal non baleiro.
 forms-master-pw-fips-desc = Produciuse un erro ao mudar o contrasinal
 junk-description = Defina a configuración predeterminada para o correo lixo. As configuracións específicas de cada conta poden configurarse en Configuracións da conta.
-junk-label =
-    .label = Cando marco mensaxes como lixo:
-    .accesskey = c
 junk-marked-label =
     .label = Cando as mensaxes se marcan como lixo:
     .accesskey = W
@@ -605,9 +610,6 @@ junk-move-label =
 junk-delete-label =
     .label = Eliminalas
     .accesskey = E
-junk-read-label =
-    .label = Marcar como lidas as mensaxes identificadas como lixo
-    .accesskey = M
 junk-read-description = Marcar mensaxes como lidas
 junk-read-manual-label =
     .label = Cando se marca manualmente como lixo
@@ -817,3 +819,32 @@ sync-disconnected-turn-on-sync = Activar a sincronización ...
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Exporta contas a { -brand-product-name } móbil
+qr-export-accounts-legend = Contas de correo electrónico
+qr-export-select-all-accounts = Seleccionar todo
+qr-export-security-legend = Seguranza
+qr-export-include-passwords = Inclúe os contrasinais de todas as contas
+qr-export-start-export = Exportar
+qr-export-scan-step1 = Abrir { -brand-product-name } no teu dispositivo móbil
+qr-export-scan-step2 = Ir á configuración
+qr-export-back = Atrás
+qr-export-next = Seguinte
+qr-export-done = Feito
+qr-export-summary-description = Contas exportadas. Continúa no teu dispositivo móbil.
+qr-export-summary-title = Resumo da exportación:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } código QR xerado
+       *[other] { $count } códigos QR xerados
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } conta exportada:
+       *[other] { $count } contas exportadas:
+    }
+qr-export-summary-passwords-included = Contrasinais incluídos
+qr-export-summary-passwords-excluded = Contrasinais excluídos
+qr-export-more-accounts = Exportar máis contas
