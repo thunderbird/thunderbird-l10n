@@ -26,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Get Help
     .accesskey = H
-menu-help-explore-features =
-    .label = Explore Features
-    .accesskey = F
 menu-help-get-release-help =
     .label = Get Help with { -brand-short-name }
     .accesskey = R
@@ -108,7 +105,7 @@ menu-view-repair-text-encoding =
 
 menu-view-folders-toggle-header =
     .label = Folder Pane Header
-    .accesskey = F
+    .accesskey = P
 
 ## View / Layout
 
