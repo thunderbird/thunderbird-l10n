@@ -819,13 +819,40 @@ sync-disconnected-turn-on-sync = Activar a sincronización ...
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Exporta contas a { -brand-product-name } móbil
+qr-export-description = Transfire rapidamente a configuración da túa conta do escritorio ao móbil xerando un código QR. Selecciona as contas que queres incluír, decide se queres transferir o teu contrasinal e escanea o código co teu dispositivo móbil. Rápido, seguro e sinxelo.
+qr-export-get-app = Aínda non tes { -brand-product-name } no móbil? <a data-l10n-name="app-link">Consígueo en Google Play</a>
+qr-export-create = Crea un código QR para exportar as túas contas
+qr-export-select-accounts = Escolle as contas que queres exportar:
+qr-export-no-accounts = Non ves todas as túas contas? Algunhas contas poden estar desactivadas porque non son compatibles con { -brand-product-name } para Android. <a data-l10n-name="account-support-link">Asistencia</a>
 qr-export-accounts-legend = Contas de correo electrónico
 qr-export-select-all-accounts = Seleccionar todo
 qr-export-security-legend = Seguranza
 qr-export-include-passwords = Inclúe os contrasinais de todas as contas
+qr-export-oauth-warning = Algunhas das túas contas usan un método de autenticación que pode requirir unha nova autenticación no teu dispositivo móbil. É posible que teñas que introducir de novo os teus contrasinais durante este proceso.
+qr-export-security-hint = Ao escanear os seguintes códigos QR, a configuración da túa conta, incluído o teu correo electrónico e contrasinal, transferiranse de forma segura. Non recollemos, almacenamos nin compartimos ningún destes datos durante o proceso. A transferencia realízase directamente entre os teus dispositivos.
+qr-export-security-warning = Para a túa seguridade, asegúrate de estar nunha configuración privada e de escanear só códigos QR de fontes fiables.
 qr-export-start-export = Exportar
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] Código QR — { $step } de { $count }
+       *[other] Códigos QR — { $step } de { $count }
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Escanea un código QR con { -brand-product-name } no teu dispositivo móbil
+       *[other] Escanea códigos QR con { -brand-product-name } no teu dispositivo móbil
+    }
 qr-export-scan-step1 = Abrir { -brand-product-name } no teu dispositivo móbil
 qr-export-scan-step2 = Ir á configuración
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Selecciona <strong>Importar configuración</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Toca <strong>Escanear código QR</strong> e mantén o teléfono sobre este código
 qr-export-back = Atrás
 qr-export-next = Seguinte
 qr-export-done = Feito
