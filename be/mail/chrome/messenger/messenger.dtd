@@ -22,10 +22,6 @@
      -->
 <!ENTITY moveToNewWindow.label "Перамясціць у новае акно">
 <!ENTITY moveToNewWindow.accesskey "П">
-<!ENTITY newCreateEmailAccountCmd.label "Атрымаць новы ўліковы запіс пошты…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "н">
-<!ENTITY newExistingEmailAccountCmd.label "Дадаць існуючы ўліковы запіс пошты…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "і">
 <!ENTITY newIMAccountCmd.label "Уліковы запіс чата…">
 <!ENTITY newIMAccountCmd.accesskey "ч">
 <!ENTITY newFeedAccountCmd.label "Уліковы запіс стужкі навін…">
@@ -168,6 +164,10 @@
 <!ENTITY sortByJunkStatusCmd.accesskey "т">
 <!ENTITY sortBySubjectCmd.label "Тэме">
 <!ENTITY sortBySubjectCmd.accesskey "э">
+<!ENTITY sortByFromCmd.label "Адпраўніку">
+<!ENTITY sortByFromCmd.accesskey "п">
+<!ENTITY sortByRecipientCmd.label "Атрымальніку">
+<!ENTITY sortByRecipientCmd.accesskey "т">
 <!ENTITY sortByUnreadCmd.label "Прачытанасці">
 <!ENTITY sortByUnreadCmd.accesskey "ч">
 <!ENTITY sortByOrderReceivedCmd.label "Парадку атрымання">
@@ -576,8 +576,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "А">
 <!ENTITY folderContextMarkNewsgroupRead.label "Пазначыць групу навін прачытанай">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "П">
-<!ENTITY folderContextMarkMailFolderRead.label "Пазначыць папку прачытанай">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "П">
 <!ENTITY folderContextSubscribe.label "Падпісацца…">
 <!ENTITY folderContextSubscribe.accesskey "д">
 <!ENTITY folderContextSearchForMessages.label "Шукаць паведамленні…">
@@ -658,11 +656,6 @@
 <!ENTITY contextArchive.label "Архіваваць">
 <!ENTITY contextReplySender.label "Адказаць толькі адпраўніку">
 <!ENTITY contextReplyAll.label "Адказаць усім">
-<!ENTITY contextForward.label "Пераслаць">
-<!ENTITY contextForwardAsMenu.label "Пераслаць як">
-<!ENTITY contextForwardAsInline.label "У целе паведамлення">
-<!ENTITY contextForwardAsAttachmentItem.label "Прымацаванне">
-<!ENTITY contextMultiForwardAsAttachment.label "Пераслаць як прымацаванні">
 <!ENTITY contextMoveMsgMenu.label "Перамясціць у">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Нядаўнія">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Абраныя">
