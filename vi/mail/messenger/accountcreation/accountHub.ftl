@@ -117,3 +117,4 @@ account-hub-config-success = Cấu hình được tìm thấy trong Mozilla ISPD
 account-hub-password-info = Thông tin đăng nhập của bạn sẽ chỉ được lưu trữ cục bộ trên máy tính của bạn
 account-hub-sync-success = Thunderbird tìm thấy một số dịch vụ được kết nối
 account-hub-email-added-success = Tài khoản email được kết nối thành công
+account-hub-config-test-success = Cấu hình thiết lập hợp lệ
