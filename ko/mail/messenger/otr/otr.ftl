@@ -47,6 +47,9 @@ msgevent-rcvdmsg-unencrypted = { $name }님으로부터 수신 한 다음 메시
 msgevent-rcvdmsg-unrecognized = { $name }님으로부터 인식할 수 없는 OTR 메시지를 받았습니다.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-for-other-instance = { $name } 님이 다른 세션을 위한 메시지를 보냈습니다. 여러 번 로그인한 경우 다른 세션이 메시지를 수신했을 수 있습니다.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
 context-gone-secure-private = { $name }님과의 비공개 대화가 시작되었습니다.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
