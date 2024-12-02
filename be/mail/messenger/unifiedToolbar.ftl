@@ -14,24 +14,36 @@ search-bar-button =
 ## Unified toolbar context menu
 
 customize-menu-customize =
-    .label = Наладзіць…
+    .label = Персаналізаваць…
 
 # Unified toolbar get messages button context menu
 
 toolbar-get-all-messages-menuitem =
-    .label = Атрымаць усе новыя лісты
+    .label = Атрымаць усе новыя паведамленні
     .accesskey = А
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = Пошта
+    .title = Пошта
 customize-space-tab-addressbook = Адрасная кніга
     .title = Адрасная кніга
 customize-space-tab-calendar = Каляндар
     .title = Каляндар
-customize-button-style-icons-beside-text-option = Значкі з тэкстам
+customize-space-tab-tasks = Задачы
+    .title = Задачы
+customize-space-tab-chat = Чат
+    .title = Чат
+customize-space-tab-settings = Налады
+    .title = Налады
+customize-button-style-label = Стыль кнопак:
+customize-cancel = Скасаваць
+customize-save = Захаваць
 
 ## Unified toolbar customization palette context menu
 
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Прыбраць
