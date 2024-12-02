@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Γραμματοσειρές
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Προεπιλογή ({ $name })
 fonts-label-default-unnamed =
     .label = Προεπιλογή
-fonts-encoding-dialog-title =
-    .title = Γραμματοσειρές και κωδικοποίηση
 fonts-language-legend =
     .value = Γραμματοσειρές για:
     .accesskey = τ
@@ -30,7 +26,7 @@ font-language-group-japanese =
 font-language-group-trad-chinese =
     .label = Παραδοσιακά Κινεζικά (Ταϊβάν)
 font-language-group-simpl-chinese =
-    .label = Απλοποιημένα Κινεζικά
+    .label = Κινεζικά (Απλοποιημένα)
 font-language-group-trad-chinese-hk =
     .label = Παραδοσιακά Κινεζικά (Χονγκ Κονγκ)
 font-language-group-korean =
