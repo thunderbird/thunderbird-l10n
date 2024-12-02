@@ -424,10 +424,16 @@ conversation-view-checkbox-label =
     .accesskey = e
 conversation-view-checkbox-description = Glodan oinarritutako funtzio esperimentala, zure arriskupean
 label-experiment = Esperimentala
+dark-reader-legend = Irakurlearen koloreak
 dark-reader-checkbox-label =
     .label = Egokitu gai ilunera
     .accesskey = i
 dark-reader-checkbox-description = Ezaugarri esperimentala mezuen panelak gai ilunaz jarraitzeko
+account-hub-legend = Kontu zentroa
+account-hub-checkbox-label =
+    .label = Sortu kontuak 'kontu zentro' berrian
+    .accesskey = S
+account-hub-checkbox-description = Posta-kontu berriak sortzeko fluxu esperimentala
 
 ## Compose Tab
 
