@@ -115,3 +115,6 @@ account-hub-result-recommended-label = Gomendatua
 account-hub-edit-configuration = Editatu konfigurazioa
 account-hub-config-success = Konfigurazioa aurkitu da Mozilla ISPDBn
 account-hub-password-info = Zure kredentzialak lokalean bakarrik, zure ordenagailuan, gordeko dira
+account-hub-sync-success = Thunderbirdek konektatutako zerbitzu batzuk aurkitu ditu
+account-hub-email-added-success = Posta elektroniko kontua behar bezala konektatuta
+account-hub-config-test-success = Konfigurazio-ezarpenak baliozkoak dira
