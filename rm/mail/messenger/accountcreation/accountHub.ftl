@@ -117,3 +117,4 @@ account-hub-config-success = Configuraziun chattada en la banca da datas ISP da 
 account-hub-password-info = Tias infurmaziuns d’annunzia vegnan mo memorisadas localmain sin tes computer
 account-hub-sync-success = Thunderbird ha chattà servetschs connectads
 account-hub-email-added-success = Connectà cun success il conto dad e-mail
+account-hub-config-test-success = Parameters da configuraziun valids
