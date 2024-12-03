@@ -49,6 +49,7 @@ customize-space-tab-chat = Чат
 customize-space-tab-settings = Налады
     .title = Налады
 customize-restore-default = Аднавіць прадвызначаныя значэнні
+customize-change-appearance = Змяніць знешні выгляд…
 customize-button-style-label = Стыль кнопак:
 customize-button-style-icons-beside-text-option = Значкі побач з тэкстам
 customize-button-style-icons-above-text-option = Значкі над тэкстам
@@ -57,17 +58,44 @@ customize-button-style-text-only-option = Толькі тэкст
 customize-cancel = Скасаваць
 customize-save = Захаваць
 customize-unsaved-changes = Незахаваныя змены ў іншых прасторах
+customize-search-bar2 =
+    .label = Кнопкі панэлі інструментаў пошуку
+    .placeholder = Кнопкі панэлі інструментаў пошуку…
 customize-spaces-tabs =
     .aria-label = Прасторы
 customize-main-toolbar-target =
     .aria-label = Галоўная панэль інструментаў
 customize-palette-generic-title = Даступна для ўсіх прастор
 customize-palette-mail-specific-title = Даступна толькі для прасторы пошты
+customize-palette-addressbook-specific-title = Даступна толькі для прасторы адраснай кнігі
+customize-palette-calendar-specific-title = Даступна толькі для прасторы календара
+customize-palette-tasks-specific-title = Даступна толькі для прасторы задач
+customize-palette-chat-specific-title = Даступна толькі для прасторы чатаў
+customize-palette-settings-specific-title = Даступна толькі для прасторы налад
+customize-palette-extension-specific-title = Даступна толькі для гэтай прасторы
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Дадаць да { $target }
+customize-palette-add-everywhere =
+    .label = Дадаць да ўсіх панэлей інструментаў
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Перамясціць наперад
+customize-target-backward =
+    .label = Перамясціць назад
 customize-target-remove =
     .label = Прыбраць
+customize-target-remove-everywhere =
+    .label = Прыбраць са ўсіх панэлей інструментаў
+customize-target-add-everywhere =
+    .label = Дадаць да ўсіх панэлей інструментаў
+customize-target-start =
+    .label = Перамясціць у пачатак
+customize-target-end =
+    .label = Перамясціць у канец
