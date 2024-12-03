@@ -117,3 +117,4 @@ account-hub-config-success = A konfiguráció megtalálva a Mozilla ISPDB-ben
 account-hub-password-info = A hitelesítő adatok csak helyben lesznek tárolva a számítógépen
 account-hub-sync-success = A Thunderbird néhány kapcsolódó szolgáltatást talált
 account-hub-email-added-success = Az e-mail-fiók sikeresen csatlakoztatva
+account-hub-config-test-success = A konfigurációs beállítások érvényesek
