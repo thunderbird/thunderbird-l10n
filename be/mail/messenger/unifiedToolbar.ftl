@@ -24,6 +24,7 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-title = Персаналізаваць панэлі інструментаў
 customize-space-tab-mail = Пошта
     .title = Пошта
 customize-space-tab-addressbook = Адрасная кніга
@@ -37,6 +38,8 @@ customize-space-tab-chat = Чат
 customize-space-tab-settings = Налады
     .title = Налады
 customize-button-style-label = Стыль кнопак:
+customize-button-style-icons-beside-text-option = Значкі побач з тэкстам
+customize-button-style-icons-above-text-option = Значкі над тэкстам
 customize-cancel = Скасаваць
 customize-save = Захаваць
 
