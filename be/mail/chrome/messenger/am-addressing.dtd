@@ -4,6 +4,7 @@
 
 <!-- extracted from am-addressing.xhtml -->
 
+<!ENTITY addressing.label          "Складанне і адрасаванне">
 <!ENTITY addressingGroupTitle.label "Адрасаванне">
 <!ENTITY addressingText.label      "Калі шукаюцца адрасы:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
@@ -18,7 +19,7 @@
 
 <!-- am-addressing.xhtml -->
 
-<!ENTITY compositionGroupTitle.label          "Укладанне">
+<!ENTITY compositionGroupTitle.label          "Складанне">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label                        "Укладаць лісты ў фармаце HTML">
 <!ENTITY useHtml.accesskey                    "У">
