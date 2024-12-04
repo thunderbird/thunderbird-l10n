@@ -49,6 +49,7 @@
 <!ENTITY button.importOPML.accesskey "І">
 <!ENTITY button.exportOPML.label     "Экспартаваць">
 <!ENTITY button.exportOPML.accesskey "Э">
+<!ENTITY button.exportOPML.tooltip   "Экспартаваць стужкі навін са структурай папак; Ctrl+націсканне або Ctrl+Enter, каб экспартаваць стужкі навін у выглядзе спіса">
 
 <!ENTITY cmd.close.commandKey        "w">
 <!ENTITY button.close.label          "Закрыць">
