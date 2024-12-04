@@ -53,6 +53,8 @@ appmenu-tools-export =
 
 ## Help
 
+appmenu-help-panel-title =
+    .title = Cabhair
 appmenu-help-about-product =
     .label = Maidir le { -brand-short-name }
     .accesskey = M
