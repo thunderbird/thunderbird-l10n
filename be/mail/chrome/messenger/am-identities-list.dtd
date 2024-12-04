@@ -2,13 +2,14 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY identitiesListManageDesc.label "Кіруйце ідэнтыфікацыйнымі данымі гэтага ўліковага запісу. Першыя ідэнтыфікацыйныя даныя ў спісе выкарыстоўваюцца ў якасці прадвызначаных.">
 <!ENTITY identitiesListAdd.label  "Дадаць…">
 <!ENTITY identitiesListAdd.accesskey  "Д">
-<!ENTITY identitiesListEdit.label "Правіць…">
-<!ENTITY identitiesListEdit.accesskey "П">
-<!ENTITY identitiesListDefault.label "Усталяваць як змоўчны">
-<!ENTITY identitiesListDefault.accesskey "з">
+<!ENTITY identitiesListEdit.label "Рэдагаваць…">
+<!ENTITY identitiesListEdit.accesskey "Р">
+<!ENTITY identitiesListDefault.label "Зрабіць прадвызначанымі">
+<!ENTITY identitiesListDefault.accesskey "а">
 <!ENTITY identitiesListDelete.label "Выдаліць">
 <!ENTITY identitiesListDelete.accesskey "В">
-<!ENTITY identitiesListClose.label "Зачыніць">
-<!ENTITY identitiesListClose.accesskey "ч">
+<!ENTITY identitiesListClose.label "Закрыць">
+<!ENTITY identitiesListClose.accesskey "З">

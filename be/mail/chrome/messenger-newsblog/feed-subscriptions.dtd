@@ -3,24 +3,20 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Subscription Dialog -->
-<!ENTITY feedSubscriptions.label     "Падпіскі на ленты навін">
+<!ENTITY feedSubscriptions.label     "Падпіскі на стужкі навін">
 <!ENTITY learnMore.label             "Даведайцеся больш пра стужкі навін">
 
 <!ENTITY feedTitle.label             "Загаловак:">
-<!ENTITY feedTitle.accesskey         "г">
 
 <!ENTITY feedLocation.label          "URL стужкі навін:">
-<!ENTITY feedLocation.accesskey      "U">
-<!ENTITY feedLocation2.placeholder   "Увядзіце сапраўдны url канала">
+<!ENTITY feedLocation2.placeholder   "Увядзіце сапраўдны URL стужкі навін">
 <!ENTITY locationValidate.label      "Праверыць">
-<!ENTITY validateText.label          "Правяраць і атрымліваць спраўны URL.">
+<!ENTITY validateText.label          "Праверце правільнасць і атрымайце сапраўдны URL.">
 
 <!ENTITY feedFolder.label            "Захоўваць артыкулы ў:">
-<!ENTITY feedFolder.accesskey        "З">
 
 <!-- Account Settings and Subscription Dialog -->
-<!ENTITY biffStart.label             "Правяраць, ці існуюць новыя артыкулы, кожныя ">
-<!ENTITY biffStart.accesskey         "а">
+<!ENTITY biffStart.label             "Правяраць наяўнасць новых артыкулаў кожныя ">
 <!ENTITY biffMinutes.label           "хвілін">
 <!ENTITY biffMinutes.accesskey       "і">
 <!ENTITY biffDays.label              "дзён">
