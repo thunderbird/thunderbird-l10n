@@ -30,8 +30,8 @@
 <!ENTITY editUserDictionaryButton.accessKey "Р">
 <!ENTITY recheckButton2.label "Паўторна праверыць тэкст">
 <!ENTITY recheckButton2.accessKey "П">
-<!ENTITY closeButton.label "Зачыніць">
-<!ENTITY closeButton.accessKey "ч">
+<!ENTITY closeButton.label "Закрыць">
+<!ENTITY closeButton.accessKey "З">
 <!ENTITY sendButton.label "Адправіць">
 <!ENTITY sendButton.accessKey "д">
 <!ENTITY languagePopup.label "Мова:">
