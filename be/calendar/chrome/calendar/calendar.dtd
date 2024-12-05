@@ -212,10 +212,13 @@
 <!ENTITY calendarproperties.firealarms.label               "Паказваць напамінкі">
 <!ENTITY calendarproperties.cache3.label                   "Працаваць па-за сеткай">
 <!ENTITY calendarproperties.enabled2.label                 "Уключыць гэты каляндар">
+<!ENTITY calendarproperties.forceDisabled.label            "Не атрымалася знайсці дастаўніка паслуг для гэтага календара. Часцей за ўсё гэта адбываецца пасля адключэння або выдалення дадаткаў.">
 <!ENTITY calendarproperties.unsubscribe.label              "Адпісацца">
+<!ENTITY calendarproperties.unsubscribe.accesskey          "А">
 
 <!-- Calendar Publish Dialog -->
 <!ENTITY calendar.publish.dialog.title              "Апублікаваць каляндар">
+<!ENTITY calendar.publish.url.label                 "URL публікацыі">
 <!ENTITY calendar.publish.publish.button      "Апублікаваць">
 <!ENTITY calendar.publish.close.button      "Закрыць">
 

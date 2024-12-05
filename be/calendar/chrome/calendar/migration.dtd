@@ -5,4 +5,5 @@
 <!ENTITY migration.title "&brandFullName;: Імпарт даных">
 <!ENTITY migration.welcome "Вітаем">
 <!ENTITY migration.importing "Імпарт">
+<!ENTITY migration.list.description "&brandShortName; можа імпартаваць каляндарныя даныя з мноства папулярных праграм. Даныя з наступных праграм былі знойдзены на вашым камп'ютары. Калі ласка, выберыце, даныя з якіх з іх вы жадаеце імпартаваць.">
 <!ENTITY migration.progress.description "Імпарт выбраных даных">
