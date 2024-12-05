@@ -265,7 +265,7 @@ event-details-end-date = Канец:
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
-# used for display of calendar weeks in short form like 'Calendar Week 43'
+# used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = Каляндарны тыдзень: { $index }
 # LOCALIZATION NOTE (single-calendar-week):
@@ -308,29 +308,8 @@ due-in-hours =
        *[many] { $count } гадзін
     }
 due-in-less-than-one-hour = < 1 гадзіны
-# LOCALIZATION NOTE (month-in-year):
-# used for display of Month-dates like 'December 2008'
-#    $month will be replaced with name of the month
-#    $year will be replaced with the year
-month-in-year = { $month } { $year }
-month-in-year-label =
-    .aria-label = { $month } { $year }
 day-header-elem =
     .label = { day-header }
-# LOCALIZATION NOTE (datetime-interval-on-same-date-time):
-# used for intervals where end is equals to start
-# displayed form is '5 Jan 2006 13:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-datetime-interval-on-same-date-time = { $startDate } { $startTime }
-# LOCALIZATION NOTE (datetime-interval-on-same-day):
-# used for intervals where end is on the same day as start, so we can leave out the
-# end date but still include end time
-# displayed form is '5 Jan 2006 13:00 - 17:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-#    $endTime will be replaced with the time of the end date
-datetime-interval-on-same-day = { $startDate } { $startTime } – { $endTime }
 # LOCALIZATION NOTE (datetime-interval-task-without-due-date):
 # used for intervals in task with only start date
 # displayed form is 'start date 5 Jan 2006 13:00'
@@ -364,36 +343,90 @@ extract-using = Выкарыстоўваючы { $languageName }
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = Выкарыстоўваючы { $languageName } ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [one] { $count } хвіліна
         [few] { $count } хвіліны
        *[many] { $count } хвілін
     }
-# $count count
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [one] { $count } гадзіна
         [few] { $count } гадзіны
        *[many] { $count } гадзін
     }
-# $count count
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [one] { $count } дзень
         [few] { $count } дні
        *[many] { $count } дзён
     }
-# $count count
+event-duration-menuitem-count-days =
+    .label = { unit-days }
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
         [one] { $count } тыдзень
         [few] { $count } тыдні
        *[many] { $count } тыдняў
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { NUMBER($count) ->
+            [one] хвіліна
+            [few] хвіліны
+           *[many] хвілін
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { NUMBER($count) ->
+            [one] гадзіна
+            [few] гадзіны
+           *[many] гадзін
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { NUMBER($count) ->
+            [one] дзень
+            [few] дні
+           *[many] дзён
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { NUMBER($count) ->
+            [one] тыдзень
+            [few] тыдні
+           *[many] тыдняў
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
