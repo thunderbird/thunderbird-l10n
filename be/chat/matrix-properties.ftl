@@ -7,6 +7,7 @@
 #   account wizard windows.
 options-save-token = Захаваць тоўкэн доступа
 options-device-display-name = Бачная назва прылады
+options-homeserver = Сервер
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.
@@ -146,3 +147,4 @@ message-joined = { $user } далучыўся да пакоя.
 message-rejected-invite = { $user } адхіліў запрашэнне.
 #    $user is the name of the user who has left the room.
 message-left = { $user } пакінуў пакой.
+message-action-cancel = Скасаваць паведамленне
