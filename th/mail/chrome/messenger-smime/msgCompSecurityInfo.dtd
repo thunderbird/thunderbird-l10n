@@ -5,10 +5,10 @@
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
 <!ENTITY title.label "ความปลอดภัยข้อความ">
-<!ENTITY subject.plaintextWarning "โปรดทราบ: บรรทัดหัวเรื่องของข้อความอีเมลจะไม่ถูกเข้ารหัส">
+<!ENTITY subject.plaintextWarning "โปรดทราบ: บรรทัดหัวเรื่องของข้อความอีเมลจะไม่ถูกเข้ารหัสลับ">
 <!ENTITY status.heading "เนื้อหาของข้อความของคุณจะถูกส่งดังนี้:">
 <!ENTITY status.signed "ลงลายเซ็นดิจิทัล:">
-<!ENTITY status.encrypted "เข้ารหัส:">
+<!ENTITY status.encrypted "เข้ารหัสลับ:">
 <!ENTITY status.certificates "ใบรับรอง:">
 <!ENTITY view.label "ดู">
 <!ENTITY view.accesskey "ด">

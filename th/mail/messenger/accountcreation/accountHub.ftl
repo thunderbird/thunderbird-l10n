@@ -40,7 +40,6 @@ account-hub-sync-button = ลงชื่อเข้า Sync…
 
 ## Email page
 
-account-hub-email-title = ตั้งค่าบัญชีอีเมลของคุณ
 account-hub-add-email-title = เพิ่มบัญชีของคุณ
 account-hub-manually-configure-email-title = ตั้งการกำหนดค่าบัญชี
 account-hub-email-cancel-button = ยกเลิก
@@ -69,7 +68,7 @@ account-hub-ssl-no-authentication-option =
 account-hub-ssl-cleartext-password-option =
     .label = รหัสผ่านปกติ
 account-hub-ssl-encrypted-password-option =
-    .label = รหัสผ่านที่เข้ารหัส
+    .label = รหัสผ่านที่เข้ารหัสลับ
 
 ## Incoming/Outgoing SSL options
 
@@ -78,4 +77,3 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-label = วิธีการยืนยันตัวตน
 account-hub-username-label = ชื่อผู้ใช้
 account-hub-adding-account-title = กำลังเพิ่มบัญชี
-account-hub-account-added-title = เพิ่มบัญชีแล้ว
