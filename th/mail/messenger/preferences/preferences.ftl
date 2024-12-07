@@ -394,8 +394,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = ปิดหน้าต่าง/แท็บข้อความเมื่อย้ายหรือลบ
     .accesskey = ป
-display-name-label =
-    .value = ชื่อที่แสดง:
 condensed-addresses-label =
     .label = แสดงเฉพาะชื่อที่แสดงสำหรับผู้คนในสมุดรายชื่อของฉัน
     .accesskey = ส
@@ -562,18 +560,12 @@ primary-password-button =
 forms-primary-pw-fips-title = คุณกำลังอยู่ในโหมด FIPS ซึ่ง FIPS จำเป็นต้องมีรหัสผ่านหลักที่ไม่ว่างเปล่า
 forms-master-pw-fips-desc = การเปลี่ยนรหัสผ่านล้มเหลว
 junk-description = ตั้งค่าการตั้งค่าจดหมายขยะเริ่มต้นของคุณ สามารถกำหนดค่าการตั้งค่าจดหมายขยะเฉพาะบัญชีได้ในการตั้งค่าบัญชี
-junk-label =
-    .label = เมื่อฉันทำเครื่องหมายข้อความว่าเป็นขยะ:
-    .accesskey = ม
 junk-move-label =
     .label = ย้ายไปไว้ในโฟลเดอร์ "ขยะ" ของบัญชี
     .accesskey = ย
 junk-delete-label =
     .label = ลบออก
     .accesskey = ล
-junk-read-label =
-    .label = ทำเครื่องหมายข้อความที่ถูกพิจารณาว่าเป็นขยะว่าอ่านแล้ว
-    .accesskey = ท
 junk-log-label =
     .label = เปิดใช้งานการบันทึกตัวกรองขยะแบบปรับเปลี่ยนได้
     .accesskey = ป
@@ -607,12 +599,12 @@ certificate-button =
 security-devices-button =
     .label = อุปกรณ์ความปลอดภัย…
     .accesskey = อ
-email-e2ee-header = การเข้ารหัสอีเมลแบบครอบคลุม
+email-e2ee-header = การเข้ารหัสลับอีเมลจากต้นทางถึงปลายทาง
 account-settings = การตั้งค่าบัญชี
-email-e2ee-enable-info = ตั้งค่าบัญชีอีเมลและข้อมูลประจำตัวสำหรับการเข้ารหัสแบบครอบคลุมในการตั้งค่าบัญชี
-email-e2ee-automatism = การใช้การเข้ารหัสอัตโนมัติ
+email-e2ee-enable-info = ตั้งค่าบัญชีอีเมลและข้อมูลประจำตัวสำหรับการเข้ารหัสลับจากต้นทางถึงปลายทางในหน้าการตั้งค่าบัญชี
+email-e2ee-automatism = การใช้การเข้ารหัสลับแบบอัตโนมัติ
 email-e2ee-auto-on =
-    .label = เปิดใช้งานการเข้ารหัสโดยอัตโนมัติเมื่อเป็นไปได้
+    .label = เปิดใช้งานการเข้ารหัสลับโดยอัตโนมัติเมื่อทำได้
 
 ## Chat Tab
 
@@ -746,3 +738,6 @@ show-synced-item-passwords = รหัสผ่าน
 show-synced-change = เปลี่ยน…
 synced-acount-item-server-config = การกำหนดค่าเซิร์ฟเวอร์
 synced-acount-item-filters = ตัวกรอง
+
+## Mobile QR Export Pane
+

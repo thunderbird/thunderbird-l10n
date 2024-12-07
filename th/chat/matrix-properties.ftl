@@ -29,7 +29,7 @@ options-encryption-status-ok = ใช้ได้
 options-encryption-status-not-ok = ไม่พร้อม
 options-encryption-need-backup-passphrase = โปรดใส่วลีรหัสผ่านคีย์สำรองของคุณในตัวเลือกโปรโตคอล
 options-encryption-set-up-secret-storage = เมื่อต้องการตั้งค่าที่เก็บข้อมูลลับ โปรดใช้ไคลเอนต์ตัวอื่นแล้วใส่วลีรหัสผ่านคีย์สำรองที่สร้างขึ้นในแท็บ "ทั่วไป"
-options-encryption-set-up-backup-and-cross-signing = เมื่อต้องการเปิดใช้งานการสำรองคีย์เข้ารหัสลับและการลงลายเซ็นข้ามใบรับรอง ให้ใส่วลีรหัสผ่านคีย์สำรองของคุณในแท็บ “ทั่วไป” หรือตรวจสอบตัวตนของวาระใดวาระหนึ่งด้านล่างนี้
+options-encryption-set-up-backup-and-cross-signing = เมื่อต้องการเปิดใช้งานการสำรองคีย์เข้ารหัสลับและการลงลายเซ็นข้ามใบรับรอง ให้ใส่วลีรหัสผ่านคีย์สำรองของคุณในแท็บ “ทั่วไป” หรือยืนยันข้อมูลประจำตัวของวาระใดวาระหนึ่งด้านล่างนี้
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):

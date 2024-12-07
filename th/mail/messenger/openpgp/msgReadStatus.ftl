@@ -16,7 +16,7 @@ message-security-button =
 openpgp-view-signer-key =
     .label = ดูคีย์ผู้ลงลายเซ็น
 openpgp-view-your-encryption-key =
-    .label = ดูคีย์การถอดรหัสของคุณ
+    .label = ดูคีย์ถอดรหัสลับของคุณ
 openpgp-openpgp = OpenPGP
 openpgp-no-sig = ไม่มีลายเซ็นดิจิทัล
 openpgp-uncertain-sig = ลายเซ็นดิจิทัลไม่แน่นอน
@@ -39,11 +39,11 @@ openpgp-sig-key-id = ID คีย์ผู้ลงลายเซ็น: { $key
 openpgp-sig-key-id-with-subkey-id = ID คีย์ผู้ลงลายเซ็น: { $key } (ID คีย์ย่อย: { $subkey })
 # Variables:
 # $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
-openpgp-enc-key-id = ID คีย์การถอดรหัสของคุณ: { $key }
+openpgp-enc-key-id = ไอดีสำหรับคีย์ถอดรหัสลับของคุณ: { $key }
 # Variables:
 # $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
-openpgp-enc-key-with-subkey-id = ID คีย์การถอดรหัสของคุณ: { $key } (ID คีย์ย่อย: { $subkey })
+openpgp-enc-key-with-subkey-id = ไอดีสำหรับคีย์ถอดรหัสลับของคุณ: { $key } (ไอดีสำหรับคีย์ย่อย: { $subkey })
 openpgp-unknown-key-id = คีย์ที่ไม่รู้จัก
 openpgp-other-enc-additional-key-ids = นอกจากนี้ ข้อความยังถูกเข้ารหัสลับต่อเจ้าของสำหรับคีย์ต่อไปนี้:
 openpgp-other-enc-all-key-ids = ข้อความถูกเข้ารหัสลับต่อเจ้าของสำหรับคีย์ต่อไปนี้:

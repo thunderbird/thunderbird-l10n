@@ -6,10 +6,10 @@ openpgp-manage-keys-openpgp-cmd =
     .label = ตัวจัดการคีย์ OpenPGP
     .accesskey = O
 openpgp-ctx-decrypt-open =
-    .label = ถอดรหัสและเปิด
+    .label = ถอดรหัสลับและเปิด
     .accesskey = ถ
 openpgp-ctx-decrypt-save =
-    .label = ถอดรหัสและบันทึกเป็น…
+    .label = ถอดรหัสลับและบันทึกเป็น…
     .accesskey = อ
 openpgp-ctx-import-key =
     .label = นำเข้าคีย์ OpenPGP
@@ -35,11 +35,11 @@ openpgp-broken-exchange-repair =
     .label = ซ่อมแซมข้อความ
 openpgp-broken-exchange-wait = โปรดรอ…
 openpgp-cannot-decrypt-because-mdc = นี่คือข้อความที่ถูกเข้ารหัสลับซึ่งใช้กลไกที่เก่าและมีช่องโหว่ ข้อความดังกล่าวอาจถูกเปลี่ยนแปลงขณะส่ง โดยมีเจตนาที่จะขโมยเนื้อหา เพื่อเป็นการป้องกันความเสี่ยงนี้ เนื้อหาจะไม่ถูกแสดง
-openpgp-cannot-decrypt-because-missing-key = คีย์ลับที่จำเป็นต้องใช้ในการถอดรหัสข้อความนี้ไม่สามารถใช้ได้
+openpgp-cannot-decrypt-because-missing-key = คีย์ลับที่จำเป็นต้องใช้ในการถอดรหัสลับข้อความนี้ไม่สามารถใช้ได้
 openpgp-partially-signed =
     ข้อความนี้มีเพียงบางส่วนเท่านั้นที่ถูกลงลายเซ็นดิจิทัลโดยใช้ OpenPGP
     หากคุณคลิกปุ่มตรวจสอบ ส่วนที่ไม่มีการป้องกันจะถูกซ่อนไว้ และสถานะของลายเซ็นดิจิทัลจะถูกแสดง
 openpgp-partially-encrypted = ข้อความนี้มีเพียงบางส่วนเท่านั้นที่ถูกเข้ารหัสลับโดยใช้ OpenPGP ส่วนที่อ่านได้ของข้อความนี้ที่ถูกแสดงแล้วจะไม่ถูกเข้ารหัสลับ หากคุณคลิกที่ปุ่มถอดรหัสลับ เนื้อหาของส่วนที่ถูกเข้ารหัสลับไว้จะถูกแสดง
 openpgp-reminder-partial-display = คำเตือน: ข้อความที่แสดงด้านล่างเป็นเพียงส่วนย่อยของข้อความต้นฉบับเท่านั้น
 openpgp-partial-verify-button = ตรวจสอบ
-openpgp-partial-decrypt-button = ถอดรหัส
+openpgp-partial-decrypt-button = ถอดรหัสลับ
