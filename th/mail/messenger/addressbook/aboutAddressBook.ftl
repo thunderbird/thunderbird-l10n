@@ -230,7 +230,14 @@ about-addressbook-selection-mixed-header2 = เลือกหน่วยข้
 # Variables:
 # $count (Number) - The number of selected contacts
 about-addressbook-selection-contacts-header2 = เลือกผู้ติดต่อ { $count } คน
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 = เลือกรายการ { $count } รายการ
+about-addressbook-details-edit-photo =
+    .title = แก้ไขภาพถ่ายผู้ติดต่อ
 about-addressbook-new-contact-header = ผู้ติดต่อใหม่
+about-addressbook-write-action-button = เขียน
+about-addressbook-event-action-button = เหตุการณ์
 about-addressbook-search-action-button = ค้นหา
 about-addressbook-new-list-action-button = รายชื่อใหม่
 about-addressbook-begin-edit-contact-button = แก้ไข
@@ -258,11 +265,23 @@ about-addressbook-entry-name-role = หน้าที่
 about-addressbook-entry-name-organization = องค์กร
 about-addressbook-entry-name-website = เว็บไซต์
 about-addressbook-entry-name-time-zone = เขตเวลา
+about-addressbook-entry-name-custom1 = กำหนดเอง 1
+about-addressbook-entry-name-custom2 = กำหนดเอง 2
+about-addressbook-entry-name-custom3 = กำหนดเอง 3
+about-addressbook-entry-name-custom4 = กำหนดเอง 4
+about-addressbook-unsaved-changes-prompt-title = การเปลี่ยนแปลงที่ไม่ได้บันทึก
+about-addressbook-unsaved-changes-prompt = คุณต้องการบันทึกการเปลี่ยนแปลงของคุณก่อนออกจากมุมมองแก้ไขหรือไม่?
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = ปล่อยหรือวางภาพถ่ายที่นี่ หรือคลิกเพื่อเลือกไฟล์
+about-addressbook-photo-drop-loading = กำลังโหลดภาพถ่าย…
+about-addressbook-photo-drop-error = ไม่สามารถโหลดภาพถ่าย
+about-addressbook-photo-filepicker-title = เลือกไฟล์ภาพ
+about-addressbook-photo-discard = ละทิ้งภาพถ่ายที่มีอยู่
 about-addressbook-photo-cancel = ยกเลิก
 about-addressbook-photo-save = บันทึก
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N

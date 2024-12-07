@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = เหตุการณ์ในอดีต
 calendar-event-listing-interval-calendar-month =
     .label = เหตุการณ์ในเดือนปฏิทินนี้
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,10 @@ calendar-event-listing-interval-next-6-months =
     .label = เหตุการณ์ใน 6 เดือนถัดไป
 calendar-event-listing-interval-next-12-months =
     .label = เหตุการณ์ใน 12 เดือนถัดไป
+calendar-event-listing-interval-future =
+    .label = เหตุการณ์ในอนาคตทั้งหมด
+calendar-event-listing-interval-all =
+    .label = เหตุการณ์ทั้งหมด
 calendar-event-listing-interval-selected-day =
     .label = วันที่เลือกปัจจุบัน
 calendar-event-listing-interval-today =

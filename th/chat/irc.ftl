@@ -16,6 +16,7 @@ connection-error-time-out = การเชื่อมต่อหมดเว�
 connection-error-invalid-username = { $username } ไม่ใช่ชื่อผู้ใช้ที่อนุญาต
 connection-error-invalid-password = รหัสผ่านเซิร์ฟเวอร์ไม่ถูกต้อง
 connection-error-password-required = ต้องการรหัสผ่าน
+connection-error-invalid-user-password = รหัสผ่านไม่ถูกต้อง
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _ช่อง
