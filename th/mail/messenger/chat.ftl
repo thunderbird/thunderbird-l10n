@@ -12,6 +12,14 @@ chat-participant-administrator-role-icon2 =
     .alt = ผู้ดูแล
 chat-participant-moderator-role-icon2 =
     .alt = ผู้ควบคุม
+chat-participant-voiced-role-icon2 =
+    .alt = ผู้เข้าร่วมสามารถโพสต์ข้อความได้
+chat-verify-identity =
+    .label = ยืนยันข้อมูลประจำตัว
+    .accesskey = ข
+chat-identity-verified =
+    .label = ข้อมูลประจำตัวถูกยืนยันไปแล้ว
+chat-buddy-identity-status = ความน่าเชื่อถือของการเข้ารหัสลับ
 chat-buddy-identity-status-verified = ยืนยันแล้ว
 chat-buddy-identity-status-unverified = ยังไม่ยืนยัน
 

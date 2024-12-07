@@ -113,7 +113,13 @@ vcard-note-add = เพิ่มหมายเหตุ
 vcard-org-header = คุณสมบัติองค์กร
 vcard-org-add = เพิ่มคุณสมบัติองค์กร
 vcard-org-title = ตำแหน่ง
+vcard-org-title-input =
+    .title = ตำแหน่งหรืองานที่ทำ
+    .placeholder = ชื่องาน
 vcard-org-role = หน้าที่
+vcard-org-role-input =
+    .title = หน้าที่หรือบทบาทที่ได้รับในสถานการณ์นั้นๆ
+    .placeholder = บทบาทในโครงการ
 vcard-org-org = องค์กร
 vcard-org-org-input =
     .title = ชื่อองค์กร
@@ -125,6 +131,8 @@ vcard-org-org-unit-input =
 
 # Custom properties
 
+vcard-custom-header = คุณสมบัติกำหนดเอง
+vcard-custom-add = เพิ่มคุณสมบัติกำหนดเอง
 vcard-remove-button-title =
     .title = เอาออก
 vcard-remove-button = เอาออก
