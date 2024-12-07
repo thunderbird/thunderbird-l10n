@@ -9,7 +9,15 @@ carddav-dialog =
 carddav-username-label =
     .value = ชื่อผู้ใช้:
     .accesskey = ช
+carddav-location-label =
+    .value = ตำแหน่งที่ตั้ง:
+    .accesskey = ต
+carddav-location =
+    .default-placeholder = URL หรือชื่อโฮสต์ของเซิร์ฟเวอร์สมุดรายชื่อ
 carddav-loading = กำลังมองหาการกำหนดค่า…
+# Variables:
+# $url (String) - CardDAV endpoint hostname. For example "example.com".
+carddav-known-incompatible = { $url } เข้ากันไม่ได้กับ { -brand-short-name }
 carddav-connection-error = การเชื่อมต่อล้มเหลว
 carddav-none-found = ไม่พบสมุดรายชื่อที่จะเพิ่มสำหรับบัญชีที่ระบุ
 carddav-already-added = สมุดรายชื่อทั้งหมดสำหรับบัญชีที่ระบุถูกเพิ่มไปแล้ว

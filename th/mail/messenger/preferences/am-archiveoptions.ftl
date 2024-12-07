@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = เก็บโครงสร้างโฟลเดอร์ที่มีอยู่ของข้อความที่เก็บถาวร
     .accesskey = ก
+recreate-inbox =
+    .label = สร้างโฟลเดอร์กล่องขาเข้าอีกครั้ง
+    .accesskey = ส
 archive-example-label = ตัวอย่าง
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = กล่องขาเข้า
+child-folder-name =
+    .label = โฟลเดอร์ย่อยในกล่องขาเข้า
+sibling-folder-name =
+    .label = โฟลเดอร์ระดับเดียวกับกล่องขาเข้า
