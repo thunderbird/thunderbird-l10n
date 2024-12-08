@@ -134,7 +134,7 @@ add-opensearch-provider-text = Въвеждане на URL адреса на д�
 adding-opensearch-provider-failed-title = Неуспешно добавяне на OpenSearch доставчик
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
-adding-opensearch-provider-failed-text = Невъзможно е да се добави OpenSearch доставчик за { $url }.
+adding-opensearch-provider-failed-text = Невъзможно е да бъде добавен доставчик на OpenSearch за { $url }.
 minimize-to-tray-label =
     .label = Когато { -brand-short-name } е минимизиран, го премества в областта за известия
     .accesskey = { "" }
@@ -426,6 +426,7 @@ dark-reader-legend = Цветове на четеца
 dark-reader-checkbox-label =
     .label = Приспособяване към тъмна тема
     .accesskey = т
+dark-reader-checkbox-description = Експериментална възможност, която кара панела за съобщения да следва тъмни теми
 
 ## Compose Tab
 
