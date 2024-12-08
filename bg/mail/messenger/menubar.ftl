@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Добавки и теми
     .accesskey = { "" }
+menu-export-for-mobile =
+    .label = Изнасяне за мобилно устройство…
+    .accesskey = м
 
 ## Help Menu
 
@@ -23,9 +26,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Получаване на помощ
     .accesskey = щ
-menu-help-explore-features =
-    .label = Разучaване на възможностите
-    .accesskey = { "" }
 menu-help-get-release-help =
     .label = Получете помощ с { -brand-short-name }
     .accesskey = щ

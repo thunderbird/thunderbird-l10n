@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Синхронизиране
 category-sync =
     .tooltiptext = Синхронизиране
+pane-qr-export-title = Изнасяне за мобилно устройство
+category-qr-export =
+    .tooltiptext = Изнасяне за мобилно устройство
 general-language-and-appearance-header = Език и външен вид
 general-incoming-mail-header = Входящи писма
 general-files-and-attachment-header = Файлове и прикачени файлове
@@ -395,8 +398,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Затваряне прозореца/раздела на съобщението при преместване или изтриване
     .accesskey = З
-display-name-label =
-    .value = Показвано име:
 address-display-legend = Списък със съобщения
 address-display-description = Предпочитан формат за показване на адреса:
 address-display-full =
@@ -421,6 +422,10 @@ conversation-view-checkbox-label =
     .accesskey = р
 conversation-view-checkbox-description = Експериментална възможност, на основата на Gloda, използвайте на своя отговорност
 label-experiment = Експериментално
+dark-reader-legend = Цветове на четеца
+dark-reader-checkbox-label =
+    .label = Приспособяване към тъмна тема
+    .accesskey = т
 
 ## Compose Tab
 
@@ -588,9 +593,6 @@ primary-password-button =
 forms-primary-pw-fips-title = В момента сте в режим на FIPS. FIPS изисква главна парола, която не е празна.
 forms-master-pw-fips-desc = Неуспешна промяна на паролата
 junk-description = Установете началните настройки за нежеланите писма. Специфичните за всяка регистрация настройки могат да се направят в Настройки на регистрацията.
-junk-label =
-    .label = Когато отбележа някое писмо за нежелано:
-    .accesskey = К
 junk-marked-label =
     .label = Когато писмата са маркирани като нежелани:
     .accesskey = ж
@@ -600,9 +602,6 @@ junk-move-label =
 junk-delete-label =
     .label = Изтрива се
     .accesskey = И
-junk-read-label =
-    .label = Отбелязване на писмата, определени за нежелани като прочетени
-    .accesskey = О
 junk-read-description = Маркиране на съобщенията като прочетени
 junk-read-manual-label =
     .label = Когато е ръчно отбелязана като нежелана
@@ -808,3 +807,6 @@ synced-acount-item-filters = Филтри
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Синхронизирайте вашите имейл профили, адресници, календари и самоличности на всичките си устройства.
 sync-disconnected-turn-on-sync = Включване на синхронизирането...
+
+## Mobile QR Export Pane
+
