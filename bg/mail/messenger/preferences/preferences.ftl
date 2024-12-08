@@ -91,7 +91,7 @@ update-in-progress-ok-button = &Отхвърляне
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Продължаване
-account-button = Настройки на регистрация
+account-button = Настройки на профила
 open-addons-sidebar-button = Добавки и теми
 
 ## OS Authentication dialog
@@ -598,7 +598,7 @@ primary-password-button =
     .accesskey = в
 forms-primary-pw-fips-title = В момента сте в режим на FIPS. FIPS изисква главна парола, която не е празна.
 forms-master-pw-fips-desc = Неуспешна промяна на паролата
-junk-description = Установете началните настройки за нежеланите писма. Специфичните за всяка регистрация настройки могат да се направят в Настройки на регистрацията.
+junk-description = Установете началните настройки за нежеланите писма. Специфичните за всеки профил настройки могат да бъдат направени в Настройки на профила.
 junk-marked-label =
     .label = Когато писмата са маркирани като нежелани:
     .accesskey = ж
@@ -649,7 +649,7 @@ security-devices-button =
     .label = Устройства по безопасността…
     .accesskey = б
 email-e2ee-header = Шифроване  на електронните съобщения от край до край
-account-settings = Настройки на регистрация
+account-settings = Настройки на профила
 email-e2ee-enable-info = Настройте имейл профил и самоличности за шифроване от край до край в настройките на акаунта.
 email-e2ee-automatism = Автоматично използване на шифроване
 email-e2ee-automatism-pre =

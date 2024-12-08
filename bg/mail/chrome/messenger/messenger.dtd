@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "п">
 <!ENTITY newVirtualFolderCmd.label "Запазени търсения…">
 <!ENTITY newVirtualFolderCmd.accesskey "З">
-<!ENTITY newCreateEmailAccountCmd.label "Профил за електронна поща…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "П">
-<!ENTITY newExistingEmailAccountCmd.label "Профил за съществуваща поща…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "С">
 <!ENTITY newIMAccountCmd.label "Профил за разговори…">
 <!ENTITY newIMAccountCmd.accesskey "р">
 <!ENTITY newFeedAccountCmd.label "Профил за емисии…">
@@ -471,7 +467,7 @@
 <!ENTITY exportCmd.accesskey "и">
 <!ENTITY clearRecentHistory.label "Изчистване на скорошна история…">
 <!ENTITY clearRecentHistory.accesskey "и">
-<!ENTITY accountManagerCmd2.label "Настройки на регистрация">
+<!ENTITY accountManagerCmd2.label "Настройки на профила">
 <!ENTITY accountManagerCmd2.accesskey "к">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "О">
 <!ENTITY folderContextMarkNewsgroupRead.label "Отбелязване групата за прочетена">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "ч">
-<!ENTITY folderContextMarkMailFolderRead.label "Отбелязване папката за прочетена">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "ч">
 <!ENTITY folderContextSubscribe.label "Абониране…">
 <!ENTITY folderContextSubscribe.accesskey "б">
 <!ENTITY folderContextSearchForMessages.label "Търсене на писма…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "в">
 <!ENTITY contextReplyList.label "Отговор до списък">
 <!ENTITY contextReplyList.accesskey "с">
-<!ENTITY contextForward.label "Препращане">
-<!ENTITY contextForward.accesskey "щ">
-<!ENTITY contextForwardAsMenu.label "Препращане като">
-<!ENTITY contextForwardAsMenu.accesskey "щ">
-<!ENTITY contextForwardAsInline.label "Вложено">
-<!ENTITY contextForwardAsInline.accesskey "В">
-<!ENTITY contextForwardAsAttachmentItem.label "Прикачен файл">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "ф">
-<!ENTITY contextMultiForwardAsAttachment.label "Препращане като прикачени файлове">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "т">
 <!ENTITY contextMoveMsgMenu.label "Преместване в">
 <!ENTITY contextMoveMsgMenu.accesskey "м">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Последни">
