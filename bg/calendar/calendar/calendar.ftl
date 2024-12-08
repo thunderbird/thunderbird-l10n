@@ -114,7 +114,7 @@ unable-to-create-provider = Намерена е грешка при свързв
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
 unknown-timezone-in-item = Непознат часови пояс „{ $timezone }“ в „{ $title }“. Вместо него ще бъде използван местния часови пояс: { $datetime }
-timezone-errors-alert-title = Грешки при часовата зона
+timezone-errors-alert-title = Грешки при часови пояс
 timezone-errors-see-console = Погледнете Конзолата за грешки: Непознатите часови зони ще бъдат третирани като локални часови зони.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Премахване на календар
@@ -288,15 +288,15 @@ likely-timezone = Europe/Sofia
 # $timezone OS timezone id
 # $zoneInfoTimezoneId ZoneInfo timezone id
 warning-os-tz-no-match =
-    Внимание: Часовата зона на операционната система „{ $timezone }“
-    вече не съвпада с вътрешната времева зона ZoneInfo „{ $zoneInfoTimezoneId }“.
+    Внимание: Часовия пояс на операционната система „{ $timezone }“
+    вече не съвпада с вътрешния часови пояс на ZoneInfo „{ $zoneInfoTimezoneId }“.
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
 # that is not included in our current ZoneInfo database (or if the mapping
 # mapping from windows to ZoneInfo timezone ids does).
 # $timezone OS timezone id
-skipping-os-timezone = Пропускане на часовата зона на операционната система „{ $timezone }“.
+skipping-os-timezone = Пропускане на часовия пояс на операционната система „{ $timezone }“.
 # "Skipping locale timezone 'America/New_Yawk'."
 # Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
 # $timezone likely timezone id
@@ -330,11 +330,11 @@ tz-seems-to-matchos = Тази ZoneInfo часова зона съвпада с 
 # used for a display of a chosen timezone
 #    $timezone will be replaced with the name of a timezone
 tz-fromos =
-    Тази ZoneInfo часова зона бе избрана на базата на часовата зона на операционната система
+    Този часови пояс на ZoneInfo е избран на базата на часовия пояс на операционната система
     с идентификатор „{ $timezone }“.
 # Localization note (tz-from-locale): Substitute name of your locale language.
 tz-from-locale =
-    Тази ZoneInfo часова зона бе избрана на базата на часовата зона на операционната система,
+    Този часови пояс на ZoneInfo е избран на базата на часовия пояс на операционната система,
     която се използва от потребители, използващи български език.
 tz-from-known-timezones =
     Тази ZoneInfo часова зона бе избрана на базата на покриване на
@@ -509,18 +509,6 @@ due-in-hours =
        *[other] { $count } часа
     }
 due-in-less-than-one-hour = < 1 час
-# LOCALIZATION NOTE (month-in-year):
-# used for display of Month-dates like 'December 2008'
-#    $month will be replaced with name of the month
-#    $year will be replaced with the year
-month-in-year = { $month } { $year }
-month-in-year-label =
-    .aria-label = { $month } { $year }
-# LOCALIZATION NOTE (month-in-year-month-format):
-# If your language requires a different declension, change this to
-# one of the values specified in dateFormat.properties.
-# In any case, DO NOT TRANSLATE.
-month-in-year-month-format = nominative
 # LOCALIZATION NOTE (format-date-long):
 # used for display dates in long format like 'Mon 15 Oct 2008' when it's
 # impossible to retrieve the formatatted date from the OS.
@@ -540,73 +528,6 @@ format-date-long = { $dayName }, { $dayIndex } { $monthName } { $year }
 day-header = { $dayName } { $dayIndex }
 day-header-elem =
     .label = { day-header }
-# LOCALIZATION NOTE (days-interval-in-month):
-# used for display of intervals in the form of 'March 3 - 9, 2008'
-#    $startMonth will be replaced with name of the month of the start date
-#    $startDayIndex will be replaced with the day-index of the start date possibly followed by an ordinal symbol
-#    $endDayIndex will be replaced with the day-index of the end date possibly followed by an ordinal symbol
-#    $year will be replaced with the common year of both dates
-# The presence of the ordinal symbol in the day-indexes depends on the string
-# dayOrdinalSymbol in dateFormat.properties
-days-interval-in-month = { $startDayIndex } – { $endDayIndex } { $startMonth } { $year }
-# LOCALIZATION NOTE (days-interval-in-month-month-format):
-# If your language requires a different declension, change this to
-# one of the values specified in dateFormat.properties.
-# In any case, DO NOT TRANSLATE.
-days-interval-in-month-month-format = nominative
-# LOCALIZATION NOTE (days-interval-between-months):
-# used for display of intervals in the form 'September 29 - October 5, 2008'
-#    $startMonth will be replaced with name of the month of the start date
-#    $startDayIndex will be replaced with the day-index of the start date possibly followed by an ordinal symbol
-#    $endMonth will be replaced with name of the month of the end date
-#    $endDayIndex will be replaced with the day-index of the end date possibly followed by an ordinal symbol
-#    $year will be replaced with the common year of both dates
-# The presence of the ordinal symbol in the day-indexes depends on the string
-# dayOrdinalSymbol in dateFormat.properties
-days-interval-between-months = { $startDayIndex } { $startMonth } – { $endDayIndex } { $endMonth } { $year }
-# LOCALIZATION NOTE (days-interval-between-months-month-format):
-# If your language requires a different declension, change this to
-# one of the values specified in dateFormat.properties.
-# In any case, DO NOT TRANSLATE.
-days-interval-between-months-month-format = nominative
-# LOCALIZATION NOTE (days-interval-between-years):
-# used for display of intervals in the form 'December 29, 2008 - January 4, 2009'
-#    $startMonth will be replaced with name of the month of the start date
-#    $startDayIndex will be replaced with the day-index of the start date possibly followed by an ordinal symbol
-#    $startYear will be replaced with the year of the start date
-#    $endMonth will be replaced with name of the month of the end date
-#    $endDayIndex will be replaced with the day-index of the end date possibly followed by an ordinal symbol
-#    $endYear will be replaced with the year of the end date
-# The presence of the ordinal symbol in the day-indexes depends on the string
-# dayOrdinalSymbol in dateFormat.properties
-days-interval-between-years = { $startDayIndex } { $startMonth } { $startYear } – { $endDayIndex } { $endMonth } { $endYear }
-# LOCALIZATION NOTE (days-interval-between-years-month-format):
-# If your language requires a different declension, change this to
-# one of the values specified in dateFormat.properties.
-# In any case, DO NOT TRANSLATE.
-days-interval-between-years-month-format = nominative
-# LOCALIZATION NOTE (datetime-interval-on-same-date-time):
-# used for intervals where end is equals to start
-# displayed form is '5 Jan 2006 13:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-datetime-interval-on-same-date-time = { $startDate } { $startTime }
-# LOCALIZATION NOTE (datetime-interval-on-same-day):
-# used for intervals where end is on the same day as start, so we can leave out the
-# end date but still include end time
-# displayed form is '5 Jan 2006 13:00 - 17:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-#    $endTime will be replaced with the time of the end date
-datetime-interval-on-same-day = { $startDate } { $startTime } – { $endTime }
-# LOCALIZATION NOTE (datetime-interval-on-several-days):
-# used for intervals spanning multiple days by including date and time
-# displayed form is '5 Jan 2006 13:00 - 7 Jan 2006 9:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-#    $endDate will be replaced with the date of the end date
-#    $endTime will be replaced with the time of the end date
-datetime-interval-on-several-days = { $startDate } { $startTime } – { $endDate } { $endTime }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
