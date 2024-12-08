@@ -32,7 +32,7 @@
 <!ENTITY retentionApplyToFlagged.accesskey "д">
 <!ENTITY nntpRemoveMsgBody.label "Премахване на съдържанието на съобщения повече от">
 <!ENTITY nntpRemoveMsgBody.accesskey "е">
-<!ENTITY offlineSelectNntp.label "Избор на дискусионни групи за работа без връзка…">
+<!ENTITY offlineSelectNntp.label "Избор на новинарски групи при работа без мрежа…">
 <!ENTITY offlineSelectNntp.accesskey "И">
 <!ENTITY offlineImapAdvancedOffline.label "Разширени…">
 <!ENTITY offlineImapAdvancedOffline.accesskey "Р">
