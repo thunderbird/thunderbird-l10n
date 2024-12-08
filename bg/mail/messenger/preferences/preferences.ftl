@@ -213,7 +213,7 @@ always-check-default =
     .label = Проверяване дали { -brand-short-name } е стандартният пощенски клиент
     .accesskey = В
 check-default-button =
-    .label = Проверка сега…
+    .label = Проверяване…
     .accesskey = е
 # Note: This is the search engine name for all the different platforms.
 # Platforms that don't support it should be left blank.
@@ -335,7 +335,7 @@ quoted-text-color =
     .accesskey = я
 search-handler-table =
     .placeholder = Филтриране на типове съдържание и действия
-type-column-header = Тип съдържание
+type-column-header = Вид на съдържанието
 action-column-header = Действие
 save-to-label =
     .label = Запазване на файловете в
@@ -354,7 +354,7 @@ choose-folder-label =
 always-ask-label =
     .label = Винаги да пита къде да бъдат запазвани файловете
     .accesskey = В
-display-tags-text = Етикетите могат да бъдат използвани за подреждане и оценяване на вашите писма.
+display-tags-text = Етикетите могат да бъдат използвани за подреждане и оценяване на писмата.
 new-tag-button =
     .label = Добавяне…
     .accesskey = Д
