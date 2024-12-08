@@ -288,7 +288,7 @@ likely-timezone = Europe/Sofia
 # $timezone OS timezone id
 # $zoneInfoTimezoneId ZoneInfo timezone id
 warning-os-tz-no-match =
-    Внимание: Часовия пояс на операционната система „{ $timezone }“
+    Внимание: Часовият пояс на операционната система „{ $timezone }“
     вече не съвпада с вътрешния часови пояс на ZoneInfo „{ $zoneInfoTimezoneId }“.
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
