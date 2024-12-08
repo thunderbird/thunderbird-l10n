@@ -758,8 +758,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
-    .placeholder = Намиране в настройки
+    .style = width: 16em
+    .placeholder = Търсене в настройките
 
 ## Settings UI Search Results
 
