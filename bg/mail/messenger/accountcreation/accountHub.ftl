@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Добре дошли в <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = Център за профилите ви
+account-hub-title = Център за профили
 
 ## Footer
 
@@ -40,7 +40,6 @@ account-hub-sync-button = Вход за синхронизиране
 
 ## Email page
 
-account-hub-email-title = Създаване на нов профил за е-поща
 account-hub-add-email-title = Добавяне на профил
 account-hub-manually-configure-email-title = Настройка на конфигурация на профила
 account-hub-email-cancel-button = Отказ
