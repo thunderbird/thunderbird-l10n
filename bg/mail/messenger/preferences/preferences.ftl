@@ -849,3 +849,27 @@ qr-export-scan-step1 = Отворете { -brand-product-name } на мобил�
 qr-export-scan-step2 = Отворете настройките
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Изберете <strong>Внасяне на настройки</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Докоснете <strong>Сканиране на QR</strong> и задръжте устройството над кода отдолу
+qr-export-back = Назад
+qr-export-next = Напред
+qr-export-done = Готово
+qr-export-summary-description = Профилите са изнесени. Продължете на мобилното устройство.
+qr-export-summary-title = Обобщение на процеса:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } код е създаден
+       *[other] { $count } кода са създадени
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } профил е изнесен:
+       *[other] { $count } профила са изнесени:
+    }
+qr-export-summary-passwords-included = Паролите са включени
+qr-export-summary-passwords-excluded = Паролите не са включени
+qr-export-more-accounts = Изнасяне на други профили
