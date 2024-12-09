@@ -340,7 +340,7 @@ repair-text-encoding-button =
 no-reply-title = Δεν υποστηρίζεται απάντηση
 # Variables:
 # $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
-no-reply-message = Η διεύθυνση απάντησης ({ $email }) δεν φαίνεται να είναι εποπτεύεται. Τα μηνύματα σε αυτήν τη διεύθυνση πιθανότατα δεν θα διαβαστούν από κανέναν.
+no-reply-message = Η διεύθυνση απάντησης ({ $email }) δεν φαίνεται να είναι εποπτευόμενη διεύθυνση. Τα μηνύματα προς αυτή την διεύθυνση πιθανότατα δε θα διαβαστούν από κανέναν.
 no-reply-reply-anyway-button = Απάντηση ούτως ή άλλως
 
 ## error messages
