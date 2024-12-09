@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = თ
     .tooltiptext = შეიყვანეთ სასურველი URL-ბმული DNS-ის HTTPS-ით გადასაცემად
 connection-dns-over-https-custom-label = მითითებული
-connection-dialog-window2 =
-    .title = კავშირის პარამეტრები
 connection-dialog-title = კავშირის პარამეტრები
 disable-extension-button = გაფართოების ამორთვა
 # Variables:
@@ -81,7 +79,7 @@ proxy-password-prompt =
     .accesskey = ე
     .tooltiptext = ამ მითითების შედეგად, პროქსის ანგარიშზე ავტომატურად შეხვალთ, თუ ანგარიშის მონაცემები დამახსოვრებული იქნება. ასევე გეცნობებათ, თუ შესვლა ვერ მოხერხდება.
 proxy-remote-dns =
-    .label = პროქსის DNS SOCKS v5-ის გამოყენებისას
+    .label = პროქსის DNS, როცა გამოიყენება SOCKS v5
     .accesskey = D
 proxy-enable-doh =
     .label = DNS-ის HTTPS-ით გადაცემის ჩართვა
