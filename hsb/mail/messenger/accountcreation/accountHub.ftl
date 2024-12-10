@@ -116,5 +116,15 @@ account-hub-edit-configuration = Konfiguraciju wobdźěłać
 account-hub-config-success = Konfiguracija je so w Mozilla ISPDB namakała
 account-hub-password-info = Waše přizjewjenske daty budu so jenož lokalnje na wašim ličaku składować
 account-hub-sync-success = Thunderbird je někotre zwjazane słužby namakał
+account-hub-sync-failure = Thunderbird njemóžeše zwjazane słužby namakać
+account-hub-unable-to-sync-accounts = Thunderbird njemóžeše wubrane słužby zwjazać
 account-hub-email-added-success = E-mejlowe konto je so wuspěšnje zwjazało
 account-hub-config-test-success = Konfiguraciske nastajenja płaćiwe
+account-hub-select-all = Wšě wubrać
+account-hub-deselect-all = Wšě wotwolić
+# $count (Number) - The number of sync accounts selected.
+account-hub-selected = wubrane: { $count }
+account-hub-no-address-books = Žane adresniki namakane
+account-hub-no-calendars = Žane protyki namakane
+account-hub-email-added-success-links-title = Wuslědźće nastajenja za wěstotu a personalizowanje:
+account-hub-signature-link = E-mejlowa signatura
