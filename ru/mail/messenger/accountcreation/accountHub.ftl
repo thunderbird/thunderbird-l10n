@@ -121,3 +121,10 @@ account-hub-unable-to-sync-accounts = Thunderbird не удалось подкл
 account-hub-email-added-success = Учётная запись электронной почты успешно подключена
 account-hub-config-test-success = Параметры конфигурации действительны
 account-hub-select-all = Выбрать все
+account-hub-deselect-all = Снять выделение
+# $count (Number) - The number of sync accounts selected.
+account-hub-selected = { $count } выбрано
+account-hub-no-address-books = Адресные книги не найдены
+account-hub-no-calendars = Календари не найдены
+account-hub-email-added-success-links-title = Откройте для себя возможности для безопасности и персонализации:
+account-hub-signature-link = Подпись эл. почты
