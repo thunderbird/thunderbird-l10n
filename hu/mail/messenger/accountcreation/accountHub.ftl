@@ -116,5 +116,13 @@ account-hub-edit-configuration = Beállítások szerkesztése
 account-hub-config-success = A konfiguráció megtalálva a Mozilla ISPDB-ben
 account-hub-password-info = A hitelesítő adatok csak helyben lesznek tárolva a számítógépen
 account-hub-sync-success = A Thunderbird néhány kapcsolódó szolgáltatást talált
+account-hub-sync-failure = A Thunderbird nem talált kapcsolódó szolgáltatásokat
+account-hub-unable-to-sync-accounts = A Thunderbird nem tudott kapcsolódni a kiválasztott szolgáltatásokhoz
 account-hub-email-added-success = Az e-mail-fiók sikeresen csatlakoztatva
 account-hub-config-test-success = A konfigurációs beállítások érvényesek
+account-hub-select-all = Összes kiválasztása
+account-hub-deselect-all = Összes kiválasztásának megszüntetése
+# $count (Number) - The number of sync accounts selected.
+account-hub-selected = { $count } kiválasztva
+account-hub-no-address-books = Nem található címjegyzék
+account-hub-no-calendars = Nem található naptár
