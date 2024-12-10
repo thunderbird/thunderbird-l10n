@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = 字型
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = 預設（{ $name }）
 fonts-label-default-unnamed =
     .label = 預設
-fonts-encoding-dialog-title =
-    .title = 字型與字元編碼
 fonts-language-legend =
     .value = 對應此種語言:
     .accesskey = t
@@ -127,7 +123,7 @@ font-outgoing-email-label =
     .value = 外寄郵件:
     .accesskey = u
 font-incoming-email-label =
-    .value = 收到的郵件:
+    .value = 收到的郵件：
     .accesskey = I
 default-font-reply-checkbox =
     .label = 可用時，在回信中使用預設文字編碼

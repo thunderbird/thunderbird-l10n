@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-main.xul -->
-
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "帳號設定">
@@ -22,7 +20,7 @@
 <!ENTITY replyTo.placeholder "收件者將會回覆到這個地址">
 <!ENTITY organization.label "服務單位:">
 <!ENTITY organization.accesskey "O">
-<!ENTITY signatureText.label "簽名:">
+<!ENTITY signatureText.label "簽名：">
 <!ENTITY signatureText.accesskey "x">
 <!ENTITY signatureHtml.label "使用HTML (例如, &lt;b&gt;bold&lt;/b&gt;)">
 <!ENTITY signatureHtml.accesskey "L">
