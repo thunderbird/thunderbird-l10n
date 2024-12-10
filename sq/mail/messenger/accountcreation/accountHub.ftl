@@ -116,4 +116,15 @@ account-hub-edit-configuration = Përpunoni formësimin
 account-hub-config-success = Formësimi u gjet te Baze të Dhënash Mozilla për ISP
 account-hub-password-info = Kredencialet tuaja do të depozitohen vetëm lokalisht, në kompjuterin tuaj
 account-hub-sync-success = Thunderbird-i gjeti disa shërbime të lidhura
+account-hub-sync-failure = Thunderbird-i s’qe në gjendje të gjente shërbime të lidhura
+account-hub-unable-to-sync-accounts = Thunderbird-i s’qe në gjendje të lidhte shërbimet e përzgjedhura
 account-hub-email-added-success = Llogaria email u lidh me sukses
+account-hub-config-test-success = Rregullime formësimi të vlefshme
+account-hub-select-all = Përzgjidhe krejt
+account-hub-deselect-all = Shpërzgjidhi krejt
+# $count (Number) - The number of sync accounts selected.
+account-hub-selected = { $count } të përzgjedhur
+account-hub-no-address-books = S’u gjetën libra adresash
+account-hub-no-calendars = S’u gjetën kalendarë
+account-hub-email-added-success-links-title = Eksploroni mundësi për sigurinë dhe personalizime:
+account-hub-signature-link = Nënshkrim email-i
