@@ -126,3 +126,5 @@ account-hub-deselect-all = Összes kiválasztásának megszüntetése
 account-hub-selected = { $count } kiválasztva
 account-hub-no-address-books = Nem található címjegyzék
 account-hub-no-calendars = Nem található naptár
+account-hub-email-added-success-links-title = Biztonsági és testreszabási lehetőségek felfedezése:
+account-hub-signature-link = E-mail-aláírás
