@@ -116,5 +116,15 @@ account-hub-edit-configuration = Breyta uppsetningu
 account-hub-config-success = Uppsetning fannst í ISP-gagnagrunni Mozilla.
 account-hub-password-info = Auðkennin þín verða einungis geymd inni á tölvunni þinni
 account-hub-sync-success = Thunderbird fann nokkrar tengdar þjónustur
+account-hub-sync-failure = Thunderbird gat ekki fundið tengdar þjónustur
+account-hub-unable-to-sync-accounts = Thunderbird gat ekki tengt valdar þjónustur
 account-hub-email-added-success = Tókst að tengja póstreikning
 account-hub-config-test-success = Grunnstillingar eru gildar
+account-hub-select-all = Velja allt
+account-hub-deselect-all = Afvelja allt
+# $count (Number) - The number of sync accounts selected.
+account-hub-selected = { $count } valin
+account-hub-no-address-books = Engar nafnaskrár fundust
+account-hub-no-calendars = Engin dagatöl fundust
+account-hub-email-added-success-links-title = Kannaðu valkosti fyrir öryggi og sérstillingar:
+account-hub-signature-link = Undirritun tölvupósts
