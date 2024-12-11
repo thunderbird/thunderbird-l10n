@@ -116,5 +116,15 @@ account-hub-edit-configuration = Editar configuración
 account-hub-config-success = Configuración atopada en Mozilla ISPDB
 account-hub-password-info = As túas credenciais só se almacenarán localmente no teu ordenador
 account-hub-sync-success = Thunderbird atopou algúns servizos conectados
+account-hub-sync-failure = Thunderbird non puido atopar servizos conectados
+account-hub-unable-to-sync-accounts = Thunderbird non puido conectar os servizos seleccionados
 account-hub-email-added-success = A conta de correo electrónico conectouse correctamente
 account-hub-config-test-success = Axustes de configuración válidos
+account-hub-select-all = Seleccionar todo
+account-hub-deselect-all = Desmarcar todo
+# $count (Number) - The number of sync accounts selected.
+account-hub-selected = { $count } seleccionadas
+account-hub-no-address-books = Non se atopou ningunha axenda de enderezos
+account-hub-no-calendars = Non se atoparon calendarios
+account-hub-email-added-success-links-title = Explora as opcións de seguridade e personalización:
+account-hub-signature-link = Sinatura de correo electrónico
