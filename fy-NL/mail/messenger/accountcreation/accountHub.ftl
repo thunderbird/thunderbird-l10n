@@ -116,5 +116,15 @@ account-hub-edit-configuration = Konfiguraasje bewurkje
 account-hub-config-success = Konfiguraasje fûn yn de Mozilla-ISPDB
 account-hub-password-info = Jo oanmeldgegevens wurde allinnich lokaal op jo kompjûter bewarre
 account-hub-sync-success = Thunderbird hat inkelde ferbûne services fûn
+account-hub-sync-failure = Thunderbird koe gjin ferbûne tsjinsten fine
+account-hub-unable-to-sync-accounts = Thunderbird koe gjin ferbining meitsje mei de selektearre tsjinsten
 account-hub-email-added-success = E-mailaccount mei sukses ferbûn
 account-hub-config-test-success = Konfiguraasje-ynstellingen jildich
+account-hub-select-all = Alles selektearje
+account-hub-deselect-all = Alle deselektearje
+# $count (Number) - The number of sync accounts selected.
+account-hub-selected = { $count } selektearre
+account-hub-no-address-books = Gjin adresboeken fûn
+account-hub-no-calendars = Gjin aginda’s fûn
+account-hub-email-added-success-links-title = Opsjes foar befeiliging en personalisaasje ferkenne:
+account-hub-signature-link = E-mailhântekening
