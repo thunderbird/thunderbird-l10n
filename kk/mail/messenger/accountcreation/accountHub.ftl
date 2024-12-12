@@ -116,5 +116,19 @@ account-hub-edit-configuration = Баптауларды түзету
 account-hub-config-success = Конфигурация Mozilla ISPDB ішінен табылды
 account-hub-password-info = Тіркелгі деректеріңіз тек компьютеріңізде жергілікті түрде сақталады
 account-hub-sync-success = Thunderbird кейбір байланысқан қызметтерді тапты
+account-hub-sync-failure = Thunderbird байланысқан қызметтерді таба алмады
+account-hub-unable-to-sync-accounts = Thunderbird таңдалған қызметтерді байланыстыра алмады
 account-hub-email-added-success = Электрондық пошта тіркелгісі сәтті байланыстырылды
 account-hub-config-test-success = Конфигурация параметрлері жарамды
+account-hub-select-all = Барлығын таңдау
+account-hub-deselect-all = Барлығынан таңдауды алып тастау
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } таңдалды
+       *[other] { $count } таңдалды
+    }
+account-hub-no-address-books = Адрестік кітапшалар табылмады
+account-hub-no-calendars = Күнтізбелер табылмады
+account-hub-email-added-success-links-title = Қауіпсіздік пен жекелендіру опциялары туралы біліңіз:
+account-hub-signature-link = Электрондық пошта қолтаңбасы
