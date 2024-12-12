@@ -123,7 +123,11 @@ account-hub-config-test-success = A konfigurációs beállítások érvényesek
 account-hub-select-all = Összes kiválasztása
 account-hub-deselect-all = Összes kiválasztásának megszüntetése
 # $count (Number) - The number of sync accounts selected.
-account-hub-selected = { $count } kiválasztva
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } kiválasztva
+       *[other] { $count } kiválasztva
+    }
 account-hub-no-address-books = Nem található címjegyzék
 account-hub-no-calendars = Nem található naptár
 account-hub-email-added-success-links-title = Biztonsági és testreszabási lehetőségek felfedezése:
