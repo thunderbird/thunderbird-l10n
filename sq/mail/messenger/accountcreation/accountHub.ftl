@@ -123,7 +123,11 @@ account-hub-config-test-success = Rregullime formësimi të vlefshme
 account-hub-select-all = Përzgjidhe krejt
 account-hub-deselect-all = Shpërzgjidhi krejt
 # $count (Number) - The number of sync accounts selected.
-account-hub-selected = { $count } të përzgjedhur
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } i përzgjedhur
+       *[other] { $count } të përzgjedhur
+    }
 account-hub-no-address-books = S’u gjetën libra adresash
 account-hub-no-calendars = S’u gjetën kalendarë
 account-hub-email-added-success-links-title = Eksploroni mundësi për sigurinë dhe personalizime:
