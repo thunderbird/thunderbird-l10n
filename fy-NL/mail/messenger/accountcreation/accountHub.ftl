@@ -123,7 +123,11 @@ account-hub-config-test-success = Konfiguraasje-ynstellingen jildich
 account-hub-select-all = Alles selektearje
 account-hub-deselect-all = Alle deselektearje
 # $count (Number) - The number of sync accounts selected.
-account-hub-selected = { $count } selektearre
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } selektearre
+       *[other] { $count } selektearre
+    }
 account-hub-no-address-books = Gjin adresboeken fûn
 account-hub-no-calendars = Gjin aginda’s fûn
 account-hub-email-added-success-links-title = Opsjes foar befeiliging en personalisaasje ferkenne:
