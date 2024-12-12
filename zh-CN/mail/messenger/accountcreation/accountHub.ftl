@@ -116,5 +116,15 @@ account-hub-edit-configuration = 编辑配置
 account-hub-config-success = 在 Mozilla ISPDB 中找到的配置
 account-hub-password-info = 您的登录凭据只会存储在您的计算机本地
 account-hub-sync-success = Thunderbird 找到一些已连接的服务
+account-hub-sync-failure = Thunderbird 找不到已连接的服务
+account-hub-unable-to-sync-accounts = Thunderbird 无法连接所选服务
 account-hub-email-added-success = 邮箱账户连接成功
 account-hub-config-test-success = 配置设置有效
+account-hub-select-all = 全部选择
+account-hub-deselect-all = 全部取消
+# $count (Number) - The number of sync accounts selected.
+account-hub-selected = 已选择 { $count } 项
+account-hub-no-address-books = 找不到通讯录
+account-hub-no-calendars = 找不到日历
+account-hub-email-added-success-links-title = 浏览安全与个性化选项：
+account-hub-signature-link = 邮件签名
