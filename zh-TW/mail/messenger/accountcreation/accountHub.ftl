@@ -123,7 +123,10 @@ account-hub-config-test-success = 設定值有效
 account-hub-select-all = 選擇全部
 account-hub-deselect-all = 取消選擇全部
 # $count (Number) - The number of sync accounts selected.
-account-hub-selected = 已選擇 { $count } 組
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+       *[other] 已選擇 { $count } 組
+    }
 account-hub-no-address-books = 找不到通訊錄
 account-hub-no-calendars = 找不到行事曆
 account-hub-email-added-success-links-title = 探索安全性與個人化選項：
