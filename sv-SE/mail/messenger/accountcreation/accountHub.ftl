@@ -116,5 +116,19 @@ account-hub-edit-configuration = Redigera konfiguration
 account-hub-config-success = Konfigurationen hittades i Mozilla ISPDB
 account-hub-password-info = Dina autentiseringsuppgifter kommer endast att lagras lokalt på din dator
 account-hub-sync-success = Thunderbird hittade några anslutna tjänster
+account-hub-sync-failure = Thunderbird kunde inte hitta anslutna tjänster
+account-hub-unable-to-sync-accounts = Thunderbird kunde inte ansluta de utvalda tjänsterna
 account-hub-email-added-success = E-postkontot har anslutits
 account-hub-config-test-success = Giltiga konfigurationsinställningar
+account-hub-select-all = Markera alla
+account-hub-deselect-all = Avmarkera alla
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } vald
+       *[other] { $count } valda
+    }
+account-hub-no-address-books = Inga adressböcker hittades
+account-hub-no-calendars = Inga kalendrar hittades
+account-hub-email-added-success-links-title = Utforska alternativ för säkerhet och anpassning:
+account-hub-signature-link = E-postsignatur
