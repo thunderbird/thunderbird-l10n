@@ -123,7 +123,11 @@ account-hub-config-test-success = Gültige Konfigurationseinstellungen
 account-hub-select-all = Alle auswählen
 account-hub-deselect-all = Alle abwählen
 # $count (Number) - The number of sync accounts selected.
-account-hub-selected = { $count } ausgewählt
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } ausgewählt
+       *[other] { $count } ausgewählt
+    }
 account-hub-no-address-books = Keine Adressbücher gefunden
 account-hub-no-calendars = Keine Kalender gefunden
 account-hub-email-added-success-links-title = Entdecken Sie Optionen für Sicherheit und Personalisierung:
