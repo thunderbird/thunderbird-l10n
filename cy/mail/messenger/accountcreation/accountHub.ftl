@@ -123,7 +123,15 @@ account-hub-config-test-success = Mae'r gosodiadau ffurfweddiad yn ddilys
 account-hub-select-all = Dewis y cyfan
 account-hub-deselect-all = Dad-ddewis y cyfan
 # $count (Number) - The number of sync accounts selected.
-account-hub-selected = Mae { $count } wedi'i ddewis
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [zero] Mae { $count } wedi'i ddewis
+        [one] Mae { $count } wedi'i ddewis
+        [two] Mae { $count } wedi'i ddewis
+        [few] Mae { $count } wedi'i ddewis
+        [many] Mae { $count } wedi'i ddewis
+       *[other] Mae { $count } wedi'i ddewis
+    }
 account-hub-no-address-books = Heb ganfod llyfrau cyfeiriadau
 account-hub-no-calendars = Heb ganfod calendrau
 account-hub-email-added-success-links-title = Edrychwch ar y dewisiadau diogelwch a phersonoli:
