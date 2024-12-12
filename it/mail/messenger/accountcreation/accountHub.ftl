@@ -123,9 +123,9 @@ account-hub-config-test-success = Impostazioni di configurazione valide
 account-hub-select-all = Seleziona tutto
 account-hub-deselect-all = Deseleziona tutto
 # $count (Number) - The number of sync accounts selected.
-account-hub-selected =
-    { $count ->
-        [one] { $count } selezionato
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } selezionati
        *[other] { $count } selezionati
     }
 account-hub-no-address-books = Nessuna rubrica trovata
