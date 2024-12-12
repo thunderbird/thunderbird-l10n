@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Парола
     .accesskey = П
     .title = Парола
-account-provisioner-button = Получете нов електронен адрес
-    .accesskey = П
 account-setup-password-toggle-show =
     .title = Показване на паролата в ясен текст
 account-setup-password-toggle-hide =
@@ -122,7 +120,7 @@ account-setup-results-area-title =
         [one] достъпна конфигурация
        *[other] достъпни конфигурации
     }
-account-setup-result-imap-description = Поддържайте вашите папки и имейли синхронизирани на вашия сървър
+account-setup-result-imap-description = Поддържайте електронните си писма и папки синхронизирани на пощенския сървър
 account-setup-result-pop-description = Поддържайте вашите папки и имейли  на вашия сървър
 # Note: Exchange, Office365 are the name of products.
 account-setup-result-exchange2-description = Използвайте сървъра на Microsoft Exchange или облачните услуги на Office365
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = Неуспешна идентификац
 account-setup-credentials-wrong = Грешка при удостоверяване. Моля, проверете потребителското име и паролата.
 account-setup-find-settings-failed = { -brand-short-name } не успя да намери настройки за вашата регистрация.
 account-setup-exchange-config-unverifiable = Конфигурацията не можа да бъде потвърдена. Ако вашето потребителско име и парола са правилни, вероятно администраторът на сървъра е деактивирал избраната конфигурация за вашия профил. Опитайте да изберете друг протокол.
-account-setup-provisioner-error = Възникна грешка при настройването на новия ви профил в { -brand-short-name }. Моля, опитайте ръчно да настроите профила си с вашите идентификационни данни.
 
 ## Manual configuration area
 

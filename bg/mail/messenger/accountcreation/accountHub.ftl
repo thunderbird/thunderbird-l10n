@@ -106,3 +106,4 @@ account-hub-email-enter-password = Въведете паролата за пощ
 account-hub-email-sync-accounts = Синхронизиране на календари и адресници
 account-hub-test-configuration = Проверка
 account-hub-add-new-email = Добавяне на друг профил
+account-hub-result-imap-description = Поддържайте електронните си писма и папки синхронизирани на пощенския сървър
