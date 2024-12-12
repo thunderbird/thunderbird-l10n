@@ -125,12 +125,12 @@ account-hub-deselect-all = Dad-ddewis y cyfan
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
     { NUMBER($count) ->
-        [zero] Mae { $count } wedi'i ddewis
+        [zero] Mae { $count } wedi'u dewis
         [one] Mae { $count } wedi'i ddewis
-        [two] Mae { $count } wedi'i ddewis
-        [few] Mae { $count } wedi'i ddewis
-        [many] Mae { $count } wedi'i ddewis
-       *[other] Mae { $count } wedi'i ddewis
+        [two] Mae { $count } wedi'u dewis
+        [few] Mae { $count } wedi'u dewis
+        [many] Mae { $count } wedi'u dewis
+       *[other] Mae { $count } wedi'u dewis
     }
 account-hub-no-address-books = Heb ganfod llyfrau cyfeiriadau
 account-hub-no-calendars = Heb ganfod calendrau
