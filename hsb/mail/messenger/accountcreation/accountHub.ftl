@@ -123,7 +123,13 @@ account-hub-config-test-success = Konfiguraciske nastajenja płaćiwe
 account-hub-select-all = Wšě wubrać
 account-hub-deselect-all = Wšě wotwolić
 # $count (Number) - The number of sync accounts selected.
-account-hub-selected = wubrane: { $count }
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } wubrane
+        [two] { $count } wubranej
+        [few] { $count } wubrane
+       *[other] { $count } wubranych
+    }
 account-hub-no-address-books = Žane adresniki namakane
 account-hub-no-calendars = Žane protyki namakane
 account-hub-email-added-success-links-title = Wuslědźće nastajenja za wěstotu a personalizowanje:
