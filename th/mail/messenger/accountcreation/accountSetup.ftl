@@ -7,20 +7,33 @@ account-setup-tab-title = การตั้งค่าบัญชี
 ## Header
 
 account-setup-title = ตั้งค่าที่อยู่อีเมลที่มีอยู่แล้ว
+account-setup-description = เมื่อต้องการใช้ที่อยู่อีเมลปัจจุบันของคุณ ให้กรอกข้อมูลรับรองของคุณ
+account-setup-secondary-description = { -brand-product-name } จะค้นหาการกำหนดค่าเซิร์ฟเวอร์ที่ใช้ได้และแนะนำโดยอัตโนมัติ
 
 ## Form fields
 
+account-setup-name-label = ชื่อเต็มของคุณ
+    .accesskey = ช
 # Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
 account-setup-name-input =
     .placeholder = สมชาย ใจดี
+account-setup-email-label = ที่อยู่อีเมล
+    .accesskey = ม
 account-setup-email-input =
     .placeholder = somchai.jaidee@example.com
 account-setup-email-info-icon =
     .title = ที่อยู่อีเมลที่มีอยู่ของคุณ
 account-setup-email-warning-icon =
     .title = ที่อยู่อีเมลไม่ถูกต้อง
+account-setup-password-label = รหัสผ่าน
+    .accesskey = ร
+    .title = ไม่จำเป็น รหัสผ่านนี้จะใช้เพื่อตรวจสอบควบคู่ไปกับชื่อผู้ใช้เท่านั้น
+account-setup-password-toggle-show =
+    .title = แสดงรหัสผ่านเป็นตัวอักษรที่อ่านได้
 account-setup-password-toggle-hide =
     .title = ซ่อนรหัสผ่าน
+account-setup-remember-password = จดจำรหัสผ่าน
+    .accesskey = จ
 
 ## Action buttons
 
@@ -28,9 +41,11 @@ account-setup-password-toggle-hide =
 ## Notifications
 
 account-setup-looking-up-settings = กำลังมองหาการกำหนดค่า…
+account-setup-success-password = รหัสผ่านใช้งานได้
 
 ## Illustrations
 
+account-setup-privacy-footnote2 = ข้อมูลรับรองของคุณจะถูกเก็บไว้บนคอมพิวเตอร์ของคุณเท่านั้น
 account-setup-success-help = ไม่แน่ใจเกี่ยวกับขั้นตอนต่อไปของคุณใช่หรือไม่?
 account-setup-documentation-help = คู่มือตั้งค่า
 account-setup-forum-help = ฟอรั่มฝ่ายสนับสนุน

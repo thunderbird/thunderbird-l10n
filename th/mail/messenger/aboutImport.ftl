@@ -22,7 +22,6 @@ button-finish = เสร็จสิ้น
 app-name-thunderbird = Thunderbird
 app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook
-app-name-becky = Becky! Internet Mail
 app-name-apple-mail = Apple Mail
 
 ## Import from file selections
@@ -37,7 +36,6 @@ file-addressbook-description = เลือกไฟล์ที่มีสม�
 from-app-thunderbird = นำเข้าจากโปรไฟล์ { app-name-thunderbird }
 from-app-seamonkey = นำเข้าจากโปรไฟล์ { app-name-seamonkey }
 from-app-outlook = นำเข้าจาก { app-name-outlook }
-from-app-becky = นำเข้าจาก { app-name-becky }
 from-app-apple-mail = นำเข้าจาก { app-name-apple-mail }
 profile-source = นำเข้าจากโปรไฟล์
 # $profileName (string) - name of the profile
@@ -58,8 +56,13 @@ items-pane-override = ข้อมูลใดๆ ที่มีอยู่แ
 ## Import from address book file steps
 
 import-from-addr-book-file-description = เลือกรูปแบบไฟล์ที่มีข้อมูลสมุดรายชื่อของคุณ
+addr-book-ldif-file = ไฟล์ LDIF (.ldif)
+addr-book-vcard-file = ไฟล์ vCard (.vcf, .vcard)
+addr-book-sqlite-file = ไฟล์ฐานข้อมูล SQLite (.sqlite)
+addr-book-mab-file = ไฟล์ฐานข้อมูล Mork (.mab)
 addr-book-file-picker = เลือกไฟล์สมุดรายชื่อ
 addr-book-csv-field-map-title = เทียบชื่อฟิลด์
+addr-book-csv-field-map-desc = เลือกฟิลด์สมุดที่อยู่ที่ตรงกับฟิลด์ต้นทาง และไม่ต้องทำเครื่องหมายฟิลด์ที่คุณไม่ต้องการนำเข้า
 addr-book-directories-pane-source = ไฟล์ต้นฉบับ:
 # $addressBookName (string) - name of the new address book that would be created.
 addr-book-import-into-new-directory2 = สร้างไดเรกทอรีใหม่ที่ชื่อ <strong>"{ $addressBookName }"</strong>
@@ -69,8 +72,6 @@ addr-book-summary-title = นำเข้าข้อมูลที่เลื
 ## Import from calendar file steps
 
 calendar-items-loading = กำลังโหลดรายการ…
-calendar-items-filter-input =
-    .placeholder = กรองรายการ…
 calendar-select-all-items = เลือกทั้งหมด
 calendar-deselect-all-items = ไม่เลือกทั้งหมด
 # $targetCalendar (string) - name of the new calendar that would be created

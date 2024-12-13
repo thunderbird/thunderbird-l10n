@@ -7,7 +7,7 @@
 
 compose-send-format-menu =
     .label = รูปแบบการส่ง
-    .accesskey = F
+    .accesskey = ร
 compose-send-auto-menu-item =
     .label = อัตโนมัติ
     .accesskey = A
