@@ -118,4 +118,17 @@ account-hub-password-info = Идентификационните данни ще
 account-hub-sync-success = Thunderbird откри свързани услуги
 account-hub-sync-failure = Thunderbird не откри свързани услуги
 account-hub-unable-to-sync-accounts = Thunderbird не се свърза с избраната услуга
+account-hub-email-added-success = Пощенският профил е свързан
+account-hub-config-test-success = Настройките са правилни
 account-hub-select-all = Избиране на всичко
+account-hub-deselect-all = Отменяне всички
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } избран
+       *[other] { $count } избрани
+    }
+account-hub-no-address-books = Не е намерена адресна книга
+account-hub-no-calendars = Не е намерен календар
+account-hub-email-added-success-links-title = Други възможности за сигурност и настройка:
+account-hub-signature-link = Подпис на писмото
