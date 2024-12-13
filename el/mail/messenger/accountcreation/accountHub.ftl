@@ -118,3 +118,4 @@ account-hub-password-info = Τα διαπιστευτήριά σας θα απο
 account-hub-sync-success = Το Thunderbird βρήκε μερικές συνδεδεμένες υπηρεσίες
 account-hub-email-added-success = Επιτυχής σύνδεση λογαριασμού email
 account-hub-config-test-success = Έγκυρες ρυθμίσεις παραμέτρων
+account-hub-signature-link = Υπογραφή email
