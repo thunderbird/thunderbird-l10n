@@ -125,7 +125,7 @@ account-hub-deselect-all = Deseleccionar todo
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
     { NUMBER($count) ->
-        [one] { $count } seleccionadas
+        [one] { $count } seleccionada
        *[other] { $count } seleccionadas
     }
 account-hub-no-address-books = No se encontraron libretas de direcciones
