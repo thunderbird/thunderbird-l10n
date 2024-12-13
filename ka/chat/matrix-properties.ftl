@@ -10,7 +10,7 @@ matrix-username-hint = Matrix ID
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
-options-save-token = საცავთან წვდომის საცნობი
+options-save-token = საცავთან წვდომის საშვი
 options-device-display-name = მოწყობილობის გამოსაჩენი სახელი
 options-homeserver = სერვერი
 options-backup-passphrase = გასაღების სამარქაფო პაროლი
