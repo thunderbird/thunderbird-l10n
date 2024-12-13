@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-
 <!ENTITY viewPicker.label "Показване на:">
 <!ENTITY viewPicker.accesskey "к">
 <!ENTITY viewAll.label "Всичко">
@@ -19,5 +18,5 @@
 <!ENTITY viewCustomViews.accesskey "г">
 <!ENTITY viewVirtualFolder.label "Запазване на изгледа като папка…">
 <!ENTITY viewVirtualFolder.accesskey "З">
-<!ENTITY viewCustomizeView.label "Персонализиране…">
+<!ENTITY viewCustomizeView.label "Приспособяване…">
 <!ENTITY viewCustomizeView.accesskey "П">

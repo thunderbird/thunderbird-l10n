@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Търсене
-search-bar-item =
-    .label = Търсене:
 search-bar-item2 =
     .label = Търсене
 search-bar-placeholder = Търсене…
@@ -27,7 +25,7 @@ search-bar-placeholder-with-key2 =
 ## Unified toolbar context menu
 
 customize-menu-customize =
-    .label = Персонализиране…
+    .label = Приспособяване…
 
 # Unified toolbar get messages button context menu
 
@@ -37,7 +35,7 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
-customize-title = Персонализиране на ленти с инструменти
+customize-title = Приспособяване на ленти с инструменти
 customize-space-tab-mail = Поща
     .title = Поща
 customize-space-tab-addressbook = Адресник
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Само текст
 customize-cancel = Прекъсване
 customize-save = Запазване
 customize-unsaved-changes = Незапазени промени в други пространства
-customize-search-bar =
-    .label = Бутони на лентата с инструменти за търсене...
 customize-search-bar2 =
     .label = Бутони на лентата с инструменти за търсене
     .placeholder = Бутони на лентата с инструменти за търсене…

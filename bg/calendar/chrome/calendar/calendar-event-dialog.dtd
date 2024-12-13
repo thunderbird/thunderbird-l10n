@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Указва, че няма да приемете отправено друго предложение">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Изтриване…">
 <!ENTITY  event.menu.item.delete.accesskey                "И">
-<!ENTITY  event.menu.item.page.setup.label                "Настройка на страницата">
-<!ENTITY  event.menu.item.page.setup.accesskey            "К">
-<!ENTITY  event.menu.item.print.label                     "Отпечатване">
-<!ENTITY  event.menu.item.print.accesskey                 "П">
 
 <!ENTITY  event.menu.edit.label                           "Редактиране">
 <!ENTITY  event.menu.edit.accesskey                       "Р">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "Л">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Друго…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "Д">
-<!ENTITY  event.menu.view.showlink.label                  "Показване на сродните връзки">
-<!ENTITY  event.menu.view.showlink.accesskey              "в">
 
 <!ENTITY  event.menu.options.label                            "Настройки">
 <!ENTITY  event.menu.options.accesskey                        "Н">
@@ -255,7 +246,7 @@
 <!ENTITY event.reminder.1day.before.label                 "1 ден по-рано" >
 <!ENTITY event.reminder.2days.before.label                "2 дена по-рано" >
 <!ENTITY event.reminder.1week.before.label                "1 седмица по-рано" >
-<!ENTITY event.reminder.custom.label                      "Персонализиране…" >
+<!ENTITY event.reminder.custom.label                      "Приспособяване…" >
 
 <!ENTITY event.reminder.multiple.label                    "Много напомняния…" >
 
@@ -272,7 +263,7 @@
 <!ENTITY event.repeat.bi.weekly.label                   "През седмица">
 <!ENTITY event.repeat.monthly.label                     "Ежемесечно">
 <!ENTITY event.repeat.yearly.label                      "Ежегодно">
-<!ENTITY event.repeat.custom.label                      "Персонализиране…">
+<!ENTITY event.repeat.custom.label                      "Приспособяване…">
 
 <!ENTITY event.recurrence.pattern.label                 "Модел на повторенията">
 <!ENTITY event.recurrence.occurs.label                  "Повтаряне" >
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "октомври" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "ноември" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "декември" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "всеки/яка">
 <!ENTITY event.recurrence.yearly.first.label                 "първият/та">
 <!ENTITY event.recurrence.yearly.second.label                "вторият/та">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "събота" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "дни" >
 <!ENTITY event.recurrence.of.label                           "на" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "януари" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "февруари" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "март" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Създаване" >
 <!ENTITY event.recurrence.appointments.label            "Среща/и" >
 <!ENTITY event.repeat.until.label                       "Повтаряне до" >
-<!ENTITY event.recurrence.preview.label                 "Преглед">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Изпращане на покани">

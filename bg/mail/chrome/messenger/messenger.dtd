@@ -112,7 +112,7 @@
 <!ENTITY menubarCmd.accesskey "м">
 <!ENTITY showMessengerToolbarCmd.label "Лента за поща">
 <!ENTITY showMessengerToolbarCmd.accesskey "п">
-<!ENTITY customizeToolbar.label "Персонализиране…">
+<!ENTITY customizeToolbar.label "Приспособяване…">
 <!ENTITY customizeToolbar.accesskey "П">
 
 <!ENTITY messagePaneLayoutStyle.label "Оформление">

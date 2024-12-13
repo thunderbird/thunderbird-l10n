@@ -423,7 +423,7 @@ chat-button-unread-messages = { $count }
 ## Spaces toolbar customize panel
 
 menuitem-customize-label =
-    .label = Персонализиране…
+    .label = Приспособяване…
 spaces-customize-panel-title = Настройки на лентата с инструменти на пространства
 spaces-customize-background-color = Цвят на фона:
 spaces-customize-icon-color = Цвят на бутона
