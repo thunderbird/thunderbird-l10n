@@ -36,7 +36,7 @@ account-hub-newsgroup-setup-button = Дискусионна група
 account-hub-import-setup-button = Внасяне
     .title = Внасяне на вече съхранен профил
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
-account-hub-sync-button = Вход за синхронизиране
+account-hub-sync-button = Синхронизиране…
 
 ## Email page
 
@@ -107,3 +107,15 @@ account-hub-email-sync-accounts = Синхронизиране на календ
 account-hub-test-configuration = Проверка
 account-hub-add-new-email = Добавяне на друг профил
 account-hub-result-imap-description = Поддържайте електронните си писма и папки синхронизирани на пощенския сървър
+account-hub-result-pop-description = Дръжте писмата и папките си на компютъра
+account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Използване на Microsoft Exchange Web Services за синхронизиране на папки и писма
+account-hub-result-ews-text = Сървър
+account-hub-result-recommended-label = Препоръчано
+account-hub-edit-configuration = Промяна на настройките
+account-hub-config-success = Настройки от Mozilla ISPDB
+account-hub-password-info = Идентификационните данни ще се пазят само на вашия компютър
+account-hub-sync-success = Thunderbird откри свързани услуги
+account-hub-sync-failure = Thunderbird не откри свързани услуги
+account-hub-unable-to-sync-accounts = Thunderbird не се свърза с избраната услуга
+account-hub-select-all = Избиране на всичко
