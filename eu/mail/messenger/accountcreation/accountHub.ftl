@@ -130,4 +130,5 @@ account-hub-sync-accounts-selected =
     }
 account-hub-no-address-books = Ez da helbide-libururik aurkitu
 account-hub-no-calendars = Ez da egutegirik aurkitu
+account-hub-email-added-success-links-title = Arakatu segurtasun eta pertsonalizazio aukerak:
 account-hub-signature-link = Posta elektroniko sinadura
