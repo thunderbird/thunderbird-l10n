@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Søk
-search-bar-item =
-    .label = Søk:
 search-bar-placeholder = Søk…
 
 ## Unified toolbar context menu
@@ -27,6 +25,7 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-title = Tilpass verktøylinjer
 customize-space-tab-mail = E-post
     .title = E-post
 customize-space-tab-addressbook = Adressebok
