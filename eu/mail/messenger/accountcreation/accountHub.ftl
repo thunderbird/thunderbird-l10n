@@ -116,5 +116,18 @@ account-hub-edit-configuration = Editatu konfigurazioa
 account-hub-config-success = Konfigurazioa aurkitu da Mozilla ISPDBn
 account-hub-password-info = Zure kredentzialak lokalean bakarrik, zure ordenagailuan, gordeko dira
 account-hub-sync-success = Thunderbirdek konektatutako zerbitzu batzuk aurkitu ditu
+account-hub-sync-failure = Thunderbird ez da gai izan zerbitzu konektatuak aurkitzeko.
+account-hub-unable-to-sync-accounts = Thunderbird ez da gai izan aukeratutako zerbitzuak konektatzeko.
 account-hub-email-added-success = Posta elektroniko kontua behar bezala konektatuta
 account-hub-config-test-success = Konfigurazio-ezarpenak baliozkoak dira
+account-hub-select-all = Hautatu dena
+account-hub-deselect-all = Desautatu denak
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } aukeratua
+       *[other] { $count } aukeratuak
+    }
+account-hub-no-address-books = Ez da helbide-libururik aurkitu
+account-hub-no-calendars = Ez da egutegirik aurkitu
+account-hub-signature-link = Posta elektroniko sinadura
