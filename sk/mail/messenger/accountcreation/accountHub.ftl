@@ -116,5 +116,21 @@ account-hub-edit-configuration = Upraviť konfiguráciu
 account-hub-config-success = Konfigurácia bola nájdená v databáze Mozilla ISPDB
 account-hub-password-info = Vaše prihlasovacie údaje budú uložené iba lokálne vo vašom počítači
 account-hub-sync-success = Thunderbird našiel nejaké pripojené služby
+account-hub-sync-failure = Thunderbirdu sa nepodarilo nájsť pripojené služby
+account-hub-unable-to-sync-accounts = Thunderbirdu sa nepodarilo pripojiť vybraté služby
 account-hub-email-added-success = E‑mailový účet bol úspešne pripojený
 account-hub-config-test-success = Konfiguračné nastavenia sú platné
+account-hub-select-all = Vybrať všetko
+account-hub-deselect-all = Zrušiť výber
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } označený
+        [few] { $count } označené
+        [many] { $count } označených
+       *[other] { $count } označených
+    }
+account-hub-no-address-books = Nenašli sa žiadne adresáre
+account-hub-no-calendars = Nenašli sa žiadne kalendáre
+account-hub-email-added-success-links-title = Preskúmajte možnosti zabezpečenia a prispôsobenia:
+account-hub-signature-link = E‑mailový podpis
