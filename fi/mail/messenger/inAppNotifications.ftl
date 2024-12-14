@@ -4,3 +4,11 @@
 
 in-app-notification-close-image =
     .alt = Sulje
+# This is the label of the key typically used to generate the javascript
+# key code "KeyJ"
+-in-app-notification-accesskey = j
+in-app-notification-instructions =
+    { PLATFORM() ->
+        [macos] Paina ⌥+Shift+{ -in-app-notification-accesskey } siirtyäksesi ilmoitukseen
+       *[other] Paina Alt+Shift+{ -in-app-notification-accesskey } siirtyäksesi ilmoitukseen
+    }

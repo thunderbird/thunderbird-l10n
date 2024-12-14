@@ -40,7 +40,6 @@ account-hub-sync-button = Kirjaudu Sync-palveluun…
 
 ## Email page
 
-account-hub-email-title = Määritä sähköpostitilisi
 account-hub-add-email-title = Lisää tili
 account-hub-manually-configure-email-title = Määritä tilin asetukset
 account-hub-email-cancel-button = Peruuta
@@ -97,3 +96,18 @@ account-hub-email-enter-password = Kirjoita sähköpostitilisi salasana
 account-hub-email-sync-accounts = Synkronoi kalenterisi ja osoitekirjasi
 account-hub-test-configuration = Testaa
 account-hub-add-new-email = Lisää toinen sähköpostiosoite
+account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Käytä Microsoft Exchange Web Services -palvelua kansioiden ja sähköpostien synkronoimiseen
+account-hub-result-ews-text = Palvelin
+account-hub-result-recommended-label = Suositeltu
+account-hub-select-all = Valitse kaikki
+account-hub-deselect-all = Poista kaikkien valinta
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } valittu
+       *[other] { $count } valittu
+    }
+account-hub-no-address-books = Osoitekirjoja ei löytynyt
+account-hub-no-calendars = Kalentereita ei löytynyt
+account-hub-signature-link = Sähköpostin allekirjoitus

@@ -416,6 +416,15 @@ conversation-view-checkbox-label =
     .accesskey = k
 conversation-view-checkbox-description = Glodaan perustuva kokeellinen ominaisuus, käytä omalla vastuullasi
 label-experiment = Kokeellinen
+dark-reader-checkbox-label =
+    .label = Sopeudu tummaan teemaan
+    .accesskey = d
+dark-reader-checkbox-description = Kokeellinen ominaisuus, jonka avulla viestinäkymä seuraa tummia teemoja
+account-hub-legend = Tilikeskus
+account-hub-checkbox-label =
+    .label = Luo tilit uudessa tilikeskuksessa
+    .accesskey = L
+account-hub-checkbox-description = Kokeellinen uuden sähköpostitilin luomisprosessi
 
 ## Compose Tab
 
