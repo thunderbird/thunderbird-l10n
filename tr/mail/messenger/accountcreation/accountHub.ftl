@@ -116,5 +116,18 @@ account-hub-edit-configuration = Yapılandırmayı düzenle
 account-hub-config-success = Mozilla İSS veritabanında yapılandırma bulundu
 account-hub-password-info = Hesap bilgileriniz yalnızca yerel olarak bilgisayarınızda depolanır
 account-hub-sync-success = Thunderbird bazı bağlı servisler buldu
+account-hub-sync-failure = Thunderbird bağlı servisleri bulamadı
+account-hub-unable-to-sync-accounts = Thunderbird seçilen servislere bağlanamadı
 account-hub-email-added-success = E-posta hesabı başarıyla bağlandı
 account-hub-config-test-success = Yapılandırma ayarları geçerli
+account-hub-select-all = Tümünü seç
+account-hub-deselect-all = Seçimi temizle
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } hesap seçildi
+       *[other] { $count } hesap seçildi
+    }
+account-hub-no-address-books = Hiç adres defteri bulunamadı
+account-hub-no-calendars = Hiç takvim bulunamadı
+account-hub-signature-link = E-posta imzası
