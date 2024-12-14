@@ -102,19 +102,6 @@ quick-filter-bar-results =
         [one] { $count } նամակ
        *[other] { $count } նամակներ
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Զտել նամակները՝ <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Զտել նամակները
 quick-filter-bar-searching =
@@ -246,8 +233,6 @@ threadpane-column-header-sender = Ումից
     .title = Տեսակավորել ըստ՝ ումից
 threadpane-column-label-sender =
     .label = Ումից
-threadpane-cell-sender =
-    .aria-label = Ումից
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -257,8 +242,6 @@ threadpane-column-header-recipient = Ստացողը
     .title = Տեսակավորել ըստ՝ ստացողի
 threadpane-column-label-recipient =
     .label = Ստացողը
-threadpane-cell-recipient =
-    .aria-label = Ստացող
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -268,8 +251,6 @@ threadpane-column-header-correspondents = Բաժանորդ
     .title = Տեսակավորել ըստ՝ բաժանորդի
 threadpane-column-label-correspondents =
     .label = Բաժանորդ
-threadpane-cell-correspondents =
-    .aria-label = Բաժանորդներ
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -279,8 +260,6 @@ threadpane-column-header-subject = Վերնագիր
     .title = Տեսակավորել ըստ՝ վերնագրի
 threadpane-column-label-subject =
     .label = Վերնագիր
-threadpane-cell-subject =
-    .aria-label = Վերնագիր
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -290,8 +269,6 @@ threadpane-column-header-date = Ամսաթիվ
     .title = Տեսակավորել ըստ՝ ամսաթվի
 threadpane-column-label-date =
     .label = Ամսաթիվ
-threadpane-cell-date =
-    .aria-label = Ամսաթիվ
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -305,42 +282,89 @@ threadpane-column-header-status = Վիճակ
     .title = Տեսակավորել ըստ՝ վիճակի
 threadpane-column-label-status =
     .label = Վիճակ
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Վիճակը
+    .title = { $title }
 threadpane-column-header-size = Չափը
     .title = Տեսակավորել ըստ՝ չափի
 threadpane-column-label-size =
     .label = Չափը
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Չափ
+    .title = { $title }
 threadpane-column-header-tags = Պիտակ
     .title = Տեսակավորել ըստ՝ պիտակի
 threadpane-column-label-tags =
     .label = Պիտակ
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Պիտակներ
+    .title = { $title }
 threadpane-column-header-account = Փոստարկղ
     .title = Տեսակավորել ըստ՝ փոստարկղի
 threadpane-column-label-account =
     .label = Փոստարկղ
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Հաշիվ
+    .title = { $title }
 threadpane-column-header-priority = Առաջնահերթ-ը
     .title = Տեսակավորել ըստ՝ առաջնահերթության
 threadpane-column-label-priority =
     .label = Առաջնահերթ-ը
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Առաջնահերթություն
+    .title = { $title }
 threadpane-column-header-unread = Չընթերցված
     .title = Չընթերցված նամակների քանակը շղթայում
 threadpane-column-label-unread =
     .label = Չընթերցված
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Հաշվել չընթերցված նամակները
+    .title = { $title }
 threadpane-column-header-total = Ընդամենը
     .title = Նամակների ընդ. քանակը ըստ շղթայի
 threadpane-column-label-total =
     .label = Ընդամենը
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Հաղորդագրությունների ընդհանուր քանակը
+    .title = { $title }
 threadpane-column-header-location = Տեղադրությունը
     .title = Տեսակավորել ըստ՝ տեղադրության
 threadpane-column-label-location =
     .label = Տեղադրությունը
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Տեղադրություն
+    .title = { $title }
 threadpane-column-header-id = Ստացման կարգի
     .title = Տեսակավորել ըստ՝ ստանալու կարգի
 threadpane-column-label-id =
     .label = Ստացման կարգի
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Ստացման կարգի
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Ջնջել նամակը
 threadpane-column-label-delete =
     .label = Ջնջել
+threadpane-cell-delete =
+    .aria-label = Ջնջել
 # Variables:
 # $count (Number) - Number of replies in thread.
 threadpane-replies =
@@ -351,6 +375,9 @@ threadpane-replies =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Նոր նամակի ցուցիչ
+    .title = Նոր նամակ
 apply-columns-to-menu =
     .label = Կիրառել սյունները՝
 apply-current-view-to-folder =

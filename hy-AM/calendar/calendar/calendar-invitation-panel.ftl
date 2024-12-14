@@ -3,6 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-invitation-panel-status-new = Դուք հրավիրված եք այս միջոցառմանը:
+calendar-invitation-panel-status-processed = Միջոցառումն արդեն ավելացված է ձեր օրացույցում
+calendar-invitation-panel-status-updateminor = Այս հաղորդագրությունը իր մեջ թարմացում է ներառում այս միջոցառման համար։
+calendar-invitation-panel-status-updatemajor = Այս հաղորդագրությունը իր մեջ թարմացում է ներառում այս միջոցառման համար։ Դուք պետք է վերահաստատեք Ձեր մասնակցությունը։
+calendar-invitation-panel-status-cancelled = Այս հաղորդագրությունը չեղարկում է պարունակում այս միջոցառման համար։
+calendar-invitation-panel-status-cancelled-notfound = Այս հաղորդագրությունը չեղարկում է պարունակում միջոցառման համար, որը չկա քո օրացույցում։
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer }-ը չեղարկել է՝

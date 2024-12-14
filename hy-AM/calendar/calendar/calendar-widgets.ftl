@@ -11,7 +11,15 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Օրացույցեր
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } օրացույցն անջատված է
 calendar-enable-button = Միացնել
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } օրացույցի կարգավորումները
 calendar-import-new-calendar = Նոր օրացույց…
     .title = Ստեղծել կամ բաժանորդագրվել նոր օրացույցի
 calendar-new-event-primary-button = Նոր իրադարձություն

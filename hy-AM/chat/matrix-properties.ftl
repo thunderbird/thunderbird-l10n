@@ -80,11 +80,18 @@ detail-alias = Փոխանուն՝ { $value }
 detail-guest = Հյուրերի մուտք՝ { $value }
 # This is a heading, followed by the power-level-* strings
 detail-power = Հզորության մակարդակներ՝
+# LOCALIZATION NOTE (message-*):
+#    These are shown as system messages in the conversation.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+message-banned = { $user } արգելված է { $userBanned }:
 #    $user is the name of the user who accepted an invitation.
 message-accepted-invite = { $user }-ն ընդունել է հրավերը:
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user }-ը հրավիրել է { $userWhoGotInvited }-ին:
+#    $user is the name of the user who has removed the room name.
+message-room-name-remove = { $user }-ը հեռացրեց սենյակի անունը:
 message-decrypting = Վերծանում…
 #    Label in the message context menu
 message-action-request-key = Կրկին պահանջել բանալիներ
