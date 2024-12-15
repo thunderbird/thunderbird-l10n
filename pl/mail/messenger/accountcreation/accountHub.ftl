@@ -116,4 +116,16 @@ account-hub-edit-configuration = Edytuj konfigurację
 account-hub-config-success = Konfiguracja znaleziona w bazie danych Mozilli
 account-hub-password-info = Dane logowania będą przechowywane wyłącznie lokalnie na komputerze użytkownika
 account-hub-sync-success = Thunderbird znalazł usługi połączone
+account-hub-sync-failure = Thunderbird nie mógł znaleźć usług połączonych
+account-hub-unable-to-sync-accounts = Thunderbird nie mógł połączyć się z wybranymi usługami
 account-hub-email-added-success = Pomyślnie połączono z kontem e-mail
+account-hub-config-test-success = Ustawienia konfiguracji są prawidłowe
+account-hub-select-all = Wybierz wszystkie
+account-hub-deselect-all = Usuń wybór wszystkich
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } wybrane
+        [few] { $count } wybrane
+       *[many] { $count } wybranych
+    }
