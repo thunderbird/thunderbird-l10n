@@ -129,3 +129,7 @@ account-hub-sync-accounts-selected =
         [few] { $count } wybrane
        *[many] { $count } wybranych
     }
+account-hub-no-address-books = Nie znaleziono książek adresowych
+account-hub-no-calendars = Nie znaleziono kalendarzy
+account-hub-email-added-success-links-title = Poznaj opcje bezpieczeństwa i personalizacji:
+account-hub-signature-link = Podpis wiadomości e-mail
