@@ -120,6 +120,7 @@ account-hub-sync-failure = Το Thunderbird δεν μπόρεσε να βρει 
 account-hub-email-added-success = Επιτυχής σύνδεση λογαριασμού email
 account-hub-config-test-success = Έγκυρες ρυθμίσεις παραμέτρων
 account-hub-select-all = Επιλογή όλων
+account-hub-deselect-all = Αποεπιλογή όλων
 account-hub-no-address-books = Δεν βρέθηκαν ευρετήρια
 account-hub-no-calendars = Δεν βρέθηκαν ημερολόγια
 account-hub-email-added-success-links-title = Εξερευνήστε επιλογές για ασφάλεια και εξατομίκευση:
