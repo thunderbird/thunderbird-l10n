@@ -137,3 +137,4 @@ account-hub-sync-accounts-selected =
 account-hub-no-address-books = Nebyly nalezeny žádné složky kontaktů
 account-hub-no-calendars = Nebyly nalezeny žádné kalendáře
 account-hub-email-added-success-links-title = Prozkoumejte možnosti zabezpečení a přizpůsobení:
+account-hub-signature-link = Podpis e-mailu
