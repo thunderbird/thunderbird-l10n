@@ -120,5 +120,20 @@ account-hub-edit-configuration = Upravit konfiguraci
 account-hub-config-success = Nastavení bylo nalezeno v Mozilla ISPDB
 account-hub-password-info = Vaše přihlašovací údaje budou uloženy pouze na vašem počítači
 account-hub-sync-success = Thunderbird nalezl nějaké propojené služby
+account-hub-sync-failure = Thunderbird nemohl najít připojené služby
+account-hub-unable-to-sync-accounts = Thunderbirdu se nepodařilo připojit vybrané služby
 account-hub-email-added-success = E-mailový účet byl úspěšně připojen
 account-hub-config-test-success = Konfigurační nastavení je platné
+account-hub-select-all = Vybrat vše
+account-hub-deselect-all = Zrušit výběr
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } vybrán
+        [few] { $count } vybrány
+        [many] { $count } vybráno
+       *[other] { $count } vybráno
+    }
+account-hub-no-address-books = Nebyly nalezeny žádné složky kontaktů
+account-hub-no-calendars = Nebyly nalezeny žádné kalendáře
+account-hub-email-added-success-links-title = Prozkoumejte možnosti zabezpečení a přizpůsobení:
