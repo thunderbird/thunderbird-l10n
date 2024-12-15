@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+toolbar-context-menu-menu-bar =
+    .toolbarname = 메뉴 모음
+    .accesskey = M
 
 ## Tools Menu
 
@@ -11,9 +14,71 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = 부가 기능 및 테마
     .accesskey = A
+menu-export-for-mobile =
+    .label = 모바일용으로 내보내기…
+    .accesskey = P
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = 도움말
+    .accesskey = H
+menu-help-get-help =
+    .label = 도움 받기
+    .accesskey = H
+menu-help-get-release-help =
+    .label = { -brand-short-name } 도움 받기
+    .accesskey = R
+menu-help-shortcuts =
+    .label = 키보드 단축키
+    .accesskey = K
+menu-help-get-involved =
+    .label = 참여하기
+    .accesskey = G
+menu-help-donation =
+    .label = 기부하기
+    .accesskey = D
+menu-help-share-feedback =
+    .label = 아이디어 공유 및 의견 보내기
+    .accesskey = S
+menu-help-enter-troubleshoot-mode =
+    .label = 문제 해결 모드…
+    .accesskey = M
+menu-help-exit-troubleshoot-mode =
+    .label = 문제 해결 모드 끄기
+    .accesskey = M
+menu-help-troubleshooting-info =
+    .label = 문제 해결 정보
+    .accesskey = T
+menu-help-about-product =
+    .label = { -brand-short-name } 정보
+    .accesskey = A
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] 종료
+           *[other] 종료
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] x
+           *[other] Q
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = { -brand-shorter-name } 종료
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] { -brand-full-name } 종료
+           *[other] { -brand-full-name } 종료
+        }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 
@@ -38,9 +103,15 @@ menu-view-repair-text-encoding =
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = 폴더 창 헤더
+    .accesskey = F
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = 메시지 목록 헤더
+    .accesskey = H
 menu-font-size-label =
     .label = 글자 크기
     .accesskey = o
@@ -59,6 +130,21 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = 좁게
     .accesskey = C
+mail-uidensity-default =
+    .label = 기본
+    .accesskey = D
+mail-uidensity-relaxed =
+    .label = 넓게
+    .accesskey = R
+menu-spaces-toolbar-button =
+    .label = Spaces 도구 모음
+    .accesskey = S
 
 ## File
 
+file-new-email-account =
+    .label = 이메일 계정…
+    .accesskey = E
+file-new-newsgroup-account =
+    .label = 뉴스 그룹 계정…
+    .accesskey = N

@@ -75,7 +75,26 @@ list-id-list-owner =
 list-id-list-archive =
     .label = 목록 보관
     .accesskey = A
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = 메시지 영구링크
+    .accesskey = P
+# An additional email header field that the user has chosen to display. Unlike
+# the other headers, the name of this header is not expected to be localised
+# because it is generated from the raw field name found in the email header.
+#   $fieldName (String) - The field name.
+message-header-custom-field = { $fieldName }<span data-l10n-name="field-separator">:</span>
 
 ##
 
+message-header-address-in-address-book-icon2 =
+    .alt = 주소록에 있음
+message-header-address-not-in-address-book-icon2 =
+    .alt = 주소록에 없음
+message-header-address-not-in-address-book-button =
+    .title = 이 주소를 주소록에 저장
+message-header-address-in-address-book-button =
+    .title = 연락처 편집
+message-header-field-show-more = 더 보기
+    .title = 모든 수신자 보기
 message-ids-field-show-all = 모두 표시
