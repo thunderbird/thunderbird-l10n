@@ -121,3 +121,14 @@ account-hub-unable-to-sync-accounts = O Thunderbird não conseguiu se conectar c
 account-hub-email-added-success = Conta de email conectada com sucesso
 account-hub-config-test-success = Parâmetros de configuração válidos
 account-hub-select-all = Selecionar tudo
+account-hub-deselect-all = Desmarcar tudo
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } selecionada
+       *[other] { $count } selecionadas
+    }
+account-hub-no-address-books = Nenhum catálogo de endereços encontrado
+account-hub-no-calendars = Nenhuma agenda encontrada
+account-hub-email-added-success-links-title = Conheça opções de segurança e personalização:
+account-hub-signature-link = Assinatura de email
