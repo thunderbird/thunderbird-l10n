@@ -116,5 +116,20 @@ account-hub-edit-configuration = Редагувати конфігурацію
 account-hub-config-success = Конфігурацію знайдено в Mozilla ISPDB
 account-hub-password-info = Ваші облікові дані зберігатимуться лише локально на вашому комп'ютері
 account-hub-sync-success = Thunderbird знайшов деякі під'єднані служби
+account-hub-sync-failure = Thunderbird не вдалося знайти під'єднані служби
+account-hub-unable-to-sync-accounts = Thunderbird не вдалося під'єднати вибрані служби
 account-hub-email-added-success = Обліковий запис електронної пошти успішно під'єднано
 account-hub-config-test-success = Параметри конфігурації дійсні
+account-hub-select-all = Вибрати все
+account-hub-deselect-all = Зняти вибір із усього
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] Вибрано { $count }
+        [few] Вибрано { $count }
+       *[many] Вибрано { $count }
+    }
+account-hub-no-address-books = Адресних книг не знайдено
+account-hub-no-calendars = Календарів не знайдено
+account-hub-email-added-success-links-title = Ознайомтеся з можливостями безпеки та персоналізації:
+account-hub-signature-link = Підпис електронної пошти
