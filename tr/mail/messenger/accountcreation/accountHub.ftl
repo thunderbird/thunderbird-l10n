@@ -130,4 +130,5 @@ account-hub-sync-accounts-selected =
     }
 account-hub-no-address-books = Hiç adres defteri bulunamadı
 account-hub-no-calendars = Hiç takvim bulunamadı
+account-hub-email-added-success-links-title = Güvenlik ve kişiselleştirme seçeneklerini keşfedin:
 account-hub-signature-link = E-posta imzası
