@@ -87,7 +87,7 @@ update-in-progress-ok-button = &ละทิ้ง
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &ดำเนินการต่อ
 account-button = การตั้งค่าบัญชี
-open-addons-sidebar-button = ส่วนเสริมและชุดรูปแบบ
+open-addons-sidebar-button = ส่วนเสริมและชุดตกแต่ง
 
 ## OS Authentication dialog
 

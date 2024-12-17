@@ -40,7 +40,7 @@ content-tab-security-broken-icon =
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
-    .label = ส่วนเสริมและชุดรูปแบบ
+    .label = ส่วนเสริมและชุดตกแต่ง
     .tooltiptext = จัดการส่วนเสริมของคุณ
 quick-filter-toolbarbutton =
     .label = ตัวกรองแบบเร็ว
@@ -137,7 +137,7 @@ appmenu-save-as-file =
 appmenu-settings =
     .label = การตั้งค่า
 appmenu-addons-and-themes =
-    .label = ส่วนเสริมและชุดรูปแบบ
+    .label = ส่วนเสริมและชุดตกแต่ง
 
 ## Context menu
 
@@ -146,18 +146,6 @@ mail-context-menu-forward-forward =
     .accesskey = ง
 context-menu-redirect-msg =
     .label = เปลี่ยนเส้นทาง
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label = ลบข้อความที่เลือก
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] เลิกลบข้อความ
-           *[other] เลิกลบข้อความที่เลือก
-        }
 
 ## Message header pane
 
@@ -265,7 +253,7 @@ settings-context-open-settings-item2 =
 settings-context-open-account-settings-item2 =
     .label = ตั้งค่าบัญชี
 settings-context-open-addons-item2 =
-    .label = ส่วนเสริมและชุดรูปแบบ
+    .label = ส่วนเสริมและชุดตกแต่ง
 
 ## Spaces toolbar pinned tab menupopup
 

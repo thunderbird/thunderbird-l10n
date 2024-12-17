@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 open-preferences-sidebar-button2 = การตั้งค่า { -brand-short-name }
-open-addons-sidebar-button = ส่วนเสริมและชุดรูปแบบ
+open-addons-sidebar-button = ส่วนเสริมและชุดตกแต่ง
 account-action-add-newsgroup-account =
     .label = เพิ่มบัญชีกลุ่มข่าว…
     .accesskey = ก

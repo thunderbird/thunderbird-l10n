@@ -2,24 +2,83 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+toolbar-context-menu-menu-bar =
+    .toolbarname = แถบเมนู
+    .accesskey = ม
 
 ## Tools Menu
 
 menu-tools-settings =
     .label = ตั้งค่า
-    .accesskey = e
+    .accesskey = ต
 menu-addons-and-themes =
-    .label = ส่วนเสริมและชุดรูปแบบ
+    .label = ส่วนเสริมและชุดตกแต่ง
+    .accesskey = ส
+menu-export-for-mobile =
+    .label = ส่งออกสำหรับมือถือ…
     .accesskey = ส
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = ช่วยเหลือ
+    .accesskey = ช
+menu-help-get-help =
+    .label = รับความช่วยเหลือ
+    .accesskey = ช
+menu-help-get-release-help =
+    .label = รับความช่วยเหลือสำหรับ { -brand-short-name }
+    .accesskey = R
+menu-help-shortcuts =
+    .label = แป้นพิมพ์ลัด
+    .accesskey = ป
+menu-help-get-involved =
+    .label = มีส่วนร่วม
+    .accesskey = ม
+menu-help-donation =
+    .label = ทำการบริจาค
+    .accesskey = บ
+menu-help-share-feedback =
+    .label = แบ่งปันแนวคิดและข้อเสนอแนะ
+    .accesskey = แ
 menu-help-enter-troubleshoot-mode =
     .label = โหมดแก้ไขปัญหา…
-    .accesskey = M
+    .accesskey = ห
 menu-help-exit-troubleshoot-mode =
     .label = ปิดโหมดแก้ไขปัญหา
-    .accesskey = M
+    .accesskey = ห
+menu-help-troubleshooting-info =
+    .label = ข้อมูลการแก้ไขปัญหา
+    .accesskey = ก
+menu-help-about-product =
+    .label = เกี่ยวกับ { -brand-short-name }
+    .accesskey = เ
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] ออก
+           *[other] ออก
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] x
+           *[other] อ
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = ออกจาก { -brand-shorter-name }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] ออกจาก { -brand-full-name }
+           *[other] ออกจาก { -brand-full-name }
+        }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
+quit-app-shortcut =
+    .key = อ
 
 ## Mail Toolbar
 
@@ -44,15 +103,21 @@ menu-view-repair-text-encoding =
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = ส่วนหัวของบานหน้าต่างโฟลเดอร์
+    .accesskey = า
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = ส่วนหัวรายชื่อข้อความ
+    .accesskey = ส
 menu-font-size-label =
-    .label = ขนาดตัวหนังสือ
-    .accesskey = o
+    .label = ขนาดอักษร
+    .accesskey = อ
 menuitem-font-size-enlarge =
-    .label = เพิ่มขนาดแบบอักษร
-    .accesskey = I
+    .label = เพิ่มขนาดอักษร
+    .accesskey = พ
 menuitem-font-size-reduce =
     .label = ลดขนาดตัวอักษร
     .accesskey = D
