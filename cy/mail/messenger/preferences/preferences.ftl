@@ -579,6 +579,14 @@ third-party-visited =
 cookies-button =
     .label = Dangos Cwcis…
     .accesskey = D
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Rheoli Preifatrwydd Eang (GPC)
+global-privacy-control-description =
+    .label = Dweud wrth wefannau i beidio â gwerthu neu rannu fy nata
+    .accesskey = D
+do-not-track-removal = Nid ydym bellach yn cefnogi'r signal “Peidiwch â Thracio”.
 do-not-track-label =
     .label = Anfon neges “Dim Tracio” at wefannau nad ydych am gael eich tracio
     .accesskey = D
