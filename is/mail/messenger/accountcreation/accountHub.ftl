@@ -123,7 +123,11 @@ account-hub-config-test-success = Grunnstillingar eru gildar
 account-hub-select-all = Velja allt
 account-hub-deselect-all = Afvelja allt
 # $count (Number) - The number of sync accounts selected.
-account-hub-selected = { $count } valin
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } valið
+       *[other] { $count } valið
+    }
 account-hub-no-address-books = Engar nafnaskrár fundust
 account-hub-no-calendars = Engin dagatöl fundust
 account-hub-email-added-success-links-title = Kannaðu valkosti fyrir öryggi og sérstillingar:
