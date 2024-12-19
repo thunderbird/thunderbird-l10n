@@ -579,6 +579,14 @@ third-party-visited =
 cookies-button =
     .label = Placki pokazać…
     .accesskey = c
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = Websydłam zdźělić, zo nimaja moje daty předać abo dźělić
+    .accesskey = z
+do-not-track-removal = Hižo njepodpěrujemy signal „Njeslědować“
 do-not-track-label =
     .label = Websydłam signal “Njeslědować” pósłać, zo nochceće, zo wone was slěduja
     .accesskey = s
