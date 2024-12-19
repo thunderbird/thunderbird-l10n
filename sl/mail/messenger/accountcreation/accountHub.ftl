@@ -116,5 +116,21 @@ account-hub-edit-configuration = Uredi nastavitve
 account-hub-config-success = Nastavitve so bile najdene v Mozillini podatkovni zbirki ponudnikov
 account-hub-password-info = Poverilnice bodo shranjene izključno na vašem računalniku
 account-hub-sync-success = Thunderbird je odkril nekaj povezanih storitev
+account-hub-sync-failure = Thunderbird ni uspel najti povezanih storitev
+account-hub-unable-to-sync-accounts = Thunderbird se ni uspel povezati s povezanimi storitvami
 account-hub-email-added-success = E-poštni račun uspešno povezan
 account-hub-config-test-success = Nastavitve so veljavne
+account-hub-select-all = Izberi vse
+account-hub-deselect-all = Počisti izbiro
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } izbran
+        [two] { $count } izbrana
+        [few] { $count } izbrani
+       *[other] { $count } izbranih
+    }
+account-hub-no-address-books = Ni najdenih imenikov
+account-hub-no-calendars = Ni najdenih koledarjev
+account-hub-email-added-success-links-title = Raziščite možnosti varnosti in prilagajanja:
+account-hub-signature-link = E-poštni podpis
