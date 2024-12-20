@@ -8,7 +8,7 @@
 <!ENTITY addressingGroupTitle.label "การกำหนดที่อยู่">
 <!ENTITY addressingText.label      "เมื่อมองหาที่อยู่:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
-<!ENTITY useGlobal.label           "ใช้ค่าปรับแต่งเซิร์ฟเวอร์ LDAP ส่วนกลางของฉันสำหรับบัญชีนี้">
+<!ENTITY useGlobal.label           "ใช้ค่าปรับแต่งเซิร์ฟเวอร์ LDAP ส่วนกลางของฉันกับบัญชีนี้">
 <!ENTITY useGlobal.accesskey       "U">
 <!ENTITY editDirectories.label     "แก้ไขไดเรกทอรี…">
 <!ENTITY editDirectories.accesskey "E">

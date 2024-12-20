@@ -71,7 +71,7 @@ manage-messenger-languages-button =
     .accesskey = ต
 confirm-messenger-language-change-description = เริ่มการทำงาน { -brand-short-name } ใหม่เพื่อใช้การเปลี่ยนแปลงเหล่านี้
 confirm-messenger-language-change-button = นำไปใช้แล้วเริ่มการทำงานใหม่
-update-setting-write-failure-title = เกิดข้อผิดพลาดในการบันทึกค่าปรับแต่งการอัปเดต
+update-setting-write-failure-title = เกิดข้อผิดพลาดขณะบันทึกค่าปรับแต่งการอัปเดต
 # Variables:
 #   $path (String) - Path to the configuration file
 # The newlines between the main text and the line containing the path is
