@@ -116,5 +116,19 @@ account-hub-edit-configuration = Modifitgar la configuraziun
 account-hub-config-success = Configuraziun chattada en la banca da datas ISP da Mozilla
 account-hub-password-info = Tias infurmaziuns d’annunzia vegnan mo memorisadas localmain sin tes computer
 account-hub-sync-success = Thunderbird ha chattà servetschs connectads
+account-hub-sync-failure = Thunderbird n’ha chattà nagins servetschs connectads
+account-hub-unable-to-sync-accounts = Thunderbird n’ha betg pudì connectar ils servetschs tschernids
 account-hub-email-added-success = Connectà cun success il conto dad e-mail
 account-hub-config-test-success = Parameters da configuraziun valids
+account-hub-select-all = Selecziunar tut
+account-hub-deselect-all = Deselecziunar tut
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } tschernì
+       *[other] { $count } tschernids
+    }
+account-hub-no-address-books = Na chattà nagins cudeschets d’adressas
+account-hub-no-calendars = Na chattà nagins chalenders
+account-hub-email-added-success-links-title = Scuvra las opziuns da segirezza e persunalisaziun:
+account-hub-signature-link = Signatura dad e-mail
