@@ -116,5 +116,15 @@ account-hub-edit-configuration = Sửa cấu hình
 account-hub-config-success = Cấu hình được tìm thấy trong Mozilla ISPDB
 account-hub-password-info = Thông tin đăng nhập của bạn sẽ chỉ được lưu trữ cục bộ trên máy tính của bạn
 account-hub-sync-success = Thunderbird tìm thấy một số dịch vụ được kết nối
+account-hub-sync-failure = Thunderbird không thể tìm thấy các dịch vụ được kết nối
+account-hub-unable-to-sync-accounts = Thunderbird không thể kết nối các dịch vụ đã chọn
 account-hub-email-added-success = Tài khoản email được kết nối thành công
 account-hub-config-test-success = Cấu hình thiết lập hợp lệ
+account-hub-select-all = Chọn tất cả
+account-hub-deselect-all = Bỏ chọn tất cả
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected = { $count } đã chọn
+account-hub-no-address-books = Không tìm thấy sổ địa chỉ
+account-hub-no-calendars = Không tìm thấy lịch
+account-hub-email-added-success-links-title = Khám phá các tùy chọn về bảo mật và cá nhân hóa:
+account-hub-signature-link = Chữ ký email
