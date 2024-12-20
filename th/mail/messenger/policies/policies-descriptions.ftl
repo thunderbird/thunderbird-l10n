@@ -76,7 +76,7 @@ policy-PasswordManagerEnabled = เปิดใช้งานการบัน
 # PDF.js and PDF should not be translated
 policy-PDFjs = ปิดใช้งานหรือกำหนดค่า PDF.js ตัวดู PDF ในตัวใน { -brand-short-name }
 policy-Permissions2 = กำหนดค่าสิทธิอนุญาตสำหรับกล้อง, ไมโครโฟน, ตำแหน่งที่ตั้ง, การแจ้งเตือน, และการเล่นอัตโนมัติ
-policy-Preferences = ตั้งค่าและล็อคค่าสำหรับชุดย่อยของการกำหนดลักษณะ
+policy-Preferences = ตั้งค่าและล็อคค่าสำหรับชุดย่อยของค่าปรับแต่ง
 policy-PrimaryPassword = ต้องการหรือป้องกันการใช้รหัสผ่านหลัก
 policy-PromptForDownloadLocation = ถามตำแหน่งที่จะบันทึกไฟล์เมื่อดาวน์โหลด
 policy-Proxy = กำหนดค่าการตั้งค่าพร็อกซี

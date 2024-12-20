@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "ย">
 <!ENTITY newVirtualFolderCmd.label "การค้นหาที่บันทึกไว้…">
 <!ENTITY newVirtualFolderCmd.accesskey "ก">
-<!ENTITY newCreateEmailAccountCmd.label "รับบัญชีจดหมายใหม่…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "ร">
-<!ENTITY newExistingEmailAccountCmd.label "บัญชีจดหมายที่มีอยู่…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "ญ">
 <!ENTITY newIMAccountCmd.label "บัญชีแชท…">
 <!ENTITY newIMAccountCmd.accesskey "บ">
 <!ENTITY newFeedAccountCmd.label "บัญชีฟีด…">
@@ -564,7 +560,7 @@
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "ส">
 <!ENTITY editRemoteContentSettings.label "แก้ไขตัวเลือกเนื้อหาระยะไกล…">
 <!ENTITY editRemoteContentSettings.accesskey "ก">
-<!ENTITY editRemoteContentSettingsUnix.label "แก้ไขการกำหนดลักษณะเนื้อหาระยะไกล…">
+<!ENTITY editRemoteContentSettingsUnix.label "แก้ไขค่าปรับแต่งเนื้อหาระยะไกล…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "ก">
 
 <!-- Phishing Button Popup -->
@@ -572,7 +568,7 @@
 <!ENTITY phishingOptionIgnore.accesskey "พ">
 <!ENTITY phishingOptionSettings.label "แก้ไขตัวเลือกการตรวจหาการหลอกลวง…">
 <!ENTITY phishingOptionSettings.accesskey "แ">
-<!ENTITY phishingOptionSettingsUnix.label "แก้ไขการกำหนดลักษณะการตรวจหาการหลอกลวง…">
+<!ENTITY phishingOptionSettingsUnix.label "แก้ไขค่าปรับแต่งการตรวจหาการหลอกลวง…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "แ">
 
 <!-- AppMenu Popup -->
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "เ">
 <!ENTITY folderContextMarkNewsgroupRead.label "ทำเครื่องหมายกลุ่มข่าวว่าอ่านแล้ว">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "ง">
-<!ENTITY folderContextMarkMailFolderRead.label "ทำเครื่องหมายโฟลเดอร์ว่าอ่านแล้ว">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "ง">
 <!ENTITY folderContextSubscribe.label "บอกรับ…">
 <!ENTITY folderContextSubscribe.accesskey "บ">
 <!ENTITY folderContextSearchForMessages.label "ค้นหาข้อความ…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "ท">
 <!ENTITY contextReplyList.label "ตอบกลับถึงรายการ">
 <!ENTITY contextReplyList.accesskey "ร">
-<!ENTITY contextForward.label "ส่งต่อ">
-<!ENTITY contextForward.accesskey "ง">
-<!ENTITY contextForwardAsMenu.label "ส่งต่อเป็น">
-<!ENTITY contextForwardAsMenu.accesskey "ต">
-<!ENTITY contextForwardAsInline.label "อินไลน์">
-<!ENTITY contextForwardAsInline.accesskey "อ">
-<!ENTITY contextForwardAsAttachmentItem.label "ไฟล์แนบ">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "ฟ">
-<!ENTITY contextMultiForwardAsAttachment.label "ส่งต่อเป็นไฟล์แนบ">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "เ">
 <!ENTITY contextMoveMsgMenu.label "ย้ายไปยัง">
 <!ENTITY contextMoveMsgMenu.accesskey "ย">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "ล่าสุด">
@@ -898,7 +882,7 @@
 <!ENTITY zoomWindow.label "ซูม">
 
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "การกำหนดลักษณะ">
+<!ENTITY preferencesCmdMac2.label       "ค่าปรับแต่ง">
 <!ENTITY preferencesCmdMac.commandkey   ",">
 <!ENTITY preferencesCmdMac.modifiers    "accel">
 <!ENTITY servicesMenuMac.label          "บริการ">

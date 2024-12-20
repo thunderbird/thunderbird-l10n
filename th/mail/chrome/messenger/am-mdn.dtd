@@ -3,9 +3,9 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY pane.title                   "การแจ้งเตือนการเปิดอ่าน">
-<!ENTITY useGlobalPrefs.label         "ใช้ค่ากำหนดการแจ้งเตือนการเปิดอ่านกลางสำหรับบัญชีนี้">
+<!ENTITY useGlobalPrefs.label         "ใช้ค่าปรับแต่งการแจ้งเตือนการเปิดอ่านส่วนกลางสำหรับบัญชีนี้">
 <!ENTITY useGlobalPrefs.accesskey     "U">
-<!ENTITY globalReceipts.label         "ค่ากำหนดส่วนกลาง…">
+<!ENTITY globalReceipts.label         "ค่าปรับแต่งส่วนกลาง…">
 <!ENTITY globalReceipts.accesskey     "G">
 <!ENTITY useCustomPrefs.label         "ปรับแต่งการแจ้งเตือนการเปิดอ่านสำหรับบัญชีนี้">
 <!ENTITY useCustomPrefs.accesskey     "C">

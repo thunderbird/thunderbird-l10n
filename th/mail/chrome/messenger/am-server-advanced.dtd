@@ -13,7 +13,7 @@
 <!ENTITY maximumConnectionsNumber.label "จำนวนการเชื่อมต่อเซิร์ฟเวอร์สูงสุดที่จะแคช">
 <!ENTITY maximumConnectionsNumber.accesskey "จ">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
-<!ENTITY namespaceDesc.label "ค่ากำหนดเหล่านี้ระบุเนมสเปซที่อยู่บนเซิร์ฟเวอร์ IMAP ของคุณ">
+<!ENTITY namespaceDesc.label "ค่าปรับแต่งเหล่านี้ระบุเนมสเปซที่อยู่บนเซิร์ฟเวอร์ IMAP ของคุณ">
 <!ENTITY personalNamespace.label "เนมสเปซส่วนตัว:">
 <!ENTITY personalNamespace.accesskey "น">
 <!ENTITY publicNamespace.label "สาธารณะ (ที่แบ่งปัน):">

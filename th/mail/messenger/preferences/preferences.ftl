@@ -71,13 +71,13 @@ manage-messenger-languages-button =
     .accesskey = ต
 confirm-messenger-language-change-description = เริ่มการทำงาน { -brand-short-name } ใหม่เพื่อใช้การเปลี่ยนแปลงเหล่านี้
 confirm-messenger-language-change-button = นำไปใช้แล้วเริ่มการทำงานใหม่
-update-setting-write-failure-title = เกิดข้อผิดพลาดในการบันทึกการกำหนดลักษณะการอัปเดต
+update-setting-write-failure-title = เกิดข้อผิดพลาดในการบันทึกค่าปรับแต่งการอัปเดต
 # Variables:
 #   $path (String) - Path to the configuration file
 # The newlines between the main text and the line containing the path is
 # intentional so the path is easier to identify.
 update-setting-write-failure-message =
-    { -brand-short-name } พบข้อผิดพลาดและไม่ได้บันทึกการเปลี่ยนแปลงนี้ โปรดทราบว่าการตั้งค่าค่ากำหนดการอัปเดตนี้จำเป็นต้องได้รับสิทธิอนุญาตให้เขียนไปยังไฟล์ด้านล่าง คุณหรือผู้ดูแลระบบอาจสามารถแก้ไขข้อผิดพลาดได้ด้วยการมอบสิทธิ์ให้กับกลุ่มผู้ใช้เพื่อให้สามารถควบคุมไฟล์นี้ได้อย่างเต็มที่
+    { -brand-short-name } พบข้อผิดพลาดและไม่ได้บันทึกการเปลี่ยนแปลงนี้ โปรดทราบว่าการตั้งค่าปรับแต่งการอัปเดตนี้จำเป็นต้องได้รับสิทธิ์ให้เขียนไปยังไฟล์ด้านล่าง คุณหรือผู้ดูแลระบบอาจสามารถแก้ไขข้อผิดพลาดได้ด้วยการมอบสิทธิ์ให้กับกลุ่มผู้ใช้เพื่อให้สามารถควบคุมไฟล์นี้ได้อย่างเต็มที่
     
     ไม่สามารถเขียนไปยังไฟล์: { $path }
 update-in-progress-title = กำลังปรับปรุง
@@ -148,7 +148,7 @@ mail-play-sound-label =
 mail-play-button =
     .label = เล่น
     .accesskey = ล
-change-dock-icon = เปลี่ยนการตั้งค่าสำหรับไอคอนแอป
+change-dock-icon = เปลี่ยนค่าปรับแต่งสำหรับไอคอนแอป
 app-icon-options =
     .label = ตัวเลือกไอคอนแอป…
     .accesskey = ไ
