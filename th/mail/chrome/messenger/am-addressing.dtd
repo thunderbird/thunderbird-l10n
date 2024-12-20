@@ -2,15 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xul -->
-
 <!-- extracted from am-addressing.xhtml -->
 
 <!ENTITY addressing.label          "การเขียนและการกำหนดที่อยู่">
 <!ENTITY addressingGroupTitle.label "การกำหนดที่อยู่">
 <!ENTITY addressingText.label      "เมื่อมองหาที่อยู่:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
-<!ENTITY useGlobal.label           "ใช้ค่ากำหนดเซิร์ฟเวอร์ LDAP ทั่วโลกของฉันสำหรับบัญชีนี้">
+<!ENTITY useGlobal.label           "ใช้ค่าปรับแต่งเซิร์ฟเวอร์ LDAP ส่วนกลางของฉันสำหรับบัญชีนี้">
 <!ENTITY useGlobal.accesskey       "U">
 <!ENTITY editDirectories.label     "แก้ไขไดเรกทอรี…">
 <!ENTITY editDirectories.accesskey "E">
@@ -18,8 +16,6 @@
 <!ENTITY directories.label         "ใช้เซิร์ฟเวอร์ LDAP อื่น:">
 <!ENTITY directories.accesskey     "d">
 <!ENTITY directoriesNone.label     "ไม่มี">
-
-<!-- am-addressing.xul -->
 
 <!-- am-addressing.xhtml -->
 
@@ -44,8 +40,8 @@
 <!ENTITY includeSigOnForward.label            "รวมลายเซ็นสำหรับการส่งต่อ">
 <!ENTITY includeSigOnForward.accesskey        "w">
 
-<!ENTITY globalComposingPrefs.label           "การตั้งค่าการเขียนส่วนกลาง…">
+<!ENTITY globalComposingPrefs.label           "ค่าปรับแต่งการเขียนส่วนกลาง…">
 <!ENTITY globalComposingPrefs.accesskey       "G">
 
-<!ENTITY globalAddressingPrefs.label          "การตั้งค่าการกำหนดที่อยู่ส่วนกลาง…">
+<!ENTITY globalAddressingPrefs.label          "ค่าปรับแต่งการกำหนดที่อยู่ส่วนกลาง…">
 <!ENTITY globalAddressingPrefs.accesskey      "P">

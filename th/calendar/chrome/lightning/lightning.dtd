@@ -48,7 +48,7 @@
 
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label                   "การแจ้งเตือน">
-<!ENTITY lightning.calendarproperties.globalNotifications.label             "การกำหนดลักษณะการแจ้งเตือนส่วนกลาง…">
+<!ENTITY lightning.calendarproperties.globalNotifications.label             "ค่าปรับแต่งการแจ้งเตือนส่วนกลาง…">
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label                                  "ยอมรับ">

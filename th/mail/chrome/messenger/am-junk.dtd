@@ -27,5 +27,5 @@
 <!ENTITY junkClassification.label "ส่วนที่เลือก">
 <!ENTITY junkActions.label "ตำแหน่งปลายทางและการเก็บข้อมูล">
 
-<!ENTITY globalJunkPrefs.label "การตั้งค่าขยะกลาง…">
+<!ENTITY globalJunkPrefs.label "ค่าปรับแต่งขยะส่วนกลาง…">
 <!ENTITY globalJunkPrefs.accesskey "ก">
