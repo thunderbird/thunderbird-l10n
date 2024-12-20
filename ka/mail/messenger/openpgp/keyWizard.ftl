@@ -115,7 +115,7 @@ import-error-file-size = <b>შეცდომა!</b> 5MB-ზე დიდი �
 import-error-failed = <b>შეცდომა!</b> ვერ მოხერხდა ფაილის შემოტანა. { $error }
 #   $error (String) - the reported error from the failed key import method
 openpgp-import-keys-failed = <b>შეცდომა!</b> ვერ მოხერხდა გასაღებების შემოტანა. { $error }
-openpgp-import-identity-label = მოწმობა
+openpgp-import-identity-label = ვინაობა
 openpgp-import-fingerprint-label = ანაბეჭდი
 openpgp-import-created-label = შექმნილი
 openpgp-import-bits-label = ბიტი

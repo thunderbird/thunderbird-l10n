@@ -5,13 +5,10 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "ანგარიშის გამართვის მეგზური">
-<!ENTITY accountWizard.size "width: 50em; height: 45em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
-<!ENTITY identityTitle.label "მოწმობა">
+<!ENTITY identityTitle.label "ვინაობა">
 <!ENTITY identityDesc.label "თითოეულ ანგარიშს გააჩნია საკუთარი დასამოწმებელი მონაცემები, რომლის საშუალებითაც ხდება თქვენი გამორჩევა სხვებისგან, თქვენი წერილების მიღებისას.">
 
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "მიუთითეთ თქვენი სიახლეთა ჯგუფის სერვერის (NNTP) სახელი (მაგალითად, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "სიახლეთა ჯგუფის სერვერი:">
 <!ENTITY newsServerLabel.accesskey "ს">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 
