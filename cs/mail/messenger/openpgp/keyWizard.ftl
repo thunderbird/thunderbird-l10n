@@ -5,13 +5,10 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Přidat osobní klíč OpenPGP pro { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Pokračovat
-    .buttonlabelhelp = Zpět
 key-wizard-dialog =
     .buttonlabelaccept = Pokračovat
     .buttonlabelextra1 = Zpět
-key-wizard-warning = <b>Pokud už máte</b> pro tuto e-mailovou adresu vytvořený osobní klíč, měli byste ho naimportovat. Jinak nebudete mít přístup do svých archivů šifrovaných e-maily, ani nebudete moci číst příchozí šifrované e-maily od lidí, kteří stále používají tento váš vytvořený klíč.
+key-wizard-warning = <b>Pokud už máte</b> pro tuto e-mailovou adresu vytvořený osobní klíč, měli byste ho importovat. Jinak nebudete mít přístup do svých archivů šifrovaných e-mailů, ani nebudete moci číst příchozí šifrované e-maily od lidí, kteří stále používají tento váš vytvořený klíč.
 key-wizard-learn-more = Zjistit více
 radio-create-key =
     .label = Vytvořit nový klíč OpenPGP
@@ -112,8 +109,6 @@ openpgp-import-key-list-caption = Klíče označené jako osobní klíče budou 
 openpgp-import-keep-passphrases =
     .label = U importovaných tajných klíčů ponechat ochranu přístupovou frází
 openpgp-passphrase-prompt-title = Vyžadována přístupová fráze
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Zadejte prosím přístupovou frázi pro odemknutí následujícího klíče: { $key }
 openpgp-import-key-button =
     .label = Vybrat soubor k importu…
     .accesskey = s
