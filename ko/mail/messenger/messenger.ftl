@@ -5,30 +5,89 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = 최소화
+messenger-window-maximize-button =
+    .tooltiptext = 최대화
+messenger-window-restore-down-button =
+    .tooltiptext = 이전 크기로 복원
 messenger-window-close-button =
     .tooltiptext = 닫기
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip = { $count }개의 읽지 않은 메시지
 about-rights-notification-text = { -brand-short-name }은 전 세계 수천 명의 커뮤니티에서 만든 무료 오픈 소스 소프트웨어입니다.
 
 ## Content tabs
 
+content-tab-page-loading-icon =
+    .alt = 페이지 로딩 중
+content-tab-security-high-icon =
+    .alt = 안전한 연결
+content-tab-security-broken-icon =
+    .alt = 안전하지 않은 연결
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = 한 페이지 뒤로 가기 ({ $shortcut })
+    .aria-label = 뒤로
+    .accesskey = B
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = 뒤로
+    .accesskey = B
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = 한 페이지 앞으로 가기({ $shortcut })
+    .aria-label = 앞으로
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = 앞으로
+    .accesskey = F
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = 페이지 새로 고침
+    .aria-label = 새로 고침
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = 페이지 새로 고침
+    .label = 새로 고침
+    .accesskey = R
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = 페이지 로딩 중지
+    .aria-label = 중지
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = 페이지 로딩 중지
+    .label = 중지
+    .accesskey = S
 
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
     .label = 부가 기능 및 테마
     .tooltiptext = 부가 기능 관리
+quick-filter-toolbarbutton =
+    .label = 빠른 필터
+    .tooltiptext = 메시지 필터
+redirect-msg-button =
+    .label = 리디렉션
+    .tooltiptext = 선택한 메시지 리디렉션
 
 ## Folder Pane
 
@@ -68,12 +127,18 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## File Menu
 
+menu-file-save-as-file =
+    .label = 파일…
+    .accesskey = F
 
 ## Edit Menu
 
 menu-edit-delete-folder =
     .label = 폴더 삭제
     .accesskey = D
+menu-edit-unsubscribe-newsgroup =
+    .label = 뉴스 그룹 구독 해지
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -104,34 +169,115 @@ menu-edit-newsgroup-properties =
 
 ## Message Menu
 
+redirect-msg-menuitem =
+    .label = 리디렉션
+    .accesskey = D
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = 파일…
+appmenu-settings =
+    .label = 설정
 appmenu-addons-and-themes =
     .label = 부가 기능 및 테마
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = 읽음으로 표시
+    .tooltiptext = 읽음으로 표시
+context-menu-mark-unread =
+    .aria-label = 읽지 않음으로 표시
+    .tooltiptext = 읽지 않음으로 표시
+context-menu-mark-reply =
+    .aria-label = 회신
+    .tooltiptext = 회신
+context-menu-archive =
+    .aria-label = 보관
+    .tooltiptext = 보관
+context-menu-mark-junk =
+    .aria-label = 스팸 메일로 표시
+    .tooltiptext = 스팸 메일로 표시
+context-menu-mark-not-junk =
+    .aria-label = 스팸 아님으로 표시
+    .tooltiptext = 스팸 아님으로 표시
+mail-context-menu-open =
+    .label = 열기
+    .accesskey = O
+mail-context-menu-reply =
+    .label = 회신
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = 전달 및 리디렉션
+    .accesskey = F
 mail-context-menu-forward-forward =
     .label = 전달
     .accesskey = F
+mail-context-menu-forward-inline =
+    .label = 인라인
+    .accesskey = I
 # Variables:
 # $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] 메시지 삭제 취소
-           *[other] 선택한 메시지 삭제 취소
-        }
+mail-context-menu-forward-as-attachment =
+    .label = 첨부파일로
+    .accesskey = A
+mail-context-menu-organize =
+    .label = 관리
+    .accesskey = g
+mail-context-menu-threads =
+    .label = 스레드
+    .accesskey = T
+context-menu-redirect-msg =
+    .label = 리디렉션
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = 메시지 취소
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label = 선택한 메시지 삭제
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label = 선택한 메시지 삭제 취소
+    .tooltiptext = { mail-context-messages-undelete.label }
+context-menu-decrypt-to-folder2 =
+    .label = 복호화된 사본 만들기
+    .accesskey = y
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = 리디렉션
+message-header-msg-flagged =
+    .title = 별표
+    .aria-label = 별표
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = { $address } 님의 프로필 사진.
 
 ## Message header cutomize panel
 
 
 ## Message header customize panel
 
+message-header-customize-panel-title = 메시지 헤더 설정
+message-header-customize-button-style =
+    .value = 버튼 스타일
+    .accesskey = B
+message-header-button-style-default =
+    .label = 아이콘과 글자
+message-header-button-style-text =
+    .label = 글자
+message-header-button-style-icons =
+    .label = 아이콘
+message-header-show-sender-full-address =
+    .label = 항상 보낸 사람의 전체 주소 표시
+    .accesskey = f
+message-header-show-sender-full-address-description = 이메일 주소가 표시 이름 아래에 표시됩니다.
 
 ## Action Button Context Menu
 
@@ -155,9 +301,32 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
 
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = 사용자 지정…
+spaces-customize-panel-title = Spaces 도구 모음 설정
+spaces-customize-background-color = 배경 색상
+spaces-customize-icon-color = 버튼 색상
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = 선택한 버튼 배경 색상
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = 선택한 버튼 색상
+spaces-customize-button-restore = 기본값으로 복원
+    .accesskey = R
+customize-panel-button-save = 완료
+    .accesskey = D
 
 ## Quick Filter Bar
 
@@ -173,6 +342,13 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = OpenPGP 암호 지우기
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% 사용
+    .title = IMAP 용량: 총 { $limit } 중 { $usage } 사용
