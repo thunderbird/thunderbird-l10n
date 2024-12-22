@@ -181,15 +181,63 @@ about-addressbook-confirm-delete-mixed-title = 연락처와 목록 삭제
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
 about-addressbook-confirm-delete-mixed = 이 { $count }개의 연락처와 목록을 삭제하시겠습니까?
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+about-addressbook-confirm-delete-lists-title = 목록 삭제
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+# $name (String) - The name of the list to be deleted, if $count is 1.
+about-addressbook-confirm-delete-lists =
+    { $count ->
+        [one] { $name } 목록을 삭제하시겠습니까?
+       *[other] 이 { $count }개의 목록을 삭제하시겠습니까?
+    }
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+about-addressbook-confirm-remove-contacts-title = 연락처 삭제
+# Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = { $list }에서 { $name } 연락처를 삭제하시겠습니까?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi = { $list }에서 이 { $count }개의 연락처를 삭제하시겠습니까?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title = 연락처 삭제
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = { $name } 연락처를 삭제하시겠습니까?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi = 이 { $count }개의 연락처를 삭제하시겠습니까?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = 사용 가능한 연락처 없음
+about-addressbook-placeholder-new-contact = 새 연락처
+about-addressbook-placeholder-search-only = 이 주소록은 검색 후에만 연락처를 보여줍니다
+about-addressbook-placeholder-searching = 검색 중…
 about-addressbook-placeholder-no-search-results = 연락처 없음
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 = { $count }개의 선택된 주소록 항목
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 = { $count }개의 선택된 연락처
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 = { $count }개의 선택된 목록
+about-addressbook-details-edit-photo =
+    .title = 연락처 사진 편집
 about-addressbook-new-contact-header = 새 연락처
+about-addressbook-write-action-button = 쓰기
+about-addressbook-event-action-button = 이벤트
 about-addressbook-search-action-button = 검색
 about-addressbook-new-list-action-button = 새 목록
 about-addressbook-begin-edit-contact-button = 편집
@@ -201,6 +249,7 @@ about-addressbook-details-email-addresses-header = 이메일 주소
 about-addressbook-details-phone-numbers-header = 전화번호
 about-addressbook-details-addresses-header = 주소
 about-addressbook-details-notes-header = 메모
+about-addressbook-details-impp-header = 메신저 메시징
 about-addressbook-details-websites-header = 웹사이트
 about-addressbook-details-other-info-header = 기타 정보
 about-addressbook-entry-type-work = 직장
@@ -216,6 +265,10 @@ about-addressbook-entry-name-role = 역할
 about-addressbook-entry-name-organization = 조직
 about-addressbook-entry-name-website = 웹사이트
 about-addressbook-entry-name-time-zone = 시간대
+about-addressbook-entry-name-custom1 = 사용자 지정 1
+about-addressbook-entry-name-custom2 = 사용자 지정 2
+about-addressbook-entry-name-custom3 = 사용자 지정 3
+about-addressbook-entry-name-custom4 = 사용자 지정 4
 
 # Photo dialog
 
