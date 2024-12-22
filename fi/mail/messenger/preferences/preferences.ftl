@@ -570,6 +570,7 @@ third-party-visited =
 cookies-button =
     .label = Näytä evästeet…
     .accesskey = N
+do-not-track-removal = "Älä seuraa"-signaali ei ole enää tuettu
 do-not-track-label =
     .label = Lähetä sivustoille ”Do Not Track”-signaali, joka kertoo ettet halua sinua seurattavan
     .accesskey = s
