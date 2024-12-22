@@ -269,9 +269,19 @@ about-addressbook-entry-name-custom1 = 사용자 지정 1
 about-addressbook-entry-name-custom2 = 사용자 지정 2
 about-addressbook-entry-name-custom3 = 사용자 지정 3
 about-addressbook-entry-name-custom4 = 사용자 지정 4
+about-addressbook-unsaved-changes-prompt-title = 저장 안 된 변경사항
+about-addressbook-unsaved-changes-prompt = 편집 창에서 나가기 전에 변경 사항을 저장하시겠습니까?
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = 여기에 사진을 끌어서 놓거나 클릭하여 파일을 선택하세요.
+about-addressbook-photo-drop-loading = 사진 로드 중…
+about-addressbook-photo-drop-error = 사진을 로드하지 못했습니다.
+about-addressbook-photo-filepicker-title = 이미지 파일 선택
+about-addressbook-photo-discard = 기존 사진 삭제
+about-addressbook-photo-cancel = 취소
+about-addressbook-photo-save = 저장
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N
