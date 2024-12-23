@@ -10,7 +10,7 @@
 <!ENTITY chat.noConv.description       "საუბრის დასაწყებად ისარგებლეთ მარცხენა მხარეს არსებული ხალხის სიით.">
 <!ENTITY chat.noPreviousConv.description       "&brandShortName;-ს ამ დროისთვის წინა საუბრები არ შეუნახავს.">
 <!ENTITY chat.noAccount.title             "სასაუბროს ანგარიში ჯერ არ გაქვთ.">
-<!ENTITY chat.noAccount.description       "&brandShortName;-სთვის სასაუბროს ანგარიშის შექმნის მეგზურობის ნებართვა.">
+<!ENTITY chat.noAccount.description       "&brandShortName; გაგიძღვებათ სასაუბროს ანგარიშის გამართვაში.">
 <!ENTITY chat.accountWizard.button       "პირველი ნაბიჯები">
 <!ENTITY chat.noConnectedAccount.title             "თქვენი ანგარიშით სასაუბროში არ შესულხართ.">
 <!ENTITY chat.noConnectedAccount.description       "მათთან დაკავშირება შეგიძლიათ საუბრის სტატუსის დიალოგიდან:">
