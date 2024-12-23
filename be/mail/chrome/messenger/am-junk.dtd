@@ -3,6 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY junkSettings.label "Налады спам-фільтраў">
+<!ENTITY trainingDescription.label "Пасля ўключэння гэтай налады вам спачатку спатрэбіцца навучыць &brandShortName; выяўляць спам. Для гэтага пазначайце паведамленні як спам або не спам з дапамогай кнопкі «Спам» на панэлі інструментаў. Вам трэба пазначаць не толькі спам, а таксама і звычайныя паведамленні. Праз некаторы час &brandShortName; будзе здольны аўтаматычна выяўляць і пазначаць спам-паведамленні.">
 <!ENTITY level.label "Уключыць адаптыўныя паштовыя спам-фільтры для гэтага ўліковага запісу">
 <!ENTITY level.accesskey "У">
 
@@ -16,14 +17,14 @@
 <!ENTITY purge1.accesskey "С">
 <!ENTITY purge2.label "дзён">
 
-<!ENTITY whitelistHeader.label "Не пазначаць самастойна пошту лухтою, калі дасылальнік у:">
+<!ENTITY whitelistHeader.label "Не пазначаць аўтаматычна паведамленні як спам, калі адпраўнік знаходзіцца ў адрасных кнігах: ">
 <!ENTITY whitelistHeader.accesskey "Н">
 
 <!ENTITY ispHeadersWarning.label "Калі дазволена, &brandShortName; пачне самастойна лічыць лісты, пазначаныя гэтым вонкавым класіфікатарам, лухтою.">
 <!ENTITY ispHeaders.label "Давяраць загалоўкам, якія вызначаюць ліст як лухту, усталяваным:">
 <!ENTITY ispHeaders.accesskey "в">
 
-<!ENTITY junkClassification.label "Вылучэнне">
+<!ENTITY junkClassification.label "Выяўленне">
 <!ENTITY junkActions.label "Прызначэнне і ўтрыманне">
 
 <!ENTITY globalJunkPrefs.label "Агульныя перавагі вызначэння лухты…">
