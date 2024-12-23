@@ -208,11 +208,52 @@ mail-context-menu-open =
 mail-context-menu-reply =
     .label = ตอบกลับ
     .accesskey = ต
+mail-context-menu-forward-redirect =
+    .label = ส่งต่อและเปลี่ยนเส้นทาง
+    .accesskey = ส
 mail-context-menu-forward-forward =
     .label = ส่งต่อ
     .accesskey = ง
+mail-context-menu-forward-inline =
+    .label = อินไลน์
+    .accesskey = อ
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label = เป็นไฟล์แนบ
+    .accesskey = ป
+mail-context-menu-organize =
+    .label = จัดระเบียบ
+    .accesskey = จ
+mail-context-menu-threads =
+    .label = เธรด
+    .accesskey = ธ
 context-menu-redirect-msg =
     .label = เปลี่ยนเส้นทาง
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = ยกเลิกข้อความ
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] ลบข้อความ
+           *[other] ลบข้อความที่เลือก
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] เลิกลบข้อความ
+           *[other] เลิกลบข้อความที่เลือก
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
+context-menu-decrypt-to-folder2 =
+    .label = สร้างสำเนาที่ถอดรหัสลับใน
+    .accesskey = ถ
 
 ## Message header pane
 
@@ -248,9 +289,15 @@ message-header-show-sender-full-address-description = ที่อยู่อ�
 message-header-show-recipient-avatar =
     .label = แสดงรูปโปรไฟล์ของผู้ส่ง
     .accesskey = p
+message-header-show-big-avatar =
+    .label = รูปโปรไฟล์ขนาดใหญ่ขึ้น
+    .accesskey = ใ
 message-header-hide-label-column =
     .label = ซ่อนคอลัมน์ป้ายกำกับ
     .accesskey = I
+message-header-large-subject =
+    .label = หัวเรื่องขนาดใหญ่
+    .accesskey = ว
 message-header-all-headers =
     .label = แสดงหัวข้อทั้งหมด
     .accesskey = a
@@ -274,6 +321,7 @@ addon-removal-confirmation-button = เอาออก
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = ลบ { $name } ตลอดจนการกำหนดค่าและข้อมูลออกจาก { -brand-short-name } ไหม?
 caret-browsing-prompt-title = การเลื่อนดูด้วยแป้นพิมพ์
+caret-browsing-prompt-text = กด F7 เพื่อเปิดปิดการเลื่อนดูโดยแป้นพิมพ์ คุณลักษณะนี้จะแสดงเคอร์เซอร์ที่เคลื่อนที่ได้ภายในเนื้อหาบางอย่าง ทำให้คุณเลือกข้อความด้วยแป้นพิมพ์ได้ คุณต้องการเปิดการเลื่อนดูโดยแป้นพิมพ์หรือไม่?
 caret-browsing-prompt-check-text = ไม่ต้องถามอีก
 repair-text-encoding-button =
     .label = ซ่อมแซมการเข้ารหัสข้อความ
@@ -285,9 +333,14 @@ no-reply-title = ไม่รองรับการตอบกลับ
 # Variables:
 # $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = ที่อยู่ตอบกลับ ({ $email }) ดูเหมือนจะไม่ใช่ที่อยู่ที่ได้รับการตรวจสอบ ข้อความที่ส่งถึงที่อยู่นี้อาจจะไม่มีใครได้อ่าน
+no-reply-reply-anyway-button = ตอบกลับต่อไป
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple = ไม่สามารถถอดรหัสลับข้อความ { $failures } จาก { $total } ข้อความได้ และไม่ได้ถูกคัดลอก
 
 ## Spaces toolbar
 
@@ -305,8 +358,14 @@ spaces-toolbar-button-tasks2 =
     .title = งาน
 spaces-toolbar-button-chat2 =
     .title = แชท
+spaces-toolbar-button-overflow =
+    .title = ที่ว่างเพิ่มเติม…
 spaces-toolbar-button-settings2 =
     .title = การตั้งค่า
+spaces-toolbar-button-hide =
+    .title = ซ่อนแถบเครื่องมือที่ว่าง
+spaces-toolbar-button-show =
+    .title = แสดงแถบเครื่องมือที่ว่าง
 spaces-context-new-tab-item =
     .label = เปิดในแท็บใหม่
 spaces-context-new-window-item =
@@ -326,6 +385,20 @@ settings-context-open-addons-item2 =
 
 spaces-toolbar-pinned-tab-button =
     .tooltiptext = แถบเมนู
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
 # Variables:
 # $count (Number) - Number of unread messages.
 chat-button-unread-messages = { $count }
@@ -335,6 +408,7 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = ปรับแต่ง…
+spaces-customize-panel-title = การตั้งค่าแถบเครื่องมือที่ว่าง
 spaces-customize-background-color = สีพื้นหลัง
 spaces-customize-icon-color = สีของปุ่ม
 # The background color used on the buttons of the spaces toolbar when they are
@@ -362,6 +436,13 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = ลืมวลีรหัสผ่าน OpenPGP
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = เต็ม { $percent }%
+    .title = โควตา IMAP: ใช้ไป { $usage } จากทั้งหมด { $limit }
