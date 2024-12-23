@@ -166,6 +166,7 @@
 <!ENTITY calendar.context.convertmenu.message.label      "Паведамленне…">
 <!ENTITY calendar.context.convertmenu.task.label         "Задачу…">
 
+<!ENTITY calendar.tasks.view.minimonth.label           "Міні-каляндар">
 
 <!ENTITY calendar.tasks.view.calendarlist.label        "Спіс календароў">
 
