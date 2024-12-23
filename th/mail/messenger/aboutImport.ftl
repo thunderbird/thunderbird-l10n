@@ -88,22 +88,33 @@ addr-book-mab-file = ไฟล์ฐานข้อมูล Mork (.mab)
 addr-book-file-picker = เลือกไฟล์สมุดรายชื่อ
 addr-book-csv-field-map-title = เทียบชื่อฟิลด์
 addr-book-csv-field-map-desc = เลือกฟิลด์สมุดที่อยู่ที่ตรงกับฟิลด์ต้นทาง และไม่ต้องทำเครื่องหมายฟิลด์ที่คุณไม่ต้องการนำเข้า
+addr-book-directories-title = เลือกตำแหน่งที่จะนำเข้าข้อมูลที่เลือก
 addr-book-directories-pane-source = ไฟล์ต้นฉบับ:
 # $addressBookName (string) - name of the new address book that would be created.
 addr-book-import-into-new-directory2 = สร้างไดเรกทอรีใหม่ที่ชื่อ <strong>"{ $addressBookName }"</strong>
 # $addressBookName (string) - name of the address book to import into
 addr-book-summary-title = นำเข้าข้อมูลที่เลือกไปยังไดเรกทอรี "{ $addressBookName }"
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = สมุดรายชื่อใหม่ชื่อ "{ $addressBookName }" จะถูกสร้างขึ้น
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = เลือกไฟล์ iCalendar (.ics) ที่คุณจะนำเข้า
+calendar-items-title = เลือกรายการที่จะนำเข้า
 calendar-items-loading = กำลังโหลดรายการ…
+calendar-items-filter-input2 =
+    .label = กรองรายการ
+    .placeholder = กรองรายการ…
 calendar-select-all-items = เลือกทั้งหมด
 calendar-deselect-all-items = ไม่เลือกทั้งหมด
+calendar-target-title = เลือกตำแหน่งที่จะนำเข้ารายการที่เลือกไว้
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = สร้างปฏิทินใหม่ที่ชื่อ <strong>"{ $addressBookName }"</strong>
 # $itemCount (number) - count of selected items (tasks, events) that will be imported
 # $targetCalendar (string) - name of the calendar the items will be imported into
 calendar-summary-title = นำเข้า { $itemCount } รายการไปยังปฏิทิน "{ $targetCalendar }"
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = ปฏิทินใหม่ชื่อ "{ $targetCalendar }" จะถูกสร้างขึ้น
 
 ## Import dialog
 
@@ -113,9 +124,20 @@ progress-pane-importing2 = กำลังนำเข้า… { $progressPerce
 progress-pane-exporting2 = กำลังส่งออก… { $progressPercent }
 progress-pane-finished-desc2 = เสร็จสมบูรณ์
 error-pane-title = ข้อผิดพลาด
+error-message-zip-file-too-big2 = ไฟล์ ZIP ที่เลือกมีขนาดใหญ่กว่า 2GB โปรดแตกไฟล์ก่อน จากนั้นนำเข้าจากโฟลเดอร์ที่แตกไฟล์แทน
+error-message-extract-zip-file-failed2 = ไม่สามารถแตกไฟล์ ZIP ได้ โปรดแตกไฟล์ด้วยตนเอง แล้วนำเข้าจากโฟลเดอร์ที่แตกไฟล์แทน
+error-message-failed = การนำเข้าล้มเหลวโดยไม่คาดคิด คุณอาจพบข้อมูลเพิ่มเติมได้ในคอนโซลข้อผิดพลาด
+error-failed-to-parse-ics-file = ไม่พบรายการที่นำเข้าได้ในไฟล์
+error-export-failed = การส่งออกล้มเหลวโดยไม่คาดคิด คุณอาจพบข้อมูลเพิ่มเติมได้ในคอนโซลข้อผิดพลาด
+error-message-no-profile = ไม่พบโปรไฟล์
 
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = แถวแรกประกอบด้วยชื่อเขตข้อมูล
+csv-source-field = เขตข้อมูลต้นฉบับ
+csv-source-first-record = ระเบียนแรก
+csv-source-second-record = ระเบียนที่สอง
+csv-target-field = เขตข้อมูลสมุดรายชื่อ
 
 ## Export tab
 
@@ -129,12 +151,21 @@ export-brand-name = { -brand-product-name }
 
 summary-pane-title = ข้อมูลที่จะนำเข้า
 summary-pane-start = เริ่มการนำเข้า
+summary-pane-warning = เมื่อการนำเข้าเสร็จสมบูรณ์แล้ว จะต้องเริ่ม { -brand-product-name } ใหม่
+summary-pane-start-over = เริ่มเครื่องมือนำเข้าใหม่
 
 ## Footer area
 
 footer-help = ต้องการความช่วยเหลือ?
 footer-import-documentation = นำเข้าเอกสาร
 footer-export-documentation = ส่งออกเอกสาร
+footer-support-forum = ฟอรั่มฝ่ายสนับสนุน
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = ขั้นตอนการนำเข้า
+step-confirm = ยืนยัน
+# Variables:
+# $number (number) - step number
+step-count = { $number }
