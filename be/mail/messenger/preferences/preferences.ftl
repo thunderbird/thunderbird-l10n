@@ -704,3 +704,6 @@ sync-disconnected-turn-on-sync = Уключыць сінхранізацыю...
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Экспартуйце ўліковыя запісы ў { -brand-product-name } для мабільных прылад
+qr-export-create = Стварыце QR-код для экспарта вашых уліковых запісаў
+qr-export-select-accounts = Выберыце ўліковыя запісы для экспарту:
