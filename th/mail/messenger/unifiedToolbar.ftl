@@ -10,8 +10,8 @@
 
 search-bar-button =
     .alt = ค้นหา
-search-bar-item =
-    .label = ค้นหา:
+search-bar-item2 =
+    .label = ค้นหา
 search-bar-placeholder = ค้นหา…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -58,8 +58,9 @@ customize-button-style-text-only-option = ข้อความเท่าน�
 customize-cancel = ยกเลิก
 customize-save = บันทึก
 customize-unsaved-changes = มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกในพื้นที่อื่นๆ
-customize-search-bar =
-    .label = ค้นหาปุ่มแถบเครื่องมือ…
+customize-search-bar2 =
+    .label = ค้นหาปุ่มแถบเครื่องมือ
+    .placeholder = ค้นหาปุ่มแถบเครื่องมือ…
 customize-spaces-tabs =
     .aria-label = พื้นที่
 customize-main-toolbar-target =
