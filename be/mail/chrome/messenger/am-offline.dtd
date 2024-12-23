@@ -7,6 +7,7 @@
 <!ENTITY doNotDownloadImap.label "Каб зберагчы месца на дыску, спампоўка паведамленняў з сервера і трыманне лакальных копій для працы па-за сеткай можа быць абмежавана па іх ўзросце або памеры.">
 <!ENTITY allFoldersOffline2.label "Трымаць паведамленні з ўсіх папак для гэтага ўліковага запісу на гэтым камп'ютары">
 <!ENTITY allFoldersOffline2.accesskey "Т">
+<!ENTITY allFoldersOfflineNote.label "Увага: гэта змяненне закране ўсе папкі гэтага уліковага запісу. Каб выбраць асобныя папкі, націсніце кнопку «Пашыраныя налады…».">
 <!ENTITY offlineNotDownload.label "Паведамленні памерам больш за">
 <!ENTITY offlineNotDownload.accesskey "П">
 <!ENTITY autosyncNotDownload.label "Не спампоўваць паведамленні памерам больш за">
