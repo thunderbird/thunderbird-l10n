@@ -9,6 +9,8 @@ messenger-window-minimize-button =
     .tooltiptext = ย่อเล็กสุด
 messenger-window-maximize-button =
     .tooltiptext = ขยายใหญ่สุด
+messenger-window-restore-down-button =
+    .tooltiptext = คืนขนาดเดิม
 messenger-window-close-button =
     .tooltiptext = ปิด
 # Variables:
@@ -27,15 +29,53 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = ย้อนกลับไปหนึ่งหน้า ({ $shortcut })
+    .aria-label = ย้อนกลับ
+    .accesskey = ย
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = ย้อนกลับ
+    .accesskey = ย
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = เดินหน้าไปหนึ่งหน้า ({ $shortcut })
+    .aria-label = เดินหน้า
+    .accesskey = ด
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = เดินหน้า
+    .accesskey = ด
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = โหลดหน้าใหม่
+    .aria-label = โหลดใหม่
+    .accesskey = โ
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = โหลดหน้าใหม่
+    .label = โหลดใหม่
+    .accesskey = โ
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = หยุดโหลดหน้า
+    .aria-label = หยุด
+    .accesskey = ห
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = หยุดโหลดหน้า
+    .label = หยุด
+    .accesskey = ห
 
 ## Toolbar
 
@@ -96,6 +136,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = ลบโฟลเดอร์
     .accesskey = ล
+menu-edit-unsubscribe-newsgroup =
+    .label = เลิกบอกรับกลุ่มข่าว
+    .accesskey = ล
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -141,6 +184,30 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = ทำเครื่องหมายว่าอ่านแล้ว
+    .tooltiptext = ทำเครื่องหมายว่าอ่านแล้ว
+context-menu-mark-unread =
+    .aria-label = ทำเครื่องหมายว่ายังไม่ได้อ่าน
+    .tooltiptext = ทำเครื่องหมายว่ายังไม่ได้อ่าน
+context-menu-mark-reply =
+    .aria-label = ตอบกลับ
+    .tooltiptext = ตอบกลับ
+context-menu-archive =
+    .aria-label = เก็บถาวร
+    .tooltiptext = เก็บถาวร
+context-menu-mark-junk =
+    .aria-label = ทำเครื่องหมายว่าเป็นขยะ
+    .tooltiptext = ทำเครื่องหมายว่าเป็นขยะ
+context-menu-mark-not-junk =
+    .aria-label = ทำเครื่องหมายว่าไม่เป็นขยะ
+    .tooltiptext = ทำเครื่องหมายว่าไม่เป็นขยะ
+mail-context-menu-open =
+    .label = เปิด
+    .accesskey = ป
+mail-context-menu-reply =
+    .label = ตอบกลับ
+    .accesskey = ต
 mail-context-menu-forward-forward =
     .label = ส่งต่อ
     .accesskey = ง
