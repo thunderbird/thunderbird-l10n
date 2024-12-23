@@ -37,6 +37,17 @@ aboutDialog-version = { $version } ({ $bits } บิต)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } บิต)
+# Example of resulting string: 131.0a1 (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch = { $version } ({ $arch })
+# Example of resulting string: 131.0a1 (2024-08-27) (aarch64)
+# Variables:
+#   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
+#   $isodate (String): date in ISO format, e.g. 2019-01-16
+#   $arch (String): name of the architecture (arm, aarch64, etc.)
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = ไม่สามารถตรวจหาการอัปเดตได้
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> คือ <a data-l10n-name="community-exp-credits-link">ชุมชนระดับโลก</a> ที่ทำงานร่วมกันเพื่อทำให้เว็บเปิดกว้าง เป็นของสาธารณะ และเข้าถึงได้ทุกคน
 community-desc = { -brand-short-name } ได้รับการออกแบบโดย <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> ซึ่งเป็น <a data-l10n-name="community-credits-link">ชุมชนระดับโลก</a> ที่ทำงานร่วมกันเพื่อทำให้เว็บเปิดกว้าง เป็นของสาธารณะ และเข้าถึงได้ทุกคน

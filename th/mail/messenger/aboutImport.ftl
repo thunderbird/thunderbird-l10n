@@ -7,7 +7,15 @@ export-page-title = ส่งออก
 
 ## Header
 
+import-start = เครื่องมือนำเข้า
+import-start-title = นำเข้าการตั้งค่าหรือข้อมูลจากแอปพลิเคชันหรือไฟล์
+import-start-description = เลือกแหล่งข้อมูลที่คุณต้องการนำเข้า หลังจากนี้คุณจะถูกถามให้เลือกข้อมูลที่ต้องการนำเข้า
+import-from-app = นำเข้าจากแอปพลิเคชัน
+import-file = นำเข้าจากไฟล์
 import-file-title = เลือกไฟล์เพื่อนำเข้าเนื้อหา
+import-file-description = เลือกที่จะนำเข้าโปรไฟล์ สมุดรายชื่อ หรือปฏิทินที่เคยสำรองไว้ก่อนหน้านี้
+import-address-book-title = นำเข้าไฟล์สมุดรายชื่อ
+import-calendar-title = นำเข้าไฟล์ปฏิทิน
 export-profile = ส่งออก
 
 ## Buttons
@@ -23,9 +31,21 @@ app-name-thunderbird = Thunderbird
 app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook
 app-name-apple-mail = Apple Mail
+source-thunderbird = นำเข้าจาก { app-name-thunderbird } ตัวอื่นที่ติดตั้งไว้
+source-thunderbird-description = นำเข้าการตั้งค่า ตัวกรอง ข้อความ และข้อมูลอื่นๆ จากโปรไฟล์ { app-name-thunderbird }
+source-seamonkey = นำเข้าจาก { app-name-seamonkey } ตัวที่ติดตั้งไว้
+source-seamonkey-description = นำเข้าการตั้งค่า ตัวกรอง ข้อความ และข้อมูลอื่นๆ จากโปรไฟล์ { app-name-seamonkey }
+source-outlook = นำเข้าจาก { app-name-outlook }
+source-outlook-description = นำเข้าบัญชี สมุดรายชื่อ และข้อความจาก { app-name-outlook }
+source-apple-mail = นำเข้าจาก { app-name-apple-mail }
+source-apple-mail-description = นำเข้าข้อความจาก { app-name-apple-mail }
+source-file2 = นำเข้าจากไฟล์
+source-file-description = เลือกไฟล์เพื่อนำเข้าสมุดรายชื่อ ปฏิทิน หรือข้อมูลสำรองโปรไฟล์ (ไฟล์ ZIP)
 
 ## Import from file selections
 
+file-profile2 = นำเข้าโปรไฟล์ที่สำรองไว้
+file-profile-description = เลือกโปรไฟล์ Thunderbird ที่ถูกสำรองไว้ก่อนหน้านี้ (.zip)
 file-calendar = นำเข้าปฏิทิน
 file-calendar-description = เลือกไฟล์ที่มีปฏิทินหรือกิจกรรมที่ส่งออก (.ics)
 file-addressbook = นำเข้าสมุดรายชื่อ
@@ -37,6 +57,10 @@ from-app-thunderbird = นำเข้าจากโปรไฟล์ { app-na
 from-app-seamonkey = นำเข้าจากโปรไฟล์ { app-name-seamonkey }
 from-app-outlook = นำเข้าจาก { app-name-outlook }
 from-app-apple-mail = นำเข้าจาก { app-name-apple-mail }
+profiles-pane-title-thunderbird = นำเข้าการตั้งค่าและข้อมูลจากโปรไฟล์ { app-name-thunderbird }
+profiles-pane-title-seamonkey = นำเข้าการตั้งค่าและข้อมูลจากโปรไฟล์ { app-name-seamonkey }
+profiles-pane-title-outlook = นำเข้าข้อมูลจาก { app-name-outlook }
+profiles-pane-title-apple-mail = นำเข้าข้อความจาก { app-name-apple-mail }
 profile-source = นำเข้าจากโปรไฟล์
 # $profileName (string) - name of the profile
 profile-source-named = นำเข้าจากโปรไฟล์ <strong>"{ $profileName }"</strong>
@@ -56,6 +80,7 @@ items-pane-override = ข้อมูลใดๆ ที่มีอยู่แ
 ## Import from address book file steps
 
 import-from-addr-book-file-description = เลือกรูปแบบไฟล์ที่มีข้อมูลสมุดรายชื่อของคุณ
+addr-book-csv-file = ไฟล์ที่คั่นด้วยจุลภาค หรือแท็บ (.csv, .tsv)
 addr-book-ldif-file = ไฟล์ LDIF (.ldif)
 addr-book-vcard-file = ไฟล์ vCard (.vcf, .vcard)
 addr-book-sqlite-file = ไฟล์ฐานข้อมูล SQLite (.sqlite)
