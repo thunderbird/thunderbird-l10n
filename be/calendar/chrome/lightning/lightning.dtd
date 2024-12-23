@@ -101,7 +101,7 @@
 <!ENTITY lightning.acctCentral.newCalendar.label "Стварыць новы календар">
 
 <!-- today-pane-specific -->
-<!ENTITY todaypane.showMinimonth.label "Паказваць міні-месяц">
+<!ENTITY todaypane.showMinimonth.label "Паказваць міні-каляндар">
 <!ENTITY todaypane.showMinimonth.accesskey "м">
 <!ENTITY todaypane.showMiniday.label "Паказваць міні-дзень">
 <!ENTITY todaypane.showMiniday.accesskey  "д">
