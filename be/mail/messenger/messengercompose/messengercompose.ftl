@@ -193,6 +193,18 @@ cloud-file-unknown-account-tooltip = Запампавана ў невядомы 
 
 # Template
 
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = Даведайцеся больш пра { $link }.
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = Даведайцеся больш пра { $firstLinks } і { $lastLink }.
 cloud-file-template-size = Памер:
 cloud-file-template-link = Спасылка:
 cloud-file-template-password-protected-link = Спасылка, абароненая паролем:
