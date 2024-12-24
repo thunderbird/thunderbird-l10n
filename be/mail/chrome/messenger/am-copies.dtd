@@ -21,9 +21,9 @@
 <!ENTITY saveMessageDlg.label "Паказваць дыялог пацвярджэння пасля захавання ліста">
 <!ENTITY saveMessageDlg.accesskey "П">
 <!-- LOCALIZATION NOTE (sentFolderOn.label): OK to translate this, bug #57440 -->
-<!ENTITY sentFolderOn.label "Папку &quot;Дасланыя&quot; ў:">
+<!ENTITY sentFolderOn.label "Папку &quot;Адпраўленыя&quot; ў:">
 <!ENTITY sentFolderOn.accesskey "Д">
-<!ENTITY sentInOtherFolder.label "Іншую:">
+<!ENTITY sentInOtherFolder.label "Іншую папку:">
 <!ENTITY sentInOtherFolder.accesskey "І">
 <!-- LOCALIZATION NOTE (archivesFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY archivesTitle.label "Архівы лістоў">

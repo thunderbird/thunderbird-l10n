@@ -16,7 +16,7 @@
 <!ENTITY smtpListDelete.label "Выдаліць">
 <!ENTITY smtpListDelete.accesskey "В">
 
-<!ENTITY serverDetails.label "Падрабязнасці вылучанага сервера:">
+<!ENTITY serverDetails.label "Падрабязнасці выбранага сервера:">
 <!ENTITY serverDescription.label "Апісанне:">
 <!ENTITY serverName.label "Назва сервера: ">
 <!ENTITY serverPort.label "Порт:">

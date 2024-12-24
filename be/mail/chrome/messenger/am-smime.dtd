@@ -27,6 +27,6 @@
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Абраць сертыфікат">
 <!ENTITY certPicker.info  "Сертыфікат:">
-<!ENTITY certPicker.detailsLabel "Падрабязнасці вылучанага сертыфіката:">
+<!ENTITY certPicker.detailsLabel "Падрабязнасці выбранага сертыфіката:">
 
 <!ENTITY openpgpKey.accesskey "ў">
