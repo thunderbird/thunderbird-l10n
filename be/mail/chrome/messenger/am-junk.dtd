@@ -7,25 +7,25 @@
 <!ENTITY level.label "Уключыць адаптыўныя паштовыя спам-фільтры для гэтага ўліковага запісу">
 <!ENTITY level.accesskey "У">
 
-<!ENTITY move.label "Перамяшчаць новыя паведамленні, вызначаныя як спам, у:">
+<!ENTITY move.label "Перамяшчаць новыя паведамленні, пазначаныя як спам, у:">
 <!ENTITY move.accesskey "П">
 <!ENTITY junkFolderOn.label "Папку «Спам» у:">
-<!ENTITY junkFolderOn.accesskey "Л">
-<!ENTITY otherFolder.label "Іншую:">
+<!ENTITY junkFolderOn.accesskey "С">
+<!ENTITY otherFolder.label "Іншую папку:">
 <!ENTITY otherFolder.accesskey "І">
-<!ENTITY purge1.label "Самастойна выдаляць лісты-лухту, старэйшыя чым">
-<!ENTITY purge1.accesskey "С">
+<!ENTITY purge1.label "Аўтаматычна выдаляць спам з гэтай папкі праз">
+<!ENTITY purge1.accesskey "А">
 <!ENTITY purge2.label "дзён">
 
 <!ENTITY whitelistHeader.label "Не пазначаць аўтаматычна паведамленні як спам, калі адпраўнік знаходзіцца ў адрасных кнігах: ">
 <!ENTITY whitelistHeader.accesskey "Н">
 
-<!ENTITY ispHeadersWarning.label "Калі дазволена, &brandShortName; пачне самастойна лічыць лісты, пазначаныя гэтым вонкавым класіфікатарам, лухтою.">
-<!ENTITY ispHeaders.label "Давяраць загалоўкам, якія вызначаюць ліст як лухту, усталяваным:">
-<!ENTITY ispHeaders.accesskey "в">
+<!ENTITY ispHeadersWarning.label "Калі ўключана, &brandShortName; будзе аўтаматычна лічыць спамам паведамленні, якія пазначаны як спам гэтым знешнім класіфікатарам.">
+<!ENTITY ispHeaders.label "Давяраць загалоўкам спам-пошты, якія задае: ">
+<!ENTITY ispHeaders.accesskey "Д">
 
 <!ENTITY junkClassification.label "Выяўленне">
-<!ENTITY junkActions.label "Прызначэнне і ўтрыманне">
+<!ENTITY junkActions.label "Папкі прызначэння і ўмовы захавання">
 
-<!ENTITY globalJunkPrefs.label "Агульныя перавагі вызначэння лухты…">
-<!ENTITY globalJunkPrefs.accesskey "л">
+<!ENTITY globalJunkPrefs.label "Глабальныя перавагі спам-фільтраў…">
+<!ENTITY globalJunkPrefs.accesskey "Г">
