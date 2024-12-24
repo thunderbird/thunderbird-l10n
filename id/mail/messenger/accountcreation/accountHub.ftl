@@ -122,3 +122,9 @@ account-hub-email-added-success = Akun surel berhasil tersambung
 account-hub-config-test-success = Pengaturan konfigurasi valid
 account-hub-select-all = Pilih semua
 account-hub-deselect-all = Batalkan semua pilihan
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected = { $count } dipilih
+account-hub-no-address-books = Tidak ditemukan buku alamat
+account-hub-no-calendars = Tidak ada kalender yang ditemukan
+account-hub-email-added-success-links-title = Jelajahi opsi untuk keamanan dan personalisasi:
+account-hub-signature-link = Tanda tangan surel

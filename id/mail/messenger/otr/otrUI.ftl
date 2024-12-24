@@ -7,13 +7,16 @@ refresh-label = Muat ulang percakapan terenkripsi
 auth-label = Verifikasi identitas kontak Anda
 reauth-label = Verifikasikan kembali identitas kontak Anda
 auth-cancel = Batal
+auth-cancel-access-key = C
 auth-error = Terjadi kesalahan saat memverifikasi identitas kontak Anda.
 auth-success = Memverifikasi identitas kontak Anda berhasil diselesaikan.
 auth-success-them = Kontak Anda telah berhasil memverifikasi identitas Anda. Anda mungkin ingin memverifikasi identitas mereka juga dengan mengajukan pertanyaan Anda sendiri.
 auth-fail = Gagal memverifikasi identitas kontak Anda.
 auth-waiting = Menunggu kontak menyelesaikan verifikasi...
 finger-verify = Verifikasi
+finger-verify-access-key = V
 finger-ignore = Abaikan
+finger-ignore-access-key = I
 # Do not translate 'OTR' (name of an encryption protocol)
 buddycontextmenu-label = Tambahkan Sidik Jari OTR
 # Variables:
