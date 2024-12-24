@@ -94,6 +94,11 @@ redirect-msg-button =
 
 ## Folder Pane
 
+folder-pane-toolbar =
+    .toolbarname = Панэль інструментаў панэлі папак
+    .accesskey = П
+folder-pane-toolbar-options-button =
+    .tooltiptext = Параметры панэлі папак
 folder-pane-header-label = Папкі
 
 ## Folder Toolbar Header Popup
@@ -199,6 +204,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Пазначыць як спам
     .tooltiptext = Пазначыць як спам
+context-menu-mark-not-junk =
+    .aria-label = Пазначыць як не спам
+    .tooltiptext = Пазначыць як не спам
 mail-context-menu-open =
     .label = Адкрыць
     .accesskey = А
@@ -235,24 +243,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Скасаваць паведамленне
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Выдаліць паведамленне
-            [few] Выдаліць выбраныя паведамленні
-           *[many] Выдаліць выбраныя паведамленні
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Скасаваць выдаленне паведамлення
-            [few] Скасаваць выдаленне выбраных паведамленняў
-           *[many] Скасаваць выдаленне выбраных паведамленняў
-        }
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =
@@ -307,6 +297,7 @@ message-header-button-style-icons =
 message-header-show-sender-full-address =
     .label = Заўсёды паказваць поўны адрас адпраўніка
     .accesskey = З
+message-header-show-sender-full-address-description = Адрас электроннай пошты будзе адлюстроўвацца пад бачным імем.
 message-header-show-recipient-avatar =
     .label = Паказваць аватар профілю адпраўніка
     .accesskey = П
@@ -410,9 +401,16 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Персаналізаваць…
+spaces-customize-background-color = Колер фону
+spaces-customize-icon-color = Колер кнопак
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Выбраны колер фону кнопак
 # The icon color used on the buttons of the spaces toolbar when they are
 # `current`, meaning the related space/tab is active and visible.
-spaces-customize-accent-text-color = Выбраны колер кнопкі
+spaces-customize-accent-text-color = Выбраны колер кнопкак
+customize-panel-button-save = Гатова
+    .accesskey = Г
 
 ## Quick Filter Bar
 
