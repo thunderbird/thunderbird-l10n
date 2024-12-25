@@ -7,37 +7,120 @@ account-setup-tab-title = 계정 설정
 ## Header
 
 account-setup-title = 기존 이메일 주소 설정
+account-setup-description = 현재 이메일 주소를 사용하려면 자격 증명을 입력하세요.
+account-setup-secondary-description = { -brand-product-name }는 작동하거나 권장하는 서버 구성을 자동으로 검색합니다.
+account-setup-success-title = 계정이 성공적으로 생성됨
+account-setup-success-description = 이제 이 계정을 { -brand-short-name }에서 사용할 수 있습니다.
+account-setup-success-secondary-description = 관련 서비스를 연결하고 고급 계정 설정을 구성하여 사용 경험을 향상할 수 있습니다.
 
 ## Form fields
 
+account-setup-name-label = 사용자 이름
+    .accesskey = n
 # Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
 account-setup-name-input =
     .placeholder = 홍길동
+account-setup-name-info-icon =
+    .title = 다른 사람에게 보여줄 이름
+account-setup-name-warning-icon =
+    .title = 이름을 입력하세요
+account-setup-email-label = 이메일 주소
+    .accesskey = E
 account-setup-email-input =
     .placeholder = gildong.hong@example.com
 account-setup-email-info-icon =
     .title = 기존 이메일 주소
 account-setup-email-warning-icon =
     .title = 유효하지 않은 메일 주소
+account-setup-password-label = 비밀번호
+    .accesskey = P
+    .title = 선택 사항, 사용자 이름을 인증할 때만 사용됨
+account-setup-password-toggle-show =
+    .title = 비밀번호를 평문으로 표시
 account-setup-password-toggle-hide =
     .title = 비밀번호 숨기기
+account-setup-remember-password = 비밀번호 저장
+    .accesskey = m
+account-setup-exchange-label = 사용자 로그인
+    .accesskey = l
+#   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
+account-setup-exchange-input =
+    .placeholder = YOURDOMAIN\yourusername
+#   Domain refers to the Windows domain in ActiveDirectory. We mean the user's login in Windows at the local corporate network.
+account-setup-exchange-info-icon =
+    .title = 도메인 로그인
 
 ## Action buttons
 
+account-setup-button-cancel = 취소
+    .accesskey = a
+account-setup-button-manual-config = 수동으로 구성
+    .accesskey = m
+account-setup-button-stop = 중지
+    .accesskey = S
+account-setup-button-retest = 다시 테스트
+    .accesskey = t
+account-setup-button-continue = 계속
+    .accesskey = C
+account-setup-button-done = 완료
+    .accesskey = D
 
 ## Notifications
 
 account-setup-looking-up-settings = 설정 조회 중…
+account-setup-looking-up-settings-guess = 설정 조회 중: 일반적인 서버 이름으로 시도…
+account-setup-looking-up-settings-half-manual = 설정 조회 중: 서버 조사 중…
+account-setup-looking-up-disk = 설정 조회 중: { -brand-short-name } 설치…
+account-setup-looking-up-isp = 설정 조회 중: 이메일 제공자…
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-looking-up-db = 설정 조회 중: Mozilla ISP 데이터베이스…
+account-setup-looking-up-mx = 설정 조회 중: 받는 메일 도메인…
+account-setup-looking-up-exchange = 설정 조회 중: Exchange 서버…
+account-setup-checking-password = 비밀번호 확인 중…
+account-setup-installing-addon = 부가 기능 다운로드 및 설치 중…
+account-setup-success-half-manual = 주어진 서버를 조사하여 다음 설정이 발견되었습니다:
+account-setup-success-guess = 일반적인 서버 이름으로 시도하여 설정을 찾았습니다.
+account-setup-success-guess-offline = 현재 오프라인 모드입니다. 임시 설정을 했지만 올바른 설정을 입력해야 합니다.
+account-setup-success-password = 비밀번호 확인 완료
+account-setup-success-addon = 성공적으로 부가 기능 설치
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-success-settings-db = Mozilla ISP 데이터베이스에서 설정이 발견되었습니다.
+account-setup-success-settings-disk = { -brand-short-name } 설치에서 설정이 발견되었습니다.
+account-setup-success-settings-isp = 이메일 제공자에서 설정이 발견되었습니다.
+# Note: Microsoft Exchange is a product name.
+account-setup-success-settings-exchange = Microsoft Exchange 서버용 설정이 발견되었습니다.
 
 ## Illustrations
 
+account-setup-step1-image =
+    .title = 초기 설정
+account-setup-step2-image =
+    .title = 읽는 중…
+account-setup-step3-image =
+    .title = 설정 발견됨
+account-setup-step4-image =
+    .title = 연결 오류
+account-setup-step5-image =
+    .title = 계정 생성됨
+account-setup-privacy-footnote2 = 자격 증명은 사용자 컴퓨터에 로컬로만 저장됩니다.
+account-setup-selection-help = 무엇을 선택해야 할지 모르겠나요?
+account-setup-selection-error = 도움이 필요한가요?
 account-setup-success-help = 다음 무엇을 할지 확실하지 않습니까?
 account-setup-documentation-help = 설정 문서
 account-setup-forum-help = 지원 포럼
 account-setup-privacy-help = 개인정보 보호정책
+account-setup-getting-started = 시작하기
 
 ## Results area
 
+# Variables:
+#  $count (Number) - Number of available protocols.
+account-setup-results-area-title =
+    { $count ->
+        [one] 가능한 설정
+       *[other] 가능한 설정
+    }
+account-setup-result-imap-description = 서버에서 폴더와 이메일을 동기화된 상태로 유지
 account-setup-username-title = 사용자 이름
 account-setup-exchange-title = 서버
 account-setup-result-no-encryption = 암호화 없음
@@ -108,6 +191,7 @@ account-setup-confirm-advanced-title = 고급 설정 확인
 account-setup-address-books-button = 주소록
 account-setup-calendars-button = 달력
 account-setup-connect-link = 연결
+account-setup-connect-all-address-books = 모든 주소록 연결
 
 ## Calendar synchronization dialog
 
