@@ -787,7 +787,7 @@ qr-export-summary-qr-count =
 qr-export-summary-accounts =
     { NUMBER($count) ->
         [one] { $count } уліковы запіс экспартаваны:
-        [few] { $count } ўліковыя запісы экспартаваны:
+        [few] { $count } уліковыя запісы экспартаваны:
        *[many] { $count } уліковых запісаў экспартавана:
     }
 qr-export-summary-passwords-included = Уключаючы паролі
