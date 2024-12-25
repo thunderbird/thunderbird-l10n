@@ -767,9 +767,29 @@ qr-export-scan-step1 = Адкрыйце { -brand-product-name } на вашай 
 qr-export-scan-step2 = Перайсці ў налады
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Выберыце <strong>Налады імпарта</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Націсніце <strong>Сканаваць QR-код</strong> і навядзіце камеру вашай мабільнай прылады на гэты код
 qr-export-back = Назад
 qr-export-next = Далей
 qr-export-done = Гатова
+qr-export-summary-description = Уліковыя запісы экспартаваны. Працягніце на вашай мабільнай прыладзе.
+qr-export-summary-title = Вынікі экспарту:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { NUMBER($count) ->
+        [one] { $count } QR-код сгенераваны
+        [few] { $count } QR-коды сгенеравана
+       *[many] { $count } QR-кодаў сгенеравана
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { NUMBER($count) ->
+        [one] { $count } уліковы запіс экспартаваны:
+        [few] { $count } ўліковыя запісы экспартаваны:
+       *[many] { $count } уліковых запісаў экспартавана:
+    }
 qr-export-summary-passwords-included = Уключаючы паролі
 qr-export-summary-passwords-excluded = За выключэннем пароляў
 qr-export-more-accounts = Экспартаваць іншыя ўліковыя запісы
