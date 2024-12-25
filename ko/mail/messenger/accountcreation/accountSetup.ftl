@@ -195,3 +195,27 @@ account-setup-connect-all-address-books = 모든 주소록 연결
 
 ## Calendar synchronization dialog
 
+calendar-dialog-title = 캘린더 연결
+calendar-dialog-cancel-button = 취소
+    .accesskey = C
+calendar-dialog-confirm-button = 연결
+    .accesskey = n
+account-setup-calendar-name-label = 이름
+account-setup-calendar-name-input =
+    .placeholder = 내 캘린더
+account-setup-calendar-color-label = 색상
+account-setup-calendar-refresh-label = 새로 고침
+account-setup-calendar-refresh-manual = 수동
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
+account-setup-calendar-refresh-interval =
+    { $count ->
+        [one] 매 분 마다
+       *[other] { $count }분 마다
+    }
+account-setup-calendar-read-only = 읽기 전용
+    .accesskey = R
+account-setup-calendar-show-reminders = 알림 보기
+    .accesskey = S
+account-setup-calendar-offline-support = 오프라인 지원
+    .accesskey = O
