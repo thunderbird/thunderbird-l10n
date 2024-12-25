@@ -746,7 +746,30 @@ qr-export-oauth-warning = Некаторыя вашы ўліковыя запі�
 qr-export-security-hint = Пры сканаванні наступных QR-кодаў налады вашага ўліковага запісу, уключыючы адрас электроннай пошты і пароль, будуць бяспечна перанесены. Мы не збіраем, не захоўваем і не абагульваем ніякія з гэтых даных падчас пераносу. Перанос адбываецца напрамую паміж вашымі прыладамі.
 qr-export-security-warning = У мэтах вашай бяспекі, калі ласка, упэўніцеся, што вы знаходзіцеся ў прыватных абставінах і скануеце QR-коды толькі з надзейных крыніц.
 qr-export-start-export = Экспартаваць
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { NUMBER($count) ->
+        [one] { $step } з { $count } QR-кода
+        [few] { $step } з { $count } QR-кодаў
+       *[many] { $step } з { $count } QR-кодаў
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { NUMBER($count) ->
+        [one] Адскануйце QR-код з дапамогай { -brand-product-name } на вашай мабільнай прыладзе
+        [few] Адскануйце QR-коды з дапамогай { -brand-product-name } на вашай мабільнай прыладзе
+       *[many] Адскануйце QR-коды з дапамогай { -brand-product-name } на вашай мабільнай прыладзе
+    }
+qr-export-scan-step1 = Адкрыйце { -brand-product-name } на вашай мабільнай прыладзе
 qr-export-scan-step2 = Перайсці ў налады
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Выберыце <strong>Налады імпарта</strong>
 qr-export-back = Назад
 qr-export-next = Далей
 qr-export-done = Гатова
+qr-export-summary-passwords-included = Уключаючы паролі
+qr-export-summary-passwords-excluded = За выключэннем пароляў
+qr-export-more-accounts = Экспартаваць іншыя ўліковыя запісы
