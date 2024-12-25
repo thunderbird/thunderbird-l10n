@@ -586,6 +586,7 @@ global-privacy-control-search = 全球隐私控制（GCP）
 global-privacy-control-description =
     .label = 要求网站不许出售或共享我的数据
     .accesskey = n
+do-not-track-removal = 我们已停止支持“请勿跟踪”信号
 do-not-track-label =
     .label = 向网站发出“请勿跟踪”信号，示明您不想被跟踪
     .accesskey = n
