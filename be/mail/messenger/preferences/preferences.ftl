@@ -363,6 +363,11 @@ address-display-name =
 condensed-addresses-label =
     .label = Паказваць толькі бачнае імя для людзей, якія знаходзяцца ў маёй адраснай кнізе
     .accesskey = П
+table-layout-legend = Таблічны выгляд
+table-layout-horizontal-scroll-label =
+    .label = Дазволіць гарызантальную прагортку
+    .accesskey = Д
+account-hub-legend = Цэнтр уліковых запісаў
 
 ## Compose Tab
 
