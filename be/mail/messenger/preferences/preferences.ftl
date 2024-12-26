@@ -53,6 +53,12 @@ collection-health-report =
     .label = Дазволіць { -brand-short-name } адпраўляць тэхнічныя даныя і даныя ўзаемадзеяння ў { -vendor-short-name }
     .accesskey = Д
 collection-health-report-link = Даведацца больш
+# This message is displayed above disabled data sharing options in developer builds
+# or builds with no Telemetry support available.
+collection-health-report-disabled = Справаздачнасць па даным адключана для гэтай канфігурацыі зборкі
+collection-backlogged-crash-reports =
+    .label = Дазволіць { -brand-short-name } адпраўляць назбіраныя справаздачы аб збоях ад вашага імя
+    .accesskey = Д
 collection-backlogged-crash-reports-link = Даведацца больш
 privacy-security-header = Бяспека
 privacy-scam-detection-title = Выяўленне махлярства
