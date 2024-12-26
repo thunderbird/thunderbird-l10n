@@ -141,7 +141,7 @@
 <!ENTITY attachVCard.label "Далучыць асабістую картку (vCard)">
 <!ENTITY attachVCard.accesskey "v">
 
-<!ENTITY returnReceiptMenu.label "Квіток атрымання">
+<!ENTITY returnReceiptMenu.label "Паведамленне аб прачытанні">
 <!ENTITY returnReceiptMenu.accesskey "т">
 <!ENTITY dsnMenu.label "Пацвярджэнне дастаўкі">
 <!ENTITY dsnMenu.accesskey "П">

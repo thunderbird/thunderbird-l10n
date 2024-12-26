@@ -4,30 +4,30 @@
 
 <!ENTITY pane.title                   "Паведамленні аб прачытанні">
 <!ENTITY useGlobalPrefs.label         "Выкарыстоўваць мае глабальныя перавагі паведамленняў аб прачытанні для гэтага ўліковага запісу">
-<!ENTITY useGlobalPrefs.accesskey     "г">
-<!ENTITY globalReceipts.label         "Агульныя перавагі…">
-<!ENTITY globalReceipts.accesskey     "г">
+<!ENTITY useGlobalPrefs.accesskey     "В">
+<!ENTITY globalReceipts.label         "Глабальныя перавагі…">
+<!ENTITY globalReceipts.accesskey     "Г">
 <!ENTITY useCustomPrefs.label         "Персаналізаваць перавагі паведамленняў аб прачытанні для гэтага ўліковага запісу">
-<!ENTITY useCustomPrefs.accesskey     "л">
-<!ENTITY requestReceipt.label         "Заўсёды патрабаваць квіток атрымання, калі дасылаюцца лісты">
-<!ENTITY requestReceipt.accesskey     "К">
-<!ENTITY receiptArrive.label          "Калі прыбывае квіток:">
+<!ENTITY useCustomPrefs.accesskey     "П">
+<!ENTITY requestReceipt.label         "Заўсёды патрабаваць паведамленні аб прачытанні пры адпраўцы паведамленняў">
+<!ENTITY requestReceipt.accesskey     "З">
+<!ENTITY receiptArrive.label          "Пры атрыманні паведамлення аб прачытанні:">
 <!ENTITY leaveIt.label                "Пакінуць яго ў маёй папцы «Уваходныя»">
-<!ENTITY leaveIt.accesskey            "і">
+<!ENTITY leaveIt.accesskey            "к">
 <!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent' according to Netscape glossary -->
-<!ENTITY moveToSent.label             "Перамясціць яго ў папку &quot;Адпраўленыя&quot;">
-<!ENTITY moveToSent.accesskey         "м">
-<!ENTITY requestMDN.label             "Калі я атрымліваю патрабаванне квітка атрымання:">
-<!ENTITY returnSome.label             "Дазволіць квіткі атрымання для асобных лістоў">
-<!ENTITY returnSome.accesskey         "а">
-<!ENTITY never.label                  "Ніколі не дасылаць квіток атрымання">
+<!ENTITY moveToSent.label             "Перамясціць яго ў папку «Адпраўленыя»">
+<!ENTITY moveToSent.accesskey         "е">
+<!ENTITY requestMDN.label             "Пры атрыманні запытаў на паведамленні аб прачытанні:">
+<!ENTITY returnSome.label             "Адпраўляць паведамленні аб прачытанні для некаторых паведамленняў">
+<!ENTITY returnSome.accesskey         "А">
+<!ENTITY never.label                  "Ніколі не адпраўляць паведамленні аб прачытанні">
 <!ENTITY never.accesskey              "Н">
-<!ENTITY notInToCc.label              "Калі я не ў Да ці Са ліста:">
-<!ENTITY notInToCc.accesskey          "С">
+<!ENTITY notInToCc.label              "Калі я не ў спісе «Каму» або «Копія»:">
+<!ENTITY notInToCc.accesskey          "л">
 <!ENTITY outsideDomain.label          "Калі адпраўнік па-за маім даменам:">
 <!ENTITY outsideDomain.accesskey      "д">
 <!ENTITY otherCases.label             "У іншых выпадках:">
 <!ENTITY otherCases.accesskey         "ш">
-<!ENTITY askMe.label                  "Пытацца мяне">
-<!ENTITY alwaysSend.label             "Заўсёды дасылаць">
-<!ENTITY neverSend.label              "Ніколі не дасылаць">
+<!ENTITY askMe.label                  "Пытацца ў мяне">
+<!ENTITY alwaysSend.label             "Заўсёды адпраўляць">
+<!ENTITY neverSend.label              "Ніколі не адпраўляць">

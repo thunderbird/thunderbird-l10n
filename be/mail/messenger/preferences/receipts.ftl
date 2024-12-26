@@ -2,11 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = Квіткі атрымання
-receipts-dialog-title = Квіткі атрымання
-receipt-arrive-label = Калі прыбывае квіток:
-receipt-request-label = Калі я атрымліваю патрабаванне квітка атрымання:
+receipts-dialog-title = Паведамленні аб прачытанні
+receipt-arrive-label = Пры атрыманні паведамлення аб прачытанні:
+receipt-request-label = Пры атрыманні запытаў на паведамленні аб прачытанні:
 receipt-send-never-label =
     .label = Ніколі не дасылаць
 receipt-send-always-label =
