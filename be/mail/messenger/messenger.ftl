@@ -157,11 +157,11 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Скасаваць выдаленне выбранага паведамлення
-            [few] Скасаваць выдаленне выбраных паведамленняў
-           *[many] Скасаваць выдаленне выбраных паведамленняў
+            [one] Аднавіць выбранае паведамленне
+            [few] Аднавіць выбраныя паведамленні
+           *[many] Аднавіць выбраныя паведамленні
         }
-    .accesskey = С
+    .accesskey = А
 menu-edit-properties =
     .label = Уласцівасці
     .accesskey = ц

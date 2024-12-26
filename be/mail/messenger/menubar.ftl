@@ -42,8 +42,8 @@ toolbar-delete-button =
     .label = Выдаліць
     .tooltiptext = Выдаліць абраныя лісты ці тэчкі
 toolbar-undelete-button =
-    .label = Адмяніць выдаленне
-    .tooltiptext = Адмяніць выдаленне вылучаных лістоў
+    .label = Аднавіць
+    .tooltiptext = Аднавіць выбраныя паведамленні
 
 ## View
 
