@@ -2,8 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-dialog-title = Ключавыя словы для папярэджанняў пра адсутныя прымацаванні
-attachment-reminder-label = { -brand-short-name } папярэдзіць вас пра адсутныя далучэнні, калі вы будзеце дасылаець э-ліст з адным з гэтых ключавых словаў.
+attachment-reminder-dialog-title = Ключавыя словы для папярэджанняў аб адсутных прымацаваннях
+attachment-reminder-label = { -brand-short-name } будзе папярэджваць аб тым, што вы забыліся прымацаваць файлы, калі вы паспрабуеце адправіць электронны ліст, які змяшчае адно з наступных ключавых словаў.
 keyword-new-button =
     .label = Стварыць…
     .accesskey = С
@@ -15,5 +15,5 @@ keyword-remove-button =
     .accesskey = д
 new-keyword-title = Новае ключавое слова
 new-keyword-label = Ключавое слова:
-edit-keyword-title = Праўка ключавога слова
+edit-keyword-title = Рэдагаваць ключавое слова
 edit-keyword-label = Ключавое слова:

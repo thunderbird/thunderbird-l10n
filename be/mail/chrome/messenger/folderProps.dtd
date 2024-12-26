@@ -8,7 +8,6 @@
 <!ENTITY folderRebuildSummaryFileTip2.label      "Перабудова паказальніка зводкавага файла">
 <!ENTITY folderRebuildSummaryFile2.label         "Выправіць папку">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "В">
-<!ENTITY folderRebuildSummaryFile.explanation    "Часам паказальнік папкі (.msf) псуецца і адсутныя або выдаленыя лісты працягваюцца паказвацца; выпраўленне папкі можа пазбавіцца такіх заганаў.">
 <!ENTITY folderIncludeInGlobalSearch.label       "Уключыць лісты з гэтай папкі ў вынікі ўсеагульнага пошуку">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "ў">
 
