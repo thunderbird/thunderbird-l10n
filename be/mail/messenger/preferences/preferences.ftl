@@ -47,7 +47,7 @@ privacy-junk-header = Спам
 collection-header = Збор і выкарыстанне даных { -brand-short-name }
 collection-description = Мы імкнёмся збіраць толькі тыя даныя, якія вы дазваляеце збіраць і якія патрэбны для выпуску і паляпшэння { -brand-short-name }. Мы заўсёды пытаемся дазволу перад атрыманнем асабістых звестак.
 collection-privacy-notice = Апавяшчэнне аб прыватнасці
-collection-health-report-telemetry-disabled = Вы больш не дазваляеце { -vendor-short-name } збіраць тэхнічныя даныя і даныя ўзаемадзеяння. Усе пазбіраныя даныя будуць выдалены на працягу 30 дзён.
+collection-health-report-telemetry-disabled = Вы больш не дазваляеце { -vendor-short-name } збіраць тэхнічныя даныя і даныя ўзаемадзеяння. Усе назбіраныя даныя будуць выдалены на працягу 30 дзён.
 collection-health-report-telemetry-disabled-link = Даведацца больш
 collection-health-report =
     .label = Дазволіць { -brand-short-name } адпраўляць тэхнічныя даныя і даныя ўзаемадзеяння ў { -vendor-short-name }
@@ -521,6 +521,9 @@ cookies-button =
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = Паведамляць вэб-сайтам, каб яны не прадавалі і не абагульвалі мае даныя
+    .accesskey = П
 do-not-track-removal = Мы больш не падтрымліваем сігнал «Не адсочваць»
 do-not-track-label =
     .label = Адпраўляць вэб-сайтам сігнал «Не адсочваць», які сведчыць, што вы не жадаеце, каб вас адсочвалі
@@ -735,7 +738,7 @@ sync-pane-change-device-name = Змяніць імя прылады
 sync-pane-cancel = Скасаваць
 sync-pane-save = Захаваць
 sync-pane-show-synced-header-on = Сінхранізацыя УКЛЮЧАНА
-sync-pane-show-synced-header-off = Сінхранізацыя ВЫКЛЮЧАНА
+sync-pane-show-synced-header-off = Сінхранізацыя АДКЛЮЧАНА
 sync-pane-sync-now = Сінхранізаваць зараз
 sync-panel-sync-now-syncing = Сінхранізацыя...
 show-synced-list-heading = Вы зараз сінхранізуеце:
