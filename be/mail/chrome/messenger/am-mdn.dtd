@@ -2,10 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY pane.title                   "Квіткі атрымання">
+<!ENTITY pane.title                   "Паведамленні аб прачытанні">
+<!ENTITY useGlobalPrefs.label         "Выкарыстоўваць мае глабальныя перавагі паведамленняў аб прачытанні для гэтага ўліковага запісу">
 <!ENTITY useGlobalPrefs.accesskey     "г">
 <!ENTITY globalReceipts.label         "Агульныя перавагі…">
 <!ENTITY globalReceipts.accesskey     "г">
+<!ENTITY useCustomPrefs.label         "Персаналізаваць перавагі паведамленняў аб прачытанні для гэтага ўліковага запісу">
 <!ENTITY useCustomPrefs.accesskey     "л">
 <!ENTITY requestReceipt.label         "Заўсёды патрабаваць квіток атрымання, калі дасылаюцца лісты">
 <!ENTITY requestReceipt.accesskey     "К">

@@ -201,6 +201,10 @@ search-integration-label =
 config-editor-button =
     .label = Рэдактар канфігурацыі…
     .accesskey = ф
+return-receipts-description = Вызначыце, як { -brand-short-name } павінен апрацоўваць паведамленні аб прачытанні
+return-receipts-button =
+    .label = Паведамленні аб прачытанні…
+    .accesskey = П
 update-app-legend = Абнаўленні { -brand-short-name }
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 68.0.1
@@ -216,11 +220,12 @@ use-service =
     .label = Выкарыстоўваць фонавую службу для ўсталёўкі абналенняў
     .accesskey = ф
 networking-legend = Злучэнне
+proxy-config-description = Наладзьце, як { -brand-short-name } павінен злучацца з інтэрнэтам
 network-settings-button =
     .label = Налады…
     .accesskey = Н
 offline-legend = Па-за сеткай
-offline-settings = Наладзіць працу па-за сеткаю
+offline-settings = Наладзьце працу па-за сеткаю
 offline-settings-button =
     .label = Па-за сеткай…
     .accesskey = й
@@ -245,6 +250,9 @@ use-cache-after = МБ месца на дыску для кэшу
 
 ##
 
+smart-cache-label =
+    .label = Адключыць аўтаматычнае кіраванне кэшам
+    .accesskey = А
 clear-cache-button =
     .label = Ачысціць зараз
     .accesskey = ч
@@ -377,8 +385,9 @@ table-layout-horizontal-scroll-label =
     .label = Дазволіць гарызантальную прагортку
     .accesskey = Д
 dark-reader-checkbox-label =
-    .label = Прыстасоўваць да цёмнай тэмы
+    .label = Адаптаваць пад цёмную тэму
     .accesskey = П
+dark-reader-checkbox-description = Эксперыментальная функцыя, якая прыстасоўвае панэль паведамленняў да цёмнай тэмы
 account-hub-legend = Цэнтр уліковых запісаў
 account-hub-checkbox-label =
     .label = Стварыце ўліковыя запісы ў новым цэнтры ўліковых запісаў
