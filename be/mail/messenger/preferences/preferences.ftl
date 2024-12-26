@@ -368,6 +368,10 @@ table-layout-horizontal-scroll-label =
     .label = Дазволіць гарызантальную прагортку
     .accesskey = Д
 account-hub-legend = Цэнтр уліковых запісаў
+account-hub-checkbox-label =
+    .label = Стварыце ўліковыя запісы ў новым цэнтры ўліковых запісаў
+    .accesskey = С
+account-hub-checkbox-description = Эксперыментальны працэс стварэння новага ўліковага запісу электроннай пошты
 
 ## Compose Tab
 
@@ -504,6 +508,10 @@ third-party-visited =
 cookies-button =
     .label = Паказаць кукі…
     .accesskey = к
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
 do-not-track-removal = Мы больш не падтрымліваем сігнал «Не адсочваць»
 do-not-track-label =
     .label = Адпраўляць вэб-сайтам сігнал «Не адсочваць», які сведчыць, што вы не жадаеце, каб вас адсочвалі
@@ -587,7 +595,7 @@ email-e2ee-auto-off-notify =
     .label = Паказваць апавяшчэнне кожны раз, калі шыфраванне аўтаматычна адключаецца
 email-e2ee-automatism-post =
     Аўтаматычныя рашэнні можна скасаваць, калі ўключыць або адключыць шыфраванне ўручную пры складанні паведамлення.
-    Увага: шыфраванне заўсёды аўтаматычна ўключаецца пры адказе на зашыфраванае паведамленне.
+    Увага: шыфраванне заўсёды аўтаматычна ўключаецца пры адказе на зашыфраваныя паведамленні.
 
 ## Chat Tab
 
