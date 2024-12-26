@@ -2,9 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Ключавыя словы напаміну пра далучэнні
-attachment-reminder-dialog-title = Ключавыя словы напаміну пра далучэнні
+attachment-reminder-dialog-title = Ключавыя словы для папярэджанняў пра адсутныя прымацаванні
 attachment-reminder-label = { -brand-short-name } папярэдзіць вас пра адсутныя далучэнні, калі вы будзеце дасылаець э-ліст з адным з гэтых ключавых словаў.
 keyword-new-button =
     .label = Стварыць…
