@@ -17,6 +17,13 @@ thread-pane-folder-message-count =
         [one] { $count } Mensaje
        *[other] { $count } Mensajes
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } seleccionado
+       *[other] { $count } seleccionados
+    }
 thread-pane-header-context-table-view =
     .label = Vista de tabla
 thread-pane-header-context-cards-view =
@@ -33,6 +40,16 @@ thread-pane-header-context-hide =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = ¿Mantener filtros aplicados al cambiar de carpetas?
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Menú de filtro rápido
+quick-filter-bar-dropdown-unread =
+    .label = Sin leer
+quick-filter-bar-dropdown-starred =
+    .label = Destacados
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Contacto
 quick-filter-bar-dropdown-tags =
     .label = Etiquetas
 quick-filter-bar-dropdown-attachment =
@@ -87,19 +104,25 @@ quick-filter-bar-results =
         [one] { $count } mensaje
        *[other] { $count } mensajes
     }
+quick-filter-bar-search2 =
+    .label = Filtrar mensajes
+quick-filter-bar-searching =
+    .title = Buscando…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
+quick-filter-bar-search-shortcut =
     { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
     }
 # This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Filtrar estos mensajes <{ quick-filter-bar-textbox-shortcut }>
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Filtrar mensajes… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Buscar en todas partes
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Modo de filtrado de etiquetas
