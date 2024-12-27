@@ -181,6 +181,7 @@ smooth-scrolling-label =
 browsing-gtk-use-non-overlay-scrollbars =
     .label = Заўсёды паказваць палосы прагорткі
     .accesskey = З
+window-layout-legend = Макет вокнаў
 draw-in-titlebar-label =
     .label = Хаваць загаловак сістэмнага акна
     .accesskey = Х
