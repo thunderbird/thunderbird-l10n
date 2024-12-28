@@ -35,10 +35,55 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-space-tab-mail = Surat
+    .title = Surat
+customize-space-tab-addressbook = Buku Alamat
+    .title = Buku Alamat
+customize-space-tab-calendar = Kalender
+    .title = Kalender
+customize-space-tab-tasks = Tugas
+    .title = Tugas
+customize-space-tab-chat = Obrolan
+    .title = Obrolan
+customize-space-tab-settings = Pengaturan
+    .title = Pengaturan
+customize-restore-default = Pulihkan bawaan
+customize-change-appearance = Ubah tampilan…
+customize-button-style-label = Gaya tombol:
 customize-button-style-icons-beside-text-option = Ikon di sebelah Teks
+customize-button-style-icons-above-text-option = Ikon di atas teks
+customize-button-style-icons-only-option = Ikon saja
+customize-button-style-text-only-option = Teks saja
+customize-cancel = Batal
+customize-save = Simpan
+customize-search-bar2 =
+    .label = Cari tombol bilah alat
+    .placeholder = Cari tombol bilah alat…
+customize-main-toolbar-target =
+    .aria-label = Bilah alat utama
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Tambahkan ke { $target }
+customize-palette-add-everywhere =
+    .label = Tambahkan ke semua bilah alat
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = Pindahkan ke depan
+customize-target-backward =
+    .label = Pindahkan ke belakang
+customize-target-remove =
+    .label = Hapus
+customize-target-remove-everywhere =
+    .label = Hapus dari semua bilah alat
+customize-target-add-everywhere =
+    .label = Tambahkan ke semua bilah alat
+customize-target-start =
+    .label = Pindah ke awal
+customize-target-end =
+    .label = Pindah ke akhir
