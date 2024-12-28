@@ -12,7 +12,7 @@ message-header-reply-to-list-name = Responder a
 message-header-cc-list-name = Cc
 message-header-bcc-list-name = Cco
 message-header-newsgroups-list-name = Grupos de noticias
-message-header-followup-to-list-name = Seguimento a
+message-header-followup-to-list-name = Continuar en
 message-header-tags-list-name = Etiquetas
 # List management header - RFC 2369.
 message-header-list-id = List-ID
