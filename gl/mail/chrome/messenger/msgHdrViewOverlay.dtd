@@ -13,7 +13,7 @@
 <!ENTITY ccField4.label "CC">
 <!ENTITY bccField4.label "Cco">
 <!ENTITY newsgroupsField4.label "Grupos de noticias">
-<!ENTITY followupToField4.label "Seguimento a">
+<!ENTITY followupToField4.label "Continuar en">
 <!ENTITY tagsHdr4.label "Etiquetas">
 <!ENTITY dateField4.label "Data">
 <!ENTITY userAgentField4.label "User Agent">
@@ -31,7 +31,7 @@
 <!ENTITY hdrReplyAllButton1.tooltip "Responder ao remitente e a todos os destinatarios">
 <!ENTITY hdrReplyListButton1.label "Responder á lista">
 <!ENTITY hdrReplyListButton1.tooltip "Responder á lista de correo">
-<!ENTITY hdrFollowupButton1.label "Responder">
+<!ENTITY hdrFollowupButton1.label "Responder no grupo">
 <!ENTITY hdrFollowupButton1.tooltip "Publicar unha resposta neste grupo de noticias">
 <!ENTITY hdrForwardButton1.label "Reenviar">
 <!ENTITY hdrForwardButton1.tooltip "Reenviar esta mensaxe">

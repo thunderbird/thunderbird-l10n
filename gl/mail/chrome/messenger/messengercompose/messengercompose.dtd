@@ -213,7 +213,7 @@
 <!ENTITY fromAddr.accesskey "e">
 <!ENTITY replyAddr2.label "Responder a">
 <!ENTITY newsgroupsAddr2.label "Grupo de noticias">
-<!ENTITY followupAddr2.label "Seguimento a">
+<!ENTITY followupAddr2.label "Continuar en">
 <!ENTITY subject2.label "Asunto">
 <!ENTITY subject.accesskey "n">
 <!ENTITY attachmentBucketCloseButton.tooltip "Agocha o panel de anexos">
