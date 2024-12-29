@@ -575,10 +575,18 @@ third-party-always =
 third-party-never =
     .label = nigdy
 third-party-visited =
-    .label = z odwiedzonych
+    .label = z odwiedzonych
 cookies-button =
     .label = Wyświetl ciasteczka…
     .accesskey = c
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = Informowanie witryn, że mają nie sprzedawać ani nie udostępniać moich danych
+    .accesskey = n
+do-not-track-removal = Nagłówek „Do Not Track” (prośba o nieśledzenie) nie jest już obsługiwany
 do-not-track-label =
     .label = Informowanie witryn o preferencjach względem śledzenia (wysyłanie nagłówka „Do Not Track”)
     .accesskey = n
