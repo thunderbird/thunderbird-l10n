@@ -584,7 +584,7 @@ cookies-button =
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Rheoli Preifatrwydd Eang (GPC)
 global-privacy-control-description =
-    .label = Dweud wrth wefannau i beidio â gwerthu neu rannu fy nata
+    .label = Dweud wrth wefannau am beidio â gwerthu neu rannu fy nata
     .accesskey = D
 do-not-track-removal = Nid ydym bellach yn cefnogi'r signal “Peidiwch â Thracio”.
 do-not-track-label =
