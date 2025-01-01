@@ -103,6 +103,9 @@ toolbar-mail =
 toolbar-print-label = Cetak
 toolbar-print =
     .title = Cetak pesan ini
+toolbar-quick-filter-bar-label = Filter Cepat
+toolbar-quick-filter-bar =
+    .title = Saring pesan
 toolbar-synchronize-label = Sinkronkan
 toolbar-synchronize =
     .title = Muat ulang kalender dan sinkronkan perubahan
@@ -133,6 +136,24 @@ toolbar-stop =
 toolbar-throbber-label = Indikator Aktivitas
 toolbar-throbber =
     .title = Indikator Aktivitas
+toolbar-create-contact-label = Kontak Baru
+toolbar-create-contact =
+    .title = Buat kontak baru
+toolbar-create-address-book-label = Buku Alamat Baru
+toolbar-create-address-book =
+    .title = Buat buku alamat baru
+toolbar-create-list-label = Milis Baru
+toolbar-create-list =
+    .title = Buat milis baru
+toolbar-import-contacts-label = Impor
+toolbar-import-contacts =
+    .title = Impor kontak dari berkas
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Tambahkan Buku Alamat Lokal
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Tambahkan Buku Alamat CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Tambahkan Buku Alamat LDAP
