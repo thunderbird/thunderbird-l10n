@@ -19,9 +19,23 @@ openpgp-view-your-encryption-key =
     .label = ดูคีย์ถอดรหัสลับของคุณ
 openpgp-openpgp = OpenPGP
 openpgp-no-sig = ไม่มีลายเซ็นดิจิทัล
+openpgp-no-sig-info = ข้อความนี้ไม่มีลายเซ็นดิจิทัลของผู้ส่ง ซึ่งหมายความว่าข้อความนี้อาจถูกส่งโดยผู้ที่แอบอ้างว่ามีที่อยู่อีเมลนี้ และอาจเป็นไปได้ด้วยว่าข้อความได้รับการเปลี่ยนแปลงในระหว่างการส่งผ่านเครือข่าย
 openpgp-uncertain-sig = ลายเซ็นดิจิทัลไม่แน่นอน
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-uncertain-sig-with-date = ลายเซ็นดิจิทัลไม่แน่นอน - ลงลายเซ็นเมื่อ { $date }
 openpgp-invalid-sig = ลายเซ็นดิจิทัลไม่ถูกต้อง
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-invalid-sig-with-date = ลายเซ็นดิจิทัลไม่ถูกต้อง - ลงลายเซ็นเมื่อ { $date }
+openpgp-bad-date-sig = วันที่ลายเซ็นไม่ตรงกัน
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = วันที่ลายเซ็นไม่ตรงกัน - ลงลายเซ็นเมื่อ { $date }
 openpgp-good-sig = ลายเซ็นดิจิทัลถูกต้อง
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-good-sig-with-date = ลายเซ็นดิจิทัลใช้ได้ - ลงลายเซ็นเมื่อ { $date }
 openpgp-sig-uncertain-no-key = ข้อความนี้มีลายเซ็นดิจิทัล แต่ไม่แน่ใจว่าถูกต้องหรือไม่ เมื่อต้องการตรวจสอบลายเซ็น คุณจะต้องรับสำเนาคีย์สาธารณะของผู้ส่ง
 openpgp-sig-uncertain-uid-mismatch = ข้อความนี้มีลายเซ็นดิจิทัล แต่ตรวจพบความไม่ตรงกัน ข้อความถูกส่งจากที่อยู่อีเมลที่ไม่ตรงกับคีย์สาธารณะของผู้ลงลายเซ็น
 openpgp-sig-uncertain-not-accepted = ข้อความนี้มีลายเซ็นดิจิทัล แต่คุณยังไม่ได้ตัดสินใจว่าคุณสามารถยอมรับคีย์ของผู้ลงลายเซ็นได้หรือไม่
