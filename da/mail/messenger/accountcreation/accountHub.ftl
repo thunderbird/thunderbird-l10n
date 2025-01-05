@@ -118,6 +118,7 @@ account-hub-password-info = Dine login-oplysninger vil kun blive gemt lokalt på
 account-hub-sync-success = Thunderbird fandt nogle forbundne tjenester
 account-hub-sync-failure = Thunderbird kunne ikke finde nogen forbundne tjenester
 account-hub-unable-to-sync-accounts = Thunderbird kunne ikke tilknytte de valgte tjenester
+account-hub-email-added-success = Mail-kontoen er tilsluttet
 account-hub-config-test-success = Indstillinger er gyldige
 account-hub-select-all = Vælg alle
 account-hub-deselect-all = Fravælg alle
