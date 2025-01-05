@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Velkommen til <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = Konto-hub
+account-hub-title = Kontocenter
 
 ## Footer
 
@@ -52,8 +52,16 @@ account-hub-email-continue-button = Fortsæt
 account-hub-email-confirm-button = Bekræft
 account-hub-incoming-server-legend = Indgående server
 account-hub-outgoing-server-legend = Udgående server
+account-hub-result-incoming-server-legend = Indgående server
+    .title = Indgående server
+account-hub-result-outgoing-server-legend = Udgående server
+    .title = Udgående server
 account-hub-protocol-label = Protokol
 account-hub-hostname-label = Værtsnavn
+account-hub-result-hostname-label = Værtsnavn
+    .title = Værtsnavn
+account-hub-result-authentication-label = Godkendelse
+    .title = Godkendelse
 account-hub-port-label = Port
     .title = Sæt portnummeret til 0 for automatisk udfyldning
 account-hub-auto-description = { -brand-short-name } forsøger automatisk at udfylde tomme felter.
@@ -78,6 +86,8 @@ account-hub-auth-no-authentication-option =
     .label = Ingen godkendelse
 account-hub-auth-label = Godkendelsesmetode
 account-hub-username-label = Brugernavn
+account-hub-result-username-label = Brugernavn
+    .title = Brugernavn
 account-hub-name-label = Fulde navn
     .accesskey = n
 account-hub-adding-account-title = Tilføjer konto
@@ -96,3 +106,7 @@ account-hub-email-enter-password = Indtast adgangskoden til din mailkonto
 account-hub-email-sync-accounts = Synkroniser dine kalendere og adressebøger
 account-hub-test-configuration = Test
 account-hub-add-new-email = Tilføj endnu en mailadresse
+account-hub-result-imap-description = Hold dine mapper og meddelelser synkroniseret på din server
+account-hub-result-pop-description = Hold dine mapper og meddelelser på din computer
+account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Brug Microsoft Exchange Web Services til at synkronisere dine mapper og meddelelser
