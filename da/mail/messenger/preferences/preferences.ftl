@@ -426,6 +426,10 @@ dark-reader-checkbox-label =
     .label = Tilpas til mørkt tema
     .accesskey = m
 dark-reader-checkbox-description = Eksperimentel funktion, der får meddelelsesruden til at følge mørke temaer
+account-hub-legend = Kontocenter
+account-hub-checkbox-label =
+    .label = Opret konti i det nye Kontocenter
+    .accesskey = O
 
 ## Compose Tab
 
