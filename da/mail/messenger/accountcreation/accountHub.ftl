@@ -110,3 +110,24 @@ account-hub-result-imap-description = Hold dine mapper og meddelelser synkronise
 account-hub-result-pop-description = Hold dine mapper og meddelelser på din computer
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Brug Microsoft Exchange Web Services til at synkronisere dine mapper og meddelelser
+account-hub-result-ews-text = Server
+account-hub-result-recommended-label = Anbefalet
+account-hub-edit-configuration = Rediger indstillinger
+account-hub-config-success = Indstillinger fundet i Mozillas database over mailudbydere
+account-hub-password-info = Dine login-oplysninger vil kun blive gemt lokalt på din computer
+account-hub-sync-success = Thunderbird fandt nogle forbundne tjenester
+account-hub-sync-failure = Thunderbird kunne ikke finde nogen forbundne tjenester
+account-hub-unable-to-sync-accounts = Thunderbird kunne ikke tilknytte de valgte tjenester
+account-hub-config-test-success = Indstillinger er gyldige
+account-hub-select-all = Vælg alle
+account-hub-deselect-all = Fravælg alle
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } valgt
+       *[other] { $count } valgt
+    }
+account-hub-no-address-books = Ingen adressebøger fundet
+account-hub-no-calendars = Ingen kalendere fundet
+account-hub-email-added-success-links-title = Se muligheder for sikkerhed og tilpasning:
+account-hub-signature-link = Meddelelsessignatur

@@ -430,6 +430,7 @@ account-hub-legend = Kontocenter
 account-hub-checkbox-label =
     .label = Opret konti i det nye Kontocenter
     .accesskey = O
+account-hub-checkbox-description = Ny, eksperimentel procedure til oprettelse af mailkonti
 
 ## Compose Tab
 
@@ -575,6 +576,14 @@ third-party-visited =
 cookies-button =
     .label = Vis cookies…
     .accesskey = V
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = Bed websteder om ikke at sælge eller dele mine data
+    .accesskey = w
+do-not-track-removal = Vi understøtter ikke længere "Spor mig ikke"-signalet
 do-not-track-label =
     .label = Send et “Spor mig ikke”-signal til websider som tegn på, at du ikke ønsker at blive sporet
     .accesskey = n
